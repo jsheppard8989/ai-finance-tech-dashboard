@@ -3,80 +3,80 @@
 
 const dashboardData = {
   schemaVersion: 2,
-  generatedAt: "2026-08-02T22:03:40.189766",
-  chartsVersion: "2026-08-02T22:03:26.022341",
+  generatedAt: "2026-08-02T23:40:37.245890",
+  chartsVersion: "2026-08-02T23:40:31.077160",
   priceSnapshot: {
   "GOOGL": {
     "price": 356.13,
     "change_pct": -0.94,
     "name": "GOOGL",
-    "updated_at": "2026-08-02T22:03:26.021043"
+    "updated_at": "2026-08-02T23:40:31.076711"
   },
   "NVDA": {
     "price": 200.75,
     "change_pct": -5.22,
     "name": "NVDA",
-    "updated_at": "2026-08-02T22:03:26.021066"
+    "updated_at": "2026-08-02T23:40:31.076720"
   },
   "BTC": {
-    "price": 63067.95,
-    "change_pct": -5.17,
+    "price": 62915.19,
+    "change_pct": -5.4,
     "name": "BTC",
-    "updated_at": "2026-08-02T22:03:26.021076"
+    "updated_at": "2026-08-02T23:40:31.076724"
   },
   "MSFT": {
     "price": 464.72,
     "change_pct": 20.73,
     "name": "MSFT",
-    "updated_at": "2026-08-02T22:03:26.021085"
+    "updated_at": "2026-08-02T23:40:31.076727"
   },
   "TSLA": {
     "price": 311.21,
     "change_pct": -21.45,
     "name": "TSLA",
-    "updated_at": "2026-08-02T22:03:26.021095"
+    "updated_at": "2026-08-02T23:40:31.076730"
   },
   "AMZN": {
     "price": 271.58,
     "change_pct": 9.73,
     "name": "AMZN",
-    "updated_at": "2026-08-02T22:03:26.021103"
+    "updated_at": "2026-08-02T23:40:31.076734"
   },
   "META": {
     "price": 556.71,
     "change_pct": -15.78,
     "name": "META",
-    "updated_at": "2026-08-02T22:03:26.021111"
+    "updated_at": "2026-08-02T23:40:31.076737"
   },
   "WTI": {
     "price": 3.59,
     "change_pct": 0.0,
     "name": "WTI",
-    "updated_at": "2026-08-02T22:03:26.021118"
+    "updated_at": "2026-08-02T23:40:31.076740"
   },
   "S&P 500": {
     "price": 747.03,
     "change_pct": -0.64,
     "name": "S&P 500",
-    "updated_at": "2026-08-02T22:03:26.021126"
+    "updated_at": "2026-08-02T23:40:31.076743"
   },
   "AAPL": {
     "price": 308.91,
     "change_pct": -1.89,
     "name": "AAPL",
-    "updated_at": "2026-08-02T22:03:26.021135"
+    "updated_at": "2026-08-02T23:40:31.076746"
   },
   "QQQ": {
     "price": 687.99,
     "change_pct": -4.4,
     "name": "Invesco QQQ Trust",
-    "updated_at": "2026-08-02T22:03:26.021143"
+    "updated_at": "2026-08-02T23:40:31.076749"
   },
   "BTC-USD": {
-    "price": 63067.95,
-    "change_pct": -5.17,
+    "price": 62915.19,
+    "change_pct": -5.4,
     "name": "Bitcoin USD",
-    "updated_at": "2026-08-02T22:03:26.021153"
+    "updated_at": "2026-08-02T23:40:31.076753"
   }
 },
   tickerScores: [
@@ -855,6 +855,27 @@ const dashboardData = {
       "podcast_episode_id": 380
     },
     {
+      "id": 396,
+      "title": "Why Macro is \u201cPretty Risk-On\u201d for Equities | Tian Yang of Variant Perception",
+      "source_type": "podcast",
+      "source_name": "Monetary Matters with Jack Farley",
+      "source_date": "2026-08-02",
+      "summary": "In this episode of Monetary Matters with Jack Farley, TN Yang, co-founder and head of research at Variant Perception, discusses the current state of the stock market, focusing on indices like the S&P and NASDAQ, as well as semiconductor stocks. Yang provides insights on the macro risk indicators and the potential for a market bottom. He also touches on the high valuations in AI and the speculative mania in Korea, suggesting a need for a new narrative to drive the market. Yang forecasts a market broadening phase with money rotating to value laggards and discusses LPPL exhaustion signals as a bubble and crash detection system. The conversation also covers China's economic policies, particularly regarding oil reserves and the impact on global markets.",
+      "key_takeaway": "The market is in a phase where a new narrative is needed to drive further growth, with a focus on value laggards and sectors less exposed to speculative excesses.",
+      "tickers_mentioned": [
+        "LVMA",
+        "IWD",
+        "IWF"
+      ],
+      "sentiment": "neutral",
+      "display_on_main": 1,
+      "display_order": 0,
+      "added_date": "2026-08-02",
+      "archived_date": null,
+      "archived_reason": null,
+      "podcast_episode_id": 381
+    },
+    {
       "id": 394,
       "title": "Marc Andreessen and Chris Dixon: What\u2019s at Stake in Crypto Regulation",
       "source_type": "podcast",
@@ -1043,7 +1064,7 @@ const dashboardData = {
         "AAPL"
       ],
       "sentiment": "bullish",
-      "display_on_main": 1,
+      "display_on_main": 0,
       "display_order": 0,
       "added_date": "2026-07-30",
       "archived_date": null,
@@ -10523,6 +10544,30 @@ const dashboardData = {
       "key_tickers": []
     },
     {
+      "id": 396,
+      "title": "Why Macro is \u201cPretty Risk-On\u201d for Equities | Tian Yang of Variant Perception",
+      "source_type": "podcast",
+      "source_name": "Monetary Matters with Jack Farley",
+      "source_date": "2026-08-02",
+      "summary": "In this episode of Monetary Matters with Jack Farley, TN Yang, co-founder and head of research at Variant Perception, discusses the current state of the stock market, focusing on indices like the S&P and NASDAQ, as well as semiconductor stocks. Yang provides insights on the macro risk indicators and the potential for a market bottom. He also touches on the high valuations in AI and the speculative mania in Korea, suggesting a need for a new narrative to drive the market. Yang forecasts a market broadening phase with money rotating to value laggards and discusses LPPL exhaustion signals as a bubble and crash detection system. The conversation also covers China's economic policies, particularly regarding oil reserves and the impact on global markets.",
+      "key_takeaway": "The market is in a phase where a new narrative is needed to drive further growth, with a focus on value laggards and sectors less exposed to speculative excesses.",
+      "tickers_mentioned": "[\"LVMA\", \"IWD\", \"IWF\"]",
+      "sentiment": "neutral",
+      "display_on_main": 1,
+      "display_order": 0,
+      "added_date": "2026-08-02",
+      "archived_date": null,
+      "archived_reason": null,
+      "podcast_episode_id": 381,
+      "episode_release_date": "2026-08-02",
+      "guest_name": "Why Macro is \u201cPretty Risk-On\u201d for Equities",
+      "key_tickers": [
+        "LVMA",
+        "IWD",
+        "IWF"
+      ]
+    },
+    {
       "id": 394,
       "title": "Marc Andreessen and Chris Dixon: What\u2019s at Stake in Crypto Regulation",
       "source_type": "podcast",
@@ -10649,26 +10694,6 @@ const dashboardData = {
       "archived_reason": null,
       "podcast_episode_id": 375,
       "episode_release_date": "2026-07-29",
-      "guest_name": null,
-      "key_tickers": []
-    },
-    {
-      "id": 390,
-      "title": "The $1/Hour Worker: Four Robotics CEOs on Humanoids at Home, China's Threat, and the End of Dangerous Jobs",
-      "source_type": "podcast",
-      "source_name": "All-In with Chamath, Jason, Sacks & Friedberg",
-      "source_date": "2026-07-28",
-      "summary": "This episode of 'All-In with Chamath, Jason, Sacks & Friedberg' features interviews with leaders in the robotics industry, discussing the current state and future of robotics and AI in practical applications. The conversation covers the transition from research to real-world deployment, the advantages of four-legged robot designs, and the emerging job market in robotics. The guests also touch on the potential for AI to automate lab work and the ethical considerations of creating advanced robots.",
-      "key_takeaway": "Investing in robotics and AI companies that are successfully transitioning from research to real-world applications could offer significant growth potential as these technologies become more integrated into various industries.",
-      "tickers_mentioned": "[\"AAPL\"]",
-      "sentiment": "bullish",
-      "display_on_main": 1,
-      "display_order": 0,
-      "added_date": "2026-07-30",
-      "archived_date": null,
-      "archived_reason": null,
-      "podcast_episode_id": 373,
-      "episode_release_date": "2026-07-28",
       "guest_name": null,
       "key_tickers": []
     }
@@ -34463,9 +34488,73 @@ const dashboardData = {
     "source_name": "The a16z Show",
     "source_date": "2026-08-02",
     "key_tickers": []
+  },
+  "396": {
+    "id": 386,
+    "insight_id": 396,
+    "podcast_episode_id": 381,
+    "overview": "The unresolved tension in the market, as discussed by TN Yang, is the search for a new narrative to drive growth in the absence of fresh catalysts in sectors like AI and semiconductors. The competitive dynamic is between value laggards and sectors less exposed to speculative excesses, which Yang suggests are poised to attract investment as money rotates out of overvalued areas. The allocator-relevant implication is that investors need to be alert to shifts in market narratives and be prepared to rotate their portfolios accordingly, with the understanding that the current macro environment still supports risk assets, but the specific sectors driving growth may change.",
+    "key_takeaways_detailed": [
+      "Investors should monitor LPPL exhaustion signals to identify potential bubble bursts and market crashes in overvalued sectors.",
+      "The transition to value laggards suggests a tactical shift towards sectors that have been underperforming but may now offer better risk-adjusted returns.",
+      "The need for a new narrative implies that investors should be on the lookout for emerging themes that could catalyze the next market rally.",
+      "Diversification into value stocks and sectors less exposed to speculative mania can provide a hedge against potential corrections in high-flying sectors."
+    ],
+    "investment_thesis": "The core logic is that while the macro environment remains supportive of risk assets, the market is in a phase where it requires a new narrative to sustain growth. This thesis is tied to the observation that the current narratives around AI and semiconductors have reached a saturation point, and the market is broadening out to value laggards. The timeframe for this thesis is the next 3 to 6 months, and it would be vindicated by a rotation into value stocks and the emergence of new market narratives that drive growth. Conversely, it would be invalidated by a sustained downturn in risk assets or a failure of value stocks to outperform.",
+    "ticker_analysis": {
+      "AAPL": {
+        "rationale": "Apple is a key player in the technology sector and has significant exposure to the semiconductor market, making it relevant to the thesis of a market rotation and the search for new narratives.",
+        "positioning": "Positioning in AAPL could be strategic, considering its potential to benefit from a shift towards value stocks and its ability to innovate and participate in new market narratives.",
+        "risk": "Key risks include a slowdown in consumer spending, increased competition in the smartphone market, and potential disruptions in the global supply chain."
+      }
+    },
+    "positioning_guidance": "",
+    "risk_factors": [],
+    "contrarian_signals": [
+      "A sudden surge in AI-related breakthroughs that reinvigorate the sector and draw investment away from value laggards.",
+      "Central banks adopting a more dovish stance than expected, which could prolong the life of current market narratives and delay the rotation to value stocks.",
+      "A global economic downturn that undermines the 'risk on' macro environment and affects all sectors, including value laggards."
+    ],
+    "catalysts": [
+      "Earnings reports from major AI and semiconductor companies that could signal the end of the current narrative or the beginning of a new one.",
+      "Policy decisions from central banks that could either support or constrain the 'risk on' macro environment.",
+      "Economic indicators such as GDP growth, inflation rates, and employment figures that could influence the macro risk indicators and market sentiment."
+    ],
+    "related_insights": null,
+    "audio_timestamp_start": null,
+    "audio_timestamp_end": null,
+    "transcript_excerpt": null,
+    "created_at": "2026-08-02T23:39:43.244454",
+    "updated_at": "2026-08-03 04:39:43",
+    "episode_evidence": "TN Yang from Variant Perception provides a nuanced perspective on the current stock market dynamics, emphasizing the importance of macro risk indicators in shaping the investment outlook. He states, 'We're still in a risk on macro regime, where it sees the mix of growth, inflation, policy, liquidity, is broadly still supportive risk assets.' This suggests that despite high valuations in sectors like AI, the overall macro environment remains conducive to risk assets. Yang also highlights the significance of LPPL exhaustion signals as a bubble and crash detection system, explaining, 'LPPL stands for log periodic power... it's our bubble and crash detection system.' This system is designed to identify the final lag in markets that have been moving exponentially, indicating potential exhaustion points. Yang's analysis of the semiconductor and AI sectors reveals a shift in narrative, as he notes, 'The narrative around a generic AI, the narrative around bottlenecks, that's what field dislike of the rally from April on, that narrative clearly done.' This indicates a saturation point in the market's understanding and participation in these narratives, suggesting a need for new investment themes to drive further growth.",
+    "falsification_tracks": [
+      "If the S&P and NASDAQ indices show a consistent downtrend over the next quarter, contradicting the 'risk on' assessment.",
+      "A significant and sustained increase in inflation that forces central banks to aggressively tighten monetary policy.",
+      "A sharp decline in liquidity measures, indicating a drying up of funds available for investment in risk assets."
+    ],
+    "insight_title": "Why Macro is \u201cPretty Risk-On\u201d for Equities | Tian Yang of Variant Perception",
+    "source_name": "Monetary Matters with Jack Farley",
+    "source_date": "2026-08-02",
+    "key_tickers": [
+      "LVMA",
+      "IWD",
+      "IWF"
+    ]
   }
 },
   suggestedTerms: [
+  {
+    "id": 558,
+    "term": "LPPL Exhaustion Signals",
+    "definition": "A bubble and crash detection system used to identify the final stages of a market bubble before a crash.",
+    "investment_implications": "Identifies high-risk periods in the market, signaling potential market tops and bottoms.",
+    "source_type": "auto_extracted",
+    "mention_count": 1,
+    "source_diversity": 1,
+    "relevance_score": 50,
+    "submitted_date": "2026-08-03 04:38:17",
+    "priority_score": 80
+  },
   {
     "id": 556,
     "term": "Cyber Ethnography",
@@ -34501,23 +34590,23 @@ const dashboardData = {
     "relevance_score": 50,
     "submitted_date": "2026-08-01 18:36:59",
     "priority_score": 80
-  },
-  {
-    "id": 554,
-    "term": "Stablecoins",
-    "definition": "Cryptocurrencies pegged to a stable asset, like the US dollar, to minimize volatility.",
-    "investment_implications": "Stablecoins are seen as a rival to traditional payment networks and could disrupt global finance.",
-    "source_type": "auto_extracted",
-    "mention_count": 1,
-    "source_diversity": 1,
-    "relevance_score": 50,
-    "submitted_date": "2026-08-01 18:36:59",
-    "priority_score": 80
   }
 ],
   podcastGuests: [
   {
-    "id": 42336,
+    "id": 42444,
+    "name": "Why Macro is \u201cPretty Risk-On\u201d for Equities",
+    "slug": "why-macro-is-pretty-risk-on-for-equities",
+    "bio": null,
+    "known_for": null,
+    "last_main_idea": "The market is in a phase where a new narrative is needed to drive further growth, with a focus on value laggards and sectors less exposed to speculative excesses.",
+    "last_episode_title": "Why Macro is \u201cPretty Risk-On\u201d for Equities | Tian Yang of Variant Perception",
+    "last_podcast_name": "Monetary Matters with Jack Farley",
+    "last_episode_date": "2026-08-02",
+    "appearance_count": 1
+  },
+  {
+    "id": 42445,
     "name": "AI for America's Small Businesses",
     "slug": "ai-for-americas-small-businesses",
     "bio": null,
@@ -34529,7 +34618,7 @@ const dashboardData = {
     "appearance_count": 1
   },
   {
-    "id": 42337,
+    "id": 42446,
     "name": "Mum\u2019s The Word",
     "slug": "mums-the-word",
     "bio": null,
@@ -34541,7 +34630,7 @@ const dashboardData = {
     "appearance_count": 1
   },
   {
-    "id": 42338,
+    "id": 42447,
     "name": "Luke Gromen",
     "slug": "luke-gromen",
     "bio": null,
@@ -34553,7 +34642,7 @@ const dashboardData = {
     "appearance_count": 1
   },
   {
-    "id": 42339,
+    "id": 42448,
     "name": "Codex from 0 to 10M Users",
     "slug": "codex-from-0-to-10m-users",
     "bio": null,
@@ -34565,7 +34654,7 @@ const dashboardData = {
     "appearance_count": 1
   },
   {
-    "id": 42340,
+    "id": 42449,
     "name": "Ben Horowitz",
     "slug": "ben-horowitz",
     "bio": "Ben Horowitz is a co-founder of venture firm Andreessen Horowitz and former CEO of Opsware, known for advising founders on leadership under pressure.",
@@ -34577,7 +34666,7 @@ const dashboardData = {
     "appearance_count": 3
   },
   {
-    "id": 42341,
+    "id": 42450,
     "name": "Building the Physical AI Stack",
     "slug": "building-the-physical-ai-stack",
     "bio": null,
@@ -34589,7 +34678,7 @@ const dashboardData = {
     "appearance_count": 1
   },
   {
-    "id": 42342,
+    "id": 42451,
     "name": "Travis Kalanick Is Back",
     "slug": "travis-kalanick-is-back",
     "bio": null,
@@ -34601,7 +34690,7 @@ const dashboardData = {
     "appearance_count": 1
   },
   {
-    "id": 42343,
+    "id": 42452,
     "name": "Why Physical AI Is the Next Frontier",
     "slug": "why-physical-ai-is-the-next-frontier",
     "bio": null,
@@ -34613,7 +34702,7 @@ const dashboardData = {
     "appearance_count": 1
   },
   {
-    "id": 42344,
+    "id": 42453,
     "name": "Nick Nemeth",
     "slug": "nick-nemeth",
     "bio": null,
@@ -34625,7 +34714,7 @@ const dashboardData = {
     "appearance_count": 1
   },
   {
-    "id": 42345,
+    "id": 42454,
     "name": "Mark Cuban on the AI Bubble",
     "slug": "mark-cuban-on-the-ai-bubble",
     "bio": null,
@@ -34637,7 +34726,7 @@ const dashboardData = {
     "appearance_count": 1
   },
   {
-    "id": 42346,
+    "id": 42455,
     "name": "Urgent Update- AI Sputnik Moment",
     "slug": "urgent-update--ai-sputnik-moment",
     "bio": null,
@@ -34649,7 +34738,7 @@ const dashboardData = {
     "appearance_count": 1
   },
   {
-    "id": 42347,
+    "id": 42456,
     "name": "Replay 2025",
     "slug": "replay-2025",
     "bio": null,
@@ -34661,7 +34750,7 @@ const dashboardData = {
     "appearance_count": 1
   },
   {
-    "id": 42348,
+    "id": 42457,
     "name": "Turbo Charged Trend Following",
     "slug": "turbo-charged-trend-following",
     "bio": null,
@@ -34673,7 +34762,7 @@ const dashboardData = {
     "appearance_count": 1
   },
   {
-    "id": 42349,
+    "id": 42458,
     "name": "Can Anyone Catch NVIDIA?",
     "slug": "can-anyone-catch-nvidia",
     "bio": null,
@@ -34685,7 +34774,7 @@ const dashboardData = {
     "appearance_count": 1
   },
   {
-    "id": 42350,
+    "id": 42459,
     "name": "Is AI a Bubble?",
     "slug": "is-ai-a-bubble",
     "bio": null,
@@ -34697,7 +34786,7 @@ const dashboardData = {
     "appearance_count": 1
   },
   {
-    "id": 42351,
+    "id": 42460,
     "name": "Adam Brown \u2013 Einstein's happiest thought",
     "slug": "adam-brown--einsteins-happiest-thought",
     "bio": null,
@@ -34709,7 +34798,7 @@ const dashboardData = {
     "appearance_count": 1
   },
   {
-    "id": 42352,
+    "id": 42461,
     "name": "Mark Zuckerberg & Priscilla Chan",
     "slug": "mark-zuckerberg--priscilla-chan",
     "bio": null,
@@ -34721,7 +34810,7 @@ const dashboardData = {
     "appearance_count": 1
   },
   {
-    "id": 42353,
+    "id": 42462,
     "name": "Adam Neumann",
     "slug": "adam-neumann",
     "bio": null,
@@ -34733,7 +34822,7 @@ const dashboardData = {
     "appearance_count": 1
   },
   {
-    "id": 42354,
+    "id": 42463,
     "name": "Breaking Down the Multi-Manager Playbook",
     "slug": "breaking-down-the-multi-manager-playbook",
     "bio": null,
@@ -34742,18 +34831,6 @@ const dashboardData = {
     "last_episode_title": "Breaking Down the Multi-Manager Playbook: How This $19B CIO Thinks About Alpha | Sean McGould | The Lighthouse Group",
     "last_podcast_name": "Monetary Matters with Jack Farley",
     "last_episode_date": "2026-07-07",
-    "appearance_count": 1
-  },
-  {
-    "id": 42355,
-    "name": "Don\u2019t Follow Your Passion",
-    "slug": "dont-follow-your-passion",
-    "bio": null,
-    "known_for": null,
-    "last_main_idea": "Invest in original ideas and platforms that challenge conventional wisdom and facilitate access to information and innovation, particularly those with societal contributions.",
-    "last_episode_title": "Don\u2019t Follow Your Passion | Ben Horowitz\u2019s Advice for New Graduates",
-    "last_podcast_name": "The a16z Show",
-    "last_episode_date": "2026-07-06",
     "appearance_count": 1
   }
 ],
@@ -34961,7 +35038,7 @@ const dashboardData = {
     "last_podcast_name": "The a16z Show",
     "last_episode_date": "2026-07-22",
     "mention_score": 3,
-    "mention_score_decayed": 2.38,
+    "mention_score_decayed": 2.33,
     "last_main_idea": "The next great technology revolution will be in the physical world, with industrial AI, robotics, and autonomy driving transformative change across industries.",
     "last_proof_cite": "The a16z Show \u2022 2026-07-22 \u2022 Travis Kalanick Is Back | Building the Future of Industrial AI",
     "last_proof_snippet": "We know what Boobers 2017 was like. Travis Kalana, because Snapchat's dying from his role as chief executive. That wouldn't have gone that way if Ben or Mark was on the board. You're in this hell, you're dealing with lawsuits. I worry about",
@@ -35090,7 +35167,7 @@ const dashboardData = {
     "last_podcast_name": "Monetary Matters with Jack Farley",
     "last_episode_date": "2026-07-28",
     "mention_score": 2,
-    "mention_score_decayed": 1.87,
+    "mention_score_decayed": 1.82,
     "last_main_idea": "The bond market is facing significant challenges due to supply and demand imbalances, fiscal pressures, and aging populations, making gold an attractive store of value in the current economic climate.",
     "last_proof_cite": "Monetary Matters with Jack Farley \u2022 2026-07-28 \u2022 Luke Gromen: Yield Curve Control is the Only Way to Stop a Global Bond Crisis",
     "last_proof_snippet": "Germany, Japan, and Korea are all historically big creditors from a sovereign perspective. And in particular, Japan, if they're borrowing money to do defense to me, they have turned sellers of bonds as well. So now they're selling, they're",
@@ -35210,7 +35287,7 @@ const dashboardData = {
     "last_podcast_name": "All-In with Chamath, Jason, Sacks & Friedberg",
     "last_episode_date": "2026-07-10",
     "mention_score": 2,
-    "mention_score_decayed": 1.18,
+    "mention_score_decayed": 1.15,
     "last_main_idea": "Investing in AI infrastructure and data center companies could yield significant returns as the demand for AI continues to grow exponentially.",
     "last_proof_cite": "All-In with Chamath, Jason, Sacks & Friedberg \u2022 2026-07-10 \u2022 Open Source Wins, AGI Is Here, and Scorsese's AI Toolkit with CEOs of Cerebras & Black Forest Labs",
     "last_proof_snippet": "We are in the race for super intelligence and Andrew Feldman is back and obviously CEO and founders Ceribres doing in friendships pioneered the space, had a successful IPO. We've talked about this a couple of times, we got to see each other",
@@ -35274,7 +35351,7 @@ const dashboardData = {
     "last_podcast_name": "All-In with Chamath, Jason, Sacks & Friedberg",
     "last_episode_date": "2026-07-03",
     "mention_score": 2,
-    "mention_score_decayed": 1.02,
+    "mention_score_decayed": 1.0,
     "last_main_idea": "Enterprises should prioritize data sovereignty in AI to maintain competitive advantages and consider decentralized, open-source AI models to reduce costs and enhance operational efficiency.",
     "last_proof_cite": "All-In with Chamath, Jason, Sacks & Friedberg \u2022 2026-07-03 \u2022 AI Sovereignty Wars, Palantir-Nvidia Deal, SCOTUS Birthright Ruling, Newsom's CA Budget Lie",
     "last_proof_snippet": "All right, everybody, welcome back to the number one podcast in the world. Sure, favorite podcast. It's your podcast. It's your favorite podcast. It's the all-in podcast episode two, seven, nine with me, freebergs, tax, to my, you know, the",
@@ -35334,7 +35411,7 @@ const dashboardData = {
     "last_podcast_name": "BG2Pod with Brad Gerstner and Bill Gurley",
     "last_episode_date": "2026-06-11",
     "mention_score": 2,
-    "mention_score_decayed": 0.69,
+    "mention_score_decayed": 0.68,
     "last_main_idea": "SpaceX's unique position in the AI compute market and its rapid deployment capabilities make it a compelling long-term investment, with potential for significant revenue growth through Starlink and AI advancements.",
     "last_proof_cite": "BG2Pod with Brad Gerstner and Bill Gurley \u2022 2026-06-11 \u2022 The SpaceX IPO, Fable 5, AI Capex Update & Market Check w/ Gavin Baker, Andrew Fox & Clark Tang | BG2",
     "last_proof_snippet": "I think we're all pretty AI-pilled, and if you're AI-pilled, that means we've got to build a lot more compute than the world thinks, and that these models are going to be a lot more valuable than people think. You combine that with their co",
@@ -36301,6 +36378,70 @@ const dashboardData = {
     }
   },
   {
+    "id": 375,
+    "name": "TN Yang",
+    "slug": "tn-yang",
+    "bio": "TN Yang is the co-founder and head of research at Variant Perception, a firm specializing in macroeconomic analysis and market trends. He is recognized for his expertise in macro risk indicators and his insights into the stock market, particularly regarding sectors like semiconductor stocks and technology.",
+    "known_for": "His analysis of macroeconomic trends and their impact on market behavior, especially in the context of technology and semiconductor stocks.",
+    "net_worth_usd": 20000000.0,
+    "net_worth_source": "https://www.gurufocus.com/insider/153128/yang",
+    "net_worth_updated_at": "2026-08-02T23:39:13.103036",
+    "voice_tone": "Analytical and measured.",
+    "voice_style": "Factual and data-driven, with a focus on macroeconomic indicators.",
+    "voice_delivery_notes": "Pacing is steady, with emphasis on key market indicators and potential implications.",
+    "voice_profile_updated_at": "2026-08-03 04:38:17",
+    "last_seen": "2026-08-03 04:38:17",
+    "last_episode_title": "Why Macro is \u201cPretty Risk-On\u201d for Equities | Tian Yang of Variant Perception",
+    "last_podcast_name": "Monetary Matters with Jack Farley",
+    "last_episode_date": "2026-08-02",
+    "mention_score": 1,
+    "mention_score_decayed": 1,
+    "last_main_idea": "The market is in a phase where a new narrative is needed to drive further growth, with a focus on value laggards and sectors less exposed to speculative excesses.",
+    "last_proof_cite": "Monetary Matters with Jack Farley \u2022 2026-08-02 \u2022 Why Macro is \u201cPretty Risk-On\u201d for Equities | Tian Yang of Variant Perception",
+    "last_proof_snippet": "I'm joined once again by TN Yang, co-founder and head of research at variant perception. TN, what do you think about the stock market right now, the S&P, the NASDAQ, the semiconductor stocks, they have been trading quite weekly for the past",
+    "supporting_takeaway": "High valuations in AI and speculative mania in Korea indicate potential excesses similar to past market tops for gold and Bitcoin.",
+    "grokipedia_url": null,
+    "grokipedia_fetched_at": "2026-08-02T23:39:12.078801",
+    "pundit_profile": {
+      "source": "llm",
+      "source_model": "moonshot:moonshot-v1-8k",
+      "source_url": "",
+      "page_title": "TN Yang",
+      "fetched_at": "2026-08-03T04:39:12.078460+00:00",
+      "cliff_notes": "TN Yang is a prominent figure in the field of macroeconomic analysis, with a particular focus on market trends and their implications for investors. As the co-founder and head of research at Variant Perception, Yang has been instrumental in providing insights into the stock market, especially in sectors like semiconductors and technology. His expertise in macro risk indicators has made him a sought-after commentator on the current state of the market and its potential future trajectories. Yang's work is particularly relevant in the context of rapidly evolving technologies and their impact on financial markets, offering a unique perspective that bridges the gap between macroeconomic trends and the tech sector.",
+      "derived": {
+        "current_role": "Co-founder and Head of Research at Variant Perception"
+      },
+      "infobox": {
+        "Born": "",
+        "Nationality": ""
+      },
+      "lead_paragraphs": [
+        "TN Yang is a prominent figure in the field of macroeconomic analysis, with a particular focus on market trends and their implications for investors. As the co-founder and head of research at Variant Perception, Yang has been instrumental in providing insights into the stock market, especially in sectors like semiconductors and technology.",
+        "His expertise in macro risk indicators has made him a sought-after commentator on the current state of the market and its potential future trajectories. Yang's work is particularly relevant in the context of rapidly evolving technologies and their impact on financial markets, offering a unique perspective that bridges the gap between macroeconomic trends and the tech sector."
+      ],
+      "sections": [
+        {
+          "heading": "Macro Risk Indicators",
+          "body": "TN Yang is known for his work on macro risk indicators, which are crucial for understanding the broader economic environment and its impact on financial markets."
+        },
+        {
+          "heading": "Market Analysis",
+          "body": "Yang's analysis of market trends, especially in the technology and semiconductor sectors, provides valuable insights for investors looking to navigate the complex dynamics of these industries."
+        },
+        {
+          "heading": "Economic Forecasting",
+          "body": "His expertise in forecasting economic trends allows him to provide a forward-looking perspective on market behavior, helping investors make informed decisions."
+        },
+        {
+          "heading": "Technology Sector Insights",
+          "body": "Yang's commentary on the technology sector, including the implications of AI and other emerging technologies, offers a unique lens through which to view market developments."
+        }
+      ]
+    },
+    "net_worth": "$20.0M"
+  },
+  {
     "id": 372,
     "name": "Ruby J. To Low",
     "slug": "ruby-j-to-low",
@@ -36990,7 +37131,7 @@ const dashboardData = {
     "last_podcast_name": "Moonshots with Peter Diamandis",
     "last_episode_date": "2026-07-24",
     "mention_score": 1,
-    "mention_score_decayed": 0.83,
+    "mention_score_decayed": 0.81,
     "last_main_idea": "Investing in AI is about more than just technology; it's an investment in the future of innovation, human potential, and the ability to solve complex problems.",
     "last_proof_cite": "Moonshots with Peter Diamandis \u2022 2026-07-24 \u2022 The Hugging Face Breach, Moonshot AI Valued at $20B, and Living to 1,759 Years Old | EP #273",
     "last_proof_snippet": "Pugging face, the leading open platform for sharing testing and deploying AI models, it got breached by an autonomous agent when the hugging face security team tried to analyze the attack, using either anthropic or open AI, both models refu",
@@ -37050,7 +37191,7 @@ const dashboardData = {
     "last_podcast_name": "Moonshots with Peter Diamandis",
     "last_episode_date": "2026-07-24",
     "mention_score": 1,
-    "mention_score_decayed": 0.83,
+    "mention_score_decayed": 0.81,
     "last_main_idea": "Investing in AI is about more than just technology; it's an investment in the future of innovation, human potential, and the ability to solve complex problems.",
     "last_proof_cite": "Moonshots with Peter Diamandis \u2022 2026-07-24 \u2022 The Hugging Face Breach, Moonshot AI Valued at $20B, and Living to 1,759 Years Old | EP #273",
     "last_proof_snippet": "Pugging face, the leading open platform for sharing testing and deploying AI models, it got breached by an autonomous agent when the hugging face security team tried to analyze the attack, using either anthropic or open AI, both models refu",
@@ -38180,7 +38321,7 @@ const dashboardData = {
     "last_podcast_name": "Monetary Matters with Jack Farley",
     "last_episode_date": "2026-07-14",
     "mention_score": 1,
-    "mention_score_decayed": 0.66,
+    "mention_score_decayed": 0.64,
     "last_main_idea": "Invest in companies at the forefront of AI and semiconductors that can leverage intelligence to perform high-cost, time-consuming tasks more efficiently and at scale.",
     "last_proof_cite": "Monetary Matters with Jack Farley \u2022 2026-07-14 \u2022 The Semiconductor Earnings Boom Is Just Getting Started | Ben Pouladian on why AI is Real, Nvidia is Mispriced, and Capacitors Are Overrated",
     "last_proof_snippet": "Got a special conversation today. I'm joined by Ben Kulandian of BEP Research. Ben is a specialist investor and analyst in the semi-conductor world and the semi-conductor supply chain. Of course, that is what powers AI Ben welcome to moneta",
@@ -38698,7 +38839,7 @@ const dashboardData = {
     "last_podcast_name": "Monetary Matters with Jack Farley",
     "last_episode_date": "2026-07-05",
     "mention_score": 1,
-    "mention_score_decayed": 0.54,
+    "mention_score_decayed": 0.52,
     "last_main_idea": "The Federal Reserve's ability to manage interest rates effectively hinges on maintaining adequate reserve levels; monitoring the implementation of techniques to reduce reserve demand could provide insights into future monetary policy and market stability.",
     "last_proof_cite": "Monetary Matters with Jack Farley \u2022 2026-07-05 \u2022 The Ultimate Playbook for Reducing The Fed\u2019s Balance Sheet | Professor Darrell Duffie on 4 Tools For Federal Reserve To Shrink Reserve Demand In Banking System",
     "last_proof_snippet": "Today's episode is brought to you by the Fundrise Income Fund. You'll hear more about the income fund later in the show, but for now, let's get into today's interview. The new Fed Chair Kevin Worsh has made it no secret that he prefers a sm",
@@ -39128,7 +39269,7 @@ const dashboardData = {
     "last_podcast_name": "Monetary Matters with Jack Farley",
     "last_episode_date": "2026-06-29",
     "mention_score": 1,
-    "mention_score_decayed": 0.47,
+    "mention_score_decayed": 0.46,
     "last_main_idea": "Investors should be cautious of current AI and data center investment booms, drawing parallels with the 1873 financial crisis, and be mindful of the risks associated with excessive leverage and mismanaged monetary policy.",
     "last_proof_cite": "Monetary Matters with Jack Farley \u2022 2026-06-29 \u2022 Rothschilds, Railroads, & Ruin | Liaquat Ahamed on \u201c1873\u201d (New Book!)",
     "last_proof_snippet": "I am so glad today we have a very special guest, one of my favorite authors of all time Leakwet Ahamed, who's the author of the new book 1873, The Roth Childs, The First Great Depression, and The Making of the Modern World Leakwet. Welcome",
@@ -39255,7 +39396,7 @@ const dashboardData = {
     "last_podcast_name": "Monetary Matters with Jack Farley",
     "last_episode_date": "2026-06-24",
     "mention_score": 1,
-    "mention_score_decayed": 0.42,
+    "mention_score_decayed": 0.41,
     "last_main_idea": "Plutus democratizes investment management by providing individual investors access to sophisticated strategies and research, previously limited to institutional investors, at a competitive fee.",
     "last_proof_cite": "Monetary Matters with Jack Farley \u2022 2026-06-24 \u2022 Inside The Platform Helping to Invest Like Substack & FinTwit's Top Researchers | Plutus",
     "last_proof_snippet": "I think for the first time, we're at a place where talented, portfolio builders, manager researchers have an avenue that is not limited to big banks and put us fully intends to incubate that talent and grow it. We really looked at it from t",
@@ -39439,7 +39580,7 @@ const dashboardData = {
     "last_podcast_name": "All-In with Chamath, Jason, Sacks & Friedberg",
     "last_episode_date": "2026-06-23",
     "mention_score": 1,
-    "mention_score_decayed": 0.41,
+    "mention_score_decayed": 0.4,
     "last_main_idea": "Ryan Cohen's investment strategy at GameStop focuses on operational efficiency, cost optimization, and leveraging the growing collectibles market to drive profitability and shareholder value.",
     "last_proof_cite": "All-In with Chamath, Jason, Sacks & Friedberg \u2022 2026-06-23 \u2022 GameStop CEO Ryan Cohen's $56B Plan to Take Over eBay",
     "last_proof_snippet": "Everyone hates GameStop and it seems like everyone in the media basically wants us to fail and wants them to succeed and you've got a board that's making hundreds of thousands of dollars a year and they don't buy stock with their own money.",
@@ -39569,7 +39710,7 @@ const dashboardData = {
     "last_podcast_name": "Latent Space: The AI Engineer Podcast",
     "last_episode_date": "2026-06-22",
     "mention_score": 1,
-    "mention_score_decayed": 0.4,
+    "mention_score_decayed": 0.39,
     "last_main_idea": "Invest in companies focused on AI safety and security, as they are essential players in the evolving tech landscape and can help organizations navigate the complexities of AI deployment and ensure compliance with security standards.",
     "last_proof_cite": "Latent Space: The AI Engineer Podcast \u2022 2026-06-22 \u2022 Red-Teaming after Mythos \u2014 Zico Kolter & Matt Fredrikson, Gray Swan",
     "last_proof_snippet": "Okay, we're here in a studio with Grace One, Matt and Zico welcome. Great to be here. Yeah. Thanks for having us. You're visiting from Pittsburgh? That's right. The home of all good computer science, I don't know if I'm oversteaving things.",
@@ -39632,7 +39773,7 @@ const dashboardData = {
     "last_podcast_name": "The a16z Show",
     "last_episode_date": "2026-06-22",
     "mention_score": 1,
-    "mention_score_decayed": 0.4,
+    "mention_score_decayed": 0.39,
     "last_main_idea": "Invest in founders who demonstrate resilience and adaptability, focusing on sectors like AI, defense, aerospace, infrastructure, and software.",
     "last_proof_cite": "The a16z Show \u2022 2026-06-22 \u2022 Jake Paul & Anti Fund: From Creator to Investor",
     "last_proof_snippet": "We're officially announcing the $100 million over subscribe to growth fund and some of the tier 1 names Maybe all the tier 1 names And are all at cognition, psoronic, modal When we announce anti-fine but like GW like you're making a mistake",
@@ -39696,7 +39837,7 @@ const dashboardData = {
     "last_podcast_name": "The a16z Show",
     "last_episode_date": "2026-06-22",
     "mention_score": 1,
-    "mention_score_decayed": 0.4,
+    "mention_score_decayed": 0.39,
     "last_main_idea": "Invest in founders who demonstrate resilience and adaptability, focusing on sectors like AI, defense, aerospace, infrastructure, and software.",
     "last_proof_cite": "The a16z Show \u2022 2026-06-22 \u2022 Jake Paul & Anti Fund: From Creator to Investor",
     "last_proof_snippet": "We're officially announcing the $100 million over subscribe to growth fund and some of the tier 1 names Maybe all the tier 1 names And are all at cognition, psoronic, modal When we announce anti-fine but like GW like you're making a mistake",
@@ -39755,7 +39896,7 @@ const dashboardData = {
     "last_podcast_name": "Monetary Matters with Jack Farley",
     "last_episode_date": "2026-06-21",
     "mention_score": 1,
-    "mention_score_decayed": 0.39,
+    "mention_score_decayed": 0.38,
     "last_main_idea": "Investors should be cautious about the long-term viability of AI companies with high operational losses and unsustainable financial models.",
     "last_proof_cite": "Monetary Matters with Jack Farley \u2022 2026-06-21 \u2022 Ed Zitron: The AI Bubble is Bleeding Cash, Here Are The Receipts",
     "last_proof_snippet": "Got a very special conversation. I am speaking to one of the most prolific skeptics about AI. I'm joined today by Ed Zitron, author of Where's Your Ed at Newsletter and the Better Offline Podcast. Ed, welcome to monetary matters. Thanks for",
@@ -39814,7 +39955,7 @@ const dashboardData = {
     "last_podcast_name": "Monetary Matters with Jack Farley",
     "last_episode_date": "2026-06-20",
     "mention_score": 1,
-    "mention_score_decayed": 0.38,
+    "mention_score_decayed": 0.37,
     "last_main_idea": "Investors should focus on individual company fundamentals in the AI and semiconductor sectors, rather than broad macro trends, and be cautious of inflated valuations and unprofitable business models.",
     "last_proof_cite": "Monetary Matters with Jack Farley \u2022 2026-06-20 \u2022 Jim Chanos & Val Zlatev: Long and Short Alpha in AI, Semiconductors, Data Centers, Neoclouds, and Data Centers | MacroMinds Symposium 2026",
     "last_proof_snippet": "Where's to find value in the AI boom on the long side and the short side? This is the question that I asked two great investors earlier this month when I had the privilege of hosting Jim Channos and Val Zlathe. Jim is a legendary short sell",
@@ -39879,7 +40020,7 @@ const dashboardData = {
     "last_podcast_name": "Monetary Matters with Jack Farley",
     "last_episode_date": "2026-06-20",
     "mention_score": 1,
-    "mention_score_decayed": 0.38,
+    "mention_score_decayed": 0.37,
     "last_main_idea": "Investors should focus on individual company fundamentals in the AI and semiconductor sectors, rather than broad macro trends, and be cautious of inflated valuations and unprofitable business models.",
     "last_proof_cite": "Monetary Matters with Jack Farley \u2022 2026-06-20 \u2022 Jim Chanos & Val Zlatev: Long and Short Alpha in AI, Semiconductors, Data Centers, Neoclouds, and Data Centers | MacroMinds Symposium 2026",
     "last_proof_snippet": "Where's to find value in the AI boom on the long side and the short side? This is the question that I asked two great investors earlier this month when I had the privilege of hosting Jim Channos and Val Zlathe. Jim is a legendary short sell",
@@ -39942,7 +40083,7 @@ const dashboardData = {
     "last_podcast_name": "Latent Space: The AI Engineer Podcast",
     "last_episode_date": "2026-06-01",
     "mention_score": 1,
-    "mention_score_decayed": 0.36,
+    "mention_score_decayed": 0.35,
     "last_main_idea": "Invest in AI companies that prioritize language integration with video generation and have efficient training processes to capitalize on the evolving capabilities of generative AI.",
     "last_proof_cite": "Latent Space: The AI Engineer Podcast \u2022 2026-06-01 \u2022 Why Video Agent models are next \u2014 Ethan He, xAI Grok Imagine",
     "last_proof_snippet": "Okay, we're here in a studio with Eden Ha, most recently of XCI. Welcome. Yeah, thank you, glad being here. We were so here with Vibu. You were first coming to us or joining Lily in Space World because you were working on Cosmos in a video",
@@ -40308,7 +40449,7 @@ const dashboardData = {
     "last_podcast_name": "BG2Pod with Brad Gerstner and Bill Gurley",
     "last_episode_date": "2026-06-11",
     "mention_score": 1,
-    "mention_score_decayed": 0.35,
+    "mention_score_decayed": 0.34,
     "last_main_idea": "SpaceX's unique position in the AI compute market and its rapid deployment capabilities make it a compelling long-term investment, with potential for significant revenue growth through Starlink and AI advancements.",
     "last_proof_cite": "BG2Pod with Brad Gerstner and Bill Gurley \u2022 2026-06-11 \u2022 The SpaceX IPO, Fable 5, AI Capex Update & Market Check w/ Gavin Baker, Andrew Fox & Clark Tang | BG2",
     "last_proof_snippet": "I think we're all pretty AI-pilled, and if you're AI-pilled, that means we've got to build a lot more compute than the world thinks, and that these models are going to be a lot more valuable than people think. You combine that with their co",
@@ -41156,7 +41297,7 @@ const dashboardData = {
     "last_podcast_name": "All-In with Chamath, Jason, Sacks & Friedberg",
     "last_episode_date": "2026-06-05",
     "mention_score": 1,
-    "mention_score_decayed": 0.27,
+    "mention_score_decayed": 0.26,
     "last_main_idea": "Investors should adapt to the current market dynamics by developing robust short-selling strategies and focusing on credit markets, while also assessing management quality and business resilience.",
     "last_proof_cite": "All-In with Chamath, Jason, Sacks & Friedberg \u2022 2026-06-05 \u2022 Dan Loeb: The Lost Art of Short Selling, and Why Stock Picking is Back",
     "last_proof_snippet": "Legendary Activist Investor, Dan Loeb, you pours the CEO and CIO of third point. The lost art of short selling has come back, and it's absolutely critical. Doesn't matter what you do, you have to be really selective. People talk about stock",
@@ -41348,7 +41489,7 @@ const dashboardData = {
     "last_podcast_name": "Moonshots with Peter Diamandis",
     "last_episode_date": "2026-06-03",
     "mention_score": 1,
-    "mention_score_decayed": 0.26,
+    "mention_score_decayed": 0.25,
     "last_main_idea": "Invest in companies at the forefront of AI advancements, particularly in large language models and robotics, as these technologies are expected to drive the next wave of innovation and growth.",
     "last_proof_cite": "Moonshots with Peter Diamandis \u2022 2026-06-03 \u2022 Why AGI Is Close but Not Here Yet | Ray Kurzweil | EP #261",
     "last_proof_snippet": "We just saw a story where Dennis is obvious, who you know, said 50, 50, whether we need another breakthrough to get to AGI. What do you think? Well, I think we need two things. So we've made a 75,000 million trillion folding grease over thi",

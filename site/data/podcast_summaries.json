@@ -1,5 +1,26 @@
 [
   {
+    "id": 381,
+    "podcast_name": "Monetary Matters with Jack Farley",
+    "episode_title": "Why Macro is \u201cPretty Risk-On\u201d for Equities | Tian Yang of Variant Perception",
+    "episode_date": "2026-08-02",
+    "summary": "In this episode of Monetary Matters with Jack Farley, TN Yang, co-founder and head of research at Variant Perception, discusses the current state of the stock market, focusing on indices like the S&P and NASDAQ, as well as semiconductor stocks. Yang provides insights on the macro risk indicators and the potential for a market bottom. He also touches on the high valuations in AI and the speculative mania in Korea, suggesting a need for a new narrative to drive the market. Yang forecasts a market broadening phase with money rotating to value laggards and discusses LPPL exhaustion signals as a bubble and crash detection system. The conversation also covers China's economic policies, particularly regarding oil reserves and the impact on global markets.",
+    "key_takeaways": [
+      "The current macro risk indicators suggest a risk-on regime for the next three to six months, supporting risk assets.",
+      "High valuations in AI and speculative mania in Korea indicate potential excesses similar to past market tops for gold and Bitcoin.",
+      "A new narrative is needed for the market to regain previous highs, with a focus on real-world applications and modeling.",
+      "Market rotation is expected towards value laggards, with sectors like energy, financials, and healthcare becoming more important.",
+      "LPPL (log periodic power) signals can indicate both excessive risk and potential market bottoms, working as a bubble and crash detection system.",
+      "China's economic policies, including management of oil reserves and prioritization of industrial sectors, have significant implications for global markets."
+    ],
+    "investment_thesis": "The market is in a phase where a new narrative is needed to drive further growth, with a focus on value laggards and sectors less exposed to speculative excesses.",
+    "key_tickers": [
+      "LVMA",
+      "IWD",
+      "IWF"
+    ]
+  },
+  {
     "id": 380,
     "podcast_name": "The a16z Show",
     "episode_title": "Ruby Thelot on Internet Culture, AI, and the Future of Taste",
@@ -126,22 +147,5 @@
       "META",
       "MSFT"
     ]
-  },
-  {
-    "id": 373,
-    "podcast_name": "All-In with Chamath, Jason, Sacks & Friedberg",
-    "episode_title": "The $1/Hour Worker: Four Robotics CEOs on Humanoids at Home, China's Threat, and the End of Dangerous Jobs",
-    "episode_date": "2026-07-28",
-    "summary": "This episode of 'All-In with Chamath, Jason, Sacks & Friedberg' features interviews with leaders in the robotics industry, discussing the current state and future of robotics and AI in practical applications. The conversation covers the transition from research to real-world deployment, the advantages of four-legged robot designs, and the emerging job market in robotics. The guests also touch on the potential for AI to automate lab work and the ethical considerations of creating advanced robots.",
-    "key_takeaways": [
-      "Four-legged robot designs are becoming a standard due to their mobility, balance, and stability in various environments.",
-      "Boston Dynamics has transitioned from a research lab to focusing on real-world applications with their Spot robot.",
-      "The Spot robot is currently the most deployed and utilized mobile autonomous robot globally, with applications in industrial inspection.",
-      "There is a growing demand for automation in lab work, indicating a shift towards AI becoming more physical.",
-      "The robotics industry is creating new job opportunities, from high-skilled engineering roles to more practical, blue-collar positions.",
-      "Ethical considerations and safety measures are crucial as AI and robotics become more integrated into society."
-    ],
-    "investment_thesis": "Investing in robotics and AI companies that are successfully transitioning from research to real-world applications could offer significant growth potential as these technologies become more integrated into various industries.",
-    "key_tickers": null
   }
 ]
