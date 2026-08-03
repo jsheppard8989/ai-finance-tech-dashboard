@@ -1,7 +1,7 @@
 {
-  "generated_at": "2026-08-02T23:40:33.011122",
-  "last_updated": "2026-08-02T23:40:33.011122",
-  "last_pipeline_run": "2026-08-02T23:40:33.011122",
+  "generated_at": "2026-08-03T05:03:58.839107",
+  "last_updated": "2026-08-03T05:03:58.839107",
+  "last_pipeline_run": "2026-08-03T05:03:58.839107",
   "main_page": {
     "overton": 13,
     "insights": 8,
@@ -15,36 +15,17 @@
     "overton_terms_total": 116,
     "latest_insights_total": 368,
     "today_mentions": {},
-    "podcasts_analyzed": 2
+    "podcasts_analyzed": 0
   },
   "step_results": {
-    "downloaded": 1,
-    "transcribed": 1,
-    "analyzed": 1,
-    "insight_created": 1,
-    "published": 1,
-    "total": 1
+    "downloaded": 0,
+    "transcribed": 0,
+    "analyzed": 0,
+    "insight_created": 0,
+    "published": 0,
+    "total": 0
   },
-  "episodes": [
-    {
-      "id": "09391448-8ea8-11f1-b33d-67f9996d6976",
-      "podcast": "Monetary Matters with Jack Farley",
-      "title": "Why Macro is \u201cPretty Risk-On\u201d for Equities | Tian Yang of Variant Perception",
-      "published": "2026-08-02",
-      "rss_guid": "09391448-8ea8-11f1-b33d-67f9996d6976",
-      "stages": {
-        "downloaded": true,
-        "transcribed": true,
-        "analyzed": true,
-        "insight_created": true,
-        "published": true
-      },
-      "stage_reasons": {},
-      "first_blocker": null,
-      "remediation_by_stage": {},
-      "status": "complete"
-    }
-  ],
+  "episodes": [],
   "available_from_rss": [],
   "stale_episodes": [],
   "stale_threshold_days": 2,
