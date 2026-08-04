@@ -21,6 +21,29 @@
       "podcast_episode_id": 382
     },
     {
+      "id": 398,
+      "title": "The Inference Engineering Masterclass \u2014 Philip Kiely & Ali Taha, Baseten",
+      "source_type": "podcast",
+      "source_name": "Latent Space: The AI Engineer Podcast",
+      "source_date": "2026-08-03",
+      "summary": "In this episode of Latent Space, the AI Engineer Podcast, the hosts discuss inference engineering with Philip and Ali, delving into the complexities of handling long queries in AI models, the process of query routing, and the balancing of GPU workloads. They explore the nuances of cash-a-rail routing, pre-fill workers, and the use of separate GPUs for processing input and decoding. The conversation also touches on the cost implications of different deployment strategies, the importance of model parallelism, and the challenges of continual learning in AI models. The discussion provides insights into the technical aspects of deploying AI models at scale and the considerations for optimizing performance and cost.",
+      "key_takeaway": "Investing in companies that optimize AI model deployment and inference engineering can lead to significant cost savings and performance improvements, potentially offering a competitive advantage in the AI industry.",
+      "tickers_mentioned": [
+        "AAPL",
+        "GOOGL",
+        "MSFT",
+        "NVDA",
+        "AMD"
+      ],
+      "sentiment": "bullish",
+      "display_on_main": 1,
+      "display_order": 0,
+      "added_date": "2026-08-03",
+      "archived_date": null,
+      "archived_reason": null,
+      "podcast_episode_id": 383
+    },
+    {
       "id": 395,
       "title": "Ruby Thelot on Internet Culture, AI, and the Future of Taste",
       "source_type": "podcast",
@@ -175,7 +198,7 @@
         "AMZN"
       ],
       "sentiment": "bullish",
-      "display_on_main": 1,
+      "display_on_main": 0,
       "display_order": 0,
       "added_date": "2026-07-30",
       "archived_date": null,
@@ -7689,8 +7712,8 @@
       "term": "Quantization",
       "description": "The process of reducing the precision of the numbers used to represent a mathematical element, such as an AI model, to enable more efficient storage and computation.",
       "first_detected_date": "2026-07-19",
-      "last_mentioned_date": "2026-07-23",
-      "mention_count": 2,
+      "last_mentioned_date": "2026-08-03",
+      "mention_count": 3,
       "source_podcasts": null,
       "status": "active",
       "investment_implications": "Quantization is crucial for making AI models more accessible and deployable across various devices, potentially leading to new investment opportunities in AI deployment and optimization.",
@@ -7699,8 +7722,8 @@
       "archived_reason": null,
       "first_detected_episode_id": 356,
       "first_detected_speaker": "Alex Wees, Sly Miss Mail, E-Modemoo",
-      "last_mentioned_episode_id": 363,
-      "last_mentioned_speaker": "Underrate Cupathy"
+      "last_mentioned_episode_id": 383,
+      "last_mentioned_speaker": "Philip, Ali"
     },
     {
       "id": 259,
@@ -7743,8 +7766,8 @@
       "term": "Virtual Cell Models",
       "description": "Highly detailed computational models of cells that can simulate biological processes to test scientific hypotheses and drug effects.",
       "first_detected_date": "2026-07-09",
-      "last_mentioned_date": "2026-07-21",
-      "mention_count": 2,
+      "last_mentioned_date": "2026-08-03",
+      "mention_count": 3,
       "source_podcasts": null,
       "status": "active",
       "investment_implications": "Virtual cell models can reduce the cost and time of biological research, allowing for more rapid iteration and risk-taking in drug discovery.",
@@ -7753,8 +7776,8 @@
       "archived_reason": null,
       "first_detected_episode_id": 338,
       "first_detected_speaker": "Mark Zuckerberg, Priscilla Chan",
-      "last_mentioned_episode_id": 361,
-      "last_mentioned_speaker": "Bowling, True"
+      "last_mentioned_episode_id": 383,
+      "last_mentioned_speaker": "Philip, Ali"
     },
     {
       "id": 43,
@@ -8229,8 +8252,8 @@
       "term": "Distillation",
       "description": "The process of training a smaller AI model on the output of a larger model to achieve similar results with less computational power.",
       "first_detected_date": "2026-05-15",
-      "last_mentioned_date": "2026-07-31",
-      "mention_count": 29,
+      "last_mentioned_date": "2026-08-03",
+      "mention_count": 30,
       "source_podcasts": null,
       "status": "active",
       "investment_implications": "Distillation can make AI more accessible and cost-effective, impacting how businesses allocate resources for AI development.",
@@ -8239,8 +8262,8 @@
       "archived_reason": null,
       "first_detected_episode_id": 221,
       "first_detected_speaker": null,
-      "last_mentioned_episode_id": 378,
-      "last_mentioned_speaker": "Chamath Palihapitiya, Jason Calacanis (hosts)"
+      "last_mentioned_episode_id": 383,
+      "last_mentioned_speaker": "Philip, Ali"
     },
     {
       "id": 174,

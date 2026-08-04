@@ -1,5 +1,22 @@
 [
   {
+    "id": 383,
+    "podcast_name": "Latent Space: The AI Engineer Podcast",
+    "episode_title": "The Inference Engineering Masterclass \u2014 Philip Kiely & Ali Taha, Baseten",
+    "episode_date": "2026-08-03",
+    "summary": "In this episode of Latent Space, the AI Engineer Podcast, the hosts discuss inference engineering with Philip and Ali, delving into the complexities of handling long queries in AI models, the process of query routing, and the balancing of GPU workloads. They explore the nuances of cash-a-rail routing, pre-fill workers, and the use of separate GPUs for processing input and decoding. The conversation also touches on the cost implications of different deployment strategies, the importance of model parallelism, and the challenges of continual learning in AI models. The discussion provides insights into the technical aspects of deploying AI models at scale and the considerations for optimizing performance and cost.",
+    "key_takeaways": [
+      "Long queries in AI models require efficient routing and GPU balancing to optimize performance.",
+      "Cash-a-rail routing is crucial for managing instances and replicas to ensure cost-effective processing.",
+      "Separate GPUs can be used for input processing and decoding to enhance efficiency.",
+      "Dedicated deployments can be more cost-effective for high-volume token processing compared to pay-per-token models.",
+      "Model parallelism, including expert parallelism and TensorFlowism, plays a significant role in throughput and resource management.",
+      "Continual learning in AI models can be addressed through KV cache compaction, allowing for the model to update its knowledge base without losing previous knowledge."
+    ],
+    "investment_thesis": "Investing in companies that optimize AI model deployment and inference engineering can lead to significant cost savings and performance improvements, potentially offering a competitive advantage in the AI industry.",
+    "key_tickers": null
+  },
+  {
     "id": 382,
     "podcast_name": "Dwarkesh Podcast",
     "episode_title": "Why smarter AI models could drive up compute prices 10x",
@@ -127,22 +144,6 @@
       "There is a significant 'last mile' distribution challenge in bringing AI solutions to mainstream American businesses."
     ],
     "investment_thesis": "AI has the potential to automate administrative tasks in healthcare practices, creating significant value for small businesses and changing the landscape of enterprise software.",
-    "key_tickers": null
-  },
-  {
-    "id": 375,
-    "podcast_name": "The a16z Show",
-    "episode_title": "AI Micro Dramas, Generative Media, and the Future of Creativity",
-    "episode_date": "2026-07-29",
-    "summary": "In this episode of 'The a16z Show', the discussion revolves around the burgeoning field of AI native entertainment, including AI-generated animations and micro dramas. The guests highlight how AI is transforming the content creation landscape, making it cheaper, faster, and more accessible. They also touch upon the challenges faced by early AI video adopters and the potential for professional creatives to leverage AI to produce compelling narratives. The conversation explores the implications of generative media on the creator economy and the future of storytelling.",
-    "key_takeaways": [
-      "AI is increasingly being used in the creation of TV shows and movies, with Netflix and Amazon leading the charge.",
-      "AI-generated animations are almost as good as traditional filming but are significantly cheaper and faster to produce.",
-      "Professional creatives are beginning to leverage AI to unlock new storytelling opportunities.",
-      "AI is not just changing content creation but also democratizing it, allowing more people to become creators.",
-      "There is a debate on whether AI-generated content should be labeled, reflecting the challenges of transparency in the new media landscape."
-    ],
-    "investment_thesis": "Investing in AI-native entertainment presents an opportunity to capitalize on the shift towards generative media and the democratization of content creation.",
     "key_tickers": null
   }
 ]

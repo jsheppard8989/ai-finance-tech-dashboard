@@ -3,80 +3,80 @@
 
 const dashboardData = {
   schemaVersion: 2,
-  generatedAt: "2026-08-03T22:04:12.738833",
-  chartsVersion: "2026-08-03T22:03:59.110850",
+  generatedAt: "2026-08-03T23:42:06.221723",
+  chartsVersion: "2026-08-03T23:41:57.979397",
   priceSnapshot: {
   "GOOGL": {
-    "price": 373.51,
-    "change_pct": 0.7,
+    "price": NaN,
+    "change_pct": NaN,
     "name": "GOOGL",
-    "updated_at": "2026-08-03T22:03:59.109648"
+    "updated_at": "2026-08-03T23:41:57.978923"
   },
   "NVDA": {
-    "price": 206.64,
-    "change_pct": -2.76,
+    "price": NaN,
+    "change_pct": NaN,
     "name": "NVDA",
-    "updated_at": "2026-08-03T22:03:59.109675"
+    "updated_at": "2026-08-03T23:41:57.978933"
   },
   "BTC": {
-    "price": 63721.35,
-    "change_pct": -3.6,
+    "price": 63975.44,
+    "change_pct": -3.22,
     "name": "BTC",
-    "updated_at": "2026-08-03T22:03:59.109688"
+    "updated_at": "2026-08-03T23:41:57.978938"
   },
   "MSFT": {
-    "price": 487.65,
-    "change_pct": 23.26,
+    "price": NaN,
+    "change_pct": NaN,
     "name": "MSFT",
-    "updated_at": "2026-08-03T22:03:59.109700"
+    "updated_at": "2026-08-03T23:41:57.978941"
   },
   "TSLA": {
-    "price": 322.08,
-    "change_pct": -18.35,
+    "price": NaN,
+    "change_pct": NaN,
     "name": "TSLA",
-    "updated_at": "2026-08-03T22:03:59.109711"
+    "updated_at": "2026-08-03T23:41:57.978944"
   },
   "AMZN": {
-    "price": 284.02,
-    "change_pct": 11.4,
+    "price": NaN,
+    "change_pct": NaN,
     "name": "AMZN",
-    "updated_at": "2026-08-03T22:03:59.109722"
+    "updated_at": "2026-08-03T23:41:57.978946"
   },
   "META": {
-    "price": 590.24,
-    "change_pct": -13.37,
+    "price": NaN,
+    "change_pct": NaN,
     "name": "META",
-    "updated_at": "2026-08-03T22:03:59.109734"
+    "updated_at": "2026-08-03T23:41:57.978949"
   },
   "WTI": {
-    "price": 3.51,
-    "change_pct": 2.93,
+    "price": NaN,
+    "change_pct": NaN,
     "name": "WTI",
-    "updated_at": "2026-08-03T22:03:59.109745"
+    "updated_at": "2026-08-03T23:41:57.978952"
   },
   "S&P 500": {
-    "price": 757.67,
-    "change_pct": 0.38,
+    "price": NaN,
+    "change_pct": NaN,
     "name": "S&P 500",
-    "updated_at": "2026-08-03T22:03:59.109756"
+    "updated_at": "2026-08-03T23:41:57.978954"
   },
   "AAPL": {
-    "price": 303.42,
-    "change_pct": -7.35,
+    "price": NaN,
+    "change_pct": NaN,
     "name": "AAPL",
-    "updated_at": "2026-08-03T22:03:59.109767"
+    "updated_at": "2026-08-03T23:41:57.978957"
   },
   "QQQ": {
-    "price": 700.07,
-    "change_pct": -2.46,
+    "price": NaN,
+    "change_pct": NaN,
     "name": "Invesco QQQ Trust",
-    "updated_at": "2026-08-03T22:03:59.109778"
+    "updated_at": "2026-08-03T23:41:57.978959"
   },
   "BTC-USD": {
-    "price": 63721.35,
-    "change_pct": -3.6,
+    "price": 63975.44,
+    "change_pct": -3.22,
     "name": "Bitcoin USD",
-    "updated_at": "2026-08-03T22:03:59.109791"
+    "updated_at": "2026-08-03T23:41:57.978963"
   }
 },
   tickerScores: [
@@ -854,6 +854,29 @@ const dashboardData = {
       "podcast_episode_id": 382
     },
     {
+      "id": 398,
+      "title": "The Inference Engineering Masterclass \u2014 Philip Kiely & Ali Taha, Baseten",
+      "source_type": "podcast",
+      "source_name": "Latent Space: The AI Engineer Podcast",
+      "source_date": "2026-08-03",
+      "summary": "In this episode of Latent Space, the AI Engineer Podcast, the hosts discuss inference engineering with Philip and Ali, delving into the complexities of handling long queries in AI models, the process of query routing, and the balancing of GPU workloads. They explore the nuances of cash-a-rail routing, pre-fill workers, and the use of separate GPUs for processing input and decoding. The conversation also touches on the cost implications of different deployment strategies, the importance of model parallelism, and the challenges of continual learning in AI models. The discussion provides insights into the technical aspects of deploying AI models at scale and the considerations for optimizing performance and cost.",
+      "key_takeaway": "Investing in companies that optimize AI model deployment and inference engineering can lead to significant cost savings and performance improvements, potentially offering a competitive advantage in the AI industry.",
+      "tickers_mentioned": [
+        "AAPL",
+        "GOOGL",
+        "MSFT",
+        "NVDA",
+        "AMD"
+      ],
+      "sentiment": "bullish",
+      "display_on_main": 1,
+      "display_order": 0,
+      "added_date": "2026-08-03",
+      "archived_date": null,
+      "archived_reason": null,
+      "podcast_episode_id": 383
+    },
+    {
       "id": 395,
       "title": "Ruby Thelot on Internet Culture, AI, and the Future of Taste",
       "source_type": "podcast",
@@ -1008,7 +1031,7 @@ const dashboardData = {
         "AMZN"
       ],
       "sentiment": "bullish",
-      "display_on_main": 1,
+      "display_on_main": 0,
       "display_order": 0,
       "added_date": "2026-07-30",
       "archived_date": null,
@@ -8522,8 +8545,8 @@ const dashboardData = {
       "term": "Quantization",
       "description": "The process of reducing the precision of the numbers used to represent a mathematical element, such as an AI model, to enable more efficient storage and computation.",
       "first_detected_date": "2026-07-19",
-      "last_mentioned_date": "2026-07-23",
-      "mention_count": 2,
+      "last_mentioned_date": "2026-08-03",
+      "mention_count": 3,
       "source_podcasts": null,
       "status": "active",
       "investment_implications": "Quantization is crucial for making AI models more accessible and deployable across various devices, potentially leading to new investment opportunities in AI deployment and optimization.",
@@ -8532,8 +8555,8 @@ const dashboardData = {
       "archived_reason": null,
       "first_detected_episode_id": 356,
       "first_detected_speaker": "Alex Wees, Sly Miss Mail, E-Modemoo",
-      "last_mentioned_episode_id": 363,
-      "last_mentioned_speaker": "Underrate Cupathy"
+      "last_mentioned_episode_id": 383,
+      "last_mentioned_speaker": "Philip, Ali"
     },
     {
       "id": 259,
@@ -8576,8 +8599,8 @@ const dashboardData = {
       "term": "Virtual Cell Models",
       "description": "Highly detailed computational models of cells that can simulate biological processes to test scientific hypotheses and drug effects.",
       "first_detected_date": "2026-07-09",
-      "last_mentioned_date": "2026-07-21",
-      "mention_count": 2,
+      "last_mentioned_date": "2026-08-03",
+      "mention_count": 3,
       "source_podcasts": null,
       "status": "active",
       "investment_implications": "Virtual cell models can reduce the cost and time of biological research, allowing for more rapid iteration and risk-taking in drug discovery.",
@@ -8586,8 +8609,8 @@ const dashboardData = {
       "archived_reason": null,
       "first_detected_episode_id": 338,
       "first_detected_speaker": "Mark Zuckerberg, Priscilla Chan",
-      "last_mentioned_episode_id": 361,
-      "last_mentioned_speaker": "Bowling, True"
+      "last_mentioned_episode_id": 383,
+      "last_mentioned_speaker": "Philip, Ali"
     },
     {
       "id": 43,
@@ -9062,8 +9085,8 @@ const dashboardData = {
       "term": "Distillation",
       "description": "The process of training a smaller AI model on the output of a larger model to achieve similar results with less computational power.",
       "first_detected_date": "2026-05-15",
-      "last_mentioned_date": "2026-07-31",
-      "mention_count": 29,
+      "last_mentioned_date": "2026-08-03",
+      "mention_count": 30,
       "source_podcasts": null,
       "status": "active",
       "investment_implications": "Distillation can make AI more accessible and cost-effective, impacting how businesses allocate resources for AI development.",
@@ -9072,8 +9095,8 @@ const dashboardData = {
       "archived_reason": null,
       "first_detected_episode_id": 221,
       "first_detected_speaker": null,
-      "last_mentioned_episode_id": 378,
-      "last_mentioned_speaker": "Chamath Palihapitiya, Jason Calacanis (hosts)"
+      "last_mentioned_episode_id": 383,
+      "last_mentioned_speaker": "Philip, Ali"
     },
     {
       "id": 174,
@@ -10564,6 +10587,26 @@ const dashboardData = {
       "key_tickers": []
     },
     {
+      "id": 398,
+      "title": "The Inference Engineering Masterclass \u2014 Philip Kiely & Ali Taha, Baseten",
+      "source_type": "podcast",
+      "source_name": "Latent Space: The AI Engineer Podcast",
+      "source_date": "2026-08-03",
+      "summary": "In this episode of Latent Space, the AI Engineer Podcast, the hosts discuss inference engineering with Philip and Ali, delving into the complexities of handling long queries in AI models, the process of query routing, and the balancing of GPU workloads. They explore the nuances of cash-a-rail routing, pre-fill workers, and the use of separate GPUs for processing input and decoding. The conversation also touches on the cost implications of different deployment strategies, the importance of model parallelism, and the challenges of continual learning in AI models. The discussion provides insights into the technical aspects of deploying AI models at scale and the considerations for optimizing performance and cost.",
+      "key_takeaway": "Investing in companies that optimize AI model deployment and inference engineering can lead to significant cost savings and performance improvements, potentially offering a competitive advantage in the AI industry.",
+      "tickers_mentioned": "[\"AAPL\", \"GOOGL\", \"MSFT\", \"NVDA\", \"AMD\"]",
+      "sentiment": "bullish",
+      "display_on_main": 1,
+      "display_order": 0,
+      "added_date": "2026-08-03",
+      "archived_date": null,
+      "archived_reason": null,
+      "podcast_episode_id": 383,
+      "episode_release_date": "2026-08-03",
+      "guest_name": null,
+      "key_tickers": []
+    },
+    {
       "id": 395,
       "title": "Ruby Thelot on Internet Culture, AI, and the Future of Taste",
       "source_type": "podcast",
@@ -10692,26 +10735,6 @@ const dashboardData = {
       "podcast_episode_id": 376,
       "episode_release_date": "2026-07-30",
       "guest_name": "AI for America's Small Businesses",
-      "key_tickers": []
-    },
-    {
-      "id": 388,
-      "title": "AI Micro Dramas, Generative Media, and the Future of Creativity",
-      "source_type": "podcast",
-      "source_name": "The a16z Show",
-      "source_date": "2026-07-29",
-      "summary": "In this episode of 'The a16z Show', the discussion revolves around the burgeoning field of AI native entertainment, including AI-generated animations and micro dramas. The guests highlight how AI is transforming the content creation landscape, making it cheaper, faster, and more accessible. They also touch upon the challenges faced by early AI video adopters and the potential for professional creatives to leverage AI to produce compelling narratives. The conversation explores the implications of generative media on the creator economy and the future of storytelling.",
-      "key_takeaway": "Investing in AI-native entertainment presents an opportunity to capitalize on the shift towards generative media and the democratization of content creation.",
-      "tickers_mentioned": "[\"AAPL\", \"NFLX\", \"AMZN\"]",
-      "sentiment": "bullish",
-      "display_on_main": 1,
-      "display_order": 0,
-      "added_date": "2026-07-30",
-      "archived_date": null,
-      "archived_reason": null,
-      "podcast_episode_id": 375,
-      "episode_release_date": "2026-07-29",
-      "guest_name": null,
       "key_tickers": []
     }
   ],
@@ -10995,6 +11018,32 @@ const dashboardData = {
       "last_mentioned_episode_date": "2026-07-31"
     },
     {
+      "id": 262,
+      "term": "Quantization",
+      "description": "The process of reducing the precision of the numbers used to represent a mathematical element, such as an AI model, to enable more efficient storage and computation.",
+      "first_detected_date": "2026-07-19",
+      "last_mentioned_date": "2026-08-03",
+      "mention_count": 3,
+      "source_podcasts": null,
+      "status": "active",
+      "investment_implications": "Quantization is crucial for making AI models more accessible and deployable across various devices, potentially leading to new investment opportunities in AI deployment and optimization.",
+      "display_on_main": 1,
+      "archived_date": null,
+      "archived_reason": null,
+      "first_detected_episode_id": 356,
+      "first_detected_speaker": "Alex Wees, Sly Miss Mail, E-Modemoo",
+      "last_mentioned_episode_id": 383,
+      "last_mentioned_speaker": "Philip, Ali",
+      "overton_score": 3.0,
+      "resonance_pct": 75,
+      "first_detected_podcast": "Moonshots with Peter Diamandis",
+      "first_detected_episode_title": "Urgent Update- AI Sputnik Moment: Kimi K3 Released w/ Emad Mostaque | Ep. 272",
+      "first_detected_episode_date": "2026-07-19",
+      "last_mentioned_podcast": "Latent Space: The AI Engineer Podcast",
+      "last_mentioned_episode_title": "The Inference Engineering Masterclass \u2014 Philip Kiely & Ali Taha, Baseten",
+      "last_mentioned_episode_date": "2026-08-03"
+    },
+    {
       "id": 256,
       "term": "Authenticity",
       "description": "Being genuine and true to oneself in public communications, particularly on social media.",
@@ -11149,32 +11198,6 @@ const dashboardData = {
       "last_mentioned_podcast": "The a16z Show",
       "last_mentioned_episode_title": "Ruby Thelot on Internet Culture, AI, and the Future of Taste",
       "last_mentioned_episode_date": "2026-08-02"
-    },
-    {
-      "id": 262,
-      "term": "Quantization",
-      "description": "The process of reducing the precision of the numbers used to represent a mathematical element, such as an AI model, to enable more efficient storage and computation.",
-      "first_detected_date": "2026-07-19",
-      "last_mentioned_date": "2026-07-23",
-      "mention_count": 2,
-      "source_podcasts": null,
-      "status": "active",
-      "investment_implications": "Quantization is crucial for making AI models more accessible and deployable across various devices, potentially leading to new investment opportunities in AI deployment and optimization.",
-      "display_on_main": 1,
-      "archived_date": null,
-      "archived_reason": null,
-      "first_detected_episode_id": 356,
-      "first_detected_speaker": "Alex Wees, Sly Miss Mail, E-Modemoo",
-      "last_mentioned_episode_id": 363,
-      "last_mentioned_speaker": "Underrate Cupathy",
-      "overton_score": 1.55,
-      "resonance_pct": 39,
-      "first_detected_podcast": "Moonshots with Peter Diamandis",
-      "first_detected_episode_title": "Urgent Update- AI Sputnik Moment: Kimi K3 Released w/ Emad Mostaque | Ep. 272",
-      "first_detected_episode_date": "2026-07-19",
-      "last_mentioned_podcast": "Latent Space: The AI Engineer Podcast",
-      "last_mentioned_episode_title": "Inside the Model Factory \u2014 Eiso Kant, Poolside AI",
-      "last_mentioned_episode_date": "2026-07-23"
     }
   ]
 },
@@ -34609,9 +34632,114 @@ const dashboardData = {
     "source_name": "Dwarkesh Podcast",
     "source_date": "2026-08-03",
     "key_tickers": []
+  },
+  "398": {
+    "id": 388,
+    "insight_id": 398,
+    "podcast_episode_id": 383,
+    "overview": "The competitive dynamic in AI model deployment is centered on optimizing performance and cost, particularly for handling large queries. The ability to efficiently route queries, leverage caching, and balance GPU workloads is contested, with the potential to offer a significant competitive advantage. The decision to switch from public APIs to dedicated deployments hinges on the volume of queries and the need for customization. The metric that arbitrates this uncertainty is cost efficiency, with the horizon of proof being the ability to handle increasing query volumes without a proportional increase in costs.",
+    "key_takeaways_detailed": [
+      "Investing in companies that can innovate in query routing and caching could offer significant performance improvements and cost savings.",
+      "The shift towards renting by the box for high-volume users suggests a market opportunity for companies that can provide scalable and cost-effective infrastructure solutions.",
+      "The discussion highlights the importance of model parallelism and the potential for speculative models to improve decode speed, which could be a key differentiator in the market.",
+      "Companies that can offer dedicated deployments with traffic-specific optimizations may gain a competitive edge, particularly for customers with unique use cases."
+    ],
+    "investment_thesis": "Investing in companies that excel in inference engineering, particularly those that can optimize the handling of long queries and balance GPU workloads, can lead to significant cost savings and performance improvements. This advantage is likely to be more pronounced in a market where the volume of AI queries is increasing. The thesis is vindicated if these companies can demonstrate a consistent reduction in cost per query or an increase in query handling capacity without a proportional increase in costs.",
+    "ticker_analysis": {
+      "AAPL": {
+        "rationale": "Apple's investment in AI and machine learning, along with its control over hardware and software ecosystems, positions it to benefit from advancements in inference engineering.",
+        "positioning": "Strategic long position, as Apple's vertical integration allows it to leverage improvements in inference engineering across its product lines.",
+        "risk": "The risk of Apple not keeping pace with advancements in AI inference engineering, which could impact its competitive position in the tech industry."
+      },
+      "GOOGL": {
+        "rationale": "Google's extensive work in AI and its cloud services make it a key player in the development and deployment of AI models.",
+        "positioning": "Tactical long position, as Google's cloud services could see immediate benefits from improvements in inference engineering.",
+        "risk": "The risk of increased competition from specialized AI inference engineering companies that could erode Google's market share."
+      },
+      "MSFT": {
+        "rationale": "Microsoft's Azure cloud platform and AI investments align with the trends discussed in the podcast, making it a relevant company for this thesis.",
+        "positioning": "Strategic long position, as Microsoft can leverage inference engineering advancements to strengthen its cloud offerings.",
+        "risk": "The risk of Microsoft failing to innovate quickly enough in inference engineering, potentially losing ground to more agile competitors."
+      },
+      "NVDA": {
+        "rationale": "Nvidia's leadership in GPU technology is crucial for the inference engineering process, especially for handling long queries and balancing GPU workloads.",
+        "positioning": "Strategic long position, as Nvidia's GPUs are at the heart of many AI inference tasks.",
+        "risk": "The risk of technological disruptions that could render Nvidia's GPU technology less relevant in the inference engineering landscape."
+      },
+      "AMD": {
+        "rationale": "AMD's competitive position in the GPU market and its focus on AI and high-performance computing make it a relevant company for this thesis.",
+        "positioning": "Tactical long position, as AMD's ability to gain market share in GPUs could be accelerated by advancements in inference engineering.",
+        "risk": "The risk of AMD not being able to compete effectively with Nvidia in the high-end GPU market, which is critical for inference engineering."
+      }
+    },
+    "positioning_guidance": "",
+    "risk_factors": [],
+    "contrarian_signals": [
+      "The belief that the cost savings from optimizing inference engineering are overstated, and the actual benefits are marginal.",
+      "The argument that the complexity of handling long queries will lead to a plateau in AI model performance, limiting the potential for cost savings.",
+      "The skepticism that the market for dedicated AI model deployments is niche and not as significant as suggested by the podcast."
+    ],
+    "catalysts": [
+      "Announcements of new partnerships or acquisitions in the AI inference engineering space.",
+      "Release of new AI models or technologies that significantly improve query handling and GPU workload management.",
+      "Publications of independent studies that validate the cost savings and performance improvements from inference engineering optimizations.",
+      "Regulatory developments that impact the use of AI models and could influence the demand for inference engineering services."
+    ],
+    "related_insights": null,
+    "audio_timestamp_start": null,
+    "audio_timestamp_end": null,
+    "transcript_excerpt": null,
+    "created_at": "2026-08-03T23:41:09.809534",
+    "updated_at": "2026-08-04 04:41:09",
+    "episode_evidence": "In the podcast, Philip and Ali from Baseten provide a detailed look into the intricacies of inference engineering, particularly when dealing with long queries. Philip explains that for a 200,000 token query, the system first checks if the query or part of it has been sent before to leverage caching, which is 'going to be a lot easier for me and a lot cheaper for you.' This process involves 'cash-a-rail routing,' where the query is directed to a model replica with available pre-fill workers and ideally some cache to input already there, skipping pre-fill on at least part of these tokens. For models requiring pre-fill and decode, 'one set of GPUs... [processes] the input, create that KV cash and get you your first token, and then that's going to be passed over to a separate set of GPUs, which is going to run decode.' The conversation also touches on the cost implications, with Ali mentioning that for high volume, renting by the box is more cost-effective, as 'it's up to you to figure out how to saturate the box.'",
+    "falsification_tracks": [
+      "A significant increase in the cost of GPU processing, which would undermine the cost-effectiveness of renting by the box and could shift the preference back towards pay-per-token models.",
+      "The emergence of a new technology that allows for more efficient handling of long queries, reducing the need for complex routing and caching strategies.",
+      "A substantial decrease in the volume of queries processed by Baseten, which would challenge the economic rationale for dedicated deployments over public model APIs."
+    ],
+    "insight_title": "The Inference Engineering Masterclass \u2014 Philip Kiely & Ali Taha, Baseten",
+    "source_name": "Latent Space: The AI Engineer Podcast",
+    "source_date": "2026-08-03",
+    "key_tickers": []
   }
 },
   suggestedTerms: [
+  {
+    "id": 560,
+    "term": "KV cache compaction",
+    "definition": "A process in AI models that allows for the updating of the model's knowledge base without losing previous knowledge, crucial for continual learning.",
+    "investment_implications": "Enables more effective and efficient AI model updates, potentially reducing costs and improving performance in AI deployments.",
+    "source_type": "auto_extracted",
+    "mention_count": 1,
+    "source_diversity": 1,
+    "relevance_score": 50,
+    "submitted_date": "2026-08-04 04:40:23",
+    "priority_score": 80
+  },
+  {
+    "id": 561,
+    "term": "TensorFlowism",
+    "definition": "A model parallelism technique where the entire model is distributed across multiple GPUs, requiring high inter-GPU bandwidth for efficient operation.",
+    "investment_implications": "TensorFlowism can significantly increase throughput in AI model deployments, impacting the scalability and performance of AI applications.",
+    "source_type": "auto_extracted",
+    "mention_count": 1,
+    "source_diversity": 1,
+    "relevance_score": 50,
+    "submitted_date": "2026-08-04 04:40:23",
+    "priority_score": 80
+  },
+  {
+    "id": 562,
+    "term": "Expert Parallelism",
+    "definition": "A model parallelism technique used with Mixture of Experts (MOE) models, where each expert is placed on a separate GPU to increase throughput and reduce resource competition.",
+    "investment_implications": "Expert Parallelism can optimize the deployment of large MOE models, improving efficiency and potentially lowering operational costs.",
+    "source_type": "auto_extracted",
+    "mention_count": 1,
+    "source_diversity": 1,
+    "relevance_score": 50,
+    "submitted_date": "2026-08-04 04:40:23",
+    "priority_score": 80
+  },
   {
     "id": 559,
     "term": "Inference Margins",
@@ -34623,47 +34751,11 @@ const dashboardData = {
     "relevance_score": 50,
     "submitted_date": "2026-08-04 03:02:22",
     "priority_score": 80
-  },
-  {
-    "id": 558,
-    "term": "LPPL Exhaustion Signals",
-    "definition": "A bubble and crash detection system used to identify the final stages of a market bubble before a crash.",
-    "investment_implications": "Identifies high-risk periods in the market, signaling potential market tops and bottoms.",
-    "source_type": "auto_extracted",
-    "mention_count": 1,
-    "source_diversity": 1,
-    "relevance_score": 50,
-    "submitted_date": "2026-08-03 04:38:17",
-    "priority_score": 80
-  },
-  {
-    "id": 556,
-    "term": "Cyber Ethnography",
-    "definition": "The study of online groups and their behaviors to understand digital interactions and social dynamics in the virtual space.",
-    "investment_implications": "Understanding cyber ethnography helps investors assess the cultural impact of technology on user behavior and digital communities.",
-    "source_type": "auto_extracted",
-    "mention_count": 1,
-    "source_diversity": 1,
-    "relevance_score": 50,
-    "submitted_date": "2026-08-02 17:02:20",
-    "priority_score": 80
-  },
-  {
-    "id": 557,
-    "term": "Taste",
-    "definition": "A concept that goes beyond aesthetic preference, relating to how people consume virtually and the societal guidance on proper consumption habits, especially in the context of wealth creation.",
-    "investment_implications": "Investors can use the understanding of 'taste' to predict consumer behavior in digital economies and identify emerging markets.",
-    "source_type": "auto_extracted",
-    "mention_count": 1,
-    "source_diversity": 1,
-    "relevance_score": 50,
-    "submitted_date": "2026-08-02 17:02:20",
-    "priority_score": 80
   }
 ],
   podcastGuests: [
   {
-    "id": 42989,
+    "id": 43098,
     "name": "Why Macro is \u201cPretty Risk-On\u201d for Equities",
     "slug": "why-macro-is-pretty-risk-on-for-equities",
     "bio": null,
@@ -34675,7 +34767,7 @@ const dashboardData = {
     "appearance_count": 1
   },
   {
-    "id": 42990,
+    "id": 43099,
     "name": "AI for America's Small Businesses",
     "slug": "ai-for-americas-small-businesses",
     "bio": null,
@@ -34687,7 +34779,7 @@ const dashboardData = {
     "appearance_count": 1
   },
   {
-    "id": 42991,
+    "id": 43100,
     "name": "Mum\u2019s The Word",
     "slug": "mums-the-word",
     "bio": null,
@@ -34699,7 +34791,7 @@ const dashboardData = {
     "appearance_count": 1
   },
   {
-    "id": 42992,
+    "id": 43101,
     "name": "Luke Gromen",
     "slug": "luke-gromen",
     "bio": null,
@@ -34711,7 +34803,7 @@ const dashboardData = {
     "appearance_count": 1
   },
   {
-    "id": 42993,
+    "id": 43102,
     "name": "Codex from 0 to 10M Users",
     "slug": "codex-from-0-to-10m-users",
     "bio": null,
@@ -34723,7 +34815,7 @@ const dashboardData = {
     "appearance_count": 1
   },
   {
-    "id": 42994,
+    "id": 43103,
     "name": "Ben Horowitz",
     "slug": "ben-horowitz",
     "bio": "Ben Horowitz is a co-founder of venture firm Andreessen Horowitz and former CEO of Opsware, known for advising founders on leadership under pressure.",
@@ -34735,7 +34827,7 @@ const dashboardData = {
     "appearance_count": 3
   },
   {
-    "id": 42995,
+    "id": 43104,
     "name": "Building the Physical AI Stack",
     "slug": "building-the-physical-ai-stack",
     "bio": null,
@@ -34747,7 +34839,7 @@ const dashboardData = {
     "appearance_count": 1
   },
   {
-    "id": 42996,
+    "id": 43105,
     "name": "Travis Kalanick Is Back",
     "slug": "travis-kalanick-is-back",
     "bio": null,
@@ -34759,7 +34851,7 @@ const dashboardData = {
     "appearance_count": 1
   },
   {
-    "id": 42997,
+    "id": 43106,
     "name": "Why Physical AI Is the Next Frontier",
     "slug": "why-physical-ai-is-the-next-frontier",
     "bio": null,
@@ -34771,7 +34863,7 @@ const dashboardData = {
     "appearance_count": 1
   },
   {
-    "id": 42998,
+    "id": 43107,
     "name": "Nick Nemeth",
     "slug": "nick-nemeth",
     "bio": null,
@@ -34783,7 +34875,7 @@ const dashboardData = {
     "appearance_count": 1
   },
   {
-    "id": 42999,
+    "id": 43108,
     "name": "Mark Cuban on the AI Bubble",
     "slug": "mark-cuban-on-the-ai-bubble",
     "bio": null,
@@ -34795,7 +34887,7 @@ const dashboardData = {
     "appearance_count": 1
   },
   {
-    "id": 43000,
+    "id": 43109,
     "name": "Urgent Update- AI Sputnik Moment",
     "slug": "urgent-update--ai-sputnik-moment",
     "bio": null,
@@ -34807,7 +34899,7 @@ const dashboardData = {
     "appearance_count": 1
   },
   {
-    "id": 43001,
+    "id": 43110,
     "name": "Replay 2025",
     "slug": "replay-2025",
     "bio": null,
@@ -34819,7 +34911,7 @@ const dashboardData = {
     "appearance_count": 1
   },
   {
-    "id": 43002,
+    "id": 43111,
     "name": "Turbo Charged Trend Following",
     "slug": "turbo-charged-trend-following",
     "bio": null,
@@ -34831,7 +34923,7 @@ const dashboardData = {
     "appearance_count": 1
   },
   {
-    "id": 43003,
+    "id": 43112,
     "name": "Can Anyone Catch NVIDIA?",
     "slug": "can-anyone-catch-nvidia",
     "bio": null,
@@ -34843,7 +34935,7 @@ const dashboardData = {
     "appearance_count": 1
   },
   {
-    "id": 43004,
+    "id": 43113,
     "name": "Is AI a Bubble?",
     "slug": "is-ai-a-bubble",
     "bio": null,
@@ -34855,7 +34947,7 @@ const dashboardData = {
     "appearance_count": 1
   },
   {
-    "id": 43005,
+    "id": 43114,
     "name": "Adam Brown \u2013 Einstein's happiest thought",
     "slug": "adam-brown--einsteins-happiest-thought",
     "bio": null,
@@ -34867,7 +34959,7 @@ const dashboardData = {
     "appearance_count": 1
   },
   {
-    "id": 43006,
+    "id": 43115,
     "name": "Mark Zuckerberg & Priscilla Chan",
     "slug": "mark-zuckerberg--priscilla-chan",
     "bio": null,
@@ -34879,7 +34971,7 @@ const dashboardData = {
     "appearance_count": 1
   },
   {
-    "id": 43007,
+    "id": 43116,
     "name": "Adam Neumann",
     "slug": "adam-neumann",
     "bio": null,
@@ -34891,7 +34983,7 @@ const dashboardData = {
     "appearance_count": 1
   },
   {
-    "id": 43008,
+    "id": 43117,
     "name": "Breaking Down the Multi-Manager Playbook",
     "slug": "breaking-down-the-multi-manager-playbook",
     "bio": null,
@@ -35107,7 +35199,7 @@ const dashboardData = {
     "last_podcast_name": "The a16z Show",
     "last_episode_date": "2026-07-22",
     "mention_score": 3,
-    "mention_score_decayed": 2.33,
+    "mention_score_decayed": 2.27,
     "last_main_idea": "The next great technology revolution will be in the physical world, with industrial AI, robotics, and autonomy driving transformative change across industries.",
     "last_proof_cite": "The a16z Show \u2022 2026-07-22 \u2022 Travis Kalanick Is Back | Building the Future of Industrial AI",
     "last_proof_snippet": "We know what Boobers 2017 was like. Travis Kalana, because Snapchat's dying from his role as chief executive. That wouldn't have gone that way if Ben or Mark was on the board. You're in this hell, you're dealing with lawsuits. I worry about",
@@ -35236,7 +35328,7 @@ const dashboardData = {
     "last_podcast_name": "Monetary Matters with Jack Farley",
     "last_episode_date": "2026-07-28",
     "mention_score": 2,
-    "mention_score_decayed": 1.82,
+    "mention_score_decayed": 1.78,
     "last_main_idea": "The bond market is facing significant challenges due to supply and demand imbalances, fiscal pressures, and aging populations, making gold an attractive store of value in the current economic climate.",
     "last_proof_cite": "Monetary Matters with Jack Farley \u2022 2026-07-28 \u2022 Luke Gromen: Yield Curve Control is the Only Way to Stop a Global Bond Crisis",
     "last_proof_snippet": "Germany, Japan, and Korea are all historically big creditors from a sovereign perspective. And in particular, Japan, if they're borrowing money to do defense to me, they have turned sellers of bonds as well. So now they're selling, they're",
@@ -35356,7 +35448,7 @@ const dashboardData = {
     "last_podcast_name": "All-In with Chamath, Jason, Sacks & Friedberg",
     "last_episode_date": "2026-07-10",
     "mention_score": 2,
-    "mention_score_decayed": 1.15,
+    "mention_score_decayed": 1.12,
     "last_main_idea": "Investing in AI infrastructure and data center companies could yield significant returns as the demand for AI continues to grow exponentially.",
     "last_proof_cite": "All-In with Chamath, Jason, Sacks & Friedberg \u2022 2026-07-10 \u2022 Open Source Wins, AGI Is Here, and Scorsese's AI Toolkit with CEOs of Cerebras & Black Forest Labs",
     "last_proof_snippet": "We are in the race for super intelligence and Andrew Feldman is back and obviously CEO and founders Ceribres doing in friendships pioneered the space, had a successful IPO. We've talked about this a couple of times, we got to see each other",
@@ -35420,7 +35512,7 @@ const dashboardData = {
     "last_podcast_name": "All-In with Chamath, Jason, Sacks & Friedberg",
     "last_episode_date": "2026-07-03",
     "mention_score": 2,
-    "mention_score_decayed": 1.0,
+    "mention_score_decayed": 0.98,
     "last_main_idea": "Enterprises should prioritize data sovereignty in AI to maintain competitive advantages and consider decentralized, open-source AI models to reduce costs and enhance operational efficiency.",
     "last_proof_cite": "All-In with Chamath, Jason, Sacks & Friedberg \u2022 2026-07-03 \u2022 AI Sovereignty Wars, Palantir-Nvidia Deal, SCOTUS Birthright Ruling, Newsom's CA Budget Lie",
     "last_proof_snippet": "All right, everybody, welcome back to the number one podcast in the world. Sure, favorite podcast. It's your podcast. It's your favorite podcast. It's the all-in podcast episode two, seven, nine with me, freebergs, tax, to my, you know, the",
@@ -35480,7 +35572,7 @@ const dashboardData = {
     "last_podcast_name": "BG2Pod with Brad Gerstner and Bill Gurley",
     "last_episode_date": "2026-06-11",
     "mention_score": 2,
-    "mention_score_decayed": 0.68,
+    "mention_score_decayed": 0.66,
     "last_main_idea": "SpaceX's unique position in the AI compute market and its rapid deployment capabilities make it a compelling long-term investment, with potential for significant revenue growth through Starlink and AI advancements.",
     "last_proof_cite": "BG2Pod with Brad Gerstner and Bill Gurley \u2022 2026-06-11 \u2022 The SpaceX IPO, Fable 5, AI Capex Update & Market Check w/ Gavin Baker, Andrew Fox & Clark Tang | BG2",
     "last_proof_snippet": "I think we're all pretty AI-pilled, and if you're AI-pilled, that means we've got to build a lot more compute than the world thinks, and that these models are going to be a lot more valuable than people think. You combine that with their co",
@@ -36464,7 +36556,7 @@ const dashboardData = {
     "last_podcast_name": "Monetary Matters with Jack Farley",
     "last_episode_date": "2026-08-02",
     "mention_score": 1,
-    "mention_score_decayed": 1,
+    "mention_score_decayed": 0.98,
     "last_main_idea": "The market is in a phase where a new narrative is needed to drive further growth, with a focus on value laggards and sectors less exposed to speculative excesses.",
     "last_proof_cite": "Monetary Matters with Jack Farley \u2022 2026-08-02 \u2022 Why Macro is \u201cPretty Risk-On\u201d for Equities | Tian Yang of Variant Perception",
     "last_proof_snippet": "I'm joined once again by TN Yang, co-founder and head of research at variant perception. TN, what do you think about the stock market right now, the S&P, the NASDAQ, the semiconductor stocks, they have been trading quite weekly for the past",
@@ -37200,7 +37292,7 @@ const dashboardData = {
     "last_podcast_name": "Moonshots with Peter Diamandis",
     "last_episode_date": "2026-07-24",
     "mention_score": 1,
-    "mention_score_decayed": 0.81,
+    "mention_score_decayed": 0.79,
     "last_main_idea": "Investing in AI is about more than just technology; it's an investment in the future of innovation, human potential, and the ability to solve complex problems.",
     "last_proof_cite": "Moonshots with Peter Diamandis \u2022 2026-07-24 \u2022 The Hugging Face Breach, Moonshot AI Valued at $20B, and Living to 1,759 Years Old | EP #273",
     "last_proof_snippet": "Pugging face, the leading open platform for sharing testing and deploying AI models, it got breached by an autonomous agent when the hugging face security team tried to analyze the attack, using either anthropic or open AI, both models refu",
@@ -37260,7 +37352,7 @@ const dashboardData = {
     "last_podcast_name": "Moonshots with Peter Diamandis",
     "last_episode_date": "2026-07-24",
     "mention_score": 1,
-    "mention_score_decayed": 0.81,
+    "mention_score_decayed": 0.79,
     "last_main_idea": "Investing in AI is about more than just technology; it's an investment in the future of innovation, human potential, and the ability to solve complex problems.",
     "last_proof_cite": "Moonshots with Peter Diamandis \u2022 2026-07-24 \u2022 The Hugging Face Breach, Moonshot AI Valued at $20B, and Living to 1,759 Years Old | EP #273",
     "last_proof_snippet": "Pugging face, the leading open platform for sharing testing and deploying AI models, it got breached by an autonomous agent when the hugging face security team tried to analyze the attack, using either anthropic or open AI, both models refu",
@@ -38390,7 +38482,7 @@ const dashboardData = {
     "last_podcast_name": "Monetary Matters with Jack Farley",
     "last_episode_date": "2026-07-14",
     "mention_score": 1,
-    "mention_score_decayed": 0.64,
+    "mention_score_decayed": 0.63,
     "last_main_idea": "Invest in companies at the forefront of AI and semiconductors that can leverage intelligence to perform high-cost, time-consuming tasks more efficiently and at scale.",
     "last_proof_cite": "Monetary Matters with Jack Farley \u2022 2026-07-14 \u2022 The Semiconductor Earnings Boom Is Just Getting Started | Ben Pouladian on why AI is Real, Nvidia is Mispriced, and Capacitors Are Overrated",
     "last_proof_snippet": "Got a special conversation today. I'm joined by Ben Kulandian of BEP Research. Ben is a specialist investor and analyst in the semi-conductor world and the semi-conductor supply chain. Of course, that is what powers AI Ben welcome to moneta",
@@ -38908,7 +39000,7 @@ const dashboardData = {
     "last_podcast_name": "Monetary Matters with Jack Farley",
     "last_episode_date": "2026-07-05",
     "mention_score": 1,
-    "mention_score_decayed": 0.52,
+    "mention_score_decayed": 0.51,
     "last_main_idea": "The Federal Reserve's ability to manage interest rates effectively hinges on maintaining adequate reserve levels; monitoring the implementation of techniques to reduce reserve demand could provide insights into future monetary policy and market stability.",
     "last_proof_cite": "Monetary Matters with Jack Farley \u2022 2026-07-05 \u2022 The Ultimate Playbook for Reducing The Fed\u2019s Balance Sheet | Professor Darrell Duffie on 4 Tools For Federal Reserve To Shrink Reserve Demand In Banking System",
     "last_proof_snippet": "Today's episode is brought to you by the Fundrise Income Fund. You'll hear more about the income fund later in the show, but for now, let's get into today's interview. The new Fed Chair Kevin Worsh has made it no secret that he prefers a sm",
@@ -39338,7 +39430,7 @@ const dashboardData = {
     "last_podcast_name": "Monetary Matters with Jack Farley",
     "last_episode_date": "2026-06-29",
     "mention_score": 1,
-    "mention_score_decayed": 0.46,
+    "mention_score_decayed": 0.45,
     "last_main_idea": "Investors should be cautious of current AI and data center investment booms, drawing parallels with the 1873 financial crisis, and be mindful of the risks associated with excessive leverage and mismanaged monetary policy.",
     "last_proof_cite": "Monetary Matters with Jack Farley \u2022 2026-06-29 \u2022 Rothschilds, Railroads, & Ruin | Liaquat Ahamed on \u201c1873\u201d (New Book!)",
     "last_proof_snippet": "I am so glad today we have a very special guest, one of my favorite authors of all time Leakwet Ahamed, who's the author of the new book 1873, The Roth Childs, The First Great Depression, and The Making of the Modern World Leakwet. Welcome",
@@ -39465,7 +39557,7 @@ const dashboardData = {
     "last_podcast_name": "Monetary Matters with Jack Farley",
     "last_episode_date": "2026-06-24",
     "mention_score": 1,
-    "mention_score_decayed": 0.41,
+    "mention_score_decayed": 0.4,
     "last_main_idea": "Plutus democratizes investment management by providing individual investors access to sophisticated strategies and research, previously limited to institutional investors, at a competitive fee.",
     "last_proof_cite": "Monetary Matters with Jack Farley \u2022 2026-06-24 \u2022 Inside The Platform Helping to Invest Like Substack & FinTwit's Top Researchers | Plutus",
     "last_proof_snippet": "I think for the first time, we're at a place where talented, portfolio builders, manager researchers have an avenue that is not limited to big banks and put us fully intends to incubate that talent and grow it. We really looked at it from t",
@@ -39649,7 +39741,7 @@ const dashboardData = {
     "last_podcast_name": "All-In with Chamath, Jason, Sacks & Friedberg",
     "last_episode_date": "2026-06-23",
     "mention_score": 1,
-    "mention_score_decayed": 0.4,
+    "mention_score_decayed": 0.39,
     "last_main_idea": "Ryan Cohen's investment strategy at GameStop focuses on operational efficiency, cost optimization, and leveraging the growing collectibles market to drive profitability and shareholder value.",
     "last_proof_cite": "All-In with Chamath, Jason, Sacks & Friedberg \u2022 2026-06-23 \u2022 GameStop CEO Ryan Cohen's $56B Plan to Take Over eBay",
     "last_proof_snippet": "Everyone hates GameStop and it seems like everyone in the media basically wants us to fail and wants them to succeed and you've got a board that's making hundreds of thousands of dollars a year and they don't buy stock with their own money.",
@@ -39779,7 +39871,7 @@ const dashboardData = {
     "last_podcast_name": "Latent Space: The AI Engineer Podcast",
     "last_episode_date": "2026-06-22",
     "mention_score": 1,
-    "mention_score_decayed": 0.39,
+    "mention_score_decayed": 0.38,
     "last_main_idea": "Invest in companies focused on AI safety and security, as they are essential players in the evolving tech landscape and can help organizations navigate the complexities of AI deployment and ensure compliance with security standards.",
     "last_proof_cite": "Latent Space: The AI Engineer Podcast \u2022 2026-06-22 \u2022 Red-Teaming after Mythos \u2014 Zico Kolter & Matt Fredrikson, Gray Swan",
     "last_proof_snippet": "Okay, we're here in a studio with Grace One, Matt and Zico welcome. Great to be here. Yeah. Thanks for having us. You're visiting from Pittsburgh? That's right. The home of all good computer science, I don't know if I'm oversteaving things.",
@@ -39842,7 +39934,7 @@ const dashboardData = {
     "last_podcast_name": "The a16z Show",
     "last_episode_date": "2026-06-22",
     "mention_score": 1,
-    "mention_score_decayed": 0.39,
+    "mention_score_decayed": 0.38,
     "last_main_idea": "Invest in founders who demonstrate resilience and adaptability, focusing on sectors like AI, defense, aerospace, infrastructure, and software.",
     "last_proof_cite": "The a16z Show \u2022 2026-06-22 \u2022 Jake Paul & Anti Fund: From Creator to Investor",
     "last_proof_snippet": "We're officially announcing the $100 million over subscribe to growth fund and some of the tier 1 names Maybe all the tier 1 names And are all at cognition, psoronic, modal When we announce anti-fine but like GW like you're making a mistake",
@@ -39906,7 +39998,7 @@ const dashboardData = {
     "last_podcast_name": "The a16z Show",
     "last_episode_date": "2026-06-22",
     "mention_score": 1,
-    "mention_score_decayed": 0.39,
+    "mention_score_decayed": 0.38,
     "last_main_idea": "Invest in founders who demonstrate resilience and adaptability, focusing on sectors like AI, defense, aerospace, infrastructure, and software.",
     "last_proof_cite": "The a16z Show \u2022 2026-06-22 \u2022 Jake Paul & Anti Fund: From Creator to Investor",
     "last_proof_snippet": "We're officially announcing the $100 million over subscribe to growth fund and some of the tier 1 names Maybe all the tier 1 names And are all at cognition, psoronic, modal When we announce anti-fine but like GW like you're making a mistake",
@@ -39965,7 +40057,7 @@ const dashboardData = {
     "last_podcast_name": "Monetary Matters with Jack Farley",
     "last_episode_date": "2026-06-21",
     "mention_score": 1,
-    "mention_score_decayed": 0.38,
+    "mention_score_decayed": 0.37,
     "last_main_idea": "Investors should be cautious about the long-term viability of AI companies with high operational losses and unsustainable financial models.",
     "last_proof_cite": "Monetary Matters with Jack Farley \u2022 2026-06-21 \u2022 Ed Zitron: The AI Bubble is Bleeding Cash, Here Are The Receipts",
     "last_proof_snippet": "Got a very special conversation. I am speaking to one of the most prolific skeptics about AI. I'm joined today by Ed Zitron, author of Where's Your Ed at Newsletter and the Better Offline Podcast. Ed, welcome to monetary matters. Thanks for",
@@ -40024,7 +40116,7 @@ const dashboardData = {
     "last_podcast_name": "Monetary Matters with Jack Farley",
     "last_episode_date": "2026-06-20",
     "mention_score": 1,
-    "mention_score_decayed": 0.37,
+    "mention_score_decayed": 0.36,
     "last_main_idea": "Investors should focus on individual company fundamentals in the AI and semiconductor sectors, rather than broad macro trends, and be cautious of inflated valuations and unprofitable business models.",
     "last_proof_cite": "Monetary Matters with Jack Farley \u2022 2026-06-20 \u2022 Jim Chanos & Val Zlatev: Long and Short Alpha in AI, Semiconductors, Data Centers, Neoclouds, and Data Centers | MacroMinds Symposium 2026",
     "last_proof_snippet": "Where's to find value in the AI boom on the long side and the short side? This is the question that I asked two great investors earlier this month when I had the privilege of hosting Jim Channos and Val Zlathe. Jim is a legendary short sell",
@@ -40089,7 +40181,7 @@ const dashboardData = {
     "last_podcast_name": "Monetary Matters with Jack Farley",
     "last_episode_date": "2026-06-20",
     "mention_score": 1,
-    "mention_score_decayed": 0.37,
+    "mention_score_decayed": 0.36,
     "last_main_idea": "Investors should focus on individual company fundamentals in the AI and semiconductor sectors, rather than broad macro trends, and be cautious of inflated valuations and unprofitable business models.",
     "last_proof_cite": "Monetary Matters with Jack Farley \u2022 2026-06-20 \u2022 Jim Chanos & Val Zlatev: Long and Short Alpha in AI, Semiconductors, Data Centers, Neoclouds, and Data Centers | MacroMinds Symposium 2026",
     "last_proof_snippet": "Where's to find value in the AI boom on the long side and the short side? This is the question that I asked two great investors earlier this month when I had the privilege of hosting Jim Channos and Val Zlathe. Jim is a legendary short sell",
@@ -40518,7 +40610,7 @@ const dashboardData = {
     "last_podcast_name": "BG2Pod with Brad Gerstner and Bill Gurley",
     "last_episode_date": "2026-06-11",
     "mention_score": 1,
-    "mention_score_decayed": 0.34,
+    "mention_score_decayed": 0.33,
     "last_main_idea": "SpaceX's unique position in the AI compute market and its rapid deployment capabilities make it a compelling long-term investment, with potential for significant revenue growth through Starlink and AI advancements.",
     "last_proof_cite": "BG2Pod with Brad Gerstner and Bill Gurley \u2022 2026-06-11 \u2022 The SpaceX IPO, Fable 5, AI Capex Update & Market Check w/ Gavin Baker, Andrew Fox & Clark Tang | BG2",
     "last_proof_snippet": "I think we're all pretty AI-pilled, and if you're AI-pilled, that means we've got to build a lot more compute than the world thinks, and that these models are going to be a lot more valuable than people think. You combine that with their co",
@@ -41558,7 +41650,7 @@ const dashboardData = {
     "last_podcast_name": "Moonshots with Peter Diamandis",
     "last_episode_date": "2026-06-03",
     "mention_score": 1,
-    "mention_score_decayed": 0.25,
+    "mention_score_decayed": 0.24,
     "last_main_idea": "Invest in companies at the forefront of AI advancements, particularly in large language models and robotics, as these technologies are expected to drive the next wave of innovation and growth.",
     "last_proof_cite": "Moonshots with Peter Diamandis \u2022 2026-06-03 \u2022 Why AGI Is Close but Not Here Yet | Ray Kurzweil | EP #261",
     "last_proof_snippet": "We just saw a story where Dennis is obvious, who you know, said 50, 50, whether we need another breakthrough to get to AGI. What do you think? Well, I think we need two things. So we've made a 75,000 million trillion folding grease over thi",
@@ -44875,7 +44967,7 @@ const dashboardData = {
     "last_podcast_name": "Monetary Matters with Jack Farley",
     "last_episode_date": "2026-04-18",
     "mention_score": 1,
-    "mention_score_decayed": 0.1,
+    "mention_score_decayed": 0.09,
     "last_main_idea": "Investment in private credit and non-depository financial institutions presents both opportunities and risks for banks, with the potential for debt to be converted into equity in challenging economic conditions.",
     "last_proof_cite": "Monetary Matters with Jack Farley \u2022 2026-04-18 \u2022 Banks' \u201cConsiderable\u201d Exposure to Private Credit | Chris Whalen on Banks\u2019 Loans to NBFIs, Plus CRE, Gold, and Payments",
     "last_proof_snippet": "Large banks are adept at managing exposure to non-depository financial institutions, often selling undesirable exposures and buying protection through CLOs.",

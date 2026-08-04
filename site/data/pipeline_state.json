@@ -1,7 +1,7 @@
 {
-  "generated_at": "2026-08-03T22:04:03.541073",
-  "last_updated": "2026-08-03T22:04:03.541073",
-  "last_pipeline_run": "2026-08-03T22:04:03.541073",
+  "generated_at": "2026-08-03T23:42:00.024021",
+  "last_updated": "2026-08-03T23:42:00.024021",
+  "last_pipeline_run": "2026-08-03T23:42:00.024021",
   "main_page": {
     "overton": 13,
     "insights": 8,
@@ -9,21 +9,21 @@
   },
   "counts": {
     "ticker_mentions": 211,
-    "podcast_episodes": 355,
+    "podcast_episodes": 356,
     "newsletters": 7,
     "daily_scores": 149,
     "overton_terms_total": 116,
-    "latest_insights_total": 369,
+    "latest_insights_total": 370,
     "today_mentions": {},
-    "podcasts_analyzed": 1
+    "podcasts_analyzed": 2
   },
   "step_results": {
-    "downloaded": 2,
+    "downloaded": 1,
     "transcribed": 1,
     "analyzed": 1,
     "insight_created": 1,
     "published": 1,
-    "total": 2
+    "total": 1
   },
   "episodes": [
     {
@@ -32,77 +32,6 @@
       "title": "The Inference Engineering Masterclass \u2014 Philip Kiely & Ali Taha, Baseten",
       "published": "2026-08-03",
       "rss_guid": "substack:post:209198968",
-      "stages": {
-        "downloaded": true,
-        "transcribed": false,
-        "analyzed": false,
-        "insight_created": false,
-        "published": false
-      },
-      "stage_reasons": {
-        "transcribed": "No podcast_episodes row yet (curated APPROVED but DB not updated). Usually fixed by: fetch_latest --queue-only + whisper worker + auto_pipeline sweep.",
-        "analyzed": "No podcast_episodes row yet (curated APPROVED but DB not updated). Usually fixed by: fetch_latest --queue-only + whisper worker + auto_pipeline sweep.",
-        "insight_created": "No podcast_episodes row yet (curated APPROVED but DB not updated). Usually fixed by: fetch_latest --queue-only + whisper worker + auto_pipeline sweep.",
-        "published": "No podcast_episodes row yet (curated APPROVED but DB not updated). Usually fixed by: fetch_latest --queue-only + whisper worker + auto_pipeline sweep."
-      },
-      "first_blocker": "transcribed",
-      "remediation_by_stage": {
-        "transcribed": {
-          "action_id": "TRANSCRIBE",
-          "steps": [
-            "There are 2 MP3 file(s) in whisper_queue/ waiting for the worker.",
-            "Run whisper_worker.sh from the repo root (WORKSPACE_ROOT) so whisper_queue/ drains to whisper_done/.",
-            "If the queue is empty but there is still no transcript, read whisper_worker.log for Whisper failures.",
-            "After transcripts land in whisper_done/, run auto_pipeline.py so fetch sweeps them into the DB and pipeline/transcripts/."
-          ],
-          "commands": [
-            "cd /Users/jaredsheppard/projects/ai-finance-tech-dashboard && ./whisper_worker.sh",
-            "cd /Users/jaredsheppard/projects/ai-finance-tech-dashboard/pipeline && python3 auto_pipeline.py"
-          ]
-        },
-        "analyzed": {
-          "action_id": "ANALYZE_TRANSCRIPTS",
-          "steps": [
-            "Run transcript analysis so is_processed=1 on podcast_episodes (analyze_transcript via auto_pipeline).",
-            "Ensure LLM keys in workspace .env (e.g. MOONSHOT_API_KEY) are set if the analyzer requires them.",
-            "Quick path: auto_pipeline.py --analyze-only analyzes then continues promotion/export steps in that run."
-          ],
-          "commands": [
-            "cd /Users/jaredsheppard/projects/ai-finance-tech-dashboard/pipeline && python3 auto_pipeline.py --analyze-only",
-            "cd /Users/jaredsheppard/projects/ai-finance-tech-dashboard/pipeline && python3 auto_pipeline.py"
-          ]
-        },
-        "insight_created": {
-          "action_id": "PROMOTE_INSIGHT",
-          "steps": [
-            "Promotion to latest_insights runs inside auto_pipeline after analysis.",
-            "If analysis succeeded but insight is missing, re-run full auto_pipeline.py and check logs for promote_episodes_to_insights errors."
-          ],
-          "commands": [
-            "cd /Users/jaredsheppard/projects/ai-finance-tech-dashboard/pipeline && python3 auto_pipeline.py"
-          ]
-        },
-        "published": {
-          "action_id": "EXPORT_AND_PUBLISH",
-          "steps": [
-            "Site export runs only after generate_deepdives.py succeeds; if Deep Dives fail, export and git push are skipped.",
-            "Fix Deep Dive errors (see pipeline logs), then run auto_pipeline.py to export site JSON and push.",
-            "When added_to_site=1 on the episode row, this stage turns green."
-          ],
-          "commands": [
-            "cd /Users/jaredsheppard/projects/ai-finance-tech-dashboard/pipeline && python3 generate_deepdives.py",
-            "cd /Users/jaredsheppard/projects/ai-finance-tech-dashboard/pipeline && python3 auto_pipeline.py"
-          ]
-        }
-      },
-      "status": "needs_transcription"
-    },
-    {
-      "id": "substack:post:209664458",
-      "podcast": "Dwarkesh Podcast",
-      "title": "Why smarter AI models could drive up compute prices 10x",
-      "published": "2026-08-03",
-      "rss_guid": "substack:post:209664458",
       "stages": {
         "downloaded": true,
         "transcribed": true,
@@ -116,15 +45,7 @@
       "status": "complete"
     }
   ],
-  "available_from_rss": [
-    {
-      "podcast": "Latent Space: The AI Engineer Podcast",
-      "title": "The Inference Engineering Masterclass \u2014 Philip Kiely & Ali Taha, Baseten",
-      "published": "Mon, 03 Aug 2026 21:44:03 GMT",
-      "published_date": "2026-08-03",
-      "rss_guid": ""
-    }
-  ],
+  "available_from_rss": [],
   "stale_episodes": [],
   "stale_threshold_days": 2,
   "rss_filter_criteria": {
@@ -141,7 +62,7 @@
       "insight_created",
       "published"
     ],
-    "whisper_queue_pending_mp3": 2,
+    "whisper_queue_pending_mp3": 0,
     "fix_order": "For each episode, read first_blocker then remediation_by_stage[first_blocker].",
     "end_to_end": "cd /Users/jaredsheppard/projects/ai-finance-tech-dashboard/pipeline && python3 auto_pipeline.py",
     "analyze_only": "cd /Users/jaredsheppard/projects/ai-finance-tech-dashboard/pipeline && python3 auto_pipeline.py --analyze-only",
