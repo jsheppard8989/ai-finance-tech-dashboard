@@ -1,5 +1,24 @@
 [
   {
+    "id": 384,
+    "podcast_name": "Monetary Matters with Jack Farley",
+    "episode_title": "Victor Haghani on Death of Random Walk, and Passive, Buybacks, and LTCM",
+    "episode_date": "2026-08-04",
+    "summary": "In this episode of Monetary Matters, Jack Farley discusses the lessons learned from Long-Term Capital Management (LTCM) and the behavior of the stock market. The conversation delves into personal risk-taking, the structure of leverage pools, and the differences between relative value trades and Delta 1 trades. Additionally, the episode explores the impact of AI capex on S&P 500 earnings and the role of extrapolators in market movements.",
+    "key_takeaways": [
+      "Personal risk-taking and having 'skin in the game' are crucial for investment success.",
+      "Running a leverage pool with standalone capital might not be the best business structure.",
+      "Relative value trading within larger institutions can mitigate financing risks.",
+      "Tight stop losses on strategies can bring positive exposure to momentum.",
+      "A broader mix of strategies can help hedge funds navigate crises more successfully.",
+      "Market behavior is increasingly driven by extrapolators and corporate equity activity rather than fundamental investors."
+    ],
+    "investment_thesis": "The S&P 500's performance over the next two years will be largely determined by the behavior of extrapolators and corporate equity activity, rather than fundamental earnings growth.",
+    "key_tickers": [
+      "LTCM"
+    ]
+  },
+  {
     "id": 383,
     "podcast_name": "Latent Space: The AI Engineer Podcast",
     "episode_title": "The Inference Engineering Masterclass \u2014 Philip Kiely & Ali Taha, Baseten",
@@ -127,23 +146,6 @@
       "AI may kill certain jobs, but it can also create new career opportunities by freeing up humans to focus on more complex tasks."
     ],
     "investment_thesis": "Investing in AI-driven enterprise software that leverages open source models can lead to better control, performance, and scalability, creating a competitive advantage in the market.",
-    "key_tickers": null
-  },
-  {
-    "id": 376,
-    "podcast_name": "The a16z Show",
-    "episode_title": "AI for America's Small Businesses | Lassie",
-    "episode_date": "2026-07-30",
-    "summary": "This episode of 'The a16z Show' features a discussion on the role of AI in automating administrative tasks within healthcare practices. The conversation revolves around the challenges and opportunities presented by AI in small businesses, particularly in healthcare, and how AI is changing the nature of software from mere data storage to performing actual work. The guests share insights on the practical applications of AI in healthcare, the importance of building software that can operate autonomously, and the future of enterprise software being measured by the amount of work it can automate.",
-    "key_takeaways": [
-      "AI is changing the nature of software from data storage to performing actual work.",
-      "Small businesses, particularly in healthcare, present one of the biggest opportunities for AI.",
-      "Building software that operates autonomously requires significant effort to integrate with existing systems and processes.",
-      "The future of enterprise software may be measured by the amount of work it can automate rather than features.",
-      "AI adoption in small businesses is a complex puzzle that requires a different go-to-market strategy.",
-      "There is a significant 'last mile' distribution challenge in bringing AI solutions to mainstream American businesses."
-    ],
-    "investment_thesis": "AI has the potential to automate administrative tasks in healthcare practices, creating significant value for small businesses and changing the landscape of enterprise software.",
     "key_tickers": null
   }
 ]

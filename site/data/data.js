@@ -3,80 +3,80 @@
 
 const dashboardData = {
   schemaVersion: 2,
-  generatedAt: "2026-08-04T12:03:08.168761",
-  chartsVersion: "2026-08-04T12:02:50.194652",
+  generatedAt: "2026-08-04T13:38:18.477018",
+  chartsVersion: "2026-08-04T13:38:08.535356",
   priceSnapshot: {
   "GOOGL": {
-    "price": 376.97,
-    "change_pct": 6.35,
+    "price": 380.17,
+    "change_pct": 7.25,
     "name": "GOOGL",
-    "updated_at": "2026-08-04T12:02:50.193399"
+    "updated_at": "2026-08-04T13:38:08.533973"
   },
   "NVDA": {
-    "price": 210.8,
-    "change_pct": 1.64,
+    "price": 212.75,
+    "change_pct": 2.58,
     "name": "NVDA",
-    "updated_at": "2026-08-04T12:02:50.193419"
+    "updated_at": "2026-08-04T13:38:08.533997"
   },
   "BTC": {
-    "price": 63997.24,
-    "change_pct": -3.18,
+    "price": 64250.05,
+    "change_pct": -2.8,
     "name": "BTC",
-    "updated_at": "2026-08-04T12:02:50.193430"
+    "updated_at": "2026-08-04T13:38:08.534010"
   },
   "MSFT": {
-    "price": 494.84,
-    "change_pct": 23.37,
+    "price": 496.79,
+    "change_pct": 23.86,
     "name": "MSFT",
-    "updated_at": "2026-08-04T12:02:50.193438"
+    "updated_at": "2026-08-04T13:38:08.534020"
   },
   "TSLA": {
-    "price": 325.62,
-    "change_pct": -16.73,
+    "price": 327.01,
+    "change_pct": -16.38,
     "name": "TSLA",
-    "updated_at": "2026-08-04T12:02:50.193446"
+    "updated_at": "2026-08-04T13:38:08.534030"
   },
   "AMZN": {
-    "price": 278.82,
-    "change_pct": 11.58,
+    "price": 277.68,
+    "change_pct": 11.12,
     "name": "AMZN",
-    "updated_at": "2026-08-04T12:02:50.193455"
+    "updated_at": "2026-08-04T13:38:08.534041"
   },
   "META": {
-    "price": 583.33,
-    "change_pct": -12.22,
+    "price": 589.21,
+    "change_pct": -11.34,
     "name": "META",
-    "updated_at": "2026-08-04T12:02:50.193463"
+    "updated_at": "2026-08-04T13:38:08.534052"
   },
   "WTI": {
-    "price": 3.44,
-    "change_pct": 3.3,
+    "price": 3.43,
+    "change_pct": 3.15,
     "name": "WTI",
-    "updated_at": "2026-08-04T12:02:50.193471"
+    "updated_at": "2026-08-04T13:38:08.534062"
   },
   "S&P 500": {
-    "price": 770.76,
-    "change_pct": 2.67,
+    "price": 771.91,
+    "change_pct": 2.82,
     "name": "S&P 500",
-    "updated_at": "2026-08-04T12:02:50.193479"
+    "updated_at": "2026-08-04T13:38:08.534072"
   },
   "AAPL": {
-    "price": 308.87,
-    "change_pct": -7.32,
+    "price": 308.98,
+    "change_pct": -7.29,
     "name": "AAPL",
-    "updated_at": "2026-08-04T12:02:50.193487"
+    "updated_at": "2026-08-04T13:38:08.534082"
   },
   "QQQ": {
-    "price": 720.99,
-    "change_pct": 2.13,
+    "price": 723.35,
+    "change_pct": 2.47,
     "name": "Invesco QQQ Trust",
-    "updated_at": "2026-08-04T12:02:50.193495"
+    "updated_at": "2026-08-04T13:38:08.534091"
   },
   "BTC-USD": {
-    "price": 63997.24,
-    "change_pct": -3.18,
+    "price": 64250.05,
+    "change_pct": -2.8,
     "name": "Bitcoin USD",
-    "updated_at": "2026-08-04T12:02:50.193504"
+    "updated_at": "2026-08-04T13:38:08.534102"
   }
 },
   tickerScores: [
@@ -834,6 +834,25 @@ const dashboardData = {
   archive: {
   "insights": [
     {
+      "id": 399,
+      "title": "Victor Haghani on Death of Random Walk, and Passive, Buybacks, and LTCM",
+      "source_type": "podcast",
+      "source_name": "Monetary Matters with Jack Farley",
+      "source_date": "2026-08-04",
+      "summary": "In this episode of Monetary Matters, Jack Farley discusses the lessons learned from Long-Term Capital Management (LTCM) and the behavior of the stock market. The conversation delves into personal risk-taking, the structure of leverage pools, and the differences between relative value trades and Delta 1 trades. Additionally, the episode explores the impact of AI capex on S&P 500 earnings and the role of extrapolators in market movements.",
+      "key_takeaway": "The S&P 500's performance over the next two years will be largely determined by the behavior of extrapolators and corporate equity activity, rather than fundamental earnings growth.",
+      "tickers_mentioned": [
+        "LTCM"
+      ],
+      "sentiment": "bullish",
+      "display_on_main": 1,
+      "display_order": 0,
+      "added_date": "2026-08-04",
+      "archived_date": null,
+      "archived_reason": null,
+      "podcast_episode_id": 384
+    },
+    {
       "id": 397,
       "title": "Why smarter AI models could drive up compute prices 10x",
       "source_type": "podcast",
@@ -990,7 +1009,7 @@ const dashboardData = {
         "AAPL"
       ],
       "sentiment": "neutral",
-      "display_on_main": 1,
+      "display_on_main": 0,
       "display_order": 0,
       "added_date": "2026-07-30",
       "archived_date": null,
@@ -8797,8 +8816,8 @@ const dashboardData = {
       "term": "AI CapEx",
       "description": "Capital expenditures related to the acquisition and maintenance of AI technologies and systems.",
       "first_detected_date": "2026-06-08",
-      "last_mentioned_date": "2026-07-29",
-      "mention_count": 15,
+      "last_mentioned_date": "2026-08-04",
+      "mention_count": 16,
       "source_podcasts": null,
       "status": "active",
       "investment_implications": "Companies that invest heavily in AI CapEx may gain a competitive edge in their respective industries.",
@@ -8807,8 +8826,8 @@ const dashboardData = {
       "archived_reason": null,
       "first_detected_episode_id": 271,
       "first_detected_speaker": null,
-      "last_mentioned_episode_id": 372,
-      "last_mentioned_speaker": "Katherine Rooney Vera"
+      "last_mentioned_episode_id": 384,
+      "last_mentioned_speaker": "Victor Hagani"
     },
     {
       "id": 234,
@@ -10567,6 +10586,28 @@ const dashboardData = {
   mainContent: {
   "insights": [
     {
+      "id": 399,
+      "title": "Victor Haghani on Death of Random Walk, and Passive, Buybacks, and LTCM",
+      "source_type": "podcast",
+      "source_name": "Monetary Matters with Jack Farley",
+      "source_date": "2026-08-04",
+      "summary": "In this episode of Monetary Matters, Jack Farley discusses the lessons learned from Long-Term Capital Management (LTCM) and the behavior of the stock market. The conversation delves into personal risk-taking, the structure of leverage pools, and the differences between relative value trades and Delta 1 trades. Additionally, the episode explores the impact of AI capex on S&P 500 earnings and the role of extrapolators in market movements.",
+      "key_takeaway": "The S&P 500's performance over the next two years will be largely determined by the behavior of extrapolators and corporate equity activity, rather than fundamental earnings growth.",
+      "tickers_mentioned": "[\"LTCM\"]",
+      "sentiment": "bullish",
+      "display_on_main": 1,
+      "display_order": 0,
+      "added_date": "2026-08-04",
+      "archived_date": null,
+      "archived_reason": null,
+      "podcast_episode_id": 384,
+      "episode_release_date": "2026-08-04",
+      "guest_name": null,
+      "key_tickers": [
+        "LTCM"
+      ]
+    },
+    {
       "id": 397,
       "title": "Why smarter AI models could drive up compute prices 10x",
       "source_type": "podcast",
@@ -10716,26 +10757,6 @@ const dashboardData = {
         "AMD",
         "MU"
       ]
-    },
-    {
-      "id": 391,
-      "title": "AI for America's Small Businesses | Lassie",
-      "source_type": "podcast",
-      "source_name": "The a16z Show",
-      "source_date": "2026-07-30",
-      "summary": "This episode of 'The a16z Show' features a discussion on the role of AI in automating administrative tasks within healthcare practices. The conversation revolves around the challenges and opportunities presented by AI in small businesses, particularly in healthcare, and how AI is changing the nature of software from mere data storage to performing actual work. The guests share insights on the practical applications of AI in healthcare, the importance of building software that can operate autonomously, and the future of enterprise software being measured by the amount of work it can automate.",
-      "key_takeaway": "AI has the potential to automate administrative tasks in healthcare practices, creating significant value for small businesses and changing the landscape of enterprise software.",
-      "tickers_mentioned": "[\"AAPL\"]",
-      "sentiment": "neutral",
-      "display_on_main": 1,
-      "display_order": 0,
-      "added_date": "2026-07-30",
-      "archived_date": null,
-      "archived_reason": null,
-      "podcast_episode_id": 376,
-      "episode_release_date": "2026-07-30",
-      "guest_name": "AI for America's Small Businesses",
-      "key_tickers": []
     }
   ],
   "definitions": [
@@ -34701,61 +34722,109 @@ const dashboardData = {
     "source_name": "Latent Space: The AI Engineer Podcast",
     "source_date": "2026-08-03",
     "key_tickers": []
+  },
+  "399": {
+    "id": 389,
+    "insight_id": 399,
+    "podcast_episode_id": 384,
+    "overview": "The unresolved tension in the source material revolves around the debate between the efficiency of the stock market, as suggested by the random walk theory, and the influence of investor behavior, particularly extrapolators, on market movements. The competitive dynamic is between the classical financial model of rational, informed decision-making and the reality of market behavior influenced by psychological biases and short-term trends. The allocator-relevant implication is that the performance of the S&P 500 over the next two years could be arbitrated by the behavior of extrapolators and corporate equity activity, rather than fundamental earnings growth.",
+    "key_takeaways_detailed": [
+      "Investors should monitor the behavior of extrapolators and their impact on market trends, as their activity could significantly influence short-term market movements.",
+      "The structure of leverage pools and the risk associated with standalone capital should be reassessed, especially in the context of larger institutions.",
+      "Relative value trades, which tend to have fatter tails, may require different risk management strategies compared to Delta 1 trades.",
+      "The impact of AI capex on S&P 500 earnings could be a significant factor in market performance, suggesting a need for closer monitoring of technology investments and their earnings impact."
+    ],
+    "investment_thesis": "The core logic is that market behavior is significantly influenced by investor types, particularly extrapolators, whose actions are based on recent market history rather than long-term fundamental analysis. This behavior leads to market anomalies that cannot be explained by the random walk theory. A timeframe of two years is suggested to observe the impact of extrapolators and corporate equity activity on the S&P 500. The thesis would be vindicated if the S&P 500's performance is more closely tied to these factors rather than fundamental earnings growth, and invalidated if the market behaves in a manner consistent with the random walk theory, showing no significant influence from extrapolators.",
+    "ticker_analysis": {
+      "AAPL": {
+        "rationale": "Apple Inc. (AAPL) is relevant due to its significant weight in the S&P 500 and its substantial investment in AI and technology, which can influence earnings and stock performance.",
+        "positioning": "Positioning in AAPL could be strategic, considering its influence on the S&P 500 and the potential impact of AI capex on earnings. A long position might be appropriate if one believes in the continued growth of technology investments and their positive impact on earnings.",
+        "risk": "Key risks include a slowdown in AI capex, changes in consumer preferences, and increased competition in the technology sector."
+      }
+    },
+    "positioning_guidance": "",
+    "risk_factors": [],
+    "contrarian_signals": [
+      "The belief that market efficiency as described by the random walk theory is still valid and that investor behavior does not significantly influence market movements.",
+      "The argument that fundamental earnings growth is the primary driver of the S&P 500's performance, rather than the behavior of extrapolators and corporate equity activity."
+    ],
+    "catalysts": [
+      "Publication of Haghani's research in the Journal of Investment Management and its reception within the academic and practitioner communities.",
+      "Significant market events or crises that could highlight the role of different investor types in market movements.",
+      "Earnings reports and AI capex announcements from major S&P 500 constituents that could influence market perceptions and behavior."
+    ],
+    "related_insights": null,
+    "audio_timestamp_start": null,
+    "audio_timestamp_end": null,
+    "transcript_excerpt": null,
+    "created_at": "2026-08-04T13:37:06.924723",
+    "updated_at": "2026-08-04 18:37:06",
+    "episode_evidence": "In the Monetary Matters podcast, Jack Farley and Victor Haghani discussed the implications of LTCM's collapse and the behavior of the stock market. Haghani highlighted the importance of personal risk-taking, stating, 'the biggest lessons are about personal risk taking.' He emphasized the issue with standalone capital in leverage pools, suggesting 'running a leverage pool of standalone capital might be a bad business structure.' Haghani also differentiated between relative value trades and Delta 1 trades, noting that 'relative value trades tend to have fatter tails than what we call Delta 1 trades.' Furthermore, Haghani discussed the impact of AI capex on S&P 500 earnings, and the role of extrapolators in market movements, 'extrapolators or return chasers...come up with their expected return for stocks based on recent history.' These discussions provide a deeper understanding of the mechanisms behind market volatility and the behavior of different types of investors.",
+    "falsification_tracks": [
+      "If the S&P 500 experiences a period of low volatility and stable earnings growth that persists for more than two years, the hypothesis about the dominance of extrapolators and corporate equity activity would be challenged.",
+      "A sustained period where market movements are consistently predictable based on fundamental earnings growth would undermine the argument against the random walk theory."
+    ],
+    "insight_title": "Victor Haghani on Death of Random Walk, and Passive, Buybacks, and LTCM",
+    "source_name": "Monetary Matters with Jack Farley",
+    "source_date": "2026-08-04",
+    "key_tickers": [
+      "LTCM"
+    ]
   }
 },
   suggestedTerms: [
   {
-    "id": 560,
-    "term": "KV cache compaction",
-    "definition": "A process in AI models that allows for the updating of the model's knowledge base without losing previous knowledge, crucial for continual learning.",
-    "investment_implications": "Enables more effective and efficient AI model updates, potentially reducing costs and improving performance in AI deployments.",
+    "id": 563,
+    "term": "Relative Value Trades",
+    "definition": "A type of investment strategy that involves taking simultaneous long and short positions in securities that are expected to converge in price.",
+    "investment_implications": "Relative value trades can offer diversification and risk management, but they tend to have fatter tails, indicating higher risk of extreme price movements.",
     "source_type": "auto_extracted",
     "mention_count": 1,
     "source_diversity": 1,
     "relevance_score": 50,
-    "submitted_date": "2026-08-04 04:40:23",
+    "submitted_date": "2026-08-04 18:36:13",
     "priority_score": 80
   },
   {
-    "id": 561,
-    "term": "TensorFlowism",
-    "definition": "A model parallelism technique where the entire model is distributed across multiple GPUs, requiring high inter-GPU bandwidth for efficient operation.",
-    "investment_implications": "TensorFlowism can significantly increase throughput in AI model deployments, impacting the scalability and performance of AI applications.",
+    "id": 564,
+    "term": "Delta 1 Trades",
+    "definition": "A type of trading strategy that involves taking positions in assets that are expected to have a stable and predictable price movement, often used in market-making activities.",
+    "investment_implications": "Delta 1 trades are considered less risky than relative value trades, but they may offer lower returns.",
     "source_type": "auto_extracted",
     "mention_count": 1,
     "source_diversity": 1,
     "relevance_score": 50,
-    "submitted_date": "2026-08-04 04:40:23",
+    "submitted_date": "2026-08-04 18:36:13",
     "priority_score": 80
   },
   {
-    "id": 562,
-    "term": "Expert Parallelism",
-    "definition": "A model parallelism technique used with Mixture of Experts (MOE) models, where each expert is placed on a separate GPU to increase throughput and reduce resource competition.",
-    "investment_implications": "Expert Parallelism can optimize the deployment of large MOE models, improving efficiency and potentially lowering operational costs.",
+    "id": 565,
+    "term": "Skin in the Game",
+    "definition": "A principle where individuals or entities have a personal stake or risk in the outcomes of their decisions or actions.",
+    "investment_implications": "Having skin in the game can align incentives and encourage more prudent risk management in investment strategies.",
     "source_type": "auto_extracted",
     "mention_count": 1,
     "source_diversity": 1,
     "relevance_score": 50,
-    "submitted_date": "2026-08-04 04:40:23",
+    "submitted_date": "2026-08-04 18:36:13",
     "priority_score": 80
   },
   {
-    "id": 559,
-    "term": "Inference Margins",
-    "definition": "The profit margins generated from the use of AI models in inference, as opposed to training.",
-    "investment_implications": "As inference margins increase, investors should monitor companies that can capitalize on this trend to improve profitability.",
+    "id": 566,
+    "term": "Extrapolators",
+    "definition": "Investors who base their decisions on extrapolating recent trends into the future, often leading to momentum-based investing.",
+    "investment_implications": "The behavior of extrapolators can significantly influence market movements and create opportunities for contrarian investors.",
     "source_type": "auto_extracted",
     "mention_count": 1,
     "source_diversity": 1,
     "relevance_score": 50,
-    "submitted_date": "2026-08-04 03:02:22",
+    "submitted_date": "2026-08-04 18:36:13",
     "priority_score": 80
   }
 ],
   podcastGuests: [
   {
-    "id": 43425,
+    "id": 43534,
     "name": "Why Macro is \u201cPretty Risk-On\u201d for Equities",
     "slug": "why-macro-is-pretty-risk-on-for-equities",
     "bio": null,
@@ -34767,7 +34836,7 @@ const dashboardData = {
     "appearance_count": 1
   },
   {
-    "id": 43426,
+    "id": 43535,
     "name": "AI for America's Small Businesses",
     "slug": "ai-for-americas-small-businesses",
     "bio": null,
@@ -34779,7 +34848,7 @@ const dashboardData = {
     "appearance_count": 1
   },
   {
-    "id": 43427,
+    "id": 43536,
     "name": "Mum\u2019s The Word",
     "slug": "mums-the-word",
     "bio": null,
@@ -34791,7 +34860,7 @@ const dashboardData = {
     "appearance_count": 1
   },
   {
-    "id": 43428,
+    "id": 43537,
     "name": "Luke Gromen",
     "slug": "luke-gromen",
     "bio": null,
@@ -34803,7 +34872,7 @@ const dashboardData = {
     "appearance_count": 1
   },
   {
-    "id": 43429,
+    "id": 43538,
     "name": "Codex from 0 to 10M Users",
     "slug": "codex-from-0-to-10m-users",
     "bio": null,
@@ -34815,7 +34884,7 @@ const dashboardData = {
     "appearance_count": 1
   },
   {
-    "id": 43430,
+    "id": 43539,
     "name": "Ben Horowitz",
     "slug": "ben-horowitz",
     "bio": "Ben Horowitz is a co-founder of venture firm Andreessen Horowitz and former CEO of Opsware, known for advising founders on leadership under pressure.",
@@ -34827,7 +34896,7 @@ const dashboardData = {
     "appearance_count": 3
   },
   {
-    "id": 43431,
+    "id": 43540,
     "name": "Building the Physical AI Stack",
     "slug": "building-the-physical-ai-stack",
     "bio": null,
@@ -34839,7 +34908,7 @@ const dashboardData = {
     "appearance_count": 1
   },
   {
-    "id": 43432,
+    "id": 43541,
     "name": "Travis Kalanick Is Back",
     "slug": "travis-kalanick-is-back",
     "bio": null,
@@ -34851,7 +34920,7 @@ const dashboardData = {
     "appearance_count": 1
   },
   {
-    "id": 43433,
+    "id": 43542,
     "name": "Why Physical AI Is the Next Frontier",
     "slug": "why-physical-ai-is-the-next-frontier",
     "bio": null,
@@ -34863,7 +34932,7 @@ const dashboardData = {
     "appearance_count": 1
   },
   {
-    "id": 43434,
+    "id": 43543,
     "name": "Nick Nemeth",
     "slug": "nick-nemeth",
     "bio": null,
@@ -34875,7 +34944,7 @@ const dashboardData = {
     "appearance_count": 1
   },
   {
-    "id": 43435,
+    "id": 43544,
     "name": "Mark Cuban on the AI Bubble",
     "slug": "mark-cuban-on-the-ai-bubble",
     "bio": null,
@@ -34887,7 +34956,7 @@ const dashboardData = {
     "appearance_count": 1
   },
   {
-    "id": 43436,
+    "id": 43545,
     "name": "Urgent Update- AI Sputnik Moment",
     "slug": "urgent-update--ai-sputnik-moment",
     "bio": null,
@@ -34899,7 +34968,7 @@ const dashboardData = {
     "appearance_count": 1
   },
   {
-    "id": 43437,
+    "id": 43546,
     "name": "Replay 2025",
     "slug": "replay-2025",
     "bio": null,
@@ -34911,7 +34980,7 @@ const dashboardData = {
     "appearance_count": 1
   },
   {
-    "id": 43438,
+    "id": 43547,
     "name": "Turbo Charged Trend Following",
     "slug": "turbo-charged-trend-following",
     "bio": null,
@@ -34923,7 +34992,7 @@ const dashboardData = {
     "appearance_count": 1
   },
   {
-    "id": 43439,
+    "id": 43548,
     "name": "Can Anyone Catch NVIDIA?",
     "slug": "can-anyone-catch-nvidia",
     "bio": null,
@@ -34935,7 +35004,7 @@ const dashboardData = {
     "appearance_count": 1
   },
   {
-    "id": 43440,
+    "id": 43549,
     "name": "Is AI a Bubble?",
     "slug": "is-ai-a-bubble",
     "bio": null,
@@ -34947,7 +35016,7 @@ const dashboardData = {
     "appearance_count": 1
   },
   {
-    "id": 43441,
+    "id": 43550,
     "name": "Adam Brown \u2013 Einstein's happiest thought",
     "slug": "adam-brown--einsteins-happiest-thought",
     "bio": null,
@@ -34959,7 +35028,7 @@ const dashboardData = {
     "appearance_count": 1
   },
   {
-    "id": 43442,
+    "id": 43551,
     "name": "Mark Zuckerberg & Priscilla Chan",
     "slug": "mark-zuckerberg--priscilla-chan",
     "bio": null,
@@ -34971,7 +35040,7 @@ const dashboardData = {
     "appearance_count": 1
   },
   {
-    "id": 43443,
+    "id": 43552,
     "name": "Adam Neumann",
     "slug": "adam-neumann",
     "bio": null,
@@ -34983,7 +35052,7 @@ const dashboardData = {
     "appearance_count": 1
   },
   {
-    "id": 43444,
+    "id": 43553,
     "name": "Breaking Down the Multi-Manager Playbook",
     "slug": "breaking-down-the-multi-manager-playbook",
     "bio": null,
@@ -35138,7 +35207,7 @@ const dashboardData = {
     "last_podcast_name": "The a16z Show",
     "last_episode_date": "2026-08-01",
     "mention_score": 3,
-    "mention_score_decayed": 2.86,
+    "mention_score_decayed": 2.8,
     "last_main_idea": "Regulatory clarity through acts like the Clarity Act is essential for the next phase of blockchain adoption and could unlock significant investment opportunities in stablecoins and tokenized assets.",
     "last_proof_cite": "The a16z Show \u2022 2026-08-01 \u2022 Marc Andreessen and Chris Dixon: What\u2019s at Stake in Crypto Regulation",
     "last_proof_snippet": "Stable coins are tokenized stocks or dollars on blockchain. Rivals the size of the Visa network. Trillings the dollar is transacted. If you have a dollar of that stable coin, there is a dollar sitting in the bank. And that's why the Clarity",
@@ -35694,7 +35763,7 @@ const dashboardData = {
     "last_podcast_name": "Macro Voices",
     "last_episode_date": "2026-06-04",
     "mention_score": 2,
-    "mention_score_decayed": 0.5,
+    "mention_score_decayed": 0.49,
     "last_main_idea": "Invest in sectors that are likely to benefit from a shift towards economic statecraft and prepare for market volatility due to geopolitical tensions.",
     "last_proof_cite": "Macro Voices \u2022 2026-06-04 \u2022 MacroVoices #535 Michael Every: NAFTA and NAPTHA \u2013 Warcraft & Fartcraft",
     "last_proof_snippet": "This is Macrovoisers, the Free Weekly Financial Podcast, targeting professional finance, high-net worth individuals, family offices, and other sophisticated investors. Macrovoisers is all about the brightest minds in the world of finance an",
@@ -35832,7 +35901,7 @@ const dashboardData = {
     "last_podcast_name": "Moonshots with Peter Diamandis",
     "last_episode_date": "2026-05-30",
     "mention_score": 2,
-    "mention_score_decayed": 0.45,
+    "mention_score_decayed": 0.44,
     "last_main_idea": "Invest in AI and space exploration companies that demonstrate rapid innovation and adaptability, as these sectors are poised for significant growth and disruption.",
     "last_proof_cite": "Moonshots with Peter Diamandis \u2022 2026-05-30 \u2022 Pope Leo vs. AI, GPT 5.5 Beats Claude, and Sam Altman Walks Back Job Apocalypse | EP #259",
     "last_proof_snippet": "Pope Leo the 14th warns of AI risks and just dropped a 42,000-word in cyclical on AI. The Vatican has seemingly staked out the first major religion position against AI personhood. This is the first technology that forces us to define humani",
@@ -36539,6 +36608,66 @@ const dashboardData = {
     }
   },
   {
+    "id": 376,
+    "name": "Victor Hagani",
+    "slug": "victor-hagani",
+    "bio": "Victor Hagani is a prominent figure in finance, known for his work as a founding partner of Long-Term Capital Management (LTCM) and authoring 'The Missing Billionaires'. His insights on personal finance and risk management have been influential in the industry.",
+    "known_for": "His role in the rise and fall of Long-Term Capital Management and his contributions to personal finance strategies.",
+    "net_worth_usd": null,
+    "net_worth_source": "",
+    "net_worth_updated_at": null,
+    "voice_tone": "Analytical and informative.",
+    "voice_style": "Factual and explanatory, with a focus on historical lessons and market behavior.",
+    "voice_delivery_notes": "Paced with emphasis on key investment lessons and market insights.",
+    "voice_profile_updated_at": "2026-08-04 18:36:13",
+    "last_seen": "2026-08-04 18:36:13",
+    "last_episode_title": "Victor Haghani on Death of Random Walk, and Passive, Buybacks, and LTCM",
+    "last_podcast_name": "Monetary Matters with Jack Farley",
+    "last_episode_date": "2026-08-04",
+    "mention_score": 1,
+    "mention_score_decayed": 1,
+    "last_main_idea": "The S&P 500's performance over the next two years will be largely determined by the behavior of extrapolators and corporate equity activity, rather than fundamental earnings growth.",
+    "last_proof_cite": "Monetary Matters with Jack Farley \u2022 2026-08-04 \u2022 Victor Haghani on Death of Random Walk, and Passive, Buybacks, and LTCM",
+    "last_proof_snippet": "So I feel like we can talk about LTCM. We can talk about, I mean, let's not do that. That's so boring. I mean, everybody's sick of LTCM. Yeah. What do you think the real lessons are? You know, I think the biggest lessons are about personal",
+    "supporting_takeaway": "Running a leverage pool with standalone capital might not be the best business structure.",
+    "grokipedia_url": null,
+    "grokipedia_fetched_at": "2026-08-04T13:36:36.171090",
+    "pundit_profile": {
+      "source": "llm",
+      "source_model": "moonshot:moonshot-v1-8k",
+      "source_url": "",
+      "page_title": "Victor Hagani",
+      "fetched_at": "2026-08-04T18:36:36.170655+00:00",
+      "cliff_notes": "Victor Hagani is best known for his role as a founding partner of Long-Term Capital Management (LTCM), a hedge fund that gained notoriety for its high-risk strategies and eventual bailout by the Federal Reserve. Hagani's expertise in finance and risk management has been sought after, and he has shared his insights through his book 'The Missing Billionaires'. His work has had a significant impact on understanding risk in finance and personal finance strategies. Hagani's lessons from LTCM emphasize the importance of personal risk taking, the structure of financial institutions, and the nature of relative value trades.",
+      "derived": {
+        "former_positions": "Founding Partner of Long-Term Capital Management",
+        "books_or_works": "The Missing Billionaires"
+      },
+      "infobox": {
+        "Born": "",
+        "Nationality": ""
+      },
+      "lead_paragraphs": [
+        "Victor Hagani is best known for his role as a founding partner of Long-Term Capital Management (LTCM), a hedge fund that gained notoriety for its high-risk strategies and eventual bailout by the Federal Reserve. Hagani's expertise in finance and risk management has been sought after, and he has shared his insights through his book 'The Missing Billionaires'.",
+        "His work has had a significant impact on understanding risk in finance and personal finance strategies. Hagani's lessons from LTCM emphasize the importance of personal risk taking, the structure of financial institutions, and the nature of relative value trades."
+      ],
+      "sections": [
+        {
+          "heading": "Long-Term Capital Management",
+          "body": "Victor Hagani co-founded Long-Term Capital Management, a hedge fund that became infamous for its high-risk strategies and eventual need for a bailout."
+        },
+        {
+          "heading": "Risk Management",
+          "body": "Hagani's work emphasizes the importance of understanding and managing risk, particularly in the context of personal finance and high-stakes financial institutions."
+        },
+        {
+          "heading": "Personal Finance",
+          "body": "Through his writings and insights, Hagani has contributed to the discourse on personal finance, highlighting the need for individuals to understand and manage their financial risks."
+        }
+      ]
+    }
+  },
+  {
     "id": 375,
     "name": "TN Yang",
     "slug": "tn-yang",
@@ -36688,7 +36817,7 @@ const dashboardData = {
     "last_podcast_name": "The a16z Show",
     "last_episode_date": "2026-08-01",
     "mention_score": 1,
-    "mention_score_decayed": 0.95,
+    "mention_score_decayed": 0.93,
     "last_main_idea": "Regulatory clarity through acts like the Clarity Act is essential for the next phase of blockchain adoption and could unlock significant investment opportunities in stablecoins and tokenized assets.",
     "last_proof_cite": "The a16z Show \u2022 2026-08-01 \u2022 Marc Andreessen and Chris Dixon: What\u2019s at Stake in Crypto Regulation",
     "last_proof_snippet": "Stable coins are tokenized stocks or dollars on blockchain. Rivals the size of the Visa network. Trillings the dollar is transacted. If you have a dollar of that stable coin, there is a dollar sitting in the bank. And that's why the Clarity",
@@ -37228,7 +37357,7 @@ const dashboardData = {
     "last_podcast_name": "Monetary Matters with Jack Farley",
     "last_episode_date": "2026-07-26",
     "mention_score": 1,
-    "mention_score_decayed": 0.83,
+    "mention_score_decayed": 0.81,
     "last_main_idea": "Contrary to popular belief, private credit and corporate debt are sustainable, and the real risk lies in government debt levels, which could lead to increased market volatility if not addressed.",
     "last_proof_cite": "Monetary Matters with Jack Farley \u2022 2026-07-26 \u2022 Debt Service Coverage in Private Markets Is Improving, Actually | Nicholas Brooks",
     "last_proof_snippet": "Over the past year, there's been some very bad press on private credit, including on this channel where recent guest Nick Nemitz said that he thinks it's almost inevitable that the next financial crisis will be caused by private credit. Tod",
@@ -37411,7 +37540,7 @@ const dashboardData = {
     "last_podcast_name": "The a16z Show",
     "last_episode_date": "2026-07-24",
     "mention_score": 1,
-    "mention_score_decayed": 0.79,
+    "mention_score_decayed": 0.78,
     "last_main_idea": "Investors should consider the impact of open-source AI models on frontier labs and monitor the security and competitive landscape of AI, as well as potential opportunities in related sectors like cloud computing and data centers.",
     "last_proof_cite": "The a16z Show \u2022 2026-07-24 \u2022 Sriram Krishnan on Open Source AI's Biggest Week Yet",
     "last_proof_snippet": "You can bring it back to very business first principles. If you're providing a product of value, Capitalism will find a way to make the supply chain work for you. So if you have an open-made model that is providing value, that means that ev",
@@ -37667,7 +37796,7 @@ const dashboardData = {
     "last_podcast_name": "The a16z Show",
     "last_episode_date": "2026-07-21",
     "mention_score": 1,
-    "mention_score_decayed": 0.74,
+    "mention_score_decayed": 0.72,
     "last_main_idea": "Investing in physical AI and autonomous systems could lead to significant returns as these technologies transform the physical economy and unlock new productivity gains.",
     "last_proof_cite": "The a16z Show \u2022 2026-07-21 \u2022 Why Physical AI Is the Next Frontier | Applied Intuition",
     "last_proof_snippet": "Our mission is to put intelligence on a billion machines, and that we think that can have a profound impact on society. Applied intuition is a physical attack company. We put intelligence on machines. Cars, trucks, tanks, drones. It's a phy",
@@ -37795,7 +37924,7 @@ const dashboardData = {
     "last_podcast_name": "Monetary Matters with Jack Farley",
     "last_episode_date": "2026-07-20",
     "mention_score": 1,
-    "mention_score_decayed": 0.72,
+    "mention_score_decayed": 0.71,
     "last_main_idea": "The private credit industry is overleveraged and poses a significant systemic risk, with potential for a massive financial blow-up that could be triggered by the insurance industry's massive balance sheets.",
     "last_proof_cite": "Monetary Matters with Jack Farley \u2022 2026-07-20 \u2022 Nick Nemeth: Private Credit Will Blow-up Insurance System | Immense Leverage, Shaky Loans, and Retirement System That Actually Does Have Run Risk (via Surrenders)",
     "last_proof_snippet": "Today's episode is brought to you by the two-cream corn fund ticker C-O-R-N. Let's get into it. Join today by Nick Nemeth Financial Investor Researcher and author at Miss Price Assets. Nick, welcome to monetary matters. Thanks, Jack. It's g",
@@ -37859,7 +37988,7 @@ const dashboardData = {
     "last_podcast_name": "Moonshots with Peter Diamandis",
     "last_episode_date": "2026-07-19",
     "mention_score": 1,
-    "mention_score_decayed": 0.71,
+    "mention_score_decayed": 0.69,
     "last_main_idea": "Investment in AI technology is crucial as it becomes a key differentiator in global competitiveness, with a focus on companies advancing AI models and quantization.",
     "last_proof_cite": "Moonshots with Peter Diamandis \u2022 2026-07-19 \u2022 Urgent Update- AI Sputnik Moment: Kimi K3 Released w/ Emad Mostaque | Ep. 272",
     "last_proof_snippet": "Today we put out the bat signal, and called for an emergency pod because America just experienced an AI-splitnik moment. Kimmy K3 released yesterday shocking the AI world with the largest op-weight model ever, and it went straight to number",
@@ -37920,7 +38049,7 @@ const dashboardData = {
     "last_podcast_name": "Moonshots with Peter Diamandis",
     "last_episode_date": "2026-07-19",
     "mention_score": 1,
-    "mention_score_decayed": 0.71,
+    "mention_score_decayed": 0.69,
     "last_main_idea": "Investment in AI technology is crucial as it becomes a key differentiator in global competitiveness, with a focus on companies advancing AI models and quantization.",
     "last_proof_cite": "Moonshots with Peter Diamandis \u2022 2026-07-19 \u2022 Urgent Update- AI Sputnik Moment: Kimi K3 Released w/ Emad Mostaque | Ep. 272",
     "last_proof_snippet": "Today we put out the bat signal, and called for an emergency pod because America just experienced an AI-splitnik moment. Kimmy K3 released yesterday shocking the AI world with the largest op-weight model ever, and it went straight to number",
@@ -37980,7 +38109,7 @@ const dashboardData = {
     "last_podcast_name": "Moonshots with Peter Diamandis",
     "last_episode_date": "2026-07-19",
     "mention_score": 1,
-    "mention_score_decayed": 0.71,
+    "mention_score_decayed": 0.69,
     "last_main_idea": "Investment in AI technology is crucial as it becomes a key differentiator in global competitiveness, with a focus on companies advancing AI models and quantization.",
     "last_proof_cite": "Moonshots with Peter Diamandis \u2022 2026-07-19 \u2022 Urgent Update- AI Sputnik Moment: Kimi K3 Released w/ Emad Mostaque | Ep. 272",
     "last_proof_snippet": "Today we put out the bat signal, and called for an emergency pod because America just experienced an AI-splitnik moment. Kimmy K3 released yesterday shocking the AI world with the largest op-weight model ever, and it went straight to number",
@@ -38105,7 +38234,7 @@ const dashboardData = {
     "last_podcast_name": "Latent Space: The AI Engineer Podcast",
     "last_episode_date": "2026-07-16",
     "mention_score": 1,
-    "mention_score_decayed": 0.66,
+    "mention_score_decayed": 0.64,
     "last_main_idea": "Investing in AI-driven platforms in healthcare and life sciences can lead to significant efficiency gains and cost reductions in drug discovery and materials science.",
     "last_proof_cite": "Latent Space: The AI Engineer Podcast \u2022 2026-07-16 \u2022 \ud83d\udd2c The Lab of the Future Should Feel Like a Data Center \u2014 Andy Beam & Rafa G\u00f3mez-Bombarelli, Lila Sciences",
     "last_proof_snippet": "But not just tech bio, what do you do in terms of science? We are all in on the bitter lesson and scale. We think that methods that scale and that are general retows that are not. As Ely has said, it's last year, we have but one internet, i",
@@ -38165,7 +38294,7 @@ const dashboardData = {
     "last_podcast_name": "Latent Space: The AI Engineer Podcast",
     "last_episode_date": "2026-07-16",
     "mention_score": 1,
-    "mention_score_decayed": 0.66,
+    "mention_score_decayed": 0.64,
     "last_main_idea": "Investing in AI-driven platforms in healthcare and life sciences can lead to significant efficiency gains and cost reductions in drug discovery and materials science.",
     "last_proof_cite": "Latent Space: The AI Engineer Podcast \u2022 2026-07-16 \u2022 \ud83d\udd2c The Lab of the Future Should Feel Like a Data Center \u2014 Andy Beam & Rafa G\u00f3mez-Bombarelli, Lila Sciences",
     "last_proof_snippet": "But not just tech bio, what do you do in terms of science? We are all in on the bitter lesson and scale. We think that methods that scale and that are general retows that are not. As Ely has said, it's last year, we have but one internet, i",
@@ -38229,7 +38358,7 @@ const dashboardData = {
     "last_podcast_name": "Monetary Matters with Jack Farley",
     "last_episode_date": "2026-07-16",
     "mention_score": 1,
-    "mention_score_decayed": 0.66,
+    "mention_score_decayed": 0.64,
     "last_main_idea": "Takahay Capital's investment thesis revolves around trend following and quantitative diversification, aiming to capitalize on major market trends while maintaining a diverse portfolio to mitigate risk.",
     "last_proof_cite": "Monetary Matters with Jack Farley \u2022 2026-07-16 \u2022 Turbo Charged Trend Following: Why Capturing the Market\u2019s Biggest Trends Means Embracing High Volatility | Moritz Seibert & Moritz Heiden | Takahe Capital",
     "last_proof_snippet": "single market trend has a very good year and that is right because you've seen these major trends and like equities and gold sovereign markets that we've mentioned it deserves to be large it deserves to be moving the needle it deserves a la",
@@ -38289,7 +38418,7 @@ const dashboardData = {
     "last_podcast_name": "Monetary Matters with Jack Farley",
     "last_episode_date": "2026-07-16",
     "mention_score": 1,
-    "mention_score_decayed": 0.66,
+    "mention_score_decayed": 0.64,
     "last_main_idea": "Takahay Capital's investment thesis revolves around trend following and quantitative diversification, aiming to capitalize on major market trends while maintaining a diverse portfolio to mitigate risk.",
     "last_proof_cite": "Monetary Matters with Jack Farley \u2022 2026-07-16 \u2022 Turbo Charged Trend Following: Why Capturing the Market\u2019s Biggest Trends Means Embracing High Volatility | Moritz Seibert & Moritz Heiden | Takahe Capital",
     "last_proof_snippet": "single market trend has a very good year and that is right because you've seen these major trends and like equities and gold sovereign markets that we've mentioned it deserves to be large it deserves to be moving the needle it deserves a la",
@@ -38414,7 +38543,7 @@ const dashboardData = {
     "last_podcast_name": "The a16z Show",
     "last_episode_date": "2026-07-15",
     "mention_score": 1,
-    "mention_score_decayed": 0.64,
+    "mention_score_decayed": 0.63,
     "last_main_idea": "Investing in AI hardware requires a focus on infrastructure and the ability to scale efficiently, as the AI race is not just about models but also the underlying technology that supports them.",
     "last_proof_cite": "The a16z Show \u2022 2026-07-15 \u2022 Can Anyone Catch NVIDIA? | The Future of Chips and Infrastructure",
     "last_proof_snippet": "In videos that are going to have better networking than you, they're going to have better HP, they're going to have better process-node, they're going to come to market faster, they're going to be able to ramp faster, they're going to have",
@@ -38546,7 +38675,7 @@ const dashboardData = {
     "last_podcast_name": "The a16z Show",
     "last_episode_date": "2026-07-13",
     "mention_score": 1,
-    "mention_score_decayed": 0.62,
+    "mention_score_decayed": 0.6,
     "last_main_idea": "Investing in blockchain technology and AI requires a deep understanding of the foundational computer science principles that underpin these fields, as well as an awareness of the evolving landscape of systems research.",
     "last_proof_cite": "The a16z Show \u2022 2026-07-13 \u2022 Before Blockchains, There Was State Machine Replication",
     "last_proof_snippet": "DARPA had recognized that this was a serious problem, the problem of malicious attacks and was looking for research in that area. I had a student Miguel Castro. We came to me and he said, why don't we see whether we can figure out a way to",
@@ -38616,7 +38745,7 @@ const dashboardData = {
     "last_podcast_name": "Dwarkesh Podcast",
     "last_episode_date": "2026-07-10",
     "mention_score": 1,
-    "mention_score_decayed": 0.57,
+    "mention_score_decayed": 0.56,
     "last_main_idea": "While this episode does not present a direct investment thesis, it provides foundational knowledge about the principles of physics that could influence investment decisions in technology and space sectors.",
     "last_proof_cite": "Dwarkesh Podcast \u2022 2026-07-10 \u2022 Adam Brown \u2013 Einstein's happiest thought: General Relativity from scratch",
     "last_proof_snippet": "I'm back with Adam Brown. You currently need blue shift at Google DeepMine, which is cracking science and reasoning. In a previous life, Adam was a prolific physicist taught at Stanford and did research and everything from cosmology to stri",
@@ -38686,7 +38815,7 @@ const dashboardData = {
     "last_podcast_name": "The a16z Show",
     "last_episode_date": "2026-07-09",
     "mention_score": 1,
-    "mention_score_decayed": 0.56,
+    "mention_score_decayed": 0.55,
     "last_main_idea": "Investing in the development of new tools for biology and leveraging AI can accelerate scientific discovery and disease management, potentially leading to significant advancements in medicine.",
     "last_proof_cite": "The a16z Show \u2022 2026-07-09 \u2022 Mark Zuckerberg & Priscilla Chan: How AI Will Help Cure Disease",
     "last_proof_snippet": "This is a space that, and if there's just going to be a huge amount of leverage with AI, it still seems like there could be a lot more effort in this space around building tools. And it's kind of this crazy thing that we're, you know, here",
@@ -38752,7 +38881,7 @@ const dashboardData = {
     "last_podcast_name": "The a16z Show",
     "last_episode_date": "2026-07-09",
     "mention_score": 1,
-    "mention_score_decayed": 0.56,
+    "mention_score_decayed": 0.55,
     "last_main_idea": "Investing in the development of new tools for biology and leveraging AI can accelerate scientific discovery and disease management, potentially leading to significant advancements in medicine.",
     "last_proof_cite": "The a16z Show \u2022 2026-07-09 \u2022 Mark Zuckerberg & Priscilla Chan: How AI Will Help Cure Disease",
     "last_proof_snippet": "This is a space that, and if there's just going to be a huge amount of leverage with AI, it still seems like there could be a lot more effort in this space around building tools. And it's kind of this crazy thing that we're, you know, here",
@@ -38813,7 +38942,7 @@ const dashboardData = {
     "last_podcast_name": "The a16z Show",
     "last_episode_date": "2026-07-08",
     "mention_score": 1,
-    "mention_score_decayed": 0.55,
+    "mention_score_decayed": 0.54,
     "last_main_idea": "Invest in real estate companies that emphasize community engagement, technological adaptability, and global scalability to capitalize on the evolving landscape of work and living.",
     "last_proof_cite": "The a16z Show \u2022 2026-07-08 \u2022 Adam Neumann: This Is How You Build Iconic Companies",
     "last_proof_snippet": "You said, I don't tell me how you're doing and I jumped straight into my lessons learned and this had an answer. And you're like, oh, you're still in that stage? That was, and we don't know each other. I was like, Mark, please tell me what",
@@ -38878,7 +39007,7 @@ const dashboardData = {
     "last_podcast_name": "The a16z Show",
     "last_episode_date": "2026-07-07",
     "mention_score": 1,
-    "mention_score_decayed": 0.54,
+    "mention_score_decayed": 0.52,
     "last_main_idea": "Invest in companies that are innovating in headless software architectures and facilitating communication between different business functions within organizations.",
     "last_proof_cite": "The a16z Show \u2022 2026-07-07 \u2022 Is Software Losing Its Head?",
     "last_proof_snippet": "There are many things that made software sticky but a lot of it had to do with the fact that it was built around like the way a human interacts. In an agenda world, do you actually need that? The data, the logic, I mean store below it is re",
@@ -38937,7 +39066,7 @@ const dashboardData = {
     "last_podcast_name": "The a16z Show",
     "last_episode_date": "2026-07-07",
     "mention_score": 1,
-    "mention_score_decayed": 0.54,
+    "mention_score_decayed": 0.52,
     "last_main_idea": "Invest in companies that are innovating in headless software architectures and facilitating communication between different business functions within organizations.",
     "last_proof_cite": "The a16z Show \u2022 2026-07-07 \u2022 Is Software Losing Its Head?",
     "last_proof_snippet": "There are many things that made software sticky but a lot of it had to do with the fact that it was built around like the way a human interacts. In an agenda world, do you actually need that? The data, the logic, I mean store below it is re",
@@ -39305,7 +39434,7 @@ const dashboardData = {
     "last_podcast_name": "The a16z Show",
     "last_episode_date": "2026-07-01",
     "mention_score": 1,
-    "mention_score_decayed": 0.47,
+    "mention_score_decayed": 0.46,
     "last_main_idea": "Invest in platforms that empower creativity and personal expression, as authenticity resonates more deeply with audiences and can lead to more impactful art.",
     "last_proof_cite": "The a16z Show \u2022 2026-07-01 \u2022 Rick Rubin on AI, Creativity, and The Way of Code",
     "last_proof_snippet": "So many people I know who use AI ask it questions and think that the results that they get back is the answer and it seems like people are more interested in getting an answer that can allow them to stop thinking about the question than rea",
@@ -39366,7 +39495,7 @@ const dashboardData = {
     "last_podcast_name": "The a16z Show",
     "last_episode_date": "2026-06-30",
     "mention_score": 1,
-    "mention_score_decayed": 0.46,
+    "mention_score_decayed": 0.45,
     "last_main_idea": "Invest in companies that prioritize user creativity and personalization in their AI offerings, as well as those that leverage data analytics to understand and enhance user experience.",
     "last_proof_cite": "The a16z Show \u2022 2026-06-30 \u2022 Building AI for Creators | Luma & Phota Labs",
     "last_proof_snippet": "I think the creativity is building a story. The tools alone aren't a story. Someone has to direct them. It's not about mastering those tools. It's about directing an agent who can use those tools to achieve your creativity. Generally, I hav",
@@ -39617,7 +39746,7 @@ const dashboardData = {
     "last_podcast_name": "The a16z Show",
     "last_episode_date": "2026-06-24",
     "mention_score": 1,
-    "mention_score_decayed": 0.4,
+    "mention_score_decayed": 0.39,
     "last_main_idea": "Investing in companies that prioritize design expertise and leverage AI tools effectively can lead to better outcomes in product development, as design quality becomes increasingly critical in a mobile-first world.",
     "last_proof_cite": "The a16z Show \u2022 2026-06-24 \u2022 What Happens to Design After AI?",
     "last_proof_snippet": "Designers when using Claude, as opposed to engineers using Claude, would consistently get better results. And it's because of the language that they used. We have to remember that design in the European sense came from royalty and the desir",
@@ -39681,7 +39810,7 @@ const dashboardData = {
     "last_podcast_name": "The a16z Show",
     "last_episode_date": "2026-06-24",
     "mention_score": 1,
-    "mention_score_decayed": 0.4,
+    "mention_score_decayed": 0.39,
     "last_main_idea": "Investing in companies that prioritize design expertise and leverage AI tools effectively can lead to better outcomes in product development, as design quality becomes increasingly critical in a mobile-first world.",
     "last_proof_cite": "The a16z Show \u2022 2026-06-24 \u2022 What Happens to Design After AI?",
     "last_proof_snippet": "Designers when using Claude, as opposed to engineers using Claude, would consistently get better results. And it's because of the language that they used. We have to remember that design in the European sense came from royalty and the desir",
@@ -39807,7 +39936,7 @@ const dashboardData = {
     "last_podcast_name": "The a16z Show",
     "last_episode_date": "2026-06-23",
     "mention_score": 1,
-    "mention_score_decayed": 0.39,
+    "mention_score_decayed": 0.38,
     "last_main_idea": "Invest in startups leveraging AI to enhance personal experiences, focusing on user retention and creator partnerships for organic growth.",
     "last_proof_cite": "The a16z Show \u2022 2026-06-23 \u2022 What\u2019s Next for Consumer AI? | Josh Elman Joins a16z",
     "last_proof_snippet": "Right now AI has been so much about productivity, job replacement, work replacement and I think we have a moment to shift that, which is how does these new tools help you get more out of your own day and your own life and the things you wan",
@@ -40484,7 +40613,7 @@ const dashboardData = {
     "last_podcast_name": "The a16z Show",
     "last_episode_date": "2026-06-17",
     "mention_score": 1,
-    "mention_score_decayed": 0.34,
+    "mention_score_decayed": 0.33,
     "last_main_idea": "Invest in fintech companies with strong technological foundations and AI integration, particularly those with a contrarian market entry strategy and a focus on operational efficiency and customer experience.",
     "last_proof_cite": "The a16z Show \u2022 2026-06-17 \u2022 The Fintech Playbook for Latin America",
     "last_proof_snippet": "Don't let your ambition fall prey of commercial wisdom. If you're a consensus play, there's just no alpha. We serve over 3 million consumers, or 50,000 merchant partners, we have incredible cost to serve economics. Over 200 A-engine product",
@@ -40674,7 +40803,7 @@ const dashboardData = {
     "last_podcast_name": "The a16z Show",
     "last_episode_date": "2026-06-15",
     "mention_score": 1,
-    "mention_score_decayed": 0.32,
+    "mention_score_decayed": 0.31,
     "last_main_idea": "Investors should consider Ideogram's potential to capture market share by offering customizable AI solutions for design and marketing applications.",
     "last_proof_cite": "The a16z Show \u2022 2026-06-15 \u2022 AI, Design, and the Power of Open Models",
     "last_proof_snippet": "It's not about how good a model is in the general sense. It's about how good is this model for my use case, for a lot of design and marketing use case says they need editable design, not a single flat image. It's super impressive, honestly,",
@@ -41053,7 +41182,7 @@ const dashboardData = {
     "last_podcast_name": "The a16z Show",
     "last_episode_date": "2026-06-10",
     "mention_score": 1,
-    "mention_score_decayed": 0.29,
+    "mention_score_decayed": 0.28,
     "last_main_idea": "Invest in healthcare companies that actively integrate AI to streamline operations and improve patient experiences, as well as organizations that foster a culture of AI experimentation and collaboration.",
     "last_proof_cite": "The a16z Show \u2022 2026-06-10 \u2022 AI, Growth, and the Future of Healthcare | Anish Acharya & Sachin Jain",
     "last_proof_snippet": "The way that we make sure this technology benefits all of society is we make important things cheap. And the most important thing is healthcare. This is one of the most beautiful humanistic technologies we've ever invented. We've spent 40 y",
@@ -41117,7 +41246,7 @@ const dashboardData = {
     "last_podcast_name": "All-In with Chamath, Jason, Sacks & Friedberg",
     "last_episode_date": "2026-06-09",
     "mention_score": 1,
-    "mention_score_decayed": 0.28,
+    "mention_score_decayed": 0.27,
     "last_main_idea": "Invest in smaller, more focused venture capital funds that leverage AI for portfolio construction and consider early-stage investments in foundational AI technologies for long-term gains.",
     "last_proof_cite": "All-In with Chamath, Jason, Sacks & Friedberg \u2022 2026-06-09 \u2022 Bill Maris: How Google Could Crush AI Competitors, Why Small Funds Win, and AI's Atari Stage",
     "last_proof_snippet": "After saying he was out, now Bill Maris is returning to the investing world. The founding CEO of Google Ventures has raised $150 million for his new fund, called Section 32. With a smaller fund, I have the advantage to be very selective in",
@@ -41311,7 +41440,7 @@ const dashboardData = {
     "last_podcast_name": "Monetary Matters with Jack Farley",
     "last_episode_date": "2026-06-07",
     "mention_score": 1,
-    "mention_score_decayed": 0.27,
+    "mention_score_decayed": 0.26,
     "last_main_idea": "Investors should be prepared for significant price volatility in the oil market due to geopolitical tensions and supply chain disruptions, with a focus on monitoring inventory levels and hedging strategies.",
     "last_proof_cite": "Monetary Matters with Jack Farley \u2022 2026-06-07 \u2022 \u201cSleepwalking into Crisis\u201d: Why The Oil Market Hasn\u2019t Imploded Yet | Kpler\u2019s Matt Smith",
     "last_proof_snippet": "Today's episode is brought to you by the two-cream corn fund, ticker CORN. Let's get into it. Got a very important conversation today. I'm joined by Matt Smith, director of research at Kepler, which is a research platform focused on commodi",
@@ -41523,7 +41652,7 @@ const dashboardData = {
     "last_podcast_name": "The a16z Show",
     "last_episode_date": "2026-06-05",
     "mention_score": 1,
-    "mention_score_decayed": 0.26,
+    "mention_score_decayed": 0.25,
     "last_main_idea": "Invest in companies that prioritize open data practices and robust software infrastructure to capitalize on AI-driven operational efficiencies and data management.",
     "last_proof_cite": "The a16z Show \u2022 2026-06-05 \u2022 AI Agents and the Fight for Customer Data",
     "last_proof_snippet": "There is a new reason to have all your day-to-day-then-one-place, which is AI agency context. If you don't do that, then it's sort of like using chatGBT from before chatGBT was connected to the internet. Postgres, contrary to popular belief",
@@ -41587,7 +41716,7 @@ const dashboardData = {
     "last_podcast_name": "The a16z Show",
     "last_episode_date": "2026-06-04",
     "mention_score": 1,
-    "mention_score_decayed": 0.25,
+    "mention_score_decayed": 0.24,
     "last_main_idea": "Invest in AI-driven coding and software development companies for potential high returns and prepare for the evolving job landscape by reskilling the workforce.",
     "last_proof_cite": "The a16z Show \u2022 2026-06-04 \u2022 AI Eats the World? A Reality Check with Benedict Evans",
     "last_proof_snippet": "Mobile didn't need to wait for the internet, the internet didn't need to wait for PCs and PCs didn't need to wait for consumer electronics and semiconductors and so on. So you've always got this accelerating adoption. Benedict Evans is a te",
@@ -41906,7 +42035,7 @@ const dashboardData = {
     "last_podcast_name": "The a16z Show",
     "last_episode_date": "2026-05-27",
     "mention_score": 1,
-    "mention_score_decayed": 0.21,
+    "mention_score_decayed": 0.2,
     "last_main_idea": "Investors should focus on diversification through private markets, particularly in sectors like AI and energy, to capture growth and mitigate risks associated with public market concentration.",
     "last_proof_cite": "The a16z Show \u2022 2026-05-27 \u2022 Marc Rowan on Private Markets, Software Repricing, and Capital Allocation",
     "last_proof_snippet": "10 stocks right now in the U.S. are nearly 50% of the S&P and they're all levered to the same trend. The same thing is happening in the global fixed income market. And so if you're an investor and you're looking for diversification, there's",
@@ -42024,7 +42153,7 @@ const dashboardData = {
     "last_podcast_name": "Monetary Matters with Jack Farley",
     "last_episode_date": "2026-05-25",
     "mention_score": 1,
-    "mention_score_decayed": 0.2,
+    "mention_score_decayed": 0.19,
     "last_main_idea": "Invest in companies with strong supply chains and pricing power, particularly in consumer goods, to benefit in an inflationary environment, and consider reallocating investments towards India and away from weaker emerging markets.",
     "last_proof_cite": "Monetary Matters with Jack Farley \u2022 2026-05-25 \u2022 Things Are Going to Get Even Crazier: The Macro Regime Shift | Andreas Steno Larsen",
     "last_proof_snippet": "I think the semiconductor cycle will roll over to what's the end of the year early next year. But I think we have the euphoric part of the head of us before we get to that part. Having said that at Wave of IPOs is always a late cycle signal",
@@ -42153,7 +42282,7 @@ const dashboardData = {
     "last_podcast_name": "The a16z Show",
     "last_episode_date": "2026-05-22",
     "mention_score": 1,
-    "mention_score_decayed": 0.19,
+    "mention_score_decayed": 0.18,
     "last_main_idea": "Invest in open source AI initiatives and robotics companies to capitalize on innovation and new applications, while being cautious of potential bubbles in sectors like LLMs.",
     "last_proof_cite": "The a16z Show \u2022 2026-05-22 \u2022 Hugging Face's Clem Delangue on Open Source AI and the LLM Bubble | MTS Live",
     "last_proof_snippet": "The idea of like restricting a technology like AI based on risks is just like for example you would say okay some people can punch or the people so let's tie down everybody's hands why because it is too dangerous some people can punch but i",
