@@ -3,80 +3,80 @@
 
 const dashboardData = {
   schemaVersion: 2,
-  generatedAt: "2026-08-03T13:38:29.989356",
-  chartsVersion: "2026-08-03T13:38:21.670878",
+  generatedAt: "2026-08-03T22:04:12.738833",
+  chartsVersion: "2026-08-03T22:03:59.110850",
   priceSnapshot: {
   "GOOGL": {
-    "price": 374.36,
-    "change_pct": 0.93,
+    "price": 373.51,
+    "change_pct": 0.7,
     "name": "GOOGL",
-    "updated_at": "2026-08-03T13:38:21.669847"
+    "updated_at": "2026-08-03T22:03:59.109648"
   },
   "NVDA": {
-    "price": 207.76,
-    "change_pct": -2.23,
+    "price": 206.64,
+    "change_pct": -2.76,
     "name": "NVDA",
-    "updated_at": "2026-08-03T13:38:21.669867"
+    "updated_at": "2026-08-03T22:03:59.109675"
   },
   "BTC": {
-    "price": 63818.7,
-    "change_pct": -4.04,
+    "price": 63721.35,
+    "change_pct": -3.6,
     "name": "BTC",
-    "updated_at": "2026-08-03T13:38:21.669877"
+    "updated_at": "2026-08-03T22:03:59.109688"
   },
   "MSFT": {
-    "price": 490.75,
-    "change_pct": 24.04,
+    "price": 487.65,
+    "change_pct": 23.26,
     "name": "MSFT",
-    "updated_at": "2026-08-03T13:38:21.669885"
+    "updated_at": "2026-08-03T22:03:59.109700"
   },
   "TSLA": {
-    "price": 322.07,
+    "price": 322.08,
     "change_pct": -18.35,
     "name": "TSLA",
-    "updated_at": "2026-08-03T13:38:21.669894"
+    "updated_at": "2026-08-03T22:03:59.109711"
   },
   "AMZN": {
-    "price": 282.65,
-    "change_pct": 10.86,
+    "price": 284.02,
+    "change_pct": 11.4,
     "name": "AMZN",
-    "updated_at": "2026-08-03T13:38:21.669902"
+    "updated_at": "2026-08-03T22:03:59.109722"
   },
   "META": {
-    "price": 590.46,
-    "change_pct": -13.33,
+    "price": 590.24,
+    "change_pct": -13.37,
     "name": "META",
-    "updated_at": "2026-08-03T13:38:21.669911"
+    "updated_at": "2026-08-03T22:03:59.109734"
   },
   "WTI": {
-    "price": 3.49,
-    "change_pct": 2.49,
+    "price": 3.51,
+    "change_pct": 2.93,
     "name": "WTI",
-    "updated_at": "2026-08-03T13:38:21.669918"
+    "updated_at": "2026-08-03T22:03:59.109745"
   },
   "S&P 500": {
-    "price": 757.62,
-    "change_pct": 0.37,
+    "price": 757.67,
+    "change_pct": 0.38,
     "name": "S&P 500",
-    "updated_at": "2026-08-03T13:38:21.669926"
+    "updated_at": "2026-08-03T22:03:59.109756"
   },
   "AAPL": {
-    "price": 305.49,
-    "change_pct": -6.72,
+    "price": 303.42,
+    "change_pct": -7.35,
     "name": "AAPL",
-    "updated_at": "2026-08-03T13:38:21.669934"
+    "updated_at": "2026-08-03T22:03:59.109767"
   },
   "QQQ": {
-    "price": 699.69,
-    "change_pct": -2.51,
+    "price": 700.07,
+    "change_pct": -2.46,
     "name": "Invesco QQQ Trust",
-    "updated_at": "2026-08-03T13:38:21.669942"
+    "updated_at": "2026-08-03T22:03:59.109778"
   },
   "BTC-USD": {
-    "price": 63818.7,
-    "change_pct": -4.04,
+    "price": 63721.35,
+    "change_pct": -3.6,
     "name": "Bitcoin USD",
-    "updated_at": "2026-08-03T13:38:21.669952"
+    "updated_at": "2026-08-03T22:03:59.109791"
   }
 },
   tickerScores: [
@@ -834,6 +834,26 @@ const dashboardData = {
   archive: {
   "insights": [
     {
+      "id": 397,
+      "title": "Why smarter AI models could drive up compute prices 10x",
+      "source_type": "podcast",
+      "source_name": "Dwarkesh Podcast",
+      "source_date": "2026-08-03",
+      "summary": "The podcast discusses Anthropics' remarkable 10x year-over-year revenue growth and the challenges of sustaining such growth, particularly in relation to lab compute growth, which is only 3x year over year. The conversation highlights the increasing importance of lab margins, compute prices, and the shift towards inference compute usage. It also touches on the rising efficiency of monetizing compute and the potential for higher margins in AI companies, as well as the impact of increasing compute costs on AI research and development.",
+      "key_takeaway": "Investment in AI technology and compute infrastructure is crucial to support the rapid growth of AI companies, with a focus on companies that can efficiently monetize compute resources and adapt to increasing compute costs.",
+      "tickers_mentioned": [
+        "GOOGL",
+        "MSFT"
+      ],
+      "sentiment": "bullish",
+      "display_on_main": 1,
+      "display_order": 0,
+      "added_date": "2026-08-03",
+      "archived_date": null,
+      "archived_reason": null,
+      "podcast_episode_id": 382
+    },
+    {
       "id": 395,
       "title": "Ruby Thelot on Internet Culture, AI, and the Future of Taste",
       "source_type": "podcast",
@@ -967,7 +987,7 @@ const dashboardData = {
         "MSFT"
       ],
       "sentiment": "neutral",
-      "display_on_main": 1,
+      "display_on_main": 0,
       "display_order": 0,
       "added_date": "2026-07-30",
       "archived_date": null,
@@ -9150,8 +9170,8 @@ const dashboardData = {
       "term": "AGI",
       "description": "Artificial General Intelligence, the ability of machines to understand, learn, and apply knowledge across a broad range of tasks at a human level.",
       "first_detected_date": "2026-05-07",
-      "last_mentioned_date": "2026-07-31",
-      "mention_count": 65,
+      "last_mentioned_date": "2026-08-03",
+      "mention_count": 66,
       "source_podcasts": null,
       "status": "active",
       "investment_implications": "Invest in companies that are making incremental progress towards AGI capabilities.",
@@ -9160,7 +9180,7 @@ const dashboardData = {
       "archived_reason": null,
       "first_detected_episode_id": 204,
       "first_detected_speaker": "Demis Hassabis",
-      "last_mentioned_episode_id": 377,
+      "last_mentioned_episode_id": 382,
       "last_mentioned_speaker": "Jesse Zang, Ashwin Srinivas"
     },
     {
@@ -10084,19 +10104,19 @@ const dashboardData = {
     {
       "id": 18,
       "term": "Compute Arbitrage",
-      "description": "The practice of leveraging the most cost-effective and efficient computational resources available to run AI models.",
+      "description": "The practice of leveraging differences in compute costs and availability to gain a competitive advantage in AI development and deployment.",
       "first_detected_date": "2026-03-13",
-      "last_mentioned_date": "2026-07-16",
-      "mention_count": 17,
+      "last_mentioned_date": "2026-08-03",
+      "mention_count": 18,
       "source_podcasts": null,
       "status": "active",
-      "investment_implications": "By optimizing compute resources, companies can reduce costs and improve the speed of AI-driven drug discovery and materials science.",
+      "investment_implications": "Investors should consider companies that can optimize compute usage and costs as a strategic advantage in the AI sector.",
       "display_on_main": 0,
       "archived_date": null,
       "archived_reason": null,
       "first_detected_episode_id": null,
       "first_detected_speaker": null,
-      "last_mentioned_episode_id": 352,
+      "last_mentioned_episode_id": 382,
       "last_mentioned_speaker": "Andy Beam, Ratha Gomez Bumbarelli"
     },
     {
@@ -10524,6 +10544,26 @@ const dashboardData = {
   mainContent: {
   "insights": [
     {
+      "id": 397,
+      "title": "Why smarter AI models could drive up compute prices 10x",
+      "source_type": "podcast",
+      "source_name": "Dwarkesh Podcast",
+      "source_date": "2026-08-03",
+      "summary": "The podcast discusses Anthropics' remarkable 10x year-over-year revenue growth and the challenges of sustaining such growth, particularly in relation to lab compute growth, which is only 3x year over year. The conversation highlights the increasing importance of lab margins, compute prices, and the shift towards inference compute usage. It also touches on the rising efficiency of monetizing compute and the potential for higher margins in AI companies, as well as the impact of increasing compute costs on AI research and development.",
+      "key_takeaway": "Investment in AI technology and compute infrastructure is crucial to support the rapid growth of AI companies, with a focus on companies that can efficiently monetize compute resources and adapt to increasing compute costs.",
+      "tickers_mentioned": "[\"GOOGL\", \"MSFT\"]",
+      "sentiment": "bullish",
+      "display_on_main": 1,
+      "display_order": 0,
+      "added_date": "2026-08-03",
+      "archived_date": null,
+      "archived_reason": null,
+      "podcast_episode_id": 382,
+      "episode_release_date": "2026-08-03",
+      "guest_name": null,
+      "key_tickers": []
+    },
+    {
       "id": 395,
       "title": "Ruby Thelot on Internet Culture, AI, and the Future of Taste",
       "source_type": "podcast",
@@ -10653,29 +10693,6 @@ const dashboardData = {
       "episode_release_date": "2026-07-30",
       "guest_name": "AI for America's Small Businesses",
       "key_tickers": []
-    },
-    {
-      "id": 387,
-      "title": "Mum\u2019s The Word: Kathryn Rooney Vera on Fed\u2019s Second Meeting under Kevin Warsh, Plus Earnings Breakdown (Live Replay)",
-      "source_type": "podcast",
-      "source_name": "Monetary Matters with Jack Farley",
-      "source_date": "2026-07-29",
-      "summary": "In this episode of Monetary Matters with Jack Farley, chief market strategist Katherine Rooney Vera from Stone X Groups discusses the Federal Reserve's decision not to hike interest rates, despite market expectations of a 30% chance. They analyze the implications for bond yields, the Fed's credibility on inflation fighting, and the market's reaction to economic data and Fed messaging. Additionally, they touch on the performance and expectations of tech giants like Meta and Microsoft, and the broader impact on the stock market.",
-      "key_takeaway": "The Federal Reserve's credibility is at stake, and market reactions to economic data and Fed policy suggest a potential shift in expectations for inflation and interest rates, impacting bond yields and stock market performance.",
-      "tickers_mentioned": "[\"META\", \"MSFT\"]",
-      "sentiment": "neutral",
-      "display_on_main": 1,
-      "display_order": 0,
-      "added_date": "2026-07-30",
-      "archived_date": null,
-      "archived_reason": null,
-      "podcast_episode_id": 372,
-      "episode_release_date": "2026-07-29",
-      "guest_name": "Mum\u2019s The Word",
-      "key_tickers": [
-        "META",
-        "MSFT"
-      ]
     },
     {
       "id": 388,
@@ -10826,8 +10843,8 @@ const dashboardData = {
       "term": "AGI",
       "description": "Artificial General Intelligence, the ability of machines to understand, learn, and apply knowledge across a broad range of tasks at a human level.",
       "first_detected_date": "2026-05-07",
-      "last_mentioned_date": "2026-07-31",
-      "mention_count": 65,
+      "last_mentioned_date": "2026-08-03",
+      "mention_count": 66,
       "source_podcasts": null,
       "status": "active",
       "investment_implications": "Invest in companies that are making incremental progress towards AGI capabilities.",
@@ -10836,16 +10853,16 @@ const dashboardData = {
       "archived_reason": null,
       "first_detected_episode_id": 204,
       "first_detected_speaker": "Demis Hassabis",
-      "last_mentioned_episode_id": 377,
+      "last_mentioned_episode_id": 382,
       "last_mentioned_speaker": "Jesse Zang, Ashwin Srinivas",
-      "overton_score": 60.65,
+      "overton_score": 66.0,
       "resonance_pct": 100,
       "first_detected_podcast": "Moonshots with Peter Diamandis",
       "first_detected_episode_title": "Demis Hassabis on AGI, Robots Scale Production, and Elon\u2019s $1T Mars-Shot Comp | EP #253",
       "first_detected_episode_date": "2026-05-07",
-      "last_mentioned_podcast": "The a16z Show",
-      "last_mentioned_episode_title": "How Enterprise AI Really Gets Deployed",
-      "last_mentioned_episode_date": "2026-07-31"
+      "last_mentioned_podcast": "Dwarkesh Podcast",
+      "last_mentioned_episode_title": "Why smarter AI models could drive up compute prices 10x",
+      "last_mentioned_episode_date": "2026-08-03"
     },
     {
       "id": 10,
@@ -34540,9 +34557,73 @@ const dashboardData = {
       "IWD",
       "IWF"
     ]
+  },
+  "397": {
+    "id": 387,
+    "insight_id": 397,
+    "podcast_episode_id": 382,
+    "overview": "The competitive dynamic implied by the source material is the escalating demand for compute resources in the AI industry, which is outpacing the growth in lab compute capacity. This tension is contested by the need for AI companies to either increase their margins, raise compute prices, or shift their focus towards more inference compute usage. The allocator-relevant implication is that companies that can efficiently monetize compute and adapt to increasing compute costs will likely win, while those unable to do so may struggle. The metric that arbitrates this uncertainty is the revenue growth in relation to compute usage efficiency, with a shorter-term horizon for proof as the industry is rapidly evolving.",
+    "key_takeaways_detailed": [
+      "Investors should closely monitor the compute-to-revenue ratio of AI companies to identify those that are effectively scaling with increasing compute costs.",
+      "The potential for higher margins in AI companies is contingent upon their ability to shift towards inference compute usage, which may offer more cost-effective scalability.",
+      "The increasing efficiency of monetizing compute could lead to a competitive advantage for companies that can optimize their AI models for inference, potentially leading to market consolidation.",
+      "Investors should be alert to the risk that increasing compute costs may popular AI applications, affecting the broader ecosystem and potentially leading to higher token costs for AI R&D."
+    ],
+    "investment_thesis": "The core logic is that the rapid growth in revenue for AI companies like Anthropics is contingent upon their ability to either increase lab margins, raise compute prices, or shift towards more inference compute usage. This thesis is tied to the observable development of compute resource allocation and pricing. If, within the next year, leading AI companies fail to increase their margins or shift towards inference, and if compute prices do not rise, the thesis would be invalidated, indicating a potential slowdown in the growth of the AI industry.",
+    "ticker_analysis": {
+      "GOOGL": {
+        "rationale": "Google, with its significant investment in AI and cloud computing, is well-positioned to benefit from increased demand for compute resources.",
+        "positioning": "Strategic long position, as Google's cloud services could see increased demand and higher margins if the thesis holds.",
+        "risk": "Key risks include a slowdown in AI adoption or a failure to increase compute prices, which could impact Google's cloud revenue growth."
+      },
+      "MSFT": {
+        "rationale": "Microsoft's Azure cloud platform is a major player in the compute market, and the company's AI initiatives could benefit from increased inference compute usage.",
+        "positioning": "Tactical long position, as Microsoft could see short-term gains in cloud revenue if the industry shifts towards inference.",
+        "risk": "The risk is that if the industry does not shift towards inference as expected, Microsoft's cloud growth may not meet the thesis' expectations."
+      }
+    },
+    "positioning_guidance": "",
+    "risk_factors": [],
+    "contrarian_signals": [
+      "A significant decrease in the overall investment in AI technology could indicate a market-wide loss of confidence in the growth potential of AI companies.",
+      "The emergence of new, more efficient AI models that require less compute could disrupt the current dynamics and reduce the need for increased compute prices."
+    ],
+    "catalysts": [
+      "Quarterly earnings reports from leading AI companies that show a significant increase in revenue growth alongside compute usage efficiency.",
+      "Announcements from major cloud providers regarding price changes or new services that indicate a shift towards inference compute usage.",
+      "Publications of new research or technological breakthroughs in AI that could significantly alter the compute requirements for AI development."
+    ],
+    "related_insights": null,
+    "audio_timestamp_start": null,
+    "audio_timestamp_end": null,
+    "transcript_excerpt": null,
+    "created_at": "2026-08-03T22:02:59.637534",
+    "updated_at": "2026-08-04 03:02:59",
+    "episode_evidence": "Anthropic's remarkable 10x year-over-year revenue growth is a testament to the company's ability to monetize AI technology effectively. However, the podcast highlights a significant challenge: sustaining this growth rate. 'For the last three consecutive years, Anthropics revenue has 10x to year over year. And it's likely to do so again this year,' the host mentions. This rapid growth is juxtaposed with a more modest 3x year-over-year growth in lab compute, indicating a potential bottleneck. The need for increased lab margins, higher compute prices, or a shift towards inference compute usage is underscored by the fact that 'One, lab margins have to increase. Two, the price of compute has to increase. Or three, the percentage of compute that labs bend on inference rather than training has to increase.' The increasing share of compute spent on inference, as noted by the guest with 'OpenAI reportedly shifting from 25% to possibly over 50%,' suggests a strategic reallocation of resources within the AI industry.",
+    "falsification_tracks": [
+      "Should Anthropics' revenue growth rate drop below 10x year-over-year for two consecutive quarters, it would challenge the thesis of their sustainable rapid growth.",
+      "A sustained decrease in spot prices for compute below the 40% increase since February would indicate a softening market, contradicting the need for higher compute prices.",
+      "If the share of compute spent on inference by leading AI companies were to decrease, it would suggest that the industry is not prioritizing inference as a growth strategy."
+    ],
+    "insight_title": "Why smarter AI models could drive up compute prices 10x",
+    "source_name": "Dwarkesh Podcast",
+    "source_date": "2026-08-03",
+    "key_tickers": []
   }
 },
   suggestedTerms: [
+  {
+    "id": 559,
+    "term": "Inference Margins",
+    "definition": "The profit margins generated from the use of AI models in inference, as opposed to training.",
+    "investment_implications": "As inference margins increase, investors should monitor companies that can capitalize on this trend to improve profitability.",
+    "source_type": "auto_extracted",
+    "mention_count": 1,
+    "source_diversity": 1,
+    "relevance_score": 50,
+    "submitted_date": "2026-08-04 03:02:22",
+    "priority_score": 80
+  },
   {
     "id": 558,
     "term": "LPPL Exhaustion Signals",
@@ -34578,23 +34659,11 @@ const dashboardData = {
     "relevance_score": 50,
     "submitted_date": "2026-08-02 17:02:20",
     "priority_score": 80
-  },
-  {
-    "id": 553,
-    "term": "Clarity Act",
-    "definition": "A piece of legislation that aims to provide regulatory clarity for the cryptocurrency and blockchain industry.",
-    "investment_implications": "Its passage could significantly impact the growth and adoption of blockchain technology.",
-    "source_type": "auto_extracted",
-    "mention_count": 1,
-    "source_diversity": 1,
-    "relevance_score": 50,
-    "submitted_date": "2026-08-01 18:36:59",
-    "priority_score": 80
   }
 ],
   podcastGuests: [
   {
-    "id": 42880,
+    "id": 42989,
     "name": "Why Macro is \u201cPretty Risk-On\u201d for Equities",
     "slug": "why-macro-is-pretty-risk-on-for-equities",
     "bio": null,
@@ -34606,7 +34675,7 @@ const dashboardData = {
     "appearance_count": 1
   },
   {
-    "id": 42881,
+    "id": 42990,
     "name": "AI for America's Small Businesses",
     "slug": "ai-for-americas-small-businesses",
     "bio": null,
@@ -34618,7 +34687,7 @@ const dashboardData = {
     "appearance_count": 1
   },
   {
-    "id": 42882,
+    "id": 42991,
     "name": "Mum\u2019s The Word",
     "slug": "mums-the-word",
     "bio": null,
@@ -34630,7 +34699,7 @@ const dashboardData = {
     "appearance_count": 1
   },
   {
-    "id": 42883,
+    "id": 42992,
     "name": "Luke Gromen",
     "slug": "luke-gromen",
     "bio": null,
@@ -34642,7 +34711,7 @@ const dashboardData = {
     "appearance_count": 1
   },
   {
-    "id": 42884,
+    "id": 42993,
     "name": "Codex from 0 to 10M Users",
     "slug": "codex-from-0-to-10m-users",
     "bio": null,
@@ -34654,7 +34723,7 @@ const dashboardData = {
     "appearance_count": 1
   },
   {
-    "id": 42885,
+    "id": 42994,
     "name": "Ben Horowitz",
     "slug": "ben-horowitz",
     "bio": "Ben Horowitz is a co-founder of venture firm Andreessen Horowitz and former CEO of Opsware, known for advising founders on leadership under pressure.",
@@ -34666,7 +34735,7 @@ const dashboardData = {
     "appearance_count": 3
   },
   {
-    "id": 42886,
+    "id": 42995,
     "name": "Building the Physical AI Stack",
     "slug": "building-the-physical-ai-stack",
     "bio": null,
@@ -34678,7 +34747,7 @@ const dashboardData = {
     "appearance_count": 1
   },
   {
-    "id": 42887,
+    "id": 42996,
     "name": "Travis Kalanick Is Back",
     "slug": "travis-kalanick-is-back",
     "bio": null,
@@ -34690,7 +34759,7 @@ const dashboardData = {
     "appearance_count": 1
   },
   {
-    "id": 42888,
+    "id": 42997,
     "name": "Why Physical AI Is the Next Frontier",
     "slug": "why-physical-ai-is-the-next-frontier",
     "bio": null,
@@ -34702,7 +34771,7 @@ const dashboardData = {
     "appearance_count": 1
   },
   {
-    "id": 42889,
+    "id": 42998,
     "name": "Nick Nemeth",
     "slug": "nick-nemeth",
     "bio": null,
@@ -34714,7 +34783,7 @@ const dashboardData = {
     "appearance_count": 1
   },
   {
-    "id": 42890,
+    "id": 42999,
     "name": "Mark Cuban on the AI Bubble",
     "slug": "mark-cuban-on-the-ai-bubble",
     "bio": null,
@@ -34726,7 +34795,7 @@ const dashboardData = {
     "appearance_count": 1
   },
   {
-    "id": 42891,
+    "id": 43000,
     "name": "Urgent Update- AI Sputnik Moment",
     "slug": "urgent-update--ai-sputnik-moment",
     "bio": null,
@@ -34738,7 +34807,7 @@ const dashboardData = {
     "appearance_count": 1
   },
   {
-    "id": 42892,
+    "id": 43001,
     "name": "Replay 2025",
     "slug": "replay-2025",
     "bio": null,
@@ -34750,7 +34819,7 @@ const dashboardData = {
     "appearance_count": 1
   },
   {
-    "id": 42893,
+    "id": 43002,
     "name": "Turbo Charged Trend Following",
     "slug": "turbo-charged-trend-following",
     "bio": null,
@@ -34762,7 +34831,7 @@ const dashboardData = {
     "appearance_count": 1
   },
   {
-    "id": 42894,
+    "id": 43003,
     "name": "Can Anyone Catch NVIDIA?",
     "slug": "can-anyone-catch-nvidia",
     "bio": null,
@@ -34774,7 +34843,7 @@ const dashboardData = {
     "appearance_count": 1
   },
   {
-    "id": 42895,
+    "id": 43004,
     "name": "Is AI a Bubble?",
     "slug": "is-ai-a-bubble",
     "bio": null,
@@ -34786,7 +34855,7 @@ const dashboardData = {
     "appearance_count": 1
   },
   {
-    "id": 42896,
+    "id": 43005,
     "name": "Adam Brown \u2013 Einstein's happiest thought",
     "slug": "adam-brown--einsteins-happiest-thought",
     "bio": null,
@@ -34798,7 +34867,7 @@ const dashboardData = {
     "appearance_count": 1
   },
   {
-    "id": 42897,
+    "id": 43006,
     "name": "Mark Zuckerberg & Priscilla Chan",
     "slug": "mark-zuckerberg--priscilla-chan",
     "bio": null,
@@ -34810,7 +34879,7 @@ const dashboardData = {
     "appearance_count": 1
   },
   {
-    "id": 42898,
+    "id": 43007,
     "name": "Adam Neumann",
     "slug": "adam-neumann",
     "bio": null,
@@ -34822,7 +34891,7 @@ const dashboardData = {
     "appearance_count": 1
   },
   {
-    "id": 42899,
+    "id": 43008,
     "name": "Breaking Down the Multi-Manager Playbook",
     "slug": "breaking-down-the-multi-manager-playbook",
     "bio": null,
@@ -34853,7 +34922,7 @@ const dashboardData = {
     "last_podcast_name": "Macro Voices",
     "last_episode_date": "2026-05-14",
     "mention_score": 6,
-    "mention_score_decayed": 0.94,
+    "mention_score_decayed": 0.92,
     "last_main_idea": "Investors should prepare for potential volatility as economic indicators begin to reflect the impacts of energy prices and passive investment flows.",
     "last_proof_cite": "Macro Voices \u2022 2026-05-14 \u2022 MacroVoices #532 Mike Green: Record Mechanical Flows",
     "last_proof_snippet": "This is Macrovoisers, the Free Weekly Financial Podcast, targeting professional finance, high-net worth individuals, family offices, and other sophisticated investors. Macrovoisers is all about the brightest minds in the world of finance an",
@@ -35605,7 +35674,7 @@ const dashboardData = {
     "last_podcast_name": "The a16z Show",
     "last_episode_date": "2026-06-02",
     "mention_score": 2,
-    "mention_score_decayed": 0.49,
+    "mention_score_decayed": 0.48,
     "last_main_idea": "Investment in AI-native computing hardware and software development will be pivotal as personal computing transitions towards AI optimization, with Nvidia and Apple leading the charge.",
     "last_proof_cite": "The a16z Show \u2022 2026-06-02 \u2022 Steven Sinofsky on Apple at 50, Microsoft, and the Future of Computing",
     "last_proof_snippet": "Having lived through like a half dozen component church things, you just sort of wait them out and you jump, let some local max, your local men determine the future. This will all correct itself, in short order. This world where you're all",
@@ -36139,7 +36208,7 @@ const dashboardData = {
     "last_podcast_name": "The a16z Show",
     "last_episode_date": "2026-03-28",
     "mention_score": 2,
-    "mention_score_decayed": 0.11,
+    "mention_score_decayed": 0.1,
     "last_main_idea": "Investing in AI and its intersection with sectors like crypto could yield significant returns as these technologies disrupt traditional economies and create new opportunities.",
     "last_proof_cite": "The a16z Show \u2022 2026-03-28 \u2022 the a16z show 20260319 1e92a9dd 78da 4417 b1ce 4b4318d1",
     "last_proof_snippet": "The paper suggests that anything that can be measured will eventually be automated, which could have profound effects on the economy and labor.",
@@ -36203,7 +36272,7 @@ const dashboardData = {
     "last_podcast_name": "The a16z Show",
     "last_episode_date": "2026-03-28",
     "mention_score": 2,
-    "mention_score_decayed": 0.11,
+    "mention_score_decayed": 0.1,
     "last_main_idea": "Investing in AI and its intersection with sectors like crypto could yield significant returns as these technologies disrupt traditional economies and create new opportunities.",
     "last_proof_cite": "The a16z Show \u2022 2026-03-28 \u2022 the a16z show 20260319 1e92a9dd 78da 4417 b1ce 4b4318d1",
     "last_proof_snippet": "The paper suggests that anything that can be measured will eventually be automated, which could have profound effects on the economy and labor.",
@@ -36263,7 +36332,7 @@ const dashboardData = {
     "last_podcast_name": "Monetary Matters with Jack Farley",
     "last_episode_date": "2026-02-15",
     "mention_score": 2,
-    "mention_score_decayed": 0.11,
+    "mention_score_decayed": 0.1,
     "last_main_idea": "Invest in sectors with fertile ground for short selling, such as AI and tech, and under-allocated areas like junior mining, while combining long and short strategies for potential alpha.",
     "last_proof_cite": "Monetary Matters with Jack Farley \u2022 2026-02-15 \u2022 Technical Analysis Deep Dive with Milton Berg - February 2026 Market Signals",
     "last_proof_snippet": "Today's episode is brought to you by the PICTEA AI Enhance International Equity ETF, ticker PQNT. You'll hear more about their using AI to enhance international equity returns later in the show. For now, let's get into it. Got a very specia",
@@ -36587,7 +36656,7 @@ const dashboardData = {
     "last_podcast_name": "The a16z Show",
     "last_episode_date": "2026-07-31",
     "mention_score": 1,
-    "mention_score_decayed": 0.95,
+    "mention_score_decayed": 0.93,
     "last_main_idea": "Investing in AI-driven enterprise software that leverages open source models can lead to better control, performance, and scalability, creating a competitive advantage in the market.",
     "last_proof_cite": "The a16z Show \u2022 2026-07-31 \u2022 How Enterprise AI Really Gets Deployed",
     "last_proof_snippet": "And AI agents should just be the funder of your business and every interaction, whether it's like reactive or proactive with a customer, should be handled by AI. This narrative dominated the first half of 2026, which is that anthropic open",
@@ -36651,7 +36720,7 @@ const dashboardData = {
     "last_podcast_name": "The a16z Show",
     "last_episode_date": "2026-07-31",
     "mention_score": 1,
-    "mention_score_decayed": 0.95,
+    "mention_score_decayed": 0.93,
     "last_main_idea": "Investing in AI-driven enterprise software that leverages open source models can lead to better control, performance, and scalability, creating a competitive advantage in the market.",
     "last_proof_cite": "The a16z Show \u2022 2026-07-31 \u2022 How Enterprise AI Really Gets Deployed",
     "last_proof_snippet": "And AI agents should just be the funder of your business and every interaction, whether it's like reactive or proactive with a customer, should be handled by AI. This narrative dominated the first half of 2026, which is that anthropic open",
@@ -37435,7 +37504,7 @@ const dashboardData = {
     "last_podcast_name": "All-In with Chamath, Jason, Sacks & Friedberg",
     "last_episode_date": "2026-07-20",
     "mention_score": 1,
-    "mention_score_decayed": 0.76,
+    "mention_score_decayed": 0.74,
     "last_main_idea": "The current market behavior, while bubbly, is distinct from past bubbles and may disproportionately impact venture capital and private equity firms due to aggressive investment strategies.",
     "last_proof_cite": "All-In with Chamath, Jason, Sacks & Friedberg \u2022 2026-07-20 \u2022 Mark Cuban on the AI Bubble: Who Actually Gets Wiped Out?",
     "last_proof_snippet": "You and I live through a couple of bubbles. We've seen this movie before. And this wave seems very different than the dot com wave. So let's talk about that. Are you concerned about a bubble? We're seeing bubbly like behavior people. It's n",
@@ -37570,7 +37639,7 @@ const dashboardData = {
     "last_podcast_name": "The a16z Show",
     "last_episode_date": "2026-07-20",
     "mention_score": 1,
-    "mention_score_decayed": 0.74,
+    "mention_score_decayed": 0.72,
     "last_main_idea": "Invest in open source AI platforms and local AI models to capitalize on the growing demand for privacy-preserving, cost-efficient AI solutions and the potential shift towards model routing.",
     "last_proof_cite": "The a16z Show \u2022 2026-07-20 \u2022 Hugging Face's CEO on Open Source AI, Model Routing, and the Future of Competition",
     "last_proof_snippet": "I think this relation is a very common practice that everyone is using. It's something that everyone uses, but that is not the main reason for success. Like if you suck, you suck without this relation. It's hard for me to say, like, oh, poo",
@@ -37879,7 +37948,7 @@ const dashboardData = {
     "last_podcast_name": "Moonshots with Peter Diamandis",
     "last_episode_date": "2026-07-17",
     "mention_score": 1,
-    "mention_score_decayed": 0.69,
+    "mention_score_decayed": 0.68,
     "last_main_idea": "Investing in AI companies that focus on customization and small language models can provide significant returns as these technologies meet current market demands and have the potential to shape the future of AI.",
     "last_proof_cite": "Moonshots with Peter Diamandis \u2022 2026-07-17 \u2022 Mira Murati's 975B Open Model, Ramin Hasani on Post-Transformer AI, and Demis' AI FINRA | EP #271",
     "last_proof_snippet": "Miramoradi, the former OpenAI CTO, just shipped her first model. It's called Inkling, customization over leaderboard dominance is what's going to win her the day. She's built exactly the thing hitting the market that exactly what everybody",
@@ -38900,7 +38969,7 @@ const dashboardData = {
     "last_podcast_name": "Monetary Matters with Jack Farley",
     "last_episode_date": "2026-07-04",
     "mention_score": 1,
-    "mention_score_decayed": 0.51,
+    "mention_score_decayed": 0.5,
     "last_main_idea": "Invest in multi-family and senior housing to capitalize on demographic shifts, and focus on industrial properties to benefit from e-commerce growth.",
     "last_proof_cite": "Monetary Matters with Jack Farley \u2022 2026-07-04 \u2022 The Real Estate Cycle Is Turning | Josh Pristaw on The New Cycle in Real Estate, Opportunity in Senior Living, Why AI Data Centers Are Too Big For Most Investors",
     "last_proof_snippet": "Today's episode is brought to you by the Fundrise Income Fund. You'll hear more about the income fund later in the show, but for now, let's get into today's interview. Today we're going to be talking all things real estate. I'm joined by Jo",
@@ -39023,7 +39092,7 @@ const dashboardData = {
     "last_podcast_name": "Latent Space: The AI Engineer Podcast",
     "last_episode_date": "2026-07-01",
     "mention_score": 1,
-    "mention_score_decayed": 0.48,
+    "mention_score_decayed": 0.47,
     "last_main_idea": "Investing in AI-driven drug discovery companies like Genesis Molecular AI can offer significant returns due to the potential for increased efficiency and accuracy in drug development processes.",
     "last_proof_cite": "Latent Space: The AI Engineer Podcast \u2022 2026-07-01 \u2022 \ud83d\udd2c The Coolest Diffusion Research Isn't in LLMs \u2014 Evan Feinberg & Sergey Edunov, Genesis Molecular AI",
     "last_proof_snippet": "I remember very clearly in like 2017, 2018, talking about guns and how generative adversarial networks and how they're clearly the future of image generation, obviously. They didn't work over very well for proteins or protein-like systems a",
@@ -39082,7 +39151,7 @@ const dashboardData = {
     "last_podcast_name": "Latent Space: The AI Engineer Podcast",
     "last_episode_date": "2026-07-01",
     "mention_score": 1,
-    "mention_score_decayed": 0.48,
+    "mention_score_decayed": 0.47,
     "last_main_idea": "Investing in AI-driven drug discovery companies like Genesis Molecular AI can offer significant returns due to the potential for increased efficiency and accuracy in drug development processes.",
     "last_proof_cite": "Latent Space: The AI Engineer Podcast \u2022 2026-07-01 \u2022 \ud83d\udd2c The Coolest Diffusion Research Isn't in LLMs \u2014 Evan Feinberg & Sergey Edunov, Genesis Molecular AI",
     "last_proof_snippet": "I remember very clearly in like 2017, 2018, talking about guns and how generative adversarial networks and how they're clearly the future of image generation, obviously. They didn't work over very well for proteins or protein-like systems a",
@@ -39332,7 +39401,7 @@ const dashboardData = {
     "last_podcast_name": "Moonshots with Peter Diamandis",
     "last_episode_date": "2026-06-26",
     "mention_score": 1,
-    "mention_score_decayed": 0.43,
+    "mention_score_decayed": 0.42,
     "last_main_idea": "Invest in companies at the forefront of AI and satellite data integration for real-world applications, while monitoring global AI competition and regulatory changes.",
     "last_proof_cite": "Moonshots with Peter Diamandis \u2022 2026-06-26 \u2022 The $10B Satellite Empire Putting AI in Orbit, Why Chips Beat Rockets & China's #1 Open Model | EP #266",
     "last_proof_snippet": "Today, plan is a $10 billion company. You've coined the term large earth models. What does that mean? It, like, Google index the internet to make it searchable, we're indexing the earth to make it searchable. It will finally enable us to be",
@@ -40204,7 +40273,7 @@ const dashboardData = {
     "last_podcast_name": "Latent Space: The AI Engineer Podcast",
     "last_episode_date": "2026-06-17",
     "mention_score": 1,
-    "mention_score_decayed": 0.35,
+    "mention_score_decayed": 0.34,
     "last_main_idea": "Invest in companies that integrate AI with experimental data for material discovery to gain a competitive edge in industries like aerospace and semiconductors.",
     "last_proof_cite": "Latent Space: The AI Engineer Podcast \u2022 2026-06-17 \u2022 \ud83d\udd2c The Self-Driving Lab \u2014 Joseph Krause, Radical AI",
     "last_proof_snippet": "This is the difference between AI for bio and AI for materials. If you look at bio or maybe small molecules is a more broad category, you look at selfies and smile strings, where I which has been a big way to have those materials, those mol",
@@ -40263,7 +40332,7 @@ const dashboardData = {
     "last_podcast_name": "Latent Space: The AI Engineer Podcast",
     "last_episode_date": "2026-06-03",
     "mention_score": 1,
-    "mention_score_decayed": 0.35,
+    "mention_score_decayed": 0.34,
     "last_main_idea": "Invest in companies that can integrate AI into their operations and leverage Microsoft's ecosystem for competitive advantage, focusing on data management capabilities and adaptability to new pricing models.",
     "last_proof_cite": "Latent Space: The AI Engineer Podcast \u2022 2026-06-03 \u2022 \u26a1\ufe0fSatya Nadella: No Priors x Latent Space Crossover Special at Microsoft Build",
     "last_proof_snippet": "Please welcome Swicks, Saragawa, Alad Gill and Chairman and Chief Executive Officer of Microsoft, Sartina Della. I'm so excited to be here. Welcome to a crossover episode of NoPriors and Lanesvists with Sartina Della. Congratulations on an",
@@ -40572,7 +40641,7 @@ const dashboardData = {
     "last_podcast_name": "Moonshots with Peter Diamandis",
     "last_episode_date": "2026-06-11",
     "mention_score": 1,
-    "mention_score_decayed": 0.3,
+    "mention_score_decayed": 0.29,
     "last_main_idea": "Invest in sectors at the forefront of technological disruption, with a focus on cryptocurrency, AI, and biotech innovations that promise significant market transformation and growth.",
     "last_proof_cite": "Moonshots with Peter Diamandis \u2022 2026-06-11 \u2022 Brian Armstrong on Bitcoin, Anthropic Drops Fable 5 & Mythos 5, NewLimit's $435M Age-Reversal | EP #264",
     "last_proof_snippet": "City Bank projects a Bitcoin price reaching as much as 189,000 by the end of 2026. Bitcoin is the new digital gold. I think it's going to be a key part of our economy going forward into the future. I remember it was supposed to be counter-s",
@@ -40633,7 +40702,7 @@ const dashboardData = {
     "last_podcast_name": "Macro Voices",
     "last_episode_date": "2026-06-11",
     "mention_score": 1,
-    "mention_score_decayed": 0.3,
+    "mention_score_decayed": 0.29,
     "last_main_idea": "The market may be entering a new inflation shock regime, leading to a rotation from financial assets to hard assets, with the healthcare sector presenting an under-owned opportunity.",
     "last_proof_cite": "Macro Voices \u2022 2026-06-11 \u2022 MacroVoices #536 Larry Mcdonald: The Migration is Upon us",
     "last_proof_snippet": "This is Macrovoisers, the Free Weekly Financial Podcast, targeting professional finance, high-net worth individuals, family offices, and other sophisticated investors. Macrovoisers is all about the brightest minds in the world of finance an",
@@ -41210,7 +41279,7 @@ const dashboardData = {
     "last_podcast_name": "Monetary Matters with Jack Farley",
     "last_episode_date": "2026-06-06",
     "mention_score": 1,
-    "mention_score_decayed": 0.27,
+    "mention_score_decayed": 0.26,
     "last_main_idea": "Investors should focus on undervalued companies in Asia, particularly in South Korea and Southeast Asia, due to favorable valuations and growth prospects.",
     "last_proof_cite": "Monetary Matters with Jack Farley \u2022 2026-06-06 \u2022 The AI Chip Bubble: Why South Korea & Taiwan Are In the Danger Zone | Michael Fritzell | Asian Century Stocks",
     "last_proof_snippet": "South Korea, I do think it is a bubble, because the estimates for profits, for Eski Heinigs and Samsung electronics, we're now talking 200 billion US dollars in that profit estimates for 2028. And that will make them the most profitable com",
@@ -41556,7 +41625,7 @@ const dashboardData = {
     "last_podcast_name": "All-In with Chamath, Jason, Sacks & Friedberg",
     "last_episode_date": "2026-06-03",
     "mention_score": 1,
-    "mention_score_decayed": 0.25,
+    "mention_score_decayed": 0.24,
     "last_main_idea": "Invest in long-term, durable business quality and undervalued companies with strong fundamentals, particularly in the AI sector.",
     "last_proof_cite": "All-In with Chamath, Jason, Sacks & Friedberg \u2022 2026-06-03 \u2022 Bill Ackman: Investment Strategy, What the Market is Missing, How AI Breaks Businesses",
     "last_proof_snippet": "One of the most provocative and interesting investors in the country. A legendary activist investor. Pershing square CEO and founder Bill Acling. Taking a short position and going public with it is a pretty serious business. Interestingly,",
@@ -41806,7 +41875,7 @@ const dashboardData = {
     "last_podcast_name": "The a16z Show",
     "last_episode_date": "2026-05-26",
     "mention_score": 1,
-    "mention_score_decayed": 0.21,
+    "mention_score_decayed": 0.2,
     "last_main_idea": "Invest in companies developing prediction market platforms, focusing on those with strong legal compliance strategies and potential for cultural acceptance.",
     "last_proof_cite": "The a16z Show \u2022 2026-05-26 \u2022 Robin Hanson on Prediction Markets, Gambling, and the Future of Forecasting",
     "last_proof_snippet": "Well, so, start at the beginning. The basic vision is that speculative markets are shown to be a unmatched mechanism for aggregating information and telling us about stuff. And initially, most people who come to this area think about, let's",
@@ -42054,7 +42123,7 @@ const dashboardData = {
     "last_podcast_name": "Macro Voices",
     "last_episode_date": "2026-05-21",
     "mention_score": 1,
-    "mention_score_decayed": 0.19,
+    "mention_score_decayed": 0.18,
     "last_main_idea": "Investors should prepare for potential oil price volatility and consider hedging strategies, while also looking for investment opportunities in companies improving inventory efficiency and energy infrastructure projects.",
     "last_proof_cite": "Macro Voices \u2022 2026-05-21 \u2022 MacroVoices #533 Morgan Downey: The Return of Oil 101",
     "last_proof_snippet": "This is Macrovoisers, the Free Weekly Financial Podcast, targeting professional finance, high-net worth individuals, family offices, and other sophisticated investors. Macrovoisers is all about the brightest minds in the world of finance an",
@@ -42611,7 +42680,7 @@ const dashboardData = {
     "last_podcast_name": "Macro Voices",
     "last_episode_date": "2026-05-14",
     "mention_score": 1,
-    "mention_score_decayed": 0.16,
+    "mention_score_decayed": 0.15,
     "last_main_idea": "Investors should prepare for potential volatility as economic indicators begin to reflect the impacts of energy prices and passive investment flows.",
     "last_proof_cite": "Macro Voices \u2022 2026-05-14 \u2022 MacroVoices #532 Mike Green: Record Mechanical Flows",
     "last_proof_snippet": "This is Macrovoisers, the Free Weekly Financial Podcast, targeting professional finance, high-net worth individuals, family offices, and other sophisticated investors. Macrovoisers is all about the brightest minds in the world of finance an",
@@ -43112,7 +43181,7 @@ const dashboardData = {
     "last_podcast_name": "Dwarkesh Podcast",
     "last_episode_date": "2026-05-08",
     "mention_score": 1,
-    "mention_score_decayed": 0.14,
+    "mention_score_decayed": 0.13,
     "last_main_idea": "Invest in genetic research companies leveraging large datasets and innovative methodologies to uncover insights about human evolution and health.",
     "last_proof_cite": "Dwarkesh Podcast \u2022 2026-05-08 \u2022 David Reich \u2013 Why the Bronze Age was an inflection point in human evolution",
     "last_proof_snippet": "I am back with David Reich, who is a professor of ancient DNA at Harvard. How do you describe what it is that you study? I'm a geneticist and I work on human history and how people relate to ancient people relate to each other and people li",
@@ -43676,7 +43745,7 @@ const dashboardData = {
     "last_podcast_name": "Monetary Matters with Jack Farley",
     "last_episode_date": "2026-05-04",
     "mention_score": 1,
-    "mention_score_decayed": 0.13,
+    "mention_score_decayed": 0.12,
     "last_main_idea": "The current bull market is driven by advancements in AI and technology, which are expected to continue outpacing concerns over oil shortages and inflation.",
     "last_proof_cite": "Monetary Matters with Jack Farley \u2022 2026-05-04 \u2022 Warren Pies: The Scramble for Compute Cures All Ills | Two Wolves of \u201cHockeysticking Earnings\u201d and Hormuz Oil Shock (Plus Caliban)",
     "last_proof_snippet": "Today I was speaking to one of the best and most data-driven analysts around, Warren Pious of 314 research. If you have been seeing the ball clearer than him, last time I spoke to him, Warren's calling for S&P to 7,000 by 2026, which obviou",
@@ -43740,7 +43809,7 @@ const dashboardData = {
     "last_podcast_name": "The a16z Show",
     "last_episode_date": "2026-05-04",
     "mention_score": 1,
-    "mention_score_decayed": 0.13,
+    "mention_score_decayed": 0.12,
     "last_main_idea": "Investing in AI technologies that align with Western values of individual consent and rule-based operations can be a strategic move in the digital age, as these technologies are poised to become increasingly influential in global commerce and diplomacy.",
     "last_proof_cite": "The a16z Show \u2022 2026-05-04 \u2022 Sarah Rogers: Free Speech, AI Diplomacy, and What America Owes Its Allies",
     "last_proof_snippet": "AI is going to be more important, not less important, and so the proliferation of a Western AI stack to be a top priority for anyone who cares about freedom. The rules around AI are changing fast. There's a lot of regulation abroad around d",

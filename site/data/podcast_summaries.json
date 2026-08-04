@@ -1,5 +1,22 @@
 [
   {
+    "id": 382,
+    "podcast_name": "Dwarkesh Podcast",
+    "episode_title": "Why smarter AI models could drive up compute prices 10x",
+    "episode_date": "2026-08-03",
+    "summary": "The podcast discusses Anthropics' remarkable 10x year-over-year revenue growth and the challenges of sustaining such growth, particularly in relation to lab compute growth, which is only 3x year over year. The conversation highlights the increasing importance of lab margins, compute prices, and the shift towards inference compute usage. It also touches on the rising efficiency of monetizing compute and the potential for higher margins in AI companies, as well as the impact of increasing compute costs on AI research and development.",
+    "key_takeaways": [
+      "Anthropics' revenue has grown 10x year over year for three consecutive years, with a projected $100 billion to $150 billion in revenue for the current year.",
+      "To maintain this trend, Anthropics would need to achieve $1 trillion in revenue by the end of next year.",
+      "The lab compute growth of 3x year over year is insufficient to support the 10x revenue growth, suggesting a need for increased lab margins, higher compute prices, or a shift towards more inference compute usage.",
+      "Inference margins for Anthropics have reportedly increased from 40% to over 80% within the last year.",
+      "The share of compute spent on inference by leading AI companies is increasing, with OpenAI reportedly shifting from 25% to possibly over 50%.",
+      "The increasing efficiency of monetizing compute and the rising cost of computing could lead to higher margins for top labs and make it harder for competitors to keep up."
+    ],
+    "investment_thesis": "Investment in AI technology and compute infrastructure is crucial to support the rapid growth of AI companies, with a focus on companies that can efficiently monetize compute resources and adapt to increasing compute costs.",
+    "key_tickers": null
+  },
+  {
     "id": 381,
     "podcast_name": "Monetary Matters with Jack Farley",
     "episode_title": "Why Macro is \u201cPretty Risk-On\u201d for Equities | Tian Yang of Variant Perception",
@@ -127,25 +144,5 @@
     ],
     "investment_thesis": "Investing in AI-native entertainment presents an opportunity to capitalize on the shift towards generative media and the democratization of content creation.",
     "key_tickers": null
-  },
-  {
-    "id": 372,
-    "podcast_name": "Monetary Matters with Jack Farley",
-    "episode_title": "Mum\u2019s The Word: Kathryn Rooney Vera on Fed\u2019s Second Meeting under Kevin Warsh, Plus Earnings Breakdown (Live Replay)",
-    "episode_date": "2026-07-29",
-    "summary": "In this episode of Monetary Matters with Jack Farley, chief market strategist Katherine Rooney Vera from Stone X Groups discusses the Federal Reserve's decision not to hike interest rates, despite market expectations of a 30% chance. They analyze the implications for bond yields, the Fed's credibility on inflation fighting, and the market's reaction to economic data and Fed messaging. Additionally, they touch on the performance and expectations of tech giants like Meta and Microsoft, and the broader impact on the stock market.",
-    "key_takeaways": [
-      "The market overestimated the likelihood of a Fed rate hike, with Katherine correctly predicting no hike.",
-      "Economists generally favored a hold, which aligns with Katherine's prediction.",
-      "The Fed's messaging is seen as mixed, with a preference for markets to shape expectations rather than the Fed leading them.",
-      "The 30-year treasury yield rose, indicating market skepticism about the Fed's commitment to fighting inflation.",
-      "The market is pricing in fewer hikes in the short term and higher inflation in the long term, questioning the Fed's credibility.",
-      "Microsoft reported strong earnings and capex, exceeding market expectations."
-    ],
-    "investment_thesis": "The Federal Reserve's credibility is at stake, and market reactions to economic data and Fed policy suggest a potential shift in expectations for inflation and interest rates, impacting bond yields and stock market performance.",
-    "key_tickers": [
-      "META",
-      "MSFT"
-    ]
   }
 ]
