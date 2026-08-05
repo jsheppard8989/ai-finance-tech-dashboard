@@ -391,7 +391,7 @@
     "last_podcast_name": "The a16z Show",
     "last_episode_date": "2026-07-17",
     "mention_score": 2,
-    "mention_score_decayed": 1.32,
+    "mention_score_decayed": 1.29,
     "last_main_idea": "Investing in companies that prioritize public communication and authenticity can lead to stronger brand loyalty and trust, which are valuable assets in the long term.",
     "last_proof_cite": "The a16z Show \u2022 2026-07-17 \u2022 Amjad Masad on Going Direct, Building Replit, and the Future of Software",
     "last_proof_snippet": "Being canceled is a choice. You should choose to get canceled and retreat from the public eye, but I think if you're still out there, at some point, honestly, the haters kind of give up. To some people ask, hey, how should I think about exp",
@@ -1542,6 +1542,187 @@
     }
   },
   {
+    "id": 379,
+    "name": "Ulysses Founder",
+    "slug": "ulysses-founder",
+    "bio": "Ulysses Founder is the founder of Ulysses, a company that develops autonomous robots for ocean tasks. The company focuses on mapping, conservation, and infrastructure inspection using underwater robots. Ulysses aims to solve critical tasks in the ocean by deploying robots at scale.",
+    "known_for": "Developing underwater robots for mapping, conservation, and infrastructure inspection.",
+    "net_worth_usd": null,
+    "net_worth_source": "",
+    "net_worth_updated_at": null,
+    "voice_tone": "Passionate and visionary",
+    "voice_style": "Focuses on the potential of technology to solve complex ocean problems",
+    "voice_delivery_notes": "Speaks with enthusiasm about the future of ocean exploration",
+    "voice_profile_updated_at": "2026-08-05 17:01:33",
+    "last_seen": "2026-08-05 17:01:33",
+    "last_episode_title": "Three Startups Reinventing Critical Infrastructure",
+    "last_podcast_name": "The a16z Show",
+    "last_episode_date": "2026-08-05",
+    "mention_score": 1,
+    "mention_score_decayed": 1,
+    "last_main_idea": "Investing in innovative technologies that address critical challenges in ocean exploration, mineral extraction, and nuclear energy can lead to significant market opportunities and positive societal impacts.",
+    "last_proof_cite": "The a16z Show \u2022 2026-08-05 \u2022 Three Startups Reinventing Critical Infrastructure",
+    "last_proof_snippet": "Last month, A16Z American dynamism films screened short films about three portfolio companies. Ulysses built mission-critical underwater robots, Marianna Mineroles applies modern technologies to the critical mineral sector, and Radiant seek",
+    "supporting_takeaway": "Marianna Mineroles aims to disrupt the mineral sector by leveraging technology to modernize mining practices and operations.",
+    "grokipedia_url": null,
+    "grokipedia_fetched_at": "2026-08-05T12:02:27.358657",
+    "pundit_profile": {
+      "source": "llm",
+      "source_model": "moonshot:moonshot-v1-8k",
+      "source_url": "",
+      "page_title": "Ulysses Founder",
+      "fetched_at": "2026-08-05T17:02:27.358334+00:00",
+      "cliff_notes": "Ulysses Founder is the founder of Ulysses, a company that specializes in building autonomous robots for ocean-related tasks. The company's mission is to address critical challenges in the ocean by deploying robots at scale. Ulysses focuses on mapping, conservation, and infrastructure inspection using underwater robots. The platform is based on autonomous surface vehicles combined with autonomous underwater vehicles. Ulysses Founder has been featured in A16Z American dynamism films, highlighting the company's mission and impact on the ocean industry.",
+      "derived": {
+        "current_role": "Founder of Ulysses"
+      },
+      "infobox": {
+        "Born": "",
+        "Nationality": ""
+      },
+      "lead_paragraphs": [
+        "Ulysses Founder is the founder of Ulysses, a company that specializes in building autonomous robots for ocean-related tasks. The company's mission is to address critical challenges in the ocean by deploying robots at scale. Ulysses focuses on mapping, conservation, and infrastructure inspection using underwater robots. The platform is based on autonomous surface vehicles combined with autonomous underwater vehicles.",
+        "Ulysses Founder has been featured in A16Z American dynamism films, highlighting the company's mission and impact on the ocean industry."
+      ],
+      "sections": [
+        {
+          "heading": "Ulysses",
+          "body": "Ulysses is a company that develops autonomous robots for ocean tasks, focusing on mapping, conservation, and infrastructure inspection."
+        },
+        {
+          "heading": "Autonomous Robots",
+          "body": "Ulysses builds autonomous robots that can be deployed at scale to address critical tasks in the ocean, such as mapping and conservation."
+        },
+        {
+          "heading": "Ocean Industry",
+          "body": "Ulysses Founder's company aims to revolutionize the ocean industry by providing innovative solutions for mapping, conservation, and infrastructure inspection using underwater robots."
+        }
+      ]
+    }
+  },
+  {
+    "id": 380,
+    "name": "Marianna Mineroles Founder",
+    "slug": "marianna-mineroles-founder",
+    "bio": "Marianna Mineroles Founder is a pioneering entrepreneur in the mining industry, recognized for her innovative approach to applying modern technologies to the mineral sector. Her company, Marianna Mineroles, is at the forefront of leveraging technology to enhance efficiency and sustainability in mining operations.",
+    "known_for": "Innovating in the mining industry through technology and efficient operations.",
+    "net_worth_usd": 14500000000.0,
+    "net_worth_source": "https://finance.yahoo.com/news/mining-magnates-ten-richest-tycoons-075612739.html",
+    "net_worth_updated_at": "2026-08-05T12:02:36.754004",
+    "voice_tone": "Confident and solution-oriented",
+    "voice_style": "Discusses the challenges and opportunities in modernizing the mining sector",
+    "voice_delivery_notes": "Speaks with authority on the potential for technology in mining",
+    "voice_profile_updated_at": "2026-08-05 17:01:33",
+    "last_seen": "2026-08-05 17:01:33",
+    "last_episode_title": "Three Startups Reinventing Critical Infrastructure",
+    "last_podcast_name": "The a16z Show",
+    "last_episode_date": "2026-08-05",
+    "mention_score": 1,
+    "mention_score_decayed": 1,
+    "last_main_idea": "Investing in innovative technologies that address critical challenges in ocean exploration, mineral extraction, and nuclear energy can lead to significant market opportunities and positive societal impacts.",
+    "last_proof_cite": "The a16z Show \u2022 2026-08-05 \u2022 Three Startups Reinventing Critical Infrastructure",
+    "last_proof_snippet": "Last month, A16Z American dynamism films screened short films about three portfolio companies. Ulysses built mission-critical underwater robots, Marianna Mineroles applies modern technologies to the critical mineral sector, and Radiant seek",
+    "supporting_takeaway": "Marianna Mineroles aims to disrupt the mineral sector by leveraging technology to modernize mining practices and operations.",
+    "grokipedia_url": null,
+    "grokipedia_fetched_at": "2026-08-05T12:02:35.908388",
+    "pundit_profile": {
+      "source": "llm",
+      "source_model": "moonshot:moonshot-v1-8k",
+      "source_url": "",
+      "page_title": "Marianna Mineroles Founder",
+      "fetched_at": "2026-08-05T17:02:35.908242+00:00",
+      "cliff_notes": "Marianna Mineroles Founder is an entrepreneur who has made significant strides in the mining industry by focusing on the application of modern technology to improve efficiency and sustainability. Her company, Marianna Mineroles, is a testament to her vision of integrating advanced technologies into traditional mining practices. Through her leadership, the company has become a notable player in the critical mineral sector, attracting attention from investors and tech enthusiasts alike. Her work is particularly relevant in today's world where the demand for minerals is increasing, and there is a growing need for more sustainable and efficient extraction methods.",
+      "derived": {
+        "current_role": "Founder, Marianna Mineroles"
+      },
+      "infobox": {
+        "Industry": "Mining"
+      },
+      "lead_paragraphs": [
+        "Marianna Mineroles Founder is an entrepreneur who has made significant strides in the mining industry by focusing on the application of modern technology to improve efficiency and sustainability. Her company, Marianna Mineroles, is a testament to her vision of integrating advanced technologies into traditional mining practices.",
+        "Through her leadership, the company has become a notable player in the critical mineral sector, attracting attention from investors and tech enthusiasts alike. Her work is particularly relevant in today's world where the demand for minerals is increasing, and there is a growing need for more sustainable and efficient extraction methods."
+      ],
+      "sections": [
+        {
+          "heading": "Innovation in Mining",
+          "body": "Marianna Mineroles Founder is known for her innovative approach to mining, using modern technology to increase efficiency and sustainability in the extraction of minerals."
+        },
+        {
+          "heading": "Technology Integration",
+          "body": "Her company, Marianna Mineroles, is at the forefront of integrating advanced technologies into traditional mining practices, aiming to revolutionize the industry."
+        },
+        {
+          "heading": "Sustainability",
+          "body": "A key focus of Marianna Mineroles Founder's work is the sustainable extraction of minerals, which is becoming increasingly important in the face of growing environmental concerns."
+        }
+      ]
+    },
+    "net_worth": "$14.50B"
+  },
+  {
+    "id": 381,
+    "name": "Radiant Founder",
+    "slug": "radiant-founder",
+    "bio": "The founder of Radiant, a company focused on developing and mass-producing nuclear micro-reactors, aims to revolutionize the safe and efficient use of nuclear energy. Their work has garnered attention from investors and tech enthusiasts alike, as it addresses critical energy needs while minimizing environmental impact.",
+    "known_for": "Pioneering the mass production of nuclear micro-reactors for safe and efficient energy solutions.",
+    "net_worth_usd": null,
+    "net_worth_source": "",
+    "net_worth_updated_at": null,
+    "voice_tone": "Visionary and pragmatic",
+    "voice_style": "Addresses the challenges and potential of the nuclear industry",
+    "voice_delivery_notes": "Speaks with conviction about the future of nuclear energy",
+    "voice_profile_updated_at": "2026-08-05 17:01:33",
+    "last_seen": "2026-08-05 17:01:33",
+    "last_episode_title": "Three Startups Reinventing Critical Infrastructure",
+    "last_podcast_name": "The a16z Show",
+    "last_episode_date": "2026-08-05",
+    "mention_score": 1,
+    "mention_score_decayed": 1,
+    "last_main_idea": "Investing in innovative technologies that address critical challenges in ocean exploration, mineral extraction, and nuclear energy can lead to significant market opportunities and positive societal impacts.",
+    "last_proof_cite": "The a16z Show \u2022 2026-08-05 \u2022 Three Startups Reinventing Critical Infrastructure",
+    "last_proof_snippet": "Last month, A16Z American dynamism films screened short films about three portfolio companies. Ulysses built mission-critical underwater robots, Marianna Mineroles applies modern technologies to the critical mineral sector, and Radiant seek",
+    "supporting_takeaway": "Marianna Mineroles aims to disrupt the mineral sector by leveraging technology to modernize mining practices and operations.",
+    "grokipedia_url": null,
+    "grokipedia_fetched_at": "2026-08-05T12:02:45.381614",
+    "pundit_profile": {
+      "source": "llm",
+      "source_model": "moonshot:moonshot-v1-8k",
+      "source_url": "",
+      "page_title": "Radiant Founder",
+      "fetched_at": "2026-08-05T17:02:45.381463+00:00",
+      "cliff_notes": "The founder of Radiant has been instrumental in the development of nuclear micro-reactors, a technology that promises to deliver clean, efficient energy on a smaller scale than traditional nuclear power plants. Their work at Radiant is focused on making nuclear energy more accessible and safer, which is crucial in the face of growing global energy demands and the need to reduce carbon emissions. As the company seeks to mass-produce these micro-reactors, it is poised to disrupt the energy sector and provide a viable alternative to fossil fuels. The founder's dedication to innovation in nuclear technology has positioned them as a key player in the quest for sustainable energy solutions.",
+      "derived": {
+        "current_role": "Founder of Radiant"
+      },
+      "infobox": {
+        "Born": "",
+        "Nationality": ""
+      },
+      "lead_paragraphs": [
+        "The founder of Radiant has been instrumental in the development of nuclear micro-reactors, a technology that promises to deliver clean, efficient energy on a smaller scale than traditional nuclear power plants. Their work at Radiant is focused on making nuclear energy more accessible and safer, which is crucial in the face of growing global energy demands and the need to reduce carbon emissions.",
+        "As the company seeks to mass-produce these micro-reactors, it is poised to disrupt the energy sector and provide a viable alternative to fossil fuels. The founder's dedication to innovation in nuclear technology has positioned them as a key player in the quest for sustainable energy solutions."
+      ],
+      "sections": [
+        {
+          "heading": "Nuclear Micro-Reactors",
+          "body": "The founder is leading the charge in the development and mass production of nuclear micro-reactors, which are smaller, safer, and more efficient than traditional nuclear reactors."
+        },
+        {
+          "heading": "Energy Efficiency",
+          "body": "Radiant's nuclear micro-reactors are designed to provide energy efficiency by reducing waste and increasing the overall energy output per unit of fuel."
+        },
+        {
+          "heading": "Environmental Impact",
+          "body": "The technology developed by Radiant aims to minimize the environmental impact of energy production, aligning with global efforts to combat climate change."
+        },
+        {
+          "heading": "Investor Interest",
+          "body": "The potential of nuclear micro-reactors has attracted significant investor interest, as evidenced by the coverage on A16Z's YouTube channel and the company's inclusion in their portfolio."
+        }
+      ]
+    }
+  },
+  {
     "id": 378,
     "name": "Michael Kratsios",
     "slug": "michael-kratsios",
@@ -1819,7 +2000,7 @@
     "last_podcast_name": "The a16z Show",
     "last_episode_date": "2026-08-02",
     "mention_score": 1,
-    "mention_score_decayed": 0.95,
+    "mention_score_decayed": 0.93,
     "last_main_idea": "The evolving digital landscape presents opportunities for investment in AI and technology that can enhance daily life and reshape consumption habits, while also requiring a critical approach to understand and adapt to new cultural norms.",
     "last_proof_cite": "The a16z Show \u2022 2026-08-02 \u2022 Ruby Thelot on Internet Culture, AI, and the Future of Taste",
     "last_proof_snippet": "Americans don't like AI. AI is a very broad term. They all use chat. And like, I love it. I love, I love chat. But they don't like AI. There's the bookie man of like, I'm going to lose my job. But when I talk to mothers in Brian tags of lik",
@@ -2071,7 +2252,7 @@
     "last_podcast_name": "The a16z Show",
     "last_episode_date": "2026-07-30",
     "mention_score": 1,
-    "mention_score_decayed": 0.89,
+    "mention_score_decayed": 0.87,
     "last_main_idea": "AI has the potential to automate administrative tasks in healthcare practices, creating significant value for small businesses and changing the landscape of enterprise software.",
     "last_proof_cite": "The a16z Show \u2022 2026-07-30 \u2022 AI for America's Small Businesses | Lassie",
     "last_proof_snippet": "AI is overhyped and Silicon Valley that's underhyped in Iowa. I would actually argue software just kind of took things that were stored in paper format and then they made them available first on-prem via green screen computers, but people s",
@@ -2130,7 +2311,7 @@
     "last_podcast_name": "The a16z Show",
     "last_episode_date": "2026-07-30",
     "mention_score": 1,
-    "mention_score_decayed": 0.89,
+    "mention_score_decayed": 0.87,
     "last_main_idea": "AI has the potential to automate administrative tasks in healthcare practices, creating significant value for small businesses and changing the landscape of enterprise software.",
     "last_proof_cite": "The a16z Show \u2022 2026-07-30 \u2022 AI for America's Small Businesses | Lassie",
     "last_proof_snippet": "AI is overhyped and Silicon Valley that's underhyped in Iowa. I would actually argue software just kind of took things that were stored in paper format and then they made them available first on-prem via green screen computers, but people s",
@@ -2735,7 +2916,7 @@
     "last_podcast_name": "Latent Space: The AI Engineer Podcast",
     "last_episode_date": "2026-07-23",
     "mention_score": 1,
-    "mention_score_decayed": 0.76,
+    "mention_score_decayed": 0.74,
     "last_main_idea": "Investing in AI development, particularly in the democratization of AI and the scaling of language models, can lead to significant innovation and competitive advantage.",
     "last_proof_cite": "Latent Space: The AI Engineer Podcast \u2022 2026-07-23 \u2022 Inside the Model Factory \u2014 Eiso Kant, Poolside AI",
     "last_proof_snippet": "All right, we're here in the studio. If I was a countryman, we'll fight together with people. Welcome. Thanks, thank you, guys. It's good to be here. Yeah, fresh on the plane. You texted me, you're like, hey, I'm on my way to SF. I was like",
@@ -3745,7 +3926,7 @@
     "last_podcast_name": "The a16z Show",
     "last_episode_date": "2026-07-13",
     "mention_score": 1,
-    "mention_score_decayed": 0.6,
+    "mention_score_decayed": 0.59,
     "last_main_idea": "Investing in blockchain technology and AI requires a deep understanding of the foundational computer science principles that underpin these fields, as well as an awareness of the evolving landscape of systems research.",
     "last_proof_cite": "The a16z Show \u2022 2026-07-13 \u2022 Before Blockchains, There Was State Machine Replication",
     "last_proof_snippet": "DARPA had recognized that this was a serious problem, the problem of malicious attacks and was looking for research in that area. I had a student Miguel Castro. We came to me and he said, why don't we see whether we can figure out a way to",
@@ -4012,7 +4193,7 @@
     "last_podcast_name": "The a16z Show",
     "last_episode_date": "2026-07-08",
     "mention_score": 1,
-    "mention_score_decayed": 0.54,
+    "mention_score_decayed": 0.52,
     "last_main_idea": "Invest in real estate companies that emphasize community engagement, technological adaptability, and global scalability to capitalize on the evolving landscape of work and living.",
     "last_proof_cite": "The a16z Show \u2022 2026-07-08 \u2022 Adam Neumann: This Is How You Build Iconic Companies",
     "last_proof_snippet": "You said, I don't tell me how you're doing and I jumped straight into my lessons learned and this had an answer. And you're like, oh, you're still in that stage? That was, and we don't know each other. I was like, Mark, please tell me what",
@@ -4320,7 +4501,7 @@
     "last_podcast_name": "The a16z Show",
     "last_episode_date": "2026-07-02",
     "mention_score": 1,
-    "mention_score_decayed": 0.47,
+    "mention_score_decayed": 0.46,
     "last_main_idea": "Invest in companies with capital efficiency and operational excellence in the mobility sector, as they are better positioned to adapt and grow in a competitive landscape.",
     "last_proof_cite": "The a16z Show \u2022 2026-07-02 \u2022 Outsmarting Uber: Why Bolt Wins in Europe",
     "last_proof_snippet": "The mobility market in general is the least competitive in the world. Paul is the leading, share mobility, business, we operate in more than 50 countries with a mission to replace people's private cars. A lot of the taxi companies obviously",
@@ -4565,7 +4746,7 @@
     "last_podcast_name": "The a16z Show",
     "last_episode_date": "2026-06-30",
     "mention_score": 1,
-    "mention_score_decayed": 0.45,
+    "mention_score_decayed": 0.44,
     "last_main_idea": "Invest in companies that prioritize user creativity and personalization in their AI offerings, as well as those that leverage data analytics to understand and enhance user experience.",
     "last_proof_cite": "The a16z Show \u2022 2026-06-30 \u2022 Building AI for Creators | Luma & Phota Labs",
     "last_proof_snippet": "I think the creativity is building a story. The tools alone aren't a story. Someone has to direct them. It's not about mastering those tools. It's about directing an agent who can use those tools to achieve your creativity. Generally, I hav",
@@ -7041,7 +7222,7 @@
     "last_podcast_name": "The a16z Show",
     "last_episode_date": "2026-05-28",
     "mention_score": 1,
-    "mention_score_decayed": 0.21,
+    "mention_score_decayed": 0.2,
     "last_main_idea": "Invest in companies leveraging stablecoins and AI to enhance operational efficiency and expand into global markets, with a focus on regulatory compliance and infrastructure scalability.",
     "last_proof_cite": "The a16z Show \u2022 2026-05-28 \u2022 Stablecoins, AI Agents, and The Future of Global Banking",
     "last_proof_snippet": "The goal of the GS is really to build a global business bank that can function in multiple countries. Sablecoins is a lived experience. It's not something that's a theory, like, in Argentina, 60% of the population use Sablecoins. Our revenu",

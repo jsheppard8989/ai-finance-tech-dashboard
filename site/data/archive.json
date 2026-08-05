@@ -1,6 +1,25 @@
 {
   "insights": [
     {
+      "id": 402,
+      "title": "Three Startups Reinventing Critical Infrastructure",
+      "source_type": "podcast",
+      "source_name": "The a16z Show",
+      "source_date": "2026-08-05",
+      "summary": "In this episode of the a16z Show, the focus is on three innovative companies within the a16z portfolio: Ulysses, Marianna Mineroles, and Radiant. Ulysses is developing mission-critical underwater robots for ocean tasks, Marianna Mineroles is applying modern tech to the mineral sector, and Radiant is working on mass-producing nuclear micro-reactors. The discussion delves into the unique challenges and opportunities each company faces in their respective fields, from ocean conservation and infrastructure to modernizing mining practices and nuclear energy solutions.",
+      "key_takeaway": "Investing in innovative technologies that address critical challenges in ocean exploration, mineral extraction, and nuclear energy can lead to significant market opportunities and positive societal impacts.",
+      "tickers_mentioned": [
+        "AAPL"
+      ],
+      "sentiment": "neutral",
+      "display_on_main": 1,
+      "display_order": 0,
+      "added_date": "2026-08-05",
+      "archived_date": null,
+      "archived_reason": null,
+      "podcast_episode_id": 387
+    },
+    {
       "id": 399,
       "title": "Victor Haghani on Death of Random Walk, and Passive, Buybacks, and LTCM",
       "source_type": "podcast",
@@ -159,7 +178,7 @@
         "VISA"
       ],
       "sentiment": "neutral",
-      "display_on_main": 1,
+      "display_on_main": 0,
       "display_order": 0,
       "added_date": "2026-08-01",
       "archived_date": null,
@@ -8222,20 +8241,20 @@
     {
       "id": 113,
       "term": "Solve Everything Thesis",
-      "description": "The idea that AI has the potential to solve major global problems across various sectors.",
+      "description": "The idea that a single technology or approach can address a wide range of problems or challenges.",
       "first_detected_date": "2026-05-23",
-      "last_mentioned_date": "2026-07-13",
-      "mention_count": 4,
+      "last_mentioned_date": "2026-08-05",
+      "mention_count": 5,
       "source_podcasts": null,
       "status": "active",
-      "investment_implications": "Investors should consider companies and technologies at the intersection of AI and pressing global issues.",
+      "investment_implications": "Investing in companies with a 'solve everything' approach can lead to broad market impact and disruption.",
       "display_on_main": 0,
       "archived_date": null,
       "archived_reason": null,
       "first_detected_episode_id": 236,
       "first_detected_speaker": null,
-      "last_mentioned_episode_id": 344,
-      "last_mentioned_speaker": "Peter Diamandis (hosts)"
+      "last_mentioned_episode_id": 387,
+      "last_mentioned_speaker": "Ulysses Founder, Marianna Mineroles Founder, Radiant Founder"
     },
     {
       "id": 194,
@@ -8798,20 +8817,20 @@
     {
       "id": 89,
       "term": "Autonomous Vehicles (AVs)",
-      "description": "Vehicles capable of sensing their environment and navigating without human input, representing a significant advancement in physical AI.",
+      "description": "Self-driving vehicles that can navigate without human input, used by Ulysses for underwater exploration and tasks.",
       "first_detected_date": "2026-04-03",
-      "last_mentioned_date": "2026-07-21",
-      "mention_count": 3,
+      "last_mentioned_date": "2026-08-05",
+      "mention_count": 4,
       "source_podcasts": null,
       "status": "active",
-      "investment_implications": "Investment in AV technology could offer substantial returns as it becomes more prevalent in the transportation sector.",
+      "investment_implications": "Investing in AV technology for underwater applications can lead to innovations in ocean exploration and conservation.",
       "display_on_main": 0,
       "archived_date": null,
       "archived_reason": null,
       "first_detected_episode_id": null,
       "first_detected_speaker": null,
-      "last_mentioned_episode_id": 359,
-      "last_mentioned_speaker": "Casser, Eunice, Peter Ludwig"
+      "last_mentioned_episode_id": 387,
+      "last_mentioned_speaker": "Ulysses Founder, Marianna Mineroles Founder, Radiant Founder"
     },
     {
       "id": 90,

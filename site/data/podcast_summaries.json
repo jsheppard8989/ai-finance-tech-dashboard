@@ -1,5 +1,22 @@
 [
   {
+    "id": 387,
+    "podcast_name": "The a16z Show",
+    "episode_title": "Three Startups Reinventing Critical Infrastructure",
+    "episode_date": "2026-08-05",
+    "summary": "In this episode of the a16z Show, the focus is on three innovative companies within the a16z portfolio: Ulysses, Marianna Mineroles, and Radiant. Ulysses is developing mission-critical underwater robots for ocean tasks, Marianna Mineroles is applying modern tech to the mineral sector, and Radiant is working on mass-producing nuclear micro-reactors. The discussion delves into the unique challenges and opportunities each company faces in their respective fields, from ocean conservation and infrastructure to modernizing mining practices and nuclear energy solutions.",
+    "key_takeaways": [
+      "Ulysses is building autonomous robots for critical ocean tasks, including conservation, commercial, and defense applications.",
+      "Marianna Mineroles aims to disrupt the mineral sector by leveraging technology to modernize mining practices and operations.",
+      "Radiant is focused on mass-producing nuclear micro-reactors to provide efficient and safe nuclear energy solutions.",
+      "The ocean technology sector is ripe for innovation, with Ulysses addressing challenges in mapping, conservation, and infrastructure inspection.",
+      "Marianna Mineroles sees an opportunity in the 'orphan period' of mining, where smaller, more efficient operations can outcompete traditional mining majors.",
+      "Radiant's approach to nuclear energy emphasizes safety, efficiency, and the potential to solve waste storage issues in the nuclear industry."
+    ],
+    "investment_thesis": "Investing in innovative technologies that address critical challenges in ocean exploration, mineral extraction, and nuclear energy can lead to significant market opportunities and positive societal impacts.",
+    "key_tickers": null
+  },
+  {
     "id": 386,
     "podcast_name": "Moonshots with Peter Diamandis",
     "episode_title": "Michael Kratsios on the New Golden Age of American Science | EP #276",
@@ -123,24 +140,5 @@
     ],
     "investment_thesis": "The evolving digital landscape presents opportunities for investment in AI and technology that can enhance daily life and reshape consumption habits, while also requiring a critical approach to understand and adapt to new cultural norms.",
     "key_tickers": null
-  },
-  {
-    "id": 379,
-    "podcast_name": "The a16z Show",
-    "episode_title": "Marc Andreessen and Chris Dixon: What\u2019s at Stake in Crypto Regulation",
-    "episode_date": "2026-08-01",
-    "summary": "In this episode of the a16z Crypto Show, hosts Robert Hackett, Mark Andrewson, and Chris Dixon discuss the significance of regulatory clarity in the cryptocurrency space, focusing on the Clarity Act and its potential impact on blockchain adoption. They explore the implications of stablecoins, tokenized assets, and the future of the internet. The conversation highlights the importance of clear rules to unlock the next phase of blockchain technology and the potential consequences for the United States' global leadership in crypto innovation.",
-    "key_takeaways": [
-      "Stablecoins are seen as tokenized stocks or dollars on the blockchain, rivaling the size of the Visa network.",
-      "The Clarity Act is crucial for providing regulatory clarity and could shape the future of financial infrastructure.",
-      "Senator Elizabeth Warren is a significant opponent to the bill, citing concerns over its potential misuse by North Korea, terrorists, and ransomware hackers.",
-      "The debate over the Clarity Bill includes the question of whether developers should be held more liable for the software they write.",
-      "Regulatory clarity is essential for the United States to maintain its global leadership in crypto innovation.",
-      "Blockchain technology has the potential to disrupt traditional financial systems and create a more efficient and accessible global financial network."
-    ],
-    "investment_thesis": "Regulatory clarity through acts like the Clarity Act is essential for the next phase of blockchain adoption and could unlock significant investment opportunities in stablecoins and tokenized assets.",
-    "key_tickers": [
-      "VISA"
-    ]
   }
 ]
