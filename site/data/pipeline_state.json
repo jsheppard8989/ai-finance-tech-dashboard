@@ -1,7 +1,7 @@
 {
-  "generated_at": "2026-08-05T12:04:04.764545",
-  "last_updated": "2026-08-05T12:04:04.764545",
-  "last_pipeline_run": "2026-08-05T12:04:04.764545",
+  "generated_at": "2026-08-05T13:36:58.299984",
+  "last_updated": "2026-08-05T13:36:58.299984",
+  "last_pipeline_run": "2026-08-05T13:36:58.299984",
   "main_page": {
     "overton": 13,
     "insights": 8,
@@ -18,33 +18,14 @@
     "podcasts_analyzed": 1
   },
   "step_results": {
-    "downloaded": 1,
-    "transcribed": 1,
-    "analyzed": 1,
-    "insight_created": 1,
-    "published": 1,
-    "total": 1
+    "downloaded": 0,
+    "transcribed": 0,
+    "analyzed": 0,
+    "insight_created": 0,
+    "published": 0,
+    "total": 0
   },
-  "episodes": [
-    {
-      "id": "6ca3b211-07cb-478b-8ae6-95e3c06d26ef",
-      "podcast": "The a16z Show",
-      "title": "Three Startups Reinventing Critical Infrastructure",
-      "published": "2026-08-05",
-      "rss_guid": "6ca3b211-07cb-478b-8ae6-95e3c06d26ef",
-      "stages": {
-        "downloaded": true,
-        "transcribed": true,
-        "analyzed": true,
-        "insight_created": true,
-        "published": true
-      },
-      "stage_reasons": {},
-      "first_blocker": null,
-      "remediation_by_stage": {},
-      "status": "complete"
-    }
-  ],
+  "episodes": [],
   "available_from_rss": [],
   "stale_episodes": [],
   "stale_threshold_days": 2,
