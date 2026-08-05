@@ -1,7 +1,7 @@
 {
-  "generated_at": "2026-08-04T22:05:29.076824",
-  "last_updated": "2026-08-04T22:05:29.076824",
-  "last_pipeline_run": "2026-08-04T22:05:29.076824",
+  "generated_at": "2026-08-05T05:03:55.912283",
+  "last_updated": "2026-08-05T05:03:55.912283",
+  "last_pipeline_run": "2026-08-05T05:03:55.912283",
   "main_page": {
     "overton": 13,
     "insights": 8,
@@ -15,53 +15,84 @@
     "overton_terms_total": 116,
     "latest_insights_total": 373,
     "today_mentions": {},
-    "podcasts_analyzed": 3
+    "podcasts_analyzed": 0
   },
   "step_results": {
-    "downloaded": 2,
-    "transcribed": 2,
-    "analyzed": 2,
-    "insight_created": 2,
-    "published": 1,
-    "total": 2
+    "downloaded": 0,
+    "transcribed": 0,
+    "analyzed": 0,
+    "insight_created": 0,
+    "published": 0,
+    "total": 1
   },
   "episodes": [
     {
-      "id": "aaf52de0-8f83-11f1-860e-6b185f9c4171",
-      "podcast": "Moonshots with Peter Diamandis",
-      "title": "Michael Kratsios on the New Golden Age of American Science | EP #276",
-      "published": "2026-08-04",
-      "rss_guid": "aaf52de0-8f83-11f1-860e-6b185f9c4171",
-      "stages": {
-        "downloaded": true,
-        "transcribed": true,
-        "analyzed": true,
-        "insight_created": true,
-        "published": true
-      },
-      "stage_reasons": {},
-      "first_blocker": null,
-      "remediation_by_stage": {},
-      "status": "complete"
-    },
-    {
-      "id": "e4ebaa91-7ab6-4995-ba37-8a1dccf036d1",
+      "id": "rss::the a16z show::three startups reinventing critical infrastructure",
       "podcast": "The a16z Show",
-      "title": "OpenAI's Joshua Achiam: Did We Already Reach AGI?",
-      "published": "2026-08-04",
-      "rss_guid": "e4ebaa91-7ab6-4995-ba37-8a1dccf036d1",
+      "title": "Three Startups Reinventing Critical Infrastructure",
+      "published": "2026-08-05",
+      "published_date": "2026-08-05",
+      "rss_guid": "",
       "stages": {
-        "downloaded": true,
-        "transcribed": true,
-        "analyzed": true,
-        "insight_created": true,
+        "downloaded": false,
+        "transcribed": false,
+        "analyzed": false,
+        "insight_created": false,
         "published": false
       },
       "stage_reasons": {
-        "published": "Insight exists but added_to_site=0 \u2014 Deep Dives + export must succeed; run auto_pipeline."
+        "downloaded": "RSS-only: not in curation_log APPROVED list yet \u2014 run curate.py so it can be fetched.",
+        "transcribed": "Blocked until download completes.",
+        "analyzed": "Blocked until transcript exists.",
+        "insight_created": "Blocked until analysis completes.",
+        "published": "Blocked until export after insight promotion."
       },
-      "first_blocker": "published",
+      "first_blocker": "downloaded",
       "remediation_by_stage": {
+        "downloaded": {
+          "action_id": "FETCH_AUDIO",
+          "steps": [
+            "Approve the episode in curation (curate.py refreshes pipeline/state/curation_log.json).",
+            "Download audio and enqueue transcription: fetch_latest.py --queue-only.",
+            "If MP3 never appears, inspect pipeline/logs/pipeline_schedule.err and fetch_latest output."
+          ],
+          "commands": [
+            "cd /Users/jaredsheppard/projects/ai-finance-tech-dashboard/pipeline && python3 curate.py",
+            "cd /Users/jaredsheppard/projects/ai-finance-tech-dashboard/pipeline && python3 fetch_latest.py --queue-only"
+          ]
+        },
+        "transcribed": {
+          "action_id": "FETCH_BEFORE_TRANSCRIBE",
+          "steps": [
+            "Audio must exist before transcription. Complete FETCH_AUDIO first."
+          ],
+          "commands": [
+            "cd /Users/jaredsheppard/projects/ai-finance-tech-dashboard/pipeline && python3 curate.py",
+            "cd /Users/jaredsheppard/projects/ai-finance-tech-dashboard/pipeline && python3 fetch_latest.py --queue-only"
+          ]
+        },
+        "analyzed": {
+          "action_id": "ANALYZE_TRANSCRIPTS",
+          "steps": [
+            "Run transcript analysis so is_processed=1 on podcast_episodes (analyze_transcript via auto_pipeline).",
+            "Ensure LLM keys in workspace .env (e.g. MOONSHOT_API_KEY) are set if the analyzer requires them.",
+            "Quick path: auto_pipeline.py --analyze-only analyzes then continues promotion/export steps in that run."
+          ],
+          "commands": [
+            "cd /Users/jaredsheppard/projects/ai-finance-tech-dashboard/pipeline && python3 auto_pipeline.py --analyze-only",
+            "cd /Users/jaredsheppard/projects/ai-finance-tech-dashboard/pipeline && python3 auto_pipeline.py"
+          ]
+        },
+        "insight_created": {
+          "action_id": "PROMOTE_INSIGHT",
+          "steps": [
+            "Promotion to latest_insights runs inside auto_pipeline after analysis.",
+            "If analysis succeeded but insight is missing, re-run full auto_pipeline.py and check logs for promote_episodes_to_insights errors."
+          ],
+          "commands": [
+            "cd /Users/jaredsheppard/projects/ai-finance-tech-dashboard/pipeline && python3 auto_pipeline.py"
+          ]
+        },
         "published": {
           "action_id": "EXPORT_AND_PUBLISH",
           "steps": [
@@ -75,10 +106,18 @@
           ]
         }
       },
-      "status": "needs_export"
+      "status": "needs_download"
     }
   ],
-  "available_from_rss": [],
+  "available_from_rss": [
+    {
+      "podcast": "The a16z Show",
+      "title": "Three Startups Reinventing Critical Infrastructure",
+      "published": "Wed, 5 Aug 2026 10:00:00 +0000",
+      "published_date": "2026-08-05",
+      "rss_guid": ""
+    }
+  ],
   "stale_episodes": [],
   "stale_threshold_days": 2,
   "rss_filter_criteria": {
