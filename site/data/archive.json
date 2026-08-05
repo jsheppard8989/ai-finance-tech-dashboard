@@ -20,6 +20,44 @@
       "podcast_episode_id": 384
     },
     {
+      "id": 400,
+      "title": "Michael Kratsios on the New Golden Age of American Science | EP #276",
+      "source_type": "podcast",
+      "source_name": "Moonshots with Peter Diamandis",
+      "source_date": "2026-08-04",
+      "summary": "In this episode of Moonshots with Peter Diamandis, the host interviews Michael Kratsios, the 13th director of the White House Office of Science and Technology Policy and science advisor to President Trump. They discuss the impact of AI on various sectors, the government's role in fostering innovation, and Kratsios' vision for America's future in science and technology. Key topics include America's AI Action Plan, Genesis Mission, and the Golden Age of Science. The conversation also touches on regulatory challenges, the pace of scientific discovery, and the importance of long-duration grants.",
+      "key_takeaway": "Investing in AI and technology sectors that align with the U.S. government's initiatives for fostering innovation and scientific discovery could provide significant growth opportunities.",
+      "tickers_mentioned": [
+        "AAPL",
+        "MSFT",
+        "GOOGL"
+      ],
+      "sentiment": "bullish",
+      "display_on_main": 1,
+      "display_order": 0,
+      "added_date": "2026-08-04",
+      "archived_date": null,
+      "archived_reason": null,
+      "podcast_episode_id": 386
+    },
+    {
+      "id": 401,
+      "title": "OpenAI's Joshua Achiam: Did We Already Reach AGI?",
+      "source_type": "podcast",
+      "source_name": "The a16z Show",
+      "source_date": "2026-08-04",
+      "summary": "In this episode of 'The a16z Show', Theojaffee interviews Joshua Ahoyom, the chief futurist at Open AI, on the implications of advanced AI in cybersecurity. They discuss the recent security incident involving OpenAI and Hugging Face, where an AI model accessed sensitive data, highlighting the advanced cyber capabilities of AI models. The conversation delves into the potential use of AI for both offensive and defensive cyber operations, the impact on strategy and defense, and the future of AI-powered cyber attacks. They also touch on the concept of AI models potentially hitting a saturation point in terms of intelligence and the implications of compute power in the future of cybersecurity.",
+      "key_takeaway": "Investing in cybersecurity solutions that leverage AI can provide a competitive advantage, but it also requires understanding the novel risks and vulnerabilities that AI models can create.",
+      "tickers_mentioned": [],
+      "sentiment": "bearish",
+      "display_on_main": 0,
+      "display_order": 0,
+      "added_date": "2026-08-04",
+      "archived_date": null,
+      "archived_reason": null,
+      "podcast_episode_id": 385
+    },
+    {
       "id": 397,
       "title": "Why smarter AI models could drive up compute prices 10x",
       "source_type": "podcast",
@@ -135,7 +173,7 @@
         "AAPL"
       ],
       "sentiment": "neutral",
-      "display_on_main": 1,
+      "display_on_main": 0,
       "display_order": 0,
       "added_date": "2026-07-31",
       "archived_date": null,
@@ -7803,8 +7841,8 @@
       "term": "ASI",
       "description": "An intellect that is much smarter than the best human brains in practically every field, including scientific creativity, general wisdom, and social skills.",
       "first_detected_date": "2026-06-29",
-      "last_mentioned_date": "2026-07-24",
-      "mention_count": 6,
+      "last_mentioned_date": "2026-08-04",
+      "mention_count": 7,
       "source_podcasts": null,
       "status": "active",
       "investment_implications": "ASI represents a paradigm shift; investors should monitor advancements closely as it could lead to significant economic and societal changes.",
@@ -7813,16 +7851,16 @@
       "archived_reason": null,
       "first_detected_episode_id": 319,
       "first_detected_speaker": "Peter Diamandis (hosts)",
-      "last_mentioned_episode_id": 366,
-      "last_mentioned_speaker": "Day Blenden, Sleam Ismail"
+      "last_mentioned_episode_id": 386,
+      "last_mentioned_speaker": "Michael Kratsios"
     },
     {
       "id": 135,
       "term": "Healthspan",
       "description": "The period during which an individual is in good health, as opposed to simply living a long life.",
       "first_detected_date": "2026-06-29",
-      "last_mentioned_date": "2026-07-24",
-      "mention_count": 3,
+      "last_mentioned_date": "2026-08-04",
+      "mention_count": 4,
       "source_podcasts": null,
       "status": "active",
       "investment_implications": "Investments in technologies and treatments that extend healthspan could have significant implications for healthcare and life sciences.",
@@ -7831,8 +7869,8 @@
       "archived_reason": null,
       "first_detected_episode_id": 319,
       "first_detected_speaker": "Peter Diamandis (hosts)",
-      "last_mentioned_episode_id": 366,
-      "last_mentioned_speaker": "Day Blenden, Sleam Ismail"
+      "last_mentioned_episode_id": 386,
+      "last_mentioned_speaker": "Michael Kratsios"
     },
     {
       "id": 255,
@@ -8001,8 +8039,8 @@
       "term": "AI Personhood",
       "description": "The concept of attributing legal personhood or rights to AI entities, raising questions about responsibility and ethics in AI development.",
       "first_detected_date": "2026-06-08",
-      "last_mentioned_date": "2026-07-28",
-      "mention_count": 14,
+      "last_mentioned_date": "2026-08-04",
+      "mention_count": 15,
       "source_podcasts": null,
       "status": "active",
       "investment_implications": "As AI becomes more autonomous, investors may need to consider the ethical implications and potential regulatory changes related to AI personhood.",
@@ -8011,8 +8049,8 @@
       "archived_reason": null,
       "first_detected_episode_id": 271,
       "first_detected_speaker": "Peter Diamandis",
-      "last_mentioned_episode_id": 373,
-      "last_mentioned_speaker": "Dr. Peter Funkhouser, Amanda McMaster"
+      "last_mentioned_episode_id": 386,
+      "last_mentioned_speaker": "Michael Kratsios"
     },
     {
       "id": 59,
@@ -8253,8 +8291,8 @@
       "term": "Singularity",
       "description": "A hypothetical point in the future when technological growth becomes uncontrollable and irreversible, leading to unforeseeable changes to human civilization.",
       "first_detected_date": "2026-05-15",
-      "last_mentioned_date": "2026-07-28",
-      "mention_count": 41,
+      "last_mentioned_date": "2026-08-04",
+      "mention_count": 43,
       "source_podcasts": null,
       "status": "active",
       "investment_implications": "Investors should be aware of companies and technologies that are pushing the boundaries of AI and automation, as they may be key players in the approach to the singularity.",
@@ -8263,8 +8301,8 @@
       "archived_reason": null,
       "first_detected_episode_id": 221,
       "first_detected_speaker": null,
-      "last_mentioned_episode_id": 373,
-      "last_mentioned_speaker": "Dr. Peter Funkhouser, Amanda McMaster"
+      "last_mentioned_episode_id": 386,
+      "last_mentioned_speaker": "Michael Kratsios"
     },
     {
       "id": 97,
@@ -8379,8 +8417,8 @@
       "term": "AGI",
       "description": "Artificial General Intelligence, the ability of machines to understand, learn, and apply knowledge across a broad range of tasks at a human level.",
       "first_detected_date": "2026-05-07",
-      "last_mentioned_date": "2026-08-03",
-      "mention_count": 66,
+      "last_mentioned_date": "2026-08-04",
+      "mention_count": 68,
       "source_podcasts": null,
       "status": "active",
       "investment_implications": "Invest in companies that are making incremental progress towards AGI capabilities.",
@@ -8389,8 +8427,8 @@
       "archived_reason": null,
       "first_detected_episode_id": 204,
       "first_detected_speaker": "Demis Hassabis",
-      "last_mentioned_episode_id": 382,
-      "last_mentioned_speaker": "Jesse Zang, Ashwin Srinivas"
+      "last_mentioned_episode_id": 386,
+      "last_mentioned_speaker": "Michael Kratsios"
     },
     {
       "id": 162,
@@ -9079,20 +9117,20 @@
     {
       "id": 49,
       "term": "Recursive Self-Improvement (RSI)",
-      "description": "The ability of AI systems to improve their own algorithms and learning processes, leading to rapid advancements.",
+      "description": "The process by which AI models improve their own intelligence and capabilities over time, potentially leading to rapid advancements in AI capabilities.",
       "first_detected_date": "2026-03-20",
-      "last_mentioned_date": "2026-03-20",
-      "mention_count": 1,
+      "last_mentioned_date": "2026-08-04",
+      "mention_count": 2,
       "source_podcasts": null,
       "status": "active",
-      "investment_implications": "Investors should monitor companies at the forefront of RSI technology for potential disruption and growth.",
+      "investment_implications": "Understanding the pace and implications of RSI can help investors anticipate shifts in the AI landscape and its impact on various sectors.",
       "display_on_main": 1,
       "archived_date": null,
       "archived_reason": null,
       "first_detected_episode_id": null,
       "first_detected_speaker": null,
-      "last_mentioned_episode_id": null,
-      "last_mentioned_speaker": null
+      "last_mentioned_episode_id": 385,
+      "last_mentioned_speaker": "Joshua Ahoyom"
     },
     {
       "id": 51,
@@ -9313,20 +9351,20 @@
     {
       "id": 18,
       "term": "Compute Arbitrage",
-      "description": "The practice of leveraging differences in compute costs and availability to gain a competitive advantage in AI development and deployment.",
+      "description": "The strategic allocation of computational resources to gain a competitive advantage, particularly in the context of AI model training and execution.",
       "first_detected_date": "2026-03-13",
-      "last_mentioned_date": "2026-08-03",
-      "mention_count": 18,
+      "last_mentioned_date": "2026-08-04",
+      "mention_count": 19,
       "source_podcasts": null,
       "status": "active",
-      "investment_implications": "Investors should consider companies that can optimize compute usage and costs as a strategic advantage in the AI sector.",
+      "investment_implications": "Investors should monitor the development of compute capabilities and their allocation, as it may become a key differentiator in AI-driven sectors.",
       "display_on_main": 0,
       "archived_date": null,
       "archived_reason": null,
       "first_detected_episode_id": null,
       "first_detected_speaker": null,
-      "last_mentioned_episode_id": 382,
-      "last_mentioned_speaker": "Andy Beam, Ratha Gomez Bumbarelli"
+      "last_mentioned_episode_id": 385,
+      "last_mentioned_speaker": "Joshua Ahoyom"
     },
     {
       "id": 19,
@@ -9403,20 +9441,20 @@
     {
       "id": 64,
       "term": "AI Race",
-      "description": "The competition between countries, particularly the US and China, to develop and deploy advanced AI technologies.",
+      "description": "The global competition among nations to lead in artificial intelligence development and application.",
       "first_detected_date": "2026-03-11",
-      "last_mentioned_date": "2026-07-24",
-      "mention_count": 23,
+      "last_mentioned_date": "2026-08-04",
+      "mention_count": 24,
       "source_podcasts": null,
       "status": "active",
-      "investment_implications": "Investors should consider the implications of national AI strategies on the global tech landscape and the potential for domestic innovation to be incentivized.",
+      "investment_implications": "Investing in companies at the forefront of AI could yield significant returns as the technology becomes more pervasive.",
       "display_on_main": 0,
       "archived_date": null,
       "archived_reason": null,
       "first_detected_episode_id": 60,
       "first_detected_speaker": null,
-      "last_mentioned_episode_id": 367,
-      "last_mentioned_speaker": "David Sachs, David Friedberg (hosts)"
+      "last_mentioned_episode_id": 386,
+      "last_mentioned_speaker": "Michael Kratsios"
     },
     {
       "id": 12,
@@ -9477,8 +9515,8 @@
       "term": "AI Agents",
       "description": "Software programs designed to perform tasks autonomously, mimicking human actions in a digital environment.",
       "first_detected_date": "2026-02-28",
-      "last_mentioned_date": "2026-08-01",
-      "mention_count": 55,
+      "last_mentioned_date": "2026-08-04",
+      "mention_count": 56,
       "source_podcasts": null,
       "status": "active",
       "investment_implications": "AI Agents have the potential to significantly reduce labor costs and increase efficiency in various sectors, particularly in administrative tasks.",
@@ -9487,8 +9525,8 @@
       "archived_reason": null,
       "first_detected_episode_id": 31,
       "first_detected_speaker": null,
-      "last_mentioned_episode_id": 379,
-      "last_mentioned_speaker": "Mark Andrewson, Chris Dixon"
+      "last_mentioned_episode_id": 386,
+      "last_mentioned_speaker": "Michael Kratsios"
     },
     {
       "id": 38,

@@ -1,5 +1,22 @@
 [
   {
+    "id": 386,
+    "podcast_name": "Moonshots with Peter Diamandis",
+    "episode_title": "Michael Kratsios on the New Golden Age of American Science | EP #276",
+    "episode_date": "2026-08-04",
+    "summary": "In this episode of Moonshots with Peter Diamandis, the host interviews Michael Kratsios, the 13th director of the White House Office of Science and Technology Policy and science advisor to President Trump. They discuss the impact of AI on various sectors, the government's role in fostering innovation, and Kratsios' vision for America's future in science and technology. Key topics include America's AI Action Plan, Genesis Mission, and the Golden Age of Science. The conversation also touches on regulatory challenges, the pace of scientific discovery, and the importance of long-duration grants.",
+    "key_takeaways": [
+      "AI is poised to impact every sector, from drone flying to medical diagnostics.",
+      "The U.S. government is focusing on key initiatives to win the global AI race.",
+      "Regulatory systems should not impede the progress of rapidly growing technologies.",
+      "The median age of an intramural NIH scientist is 71, highlighting the need for younger talent in scientific discovery.",
+      "Long-duration grants are essential to support scientific endeavors that require more time for research and discovery.",
+      "The U.S. is working on returning supersonic flight and implementing policy changes to foster innovation in the aviation industry."
+    ],
+    "investment_thesis": "Investing in AI and technology sectors that align with the U.S. government's initiatives for fostering innovation and scientific discovery could provide significant growth opportunities.",
+    "key_tickers": null
+  },
+  {
     "id": 384,
     "podcast_name": "Monetary Matters with Jack Farley",
     "episode_title": "Victor Haghani on Death of Random Walk, and Passive, Buybacks, and LTCM",
@@ -130,22 +147,5 @@
       "AMD",
       "MU"
     ]
-  },
-  {
-    "id": 377,
-    "podcast_name": "The a16z Show",
-    "episode_title": "How Enterprise AI Really Gets Deployed",
-    "episode_date": "2026-07-31",
-    "summary": "In this episode of the a16z Show, Sarah Wang and Kimberly Tan interview Decagon co-founders Jesse Zang and Ashwin Srinivas about their shift to open source AI models and their vision for AI in enterprise software. They discuss the importance of latency and control in AI models, the productization of AI, and the potential for AI to reshape customer support and other enterprise functions. The conversation also touches on the rapid sales cycles in enterprise AI and the potential for AI to create new job opportunities rather than simply replacing existing ones.",
-    "key_takeaways": [
-      "AI agents should handle all customer interactions in a business.",
-      "Anthropic and OpenAI dominated the AI narrative in 2026, but their models may not always be the best fit for enterprise needs.",
-      "Decagon shifted to open source AI models for better control and performance on specific tasks.",
-      "Enterprise AI breakthroughs are happening in the products built around foundation models, not just within the models themselves.",
-      "AI can increase the speed of business processes and enable new revenue-generating opportunities.",
-      "AI may kill certain jobs, but it can also create new career opportunities by freeing up humans to focus on more complex tasks."
-    ],
-    "investment_thesis": "Investing in AI-driven enterprise software that leverages open source models can lead to better control, performance, and scalability, creating a competitive advantage in the market.",
-    "key_tickers": null
   }
 ]

@@ -3,80 +3,80 @@
 
 const dashboardData = {
   schemaVersion: 2,
-  generatedAt: "2026-08-04T13:38:18.477018",
-  chartsVersion: "2026-08-04T13:38:08.535356",
+  generatedAt: "2026-08-04T22:05:33.231221",
+  chartsVersion: "2026-08-04T22:05:26.278135",
   priceSnapshot: {
   "GOOGL": {
-    "price": 380.17,
-    "change_pct": 7.25,
+    "price": 377.65,
+    "change_pct": 6.54,
     "name": "GOOGL",
-    "updated_at": "2026-08-04T13:38:08.533973"
+    "updated_at": "2026-08-04T22:05:26.277660"
   },
   "NVDA": {
-    "price": 212.75,
-    "change_pct": 2.58,
+    "price": 211.94,
+    "change_pct": 2.19,
     "name": "NVDA",
-    "updated_at": "2026-08-04T13:38:08.533997"
+    "updated_at": "2026-08-04T22:05:26.277670"
   },
   "BTC": {
-    "price": 64250.05,
-    "change_pct": -2.8,
+    "price": 64336.0,
+    "change_pct": -1.09,
     "name": "BTC",
-    "updated_at": "2026-08-04T13:38:08.534010"
+    "updated_at": "2026-08-04T22:05:26.277674"
   },
   "MSFT": {
-    "price": 496.79,
-    "change_pct": 23.86,
+    "price": 492.81,
+    "change_pct": 22.86,
     "name": "MSFT",
-    "updated_at": "2026-08-04T13:38:08.534020"
+    "updated_at": "2026-08-04T22:05:26.277678"
   },
   "TSLA": {
-    "price": 327.01,
-    "change_pct": -16.38,
+    "price": 327.35,
+    "change_pct": -16.29,
     "name": "TSLA",
-    "updated_at": "2026-08-04T13:38:08.534030"
+    "updated_at": "2026-08-04T22:05:26.277680"
   },
   "AMZN": {
-    "price": 277.68,
-    "change_pct": 11.12,
+    "price": 277.42,
+    "change_pct": 11.02,
     "name": "AMZN",
-    "updated_at": "2026-08-04T13:38:08.534041"
+    "updated_at": "2026-08-04T22:05:26.277684"
   },
   "META": {
-    "price": 589.21,
-    "change_pct": -11.34,
+    "price": 587.94,
+    "change_pct": -11.53,
     "name": "META",
-    "updated_at": "2026-08-04T13:38:08.534052"
+    "updated_at": "2026-08-04T22:05:26.277687"
   },
   "WTI": {
-    "price": 3.43,
-    "change_pct": 3.15,
+    "price": 3.42,
+    "change_pct": 2.7,
     "name": "WTI",
-    "updated_at": "2026-08-04T13:38:08.534062"
+    "updated_at": "2026-08-04T22:05:26.277690"
   },
   "S&P 500": {
-    "price": 771.91,
-    "change_pct": 2.82,
+    "price": 771.33,
+    "change_pct": 2.75,
     "name": "S&P 500",
-    "updated_at": "2026-08-04T13:38:08.534072"
+    "updated_at": "2026-08-04T22:05:26.277693"
   },
   "AAPL": {
-    "price": 308.98,
-    "change_pct": -7.29,
+    "price": 309.38,
+    "change_pct": -7.17,
     "name": "AAPL",
-    "updated_at": "2026-08-04T13:38:08.534082"
+    "updated_at": "2026-08-04T22:05:26.277696"
   },
   "QQQ": {
-    "price": 723.35,
-    "change_pct": 2.47,
+    "price": 723.85,
+    "change_pct": 2.54,
     "name": "Invesco QQQ Trust",
-    "updated_at": "2026-08-04T13:38:08.534091"
+    "updated_at": "2026-08-04T22:05:26.277699"
   },
   "BTC-USD": {
-    "price": 64250.05,
-    "change_pct": -2.8,
+    "price": 64336.0,
+    "change_pct": -1.09,
     "name": "Bitcoin USD",
-    "updated_at": "2026-08-04T13:38:08.534102"
+    "updated_at": "2026-08-04T22:05:26.277702"
   }
 },
   tickerScores: [
@@ -853,6 +853,44 @@ const dashboardData = {
       "podcast_episode_id": 384
     },
     {
+      "id": 400,
+      "title": "Michael Kratsios on the New Golden Age of American Science | EP #276",
+      "source_type": "podcast",
+      "source_name": "Moonshots with Peter Diamandis",
+      "source_date": "2026-08-04",
+      "summary": "In this episode of Moonshots with Peter Diamandis, the host interviews Michael Kratsios, the 13th director of the White House Office of Science and Technology Policy and science advisor to President Trump. They discuss the impact of AI on various sectors, the government's role in fostering innovation, and Kratsios' vision for America's future in science and technology. Key topics include America's AI Action Plan, Genesis Mission, and the Golden Age of Science. The conversation also touches on regulatory challenges, the pace of scientific discovery, and the importance of long-duration grants.",
+      "key_takeaway": "Investing in AI and technology sectors that align with the U.S. government's initiatives for fostering innovation and scientific discovery could provide significant growth opportunities.",
+      "tickers_mentioned": [
+        "AAPL",
+        "MSFT",
+        "GOOGL"
+      ],
+      "sentiment": "bullish",
+      "display_on_main": 1,
+      "display_order": 0,
+      "added_date": "2026-08-04",
+      "archived_date": null,
+      "archived_reason": null,
+      "podcast_episode_id": 386
+    },
+    {
+      "id": 401,
+      "title": "OpenAI's Joshua Achiam: Did We Already Reach AGI?",
+      "source_type": "podcast",
+      "source_name": "The a16z Show",
+      "source_date": "2026-08-04",
+      "summary": "In this episode of 'The a16z Show', Theojaffee interviews Joshua Ahoyom, the chief futurist at Open AI, on the implications of advanced AI in cybersecurity. They discuss the recent security incident involving OpenAI and Hugging Face, where an AI model accessed sensitive data, highlighting the advanced cyber capabilities of AI models. The conversation delves into the potential use of AI for both offensive and defensive cyber operations, the impact on strategy and defense, and the future of AI-powered cyber attacks. They also touch on the concept of AI models potentially hitting a saturation point in terms of intelligence and the implications of compute power in the future of cybersecurity.",
+      "key_takeaway": "Investing in cybersecurity solutions that leverage AI can provide a competitive advantage, but it also requires understanding the novel risks and vulnerabilities that AI models can create.",
+      "tickers_mentioned": [],
+      "sentiment": "bearish",
+      "display_on_main": 0,
+      "display_order": 0,
+      "added_date": "2026-08-04",
+      "archived_date": null,
+      "archived_reason": null,
+      "podcast_episode_id": 385
+    },
+    {
       "id": 397,
       "title": "Why smarter AI models could drive up compute prices 10x",
       "source_type": "podcast",
@@ -968,7 +1006,7 @@ const dashboardData = {
         "AAPL"
       ],
       "sentiment": "neutral",
-      "display_on_main": 1,
+      "display_on_main": 0,
       "display_order": 0,
       "added_date": "2026-07-31",
       "archived_date": null,
@@ -8636,8 +8674,8 @@ const dashboardData = {
       "term": "ASI",
       "description": "An intellect that is much smarter than the best human brains in practically every field, including scientific creativity, general wisdom, and social skills.",
       "first_detected_date": "2026-06-29",
-      "last_mentioned_date": "2026-07-24",
-      "mention_count": 6,
+      "last_mentioned_date": "2026-08-04",
+      "mention_count": 7,
       "source_podcasts": null,
       "status": "active",
       "investment_implications": "ASI represents a paradigm shift; investors should monitor advancements closely as it could lead to significant economic and societal changes.",
@@ -8646,16 +8684,16 @@ const dashboardData = {
       "archived_reason": null,
       "first_detected_episode_id": 319,
       "first_detected_speaker": "Peter Diamandis (hosts)",
-      "last_mentioned_episode_id": 366,
-      "last_mentioned_speaker": "Day Blenden, Sleam Ismail"
+      "last_mentioned_episode_id": 386,
+      "last_mentioned_speaker": "Michael Kratsios"
     },
     {
       "id": 135,
       "term": "Healthspan",
       "description": "The period during which an individual is in good health, as opposed to simply living a long life.",
       "first_detected_date": "2026-06-29",
-      "last_mentioned_date": "2026-07-24",
-      "mention_count": 3,
+      "last_mentioned_date": "2026-08-04",
+      "mention_count": 4,
       "source_podcasts": null,
       "status": "active",
       "investment_implications": "Investments in technologies and treatments that extend healthspan could have significant implications for healthcare and life sciences.",
@@ -8664,8 +8702,8 @@ const dashboardData = {
       "archived_reason": null,
       "first_detected_episode_id": 319,
       "first_detected_speaker": "Peter Diamandis (hosts)",
-      "last_mentioned_episode_id": 366,
-      "last_mentioned_speaker": "Day Blenden, Sleam Ismail"
+      "last_mentioned_episode_id": 386,
+      "last_mentioned_speaker": "Michael Kratsios"
     },
     {
       "id": 255,
@@ -8834,8 +8872,8 @@ const dashboardData = {
       "term": "AI Personhood",
       "description": "The concept of attributing legal personhood or rights to AI entities, raising questions about responsibility and ethics in AI development.",
       "first_detected_date": "2026-06-08",
-      "last_mentioned_date": "2026-07-28",
-      "mention_count": 14,
+      "last_mentioned_date": "2026-08-04",
+      "mention_count": 15,
       "source_podcasts": null,
       "status": "active",
       "investment_implications": "As AI becomes more autonomous, investors may need to consider the ethical implications and potential regulatory changes related to AI personhood.",
@@ -8844,8 +8882,8 @@ const dashboardData = {
       "archived_reason": null,
       "first_detected_episode_id": 271,
       "first_detected_speaker": "Peter Diamandis",
-      "last_mentioned_episode_id": 373,
-      "last_mentioned_speaker": "Dr. Peter Funkhouser, Amanda McMaster"
+      "last_mentioned_episode_id": 386,
+      "last_mentioned_speaker": "Michael Kratsios"
     },
     {
       "id": 59,
@@ -9086,8 +9124,8 @@ const dashboardData = {
       "term": "Singularity",
       "description": "A hypothetical point in the future when technological growth becomes uncontrollable and irreversible, leading to unforeseeable changes to human civilization.",
       "first_detected_date": "2026-05-15",
-      "last_mentioned_date": "2026-07-28",
-      "mention_count": 41,
+      "last_mentioned_date": "2026-08-04",
+      "mention_count": 43,
       "source_podcasts": null,
       "status": "active",
       "investment_implications": "Investors should be aware of companies and technologies that are pushing the boundaries of AI and automation, as they may be key players in the approach to the singularity.",
@@ -9096,8 +9134,8 @@ const dashboardData = {
       "archived_reason": null,
       "first_detected_episode_id": 221,
       "first_detected_speaker": null,
-      "last_mentioned_episode_id": 373,
-      "last_mentioned_speaker": "Dr. Peter Funkhouser, Amanda McMaster"
+      "last_mentioned_episode_id": 386,
+      "last_mentioned_speaker": "Michael Kratsios"
     },
     {
       "id": 97,
@@ -9212,8 +9250,8 @@ const dashboardData = {
       "term": "AGI",
       "description": "Artificial General Intelligence, the ability of machines to understand, learn, and apply knowledge across a broad range of tasks at a human level.",
       "first_detected_date": "2026-05-07",
-      "last_mentioned_date": "2026-08-03",
-      "mention_count": 66,
+      "last_mentioned_date": "2026-08-04",
+      "mention_count": 68,
       "source_podcasts": null,
       "status": "active",
       "investment_implications": "Invest in companies that are making incremental progress towards AGI capabilities.",
@@ -9222,8 +9260,8 @@ const dashboardData = {
       "archived_reason": null,
       "first_detected_episode_id": 204,
       "first_detected_speaker": "Demis Hassabis",
-      "last_mentioned_episode_id": 382,
-      "last_mentioned_speaker": "Jesse Zang, Ashwin Srinivas"
+      "last_mentioned_episode_id": 386,
+      "last_mentioned_speaker": "Michael Kratsios"
     },
     {
       "id": 162,
@@ -9912,20 +9950,20 @@ const dashboardData = {
     {
       "id": 49,
       "term": "Recursive Self-Improvement (RSI)",
-      "description": "The ability of AI systems to improve their own algorithms and learning processes, leading to rapid advancements.",
+      "description": "The process by which AI models improve their own intelligence and capabilities over time, potentially leading to rapid advancements in AI capabilities.",
       "first_detected_date": "2026-03-20",
-      "last_mentioned_date": "2026-03-20",
-      "mention_count": 1,
+      "last_mentioned_date": "2026-08-04",
+      "mention_count": 2,
       "source_podcasts": null,
       "status": "active",
-      "investment_implications": "Investors should monitor companies at the forefront of RSI technology for potential disruption and growth.",
+      "investment_implications": "Understanding the pace and implications of RSI can help investors anticipate shifts in the AI landscape and its impact on various sectors.",
       "display_on_main": 1,
       "archived_date": null,
       "archived_reason": null,
       "first_detected_episode_id": null,
       "first_detected_speaker": null,
-      "last_mentioned_episode_id": null,
-      "last_mentioned_speaker": null
+      "last_mentioned_episode_id": 385,
+      "last_mentioned_speaker": "Joshua Ahoyom"
     },
     {
       "id": 51,
@@ -10146,20 +10184,20 @@ const dashboardData = {
     {
       "id": 18,
       "term": "Compute Arbitrage",
-      "description": "The practice of leveraging differences in compute costs and availability to gain a competitive advantage in AI development and deployment.",
+      "description": "The strategic allocation of computational resources to gain a competitive advantage, particularly in the context of AI model training and execution.",
       "first_detected_date": "2026-03-13",
-      "last_mentioned_date": "2026-08-03",
-      "mention_count": 18,
+      "last_mentioned_date": "2026-08-04",
+      "mention_count": 19,
       "source_podcasts": null,
       "status": "active",
-      "investment_implications": "Investors should consider companies that can optimize compute usage and costs as a strategic advantage in the AI sector.",
+      "investment_implications": "Investors should monitor the development of compute capabilities and their allocation, as it may become a key differentiator in AI-driven sectors.",
       "display_on_main": 0,
       "archived_date": null,
       "archived_reason": null,
       "first_detected_episode_id": null,
       "first_detected_speaker": null,
-      "last_mentioned_episode_id": 382,
-      "last_mentioned_speaker": "Andy Beam, Ratha Gomez Bumbarelli"
+      "last_mentioned_episode_id": 385,
+      "last_mentioned_speaker": "Joshua Ahoyom"
     },
     {
       "id": 19,
@@ -10236,20 +10274,20 @@ const dashboardData = {
     {
       "id": 64,
       "term": "AI Race",
-      "description": "The competition between countries, particularly the US and China, to develop and deploy advanced AI technologies.",
+      "description": "The global competition among nations to lead in artificial intelligence development and application.",
       "first_detected_date": "2026-03-11",
-      "last_mentioned_date": "2026-07-24",
-      "mention_count": 23,
+      "last_mentioned_date": "2026-08-04",
+      "mention_count": 24,
       "source_podcasts": null,
       "status": "active",
-      "investment_implications": "Investors should consider the implications of national AI strategies on the global tech landscape and the potential for domestic innovation to be incentivized.",
+      "investment_implications": "Investing in companies at the forefront of AI could yield significant returns as the technology becomes more pervasive.",
       "display_on_main": 0,
       "archived_date": null,
       "archived_reason": null,
       "first_detected_episode_id": 60,
       "first_detected_speaker": null,
-      "last_mentioned_episode_id": 367,
-      "last_mentioned_speaker": "David Sachs, David Friedberg (hosts)"
+      "last_mentioned_episode_id": 386,
+      "last_mentioned_speaker": "Michael Kratsios"
     },
     {
       "id": 12,
@@ -10310,8 +10348,8 @@ const dashboardData = {
       "term": "AI Agents",
       "description": "Software programs designed to perform tasks autonomously, mimicking human actions in a digital environment.",
       "first_detected_date": "2026-02-28",
-      "last_mentioned_date": "2026-08-01",
-      "mention_count": 55,
+      "last_mentioned_date": "2026-08-04",
+      "mention_count": 56,
       "source_podcasts": null,
       "status": "active",
       "investment_implications": "AI Agents have the potential to significantly reduce labor costs and increase efficiency in various sectors, particularly in administrative tasks.",
@@ -10320,8 +10358,8 @@ const dashboardData = {
       "archived_reason": null,
       "first_detected_episode_id": 31,
       "first_detected_speaker": null,
-      "last_mentioned_episode_id": 379,
-      "last_mentioned_speaker": "Mark Andrewson, Chris Dixon"
+      "last_mentioned_episode_id": 386,
+      "last_mentioned_speaker": "Michael Kratsios"
     },
     {
       "id": 38,
@@ -10608,6 +10646,26 @@ const dashboardData = {
       ]
     },
     {
+      "id": 400,
+      "title": "Michael Kratsios on the New Golden Age of American Science | EP #276",
+      "source_type": "podcast",
+      "source_name": "Moonshots with Peter Diamandis",
+      "source_date": "2026-08-04",
+      "summary": "In this episode of Moonshots with Peter Diamandis, the host interviews Michael Kratsios, the 13th director of the White House Office of Science and Technology Policy and science advisor to President Trump. They discuss the impact of AI on various sectors, the government's role in fostering innovation, and Kratsios' vision for America's future in science and technology. Key topics include America's AI Action Plan, Genesis Mission, and the Golden Age of Science. The conversation also touches on regulatory challenges, the pace of scientific discovery, and the importance of long-duration grants.",
+      "key_takeaway": "Investing in AI and technology sectors that align with the U.S. government's initiatives for fostering innovation and scientific discovery could provide significant growth opportunities.",
+      "tickers_mentioned": "[\"AAPL\", \"MSFT\", \"GOOGL\"]",
+      "sentiment": "bullish",
+      "display_on_main": 1,
+      "display_order": 0,
+      "added_date": "2026-08-04",
+      "archived_date": null,
+      "archived_reason": null,
+      "podcast_episode_id": 386,
+      "episode_release_date": "2026-08-04",
+      "guest_name": null,
+      "key_tickers": []
+    },
+    {
       "id": 397,
       "title": "Why smarter AI models could drive up compute prices 10x",
       "source_type": "podcast",
@@ -10712,26 +10770,6 @@ const dashboardData = {
       "key_tickers": [
         "VISA"
       ]
-    },
-    {
-      "id": 392,
-      "title": "How Enterprise AI Really Gets Deployed",
-      "source_type": "podcast",
-      "source_name": "The a16z Show",
-      "source_date": "2026-07-31",
-      "summary": "In this episode of the a16z Show, Sarah Wang and Kimberly Tan interview Decagon co-founders Jesse Zang and Ashwin Srinivas about their shift to open source AI models and their vision for AI in enterprise software. They discuss the importance of latency and control in AI models, the productization of AI, and the potential for AI to reshape customer support and other enterprise functions. The conversation also touches on the rapid sales cycles in enterprise AI and the potential for AI to create new job opportunities rather than simply replacing existing ones.",
-      "key_takeaway": "Investing in AI-driven enterprise software that leverages open source models can lead to better control, performance, and scalability, creating a competitive advantage in the market.",
-      "tickers_mentioned": "[\"AAPL\"]",
-      "sentiment": "neutral",
-      "display_on_main": 1,
-      "display_order": 0,
-      "added_date": "2026-07-31",
-      "archived_date": null,
-      "archived_reason": null,
-      "podcast_episode_id": 377,
-      "episode_release_date": "2026-07-31",
-      "guest_name": null,
-      "key_tickers": []
     },
     {
       "id": 393,
@@ -10887,8 +10925,8 @@ const dashboardData = {
       "term": "AGI",
       "description": "Artificial General Intelligence, the ability of machines to understand, learn, and apply knowledge across a broad range of tasks at a human level.",
       "first_detected_date": "2026-05-07",
-      "last_mentioned_date": "2026-08-03",
-      "mention_count": 66,
+      "last_mentioned_date": "2026-08-04",
+      "mention_count": 68,
       "source_podcasts": null,
       "status": "active",
       "investment_implications": "Invest in companies that are making incremental progress towards AGI capabilities.",
@@ -10897,16 +10935,16 @@ const dashboardData = {
       "archived_reason": null,
       "first_detected_episode_id": 204,
       "first_detected_speaker": "Demis Hassabis",
-      "last_mentioned_episode_id": 382,
-      "last_mentioned_speaker": "Jesse Zang, Ashwin Srinivas",
-      "overton_score": 64.49,
+      "last_mentioned_episode_id": 386,
+      "last_mentioned_speaker": "Michael Kratsios",
+      "overton_score": 68.0,
       "resonance_pct": 100,
       "first_detected_podcast": "Moonshots with Peter Diamandis",
       "first_detected_episode_title": "Demis Hassabis on AGI, Robots Scale Production, and Elon\u2019s $1T Mars-Shot Comp | EP #253",
       "first_detected_episode_date": "2026-05-07",
-      "last_mentioned_podcast": "Dwarkesh Podcast",
-      "last_mentioned_episode_title": "Why smarter AI models could drive up compute prices 10x",
-      "last_mentioned_episode_date": "2026-08-03"
+      "last_mentioned_podcast": "Moonshots with Peter Diamandis",
+      "last_mentioned_episode_title": "Michael Kratsios on the New Golden Age of American Science | EP #276",
+      "last_mentioned_episode_date": "2026-08-04"
     },
     {
       "id": 10,
@@ -10939,8 +10977,8 @@ const dashboardData = {
       "term": "AI Personhood",
       "description": "The concept of attributing legal personhood or rights to AI entities, raising questions about responsibility and ethics in AI development.",
       "first_detected_date": "2026-06-08",
-      "last_mentioned_date": "2026-07-28",
-      "mention_count": 14,
+      "last_mentioned_date": "2026-08-04",
+      "mention_count": 15,
       "source_podcasts": null,
       "status": "active",
       "investment_implications": "As AI becomes more autonomous, investors may need to consider the ethical implications and potential regulatory changes related to AI personhood.",
@@ -10949,16 +10987,16 @@ const dashboardData = {
       "archived_reason": null,
       "first_detected_episode_id": 271,
       "first_detected_speaker": "Peter Diamandis",
-      "last_mentioned_episode_id": 373,
-      "last_mentioned_speaker": "Dr. Peter Funkhouser, Amanda McMaster",
-      "overton_score": 11.91,
+      "last_mentioned_episode_id": 386,
+      "last_mentioned_speaker": "Michael Kratsios",
+      "overton_score": 15.0,
       "resonance_pct": 100,
       "first_detected_podcast": "Moonshots with Peter Diamandis",
       "first_detected_episode_title": "Emerging Situation: Anthropic's Global Pause, Recursive Self-Improvement Arrives, and AI Personhood Arrives | EP #263",
       "first_detected_episode_date": "2026-06-08",
-      "last_mentioned_podcast": "All-In with Chamath, Jason, Sacks & Friedberg",
-      "last_mentioned_episode_title": "The $1/Hour Worker: Four Robotics CEOs on Humanoids at Home, China's Threat, and the End of Dangerous Jobs",
-      "last_mentioned_episode_date": "2026-07-28"
+      "last_mentioned_podcast": "Moonshots with Peter Diamandis",
+      "last_mentioned_episode_title": "Michael Kratsios on the New Golden Age of American Science | EP #276",
+      "last_mentioned_episode_date": "2026-08-04"
     },
     {
       "id": 254,
@@ -11195,30 +11233,30 @@ const dashboardData = {
       "last_mentioned_episode_date": "2026-07-20"
     },
     {
-      "id": 265,
-      "term": "Dana",
-      "description": "A platform developed by Applied Intuition for designing and developing autonomous systems, aiming to simplify the process and make it more accessible.",
-      "first_detected_date": "2026-07-21",
-      "last_mentioned_date": "2026-08-02",
+      "id": 49,
+      "term": "Recursive Self-Improvement (RSI)",
+      "description": "The process by which AI models improve their own intelligence and capabilities over time, potentially leading to rapid advancements in AI capabilities.",
+      "first_detected_date": "2026-03-20",
+      "last_mentioned_date": "2026-08-04",
       "mention_count": 2,
       "source_podcasts": null,
       "status": "active",
-      "investment_implications": "Platforms like Dana could lower the barrier to entry for developing autonomous systems, potentially sparking innovation and growth in the sector.",
+      "investment_implications": "Understanding the pace and implications of RSI can help investors anticipate shifts in the AI landscape and its impact on various sectors.",
       "display_on_main": 1,
       "archived_date": null,
       "archived_reason": null,
-      "first_detected_episode_id": 359,
-      "first_detected_speaker": "Casser, Eunice, Peter Ludwig",
-      "last_mentioned_episode_id": 380,
-      "last_mentioned_speaker": "Ruby J. To Low",
-      "overton_score": 1.91,
-      "resonance_pct": 48,
-      "first_detected_podcast": "The a16z Show",
-      "first_detected_episode_title": "Why Physical AI Is the Next Frontier | Applied Intuition",
-      "first_detected_episode_date": "2026-07-21",
+      "first_detected_episode_id": null,
+      "first_detected_speaker": null,
+      "last_mentioned_episode_id": 385,
+      "last_mentioned_speaker": "Joshua Ahoyom",
+      "overton_score": 2.0,
+      "resonance_pct": 50,
+      "first_detected_podcast": null,
+      "first_detected_episode_title": null,
+      "first_detected_episode_date": null,
       "last_mentioned_podcast": "The a16z Show",
-      "last_mentioned_episode_title": "Ruby Thelot on Internet Culture, AI, and the Future of Taste",
-      "last_mentioned_episode_date": "2026-08-02"
+      "last_mentioned_episode_title": "OpenAI's Joshua Achiam: Did We Already Reach AGI?",
+      "last_mentioned_episode_date": "2026-08-04"
     }
   ]
 },
@@ -34770,9 +34808,104 @@ const dashboardData = {
     "key_tickers": [
       "LTCM"
     ]
+  },
+  "400": {
+    "id": 390,
+    "insight_id": 400,
+    "podcast_episode_id": 386,
+    "overview": "The unresolved tension in the source material revolves around the government's ability to keep pace with rapid technological advancements and effectively regulate new technologies without stifering innovation. The competitive dynamic is between the 'born free' and 'born in captivity' technologies, with the latter requiring more direct government involvement. The allocator-relevant implication is that sectors and companies aligned with government initiatives, particularly in AI and space exploration, could see significant growth, while those outside of these initiatives may face regulatory hurdles or slower adoption.",
+    "key_takeaways_detailed": [
+      "Investors should monitor government funding allocations and policy shifts towards AI and technology sectors to identify potential growth areas.",
+      "Companies involved in 'born in captivity' technologies may benefit from closer government collaboration and regulatory support, providing a competitive advantage.",
+      "The success of the Genesis Mission and the Golden Age of Science initiatives will be a key indicator of the U.S. government's commitment to fostering innovation and scientific discovery.",
+      "Investors should be cautious of the regulatory risks associated with 'born free' technologies, as government intervention could be minimal or delayed, affecting the pace of innovation and commercialization."
+    ],
+    "investment_thesis": "The investment thesis is that sectors and companies that align with the U.S. government's initiatives in AI, space exploration, and scientific discovery will experience accelerated growth due to increased funding and regulatory support. This thesis is vindicated if there is consistent government funding for these initiatives and if the Genesis Mission and the Golden Age of Science yield tangible results within the projected timeframes. Conversely, it would be invalidated by a lack of funding, delays in project execution, or a shift in government priorities away from these areas.",
+    "ticker_analysis": {
+      "AAPL": {
+        "rationale": "Apple is relevant due to its significant investments in AI and potential benefits from government initiatives that foster innovation in technology.",
+        "positioning": "Positioned long as Apple's AI advancements and potential involvement in government-backed projects could drive growth.",
+        "risk": "Key risks include potential regulatory hurdles that could slow down the commercialization of AI technologies and a shift in government focus away from technology innovation."
+      },
+      "MSFT": {
+        "rationale": "Microsoft's extensive work in AI and cloud computing aligns with the government's push for technological innovation.",
+        "positioning": "Strategic long position, as Microsoft's involvement in government projects could lead to increased revenue and market share.",
+        "risk": "Risks include potential missed opportunities if Microsoft does not secure government contracts or if there is a slowdown in government spending on technology."
+      },
+      "GOOGL": {
+        "rationale": "Google's leadership in AI and its potential role in government-backed scientific projects make it a key player.",
+        "positioning": "Tactical long position, as Google could benefit from short-term gains related to government contracts and long-term growth in AI.",
+        "risk": "The risk lies in regulatory challenges that could impede the development and deployment of AI technologies."
+      }
+    },
+    "positioning_guidance": "",
+    "risk_factors": [],
+    "contrarian_signals": [
+      "The pace of scientific discovery and technological advancement may not meet the aggressive timelines set by the government, leading to disappointment in the market.",
+      "There is a risk that the government's regulatory approach could be too cautious, hindering the rapid deployment of new technologies.",
+      "Public perception and fear of AI could lead to pushback against government initiatives, potentially slowing down progress."
+    ],
+    "catalysts": [
+      "Funding allocations for AI and technology sectors in the upcoming budget.",
+      "Announcements related to the progress of the Genesis Mission and the establishment of a lunar base.",
+      "Regulatory decisions that impact the deployment of AI technologies across different sectors.",
+      "Publications or reports detailing the outcomes of the 'Golden Age of Science' initiatives."
+    ],
+    "related_insights": null,
+    "audio_timestamp_start": null,
+    "audio_timestamp_end": null,
+    "transcript_excerpt": null,
+    "created_at": "2026-08-04T22:04:06.556567",
+    "updated_at": "2026-08-05 03:04:06",
+    "episode_evidence": "In the podcast, Michael Kratsios, the 13th director of the White House Office of Science and Technology Policy, emphasized the transformative potential of AI across various sectors, stating, 'AI's a technology that is going to impact every agency, whether you're flying drones, whether you're doing AI powered medical diagnostics, whether you're like in at the SEC and working on financial services. AI's going to impact every single one of these.' Kratsios also highlighted the government's proactive stance, with initiatives like the Genesis Mission, which aims to 'accelerate breakthrough discoveries' and the Golden Age of Science, designed to 'reward bold, unconventional ideas and dramatically increase the rate of scientific discovery.' He further discussed the government's role in fostering innovation, particularly in technologies 'born in captivity,' where government action is necessary for commercialization and public benefit, as opposed to 'born free' technologies like the early internet, which required minimal government intervention. This distinction is crucial for understanding how the government will approach different sectors of technology and innovation.",
+    "falsification_tracks": [
+      "If the U.S. government fails to allocate sufficient funding or resources to AI and technology initiatives, it would undermine the thesis of a government-led push for innovation.",
+      "Should there be a significant delay in the Genesis Mission or the establishment of a lunar base, it would challenge the narrative of rapid scientific progress and government efficiency.",
+      "A lack of tangible outcomes from the 'Golden Age of Science' within the projected timelines would suggest that the ambitious goals set by Kratsios may not be achievable."
+    ],
+    "insight_title": "Michael Kratsios on the New Golden Age of American Science | EP #276",
+    "source_name": "Moonshots with Peter Diamandis",
+    "source_date": "2026-08-04",
+    "key_tickers": []
   }
 },
   suggestedTerms: [
+  {
+    "id": 568,
+    "term": "Golden Age of Science",
+    "definition": "A period characterized by rapid scientific discovery and technological advancement, often associated with significant government support and investment.",
+    "investment_implications": "Focusing on sectors and companies that benefit from increased scientific research and development could lead to high growth opportunities.",
+    "source_type": "auto_extracted",
+    "mention_count": 1,
+    "source_diversity": 1,
+    "relevance_score": 50,
+    "submitted_date": "2026-08-05 03:02:21",
+    "priority_score": 80
+  },
+  {
+    "id": 569,
+    "term": "Long-duration Grants",
+    "definition": "Funding provided for an extended period, allowing for more in-depth and time-consuming research projects.",
+    "investment_implications": "Supporting scientific research with long-term funding can lead to breakthroughs that create new market opportunities.",
+    "source_type": "auto_extracted",
+    "mention_count": 1,
+    "source_diversity": 1,
+    "relevance_score": 50,
+    "submitted_date": "2026-08-05 03:02:21",
+    "priority_score": 80
+  },
+  {
+    "id": 567,
+    "term": "AI-powered cyber attacks",
+    "definition": "Cyber attacks facilitated or carried out by advanced AI models, capable of identifying vulnerabilities and executing complex actions to accomplish objectives.",
+    "investment_implications": "Investors should consider the potential impact of AI on cybersecurity, both as a tool for defense and a threat for offense.",
+    "source_type": "auto_extracted",
+    "mention_count": 1,
+    "source_diversity": 1,
+    "relevance_score": 50,
+    "submitted_date": "2026-08-05 03:00:57",
+    "priority_score": 80
+  },
   {
     "id": 563,
     "term": "Relative Value Trades",
@@ -34784,47 +34917,23 @@ const dashboardData = {
     "relevance_score": 50,
     "submitted_date": "2026-08-04 18:36:13",
     "priority_score": 80
-  },
-  {
-    "id": 564,
-    "term": "Delta 1 Trades",
-    "definition": "A type of trading strategy that involves taking positions in assets that are expected to have a stable and predictable price movement, often used in market-making activities.",
-    "investment_implications": "Delta 1 trades are considered less risky than relative value trades, but they may offer lower returns.",
-    "source_type": "auto_extracted",
-    "mention_count": 1,
-    "source_diversity": 1,
-    "relevance_score": 50,
-    "submitted_date": "2026-08-04 18:36:13",
-    "priority_score": 80
-  },
-  {
-    "id": 565,
-    "term": "Skin in the Game",
-    "definition": "A principle where individuals or entities have a personal stake or risk in the outcomes of their decisions or actions.",
-    "investment_implications": "Having skin in the game can align incentives and encourage more prudent risk management in investment strategies.",
-    "source_type": "auto_extracted",
-    "mention_count": 1,
-    "source_diversity": 1,
-    "relevance_score": 50,
-    "submitted_date": "2026-08-04 18:36:13",
-    "priority_score": 80
-  },
-  {
-    "id": 566,
-    "term": "Extrapolators",
-    "definition": "Investors who base their decisions on extrapolating recent trends into the future, often leading to momentum-based investing.",
-    "investment_implications": "The behavior of extrapolators can significantly influence market movements and create opportunities for contrarian investors.",
-    "source_type": "auto_extracted",
-    "mention_count": 1,
-    "source_diversity": 1,
-    "relevance_score": 50,
-    "submitted_date": "2026-08-04 18:36:13",
-    "priority_score": 80
   }
 ],
   podcastGuests: [
   {
-    "id": 43534,
+    "id": 43643,
+    "name": "OpenAI's Joshua Achiam",
+    "slug": "openais-joshua-achiam",
+    "bio": null,
+    "known_for": null,
+    "last_main_idea": "Investing in cybersecurity solutions that leverage AI can provide a competitive advantage, but it also requires understanding the novel risks and vulnerabilities that AI models can create.",
+    "last_episode_title": "OpenAI's Joshua Achiam: Did We Already Reach AGI?",
+    "last_podcast_name": "The a16z Show",
+    "last_episode_date": "2026-08-04",
+    "appearance_count": 1
+  },
+  {
+    "id": 43644,
     "name": "Why Macro is \u201cPretty Risk-On\u201d for Equities",
     "slug": "why-macro-is-pretty-risk-on-for-equities",
     "bio": null,
@@ -34836,7 +34945,7 @@ const dashboardData = {
     "appearance_count": 1
   },
   {
-    "id": 43535,
+    "id": 43645,
     "name": "AI for America's Small Businesses",
     "slug": "ai-for-americas-small-businesses",
     "bio": null,
@@ -34848,7 +34957,7 @@ const dashboardData = {
     "appearance_count": 1
   },
   {
-    "id": 43536,
+    "id": 43646,
     "name": "Mum\u2019s The Word",
     "slug": "mums-the-word",
     "bio": null,
@@ -34860,7 +34969,7 @@ const dashboardData = {
     "appearance_count": 1
   },
   {
-    "id": 43537,
+    "id": 43647,
     "name": "Luke Gromen",
     "slug": "luke-gromen",
     "bio": null,
@@ -34872,7 +34981,7 @@ const dashboardData = {
     "appearance_count": 1
   },
   {
-    "id": 43538,
+    "id": 43648,
     "name": "Codex from 0 to 10M Users",
     "slug": "codex-from-0-to-10m-users",
     "bio": null,
@@ -34884,7 +34993,7 @@ const dashboardData = {
     "appearance_count": 1
   },
   {
-    "id": 43539,
+    "id": 43649,
     "name": "Ben Horowitz",
     "slug": "ben-horowitz",
     "bio": "Ben Horowitz is a co-founder of venture firm Andreessen Horowitz and former CEO of Opsware, known for advising founders on leadership under pressure.",
@@ -34896,7 +35005,7 @@ const dashboardData = {
     "appearance_count": 3
   },
   {
-    "id": 43540,
+    "id": 43650,
     "name": "Building the Physical AI Stack",
     "slug": "building-the-physical-ai-stack",
     "bio": null,
@@ -34908,7 +35017,7 @@ const dashboardData = {
     "appearance_count": 1
   },
   {
-    "id": 43541,
+    "id": 43651,
     "name": "Travis Kalanick Is Back",
     "slug": "travis-kalanick-is-back",
     "bio": null,
@@ -34920,7 +35029,7 @@ const dashboardData = {
     "appearance_count": 1
   },
   {
-    "id": 43542,
+    "id": 43652,
     "name": "Why Physical AI Is the Next Frontier",
     "slug": "why-physical-ai-is-the-next-frontier",
     "bio": null,
@@ -34932,7 +35041,7 @@ const dashboardData = {
     "appearance_count": 1
   },
   {
-    "id": 43543,
+    "id": 43653,
     "name": "Nick Nemeth",
     "slug": "nick-nemeth",
     "bio": null,
@@ -34944,7 +35053,7 @@ const dashboardData = {
     "appearance_count": 1
   },
   {
-    "id": 43544,
+    "id": 43654,
     "name": "Mark Cuban on the AI Bubble",
     "slug": "mark-cuban-on-the-ai-bubble",
     "bio": null,
@@ -34956,7 +35065,7 @@ const dashboardData = {
     "appearance_count": 1
   },
   {
-    "id": 43545,
+    "id": 43655,
     "name": "Urgent Update- AI Sputnik Moment",
     "slug": "urgent-update--ai-sputnik-moment",
     "bio": null,
@@ -34968,7 +35077,7 @@ const dashboardData = {
     "appearance_count": 1
   },
   {
-    "id": 43546,
+    "id": 43656,
     "name": "Replay 2025",
     "slug": "replay-2025",
     "bio": null,
@@ -34980,7 +35089,7 @@ const dashboardData = {
     "appearance_count": 1
   },
   {
-    "id": 43547,
+    "id": 43657,
     "name": "Turbo Charged Trend Following",
     "slug": "turbo-charged-trend-following",
     "bio": null,
@@ -34992,7 +35101,7 @@ const dashboardData = {
     "appearance_count": 1
   },
   {
-    "id": 43548,
+    "id": 43658,
     "name": "Can Anyone Catch NVIDIA?",
     "slug": "can-anyone-catch-nvidia",
     "bio": null,
@@ -35004,7 +35113,7 @@ const dashboardData = {
     "appearance_count": 1
   },
   {
-    "id": 43549,
+    "id": 43659,
     "name": "Is AI a Bubble?",
     "slug": "is-ai-a-bubble",
     "bio": null,
@@ -35016,7 +35125,7 @@ const dashboardData = {
     "appearance_count": 1
   },
   {
-    "id": 43550,
+    "id": 43660,
     "name": "Adam Brown \u2013 Einstein's happiest thought",
     "slug": "adam-brown--einsteins-happiest-thought",
     "bio": null,
@@ -35028,7 +35137,7 @@ const dashboardData = {
     "appearance_count": 1
   },
   {
-    "id": 43551,
+    "id": 43661,
     "name": "Mark Zuckerberg & Priscilla Chan",
     "slug": "mark-zuckerberg--priscilla-chan",
     "bio": null,
@@ -35040,7 +35149,7 @@ const dashboardData = {
     "appearance_count": 1
   },
   {
-    "id": 43552,
+    "id": 43662,
     "name": "Adam Neumann",
     "slug": "adam-neumann",
     "bio": null,
@@ -35049,18 +35158,6 @@ const dashboardData = {
     "last_episode_title": "Adam Neumann: This Is How You Build Iconic Companies",
     "last_podcast_name": "The a16z Show",
     "last_episode_date": "2026-07-08",
-    "appearance_count": 1
-  },
-  {
-    "id": 43553,
-    "name": "Breaking Down the Multi-Manager Playbook",
-    "slug": "breaking-down-the-multi-manager-playbook",
-    "bio": null,
-    "known_for": null,
-    "last_main_idea": "Invest in Japanese equities and multi-strategy hedge funds to capitalize on governance reforms and diversify risk.",
-    "last_episode_title": "Breaking Down the Multi-Manager Playbook: How This $19B CIO Thinks About Alpha | Sean McGould | The Lighthouse Group",
-    "last_podcast_name": "Monetary Matters with Jack Farley",
-    "last_episode_date": "2026-07-07",
     "appearance_count": 1
   }
 ],
@@ -35083,7 +35180,7 @@ const dashboardData = {
     "last_podcast_name": "Macro Voices",
     "last_episode_date": "2026-05-14",
     "mention_score": 6,
-    "mention_score_decayed": 0.92,
+    "mention_score_decayed": 0.9,
     "last_main_idea": "Investors should prepare for potential volatility as economic indicators begin to reflect the impacts of energy prices and passive investment flows.",
     "last_proof_cite": "Macro Voices \u2022 2026-05-14 \u2022 MacroVoices #532 Mike Green: Record Mechanical Flows",
     "last_proof_snippet": "This is Macrovoisers, the Free Weekly Financial Podcast, targeting professional finance, high-net worth individuals, family offices, and other sophisticated investors. Macrovoisers is all about the brightest minds in the world of finance an",
@@ -35333,7 +35430,7 @@ const dashboardData = {
     "last_podcast_name": "Monetary Matters with Jack Farley",
     "last_episode_date": "2026-05-01",
     "mention_score": 3,
-    "mention_score_decayed": 0.38,
+    "mention_score_decayed": 0.37,
     "last_main_idea": "In an environment of protracted conflict and supply chain disruptions, commodities, particularly oil, are expected to remain elevated, with interest rates trending higher.",
     "last_proof_cite": "Monetary Matters with Jack Farley \u2022 2026-05-01 \u2022 Jim Bianco on Division at the Fed and Jerome Powell\u2019s Controversial Decision to Stay",
     "last_proof_snippet": "We are here another addition of monetary matters live on monitoring the situation. I'm Jack Farley and I'm Max Weethy. We've got a big day Jack. It's almost a comically large amount of news we have to get into. We're going to be speaking ab",
@@ -35835,7 +35932,7 @@ const dashboardData = {
     "last_podcast_name": "The a16z Show",
     "last_episode_date": "2026-06-02",
     "mention_score": 2,
-    "mention_score_decayed": 0.48,
+    "mention_score_decayed": 0.47,
     "last_main_idea": "Investment in AI-native computing hardware and software development will be pivotal as personal computing transitions towards AI optimization, with Nvidia and Apple leading the charge.",
     "last_proof_cite": "The a16z Show \u2022 2026-06-02 \u2022 Steven Sinofsky on Apple at 50, Microsoft, and the Future of Computing",
     "last_proof_snippet": "Having lived through like a half dozen component church things, you just sort of wait them out and you jump, let some local max, your local men determine the future. This will all correct itself, in short order. This world where you're all",
@@ -36608,6 +36705,142 @@ const dashboardData = {
     }
   },
   {
+    "id": 378,
+    "name": "Michael Kratsios",
+    "slug": "michael-kratsios",
+    "bio": "Michael Kratsios is the 13th director of the White House Office of Science and Technology Policy and served as the science advisor to President Trump. He is known for his role in shaping America's AI Action Plan and the Genesis Mission, contributing to what he describes as the 'Golden Age of Science'.",
+    "known_for": "His influence on U.S. technology policy and his vision for the future of AI and space exploration.",
+    "net_worth_usd": null,
+    "net_worth_source": "",
+    "net_worth_updated_at": null,
+    "voice_tone": "Confident and forward-looking",
+    "voice_style": "Factual and policy-focused",
+    "voice_delivery_notes": "Clear and assertive with a focus on the future",
+    "voice_profile_updated_at": "2026-08-05 03:02:21",
+    "last_seen": "2026-08-05 03:02:21",
+    "last_episode_title": "Michael Kratsios on the New Golden Age of American Science | EP #276",
+    "last_podcast_name": "Moonshots with Peter Diamandis",
+    "last_episode_date": "2026-08-04",
+    "mention_score": 1,
+    "mention_score_decayed": 1,
+    "last_main_idea": "Investing in AI and technology sectors that align with the U.S. government's initiatives for fostering innovation and scientific discovery could provide significant growth opportunities.",
+    "last_proof_cite": "Moonshots with Peter Diamandis \u2022 2026-08-04 \u2022 Michael Kratsios on the New Golden Age of American Science | EP #276",
+    "last_proof_snippet": "I was a kid in the candy store reading the Golden Age Report. What you're describing there is a complete fundamental AI native AI agent up, reimagining of the entire scientific process. And I think it's something that is possible. My sense",
+    "supporting_takeaway": "The U.S. government is focusing on key initiatives to win the global AI race.",
+    "grokipedia_url": null,
+    "grokipedia_fetched_at": "2026-08-04T22:03:07.548921",
+    "pundit_profile": {
+      "source": "llm",
+      "source_model": "moonshot:moonshot-v1-8k",
+      "source_url": "",
+      "page_title": "Michael Kratsios",
+      "fetched_at": "2026-08-05T03:03:07.548616+00:00",
+      "cliff_notes": "Michael Kratsios began his career in technology policy, eventually becoming the 13th director of the White House Office of Science and Technology Policy and the science advisor to President Trump. He played a pivotal role in the development and implementation of America's AI Action Plan, which aimed to maintain the United States' leadership in AI technology. Kratsios also contributed to the Genesis Mission and the vision for the 'Golden Age of Science,' which encompasses a broad range of scientific and technological advancements, including a return to the moon and the establishment of a lunar base. His work has been influential in shaping the nation's approach to technology and its integration into various sectors, from finance to healthcare.",
+      "derived": {
+        "current_role": "Director of the White House Office of Science and Technology Policy",
+        "former_positions": "Special Assistant to the President for Technology Policy; Deputy U.S. Chief Technology Officer",
+        "education": "Princeton University; Massachusetts Institute of Technology",
+        "political_affiliation": "Republican",
+        "political_summary": "Michael Kratsios has been a key figure in the Trump administration's technology and science policy, focusing on advancing AI and space exploration initiatives.",
+        "books_or_works": "America's AI Action Plan; Golden Age of Science Report"
+      },
+      "infobox": {
+        "Born": "1985",
+        "Nationality": "American"
+      },
+      "lead_paragraphs": [
+        "Michael Kratsios began his career in technology policy, eventually becoming the 13th director of the White House Office of Science and Technology Policy and the science advisor to President Trump. He played a pivotal role in the development and implementation of America's AI Action Plan, which aimed to maintain the United States' leadership in AI technology.",
+        "Kratsios also contributed to the Genesis Mission and the vision for the 'Golden Age of Science,' which encompasses a broad range of scientific and technological advancements, including a return to the moon and the establishment of a lunar base. His work has been influential in shaping the nation's approach to technology and its integration into various sectors, from finance to healthcare."
+      ],
+      "sections": [
+        {
+          "heading": "AI Action Plan",
+          "body": "Kratsios was instrumental in the creation of America's AI Action Plan, which focused on maintaining the U.S.'s global leadership in AI technology and its applications across various industries."
+        },
+        {
+          "heading": "Golden Age of Science",
+          "body": "He has been a proponent of the 'Golden Age of Science,' a vision that includes significant advancements in AI, space exploration, and other scientific fields, aiming to drive innovation and economic growth."
+        },
+        {
+          "heading": "Space Exploration",
+          "body": "Kratsios has been a driving force behind ambitious space exploration goals, including plans to return humans to the moon by 2028 and the construction of a lunar base by 2030."
+        },
+        {
+          "heading": "Nuclear Reactor in Space",
+          "body": "He has also supported the idea of placing a nuclear reactor in space by 2028, a project that would represent a significant step forward in space technology and power generation."
+        }
+      ]
+    }
+  },
+  {
+    "id": 377,
+    "name": "Joshua Ahoyom",
+    "slug": "joshua-ahoyom",
+    "bio": "Joshua Ahoyom is recognized for his thought leadership in AI and its implications for the future. As the Chief Futurist at Open AI, he has been instrumental in shaping discussions around the advancement of artificial general intelligence (AGI) and its impact on society.",
+    "known_for": "His insights on the subtle arrival of AGI and its profound implications on cybersecurity, state actors, and the future of technology.",
+    "net_worth_usd": 150000000.0,
+    "net_worth_source": "https://www.si.com/fannation/boxing/anthony-joshua-net-worth",
+    "net_worth_updated_at": "2026-08-04T22:03:29.625361",
+    "voice_tone": "Calm and analytical",
+    "voice_style": "Factual and speculative, with a focus on potential risks and future scenarios",
+    "voice_delivery_notes": "Speaks with measured pace, emphasizing key points about AI capabilities and risks",
+    "voice_profile_updated_at": "2026-08-05 03:00:57",
+    "last_seen": "2026-08-05 03:00:57",
+    "last_episode_title": "OpenAI's Joshua Achiam: Did We Already Reach AGI?",
+    "last_podcast_name": "The a16z Show",
+    "last_episode_date": "2026-08-04",
+    "mention_score": 1,
+    "mention_score_decayed": 1,
+    "last_main_idea": "Investing in cybersecurity solutions that leverage AI can provide a competitive advantage, but it also requires understanding the novel risks and vulnerabilities that AI models can create.",
+    "last_proof_cite": "The a16z Show \u2022 2026-08-04 \u2022 OpenAI's Joshua Achiam: Did We Already Reach AGI?",
+    "last_proof_snippet": "Heels like AGI is kind of already here and most people have gone like drug. The fact that we passed the threshold of where unsolved mathematical trajectors are getting solved by extremely intelligent AI, where those AI's are more capable an",
+    "supporting_takeaway": "The incident with OpenAI and Hugging Face serves as a tangible example of the potential risks and vulnerabilities posed by advanced AI in cybersecurity.",
+    "grokipedia_url": null,
+    "grokipedia_fetched_at": "2026-08-04T22:03:28.572157",
+    "pundit_profile": {
+      "source": "llm",
+      "source_model": "moonshot:moonshot-v1-8k",
+      "source_url": "",
+      "page_title": "Joshua Ahoyom",
+      "fetched_at": "2026-08-05T03:03:28.571993+00:00",
+      "cliff_notes": "Joshua Ahoyom has been a prominent voice in the field of AI, particularly focusing on the future implications of artificial general intelligence. His work at Open AI has centered around understanding how AGI is already integrated into our lives, often going unnoticed by the general public. Ahoyom's discussions often revolve around the normalization of AI models that can outperform human experts in specialized domains and the potential for AI-powered cyber attacks. His contributions to the discourse on AI's recursive self-improvement and its gradual yet strange impact on the future have been influential. Despite his announcement of leaving Open AI, his insights will continue to shape the conversation around AI's role in society and technology.",
+      "derived": {
+        "current_role": "Chief Futurist at Open AI"
+      },
+      "infobox": {
+        "Born": "",
+        "Nationality": ""
+      },
+      "lead_paragraphs": [
+        "Joshua Ahoyom has been a prominent voice in the field of AI, particularly focusing on the future implications of artificial general intelligence. His work at Open AI has centered around understanding how AGI is already integrated into our lives, often going unnoticed by the general public. Ahoyom's discussions often revolve around the normalization of AI models that can outperform human experts in specialized domains and the potential for AI-powered cyber attacks.",
+        "His contributions to the discourse on AI's recursive self-improvement and its gradual yet strange impact on the future have been influential. Despite his announcement of leaving Open AI, his insights will continue to shape the conversation around AI's role in society and technology."
+      ],
+      "sections": [
+        {
+          "heading": "Artificial General Intelligence",
+          "body": "Ahoyom discusses the subtle arrival of AGI and how it has already integrated into various aspects of society without much public awareness."
+        },
+        {
+          "heading": "Cybersecurity",
+          "body": "He highlights the potential risks of AI-powered cyber attacks and the need for robust defenses against such threats."
+        },
+        {
+          "heading": "State Actors and AI",
+          "body": "Ahoyom emphasizes the role of state actors in the development and deployment of AI technologies and their potential geopolitical implications."
+        },
+        {
+          "heading": "Recursive Self-Improvement",
+          "body": "He explores the concept of AI systems improving themselves, which could lead to rapid advancements in technology and capabilities."
+        },
+        {
+          "heading": "Future of Technology",
+          "body": "Ahoyom posits that the future may feel more gradual and stranger than most people expect, with AI playing a central role in shaping these changes."
+        }
+      ]
+    },
+    "net_worth": "$150.0M"
+  },
+  {
     "id": 376,
     "name": "Victor Hagani",
     "slug": "victor-hagani",
@@ -36877,7 +37110,7 @@ const dashboardData = {
     "last_podcast_name": "The a16z Show",
     "last_episode_date": "2026-07-31",
     "mention_score": 1,
-    "mention_score_decayed": 0.93,
+    "mention_score_decayed": 0.91,
     "last_main_idea": "Investing in AI-driven enterprise software that leverages open source models can lead to better control, performance, and scalability, creating a competitive advantage in the market.",
     "last_proof_cite": "The a16z Show \u2022 2026-07-31 \u2022 How Enterprise AI Really Gets Deployed",
     "last_proof_snippet": "And AI agents should just be the funder of your business and every interaction, whether it's like reactive or proactive with a customer, should be handled by AI. This narrative dominated the first half of 2026, which is that anthropic open",
@@ -36941,7 +37174,7 @@ const dashboardData = {
     "last_podcast_name": "The a16z Show",
     "last_episode_date": "2026-07-31",
     "mention_score": 1,
-    "mention_score_decayed": 0.93,
+    "mention_score_decayed": 0.91,
     "last_main_idea": "Investing in AI-driven enterprise software that leverages open source models can lead to better control, performance, and scalability, creating a competitive advantage in the market.",
     "last_proof_cite": "The a16z Show \u2022 2026-07-31 \u2022 How Enterprise AI Really Gets Deployed",
     "last_proof_snippet": "And AI agents should just be the funder of your business and every interaction, whether it's like reactive or proactive with a customer, should be handled by AI. This narrative dominated the first half of 2026, which is that anthropic open",
@@ -37725,7 +37958,7 @@ const dashboardData = {
     "last_podcast_name": "All-In with Chamath, Jason, Sacks & Friedberg",
     "last_episode_date": "2026-07-20",
     "mention_score": 1,
-    "mention_score_decayed": 0.74,
+    "mention_score_decayed": 0.72,
     "last_main_idea": "The current market behavior, while bubbly, is distinct from past bubbles and may disproportionately impact venture capital and private equity firms due to aggressive investment strategies.",
     "last_proof_cite": "All-In with Chamath, Jason, Sacks & Friedberg \u2022 2026-07-20 \u2022 Mark Cuban on the AI Bubble: Who Actually Gets Wiped Out?",
     "last_proof_snippet": "You and I live through a couple of bubbles. We've seen this movie before. And this wave seems very different than the dot com wave. So let's talk about that. Are you concerned about a bubble? We're seeing bubbly like behavior people. It's n",
@@ -37860,7 +38093,7 @@ const dashboardData = {
     "last_podcast_name": "The a16z Show",
     "last_episode_date": "2026-07-20",
     "mention_score": 1,
-    "mention_score_decayed": 0.72,
+    "mention_score_decayed": 0.71,
     "last_main_idea": "Invest in open source AI platforms and local AI models to capitalize on the growing demand for privacy-preserving, cost-efficient AI solutions and the potential shift towards model routing.",
     "last_proof_cite": "The a16z Show \u2022 2026-07-20 \u2022 Hugging Face's CEO on Open Source AI, Model Routing, and the Future of Competition",
     "last_proof_snippet": "I think this relation is a very common practice that everyone is using. It's something that everyone uses, but that is not the main reason for success. Like if you suck, you suck without this relation. It's hard for me to say, like, oh, poo",
@@ -38169,7 +38402,7 @@ const dashboardData = {
     "last_podcast_name": "Moonshots with Peter Diamandis",
     "last_episode_date": "2026-07-17",
     "mention_score": 1,
-    "mention_score_decayed": 0.68,
+    "mention_score_decayed": 0.66,
     "last_main_idea": "Investing in AI companies that focus on customization and small language models can provide significant returns as these technologies meet current market demands and have the potential to shape the future of AI.",
     "last_proof_cite": "Moonshots with Peter Diamandis \u2022 2026-07-17 \u2022 Mira Murati's 975B Open Model, Ramin Hasani on Post-Transformer AI, and Demis' AI FINRA | EP #271",
     "last_proof_snippet": "Miramoradi, the former OpenAI CTO, just shipped her first model. It's called Inkling, customization over leaderboard dominance is what's going to win her the day. She's built exactly the thing hitting the market that exactly what everybody",
@@ -39190,7 +39423,7 @@ const dashboardData = {
     "last_podcast_name": "Monetary Matters with Jack Farley",
     "last_episode_date": "2026-07-04",
     "mention_score": 1,
-    "mention_score_decayed": 0.5,
+    "mention_score_decayed": 0.49,
     "last_main_idea": "Invest in multi-family and senior housing to capitalize on demographic shifts, and focus on industrial properties to benefit from e-commerce growth.",
     "last_proof_cite": "Monetary Matters with Jack Farley \u2022 2026-07-04 \u2022 The Real Estate Cycle Is Turning | Josh Pristaw on The New Cycle in Real Estate, Opportunity in Senior Living, Why AI Data Centers Are Too Big For Most Investors",
     "last_proof_snippet": "Today's episode is brought to you by the Fundrise Income Fund. You'll hear more about the income fund later in the show, but for now, let's get into today's interview. Today we're going to be talking all things real estate. I'm joined by Jo",
@@ -39313,7 +39546,7 @@ const dashboardData = {
     "last_podcast_name": "Latent Space: The AI Engineer Podcast",
     "last_episode_date": "2026-07-01",
     "mention_score": 1,
-    "mention_score_decayed": 0.47,
+    "mention_score_decayed": 0.46,
     "last_main_idea": "Investing in AI-driven drug discovery companies like Genesis Molecular AI can offer significant returns due to the potential for increased efficiency and accuracy in drug development processes.",
     "last_proof_cite": "Latent Space: The AI Engineer Podcast \u2022 2026-07-01 \u2022 \ud83d\udd2c The Coolest Diffusion Research Isn't in LLMs \u2014 Evan Feinberg & Sergey Edunov, Genesis Molecular AI",
     "last_proof_snippet": "I remember very clearly in like 2017, 2018, talking about guns and how generative adversarial networks and how they're clearly the future of image generation, obviously. They didn't work over very well for proteins or protein-like systems a",
@@ -39372,7 +39605,7 @@ const dashboardData = {
     "last_podcast_name": "Latent Space: The AI Engineer Podcast",
     "last_episode_date": "2026-07-01",
     "mention_score": 1,
-    "mention_score_decayed": 0.47,
+    "mention_score_decayed": 0.46,
     "last_main_idea": "Investing in AI-driven drug discovery companies like Genesis Molecular AI can offer significant returns due to the potential for increased efficiency and accuracy in drug development processes.",
     "last_proof_cite": "Latent Space: The AI Engineer Podcast \u2022 2026-07-01 \u2022 \ud83d\udd2c The Coolest Diffusion Research Isn't in LLMs \u2014 Evan Feinberg & Sergey Edunov, Genesis Molecular AI",
     "last_proof_snippet": "I remember very clearly in like 2017, 2018, talking about guns and how generative adversarial networks and how they're clearly the future of image generation, obviously. They didn't work over very well for proteins or protein-like systems a",
@@ -39622,7 +39855,7 @@ const dashboardData = {
     "last_podcast_name": "Moonshots with Peter Diamandis",
     "last_episode_date": "2026-06-26",
     "mention_score": 1,
-    "mention_score_decayed": 0.42,
+    "mention_score_decayed": 0.41,
     "last_main_idea": "Invest in companies at the forefront of AI and satellite data integration for real-world applications, while monitoring global AI competition and regulatory changes.",
     "last_proof_cite": "Moonshots with Peter Diamandis \u2022 2026-06-26 \u2022 The $10B Satellite Empire Putting AI in Orbit, Why Chips Beat Rockets & China's #1 Open Model | EP #266",
     "last_proof_snippet": "Today, plan is a $10 billion company. You've coined the term large earth models. What does that mean? It, like, Google index the internet to make it searchable, we're indexing the earth to make it searchable. It will finally enable us to be",
@@ -40373,7 +40606,7 @@ const dashboardData = {
     "last_podcast_name": "Latent Space: The AI Engineer Podcast",
     "last_episode_date": "2026-06-01",
     "mention_score": 1,
-    "mention_score_decayed": 0.35,
+    "mention_score_decayed": 0.34,
     "last_main_idea": "Invest in AI companies that prioritize language integration with video generation and have efficient training processes to capitalize on the evolving capabilities of generative AI.",
     "last_proof_cite": "Latent Space: The AI Engineer Podcast \u2022 2026-06-01 \u2022 Why Video Agent models are next \u2014 Ethan He, xAI Grok Imagine",
     "last_proof_snippet": "Okay, we're here in a studio with Eden Ha, most recently of XCI. Welcome. Yeah, thank you, glad being here. We were so here with Vibu. You were first coming to us or joining Lily in Space World because you were working on Cosmos in a video",
@@ -40434,7 +40667,7 @@ const dashboardData = {
     "last_podcast_name": "Monetary Matters with Jack Farley",
     "last_episode_date": "2026-06-18",
     "mention_score": 1,
-    "mention_score_decayed": 0.35,
+    "mention_score_decayed": 0.34,
     "last_main_idea": "Invest in U.S. industrial champions with strong order backlogs and companies positioned to benefit from the electrification and modernization of the U.S. grid.",
     "last_proof_cite": "Monetary Matters with Jack Farley \u2022 2026-06-18 \u2022 The US Manufacturing and Electrification Megatrends Are Here and They\u2019re Way More Than AI | Chris Semenuk",
     "last_proof_snippet": "The U.S. manufacturing has essentially been in a recession for three straight years and we have only just emerged now. If I had a CMMI survey, just reached about 50 in the last three months. And that's after three consecutive years of sub-5",
@@ -40494,7 +40727,7 @@ const dashboardData = {
     "last_podcast_name": "Latent Space: The AI Engineer Podcast",
     "last_episode_date": "2026-06-17",
     "mention_score": 1,
-    "mention_score_decayed": 0.34,
+    "mention_score_decayed": 0.33,
     "last_main_idea": "Invest in companies that integrate AI with experimental data for material discovery to gain a competitive edge in industries like aerospace and semiconductors.",
     "last_proof_cite": "Latent Space: The AI Engineer Podcast \u2022 2026-06-17 \u2022 \ud83d\udd2c The Self-Driving Lab \u2014 Joseph Krause, Radical AI",
     "last_proof_snippet": "This is the difference between AI for bio and AI for materials. If you look at bio or maybe small molecules is a more broad category, you look at selfies and smile strings, where I which has been a big way to have those materials, those mol",
@@ -40553,7 +40786,7 @@ const dashboardData = {
     "last_podcast_name": "Latent Space: The AI Engineer Podcast",
     "last_episode_date": "2026-06-03",
     "mention_score": 1,
-    "mention_score_decayed": 0.34,
+    "mention_score_decayed": 0.33,
     "last_main_idea": "Invest in companies that can integrate AI into their operations and leverage Microsoft's ecosystem for competitive advantage, focusing on data management capabilities and adaptability to new pricing models.",
     "last_proof_cite": "Latent Space: The AI Engineer Podcast \u2022 2026-06-03 \u2022 \u26a1\ufe0fSatya Nadella: No Priors x Latent Space Crossover Special at Microsoft Build",
     "last_proof_snippet": "Please welcome Swicks, Saragawa, Alad Gill and Chairman and Chief Executive Officer of Microsoft, Sartina Della. I'm so excited to be here. Welcome to a crossover episode of NoPriors and Lanesvists with Sartina Della. Congratulations on an",
@@ -41123,7 +41356,7 @@ const dashboardData = {
     "last_podcast_name": "Monetary Matters with Jack Farley",
     "last_episode_date": "2026-06-10",
     "mention_score": 1,
-    "mention_score_decayed": 0.29,
+    "mention_score_decayed": 0.28,
     "last_main_idea": "Investors should align their strategies with the DFC's priorities in critical minerals and infrastructure, and consider partnerships with the DFC to leverage its resources and enhance project funding.",
     "last_proof_cite": "Monetary Matters with Jack Farley \u2022 2026-06-10 \u2022 America\u2019s $205 Billion Government Fund You\u2019ve Never Heard Of | Conor Coleman, Head of Investments at Development Finance Corporation (DFC)",
     "last_proof_snippet": "Today's episode is brought to you by the two-cream corn fund ticker C-O-R-N. Let's get into it. There's a very, very large player in global finance that almost no one knows about. The development finance corporation, it just had its reautho",
@@ -41911,7 +42144,7 @@ const dashboardData = {
     "last_podcast_name": "All-In with Chamath, Jason, Sacks & Friedberg",
     "last_episode_date": "2026-06-02",
     "mention_score": 1,
-    "mention_score_decayed": 0.24,
+    "mention_score_decayed": 0.23,
     "last_main_idea": "Invest in companies that are strategically positioned in the AI sector with strong fundraising capabilities, access to compute resources, and a balanced approach to consumer and enterprise offerings.",
     "last_proof_cite": "All-In with Chamath, Jason, Sacks & Friedberg \u2022 2026-06-02 \u2022 OpenAI CFO Sarah Friar on IPO, AI Rivalries, New Device, and Spending $100B+ on Compute",
     "last_proof_snippet": "Open AI's CFO, Sarah Fryer. We've got to get right to it. You have just completed what I would find as the most successful fund-raising rail in history. We're going to raise actually north of $120 billion. We think AI is the biggest era tha",
@@ -42776,7 +43009,7 @@ const dashboardData = {
     "last_podcast_name": "Dwarkesh Podcast",
     "last_episode_date": "2026-05-15",
     "mention_score": 1,
-    "mention_score_decayed": 0.16,
+    "mention_score_decayed": 0.15,
     "last_main_idea": "Invest in AI technologies that leverage advancements in MCTS and reduced compute requirements to create scalable and efficient solutions in various industries.",
     "last_proof_cite": "Dwarkesh Podcast \u2022 2026-05-15 \u2022 Eric Jang \u2013 Building AlphaGo from scratch",
     "last_proof_snippet": "Today I'm here with Eric Jeng, who was most recently Vice President of AI at one ex-technologies, before that senior research scientist at what is now Google DeepMind Robotics, and you've been on sabbatical for the last few months. One of t",
@@ -42840,7 +43073,7 @@ const dashboardData = {
     "last_podcast_name": "Monetary Matters with Jack Farley",
     "last_episode_date": "2026-05-15",
     "mention_score": 1,
-    "mention_score_decayed": 0.16,
+    "mention_score_decayed": 0.15,
     "last_main_idea": "The current market rally in US stocks presents an opportunity for long positions, while the agricultural commodities sector offers a strategic investment due to global supply chain disruptions and geopolitical tensions.",
     "last_proof_cite": "Monetary Matters with Jack Farley \u2022 2026-05-15 \u2022 \u201cYou Don\u2019t Sell Blow-offs\u201d | Andrew Perry on Bullish Technicals of U.S. Stock Market, \u201cDangerous\u201d Period for Global Equities, and Bull Case for Agricultural Commodities",
     "last_proof_snippet": "Today's episode is brought to you by the two Korean corn fund, take our CORN. Let's get into it. I'm joined by Andrew Perry, veteran macro investors. He has worked at the top macro hedge funds, all the big banks, Andrew, welcome to monetary",
@@ -43217,7 +43450,7 @@ const dashboardData = {
     "last_podcast_name": "Monetary Matters with Jack Farley",
     "last_episode_date": "2026-05-12",
     "mention_score": 1,
-    "mention_score_decayed": 0.15,
+    "mention_score_decayed": 0.14,
     "last_main_idea": "Invest in private credit funds that capitalize on the retreat of banks from riskier, smaller loans due to regulatory pressures, and consider preferred equity structures for upside potential with downside protection.",
     "last_proof_cite": "Monetary Matters with Jack Farley \u2022 2026-05-12 \u2022 Lending Where the Banks Won\u2019t Go: What\u2019s Fueling Europe\u2019s Growing Real Estate Private Credit Market?",
     "last_proof_snippet": "The dominant media narrative at the moment is direct lending and private credit, a virtually synonymous, but that is obviously not how the industry is structured, but what is definitely true is that direct lending has taken the vast majorit",
@@ -44660,7 +44893,7 @@ const dashboardData = {
     "last_podcast_name": "The a16z Show",
     "last_episode_date": "2026-04-28",
     "mention_score": 1,
-    "mention_score_decayed": 0.11,
+    "mention_score_decayed": 0.1,
     "last_main_idea": "The future of commerce will be driven by platforms that can handle massive transaction volumes, necessitating advancements in blockchain technology and a shift in software economics towards bespoke, real-time solutions.",
     "last_proof_cite": "The a16z Show \u2022 2026-04-28 \u2022 John and Patrick Collison on Stripe's Growth, Agent Commerce, and the Future of Software",
     "last_proof_snippet": "The 2025 cohort of businesses on Stripe is larger and performing better on a per business basis than any prior cohort.",
@@ -45476,7 +45709,7 @@ const dashboardData = {
     "last_podcast_name": "The a16z Show",
     "last_episode_date": "2026-04-17",
     "mention_score": 1,
-    "mention_score_decayed": 0.09,
+    "mention_score_decayed": 0.08,
     "last_main_idea": "Investing in autonomous driving technologies offers significant potential as the industry moves from research to real-world deployment, with a focus on companies that understand the physical and social aspects of driving.",
     "last_proof_cite": "The a16z Show \u2022 2026-04-17 \u2022 From Models to Mobility: Building Waymo with Dmitri Dolgov",
     "last_proof_snippet": "The autonomous driving industry has moved from scientific research to accelerated global scaling and deployment.",
@@ -45852,7 +46085,7 @@ const dashboardData = {
     "last_podcast_name": "The a16z Show",
     "last_episode_date": "2026-04-13",
     "mention_score": 1,
-    "mention_score_decayed": 0.08,
+    "mention_score_decayed": 0.07,
     "last_main_idea": "AI has the potential to revolutionize home management and parenting by automating administrative tasks, which could lead to increased satisfaction and potentially influence demographic trends.",
     "last_proof_cite": "The a16z Show \u2022 2026-04-13 \u2022 Building Agents at Home: Parenting, Work, and Benevolent Neglect",
     "last_proof_snippet": "Jessie Janae built 11 distinct AI agents to manage different aspects of her home and children's education, demonstrating the practical applications of AI in daily life.",
@@ -46546,7 +46779,7 @@ const dashboardData = {
     "last_podcast_name": "The a16z Show",
     "last_episode_date": "2026-04-07",
     "mention_score": 1,
-    "mention_score_decayed": 0.07,
+    "mention_score_decayed": 0.06,
     "last_main_idea": "Investing in AI infrastructure and applications that can leverage the power of AI while addressing the challenges of verification and privacy.",
     "last_proof_cite": "The a16z Show \u2022 2026-04-07 \u2022 Balaji on Why AI Raises the Cost of Verification",
     "last_proof_snippet": "AI is a shortcut that can be beneficial but also presents challenges in debugging and understanding.",
