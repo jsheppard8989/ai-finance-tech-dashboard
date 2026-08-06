@@ -20,6 +20,25 @@
       "podcast_episode_id": 387
     },
     {
+      "id": 403,
+      "title": "Saronic Founders: Autonomous Warships, China's 230X Advantage & Swarms of Robot Ships",
+      "source_type": "podcast",
+      "source_name": "All-In with Chamath, Jason, Sacks & Friedberg",
+      "source_date": "2026-08-05",
+      "summary": "In this episode of 'All-In with Chamath, Jason, Sacks & Friedberg', the co-founders of Ceranic, a defense company, discuss their groundbreaking work on autonomous ships. They highlight a recent rescue mission in the Strait of Hormuz, where an autonomous ship was used for the first time to rescue stranded pilots. The conversation delves into the implications of this technology for the U.S. military, the defense industry, and the future of shipbuilding. The co-founders also touch on the challenges and opportunities in the defense sector, including the shift away from cost-plus contracts and the need for increased investment in autonomous systems.",
+      "key_takeaway": "Investment in autonomous defense technologies is crucial for maintaining a competitive edge and can lead to significant advancements in military capabilities.",
+      "tickers_mentioned": [
+        "AAPL"
+      ],
+      "sentiment": "neutral",
+      "display_on_main": 1,
+      "display_order": 0,
+      "added_date": "2026-08-05",
+      "archived_date": null,
+      "archived_reason": null,
+      "podcast_episode_id": 388
+    },
+    {
       "id": 399,
       "title": "Victor Haghani on Death of Random Walk, and Passive, Buybacks, and LTCM",
       "source_type": "podcast",
@@ -138,7 +157,7 @@
         "GOOGL"
       ],
       "sentiment": "neutral",
-      "display_on_main": 1,
+      "display_on_main": 0,
       "display_order": 0,
       "added_date": "2026-08-02",
       "archived_date": null,
@@ -7739,8 +7758,8 @@
       "term": "Autonomy",
       "description": "The ability of systems or machines to function independently without human intervention, often in the context of vehicles or industrial equipment.",
       "first_detected_date": "2026-07-22",
-      "last_mentioned_date": "2026-07-28",
-      "mention_count": 3,
+      "last_mentioned_date": "2026-08-05",
+      "mention_count": 4,
       "source_podcasts": null,
       "status": "active",
       "investment_implications": "Investors should monitor advancements in autonomy as it could significantly impact transportation and logistics.",
@@ -7749,8 +7768,8 @@
       "archived_reason": null,
       "first_detected_episode_id": 362,
       "first_detected_speaker": "Travis Kalanick, Ben Horowitz",
-      "last_mentioned_episode_id": 373,
-      "last_mentioned_speaker": "Dr. Peter Funkhouser, Amanda McMaster"
+      "last_mentioned_episode_id": 388,
+      "last_mentioned_speaker": "Dino Ceranic, Vib Altacar"
     },
     {
       "id": 261,
@@ -8081,8 +8100,8 @@
       "term": "Strait of Hormuz",
       "description": "A narrow waterway between Iran and Oman through which a significant portion of the world's oil supply passes.",
       "first_detected_date": "2026-06-07",
-      "last_mentioned_date": "2026-06-09",
-      "mention_count": 7,
+      "last_mentioned_date": "2026-08-05",
+      "mention_count": 8,
       "source_podcasts": null,
       "status": "active",
       "investment_implications": "Disruptions in this region can have a substantial impact on global oil prices and related energy investments.",
@@ -8091,8 +8110,8 @@
       "archived_reason": null,
       "first_detected_episode_id": 269,
       "first_detected_speaker": null,
-      "last_mentioned_episode_id": 274,
-      "last_mentioned_speaker": null
+      "last_mentioned_episode_id": 388,
+      "last_mentioned_speaker": "Dino Ceranic, Vib Altacar"
     },
     {
       "id": 232,

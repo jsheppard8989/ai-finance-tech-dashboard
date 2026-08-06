@@ -3,80 +3,80 @@
 
 const dashboardData = {
   schemaVersion: 2,
-  generatedAt: "2026-08-05T22:03:24.956953",
-  chartsVersion: "2026-08-05T22:03:12.556117",
+  generatedAt: "2026-08-05T23:40:55.049044",
+  chartsVersion: "2026-08-05T23:40:47.532351",
   priceSnapshot: {
   "GOOGL": {
-    "price": 362.43,
-    "change_pct": 4.52,
+    "price": NaN,
+    "change_pct": NaN,
     "name": "GOOGL",
-    "updated_at": "2026-08-05T22:03:12.554969"
+    "updated_at": "2026-08-05T23:40:47.531919"
   },
   "NVDA": {
-    "price": 219.22,
-    "change_pct": 8.09,
+    "price": NaN,
+    "change_pct": NaN,
     "name": "NVDA",
-    "updated_at": "2026-08-05T22:03:12.554988"
+    "updated_at": "2026-08-05T23:40:47.531928"
   },
   "BTC": {
-    "price": 64472.42,
-    "change_pct": 0.58,
+    "price": 64608.7,
+    "change_pct": 0.8,
     "name": "BTC",
-    "updated_at": "2026-08-05T22:03:12.554997"
+    "updated_at": "2026-08-05T23:40:47.531934"
   },
   "MSFT": {
-    "price": 487.46,
-    "change_pct": 23.78,
+    "price": NaN,
+    "change_pct": NaN,
     "name": "MSFT",
-    "updated_at": "2026-08-05T22:03:12.555005"
+    "updated_at": "2026-08-05T23:40:47.531937"
   },
   "TSLA": {
-    "price": 321.55,
-    "change_pct": -15.57,
+    "price": NaN,
+    "change_pct": NaN,
     "name": "TSLA",
-    "updated_at": "2026-08-05T22:03:12.555013"
+    "updated_at": "2026-08-05T23:40:47.531939"
   },
   "AMZN": {
-    "price": 272.65,
-    "change_pct": 10.28,
+    "price": NaN,
+    "change_pct": NaN,
     "name": "AMZN",
-    "updated_at": "2026-08-05T22:03:12.555025"
+    "updated_at": "2026-08-05T23:40:47.531942"
   },
   "META": {
-    "price": 588.77,
-    "change_pct": -8.86,
+    "price": NaN,
+    "change_pct": NaN,
     "name": "META",
-    "updated_at": "2026-08-05T22:03:12.555033"
+    "updated_at": "2026-08-05T23:40:47.531945"
   },
   "WTI": {
-    "price": 3.25,
-    "change_pct": -6.88,
+    "price": NaN,
+    "change_pct": NaN,
     "name": "WTI",
-    "updated_at": "2026-08-05T22:03:12.555040"
+    "updated_at": "2026-08-05T23:40:47.531947"
   },
   "S&P 500": {
-    "price": 769.79,
-    "change_pct": 3.57,
+    "price": NaN,
+    "change_pct": NaN,
     "name": "S&P 500",
-    "updated_at": "2026-08-05T22:03:12.555046"
+    "updated_at": "2026-08-05T23:40:47.531950"
   },
   "AAPL": {
-    "price": 311.0,
-    "change_pct": -6.81,
+    "price": NaN,
+    "change_pct": NaN,
     "name": "AAPL",
-    "updated_at": "2026-08-05T22:03:12.555052"
+    "updated_at": "2026-08-05T23:40:47.531952"
   },
   "QQQ": {
-    "price": 717.3,
-    "change_pct": 3.16,
+    "price": NaN,
+    "change_pct": NaN,
     "name": "Invesco QQQ Trust",
-    "updated_at": "2026-08-05T22:03:12.555058"
+    "updated_at": "2026-08-05T23:40:47.531955"
   },
   "BTC-USD": {
-    "price": 64472.42,
-    "change_pct": 0.58,
+    "price": 64608.7,
+    "change_pct": 0.8,
     "name": "Bitcoin USD",
-    "updated_at": "2026-08-05T22:03:12.555066"
+    "updated_at": "2026-08-05T23:40:47.531958"
   }
 },
   tickerScores: [
@@ -853,6 +853,25 @@ const dashboardData = {
       "podcast_episode_id": 387
     },
     {
+      "id": 403,
+      "title": "Saronic Founders: Autonomous Warships, China's 230X Advantage & Swarms of Robot Ships",
+      "source_type": "podcast",
+      "source_name": "All-In with Chamath, Jason, Sacks & Friedberg",
+      "source_date": "2026-08-05",
+      "summary": "In this episode of 'All-In with Chamath, Jason, Sacks & Friedberg', the co-founders of Ceranic, a defense company, discuss their groundbreaking work on autonomous ships. They highlight a recent rescue mission in the Strait of Hormuz, where an autonomous ship was used for the first time to rescue stranded pilots. The conversation delves into the implications of this technology for the U.S. military, the defense industry, and the future of shipbuilding. The co-founders also touch on the challenges and opportunities in the defense sector, including the shift away from cost-plus contracts and the need for increased investment in autonomous systems.",
+      "key_takeaway": "Investment in autonomous defense technologies is crucial for maintaining a competitive edge and can lead to significant advancements in military capabilities.",
+      "tickers_mentioned": [
+        "AAPL"
+      ],
+      "sentiment": "neutral",
+      "display_on_main": 1,
+      "display_order": 0,
+      "added_date": "2026-08-05",
+      "archived_date": null,
+      "archived_reason": null,
+      "podcast_episode_id": 388
+    },
+    {
       "id": 399,
       "title": "Victor Haghani on Death of Random Walk, and Passive, Buybacks, and LTCM",
       "source_type": "podcast",
@@ -971,7 +990,7 @@ const dashboardData = {
         "GOOGL"
       ],
       "sentiment": "neutral",
-      "display_on_main": 1,
+      "display_on_main": 0,
       "display_order": 0,
       "added_date": "2026-08-02",
       "archived_date": null,
@@ -8572,8 +8591,8 @@ const dashboardData = {
       "term": "Autonomy",
       "description": "The ability of systems or machines to function independently without human intervention, often in the context of vehicles or industrial equipment.",
       "first_detected_date": "2026-07-22",
-      "last_mentioned_date": "2026-07-28",
-      "mention_count": 3,
+      "last_mentioned_date": "2026-08-05",
+      "mention_count": 4,
       "source_podcasts": null,
       "status": "active",
       "investment_implications": "Investors should monitor advancements in autonomy as it could significantly impact transportation and logistics.",
@@ -8582,8 +8601,8 @@ const dashboardData = {
       "archived_reason": null,
       "first_detected_episode_id": 362,
       "first_detected_speaker": "Travis Kalanick, Ben Horowitz",
-      "last_mentioned_episode_id": 373,
-      "last_mentioned_speaker": "Dr. Peter Funkhouser, Amanda McMaster"
+      "last_mentioned_episode_id": 388,
+      "last_mentioned_speaker": "Dino Ceranic, Vib Altacar"
     },
     {
       "id": 261,
@@ -8914,8 +8933,8 @@ const dashboardData = {
       "term": "Strait of Hormuz",
       "description": "A narrow waterway between Iran and Oman through which a significant portion of the world's oil supply passes.",
       "first_detected_date": "2026-06-07",
-      "last_mentioned_date": "2026-06-09",
-      "mention_count": 7,
+      "last_mentioned_date": "2026-08-05",
+      "mention_count": 8,
       "source_podcasts": null,
       "status": "active",
       "investment_implications": "Disruptions in this region can have a substantial impact on global oil prices and related energy investments.",
@@ -8924,8 +8943,8 @@ const dashboardData = {
       "archived_reason": null,
       "first_detected_episode_id": 269,
       "first_detected_speaker": null,
-      "last_mentioned_episode_id": 274,
-      "last_mentioned_speaker": null
+      "last_mentioned_episode_id": 388,
+      "last_mentioned_speaker": "Dino Ceranic, Vib Altacar"
     },
     {
       "id": 232,
@@ -10668,6 +10687,26 @@ const dashboardData = {
       "key_tickers": []
     },
     {
+      "id": 403,
+      "title": "Saronic Founders: Autonomous Warships, China's 230X Advantage & Swarms of Robot Ships",
+      "source_type": "podcast",
+      "source_name": "All-In with Chamath, Jason, Sacks & Friedberg",
+      "source_date": "2026-08-05",
+      "summary": "In this episode of 'All-In with Chamath, Jason, Sacks & Friedberg', the co-founders of Ceranic, a defense company, discuss their groundbreaking work on autonomous ships. They highlight a recent rescue mission in the Strait of Hormuz, where an autonomous ship was used for the first time to rescue stranded pilots. The conversation delves into the implications of this technology for the U.S. military, the defense industry, and the future of shipbuilding. The co-founders also touch on the challenges and opportunities in the defense sector, including the shift away from cost-plus contracts and the need for increased investment in autonomous systems.",
+      "key_takeaway": "Investment in autonomous defense technologies is crucial for maintaining a competitive edge and can lead to significant advancements in military capabilities.",
+      "tickers_mentioned": "[\"AAPL\"]",
+      "sentiment": "neutral",
+      "display_on_main": 1,
+      "display_order": 0,
+      "added_date": "2026-08-05",
+      "archived_date": null,
+      "archived_reason": null,
+      "podcast_episode_id": 388,
+      "episode_release_date": "2026-08-05",
+      "guest_name": "Saronic Founders",
+      "key_tickers": []
+    },
+    {
       "id": 399,
       "title": "Victor Haghani on Death of Random Walk, and Passive, Buybacks, and LTCM",
       "source_type": "podcast",
@@ -10766,26 +10805,6 @@ const dashboardData = {
       "archived_reason": null,
       "podcast_episode_id": 383,
       "episode_release_date": "2026-08-03",
-      "guest_name": null,
-      "key_tickers": []
-    },
-    {
-      "id": 395,
-      "title": "Ruby Thelot on Internet Culture, AI, and the Future of Taste",
-      "source_type": "podcast",
-      "source_name": "The a16z Show",
-      "source_date": "2026-08-02",
-      "summary": "In this episode of 'The a16z Show', hosts Sophia Dhu and Sophia Puccini are joined by NYU professor Ruby J. To Low, a designer, cyber ethnographer, and artist, to discuss the impact of AI and technology on digital communities, online identity, and how we communicate. The conversation spans from the nuances of AI perception among Americans to the evolution of online behaviors and the concept of taste in the context of digital consumption. Ruby shares insights on how technology is reshaping our interactions and the need to understand the novel behaviors that have emerged with new digital platforms.",
-      "key_takeaway": "The evolving digital landscape presents opportunities for investment in AI and technology that can enhance daily life and reshape consumption habits, while also requiring a critical approach to understand and adapt to new cultural norms.",
-      "tickers_mentioned": "[\"AAPL\", \"META\", \"GOOGL\"]",
-      "sentiment": "neutral",
-      "display_on_main": 1,
-      "display_order": 0,
-      "added_date": "2026-08-02",
-      "archived_date": null,
-      "archived_reason": null,
-      "podcast_episode_id": 380,
-      "episode_release_date": "2026-08-02",
       "guest_name": null,
       "key_tickers": []
     },
@@ -11094,6 +11113,32 @@ const dashboardData = {
       "last_mentioned_episode_date": "2026-07-31"
     },
     {
+      "id": 264,
+      "term": "Autonomy",
+      "description": "The ability of systems or machines to function independently without human intervention, often in the context of vehicles or industrial equipment.",
+      "first_detected_date": "2026-07-22",
+      "last_mentioned_date": "2026-08-05",
+      "mention_count": 4,
+      "source_podcasts": null,
+      "status": "active",
+      "investment_implications": "Investors should monitor advancements in autonomy as it could significantly impact transportation and logistics.",
+      "display_on_main": 1,
+      "archived_date": null,
+      "archived_reason": null,
+      "first_detected_episode_id": 362,
+      "first_detected_speaker": "Travis Kalanick, Ben Horowitz",
+      "last_mentioned_episode_id": 388,
+      "last_mentioned_speaker": "Dino Ceranic, Vib Altacar",
+      "overton_score": 4.0,
+      "resonance_pct": 100,
+      "first_detected_podcast": "The a16z Show",
+      "first_detected_episode_title": "Travis Kalanick Is Back | Building the Future of Industrial AI",
+      "first_detected_episode_date": "2026-07-22",
+      "last_mentioned_podcast": "All-In with Chamath, Jason, Sacks & Friedberg",
+      "last_mentioned_episode_title": "Saronic Founders: Autonomous Warships, China's 230X Advantage & Swarms of Robot Ships",
+      "last_mentioned_episode_date": "2026-08-05"
+    },
+    {
       "id": 262,
       "term": "Quantization",
       "description": "The process of reducing the precision of the numbers used to represent a mathematical element, such as an AI model, to enable more efficient storage and computation.",
@@ -11169,32 +11214,6 @@ const dashboardData = {
       "first_detected_episode_date": "2026-05-21",
       "last_mentioned_podcast": "The a16z Show",
       "last_mentioned_episode_title": "Fei-Fei Li on Spatial Intelligence and Robotics",
-      "last_mentioned_episode_date": "2026-07-28"
-    },
-    {
-      "id": 264,
-      "term": "Autonomy",
-      "description": "The ability of systems or machines to function independently without human intervention, often in the context of vehicles or industrial equipment.",
-      "first_detected_date": "2026-07-22",
-      "last_mentioned_date": "2026-07-28",
-      "mention_count": 3,
-      "source_podcasts": null,
-      "status": "active",
-      "investment_implications": "Investors should monitor advancements in autonomy as it could significantly impact transportation and logistics.",
-      "display_on_main": 1,
-      "archived_date": null,
-      "archived_reason": null,
-      "first_detected_episode_id": 362,
-      "first_detected_speaker": "Travis Kalanick, Ben Horowitz",
-      "last_mentioned_episode_id": 373,
-      "last_mentioned_speaker": "Dr. Peter Funkhouser, Amanda McMaster",
-      "overton_score": 2.49,
-      "resonance_pct": 62,
-      "first_detected_podcast": "The a16z Show",
-      "first_detected_episode_title": "Travis Kalanick Is Back | Building the Future of Industrial AI",
-      "first_detected_episode_date": "2026-07-22",
-      "last_mentioned_podcast": "All-In with Chamath, Jason, Sacks & Friedberg",
-      "last_mentioned_episode_title": "The $1/Hour Worker: Four Robotics CEOs on Humanoids at Home, China's Threat, and the End of Dangerous Jobs",
       "last_mentioned_episode_date": "2026-07-28"
     },
     {
@@ -34997,20 +35016,92 @@ const dashboardData = {
     "source_name": "The a16z Show",
     "source_date": "2026-08-05",
     "key_tickers": []
+  },
+  "403": {
+    "id": 393,
+    "insight_id": 403,
+    "podcast_episode_id": 388,
+    "overview": "The competitive dynamic highlighted by Ceranic's co-founders revolves around the U.S.'s diminishing capacity to produce ships compared to China's rapid expansion in this sector. This imbalance poses a strategic challenge to U.S. military readiness and the defense industry's ability to respond to emerging threats. The allocation of resources towards autonomous ship technology could be a game-changer, potentially leveling the playing field by reducing production costs and increasing the number of deployable units.",
+    "key_takeaways_detailed": [
+      "Investment in autonomous ship technology could disrupt traditional shipbuilding, offering a cost-effective solution to bolster naval capabilities.",
+      "The U.S. military's adoption of autonomous systems may accelerate, driven by the need to counter China's shipbuilding advantage.",
+      "Defense contractors focusing on autonomous technologies could see increased demand as the U.S. military seeks to modernize its fleet.",
+      "The success of autonomous ship technology in real-world scenarios could be a catalyst for broader adoption across the defense industry."
+    ],
+    "investment_thesis": "Investing in companies at the forefront of autonomous defense technology is a strategic move to capitalize on the U.S. military's shift towards modernization and the need to counter China's naval expansion. Over the next decade, the development and deployment of autonomous ships could significantly impact the competitive landscape, with the potential to reduce costs and increase the scale of naval operations. An observable development that would vindicate this thesis is the U.S. Navy's increased procurement of autonomous vessels and the successful execution of high-stakes missions, indicating a shift in strategy and budget allocation.",
+    "ticker_analysis": {
+      "AAPL": {
+        "rationale": "While not directly involved in shipbuilding, Apple's advanced technology and potential for integration with defense systems make it a relevant player in the broader technology sector that could benefit from increased defense spending on autonomous systems.",
+        "positioning": "Strategic long position, as Apple's technology could be leveraged in the development of autonomous defense systems, aligning with the U.S. military's modernization efforts.",
+        "risk": "Key risks include changes in defense spending priorities and potential disruptions in the technology supply chain that could affect Apple's ability to innovate and integrate with defense systems."
+      }
+    },
+    "positioning_guidance": "",
+    "risk_factors": [],
+    "contrarian_signals": [
+      "The U.S. military may not prioritize autonomous ship technology, choosing instead to invest in traditional shipbuilding methods.",
+      "China could reduce its shipbuilding subsidies, leading to a more balanced global shipbuilding market and reducing the strategic imperative for the U.S. to adopt autonomous ship technology.",
+      "Technological challenges or failures in autonomous ship missions could slow the adoption of such technology by the U.S. military."
+    ],
+    "catalysts": [
+      "U.S. Navy's official statements or budget allocations indicating a shift towards autonomous ship technology.",
+      "Successful completion of additional high-stakes rescue missions using autonomous ships, demonstrating the technology's reliability and effectiveness.",
+      "Policy changes or international agreements that impact the global shipbuilding industry, potentially altering the competitive landscape."
+    ],
+    "related_insights": null,
+    "audio_timestamp_start": null,
+    "audio_timestamp_end": null,
+    "transcript_excerpt": null,
+    "created_at": "2026-08-05T23:40:03.427794",
+    "updated_at": "2026-08-06 04:40:03",
+    "episode_evidence": "Ceranic's co-founders discussed the strategic implications of their autonomous ship technology, emphasizing the recent rescue mission in the Strait of Hormuz as a pivotal moment. 'This is not a patrol. This is not maritime domain awareness. This is the highest stakes of the highest things,' one co-founder highlighted, indicating the gravity of the situation and the trust placed in their technology by the U.S. Navy. They also underscored the stark contrast in shipbuilding capacity, with the U.S. producing 100,000 gross tons of ships compared to China's 23 million gross tons, illustrating a significant imbalance. 'The Chinese can outbuild the US 230 to one,' they pointed out, which poses a substantial challenge to U.S. military capabilities and the defense industry. The co-founders also addressed the economic aspect, noting that a ship built in the U.S. costs five to six times more than the same ship built in China, which has a profound impact on the competitiveness and strategic readiness of the U.S. military.",
+    "falsification_tracks": [
+      "If the U.S. significantly increases its shipbuilding capacity to reduce the gap with China's production rates.",
+      "Should the U.S. Navy adopt autonomous ship technology on a large scale, reducing the reliance on traditional shipbuilding methods.",
+      "In the event of a significant decrease in China's shipbuilding subsidies, altering the cost dynamics of global ship production."
+    ],
+    "insight_title": "Saronic Founders: Autonomous Warships, China's 230X Advantage & Swarms of Robot Ships",
+    "source_name": "All-In with Chamath, Jason, Sacks & Friedberg",
+    "source_date": "2026-08-05",
+    "key_tickers": []
   }
 },
   suggestedTerms: [
+  {
+    "id": 572,
+    "term": "Autonomous Systems",
+    "definition": "Self-directed machines or software that can perform tasks with minimal human intervention, particularly in the context of defense and military applications.",
+    "investment_implications": "Investment in autonomous systems is critical for modernizing military capabilities and maintaining a strategic advantage.",
+    "source_type": "auto_extracted",
+    "mention_count": 1,
+    "source_diversity": 1,
+    "relevance_score": 50,
+    "submitted_date": "2026-08-06 04:38:17",
+    "priority_score": 80
+  },
+  {
+    "id": 573,
+    "term": "Cost-Plus Contracts",
+    "definition": "A type of contract where the contractor is reimbursed for the cost of fulfilling a contract and is also paid a fee, often a percentage of the total cost.",
+    "investment_implications": "The shift away from cost-plus contracts can incentivize efficiency and cost reduction in defense spending.",
+    "source_type": "auto_extracted",
+    "mention_count": 1,
+    "source_diversity": 1,
+    "relevance_score": 50,
+    "submitted_date": "2026-08-06 04:38:17",
+    "priority_score": 80
+  },
   {
     "id": 571,
     "term": "Marianna Mineroles",
     "definition": null,
     "investment_implications": null,
     "source_type": "auto_extracted",
-    "mention_count": 4,
-    "source_diversity": 3,
-    "relevance_score": 40,
+    "mention_count": 5,
+    "source_diversity": 4,
+    "relevance_score": 45,
     "submitted_date": "2026-08-05 17:04:03",
-    "priority_score": 140
+    "priority_score": 175
   },
   {
     "id": 570,
@@ -35023,35 +35114,23 @@ const dashboardData = {
     "relevance_score": 50,
     "submitted_date": "2026-08-05 17:01:33",
     "priority_score": 80
-  },
-  {
-    "id": 568,
-    "term": "Golden Age of Science",
-    "definition": "A period characterized by rapid scientific discovery and technological advancement, often associated with significant government support and investment.",
-    "investment_implications": "Focusing on sectors and companies that benefit from increased scientific research and development could lead to high growth opportunities.",
-    "source_type": "auto_extracted",
-    "mention_count": 1,
-    "source_diversity": 1,
-    "relevance_score": 50,
-    "submitted_date": "2026-08-05 03:02:21",
-    "priority_score": 80
-  },
-  {
-    "id": 569,
-    "term": "Long-duration Grants",
-    "definition": "Funding provided for an extended period, allowing for more in-depth and time-consuming research projects.",
-    "investment_implications": "Supporting scientific research with long-term funding can lead to breakthroughs that create new market opportunities.",
-    "source_type": "auto_extracted",
-    "mention_count": 1,
-    "source_diversity": 1,
-    "relevance_score": 50,
-    "submitted_date": "2026-08-05 03:02:21",
-    "priority_score": 80
   }
 ],
   podcastGuests: [
   {
-    "id": 44303,
+    "id": 44413,
+    "name": "Saronic Founders",
+    "slug": "saronic-founders",
+    "bio": null,
+    "known_for": null,
+    "last_main_idea": "Investment in autonomous defense technologies is crucial for maintaining a competitive edge and can lead to significant advancements in military capabilities.",
+    "last_episode_title": "Saronic Founders: Autonomous Warships, China's 230X Advantage & Swarms of Robot Ships",
+    "last_podcast_name": "All-In with Chamath, Jason, Sacks & Friedberg",
+    "last_episode_date": "2026-08-05",
+    "appearance_count": 1
+  },
+  {
+    "id": 44414,
     "name": "OpenAI's Joshua Achiam",
     "slug": "openais-joshua-achiam",
     "bio": null,
@@ -35063,7 +35142,7 @@ const dashboardData = {
     "appearance_count": 1
   },
   {
-    "id": 44304,
+    "id": 44415,
     "name": "Why Macro is \u201cPretty Risk-On\u201d for Equities",
     "slug": "why-macro-is-pretty-risk-on-for-equities",
     "bio": null,
@@ -35075,7 +35154,7 @@ const dashboardData = {
     "appearance_count": 1
   },
   {
-    "id": 44305,
+    "id": 44416,
     "name": "AI for America's Small Businesses",
     "slug": "ai-for-americas-small-businesses",
     "bio": null,
@@ -35087,7 +35166,7 @@ const dashboardData = {
     "appearance_count": 1
   },
   {
-    "id": 44306,
+    "id": 44417,
     "name": "Mum\u2019s The Word",
     "slug": "mums-the-word",
     "bio": null,
@@ -35099,7 +35178,7 @@ const dashboardData = {
     "appearance_count": 1
   },
   {
-    "id": 44307,
+    "id": 44418,
     "name": "Luke Gromen",
     "slug": "luke-gromen",
     "bio": null,
@@ -35111,7 +35190,7 @@ const dashboardData = {
     "appearance_count": 1
   },
   {
-    "id": 44308,
+    "id": 44419,
     "name": "Codex from 0 to 10M Users",
     "slug": "codex-from-0-to-10m-users",
     "bio": null,
@@ -35123,7 +35202,7 @@ const dashboardData = {
     "appearance_count": 1
   },
   {
-    "id": 44309,
+    "id": 44420,
     "name": "Ben Horowitz",
     "slug": "ben-horowitz",
     "bio": "Ben Horowitz is a co-founder of venture firm Andreessen Horowitz and former CEO of Opsware, known for advising founders on leadership under pressure.",
@@ -35135,7 +35214,7 @@ const dashboardData = {
     "appearance_count": 3
   },
   {
-    "id": 44310,
+    "id": 44421,
     "name": "Building the Physical AI Stack",
     "slug": "building-the-physical-ai-stack",
     "bio": null,
@@ -35147,7 +35226,7 @@ const dashboardData = {
     "appearance_count": 1
   },
   {
-    "id": 44311,
+    "id": 44422,
     "name": "Travis Kalanick Is Back",
     "slug": "travis-kalanick-is-back",
     "bio": null,
@@ -35159,7 +35238,7 @@ const dashboardData = {
     "appearance_count": 1
   },
   {
-    "id": 44312,
+    "id": 44423,
     "name": "Why Physical AI Is the Next Frontier",
     "slug": "why-physical-ai-is-the-next-frontier",
     "bio": null,
@@ -35171,7 +35250,7 @@ const dashboardData = {
     "appearance_count": 1
   },
   {
-    "id": 44313,
+    "id": 44424,
     "name": "Nick Nemeth",
     "slug": "nick-nemeth",
     "bio": null,
@@ -35183,7 +35262,7 @@ const dashboardData = {
     "appearance_count": 1
   },
   {
-    "id": 44314,
+    "id": 44425,
     "name": "Mark Cuban on the AI Bubble",
     "slug": "mark-cuban-on-the-ai-bubble",
     "bio": null,
@@ -35195,7 +35274,7 @@ const dashboardData = {
     "appearance_count": 1
   },
   {
-    "id": 44315,
+    "id": 44426,
     "name": "Urgent Update- AI Sputnik Moment",
     "slug": "urgent-update--ai-sputnik-moment",
     "bio": null,
@@ -35207,7 +35286,7 @@ const dashboardData = {
     "appearance_count": 1
   },
   {
-    "id": 44316,
+    "id": 44427,
     "name": "Replay 2025",
     "slug": "replay-2025",
     "bio": null,
@@ -35219,7 +35298,7 @@ const dashboardData = {
     "appearance_count": 1
   },
   {
-    "id": 44317,
+    "id": 44428,
     "name": "Turbo Charged Trend Following",
     "slug": "turbo-charged-trend-following",
     "bio": null,
@@ -35231,7 +35310,7 @@ const dashboardData = {
     "appearance_count": 1
   },
   {
-    "id": 44318,
+    "id": 44429,
     "name": "Can Anyone Catch NVIDIA?",
     "slug": "can-anyone-catch-nvidia",
     "bio": null,
@@ -35243,7 +35322,7 @@ const dashboardData = {
     "appearance_count": 1
   },
   {
-    "id": 44319,
+    "id": 44430,
     "name": "Is AI a Bubble?",
     "slug": "is-ai-a-bubble",
     "bio": null,
@@ -35255,7 +35334,7 @@ const dashboardData = {
     "appearance_count": 1
   },
   {
-    "id": 44320,
+    "id": 44431,
     "name": "Adam Brown \u2013 Einstein's happiest thought",
     "slug": "adam-brown--einsteins-happiest-thought",
     "bio": null,
@@ -35267,7 +35346,7 @@ const dashboardData = {
     "appearance_count": 1
   },
   {
-    "id": 44321,
+    "id": 44432,
     "name": "Mark Zuckerberg & Priscilla Chan",
     "slug": "mark-zuckerberg--priscilla-chan",
     "bio": null,
@@ -35276,18 +35355,6 @@ const dashboardData = {
     "last_episode_title": "Mark Zuckerberg & Priscilla Chan: How AI Will Help Cure Disease",
     "last_podcast_name": "The a16z Show",
     "last_episode_date": "2026-07-09",
-    "appearance_count": 1
-  },
-  {
-    "id": 44322,
-    "name": "Adam Neumann",
-    "slug": "adam-neumann",
-    "bio": null,
-    "known_for": null,
-    "last_main_idea": "Invest in real estate companies that emphasize community engagement, technological adaptability, and global scalability to capitalize on the evolving landscape of work and living.",
-    "last_episode_title": "Adam Neumann: This Is How You Build Iconic Companies",
-    "last_podcast_name": "The a16z Show",
-    "last_episode_date": "2026-07-08",
     "appearance_count": 1
   }
 ],
@@ -35495,7 +35562,7 @@ const dashboardData = {
     "last_podcast_name": "The a16z Show",
     "last_episode_date": "2026-07-22",
     "mention_score": 3,
-    "mention_score_decayed": 2.22,
+    "mention_score_decayed": 2.17,
     "last_main_idea": "The next great technology revolution will be in the physical world, with industrial AI, robotics, and autonomy driving transformative change across industries.",
     "last_proof_cite": "The a16z Show \u2022 2026-07-22 \u2022 Travis Kalanick Is Back | Building the Future of Industrial AI",
     "last_proof_snippet": "We know what Boobers 2017 was like. Travis Kalana, because Snapchat's dying from his role as chief executive. That wouldn't have gone that way if Ben or Mark was on the board. You're in this hell, you're dealing with lawsuits. I worry about",
@@ -35624,7 +35691,7 @@ const dashboardData = {
     "last_podcast_name": "Monetary Matters with Jack Farley",
     "last_episode_date": "2026-07-28",
     "mention_score": 2,
-    "mention_score_decayed": 1.74,
+    "mention_score_decayed": 1.7,
     "last_main_idea": "The bond market is facing significant challenges due to supply and demand imbalances, fiscal pressures, and aging populations, making gold an attractive store of value in the current economic climate.",
     "last_proof_cite": "Monetary Matters with Jack Farley \u2022 2026-07-28 \u2022 Luke Gromen: Yield Curve Control is the Only Way to Stop a Global Bond Crisis",
     "last_proof_snippet": "Germany, Japan, and Korea are all historically big creditors from a sovereign perspective. And in particular, Japan, if they're borrowing money to do defense to me, they have turned sellers of bonds as well. So now they're selling, they're",
@@ -35744,7 +35811,7 @@ const dashboardData = {
     "last_podcast_name": "All-In with Chamath, Jason, Sacks & Friedberg",
     "last_episode_date": "2026-07-10",
     "mention_score": 2,
-    "mention_score_decayed": 1.1,
+    "mention_score_decayed": 1.07,
     "last_main_idea": "Investing in AI infrastructure and data center companies could yield significant returns as the demand for AI continues to grow exponentially.",
     "last_proof_cite": "All-In with Chamath, Jason, Sacks & Friedberg \u2022 2026-07-10 \u2022 Open Source Wins, AGI Is Here, and Scorsese's AI Toolkit with CEOs of Cerebras & Black Forest Labs",
     "last_proof_snippet": "We are in the race for super intelligence and Andrew Feldman is back and obviously CEO and founders Ceribres doing in friendships pioneered the space, had a successful IPO. We've talked about this a couple of times, we got to see each other",
@@ -35808,7 +35875,7 @@ const dashboardData = {
     "last_podcast_name": "All-In with Chamath, Jason, Sacks & Friedberg",
     "last_episode_date": "2026-07-03",
     "mention_score": 2,
-    "mention_score_decayed": 0.95,
+    "mention_score_decayed": 0.93,
     "last_main_idea": "Enterprises should prioritize data sovereignty in AI to maintain competitive advantages and consider decentralized, open-source AI models to reduce costs and enhance operational efficiency.",
     "last_proof_cite": "All-In with Chamath, Jason, Sacks & Friedberg \u2022 2026-07-03 \u2022 AI Sovereignty Wars, Palantir-Nvidia Deal, SCOTUS Birthright Ruling, Newsom's CA Budget Lie",
     "last_proof_snippet": "All right, everybody, welcome back to the number one podcast in the world. Sure, favorite podcast. It's your podcast. It's your favorite podcast. It's the all-in podcast episode two, seven, nine with me, freebergs, tax, to my, you know, the",
@@ -35868,7 +35935,7 @@ const dashboardData = {
     "last_podcast_name": "BG2Pod with Brad Gerstner and Bill Gurley",
     "last_episode_date": "2026-06-11",
     "mention_score": 2,
-    "mention_score_decayed": 0.64,
+    "mention_score_decayed": 0.63,
     "last_main_idea": "SpaceX's unique position in the AI compute market and its rapid deployment capabilities make it a compelling long-term investment, with potential for significant revenue growth through Starlink and AI advancements.",
     "last_proof_cite": "BG2Pod with Brad Gerstner and Bill Gurley \u2022 2026-06-11 \u2022 The SpaceX IPO, Fable 5, AI Capex Update & Market Check w/ Gavin Baker, Andrew Fox & Clark Tang | BG2",
     "last_proof_snippet": "I think we're all pretty AI-pilled, and if you're AI-pilled, that means we've got to build a lot more compute than the world thinks, and that these models are going to be a lot more valuable than people think. You combine that with their co",
@@ -36835,6 +36902,124 @@ const dashboardData = {
     }
   },
   {
+    "id": 382,
+    "name": "Dino Ceranic",
+    "slug": "dino-ceranic",
+    "bio": "Dino Ceranic is the co-founder of Ceranic, a defense company that specializes in the development and deployment of autonomous ships. His work has been instrumental in pioneering the use of autonomous technology in military operations, particularly in high-stakes environments such as the Strait of Hormuz.",
+    "known_for": "Pioneering the use of autonomous ships in military operations.",
+    "net_worth_usd": null,
+    "net_worth_source": "",
+    "net_worth_updated_at": null,
+    "voice_tone": "Confident and passionate about the impact of autonomous technology on defense.",
+    "voice_style": "Direct and factual, with a focus on the practical implications of the technology.",
+    "voice_delivery_notes": "Speaks with a sense of urgency and pride in their work.",
+    "voice_profile_updated_at": "2026-08-06 04:38:17",
+    "last_seen": "2026-08-06 04:38:17",
+    "last_episode_title": "Saronic Founders: Autonomous Warships, China's 230X Advantage & Swarms of Robot Ships",
+    "last_podcast_name": "All-In with Chamath, Jason, Sacks & Friedberg",
+    "last_episode_date": "2026-08-05",
+    "mention_score": 1,
+    "mention_score_decayed": 1,
+    "last_main_idea": "Investment in autonomous defense technologies is crucial for maintaining a competitive edge and can lead to significant advancements in military capabilities.",
+    "last_proof_cite": "All-In with Chamath, Jason, Sacks & Friedberg \u2022 2026-08-05 \u2022 Saronic Founders: Autonomous Warships, China's 230X Advantage & Swarms of Robot Ships",
+    "last_proof_snippet": "All right, everybody, welcome back to the all in interview series. I am thrilled. Really thrilled because Ceranic is a defense company that has been doing amazing work. And we are so lucky to have the co-founders here on the program. Welcom",
+    "supporting_takeaway": "The U.S. military's trust in Ceranic's technology signifies a shift towards autonomous systems in defense.",
+    "grokipedia_url": null,
+    "grokipedia_fetched_at": "2026-08-05T23:39:27.883151",
+    "pundit_profile": {
+      "source": "llm",
+      "source_model": "moonshot:moonshot-v1-8k",
+      "source_url": "",
+      "page_title": "Dino Ceranic",
+      "fetched_at": "2026-08-06T04:39:27.882793+00:00",
+      "cliff_notes": "Dino Ceranic is a prominent figure in the field of autonomous technology, particularly within the defense sector. As the co-founder of Ceranic, he has been at the forefront of developing autonomous ships that can be deployed in military operations. His work has garnered significant attention, especially after one of Ceranic's autonomous ships was used in a high-profile operation in the Strait of Hormuz. This event marked a milestone in the integration of autonomous technology into military strategy, showcasing the potential for such systems to operate in complex and dangerous environments. Ceranic's contributions to the field have been pivotal in advancing the capabilities of modern defense forces and have opened up new possibilities for the application of autonomous systems in various sectors.",
+      "derived": {
+        "current_role": "Co-founder of Ceranic"
+      },
+      "infobox": {
+        "Born": "",
+        "Nationality": ""
+      },
+      "lead_paragraphs": [
+        "Dino Ceranic is a prominent figure in the field of autonomous technology, particularly within the defense sector. As the co-founder of Ceranic, he has been at the forefront of developing autonomous ships that can be deployed in military operations. His work has garnered significant attention, especially after one of Ceranic's autonomous ships was used in a high-profile operation in the Strait of Hormuz.",
+        "This event marked a milestone in the integration of autonomous technology into military strategy, showcasing the potential for such systems to operate in complex and dangerous environments. Ceranic's contributions to the field have been pivotal in advancing the capabilities of modern defense forces and have opened up new possibilities for the application of autonomous systems in various sectors."
+      ],
+      "sections": [
+        {
+          "heading": "Autonomous Ship Technology",
+          "body": "Dino Ceranic has been instrumental in the development of autonomous ship technology, which has significant implications for military operations and maritime security."
+        },
+        {
+          "heading": "Military Applications",
+          "body": "Ceranic's work has been highlighted by the successful deployment of autonomous ships in military operations, demonstrating the potential of this technology in high-stakes environments."
+        },
+        {
+          "heading": "Innovation in Defense",
+          "body": "As a leader in the defense industry, Ceranic has helped to pioneer new approaches to maritime defense, leveraging autonomous systems to enhance operational capabilities."
+        }
+      ]
+    }
+  },
+  {
+    "id": 383,
+    "name": "Vib Altacar",
+    "slug": "vib-altacar",
+    "bio": "Vib Altacar is a co-founder of Ceranic, a defense company that specializes in the development and deployment of autonomous ship technology. His work has been instrumental in advancing maritime defense capabilities, with recent applications in strategic locations such as the Strait of Hormuz.",
+    "known_for": "Pioneering the deployment of autonomous ships in maritime defense applications.",
+    "net_worth_usd": null,
+    "net_worth_source": "",
+    "net_worth_updated_at": null,
+    "voice_tone": "Supportive and informative, providing insights into the industry.",
+    "voice_style": "Collaborative, emphasizing the team effort behind Ceranic's achievements.",
+    "voice_delivery_notes": "Speaks with a focus on the technical and strategic aspects of the technology.",
+    "voice_profile_updated_at": "2026-08-06 04:38:17",
+    "last_seen": "2026-08-06 04:38:17",
+    "last_episode_title": "Saronic Founders: Autonomous Warships, China's 230X Advantage & Swarms of Robot Ships",
+    "last_podcast_name": "All-In with Chamath, Jason, Sacks & Friedberg",
+    "last_episode_date": "2026-08-05",
+    "mention_score": 1,
+    "mention_score_decayed": 1,
+    "last_main_idea": "Investment in autonomous defense technologies is crucial for maintaining a competitive edge and can lead to significant advancements in military capabilities.",
+    "last_proof_cite": "All-In with Chamath, Jason, Sacks & Friedberg \u2022 2026-08-05 \u2022 Saronic Founders: Autonomous Warships, China's 230X Advantage & Swarms of Robot Ships",
+    "last_proof_snippet": "All right, everybody, welcome back to the all in interview series. I am thrilled. Really thrilled because Ceranic is a defense company that has been doing amazing work. And we are so lucky to have the co-founders here on the program. Welcom",
+    "supporting_takeaway": "The U.S. military's trust in Ceranic's technology signifies a shift towards autonomous systems in defense.",
+    "grokipedia_url": null,
+    "grokipedia_fetched_at": "2026-08-05T23:39:36.761027",
+    "pundit_profile": {
+      "source": "llm",
+      "source_model": "moonshot:moonshot-v1-8k",
+      "source_url": "",
+      "page_title": "Vib Altacar",
+      "fetched_at": "2026-08-06T04:39:36.760872+00:00",
+      "cliff_notes": "Vib Altacar is recognized for his contributions to the field of autonomous maritime technology as a co-founder of Ceranic. His work has been pivotal in the development and deployment of autonomous ships, which have been used in critical maritime operations. Altacar's leadership at Ceranic has positioned the company at the forefront of innovation in defense technology, particularly in the realm of unmanned naval systems. His efforts have not only advanced the capabilities of naval defense but also highlighted the potential of autonomous systems in complex and high-stakes environments.",
+      "derived": {
+        "current_role": "Co-founder of Ceranic"
+      },
+      "infobox": {
+        "Born": "",
+        "Nationality": ""
+      },
+      "lead_paragraphs": [
+        "Vib Altacar is recognized for his contributions to the field of autonomous maritime technology as a co-founder of Ceranic. His work has been pivotal in the development and deployment of autonomous ships, which have been used in critical maritime operations. Altacar's leadership at Ceranic has positioned the company at the forefront of innovation in defense technology, particularly in the realm of unmanned naval systems.",
+        "His efforts have not only advanced the capabilities of naval defense but also highlighted the potential of autonomous systems in complex and high-stakes environments."
+      ],
+      "sections": [
+        {
+          "heading": "Autonomous Ship Technology",
+          "body": "Vib Altacar has been a key figure in the advancement of autonomous ship technology, which has significant implications for modern defense strategies and maritime operations."
+        },
+        {
+          "heading": "Maritime Defense",
+          "body": "Altacar's work with Ceranic has led to the deployment of autonomous ships in strategic locations, enhancing maritime security and demonstrating the practical applications of this technology."
+        },
+        {
+          "heading": "Innovation in Defense",
+          "body": "Under Altacar's leadership, Ceranic has become a notable player in the defense industry, pushing the boundaries of what is possible with autonomous systems in naval defense."
+        }
+      ]
+    }
+  },
+  {
     "id": 379,
     "name": "Ulysses Founder",
     "slug": "ulysses-founder",
@@ -37229,7 +37414,7 @@ const dashboardData = {
     "last_podcast_name": "Monetary Matters with Jack Farley",
     "last_episode_date": "2026-08-02",
     "mention_score": 1,
-    "mention_score_decayed": 0.95,
+    "mention_score_decayed": 0.93,
     "last_main_idea": "The market is in a phase where a new narrative is needed to drive further growth, with a focus on value laggards and sectors less exposed to speculative excesses.",
     "last_proof_cite": "Monetary Matters with Jack Farley \u2022 2026-08-02 \u2022 Why Macro is \u201cPretty Risk-On\u201d for Equities | Tian Yang of Variant Perception",
     "last_proof_snippet": "I'm joined once again by TN Yang, co-founder and head of research at variant perception. TN, what do you think about the stock market right now, the S&P, the NASDAQ, the semiconductor stocks, they have been trading quite weekly for the past",
@@ -37965,7 +38150,7 @@ const dashboardData = {
     "last_podcast_name": "Moonshots with Peter Diamandis",
     "last_episode_date": "2026-07-24",
     "mention_score": 1,
-    "mention_score_decayed": 0.78,
+    "mention_score_decayed": 0.76,
     "last_main_idea": "Investing in AI is about more than just technology; it's an investment in the future of innovation, human potential, and the ability to solve complex problems.",
     "last_proof_cite": "Moonshots with Peter Diamandis \u2022 2026-07-24 \u2022 The Hugging Face Breach, Moonshot AI Valued at $20B, and Living to 1,759 Years Old | EP #273",
     "last_proof_snippet": "Pugging face, the leading open platform for sharing testing and deploying AI models, it got breached by an autonomous agent when the hugging face security team tried to analyze the attack, using either anthropic or open AI, both models refu",
@@ -38025,7 +38210,7 @@ const dashboardData = {
     "last_podcast_name": "Moonshots with Peter Diamandis",
     "last_episode_date": "2026-07-24",
     "mention_score": 1,
-    "mention_score_decayed": 0.78,
+    "mention_score_decayed": 0.76,
     "last_main_idea": "Investing in AI is about more than just technology; it's an investment in the future of innovation, human potential, and the ability to solve complex problems.",
     "last_proof_cite": "Moonshots with Peter Diamandis \u2022 2026-07-24 \u2022 The Hugging Face Breach, Moonshot AI Valued at $20B, and Living to 1,759 Years Old | EP #273",
     "last_proof_snippet": "Pugging face, the leading open platform for sharing testing and deploying AI models, it got breached by an autonomous agent when the hugging face security team tried to analyze the attack, using either anthropic or open AI, both models refu",
@@ -39155,7 +39340,7 @@ const dashboardData = {
     "last_podcast_name": "Monetary Matters with Jack Farley",
     "last_episode_date": "2026-07-14",
     "mention_score": 1,
-    "mention_score_decayed": 0.62,
+    "mention_score_decayed": 0.6,
     "last_main_idea": "Invest in companies at the forefront of AI and semiconductors that can leverage intelligence to perform high-cost, time-consuming tasks more efficiently and at scale.",
     "last_proof_cite": "Monetary Matters with Jack Farley \u2022 2026-07-14 \u2022 The Semiconductor Earnings Boom Is Just Getting Started | Ben Pouladian on why AI is Real, Nvidia is Mispriced, and Capacitors Are Overrated",
     "last_proof_snippet": "Got a special conversation today. I'm joined by Ben Kulandian of BEP Research. Ben is a specialist investor and analyst in the semi-conductor world and the semi-conductor supply chain. Of course, that is what powers AI Ben welcome to moneta",
@@ -39673,7 +39858,7 @@ const dashboardData = {
     "last_podcast_name": "Monetary Matters with Jack Farley",
     "last_episode_date": "2026-07-05",
     "mention_score": 1,
-    "mention_score_decayed": 0.5,
+    "mention_score_decayed": 0.49,
     "last_main_idea": "The Federal Reserve's ability to manage interest rates effectively hinges on maintaining adequate reserve levels; monitoring the implementation of techniques to reduce reserve demand could provide insights into future monetary policy and market stability.",
     "last_proof_cite": "Monetary Matters with Jack Farley \u2022 2026-07-05 \u2022 The Ultimate Playbook for Reducing The Fed\u2019s Balance Sheet | Professor Darrell Duffie on 4 Tools For Federal Reserve To Shrink Reserve Demand In Banking System",
     "last_proof_snippet": "Today's episode is brought to you by the Fundrise Income Fund. You'll hear more about the income fund later in the show, but for now, let's get into today's interview. The new Fed Chair Kevin Worsh has made it no secret that he prefers a sm",
@@ -40103,7 +40288,7 @@ const dashboardData = {
     "last_podcast_name": "Monetary Matters with Jack Farley",
     "last_episode_date": "2026-06-29",
     "mention_score": 1,
-    "mention_score_decayed": 0.44,
+    "mention_score_decayed": 0.43,
     "last_main_idea": "Investors should be cautious of current AI and data center investment booms, drawing parallels with the 1873 financial crisis, and be mindful of the risks associated with excessive leverage and mismanaged monetary policy.",
     "last_proof_cite": "Monetary Matters with Jack Farley \u2022 2026-06-29 \u2022 Rothschilds, Railroads, & Ruin | Liaquat Ahamed on \u201c1873\u201d (New Book!)",
     "last_proof_snippet": "I am so glad today we have a very special guest, one of my favorite authors of all time Leakwet Ahamed, who's the author of the new book 1873, The Roth Childs, The First Great Depression, and The Making of the Modern World Leakwet. Welcome",
@@ -40230,7 +40415,7 @@ const dashboardData = {
     "last_podcast_name": "Monetary Matters with Jack Farley",
     "last_episode_date": "2026-06-24",
     "mention_score": 1,
-    "mention_score_decayed": 0.39,
+    "mention_score_decayed": 0.38,
     "last_main_idea": "Plutus democratizes investment management by providing individual investors access to sophisticated strategies and research, previously limited to institutional investors, at a competitive fee.",
     "last_proof_cite": "Monetary Matters with Jack Farley \u2022 2026-06-24 \u2022 Inside The Platform Helping to Invest Like Substack & FinTwit's Top Researchers | Plutus",
     "last_proof_snippet": "I think for the first time, we're at a place where talented, portfolio builders, manager researchers have an avenue that is not limited to big banks and put us fully intends to incubate that talent and grow it. We really looked at it from t",
@@ -40414,7 +40599,7 @@ const dashboardData = {
     "last_podcast_name": "All-In with Chamath, Jason, Sacks & Friedberg",
     "last_episode_date": "2026-06-23",
     "mention_score": 1,
-    "mention_score_decayed": 0.38,
+    "mention_score_decayed": 0.37,
     "last_main_idea": "Ryan Cohen's investment strategy at GameStop focuses on operational efficiency, cost optimization, and leveraging the growing collectibles market to drive profitability and shareholder value.",
     "last_proof_cite": "All-In with Chamath, Jason, Sacks & Friedberg \u2022 2026-06-23 \u2022 GameStop CEO Ryan Cohen's $56B Plan to Take Over eBay",
     "last_proof_snippet": "Everyone hates GameStop and it seems like everyone in the media basically wants us to fail and wants them to succeed and you've got a board that's making hundreds of thousands of dollars a year and they don't buy stock with their own money.",
@@ -40544,7 +40729,7 @@ const dashboardData = {
     "last_podcast_name": "Latent Space: The AI Engineer Podcast",
     "last_episode_date": "2026-06-22",
     "mention_score": 1,
-    "mention_score_decayed": 0.37,
+    "mention_score_decayed": 0.36,
     "last_main_idea": "Invest in companies focused on AI safety and security, as they are essential players in the evolving tech landscape and can help organizations navigate the complexities of AI deployment and ensure compliance with security standards.",
     "last_proof_cite": "Latent Space: The AI Engineer Podcast \u2022 2026-06-22 \u2022 Red-Teaming after Mythos \u2014 Zico Kolter & Matt Fredrikson, Gray Swan",
     "last_proof_snippet": "Okay, we're here in a studio with Grace One, Matt and Zico welcome. Great to be here. Yeah. Thanks for having us. You're visiting from Pittsburgh? That's right. The home of all good computer science, I don't know if I'm oversteaving things.",
@@ -40607,7 +40792,7 @@ const dashboardData = {
     "last_podcast_name": "The a16z Show",
     "last_episode_date": "2026-06-22",
     "mention_score": 1,
-    "mention_score_decayed": 0.37,
+    "mention_score_decayed": 0.36,
     "last_main_idea": "Invest in founders who demonstrate resilience and adaptability, focusing on sectors like AI, defense, aerospace, infrastructure, and software.",
     "last_proof_cite": "The a16z Show \u2022 2026-06-22 \u2022 Jake Paul & Anti Fund: From Creator to Investor",
     "last_proof_snippet": "We're officially announcing the $100 million over subscribe to growth fund and some of the tier 1 names Maybe all the tier 1 names And are all at cognition, psoronic, modal When we announce anti-fine but like GW like you're making a mistake",
@@ -40671,7 +40856,7 @@ const dashboardData = {
     "last_podcast_name": "The a16z Show",
     "last_episode_date": "2026-06-22",
     "mention_score": 1,
-    "mention_score_decayed": 0.37,
+    "mention_score_decayed": 0.36,
     "last_main_idea": "Invest in founders who demonstrate resilience and adaptability, focusing on sectors like AI, defense, aerospace, infrastructure, and software.",
     "last_proof_cite": "The a16z Show \u2022 2026-06-22 \u2022 Jake Paul & Anti Fund: From Creator to Investor",
     "last_proof_snippet": "We're officially announcing the $100 million over subscribe to growth fund and some of the tier 1 names Maybe all the tier 1 names And are all at cognition, psoronic, modal When we announce anti-fine but like GW like you're making a mistake",
@@ -40730,7 +40915,7 @@ const dashboardData = {
     "last_podcast_name": "Monetary Matters with Jack Farley",
     "last_episode_date": "2026-06-21",
     "mention_score": 1,
-    "mention_score_decayed": 0.36,
+    "mention_score_decayed": 0.35,
     "last_main_idea": "Investors should be cautious about the long-term viability of AI companies with high operational losses and unsustainable financial models.",
     "last_proof_cite": "Monetary Matters with Jack Farley \u2022 2026-06-21 \u2022 Ed Zitron: The AI Bubble is Bleeding Cash, Here Are The Receipts",
     "last_proof_snippet": "Got a very special conversation. I am speaking to one of the most prolific skeptics about AI. I'm joined today by Ed Zitron, author of Where's Your Ed at Newsletter and the Better Offline Podcast. Ed, welcome to monetary matters. Thanks for",
@@ -40917,7 +41102,7 @@ const dashboardData = {
     "last_podcast_name": "Latent Space: The AI Engineer Podcast",
     "last_episode_date": "2026-06-01",
     "mention_score": 1,
-    "mention_score_decayed": 0.34,
+    "mention_score_decayed": 0.33,
     "last_main_idea": "Invest in AI companies that prioritize language integration with video generation and have efficient training processes to capitalize on the evolving capabilities of generative AI.",
     "last_proof_cite": "Latent Space: The AI Engineer Podcast \u2022 2026-06-01 \u2022 Why Video Agent models are next \u2014 Ethan He, xAI Grok Imagine",
     "last_proof_snippet": "Okay, we're here in a studio with Eden Ha, most recently of XCI. Welcome. Yeah, thank you, glad being here. We were so here with Vibu. You were first coming to us or joining Lily in Space World because you were working on Cosmos in a video",
@@ -41283,7 +41468,7 @@ const dashboardData = {
     "last_podcast_name": "BG2Pod with Brad Gerstner and Bill Gurley",
     "last_episode_date": "2026-06-11",
     "mention_score": 1,
-    "mention_score_decayed": 0.32,
+    "mention_score_decayed": 0.31,
     "last_main_idea": "SpaceX's unique position in the AI compute market and its rapid deployment capabilities make it a compelling long-term investment, with potential for significant revenue growth through Starlink and AI advancements.",
     "last_proof_cite": "BG2Pod with Brad Gerstner and Bill Gurley \u2022 2026-06-11 \u2022 The SpaceX IPO, Fable 5, AI Capex Update & Market Check w/ Gavin Baker, Andrew Fox & Clark Tang | BG2",
     "last_proof_snippet": "I think we're all pretty AI-pilled, and if you're AI-pilled, that means we've got to build a lot more compute than the world thinks, and that these models are going to be a lot more valuable than people think. You combine that with their co",
@@ -42131,7 +42316,7 @@ const dashboardData = {
     "last_podcast_name": "All-In with Chamath, Jason, Sacks & Friedberg",
     "last_episode_date": "2026-06-05",
     "mention_score": 1,
-    "mention_score_decayed": 0.25,
+    "mention_score_decayed": 0.24,
     "last_main_idea": "Investors should adapt to the current market dynamics by developing robust short-selling strategies and focusing on credit markets, while also assessing management quality and business resilience.",
     "last_proof_cite": "All-In with Chamath, Jason, Sacks & Friedberg \u2022 2026-06-05 \u2022 Dan Loeb: The Lost Art of Short Selling, and Why Stock Picking is Back",
     "last_proof_snippet": "Legendary Activist Investor, Dan Loeb, you pours the CEO and CIO of third point. The lost art of short selling has come back, and it's absolutely critical. Doesn't matter what you do, you have to be really selective. People talk about stock",
@@ -42323,7 +42508,7 @@ const dashboardData = {
     "last_podcast_name": "Moonshots with Peter Diamandis",
     "last_episode_date": "2026-06-03",
     "mention_score": 1,
-    "mention_score_decayed": 0.24,
+    "mention_score_decayed": 0.23,
     "last_main_idea": "Invest in companies at the forefront of AI advancements, particularly in large language models and robotics, as these technologies are expected to drive the next wave of innovation and growth.",
     "last_proof_cite": "Moonshots with Peter Diamandis \u2022 2026-06-03 \u2022 Why AGI Is Close but Not Here Yet | Ray Kurzweil | EP #261",
     "last_proof_snippet": "We just saw a story where Dennis is obvious, who you know, said 50, 50, whether we need another breakthrough to get to AGI. What do you think? Well, I think we need two things. So we've made a 75,000 million trillion folding grease over thi",
@@ -47583,7 +47768,7 @@ const dashboardData = {
     "last_podcast_name": "Monetary Matters with Jack Farley",
     "last_episode_date": "2026-04-01",
     "mention_score": 1,
-    "mention_score_decayed": 0.06,
+    "mention_score_decayed": 0.05,
     "last_main_idea": "Pictay asset management's AI-enhanced ETFs (PQNT and PQUS) aim to provide enhanced equity exposure through the use of artificial intelligence.",
     "last_proof_cite": "Monetary Matters with Jack Farley \u2022 2026-04-01 \u2022 Why $200 Oil Won\u2019t Spike Inflation to 9% | Anna Wong on Recession Probability, PCE vs CPI, and Fed Reaction Function In A Scenario of Soaring Energy Prices",
     "last_proof_snippet": "Oil futures curve suggests prices will decline to around $80 in the second half of the year.",

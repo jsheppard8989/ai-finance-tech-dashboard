@@ -1,5 +1,22 @@
 [
   {
+    "id": 388,
+    "podcast_name": "All-In with Chamath, Jason, Sacks & Friedberg",
+    "episode_title": "Saronic Founders: Autonomous Warships, China's 230X Advantage & Swarms of Robot Ships",
+    "episode_date": "2026-08-05",
+    "summary": "In this episode of 'All-In with Chamath, Jason, Sacks & Friedberg', the co-founders of Ceranic, a defense company, discuss their groundbreaking work on autonomous ships. They highlight a recent rescue mission in the Strait of Hormuz, where an autonomous ship was used for the first time to rescue stranded pilots. The conversation delves into the implications of this technology for the U.S. military, the defense industry, and the future of shipbuilding. The co-founders also touch on the challenges and opportunities in the defense sector, including the shift away from cost-plus contracts and the need for increased investment in autonomous systems.",
+    "key_takeaways": [
+      "Ceranic's autonomous ship recently conducted a historic rescue mission in the Strait of Hormuz.",
+      "The U.S. military's trust in Ceranic's technology signifies a shift towards autonomous systems in defense.",
+      "The co-founders argue for a significant increase in investment in autonomous systems within the defense budget.",
+      "There is a push from the administration for faster adoption of new technologies in defense.",
+      "The defense industry is moving away from cost-plus contracts, which can incentivize higher costs.",
+      "Ceranic is encouraged by the administration's focus on shipbuilding as a critical strategic industry."
+    ],
+    "investment_thesis": "Investment in autonomous defense technologies is crucial for maintaining a competitive edge and can lead to significant advancements in military capabilities.",
+    "key_tickers": null
+  },
+  {
     "id": 387,
     "podcast_name": "The a16z Show",
     "episode_title": "Three Startups Reinventing Critical Infrastructure",
@@ -123,22 +140,5 @@
       "IWD",
       "IWF"
     ]
-  },
-  {
-    "id": 380,
-    "podcast_name": "The a16z Show",
-    "episode_title": "Ruby Thelot on Internet Culture, AI, and the Future of Taste",
-    "episode_date": "2026-08-02",
-    "summary": "In this episode of 'The a16z Show', hosts Sophia Dhu and Sophia Puccini are joined by NYU professor Ruby J. To Low, a designer, cyber ethnographer, and artist, to discuss the impact of AI and technology on digital communities, online identity, and how we communicate. The conversation spans from the nuances of AI perception among Americans to the evolution of online behaviors and the concept of taste in the context of digital consumption. Ruby shares insights on how technology is reshaping our interactions and the need to understand the novel behaviors that have emerged with new digital platforms.",
-    "key_takeaways": [
-      "Americans have a complex relationship with AI, often fearing job loss but also appreciating practical applications in daily life.",
-      "Cyber ethnography, the study of online groups and behaviors, is a field that has evolved with technology and social media, requiring a deeper understanding of digital interactions.",
-      "The concept of 'taste' extends beyond aesthetic preference, relating to consumption habits and societal guidance, especially in the context of wealth creation and digital engagement.",
-      "The music industry, like other cultural sectors, struggles to adapt to new forms of content and artist discovery due to financialization and risk aversion.",
-      "Critics' roles are changing due to platform incentives, affecting how they discuss and promote new or niche content.",
-      "Digital culture is platform-specific, with each having its own etiquette and norms, which can be challenging to navigate without clear guidelines."
-    ],
-    "investment_thesis": "The evolving digital landscape presents opportunities for investment in AI and technology that can enhance daily life and reshape consumption habits, while also requiring a critical approach to understand and adapt to new cultural norms.",
-    "key_tickers": null
   }
 ]
