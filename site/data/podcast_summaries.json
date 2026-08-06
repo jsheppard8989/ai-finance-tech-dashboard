@@ -1,5 +1,22 @@
 [
   {
+    "id": 389,
+    "podcast_name": "The a16z Show",
+    "episode_title": "How Open-Source AI Became Critical Infrastructure",
+    "episode_date": "2026-08-06",
+    "summary": "In this episode of the a16z Show, Elena Burger and Matt Fornstein are joined by Simon Mow, co-founder and CEO of Infrared, to discuss the critical role of open source inference in AI and how it has become infrastructure for AI systems. They delve into the differences between large language models (LLMs) and traditional ML workloads, the economic incentives required to support open source AI models, and the potential for open source models to close the gap with proprietary models. The conversation also touches on model licensing, inference economics, and the future of open AI.",
+    "key_takeaways": [
+      "Open source AI has become a significant force shaping the industry, with the potential to close the gap with proprietary models.",
+      "Serving large language models (LLMs) is fundamentally different from traditional ML workloads, requiring specialized infrastructure and engineering.",
+      "Economic incentives and funding mechanisms are crucial for the development and sustainability of open source AI models.",
+      "The analogy of the pharmaceutical industry was used to highlight the importance of funding R&D for new models, with the expectation of economic returns once a model is released.",
+      "Distillation is not considered a critical component in the progress of AI models, as environment and understanding the learning process are more significant.",
+      "Open source AI models foster innovation by creating a competitive landscape where improvements are shared and built upon."
+    ],
+    "investment_thesis": "Investing in open source AI infrastructure and models is crucial for enterprises looking to leverage AI capabilities, as it offers a sustainable and collaborative approach to innovation in the field.",
+    "key_tickers": null
+  },
+  {
     "id": 388,
     "podcast_name": "All-In with Chamath, Jason, Sacks & Friedberg",
     "episode_title": "Saronic Founders: Autonomous Warships, China's 230X Advantage & Swarms of Robot Ships",
@@ -119,26 +136,5 @@
     ],
     "investment_thesis": "Investment in AI technology and compute infrastructure is crucial to support the rapid growth of AI companies, with a focus on companies that can efficiently monetize compute resources and adapt to increasing compute costs.",
     "key_tickers": null
-  },
-  {
-    "id": 381,
-    "podcast_name": "Monetary Matters with Jack Farley",
-    "episode_title": "Why Macro is \u201cPretty Risk-On\u201d for Equities | Tian Yang of Variant Perception",
-    "episode_date": "2026-08-02",
-    "summary": "In this episode of Monetary Matters with Jack Farley, TN Yang, co-founder and head of research at Variant Perception, discusses the current state of the stock market, focusing on indices like the S&P and NASDAQ, as well as semiconductor stocks. Yang provides insights on the macro risk indicators and the potential for a market bottom. He also touches on the high valuations in AI and the speculative mania in Korea, suggesting a need for a new narrative to drive the market. Yang forecasts a market broadening phase with money rotating to value laggards and discusses LPPL exhaustion signals as a bubble and crash detection system. The conversation also covers China's economic policies, particularly regarding oil reserves and the impact on global markets.",
-    "key_takeaways": [
-      "The current macro risk indicators suggest a risk-on regime for the next three to six months, supporting risk assets.",
-      "High valuations in AI and speculative mania in Korea indicate potential excesses similar to past market tops for gold and Bitcoin.",
-      "A new narrative is needed for the market to regain previous highs, with a focus on real-world applications and modeling.",
-      "Market rotation is expected towards value laggards, with sectors like energy, financials, and healthcare becoming more important.",
-      "LPPL (log periodic power) signals can indicate both excessive risk and potential market bottoms, working as a bubble and crash detection system.",
-      "China's economic policies, including management of oil reserves and prioritization of industrial sectors, have significant implications for global markets."
-    ],
-    "investment_thesis": "The market is in a phase where a new narrative is needed to drive further growth, with a focus on value laggards and sectors less exposed to speculative excesses.",
-    "key_tickers": [
-      "LVMA",
-      "IWD",
-      "IWF"
-    ]
   }
 ]
