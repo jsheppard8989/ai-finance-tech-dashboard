@@ -1,6 +1,19 @@
 {
-  "rotation_index": 23,
+  "rotation_index": 24,
   "weeks": [
+    {
+      "friday_iso": "2026-07-31",
+      "week_label": "Week of 2026-07-31",
+      "prompt": "Will the S&P 500 index close above 7,600 within the next 42 days?",
+      "debater_a": "Ramine Hassani",
+      "debater_b": "Andy Beam",
+      "expires_rule": "Resolves Friday 12:00 PM CST 2026-09-11",
+      "resolves_iso": "2026-09-11",
+      "resolution_status": "pending",
+      "resolution_notes": "",
+      "archived_at": "2026-08-07T05:03:32.396689",
+      "audio_href": "./audio/archive/debate_2026-07-31.mp3"
+    },
     {
       "friday_iso": "2026-07-24",
       "week_label": "Week of 2026-07-24",
