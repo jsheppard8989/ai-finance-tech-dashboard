@@ -1,5 +1,21 @@
 [
   {
+    "id": 390,
+    "podcast_name": "The a16z Show",
+    "episode_title": "The Reality of AI-Powered Cyberattacks | Truffle Security & Socket",
+    "episode_date": "2026-08-07",
+    "summary": "This podcast episode from 'The a16z Show' delves into the evolving landscape of cybersecurity with AI, discussing the increasing capabilities of AI models to exploit software vulnerabilities and the resulting cyber threats. The discussion highlights the weaknesses in software supply chains and the need for organizations to adapt their defenses for an AI-first world. The maturity of AI in cybersecurity is reducing the time between vulnerability discovery and exploitation, necessitating quicker patching processes. The podcast also touches on the moral obligation for labs to address the security issues their tools may cause.",
+    "key_takeaways": [
+      "AI models are escalating the sophistication of cyber threats by exploiting software vulnerabilities.",
+      "Software supply chains have emerged as a weak link in cybersecurity, necessitating thorough risk assessments and robust vetting processes.",
+      "The time between vulnerability discovery and exploitation is decreasing, demanding faster patching and response times from organizations.",
+      "Organizations must invest in advanced cybersecurity measures to counteract AI-driven threats.",
+      "There is a moral obligation for labs to address the security issues their tools may cause, including funding solutions."
+    ],
+    "investment_thesis": "Invest in cybersecurity solutions that can adapt to the rapidly evolving AI-driven threats and focus on securing software supply chains to mitigate vulnerabilities.",
+    "key_tickers": null
+  },
+  {
     "id": 389,
     "podcast_name": "The a16z Show",
     "episode_title": "How Open-Source AI Became Critical Infrastructure",
@@ -118,23 +134,6 @@
       "Continual learning in AI models can be addressed through KV cache compaction, allowing for the model to update its knowledge base without losing previous knowledge."
     ],
     "investment_thesis": "Investing in companies that optimize AI model deployment and inference engineering can lead to significant cost savings and performance improvements, potentially offering a competitive advantage in the AI industry.",
-    "key_tickers": null
-  },
-  {
-    "id": 382,
-    "podcast_name": "Dwarkesh Podcast",
-    "episode_title": "Why smarter AI models could drive up compute prices 10x",
-    "episode_date": "2026-08-03",
-    "summary": "The podcast discusses Anthropics' remarkable 10x year-over-year revenue growth and the challenges of sustaining such growth, particularly in relation to lab compute growth, which is only 3x year over year. The conversation highlights the increasing importance of lab margins, compute prices, and the shift towards inference compute usage. It also touches on the rising efficiency of monetizing compute and the potential for higher margins in AI companies, as well as the impact of increasing compute costs on AI research and development.",
-    "key_takeaways": [
-      "Anthropics' revenue has grown 10x year over year for three consecutive years, with a projected $100 billion to $150 billion in revenue for the current year.",
-      "To maintain this trend, Anthropics would need to achieve $1 trillion in revenue by the end of next year.",
-      "The lab compute growth of 3x year over year is insufficient to support the 10x revenue growth, suggesting a need for increased lab margins, higher compute prices, or a shift towards more inference compute usage.",
-      "Inference margins for Anthropics have reportedly increased from 40% to over 80% within the last year.",
-      "The share of compute spent on inference by leading AI companies is increasing, with OpenAI reportedly shifting from 25% to possibly over 50%.",
-      "The increasing efficiency of monetizing compute and the rising cost of computing could lead to higher margins for top labs and make it harder for competitors to keep up."
-    ],
-    "investment_thesis": "Investment in AI technology and compute infrastructure is crucial to support the rapid growth of AI companies, with a focus on companies that can efficiently monetize compute resources and adapt to increasing compute costs.",
     "key_tickers": null
   }
 ]

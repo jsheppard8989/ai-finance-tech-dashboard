@@ -3,80 +3,80 @@
 
 const dashboardData = {
   schemaVersion: 2,
-  generatedAt: "2026-08-07T06:41:31.908702",
-  chartsVersion: "2026-08-07T06:41:12.901097",
+  generatedAt: "2026-08-07T12:06:13.751267",
+  chartsVersion: "2026-08-07T12:05:58.203219",
   priceSnapshot: {
   "GOOGL": {
-    "price": 357.75,
-    "change_pct": 1.64,
+    "price": 354.97,
+    "change_pct": 2.25,
     "name": "GOOGL",
-    "updated_at": "2026-08-07T06:41:12.899835"
+    "updated_at": "2026-08-07T12:05:58.202566"
   },
   "NVDA": {
-    "price": 218.99,
-    "change_pct": 7.73,
+    "price": 222.01,
+    "change_pct": 7.1,
     "name": "NVDA",
-    "updated_at": "2026-08-07T06:41:12.899854"
+    "updated_at": "2026-08-07T12:05:58.202580"
   },
   "BTC": {
-    "price": 64990.51,
-    "change_pct": 1.06,
+    "price": 64703.54,
+    "change_pct": 0.61,
     "name": "BTC",
-    "updated_at": "2026-08-07T06:41:12.899863"
+    "updated_at": "2026-08-07T12:05:58.202586"
   },
   "MSFT": {
-    "price": 499.86,
-    "change_pct": 24.25,
+    "price": 500.64,
+    "change_pct": 25.87,
     "name": "MSFT",
-    "updated_at": "2026-08-07T06:41:12.899871"
+    "updated_at": "2026-08-07T12:05:58.202591"
   },
   "TSLA": {
-    "price": 319.53,
-    "change_pct": -13.54,
+    "price": 327.65,
+    "change_pct": -13.53,
     "name": "TSLA",
-    "updated_at": "2026-08-07T06:41:12.899879"
+    "updated_at": "2026-08-07T12:05:58.202595"
   },
   "AMZN": {
-    "price": 272.26,
-    "change_pct": 8.91,
+    "price": 275.05,
+    "change_pct": 11.11,
     "name": "AMZN",
-    "updated_at": "2026-08-07T06:41:12.899886"
+    "updated_at": "2026-08-07T12:05:58.202600"
   },
   "META": {
-    "price": 589.9,
-    "change_pct": -8.66,
+    "price": 591.76,
+    "change_pct": -8.08,
     "name": "META",
-    "updated_at": "2026-08-07T06:41:12.899895"
+    "updated_at": "2026-08-07T12:05:58.202605"
   },
   "WTI": {
-    "price": 3.34,
-    "change_pct": -4.84,
+    "price": 3.5,
+    "change_pct": -3.58,
     "name": "WTI",
-    "updated_at": "2026-08-07T06:41:12.899902"
+    "updated_at": "2026-08-07T12:05:58.202609"
   },
   "S&P 500": {
-    "price": 768.56,
-    "change_pct": 3.57,
+    "price": 772.25,
+    "change_pct": 3.2,
     "name": "S&P 500",
-    "updated_at": "2026-08-07T06:41:12.899909"
+    "updated_at": "2026-08-07T12:05:58.202613"
   },
   "AAPL": {
-    "price": 312.41,
-    "change_pct": -4.34,
+    "price": 312.49,
+    "change_pct": -4.65,
     "name": "AAPL",
-    "updated_at": "2026-08-07T06:41:12.899916"
+    "updated_at": "2026-08-07T12:05:58.202618"
   },
   "QQQ": {
-    "price": 714.65,
-    "change_pct": 2.67,
+    "price": 721.13,
+    "change_pct": 1.72,
     "name": "Invesco QQQ Trust",
-    "updated_at": "2026-08-07T06:41:12.899923"
+    "updated_at": "2026-08-07T12:05:58.202622"
   },
   "BTC-USD": {
-    "price": 64990.51,
-    "change_pct": 1.06,
+    "price": 64703.54,
+    "change_pct": 0.61,
     "name": "Bitcoin USD",
-    "updated_at": "2026-08-07T06:41:12.899932"
+    "updated_at": "2026-08-07T12:05:58.202627"
   }
 },
   tickerScores: [
@@ -834,6 +834,27 @@ const dashboardData = {
   archive: {
   "insights": [
     {
+      "id": 405,
+      "title": "The Reality of AI-Powered Cyberattacks | Truffle Security & Socket",
+      "source_type": "podcast",
+      "source_name": "The a16z Show",
+      "source_date": "2026-08-07",
+      "summary": "This podcast episode from 'The a16z Show' delves into the evolving landscape of cybersecurity with AI, discussing the increasing capabilities of AI models to exploit software vulnerabilities and the resulting cyber threats. The discussion highlights the weaknesses in software supply chains and the need for organizations to adapt their defenses for an AI-first world. The maturity of AI in cybersecurity is reducing the time between vulnerability discovery and exploitation, necessitating quicker patching processes. The podcast also touches on the moral obligation for labs to address the security issues their tools may cause.",
+      "key_takeaway": "Invest in cybersecurity solutions that can adapt to the rapidly evolving AI-driven threats and focus on securing software supply chains to mitigate vulnerabilities.",
+      "tickers_mentioned": [
+        "AAPL",
+        "MSFT",
+        "CRM"
+      ],
+      "sentiment": "neutral",
+      "display_on_main": 1,
+      "display_order": 0,
+      "added_date": "2026-08-07",
+      "archived_date": null,
+      "archived_reason": null,
+      "podcast_episode_id": 390
+    },
+    {
       "id": 404,
       "title": "How Open-Source AI Became Critical Infrastructure",
       "source_type": "podcast",
@@ -966,7 +987,7 @@ const dashboardData = {
         "MSFT"
       ],
       "sentiment": "bullish",
-      "display_on_main": 1,
+      "display_on_main": 0,
       "display_order": 0,
       "added_date": "2026-08-03",
       "archived_date": null,
@@ -10687,6 +10708,26 @@ const dashboardData = {
   mainContent: {
   "insights": [
     {
+      "id": 405,
+      "title": "The Reality of AI-Powered Cyberattacks | Truffle Security & Socket",
+      "source_type": "podcast",
+      "source_name": "The a16z Show",
+      "source_date": "2026-08-07",
+      "summary": "This podcast episode from 'The a16z Show' delves into the evolving landscape of cybersecurity with AI, discussing the increasing capabilities of AI models to exploit software vulnerabilities and the resulting cyber threats. The discussion highlights the weaknesses in software supply chains and the need for organizations to adapt their defenses for an AI-first world. The maturity of AI in cybersecurity is reducing the time between vulnerability discovery and exploitation, necessitating quicker patching processes. The podcast also touches on the moral obligation for labs to address the security issues their tools may cause.",
+      "key_takeaway": "Invest in cybersecurity solutions that can adapt to the rapidly evolving AI-driven threats and focus on securing software supply chains to mitigate vulnerabilities.",
+      "tickers_mentioned": "[\"AAPL\", \"MSFT\", \"CRM\"]",
+      "sentiment": "neutral",
+      "display_on_main": 1,
+      "display_order": 0,
+      "added_date": "2026-08-07",
+      "archived_date": null,
+      "archived_reason": null,
+      "podcast_episode_id": 390,
+      "episode_release_date": "2026-08-07",
+      "guest_name": null,
+      "key_tickers": []
+    },
+    {
       "id": 404,
       "title": "How Open-Source AI Became Critical Infrastructure",
       "source_type": "podcast",
@@ -10806,26 +10847,6 @@ const dashboardData = {
       "podcast_episode_id": 385,
       "episode_release_date": "2026-08-04",
       "guest_name": "OpenAI's Joshua Achiam",
-      "key_tickers": []
-    },
-    {
-      "id": 397,
-      "title": "Why smarter AI models could drive up compute prices 10x",
-      "source_type": "podcast",
-      "source_name": "Dwarkesh Podcast",
-      "source_date": "2026-08-03",
-      "summary": "The podcast discusses Anthropics' remarkable 10x year-over-year revenue growth and the challenges of sustaining such growth, particularly in relation to lab compute growth, which is only 3x year over year. The conversation highlights the increasing importance of lab margins, compute prices, and the shift towards inference compute usage. It also touches on the rising efficiency of monetizing compute and the potential for higher margins in AI companies, as well as the impact of increasing compute costs on AI research and development.",
-      "key_takeaway": "Investment in AI technology and compute infrastructure is crucial to support the rapid growth of AI companies, with a focus on companies that can efficiently monetize compute resources and adapt to increasing compute costs.",
-      "tickers_mentioned": "[\"GOOGL\", \"MSFT\"]",
-      "sentiment": "bullish",
-      "display_on_main": 1,
-      "display_order": 0,
-      "added_date": "2026-08-03",
-      "archived_date": null,
-      "archived_reason": null,
-      "podcast_episode_id": 382,
-      "episode_release_date": "2026-08-03",
-      "guest_name": null,
       "key_tickers": []
     },
     {
@@ -35133,9 +35154,103 @@ const dashboardData = {
     "source_name": "The a16z Show",
     "source_date": "2026-08-06",
     "key_tickers": []
+  },
+  "405": {
+    "id": 395,
+    "insight_id": 405,
+    "podcast_episode_id": 390,
+    "overview": "The unresolved tension in the cybersecurity landscape is the rapid advancement of AI capabilities versus the slow adaptation of defensive measures. The competitive dynamic is between AI models that are becoming increasingly adept at exploiting vulnerabilities and organizations struggling to patch and secure their systems quickly enough. The metric that arbitrates this uncertainty is the speed and effectiveness of patching processes in response to new vulnerabilities.",
+    "key_takeaways_detailed": [
+      "Invest in cybersecurity companies that are at the forefront of AI-driven threat detection and mitigation, as they are best positioned to adapt to the evolving threat landscape.",
+      "Consider diversifying cybersecurity investments to include firms specializing in software supply chain security, as this is a critical area of vulnerability.",
+      "Monitor the development of public-private partnerships aimed at improving software registry security, as these could indicate a systemic approach to mitigating supply chain threats.",
+      "Keep an eye on regulatory developments that may impose stricter cybersecurity standards, as these could significantly impact the industry and create new opportunities for compliance-focused cybersecurity solutions."
+    ],
+    "investment_thesis": "As AI models become more capable of exploiting software vulnerabilities, the investment thesis is that companies that can rapidly adapt their cybersecurity measures to counter these threats will gain a competitive advantage. The timeframe for this thesis is within the next 2-3 years, as this is when the impact of AI on cybersecurity is expected to be most pronounced. An observable development that would vindicate this thesis is a significant increase in the number of successful cyber attacks mitigated by advanced AI-driven defense systems, while an invalidation would be a widespread failure of these systems to prevent high-profile breaches.",
+    "ticker_analysis": {
+      "AAPL": {
+        "rationale": "Apple is relevant to this thesis due to its significant investment in AI and cybersecurity, as well as its control over a closed software ecosystem which could provide insights into effective supply chain security.",
+        "positioning": "Positioning should be strategic and long-term, as Apple's approach to security is likely to influence industry standards and could provide a hedge against AI-driven threats.",
+        "risk": "Key risks include potential security breaches within Apple's ecosystem, which could damage the company's reputation and undermine the thesis."
+      },
+      "MSFT": {
+        "rationale": "Microsoft, with its extensive software offerings and active development in AI, is well-positioned to address the evolving cybersecurity landscape.",
+        "positioning": "Microsoft should be considered a strategic long position due to its broad reach and potential to lead in AI-driven cybersecurity solutions.",
+        "risk": "The risk lies in Microsoft's ability to keep pace with the rapid evolution of AI threats and maintain the security of its software supply chain."
+      },
+      "CRM": {
+        "rationale": "Salesforce, with its cloud-based services, is vulnerable to AI-driven threats and must invest heavily in cybersecurity to protect its customer data.",
+        "positioning": "Salesforce can be positioned as a tactical long, as improvements in cybersecurity could enhance its competitive position in the cloud services market.",
+        "risk": "The risk is that Salesforce may not be able to effectively counter AI-driven threats, leading to potential data breaches and loss of customer trust."
+      }
+    },
+    "positioning_guidance": "",
+    "risk_factors": [],
+    "contrarian_signals": [
+      "A belief that current cybersecurity measures are sufficient to handle AI-driven threats, underestimating the rapid evolution of AI capabilities.",
+      "An argument that the cost of implementing advanced cybersecurity measures outweighs the potential benefits, focusing on the short-term financial impact rather than long-term security.",
+      "A skepticism towards the effectiveness of AI in cybersecurity, dismissing the potential of AI models to significantly improve threat detection and mitigation."
+    ],
+    "catalysts": [
+      "The release of new cybersecurity reports highlighting the success of AI-driven threat detection and mitigation.",
+      "High-profile cyber attacks that are successfully mitigated by AI-driven defense systems, demonstrating the effectiveness of these technologies.",
+      "Regulatory changes that impose stricter cybersecurity standards, potentially accelerating the adoption of AI-driven cybersecurity solutions."
+    ],
+    "related_insights": null,
+    "audio_timestamp_start": null,
+    "audio_timestamp_end": null,
+    "transcript_excerpt": null,
+    "created_at": "2026-08-07T12:05:00.303314",
+    "updated_at": "2026-08-07 17:05:00",
+    "episode_evidence": "The podcast 'The a16z Show' provides a detailed exploration into the evolving landscape of cybersecurity with AI. Joel Deligarza emphasizes the growing capabilities of AI models, stating, 'Models are actively escaping their cages, going out on the internet and doing pretty nasty things.' This highlights the escalating sophistication of cyber threats as AI models are no longer just identifying vulnerabilities but are beginning to exploit them. DJ Smith points out the lowered barrier to hacking, 'The bar previously was just subject matter expertise, and now the models have the subject matter expertise.' This indicates that AI-driven threats are becoming more prevalent and harder to defend against. The discussion also underscores the weaknesses in software supply chains, as highlighted by Dylan Araps: 'And so just like human hacker would, they're going to pick these these way in, and the low hanging fruit now has become just publishing malware to public registries.' This reveals the optimization of AI models for the path of least resistance to access data, making software supply chains a critical vulnerability.",
+    "falsification_tracks": [
+      "If there is a significant decrease in reported AI-driven cyber attacks over the next year, it could suggest that the threat is being overstated.",
+      "A lack of new vulnerabilities being discovered in major software supply chains would challenge the narrative of increasing threats.",
+      "Should organizations report successful implementation of robust patching processes that keep pace with AI-driven threats, it might indicate that the risks are manageable and not as pressing as suggested."
+    ],
+    "insight_title": "The Reality of AI-Powered Cyberattacks | Truffle Security & Socket",
+    "source_name": "The a16z Show",
+    "source_date": "2026-08-07",
+    "key_tickers": []
   }
 },
   suggestedTerms: [
+  {
+    "id": 576,
+    "term": "AI Models Escalating Cyber Threats",
+    "definition": "AI models are not only identifying software vulnerabilities but are also beginning to exploit them, increasing the sophistication and risk of cyber attacks.",
+    "investment_implications": "Investors should consider the impact of AI-driven threats on cybersecurity solutions and the need for advanced measures to counteract these threats.",
+    "source_type": "auto_extracted",
+    "mention_count": 1,
+    "source_diversity": 1,
+    "relevance_score": 50,
+    "submitted_date": "2026-08-07 17:02:51",
+    "priority_score": 80
+  },
+  {
+    "id": 577,
+    "term": "Software Supply Chains as Weak Links",
+    "definition": "Software supply chains have become one of the weakest links in cybersecurity, with AI models exploiting their vulnerabilities.",
+    "investment_implications": "Investors should focus on companies that provide solutions to secure software supply chains and mitigate the risks associated with third-party software.",
+    "source_type": "auto_extracted",
+    "mention_count": 1,
+    "source_diversity": 1,
+    "relevance_score": 50,
+    "submitted_date": "2026-08-07 17:02:51",
+    "priority_score": 80
+  },
+  {
+    "id": 578,
+    "term": "Rapid Evolution of Cybersecurity Practices",
+    "definition": "The time between the discovery of a vulnerability and its exploitation is decreasing due to AI advancements, necessitating faster patching and response times.",
+    "investment_implications": "Investors should look for companies that can adapt quickly to the evolving cybersecurity landscape and provide rapid response and patching solutions.",
+    "source_type": "auto_extracted",
+    "mention_count": 1,
+    "source_diversity": 1,
+    "relevance_score": 50,
+    "submitted_date": "2026-08-07 17:02:51",
+    "priority_score": 80
+  },
   {
     "id": 574,
     "term": "Inference Economics",
@@ -35147,47 +35262,11 @@ const dashboardData = {
     "relevance_score": 50,
     "submitted_date": "2026-08-06 17:05:52",
     "priority_score": 80
-  },
-  {
-    "id": 575,
-    "term": "Model Licensing",
-    "definition": "The legal agreements that govern the use, modification, and distribution of AI models, which can impact the openness and collaborative potential of AI development.",
-    "investment_implications": "Model licensing can influence the speed of innovation and the competitive landscape in the AI industry, affecting investment decisions.",
-    "source_type": "auto_extracted",
-    "mention_count": 1,
-    "source_diversity": 1,
-    "relevance_score": 50,
-    "submitted_date": "2026-08-06 17:05:52",
-    "priority_score": 80
-  },
-  {
-    "id": 572,
-    "term": "Autonomous Systems",
-    "definition": "Self-directed machines or software that can perform tasks with minimal human intervention, particularly in the context of defense and military applications.",
-    "investment_implications": "Investment in autonomous systems is critical for modernizing military capabilities and maintaining a strategic advantage.",
-    "source_type": "auto_extracted",
-    "mention_count": 1,
-    "source_diversity": 1,
-    "relevance_score": 50,
-    "submitted_date": "2026-08-06 04:38:17",
-    "priority_score": 80
-  },
-  {
-    "id": 573,
-    "term": "Cost-Plus Contracts",
-    "definition": "A type of contract where the contractor is reimbursed for the cost of fulfilling a contract and is also paid a fee, often a percentage of the total cost.",
-    "investment_implications": "The shift away from cost-plus contracts can incentivize efficiency and cost reduction in defense spending.",
-    "source_type": "auto_extracted",
-    "mention_count": 1,
-    "source_diversity": 1,
-    "relevance_score": 50,
-    "submitted_date": "2026-08-06 04:38:17",
-    "priority_score": 80
   }
 ],
   podcastGuests: [
   {
-    "id": 45306,
+    "id": 45418,
     "name": "How Open",
     "slug": "how-open",
     "bio": null,
@@ -35199,7 +35278,7 @@ const dashboardData = {
     "appearance_count": 1
   },
   {
-    "id": 45307,
+    "id": 45419,
     "name": "Saronic Founders",
     "slug": "saronic-founders",
     "bio": null,
@@ -35211,7 +35290,7 @@ const dashboardData = {
     "appearance_count": 1
   },
   {
-    "id": 45308,
+    "id": 45420,
     "name": "OpenAI's Joshua Achiam",
     "slug": "openais-joshua-achiam",
     "bio": null,
@@ -35223,7 +35302,7 @@ const dashboardData = {
     "appearance_count": 1
   },
   {
-    "id": 45309,
+    "id": 45421,
     "name": "Why Macro is \u201cPretty Risk-On\u201d for Equities",
     "slug": "why-macro-is-pretty-risk-on-for-equities",
     "bio": null,
@@ -35235,7 +35314,7 @@ const dashboardData = {
     "appearance_count": 1
   },
   {
-    "id": 45310,
+    "id": 45422,
     "name": "AI for America's Small Businesses",
     "slug": "ai-for-americas-small-businesses",
     "bio": null,
@@ -35247,7 +35326,7 @@ const dashboardData = {
     "appearance_count": 1
   },
   {
-    "id": 45311,
+    "id": 45423,
     "name": "Mum\u2019s The Word",
     "slug": "mums-the-word",
     "bio": null,
@@ -35259,7 +35338,7 @@ const dashboardData = {
     "appearance_count": 1
   },
   {
-    "id": 45312,
+    "id": 45424,
     "name": "Luke Gromen",
     "slug": "luke-gromen",
     "bio": null,
@@ -35271,7 +35350,7 @@ const dashboardData = {
     "appearance_count": 1
   },
   {
-    "id": 45313,
+    "id": 45425,
     "name": "Codex from 0 to 10M Users",
     "slug": "codex-from-0-to-10m-users",
     "bio": null,
@@ -35283,7 +35362,7 @@ const dashboardData = {
     "appearance_count": 1
   },
   {
-    "id": 45314,
+    "id": 45426,
     "name": "Ben Horowitz",
     "slug": "ben-horowitz",
     "bio": "Ben Horowitz is a co-founder of venture firm Andreessen Horowitz and former CEO of Opsware, known for advising founders on leadership under pressure.",
@@ -35295,7 +35374,7 @@ const dashboardData = {
     "appearance_count": 3
   },
   {
-    "id": 45315,
+    "id": 45427,
     "name": "Building the Physical AI Stack",
     "slug": "building-the-physical-ai-stack",
     "bio": null,
@@ -35307,7 +35386,7 @@ const dashboardData = {
     "appearance_count": 1
   },
   {
-    "id": 45316,
+    "id": 45428,
     "name": "Travis Kalanick Is Back",
     "slug": "travis-kalanick-is-back",
     "bio": null,
@@ -35319,7 +35398,7 @@ const dashboardData = {
     "appearance_count": 1
   },
   {
-    "id": 45317,
+    "id": 45429,
     "name": "Why Physical AI Is the Next Frontier",
     "slug": "why-physical-ai-is-the-next-frontier",
     "bio": null,
@@ -35331,7 +35410,7 @@ const dashboardData = {
     "appearance_count": 1
   },
   {
-    "id": 45318,
+    "id": 45430,
     "name": "Nick Nemeth",
     "slug": "nick-nemeth",
     "bio": null,
@@ -35343,7 +35422,7 @@ const dashboardData = {
     "appearance_count": 1
   },
   {
-    "id": 45319,
+    "id": 45431,
     "name": "Mark Cuban on the AI Bubble",
     "slug": "mark-cuban-on-the-ai-bubble",
     "bio": null,
@@ -35355,7 +35434,7 @@ const dashboardData = {
     "appearance_count": 1
   },
   {
-    "id": 45320,
+    "id": 45432,
     "name": "Urgent Update- AI Sputnik Moment",
     "slug": "urgent-update--ai-sputnik-moment",
     "bio": null,
@@ -35367,7 +35446,7 @@ const dashboardData = {
     "appearance_count": 1
   },
   {
-    "id": 45321,
+    "id": 45433,
     "name": "Replay 2025",
     "slug": "replay-2025",
     "bio": null,
@@ -35379,7 +35458,7 @@ const dashboardData = {
     "appearance_count": 1
   },
   {
-    "id": 45322,
+    "id": 45434,
     "name": "Turbo Charged Trend Following",
     "slug": "turbo-charged-trend-following",
     "bio": null,
@@ -35391,7 +35470,7 @@ const dashboardData = {
     "appearance_count": 1
   },
   {
-    "id": 45323,
+    "id": 45435,
     "name": "Can Anyone Catch NVIDIA?",
     "slug": "can-anyone-catch-nvidia",
     "bio": null,
@@ -35403,7 +35482,7 @@ const dashboardData = {
     "appearance_count": 1
   },
   {
-    "id": 45324,
+    "id": 45436,
     "name": "Is AI a Bubble?",
     "slug": "is-ai-a-bubble",
     "bio": null,
@@ -35415,7 +35494,7 @@ const dashboardData = {
     "appearance_count": 1
   },
   {
-    "id": 45325,
+    "id": 45437,
     "name": "Adam Brown \u2013 Einstein's happiest thought",
     "slug": "adam-brown--einsteins-happiest-thought",
     "bio": null,
@@ -35820,7 +35899,7 @@ const dashboardData = {
     "last_podcast_name": "The a16z Show",
     "last_episode_date": "2026-07-17",
     "mention_score": 2,
-    "mention_score_decayed": 1.26,
+    "mention_score_decayed": 1.23,
     "last_main_idea": "Investing in companies that prioritize public communication and authenticity can lead to stronger brand loyalty and trust, which are valuable assets in the long term.",
     "last_proof_cite": "The a16z Show \u2022 2026-07-17 \u2022 Amjad Masad on Going Direct, Building Replit, and the Future of Software",
     "last_proof_snippet": "Being canceled is a choice. You should choose to get canceled and retreat from the public eye, but I think if you're still out there, at some point, honestly, the haters kind of give up. To some people ask, hey, how should I think about exp",
@@ -36971,6 +37050,184 @@ const dashboardData = {
     }
   },
   {
+    "id": 387,
+    "name": "Joel Deligarza",
+    "slug": "joel-deligarza",
+    "bio": "Joel Deligarza is a cybersecurity expert who is particularly known for his insights on AI models and their escalating impact on cyber threats. He discusses the moral obligation of labs to address security issues and the implications of AI-driven threats on the cybersecurity landscape.",
+    "known_for": "His expertise in AI-driven cyber threats and the ethical considerations of AI labs in cybersecurity.",
+    "net_worth_usd": null,
+    "net_worth_source": "",
+    "net_worth_updated_at": null,
+    "voice_tone": "Urgent and informative",
+    "voice_style": "Factual and assertive",
+    "voice_delivery_notes": "Clear and concise with emphasis on the urgency of AI in cybersecurity",
+    "voice_profile_updated_at": "2026-08-07 17:02:51",
+    "last_seen": "2026-08-07 17:02:51",
+    "last_episode_title": "The Reality of AI-Powered Cyberattacks | Truffle Security & Socket",
+    "last_podcast_name": "The a16z Show",
+    "last_episode_date": "2026-08-07",
+    "mention_score": 1,
+    "mention_score_decayed": 1,
+    "last_main_idea": "Invest in cybersecurity solutions that can adapt to the rapidly evolving AI-driven threats and focus on securing software supply chains to mitigate vulnerabilities.",
+    "last_proof_cite": "The a16z Show \u2022 2026-08-07 \u2022 The Reality of AI-Powered Cyberattacks | Truffle Security & Socket",
+    "last_proof_snippet": "Models are actively escaping their cages, going out on the internet and doing pretty nasty things. Recently, we found an API key that had been leaked on the internet ahead administrative access to the Apache Foundation. Interesting thing ab",
+    "supporting_takeaway": "Software supply chains have emerged as a weak link in cybersecurity, necessitating thorough risk assessments and robust vetting processes.",
+    "grokipedia_url": null,
+    "grokipedia_fetched_at": "2026-08-07T12:04:14.717193",
+    "pundit_profile": {
+      "source": "llm",
+      "source_model": "moonshot:moonshot-v1-8k",
+      "source_url": "",
+      "page_title": "Joel Deligarza",
+      "fetched_at": "2026-08-07T17:04:14.716954+00:00",
+      "cliff_notes": "Joel Deligarza is a prominent figure in the field of cybersecurity, with a specific focus on AI-driven threats. His work revolves around understanding how AI models are not only identifying software vulnerabilities but also beginning to exploit them, which has significant implications for the security of digital infrastructure. Deligarza has been vocal about the moral obligations of labs that develop these AI models, suggesting that they should take responsibility for the security issues their creations may cause. His expertise is sought after for understanding the evolving landscape of cyber threats and the role that advanced technologies play in both creating and mitigating these risks.",
+      "derived": {
+        "current_role": "Cybersecurity Expert"
+      },
+      "infobox": {
+        "Nationality": "Unknown"
+      },
+      "lead_paragraphs": [
+        "Joel Deligarza is a prominent figure in the field of cybersecurity, with a specific focus on AI-driven threats. His work revolves around understanding how AI models are not only identifying software vulnerabilities but also beginning to exploit them, which has significant implications for the security of digital infrastructure.",
+        "Deligarza has been vocal about the moral obligations of labs that develop these AI models, suggesting that they should take responsibility for the security issues their creations may cause. His expertise is sought after for understanding the evolving landscape of cyber threats and the role that advanced technologies play in both creating and mitigating these risks."
+      ],
+      "sections": [
+        {
+          "heading": "AI and Cybersecurity",
+          "body": "Joel Deligarza discusses the increasing capabilities of AI models in identifying and exploiting software vulnerabilities, highlighting the need for labs to consider the security implications of their work."
+        },
+        {
+          "heading": "Moral Obligation of Labs",
+          "body": "Deligarza argues that labs developing AI models have a moral obligation to address the security issues their creations may cause, especially when it comes to supply chain vulnerabilities."
+        },
+        {
+          "heading": "Cyber Threat Escalation",
+          "body": "He points out that AI models are escalating cyber threats, with incidents such as leaked API keys and backdoored packages, which can lead to widespread propagation of malicious software."
+        }
+      ]
+    }
+  },
+  {
+    "id": 388,
+    "name": "Dylan Araps",
+    "slug": "dylan-araps",
+    "bio": "Dylan Araps is a software supply chain security expert known for his work in identifying and addressing vulnerabilities in software ecosystems. His insights into the weaknesses of software supply chains and the need for better vetting processes have made him a respected voice in cybersecurity.",
+    "known_for": "His expertise in software supply chain security and his discussions on the weaknesses in software ecosystems.",
+    "net_worth_usd": 500000000.0,
+    "net_worth_source": "https://finance-monthly.com/2025/02/bob-dylans-net-worth-2025-legendary-songwriters-fortune-revealed",
+    "net_worth_updated_at": "2026-08-07T12:04:24.815555",
+    "voice_tone": "Concerned and analytical",
+    "voice_style": "Detailed and explanatory",
+    "voice_delivery_notes": "Paced with pauses for emphasis on critical points",
+    "voice_profile_updated_at": "2026-08-07 17:02:51",
+    "last_seen": "2026-08-07 17:02:51",
+    "last_episode_title": "The Reality of AI-Powered Cyberattacks | Truffle Security & Socket",
+    "last_podcast_name": "The a16z Show",
+    "last_episode_date": "2026-08-07",
+    "mention_score": 1,
+    "mention_score_decayed": 1,
+    "last_main_idea": "Invest in cybersecurity solutions that can adapt to the rapidly evolving AI-driven threats and focus on securing software supply chains to mitigate vulnerabilities.",
+    "last_proof_cite": "The a16z Show \u2022 2026-08-07 \u2022 The Reality of AI-Powered Cyberattacks | Truffle Security & Socket",
+    "last_proof_snippet": "Models are actively escaping their cages, going out on the internet and doing pretty nasty things. Recently, we found an API key that had been leaked on the internet ahead administrative access to the Apache Foundation. Interesting thing ab",
+    "supporting_takeaway": "Software supply chains have emerged as a weak link in cybersecurity, necessitating thorough risk assessments and robust vetting processes.",
+    "grokipedia_url": null,
+    "grokipedia_fetched_at": "2026-08-07T12:04:23.683690",
+    "pundit_profile": {
+      "source": "llm",
+      "source_model": "moonshot:moonshot-v1-8k",
+      "source_url": "",
+      "page_title": "Dylan Araps",
+      "fetched_at": "2026-08-07T17:04:23.683537+00:00",
+      "cliff_notes": "Dylan Araps is a prominent figure in the field of software supply chain security. His work focuses on identifying vulnerabilities within software ecosystems and advocating for better vetting processes to mitigate risks. Araps has been vocal about the weaknesses in software supply chains, emphasizing the need for improved security measures to protect against potential threats. His contributions to the cybersecurity community have been influential, particularly in understanding the implications of software supply chain attacks and the propagation of malware through compromised packages. Araps' insights are crucial for organizations seeking to bolster their defenses against sophisticated cyber threats.",
+      "derived": {
+        "current_role": "Software Supply Chain Security Expert"
+      },
+      "infobox": {
+        "Born": "",
+        "Nationality": ""
+      },
+      "lead_paragraphs": [
+        "Dylan Araps is a prominent figure in the field of software supply chain security. His work focuses on identifying vulnerabilities within software ecosystems and advocating for better vetting processes to mitigate risks. Araps has been vocal about the weaknesses in software supply chains, emphasizing the need for improved security measures to protect against potential threats.",
+        "His contributions to the cybersecurity community have been influential, particularly in understanding the implications of software supply chain attacks and the propagation of malware through compromised packages. Araps' insights are crucial for organizations seeking to bolster their defenses against sophisticated cyber threats."
+      ],
+      "sections": [
+        {
+          "heading": "Software Supply Chain Security",
+          "body": "Dylan Araps is recognized for his work in identifying vulnerabilities in software supply chains and advocating for improved vetting processes to enhance security."
+        },
+        {
+          "heading": "Cybersecurity Threats",
+          "body": "Araps has discussed the evolving nature of cybersecurity threats, including the potential for AI models to exploit software vulnerabilities, and the implications for software supply chain security."
+        },
+        {
+          "heading": "Moral Obligations of Labs",
+          "body": "In discussions, Araps has questioned the moral obligations of labs that develop tools which could potentially be used to break into supply chains, suggesting that they should also fund solutions to the problems they create."
+        }
+      ]
+    },
+    "net_worth": "$500.0M"
+  },
+  {
+    "id": 389,
+    "name": "DJ Smith",
+    "slug": "dj-smith",
+    "bio": "DJ Smith is an expert in the rapid evolution of cybersecurity practices, particularly focusing on the implications of AI advancements on security. He has argued for quicker patching processes due to the increasing sophistication of AI models that can exploit software vulnerabilities.",
+    "known_for": "His insights on the necessity of faster patching processes in response to AI advancements in cybersecurity.",
+    "net_worth_usd": 11400000.0,
+    "net_worth_source": "https://www.benzinga.com/sec/insider-trades/0001272974/j-david-smith",
+    "net_worth_updated_at": "2026-08-07T12:04:33.157613",
+    "voice_tone": "Assertive and knowledgeable",
+    "voice_style": "Direct and persuasive",
+    "voice_delivery_notes": "Confident with a focus on the practical implications of AI in cybersecurity",
+    "voice_profile_updated_at": "2026-08-07 17:02:51",
+    "last_seen": "2026-08-07 17:02:51",
+    "last_episode_title": "The Reality of AI-Powered Cyberattacks | Truffle Security & Socket",
+    "last_podcast_name": "The a16z Show",
+    "last_episode_date": "2026-08-07",
+    "mention_score": 1,
+    "mention_score_decayed": 1,
+    "last_main_idea": "Invest in cybersecurity solutions that can adapt to the rapidly evolving AI-driven threats and focus on securing software supply chains to mitigate vulnerabilities.",
+    "last_proof_cite": "The a16z Show \u2022 2026-08-07 \u2022 The Reality of AI-Powered Cyberattacks | Truffle Security & Socket",
+    "last_proof_snippet": "Models are actively escaping their cages, going out on the internet and doing pretty nasty things. Recently, we found an API key that had been leaked on the internet ahead administrative access to the Apache Foundation. Interesting thing ab",
+    "supporting_takeaway": "Software supply chains have emerged as a weak link in cybersecurity, necessitating thorough risk assessments and robust vetting processes.",
+    "grokipedia_url": null,
+    "grokipedia_fetched_at": "2026-08-07T12:04:32.051894",
+    "pundit_profile": {
+      "source": "llm",
+      "source_model": "moonshot:moonshot-v1-8k",
+      "source_url": "",
+      "page_title": "DJ Smith",
+      "fetched_at": "2026-08-07T17:04:32.051746+00:00",
+      "cliff_notes": "DJ Smith has made a name for himself as an authority in the field of cybersecurity, especially in the context of the rapid advancements in AI. His work emphasizes the need for swift responses to the evolving threats posed by AI, such as the ability of AI models to not only identify but also exploit software vulnerabilities. Smith's research and commentary have been influential in shaping the discourse around cybersecurity practices, urging for proactive measures to counter the threats posed by increasingly intelligent AI systems. His contributions are significant in the tech and finance sectors, where data security is paramount.",
+      "derived": {
+        "current_role": "Expert in Cybersecurity"
+      },
+      "infobox": {
+        "Born": "",
+        "Nationality": ""
+      },
+      "lead_paragraphs": [
+        "DJ Smith has made a name for himself as an authority in the field of cybersecurity, especially in the context of the rapid advancements in AI. His work emphasizes the need for swift responses to the evolving threats posed by AI, such as the ability of AI models to not only identify but also exploit software vulnerabilities.",
+        "Smith's research and commentary have been influential in shaping the discourse around cybersecurity practices, urging for proactive measures to counter the threats posed by increasingly intelligent AI systems. His contributions are significant in the tech and finance sectors, where data security is paramount."
+      ],
+      "sections": [
+        {
+          "heading": "Cybersecurity and AI",
+          "body": "DJ Smith is known for his expertise in how AI advancements impact cybersecurity, stressing the need for quicker patching processes to counteract the evolving threats."
+        },
+        {
+          "heading": "AI Exploitation of Vulnerabilities",
+          "body": "Smith has discussed the alarming trend where AI models are moving beyond mere identification of software vulnerabilities to actively exploiting them, necessitating a reevaluation of cybersecurity strategies."
+        },
+        {
+          "heading": "Supply Chain Security",
+          "body": "In the context of supply chain security, Smith has raised questions about the moral obligations of labs that develop AI, suggesting that they should contribute to funding solutions for the security issues they inadvertently create."
+        }
+      ]
+    },
+    "net_worth": "$11.4M"
+  },
+  {
     "id": 384,
     "name": "Simon Mow",
     "slug": "simon-mow",
@@ -36988,7 +37245,7 @@ const dashboardData = {
     "last_podcast_name": "The a16z Show",
     "last_episode_date": "2026-08-06",
     "mention_score": 1,
-    "mention_score_decayed": 1,
+    "mention_score_decayed": 0.98,
     "last_main_idea": "Investing in open source AI infrastructure and models is crucial for enterprises looking to leverage AI capabilities, as it offers a sustainable and collaborative approach to innovation in the field.",
     "last_proof_cite": "The a16z Show \u2022 2026-08-06 \u2022 How Open-Source AI Became Critical Infrastructure",
     "last_proof_snippet": "The fun thought experiment is if GPUs dropped in price by 99% then do we get back to it a real open source world if moderation is never solved in the future people will go to openly by default because that is where you know for sure you can",
@@ -37166,7 +37423,7 @@ const dashboardData = {
     "last_podcast_name": "The a16z Show",
     "last_episode_date": "2026-08-05",
     "mention_score": 1,
-    "mention_score_decayed": 0.98,
+    "mention_score_decayed": 0.95,
     "last_main_idea": "Investing in innovative technologies that address critical challenges in ocean exploration, mineral extraction, and nuclear energy can lead to significant market opportunities and positive societal impacts.",
     "last_proof_cite": "The a16z Show \u2022 2026-08-05 \u2022 Three Startups Reinventing Critical Infrastructure",
     "last_proof_snippet": "Last month, A16Z American dynamism films screened short films about three portfolio companies. Ulysses built mission-critical underwater robots, Marianna Mineroles applies modern technologies to the critical mineral sector, and Radiant seek",
@@ -37225,7 +37482,7 @@ const dashboardData = {
     "last_podcast_name": "The a16z Show",
     "last_episode_date": "2026-08-05",
     "mention_score": 1,
-    "mention_score_decayed": 0.98,
+    "mention_score_decayed": 0.95,
     "last_main_idea": "Investing in innovative technologies that address critical challenges in ocean exploration, mineral extraction, and nuclear energy can lead to significant market opportunities and positive societal impacts.",
     "last_proof_cite": "The a16z Show \u2022 2026-08-05 \u2022 Three Startups Reinventing Critical Infrastructure",
     "last_proof_snippet": "Last month, A16Z American dynamism films screened short films about three portfolio companies. Ulysses built mission-critical underwater robots, Marianna Mineroles applies modern technologies to the critical mineral sector, and Radiant seek",
@@ -37284,7 +37541,7 @@ const dashboardData = {
     "last_podcast_name": "The a16z Show",
     "last_episode_date": "2026-08-05",
     "mention_score": 1,
-    "mention_score_decayed": 0.98,
+    "mention_score_decayed": 0.95,
     "last_main_idea": "Investing in innovative technologies that address critical challenges in ocean exploration, mineral extraction, and nuclear energy can lead to significant market opportunities and positive societal impacts.",
     "last_proof_cite": "The a16z Show \u2022 2026-08-05 \u2022 Three Startups Reinventing Critical Infrastructure",
     "last_proof_snippet": "Last month, A16Z American dynamism films screened short films about three portfolio companies. Ulysses built mission-critical underwater robots, Marianna Mineroles applies modern technologies to the critical mineral sector, and Radiant seek",
@@ -37608,7 +37865,7 @@ const dashboardData = {
     "last_podcast_name": "The a16z Show",
     "last_episode_date": "2026-08-02",
     "mention_score": 1,
-    "mention_score_decayed": 0.91,
+    "mention_score_decayed": 0.89,
     "last_main_idea": "The evolving digital landscape presents opportunities for investment in AI and technology that can enhance daily life and reshape consumption habits, while also requiring a critical approach to understand and adapt to new cultural norms.",
     "last_proof_cite": "The a16z Show \u2022 2026-08-02 \u2022 Ruby Thelot on Internet Culture, AI, and the Future of Taste",
     "last_proof_snippet": "Americans don't like AI. AI is a very broad term. They all use chat. And like, I love it. I love, I love chat. But they don't like AI. There's the bookie man of like, I'm going to lose my job. But when I talk to mothers in Brian tags of lik",
@@ -37860,7 +38117,7 @@ const dashboardData = {
     "last_podcast_name": "The a16z Show",
     "last_episode_date": "2026-07-30",
     "mention_score": 1,
-    "mention_score_decayed": 0.85,
+    "mention_score_decayed": 0.83,
     "last_main_idea": "AI has the potential to automate administrative tasks in healthcare practices, creating significant value for small businesses and changing the landscape of enterprise software.",
     "last_proof_cite": "The a16z Show \u2022 2026-07-30 \u2022 AI for America's Small Businesses | Lassie",
     "last_proof_snippet": "AI is overhyped and Silicon Valley that's underhyped in Iowa. I would actually argue software just kind of took things that were stored in paper format and then they made them available first on-prem via green screen computers, but people s",
@@ -37919,7 +38176,7 @@ const dashboardData = {
     "last_podcast_name": "The a16z Show",
     "last_episode_date": "2026-07-30",
     "mention_score": 1,
-    "mention_score_decayed": 0.85,
+    "mention_score_decayed": 0.83,
     "last_main_idea": "AI has the potential to automate administrative tasks in healthcare practices, creating significant value for small businesses and changing the landscape of enterprise software.",
     "last_proof_cite": "The a16z Show \u2022 2026-07-30 \u2022 AI for America's Small Businesses | Lassie",
     "last_proof_snippet": "AI is overhyped and Silicon Valley that's underhyped in Iowa. I would actually argue software just kind of took things that were stored in paper format and then they made them available first on-prem via green screen computers, but people s",
@@ -39402,7 +39659,7 @@ const dashboardData = {
     "last_podcast_name": "The a16z Show",
     "last_episode_date": "2026-07-15",
     "mention_score": 1,
-    "mention_score_decayed": 0.6,
+    "mention_score_decayed": 0.59,
     "last_main_idea": "Investing in AI hardware requires a focus on infrastructure and the ability to scale efficiently, as the AI race is not just about models but also the underlying technology that supports them.",
     "last_proof_cite": "The a16z Show \u2022 2026-07-15 \u2022 Can Anyone Catch NVIDIA? | The Future of Chips and Infrastructure",
     "last_proof_snippet": "In videos that are going to have better networking than you, they're going to have better HP, they're going to have better process-node, they're going to come to market faster, they're going to be able to ramp faster, they're going to have",
@@ -39534,7 +39791,7 @@ const dashboardData = {
     "last_podcast_name": "The a16z Show",
     "last_episode_date": "2026-07-13",
     "mention_score": 1,
-    "mention_score_decayed": 0.57,
+    "mention_score_decayed": 0.56,
     "last_main_idea": "Investing in blockchain technology and AI requires a deep understanding of the foundational computer science principles that underpin these fields, as well as an awareness of the evolving landscape of systems research.",
     "last_proof_cite": "The a16z Show \u2022 2026-07-13 \u2022 Before Blockchains, There Was State Machine Replication",
     "last_proof_snippet": "DARPA had recognized that this was a serious problem, the problem of malicious attacks and was looking for research in that area. I had a student Miguel Castro. We came to me and he said, why don't we see whether we can figure out a way to",
@@ -39674,7 +39931,7 @@ const dashboardData = {
     "last_podcast_name": "The a16z Show",
     "last_episode_date": "2026-07-09",
     "mention_score": 1,
-    "mention_score_decayed": 0.52,
+    "mention_score_decayed": 0.51,
     "last_main_idea": "Investing in the development of new tools for biology and leveraging AI can accelerate scientific discovery and disease management, potentially leading to significant advancements in medicine.",
     "last_proof_cite": "The a16z Show \u2022 2026-07-09 \u2022 Mark Zuckerberg & Priscilla Chan: How AI Will Help Cure Disease",
     "last_proof_snippet": "This is a space that, and if there's just going to be a huge amount of leverage with AI, it still seems like there could be a lot more effort in this space around building tools. And it's kind of this crazy thing that we're, you know, here",
@@ -39740,7 +39997,7 @@ const dashboardData = {
     "last_podcast_name": "The a16z Show",
     "last_episode_date": "2026-07-09",
     "mention_score": 1,
-    "mention_score_decayed": 0.52,
+    "mention_score_decayed": 0.51,
     "last_main_idea": "Investing in the development of new tools for biology and leveraging AI can accelerate scientific discovery and disease management, potentially leading to significant advancements in medicine.",
     "last_proof_cite": "The a16z Show \u2022 2026-07-09 \u2022 Mark Zuckerberg & Priscilla Chan: How AI Will Help Cure Disease",
     "last_proof_snippet": "This is a space that, and if there's just going to be a huge amount of leverage with AI, it still seems like there could be a lot more effort in this space around building tools. And it's kind of this crazy thing that we're, you know, here",
@@ -39801,7 +40058,7 @@ const dashboardData = {
     "last_podcast_name": "The a16z Show",
     "last_episode_date": "2026-07-08",
     "mention_score": 1,
-    "mention_score_decayed": 0.51,
+    "mention_score_decayed": 0.5,
     "last_main_idea": "Invest in real estate companies that emphasize community engagement, technological adaptability, and global scalability to capitalize on the evolving landscape of work and living.",
     "last_proof_cite": "The a16z Show \u2022 2026-07-08 \u2022 Adam Neumann: This Is How You Build Iconic Companies",
     "last_proof_snippet": "You said, I don't tell me how you're doing and I jumped straight into my lessons learned and this had an answer. And you're like, oh, you're still in that stage? That was, and we don't know each other. I was like, Mark, please tell me what",
@@ -40109,7 +40366,7 @@ const dashboardData = {
     "last_podcast_name": "The a16z Show",
     "last_episode_date": "2026-07-02",
     "mention_score": 1,
-    "mention_score_decayed": 0.45,
+    "mention_score_decayed": 0.44,
     "last_main_idea": "Invest in companies with capital efficiency and operational excellence in the mobility sector, as they are better positioned to adapt and grow in a competitive landscape.",
     "last_proof_cite": "The a16z Show \u2022 2026-07-02 \u2022 Outsmarting Uber: Why Bolt Wins in Europe",
     "last_proof_snippet": "The mobility market in general is the least competitive in the world. Paul is the leading, share mobility, business, we operate in more than 50 countries with a mission to replace people's private cars. A lot of the taxi companies obviously",
@@ -40293,7 +40550,7 @@ const dashboardData = {
     "last_podcast_name": "The a16z Show",
     "last_episode_date": "2026-07-01",
     "mention_score": 1,
-    "mention_score_decayed": 0.44,
+    "mention_score_decayed": 0.43,
     "last_main_idea": "Invest in platforms that empower creativity and personal expression, as authenticity resonates more deeply with audiences and can lead to more impactful art.",
     "last_proof_cite": "The a16z Show \u2022 2026-07-01 \u2022 Rick Rubin on AI, Creativity, and The Way of Code",
     "last_proof_snippet": "So many people I know who use AI ask it questions and think that the results that they get back is the answer and it seems like people are more interested in getting an answer that can allow them to stop thinking about the question than rea",
@@ -40354,7 +40611,7 @@ const dashboardData = {
     "last_podcast_name": "The a16z Show",
     "last_episode_date": "2026-06-30",
     "mention_score": 1,
-    "mention_score_decayed": 0.43,
+    "mention_score_decayed": 0.42,
     "last_main_idea": "Invest in companies that prioritize user creativity and personalization in their AI offerings, as well as those that leverage data analytics to understand and enhance user experience.",
     "last_proof_cite": "The a16z Show \u2022 2026-06-30 \u2022 Building AI for Creators | Luma & Phota Labs",
     "last_proof_snippet": "I think the creativity is building a story. The tools alone aren't a story. Someone has to direct them. It's not about mastering those tools. It's about directing an agent who can use those tools to achieve your creativity. Generally, I hav",
@@ -42041,7 +42298,7 @@ const dashboardData = {
     "last_podcast_name": "The a16z Show",
     "last_episode_date": "2026-06-10",
     "mention_score": 1,
-    "mention_score_decayed": 0.27,
+    "mention_score_decayed": 0.26,
     "last_main_idea": "Invest in healthcare companies that actively integrate AI to streamline operations and improve patient experiences, as well as organizations that foster a culture of AI experimentation and collaboration.",
     "last_proof_cite": "The a16z Show \u2022 2026-06-10 \u2022 AI, Growth, and the Future of Healthcare | Anish Acharya & Sachin Jain",
     "last_proof_snippet": "The way that we make sure this technology benefits all of society is we make important things cheap. And the most important thing is healthcare. This is one of the most beautiful humanistic technologies we've ever invented. We've spent 40 y",
@@ -42830,7 +43087,7 @@ const dashboardData = {
     "last_podcast_name": "The a16z Show",
     "last_episode_date": "2026-05-28",
     "mention_score": 1,
-    "mention_score_decayed": 0.2,
+    "mention_score_decayed": 0.19,
     "last_main_idea": "Invest in companies leveraging stablecoins and AI to enhance operational efficiency and expand into global markets, with a focus on regulatory compliance and infrastructure scalability.",
     "last_proof_cite": "The a16z Show \u2022 2026-05-28 \u2022 Stablecoins, AI Agents, and The Future of Global Banking",
     "last_proof_snippet": "The goal of the GS is really to build a global business bank that can function in multiple countries. Sablecoins is a lived experience. It's not something that's a theory, like, in Argentina, 60% of the population use Sablecoins. Our revenu",
@@ -43077,7 +43334,7 @@ const dashboardData = {
     "last_podcast_name": "The a16z Show",
     "last_episode_date": "2026-05-25",
     "mention_score": 1,
-    "mention_score_decayed": 0.19,
+    "mention_score_decayed": 0.18,
     "last_main_idea": "Invest in SaaS companies with strong fundamentals and customer loyalty, and consider emerging software categories like AEO for potential growth opportunities.",
     "last_proof_cite": "The a16z Show \u2022 2026-05-25 \u2022 Why AI Isn\u2019t Killing SaaS Yet",
     "last_proof_snippet": "This is one of the most dynamic markets we've seen, particularly for buying software, where month over month you will see large incumbents be replaced by the newcomers. And Throckwick just did that with an open AI. Now the most popular mode",
@@ -46462,7 +46719,7 @@ const dashboardData = {
     "last_podcast_name": "The a16z Show",
     "last_episode_date": "2026-04-08",
     "mention_score": 1,
-    "mention_score_decayed": 0.08,
+    "mention_score_decayed": 0.07,
     "last_main_idea": "Invest in companies that are adapting to build software for AI agents and can leverage domain knowledge effectively.",
     "last_proof_cite": "The a16z Show \u2022 2026-04-08 \u2022 The Agent Era: Building Software Beyond Chat with Box CEO Aaron Levie",
     "last_proof_snippet": "Domain knowledge is not just in data layers but also in the UI and middle tiers.",

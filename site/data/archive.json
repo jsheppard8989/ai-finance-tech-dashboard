@@ -1,6 +1,27 @@
 {
   "insights": [
     {
+      "id": 405,
+      "title": "The Reality of AI-Powered Cyberattacks | Truffle Security & Socket",
+      "source_type": "podcast",
+      "source_name": "The a16z Show",
+      "source_date": "2026-08-07",
+      "summary": "This podcast episode from 'The a16z Show' delves into the evolving landscape of cybersecurity with AI, discussing the increasing capabilities of AI models to exploit software vulnerabilities and the resulting cyber threats. The discussion highlights the weaknesses in software supply chains and the need for organizations to adapt their defenses for an AI-first world. The maturity of AI in cybersecurity is reducing the time between vulnerability discovery and exploitation, necessitating quicker patching processes. The podcast also touches on the moral obligation for labs to address the security issues their tools may cause.",
+      "key_takeaway": "Invest in cybersecurity solutions that can adapt to the rapidly evolving AI-driven threats and focus on securing software supply chains to mitigate vulnerabilities.",
+      "tickers_mentioned": [
+        "AAPL",
+        "MSFT",
+        "CRM"
+      ],
+      "sentiment": "neutral",
+      "display_on_main": 1,
+      "display_order": 0,
+      "added_date": "2026-08-07",
+      "archived_date": null,
+      "archived_reason": null,
+      "podcast_episode_id": 390
+    },
+    {
       "id": 404,
       "title": "How Open-Source AI Became Critical Infrastructure",
       "source_type": "podcast",
@@ -133,7 +154,7 @@
         "MSFT"
       ],
       "sentiment": "bullish",
-      "display_on_main": 1,
+      "display_on_main": 0,
       "display_order": 0,
       "added_date": "2026-08-03",
       "archived_date": null,
