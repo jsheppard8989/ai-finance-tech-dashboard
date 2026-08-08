@@ -3,80 +3,80 @@
 
 const dashboardData = {
   schemaVersion: 2,
-  generatedAt: "2026-08-07T13:39:16.726040",
-  chartsVersion: "2026-08-07T13:38:57.638250",
+  generatedAt: "2026-08-07T22:04:24.240948",
+  chartsVersion: "2026-08-07T22:04:15.663090",
   priceSnapshot: {
   "GOOGL": {
-    "price": 354.16,
-    "change_pct": 2.02,
+    "price": 354.3,
+    "change_pct": 2.06,
     "name": "GOOGL",
-    "updated_at": "2026-08-07T13:38:57.637206"
+    "updated_at": "2026-08-07T22:04:15.662068"
   },
   "NVDA": {
-    "price": 221.98,
-    "change_pct": 7.09,
+    "price": 223.96,
+    "change_pct": 8.04,
     "name": "NVDA",
-    "updated_at": "2026-08-07T13:38:57.637225"
+    "updated_at": "2026-08-07T22:04:15.662088"
   },
   "BTC": {
-    "price": 64726.37,
-    "change_pct": 0.64,
+    "price": 64888.08,
+    "change_pct": -0.69,
     "name": "BTC",
-    "updated_at": "2026-08-07T13:38:57.637235"
+    "updated_at": "2026-08-07T22:04:15.662098"
   },
   "MSFT": {
-    "price": 499.27,
-    "change_pct": 25.52,
+    "price": 499.99,
+    "change_pct": 25.7,
     "name": "MSFT",
-    "updated_at": "2026-08-07T13:38:57.637242"
+    "updated_at": "2026-08-07T22:04:15.662106"
   },
   "TSLA": {
-    "price": 327.0,
-    "change_pct": -13.7,
+    "price": 328.58,
+    "change_pct": -13.29,
     "name": "TSLA",
-    "updated_at": "2026-08-07T13:38:57.637251"
+    "updated_at": "2026-08-07T22:04:15.662114"
   },
   "AMZN": {
-    "price": 274.28,
-    "change_pct": 10.8,
+    "price": 274.48,
+    "change_pct": 10.88,
     "name": "AMZN",
-    "updated_at": "2026-08-07T13:38:57.637259"
+    "updated_at": "2026-08-07T22:04:15.662121"
   },
   "META": {
-    "price": 591.47,
-    "change_pct": -8.13,
+    "price": 592.1,
+    "change_pct": -8.03,
     "name": "META",
-    "updated_at": "2026-08-07T13:38:57.637268"
+    "updated_at": "2026-08-07T22:04:15.662129"
   },
   "WTI": {
-    "price": 3.47,
-    "change_pct": -4.27,
+    "price": 3.43,
+    "change_pct": -5.51,
     "name": "WTI",
-    "updated_at": "2026-08-07T13:38:57.637275"
+    "updated_at": "2026-08-07T22:04:15.662137"
   },
   "S&P 500": {
-    "price": 771.34,
-    "change_pct": 3.08,
+    "price": 773.26,
+    "change_pct": 3.34,
     "name": "S&P 500",
-    "updated_at": "2026-08-07T13:38:57.637282"
+    "updated_at": "2026-08-07T22:04:15.662144"
   },
   "AAPL": {
-    "price": 311.9,
-    "change_pct": -4.83,
+    "price": 313.33,
+    "change_pct": -4.4,
     "name": "AAPL",
-    "updated_at": "2026-08-07T13:38:57.637290"
+    "updated_at": "2026-08-07T22:04:15.662152"
   },
   "QQQ": {
-    "price": 719.75,
-    "change_pct": 1.52,
+    "price": 723.03,
+    "change_pct": 1.98,
     "name": "Invesco QQQ Trust",
-    "updated_at": "2026-08-07T13:38:57.637297"
+    "updated_at": "2026-08-07T22:04:15.662159"
   },
   "BTC-USD": {
-    "price": 64726.37,
-    "change_pct": 0.64,
+    "price": 64888.08,
+    "change_pct": -0.69,
     "name": "Bitcoin USD",
-    "updated_at": "2026-08-07T13:38:57.637305"
+    "updated_at": "2026-08-07T22:04:15.662168"
   }
 },
   tickerScores: [
@@ -855,6 +855,29 @@ const dashboardData = {
       "podcast_episode_id": 390
     },
     {
+      "id": 406,
+      "title": "8 Predictions for the Era of Continual Learning",
+      "source_type": "podcast",
+      "source_name": "Dwarkesh Podcast",
+      "source_date": "2026-08-07",
+      "summary": "This podcast episode explores the concept of continual learning in AI and its implications for job performance, regulation, and the competitive landscape. The discussion highlights the need for AI to learn continuously from different workplaces to accumulate relevant experience, similar to human learning. It also addresses the challenges that continual learning poses to current AI regulation proposals and the potential for increased economies of scale in AI due to batching advantages in inference.",
+      "key_takeaway": "Invest in AI companies prioritizing continual learning and technical alignment to stay competitive in the evolving AI landscape.",
+      "tickers_mentioned": [
+        "AAPL",
+        "GOOGL",
+        "MSFT",
+        "AMZN",
+        "TSLA"
+      ],
+      "sentiment": "neutral",
+      "display_on_main": 1,
+      "display_order": 0,
+      "added_date": "2026-08-07",
+      "archived_date": null,
+      "archived_reason": null,
+      "podcast_episode_id": 391
+    },
+    {
       "id": 404,
       "title": "How Open-Source AI Became Critical Infrastructure",
       "source_type": "podcast",
@@ -1010,7 +1033,7 @@ const dashboardData = {
         "AMD"
       ],
       "sentiment": "bullish",
-      "display_on_main": 1,
+      "display_on_main": 0,
       "display_order": 0,
       "added_date": "2026-08-03",
       "archived_date": null,
@@ -10360,8 +10383,8 @@ const dashboardData = {
       "term": "AI Race",
       "description": "The global competition among nations to lead in artificial intelligence development and application.",
       "first_detected_date": "2026-03-11",
-      "last_mentioned_date": "2026-08-04",
-      "mention_count": 24,
+      "last_mentioned_date": "2026-08-07",
+      "mention_count": 25,
       "source_podcasts": null,
       "status": "active",
       "investment_implications": "Investing in companies at the forefront of AI could yield significant returns as the technology becomes more pervasive.",
@@ -10370,7 +10393,7 @@ const dashboardData = {
       "archived_reason": null,
       "first_detected_episode_id": 60,
       "first_detected_speaker": null,
-      "last_mentioned_episode_id": 386,
+      "last_mentioned_episode_id": 391,
       "last_mentioned_speaker": "Michael Kratsios"
     },
     {
@@ -10728,6 +10751,26 @@ const dashboardData = {
       "key_tickers": []
     },
     {
+      "id": 406,
+      "title": "8 Predictions for the Era of Continual Learning",
+      "source_type": "podcast",
+      "source_name": "Dwarkesh Podcast",
+      "source_date": "2026-08-07",
+      "summary": "This podcast episode explores the concept of continual learning in AI and its implications for job performance, regulation, and the competitive landscape. The discussion highlights the need for AI to learn continuously from different workplaces to accumulate relevant experience, similar to human learning. It also addresses the challenges that continual learning poses to current AI regulation proposals and the potential for increased economies of scale in AI due to batching advantages in inference.",
+      "key_takeaway": "Invest in AI companies prioritizing continual learning and technical alignment to stay competitive in the evolving AI landscape.",
+      "tickers_mentioned": "[\"AAPL\", \"GOOGL\", \"MSFT\", \"AMZN\", \"TSLA\"]",
+      "sentiment": "neutral",
+      "display_on_main": 1,
+      "display_order": 0,
+      "added_date": "2026-08-07",
+      "archived_date": null,
+      "archived_reason": null,
+      "podcast_episode_id": 391,
+      "episode_release_date": "2026-08-07",
+      "guest_name": null,
+      "key_tickers": []
+    },
+    {
       "id": 404,
       "title": "How Open-Source AI Became Critical Infrastructure",
       "source_type": "podcast",
@@ -10847,26 +10890,6 @@ const dashboardData = {
       "podcast_episode_id": 385,
       "episode_release_date": "2026-08-04",
       "guest_name": "OpenAI's Joshua Achiam",
-      "key_tickers": []
-    },
-    {
-      "id": 398,
-      "title": "The Inference Engineering Masterclass \u2014 Philip Kiely & Ali Taha, Baseten",
-      "source_type": "podcast",
-      "source_name": "Latent Space: The AI Engineer Podcast",
-      "source_date": "2026-08-03",
-      "summary": "In this episode of Latent Space, the AI Engineer Podcast, the hosts discuss inference engineering with Philip and Ali, delving into the complexities of handling long queries in AI models, the process of query routing, and the balancing of GPU workloads. They explore the nuances of cash-a-rail routing, pre-fill workers, and the use of separate GPUs for processing input and decoding. The conversation also touches on the cost implications of different deployment strategies, the importance of model parallelism, and the challenges of continual learning in AI models. The discussion provides insights into the technical aspects of deploying AI models at scale and the considerations for optimizing performance and cost.",
-      "key_takeaway": "Investing in companies that optimize AI model deployment and inference engineering can lead to significant cost savings and performance improvements, potentially offering a competitive advantage in the AI industry.",
-      "tickers_mentioned": "[\"AAPL\", \"GOOGL\", \"MSFT\", \"NVDA\", \"AMD\"]",
-      "sentiment": "bullish",
-      "display_on_main": 1,
-      "display_order": 0,
-      "added_date": "2026-08-03",
-      "archived_date": null,
-      "archived_reason": null,
-      "podcast_episode_id": 383,
-      "episode_release_date": "2026-08-03",
-      "guest_name": null,
       "key_tickers": []
     }
   ],
@@ -35212,9 +35235,104 @@ const dashboardData = {
     "source_name": "The a16z Show",
     "source_date": "2026-08-07",
     "key_tickers": []
+  },
+  "406": {
+    "id": 396,
+    "insight_id": 406,
+    "podcast_episode_id": 391,
+    "overview": "The unresolved tension in the AI industry revolves around the balance between the need for AI systems to continuously learn and adapt to perform jobs as competently as humans and the challenges this poses to existing regulatory frameworks and competitive dynamics. The competitive landscape is contested by the ability of AI companies to leverage continual learning to accumulate relevant experience and to scale efficiently through batching advantages in inference. The metric that arbitrates this uncertainty is the adaptability of regulatory frameworks and the economic impact of continual learning on user retention and company valuations.",
+    "key_takeaways_detailed": [
+      "Investors should focus on AI companies that not only prioritize continual learning but also demonstrate the ability to navigate the evolving regulatory landscape effectively.",
+      "Policymakers must consider the long-term implications of continual learning on AI regulation and be prepared to adapt frameworks to support innovation while ensuring safety and ethical standards.",
+      "Companies that can leverage economies of scale through batching in inference will have a competitive edge, potentially leading to a more concentrated market with higher barriers to entry for new players.",
+      "Investors should monitor the switching costs of AI models as an indicator of user retention and potential for market consolidation around a few dominant players."
+    ],
+    "investment_thesis": "The core logic of the investment thesis is that AI companies that effectively implement continual learning will outperform their peers by accumulating relevant experience and adapting to regulatory changes. This will lead to increased economies of scale and higher switching costs for users, solidifying their market position. The thesis is vindicated if, over a 3-5 year timeframe, these companies show sustained improvements in job performance metrics, regulatory compliance, and market share, while also demonstrating the ability to scale efficiently through batching advantages in inference.",
+    "ticker_analysis": {
+      "AAPL": {
+        "rationale": "Apple's significant investment in AI research and development, along with its vast user base, positions it to leverage continual learning to improve its AI services and products.",
+        "positioning": "Apple should be positioned long-term due to its potential to benefit from continual learning advancements, especially in areas like Siri and machine learning.",
+        "risk": "Key risks include regulatory hurdles that could slow down AI development and the potential for competitors to outpace Apple in leveraging continual learning for their AI systems."
+      },
+      "GOOGL": {
+        "rationale": "Google's deep expertise in AI and its wide range of services make it well-suited to capitalize on continual learning, especially in search and advertising.",
+        "positioning": "Google should be considered a strategic long position due to its potential to lead in AI innovation and the ability to scale its services through continual learning.",
+        "risk": "The risk lies in the possibility of regulatory challenges that could impede Google's AI advancements and the threat of new entrants disrupting its market position."
+      },
+      "MSFT": {
+        "rationale": "Microsoft's cloud services and AI initiatives put it in a strong position to benefit from continual learning, particularly in enhancing its Azure platform and productivity tools.",
+        "positioning": "Microsoft should be viewed as a tactical long play, leveraging its cloud and AI capabilities to drive growth and improve service offerings.",
+        "risk": "Regulatory changes and competition from other cloud providers could pose risks to Microsoft's ability to fully capitalize on the benefits of continual learning."
+      },
+      "AMZN": {
+        "rationale": "Amazon's extensive data collection and AI applications in and cloud services position it to benefit from continual learning, especially in improving Alexa and AWS.",
+        "positioning": "Amazon should be considered a strategic long investment, with a focus on how continual learning can enhance its and cloud services.",
+        "risk": "The risk includes potential regulatory challenges and the possibility that competitors could leverage AI more effectively to disrupt Amazon's market position."
+      },
+      "TSLA": {
+        "rationale": "Tesla's focus on autonomous driving technology makes it a key player in the application of continual learning, as it seeks to improve the safety and efficiency of its vehicles.",
+        "positioning": "Tesla should be positioned long-term, as its ability to leverage continual learning in its autonomous driving technology could provide a significant competitive advantage.",
+        "risk": "Regulatory hurdles and technological setbacks in autonomous driving could pose significant risks to Tesla's position in the market."
+      }
+    },
+    "positioning_guidance": "",
+    "risk_factors": [],
+    "contrarian_signals": [
+      "AI companies may struggle to maintain the pace of continual learning due to the high computational costs and data requirements.",
+      "Regulatory bodies could impose strict controls that limit the ability of AI systems to learn and adapt, potentially stifling innovation.",
+      "There is a risk that the benefits of continual learning may not materialize as quickly as expected, leading to slower adoption rates and less significant competitive advantages."
+    ],
+    "catalysts": [
+      "Regulatory rulings that either support or hinder the development and deployment of AI systems utilizing continual learning.",
+      "Technological breakthroughs in AI that either accelerate or impede the ability of systems to learn continuously from different data sources.",
+      "Market adoption rates of AI services that demonstrate the effectiveness of continual learning in improving job performance and user satisfaction.",
+      "Economic analyses that quantify the impact of batching advantages in inference on the economies of scale for AI companies.",
+      "Policymaker discussions and proposed legislation that indicate the direction of regulatory frameworks for AI, especially regarding continual learning and model updates."
+    ],
+    "related_insights": null,
+    "audio_timestamp_start": null,
+    "audio_timestamp_end": null,
+    "transcript_excerpt": null,
+    "created_at": "2026-08-07T22:03:14.854618",
+    "updated_at": "2026-08-08 03:03:14",
+    "episode_evidence": "Continual learning in AI is a process where AI systems accumulate experience from various workplaces, akin to human learning. This is crucial for AI to perform jobs as competently as humans, as highlighted by the statement, 'I don't think you're going to have AIs that perform whole jobs, as competently as humans, if they are forced to just write marked on piles for a section of session.' The podcast also discusses the regulatory challenges posed by continual learning, suggesting that one-time model checks may become obsolete. Instead, 'it would be more sense to do monthly or quarterly wrist inspections, rather than trying to single out some special moment that occurs after training is done, but before deployment begins.' This implies a shift towards more dynamic regulatory approaches. Additionally, the podcast touches on the potential for increased economies of scale in AI due to batching advantages in inference, which could significantly impact the competitive landscape and user retention.",
+    "falsification_tracks": [
+      "If AI companies that prioritize continual learning fail to demonstrate improved job performance metrics over a sustained period, the thesis of their competitive advantage is weakened.",
+      "Should regulatory bodies implement more rigid and less flexible frameworks that hinder the ability of AI to learn and adapt, this could counteract the benefits of continual learning.",
+      "A significant decline in the number of AI deployments or a marked reduction in the diversity of AI training data would challenge the claim that continual learning leads to more robust and versatile AI systems.",
+      "If the cost of switching AI models does not increase as predicted, this could indicate that the personalized context accumulation is not as significant a factor in user retention as suggested."
+    ],
+    "insight_title": "8 Predictions for the Era of Continual Learning",
+    "source_name": "Dwarkesh Podcast",
+    "source_date": "2026-08-07",
+    "key_tickers": []
   }
 },
   suggestedTerms: [
+  {
+    "id": 579,
+    "term": "Continual Learning in AI",
+    "definition": "The necessity for AI to learn continuously from different workplaces to accumulate relevant experience, similar to how humans learn.",
+    "investment_implications": "Investors should consider the long-term implications of continual learning on AI development and regulation.",
+    "source_type": "auto_extracted",
+    "mention_count": 1,
+    "source_diversity": 1,
+    "relevance_score": 50,
+    "submitted_date": "2026-08-08 03:01:12",
+    "priority_score": 80
+  },
+  {
+    "id": 580,
+    "term": "Economies of Scale in AI",
+    "definition": "The potential increase in economies of scale in AI due to batching advantages in inference.",
+    "investment_implications": "Assess the economic impact of batching on AI inference efficiency for investment decisions.",
+    "source_type": "auto_extracted",
+    "mention_count": 1,
+    "source_diversity": 1,
+    "relevance_score": 50,
+    "submitted_date": "2026-08-08 03:01:12",
+    "priority_score": 80
+  },
   {
     "id": 576,
     "term": "AI Models Escalating Cyber Threats",
@@ -35238,35 +35356,11 @@ const dashboardData = {
     "relevance_score": 50,
     "submitted_date": "2026-08-07 17:02:51",
     "priority_score": 80
-  },
-  {
-    "id": 578,
-    "term": "Rapid Evolution of Cybersecurity Practices",
-    "definition": "The time between the discovery of a vulnerability and its exploitation is decreasing due to AI advancements, necessitating faster patching and response times.",
-    "investment_implications": "Investors should look for companies that can adapt quickly to the evolving cybersecurity landscape and provide rapid response and patching solutions.",
-    "source_type": "auto_extracted",
-    "mention_count": 1,
-    "source_diversity": 1,
-    "relevance_score": 50,
-    "submitted_date": "2026-08-07 17:02:51",
-    "priority_score": 80
-  },
-  {
-    "id": 574,
-    "term": "Inference Economics",
-    "definition": "The economic considerations involved in deploying AI models, including the costs and benefits of running inference on different platforms and at different scales.",
-    "investment_implications": "Understanding inference economics is key for investors to evaluate the commercial viability of AI startups and the potential for ROI.",
-    "source_type": "auto_extracted",
-    "mention_count": 1,
-    "source_diversity": 1,
-    "relevance_score": 50,
-    "submitted_date": "2026-08-06 17:05:52",
-    "priority_score": 80
   }
 ],
   podcastGuests: [
   {
-    "id": 45530,
+    "id": 45642,
     "name": "How Open",
     "slug": "how-open",
     "bio": null,
@@ -35278,7 +35372,7 @@ const dashboardData = {
     "appearance_count": 1
   },
   {
-    "id": 45531,
+    "id": 45643,
     "name": "Saronic Founders",
     "slug": "saronic-founders",
     "bio": null,
@@ -35290,7 +35384,7 @@ const dashboardData = {
     "appearance_count": 1
   },
   {
-    "id": 45532,
+    "id": 45644,
     "name": "OpenAI's Joshua Achiam",
     "slug": "openais-joshua-achiam",
     "bio": null,
@@ -35302,7 +35396,7 @@ const dashboardData = {
     "appearance_count": 1
   },
   {
-    "id": 45533,
+    "id": 45645,
     "name": "Why Macro is \u201cPretty Risk-On\u201d for Equities",
     "slug": "why-macro-is-pretty-risk-on-for-equities",
     "bio": null,
@@ -35314,7 +35408,7 @@ const dashboardData = {
     "appearance_count": 1
   },
   {
-    "id": 45534,
+    "id": 45646,
     "name": "AI for America's Small Businesses",
     "slug": "ai-for-americas-small-businesses",
     "bio": null,
@@ -35326,7 +35420,7 @@ const dashboardData = {
     "appearance_count": 1
   },
   {
-    "id": 45535,
+    "id": 45647,
     "name": "Mum\u2019s The Word",
     "slug": "mums-the-word",
     "bio": null,
@@ -35338,7 +35432,7 @@ const dashboardData = {
     "appearance_count": 1
   },
   {
-    "id": 45536,
+    "id": 45648,
     "name": "Luke Gromen",
     "slug": "luke-gromen",
     "bio": null,
@@ -35350,7 +35444,7 @@ const dashboardData = {
     "appearance_count": 1
   },
   {
-    "id": 45537,
+    "id": 45649,
     "name": "Codex from 0 to 10M Users",
     "slug": "codex-from-0-to-10m-users",
     "bio": null,
@@ -35362,7 +35456,7 @@ const dashboardData = {
     "appearance_count": 1
   },
   {
-    "id": 45538,
+    "id": 45650,
     "name": "Ben Horowitz",
     "slug": "ben-horowitz",
     "bio": "Ben Horowitz is a co-founder of venture firm Andreessen Horowitz and former CEO of Opsware, known for advising founders on leadership under pressure.",
@@ -35374,7 +35468,7 @@ const dashboardData = {
     "appearance_count": 3
   },
   {
-    "id": 45539,
+    "id": 45651,
     "name": "Building the Physical AI Stack",
     "slug": "building-the-physical-ai-stack",
     "bio": null,
@@ -35386,7 +35480,7 @@ const dashboardData = {
     "appearance_count": 1
   },
   {
-    "id": 45540,
+    "id": 45652,
     "name": "Travis Kalanick Is Back",
     "slug": "travis-kalanick-is-back",
     "bio": null,
@@ -35398,7 +35492,7 @@ const dashboardData = {
     "appearance_count": 1
   },
   {
-    "id": 45541,
+    "id": 45653,
     "name": "Why Physical AI Is the Next Frontier",
     "slug": "why-physical-ai-is-the-next-frontier",
     "bio": null,
@@ -35410,7 +35504,7 @@ const dashboardData = {
     "appearance_count": 1
   },
   {
-    "id": 45542,
+    "id": 45654,
     "name": "Nick Nemeth",
     "slug": "nick-nemeth",
     "bio": null,
@@ -35422,7 +35516,7 @@ const dashboardData = {
     "appearance_count": 1
   },
   {
-    "id": 45543,
+    "id": 45655,
     "name": "Mark Cuban on the AI Bubble",
     "slug": "mark-cuban-on-the-ai-bubble",
     "bio": null,
@@ -35434,7 +35528,7 @@ const dashboardData = {
     "appearance_count": 1
   },
   {
-    "id": 45544,
+    "id": 45656,
     "name": "Urgent Update- AI Sputnik Moment",
     "slug": "urgent-update--ai-sputnik-moment",
     "bio": null,
@@ -35446,7 +35540,7 @@ const dashboardData = {
     "appearance_count": 1
   },
   {
-    "id": 45545,
+    "id": 45657,
     "name": "Replay 2025",
     "slug": "replay-2025",
     "bio": null,
@@ -35458,7 +35552,7 @@ const dashboardData = {
     "appearance_count": 1
   },
   {
-    "id": 45546,
+    "id": 45658,
     "name": "Turbo Charged Trend Following",
     "slug": "turbo-charged-trend-following",
     "bio": null,
@@ -35470,7 +35564,7 @@ const dashboardData = {
     "appearance_count": 1
   },
   {
-    "id": 45547,
+    "id": 45659,
     "name": "Can Anyone Catch NVIDIA?",
     "slug": "can-anyone-catch-nvidia",
     "bio": null,
@@ -35482,7 +35576,7 @@ const dashboardData = {
     "appearance_count": 1
   },
   {
-    "id": 45548,
+    "id": 45660,
     "name": "Is AI a Bubble?",
     "slug": "is-ai-a-bubble",
     "bio": null,
@@ -35494,7 +35588,7 @@ const dashboardData = {
     "appearance_count": 1
   },
   {
-    "id": 45549,
+    "id": 45661,
     "name": "Adam Brown \u2013 Einstein's happiest thought",
     "slug": "adam-brown--einsteins-happiest-thought",
     "bio": null,
@@ -35525,7 +35619,7 @@ const dashboardData = {
     "last_podcast_name": "Macro Voices",
     "last_episode_date": "2026-05-14",
     "mention_score": 6,
-    "mention_score_decayed": 0.86,
+    "mention_score_decayed": 0.84,
     "last_main_idea": "Investors should prepare for potential volatility as economic indicators begin to reflect the impacts of energy prices and passive investment flows.",
     "last_proof_cite": "Macro Voices \u2022 2026-05-14 \u2022 MacroVoices #532 Mike Green: Record Mechanical Flows",
     "last_proof_snippet": "This is Macrovoisers, the Free Weekly Financial Podcast, targeting professional finance, high-net worth individuals, family offices, and other sophisticated investors. Macrovoisers is all about the brightest minds in the world of finance an",
@@ -35775,7 +35869,7 @@ const dashboardData = {
     "last_podcast_name": "Monetary Matters with Jack Farley",
     "last_episode_date": "2026-05-01",
     "mention_score": 3,
-    "mention_score_decayed": 0.35,
+    "mention_score_decayed": 0.34,
     "last_main_idea": "In an environment of protracted conflict and supply chain disruptions, commodities, particularly oil, are expected to remain elevated, with interest rates trending higher.",
     "last_proof_cite": "Monetary Matters with Jack Farley \u2022 2026-05-01 \u2022 Jim Bianco on Division at the Fed and Jerome Powell\u2019s Controversial Decision to Stay",
     "last_proof_snippet": "We are here another addition of monetary matters live on monitoring the situation. I'm Jack Farley and I'm Max Weethy. We've got a big day Jack. It's almost a comically large amount of news we have to get into. We're going to be speaking ab",
@@ -36277,7 +36371,7 @@ const dashboardData = {
     "last_podcast_name": "The a16z Show",
     "last_episode_date": "2026-06-02",
     "mention_score": 2,
-    "mention_score_decayed": 0.45,
+    "mention_score_decayed": 0.44,
     "last_main_idea": "Investment in AI-native computing hardware and software development will be pivotal as personal computing transitions towards AI optimization, with Nvidia and Apple leading the charge.",
     "last_proof_cite": "The a16z Show \u2022 2026-06-02 \u2022 Steven Sinofsky on Apple at 50, Microsoft, and the Future of Computing",
     "last_proof_snippet": "Having lived through like a half dozen component church things, you just sort of wait them out and you jump, let some local max, your local men determine the future. This will all correct itself, in short order. This world where you're all",
@@ -36811,7 +36905,7 @@ const dashboardData = {
     "last_podcast_name": "The a16z Show",
     "last_episode_date": "2026-03-28",
     "mention_score": 2,
-    "mention_score_decayed": 0.1,
+    "mention_score_decayed": 0.09,
     "last_main_idea": "Investing in AI and its intersection with sectors like crypto could yield significant returns as these technologies disrupt traditional economies and create new opportunities.",
     "last_proof_cite": "The a16z Show \u2022 2026-03-28 \u2022 the a16z show 20260319 1e92a9dd 78da 4417 b1ce 4b4318d1",
     "last_proof_snippet": "The paper suggests that anything that can be measured will eventually be automated, which could have profound effects on the economy and labor.",
@@ -36875,7 +36969,7 @@ const dashboardData = {
     "last_podcast_name": "The a16z Show",
     "last_episode_date": "2026-03-28",
     "mention_score": 2,
-    "mention_score_decayed": 0.1,
+    "mention_score_decayed": 0.09,
     "last_main_idea": "Investing in AI and its intersection with sectors like crypto could yield significant returns as these technologies disrupt traditional economies and create new opportunities.",
     "last_proof_cite": "The a16z Show \u2022 2026-03-28 \u2022 the a16z show 20260319 1e92a9dd 78da 4417 b1ce 4b4318d1",
     "last_proof_snippet": "The paper suggests that anything that can be measured will eventually be automated, which could have profound effects on the economy and labor.",
@@ -36935,7 +37029,7 @@ const dashboardData = {
     "last_podcast_name": "Monetary Matters with Jack Farley",
     "last_episode_date": "2026-02-15",
     "mention_score": 2,
-    "mention_score_decayed": 0.1,
+    "mention_score_decayed": 0.09,
     "last_main_idea": "Invest in sectors with fertile ground for short selling, such as AI and tech, and under-allocated areas like junior mining, while combining long and short strategies for potential alpha.",
     "last_proof_cite": "Monetary Matters with Jack Farley \u2022 2026-02-15 \u2022 Technical Analysis Deep Dive with Milton Berg - February 2026 Market Signals",
     "last_proof_snippet": "Today's episode is brought to you by the PICTEA AI Enhance International Equity ETF, ticker PQNT. You'll hear more about their using AI to enhance international equity returns later in the show. For now, let's get into it. Got a very specia",
@@ -37604,7 +37698,7 @@ const dashboardData = {
     "last_podcast_name": "Moonshots with Peter Diamandis",
     "last_episode_date": "2026-08-04",
     "mention_score": 1,
-    "mention_score_decayed": 0.95,
+    "mention_score_decayed": 0.93,
     "last_main_idea": "Investing in AI and technology sectors that align with the U.S. government's initiatives for fostering innovation and scientific discovery could provide significant growth opportunities.",
     "last_proof_cite": "Moonshots with Peter Diamandis \u2022 2026-08-04 \u2022 Michael Kratsios on the New Golden Age of American Science | EP #276",
     "last_proof_snippet": "I was a kid in the candy store reading the Golden Age Report. What you're describing there is a complete fundamental AI native AI agent up, reimagining of the entire scientific process. And I think it's something that is possible. My sense",
@@ -37673,7 +37767,7 @@ const dashboardData = {
     "last_podcast_name": "The a16z Show",
     "last_episode_date": "2026-08-04",
     "mention_score": 1,
-    "mention_score_decayed": 0.95,
+    "mention_score_decayed": 0.93,
     "last_main_idea": "Investing in cybersecurity solutions that leverage AI can provide a competitive advantage, but it also requires understanding the novel risks and vulnerabilities that AI models can create.",
     "last_proof_cite": "The a16z Show \u2022 2026-08-04 \u2022 OpenAI's Joshua Achiam: Did We Already Reach AGI?",
     "last_proof_snippet": "Heels like AGI is kind of already here and most people have gone like drug. The fact that we passed the threshold of where unsolved mathematical trajectors are getting solved by extremely intelligent AI, where those AI's are more capable an",
@@ -37993,7 +38087,7 @@ const dashboardData = {
     "last_podcast_name": "The a16z Show",
     "last_episode_date": "2026-07-31",
     "mention_score": 1,
-    "mention_score_decayed": 0.87,
+    "mention_score_decayed": 0.85,
     "last_main_idea": "Investing in AI-driven enterprise software that leverages open source models can lead to better control, performance, and scalability, creating a competitive advantage in the market.",
     "last_proof_cite": "The a16z Show \u2022 2026-07-31 \u2022 How Enterprise AI Really Gets Deployed",
     "last_proof_snippet": "And AI agents should just be the funder of your business and every interaction, whether it's like reactive or proactive with a customer, should be handled by AI. This narrative dominated the first half of 2026, which is that anthropic open",
@@ -38057,7 +38151,7 @@ const dashboardData = {
     "last_podcast_name": "The a16z Show",
     "last_episode_date": "2026-07-31",
     "mention_score": 1,
-    "mention_score_decayed": 0.87,
+    "mention_score_decayed": 0.85,
     "last_main_idea": "Investing in AI-driven enterprise software that leverages open source models can lead to better control, performance, and scalability, creating a competitive advantage in the market.",
     "last_proof_cite": "The a16z Show \u2022 2026-07-31 \u2022 How Enterprise AI Really Gets Deployed",
     "last_proof_snippet": "And AI agents should just be the funder of your business and every interaction, whether it's like reactive or proactive with a customer, should be handled by AI. This narrative dominated the first half of 2026, which is that anthropic open",
@@ -38841,7 +38935,7 @@ const dashboardData = {
     "last_podcast_name": "All-In with Chamath, Jason, Sacks & Friedberg",
     "last_episode_date": "2026-07-20",
     "mention_score": 1,
-    "mention_score_decayed": 0.69,
+    "mention_score_decayed": 0.68,
     "last_main_idea": "The current market behavior, while bubbly, is distinct from past bubbles and may disproportionately impact venture capital and private equity firms due to aggressive investment strategies.",
     "last_proof_cite": "All-In with Chamath, Jason, Sacks & Friedberg \u2022 2026-07-20 \u2022 Mark Cuban on the AI Bubble: Who Actually Gets Wiped Out?",
     "last_proof_snippet": "You and I live through a couple of bubbles. We've seen this movie before. And this wave seems very different than the dot com wave. So let's talk about that. Are you concerned about a bubble? We're seeing bubbly like behavior people. It's n",
@@ -38976,7 +39070,7 @@ const dashboardData = {
     "last_podcast_name": "The a16z Show",
     "last_episode_date": "2026-07-20",
     "mention_score": 1,
-    "mention_score_decayed": 0.68,
+    "mention_score_decayed": 0.66,
     "last_main_idea": "Invest in open source AI platforms and local AI models to capitalize on the growing demand for privacy-preserving, cost-efficient AI solutions and the potential shift towards model routing.",
     "last_proof_cite": "The a16z Show \u2022 2026-07-20 \u2022 Hugging Face's CEO on Open Source AI, Model Routing, and the Future of Competition",
     "last_proof_snippet": "I think this relation is a very common practice that everyone is using. It's something that everyone uses, but that is not the main reason for success. Like if you suck, you suck without this relation. It's hard for me to say, like, oh, poo",
@@ -39285,7 +39379,7 @@ const dashboardData = {
     "last_podcast_name": "Moonshots with Peter Diamandis",
     "last_episode_date": "2026-07-17",
     "mention_score": 1,
-    "mention_score_decayed": 0.63,
+    "mention_score_decayed": 0.62,
     "last_main_idea": "Investing in AI companies that focus on customization and small language models can provide significant returns as these technologies meet current market demands and have the potential to shape the future of AI.",
     "last_proof_cite": "Moonshots with Peter Diamandis \u2022 2026-07-17 \u2022 Mira Murati's 975B Open Model, Ramin Hasani on Post-Transformer AI, and Demis' AI FINRA | EP #271",
     "last_proof_snippet": "Miramoradi, the former OpenAI CTO, just shipped her first model. It's called Inkling, customization over leaderboard dominance is what's going to win her the day. She's built exactly the thing hitting the market that exactly what everybody",
@@ -40306,7 +40400,7 @@ const dashboardData = {
     "last_podcast_name": "Monetary Matters with Jack Farley",
     "last_episode_date": "2026-07-04",
     "mention_score": 1,
-    "mention_score_decayed": 0.47,
+    "mention_score_decayed": 0.46,
     "last_main_idea": "Invest in multi-family and senior housing to capitalize on demographic shifts, and focus on industrial properties to benefit from e-commerce growth.",
     "last_proof_cite": "Monetary Matters with Jack Farley \u2022 2026-07-04 \u2022 The Real Estate Cycle Is Turning | Josh Pristaw on The New Cycle in Real Estate, Opportunity in Senior Living, Why AI Data Centers Are Too Big For Most Investors",
     "last_proof_snippet": "Today's episode is brought to you by the Fundrise Income Fund. You'll hear more about the income fund later in the show, but for now, let's get into today's interview. Today we're going to be talking all things real estate. I'm joined by Jo",
@@ -41489,7 +41583,7 @@ const dashboardData = {
     "last_podcast_name": "Latent Space: The AI Engineer Podcast",
     "last_episode_date": "2026-06-01",
     "mention_score": 1,
-    "mention_score_decayed": 0.32,
+    "mention_score_decayed": 0.31,
     "last_main_idea": "Invest in AI companies that prioritize language integration with video generation and have efficient training processes to capitalize on the evolving capabilities of generative AI.",
     "last_proof_cite": "Latent Space: The AI Engineer Podcast \u2022 2026-06-01 \u2022 Why Video Agent models are next \u2014 Ethan He, xAI Grok Imagine",
     "last_proof_snippet": "Okay, we're here in a studio with Eden Ha, most recently of XCI. Welcome. Yeah, thank you, glad being here. We were so here with Vibu. You were first coming to us or joining Lily in Space World because you were working on Cosmos in a video",
@@ -41550,7 +41644,7 @@ const dashboardData = {
     "last_podcast_name": "Monetary Matters with Jack Farley",
     "last_episode_date": "2026-06-18",
     "mention_score": 1,
-    "mention_score_decayed": 0.32,
+    "mention_score_decayed": 0.31,
     "last_main_idea": "Invest in U.S. industrial champions with strong order backlogs and companies positioned to benefit from the electrification and modernization of the U.S. grid.",
     "last_proof_cite": "Monetary Matters with Jack Farley \u2022 2026-06-18 \u2022 The US Manufacturing and Electrification Megatrends Are Here and They\u2019re Way More Than AI | Chris Semenuk",
     "last_proof_snippet": "The U.S. manufacturing has essentially been in a recession for three straight years and we have only just emerged now. If I had a CMMI survey, just reached about 50 in the last three months. And that's after three consecutive years of sub-5",
@@ -42962,7 +43056,7 @@ const dashboardData = {
     "last_podcast_name": "All-In with Chamath, Jason, Sacks & Friedberg",
     "last_episode_date": "2026-06-03",
     "mention_score": 1,
-    "mention_score_decayed": 0.23,
+    "mention_score_decayed": 0.22,
     "last_main_idea": "Invest in long-term, durable business quality and undervalued companies with strong fundamentals, particularly in the AI sector.",
     "last_proof_cite": "All-In with Chamath, Jason, Sacks & Friedberg \u2022 2026-06-03 \u2022 Bill Ackman: Investment Strategy, What the Market is Missing, How AI Breaks Businesses",
     "last_proof_snippet": "One of the most provocative and interesting investors in the country. A legendary activist investor. Pershing square CEO and founder Bill Acling. Taking a short position and going public with it is a pretty serious business. Interestingly,",
@@ -43460,7 +43554,7 @@ const dashboardData = {
     "last_podcast_name": "Macro Voices",
     "last_episode_date": "2026-05-21",
     "mention_score": 1,
-    "mention_score_decayed": 0.17,
+    "mention_score_decayed": 0.16,
     "last_main_idea": "Investors should prepare for potential oil price volatility and consider hedging strategies, while also looking for investment opportunities in companies improving inventory efficiency and energy infrastructure projects.",
     "last_proof_cite": "Macro Voices \u2022 2026-05-21 \u2022 MacroVoices #533 Morgan Downey: The Return of Oil 101",
     "last_proof_snippet": "This is Macrovoisers, the Free Weekly Financial Podcast, targeting professional finance, high-net worth individuals, family offices, and other sophisticated investors. Macrovoisers is all about the brightest minds in the world of finance an",
@@ -43892,7 +43986,7 @@ const dashboardData = {
     "last_podcast_name": "Dwarkesh Podcast",
     "last_episode_date": "2026-05-15",
     "mention_score": 1,
-    "mention_score_decayed": 0.15,
+    "mention_score_decayed": 0.14,
     "last_main_idea": "Invest in AI technologies that leverage advancements in MCTS and reduced compute requirements to create scalable and efficient solutions in various industries.",
     "last_proof_cite": "Dwarkesh Podcast \u2022 2026-05-15 \u2022 Eric Jang \u2013 Building AlphaGo from scratch",
     "last_proof_snippet": "Today I'm here with Eric Jeng, who was most recently Vice President of AI at one ex-technologies, before that senior research scientist at what is now Google DeepMind Robotics, and you've been on sabbatical for the last few months. One of t",
@@ -43956,7 +44050,7 @@ const dashboardData = {
     "last_podcast_name": "Monetary Matters with Jack Farley",
     "last_episode_date": "2026-05-15",
     "mention_score": 1,
-    "mention_score_decayed": 0.15,
+    "mention_score_decayed": 0.14,
     "last_main_idea": "The current market rally in US stocks presents an opportunity for long positions, while the agricultural commodities sector offers a strategic investment due to global supply chain disruptions and geopolitical tensions.",
     "last_proof_cite": "Monetary Matters with Jack Farley \u2022 2026-05-15 \u2022 \u201cYou Don\u2019t Sell Blow-offs\u201d | Andrew Perry on Bullish Technicals of U.S. Stock Market, \u201cDangerous\u201d Period for Global Equities, and Bull Case for Agricultural Commodities",
     "last_proof_snippet": "Today's episode is brought to you by the two Korean corn fund, take our CORN. Let's get into it. I'm joined by Andrew Perry, veteran macro investors. He has worked at the top macro hedge funds, all the big banks, Andrew, welcome to monetary",
@@ -44333,7 +44427,7 @@ const dashboardData = {
     "last_podcast_name": "Monetary Matters with Jack Farley",
     "last_episode_date": "2026-05-12",
     "mention_score": 1,
-    "mention_score_decayed": 0.14,
+    "mention_score_decayed": 0.13,
     "last_main_idea": "Invest in private credit funds that capitalize on the retreat of banks from riskier, smaller loans due to regulatory pressures, and consider preferred equity structures for upside potential with downside protection.",
     "last_proof_cite": "Monetary Matters with Jack Farley \u2022 2026-05-12 \u2022 Lending Where the Banks Won\u2019t Go: What\u2019s Fueling Europe\u2019s Growing Real Estate Private Credit Market?",
     "last_proof_snippet": "The dominant media narrative at the moment is direct lending and private credit, a virtually synonymous, but that is obviously not how the industry is structured, but what is definitely true is that direct lending has taken the vast majorit",
@@ -44518,7 +44612,7 @@ const dashboardData = {
     "last_podcast_name": "Dwarkesh Podcast",
     "last_episode_date": "2026-05-08",
     "mention_score": 1,
-    "mention_score_decayed": 0.13,
+    "mention_score_decayed": 0.12,
     "last_main_idea": "Invest in genetic research companies leveraging large datasets and innovative methodologies to uncover insights about human evolution and health.",
     "last_proof_cite": "Dwarkesh Podcast \u2022 2026-05-08 \u2022 David Reich \u2013 Why the Bronze Age was an inflection point in human evolution",
     "last_proof_snippet": "I am back with David Reich, who is a professor of ancient DNA at Harvard. How do you describe what it is that you study? I'm a geneticist and I work on human history and how people relate to ancient people relate to each other and people li",
@@ -46277,7 +46371,7 @@ const dashboardData = {
     "last_podcast_name": "The a16z Show",
     "last_episode_date": "2026-04-22",
     "mention_score": 1,
-    "mention_score_decayed": 0.09,
+    "mention_score_decayed": 0.08,
     "last_main_idea": "Invest in technologies and platforms that leverage cryptography and blockchain to provide verifiable information and restore trust in digital content.",
     "last_proof_cite": "The a16z Show \u2022 2026-04-22 \u2022 Balaji Srinivasan: Prove Correct, Not Just Go Direct",
     "last_proof_snippet": "The growing distrust in media is due to the increasing cost of verifying content as synthetic content floods systems.",

@@ -22,6 +22,29 @@
       "podcast_episode_id": 390
     },
     {
+      "id": 406,
+      "title": "8 Predictions for the Era of Continual Learning",
+      "source_type": "podcast",
+      "source_name": "Dwarkesh Podcast",
+      "source_date": "2026-08-07",
+      "summary": "This podcast episode explores the concept of continual learning in AI and its implications for job performance, regulation, and the competitive landscape. The discussion highlights the need for AI to learn continuously from different workplaces to accumulate relevant experience, similar to human learning. It also addresses the challenges that continual learning poses to current AI regulation proposals and the potential for increased economies of scale in AI due to batching advantages in inference.",
+      "key_takeaway": "Invest in AI companies prioritizing continual learning and technical alignment to stay competitive in the evolving AI landscape.",
+      "tickers_mentioned": [
+        "AAPL",
+        "GOOGL",
+        "MSFT",
+        "AMZN",
+        "TSLA"
+      ],
+      "sentiment": "neutral",
+      "display_on_main": 1,
+      "display_order": 0,
+      "added_date": "2026-08-07",
+      "archived_date": null,
+      "archived_reason": null,
+      "podcast_episode_id": 391
+    },
+    {
       "id": 404,
       "title": "How Open-Source AI Became Critical Infrastructure",
       "source_type": "podcast",
@@ -177,7 +200,7 @@
         "AMD"
       ],
       "sentiment": "bullish",
-      "display_on_main": 1,
+      "display_on_main": 0,
       "display_order": 0,
       "added_date": "2026-08-03",
       "archived_date": null,
@@ -9527,8 +9550,8 @@
       "term": "AI Race",
       "description": "The global competition among nations to lead in artificial intelligence development and application.",
       "first_detected_date": "2026-03-11",
-      "last_mentioned_date": "2026-08-04",
-      "mention_count": 24,
+      "last_mentioned_date": "2026-08-07",
+      "mention_count": 25,
       "source_podcasts": null,
       "status": "active",
       "investment_implications": "Investing in companies at the forefront of AI could yield significant returns as the technology becomes more pervasive.",
@@ -9537,7 +9560,7 @@
       "archived_reason": null,
       "first_detected_episode_id": 60,
       "first_detected_speaker": null,
-      "last_mentioned_episode_id": 386,
+      "last_mentioned_episode_id": 391,
       "last_mentioned_speaker": "Michael Kratsios"
     },
     {
