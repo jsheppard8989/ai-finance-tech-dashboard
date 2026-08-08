@@ -3,80 +3,80 @@
 
 const dashboardData = {
   schemaVersion: 2,
-  generatedAt: "2026-08-07T23:42:04.077809",
-  chartsVersion: "2026-08-07T23:41:48.738380",
+  generatedAt: "2026-08-08T05:03:05.259392",
+  chartsVersion: "2026-08-08T05:03:00.433313",
   priceSnapshot: {
   "GOOGL": {
     "price": 354.3,
     "change_pct": 2.06,
     "name": "GOOGL",
-    "updated_at": "2026-08-07T23:41:48.737937"
+    "updated_at": "2026-08-08T05:03:00.432853"
   },
   "NVDA": {
     "price": 223.96,
     "change_pct": 8.04,
     "name": "NVDA",
-    "updated_at": "2026-08-07T23:41:48.737947"
+    "updated_at": "2026-08-08T05:03:00.432862"
   },
   "BTC": {
-    "price": 65015.9,
-    "change_pct": -0.5,
+    "price": 64955.28,
+    "change_pct": -0.59,
     "name": "BTC",
-    "updated_at": "2026-08-07T23:41:48.737952"
+    "updated_at": "2026-08-08T05:03:00.432866"
   },
   "MSFT": {
     "price": 499.99,
     "change_pct": 25.7,
     "name": "MSFT",
-    "updated_at": "2026-08-07T23:41:48.737955"
+    "updated_at": "2026-08-08T05:03:00.432870"
   },
   "TSLA": {
     "price": 328.58,
     "change_pct": -13.29,
     "name": "TSLA",
-    "updated_at": "2026-08-07T23:41:48.737959"
+    "updated_at": "2026-08-08T05:03:00.432874"
   },
   "AMZN": {
     "price": 274.48,
     "change_pct": 10.88,
     "name": "AMZN",
-    "updated_at": "2026-08-07T23:41:48.737962"
+    "updated_at": "2026-08-08T05:03:00.432878"
   },
   "META": {
     "price": 592.1,
     "change_pct": -8.03,
     "name": "META",
-    "updated_at": "2026-08-07T23:41:48.737965"
+    "updated_at": "2026-08-08T05:03:00.432881"
   },
   "WTI": {
     "price": 3.43,
     "change_pct": -5.51,
     "name": "WTI",
-    "updated_at": "2026-08-07T23:41:48.737968"
+    "updated_at": "2026-08-08T05:03:00.432885"
   },
   "S&P 500": {
     "price": 773.26,
     "change_pct": 3.34,
     "name": "S&P 500",
-    "updated_at": "2026-08-07T23:41:48.737971"
+    "updated_at": "2026-08-08T05:03:00.432888"
   },
   "AAPL": {
     "price": 313.33,
     "change_pct": -4.4,
     "name": "AAPL",
-    "updated_at": "2026-08-07T23:41:48.737975"
+    "updated_at": "2026-08-08T05:03:00.432891"
   },
   "QQQ": {
     "price": 723.03,
     "change_pct": 1.98,
     "name": "Invesco QQQ Trust",
-    "updated_at": "2026-08-07T23:41:48.737978"
+    "updated_at": "2026-08-08T05:03:00.432894"
   },
   "BTC-USD": {
-    "price": 65015.9,
-    "change_pct": -0.5,
+    "price": 64955.28,
+    "change_pct": -0.59,
     "name": "Bitcoin USD",
-    "updated_at": "2026-08-07T23:41:48.737981"
+    "updated_at": "2026-08-08T05:03:00.432898"
   }
 },
   tickerScores: [
@@ -8662,7 +8662,7 @@ const dashboardData = {
       "source_podcasts": null,
       "status": "active",
       "investment_implications": "Having skin in the game can align incentives and encourage more prudent risk management in investment strategies.",
-      "display_on_main": 0,
+      "display_on_main": 1,
       "archived_date": null,
       "archived_reason": null,
       "first_detected_episode_id": 384,
@@ -8680,7 +8680,7 @@ const dashboardData = {
       "source_podcasts": null,
       "status": "active",
       "investment_implications": "Stablecoins are seen as a rival to traditional payment networks and could disrupt global finance.",
-      "display_on_main": 0,
+      "display_on_main": 1,
       "archived_date": null,
       "archived_reason": null,
       "first_detected_episode_id": 379,
@@ -8932,7 +8932,7 @@ const dashboardData = {
       "source_podcasts": null,
       "status": "active",
       "investment_implications": "Investors should focus on companies involved in the electrification of the grid and power generation, as demand for electricity is projected to increase.",
-      "display_on_main": 0,
+      "display_on_main": 1,
       "archived_date": null,
       "archived_reason": null,
       "first_detected_episode_id": 297,
@@ -11108,7 +11108,7 @@ const dashboardData = {
       "first_detected_speaker": "Demis Hassabis",
       "last_mentioned_episode_id": 389,
       "last_mentioned_speaker": "Simon Mow",
-      "overton_score": 67.42,
+      "overton_score": 65.88,
       "resonance_pct": 100,
       "first_detected_podcast": "Moonshots with Peter Diamandis",
       "first_detected_episode_title": "Demis Hassabis on AGI, Robots Scale Production, and Elon\u2019s $1T Mars-Shot Comp | EP #253",
@@ -11134,7 +11134,7 @@ const dashboardData = {
       "first_detected_speaker": null,
       "last_mentioned_episode_id": 366,
       "last_mentioned_speaker": "Day Blenden, Sleam Ismail",
-      "overton_score": 15.92,
+      "overton_score": 15.56,
       "resonance_pct": 100,
       "first_detected_podcast": "Moonshots with Peter Diamandis",
       "first_detected_episode_title": "SpaceX\u2019 $75B+ Historic IPO, GPT 5.5 Outperforms Polymarket, and AI Solves 80 yr old math problem | EP #257",
@@ -11160,7 +11160,7 @@ const dashboardData = {
       "first_detected_speaker": "Peter Diamandis",
       "last_mentioned_episode_id": 386,
       "last_mentioned_speaker": "Michael Kratsios",
-      "overton_score": 14.0,
+      "overton_score": 13.68,
       "resonance_pct": 100,
       "first_detected_podcast": "Moonshots with Peter Diamandis",
       "first_detected_episode_title": "Emerging Situation: Anthropic's Global Pause, Recursive Self-Improvement Arrives, and AI Personhood Arrives | EP #263",
@@ -11186,7 +11186,7 @@ const dashboardData = {
       "first_detected_speaker": "Chamath Palihapitiya, Jason Calacanis (hosts)",
       "last_mentioned_episode_id": 392,
       "last_mentioned_speaker": "Daya Pernos, Dean Pernos",
-      "overton_score": 14.0,
+      "overton_score": 13.68,
       "resonance_pct": 100,
       "first_detected_podcast": "All-In with Chamath, Jason, Sacks & Friedberg",
       "first_detected_episode_title": "World's First Trillionaire, Anthropic Fable Banned, The New Oligarchs, Iran Peace Deal",
@@ -11212,7 +11212,7 @@ const dashboardData = {
       "first_detected_speaker": null,
       "last_mentioned_episode_id": 377,
       "last_mentioned_speaker": "Jesse Zang, Ashwin Srinivas",
-      "overton_score": 9.36,
+      "overton_score": 9.14,
       "resonance_pct": 100,
       "first_detected_podcast": "Moonshots with Peter Diamandis",
       "first_detected_episode_title": "Pope Leo vs. AI, GPT 5.5 Beats Claude, and Sam Altman Walks Back Job Apocalypse | EP #259",
@@ -11238,7 +11238,7 @@ const dashboardData = {
       "first_detected_speaker": "Leakwet Ahamed",
       "last_mentioned_episode_id": 378,
       "last_mentioned_speaker": "Chamath Palihapitiya, Jason Calacanis (hosts)",
-      "overton_score": 5.1,
+      "overton_score": 4.99,
       "resonance_pct": 100,
       "first_detected_podcast": "Monetary Matters with Jack Farley",
       "first_detected_episode_title": "Rothschilds, Railroads, & Ruin | Liaquat Ahamed on \u201c1873\u201d (New Book!)",
@@ -11264,8 +11264,8 @@ const dashboardData = {
       "first_detected_speaker": "Travis Kalanick, Ben Horowitz",
       "last_mentioned_episode_id": 388,
       "last_mentioned_speaker": "Dino Ceranic, Vib Altacar",
-      "overton_score": 3.82,
-      "resonance_pct": 96,
+      "overton_score": 3.73,
+      "resonance_pct": 93,
       "first_detected_podcast": "The a16z Show",
       "first_detected_episode_title": "Travis Kalanick Is Back | Building the Future of Industrial AI",
       "first_detected_episode_date": "2026-07-22",
@@ -11290,8 +11290,8 @@ const dashboardData = {
       "first_detected_speaker": "Alex Wees, Sly Miss Mail, E-Modemoo",
       "last_mentioned_episode_id": 383,
       "last_mentioned_speaker": "Philip, Ali",
-      "overton_score": 2.74,
-      "resonance_pct": 68,
+      "overton_score": 2.67,
+      "resonance_pct": 67,
       "first_detected_podcast": "Moonshots with Peter Diamandis",
       "first_detected_episode_title": "Urgent Update- AI Sputnik Moment: Kimi K3 Released w/ Emad Mostaque | Ep. 272",
       "first_detected_episode_date": "2026-07-19",
@@ -11316,8 +11316,8 @@ const dashboardData = {
       "first_detected_speaker": null,
       "last_mentioned_episode_id": 354,
       "last_mentioned_speaker": "Ramine Hassani",
-      "overton_score": 2.46,
-      "resonance_pct": 62,
+      "overton_score": 2.41,
+      "resonance_pct": 60,
       "first_detected_podcast": "The a16z Show",
       "first_detected_episode_title": "The New Rules of Media | Marc Andreessen & Ben Horowitz",
       "first_detected_episode_date": "2026-06-19",
@@ -11342,8 +11342,8 @@ const dashboardData = {
       "first_detected_speaker": "Andrew Feldman",
       "last_mentioned_episode_id": 370,
       "last_mentioned_speaker": "Josh Elman",
-      "overton_score": 2.38,
-      "resonance_pct": 60,
+      "overton_score": 2.33,
+      "resonance_pct": 58,
       "first_detected_podcast": "Moonshots with Peter Diamandis",
       "first_detected_episode_title": "Google I/O 2026, Karpathy Joins Anthropic, and Cerebras\u2019 $95B IPO | EP #256",
       "first_detected_episode_date": "2026-05-21",
@@ -11368,8 +11368,8 @@ const dashboardData = {
       "first_detected_speaker": "Ramine Hassani",
       "last_mentioned_episode_id": 366,
       "last_mentioned_speaker": "Day Blenden, Sleam Ismail",
-      "overton_score": 2.17,
-      "resonance_pct": 54,
+      "overton_score": 2.12,
+      "resonance_pct": 53,
       "first_detected_podcast": "Moonshots with Peter Diamandis",
       "first_detected_episode_title": "Mira Murati's 975B Open Model, Ramin Hasani on Post-Transformer AI, and Demis' AI FINRA | EP #271",
       "first_detected_episode_date": "2026-07-17",
@@ -11378,56 +11378,56 @@ const dashboardData = {
       "last_mentioned_episode_date": "2026-07-24"
     },
     {
-      "id": 220,
-      "term": "Local processing",
-      "description": "The ability to process data and run AI models directly on local devices, reducing reliance on cloud computing and enhancing privacy.",
-      "first_detected_date": "2026-06-02",
-      "last_mentioned_date": "2026-07-20",
-      "mention_count": 3,
-      "source_podcasts": null,
-      "status": "active",
-      "investment_implications": "Investors should monitor the growth of local AI models for potential investment opportunities in privacy-preserving and cost-efficient AI solutions.",
-      "display_on_main": 1,
-      "archived_date": null,
-      "archived_reason": null,
-      "first_detected_episode_id": 255,
-      "first_detected_speaker": "Steven Sinofsky",
-      "last_mentioned_episode_id": 358,
-      "last_mentioned_speaker": "Clement DeLong",
-      "overton_score": 1.98,
-      "resonance_pct": 50,
-      "first_detected_podcast": "The a16z Show",
-      "first_detected_episode_title": "Steven Sinofsky on Apple at 50, Microsoft, and the Future of Computing",
-      "first_detected_episode_date": "2026-06-02",
-      "last_mentioned_podcast": "The a16z Show",
-      "last_mentioned_episode_title": "Hugging Face's CEO on Open Source AI, Model Routing, and the Future of Competition",
-      "last_mentioned_episode_date": "2026-07-20"
-    },
-    {
-      "id": 49,
-      "term": "Recursive Self-Improvement (RSI)",
-      "description": "The process by which AI models improve their own intelligence and capabilities over time, potentially leading to rapid advancements in AI capabilities.",
-      "first_detected_date": "2026-03-20",
-      "last_mentioned_date": "2026-08-04",
+      "id": 266,
+      "term": "Electrification",
+      "description": "The process of converting systems or industries to use electricity as the primary power source.",
+      "first_detected_date": "2026-06-18",
+      "last_mentioned_date": "2026-08-07",
       "mention_count": 2,
       "source_podcasts": null,
       "status": "active",
-      "investment_implications": "Understanding the pace and implications of RSI can help investors anticipate shifts in the AI landscape and its impact on various sectors.",
+      "investment_implications": "Investors should focus on companies involved in the electrification of the grid and power generation, as demand for electricity is projected to increase.",
       "display_on_main": 1,
       "archived_date": null,
       "archived_reason": null,
-      "first_detected_episode_id": null,
-      "first_detected_speaker": null,
-      "last_mentioned_episode_id": 385,
-      "last_mentioned_speaker": "Joshua Ahoyom",
-      "overton_score": 1.87,
-      "resonance_pct": 47,
-      "first_detected_podcast": null,
-      "first_detected_episode_title": null,
-      "first_detected_episode_date": null,
-      "last_mentioned_podcast": "The a16z Show",
-      "last_mentioned_episode_title": "OpenAI's Joshua Achiam: Did We Already Reach AGI?",
-      "last_mentioned_episode_date": "2026-08-04"
+      "first_detected_episode_id": 297,
+      "first_detected_speaker": "Chris Seminoch",
+      "last_mentioned_episode_id": 392,
+      "last_mentioned_speaker": "Daya Pernos, Dean Pernos",
+      "overton_score": 1.95,
+      "resonance_pct": 49,
+      "first_detected_podcast": "Monetary Matters with Jack Farley",
+      "first_detected_episode_title": "The US Manufacturing and Electrification Megatrends Are Here and They\u2019re Way More Than AI | Chris Semenuk",
+      "first_detected_episode_date": "2026-06-18",
+      "last_mentioned_podcast": "Monetary Matters with Jack Farley",
+      "last_mentioned_episode_title": "Misunderstood Stocks in Data Center Power, Cybersecurity, and Payments | Dean & Deiya Pernas",
+      "last_mentioned_episode_date": "2026-08-07"
+    },
+    {
+      "id": 267,
+      "term": "Stablecoins",
+      "description": "Cryptocurrencies pegged to a stable asset, like the US dollar, to minimize volatility.",
+      "first_detected_date": "2026-08-01",
+      "last_mentioned_date": "2026-08-07",
+      "mention_count": 2,
+      "source_podcasts": null,
+      "status": "active",
+      "investment_implications": "Stablecoins are seen as a rival to traditional payment networks and could disrupt global finance.",
+      "display_on_main": 1,
+      "archived_date": null,
+      "archived_reason": null,
+      "first_detected_episode_id": 379,
+      "first_detected_speaker": "Mark Andrewson, Chris Dixon",
+      "last_mentioned_episode_id": 392,
+      "last_mentioned_speaker": "Daya Pernos, Dean Pernos",
+      "overton_score": 1.95,
+      "resonance_pct": 49,
+      "first_detected_podcast": "The a16z Show",
+      "first_detected_episode_title": "Marc Andreessen and Chris Dixon: What\u2019s at Stake in Crypto Regulation",
+      "first_detected_episode_date": "2026-08-01",
+      "last_mentioned_podcast": "Monetary Matters with Jack Farley",
+      "last_mentioned_episode_title": "Misunderstood Stocks in Data Center Power, Cybersecurity, and Payments | Dean & Deiya Pernas",
+      "last_mentioned_episode_date": "2026-08-07"
     }
   ]
 },
@@ -35507,7 +35507,7 @@ const dashboardData = {
 ],
   podcastGuests: [
   {
-    "id": 45866,
+    "id": 45978,
     "name": "How Open",
     "slug": "how-open",
     "bio": null,
@@ -35519,7 +35519,7 @@ const dashboardData = {
     "appearance_count": 1
   },
   {
-    "id": 45867,
+    "id": 45979,
     "name": "Saronic Founders",
     "slug": "saronic-founders",
     "bio": null,
@@ -35531,7 +35531,7 @@ const dashboardData = {
     "appearance_count": 1
   },
   {
-    "id": 45868,
+    "id": 45980,
     "name": "OpenAI's Joshua Achiam",
     "slug": "openais-joshua-achiam",
     "bio": null,
@@ -35543,7 +35543,7 @@ const dashboardData = {
     "appearance_count": 1
   },
   {
-    "id": 45869,
+    "id": 45981,
     "name": "Why Macro is \u201cPretty Risk-On\u201d for Equities",
     "slug": "why-macro-is-pretty-risk-on-for-equities",
     "bio": null,
@@ -35555,7 +35555,7 @@ const dashboardData = {
     "appearance_count": 1
   },
   {
-    "id": 45870,
+    "id": 45982,
     "name": "AI for America's Small Businesses",
     "slug": "ai-for-americas-small-businesses",
     "bio": null,
@@ -35567,7 +35567,7 @@ const dashboardData = {
     "appearance_count": 1
   },
   {
-    "id": 45871,
+    "id": 45983,
     "name": "Mum\u2019s The Word",
     "slug": "mums-the-word",
     "bio": null,
@@ -35579,7 +35579,7 @@ const dashboardData = {
     "appearance_count": 1
   },
   {
-    "id": 45872,
+    "id": 45984,
     "name": "Luke Gromen",
     "slug": "luke-gromen",
     "bio": null,
@@ -35591,7 +35591,7 @@ const dashboardData = {
     "appearance_count": 1
   },
   {
-    "id": 45873,
+    "id": 45985,
     "name": "Codex from 0 to 10M Users",
     "slug": "codex-from-0-to-10m-users",
     "bio": null,
@@ -35603,7 +35603,7 @@ const dashboardData = {
     "appearance_count": 1
   },
   {
-    "id": 45874,
+    "id": 45986,
     "name": "Ben Horowitz",
     "slug": "ben-horowitz",
     "bio": "Ben Horowitz is a co-founder of venture firm Andreessen Horowitz and former CEO of Opsware, known for advising founders on leadership under pressure.",
@@ -35615,7 +35615,7 @@ const dashboardData = {
     "appearance_count": 3
   },
   {
-    "id": 45875,
+    "id": 45987,
     "name": "Building the Physical AI Stack",
     "slug": "building-the-physical-ai-stack",
     "bio": null,
@@ -35627,7 +35627,7 @@ const dashboardData = {
     "appearance_count": 1
   },
   {
-    "id": 45876,
+    "id": 45988,
     "name": "Travis Kalanick Is Back",
     "slug": "travis-kalanick-is-back",
     "bio": null,
@@ -35639,7 +35639,7 @@ const dashboardData = {
     "appearance_count": 1
   },
   {
-    "id": 45877,
+    "id": 45989,
     "name": "Why Physical AI Is the Next Frontier",
     "slug": "why-physical-ai-is-the-next-frontier",
     "bio": null,
@@ -35651,7 +35651,7 @@ const dashboardData = {
     "appearance_count": 1
   },
   {
-    "id": 45878,
+    "id": 45990,
     "name": "Nick Nemeth",
     "slug": "nick-nemeth",
     "bio": null,
@@ -35663,7 +35663,7 @@ const dashboardData = {
     "appearance_count": 1
   },
   {
-    "id": 45879,
+    "id": 45991,
     "name": "Mark Cuban on the AI Bubble",
     "slug": "mark-cuban-on-the-ai-bubble",
     "bio": null,
@@ -35675,7 +35675,7 @@ const dashboardData = {
     "appearance_count": 1
   },
   {
-    "id": 45880,
+    "id": 45992,
     "name": "Urgent Update- AI Sputnik Moment",
     "slug": "urgent-update--ai-sputnik-moment",
     "bio": null,
@@ -35687,7 +35687,7 @@ const dashboardData = {
     "appearance_count": 1
   },
   {
-    "id": 45881,
+    "id": 45993,
     "name": "Replay 2025",
     "slug": "replay-2025",
     "bio": null,
@@ -35699,7 +35699,7 @@ const dashboardData = {
     "appearance_count": 1
   },
   {
-    "id": 45882,
+    "id": 45994,
     "name": "Turbo Charged Trend Following",
     "slug": "turbo-charged-trend-following",
     "bio": null,
@@ -35711,7 +35711,7 @@ const dashboardData = {
     "appearance_count": 1
   },
   {
-    "id": 45883,
+    "id": 45995,
     "name": "Can Anyone Catch NVIDIA?",
     "slug": "can-anyone-catch-nvidia",
     "bio": null,
@@ -35723,7 +35723,7 @@ const dashboardData = {
     "appearance_count": 1
   },
   {
-    "id": 45884,
+    "id": 45996,
     "name": "Is AI a Bubble?",
     "slug": "is-ai-a-bubble",
     "bio": null,
@@ -35735,7 +35735,7 @@ const dashboardData = {
     "appearance_count": 1
   },
   {
-    "id": 45885,
+    "id": 45997,
     "name": "Adam Brown \u2013 Einstein's happiest thought",
     "slug": "adam-brown--einsteins-happiest-thought",
     "bio": null,
@@ -36772,7 +36772,7 @@ const dashboardData = {
     "last_podcast_name": "Moonshots with Peter Diamandis",
     "last_episode_date": "2026-04-28",
     "mention_score": 2,
-    "mention_score_decayed": 0.2,
+    "mention_score_decayed": 0.19,
     "last_main_idea": "Investing in longevity and healthspan technologies and therapies offers significant growth potential as scientific advancements continue to extend human lifespan and improve quality of life.",
     "last_proof_cite": "Moonshots with Peter Diamandis \u2022 2026-04-28 \u2022 David Sinclair: The GLP-1 Side Effect No One Talks About, What AI Found in His Lab, and Reversing Blindness | Q&A EP #251",
     "last_proof_snippet": "AI-driven drug design is accelerating research by analyzing billions of molecules for potential therapeutic uses.",
@@ -36992,7 +36992,7 @@ const dashboardData = {
     "last_podcast_name": "MacroVoices",
     "last_episode_date": "2026-03-19",
     "mention_score": 2,
-    "mention_score_decayed": 0.1,
+    "mention_score_decayed": 0.09,
     "last_main_idea": "The Iran conflict could lead to a renewed inflation cycle, affecting commodities and energy markets, with potential second-order effects that markets may currently be underpricing.",
     "last_proof_cite": "MacroVoices \u2022 2026-03-19 \u2022 MacroVoices-2026-03-19-Simon-White",
     "last_proof_snippet": "Simon White suggests that markets may be underpricing the second-order effects of the Iran conflict.",
@@ -38596,7 +38596,7 @@ const dashboardData = {
     "last_podcast_name": "The a16z Show",
     "last_episode_date": "2026-07-29",
     "mention_score": 1,
-    "mention_score_decayed": 0.83,
+    "mention_score_decayed": 0.81,
     "last_main_idea": "Investing in AI-native entertainment presents an opportunity to capitalize on the shift towards generative media and the democratization of content creation.",
     "last_proof_cite": "The a16z Show \u2022 2026-07-29 \u2022 AI Micro Dramas, Generative Media, and the Future of Creativity",
     "last_proof_snippet": "I think folks would be surprised by how many TV shows and movies today already have some element of AI being used. I spend a lot of time with studio execs and Amazon and Netflix have already both announced programs for fully-AI-generated an",
@@ -38656,7 +38656,7 @@ const dashboardData = {
     "last_podcast_name": "All-In with Chamath, Jason, Sacks & Friedberg",
     "last_episode_date": "2026-07-28",
     "mention_score": 1,
-    "mention_score_decayed": 0.83,
+    "mention_score_decayed": 0.81,
     "last_main_idea": "Investing in robotics and AI companies that are successfully transitioning from research to real-world applications could offer significant growth potential as these technologies become more integrated into various industries.",
     "last_proof_cite": "All-In with Chamath, Jason, Sacks & Friedberg \u2022 2026-07-28 \u2022 The $1/Hour Worker: Four Robotics CEOs on Humanoids at Home, China's Threat, and the End of Dangerous Jobs",
     "last_proof_snippet": "Hey everybody, it's your boy Jake Al, I'm here in Paris, France at a conference called Makina, basically AI in the real world. Pardon my robot. Thanks for tuning in, and let's get started. Apple ovens started with an $8 domain and no VC fun",
@@ -38715,7 +38715,7 @@ const dashboardData = {
     "last_podcast_name": "All-In with Chamath, Jason, Sacks & Friedberg",
     "last_episode_date": "2026-07-28",
     "mention_score": 1,
-    "mention_score_decayed": 0.83,
+    "mention_score_decayed": 0.81,
     "last_main_idea": "Investing in robotics and AI companies that are successfully transitioning from research to real-world applications could offer significant growth potential as these technologies become more integrated into various industries.",
     "last_proof_cite": "All-In with Chamath, Jason, Sacks & Friedberg \u2022 2026-07-28 \u2022 The $1/Hour Worker: Four Robotics CEOs on Humanoids at Home, China's Threat, and the End of Dangerous Jobs",
     "last_proof_snippet": "Hey everybody, it's your boy Jake Al, I'm here in Paris, France at a conference called Makina, basically AI in the real world. Pardon my robot. Thanks for tuning in, and let's get started. Apple ovens started with an $8 domain and no VC fun",
@@ -38774,7 +38774,7 @@ const dashboardData = {
     "last_podcast_name": "Monetary Matters with Jack Farley",
     "last_episode_date": "2026-07-29",
     "mention_score": 1,
-    "mention_score_decayed": 0.83,
+    "mention_score_decayed": 0.81,
     "last_main_idea": "The Federal Reserve's credibility is at stake, and market reactions to economic data and Fed policy suggest a potential shift in expectations for inflation and interest rates, impacting bond yields and stock market performance.",
     "last_proof_cite": "Monetary Matters with Jack Farley \u2022 2026-07-29 \u2022 Mum\u2019s The Word: Kathryn Rooney Vera on Fed\u2019s Second Meeting under Kevin Warsh, Plus Earnings Breakdown (Live Replay)",
     "last_proof_snippet": "Wow. All right. We are here. We are joined by Katherine Rooney Vera, who's the chief market strategist at Stone X Groups. A lot of views on board markets, everything in macro. We mean we can get to to currencies and bonds. Katherine had a v",
@@ -39954,7 +39954,7 @@ const dashboardData = {
     "last_podcast_name": "All-In with Chamath, Jason, Sacks & Friedberg",
     "last_episode_date": "2026-07-15",
     "mention_score": 1,
-    "mention_score_decayed": 0.6,
+    "mention_score_decayed": 0.59,
     "last_main_idea": "Investing in companies with strong technical leadership and a focus on future-proofing through R&D can yield significant long-term returns.",
     "last_proof_cite": "All-In with Chamath, Jason, Sacks & Friedberg \u2022 2026-07-15 \u2022 Former Intel CEO on What Went Wrong, What's Next + Lovable CEO on the Real Promise of Vibe Coding",
     "last_proof_snippet": "spent a long time in Intel, and only 34 years, 34 years, probably one of the greatest American companies ever, and then, absolutely went off the rails and got absolutely demolished by Nvidia, TSMC, and I guess Apple to a certain extent. So",
@@ -44571,7 +44571,7 @@ const dashboardData = {
     "last_podcast_name": "All-In with Chamath, Jason, Sacks & Friedberg",
     "last_episode_date": "2026-05-12",
     "mention_score": 1,
-    "mention_score_decayed": 0.14,
+    "mention_score_decayed": 0.13,
     "last_main_idea": "Invest in companies that demonstrate a capability-bounded approach, reinvestment in growth, and a culture of learning from failures to capitalize on innovation and long-term success.",
     "last_proof_cite": "All-In with Chamath, Jason, Sacks & Friedberg \u2022 2026-05-12 \u2022 Charles & Chase Koch on How They Quietly Built a $150B Empire",
     "last_proof_snippet": "What an honor to be here. Thank you for hosting us, Forbes, and welcome. This will be put out at the all-in interview. So I'm really excited to share this conversation with everyone on the world, on the internet, and to get some time with C",
@@ -44634,7 +44634,7 @@ const dashboardData = {
     "last_podcast_name": "All-In with Chamath, Jason, Sacks & Friedberg",
     "last_episode_date": "2026-05-12",
     "mention_score": 1,
-    "mention_score_decayed": 0.14,
+    "mention_score_decayed": 0.13,
     "last_main_idea": "Invest in companies that demonstrate a capability-bounded approach, reinvestment in growth, and a culture of learning from failures to capitalize on innovation and long-term success.",
     "last_proof_cite": "All-In with Chamath, Jason, Sacks & Friedberg \u2022 2026-05-12 \u2022 Charles & Chase Koch on How They Quietly Built a $150B Empire",
     "last_proof_snippet": "What an honor to be here. Thank you for hosting us, Forbes, and welcome. This will be put out at the all-in interview. So I'm really excited to share this conversation with everyone on the world, on the internet, and to get some time with C",
@@ -45380,7 +45380,7 @@ const dashboardData = {
     "last_podcast_name": "The a16z Show",
     "last_episode_date": "2026-05-05",
     "mention_score": 1,
-    "mention_score_decayed": 0.12,
+    "mention_score_decayed": 0.11,
     "last_main_idea": "Building a successful investment organization requires compounding talent, capital, and culture over time, focusing on long-term growth rather than short-term gains.",
     "last_proof_cite": "The a16z Show \u2022 2026-05-05 \u2022 Building Blackstone, Backing Costco, with Tony James",
     "last_proof_snippet": "If you think about the development of a successful company, there's kind of an Esker. It starts off small and entrepreneurial. Then there's this kind of escalation where you create a lot of value in a lot of size. People know Blackstone tod",
@@ -49507,7 +49507,7 @@ const dashboardData = {
     "last_podcast_name": "The a16z Show",
     "last_episode_date": "2026-03-25",
     "mention_score": 1,
-    "mention_score_decayed": 0.05,
+    "mention_score_decayed": 0.04,
     "last_main_idea": "Investing in advanced manufacturing and workforce development for submarine production could lead to increased efficiency and meet the growing demand for naval capabilities.",
     "last_proof_cite": "The a16z Show \u2022 2026-03-25 \u2022 Submarine Manufacturing and Advanced Factories",
     "last_proof_snippet": "The end of the Cold War led to a collapse in submarine production, resulting in a significant skills gap.",
@@ -49567,7 +49567,7 @@ const dashboardData = {
     "last_podcast_name": "The a16z Show",
     "last_episode_date": "2026-03-25",
     "mention_score": 1,
-    "mention_score_decayed": 0.05,
+    "mention_score_decayed": 0.04,
     "last_main_idea": "Investing in advanced manufacturing and workforce development for submarine production could lead to increased efficiency and meet the growing demand for naval capabilities.",
     "last_proof_cite": "The a16z Show \u2022 2026-03-25 \u2022 Submarine Manufacturing and Advanced Factories",
     "last_proof_snippet": "The end of the Cold War led to a collapse in submarine production, resulting in a significant skills gap.",
@@ -49626,7 +49626,7 @@ const dashboardData = {
     "last_podcast_name": "All-In with Chamath, Jason, Sacks & Friedberg",
     "last_episode_date": "2026-03-26",
     "mention_score": 1,
-    "mention_score_decayed": 0.05,
+    "mention_score_decayed": 0.04,
     "last_main_idea": "Investment in psychedelics for longevity and personal growth is based on the potential for these substances to induce significant changes in consciousness and promote personal rejuvenation.",
     "last_proof_cite": "All-In with Chamath, Jason, Sacks & Friedberg \u2022 2026-03-26 \u2022 Exploring Psychedelics for Longevity and Personal Growth",
     "last_proof_snippet": "Johnson's experience with 5-MEO-DMT was profound, leading to a significant personal reset and a renewed sense of purpose.",
