@@ -3,80 +3,80 @@
 
 const dashboardData = {
   schemaVersion: 2,
-  generatedAt: "2026-08-07T22:07:57.419051",
-  chartsVersion: "2026-08-07T22:07:46.164259",
+  generatedAt: "2026-08-07T23:42:04.077809",
+  chartsVersion: "2026-08-07T23:41:48.738380",
   priceSnapshot: {
   "GOOGL": {
     "price": 354.3,
     "change_pct": 2.06,
     "name": "GOOGL",
-    "updated_at": "2026-08-07T22:07:46.163484"
+    "updated_at": "2026-08-07T23:41:48.737937"
   },
   "NVDA": {
     "price": 223.96,
     "change_pct": 8.04,
     "name": "NVDA",
-    "updated_at": "2026-08-07T22:07:46.163499"
+    "updated_at": "2026-08-07T23:41:48.737947"
   },
   "BTC": {
-    "price": 64899.36,
-    "change_pct": -0.67,
+    "price": 65015.9,
+    "change_pct": -0.5,
     "name": "BTC",
-    "updated_at": "2026-08-07T22:07:46.163505"
+    "updated_at": "2026-08-07T23:41:48.737952"
   },
   "MSFT": {
     "price": 499.99,
     "change_pct": 25.7,
     "name": "MSFT",
-    "updated_at": "2026-08-07T22:07:46.163510"
+    "updated_at": "2026-08-07T23:41:48.737955"
   },
   "TSLA": {
     "price": 328.58,
     "change_pct": -13.29,
     "name": "TSLA",
-    "updated_at": "2026-08-07T22:07:46.163516"
+    "updated_at": "2026-08-07T23:41:48.737959"
   },
   "AMZN": {
     "price": 274.48,
     "change_pct": 10.88,
     "name": "AMZN",
-    "updated_at": "2026-08-07T22:07:46.163521"
+    "updated_at": "2026-08-07T23:41:48.737962"
   },
   "META": {
     "price": 592.1,
     "change_pct": -8.03,
     "name": "META",
-    "updated_at": "2026-08-07T22:07:46.163527"
+    "updated_at": "2026-08-07T23:41:48.737965"
   },
   "WTI": {
     "price": 3.43,
     "change_pct": -5.51,
     "name": "WTI",
-    "updated_at": "2026-08-07T22:07:46.163532"
+    "updated_at": "2026-08-07T23:41:48.737968"
   },
   "S&P 500": {
     "price": 773.26,
     "change_pct": 3.34,
     "name": "S&P 500",
-    "updated_at": "2026-08-07T22:07:46.163536"
+    "updated_at": "2026-08-07T23:41:48.737971"
   },
   "AAPL": {
     "price": 313.33,
     "change_pct": -4.4,
     "name": "AAPL",
-    "updated_at": "2026-08-07T22:07:46.163542"
+    "updated_at": "2026-08-07T23:41:48.737975"
   },
   "QQQ": {
     "price": 723.03,
     "change_pct": 1.98,
     "name": "Invesco QQQ Trust",
-    "updated_at": "2026-08-07T22:07:46.163547"
+    "updated_at": "2026-08-07T23:41:48.737978"
   },
   "BTC-USD": {
-    "price": 64899.36,
-    "change_pct": -0.67,
+    "price": 65015.9,
+    "change_pct": -0.5,
     "name": "Bitcoin USD",
-    "updated_at": "2026-08-07T22:07:46.163553"
+    "updated_at": "2026-08-07T23:41:48.737981"
   }
 },
   tickerScores: [
@@ -878,6 +878,26 @@ const dashboardData = {
       "podcast_episode_id": 391
     },
     {
+      "id": 407,
+      "title": "Misunderstood Stocks in Data Center Power, Cybersecurity, and Payments | Dean & Deiya Pernas",
+      "source_type": "podcast",
+      "source_name": "Monetary Matters with Jack Farley",
+      "source_date": "2026-08-07",
+      "summary": "In this episode of Monetary Matters, Jack Farley interviews Daya and Dean Pernos of Pernos Research, discussing key investment themes and trends such as energy power, data centers, software, AI, cybersecurity, and payments. The Pernos brothers highlight the importance of understanding both macroeconomic trends and single stock fundamental analysis for successful investing. They provide insights into the AI ecosystem, the impact of open-source AI models on the industry, and their bullish stance on companies like Upwork and Tenable. The conversation also touches on the commoditization of payment processing and the potential of marketplace businesses.",
+      "key_takeaway": "Investing success comes from a deep understanding of both macroeconomic trends and single stock fundamental analysis, with a focus on companies that benefit from technological advancements and market disruptions.",
+      "tickers_mentioned": [
+        "UPWORK",
+        "TENABLE"
+      ],
+      "sentiment": "bullish",
+      "display_on_main": 1,
+      "display_order": 0,
+      "added_date": "2026-08-07",
+      "archived_date": null,
+      "archived_reason": null,
+      "podcast_episode_id": 392
+    },
+    {
       "id": 404,
       "title": "How Open-Source AI Became Critical Infrastructure",
       "source_type": "podcast",
@@ -947,7 +967,7 @@ const dashboardData = {
         "LTCM"
       ],
       "sentiment": "bullish",
-      "display_on_main": 1,
+      "display_on_main": 0,
       "display_order": 0,
       "added_date": "2026-08-04",
       "archived_date": null,
@@ -8633,6 +8653,42 @@ const dashboardData = {
   "definitions": [],
   "overton": [
     {
+      "id": 268,
+      "term": "Skin in the Game",
+      "description": "A principle where individuals or entities have a personal stake or risk in the outcomes of their decisions or actions.",
+      "first_detected_date": "2026-08-04",
+      "last_mentioned_date": "2026-08-07",
+      "mention_count": 2,
+      "source_podcasts": null,
+      "status": "active",
+      "investment_implications": "Having skin in the game can align incentives and encourage more prudent risk management in investment strategies.",
+      "display_on_main": 0,
+      "archived_date": null,
+      "archived_reason": null,
+      "first_detected_episode_id": 384,
+      "first_detected_speaker": "Victor Hagani",
+      "last_mentioned_episode_id": 392,
+      "last_mentioned_speaker": "Daya Pernos, Dean Pernos"
+    },
+    {
+      "id": 267,
+      "term": "Stablecoins",
+      "description": "Cryptocurrencies pegged to a stable asset, like the US dollar, to minimize volatility.",
+      "first_detected_date": "2026-08-01",
+      "last_mentioned_date": "2026-08-07",
+      "mention_count": 2,
+      "source_podcasts": null,
+      "status": "active",
+      "investment_implications": "Stablecoins are seen as a rival to traditional payment networks and could disrupt global finance.",
+      "display_on_main": 0,
+      "archived_date": null,
+      "archived_reason": null,
+      "first_detected_episode_id": 379,
+      "first_detected_speaker": "Mark Andrewson, Chris Dixon",
+      "last_mentioned_episode_id": 392,
+      "last_mentioned_speaker": "Daya Pernos, Dean Pernos"
+    },
+    {
       "id": 263,
       "term": "Industrial AI",
       "description": "A full-stack solution that combines software, robotics, sensors, and machinery to automate industries.",
@@ -8835,8 +8891,8 @@ const dashboardData = {
       "term": "Hyperscalers",
       "description": "Companies that invest heavily in AI infrastructure, often outpacing their earnings, raising questions about the long-term sustainability of such investments.",
       "first_detected_date": "2026-06-19",
-      "last_mentioned_date": "2026-08-06",
-      "mention_count": 13,
+      "last_mentioned_date": "2026-08-07",
+      "mention_count": 14,
       "source_podcasts": null,
       "status": "active",
       "investment_implications": "Investors should assess the financial health of AI companies and their ability to sustain growth.",
@@ -8845,8 +8901,8 @@ const dashboardData = {
       "archived_reason": null,
       "first_detected_episode_id": 302,
       "first_detected_speaker": "Chamath Palihapitiya, Jason Calacanis (hosts)",
-      "last_mentioned_episode_id": 389,
-      "last_mentioned_speaker": "Simon Mow"
+      "last_mentioned_episode_id": 392,
+      "last_mentioned_speaker": "Daya Pernos, Dean Pernos"
     },
     {
       "id": 256,
@@ -8865,6 +8921,24 @@ const dashboardData = {
       "first_detected_speaker": null,
       "last_mentioned_episode_id": 354,
       "last_mentioned_speaker": "Ramine Hassani"
+    },
+    {
+      "id": 266,
+      "term": "Electrification",
+      "description": "The process of converting systems or industries to use electricity as the primary power source.",
+      "first_detected_date": "2026-06-18",
+      "last_mentioned_date": "2026-08-07",
+      "mention_count": 2,
+      "source_podcasts": null,
+      "status": "active",
+      "investment_implications": "Investors should focus on companies involved in the electrification of the grid and power generation, as demand for electricity is projected to increase.",
+      "display_on_main": 0,
+      "archived_date": null,
+      "archived_reason": null,
+      "first_detected_episode_id": 297,
+      "first_detected_speaker": "Chris Seminoch",
+      "last_mentioned_episode_id": 392,
+      "last_mentioned_speaker": "Daya Pernos, Dean Pernos"
     },
     {
       "id": 258,
@@ -8961,8 +9035,8 @@ const dashboardData = {
       "term": "AI CapEx",
       "description": "Capital expenditures related to the acquisition and maintenance of AI technologies and systems.",
       "first_detected_date": "2026-06-08",
-      "last_mentioned_date": "2026-08-04",
-      "mention_count": 16,
+      "last_mentioned_date": "2026-08-07",
+      "mention_count": 17,
       "source_podcasts": null,
       "status": "active",
       "investment_implications": "Companies that invest heavily in AI CapEx may gain a competitive edge in their respective industries.",
@@ -8971,8 +9045,8 @@ const dashboardData = {
       "archived_reason": null,
       "first_detected_episode_id": 271,
       "first_detected_speaker": null,
-      "last_mentioned_episode_id": 384,
-      "last_mentioned_speaker": "Victor Hagani"
+      "last_mentioned_episode_id": 392,
+      "last_mentioned_speaker": "Daya Pernos, Dean Pernos"
     },
     {
       "id": 234,
@@ -9051,8 +9125,8 @@ const dashboardData = {
       "term": "SaaS Apocalypse",
       "description": "A term used to describe the significant sell-off in software as a service (SaaS) stocks due to AI disruption.",
       "first_detected_date": "2026-06-03",
-      "last_mentioned_date": "2026-07-07",
-      "mention_count": 10,
+      "last_mentioned_date": "2026-08-07",
+      "mention_count": 11,
       "source_podcasts": null,
       "status": "active",
       "investment_implications": "This presents an opportunity for investors to find undervalued SaaS companies that can emerge stronger post-disruption.",
@@ -9061,8 +9135,8 @@ const dashboardData = {
       "archived_reason": null,
       "first_detected_episode_id": 257,
       "first_detected_speaker": null,
-      "last_mentioned_episode_id": 334,
-      "last_mentioned_speaker": "Sema Amble, Stephen Sinowski"
+      "last_mentioned_episode_id": 392,
+      "last_mentioned_speaker": "Daya Pernos, Dean Pernos"
     },
     {
       "id": 219,
@@ -9249,8 +9323,8 @@ const dashboardData = {
       "term": "Distillation",
       "description": "The process of training a smaller AI model on the output of a larger model to achieve similar results with less computational power.",
       "first_detected_date": "2026-05-15",
-      "last_mentioned_date": "2026-08-06",
-      "mention_count": 31,
+      "last_mentioned_date": "2026-08-07",
+      "mention_count": 32,
       "source_podcasts": null,
       "status": "active",
       "investment_implications": "Distillation can make AI more accessible and cost-effective, impacting how businesses allocate resources for AI development.",
@@ -9259,8 +9333,8 @@ const dashboardData = {
       "archived_reason": null,
       "first_detected_episode_id": 221,
       "first_detected_speaker": null,
-      "last_mentioned_episode_id": 389,
-      "last_mentioned_speaker": "Simon Mow"
+      "last_mentioned_episode_id": 392,
+      "last_mentioned_speaker": "Daya Pernos, Dean Pernos"
     },
     {
       "id": 174,
@@ -9877,20 +9951,20 @@ const dashboardData = {
     {
       "id": 78,
       "term": "Open-Source AI Models",
-      "description": "AI models that are publicly accessible and can be modified and distributed by anyone, fostering collaboration and innovation in the AI field.",
+      "description": "AI models that are publicly available and can be used and modified by anyone, potentially commoditizing certain aspects of AI technology.",
       "first_detected_date": "2026-03-29",
-      "last_mentioned_date": "2026-08-06",
-      "mention_count": 15,
+      "last_mentioned_date": "2026-08-07",
+      "mention_count": 16,
       "source_podcasts": null,
       "status": "active",
-      "investment_implications": "Open-source AI models can lead to faster advancements and broader adoption of AI technologies, impacting investment in proprietary AI companies.",
+      "investment_implications": "Open-source AI models can increase demand for cloud providers and GPU providers, affecting the AI ecosystem.",
       "display_on_main": 0,
       "archived_date": null,
       "archived_reason": null,
       "first_detected_episode_id": null,
       "first_detected_speaker": null,
-      "last_mentioned_episode_id": 389,
-      "last_mentioned_speaker": "Simon Mow"
+      "last_mentioned_episode_id": 392,
+      "last_mentioned_speaker": "Daya Pernos, Dean Pernos"
     },
     {
       "id": 79,
@@ -10771,6 +10845,29 @@ const dashboardData = {
       "key_tickers": []
     },
     {
+      "id": 407,
+      "title": "Misunderstood Stocks in Data Center Power, Cybersecurity, and Payments | Dean & Deiya Pernas",
+      "source_type": "podcast",
+      "source_name": "Monetary Matters with Jack Farley",
+      "source_date": "2026-08-07",
+      "summary": "In this episode of Monetary Matters, Jack Farley interviews Daya and Dean Pernos of Pernos Research, discussing key investment themes and trends such as energy power, data centers, software, AI, cybersecurity, and payments. The Pernos brothers highlight the importance of understanding both macroeconomic trends and single stock fundamental analysis for successful investing. They provide insights into the AI ecosystem, the impact of open-source AI models on the industry, and their bullish stance on companies like Upwork and Tenable. The conversation also touches on the commoditization of payment processing and the potential of marketplace businesses.",
+      "key_takeaway": "Investing success comes from a deep understanding of both macroeconomic trends and single stock fundamental analysis, with a focus on companies that benefit from technological advancements and market disruptions.",
+      "tickers_mentioned": "[\"UPWORK\", \"TENABLE\"]",
+      "sentiment": "bullish",
+      "display_on_main": 1,
+      "display_order": 0,
+      "added_date": "2026-08-07",
+      "archived_date": null,
+      "archived_reason": null,
+      "podcast_episode_id": 392,
+      "episode_release_date": "2026-08-07",
+      "guest_name": null,
+      "key_tickers": [
+        "UPWORK",
+        "TENABLE"
+      ]
+    },
+    {
       "id": 404,
       "title": "How Open-Source AI Became Critical Infrastructure",
       "source_type": "podcast",
@@ -10829,28 +10926,6 @@ const dashboardData = {
       "episode_release_date": "2026-08-05",
       "guest_name": "Saronic Founders",
       "key_tickers": []
-    },
-    {
-      "id": 399,
-      "title": "Victor Haghani on Death of Random Walk, and Passive, Buybacks, and LTCM",
-      "source_type": "podcast",
-      "source_name": "Monetary Matters with Jack Farley",
-      "source_date": "2026-08-04",
-      "summary": "In this episode of Monetary Matters, Jack Farley discusses the lessons learned from Long-Term Capital Management (LTCM) and the behavior of the stock market. The conversation delves into personal risk-taking, the structure of leverage pools, and the differences between relative value trades and Delta 1 trades. Additionally, the episode explores the impact of AI capex on S&P 500 earnings and the role of extrapolators in market movements.",
-      "key_takeaway": "The S&P 500's performance over the next two years will be largely determined by the behavior of extrapolators and corporate equity activity, rather than fundamental earnings growth.",
-      "tickers_mentioned": "[\"LTCM\"]",
-      "sentiment": "bullish",
-      "display_on_main": 1,
-      "display_order": 0,
-      "added_date": "2026-08-04",
-      "archived_date": null,
-      "archived_reason": null,
-      "podcast_episode_id": 384,
-      "episode_release_date": "2026-08-04",
-      "guest_name": null,
-      "key_tickers": [
-        "LTCM"
-      ]
     },
     {
       "id": 400,
@@ -11099,8 +11174,8 @@ const dashboardData = {
       "term": "Hyperscalers",
       "description": "Companies that invest heavily in AI infrastructure, often outpacing their earnings, raising questions about the long-term sustainability of such investments.",
       "first_detected_date": "2026-06-19",
-      "last_mentioned_date": "2026-08-06",
-      "mention_count": 13,
+      "last_mentioned_date": "2026-08-07",
+      "mention_count": 14,
       "source_podcasts": null,
       "status": "active",
       "investment_implications": "Investors should assess the financial health of AI companies and their ability to sustain growth.",
@@ -11109,16 +11184,16 @@ const dashboardData = {
       "archived_reason": null,
       "first_detected_episode_id": 302,
       "first_detected_speaker": "Chamath Palihapitiya, Jason Calacanis (hosts)",
-      "last_mentioned_episode_id": 389,
-      "last_mentioned_speaker": "Simon Mow",
-      "overton_score": 12.7,
+      "last_mentioned_episode_id": 392,
+      "last_mentioned_speaker": "Daya Pernos, Dean Pernos",
+      "overton_score": 14.0,
       "resonance_pct": 100,
       "first_detected_podcast": "All-In with Chamath, Jason, Sacks & Friedberg",
       "first_detected_episode_title": "World's First Trillionaire, Anthropic Fable Banned, The New Oligarchs, Iran Peace Deal",
       "first_detected_episode_date": "2026-06-19",
-      "last_mentioned_podcast": "The a16z Show",
-      "last_mentioned_episode_title": "How Open-Source AI Became Critical Infrastructure",
-      "last_mentioned_episode_date": "2026-08-06"
+      "last_mentioned_podcast": "Monetary Matters with Jack Farley",
+      "last_mentioned_episode_title": "Misunderstood Stocks in Data Center Power, Cybersecurity, and Payments | Dean & Deiya Pernas",
+      "last_mentioned_episode_date": "2026-08-07"
     },
     {
       "id": 11,
@@ -35306,9 +35381,93 @@ const dashboardData = {
     "source_name": "Dwarkesh Podcast",
     "source_date": "2026-08-07",
     "key_tickers": []
+  },
+  "407": {
+    "id": 397,
+    "insight_id": 407,
+    "podcast_episode_id": 392,
+    "overview": "The competitive dynamic highlighted by the Pernos brothers revolves around the interplay between technological advancements in AI and the economic implications for different layers of the AI ecosystem. The tension is between the commoditization of AI models, which could disrupt the economics of frontier models, and the increased demand for infrastructure and chips due to the broader adoption of AI. The allocator-relevant implication is that companies positioned to benefit from the increased demand for AI infrastructure, such as cloud providers and GPU manufacturers, could outperform, while those reliant on the high pricing of AI models may underperform.",
+    "key_takeaways_detailed": [
+      "Investors should focus on companies that stand to gain from the increased demand for AI infrastructure due to the commoditization of AI models.",
+      "The shift towards open-source AI models could lead to a reallocation of investment away from frontier AI labs towards companies that provide the necessary infrastructure for AI deployment.",
+      "The energy demand for AI is expected to grow significantly, creating opportunities for companies that can provide power solutions to hyperscalers.",
+      "The potential for hyperscalers to become cloud providers themselves could disrupt the traditional cloud provider market, impacting the competitive landscape."
+    ],
+    "investment_thesis": "The investment thesis is that the commoditization of AI models through open-source offerings will lead to increased demand for infrastructure, particularly for cloud providers and GPU manufacturers, as enterprises adopt AI more broadly due to reduced costs. This trend, along with the growing energy demand for AI, positions certain companies to benefit from the shift in spending by hyperscalers. The thesis would be vindicated if there is a continued increase in hyperscaler spending on AI infrastructure and a corresponding increase in demand for GPUs and cloud services. Conversely, it would be invalidated if the adoption of AI by enterprises slows down or if the cost of using open-source AI models increases significantly.",
+    "ticker_analysis": {
+      "AAPL": {
+        "rationale": "Apple is relevant due to its significant investment in AI and potential to benefit from the increased demand for AI infrastructure, as well as its capabilities in providing cloud services.",
+        "positioning": "Positioning should be long-term strategic, as Apple's investments in AI and cloud services are likely to pay off in the long run, despite potential short-term volatility.",
+        "risk": "Key risks include a slowdown in AI adoption by enterprises, increased competition in the cloud services market, and potential regulatory challenges to data privacy and AI usage."
+      },
+      "MSFT": {
+        "rationale": "Microsoft, with its Azure cloud platform, stands to benefit from the increased demand for cloud services driven by AI adoption.",
+        "positioning": "Microsoft should be positioned as a long-term strategic investment, given its strong position in the cloud market and ongoing AI development.",
+        "risk": "Risks include competition from other cloud providers, potential regulatory hurdles, and a slowdown in enterprise IT spending."
+      },
+      "GOOGL": {
+        "rationale": "Google, through its Google Cloud platform, is well-positioned to capitalize on the increased demand for cloud services and AI infrastructure.",
+        "positioning": "Google should be considered a long-term strategic investment, with a focus on its cloud and AI initiatives.",
+        "risk": "The key risks are intense competition in the cloud market, the potential for regulatory challenges, and fluctuations in advertising revenue, which impacts Google's overall financial performance."
+      },
+      "NVDA": {
+        "rationale": "Nvidia, as a leading GPU manufacturer, is set to benefit from the increased demand for GPUs due to the growth in AI and data center infrastructure.",
+        "positioning": "Nvidia should be positioned as a long-term strategic investment, given the company's dominance in the GPU market and its exposure to the AI trend.",
+        "risk": "Risks include competition from other chip manufacturers, potential disruptions in the global semiconductor supply chain, and a slowdown in AI adoption."
+      },
+      "AMD": {
+        "rationale": "Advanced Micro Devices is another key player in the GPU market, which is expected to grow due to the increased demand for AI infrastructure.",
+        "positioning": "AMD should be considered a long-term strategic investment, as the company is poised to benefit from the trend towards more powerful and energy-efficient GPUs.",
+        "risk": "The main risks are competition from Nvidia, potential supply chain disruptions, and a slowdown in the overall demand for high-performance computing."
+      }
+    },
+    "positioning_guidance": "",
+    "risk_factors": [],
+    "contrarian_signals": [
+      "A significant decrease in hyperscaler spending on AI could challenge the thesis that infrastructure providers will benefit.",
+      "The emergence of new AI models that are less resource-intensive could reduce the demand for GPUs and cloud services.",
+      "Regulatory actions that limit the use of AI or increase costs for cloud providers could impact the growth prospects of the companies in focus."
+    ],
+    "catalysts": [
+      "Announcements of new AI projects or partnerships by hyperscalers that indicate increased spending on AI infrastructure.",
+      "Releases of new AI models by companies like Google and Microsoft that could drive demand for their cloud services.",
+      "Technological breakthroughs in AI that increase the efficiency and adoption of AI, thereby driving demand for infrastructure.",
+      "Earnings reports from GPU manufacturers and cloud providers that show significant growth in their AI-related revenues."
+    ],
+    "related_insights": null,
+    "audio_timestamp_start": null,
+    "audio_timestamp_end": null,
+    "transcript_excerpt": null,
+    "created_at": "2026-08-07T23:41:00.006795",
+    "updated_at": "2026-08-08 04:41:00",
+    "episode_evidence": "Daya and Dean Pernos of Pernos Research emphasize the significance of understanding both macroeconomic trends and single stock fundamental analysis for successful investing. They highlight the importance of the AI ecosystem, which they break down into four layers: chips, infrastructure (cloud providers), frontier models (like chat GBT and anthropic), and the application layer. They argue that 'open weight models' are bullish for the AI ecosystem, as they commoditize the frontier models, thereby increasing demand for other layers, such as cloud providers and GPU providers. This is because 'if your compliment gets commoditized, a demand increases to all the other layers,' leading to higher GPU prices and better economics for providers. They also discuss the impact of hyperscaler spending on AI, noting that companies like Uber and Amazon have pulled back on AI spending due to high costs, but with the reduction in cost due to open weight models, 'enterprises are going to be using more AI,' which benefits cloud providers and GPU providers.",
+    "falsification_tracks": [
+      "A sustained increase in the cost of using open-source AI models, which would reduce the demand for other layers in the AI ecosystem.",
+      "A significant decrease in the energy demand for AI, which would reduce the need for hyperscalers to bring their own power and thus impact the companies benefiting from this trend.",
+      "Hyperscalers reducing their capital expenditures on AI, which would decrease the demand for GPUs and other infrastructure, affecting the companies that Pernos Research is bullish on."
+    ],
+    "insight_title": "Misunderstood Stocks in Data Center Power, Cybersecurity, and Payments | Dean & Deiya Pernas",
+    "source_name": "Monetary Matters with Jack Farley",
+    "source_date": "2026-08-07",
+    "key_tickers": [
+      "UPWORK",
+      "TENABLE"
+    ]
   }
 },
   suggestedTerms: [
+  {
+    "id": 581,
+    "term": "Commoditizer Complements",
+    "definition": "A phenomenon where the commoditization of one component in a technology stack leads to increased demand for other components.",
+    "investment_implications": "Understanding commoditizer complements can help identify investment opportunities in technology stacks where one layer is commoditized.",
+    "source_type": "auto_extracted",
+    "mention_count": 1,
+    "source_diversity": 1,
+    "relevance_score": 50,
+    "submitted_date": "2026-08-08 04:38:55",
+    "priority_score": 80
+  },
   {
     "id": 579,
     "term": "Continual Learning in AI",
@@ -35344,23 +35503,11 @@ const dashboardData = {
     "relevance_score": 50,
     "submitted_date": "2026-08-07 17:02:51",
     "priority_score": 80
-  },
-  {
-    "id": 577,
-    "term": "Software Supply Chains as Weak Links",
-    "definition": "Software supply chains have become one of the weakest links in cybersecurity, with AI models exploiting their vulnerabilities.",
-    "investment_implications": "Investors should focus on companies that provide solutions to secure software supply chains and mitigate the risks associated with third-party software.",
-    "source_type": "auto_extracted",
-    "mention_count": 1,
-    "source_diversity": 1,
-    "relevance_score": 50,
-    "submitted_date": "2026-08-07 17:02:51",
-    "priority_score": 80
   }
 ],
   podcastGuests: [
   {
-    "id": 45754,
+    "id": 45866,
     "name": "How Open",
     "slug": "how-open",
     "bio": null,
@@ -35372,7 +35519,7 @@ const dashboardData = {
     "appearance_count": 1
   },
   {
-    "id": 45755,
+    "id": 45867,
     "name": "Saronic Founders",
     "slug": "saronic-founders",
     "bio": null,
@@ -35384,7 +35531,7 @@ const dashboardData = {
     "appearance_count": 1
   },
   {
-    "id": 45756,
+    "id": 45868,
     "name": "OpenAI's Joshua Achiam",
     "slug": "openais-joshua-achiam",
     "bio": null,
@@ -35396,7 +35543,7 @@ const dashboardData = {
     "appearance_count": 1
   },
   {
-    "id": 45757,
+    "id": 45869,
     "name": "Why Macro is \u201cPretty Risk-On\u201d for Equities",
     "slug": "why-macro-is-pretty-risk-on-for-equities",
     "bio": null,
@@ -35408,7 +35555,7 @@ const dashboardData = {
     "appearance_count": 1
   },
   {
-    "id": 45758,
+    "id": 45870,
     "name": "AI for America's Small Businesses",
     "slug": "ai-for-americas-small-businesses",
     "bio": null,
@@ -35420,7 +35567,7 @@ const dashboardData = {
     "appearance_count": 1
   },
   {
-    "id": 45759,
+    "id": 45871,
     "name": "Mum\u2019s The Word",
     "slug": "mums-the-word",
     "bio": null,
@@ -35432,7 +35579,7 @@ const dashboardData = {
     "appearance_count": 1
   },
   {
-    "id": 45760,
+    "id": 45872,
     "name": "Luke Gromen",
     "slug": "luke-gromen",
     "bio": null,
@@ -35444,7 +35591,7 @@ const dashboardData = {
     "appearance_count": 1
   },
   {
-    "id": 45761,
+    "id": 45873,
     "name": "Codex from 0 to 10M Users",
     "slug": "codex-from-0-to-10m-users",
     "bio": null,
@@ -35456,7 +35603,7 @@ const dashboardData = {
     "appearance_count": 1
   },
   {
-    "id": 45762,
+    "id": 45874,
     "name": "Ben Horowitz",
     "slug": "ben-horowitz",
     "bio": "Ben Horowitz is a co-founder of venture firm Andreessen Horowitz and former CEO of Opsware, known for advising founders on leadership under pressure.",
@@ -35468,7 +35615,7 @@ const dashboardData = {
     "appearance_count": 3
   },
   {
-    "id": 45763,
+    "id": 45875,
     "name": "Building the Physical AI Stack",
     "slug": "building-the-physical-ai-stack",
     "bio": null,
@@ -35480,7 +35627,7 @@ const dashboardData = {
     "appearance_count": 1
   },
   {
-    "id": 45764,
+    "id": 45876,
     "name": "Travis Kalanick Is Back",
     "slug": "travis-kalanick-is-back",
     "bio": null,
@@ -35492,7 +35639,7 @@ const dashboardData = {
     "appearance_count": 1
   },
   {
-    "id": 45765,
+    "id": 45877,
     "name": "Why Physical AI Is the Next Frontier",
     "slug": "why-physical-ai-is-the-next-frontier",
     "bio": null,
@@ -35504,7 +35651,7 @@ const dashboardData = {
     "appearance_count": 1
   },
   {
-    "id": 45766,
+    "id": 45878,
     "name": "Nick Nemeth",
     "slug": "nick-nemeth",
     "bio": null,
@@ -35516,7 +35663,7 @@ const dashboardData = {
     "appearance_count": 1
   },
   {
-    "id": 45767,
+    "id": 45879,
     "name": "Mark Cuban on the AI Bubble",
     "slug": "mark-cuban-on-the-ai-bubble",
     "bio": null,
@@ -35528,7 +35675,7 @@ const dashboardData = {
     "appearance_count": 1
   },
   {
-    "id": 45768,
+    "id": 45880,
     "name": "Urgent Update- AI Sputnik Moment",
     "slug": "urgent-update--ai-sputnik-moment",
     "bio": null,
@@ -35540,7 +35687,7 @@ const dashboardData = {
     "appearance_count": 1
   },
   {
-    "id": 45769,
+    "id": 45881,
     "name": "Replay 2025",
     "slug": "replay-2025",
     "bio": null,
@@ -35552,7 +35699,7 @@ const dashboardData = {
     "appearance_count": 1
   },
   {
-    "id": 45770,
+    "id": 45882,
     "name": "Turbo Charged Trend Following",
     "slug": "turbo-charged-trend-following",
     "bio": null,
@@ -35564,7 +35711,7 @@ const dashboardData = {
     "appearance_count": 1
   },
   {
-    "id": 45771,
+    "id": 45883,
     "name": "Can Anyone Catch NVIDIA?",
     "slug": "can-anyone-catch-nvidia",
     "bio": null,
@@ -35576,7 +35723,7 @@ const dashboardData = {
     "appearance_count": 1
   },
   {
-    "id": 45772,
+    "id": 45884,
     "name": "Is AI a Bubble?",
     "slug": "is-ai-a-bubble",
     "bio": null,
@@ -35588,7 +35735,7 @@ const dashboardData = {
     "appearance_count": 1
   },
   {
-    "id": 45773,
+    "id": 45885,
     "name": "Adam Brown \u2013 Einstein's happiest thought",
     "slug": "adam-brown--einsteins-happiest-thought",
     "bio": null,
@@ -35804,7 +35951,7 @@ const dashboardData = {
     "last_podcast_name": "The a16z Show",
     "last_episode_date": "2026-07-22",
     "mention_score": 3,
-    "mention_score_decayed": 2.12,
+    "mention_score_decayed": 2.07,
     "last_main_idea": "The next great technology revolution will be in the physical world, with industrial AI, robotics, and autonomy driving transformative change across industries.",
     "last_proof_cite": "The a16z Show \u2022 2026-07-22 \u2022 Travis Kalanick Is Back | Building the Future of Industrial AI",
     "last_proof_snippet": "We know what Boobers 2017 was like. Travis Kalana, because Snapchat's dying from his role as chief executive. That wouldn't have gone that way if Ben or Mark was on the board. You're in this hell, you're dealing with lawsuits. I worry about",
@@ -35933,7 +36080,7 @@ const dashboardData = {
     "last_podcast_name": "Monetary Matters with Jack Farley",
     "last_episode_date": "2026-07-28",
     "mention_score": 2,
-    "mention_score_decayed": 1.66,
+    "mention_score_decayed": 1.62,
     "last_main_idea": "The bond market is facing significant challenges due to supply and demand imbalances, fiscal pressures, and aging populations, making gold an attractive store of value in the current economic climate.",
     "last_proof_cite": "Monetary Matters with Jack Farley \u2022 2026-07-28 \u2022 Luke Gromen: Yield Curve Control is the Only Way to Stop a Global Bond Crisis",
     "last_proof_snippet": "Germany, Japan, and Korea are all historically big creditors from a sovereign perspective. And in particular, Japan, if they're borrowing money to do defense to me, they have turned sellers of bonds as well. So now they're selling, they're",
@@ -36053,7 +36200,7 @@ const dashboardData = {
     "last_podcast_name": "All-In with Chamath, Jason, Sacks & Friedberg",
     "last_episode_date": "2026-07-10",
     "mention_score": 2,
-    "mention_score_decayed": 1.05,
+    "mention_score_decayed": 1.02,
     "last_main_idea": "Investing in AI infrastructure and data center companies could yield significant returns as the demand for AI continues to grow exponentially.",
     "last_proof_cite": "All-In with Chamath, Jason, Sacks & Friedberg \u2022 2026-07-10 \u2022 Open Source Wins, AGI Is Here, and Scorsese's AI Toolkit with CEOs of Cerebras & Black Forest Labs",
     "last_proof_snippet": "We are in the race for super intelligence and Andrew Feldman is back and obviously CEO and founders Ceribres doing in friendships pioneered the space, had a successful IPO. We've talked about this a couple of times, we got to see each other",
@@ -36117,7 +36264,7 @@ const dashboardData = {
     "last_podcast_name": "All-In with Chamath, Jason, Sacks & Friedberg",
     "last_episode_date": "2026-07-03",
     "mention_score": 2,
-    "mention_score_decayed": 0.91,
+    "mention_score_decayed": 0.89,
     "last_main_idea": "Enterprises should prioritize data sovereignty in AI to maintain competitive advantages and consider decentralized, open-source AI models to reduce costs and enhance operational efficiency.",
     "last_proof_cite": "All-In with Chamath, Jason, Sacks & Friedberg \u2022 2026-07-03 \u2022 AI Sovereignty Wars, Palantir-Nvidia Deal, SCOTUS Birthright Ruling, Newsom's CA Budget Lie",
     "last_proof_snippet": "All right, everybody, welcome back to the number one podcast in the world. Sure, favorite podcast. It's your podcast. It's your favorite podcast. It's the all-in podcast episode two, seven, nine with me, freebergs, tax, to my, you know, the",
@@ -36177,7 +36324,7 @@ const dashboardData = {
     "last_podcast_name": "BG2Pod with Brad Gerstner and Bill Gurley",
     "last_episode_date": "2026-06-11",
     "mention_score": 2,
-    "mention_score_decayed": 0.62,
+    "mention_score_decayed": 0.6,
     "last_main_idea": "SpaceX's unique position in the AI compute market and its rapid deployment capabilities make it a compelling long-term investment, with potential for significant revenue growth through Starlink and AI advancements.",
     "last_proof_cite": "BG2Pod with Brad Gerstner and Bill Gurley \u2022 2026-06-11 \u2022 The SpaceX IPO, Fable 5, AI Capex Update & Market Check w/ Gavin Baker, Andrew Fox & Clark Tang | BG2",
     "last_proof_snippet": "I think we're all pretty AI-pilled, and if you're AI-pilled, that means we've got to build a lot more compute than the world thinks, and that these models are going to be a lot more valuable than people think. You combine that with their co",
@@ -37144,6 +37291,126 @@ const dashboardData = {
     }
   },
   {
+    "id": 390,
+    "name": "Daya Pernos",
+    "slug": "daya-pernos",
+    "bio": "Daya Pernos is the co-founder of Pernos Research, a firm that specializes in generating compelling investing ideas and has a successful investment track record. Their audited portfolio has outperformed the S&P 500, returning double its value since its inception in 2017.",
+    "known_for": "Daya Pernos is known for his ability to generate compelling investing ideas and his successful investment track record, with an audited portfolio that has significantly outperformed the S&P 500.",
+    "net_worth_usd": 4000000.0,
+    "net_worth_source": "https://gorillaoverview.com/daya-net-worth/",
+    "net_worth_updated_at": "2026-08-07T23:40:13.906149",
+    "voice_tone": "",
+    "voice_style": "",
+    "voice_delivery_notes": "",
+    "voice_profile_updated_at": null,
+    "last_seen": "2026-08-08 04:38:55",
+    "last_episode_title": "Misunderstood Stocks in Data Center Power, Cybersecurity, and Payments | Dean & Deiya Pernas",
+    "last_podcast_name": "Monetary Matters with Jack Farley",
+    "last_episode_date": "2026-08-07",
+    "mention_score": 1,
+    "mention_score_decayed": 1,
+    "last_main_idea": "Investing success comes from a deep understanding of both macroeconomic trends and single stock fundamental analysis, with a focus on companies that benefit from technological advancements and market disruptions.",
+    "last_proof_cite": "Monetary Matters with Jack Farley \u2022 2026-08-07 \u2022 Misunderstood Stocks in Data Center Power, Cybersecurity, and Payments | Dean & Deiya Pernas",
+    "last_proof_snippet": "Today I'm sitting down with Daya and Dean Pernos of Pernos Research. We're going to be talking about some of the most important themes and trends in investing such as energy power and data centers, software, AI, cybersecurity, payments. The",
+    "supporting_takeaway": "Open-source AI models are bullish for the AI ecosystem, increasing demand for cloud providers and GPU providers.",
+    "grokipedia_url": null,
+    "grokipedia_fetched_at": "2026-08-07T23:40:12.982650",
+    "pundit_profile": {
+      "source": "llm",
+      "source_model": "moonshot:moonshot-v1-8k",
+      "source_url": "",
+      "page_title": "Daya Pernos",
+      "fetched_at": "2026-08-08T04:40:12.982315+00:00",
+      "cliff_notes": "Daya Pernos is a prominent figure in the investment world, co-founding Pernos Research with his brother Dean. The firm is recognized for its ability to generate compelling investment ideas and has a strong track record of success, with an audited portfolio that has returned over double the S&P 500 since 2017. Daya's expertise lies in identifying important themes and trends in investing, such as energy power, data centers, software, AI, cybersecurity, and payments. His focus on both macroeconomic analysis and single stock fundamental analysis has contributed to his success in the market. Daya's insights are highly valued by investors looking to make informed decisions and capitalize on market opportunities.",
+      "derived": {
+        "current_role": "Co-founder of Pernos Research"
+      },
+      "infobox": {
+        "Born": "",
+        "Nationality": ""
+      },
+      "lead_paragraphs": [
+        "Daya Pernos is a prominent figure in the investment world, co-founding Pernos Research with his brother Dean. The firm is recognized for its ability to generate compelling investment ideas and has a strong track record of success, with an audited portfolio that has returned over double the S&P 500 since 2017. Daya's expertise lies in identifying important themes and trends in investing, such as energy power, data centers, software, AI, cybersecurity, and payments.",
+        "His focus on both macroeconomic analysis and single stock fundamental analysis has contributed to his success in the market. Daya's insights are highly valued by investors looking to make informed decisions and capitalize on market opportunities."
+      ],
+      "sections": [
+        {
+          "heading": "Investment Philosophy",
+          "body": "Daya Pernos emphasizes the importance of both macroeconomic analysis and single stock fundamental analysis in identifying compelling investment opportunities."
+        },
+        {
+          "heading": "Track Record",
+          "body": "Pernos Research, co-founded by Daya, has an audited portfolio that has outperformed the S&P 500, returning double its value since its inception in 2017."
+        },
+        {
+          "heading": "Investment Themes",
+          "body": "Daya Pernos is known for focusing on key investment themes such as energy power, data centers, software, AI, cybersecurity, and payments."
+        }
+      ]
+    },
+    "net_worth": "$4.0M"
+  },
+  {
+    "id": 391,
+    "name": "Dean Pernos",
+    "slug": "dean-pernos",
+    "bio": "Dean Pernos is a co-founder of Pernos Research, a firm renowned for its audited portfolio returns that have outperformed the S&P 500. With over 1,300% gross returns since its inception in 2017, Pernos Research has established a strong reputation in the investment community.",
+    "known_for": "Outperforming the S&P 500 with an audited portfolio and generating compelling investing ideas.",
+    "net_worth_usd": 450000000.0,
+    "net_worth_source": "https://moneyinc.com/dan-pena-net-worth/",
+    "net_worth_updated_at": "2026-08-07T23:40:24.248002",
+    "voice_tone": "",
+    "voice_style": "",
+    "voice_delivery_notes": "",
+    "voice_profile_updated_at": null,
+    "last_seen": "2026-08-08 04:38:55",
+    "last_episode_title": "Misunderstood Stocks in Data Center Power, Cybersecurity, and Payments | Dean & Deiya Pernas",
+    "last_podcast_name": "Monetary Matters with Jack Farley",
+    "last_episode_date": "2026-08-07",
+    "mention_score": 1,
+    "mention_score_decayed": 1,
+    "last_main_idea": "Investing success comes from a deep understanding of both macroeconomic trends and single stock fundamental analysis, with a focus on companies that benefit from technological advancements and market disruptions.",
+    "last_proof_cite": "Monetary Matters with Jack Farley \u2022 2026-08-07 \u2022 Misunderstood Stocks in Data Center Power, Cybersecurity, and Payments | Dean & Deiya Pernas",
+    "last_proof_snippet": "Today I'm sitting down with Daya and Dean Pernos of Pernos Research. We're going to be talking about some of the most important themes and trends in investing such as energy power and data centers, software, AI, cybersecurity, payments. The",
+    "supporting_takeaway": "Open-source AI models are bullish for the AI ecosystem, increasing demand for cloud providers and GPU providers.",
+    "grokipedia_url": null,
+    "grokipedia_fetched_at": "2026-08-07T23:40:23.326135",
+    "pundit_profile": {
+      "source": "llm",
+      "source_model": "moonshot:moonshot-v1-8k",
+      "source_url": "",
+      "page_title": "Dean Pernos",
+      "fetched_at": "2026-08-08T04:40:23.325983+00:00",
+      "cliff_notes": "Dean Pernos is recognized as a successful investor and co-founder of Pernos Research, a firm that has garnered attention for its impressive investment track record. Since its inception in 2017, the firm's audited portfolio has seen returns that are more than double that of the S&P 500, with over 1,300% gross returns. Dean, along with his brother Daya, have become influential figures in the investment space, focusing on sectors such as energy power, data centers, software, AI, cybersecurity, and payments. Their ability to identify and capitalize on market trends has led to their firm's significant outperformance, making them a valuable resource for investors seeking to understand and profit from market movements.",
+      "derived": {
+        "current_role": "Co-founder of Pernos Research"
+      },
+      "infobox": {
+        "Born": "",
+        "Nationality": ""
+      },
+      "lead_paragraphs": [
+        "Dean Pernos is recognized as a successful investor and co-founder of Pernos Research, a firm that has garnered attention for its impressive investment track record. Since its inception in 2017, the firm's audited portfolio has seen returns that are more than double that of the S&P 500, with over 1,300% gross returns. Dean, along with his brother Daya, have become influential figures in the investment space, focusing on sectors such as energy power, data centers, software, AI, cybersecurity, and payments.",
+        "Their ability to identify and capitalize on market trends has led to their firm's significant outperformance, making them a valuable resource for investors seeking to understand and profit from market movements."
+      ],
+      "sections": [
+        {
+          "heading": "Investment Strategy",
+          "body": "Dean Pernos is known for his strategic approach to investments, focusing on sectors with significant growth potential such as energy, technology, and cybersecurity."
+        },
+        {
+          "heading": "Outperformance",
+          "body": "Pernos Research's portfolio has consistently outperformed the S&P 500, with an audited track record that has more than doubled the index's returns since 2017."
+        },
+        {
+          "heading": "Market Trends",
+          "body": "Dean and his brother Daya are adept at identifying and investing in market trends, particularly in areas such as AI, software, and payments, which are shaping the future of the economy."
+        }
+      ]
+    },
+    "net_worth": "$450.0M"
+  },
+  {
     "id": 387,
     "name": "Joel Deligarza",
     "slug": "joel-deligarza",
@@ -37399,7 +37666,7 @@ const dashboardData = {
     "last_podcast_name": "All-In with Chamath, Jason, Sacks & Friedberg",
     "last_episode_date": "2026-08-05",
     "mention_score": 1,
-    "mention_score_decayed": 0.98,
+    "mention_score_decayed": 0.95,
     "last_main_idea": "Investment in autonomous defense technologies is crucial for maintaining a competitive edge and can lead to significant advancements in military capabilities.",
     "last_proof_cite": "All-In with Chamath, Jason, Sacks & Friedberg \u2022 2026-08-05 \u2022 Saronic Founders: Autonomous Warships, China's 230X Advantage & Swarms of Robot Ships",
     "last_proof_snippet": "All right, everybody, welcome back to the all in interview series. I am thrilled. Really thrilled because Ceranic is a defense company that has been doing amazing work. And we are so lucky to have the co-founders here on the program. Welcom",
@@ -37458,7 +37725,7 @@ const dashboardData = {
     "last_podcast_name": "All-In with Chamath, Jason, Sacks & Friedberg",
     "last_episode_date": "2026-08-05",
     "mention_score": 1,
-    "mention_score_decayed": 0.98,
+    "mention_score_decayed": 0.95,
     "last_main_idea": "Investment in autonomous defense technologies is crucial for maintaining a competitive edge and can lead to significant advancements in military capabilities.",
     "last_proof_cite": "All-In with Chamath, Jason, Sacks & Friedberg \u2022 2026-08-05 \u2022 Saronic Founders: Autonomous Warships, China's 230X Advantage & Swarms of Robot Ships",
     "last_proof_snippet": "All right, everybody, welcome back to the all in interview series. I am thrilled. Really thrilled because Ceranic is a defense company that has been doing amazing work. And we are so lucky to have the co-founders here on the program. Welcom",
@@ -37895,7 +38162,7 @@ const dashboardData = {
     "last_podcast_name": "Monetary Matters with Jack Farley",
     "last_episode_date": "2026-08-02",
     "mention_score": 1,
-    "mention_score_decayed": 0.91,
+    "mention_score_decayed": 0.89,
     "last_main_idea": "The market is in a phase where a new narrative is needed to drive further growth, with a focus on value laggards and sectors less exposed to speculative excesses.",
     "last_proof_cite": "Monetary Matters with Jack Farley \u2022 2026-08-02 \u2022 Why Macro is \u201cPretty Risk-On\u201d for Equities | Tian Yang of Variant Perception",
     "last_proof_snippet": "I'm joined once again by TN Yang, co-founder and head of research at variant perception. TN, what do you think about the stock market right now, the S&P, the NASDAQ, the semiconductor stocks, they have been trading quite weekly for the past",
@@ -38631,7 +38898,7 @@ const dashboardData = {
     "last_podcast_name": "Moonshots with Peter Diamandis",
     "last_episode_date": "2026-07-24",
     "mention_score": 1,
-    "mention_score_decayed": 0.74,
+    "mention_score_decayed": 0.72,
     "last_main_idea": "Investing in AI is about more than just technology; it's an investment in the future of innovation, human potential, and the ability to solve complex problems.",
     "last_proof_cite": "Moonshots with Peter Diamandis \u2022 2026-07-24 \u2022 The Hugging Face Breach, Moonshot AI Valued at $20B, and Living to 1,759 Years Old | EP #273",
     "last_proof_snippet": "Pugging face, the leading open platform for sharing testing and deploying AI models, it got breached by an autonomous agent when the hugging face security team tried to analyze the attack, using either anthropic or open AI, both models refu",
@@ -38691,7 +38958,7 @@ const dashboardData = {
     "last_podcast_name": "Moonshots with Peter Diamandis",
     "last_episode_date": "2026-07-24",
     "mention_score": 1,
-    "mention_score_decayed": 0.74,
+    "mention_score_decayed": 0.72,
     "last_main_idea": "Investing in AI is about more than just technology; it's an investment in the future of innovation, human potential, and the ability to solve complex problems.",
     "last_proof_cite": "Moonshots with Peter Diamandis \u2022 2026-07-24 \u2022 The Hugging Face Breach, Moonshot AI Valued at $20B, and Living to 1,759 Years Old | EP #273",
     "last_proof_snippet": "Pugging face, the leading open platform for sharing testing and deploying AI models, it got breached by an autonomous agent when the hugging face security team tried to analyze the attack, using either anthropic or open AI, both models refu",
@@ -39821,7 +40088,7 @@ const dashboardData = {
     "last_podcast_name": "Monetary Matters with Jack Farley",
     "last_episode_date": "2026-07-14",
     "mention_score": 1,
-    "mention_score_decayed": 0.59,
+    "mention_score_decayed": 0.57,
     "last_main_idea": "Invest in companies at the forefront of AI and semiconductors that can leverage intelligence to perform high-cost, time-consuming tasks more efficiently and at scale.",
     "last_proof_cite": "Monetary Matters with Jack Farley \u2022 2026-07-14 \u2022 The Semiconductor Earnings Boom Is Just Getting Started | Ben Pouladian on why AI is Real, Nvidia is Mispriced, and Capacitors Are Overrated",
     "last_proof_snippet": "Got a special conversation today. I'm joined by Ben Kulandian of BEP Research. Ben is a specialist investor and analyst in the semi-conductor world and the semi-conductor supply chain. Of course, that is what powers AI Ben welcome to moneta",
@@ -40339,7 +40606,7 @@ const dashboardData = {
     "last_podcast_name": "Monetary Matters with Jack Farley",
     "last_episode_date": "2026-07-05",
     "mention_score": 1,
-    "mention_score_decayed": 0.48,
+    "mention_score_decayed": 0.47,
     "last_main_idea": "The Federal Reserve's ability to manage interest rates effectively hinges on maintaining adequate reserve levels; monitoring the implementation of techniques to reduce reserve demand could provide insights into future monetary policy and market stability.",
     "last_proof_cite": "Monetary Matters with Jack Farley \u2022 2026-07-05 \u2022 The Ultimate Playbook for Reducing The Fed\u2019s Balance Sheet | Professor Darrell Duffie on 4 Tools For Federal Reserve To Shrink Reserve Demand In Banking System",
     "last_proof_snippet": "Today's episode is brought to you by the Fundrise Income Fund. You'll hear more about the income fund later in the show, but for now, let's get into today's interview. The new Fed Chair Kevin Worsh has made it no secret that he prefers a sm",
@@ -40769,7 +41036,7 @@ const dashboardData = {
     "last_podcast_name": "Monetary Matters with Jack Farley",
     "last_episode_date": "2026-06-29",
     "mention_score": 1,
-    "mention_score_decayed": 0.42,
+    "mention_score_decayed": 0.41,
     "last_main_idea": "Investors should be cautious of current AI and data center investment booms, drawing parallels with the 1873 financial crisis, and be mindful of the risks associated with excessive leverage and mismanaged monetary policy.",
     "last_proof_cite": "Monetary Matters with Jack Farley \u2022 2026-06-29 \u2022 Rothschilds, Railroads, & Ruin | Liaquat Ahamed on \u201c1873\u201d (New Book!)",
     "last_proof_snippet": "I am so glad today we have a very special guest, one of my favorite authors of all time Leakwet Ahamed, who's the author of the new book 1873, The Roth Childs, The First Great Depression, and The Making of the Modern World Leakwet. Welcome",
@@ -40896,7 +41163,7 @@ const dashboardData = {
     "last_podcast_name": "Monetary Matters with Jack Farley",
     "last_episode_date": "2026-06-24",
     "mention_score": 1,
-    "mention_score_decayed": 0.37,
+    "mention_score_decayed": 0.36,
     "last_main_idea": "Plutus democratizes investment management by providing individual investors access to sophisticated strategies and research, previously limited to institutional investors, at a competitive fee.",
     "last_proof_cite": "Monetary Matters with Jack Farley \u2022 2026-06-24 \u2022 Inside The Platform Helping to Invest Like Substack & FinTwit's Top Researchers | Plutus",
     "last_proof_snippet": "I think for the first time, we're at a place where talented, portfolio builders, manager researchers have an avenue that is not limited to big banks and put us fully intends to incubate that talent and grow it. We really looked at it from t",
@@ -41080,7 +41347,7 @@ const dashboardData = {
     "last_podcast_name": "All-In with Chamath, Jason, Sacks & Friedberg",
     "last_episode_date": "2026-06-23",
     "mention_score": 1,
-    "mention_score_decayed": 0.36,
+    "mention_score_decayed": 0.35,
     "last_main_idea": "Ryan Cohen's investment strategy at GameStop focuses on operational efficiency, cost optimization, and leveraging the growing collectibles market to drive profitability and shareholder value.",
     "last_proof_cite": "All-In with Chamath, Jason, Sacks & Friedberg \u2022 2026-06-23 \u2022 GameStop CEO Ryan Cohen's $56B Plan to Take Over eBay",
     "last_proof_snippet": "Everyone hates GameStop and it seems like everyone in the media basically wants us to fail and wants them to succeed and you've got a board that's making hundreds of thousands of dollars a year and they don't buy stock with their own money.",
@@ -41396,7 +41663,7 @@ const dashboardData = {
     "last_podcast_name": "Monetary Matters with Jack Farley",
     "last_episode_date": "2026-06-21",
     "mention_score": 1,
-    "mention_score_decayed": 0.35,
+    "mention_score_decayed": 0.34,
     "last_main_idea": "Investors should be cautious about the long-term viability of AI companies with high operational losses and unsustainable financial models.",
     "last_proof_cite": "Monetary Matters with Jack Farley \u2022 2026-06-21 \u2022 Ed Zitron: The AI Bubble is Bleeding Cash, Here Are The Receipts",
     "last_proof_snippet": "Got a very special conversation. I am speaking to one of the most prolific skeptics about AI. I'm joined today by Ed Zitron, author of Where's Your Ed at Newsletter and the Better Offline Podcast. Ed, welcome to monetary matters. Thanks for",
@@ -41455,7 +41722,7 @@ const dashboardData = {
     "last_podcast_name": "Monetary Matters with Jack Farley",
     "last_episode_date": "2026-06-20",
     "mention_score": 1,
-    "mention_score_decayed": 0.34,
+    "mention_score_decayed": 0.33,
     "last_main_idea": "Investors should focus on individual company fundamentals in the AI and semiconductor sectors, rather than broad macro trends, and be cautious of inflated valuations and unprofitable business models.",
     "last_proof_cite": "Monetary Matters with Jack Farley \u2022 2026-06-20 \u2022 Jim Chanos & Val Zlatev: Long and Short Alpha in AI, Semiconductors, Data Centers, Neoclouds, and Data Centers | MacroMinds Symposium 2026",
     "last_proof_snippet": "Where's to find value in the AI boom on the long side and the short side? This is the question that I asked two great investors earlier this month when I had the privilege of hosting Jim Channos and Val Zlathe. Jim is a legendary short sell",
@@ -41520,7 +41787,7 @@ const dashboardData = {
     "last_podcast_name": "Monetary Matters with Jack Farley",
     "last_episode_date": "2026-06-20",
     "mention_score": 1,
-    "mention_score_decayed": 0.34,
+    "mention_score_decayed": 0.33,
     "last_main_idea": "Investors should focus on individual company fundamentals in the AI and semiconductor sectors, rather than broad macro trends, and be cautious of inflated valuations and unprofitable business models.",
     "last_proof_cite": "Monetary Matters with Jack Farley \u2022 2026-06-20 \u2022 Jim Chanos & Val Zlatev: Long and Short Alpha in AI, Semiconductors, Data Centers, Neoclouds, and Data Centers | MacroMinds Symposium 2026",
     "last_proof_snippet": "Where's to find value in the AI boom on the long side and the short side? This is the question that I asked two great investors earlier this month when I had the privilege of hosting Jim Channos and Val Zlathe. Jim is a legendary short sell",
@@ -41949,7 +42216,7 @@ const dashboardData = {
     "last_podcast_name": "BG2Pod with Brad Gerstner and Bill Gurley",
     "last_episode_date": "2026-06-11",
     "mention_score": 1,
-    "mention_score_decayed": 0.31,
+    "mention_score_decayed": 0.3,
     "last_main_idea": "SpaceX's unique position in the AI compute market and its rapid deployment capabilities make it a compelling long-term investment, with potential for significant revenue growth through Starlink and AI advancements.",
     "last_proof_cite": "BG2Pod with Brad Gerstner and Bill Gurley \u2022 2026-06-11 \u2022 The SpaceX IPO, Fable 5, AI Capex Update & Market Check w/ Gavin Baker, Andrew Fox & Clark Tang | BG2",
     "last_proof_snippet": "I think we're all pretty AI-pilled, and if you're AI-pilled, that means we've got to build a lot more compute than the world thinks, and that these models are going to be a lot more valuable than people think. You combine that with their co",
@@ -42797,7 +43064,7 @@ const dashboardData = {
     "last_podcast_name": "All-In with Chamath, Jason, Sacks & Friedberg",
     "last_episode_date": "2026-06-05",
     "mention_score": 1,
-    "mention_score_decayed": 0.24,
+    "mention_score_decayed": 0.23,
     "last_main_idea": "Investors should adapt to the current market dynamics by developing robust short-selling strategies and focusing on credit markets, while also assessing management quality and business resilience.",
     "last_proof_cite": "All-In with Chamath, Jason, Sacks & Friedberg \u2022 2026-06-05 \u2022 Dan Loeb: The Lost Art of Short Selling, and Why Stock Picking is Back",
     "last_proof_snippet": "Legendary Activist Investor, Dan Loeb, you pours the CEO and CIO of third point. The lost art of short selling has come back, and it's absolutely critical. Doesn't matter what you do, you have to be really selective. People talk about stock",
@@ -42989,7 +43256,7 @@ const dashboardData = {
     "last_podcast_name": "Moonshots with Peter Diamandis",
     "last_episode_date": "2026-06-03",
     "mention_score": 1,
-    "mention_score_decayed": 0.23,
+    "mention_score_decayed": 0.22,
     "last_main_idea": "Invest in companies at the forefront of AI advancements, particularly in large language models and robotics, as these technologies are expected to drive the next wave of innovation and growth.",
     "last_proof_cite": "Moonshots with Peter Diamandis \u2022 2026-06-03 \u2022 Why AGI Is Close but Not Here Yet | Ray Kurzweil | EP #261",
     "last_proof_snippet": "We just saw a story where Dennis is obvious, who you know, said 50, 50, whether we need another breakthrough to get to AGI. What do you think? Well, I think we need two things. So we've made a 75,000 million trillion folding grease over thi",

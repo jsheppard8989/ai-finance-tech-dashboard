@@ -45,6 +45,26 @@
       "podcast_episode_id": 391
     },
     {
+      "id": 407,
+      "title": "Misunderstood Stocks in Data Center Power, Cybersecurity, and Payments | Dean & Deiya Pernas",
+      "source_type": "podcast",
+      "source_name": "Monetary Matters with Jack Farley",
+      "source_date": "2026-08-07",
+      "summary": "In this episode of Monetary Matters, Jack Farley interviews Daya and Dean Pernos of Pernos Research, discussing key investment themes and trends such as energy power, data centers, software, AI, cybersecurity, and payments. The Pernos brothers highlight the importance of understanding both macroeconomic trends and single stock fundamental analysis for successful investing. They provide insights into the AI ecosystem, the impact of open-source AI models on the industry, and their bullish stance on companies like Upwork and Tenable. The conversation also touches on the commoditization of payment processing and the potential of marketplace businesses.",
+      "key_takeaway": "Investing success comes from a deep understanding of both macroeconomic trends and single stock fundamental analysis, with a focus on companies that benefit from technological advancements and market disruptions.",
+      "tickers_mentioned": [
+        "UPWORK",
+        "TENABLE"
+      ],
+      "sentiment": "bullish",
+      "display_on_main": 1,
+      "display_order": 0,
+      "added_date": "2026-08-07",
+      "archived_date": null,
+      "archived_reason": null,
+      "podcast_episode_id": 392
+    },
+    {
       "id": 404,
       "title": "How Open-Source AI Became Critical Infrastructure",
       "source_type": "podcast",
@@ -114,7 +134,7 @@
         "LTCM"
       ],
       "sentiment": "bullish",
-      "display_on_main": 1,
+      "display_on_main": 0,
       "display_order": 0,
       "added_date": "2026-08-04",
       "archived_date": null,
@@ -7800,6 +7820,42 @@
   "definitions": [],
   "overton": [
     {
+      "id": 268,
+      "term": "Skin in the Game",
+      "description": "A principle where individuals or entities have a personal stake or risk in the outcomes of their decisions or actions.",
+      "first_detected_date": "2026-08-04",
+      "last_mentioned_date": "2026-08-07",
+      "mention_count": 2,
+      "source_podcasts": null,
+      "status": "active",
+      "investment_implications": "Having skin in the game can align incentives and encourage more prudent risk management in investment strategies.",
+      "display_on_main": 0,
+      "archived_date": null,
+      "archived_reason": null,
+      "first_detected_episode_id": 384,
+      "first_detected_speaker": "Victor Hagani",
+      "last_mentioned_episode_id": 392,
+      "last_mentioned_speaker": "Daya Pernos, Dean Pernos"
+    },
+    {
+      "id": 267,
+      "term": "Stablecoins",
+      "description": "Cryptocurrencies pegged to a stable asset, like the US dollar, to minimize volatility.",
+      "first_detected_date": "2026-08-01",
+      "last_mentioned_date": "2026-08-07",
+      "mention_count": 2,
+      "source_podcasts": null,
+      "status": "active",
+      "investment_implications": "Stablecoins are seen as a rival to traditional payment networks and could disrupt global finance.",
+      "display_on_main": 0,
+      "archived_date": null,
+      "archived_reason": null,
+      "first_detected_episode_id": 379,
+      "first_detected_speaker": "Mark Andrewson, Chris Dixon",
+      "last_mentioned_episode_id": 392,
+      "last_mentioned_speaker": "Daya Pernos, Dean Pernos"
+    },
+    {
       "id": 263,
       "term": "Industrial AI",
       "description": "A full-stack solution that combines software, robotics, sensors, and machinery to automate industries.",
@@ -8002,8 +8058,8 @@
       "term": "Hyperscalers",
       "description": "Companies that invest heavily in AI infrastructure, often outpacing their earnings, raising questions about the long-term sustainability of such investments.",
       "first_detected_date": "2026-06-19",
-      "last_mentioned_date": "2026-08-06",
-      "mention_count": 13,
+      "last_mentioned_date": "2026-08-07",
+      "mention_count": 14,
       "source_podcasts": null,
       "status": "active",
       "investment_implications": "Investors should assess the financial health of AI companies and their ability to sustain growth.",
@@ -8012,8 +8068,8 @@
       "archived_reason": null,
       "first_detected_episode_id": 302,
       "first_detected_speaker": "Chamath Palihapitiya, Jason Calacanis (hosts)",
-      "last_mentioned_episode_id": 389,
-      "last_mentioned_speaker": "Simon Mow"
+      "last_mentioned_episode_id": 392,
+      "last_mentioned_speaker": "Daya Pernos, Dean Pernos"
     },
     {
       "id": 256,
@@ -8032,6 +8088,24 @@
       "first_detected_speaker": null,
       "last_mentioned_episode_id": 354,
       "last_mentioned_speaker": "Ramine Hassani"
+    },
+    {
+      "id": 266,
+      "term": "Electrification",
+      "description": "The process of converting systems or industries to use electricity as the primary power source.",
+      "first_detected_date": "2026-06-18",
+      "last_mentioned_date": "2026-08-07",
+      "mention_count": 2,
+      "source_podcasts": null,
+      "status": "active",
+      "investment_implications": "Investors should focus on companies involved in the electrification of the grid and power generation, as demand for electricity is projected to increase.",
+      "display_on_main": 0,
+      "archived_date": null,
+      "archived_reason": null,
+      "first_detected_episode_id": 297,
+      "first_detected_speaker": "Chris Seminoch",
+      "last_mentioned_episode_id": 392,
+      "last_mentioned_speaker": "Daya Pernos, Dean Pernos"
     },
     {
       "id": 258,
@@ -8128,8 +8202,8 @@
       "term": "AI CapEx",
       "description": "Capital expenditures related to the acquisition and maintenance of AI technologies and systems.",
       "first_detected_date": "2026-06-08",
-      "last_mentioned_date": "2026-08-04",
-      "mention_count": 16,
+      "last_mentioned_date": "2026-08-07",
+      "mention_count": 17,
       "source_podcasts": null,
       "status": "active",
       "investment_implications": "Companies that invest heavily in AI CapEx may gain a competitive edge in their respective industries.",
@@ -8138,8 +8212,8 @@
       "archived_reason": null,
       "first_detected_episode_id": 271,
       "first_detected_speaker": null,
-      "last_mentioned_episode_id": 384,
-      "last_mentioned_speaker": "Victor Hagani"
+      "last_mentioned_episode_id": 392,
+      "last_mentioned_speaker": "Daya Pernos, Dean Pernos"
     },
     {
       "id": 234,
@@ -8218,8 +8292,8 @@
       "term": "SaaS Apocalypse",
       "description": "A term used to describe the significant sell-off in software as a service (SaaS) stocks due to AI disruption.",
       "first_detected_date": "2026-06-03",
-      "last_mentioned_date": "2026-07-07",
-      "mention_count": 10,
+      "last_mentioned_date": "2026-08-07",
+      "mention_count": 11,
       "source_podcasts": null,
       "status": "active",
       "investment_implications": "This presents an opportunity for investors to find undervalued SaaS companies that can emerge stronger post-disruption.",
@@ -8228,8 +8302,8 @@
       "archived_reason": null,
       "first_detected_episode_id": 257,
       "first_detected_speaker": null,
-      "last_mentioned_episode_id": 334,
-      "last_mentioned_speaker": "Sema Amble, Stephen Sinowski"
+      "last_mentioned_episode_id": 392,
+      "last_mentioned_speaker": "Daya Pernos, Dean Pernos"
     },
     {
       "id": 219,
@@ -8416,8 +8490,8 @@
       "term": "Distillation",
       "description": "The process of training a smaller AI model on the output of a larger model to achieve similar results with less computational power.",
       "first_detected_date": "2026-05-15",
-      "last_mentioned_date": "2026-08-06",
-      "mention_count": 31,
+      "last_mentioned_date": "2026-08-07",
+      "mention_count": 32,
       "source_podcasts": null,
       "status": "active",
       "investment_implications": "Distillation can make AI more accessible and cost-effective, impacting how businesses allocate resources for AI development.",
@@ -8426,8 +8500,8 @@
       "archived_reason": null,
       "first_detected_episode_id": 221,
       "first_detected_speaker": null,
-      "last_mentioned_episode_id": 389,
-      "last_mentioned_speaker": "Simon Mow"
+      "last_mentioned_episode_id": 392,
+      "last_mentioned_speaker": "Daya Pernos, Dean Pernos"
     },
     {
       "id": 174,
@@ -9044,20 +9118,20 @@
     {
       "id": 78,
       "term": "Open-Source AI Models",
-      "description": "AI models that are publicly accessible and can be modified and distributed by anyone, fostering collaboration and innovation in the AI field.",
+      "description": "AI models that are publicly available and can be used and modified by anyone, potentially commoditizing certain aspects of AI technology.",
       "first_detected_date": "2026-03-29",
-      "last_mentioned_date": "2026-08-06",
-      "mention_count": 15,
+      "last_mentioned_date": "2026-08-07",
+      "mention_count": 16,
       "source_podcasts": null,
       "status": "active",
-      "investment_implications": "Open-source AI models can lead to faster advancements and broader adoption of AI technologies, impacting investment in proprietary AI companies.",
+      "investment_implications": "Open-source AI models can increase demand for cloud providers and GPU providers, affecting the AI ecosystem.",
       "display_on_main": 0,
       "archived_date": null,
       "archived_reason": null,
       "first_detected_episode_id": null,
       "first_detected_speaker": null,
-      "last_mentioned_episode_id": 389,
-      "last_mentioned_speaker": "Simon Mow"
+      "last_mentioned_episode_id": 392,
+      "last_mentioned_speaker": "Daya Pernos, Dean Pernos"
     },
     {
       "id": 79,

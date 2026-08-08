@@ -1,5 +1,25 @@
 [
   {
+    "id": 392,
+    "podcast_name": "Monetary Matters with Jack Farley",
+    "episode_title": "Misunderstood Stocks in Data Center Power, Cybersecurity, and Payments | Dean & Deiya Pernas",
+    "episode_date": "2026-08-07",
+    "summary": "In this episode of Monetary Matters, Jack Farley interviews Daya and Dean Pernos of Pernos Research, discussing key investment themes and trends such as energy power, data centers, software, AI, cybersecurity, and payments. The Pernos brothers highlight the importance of understanding both macroeconomic trends and single stock fundamental analysis for successful investing. They provide insights into the AI ecosystem, the impact of open-source AI models on the industry, and their bullish stance on companies like Upwork and Tenable. The conversation also touches on the commoditization of payment processing and the potential of marketplace businesses.",
+    "key_takeaways": [
+      "The AI ecosystem can be divided into four layers: chips, infrastructure, frontier models, and application.",
+      "Open-source AI models are bullish for the AI ecosystem, increasing demand for cloud providers and GPU providers.",
+      "The improvements in AI models like Kimmy 3 are likely due to distillation of cloud models rather than pure innovation.",
+      "Tenable is expected to benefit from the structural shift in cybersecurity, with growth rates expected to accelerate.",
+      "Upwork is considered a unique marketplace business with network effects and is trading at a significant discount.",
+      "The payment processing industry is moving towards verticalized software solutions that include payments, with the value shifting to the application layer."
+    ],
+    "investment_thesis": "Investing success comes from a deep understanding of both macroeconomic trends and single stock fundamental analysis, with a focus on companies that benefit from technological advancements and market disruptions.",
+    "key_tickers": [
+      "UPWORK",
+      "TENABLE"
+    ]
+  },
+  {
     "id": 391,
     "podcast_name": "Dwarkesh Podcast",
     "episode_title": "8 Predictions for the Era of Continual Learning",
@@ -115,24 +135,5 @@
     ],
     "investment_thesis": "Investing in cybersecurity solutions that leverage AI can provide a competitive advantage, but it also requires understanding the novel risks and vulnerabilities that AI models can create.",
     "key_tickers": null
-  },
-  {
-    "id": 384,
-    "podcast_name": "Monetary Matters with Jack Farley",
-    "episode_title": "Victor Haghani on Death of Random Walk, and Passive, Buybacks, and LTCM",
-    "episode_date": "2026-08-04",
-    "summary": "In this episode of Monetary Matters, Jack Farley discusses the lessons learned from Long-Term Capital Management (LTCM) and the behavior of the stock market. The conversation delves into personal risk-taking, the structure of leverage pools, and the differences between relative value trades and Delta 1 trades. Additionally, the episode explores the impact of AI capex on S&P 500 earnings and the role of extrapolators in market movements.",
-    "key_takeaways": [
-      "Personal risk-taking and having 'skin in the game' are crucial for investment success.",
-      "Running a leverage pool with standalone capital might not be the best business structure.",
-      "Relative value trading within larger institutions can mitigate financing risks.",
-      "Tight stop losses on strategies can bring positive exposure to momentum.",
-      "A broader mix of strategies can help hedge funds navigate crises more successfully.",
-      "Market behavior is increasingly driven by extrapolators and corporate equity activity rather than fundamental investors."
-    ],
-    "investment_thesis": "The S&P 500's performance over the next two years will be largely determined by the behavior of extrapolators and corporate equity activity, rather than fundamental earnings growth.",
-    "key_tickers": [
-      "LTCM"
-    ]
   }
 ]
