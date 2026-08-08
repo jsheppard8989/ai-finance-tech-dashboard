@@ -1,7 +1,7 @@
 {
-  "generated_at": "2026-08-07T22:04:20.080054",
-  "last_updated": "2026-08-07T22:04:20.080054",
-  "last_pipeline_run": "2026-08-07T22:04:20.080054",
+  "generated_at": "2026-08-07T22:07:49.890453",
+  "last_updated": "2026-08-07T22:07:49.890453",
+  "last_pipeline_run": "2026-08-07T22:07:49.890453",
   "main_page": {
     "overton": 13,
     "insights": 8,
@@ -18,12 +18,12 @@
     "podcasts_analyzed": 2
   },
   "step_results": {
-    "downloaded": 3,
-    "transcribed": 1,
-    "analyzed": 1,
-    "insight_created": 1,
-    "published": 1,
-    "total": 3
+    "downloaded": 2,
+    "transcribed": 0,
+    "analyzed": 0,
+    "insight_created": 0,
+    "published": 0,
+    "total": 2
   },
   "episodes": [
     {
@@ -167,24 +167,6 @@
         }
       },
       "status": "needs_transcription"
-    },
-    {
-      "id": "substack:post:210233020",
-      "podcast": "Dwarkesh Podcast",
-      "title": "8 Predictions for the Era of Continual Learning",
-      "published": "2026-08-07",
-      "rss_guid": "substack:post:210233020",
-      "stages": {
-        "downloaded": true,
-        "transcribed": true,
-        "analyzed": true,
-        "insight_created": true,
-        "published": true
-      },
-      "stage_reasons": {},
-      "first_blocker": null,
-      "remediation_by_stage": {},
-      "status": "complete"
     }
   ],
   "available_from_rss": [

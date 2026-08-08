@@ -3,80 +3,80 @@
 
 const dashboardData = {
   schemaVersion: 2,
-  generatedAt: "2026-08-07T22:04:24.240948",
-  chartsVersion: "2026-08-07T22:04:15.663090",
+  generatedAt: "2026-08-07T22:07:57.419051",
+  chartsVersion: "2026-08-07T22:07:46.164259",
   priceSnapshot: {
   "GOOGL": {
     "price": 354.3,
     "change_pct": 2.06,
     "name": "GOOGL",
-    "updated_at": "2026-08-07T22:04:15.662068"
+    "updated_at": "2026-08-07T22:07:46.163484"
   },
   "NVDA": {
     "price": 223.96,
     "change_pct": 8.04,
     "name": "NVDA",
-    "updated_at": "2026-08-07T22:04:15.662088"
+    "updated_at": "2026-08-07T22:07:46.163499"
   },
   "BTC": {
-    "price": 64888.08,
-    "change_pct": -0.69,
+    "price": 64899.36,
+    "change_pct": -0.67,
     "name": "BTC",
-    "updated_at": "2026-08-07T22:04:15.662098"
+    "updated_at": "2026-08-07T22:07:46.163505"
   },
   "MSFT": {
     "price": 499.99,
     "change_pct": 25.7,
     "name": "MSFT",
-    "updated_at": "2026-08-07T22:04:15.662106"
+    "updated_at": "2026-08-07T22:07:46.163510"
   },
   "TSLA": {
     "price": 328.58,
     "change_pct": -13.29,
     "name": "TSLA",
-    "updated_at": "2026-08-07T22:04:15.662114"
+    "updated_at": "2026-08-07T22:07:46.163516"
   },
   "AMZN": {
     "price": 274.48,
     "change_pct": 10.88,
     "name": "AMZN",
-    "updated_at": "2026-08-07T22:04:15.662121"
+    "updated_at": "2026-08-07T22:07:46.163521"
   },
   "META": {
     "price": 592.1,
     "change_pct": -8.03,
     "name": "META",
-    "updated_at": "2026-08-07T22:04:15.662129"
+    "updated_at": "2026-08-07T22:07:46.163527"
   },
   "WTI": {
     "price": 3.43,
     "change_pct": -5.51,
     "name": "WTI",
-    "updated_at": "2026-08-07T22:04:15.662137"
+    "updated_at": "2026-08-07T22:07:46.163532"
   },
   "S&P 500": {
     "price": 773.26,
     "change_pct": 3.34,
     "name": "S&P 500",
-    "updated_at": "2026-08-07T22:04:15.662144"
+    "updated_at": "2026-08-07T22:07:46.163536"
   },
   "AAPL": {
     "price": 313.33,
     "change_pct": -4.4,
     "name": "AAPL",
-    "updated_at": "2026-08-07T22:04:15.662152"
+    "updated_at": "2026-08-07T22:07:46.163542"
   },
   "QQQ": {
     "price": 723.03,
     "change_pct": 1.98,
     "name": "Invesco QQQ Trust",
-    "updated_at": "2026-08-07T22:04:15.662159"
+    "updated_at": "2026-08-07T22:07:46.163547"
   },
   "BTC-USD": {
-    "price": 64888.08,
-    "change_pct": -0.69,
+    "price": 64899.36,
+    "change_pct": -0.67,
     "name": "Bitcoin USD",
-    "updated_at": "2026-08-07T22:04:15.662168"
+    "updated_at": "2026-08-07T22:07:46.163553"
   }
 },
   tickerScores: [
@@ -35360,7 +35360,7 @@ const dashboardData = {
 ],
   podcastGuests: [
   {
-    "id": 45642,
+    "id": 45754,
     "name": "How Open",
     "slug": "how-open",
     "bio": null,
@@ -35372,7 +35372,7 @@ const dashboardData = {
     "appearance_count": 1
   },
   {
-    "id": 45643,
+    "id": 45755,
     "name": "Saronic Founders",
     "slug": "saronic-founders",
     "bio": null,
@@ -35384,7 +35384,7 @@ const dashboardData = {
     "appearance_count": 1
   },
   {
-    "id": 45644,
+    "id": 45756,
     "name": "OpenAI's Joshua Achiam",
     "slug": "openais-joshua-achiam",
     "bio": null,
@@ -35396,7 +35396,7 @@ const dashboardData = {
     "appearance_count": 1
   },
   {
-    "id": 45645,
+    "id": 45757,
     "name": "Why Macro is \u201cPretty Risk-On\u201d for Equities",
     "slug": "why-macro-is-pretty-risk-on-for-equities",
     "bio": null,
@@ -35408,7 +35408,7 @@ const dashboardData = {
     "appearance_count": 1
   },
   {
-    "id": 45646,
+    "id": 45758,
     "name": "AI for America's Small Businesses",
     "slug": "ai-for-americas-small-businesses",
     "bio": null,
@@ -35420,7 +35420,7 @@ const dashboardData = {
     "appearance_count": 1
   },
   {
-    "id": 45647,
+    "id": 45759,
     "name": "Mum\u2019s The Word",
     "slug": "mums-the-word",
     "bio": null,
@@ -35432,7 +35432,7 @@ const dashboardData = {
     "appearance_count": 1
   },
   {
-    "id": 45648,
+    "id": 45760,
     "name": "Luke Gromen",
     "slug": "luke-gromen",
     "bio": null,
@@ -35444,7 +35444,7 @@ const dashboardData = {
     "appearance_count": 1
   },
   {
-    "id": 45649,
+    "id": 45761,
     "name": "Codex from 0 to 10M Users",
     "slug": "codex-from-0-to-10m-users",
     "bio": null,
@@ -35456,7 +35456,7 @@ const dashboardData = {
     "appearance_count": 1
   },
   {
-    "id": 45650,
+    "id": 45762,
     "name": "Ben Horowitz",
     "slug": "ben-horowitz",
     "bio": "Ben Horowitz is a co-founder of venture firm Andreessen Horowitz and former CEO of Opsware, known for advising founders on leadership under pressure.",
@@ -35468,7 +35468,7 @@ const dashboardData = {
     "appearance_count": 3
   },
   {
-    "id": 45651,
+    "id": 45763,
     "name": "Building the Physical AI Stack",
     "slug": "building-the-physical-ai-stack",
     "bio": null,
@@ -35480,7 +35480,7 @@ const dashboardData = {
     "appearance_count": 1
   },
   {
-    "id": 45652,
+    "id": 45764,
     "name": "Travis Kalanick Is Back",
     "slug": "travis-kalanick-is-back",
     "bio": null,
@@ -35492,7 +35492,7 @@ const dashboardData = {
     "appearance_count": 1
   },
   {
-    "id": 45653,
+    "id": 45765,
     "name": "Why Physical AI Is the Next Frontier",
     "slug": "why-physical-ai-is-the-next-frontier",
     "bio": null,
@@ -35504,7 +35504,7 @@ const dashboardData = {
     "appearance_count": 1
   },
   {
-    "id": 45654,
+    "id": 45766,
     "name": "Nick Nemeth",
     "slug": "nick-nemeth",
     "bio": null,
@@ -35516,7 +35516,7 @@ const dashboardData = {
     "appearance_count": 1
   },
   {
-    "id": 45655,
+    "id": 45767,
     "name": "Mark Cuban on the AI Bubble",
     "slug": "mark-cuban-on-the-ai-bubble",
     "bio": null,
@@ -35528,7 +35528,7 @@ const dashboardData = {
     "appearance_count": 1
   },
   {
-    "id": 45656,
+    "id": 45768,
     "name": "Urgent Update- AI Sputnik Moment",
     "slug": "urgent-update--ai-sputnik-moment",
     "bio": null,
@@ -35540,7 +35540,7 @@ const dashboardData = {
     "appearance_count": 1
   },
   {
-    "id": 45657,
+    "id": 45769,
     "name": "Replay 2025",
     "slug": "replay-2025",
     "bio": null,
@@ -35552,7 +35552,7 @@ const dashboardData = {
     "appearance_count": 1
   },
   {
-    "id": 45658,
+    "id": 45770,
     "name": "Turbo Charged Trend Following",
     "slug": "turbo-charged-trend-following",
     "bio": null,
@@ -35564,7 +35564,7 @@ const dashboardData = {
     "appearance_count": 1
   },
   {
-    "id": 45659,
+    "id": 45771,
     "name": "Can Anyone Catch NVIDIA?",
     "slug": "can-anyone-catch-nvidia",
     "bio": null,
@@ -35576,7 +35576,7 @@ const dashboardData = {
     "appearance_count": 1
   },
   {
-    "id": 45660,
+    "id": 45772,
     "name": "Is AI a Bubble?",
     "slug": "is-ai-a-bubble",
     "bio": null,
@@ -35588,7 +35588,7 @@ const dashboardData = {
     "appearance_count": 1
   },
   {
-    "id": 45661,
+    "id": 45773,
     "name": "Adam Brown \u2013 Einstein's happiest thought",
     "slug": "adam-brown--einsteins-happiest-thought",
     "bio": null,
@@ -46750,7 +46750,7 @@ const dashboardData = {
     "last_podcast_name": "The a16z Show",
     "last_episode_date": "2026-04-16",
     "mention_score": 1,
-    "mention_score_decayed": 0.08,
+    "mention_score_decayed": 0.07,
     "last_main_idea": "Investing in AI technologies that bridge the gap between formal and intuitive knowledge could offer significant returns as these become more integrated into daily life and business.",
     "last_proof_cite": "The a16z Show \u2022 2026-04-16 \u2022 Technology, Culture, and the Next AI Interface with sign\u00fcll",
     "last_proof_snippet": "Making powerful AI models more accessible can greatly improve their Net Promoter Score (NPS) by democratizing their use.",
