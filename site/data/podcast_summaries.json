@@ -1,5 +1,24 @@
 [
   {
+    "id": 393,
+    "podcast_name": "Moonshots with Peter Diamandis",
+    "episode_title": "Google\u2019s Jeff Dean Exits, SpaceX Hits $100B in Rev & OpenAI\u2019s Astra Solves Decade-Old Math Problems with Emad Mostaque | EP #277",
+    "episode_date": "2026-08-08",
+    "summary": "In this episode of Moonshots with Peter Diamandis, the focus is on the rapid advancements in AI and space technology, with discussions on Google's shake-up, the potential of SpaceX, and the emerging model Astra by OpenAI. The panel delves into the implications of these technologies on the future of work, investment opportunities, and the global tech landscape. They also touch upon the competitive dynamics between AI models and the strategic moves by major tech companies.",
+    "key_takeaways": [
+      "Jeff, Google's chief scientist for 27 years, is leaving to co-found Discovery Loop, indicating a significant shift in the AI industry.",
+      "SpaceX is expected to hit $100 billion in annual recurring revenue by the end of the year, highlighting Elon Musk's ambitious plans for the future.",
+      "OpenAI's new model, Astra, is set to solve problems that have been stuck for decades, showcasing the rapid pace of AI development.",
+      "As AI and robots take on more tasks, humans will spend more time on 'being', which could reshape the job market and economic productivity.",
+      "The panel discusses the competitive landscape of AI models, with a focus on cost versus capabilities performance."
+    ],
+    "investment_thesis": "Invest in companies at the forefront of AI and space technology, as these sectors are poised for significant growth and disruption.",
+    "key_tickers": [
+      "GOOGL",
+      "TSLA"
+    ]
+  },
+  {
     "id": 392,
     "podcast_name": "Monetary Matters with Jack Farley",
     "episode_title": "Misunderstood Stocks in Data Center Power, Cybersecurity, and Payments | Dean & Deiya Pernas",
@@ -100,23 +119,6 @@
       "Radiant's approach to nuclear energy emphasizes safety, efficiency, and the potential to solve waste storage issues in the nuclear industry."
     ],
     "investment_thesis": "Investing in innovative technologies that address critical challenges in ocean exploration, mineral extraction, and nuclear energy can lead to significant market opportunities and positive societal impacts.",
-    "key_tickers": null
-  },
-  {
-    "id": 386,
-    "podcast_name": "Moonshots with Peter Diamandis",
-    "episode_title": "Michael Kratsios on the New Golden Age of American Science | EP #276",
-    "episode_date": "2026-08-04",
-    "summary": "In this episode of Moonshots with Peter Diamandis, the host interviews Michael Kratsios, the 13th director of the White House Office of Science and Technology Policy and science advisor to President Trump. They discuss the impact of AI on various sectors, the government's role in fostering innovation, and Kratsios' vision for America's future in science and technology. Key topics include America's AI Action Plan, Genesis Mission, and the Golden Age of Science. The conversation also touches on regulatory challenges, the pace of scientific discovery, and the importance of long-duration grants.",
-    "key_takeaways": [
-      "AI is poised to impact every sector, from drone flying to medical diagnostics.",
-      "The U.S. government is focusing on key initiatives to win the global AI race.",
-      "Regulatory systems should not impede the progress of rapidly growing technologies.",
-      "The median age of an intramural NIH scientist is 71, highlighting the need for younger talent in scientific discovery.",
-      "Long-duration grants are essential to support scientific endeavors that require more time for research and discovery.",
-      "The U.S. is working on returning supersonic flight and implementing policy changes to foster innovation in the aviation industry."
-    ],
-    "investment_thesis": "Investing in AI and technology sectors that align with the U.S. government's initiatives for fostering innovation and scientific discovery could provide significant growth opportunities.",
     "key_tickers": null
   },
   {

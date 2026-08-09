@@ -1,6 +1,26 @@
 {
   "insights": [
     {
+      "id": 408,
+      "title": "Google\u2019s Jeff Dean Exits, SpaceX Hits $100B in Rev & OpenAI\u2019s Astra Solves Decade-Old Math Problems with Emad Mostaque | EP #277",
+      "source_type": "podcast",
+      "source_name": "Moonshots with Peter Diamandis",
+      "source_date": "2026-08-08",
+      "summary": "In this episode of Moonshots with Peter Diamandis, the focus is on the rapid advancements in AI and space technology, with discussions on Google's shake-up, the potential of SpaceX, and the emerging model Astra by OpenAI. The panel delves into the implications of these technologies on the future of work, investment opportunities, and the global tech landscape. They also touch upon the competitive dynamics between AI models and the strategic moves by major tech companies.",
+      "key_takeaway": "Invest in companies at the forefront of AI and space technology, as these sectors are poised for significant growth and disruption.",
+      "tickers_mentioned": [
+        "GOOGL",
+        "TSLA"
+      ],
+      "sentiment": "bullish",
+      "display_on_main": 1,
+      "display_order": 0,
+      "added_date": "2026-08-08",
+      "archived_date": null,
+      "archived_reason": null,
+      "podcast_episode_id": 393
+    },
+    {
       "id": 405,
       "title": "The Reality of AI-Powered Cyberattacks | Truffle Security & Socket",
       "source_type": "podcast",
@@ -155,7 +175,7 @@
         "GOOGL"
       ],
       "sentiment": "bullish",
-      "display_on_main": 1,
+      "display_on_main": 0,
       "display_order": 0,
       "added_date": "2026-08-04",
       "archived_date": null,
@@ -7838,6 +7858,24 @@
       "last_mentioned_speaker": "Daya Pernos, Dean Pernos"
     },
     {
+      "id": 269,
+      "term": "Golden Age of Science",
+      "description": "A period characterized by rapid scientific discovery and technological advancement, often associated with significant government support and investment.",
+      "first_detected_date": "2026-08-04",
+      "last_mentioned_date": "2026-08-08",
+      "mention_count": 2,
+      "source_podcasts": null,
+      "status": "active",
+      "investment_implications": "Focusing on sectors and companies that benefit from increased scientific research and development could lead to high growth opportunities.",
+      "display_on_main": 0,
+      "archived_date": null,
+      "archived_reason": null,
+      "first_detected_episode_id": 386,
+      "first_detected_speaker": "Michael Kratsios",
+      "last_mentioned_episode_id": 393,
+      "last_mentioned_speaker": "Saline"
+    },
+    {
       "id": 267,
       "term": "Stablecoins",
       "description": "Cryptocurrencies pegged to a stable asset, like the US dollar, to minimize volatility.",
@@ -7950,8 +7988,8 @@
       "term": "Liquid AI",
       "description": "A type of AI that focuses on efficient, general-purpose intelligence at various scales, often using small language models.",
       "first_detected_date": "2026-07-17",
-      "last_mentioned_date": "2026-07-24",
-      "mention_count": 3,
+      "last_mentioned_date": "2026-08-08",
+      "mention_count": 4,
       "source_podcasts": null,
       "status": "active",
       "investment_implications": "Investors should consider companies developing Liquid AI for their potential to disrupt traditional AI markets and offer more adaptable solutions.",
@@ -7960,8 +7998,8 @@
       "archived_reason": null,
       "first_detected_episode_id": 354,
       "first_detected_speaker": "Ramine Hassani",
-      "last_mentioned_episode_id": 366,
-      "last_mentioned_speaker": "Day Blenden, Sleam Ismail"
+      "last_mentioned_episode_id": 393,
+      "last_mentioned_speaker": "Saline"
     },
     {
       "id": 257,
@@ -8058,8 +8096,8 @@
       "term": "Hyperscalers",
       "description": "Companies that invest heavily in AI infrastructure, often outpacing their earnings, raising questions about the long-term sustainability of such investments.",
       "first_detected_date": "2026-06-19",
-      "last_mentioned_date": "2026-08-07",
-      "mention_count": 14,
+      "last_mentioned_date": "2026-08-08",
+      "mention_count": 15,
       "source_podcasts": null,
       "status": "active",
       "investment_implications": "Investors should assess the financial health of AI companies and their ability to sustain growth.",
@@ -8068,8 +8106,8 @@
       "archived_reason": null,
       "first_detected_episode_id": 302,
       "first_detected_speaker": "Chamath Palihapitiya, Jason Calacanis (hosts)",
-      "last_mentioned_episode_id": 392,
-      "last_mentioned_speaker": "Daya Pernos, Dean Pernos"
+      "last_mentioned_episode_id": 393,
+      "last_mentioned_speaker": "Saline"
     },
     {
       "id": 256,
@@ -8220,8 +8258,8 @@
       "term": "AI Personhood",
       "description": "The concept of attributing legal personhood or rights to AI entities, raising questions about responsibility and ethics in AI development.",
       "first_detected_date": "2026-06-08",
-      "last_mentioned_date": "2026-08-04",
-      "mention_count": 15,
+      "last_mentioned_date": "2026-08-08",
+      "mention_count": 16,
       "source_podcasts": null,
       "status": "active",
       "investment_implications": "As AI becomes more autonomous, investors may need to consider the ethical implications and potential regulatory changes related to AI personhood.",
@@ -8230,8 +8268,8 @@
       "archived_reason": null,
       "first_detected_episode_id": 271,
       "first_detected_speaker": "Peter Diamandis",
-      "last_mentioned_episode_id": 386,
-      "last_mentioned_speaker": "Michael Kratsios"
+      "last_mentioned_episode_id": 393,
+      "last_mentioned_speaker": "Saline"
     },
     {
       "id": 59,
@@ -8398,20 +8436,20 @@
     {
       "id": 113,
       "term": "Solve Everything Thesis",
-      "description": "The idea that a single technology or approach can address a wide range of problems or challenges.",
+      "description": "The idea that AI advancements, particularly models like Astra, are capable of solving complex problems that have been unsolvable for decades.",
       "first_detected_date": "2026-05-23",
-      "last_mentioned_date": "2026-08-05",
-      "mention_count": 5,
+      "last_mentioned_date": "2026-08-08",
+      "mention_count": 6,
       "source_podcasts": null,
       "status": "active",
-      "investment_implications": "Investing in companies with a 'solve everything' approach can lead to broad market impact and disruption.",
+      "investment_implications": "Investors should consider the potential of AI to disrupt traditional problem-solving across industries.",
       "display_on_main": 0,
       "archived_date": null,
       "archived_reason": null,
       "first_detected_episode_id": 236,
       "first_detected_speaker": null,
-      "last_mentioned_episode_id": 387,
-      "last_mentioned_speaker": "Ulysses Founder, Marianna Mineroles Founder, Radiant Founder"
+      "last_mentioned_episode_id": 393,
+      "last_mentioned_speaker": "Saline"
     },
     {
       "id": 194,
@@ -8472,8 +8510,8 @@
       "term": "Singularity",
       "description": "A hypothetical point in the future when technological growth becomes uncontrollable and irreversible, leading to unforeseeable changes to human civilization.",
       "first_detected_date": "2026-05-15",
-      "last_mentioned_date": "2026-08-04",
-      "mention_count": 43,
+      "last_mentioned_date": "2026-08-08",
+      "mention_count": 44,
       "source_podcasts": null,
       "status": "active",
       "investment_implications": "Investors should be aware of companies and technologies that are pushing the boundaries of AI and automation, as they may be key players in the approach to the singularity.",
@@ -8482,16 +8520,16 @@
       "archived_reason": null,
       "first_detected_episode_id": 221,
       "first_detected_speaker": null,
-      "last_mentioned_episode_id": 386,
-      "last_mentioned_speaker": "Michael Kratsios"
+      "last_mentioned_episode_id": 393,
+      "last_mentioned_speaker": "Saline"
     },
     {
       "id": 97,
       "term": "Distillation",
       "description": "The process of training a smaller AI model on the output of a larger model to achieve similar results with less computational power.",
       "first_detected_date": "2026-05-15",
-      "last_mentioned_date": "2026-08-07",
-      "mention_count": 32,
+      "last_mentioned_date": "2026-08-08",
+      "mention_count": 33,
       "source_podcasts": null,
       "status": "active",
       "investment_implications": "Distillation can make AI more accessible and cost-effective, impacting how businesses allocate resources for AI development.",
@@ -8500,8 +8538,8 @@
       "archived_reason": null,
       "first_detected_episode_id": 221,
       "first_detected_speaker": null,
-      "last_mentioned_episode_id": 392,
-      "last_mentioned_speaker": "Daya Pernos, Dean Pernos"
+      "last_mentioned_episode_id": 393,
+      "last_mentioned_speaker": "Saline"
     },
     {
       "id": 174,
@@ -8598,8 +8636,8 @@
       "term": "AGI",
       "description": "Artificial General Intelligence, the ability of machines to understand, learn, and apply knowledge across a broad range of tasks at a human level.",
       "first_detected_date": "2026-05-07",
-      "last_mentioned_date": "2026-08-06",
-      "mention_count": 69,
+      "last_mentioned_date": "2026-08-08",
+      "mention_count": 70,
       "source_podcasts": null,
       "status": "active",
       "investment_implications": "Invest in companies that are making incremental progress towards AGI capabilities.",
@@ -8608,8 +8646,8 @@
       "archived_reason": null,
       "first_detected_episode_id": 204,
       "first_detected_speaker": "Demis Hassabis",
-      "last_mentioned_episode_id": 389,
-      "last_mentioned_speaker": "Simon Mow"
+      "last_mentioned_episode_id": 393,
+      "last_mentioned_speaker": "Saline"
     },
     {
       "id": 162,
@@ -9696,8 +9734,8 @@
       "term": "AI Agents",
       "description": "Software programs designed to perform tasks autonomously, mimicking human actions in a digital environment.",
       "first_detected_date": "2026-02-28",
-      "last_mentioned_date": "2026-08-04",
-      "mention_count": 56,
+      "last_mentioned_date": "2026-08-08",
+      "mention_count": 57,
       "source_podcasts": null,
       "status": "active",
       "investment_implications": "AI Agents have the potential to significantly reduce labor costs and increase efficiency in various sectors, particularly in administrative tasks.",
@@ -9706,8 +9744,8 @@
       "archived_reason": null,
       "first_detected_episode_id": 31,
       "first_detected_speaker": null,
-      "last_mentioned_episode_id": 386,
-      "last_mentioned_speaker": "Michael Kratsios"
+      "last_mentioned_episode_id": 393,
+      "last_mentioned_speaker": "Saline"
     },
     {
       "id": 38,
@@ -9856,20 +9894,20 @@
     {
       "id": 32,
       "term": "AI Agent Orchestration",
-      "description": "The process of managing and coordinating the actions of AI agents to optimize their performance in tasks such as customer support and business processes.",
+      "description": "The coordination of AI agents to perform tasks, potentially leading to more efficient and complex operations.",
       "first_detected_date": "2026-02-18",
-      "last_mentioned_date": "2026-07-31",
-      "mention_count": 5,
+      "last_mentioned_date": "2026-08-08",
+      "mention_count": 6,
       "source_podcasts": null,
       "status": "active",
-      "investment_implications": "Investing in companies that excel at AI agent orchestration can lead to more efficient and effective AI implementations, driving business value.",
+      "investment_implications": "Look for companies that are leveraging AI orchestration to gain a competitive edge.",
       "display_on_main": 0,
       "archived_date": null,
       "archived_reason": null,
       "first_detected_episode_id": 69,
       "first_detected_speaker": null,
-      "last_mentioned_episode_id": 377,
-      "last_mentioned_speaker": "Jesse Zang, Ashwin Srinivas"
+      "last_mentioned_episode_id": 393,
+      "last_mentioned_speaker": "Saline"
     },
     {
       "id": 13,
