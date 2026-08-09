@@ -1,7 +1,7 @@
 {
-  "generated_at": "2026-08-08T23:40:35.944822",
-  "last_updated": "2026-08-08T23:40:35.944822",
-  "last_pipeline_run": "2026-08-08T23:40:35.944822",
+  "generated_at": "2026-08-09T05:02:50.521639",
+  "last_updated": "2026-08-09T05:02:50.521639",
+  "last_pipeline_run": "2026-08-09T05:02:50.521639",
   "main_page": {
     "overton": 13,
     "insights": 8,
@@ -11,41 +11,23 @@
     "ticker_mentions": 212,
     "podcast_episodes": 366,
     "newsletters": 7,
-    "daily_scores": 149,
+    "daily_scores": 150,
     "overton_terms_total": 120,
     "latest_insights_total": 380,
     "today_mentions": {
       "podcast": 1
     },
-    "podcasts_analyzed": 1
+    "podcasts_analyzed": 0
   },
   "step_results": {
-    "downloaded": 2,
-    "transcribed": 2,
-    "analyzed": 1,
-    "insight_created": 1,
-    "published": 1,
-    "total": 2
+    "downloaded": 1,
+    "transcribed": 1,
+    "analyzed": 0,
+    "insight_created": 0,
+    "published": 0,
+    "total": 1
   },
   "episodes": [
-    {
-      "id": "286bf2c2-933a-11f1-b1c3-db2f4cc4d2ec",
-      "podcast": "Moonshots with Peter Diamandis",
-      "title": "Google\u2019s Jeff Dean Exits, SpaceX Hits $100B in Rev & OpenAI\u2019s Astra Solves Decade-Old Math Problems with Emad Mostaque | EP #277",
-      "published": "2026-08-08",
-      "rss_guid": "286bf2c2-933a-11f1-b1c3-db2f4cc4d2ec",
-      "stages": {
-        "downloaded": true,
-        "transcribed": true,
-        "analyzed": true,
-        "insight_created": true,
-        "published": true
-      },
-      "stage_reasons": {},
-      "first_blocker": null,
-      "remediation_by_stage": {},
-      "status": "complete"
-    },
     {
       "id": "bf461c11-8e10-4124-8c40-f24dab393cf9",
       "podcast": "All-In with Chamath, Jason, Sacks & Friedberg",
