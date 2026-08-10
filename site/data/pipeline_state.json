@@ -1,7 +1,7 @@
 {
-  "generated_at": "2026-08-10T12:03:46.816007",
-  "last_updated": "2026-08-10T12:03:46.816007",
-  "last_pipeline_run": "2026-08-10T12:03:46.816007",
+  "generated_at": "2026-08-10T13:36:31.208877",
+  "last_updated": "2026-08-10T13:36:31.208877",
+  "last_pipeline_run": "2026-08-10T13:36:31.208877",
   "main_page": {
     "overton": 13,
     "insights": 8,
@@ -18,32 +18,14 @@
     "podcasts_analyzed": 1
   },
   "step_results": {
-    "downloaded": 2,
-    "transcribed": 2,
-    "analyzed": 1,
-    "insight_created": 1,
-    "published": 1,
-    "total": 2
+    "downloaded": 1,
+    "transcribed": 1,
+    "analyzed": 0,
+    "insight_created": 0,
+    "published": 0,
+    "total": 1
   },
   "episodes": [
-    {
-      "id": "70162548-bc1e-4524-b6d0-580a4bf81281",
-      "podcast": "The a16z Show",
-      "title": "How Kavak Rebuilt Itself Around AI Agents | Alejandro Maza Ayala",
-      "published": "2026-08-10",
-      "rss_guid": "70162548-bc1e-4524-b6d0-580a4bf81281",
-      "stages": {
-        "downloaded": true,
-        "transcribed": true,
-        "analyzed": true,
-        "insight_created": true,
-        "published": true
-      },
-      "stage_reasons": {},
-      "first_blocker": null,
-      "remediation_by_stage": {},
-      "status": "complete"
-    },
     {
       "id": "bf461c11-8e10-4124-8c40-f24dab393cf9",
       "podcast": "All-In with Chamath, Jason, Sacks & Friedberg",
