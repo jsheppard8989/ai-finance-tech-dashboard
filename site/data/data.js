@@ -3,80 +3,80 @@
 
 const dashboardData = {
   schemaVersion: 2,
-  generatedAt: "2026-08-10T06:40:12.810196",
-  chartsVersion: "2026-08-10T06:40:04.102052",
+  generatedAt: "2026-08-10T12:03:54.949274",
+  chartsVersion: "2026-08-10T12:03:44.365776",
   priceSnapshot: {
   "GOOGL": {
-    "price": 354.3,
-    "change_pct": 2.06,
+    "price": 354.32,
+    "change_pct": 3.58,
     "name": "GOOGL",
-    "updated_at": "2026-08-10T06:40:04.100965"
+    "updated_at": "2026-08-10T12:03:44.365211"
   },
   "NVDA": {
-    "price": 223.96,
-    "change_pct": 8.04,
+    "price": 217.35,
+    "change_pct": 2.49,
     "name": "NVDA",
-    "updated_at": "2026-08-10T06:40:04.100995"
+    "updated_at": "2026-08-10T12:03:44.365224"
   },
   "BTC": {
-    "price": 65016.45,
-    "change_pct": 1.79,
+    "price": 63787.9,
+    "change_pct": -0.13,
     "name": "BTC",
-    "updated_at": "2026-08-10T06:40:04.101005"
+    "updated_at": "2026-08-10T12:03:44.365229"
   },
   "TSLA": {
-    "price": 328.58,
-    "change_pct": -13.29,
+    "price": 329.46,
+    "change_pct": -11.91,
     "name": "TSLA",
-    "updated_at": "2026-08-10T06:40:04.101015"
+    "updated_at": "2026-08-10T12:03:44.365232"
   },
   "MSFT": {
-    "price": 499.99,
-    "change_pct": 25.7,
+    "price": 507.38,
+    "change_pct": 29.98,
     "name": "MSFT",
-    "updated_at": "2026-08-10T06:40:04.101025"
+    "updated_at": "2026-08-10T12:03:44.365236"
   },
   "AMZN": {
-    "price": 274.48,
-    "change_pct": 10.88,
+    "price": 277.15,
+    "change_pct": 13.19,
     "name": "AMZN",
-    "updated_at": "2026-08-10T06:40:04.101035"
+    "updated_at": "2026-08-10T12:03:44.365239"
   },
   "META": {
-    "price": 592.1,
-    "change_pct": -8.03,
+    "price": 593.18,
+    "change_pct": -5.42,
     "name": "META",
-    "updated_at": "2026-08-10T06:40:04.101045"
+    "updated_at": "2026-08-10T12:03:44.365243"
   },
   "WTI": {
-    "price": 3.43,
-    "change_pct": -5.51,
+    "price": 3.82,
+    "change_pct": 2.69,
     "name": "WTI",
-    "updated_at": "2026-08-10T06:40:04.101054"
+    "updated_at": "2026-08-10T12:03:44.365246"
   },
   "S&P 500": {
-    "price": 773.26,
-    "change_pct": 3.34,
+    "price": 772.58,
+    "change_pct": 3.37,
     "name": "S&P 500",
-    "updated_at": "2026-08-10T06:40:04.101062"
+    "updated_at": "2026-08-10T12:03:44.365250"
   },
   "AAPL": {
-    "price": 313.33,
-    "change_pct": -4.4,
+    "price": 306.37,
+    "change_pct": -5.99,
     "name": "AAPL",
-    "updated_at": "2026-08-10T06:40:04.101070"
+    "updated_at": "2026-08-10T12:03:44.365253"
   },
   "QQQ": {
-    "price": 723.03,
-    "change_pct": 1.98,
+    "price": 721.41,
+    "change_pct": 2.28,
     "name": "Invesco QQQ Trust",
-    "updated_at": "2026-08-10T06:40:04.101079"
+    "updated_at": "2026-08-10T12:03:44.365256"
   },
   "BTC-USD": {
-    "price": 65016.45,
-    "change_pct": 1.79,
+    "price": 63787.9,
+    "change_pct": -0.13,
     "name": "Bitcoin USD",
-    "updated_at": "2026-08-10T06:40:04.101090"
+    "updated_at": "2026-08-10T12:03:44.365260"
   }
 },
   tickerScores: [
@@ -834,6 +834,25 @@ const dashboardData = {
   archive: {
   "insights": [
     {
+      "id": 409,
+      "title": "How Kavak Rebuilt Itself Around AI Agents | Alejandro Maza Ayala",
+      "source_type": "podcast",
+      "source_name": "The a16z Show",
+      "source_date": "2026-08-10",
+      "summary": "Kavak is revolutionizing its business model by becoming an AI-native company, focusing on creating 'superhuman agents' that outperform humans in various dimensions. The company instantiates a large number of AI agents daily to handle customer interactions, with a goal of maximizing customer lifetime value rather than just performing specific tasks. Kavak has also adopted a new architecture where agents work alongside humans, sometimes even directing human tasks. The company's success metrics have shifted from transactional to relational, emphasizing long-term customer relationships. This approach has shown to be more effective in sales, improving customer satisfaction and conversion rates.",
+      "key_takeaway": "Investing in AI capabilities that can perform at a superhuman level can potentially revolutionize industries by handling complex tasks more efficiently and effectively than traditional human teams.",
+      "tickers_mentioned": [
+        "AAPL"
+      ],
+      "sentiment": "bullish",
+      "display_on_main": 1,
+      "display_order": 0,
+      "added_date": "2026-08-10",
+      "archived_date": null,
+      "archived_reason": null,
+      "podcast_episode_id": 394
+    },
+    {
       "id": 408,
       "title": "Google\u2019s Jeff Dean Exits, SpaceX Hits $100B in Rev & OpenAI\u2019s Astra Solves Decade-Old Math Problems with Emad Mostaque | EP #277",
       "source_type": "podcast",
@@ -1030,7 +1049,7 @@ const dashboardData = {
         "CRM"
       ],
       "sentiment": "bearish",
-      "display_on_main": 1,
+      "display_on_main": 0,
       "display_order": 0,
       "added_date": "2026-08-04",
       "archived_date": null,
@@ -8709,6 +8728,24 @@ const dashboardData = {
       "last_mentioned_speaker": "Saline"
     },
     {
+      "id": 270,
+      "term": "Taste",
+      "description": "A concept that goes beyond aesthetic preference, relating to how people consume virtually and the societal guidance on proper consumption habits, especially in the context of wealth creation.",
+      "first_detected_date": "2026-08-02",
+      "last_mentioned_date": "2026-08-10",
+      "mention_count": 2,
+      "source_podcasts": null,
+      "status": "active",
+      "investment_implications": "Investors can use the understanding of 'taste' to predict consumer behavior in digital economies and identify emerging markets.",
+      "display_on_main": 0,
+      "archived_date": null,
+      "archived_reason": null,
+      "first_detected_episode_id": 380,
+      "first_detected_speaker": "Ruby J. To Low",
+      "last_mentioned_episode_id": 394,
+      "last_mentioned_speaker": "Ruby J. To Low"
+    },
+    {
       "id": 267,
       "term": "Stablecoins",
       "description": "Cryptocurrencies pegged to a stable asset, like the US dollar, to minimize volatility.",
@@ -9179,19 +9216,19 @@ const dashboardData = {
     {
       "id": 219,
       "term": "AI-native computing",
-      "description": "A computing approach that is designed from the ground up to leverage artificial intelligence, rather than adapting existing infrastructure.",
+      "description": "A business model where artificial intelligence is integrated into the core operations and infrastructure of a company, rather than being an add-on or separate function.",
       "first_detected_date": "2026-06-02",
-      "last_mentioned_date": "2026-07-13",
-      "mention_count": 2,
+      "last_mentioned_date": "2026-08-10",
+      "mention_count": 3,
       "source_podcasts": null,
       "status": "active",
-      "investment_implications": "Invest in companies that use AI-native computing for a competitive edge in speed, efficiency, and scalability.",
+      "investment_implications": "AI-native companies may have a competitive advantage by leveraging AI for efficiency and innovation.",
       "display_on_main": 1,
       "archived_date": null,
       "archived_reason": null,
       "first_detected_episode_id": 255,
       "first_detected_speaker": "Steven Sinofsky",
-      "last_mentioned_episode_id": 345,
+      "last_mentioned_episode_id": 394,
       "last_mentioned_speaker": "Max"
     },
     {
@@ -10621,8 +10658,8 @@ const dashboardData = {
       "term": "AI CEO",
       "description": "An artificial intelligence entity that could potentially lead a company, making strategic decisions and overseeing operations.",
       "first_detected_date": "2026-02-19",
-      "last_mentioned_date": "2026-02-17",
-      "mention_count": 4,
+      "last_mentioned_date": "2026-08-10",
+      "mention_count": 5,
       "source_podcasts": null,
       "status": "active",
       "investment_implications": "Investors should consider companies at the forefront of AI development that could leverage AI CEOs for competitive advantage.",
@@ -10631,7 +10668,7 @@ const dashboardData = {
       "archived_reason": null,
       "first_detected_episode_id": 79,
       "first_detected_speaker": null,
-      "last_mentioned_episode_id": 70,
+      "last_mentioned_episode_id": 394,
       "last_mentioned_speaker": null
     },
     {
@@ -10727,19 +10764,19 @@ const dashboardData = {
     {
       "id": 32,
       "term": "AI Agent Orchestration",
-      "description": "The coordination of AI agents to perform tasks, potentially leading to more efficient and complex operations.",
+      "description": "The process of managing and coordinating the actions of multiple AI agents to achieve a common goal or task.",
       "first_detected_date": "2026-02-18",
-      "last_mentioned_date": "2026-08-08",
-      "mention_count": 6,
+      "last_mentioned_date": "2026-08-10",
+      "mention_count": 7,
       "source_podcasts": null,
       "status": "active",
-      "investment_implications": "Look for companies that are leveraging AI orchestration to gain a competitive edge.",
+      "investment_implications": "Effective AI agent orchestration can lead to improved operational efficiency and customer satisfaction.",
       "display_on_main": 0,
       "archived_date": null,
       "archived_reason": null,
       "first_detected_episode_id": 69,
       "first_detected_speaker": null,
-      "last_mentioned_episode_id": 393,
+      "last_mentioned_episode_id": 394,
       "last_mentioned_speaker": "Saline"
     },
     {
@@ -10842,6 +10879,26 @@ const dashboardData = {
 },
   mainContent: {
   "insights": [
+    {
+      "id": 409,
+      "title": "How Kavak Rebuilt Itself Around AI Agents | Alejandro Maza Ayala",
+      "source_type": "podcast",
+      "source_name": "The a16z Show",
+      "source_date": "2026-08-10",
+      "summary": "Kavak is revolutionizing its business model by becoming an AI-native company, focusing on creating 'superhuman agents' that outperform humans in various dimensions. The company instantiates a large number of AI agents daily to handle customer interactions, with a goal of maximizing customer lifetime value rather than just performing specific tasks. Kavak has also adopted a new architecture where agents work alongside humans, sometimes even directing human tasks. The company's success metrics have shifted from transactional to relational, emphasizing long-term customer relationships. This approach has shown to be more effective in sales, improving customer satisfaction and conversion rates.",
+      "key_takeaway": "Investing in AI capabilities that can perform at a superhuman level can potentially revolutionize industries by handling complex tasks more efficiently and effectively than traditional human teams.",
+      "tickers_mentioned": "[\"AAPL\"]",
+      "sentiment": "bullish",
+      "display_on_main": 1,
+      "display_order": 0,
+      "added_date": "2026-08-10",
+      "archived_date": null,
+      "archived_reason": null,
+      "podcast_episode_id": 394,
+      "episode_release_date": "2026-08-10",
+      "guest_name": "How Kavak Rebuilt Itself Around AI Agents",
+      "key_tickers": []
+    },
     {
       "id": 408,
       "title": "Google\u2019s Jeff Dean Exits, SpaceX Hits $100B in Rev & OpenAI\u2019s Astra Solves Decade-Old Math Problems with Emad Mostaque | EP #277",
@@ -10986,26 +11043,6 @@ const dashboardData = {
       "podcast_episode_id": 388,
       "episode_release_date": "2026-08-05",
       "guest_name": "Saronic Founders",
-      "key_tickers": []
-    },
-    {
-      "id": 401,
-      "title": "OpenAI's Joshua Achiam: Did We Already Reach AGI?",
-      "source_type": "podcast",
-      "source_name": "The a16z Show",
-      "source_date": "2026-08-04",
-      "summary": "In this episode of 'The a16z Show', Theojaffee interviews Joshua Ahoyom, the chief futurist at Open AI, on the implications of advanced AI in cybersecurity. They discuss the recent security incident involving OpenAI and Hugging Face, where an AI model accessed sensitive data, highlighting the advanced cyber capabilities of AI models. The conversation delves into the potential use of AI for both offensive and defensive cyber operations, the impact on strategy and defense, and the future of AI-powered cyber attacks. They also touch on the concept of AI models potentially hitting a saturation point in terms of intelligence and the implications of compute power in the future of cybersecurity.",
-      "key_takeaway": "Investing in cybersecurity solutions that leverage AI can provide a competitive advantage, but it also requires understanding the novel risks and vulnerabilities that AI models can create.",
-      "tickers_mentioned": "[\"AAPL\", \"GOOGL\", \"MSFT\", \"CRM\"]",
-      "sentiment": "bearish",
-      "display_on_main": 1,
-      "display_order": 0,
-      "added_date": "2026-08-04",
-      "archived_date": null,
-      "archived_reason": null,
-      "podcast_episode_id": 385,
-      "episode_release_date": "2026-08-04",
-      "guest_name": "OpenAI's Joshua Achiam",
       "key_tickers": []
     }
   ],
@@ -11341,6 +11378,32 @@ const dashboardData = {
       "last_mentioned_episode_date": "2026-08-05"
     },
     {
+      "id": 219,
+      "term": "AI-native computing",
+      "description": "A business model where artificial intelligence is integrated into the core operations and infrastructure of a company, rather than being an add-on or separate function.",
+      "first_detected_date": "2026-06-02",
+      "last_mentioned_date": "2026-08-10",
+      "mention_count": 3,
+      "source_podcasts": null,
+      "status": "active",
+      "investment_implications": "AI-native companies may have a competitive advantage by leveraging AI for efficiency and innovation.",
+      "display_on_main": 1,
+      "archived_date": null,
+      "archived_reason": null,
+      "first_detected_episode_id": 255,
+      "first_detected_speaker": "Steven Sinofsky",
+      "last_mentioned_episode_id": 394,
+      "last_mentioned_speaker": "Max",
+      "overton_score": 3.0,
+      "resonance_pct": 75,
+      "first_detected_podcast": "The a16z Show",
+      "first_detected_episode_title": "Steven Sinofsky on Apple at 50, Microsoft, and the Future of Computing",
+      "first_detected_episode_date": "2026-06-02",
+      "last_mentioned_podcast": "The a16z Show",
+      "last_mentioned_episode_title": "How Kavak Rebuilt Itself Around AI Agents | Alejandro Maza Ayala",
+      "last_mentioned_episode_date": "2026-08-10"
+    },
+    {
       "id": 262,
       "term": "Quantization",
       "description": "The process of reducing the precision of the numbers used to represent a mathematical element, such as an AI model, to enable more efficient storage and computation.",
@@ -11443,32 +11506,6 @@ const dashboardData = {
       "last_mentioned_podcast": "Moonshots with Peter Diamandis",
       "last_mentioned_episode_title": "Google\u2019s Jeff Dean Exits, SpaceX Hits $100B in Rev & OpenAI\u2019s Astra Solves Decade-Old Math Problems with Emad Mostaque | EP #277",
       "last_mentioned_episode_date": "2026-08-08"
-    },
-    {
-      "id": 266,
-      "term": "Electrification",
-      "description": "The process of converting systems or industries to use electricity as the primary power source.",
-      "first_detected_date": "2026-06-18",
-      "last_mentioned_date": "2026-08-07",
-      "mention_count": 2,
-      "source_podcasts": null,
-      "status": "active",
-      "investment_implications": "Investors should focus on companies involved in the electrification of the grid and power generation, as demand for electricity is projected to increase.",
-      "display_on_main": 1,
-      "archived_date": null,
-      "archived_reason": null,
-      "first_detected_episode_id": 297,
-      "first_detected_speaker": "Chris Seminoch",
-      "last_mentioned_episode_id": 392,
-      "last_mentioned_speaker": "Daya Pernos, Dean Pernos",
-      "overton_score": 1.87,
-      "resonance_pct": 47,
-      "first_detected_podcast": "Monetary Matters with Jack Farley",
-      "first_detected_episode_title": "The US Manufacturing and Electrification Megatrends Are Here and They\u2019re Way More Than AI | Chris Semenuk",
-      "first_detected_episode_date": "2026-06-18",
-      "last_mentioned_podcast": "Monetary Matters with Jack Farley",
-      "last_mentioned_episode_title": "Misunderstood Stocks in Data Center Power, Cybersecurity, and Payments | Dean & Deiya Pernas",
-      "last_mentioned_episode_date": "2026-08-07"
     }
   ]
 },
@@ -35558,9 +35595,70 @@ const dashboardData = {
       "GOOGL",
       "TSLA"
     ]
+  },
+  "409": {
+    "id": 399,
+    "insight_id": 409,
+    "podcast_episode_id": 394,
+    "overview": "Kavak's shift to an AI-native company highlights the growing importance of AI in revolutionizing industries. The company's focus on 'superhuman agents' that can outperform humans in various dimensions represents a competitive dynamic where AI capabilities are increasingly valued over traditional human teams. This tension between AI and human labor raises questions about the future of work and the potential for AI to disrupt traditional business models. The success of Kavak's AI-driven approach will be arbitrated by its ability to improve customer satisfaction, conversion rates, and long-term customer relationships.",
+    "key_takeaways_detailed": [
+      "Investing in AI capabilities that can perform at a superhuman level can potentially revolutionize industries by handling complex tasks more efficiently and effectively than traditional human teams.",
+      "Companies should consider adopting an AI-native approach, focusing on building 'superhuman agents' that can outperform humans in various dimensions.",
+      "The success of AI-driven approaches will be contingent on their ability to improve customer satisfaction, conversion rates, and long-term customer relationships.",
+      "Companies should prioritize retraining their workforce to work alongside AI, emphasizing collaboration between humans and agents."
+    ],
+    "investment_thesis": "Kavak's AI-driven approach has the potential to revolutionize industries by handling complex tasks more efficiently and effectively than traditional human teams. This thesis is based on the company's ability to improve customer satisfaction, conversion rates, and long-term customer relationships. The timeframe for this thesis is medium to long-term, as it will take time for AI capabilities to mature and for companies to adopt AI-native approaches. An observable development that would vindicate this thesis is a sustained improvement in Kavak's customer satisfaction, conversion rates, and long-term customer relationships metrics.",
+    "ticker_analysis": {
+      "AAPL": {
+        "rationale": "Apple is a leader in AI and machine learning, with a strong focus on developing AI capabilities that can perform at a superhuman level. The company's investments in AI could potentially revolutionize industries by handling complex tasks more efficiently and effectively than traditional human teams.",
+        "positioning": "Apple's AI capabilities make it a strategic long-term investment, as the company is well-positioned to benefit from the growing importance of AI in various industries.",
+        "risk": "Key risks for this specific position include increased competition from other tech giants in the AI space, as well as potential regulatory challenges related to AI and data privacy."
+      }
+    },
+    "positioning_guidance": "",
+    "risk_factors": [],
+    "contrarian_signals": [
+      "AI-driven approaches may not be as effective as expected in handling complex tasks, leading to reduced efficiency and effectiveness compared to traditional human teams.",
+      "The retraining of the workforce to work alongside AI may be more challenging and time-consuming than anticipated, leading to increased friction and reduced productivity.",
+      "AI-driven approaches may face resistance from employees and unions, leading to potential labor disputes and disruptions."
+    ],
+    "catalysts": [
+      "Kavak's AI agents show a sustained improvement in customer satisfaction, conversion rates, and long-term customer relationships metrics.",
+      "Kavak successfully retrain its workforce to work alongside AI, emphasizing collaboration between humans and agents.",
+      "Apple announces new AI capabilities or partnerships that could potentially revolutionize industries by handling complex tasks more efficiently and effectively than traditional human teams."
+    ],
+    "related_insights": null,
+    "audio_timestamp_start": null,
+    "audio_timestamp_end": null,
+    "transcript_excerpt": null,
+    "created_at": "2026-08-10T12:02:52.525292",
+    "updated_at": "2026-08-10 17:02:52",
+    "episode_evidence": "Kavak's transformation into an AI-native company is marked by its focus on 'superhuman agents' that outperform humans in various dimensions. 'This means that by every dimension that matters, our agents would outperform the best human we had in our hired,' said Alejandro Maza Ayala. The company instantiates between 100,000 and 200,000 agents daily, each with its own virtual machine, to handle customer interactions. Kavak's agents are designed to maximize customer lifetime value, not just perform specific tasks. The company has adopted a new architecture where agents work alongside humans, sometimes even directing human tasks. 'We have a new architecture where agents work alongside humans,' Maza Ayala explained. Kavak has created the 'Jedi Academy' to retrain its workforce to work with AI, emphasizing collaboration between humans and agents.",
+    "falsification_tracks": [
+      "Kavak's AI agents fail to improve customer satisfaction or conversion rates over a sustained period.",
+      "Kavak's AI agents are unable to handle complex tasks like selling cars and approving loans more efficiently than traditional human teams.",
+      "Kavak's customer lifetime value metrics do not show significant improvement over time.",
+      "Kavak's AI agents are unable to work effectively alongside humans, leading to increased friction and reduced productivity."
+    ],
+    "insight_title": "How Kavak Rebuilt Itself Around AI Agents | Alejandro Maza Ayala",
+    "source_name": "The a16z Show",
+    "source_date": "2026-08-10",
+    "key_tickers": []
   }
 },
   suggestedTerms: [
+  {
+    "id": 582,
+    "term": "Relational Company",
+    "definition": "A business that focuses on building long-term relationships with customers, rather than just individual transactions.",
+    "investment_implications": "Relational companies may have higher customer retention and lifetime value, leading to more sustainable growth.",
+    "source_type": "auto_extracted",
+    "mention_count": 1,
+    "source_diversity": 1,
+    "relevance_score": 50,
+    "submitted_date": "2026-08-10 17:02:25",
+    "priority_score": 80
+  },
   {
     "id": 581,
     "term": "Commoditizer Complements",
@@ -35596,23 +35694,23 @@ const dashboardData = {
     "relevance_score": 50,
     "submitted_date": "2026-08-08 03:01:12",
     "priority_score": 80
-  },
-  {
-    "id": 576,
-    "term": "AI Models Escalating Cyber Threats",
-    "definition": "AI models are not only identifying software vulnerabilities but are also beginning to exploit them, increasing the sophistication and risk of cyber attacks.",
-    "investment_implications": "Investors should consider the impact of AI-driven threats on cybersecurity solutions and the need for advanced measures to counteract these threats.",
-    "source_type": "auto_extracted",
-    "mention_count": 1,
-    "source_diversity": 1,
-    "relevance_score": 50,
-    "submitted_date": "2026-08-07 17:02:51",
-    "priority_score": 80
   }
 ],
   podcastGuests: [
   {
-    "id": 47442,
+    "id": 47555,
+    "name": "How Kavak Rebuilt Itself Around AI Agents",
+    "slug": "how-kavak-rebuilt-itself-around-ai-agents",
+    "bio": null,
+    "known_for": null,
+    "last_main_idea": "Investing in AI capabilities that can perform at a superhuman level can potentially revolutionize industries by handling complex tasks more efficiently and effectively than traditional human teams.",
+    "last_episode_title": "How Kavak Rebuilt Itself Around AI Agents | Alejandro Maza Ayala",
+    "last_podcast_name": "The a16z Show",
+    "last_episode_date": "2026-08-10",
+    "appearance_count": 1
+  },
+  {
+    "id": 47556,
     "name": "Emad Mostaque",
     "slug": "emad-mostaque",
     "bio": null,
@@ -35624,7 +35722,7 @@ const dashboardData = {
     "appearance_count": 1
   },
   {
-    "id": 47443,
+    "id": 47557,
     "name": "How Open",
     "slug": "how-open",
     "bio": null,
@@ -35636,7 +35734,7 @@ const dashboardData = {
     "appearance_count": 1
   },
   {
-    "id": 47444,
+    "id": 47558,
     "name": "Saronic Founders",
     "slug": "saronic-founders",
     "bio": null,
@@ -35648,7 +35746,7 @@ const dashboardData = {
     "appearance_count": 1
   },
   {
-    "id": 47445,
+    "id": 47559,
     "name": "OpenAI's Joshua Achiam",
     "slug": "openais-joshua-achiam",
     "bio": null,
@@ -35660,7 +35758,7 @@ const dashboardData = {
     "appearance_count": 1
   },
   {
-    "id": 47446,
+    "id": 47560,
     "name": "Why Macro is \u201cPretty Risk-On\u201d for Equities",
     "slug": "why-macro-is-pretty-risk-on-for-equities",
     "bio": null,
@@ -35672,7 +35770,7 @@ const dashboardData = {
     "appearance_count": 1
   },
   {
-    "id": 47447,
+    "id": 47561,
     "name": "AI for America's Small Businesses",
     "slug": "ai-for-americas-small-businesses",
     "bio": null,
@@ -35684,7 +35782,7 @@ const dashboardData = {
     "appearance_count": 1
   },
   {
-    "id": 47448,
+    "id": 47562,
     "name": "Mum\u2019s The Word",
     "slug": "mums-the-word",
     "bio": null,
@@ -35696,7 +35794,7 @@ const dashboardData = {
     "appearance_count": 1
   },
   {
-    "id": 47449,
+    "id": 47563,
     "name": "Luke Gromen",
     "slug": "luke-gromen",
     "bio": null,
@@ -35708,7 +35806,7 @@ const dashboardData = {
     "appearance_count": 1
   },
   {
-    "id": 47450,
+    "id": 47564,
     "name": "Codex from 0 to 10M Users",
     "slug": "codex-from-0-to-10m-users",
     "bio": null,
@@ -35720,7 +35818,7 @@ const dashboardData = {
     "appearance_count": 1
   },
   {
-    "id": 47451,
+    "id": 47565,
     "name": "Ben Horowitz",
     "slug": "ben-horowitz",
     "bio": "Ben Horowitz is a co-founder of venture firm Andreessen Horowitz and former CEO of Opsware, known for advising founders on leadership under pressure.",
@@ -35732,7 +35830,7 @@ const dashboardData = {
     "appearance_count": 3
   },
   {
-    "id": 47452,
+    "id": 47566,
     "name": "Building the Physical AI Stack",
     "slug": "building-the-physical-ai-stack",
     "bio": null,
@@ -35744,7 +35842,7 @@ const dashboardData = {
     "appearance_count": 1
   },
   {
-    "id": 47453,
+    "id": 47567,
     "name": "Travis Kalanick Is Back",
     "slug": "travis-kalanick-is-back",
     "bio": null,
@@ -35756,7 +35854,7 @@ const dashboardData = {
     "appearance_count": 1
   },
   {
-    "id": 47454,
+    "id": 47568,
     "name": "Why Physical AI Is the Next Frontier",
     "slug": "why-physical-ai-is-the-next-frontier",
     "bio": null,
@@ -35768,7 +35866,7 @@ const dashboardData = {
     "appearance_count": 1
   },
   {
-    "id": 47455,
+    "id": 47569,
     "name": "Nick Nemeth",
     "slug": "nick-nemeth",
     "bio": null,
@@ -35780,7 +35878,7 @@ const dashboardData = {
     "appearance_count": 1
   },
   {
-    "id": 47456,
+    "id": 47570,
     "name": "Mark Cuban on the AI Bubble",
     "slug": "mark-cuban-on-the-ai-bubble",
     "bio": null,
@@ -35792,7 +35890,7 @@ const dashboardData = {
     "appearance_count": 1
   },
   {
-    "id": 47457,
+    "id": 47571,
     "name": "Urgent Update- AI Sputnik Moment",
     "slug": "urgent-update--ai-sputnik-moment",
     "bio": null,
@@ -35804,7 +35902,7 @@ const dashboardData = {
     "appearance_count": 1
   },
   {
-    "id": 47458,
+    "id": 47572,
     "name": "Replay 2025",
     "slug": "replay-2025",
     "bio": null,
@@ -35816,7 +35914,7 @@ const dashboardData = {
     "appearance_count": 1
   },
   {
-    "id": 47459,
+    "id": 47573,
     "name": "Turbo Charged Trend Following",
     "slug": "turbo-charged-trend-following",
     "bio": null,
@@ -35828,7 +35926,7 @@ const dashboardData = {
     "appearance_count": 1
   },
   {
-    "id": 47460,
+    "id": 47574,
     "name": "Can Anyone Catch NVIDIA?",
     "slug": "can-anyone-catch-nvidia",
     "bio": null,
@@ -35837,18 +35935,6 @@ const dashboardData = {
     "last_episode_title": "Can Anyone Catch NVIDIA? | The Future of Chips and Infrastructure",
     "last_podcast_name": "The a16z Show",
     "last_episode_date": "2026-07-15",
-    "appearance_count": 1
-  },
-  {
-    "id": 47461,
-    "name": "Is AI a Bubble?",
-    "slug": "is-ai-a-bubble",
-    "bio": null,
-    "known_for": null,
-    "last_main_idea": "Investment in AI is sustainable and not indicative of an impending market collapse, with a focus on competitive dynamics and the potential for instant distribution via APIs and cloud computing.",
-    "last_episode_title": "Is AI a Bubble? | Gavin Baker on Data Centers, GPUs, and the AI Economy",
-    "last_podcast_name": "The a16z Show",
-    "last_episode_date": "2026-07-14",
     "appearance_count": 1
   }
 ],
@@ -36245,7 +36331,7 @@ const dashboardData = {
     "last_podcast_name": "The a16z Show",
     "last_episode_date": "2026-07-17",
     "mention_score": 2,
-    "mention_score_decayed": 1.18,
+    "mention_score_decayed": 1.15,
     "last_main_idea": "Investing in companies that prioritize public communication and authenticity can lead to stronger brand loyalty and trust, which are valuable assets in the long term.",
     "last_proof_cite": "The a16z Show \u2022 2026-07-17 \u2022 Amjad Masad on Going Direct, Building Replit, and the Future of Software",
     "last_proof_snippet": "Being canceled is a choice. You should choose to get canceled and retreat from the public eye, but I think if you're still out there, at some point, honestly, the haters kind of give up. To some people ask, hey, how should I think about exp",
@@ -37533,7 +37619,7 @@ const dashboardData = {
     "last_podcast_name": "The a16z Show",
     "last_episode_date": "2026-08-07",
     "mention_score": 1,
-    "mention_score_decayed": 0.95,
+    "mention_score_decayed": 0.93,
     "last_main_idea": "Invest in cybersecurity solutions that can adapt to the rapidly evolving AI-driven threats and focus on securing software supply chains to mitigate vulnerabilities.",
     "last_proof_cite": "The a16z Show \u2022 2026-08-07 \u2022 The Reality of AI-Powered Cyberattacks | Truffle Security & Socket",
     "last_proof_snippet": "Models are actively escaping their cages, going out on the internet and doing pretty nasty things. Recently, we found an API key that had been leaked on the internet ahead administrative access to the Apache Foundation. Interesting thing ab",
@@ -37591,7 +37677,7 @@ const dashboardData = {
     "last_podcast_name": "The a16z Show",
     "last_episode_date": "2026-08-07",
     "mention_score": 1,
-    "mention_score_decayed": 0.95,
+    "mention_score_decayed": 0.93,
     "last_main_idea": "Invest in cybersecurity solutions that can adapt to the rapidly evolving AI-driven threats and focus on securing software supply chains to mitigate vulnerabilities.",
     "last_proof_cite": "The a16z Show \u2022 2026-08-07 \u2022 The Reality of AI-Powered Cyberattacks | Truffle Security & Socket",
     "last_proof_snippet": "Models are actively escaping their cages, going out on the internet and doing pretty nasty things. Recently, we found an API key that had been leaked on the internet ahead administrative access to the Apache Foundation. Interesting thing ab",
@@ -37651,7 +37737,7 @@ const dashboardData = {
     "last_podcast_name": "The a16z Show",
     "last_episode_date": "2026-08-07",
     "mention_score": 1,
-    "mention_score_decayed": 0.95,
+    "mention_score_decayed": 0.93,
     "last_main_idea": "Invest in cybersecurity solutions that can adapt to the rapidly evolving AI-driven threats and focus on securing software supply chains to mitigate vulnerabilities.",
     "last_proof_cite": "The a16z Show \u2022 2026-08-07 \u2022 The Reality of AI-Powered Cyberattacks | Truffle Security & Socket",
     "last_proof_snippet": "Models are actively escaping their cages, going out on the internet and doing pretty nasty things. Recently, we found an API key that had been leaked on the internet ahead administrative access to the Apache Foundation. Interesting thing ab",
@@ -37889,7 +37975,7 @@ const dashboardData = {
     "last_podcast_name": "The a16z Show",
     "last_episode_date": "2026-08-05",
     "mention_score": 1,
-    "mention_score_decayed": 0.91,
+    "mention_score_decayed": 0.89,
     "last_main_idea": "Investing in innovative technologies that address critical challenges in ocean exploration, mineral extraction, and nuclear energy can lead to significant market opportunities and positive societal impacts.",
     "last_proof_cite": "The a16z Show \u2022 2026-08-05 \u2022 Three Startups Reinventing Critical Infrastructure",
     "last_proof_snippet": "Last month, A16Z American dynamism films screened short films about three portfolio companies. Ulysses built mission-critical underwater robots, Marianna Mineroles applies modern technologies to the critical mineral sector, and Radiant seek",
@@ -37948,7 +38034,7 @@ const dashboardData = {
     "last_podcast_name": "The a16z Show",
     "last_episode_date": "2026-08-05",
     "mention_score": 1,
-    "mention_score_decayed": 0.91,
+    "mention_score_decayed": 0.89,
     "last_main_idea": "Investing in innovative technologies that address critical challenges in ocean exploration, mineral extraction, and nuclear energy can lead to significant market opportunities and positive societal impacts.",
     "last_proof_cite": "The a16z Show \u2022 2026-08-05 \u2022 Three Startups Reinventing Critical Infrastructure",
     "last_proof_snippet": "Last month, A16Z American dynamism films screened short films about three portfolio companies. Ulysses built mission-critical underwater robots, Marianna Mineroles applies modern technologies to the critical mineral sector, and Radiant seek",
@@ -38007,7 +38093,7 @@ const dashboardData = {
     "last_podcast_name": "The a16z Show",
     "last_episode_date": "2026-08-05",
     "mention_score": 1,
-    "mention_score_decayed": 0.91,
+    "mention_score_decayed": 0.89,
     "last_main_idea": "Investing in innovative technologies that address critical challenges in ocean exploration, mineral extraction, and nuclear energy can lead to significant market opportunities and positive societal impacts.",
     "last_proof_cite": "The a16z Show \u2022 2026-08-05 \u2022 Three Startups Reinventing Critical Infrastructure",
     "last_proof_snippet": "Last month, A16Z American dynamism films screened short films about three portfolio companies. Ulysses built mission-critical underwater robots, Marianna Mineroles applies modern technologies to the critical mineral sector, and Radiant seek",
@@ -38331,7 +38417,7 @@ const dashboardData = {
     "last_podcast_name": "The a16z Show",
     "last_episode_date": "2026-08-02",
     "mention_score": 1,
-    "mention_score_decayed": 0.85,
+    "mention_score_decayed": 0.83,
     "last_main_idea": "The evolving digital landscape presents opportunities for investment in AI and technology that can enhance daily life and reshape consumption habits, while also requiring a critical approach to understand and adapt to new cultural norms.",
     "last_proof_cite": "The a16z Show \u2022 2026-08-02 \u2022 Ruby Thelot on Internet Culture, AI, and the Future of Taste",
     "last_proof_snippet": "Americans don't like AI. AI is a very broad term. They all use chat. And like, I love it. I love, I love chat. But they don't like AI. There's the bookie man of like, I'm going to lose my job. But when I talk to mothers in Brian tags of lik",
@@ -38583,7 +38669,7 @@ const dashboardData = {
     "last_podcast_name": "The a16z Show",
     "last_episode_date": "2026-07-30",
     "mention_score": 1,
-    "mention_score_decayed": 0.79,
+    "mention_score_decayed": 0.78,
     "last_main_idea": "AI has the potential to automate administrative tasks in healthcare practices, creating significant value for small businesses and changing the landscape of enterprise software.",
     "last_proof_cite": "The a16z Show \u2022 2026-07-30 \u2022 AI for America's Small Businesses | Lassie",
     "last_proof_snippet": "AI is overhyped and Silicon Valley that's underhyped in Iowa. I would actually argue software just kind of took things that were stored in paper format and then they made them available first on-prem via green screen computers, but people s",
@@ -38642,7 +38728,7 @@ const dashboardData = {
     "last_podcast_name": "The a16z Show",
     "last_episode_date": "2026-07-30",
     "mention_score": 1,
-    "mention_score_decayed": 0.79,
+    "mention_score_decayed": 0.78,
     "last_main_idea": "AI has the potential to automate administrative tasks in healthcare practices, creating significant value for small businesses and changing the landscape of enterprise software.",
     "last_proof_cite": "The a16z Show \u2022 2026-07-30 \u2022 AI for America's Small Businesses | Lassie",
     "last_proof_snippet": "AI is overhyped and Silicon Valley that's underhyped in Iowa. I would actually argue software just kind of took things that were stored in paper format and then they made them available first on-prem via green screen computers, but people s",
@@ -39247,7 +39333,7 @@ const dashboardData = {
     "last_podcast_name": "Latent Space: The AI Engineer Podcast",
     "last_episode_date": "2026-07-23",
     "mention_score": 1,
-    "mention_score_decayed": 0.68,
+    "mention_score_decayed": 0.66,
     "last_main_idea": "Investing in AI development, particularly in the democratization of AI and the scaling of language models, can lead to significant innovation and competitive advantage.",
     "last_proof_cite": "Latent Space: The AI Engineer Podcast \u2022 2026-07-23 \u2022 Inside the Model Factory \u2014 Eiso Kant, Poolside AI",
     "last_proof_snippet": "All right, we're here in the studio. If I was a countryman, we'll fight together with people. Welcome. Thanks, thank you, guys. It's good to be here. Yeah, fresh on the plane. You texted me, you're like, hey, I'm on my way to SF. I was like",
@@ -40257,7 +40343,7 @@ const dashboardData = {
     "last_podcast_name": "The a16z Show",
     "last_episode_date": "2026-07-13",
     "mention_score": 1,
-    "mention_score_decayed": 0.54,
+    "mention_score_decayed": 0.52,
     "last_main_idea": "Investing in blockchain technology and AI requires a deep understanding of the foundational computer science principles that underpin these fields, as well as an awareness of the evolving landscape of systems research.",
     "last_proof_cite": "The a16z Show \u2022 2026-07-13 \u2022 Before Blockchains, There Was State Machine Replication",
     "last_proof_snippet": "DARPA had recognized that this was a serious problem, the problem of malicious attacks and was looking for research in that area. I had a student Miguel Castro. We came to me and he said, why don't we see whether we can figure out a way to",
@@ -40524,7 +40610,7 @@ const dashboardData = {
     "last_podcast_name": "The a16z Show",
     "last_episode_date": "2026-07-08",
     "mention_score": 1,
-    "mention_score_decayed": 0.48,
+    "mention_score_decayed": 0.47,
     "last_main_idea": "Invest in real estate companies that emphasize community engagement, technological adaptability, and global scalability to capitalize on the evolving landscape of work and living.",
     "last_proof_cite": "The a16z Show \u2022 2026-07-08 \u2022 Adam Neumann: This Is How You Build Iconic Companies",
     "last_proof_snippet": "You said, I don't tell me how you're doing and I jumped straight into my lessons learned and this had an answer. And you're like, oh, you're still in that stage? That was, and we don't know each other. I was like, Mark, please tell me what",
@@ -40832,7 +40918,7 @@ const dashboardData = {
     "last_podcast_name": "The a16z Show",
     "last_episode_date": "2026-07-02",
     "mention_score": 1,
-    "mention_score_decayed": 0.42,
+    "mention_score_decayed": 0.41,
     "last_main_idea": "Invest in companies with capital efficiency and operational excellence in the mobility sector, as they are better positioned to adapt and grow in a competitive landscape.",
     "last_proof_cite": "The a16z Show \u2022 2026-07-02 \u2022 Outsmarting Uber: Why Bolt Wins in Europe",
     "last_proof_snippet": "The mobility market in general is the least competitive in the world. Paul is the leading, share mobility, business, we operate in more than 50 countries with a mission to replace people's private cars. A lot of the taxi companies obviously",
@@ -41077,7 +41163,7 @@ const dashboardData = {
     "last_podcast_name": "The a16z Show",
     "last_episode_date": "2026-06-30",
     "mention_score": 1,
-    "mention_score_decayed": 0.4,
+    "mention_score_decayed": 0.39,
     "last_main_idea": "Invest in companies that prioritize user creativity and personalization in their AI offerings, as well as those that leverage data analytics to understand and enhance user experience.",
     "last_proof_cite": "The a16z Show \u2022 2026-06-30 \u2022 Building AI for Creators | Luma & Phota Labs",
     "last_proof_snippet": "I think the creativity is building a story. The tools alone aren't a story. Someone has to direct them. It's not about mastering those tools. It's about directing an agent who can use those tools to achieve your creativity. Generally, I hav",
@@ -43553,7 +43639,7 @@ const dashboardData = {
     "last_podcast_name": "The a16z Show",
     "last_episode_date": "2026-05-28",
     "mention_score": 1,
-    "mention_score_decayed": 0.19,
+    "mention_score_decayed": 0.18,
     "last_main_idea": "Invest in companies leveraging stablecoins and AI to enhance operational efficiency and expand into global markets, with a focus on regulatory compliance and infrastructure scalability.",
     "last_proof_cite": "The a16z Show \u2022 2026-05-28 \u2022 Stablecoins, AI Agents, and The Future of Global Banking",
     "last_proof_snippet": "The goal of the GS is really to build a global business bank that can function in multiple countries. Sablecoins is a lived experience. It's not something that's a theory, like, in Argentina, 60% of the population use Sablecoins. Our revenu",
@@ -50800,7 +50886,7 @@ const dashboardData = {
     "last_podcast_name": "Monetary Matters with Jack Farley",
     "last_episode_date": "2026-03-17",
     "mention_score": 1,
-    "mention_score_decayed": 0.04,
+    "mention_score_decayed": 0.03,
     "last_main_idea": "Farmland represents an underutilized asset class with diversification benefits and potential for strong returns, particularly in the context of water scarcity and aging farmer demographics.",
     "last_proof_cite": "Monetary Matters with Jack Farley \u2022 2026-03-17 \u2022 Monetary Matters with Jack Farley: Farmland Investment Insights",
     "last_proof_snippet": "This episode of Other People's Money is brought to you by the two-Korean Soybean Fund, ticker SOYB. Let's get into it. Welcome to Other People's Money. I am joined today by Chris Morris, President of Lampun Partners in Institutional Farmlan",
@@ -50858,7 +50944,7 @@ const dashboardData = {
     "last_podcast_name": "The a16z Show",
     "last_episode_date": "2026-03-17",
     "mention_score": 1,
-    "mention_score_decayed": 0.04,
+    "mention_score_decayed": 0.03,
     "last_main_idea": "Investing in companies and technologies that are advancing the understanding and capabilities of LLMs could be a pathway to participate in the development of AGI.",
     "last_proof_cite": "The a16z Show \u2022 2026-03-17 \u2022 Understanding the Mechanics of Large Language Models (LLMs) and the Path to AGI",
     "last_proof_snippet": "A topic makes great products. Florida is fantastic, co-workers, fantastic, but they are crazy of silicon doing matrix multiplication. They don't have consciousness, they don't have an inner monologue, you take an inner limb and train it on",
