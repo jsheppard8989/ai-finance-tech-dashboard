@@ -1,7 +1,7 @@
 {
-  "generated_at": "2026-08-09T13:38:58.984050",
-  "last_updated": "2026-08-09T13:38:58.984050",
-  "last_pipeline_run": "2026-08-09T13:38:58.984050",
+  "generated_at": "2026-08-09T22:03:06.839579",
+  "last_updated": "2026-08-09T22:03:06.839579",
+  "last_pipeline_run": "2026-08-09T22:03:06.839579",
   "main_page": {
     "overton": 13,
     "insights": 8,
@@ -14,9 +14,7 @@
     "daily_scores": 150,
     "overton_terms_total": 120,
     "latest_insights_total": 380,
-    "today_mentions": {
-      "podcast": 1
-    },
+    "today_mentions": {},
     "podcasts_analyzed": 0
   },
   "step_results": {
