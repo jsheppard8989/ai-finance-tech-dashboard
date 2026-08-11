@@ -1,6 +1,25 @@
 {
   "insights": [
     {
+      "id": 410,
+      "title": "The CISO Playbook for AI Agents | Datadog",
+      "source_type": "podcast",
+      "source_name": "The a16z Show",
+      "source_date": "2026-08-11",
+      "summary": "The podcast discusses the rapid adoption of AI in enterprises and the consequent transformation of the security landscape. As thousands of engineers work with coding agents, security teams must adapt to leverage AI capabilities against attackers who also have more capable tools. The podcast argues against blocking new AI tools, emphasizing the need for security teams to evolve with the technology. It also highlights the increasing value of security engineers and the growing concern of developers about security.",
+      "key_takeaway": "Invest in companies that are at the forefront of AI adoption and security, as these are likely to shape the future of enterprise software development.",
+      "tickers_mentioned": [
+        "AAPL"
+      ],
+      "sentiment": "neutral",
+      "display_on_main": 1,
+      "display_order": 0,
+      "added_date": "2026-08-11",
+      "archived_date": null,
+      "archived_reason": null,
+      "podcast_episode_id": 395
+    },
+    {
       "id": 409,
       "title": "How Kavak Rebuilt Itself Around AI Agents | Alejandro Maza Ayala",
       "source_type": "podcast",
@@ -135,7 +154,7 @@
         "AAPL"
       ],
       "sentiment": "neutral",
-      "display_on_main": 1,
+      "display_on_main": 0,
       "display_order": 0,
       "added_date": "2026-08-05",
       "archived_date": null,
@@ -9501,18 +9520,18 @@
       "term": "AI Infrastructure",
       "description": "The underlying technology and systems that support the development and operation of AI applications.",
       "first_detected_date": "2026-03-17",
-      "last_mentioned_date": "2026-07-30",
-      "mention_count": 24,
+      "last_mentioned_date": "2026-08-11",
+      "mention_count": 25,
       "source_podcasts": null,
       "status": "active",
-      "investment_implications": "Investing in AI infrastructure can provide a foundational advantage in deploying AI solutions at scale.",
+      "investment_implications": "Investment in AI infrastructure is crucial for companies looking to leverage AI capabilities in their operations.",
       "display_on_main": 0,
       "archived_date": null,
       "archived_reason": null,
       "first_detected_episode_id": 71,
       "first_detected_speaker": null,
-      "last_mentioned_episode_id": 376,
-      "last_mentioned_speaker": "Stine Pella, Frederick Brinkett"
+      "last_mentioned_episode_id": 395,
+      "last_mentioned_speaker": "Emilio Escobar"
     },
     {
       "id": 26,
@@ -9769,20 +9788,20 @@
     {
       "id": 114,
       "term": "AI Agents",
-      "description": "Software programs designed to perform tasks autonomously, mimicking human actions in a digital environment.",
+      "description": "AI-powered software agents that assist in coding and software development tasks.",
       "first_detected_date": "2026-02-28",
-      "last_mentioned_date": "2026-08-08",
-      "mention_count": 57,
+      "last_mentioned_date": "2026-08-11",
+      "mention_count": 58,
       "source_podcasts": null,
       "status": "active",
-      "investment_implications": "AI Agents have the potential to significantly reduce labor costs and increase efficiency in various sectors, particularly in administrative tasks.",
+      "investment_implications": "AI agents can significantly impact the efficiency and speed of software development, influencing investment in tech companies.",
       "display_on_main": 0,
       "archived_date": null,
       "archived_reason": null,
       "first_detected_episode_id": 31,
       "first_detected_speaker": null,
-      "last_mentioned_episode_id": 393,
-      "last_mentioned_speaker": "Saline"
+      "last_mentioned_episode_id": 395,
+      "last_mentioned_speaker": "Emilio Escobar"
     },
     {
       "id": 38,

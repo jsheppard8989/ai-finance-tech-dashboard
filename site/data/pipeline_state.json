@@ -1,29 +1,29 @@
 {
-  "generated_at": "2026-08-11T06:37:54.135339",
-  "last_updated": "2026-08-11T06:37:54.135339",
-  "last_pipeline_run": "2026-08-11T06:37:54.135339",
+  "generated_at": "2026-08-11T12:07:07.625657",
+  "last_updated": "2026-08-11T12:07:07.625657",
+  "last_pipeline_run": "2026-08-11T12:07:07.625657",
   "main_page": {
     "overton": 13,
     "insights": 8,
-    "pundits": 255
+    "pundits": 256
   },
   "counts": {
     "ticker_mentions": 212,
-    "podcast_episodes": 367,
+    "podcast_episodes": 368,
     "newsletters": 7,
     "daily_scores": 150,
     "overton_terms_total": 121,
-    "latest_insights_total": 381,
+    "latest_insights_total": 382,
     "today_mentions": {},
-    "podcasts_analyzed": 0
+    "podcasts_analyzed": 1
   },
   "step_results": {
-    "downloaded": 2,
-    "transcribed": 1,
-    "analyzed": 0,
-    "insight_created": 0,
-    "published": 0,
-    "total": 2
+    "downloaded": 3,
+    "transcribed": 2,
+    "analyzed": 1,
+    "insight_created": 1,
+    "published": 1,
+    "total": 3
   },
   "episodes": [
     {
@@ -32,6 +32,81 @@
       "title": "The CISO Playbook for AI Agents | Datadog",
       "published": "2026-08-11",
       "rss_guid": "c74cda10-c994-45e0-9b42-3498fec93bc3",
+      "stages": {
+        "downloaded": true,
+        "transcribed": true,
+        "analyzed": true,
+        "insight_created": true,
+        "published": true
+      },
+      "stage_reasons": {},
+      "first_blocker": null,
+      "remediation_by_stage": {},
+      "status": "complete"
+    },
+    {
+      "id": "bf461c11-8e10-4124-8c40-f24dab393cf9",
+      "podcast": "All-In with Chamath, Jason, Sacks & Friedberg",
+      "title": "Google's AI Brain Drain, SpaceX's Huge Quarter, Airtable's 90% Collapse, US Data Fuels China AI",
+      "published": "2026-08-08",
+      "rss_guid": "bf461c11-8e10-4124-8c40-f24dab393cf9",
+      "stages": {
+        "downloaded": true,
+        "transcribed": true,
+        "analyzed": false,
+        "insight_created": false,
+        "published": false
+      },
+      "stage_reasons": {
+        "analyzed": "No podcast_episodes row yet (curated APPROVED but DB not updated). Usually fixed by: fetch_latest --queue-only + whisper worker + auto_pipeline sweep.",
+        "insight_created": "No podcast_episodes row yet (curated APPROVED but DB not updated). Usually fixed by: fetch_latest --queue-only + whisper worker + auto_pipeline sweep.",
+        "published": "No podcast_episodes row yet (curated APPROVED but DB not updated). Usually fixed by: fetch_latest --queue-only + whisper worker + auto_pipeline sweep."
+      },
+      "first_blocker": "analyzed",
+      "remediation_by_stage": {
+        "analyzed": {
+          "action_id": "ANALYZE_TRANSCRIPTS",
+          "steps": [
+            "Run transcript analysis so is_processed=1 on podcast_episodes (analyze_transcript via auto_pipeline).",
+            "Ensure LLM keys in workspace .env (e.g. MOONSHOT_API_KEY) are set if the analyzer requires them.",
+            "Quick path: auto_pipeline.py --analyze-only analyzes then continues promotion/export steps in that run."
+          ],
+          "commands": [
+            "cd /Users/jaredsheppard/projects/ai-finance-tech-dashboard/pipeline && python3 auto_pipeline.py --analyze-only",
+            "cd /Users/jaredsheppard/projects/ai-finance-tech-dashboard/pipeline && python3 auto_pipeline.py"
+          ]
+        },
+        "insight_created": {
+          "action_id": "PROMOTE_INSIGHT",
+          "steps": [
+            "Promotion to latest_insights runs inside auto_pipeline after analysis.",
+            "If analysis succeeded but insight is missing, re-run full auto_pipeline.py and check logs for promote_episodes_to_insights errors."
+          ],
+          "commands": [
+            "cd /Users/jaredsheppard/projects/ai-finance-tech-dashboard/pipeline && python3 auto_pipeline.py"
+          ]
+        },
+        "published": {
+          "action_id": "EXPORT_AND_PUBLISH",
+          "steps": [
+            "Site export runs only after generate_deepdives.py succeeds; if Deep Dives fail, export and git push are skipped.",
+            "Fix Deep Dive errors (see pipeline logs), then run auto_pipeline.py to export site JSON and push.",
+            "When added_to_site=1 on the episode row, this stage turns green."
+          ],
+          "commands": [
+            "cd /Users/jaredsheppard/projects/ai-finance-tech-dashboard/pipeline && python3 generate_deepdives.py",
+            "cd /Users/jaredsheppard/projects/ai-finance-tech-dashboard/pipeline && python3 auto_pipeline.py"
+          ]
+        }
+      },
+      "status": "needs_analysis"
+    },
+    {
+      "id": "substack:post:210737923",
+      "podcast": "Dwarkesh Podcast",
+      "title": "Ryan Greenblatt \u2013 Human level AIs might build runaway superintelligences by 2032",
+      "published": "2026-08-11",
+      "rss_guid": "substack:post:210737923",
       "stages": {
         "downloaded": true,
         "transcribed": false,
@@ -96,70 +171,13 @@
         }
       },
       "status": "needs_transcription"
-    },
-    {
-      "id": "bf461c11-8e10-4124-8c40-f24dab393cf9",
-      "podcast": "All-In with Chamath, Jason, Sacks & Friedberg",
-      "title": "Google's AI Brain Drain, SpaceX's Huge Quarter, Airtable's 90% Collapse, US Data Fuels China AI",
-      "published": "2026-08-08",
-      "rss_guid": "bf461c11-8e10-4124-8c40-f24dab393cf9",
-      "stages": {
-        "downloaded": true,
-        "transcribed": true,
-        "analyzed": false,
-        "insight_created": false,
-        "published": false
-      },
-      "stage_reasons": {
-        "analyzed": "No podcast_episodes row yet (curated APPROVED but DB not updated). Usually fixed by: fetch_latest --queue-only + whisper worker + auto_pipeline sweep.",
-        "insight_created": "No podcast_episodes row yet (curated APPROVED but DB not updated). Usually fixed by: fetch_latest --queue-only + whisper worker + auto_pipeline sweep.",
-        "published": "No podcast_episodes row yet (curated APPROVED but DB not updated). Usually fixed by: fetch_latest --queue-only + whisper worker + auto_pipeline sweep."
-      },
-      "first_blocker": "analyzed",
-      "remediation_by_stage": {
-        "analyzed": {
-          "action_id": "ANALYZE_TRANSCRIPTS",
-          "steps": [
-            "Run transcript analysis so is_processed=1 on podcast_episodes (analyze_transcript via auto_pipeline).",
-            "Ensure LLM keys in workspace .env (e.g. MOONSHOT_API_KEY) are set if the analyzer requires them.",
-            "Quick path: auto_pipeline.py --analyze-only analyzes then continues promotion/export steps in that run."
-          ],
-          "commands": [
-            "cd /Users/jaredsheppard/projects/ai-finance-tech-dashboard/pipeline && python3 auto_pipeline.py --analyze-only",
-            "cd /Users/jaredsheppard/projects/ai-finance-tech-dashboard/pipeline && python3 auto_pipeline.py"
-          ]
-        },
-        "insight_created": {
-          "action_id": "PROMOTE_INSIGHT",
-          "steps": [
-            "Promotion to latest_insights runs inside auto_pipeline after analysis.",
-            "If analysis succeeded but insight is missing, re-run full auto_pipeline.py and check logs for promote_episodes_to_insights errors."
-          ],
-          "commands": [
-            "cd /Users/jaredsheppard/projects/ai-finance-tech-dashboard/pipeline && python3 auto_pipeline.py"
-          ]
-        },
-        "published": {
-          "action_id": "EXPORT_AND_PUBLISH",
-          "steps": [
-            "Site export runs only after generate_deepdives.py succeeds; if Deep Dives fail, export and git push are skipped.",
-            "Fix Deep Dive errors (see pipeline logs), then run auto_pipeline.py to export site JSON and push.",
-            "When added_to_site=1 on the episode row, this stage turns green."
-          ],
-          "commands": [
-            "cd /Users/jaredsheppard/projects/ai-finance-tech-dashboard/pipeline && python3 generate_deepdives.py",
-            "cd /Users/jaredsheppard/projects/ai-finance-tech-dashboard/pipeline && python3 auto_pipeline.py"
-          ]
-        }
-      },
-      "status": "needs_analysis"
     }
   ],
   "available_from_rss": [
     {
-      "podcast": "The a16z Show",
-      "title": "The CISO Playbook for AI Agents | Datadog",
-      "published": "Tue, 11 Aug 2026 10:00:00 +0000",
+      "podcast": "Dwarkesh Podcast",
+      "title": "Ryan Greenblatt \u2013 Human level AIs might build runaway superintelligences by 2032",
+      "published": "Tue, 11 Aug 2026 16:31:23 GMT",
       "published_date": "2026-08-11",
       "rss_guid": ""
     },

@@ -1,5 +1,22 @@
 [
   {
+    "id": 395,
+    "podcast_name": "The a16z Show",
+    "episode_title": "The CISO Playbook for AI Agents | Datadog",
+    "episode_date": "2026-08-11",
+    "summary": "The podcast discusses the rapid adoption of AI in enterprises and the consequent transformation of the security landscape. As thousands of engineers work with coding agents, security teams must adapt to leverage AI capabilities against attackers who also have more capable tools. The podcast argues against blocking new AI tools, emphasizing the need for security teams to evolve with the technology. It also highlights the increasing value of security engineers and the growing concern of developers about security.",
+    "key_takeaways": [
+      "Enterprises are increasingly adopting AI, impacting how businesses operate and develop software.",
+      "AI is changing the security landscape, providing attackers with more capable tools while also empowering security teams.",
+      "Companies should not block new AI tools as this approach can hinder innovation and create a competitive disadvantage.",
+      "The number of vulnerabilities that can be discovered is set to increase, presenting a significant practical problem.",
+      "Security engineers are becoming more valued within organizations, with potential for equal pay and recognition.",
+      "Developers are increasingly caring about security, realizing its integral role in their work."
+    ],
+    "investment_thesis": "Invest in companies that are at the forefront of AI adoption and security, as these are likely to shape the future of enterprise software development.",
+    "key_tickers": null
+  },
+  {
     "id": 394,
     "podcast_name": "The a16z Show",
     "episode_title": "How Kavak Rebuilt Itself Around AI Agents | Alejandro Maza Ayala",
@@ -119,23 +136,6 @@
       "Ceranic is encouraged by the administration's focus on shipbuilding as a critical strategic industry."
     ],
     "investment_thesis": "Investment in autonomous defense technologies is crucial for maintaining a competitive edge and can lead to significant advancements in military capabilities.",
-    "key_tickers": null
-  },
-  {
-    "id": 387,
-    "podcast_name": "The a16z Show",
-    "episode_title": "Three Startups Reinventing Critical Infrastructure",
-    "episode_date": "2026-08-05",
-    "summary": "In this episode of the a16z Show, the focus is on three innovative companies within the a16z portfolio: Ulysses, Marianna Mineroles, and Radiant. Ulysses is developing mission-critical underwater robots for ocean tasks, Marianna Mineroles is applying modern tech to the mineral sector, and Radiant is working on mass-producing nuclear micro-reactors. The discussion delves into the unique challenges and opportunities each company faces in their respective fields, from ocean conservation and infrastructure to modernizing mining practices and nuclear energy solutions.",
-    "key_takeaways": [
-      "Ulysses is building autonomous robots for critical ocean tasks, including conservation, commercial, and defense applications.",
-      "Marianna Mineroles aims to disrupt the mineral sector by leveraging technology to modernize mining practices and operations.",
-      "Radiant is focused on mass-producing nuclear micro-reactors to provide efficient and safe nuclear energy solutions.",
-      "The ocean technology sector is ripe for innovation, with Ulysses addressing challenges in mapping, conservation, and infrastructure inspection.",
-      "Marianna Mineroles sees an opportunity in the 'orphan period' of mining, where smaller, more efficient operations can outcompete traditional mining majors.",
-      "Radiant's approach to nuclear energy emphasizes safety, efficiency, and the potential to solve waste storage issues in the nuclear industry."
-    ],
-    "investment_thesis": "Investing in innovative technologies that address critical challenges in ocean exploration, mineral extraction, and nuclear energy can lead to significant market opportunities and positive societal impacts.",
     "key_tickers": null
   }
 ]
