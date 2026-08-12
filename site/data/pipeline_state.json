@@ -1,7 +1,7 @@
 {
-  "generated_at": "2026-08-11T22:05:23.137265",
-  "last_updated": "2026-08-11T22:05:23.137265",
-  "last_pipeline_run": "2026-08-11T22:05:23.137265",
+  "generated_at": "2026-08-11T23:43:39.247986",
+  "last_updated": "2026-08-11T23:43:39.247986",
+  "last_pipeline_run": "2026-08-11T23:43:39.247986",
   "main_page": {
     "overton": 13,
     "insights": 8,
@@ -18,12 +18,12 @@
     "podcasts_analyzed": 2
   },
   "step_results": {
-    "downloaded": 4,
+    "downloaded": 3,
     "transcribed": 2,
-    "analyzed": 1,
-    "insight_created": 1,
-    "published": 1,
-    "total": 4
+    "analyzed": 0,
+    "insight_created": 0,
+    "published": 0,
+    "total": 3
   },
   "episodes": [
     {
@@ -34,32 +34,18 @@
       "rss_guid": "afc5f94c-95a7-11f1-a632-b77afb8cf366",
       "stages": {
         "downloaded": true,
-        "transcribed": false,
+        "transcribed": true,
         "analyzed": false,
         "insight_created": false,
         "published": false
       },
       "stage_reasons": {
-        "transcribed": "No podcast_episodes row yet (curated APPROVED but DB not updated). Usually fixed by: fetch_latest --queue-only + whisper worker + auto_pipeline sweep.",
         "analyzed": "No podcast_episodes row yet (curated APPROVED but DB not updated). Usually fixed by: fetch_latest --queue-only + whisper worker + auto_pipeline sweep.",
         "insight_created": "No podcast_episodes row yet (curated APPROVED but DB not updated). Usually fixed by: fetch_latest --queue-only + whisper worker + auto_pipeline sweep.",
         "published": "No podcast_episodes row yet (curated APPROVED but DB not updated). Usually fixed by: fetch_latest --queue-only + whisper worker + auto_pipeline sweep."
       },
-      "first_blocker": "transcribed",
+      "first_blocker": "analyzed",
       "remediation_by_stage": {
-        "transcribed": {
-          "action_id": "TRANSCRIBE",
-          "steps": [
-            "There are 2 MP3 file(s) in whisper_queue/ waiting for the worker.",
-            "Run whisper_worker.sh from the repo root (WORKSPACE_ROOT) so whisper_queue/ drains to whisper_done/.",
-            "If the queue is empty but there is still no transcript, read whisper_worker.log for Whisper failures.",
-            "After transcripts land in whisper_done/, run auto_pipeline.py so fetch sweeps them into the DB and pipeline/transcripts/."
-          ],
-          "commands": [
-            "cd /Users/jaredsheppard/projects/ai-finance-tech-dashboard && ./whisper_worker.sh",
-            "cd /Users/jaredsheppard/projects/ai-finance-tech-dashboard/pipeline && python3 auto_pipeline.py"
-          ]
-        },
         "analyzed": {
           "action_id": "ANALYZE_TRANSCRIPTS",
           "steps": [
@@ -95,7 +81,7 @@
           ]
         }
       },
-      "status": "needs_transcription"
+      "status": "needs_analysis"
     },
     {
       "id": "bf461c11-8e10-4124-8c40-f24dab393cf9",
@@ -178,7 +164,7 @@
         "transcribed": {
           "action_id": "TRANSCRIBE",
           "steps": [
-            "There are 2 MP3 file(s) in whisper_queue/ waiting for the worker.",
+            "There are 1 MP3 file(s) in whisper_queue/ waiting for the worker.",
             "Run whisper_worker.sh from the repo root (WORKSPACE_ROOT) so whisper_queue/ drains to whisper_done/.",
             "If the queue is empty but there is still no transcript, read whisper_worker.log for Whisper failures.",
             "After transcripts land in whisper_done/, run auto_pipeline.py so fetch sweeps them into the DB and pipeline/transcripts/."
@@ -224,24 +210,6 @@
         }
       },
       "status": "needs_transcription"
-    },
-    {
-      "id": "substack:post:210737923",
-      "podcast": "Dwarkesh Podcast",
-      "title": "Ryan Greenblatt \u2013 Human level AIs might build runaway superintelligences by 2032",
-      "published": "2026-08-11",
-      "rss_guid": "substack:post:210737923",
-      "stages": {
-        "downloaded": true,
-        "transcribed": true,
-        "analyzed": true,
-        "insight_created": true,
-        "published": true
-      },
-      "stage_reasons": {},
-      "first_blocker": null,
-      "remediation_by_stage": {},
-      "status": "complete"
     }
   ],
   "available_from_rss": [
@@ -293,7 +261,7 @@
       "insight_created",
       "published"
     ],
-    "whisper_queue_pending_mp3": 2,
+    "whisper_queue_pending_mp3": 1,
     "fix_order": "For each episode, read first_blocker then remediation_by_stage[first_blocker].",
     "end_to_end": "cd /Users/jaredsheppard/projects/ai-finance-tech-dashboard/pipeline && python3 auto_pipeline.py",
     "analyze_only": "cd /Users/jaredsheppard/projects/ai-finance-tech-dashboard/pipeline && python3 auto_pipeline.py --analyze-only",
