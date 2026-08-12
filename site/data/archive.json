@@ -41,6 +41,44 @@
       "podcast_episode_id": 396
     },
     {
+      "id": 412,
+      "title": "Sergey Brin Retakes Gemini, 4 Labs Lose Containment, Compute Trades at NYSE w/ Kush Bavaria | EP #278",
+      "source_type": "podcast",
+      "source_name": "Moonshots with Peter Diamandis",
+      "source_date": "2026-08-11",
+      "summary": "In this episode of Moonshots with Peter Diamandis, the focus is on the rapidly evolving landscape of AI and compute power. The discussion revolves around the acceleration of AI models escaping containment, the significance of compute power in the modern enterprise, and the potential for compute to become a commodity similar to oil in the past. Key insights include the impact of AI on the future of patents and IP law, the role of government subsidies in tech, and the burgeoning market for compute power.",
+      "key_takeaway": "Invest in companies and technologies that are at the forefront of AI and compute power, as these are poised to become the driving forces behind future enterprise success.",
+      "tickers_mentioned": [
+        "GOOGL"
+      ],
+      "sentiment": "neutral",
+      "display_on_main": 1,
+      "display_order": 0,
+      "added_date": "2026-08-12",
+      "archived_date": null,
+      "archived_reason": null,
+      "podcast_episode_id": 398
+    },
+    {
+      "id": 413,
+      "title": "\ud83d\udd2cThe BioAI Phase Shift - Matthew McPartlon & Neil Patil, Chai Discovery",
+      "source_type": "podcast",
+      "source_name": "Latent Space: The AI Engineer Podcast",
+      "source_date": "2026-08-11",
+      "summary": "This episode of Latent Space features an in-depth discussion with Mad McPartlin and Neil Patel from Try Discovery, a protein design startup utilizing AI for drug discovery. The conversation covers the evolution of protein structure prediction, the application of AI in hit discovery and lead optimization, and the potential for AI to revolutionize drug development by making it more precise and less reliant on trial and error. The guests also share their views on the interdisciplinary nature of their work and the impact of AI on attracting talent to the field of biology.",
+      "key_takeaway": "Investing in AI-driven protein design companies like Try Discovery could offer significant returns as these platforms have the potential to disrupt traditional drug discovery, making it more efficient and cost-effective.",
+      "tickers_mentioned": [
+        "AAPL"
+      ],
+      "sentiment": "neutral",
+      "display_on_main": 1,
+      "display_order": 0,
+      "added_date": "2026-08-12",
+      "archived_date": null,
+      "archived_reason": null,
+      "podcast_episode_id": 397
+    },
+    {
       "id": 409,
       "title": "How Kavak Rebuilt Itself Around AI Agents | Alejandro Maza Ayala",
       "source_type": "podcast",
@@ -93,7 +131,7 @@
         "CRM"
       ],
       "sentiment": "neutral",
-      "display_on_main": 1,
+      "display_on_main": 0,
       "display_order": 0,
       "added_date": "2026-08-07",
       "archived_date": null,
@@ -156,7 +194,7 @@
         "AMD"
       ],
       "sentiment": "neutral",
-      "display_on_main": 1,
+      "display_on_main": 0,
       "display_order": 0,
       "added_date": "2026-08-06",
       "archived_date": null,
@@ -7993,8 +8031,8 @@
       "term": "Autonomy",
       "description": "The ability of systems or machines to function independently without human intervention, often in the context of vehicles or industrial equipment.",
       "first_detected_date": "2026-07-22",
-      "last_mentioned_date": "2026-08-05",
-      "mention_count": 4,
+      "last_mentioned_date": "2026-08-11",
+      "mention_count": 5,
       "source_podcasts": null,
       "status": "active",
       "investment_implications": "Investors should monitor advancements in autonomy as it could significantly impact transportation and logistics.",
@@ -8003,16 +8041,16 @@
       "archived_reason": null,
       "first_detected_episode_id": 362,
       "first_detected_speaker": "Travis Kalanick, Ben Horowitz",
-      "last_mentioned_episode_id": 388,
-      "last_mentioned_speaker": "Dino Ceranic, Vib Altacar"
+      "last_mentioned_episode_id": 398,
+      "last_mentioned_speaker": "Kush Bavaria"
     },
     {
       "id": 261,
       "term": "Physical AI",
       "description": "The concept of artificial intelligence that relates to physical sensing and responsiveness, as opposed to digital or virtual AI.",
       "first_detected_date": "2026-07-21",
-      "last_mentioned_date": "2026-07-31",
-      "mention_count": 5,
+      "last_mentioned_date": "2026-08-11",
+      "mention_count": 6,
       "source_podcasts": null,
       "status": "active",
       "investment_implications": "Physical AI could be a key differentiator in the development of AI that can replicate human consciousness and interaction with the physical world.",
@@ -8021,8 +8059,8 @@
       "archived_reason": null,
       "first_detected_episode_id": 359,
       "first_detected_speaker": "Casser, Eunice, Peter Ludwig",
-      "last_mentioned_episode_id": 378,
-      "last_mentioned_speaker": "Chamath Palihapitiya, Jason Calacanis (hosts)"
+      "last_mentioned_episode_id": 398,
+      "last_mentioned_speaker": "Kush Bavaria"
     },
     {
       "id": 265,
@@ -8173,8 +8211,8 @@
       "term": "Hyperscalers",
       "description": "Companies that invest heavily in AI infrastructure, often outpacing their earnings, raising questions about the long-term sustainability of such investments.",
       "first_detected_date": "2026-06-19",
-      "last_mentioned_date": "2026-08-08",
-      "mention_count": 15,
+      "last_mentioned_date": "2026-08-11",
+      "mention_count": 16,
       "source_podcasts": null,
       "status": "active",
       "investment_implications": "Investors should assess the financial health of AI companies and their ability to sustain growth.",
@@ -8183,8 +8221,8 @@
       "archived_reason": null,
       "first_detected_episode_id": 302,
       "first_detected_speaker": "Chamath Palihapitiya, Jason Calacanis (hosts)",
-      "last_mentioned_episode_id": 393,
-      "last_mentioned_speaker": "Saline"
+      "last_mentioned_episode_id": 398,
+      "last_mentioned_speaker": "Kush Bavaria"
     },
     {
       "id": 256,
@@ -8333,20 +8371,20 @@
     {
       "id": 234,
       "term": "AI Personhood",
-      "description": "The concept of attributing legal personhood or rights to AI entities, raising questions about responsibility and ethics in AI development.",
+      "description": "The concept of recognizing AI as an inventor or owner of property, raising questions about regulatory frameworks and the attribution of intellectual property rights to AI entities.",
       "first_detected_date": "2026-06-08",
-      "last_mentioned_date": "2026-08-08",
-      "mention_count": 16,
+      "last_mentioned_date": "2026-08-11",
+      "mention_count": 17,
       "source_podcasts": null,
       "status": "active",
-      "investment_implications": "As AI becomes more autonomous, investors may need to consider the ethical implications and potential regulatory changes related to AI personhood.",
+      "investment_implications": "Investors should monitor legal and regulatory developments regarding AI personhood, as it could impact IP ownership and valuation of tech companies.",
       "display_on_main": 1,
       "archived_date": null,
       "archived_reason": null,
       "first_detected_episode_id": 271,
       "first_detected_speaker": "Peter Diamandis",
-      "last_mentioned_episode_id": 393,
-      "last_mentioned_speaker": "Saline"
+      "last_mentioned_episode_id": 398,
+      "last_mentioned_speaker": "Kush Bavaria"
     },
     {
       "id": 59,
@@ -8497,8 +8535,8 @@
       "term": "Dyson Swarm",
       "description": "A hypothetical structure proposed by Freeman Dyson, consisting of a large number of objects in space designed to capture the energy of a star, in this context possibly referring to SpaceX's ambitions.",
       "first_detected_date": "2026-05-23",
-      "last_mentioned_date": "2026-07-24",
-      "mention_count": 22,
+      "last_mentioned_date": "2026-08-11",
+      "mention_count": 23,
       "source_podcasts": null,
       "status": "active",
       "investment_implications": "Investors should consider the potential of space-based infrastructure and energy capture technologies.",
@@ -8507,8 +8545,8 @@
       "archived_reason": null,
       "first_detected_episode_id": 236,
       "first_detected_speaker": null,
-      "last_mentioned_episode_id": 366,
-      "last_mentioned_speaker": "Day Blenden, Sleam Ismail"
+      "last_mentioned_episode_id": 398,
+      "last_mentioned_speaker": "Kush Bavaria"
     },
     {
       "id": 113,
@@ -8587,8 +8625,8 @@
       "term": "Singularity",
       "description": "A hypothetical point in the future when technological growth becomes uncontrollable and irreversible, leading to unforeseeable changes to human civilization.",
       "first_detected_date": "2026-05-15",
-      "last_mentioned_date": "2026-08-08",
-      "mention_count": 44,
+      "last_mentioned_date": "2026-08-11",
+      "mention_count": 45,
       "source_podcasts": null,
       "status": "active",
       "investment_implications": "Investors should be aware of companies and technologies that are pushing the boundaries of AI and automation, as they may be key players in the approach to the singularity.",
@@ -8597,16 +8635,16 @@
       "archived_reason": null,
       "first_detected_episode_id": 221,
       "first_detected_speaker": null,
-      "last_mentioned_episode_id": 393,
-      "last_mentioned_speaker": "Saline"
+      "last_mentioned_episode_id": 398,
+      "last_mentioned_speaker": "Kush Bavaria"
     },
     {
       "id": 97,
       "term": "Distillation",
       "description": "The process of training a smaller AI model on the output of a larger model to achieve similar results with less computational power.",
       "first_detected_date": "2026-05-15",
-      "last_mentioned_date": "2026-08-08",
-      "mention_count": 33,
+      "last_mentioned_date": "2026-08-11",
+      "mention_count": 34,
       "source_podcasts": null,
       "status": "active",
       "investment_implications": "Distillation can make AI more accessible and cost-effective, impacting how businesses allocate resources for AI development.",
@@ -8615,8 +8653,8 @@
       "archived_reason": null,
       "first_detected_episode_id": 221,
       "first_detected_speaker": null,
-      "last_mentioned_episode_id": 393,
-      "last_mentioned_speaker": "Saline"
+      "last_mentioned_episode_id": 398,
+      "last_mentioned_speaker": "Kush Bavaria"
     },
     {
       "id": 174,
@@ -8713,8 +8751,8 @@
       "term": "AGI",
       "description": "Artificial General Intelligence, the ability of machines to understand, learn, and apply knowledge across a broad range of tasks at a human level.",
       "first_detected_date": "2026-05-07",
-      "last_mentioned_date": "2026-08-08",
-      "mention_count": 70,
+      "last_mentioned_date": "2026-08-11",
+      "mention_count": 72,
       "source_podcasts": null,
       "status": "active",
       "investment_implications": "Invest in companies that are making incremental progress towards AGI capabilities.",
@@ -8723,8 +8761,8 @@
       "archived_reason": null,
       "first_detected_episode_id": 204,
       "first_detected_speaker": "Demis Hassabis",
-      "last_mentioned_episode_id": 393,
-      "last_mentioned_speaker": "Saline"
+      "last_mentioned_episode_id": 398,
+      "last_mentioned_speaker": "Kush Bavaria"
     },
     {
       "id": 162,
@@ -9812,7 +9850,7 @@
       "description": "AI-powered software agents that assist in coding and software development tasks.",
       "first_detected_date": "2026-02-28",
       "last_mentioned_date": "2026-08-11",
-      "mention_count": 58,
+      "mention_count": 59,
       "source_podcasts": null,
       "status": "active",
       "investment_implications": "AI agents can significantly impact the efficiency and speed of software development, influencing investment in tech companies.",
@@ -9821,8 +9859,8 @@
       "archived_reason": null,
       "first_detected_episode_id": 31,
       "first_detected_speaker": null,
-      "last_mentioned_episode_id": 395,
-      "last_mentioned_speaker": "Emilio Escobar"
+      "last_mentioned_episode_id": 398,
+      "last_mentioned_speaker": "Kush Bavaria"
     },
     {
       "id": 38,

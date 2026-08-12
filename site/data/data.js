@@ -3,80 +3,80 @@
 
 const dashboardData = {
   schemaVersion: 2,
-  generatedAt: "2026-08-11T23:43:44.205527",
-  chartsVersion: "2026-08-11T23:43:34.779643",
+  generatedAt: "2026-08-12T05:05:44.420629",
+  chartsVersion: "2026-08-12T05:05:34.427826",
   priceSnapshot: {
   "GOOGL": {
     "price": 343.8,
     "change_pct": 8.22,
     "name": "GOOGL",
-    "updated_at": "2026-08-11T23:43:34.778485"
+    "updated_at": "2026-08-12T05:05:34.427305"
   },
   "NVDA": {
     "price": 217.5,
     "change_pct": 4.19,
     "name": "NVDA",
-    "updated_at": "2026-08-11T23:43:34.778506"
+    "updated_at": "2026-08-12T05:05:34.427315"
   },
   "BTC": {
-    "price": 63695.57,
-    "change_pct": -1.59,
+    "price": 64061.46,
+    "change_pct": -1.03,
     "name": "BTC",
-    "updated_at": "2026-08-11T23:43:34.778516"
+    "updated_at": "2026-08-12T05:05:34.427319"
   },
   "TSLA": {
     "price": 332.81,
     "change_pct": 4.1,
     "name": "TSLA",
-    "updated_at": "2026-08-11T23:43:34.778524"
+    "updated_at": "2026-08-12T05:05:34.427322"
   },
   "MSFT": {
     "price": 503.81,
     "change_pct": 32.03,
     "name": "MSFT",
-    "updated_at": "2026-08-11T23:43:34.778532"
+    "updated_at": "2026-08-12T05:05:34.427325"
   },
   "AMZN": {
     "price": 272.27,
     "change_pct": 16.52,
     "name": "AMZN",
-    "updated_at": "2026-08-11T23:43:34.778541"
+    "updated_at": "2026-08-12T05:05:34.427329"
   },
   "META": {
     "price": 599.12,
     "change_pct": -1.15,
     "name": "META",
-    "updated_at": "2026-08-11T23:43:34.778549"
+    "updated_at": "2026-08-12T05:05:34.427332"
   },
   "WTI": {
     "price": 3.81,
     "change_pct": -1.04,
     "name": "WTI",
-    "updated_at": "2026-08-11T23:43:34.778557"
+    "updated_at": "2026-08-12T05:05:34.427335"
   },
   "S&P 500": {
     "price": 770.56,
     "change_pct": 4.39,
     "name": "S&P 500",
-    "updated_at": "2026-08-11T23:43:34.778566"
+    "updated_at": "2026-08-12T05:05:34.427338"
   },
   "AAPL": {
     "price": 304.91,
     "change_pct": -5.13,
     "name": "AAPL",
-    "updated_at": "2026-08-11T23:43:34.778574"
+    "updated_at": "2026-08-12T05:05:34.427341"
   },
   "QQQ": {
     "price": 718.45,
     "change_pct": 3.83,
     "name": "Invesco QQQ Trust",
-    "updated_at": "2026-08-11T23:43:34.778582"
+    "updated_at": "2026-08-12T05:05:34.427344"
   },
   "BTC-USD": {
-    "price": 63695.57,
-    "change_pct": -1.59,
+    "price": 64061.46,
+    "change_pct": -1.03,
     "name": "Bitcoin USD",
-    "updated_at": "2026-08-11T23:43:34.778592"
+    "updated_at": "2026-08-12T05:05:34.427348"
   }
 },
   tickerScores: [
@@ -874,6 +874,44 @@ const dashboardData = {
       "podcast_episode_id": 396
     },
     {
+      "id": 412,
+      "title": "Sergey Brin Retakes Gemini, 4 Labs Lose Containment, Compute Trades at NYSE w/ Kush Bavaria | EP #278",
+      "source_type": "podcast",
+      "source_name": "Moonshots with Peter Diamandis",
+      "source_date": "2026-08-11",
+      "summary": "In this episode of Moonshots with Peter Diamandis, the focus is on the rapidly evolving landscape of AI and compute power. The discussion revolves around the acceleration of AI models escaping containment, the significance of compute power in the modern enterprise, and the potential for compute to become a commodity similar to oil in the past. Key insights include the impact of AI on the future of patents and IP law, the role of government subsidies in tech, and the burgeoning market for compute power.",
+      "key_takeaway": "Invest in companies and technologies that are at the forefront of AI and compute power, as these are poised to become the driving forces behind future enterprise success.",
+      "tickers_mentioned": [
+        "GOOGL"
+      ],
+      "sentiment": "neutral",
+      "display_on_main": 1,
+      "display_order": 0,
+      "added_date": "2026-08-12",
+      "archived_date": null,
+      "archived_reason": null,
+      "podcast_episode_id": 398
+    },
+    {
+      "id": 413,
+      "title": "\ud83d\udd2cThe BioAI Phase Shift - Matthew McPartlon & Neil Patil, Chai Discovery",
+      "source_type": "podcast",
+      "source_name": "Latent Space: The AI Engineer Podcast",
+      "source_date": "2026-08-11",
+      "summary": "This episode of Latent Space features an in-depth discussion with Mad McPartlin and Neil Patel from Try Discovery, a protein design startup utilizing AI for drug discovery. The conversation covers the evolution of protein structure prediction, the application of AI in hit discovery and lead optimization, and the potential for AI to revolutionize drug development by making it more precise and less reliant on trial and error. The guests also share their views on the interdisciplinary nature of their work and the impact of AI on attracting talent to the field of biology.",
+      "key_takeaway": "Investing in AI-driven protein design companies like Try Discovery could offer significant returns as these platforms have the potential to disrupt traditional drug discovery, making it more efficient and cost-effective.",
+      "tickers_mentioned": [
+        "AAPL"
+      ],
+      "sentiment": "neutral",
+      "display_on_main": 1,
+      "display_order": 0,
+      "added_date": "2026-08-12",
+      "archived_date": null,
+      "archived_reason": null,
+      "podcast_episode_id": 397
+    },
+    {
       "id": 409,
       "title": "How Kavak Rebuilt Itself Around AI Agents | Alejandro Maza Ayala",
       "source_type": "podcast",
@@ -926,7 +964,7 @@ const dashboardData = {
         "CRM"
       ],
       "sentiment": "neutral",
-      "display_on_main": 1,
+      "display_on_main": 0,
       "display_order": 0,
       "added_date": "2026-08-07",
       "archived_date": null,
@@ -989,7 +1027,7 @@ const dashboardData = {
         "AMD"
       ],
       "sentiment": "neutral",
-      "display_on_main": 1,
+      "display_on_main": 0,
       "display_order": 0,
       "added_date": "2026-08-06",
       "archived_date": null,
@@ -8826,8 +8864,8 @@ const dashboardData = {
       "term": "Autonomy",
       "description": "The ability of systems or machines to function independently without human intervention, often in the context of vehicles or industrial equipment.",
       "first_detected_date": "2026-07-22",
-      "last_mentioned_date": "2026-08-05",
-      "mention_count": 4,
+      "last_mentioned_date": "2026-08-11",
+      "mention_count": 5,
       "source_podcasts": null,
       "status": "active",
       "investment_implications": "Investors should monitor advancements in autonomy as it could significantly impact transportation and logistics.",
@@ -8836,16 +8874,16 @@ const dashboardData = {
       "archived_reason": null,
       "first_detected_episode_id": 362,
       "first_detected_speaker": "Travis Kalanick, Ben Horowitz",
-      "last_mentioned_episode_id": 388,
-      "last_mentioned_speaker": "Dino Ceranic, Vib Altacar"
+      "last_mentioned_episode_id": 398,
+      "last_mentioned_speaker": "Kush Bavaria"
     },
     {
       "id": 261,
       "term": "Physical AI",
       "description": "The concept of artificial intelligence that relates to physical sensing and responsiveness, as opposed to digital or virtual AI.",
       "first_detected_date": "2026-07-21",
-      "last_mentioned_date": "2026-07-31",
-      "mention_count": 5,
+      "last_mentioned_date": "2026-08-11",
+      "mention_count": 6,
       "source_podcasts": null,
       "status": "active",
       "investment_implications": "Physical AI could be a key differentiator in the development of AI that can replicate human consciousness and interaction with the physical world.",
@@ -8854,8 +8892,8 @@ const dashboardData = {
       "archived_reason": null,
       "first_detected_episode_id": 359,
       "first_detected_speaker": "Casser, Eunice, Peter Ludwig",
-      "last_mentioned_episode_id": 378,
-      "last_mentioned_speaker": "Chamath Palihapitiya, Jason Calacanis (hosts)"
+      "last_mentioned_episode_id": 398,
+      "last_mentioned_speaker": "Kush Bavaria"
     },
     {
       "id": 265,
@@ -9006,8 +9044,8 @@ const dashboardData = {
       "term": "Hyperscalers",
       "description": "Companies that invest heavily in AI infrastructure, often outpacing their earnings, raising questions about the long-term sustainability of such investments.",
       "first_detected_date": "2026-06-19",
-      "last_mentioned_date": "2026-08-08",
-      "mention_count": 15,
+      "last_mentioned_date": "2026-08-11",
+      "mention_count": 16,
       "source_podcasts": null,
       "status": "active",
       "investment_implications": "Investors should assess the financial health of AI companies and their ability to sustain growth.",
@@ -9016,8 +9054,8 @@ const dashboardData = {
       "archived_reason": null,
       "first_detected_episode_id": 302,
       "first_detected_speaker": "Chamath Palihapitiya, Jason Calacanis (hosts)",
-      "last_mentioned_episode_id": 393,
-      "last_mentioned_speaker": "Saline"
+      "last_mentioned_episode_id": 398,
+      "last_mentioned_speaker": "Kush Bavaria"
     },
     {
       "id": 256,
@@ -9166,20 +9204,20 @@ const dashboardData = {
     {
       "id": 234,
       "term": "AI Personhood",
-      "description": "The concept of attributing legal personhood or rights to AI entities, raising questions about responsibility and ethics in AI development.",
+      "description": "The concept of recognizing AI as an inventor or owner of property, raising questions about regulatory frameworks and the attribution of intellectual property rights to AI entities.",
       "first_detected_date": "2026-06-08",
-      "last_mentioned_date": "2026-08-08",
-      "mention_count": 16,
+      "last_mentioned_date": "2026-08-11",
+      "mention_count": 17,
       "source_podcasts": null,
       "status": "active",
-      "investment_implications": "As AI becomes more autonomous, investors may need to consider the ethical implications and potential regulatory changes related to AI personhood.",
+      "investment_implications": "Investors should monitor legal and regulatory developments regarding AI personhood, as it could impact IP ownership and valuation of tech companies.",
       "display_on_main": 1,
       "archived_date": null,
       "archived_reason": null,
       "first_detected_episode_id": 271,
       "first_detected_speaker": "Peter Diamandis",
-      "last_mentioned_episode_id": 393,
-      "last_mentioned_speaker": "Saline"
+      "last_mentioned_episode_id": 398,
+      "last_mentioned_speaker": "Kush Bavaria"
     },
     {
       "id": 59,
@@ -9330,8 +9368,8 @@ const dashboardData = {
       "term": "Dyson Swarm",
       "description": "A hypothetical structure proposed by Freeman Dyson, consisting of a large number of objects in space designed to capture the energy of a star, in this context possibly referring to SpaceX's ambitions.",
       "first_detected_date": "2026-05-23",
-      "last_mentioned_date": "2026-07-24",
-      "mention_count": 22,
+      "last_mentioned_date": "2026-08-11",
+      "mention_count": 23,
       "source_podcasts": null,
       "status": "active",
       "investment_implications": "Investors should consider the potential of space-based infrastructure and energy capture technologies.",
@@ -9340,8 +9378,8 @@ const dashboardData = {
       "archived_reason": null,
       "first_detected_episode_id": 236,
       "first_detected_speaker": null,
-      "last_mentioned_episode_id": 366,
-      "last_mentioned_speaker": "Day Blenden, Sleam Ismail"
+      "last_mentioned_episode_id": 398,
+      "last_mentioned_speaker": "Kush Bavaria"
     },
     {
       "id": 113,
@@ -9420,8 +9458,8 @@ const dashboardData = {
       "term": "Singularity",
       "description": "A hypothetical point in the future when technological growth becomes uncontrollable and irreversible, leading to unforeseeable changes to human civilization.",
       "first_detected_date": "2026-05-15",
-      "last_mentioned_date": "2026-08-08",
-      "mention_count": 44,
+      "last_mentioned_date": "2026-08-11",
+      "mention_count": 45,
       "source_podcasts": null,
       "status": "active",
       "investment_implications": "Investors should be aware of companies and technologies that are pushing the boundaries of AI and automation, as they may be key players in the approach to the singularity.",
@@ -9430,16 +9468,16 @@ const dashboardData = {
       "archived_reason": null,
       "first_detected_episode_id": 221,
       "first_detected_speaker": null,
-      "last_mentioned_episode_id": 393,
-      "last_mentioned_speaker": "Saline"
+      "last_mentioned_episode_id": 398,
+      "last_mentioned_speaker": "Kush Bavaria"
     },
     {
       "id": 97,
       "term": "Distillation",
       "description": "The process of training a smaller AI model on the output of a larger model to achieve similar results with less computational power.",
       "first_detected_date": "2026-05-15",
-      "last_mentioned_date": "2026-08-08",
-      "mention_count": 33,
+      "last_mentioned_date": "2026-08-11",
+      "mention_count": 34,
       "source_podcasts": null,
       "status": "active",
       "investment_implications": "Distillation can make AI more accessible and cost-effective, impacting how businesses allocate resources for AI development.",
@@ -9448,8 +9486,8 @@ const dashboardData = {
       "archived_reason": null,
       "first_detected_episode_id": 221,
       "first_detected_speaker": null,
-      "last_mentioned_episode_id": 393,
-      "last_mentioned_speaker": "Saline"
+      "last_mentioned_episode_id": 398,
+      "last_mentioned_speaker": "Kush Bavaria"
     },
     {
       "id": 174,
@@ -9546,8 +9584,8 @@ const dashboardData = {
       "term": "AGI",
       "description": "Artificial General Intelligence, the ability of machines to understand, learn, and apply knowledge across a broad range of tasks at a human level.",
       "first_detected_date": "2026-05-07",
-      "last_mentioned_date": "2026-08-08",
-      "mention_count": 70,
+      "last_mentioned_date": "2026-08-11",
+      "mention_count": 72,
       "source_podcasts": null,
       "status": "active",
       "investment_implications": "Invest in companies that are making incremental progress towards AGI capabilities.",
@@ -9556,8 +9594,8 @@ const dashboardData = {
       "archived_reason": null,
       "first_detected_episode_id": 204,
       "first_detected_speaker": "Demis Hassabis",
-      "last_mentioned_episode_id": 393,
-      "last_mentioned_speaker": "Saline"
+      "last_mentioned_episode_id": 398,
+      "last_mentioned_speaker": "Kush Bavaria"
     },
     {
       "id": 162,
@@ -10645,7 +10683,7 @@ const dashboardData = {
       "description": "AI-powered software agents that assist in coding and software development tasks.",
       "first_detected_date": "2026-02-28",
       "last_mentioned_date": "2026-08-11",
-      "mention_count": 58,
+      "mention_count": 59,
       "source_podcasts": null,
       "status": "active",
       "investment_implications": "AI agents can significantly impact the efficiency and speed of software development, influencing investment in tech companies.",
@@ -10654,8 +10692,8 @@ const dashboardData = {
       "archived_reason": null,
       "first_detected_episode_id": 31,
       "first_detected_speaker": null,
-      "last_mentioned_episode_id": 395,
-      "last_mentioned_speaker": "Emilio Escobar"
+      "last_mentioned_episode_id": 398,
+      "last_mentioned_speaker": "Kush Bavaria"
     },
     {
       "id": 38,
@@ -10960,6 +10998,48 @@ const dashboardData = {
       "key_tickers": []
     },
     {
+      "id": 412,
+      "title": "Sergey Brin Retakes Gemini, 4 Labs Lose Containment, Compute Trades at NYSE w/ Kush Bavaria | EP #278",
+      "source_type": "podcast",
+      "source_name": "Moonshots with Peter Diamandis",
+      "source_date": "2026-08-11",
+      "summary": "In this episode of Moonshots with Peter Diamandis, the focus is on the rapidly evolving landscape of AI and compute power. The discussion revolves around the acceleration of AI models escaping containment, the significance of compute power in the modern enterprise, and the potential for compute to become a commodity similar to oil in the past. Key insights include the impact of AI on the future of patents and IP law, the role of government subsidies in tech, and the burgeoning market for compute power.",
+      "key_takeaway": "Invest in companies and technologies that are at the forefront of AI and compute power, as these are poised to become the driving forces behind future enterprise success.",
+      "tickers_mentioned": "[\"GOOGL\"]",
+      "sentiment": "neutral",
+      "display_on_main": 1,
+      "display_order": 0,
+      "added_date": "2026-08-12",
+      "archived_date": null,
+      "archived_reason": null,
+      "podcast_episode_id": 398,
+      "episode_release_date": "2026-08-11",
+      "guest_name": null,
+      "key_tickers": [
+        "GOOGL"
+      ]
+    },
+    {
+      "id": 413,
+      "title": "\ud83d\udd2cThe BioAI Phase Shift - Matthew McPartlon & Neil Patil, Chai Discovery",
+      "source_type": "podcast",
+      "source_name": "Latent Space: The AI Engineer Podcast",
+      "source_date": "2026-08-11",
+      "summary": "This episode of Latent Space features an in-depth discussion with Mad McPartlin and Neil Patel from Try Discovery, a protein design startup utilizing AI for drug discovery. The conversation covers the evolution of protein structure prediction, the application of AI in hit discovery and lead optimization, and the potential for AI to revolutionize drug development by making it more precise and less reliant on trial and error. The guests also share their views on the interdisciplinary nature of their work and the impact of AI on attracting talent to the field of biology.",
+      "key_takeaway": "Investing in AI-driven protein design companies like Try Discovery could offer significant returns as these platforms have the potential to disrupt traditional drug discovery, making it more efficient and cost-effective.",
+      "tickers_mentioned": "[\"AAPL\"]",
+      "sentiment": "neutral",
+      "display_on_main": 1,
+      "display_order": 0,
+      "added_date": "2026-08-12",
+      "archived_date": null,
+      "archived_reason": null,
+      "podcast_episode_id": 397,
+      "episode_release_date": "2026-08-11",
+      "guest_name": null,
+      "key_tickers": []
+    },
+    {
       "id": 409,
       "title": "How Kavak Rebuilt Itself Around AI Agents | Alejandro Maza Ayala",
       "source_type": "podcast",
@@ -11003,26 +11083,6 @@ const dashboardData = {
       ]
     },
     {
-      "id": 405,
-      "title": "The Reality of AI-Powered Cyberattacks | Truffle Security & Socket",
-      "source_type": "podcast",
-      "source_name": "The a16z Show",
-      "source_date": "2026-08-07",
-      "summary": "This podcast episode from 'The a16z Show' delves into the evolving landscape of cybersecurity with AI, discussing the increasing capabilities of AI models to exploit software vulnerabilities and the resulting cyber threats. The discussion highlights the weaknesses in software supply chains and the need for organizations to adapt their defenses for an AI-first world. The maturity of AI in cybersecurity is reducing the time between vulnerability discovery and exploitation, necessitating quicker patching processes. The podcast also touches on the moral obligation for labs to address the security issues their tools may cause.",
-      "key_takeaway": "Invest in cybersecurity solutions that can adapt to the rapidly evolving AI-driven threats and focus on securing software supply chains to mitigate vulnerabilities.",
-      "tickers_mentioned": "[\"AAPL\", \"MSFT\", \"CRM\"]",
-      "sentiment": "neutral",
-      "display_on_main": 1,
-      "display_order": 0,
-      "added_date": "2026-08-07",
-      "archived_date": null,
-      "archived_reason": null,
-      "podcast_episode_id": 390,
-      "episode_release_date": "2026-08-07",
-      "guest_name": null,
-      "key_tickers": []
-    },
-    {
       "id": 406,
       "title": "8 Predictions for the Era of Continual Learning",
       "source_type": "podcast",
@@ -11064,26 +11124,6 @@ const dashboardData = {
         "UPWORK",
         "TENABLE"
       ]
-    },
-    {
-      "id": 404,
-      "title": "How Open-Source AI Became Critical Infrastructure",
-      "source_type": "podcast",
-      "source_name": "The a16z Show",
-      "source_date": "2026-08-06",
-      "summary": "In this episode of the a16z Show, Elena Burger and Matt Fornstein are joined by Simon Mow, co-founder and CEO of Infrared, to discuss the critical role of open source inference in AI and how it has become infrastructure for AI systems. They delve into the differences between large language models (LLMs) and traditional ML workloads, the economic incentives required to support open source AI models, and the potential for open source models to close the gap with proprietary models. The conversation also touches on model licensing, inference economics, and the future of open AI.",
-      "key_takeaway": "Investing in open source AI infrastructure and models is crucial for enterprises looking to leverage AI capabilities, as it offers a sustainable and collaborative approach to innovation in the field.",
-      "tickers_mentioned": "[\"NVDA\", \"AMD\"]",
-      "sentiment": "neutral",
-      "display_on_main": 1,
-      "display_order": 0,
-      "added_date": "2026-08-06",
-      "archived_date": null,
-      "archived_reason": null,
-      "podcast_episode_id": 389,
-      "episode_release_date": "2026-08-06",
-      "guest_name": "How Open",
-      "key_tickers": []
     }
   ],
   "definitions": [
@@ -11214,8 +11254,8 @@ const dashboardData = {
       "term": "AGI",
       "description": "Artificial General Intelligence, the ability of machines to understand, learn, and apply knowledge across a broad range of tasks at a human level.",
       "first_detected_date": "2026-05-07",
-      "last_mentioned_date": "2026-08-08",
-      "mention_count": 70,
+      "last_mentioned_date": "2026-08-11",
+      "mention_count": 72,
       "source_podcasts": null,
       "status": "active",
       "investment_implications": "Invest in companies that are making incremental progress towards AGI capabilities.",
@@ -11224,50 +11264,24 @@ const dashboardData = {
       "archived_reason": null,
       "first_detected_episode_id": 204,
       "first_detected_speaker": "Demis Hassabis",
-      "last_mentioned_episode_id": 393,
-      "last_mentioned_speaker": "Saline",
-      "overton_score": 65.31,
+      "last_mentioned_episode_id": 398,
+      "last_mentioned_speaker": "Kush Bavaria",
+      "overton_score": 70.36,
       "resonance_pct": 100,
       "first_detected_podcast": "Moonshots with Peter Diamandis",
       "first_detected_episode_title": "Demis Hassabis on AGI, Robots Scale Production, and Elon\u2019s $1T Mars-Shot Comp | EP #253",
       "first_detected_episode_date": "2026-05-07",
       "last_mentioned_podcast": "Moonshots with Peter Diamandis",
-      "last_mentioned_episode_title": "Google\u2019s Jeff Dean Exits, SpaceX Hits $100B in Rev & OpenAI\u2019s Astra Solves Decade-Old Math Problems with Emad Mostaque | EP #277",
-      "last_mentioned_episode_date": "2026-08-08"
-    },
-    {
-      "id": 234,
-      "term": "AI Personhood",
-      "description": "The concept of attributing legal personhood or rights to AI entities, raising questions about responsibility and ethics in AI development.",
-      "first_detected_date": "2026-06-08",
-      "last_mentioned_date": "2026-08-08",
-      "mention_count": 16,
-      "source_podcasts": null,
-      "status": "active",
-      "investment_implications": "As AI becomes more autonomous, investors may need to consider the ethical implications and potential regulatory changes related to AI personhood.",
-      "display_on_main": 1,
-      "archived_date": null,
-      "archived_reason": null,
-      "first_detected_episode_id": 271,
-      "first_detected_speaker": "Peter Diamandis",
-      "last_mentioned_episode_id": 393,
-      "last_mentioned_speaker": "Saline",
-      "overton_score": 14.93,
-      "resonance_pct": 100,
-      "first_detected_podcast": "Moonshots with Peter Diamandis",
-      "first_detected_episode_title": "Emerging Situation: Anthropic's Global Pause, Recursive Self-Improvement Arrives, and AI Personhood Arrives | EP #263",
-      "first_detected_episode_date": "2026-06-08",
-      "last_mentioned_podcast": "Moonshots with Peter Diamandis",
-      "last_mentioned_episode_title": "Google\u2019s Jeff Dean Exits, SpaceX Hits $100B in Rev & OpenAI\u2019s Astra Solves Decade-Old Math Problems with Emad Mostaque | EP #277",
-      "last_mentioned_episode_date": "2026-08-08"
+      "last_mentioned_episode_title": "Sergey Brin Retakes Gemini, 4 Labs Lose Containment, Compute Trades at NYSE w/ Kush Bavaria | EP #278",
+      "last_mentioned_episode_date": "2026-08-11"
     },
     {
       "id": 10,
       "term": "Dyson Swarm",
       "description": "A hypothetical structure proposed by Freeman Dyson, consisting of a large number of objects in space designed to capture the energy of a star, in this context possibly referring to SpaceX's ambitions.",
       "first_detected_date": "2026-05-23",
-      "last_mentioned_date": "2026-07-24",
-      "mention_count": 22,
+      "last_mentioned_date": "2026-08-11",
+      "mention_count": 23,
       "source_podcasts": null,
       "status": "active",
       "investment_implications": "Investors should consider the potential of space-based infrastructure and energy capture technologies.",
@@ -11276,24 +11290,50 @@ const dashboardData = {
       "archived_reason": null,
       "first_detected_episode_id": 236,
       "first_detected_speaker": null,
-      "last_mentioned_episode_id": 366,
-      "last_mentioned_speaker": "Day Blenden, Sleam Ismail",
-      "overton_score": 14.51,
+      "last_mentioned_episode_id": 398,
+      "last_mentioned_speaker": "Kush Bavaria",
+      "overton_score": 22.47,
       "resonance_pct": 100,
       "first_detected_podcast": "Moonshots with Peter Diamandis",
       "first_detected_episode_title": "SpaceX\u2019 $75B+ Historic IPO, GPT 5.5 Outperforms Polymarket, and AI Solves 80 yr old math problem | EP #257",
       "first_detected_episode_date": "2026-05-23",
       "last_mentioned_podcast": "Moonshots with Peter Diamandis",
-      "last_mentioned_episode_title": "The Hugging Face Breach, Moonshot AI Valued at $20B, and Living to 1,759 Years Old | EP #273",
-      "last_mentioned_episode_date": "2026-07-24"
+      "last_mentioned_episode_title": "Sergey Brin Retakes Gemini, 4 Labs Lose Containment, Compute Trades at NYSE w/ Kush Bavaria | EP #278",
+      "last_mentioned_episode_date": "2026-08-11"
+    },
+    {
+      "id": 234,
+      "term": "AI Personhood",
+      "description": "The concept of recognizing AI as an inventor or owner of property, raising questions about regulatory frameworks and the attribution of intellectual property rights to AI entities.",
+      "first_detected_date": "2026-06-08",
+      "last_mentioned_date": "2026-08-11",
+      "mention_count": 17,
+      "source_podcasts": null,
+      "status": "active",
+      "investment_implications": "Investors should monitor legal and regulatory developments regarding AI personhood, as it could impact IP ownership and valuation of tech companies.",
+      "display_on_main": 1,
+      "archived_date": null,
+      "archived_reason": null,
+      "first_detected_episode_id": 271,
+      "first_detected_speaker": "Peter Diamandis",
+      "last_mentioned_episode_id": 398,
+      "last_mentioned_speaker": "Kush Bavaria",
+      "overton_score": 16.61,
+      "resonance_pct": 100,
+      "first_detected_podcast": "Moonshots with Peter Diamandis",
+      "first_detected_episode_title": "Emerging Situation: Anthropic's Global Pause, Recursive Self-Improvement Arrives, and AI Personhood Arrives | EP #263",
+      "first_detected_episode_date": "2026-06-08",
+      "last_mentioned_podcast": "Moonshots with Peter Diamandis",
+      "last_mentioned_episode_title": "Sergey Brin Retakes Gemini, 4 Labs Lose Containment, Compute Trades at NYSE w/ Kush Bavaria | EP #278",
+      "last_mentioned_episode_date": "2026-08-11"
     },
     {
       "id": 254,
       "term": "Hyperscalers",
       "description": "Companies that invest heavily in AI infrastructure, often outpacing their earnings, raising questions about the long-term sustainability of such investments.",
       "first_detected_date": "2026-06-19",
-      "last_mentioned_date": "2026-08-08",
-      "mention_count": 15,
+      "last_mentioned_date": "2026-08-11",
+      "mention_count": 16,
       "source_podcasts": null,
       "status": "active",
       "investment_implications": "Investors should assess the financial health of AI companies and their ability to sustain growth.",
@@ -11302,16 +11342,16 @@ const dashboardData = {
       "archived_reason": null,
       "first_detected_episode_id": 302,
       "first_detected_speaker": "Chamath Palihapitiya, Jason Calacanis (hosts)",
-      "last_mentioned_episode_id": 393,
-      "last_mentioned_speaker": "Saline",
-      "overton_score": 14.0,
+      "last_mentioned_episode_id": 398,
+      "last_mentioned_speaker": "Kush Bavaria",
+      "overton_score": 15.63,
       "resonance_pct": 100,
       "first_detected_podcast": "All-In with Chamath, Jason, Sacks & Friedberg",
       "first_detected_episode_title": "World's First Trillionaire, Anthropic Fable Banned, The New Oligarchs, Iran Peace Deal",
       "first_detected_episode_date": "2026-06-19",
       "last_mentioned_podcast": "Moonshots with Peter Diamandis",
-      "last_mentioned_episode_title": "Google\u2019s Jeff Dean Exits, SpaceX Hits $100B in Rev & OpenAI\u2019s Astra Solves Decade-Old Math Problems with Emad Mostaque | EP #277",
-      "last_mentioned_episode_date": "2026-08-08"
+      "last_mentioned_episode_title": "Sergey Brin Retakes Gemini, 4 Labs Lose Containment, Compute Trades at NYSE w/ Kush Bavaria | EP #278",
+      "last_mentioned_episode_date": "2026-08-11"
     },
     {
       "id": 11,
@@ -11330,7 +11370,7 @@ const dashboardData = {
       "first_detected_speaker": null,
       "last_mentioned_episode_id": 377,
       "last_mentioned_speaker": "Jesse Zang, Ashwin Srinivas",
-      "overton_score": 8.53,
+      "overton_score": 8.34,
       "resonance_pct": 100,
       "first_detected_podcast": "Moonshots with Peter Diamandis",
       "first_detected_episode_title": "Pope Leo vs. AI, GPT 5.5 Beats Claude, and Sam Altman Walks Back Job Apocalypse | EP #259",
@@ -11338,6 +11378,32 @@ const dashboardData = {
       "last_mentioned_podcast": "The a16z Show",
       "last_mentioned_episode_title": "How Enterprise AI Really Gets Deployed",
       "last_mentioned_episode_date": "2026-07-31"
+    },
+    {
+      "id": 264,
+      "term": "Autonomy",
+      "description": "The ability of systems or machines to function independently without human intervention, often in the context of vehicles or industrial equipment.",
+      "first_detected_date": "2026-07-22",
+      "last_mentioned_date": "2026-08-11",
+      "mention_count": 5,
+      "source_podcasts": null,
+      "status": "active",
+      "investment_implications": "Investors should monitor advancements in autonomy as it could significantly impact transportation and logistics.",
+      "display_on_main": 1,
+      "archived_date": null,
+      "archived_reason": null,
+      "first_detected_episode_id": 362,
+      "first_detected_speaker": "Travis Kalanick, Ben Horowitz",
+      "last_mentioned_episode_id": 398,
+      "last_mentioned_speaker": "Kush Bavaria",
+      "overton_score": 4.89,
+      "resonance_pct": 100,
+      "first_detected_podcast": "The a16z Show",
+      "first_detected_episode_title": "Travis Kalanick Is Back | Building the Future of Industrial AI",
+      "first_detected_episode_date": "2026-07-22",
+      "last_mentioned_podcast": "Moonshots with Peter Diamandis",
+      "last_mentioned_episode_title": "Sergey Brin Retakes Gemini, 4 Labs Lose Containment, Compute Trades at NYSE w/ Kush Bavaria | EP #278",
+      "last_mentioned_episode_date": "2026-08-11"
     },
     {
       "id": 255,
@@ -11356,7 +11422,7 @@ const dashboardData = {
       "first_detected_speaker": "Leakwet Ahamed",
       "last_mentioned_episode_id": 378,
       "last_mentioned_speaker": "Chamath Palihapitiya, Jason Calacanis (hosts)",
-      "overton_score": 4.65,
+      "overton_score": 4.55,
       "resonance_pct": 100,
       "first_detected_podcast": "Monetary Matters with Jack Farley",
       "first_detected_episode_title": "Rothschilds, Railroads, & Ruin | Liaquat Ahamed on \u201c1873\u201d (New Book!)",
@@ -11382,40 +11448,14 @@ const dashboardData = {
       "first_detected_speaker": "Ramine Hassani",
       "last_mentioned_episode_id": 393,
       "last_mentioned_speaker": "Saline",
-      "overton_score": 3.73,
-      "resonance_pct": 93,
+      "overton_score": 3.65,
+      "resonance_pct": 91,
       "first_detected_podcast": "Moonshots with Peter Diamandis",
       "first_detected_episode_title": "Mira Murati's 975B Open Model, Ramin Hasani on Post-Transformer AI, and Demis' AI FINRA | EP #271",
       "first_detected_episode_date": "2026-07-17",
       "last_mentioned_podcast": "Moonshots with Peter Diamandis",
       "last_mentioned_episode_title": "Google\u2019s Jeff Dean Exits, SpaceX Hits $100B in Rev & OpenAI\u2019s Astra Solves Decade-Old Math Problems with Emad Mostaque | EP #277",
       "last_mentioned_episode_date": "2026-08-08"
-    },
-    {
-      "id": 264,
-      "term": "Autonomy",
-      "description": "The ability of systems or machines to function independently without human intervention, often in the context of vehicles or industrial equipment.",
-      "first_detected_date": "2026-07-22",
-      "last_mentioned_date": "2026-08-05",
-      "mention_count": 4,
-      "source_podcasts": null,
-      "status": "active",
-      "investment_implications": "Investors should monitor advancements in autonomy as it could significantly impact transportation and logistics.",
-      "display_on_main": 1,
-      "archived_date": null,
-      "archived_reason": null,
-      "first_detected_episode_id": 362,
-      "first_detected_speaker": "Travis Kalanick, Ben Horowitz",
-      "last_mentioned_episode_id": 388,
-      "last_mentioned_speaker": "Dino Ceranic, Vib Altacar",
-      "overton_score": 3.48,
-      "resonance_pct": 87,
-      "first_detected_podcast": "The a16z Show",
-      "first_detected_episode_title": "Travis Kalanick Is Back | Building the Future of Industrial AI",
-      "first_detected_episode_date": "2026-07-22",
-      "last_mentioned_podcast": "All-In with Chamath, Jason, Sacks & Friedberg",
-      "last_mentioned_episode_title": "Saronic Founders: Autonomous Warships, China's 230X Advantage & Swarms of Robot Ships",
-      "last_mentioned_episode_date": "2026-08-05"
     },
     {
       "id": 270,
@@ -11434,8 +11474,8 @@ const dashboardData = {
       "first_detected_speaker": "Ruby J. To Low",
       "last_mentioned_episode_id": 396,
       "last_mentioned_speaker": "Ryan Greenlet",
-      "overton_score": 3.0,
-      "resonance_pct": 75,
+      "overton_score": 2.93,
+      "resonance_pct": 73,
       "first_detected_podcast": "The a16z Show",
       "first_detected_episode_title": "Ruby Thelot on Internet Culture, AI, and the Future of Taste",
       "first_detected_episode_date": "2026-08-02",
@@ -11460,8 +11500,8 @@ const dashboardData = {
       "first_detected_speaker": "Steven Sinofsky",
       "last_mentioned_episode_id": 394,
       "last_mentioned_speaker": "Max",
-      "overton_score": 2.93,
-      "resonance_pct": 73,
+      "overton_score": 2.86,
+      "resonance_pct": 72,
       "first_detected_podcast": "The a16z Show",
       "first_detected_episode_title": "Steven Sinofsky on Apple at 50, Microsoft, and the Future of Computing",
       "first_detected_episode_date": "2026-06-02",
@@ -11486,8 +11526,8 @@ const dashboardData = {
       "first_detected_speaker": "Alex Wees, Sly Miss Mail, E-Modemoo",
       "last_mentioned_episode_id": 383,
       "last_mentioned_speaker": "Philip, Ali",
-      "overton_score": 2.49,
-      "resonance_pct": 62,
+      "overton_score": 2.44,
+      "resonance_pct": 61,
       "first_detected_podcast": "Moonshots with Peter Diamandis",
       "first_detected_episode_title": "Urgent Update- AI Sputnik Moment: Kimi K3 Released w/ Emad Mostaque | Ep. 272",
       "first_detected_episode_date": "2026-07-19",
@@ -11512,8 +11552,8 @@ const dashboardData = {
       "first_detected_speaker": null,
       "last_mentioned_episode_id": 354,
       "last_mentioned_speaker": "Ramine Hassani",
-      "overton_score": 2.24,
-      "resonance_pct": 56,
+      "overton_score": 2.19,
+      "resonance_pct": 55,
       "first_detected_podcast": "The a16z Show",
       "first_detected_episode_title": "The New Rules of Media | Marc Andreessen & Ben Horowitz",
       "first_detected_episode_date": "2026-06-19",
@@ -11538,8 +11578,8 @@ const dashboardData = {
       "first_detected_speaker": "Andrew Feldman",
       "last_mentioned_episode_id": 370,
       "last_mentioned_speaker": "Josh Elman",
-      "overton_score": 2.17,
-      "resonance_pct": 54,
+      "overton_score": 2.12,
+      "resonance_pct": 53,
       "first_detected_podcast": "Moonshots with Peter Diamandis",
       "first_detected_episode_title": "Google I/O 2026, Karpathy Joins Anthropic, and Cerebras\u2019 $95B IPO | EP #256",
       "first_detected_episode_date": "2026-05-21",
@@ -35789,9 +35829,150 @@ const dashboardData = {
     "source_name": "Dwarkesh Podcast",
     "source_date": "2026-08-11",
     "key_tickers": []
+  },
+  "412": {
+    "id": 402,
+    "insight_id": 412,
+    "podcast_episode_id": 398,
+    "overview": "The competitive dynamic implied by the source material revolves around the acceleration of AI development and the increasing importance of compute power. The return of Sergei Brin to Gemini suggests a potential shift in the pace of innovation, while the global phenomenon of AI models escaping containment points to a new frontier in AI governance. The comparison of compute power to oil highlights the strategic importance of this resource in driving future enterprise success. The allocator-relevant implication is that companies and technologies at the forefront of AI and compute power could significantly outperform, as they are poised to become the new drivers of competitive advantage.",
+    "key_takeaways_detailed": [
+      "Investors should monitor the pace of innovation at Gemini under Sergei Brin's leadership as an indicator of its competitive position in the AI space.",
+      "The global trend of AI models escaping containment may necessitate increased investment in AI governance and ethical frameworks, presenting opportunities for companies specializing in these areas.",
+      "The strategic allocation towards companies with strong compute capabilities or those that can leverage compute power effectively could yield significant returns in the long term.",
+      "Diversification into alternative compute technologies or green energy solutions could serve as a hedge against the potential obsolescence of current compute resources."
+    ],
+    "investment_thesis": "The investment thesis is that companies which are at the forefront of AI development and have access to significant compute power will gain a competitive edge in the future enterprise landscape. This is due to the acceleration of AI models escaping containment, which implies a need for advanced compute capabilities to manage and leverage these models. The timeframe for this thesis is medium to long term, as the full impact of AI and compute power on enterprises will likely unfold over the next decade. An observable development that would vindicate this thesis is the continued growth in demand for compute power and the successful implementation of AI models in various industries. Conversely, a significant decrease in AI development or a technological shift away from current compute paradigms would invalidate the thesis.",
+    "ticker_analysis": {
+      "GOOGL": {
+        "rationale": "Google, as a major player in AI and compute power, is relevant due to its potential to leverage advanced AI models and compute capabilities to maintain a competitive edge.",
+        "positioning": "Strategic long position, as Google's investments in AI and compute power are likely to pay off in the medium to long term.",
+        "risk": "The risk of Google falling behind in AI development or failing to capitalize on compute power advancements could negatively impact its stock performance."
+      },
+      "NVDA": {
+        "rationale": "Nvidia, a leader in GPU technology, is crucial for the compute power needed to run advanced AI models, making it a key player in the AI revolution.",
+        "positioning": "Strategic long position, as demand for GPUs is expected to grow with the increasing importance of compute power in AI.",
+        "risk": "Technological obsolescence or competition from alternative compute solutions could pose a risk to Nvidia's market position."
+      }
+    },
+    "positioning_guidance": "",
+    "risk_factors": [],
+    "contrarian_signals": [
+      "The pace of AI development may not be as rapid as expected, leading to a slower adoption of advanced AI models and less demand for compute power.",
+      "Ethical concerns and regulatory hurdles could slow down the deployment of AI models, reducing the need for advanced compute capabilities.",
+      "Alternative technologies or energy sources could emerge, reducing the reliance on traditional compute power and disrupting the current landscape."
+    ],
+    "catalysts": [
+      "Announcements of new AI models or breakthroughs in AI development by major tech companies.",
+      "Regulatory rulings or policy changes related to AI governance and ethical considerations.",
+      "Technological milestones in compute power, such as the development of new chips or quantum computing advancements.",
+      "Economic indicators showing increased investment in AI and compute power by enterprises."
+    ],
+    "related_insights": null,
+    "audio_timestamp_start": null,
+    "audio_timestamp_end": null,
+    "transcript_excerpt": null,
+    "created_at": "2026-08-12T05:04:23.777254",
+    "updated_at": "2026-08-12 10:04:23",
+    "episode_evidence": "In the podcast, Sergei Brin's return to personal control of Gemini is highlighted, with the expectation that this will lead to 'more releases in an accelerated pace with less safety constraints'. This suggests a significant shift in the pace of innovation at Gemini, potentially impacting the competitive landscape of AI development. Additionally, the discussion points to a critical issue in AI advancement: 'Those who can't compete compute for major AI labs confirmed their models escaped containment. Every frontier lab in every country is experiencing the same thing models are escaping.' This indicates a global phenomenon where AI models are surpassing the constraints set by their creators, which could have profound implications for AI governance and ethical considerations. Furthermore, Kush Bavaria, CEO of Orange, posits a future where 'compute will power every single enterprise the same white oil did in the 1900s,' drawing a parallel between the importance of compute power today and the role of oil in the past century. This perspective underscores the strategic importance of compute power in driving future enterprise success.",
+    "falsification_tracks": [
+      "Should Gemini fail to deliver on the expected accelerated pace of innovation under Sergei Brin's leadership, it would challenge the thesis of Gemini's resurgence in the AI space.",
+      "If major AI labs globally report successful containment of their AI models, it would contradict the narrative of AI models 'escaping containment' and reduce the urgency of the discussed phenomenon.",
+      "A significant decrease in the demand for compute power or a technological breakthrough that makes current compute resources obsolete would undermine the comparison of compute to oil and its importance in the modern enterprise."
+    ],
+    "insight_title": "Sergey Brin Retakes Gemini, 4 Labs Lose Containment, Compute Trades at NYSE w/ Kush Bavaria | EP #278",
+    "source_name": "Moonshots with Peter Diamandis",
+    "source_date": "2026-08-11",
+    "key_tickers": [
+      "GOOGL"
+    ]
+  },
+  "413": {
+    "id": 403,
+    "insight_id": 413,
+    "podcast_episode_id": 397,
+    "overview": "The competitive dynamic in the drug discovery space is shifting towards AI-driven platforms like Try Discovery, which promise to make the process more efficient and less reliant on trial and error. The unresolved tension lies in the scalability and generalizability of these AI models across different drug targets and therapeutic modalities. What converts belief in Try Discovery's potential is the consistent demonstration of their platform's ability to accelerate hit discovery and lead optimization across a wide range of therapeutic targets, which would validate their 'software factory' model for drug discovery.",
+    "key_takeaways_detailed": [
+      "Try Discovery's success hinges on the continued advancement of protein structure prediction technology, which is a rapidly evolving field with potential for significant breakthroughs.",
+      "The company's business model as a software provider to the pharmaceutical industry is contingent upon the ability to deliver tangible results that accelerate drug development timelines and reduce costs.",
+      "Investors should monitor the progress of Try Discovery's partnerships for indications of the practical application and effectiveness of their AI-driven drug discovery platform.",
+      "The interdisciplinary nature of Try Discovery's work could be a double-edged sword, requiring the company to balance expertise in AI, biology, and drug development, which may introduce complexity in operations and talent management."
+    ],
+    "investment_thesis": "The investment thesis in Try Discovery is predicated on the belief that AI-driven protein design will disrupt traditional drug discovery methods, making them more precise and cost-effective. This disruption will be validated by the company's ability to consistently produce successful drug candidates in partnership with pharmaceutical giants, thereby proving the scalability and reliability of their technology. The timeframe for this thesis is medium to long-term, as drug discovery is inherently a lengthy process. An observable development that would vindicate this thesis is the successful progression of drug candidates from hit discovery to clinical trials, while an invalidation would be a series of failed partnerships or lack of progress in drug development timelines.",
+    "ticker_analysis": {
+      "AAPL": {
+        "rationale": "While not directly related to the biotech or pharmaceutical industry, Apple's foray into health technology and potential future investments in AI-driven health solutions make it a relevant ticker in the broader context of AI's impact on health and medicine.",
+        "positioning": "Apple's position should be considered strategic, as their potential to disrupt or influence the healthcare sector through technology could have indirect effects on companies like Try Discovery.",
+        "risk": "Key risks include regulatory hurdles in healthcare technology and the unpredictability of Apple's investment strategy in this space."
+      }
+    },
+    "positioning_guidance": "",
+    "risk_factors": [],
+    "contrarian_signals": [
+      "The historical inefficiency of drug discovery suggests that AI-driven platforms may not be the panacea and could encounter unforeseen challenges.",
+      "There is a risk that the hype surrounding AI in drug discovery could lead to overvaluation of companies like Try Discovery, potentially preceding a market correction.",
+      "The interdisciplinary approach required for AI-driven drug discovery could lead to execution challenges, as the integration of AI, biology, and pharmaceutical development is complex and unproven on a large scale."
+    ],
+    "catalysts": [
+      "Publications of successful drug candidates resulting from Try Discovery's platform in peer-reviewed journals.",
+      "Announcements of new partnerships with additional pharmaceutical companies, indicating broader industry acceptance of Try Discovery's approach.",
+      "Regulatory milestones, such as IND approvals, for drug candidates developed using Try Discovery's AI platform.",
+      "Investor presentations or earnings calls from Try Discovery's partner companies that highlight the success of their collaborations."
+    ],
+    "related_insights": null,
+    "audio_timestamp_start": null,
+    "audio_timestamp_end": null,
+    "transcript_excerpt": null,
+    "created_at": "2026-08-12T05:04:45.472946",
+    "updated_at": "2026-08-12 10:04:45",
+    "episode_evidence": "The podcast episode with Mad McPartlin and Neil Patel from Try Discovery provides a detailed look into the startup's approach to protein design using AI. Mad McPartlin highlights the evolution of protein structure prediction, stating, 'I kind of came into the field at an interesting time where protein structure prediction was like just starting to see signs of life.' This underscores the rapid advancements in the field, particularly with the advent of AlphaFold. Neil Patel emphasizes the company's software focus, 'we see ourselves as almost a neutral software factory for making medicines,' which positions Try Discovery not as a traditional biopharma company but as a technology provider that can accelerate drug discovery. The discussion also touches on the challenges of antibody design, with McPartlin noting, 'The structure prediction problem for antibodies...has been a notoriously difficult problem.' Despite this, Try Discovery has made significant strides, as evidenced by their success in designing antibodies against 50 targets, which has caught the attention of big pharma partners.",
+    "falsification_tracks": [
+      "If Try Discovery fails to replicate their success in antibody design across a broader and more diverse set of targets, it would cast doubt on the scalability of their platform.",
+      "Should key partnerships with pharmaceutical companies like Eli Lilly and Pfizer not result in successful clinical candidates, it would undermine the perceived value of Try Discovery's AI-driven approach.",
+      "A failure to attract and retain top talent in the competitive AI and biology fields could signal a weakening of Try Discovery's ability to innovate and maintain a competitive edge."
+    ],
+    "insight_title": "\ud83d\udd2cThe BioAI Phase Shift - Matthew McPartlon & Neil Patil, Chai Discovery",
+    "source_name": "Latent Space: The AI Engineer Podcast",
+    "source_date": "2026-08-11",
+    "key_tickers": []
   }
 },
   suggestedTerms: [
+  {
+    "id": 586,
+    "term": "Compute Commoditization",
+    "definition": "The process by which compute power becomes a standard, tradable commodity, similar to oil or natural gas, with market structures and pricing based on supply and demand.",
+    "investment_implications": "Investors should consider the potential for companies that can shape or benefit from the commoditization of compute power.",
+    "source_type": "auto_extracted",
+    "mention_count": 1,
+    "source_diversity": 1,
+    "relevance_score": 50,
+    "submitted_date": "2026-08-12 10:03:05",
+    "priority_score": 80
+  },
+  {
+    "id": 584,
+    "term": "AI for Science",
+    "definition": "The application of artificial intelligence techniques to scientific research, particularly in the fields of protein design and drug discovery.",
+    "investment_implications": "Investments in AI for Science could lead to significant advancements in drug development, potentially offering high returns for early investors.",
+    "source_type": "auto_extracted",
+    "mention_count": 1,
+    "source_diversity": 1,
+    "relevance_score": 50,
+    "submitted_date": "2026-08-12 10:01:02",
+    "priority_score": 80
+  },
+  {
+    "id": 585,
+    "term": "Precision Engineering in Biology",
+    "definition": "The ability to design and create biological molecules or systems with high accuracy and specificity, akin to engineering in other fields like software or mechanical design.",
+    "investment_implications": "This shift towards precision engineering in biology could lead to more predictable and efficient drug development processes, impacting investment in biotech and pharmaceuticals.",
+    "source_type": "auto_extracted",
+    "mention_count": 1,
+    "source_diversity": 1,
+    "relevance_score": 50,
+    "submitted_date": "2026-08-12 10:01:02",
+    "priority_score": 80
+  },
   {
     "id": 583,
     "term": "AI R&D",
@@ -35803,47 +35984,11 @@ const dashboardData = {
     "relevance_score": 50,
     "submitted_date": "2026-08-12 03:01:52",
     "priority_score": 80
-  },
-  {
-    "id": 582,
-    "term": "Relational Company",
-    "definition": "A business that focuses on building long-term relationships with customers, rather than just individual transactions.",
-    "investment_implications": "Relational companies may have higher customer retention and lifetime value, leading to more sustainable growth.",
-    "source_type": "auto_extracted",
-    "mention_count": 1,
-    "source_diversity": 1,
-    "relevance_score": 50,
-    "submitted_date": "2026-08-10 17:02:25",
-    "priority_score": 80
-  },
-  {
-    "id": 581,
-    "term": "Commoditizer Complements",
-    "definition": "A phenomenon where the commoditization of one component in a technology stack leads to increased demand for other components.",
-    "investment_implications": "Understanding commoditizer complements can help identify investment opportunities in technology stacks where one layer is commoditized.",
-    "source_type": "auto_extracted",
-    "mention_count": 1,
-    "source_diversity": 1,
-    "relevance_score": 50,
-    "submitted_date": "2026-08-08 04:38:55",
-    "priority_score": 80
-  },
-  {
-    "id": 579,
-    "term": "Continual Learning in AI",
-    "definition": "The necessity for AI to learn continuously from different workplaces to accumulate relevant experience, similar to how humans learn.",
-    "investment_implications": "Investors should consider the long-term implications of continual learning on AI development and regulation.",
-    "source_type": "auto_extracted",
-    "mention_count": 1,
-    "source_diversity": 1,
-    "relevance_score": 50,
-    "submitted_date": "2026-08-08 03:01:12",
-    "priority_score": 80
   }
 ],
   podcastGuests: [
   {
-    "id": 48581,
+    "id": 48695,
     "name": "How Kavak Rebuilt Itself Around AI Agents",
     "slug": "how-kavak-rebuilt-itself-around-ai-agents",
     "bio": null,
@@ -35855,7 +36000,7 @@ const dashboardData = {
     "appearance_count": 1
   },
   {
-    "id": 48582,
+    "id": 48696,
     "name": "Emad Mostaque",
     "slug": "emad-mostaque",
     "bio": null,
@@ -35867,7 +36012,7 @@ const dashboardData = {
     "appearance_count": 1
   },
   {
-    "id": 48583,
+    "id": 48697,
     "name": "How Open",
     "slug": "how-open",
     "bio": null,
@@ -35879,7 +36024,7 @@ const dashboardData = {
     "appearance_count": 1
   },
   {
-    "id": 48584,
+    "id": 48698,
     "name": "Saronic Founders",
     "slug": "saronic-founders",
     "bio": null,
@@ -35891,7 +36036,7 @@ const dashboardData = {
     "appearance_count": 1
   },
   {
-    "id": 48585,
+    "id": 48699,
     "name": "OpenAI's Joshua Achiam",
     "slug": "openais-joshua-achiam",
     "bio": null,
@@ -35903,7 +36048,7 @@ const dashboardData = {
     "appearance_count": 1
   },
   {
-    "id": 48586,
+    "id": 48700,
     "name": "Why Macro is \u201cPretty Risk-On\u201d for Equities",
     "slug": "why-macro-is-pretty-risk-on-for-equities",
     "bio": null,
@@ -35915,7 +36060,7 @@ const dashboardData = {
     "appearance_count": 1
   },
   {
-    "id": 48587,
+    "id": 48701,
     "name": "AI for America's Small Businesses",
     "slug": "ai-for-americas-small-businesses",
     "bio": null,
@@ -35927,7 +36072,7 @@ const dashboardData = {
     "appearance_count": 1
   },
   {
-    "id": 48588,
+    "id": 48702,
     "name": "Mum\u2019s The Word",
     "slug": "mums-the-word",
     "bio": null,
@@ -35939,7 +36084,7 @@ const dashboardData = {
     "appearance_count": 1
   },
   {
-    "id": 48589,
+    "id": 48703,
     "name": "Luke Gromen",
     "slug": "luke-gromen",
     "bio": null,
@@ -35951,7 +36096,7 @@ const dashboardData = {
     "appearance_count": 1
   },
   {
-    "id": 48590,
+    "id": 48704,
     "name": "Codex from 0 to 10M Users",
     "slug": "codex-from-0-to-10m-users",
     "bio": null,
@@ -35963,7 +36108,7 @@ const dashboardData = {
     "appearance_count": 1
   },
   {
-    "id": 48591,
+    "id": 48705,
     "name": "Ben Horowitz",
     "slug": "ben-horowitz",
     "bio": "Ben Horowitz is a co-founder of venture firm Andreessen Horowitz and former CEO of Opsware, known for advising founders on leadership under pressure.",
@@ -35975,7 +36120,7 @@ const dashboardData = {
     "appearance_count": 3
   },
   {
-    "id": 48592,
+    "id": 48706,
     "name": "Building the Physical AI Stack",
     "slug": "building-the-physical-ai-stack",
     "bio": null,
@@ -35987,7 +36132,7 @@ const dashboardData = {
     "appearance_count": 1
   },
   {
-    "id": 48593,
+    "id": 48707,
     "name": "Travis Kalanick Is Back",
     "slug": "travis-kalanick-is-back",
     "bio": null,
@@ -35999,7 +36144,7 @@ const dashboardData = {
     "appearance_count": 1
   },
   {
-    "id": 48594,
+    "id": 48708,
     "name": "Why Physical AI Is the Next Frontier",
     "slug": "why-physical-ai-is-the-next-frontier",
     "bio": null,
@@ -36011,7 +36156,7 @@ const dashboardData = {
     "appearance_count": 1
   },
   {
-    "id": 48595,
+    "id": 48709,
     "name": "Nick Nemeth",
     "slug": "nick-nemeth",
     "bio": null,
@@ -36023,7 +36168,7 @@ const dashboardData = {
     "appearance_count": 1
   },
   {
-    "id": 48596,
+    "id": 48710,
     "name": "Mark Cuban on the AI Bubble",
     "slug": "mark-cuban-on-the-ai-bubble",
     "bio": null,
@@ -36035,7 +36180,7 @@ const dashboardData = {
     "appearance_count": 1
   },
   {
-    "id": 48597,
+    "id": 48711,
     "name": "Urgent Update- AI Sputnik Moment",
     "slug": "urgent-update--ai-sputnik-moment",
     "bio": null,
@@ -36047,7 +36192,7 @@ const dashboardData = {
     "appearance_count": 1
   },
   {
-    "id": 48598,
+    "id": 48712,
     "name": "Replay 2025",
     "slug": "replay-2025",
     "bio": null,
@@ -36059,7 +36204,7 @@ const dashboardData = {
     "appearance_count": 1
   },
   {
-    "id": 48599,
+    "id": 48713,
     "name": "Turbo Charged Trend Following",
     "slug": "turbo-charged-trend-following",
     "bio": null,
@@ -36071,7 +36216,7 @@ const dashboardData = {
     "appearance_count": 1
   },
   {
-    "id": 48600,
+    "id": 48714,
     "name": "Can Anyone Catch NVIDIA?",
     "slug": "can-anyone-catch-nvidia",
     "bio": null,
@@ -37043,7 +37188,7 @@ const dashboardData = {
     "last_podcast_name": "Monetary Matters with Jack Farley",
     "last_episode_date": "2026-05-13",
     "mention_score": 2,
-    "mention_score_decayed": 0.26,
+    "mention_score_decayed": 0.25,
     "last_main_idea": "Invest in sectors poised for growth due to AI adoption, particularly semiconductors and stablecoins, while being cautious about the cyclical nature of capex investments in hyperscaler companies.",
     "last_proof_cite": "Monetary Matters with Jack Farley \u2022 2026-05-13 \u2022 Lyn Alden on Macro Consequences of AI and The Stolgard Incident  (Monitoring The Situation Replay)",
     "last_proof_snippet": "Today's episode is brought to you by the unlimited hfgm global macro ETF ticker hfgm. Later in the show, you'll hear more about hfgm currently the number one morning star rated fund sits its inception in the US macro trading category. Let's",
@@ -37625,6 +37770,193 @@ const dashboardData = {
         }
       ]
     }
+  },
+  {
+    "id": 397,
+    "name": "Kush Bavaria",
+    "slug": "kush-bavaria",
+    "bio": "Kush Bavaria is the CEO of Orange, a company that builds markets for compute. He is known for his rapid rise from a starving student to personal liquidity of over a hundred million dollars in under a year. Bavaria believes that compute will power every enterprise the same way oil did in the 1900s.",
+    "known_for": "Being one of the youngest individuals to achieve personal liquidity of over a hundred million dollars in under a year and his vision for compute as the new oil.",
+    "net_worth_usd": 50000000.0,
+    "net_worth_source": "https://ftp.richardgraygallery.com/posts/kush-patel-net-worth-updated-2026.html",
+    "net_worth_updated_at": "2026-08-12T05:03:19.861054",
+    "voice_tone": "Confident and knowledgeable",
+    "voice_style": "Direct and to the point, with a focus on the future of compute as a commodity",
+    "voice_delivery_notes": "Paced with emphasis on the transformative potential of compute markets",
+    "voice_profile_updated_at": "2026-08-12 10:03:05",
+    "last_seen": "2026-08-12 10:03:05",
+    "last_episode_title": "Sergey Brin Retakes Gemini, 4 Labs Lose Containment, Compute Trades at NYSE w/ Kush Bavaria | EP #278",
+    "last_podcast_name": "Moonshots with Peter Diamandis",
+    "last_episode_date": "2026-08-11",
+    "mention_score": 1,
+    "mention_score_decayed": 1,
+    "last_main_idea": "Invest in companies and technologies that are at the forefront of AI and compute power, as these are poised to become the driving forces behind future enterprise success.",
+    "last_proof_cite": "Moonshots with Peter Diamandis \u2022 2026-08-11 \u2022 Sergey Brin Retakes Gemini, 4 Labs Lose Containment, Compute Trades at NYSE w/ Kush Bavaria | EP #278",
+    "last_proof_snippet": "Sergei Bren is back taking personal control of Gemini. I think we can expect Gemini to make more releases in an accelerated pace with less safety constraints. Google has lost the frontier race and so they can't compete. Those who can't comp",
+    "supporting_takeaway": "AI models are increasingly escaping containment, signaling a shift in the tech landscape.",
+    "grokipedia_url": null,
+    "grokipedia_fetched_at": "2026-08-12T05:03:18.834961",
+    "pundit_profile": {
+      "source": "llm",
+      "source_model": "moonshot:moonshot-v1-8k",
+      "source_url": "",
+      "page_title": "Kush Bavaria",
+      "fetched_at": "2026-08-12T10:03:18.834630+00:00",
+      "cliff_notes": "Kush Bavaria is a young entrepreneur who has quickly risen to prominence in the tech industry. As the CEO of Orange, he is focused on building markets for compute, a vision that aligns with his belief that compute will become as essential to enterprises as oil was in the 1900s. His rapid rise from a starving student to achieving personal liquidity of over a hundred million dollars in under a year has made him a notable figure in the tech world. Bavaria's insights into the future of compute and its role in powering the next generation of enterprises have positioned him as an influential voice in the industry.",
+      "derived": {
+        "current_role": "CEO of Orange"
+      },
+      "infobox": {
+        "Born": "",
+        "Nationality": ""
+      },
+      "lead_paragraphs": [
+        "Kush Bavaria is a young entrepreneur who has quickly risen to prominence in the tech industry. As the CEO of Orange, he is focused on building markets for compute, a vision that aligns with his belief that compute will become as essential to enterprises as oil was in the 1900s. His rapid rise from a starving student to achieving personal liquidity of over a hundred million dollars in under a year has made him a notable figure in the tech world.",
+        "Bavaria's insights into the future of compute and its role in powering the next generation of enterprises have positioned him as an influential voice in the industry."
+      ],
+      "sections": [
+        {
+          "heading": "Compute as the New Oil",
+          "body": "Kush Bavaria believes that compute will become as essential to enterprises as oil was in the 1900s, powering every aspect of business operations."
+        },
+        {
+          "heading": "Rapid Rise to Wealth",
+          "body": "Bavaria is known for his swift transition from a starving student to achieving personal liquidity of over a hundred million dollars in under a year."
+        },
+        {
+          "heading": "Markets for Compute",
+          "body": "As the CEO of Orange, Bavaria is focused on building markets for compute, which he sees as the future of powering enterprises."
+        }
+      ]
+    },
+    "net_worth": "$50.0M"
+  },
+  {
+    "id": 394,
+    "name": "Mad McPartlin",
+    "slug": "mad-mcpartlin",
+    "bio": "Mad McPartlin is a co-founder at Try Discovery, a company that applies AI in real-world protein structure prediction and design. With a background in both AI and biology, McPartlin has been instrumental in developing innovative solutions for molecular design and optimization.",
+    "known_for": "Pioneering the application of AI in protein structure prediction and design, enhancing drug discovery and development.",
+    "net_worth_usd": null,
+    "net_worth_source": "",
+    "net_worth_updated_at": null,
+    "voice_tone": "",
+    "voice_style": "",
+    "voice_delivery_notes": "",
+    "voice_profile_updated_at": null,
+    "last_seen": "2026-08-12 10:01:02",
+    "last_episode_title": "\ud83d\udd2cThe BioAI Phase Shift - Matthew McPartlon & Neil Patil, Chai Discovery",
+    "last_podcast_name": "Latent Space: The AI Engineer Podcast",
+    "last_episode_date": "2026-08-11",
+    "mention_score": 1,
+    "mention_score_decayed": 1,
+    "last_main_idea": "Investing in AI-driven protein design companies like Try Discovery could offer significant returns as these platforms have the potential to disrupt traditional drug discovery, making it more efficient and cost-effective.",
+    "last_proof_cite": "Latent Space: The AI Engineer Podcast \u2022 2026-08-11 \u2022 \ud83d\udd2cThe BioAI Phase Shift - Matthew McPartlon & Neil Patil, Chai Discovery",
+    "last_proof_snippet": "It looks a lot less like a, you know, a chat GPT and a lot more like a autodesk or solid works or a figma, you know, if you've used those things where you can kind of load up your molecule, there's this almost like photo shop S click design",
+    "supporting_takeaway": "The traditional drug discovery process, often compared to a waterfall model, is evolving to become more agile with the help of AI.",
+    "grokipedia_url": null,
+    "grokipedia_fetched_at": "2026-08-12T05:03:29.791803",
+    "pundit_profile": {
+      "source": "llm",
+      "source_model": "moonshot:moonshot-v1-8k",
+      "source_url": "",
+      "page_title": "Mad McPartlin",
+      "fetched_at": "2026-08-12T10:03:29.791660+00:00",
+      "cliff_notes": "Mad McPartlin, co-founder at Try Discovery, has been at the forefront of applying artificial intelligence to the complex field of protein structure prediction and design. His background in both AI and biology has allowed him to bridge the gap between these two domains, creating advanced tools that can predict and design proteins with high accuracy. This work is crucial for the pharmaceutical industry, as it can significantly speed up the drug discovery process and reduce costs. McPartlin's contributions have the potential to revolutionize how we approach drug development, making it more efficient and targeted.",
+      "derived": {
+        "current_role": "Co-founder at Try Discovery"
+      },
+      "infobox": {
+        "Born": "",
+        "Nationality": ""
+      },
+      "lead_paragraphs": [
+        "Mad McPartlin, co-founder at Try Discovery, has been at the forefront of applying artificial intelligence to the complex field of protein structure prediction and design. His background in both AI and biology has allowed him to bridge the gap between these two domains, creating advanced tools that can predict and design proteins with high accuracy.",
+        "This work is crucial for the pharmaceutical industry, as it can significantly speed up the drug discovery process and reduce costs. McPartlin's contributions have the potential to revolutionize how we approach drug development, making it more efficient and targeted."
+      ],
+      "sections": [
+        {
+          "heading": "AI in Protein Design",
+          "body": "Mad McPartlin is known for his work in applying AI to protein structure prediction and design, which is a critical aspect of modern drug discovery."
+        },
+        {
+          "heading": "Innovation in Drug Discovery",
+          "body": "His work at Try Discovery has led to the development of tools that can accelerate the process of drug discovery by providing more accurate protein models."
+        },
+        {
+          "heading": "Molecular Design Tools",
+          "body": "McPartlin has been involved in creating a 'Photoshop-like' suite for molecules, allowing for more intuitive and efficient design of protein structures."
+        }
+      ]
+    }
+  },
+  {
+    "id": 395,
+    "name": "Neil Patel",
+    "slug": "neil-patel",
+    "bio": "Neil Patel is a leader in the field of AI for science, with a focus on infrastructure development, model training, and productization. He currently leads the platform and product at Try Discovery, leveraging his background in programming, robotics, and SaaS companies.",
+    "known_for": "His work in transforming AI-driven scientific discovery into accessible, user-friendly platforms.",
+    "net_worth_usd": 30000000.0,
+    "net_worth_source": "https://www.nichepursuits.com/neil-patels-net-worth/",
+    "net_worth_updated_at": "2026-08-12T05:03:43.412666",
+    "voice_tone": "",
+    "voice_style": "",
+    "voice_delivery_notes": "",
+    "voice_profile_updated_at": null,
+    "last_seen": "2026-08-12 10:01:02",
+    "last_episode_title": "\ud83d\udd2cThe BioAI Phase Shift - Matthew McPartlon & Neil Patil, Chai Discovery",
+    "last_podcast_name": "Latent Space: The AI Engineer Podcast",
+    "last_episode_date": "2026-08-11",
+    "mention_score": 1,
+    "mention_score_decayed": 1,
+    "last_main_idea": "Investing in AI-driven protein design companies like Try Discovery could offer significant returns as these platforms have the potential to disrupt traditional drug discovery, making it more efficient and cost-effective.",
+    "last_proof_cite": "Latent Space: The AI Engineer Podcast \u2022 2026-08-11 \u2022 \ud83d\udd2cThe BioAI Phase Shift - Matthew McPartlon & Neil Patil, Chai Discovery",
+    "last_proof_snippet": "It looks a lot less like a, you know, a chat GPT and a lot more like a autodesk or solid works or a figma, you know, if you've used those things where you can kind of load up your molecule, there's this almost like photo shop S click design",
+    "supporting_takeaway": "The traditional drug discovery process, often compared to a waterfall model, is evolving to become more agile with the help of AI.",
+    "grokipedia_url": null,
+    "grokipedia_fetched_at": "2026-08-12T05:03:42.286007",
+    "pundit_profile": {
+      "source": "llm",
+      "source_model": "moonshot:moonshot-v1-8k",
+      "source_url": "",
+      "page_title": "Neil Patel",
+      "fetched_at": "2026-08-12T10:03:42.285851+00:00",
+      "cliff_notes": "Neil Patel has carved a niche for himself at the intersection of AI and scientific discovery. With a background in programming, robotics, and SaaS companies, Patel has been instrumental in the development of infrastructure and models that facilitate scientific research and discovery. His current role at Try Discovery sees him leading the platform and product, which aims to make AI-driven scientific discovery more accessible and user-friendly. Patel's work is significant as it bridges the gap between complex AI technologies and practical, real-world applications in science, potentially revolutionizing the way scientific research is conducted.",
+      "derived": {
+        "current_role": "Platform and Product Lead at Try Discovery"
+      },
+      "infobox": {
+        "Born": "",
+        "Nationality": ""
+      },
+      "lead_paragraphs": [
+        "Neil Patel has carved a niche for himself at the intersection of AI and scientific discovery. With a background in programming, robotics, and SaaS companies, Patel has been instrumental in the development of infrastructure and models that facilitate scientific research and discovery. His current role at Try Discovery sees him leading the platform and product, which aims to make AI-driven scientific discovery more accessible and user-friendly.",
+        "Patel's work is significant as it bridges the gap between complex AI technologies and practical, real-world applications in science, potentially revolutionizing the way scientific research is conducted."
+      ],
+      "sections": [
+        {
+          "heading": "Infrastructure Development",
+          "body": "Neil Patel has been pivotal in developing the infrastructure necessary for AI-driven scientific discovery, creating platforms that can handle complex data and model training."
+        },
+        {
+          "heading": "Model Training",
+          "body": "Patel's expertise in model training allows for the creation of AI models that can accurately predict and generate scientific insights, streamlining the research process."
+        },
+        {
+          "heading": "Productization in AI",
+          "body": "His work in productizing AI for science involves making these advanced technologies user-friendly, akin to design suites like Photoshop or Figma, but for scientific discovery."
+        },
+        {
+          "heading": "Agile Development in Science",
+          "body": "Patel's vision includes making the scientific discovery process more agile, similar to software development, by leveraging AI models to provide promising candidates early in the process."
+        },
+        {
+          "heading": "Target Discovery and Hit Optimization",
+          "body": "Neil Patel contributes to the fields of target discovery and hit optimization, aiming to make these processes more efficient and cost-effective through AI-driven approaches."
+        }
+      ]
+    },
+    "net_worth": "$30.0M"
   },
   {
     "id": 393,
@@ -39051,7 +39383,7 @@ const dashboardData = {
     "last_podcast_name": "The a16z Show",
     "last_episode_date": "2026-07-29",
     "mention_score": 1,
-    "mention_score_decayed": 0.76,
+    "mention_score_decayed": 0.74,
     "last_main_idea": "Investing in AI-native entertainment presents an opportunity to capitalize on the shift towards generative media and the democratization of content creation.",
     "last_proof_cite": "The a16z Show \u2022 2026-07-29 \u2022 AI Micro Dramas, Generative Media, and the Future of Creativity",
     "last_proof_snippet": "I think folks would be surprised by how many TV shows and movies today already have some element of AI being used. I spend a lot of time with studio execs and Amazon and Netflix have already both announced programs for fully-AI-generated an",
@@ -39111,7 +39443,7 @@ const dashboardData = {
     "last_podcast_name": "All-In with Chamath, Jason, Sacks & Friedberg",
     "last_episode_date": "2026-07-28",
     "mention_score": 1,
-    "mention_score_decayed": 0.76,
+    "mention_score_decayed": 0.74,
     "last_main_idea": "Investing in robotics and AI companies that are successfully transitioning from research to real-world applications could offer significant growth potential as these technologies become more integrated into various industries.",
     "last_proof_cite": "All-In with Chamath, Jason, Sacks & Friedberg \u2022 2026-07-28 \u2022 The $1/Hour Worker: Four Robotics CEOs on Humanoids at Home, China's Threat, and the End of Dangerous Jobs",
     "last_proof_snippet": "Hey everybody, it's your boy Jake Al, I'm here in Paris, France at a conference called Makina, basically AI in the real world. Pardon my robot. Thanks for tuning in, and let's get started. Apple ovens started with an $8 domain and no VC fun",
@@ -39170,7 +39502,7 @@ const dashboardData = {
     "last_podcast_name": "All-In with Chamath, Jason, Sacks & Friedberg",
     "last_episode_date": "2026-07-28",
     "mention_score": 1,
-    "mention_score_decayed": 0.76,
+    "mention_score_decayed": 0.74,
     "last_main_idea": "Investing in robotics and AI companies that are successfully transitioning from research to real-world applications could offer significant growth potential as these technologies become more integrated into various industries.",
     "last_proof_cite": "All-In with Chamath, Jason, Sacks & Friedberg \u2022 2026-07-28 \u2022 The $1/Hour Worker: Four Robotics CEOs on Humanoids at Home, China's Threat, and the End of Dangerous Jobs",
     "last_proof_snippet": "Hey everybody, it's your boy Jake Al, I'm here in Paris, France at a conference called Makina, basically AI in the real world. Pardon my robot. Thanks for tuning in, and let's get started. Apple ovens started with an $8 domain and no VC fun",
@@ -39229,7 +39561,7 @@ const dashboardData = {
     "last_podcast_name": "Monetary Matters with Jack Farley",
     "last_episode_date": "2026-07-29",
     "mention_score": 1,
-    "mention_score_decayed": 0.76,
+    "mention_score_decayed": 0.74,
     "last_main_idea": "The Federal Reserve's credibility is at stake, and market reactions to economic data and Fed policy suggest a potential shift in expectations for inflation and interest rates, impacting bond yields and stock market performance.",
     "last_proof_cite": "Monetary Matters with Jack Farley \u2022 2026-07-29 \u2022 Mum\u2019s The Word: Kathryn Rooney Vera on Fed\u2019s Second Meeting under Kevin Warsh, Plus Earnings Breakdown (Live Replay)",
     "last_proof_snippet": "Wow. All right. We are here. We are joined by Katherine Rooney Vera, who's the chief market strategist at Stone X Groups. A lot of views on board markets, everything in macro. We mean we can get to to currencies and bonds. Katherine had a v",
@@ -40409,7 +40741,7 @@ const dashboardData = {
     "last_podcast_name": "All-In with Chamath, Jason, Sacks & Friedberg",
     "last_episode_date": "2026-07-15",
     "mention_score": 1,
-    "mention_score_decayed": 0.55,
+    "mention_score_decayed": 0.54,
     "last_main_idea": "Investing in companies with strong technical leadership and a focus on future-proofing through R&D can yield significant long-term returns.",
     "last_proof_cite": "All-In with Chamath, Jason, Sacks & Friedberg \u2022 2026-07-15 \u2022 Former Intel CEO on What Went Wrong, What's Next + Lovable CEO on the Real Promise of Vibe Coding",
     "last_proof_snippet": "spent a long time in Intel, and only 34 years, 34 years, probably one of the greatest American companies ever, and then, absolutely went off the rails and got absolutely demolished by Nvidia, TSMC, and I guess Apple to a certain extent. So",
@@ -45026,7 +45358,7 @@ const dashboardData = {
     "last_podcast_name": "All-In with Chamath, Jason, Sacks & Friedberg",
     "last_episode_date": "2026-05-12",
     "mention_score": 1,
-    "mention_score_decayed": 0.13,
+    "mention_score_decayed": 0.12,
     "last_main_idea": "Invest in companies that demonstrate a capability-bounded approach, reinvestment in growth, and a culture of learning from failures to capitalize on innovation and long-term success.",
     "last_proof_cite": "All-In with Chamath, Jason, Sacks & Friedberg \u2022 2026-05-12 \u2022 Charles & Chase Koch on How They Quietly Built a $150B Empire",
     "last_proof_snippet": "What an honor to be here. Thank you for hosting us, Forbes, and welcome. This will be put out at the all-in interview. So I'm really excited to share this conversation with everyone on the world, on the internet, and to get some time with C",
@@ -45089,7 +45421,7 @@ const dashboardData = {
     "last_podcast_name": "All-In with Chamath, Jason, Sacks & Friedberg",
     "last_episode_date": "2026-05-12",
     "mention_score": 1,
-    "mention_score_decayed": 0.13,
+    "mention_score_decayed": 0.12,
     "last_main_idea": "Invest in companies that demonstrate a capability-bounded approach, reinvestment in growth, and a culture of learning from failures to capitalize on innovation and long-term success.",
     "last_proof_cite": "All-In with Chamath, Jason, Sacks & Friedberg \u2022 2026-05-12 \u2022 Charles & Chase Koch on How They Quietly Built a $150B Empire",
     "last_proof_snippet": "What an honor to be here. Thank you for hosting us, Forbes, and welcome. This will be put out at the all-in interview. So I'm really excited to share this conversation with everyone on the world, on the internet, and to get some time with C",
@@ -45835,7 +46167,7 @@ const dashboardData = {
     "last_podcast_name": "The a16z Show",
     "last_episode_date": "2026-05-05",
     "mention_score": 1,
-    "mention_score_decayed": 0.11,
+    "mention_score_decayed": 0.1,
     "last_main_idea": "Building a successful investment organization requires compounding talent, capital, and culture over time, focusing on long-term growth rather than short-term gains.",
     "last_proof_cite": "The a16z Show \u2022 2026-05-05 \u2022 Building Blackstone, Backing Costco, with Tony James",
     "last_proof_snippet": "If you think about the development of a successful company, there's kind of an Esker. It starts off small and entrepreneurial. Then there's this kind of escalation where you create a lot of value in a lot of size. People know Blackstone tod",
@@ -48293,7 +48625,7 @@ const dashboardData = {
     "last_podcast_name": "Dwarkesh Podcast",
     "last_episode_date": "2026-04-07",
     "mention_score": 1,
-    "mention_score_decayed": 0.06,
+    "mention_score_decayed": 0.05,
     "last_main_idea": "The core thesis presented is that advancements in AI and computer science can lead to new fields and paradigms, offering investment opportunities in technological disruption and innovation.",
     "last_proof_cite": "Dwarkesh Podcast \u2022 2026-04-07 \u2022 Michael Nielsen \u2013 How science actually progresses",
     "last_proof_snippet": "The Michelson-Morley experiment was initially aimed at testing theories of the ether, which was a significant concept in physics before the advent of relativity.",
@@ -48354,7 +48686,7 @@ const dashboardData = {
     "last_podcast_name": "Monetary Matters with Jack Farley",
     "last_episode_date": "2026-04-07",
     "mention_score": 1,
-    "mention_score_decayed": 0.06,
+    "mention_score_decayed": 0.05,
     "last_main_idea": "Investing in select few names within the China property sector can offer significant potential for value appreciation, given the right conditions and primary research.",
     "last_proof_cite": "Monetary Matters with Jack Farley \u2022 2026-04-07 \u2022 Why Emerging Markets are Finally Outperforming Developed Markets | Robert Koenigsberger | Gramercy",
     "last_proof_snippet": "The recent outperformance of emerging market equities is attributed to a fundamental repricing of relative value and the 'anywhere but US' theme.",
@@ -48414,7 +48746,7 @@ const dashboardData = {
     "last_podcast_name": "Moonshots with Peter Diamandis",
     "last_episode_date": "2026-04-07",
     "mention_score": 1,
-    "mention_score_decayed": 0.06,
+    "mention_score_decayed": 0.05,
     "last_main_idea": "Investment in Colossal represents a bet on the convergence of synthetic biology, AI, and environmental conservation, with potential for significant technological and societal impact.",
     "last_proof_cite": "Moonshots with Peter Diamandis \u2022 2026-04-07 \u2022 How AI Is Bringing Extinct Animals Back (And What Comes Next) | Ben Lamm (Colossal) | EP #245",
     "last_proof_snippet": "The company is leveraging AI to design and build living products, which is a novel approach in synthetic biology.",
@@ -49346,7 +49678,7 @@ const dashboardData = {
     "last_podcast_name": "Monetary Matters with Jack Farley",
     "last_episode_date": "2026-03-29",
     "mention_score": 1,
-    "mention_score_decayed": 0.05,
+    "mention_score_decayed": 0.04,
     "last_main_idea": "The democratization of alternative investments provides retail investors with new opportunities, but also comes with structural differences and risks that must be understood.",
     "last_proof_cite": "Monetary Matters with Jack Farley \u2022 2026-03-29 \u2022 The 2026 Private Credit Liquidity Crunch | Leyla Kunimoto on Redemptions in Semi-liquid Vehicles, Private/Public BDCs, and the Future of Alternatives",
     "last_proof_snippet": "Alternative managers are increasingly seeking capital from retail investors and wealth channels.",

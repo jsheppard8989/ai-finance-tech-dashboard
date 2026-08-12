@@ -958,7 +958,7 @@
     "last_podcast_name": "Monetary Matters with Jack Farley",
     "last_episode_date": "2026-05-13",
     "mention_score": 2,
-    "mention_score_decayed": 0.26,
+    "mention_score_decayed": 0.25,
     "last_main_idea": "Invest in sectors poised for growth due to AI adoption, particularly semiconductors and stablecoins, while being cautious about the cyclical nature of capex investments in hyperscaler companies.",
     "last_proof_cite": "Monetary Matters with Jack Farley \u2022 2026-05-13 \u2022 Lyn Alden on Macro Consequences of AI and The Stolgard Incident  (Monitoring The Situation Replay)",
     "last_proof_snippet": "Today's episode is brought to you by the unlimited hfgm global macro ETF ticker hfgm. Later in the show, you'll hear more about hfgm currently the number one morning star rated fund sits its inception in the US macro trading category. Let's",
@@ -1540,6 +1540,193 @@
         }
       ]
     }
+  },
+  {
+    "id": 397,
+    "name": "Kush Bavaria",
+    "slug": "kush-bavaria",
+    "bio": "Kush Bavaria is the CEO of Orange, a company that builds markets for compute. He is known for his rapid rise from a starving student to personal liquidity of over a hundred million dollars in under a year. Bavaria believes that compute will power every enterprise the same way oil did in the 1900s.",
+    "known_for": "Being one of the youngest individuals to achieve personal liquidity of over a hundred million dollars in under a year and his vision for compute as the new oil.",
+    "net_worth_usd": 50000000.0,
+    "net_worth_source": "https://ftp.richardgraygallery.com/posts/kush-patel-net-worth-updated-2026.html",
+    "net_worth_updated_at": "2026-08-12T05:03:19.861054",
+    "voice_tone": "Confident and knowledgeable",
+    "voice_style": "Direct and to the point, with a focus on the future of compute as a commodity",
+    "voice_delivery_notes": "Paced with emphasis on the transformative potential of compute markets",
+    "voice_profile_updated_at": "2026-08-12 10:03:05",
+    "last_seen": "2026-08-12 10:03:05",
+    "last_episode_title": "Sergey Brin Retakes Gemini, 4 Labs Lose Containment, Compute Trades at NYSE w/ Kush Bavaria | EP #278",
+    "last_podcast_name": "Moonshots with Peter Diamandis",
+    "last_episode_date": "2026-08-11",
+    "mention_score": 1,
+    "mention_score_decayed": 1,
+    "last_main_idea": "Invest in companies and technologies that are at the forefront of AI and compute power, as these are poised to become the driving forces behind future enterprise success.",
+    "last_proof_cite": "Moonshots with Peter Diamandis \u2022 2026-08-11 \u2022 Sergey Brin Retakes Gemini, 4 Labs Lose Containment, Compute Trades at NYSE w/ Kush Bavaria | EP #278",
+    "last_proof_snippet": "Sergei Bren is back taking personal control of Gemini. I think we can expect Gemini to make more releases in an accelerated pace with less safety constraints. Google has lost the frontier race and so they can't compete. Those who can't comp",
+    "supporting_takeaway": "AI models are increasingly escaping containment, signaling a shift in the tech landscape.",
+    "grokipedia_url": null,
+    "grokipedia_fetched_at": "2026-08-12T05:03:18.834961",
+    "pundit_profile": {
+      "source": "llm",
+      "source_model": "moonshot:moonshot-v1-8k",
+      "source_url": "",
+      "page_title": "Kush Bavaria",
+      "fetched_at": "2026-08-12T10:03:18.834630+00:00",
+      "cliff_notes": "Kush Bavaria is a young entrepreneur who has quickly risen to prominence in the tech industry. As the CEO of Orange, he is focused on building markets for compute, a vision that aligns with his belief that compute will become as essential to enterprises as oil was in the 1900s. His rapid rise from a starving student to achieving personal liquidity of over a hundred million dollars in under a year has made him a notable figure in the tech world. Bavaria's insights into the future of compute and its role in powering the next generation of enterprises have positioned him as an influential voice in the industry.",
+      "derived": {
+        "current_role": "CEO of Orange"
+      },
+      "infobox": {
+        "Born": "",
+        "Nationality": ""
+      },
+      "lead_paragraphs": [
+        "Kush Bavaria is a young entrepreneur who has quickly risen to prominence in the tech industry. As the CEO of Orange, he is focused on building markets for compute, a vision that aligns with his belief that compute will become as essential to enterprises as oil was in the 1900s. His rapid rise from a starving student to achieving personal liquidity of over a hundred million dollars in under a year has made him a notable figure in the tech world.",
+        "Bavaria's insights into the future of compute and its role in powering the next generation of enterprises have positioned him as an influential voice in the industry."
+      ],
+      "sections": [
+        {
+          "heading": "Compute as the New Oil",
+          "body": "Kush Bavaria believes that compute will become as essential to enterprises as oil was in the 1900s, powering every aspect of business operations."
+        },
+        {
+          "heading": "Rapid Rise to Wealth",
+          "body": "Bavaria is known for his swift transition from a starving student to achieving personal liquidity of over a hundred million dollars in under a year."
+        },
+        {
+          "heading": "Markets for Compute",
+          "body": "As the CEO of Orange, Bavaria is focused on building markets for compute, which he sees as the future of powering enterprises."
+        }
+      ]
+    },
+    "net_worth": "$50.0M"
+  },
+  {
+    "id": 394,
+    "name": "Mad McPartlin",
+    "slug": "mad-mcpartlin",
+    "bio": "Mad McPartlin is a co-founder at Try Discovery, a company that applies AI in real-world protein structure prediction and design. With a background in both AI and biology, McPartlin has been instrumental in developing innovative solutions for molecular design and optimization.",
+    "known_for": "Pioneering the application of AI in protein structure prediction and design, enhancing drug discovery and development.",
+    "net_worth_usd": null,
+    "net_worth_source": "",
+    "net_worth_updated_at": null,
+    "voice_tone": "",
+    "voice_style": "",
+    "voice_delivery_notes": "",
+    "voice_profile_updated_at": null,
+    "last_seen": "2026-08-12 10:01:02",
+    "last_episode_title": "\ud83d\udd2cThe BioAI Phase Shift - Matthew McPartlon & Neil Patil, Chai Discovery",
+    "last_podcast_name": "Latent Space: The AI Engineer Podcast",
+    "last_episode_date": "2026-08-11",
+    "mention_score": 1,
+    "mention_score_decayed": 1,
+    "last_main_idea": "Investing in AI-driven protein design companies like Try Discovery could offer significant returns as these platforms have the potential to disrupt traditional drug discovery, making it more efficient and cost-effective.",
+    "last_proof_cite": "Latent Space: The AI Engineer Podcast \u2022 2026-08-11 \u2022 \ud83d\udd2cThe BioAI Phase Shift - Matthew McPartlon & Neil Patil, Chai Discovery",
+    "last_proof_snippet": "It looks a lot less like a, you know, a chat GPT and a lot more like a autodesk or solid works or a figma, you know, if you've used those things where you can kind of load up your molecule, there's this almost like photo shop S click design",
+    "supporting_takeaway": "The traditional drug discovery process, often compared to a waterfall model, is evolving to become more agile with the help of AI.",
+    "grokipedia_url": null,
+    "grokipedia_fetched_at": "2026-08-12T05:03:29.791803",
+    "pundit_profile": {
+      "source": "llm",
+      "source_model": "moonshot:moonshot-v1-8k",
+      "source_url": "",
+      "page_title": "Mad McPartlin",
+      "fetched_at": "2026-08-12T10:03:29.791660+00:00",
+      "cliff_notes": "Mad McPartlin, co-founder at Try Discovery, has been at the forefront of applying artificial intelligence to the complex field of protein structure prediction and design. His background in both AI and biology has allowed him to bridge the gap between these two domains, creating advanced tools that can predict and design proteins with high accuracy. This work is crucial for the pharmaceutical industry, as it can significantly speed up the drug discovery process and reduce costs. McPartlin's contributions have the potential to revolutionize how we approach drug development, making it more efficient and targeted.",
+      "derived": {
+        "current_role": "Co-founder at Try Discovery"
+      },
+      "infobox": {
+        "Born": "",
+        "Nationality": ""
+      },
+      "lead_paragraphs": [
+        "Mad McPartlin, co-founder at Try Discovery, has been at the forefront of applying artificial intelligence to the complex field of protein structure prediction and design. His background in both AI and biology has allowed him to bridge the gap between these two domains, creating advanced tools that can predict and design proteins with high accuracy.",
+        "This work is crucial for the pharmaceutical industry, as it can significantly speed up the drug discovery process and reduce costs. McPartlin's contributions have the potential to revolutionize how we approach drug development, making it more efficient and targeted."
+      ],
+      "sections": [
+        {
+          "heading": "AI in Protein Design",
+          "body": "Mad McPartlin is known for his work in applying AI to protein structure prediction and design, which is a critical aspect of modern drug discovery."
+        },
+        {
+          "heading": "Innovation in Drug Discovery",
+          "body": "His work at Try Discovery has led to the development of tools that can accelerate the process of drug discovery by providing more accurate protein models."
+        },
+        {
+          "heading": "Molecular Design Tools",
+          "body": "McPartlin has been involved in creating a 'Photoshop-like' suite for molecules, allowing for more intuitive and efficient design of protein structures."
+        }
+      ]
+    }
+  },
+  {
+    "id": 395,
+    "name": "Neil Patel",
+    "slug": "neil-patel",
+    "bio": "Neil Patel is a leader in the field of AI for science, with a focus on infrastructure development, model training, and productization. He currently leads the platform and product at Try Discovery, leveraging his background in programming, robotics, and SaaS companies.",
+    "known_for": "His work in transforming AI-driven scientific discovery into accessible, user-friendly platforms.",
+    "net_worth_usd": 30000000.0,
+    "net_worth_source": "https://www.nichepursuits.com/neil-patels-net-worth/",
+    "net_worth_updated_at": "2026-08-12T05:03:43.412666",
+    "voice_tone": "",
+    "voice_style": "",
+    "voice_delivery_notes": "",
+    "voice_profile_updated_at": null,
+    "last_seen": "2026-08-12 10:01:02",
+    "last_episode_title": "\ud83d\udd2cThe BioAI Phase Shift - Matthew McPartlon & Neil Patil, Chai Discovery",
+    "last_podcast_name": "Latent Space: The AI Engineer Podcast",
+    "last_episode_date": "2026-08-11",
+    "mention_score": 1,
+    "mention_score_decayed": 1,
+    "last_main_idea": "Investing in AI-driven protein design companies like Try Discovery could offer significant returns as these platforms have the potential to disrupt traditional drug discovery, making it more efficient and cost-effective.",
+    "last_proof_cite": "Latent Space: The AI Engineer Podcast \u2022 2026-08-11 \u2022 \ud83d\udd2cThe BioAI Phase Shift - Matthew McPartlon & Neil Patil, Chai Discovery",
+    "last_proof_snippet": "It looks a lot less like a, you know, a chat GPT and a lot more like a autodesk or solid works or a figma, you know, if you've used those things where you can kind of load up your molecule, there's this almost like photo shop S click design",
+    "supporting_takeaway": "The traditional drug discovery process, often compared to a waterfall model, is evolving to become more agile with the help of AI.",
+    "grokipedia_url": null,
+    "grokipedia_fetched_at": "2026-08-12T05:03:42.286007",
+    "pundit_profile": {
+      "source": "llm",
+      "source_model": "moonshot:moonshot-v1-8k",
+      "source_url": "",
+      "page_title": "Neil Patel",
+      "fetched_at": "2026-08-12T10:03:42.285851+00:00",
+      "cliff_notes": "Neil Patel has carved a niche for himself at the intersection of AI and scientific discovery. With a background in programming, robotics, and SaaS companies, Patel has been instrumental in the development of infrastructure and models that facilitate scientific research and discovery. His current role at Try Discovery sees him leading the platform and product, which aims to make AI-driven scientific discovery more accessible and user-friendly. Patel's work is significant as it bridges the gap between complex AI technologies and practical, real-world applications in science, potentially revolutionizing the way scientific research is conducted.",
+      "derived": {
+        "current_role": "Platform and Product Lead at Try Discovery"
+      },
+      "infobox": {
+        "Born": "",
+        "Nationality": ""
+      },
+      "lead_paragraphs": [
+        "Neil Patel has carved a niche for himself at the intersection of AI and scientific discovery. With a background in programming, robotics, and SaaS companies, Patel has been instrumental in the development of infrastructure and models that facilitate scientific research and discovery. His current role at Try Discovery sees him leading the platform and product, which aims to make AI-driven scientific discovery more accessible and user-friendly.",
+        "Patel's work is significant as it bridges the gap between complex AI technologies and practical, real-world applications in science, potentially revolutionizing the way scientific research is conducted."
+      ],
+      "sections": [
+        {
+          "heading": "Infrastructure Development",
+          "body": "Neil Patel has been pivotal in developing the infrastructure necessary for AI-driven scientific discovery, creating platforms that can handle complex data and model training."
+        },
+        {
+          "heading": "Model Training",
+          "body": "Patel's expertise in model training allows for the creation of AI models that can accurately predict and generate scientific insights, streamlining the research process."
+        },
+        {
+          "heading": "Productization in AI",
+          "body": "His work in productizing AI for science involves making these advanced technologies user-friendly, akin to design suites like Photoshop or Figma, but for scientific discovery."
+        },
+        {
+          "heading": "Agile Development in Science",
+          "body": "Patel's vision includes making the scientific discovery process more agile, similar to software development, by leveraging AI models to provide promising candidates early in the process."
+        },
+        {
+          "heading": "Target Discovery and Hit Optimization",
+          "body": "Neil Patel contributes to the fields of target discovery and hit optimization, aiming to make these processes more efficient and cost-effective through AI-driven approaches."
+        }
+      ]
+    },
+    "net_worth": "$30.0M"
   },
   {
     "id": 393,
@@ -2966,7 +3153,7 @@
     "last_podcast_name": "The a16z Show",
     "last_episode_date": "2026-07-29",
     "mention_score": 1,
-    "mention_score_decayed": 0.76,
+    "mention_score_decayed": 0.74,
     "last_main_idea": "Investing in AI-native entertainment presents an opportunity to capitalize on the shift towards generative media and the democratization of content creation.",
     "last_proof_cite": "The a16z Show \u2022 2026-07-29 \u2022 AI Micro Dramas, Generative Media, and the Future of Creativity",
     "last_proof_snippet": "I think folks would be surprised by how many TV shows and movies today already have some element of AI being used. I spend a lot of time with studio execs and Amazon and Netflix have already both announced programs for fully-AI-generated an",
@@ -3026,7 +3213,7 @@
     "last_podcast_name": "All-In with Chamath, Jason, Sacks & Friedberg",
     "last_episode_date": "2026-07-28",
     "mention_score": 1,
-    "mention_score_decayed": 0.76,
+    "mention_score_decayed": 0.74,
     "last_main_idea": "Investing in robotics and AI companies that are successfully transitioning from research to real-world applications could offer significant growth potential as these technologies become more integrated into various industries.",
     "last_proof_cite": "All-In with Chamath, Jason, Sacks & Friedberg \u2022 2026-07-28 \u2022 The $1/Hour Worker: Four Robotics CEOs on Humanoids at Home, China's Threat, and the End of Dangerous Jobs",
     "last_proof_snippet": "Hey everybody, it's your boy Jake Al, I'm here in Paris, France at a conference called Makina, basically AI in the real world. Pardon my robot. Thanks for tuning in, and let's get started. Apple ovens started with an $8 domain and no VC fun",
@@ -3085,7 +3272,7 @@
     "last_podcast_name": "All-In with Chamath, Jason, Sacks & Friedberg",
     "last_episode_date": "2026-07-28",
     "mention_score": 1,
-    "mention_score_decayed": 0.76,
+    "mention_score_decayed": 0.74,
     "last_main_idea": "Investing in robotics and AI companies that are successfully transitioning from research to real-world applications could offer significant growth potential as these technologies become more integrated into various industries.",
     "last_proof_cite": "All-In with Chamath, Jason, Sacks & Friedberg \u2022 2026-07-28 \u2022 The $1/Hour Worker: Four Robotics CEOs on Humanoids at Home, China's Threat, and the End of Dangerous Jobs",
     "last_proof_snippet": "Hey everybody, it's your boy Jake Al, I'm here in Paris, France at a conference called Makina, basically AI in the real world. Pardon my robot. Thanks for tuning in, and let's get started. Apple ovens started with an $8 domain and no VC fun",
@@ -3144,7 +3331,7 @@
     "last_podcast_name": "Monetary Matters with Jack Farley",
     "last_episode_date": "2026-07-29",
     "mention_score": 1,
-    "mention_score_decayed": 0.76,
+    "mention_score_decayed": 0.74,
     "last_main_idea": "The Federal Reserve's credibility is at stake, and market reactions to economic data and Fed policy suggest a potential shift in expectations for inflation and interest rates, impacting bond yields and stock market performance.",
     "last_proof_cite": "Monetary Matters with Jack Farley \u2022 2026-07-29 \u2022 Mum\u2019s The Word: Kathryn Rooney Vera on Fed\u2019s Second Meeting under Kevin Warsh, Plus Earnings Breakdown (Live Replay)",
     "last_proof_snippet": "Wow. All right. We are here. We are joined by Katherine Rooney Vera, who's the chief market strategist at Stone X Groups. A lot of views on board markets, everything in macro. We mean we can get to to currencies and bonds. Katherine had a v",
@@ -4324,7 +4511,7 @@
     "last_podcast_name": "All-In with Chamath, Jason, Sacks & Friedberg",
     "last_episode_date": "2026-07-15",
     "mention_score": 1,
-    "mention_score_decayed": 0.55,
+    "mention_score_decayed": 0.54,
     "last_main_idea": "Investing in companies with strong technical leadership and a focus on future-proofing through R&D can yield significant long-term returns.",
     "last_proof_cite": "All-In with Chamath, Jason, Sacks & Friedberg \u2022 2026-07-15 \u2022 Former Intel CEO on What Went Wrong, What's Next + Lovable CEO on the Real Promise of Vibe Coding",
     "last_proof_snippet": "spent a long time in Intel, and only 34 years, 34 years, probably one of the greatest American companies ever, and then, absolutely went off the rails and got absolutely demolished by Nvidia, TSMC, and I guess Apple to a certain extent. So",
@@ -8941,7 +9128,7 @@
     "last_podcast_name": "All-In with Chamath, Jason, Sacks & Friedberg",
     "last_episode_date": "2026-05-12",
     "mention_score": 1,
-    "mention_score_decayed": 0.13,
+    "mention_score_decayed": 0.12,
     "last_main_idea": "Invest in companies that demonstrate a capability-bounded approach, reinvestment in growth, and a culture of learning from failures to capitalize on innovation and long-term success.",
     "last_proof_cite": "All-In with Chamath, Jason, Sacks & Friedberg \u2022 2026-05-12 \u2022 Charles & Chase Koch on How They Quietly Built a $150B Empire",
     "last_proof_snippet": "What an honor to be here. Thank you for hosting us, Forbes, and welcome. This will be put out at the all-in interview. So I'm really excited to share this conversation with everyone on the world, on the internet, and to get some time with C",
@@ -9004,7 +9191,7 @@
     "last_podcast_name": "All-In with Chamath, Jason, Sacks & Friedberg",
     "last_episode_date": "2026-05-12",
     "mention_score": 1,
-    "mention_score_decayed": 0.13,
+    "mention_score_decayed": 0.12,
     "last_main_idea": "Invest in companies that demonstrate a capability-bounded approach, reinvestment in growth, and a culture of learning from failures to capitalize on innovation and long-term success.",
     "last_proof_cite": "All-In with Chamath, Jason, Sacks & Friedberg \u2022 2026-05-12 \u2022 Charles & Chase Koch on How They Quietly Built a $150B Empire",
     "last_proof_snippet": "What an honor to be here. Thank you for hosting us, Forbes, and welcome. This will be put out at the all-in interview. So I'm really excited to share this conversation with everyone on the world, on the internet, and to get some time with C",
@@ -9750,7 +9937,7 @@
     "last_podcast_name": "The a16z Show",
     "last_episode_date": "2026-05-05",
     "mention_score": 1,
-    "mention_score_decayed": 0.11,
+    "mention_score_decayed": 0.1,
     "last_main_idea": "Building a successful investment organization requires compounding talent, capital, and culture over time, focusing on long-term growth rather than short-term gains.",
     "last_proof_cite": "The a16z Show \u2022 2026-05-05 \u2022 Building Blackstone, Backing Costco, with Tony James",
     "last_proof_snippet": "If you think about the development of a successful company, there's kind of an Esker. It starts off small and entrepreneurial. Then there's this kind of escalation where you create a lot of value in a lot of size. People know Blackstone tod",
@@ -12208,7 +12395,7 @@
     "last_podcast_name": "Dwarkesh Podcast",
     "last_episode_date": "2026-04-07",
     "mention_score": 1,
-    "mention_score_decayed": 0.06,
+    "mention_score_decayed": 0.05,
     "last_main_idea": "The core thesis presented is that advancements in AI and computer science can lead to new fields and paradigms, offering investment opportunities in technological disruption and innovation.",
     "last_proof_cite": "Dwarkesh Podcast \u2022 2026-04-07 \u2022 Michael Nielsen \u2013 How science actually progresses",
     "last_proof_snippet": "The Michelson-Morley experiment was initially aimed at testing theories of the ether, which was a significant concept in physics before the advent of relativity.",
@@ -12269,7 +12456,7 @@
     "last_podcast_name": "Monetary Matters with Jack Farley",
     "last_episode_date": "2026-04-07",
     "mention_score": 1,
-    "mention_score_decayed": 0.06,
+    "mention_score_decayed": 0.05,
     "last_main_idea": "Investing in select few names within the China property sector can offer significant potential for value appreciation, given the right conditions and primary research.",
     "last_proof_cite": "Monetary Matters with Jack Farley \u2022 2026-04-07 \u2022 Why Emerging Markets are Finally Outperforming Developed Markets | Robert Koenigsberger | Gramercy",
     "last_proof_snippet": "The recent outperformance of emerging market equities is attributed to a fundamental repricing of relative value and the 'anywhere but US' theme.",
@@ -12329,7 +12516,7 @@
     "last_podcast_name": "Moonshots with Peter Diamandis",
     "last_episode_date": "2026-04-07",
     "mention_score": 1,
-    "mention_score_decayed": 0.06,
+    "mention_score_decayed": 0.05,
     "last_main_idea": "Investment in Colossal represents a bet on the convergence of synthetic biology, AI, and environmental conservation, with potential for significant technological and societal impact.",
     "last_proof_cite": "Moonshots with Peter Diamandis \u2022 2026-04-07 \u2022 How AI Is Bringing Extinct Animals Back (And What Comes Next) | Ben Lamm (Colossal) | EP #245",
     "last_proof_snippet": "The company is leveraging AI to design and build living products, which is a novel approach in synthetic biology.",
@@ -13261,7 +13448,7 @@
     "last_podcast_name": "Monetary Matters with Jack Farley",
     "last_episode_date": "2026-03-29",
     "mention_score": 1,
-    "mention_score_decayed": 0.05,
+    "mention_score_decayed": 0.04,
     "last_main_idea": "The democratization of alternative investments provides retail investors with new opportunities, but also comes with structural differences and risks that must be understood.",
     "last_proof_cite": "Monetary Matters with Jack Farley \u2022 2026-03-29 \u2022 The 2026 Private Credit Liquidity Crunch | Leyla Kunimoto on Redemptions in Semi-liquid Vehicles, Private/Public BDCs, and the Future of Alternatives",
     "last_proof_snippet": "Alternative managers are increasingly seeking capital from retail investors and wealth channels.",

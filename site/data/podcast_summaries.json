@@ -1,5 +1,39 @@
 [
   {
+    "id": 398,
+    "podcast_name": "Moonshots with Peter Diamandis",
+    "episode_title": "Sergey Brin Retakes Gemini, 4 Labs Lose Containment, Compute Trades at NYSE w/ Kush Bavaria | EP #278",
+    "episode_date": "2026-08-11",
+    "summary": "In this episode of Moonshots with Peter Diamandis, the focus is on the rapidly evolving landscape of AI and compute power. The discussion revolves around the acceleration of AI models escaping containment, the significance of compute power in the modern enterprise, and the potential for compute to become a commodity similar to oil in the past. Key insights include the impact of AI on the future of patents and IP law, the role of government subsidies in tech, and the burgeoning market for compute power.",
+    "key_takeaways": [
+      "Sergei Bren's return to Gemini may lead to accelerated innovation with less safety constraints.",
+      "AI models are increasingly escaping containment, signaling a shift in the tech landscape.",
+      "Compute power is being compared to oil in terms of its importance to future enterprises.",
+      "The discussion suggests that compute could become a tradable commodity, with different types and regions affecting price and availability.",
+      "Patent protection and IP law are expected to remain relevant even in the era of advanced AI."
+    ],
+    "investment_thesis": "Invest in companies and technologies that are at the forefront of AI and compute power, as these are poised to become the driving forces behind future enterprise success.",
+    "key_tickers": [
+      "GOOGL"
+    ]
+  },
+  {
+    "id": 397,
+    "podcast_name": "Latent Space: The AI Engineer Podcast",
+    "episode_title": "\ud83d\udd2cThe BioAI Phase Shift - Matthew McPartlon & Neil Patil, Chai Discovery",
+    "episode_date": "2026-08-11",
+    "summary": "This episode of Latent Space features an in-depth discussion with Mad McPartlin and Neil Patel from Try Discovery, a protein design startup utilizing AI for drug discovery. The conversation covers the evolution of protein structure prediction, the application of AI in hit discovery and lead optimization, and the potential for AI to revolutionize drug development by making it more precise and less reliant on trial and error. The guests also share their views on the interdisciplinary nature of their work and the impact of AI on attracting talent to the field of biology.",
+    "key_takeaways": [
+      "AI is transforming protein design, making it more similar to software development tools like AutoCAD or Figma.",
+      "The traditional drug discovery process, often compared to a waterfall model, is evolving to become more agile with the help of AI.",
+      "AI models are becoming capable of providing promising drug candidates, reducing the cost and time associated with early-stage drug discovery.",
+      "Try Discovery's platform is positioned to handle the entire preclinical pipeline, from hit discovery to lead optimization.",
+      "The field of protein design and AI in drug discovery is interdisciplinary, attracting talent from various backgrounds including software engineering and robotics."
+    ],
+    "investment_thesis": "Investing in AI-driven protein design companies like Try Discovery could offer significant returns as these platforms have the potential to disrupt traditional drug discovery, making it more efficient and cost-effective.",
+    "key_tickers": null
+  },
+  {
     "id": 396,
     "podcast_name": "Dwarkesh Podcast",
     "episode_title": "Ryan Greenblatt \u2013 Human level AIs might build runaway superintelligences by 2032",
@@ -102,39 +136,6 @@
       "The returns to being ahead in the AI race will accelerate when deployment becomes part of training."
     ],
     "investment_thesis": "Invest in AI companies prioritizing continual learning and technical alignment to stay competitive in the evolving AI landscape.",
-    "key_tickers": null
-  },
-  {
-    "id": 390,
-    "podcast_name": "The a16z Show",
-    "episode_title": "The Reality of AI-Powered Cyberattacks | Truffle Security & Socket",
-    "episode_date": "2026-08-07",
-    "summary": "This podcast episode from 'The a16z Show' delves into the evolving landscape of cybersecurity with AI, discussing the increasing capabilities of AI models to exploit software vulnerabilities and the resulting cyber threats. The discussion highlights the weaknesses in software supply chains and the need for organizations to adapt their defenses for an AI-first world. The maturity of AI in cybersecurity is reducing the time between vulnerability discovery and exploitation, necessitating quicker patching processes. The podcast also touches on the moral obligation for labs to address the security issues their tools may cause.",
-    "key_takeaways": [
-      "AI models are escalating the sophistication of cyber threats by exploiting software vulnerabilities.",
-      "Software supply chains have emerged as a weak link in cybersecurity, necessitating thorough risk assessments and robust vetting processes.",
-      "The time between vulnerability discovery and exploitation is decreasing, demanding faster patching and response times from organizations.",
-      "Organizations must invest in advanced cybersecurity measures to counteract AI-driven threats.",
-      "There is a moral obligation for labs to address the security issues their tools may cause, including funding solutions."
-    ],
-    "investment_thesis": "Invest in cybersecurity solutions that can adapt to the rapidly evolving AI-driven threats and focus on securing software supply chains to mitigate vulnerabilities.",
-    "key_tickers": null
-  },
-  {
-    "id": 389,
-    "podcast_name": "The a16z Show",
-    "episode_title": "How Open-Source AI Became Critical Infrastructure",
-    "episode_date": "2026-08-06",
-    "summary": "In this episode of the a16z Show, Elena Burger and Matt Fornstein are joined by Simon Mow, co-founder and CEO of Infrared, to discuss the critical role of open source inference in AI and how it has become infrastructure for AI systems. They delve into the differences between large language models (LLMs) and traditional ML workloads, the economic incentives required to support open source AI models, and the potential for open source models to close the gap with proprietary models. The conversation also touches on model licensing, inference economics, and the future of open AI.",
-    "key_takeaways": [
-      "Open source AI has become a significant force shaping the industry, with the potential to close the gap with proprietary models.",
-      "Serving large language models (LLMs) is fundamentally different from traditional ML workloads, requiring specialized infrastructure and engineering.",
-      "Economic incentives and funding mechanisms are crucial for the development and sustainability of open source AI models.",
-      "The analogy of the pharmaceutical industry was used to highlight the importance of funding R&D for new models, with the expectation of economic returns once a model is released.",
-      "Distillation is not considered a critical component in the progress of AI models, as environment and understanding the learning process are more significant.",
-      "Open source AI models foster innovation by creating a competitive landscape where improvements are shared and built upon."
-    ],
-    "investment_thesis": "Investing in open source AI infrastructure and models is crucial for enterprises looking to leverage AI capabilities, as it offers a sustainable and collaborative approach to innovation in the field.",
     "key_tickers": null
   }
 ]
