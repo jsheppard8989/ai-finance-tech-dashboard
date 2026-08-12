@@ -3,80 +3,80 @@
 
 const dashboardData = {
   schemaVersion: 2,
-  generatedAt: "2026-08-12T06:43:55.544566",
-  chartsVersion: "2026-08-12T06:43:41.643894",
+  generatedAt: "2026-08-12T12:08:10.555257",
+  chartsVersion: "2026-08-12T12:07:51.633998",
   priceSnapshot: {
   "GOOGL": {
-    "price": 343.8,
-    "change_pct": 8.22,
+    "price": 342.8,
+    "change_pct": 7.21,
     "name": "GOOGL",
-    "updated_at": "2026-08-12T06:43:41.642946"
+    "updated_at": "2026-08-12T12:07:51.633575"
   },
   "NVDA": {
-    "price": 217.5,
-    "change_pct": 4.19,
+    "price": 223.99,
+    "change_pct": 8.29,
     "name": "NVDA",
-    "updated_at": "2026-08-12T06:43:41.642965"
+    "updated_at": "2026-08-12T12:07:51.633585"
   },
   "BTC": {
-    "price": 64143.8,
-    "change_pct": -0.9,
+    "price": 63454.72,
+    "change_pct": -1.96,
     "name": "BTC",
-    "updated_at": "2026-08-12T06:43:41.642974"
+    "updated_at": "2026-08-12T12:07:51.633589"
   },
   "TSLA": {
-    "price": 332.81,
-    "change_pct": 4.1,
+    "price": 327.11,
+    "change_pct": 4.5,
     "name": "TSLA",
-    "updated_at": "2026-08-12T06:43:41.642982"
+    "updated_at": "2026-08-12T12:07:51.633593"
   },
   "MSFT": {
-    "price": 503.81,
-    "change_pct": 32.03,
+    "price": 494.15,
+    "change_pct": 29.46,
     "name": "MSFT",
-    "updated_at": "2026-08-12T06:43:41.642989"
+    "updated_at": "2026-08-12T12:07:51.633596"
   },
   "AMZN": {
-    "price": 272.27,
-    "change_pct": 16.52,
+    "price": 269.42,
+    "change_pct": 16.07,
     "name": "AMZN",
-    "updated_at": "2026-08-12T06:43:41.642996"
+    "updated_at": "2026-08-12T12:07:51.633599"
   },
   "META": {
-    "price": 599.12,
-    "change_pct": -1.15,
+    "price": 582.15,
+    "change_pct": -2.19,
     "name": "META",
-    "updated_at": "2026-08-12T06:43:41.643005"
+    "updated_at": "2026-08-12T12:07:51.633603"
   },
   "WTI": {
-    "price": 3.81,
-    "change_pct": -1.04,
+    "price": 3.69,
+    "change_pct": 0.96,
     "name": "WTI",
-    "updated_at": "2026-08-12T06:43:41.643012"
+    "updated_at": "2026-08-12T12:07:51.633606"
   },
   "S&P 500": {
-    "price": 770.56,
-    "change_pct": 4.39,
+    "price": 773.28,
+    "change_pct": 4.65,
     "name": "S&P 500",
-    "updated_at": "2026-08-12T06:43:41.643019"
+    "updated_at": "2026-08-12T12:07:51.633609"
   },
   "AAPL": {
-    "price": 304.91,
-    "change_pct": -5.13,
+    "price": 302.33,
+    "change_pct": -9.14,
     "name": "AAPL",
-    "updated_at": "2026-08-12T06:43:41.643026"
+    "updated_at": "2026-08-12T12:07:51.633612"
   },
   "QQQ": {
-    "price": 718.45,
-    "change_pct": 3.83,
+    "price": 725.41,
+    "change_pct": 6.02,
     "name": "Invesco QQQ Trust",
-    "updated_at": "2026-08-12T06:43:41.643033"
+    "updated_at": "2026-08-12T12:07:51.633615"
   },
   "BTC-USD": {
-    "price": 64143.8,
-    "change_pct": -0.9,
+    "price": 63454.72,
+    "change_pct": -1.96,
     "name": "Bitcoin USD",
-    "updated_at": "2026-08-12T06:43:41.643041"
+    "updated_at": "2026-08-12T12:07:51.633619"
   }
 },
   tickerScores: [
@@ -834,6 +834,25 @@ const dashboardData = {
   archive: {
   "insights": [
     {
+      "id": 414,
+      "title": "Garry Tan on Taste, Agents and Founder Ambition",
+      "source_type": "podcast",
+      "source_name": "The a16z Show",
+      "source_date": "2026-08-12",
+      "summary": "In this episode of 'The a16z Show', Anisha Tariah interviews Gary Tan, president and CEO of Wide, on the evolving landscape for startup founders. They discuss the importance of founders following their unique knowledge rather than chasing trends, the transformative impact of AI on coding and company management, and the potential for future startups to be smaller, faster, and more ambitious. Gary also shares insights from his own career, including missed opportunities and the lessons learned from trusting direct experience over consensus.",
+      "key_takeaway": "Invest in startups leveraging AI to automate and perfect business processes, led by founders with a deep understanding of their domain and a history of successful strategy implementation.",
+      "tickers_mentioned": [
+        "AAPL"
+      ],
+      "sentiment": "neutral",
+      "display_on_main": 1,
+      "display_order": 0,
+      "added_date": "2026-08-12",
+      "archived_date": null,
+      "archived_reason": null,
+      "podcast_episode_id": 399
+    },
+    {
       "id": 410,
       "title": "The CISO Playbook for AI Agents | Datadog",
       "source_type": "podcast",
@@ -987,7 +1006,7 @@ const dashboardData = {
         "TSLA"
       ],
       "sentiment": "neutral",
-      "display_on_main": 1,
+      "display_on_main": 0,
       "display_order": 0,
       "added_date": "2026-08-07",
       "archived_date": null,
@@ -8810,8 +8829,8 @@ const dashboardData = {
       "term": "Taste",
       "description": "A concept that goes beyond aesthetic preference, relating to how people consume virtually and the societal guidance on proper consumption habits, especially in the context of wealth creation.",
       "first_detected_date": "2026-08-02",
-      "last_mentioned_date": "2026-08-11",
-      "mention_count": 3,
+      "last_mentioned_date": "2026-08-12",
+      "mention_count": 4,
       "source_podcasts": null,
       "status": "active",
       "investment_implications": "Investors can use the understanding of 'taste' to predict consumer behavior in digital economies and identify emerging markets.",
@@ -8820,8 +8839,8 @@ const dashboardData = {
       "archived_reason": null,
       "first_detected_episode_id": 380,
       "first_detected_speaker": "Ruby J. To Low",
-      "last_mentioned_episode_id": 396,
-      "last_mentioned_speaker": "Ryan Greenlet"
+      "last_mentioned_episode_id": 399,
+      "last_mentioned_speaker": "Gary Tan"
     },
     {
       "id": 267,
@@ -9384,20 +9403,20 @@ const dashboardData = {
     {
       "id": 113,
       "term": "Solve Everything Thesis",
-      "description": "The idea that AI advancements, particularly models like Astra, are capable of solving complex problems that have been unsolvable for decades.",
+      "description": "The belief that a particular technology or approach can solve a wide range of problems.",
       "first_detected_date": "2026-05-23",
-      "last_mentioned_date": "2026-08-08",
-      "mention_count": 6,
+      "last_mentioned_date": "2026-08-12",
+      "mention_count": 7,
       "source_podcasts": null,
       "status": "active",
-      "investment_implications": "Investors should consider the potential of AI to disrupt traditional problem-solving across industries.",
+      "investment_implications": "Investors should be cautious of the 'Solve Everything Thesis', as it may overpromise and underdeliver.",
       "display_on_main": 0,
       "archived_date": null,
       "archived_reason": null,
       "first_detected_episode_id": 236,
       "first_detected_speaker": null,
-      "last_mentioned_episode_id": 393,
-      "last_mentioned_speaker": "Saline"
+      "last_mentioned_episode_id": 399,
+      "last_mentioned_speaker": "Gary Tan"
     },
     {
       "id": 194,
@@ -9476,8 +9495,8 @@ const dashboardData = {
       "term": "Distillation",
       "description": "The process of training a smaller AI model on the output of a larger model to achieve similar results with less computational power.",
       "first_detected_date": "2026-05-15",
-      "last_mentioned_date": "2026-08-11",
-      "mention_count": 34,
+      "last_mentioned_date": "2026-08-12",
+      "mention_count": 35,
       "source_podcasts": null,
       "status": "active",
       "investment_implications": "Distillation can make AI more accessible and cost-effective, impacting how businesses allocate resources for AI development.",
@@ -9486,8 +9505,8 @@ const dashboardData = {
       "archived_reason": null,
       "first_detected_episode_id": 221,
       "first_detected_speaker": null,
-      "last_mentioned_episode_id": 398,
-      "last_mentioned_speaker": "Kush Bavaria"
+      "last_mentioned_episode_id": 399,
+      "last_mentioned_speaker": "Gary Tan"
     },
     {
       "id": 174,
@@ -10412,18 +10431,18 @@ const dashboardData = {
       "term": "AI Infrastructure",
       "description": "The underlying technology and systems that support the development and operation of AI applications.",
       "first_detected_date": "2026-03-17",
-      "last_mentioned_date": "2026-08-11",
-      "mention_count": 25,
+      "last_mentioned_date": "2026-08-12",
+      "mention_count": 26,
       "source_podcasts": null,
       "status": "active",
-      "investment_implications": "Investment in AI infrastructure is crucial for companies looking to leverage AI capabilities in their operations.",
+      "investment_implications": "Investing in AI infrastructure can provide the foundation for innovation in AI-driven startups.",
       "display_on_main": 0,
       "archived_date": null,
       "archived_reason": null,
       "first_detected_episode_id": 71,
       "first_detected_speaker": null,
-      "last_mentioned_episode_id": 395,
-      "last_mentioned_speaker": "Emilio Escobar"
+      "last_mentioned_episode_id": 399,
+      "last_mentioned_speaker": "Gary Tan"
     },
     {
       "id": 26,
@@ -10680,20 +10699,20 @@ const dashboardData = {
     {
       "id": 114,
       "term": "AI Agents",
-      "description": "AI-powered software agents that assist in coding and software development tasks.",
+      "description": "Software entities that perform tasks autonomously, similar to human employees.",
       "first_detected_date": "2026-02-28",
-      "last_mentioned_date": "2026-08-11",
-      "mention_count": 59,
+      "last_mentioned_date": "2026-08-12",
+      "mention_count": 60,
       "source_podcasts": null,
       "status": "active",
-      "investment_implications": "AI agents can significantly impact the efficiency and speed of software development, influencing investment in tech companies.",
+      "investment_implications": "AI Agents can automate business processes, leading to operational efficiency and scalability.",
       "display_on_main": 0,
       "archived_date": null,
       "archived_reason": null,
       "first_detected_episode_id": 31,
       "first_detected_speaker": null,
-      "last_mentioned_episode_id": 398,
-      "last_mentioned_speaker": "Kush Bavaria"
+      "last_mentioned_episode_id": 399,
+      "last_mentioned_speaker": "Gary Tan"
     },
     {
       "id": 38,
@@ -10842,20 +10861,20 @@ const dashboardData = {
     {
       "id": 32,
       "term": "AI Agent Orchestration",
-      "description": "The process of managing and coordinating the actions of multiple AI agents to achieve a common goal or task.",
+      "description": "The management and coordination of AI Agents to perform complex tasks.",
       "first_detected_date": "2026-02-18",
-      "last_mentioned_date": "2026-08-10",
-      "mention_count": 7,
+      "last_mentioned_date": "2026-08-12",
+      "mention_count": 8,
       "source_podcasts": null,
       "status": "active",
-      "investment_implications": "Effective AI agent orchestration can lead to improved operational efficiency and customer satisfaction.",
+      "investment_implications": "Orchestrating AI Agents can streamline operations and improve decision-making within startups.",
       "display_on_main": 0,
       "archived_date": null,
       "archived_reason": null,
       "first_detected_episode_id": 69,
       "first_detected_speaker": null,
-      "last_mentioned_episode_id": 394,
-      "last_mentioned_speaker": "Saline"
+      "last_mentioned_episode_id": 399,
+      "last_mentioned_speaker": "Gary Tan"
     },
     {
       "id": 13,
@@ -10957,6 +10976,26 @@ const dashboardData = {
 },
   mainContent: {
   "insights": [
+    {
+      "id": 414,
+      "title": "Garry Tan on Taste, Agents and Founder Ambition",
+      "source_type": "podcast",
+      "source_name": "The a16z Show",
+      "source_date": "2026-08-12",
+      "summary": "In this episode of 'The a16z Show', Anisha Tariah interviews Gary Tan, president and CEO of Wide, on the evolving landscape for startup founders. They discuss the importance of founders following their unique knowledge rather than chasing trends, the transformative impact of AI on coding and company management, and the potential for future startups to be smaller, faster, and more ambitious. Gary also shares insights from his own career, including missed opportunities and the lessons learned from trusting direct experience over consensus.",
+      "key_takeaway": "Invest in startups leveraging AI to automate and perfect business processes, led by founders with a deep understanding of their domain and a history of successful strategy implementation.",
+      "tickers_mentioned": "[\"AAPL\"]",
+      "sentiment": "neutral",
+      "display_on_main": 1,
+      "display_order": 0,
+      "added_date": "2026-08-12",
+      "archived_date": null,
+      "archived_reason": null,
+      "podcast_episode_id": 399,
+      "episode_release_date": "2026-08-12",
+      "guest_name": null,
+      "key_tickers": []
+    },
     {
       "id": 410,
       "title": "The CISO Playbook for AI Agents | Datadog",
@@ -11081,26 +11120,6 @@ const dashboardData = {
         "GOOGL",
         "TSLA"
       ]
-    },
-    {
-      "id": 406,
-      "title": "8 Predictions for the Era of Continual Learning",
-      "source_type": "podcast",
-      "source_name": "Dwarkesh Podcast",
-      "source_date": "2026-08-07",
-      "summary": "This podcast episode explores the concept of continual learning in AI and its implications for job performance, regulation, and the competitive landscape. The discussion highlights the need for AI to learn continuously from different workplaces to accumulate relevant experience, similar to human learning. It also addresses the challenges that continual learning poses to current AI regulation proposals and the potential for increased economies of scale in AI due to batching advantages in inference.",
-      "key_takeaway": "Invest in AI companies prioritizing continual learning and technical alignment to stay competitive in the evolving AI landscape.",
-      "tickers_mentioned": "[\"AAPL\", \"GOOGL\", \"MSFT\", \"AMZN\", \"TSLA\"]",
-      "sentiment": "neutral",
-      "display_on_main": 1,
-      "display_order": 0,
-      "added_date": "2026-08-07",
-      "archived_date": null,
-      "archived_reason": null,
-      "podcast_episode_id": 391,
-      "episode_release_date": "2026-08-07",
-      "guest_name": null,
-      "key_tickers": []
     },
     {
       "id": 407,
@@ -11432,6 +11451,32 @@ const dashboardData = {
       "last_mentioned_episode_date": "2026-07-31"
     },
     {
+      "id": 270,
+      "term": "Taste",
+      "description": "A concept that goes beyond aesthetic preference, relating to how people consume virtually and the societal guidance on proper consumption habits, especially in the context of wealth creation.",
+      "first_detected_date": "2026-08-02",
+      "last_mentioned_date": "2026-08-12",
+      "mention_count": 4,
+      "source_podcasts": null,
+      "status": "active",
+      "investment_implications": "Investors can use the understanding of 'taste' to predict consumer behavior in digital economies and identify emerging markets.",
+      "display_on_main": 1,
+      "archived_date": null,
+      "archived_reason": null,
+      "first_detected_episode_id": 380,
+      "first_detected_speaker": "Ruby J. To Low",
+      "last_mentioned_episode_id": 399,
+      "last_mentioned_speaker": "Gary Tan",
+      "overton_score": 4.0,
+      "resonance_pct": 100,
+      "first_detected_podcast": "The a16z Show",
+      "first_detected_episode_title": "Ruby Thelot on Internet Culture, AI, and the Future of Taste",
+      "first_detected_episode_date": "2026-08-02",
+      "last_mentioned_podcast": "The a16z Show",
+      "last_mentioned_episode_title": "Garry Tan on Taste, Agents and Founder Ambition",
+      "last_mentioned_episode_date": "2026-08-12"
+    },
+    {
       "id": 259,
       "term": "Liquid AI",
       "description": "A type of AI that focuses on efficient, general-purpose intelligence at various scales, often using small language models.",
@@ -11456,32 +11501,6 @@ const dashboardData = {
       "last_mentioned_podcast": "Moonshots with Peter Diamandis",
       "last_mentioned_episode_title": "Google\u2019s Jeff Dean Exits, SpaceX Hits $100B in Rev & OpenAI\u2019s Astra Solves Decade-Old Math Problems with Emad Mostaque | EP #277",
       "last_mentioned_episode_date": "2026-08-08"
-    },
-    {
-      "id": 270,
-      "term": "Taste",
-      "description": "A concept that goes beyond aesthetic preference, relating to how people consume virtually and the societal guidance on proper consumption habits, especially in the context of wealth creation.",
-      "first_detected_date": "2026-08-02",
-      "last_mentioned_date": "2026-08-11",
-      "mention_count": 3,
-      "source_podcasts": null,
-      "status": "active",
-      "investment_implications": "Investors can use the understanding of 'taste' to predict consumer behavior in digital economies and identify emerging markets.",
-      "display_on_main": 1,
-      "archived_date": null,
-      "archived_reason": null,
-      "first_detected_episode_id": 380,
-      "first_detected_speaker": "Ruby J. To Low",
-      "last_mentioned_episode_id": 396,
-      "last_mentioned_speaker": "Ryan Greenlet",
-      "overton_score": 2.93,
-      "resonance_pct": 73,
-      "first_detected_podcast": "The a16z Show",
-      "first_detected_episode_title": "Ruby Thelot on Internet Culture, AI, and the Future of Taste",
-      "first_detected_episode_date": "2026-08-02",
-      "last_mentioned_podcast": "Dwarkesh Podcast",
-      "last_mentioned_episode_title": "Ryan Greenblatt \u2013 Human level AIs might build runaway superintelligences by 2032",
-      "last_mentioned_episode_date": "2026-08-11"
     },
     {
       "id": 219,
@@ -35934,6 +35953,54 @@ const dashboardData = {
     "source_name": "Latent Space: The AI Engineer Podcast",
     "source_date": "2026-08-11",
     "key_tickers": []
+  },
+  "414": {
+    "id": 404,
+    "insight_id": 414,
+    "podcast_episode_id": 399,
+    "overview": "The competitive dynamic in the startup ecosystem is increasingly contested by the rise of AI and the need for founders to leverage their unique domain knowledge. The tension lies in the balance between following established trends and trusting one's own expertise, especially in an environment where AI is reshaping business processes. The allocator-relevant implication is that investors who can identify and support startups that effectively integrate AI into their operations, led by founders with a deep understanding of their domain, may gain a competitive edge. The metric that arbitrates this uncertainty is the success rate and growth trajectory of such startups compared to those following traditional or trend-based strategies.",
+    "key_takeaways_detailed": [
+      "Investors should focus on startups that demonstrate a clear understanding of how AI can enhance their specific business processes, rather than those merely adopting AI for its own sake.",
+      "The ability to identify and trust one's unique knowledge and domain expertise is a critical trait for successful founders, suggesting that investors should evaluate the founder's background and conviction as much as the business model.",
+      "Startups that can demonstrate agility and ambition, particularly in leveraging AI to streamline operations, may offer higher potential returns, as they align with the trend towards smaller, faster, and more efficient companies.",
+      "Investors should be wary of the 'herd mentality' and look for opportunities that may initially appear fringe but have strong underlying fundamentals and a clear application of AI technology."
+    ],
+    "investment_thesis": "The investment thesis is that startups leveraging AI to automate and perfect business processes, led by founders with a deep understanding of their domain and a history of successful strategy implementation, will outperform the market. This is predicated on the belief that AI will continue to be a transformative technology in business, and that founders who trust their unique knowledge and domain expertise will be better positioned to capitalize on AI's potential. The timeframe for this thesis is the next 5-10 years, with the observable development being the consistent outperformance of such startups in terms of growth, efficiency, and scalability compared to their peers.",
+    "ticker_analysis": {
+      "AAPL": {
+        "rationale": "Apple's continued investment in AI for its products and services makes it a relevant ticker in this thesis, as it demonstrates the integration of AI into a wide range of consumer technologies.",
+        "positioning": "Positioning should be long-term and strategic, as Apple's AI integration is likely to contribute to sustained growth and competitive advantage.",
+        "risk": "Key risks include changes in consumer preferences away from AI-driven products, increased competition from other tech giants in AI, and potential regulatory hurdles that could impede AI development and deployment."
+      }
+    },
+    "positioning_guidance": "",
+    "risk_factors": [],
+    "contrarian_signals": [
+      "The belief that AI is overhyped and not as transformative as suggested, leading to a devaluation of AI-focused startups.",
+      "A shift in investor sentiment towards traditional business models that do not heavily rely on AI, potentially due to high-profile failures or ethical concerns.",
+      "A significant economic downturn that could lead to a pullback in venture capital, disproportionately affecting AI-focused startups due to their higher risk profile."
+    ],
+    "catalysts": [
+      "New AI breakthroughs that significantly improve the efficiency or capabilities of business processes.",
+      "Regulatory developments that either support or hinder the development and use of AI in business.",
+      "Successful IPOs or acquisitions of AI-focused startups, which could serve as a bellwether for the broader market's perception of AI's value in business."
+    ],
+    "related_insights": null,
+    "audio_timestamp_start": null,
+    "audio_timestamp_end": null,
+    "transcript_excerpt": null,
+    "created_at": "2026-08-12T12:06:56.016808",
+    "updated_at": "2026-08-12 17:06:56",
+    "episode_evidence": "Gary Tan's interview with Anisha Tariah on 'The a16z Show' provides a nuanced perspective on the startup landscape. Tan emphasizes the importance of founders following their unique knowledge rather than chasing trends, as he himself did when he left web programming just before the rise of social media, stating, 'I was getting out of web programming at exactly the wrong time.' He also discusses the transformative impact of AI on coding and company management, suggesting that future startups may be 'smaller, faster, and more ambitious.' Tan's own career provides a case study in the value of trusting direct experience over consensus, as he reflects on missed opportunities such as turning down an offer to join Palantir, admitting, 'I was like a $2 billion or two to $4 billion mistake at this point.' These insights underscore the value of first principles thinking and the courage to pursue one's convictions in the face of consensus.",
+    "falsification_tracks": [
+      "A significant downturn in AI-related venture capital investments would challenge the thesis that AI is a transformative force in startup growth and management.",
+      "If the number of successful startups led by founders with deep domain knowledge but without AI integration plateaus or declines, it would suggest that AI is not as crucial as posited for startup success.",
+      "A sustained period where startups led by trend-chasers outperform those founded on deep domain knowledge would invalidate the importance of founders following their unique knowledge."
+    ],
+    "insight_title": "Garry Tan on Taste, Agents and Founder Ambition",
+    "source_name": "The a16z Show",
+    "source_date": "2026-08-12",
+    "key_tickers": []
   }
 },
   suggestedTerms: [
@@ -35988,7 +36055,7 @@ const dashboardData = {
 ],
   podcastGuests: [
   {
-    "id": 48809,
+    "id": 48923,
     "name": "How Kavak Rebuilt Itself Around AI Agents",
     "slug": "how-kavak-rebuilt-itself-around-ai-agents",
     "bio": null,
@@ -36000,7 +36067,7 @@ const dashboardData = {
     "appearance_count": 1
   },
   {
-    "id": 48810,
+    "id": 48924,
     "name": "Emad Mostaque",
     "slug": "emad-mostaque",
     "bio": null,
@@ -36012,7 +36079,7 @@ const dashboardData = {
     "appearance_count": 1
   },
   {
-    "id": 48811,
+    "id": 48925,
     "name": "How Open",
     "slug": "how-open",
     "bio": null,
@@ -36024,7 +36091,7 @@ const dashboardData = {
     "appearance_count": 1
   },
   {
-    "id": 48812,
+    "id": 48926,
     "name": "Saronic Founders",
     "slug": "saronic-founders",
     "bio": null,
@@ -36036,7 +36103,7 @@ const dashboardData = {
     "appearance_count": 1
   },
   {
-    "id": 48813,
+    "id": 48927,
     "name": "OpenAI's Joshua Achiam",
     "slug": "openais-joshua-achiam",
     "bio": null,
@@ -36048,7 +36115,7 @@ const dashboardData = {
     "appearance_count": 1
   },
   {
-    "id": 48814,
+    "id": 48928,
     "name": "Why Macro is \u201cPretty Risk-On\u201d for Equities",
     "slug": "why-macro-is-pretty-risk-on-for-equities",
     "bio": null,
@@ -36060,7 +36127,7 @@ const dashboardData = {
     "appearance_count": 1
   },
   {
-    "id": 48815,
+    "id": 48929,
     "name": "AI for America's Small Businesses",
     "slug": "ai-for-americas-small-businesses",
     "bio": null,
@@ -36072,7 +36139,7 @@ const dashboardData = {
     "appearance_count": 1
   },
   {
-    "id": 48816,
+    "id": 48930,
     "name": "Mum\u2019s The Word",
     "slug": "mums-the-word",
     "bio": null,
@@ -36084,7 +36151,7 @@ const dashboardData = {
     "appearance_count": 1
   },
   {
-    "id": 48817,
+    "id": 48931,
     "name": "Luke Gromen",
     "slug": "luke-gromen",
     "bio": null,
@@ -36096,7 +36163,7 @@ const dashboardData = {
     "appearance_count": 1
   },
   {
-    "id": 48818,
+    "id": 48932,
     "name": "Codex from 0 to 10M Users",
     "slug": "codex-from-0-to-10m-users",
     "bio": null,
@@ -36108,7 +36175,7 @@ const dashboardData = {
     "appearance_count": 1
   },
   {
-    "id": 48819,
+    "id": 48933,
     "name": "Ben Horowitz",
     "slug": "ben-horowitz",
     "bio": "Ben Horowitz is a co-founder of venture firm Andreessen Horowitz and former CEO of Opsware, known for advising founders on leadership under pressure.",
@@ -36120,7 +36187,7 @@ const dashboardData = {
     "appearance_count": 3
   },
   {
-    "id": 48820,
+    "id": 48934,
     "name": "Building the Physical AI Stack",
     "slug": "building-the-physical-ai-stack",
     "bio": null,
@@ -36132,7 +36199,7 @@ const dashboardData = {
     "appearance_count": 1
   },
   {
-    "id": 48821,
+    "id": 48935,
     "name": "Travis Kalanick Is Back",
     "slug": "travis-kalanick-is-back",
     "bio": null,
@@ -36144,7 +36211,7 @@ const dashboardData = {
     "appearance_count": 1
   },
   {
-    "id": 48822,
+    "id": 48936,
     "name": "Why Physical AI Is the Next Frontier",
     "slug": "why-physical-ai-is-the-next-frontier",
     "bio": null,
@@ -36156,7 +36223,7 @@ const dashboardData = {
     "appearance_count": 1
   },
   {
-    "id": 48823,
+    "id": 48937,
     "name": "Nick Nemeth",
     "slug": "nick-nemeth",
     "bio": null,
@@ -36168,7 +36235,7 @@ const dashboardData = {
     "appearance_count": 1
   },
   {
-    "id": 48824,
+    "id": 48938,
     "name": "Mark Cuban on the AI Bubble",
     "slug": "mark-cuban-on-the-ai-bubble",
     "bio": null,
@@ -36180,7 +36247,7 @@ const dashboardData = {
     "appearance_count": 1
   },
   {
-    "id": 48825,
+    "id": 48939,
     "name": "Urgent Update- AI Sputnik Moment",
     "slug": "urgent-update--ai-sputnik-moment",
     "bio": null,
@@ -36192,7 +36259,7 @@ const dashboardData = {
     "appearance_count": 1
   },
   {
-    "id": 48826,
+    "id": 48940,
     "name": "Replay 2025",
     "slug": "replay-2025",
     "bio": null,
@@ -36204,7 +36271,7 @@ const dashboardData = {
     "appearance_count": 1
   },
   {
-    "id": 48827,
+    "id": 48941,
     "name": "Turbo Charged Trend Following",
     "slug": "turbo-charged-trend-following",
     "bio": null,
@@ -36216,7 +36283,7 @@ const dashboardData = {
     "appearance_count": 1
   },
   {
-    "id": 48828,
+    "id": 48942,
     "name": "Can Anyone Catch NVIDIA?",
     "slug": "can-anyone-catch-nvidia",
     "bio": null,
@@ -36621,7 +36688,7 @@ const dashboardData = {
     "last_podcast_name": "The a16z Show",
     "last_episode_date": "2026-07-17",
     "mention_score": 2,
-    "mention_score_decayed": 1.12,
+    "mention_score_decayed": 1.1,
     "last_main_idea": "Investing in companies that prioritize public communication and authenticity can lead to stronger brand loyalty and trust, which are valuable assets in the long term.",
     "last_proof_cite": "The a16z Show \u2022 2026-07-17 \u2022 Amjad Masad on Going Direct, Building Replit, and the Future of Software",
     "last_proof_snippet": "Being canceled is a choice. You should choose to get canceled and retreat from the public eye, but I think if you're still out there, at some point, honestly, the haters kind of give up. To some people ask, hey, how should I think about exp",
@@ -37722,7 +37789,7 @@ const dashboardData = {
     "last_podcast_name": "The a16z Show",
     "last_episode_date": "2026-03-16",
     "mention_score": 2,
-    "mention_score_decayed": 0.07,
+    "mention_score_decayed": 0.06,
     "last_main_idea": "Invest in AI startups that focus on specific niches and use cases, as they can compete effectively against larger AI companies by capitalizing on the gaps between platforms.",
     "last_proof_cite": "The a16z Show \u2022 2026-03-16 \u2022 AI Startups and the Future of Technology",
     "last_proof_snippet": "I think that every tech company is going to be an AI company and every AI company is going to be an agent company and so the sooner that you as kind of an employee or a business owner can kind of get on board and learn how to use that to yo",
@@ -37770,6 +37837,70 @@ const dashboardData = {
         }
       ]
     }
+  },
+  {
+    "id": 398,
+    "name": "Gary Tan",
+    "slug": "gary-tan",
+    "bio": "Gary Tan is the President and CEO of Wide, a company focused on technology and startups. He is known for his insights on the changing landscape for founders and the impact of AI on startups. Tan has a background in technology and has been influential in shaping the startup ecosystem.",
+    "known_for": "His perspectives on the evolving challenges and opportunities for startup founders in the age of AI.",
+    "net_worth_usd": 50000000.0,
+    "net_worth_source": "https://unnetworth.com/garry-tan-net-worth/",
+    "net_worth_updated_at": "2026-08-12T12:06:26.006173",
+    "voice_tone": "Reflective and insightful.",
+    "voice_style": "Shares personal anecdotes to illustrate points.",
+    "voice_delivery_notes": "Speaks with a measured pace, emphasizing key learnings from his career.",
+    "voice_profile_updated_at": "2026-08-12 17:05:04",
+    "last_seen": "2026-08-12 17:05:04",
+    "last_episode_title": "Garry Tan on Taste, Agents and Founder Ambition",
+    "last_podcast_name": "The a16z Show",
+    "last_episode_date": "2026-08-12",
+    "mention_score": 1,
+    "mention_score_decayed": 1,
+    "last_main_idea": "Invest in startups leveraging AI to automate and perfect business processes, led by founders with a deep understanding of their domain and a history of successful strategy implementation.",
+    "last_proof_cite": "The a16z Show \u2022 2026-08-12 \u2022 Garry Tan on Taste, Agents and Founder Ambition",
+    "last_proof_snippet": "We may never achieve a utopia, but it is worthy and worth it to attempt. Everything that's awesome in my life is kind of a cult. We had to go over to the Windows team. They wouldn't reply to our emails. They wouldn't fix our bugs. And we ha",
+    "supporting_takeaway": "AI is revolutionizing coding, company management, and could lead to smaller, faster, and more ambitious startups.",
+    "grokipedia_url": null,
+    "grokipedia_fetched_at": "2026-08-12T12:06:24.971848",
+    "pundit_profile": {
+      "source": "llm",
+      "source_model": "moonshot:moonshot-v1-8k",
+      "source_url": "",
+      "page_title": "Gary Tan",
+      "fetched_at": "2026-08-12T17:06:24.971487+00:00",
+      "cliff_notes": "Gary Tan is a prominent figure in the technology and startup industry, currently serving as the President and CEO of Wide. With a background deeply rooted in technology, Tan has been at the forefront of discussing and shaping the future of startups, particularly in the context of artificial intelligence. His insights have been influential in guiding founders on how to navigate the changing landscape of entrepreneurship. Tan's career has been marked by a focus on innovation and the intersection of technology with business strategy. He has shared his experiences, including missed opportunities such as turning down an offer to join Palantir, to emphasize the importance of trusting direct experience over consensus in decision-making. His contributions to the tech industry and the startup community have made him a respected voice among investors and entrepreneurs alike.",
+      "derived": {
+        "current_role": "President and CEO of Wide"
+      },
+      "infobox": {
+        "Born": "",
+        "Nationality": ""
+      },
+      "lead_paragraphs": [
+        "Gary Tan is a prominent figure in the technology and startup industry, currently serving as the President and CEO of Wide. With a background deeply rooted in technology, Tan has been at the forefront of discussing and shaping the future of startups, particularly in the context of artificial intelligence. His insights have been influential in guiding founders on how to navigate the changing landscape of entrepreneurship.",
+        "Tan's career has been marked by a focus on innovation and the intersection of technology with business strategy. He has shared his experiences, including missed opportunities such as turning down an offer to join Palantir, to emphasize the importance of trusting direct experience over consensus in decision-making. His contributions to the tech industry and the startup community have made him a respected voice among investors and entrepreneurs alike."
+      ],
+      "sections": [
+        {
+          "heading": "Startup Ecosystem",
+          "body": "Gary Tan is well-regarded for his understanding of the startup ecosystem and how it is being reshaped by advancements in AI and technology."
+        },
+        {
+          "heading": "AI Impact",
+          "body": "Tan discusses the significant impact of AI on startups, from coding to company management, suggesting that startups of the future may look smaller, faster, and more ambitious."
+        },
+        {
+          "heading": "Founder Ambitions",
+          "body": "He believes that founders' ambitions should evolve with the changing game, advising them to stop chasing trends and to focus on what they uniquely know."
+        },
+        {
+          "heading": "Learning from Mistakes",
+          "body": "Gary Tan shares his own career misses, like turning down an opportunity to join Palantir, to stress the importance of trusting one's direct experience over the consensus."
+        }
+      ]
+    },
+    "net_worth": "$50.0M"
   },
   {
     "id": 397,
@@ -38035,7 +38166,7 @@ const dashboardData = {
     "last_podcast_name": "The a16z Show",
     "last_episode_date": "2026-08-11",
     "mention_score": 1,
-    "mention_score_decayed": 1,
+    "mention_score_decayed": 0.98,
     "last_main_idea": "Invest in companies that are at the forefront of AI adoption and security, as these are likely to shape the future of enterprise software development.",
     "last_proof_cite": "The a16z Show \u2022 2026-08-11 \u2022 The CISO Playbook for AI Agents | Datadog",
     "last_proof_snippet": "The number one story on Bloomberg right now is that AI has gone wild. We seem remarkably calm. The way I see it is, if it's not an AI model, it's going to be somebody or something with actual malicious intent to win it. I do worry about wha",
@@ -38215,7 +38346,7 @@ const dashboardData = {
     "last_podcast_name": "The a16z Show",
     "last_episode_date": "2026-08-07",
     "mention_score": 1,
-    "mention_score_decayed": 0.91,
+    "mention_score_decayed": 0.89,
     "last_main_idea": "Invest in cybersecurity solutions that can adapt to the rapidly evolving AI-driven threats and focus on securing software supply chains to mitigate vulnerabilities.",
     "last_proof_cite": "The a16z Show \u2022 2026-08-07 \u2022 The Reality of AI-Powered Cyberattacks | Truffle Security & Socket",
     "last_proof_snippet": "Models are actively escaping their cages, going out on the internet and doing pretty nasty things. Recently, we found an API key that had been leaked on the internet ahead administrative access to the Apache Foundation. Interesting thing ab",
@@ -38273,7 +38404,7 @@ const dashboardData = {
     "last_podcast_name": "The a16z Show",
     "last_episode_date": "2026-08-07",
     "mention_score": 1,
-    "mention_score_decayed": 0.91,
+    "mention_score_decayed": 0.89,
     "last_main_idea": "Invest in cybersecurity solutions that can adapt to the rapidly evolving AI-driven threats and focus on securing software supply chains to mitigate vulnerabilities.",
     "last_proof_cite": "The a16z Show \u2022 2026-08-07 \u2022 The Reality of AI-Powered Cyberattacks | Truffle Security & Socket",
     "last_proof_snippet": "Models are actively escaping their cages, going out on the internet and doing pretty nasty things. Recently, we found an API key that had been leaked on the internet ahead administrative access to the Apache Foundation. Interesting thing ab",
@@ -38333,7 +38464,7 @@ const dashboardData = {
     "last_podcast_name": "The a16z Show",
     "last_episode_date": "2026-08-07",
     "mention_score": 1,
-    "mention_score_decayed": 0.91,
+    "mention_score_decayed": 0.89,
     "last_main_idea": "Invest in cybersecurity solutions that can adapt to the rapidly evolving AI-driven threats and focus on securing software supply chains to mitigate vulnerabilities.",
     "last_proof_cite": "The a16z Show \u2022 2026-08-07 \u2022 The Reality of AI-Powered Cyberattacks | Truffle Security & Socket",
     "last_proof_snippet": "Models are actively escaping their cages, going out on the internet and doing pretty nasty things. Recently, we found an API key that had been leaked on the internet ahead administrative access to the Apache Foundation. Interesting thing ab",
@@ -38393,7 +38524,7 @@ const dashboardData = {
     "last_podcast_name": "The a16z Show",
     "last_episode_date": "2026-08-06",
     "mention_score": 1,
-    "mention_score_decayed": 0.89,
+    "mention_score_decayed": 0.87,
     "last_main_idea": "Investing in open source AI infrastructure and models is crucial for enterprises looking to leverage AI capabilities, as it offers a sustainable and collaborative approach to innovation in the field.",
     "last_proof_cite": "The a16z Show \u2022 2026-08-06 \u2022 How Open-Source AI Became Critical Infrastructure",
     "last_proof_snippet": "The fun thought experiment is if GPUs dropped in price by 99% then do we get back to it a real open source world if moderation is never solved in the future people will go to openly by default because that is where you know for sure you can",
@@ -38571,7 +38702,7 @@ const dashboardData = {
     "last_podcast_name": "The a16z Show",
     "last_episode_date": "2026-08-05",
     "mention_score": 1,
-    "mention_score_decayed": 0.87,
+    "mention_score_decayed": 0.85,
     "last_main_idea": "Investing in innovative technologies that address critical challenges in ocean exploration, mineral extraction, and nuclear energy can lead to significant market opportunities and positive societal impacts.",
     "last_proof_cite": "The a16z Show \u2022 2026-08-05 \u2022 Three Startups Reinventing Critical Infrastructure",
     "last_proof_snippet": "Last month, A16Z American dynamism films screened short films about three portfolio companies. Ulysses built mission-critical underwater robots, Marianna Mineroles applies modern technologies to the critical mineral sector, and Radiant seek",
@@ -38630,7 +38761,7 @@ const dashboardData = {
     "last_podcast_name": "The a16z Show",
     "last_episode_date": "2026-08-05",
     "mention_score": 1,
-    "mention_score_decayed": 0.87,
+    "mention_score_decayed": 0.85,
     "last_main_idea": "Investing in innovative technologies that address critical challenges in ocean exploration, mineral extraction, and nuclear energy can lead to significant market opportunities and positive societal impacts.",
     "last_proof_cite": "The a16z Show \u2022 2026-08-05 \u2022 Three Startups Reinventing Critical Infrastructure",
     "last_proof_snippet": "Last month, A16Z American dynamism films screened short films about three portfolio companies. Ulysses built mission-critical underwater robots, Marianna Mineroles applies modern technologies to the critical mineral sector, and Radiant seek",
@@ -38689,7 +38820,7 @@ const dashboardData = {
     "last_podcast_name": "The a16z Show",
     "last_episode_date": "2026-08-05",
     "mention_score": 1,
-    "mention_score_decayed": 0.87,
+    "mention_score_decayed": 0.85,
     "last_main_idea": "Investing in innovative technologies that address critical challenges in ocean exploration, mineral extraction, and nuclear energy can lead to significant market opportunities and positive societal impacts.",
     "last_proof_cite": "The a16z Show \u2022 2026-08-05 \u2022 Three Startups Reinventing Critical Infrastructure",
     "last_proof_snippet": "Last month, A16Z American dynamism films screened short films about three portfolio companies. Ulysses built mission-critical underwater robots, Marianna Mineroles applies modern technologies to the critical mineral sector, and Radiant seek",
@@ -39013,7 +39144,7 @@ const dashboardData = {
     "last_podcast_name": "The a16z Show",
     "last_episode_date": "2026-08-02",
     "mention_score": 1,
-    "mention_score_decayed": 0.81,
+    "mention_score_decayed": 0.79,
     "last_main_idea": "The evolving digital landscape presents opportunities for investment in AI and technology that can enhance daily life and reshape consumption habits, while also requiring a critical approach to understand and adapt to new cultural norms.",
     "last_proof_cite": "The a16z Show \u2022 2026-08-02 \u2022 Ruby Thelot on Internet Culture, AI, and the Future of Taste",
     "last_proof_snippet": "Americans don't like AI. AI is a very broad term. They all use chat. And like, I love it. I love, I love chat. But they don't like AI. There's the bookie man of like, I'm going to lose my job. But when I talk to mothers in Brian tags of lik",
@@ -39265,7 +39396,7 @@ const dashboardData = {
     "last_podcast_name": "The a16z Show",
     "last_episode_date": "2026-07-30",
     "mention_score": 1,
-    "mention_score_decayed": 0.76,
+    "mention_score_decayed": 0.74,
     "last_main_idea": "AI has the potential to automate administrative tasks in healthcare practices, creating significant value for small businesses and changing the landscape of enterprise software.",
     "last_proof_cite": "The a16z Show \u2022 2026-07-30 \u2022 AI for America's Small Businesses | Lassie",
     "last_proof_snippet": "AI is overhyped and Silicon Valley that's underhyped in Iowa. I would actually argue software just kind of took things that were stored in paper format and then they made them available first on-prem via green screen computers, but people s",
@@ -39324,7 +39455,7 @@ const dashboardData = {
     "last_podcast_name": "The a16z Show",
     "last_episode_date": "2026-07-30",
     "mention_score": 1,
-    "mention_score_decayed": 0.76,
+    "mention_score_decayed": 0.74,
     "last_main_idea": "AI has the potential to automate administrative tasks in healthcare practices, creating significant value for small businesses and changing the landscape of enterprise software.",
     "last_proof_cite": "The a16z Show \u2022 2026-07-30 \u2022 AI for America's Small Businesses | Lassie",
     "last_proof_snippet": "AI is overhyped and Silicon Valley that's underhyped in Iowa. I would actually argue software just kind of took things that were stored in paper format and then they made them available first on-prem via green screen computers, but people s",
@@ -39804,7 +39935,7 @@ const dashboardData = {
     "last_podcast_name": "The a16z Show",
     "last_episode_date": "2026-07-24",
     "mention_score": 1,
-    "mention_score_decayed": 0.66,
+    "mention_score_decayed": 0.64,
     "last_main_idea": "Investors should consider the impact of open-source AI models on frontier labs and monitor the security and competitive landscape of AI, as well as potential opportunities in related sectors like cloud computing and data centers.",
     "last_proof_cite": "The a16z Show \u2022 2026-07-24 \u2022 Sriram Krishnan on Open Source AI's Biggest Week Yet",
     "last_proof_snippet": "You can bring it back to very business first principles. If you're providing a product of value, Capitalism will find a way to make the supply chain work for you. So if you have an open-made model that is providing value, that means that ev",
@@ -40807,7 +40938,7 @@ const dashboardData = {
     "last_podcast_name": "The a16z Show",
     "last_episode_date": "2026-07-15",
     "mention_score": 1,
-    "mention_score_decayed": 0.54,
+    "mention_score_decayed": 0.52,
     "last_main_idea": "Investing in AI hardware requires a focus on infrastructure and the ability to scale efficiently, as the AI race is not just about models but also the underlying technology that supports them.",
     "last_proof_cite": "The a16z Show \u2022 2026-07-15 \u2022 Can Anyone Catch NVIDIA? | The Future of Chips and Infrastructure",
     "last_proof_snippet": "In videos that are going to have better networking than you, they're going to have better HP, they're going to have better process-node, they're going to come to market faster, they're going to be able to ramp faster, they're going to have",
@@ -40939,7 +41070,7 @@ const dashboardData = {
     "last_podcast_name": "The a16z Show",
     "last_episode_date": "2026-07-13",
     "mention_score": 1,
-    "mention_score_decayed": 0.51,
+    "mention_score_decayed": 0.5,
     "last_main_idea": "Investing in blockchain technology and AI requires a deep understanding of the foundational computer science principles that underpin these fields, as well as an awareness of the evolving landscape of systems research.",
     "last_proof_cite": "The a16z Show \u2022 2026-07-13 \u2022 Before Blockchains, There Was State Machine Replication",
     "last_proof_snippet": "DARPA had recognized that this was a serious problem, the problem of malicious attacks and was looking for research in that area. I had a student Miguel Castro. We came to me and he said, why don't we see whether we can figure out a way to",
@@ -41079,7 +41210,7 @@ const dashboardData = {
     "last_podcast_name": "The a16z Show",
     "last_episode_date": "2026-07-09",
     "mention_score": 1,
-    "mention_score_decayed": 0.47,
+    "mention_score_decayed": 0.46,
     "last_main_idea": "Investing in the development of new tools for biology and leveraging AI can accelerate scientific discovery and disease management, potentially leading to significant advancements in medicine.",
     "last_proof_cite": "The a16z Show \u2022 2026-07-09 \u2022 Mark Zuckerberg & Priscilla Chan: How AI Will Help Cure Disease",
     "last_proof_snippet": "This is a space that, and if there's just going to be a huge amount of leverage with AI, it still seems like there could be a lot more effort in this space around building tools. And it's kind of this crazy thing that we're, you know, here",
@@ -41145,7 +41276,7 @@ const dashboardData = {
     "last_podcast_name": "The a16z Show",
     "last_episode_date": "2026-07-09",
     "mention_score": 1,
-    "mention_score_decayed": 0.47,
+    "mention_score_decayed": 0.46,
     "last_main_idea": "Investing in the development of new tools for biology and leveraging AI can accelerate scientific discovery and disease management, potentially leading to significant advancements in medicine.",
     "last_proof_cite": "The a16z Show \u2022 2026-07-09 \u2022 Mark Zuckerberg & Priscilla Chan: How AI Will Help Cure Disease",
     "last_proof_snippet": "This is a space that, and if there's just going to be a huge amount of leverage with AI, it still seems like there could be a lot more effort in this space around building tools. And it's kind of this crazy thing that we're, you know, here",
@@ -41206,7 +41337,7 @@ const dashboardData = {
     "last_podcast_name": "The a16z Show",
     "last_episode_date": "2026-07-08",
     "mention_score": 1,
-    "mention_score_decayed": 0.46,
+    "mention_score_decayed": 0.45,
     "last_main_idea": "Invest in real estate companies that emphasize community engagement, technological adaptability, and global scalability to capitalize on the evolving landscape of work and living.",
     "last_proof_cite": "The a16z Show \u2022 2026-07-08 \u2022 Adam Neumann: This Is How You Build Iconic Companies",
     "last_proof_snippet": "You said, I don't tell me how you're doing and I jumped straight into my lessons learned and this had an answer. And you're like, oh, you're still in that stage? That was, and we don't know each other. I was like, Mark, please tell me what",
@@ -41271,7 +41402,7 @@ const dashboardData = {
     "last_podcast_name": "The a16z Show",
     "last_episode_date": "2026-07-07",
     "mention_score": 1,
-    "mention_score_decayed": 0.45,
+    "mention_score_decayed": 0.44,
     "last_main_idea": "Invest in companies that are innovating in headless software architectures and facilitating communication between different business functions within organizations.",
     "last_proof_cite": "The a16z Show \u2022 2026-07-07 \u2022 Is Software Losing Its Head?",
     "last_proof_snippet": "There are many things that made software sticky but a lot of it had to do with the fact that it was built around like the way a human interacts. In an agenda world, do you actually need that? The data, the logic, I mean store below it is re",
@@ -41330,7 +41461,7 @@ const dashboardData = {
     "last_podcast_name": "The a16z Show",
     "last_episode_date": "2026-07-07",
     "mention_score": 1,
-    "mention_score_decayed": 0.45,
+    "mention_score_decayed": 0.44,
     "last_main_idea": "Invest in companies that are innovating in headless software architectures and facilitating communication between different business functions within organizations.",
     "last_proof_cite": "The a16z Show \u2022 2026-07-07 \u2022 Is Software Losing Its Head?",
     "last_proof_snippet": "There are many things that made software sticky but a lot of it had to do with the fact that it was built around like the way a human interacts. In an agenda world, do you actually need that? The data, the logic, I mean store below it is re",
@@ -41514,7 +41645,7 @@ const dashboardData = {
     "last_podcast_name": "The a16z Show",
     "last_episode_date": "2026-07-02",
     "mention_score": 1,
-    "mention_score_decayed": 0.4,
+    "mention_score_decayed": 0.39,
     "last_main_idea": "Invest in companies with capital efficiency and operational excellence in the mobility sector, as they are better positioned to adapt and grow in a competitive landscape.",
     "last_proof_cite": "The a16z Show \u2022 2026-07-02 \u2022 Outsmarting Uber: Why Bolt Wins in Europe",
     "last_proof_snippet": "The mobility market in general is the least competitive in the world. Paul is the leading, share mobility, business, we operate in more than 50 countries with a mission to replace people's private cars. A lot of the taxi companies obviously",
@@ -41698,7 +41829,7 @@ const dashboardData = {
     "last_podcast_name": "The a16z Show",
     "last_episode_date": "2026-07-01",
     "mention_score": 1,
-    "mention_score_decayed": 0.39,
+    "mention_score_decayed": 0.38,
     "last_main_idea": "Invest in platforms that empower creativity and personal expression, as authenticity resonates more deeply with audiences and can lead to more impactful art.",
     "last_proof_cite": "The a16z Show \u2022 2026-07-01 \u2022 Rick Rubin on AI, Creativity, and The Way of Code",
     "last_proof_snippet": "So many people I know who use AI ask it questions and think that the results that they get back is the answer and it seems like people are more interested in getting an answer that can allow them to stop thinking about the question than rea",
@@ -41759,7 +41890,7 @@ const dashboardData = {
     "last_podcast_name": "The a16z Show",
     "last_episode_date": "2026-06-30",
     "mention_score": 1,
-    "mention_score_decayed": 0.38,
+    "mention_score_decayed": 0.37,
     "last_main_idea": "Invest in companies that prioritize user creativity and personalization in their AI offerings, as well as those that leverage data analytics to understand and enhance user experience.",
     "last_proof_cite": "The a16z Show \u2022 2026-06-30 \u2022 Building AI for Creators | Luma & Phota Labs",
     "last_proof_snippet": "I think the creativity is building a story. The tools alone aren't a story. Someone has to direct them. It's not about mastering those tools. It's about directing an agent who can use those tools to achieve your creativity. Generally, I hav",
@@ -42010,7 +42141,7 @@ const dashboardData = {
     "last_podcast_name": "The a16z Show",
     "last_episode_date": "2026-06-24",
     "mention_score": 1,
-    "mention_score_decayed": 0.33,
+    "mention_score_decayed": 0.32,
     "last_main_idea": "Investing in companies that prioritize design expertise and leverage AI tools effectively can lead to better outcomes in product development, as design quality becomes increasingly critical in a mobile-first world.",
     "last_proof_cite": "The a16z Show \u2022 2026-06-24 \u2022 What Happens to Design After AI?",
     "last_proof_snippet": "Designers when using Claude, as opposed to engineers using Claude, would consistently get better results. And it's because of the language that they used. We have to remember that design in the European sense came from royalty and the desir",
@@ -42074,7 +42205,7 @@ const dashboardData = {
     "last_podcast_name": "The a16z Show",
     "last_episode_date": "2026-06-24",
     "mention_score": 1,
-    "mention_score_decayed": 0.33,
+    "mention_score_decayed": 0.32,
     "last_main_idea": "Investing in companies that prioritize design expertise and leverage AI tools effectively can lead to better outcomes in product development, as design quality becomes increasingly critical in a mobile-first world.",
     "last_proof_cite": "The a16z Show \u2022 2026-06-24 \u2022 What Happens to Design After AI?",
     "last_proof_snippet": "Designers when using Claude, as opposed to engineers using Claude, would consistently get better results. And it's because of the language that they used. We have to remember that design in the European sense came from royalty and the desir",
@@ -42877,7 +43008,7 @@ const dashboardData = {
     "last_podcast_name": "The a16z Show",
     "last_episode_date": "2026-06-17",
     "mention_score": 1,
-    "mention_score_decayed": 0.28,
+    "mention_score_decayed": 0.27,
     "last_main_idea": "Invest in fintech companies with strong technological foundations and AI integration, particularly those with a contrarian market entry strategy and a focus on operational efficiency and customer experience.",
     "last_proof_cite": "The a16z Show \u2022 2026-06-17 \u2022 The Fintech Playbook for Latin America",
     "last_proof_snippet": "Don't let your ambition fall prey of commercial wisdom. If you're a consensus play, there's just no alpha. We serve over 3 million consumers, or 50,000 merchant partners, we have incredible cost to serve economics. Over 200 A-engine product",
@@ -43446,7 +43577,7 @@ const dashboardData = {
     "last_podcast_name": "The a16z Show",
     "last_episode_date": "2026-06-10",
     "mention_score": 1,
-    "mention_score_decayed": 0.24,
+    "mention_score_decayed": 0.23,
     "last_main_idea": "Invest in healthcare companies that actively integrate AI to streamline operations and improve patient experiences, as well as organizations that foster a culture of AI experimentation and collaboration.",
     "last_proof_cite": "The a16z Show \u2022 2026-06-10 \u2022 AI, Growth, and the Future of Healthcare | Anish Acharya & Sachin Jain",
     "last_proof_snippet": "The way that we make sure this technology benefits all of society is we make important things cheap. And the most important thing is healthcare. This is one of the most beautiful humanistic technologies we've ever invented. We've spent 40 y",
@@ -43980,7 +44111,7 @@ const dashboardData = {
     "last_podcast_name": "The a16z Show",
     "last_episode_date": "2026-06-04",
     "mention_score": 1,
-    "mention_score_decayed": 0.21,
+    "mention_score_decayed": 0.2,
     "last_main_idea": "Invest in AI-driven coding and software development companies for potential high returns and prepare for the evolving job landscape by reskilling the workforce.",
     "last_proof_cite": "The a16z Show \u2022 2026-06-04 \u2022 AI Eats the World? A Reality Check with Benedict Evans",
     "last_proof_snippet": "Mobile didn't need to wait for the internet, the internet didn't need to wait for PCs and PCs didn't need to wait for consumer electronics and semiconductors and so on. So you've always got this accelerating adoption. Benedict Evans is a te",
@@ -44235,7 +44366,7 @@ const dashboardData = {
     "last_podcast_name": "The a16z Show",
     "last_episode_date": "2026-05-28",
     "mention_score": 1,
-    "mention_score_decayed": 0.18,
+    "mention_score_decayed": 0.17,
     "last_main_idea": "Invest in companies leveraging stablecoins and AI to enhance operational efficiency and expand into global markets, with a focus on regulatory compliance and infrastructure scalability.",
     "last_proof_cite": "The a16z Show \u2022 2026-05-28 \u2022 Stablecoins, AI Agents, and The Future of Global Banking",
     "last_proof_snippet": "The goal of the GS is really to build a global business bank that can function in multiple countries. Sablecoins is a lived experience. It's not something that's a theory, like, in Argentina, 60% of the population use Sablecoins. Our revenu",
@@ -45229,7 +45360,7 @@ const dashboardData = {
     "last_podcast_name": "The a16z Show",
     "last_episode_date": "2026-05-13",
     "mention_score": 1,
-    "mention_score_decayed": 0.13,
+    "mention_score_decayed": 0.12,
     "last_main_idea": "Invest in companies that are driving innovation in critical minerals and energy infrastructure to capture market share and support U.S. technological leadership.",
     "last_proof_cite": "The a16z Show \u2022 2026-05-13 \u2022 Energy, Minerals, and the Physical Stack Behind AI",
     "last_proof_snippet": "The U.S. is 50 years behind on critical minerals supply. We are too slow at designing, building, and ramping up new minerals capacity, even after we have licensed operate. Even though there's so much innovation happening at the edge of the",
@@ -45295,7 +45426,7 @@ const dashboardData = {
     "last_podcast_name": "The a16z Show",
     "last_episode_date": "2026-05-13",
     "mention_score": 1,
-    "mention_score_decayed": 0.13,
+    "mention_score_decayed": 0.12,
     "last_main_idea": "Invest in companies that are driving innovation in critical minerals and energy infrastructure to capture market share and support U.S. technological leadership.",
     "last_proof_cite": "The a16z Show \u2022 2026-05-13 \u2022 Energy, Minerals, and the Physical Stack Behind AI",
     "last_proof_snippet": "The U.S. is 50 years behind on critical minerals supply. We are too slow at designing, building, and ramping up new minerals capacity, even after we have licensed operate. Even though there's so much innovation happening at the edge of the",

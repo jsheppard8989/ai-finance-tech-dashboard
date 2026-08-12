@@ -1,5 +1,21 @@
 [
   {
+    "id": 399,
+    "podcast_name": "The a16z Show",
+    "episode_title": "Garry Tan on Taste, Agents and Founder Ambition",
+    "episode_date": "2026-08-12",
+    "summary": "In this episode of 'The a16z Show', Anisha Tariah interviews Gary Tan, president and CEO of Wide, on the evolving landscape for startup founders. They discuss the importance of founders following their unique knowledge rather than chasing trends, the transformative impact of AI on coding and company management, and the potential for future startups to be smaller, faster, and more ambitious. Gary also shares insights from his own career, including missed opportunities and the lessons learned from trusting direct experience over consensus.",
+    "key_takeaways": [
+      "Founders should focus on their unique knowledge rather than chasing what's hot in the market.",
+      "AI is revolutionizing coding, company management, and could lead to smaller, faster, and more ambitious startups.",
+      "Direct experience should be trusted over consensus when making investment decisions.",
+      "The future of startups may involve leveraging AI to automate and perfect business processes.",
+      "Experienced founders in their 30s and 40s have an advantage due to their accumulated strategies and understanding of business processes."
+    ],
+    "investment_thesis": "Invest in startups leveraging AI to automate and perfect business processes, led by founders with a deep understanding of their domain and a history of successful strategy implementation.",
+    "key_tickers": null
+  },
+  {
     "id": 398,
     "podcast_name": "Moonshots with Peter Diamandis",
     "episode_title": "Sergey Brin Retakes Gemini, 4 Labs Lose Containment, Compute Trades at NYSE w/ Kush Bavaria | EP #278",
@@ -121,21 +137,5 @@
       "UPWORK",
       "TENABLE"
     ]
-  },
-  {
-    "id": 391,
-    "podcast_name": "Dwarkesh Podcast",
-    "episode_title": "8 Predictions for the Era of Continual Learning",
-    "episode_date": "2026-08-07",
-    "summary": "This podcast episode explores the concept of continual learning in AI and its implications for job performance, regulation, and the competitive landscape. The discussion highlights the need for AI to learn continuously from different workplaces to accumulate relevant experience, similar to human learning. It also addresses the challenges that continual learning poses to current AI regulation proposals and the potential for increased economies of scale in AI due to batching advantages in inference.",
-    "key_takeaways": [
-      "Continual learning is necessary for AI to perform jobs as competently as humans.",
-      "AI regulation proposals based on one-time model checks may become obsolete with continual learning.",
-      "Technical alignment in AI needs to adapt to constant weight updates and prevent malicious inclinations.",
-      "Diversity in AI minds will increase as AI learns from different experiences.",
-      "The returns to being ahead in the AI race will accelerate when deployment becomes part of training."
-    ],
-    "investment_thesis": "Invest in AI companies prioritizing continual learning and technical alignment to stay competitive in the evolving AI landscape.",
-    "key_tickers": null
   }
 ]
