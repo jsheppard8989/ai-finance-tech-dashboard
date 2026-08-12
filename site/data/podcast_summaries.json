@@ -1,5 +1,21 @@
 [
   {
+    "id": 396,
+    "podcast_name": "Dwarkesh Podcast",
+    "episode_title": "Ryan Greenblatt \u2013 Human level AIs might build runaway superintelligences by 2032",
+    "episode_date": "2026-08-11",
+    "summary": "In this episode of the Dwarkesh Podcast, the host interviews Ryan Greenlet, Chief Scientist at Redwood Research, to discuss the concept of recursive self-improvement in AI. They delve into the plausibility of AI quickly advancing to super intelligence levels, the implications for R&D, and the potential risks associated with AI systems that could surpass human expertise. The conversation covers the timeline for AI advancements, the feedback loop in AI R&D, and the societal impacts of fully automating R&D processes.",
+    "key_takeaways": [
+      "AI's are particularly adept at R&D tasks due to their iterative and verifiable nature.",
+      "The automation of AI R&D could lead to significant progress, potentially condensing years of advancement into a single year.",
+      "The outcome of such rapid AI progress could be AI systems that outperform humans in any given task.",
+      "There is skepticism about the timeline for AI advancements, with some expecting full automation of R&D around 2030-2031.",
+      "Ethical considerations and the potential for misuse of AI systems are significant concerns as AI capabilities increase."
+    ],
+    "investment_thesis": "Investment in AI development and security is crucial to manage the rapid advancements and ensure ethical AI behavior.",
+    "key_tickers": null
+  },
+  {
     "id": 395,
     "podcast_name": "The a16z Show",
     "episode_title": "The CISO Playbook for AI Agents | Datadog",
@@ -119,23 +135,6 @@
       "Open source AI models foster innovation by creating a competitive landscape where improvements are shared and built upon."
     ],
     "investment_thesis": "Investing in open source AI infrastructure and models is crucial for enterprises looking to leverage AI capabilities, as it offers a sustainable and collaborative approach to innovation in the field.",
-    "key_tickers": null
-  },
-  {
-    "id": 388,
-    "podcast_name": "All-In with Chamath, Jason, Sacks & Friedberg",
-    "episode_title": "Saronic Founders: Autonomous Warships, China's 230X Advantage & Swarms of Robot Ships",
-    "episode_date": "2026-08-05",
-    "summary": "In this episode of 'All-In with Chamath, Jason, Sacks & Friedberg', the co-founders of Ceranic, a defense company, discuss their groundbreaking work on autonomous ships. They highlight a recent rescue mission in the Strait of Hormuz, where an autonomous ship was used for the first time to rescue stranded pilots. The conversation delves into the implications of this technology for the U.S. military, the defense industry, and the future of shipbuilding. The co-founders also touch on the challenges and opportunities in the defense sector, including the shift away from cost-plus contracts and the need for increased investment in autonomous systems.",
-    "key_takeaways": [
-      "Ceranic's autonomous ship recently conducted a historic rescue mission in the Strait of Hormuz.",
-      "The U.S. military's trust in Ceranic's technology signifies a shift towards autonomous systems in defense.",
-      "The co-founders argue for a significant increase in investment in autonomous systems within the defense budget.",
-      "There is a push from the administration for faster adoption of new technologies in defense.",
-      "The defense industry is moving away from cost-plus contracts, which can incentivize higher costs.",
-      "Ceranic is encouraged by the administration's focus on shipbuilding as a critical strategic industry."
-    ],
-    "investment_thesis": "Investment in autonomous defense technologies is crucial for maintaining a competitive edge and can lead to significant advancements in military capabilities.",
     "key_tickers": null
   }
 ]

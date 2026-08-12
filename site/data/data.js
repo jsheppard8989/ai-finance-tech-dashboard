@@ -3,80 +3,80 @@
 
 const dashboardData = {
   schemaVersion: 2,
-  generatedAt: "2026-08-11T13:40:24.377372",
-  chartsVersion: "2026-08-11T13:40:14.821261",
+  generatedAt: "2026-08-11T22:05:33.401847",
+  chartsVersion: "2026-08-11T22:05:18.501555",
   priceSnapshot: {
   "GOOGL": {
-    "price": 345.8,
-    "change_pct": 8.85,
+    "price": 343.8,
+    "change_pct": 8.22,
     "name": "GOOGL",
-    "updated_at": "2026-08-11T13:40:14.820812"
+    "updated_at": "2026-08-11T22:05:18.499901"
   },
   "NVDA": {
-    "price": 216.74,
-    "change_pct": 3.82,
+    "price": 217.5,
+    "change_pct": 4.19,
     "name": "NVDA",
-    "updated_at": "2026-08-11T13:40:14.820821"
+    "updated_at": "2026-08-11T22:05:18.499923"
   },
   "BTC": {
-    "price": 63280.3,
-    "change_pct": -0.98,
+    "price": 63729.49,
+    "change_pct": -1.54,
     "name": "BTC",
-    "updated_at": "2026-08-11T13:40:14.820825"
+    "updated_at": "2026-08-11T22:05:18.499933"
   },
   "TSLA": {
-    "price": 331.09,
-    "change_pct": 3.57,
+    "price": 332.81,
+    "change_pct": 4.1,
     "name": "TSLA",
-    "updated_at": "2026-08-11T13:40:14.820828"
+    "updated_at": "2026-08-11T22:05:18.499942"
   },
   "MSFT": {
-    "price": 502.35,
-    "change_pct": 31.65,
+    "price": 503.81,
+    "change_pct": 32.03,
     "name": "MSFT",
-    "updated_at": "2026-08-11T13:40:14.820832"
+    "updated_at": "2026-08-11T22:05:18.499950"
   },
   "AMZN": {
-    "price": 271.45,
-    "change_pct": 16.17,
+    "price": 272.27,
+    "change_pct": 16.52,
     "name": "AMZN",
-    "updated_at": "2026-08-11T13:40:14.820835"
+    "updated_at": "2026-08-11T22:05:18.499958"
   },
   "META": {
-    "price": 602.67,
-    "change_pct": -0.57,
+    "price": 599.12,
+    "change_pct": -1.15,
     "name": "META",
-    "updated_at": "2026-08-11T13:40:14.820838"
+    "updated_at": "2026-08-11T22:05:18.499967"
   },
   "WTI": {
-    "price": 3.87,
-    "change_pct": 0.52,
+    "price": 3.81,
+    "change_pct": -1.04,
     "name": "WTI",
-    "updated_at": "2026-08-11T13:40:14.820841"
+    "updated_at": "2026-08-11T22:05:18.499975"
   },
   "S&P 500": {
-    "price": 769.9,
-    "change_pct": 4.3,
+    "price": 770.56,
+    "change_pct": 4.39,
     "name": "S&P 500",
-    "updated_at": "2026-08-11T13:40:14.820844"
+    "updated_at": "2026-08-11T22:05:18.499983"
   },
   "AAPL": {
-    "price": 303.24,
-    "change_pct": -5.64,
+    "price": 304.91,
+    "change_pct": -5.13,
     "name": "AAPL",
-    "updated_at": "2026-08-11T13:40:14.820848"
+    "updated_at": "2026-08-11T22:05:18.499991"
   },
   "QQQ": {
-    "price": 716.5,
-    "change_pct": 3.55,
+    "price": 718.45,
+    "change_pct": 3.83,
     "name": "Invesco QQQ Trust",
-    "updated_at": "2026-08-11T13:40:14.820851"
+    "updated_at": "2026-08-11T22:05:18.499999"
   },
   "BTC-USD": {
-    "price": 63280.3,
-    "change_pct": -0.98,
+    "price": 63729.49,
+    "change_pct": -1.54,
     "name": "Bitcoin USD",
-    "updated_at": "2026-08-11T13:40:14.820854"
+    "updated_at": "2026-08-11T22:05:18.500009"
   }
 },
   tickerScores: [
@@ -853,6 +853,27 @@ const dashboardData = {
       "podcast_episode_id": 395
     },
     {
+      "id": 411,
+      "title": "Ryan Greenblatt \u2013 Human level AIs might build runaway superintelligences by 2032",
+      "source_type": "podcast",
+      "source_name": "Dwarkesh Podcast",
+      "source_date": "2026-08-11",
+      "summary": "In this episode of the Dwarkesh Podcast, the host interviews Ryan Greenlet, Chief Scientist at Redwood Research, to discuss the concept of recursive self-improvement in AI. They delve into the plausibility of AI quickly advancing to super intelligence levels, the implications for R&D, and the potential risks associated with AI systems that could surpass human expertise. The conversation covers the timeline for AI advancements, the feedback loop in AI R&D, and the societal impacts of fully automating R&D processes.",
+      "key_takeaway": "Investment in AI development and security is crucial to manage the rapid advancements and ensure ethical AI behavior.",
+      "tickers_mentioned": [
+        "GOOGL",
+        "MSFT",
+        "NVDA"
+      ],
+      "sentiment": "bearish",
+      "display_on_main": 1,
+      "display_order": 0,
+      "added_date": "2026-08-11",
+      "archived_date": null,
+      "archived_reason": null,
+      "podcast_episode_id": 396
+    },
+    {
       "id": 409,
       "title": "How Kavak Rebuilt Itself Around AI Agents | Alejandro Maza Ayala",
       "source_type": "podcast",
@@ -1006,7 +1027,7 @@ const dashboardData = {
         "AAPL"
       ],
       "sentiment": "neutral",
-      "display_on_main": 1,
+      "display_on_main": 0,
       "display_order": 0,
       "added_date": "2026-08-05",
       "archived_date": null,
@@ -8751,8 +8772,8 @@ const dashboardData = {
       "term": "Taste",
       "description": "A concept that goes beyond aesthetic preference, relating to how people consume virtually and the societal guidance on proper consumption habits, especially in the context of wealth creation.",
       "first_detected_date": "2026-08-02",
-      "last_mentioned_date": "2026-08-10",
-      "mention_count": 2,
+      "last_mentioned_date": "2026-08-11",
+      "mention_count": 3,
       "source_podcasts": null,
       "status": "active",
       "investment_implications": "Investors can use the understanding of 'taste' to predict consumer behavior in digital economies and identify emerging markets.",
@@ -8761,8 +8782,8 @@ const dashboardData = {
       "archived_reason": null,
       "first_detected_episode_id": 380,
       "first_detected_speaker": "Ruby J. To Low",
-      "last_mentioned_episode_id": 394,
-      "last_mentioned_speaker": "Ruby J. To Low"
+      "last_mentioned_episode_id": 396,
+      "last_mentioned_speaker": "Ryan Greenlet"
     },
     {
       "id": 267,
@@ -8929,20 +8950,20 @@ const dashboardData = {
     {
       "id": 43,
       "term": "ASI",
-      "description": "An intellect that is much smarter than the best human brains in practically every field, including scientific creativity, general wisdom, and social skills.",
+      "description": "Artificial Super Intelligence, referring to AI systems that surpass human intelligence in every field.",
       "first_detected_date": "2026-06-29",
-      "last_mentioned_date": "2026-08-04",
-      "mention_count": 7,
+      "last_mentioned_date": "2026-08-11",
+      "mention_count": 8,
       "source_podcasts": null,
       "status": "active",
-      "investment_implications": "ASI represents a paradigm shift; investors should monitor advancements closely as it could lead to significant economic and societal changes.",
+      "investment_implications": "ASI represents a potential paradigm shift in technology and could disrupt various industries.",
       "display_on_main": 0,
       "archived_date": null,
       "archived_reason": null,
       "first_detected_episode_id": 319,
       "first_detected_speaker": "Peter Diamandis (hosts)",
-      "last_mentioned_episode_id": 386,
-      "last_mentioned_speaker": "Michael Kratsios"
+      "last_mentioned_episode_id": 396,
+      "last_mentioned_speaker": "Ryan Greenlet"
     },
     {
       "id": 135,
@@ -10919,6 +10940,26 @@ const dashboardData = {
       "key_tickers": []
     },
     {
+      "id": 411,
+      "title": "Ryan Greenblatt \u2013 Human level AIs might build runaway superintelligences by 2032",
+      "source_type": "podcast",
+      "source_name": "Dwarkesh Podcast",
+      "source_date": "2026-08-11",
+      "summary": "In this episode of the Dwarkesh Podcast, the host interviews Ryan Greenlet, Chief Scientist at Redwood Research, to discuss the concept of recursive self-improvement in AI. They delve into the plausibility of AI quickly advancing to super intelligence levels, the implications for R&D, and the potential risks associated with AI systems that could surpass human expertise. The conversation covers the timeline for AI advancements, the feedback loop in AI R&D, and the societal impacts of fully automating R&D processes.",
+      "key_takeaway": "Investment in AI development and security is crucial to manage the rapid advancements and ensure ethical AI behavior.",
+      "tickers_mentioned": "[\"GOOGL\", \"MSFT\", \"NVDA\"]",
+      "sentiment": "bearish",
+      "display_on_main": 1,
+      "display_order": 0,
+      "added_date": "2026-08-11",
+      "archived_date": null,
+      "archived_reason": null,
+      "podcast_episode_id": 396,
+      "episode_release_date": "2026-08-11",
+      "guest_name": null,
+      "key_tickers": []
+    },
+    {
       "id": 409,
       "title": "How Kavak Rebuilt Itself Around AI Agents | Alejandro Maza Ayala",
       "source_type": "podcast",
@@ -11042,26 +11083,6 @@ const dashboardData = {
       "podcast_episode_id": 389,
       "episode_release_date": "2026-08-06",
       "guest_name": "How Open",
-      "key_tickers": []
-    },
-    {
-      "id": 403,
-      "title": "Saronic Founders: Autonomous Warships, China's 230X Advantage & Swarms of Robot Ships",
-      "source_type": "podcast",
-      "source_name": "All-In with Chamath, Jason, Sacks & Friedberg",
-      "source_date": "2026-08-05",
-      "summary": "In this episode of 'All-In with Chamath, Jason, Sacks & Friedberg', the co-founders of Ceranic, a defense company, discuss their groundbreaking work on autonomous ships. They highlight a recent rescue mission in the Strait of Hormuz, where an autonomous ship was used for the first time to rescue stranded pilots. The conversation delves into the implications of this technology for the U.S. military, the defense industry, and the future of shipbuilding. The co-founders also touch on the challenges and opportunities in the defense sector, including the shift away from cost-plus contracts and the need for increased investment in autonomous systems.",
-      "key_takeaway": "Investment in autonomous defense technologies is crucial for maintaining a competitive edge and can lead to significant advancements in military capabilities.",
-      "tickers_mentioned": "[\"AAPL\"]",
-      "sentiment": "neutral",
-      "display_on_main": 1,
-      "display_order": 0,
-      "added_date": "2026-08-05",
-      "archived_date": null,
-      "archived_reason": null,
-      "podcast_episode_id": 388,
-      "episode_release_date": "2026-08-05",
-      "guest_name": "Saronic Founders",
       "key_tickers": []
     }
   ],
@@ -11397,6 +11418,32 @@ const dashboardData = {
       "last_mentioned_episode_date": "2026-08-05"
     },
     {
+      "id": 270,
+      "term": "Taste",
+      "description": "A concept that goes beyond aesthetic preference, relating to how people consume virtually and the societal guidance on proper consumption habits, especially in the context of wealth creation.",
+      "first_detected_date": "2026-08-02",
+      "last_mentioned_date": "2026-08-11",
+      "mention_count": 3,
+      "source_podcasts": null,
+      "status": "active",
+      "investment_implications": "Investors can use the understanding of 'taste' to predict consumer behavior in digital economies and identify emerging markets.",
+      "display_on_main": 1,
+      "archived_date": null,
+      "archived_reason": null,
+      "first_detected_episode_id": 380,
+      "first_detected_speaker": "Ruby J. To Low",
+      "last_mentioned_episode_id": 396,
+      "last_mentioned_speaker": "Ryan Greenlet",
+      "overton_score": 3.0,
+      "resonance_pct": 75,
+      "first_detected_podcast": "The a16z Show",
+      "first_detected_episode_title": "Ruby Thelot on Internet Culture, AI, and the Future of Taste",
+      "first_detected_episode_date": "2026-08-02",
+      "last_mentioned_podcast": "Dwarkesh Podcast",
+      "last_mentioned_episode_title": "Ryan Greenblatt \u2013 Human level AIs might build runaway superintelligences by 2032",
+      "last_mentioned_episode_date": "2026-08-11"
+    },
+    {
       "id": 219,
       "term": "AI-native computing",
       "description": "A business model where artificial intelligence is integrated into the core operations and infrastructure of a company, rather than being an add-on or separate function.",
@@ -11499,32 +11546,6 @@ const dashboardData = {
       "last_mentioned_podcast": "The a16z Show",
       "last_mentioned_episode_title": "Fei-Fei Li on Spatial Intelligence and Robotics",
       "last_mentioned_episode_date": "2026-07-28"
-    },
-    {
-      "id": 270,
-      "term": "Taste",
-      "description": "A concept that goes beyond aesthetic preference, relating to how people consume virtually and the societal guidance on proper consumption habits, especially in the context of wealth creation.",
-      "first_detected_date": "2026-08-02",
-      "last_mentioned_date": "2026-08-10",
-      "mention_count": 2,
-      "source_podcasts": null,
-      "status": "active",
-      "investment_implications": "Investors can use the understanding of 'taste' to predict consumer behavior in digital economies and identify emerging markets.",
-      "display_on_main": 1,
-      "archived_date": null,
-      "archived_reason": null,
-      "first_detected_episode_id": 380,
-      "first_detected_speaker": "Ruby J. To Low",
-      "last_mentioned_episode_id": 394,
-      "last_mentioned_speaker": "Ruby J. To Low",
-      "overton_score": 1.95,
-      "resonance_pct": 49,
-      "first_detected_podcast": "The a16z Show",
-      "first_detected_episode_title": "Ruby Thelot on Internet Culture, AI, and the Future of Taste",
-      "first_detected_episode_date": "2026-08-02",
-      "last_mentioned_podcast": "The a16z Show",
-      "last_mentioned_episode_title": "How Kavak Rebuilt Itself Around AI Agents | Alejandro Maza Ayala",
-      "last_mentioned_episode_date": "2026-08-10"
     }
   ]
 },
@@ -35711,9 +35732,78 @@ const dashboardData = {
     "source_name": "The a16z Show",
     "source_date": "2026-08-11",
     "key_tickers": []
+  },
+  "411": {
+    "id": 401,
+    "insight_id": 411,
+    "podcast_episode_id": 396,
+    "overview": "The unresolved tension in the development of AI lies in the balance between rapid technological advancement and the ethical and security implications of creating superintelligent entities. The competitive dynamic is between those pushing the boundaries of AI capabilities and those advocating for caution to prevent potential risks. The metric that arbitrates this uncertainty is the pace and direction of AI advancements, particularly in R&D, and the ability of regulatory bodies and society to adapt to and manage these changes.",
+    "key_takeaways_detailed": [
+      "Investors should monitor the pace of AI advancements in R&D, as rapid progress could indicate an approaching inflection point in AI capabilities.",
+      "The development of regulatory frameworks and ethical guidelines for AI will be a critical factor in managing the risks associated with superintelligent AI.",
+      "Diversification across AI development companies may be prudent, as those at the forefront of R&D are likely to be most affected by the rapid advancements discussed."
+    ],
+    "investment_thesis": "The core logic is that the rapid advancement of AI in R&D, as discussed by Ryan Greenlet, could lead to the development of superintelligent AI by 2032. This would be vindicated by continuous breakthroughs in AI capabilities and the acceleration of R&D progress. Conversely, it would be invalidated by a stagnation in AI development or the implementation of effective regulatory measures that slow down the recursive self-improvement of AI.",
+    "ticker_analysis": {
+      "GOOGL": {
+        "rationale": "Google is a major player in AI research and development, with significant resources dedicated to advancing AI technology.",
+        "positioning": "Strategic long position, as advancements in AI could significantly increase the value of Google's technology and market position.",
+        "risk": "Regulatory hurdles or ethical backlash against AI could slow down development, affecting Google's AI initiatives."
+      },
+      "MSFT": {
+        "rationale": "Microsoft is heavily invested in AI, with a focus on AI as a service and integration across its product suite.",
+        "positioning": "Strategic long position, as Microsoft's AI advancements could drive growth and competitive advantage.",
+        "risk": "Slower than expected AI progress could limit the potential upside of Microsoft's AI investments."
+      },
+      "NVDA": {
+        "rationale": "Nvidia is a key supplier of GPUs, which are essential for the computational power required for AI development.",
+        "positioning": "Tactical long position, as demand for GPUs is likely to increase with advancements in AI.",
+        "risk": "Technological disruptions or shifts in AI computation methods could reduce demand for Nvidia's products."
+      }
+    },
+    "positioning_guidance": "",
+    "risk_factors": [],
+    "contrarian_signals": [
+      "The historical skepticism towards the rapid development of superintelligent AI, suggesting that current expectations may be overestimating the pace of advancement.",
+      "The potential for ethical and security concerns to significantly slow down or redirect the trajectory of AI development.",
+      "The possibility that AI advancements may not follow a linear progression, with periods of stagnation or setbacks."
+    ],
+    "catalysts": [
+      "Major AI breakthroughs or announcements from leading tech companies.",
+      "Publications or reports detailing significant advancements in AI R&D.",
+      "Regulatory decisions or policy changes related to AI development and deployment."
+    ],
+    "related_insights": null,
+    "audio_timestamp_start": null,
+    "audio_timestamp_end": null,
+    "transcript_excerpt": null,
+    "created_at": "2026-08-11T22:04:18.618797",
+    "updated_at": "2026-08-12 03:04:18",
+    "episode_evidence": "Ryan Greenlet, Chief Scientist at Redwood Research, discusses the concept of recursive self-improvement in AI, suggesting that once human-level intelligence is achieved, AI could rapidly progress to superintelligence levels. He emphasizes the importance of AI's proficiency in R&D, stating, 'R&D is a type of task at which the AI's are especially good,' and notes the potential for a feedback loop where AI's improve AI research, leading to rapid advancements. Greenlet's median expectation for full automation of R&D is around 2030-2031, with the possibility of AI surpassing human performance in all jobs by 2033. He also highlights the verifiable nature of AI R&D tasks, which allows for iterative progress and the potential for AI to develop into a superintelligent form capable of outperforming humans in any task.",
+    "falsification_tracks": [
+      "A significant slowdown in AI development progress, with no major breakthroughs in AI R&D for an extended period, would challenge the thesis of rapid AI advancement.",
+      "The emergence of technical limitations or bottlenecks in AI development that cannot be overcome within the projected timeframe would invalidate the expectation of quick progression to superintelligence.",
+      "Observed ethical and security measures that effectively slow down or halt the recursive self-improvement of AI, contradicting the prediction of rapid advancement towards superintelligence."
+    ],
+    "insight_title": "Ryan Greenblatt \u2013 Human level AIs might build runaway superintelligences by 2032",
+    "source_name": "Dwarkesh Podcast",
+    "source_date": "2026-08-11",
+    "key_tickers": []
   }
 },
   suggestedTerms: [
+  {
+    "id": 583,
+    "term": "AI R&D",
+    "definition": "Research and development in the field of artificial intelligence, focusing on creating more advanced AI systems.",
+    "investment_implications": "Investment in AI R&D could accelerate technological advancements and create new market opportunities.",
+    "source_type": "auto_extracted",
+    "mention_count": 1,
+    "source_diversity": 1,
+    "relevance_score": 50,
+    "submitted_date": "2026-08-12 03:01:52",
+    "priority_score": 80
+  },
   {
     "id": 582,
     "term": "Relational Company",
@@ -35749,23 +35839,11 @@ const dashboardData = {
     "relevance_score": 50,
     "submitted_date": "2026-08-08 03:01:12",
     "priority_score": 80
-  },
-  {
-    "id": 580,
-    "term": "Economies of Scale in AI",
-    "definition": "The potential increase in economies of scale in AI due to batching advantages in inference.",
-    "investment_implications": "Assess the economic impact of batching on AI inference efficiency for investment decisions.",
-    "source_type": "auto_extracted",
-    "mention_count": 1,
-    "source_diversity": 1,
-    "relevance_score": 50,
-    "submitted_date": "2026-08-08 03:01:12",
-    "priority_score": 80
   }
 ],
   podcastGuests: [
   {
-    "id": 48353,
+    "id": 48467,
     "name": "How Kavak Rebuilt Itself Around AI Agents",
     "slug": "how-kavak-rebuilt-itself-around-ai-agents",
     "bio": null,
@@ -35777,7 +35855,7 @@ const dashboardData = {
     "appearance_count": 1
   },
   {
-    "id": 48354,
+    "id": 48468,
     "name": "Emad Mostaque",
     "slug": "emad-mostaque",
     "bio": null,
@@ -35789,7 +35867,7 @@ const dashboardData = {
     "appearance_count": 1
   },
   {
-    "id": 48355,
+    "id": 48469,
     "name": "How Open",
     "slug": "how-open",
     "bio": null,
@@ -35801,7 +35879,7 @@ const dashboardData = {
     "appearance_count": 1
   },
   {
-    "id": 48356,
+    "id": 48470,
     "name": "Saronic Founders",
     "slug": "saronic-founders",
     "bio": null,
@@ -35813,7 +35891,7 @@ const dashboardData = {
     "appearance_count": 1
   },
   {
-    "id": 48357,
+    "id": 48471,
     "name": "OpenAI's Joshua Achiam",
     "slug": "openais-joshua-achiam",
     "bio": null,
@@ -35825,7 +35903,7 @@ const dashboardData = {
     "appearance_count": 1
   },
   {
-    "id": 48358,
+    "id": 48472,
     "name": "Why Macro is \u201cPretty Risk-On\u201d for Equities",
     "slug": "why-macro-is-pretty-risk-on-for-equities",
     "bio": null,
@@ -35837,7 +35915,7 @@ const dashboardData = {
     "appearance_count": 1
   },
   {
-    "id": 48359,
+    "id": 48473,
     "name": "AI for America's Small Businesses",
     "slug": "ai-for-americas-small-businesses",
     "bio": null,
@@ -35849,7 +35927,7 @@ const dashboardData = {
     "appearance_count": 1
   },
   {
-    "id": 48360,
+    "id": 48474,
     "name": "Mum\u2019s The Word",
     "slug": "mums-the-word",
     "bio": null,
@@ -35861,7 +35939,7 @@ const dashboardData = {
     "appearance_count": 1
   },
   {
-    "id": 48361,
+    "id": 48475,
     "name": "Luke Gromen",
     "slug": "luke-gromen",
     "bio": null,
@@ -35873,7 +35951,7 @@ const dashboardData = {
     "appearance_count": 1
   },
   {
-    "id": 48362,
+    "id": 48476,
     "name": "Codex from 0 to 10M Users",
     "slug": "codex-from-0-to-10m-users",
     "bio": null,
@@ -35885,7 +35963,7 @@ const dashboardData = {
     "appearance_count": 1
   },
   {
-    "id": 48363,
+    "id": 48477,
     "name": "Ben Horowitz",
     "slug": "ben-horowitz",
     "bio": "Ben Horowitz is a co-founder of venture firm Andreessen Horowitz and former CEO of Opsware, known for advising founders on leadership under pressure.",
@@ -35897,7 +35975,7 @@ const dashboardData = {
     "appearance_count": 3
   },
   {
-    "id": 48364,
+    "id": 48478,
     "name": "Building the Physical AI Stack",
     "slug": "building-the-physical-ai-stack",
     "bio": null,
@@ -35909,7 +35987,7 @@ const dashboardData = {
     "appearance_count": 1
   },
   {
-    "id": 48365,
+    "id": 48479,
     "name": "Travis Kalanick Is Back",
     "slug": "travis-kalanick-is-back",
     "bio": null,
@@ -35921,7 +35999,7 @@ const dashboardData = {
     "appearance_count": 1
   },
   {
-    "id": 48366,
+    "id": 48480,
     "name": "Why Physical AI Is the Next Frontier",
     "slug": "why-physical-ai-is-the-next-frontier",
     "bio": null,
@@ -35933,7 +36011,7 @@ const dashboardData = {
     "appearance_count": 1
   },
   {
-    "id": 48367,
+    "id": 48481,
     "name": "Nick Nemeth",
     "slug": "nick-nemeth",
     "bio": null,
@@ -35945,7 +36023,7 @@ const dashboardData = {
     "appearance_count": 1
   },
   {
-    "id": 48368,
+    "id": 48482,
     "name": "Mark Cuban on the AI Bubble",
     "slug": "mark-cuban-on-the-ai-bubble",
     "bio": null,
@@ -35957,7 +36035,7 @@ const dashboardData = {
     "appearance_count": 1
   },
   {
-    "id": 48369,
+    "id": 48483,
     "name": "Urgent Update- AI Sputnik Moment",
     "slug": "urgent-update--ai-sputnik-moment",
     "bio": null,
@@ -35969,7 +36047,7 @@ const dashboardData = {
     "appearance_count": 1
   },
   {
-    "id": 48370,
+    "id": 48484,
     "name": "Replay 2025",
     "slug": "replay-2025",
     "bio": null,
@@ -35981,7 +36059,7 @@ const dashboardData = {
     "appearance_count": 1
   },
   {
-    "id": 48371,
+    "id": 48485,
     "name": "Turbo Charged Trend Following",
     "slug": "turbo-charged-trend-following",
     "bio": null,
@@ -35993,7 +36071,7 @@ const dashboardData = {
     "appearance_count": 1
   },
   {
-    "id": 48372,
+    "id": 48486,
     "name": "Can Anyone Catch NVIDIA?",
     "slug": "can-anyone-catch-nvidia",
     "bio": null,
@@ -36024,7 +36102,7 @@ const dashboardData = {
     "last_podcast_name": "Macro Voices",
     "last_episode_date": "2026-05-14",
     "mention_score": 6,
-    "mention_score_decayed": 0.79,
+    "mention_score_decayed": 0.77,
     "last_main_idea": "Investors should prepare for potential volatility as economic indicators begin to reflect the impacts of energy prices and passive investment flows.",
     "last_proof_cite": "Macro Voices \u2022 2026-05-14 \u2022 MacroVoices #532 Mike Green: Record Mechanical Flows",
     "last_proof_snippet": "This is Macrovoisers, the Free Weekly Financial Podcast, targeting professional finance, high-net worth individuals, family offices, and other sophisticated investors. Macrovoisers is all about the brightest minds in the world of finance an",
@@ -36274,7 +36352,7 @@ const dashboardData = {
     "last_podcast_name": "Monetary Matters with Jack Farley",
     "last_episode_date": "2026-05-01",
     "mention_score": 3,
-    "mention_score_decayed": 0.32,
+    "mention_score_decayed": 0.31,
     "last_main_idea": "In an environment of protracted conflict and supply chain disruptions, commodities, particularly oil, are expected to remain elevated, with interest rates trending higher.",
     "last_proof_cite": "Monetary Matters with Jack Farley \u2022 2026-05-01 \u2022 Jim Bianco on Division at the Fed and Jerome Powell\u2019s Controversial Decision to Stay",
     "last_proof_snippet": "We are here another addition of monetary matters live on monitoring the situation. I'm Jack Farley and I'm Max Weethy. We've got a big day Jack. It's almost a comically large amount of news we have to get into. We're going to be speaking ab",
@@ -36776,7 +36854,7 @@ const dashboardData = {
     "last_podcast_name": "The a16z Show",
     "last_episode_date": "2026-06-02",
     "mention_score": 2,
-    "mention_score_decayed": 0.41,
+    "mention_score_decayed": 0.4,
     "last_main_idea": "Investment in AI-native computing hardware and software development will be pivotal as personal computing transitions towards AI optimization, with Nvidia and Apple leading the charge.",
     "last_proof_cite": "The a16z Show \u2022 2026-06-02 \u2022 Steven Sinofsky on Apple at 50, Microsoft, and the Future of Computing",
     "last_proof_snippet": "Having lived through like a half dozen component church things, you just sort of wait them out and you jump, let some local max, your local men determine the future. This will all correct itself, in short order. This world where you're all",
@@ -37549,6 +37627,65 @@ const dashboardData = {
     }
   },
   {
+    "id": 393,
+    "name": "Ryan Greenlet",
+    "slug": "ryan-greenlet",
+    "bio": "Ryan Greenlet is the Chief Scientist at Redwood Research, where he is dedicated to technical AI safety and security. His work revolves around the implications of AI recursive self-improvement, a concept that could have significant impacts on the future of technology.",
+    "known_for": "His research on AI recursive self-improvement and its potential to rapidly accelerate AI capabilities beyond human intelligence.",
+    "net_worth_usd": null,
+    "net_worth_source": "",
+    "net_worth_updated_at": null,
+    "voice_tone": "Analytical and speculative.",
+    "voice_style": "Presenting complex arguments with a focus on potential outcomes and ethical considerations.",
+    "voice_delivery_notes": "Paced with emphasis on the significance of AI advancements and their societal impact.",
+    "voice_profile_updated_at": "2026-08-12 03:01:52",
+    "last_seen": "2026-08-12 03:01:52",
+    "last_episode_title": "Ryan Greenblatt \u2013 Human level AIs might build runaway superintelligences by 2032",
+    "last_podcast_name": "Dwarkesh Podcast",
+    "last_episode_date": "2026-08-11",
+    "mention_score": 1,
+    "mention_score_decayed": 1,
+    "last_main_idea": "Investment in AI development and security is crucial to manage the rapid advancements and ensure ethical AI behavior.",
+    "last_proof_cite": "Dwarkesh Podcast \u2022 2026-08-11 \u2022 Ryan Greenblatt \u2013 Human level AIs might build runaway superintelligences by 2032",
+    "last_proof_snippet": "Today, I'm chatting with Ryan Greenlet, who is the chief scientist at Redwood Research, where he focuses on technical AI safety and security work. I want to talk to you about recursive self-improvement. This is the idea that once you build",
+    "supporting_takeaway": "The automation of AI R&D could lead to significant progress, potentially condensing years of advancement into a single year.",
+    "grokipedia_url": null,
+    "grokipedia_fetched_at": "2026-08-11T22:03:43.180660",
+    "pundit_profile": {
+      "source": "llm",
+      "source_model": "moonshot:moonshot-v1-8k",
+      "source_url": "",
+      "page_title": "Ryan Greenlet",
+      "fetched_at": "2026-08-12T03:03:43.180094+00:00",
+      "cliff_notes": "Ryan Greenlet is a prominent figure in the field of AI safety and security, currently serving as the Chief Scientist at Redwood Research. His work is centered around the technical aspects of AI, with a particular focus on the concept of recursive self-improvement. Greenlet's research delves into the potential for AI to rapidly evolve beyond human-level intelligence, a topic he considers to be of paramount importance in today's world. His contributions to the discourse on AI development and its implications for society have positioned him as a thought leader in the field, influencing both technological advancements and policy discussions.",
+      "derived": {
+        "current_role": "Chief Scientist at Redwood Research"
+      },
+      "infobox": {
+        "Born": "",
+        "Nationality": ""
+      },
+      "lead_paragraphs": [
+        "Ryan Greenlet is a prominent figure in the field of AI safety and security, currently serving as the Chief Scientist at Redwood Research. His work is centered around the technical aspects of AI, with a particular focus on the concept of recursive self-improvement. Greenlet's research delves into the potential for AI to rapidly evolve beyond human-level intelligence, a topic he considers to be of paramount importance in today's world.",
+        "His contributions to the discourse on AI development and its implications for society have positioned him as a thought leader in the field, influencing both technological advancements and policy discussions."
+      ],
+      "sections": [
+        {
+          "heading": "AI Recursive Self-Improvement",
+          "body": "Ryan Greenlet is known for his work on AI recursive self-improvement, a concept where AI systems could potentially improve themselves to a point far beyond human intelligence."
+        },
+        {
+          "heading": "Technical AI Safety",
+          "body": "As the Chief Scientist at Redwood Research, Greenlet is focused on ensuring the technical safety and security of AI systems, which is crucial as AI becomes more integrated into various aspects of society."
+        },
+        {
+          "heading": "Implications of Super Intelligence",
+          "body": "Greenlet's research also explores the implications of super intelligence, where AI systems could surpass human experts in every field, and the potential risks and benefits this could bring."
+        }
+      ]
+    }
+  },
+  {
     "id": 392,
     "name": "Emilio Escobar",
     "slug": "emilio-escobar",
@@ -38283,7 +38420,7 @@ const dashboardData = {
     "last_podcast_name": "Moonshots with Peter Diamandis",
     "last_episode_date": "2026-08-04",
     "mention_score": 1,
-    "mention_score_decayed": 0.87,
+    "mention_score_decayed": 0.85,
     "last_main_idea": "Investing in AI and technology sectors that align with the U.S. government's initiatives for fostering innovation and scientific discovery could provide significant growth opportunities.",
     "last_proof_cite": "Moonshots with Peter Diamandis \u2022 2026-08-04 \u2022 Michael Kratsios on the New Golden Age of American Science | EP #276",
     "last_proof_snippet": "I was a kid in the candy store reading the Golden Age Report. What you're describing there is a complete fundamental AI native AI agent up, reimagining of the entire scientific process. And I think it's something that is possible. My sense",
@@ -38352,7 +38489,7 @@ const dashboardData = {
     "last_podcast_name": "The a16z Show",
     "last_episode_date": "2026-08-04",
     "mention_score": 1,
-    "mention_score_decayed": 0.87,
+    "mention_score_decayed": 0.85,
     "last_main_idea": "Investing in cybersecurity solutions that leverage AI can provide a competitive advantage, but it also requires understanding the novel risks and vulnerabilities that AI models can create.",
     "last_proof_cite": "The a16z Show \u2022 2026-08-04 \u2022 OpenAI's Joshua Achiam: Did We Already Reach AGI?",
     "last_proof_snippet": "Heels like AGI is kind of already here and most people have gone like drug. The fact that we passed the threshold of where unsolved mathematical trajectors are getting solved by extremely intelligent AI, where those AI's are more capable an",
@@ -39520,7 +39657,7 @@ const dashboardData = {
     "last_podcast_name": "All-In with Chamath, Jason, Sacks & Friedberg",
     "last_episode_date": "2026-07-20",
     "mention_score": 1,
-    "mention_score_decayed": 0.63,
+    "mention_score_decayed": 0.62,
     "last_main_idea": "The current market behavior, while bubbly, is distinct from past bubbles and may disproportionately impact venture capital and private equity firms due to aggressive investment strategies.",
     "last_proof_cite": "All-In with Chamath, Jason, Sacks & Friedberg \u2022 2026-07-20 \u2022 Mark Cuban on the AI Bubble: Who Actually Gets Wiped Out?",
     "last_proof_snippet": "You and I live through a couple of bubbles. We've seen this movie before. And this wave seems very different than the dot com wave. So let's talk about that. Are you concerned about a bubble? We're seeing bubbly like behavior people. It's n",
@@ -39655,7 +39792,7 @@ const dashboardData = {
     "last_podcast_name": "The a16z Show",
     "last_episode_date": "2026-07-20",
     "mention_score": 1,
-    "mention_score_decayed": 0.62,
+    "mention_score_decayed": 0.6,
     "last_main_idea": "Invest in open source AI platforms and local AI models to capitalize on the growing demand for privacy-preserving, cost-efficient AI solutions and the potential shift towards model routing.",
     "last_proof_cite": "The a16z Show \u2022 2026-07-20 \u2022 Hugging Face's CEO on Open Source AI, Model Routing, and the Future of Competition",
     "last_proof_snippet": "I think this relation is a very common practice that everyone is using. It's something that everyone uses, but that is not the main reason for success. Like if you suck, you suck without this relation. It's hard for me to say, like, oh, poo",
@@ -39964,7 +40101,7 @@ const dashboardData = {
     "last_podcast_name": "Moonshots with Peter Diamandis",
     "last_episode_date": "2026-07-17",
     "mention_score": 1,
-    "mention_score_decayed": 0.57,
+    "mention_score_decayed": 0.56,
     "last_main_idea": "Investing in AI companies that focus on customization and small language models can provide significant returns as these technologies meet current market demands and have the potential to shape the future of AI.",
     "last_proof_cite": "Moonshots with Peter Diamandis \u2022 2026-07-17 \u2022 Mira Murati's 975B Open Model, Ramin Hasani on Post-Transformer AI, and Demis' AI FINRA | EP #271",
     "last_proof_snippet": "Miramoradi, the former OpenAI CTO, just shipped her first model. It's called Inkling, customization over leaderboard dominance is what's going to win her the day. She's built exactly the thing hitting the market that exactly what everybody",
@@ -40985,7 +41122,7 @@ const dashboardData = {
     "last_podcast_name": "Monetary Matters with Jack Farley",
     "last_episode_date": "2026-07-04",
     "mention_score": 1,
-    "mention_score_decayed": 0.43,
+    "mention_score_decayed": 0.42,
     "last_main_idea": "Invest in multi-family and senior housing to capitalize on demographic shifts, and focus on industrial properties to benefit from e-commerce growth.",
     "last_proof_cite": "Monetary Matters with Jack Farley \u2022 2026-07-04 \u2022 The Real Estate Cycle Is Turning | Josh Pristaw on The New Cycle in Real Estate, Opportunity in Senior Living, Why AI Data Centers Are Too Big For Most Investors",
     "last_proof_snippet": "Today's episode is brought to you by the Fundrise Income Fund. You'll hear more about the income fund later in the show, but for now, let's get into today's interview. Today we're going to be talking all things real estate. I'm joined by Jo",
@@ -42289,7 +42426,7 @@ const dashboardData = {
     "last_podcast_name": "Latent Space: The AI Engineer Podcast",
     "last_episode_date": "2026-06-17",
     "mention_score": 1,
-    "mention_score_decayed": 0.29,
+    "mention_score_decayed": 0.28,
     "last_main_idea": "Invest in companies that integrate AI with experimental data for material discovery to gain a competitive edge in industries like aerospace and semiconductors.",
     "last_proof_cite": "Latent Space: The AI Engineer Podcast \u2022 2026-06-17 \u2022 \ud83d\udd2c The Self-Driving Lab \u2014 Joseph Krause, Radical AI",
     "last_proof_snippet": "This is the difference between AI for bio and AI for materials. If you look at bio or maybe small molecules is a more broad category, you look at selfies and smile strings, where I which has been a big way to have those materials, those mol",
@@ -42657,7 +42794,7 @@ const dashboardData = {
     "last_podcast_name": "Moonshots with Peter Diamandis",
     "last_episode_date": "2026-06-11",
     "mention_score": 1,
-    "mention_score_decayed": 0.25,
+    "mention_score_decayed": 0.24,
     "last_main_idea": "Invest in sectors at the forefront of technological disruption, with a focus on cryptocurrency, AI, and biotech innovations that promise significant market transformation and growth.",
     "last_proof_cite": "Moonshots with Peter Diamandis \u2022 2026-06-11 \u2022 Brian Armstrong on Bitcoin, Anthropic Drops Fable 5 & Mythos 5, NewLimit's $435M Age-Reversal | EP #264",
     "last_proof_snippet": "City Bank projects a Bitcoin price reaching as much as 189,000 by the end of 2026. Bitcoin is the new digital gold. I think it's going to be a key part of our economy going forward into the future. I remember it was supposed to be counter-s",
@@ -42718,7 +42855,7 @@ const dashboardData = {
     "last_podcast_name": "Macro Voices",
     "last_episode_date": "2026-06-11",
     "mention_score": 1,
-    "mention_score_decayed": 0.25,
+    "mention_score_decayed": 0.24,
     "last_main_idea": "The market may be entering a new inflation shock regime, leading to a rotation from financial assets to hard assets, with the healthcare sector presenting an under-owned opportunity.",
     "last_proof_cite": "Macro Voices \u2022 2026-06-11 \u2022 MacroVoices #536 Larry Mcdonald: The Migration is Upon us",
     "last_proof_snippet": "This is Macrovoisers, the Free Weekly Financial Podcast, targeting professional finance, high-net worth individuals, family offices, and other sophisticated investors. Macrovoisers is all about the brightest minds in the world of finance an",
@@ -44385,7 +44522,7 @@ const dashboardData = {
     "last_podcast_name": "Monetary Matters with Jack Farley",
     "last_episode_date": "2026-05-16",
     "mention_score": 1,
-    "mention_score_decayed": 0.14,
+    "mention_score_decayed": 0.13,
     "last_main_idea": "The current market dynamics suggest a potential bubble, characterized by inflated earnings expectations rather than traditional valuation metrics, indicating the need for disciplined profit-taking strategies and portfolio diversification.",
     "last_proof_cite": "Monetary Matters with Jack Farley \u2022 2026-05-16 \u2022 Why Andy Constan Says The AI Bubble is in Earnings, Not Price",
     "last_proof_snippet": "If we're in a bubble, why aren't we selling crazy P is? It's not the P that's the bubble, it's the E. The S&P in its entirety is expected to earn 400 billion. Where's the GDP that can do that? Now it could come from everywhere else. It coul",
@@ -44450,7 +44587,7 @@ const dashboardData = {
     "last_podcast_name": "Moonshots with Peter Diamandis",
     "last_episode_date": "2026-05-16",
     "mention_score": 1,
-    "mention_score_decayed": 0.14,
+    "mention_score_decayed": 0.13,
     "last_main_idea": "Invest in AI companies poised for exponential growth, particularly those with strategic partnerships and enterprise solutions.",
     "last_proof_cite": "Moonshots with Peter Diamandis \u2022 2026-05-16 \u2022 Anthropic Partners With SpaceX AI, Leopold's $5.5B Bet, and the Singularity Economy | EP #255",
     "last_proof_snippet": "Anthropic is taking over all of SpaceX's Colossus-1 data center in Memphis, and this immediately allowed Anthropic to double Claude Code rate limits. I think Rockus on life support. So this is Elon who had been for the past year shit talkin",
@@ -44510,7 +44647,7 @@ const dashboardData = {
     "last_podcast_name": "Moonshots with Peter Diamandis",
     "last_episode_date": "2026-05-16",
     "mention_score": 1,
-    "mention_score_decayed": 0.14,
+    "mention_score_decayed": 0.13,
     "last_main_idea": "Invest in AI companies poised for exponential growth, particularly those with strategic partnerships and enterprise solutions.",
     "last_proof_cite": "Moonshots with Peter Diamandis \u2022 2026-05-16 \u2022 Anthropic Partners With SpaceX AI, Leopold's $5.5B Bet, and the Singularity Economy | EP #255",
     "last_proof_snippet": "Anthropic is taking over all of SpaceX's Colossus-1 data center in Memphis, and this immediately allowed Anthropic to double Claude Code rate limits. I think Rockus on life support. So this is Elon who had been for the past year shit talkin",
@@ -45012,7 +45149,7 @@ const dashboardData = {
     "last_podcast_name": "Monetary Matters with Jack Farley",
     "last_episode_date": "2026-05-12",
     "mention_score": 1,
-    "mention_score_decayed": 0.13,
+    "mention_score_decayed": 0.12,
     "last_main_idea": "Invest in private credit funds that capitalize on the retreat of banks from riskier, smaller loans due to regulatory pressures, and consider preferred equity structures for upside potential with downside protection.",
     "last_proof_cite": "Monetary Matters with Jack Farley \u2022 2026-05-12 \u2022 Lending Where the Banks Won\u2019t Go: What\u2019s Fueling Europe\u2019s Growing Real Estate Private Credit Market?",
     "last_proof_snippet": "The dominant media narrative at the moment is direct lending and private credit, a virtually synonymous, but that is obviously not how the industry is structured, but what is definitely true is that direct lending has taken the vast majorit",
@@ -48341,7 +48478,7 @@ const dashboardData = {
     "last_podcast_name": "The a16z Show",
     "last_episode_date": "2026-04-07",
     "mention_score": 1,
-    "mention_score_decayed": 0.06,
+    "mention_score_decayed": 0.05,
     "last_main_idea": "Investing in AI infrastructure and applications that can leverage the power of AI while addressing the challenges of verification and privacy.",
     "last_proof_cite": "The a16z Show \u2022 2026-04-07 \u2022 Balaji on Why AI Raises the Cost of Verification",
     "last_proof_snippet": "AI is a shortcut that can be beneficial but also presents challenges in debugging and understanding.",
@@ -50755,7 +50892,7 @@ const dashboardData = {
     "last_podcast_name": "All-In with Chamath, Jason, Sacks & Friedberg",
     "last_episode_date": "2026-03-18",
     "mention_score": 1,
-    "mention_score_decayed": 0.04,
+    "mention_score_decayed": 0.03,
     "last_main_idea": "While not directly investment-focused, the episode provides insights into the political climate and potential policy directions that could indirectly affect various sectors and investment strategies.",
     "last_proof_cite": "All-In with Chamath, Jason, Sacks & Friedberg \u2022 2026-03-18 \u2022 Interview with Senator John Fetterman on Voting Rights, Policy Decisions, and the Democratic Party",
     "last_proof_snippet": "Fetterman has a unique perspective, being popular among Republicans while maintaining his Democratic affiliation.",
@@ -50821,7 +50958,7 @@ const dashboardData = {
     "last_podcast_name": "The a16z Show",
     "last_episode_date": "2026-03-18",
     "mention_score": 1,
-    "mention_score_decayed": 0.04,
+    "mention_score_decayed": 0.03,
     "last_main_idea": "Invest in companies that are at the forefront of AI innovation, hardware manufacturing, and secure supply chain management to capitalize on the new geopolitics of technology and the reindustrialization of the US.",
     "last_proof_cite": "The a16z Show \u2022 2026-03-18 \u2022 The Geopolitics of Technology and the Future Economy",
     "last_proof_snippet": "Helbert emphasizes the importance of hardware in the geopolitical technology war and the control over the internet's infrastructure.",
@@ -50885,7 +51022,7 @@ const dashboardData = {
     "last_podcast_name": "Monetary Matters with Jack Farley",
     "last_episode_date": "2026-03-19",
     "mention_score": 1,
-    "mention_score_decayed": 0.04,
+    "mention_score_decayed": 0.03,
     "last_main_idea": "The current elevated oil prices and their subsequent impact on inflation and growth present a complex investment landscape, with stocks and bonds being particularly at risk. Investors should consider packaging trades to navigate these dynamics.",
     "last_proof_cite": "Monetary Matters with Jack Farley \u2022 2026-03-19 \u2022 Monetary Matters with Jack Farley: Oil Shocks, Inflation, and Market Reactions",
     "last_proof_snippet": "The immediate impact of an oil shock is inflationary, but over time it could lead to a negative shock on the economy.",
