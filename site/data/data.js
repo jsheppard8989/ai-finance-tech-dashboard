@@ -3,80 +3,80 @@
 
 const dashboardData = {
   schemaVersion: 2,
-  generatedAt: "2026-08-12T13:41:27.622298",
-  chartsVersion: "2026-08-12T13:41:15.120917",
+  generatedAt: "2026-08-12T22:04:27.869357",
+  chartsVersion: "2026-08-12T22:04:16.018659",
   priceSnapshot: {
   "GOOGL": {
-    "price": 343.83,
-    "change_pct": 7.53,
+    "price": 343.54,
+    "change_pct": 7.44,
     "name": "GOOGL",
-    "updated_at": "2026-08-12T13:41:15.119917"
+    "updated_at": "2026-08-12T22:04:16.017629"
   },
   "NVDA": {
-    "price": 224.17,
-    "change_pct": 8.38,
+    "price": 224.09,
+    "change_pct": 8.34,
     "name": "NVDA",
-    "updated_at": "2026-08-12T13:41:15.119937"
+    "updated_at": "2026-08-12T22:04:16.017650"
   },
   "BTC": {
-    "price": 63383.84,
-    "change_pct": -2.07,
+    "price": 63461.04,
+    "change_pct": 1.03,
     "name": "BTC",
-    "updated_at": "2026-08-12T13:41:15.119947"
+    "updated_at": "2026-08-12T22:04:16.017659"
   },
   "TSLA": {
-    "price": 326.64,
-    "change_pct": 4.35,
+    "price": 327.51,
+    "change_pct": 4.63,
     "name": "TSLA",
-    "updated_at": "2026-08-12T13:41:15.119954"
+    "updated_at": "2026-08-12T22:04:16.017668"
   },
   "MSFT": {
-    "price": 492.21,
-    "change_pct": 28.95,
+    "price": 492.43,
+    "change_pct": 29.01,
     "name": "MSFT",
-    "updated_at": "2026-08-12T13:41:15.119962"
+    "updated_at": "2026-08-12T22:04:16.017678"
   },
   "AMZN": {
-    "price": 268.73,
-    "change_pct": 15.78,
+    "price": 267.28,
+    "change_pct": 15.15,
     "name": "AMZN",
-    "updated_at": "2026-08-12T13:41:15.119970"
+    "updated_at": "2026-08-12T22:04:16.017686"
   },
   "META": {
-    "price": 583.08,
-    "change_pct": -2.03,
+    "price": 578.85,
+    "change_pct": -2.75,
     "name": "META",
-    "updated_at": "2026-08-12T13:41:15.119978"
+    "updated_at": "2026-08-12T22:04:16.017696"
   },
   "WTI": {
-    "price": 3.69,
-    "change_pct": 0.9,
+    "price": 3.68,
+    "change_pct": 0.55,
     "name": "WTI",
-    "updated_at": "2026-08-12T13:41:15.119986"
+    "updated_at": "2026-08-12T22:04:16.017704"
   },
   "S&P 500": {
-    "price": 773.58,
-    "change_pct": 4.69,
+    "price": 772.49,
+    "change_pct": 4.54,
     "name": "S&P 500",
-    "updated_at": "2026-08-12T13:41:15.119994"
+    "updated_at": "2026-08-12T22:04:16.017712"
   },
   "AAPL": {
-    "price": 301.21,
-    "change_pct": -9.47,
+    "price": 302.25,
+    "change_pct": -9.16,
     "name": "AAPL",
-    "updated_at": "2026-08-12T13:41:15.120001"
+    "updated_at": "2026-08-12T22:04:16.017721"
   },
   "QQQ": {
-    "price": 725.41,
-    "change_pct": 6.02,
+    "price": 723.7,
+    "change_pct": 5.77,
     "name": "Invesco QQQ Trust",
-    "updated_at": "2026-08-12T13:41:15.120009"
+    "updated_at": "2026-08-12T22:04:16.017729"
   },
   "BTC-USD": {
-    "price": 63383.84,
-    "change_pct": -2.07,
+    "price": 63461.04,
+    "change_pct": 1.03,
     "name": "Bitcoin USD",
-    "updated_at": "2026-08-12T13:41:15.120017"
+    "updated_at": "2026-08-12T22:04:16.017739"
   }
 },
   tickerScores: [
@@ -853,6 +853,25 @@ const dashboardData = {
       "podcast_episode_id": 399
     },
     {
+      "id": 415,
+      "title": "Milton Berg: I Have Evidence Market Has Likely Bottomed | Why Milton\u2019s Long Semis, Korea, Nasdaq, and More (With Caveats), and Why He Thinks Gold has made a Multi-year Top",
+      "source_type": "podcast",
+      "source_name": "Monetary Matters with Jack Farley",
+      "source_date": "2026-08-12",
+      "summary": "In this episode of Monetary Matters with Jack Farley, Milton Berg of MB advisors shares his market technician insights. Berg discusses his non-traditional approach to market analysis, focusing on data and turning points rather than charts. He provides his views on the potential bottoming of stocks, particularly in the semiconductor sector, and shares his bullish stance on the market. Berg also discusses the importance of cycle dates in identifying market turning points and provides his analysis on the long-term outlook for bonds, suggesting that current yields are too low and predicting a rise in bond yields.",
+      "key_takeaway": "Milton Berg's investment thesis is that the market may have bottomed and is poised for a rebound, with specific focus on sectors that have experienced significant declines as potential short-term bounce candidates.",
+      "tickers_mentioned": [
+        "SPY"
+      ],
+      "sentiment": "bullish",
+      "display_on_main": 1,
+      "display_order": 0,
+      "added_date": "2026-08-12",
+      "archived_date": null,
+      "archived_reason": null,
+      "podcast_episode_id": 400
+    },
+    {
       "id": 410,
       "title": "The CISO Playbook for AI Agents | Datadog",
       "source_type": "podcast",
@@ -1026,7 +1045,7 @@ const dashboardData = {
         "TENABLE"
       ],
       "sentiment": "bullish",
-      "display_on_main": 1,
+      "display_on_main": 0,
       "display_order": 0,
       "added_date": "2026-08-07",
       "archived_date": null,
@@ -10997,6 +11016,28 @@ const dashboardData = {
       "key_tickers": []
     },
     {
+      "id": 415,
+      "title": "Milton Berg: I Have Evidence Market Has Likely Bottomed | Why Milton\u2019s Long Semis, Korea, Nasdaq, and More (With Caveats), and Why He Thinks Gold has made a Multi-year Top",
+      "source_type": "podcast",
+      "source_name": "Monetary Matters with Jack Farley",
+      "source_date": "2026-08-12",
+      "summary": "In this episode of Monetary Matters with Jack Farley, Milton Berg of MB advisors shares his market technician insights. Berg discusses his non-traditional approach to market analysis, focusing on data and turning points rather than charts. He provides his views on the potential bottoming of stocks, particularly in the semiconductor sector, and shares his bullish stance on the market. Berg also discusses the importance of cycle dates in identifying market turning points and provides his analysis on the long-term outlook for bonds, suggesting that current yields are too low and predicting a rise in bond yields.",
+      "key_takeaway": "Milton Berg's investment thesis is that the market may have bottomed and is poised for a rebound, with specific focus on sectors that have experienced significant declines as potential short-term bounce candidates.",
+      "tickers_mentioned": "[\"SPY\"]",
+      "sentiment": "bullish",
+      "display_on_main": 1,
+      "display_order": 0,
+      "added_date": "2026-08-12",
+      "archived_date": null,
+      "archived_reason": null,
+      "podcast_episode_id": 400,
+      "episode_release_date": "2026-08-12",
+      "guest_name": "Milton Berg",
+      "key_tickers": [
+        "SPY"
+      ]
+    },
+    {
       "id": 410,
       "title": "The CISO Playbook for AI Agents | Datadog",
       "source_type": "podcast",
@@ -11119,29 +11160,6 @@ const dashboardData = {
       "key_tickers": [
         "GOOGL",
         "TSLA"
-      ]
-    },
-    {
-      "id": 407,
-      "title": "Misunderstood Stocks in Data Center Power, Cybersecurity, and Payments | Dean & Deiya Pernas",
-      "source_type": "podcast",
-      "source_name": "Monetary Matters with Jack Farley",
-      "source_date": "2026-08-07",
-      "summary": "In this episode of Monetary Matters, Jack Farley interviews Daya and Dean Pernos of Pernos Research, discussing key investment themes and trends such as energy power, data centers, software, AI, cybersecurity, and payments. The Pernos brothers highlight the importance of understanding both macroeconomic trends and single stock fundamental analysis for successful investing. They provide insights into the AI ecosystem, the impact of open-source AI models on the industry, and their bullish stance on companies like Upwork and Tenable. The conversation also touches on the commoditization of payment processing and the potential of marketplace businesses.",
-      "key_takeaway": "Investing success comes from a deep understanding of both macroeconomic trends and single stock fundamental analysis, with a focus on companies that benefit from technological advancements and market disruptions.",
-      "tickers_mentioned": "[\"UPWORK\", \"TENABLE\"]",
-      "sentiment": "bullish",
-      "display_on_main": 1,
-      "display_order": 0,
-      "added_date": "2026-08-07",
-      "archived_date": null,
-      "archived_reason": null,
-      "podcast_episode_id": 392,
-      "episode_release_date": "2026-08-07",
-      "guest_name": null,
-      "key_tickers": [
-        "UPWORK",
-        "TENABLE"
       ]
     }
   ],
@@ -36001,9 +36019,72 @@ const dashboardData = {
     "source_name": "The a16z Show",
     "source_date": "2026-08-12",
     "key_tickers": []
+  },
+  "415": {
+    "id": 405,
+    "insight_id": 415,
+    "podcast_episode_id": 400,
+    "overview": "The unresolved tension in Milton Berg's analysis is the potential for market indices to either confirm a bottom and rally or retest lows, indicating a more bearish trend. Berg's focus on cycle dates and turning points introduces a competitive dynamic against traditional seasonal analyses, suggesting a more nuanced approach to market timing. The allocator-relevant implication is that investors positioned for a short-term bounce in beaten-down sectors could face losses if market indices retest lows, arbitrated by the resilience of the S&P 500 and the behavior of bond yields.",
+    "key_takeaways_detailed": [
+      "Berg's positioning in beaten-down sectors like semiconductors and Korea is a bet on a short-term market bounce, contingent on the absence of new lows.",
+      "The importance of cycle dates in Berg's analysis suggests that market timing is crucial, and investors should be alert to these dates for potential turning points.",
+      "Berg's bullish stance is predicated on the absence of new lows in key indices, indicating a potential market reversal.",
+      "Investors should monitor the behavior of bond yields as a contrary indicator to Berg's thesis, with a rise in yields potentially signaling a more bearish market environment."
+    ],
+    "investment_thesis": "Milton Berg's investment thesis is that the market has likely bottomed and is poised for a rebound, particularly in sectors that have experienced significant declines. This thesis is based on the identification of a panic low and positive divergence in the S&P 500, and the importance of cycle dates in pinpointing market turning points. The thesis would be vindicated if the S&P 500 and other key indices do not make new lows and if bond yields rise as predicted, indicating a shift in market sentiment. Conversely, it would be invalidated if these indices retest and break below their recent lows, suggesting a more bearish market trend.",
+    "ticker_analysis": {
+      "AAPL": {
+        "rationale": "Apple (AAPL) is a key component of the Nasdaq 100 and the S&P 500, making it relevant to Berg's thesis on market bottoming and sector performance.",
+        "positioning": "Positioning in AAPL should be strategic and long, aligning with Berg's bullish stance on the market and his focus on sectors that have experienced significant declines.",
+        "risk": "The key risk for AAPL in this position is underperformance relative to the broader market if the anticipated bounce fails to materialize, or if the market indices retest and break below their recent lows."
+      }
+    },
+    "positioning_guidance": "",
+    "risk_factors": [],
+    "contrarian_signals": [
+      "The possibility that the market's decline is the first leg of a bear market, which would invalidate Berg's bottoming thesis.",
+      "The potential for bond yields to remain low or decrease, contrary to Berg's prediction of a rise in yields.",
+      "A failure of the S&P 500 to maintain its positive divergence, which would suggest a weaker market than Berg anticipates."
+    ],
+    "catalysts": [
+      "Upcoming cycle dates that Berg has identified as potential market turning points.",
+      "Economic data releases that could influence bond yields and market sentiment.",
+      "Corporate earnings reports from key companies in the semiconductor and technology sectors, which could drive market movement."
+    ],
+    "related_insights": null,
+    "audio_timestamp_start": null,
+    "audio_timestamp_end": null,
+    "transcript_excerpt": null,
+    "created_at": "2026-08-12T22:03:18.529751",
+    "updated_at": "2026-08-13 03:03:18",
+    "episode_evidence": "Milton Berg's approach to market analysis is grounded in data and turning points, rather than traditional chart analysis. He identified a potential market bottom on July 29th, noting a 'panic low' and 'positive divergence' in the S&P 500, which did not make a new low despite the Nasdaq 100 and semiconductor stocks doing so. Berg stated, 'The SP didn't make a new low, which is a positive divergence, which a technician would say, that's just a sign that the market should be headed higher.' His model portfolios are positioned 100% long, with significant allocations to sectors that have experienced sharp declines, such as semiconductors and Korea, anticipating a short-term bounce. Berg also emphasized the importance of 'cycle dates' in identifying market turning points, mentioning that 'cycle dates often work very, very well in pinpointing market turning points.'",
+    "falsification_tracks": [
+      "If the S&P 500 and Nasdaq 100 both make new lows below their July 29th lows, it would challenge Berg's bottoming thesis.",
+      "A sustained decline in the semiconductor index below its recent lows would suggest a lack of short-term bounce as anticipated by Berg.",
+      "Failure of the S&P 500 to maintain above its June lows would indicate a breakdown of the positive divergence Berg identified.",
+      "A sharp increase in bond yields contrary to Berg's prediction would undermine his thesis on the long-term outlook for bonds."
+    ],
+    "insight_title": "Milton Berg: I Have Evidence Market Has Likely Bottomed | Why Milton\u2019s Long Semis, Korea, Nasdaq, and More (With Caveats), and Why He Thinks Gold has made a Multi-year Top",
+    "source_name": "Monetary Matters with Jack Farley",
+    "source_date": "2026-08-12",
+    "key_tickers": [
+      "SPY"
+    ]
   }
 },
   suggestedTerms: [
+  {
+    "id": 587,
+    "term": "Cycle Dates",
+    "definition": "A concept used by Milton Berg to identify market turning points, which often work very well in pinpointing these moments.",
+    "investment_implications": "Understanding cycle dates can provide investors with an edge in predicting market movements and timing entries and exits.",
+    "source_type": "auto_extracted",
+    "mention_count": 1,
+    "source_diversity": 1,
+    "relevance_score": 50,
+    "submitted_date": "2026-08-13 03:02:15",
+    "priority_score": 80
+  },
   {
     "id": 586,
     "term": "Compute Commoditization",
@@ -36039,23 +36120,23 @@ const dashboardData = {
     "relevance_score": 50,
     "submitted_date": "2026-08-12 10:01:02",
     "priority_score": 80
-  },
-  {
-    "id": 583,
-    "term": "AI R&D",
-    "definition": "Research and development in the field of artificial intelligence, focusing on creating more advanced AI systems.",
-    "investment_implications": "Investment in AI R&D could accelerate technological advancements and create new market opportunities.",
-    "source_type": "auto_extracted",
-    "mention_count": 1,
-    "source_diversity": 1,
-    "relevance_score": 50,
-    "submitted_date": "2026-08-12 03:01:52",
-    "priority_score": 80
   }
 ],
   podcastGuests: [
   {
-    "id": 49037,
+    "id": 49151,
+    "name": "Milton Berg",
+    "slug": "milton-berg",
+    "bio": "Milton Berg is a veteran technical analyst and CEO of Milton Berg Advisors, specializing in market turning-point analysis for institutional investors.",
+    "known_for": "Decades of macro/technical work identifying equity and commodity inflection points.",
+    "last_main_idea": "Milton Berg's investment thesis is that the market may have bottomed and is poised for a rebound, with specific focus on sectors that have experienced significant declines as potential short-term bounce candidates.",
+    "last_episode_title": "Milton Berg: I Have Evidence Market Has Likely Bottomed | Why Milton\u2019s Long Semis, Korea, Nasdaq, and More (With Caveats), and Why He Thinks Gold has made a Multi-year Top",
+    "last_podcast_name": "Monetary Matters with Jack Farley",
+    "last_episode_date": "2026-08-12",
+    "appearance_count": 2
+  },
+  {
+    "id": 49152,
     "name": "How Kavak Rebuilt Itself Around AI Agents",
     "slug": "how-kavak-rebuilt-itself-around-ai-agents",
     "bio": null,
@@ -36067,7 +36148,7 @@ const dashboardData = {
     "appearance_count": 1
   },
   {
-    "id": 49038,
+    "id": 49153,
     "name": "Emad Mostaque",
     "slug": "emad-mostaque",
     "bio": null,
@@ -36079,7 +36160,7 @@ const dashboardData = {
     "appearance_count": 1
   },
   {
-    "id": 49039,
+    "id": 49154,
     "name": "How Open",
     "slug": "how-open",
     "bio": null,
@@ -36091,7 +36172,7 @@ const dashboardData = {
     "appearance_count": 1
   },
   {
-    "id": 49040,
+    "id": 49155,
     "name": "Saronic Founders",
     "slug": "saronic-founders",
     "bio": null,
@@ -36103,7 +36184,7 @@ const dashboardData = {
     "appearance_count": 1
   },
   {
-    "id": 49041,
+    "id": 49156,
     "name": "OpenAI's Joshua Achiam",
     "slug": "openais-joshua-achiam",
     "bio": null,
@@ -36115,7 +36196,7 @@ const dashboardData = {
     "appearance_count": 1
   },
   {
-    "id": 49042,
+    "id": 49157,
     "name": "Why Macro is \u201cPretty Risk-On\u201d for Equities",
     "slug": "why-macro-is-pretty-risk-on-for-equities",
     "bio": null,
@@ -36127,7 +36208,7 @@ const dashboardData = {
     "appearance_count": 1
   },
   {
-    "id": 49043,
+    "id": 49158,
     "name": "AI for America's Small Businesses",
     "slug": "ai-for-americas-small-businesses",
     "bio": null,
@@ -36139,7 +36220,7 @@ const dashboardData = {
     "appearance_count": 1
   },
   {
-    "id": 49044,
+    "id": 49159,
     "name": "Mum\u2019s The Word",
     "slug": "mums-the-word",
     "bio": null,
@@ -36151,7 +36232,7 @@ const dashboardData = {
     "appearance_count": 1
   },
   {
-    "id": 49045,
+    "id": 49160,
     "name": "Luke Gromen",
     "slug": "luke-gromen",
     "bio": null,
@@ -36163,7 +36244,7 @@ const dashboardData = {
     "appearance_count": 1
   },
   {
-    "id": 49046,
+    "id": 49161,
     "name": "Codex from 0 to 10M Users",
     "slug": "codex-from-0-to-10m-users",
     "bio": null,
@@ -36175,7 +36256,7 @@ const dashboardData = {
     "appearance_count": 1
   },
   {
-    "id": 49047,
+    "id": 49162,
     "name": "Ben Horowitz",
     "slug": "ben-horowitz",
     "bio": "Ben Horowitz is a co-founder of venture firm Andreessen Horowitz and former CEO of Opsware, known for advising founders on leadership under pressure.",
@@ -36187,7 +36268,7 @@ const dashboardData = {
     "appearance_count": 3
   },
   {
-    "id": 49048,
+    "id": 49163,
     "name": "Building the Physical AI Stack",
     "slug": "building-the-physical-ai-stack",
     "bio": null,
@@ -36199,7 +36280,7 @@ const dashboardData = {
     "appearance_count": 1
   },
   {
-    "id": 49049,
+    "id": 49164,
     "name": "Travis Kalanick Is Back",
     "slug": "travis-kalanick-is-back",
     "bio": null,
@@ -36211,7 +36292,7 @@ const dashboardData = {
     "appearance_count": 1
   },
   {
-    "id": 49050,
+    "id": 49165,
     "name": "Why Physical AI Is the Next Frontier",
     "slug": "why-physical-ai-is-the-next-frontier",
     "bio": null,
@@ -36223,7 +36304,7 @@ const dashboardData = {
     "appearance_count": 1
   },
   {
-    "id": 49051,
+    "id": 49166,
     "name": "Nick Nemeth",
     "slug": "nick-nemeth",
     "bio": null,
@@ -36235,7 +36316,7 @@ const dashboardData = {
     "appearance_count": 1
   },
   {
-    "id": 49052,
+    "id": 49167,
     "name": "Mark Cuban on the AI Bubble",
     "slug": "mark-cuban-on-the-ai-bubble",
     "bio": null,
@@ -36247,7 +36328,7 @@ const dashboardData = {
     "appearance_count": 1
   },
   {
-    "id": 49053,
+    "id": 49168,
     "name": "Urgent Update- AI Sputnik Moment",
     "slug": "urgent-update--ai-sputnik-moment",
     "bio": null,
@@ -36259,7 +36340,7 @@ const dashboardData = {
     "appearance_count": 1
   },
   {
-    "id": 49054,
+    "id": 49169,
     "name": "Replay 2025",
     "slug": "replay-2025",
     "bio": null,
@@ -36271,7 +36352,7 @@ const dashboardData = {
     "appearance_count": 1
   },
   {
-    "id": 49055,
+    "id": 49170,
     "name": "Turbo Charged Trend Following",
     "slug": "turbo-charged-trend-following",
     "bio": null,
@@ -36280,18 +36361,6 @@ const dashboardData = {
     "last_episode_title": "Turbo Charged Trend Following: Why Capturing the Market\u2019s Biggest Trends Means Embracing High Volatility | Moritz Seibert & Moritz Heiden | Takahe Capital",
     "last_podcast_name": "Monetary Matters with Jack Farley",
     "last_episode_date": "2026-07-16",
-    "appearance_count": 1
-  },
-  {
-    "id": 49056,
-    "name": "Can Anyone Catch NVIDIA?",
-    "slug": "can-anyone-catch-nvidia",
-    "bio": null,
-    "known_for": null,
-    "last_main_idea": "Investing in AI hardware requires a focus on infrastructure and the ability to scale efficiently, as the AI race is not just about models but also the underlying technology that supports them.",
-    "last_episode_title": "Can Anyone Catch NVIDIA? | The Future of Chips and Infrastructure",
-    "last_podcast_name": "The a16z Show",
-    "last_episode_date": "2026-07-15",
     "appearance_count": 1
   }
 ],
@@ -36314,7 +36383,7 @@ const dashboardData = {
     "last_podcast_name": "Macro Voices",
     "last_episode_date": "2026-05-14",
     "mention_score": 6,
-    "mention_score_decayed": 0.77,
+    "mention_score_decayed": 0.75,
     "last_main_idea": "Investors should prepare for potential volatility as economic indicators begin to reflect the impacts of energy prices and passive investment flows.",
     "last_proof_cite": "Macro Voices \u2022 2026-05-14 \u2022 MacroVoices #532 Mike Green: Record Mechanical Flows",
     "last_proof_snippet": "This is Macrovoisers, the Free Weekly Financial Podcast, targeting professional finance, high-net worth individuals, family offices, and other sophisticated investors. Macrovoisers is all about the brightest minds in the world of finance an",
@@ -36564,7 +36633,7 @@ const dashboardData = {
     "last_podcast_name": "Monetary Matters with Jack Farley",
     "last_episode_date": "2026-05-01",
     "mention_score": 3,
-    "mention_score_decayed": 0.31,
+    "mention_score_decayed": 0.3,
     "last_main_idea": "In an environment of protracted conflict and supply chain disruptions, commodities, particularly oil, are expected to remain elevated, with interest rates trending higher.",
     "last_proof_cite": "Monetary Matters with Jack Farley \u2022 2026-05-01 \u2022 Jim Bianco on Division at the Fed and Jerome Powell\u2019s Controversial Decision to Stay",
     "last_proof_snippet": "We are here another addition of monetary matters live on monitoring the situation. I'm Jack Farley and I'm Max Weethy. We've got a big day Jack. It's almost a comically large amount of news we have to get into. We're going to be speaking ab",
@@ -37066,7 +37135,7 @@ const dashboardData = {
     "last_podcast_name": "The a16z Show",
     "last_episode_date": "2026-06-02",
     "mention_score": 2,
-    "mention_score_decayed": 0.4,
+    "mention_score_decayed": 0.39,
     "last_main_idea": "Investment in AI-native computing hardware and software development will be pivotal as personal computing transitions towards AI optimization, with Nvidia and Apple leading the charge.",
     "last_proof_cite": "The a16z Show \u2022 2026-06-02 \u2022 Steven Sinofsky on Apple at 50, Microsoft, and the Future of Computing",
     "last_proof_snippet": "Having lived through like a half dozen component church things, you just sort of wait them out and you jump, let some local max, your local men determine the future. This will all correct itself, in short order. This world where you're all",
@@ -37600,7 +37669,7 @@ const dashboardData = {
     "last_podcast_name": "The a16z Show",
     "last_episode_date": "2026-03-28",
     "mention_score": 2,
-    "mention_score_decayed": 0.09,
+    "mention_score_decayed": 0.08,
     "last_main_idea": "Investing in AI and its intersection with sectors like crypto could yield significant returns as these technologies disrupt traditional economies and create new opportunities.",
     "last_proof_cite": "The a16z Show \u2022 2026-03-28 \u2022 the a16z show 20260319 1e92a9dd 78da 4417 b1ce 4b4318d1",
     "last_proof_snippet": "The paper suggests that anything that can be measured will eventually be automated, which could have profound effects on the economy and labor.",
@@ -37664,7 +37733,7 @@ const dashboardData = {
     "last_podcast_name": "The a16z Show",
     "last_episode_date": "2026-03-28",
     "mention_score": 2,
-    "mention_score_decayed": 0.09,
+    "mention_score_decayed": 0.08,
     "last_main_idea": "Investing in AI and its intersection with sectors like crypto could yield significant returns as these technologies disrupt traditional economies and create new opportunities.",
     "last_proof_cite": "The a16z Show \u2022 2026-03-28 \u2022 the a16z show 20260319 1e92a9dd 78da 4417 b1ce 4b4318d1",
     "last_proof_snippet": "The paper suggests that anything that can be measured will eventually be automated, which could have profound effects on the economy and labor.",
@@ -37724,7 +37793,7 @@ const dashboardData = {
     "last_podcast_name": "Monetary Matters with Jack Farley",
     "last_episode_date": "2026-02-15",
     "mention_score": 2,
-    "mention_score_decayed": 0.09,
+    "mention_score_decayed": 0.08,
     "last_main_idea": "Invest in sectors with fertile ground for short selling, such as AI and tech, and under-allocated areas like junior mining, while combining long and short strategies for potential alpha.",
     "last_proof_cite": "Monetary Matters with Jack Farley \u2022 2026-02-15 \u2022 Technical Analysis Deep Dive with Milton Berg - February 2026 Market Signals",
     "last_proof_snippet": "Today's episode is brought to you by the PICTEA AI Enhance International Equity ETF, ticker PQNT. You'll hear more about their using AI to enhance international equity returns later in the show. For now, let's get into it. Got a very specia",
@@ -37834,6 +37903,69 @@ const dashboardData = {
         {
           "heading": "AI Risks and Benefits",
           "body": "She highlights the concerns around AI, with 57% of American voters saying the risks of AI outweigh the benefits, indicating a need for careful consideration and management of AI's impact on society."
+        }
+      ]
+    }
+  },
+  {
+    "id": 400,
+    "name": "Milton Berg",
+    "slug": "milton-berg",
+    "bio": "Milton Berg is a market technician and the founder of MB Advisors, recognized for his unique approach to market analysis that focuses on data and turning points rather than traditional chart analysis. His insights have been influential in identifying market trends and shifts, particularly in precious metals and semiconductors.",
+    "known_for": "His unconventional market analysis methods that emphasize data over traditional chart reading and his accurate predictions on market turning points.",
+    "net_worth_usd": null,
+    "net_worth_source": "",
+    "net_worth_updated_at": null,
+    "voice_tone": "Confident and analytical",
+    "voice_style": "Factual and data-driven",
+    "voice_delivery_notes": "Clear and deliberate, with emphasis on key data points",
+    "voice_profile_updated_at": "2026-08-13 03:02:15",
+    "last_seen": "2026-08-13 03:02:15",
+    "last_episode_title": "Milton Berg: I Have Evidence Market Has Likely Bottomed | Why Milton\u2019s Long Semis, Korea, Nasdaq, and More (With Caveats), and Why He Thinks Gold has made a Multi-year Top",
+    "last_podcast_name": "Monetary Matters with Jack Farley",
+    "last_episode_date": "2026-08-12",
+    "mention_score": 1,
+    "mention_score_decayed": 1,
+    "last_main_idea": "Milton Berg's investment thesis is that the market may have bottomed and is poised for a rebound, with specific focus on sectors that have experienced significant declines as potential short-term bounce candidates.",
+    "last_proof_cite": "Monetary Matters with Jack Farley \u2022 2026-08-12 \u2022 Milton Berg: I Have Evidence Market Has Likely Bottomed | Why Milton\u2019s Long Semis, Korea, Nasdaq, and More (With Caveats), and Why He Thinks Gold has made a Multi-year Top",
+    "last_proof_snippet": "I am joined once again by Milton Berg of MB advisors and Milton Berg Edge. Milton is one of the greatest market technicians alive. And he focuses on a lot of things that most tetanolists don't follow. He's mostly not looking at charts. He's",
+    "supporting_takeaway": "Berg's investment approach focuses on data analysis and turning points rather than traditional chart reading.",
+    "grokipedia_url": null,
+    "grokipedia_fetched_at": "2026-08-12T22:02:43.459383",
+    "pundit_profile": {
+      "source": "llm",
+      "source_model": "moonshot:moonshot-v1-8k",
+      "source_url": "",
+      "page_title": "Milton Berg",
+      "fetched_at": "2026-08-13T03:02:43.458914+00:00",
+      "cliff_notes": "Milton Berg is a distinguished market technician who has made a significant impact in the field of market analysis through his company, MB Advisors. Unlike many of his contemporaries, Berg's approach to market analysis is grounded in data analysis and the identification of market turning points, which has led to accurate predictions in various sectors, including precious metals and semiconductors. His methodology, which deviates from traditional chart analysis, has garnered him recognition as one of the top market technicians alive today. Berg's ability to identify market tops, such as his call on gold and silver, and his insights into market bottoms have made him a sought-after expert in the financial industry.",
+      "derived": {
+        "current_role": "Founder of MB Advisors"
+      },
+      "infobox": {
+        "Born": "",
+        "Nationality": ""
+      },
+      "lead_paragraphs": [
+        "Milton Berg is a distinguished market technician who has made a significant impact in the field of market analysis through his company, MB Advisors. Unlike many of his contemporaries, Berg's approach to market analysis is grounded in data analysis and the identification of market turning points, which has led to accurate predictions in various sectors, including precious metals and semiconductors.",
+        "His methodology, which deviates from traditional chart analysis, has garnered him recognition as one of the top market technicians alive today. Berg's ability to identify market tops, such as his call on gold and silver, and his insights into market bottoms have made him a sought-after expert in the financial industry."
+      ],
+      "sections": [
+        {
+          "heading": "Market Analysis",
+          "body": "Milton Berg is known for his unique approach to market analysis, focusing on data and turning points rather than traditional chart analysis."
+        },
+        {
+          "heading": "Data-Driven Insights",
+          "body": "Berg's methodology emphasizes a data-driven approach to identifying market trends and shifts, which has led to accurate predictions in various sectors."
+        },
+        {
+          "heading": "Precious Metals",
+          "body": "Milton Berg has been particularly influential in identifying market trends in precious metals, such as his accurate call on the top of gold and silver markets."
+        },
+        {
+          "heading": "Semiconductors",
+          "body": "Berg's analysis has also extended to the semiconductor industry, where he has provided insights into market bottoms and potential recoveries."
         }
       ]
     }
@@ -38107,7 +38239,7 @@ const dashboardData = {
     "last_podcast_name": "Dwarkesh Podcast",
     "last_episode_date": "2026-08-11",
     "mention_score": 1,
-    "mention_score_decayed": 1,
+    "mention_score_decayed": 0.98,
     "last_main_idea": "Investment in AI development and security is crucial to manage the rapid advancements and ensure ethical AI behavior.",
     "last_proof_cite": "Dwarkesh Podcast \u2022 2026-08-11 \u2022 Ryan Greenblatt \u2013 Human level AIs might build runaway superintelligences by 2032",
     "last_proof_snippet": "Today, I'm chatting with Ryan Greenlet, who is the chief scientist at Redwood Research, where he focuses on technical AI safety and security work. I want to talk to you about recursive self-improvement. This is the idea that once you build",
@@ -38883,7 +39015,7 @@ const dashboardData = {
     "last_podcast_name": "Moonshots with Peter Diamandis",
     "last_episode_date": "2026-08-04",
     "mention_score": 1,
-    "mention_score_decayed": 0.85,
+    "mention_score_decayed": 0.83,
     "last_main_idea": "Investing in AI and technology sectors that align with the U.S. government's initiatives for fostering innovation and scientific discovery could provide significant growth opportunities.",
     "last_proof_cite": "Moonshots with Peter Diamandis \u2022 2026-08-04 \u2022 Michael Kratsios on the New Golden Age of American Science | EP #276",
     "last_proof_snippet": "I was a kid in the candy store reading the Golden Age Report. What you're describing there is a complete fundamental AI native AI agent up, reimagining of the entire scientific process. And I think it's something that is possible. My sense",
@@ -38952,7 +39084,7 @@ const dashboardData = {
     "last_podcast_name": "The a16z Show",
     "last_episode_date": "2026-08-04",
     "mention_score": 1,
-    "mention_score_decayed": 0.85,
+    "mention_score_decayed": 0.83,
     "last_main_idea": "Investing in cybersecurity solutions that leverage AI can provide a competitive advantage, but it also requires understanding the novel risks and vulnerabilities that AI models can create.",
     "last_proof_cite": "The a16z Show \u2022 2026-08-04 \u2022 OpenAI's Joshua Achiam: Did We Already Reach AGI?",
     "last_proof_snippet": "Heels like AGI is kind of already here and most people have gone like drug. The fact that we passed the threshold of where unsolved mathematical trajectors are getting solved by extremely intelligent AI, where those AI's are more capable an",
@@ -40120,7 +40252,7 @@ const dashboardData = {
     "last_podcast_name": "All-In with Chamath, Jason, Sacks & Friedberg",
     "last_episode_date": "2026-07-20",
     "mention_score": 1,
-    "mention_score_decayed": 0.62,
+    "mention_score_decayed": 0.6,
     "last_main_idea": "The current market behavior, while bubbly, is distinct from past bubbles and may disproportionately impact venture capital and private equity firms due to aggressive investment strategies.",
     "last_proof_cite": "All-In with Chamath, Jason, Sacks & Friedberg \u2022 2026-07-20 \u2022 Mark Cuban on the AI Bubble: Who Actually Gets Wiped Out?",
     "last_proof_snippet": "You and I live through a couple of bubbles. We've seen this movie before. And this wave seems very different than the dot com wave. So let's talk about that. Are you concerned about a bubble? We're seeing bubbly like behavior people. It's n",
@@ -40255,7 +40387,7 @@ const dashboardData = {
     "last_podcast_name": "The a16z Show",
     "last_episode_date": "2026-07-20",
     "mention_score": 1,
-    "mention_score_decayed": 0.6,
+    "mention_score_decayed": 0.59,
     "last_main_idea": "Invest in open source AI platforms and local AI models to capitalize on the growing demand for privacy-preserving, cost-efficient AI solutions and the potential shift towards model routing.",
     "last_proof_cite": "The a16z Show \u2022 2026-07-20 \u2022 Hugging Face's CEO on Open Source AI, Model Routing, and the Future of Competition",
     "last_proof_snippet": "I think this relation is a very common practice that everyone is using. It's something that everyone uses, but that is not the main reason for success. Like if you suck, you suck without this relation. It's hard for me to say, like, oh, poo",
@@ -40564,7 +40696,7 @@ const dashboardData = {
     "last_podcast_name": "Moonshots with Peter Diamandis",
     "last_episode_date": "2026-07-17",
     "mention_score": 1,
-    "mention_score_decayed": 0.56,
+    "mention_score_decayed": 0.55,
     "last_main_idea": "Investing in AI companies that focus on customization and small language models can provide significant returns as these technologies meet current market demands and have the potential to shape the future of AI.",
     "last_proof_cite": "Moonshots with Peter Diamandis \u2022 2026-07-17 \u2022 Mira Murati's 975B Open Model, Ramin Hasani on Post-Transformer AI, and Demis' AI FINRA | EP #271",
     "last_proof_snippet": "Miramoradi, the former OpenAI CTO, just shipped her first model. It's called Inkling, customization over leaderboard dominance is what's going to win her the day. She's built exactly the thing hitting the market that exactly what everybody",
@@ -41585,7 +41717,7 @@ const dashboardData = {
     "last_podcast_name": "Monetary Matters with Jack Farley",
     "last_episode_date": "2026-07-04",
     "mention_score": 1,
-    "mention_score_decayed": 0.42,
+    "mention_score_decayed": 0.41,
     "last_main_idea": "Invest in multi-family and senior housing to capitalize on demographic shifts, and focus on industrial properties to benefit from e-commerce growth.",
     "last_proof_cite": "Monetary Matters with Jack Farley \u2022 2026-07-04 \u2022 The Real Estate Cycle Is Turning | Josh Pristaw on The New Cycle in Real Estate, Opportunity in Senior Living, Why AI Data Centers Are Too Big For Most Investors",
     "last_proof_snippet": "Today's episode is brought to you by the Fundrise Income Fund. You'll hear more about the income fund later in the show, but for now, let's get into today's interview. Today we're going to be talking all things real estate. I'm joined by Jo",
@@ -42768,7 +42900,7 @@ const dashboardData = {
     "last_podcast_name": "Latent Space: The AI Engineer Podcast",
     "last_episode_date": "2026-06-01",
     "mention_score": 1,
-    "mention_score_decayed": 0.29,
+    "mention_score_decayed": 0.28,
     "last_main_idea": "Invest in AI companies that prioritize language integration with video generation and have efficient training processes to capitalize on the evolving capabilities of generative AI.",
     "last_proof_cite": "Latent Space: The AI Engineer Podcast \u2022 2026-06-01 \u2022 Why Video Agent models are next \u2014 Ethan He, xAI Grok Imagine",
     "last_proof_snippet": "Okay, we're here in a studio with Eden Ha, most recently of XCI. Welcome. Yeah, thank you, glad being here. We were so here with Vibu. You were first coming to us or joining Lily in Space World because you were working on Cosmos in a video",
@@ -42829,7 +42961,7 @@ const dashboardData = {
     "last_podcast_name": "Monetary Matters with Jack Farley",
     "last_episode_date": "2026-06-18",
     "mention_score": 1,
-    "mention_score_decayed": 0.29,
+    "mention_score_decayed": 0.28,
     "last_main_idea": "Invest in U.S. industrial champions with strong order backlogs and companies positioned to benefit from the electrification and modernization of the U.S. grid.",
     "last_proof_cite": "Monetary Matters with Jack Farley \u2022 2026-06-18 \u2022 The US Manufacturing and Electrification Megatrends Are Here and They\u2019re Way More Than AI | Chris Semenuk",
     "last_proof_snippet": "The U.S. manufacturing has essentially been in a recession for three straight years and we have only just emerged now. If I had a CMMI survey, just reached about 50 in the last three months. And that's after three consecutive years of sub-5",
@@ -42889,7 +43021,7 @@ const dashboardData = {
     "last_podcast_name": "Latent Space: The AI Engineer Podcast",
     "last_episode_date": "2026-06-17",
     "mention_score": 1,
-    "mention_score_decayed": 0.28,
+    "mention_score_decayed": 0.27,
     "last_main_idea": "Invest in companies that integrate AI with experimental data for material discovery to gain a competitive edge in industries like aerospace and semiconductors.",
     "last_proof_cite": "Latent Space: The AI Engineer Podcast \u2022 2026-06-17 \u2022 \ud83d\udd2c The Self-Driving Lab \u2014 Joseph Krause, Radical AI",
     "last_proof_snippet": "This is the difference between AI for bio and AI for materials. If you look at bio or maybe small molecules is a more broad category, you look at selfies and smile strings, where I which has been a big way to have those materials, those mol",
@@ -43895,7 +44027,7 @@ const dashboardData = {
     "last_podcast_name": "Monetary Matters with Jack Farley",
     "last_episode_date": "2026-06-06",
     "mention_score": 1,
-    "mention_score_decayed": 0.22,
+    "mention_score_decayed": 0.21,
     "last_main_idea": "Investors should focus on undervalued companies in Asia, particularly in South Korea and Southeast Asia, due to favorable valuations and growth prospects.",
     "last_proof_cite": "Monetary Matters with Jack Farley \u2022 2026-06-06 \u2022 The AI Chip Bubble: Why South Korea & Taiwan Are In the Danger Zone | Michael Fritzell | Asian Century Stocks",
     "last_proof_snippet": "South Korea, I do think it is a bubble, because the estimates for profits, for Eski Heinigs and Samsung electronics, we're now talking 200 billion US dollars in that profit estimates for 2028. And that will make them the most profitable com",
@@ -44491,7 +44623,7 @@ const dashboardData = {
     "last_podcast_name": "The a16z Show",
     "last_episode_date": "2026-05-26",
     "mention_score": 1,
-    "mention_score_decayed": 0.17,
+    "mention_score_decayed": 0.16,
     "last_main_idea": "Invest in companies developing prediction market platforms, focusing on those with strong legal compliance strategies and potential for cultural acceptance.",
     "last_proof_cite": "The a16z Show \u2022 2026-05-26 \u2022 Robin Hanson on Prediction Markets, Gambling, and the Future of Forecasting",
     "last_proof_snippet": "Well, so, start at the beginning. The basic vision is that speculative markets are shown to be a unmatched mechanism for aggregating information and telling us about stuff. And initially, most people who come to this area think about, let's",
@@ -45737,7 +45869,7 @@ const dashboardData = {
     "last_podcast_name": "Monetary Matters with Jack Farley",
     "last_episode_date": "2026-05-10",
     "mention_score": 1,
-    "mention_score_decayed": 0.12,
+    "mention_score_decayed": 0.11,
     "last_main_idea": "Pictay Asset Management's investment thesis is to use interpretable machine learning techniques to outperform benchmarks while maintaining index-like risk characteristics.",
     "last_proof_cite": "Monetary Matters with Jack Farley \u2022 2026-05-10 \u2022 Why Generative AI Still Can\u2019t Trade | David Wright on How Quant Alpha Actually Is Done With Machine Learning, Decision Trees, and Gradient Boosting",
     "last_proof_snippet": "Very pleased today to be joined by David Wright, co-head of Pictay asset management's quantitative investments franchise, which manages over $30 billion in their quant group. This includes most recently two ETFs they launched PQ&T, their Pi",
@@ -46114,7 +46246,7 @@ const dashboardData = {
     "last_podcast_name": "Monetary Matters with Jack Farley",
     "last_episode_date": "2026-05-06",
     "mention_score": 1,
-    "mention_score_decayed": 0.11,
+    "mention_score_decayed": 0.1,
     "last_main_idea": "Investing in the refining sector is justified by the tightening market and the potential for long-term growth, despite short-term geopolitical uncertainties.",
     "last_proof_cite": "Monetary Matters with Jack Farley \u2022 2026-05-06 \u2022 Finding the Market\u2019s Most Overlooked Macro Themes and Profiting from Global Volatility | Harris Kupperman",
     "last_proof_snippet": "But you can look at commodities and have all the opinions of the world. Nothing matters until the commodity tells you it's ready. I think the most important thing to track in this whole thing isn't when a horror moves opens. It's when guys",
@@ -46178,7 +46310,7 @@ const dashboardData = {
     "last_podcast_name": "Monetary Matters with Jack Farley",
     "last_episode_date": "2026-05-06",
     "mention_score": 1,
-    "mention_score_decayed": 0.11,
+    "mention_score_decayed": 0.1,
     "last_main_idea": "Investing in the refining sector is justified by the tightening market and the potential for long-term growth, despite short-term geopolitical uncertainties.",
     "last_proof_cite": "Monetary Matters with Jack Farley \u2022 2026-05-06 \u2022 Finding the Market\u2019s Most Overlooked Macro Themes and Profiting from Global Volatility | Harris Kupperman",
     "last_proof_snippet": "But you can look at commodities and have all the opinions of the world. Nothing matters until the commodity tells you it's ready. I think the most important thing to track in this whole thing isn't when a horror moves opens. It's when guys",
@@ -48124,7 +48256,7 @@ const dashboardData = {
     "last_podcast_name": "Monetary Matters with Jack Farley",
     "last_episode_date": "2026-04-14",
     "mention_score": 1,
-    "mention_score_decayed": 0.07,
+    "mention_score_decayed": 0.06,
     "last_main_idea": "Invest in companies that are directionally accurate with the world's trajectory, integrating traditional fundamental investment philosophies with a modern tech focus.",
     "last_proof_cite": "Monetary Matters with Jack Farley \u2022 2026-04-14 \u2022 \"I Don't Believe the Stagflation Narrative\": How the Strong Consumer and AI Tailwinds Shape Sean Emory's Bullish Blueprint | Avory & Co",
     "last_proof_snippet": "Investing with a long-term perspective involves considering macroeconomic factors and their impact on smaller companies.",
@@ -48183,7 +48315,7 @@ const dashboardData = {
     "last_podcast_name": "Moonshots with Peter Diamandis",
     "last_episode_date": "2026-04-14",
     "mention_score": 1,
-    "mention_score_decayed": 0.07,
+    "mention_score_decayed": 0.06,
     "last_main_idea": "Invest in AI companies that are positioned to benefit from the rapid growth and valuation in the industry, and consider the broader implications of AI on the future of work and social structures.",
     "last_proof_cite": "Moonshots with Peter Diamandis \u2022 2026-04-14 \u2022 Elon Musk vs. Sam Altman, AI Job Loss, and OpenAI\u2019s $852B Valuation | EP #247",
     "last_proof_snippet": "AI is expected to replace many white collar jobs in the near future.",
@@ -51285,7 +51417,7 @@ const dashboardData = {
     "last_podcast_name": "Monetary Matters with Jack Farley",
     "last_episode_date": "2026-02-19",
     "mention_score": 1,
-    "mention_score_decayed": 0.04,
+    "mention_score_decayed": 0.03,
     "last_main_idea": "The Picta AI Enhanced International Equity ETF (PQNT) uses AI to enhance international equity returns, suggesting a potential for outperformance through technology-driven investment strategies.",
     "last_proof_cite": "Monetary Matters with Jack Farley \u2022 2026-02-19 \u2022 Monetary Matters with Jack Farley: The US Dollar, Trade Deficits, and the Role of AI in Finance",
     "last_proof_snippet": "Today's episode is brought to you by the Picta AI Enhance International Equity ETF, Ticker PQNT. You'll hear more about they're using AI to enhance international equity returns later in the show. For now, let's get into it. Very pleased tod",

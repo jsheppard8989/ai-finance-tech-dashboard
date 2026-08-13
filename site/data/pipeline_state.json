@@ -1,29 +1,29 @@
 {
-  "generated_at": "2026-08-12T13:41:19.594331",
-  "last_updated": "2026-08-12T13:41:19.594331",
-  "last_pipeline_run": "2026-08-12T13:41:19.594331",
+  "generated_at": "2026-08-12T22:04:20.458837",
+  "last_updated": "2026-08-12T22:04:20.458837",
+  "last_pipeline_run": "2026-08-12T22:04:20.458837",
   "main_page": {
     "overton": 13,
     "insights": 8,
-    "pundits": 261
+    "pundits": 262
   },
   "counts": {
     "ticker_mentions": 212,
-    "podcast_episodes": 372,
+    "podcast_episodes": 373,
     "newsletters": 7,
     "daily_scores": 150,
     "overton_terms_total": 121,
-    "latest_insights_total": 386,
+    "latest_insights_total": 387,
     "today_mentions": {},
-    "podcasts_analyzed": 3
+    "podcasts_analyzed": 4
   },
   "step_results": {
-    "downloaded": 2,
-    "transcribed": 1,
-    "analyzed": 0,
-    "insight_created": 0,
-    "published": 0,
-    "total": 2
+    "downloaded": 3,
+    "transcribed": 2,
+    "analyzed": 1,
+    "insight_created": 1,
+    "published": 1,
+    "total": 3
   },
   "episodes": [
     {
@@ -32,6 +32,24 @@
       "title": "Milton Berg: I Have Evidence Market Has Likely Bottomed | Why Milton\u2019s Long Semis, Korea, Nasdaq, and More (With Caveats), and Why He Thinks Gold has made a Multi-year Top",
       "published": "2026-08-12",
       "rss_guid": "79007d0c-9673-11f1-94fc-ebae6169abde",
+      "stages": {
+        "downloaded": true,
+        "transcribed": true,
+        "analyzed": true,
+        "insight_created": true,
+        "published": true
+      },
+      "stage_reasons": {},
+      "first_blocker": null,
+      "remediation_by_stage": {},
+      "status": "complete"
+    },
+    {
+      "id": "2d3f7c13-7a54-434d-8136-5c13aeca9ca1",
+      "podcast": "All-In with Chamath, Jason, Sacks & Friedberg",
+      "title": "Rahm Emanuel: Trump's Foreign Policy, China, Europe's Decline, Immigration & DSA vs Democrats",
+      "published": "2026-08-13",
+      "rss_guid": "2d3f7c13-7a54-434d-8136-5c13aeca9ca1",
       "stages": {
         "downloaded": true,
         "transcribed": false,
@@ -157,10 +175,10 @@
   ],
   "available_from_rss": [
     {
-      "podcast": "Monetary Matters with Jack Farley",
-      "title": "Milton Berg: I Have Evidence Market Has Likely Bottomed | Why Milton\u2019s Long Semis, Korea, Nasdaq, and More (With Caveats), and Why He Thinks Gold has made a Multi-year Top",
-      "published": "Wed, 12 Aug 2026 17:30:00 -0000",
-      "published_date": "2026-08-12",
+      "podcast": "All-In with Chamath, Jason, Sacks & Friedberg",
+      "title": "Rahm Emanuel: Trump's Foreign Policy, China, Europe's Decline, Immigration & DSA vs Democrats",
+      "published": "Thu, 13 Aug 2026 02:10:00 +0000",
+      "published_date": "2026-08-13",
       "rss_guid": ""
     },
     {

@@ -1,5 +1,23 @@
 [
   {
+    "id": 400,
+    "podcast_name": "Monetary Matters with Jack Farley",
+    "episode_title": "Milton Berg: I Have Evidence Market Has Likely Bottomed | Why Milton\u2019s Long Semis, Korea, Nasdaq, and More (With Caveats), and Why He Thinks Gold has made a Multi-year Top",
+    "episode_date": "2026-08-12",
+    "summary": "In this episode of Monetary Matters with Jack Farley, Milton Berg of MB advisors shares his market technician insights. Berg discusses his non-traditional approach to market analysis, focusing on data and turning points rather than charts. He provides his views on the potential bottoming of stocks, particularly in the semiconductor sector, and shares his bullish stance on the market. Berg also discusses the importance of cycle dates in identifying market turning points and provides his analysis on the long-term outlook for bonds, suggesting that current yields are too low and predicting a rise in bond yields.",
+    "key_takeaways": [
+      "Milton Berg identified a potential market bottom, particularly in semiconductors, suggesting a short-term bounce or more.",
+      "Berg's investment approach focuses on data analysis and turning points rather than traditional chart reading.",
+      "Berg discussed the importance of 'cycle dates' in identifying market turning points, a concept not commonly used by other analysts.",
+      "He provided a bullish market outlook, with specific buy signals and projections for various market indices.",
+      "Berg expressed a strong contrarian view on bonds, suggesting that current yields are too low and predicting a significant rise in bond yields."
+    ],
+    "investment_thesis": "Milton Berg's investment thesis is that the market may have bottomed and is poised for a rebound, with specific focus on sectors that have experienced significant declines as potential short-term bounce candidates.",
+    "key_tickers": [
+      "SPY"
+    ]
+  },
+  {
     "id": 399,
     "podcast_name": "The a16z Show",
     "episode_title": "Garry Tan on Taste, Agents and Founder Ambition",
@@ -116,26 +134,6 @@
     "key_tickers": [
       "GOOGL",
       "TSLA"
-    ]
-  },
-  {
-    "id": 392,
-    "podcast_name": "Monetary Matters with Jack Farley",
-    "episode_title": "Misunderstood Stocks in Data Center Power, Cybersecurity, and Payments | Dean & Deiya Pernas",
-    "episode_date": "2026-08-07",
-    "summary": "In this episode of Monetary Matters, Jack Farley interviews Daya and Dean Pernos of Pernos Research, discussing key investment themes and trends such as energy power, data centers, software, AI, cybersecurity, and payments. The Pernos brothers highlight the importance of understanding both macroeconomic trends and single stock fundamental analysis for successful investing. They provide insights into the AI ecosystem, the impact of open-source AI models on the industry, and their bullish stance on companies like Upwork and Tenable. The conversation also touches on the commoditization of payment processing and the potential of marketplace businesses.",
-    "key_takeaways": [
-      "The AI ecosystem can be divided into four layers: chips, infrastructure, frontier models, and application.",
-      "Open-source AI models are bullish for the AI ecosystem, increasing demand for cloud providers and GPU providers.",
-      "The improvements in AI models like Kimmy 3 are likely due to distillation of cloud models rather than pure innovation.",
-      "Tenable is expected to benefit from the structural shift in cybersecurity, with growth rates expected to accelerate.",
-      "Upwork is considered a unique marketplace business with network effects and is trading at a significant discount.",
-      "The payment processing industry is moving towards verticalized software solutions that include payments, with the value shifting to the application layer."
-    ],
-    "investment_thesis": "Investing success comes from a deep understanding of both macroeconomic trends and single stock fundamental analysis, with a focus on companies that benefit from technological advancements and market disruptions.",
-    "key_tickers": [
-      "UPWORK",
-      "TENABLE"
     ]
   }
 ]

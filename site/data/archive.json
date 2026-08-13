@@ -20,6 +20,25 @@
       "podcast_episode_id": 399
     },
     {
+      "id": 415,
+      "title": "Milton Berg: I Have Evidence Market Has Likely Bottomed | Why Milton\u2019s Long Semis, Korea, Nasdaq, and More (With Caveats), and Why He Thinks Gold has made a Multi-year Top",
+      "source_type": "podcast",
+      "source_name": "Monetary Matters with Jack Farley",
+      "source_date": "2026-08-12",
+      "summary": "In this episode of Monetary Matters with Jack Farley, Milton Berg of MB advisors shares his market technician insights. Berg discusses his non-traditional approach to market analysis, focusing on data and turning points rather than charts. He provides his views on the potential bottoming of stocks, particularly in the semiconductor sector, and shares his bullish stance on the market. Berg also discusses the importance of cycle dates in identifying market turning points and provides his analysis on the long-term outlook for bonds, suggesting that current yields are too low and predicting a rise in bond yields.",
+      "key_takeaway": "Milton Berg's investment thesis is that the market may have bottomed and is poised for a rebound, with specific focus on sectors that have experienced significant declines as potential short-term bounce candidates.",
+      "tickers_mentioned": [
+        "SPY"
+      ],
+      "sentiment": "bullish",
+      "display_on_main": 1,
+      "display_order": 0,
+      "added_date": "2026-08-12",
+      "archived_date": null,
+      "archived_reason": null,
+      "podcast_episode_id": 400
+    },
+    {
       "id": 410,
       "title": "The CISO Playbook for AI Agents | Datadog",
       "source_type": "podcast",
@@ -193,7 +212,7 @@
         "TENABLE"
       ],
       "sentiment": "bullish",
-      "display_on_main": 1,
+      "display_on_main": 0,
       "display_order": 0,
       "added_date": "2026-08-07",
       "archived_date": null,
