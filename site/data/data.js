@@ -3,80 +3,80 @@
 
 const dashboardData = {
   schemaVersion: 2,
-  generatedAt: "2026-08-13T05:04:12.656181",
-  chartsVersion: "2026-08-13T05:04:00.155856",
+  generatedAt: "2026-08-13T06:38:47.650287",
+  chartsVersion: "2026-08-13T06:38:34.149770",
   priceSnapshot: {
   "GOOGL": {
     "price": 343.54,
     "change_pct": 7.44,
     "name": "GOOGL",
-    "updated_at": "2026-08-13T05:04:00.155356"
+    "updated_at": "2026-08-13T06:38:34.148735"
   },
   "NVDA": {
     "price": 224.09,
     "change_pct": 8.34,
     "name": "NVDA",
-    "updated_at": "2026-08-13T05:04:00.155367"
+    "updated_at": "2026-08-13T06:38:34.148756"
   },
   "BTC": {
-    "price": 63623.83,
-    "change_pct": 1.29,
+    "price": 63382.26,
+    "change_pct": 0.91,
     "name": "BTC",
-    "updated_at": "2026-08-13T05:04:00.155371"
+    "updated_at": "2026-08-13T06:38:34.148765"
   },
   "TSLA": {
     "price": 327.51,
     "change_pct": 4.63,
     "name": "TSLA",
-    "updated_at": "2026-08-13T05:04:00.155374"
+    "updated_at": "2026-08-13T06:38:34.148773"
   },
   "MSFT": {
     "price": 492.43,
     "change_pct": 29.01,
     "name": "MSFT",
-    "updated_at": "2026-08-13T05:04:00.155378"
+    "updated_at": "2026-08-13T06:38:34.148781"
   },
   "AMZN": {
     "price": 267.28,
     "change_pct": 15.15,
     "name": "AMZN",
-    "updated_at": "2026-08-13T05:04:00.155381"
+    "updated_at": "2026-08-13T06:38:34.148788"
   },
   "META": {
     "price": 578.85,
     "change_pct": -2.75,
     "name": "META",
-    "updated_at": "2026-08-13T05:04:00.155385"
+    "updated_at": "2026-08-13T06:38:34.148797"
   },
   "WTI": {
     "price": 3.68,
     "change_pct": 0.55,
     "name": "WTI",
-    "updated_at": "2026-08-13T05:04:00.155388"
+    "updated_at": "2026-08-13T06:38:34.148804"
   },
   "S&P 500": {
     "price": 772.49,
     "change_pct": 4.54,
     "name": "S&P 500",
-    "updated_at": "2026-08-13T05:04:00.155391"
+    "updated_at": "2026-08-13T06:38:34.148811"
   },
   "AAPL": {
     "price": 302.25,
     "change_pct": -9.16,
     "name": "AAPL",
-    "updated_at": "2026-08-13T05:04:00.155394"
+    "updated_at": "2026-08-13T06:38:34.148819"
   },
   "QQQ": {
     "price": 723.7,
     "change_pct": 5.77,
     "name": "Invesco QQQ Trust",
-    "updated_at": "2026-08-13T05:04:00.155398"
+    "updated_at": "2026-08-13T06:38:34.148826"
   },
   "BTC-USD": {
-    "price": 63623.83,
-    "change_pct": 1.29,
+    "price": 63382.26,
+    "change_pct": 0.91,
     "name": "Bitcoin USD",
-    "updated_at": "2026-08-13T05:04:00.155401"
+    "updated_at": "2026-08-13T06:38:34.148836"
   }
 },
   tickerScores: [
@@ -36186,7 +36186,7 @@ const dashboardData = {
 ],
   podcastGuests: [
   {
-    "id": 49380,
+    "id": 49495,
     "name": "Rahm Emanuel",
     "slug": "rahm-emanuel",
     "bio": null,
@@ -36198,7 +36198,7 @@ const dashboardData = {
     "appearance_count": 1
   },
   {
-    "id": 49381,
+    "id": 49496,
     "name": "Milton Berg",
     "slug": "milton-berg",
     "bio": "Milton Berg is a veteran technical analyst and CEO of Milton Berg Advisors, specializing in market turning-point analysis for institutional investors.",
@@ -36210,7 +36210,7 @@ const dashboardData = {
     "appearance_count": 2
   },
   {
-    "id": 49382,
+    "id": 49497,
     "name": "How Kavak Rebuilt Itself Around AI Agents",
     "slug": "how-kavak-rebuilt-itself-around-ai-agents",
     "bio": null,
@@ -36222,7 +36222,7 @@ const dashboardData = {
     "appearance_count": 1
   },
   {
-    "id": 49383,
+    "id": 49498,
     "name": "Emad Mostaque",
     "slug": "emad-mostaque",
     "bio": null,
@@ -36234,7 +36234,7 @@ const dashboardData = {
     "appearance_count": 1
   },
   {
-    "id": 49384,
+    "id": 49499,
     "name": "How Open",
     "slug": "how-open",
     "bio": null,
@@ -36246,7 +36246,7 @@ const dashboardData = {
     "appearance_count": 1
   },
   {
-    "id": 49385,
+    "id": 49500,
     "name": "Saronic Founders",
     "slug": "saronic-founders",
     "bio": null,
@@ -36258,7 +36258,7 @@ const dashboardData = {
     "appearance_count": 1
   },
   {
-    "id": 49386,
+    "id": 49501,
     "name": "OpenAI's Joshua Achiam",
     "slug": "openais-joshua-achiam",
     "bio": null,
@@ -36270,7 +36270,7 @@ const dashboardData = {
     "appearance_count": 1
   },
   {
-    "id": 49387,
+    "id": 49502,
     "name": "Why Macro is \u201cPretty Risk-On\u201d for Equities",
     "slug": "why-macro-is-pretty-risk-on-for-equities",
     "bio": null,
@@ -36282,7 +36282,7 @@ const dashboardData = {
     "appearance_count": 1
   },
   {
-    "id": 49388,
+    "id": 49503,
     "name": "AI for America's Small Businesses",
     "slug": "ai-for-americas-small-businesses",
     "bio": null,
@@ -36294,7 +36294,7 @@ const dashboardData = {
     "appearance_count": 1
   },
   {
-    "id": 49389,
+    "id": 49504,
     "name": "Mum\u2019s The Word",
     "slug": "mums-the-word",
     "bio": null,
@@ -36306,7 +36306,7 @@ const dashboardData = {
     "appearance_count": 1
   },
   {
-    "id": 49390,
+    "id": 49505,
     "name": "Luke Gromen",
     "slug": "luke-gromen",
     "bio": null,
@@ -36318,7 +36318,7 @@ const dashboardData = {
     "appearance_count": 1
   },
   {
-    "id": 49391,
+    "id": 49506,
     "name": "Codex from 0 to 10M Users",
     "slug": "codex-from-0-to-10m-users",
     "bio": null,
@@ -36330,7 +36330,7 @@ const dashboardData = {
     "appearance_count": 1
   },
   {
-    "id": 49392,
+    "id": 49507,
     "name": "Ben Horowitz",
     "slug": "ben-horowitz",
     "bio": "Ben Horowitz is a co-founder of venture firm Andreessen Horowitz and former CEO of Opsware, known for advising founders on leadership under pressure.",
@@ -36342,7 +36342,7 @@ const dashboardData = {
     "appearance_count": 3
   },
   {
-    "id": 49393,
+    "id": 49508,
     "name": "Building the Physical AI Stack",
     "slug": "building-the-physical-ai-stack",
     "bio": null,
@@ -36354,7 +36354,7 @@ const dashboardData = {
     "appearance_count": 1
   },
   {
-    "id": 49394,
+    "id": 49509,
     "name": "Travis Kalanick Is Back",
     "slug": "travis-kalanick-is-back",
     "bio": null,
@@ -36366,7 +36366,7 @@ const dashboardData = {
     "appearance_count": 1
   },
   {
-    "id": 49395,
+    "id": 49510,
     "name": "Why Physical AI Is the Next Frontier",
     "slug": "why-physical-ai-is-the-next-frontier",
     "bio": null,
@@ -36378,7 +36378,7 @@ const dashboardData = {
     "appearance_count": 1
   },
   {
-    "id": 49396,
+    "id": 49511,
     "name": "Nick Nemeth",
     "slug": "nick-nemeth",
     "bio": null,
@@ -36390,7 +36390,7 @@ const dashboardData = {
     "appearance_count": 1
   },
   {
-    "id": 49397,
+    "id": 49512,
     "name": "Mark Cuban on the AI Bubble",
     "slug": "mark-cuban-on-the-ai-bubble",
     "bio": null,
@@ -36402,7 +36402,7 @@ const dashboardData = {
     "appearance_count": 1
   },
   {
-    "id": 49398,
+    "id": 49513,
     "name": "Urgent Update- AI Sputnik Moment",
     "slug": "urgent-update--ai-sputnik-moment",
     "bio": null,
@@ -36414,7 +36414,7 @@ const dashboardData = {
     "appearance_count": 1
   },
   {
-    "id": 49399,
+    "id": 49514,
     "name": "Replay 2025",
     "slug": "replay-2025",
     "bio": null,
@@ -37065,7 +37065,7 @@ const dashboardData = {
     "last_podcast_name": "The Jack Mallers Show",
     "last_episode_date": "2026-06-16",
     "mention_score": 2,
-    "mention_score_decayed": 0.54,
+    "mention_score_decayed": 0.52,
     "last_main_idea": "Investors should monitor Bitcoin as a leading market indicator and scrutinize the capital structures of Bitcoin treasury companies for potential risks and rewards, while maintaining a long-term perspective.",
     "last_proof_cite": "The Jack Mallers Show \u2022 2026-06-16 \u2022 15 Questions: The Strait, Strategy, mNAV, Dilution, & My Boots",
     "last_proof_snippet": "Yo, welcome back to another episode of the Jack Mallors Show. I'm your host Jack, and you're listening to mail bag Monday, ladies and gentlemen. Oh, there's my resources tab, my AI tool. All right, let's get back to slide one. You were list",
@@ -40264,7 +40264,7 @@ const dashboardData = {
     "last_podcast_name": "The a16z Show",
     "last_episode_date": "2026-07-23",
     "mention_score": 1,
-    "mention_score_decayed": 0.64,
+    "mention_score_decayed": 0.63,
     "last_main_idea": "Industrial AI represents a substantial opportunity to transform physical industries through automation and AI, creating significant value beyond traditional software solutions.",
     "last_proof_cite": "The a16z Show \u2022 2026-07-23 \u2022 Building the Physical AI Stack | Travis Kalanick on TBPN",
     "last_proof_snippet": "Travis Kelenick joins TVPN to discuss why he's betting his next company on industrial AI. He shares his vision behind atoms, explains how autonomy is transforming industries like mining and food production, and discusses why bringing AI int",
@@ -48328,7 +48328,7 @@ const dashboardData = {
     "last_podcast_name": "Monetary Matters with Jack Farley",
     "last_episode_date": "2026-04-15",
     "mention_score": 1,
-    "mention_score_decayed": 0.07,
+    "mention_score_decayed": 0.06,
     "last_main_idea": "Investing in HFGM global macro ETF, which is highly rated by Morningstar, may offer exposure to macroeconomic trends and government policies affecting financial markets.",
     "last_proof_cite": "Monetary Matters with Jack Farley \u2022 2026-04-15 \u2022 Financial Repression, Pt. 1  | Professor Hanno Lustig on Hidden Taxes, Fiscal Sustainability, and Japan\u2019s Debt Puzzle",
     "last_proof_snippet": "Historically, financial repression has been used during wartime to keep bond yields artificially low.",
@@ -48954,7 +48954,7 @@ const dashboardData = {
     "last_podcast_name": "All-In with Chamath, Jason, Sacks & Friedberg",
     "last_episode_date": "2026-04-08",
     "mention_score": 1,
-    "mention_score_decayed": 0.06,
+    "mention_score_decayed": 0.05,
     "last_main_idea": "Invest in Pennsylvania due to its pro-growth policies, job creation, and improved business climate.",
     "last_proof_cite": "All-In with Chamath, Jason, Sacks & Friedberg \u2022 2026-04-08 \u2022 Josh Shapiro on Trump, Iran War Chaos, Israel's Failure, the Economy, and 2028 Race",
     "last_proof_snippet": "Pennsylvania is ranked number one in charging Medicaid fraud and is pro-data center.",
