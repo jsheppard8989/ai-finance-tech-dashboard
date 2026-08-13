@@ -20,6 +20,25 @@
       "podcast_episode_id": 401
     },
     {
+      "id": 417,
+      "title": "The Two Ways to Sell AI: Lighthouse or Landgrab?",
+      "source_type": "podcast",
+      "source_name": "The a16z Show",
+      "source_date": "2026-08-13",
+      "summary": "In this episode of the a16z Show, Elena Berger sits down with Joe Schmidt and Andy McCall from a16z to discuss the two dominant go-to-market strategies for enterprise AI startups: the lighthouse strategy and the land grab strategy. They explore the nuances of each approach, the circumstances under which one might be more effective than the other, and the critical considerations for founders when deciding which path to take. Drawing on lessons from building sales organizations at companies like Samsara and Maraki, they provide a framework for evaluating which playbook to follow and when to switch strategies.",
+      "key_takeaway": "The choice between the lighthouse and land grab strategies can significantly impact the success of an enterprise AI startup, as each approach has its own set of advantages and challenges that must be carefully considered in the context of the company's specific circumstances.",
+      "tickers_mentioned": [
+        "AAPL"
+      ],
+      "sentiment": "neutral",
+      "display_on_main": 1,
+      "display_order": 0,
+      "added_date": "2026-08-13",
+      "archived_date": null,
+      "archived_reason": null,
+      "podcast_episode_id": 402
+    },
+    {
       "id": 414,
       "title": "Garry Tan on Taste, Agents and Founder Ambition",
       "source_type": "podcast",
@@ -147,7 +166,7 @@
         "AAPL"
       ],
       "sentiment": "bullish",
-      "display_on_main": 1,
+      "display_on_main": 0,
       "display_order": 0,
       "added_date": "2026-08-10",
       "archived_date": null,

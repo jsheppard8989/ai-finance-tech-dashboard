@@ -3,80 +3,80 @@
 
 const dashboardData = {
   schemaVersion: 2,
-  generatedAt: "2026-08-13T06:38:47.650287",
-  chartsVersion: "2026-08-13T06:38:34.149770",
+  generatedAt: "2026-08-13T12:07:58.990824",
+  chartsVersion: "2026-08-13T12:07:51.371024",
   priceSnapshot: {
   "GOOGL": {
-    "price": 343.54,
-    "change_pct": 7.44,
+    "price": 345.82,
+    "change_pct": 5.9,
     "name": "GOOGL",
-    "updated_at": "2026-08-13T06:38:34.148735"
+    "updated_at": "2026-08-13T12:07:51.370548"
   },
   "NVDA": {
-    "price": 224.09,
-    "change_pct": 8.34,
+    "price": 225.39,
+    "change_pct": 14.7,
     "name": "NVDA",
-    "updated_at": "2026-08-13T06:38:34.148756"
+    "updated_at": "2026-08-13T12:07:51.370559"
   },
   "BTC": {
-    "price": 63382.26,
-    "change_pct": 0.91,
+    "price": 63031.24,
+    "change_pct": 0.35,
     "name": "BTC",
-    "updated_at": "2026-08-13T06:38:34.148765"
+    "updated_at": "2026-08-13T12:07:51.370562"
   },
   "TSLA": {
-    "price": 327.51,
-    "change_pct": 4.63,
+    "price": 335.46,
+    "change_pct": 8.49,
     "name": "TSLA",
-    "updated_at": "2026-08-13T06:38:34.148773"
+    "updated_at": "2026-08-13T12:07:51.370566"
   },
   "MSFT": {
-    "price": 492.43,
-    "change_pct": 29.01,
+    "price": 494.7,
+    "change_pct": 27.14,
     "name": "MSFT",
-    "updated_at": "2026-08-13T06:38:34.148781"
+    "updated_at": "2026-08-13T12:07:51.370570"
   },
   "AMZN": {
-    "price": 267.28,
-    "change_pct": 15.15,
+    "price": 265.36,
+    "change_pct": 14.68,
     "name": "AMZN",
-    "updated_at": "2026-08-13T06:38:34.148788"
+    "updated_at": "2026-08-13T12:07:51.370573"
   },
   "META": {
-    "price": 578.85,
-    "change_pct": -2.75,
+    "price": 588.38,
+    "change_pct": -0.92,
     "name": "META",
-    "updated_at": "2026-08-13T06:38:34.148797"
+    "updated_at": "2026-08-13T12:07:51.370577"
   },
   "WTI": {
-    "price": 3.68,
-    "change_pct": 0.55,
+    "price": 3.62,
+    "change_pct": 9.21,
     "name": "WTI",
-    "updated_at": "2026-08-13T06:38:34.148804"
+    "updated_at": "2026-08-13T12:07:51.370580"
   },
   "S&P 500": {
-    "price": 772.49,
-    "change_pct": 4.54,
+    "price": 777.16,
+    "change_pct": 5.15,
     "name": "S&P 500",
-    "updated_at": "2026-08-13T06:38:34.148811"
+    "updated_at": "2026-08-13T12:07:51.370583"
   },
   "AAPL": {
-    "price": 302.25,
-    "change_pct": -9.16,
+    "price": 303.0,
+    "change_pct": -9.99,
     "name": "AAPL",
-    "updated_at": "2026-08-13T06:38:34.148819"
+    "updated_at": "2026-08-13T12:07:51.370587"
   },
   "QQQ": {
-    "price": 723.7,
-    "change_pct": 5.77,
+    "price": 732.67,
+    "change_pct": 7.41,
     "name": "Invesco QQQ Trust",
-    "updated_at": "2026-08-13T06:38:34.148826"
+    "updated_at": "2026-08-13T12:07:51.370590"
   },
   "BTC-USD": {
-    "price": 63382.26,
-    "change_pct": 0.91,
+    "price": 63031.24,
+    "change_pct": 0.35,
     "name": "Bitcoin USD",
-    "updated_at": "2026-08-13T06:38:34.148836"
+    "updated_at": "2026-08-13T12:07:51.370593"
   }
 },
   tickerScores: [
@@ -853,6 +853,25 @@ const dashboardData = {
       "podcast_episode_id": 401
     },
     {
+      "id": 417,
+      "title": "The Two Ways to Sell AI: Lighthouse or Landgrab?",
+      "source_type": "podcast",
+      "source_name": "The a16z Show",
+      "source_date": "2026-08-13",
+      "summary": "In this episode of the a16z Show, Elena Berger sits down with Joe Schmidt and Andy McCall from a16z to discuss the two dominant go-to-market strategies for enterprise AI startups: the lighthouse strategy and the land grab strategy. They explore the nuances of each approach, the circumstances under which one might be more effective than the other, and the critical considerations for founders when deciding which path to take. Drawing on lessons from building sales organizations at companies like Samsara and Maraki, they provide a framework for evaluating which playbook to follow and when to switch strategies.",
+      "key_takeaway": "The choice between the lighthouse and land grab strategies can significantly impact the success of an enterprise AI startup, as each approach has its own set of advantages and challenges that must be carefully considered in the context of the company's specific circumstances.",
+      "tickers_mentioned": [
+        "AAPL"
+      ],
+      "sentiment": "neutral",
+      "display_on_main": 1,
+      "display_order": 0,
+      "added_date": "2026-08-13",
+      "archived_date": null,
+      "archived_reason": null,
+      "podcast_episode_id": 402
+    },
+    {
       "id": 414,
       "title": "Garry Tan on Taste, Agents and Founder Ambition",
       "source_type": "podcast",
@@ -980,7 +999,7 @@ const dashboardData = {
         "AAPL"
       ],
       "sentiment": "bullish",
-      "display_on_main": 1,
+      "display_on_main": 0,
       "display_order": 0,
       "added_date": "2026-08-10",
       "archived_date": null,
@@ -11035,6 +11054,26 @@ const dashboardData = {
       "key_tickers": []
     },
     {
+      "id": 417,
+      "title": "The Two Ways to Sell AI: Lighthouse or Landgrab?",
+      "source_type": "podcast",
+      "source_name": "The a16z Show",
+      "source_date": "2026-08-13",
+      "summary": "In this episode of the a16z Show, Elena Berger sits down with Joe Schmidt and Andy McCall from a16z to discuss the two dominant go-to-market strategies for enterprise AI startups: the lighthouse strategy and the land grab strategy. They explore the nuances of each approach, the circumstances under which one might be more effective than the other, and the critical considerations for founders when deciding which path to take. Drawing on lessons from building sales organizations at companies like Samsara and Maraki, they provide a framework for evaluating which playbook to follow and when to switch strategies.",
+      "key_takeaway": "The choice between the lighthouse and land grab strategies can significantly impact the success of an enterprise AI startup, as each approach has its own set of advantages and challenges that must be carefully considered in the context of the company's specific circumstances.",
+      "tickers_mentioned": "[\"AAPL\"]",
+      "sentiment": "neutral",
+      "display_on_main": 1,
+      "display_order": 0,
+      "added_date": "2026-08-13",
+      "archived_date": null,
+      "archived_reason": null,
+      "podcast_episode_id": 402,
+      "episode_release_date": "2026-08-13",
+      "guest_name": null,
+      "key_tickers": []
+    },
+    {
       "id": 414,
       "title": "Garry Tan on Taste, Agents and Founder Ambition",
       "source_type": "podcast",
@@ -11156,26 +11195,6 @@ const dashboardData = {
       "podcast_episode_id": 397,
       "episode_release_date": "2026-08-11",
       "guest_name": null,
-      "key_tickers": []
-    },
-    {
-      "id": 409,
-      "title": "How Kavak Rebuilt Itself Around AI Agents | Alejandro Maza Ayala",
-      "source_type": "podcast",
-      "source_name": "The a16z Show",
-      "source_date": "2026-08-10",
-      "summary": "Kavak is revolutionizing its business model by becoming an AI-native company, focusing on creating 'superhuman agents' that outperform humans in various dimensions. The company instantiates a large number of AI agents daily to handle customer interactions, with a goal of maximizing customer lifetime value rather than just performing specific tasks. Kavak has also adopted a new architecture where agents work alongside humans, sometimes even directing human tasks. The company's success metrics have shifted from transactional to relational, emphasizing long-term customer relationships. This approach has shown to be more effective in sales, improving customer satisfaction and conversion rates.",
-      "key_takeaway": "Investing in AI capabilities that can perform at a superhuman level can potentially revolutionize industries by handling complex tasks more efficiently and effectively than traditional human teams.",
-      "tickers_mentioned": "[\"AAPL\"]",
-      "sentiment": "bullish",
-      "display_on_main": 1,
-      "display_order": 0,
-      "added_date": "2026-08-10",
-      "archived_date": null,
-      "archived_reason": null,
-      "podcast_episode_id": 394,
-      "episode_release_date": "2026-08-10",
-      "guest_name": "How Kavak Rebuilt Itself Around AI Agents",
       "key_tickers": []
     }
   ],
@@ -36132,9 +36151,82 @@ const dashboardData = {
     "source_name": "All-In with Chamath, Jason, Sacks & Friedberg",
     "source_date": "2026-08-13",
     "key_tickers": []
+  },
+  "417": {
+    "id": 407,
+    "insight_id": 417,
+    "podcast_episode_id": 402,
+    "overview": "The unresolved tension in enterprise AI lies between the strategic choice of either securing high-profile customers to validate a product (lighthouse) or rapidly capturing market share by targeting companies with existing budgets (land grab). The competitive dynamic is arbitrated by market maturity, regulatory pressures, and economic conditions. What converts belief in either strategy is the ability to either leverage social proof effectively or to demonstrate tangible value quickly in a cost-sensitive environment.",
+    "key_takeaways_detailed": [
+      "For startups in regulated industries, the lighthouse strategy may be more effective due to the high buyer exposure and risk, requiring social proof to mitigate decision-making uncertainty.",
+      "In markets with established budgets and lower risk, the land grab strategy can be more actionable, focusing on proving the mathematical benefits of AI solutions over existing processes.",
+      "The decision between strategies should be contingent on the industry's readiness for AI, the regulatory landscape, and the economic cycle's impact on corporate spending.",
+      "Switching strategies may be necessary as market conditions evolve, requiring founders to be agile and responsive to changing buyer behaviors and market dynamics."
+    ],
+    "investment_thesis": "Enterprise AI startups that can successfully navigate the choice between the lighthouse and land grab strategies will be better positioned for growth. The timeframe for this thesis is medium to long-term, as the effectiveness of these strategies will play out over several years as AI adoption matures. An observable development that would vindicate this thesis is a consistent pattern of successful AI startups aligning their go-to-market strategies with the prevailing market conditions, while a failure to adapt would invalidate it.",
+    "ticker_analysis": {
+      "AAPL": {
+        "rationale": "Apple's significant investment in AI for its products and services makes it relevant to the thesis, as its success could indicate a broader market acceptance of AI solutions.",
+        "positioning": "Positioning should be strategic and long-term, as Apple's AI advancements could influence the enterprise AI market and validate the effectiveness of chosen go-to-market strategies.",
+        "risk": "Key risks include changes in consumer preferences away from AI-driven products and potential regulatory hurdles that could slow down AI integration in consumer electronics."
+      }
+    },
+    "positioning_guidance": "",
+    "risk_factors": [],
+    "contrarian_signals": [
+      "The emergence of new technologies that disrupt the current AI landscape, rendering existing go-to-market strategies obsolete.",
+      "A significant increase in the number of AI startups leading to market saturation, which could dilute the effectiveness of both the lighthouse and land grab strategies.",
+      "A shift in corporate culture towards longer-term relationships with vendors, which could reduce the appeal of rapid market capture strategies."
+    ],
+    "catalysts": [
+      "Regulatory changes in key industries that could either bolster the need for AI solutions or create barriers to entry.",
+      "Economic indicators such as corporate spending levels, which can signal the health of the market for enterprise AI solutions.",
+      "Technological breakthroughs in AI that could alter the competitive landscape and the viability of current go-to-market strategies.",
+      "Key earnings reports from major enterprise AI companies that can provide insights into the success of their chosen strategies."
+    ],
+    "related_insights": null,
+    "audio_timestamp_start": null,
+    "audio_timestamp_end": null,
+    "transcript_excerpt": null,
+    "created_at": "2026-08-13T12:07:05.154690",
+    "updated_at": "2026-08-13 17:07:05",
+    "episode_evidence": "In the a16z podcast, Joe Schmidt and Andy McCall discuss the dichotomy between the 'lighthouse' and 'land grab' strategies for enterprise AI startups. The 'lighthouse' strategy involves targeting high-profile customers to leverage their credibility and unlock a market, as exemplified by Schmidt's observation: 'Do you win a handful of high-profile customers and use their credibility to unlock a market?' On the other hand, the 'land grab' strategy focuses on capturing market share rapidly by targeting customers with existing budgets and proving the value of the solution, as McCall suggests: 'Find people who need your solution.' The discussion also highlights the importance of timing and market conditions, with McCall reflecting on his experience at Samsara during the ELD mandate, which created a 'rising tide floats all boats' scenario, benefiting new entrants in a regulated market.",
+    "falsification_tracks": [
+      "A significant shift in regulatory environments that reduces the need for AI solutions in regulated industries, thereby undermining the effectiveness of the lighthouse strategy.",
+      "A prolonged economic downturn that leads to budget cuts in companies, reducing the of the land grab strategy as existing budgets dry up.",
+      "A failure of AI startups to deliver on promised efficiencies and cost savings, leading to a loss of confidence among potential enterprise customers in both strategies."
+    ],
+    "insight_title": "The Two Ways to Sell AI: Lighthouse or Landgrab?",
+    "source_name": "The a16z Show",
+    "source_date": "2026-08-13",
+    "key_tickers": []
   }
 },
   suggestedTerms: [
+  {
+    "id": 588,
+    "term": "Lighthouse Strategy",
+    "definition": "A go-to-market strategy that involves winning a handful of high-profile customers to unlock a market and use their credibility to gain further traction.",
+    "investment_implications": "This strategy can be effective for companies looking to establish credibility and gain a foothold in a new market, but it may not be the best approach for capturing market share quickly.",
+    "source_type": "auto_extracted",
+    "mention_count": 1,
+    "source_diversity": 1,
+    "relevance_score": 50,
+    "submitted_date": "2026-08-13 17:06:10",
+    "priority_score": 80
+  },
+  {
+    "id": 589,
+    "term": "Land Grab Strategy",
+    "definition": "A go-to-market strategy that focuses on capturing as much of the market as quickly as possible by finding customers with existing budgets and proving the value of the product.",
+    "investment_implications": "This approach can be more effective for companies looking to scale rapidly and dominate a market, but it may require a different set of sales capabilities and resources.",
+    "source_type": "auto_extracted",
+    "mention_count": 1,
+    "source_diversity": 1,
+    "relevance_score": 50,
+    "submitted_date": "2026-08-13 17:06:10",
+    "priority_score": 80
+  },
   {
     "id": 587,
     "term": "Cycle Dates",
@@ -36158,35 +36250,11 @@ const dashboardData = {
     "relevance_score": 50,
     "submitted_date": "2026-08-12 10:03:05",
     "priority_score": 80
-  },
-  {
-    "id": 584,
-    "term": "AI for Science",
-    "definition": "The application of artificial intelligence techniques to scientific research, particularly in the fields of protein design and drug discovery.",
-    "investment_implications": "Investments in AI for Science could lead to significant advancements in drug development, potentially offering high returns for early investors.",
-    "source_type": "auto_extracted",
-    "mention_count": 1,
-    "source_diversity": 1,
-    "relevance_score": 50,
-    "submitted_date": "2026-08-12 10:01:02",
-    "priority_score": 80
-  },
-  {
-    "id": 585,
-    "term": "Precision Engineering in Biology",
-    "definition": "The ability to design and create biological molecules or systems with high accuracy and specificity, akin to engineering in other fields like software or mechanical design.",
-    "investment_implications": "This shift towards precision engineering in biology could lead to more predictable and efficient drug development processes, impacting investment in biotech and pharmaceuticals.",
-    "source_type": "auto_extracted",
-    "mention_count": 1,
-    "source_diversity": 1,
-    "relevance_score": 50,
-    "submitted_date": "2026-08-12 10:01:02",
-    "priority_score": 80
   }
 ],
   podcastGuests: [
   {
-    "id": 49495,
+    "id": 49610,
     "name": "Rahm Emanuel",
     "slug": "rahm-emanuel",
     "bio": null,
@@ -36198,7 +36266,7 @@ const dashboardData = {
     "appearance_count": 1
   },
   {
-    "id": 49496,
+    "id": 49611,
     "name": "Milton Berg",
     "slug": "milton-berg",
     "bio": "Milton Berg is a veteran technical analyst and CEO of Milton Berg Advisors, specializing in market turning-point analysis for institutional investors.",
@@ -36210,7 +36278,7 @@ const dashboardData = {
     "appearance_count": 2
   },
   {
-    "id": 49497,
+    "id": 49612,
     "name": "How Kavak Rebuilt Itself Around AI Agents",
     "slug": "how-kavak-rebuilt-itself-around-ai-agents",
     "bio": null,
@@ -36222,7 +36290,7 @@ const dashboardData = {
     "appearance_count": 1
   },
   {
-    "id": 49498,
+    "id": 49613,
     "name": "Emad Mostaque",
     "slug": "emad-mostaque",
     "bio": null,
@@ -36234,7 +36302,7 @@ const dashboardData = {
     "appearance_count": 1
   },
   {
-    "id": 49499,
+    "id": 49614,
     "name": "How Open",
     "slug": "how-open",
     "bio": null,
@@ -36246,7 +36314,7 @@ const dashboardData = {
     "appearance_count": 1
   },
   {
-    "id": 49500,
+    "id": 49615,
     "name": "Saronic Founders",
     "slug": "saronic-founders",
     "bio": null,
@@ -36258,7 +36326,7 @@ const dashboardData = {
     "appearance_count": 1
   },
   {
-    "id": 49501,
+    "id": 49616,
     "name": "OpenAI's Joshua Achiam",
     "slug": "openais-joshua-achiam",
     "bio": null,
@@ -36270,7 +36338,7 @@ const dashboardData = {
     "appearance_count": 1
   },
   {
-    "id": 49502,
+    "id": 49617,
     "name": "Why Macro is \u201cPretty Risk-On\u201d for Equities",
     "slug": "why-macro-is-pretty-risk-on-for-equities",
     "bio": null,
@@ -36282,7 +36350,7 @@ const dashboardData = {
     "appearance_count": 1
   },
   {
-    "id": 49503,
+    "id": 49618,
     "name": "AI for America's Small Businesses",
     "slug": "ai-for-americas-small-businesses",
     "bio": null,
@@ -36294,7 +36362,7 @@ const dashboardData = {
     "appearance_count": 1
   },
   {
-    "id": 49504,
+    "id": 49619,
     "name": "Mum\u2019s The Word",
     "slug": "mums-the-word",
     "bio": null,
@@ -36306,7 +36374,7 @@ const dashboardData = {
     "appearance_count": 1
   },
   {
-    "id": 49505,
+    "id": 49620,
     "name": "Luke Gromen",
     "slug": "luke-gromen",
     "bio": null,
@@ -36318,7 +36386,7 @@ const dashboardData = {
     "appearance_count": 1
   },
   {
-    "id": 49506,
+    "id": 49621,
     "name": "Codex from 0 to 10M Users",
     "slug": "codex-from-0-to-10m-users",
     "bio": null,
@@ -36330,7 +36398,7 @@ const dashboardData = {
     "appearance_count": 1
   },
   {
-    "id": 49507,
+    "id": 49622,
     "name": "Ben Horowitz",
     "slug": "ben-horowitz",
     "bio": "Ben Horowitz is a co-founder of venture firm Andreessen Horowitz and former CEO of Opsware, known for advising founders on leadership under pressure.",
@@ -36342,7 +36410,7 @@ const dashboardData = {
     "appearance_count": 3
   },
   {
-    "id": 49508,
+    "id": 49623,
     "name": "Building the Physical AI Stack",
     "slug": "building-the-physical-ai-stack",
     "bio": null,
@@ -36354,7 +36422,7 @@ const dashboardData = {
     "appearance_count": 1
   },
   {
-    "id": 49509,
+    "id": 49624,
     "name": "Travis Kalanick Is Back",
     "slug": "travis-kalanick-is-back",
     "bio": null,
@@ -36366,7 +36434,7 @@ const dashboardData = {
     "appearance_count": 1
   },
   {
-    "id": 49510,
+    "id": 49625,
     "name": "Why Physical AI Is the Next Frontier",
     "slug": "why-physical-ai-is-the-next-frontier",
     "bio": null,
@@ -36378,7 +36446,7 @@ const dashboardData = {
     "appearance_count": 1
   },
   {
-    "id": 49511,
+    "id": 49626,
     "name": "Nick Nemeth",
     "slug": "nick-nemeth",
     "bio": null,
@@ -36390,7 +36458,7 @@ const dashboardData = {
     "appearance_count": 1
   },
   {
-    "id": 49512,
+    "id": 49627,
     "name": "Mark Cuban on the AI Bubble",
     "slug": "mark-cuban-on-the-ai-bubble",
     "bio": null,
@@ -36402,7 +36470,7 @@ const dashboardData = {
     "appearance_count": 1
   },
   {
-    "id": 49513,
+    "id": 49628,
     "name": "Urgent Update- AI Sputnik Moment",
     "slug": "urgent-update--ai-sputnik-moment",
     "bio": null,
@@ -36414,7 +36482,7 @@ const dashboardData = {
     "appearance_count": 1
   },
   {
-    "id": 49514,
+    "id": 49629,
     "name": "Replay 2025",
     "slug": "replay-2025",
     "bio": null,
@@ -36742,6 +36810,66 @@ const dashboardData = {
     "net_worth": "$12.3M"
   },
   {
+    "id": 218,
+    "name": "Joe Schmidt",
+    "slug": "joe-schmidt",
+    "bio": "Joe Schmidt is an investor at a16z with a focus on enterprise software and AI startups. He is known for his expertise in go-to-market strategies for AI companies and lessons from building sales organizations.",
+    "known_for": "His insights on sales strategies and the framework for evaluating which playbook AI companies should follow.",
+    "net_worth_usd": 21000000.0,
+    "net_worth_source": "https://www.gurufocus.com/insider/168447/joseph-h-schmidt",
+    "net_worth_updated_at": "2026-04-30T22:03:04.038566",
+    "voice_tone": "Analytical and insightful",
+    "voice_style": "Factual and informative",
+    "voice_delivery_notes": "Clear and concise with a focus on actionable insights",
+    "voice_profile_updated_at": "2026-08-13 17:06:10",
+    "last_seen": "2026-08-13 17:06:10",
+    "last_episode_title": "The Two Ways to Sell AI: Lighthouse or Landgrab?",
+    "last_podcast_name": "The a16z Show",
+    "last_episode_date": "2026-08-13",
+    "mention_score": 2,
+    "mention_score_decayed": 2,
+    "last_main_idea": "The choice between the lighthouse and land grab strategies can significantly impact the success of an enterprise AI startup, as each approach has its own set of advantages and challenges that must be carefully considered in the context of the company's specific circumstances.",
+    "last_proof_cite": "The a16z Show \u2022 2026-08-13 \u2022 The Two Ways to Sell AI: Lighthouse or Landgrab?",
+    "last_proof_snippet": "There's a moment right now to go sell big software again. We're now looking at a different way of doing business entirely. What are the lighthouse and land grab sales playbook? Here's the framework for evaluating which playbook should you b",
+    "supporting_takeaway": "Founders should evaluate which playbook to follow based on their unique circumstances, including the nature of their product, the market landscape, and their sales capabilities.",
+    "grokipedia_url": null,
+    "grokipedia_fetched_at": "2026-08-13T12:06:19.499034",
+    "pundit_profile": {
+      "source": "llm",
+      "source_model": "moonshot:moonshot-v1-8k",
+      "source_url": "",
+      "page_title": "Joe Schmidt",
+      "fetched_at": "2026-08-13T17:06:19.498693+00:00",
+      "cliff_notes": "Joe Schmidt is an investor at a16z, a venture capital firm, where he focuses on enterprise software and AI startups. He has gained recognition for his expertise in go-to-market strategies for AI companies and his insights on building sales organizations. Schmidt's work involves identifying opportunities in the AI space and helping startups scale their operations. His approach to sales strategies, such as the lighthouse and land grab playbooks, has been influential in the tech industry. By providing frameworks for evaluating which sales strategy to follow, Schmidt has contributed significantly to the growth and success of AI companies.",
+      "derived": {
+        "current_role": "Investor at a16z"
+      },
+      "infobox": {
+        "Born": "",
+        "Nationality": ""
+      },
+      "lead_paragraphs": [
+        "Joe Schmidt is an investor at a16z, a venture capital firm, where he focuses on enterprise software and AI startups. He has gained recognition for his expertise in go-to-market strategies for AI companies and his insights on building sales organizations. Schmidt's work involves identifying opportunities in the AI space and helping startups scale their operations.",
+        "His approach to sales strategies, such as the lighthouse and land grab playbooks, has been influential in the tech industry. By providing frameworks for evaluating which sales strategy to follow, Schmidt has contributed significantly to the growth and success of AI companies."
+      ],
+      "sections": [
+        {
+          "heading": "Go-to-Market Strategies",
+          "body": "Joe Schmidt is known for his expertise in go-to-market strategies for AI companies. He has developed frameworks for evaluating which sales playbook to follow, such as the lighthouse and land grab strategies."
+        },
+        {
+          "heading": "AI Startups",
+          "body": "As an investor at a16z, Joe Schmidt focuses on enterprise software and AI startups. He helps these companies scale their operations and provides insights on sales strategies and building sales organizations."
+        },
+        {
+          "heading": "Sales Playbooks",
+          "body": "Schmidt has developed a framework for evaluating which sales playbook AI companies should follow, such as targeting obvious companies with social value or finding customers who need their solution."
+        }
+      ]
+    },
+    "net_worth": "$21.0M"
+  },
+  {
     "id": 187,
     "name": "Luke Groman",
     "slug": "luke-groman",
@@ -36819,7 +36947,7 @@ const dashboardData = {
     "last_podcast_name": "The a16z Show",
     "last_episode_date": "2026-07-17",
     "mention_score": 2,
-    "mention_score_decayed": 1.1,
+    "mention_score_decayed": 1.07,
     "last_main_idea": "Investing in companies that prioritize public communication and authenticity can lead to stronger brand loyalty and trust, which are valuable assets in the long term.",
     "last_proof_cite": "The a16z Show \u2022 2026-07-17 \u2022 Amjad Masad on Going Direct, Building Replit, and the Future of Software",
     "last_proof_snippet": "Being canceled is a choice. You should choose to get canceled and retreat from the public eye, but I think if you're still out there, at some point, honestly, the haters kind of give up. To some people ask, hey, how should I think about exp",
@@ -37970,6 +38098,67 @@ const dashboardData = {
     }
   },
   {
+    "id": 402,
+    "name": "Andy McCall",
+    "slug": "andy-mccall",
+    "bio": "Andy McCall is an investor at a16z with a background in sales and go-to-market strategies. He has experience building sales organizations at companies like Samsara and Maraki, and is known for his expertise in sales playbooks and strategies.",
+    "known_for": "His insights on sales strategies and go-to-market playbooks for software companies.",
+    "net_worth_usd": 37300000.0,
+    "net_worth_source": "https://www.benzinga.com/sec/insider-trades/0001895104/Andy-McCall",
+    "net_worth_updated_at": "2026-08-13T12:06:38.509425",
+    "voice_tone": "Experienced and pragmatic",
+    "voice_style": "Practical and solution-oriented",
+    "voice_delivery_notes": "Direct and to-the-point with a focus on real-world applications",
+    "voice_profile_updated_at": "2026-08-13 17:06:10",
+    "last_seen": "2026-08-13 17:06:10",
+    "last_episode_title": "The Two Ways to Sell AI: Lighthouse or Landgrab?",
+    "last_podcast_name": "The a16z Show",
+    "last_episode_date": "2026-08-13",
+    "mention_score": 1,
+    "mention_score_decayed": 1,
+    "last_main_idea": "The choice between the lighthouse and land grab strategies can significantly impact the success of an enterprise AI startup, as each approach has its own set of advantages and challenges that must be carefully considered in the context of the company's specific circumstances.",
+    "last_proof_cite": "The a16z Show \u2022 2026-08-13 \u2022 The Two Ways to Sell AI: Lighthouse or Landgrab?",
+    "last_proof_snippet": "There's a moment right now to go sell big software again. We're now looking at a different way of doing business entirely. What are the lighthouse and land grab sales playbook? Here's the framework for evaluating which playbook should you b",
+    "supporting_takeaway": "Founders should evaluate which playbook to follow based on their unique circumstances, including the nature of their product, the market landscape, and their sales capabilities.",
+    "grokipedia_url": null,
+    "grokipedia_fetched_at": "2026-08-13T12:06:36.765228",
+    "pundit_profile": {
+      "source": "llm",
+      "source_model": "moonshot:moonshot-v1-8k",
+      "source_url": "",
+      "page_title": "Andy McCall",
+      "fetched_at": "2026-08-13T17:06:36.765072+00:00",
+      "cliff_notes": "Andy McCall is an investor at the venture capital firm a16z, known for his expertise in sales and go-to-market strategies. He has built sales organizations at companies like Samsara and Maraki, gaining valuable insights into the world of software sales. McCall's experience allows him to provide valuable guidance to startups on how to effectively sell their products and services. His knowledge of different sales playbooks, such as the lighthouse and land grab strategies, has made him a sought-after advisor in the tech industry.",
+      "derived": {
+        "current_role": "Investor at a16z",
+        "former_positions": "Sales roles at Samsara and Maraki"
+      },
+      "infobox": {
+        "Born": "",
+        "Nationality": ""
+      },
+      "lead_paragraphs": [
+        "Andy McCall is an investor at the venture capital firm a16z, known for his expertise in sales and go-to-market strategies. He has built sales organizations at companies like Samsara and Maraki, gaining valuable insights into the world of software sales. McCall's experience allows him to provide valuable guidance to startups on how to effectively sell their products and services.",
+        "His knowledge of different sales playbooks, such as the lighthouse and land grab strategies, has made him a sought-after advisor in the tech industry."
+      ],
+      "sections": [
+        {
+          "heading": "Sales Playbooks",
+          "body": "Andy McCall is known for his expertise in sales playbooks, specifically the lighthouse and land grab strategies. He has experience implementing these strategies at companies like Samsara and Maraki."
+        },
+        {
+          "heading": "Go-to-Market Strategies",
+          "body": "McCall has a deep understanding of go-to-market strategies, drawing on his experience building sales organizations at various tech companies. He advises startups on how to effectively sell their products and services."
+        },
+        {
+          "heading": "Sales Organization Building",
+          "body": "Throughout his career, Andy McCall has built sales organizations at companies like Samsara and Maraki. His experience in this area has provided him with valuable insights into the world of software sales."
+        }
+      ]
+    },
+    "net_worth": "$37.3M"
+  },
+  {
     "id": 401,
     "name": "Ron Emmanuel",
     "slug": "ron-emmanuel",
@@ -38120,7 +38309,7 @@ const dashboardData = {
     "last_podcast_name": "The a16z Show",
     "last_episode_date": "2026-08-12",
     "mention_score": 1,
-    "mention_score_decayed": 1,
+    "mention_score_decayed": 0.98,
     "last_main_idea": "Invest in startups leveraging AI to automate and perfect business processes, led by founders with a deep understanding of their domain and a history of successful strategy implementation.",
     "last_proof_cite": "The a16z Show \u2022 2026-08-12 \u2022 Garry Tan on Taste, Agents and Founder Ambition",
     "last_proof_snippet": "We may never achieve a utopia, but it is worthy and worth it to attempt. Everything that's awesome in my life is kind of a cult. We had to go over to the Windows team. They wouldn't reply to our emails. They wouldn't fix our bugs. And we ha",
@@ -38430,7 +38619,7 @@ const dashboardData = {
     "last_podcast_name": "The a16z Show",
     "last_episode_date": "2026-08-11",
     "mention_score": 1,
-    "mention_score_decayed": 0.98,
+    "mention_score_decayed": 0.95,
     "last_main_idea": "Invest in companies that are at the forefront of AI adoption and security, as these are likely to shape the future of enterprise software development.",
     "last_proof_cite": "The a16z Show \u2022 2026-08-11 \u2022 The CISO Playbook for AI Agents | Datadog",
     "last_proof_snippet": "The number one story on Bloomberg right now is that AI has gone wild. We seem remarkably calm. The way I see it is, if it's not an AI model, it's going to be somebody or something with actual malicious intent to win it. I do worry about wha",
@@ -38610,7 +38799,7 @@ const dashboardData = {
     "last_podcast_name": "The a16z Show",
     "last_episode_date": "2026-08-07",
     "mention_score": 1,
-    "mention_score_decayed": 0.89,
+    "mention_score_decayed": 0.87,
     "last_main_idea": "Invest in cybersecurity solutions that can adapt to the rapidly evolving AI-driven threats and focus on securing software supply chains to mitigate vulnerabilities.",
     "last_proof_cite": "The a16z Show \u2022 2026-08-07 \u2022 The Reality of AI-Powered Cyberattacks | Truffle Security & Socket",
     "last_proof_snippet": "Models are actively escaping their cages, going out on the internet and doing pretty nasty things. Recently, we found an API key that had been leaked on the internet ahead administrative access to the Apache Foundation. Interesting thing ab",
@@ -38668,7 +38857,7 @@ const dashboardData = {
     "last_podcast_name": "The a16z Show",
     "last_episode_date": "2026-08-07",
     "mention_score": 1,
-    "mention_score_decayed": 0.89,
+    "mention_score_decayed": 0.87,
     "last_main_idea": "Invest in cybersecurity solutions that can adapt to the rapidly evolving AI-driven threats and focus on securing software supply chains to mitigate vulnerabilities.",
     "last_proof_cite": "The a16z Show \u2022 2026-08-07 \u2022 The Reality of AI-Powered Cyberattacks | Truffle Security & Socket",
     "last_proof_snippet": "Models are actively escaping their cages, going out on the internet and doing pretty nasty things. Recently, we found an API key that had been leaked on the internet ahead administrative access to the Apache Foundation. Interesting thing ab",
@@ -38728,7 +38917,7 @@ const dashboardData = {
     "last_podcast_name": "The a16z Show",
     "last_episode_date": "2026-08-07",
     "mention_score": 1,
-    "mention_score_decayed": 0.89,
+    "mention_score_decayed": 0.87,
     "last_main_idea": "Invest in cybersecurity solutions that can adapt to the rapidly evolving AI-driven threats and focus on securing software supply chains to mitigate vulnerabilities.",
     "last_proof_cite": "The a16z Show \u2022 2026-08-07 \u2022 The Reality of AI-Powered Cyberattacks | Truffle Security & Socket",
     "last_proof_snippet": "Models are actively escaping their cages, going out on the internet and doing pretty nasty things. Recently, we found an API key that had been leaked on the internet ahead administrative access to the Apache Foundation. Interesting thing ab",
@@ -38788,7 +38977,7 @@ const dashboardData = {
     "last_podcast_name": "The a16z Show",
     "last_episode_date": "2026-08-06",
     "mention_score": 1,
-    "mention_score_decayed": 0.87,
+    "mention_score_decayed": 0.85,
     "last_main_idea": "Investing in open source AI infrastructure and models is crucial for enterprises looking to leverage AI capabilities, as it offers a sustainable and collaborative approach to innovation in the field.",
     "last_proof_cite": "The a16z Show \u2022 2026-08-06 \u2022 How Open-Source AI Became Critical Infrastructure",
     "last_proof_snippet": "The fun thought experiment is if GPUs dropped in price by 99% then do we get back to it a real open source world if moderation is never solved in the future people will go to openly by default because that is where you know for sure you can",
@@ -38966,7 +39155,7 @@ const dashboardData = {
     "last_podcast_name": "The a16z Show",
     "last_episode_date": "2026-08-05",
     "mention_score": 1,
-    "mention_score_decayed": 0.85,
+    "mention_score_decayed": 0.83,
     "last_main_idea": "Investing in innovative technologies that address critical challenges in ocean exploration, mineral extraction, and nuclear energy can lead to significant market opportunities and positive societal impacts.",
     "last_proof_cite": "The a16z Show \u2022 2026-08-05 \u2022 Three Startups Reinventing Critical Infrastructure",
     "last_proof_snippet": "Last month, A16Z American dynamism films screened short films about three portfolio companies. Ulysses built mission-critical underwater robots, Marianna Mineroles applies modern technologies to the critical mineral sector, and Radiant seek",
@@ -39025,7 +39214,7 @@ const dashboardData = {
     "last_podcast_name": "The a16z Show",
     "last_episode_date": "2026-08-05",
     "mention_score": 1,
-    "mention_score_decayed": 0.85,
+    "mention_score_decayed": 0.83,
     "last_main_idea": "Investing in innovative technologies that address critical challenges in ocean exploration, mineral extraction, and nuclear energy can lead to significant market opportunities and positive societal impacts.",
     "last_proof_cite": "The a16z Show \u2022 2026-08-05 \u2022 Three Startups Reinventing Critical Infrastructure",
     "last_proof_snippet": "Last month, A16Z American dynamism films screened short films about three portfolio companies. Ulysses built mission-critical underwater robots, Marianna Mineroles applies modern technologies to the critical mineral sector, and Radiant seek",
@@ -39084,7 +39273,7 @@ const dashboardData = {
     "last_podcast_name": "The a16z Show",
     "last_episode_date": "2026-08-05",
     "mention_score": 1,
-    "mention_score_decayed": 0.85,
+    "mention_score_decayed": 0.83,
     "last_main_idea": "Investing in innovative technologies that address critical challenges in ocean exploration, mineral extraction, and nuclear energy can lead to significant market opportunities and positive societal impacts.",
     "last_proof_cite": "The a16z Show \u2022 2026-08-05 \u2022 Three Startups Reinventing Critical Infrastructure",
     "last_proof_snippet": "Last month, A16Z American dynamism films screened short films about three portfolio companies. Ulysses built mission-critical underwater robots, Marianna Mineroles applies modern technologies to the critical mineral sector, and Radiant seek",
@@ -39408,7 +39597,7 @@ const dashboardData = {
     "last_podcast_name": "The a16z Show",
     "last_episode_date": "2026-08-02",
     "mention_score": 1,
-    "mention_score_decayed": 0.79,
+    "mention_score_decayed": 0.78,
     "last_main_idea": "The evolving digital landscape presents opportunities for investment in AI and technology that can enhance daily life and reshape consumption habits, while also requiring a critical approach to understand and adapt to new cultural norms.",
     "last_proof_cite": "The a16z Show \u2022 2026-08-02 \u2022 Ruby Thelot on Internet Culture, AI, and the Future of Taste",
     "last_proof_snippet": "Americans don't like AI. AI is a very broad term. They all use chat. And like, I love it. I love, I love chat. But they don't like AI. There's the bookie man of like, I'm going to lose my job. But when I talk to mothers in Brian tags of lik",
@@ -39660,7 +39849,7 @@ const dashboardData = {
     "last_podcast_name": "The a16z Show",
     "last_episode_date": "2026-07-30",
     "mention_score": 1,
-    "mention_score_decayed": 0.74,
+    "mention_score_decayed": 0.72,
     "last_main_idea": "AI has the potential to automate administrative tasks in healthcare practices, creating significant value for small businesses and changing the landscape of enterprise software.",
     "last_proof_cite": "The a16z Show \u2022 2026-07-30 \u2022 AI for America's Small Businesses | Lassie",
     "last_proof_snippet": "AI is overhyped and Silicon Valley that's underhyped in Iowa. I would actually argue software just kind of took things that were stored in paper format and then they made them available first on-prem via green screen computers, but people s",
@@ -39719,7 +39908,7 @@ const dashboardData = {
     "last_podcast_name": "The a16z Show",
     "last_episode_date": "2026-07-30",
     "mention_score": 1,
-    "mention_score_decayed": 0.74,
+    "mention_score_decayed": 0.72,
     "last_main_idea": "AI has the potential to automate administrative tasks in healthcare practices, creating significant value for small businesses and changing the landscape of enterprise software.",
     "last_proof_cite": "The a16z Show \u2022 2026-07-30 \u2022 AI for America's Small Businesses | Lassie",
     "last_proof_snippet": "AI is overhyped and Silicon Valley that's underhyped in Iowa. I would actually argue software just kind of took things that were stored in paper format and then they made them available first on-prem via green screen computers, but people s",
@@ -40199,7 +40388,7 @@ const dashboardData = {
     "last_podcast_name": "The a16z Show",
     "last_episode_date": "2026-07-24",
     "mention_score": 1,
-    "mention_score_decayed": 0.64,
+    "mention_score_decayed": 0.63,
     "last_main_idea": "Investors should consider the impact of open-source AI models on frontier labs and monitor the security and competitive landscape of AI, as well as potential opportunities in related sectors like cloud computing and data centers.",
     "last_proof_cite": "The a16z Show \u2022 2026-07-24 \u2022 Sriram Krishnan on Open Source AI's Biggest Week Yet",
     "last_proof_snippet": "You can bring it back to very business first principles. If you're providing a product of value, Capitalism will find a way to make the supply chain work for you. So if you have an open-made model that is providing value, that means that ev",
@@ -40324,7 +40513,7 @@ const dashboardData = {
     "last_podcast_name": "Latent Space: The AI Engineer Podcast",
     "last_episode_date": "2026-07-23",
     "mention_score": 1,
-    "mention_score_decayed": 0.63,
+    "mention_score_decayed": 0.62,
     "last_main_idea": "Investing in AI development, particularly in the democratization of AI and the scaling of language models, can lead to significant innovation and competitive advantage.",
     "last_proof_cite": "Latent Space: The AI Engineer Podcast \u2022 2026-07-23 \u2022 Inside the Model Factory \u2014 Eiso Kant, Poolside AI",
     "last_proof_snippet": "All right, we're here in the studio. If I was a countryman, we'll fight together with people. Welcome. Thanks, thank you, guys. It's good to be here. Yeah, fresh on the plane. You texted me, you're like, hey, I'm on my way to SF. I was like",
@@ -41202,7 +41391,7 @@ const dashboardData = {
     "last_podcast_name": "The a16z Show",
     "last_episode_date": "2026-07-15",
     "mention_score": 1,
-    "mention_score_decayed": 0.52,
+    "mention_score_decayed": 0.51,
     "last_main_idea": "Investing in AI hardware requires a focus on infrastructure and the ability to scale efficiently, as the AI race is not just about models but also the underlying technology that supports them.",
     "last_proof_cite": "The a16z Show \u2022 2026-07-15 \u2022 Can Anyone Catch NVIDIA? | The Future of Chips and Infrastructure",
     "last_proof_snippet": "In videos that are going to have better networking than you, they're going to have better HP, they're going to have better process-node, they're going to come to market faster, they're going to be able to ramp faster, they're going to have",
@@ -41334,7 +41523,7 @@ const dashboardData = {
     "last_podcast_name": "The a16z Show",
     "last_episode_date": "2026-07-13",
     "mention_score": 1,
-    "mention_score_decayed": 0.5,
+    "mention_score_decayed": 0.49,
     "last_main_idea": "Investing in blockchain technology and AI requires a deep understanding of the foundational computer science principles that underpin these fields, as well as an awareness of the evolving landscape of systems research.",
     "last_proof_cite": "The a16z Show \u2022 2026-07-13 \u2022 Before Blockchains, There Was State Machine Replication",
     "last_proof_snippet": "DARPA had recognized that this was a serious problem, the problem of malicious attacks and was looking for research in that area. I had a student Miguel Castro. We came to me and he said, why don't we see whether we can figure out a way to",
@@ -41474,7 +41663,7 @@ const dashboardData = {
     "last_podcast_name": "The a16z Show",
     "last_episode_date": "2026-07-09",
     "mention_score": 1,
-    "mention_score_decayed": 0.46,
+    "mention_score_decayed": 0.45,
     "last_main_idea": "Investing in the development of new tools for biology and leveraging AI can accelerate scientific discovery and disease management, potentially leading to significant advancements in medicine.",
     "last_proof_cite": "The a16z Show \u2022 2026-07-09 \u2022 Mark Zuckerberg & Priscilla Chan: How AI Will Help Cure Disease",
     "last_proof_snippet": "This is a space that, and if there's just going to be a huge amount of leverage with AI, it still seems like there could be a lot more effort in this space around building tools. And it's kind of this crazy thing that we're, you know, here",
@@ -41540,7 +41729,7 @@ const dashboardData = {
     "last_podcast_name": "The a16z Show",
     "last_episode_date": "2026-07-09",
     "mention_score": 1,
-    "mention_score_decayed": 0.46,
+    "mention_score_decayed": 0.45,
     "last_main_idea": "Investing in the development of new tools for biology and leveraging AI can accelerate scientific discovery and disease management, potentially leading to significant advancements in medicine.",
     "last_proof_cite": "The a16z Show \u2022 2026-07-09 \u2022 Mark Zuckerberg & Priscilla Chan: How AI Will Help Cure Disease",
     "last_proof_snippet": "This is a space that, and if there's just going to be a huge amount of leverage with AI, it still seems like there could be a lot more effort in this space around building tools. And it's kind of this crazy thing that we're, you know, here",
@@ -41601,7 +41790,7 @@ const dashboardData = {
     "last_podcast_name": "The a16z Show",
     "last_episode_date": "2026-07-08",
     "mention_score": 1,
-    "mention_score_decayed": 0.45,
+    "mention_score_decayed": 0.44,
     "last_main_idea": "Invest in real estate companies that emphasize community engagement, technological adaptability, and global scalability to capitalize on the evolving landscape of work and living.",
     "last_proof_cite": "The a16z Show \u2022 2026-07-08 \u2022 Adam Neumann: This Is How You Build Iconic Companies",
     "last_proof_snippet": "You said, I don't tell me how you're doing and I jumped straight into my lessons learned and this had an answer. And you're like, oh, you're still in that stage? That was, and we don't know each other. I was like, Mark, please tell me what",
@@ -41666,7 +41855,7 @@ const dashboardData = {
     "last_podcast_name": "The a16z Show",
     "last_episode_date": "2026-07-07",
     "mention_score": 1,
-    "mention_score_decayed": 0.44,
+    "mention_score_decayed": 0.43,
     "last_main_idea": "Invest in companies that are innovating in headless software architectures and facilitating communication between different business functions within organizations.",
     "last_proof_cite": "The a16z Show \u2022 2026-07-07 \u2022 Is Software Losing Its Head?",
     "last_proof_snippet": "There are many things that made software sticky but a lot of it had to do with the fact that it was built around like the way a human interacts. In an agenda world, do you actually need that? The data, the logic, I mean store below it is re",
@@ -41725,7 +41914,7 @@ const dashboardData = {
     "last_podcast_name": "The a16z Show",
     "last_episode_date": "2026-07-07",
     "mention_score": 1,
-    "mention_score_decayed": 0.44,
+    "mention_score_decayed": 0.43,
     "last_main_idea": "Invest in companies that are innovating in headless software architectures and facilitating communication between different business functions within organizations.",
     "last_proof_cite": "The a16z Show \u2022 2026-07-07 \u2022 Is Software Losing Its Head?",
     "last_proof_snippet": "There are many things that made software sticky but a lot of it had to do with the fact that it was built around like the way a human interacts. In an agenda world, do you actually need that? The data, the logic, I mean store below it is re",
@@ -41909,7 +42098,7 @@ const dashboardData = {
     "last_podcast_name": "The a16z Show",
     "last_episode_date": "2026-07-02",
     "mention_score": 1,
-    "mention_score_decayed": 0.39,
+    "mention_score_decayed": 0.38,
     "last_main_idea": "Invest in companies with capital efficiency and operational excellence in the mobility sector, as they are better positioned to adapt and grow in a competitive landscape.",
     "last_proof_cite": "The a16z Show \u2022 2026-07-02 \u2022 Outsmarting Uber: Why Bolt Wins in Europe",
     "last_proof_snippet": "The mobility market in general is the least competitive in the world. Paul is the leading, share mobility, business, we operate in more than 50 countries with a mission to replace people's private cars. A lot of the taxi companies obviously",
@@ -42093,7 +42282,7 @@ const dashboardData = {
     "last_podcast_name": "The a16z Show",
     "last_episode_date": "2026-07-01",
     "mention_score": 1,
-    "mention_score_decayed": 0.38,
+    "mention_score_decayed": 0.37,
     "last_main_idea": "Invest in platforms that empower creativity and personal expression, as authenticity resonates more deeply with audiences and can lead to more impactful art.",
     "last_proof_cite": "The a16z Show \u2022 2026-07-01 \u2022 Rick Rubin on AI, Creativity, and The Way of Code",
     "last_proof_snippet": "So many people I know who use AI ask it questions and think that the results that they get back is the answer and it seems like people are more interested in getting an answer that can allow them to stop thinking about the question than rea",
@@ -42154,7 +42343,7 @@ const dashboardData = {
     "last_podcast_name": "The a16z Show",
     "last_episode_date": "2026-06-30",
     "mention_score": 1,
-    "mention_score_decayed": 0.37,
+    "mention_score_decayed": 0.36,
     "last_main_idea": "Invest in companies that prioritize user creativity and personalization in their AI offerings, as well as those that leverage data analytics to understand and enhance user experience.",
     "last_proof_cite": "The a16z Show \u2022 2026-06-30 \u2022 Building AI for Creators | Luma & Phota Labs",
     "last_proof_snippet": "I think the creativity is building a story. The tools alone aren't a story. Someone has to direct them. It's not about mastering those tools. It's about directing an agent who can use those tools to achieve your creativity. Generally, I hav",
@@ -42405,7 +42594,7 @@ const dashboardData = {
     "last_podcast_name": "The a16z Show",
     "last_episode_date": "2026-06-24",
     "mention_score": 1,
-    "mention_score_decayed": 0.32,
+    "mention_score_decayed": 0.31,
     "last_main_idea": "Investing in companies that prioritize design expertise and leverage AI tools effectively can lead to better outcomes in product development, as design quality becomes increasingly critical in a mobile-first world.",
     "last_proof_cite": "The a16z Show \u2022 2026-06-24 \u2022 What Happens to Design After AI?",
     "last_proof_snippet": "Designers when using Claude, as opposed to engineers using Claude, would consistently get better results. And it's because of the language that they used. We have to remember that design in the European sense came from royalty and the desir",
@@ -42469,7 +42658,7 @@ const dashboardData = {
     "last_podcast_name": "The a16z Show",
     "last_episode_date": "2026-06-24",
     "mention_score": 1,
-    "mention_score_decayed": 0.32,
+    "mention_score_decayed": 0.31,
     "last_main_idea": "Investing in companies that prioritize design expertise and leverage AI tools effectively can lead to better outcomes in product development, as design quality becomes increasingly critical in a mobile-first world.",
     "last_proof_cite": "The a16z Show \u2022 2026-06-24 \u2022 What Happens to Design After AI?",
     "last_proof_snippet": "Designers when using Claude, as opposed to engineers using Claude, would consistently get better results. And it's because of the language that they used. We have to remember that design in the European sense came from royalty and the desir",
@@ -43970,7 +44159,7 @@ const dashboardData = {
     "last_podcast_name": "The a16z Show",
     "last_episode_date": "2026-06-09",
     "mention_score": 1,
-    "mention_score_decayed": 0.23,
+    "mention_score_decayed": 0.22,
     "last_main_idea": "Invest in sectors poised for growth due to AI advancements and consider the long-term impact of AI on the job market and economic trends.",
     "last_proof_cite": "The a16z Show \u2022 2026-06-09 \u2022 Tyler Cowen & Alex Tabarrok on AI, Jobs, and Economic Growth",
     "last_proof_snippet": "In the world with strong AI, there's a kind of moral nervousness that sets in. So, I'm much more likely to tell people, like, hey, you'd better pass in your seatbelt. Like, you don't want to miss out on what's coming, how many years you mig",
@@ -44036,7 +44225,7 @@ const dashboardData = {
     "last_podcast_name": "The a16z Show",
     "last_episode_date": "2026-06-09",
     "mention_score": 1,
-    "mention_score_decayed": 0.23,
+    "mention_score_decayed": 0.22,
     "last_main_idea": "Invest in sectors poised for growth due to AI advancements and consider the long-term impact of AI on the job market and economic trends.",
     "last_proof_cite": "The a16z Show \u2022 2026-06-09 \u2022 Tyler Cowen & Alex Tabarrok on AI, Jobs, and Economic Growth",
     "last_proof_snippet": "In the world with strong AI, there's a kind of moral nervousness that sets in. So, I'm much more likely to tell people, like, hey, you'd better pass in your seatbelt. Like, you don't want to miss out on what's coming, how many years you mig",
@@ -44311,7 +44500,7 @@ const dashboardData = {
     "last_podcast_name": "The a16z Show",
     "last_episode_date": "2026-06-05",
     "mention_score": 1,
-    "mention_score_decayed": 0.21,
+    "mention_score_decayed": 0.2,
     "last_main_idea": "Invest in companies that prioritize open data practices and robust software infrastructure to capitalize on AI-driven operational efficiencies and data management.",
     "last_proof_cite": "The a16z Show \u2022 2026-06-05 \u2022 AI Agents and the Fight for Customer Data",
     "last_proof_snippet": "There is a new reason to have all your day-to-day-then-one-place, which is AI agency context. If you don't do that, then it's sort of like using chatGBT from before chatGBT was connected to the internet. Postgres, contrary to popular belief",
@@ -44694,7 +44883,7 @@ const dashboardData = {
     "last_podcast_name": "The a16z Show",
     "last_episode_date": "2026-05-27",
     "mention_score": 1,
-    "mention_score_decayed": 0.17,
+    "mention_score_decayed": 0.16,
     "last_main_idea": "Investors should focus on diversification through private markets, particularly in sectors like AI and energy, to capture growth and mitigate risks associated with public market concentration.",
     "last_proof_cite": "The a16z Show \u2022 2026-05-27 \u2022 Marc Rowan on Private Markets, Software Repricing, and Capital Allocation",
     "last_proof_snippet": "10 stocks right now in the U.S. are nearly 50% of the S&P and they're all levered to the same trend. The same thing is happening in the global fixed income market. And so if you're an investor and you're looking for diversification, there's",
@@ -46992,66 +47181,6 @@ const dashboardData = {
     "net_worth": "$7.0M"
   },
   {
-    "id": 218,
-    "name": "Joe Schmidt",
-    "slug": "joe-schmidt",
-    "bio": "Joe Schmidt is a partner on the enterprise team at A16Z, focusing on enterprise software investments. He is known for his insights on the future of enterprise software and the potential for disruption.",
-    "known_for": "His expertise in enterprise software investments and his views on the disruption potential in the industry.",
-    "net_worth_usd": 21000000.0,
-    "net_worth_source": "https://www.gurufocus.com/insider/168447/joseph-h-schmidt",
-    "net_worth_updated_at": "2026-04-30T22:03:04.038566",
-    "voice_tone": "Analytical and insightful",
-    "voice_style": "Joe presents a balanced view, acknowledging the strengths of incumbents while identifying areas of potential disruption.",
-    "voice_delivery_notes": "Speaks with conviction about the potential for new enterprise software platforms to disrupt the status quo.",
-    "voice_profile_updated_at": "2026-05-01 03:02:39",
-    "last_seen": "2026-05-01 03:02:39",
-    "last_episode_title": "Workday\u2019s Last Workday? AI and the Future of Enterprise Software",
-    "last_podcast_name": "The a16z Show",
-    "last_episode_date": "2026-04-30",
-    "mention_score": 1,
-    "mention_score_decayed": 0.09,
-    "last_main_idea": "The current enterprise software landscape is ripe for disruption by new platforms that can offer improved user experiences and leverage AI to rethink business processes.",
-    "last_proof_cite": "The a16z Show \u2022 2026-04-30 \u2022 Workday\u2019s Last Workday? AI and the Future of Enterprise Software",
-    "last_proof_snippet": "AI is creating new opportunities to rethink how enterprise systems work, potentially leading to a platform shift.",
-    "supporting_takeaway": "AI is creating new opportunities to rethink how enterprise systems work, potentially leading to a platform shift.",
-    "grokipedia_url": null,
-    "grokipedia_fetched_at": "2026-04-30T22:03:02.809044",
-    "pundit_profile": {
-      "source": "llm",
-      "source_model": "moonshot:moonshot-v1-8k",
-      "source_url": "",
-      "page_title": "Joe Schmidt",
-      "fetched_at": "2026-05-01T03:03:02.808625+00:00",
-      "cliff_notes": "Joe Schmidt is a partner on the enterprise team at Andreessen Horowitz (A16Z), a venture capital firm that invests in technology companies. His focus is on enterprise software investments, where he leverages his deep understanding of the industry to identify and support innovative companies that have the potential to disrupt traditional enterprise software solutions. Schmidt's career has been centered around the intersection of technology and business, with a particular emphasis on how emerging technologies can transform enterprise operations. His work at A16Z has positioned him as a thought leader in the space, as he actively engages with the challenges and opportunities presented by the evolving landscape of enterprise software.",
-      "derived": {
-        "current_role": "Partner on the enterprise team at A16Z"
-      },
-      "infobox": {
-        "Born": "",
-        "Nationality": ""
-      },
-      "lead_paragraphs": [
-        "Joe Schmidt is a partner on the enterprise team at Andreessen Horowitz (A16Z), a venture capital firm that invests in technology companies. His focus is on enterprise software investments, where he leverages his deep understanding of the industry to identify and support innovative companies that have the potential to disrupt traditional enterprise software solutions.",
-        "Schmidt's career has been centered around the intersection of technology and business, with a particular emphasis on how emerging technologies can transform enterprise operations. His work at A16Z has positioned him as a thought leader in the space, as he actively engages with the challenges and opportunities presented by the evolving landscape of enterprise software."
-      ],
-      "sections": [
-        {
-          "heading": "Enterprise Software Disruption",
-          "body": "Joe Schmidt is recognized for his insights into how new technologies, particularly AI, can disrupt traditional enterprise software platforms, leading to a rethinking of how these systems operate."
-        },
-        {
-          "heading": "Investment Strategy",
-          "body": "Schmidt plays a pivotal role in shaping A16Z's investment strategy within the enterprise software sector, focusing on identifying startups that can challenge established players like Workday and Salesforce."
-        },
-        {
-          "heading": "Platform Shifts",
-          "body": "He discusses the impact of platform shifts, such as the transition to cloud computing in the 2000s and the current wave of AI, on the enterprise software landscape, highlighting the opportunities these shifts create for new entrants."
-        }
-      ]
-    },
-    "net_worth": "$21.0M"
-  },
-  {
     "id": 217,
     "name": "Steve Helden",
     "slug": "steve-helden",
@@ -48262,7 +48391,7 @@ const dashboardData = {
     "last_podcast_name": "The a16z Show",
     "last_episode_date": "2026-04-08",
     "mention_score": 1,
-    "mention_score_decayed": 0.07,
+    "mention_score_decayed": 0.06,
     "last_main_idea": "Invest in companies that are adapting to build software for AI agents and can leverage domain knowledge effectively.",
     "last_proof_cite": "The a16z Show \u2022 2026-04-08 \u2022 The Agent Era: Building Software Beyond Chat with Box CEO Aaron Levie",
     "last_proof_snippet": "Domain knowledge is not just in data layers but also in the UI and middle tiers.",

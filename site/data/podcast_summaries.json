@@ -1,5 +1,21 @@
 [
   {
+    "id": 402,
+    "podcast_name": "The a16z Show",
+    "episode_title": "The Two Ways to Sell AI: Lighthouse or Landgrab?",
+    "episode_date": "2026-08-13",
+    "summary": "In this episode of the a16z Show, Elena Berger sits down with Joe Schmidt and Andy McCall from a16z to discuss the two dominant go-to-market strategies for enterprise AI startups: the lighthouse strategy and the land grab strategy. They explore the nuances of each approach, the circumstances under which one might be more effective than the other, and the critical considerations for founders when deciding which path to take. Drawing on lessons from building sales organizations at companies like Samsara and Maraki, they provide a framework for evaluating which playbook to follow and when to switch strategies.",
+    "key_takeaways": [
+      "The lighthouse strategy involves winning a handful of high-profile customers to unlock a market, while the land grab strategy focuses on capturing as much of the market as quickly as possible by finding customers with existing budgets.",
+      "Founders should evaluate which playbook to follow based on their unique circumstances, including the nature of their product, the market landscape, and their sales capabilities.",
+      "Sometimes the best sales advice is to stop strategizing and start selling, as the most effective approach can vary widely between different companies and industries.",
+      "The timing of when to switch strategies is crucial and can depend on factors such as market maturity, competitive dynamics, and the company's growth stage.",
+      "It's important for early-stage companies to hire the best possible sales talent and give them a chance to hit quota, as this can help attract and retain top performers."
+    ],
+    "investment_thesis": "The choice between the lighthouse and land grab strategies can significantly impact the success of an enterprise AI startup, as each approach has its own set of advantages and challenges that must be carefully considered in the context of the company's specific circumstances.",
+    "key_tickers": null
+  },
+  {
     "id": 401,
     "podcast_name": "All-In with Chamath, Jason, Sacks & Friedberg",
     "episode_title": "Rahm Emanuel: Trump's Foreign Policy, China, Europe's Decline, Immigration & DSA vs Democrats",
@@ -114,23 +130,6 @@
       "Developers are increasingly caring about security, realizing its integral role in their work."
     ],
     "investment_thesis": "Invest in companies that are at the forefront of AI adoption and security, as these are likely to shape the future of enterprise software development.",
-    "key_tickers": null
-  },
-  {
-    "id": 394,
-    "podcast_name": "The a16z Show",
-    "episode_title": "How Kavak Rebuilt Itself Around AI Agents | Alejandro Maza Ayala",
-    "episode_date": "2026-08-10",
-    "summary": "Kavak is revolutionizing its business model by becoming an AI-native company, focusing on creating 'superhuman agents' that outperform humans in various dimensions. The company instantiates a large number of AI agents daily to handle customer interactions, with a goal of maximizing customer lifetime value rather than just performing specific tasks. Kavak has also adopted a new architecture where agents work alongside humans, sometimes even directing human tasks. The company's success metrics have shifted from transactional to relational, emphasizing long-term customer relationships. This approach has shown to be more effective in sales, improving customer satisfaction and conversion rates.",
-    "key_takeaways": [
-      "Kavak is developing AI agents that can outperform the best human employees in every dimension that matters.",
-      "The company instantiates between 100,000 and 200,000 agents daily to handle customer interactions.",
-      "Kavak's agents are designed to maximize customer lifetime value, not just perform specific tasks.",
-      "The company has adopted a new architecture where agents work alongside humans, sometimes even directing human tasks.",
-      "Kavak has created the 'Jedi Academy' to retrain its workforce to work with AI, emphasizing collaboration between humans and agents.",
-      "The company's success metrics have shifted from transactional to relational, focusing on long-term customer relationships."
-    ],
-    "investment_thesis": "Investing in AI capabilities that can perform at a superhuman level can potentially revolutionize industries by handling complex tasks more efficiently and effectively than traditional human teams.",
     "key_tickers": null
   }
 ]
