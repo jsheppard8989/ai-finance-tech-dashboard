@@ -1,7 +1,7 @@
 {
-  "generated_at": "2026-08-13T12:07:56.135325",
-  "last_updated": "2026-08-13T12:07:56.135325",
-  "last_pipeline_run": "2026-08-13T12:07:56.135325",
+  "generated_at": "2026-08-13T13:40:39.745452",
+  "last_updated": "2026-08-13T13:40:39.745452",
+  "last_pipeline_run": "2026-08-13T13:40:39.745452",
   "main_page": {
     "overton": 13,
     "insights": 8,
@@ -18,32 +18,14 @@
     "podcasts_analyzed": 1
   },
   "step_results": {
-    "downloaded": 2,
-    "transcribed": 2,
-    "analyzed": 1,
-    "insight_created": 1,
-    "published": 1,
-    "total": 2
+    "downloaded": 1,
+    "transcribed": 1,
+    "analyzed": 0,
+    "insight_created": 0,
+    "published": 0,
+    "total": 1
   },
   "episodes": [
-    {
-      "id": "1b160ab3-bc10-4d48-8ed2-73cc5c52d964",
-      "podcast": "The a16z Show",
-      "title": "The Two Ways to Sell AI: Lighthouse or Landgrab?",
-      "published": "2026-08-13",
-      "rss_guid": "1b160ab3-bc10-4d48-8ed2-73cc5c52d964",
-      "stages": {
-        "downloaded": true,
-        "transcribed": true,
-        "analyzed": true,
-        "insight_created": true,
-        "published": true
-      },
-      "stage_reasons": {},
-      "first_blocker": null,
-      "remediation_by_stage": {},
-      "status": "complete"
-    },
     {
       "id": "bf461c11-8e10-4124-8c40-f24dab393cf9",
       "podcast": "All-In with Chamath, Jason, Sacks & Friedberg",
