@@ -1,6 +1,25 @@
 {
   "insights": [
     {
+      "id": 416,
+      "title": "Rahm Emanuel: Trump's Foreign Policy, China, Europe's Decline, Immigration & DSA vs Democrats",
+      "source_type": "podcast",
+      "source_name": "All-In with Chamath, Jason, Sacks & Friedberg",
+      "source_date": "2026-08-13",
+      "summary": "In this episode, Ron Emmanuel, a senior advisor to Bill Clinton and ambassador under President Biden, discusses the future of America in a post-Trump world, focusing on topics such as the economy, inflation, employment, national debt, and the rise of socialism and anti-Semitism. Emmanuel shares insights from his decades of service to America and his views on the importance of progressive policies and effective government.",
+      "key_takeaway": "Ron Emmanuel's investment thesis revolves around the need for progressive policies and effective government execution, which he believes are crucial for America's economic and social stability.",
+      "tickers_mentioned": [
+        "AAPL"
+      ],
+      "sentiment": "neutral",
+      "display_on_main": 1,
+      "display_order": 0,
+      "added_date": "2026-08-12",
+      "archived_date": null,
+      "archived_reason": null,
+      "podcast_episode_id": 401
+    },
+    {
       "id": 414,
       "title": "Garry Tan on Taste, Agents and Founder Ambition",
       "source_type": "podcast",
@@ -148,7 +167,7 @@
         "TSLA"
       ],
       "sentiment": "bullish",
-      "display_on_main": 1,
+      "display_on_main": 0,
       "display_order": 0,
       "added_date": "2026-08-08",
       "archived_date": null,
@@ -8321,8 +8340,8 @@
       "term": "AI Commoditization",
       "description": "The process by which AI becomes a standard feature or utility rather than a unique differentiator.",
       "first_detected_date": "2026-06-15",
-      "last_mentioned_date": "2026-07-14",
-      "mention_count": 2,
+      "last_mentioned_date": "2026-08-13",
+      "mention_count": 3,
       "source_podcasts": null,
       "status": "active",
       "investment_implications": "Investors should look for companies that can maintain a competitive edge as AI becomes more commonplace.",
@@ -8331,8 +8350,8 @@
       "archived_reason": null,
       "first_detected_episode_id": 286,
       "first_detected_speaker": "Jack Farley (hosts)",
-      "last_mentioned_episode_id": 347,
-      "last_mentioned_speaker": "Ben Kulandian"
+      "last_mentioned_episode_id": 401,
+      "last_mentioned_speaker": "Ron Emmanuel"
     },
     {
       "id": 248,

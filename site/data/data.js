@@ -3,80 +3,80 @@
 
 const dashboardData = {
   schemaVersion: 2,
-  generatedAt: "2026-08-12T22:04:27.869357",
-  chartsVersion: "2026-08-12T22:04:16.018659",
+  generatedAt: "2026-08-12T23:40:24.117224",
+  chartsVersion: "2026-08-12T23:40:17.546192",
   priceSnapshot: {
   "GOOGL": {
     "price": 343.54,
     "change_pct": 7.44,
     "name": "GOOGL",
-    "updated_at": "2026-08-12T22:04:16.017629"
+    "updated_at": "2026-08-12T23:40:17.545735"
   },
   "NVDA": {
     "price": 224.09,
     "change_pct": 8.34,
     "name": "NVDA",
-    "updated_at": "2026-08-12T22:04:16.017650"
+    "updated_at": "2026-08-12T23:40:17.545745"
   },
   "BTC": {
-    "price": 63461.04,
-    "change_pct": 1.03,
+    "price": 63612.02,
+    "change_pct": 1.27,
     "name": "BTC",
-    "updated_at": "2026-08-12T22:04:16.017659"
+    "updated_at": "2026-08-12T23:40:17.545749"
   },
   "TSLA": {
     "price": 327.51,
     "change_pct": 4.63,
     "name": "TSLA",
-    "updated_at": "2026-08-12T22:04:16.017668"
+    "updated_at": "2026-08-12T23:40:17.545753"
   },
   "MSFT": {
     "price": 492.43,
     "change_pct": 29.01,
     "name": "MSFT",
-    "updated_at": "2026-08-12T22:04:16.017678"
+    "updated_at": "2026-08-12T23:40:17.545756"
   },
   "AMZN": {
     "price": 267.28,
     "change_pct": 15.15,
     "name": "AMZN",
-    "updated_at": "2026-08-12T22:04:16.017686"
+    "updated_at": "2026-08-12T23:40:17.545759"
   },
   "META": {
     "price": 578.85,
     "change_pct": -2.75,
     "name": "META",
-    "updated_at": "2026-08-12T22:04:16.017696"
+    "updated_at": "2026-08-12T23:40:17.545763"
   },
   "WTI": {
     "price": 3.68,
     "change_pct": 0.55,
     "name": "WTI",
-    "updated_at": "2026-08-12T22:04:16.017704"
+    "updated_at": "2026-08-12T23:40:17.545766"
   },
   "S&P 500": {
     "price": 772.49,
     "change_pct": 4.54,
     "name": "S&P 500",
-    "updated_at": "2026-08-12T22:04:16.017712"
+    "updated_at": "2026-08-12T23:40:17.545769"
   },
   "AAPL": {
     "price": 302.25,
     "change_pct": -9.16,
     "name": "AAPL",
-    "updated_at": "2026-08-12T22:04:16.017721"
+    "updated_at": "2026-08-12T23:40:17.545772"
   },
   "QQQ": {
     "price": 723.7,
     "change_pct": 5.77,
     "name": "Invesco QQQ Trust",
-    "updated_at": "2026-08-12T22:04:16.017729"
+    "updated_at": "2026-08-12T23:40:17.545775"
   },
   "BTC-USD": {
-    "price": 63461.04,
-    "change_pct": 1.03,
+    "price": 63612.02,
+    "change_pct": 1.27,
     "name": "Bitcoin USD",
-    "updated_at": "2026-08-12T22:04:16.017739"
+    "updated_at": "2026-08-12T23:40:17.545779"
   }
 },
   tickerScores: [
@@ -834,6 +834,25 @@ const dashboardData = {
   archive: {
   "insights": [
     {
+      "id": 416,
+      "title": "Rahm Emanuel: Trump's Foreign Policy, China, Europe's Decline, Immigration & DSA vs Democrats",
+      "source_type": "podcast",
+      "source_name": "All-In with Chamath, Jason, Sacks & Friedberg",
+      "source_date": "2026-08-13",
+      "summary": "In this episode, Ron Emmanuel, a senior advisor to Bill Clinton and ambassador under President Biden, discusses the future of America in a post-Trump world, focusing on topics such as the economy, inflation, employment, national debt, and the rise of socialism and anti-Semitism. Emmanuel shares insights from his decades of service to America and his views on the importance of progressive policies and effective government.",
+      "key_takeaway": "Ron Emmanuel's investment thesis revolves around the need for progressive policies and effective government execution, which he believes are crucial for America's economic and social stability.",
+      "tickers_mentioned": [
+        "AAPL"
+      ],
+      "sentiment": "neutral",
+      "display_on_main": 1,
+      "display_order": 0,
+      "added_date": "2026-08-12",
+      "archived_date": null,
+      "archived_reason": null,
+      "podcast_episode_id": 401
+    },
+    {
       "id": 414,
       "title": "Garry Tan on Taste, Agents and Founder Ambition",
       "source_type": "podcast",
@@ -981,7 +1000,7 @@ const dashboardData = {
         "TSLA"
       ],
       "sentiment": "bullish",
-      "display_on_main": 1,
+      "display_on_main": 0,
       "display_order": 0,
       "added_date": "2026-08-08",
       "archived_date": null,
@@ -9154,8 +9173,8 @@ const dashboardData = {
       "term": "AI Commoditization",
       "description": "The process by which AI becomes a standard feature or utility rather than a unique differentiator.",
       "first_detected_date": "2026-06-15",
-      "last_mentioned_date": "2026-07-14",
-      "mention_count": 2,
+      "last_mentioned_date": "2026-08-13",
+      "mention_count": 3,
       "source_podcasts": null,
       "status": "active",
       "investment_implications": "Investors should look for companies that can maintain a competitive edge as AI becomes more commonplace.",
@@ -9164,8 +9183,8 @@ const dashboardData = {
       "archived_reason": null,
       "first_detected_episode_id": 286,
       "first_detected_speaker": "Jack Farley (hosts)",
-      "last_mentioned_episode_id": 347,
-      "last_mentioned_speaker": "Ben Kulandian"
+      "last_mentioned_episode_id": 401,
+      "last_mentioned_speaker": "Ron Emmanuel"
     },
     {
       "id": 248,
@@ -10996,6 +11015,26 @@ const dashboardData = {
   mainContent: {
   "insights": [
     {
+      "id": 416,
+      "title": "Rahm Emanuel: Trump's Foreign Policy, China, Europe's Decline, Immigration & DSA vs Democrats",
+      "source_type": "podcast",
+      "source_name": "All-In with Chamath, Jason, Sacks & Friedberg",
+      "source_date": "2026-08-13",
+      "summary": "In this episode, Ron Emmanuel, a senior advisor to Bill Clinton and ambassador under President Biden, discusses the future of America in a post-Trump world, focusing on topics such as the economy, inflation, employment, national debt, and the rise of socialism and anti-Semitism. Emmanuel shares insights from his decades of service to America and his views on the importance of progressive policies and effective government.",
+      "key_takeaway": "Ron Emmanuel's investment thesis revolves around the need for progressive policies and effective government execution, which he believes are crucial for America's economic and social stability.",
+      "tickers_mentioned": "[\"AAPL\"]",
+      "sentiment": "neutral",
+      "display_on_main": 1,
+      "display_order": 0,
+      "added_date": "2026-08-12",
+      "archived_date": null,
+      "archived_reason": null,
+      "podcast_episode_id": 401,
+      "episode_release_date": "2026-08-13",
+      "guest_name": "Rahm Emanuel",
+      "key_tickers": []
+    },
+    {
       "id": 414,
       "title": "Garry Tan on Taste, Agents and Founder Ambition",
       "source_type": "podcast",
@@ -11138,29 +11177,6 @@ const dashboardData = {
       "episode_release_date": "2026-08-10",
       "guest_name": "How Kavak Rebuilt Itself Around AI Agents",
       "key_tickers": []
-    },
-    {
-      "id": 408,
-      "title": "Google\u2019s Jeff Dean Exits, SpaceX Hits $100B in Rev & OpenAI\u2019s Astra Solves Decade-Old Math Problems with Emad Mostaque | EP #277",
-      "source_type": "podcast",
-      "source_name": "Moonshots with Peter Diamandis",
-      "source_date": "2026-08-08",
-      "summary": "In this episode of Moonshots with Peter Diamandis, the focus is on the rapid advancements in AI and space technology, with discussions on Google's shake-up, the potential of SpaceX, and the emerging model Astra by OpenAI. The panel delves into the implications of these technologies on the future of work, investment opportunities, and the global tech landscape. They also touch upon the competitive dynamics between AI models and the strategic moves by major tech companies.",
-      "key_takeaway": "Invest in companies at the forefront of AI and space technology, as these sectors are poised for significant growth and disruption.",
-      "tickers_mentioned": "[\"GOOGL\", \"TSLA\"]",
-      "sentiment": "bullish",
-      "display_on_main": 1,
-      "display_order": 0,
-      "added_date": "2026-08-08",
-      "archived_date": null,
-      "archived_reason": null,
-      "podcast_episode_id": 393,
-      "episode_release_date": "2026-08-08",
-      "guest_name": "Emad Mostaque",
-      "key_tickers": [
-        "GOOGL",
-        "TSLA"
-      ]
     }
   ],
   "definitions": [
@@ -11521,6 +11537,32 @@ const dashboardData = {
       "last_mentioned_episode_date": "2026-08-08"
     },
     {
+      "id": 252,
+      "term": "AI Commoditization",
+      "description": "The process by which AI becomes a standard feature or utility rather than a unique differentiator.",
+      "first_detected_date": "2026-06-15",
+      "last_mentioned_date": "2026-08-13",
+      "mention_count": 3,
+      "source_podcasts": null,
+      "status": "active",
+      "investment_implications": "Investors should look for companies that can maintain a competitive edge as AI becomes more commonplace.",
+      "display_on_main": 1,
+      "archived_date": null,
+      "archived_reason": null,
+      "first_detected_episode_id": 286,
+      "first_detected_speaker": "Jack Farley (hosts)",
+      "last_mentioned_episode_id": 401,
+      "last_mentioned_speaker": "Ron Emmanuel",
+      "overton_score": 3.0,
+      "resonance_pct": 75,
+      "first_detected_podcast": "Monetary Matters with Jack Farley",
+      "first_detected_episode_title": "Regulatory Risk is Coming For AI | David Woo on AI Data Center CapEx and Iran War",
+      "first_detected_episode_date": "2026-06-15",
+      "last_mentioned_podcast": "All-In with Chamath, Jason, Sacks & Friedberg",
+      "last_mentioned_episode_title": "Rahm Emanuel: Trump's Foreign Policy, China, Europe's Decline, Immigration & DSA vs Democrats",
+      "last_mentioned_episode_date": "2026-08-13"
+    },
+    {
       "id": 219,
       "term": "AI-native computing",
       "description": "A business model where artificial intelligence is integrated into the core operations and infrastructure of a company, rather than being an add-on or separate function.",
@@ -11597,32 +11639,6 @@ const dashboardData = {
       "last_mentioned_podcast": "Moonshots with Peter Diamandis",
       "last_mentioned_episode_title": "Mira Murati's 975B Open Model, Ramin Hasani on Post-Transformer AI, and Demis' AI FINRA | EP #271",
       "last_mentioned_episode_date": "2026-07-17"
-    },
-    {
-      "id": 194,
-      "term": "Multi-modal AI",
-      "description": "AI systems that can process and understand information from multiple sources or modalities, such as vision, language, and sound.",
-      "first_detected_date": "2026-05-21",
-      "last_mentioned_date": "2026-07-28",
-      "mention_count": 3,
-      "source_podcasts": null,
-      "status": "active",
-      "investment_implications": "Potential for a foundation model in robotics involving multimodal inputs and actions.",
-      "display_on_main": 1,
-      "archived_date": null,
-      "archived_reason": null,
-      "first_detected_episode_id": 232,
-      "first_detected_speaker": "Andrew Feldman",
-      "last_mentioned_episode_id": 370,
-      "last_mentioned_speaker": "Josh Elman",
-      "overton_score": 2.12,
-      "resonance_pct": 53,
-      "first_detected_podcast": "Moonshots with Peter Diamandis",
-      "first_detected_episode_title": "Google I/O 2026, Karpathy Joins Anthropic, and Cerebras\u2019 $95B IPO | EP #256",
-      "first_detected_episode_date": "2026-05-21",
-      "last_mentioned_podcast": "The a16z Show",
-      "last_mentioned_episode_title": "Fei-Fei Li on Spatial Intelligence and Robotics",
-      "last_mentioned_episode_date": "2026-07-28"
     }
   ]
 },
@@ -36070,6 +36086,52 @@ const dashboardData = {
     "key_tickers": [
       "SPY"
     ]
+  },
+  "416": {
+    "id": 406,
+    "insight_id": 416,
+    "podcast_episode_id": 401,
+    "overview": "The unresolved tension in Rahm Emanuel's discourse is the balance between progressive policies and effective governance in achieving economic and social stability. Emanuel contends that the U.S. must manage its internal political and economic dysfunction to project a stronger global influence. The allocator-relevant implication is that the success of progressive policies and the ability of the government to execute them will arbitrate the U.S.'s ability to counter China's economic strategies and address domestic issues like inflation and employment.",
+    "key_takeaways_detailed": [
+      "Investors should monitor the U.S. government's ability to execute progressive policies as a bellwether for economic stability and growth.",
+      "The effectiveness of U.S. economic statecraft, particularly in countering China's influence, will be a key allocator metric.",
+      "Domestic political dysfunction, as measured by legislative gridlock and policy incoherence, could be a leading indicator of economic underperformance."
+    ],
+    "investment_thesis": "The core logic is that the U.S.'s ability to project global influence and counter economic threats like China's depends on the successful implementation of progressive policies and effective governance. Over the next 5 years, observable developments that would vindicate this thesis include a resurgence in U.S. economic growth, a decrease in income disparity, and a more cohesive foreign policy stance against China. Conversely, a continued rise in national debt, persistent inflation, and a lack of policy coherence would invalidate the thesis.",
+    "ticker_analysis": {
+      "AAPL": {
+        "rationale": "Apple's global supply chain and significant market share make it a bellwether for U.S. economic competitiveness and the impact of China's economic policies.",
+        "positioning": "Positioning long on AAPL could be strategic, betting on the U.S.'s ability to maintain economic competitiveness and the success of progressive policies in fostering innovation.",
+        "risk": "Key risks include escalating U.S.-China trade tensions, which could disrupt Apple's supply chain, and changes in consumer demand due to economic instability."
+      }
+    },
+    "positioning_guidance": "",
+    "risk_factors": [],
+    "contrarian_signals": [
+      "The belief that the U.S. can effectively counter China's economic strategies without a significant policy shift towards protectionism.",
+      "The possibility that Europe's economic decline could create new opportunities for the U.S. rather than being a harbinger of global economic instability."
+    ],
+    "catalysts": [
+      "U.S. midterm election results as a gauge of public support for progressive policies.",
+      "Global trade agreements and their impact on U.S. economic competitiveness.",
+      "Developments in U.S.-China relations, particularly around trade and technology."
+    ],
+    "related_insights": null,
+    "audio_timestamp_start": null,
+    "audio_timestamp_end": null,
+    "transcript_excerpt": null,
+    "created_at": "2026-08-12T23:39:26.304689",
+    "updated_at": "2026-08-13 04:39:26",
+    "episode_evidence": "Rahm Emanuel's discussion with the host delves into the intricacies of America's political and economic landscape, particularly in the context of a post-Trump era. Emanuel emphasizes the importance of progressive policies and effective government, asserting that 'you can't have progressive policies with people think that the government can't run an organized one car parade, not possible.' He reflects on his service under Clinton and Obama, noting that 'they had an outlook of the world, and an outlook of the United States in the world, and an outlook of kind of a progressive affirmative view of government.' Emanuel also critiques the current state of U.S.-China relations, stating that 'China wants everybody dependent on China and then independent of you. That is their theory of the case.' He further discusses the decline of Europe, suggesting that 'rather than have terrorists, we should have an economic block. So all of us together can withstand China to actually organize not only that economic block, but then kind of other medium in the marketplace.'",
+    "falsification_tracks": [
+      "A sustained period of economic growth and job creation that outpaces historical averages would challenge Emanuel's assertion that progressive policies are necessary for economic stability.",
+      "Should China's economic policies lead to a significant decrease in global trade tensions, Emanuel's critique of China's strategy for global dependence might be weakened.",
+      "An increase in global cooperation and successful economic blocs that counter China's influence would undermine Emanuel's call for a unified economic front against China."
+    ],
+    "insight_title": "Rahm Emanuel: Trump's Foreign Policy, China, Europe's Decline, Immigration & DSA vs Democrats",
+    "source_name": "All-In with Chamath, Jason, Sacks & Friedberg",
+    "source_date": "2026-08-13",
+    "key_tickers": []
   }
 },
   suggestedTerms: [
@@ -36124,7 +36186,19 @@ const dashboardData = {
 ],
   podcastGuests: [
   {
-    "id": 49151,
+    "id": 49265,
+    "name": "Rahm Emanuel",
+    "slug": "rahm-emanuel",
+    "bio": null,
+    "known_for": null,
+    "last_main_idea": "Ron Emmanuel's investment thesis revolves around the need for progressive policies and effective government execution, which he believes are crucial for America's economic and social stability.",
+    "last_episode_title": "Rahm Emanuel: Trump's Foreign Policy, China, Europe's Decline, Immigration & DSA vs Democrats",
+    "last_podcast_name": "All-In with Chamath, Jason, Sacks & Friedberg",
+    "last_episode_date": "2026-08-13",
+    "appearance_count": 1
+  },
+  {
+    "id": 49266,
     "name": "Milton Berg",
     "slug": "milton-berg",
     "bio": "Milton Berg is a veteran technical analyst and CEO of Milton Berg Advisors, specializing in market turning-point analysis for institutional investors.",
@@ -36136,7 +36210,7 @@ const dashboardData = {
     "appearance_count": 2
   },
   {
-    "id": 49152,
+    "id": 49267,
     "name": "How Kavak Rebuilt Itself Around AI Agents",
     "slug": "how-kavak-rebuilt-itself-around-ai-agents",
     "bio": null,
@@ -36148,7 +36222,7 @@ const dashboardData = {
     "appearance_count": 1
   },
   {
-    "id": 49153,
+    "id": 49268,
     "name": "Emad Mostaque",
     "slug": "emad-mostaque",
     "bio": null,
@@ -36160,7 +36234,7 @@ const dashboardData = {
     "appearance_count": 1
   },
   {
-    "id": 49154,
+    "id": 49269,
     "name": "How Open",
     "slug": "how-open",
     "bio": null,
@@ -36172,7 +36246,7 @@ const dashboardData = {
     "appearance_count": 1
   },
   {
-    "id": 49155,
+    "id": 49270,
     "name": "Saronic Founders",
     "slug": "saronic-founders",
     "bio": null,
@@ -36184,7 +36258,7 @@ const dashboardData = {
     "appearance_count": 1
   },
   {
-    "id": 49156,
+    "id": 49271,
     "name": "OpenAI's Joshua Achiam",
     "slug": "openais-joshua-achiam",
     "bio": null,
@@ -36196,7 +36270,7 @@ const dashboardData = {
     "appearance_count": 1
   },
   {
-    "id": 49157,
+    "id": 49272,
     "name": "Why Macro is \u201cPretty Risk-On\u201d for Equities",
     "slug": "why-macro-is-pretty-risk-on-for-equities",
     "bio": null,
@@ -36208,7 +36282,7 @@ const dashboardData = {
     "appearance_count": 1
   },
   {
-    "id": 49158,
+    "id": 49273,
     "name": "AI for America's Small Businesses",
     "slug": "ai-for-americas-small-businesses",
     "bio": null,
@@ -36220,7 +36294,7 @@ const dashboardData = {
     "appearance_count": 1
   },
   {
-    "id": 49159,
+    "id": 49274,
     "name": "Mum\u2019s The Word",
     "slug": "mums-the-word",
     "bio": null,
@@ -36232,7 +36306,7 @@ const dashboardData = {
     "appearance_count": 1
   },
   {
-    "id": 49160,
+    "id": 49275,
     "name": "Luke Gromen",
     "slug": "luke-gromen",
     "bio": null,
@@ -36244,7 +36318,7 @@ const dashboardData = {
     "appearance_count": 1
   },
   {
-    "id": 49161,
+    "id": 49276,
     "name": "Codex from 0 to 10M Users",
     "slug": "codex-from-0-to-10m-users",
     "bio": null,
@@ -36256,7 +36330,7 @@ const dashboardData = {
     "appearance_count": 1
   },
   {
-    "id": 49162,
+    "id": 49277,
     "name": "Ben Horowitz",
     "slug": "ben-horowitz",
     "bio": "Ben Horowitz is a co-founder of venture firm Andreessen Horowitz and former CEO of Opsware, known for advising founders on leadership under pressure.",
@@ -36268,7 +36342,7 @@ const dashboardData = {
     "appearance_count": 3
   },
   {
-    "id": 49163,
+    "id": 49278,
     "name": "Building the Physical AI Stack",
     "slug": "building-the-physical-ai-stack",
     "bio": null,
@@ -36280,7 +36354,7 @@ const dashboardData = {
     "appearance_count": 1
   },
   {
-    "id": 49164,
+    "id": 49279,
     "name": "Travis Kalanick Is Back",
     "slug": "travis-kalanick-is-back",
     "bio": null,
@@ -36292,7 +36366,7 @@ const dashboardData = {
     "appearance_count": 1
   },
   {
-    "id": 49165,
+    "id": 49280,
     "name": "Why Physical AI Is the Next Frontier",
     "slug": "why-physical-ai-is-the-next-frontier",
     "bio": null,
@@ -36304,7 +36378,7 @@ const dashboardData = {
     "appearance_count": 1
   },
   {
-    "id": 49166,
+    "id": 49281,
     "name": "Nick Nemeth",
     "slug": "nick-nemeth",
     "bio": null,
@@ -36316,7 +36390,7 @@ const dashboardData = {
     "appearance_count": 1
   },
   {
-    "id": 49167,
+    "id": 49282,
     "name": "Mark Cuban on the AI Bubble",
     "slug": "mark-cuban-on-the-ai-bubble",
     "bio": null,
@@ -36328,7 +36402,7 @@ const dashboardData = {
     "appearance_count": 1
   },
   {
-    "id": 49168,
+    "id": 49283,
     "name": "Urgent Update- AI Sputnik Moment",
     "slug": "urgent-update--ai-sputnik-moment",
     "bio": null,
@@ -36340,7 +36414,7 @@ const dashboardData = {
     "appearance_count": 1
   },
   {
-    "id": 49169,
+    "id": 49284,
     "name": "Replay 2025",
     "slug": "replay-2025",
     "bio": null,
@@ -36348,18 +36422,6 @@ const dashboardData = {
     "last_main_idea": "Investing in AI and crypto requires understanding the interplay between technology and policy, with a focus on regulatory clarity and open-source initiatives for long-term competitiveness.",
     "last_episode_title": "Replay 2025: David Sacks on AI, Crypto, and America's Technology Future",
     "last_podcast_name": "The a16z Show",
-    "last_episode_date": "2026-07-16",
-    "appearance_count": 1
-  },
-  {
-    "id": 49170,
-    "name": "Turbo Charged Trend Following",
-    "slug": "turbo-charged-trend-following",
-    "bio": null,
-    "known_for": null,
-    "last_main_idea": "Takahay Capital's investment thesis revolves around trend following and quantitative diversification, aiming to capitalize on major market trends while maintaining a diverse portfolio to mitigate risk.",
-    "last_episode_title": "Turbo Charged Trend Following: Why Capturing the Market\u2019s Biggest Trends Means Embracing High Volatility | Moritz Seibert & Moritz Heiden | Takahe Capital",
-    "last_podcast_name": "Monetary Matters with Jack Farley",
     "last_episode_date": "2026-07-16",
     "appearance_count": 1
   }
@@ -36568,7 +36630,7 @@ const dashboardData = {
     "last_podcast_name": "The a16z Show",
     "last_episode_date": "2026-07-22",
     "mention_score": 3,
-    "mention_score_decayed": 1.89,
+    "mention_score_decayed": 1.85,
     "last_main_idea": "The next great technology revolution will be in the physical world, with industrial AI, robotics, and autonomy driving transformative change across industries.",
     "last_proof_cite": "The a16z Show \u2022 2026-07-22 \u2022 Travis Kalanick Is Back | Building the Future of Industrial AI",
     "last_proof_snippet": "We know what Boobers 2017 was like. Travis Kalana, because Snapchat's dying from his role as chief executive. That wouldn't have gone that way if Ben or Mark was on the board. You're in this hell, you're dealing with lawsuits. I worry about",
@@ -36697,7 +36759,7 @@ const dashboardData = {
     "last_podcast_name": "Monetary Matters with Jack Farley",
     "last_episode_date": "2026-07-28",
     "mention_score": 2,
-    "mention_score_decayed": 1.48,
+    "mention_score_decayed": 1.45,
     "last_main_idea": "The bond market is facing significant challenges due to supply and demand imbalances, fiscal pressures, and aging populations, making gold an attractive store of value in the current economic climate.",
     "last_proof_cite": "Monetary Matters with Jack Farley \u2022 2026-07-28 \u2022 Luke Gromen: Yield Curve Control is the Only Way to Stop a Global Bond Crisis",
     "last_proof_snippet": "Germany, Japan, and Korea are all historically big creditors from a sovereign perspective. And in particular, Japan, if they're borrowing money to do defense to me, they have turned sellers of bonds as well. So now they're selling, they're",
@@ -36817,7 +36879,7 @@ const dashboardData = {
     "last_podcast_name": "All-In with Chamath, Jason, Sacks & Friedberg",
     "last_episode_date": "2026-07-10",
     "mention_score": 2,
-    "mention_score_decayed": 0.93,
+    "mention_score_decayed": 0.91,
     "last_main_idea": "Investing in AI infrastructure and data center companies could yield significant returns as the demand for AI continues to grow exponentially.",
     "last_proof_cite": "All-In with Chamath, Jason, Sacks & Friedberg \u2022 2026-07-10 \u2022 Open Source Wins, AGI Is Here, and Scorsese's AI Toolkit with CEOs of Cerebras & Black Forest Labs",
     "last_proof_snippet": "We are in the race for super intelligence and Andrew Feldman is back and obviously CEO and founders Ceribres doing in friendships pioneered the space, had a successful IPO. We've talked about this a couple of times, we got to see each other",
@@ -36881,7 +36943,7 @@ const dashboardData = {
     "last_podcast_name": "All-In with Chamath, Jason, Sacks & Friedberg",
     "last_episode_date": "2026-07-03",
     "mention_score": 2,
-    "mention_score_decayed": 0.81,
+    "mention_score_decayed": 0.79,
     "last_main_idea": "Enterprises should prioritize data sovereignty in AI to maintain competitive advantages and consider decentralized, open-source AI models to reduce costs and enhance operational efficiency.",
     "last_proof_cite": "All-In with Chamath, Jason, Sacks & Friedberg \u2022 2026-07-03 \u2022 AI Sovereignty Wars, Palantir-Nvidia Deal, SCOTUS Birthright Ruling, Newsom's CA Budget Lie",
     "last_proof_snippet": "All right, everybody, welcome back to the number one podcast in the world. Sure, favorite podcast. It's your podcast. It's your favorite podcast. It's the all-in podcast episode two, seven, nine with me, freebergs, tax, to my, you know, the",
@@ -36941,7 +37003,7 @@ const dashboardData = {
     "last_podcast_name": "BG2Pod with Brad Gerstner and Bill Gurley",
     "last_episode_date": "2026-06-11",
     "mention_score": 2,
-    "mention_score_decayed": 0.55,
+    "mention_score_decayed": 0.54,
     "last_main_idea": "SpaceX's unique position in the AI compute market and its rapid deployment capabilities make it a compelling long-term investment, with potential for significant revenue growth through Starlink and AI advancements.",
     "last_proof_cite": "BG2Pod with Brad Gerstner and Bill Gurley \u2022 2026-06-11 \u2022 The SpaceX IPO, Fable 5, AI Capex Update & Market Check w/ Gavin Baker, Andrew Fox & Clark Tang | BG2",
     "last_proof_snippet": "I think we're all pretty AI-pilled, and if you're AI-pilled, that means we've got to build a lot more compute than the world thinks, and that these models are going to be a lot more valuable than people think. You combine that with their co",
@@ -37908,6 +37970,76 @@ const dashboardData = {
     }
   },
   {
+    "id": 401,
+    "name": "Ron Emmanuel",
+    "slug": "ron-emmanuel",
+    "bio": "Ron Emmanuel is a seasoned political figure known for his decades of service to the United States. He has served as a senior advisor to Bill Clinton and as the ambassador to Japan under President Biden. Emmanuel's expertise spans policy, politics, and press, making him a significant figure in American governance.",
+    "known_for": "His extensive experience in American politics and his role in shaping U.S. policy and international relations.",
+    "net_worth_usd": 14000000.0,
+    "net_worth_source": "https://www.celebritynetworth.com/richest-politicians/democrats/rahm-emanuel-net-worth/",
+    "net_worth_updated_at": "2026-08-12T23:39:01.415134",
+    "voice_tone": "Confident and experienced.",
+    "voice_style": "Direct and assertive, with a focus on policy and political analysis.",
+    "voice_delivery_notes": "Pacing is steady with emphasis on key policy points.",
+    "voice_profile_updated_at": "2026-08-13 04:37:39",
+    "last_seen": "2026-08-13 04:37:39",
+    "last_episode_title": "Rahm Emanuel: Trump's Foreign Policy, China, Europe's Decline, Immigration & DSA vs Democrats",
+    "last_podcast_name": "All-In with Chamath, Jason, Sacks & Friedberg",
+    "last_episode_date": "2026-08-13",
+    "mention_score": 1,
+    "mention_score_decayed": 1,
+    "last_main_idea": "Ron Emmanuel's investment thesis revolves around the need for progressive policies and effective government execution, which he believes are crucial for America's economic and social stability.",
+    "last_proof_cite": "All-In with Chamath, Jason, Sacks & Friedberg \u2022 2026-08-13 \u2022 Rahm Emanuel: Trump's Foreign Policy, China, Europe's Decline, Immigration & DSA vs Democrats",
+    "last_proof_snippet": "All right, everybody. We are super pleased to have Ron Emmanuel. Join us for the all and interview today. He was a senior advisor of Bill Clinton, last president, resigned over zero national debt. And he was a Bahamas chief of staff, mayor",
+    "supporting_takeaway": "He discusses the skills of Bill Clinton and Barack Obama, highlighting their ability to integrate policy, politics, and press.",
+    "grokipedia_url": null,
+    "grokipedia_fetched_at": "2026-08-12T23:39:00.175191",
+    "pundit_profile": {
+      "source": "llm",
+      "source_model": "moonshot:moonshot-v1-8k",
+      "source_url": "",
+      "page_title": "Ron Emmanuel",
+      "fetched_at": "2026-08-13T04:39:00.174841+00:00",
+      "cliff_notes": "Ron Emmanuel has had a long and influential career in American politics. Starting as a senior advisor to Bill Clinton, he played a crucial role in shaping policy and governance during Clinton's presidency. Emmanuel's expertise in policy and politics led him to serve as the Chief of Staff for the Bahamas and later as the Mayor of Shaitown. His international experience was further enhanced when he was appointed as the ambassador to Japan under President Biden. Throughout his career, Emmanuel has been a significant figure in American governance, with his insights and perspectives on the economy, inflation, employment, national debt, and other critical issues facing the nation.",
+      "derived": {
+        "current_role": "Ambassador to Japan under President Biden",
+        "former_positions": "Senior advisor to Bill Clinton; Chief of Staff for the Bahamas; Mayor of Shaitown",
+        "political_summary": "Ron Emmanuel has been a key player in American politics for over four decades, influencing policy and governance through various roles. His insights into the post-Trump world and the future direction of the country have been a subject of interest, particularly in the context of the 2028 presidential race."
+      },
+      "infobox": {
+        "Born": "",
+        "Nationality": "American"
+      },
+      "lead_paragraphs": [
+        "Ron Emmanuel has had a long and influential career in American politics. Starting as a senior advisor to Bill Clinton, he played a crucial role in shaping policy and governance during Clinton's presidency. Emmanuel's expertise in policy and politics led him to serve as the Chief of Staff for the Bahamas and later as the Mayor of Shaitown.",
+        "His international experience was further enhanced when he was appointed as the ambassador to Japan under President Biden. Throughout his career, Emmanuel has been a significant figure in American governance, with his insights and perspectives on the economy, inflation, employment, national debt, and other critical issues facing the nation."
+      ],
+      "sections": [
+        {
+          "heading": "Economic Policy",
+          "body": "Emmanuel has been a key figure in shaping economic policy, with a focus on managing national debt and promoting sustainable economic growth."
+        },
+        {
+          "heading": "Inflation and Employment",
+          "body": "His expertise in economic policy extends to addressing issues of inflation and employment, aiming to create a stable and prosperous economy."
+        },
+        {
+          "heading": "National Debt",
+          "body": "Emmanuel has been vocal about the challenges posed by surging national debt and the need for fiscal responsibility."
+        },
+        {
+          "heading": "International Relations",
+          "body": "As the ambassador to Japan, Emmanuel has played a significant role in fostering international relations and promoting diplomatic ties."
+        },
+        {
+          "heading": "Social and Political Issues",
+          "body": "He has also been engaged in addressing social and political issues such as the rise of socialism, anti-Semitism, and immigration policies."
+        }
+      ]
+    },
+    "net_worth": "$14.0M"
+  },
+  {
     "id": 400,
     "name": "Milton Berg",
     "slug": "milton-berg",
@@ -38358,7 +38490,7 @@ const dashboardData = {
     "last_podcast_name": "Monetary Matters with Jack Farley",
     "last_episode_date": "2026-08-07",
     "mention_score": 1,
-    "mention_score_decayed": 0.91,
+    "mention_score_decayed": 0.89,
     "last_main_idea": "Investing success comes from a deep understanding of both macroeconomic trends and single stock fundamental analysis, with a focus on companies that benefit from technological advancements and market disruptions.",
     "last_proof_cite": "Monetary Matters with Jack Farley \u2022 2026-08-07 \u2022 Misunderstood Stocks in Data Center Power, Cybersecurity, and Payments | Dean & Deiya Pernas",
     "last_proof_snippet": "Today I'm sitting down with Daya and Dean Pernos of Pernos Research. We're going to be talking about some of the most important themes and trends in investing such as energy power and data centers, software, AI, cybersecurity, payments. The",
@@ -38418,7 +38550,7 @@ const dashboardData = {
     "last_podcast_name": "Monetary Matters with Jack Farley",
     "last_episode_date": "2026-08-07",
     "mention_score": 1,
-    "mention_score_decayed": 0.91,
+    "mention_score_decayed": 0.89,
     "last_main_idea": "Investing success comes from a deep understanding of both macroeconomic trends and single stock fundamental analysis, with a focus on companies that benefit from technological advancements and market disruptions.",
     "last_proof_cite": "Monetary Matters with Jack Farley \u2022 2026-08-07 \u2022 Misunderstood Stocks in Data Center Power, Cybersecurity, and Payments | Dean & Deiya Pernas",
     "last_proof_snippet": "Today I'm sitting down with Daya and Dean Pernos of Pernos Research. We're going to be talking about some of the most important themes and trends in investing such as energy power and data centers, software, AI, cybersecurity, payments. The",
@@ -38716,7 +38848,7 @@ const dashboardData = {
     "last_podcast_name": "All-In with Chamath, Jason, Sacks & Friedberg",
     "last_episode_date": "2026-08-05",
     "mention_score": 1,
-    "mention_score_decayed": 0.87,
+    "mention_score_decayed": 0.85,
     "last_main_idea": "Investment in autonomous defense technologies is crucial for maintaining a competitive edge and can lead to significant advancements in military capabilities.",
     "last_proof_cite": "All-In with Chamath, Jason, Sacks & Friedberg \u2022 2026-08-05 \u2022 Saronic Founders: Autonomous Warships, China's 230X Advantage & Swarms of Robot Ships",
     "last_proof_snippet": "All right, everybody, welcome back to the all in interview series. I am thrilled. Really thrilled because Ceranic is a defense company that has been doing amazing work. And we are so lucky to have the co-founders here on the program. Welcom",
@@ -38775,7 +38907,7 @@ const dashboardData = {
     "last_podcast_name": "All-In with Chamath, Jason, Sacks & Friedberg",
     "last_episode_date": "2026-08-05",
     "mention_score": 1,
-    "mention_score_decayed": 0.87,
+    "mention_score_decayed": 0.85,
     "last_main_idea": "Investment in autonomous defense technologies is crucial for maintaining a competitive edge and can lead to significant advancements in military capabilities.",
     "last_proof_cite": "All-In with Chamath, Jason, Sacks & Friedberg \u2022 2026-08-05 \u2022 Saronic Founders: Autonomous Warships, China's 230X Advantage & Swarms of Robot Ships",
     "last_proof_snippet": "All right, everybody, welcome back to the all in interview series. I am thrilled. Really thrilled because Ceranic is a defense company that has been doing amazing work. And we are so lucky to have the co-founders here on the program. Welcom",
@@ -39212,7 +39344,7 @@ const dashboardData = {
     "last_podcast_name": "Monetary Matters with Jack Farley",
     "last_episode_date": "2026-08-02",
     "mention_score": 1,
-    "mention_score_decayed": 0.81,
+    "mention_score_decayed": 0.79,
     "last_main_idea": "The market is in a phase where a new narrative is needed to drive further growth, with a focus on value laggards and sectors less exposed to speculative excesses.",
     "last_proof_cite": "Monetary Matters with Jack Farley \u2022 2026-08-02 \u2022 Why Macro is \u201cPretty Risk-On\u201d for Equities | Tian Yang of Variant Perception",
     "last_proof_snippet": "I'm joined once again by TN Yang, co-founder and head of research at variant perception. TN, what do you think about the stock market right now, the S&P, the NASDAQ, the semiconductor stocks, they have been trading quite weekly for the past",
@@ -39948,7 +40080,7 @@ const dashboardData = {
     "last_podcast_name": "Moonshots with Peter Diamandis",
     "last_episode_date": "2026-07-24",
     "mention_score": 1,
-    "mention_score_decayed": 0.66,
+    "mention_score_decayed": 0.64,
     "last_main_idea": "Investing in AI is about more than just technology; it's an investment in the future of innovation, human potential, and the ability to solve complex problems.",
     "last_proof_cite": "Moonshots with Peter Diamandis \u2022 2026-07-24 \u2022 The Hugging Face Breach, Moonshot AI Valued at $20B, and Living to 1,759 Years Old | EP #273",
     "last_proof_snippet": "Pugging face, the leading open platform for sharing testing and deploying AI models, it got breached by an autonomous agent when the hugging face security team tried to analyze the attack, using either anthropic or open AI, both models refu",
@@ -40008,7 +40140,7 @@ const dashboardData = {
     "last_podcast_name": "Moonshots with Peter Diamandis",
     "last_episode_date": "2026-07-24",
     "mention_score": 1,
-    "mention_score_decayed": 0.66,
+    "mention_score_decayed": 0.64,
     "last_main_idea": "Investing in AI is about more than just technology; it's an investment in the future of innovation, human potential, and the ability to solve complex problems.",
     "last_proof_cite": "Moonshots with Peter Diamandis \u2022 2026-07-24 \u2022 The Hugging Face Breach, Moonshot AI Valued at $20B, and Living to 1,759 Years Old | EP #273",
     "last_proof_snippet": "Pugging face, the leading open platform for sharing testing and deploying AI models, it got breached by an autonomous agent when the hugging face security team tried to analyze the attack, using either anthropic or open AI, both models refu",
@@ -41138,7 +41270,7 @@ const dashboardData = {
     "last_podcast_name": "Monetary Matters with Jack Farley",
     "last_episode_date": "2026-07-14",
     "mention_score": 1,
-    "mention_score_decayed": 0.52,
+    "mention_score_decayed": 0.51,
     "last_main_idea": "Invest in companies at the forefront of AI and semiconductors that can leverage intelligence to perform high-cost, time-consuming tasks more efficiently and at scale.",
     "last_proof_cite": "Monetary Matters with Jack Farley \u2022 2026-07-14 \u2022 The Semiconductor Earnings Boom Is Just Getting Started | Ben Pouladian on why AI is Real, Nvidia is Mispriced, and Capacitors Are Overrated",
     "last_proof_snippet": "Got a special conversation today. I'm joined by Ben Kulandian of BEP Research. Ben is a specialist investor and analyst in the semi-conductor world and the semi-conductor supply chain. Of course, that is what powers AI Ben welcome to moneta",
@@ -42086,7 +42218,7 @@ const dashboardData = {
     "last_podcast_name": "Monetary Matters with Jack Farley",
     "last_episode_date": "2026-06-29",
     "mention_score": 1,
-    "mention_score_decayed": 0.37,
+    "mention_score_decayed": 0.36,
     "last_main_idea": "Investors should be cautious of current AI and data center investment booms, drawing parallels with the 1873 financial crisis, and be mindful of the risks associated with excessive leverage and mismanaged monetary policy.",
     "last_proof_cite": "Monetary Matters with Jack Farley \u2022 2026-06-29 \u2022 Rothschilds, Railroads, & Ruin | Liaquat Ahamed on \u201c1873\u201d (New Book!)",
     "last_proof_snippet": "I am so glad today we have a very special guest, one of my favorite authors of all time Leakwet Ahamed, who's the author of the new book 1873, The Roth Childs, The First Great Depression, and The Making of the Modern World Leakwet. Welcome",
@@ -42213,7 +42345,7 @@ const dashboardData = {
     "last_podcast_name": "Monetary Matters with Jack Farley",
     "last_episode_date": "2026-06-24",
     "mention_score": 1,
-    "mention_score_decayed": 0.33,
+    "mention_score_decayed": 0.32,
     "last_main_idea": "Plutus democratizes investment management by providing individual investors access to sophisticated strategies and research, previously limited to institutional investors, at a competitive fee.",
     "last_proof_cite": "Monetary Matters with Jack Farley \u2022 2026-06-24 \u2022 Inside The Platform Helping to Invest Like Substack & FinTwit's Top Researchers | Plutus",
     "last_proof_snippet": "I think for the first time, we're at a place where talented, portfolio builders, manager researchers have an avenue that is not limited to big banks and put us fully intends to incubate that talent and grow it. We really looked at it from t",
@@ -42397,7 +42529,7 @@ const dashboardData = {
     "last_podcast_name": "All-In with Chamath, Jason, Sacks & Friedberg",
     "last_episode_date": "2026-06-23",
     "mention_score": 1,
-    "mention_score_decayed": 0.32,
+    "mention_score_decayed": 0.31,
     "last_main_idea": "Ryan Cohen's investment strategy at GameStop focuses on operational efficiency, cost optimization, and leveraging the growing collectibles market to drive profitability and shareholder value.",
     "last_proof_cite": "All-In with Chamath, Jason, Sacks & Friedberg \u2022 2026-06-23 \u2022 GameStop CEO Ryan Cohen's $56B Plan to Take Over eBay",
     "last_proof_snippet": "Everyone hates GameStop and it seems like everyone in the media basically wants us to fail and wants them to succeed and you've got a board that's making hundreds of thousands of dollars a year and they don't buy stock with their own money.",
@@ -42713,7 +42845,7 @@ const dashboardData = {
     "last_podcast_name": "Monetary Matters with Jack Farley",
     "last_episode_date": "2026-06-21",
     "mention_score": 1,
-    "mention_score_decayed": 0.31,
+    "mention_score_decayed": 0.3,
     "last_main_idea": "Investors should be cautious about the long-term viability of AI companies with high operational losses and unsustainable financial models.",
     "last_proof_cite": "Monetary Matters with Jack Farley \u2022 2026-06-21 \u2022 Ed Zitron: The AI Bubble is Bleeding Cash, Here Are The Receipts",
     "last_proof_snippet": "Got a very special conversation. I am speaking to one of the most prolific skeptics about AI. I'm joined today by Ed Zitron, author of Where's Your Ed at Newsletter and the Better Offline Podcast. Ed, welcome to monetary matters. Thanks for",
@@ -42772,7 +42904,7 @@ const dashboardData = {
     "last_podcast_name": "Monetary Matters with Jack Farley",
     "last_episode_date": "2026-06-20",
     "mention_score": 1,
-    "mention_score_decayed": 0.3,
+    "mention_score_decayed": 0.29,
     "last_main_idea": "Investors should focus on individual company fundamentals in the AI and semiconductor sectors, rather than broad macro trends, and be cautious of inflated valuations and unprofitable business models.",
     "last_proof_cite": "Monetary Matters with Jack Farley \u2022 2026-06-20 \u2022 Jim Chanos & Val Zlatev: Long and Short Alpha in AI, Semiconductors, Data Centers, Neoclouds, and Data Centers | MacroMinds Symposium 2026",
     "last_proof_snippet": "Where's to find value in the AI boom on the long side and the short side? This is the question that I asked two great investors earlier this month when I had the privilege of hosting Jim Channos and Val Zlathe. Jim is a legendary short sell",
@@ -42837,7 +42969,7 @@ const dashboardData = {
     "last_podcast_name": "Monetary Matters with Jack Farley",
     "last_episode_date": "2026-06-20",
     "mention_score": 1,
-    "mention_score_decayed": 0.3,
+    "mention_score_decayed": 0.29,
     "last_main_idea": "Investors should focus on individual company fundamentals in the AI and semiconductor sectors, rather than broad macro trends, and be cautious of inflated valuations and unprofitable business models.",
     "last_proof_cite": "Monetary Matters with Jack Farley \u2022 2026-06-20 \u2022 Jim Chanos & Val Zlatev: Long and Short Alpha in AI, Semiconductors, Data Centers, Neoclouds, and Data Centers | MacroMinds Symposium 2026",
     "last_proof_snippet": "Where's to find value in the AI boom on the long side and the short side? This is the question that I asked two great investors earlier this month when I had the privilege of hosting Jim Channos and Val Zlathe. Jim is a legendary short sell",
@@ -51291,7 +51423,7 @@ const dashboardData = {
     "last_podcast_name": "Moonshots with Peter Diamandis",
     "last_episode_date": "2026-02-17",
     "mention_score": 1,
-    "mention_score_decayed": 0.04,
+    "mention_score_decayed": 0.03,
     "last_main_idea": "Investing in AI and robotics companies that leverage neural networks for autonomous manufacturing could yield significant returns as this market is expected to become the largest economy globally.",
     "last_proof_cite": "Moonshots with Peter Diamandis \u2022 2026-02-17 \u2022 Humanoid Run on Neural Net, Autonomous Manufacturing, $50T Market #229",
     "last_proof_snippet": "Brett Adcock: Humanoid Run on Neural Net, Autonomous Manufacturing, $50T Market #229 Moonshots with Peter Diamandis Episode 229 00:00:00 I am blown away by how far you've come. The things that you can do with Neural Nets now does completely",
@@ -51355,7 +51487,7 @@ const dashboardData = {
     "last_podcast_name": "The a16z Show",
     "last_episode_date": "2026-02-15",
     "mention_score": 1,
-    "mention_score_decayed": 0.04,
+    "mention_score_decayed": 0.03,
     "last_main_idea": "Invest in companies that are at the forefront of developing AI-enabled, immersive technologies that can redefine consumer interactions beyond the current app-centric model.",
     "last_proof_cite": "The a16z Show \u2022 2026-02-15 \u2022 The Future of Consumer Technology and the Post-Mobile Phone Era",
     "last_proof_snippet": "Is there a better way? I think there is. Every single interface that I interact with, every single problem space that I'm trying to solve are going to be made easier by virtue of this new technology. If you were starting from scratch today,",
