@@ -3,80 +3,80 @@
 
 const dashboardData = {
   schemaVersion: 2,
-  generatedAt: "2026-08-14T05:03:41.738705",
-  chartsVersion: "2026-08-14T05:03:37.310824",
+  generatedAt: "2026-08-14T06:42:16.519188",
+  chartsVersion: "2026-08-14T06:42:08.349751",
   priceSnapshot: {
   "GOOGL": {
     "price": 346.36,
     "change_pct": 6.06,
     "name": "GOOGL",
-    "updated_at": "2026-08-14T05:03:37.310381"
+    "updated_at": "2026-08-14T06:42:08.348442"
   },
   "NVDA": {
     "price": 225.3,
     "change_pct": 14.65,
     "name": "NVDA",
-    "updated_at": "2026-08-14T05:03:37.310390"
+    "updated_at": "2026-08-14T06:42:08.348464"
   },
   "BTC": {
-    "price": 62735.54,
-    "change_pct": -0.04,
+    "price": 62781.17,
+    "change_pct": 0.03,
     "name": "BTC",
-    "updated_at": "2026-08-14T05:03:37.310394"
+    "updated_at": "2026-08-14T06:42:08.348474"
   },
   "TSLA": {
     "price": 339.96,
     "change_pct": 9.94,
     "name": "TSLA",
-    "updated_at": "2026-08-14T05:03:37.310398"
+    "updated_at": "2026-08-14T06:42:08.348482"
   },
   "MSFT": {
     "price": 496.88,
     "change_pct": 27.7,
     "name": "MSFT",
-    "updated_at": "2026-08-14T05:03:37.310401"
+    "updated_at": "2026-08-14T06:42:08.348491"
   },
   "AMZN": {
     "price": 265.13,
     "change_pct": 14.58,
     "name": "AMZN",
-    "updated_at": "2026-08-14T05:03:37.310404"
+    "updated_at": "2026-08-14T06:42:08.348499"
   },
   "META": {
     "price": 594.97,
     "change_pct": 0.19,
     "name": "META",
-    "updated_at": "2026-08-14T05:03:37.310408"
+    "updated_at": "2026-08-14T06:42:08.348508"
   },
   "WTI": {
     "price": 3.62,
     "change_pct": 9.37,
     "name": "WTI",
-    "updated_at": "2026-08-14T05:03:37.310411"
+    "updated_at": "2026-08-14T06:42:08.348516"
   },
   "S&P 500": {
     "price": 777.88,
     "change_pct": 5.25,
     "name": "S&P 500",
-    "updated_at": "2026-08-14T05:03:37.310414"
+    "updated_at": "2026-08-14T06:42:08.348524"
   },
   "AAPL": {
     "price": 305.26,
     "change_pct": -9.32,
     "name": "AAPL",
-    "updated_at": "2026-08-14T05:03:37.310417"
+    "updated_at": "2026-08-14T06:42:08.348533"
   },
   "QQQ": {
     "price": 732.07,
     "change_pct": 7.32,
     "name": "Invesco QQQ Trust",
-    "updated_at": "2026-08-14T05:03:37.310420"
+    "updated_at": "2026-08-14T06:42:08.348541"
   },
   "BTC-USD": {
-    "price": 62735.54,
-    "change_pct": -0.04,
+    "price": 62781.17,
+    "change_pct": 0.03,
     "name": "Bitcoin USD",
-    "updated_at": "2026-08-14T05:03:37.310424"
+    "updated_at": "2026-08-14T06:42:08.348550"
   }
 },
   tickerScores: [
@@ -36330,7 +36330,7 @@ const dashboardData = {
 ],
   podcastGuests: [
   {
-    "id": 50071,
+    "id": 50186,
     "name": "Emad Mostaque",
     "slug": "emad-mostaque",
     "bio": null,
@@ -36342,7 +36342,7 @@ const dashboardData = {
     "appearance_count": 2
   },
   {
-    "id": 50070,
+    "id": 50185,
     "name": "Rahm Emanuel",
     "slug": "rahm-emanuel",
     "bio": null,
@@ -36354,7 +36354,7 @@ const dashboardData = {
     "appearance_count": 1
   },
   {
-    "id": 50072,
+    "id": 50187,
     "name": "Milton Berg",
     "slug": "milton-berg",
     "bio": "Milton Berg is a veteran technical analyst and CEO of Milton Berg Advisors, specializing in market turning-point analysis for institutional investors.",
@@ -36366,7 +36366,7 @@ const dashboardData = {
     "appearance_count": 2
   },
   {
-    "id": 50073,
+    "id": 50188,
     "name": "How Kavak Rebuilt Itself Around AI Agents",
     "slug": "how-kavak-rebuilt-itself-around-ai-agents",
     "bio": null,
@@ -36378,7 +36378,7 @@ const dashboardData = {
     "appearance_count": 1
   },
   {
-    "id": 50074,
+    "id": 50189,
     "name": "How Open",
     "slug": "how-open",
     "bio": null,
@@ -36390,7 +36390,7 @@ const dashboardData = {
     "appearance_count": 1
   },
   {
-    "id": 50075,
+    "id": 50190,
     "name": "Saronic Founders",
     "slug": "saronic-founders",
     "bio": null,
@@ -36402,7 +36402,7 @@ const dashboardData = {
     "appearance_count": 1
   },
   {
-    "id": 50076,
+    "id": 50191,
     "name": "OpenAI's Joshua Achiam",
     "slug": "openais-joshua-achiam",
     "bio": null,
@@ -36414,7 +36414,7 @@ const dashboardData = {
     "appearance_count": 1
   },
   {
-    "id": 50077,
+    "id": 50192,
     "name": "Why Macro is \u201cPretty Risk-On\u201d for Equities",
     "slug": "why-macro-is-pretty-risk-on-for-equities",
     "bio": null,
@@ -36426,7 +36426,7 @@ const dashboardData = {
     "appearance_count": 1
   },
   {
-    "id": 50078,
+    "id": 50193,
     "name": "AI for America's Small Businesses",
     "slug": "ai-for-americas-small-businesses",
     "bio": null,
@@ -36438,7 +36438,7 @@ const dashboardData = {
     "appearance_count": 1
   },
   {
-    "id": 50079,
+    "id": 50194,
     "name": "Mum\u2019s The Word",
     "slug": "mums-the-word",
     "bio": null,
@@ -36450,7 +36450,7 @@ const dashboardData = {
     "appearance_count": 1
   },
   {
-    "id": 50080,
+    "id": 50195,
     "name": "Luke Gromen",
     "slug": "luke-gromen",
     "bio": null,
@@ -36462,7 +36462,7 @@ const dashboardData = {
     "appearance_count": 1
   },
   {
-    "id": 50081,
+    "id": 50196,
     "name": "Codex from 0 to 10M Users",
     "slug": "codex-from-0-to-10m-users",
     "bio": null,
@@ -36474,7 +36474,7 @@ const dashboardData = {
     "appearance_count": 1
   },
   {
-    "id": 50082,
+    "id": 50197,
     "name": "Ben Horowitz",
     "slug": "ben-horowitz",
     "bio": "Ben Horowitz is a co-founder of venture firm Andreessen Horowitz and former CEO of Opsware, known for advising founders on leadership under pressure.",
@@ -36486,7 +36486,7 @@ const dashboardData = {
     "appearance_count": 3
   },
   {
-    "id": 50083,
+    "id": 50198,
     "name": "Building the Physical AI Stack",
     "slug": "building-the-physical-ai-stack",
     "bio": null,
@@ -36498,7 +36498,7 @@ const dashboardData = {
     "appearance_count": 1
   },
   {
-    "id": 50084,
+    "id": 50199,
     "name": "Travis Kalanick Is Back",
     "slug": "travis-kalanick-is-back",
     "bio": null,
@@ -36510,7 +36510,7 @@ const dashboardData = {
     "appearance_count": 1
   },
   {
-    "id": 50085,
+    "id": 50200,
     "name": "Why Physical AI Is the Next Frontier",
     "slug": "why-physical-ai-is-the-next-frontier",
     "bio": null,
@@ -36522,7 +36522,7 @@ const dashboardData = {
     "appearance_count": 1
   },
   {
-    "id": 50086,
+    "id": 50201,
     "name": "Nick Nemeth",
     "slug": "nick-nemeth",
     "bio": null,
@@ -36534,7 +36534,7 @@ const dashboardData = {
     "appearance_count": 1
   },
   {
-    "id": 50087,
+    "id": 50202,
     "name": "Mark Cuban on the AI Bubble",
     "slug": "mark-cuban-on-the-ai-bubble",
     "bio": null,
@@ -36546,7 +36546,7 @@ const dashboardData = {
     "appearance_count": 1
   },
   {
-    "id": 50088,
+    "id": 50203,
     "name": "Urgent Update- AI Sputnik Moment",
     "slug": "urgent-update--ai-sputnik-moment",
     "bio": null,
@@ -36558,7 +36558,7 @@ const dashboardData = {
     "appearance_count": 1
   },
   {
-    "id": 50089,
+    "id": 50204,
     "name": "Replay 2025",
     "slug": "replay-2025",
     "bio": null,
@@ -36648,7 +36648,7 @@ const dashboardData = {
     "last_podcast_name": "Dwarkesh Podcast",
     "last_episode_date": "2026-04-15",
     "mention_score": 4,
-    "mention_score_decayed": 0.26,
+    "mention_score_decayed": 0.25,
     "last_main_idea": "Nvidia's role in the transformation of electrons to valuable tokens and the acceleration of computing tasks positions it well in the AI and broader technology market.",
     "last_proof_cite": "Dwarkesh Podcast \u2022 2026-04-15 \u2022 Jensen Huang \u2013 TPU competition, why we should sell chips to China, & Nvidia\u2019s supply chain moat",
     "last_proof_snippet": "Nvidia has built a large ecosystem of partners across the supply chain and in application development.",
@@ -37333,7 +37333,7 @@ const dashboardData = {
     "last_podcast_name": "The Jack Mallers Show",
     "last_episode_date": "2026-06-16",
     "mention_score": 2,
-    "mention_score_decayed": 0.52,
+    "mention_score_decayed": 0.51,
     "last_main_idea": "Investors should monitor Bitcoin as a leading market indicator and scrutinize the capital structures of Bitcoin treasury companies for potential risks and rewards, while maintaining a long-term perspective.",
     "last_proof_cite": "The Jack Mallers Show \u2022 2026-06-16 \u2022 15 Questions: The Strait, Strategy, mNAV, Dilution, & My Boots",
     "last_proof_snippet": "Yo, welcome back to another episode of the Jack Mallors Show. I'm your host Jack, and you're listening to mail bag Monday, ladies and gentlemen. Oh, there's my resources tab, my AI tool. All right, let's get back to slide one. You were list",
@@ -37786,7 +37786,7 @@ const dashboardData = {
     "last_podcast_name": "The a16z Show",
     "last_episode_date": "2026-04-24",
     "mention_score": 2,
-    "mention_score_decayed": 0.16,
+    "mention_score_decayed": 0.15,
     "last_main_idea": "Investing in AI integration tools and platforms that can bridge the gap between AI capabilities and enterprise deployment is a key opportunity.",
     "last_proof_cite": "The a16z Show \u2022 2026-04-24 \u2022 AI Inside the Enterprise",
     "last_proof_snippet": "There's a growing gap between what's possible with AI and what's being deployed in large organizations.",
@@ -37852,7 +37852,7 @@ const dashboardData = {
     "last_podcast_name": "The a16z Show",
     "last_episode_date": "2026-04-24",
     "mention_score": 2,
-    "mention_score_decayed": 0.16,
+    "mention_score_decayed": 0.15,
     "last_main_idea": "Investing in AI integration tools and platforms that can bridge the gap between AI capabilities and enterprise deployment is a key opportunity.",
     "last_proof_cite": "The a16z Show \u2022 2026-04-24 \u2022 AI Inside the Enterprise",
     "last_proof_snippet": "There's a growing gap between what's possible with AI and what's being deployed in large organizations.",
@@ -40593,7 +40593,7 @@ const dashboardData = {
     "last_podcast_name": "The a16z Show",
     "last_episode_date": "2026-07-23",
     "mention_score": 1,
-    "mention_score_decayed": 0.63,
+    "mention_score_decayed": 0.62,
     "last_main_idea": "Industrial AI represents a substantial opportunity to transform physical industries through automation and AI, creating significant value beyond traditional software solutions.",
     "last_proof_cite": "The a16z Show \u2022 2026-07-23 \u2022 Building the Physical AI Stack | Travis Kalanick on TBPN",
     "last_proof_snippet": "Travis Kelenick joins TVPN to discuss why he's betting his next company on industrial AI. He shares his vision behind atoms, explains how autonomy is transforming industries like mining and food production, and discusses why bringing AI int",
@@ -40653,7 +40653,7 @@ const dashboardData = {
     "last_podcast_name": "Latent Space: The AI Engineer Podcast",
     "last_episode_date": "2026-07-23",
     "mention_score": 1,
-    "mention_score_decayed": 0.62,
+    "mention_score_decayed": 0.6,
     "last_main_idea": "Investing in AI development, particularly in the democratization of AI and the scaling of language models, can lead to significant innovation and competitive advantage.",
     "last_proof_cite": "Latent Space: The AI Engineer Podcast \u2022 2026-07-23 \u2022 Inside the Model Factory \u2014 Eiso Kant, Poolside AI",
     "last_proof_snippet": "All right, we're here in the studio. If I was a countryman, we'll fight together with people. Welcome. Thanks, thank you, guys. It's good to be here. Yeah, fresh on the plane. You texted me, you're like, hey, I'm on my way to SF. I was like",
@@ -43664,7 +43664,7 @@ const dashboardData = {
     "last_podcast_name": "Latent Space: The AI Engineer Podcast",
     "last_episode_date": "2026-06-03",
     "mention_score": 1,
-    "mention_score_decayed": 0.27,
+    "mention_score_decayed": 0.26,
     "last_main_idea": "Invest in Axiom Math for its pioneering role in verified AI for mathematics, which has the potential to drive innovation and efficiency in problem-solving across various fields.",
     "last_proof_cite": "Latent Space: The AI Engineer Podcast \u2022 2026-06-03 \u2022 \ud83d\udd2cScaling Past Informal AI - Carina Hong, Axiom Math",
     "last_proof_snippet": "But it's for the first time now I think verified AI is to open up collaboration. Either it's human AI collaboration. Well, before a blueprint like that's human human collaboration. And Lin was a grounding, was a verification formal language",
@@ -48904,7 +48904,7 @@ const dashboardData = {
     "last_podcast_name": "Monetary Matters with Jack Farley",
     "last_episode_date": "2026-04-09",
     "mention_score": 1,
-    "mention_score_decayed": 0.06,
+    "mention_score_decayed": 0.05,
     "last_main_idea": "Invest in software companies that define the market, focusing on backing scale-ready leaders, providing liquidity to early investors, and helping companies make strategic decisions.",
     "last_proof_cite": "Monetary Matters with Jack Farley \u2022 2026-04-09 \u2022 \"The Best Time to Invest\": How AI Disruption is Reshaping Software Valuations | Ben Topor | Titan Capital Partners",
     "last_proof_snippet": "AI is a significant paradigm shift, commoditizing some areas of the market but not changing the fundamental rules of the game.",
@@ -48972,7 +48972,7 @@ const dashboardData = {
     "last_podcast_name": "MacroVoices",
     "last_episode_date": "2026-04-09",
     "mention_score": 1,
-    "mention_score_decayed": 0.06,
+    "mention_score_decayed": 0.05,
     "last_main_idea": "Investment opportunities may arise from the physical dislocation in energy markets and shifts in energy security, with a focus on commodities like oil, uranium, and gold.",
     "last_proof_cite": "MacroVoices \u2022 2026-04-09 \u2022 MacroVoices #527 Adam Rozencwajg: What Comes Next After The Iran Crisis",
     "last_proof_snippet": "The oil market may be tighter than widely believed, with implications for food prices and inflation.",
@@ -50031,7 +50031,7 @@ const dashboardData = {
     "last_podcast_name": "Moonshots with Peter Diamandis",
     "last_episode_date": "2026-03-31",
     "mention_score": 1,
-    "mention_score_decayed": 0.05,
+    "mention_score_decayed": 0.04,
     "last_main_idea": "Investment in autonomous vehicle technology is poised to disrupt urban mobility and logistics, with companies like Uber positioned to capitalize on this shift.",
     "last_proof_cite": "Moonshots with Peter Diamandis \u2022 2026-03-31 \u2022 Uber CEO on Winning the Robotaxi Race, the End of Car Ownership, and Uber\u2019s Next $1 Trillion Bet | Dara Khosrowshahi (Uber CEO) | 243",
     "last_proof_snippet": "Autonomous vehicles are becoming a reality, with a hybrid model expected to emerge where both human-driven and autonomous vehicles coexist.",
