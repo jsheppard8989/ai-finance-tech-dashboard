@@ -1,6 +1,10 @@
 {
-  "generated_at": "2026-08-07T05:04:13.338655",
+  "generated_at": "2026-08-14T05:05:08.327229",
   "archives": [
+    {
+      "friday_iso": "2026-08-07",
+      "audio_href": "./audio/archive/debate_2026-08-07.mp3"
+    },
     {
       "friday_iso": "2026-07-31",
       "audio_href": "./audio/archive/debate_2026-07-31.mp3"

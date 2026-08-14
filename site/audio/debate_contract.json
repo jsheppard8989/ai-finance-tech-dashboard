@@ -1,113 +1,122 @@
 {
-  "prompt": "Will the S&P 500 index close above 7,600 within the next 42 days?",
-  "editorial_note": "We've observed that the S&P 500 has been a central focus for investors lately, with significant market movements capturing the attention of our listeners. Given its current level near 7,709.96, we believe debating whether it can surpass the 7,600 mark within the next 42 days will provide a relevant and timely discussion point, reflecting the immediate concerns of market participants.",
-  "expires_rule": "Resolves Friday 12:00 PM CST 2026-09-18",
-  "crux_theme": "S&P 500 Rally",
+  "prompt": "Will the S&P 500 index close above 8,000 within the next 42 days?",
+  "editorial_note": "Given the recent discussion on market conditions and the fluctuation of indices like the S&P 500, we are intrigued to see if the index can break past a significant psychological threshold amidst the current economic discussions. This question relates directly to investor sentiment and future market direction, a pertinent issue for our audience.",
+  "expires_rule": "Resolves Friday 12:00 PM CST 2026-09-25",
+  "crux_theme": "S&P 500 Index Threshold",
   "resolution_clarity": {
-    "source_of_truth": "Official market closing prices",
+    "source_of_truth": "Financial Market Data",
     "resolution_sources": [
       "CBOE (Chicago Board Options Exchange)",
-      "NASDAQ",
-      "NYSE"
+      "NASDAQ Official Closing Prices",
+      "Yahoo Finance"
     ],
     "resolution_criteria": [
-      "The S&P 500 index must close at or above 7,600 on or before 2026-09-18."
+      "The final closing value of the S&P 500 index on the specified resolution date"
     ]
   },
   "sides": {
     "a": "Affirmative (YES)",
     "b": "Negative (NO)"
   },
-  "resolves_iso": "2026-09-18",
-  "friday_iso": "2026-08-07",
-  "week_label": "Week of 2026-08-07",
-  "debater_a": "Day Blenden",
-  "debater_b": "Sleam Ismail",
-  "generated_at": "2026-08-07T05:03:32.396747",
+  "resolves_iso": "2026-09-25",
+  "friday_iso": "2026-08-14",
+  "week_label": "Week of 2026-08-14",
+  "debater_a": "Joshua Ahoyom",
+  "debater_b": "Victor Hagani",
+  "generated_at": "2026-08-14T05:04:18.157595",
   "bet_status": "open",
   "audio_href": "./audio/emp_ai_the_debate_11labs.mp3",
   "debater_a_snapshot": {
-    "name": "Day Blenden",
-    "known_for": "His deep understanding of AI investing and its implications for the future of technology and society.",
-    "bio": "Day Blenden is a prominent figure in the field of AI investing, recognized as the 'Emperor of AI Investing.' He brings his expertise in AI and investment to discussions, providing valuable insights into the industry's future and its impact on society.",
-    "last_main_idea": "Investing in AI is about more than just technology; it's an investment in the future of innovation, human potential, and the ability to solve complex problems.",
-    "last_podcast_name": "Moonshots with Peter Diamandis",
-    "last_episode_date": "2026-07-24",
-    "net_worth": "$299.0M",
+    "name": "Joshua Ahoyom",
+    "known_for": "His insights on the subtle arrival of AGI and its profound implications on cybersecurity, state actors, and the future of technology.",
+    "bio": "Joshua Ahoyom is recognized for his thought leadership in AI and its implications for the future. As the Chief Futurist at Open AI, he has been instrumental in shaping discussions around the advancement of artificial general intelligence (AGI) and its impact on society.",
+    "last_main_idea": "Investing in cybersecurity solutions that leverage AI can provide a competitive advantage, but it also requires understanding the novel risks and vulnerabilities that AI models can create.",
+    "last_podcast_name": "The a16z Show",
+    "last_episode_date": "2026-08-04",
+    "net_worth": "$150.0M",
     "pundit_profile": {
       "source": "llm",
       "source_model": "moonshot:moonshot-v1-8k",
       "source_url": "",
-      "page_title": "Day Blenden",
-      "fetched_at": "2026-07-25T04:37:37.927409+00:00",
-      "cliff_notes": "Day Blenden has made a significant impact in the realm of AI investing, earning him the title 'Emperor of AI Investing.' His career has been marked by a deep dive into the intricacies of AI technology and its financial implications. Blenden's insights have been instrumental in shaping discussions around the future of AI, its potential, and the ethical considerations that come with it. His expertise has been sought after by various platforms, where he shares his views on the industry's direction and the role of AI in shaping our world. Blenden's work is particularly relevant as AI continues to evolve and become more integrated into our daily lives, influencing everything from healthcare to finance.",
+      "page_title": "Joshua Ahoyom",
+      "fetched_at": "2026-08-05T03:03:28.571993+00:00",
+      "cliff_notes": "Joshua Ahoyom has been a prominent voice in the field of AI, particularly focusing on the future implications of artificial general intelligence. His work at Open AI has centered around understanding how AGI is already integrated into our lives, often going unnoticed by the general public. Ahoyom's discussions often revolve around the normalization of AI models that can outperform human experts in specialized domains and the potential for AI-powered cyber attacks. His contributions to the discourse on AI's recursive self-improvement and its gradual yet strange impact on the future have been influential. Despite his announcement of leaving Open AI, his insights will continue to shape the conversation around AI's role in society and technology.",
       "derived": {
-        "current_role": "Investment Expert in AI"
+        "current_role": "Chief Futurist at Open AI"
       },
       "infobox": {
         "Born": "",
         "Nationality": ""
       },
       "lead_paragraphs": [
-        "Day Blenden has made a significant impact in the realm of AI investing, earning him the title 'Emperor of AI Investing.' His career has been marked by a deep dive into the intricacies of AI technology and its financial implications. Blenden's insights have been instrumental in shaping discussions around the future of AI, its potential, and the ethical considerations that come with it.",
-        "His expertise has been sought after by various platforms, where he shares his views on the industry's direction and the role of AI in shaping our world. Blenden's work is particularly relevant as AI continues to evolve and become more integrated into our daily lives, influencing everything from healthcare to finance."
+        "Joshua Ahoyom has been a prominent voice in the field of AI, particularly focusing on the future implications of artificial general intelligence. His work at Open AI has centered around understanding how AGI is already integrated into our lives, often going unnoticed by the general public. Ahoyom's discussions often revolve around the normalization of AI models that can outperform human experts in specialized domains and the potential for AI-powered cyber attacks.",
+        "His contributions to the discourse on AI's recursive self-improvement and its gradual yet strange impact on the future have been influential. Despite his announcement of leaving Open AI, his insights will continue to shape the conversation around AI's role in society and technology."
       ],
       "sections": [
         {
-          "heading": "AI Investing",
-          "body": "Day Blenden is known for his expertise in AI investing, providing insights into the financial aspects of AI technology and its potential impact on various industries."
+          "heading": "Artificial General Intelligence",
+          "body": "Ahoyom discusses the subtle arrival of AGI and how it has already integrated into various aspects of society without much public awareness."
         },
         {
-          "heading": "Future of AI",
-          "body": "Blenden discusses the future implications of AI, including its potential to revolutionize sectors and the ethical considerations that arise with its advancement."
+          "heading": "Cybersecurity",
+          "body": "He highlights the potential risks of AI-powered cyber attacks and the need for robust defenses against such threats."
         },
         {
-          "heading": "Ethics in AI",
-          "body": "Blenden addresses the ethical dilemmas associated with AI, such as privacy concerns and the potential for misuse, emphasizing the need for responsible development and deployment of AI technologies."
+          "heading": "State Actors and AI",
+          "body": "Ahoyom emphasizes the role of state actors in the development and deployment of AI technologies and their potential geopolitical implications."
+        },
+        {
+          "heading": "Recursive Self-Improvement",
+          "body": "He explores the concept of AI systems improving themselves, which could lead to rapid advancements in technology and capabilities."
+        },
+        {
+          "heading": "Future of Technology",
+          "body": "Ahoyom posits that the future may feel more gradual and stranger than most people expect, with AI playing a central role in shaping these changes."
         }
       ]
     }
   },
   "debater_b_snapshot": {
-    "name": "Sleam Ismail",
-    "known_for": "Leading OpenEXO and contributing to the discourse on AI and its societal implications.",
-    "bio": "Sleam Ismail is the CEO of OpenEXO, a company at the forefront of AI and exponential technologies. As a globe-trotter, he brings a global perspective to the conversation, discussing the implications of AI advancements and their impact on society.",
-    "last_main_idea": "Investing in AI is about more than just technology; it's an investment in the future of innovation, human potential, and the ability to solve complex problems.",
-    "last_podcast_name": "Moonshots with Peter Diamandis",
-    "last_episode_date": "2026-07-24",
+    "name": "Victor Hagani",
+    "known_for": "His role in the rise and fall of Long-Term Capital Management and his contributions to personal finance strategies.",
+    "bio": "Victor Hagani is a prominent figure in finance, known for his work as a founding partner of Long-Term Capital Management (LTCM) and authoring 'The Missing Billionaires'. His insights on personal finance and risk management have been influential in the industry.",
+    "last_main_idea": "The S&P 500's performance over the next two years will be largely determined by the behavior of extrapolators and corporate equity activity, rather than fundamental earnings growth.",
+    "last_podcast_name": "Monetary Matters with Jack Farley",
+    "last_episode_date": "2026-08-04",
     "pundit_profile": {
       "source": "llm",
       "source_model": "moonshot:moonshot-v1-8k",
       "source_url": "",
-      "page_title": "Sleam Ismail",
-      "fetched_at": "2026-07-25T04:37:47.449143+00:00",
-      "cliff_notes": "Sleam Ismail is recognized as the CEO of OpenEXO, a company that is shaping the future of AI and its applications. His role places him at the intersection of technology and society, where he discusses and navigates the complex issues arising from AI advancements. Ismail's global travels have provided him with a broad perspective, which he uses to engage in conversations about the future of AI, its ethical considerations, and its potential to transform various industries. His insights are particularly valuable in the current landscape where AI is becoming increasingly integrated into daily life and business operations.",
+      "page_title": "Victor Hagani",
+      "fetched_at": "2026-08-04T18:36:36.170655+00:00",
+      "cliff_notes": "Victor Hagani is best known for his role as a founding partner of Long-Term Capital Management (LTCM), a hedge fund that gained notoriety for its high-risk strategies and eventual bailout by the Federal Reserve. Hagani's expertise in finance and risk management has been sought after, and he has shared his insights through his book 'The Missing Billionaires'. His work has had a significant impact on understanding risk in finance and personal finance strategies. Hagani's lessons from LTCM emphasize the importance of personal risk taking, the structure of financial institutions, and the nature of relative value trades.",
       "derived": {
-        "current_role": "CEO of OpenEXO"
+        "former_positions": "Founding Partner of Long-Term Capital Management",
+        "books_or_works": "The Missing Billionaires"
       },
       "infobox": {
         "Born": "",
         "Nationality": ""
       },
       "lead_paragraphs": [
-        "Sleam Ismail is recognized as the CEO of OpenEXO, a company that is shaping the future of AI and its applications. His role places him at the intersection of technology and society, where he discusses and navigates the complex issues arising from AI advancements. Ismail's global travels have provided him with a broad perspective, which he uses to engage in conversations about the future of AI, its ethical considerations, and its potential to transform various industries.",
-        "His insights are particularly valuable in the current landscape where AI is becoming increasingly integrated into daily life and business operations."
+        "Victor Hagani is best known for his role as a founding partner of Long-Term Capital Management (LTCM), a hedge fund that gained notoriety for its high-risk strategies and eventual bailout by the Federal Reserve. Hagani's expertise in finance and risk management has been sought after, and he has shared his insights through his book 'The Missing Billionaires'.",
+        "His work has had a significant impact on understanding risk in finance and personal finance strategies. Hagani's lessons from LTCM emphasize the importance of personal risk taking, the structure of financial institutions, and the nature of relative value trades."
       ],
       "sections": [
         {
-          "heading": "AI and Society",
-          "body": "Sleam Ismail discusses the impact of AI on society, including the ethical considerations and potential societal transformations that could result from AI advancements."
+          "heading": "Long-Term Capital Management",
+          "body": "Victor Hagani co-founded Long-Term Capital Management, a hedge fund that became infamous for its high-risk strategies and eventual need for a bailout."
         },
         {
-          "heading": "Global Perspective",
-          "body": "As a globe-trotter, Ismail brings a global perspective to the conversation, highlighting the diverse ways in which AI is being adopted and integrated around the world."
+          "heading": "Risk Management",
+          "body": "Hagani's work emphasizes the importance of understanding and managing risk, particularly in the context of personal finance and high-stakes financial institutions."
         },
         {
-          "heading": "AI in Business",
-          "body": "Ismail explores the role of AI in business, discussing how companies can leverage AI to improve operations and stay competitive in a rapidly changing technological landscape."
+          "heading": "Personal Finance",
+          "body": "Through his writings and insights, Hagani has contributed to the discourse on personal finance, highlighting the need for individuals to understand and manage their financial risks."
         }
       ]
     }
   },
-  "prompt_hash": "42f7f3ac4169dc66"
+  "prompt_hash": "3d04e5fc265c8235"
 }
