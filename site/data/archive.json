@@ -1,6 +1,29 @@
 {
   "insights": [
     {
+      "id": 419,
+      "title": "Ben Horowitz and Travis Kalanick on Building Again",
+      "source_type": "podcast",
+      "source_name": "The a16z Show",
+      "source_date": "2026-08-14",
+      "summary": "In this episode, Travis Kalanick discusses his new venture in industrial AI, which aims to automate multiple trillion-dollar industries, comparing its impact to the second industrial revolution. Kalanick emphasizes the importance of fighting for the best ideas within a company and notes the evolution of the media landscape towards more direct communication channels. Drawing from his experiences at Uber, he discusses finding a balance between being aggressive and bringing people along for the ride, and how entrepreneurship becomes easier with experience, which can be a double-edged sword.",
+      "key_takeaway": "Invest in industries that are ripe for automation and AI integration, as industrial AI could revolutionize multiple trillion-dollar industries.",
+      "tickers_mentioned": [
+        "AAPL",
+        "MSFT",
+        "AMZN",
+        "GOOGL",
+        "TSLA"
+      ],
+      "sentiment": "bullish",
+      "display_on_main": 1,
+      "display_order": 0,
+      "added_date": "2026-08-14",
+      "archived_date": null,
+      "archived_reason": null,
+      "podcast_episode_id": 404
+    },
+    {
       "id": 416,
       "title": "Rahm Emanuel: Trump's Foreign Policy, China, Europe's Decline, Immigration & DSA vs Democrats",
       "source_type": "podcast",
@@ -128,7 +151,7 @@
         "NVDA"
       ],
       "sentiment": "bearish",
-      "display_on_main": 1,
+      "display_on_main": 0,
       "display_order": 0,
       "added_date": "2026-08-11",
       "archived_date": null,
@@ -8106,20 +8129,20 @@
     {
       "id": 263,
       "term": "Industrial AI",
-      "description": "A full-stack solution that combines software, robotics, sensors, and machinery to automate industries.",
+      "description": "The application of artificial intelligence in industrial processes to automate and optimize operations across major industries.",
       "first_detected_date": "2026-07-22",
-      "last_mentioned_date": "2026-07-23",
-      "mention_count": 2,
+      "last_mentioned_date": "2026-08-14",
+      "mention_count": 3,
       "source_podcasts": null,
       "status": "active",
-      "investment_implications": "Industrial AI represents a significant shift in how industries are automated, offering substantial investment opportunities in physical automation.",
+      "investment_implications": "Investors should consider the potential for disruption and innovation in industries that are ripe for automation and AI integration.",
       "display_on_main": 1,
       "archived_date": null,
       "archived_reason": null,
       "first_detected_episode_id": 362,
       "first_detected_speaker": "Travis Kalanick, Ben Horowitz",
-      "last_mentioned_episode_id": 364,
-      "last_mentioned_speaker": "Travis Kelenick"
+      "last_mentioned_episode_id": 404,
+      "last_mentioned_speaker": "Travis Kalanick"
     },
     {
       "id": 264,

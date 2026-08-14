@@ -3,80 +3,80 @@
 
 const dashboardData = {
   schemaVersion: 2,
-  generatedAt: "2026-08-14T12:05:23.913687",
-  chartsVersion: "2026-08-14T12:05:16.514206",
+  generatedAt: "2026-08-14T13:38:23.840904",
+  chartsVersion: "2026-08-14T13:38:19.207602",
   priceSnapshot: {
   "GOOGL": {
-    "price": 345.18,
-    "change_pct": 3.44,
+    "price": 345.14,
+    "change_pct": 3.42,
     "name": "GOOGL",
-    "updated_at": "2026-08-14T12:05:16.513748"
+    "updated_at": "2026-08-14T13:38:19.207154"
   },
   "NVDA": {
-    "price": 225.16,
-    "change_pct": 14.29,
+    "price": 225.0,
+    "change_pct": 14.21,
     "name": "NVDA",
-    "updated_at": "2026-08-14T12:05:16.513758"
+    "updated_at": "2026-08-14T13:38:19.207164"
   },
   "BTC": {
-    "price": 63073.18,
-    "change_pct": 0.49,
+    "price": 62916.17,
+    "change_pct": 0.24,
     "name": "BTC",
-    "updated_at": "2026-08-14T12:05:16.513762"
+    "updated_at": "2026-08-14T13:38:19.207169"
   },
   "TSLA": {
-    "price": 338.92,
-    "change_pct": 10.24,
+    "price": 341.14,
+    "change_pct": 10.96,
     "name": "TSLA",
-    "updated_at": "2026-08-14T12:05:16.513766"
+    "updated_at": "2026-08-14T13:38:19.207172"
   },
   "MSFT": {
-    "price": 496.39,
-    "change_pct": 26.2,
+    "price": 495.3,
+    "change_pct": 25.92,
     "name": "MSFT",
-    "updated_at": "2026-08-14T12:05:16.513769"
+    "updated_at": "2026-08-14T13:38:19.207175"
   },
   "AMZN": {
-    "price": 263.27,
-    "change_pct": 14.04,
+    "price": 263.1,
+    "change_pct": 13.97,
     "name": "AMZN",
-    "updated_at": "2026-08-14T12:05:16.513772"
+    "updated_at": "2026-08-14T13:38:19.207179"
   },
   "META": {
-    "price": 592.12,
-    "change_pct": -0.22,
+    "price": 591.32,
+    "change_pct": -0.35,
     "name": "META",
-    "updated_at": "2026-08-14T12:05:16.513777"
+    "updated_at": "2026-08-14T13:38:19.207183"
   },
   "WTI": {
-    "price": 3.68,
-    "change_pct": 15.72,
+    "price": 3.66,
+    "change_pct": 15.09,
     "name": "WTI",
-    "updated_at": "2026-08-14T12:05:16.513780"
+    "updated_at": "2026-08-14T13:38:19.207186"
   },
   "S&P 500": {
-    "price": 775.84,
-    "change_pct": 4.72,
+    "price": 775.9,
+    "change_pct": 4.73,
     "name": "S&P 500",
-    "updated_at": "2026-08-14T12:05:16.513783"
+    "updated_at": "2026-08-14T13:38:19.207189"
   },
   "AAPL": {
-    "price": 305.36,
-    "change_pct": -10.13,
+    "price": 305.9,
+    "change_pct": -9.97,
     "name": "AAPL",
-    "updated_at": "2026-08-14T12:05:16.513786"
+    "updated_at": "2026-08-14T13:38:19.207192"
   },
   "QQQ": {
-    "price": 729.11,
-    "change_pct": 7.94,
+    "price": 729.3,
+    "change_pct": 7.97,
     "name": "Invesco QQQ Trust",
-    "updated_at": "2026-08-14T12:05:16.513789"
+    "updated_at": "2026-08-14T13:38:19.207195"
   },
   "BTC-USD": {
-    "price": 63073.18,
-    "change_pct": 0.49,
+    "price": 62916.17,
+    "change_pct": 0.24,
     "name": "Bitcoin USD",
-    "updated_at": "2026-08-14T12:05:16.513792"
+    "updated_at": "2026-08-14T13:38:19.207199"
   }
 },
   tickerScores: [
@@ -834,6 +834,29 @@ const dashboardData = {
   archive: {
   "insights": [
     {
+      "id": 419,
+      "title": "Ben Horowitz and Travis Kalanick on Building Again",
+      "source_type": "podcast",
+      "source_name": "The a16z Show",
+      "source_date": "2026-08-14",
+      "summary": "In this episode, Travis Kalanick discusses his new venture in industrial AI, which aims to automate multiple trillion-dollar industries, comparing its impact to the second industrial revolution. Kalanick emphasizes the importance of fighting for the best ideas within a company and notes the evolution of the media landscape towards more direct communication channels. Drawing from his experiences at Uber, he discusses finding a balance between being aggressive and bringing people along for the ride, and how entrepreneurship becomes easier with experience, which can be a double-edged sword.",
+      "key_takeaway": "Invest in industries that are ripe for automation and AI integration, as industrial AI could revolutionize multiple trillion-dollar industries.",
+      "tickers_mentioned": [
+        "AAPL",
+        "MSFT",
+        "AMZN",
+        "GOOGL",
+        "TSLA"
+      ],
+      "sentiment": "bullish",
+      "display_on_main": 1,
+      "display_order": 0,
+      "added_date": "2026-08-14",
+      "archived_date": null,
+      "archived_reason": null,
+      "podcast_episode_id": 404
+    },
+    {
       "id": 416,
       "title": "Rahm Emanuel: Trump's Foreign Policy, China, Europe's Decline, Immigration & DSA vs Democrats",
       "source_type": "podcast",
@@ -961,7 +984,7 @@ const dashboardData = {
         "NVDA"
       ],
       "sentiment": "bearish",
-      "display_on_main": 1,
+      "display_on_main": 0,
       "display_order": 0,
       "added_date": "2026-08-11",
       "archived_date": null,
@@ -8939,20 +8962,20 @@ const dashboardData = {
     {
       "id": 263,
       "term": "Industrial AI",
-      "description": "A full-stack solution that combines software, robotics, sensors, and machinery to automate industries.",
+      "description": "The application of artificial intelligence in industrial processes to automate and optimize operations across major industries.",
       "first_detected_date": "2026-07-22",
-      "last_mentioned_date": "2026-07-23",
-      "mention_count": 2,
+      "last_mentioned_date": "2026-08-14",
+      "mention_count": 3,
       "source_podcasts": null,
       "status": "active",
-      "investment_implications": "Industrial AI represents a significant shift in how industries are automated, offering substantial investment opportunities in physical automation.",
+      "investment_implications": "Investors should consider the potential for disruption and innovation in industries that are ripe for automation and AI integration.",
       "display_on_main": 1,
       "archived_date": null,
       "archived_reason": null,
       "first_detected_episode_id": 362,
       "first_detected_speaker": "Travis Kalanick, Ben Horowitz",
-      "last_mentioned_episode_id": 364,
-      "last_mentioned_speaker": "Travis Kelenick"
+      "last_mentioned_episode_id": 404,
+      "last_mentioned_speaker": "Travis Kalanick"
     },
     {
       "id": 264,
@@ -11053,6 +11076,26 @@ const dashboardData = {
   mainContent: {
   "insights": [
     {
+      "id": 419,
+      "title": "Ben Horowitz and Travis Kalanick on Building Again",
+      "source_type": "podcast",
+      "source_name": "The a16z Show",
+      "source_date": "2026-08-14",
+      "summary": "In this episode, Travis Kalanick discusses his new venture in industrial AI, which aims to automate multiple trillion-dollar industries, comparing its impact to the second industrial revolution. Kalanick emphasizes the importance of fighting for the best ideas within a company and notes the evolution of the media landscape towards more direct communication channels. Drawing from his experiences at Uber, he discusses finding a balance between being aggressive and bringing people along for the ride, and how entrepreneurship becomes easier with experience, which can be a double-edged sword.",
+      "key_takeaway": "Invest in industries that are ripe for automation and AI integration, as industrial AI could revolutionize multiple trillion-dollar industries.",
+      "tickers_mentioned": "[\"AAPL\", \"MSFT\", \"AMZN\", \"GOOGL\", \"TSLA\"]",
+      "sentiment": "bullish",
+      "display_on_main": 1,
+      "display_order": 0,
+      "added_date": "2026-08-14",
+      "archived_date": null,
+      "archived_reason": null,
+      "podcast_episode_id": 404,
+      "episode_release_date": "2026-08-14",
+      "guest_name": "Travis Kalanick",
+      "key_tickers": []
+    },
+    {
       "id": 416,
       "title": "Rahm Emanuel: Trump's Foreign Policy, China, Europe's Decline, Immigration & DSA vs Democrats",
       "source_type": "podcast",
@@ -11155,26 +11198,6 @@ const dashboardData = {
       "key_tickers": [
         "SPY"
       ]
-    },
-    {
-      "id": 411,
-      "title": "Ryan Greenblatt \u2013 Human level AIs might build runaway superintelligences by 2032",
-      "source_type": "podcast",
-      "source_name": "Dwarkesh Podcast",
-      "source_date": "2026-08-11",
-      "summary": "In this episode of the Dwarkesh Podcast, the host interviews Ryan Greenlet, Chief Scientist at Redwood Research, to discuss the concept of recursive self-improvement in AI. They delve into the plausibility of AI quickly advancing to super intelligence levels, the implications for R&D, and the potential risks associated with AI systems that could surpass human expertise. The conversation covers the timeline for AI advancements, the feedback loop in AI R&D, and the societal impacts of fully automating R&D processes.",
-      "key_takeaway": "Investment in AI development and security is crucial to manage the rapid advancements and ensure ethical AI behavior.",
-      "tickers_mentioned": "[\"GOOGL\", \"MSFT\", \"NVDA\"]",
-      "sentiment": "bearish",
-      "display_on_main": 1,
-      "display_order": 0,
-      "added_date": "2026-08-11",
-      "archived_date": null,
-      "archived_reason": null,
-      "podcast_episode_id": 396,
-      "episode_release_date": "2026-08-11",
-      "guest_name": null,
-      "key_tickers": []
     },
     {
       "id": 412,
@@ -11577,6 +11600,32 @@ const dashboardData = {
       "last_mentioned_episode_date": "2026-08-08"
     },
     {
+      "id": 263,
+      "term": "Industrial AI",
+      "description": "The application of artificial intelligence in industrial processes to automate and optimize operations across major industries.",
+      "first_detected_date": "2026-07-22",
+      "last_mentioned_date": "2026-08-14",
+      "mention_count": 3,
+      "source_podcasts": null,
+      "status": "active",
+      "investment_implications": "Investors should consider the potential for disruption and innovation in industries that are ripe for automation and AI integration.",
+      "display_on_main": 1,
+      "archived_date": null,
+      "archived_reason": null,
+      "first_detected_episode_id": 362,
+      "first_detected_speaker": "Travis Kalanick, Ben Horowitz",
+      "last_mentioned_episode_id": 404,
+      "last_mentioned_speaker": "Travis Kalanick",
+      "overton_score": 3.0,
+      "resonance_pct": 75,
+      "first_detected_podcast": "The a16z Show",
+      "first_detected_episode_title": "Travis Kalanick Is Back | Building the Future of Industrial AI",
+      "first_detected_episode_date": "2026-07-22",
+      "last_mentioned_podcast": "The a16z Show",
+      "last_mentioned_episode_title": "Ben Horowitz and Travis Kalanick on Building Again",
+      "last_mentioned_episode_date": "2026-08-14"
+    },
+    {
       "id": 252,
       "term": "AI Commoditization",
       "description": "The process by which AI becomes a standard feature or utility rather than a unique differentiator.",
@@ -11653,32 +11702,6 @@ const dashboardData = {
       "last_mentioned_podcast": "Latent Space: The AI Engineer Podcast",
       "last_mentioned_episode_title": "The Inference Engineering Masterclass \u2014 Philip Kiely & Ali Taha, Baseten",
       "last_mentioned_episode_date": "2026-08-03"
-    },
-    {
-      "id": 256,
-      "term": "Authenticity",
-      "description": "Being genuine and true to oneself in public communications, particularly on social media.",
-      "first_detected_date": "2026-06-19",
-      "last_mentioned_date": "2026-07-17",
-      "mention_count": 4,
-      "source_podcasts": null,
-      "status": "active",
-      "investment_implications": "Authenticity can help build a loyal following and personal brand, which can be beneficial for company valuation and reputation.",
-      "display_on_main": 1,
-      "archived_date": null,
-      "archived_reason": null,
-      "first_detected_episode_id": 301,
-      "first_detected_speaker": null,
-      "last_mentioned_episode_id": 354,
-      "last_mentioned_speaker": "Ramine Hassani",
-      "overton_score": 2.09,
-      "resonance_pct": 52,
-      "first_detected_podcast": "The a16z Show",
-      "first_detected_episode_title": "The New Rules of Media | Marc Andreessen & Ben Horowitz",
-      "first_detected_episode_date": "2026-06-19",
-      "last_mentioned_podcast": "Moonshots with Peter Diamandis",
-      "last_mentioned_episode_title": "Mira Murati's 975B Open Model, Ramin Hasani on Post-Transformer AI, and Demis' AI FINRA | EP #271",
-      "last_mentioned_episode_date": "2026-07-17"
     }
   ]
 },
@@ -36276,6 +36299,76 @@ const dashboardData = {
     "key_tickers": [
       "NVDA"
     ]
+  },
+  "419": {
+    "id": 409,
+    "insight_id": 419,
+    "podcast_episode_id": 404,
+    "overview": "The unresolved tension in Kalanick's venture lies in the balance between aggressive innovation and the practical integration of AI in traditional industries. The competitive dynamic is not just about technology but also about the cultural shift required within these industries to embrace such a revolution. The metric that arbitrates this uncertainty is the rate of adoption and the success of pilot projects in integrating AI, which will indicate the feasibility and scalability of Kalanick's vision.",
+    "key_takeaways_detailed": [
+      "Investors should monitor the regulatory environment closely, as it could significantly impact the pace and scope of industrial AI integration.",
+      "Keep an eye on partnerships and collaborations within the targeted industries, as these could accelerate the adoption of AI and automation.",
+      "Consider the potential for job displacement and the need for reskilling in industries undergoing automation, as this could influence societal acceptance and political support for such technologies.",
+      "Look for signs of cultural resistance or adaptability within the industries, as this will affect the ease and speed of AI integration."
+    ],
+    "investment_thesis": "The core logic of investing in industrial AI is predicated on the assumption that significant technological advancements will lead to increased efficiency and cost savings in major industries. The timeframe for this thesis is within the next decade, with the vindication coming from measurable increases in productivity and cost reductions in targeted industries. Conversely, if these industries show minimal adoption of AI and continued reliance on traditional methods, the thesis would be invalidated.",
+    "ticker_analysis": {
+      "AAPL": {
+        "rationale": "Apple's investment in AI and automation for its supply chain and manufacturing processes makes it relevant to the thesis of industrial AI revolutionizing industries.",
+        "positioning": "Positioning should be strategic and long-term, as Apple's integration of AI could lead to sustained competitive advantages.",
+        "risk": "Key risks include regulatory hurdles that could slow down AI deployment and increased competition from other tech giants in the AI space."
+      },
+      "MSFT": {
+        "rationale": "Microsoft's extensive work in AI and cloud services positions it as a key player in the industrial AI revolution.",
+        "positioning": "A strategic long position is appropriate, given Microsoft's potential to benefit from providing the backbone for AI integration across industries.",
+        "risk": "The risk lies in Microsoft's ability to maintain its competitive edge in a rapidly evolving AI landscape and potential disruptions from new entrants."
+      },
+      "AMZN": {
+        "rationale": "Amazon's use of AI in logistics and its cloud computing services aligns with the industrial AI thesis.",
+        "positioning": "A long-term strategic position in Amazon could be beneficial, as the company is well-positioned to leverage AI in its operations.",
+        "risk": "The risk is that Amazon may face increased regulatory scrutiny, which could impact its ability to operate and innovate freely."
+      },
+      "GOOGL": {
+        "rationale": "Google's deep investments in AI research and applications across various sectors make it a relevant ticker for this thesis.",
+        "positioning": "A long-term strategic investment in Google could be advantageous, given its potential to lead in AI development and deployment.",
+        "risk": "The key risk is the potential for antitrust actions that could limit Google's operations and innovation in the AI space."
+      },
+      "TSLA": {
+        "rationale": "Tesla's use of AI in electric vehicles and its focus on automation in manufacturing processes are directly related to the industrial AI thesis.",
+        "positioning": "A tactical long position in Tesla could be considered, as the company is at the forefront of AI integration in the automotive industry.",
+        "risk": "The risk includes potential disruptions in the supply chain and increased competition from traditional and new automotive manufacturers."
+      }
+    },
+    "positioning_guidance": "",
+    "risk_factors": [],
+    "contrarian_signals": [
+      "The high cost of implementing AI in traditional industries could slow down the pace of adoption.",
+      "There may be a lack of skilled labor to manage and maintain AI systems, which could hinder the transition.",
+      "Cultural resistance within industries to change could lead to slower adoption rates and less significant disruptions than anticipated."
+    ],
+    "catalysts": [
+      "Regulatory approvals for AI deployment in key industries.",
+      "Successful pilot projects that demonstrate significant efficiency gains through AI integration.",
+      "Major partnerships between AI companies and traditional industry giants.",
+      "Technological breakthroughs that lower the cost and increase the accessibility of AI solutions.",
+      "Economic downturns that may accelerate the adoption of cost-saving AI technologies."
+    ],
+    "related_insights": null,
+    "audio_timestamp_start": null,
+    "audio_timestamp_end": null,
+    "transcript_excerpt": null,
+    "created_at": "2026-08-14T13:37:32.839173",
+    "updated_at": "2026-08-14 18:37:32",
+    "episode_evidence": "Travis Kalanick's venture into industrial AI is a significant undertaking, as he aims to automate industries that he equates to the scale of the second industrial revolution. He states, 'It's basically multiple like 100 billion or trillion dollar industries that are going to get automated.' This venture is not just about technological advancement but also about the transformation of economic structures and labor dynamics. Kalanick also emphasizes the importance of internal company dynamics, asserting that 'If you don't fight for the best idea, then what idea are you fighting for? You're fighting for the mediocre idea.' This underscores the necessity of a culture that values and fosters innovation and excellence. Regarding the media landscape, Kalanick observes a shift towards more direct communication, noting that 'the media landscape has changed dramatically,' which he views as beneficial for entrepreneurs who can now communicate more directly with their audiences.",
+    "falsification_tracks": [
+      "If industrial AI adoption rates in targeted industries fall below 10% over the next five years, it would suggest that the anticipated revolution is not materializing as expected.",
+      "Should there be a significant increase in regulatory hurdles that impede the deployment of industrial AI, it could delay or reduce the impact of Kalanick's venture.",
+      "If there is a lack of significant investment or interest from major players in the industries Kalanick is targeting, it could indicate a lower likelihood of success for his venture."
+    ],
+    "insight_title": "Ben Horowitz and Travis Kalanick on Building Again",
+    "source_name": "The a16z Show",
+    "source_date": "2026-08-14",
+    "key_tickers": []
   }
 },
   suggestedTerms: [
@@ -36330,7 +36423,19 @@ const dashboardData = {
 ],
   podcastGuests: [
   {
-    "id": 50301,
+    "id": 50415,
+    "name": "Travis Kalanick",
+    "slug": "travis-kalanick",
+    "bio": null,
+    "known_for": null,
+    "last_main_idea": "Invest in industries that are ripe for automation and AI integration, as industrial AI could revolutionize multiple trillion-dollar industries.",
+    "last_episode_title": "Ben Horowitz and Travis Kalanick on Building Again",
+    "last_podcast_name": "The a16z Show",
+    "last_episode_date": "2026-08-14",
+    "appearance_count": 1
+  },
+  {
+    "id": 50417,
     "name": "Emad Mostaque",
     "slug": "emad-mostaque",
     "bio": null,
@@ -36342,7 +36447,7 @@ const dashboardData = {
     "appearance_count": 2
   },
   {
-    "id": 50300,
+    "id": 50416,
     "name": "Rahm Emanuel",
     "slug": "rahm-emanuel",
     "bio": null,
@@ -36354,7 +36459,7 @@ const dashboardData = {
     "appearance_count": 1
   },
   {
-    "id": 50302,
+    "id": 50418,
     "name": "Milton Berg",
     "slug": "milton-berg",
     "bio": "Milton Berg is a veteran technical analyst and CEO of Milton Berg Advisors, specializing in market turning-point analysis for institutional investors.",
@@ -36366,7 +36471,7 @@ const dashboardData = {
     "appearance_count": 2
   },
   {
-    "id": 50303,
+    "id": 50419,
     "name": "How Kavak Rebuilt Itself Around AI Agents",
     "slug": "how-kavak-rebuilt-itself-around-ai-agents",
     "bio": null,
@@ -36378,7 +36483,7 @@ const dashboardData = {
     "appearance_count": 1
   },
   {
-    "id": 50304,
+    "id": 50420,
     "name": "How Open",
     "slug": "how-open",
     "bio": null,
@@ -36390,7 +36495,7 @@ const dashboardData = {
     "appearance_count": 1
   },
   {
-    "id": 50305,
+    "id": 50421,
     "name": "Saronic Founders",
     "slug": "saronic-founders",
     "bio": null,
@@ -36402,7 +36507,7 @@ const dashboardData = {
     "appearance_count": 1
   },
   {
-    "id": 50306,
+    "id": 50422,
     "name": "OpenAI's Joshua Achiam",
     "slug": "openais-joshua-achiam",
     "bio": null,
@@ -36414,7 +36519,7 @@ const dashboardData = {
     "appearance_count": 1
   },
   {
-    "id": 50307,
+    "id": 50423,
     "name": "Why Macro is \u201cPretty Risk-On\u201d for Equities",
     "slug": "why-macro-is-pretty-risk-on-for-equities",
     "bio": null,
@@ -36426,7 +36531,7 @@ const dashboardData = {
     "appearance_count": 1
   },
   {
-    "id": 50308,
+    "id": 50424,
     "name": "AI for America's Small Businesses",
     "slug": "ai-for-americas-small-businesses",
     "bio": null,
@@ -36438,7 +36543,7 @@ const dashboardData = {
     "appearance_count": 1
   },
   {
-    "id": 50309,
+    "id": 50425,
     "name": "Mum\u2019s The Word",
     "slug": "mums-the-word",
     "bio": null,
@@ -36450,7 +36555,7 @@ const dashboardData = {
     "appearance_count": 1
   },
   {
-    "id": 50310,
+    "id": 50426,
     "name": "Luke Gromen",
     "slug": "luke-gromen",
     "bio": null,
@@ -36462,7 +36567,7 @@ const dashboardData = {
     "appearance_count": 1
   },
   {
-    "id": 50311,
+    "id": 50427,
     "name": "Codex from 0 to 10M Users",
     "slug": "codex-from-0-to-10m-users",
     "bio": null,
@@ -36474,7 +36579,7 @@ const dashboardData = {
     "appearance_count": 1
   },
   {
-    "id": 50312,
+    "id": 50428,
     "name": "Ben Horowitz",
     "slug": "ben-horowitz",
     "bio": "Ben Horowitz is a co-founder of venture firm Andreessen Horowitz and former CEO of Opsware, known for advising founders on leadership under pressure.",
@@ -36486,7 +36591,7 @@ const dashboardData = {
     "appearance_count": 3
   },
   {
-    "id": 50313,
+    "id": 50429,
     "name": "Building the Physical AI Stack",
     "slug": "building-the-physical-ai-stack",
     "bio": null,
@@ -36498,7 +36603,7 @@ const dashboardData = {
     "appearance_count": 1
   },
   {
-    "id": 50314,
+    "id": 50430,
     "name": "Travis Kalanick Is Back",
     "slug": "travis-kalanick-is-back",
     "bio": null,
@@ -36510,7 +36615,7 @@ const dashboardData = {
     "appearance_count": 1
   },
   {
-    "id": 50315,
+    "id": 50431,
     "name": "Why Physical AI Is the Next Frontier",
     "slug": "why-physical-ai-is-the-next-frontier",
     "bio": null,
@@ -36522,7 +36627,7 @@ const dashboardData = {
     "appearance_count": 1
   },
   {
-    "id": 50316,
+    "id": 50432,
     "name": "Nick Nemeth",
     "slug": "nick-nemeth",
     "bio": null,
@@ -36534,7 +36639,7 @@ const dashboardData = {
     "appearance_count": 1
   },
   {
-    "id": 50317,
+    "id": 50433,
     "name": "Mark Cuban on the AI Bubble",
     "slug": "mark-cuban-on-the-ai-bubble",
     "bio": null,
@@ -36546,7 +36651,7 @@ const dashboardData = {
     "appearance_count": 1
   },
   {
-    "id": 50318,
+    "id": 50434,
     "name": "Urgent Update- AI Sputnik Moment",
     "slug": "urgent-update--ai-sputnik-moment",
     "bio": null,
@@ -36555,18 +36660,6 @@ const dashboardData = {
     "last_episode_title": "Urgent Update- AI Sputnik Moment: Kimi K3 Released w/ Emad Mostaque | Ep. 272",
     "last_podcast_name": "Moonshots with Peter Diamandis",
     "last_episode_date": "2026-07-19",
-    "appearance_count": 1
-  },
-  {
-    "id": 50319,
-    "name": "Replay 2025",
-    "slug": "replay-2025",
-    "bio": null,
-    "known_for": null,
-    "last_main_idea": "Investing in AI and crypto requires understanding the interplay between technology and policy, with a focus on regulatory clarity and open-source initiatives for long-term competitiveness.",
-    "last_episode_title": "Replay 2025: David Sacks on AI, Crypto, and America's Technology Future",
-    "last_podcast_name": "The a16z Show",
-    "last_episode_date": "2026-07-16",
     "appearance_count": 1
   }
 ],
@@ -36629,6 +36722,71 @@ const dashboardData = {
         }
       ]
     }
+  },
+  {
+    "id": 74,
+    "name": "Travis Kalanick",
+    "slug": "travis-kalanick",
+    "bio": "Entrepreneur and co-founder of Uber, currently working on a new venture focused on industrial AI.",
+    "known_for": "His role in the founding and growth of Uber, and now his new venture in industrial AI.",
+    "net_worth_usd": 3600000000.0,
+    "net_worth_source": "https://finance.yahoo.com/news/uber-founder-travis-kalanick-becomes-201906670.html",
+    "net_worth_updated_at": "2026-03-19T15:49:00.323498",
+    "voice_tone": "Confident and assertive",
+    "voice_style": "Direct and solution-oriented",
+    "voice_delivery_notes": "Paced with emphasis on key points",
+    "voice_profile_updated_at": "2026-08-14 18:36:52",
+    "last_seen": "2026-08-14 18:36:52",
+    "last_episode_title": "Ben Horowitz and Travis Kalanick on Building Again",
+    "last_podcast_name": "The a16z Show",
+    "last_episode_date": "2026-08-14",
+    "mention_score": 4,
+    "mention_score_decayed": 4,
+    "last_main_idea": "Invest in industries that are ripe for automation and AI integration, as industrial AI could revolutionize multiple trillion-dollar industries.",
+    "last_proof_cite": "The a16z Show \u2022 2026-08-14 \u2022 Ben Horowitz and Travis Kalanick on Building Again",
+    "last_proof_snippet": "Hey Travis is back, but I've actually been working for eight years, I just haven't been talking about it. We're competing for the next industrial revolution. People said, are you pissed off about Uber? Does that grind you when you fall in l",
+    "supporting_takeaway": "Fostering a culture of open debate and pushing for the best ideas can lead to superior outcomes in business.",
+    "grokipedia_url": null,
+    "grokipedia_fetched_at": "2026-07-22T23:37:24.531678",
+    "pundit_profile": {
+      "source": "llm",
+      "source_model": "moonshot:moonshot-v1-8k",
+      "source_url": "",
+      "page_title": "Travis Kalanick",
+      "fetched_at": "2026-07-23T04:37:24.531563+00:00",
+      "cliff_notes": "Travis Kalanick is an American entrepreneur who has made a significant impact on the tech industry with his innovative and disruptive business models. He co-founded Uber, a ride-sharing company that revolutionized urban transportation and challenged traditional taxi services. After leaving Uber, Kalanick founded CloudKitchens, a company that acquires and leases commercial kitchen spaces to food delivery businesses. His aggressive business tactics and relentless focus on growth have earned him both admiration and criticism. Despite facing lawsuits and controversies, Kalanick remains a prominent figure in the tech world, known for his ability to create companies that transform entire sectors.",
+      "derived": {
+        "former_positions": "Co-founder and CEO of Uber; CEO of CloudKitchens",
+        "education": "Bachelor's degree in Computer Engineering from the University of California, Los Angeles (UCLA)"
+      },
+      "infobox": {
+        "Born": "1976",
+        "Nationality": "American"
+      },
+      "lead_paragraphs": [
+        "Travis Kalanick is an American entrepreneur who has made a significant impact on the tech industry with his innovative and disruptive business models. He co-founded Uber, a ride-sharing company that revolutionized urban transportation and challenged traditional taxi services. After leaving Uber, Kalanick founded CloudKitchens, a company that acquires and leases commercial kitchen spaces to food delivery businesses.",
+        "His aggressive business tactics and relentless focus on growth have earned him both admiration and criticism. Despite facing lawsuits and controversies, Kalanick remains a prominent figure in the tech world, known for his ability to create companies that transform entire sectors."
+      ],
+      "sections": [
+        {
+          "heading": "Uber Co-Founder",
+          "body": "Travis Kalanick co-founded Uber in 2009, which went on to become a global ride-sharing giant and disrupt the traditional taxi industry."
+        },
+        {
+          "heading": "CloudKitchens Founder",
+          "body": "Kalanick founded CloudKitchens, a company that provides commercial kitchen spaces for food delivery businesses, aiming to revolutionize the food delivery industry."
+        },
+        {
+          "heading": "Controversies",
+          "body": "Throughout his career, Kalanick has faced various controversies and lawsuits, including those related to Uber's aggressive business tactics and workplace culture."
+        },
+        {
+          "heading": "Innovation and Disruption",
+          "body": "Kalanick is known for his ability to create innovative business models that disrupt traditional industries, as evidenced by Uber and CloudKitchens."
+        }
+      ]
+    },
+    "net_worth": "$3.60B"
   },
   {
     "id": 96,
@@ -36713,7 +36871,7 @@ const dashboardData = {
     "last_podcast_name": "The a16z Show",
     "last_episode_date": "2026-08-01",
     "mention_score": 3,
-    "mention_score_decayed": 2.27,
+    "mention_score_decayed": 2.22,
     "last_main_idea": "Regulatory clarity through acts like the Clarity Act is essential for the next phase of blockchain adoption and could unlock significant investment opportunities in stablecoins and tokenized assets.",
     "last_proof_cite": "The a16z Show \u2022 2026-08-01 \u2022 Marc Andreessen and Chris Dixon: What\u2019s at Stake in Crypto Regulation",
     "last_proof_snippet": "Stable coins are tokenized stocks or dollars on blockchain. Rivals the size of the Visa network. Trillings the dollar is transacted. If you have a dollar of that stable coin, there is a dollar sitting in the bank. And that's why the Clarity",
@@ -36755,71 +36913,6 @@ const dashboardData = {
       ]
     },
     "net_worth": "$500.0M"
-  },
-  {
-    "id": 74,
-    "name": "Travis Kalanick",
-    "slug": "travis-kalanick",
-    "bio": "Travis Kalanick is an American entrepreneur known for co-founding Uber and founding CloudKitchens. He is recognized for his ability to build transformative companies that reshape entire industries.",
-    "known_for": "Building transformative companies that reshape entire industries.",
-    "net_worth_usd": 3600000000.0,
-    "net_worth_source": "https://finance.yahoo.com/news/uber-founder-travis-kalanick-becomes-201906670.html",
-    "net_worth_updated_at": "2026-03-19T15:49:00.323498",
-    "voice_tone": "Confident and reflective.",
-    "voice_style": "Direct and focused on the big picture.",
-    "voice_delivery_notes": "Paced with emphasis on key points.",
-    "voice_profile_updated_at": "2026-07-23 04:37:06",
-    "last_seen": "2026-07-23 04:37:06",
-    "last_episode_title": "Travis Kalanick Is Back | Building the Future of Industrial AI",
-    "last_podcast_name": "The a16z Show",
-    "last_episode_date": "2026-07-22",
-    "mention_score": 3,
-    "mention_score_decayed": 1.8,
-    "last_main_idea": "The next great technology revolution will be in the physical world, with industrial AI, robotics, and autonomy driving transformative change across industries.",
-    "last_proof_cite": "The a16z Show \u2022 2026-07-22 \u2022 Travis Kalanick Is Back | Building the Future of Industrial AI",
-    "last_proof_snippet": "We know what Boobers 2017 was like. Travis Kalana, because Snapchat's dying from his role as chief executive. That wouldn't have gone that way if Ben or Mark was on the board. You're in this hell, you're dealing with lawsuits. I worry about",
-    "supporting_takeaway": "Kalanick believes the next great technology revolution will be in the physical world, not just software.",
-    "grokipedia_url": null,
-    "grokipedia_fetched_at": "2026-07-22T23:37:24.531678",
-    "pundit_profile": {
-      "source": "llm",
-      "source_model": "moonshot:moonshot-v1-8k",
-      "source_url": "",
-      "page_title": "Travis Kalanick",
-      "fetched_at": "2026-07-23T04:37:24.531563+00:00",
-      "cliff_notes": "Travis Kalanick is an American entrepreneur who has made a significant impact on the tech industry with his innovative and disruptive business models. He co-founded Uber, a ride-sharing company that revolutionized urban transportation and challenged traditional taxi services. After leaving Uber, Kalanick founded CloudKitchens, a company that acquires and leases commercial kitchen spaces to food delivery businesses. His aggressive business tactics and relentless focus on growth have earned him both admiration and criticism. Despite facing lawsuits and controversies, Kalanick remains a prominent figure in the tech world, known for his ability to create companies that transform entire sectors.",
-      "derived": {
-        "former_positions": "Co-founder and CEO of Uber; CEO of CloudKitchens",
-        "education": "Bachelor's degree in Computer Engineering from the University of California, Los Angeles (UCLA)"
-      },
-      "infobox": {
-        "Born": "1976",
-        "Nationality": "American"
-      },
-      "lead_paragraphs": [
-        "Travis Kalanick is an American entrepreneur who has made a significant impact on the tech industry with his innovative and disruptive business models. He co-founded Uber, a ride-sharing company that revolutionized urban transportation and challenged traditional taxi services. After leaving Uber, Kalanick founded CloudKitchens, a company that acquires and leases commercial kitchen spaces to food delivery businesses.",
-        "His aggressive business tactics and relentless focus on growth have earned him both admiration and criticism. Despite facing lawsuits and controversies, Kalanick remains a prominent figure in the tech world, known for his ability to create companies that transform entire sectors."
-      ],
-      "sections": [
-        {
-          "heading": "Uber Co-Founder",
-          "body": "Travis Kalanick co-founded Uber in 2009, which went on to become a global ride-sharing giant and disrupt the traditional taxi industry."
-        },
-        {
-          "heading": "CloudKitchens Founder",
-          "body": "Kalanick founded CloudKitchens, a company that provides commercial kitchen spaces for food delivery businesses, aiming to revolutionize the food delivery industry."
-        },
-        {
-          "heading": "Controversies",
-          "body": "Throughout his career, Kalanick has faced various controversies and lawsuits, including those related to Uber's aggressive business tactics and workplace culture."
-        },
-        {
-          "heading": "Innovation and Disruption",
-          "body": "Kalanick is known for his ability to create innovative business models that disrupt traditional industries, as evidenced by Uber and CloudKitchens."
-        }
-      ]
-    },
-    "net_worth": "$3.60B"
   },
   {
     "id": 54,
@@ -36967,7 +37060,7 @@ const dashboardData = {
     "last_podcast_name": "The a16z Show",
     "last_episode_date": "2026-08-13",
     "mention_score": 2,
-    "mention_score_decayed": 2,
+    "mention_score_decayed": 1.95,
     "last_main_idea": "The choice between the lighthouse and land grab strategies can significantly impact the success of an enterprise AI startup, as each approach has its own set of advantages and challenges that must be carefully considered in the context of the company's specific circumstances.",
     "last_proof_cite": "The a16z Show \u2022 2026-08-13 \u2022 The Two Ways to Sell AI: Lighthouse or Landgrab?",
     "last_proof_snippet": "There's a moment right now to go sell big software again. We're now looking at a different way of doing business entirely. What are the lighthouse and land grab sales playbook? Here's the framework for evaluating which playbook should you b",
@@ -37393,7 +37486,7 @@ const dashboardData = {
     "last_podcast_name": "Macro Voices",
     "last_episode_date": "2026-06-04",
     "mention_score": 2,
-    "mention_score_decayed": 0.4,
+    "mention_score_decayed": 0.39,
     "last_main_idea": "Invest in sectors that are likely to benefit from a shift towards economic statecraft and prepare for market volatility due to geopolitical tensions.",
     "last_proof_cite": "Macro Voices \u2022 2026-06-04 \u2022 MacroVoices #535 Michael Every: NAFTA and NAPTHA \u2013 Warcraft & Fartcraft",
     "last_proof_snippet": "This is Macrovoisers, the Free Weekly Financial Podcast, targeting professional finance, high-net worth individuals, family offices, and other sophisticated investors. Macrovoisers is all about the brightest minds in the world of finance an",
@@ -38255,7 +38348,7 @@ const dashboardData = {
     "last_podcast_name": "The a16z Show",
     "last_episode_date": "2026-08-13",
     "mention_score": 1,
-    "mention_score_decayed": 1,
+    "mention_score_decayed": 0.98,
     "last_main_idea": "The choice between the lighthouse and land grab strategies can significantly impact the success of an enterprise AI startup, as each approach has its own set of advantages and challenges that must be carefully considered in the context of the company's specific circumstances.",
     "last_proof_cite": "The a16z Show \u2022 2026-08-13 \u2022 The Two Ways to Sell AI: Lighthouse or Landgrab?",
     "last_proof_snippet": "There's a moment right now to go sell big software again. We're now looking at a different way of doing business entirely. What are the lighthouse and land grab sales playbook? Here's the framework for evaluating which playbook should you b",
@@ -39117,7 +39210,7 @@ const dashboardData = {
     "last_podcast_name": "The a16z Show",
     "last_episode_date": "2026-08-06",
     "mention_score": 1,
-    "mention_score_decayed": 0.85,
+    "mention_score_decayed": 0.83,
     "last_main_idea": "Investing in open source AI infrastructure and models is crucial for enterprises looking to leverage AI capabilities, as it offers a sustainable and collaborative approach to innovation in the field.",
     "last_proof_cite": "The a16z Show \u2022 2026-08-06 \u2022 How Open-Source AI Became Critical Infrastructure",
     "last_proof_snippet": "The fun thought experiment is if GPUs dropped in price by 99% then do we get back to it a real open source world if moderation is never solved in the future people will go to openly by default because that is where you know for sure you can",
@@ -39613,7 +39706,7 @@ const dashboardData = {
     "last_podcast_name": "Monetary Matters with Jack Farley",
     "last_episode_date": "2026-08-04",
     "mention_score": 1,
-    "mention_score_decayed": 0.81,
+    "mention_score_decayed": 0.79,
     "last_main_idea": "The S&P 500's performance over the next two years will be largely determined by the behavior of extrapolators and corporate equity activity, rather than fundamental earnings growth.",
     "last_proof_cite": "Monetary Matters with Jack Farley \u2022 2026-08-04 \u2022 Victor Haghani on Death of Random Walk, and Passive, Buybacks, and LTCM",
     "last_proof_snippet": "So I feel like we can talk about LTCM. We can talk about, I mean, let's not do that. That's so boring. I mean, everybody's sick of LTCM. Yeah. What do you think the real lessons are? You know, I think the biggest lessons are about personal",
@@ -39805,7 +39898,7 @@ const dashboardData = {
     "last_podcast_name": "The a16z Show",
     "last_episode_date": "2026-08-01",
     "mention_score": 1,
-    "mention_score_decayed": 0.76,
+    "mention_score_decayed": 0.74,
     "last_main_idea": "Regulatory clarity through acts like the Clarity Act is essential for the next phase of blockchain adoption and could unlock significant investment opportunities in stablecoins and tokenized assets.",
     "last_proof_cite": "The a16z Show \u2022 2026-08-01 \u2022 Marc Andreessen and Chris Dixon: What\u2019s at Stake in Crypto Regulation",
     "last_proof_snippet": "Stable coins are tokenized stocks or dollars on blockchain. Rivals the size of the Visa network. Trillings the dollar is transacted. If you have a dollar of that stable coin, there is a dollar sitting in the bank. And that's why the Clarity",
@@ -40345,7 +40438,7 @@ const dashboardData = {
     "last_podcast_name": "Monetary Matters with Jack Farley",
     "last_episode_date": "2026-07-26",
     "mention_score": 1,
-    "mention_score_decayed": 0.66,
+    "mention_score_decayed": 0.64,
     "last_main_idea": "Contrary to popular belief, private credit and corporate debt are sustainable, and the real risk lies in government debt levels, which could lead to increased market volatility if not addressed.",
     "last_proof_cite": "Monetary Matters with Jack Farley \u2022 2026-07-26 \u2022 Debt Service Coverage in Private Markets Is Improving, Actually | Nicholas Brooks",
     "last_proof_snippet": "Over the past year, there's been some very bad press on private credit, including on this channel where recent guest Nick Nemitz said that he thinks it's almost inevitable that the next financial crisis will be caused by private credit. Tod",
@@ -40528,7 +40621,7 @@ const dashboardData = {
     "last_podcast_name": "The a16z Show",
     "last_episode_date": "2026-07-24",
     "mention_score": 1,
-    "mention_score_decayed": 0.63,
+    "mention_score_decayed": 0.62,
     "last_main_idea": "Investors should consider the impact of open-source AI models on frontier labs and monitor the security and competitive landscape of AI, as well as potential opportunities in related sectors like cloud computing and data centers.",
     "last_proof_cite": "The a16z Show \u2022 2026-07-24 \u2022 Sriram Krishnan on Open Source AI's Biggest Week Yet",
     "last_proof_snippet": "You can bring it back to very business first principles. If you're providing a product of value, Capitalism will find a way to make the supply chain work for you. So if you have an open-made model that is providing value, that means that ev",
@@ -40784,7 +40877,7 @@ const dashboardData = {
     "last_podcast_name": "The a16z Show",
     "last_episode_date": "2026-07-21",
     "mention_score": 1,
-    "mention_score_decayed": 0.59,
+    "mention_score_decayed": 0.57,
     "last_main_idea": "Investing in physical AI and autonomous systems could lead to significant returns as these technologies transform the physical economy and unlock new productivity gains.",
     "last_proof_cite": "The a16z Show \u2022 2026-07-21 \u2022 Why Physical AI Is the Next Frontier | Applied Intuition",
     "last_proof_snippet": "Our mission is to put intelligence on a billion machines, and that we think that can have a profound impact on society. Applied intuition is a physical attack company. We put intelligence on machines. Cars, trucks, tanks, drones. It's a phy",
@@ -40912,7 +41005,7 @@ const dashboardData = {
     "last_podcast_name": "Monetary Matters with Jack Farley",
     "last_episode_date": "2026-07-20",
     "mention_score": 1,
-    "mention_score_decayed": 0.57,
+    "mention_score_decayed": 0.56,
     "last_main_idea": "The private credit industry is overleveraged and poses a significant systemic risk, with potential for a massive financial blow-up that could be triggered by the insurance industry's massive balance sheets.",
     "last_proof_cite": "Monetary Matters with Jack Farley \u2022 2026-07-20 \u2022 Nick Nemeth: Private Credit Will Blow-up Insurance System | Immense Leverage, Shaky Loans, and Retirement System That Actually Does Have Run Risk (via Surrenders)",
     "last_proof_snippet": "Today's episode is brought to you by the two-cream corn fund ticker C-O-R-N. Let's get into it. Join today by Nick Nemeth Financial Investor Researcher and author at Miss Price Assets. Nick, welcome to monetary matters. Thanks, Jack. It's g",
@@ -40976,7 +41069,7 @@ const dashboardData = {
     "last_podcast_name": "Moonshots with Peter Diamandis",
     "last_episode_date": "2026-07-19",
     "mention_score": 1,
-    "mention_score_decayed": 0.56,
+    "mention_score_decayed": 0.55,
     "last_main_idea": "Investment in AI technology is crucial as it becomes a key differentiator in global competitiveness, with a focus on companies advancing AI models and quantization.",
     "last_proof_cite": "Moonshots with Peter Diamandis \u2022 2026-07-19 \u2022 Urgent Update- AI Sputnik Moment: Kimi K3 Released w/ Emad Mostaque | Ep. 272",
     "last_proof_snippet": "Today we put out the bat signal, and called for an emergency pod because America just experienced an AI-splitnik moment. Kimmy K3 released yesterday shocking the AI world with the largest op-weight model ever, and it went straight to number",
@@ -41037,7 +41130,7 @@ const dashboardData = {
     "last_podcast_name": "Moonshots with Peter Diamandis",
     "last_episode_date": "2026-07-19",
     "mention_score": 1,
-    "mention_score_decayed": 0.56,
+    "mention_score_decayed": 0.55,
     "last_main_idea": "Investment in AI technology is crucial as it becomes a key differentiator in global competitiveness, with a focus on companies advancing AI models and quantization.",
     "last_proof_cite": "Moonshots with Peter Diamandis \u2022 2026-07-19 \u2022 Urgent Update- AI Sputnik Moment: Kimi K3 Released w/ Emad Mostaque | Ep. 272",
     "last_proof_snippet": "Today we put out the bat signal, and called for an emergency pod because America just experienced an AI-splitnik moment. Kimmy K3 released yesterday shocking the AI world with the largest op-weight model ever, and it went straight to number",
@@ -41097,7 +41190,7 @@ const dashboardData = {
     "last_podcast_name": "Moonshots with Peter Diamandis",
     "last_episode_date": "2026-07-19",
     "mention_score": 1,
-    "mention_score_decayed": 0.56,
+    "mention_score_decayed": 0.55,
     "last_main_idea": "Investment in AI technology is crucial as it becomes a key differentiator in global competitiveness, with a focus on companies advancing AI models and quantization.",
     "last_proof_cite": "Moonshots with Peter Diamandis \u2022 2026-07-19 \u2022 Urgent Update- AI Sputnik Moment: Kimi K3 Released w/ Emad Mostaque | Ep. 272",
     "last_proof_snippet": "Today we put out the bat signal, and called for an emergency pod because America just experienced an AI-splitnik moment. Kimmy K3 released yesterday shocking the AI world with the largest op-weight model ever, and it went straight to number",
@@ -41222,7 +41315,7 @@ const dashboardData = {
     "last_podcast_name": "Latent Space: The AI Engineer Podcast",
     "last_episode_date": "2026-07-16",
     "mention_score": 1,
-    "mention_score_decayed": 0.52,
+    "mention_score_decayed": 0.51,
     "last_main_idea": "Investing in AI-driven platforms in healthcare and life sciences can lead to significant efficiency gains and cost reductions in drug discovery and materials science.",
     "last_proof_cite": "Latent Space: The AI Engineer Podcast \u2022 2026-07-16 \u2022 \ud83d\udd2c The Lab of the Future Should Feel Like a Data Center \u2014 Andy Beam & Rafa G\u00f3mez-Bombarelli, Lila Sciences",
     "last_proof_snippet": "But not just tech bio, what do you do in terms of science? We are all in on the bitter lesson and scale. We think that methods that scale and that are general retows that are not. As Ely has said, it's last year, we have but one internet, i",
@@ -41282,7 +41375,7 @@ const dashboardData = {
     "last_podcast_name": "Latent Space: The AI Engineer Podcast",
     "last_episode_date": "2026-07-16",
     "mention_score": 1,
-    "mention_score_decayed": 0.52,
+    "mention_score_decayed": 0.51,
     "last_main_idea": "Investing in AI-driven platforms in healthcare and life sciences can lead to significant efficiency gains and cost reductions in drug discovery and materials science.",
     "last_proof_cite": "Latent Space: The AI Engineer Podcast \u2022 2026-07-16 \u2022 \ud83d\udd2c The Lab of the Future Should Feel Like a Data Center \u2014 Andy Beam & Rafa G\u00f3mez-Bombarelli, Lila Sciences",
     "last_proof_snippet": "But not just tech bio, what do you do in terms of science? We are all in on the bitter lesson and scale. We think that methods that scale and that are general retows that are not. As Ely has said, it's last year, we have but one internet, i",
@@ -41346,7 +41439,7 @@ const dashboardData = {
     "last_podcast_name": "Monetary Matters with Jack Farley",
     "last_episode_date": "2026-07-16",
     "mention_score": 1,
-    "mention_score_decayed": 0.52,
+    "mention_score_decayed": 0.51,
     "last_main_idea": "Takahay Capital's investment thesis revolves around trend following and quantitative diversification, aiming to capitalize on major market trends while maintaining a diverse portfolio to mitigate risk.",
     "last_proof_cite": "Monetary Matters with Jack Farley \u2022 2026-07-16 \u2022 Turbo Charged Trend Following: Why Capturing the Market\u2019s Biggest Trends Means Embracing High Volatility | Moritz Seibert & Moritz Heiden | Takahe Capital",
     "last_proof_snippet": "single market trend has a very good year and that is right because you've seen these major trends and like equities and gold sovereign markets that we've mentioned it deserves to be large it deserves to be moving the needle it deserves a la",
@@ -41406,7 +41499,7 @@ const dashboardData = {
     "last_podcast_name": "Monetary Matters with Jack Farley",
     "last_episode_date": "2026-07-16",
     "mention_score": 1,
-    "mention_score_decayed": 0.52,
+    "mention_score_decayed": 0.51,
     "last_main_idea": "Takahay Capital's investment thesis revolves around trend following and quantitative diversification, aiming to capitalize on major market trends while maintaining a diverse portfolio to mitigate risk.",
     "last_proof_cite": "Monetary Matters with Jack Farley \u2022 2026-07-16 \u2022 Turbo Charged Trend Following: Why Capturing the Market\u2019s Biggest Trends Means Embracing High Volatility | Moritz Seibert & Moritz Heiden | Takahe Capital",
     "last_proof_snippet": "single market trend has a very good year and that is right because you've seen these major trends and like equities and gold sovereign markets that we've mentioned it deserves to be large it deserves to be moving the needle it deserves a la",
@@ -41531,7 +41624,7 @@ const dashboardData = {
     "last_podcast_name": "The a16z Show",
     "last_episode_date": "2026-07-15",
     "mention_score": 1,
-    "mention_score_decayed": 0.51,
+    "mention_score_decayed": 0.5,
     "last_main_idea": "Investing in AI hardware requires a focus on infrastructure and the ability to scale efficiently, as the AI race is not just about models but also the underlying technology that supports them.",
     "last_proof_cite": "The a16z Show \u2022 2026-07-15 \u2022 Can Anyone Catch NVIDIA? | The Future of Chips and Infrastructure",
     "last_proof_snippet": "In videos that are going to have better networking than you, they're going to have better HP, they're going to have better process-node, they're going to come to market faster, they're going to be able to ramp faster, they're going to have",
@@ -41733,7 +41826,7 @@ const dashboardData = {
     "last_podcast_name": "Dwarkesh Podcast",
     "last_episode_date": "2026-07-10",
     "mention_score": 1,
-    "mention_score_decayed": 0.46,
+    "mention_score_decayed": 0.45,
     "last_main_idea": "While this episode does not present a direct investment thesis, it provides foundational knowledge about the principles of physics that could influence investment decisions in technology and space sectors.",
     "last_proof_cite": "Dwarkesh Podcast \u2022 2026-07-10 \u2022 Adam Brown \u2013 Einstein's happiest thought: General Relativity from scratch",
     "last_proof_snippet": "I'm back with Adam Brown. You currently need blue shift at Google DeepMine, which is cracking science and reasoning. In a previous life, Adam was a prolific physicist taught at Stanford and did research and everything from cosmology to stri",
@@ -41995,7 +42088,7 @@ const dashboardData = {
     "last_podcast_name": "The a16z Show",
     "last_episode_date": "2026-07-07",
     "mention_score": 1,
-    "mention_score_decayed": 0.43,
+    "mention_score_decayed": 0.42,
     "last_main_idea": "Invest in companies that are innovating in headless software architectures and facilitating communication between different business functions within organizations.",
     "last_proof_cite": "The a16z Show \u2022 2026-07-07 \u2022 Is Software Losing Its Head?",
     "last_proof_snippet": "There are many things that made software sticky but a lot of it had to do with the fact that it was built around like the way a human interacts. In an agenda world, do you actually need that? The data, the logic, I mean store below it is re",
@@ -42054,7 +42147,7 @@ const dashboardData = {
     "last_podcast_name": "The a16z Show",
     "last_episode_date": "2026-07-07",
     "mention_score": 1,
-    "mention_score_decayed": 0.43,
+    "mention_score_decayed": 0.42,
     "last_main_idea": "Invest in companies that are innovating in headless software architectures and facilitating communication between different business functions within organizations.",
     "last_proof_cite": "The a16z Show \u2022 2026-07-07 \u2022 Is Software Losing Its Head?",
     "last_proof_snippet": "There are many things that made software sticky but a lot of it had to do with the fact that it was built around like the way a human interacts. In an agenda world, do you actually need that? The data, the logic, I mean store below it is re",
@@ -42924,7 +43017,7 @@ const dashboardData = {
     "last_podcast_name": "The a16z Show",
     "last_episode_date": "2026-06-23",
     "mention_score": 1,
-    "mention_score_decayed": 0.31,
+    "mention_score_decayed": 0.3,
     "last_main_idea": "Invest in startups leveraging AI to enhance personal experiences, focusing on user retention and creator partnerships for organic growth.",
     "last_proof_cite": "The a16z Show \u2022 2026-06-23 \u2022 What\u2019s Next for Consumer AI? | Josh Elman Joins a16z",
     "last_proof_snippet": "Right now AI has been so much about productivity, job replacement, work replacement and I think we have a moment to shift that, which is how does these new tools help you get more out of your own day and your own life and the things you wan",
@@ -43601,7 +43694,7 @@ const dashboardData = {
     "last_podcast_name": "The a16z Show",
     "last_episode_date": "2026-06-17",
     "mention_score": 1,
-    "mention_score_decayed": 0.27,
+    "mention_score_decayed": 0.26,
     "last_main_idea": "Invest in fintech companies with strong technological foundations and AI integration, particularly those with a contrarian market entry strategy and a focus on operational efficiency and customer experience.",
     "last_proof_cite": "The a16z Show \u2022 2026-06-17 \u2022 The Fintech Playbook for Latin America",
     "last_proof_snippet": "Don't let your ambition fall prey of commercial wisdom. If you're a consensus play, there's just no alpha. We serve over 3 million consumers, or 50,000 merchant partners, we have incredible cost to serve economics. Over 200 A-engine product",
@@ -43791,7 +43884,7 @@ const dashboardData = {
     "last_podcast_name": "The a16z Show",
     "last_episode_date": "2026-06-15",
     "mention_score": 1,
-    "mention_score_decayed": 0.26,
+    "mention_score_decayed": 0.25,
     "last_main_idea": "Investors should consider Ideogram's potential to capture market share by offering customizable AI solutions for design and marketing applications.",
     "last_proof_cite": "The a16z Show \u2022 2026-06-15 \u2022 AI, Design, and the Power of Open Models",
     "last_proof_snippet": "It's not about how good a model is in the general sense. It's about how good is this model for my use case, for a lot of design and marketing use case says they need editable design, not a single flat image. It's super impressive, honestly,",
@@ -44170,7 +44263,7 @@ const dashboardData = {
     "last_podcast_name": "The a16z Show",
     "last_episode_date": "2026-06-10",
     "mention_score": 1,
-    "mention_score_decayed": 0.23,
+    "mention_score_decayed": 0.22,
     "last_main_idea": "Invest in healthcare companies that actively integrate AI to streamline operations and improve patient experiences, as well as organizations that foster a culture of AI experimentation and collaboration.",
     "last_proof_cite": "The a16z Show \u2022 2026-06-10 \u2022 AI, Growth, and the Future of Healthcare | Anish Acharya & Sachin Jain",
     "last_proof_snippet": "The way that we make sure this technology benefits all of society is we make important things cheap. And the most important thing is healthcare. This is one of the most beautiful humanistic technologies we've ever invented. We've spent 40 y",
@@ -44515,7 +44608,7 @@ const dashboardData = {
     "last_podcast_name": "The a16z Show",
     "last_episode_date": "2026-06-06",
     "mention_score": 1,
-    "mention_score_decayed": 0.21,
+    "mention_score_decayed": 0.2,
     "last_main_idea": "Invest in companies that are innovating in AI-driven search technologies, as they are likely to capture a growing market segment and reshape the search landscape.",
     "last_proof_cite": "The a16z Show \u2022 2026-06-06 \u2022 Building Search for AI Agents with Exa CEO Will Bryk",
     "last_proof_snippet": "Search is the gateway to the world of information if you can make it perfect. Then that has so many downstream positive implications for the world. You can kind of think of Google as being synonymous with search, right? It's one of the grea",
@@ -45141,7 +45234,7 @@ const dashboardData = {
     "last_podcast_name": "Monetary Matters with Jack Farley",
     "last_episode_date": "2026-05-25",
     "mention_score": 1,
-    "mention_score_decayed": 0.16,
+    "mention_score_decayed": 0.15,
     "last_main_idea": "Invest in companies with strong supply chains and pricing power, particularly in consumer goods, to benefit in an inflationary environment, and consider reallocating investments towards India and away from weaker emerging markets.",
     "last_proof_cite": "Monetary Matters with Jack Farley \u2022 2026-05-25 \u2022 Things Are Going to Get Even Crazier: The Macro Regime Shift | Andreas Steno Larsen",
     "last_proof_snippet": "I think the semiconductor cycle will roll over to what's the end of the year early next year. But I think we have the euphoric part of the head of us before we get to that part. Having said that at Wave of IPOs is always a late cycle signal",
@@ -45455,7 +45548,7 @@ const dashboardData = {
     "last_podcast_name": "The a16z Show",
     "last_episode_date": "2026-05-19",
     "mention_score": 1,
-    "mention_score_decayed": 0.14,
+    "mention_score_decayed": 0.13,
     "last_main_idea": "The core investment opportunity lies in companies that enhance production capabilities and efficiency in the defense sector, leveraging modern manufacturing techniques and integrating commercial markets.",
     "last_proof_cite": "The a16z Show \u2022 2026-05-19 \u2022 Rebuilding The American Shipyard",
     "last_proof_snippet": "There's a real generational opportunity to build what this country needs for the next hundred years and we need more founders, we need more builders and we need more folks in government pushing for change. It's really frustrating, how much",
@@ -45518,7 +45611,7 @@ const dashboardData = {
     "last_podcast_name": "The a16z Show",
     "last_episode_date": "2026-05-19",
     "mention_score": 1,
-    "mention_score_decayed": 0.14,
+    "mention_score_decayed": 0.13,
     "last_main_idea": "The core investment opportunity lies in companies that enhance production capabilities and efficiency in the defense sector, leveraging modern manufacturing techniques and integrating commercial markets.",
     "last_proof_cite": "The a16z Show \u2022 2026-05-19 \u2022 Rebuilding The American Shipyard",
     "last_proof_snippet": "There's a real generational opportunity to build what this country needs for the next hundred years and we need more founders, we need more builders and we need more folks in government pushing for change. It's really frustrating, how much",

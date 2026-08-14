@@ -1,5 +1,21 @@
 [
   {
+    "id": 404,
+    "podcast_name": "The a16z Show",
+    "episode_title": "Ben Horowitz and Travis Kalanick on Building Again",
+    "episode_date": "2026-08-14",
+    "summary": "In this episode, Travis Kalanick discusses his new venture in industrial AI, which aims to automate multiple trillion-dollar industries, comparing its impact to the second industrial revolution. Kalanick emphasizes the importance of fighting for the best ideas within a company and notes the evolution of the media landscape towards more direct communication channels. Drawing from his experiences at Uber, he discusses finding a balance between being aggressive and bringing people along for the ride, and how entrepreneurship becomes easier with experience, which can be a double-edged sword.",
+    "key_takeaways": [
+      "Industrial AI has the potential to revolutionize major industries, akin to the second industrial revolution.",
+      "Fostering a culture of open debate and pushing for the best ideas can lead to superior outcomes in business.",
+      "The shift from traditional media to direct communication channels is a positive development for entrepreneurs.",
+      "Entrepreneurs should maintain a balance between being aggressive and bringing people along for the ride to avoid extremes.",
+      "With experience, entrepreneurship becomes easier and faster, requiring entrepreneurs to push harder when things get easy."
+    ],
+    "investment_thesis": "Invest in industries that are ripe for automation and AI integration, as industrial AI could revolutionize multiple trillion-dollar industries.",
+    "key_tickers": null
+  },
+  {
     "id": 403,
     "podcast_name": "Moonshots with Peter Diamandis",
     "episode_title": "Bernie Demands the Labs Stop, Wall Street Turns GPUs Into Bonds, Grok 4.7 Takes #1 with Emad Mostaque | EP #279",
@@ -116,22 +132,6 @@
       "The field of protein design and AI in drug discovery is interdisciplinary, attracting talent from various backgrounds including software engineering and robotics."
     ],
     "investment_thesis": "Investing in AI-driven protein design companies like Try Discovery could offer significant returns as these platforms have the potential to disrupt traditional drug discovery, making it more efficient and cost-effective.",
-    "key_tickers": null
-  },
-  {
-    "id": 396,
-    "podcast_name": "Dwarkesh Podcast",
-    "episode_title": "Ryan Greenblatt \u2013 Human level AIs might build runaway superintelligences by 2032",
-    "episode_date": "2026-08-11",
-    "summary": "In this episode of the Dwarkesh Podcast, the host interviews Ryan Greenlet, Chief Scientist at Redwood Research, to discuss the concept of recursive self-improvement in AI. They delve into the plausibility of AI quickly advancing to super intelligence levels, the implications for R&D, and the potential risks associated with AI systems that could surpass human expertise. The conversation covers the timeline for AI advancements, the feedback loop in AI R&D, and the societal impacts of fully automating R&D processes.",
-    "key_takeaways": [
-      "AI's are particularly adept at R&D tasks due to their iterative and verifiable nature.",
-      "The automation of AI R&D could lead to significant progress, potentially condensing years of advancement into a single year.",
-      "The outcome of such rapid AI progress could be AI systems that outperform humans in any given task.",
-      "There is skepticism about the timeline for AI advancements, with some expecting full automation of R&D around 2030-2031.",
-      "Ethical considerations and the potential for misuse of AI systems are significant concerns as AI capabilities increase."
-    ],
-    "investment_thesis": "Investment in AI development and security is crucial to manage the rapid advancements and ensure ethical AI behavior.",
     "key_tickers": null
   }
 ]
