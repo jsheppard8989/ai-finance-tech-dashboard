@@ -1,5 +1,24 @@
 [
   {
+    "id": 403,
+    "podcast_name": "Moonshots with Peter Diamandis",
+    "episode_title": "Bernie Demands the Labs Stop, Wall Street Turns GPUs Into Bonds, Grok 4.7 Takes #1 with Emad Mostaque | EP #279",
+    "episode_date": "2026-08-13",
+    "summary": "In this episode, Peter Diamandis and his guests discuss a range of topics from AI development to the future of investment in exponential technologies. They touch on Bernie Sanders' letter to AI CEOs, the implications of AI creating new viruses, and the potential for AI to redefine financial assets. The conversation also covers the acceleration of singularities and the compression of the distance between the impossible and the inevitable. Key investment insights include the impact of AI on longevity, infrastructure, synthetic biology, and urban air mobility.",
+    "key_takeaways": [
+      "AI development has reached a critical threshold, prompting concerns about safety and control.",
+      "Nvidia's partnership redefines GPU compute as a financial asset, signaling a shift in the market.",
+      "Elon Musk's Grock 4.6 AI is expected to revolutionize SpaceX physics and engineering knowledge.",
+      "Investment in longevity technologies aims to add 20 healthy years to human life.",
+      "Exponential technologies do not provide predictable depreciation, challenging traditional financial asset models.",
+      "AI safety confrontations are becoming more serious, with potential implications for regulation and development."
+    ],
+    "investment_thesis": "Invest in AI and exponential technologies that are redefining industries and creating new opportunities for growth and innovation.",
+    "key_tickers": [
+      "NVDA"
+    ]
+  },
+  {
     "id": 402,
     "podcast_name": "The a16z Show",
     "episode_title": "The Two Ways to Sell AI: Lighthouse or Landgrab?",
@@ -113,23 +132,6 @@
       "Ethical considerations and the potential for misuse of AI systems are significant concerns as AI capabilities increase."
     ],
     "investment_thesis": "Investment in AI development and security is crucial to manage the rapid advancements and ensure ethical AI behavior.",
-    "key_tickers": null
-  },
-  {
-    "id": 395,
-    "podcast_name": "The a16z Show",
-    "episode_title": "The CISO Playbook for AI Agents | Datadog",
-    "episode_date": "2026-08-11",
-    "summary": "The podcast discusses the rapid adoption of AI in enterprises and the consequent transformation of the security landscape. As thousands of engineers work with coding agents, security teams must adapt to leverage AI capabilities against attackers who also have more capable tools. The podcast argues against blocking new AI tools, emphasizing the need for security teams to evolve with the technology. It also highlights the increasing value of security engineers and the growing concern of developers about security.",
-    "key_takeaways": [
-      "Enterprises are increasingly adopting AI, impacting how businesses operate and develop software.",
-      "AI is changing the security landscape, providing attackers with more capable tools while also empowering security teams.",
-      "Companies should not block new AI tools as this approach can hinder innovation and create a competitive disadvantage.",
-      "The number of vulnerabilities that can be discovered is set to increase, presenting a significant practical problem.",
-      "Security engineers are becoming more valued within organizations, with potential for equal pay and recognition.",
-      "Developers are increasingly caring about security, realizing its integral role in their work."
-    ],
-    "investment_thesis": "Invest in companies that are at the forefront of AI adoption and security, as these are likely to shape the future of enterprise software development.",
     "key_tickers": null
   }
 ]

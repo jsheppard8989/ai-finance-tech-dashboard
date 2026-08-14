@@ -3,80 +3,80 @@
 
 const dashboardData = {
   schemaVersion: 2,
-  generatedAt: "2026-08-13T22:04:10.098482",
-  chartsVersion: "2026-08-13T22:03:58.775055",
+  generatedAt: "2026-08-13T23:39:19.018921",
+  chartsVersion: "2026-08-13T23:39:13.003954",
   priceSnapshot: {
   "GOOGL": {
     "price": 346.36,
     "change_pct": 6.06,
     "name": "GOOGL",
-    "updated_at": "2026-08-13T22:03:58.773829"
+    "updated_at": "2026-08-13T23:39:13.003196"
   },
   "NVDA": {
     "price": 225.3,
     "change_pct": 14.65,
     "name": "NVDA",
-    "updated_at": "2026-08-13T22:03:58.773849"
+    "updated_at": "2026-08-13T23:39:13.003212"
   },
   "BTC": {
-    "price": 63363.77,
-    "change_pct": 0.96,
+    "price": 63337.48,
+    "change_pct": 0.91,
     "name": "BTC",
-    "updated_at": "2026-08-13T22:03:58.773859"
+    "updated_at": "2026-08-13T23:39:13.003219"
   },
   "TSLA": {
     "price": 339.96,
     "change_pct": 9.94,
     "name": "TSLA",
-    "updated_at": "2026-08-13T22:03:58.773867"
+    "updated_at": "2026-08-13T23:39:13.003225"
   },
   "MSFT": {
     "price": 496.88,
     "change_pct": 27.7,
     "name": "MSFT",
-    "updated_at": "2026-08-13T22:03:58.773875"
+    "updated_at": "2026-08-13T23:39:13.003230"
   },
   "AMZN": {
     "price": 265.13,
     "change_pct": 14.58,
     "name": "AMZN",
-    "updated_at": "2026-08-13T22:03:58.773883"
+    "updated_at": "2026-08-13T23:39:13.003235"
   },
   "META": {
     "price": 594.97,
     "change_pct": 0.19,
     "name": "META",
-    "updated_at": "2026-08-13T22:03:58.773892"
+    "updated_at": "2026-08-13T23:39:13.003241"
   },
   "WTI": {
     "price": 3.62,
     "change_pct": 9.37,
     "name": "WTI",
-    "updated_at": "2026-08-13T22:03:58.773899"
+    "updated_at": "2026-08-13T23:39:13.003246"
   },
   "S&P 500": {
     "price": 777.88,
     "change_pct": 5.25,
     "name": "S&P 500",
-    "updated_at": "2026-08-13T22:03:58.773908"
+    "updated_at": "2026-08-13T23:39:13.003251"
   },
   "AAPL": {
     "price": 305.26,
     "change_pct": -9.32,
     "name": "AAPL",
-    "updated_at": "2026-08-13T22:03:58.773916"
+    "updated_at": "2026-08-13T23:39:13.003256"
   },
   "QQQ": {
     "price": 732.07,
     "change_pct": 7.32,
     "name": "Invesco QQQ Trust",
-    "updated_at": "2026-08-13T22:03:58.773923"
+    "updated_at": "2026-08-13T23:39:13.003261"
   },
   "BTC-USD": {
-    "price": 63363.77,
-    "change_pct": 0.96,
+    "price": 63337.48,
+    "change_pct": 0.91,
     "name": "Bitcoin USD",
-    "updated_at": "2026-08-13T22:03:58.773933"
+    "updated_at": "2026-08-13T23:39:13.003268"
   }
 },
   tickerScores: [
@@ -872,6 +872,25 @@ const dashboardData = {
       "podcast_episode_id": 402
     },
     {
+      "id": 418,
+      "title": "Bernie Demands the Labs Stop, Wall Street Turns GPUs Into Bonds, Grok 4.7 Takes #1 with Emad Mostaque | EP #279",
+      "source_type": "podcast",
+      "source_name": "Moonshots with Peter Diamandis",
+      "source_date": "2026-08-13",
+      "summary": "In this episode, Peter Diamandis and his guests discuss a range of topics from AI development to the future of investment in exponential technologies. They touch on Bernie Sanders' letter to AI CEOs, the implications of AI creating new viruses, and the potential for AI to redefine financial assets. The conversation also covers the acceleration of singularities and the compression of the distance between the impossible and the inevitable. Key investment insights include the impact of AI on longevity, infrastructure, synthetic biology, and urban air mobility.",
+      "key_takeaway": "Invest in AI and exponential technologies that are redefining industries and creating new opportunities for growth and innovation.",
+      "tickers_mentioned": [
+        "NVDA"
+      ],
+      "sentiment": "bullish",
+      "display_on_main": 1,
+      "display_order": 0,
+      "added_date": "2026-08-13",
+      "archived_date": null,
+      "archived_reason": null,
+      "podcast_episode_id": 403
+    },
+    {
       "id": 414,
       "title": "Garry Tan on Taste, Agents and Founder Ambition",
       "source_type": "podcast",
@@ -921,7 +940,7 @@ const dashboardData = {
         "AAPL"
       ],
       "sentiment": "neutral",
-      "display_on_main": 1,
+      "display_on_main": 0,
       "display_order": 0,
       "added_date": "2026-08-11",
       "archived_date": null,
@@ -8940,8 +8959,8 @@ const dashboardData = {
       "term": "Autonomy",
       "description": "The ability of systems or machines to function independently without human intervention, often in the context of vehicles or industrial equipment.",
       "first_detected_date": "2026-07-22",
-      "last_mentioned_date": "2026-08-11",
-      "mention_count": 5,
+      "last_mentioned_date": "2026-08-13",
+      "mention_count": 6,
       "source_podcasts": null,
       "status": "active",
       "investment_implications": "Investors should monitor advancements in autonomy as it could significantly impact transportation and logistics.",
@@ -8950,8 +8969,8 @@ const dashboardData = {
       "archived_reason": null,
       "first_detected_episode_id": 362,
       "first_detected_speaker": "Travis Kalanick, Ben Horowitz",
-      "last_mentioned_episode_id": 398,
-      "last_mentioned_speaker": "Kush Bavaria"
+      "last_mentioned_episode_id": 403,
+      "last_mentioned_speaker": "Dave Blondon, Salim Ismail"
     },
     {
       "id": 261,
@@ -9082,20 +9101,20 @@ const dashboardData = {
     {
       "id": 135,
       "term": "Healthspan",
-      "description": "The period during which an individual is in good health, as opposed to simply living a long life.",
+      "description": "The period of life during which an individual is generally healthy and free from chronic diseases.",
       "first_detected_date": "2026-06-29",
-      "last_mentioned_date": "2026-08-04",
-      "mention_count": 4,
+      "last_mentioned_date": "2026-08-13",
+      "mention_count": 5,
       "source_podcasts": null,
       "status": "active",
-      "investment_implications": "Investments in technologies and treatments that extend healthspan could have significant implications for healthcare and life sciences.",
+      "investment_implications": "Investments in technologies that extend healthspan could have significant societal and economic impacts.",
       "display_on_main": 0,
       "archived_date": null,
       "archived_reason": null,
       "first_detected_episode_id": 319,
       "first_detected_speaker": "Peter Diamandis (hosts)",
-      "last_mentioned_episode_id": 386,
-      "last_mentioned_speaker": "Michael Kratsios"
+      "last_mentioned_episode_id": 403,
+      "last_mentioned_speaker": "Dave Blondon, Salim Ismail"
     },
     {
       "id": 255,
@@ -9262,28 +9281,28 @@ const dashboardData = {
     {
       "id": 138,
       "term": "AI CapEx",
-      "description": "Capital expenditures related to the acquisition and maintenance of AI technologies and systems.",
+      "description": "Capital expenditures related to the development and deployment of artificial intelligence.",
       "first_detected_date": "2026-06-08",
-      "last_mentioned_date": "2026-08-07",
-      "mention_count": 17,
+      "last_mentioned_date": "2026-08-13",
+      "mention_count": 18,
       "source_podcasts": null,
       "status": "active",
-      "investment_implications": "Companies that invest heavily in AI CapEx may gain a competitive edge in their respective industries.",
+      "investment_implications": "AI CapEx can signal a company's commitment to innovation and future growth.",
       "display_on_main": 0,
       "archived_date": null,
       "archived_reason": null,
       "first_detected_episode_id": 271,
       "first_detected_speaker": null,
-      "last_mentioned_episode_id": 392,
-      "last_mentioned_speaker": "Daya Pernos, Dean Pernos"
+      "last_mentioned_episode_id": 403,
+      "last_mentioned_speaker": "Dave Blondon, Salim Ismail"
     },
     {
       "id": 234,
       "term": "AI Personhood",
       "description": "The concept of recognizing AI as an inventor or owner of property, raising questions about regulatory frameworks and the attribution of intellectual property rights to AI entities.",
       "first_detected_date": "2026-06-08",
-      "last_mentioned_date": "2026-08-11",
-      "mention_count": 17,
+      "last_mentioned_date": "2026-08-13",
+      "mention_count": 18,
       "source_podcasts": null,
       "status": "active",
       "investment_implications": "Investors should monitor legal and regulatory developments regarding AI personhood, as it could impact IP ownership and valuation of tech companies.",
@@ -9292,8 +9311,8 @@ const dashboardData = {
       "archived_reason": null,
       "first_detected_episode_id": 271,
       "first_detected_speaker": "Peter Diamandis",
-      "last_mentioned_episode_id": 398,
-      "last_mentioned_speaker": "Kush Bavaria"
+      "last_mentioned_episode_id": 403,
+      "last_mentioned_speaker": "Dave Blondon, Salim Ismail"
     },
     {
       "id": 59,
@@ -9442,20 +9461,20 @@ const dashboardData = {
     {
       "id": 10,
       "term": "Dyson Swarm",
-      "description": "A hypothetical structure proposed by Freeman Dyson, consisting of a large number of objects in space designed to capture the energy of a star, in this context possibly referring to SpaceX's ambitions.",
+      "description": "A hypothetical network of satellites that could harness solar energy from space.",
       "first_detected_date": "2026-05-23",
-      "last_mentioned_date": "2026-08-11",
-      "mention_count": 23,
+      "last_mentioned_date": "2026-08-13",
+      "mention_count": 24,
       "source_podcasts": null,
       "status": "active",
-      "investment_implications": "Investors should consider the potential of space-based infrastructure and energy capture technologies.",
+      "investment_implications": "Investments in space-based energy could disrupt traditional energy markets.",
       "display_on_main": 1,
       "archived_date": null,
       "archived_reason": null,
       "first_detected_episode_id": 236,
       "first_detected_speaker": null,
-      "last_mentioned_episode_id": 398,
-      "last_mentioned_speaker": "Kush Bavaria"
+      "last_mentioned_episode_id": 403,
+      "last_mentioned_speaker": "Dave Blondon, Salim Ismail"
     },
     {
       "id": 113,
@@ -9534,8 +9553,8 @@ const dashboardData = {
       "term": "Singularity",
       "description": "A hypothetical point in the future when technological growth becomes uncontrollable and irreversible, leading to unforeseeable changes to human civilization.",
       "first_detected_date": "2026-05-15",
-      "last_mentioned_date": "2026-08-11",
-      "mention_count": 45,
+      "last_mentioned_date": "2026-08-13",
+      "mention_count": 46,
       "source_podcasts": null,
       "status": "active",
       "investment_implications": "Investors should be aware of companies and technologies that are pushing the boundaries of AI and automation, as they may be key players in the approach to the singularity.",
@@ -9544,16 +9563,16 @@ const dashboardData = {
       "archived_reason": null,
       "first_detected_episode_id": 221,
       "first_detected_speaker": null,
-      "last_mentioned_episode_id": 398,
-      "last_mentioned_speaker": "Kush Bavaria"
+      "last_mentioned_episode_id": 403,
+      "last_mentioned_speaker": "Dave Blondon, Salim Ismail"
     },
     {
       "id": 97,
       "term": "Distillation",
       "description": "The process of training a smaller AI model on the output of a larger model to achieve similar results with less computational power.",
       "first_detected_date": "2026-05-15",
-      "last_mentioned_date": "2026-08-12",
-      "mention_count": 35,
+      "last_mentioned_date": "2026-08-13",
+      "mention_count": 36,
       "source_podcasts": null,
       "status": "active",
       "investment_implications": "Distillation can make AI more accessible and cost-effective, impacting how businesses allocate resources for AI development.",
@@ -9562,8 +9581,8 @@ const dashboardData = {
       "archived_reason": null,
       "first_detected_episode_id": 221,
       "first_detected_speaker": null,
-      "last_mentioned_episode_id": 399,
-      "last_mentioned_speaker": "Gary Tan"
+      "last_mentioned_episode_id": 403,
+      "last_mentioned_speaker": "Dave Blondon, Salim Ismail"
     },
     {
       "id": 174,
@@ -9660,8 +9679,8 @@ const dashboardData = {
       "term": "AGI",
       "description": "Artificial General Intelligence, the ability of machines to understand, learn, and apply knowledge across a broad range of tasks at a human level.",
       "first_detected_date": "2026-05-07",
-      "last_mentioned_date": "2026-08-11",
-      "mention_count": 72,
+      "last_mentioned_date": "2026-08-13",
+      "mention_count": 73,
       "source_podcasts": null,
       "status": "active",
       "investment_implications": "Invest in companies that are making incremental progress towards AGI capabilities.",
@@ -9670,8 +9689,8 @@ const dashboardData = {
       "archived_reason": null,
       "first_detected_episode_id": 204,
       "first_detected_speaker": "Demis Hassabis",
-      "last_mentioned_episode_id": 398,
-      "last_mentioned_speaker": "Kush Bavaria"
+      "last_mentioned_episode_id": 403,
+      "last_mentioned_speaker": "Dave Blondon, Salim Ismail"
     },
     {
       "id": 162,
@@ -10488,8 +10507,8 @@ const dashboardData = {
       "term": "AI Infrastructure",
       "description": "The underlying technology and systems that support the development and operation of AI applications.",
       "first_detected_date": "2026-03-17",
-      "last_mentioned_date": "2026-08-12",
-      "mention_count": 26,
+      "last_mentioned_date": "2026-08-13",
+      "mention_count": 27,
       "source_podcasts": null,
       "status": "active",
       "investment_implications": "Investing in AI infrastructure can provide the foundation for innovation in AI-driven startups.",
@@ -10498,8 +10517,8 @@ const dashboardData = {
       "archived_reason": null,
       "first_detected_episode_id": 71,
       "first_detected_speaker": null,
-      "last_mentioned_episode_id": 399,
-      "last_mentioned_speaker": "Gary Tan"
+      "last_mentioned_episode_id": 403,
+      "last_mentioned_speaker": "Dave Blondon, Salim Ismail"
     },
     {
       "id": 26,
@@ -10758,8 +10777,8 @@ const dashboardData = {
       "term": "AI Agents",
       "description": "Software entities that perform tasks autonomously, similar to human employees.",
       "first_detected_date": "2026-02-28",
-      "last_mentioned_date": "2026-08-12",
-      "mention_count": 60,
+      "last_mentioned_date": "2026-08-13",
+      "mention_count": 61,
       "source_podcasts": null,
       "status": "active",
       "investment_implications": "AI Agents can automate business processes, leading to operational efficiency and scalability.",
@@ -10768,8 +10787,8 @@ const dashboardData = {
       "archived_reason": null,
       "first_detected_episode_id": 31,
       "first_detected_speaker": null,
-      "last_mentioned_episode_id": 399,
-      "last_mentioned_speaker": "Gary Tan"
+      "last_mentioned_episode_id": 403,
+      "last_mentioned_speaker": "Dave Blondon, Salim Ismail"
     },
     {
       "id": 38,
@@ -11074,6 +11093,28 @@ const dashboardData = {
       "key_tickers": []
     },
     {
+      "id": 418,
+      "title": "Bernie Demands the Labs Stop, Wall Street Turns GPUs Into Bonds, Grok 4.7 Takes #1 with Emad Mostaque | EP #279",
+      "source_type": "podcast",
+      "source_name": "Moonshots with Peter Diamandis",
+      "source_date": "2026-08-13",
+      "summary": "In this episode, Peter Diamandis and his guests discuss a range of topics from AI development to the future of investment in exponential technologies. They touch on Bernie Sanders' letter to AI CEOs, the implications of AI creating new viruses, and the potential for AI to redefine financial assets. The conversation also covers the acceleration of singularities and the compression of the distance between the impossible and the inevitable. Key investment insights include the impact of AI on longevity, infrastructure, synthetic biology, and urban air mobility.",
+      "key_takeaway": "Invest in AI and exponential technologies that are redefining industries and creating new opportunities for growth and innovation.",
+      "tickers_mentioned": "[\"NVDA\"]",
+      "sentiment": "bullish",
+      "display_on_main": 1,
+      "display_order": 0,
+      "added_date": "2026-08-13",
+      "archived_date": null,
+      "archived_reason": null,
+      "podcast_episode_id": 403,
+      "episode_release_date": "2026-08-13",
+      "guest_name": "Emad Mostaque",
+      "key_tickers": [
+        "NVDA"
+      ]
+    },
+    {
       "id": 414,
       "title": "Garry Tan on Taste, Agents and Founder Ambition",
       "source_type": "podcast",
@@ -11114,26 +11155,6 @@ const dashboardData = {
       "key_tickers": [
         "SPY"
       ]
-    },
-    {
-      "id": 410,
-      "title": "The CISO Playbook for AI Agents | Datadog",
-      "source_type": "podcast",
-      "source_name": "The a16z Show",
-      "source_date": "2026-08-11",
-      "summary": "The podcast discusses the rapid adoption of AI in enterprises and the consequent transformation of the security landscape. As thousands of engineers work with coding agents, security teams must adapt to leverage AI capabilities against attackers who also have more capable tools. The podcast argues against blocking new AI tools, emphasizing the need for security teams to evolve with the technology. It also highlights the increasing value of security engineers and the growing concern of developers about security.",
-      "key_takeaway": "Invest in companies that are at the forefront of AI adoption and security, as these are likely to shape the future of enterprise software development.",
-      "tickers_mentioned": "[\"AAPL\"]",
-      "sentiment": "neutral",
-      "display_on_main": 1,
-      "display_order": 0,
-      "added_date": "2026-08-11",
-      "archived_date": null,
-      "archived_reason": null,
-      "podcast_episode_id": 395,
-      "episode_release_date": "2026-08-11",
-      "guest_name": null,
-      "key_tickers": []
     },
     {
       "id": 411,
@@ -11326,8 +11347,8 @@ const dashboardData = {
       "term": "AGI",
       "description": "Artificial General Intelligence, the ability of machines to understand, learn, and apply knowledge across a broad range of tasks at a human level.",
       "first_detected_date": "2026-05-07",
-      "last_mentioned_date": "2026-08-11",
-      "mention_count": 72,
+      "last_mentioned_date": "2026-08-13",
+      "mention_count": 73,
       "source_podcasts": null,
       "status": "active",
       "investment_implications": "Invest in companies that are making incremental progress towards AGI capabilities.",
@@ -11336,50 +11357,50 @@ const dashboardData = {
       "archived_reason": null,
       "first_detected_episode_id": 204,
       "first_detected_speaker": "Demis Hassabis",
-      "last_mentioned_episode_id": 398,
-      "last_mentioned_speaker": "Kush Bavaria",
-      "overton_score": 68.75,
+      "last_mentioned_episode_id": 403,
+      "last_mentioned_speaker": "Dave Blondon, Salim Ismail",
+      "overton_score": 73.0,
       "resonance_pct": 100,
       "first_detected_podcast": "Moonshots with Peter Diamandis",
       "first_detected_episode_title": "Demis Hassabis on AGI, Robots Scale Production, and Elon\u2019s $1T Mars-Shot Comp | EP #253",
       "first_detected_episode_date": "2026-05-07",
       "last_mentioned_podcast": "Moonshots with Peter Diamandis",
-      "last_mentioned_episode_title": "Sergey Brin Retakes Gemini, 4 Labs Lose Containment, Compute Trades at NYSE w/ Kush Bavaria | EP #278",
-      "last_mentioned_episode_date": "2026-08-11"
+      "last_mentioned_episode_title": "Bernie Demands the Labs Stop, Wall Street Turns GPUs Into Bonds, Grok 4.7 Takes #1 with Emad Mostaque | EP #279",
+      "last_mentioned_episode_date": "2026-08-13"
     },
     {
       "id": 10,
       "term": "Dyson Swarm",
-      "description": "A hypothetical structure proposed by Freeman Dyson, consisting of a large number of objects in space designed to capture the energy of a star, in this context possibly referring to SpaceX's ambitions.",
+      "description": "A hypothetical network of satellites that could harness solar energy from space.",
       "first_detected_date": "2026-05-23",
-      "last_mentioned_date": "2026-08-11",
-      "mention_count": 23,
+      "last_mentioned_date": "2026-08-13",
+      "mention_count": 24,
       "source_podcasts": null,
       "status": "active",
-      "investment_implications": "Investors should consider the potential of space-based infrastructure and energy capture technologies.",
+      "investment_implications": "Investments in space-based energy could disrupt traditional energy markets.",
       "display_on_main": 1,
       "archived_date": null,
       "archived_reason": null,
       "first_detected_episode_id": 236,
       "first_detected_speaker": null,
-      "last_mentioned_episode_id": 398,
-      "last_mentioned_speaker": "Kush Bavaria",
-      "overton_score": 21.96,
+      "last_mentioned_episode_id": 403,
+      "last_mentioned_speaker": "Dave Blondon, Salim Ismail",
+      "overton_score": 24.0,
       "resonance_pct": 100,
       "first_detected_podcast": "Moonshots with Peter Diamandis",
       "first_detected_episode_title": "SpaceX\u2019 $75B+ Historic IPO, GPT 5.5 Outperforms Polymarket, and AI Solves 80 yr old math problem | EP #257",
       "first_detected_episode_date": "2026-05-23",
       "last_mentioned_podcast": "Moonshots with Peter Diamandis",
-      "last_mentioned_episode_title": "Sergey Brin Retakes Gemini, 4 Labs Lose Containment, Compute Trades at NYSE w/ Kush Bavaria | EP #278",
-      "last_mentioned_episode_date": "2026-08-11"
+      "last_mentioned_episode_title": "Bernie Demands the Labs Stop, Wall Street Turns GPUs Into Bonds, Grok 4.7 Takes #1 with Emad Mostaque | EP #279",
+      "last_mentioned_episode_date": "2026-08-13"
     },
     {
       "id": 234,
       "term": "AI Personhood",
       "description": "The concept of recognizing AI as an inventor or owner of property, raising questions about regulatory frameworks and the attribution of intellectual property rights to AI entities.",
       "first_detected_date": "2026-06-08",
-      "last_mentioned_date": "2026-08-11",
-      "mention_count": 17,
+      "last_mentioned_date": "2026-08-13",
+      "mention_count": 18,
       "source_podcasts": null,
       "status": "active",
       "investment_implications": "Investors should monitor legal and regulatory developments regarding AI personhood, as it could impact IP ownership and valuation of tech companies.",
@@ -11388,16 +11409,16 @@ const dashboardData = {
       "archived_reason": null,
       "first_detected_episode_id": 271,
       "first_detected_speaker": "Peter Diamandis",
-      "last_mentioned_episode_id": 398,
-      "last_mentioned_speaker": "Kush Bavaria",
-      "overton_score": 16.23,
+      "last_mentioned_episode_id": 403,
+      "last_mentioned_speaker": "Dave Blondon, Salim Ismail",
+      "overton_score": 18.0,
       "resonance_pct": 100,
       "first_detected_podcast": "Moonshots with Peter Diamandis",
       "first_detected_episode_title": "Emerging Situation: Anthropic's Global Pause, Recursive Self-Improvement Arrives, and AI Personhood Arrives | EP #263",
       "first_detected_episode_date": "2026-06-08",
       "last_mentioned_podcast": "Moonshots with Peter Diamandis",
-      "last_mentioned_episode_title": "Sergey Brin Retakes Gemini, 4 Labs Lose Containment, Compute Trades at NYSE w/ Kush Bavaria | EP #278",
-      "last_mentioned_episode_date": "2026-08-11"
+      "last_mentioned_episode_title": "Bernie Demands the Labs Stop, Wall Street Turns GPUs Into Bonds, Grok 4.7 Takes #1 with Emad Mostaque | EP #279",
+      "last_mentioned_episode_date": "2026-08-13"
     },
     {
       "id": 254,
@@ -11456,8 +11477,8 @@ const dashboardData = {
       "term": "Autonomy",
       "description": "The ability of systems or machines to function independently without human intervention, often in the context of vehicles or industrial equipment.",
       "first_detected_date": "2026-07-22",
-      "last_mentioned_date": "2026-08-11",
-      "mention_count": 5,
+      "last_mentioned_date": "2026-08-13",
+      "mention_count": 6,
       "source_podcasts": null,
       "status": "active",
       "investment_implications": "Investors should monitor advancements in autonomy as it could significantly impact transportation and logistics.",
@@ -11466,16 +11487,16 @@ const dashboardData = {
       "archived_reason": null,
       "first_detected_episode_id": 362,
       "first_detected_speaker": "Travis Kalanick, Ben Horowitz",
-      "last_mentioned_episode_id": 398,
-      "last_mentioned_speaker": "Kush Bavaria",
-      "overton_score": 4.77,
+      "last_mentioned_episode_id": 403,
+      "last_mentioned_speaker": "Dave Blondon, Salim Ismail",
+      "overton_score": 6.0,
       "resonance_pct": 100,
       "first_detected_podcast": "The a16z Show",
       "first_detected_episode_title": "Travis Kalanick Is Back | Building the Future of Industrial AI",
       "first_detected_episode_date": "2026-07-22",
       "last_mentioned_podcast": "Moonshots with Peter Diamandis",
-      "last_mentioned_episode_title": "Sergey Brin Retakes Gemini, 4 Labs Lose Containment, Compute Trades at NYSE w/ Kush Bavaria | EP #278",
-      "last_mentioned_episode_date": "2026-08-11"
+      "last_mentioned_episode_title": "Bernie Demands the Labs Stop, Wall Street Turns GPUs Into Bonds, Grok 4.7 Takes #1 with Emad Mostaque | EP #279",
+      "last_mentioned_episode_date": "2026-08-13"
     },
     {
       "id": 255,
@@ -36200,6 +36221,61 @@ const dashboardData = {
     "source_name": "The a16z Show",
     "source_date": "2026-08-13",
     "key_tickers": []
+  },
+  "418": {
+    "id": 408,
+    "insight_id": 418,
+    "podcast_episode_id": 403,
+    "overview": "The unresolved tension in the source material revolves around the rapid advancement of AI and its intersection with policy, financial markets, and technological infrastructure. The competitive dynamic is between the pace of AI development and the ability of regulatory bodies and financial markets to adapt. The allocator-relevant implication is that the winners will be those who can leverage AI advancements for financial gain and infrastructure development, while the losers will be those left behind by the rapid changes or negatively impacted by regulatory shifts.",
+    "key_takeaways_detailed": [
+      "Investors should monitor policy developments, especially around AI, as regulatory changes could significantly impact the valuation and growth of tech companies.",
+      "The redefinition of GPU compute as a financial asset by Nvidia could lead to new investment opportunities in technology infrastructure, but also carries the risk of market overvaluation.",
+      "The rapid release cycle of AI models like Grok suggests that companies with cutting-edge AI capabilities will have a competitive edge, but also highlights the need for continuous investment in R&D to stay ahead.",
+      "Longevity and health span advancements, as discussed in the context of the $101 million prize, could create new markets and investment opportunities in biotechnology and healthcare."
+    ],
+    "investment_thesis": "The core logic is that the convergence of AI, policy changes, and financial market adaptations will create a new landscape for investment. A timeframe of 1-3 years is reasonable to observe the impact of these changes. The observable development that would vindicate this thesis is the successful integration of AI into financial assets, leading to new investment vehicles and market growth, while an invalidation would be a significant regulatory crackdown that stifles AI development.",
+    "ticker_analysis": {
+      "NVDA": {
+        "rationale": "Nvidia's position in GPU technology and its recent partnership to redefine GPU compute as a financial asset makes it a key player in the investment thesis.",
+        "positioning": "Strategic long position, as the company is likely to benefit from the growth of AI and the redefinition of its products as financial assets.",
+        "risk": "Regulatory changes that could limit the use or valuation of AI technology, impacting Nvidia's business model and growth prospects."
+      },
+      "TSLA": {
+        "rationale": "Tesla's involvement in AI through its Autopilot technology and the potential for Grok 4.7 to be trained on SpaceX knowledge links it to the AI advancements discussed.",
+        "positioning": "Strategic long position, as the company is at the forefront of AI applications in both automotive and space technology.",
+        "risk": "Failure of AI technology to meet expectations or significant delays in AI development could affect Tesla's valuation."
+      }
+    },
+    "positioning_guidance": "",
+    "risk_factors": [],
+    "contrarian_signals": [
+      "AI development may not progress as rapidly as expected, leading to a slower transformation of industries.",
+      "Regulatory bodies could impose strict controls on AI, hindering innovation and investment in the sector.",
+      "Financial markets may not adapt quickly enough to the changes brought by AI, leading to market instability and reduced investment."
+    ],
+    "catalysts": [
+      "Release of Grok 4.7 and its impact on AI capabilities.",
+      "Policy decisions by regulatory bodies like the SEC regarding AI and financial assets.",
+      "Nvidia's financial results and any significant partnerships or developments in GPU technology."
+    ],
+    "related_insights": null,
+    "audio_timestamp_start": null,
+    "audio_timestamp_end": null,
+    "transcript_excerpt": null,
+    "created_at": "2026-08-13T23:38:24.431163",
+    "updated_at": "2026-08-14 04:38:24",
+    "episode_evidence": "In the podcast, Bernie Sanders' letter to AI CEOs is mentioned, indicating a growing concern about AI capabilities, as stated by the host: 'Bernie Sanders sent a formal letter to the CEOs of Anthropic Meta and OpenEye AI capabilities have reached a critical threshold.' This suggests a potential regulatory or policy shift that could impact AI development. Nvidia's partnership redefining GPU compute as a financial asset is highlighted: 'Nvidia just announced a partnership that redefines what GPU compute means as a financial asset.' This could signal a shift in how technology infrastructure is valued and financed. The discussion on Grok 4.6 and the upcoming Grok 4.7 trained on SpaceX knowledge implies rapid advancements in AI capabilities: 'Elon just dropped Grok 4.6...4.7 is rumored to be coming out in two weeks.' This underscores the exponential growth in AI, with potential implications for various industries.",
+    "falsification_tracks": [
+      "Should Nvidia's partnership fail to deliver the anticipated financial asset redefinition, causing a decline in their stock price or market confidence.",
+      "A significant security breach or misuse of AI technology that leads to regulatory crackdowns, as hinted by the discussion on Bernie Sanders' letter.",
+      "Failure of Grok 4.7 to meet the hype, reflected in a lack of significant advancements or applications in AI, which would challenge the narrative of rapid AI progress."
+    ],
+    "insight_title": "Bernie Demands the Labs Stop, Wall Street Turns GPUs Into Bonds, Grok 4.7 Takes #1 with Emad Mostaque | EP #279",
+    "source_name": "Moonshots with Peter Diamandis",
+    "source_date": "2026-08-13",
+    "key_tickers": [
+      "NVDA"
+    ]
   }
 },
   suggestedTerms: [
@@ -36254,7 +36330,19 @@ const dashboardData = {
 ],
   podcastGuests: [
   {
-    "id": 49840,
+    "id": 49956,
+    "name": "Emad Mostaque",
+    "slug": "emad-mostaque",
+    "bio": null,
+    "known_for": null,
+    "last_main_idea": "Invest in AI and exponential technologies that are redefining industries and creating new opportunities for growth and innovation.",
+    "last_episode_title": "Bernie Demands the Labs Stop, Wall Street Turns GPUs Into Bonds, Grok 4.7 Takes #1 with Emad Mostaque | EP #279",
+    "last_podcast_name": "Moonshots with Peter Diamandis",
+    "last_episode_date": "2026-08-13",
+    "appearance_count": 2
+  },
+  {
+    "id": 49955,
     "name": "Rahm Emanuel",
     "slug": "rahm-emanuel",
     "bio": null,
@@ -36266,7 +36354,7 @@ const dashboardData = {
     "appearance_count": 1
   },
   {
-    "id": 49841,
+    "id": 49957,
     "name": "Milton Berg",
     "slug": "milton-berg",
     "bio": "Milton Berg is a veteran technical analyst and CEO of Milton Berg Advisors, specializing in market turning-point analysis for institutional investors.",
@@ -36278,7 +36366,7 @@ const dashboardData = {
     "appearance_count": 2
   },
   {
-    "id": 49842,
+    "id": 49958,
     "name": "How Kavak Rebuilt Itself Around AI Agents",
     "slug": "how-kavak-rebuilt-itself-around-ai-agents",
     "bio": null,
@@ -36290,19 +36378,7 @@ const dashboardData = {
     "appearance_count": 1
   },
   {
-    "id": 49843,
-    "name": "Emad Mostaque",
-    "slug": "emad-mostaque",
-    "bio": null,
-    "known_for": null,
-    "last_main_idea": "Invest in companies at the forefront of AI and space technology, as these sectors are poised for significant growth and disruption.",
-    "last_episode_title": "Google\u2019s Jeff Dean Exits, SpaceX Hits $100B in Rev & OpenAI\u2019s Astra Solves Decade-Old Math Problems with Emad Mostaque | EP #277",
-    "last_podcast_name": "Moonshots with Peter Diamandis",
-    "last_episode_date": "2026-08-08",
-    "appearance_count": 1
-  },
-  {
-    "id": 49844,
+    "id": 49959,
     "name": "How Open",
     "slug": "how-open",
     "bio": null,
@@ -36314,7 +36390,7 @@ const dashboardData = {
     "appearance_count": 1
   },
   {
-    "id": 49845,
+    "id": 49960,
     "name": "Saronic Founders",
     "slug": "saronic-founders",
     "bio": null,
@@ -36326,7 +36402,7 @@ const dashboardData = {
     "appearance_count": 1
   },
   {
-    "id": 49846,
+    "id": 49961,
     "name": "OpenAI's Joshua Achiam",
     "slug": "openais-joshua-achiam",
     "bio": null,
@@ -36338,7 +36414,7 @@ const dashboardData = {
     "appearance_count": 1
   },
   {
-    "id": 49847,
+    "id": 49962,
     "name": "Why Macro is \u201cPretty Risk-On\u201d for Equities",
     "slug": "why-macro-is-pretty-risk-on-for-equities",
     "bio": null,
@@ -36350,7 +36426,7 @@ const dashboardData = {
     "appearance_count": 1
   },
   {
-    "id": 49848,
+    "id": 49963,
     "name": "AI for America's Small Businesses",
     "slug": "ai-for-americas-small-businesses",
     "bio": null,
@@ -36362,7 +36438,7 @@ const dashboardData = {
     "appearance_count": 1
   },
   {
-    "id": 49849,
+    "id": 49964,
     "name": "Mum\u2019s The Word",
     "slug": "mums-the-word",
     "bio": null,
@@ -36374,7 +36450,7 @@ const dashboardData = {
     "appearance_count": 1
   },
   {
-    "id": 49850,
+    "id": 49965,
     "name": "Luke Gromen",
     "slug": "luke-gromen",
     "bio": null,
@@ -36386,7 +36462,7 @@ const dashboardData = {
     "appearance_count": 1
   },
   {
-    "id": 49851,
+    "id": 49966,
     "name": "Codex from 0 to 10M Users",
     "slug": "codex-from-0-to-10m-users",
     "bio": null,
@@ -36398,7 +36474,7 @@ const dashboardData = {
     "appearance_count": 1
   },
   {
-    "id": 49852,
+    "id": 49967,
     "name": "Ben Horowitz",
     "slug": "ben-horowitz",
     "bio": "Ben Horowitz is a co-founder of venture firm Andreessen Horowitz and former CEO of Opsware, known for advising founders on leadership under pressure.",
@@ -36410,7 +36486,7 @@ const dashboardData = {
     "appearance_count": 3
   },
   {
-    "id": 49853,
+    "id": 49968,
     "name": "Building the Physical AI Stack",
     "slug": "building-the-physical-ai-stack",
     "bio": null,
@@ -36422,7 +36498,7 @@ const dashboardData = {
     "appearance_count": 1
   },
   {
-    "id": 49854,
+    "id": 49969,
     "name": "Travis Kalanick Is Back",
     "slug": "travis-kalanick-is-back",
     "bio": null,
@@ -36434,7 +36510,7 @@ const dashboardData = {
     "appearance_count": 1
   },
   {
-    "id": 49855,
+    "id": 49970,
     "name": "Why Physical AI Is the Next Frontier",
     "slug": "why-physical-ai-is-the-next-frontier",
     "bio": null,
@@ -36446,7 +36522,7 @@ const dashboardData = {
     "appearance_count": 1
   },
   {
-    "id": 49856,
+    "id": 49971,
     "name": "Nick Nemeth",
     "slug": "nick-nemeth",
     "bio": null,
@@ -36458,7 +36534,7 @@ const dashboardData = {
     "appearance_count": 1
   },
   {
-    "id": 49857,
+    "id": 49972,
     "name": "Mark Cuban on the AI Bubble",
     "slug": "mark-cuban-on-the-ai-bubble",
     "bio": null,
@@ -36470,7 +36546,7 @@ const dashboardData = {
     "appearance_count": 1
   },
   {
-    "id": 49858,
+    "id": 49973,
     "name": "Urgent Update- AI Sputnik Moment",
     "slug": "urgent-update--ai-sputnik-moment",
     "bio": null,
@@ -36482,7 +36558,7 @@ const dashboardData = {
     "appearance_count": 1
   },
   {
-    "id": 49859,
+    "id": 49974,
     "name": "Replay 2025",
     "slug": "replay-2025",
     "bio": null,
@@ -36698,7 +36774,7 @@ const dashboardData = {
     "last_podcast_name": "The a16z Show",
     "last_episode_date": "2026-07-22",
     "mention_score": 3,
-    "mention_score_decayed": 1.85,
+    "mention_score_decayed": 1.8,
     "last_main_idea": "The next great technology revolution will be in the physical world, with industrial AI, robotics, and autonomy driving transformative change across industries.",
     "last_proof_cite": "The a16z Show \u2022 2026-07-22 \u2022 Travis Kalanick Is Back | Building the Future of Industrial AI",
     "last_proof_snippet": "We know what Boobers 2017 was like. Travis Kalana, because Snapchat's dying from his role as chief executive. That wouldn't have gone that way if Ben or Mark was on the board. You're in this hell, you're dealing with lawsuits. I worry about",
@@ -36810,6 +36886,70 @@ const dashboardData = {
     "net_worth": "$12.3M"
   },
   {
+    "id": 252,
+    "name": "Dave Blondon",
+    "slug": "dave-blondon",
+    "bio": "Dave Blondon is an investor with a keen focus on the intersection of technology and finance, particularly in the realm of AI. He is recognized for his insights on AI investment and its impact on various sectors, offering a unique perspective on the rapid advancements in technology and their implications for financial assets.",
+    "known_for": "His expertise in AI investment and its influence on financial markets and technology sectors.",
+    "net_worth_usd": 11900000.0,
+    "net_worth_source": "https://www.benzinga.com/sec/insider-trades/0001203475/david-b-blundin",
+    "net_worth_updated_at": "2026-05-16T14:05:00.481247",
+    "voice_tone": "Informed and analytical",
+    "voice_style": "Delivers complex ideas with clarity",
+    "voice_delivery_notes": "Paces well, with emphasis on key points",
+    "voice_profile_updated_at": "2026-08-14 04:37:31",
+    "last_seen": "2026-08-14 04:37:31",
+    "last_episode_title": "Bernie Demands the Labs Stop, Wall Street Turns GPUs Into Bonds, Grok 4.7 Takes #1 with Emad Mostaque | EP #279",
+    "last_podcast_name": "Moonshots with Peter Diamandis",
+    "last_episode_date": "2026-08-13",
+    "mention_score": 2,
+    "mention_score_decayed": 2,
+    "last_main_idea": "Invest in AI and exponential technologies that are redefining industries and creating new opportunities for growth and innovation.",
+    "last_proof_cite": "Moonshots with Peter Diamandis \u2022 2026-08-13 \u2022 Bernie Demands the Labs Stop, Wall Street Turns GPUs Into Bonds, Grok 4.7 Takes #1 with Emad Mostaque | EP #279",
+    "last_proof_snippet": "Bernie Sanders sent a formal letter to the CEOs of Anthropic Meta and OpenEye AI capabilities have reached a critical threshold. Paul's AI development, the Council of the Baguards, too late, right? Nvidia just announced a partnership that r",
+    "supporting_takeaway": "Nvidia's partnership redefines GPU compute as a financial asset, signaling a shift in the market.",
+    "grokipedia_url": null,
+    "grokipedia_fetched_at": "2026-08-13T23:37:58.122292",
+    "pundit_profile": {
+      "source": "llm",
+      "source_model": "moonshot:moonshot-v1-8k",
+      "source_url": "",
+      "page_title": "Dave Blondon",
+      "fetched_at": "2026-08-14T04:37:58.122113+00:00",
+      "cliff_notes": "Dave Blondon has carved a niche for himself as an investor with a deep understanding of AI and its implications on finance. His career has been marked by a focus on the intersection of these two dynamic fields, providing him with a unique vantage point on the evolution of technology and its impact on financial markets. Blondon's insights are sought after for his ability to dissect complex technological advancements and predict their influence on investment strategies. His commentary on the rapid development of AI, such as the implications of Elon Musk's Grock 4.6, showcases his ability to stay ahead of the curve and understand the broader implications of technological innovation.",
+      "derived": {
+        "current_role": "Investor in AI"
+      },
+      "infobox": {
+        "Born": "",
+        "Nationality": ""
+      },
+      "lead_paragraphs": [
+        "Dave Blondon has carved a niche for himself as an investor with a deep understanding of AI and its implications on finance. His career has been marked by a focus on the intersection of these two dynamic fields, providing him with a unique vantage point on the evolution of technology and its impact on financial markets. Blondon's insights are sought after for his ability to dissect complex technological advancements and predict their influence on investment strategies.",
+        "His commentary on the rapid development of AI, such as the implications of Elon Musk's Grock 4.6, showcases his ability to stay ahead of the curve and understand the broader implications of technological innovation."
+      ],
+      "sections": [
+        {
+          "heading": "AI Investment",
+          "body": "Blondon is known for his expertise in AI investment, analyzing how AI technologies can disrupt and shape financial markets."
+        },
+        {
+          "heading": "Technology and Finance",
+          "body": "He frequently discusses the convergence of technology and finance, emphasizing the importance of understanding AI's role in this context."
+        },
+        {
+          "heading": "Exponential Technologies",
+          "body": "Blondon explores how exponential technologies, such as AI, challenge traditional financial models that rely on predictable depreciation."
+        },
+        {
+          "heading": "AI Development",
+          "body": "He provides insights into the latest AI developments, such as the rapid release cycles of Grock AI, and their potential to transform industries."
+        }
+      ]
+    },
+    "net_worth": "$11.9M"
+  },
+  {
     "id": 218,
     "name": "Joe Schmidt",
     "slug": "joe-schmidt",
@@ -36887,7 +37027,7 @@ const dashboardData = {
     "last_podcast_name": "Monetary Matters with Jack Farley",
     "last_episode_date": "2026-07-28",
     "mention_score": 2,
-    "mention_score_decayed": 1.45,
+    "mention_score_decayed": 1.41,
     "last_main_idea": "The bond market is facing significant challenges due to supply and demand imbalances, fiscal pressures, and aging populations, making gold an attractive store of value in the current economic climate.",
     "last_proof_cite": "Monetary Matters with Jack Farley \u2022 2026-07-28 \u2022 Luke Gromen: Yield Curve Control is the Only Way to Stop a Global Bond Crisis",
     "last_proof_snippet": "Germany, Japan, and Korea are all historically big creditors from a sovereign perspective. And in particular, Japan, if they're borrowing money to do defense to me, they have turned sellers of bonds as well. So now they're selling, they're",
@@ -37007,7 +37147,7 @@ const dashboardData = {
     "last_podcast_name": "All-In with Chamath, Jason, Sacks & Friedberg",
     "last_episode_date": "2026-07-10",
     "mention_score": 2,
-    "mention_score_decayed": 0.91,
+    "mention_score_decayed": 0.89,
     "last_main_idea": "Investing in AI infrastructure and data center companies could yield significant returns as the demand for AI continues to grow exponentially.",
     "last_proof_cite": "All-In with Chamath, Jason, Sacks & Friedberg \u2022 2026-07-10 \u2022 Open Source Wins, AGI Is Here, and Scorsese's AI Toolkit with CEOs of Cerebras & Black Forest Labs",
     "last_proof_snippet": "We are in the race for super intelligence and Andrew Feldman is back and obviously CEO and founders Ceribres doing in friendships pioneered the space, had a successful IPO. We've talked about this a couple of times, we got to see each other",
@@ -37071,7 +37211,7 @@ const dashboardData = {
     "last_podcast_name": "All-In with Chamath, Jason, Sacks & Friedberg",
     "last_episode_date": "2026-07-03",
     "mention_score": 2,
-    "mention_score_decayed": 0.79,
+    "mention_score_decayed": 0.78,
     "last_main_idea": "Enterprises should prioritize data sovereignty in AI to maintain competitive advantages and consider decentralized, open-source AI models to reduce costs and enhance operational efficiency.",
     "last_proof_cite": "All-In with Chamath, Jason, Sacks & Friedberg \u2022 2026-07-03 \u2022 AI Sovereignty Wars, Palantir-Nvidia Deal, SCOTUS Birthright Ruling, Newsom's CA Budget Lie",
     "last_proof_snippet": "All right, everybody, welcome back to the number one podcast in the world. Sure, favorite podcast. It's your podcast. It's your favorite podcast. It's the all-in podcast episode two, seven, nine with me, freebergs, tax, to my, you know, the",
@@ -37131,7 +37271,7 @@ const dashboardData = {
     "last_podcast_name": "BG2Pod with Brad Gerstner and Bill Gurley",
     "last_episode_date": "2026-06-11",
     "mention_score": 2,
-    "mention_score_decayed": 0.54,
+    "mention_score_decayed": 0.52,
     "last_main_idea": "SpaceX's unique position in the AI compute market and its rapid deployment capabilities make it a compelling long-term investment, with potential for significant revenue growth through Starlink and AI advancements.",
     "last_proof_cite": "BG2Pod with Brad Gerstner and Bill Gurley \u2022 2026-06-11 \u2022 The SpaceX IPO, Fable 5, AI Capex Update & Market Check w/ Gavin Baker, Andrew Fox & Clark Tang | BG2",
     "last_proof_snippet": "I think we're all pretty AI-pilled, and if you're AI-pilled, that means we've got to build a lot more compute than the world thinks, and that these models are going to be a lot more valuable than people think. You combine that with their co",
@@ -38176,7 +38316,7 @@ const dashboardData = {
     "last_podcast_name": "All-In with Chamath, Jason, Sacks & Friedberg",
     "last_episode_date": "2026-08-13",
     "mention_score": 1,
-    "mention_score_decayed": 1,
+    "mention_score_decayed": 0.98,
     "last_main_idea": "Ron Emmanuel's investment thesis revolves around the need for progressive policies and effective government execution, which he believes are crucial for America's economic and social stability.",
     "last_proof_cite": "All-In with Chamath, Jason, Sacks & Friedberg \u2022 2026-08-13 \u2022 Rahm Emanuel: Trump's Foreign Policy, China, Europe's Decline, Immigration & DSA vs Democrats",
     "last_proof_snippet": "All right, everybody. We are super pleased to have Ron Emmanuel. Join us for the all and interview today. He was a senior advisor of Bill Clinton, last president, resigned over zero national debt. And he was a Bahamas chief of staff, mayor",
@@ -38679,7 +38819,7 @@ const dashboardData = {
     "last_podcast_name": "Monetary Matters with Jack Farley",
     "last_episode_date": "2026-08-07",
     "mention_score": 1,
-    "mention_score_decayed": 0.89,
+    "mention_score_decayed": 0.87,
     "last_main_idea": "Investing success comes from a deep understanding of both macroeconomic trends and single stock fundamental analysis, with a focus on companies that benefit from technological advancements and market disruptions.",
     "last_proof_cite": "Monetary Matters with Jack Farley \u2022 2026-08-07 \u2022 Misunderstood Stocks in Data Center Power, Cybersecurity, and Payments | Dean & Deiya Pernas",
     "last_proof_snippet": "Today I'm sitting down with Daya and Dean Pernos of Pernos Research. We're going to be talking about some of the most important themes and trends in investing such as energy power and data centers, software, AI, cybersecurity, payments. The",
@@ -38739,7 +38879,7 @@ const dashboardData = {
     "last_podcast_name": "Monetary Matters with Jack Farley",
     "last_episode_date": "2026-08-07",
     "mention_score": 1,
-    "mention_score_decayed": 0.89,
+    "mention_score_decayed": 0.87,
     "last_main_idea": "Investing success comes from a deep understanding of both macroeconomic trends and single stock fundamental analysis, with a focus on companies that benefit from technological advancements and market disruptions.",
     "last_proof_cite": "Monetary Matters with Jack Farley \u2022 2026-08-07 \u2022 Misunderstood Stocks in Data Center Power, Cybersecurity, and Payments | Dean & Deiya Pernas",
     "last_proof_snippet": "Today I'm sitting down with Daya and Dean Pernos of Pernos Research. We're going to be talking about some of the most important themes and trends in investing such as energy power and data centers, software, AI, cybersecurity, payments. The",
@@ -39037,7 +39177,7 @@ const dashboardData = {
     "last_podcast_name": "All-In with Chamath, Jason, Sacks & Friedberg",
     "last_episode_date": "2026-08-05",
     "mention_score": 1,
-    "mention_score_decayed": 0.85,
+    "mention_score_decayed": 0.83,
     "last_main_idea": "Investment in autonomous defense technologies is crucial for maintaining a competitive edge and can lead to significant advancements in military capabilities.",
     "last_proof_cite": "All-In with Chamath, Jason, Sacks & Friedberg \u2022 2026-08-05 \u2022 Saronic Founders: Autonomous Warships, China's 230X Advantage & Swarms of Robot Ships",
     "last_proof_snippet": "All right, everybody, welcome back to the all in interview series. I am thrilled. Really thrilled because Ceranic is a defense company that has been doing amazing work. And we are so lucky to have the co-founders here on the program. Welcom",
@@ -39096,7 +39236,7 @@ const dashboardData = {
     "last_podcast_name": "All-In with Chamath, Jason, Sacks & Friedberg",
     "last_episode_date": "2026-08-05",
     "mention_score": 1,
-    "mention_score_decayed": 0.85,
+    "mention_score_decayed": 0.83,
     "last_main_idea": "Investment in autonomous defense technologies is crucial for maintaining a competitive edge and can lead to significant advancements in military capabilities.",
     "last_proof_cite": "All-In with Chamath, Jason, Sacks & Friedberg \u2022 2026-08-05 \u2022 Saronic Founders: Autonomous Warships, China's 230X Advantage & Swarms of Robot Ships",
     "last_proof_snippet": "All right, everybody, welcome back to the all in interview series. I am thrilled. Really thrilled because Ceranic is a defense company that has been doing amazing work. And we are so lucky to have the co-founders here on the program. Welcom",
@@ -39533,7 +39673,7 @@ const dashboardData = {
     "last_podcast_name": "Monetary Matters with Jack Farley",
     "last_episode_date": "2026-08-02",
     "mention_score": 1,
-    "mention_score_decayed": 0.79,
+    "mention_score_decayed": 0.78,
     "last_main_idea": "The market is in a phase where a new narrative is needed to drive further growth, with a focus on value laggards and sectors less exposed to speculative excesses.",
     "last_proof_cite": "Monetary Matters with Jack Farley \u2022 2026-08-02 \u2022 Why Macro is \u201cPretty Risk-On\u201d for Equities | Tian Yang of Variant Perception",
     "last_proof_snippet": "I'm joined once again by TN Yang, co-founder and head of research at variant perception. TN, what do you think about the stock market right now, the S&P, the NASDAQ, the semiconductor stocks, they have been trading quite weekly for the past",
@@ -40269,7 +40409,7 @@ const dashboardData = {
     "last_podcast_name": "Moonshots with Peter Diamandis",
     "last_episode_date": "2026-07-24",
     "mention_score": 1,
-    "mention_score_decayed": 0.64,
+    "mention_score_decayed": 0.63,
     "last_main_idea": "Investing in AI is about more than just technology; it's an investment in the future of innovation, human potential, and the ability to solve complex problems.",
     "last_proof_cite": "Moonshots with Peter Diamandis \u2022 2026-07-24 \u2022 The Hugging Face Breach, Moonshot AI Valued at $20B, and Living to 1,759 Years Old | EP #273",
     "last_proof_snippet": "Pugging face, the leading open platform for sharing testing and deploying AI models, it got breached by an autonomous agent when the hugging face security team tried to analyze the attack, using either anthropic or open AI, both models refu",
@@ -40329,7 +40469,7 @@ const dashboardData = {
     "last_podcast_name": "Moonshots with Peter Diamandis",
     "last_episode_date": "2026-07-24",
     "mention_score": 1,
-    "mention_score_decayed": 0.64,
+    "mention_score_decayed": 0.63,
     "last_main_idea": "Investing in AI is about more than just technology; it's an investment in the future of innovation, human potential, and the ability to solve complex problems.",
     "last_proof_cite": "Moonshots with Peter Diamandis \u2022 2026-07-24 \u2022 The Hugging Face Breach, Moonshot AI Valued at $20B, and Living to 1,759 Years Old | EP #273",
     "last_proof_snippet": "Pugging face, the leading open platform for sharing testing and deploying AI models, it got breached by an autonomous agent when the hugging face security team tried to analyze the attack, using either anthropic or open AI, both models refu",
@@ -41459,7 +41599,7 @@ const dashboardData = {
     "last_podcast_name": "Monetary Matters with Jack Farley",
     "last_episode_date": "2026-07-14",
     "mention_score": 1,
-    "mention_score_decayed": 0.51,
+    "mention_score_decayed": 0.5,
     "last_main_idea": "Invest in companies at the forefront of AI and semiconductors that can leverage intelligence to perform high-cost, time-consuming tasks more efficiently and at scale.",
     "last_proof_cite": "Monetary Matters with Jack Farley \u2022 2026-07-14 \u2022 The Semiconductor Earnings Boom Is Just Getting Started | Ben Pouladian on why AI is Real, Nvidia is Mispriced, and Capacitors Are Overrated",
     "last_proof_snippet": "Got a special conversation today. I'm joined by Ben Kulandian of BEP Research. Ben is a specialist investor and analyst in the semi-conductor world and the semi-conductor supply chain. Of course, that is what powers AI Ben welcome to moneta",
@@ -42407,7 +42547,7 @@ const dashboardData = {
     "last_podcast_name": "Monetary Matters with Jack Farley",
     "last_episode_date": "2026-06-29",
     "mention_score": 1,
-    "mention_score_decayed": 0.36,
+    "mention_score_decayed": 0.35,
     "last_main_idea": "Investors should be cautious of current AI and data center investment booms, drawing parallels with the 1873 financial crisis, and be mindful of the risks associated with excessive leverage and mismanaged monetary policy.",
     "last_proof_cite": "Monetary Matters with Jack Farley \u2022 2026-06-29 \u2022 Rothschilds, Railroads, & Ruin | Liaquat Ahamed on \u201c1873\u201d (New Book!)",
     "last_proof_snippet": "I am so glad today we have a very special guest, one of my favorite authors of all time Leakwet Ahamed, who's the author of the new book 1873, The Roth Childs, The First Great Depression, and The Making of the Modern World Leakwet. Welcome",
@@ -42534,7 +42674,7 @@ const dashboardData = {
     "last_podcast_name": "Monetary Matters with Jack Farley",
     "last_episode_date": "2026-06-24",
     "mention_score": 1,
-    "mention_score_decayed": 0.32,
+    "mention_score_decayed": 0.31,
     "last_main_idea": "Plutus democratizes investment management by providing individual investors access to sophisticated strategies and research, previously limited to institutional investors, at a competitive fee.",
     "last_proof_cite": "Monetary Matters with Jack Farley \u2022 2026-06-24 \u2022 Inside The Platform Helping to Invest Like Substack & FinTwit's Top Researchers | Plutus",
     "last_proof_snippet": "I think for the first time, we're at a place where talented, portfolio builders, manager researchers have an avenue that is not limited to big banks and put us fully intends to incubate that talent and grow it. We really looked at it from t",
@@ -42848,7 +42988,7 @@ const dashboardData = {
     "last_podcast_name": "Latent Space: The AI Engineer Podcast",
     "last_episode_date": "2026-06-22",
     "mention_score": 1,
-    "mention_score_decayed": 0.31,
+    "mention_score_decayed": 0.3,
     "last_main_idea": "Invest in companies focused on AI safety and security, as they are essential players in the evolving tech landscape and can help organizations navigate the complexities of AI deployment and ensure compliance with security standards.",
     "last_proof_cite": "Latent Space: The AI Engineer Podcast \u2022 2026-06-22 \u2022 Red-Teaming after Mythos \u2014 Zico Kolter & Matt Fredrikson, Gray Swan",
     "last_proof_snippet": "Okay, we're here in a studio with Grace One, Matt and Zico welcome. Great to be here. Yeah. Thanks for having us. You're visiting from Pittsburgh? That's right. The home of all good computer science, I don't know if I'm oversteaving things.",
@@ -42911,7 +43051,7 @@ const dashboardData = {
     "last_podcast_name": "The a16z Show",
     "last_episode_date": "2026-06-22",
     "mention_score": 1,
-    "mention_score_decayed": 0.31,
+    "mention_score_decayed": 0.3,
     "last_main_idea": "Invest in founders who demonstrate resilience and adaptability, focusing on sectors like AI, defense, aerospace, infrastructure, and software.",
     "last_proof_cite": "The a16z Show \u2022 2026-06-22 \u2022 Jake Paul & Anti Fund: From Creator to Investor",
     "last_proof_snippet": "We're officially announcing the $100 million over subscribe to growth fund and some of the tier 1 names Maybe all the tier 1 names And are all at cognition, psoronic, modal When we announce anti-fine but like GW like you're making a mistake",
@@ -42975,7 +43115,7 @@ const dashboardData = {
     "last_podcast_name": "The a16z Show",
     "last_episode_date": "2026-06-22",
     "mention_score": 1,
-    "mention_score_decayed": 0.31,
+    "mention_score_decayed": 0.3,
     "last_main_idea": "Invest in founders who demonstrate resilience and adaptability, focusing on sectors like AI, defense, aerospace, infrastructure, and software.",
     "last_proof_cite": "The a16z Show \u2022 2026-06-22 \u2022 Jake Paul & Anti Fund: From Creator to Investor",
     "last_proof_snippet": "We're officially announcing the $100 million over subscribe to growth fund and some of the tier 1 names Maybe all the tier 1 names And are all at cognition, psoronic, modal When we announce anti-fine but like GW like you're making a mistake",
@@ -43034,7 +43174,7 @@ const dashboardData = {
     "last_podcast_name": "Monetary Matters with Jack Farley",
     "last_episode_date": "2026-06-21",
     "mention_score": 1,
-    "mention_score_decayed": 0.3,
+    "mention_score_decayed": 0.29,
     "last_main_idea": "Investors should be cautious about the long-term viability of AI companies with high operational losses and unsustainable financial models.",
     "last_proof_cite": "Monetary Matters with Jack Farley \u2022 2026-06-21 \u2022 Ed Zitron: The AI Bubble is Bleeding Cash, Here Are The Receipts",
     "last_proof_snippet": "Got a very special conversation. I am speaking to one of the most prolific skeptics about AI. I'm joined today by Ed Zitron, author of Where's Your Ed at Newsletter and the Better Offline Podcast. Ed, welcome to monetary matters. Thanks for",
@@ -43587,7 +43727,7 @@ const dashboardData = {
     "last_podcast_name": "BG2Pod with Brad Gerstner and Bill Gurley",
     "last_episode_date": "2026-06-11",
     "mention_score": 1,
-    "mention_score_decayed": 0.27,
+    "mention_score_decayed": 0.26,
     "last_main_idea": "SpaceX's unique position in the AI compute market and its rapid deployment capabilities make it a compelling long-term investment, with potential for significant revenue growth through Starlink and AI advancements.",
     "last_proof_cite": "BG2Pod with Brad Gerstner and Bill Gurley \u2022 2026-06-11 \u2022 The SpaceX IPO, Fable 5, AI Capex Update & Market Check w/ Gavin Baker, Andrew Fox & Clark Tang | BG2",
     "last_proof_snippet": "I think we're all pretty AI-pilled, and if you're AI-pilled, that means we've got to build a lot more compute than the world thinks, and that these models are going to be a lot more valuable than people think. You combine that with their co",
@@ -44435,7 +44575,7 @@ const dashboardData = {
     "last_podcast_name": "All-In with Chamath, Jason, Sacks & Friedberg",
     "last_episode_date": "2026-06-05",
     "mention_score": 1,
-    "mention_score_decayed": 0.21,
+    "mention_score_decayed": 0.2,
     "last_main_idea": "Investors should adapt to the current market dynamics by developing robust short-selling strategies and focusing on credit markets, while also assessing management quality and business resilience.",
     "last_proof_cite": "All-In with Chamath, Jason, Sacks & Friedberg \u2022 2026-06-05 \u2022 Dan Loeb: The Lost Art of Short Selling, and Why Stock Picking is Back",
     "last_proof_snippet": "Legendary Activist Investor, Dan Loeb, you pours the CEO and CIO of third point. The lost art of short selling has come back, and it's absolutely critical. Doesn't matter what you do, you have to be really selective. People talk about stock",
@@ -44627,7 +44767,7 @@ const dashboardData = {
     "last_podcast_name": "Moonshots with Peter Diamandis",
     "last_episode_date": "2026-06-03",
     "mention_score": 1,
-    "mention_score_decayed": 0.2,
+    "mention_score_decayed": 0.19,
     "last_main_idea": "Invest in companies at the forefront of AI advancements, particularly in large language models and robotics, as these technologies are expected to drive the next wave of innovation and growth.",
     "last_proof_cite": "Moonshots with Peter Diamandis \u2022 2026-06-03 \u2022 Why AGI Is Close but Not Here Yet | Ray Kurzweil | EP #261",
     "last_proof_snippet": "We just saw a story where Dennis is obvious, who you know, said 50, 50, whether we need another breakthrough to get to AGI. What do you think? Well, I think we need two things. So we've made a 75,000 million trillion folding grease over thi",
@@ -45484,66 +45624,6 @@ const dashboardData = {
       ]
     },
     "net_worth": "$45.0M"
-  },
-  {
-    "id": 252,
-    "name": "Dave Blondon",
-    "slug": "dave-blondon",
-    "bio": "Dave Blondon is an investor and entrepreneur known for his expertise in technology investments. He is recognized for his insights into AI investing and his contributions to the tech industry.",
-    "known_for": "His deep understanding of AI investments and his role in guiding tech companies through rapid growth phases.",
-    "net_worth_usd": 11900000.0,
-    "net_worth_source": "https://www.benzinga.com/sec/insider-trades/0001203475/david-b-blundin",
-    "net_worth_updated_at": "2026-05-16T14:05:00.481247",
-    "voice_tone": "",
-    "voice_style": "",
-    "voice_delivery_notes": "",
-    "voice_profile_updated_at": null,
-    "last_seen": "2026-05-16 19:04:11",
-    "last_episode_title": "Anthropic Partners With SpaceX AI, Leopold's $5.5B Bet, and the Singularity Economy | EP #255",
-    "last_podcast_name": "Moonshots with Peter Diamandis",
-    "last_episode_date": "2026-05-16",
-    "mention_score": 1,
-    "mention_score_decayed": 0.13,
-    "last_main_idea": "Invest in AI companies poised for exponential growth, particularly those with strategic partnerships and enterprise solutions.",
-    "last_proof_cite": "Moonshots with Peter Diamandis \u2022 2026-05-16 \u2022 Anthropic Partners With SpaceX AI, Leopold's $5.5B Bet, and the Singularity Economy | EP #255",
-    "last_proof_snippet": "Anthropic is taking over all of SpaceX's Colossus-1 data center in Memphis, and this immediately allowed Anthropic to double Claude Code rate limits. I think Rockus on life support. So this is Elon who had been for the past year shit talkin",
-    "supporting_takeaway": "Monitor strategic partnerships in the AI space for potential investment opportunities.",
-    "grokipedia_url": null,
-    "grokipedia_fetched_at": "2026-05-16T14:04:59.559577",
-    "pundit_profile": {
-      "source": "llm",
-      "source_model": "moonshot:moonshot-v1-8k",
-      "source_url": "",
-      "page_title": "Dave Blondon",
-      "fetched_at": "2026-05-16T19:04:59.559432+00:00",
-      "cliff_notes": "Dave Blondon has made a name for himself as an investor and entrepreneur with a focus on technology investments. His career has been marked by his ability to identify and support innovative tech companies, particularly in the field of artificial intelligence. Blondon's expertise has allowed him to contribute significantly to the tech industry, helping to shape its future and drive growth. His insights into AI investing have made him a sought-after voice in the tech community, and his work continues to influence the direction of technology and its impact on society.",
-      "derived": {
-        "current_role": "Investor and entrepreneur"
-      },
-      "infobox": {
-        "Born": "",
-        "Nationality": ""
-      },
-      "lead_paragraphs": [
-        "Dave Blondon has made a name for himself as an investor and entrepreneur with a focus on technology investments. His career has been marked by his ability to identify and support innovative tech companies, particularly in the field of artificial intelligence. Blondon's expertise has allowed him to contribute significantly to the tech industry, helping to shape its future and drive growth.",
-        "His insights into AI investing have made him a sought-after voice in the tech community, and his work continues to influence the direction of technology and its impact on society."
-      ],
-      "sections": [
-        {
-          "heading": "AI Investments",
-          "body": "Dave Blondon is recognized for his expertise in AI investments, helping to guide tech companies through rapid growth phases and contributing to the tech industry's development."
-        },
-        {
-          "heading": "Tech Industry Influence",
-          "body": "Blondon's insights into AI investing have made him a sought-after voice in the tech community, influencing the direction of technology and its impact on society."
-        },
-        {
-          "heading": "Innovation and Growth",
-          "body": "Throughout his career, Dave Blondon has been instrumental in identifying and supporting innovative tech companies, particularly in the field of artificial intelligence."
-        }
-      ]
-    },
-    "net_worth": "$11.9M"
   },
   {
     "id": 253,
@@ -48328,7 +48408,7 @@ const dashboardData = {
     "last_podcast_name": "The a16z Show",
     "last_episode_date": "2026-04-16",
     "mention_score": 1,
-    "mention_score_decayed": 0.07,
+    "mention_score_decayed": 0.06,
     "last_main_idea": "Investing in AI technologies that bridge the gap between formal and intuitive knowledge could offer significant returns as these become more integrated into daily life and business.",
     "last_proof_cite": "The a16z Show \u2022 2026-04-16 \u2022 Technology, Culture, and the Next AI Interface with sign\u00fcll",
     "last_proof_snippet": "Making powerful AI models more accessible can greatly improve their Net Promoter Score (NPS) by democratizing their use.",
@@ -48956,7 +49036,7 @@ const dashboardData = {
     "last_podcast_name": "Monetary Matters with Jack Farley",
     "last_episode_date": "2026-04-08",
     "mention_score": 1,
-    "mention_score_decayed": 0.06,
+    "mention_score_decayed": 0.05,
     "last_main_idea": "Investing in private credit, particularly through opportunistic funds, can provide higher returns by accepting additional credit risk and complexity, suitable for patient institutional capital.",
     "last_proof_cite": "Monetary Matters with Jack Farley \u2022 2026-04-08 \u2022 Private Credit \u201cDoom\u201d Narrative On Shaky Foundation? | Michael Haynes On Why Retail Outflows Are Real But Credit Foundations Are Solid",
     "last_proof_snippet": "Beach Point Capital Management primarily manages institutional capital, which is characterized as patient capital.",
@@ -49019,7 +49099,7 @@ const dashboardData = {
     "last_podcast_name": "The a16z Show",
     "last_episode_date": "2026-04-09",
     "mention_score": 1,
-    "mention_score_decayed": 0.06,
+    "mention_score_decayed": 0.05,
     "last_main_idea": "Invest in technologies and platforms that promote open-source contributions and technological pluralism to hedge against an uncertain future and ensure a more equitable distribution of power.",
     "last_proof_cite": "The a16z Show \u2022 2026-04-09 \u2022 Who Controls AI Acceleration? Vitalik Buterin and Guillaume Verdon Debate",
     "last_proof_snippet": "Effective accelerationism (Eacc) argues that progress is inevitable and restraint only seeds ground for others.",
