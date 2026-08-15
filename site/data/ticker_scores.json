@@ -345,7 +345,7 @@
     "contexts": []
   },
   {
-    "ticker": "GEONET",
+    "ticker": "ANDR",
     "total_score": 74.0,
     "raw_mention_count": 1,
     "unique_sources": 1,
@@ -360,7 +360,7 @@
     "contexts": []
   },
   {
-    "ticker": "GPU",
+    "ticker": "GEONET",
     "total_score": 74.0,
     "raw_mention_count": 1,
     "unique_sources": 1,
@@ -375,7 +375,7 @@
     "contexts": []
   },
   {
-    "ticker": "IBM",
+    "ticker": "GPU",
     "total_score": 74.0,
     "raw_mention_count": 1,
     "unique_sources": 1,
@@ -390,7 +390,7 @@
     "contexts": []
   },
   {
-    "ticker": "LLY",
+    "ticker": "IBM",
     "total_score": 74.0,
     "raw_mention_count": 1,
     "unique_sources": 1,
@@ -405,7 +405,7 @@
     "contexts": []
   },
   {
-    "ticker": "QTA",
+    "ticker": "LLY",
     "total_score": 74.0,
     "raw_mention_count": 1,
     "unique_sources": 1,
@@ -420,7 +420,7 @@
     "contexts": []
   },
   {
-    "ticker": "SNWGF",
+    "ticker": "QTA",
     "total_score": 74.0,
     "raw_mention_count": 1,
     "unique_sources": 1,
@@ -435,7 +435,7 @@
     "contexts": []
   },
   {
-    "ticker": "SPACEX",
+    "ticker": "SNWGF",
     "total_score": 74.0,
     "raw_mention_count": 1,
     "unique_sources": 1,
@@ -450,7 +450,7 @@
     "contexts": []
   },
   {
-    "ticker": "SQUARE",
+    "ticker": "SPACEX",
     "total_score": 74.0,
     "raw_mention_count": 1,
     "unique_sources": 1,
@@ -465,14 +465,14 @@
     "contexts": []
   },
   {
-    "ticker": "AEP",
-    "total_score": 72.0,
+    "ticker": "SQUARE",
+    "total_score": 74.0,
     "raw_mention_count": 1,
     "unique_sources": 1,
     "podcast_mentions": 1,
     "newsletter_mentions": 0,
     "rank": 32,
-    "score": 72.0,
+    "score": 74.0,
     "mentions": 1,
     "conviction_level": "medium",
     "contrarian_signal": "neutral",
@@ -480,7 +480,7 @@
     "contexts": []
   },
   {
-    "ticker": "ARBOMB",
+    "ticker": "AEP",
     "total_score": 72.0,
     "raw_mention_count": 1,
     "unique_sources": 1,
@@ -495,7 +495,7 @@
     "contexts": []
   },
   {
-    "ticker": "CROWD",
+    "ticker": "ARBOMB",
     "total_score": 72.0,
     "raw_mention_count": 1,
     "unique_sources": 1,
@@ -510,7 +510,7 @@
     "contexts": []
   },
   {
-    "ticker": "EBAY",
+    "ticker": "CROWD",
     "total_score": 72.0,
     "raw_mention_count": 1,
     "unique_sources": 1,
@@ -525,7 +525,7 @@
     "contexts": []
   },
   {
-    "ticker": "SAMSUNG ELECTRONICS",
+    "ticker": "EBAY",
     "total_score": 72.0,
     "raw_mention_count": 1,
     "unique_sources": 1,
@@ -540,7 +540,7 @@
     "contexts": []
   },
   {
-    "ticker": "SK HYNIX",
+    "ticker": "SAMSUNG ELECTRONICS",
     "total_score": 72.0,
     "raw_mention_count": 1,
     "unique_sources": 1,
@@ -555,7 +555,7 @@
     "contexts": []
   },
   {
-    "ticker": "SMH",
+    "ticker": "SK HYNIX",
     "total_score": 72.0,
     "raw_mention_count": 1,
     "unique_sources": 1,
@@ -570,7 +570,7 @@
     "contexts": []
   },
   {
-    "ticker": "WORK",
+    "ticker": "SMH",
     "total_score": 72.0,
     "raw_mention_count": 1,
     "unique_sources": 1,
@@ -585,7 +585,7 @@
     "contexts": []
   },
   {
-    "ticker": "ZEN",
+    "ticker": "WORK",
     "total_score": 72.0,
     "raw_mention_count": 1,
     "unique_sources": 1,
@@ -600,14 +600,14 @@
     "contexts": []
   },
   {
-    "ticker": "ARBOB GASOLINE",
-    "total_score": 70.0,
+    "ticker": "ZEN",
+    "total_score": 72.0,
     "raw_mention_count": 1,
     "unique_sources": 1,
     "podcast_mentions": 1,
     "newsletter_mentions": 0,
     "rank": 41,
-    "score": 70.0,
+    "score": 72.0,
     "mentions": 1,
     "conviction_level": "medium",
     "contrarian_signal": "neutral",
@@ -615,7 +615,7 @@
     "contexts": []
   },
   {
-    "ticker": "E-TORO",
+    "ticker": "ARBOB GASOLINE",
     "total_score": 70.0,
     "raw_mention_count": 1,
     "unique_sources": 1,
@@ -630,7 +630,7 @@
     "contexts": []
   },
   {
-    "ticker": "EMAX",
+    "ticker": "E-TORO",
     "total_score": 70.0,
     "raw_mention_count": 1,
     "unique_sources": 1,
@@ -645,7 +645,7 @@
     "contexts": []
   },
   {
-    "ticker": "INTC",
+    "ticker": "EMAX",
     "total_score": 70.0,
     "raw_mention_count": 1,
     "unique_sources": 1,
@@ -660,7 +660,7 @@
     "contexts": []
   },
   {
-    "ticker": "MS",
+    "ticker": "INTC",
     "total_score": 70.0,
     "raw_mention_count": 1,
     "unique_sources": 1,
@@ -675,7 +675,7 @@
     "contexts": []
   },
   {
-    "ticker": "NOW",
+    "ticker": "MS",
     "total_score": 70.0,
     "raw_mention_count": 1,
     "unique_sources": 1,
@@ -690,7 +690,7 @@
     "contexts": []
   },
   {
-    "ticker": "PANW",
+    "ticker": "NOW",
     "total_score": 70.0,
     "raw_mention_count": 1,
     "unique_sources": 1,
@@ -705,7 +705,7 @@
     "contexts": []
   },
   {
-    "ticker": "SMP-500",
+    "ticker": "PANW",
     "total_score": 70.0,
     "raw_mention_count": 1,
     "unique_sources": 1,
@@ -720,7 +720,7 @@
     "contexts": []
   },
   {
-    "ticker": "SPCE",
+    "ticker": "SMP-500",
     "total_score": 70.0,
     "raw_mention_count": 1,
     "unique_sources": 1,
@@ -735,14 +735,14 @@
     "contexts": []
   },
   {
-    "ticker": "CRM",
-    "total_score": 68.0,
+    "ticker": "SPCE",
+    "total_score": 70.0,
     "raw_mention_count": 1,
     "unique_sources": 1,
     "podcast_mentions": 1,
     "newsletter_mentions": 0,
     "rank": 50,
-    "score": 68.0,
+    "score": 70.0,
     "mentions": 1,
     "conviction_level": "medium",
     "contrarian_signal": "neutral",

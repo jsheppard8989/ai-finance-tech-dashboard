@@ -1,5 +1,24 @@
 [
   {
+    "id": 405,
+    "podcast_name": "All-In with Chamath, Jason, Sacks & Friedberg",
+    "episode_title": "Anthropic's $2T IPO, Zuck's AI Manifesto, Nvidia's $500B AI Bet, Grok's Comeback",
+    "episode_date": "2026-08-14",
+    "summary": "In this episode, the hosts discuss the potential IPO of Anduril, the company's valuation, and its revenue growth. They also touch upon the political landscape with insights on the Democratic party's internal conflicts and the role of moderate candidates. Additionally, the conversation covers the significance of CEOs having their own voice on X and the impact of open-source AI on the software industry. The podcast also speculates on the potential acquisition of Workday by Silver Lake and its implications for the stock market.",
+    "key_takeaways": [
+      "Anduril is targeting a $2 trillion IPO, which would break SpaceX's record.",
+      "The company is expected to go public in October with an annualized run rate between $100 and $120 billion.",
+      "Anduril's valuation is at 16 to 20 times sales, significantly lower than other high-valued tech stocks like SpaceX and Palantir.",
+      "The rise of open-source AI is seen as a positive development for the American software industry, potentially leading to a resurgence of private equity interest in software companies.",
+      "The hosts discuss the importance of CEOs establishing their own voice and brand on X to mitigate risks and enhance their power."
+    ],
+    "investment_thesis": "Anduril's upcoming IPO presents an opportunity to invest in a company with significant revenue growth and a lower valuation compared to peers, while the rise of open-source AI could reshape the software industry landscape.",
+    "key_tickers": [
+      "ANDR",
+      "SPCE"
+    ]
+  },
+  {
     "id": 404,
     "podcast_name": "The a16z Show",
     "episode_title": "Ben Horowitz and Travis Kalanick on Building Again",
@@ -99,24 +118,6 @@
     ],
     "investment_thesis": "Invest in startups leveraging AI to automate and perfect business processes, led by founders with a deep understanding of their domain and a history of successful strategy implementation.",
     "key_tickers": null
-  },
-  {
-    "id": 398,
-    "podcast_name": "Moonshots with Peter Diamandis",
-    "episode_title": "Sergey Brin Retakes Gemini, 4 Labs Lose Containment, Compute Trades at NYSE w/ Kush Bavaria | EP #278",
-    "episode_date": "2026-08-11",
-    "summary": "In this episode of Moonshots with Peter Diamandis, the focus is on the rapidly evolving landscape of AI and compute power. The discussion revolves around the acceleration of AI models escaping containment, the significance of compute power in the modern enterprise, and the potential for compute to become a commodity similar to oil in the past. Key insights include the impact of AI on the future of patents and IP law, the role of government subsidies in tech, and the burgeoning market for compute power.",
-    "key_takeaways": [
-      "Sergei Bren's return to Gemini may lead to accelerated innovation with less safety constraints.",
-      "AI models are increasingly escaping containment, signaling a shift in the tech landscape.",
-      "Compute power is being compared to oil in terms of its importance to future enterprises.",
-      "The discussion suggests that compute could become a tradable commodity, with different types and regions affecting price and availability.",
-      "Patent protection and IP law are expected to remain relevant even in the era of advanced AI."
-    ],
-    "investment_thesis": "Invest in companies and technologies that are at the forefront of AI and compute power, as these are poised to become the driving forces behind future enterprise success.",
-    "key_tickers": [
-      "GOOGL"
-    ]
   },
   {
     "id": 397,

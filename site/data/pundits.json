@@ -455,7 +455,7 @@
     "last_podcast_name": "Monetary Matters with Jack Farley",
     "last_episode_date": "2026-07-28",
     "mention_score": 2,
-    "mention_score_decayed": 1.41,
+    "mention_score_decayed": 1.38,
     "last_main_idea": "The bond market is facing significant challenges due to supply and demand imbalances, fiscal pressures, and aging populations, making gold an attractive store of value in the current economic climate.",
     "last_proof_cite": "Monetary Matters with Jack Farley \u2022 2026-07-28 \u2022 Luke Gromen: Yield Curve Control is the Only Way to Stop a Global Bond Crisis",
     "last_proof_snippet": "Germany, Japan, and Korea are all historically big creditors from a sovereign perspective. And in particular, Japan, if they're borrowing money to do defense to me, they have turned sellers of bonds as well. So now they're selling, they're",
@@ -575,7 +575,7 @@
     "last_podcast_name": "All-In with Chamath, Jason, Sacks & Friedberg",
     "last_episode_date": "2026-07-10",
     "mention_score": 2,
-    "mention_score_decayed": 0.89,
+    "mention_score_decayed": 0.87,
     "last_main_idea": "Investing in AI infrastructure and data center companies could yield significant returns as the demand for AI continues to grow exponentially.",
     "last_proof_cite": "All-In with Chamath, Jason, Sacks & Friedberg \u2022 2026-07-10 \u2022 Open Source Wins, AGI Is Here, and Scorsese's AI Toolkit with CEOs of Cerebras & Black Forest Labs",
     "last_proof_snippet": "We are in the race for super intelligence and Andrew Feldman is back and obviously CEO and founders Ceribres doing in friendships pioneered the space, had a successful IPO. We've talked about this a couple of times, we got to see each other",
@@ -1664,6 +1664,69 @@
         }
       ]
     }
+  },
+  {
+    "id": 403,
+    "name": "Evan Baker",
+    "slug": "evan-baker",
+    "bio": "Evan Baker is an investor and financial analyst known for his insights on market trends and investment strategies. He is a regular contributor to discussions on finance and investment, offering his expertise to a global audience.",
+    "known_for": "His expertise in market trends and investment strategies that guide investors in making informed decisions.",
+    "net_worth_usd": 11000000.0,
+    "net_worth_source": "https://www.gurufocus.com/insider/32706/evan-bakst",
+    "net_worth_updated_at": "2026-08-14T23:35:47.208238",
+    "voice_tone": "Knowledgeable and analytical.",
+    "voice_style": "Factual and data-driven.",
+    "voice_delivery_notes": "Clear and concise with a focus on details.",
+    "voice_profile_updated_at": "2026-08-15 04:35:27",
+    "last_seen": "2026-08-15 04:35:27",
+    "last_episode_title": "Anthropic's $2T IPO, Zuck's AI Manifesto, Nvidia's $500B AI Bet, Grok's Comeback",
+    "last_podcast_name": "All-In with Chamath, Jason, Sacks & Friedberg",
+    "last_episode_date": "2026-08-14",
+    "mention_score": 1,
+    "mention_score_decayed": 1,
+    "last_main_idea": "Anduril's upcoming IPO presents an opportunity to invest in a company with significant revenue growth and a lower valuation compared to peers, while the rise of open-source AI could reshape the software industry landscape.",
+    "last_proof_cite": "All-In with Chamath, Jason, Sacks & Friedberg \u2022 2026-08-14 \u2022 Anthropic's $2T IPO, Zuck's AI Manifesto, Nvidia's $500B AI Bet, Grok's Comeback",
+    "last_proof_snippet": "All right, everybody. Welcome back. We all in podcast. The number one podcast in the world. David Sachs and Evan Baker are with us this week. We got a, we got a short crew, but a long docket. And we are going to rock at how are you doing? G",
+    "supporting_takeaway": "The company is expected to go public in October with an annualized run rate between $100 and $120 billion.",
+    "grokipedia_url": null,
+    "grokipedia_fetched_at": "2026-08-14T23:35:46.183875",
+    "pundit_profile": {
+      "source": "llm",
+      "source_model": "moonshot:moonshot-v1-8k",
+      "source_url": "",
+      "page_title": "Evan Baker",
+      "fetched_at": "2026-08-15T04:35:46.183731+00:00",
+      "cliff_notes": "Evan Baker has established himself as a prominent figure in the financial sector, with a career that revolves around investment and market analysis. His contributions to podcasts and interviews have provided valuable insights to a wide range of audiences, from individual investors to industry professionals. Baker's career has been marked by a deep understanding of financial markets and a keen ability to predict trends, which has made him a sought-after commentator. His work in the field has not only helped shape investment strategies but has also educated the public on the complexities of the financial world.",
+      "derived": {
+        "current_role": "Investor and Financial Analyst"
+      },
+      "infobox": {
+        "Nationality": "American"
+      },
+      "lead_paragraphs": [
+        "Evan Baker has established himself as a prominent figure in the financial sector, with a career that revolves around investment and market analysis. His contributions to podcasts and interviews have provided valuable insights to a wide range of audiences, from individual investors to industry professionals. Baker's career has been marked by a deep understanding of financial markets and a keen ability to predict trends, which has made him a sought-after commentator.",
+        "His work in the field has not only helped shape investment strategies but has also educated the public on the complexities of the financial world."
+      ],
+      "sections": [
+        {
+          "heading": "Market Trends",
+          "body": "Evan Baker is recognized for his ability to dissect and predict market trends, providing investors with valuable foresight into potential shifts in the financial landscape."
+        },
+        {
+          "heading": "Investment Strategies",
+          "body": "Baker's expertise in crafting investment strategies has helped many navigate the complexities of the financial markets, optimizing returns while mitigating risks."
+        },
+        {
+          "heading": "Financial Analysis",
+          "body": "His analytical skills have been pivotal in breaking down complex financial data, making it accessible and actionable for a broad spectrum of investors."
+        },
+        {
+          "heading": "Podcast Contributions",
+          "body": "As a regular on financial podcasts, Evan Baker has shared his insights with a global audience, discussing a range of topics from SpaceX investments to the broader implications of market movements."
+        }
+      ]
+    },
+    "net_worth": "$11.0M"
   },
   {
     "id": 402,
@@ -3837,7 +3900,7 @@
     "last_podcast_name": "Moonshots with Peter Diamandis",
     "last_episode_date": "2026-07-24",
     "mention_score": 1,
-    "mention_score_decayed": 0.63,
+    "mention_score_decayed": 0.62,
     "last_main_idea": "Investing in AI is about more than just technology; it's an investment in the future of innovation, human potential, and the ability to solve complex problems.",
     "last_proof_cite": "Moonshots with Peter Diamandis \u2022 2026-07-24 \u2022 The Hugging Face Breach, Moonshot AI Valued at $20B, and Living to 1,759 Years Old | EP #273",
     "last_proof_snippet": "Pugging face, the leading open platform for sharing testing and deploying AI models, it got breached by an autonomous agent when the hugging face security team tried to analyze the attack, using either anthropic or open AI, both models refu",
@@ -3897,7 +3960,7 @@
     "last_podcast_name": "Moonshots with Peter Diamandis",
     "last_episode_date": "2026-07-24",
     "mention_score": 1,
-    "mention_score_decayed": 0.63,
+    "mention_score_decayed": 0.62,
     "last_main_idea": "Investing in AI is about more than just technology; it's an investment in the future of innovation, human potential, and the ability to solve complex problems.",
     "last_proof_cite": "Moonshots with Peter Diamandis \u2022 2026-07-24 \u2022 The Hugging Face Breach, Moonshot AI Valued at $20B, and Living to 1,759 Years Old | EP #273",
     "last_proof_snippet": "Pugging face, the leading open platform for sharing testing and deploying AI models, it got breached by an autonomous agent when the hugging face security team tried to analyze the attack, using either anthropic or open AI, both models refu",
@@ -5027,7 +5090,7 @@
     "last_podcast_name": "Monetary Matters with Jack Farley",
     "last_episode_date": "2026-07-14",
     "mention_score": 1,
-    "mention_score_decayed": 0.5,
+    "mention_score_decayed": 0.49,
     "last_main_idea": "Invest in companies at the forefront of AI and semiconductors that can leverage intelligence to perform high-cost, time-consuming tasks more efficiently and at scale.",
     "last_proof_cite": "Monetary Matters with Jack Farley \u2022 2026-07-14 \u2022 The Semiconductor Earnings Boom Is Just Getting Started | Ben Pouladian on why AI is Real, Nvidia is Mispriced, and Capacitors Are Overrated",
     "last_proof_snippet": "Got a special conversation today. I'm joined by Ben Kulandian of BEP Research. Ben is a specialist investor and analyst in the semi-conductor world and the semi-conductor supply chain. Of course, that is what powers AI Ben welcome to moneta",
@@ -6479,7 +6542,7 @@
     "last_podcast_name": "The a16z Show",
     "last_episode_date": "2026-06-22",
     "mention_score": 1,
-    "mention_score_decayed": 0.3,
+    "mention_score_decayed": 0.29,
     "last_main_idea": "Invest in founders who demonstrate resilience and adaptability, focusing on sectors like AI, defense, aerospace, infrastructure, and software.",
     "last_proof_cite": "The a16z Show \u2022 2026-06-22 \u2022 Jake Paul & Anti Fund: From Creator to Investor",
     "last_proof_snippet": "We're officially announcing the $100 million over subscribe to growth fund and some of the tier 1 names Maybe all the tier 1 names And are all at cognition, psoronic, modal When we announce anti-fine but like GW like you're making a mistake",
@@ -6543,7 +6606,7 @@
     "last_podcast_name": "The a16z Show",
     "last_episode_date": "2026-06-22",
     "mention_score": 1,
-    "mention_score_decayed": 0.3,
+    "mention_score_decayed": 0.29,
     "last_main_idea": "Invest in founders who demonstrate resilience and adaptability, focusing on sectors like AI, defense, aerospace, infrastructure, and software.",
     "last_proof_cite": "The a16z Show \u2022 2026-06-22 \u2022 Jake Paul & Anti Fund: From Creator to Investor",
     "last_proof_snippet": "We're officially announcing the $100 million over subscribe to growth fund and some of the tier 1 names Maybe all the tier 1 names And are all at cognition, psoronic, modal When we announce anti-fine but like GW like you're making a mistake",
@@ -6661,7 +6724,7 @@
     "last_podcast_name": "Monetary Matters with Jack Farley",
     "last_episode_date": "2026-06-20",
     "mention_score": 1,
-    "mention_score_decayed": 0.29,
+    "mention_score_decayed": 0.28,
     "last_main_idea": "Investors should focus on individual company fundamentals in the AI and semiconductor sectors, rather than broad macro trends, and be cautious of inflated valuations and unprofitable business models.",
     "last_proof_cite": "Monetary Matters with Jack Farley \u2022 2026-06-20 \u2022 Jim Chanos & Val Zlatev: Long and Short Alpha in AI, Semiconductors, Data Centers, Neoclouds, and Data Centers | MacroMinds Symposium 2026",
     "last_proof_snippet": "Where's to find value in the AI boom on the long side and the short side? This is the question that I asked two great investors earlier this month when I had the privilege of hosting Jim Channos and Val Zlathe. Jim is a legendary short sell",
@@ -6726,7 +6789,7 @@
     "last_podcast_name": "Monetary Matters with Jack Farley",
     "last_episode_date": "2026-06-20",
     "mention_score": 1,
-    "mention_score_decayed": 0.29,
+    "mention_score_decayed": 0.28,
     "last_main_idea": "Investors should focus on individual company fundamentals in the AI and semiconductor sectors, rather than broad macro trends, and be cautious of inflated valuations and unprofitable business models.",
     "last_proof_cite": "Monetary Matters with Jack Farley \u2022 2026-06-20 \u2022 Jim Chanos & Val Zlatev: Long and Short Alpha in AI, Semiconductors, Data Centers, Neoclouds, and Data Centers | MacroMinds Symposium 2026",
     "last_proof_snippet": "Where's to find value in the AI boom on the long side and the short side? This is the question that I asked two great investors earlier this month when I had the privilege of hosting Jim Channos and Val Zlathe. Jim is a legendary short sell",
@@ -11392,7 +11455,7 @@
     "last_podcast_name": "Monetary Matters with Jack Farley",
     "last_episode_date": "2026-04-18",
     "mention_score": 1,
-    "mention_score_decayed": 0.08,
+    "mention_score_decayed": 0.07,
     "last_main_idea": "Investment in private credit and non-depository financial institutions presents both opportunities and risks for banks, with the potential for debt to be converted into equity in challenging economic conditions.",
     "last_proof_cite": "Monetary Matters with Jack Farley \u2022 2026-04-18 \u2022 Banks' \u201cConsiderable\u201d Exposure to Private Credit | Chris Whalen on Banks\u2019 Loans to NBFIs, Plus CRE, Gold, and Payments",
     "last_proof_snippet": "Large banks are adept at managing exposure to non-depository financial institutions, often selling undesirable exposures and buying protection through CLOs.",
@@ -13335,7 +13398,7 @@
     "last_podcast_name": "Monetary Matters with Jack Farley",
     "last_episode_date": "2026-04-01",
     "mention_score": 1,
-    "mention_score_decayed": 0.05,
+    "mention_score_decayed": 0.04,
     "last_main_idea": "Pictay asset management's AI-enhanced ETFs (PQNT and PQUS) aim to provide enhanced equity exposure through the use of artificial intelligence.",
     "last_proof_cite": "Monetary Matters with Jack Farley \u2022 2026-04-01 \u2022 Why $200 Oil Won\u2019t Spike Inflation to 9% | Anna Wong on Recession Probability, PCE vs CPI, and Fed Reaction Function In A Scenario of Soaring Energy Prices",
     "last_proof_snippet": "Oil futures curve suggests prices will decline to around $80 in the second half of the year.",

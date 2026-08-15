@@ -24,6 +24,26 @@
       "podcast_episode_id": 404
     },
     {
+      "id": 420,
+      "title": "Anthropic's $2T IPO, Zuck's AI Manifesto, Nvidia's $500B AI Bet, Grok's Comeback",
+      "source_type": "podcast",
+      "source_name": "All-In with Chamath, Jason, Sacks & Friedberg",
+      "source_date": "2026-08-14",
+      "summary": "In this episode, the hosts discuss the potential IPO of Anduril, the company's valuation, and its revenue growth. They also touch upon the political landscape with insights on the Democratic party's internal conflicts and the role of moderate candidates. Additionally, the conversation covers the significance of CEOs having their own voice on X and the impact of open-source AI on the software industry. The podcast also speculates on the potential acquisition of Workday by Silver Lake and its implications for the stock market.",
+      "key_takeaway": "Anduril's upcoming IPO presents an opportunity to invest in a company with significant revenue growth and a lower valuation compared to peers, while the rise of open-source AI could reshape the software industry landscape.",
+      "tickers_mentioned": [
+        "ANDR",
+        "SPCE"
+      ],
+      "sentiment": "bullish",
+      "display_on_main": 1,
+      "display_order": 0,
+      "added_date": "2026-08-14",
+      "archived_date": null,
+      "archived_reason": null,
+      "podcast_episode_id": 405
+    },
+    {
       "id": 416,
       "title": "Rahm Emanuel: Trump's Foreign Policy, China, Europe's Decline, Immigration & DSA vs Democrats",
       "source_type": "podcast",
@@ -170,7 +190,7 @@
         "GOOGL"
       ],
       "sentiment": "neutral",
-      "display_on_main": 1,
+      "display_on_main": 0,
       "display_order": 0,
       "added_date": "2026-08-12",
       "archived_date": null,
@@ -8329,8 +8349,8 @@
       "term": "Hyperscalers",
       "description": "Companies that invest heavily in AI infrastructure, often outpacing their earnings, raising questions about the long-term sustainability of such investments.",
       "first_detected_date": "2026-06-19",
-      "last_mentioned_date": "2026-08-11",
-      "mention_count": 16,
+      "last_mentioned_date": "2026-08-14",
+      "mention_count": 17,
       "source_podcasts": null,
       "status": "active",
       "investment_implications": "Investors should assess the financial health of AI companies and their ability to sustain growth.",
@@ -8339,8 +8359,8 @@
       "archived_reason": null,
       "first_detected_episode_id": 302,
       "first_detected_speaker": "Chamath Palihapitiya, Jason Calacanis (hosts)",
-      "last_mentioned_episode_id": 398,
-      "last_mentioned_speaker": "Kush Bavaria"
+      "last_mentioned_episode_id": 405,
+      "last_mentioned_speaker": "David Sachs, Evan Baker"
     },
     {
       "id": 256,
@@ -8761,8 +8781,8 @@
       "term": "Distillation",
       "description": "The process of training a smaller AI model on the output of a larger model to achieve similar results with less computational power.",
       "first_detected_date": "2026-05-15",
-      "last_mentioned_date": "2026-08-13",
-      "mention_count": 36,
+      "last_mentioned_date": "2026-08-14",
+      "mention_count": 37,
       "source_podcasts": null,
       "status": "active",
       "investment_implications": "Distillation can make AI more accessible and cost-effective, impacting how businesses allocate resources for AI development.",
@@ -8771,8 +8791,8 @@
       "archived_reason": null,
       "first_detected_episode_id": 221,
       "first_detected_speaker": null,
-      "last_mentioned_episode_id": 403,
-      "last_mentioned_speaker": "Dave Blondon, Salim Ismail"
+      "last_mentioned_episode_id": 405,
+      "last_mentioned_speaker": "David Sachs, Evan Baker"
     },
     {
       "id": 174,
@@ -9389,20 +9409,20 @@
     {
       "id": 78,
       "term": "Open-Source AI Models",
-      "description": "AI models that are publicly available and can be used and modified by anyone, potentially commoditizing certain aspects of AI technology.",
+      "description": "AI models that are publicly available and can be used, modified, and shared by anyone, fostering innovation and collaboration in the AI field.",
       "first_detected_date": "2026-03-29",
-      "last_mentioned_date": "2026-08-07",
-      "mention_count": 16,
+      "last_mentioned_date": "2026-08-14",
+      "mention_count": 17,
       "source_podcasts": null,
       "status": "active",
-      "investment_implications": "Open-source AI models can increase demand for cloud providers and GPU providers, affecting the AI ecosystem.",
+      "investment_implications": "The rise of open-source AI models could lead to increased competition and potentially lower costs in the software industry, impacting investment strategies.",
       "display_on_main": 0,
       "archived_date": null,
       "archived_reason": null,
       "first_detected_episode_id": null,
       "first_detected_speaker": null,
-      "last_mentioned_episode_id": 392,
-      "last_mentioned_speaker": "Daya Pernos, Dean Pernos"
+      "last_mentioned_episode_id": 405,
+      "last_mentioned_speaker": "David Sachs, Evan Baker"
     },
     {
       "id": 79,
@@ -9679,8 +9699,8 @@
       "term": "AI Factory",
       "description": "A concept where AI operations are centralized and optimized in a factory-like setting, emphasizing efficiency and scale in AI production.",
       "first_detected_date": "2026-03-17",
-      "last_mentioned_date": "2026-06-10",
-      "mention_count": 3,
+      "last_mentioned_date": "2026-08-14",
+      "mention_count": 4,
       "source_podcasts": null,
       "status": "active",
       "investment_implications": "Investors should consider the potential for companies to transform into AI factories, indicating a shift towards more integrated and efficient AI operations.",
@@ -9689,8 +9709,8 @@
       "archived_reason": null,
       "first_detected_episode_id": 71,
       "first_detected_speaker": null,
-      "last_mentioned_episode_id": 276,
-      "last_mentioned_speaker": null
+      "last_mentioned_episode_id": 405,
+      "last_mentioned_speaker": "David Sachs, Evan Baker"
     },
     {
       "id": 57,
@@ -9895,8 +9915,8 @@
       "term": "AI Race",
       "description": "The global competition among nations to lead in artificial intelligence development and application.",
       "first_detected_date": "2026-03-11",
-      "last_mentioned_date": "2026-08-07",
-      "mention_count": 25,
+      "last_mentioned_date": "2026-08-14",
+      "mention_count": 26,
       "source_podcasts": null,
       "status": "active",
       "investment_implications": "Investing in companies at the forefront of AI could yield significant returns as the technology becomes more pervasive.",
@@ -9905,8 +9925,8 @@
       "archived_reason": null,
       "first_detected_episode_id": 60,
       "first_detected_speaker": null,
-      "last_mentioned_episode_id": 391,
-      "last_mentioned_speaker": "Michael Kratsios"
+      "last_mentioned_episode_id": 405,
+      "last_mentioned_speaker": "David Sachs, Evan Baker"
     },
     {
       "id": 12,
@@ -9967,8 +9987,8 @@
       "term": "AI Agents",
       "description": "Software entities that perform tasks autonomously, similar to human employees.",
       "first_detected_date": "2026-02-28",
-      "last_mentioned_date": "2026-08-13",
-      "mention_count": 61,
+      "last_mentioned_date": "2026-08-14",
+      "mention_count": 62,
       "source_podcasts": null,
       "status": "active",
       "investment_implications": "AI Agents can automate business processes, leading to operational efficiency and scalability.",
@@ -9977,8 +9997,8 @@
       "archived_reason": null,
       "first_detected_episode_id": 31,
       "first_detected_speaker": null,
-      "last_mentioned_episode_id": 403,
-      "last_mentioned_speaker": "Dave Blondon, Salim Ismail"
+      "last_mentioned_episode_id": 405,
+      "last_mentioned_speaker": "David Sachs, Evan Baker"
     },
     {
       "id": 38,
