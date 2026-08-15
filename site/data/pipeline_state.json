@@ -1,7 +1,7 @@
 {
-  "generated_at": "2026-08-14T23:37:02.312381",
-  "last_updated": "2026-08-14T23:37:02.312381",
-  "last_pipeline_run": "2026-08-14T23:37:02.312381",
+  "generated_at": "2026-08-15T05:02:37.164715",
+  "last_updated": "2026-08-15T05:02:37.164715",
+  "last_pipeline_run": "2026-08-15T05:02:37.164715",
   "main_page": {
     "overton": 13,
     "insights": 8,
@@ -11,41 +11,23 @@
     "ticker_mentions": 213,
     "podcast_episodes": 378,
     "newsletters": 7,
-    "daily_scores": 150,
+    "daily_scores": 151,
     "overton_terms_total": 121,
     "latest_insights_total": 392,
     "today_mentions": {
       "podcast": 1
     },
-    "podcasts_analyzed": 2
+    "podcasts_analyzed": 0
   },
   "step_results": {
-    "downloaded": 2,
-    "transcribed": 2,
-    "analyzed": 1,
-    "insight_created": 1,
-    "published": 1,
-    "total": 2
+    "downloaded": 1,
+    "transcribed": 1,
+    "analyzed": 0,
+    "insight_created": 0,
+    "published": 0,
+    "total": 1
   },
   "episodes": [
-    {
-      "id": "b9acd3c5-2292-42ed-8fcb-4228ccea6dfd",
-      "podcast": "All-In with Chamath, Jason, Sacks & Friedberg",
-      "title": "Anthropic's $2T IPO, Zuck's AI Manifesto, Nvidia's $500B AI Bet, Grok's Comeback",
-      "published": "2026-08-14",
-      "rss_guid": "b9acd3c5-2292-42ed-8fcb-4228ccea6dfd",
-      "stages": {
-        "downloaded": true,
-        "transcribed": true,
-        "analyzed": true,
-        "insight_created": true,
-        "published": true
-      },
-      "stage_reasons": {},
-      "first_blocker": null,
-      "remediation_by_stage": {},
-      "status": "complete"
-    },
     {
       "id": "bf461c11-8e10-4124-8c40-f24dab393cf9",
       "podcast": "All-In with Chamath, Jason, Sacks & Friedberg",
@@ -120,7 +102,7 @@
       "title": "Google's AI Brain Drain, SpaceX's Huge Quarter, Airtable's 90% Collapse, US Data Fuels China AI",
       "status": "needs_analysis",
       "published": "2026-08-08",
-      "age_days": 6,
+      "age_days": 7,
       "next_blocker": "analyzed"
     }
   ],
