@@ -1,7 +1,7 @@
 {
-  "generated_at": "2026-08-15T23:39:15.503854",
-  "last_updated": "2026-08-15T23:39:15.503854",
-  "last_pipeline_run": "2026-08-15T23:39:15.503854",
+  "generated_at": "2026-08-16T05:02:47.011785",
+  "last_updated": "2026-08-16T05:02:47.011785",
+  "last_pipeline_run": "2026-08-16T05:02:47.011785",
   "main_page": {
     "overton": 13,
     "insights": 8,
@@ -164,7 +164,7 @@
       "title": "Google's AI Brain Drain, SpaceX's Huge Quarter, Airtable's 90% Collapse, US Data Fuels China AI",
       "status": "needs_analysis",
       "published": "2026-08-08",
-      "age_days": 7,
+      "age_days": 8,
       "next_blocker": "analyzed"
     }
   ],
