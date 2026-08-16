@@ -1,6 +1,6 @@
 [
   {
-    "id": 51575,
+    "id": 51691,
     "name": "Travis Kalanick",
     "slug": "travis-kalanick",
     "bio": null,
@@ -12,7 +12,7 @@
     "appearance_count": 1
   },
   {
-    "id": 51577,
+    "id": 51693,
     "name": "Emad Mostaque",
     "slug": "emad-mostaque",
     "bio": null,
@@ -24,7 +24,7 @@
     "appearance_count": 2
   },
   {
-    "id": 51576,
+    "id": 51692,
     "name": "Rahm Emanuel",
     "slug": "rahm-emanuel",
     "bio": null,
@@ -36,7 +36,7 @@
     "appearance_count": 1
   },
   {
-    "id": 51578,
+    "id": 51694,
     "name": "Milton Berg",
     "slug": "milton-berg",
     "bio": "Milton Berg is a veteran technical analyst and CEO of Milton Berg Advisors, specializing in market turning-point analysis for institutional investors.",
@@ -48,7 +48,7 @@
     "appearance_count": 2
   },
   {
-    "id": 51579,
+    "id": 51695,
     "name": "How Kavak Rebuilt Itself Around AI Agents",
     "slug": "how-kavak-rebuilt-itself-around-ai-agents",
     "bio": null,
@@ -60,7 +60,7 @@
     "appearance_count": 1
   },
   {
-    "id": 51580,
+    "id": 51696,
     "name": "How Open",
     "slug": "how-open",
     "bio": null,
@@ -72,7 +72,7 @@
     "appearance_count": 1
   },
   {
-    "id": 51581,
+    "id": 51697,
     "name": "Saronic Founders",
     "slug": "saronic-founders",
     "bio": null,
@@ -84,7 +84,7 @@
     "appearance_count": 1
   },
   {
-    "id": 51582,
+    "id": 51698,
     "name": "OpenAI's Joshua Achiam",
     "slug": "openais-joshua-achiam",
     "bio": null,
@@ -96,7 +96,7 @@
     "appearance_count": 1
   },
   {
-    "id": 51583,
+    "id": 51699,
     "name": "Why Macro is \u201cPretty Risk-On\u201d for Equities",
     "slug": "why-macro-is-pretty-risk-on-for-equities",
     "bio": null,
@@ -108,7 +108,7 @@
     "appearance_count": 1
   },
   {
-    "id": 51584,
+    "id": 51700,
     "name": "AI for America's Small Businesses",
     "slug": "ai-for-americas-small-businesses",
     "bio": null,
@@ -120,7 +120,7 @@
     "appearance_count": 1
   },
   {
-    "id": 51585,
+    "id": 51701,
     "name": "Mum\u2019s The Word",
     "slug": "mums-the-word",
     "bio": null,
@@ -132,7 +132,7 @@
     "appearance_count": 1
   },
   {
-    "id": 51586,
+    "id": 51702,
     "name": "Luke Gromen",
     "slug": "luke-gromen",
     "bio": null,
@@ -144,7 +144,7 @@
     "appearance_count": 1
   },
   {
-    "id": 51587,
+    "id": 51703,
     "name": "Codex from 0 to 10M Users",
     "slug": "codex-from-0-to-10m-users",
     "bio": null,
@@ -156,7 +156,7 @@
     "appearance_count": 1
   },
   {
-    "id": 51588,
+    "id": 51704,
     "name": "Ben Horowitz",
     "slug": "ben-horowitz",
     "bio": "Ben Horowitz is a co-founder of venture firm Andreessen Horowitz and former CEO of Opsware, known for advising founders on leadership under pressure.",
@@ -168,7 +168,7 @@
     "appearance_count": 3
   },
   {
-    "id": 51589,
+    "id": 51705,
     "name": "Building the Physical AI Stack",
     "slug": "building-the-physical-ai-stack",
     "bio": null,
@@ -180,7 +180,7 @@
     "appearance_count": 1
   },
   {
-    "id": 51590,
+    "id": 51706,
     "name": "Travis Kalanick Is Back",
     "slug": "travis-kalanick-is-back",
     "bio": null,
@@ -192,7 +192,7 @@
     "appearance_count": 1
   },
   {
-    "id": 51591,
+    "id": 51707,
     "name": "Why Physical AI Is the Next Frontier",
     "slug": "why-physical-ai-is-the-next-frontier",
     "bio": null,
@@ -204,7 +204,7 @@
     "appearance_count": 1
   },
   {
-    "id": 51592,
+    "id": 51708,
     "name": "Nick Nemeth",
     "slug": "nick-nemeth",
     "bio": null,
@@ -216,7 +216,7 @@
     "appearance_count": 1
   },
   {
-    "id": 51593,
+    "id": 51709,
     "name": "Mark Cuban on the AI Bubble",
     "slug": "mark-cuban-on-the-ai-bubble",
     "bio": null,
@@ -228,7 +228,7 @@
     "appearance_count": 1
   },
   {
-    "id": 51594,
+    "id": 51710,
     "name": "Urgent Update- AI Sputnik Moment",
     "slug": "urgent-update--ai-sputnik-moment",
     "bio": null,
@@ -240,7 +240,7 @@
     "appearance_count": 1
   },
   {
-    "id": 51595,
+    "id": 51711,
     "name": "Replay 2025",
     "slug": "replay-2025",
     "bio": null,
@@ -252,7 +252,7 @@
     "appearance_count": 1
   },
   {
-    "id": 51596,
+    "id": 51712,
     "name": "Turbo Charged Trend Following",
     "slug": "turbo-charged-trend-following",
     "bio": null,
@@ -264,7 +264,7 @@
     "appearance_count": 1
   },
   {
-    "id": 51597,
+    "id": 51713,
     "name": "Can Anyone Catch NVIDIA?",
     "slug": "can-anyone-catch-nvidia",
     "bio": null,
@@ -276,7 +276,7 @@
     "appearance_count": 1
   },
   {
-    "id": 51598,
+    "id": 51714,
     "name": "Is AI a Bubble?",
     "slug": "is-ai-a-bubble",
     "bio": null,
@@ -288,7 +288,7 @@
     "appearance_count": 1
   },
   {
-    "id": 51599,
+    "id": 51715,
     "name": "Adam Brown \u2013 Einstein's happiest thought",
     "slug": "adam-brown--einsteins-happiest-thought",
     "bio": null,
@@ -300,7 +300,7 @@
     "appearance_count": 1
   },
   {
-    "id": 51600,
+    "id": 51716,
     "name": "Mark Zuckerberg & Priscilla Chan",
     "slug": "mark-zuckerberg--priscilla-chan",
     "bio": null,
@@ -312,7 +312,7 @@
     "appearance_count": 1
   },
   {
-    "id": 51601,
+    "id": 51717,
     "name": "Adam Neumann",
     "slug": "adam-neumann",
     "bio": null,
@@ -324,7 +324,7 @@
     "appearance_count": 1
   },
   {
-    "id": 51602,
+    "id": 51718,
     "name": "Breaking Down the Multi-Manager Playbook",
     "slug": "breaking-down-the-multi-manager-playbook",
     "bio": null,
@@ -336,7 +336,7 @@
     "appearance_count": 1
   },
   {
-    "id": 51603,
+    "id": 51719,
     "name": "Don\u2019t Follow Your Passion",
     "slug": "dont-follow-your-passion",
     "bio": null,
@@ -348,7 +348,7 @@
     "appearance_count": 1
   },
   {
-    "id": 51604,
+    "id": 51720,
     "name": "trillion. Guest Daryl Duffy",
     "slug": "trillion-guest-daryl-duffy",
     "bio": null,
