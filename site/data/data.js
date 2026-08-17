@@ -3,93 +3,93 @@
 
 const dashboardData = {
   schemaVersion: 2,
-  generatedAt: "2026-08-16T20:03:05.276880",
-  chartsVersion: "2026-08-16T13:37:38.658029",
+  generatedAt: "2026-08-16T22:04:30.340328",
+  chartsVersion: "2026-08-16T22:04:25.812315",
   priceSnapshot: {
   "GOOGL": {
     "price": 345.9,
     "change_pct": 3.65,
     "name": "GOOGL",
-    "updated_at": "2026-08-16T13:37:38.657279"
+    "updated_at": "2026-08-16T22:04:25.811798"
   },
   "NVDA": {
     "price": 225.16,
     "change_pct": 14.29,
     "name": "NVDA",
-    "updated_at": "2026-08-16T13:37:38.657296"
-  },
-  "BTC": {
-    "price": 63089.61,
-    "change_pct": -0.59,
-    "name": "BTC",
-    "updated_at": "2026-08-16T13:37:38.657305"
-  },
-  "TSLA": {
-    "price": 342.27,
-    "change_pct": 11.33,
-    "name": "TSLA",
-    "updated_at": "2026-08-16T13:37:38.657312"
+    "updated_at": "2026-08-16T22:04:25.811809"
   },
   "MSFT": {
     "price": 495.4,
     "change_pct": 25.94,
     "name": "MSFT",
-    "updated_at": "2026-08-16T13:37:38.657320"
+    "updated_at": "2026-08-16T22:04:25.811813"
+  },
+  "BTC": {
+    "price": 63318.14,
+    "change_pct": -1.15,
+    "name": "BTC",
+    "updated_at": "2026-08-16T22:04:25.811817"
+  },
+  "TSLA": {
+    "price": 342.27,
+    "change_pct": 11.33,
+    "name": "TSLA",
+    "updated_at": "2026-08-16T22:04:25.811821"
   },
   "AMZN": {
     "price": 262.65,
     "change_pct": 13.77,
     "name": "AMZN",
-    "updated_at": "2026-08-16T13:37:38.657327"
+    "updated_at": "2026-08-16T22:04:25.811825"
   },
   "META": {
     "price": 589.85,
     "change_pct": -0.6,
     "name": "META",
-    "updated_at": "2026-08-16T13:37:38.657334"
+    "updated_at": "2026-08-16T22:04:25.811829"
   },
   "WTI": {
     "price": 3.67,
     "change_pct": 15.41,
     "name": "WTI",
-    "updated_at": "2026-08-16T13:37:38.657340"
+    "updated_at": "2026-08-16T22:04:25.811832"
   },
   "S&P 500": {
     "price": 776.34,
     "change_pct": 4.79,
     "name": "S&P 500",
-    "updated_at": "2026-08-16T13:37:38.657346"
+    "updated_at": "2026-08-16T22:04:25.811836"
   },
   "AAPL": {
     "price": 305.93,
     "change_pct": -9.96,
     "name": "AAPL",
-    "updated_at": "2026-08-16T13:37:38.657352"
+    "updated_at": "2026-08-16T22:04:25.811839"
   },
   "QQQ": {
     "price": 731.07,
     "change_pct": 8.23,
     "name": "Invesco QQQ Trust",
-    "updated_at": "2026-08-16T13:37:38.657357"
+    "updated_at": "2026-08-16T22:04:25.811843"
   },
   "BTC-USD": {
-    "price": 63089.61,
-    "change_pct": -0.59,
+    "price": 63318.14,
+    "change_pct": -1.15,
     "name": "Bitcoin USD",
-    "updated_at": "2026-08-16T13:37:38.657364"
+    "updated_at": "2026-08-16T22:04:25.811847"
   }
 },
   tickerScores: [
   {
     "ticker": "GOOGL",
-    "total_score": 721.0,
-    "raw_mention_count": 29,
+    "total_score": 845.0,
+    "raw_mention_count": 31,
     "unique_sources": 2,
-    "podcast_mentions": 9,
+    "podcast_mentions": 11,
     "newsletter_mentions": 20,
     "rank": 1,
-    "score": 721.0,
-    "mentions": 29,
+    "score": 845.0,
+    "mentions": 31,
     "conviction_level": "medium",
     "contrarian_signal": "neutral",
     "timeframe": "long_term",
@@ -111,13 +111,28 @@ const dashboardData = {
     "contexts": []
   },
   {
+    "ticker": "MSFT",
+    "total_score": 576.0,
+    "raw_mention_count": 23,
+    "unique_sources": 2,
+    "podcast_mentions": 7,
+    "newsletter_mentions": 16,
+    "rank": 3,
+    "score": 576.0,
+    "mentions": 23,
+    "conviction_level": "medium",
+    "contrarian_signal": "neutral",
+    "timeframe": "long_term",
+    "contexts": []
+  },
+  {
     "ticker": "BTC",
     "total_score": 520.0,
     "raw_mention_count": 7,
     "unique_sources": 1,
     "podcast_mentions": 7,
     "newsletter_mentions": 0,
-    "rank": 3,
+    "rank": 4,
     "score": 520.0,
     "mentions": 7,
     "conviction_level": "medium",
@@ -132,24 +147,9 @@ const dashboardData = {
     "unique_sources": 1,
     "podcast_mentions": 7,
     "newsletter_mentions": 0,
-    "rank": 4,
+    "rank": 5,
     "score": 516.0,
     "mentions": 7,
-    "conviction_level": "medium",
-    "contrarian_signal": "neutral",
-    "timeframe": "long_term",
-    "contexts": []
-  },
-  {
-    "ticker": "MSFT",
-    "total_score": 512.0,
-    "raw_mention_count": 22,
-    "unique_sources": 2,
-    "podcast_mentions": 6,
-    "newsletter_mentions": 16,
-    "rank": 5,
-    "score": 512.0,
-    "mentions": 22,
     "conviction_level": "medium",
     "contrarian_signal": "neutral",
     "timeframe": "long_term",
@@ -834,6 +834,27 @@ const dashboardData = {
   archive: {
   "insights": [
     {
+      "id": 421,
+      "title": "Robin Wigglesworth on Hyperscalers' 1.5 Trillion of Off-Balance Sheet Liabilities, Private Credit, and His Book \"A Fabulous Debt\"",
+      "source_type": "podcast",
+      "source_name": "Monetary Matters with Jack Farley",
+      "source_date": "2026-08-16",
+      "summary": "In this episode of Monetary Matters with Jack Farley, Robin Wigglesworth, editor of AlphaVille and author of 'Fabulous Debt', discusses the capital market events surrounding hyperscalers like Meta, Google, and Microsoft. They delve into the off-balance sheet hidden leverage, massive capex investments, and innovative financial structures like lease obligations that have grown from $1 trillion to $1.5 trillion. The conversation also touches on historical parallels, such as the 19th-century canal and railway booms, and their implications for today's financial landscape.",
+      "key_takeaway": "Investment in hyperscaler companies may offer significant returns due to their transformative technology and massive capital investments, but also carries risks due to the off-balance sheet leverage and innovative financial structures.",
+      "tickers_mentioned": [
+        "META",
+        "GOOGL",
+        "MSFT"
+      ],
+      "sentiment": "bearish",
+      "display_on_main": 1,
+      "display_order": 0,
+      "added_date": "2026-08-16",
+      "archived_date": null,
+      "archived_reason": null,
+      "podcast_episode_id": 407
+    },
+    {
       "id": 419,
       "title": "Ben Horowitz and Travis Kalanick on Building Again",
       "source_type": "podcast",
@@ -1042,7 +1063,7 @@ const dashboardData = {
         "AAPL"
       ],
       "sentiment": "neutral",
-      "display_on_main": 1,
+      "display_on_main": 0,
       "display_order": 0,
       "added_date": "2026-08-12",
       "archived_date": null,
@@ -1087,6 +1108,25 @@ const dashboardData = {
       "archived_date": null,
       "archived_reason": null,
       "podcast_episode_id": 393
+    },
+    {
+      "id": 422,
+      "title": "Google's AI Brain Drain, SpaceX's Huge Quarter, Airtable's 90% Collapse, US Data Fuels China AI",
+      "source_type": "podcast",
+      "source_name": "All-In with Chamath, Jason, Sacks & Friedberg",
+      "source_date": "2026-08-08",
+      "summary": "In this episode, the hosts discuss recent shakeups in Google's AI staff, including Demis Hassabis moving to chair of DeepMind and Chief Scientist at Google. They also delve into the departure of AI superstars from Google to start Discovery Loop, a company focused on deep scientific breakthroughs in AI. Additionally, the conversation covers Elon Musk's progress in building data centers and Starlink's potential impact on internet traffic. The hosts also touch on the importance of physical infrastructure in the tech industry and the competition for data centers and fabs.",
+      "key_takeaway": "Investment in AI infrastructure and data centers is becoming increasingly important due to the demand for compute power and the tax advantages of such investments in the U.S.",
+      "tickers_mentioned": [
+        "GOOGL"
+      ],
+      "sentiment": "neutral",
+      "display_on_main": 0,
+      "display_order": 0,
+      "added_date": "2026-08-16",
+      "archived_date": null,
+      "archived_reason": null,
+      "podcast_episode_id": 406
     },
     {
       "id": 405,
@@ -2236,6 +2276,29 @@ const dashboardData = {
       "archived_date": null,
       "archived_reason": null,
       "podcast_episode_id": 337
+    },
+    {
+      "id": 423,
+      "title": "Fable 5 Is Back & Govt-Leashed, Altman Offers 5% of OpenAI & AI Grows Conscious | #269",
+      "source_type": "podcast",
+      "source_name": "Moonshots with Peter Diamandis",
+      "source_date": "2026-07-08",
+      "summary": "In this episode, Peter Diamandis discusses the latest developments in AI, including government regulation, the impact on job growth, advancements in AI chip design, and intellectual property challenges. The discussion highlights how companies investing heavily in AI are experiencing significant growth, countering fears of job loss. It also touches on the use of AI to design better AI chips, potentially leading to exponential advancements in AI capabilities. Lastly, the episode addresses the ongoing debates about IP ownership in the AI era, with a focus on Japan's Supreme Court ruling that AI cannot be listed as an inventor on patents.",
+      "key_takeaway": "Invest in companies that are integrating AI into their operations to capitalize on job growth and technological advancements.",
+      "tickers_mentioned": [
+        "AAPL",
+        "GOOGL",
+        "MSFT",
+        "NVDA",
+        "TSLA"
+      ],
+      "sentiment": "bullish",
+      "display_on_main": 0,
+      "display_order": 0,
+      "added_date": "2026-08-16",
+      "archived_date": null,
+      "archived_reason": null,
+      "podcast_episode_id": 408
     },
     {
       "id": 349,
@@ -8908,6 +8971,42 @@ const dashboardData = {
   "definitions": [],
   "overton": [
     {
+      "id": 272,
+      "term": "Compute Commoditization",
+      "description": "The process by which compute power becomes a standard, tradable commodity, similar to oil or natural gas, with market structures and pricing based on supply and demand.",
+      "first_detected_date": "2026-08-11",
+      "last_mentioned_date": "2026-08-11",
+      "mention_count": 1,
+      "source_podcasts": null,
+      "status": "active",
+      "investment_implications": "Investors should consider the potential for companies that can shape or benefit from the commoditization of compute power.",
+      "display_on_main": 1,
+      "archived_date": null,
+      "archived_reason": null,
+      "first_detected_episode_id": 398,
+      "first_detected_speaker": "Kush Bavaria",
+      "last_mentioned_episode_id": 398,
+      "last_mentioned_speaker": "Kush Bavaria"
+    },
+    {
+      "id": 273,
+      "term": "Nuclear Micro-Reactors",
+      "description": "Small-scale nuclear reactors that can be mass-produced for efficient and safe energy production.",
+      "first_detected_date": "2026-08-05",
+      "last_mentioned_date": "2026-08-05",
+      "mention_count": 1,
+      "source_podcasts": null,
+      "status": "active",
+      "investment_implications": "Investing in nuclear micro-reactor technology can lead to safer and more efficient nuclear energy solutions.",
+      "display_on_main": 1,
+      "archived_date": null,
+      "archived_reason": null,
+      "first_detected_episode_id": 387,
+      "first_detected_speaker": "Ulysses Founder, Marianna Mineroles Founder, Radiant Founder",
+      "last_mentioned_episode_id": 387,
+      "last_mentioned_speaker": "Ulysses Founder, Marianna Mineroles Founder, Radiant Founder"
+    },
+    {
       "id": 268,
       "term": "Skin in the Game",
       "description": "A principle where individuals or entities have a personal stake or risk in the outcomes of their decisions or actions.",
@@ -9002,8 +9101,8 @@ const dashboardData = {
       "term": "Autonomy",
       "description": "The ability of systems or machines to function independently without human intervention, often in the context of vehicles or industrial equipment.",
       "first_detected_date": "2026-07-22",
-      "last_mentioned_date": "2026-08-13",
-      "mention_count": 6,
+      "last_mentioned_date": "2026-07-08",
+      "mention_count": 7,
       "source_podcasts": null,
       "status": "active",
       "investment_implications": "Investors should monitor advancements in autonomy as it could significantly impact transportation and logistics.",
@@ -9012,26 +9111,8 @@ const dashboardData = {
       "archived_reason": null,
       "first_detected_episode_id": 362,
       "first_detected_speaker": "Travis Kalanick, Ben Horowitz",
-      "last_mentioned_episode_id": 403,
-      "last_mentioned_speaker": "Dave Blondon, Salim Ismail"
-    },
-    {
-      "id": 261,
-      "term": "Physical AI",
-      "description": "The concept of artificial intelligence that relates to physical sensing and responsiveness, as opposed to digital or virtual AI.",
-      "first_detected_date": "2026-07-21",
-      "last_mentioned_date": "2026-08-11",
-      "mention_count": 6,
-      "source_podcasts": null,
-      "status": "active",
-      "investment_implications": "Physical AI could be a key differentiator in the development of AI that can replicate human consciousness and interaction with the physical world.",
-      "display_on_main": 0,
-      "archived_date": null,
-      "archived_reason": null,
-      "first_detected_episode_id": 359,
-      "first_detected_speaker": "Casser, Eunice, Peter Ludwig",
-      "last_mentioned_episode_id": 398,
-      "last_mentioned_speaker": "Kush Bavaria"
+      "last_mentioned_episode_id": 408,
+      "last_mentioned_speaker": "Alex Carp"
     },
     {
       "id": 265,
@@ -9115,7 +9196,7 @@ const dashboardData = {
       "source_podcasts": null,
       "status": "active",
       "investment_implications": "Virtual cell models can reduce the cost and time of biological research, allowing for more rapid iteration and risk-taking in drug discovery.",
-      "display_on_main": 0,
+      "display_on_main": 1,
       "archived_date": null,
       "archived_reason": null,
       "first_detected_episode_id": 338,
@@ -9128,8 +9209,8 @@ const dashboardData = {
       "term": "ASI",
       "description": "Artificial Super Intelligence, referring to AI systems that surpass human intelligence in every field.",
       "first_detected_date": "2026-06-29",
-      "last_mentioned_date": "2026-08-11",
-      "mention_count": 8,
+      "last_mentioned_date": "2026-07-08",
+      "mention_count": 9,
       "source_podcasts": null,
       "status": "active",
       "investment_implications": "ASI represents a potential paradigm shift in technology and could disrupt various industries.",
@@ -9138,8 +9219,8 @@ const dashboardData = {
       "archived_reason": null,
       "first_detected_episode_id": 319,
       "first_detected_speaker": "Peter Diamandis (hosts)",
-      "last_mentioned_episode_id": 396,
-      "last_mentioned_speaker": "Ryan Greenlet"
+      "last_mentioned_episode_id": 408,
+      "last_mentioned_speaker": "Alex Carp"
     },
     {
       "id": 135,
@@ -9180,20 +9261,20 @@ const dashboardData = {
     {
       "id": 254,
       "term": "Hyperscalers",
-      "description": "Companies that invest heavily in AI infrastructure, often outpacing their earnings, raising questions about the long-term sustainability of such investments.",
+      "description": "Large companies that provide computing resources, storage, and various services over the internet at a massive scale.",
       "first_detected_date": "2026-06-19",
-      "last_mentioned_date": "2026-08-14",
-      "mention_count": 17,
+      "last_mentioned_date": "2026-07-08",
+      "mention_count": 19,
       "source_podcasts": null,
       "status": "active",
-      "investment_implications": "Investors should assess the financial health of AI companies and their ability to sustain growth.",
+      "investment_implications": "Their significant capital expenditures and innovative financial structures can offer investment opportunities but also pose risks.",
       "display_on_main": 1,
       "archived_date": null,
       "archived_reason": null,
       "first_detected_episode_id": 302,
       "first_detected_speaker": "Chamath Palihapitiya, Jason Calacanis (hosts)",
-      "last_mentioned_episode_id": 405,
-      "last_mentioned_speaker": "David Sachs, Evan Baker"
+      "last_mentioned_episode_id": 408,
+      "last_mentioned_speaker": "Alex Carp"
     },
     {
       "id": 256,
@@ -9248,6 +9329,24 @@ const dashboardData = {
       "first_detected_speaker": "Joseph Krauss",
       "last_mentioned_episode_id": 352,
       "last_mentioned_speaker": "Andy Beam, Ratha Gomez Bumbarelli"
+    },
+    {
+      "id": 274,
+      "term": "North Star Metric",
+      "description": "A single, overarching metric that aligns an organization's focus on key business objectives, simplifying performance tracking and driving accountability.",
+      "first_detected_date": "2026-06-17",
+      "last_mentioned_date": "2026-06-17",
+      "mention_count": 1,
+      "source_podcasts": null,
+      "status": "active",
+      "investment_implications": "Investors should look for companies that adopt a North Star metric to clarify objectives and drive performance across teams.",
+      "display_on_main": 1,
+      "archived_date": null,
+      "archived_reason": null,
+      "first_detected_episode_id": 292,
+      "first_detected_speaker": "Santiago Gua Suarez",
+      "last_mentioned_episode_id": 292,
+      "last_mentioned_speaker": "Santiago Gua Suarez"
     },
     {
       "id": 252,
@@ -9324,38 +9423,38 @@ const dashboardData = {
     {
       "id": 138,
       "term": "AI CapEx",
-      "description": "Capital expenditures related to the development and deployment of artificial intelligence.",
+      "description": "Capital expenditures specifically in AI infrastructure, such as data centers and compute build-out.",
       "first_detected_date": "2026-06-08",
-      "last_mentioned_date": "2026-08-13",
-      "mention_count": 18,
+      "last_mentioned_date": "2026-08-08",
+      "mention_count": 19,
       "source_podcasts": null,
       "status": "active",
-      "investment_implications": "AI CapEx can signal a company's commitment to innovation and future growth.",
+      "investment_implications": "AI CapEx is tax-advantaged and has a high return on invested capital due to the demand for compute power.",
       "display_on_main": 0,
       "archived_date": null,
       "archived_reason": null,
       "first_detected_episode_id": 271,
       "first_detected_speaker": null,
-      "last_mentioned_episode_id": 403,
-      "last_mentioned_speaker": "Dave Blondon, Salim Ismail"
+      "last_mentioned_episode_id": 406,
+      "last_mentioned_speaker": "Brad Gersner, David Friedberg"
     },
     {
       "id": 234,
       "term": "AI Personhood",
-      "description": "The concept of recognizing AI as an inventor or owner of property, raising questions about regulatory frameworks and the attribution of intellectual property rights to AI entities.",
+      "description": "The concept of whether AI can be granted legal personhood or rights, as seen in the debate over AI being listed as an inventor on patents.",
       "first_detected_date": "2026-06-08",
-      "last_mentioned_date": "2026-08-13",
-      "mention_count": 18,
+      "last_mentioned_date": "2026-07-08",
+      "mention_count": 19,
       "source_podcasts": null,
       "status": "active",
-      "investment_implications": "Investors should monitor legal and regulatory developments regarding AI personhood, as it could impact IP ownership and valuation of tech companies.",
+      "investment_implications": "Companies should consider how evolving IP laws may affect their innovations and strategies for protecting AI-generated inventions.",
       "display_on_main": 1,
       "archived_date": null,
       "archived_reason": null,
       "first_detected_episode_id": 271,
       "first_detected_speaker": "Peter Diamandis",
-      "last_mentioned_episode_id": 403,
-      "last_mentioned_speaker": "Dave Blondon, Salim Ismail"
+      "last_mentioned_episode_id": 408,
+      "last_mentioned_speaker": "Alex Carp"
     },
     {
       "id": 59,
@@ -9416,8 +9515,8 @@ const dashboardData = {
       "term": "SaaS Apocalypse",
       "description": "A term used to describe the significant sell-off in software as a service (SaaS) stocks due to AI disruption.",
       "first_detected_date": "2026-06-03",
-      "last_mentioned_date": "2026-08-07",
-      "mention_count": 11,
+      "last_mentioned_date": "2026-08-08",
+      "mention_count": 12,
       "source_podcasts": null,
       "status": "active",
       "investment_implications": "This presents an opportunity for investors to find undervalued SaaS companies that can emerge stronger post-disruption.",
@@ -9426,8 +9525,26 @@ const dashboardData = {
       "archived_reason": null,
       "first_detected_episode_id": 257,
       "first_detected_speaker": null,
-      "last_mentioned_episode_id": 392,
-      "last_mentioned_speaker": "Daya Pernos, Dean Pernos"
+      "last_mentioned_episode_id": 406,
+      "last_mentioned_speaker": "Brad Gersner, David Friedberg"
+    },
+    {
+      "id": 275,
+      "term": "Multi-Modal Harness",
+      "description": "Microsoft's development of a system that integrates various AI models, data sources, and tools to optimize AI deployment.",
+      "first_detected_date": "2026-06-03",
+      "last_mentioned_date": "2026-06-03",
+      "mention_count": 1,
+      "source_podcasts": null,
+      "status": "active",
+      "investment_implications": "Consider the technological infrastructure of companies and their ability to integrate diverse AI tools.",
+      "display_on_main": 1,
+      "archived_date": null,
+      "archived_reason": null,
+      "first_detected_episode_id": 293,
+      "first_detected_speaker": "Sartina Della",
+      "last_mentioned_episode_id": 293,
+      "last_mentioned_speaker": "Sartina Della"
     },
     {
       "id": 219,
@@ -9464,6 +9581,24 @@ const dashboardData = {
       "first_detected_speaker": "Steven Sinofsky",
       "last_mentioned_episode_id": 358,
       "last_mentioned_speaker": "Clement DeLong"
+    },
+    {
+      "id": 271,
+      "term": "Ambient AI",
+      "description": "A concept in AI where the technology is integrated into the environment to provide contextual assistance and streamline workflows.",
+      "first_detected_date": "2026-06-02",
+      "last_mentioned_date": "2026-06-02",
+      "mention_count": 4,
+      "source_podcasts": null,
+      "status": "active",
+      "investment_implications": "Investors should monitor the development of ambient AI as it may enhance productivity and efficiency in software development.",
+      "display_on_main": 1,
+      "archived_date": null,
+      "archived_reason": null,
+      "first_detected_episode_id": 295,
+      "first_detected_speaker": null,
+      "last_mentioned_episode_id": 295,
+      "last_mentioned_speaker": null
     },
     {
       "id": 11,
@@ -9596,8 +9731,8 @@ const dashboardData = {
       "term": "Singularity",
       "description": "A hypothetical point in the future when technological growth becomes uncontrollable and irreversible, leading to unforeseeable changes to human civilization.",
       "first_detected_date": "2026-05-15",
-      "last_mentioned_date": "2026-08-13",
-      "mention_count": 46,
+      "last_mentioned_date": "2026-07-08",
+      "mention_count": 48,
       "source_podcasts": null,
       "status": "active",
       "investment_implications": "Investors should be aware of companies and technologies that are pushing the boundaries of AI and automation, as they may be key players in the approach to the singularity.",
@@ -9606,16 +9741,16 @@ const dashboardData = {
       "archived_reason": null,
       "first_detected_episode_id": 221,
       "first_detected_speaker": null,
-      "last_mentioned_episode_id": 403,
-      "last_mentioned_speaker": "Dave Blondon, Salim Ismail"
+      "last_mentioned_episode_id": 408,
+      "last_mentioned_speaker": "Alex Carp"
     },
     {
       "id": 97,
       "term": "Distillation",
       "description": "The process of training a smaller AI model on the output of a larger model to achieve similar results with less computational power.",
       "first_detected_date": "2026-05-15",
-      "last_mentioned_date": "2026-08-14",
-      "mention_count": 37,
+      "last_mentioned_date": "2026-08-08",
+      "mention_count": 38,
       "source_podcasts": null,
       "status": "active",
       "investment_implications": "Distillation can make AI more accessible and cost-effective, impacting how businesses allocate resources for AI development.",
@@ -9624,8 +9759,8 @@ const dashboardData = {
       "archived_reason": null,
       "first_detected_episode_id": 221,
       "first_detected_speaker": null,
-      "last_mentioned_episode_id": 405,
-      "last_mentioned_speaker": "David Sachs, Evan Baker"
+      "last_mentioned_episode_id": 406,
+      "last_mentioned_speaker": "Brad Gersner, David Friedberg"
     },
     {
       "id": 174,
@@ -9722,8 +9857,8 @@ const dashboardData = {
       "term": "AGI",
       "description": "Artificial General Intelligence, the ability of machines to understand, learn, and apply knowledge across a broad range of tasks at a human level.",
       "first_detected_date": "2026-05-07",
-      "last_mentioned_date": "2026-08-13",
-      "mention_count": 73,
+      "last_mentioned_date": "2026-07-08",
+      "mention_count": 74,
       "source_podcasts": null,
       "status": "active",
       "investment_implications": "Invest in companies that are making incremental progress towards AGI capabilities.",
@@ -9732,8 +9867,8 @@ const dashboardData = {
       "archived_reason": null,
       "first_detected_episode_id": 204,
       "first_detected_speaker": "Demis Hassabis",
-      "last_mentioned_episode_id": 403,
-      "last_mentioned_speaker": "Dave Blondon, Salim Ismail"
+      "last_mentioned_episode_id": 408,
+      "last_mentioned_speaker": "Alex Carp"
     },
     {
       "id": 162,
@@ -10530,28 +10665,28 @@ const dashboardData = {
     {
       "id": 55,
       "term": "AI Factory",
-      "description": "A concept where AI operations are centralized and optimized in a factory-like setting, emphasizing efficiency and scale in AI production.",
+      "description": "A facility or system designed for the production of AI capabilities, including data processing and machine learning models.",
       "first_detected_date": "2026-03-17",
-      "last_mentioned_date": "2026-08-14",
-      "mention_count": 4,
+      "last_mentioned_date": "2026-08-08",
+      "mention_count": 5,
       "source_podcasts": null,
       "status": "active",
-      "investment_implications": "Investors should consider the potential for companies to transform into AI factories, indicating a shift towards more integrated and efficient AI operations.",
+      "investment_implications": "The ability to rapidly build and scale AI factories is a competitive advantage in the tech industry.",
       "display_on_main": 0,
       "archived_date": null,
       "archived_reason": null,
       "first_detected_episode_id": 71,
       "first_detected_speaker": null,
-      "last_mentioned_episode_id": 405,
-      "last_mentioned_speaker": "David Sachs, Evan Baker"
+      "last_mentioned_episode_id": 406,
+      "last_mentioned_speaker": "Brad Gersner, David Friedberg"
     },
     {
       "id": 57,
       "term": "AI Infrastructure",
       "description": "The underlying technology and systems that support the development and operation of AI applications.",
       "first_detected_date": "2026-03-17",
-      "last_mentioned_date": "2026-08-13",
-      "mention_count": 27,
+      "last_mentioned_date": "2026-08-08",
+      "mention_count": 28,
       "source_podcasts": null,
       "status": "active",
       "investment_implications": "Investing in AI infrastructure can provide the foundation for innovation in AI-driven startups.",
@@ -10560,8 +10695,8 @@ const dashboardData = {
       "archived_reason": null,
       "first_detected_episode_id": 71,
       "first_detected_speaker": null,
-      "last_mentioned_episode_id": 403,
-      "last_mentioned_speaker": "Dave Blondon, Salim Ismail"
+      "last_mentioned_episode_id": 406,
+      "last_mentioned_speaker": "Brad Gersner, David Friedberg"
     },
     {
       "id": 26,
@@ -10656,20 +10791,20 @@ const dashboardData = {
     {
       "id": 18,
       "term": "Compute Arbitrage",
-      "description": "The strategic allocation of computational resources to gain a competitive advantage, particularly in the context of AI model training and execution.",
+      "description": "The strategic allocation of compute resources to take advantage of the most cost-effective or efficient locations for data processing.",
       "first_detected_date": "2026-03-13",
-      "last_mentioned_date": "2026-08-04",
-      "mention_count": 19,
+      "last_mentioned_date": "2026-08-08",
+      "mention_count": 20,
       "source_podcasts": null,
       "status": "active",
-      "investment_implications": "Investors should monitor the development of compute capabilities and their allocation, as it may become a key differentiator in AI-driven sectors.",
+      "investment_implications": "Investors should consider the potential for cost savings and efficiency gains from compute arbitrage in their tech investments.",
       "display_on_main": 0,
       "archived_date": null,
       "archived_reason": null,
       "first_detected_episode_id": null,
       "first_detected_speaker": null,
-      "last_mentioned_episode_id": 385,
-      "last_mentioned_speaker": "Joshua Ahoyom"
+      "last_mentioned_episode_id": 406,
+      "last_mentioned_speaker": "Brad Gersner, David Friedberg"
     },
     {
       "id": 19,
@@ -10748,8 +10883,8 @@ const dashboardData = {
       "term": "AI Race",
       "description": "The global competition among nations to lead in artificial intelligence development and application.",
       "first_detected_date": "2026-03-11",
-      "last_mentioned_date": "2026-08-14",
-      "mention_count": 26,
+      "last_mentioned_date": "2026-07-08",
+      "mention_count": 28,
       "source_podcasts": null,
       "status": "active",
       "investment_implications": "Investing in companies at the forefront of AI could yield significant returns as the technology becomes more pervasive.",
@@ -10758,8 +10893,8 @@ const dashboardData = {
       "archived_reason": null,
       "first_detected_episode_id": 60,
       "first_detected_speaker": null,
-      "last_mentioned_episode_id": 405,
-      "last_mentioned_speaker": "David Sachs, Evan Baker"
+      "last_mentioned_episode_id": 408,
+      "last_mentioned_speaker": "Alex Carp"
     },
     {
       "id": 12,
@@ -10820,8 +10955,8 @@ const dashboardData = {
       "term": "AI Agents",
       "description": "Software entities that perform tasks autonomously, similar to human employees.",
       "first_detected_date": "2026-02-28",
-      "last_mentioned_date": "2026-08-14",
-      "mention_count": 62,
+      "last_mentioned_date": "2026-07-08",
+      "mention_count": 63,
       "source_podcasts": null,
       "status": "active",
       "investment_implications": "AI Agents can automate business processes, leading to operational efficiency and scalability.",
@@ -10830,8 +10965,8 @@ const dashboardData = {
       "archived_reason": null,
       "first_detected_episode_id": 31,
       "first_detected_speaker": null,
-      "last_mentioned_episode_id": 405,
-      "last_mentioned_speaker": "David Sachs, Evan Baker"
+      "last_mentioned_episode_id": 408,
+      "last_mentioned_speaker": "Alex Carp"
     },
     {
       "id": 38,
@@ -11096,6 +11231,30 @@ const dashboardData = {
   mainContent: {
   "insights": [
     {
+      "id": 421,
+      "title": "Robin Wigglesworth on Hyperscalers' 1.5 Trillion of Off-Balance Sheet Liabilities, Private Credit, and His Book \"A Fabulous Debt\"",
+      "source_type": "podcast",
+      "source_name": "Monetary Matters with Jack Farley",
+      "source_date": "2026-08-16",
+      "summary": "In this episode of Monetary Matters with Jack Farley, Robin Wigglesworth, editor of AlphaVille and author of 'Fabulous Debt', discusses the capital market events surrounding hyperscalers like Meta, Google, and Microsoft. They delve into the off-balance sheet hidden leverage, massive capex investments, and innovative financial structures like lease obligations that have grown from $1 trillion to $1.5 trillion. The conversation also touches on historical parallels, such as the 19th-century canal and railway booms, and their implications for today's financial landscape.",
+      "key_takeaway": "Investment in hyperscaler companies may offer significant returns due to their transformative technology and massive capital investments, but also carries risks due to the off-balance sheet leverage and innovative financial structures.",
+      "tickers_mentioned": "[\"META\", \"GOOGL\", \"MSFT\"]",
+      "sentiment": "bearish",
+      "display_on_main": 1,
+      "display_order": 0,
+      "added_date": "2026-08-16",
+      "archived_date": null,
+      "archived_reason": null,
+      "podcast_episode_id": 407,
+      "episode_release_date": "2026-08-16",
+      "guest_name": null,
+      "key_tickers": [
+        "META",
+        "GOOGL",
+        "MSFT"
+      ]
+    },
+    {
       "id": 419,
       "title": "Ben Horowitz and Travis Kalanick on Building Again",
       "source_type": "podcast",
@@ -11241,26 +11400,6 @@ const dashboardData = {
       "key_tickers": [
         "SPY"
       ]
-    },
-    {
-      "id": 413,
-      "title": "\ud83d\udd2cThe BioAI Phase Shift - Matthew McPartlon & Neil Patil, Chai Discovery",
-      "source_type": "podcast",
-      "source_name": "Latent Space: The AI Engineer Podcast",
-      "source_date": "2026-08-11",
-      "summary": "This episode of Latent Space features an in-depth discussion with Mad McPartlin and Neil Patel from Try Discovery, a protein design startup utilizing AI for drug discovery. The conversation covers the evolution of protein structure prediction, the application of AI in hit discovery and lead optimization, and the potential for AI to revolutionize drug development by making it more precise and less reliant on trial and error. The guests also share their views on the interdisciplinary nature of their work and the impact of AI on attracting talent to the field of biology.",
-      "key_takeaway": "Investing in AI-driven protein design companies like Try Discovery could offer significant returns as these platforms have the potential to disrupt traditional drug discovery, making it more efficient and cost-effective.",
-      "tickers_mentioned": "[\"AAPL\"]",
-      "sentiment": "neutral",
-      "display_on_main": 1,
-      "display_order": 0,
-      "added_date": "2026-08-12",
-      "archived_date": null,
-      "archived_reason": null,
-      "podcast_episode_id": 397,
-      "episode_release_date": "2026-08-11",
-      "guest_name": null,
-      "key_tickers": []
     }
   ],
   "definitions": [
@@ -11349,6 +11488,18 @@ const dashboardData = {
       "display_order": 0
     },
     {
+      "id": 254,
+      "term": "Virtual Cell Models",
+      "definition": "Highly detailed computational models of cells that can simulate biological processes to test scientific hypotheses and drug effects.",
+      "investment_implications": "Virtual cell models can reduce the cost and time of biological research, allowing for more rapid iteration and risk-taking in drug discovery.",
+      "added_date": "2026-07-22",
+      "vote_count": 2,
+      "display_on_main": 1,
+      "archived_date": null,
+      "archived_reason": null,
+      "display_order": 0
+    },
+    {
       "id": 256,
       "term": "Quantization",
       "definition": "The process of reducing the precision of the numbers used to represent a mathematical element, such as an AI model, to enable more efficient storage and computation.",
@@ -11371,18 +11522,6 @@ const dashboardData = {
       "archived_date": null,
       "archived_reason": null,
       "display_order": 0
-    },
-    {
-      "id": 258,
-      "term": "Autonomy",
-      "definition": "The ability of systems or machines to function independently without human intervention, often in the context of vehicles or industrial equipment.",
-      "investment_implications": "Investors should monitor advancements in autonomy as it could significantly impact transportation and logistics.",
-      "added_date": "2026-07-24",
-      "vote_count": 2,
-      "display_on_main": 1,
-      "archived_date": null,
-      "archived_reason": null,
-      "display_order": 0
     }
   ],
   "overton": [
@@ -11391,8 +11530,8 @@ const dashboardData = {
       "term": "AGI",
       "description": "Artificial General Intelligence, the ability of machines to understand, learn, and apply knowledge across a broad range of tasks at a human level.",
       "first_detected_date": "2026-05-07",
-      "last_mentioned_date": "2026-08-13",
-      "mention_count": 73,
+      "last_mentioned_date": "2026-07-08",
+      "mention_count": 74,
       "source_podcasts": null,
       "status": "active",
       "investment_implications": "Invest in companies that are making incremental progress towards AGI capabilities.",
@@ -11401,16 +11540,16 @@ const dashboardData = {
       "archived_reason": null,
       "first_detected_episode_id": 204,
       "first_detected_speaker": "Demis Hassabis",
-      "last_mentioned_episode_id": 403,
-      "last_mentioned_speaker": "Dave Blondon, Salim Ismail",
-      "overton_score": 68.11,
+      "last_mentioned_episode_id": 408,
+      "last_mentioned_speaker": "Alex Carp",
+      "overton_score": 30.05,
       "resonance_pct": 100,
       "first_detected_podcast": "Moonshots with Peter Diamandis",
       "first_detected_episode_title": "Demis Hassabis on AGI, Robots Scale Production, and Elon\u2019s $1T Mars-Shot Comp | EP #253",
       "first_detected_episode_date": "2026-05-07",
       "last_mentioned_podcast": "Moonshots with Peter Diamandis",
-      "last_mentioned_episode_title": "Bernie Demands the Labs Stop, Wall Street Turns GPUs Into Bonds, Grok 4.7 Takes #1 with Emad Mostaque | EP #279",
-      "last_mentioned_episode_date": "2026-08-13"
+      "last_mentioned_episode_title": "Fable 5 Is Back & Govt-Leashed, Altman Offers 5% of OpenAI & AI Grows Conscious | #269",
+      "last_mentioned_episode_date": "2026-07-08"
     },
     {
       "id": 10,
@@ -11441,54 +11580,54 @@ const dashboardData = {
     {
       "id": 234,
       "term": "AI Personhood",
-      "description": "The concept of recognizing AI as an inventor or owner of property, raising questions about regulatory frameworks and the attribution of intellectual property rights to AI entities.",
+      "description": "The concept of whether AI can be granted legal personhood or rights, as seen in the debate over AI being listed as an inventor on patents.",
       "first_detected_date": "2026-06-08",
-      "last_mentioned_date": "2026-08-13",
-      "mention_count": 18,
+      "last_mentioned_date": "2026-07-08",
+      "mention_count": 19,
       "source_podcasts": null,
       "status": "active",
-      "investment_implications": "Investors should monitor legal and regulatory developments regarding AI personhood, as it could impact IP ownership and valuation of tech companies.",
+      "investment_implications": "Companies should consider how evolving IP laws may affect their innovations and strategies for protecting AI-generated inventions.",
       "display_on_main": 1,
       "archived_date": null,
       "archived_reason": null,
       "first_detected_episode_id": 271,
       "first_detected_speaker": "Peter Diamandis",
-      "last_mentioned_episode_id": 403,
-      "last_mentioned_speaker": "Dave Blondon, Salim Ismail",
-      "overton_score": 16.79,
+      "last_mentioned_episode_id": 408,
+      "last_mentioned_speaker": "Alex Carp",
+      "overton_score": 7.72,
       "resonance_pct": 100,
       "first_detected_podcast": "Moonshots with Peter Diamandis",
       "first_detected_episode_title": "Emerging Situation: Anthropic's Global Pause, Recursive Self-Improvement Arrives, and AI Personhood Arrives | EP #263",
       "first_detected_episode_date": "2026-06-08",
       "last_mentioned_podcast": "Moonshots with Peter Diamandis",
-      "last_mentioned_episode_title": "Bernie Demands the Labs Stop, Wall Street Turns GPUs Into Bonds, Grok 4.7 Takes #1 with Emad Mostaque | EP #279",
-      "last_mentioned_episode_date": "2026-08-13"
+      "last_mentioned_episode_title": "Fable 5 Is Back & Govt-Leashed, Altman Offers 5% of OpenAI & AI Grows Conscious | #269",
+      "last_mentioned_episode_date": "2026-07-08"
     },
     {
       "id": 254,
       "term": "Hyperscalers",
-      "description": "Companies that invest heavily in AI infrastructure, often outpacing their earnings, raising questions about the long-term sustainability of such investments.",
+      "description": "Large companies that provide computing resources, storage, and various services over the internet at a massive scale.",
       "first_detected_date": "2026-06-19",
-      "last_mentioned_date": "2026-08-14",
-      "mention_count": 17,
+      "last_mentioned_date": "2026-07-08",
+      "mention_count": 19,
       "source_podcasts": null,
       "status": "active",
-      "investment_implications": "Investors should assess the financial health of AI companies and their ability to sustain growth.",
+      "investment_implications": "Their significant capital expenditures and innovative financial structures can offer investment opportunities but also pose risks.",
       "display_on_main": 1,
       "archived_date": null,
       "archived_reason": null,
       "first_detected_episode_id": 302,
       "first_detected_speaker": "Chamath Palihapitiya, Jason Calacanis (hosts)",
-      "last_mentioned_episode_id": 405,
-      "last_mentioned_speaker": "David Sachs, Evan Baker",
-      "overton_score": 16.23,
+      "last_mentioned_episode_id": 408,
+      "last_mentioned_speaker": "Alex Carp",
+      "overton_score": 7.72,
       "resonance_pct": 100,
       "first_detected_podcast": "All-In with Chamath, Jason, Sacks & Friedberg",
       "first_detected_episode_title": "World's First Trillionaire, Anthropic Fable Banned, The New Oligarchs, Iran Peace Deal",
       "first_detected_episode_date": "2026-06-19",
-      "last_mentioned_podcast": "All-In with Chamath, Jason, Sacks & Friedberg",
-      "last_mentioned_episode_title": "Anthropic's $2T IPO, Zuck's AI Manifesto, Nvidia's $500B AI Bet, Grok's Comeback",
-      "last_mentioned_episode_date": "2026-08-14"
+      "last_mentioned_podcast": "Moonshots with Peter Diamandis",
+      "last_mentioned_episode_title": "Fable 5 Is Back & Govt-Leashed, Altman Offers 5% of OpenAI & AI Grows Conscious | #269",
+      "last_mentioned_episode_date": "2026-07-08"
     },
     {
       "id": 11,
@@ -11515,32 +11654,6 @@ const dashboardData = {
       "last_mentioned_podcast": "The a16z Show",
       "last_mentioned_episode_title": "How Enterprise AI Really Gets Deployed",
       "last_mentioned_episode_date": "2026-07-31"
-    },
-    {
-      "id": 264,
-      "term": "Autonomy",
-      "description": "The ability of systems or machines to function independently without human intervention, often in the context of vehicles or industrial equipment.",
-      "first_detected_date": "2026-07-22",
-      "last_mentioned_date": "2026-08-13",
-      "mention_count": 6,
-      "source_podcasts": null,
-      "status": "active",
-      "investment_implications": "Investors should monitor advancements in autonomy as it could significantly impact transportation and logistics.",
-      "display_on_main": 1,
-      "archived_date": null,
-      "archived_reason": null,
-      "first_detected_episode_id": 362,
-      "first_detected_speaker": "Travis Kalanick, Ben Horowitz",
-      "last_mentioned_episode_id": 403,
-      "last_mentioned_speaker": "Dave Blondon, Salim Ismail",
-      "overton_score": 5.6,
-      "resonance_pct": 100,
-      "first_detected_podcast": "The a16z Show",
-      "first_detected_episode_title": "Travis Kalanick Is Back | Building the Future of Industrial AI",
-      "first_detected_episode_date": "2026-07-22",
-      "last_mentioned_podcast": "Moonshots with Peter Diamandis",
-      "last_mentioned_episode_title": "Bernie Demands the Labs Stop, Wall Street Turns GPUs Into Bonds, Grok 4.7 Takes #1 with Emad Mostaque | EP #279",
-      "last_mentioned_episode_date": "2026-08-13"
     },
     {
       "id": 255,
@@ -11647,6 +11760,32 @@ const dashboardData = {
       "last_mentioned_episode_date": "2026-08-14"
     },
     {
+      "id": 264,
+      "term": "Autonomy",
+      "description": "The ability of systems or machines to function independently without human intervention, often in the context of vehicles or industrial equipment.",
+      "first_detected_date": "2026-07-22",
+      "last_mentioned_date": "2026-07-08",
+      "mention_count": 7,
+      "source_podcasts": null,
+      "status": "active",
+      "investment_implications": "Investors should monitor advancements in autonomy as it could significantly impact transportation and logistics.",
+      "display_on_main": 1,
+      "archived_date": null,
+      "archived_reason": null,
+      "first_detected_episode_id": 362,
+      "first_detected_speaker": "Travis Kalanick, Ben Horowitz",
+      "last_mentioned_episode_id": 408,
+      "last_mentioned_speaker": "Alex Carp",
+      "overton_score": 2.84,
+      "resonance_pct": 71,
+      "first_detected_podcast": "The a16z Show",
+      "first_detected_episode_title": "Travis Kalanick Is Back | Building the Future of Industrial AI",
+      "first_detected_episode_date": "2026-07-22",
+      "last_mentioned_podcast": "Moonshots with Peter Diamandis",
+      "last_mentioned_episode_title": "Fable 5 Is Back & Govt-Leashed, Altman Offers 5% of OpenAI & AI Grows Conscious | #269",
+      "last_mentioned_episode_date": "2026-07-08"
+    },
+    {
       "id": 252,
       "term": "AI Commoditization",
       "description": "The process by which AI becomes a standard feature or utility rather than a unique differentiator.",
@@ -11699,27 +11838,27 @@ const dashboardData = {
       "last_mentioned_episode_date": "2026-08-10"
     },
     {
-      "id": 262,
-      "term": "Quantization",
-      "description": "The process of reducing the precision of the numbers used to represent a mathematical element, such as an AI model, to enable more efficient storage and computation.",
-      "first_detected_date": "2026-07-19",
+      "id": 260,
+      "term": "Virtual Cell Models",
+      "description": "Highly detailed computational models of cells that can simulate biological processes to test scientific hypotheses and drug effects.",
+      "first_detected_date": "2026-07-09",
       "last_mentioned_date": "2026-08-03",
       "mention_count": 3,
       "source_podcasts": null,
       "status": "active",
-      "investment_implications": "Quantization is crucial for making AI models more accessible and deployable across various devices, potentially leading to new investment opportunities in AI deployment and optimization.",
+      "investment_implications": "Virtual cell models can reduce the cost and time of biological research, allowing for more rapid iteration and risk-taking in drug discovery.",
       "display_on_main": 1,
       "archived_date": null,
       "archived_reason": null,
-      "first_detected_episode_id": 356,
-      "first_detected_speaker": "Alex Wees, Sly Miss Mail, E-Modemoo",
+      "first_detected_episode_id": 338,
+      "first_detected_speaker": "Mark Zuckerberg, Priscilla Chan",
       "last_mentioned_episode_id": 383,
       "last_mentioned_speaker": "Philip, Ali",
       "overton_score": 2.22,
       "resonance_pct": 56,
-      "first_detected_podcast": "Moonshots with Peter Diamandis",
-      "first_detected_episode_title": "Urgent Update- AI Sputnik Moment: Kimi K3 Released w/ Emad Mostaque | Ep. 272",
-      "first_detected_episode_date": "2026-07-19",
+      "first_detected_podcast": "The a16z Show",
+      "first_detected_episode_title": "Mark Zuckerberg & Priscilla Chan: How AI Will Help Cure Disease",
+      "first_detected_episode_date": "2026-07-09",
       "last_mentioned_podcast": "Latent Space: The AI Engineer Podcast",
       "last_mentioned_episode_title": "The Inference Engineering Masterclass \u2014 Philip Kiely & Ali Taha, Baseten",
       "last_mentioned_episode_date": "2026-08-03"
@@ -36443,61 +36582,251 @@ const dashboardData = {
       "ANDR",
       "SPCE"
     ]
+  },
+  "421": {
+    "id": 411,
+    "insight_id": 421,
+    "podcast_episode_id": 407,
+    "overview": "The competitive dynamic implied by the source material revolves around the financial innovation and risk management of hyperscaler companies as they invest heavily in transformative technology. The tension arises from the opacity of their financial structures and the massive scale of their off-balance sheet liabilities, which could either fuel their growth or lead to financial instability. The allocator-relevant implication is that investors must navigate the tradeoff between the potential for high returns from investing in these companies and the risks associated with their innovative but opaque financial strategies. The metric that arbitrates this uncertainty is the companies' ability to meet their financial obligations and the market's continued appetite for their debt.",
+    "key_takeaways_detailed": [
+      "Investors should closely monitor the transparency and disclosure practices of hyperscaler companies regarding their off-balance sheet liabilities.",
+      "The ability of hyperscaler companies to manage their capex and meet financial obligations will be a key differentiator in their financial performance.",
+      "The market's perception of risk associated with hyperscaler debt may shift based on economic conditions and regulatory changes, affecting investment returns.",
+      "Investors should consider the potential for regulatory scrutiny and changes that could impact the classification and reporting of off-balance sheet liabilities."
+    ],
+    "investment_thesis": "The core logic of the investment thesis is that while hyperscaler companies' massive investments in transformative technology offer significant growth potential, the opacity and scale of their off-balance sheet liabilities pose financial risks. Over the next 2-3 years, if hyperscaler companies can successfully manage their capex and meet their financial obligations without default or significant delay, it would vindicate the thesis. Conversely, if they struggle to meet these obligations or if there is a significant market reassessment of the risk associated with their debt, the thesis would be invalidated.",
+    "ticker_analysis": {
+      "META": {
+        "rationale": "Meta's significant investment in data centers and its innovative financial structures make it a key player in the hyperscaler market.",
+        "positioning": "A strategic long position could be considered given Meta's potential for growth in the technology sector, but with a hedge against potential financial instability due to off-balance sheet liabilities.",
+        "risk": "Key risks include regulatory changes affecting financial reporting and a slowdown in capex investments."
+      },
+      "GOOGL": {
+        "rationale": "Google's massive capex and $800 billion in purchase commitments make it central to the discussion on hyperscaler financial strategies.",
+        "positioning": "A tactical long position could be appropriate, given the potential for short-term gains from Google's capex, but with an eye on the longer-term risks associated with its financial structures.",
+        "risk": "The risk lies in the market's reaction to the transparency of Google's financial reporting and its ability to meet its financial obligations."
+      },
+      "MSFT": {
+        "rationale": "Microsoft's $150 billion capex and involvement in the hyperscaler market make it a relevant ticker for this thesis.",
+        "positioning": "A strategic long position in Microsoft could be justified by its strong financial position and investment in technology, but with a contingency plan for managing risks related to off-balance sheet liabilities.",
+        "risk": "Regulatory changes and market perceptions of risk associated with Microsoft's financial structures are key risks for this position."
+      }
+    },
+    "positioning_guidance": "",
+    "risk_factors": [],
+    "contrarian_signals": [
+      "A potential market belief that the growth potential of hyperscaler companies justifies their financial structures, overlooking the risks associated with off-balance sheet liabilities.",
+      "An argument that the financial innovations employed by hyperscalers are a necessary part of their growth strategy and do not pose significant risks to their financial stability.",
+      "A view that regulatory scrutiny will not significantly impact the financial reporting practices of hyperscaler companies, maintaining the status quo."
+    ],
+    "catalysts": [
+      "Regulatory rulings that impact the classification and reporting of off-balance sheet liabilities.",
+      "Economic indicators that signal a change in the market's appetite for the debt of hyperscaler companies.",
+      "Financial reports from hyperscaler companies that provide greater transparency into their off-balance sheet liabilities.",
+      "Market reactions to any defaults or delays in lease obligations or purchase commitments by hyperscaler companies."
+    ],
+    "related_insights": null,
+    "audio_timestamp_start": null,
+    "audio_timestamp_end": null,
+    "transcript_excerpt": null,
+    "created_at": "2026-08-16T22:02:58.550300",
+    "updated_at": "2026-08-17 03:02:58",
+    "episode_evidence": "Robin Wigglesworth, in his discussion with Jack Farley, highlights the massive scale of capital expenditures (capex) by hyperscaler companies like Meta, Google, and Microsoft, which have reached up to $150 billion annually. He points out the rapid increase in off-balance sheet liabilities, such as lease obligations, which have grown from $1 trillion to $1.5 trillion between the first and second quarter. Wigglesworth emphasizes the innovative financial structures employed by these companies, like Meta's investment in a data center in Louisiana, where they only invest 20% but guarantee to lease it for 20 years, structuring it in a way that the lease payments cover the costs of the company that actually builds it. This method keeps the debt off-balance sheet, which Wigglesworth finds concerning due to its opacity. He also mentions the significant increase in purchase commitments, which have similarly grown from $1 trillion to $1.5 trillion, and are often payment obligations that cannot be squared out, resembling debt but not being classified as such. 'These debt centers need electricity, and they need quite often guarantees that they will get that power,' he states, indicating the complexity and scale of these financial commitments.",
+    "falsification_tracks": [
+      "If the hyperscaler companies fail to meet their capex investment targets or experience a significant slowdown in data center construction, it would challenge the thesis of their transformative impact and financial health.",
+      "A substantial increase in defaults or delays on lease obligations or purchase commitments by hyperscaler companies would indicate higher financial stress and reduce conviction in their financial stability.",
+      "If the debt markets show a sustained lack of appetite for the bond sales of hyperscaler companies, it could signal a reassessment of risk and a potential reduction in investment returns.",
+      "Regulatory changes that increase the requirement for hyperscaler companies to bring these off-balance sheet liabilities onto their balance sheets could significantly alter the financial landscape and investor perceptions."
+    ],
+    "insight_title": "Robin Wigglesworth on Hyperscalers' 1.5 Trillion of Off-Balance Sheet Liabilities, Private Credit, and His Book \"A Fabulous Debt\"",
+    "source_name": "Monetary Matters with Jack Farley",
+    "source_date": "2026-08-16",
+    "key_tickers": [
+      "META",
+      "GOOGL",
+      "MSFT"
+    ]
+  },
+  "422": {
+    "id": 412,
+    "insight_id": 422,
+    "podcast_episode_id": 406,
+    "overview": "The competitive dynamic highlighted in the podcast revolves around the allocation of resources within tech giants like Google, where there's a tension between investing in cutting-edge AI model development and building out AI infrastructure and data centers. The latter is seen as a more stable and tax-advantaged investment with high demand for compute power. The market arbitrates this uncertainty based on the success of these investments in driving shareholder value and technological advancement.",
+    "key_takeaways_detailed": [
+      "Investors should monitor the performance and innovation within Google's AI infrastructure projects to assess the viability of their strategic shift.",
+      "Keep an eye on the success of startups like Discovery Loop as they may indicate the health of the broader AI innovation ecosystem outside of major tech companies.",
+      "Consider the potential for a bifurcated market in AI, where a few companies dominate frontier intelligence, and others focus on commodity AI services.",
+      "Watch for any policy changes or tax law revisions in the U.S. that could alter the economic incentives for investing in AI infrastructure."
+    ],
+    "investment_thesis": "The shift towards AI infrastructure investment by tech giants like Google suggests a long-term play on the sustained demand for compute power and the strategic advantage of tax benefits. This thesis is vindicated if Google's investments in infrastructure lead to increased profitability and market share in compute services, while any significant breakthroughs in AI model development from competitors would invalidate the focus on infrastructure.",
+    "ticker_analysis": {
+      "GOOGL": {
+        "rationale": "Google's parent company Alphabet is directly implicated in the strategic shift towards AI infrastructure and data centers, making it a key ticker to watch for the success of this investment thesis.",
+        "positioning": "Strategic long position, as the investment in infrastructure is expected to pay off in the long term with increased demand for compute power and potential tax benefits.",
+        "risk": "The risk lies in Google failing to capitalize on its infrastructure investments or losing ground to competitors in AI model development."
+      },
+      "AMZN": {
+        "rationale": "As a major player in cloud computing and AI services, Amazon's performance can serve as a proxy for the health of the AI infrastructure market.",
+        "positioning": "Tactical long position, as Amazon's cloud business is expected to benefit from the growing demand for compute power.",
+        "risk": "Regulatory changes or a slowdown in cloud adoption could pose risks to Amazon's position in the market."
+      }
+    },
+    "positioning_guidance": "",
+    "risk_factors": [],
+    "contrarian_signals": [
+      "A significant technological breakthrough by a smaller AI company that disrupts the market dynamics.",
+      "A sharp decrease in demand for compute power due to economic downturn or technological shifts.",
+      "Unexpected regulatory hurdles that impede the expansion of data centers and AI infrastructure."
+    ],
+    "catalysts": [
+      "Google's next earnings call, where details on AI infrastructure investments and their impact on profitability will be discussed.",
+      "Any announcements from Discovery Loop regarding funding or scientific achievements.",
+      "Changes in U.S. tax legislation that could affect the economics of investing in AI infrastructure."
+    ],
+    "related_insights": null,
+    "audio_timestamp_start": null,
+    "audio_timestamp_end": null,
+    "transcript_excerpt": null,
+    "created_at": "2026-08-16T22:03:15.700356",
+    "updated_at": "2026-08-17 03:03:15",
+    "episode_evidence": "The podcast discussed significant changes within Google's AI team, with Demis Hassabis transitioning to chair of DeepMind and Chief Scientist at Google. The hosts framed this as a potential 'stepping down' or 'being kicked upstairs,' yet Google characterized it as a promotion. 'Google's Gemini 3.5 Pro is months behind,' with low morale and top researchers leaving for competing labs, indicating internal challenges. Jeff Dean, an AI legend and long-time Google employee, is part of a group leaving to start Discovery Loop, focused on 'deep scientific breakthroughs in AI.' This departure resulted in a 4% drop in Google's shares, equating to a $200 billion loss in market cap. The discussion highlighted Google's commitment to invest $200 billion in CapEx for AI infrastructure and data centers, emphasizing the tax advantages and high demand for compute, suggesting a strategic shift towards infrastructure over model development. 'Building the most advanced frontier lab-driven model also takes tens of billions of dollars of capital,' raising questions about the ROI of such investments versus compute infrastructure.",
+    "falsification_tracks": [
+      "Google announces a significant breakthrough in AI model development that resets the competitive landscape.",
+      "Discovery Loop fails to secure significant funding or makes no notable progress in deep scientific breakthroughs within the first year.",
+      "US tax laws change, reducing the advantages of investing in AI compute infrastructure, impacting the strategic rationale for such investments."
+    ],
+    "insight_title": "Google's AI Brain Drain, SpaceX's Huge Quarter, Airtable's 90% Collapse, US Data Fuels China AI",
+    "source_name": "All-In with Chamath, Jason, Sacks & Friedberg",
+    "source_date": "2026-08-08",
+    "key_tickers": [
+      "GOOGL"
+    ]
+  },
+  "423": {
+    "id": 413,
+    "insight_id": 423,
+    "podcast_episode_id": 408,
+    "overview": "The unresolved tension in the AI space revolves around the balance between innovation and regulation. The competitive dynamic is between companies that can successfully integrate AI into their operations and those that cannot, with the potential for significant growth and job creation on one side, and potential regulatory hurdles on the other. The policy tradeoff is between fostering an environment that encourages AI development and ensuring that such development is safe and ethical. What converts belief in this space is the ability of companies to navigate these challenges, leveraging AI for growth while complying with regulatory demands.",
+    "key_takeaways_detailed": [
+      "Investors should closely monitor regulatory developments, as they can significantly impact the valuation and growth prospects of AI companies.",
+      "Companies that can demonstrate responsible AI integration, aligning with government safety measures, may gain a competitive advantage in the market.",
+      "The potential for AI to design better AI chips could lead to a new wave of innovation, making it crucial for investors to track the progress of companies at the forefront of this technology.",
+      "Intellectual property rights in the AI era are a complex and evolving landscape, requiring investors to stay informed about legal developments that could affect the value of their holdings."
+    ],
+    "investment_thesis": "The core investment thesis is that companies which successfully integrate AI into their operations and navigate the evolving regulatory landscape will outperform, leading to significant growth and job creation. This thesis is based on the observation that high-intensity AI adopters are experiencing substantial growth in both white-collar and entry-level jobs. The timeframe for this thesis is medium to long-term, as the effects of AI integration and regulatory compliance will likely unfold over several years. An observable development that would vindicate this thesis is a continued trend of job growth and business expansion in companies that invest heavily in AI, coupled with successful compliance with new safety measures and regulations.",
+    "ticker_analysis": {
+      "AAPL": {
+        "rationale": "Apple is a key player in the technology sector with significant investments in AI, making it relevant to the thesis on AI integration and growth.",
+        "positioning": "Positioning should be long-term, as Apple's continued investment in AI is likely to drive growth and innovation over time.",
+        "risk": "Key risks include potential regulatory hurdles that could slow down AI development and the possibility that Apple may not be able to keep pace with rapid advancements in AI technology."
+      },
+      "GOOGL": {
+        "rationale": "Google, through its parent company Alphabet, is at the forefront of AI research and development, making it a prime candidate for investment in this space.",
+        "positioning": "A strategic long position is appropriate, given Google's deep expertise and ongoing investments in AI.",
+        "risk": "The risk lies in potential regulatory challenges and the possibility of disruption from new entrants in the AI space."
+      },
+      "MSFT": {
+        "rationale": "Microsoft has a strong presence in AI, with investments in cloud computing and AI services, aligning with the thesis on AI integration.",
+        "positioning": "A tactical long position can be considered, as Microsoft's AI offerings are likely to contribute to short-term growth.",
+        "risk": "Regulatory changes and competition from other tech giants could pose risks to Microsoft's AI business."
+      },
+      "NVDA": {
+        "rationale": "Nvidia is a leader in AI chip design, which is a critical component of the AI technology stack and directly related to the thesis on AI advancements.",
+        "positioning": "A strategic long position is suitable, as advancements in AI chip design could significantly benefit Nvidia.",
+        "risk": "The risk includes the possibility of technological obsolescence if new chip designs do not meet market needs or if competitors gain an edge."
+      },
+      "TSLA": {
+        "rationale": "Tesla's integration of AI in its electric vehicles and autonomous driving technology positions it as a company that could benefit from the trends discussed.",
+        "positioning": "A long-term strategic position is appropriate, as Tesla's continued innovation in AI could drive its growth.",
+        "risk": "Regulatory challenges in autonomous driving and competition in the electric vehicle market pose risks to Tesla's AI initiatives."
+      }
+    },
+    "positioning_guidance": "",
+    "risk_factors": [],
+    "contrarian_signals": [
+      "The possibility that government regulations could stifle innovation and slow down the growth of AI companies.",
+      "The risk that job growth in AI companies may not be sustainable in the long term, especially if the technology leads to automation of more complex tasks.",
+      "The potential for AI chip design advancements to be slower than expected, which could limit the exponential growth in AI capabilities.",
+      "The challenge of adapting intellectual property laws to the AI era, which could lead to legal disputes and slow down innovation."
+    ],
+    "catalysts": [
+      "New government regulations or court rulings that impact AI development and deployment.",
+      "Publication of studies that provide further evidence on the impact of AI on job growth and business expansion.",
+      "Announcements from tech companies regarding breakthroughs in AI chip design and their implications for AI capabilities.",
+      "Global developments in intellectual property laws that could affect the protection and commercialization of AI-generated inventions."
+    ],
+    "related_insights": null,
+    "audio_timestamp_start": null,
+    "audio_timestamp_end": null,
+    "transcript_excerpt": null,
+    "created_at": "2026-08-16T22:03:39.968333",
+    "updated_at": "2026-08-17 03:03:39",
+    "episode_evidence": "The podcast episode with Peter Diamandis provides a rich tapestry of insights into the current state and future trajectory of AI. One key point is the return of Anthropic's Fable 5 model, which came back online with new safety measures, as mandated by the U.S. government. This move underscores the growing influence of government regulation in AI development, with Peter Diamandis stating, 'Anthropic now has three guarantees to the US government... to give designated government partners early access to the frontier models and safeguards.' This precedent could significantly impact how future AI technologies are developed and deployed. Additionally, the discussion on job growth counters the narrative of AI-induced unemployment. Companies investing heavily in AI have seen significant growth, with high-intensity adopters experiencing a 10.2% increase in white-collar jobs and a 12% increase in entry-level positions, as Peter Diamandis points out, 'Companies that spent heavily on AI did not shrink; in fact, they grew.' This suggests that AI integration can be a catalyst for job creation and business expansion.",
+    "falsification_tracks": [
+      "If new government regulations significantly hamper the operations of AI companies, leading to a decline in their growth and job creation.",
+      "Should studies in the future show a reversal in job growth trends within companies that have heavily invested in AI, indicating a potential negative impact on employment.",
+      "In the event that advancements in AI chip design do not materialize or fail to deliver the expected exponential growth in AI capabilities.",
+      "If global intellectual property laws fail to adapt to the realities of AI-generated inventions, leading to a stagnation in innovation and protection of AI-related patents."
+    ],
+    "insight_title": "Fable 5 Is Back & Govt-Leashed, Altman Offers 5% of OpenAI & AI Grows Conscious | #269",
+    "source_name": "Moonshots with Peter Diamandis",
+    "source_date": "2026-07-08",
+    "key_tickers": []
   }
 },
   suggestedTerms: [
   {
-    "id": 588,
-    "term": "Lighthouse Strategy",
-    "definition": "A go-to-market strategy that involves winning a handful of high-profile customers to unlock a market and use their credibility to gain further traction.",
-    "investment_implications": "This strategy can be effective for companies looking to establish credibility and gain a foothold in a new market, but it may not be the best approach for capturing market share quickly.",
+    "id": 591,
+    "term": "AI-designed Chips",
+    "definition": "AI systems are used to design better AI chips, which can significantly speed up the development process and potentially lead to recursive self-improvement in AI capabilities.",
+    "investment_implications": "Investors should monitor advancements in AI chip design as they could lead to new investment opportunities in AI technology.",
     "source_type": "auto_extracted",
     "mention_count": 1,
     "source_diversity": 1,
     "relevance_score": 50,
-    "submitted_date": "2026-08-13 17:06:10",
+    "submitted_date": "2026-08-17 03:02:02",
     "priority_score": 80
   },
   {
-    "id": 589,
-    "term": "Land Grab Strategy",
-    "definition": "A go-to-market strategy that focuses on capturing as much of the market as quickly as possible by finding customers with existing budgets and proving the value of the product.",
-    "investment_implications": "This approach can be more effective for companies looking to scale rapidly and dominate a market, but it may require a different set of sales capabilities and resources.",
+    "id": 590,
+    "term": "Off-Balance Sheet Leverage",
+    "definition": "A company's potential obligations or assets that do not appear on its balance sheet but could have future financial implications.",
+    "investment_implications": "Understanding off-balance sheet leverage is crucial for investors to assess the true financial health and risk of a company.",
     "source_type": "auto_extracted",
     "mention_count": 1,
     "source_diversity": 1,
     "relevance_score": 50,
-    "submitted_date": "2026-08-13 17:06:10",
+    "submitted_date": "2026-08-17 03:01:48",
     "priority_score": 80
   },
   {
-    "id": 587,
-    "term": "Cycle Dates",
-    "definition": "A concept used by Milton Berg to identify market turning points, which often work very well in pinpointing these moments.",
-    "investment_implications": "Understanding cycle dates can provide investors with an edge in predicting market movements and timing entries and exits.",
+    "id": 581,
+    "term": "Commoditizer Complements",
+    "definition": "A phenomenon where the commoditization of one component in a technology stack leads to increased demand for other components.",
+    "investment_implications": "Understanding commoditizer complements can help identify investment opportunities in technology stacks where one layer is commoditized.",
     "source_type": "auto_extracted",
     "mention_count": 1,
     "source_diversity": 1,
     "relevance_score": 50,
-    "submitted_date": "2026-08-13 03:02:15",
+    "submitted_date": "2026-08-08 04:38:55",
     "priority_score": 80
   },
   {
-    "id": 586,
-    "term": "Compute Commoditization",
-    "definition": "The process by which compute power becomes a standard, tradable commodity, similar to oil or natural gas, with market structures and pricing based on supply and demand.",
-    "investment_implications": "Investors should consider the potential for companies that can shape or benefit from the commoditization of compute power.",
+    "id": 560,
+    "term": "KV cache compaction",
+    "definition": "A process in AI models that allows for the updating of the model's knowledge base without losing previous knowledge, crucial for continual learning.",
+    "investment_implications": "Enables more effective and efficient AI model updates, potentially reducing costs and improving performance in AI deployments.",
     "source_type": "auto_extracted",
     "mention_count": 1,
     "source_diversity": 1,
     "relevance_score": 50,
-    "submitted_date": "2026-08-12 10:03:05",
+    "submitted_date": "2026-08-04 04:40:23",
     "priority_score": 80
   }
 ],
   podcastGuests: [
   {
-    "id": 51807,
+    "id": 51923,
     "name": "Travis Kalanick",
     "slug": "travis-kalanick",
     "bio": null,
@@ -36509,7 +36838,7 @@ const dashboardData = {
     "appearance_count": 1
   },
   {
-    "id": 51809,
+    "id": 51925,
     "name": "Emad Mostaque",
     "slug": "emad-mostaque",
     "bio": null,
@@ -36521,7 +36850,7 @@ const dashboardData = {
     "appearance_count": 2
   },
   {
-    "id": 51808,
+    "id": 51924,
     "name": "Rahm Emanuel",
     "slug": "rahm-emanuel",
     "bio": null,
@@ -36533,7 +36862,7 @@ const dashboardData = {
     "appearance_count": 1
   },
   {
-    "id": 51810,
+    "id": 51926,
     "name": "Milton Berg",
     "slug": "milton-berg",
     "bio": "Milton Berg is a veteran technical analyst and CEO of Milton Berg Advisors, specializing in market turning-point analysis for institutional investors.",
@@ -36545,7 +36874,7 @@ const dashboardData = {
     "appearance_count": 2
   },
   {
-    "id": 51811,
+    "id": 51927,
     "name": "How Kavak Rebuilt Itself Around AI Agents",
     "slug": "how-kavak-rebuilt-itself-around-ai-agents",
     "bio": null,
@@ -36557,7 +36886,7 @@ const dashboardData = {
     "appearance_count": 1
   },
   {
-    "id": 51812,
+    "id": 51928,
     "name": "How Open",
     "slug": "how-open",
     "bio": null,
@@ -36569,7 +36898,7 @@ const dashboardData = {
     "appearance_count": 1
   },
   {
-    "id": 51813,
+    "id": 51929,
     "name": "Saronic Founders",
     "slug": "saronic-founders",
     "bio": null,
@@ -36581,7 +36910,7 @@ const dashboardData = {
     "appearance_count": 1
   },
   {
-    "id": 51814,
+    "id": 51930,
     "name": "OpenAI's Joshua Achiam",
     "slug": "openais-joshua-achiam",
     "bio": null,
@@ -36593,7 +36922,7 @@ const dashboardData = {
     "appearance_count": 1
   },
   {
-    "id": 51815,
+    "id": 51931,
     "name": "Why Macro is \u201cPretty Risk-On\u201d for Equities",
     "slug": "why-macro-is-pretty-risk-on-for-equities",
     "bio": null,
@@ -36605,7 +36934,7 @@ const dashboardData = {
     "appearance_count": 1
   },
   {
-    "id": 51816,
+    "id": 51932,
     "name": "AI for America's Small Businesses",
     "slug": "ai-for-americas-small-businesses",
     "bio": null,
@@ -36617,7 +36946,7 @@ const dashboardData = {
     "appearance_count": 1
   },
   {
-    "id": 51817,
+    "id": 51933,
     "name": "Mum\u2019s The Word",
     "slug": "mums-the-word",
     "bio": null,
@@ -36629,7 +36958,7 @@ const dashboardData = {
     "appearance_count": 1
   },
   {
-    "id": 51818,
+    "id": 51934,
     "name": "Luke Gromen",
     "slug": "luke-gromen",
     "bio": null,
@@ -36641,7 +36970,7 @@ const dashboardData = {
     "appearance_count": 1
   },
   {
-    "id": 51819,
+    "id": 51935,
     "name": "Codex from 0 to 10M Users",
     "slug": "codex-from-0-to-10m-users",
     "bio": null,
@@ -36653,7 +36982,7 @@ const dashboardData = {
     "appearance_count": 1
   },
   {
-    "id": 51820,
+    "id": 51936,
     "name": "Ben Horowitz",
     "slug": "ben-horowitz",
     "bio": "Ben Horowitz is a co-founder of venture firm Andreessen Horowitz and former CEO of Opsware, known for advising founders on leadership under pressure.",
@@ -36665,7 +36994,7 @@ const dashboardData = {
     "appearance_count": 3
   },
   {
-    "id": 51821,
+    "id": 51937,
     "name": "Building the Physical AI Stack",
     "slug": "building-the-physical-ai-stack",
     "bio": null,
@@ -36677,7 +37006,7 @@ const dashboardData = {
     "appearance_count": 1
   },
   {
-    "id": 51822,
+    "id": 51938,
     "name": "Travis Kalanick Is Back",
     "slug": "travis-kalanick-is-back",
     "bio": null,
@@ -36689,7 +37018,7 @@ const dashboardData = {
     "appearance_count": 1
   },
   {
-    "id": 51823,
+    "id": 51939,
     "name": "Why Physical AI Is the Next Frontier",
     "slug": "why-physical-ai-is-the-next-frontier",
     "bio": null,
@@ -36701,7 +37030,7 @@ const dashboardData = {
     "appearance_count": 1
   },
   {
-    "id": 51824,
+    "id": 51940,
     "name": "Nick Nemeth",
     "slug": "nick-nemeth",
     "bio": null,
@@ -36713,7 +37042,7 @@ const dashboardData = {
     "appearance_count": 1
   },
   {
-    "id": 51825,
+    "id": 51941,
     "name": "Mark Cuban on the AI Bubble",
     "slug": "mark-cuban-on-the-ai-bubble",
     "bio": null,
@@ -36725,7 +37054,7 @@ const dashboardData = {
     "appearance_count": 1
   },
   {
-    "id": 51826,
+    "id": 51942,
     "name": "Urgent Update- AI Sputnik Moment",
     "slug": "urgent-update--ai-sputnik-moment",
     "bio": null,
@@ -36738,6 +37067,183 @@ const dashboardData = {
   }
 ],
   pundits: [
+  {
+    "id": 52,
+    "name": "Alex Carp",
+    "slug": "alex-carp",
+    "bio": "Alex Karp is a prominent figure in the technology sector, known for his work in big data analytics and contributions to the field of AI. He is the co-founder and former CEO of Palantir Technologies, a company that specializes in data analysis and intelligence services.",
+    "known_for": "His role in founding Palantir Technologies and his contributions to the field of AI and big data analytics.",
+    "net_worth_usd": 14000000000.0,
+    "net_worth_source": "https://www.celebritynetworth.com/richest-businessmen/richest-billionaires/alex-karp-net-worth/",
+    "net_worth_updated_at": "2026-07-03T23:37:37.147345",
+    "voice_tone": "Assertive and knowledgeable.",
+    "voice_style": "Factual and persuasive.",
+    "voice_delivery_notes": "Clear and deliberate pace, with emphasis on the importance of data control.",
+    "voice_profile_updated_at": "2026-07-04 04:37:05",
+    "last_seen": "2026-08-17 03:02:02",
+    "last_episode_title": "Fable 5 Is Back & Govt-Leashed, Altman Offers 5% of OpenAI & AI Grows Conscious | #269",
+    "last_podcast_name": "Moonshots with Peter Diamandis",
+    "last_episode_date": "2026-07-08",
+    "mention_score": 3,
+    "mention_score_decayed": 3,
+    "last_main_idea": "Invest in companies that are integrating AI into their operations to capitalize on job growth and technological advancements.",
+    "last_proof_cite": "Moonshots with Peter Diamandis \u2022 2026-07-08 \u2022 Fable 5 Is Back & Govt-Leashed, Altman Offers 5% of OpenAI & AI Grows Conscious | #269",
+    "last_proof_snippet": "Fable 5 came back online globally on July 1st with a few Provisos. This feels like the first time a frontier model has a standing duty to the U.S. government. This is probably close to the best scenario we could have hoped for. Sam has been",
+    "supporting_takeaway": "Investment in AI is associated with job growth, not job loss, challenging the common narrative.",
+    "grokipedia_url": null,
+    "grokipedia_fetched_at": "2026-08-16T22:02:13.331554",
+    "pundit_profile": {
+      "source": "llm",
+      "source_model": "moonshot:moonshot-v1-8k",
+      "source_url": "",
+      "page_title": "Alex Carp",
+      "fetched_at": "2026-08-17T03:02:13.331229+00:00",
+      "cliff_notes": "Alex Karp is a German-American businessman who co-founded Palantir Technologies, a company that provides data analysis and intelligence services. His work has been pivotal in the field of big data analytics and AI, shaping the way organizations process and understand vast amounts of data. Under his leadership, Palantir became a significant player in the tech industry, providing services to both private and public sector clients. Karp's contributions to the field have made him a notable figure in the technology sector, influencing the development and application of AI and data analytics.",
+      "derived": {
+        "former_positions": "Co-founder and former CEO of Palantir Technologies;"
+      },
+      "infobox": {
+        "Born": "",
+        "Nationality": "German-American"
+      },
+      "lead_paragraphs": [
+        "Alex Karp is a German-American businessman who co-founded Palantir Technologies, a company that provides data analysis and intelligence services. His work has been pivotal in the field of big data analytics and AI, shaping the way organizations process and understand vast amounts of data. Under his leadership, Palantir became a significant player in the tech industry, providing services to both private and public sector clients.",
+        "Karp's contributions to the field have made him a notable figure in the technology sector, influencing the development and application of AI and data analytics."
+      ],
+      "sections": [
+        {
+          "heading": "Palantir Technologies",
+          "body": "Alex Karp co-founded Palantir Technologies, which has become a major player in the field of big data analytics and intelligence services."
+        },
+        {
+          "heading": "Big Data Analytics",
+          "body": "Karp's work in big data analytics has been influential, helping organizations to better understand and utilize vast amounts of data."
+        },
+        {
+          "heading": "AI Contributions",
+          "body": "His contributions to the field of AI have been significant, shaping the development and application of AI technologies."
+        }
+      ]
+    },
+    "net_worth": "$14.00B"
+  },
+  {
+    "id": 404,
+    "name": "Robin Wigglesworth",
+    "slug": "robin-wigglesworth",
+    "bio": "Robin Wigglesworth is an expert in financial markets and the history of bonds. He is the editor of AlphaVille, the Financial Times Financial blog, and author of 'Fabulous Debt', which chronicles the impact of bonds on the modern world.",
+    "known_for": "His expertise in financial markets and the history of bonds, particularly his insights on the transformative impact of bonds on the economy.",
+    "net_worth_usd": null,
+    "net_worth_source": "",
+    "net_worth_updated_at": null,
+    "voice_tone": "Inquisitive and informative.",
+    "voice_style": "Analytical with a historical perspective.",
+    "voice_delivery_notes": "Pacing is moderate with emphasis on key financial figures and historical parallels.",
+    "voice_profile_updated_at": "2026-08-17 03:01:48",
+    "last_seen": "2026-08-17 03:01:48",
+    "last_episode_title": "Robin Wigglesworth on Hyperscalers' 1.5 Trillion of Off-Balance Sheet Liabilities, Private Credit, and His Book \"A Fabulous Debt\"",
+    "last_podcast_name": "Monetary Matters with Jack Farley",
+    "last_episode_date": "2026-08-16",
+    "mention_score": 1,
+    "mention_score_decayed": 1,
+    "last_main_idea": "Investment in hyperscaler companies may offer significant returns due to their transformative technology and massive capital investments, but also carries risks due to the off-balance sheet leverage and innovative financial structures.",
+    "last_proof_cite": "Monetary Matters with Jack Farley \u2022 2026-08-16 \u2022 Robin Wigglesworth on Hyperscalers' 1.5 Trillion of Off-Balance Sheet Liabilities, Private Credit, and His Book \"A Fabulous Debt\"",
+    "last_proof_snippet": "I'm joined today by Robin Wigglesworth, editor of AlphaVille, the Financial Times Financial blog and author of a fabulous debt, the epic story of how bonds built the modern world Robin. But one talk about bonds fixed income of course, but w",
+    "supporting_takeaway": "Off-balance sheet leverage has grown significantly, with guarantees and lease obligations increasing from $1 trillion to $1.5 trillion.",
+    "grokipedia_url": null,
+    "grokipedia_fetched_at": "2026-08-16T22:02:21.258122",
+    "pundit_profile": {
+      "source": "llm",
+      "source_model": "moonshot:moonshot-v1-8k",
+      "source_url": "",
+      "page_title": "Robin Wigglesworth",
+      "fetched_at": "2026-08-17T03:02:21.258033+00:00",
+      "cliff_notes": "Robin Wigglesworth is recognized for his deep understanding of financial markets, particularly the history and impact of bonds. As the editor of AlphaVille, the Financial Times' financial blog, he provides insightful commentary on current financial events and trends. His work extends beyond blogging, as evidenced by his book 'Fabulous Debt', which explores the significant role bonds have played in shaping the modern world. Wigglesworth's expertise is sought after for understanding the intricacies of financial instruments and their influence on global economies.",
+      "derived": {
+        "current_role": "Editor of AlphaVille, Financial Times",
+        "books_or_works": "Fabulous Debt: The Epic Story of How Bonds Built the Modern World"
+      },
+      "infobox": {
+        "Nationality": "Unknown"
+      },
+      "lead_paragraphs": [
+        "Robin Wigglesworth is recognized for his deep understanding of financial markets, particularly the history and impact of bonds. As the editor of AlphaVille, the Financial Times' financial blog, he provides insightful commentary on current financial events and trends. His work extends beyond blogging, as evidenced by his book 'Fabulous Debt', which explores the significant role bonds have played in shaping the modern world.",
+        "Wigglesworth's expertise is sought after for understanding the intricacies of financial instruments and their influence on global economies."
+      ],
+      "sections": [
+        {
+          "heading": "Financial Markets",
+          "body": "Robin Wigglesworth is well-versed in the intricacies of financial markets, offering valuable insights into their operations and the impact of financial instruments like bonds."
+        },
+        {
+          "heading": "History of Bonds",
+          "body": "His book 'Fabulous Debt' delves into the history of bonds, illustrating their profound influence on economic development and the building of the modern world."
+        },
+        {
+          "heading": "Off-Balance Sheet Analysis",
+          "body": "Wigglesworth has conducted analysis on the off-balance sheet hidden leverage of major tech companies, such as Meta and Google, providing a deeper understanding of their financial strategies."
+        }
+      ]
+    }
+  },
+  {
+    "id": 64,
+    "name": "Brad Gersner",
+    "slug": "brad-gersner",
+    "bio": "Brad Gersner is known as the 'Bruce Wayne of the markets', recognized for his ability to connect market trends with pop culture references. He brings a unique perspective on financial matters, making complex topics more accessible and engaging for a wide audience.",
+    "known_for": "His innovative approach to financial analysis and commentary, blending market insights with pop culture references.",
+    "net_worth_usd": 90200000.0,
+    "net_worth_source": "https://www.benzinga.com/sec/insider-trades/0001775157/brad-gerstner",
+    "net_worth_updated_at": "2026-08-16T22:02:32.098311",
+    "voice_tone": "Humorous and engaging",
+    "voice_style": "Uses rhymes and pop culture references to make complex financial topics accessible",
+    "voice_delivery_notes": "Pacing is lively with emphasis on punchlines",
+    "voice_profile_updated_at": "2026-08-17 03:01:06",
+    "last_seen": "2026-08-17 03:01:06",
+    "last_episode_title": "Google's AI Brain Drain, SpaceX's Huge Quarter, Airtable's 90% Collapse, US Data Fuels China AI",
+    "last_podcast_name": "All-In with Chamath, Jason, Sacks & Friedberg",
+    "last_episode_date": "2026-08-08",
+    "mention_score": 2,
+    "mention_score_decayed": 2,
+    "last_main_idea": "Investment in AI infrastructure and data centers is becoming increasingly important due to the demand for compute power and the tax advantages of such investments in the U.S.",
+    "last_proof_cite": "All-In with Chamath, Jason, Sacks & Friedberg \u2022 2026-08-08 \u2022 Google's AI Brain Drain, SpaceX's Huge Quarter, Airtable's 90% Collapse, US Data Fuels China AI",
+    "last_proof_snippet": "All right, everybody. Welcome back to your favorite podcast. It's the all-in podcast. It's the summer. It's August 6th. Haven't a hard time getting a core. I'm here on the podcast. But David Friedberg is here. David Friedberg is back our Su",
+    "supporting_takeaway": "AI superstars, including Chef Dean, are leaving Google to start Discovery Loop, focusing on deep scientific breakthroughs in AI.",
+    "grokipedia_url": null,
+    "grokipedia_fetched_at": "2026-08-16T22:02:31.250834",
+    "pundit_profile": {
+      "source": "llm",
+      "source_model": "moonshot:moonshot-v1-8k",
+      "source_url": "",
+      "page_title": "Brad Gersner",
+      "fetched_at": "2026-08-17T03:02:31.250696+00:00",
+      "cliff_notes": "Brad Gersner has carved a niche for himself in the financial world by combining his passion for markets with a flair for pop culture. His unique ability to relate complex financial trends to everyday cultural references has made him a sought-after commentator and analyst. Gersner's approach to demystifying financial matters has resonated with a broad audience, making him a prominent voice in the industry. His career has been marked by a commitment to making financial literacy both entertaining and informative, which has helped him stand out in a crowded field.",
+      "derived": {},
+      "infobox": {
+        "Born": "",
+        "Nationality": ""
+      },
+      "lead_paragraphs": [
+        "Brad Gersner has carved a niche for himself in the financial world by combining his passion for markets with a flair for pop culture. His unique ability to relate complex financial trends to everyday cultural references has made him a sought-after commentator and analyst. Gersner's approach to demystifying financial matters has resonated with a broad audience, making him a prominent voice in the industry.",
+        "His career has been marked by a commitment to making financial literacy both entertaining and informative, which has helped him stand out in a crowded field."
+      ],
+      "sections": [
+        {
+          "heading": "Market Trends",
+          "body": "Brad Gersner is recognized for his ability to analyze and predict market trends, often using pop culture references to explain complex financial concepts."
+        },
+        {
+          "heading": "Pop Culture References",
+          "body": "Gersner's commentary is known for its infusion of pop culture, making his financial analysis more relatable and engaging to a wider audience."
+        },
+        {
+          "heading": "Financial Literacy",
+          "body": "His work aims to promote financial literacy by breaking down complex topics into digestible, culturally relevant insights."
+        }
+      ]
+    },
+    "net_worth": "$90.2M"
+  },
   {
     "id": 403,
     "name": "Evan Baker",
@@ -37139,7 +37645,7 @@ const dashboardData = {
     "last_podcast_name": "Monetary Matters with Jack Farley",
     "last_episode_date": "2026-08-12",
     "mention_score": 1,
-    "mention_score_decayed": 0.93,
+    "mention_score_decayed": 0.91,
     "last_main_idea": "Milton Berg's investment thesis is that the market may have bottomed and is poised for a rebound, with specific focus on sectors that have experienced significant declines as potential short-term bounce candidates.",
     "last_proof_cite": "Monetary Matters with Jack Farley \u2022 2026-08-12 \u2022 Milton Berg: I Have Evidence Market Has Likely Bottomed | Why Milton\u2019s Long Semis, Korea, Nasdaq, and More (With Caveats), and Why He Thinks Gold has made a Multi-year Top",
     "last_proof_snippet": "I am joined once again by Milton Berg of MB advisors and Milton Berg Edge. Milton is one of the greatest market technicians alive. And he focuses on a lot of things that most tetanolists don't follow. He's mostly not looking at charts. He's",
@@ -37453,7 +37959,7 @@ const dashboardData = {
     "last_podcast_name": "Dwarkesh Podcast",
     "last_episode_date": "2026-08-11",
     "mention_score": 1,
-    "mention_score_decayed": 0.91,
+    "mention_score_decayed": 0.89,
     "last_main_idea": "Investment in AI development and security is crucial to manage the rapid advancements and ensure ethical AI behavior.",
     "last_proof_cite": "Dwarkesh Podcast \u2022 2026-08-11 \u2022 Ryan Greenblatt \u2013 Human level AIs might build runaway superintelligences by 2032",
     "last_proof_snippet": "Today, I'm chatting with Ryan Greenlet, who is the chief scientist at Redwood Research, where he focuses on technical AI safety and security work. I want to talk to you about recursive self-improvement. This is the idea that once you build",
@@ -38229,7 +38735,7 @@ const dashboardData = {
     "last_podcast_name": "Moonshots with Peter Diamandis",
     "last_episode_date": "2026-08-04",
     "mention_score": 1,
-    "mention_score_decayed": 0.78,
+    "mention_score_decayed": 0.76,
     "last_main_idea": "Investing in AI and technology sectors that align with the U.S. government's initiatives for fostering innovation and scientific discovery could provide significant growth opportunities.",
     "last_proof_cite": "Moonshots with Peter Diamandis \u2022 2026-08-04 \u2022 Michael Kratsios on the New Golden Age of American Science | EP #276",
     "last_proof_snippet": "I was a kid in the candy store reading the Golden Age Report. What you're describing there is a complete fundamental AI native AI agent up, reimagining of the entire scientific process. And I think it's something that is possible. My sense",
@@ -38298,7 +38804,7 @@ const dashboardData = {
     "last_podcast_name": "The a16z Show",
     "last_episode_date": "2026-08-04",
     "mention_score": 1,
-    "mention_score_decayed": 0.78,
+    "mention_score_decayed": 0.76,
     "last_main_idea": "Investing in cybersecurity solutions that leverage AI can provide a competitive advantage, but it also requires understanding the novel risks and vulnerabilities that AI models can create.",
     "last_proof_cite": "The a16z Show \u2022 2026-08-04 \u2022 OpenAI's Joshua Achiam: Did We Already Reach AGI?",
     "last_proof_snippet": "Heels like AGI is kind of already here and most people have gone like drug. The fact that we passed the threshold of where unsolved mathematical trajectors are getting solved by extremely intelligent AI, where those AI's are more capable an",
@@ -39587,7 +40093,7 @@ const dashboardData = {
     "last_podcast_name": "All-In with Chamath, Jason, Sacks & Friedberg",
     "last_episode_date": "2026-07-20",
     "mention_score": 1,
-    "mention_score_decayed": 0.56,
+    "mention_score_decayed": 0.55,
     "last_main_idea": "The current market behavior, while bubbly, is distinct from past bubbles and may disproportionately impact venture capital and private equity firms due to aggressive investment strategies.",
     "last_proof_cite": "All-In with Chamath, Jason, Sacks & Friedberg \u2022 2026-07-20 \u2022 Mark Cuban on the AI Bubble: Who Actually Gets Wiped Out?",
     "last_proof_snippet": "You and I live through a couple of bubbles. We've seen this movie before. And this wave seems very different than the dot com wave. So let's talk about that. Are you concerned about a bubble? We're seeing bubbly like behavior people. It's n",
@@ -39722,7 +40228,7 @@ const dashboardData = {
     "last_podcast_name": "The a16z Show",
     "last_episode_date": "2026-07-20",
     "mention_score": 1,
-    "mention_score_decayed": 0.55,
+    "mention_score_decayed": 0.54,
     "last_main_idea": "Invest in open source AI platforms and local AI models to capitalize on the growing demand for privacy-preserving, cost-efficient AI solutions and the potential shift towards model routing.",
     "last_proof_cite": "The a16z Show \u2022 2026-07-20 \u2022 Hugging Face's CEO on Open Source AI, Model Routing, and the Future of Competition",
     "last_proof_snippet": "I think this relation is a very common practice that everyone is using. It's something that everyone uses, but that is not the main reason for success. Like if you suck, you suck without this relation. It's hard for me to say, like, oh, poo",
@@ -40031,7 +40537,7 @@ const dashboardData = {
     "last_podcast_name": "Moonshots with Peter Diamandis",
     "last_episode_date": "2026-07-17",
     "mention_score": 1,
-    "mention_score_decayed": 0.51,
+    "mention_score_decayed": 0.5,
     "last_main_idea": "Investing in AI companies that focus on customization and small language models can provide significant returns as these technologies meet current market demands and have the potential to shape the future of AI.",
     "last_proof_cite": "Moonshots with Peter Diamandis \u2022 2026-07-17 \u2022 Mira Murati's 975B Open Model, Ramin Hasani on Post-Transformer AI, and Demis' AI FINRA | EP #271",
     "last_proof_snippet": "Miramoradi, the former OpenAI CTO, just shipped her first model. It's called Inkling, customization over leaderboard dominance is what's going to win her the day. She's built exactly the thing hitting the market that exactly what everybody",
@@ -41176,7 +41682,7 @@ const dashboardData = {
     "last_podcast_name": "Monetary Matters with Jack Farley",
     "last_episode_date": "2026-07-04",
     "mention_score": 1,
-    "mention_score_decayed": 0.38,
+    "mention_score_decayed": 0.37,
     "last_main_idea": "Invest in multi-family and senior housing to capitalize on demographic shifts, and focus on industrial properties to benefit from e-commerce growth.",
     "last_proof_cite": "Monetary Matters with Jack Farley \u2022 2026-07-04 \u2022 The Real Estate Cycle Is Turning | Josh Pristaw on The New Cycle in Real Estate, Opportunity in Senior Living, Why AI Data Centers Are Too Big For Most Investors",
     "last_proof_snippet": "Today's episode is brought to you by the Fundrise Income Fund. You'll hear more about the income fund later in the show, but for now, let's get into today's interview. Today we're going to be talking all things real estate. I'm joined by Jo",
@@ -41217,66 +41723,6 @@ const dashboardData = {
       ]
     },
     "net_worth": "$12.0M"
-  },
-  {
-    "id": 52,
-    "name": "Alex Carp",
-    "slug": "alex-carp",
-    "bio": "Alex Carp is a technology entrepreneur known for his advocacy of 'intelligence sovereignty' and the control of proprietary data and AI models by enterprises. He is the co-founder and former CEO of Palantir Technologies, a company specializing in big data analytics.",
-    "known_for": "Advocating for 'intelligence sovereignty' and the control of proprietary data and AI models by enterprises.",
-    "net_worth_usd": 14000000000.0,
-    "net_worth_source": "https://www.celebritynetworth.com/richest-businessmen/richest-billionaires/alex-karp-net-worth/",
-    "net_worth_updated_at": "2026-07-03T23:37:37.147345",
-    "voice_tone": "Assertive and knowledgeable.",
-    "voice_style": "Factual and persuasive.",
-    "voice_delivery_notes": "Clear and deliberate pace, with emphasis on the importance of data control.",
-    "voice_profile_updated_at": "2026-07-04 04:37:05",
-    "last_seen": "2026-07-04 04:37:05",
-    "last_episode_title": "AI Sovereignty Wars, Palantir-Nvidia Deal, SCOTUS Birthright Ruling, Newsom's CA Budget Lie",
-    "last_podcast_name": "All-In with Chamath, Jason, Sacks & Friedberg",
-    "last_episode_date": "2026-07-03",
-    "mention_score": 2,
-    "mention_score_decayed": 0.74,
-    "last_main_idea": "Enterprises should prioritize data sovereignty in AI to maintain competitive advantages and consider decentralized, open-source AI models to reduce costs and enhance operational efficiency.",
-    "last_proof_cite": "All-In with Chamath, Jason, Sacks & Friedberg \u2022 2026-07-03 \u2022 AI Sovereignty Wars, Palantir-Nvidia Deal, SCOTUS Birthright Ruling, Newsom's CA Budget Lie",
-    "last_proof_snippet": "All right, everybody, welcome back to the number one podcast in the world. Sure, favorite podcast. It's your podcast. It's your favorite podcast. It's the all-in podcast episode two, seven, nine with me, freebergs, tax, to my, you know, the",
-    "supporting_takeaway": "Monitor companies increasing AI investments, as they are likely to experience growth in headcount and revenue.",
-    "grokipedia_url": null,
-    "grokipedia_fetched_at": "2026-07-03T23:37:35.914601",
-    "pundit_profile": {
-      "source": "llm",
-      "source_model": "moonshot:moonshot-v1-8k",
-      "source_url": "",
-      "page_title": "Alex Carp",
-      "fetched_at": "2026-07-04T04:37:35.914266+00:00",
-      "cliff_notes": "Alex Carp is a prominent figure in the technology sector, recognized for his role in founding Palantir Technologies, a company that provides software solutions for integrating, visualizing, and analyzing large data sets. Carp's vision for 'intelligence sovereignty' emphasizes the importance of enterprises maintaining control over their proprietary data and AI models. His leadership at Palantir has been instrumental in shaping the company's direction and its impact on government and commercial sectors. Carp's influence extends beyond Palantir, as he has been a vocal advocate for data retention and the strategic importance of data in driving innovation and maintaining competitive advantage.",
-      "derived": {
-        "former_positions": "Co-founder and former CEO of Palantir Technologies;"
-      },
-      "infobox": {
-        "Born": "",
-        "Nationality": ""
-      },
-      "lead_paragraphs": [
-        "Alex Carp is a prominent figure in the technology sector, recognized for his role in founding Palantir Technologies, a company that provides software solutions for integrating, visualizing, and analyzing large data sets. Carp's vision for 'intelligence sovereignty' emphasizes the importance of enterprises maintaining control over their proprietary data and AI models.",
-        "His leadership at Palantir has been instrumental in shaping the company's direction and its impact on government and commercial sectors. Carp's influence extends beyond Palantir, as he has been a vocal advocate for data retention and the strategic importance of data in driving innovation and maintaining competitive advantage."
-      ],
-      "sections": [
-        {
-          "heading": "Palantir Technologies",
-          "body": "Alex Carp co-founded Palantir Technologies, which focuses on big data analytics and has become a significant player in the tech industry, particularly in its work with government agencies."
-        },
-        {
-          "heading": "Intelligence Sovereignty",
-          "body": "Carp is a strong advocate for 'intelligence sovereignty,' the concept that companies and governments should retain control over their data and AI models to maintain a competitive edge."
-        },
-        {
-          "heading": "Data and AI Control",
-          "body": "Under Carp's influence, Palantir has emphasized the importance of data control, leading to partnerships and initiatives that promote the use of AI while ensuring data remains with the client."
-        }
-      ]
-    },
-    "net_worth": "$14.00B"
   },
   {
     "id": 319,
@@ -42540,7 +42986,7 @@ const dashboardData = {
     "last_podcast_name": "Latent Space: The AI Engineer Podcast",
     "last_episode_date": "2026-06-17",
     "mention_score": 1,
-    "mention_score_decayed": 0.26,
+    "mention_score_decayed": 0.25,
     "last_main_idea": "Invest in companies that integrate AI with experimental data for material discovery to gain a competitive edge in industries like aerospace and semiconductors.",
     "last_proof_cite": "Latent Space: The AI Engineer Podcast \u2022 2026-06-17 \u2022 \ud83d\udd2c The Self-Driving Lab \u2014 Joseph Krause, Radical AI",
     "last_proof_snippet": "This is the difference between AI for bio and AI for materials. If you look at bio or maybe small molecules is a more broad category, you look at selfies and smile strings, where I which has been a big way to have those materials, those mol",
@@ -43668,7 +44114,7 @@ const dashboardData = {
     "last_podcast_name": "Monetary Matters with Jack Farley",
     "last_episode_date": "2026-06-06",
     "mention_score": 1,
-    "mention_score_decayed": 0.2,
+    "mention_score_decayed": 0.19,
     "last_main_idea": "Investors should focus on undervalued companies in Asia, particularly in South Korea and Southeast Asia, due to favorable valuations and growth prospects.",
     "last_proof_cite": "Monetary Matters with Jack Farley \u2022 2026-06-06 \u2022 The AI Chip Bubble: Why South Korea & Taiwan Are In the Danger Zone | Michael Fritzell | Asian Century Stocks",
     "last_proof_snippet": "South Korea, I do think it is a bubble, because the estimates for profits, for Eski Heinigs and Samsung electronics, we're now talking 200 billion US dollars in that profit estimates for 2028. And that will make them the most profitable com",
@@ -44151,7 +44597,7 @@ const dashboardData = {
     "last_podcast_name": "The a16z Show",
     "last_episode_date": "2026-06-02",
     "mention_score": 2,
-    "mention_score_decayed": 0.36,
+    "mention_score_decayed": 0.35,
     "last_main_idea": "Investment in AI-native computing hardware and software development will be pivotal as personal computing transitions towards AI optimization, with Nvidia and Apple leading the charge.",
     "last_proof_cite": "The a16z Show \u2022 2026-06-02 \u2022 Steven Sinofsky on Apple at 50, Microsoft, and the Future of Computing",
     "last_proof_snippet": "Having lived through like a half dozen component church things, you just sort of wait them out and you jump, let some local max, your local men determine the future. This will all correct itself, in short order. This world where you're all",
@@ -52528,33 +52974,6 @@ const dashboardData = {
     "last_proof_cite": "Monetary Matters with Jack Farley \u2022 2026-03-15 \u2022 Monetary Matters with Jack Farley: Precious Metals, Bonds, and Economic Cycles",
     "last_proof_snippet": "Join today by Alex Gorovich, founder and chief investment officer at Hauntay Asset Management and author of the second edition of the next perfect trade, the Magic Sword of Necessity. Alex, great to talk to you today. We haven't spoken in a",
     "supporting_takeaway": "Gorovich views gold as having a psychological value as a store of value, influenced by thousands of years of accumulation.",
-    "grokipedia_url": null,
-    "grokipedia_fetched_at": null,
-    "pundit_profile": null
-  },
-  {
-    "id": 64,
-    "name": "Brad Gersner",
-    "slug": "brad-gersner",
-    "bio": "Brad Gersner, a guest on the podcast, is known for his involvement in Trump accounts and his insights into the intersection of politics and finance.",
-    "known_for": "Trump accounts and financial market commentary",
-    "net_worth_usd": null,
-    "net_worth_source": null,
-    "net_worth_updated_at": null,
-    "voice_tone": null,
-    "voice_style": null,
-    "voice_delivery_notes": null,
-    "voice_profile_updated_at": null,
-    "last_seen": "2026-03-14 10:01:17",
-    "last_episode_title": "Investing in Capitalism: Trump Accounts, AI, and the Future of Wealth",
-    "last_podcast_name": "All-In with Chamath, Jason, Sacks & Friedberg",
-    "last_episode_date": "2026-03-13",
-    "mention_score": 1,
-    "mention_score_decayed": 0.03,
-    "last_main_idea": "Invest in technologies and platforms that democratize capitalism and leverage AI to create scalable solutions in coding and product development.",
-    "last_proof_cite": "All-In with Chamath, Jason, Sacks & Friedberg \u2022 2026-03-13 \u2022 Investing in Capitalism: Trump Accounts, AI, and the Future of Wealth",
-    "last_proof_snippet": "All right, everybody. Welcome back to the number one podcast in the world. Free birds out saving the world, creating new potatoes or I don't know, Kim Wa. Maybe some Brussels sprouts. I'm not sure what he's working on at this point in his p",
-    "supporting_takeaway": "AI investments are showing significant ROI, particularly in coding assistance for enterprises.",
     "grokipedia_url": null,
     "grokipedia_fetched_at": null,
     "pundit_profile": null

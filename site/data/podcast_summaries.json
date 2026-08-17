@@ -1,5 +1,25 @@
 [
   {
+    "id": 407,
+    "podcast_name": "Monetary Matters with Jack Farley",
+    "episode_title": "Robin Wigglesworth on Hyperscalers' 1.5 Trillion of Off-Balance Sheet Liabilities, Private Credit, and His Book \"A Fabulous Debt\"",
+    "episode_date": "2026-08-16",
+    "summary": "In this episode of Monetary Matters with Jack Farley, Robin Wigglesworth, editor of AlphaVille and author of 'Fabulous Debt', discusses the capital market events surrounding hyperscalers like Meta, Google, and Microsoft. They delve into the off-balance sheet hidden leverage, massive capex investments, and innovative financial structures like lease obligations that have grown from $1 trillion to $1.5 trillion. The conversation also touches on historical parallels, such as the 19th-century canal and railway booms, and their implications for today's financial landscape.",
+    "key_takeaways": [
+      "Hyperscalers are investing heavily in capital expenditures, with figures reaching into the hundreds of billions.",
+      "Off-balance sheet leverage has grown significantly, with guarantees and lease obligations increasing from $1 trillion to $1.5 trillion.",
+      "The scale of capex is transformative, drawing parallels to historical events like the 19th-century railway boom.",
+      "Financial creativity in the form of lease structures and bond sales is on the rise, with potential dangers if not managed properly.",
+      "Historical financial manias, while painful, have often led to significant economic transformations."
+    ],
+    "investment_thesis": "Investment in hyperscaler companies may offer significant returns due to their transformative technology and massive capital investments, but also carries risks due to the off-balance sheet leverage and innovative financial structures.",
+    "key_tickers": [
+      "META",
+      "GOOGL",
+      "MSFT"
+    ]
+  },
+  {
     "id": 405,
     "podcast_name": "All-In with Chamath, Jason, Sacks & Friedberg",
     "episode_title": "Anthropic's $2T IPO, Zuck's AI Manifesto, Nvidia's $500B AI Bet, Grok's Comeback",
@@ -117,22 +137,6 @@
       "Experienced founders in their 30s and 40s have an advantage due to their accumulated strategies and understanding of business processes."
     ],
     "investment_thesis": "Invest in startups leveraging AI to automate and perfect business processes, led by founders with a deep understanding of their domain and a history of successful strategy implementation.",
-    "key_tickers": null
-  },
-  {
-    "id": 397,
-    "podcast_name": "Latent Space: The AI Engineer Podcast",
-    "episode_title": "\ud83d\udd2cThe BioAI Phase Shift - Matthew McPartlon & Neil Patil, Chai Discovery",
-    "episode_date": "2026-08-11",
-    "summary": "This episode of Latent Space features an in-depth discussion with Mad McPartlin and Neil Patel from Try Discovery, a protein design startup utilizing AI for drug discovery. The conversation covers the evolution of protein structure prediction, the application of AI in hit discovery and lead optimization, and the potential for AI to revolutionize drug development by making it more precise and less reliant on trial and error. The guests also share their views on the interdisciplinary nature of their work and the impact of AI on attracting talent to the field of biology.",
-    "key_takeaways": [
-      "AI is transforming protein design, making it more similar to software development tools like AutoCAD or Figma.",
-      "The traditional drug discovery process, often compared to a waterfall model, is evolving to become more agile with the help of AI.",
-      "AI models are becoming capable of providing promising drug candidates, reducing the cost and time associated with early-stage drug discovery.",
-      "Try Discovery's platform is positioned to handle the entire preclinical pipeline, from hit discovery to lead optimization.",
-      "The field of protein design and AI in drug discovery is interdisciplinary, attracting talent from various backgrounds including software engineering and robotics."
-    ],
-    "investment_thesis": "Investing in AI-driven protein design companies like Try Discovery could offer significant returns as these platforms have the potential to disrupt traditional drug discovery, making it more efficient and cost-effective.",
     "key_tickers": null
   }
 ]

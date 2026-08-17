@@ -1,5 +1,182 @@
 [
   {
+    "id": 52,
+    "name": "Alex Carp",
+    "slug": "alex-carp",
+    "bio": "Alex Karp is a prominent figure in the technology sector, known for his work in big data analytics and contributions to the field of AI. He is the co-founder and former CEO of Palantir Technologies, a company that specializes in data analysis and intelligence services.",
+    "known_for": "His role in founding Palantir Technologies and his contributions to the field of AI and big data analytics.",
+    "net_worth_usd": 14000000000.0,
+    "net_worth_source": "https://www.celebritynetworth.com/richest-businessmen/richest-billionaires/alex-karp-net-worth/",
+    "net_worth_updated_at": "2026-07-03T23:37:37.147345",
+    "voice_tone": "Assertive and knowledgeable.",
+    "voice_style": "Factual and persuasive.",
+    "voice_delivery_notes": "Clear and deliberate pace, with emphasis on the importance of data control.",
+    "voice_profile_updated_at": "2026-07-04 04:37:05",
+    "last_seen": "2026-08-17 03:02:02",
+    "last_episode_title": "Fable 5 Is Back & Govt-Leashed, Altman Offers 5% of OpenAI & AI Grows Conscious | #269",
+    "last_podcast_name": "Moonshots with Peter Diamandis",
+    "last_episode_date": "2026-07-08",
+    "mention_score": 3,
+    "mention_score_decayed": 3,
+    "last_main_idea": "Invest in companies that are integrating AI into their operations to capitalize on job growth and technological advancements.",
+    "last_proof_cite": "Moonshots with Peter Diamandis \u2022 2026-07-08 \u2022 Fable 5 Is Back & Govt-Leashed, Altman Offers 5% of OpenAI & AI Grows Conscious | #269",
+    "last_proof_snippet": "Fable 5 came back online globally on July 1st with a few Provisos. This feels like the first time a frontier model has a standing duty to the U.S. government. This is probably close to the best scenario we could have hoped for. Sam has been",
+    "supporting_takeaway": "Investment in AI is associated with job growth, not job loss, challenging the common narrative.",
+    "grokipedia_url": null,
+    "grokipedia_fetched_at": "2026-08-16T22:02:13.331554",
+    "pundit_profile": {
+      "source": "llm",
+      "source_model": "moonshot:moonshot-v1-8k",
+      "source_url": "",
+      "page_title": "Alex Carp",
+      "fetched_at": "2026-08-17T03:02:13.331229+00:00",
+      "cliff_notes": "Alex Karp is a German-American businessman who co-founded Palantir Technologies, a company that provides data analysis and intelligence services. His work has been pivotal in the field of big data analytics and AI, shaping the way organizations process and understand vast amounts of data. Under his leadership, Palantir became a significant player in the tech industry, providing services to both private and public sector clients. Karp's contributions to the field have made him a notable figure in the technology sector, influencing the development and application of AI and data analytics.",
+      "derived": {
+        "former_positions": "Co-founder and former CEO of Palantir Technologies;"
+      },
+      "infobox": {
+        "Born": "",
+        "Nationality": "German-American"
+      },
+      "lead_paragraphs": [
+        "Alex Karp is a German-American businessman who co-founded Palantir Technologies, a company that provides data analysis and intelligence services. His work has been pivotal in the field of big data analytics and AI, shaping the way organizations process and understand vast amounts of data. Under his leadership, Palantir became a significant player in the tech industry, providing services to both private and public sector clients.",
+        "Karp's contributions to the field have made him a notable figure in the technology sector, influencing the development and application of AI and data analytics."
+      ],
+      "sections": [
+        {
+          "heading": "Palantir Technologies",
+          "body": "Alex Karp co-founded Palantir Technologies, which has become a major player in the field of big data analytics and intelligence services."
+        },
+        {
+          "heading": "Big Data Analytics",
+          "body": "Karp's work in big data analytics has been influential, helping organizations to better understand and utilize vast amounts of data."
+        },
+        {
+          "heading": "AI Contributions",
+          "body": "His contributions to the field of AI have been significant, shaping the development and application of AI technologies."
+        }
+      ]
+    },
+    "net_worth": "$14.00B"
+  },
+  {
+    "id": 404,
+    "name": "Robin Wigglesworth",
+    "slug": "robin-wigglesworth",
+    "bio": "Robin Wigglesworth is an expert in financial markets and the history of bonds. He is the editor of AlphaVille, the Financial Times Financial blog, and author of 'Fabulous Debt', which chronicles the impact of bonds on the modern world.",
+    "known_for": "His expertise in financial markets and the history of bonds, particularly his insights on the transformative impact of bonds on the economy.",
+    "net_worth_usd": null,
+    "net_worth_source": "",
+    "net_worth_updated_at": null,
+    "voice_tone": "Inquisitive and informative.",
+    "voice_style": "Analytical with a historical perspective.",
+    "voice_delivery_notes": "Pacing is moderate with emphasis on key financial figures and historical parallels.",
+    "voice_profile_updated_at": "2026-08-17 03:01:48",
+    "last_seen": "2026-08-17 03:01:48",
+    "last_episode_title": "Robin Wigglesworth on Hyperscalers' 1.5 Trillion of Off-Balance Sheet Liabilities, Private Credit, and His Book \"A Fabulous Debt\"",
+    "last_podcast_name": "Monetary Matters with Jack Farley",
+    "last_episode_date": "2026-08-16",
+    "mention_score": 1,
+    "mention_score_decayed": 1,
+    "last_main_idea": "Investment in hyperscaler companies may offer significant returns due to their transformative technology and massive capital investments, but also carries risks due to the off-balance sheet leverage and innovative financial structures.",
+    "last_proof_cite": "Monetary Matters with Jack Farley \u2022 2026-08-16 \u2022 Robin Wigglesworth on Hyperscalers' 1.5 Trillion of Off-Balance Sheet Liabilities, Private Credit, and His Book \"A Fabulous Debt\"",
+    "last_proof_snippet": "I'm joined today by Robin Wigglesworth, editor of AlphaVille, the Financial Times Financial blog and author of a fabulous debt, the epic story of how bonds built the modern world Robin. But one talk about bonds fixed income of course, but w",
+    "supporting_takeaway": "Off-balance sheet leverage has grown significantly, with guarantees and lease obligations increasing from $1 trillion to $1.5 trillion.",
+    "grokipedia_url": null,
+    "grokipedia_fetched_at": "2026-08-16T22:02:21.258122",
+    "pundit_profile": {
+      "source": "llm",
+      "source_model": "moonshot:moonshot-v1-8k",
+      "source_url": "",
+      "page_title": "Robin Wigglesworth",
+      "fetched_at": "2026-08-17T03:02:21.258033+00:00",
+      "cliff_notes": "Robin Wigglesworth is recognized for his deep understanding of financial markets, particularly the history and impact of bonds. As the editor of AlphaVille, the Financial Times' financial blog, he provides insightful commentary on current financial events and trends. His work extends beyond blogging, as evidenced by his book 'Fabulous Debt', which explores the significant role bonds have played in shaping the modern world. Wigglesworth's expertise is sought after for understanding the intricacies of financial instruments and their influence on global economies.",
+      "derived": {
+        "current_role": "Editor of AlphaVille, Financial Times",
+        "books_or_works": "Fabulous Debt: The Epic Story of How Bonds Built the Modern World"
+      },
+      "infobox": {
+        "Nationality": "Unknown"
+      },
+      "lead_paragraphs": [
+        "Robin Wigglesworth is recognized for his deep understanding of financial markets, particularly the history and impact of bonds. As the editor of AlphaVille, the Financial Times' financial blog, he provides insightful commentary on current financial events and trends. His work extends beyond blogging, as evidenced by his book 'Fabulous Debt', which explores the significant role bonds have played in shaping the modern world.",
+        "Wigglesworth's expertise is sought after for understanding the intricacies of financial instruments and their influence on global economies."
+      ],
+      "sections": [
+        {
+          "heading": "Financial Markets",
+          "body": "Robin Wigglesworth is well-versed in the intricacies of financial markets, offering valuable insights into their operations and the impact of financial instruments like bonds."
+        },
+        {
+          "heading": "History of Bonds",
+          "body": "His book 'Fabulous Debt' delves into the history of bonds, illustrating their profound influence on economic development and the building of the modern world."
+        },
+        {
+          "heading": "Off-Balance Sheet Analysis",
+          "body": "Wigglesworth has conducted analysis on the off-balance sheet hidden leverage of major tech companies, such as Meta and Google, providing a deeper understanding of their financial strategies."
+        }
+      ]
+    }
+  },
+  {
+    "id": 64,
+    "name": "Brad Gersner",
+    "slug": "brad-gersner",
+    "bio": "Brad Gersner is known as the 'Bruce Wayne of the markets', recognized for his ability to connect market trends with pop culture references. He brings a unique perspective on financial matters, making complex topics more accessible and engaging for a wide audience.",
+    "known_for": "His innovative approach to financial analysis and commentary, blending market insights with pop culture references.",
+    "net_worth_usd": 90200000.0,
+    "net_worth_source": "https://www.benzinga.com/sec/insider-trades/0001775157/brad-gerstner",
+    "net_worth_updated_at": "2026-08-16T22:02:32.098311",
+    "voice_tone": "Humorous and engaging",
+    "voice_style": "Uses rhymes and pop culture references to make complex financial topics accessible",
+    "voice_delivery_notes": "Pacing is lively with emphasis on punchlines",
+    "voice_profile_updated_at": "2026-08-17 03:01:06",
+    "last_seen": "2026-08-17 03:01:06",
+    "last_episode_title": "Google's AI Brain Drain, SpaceX's Huge Quarter, Airtable's 90% Collapse, US Data Fuels China AI",
+    "last_podcast_name": "All-In with Chamath, Jason, Sacks & Friedberg",
+    "last_episode_date": "2026-08-08",
+    "mention_score": 2,
+    "mention_score_decayed": 2,
+    "last_main_idea": "Investment in AI infrastructure and data centers is becoming increasingly important due to the demand for compute power and the tax advantages of such investments in the U.S.",
+    "last_proof_cite": "All-In with Chamath, Jason, Sacks & Friedberg \u2022 2026-08-08 \u2022 Google's AI Brain Drain, SpaceX's Huge Quarter, Airtable's 90% Collapse, US Data Fuels China AI",
+    "last_proof_snippet": "All right, everybody. Welcome back to your favorite podcast. It's the all-in podcast. It's the summer. It's August 6th. Haven't a hard time getting a core. I'm here on the podcast. But David Friedberg is here. David Friedberg is back our Su",
+    "supporting_takeaway": "AI superstars, including Chef Dean, are leaving Google to start Discovery Loop, focusing on deep scientific breakthroughs in AI.",
+    "grokipedia_url": null,
+    "grokipedia_fetched_at": "2026-08-16T22:02:31.250834",
+    "pundit_profile": {
+      "source": "llm",
+      "source_model": "moonshot:moonshot-v1-8k",
+      "source_url": "",
+      "page_title": "Brad Gersner",
+      "fetched_at": "2026-08-17T03:02:31.250696+00:00",
+      "cliff_notes": "Brad Gersner has carved a niche for himself in the financial world by combining his passion for markets with a flair for pop culture. His unique ability to relate complex financial trends to everyday cultural references has made him a sought-after commentator and analyst. Gersner's approach to demystifying financial matters has resonated with a broad audience, making him a prominent voice in the industry. His career has been marked by a commitment to making financial literacy both entertaining and informative, which has helped him stand out in a crowded field.",
+      "derived": {},
+      "infobox": {
+        "Born": "",
+        "Nationality": ""
+      },
+      "lead_paragraphs": [
+        "Brad Gersner has carved a niche for himself in the financial world by combining his passion for markets with a flair for pop culture. His unique ability to relate complex financial trends to everyday cultural references has made him a sought-after commentator and analyst. Gersner's approach to demystifying financial matters has resonated with a broad audience, making him a prominent voice in the industry.",
+        "His career has been marked by a commitment to making financial literacy both entertaining and informative, which has helped him stand out in a crowded field."
+      ],
+      "sections": [
+        {
+          "heading": "Market Trends",
+          "body": "Brad Gersner is recognized for his ability to analyze and predict market trends, often using pop culture references to explain complex financial concepts."
+        },
+        {
+          "heading": "Pop Culture References",
+          "body": "Gersner's commentary is known for its infusion of pop culture, making his financial analysis more relatable and engaging to a wider audience."
+        },
+        {
+          "heading": "Financial Literacy",
+          "body": "His work aims to promote financial literacy by breaking down complex topics into digestible, culturally relevant insights."
+        }
+      ]
+    },
+    "net_worth": "$90.2M"
+  },
+  {
     "id": 403,
     "name": "Evan Baker",
     "slug": "evan-baker",
@@ -400,7 +577,7 @@
     "last_podcast_name": "Monetary Matters with Jack Farley",
     "last_episode_date": "2026-08-12",
     "mention_score": 1,
-    "mention_score_decayed": 0.93,
+    "mention_score_decayed": 0.91,
     "last_main_idea": "Milton Berg's investment thesis is that the market may have bottomed and is poised for a rebound, with specific focus on sectors that have experienced significant declines as potential short-term bounce candidates.",
     "last_proof_cite": "Monetary Matters with Jack Farley \u2022 2026-08-12 \u2022 Milton Berg: I Have Evidence Market Has Likely Bottomed | Why Milton\u2019s Long Semis, Korea, Nasdaq, and More (With Caveats), and Why He Thinks Gold has made a Multi-year Top",
     "last_proof_snippet": "I am joined once again by Milton Berg of MB advisors and Milton Berg Edge. Milton is one of the greatest market technicians alive. And he focuses on a lot of things that most tetanolists don't follow. He's mostly not looking at charts. He's",
@@ -714,7 +891,7 @@
     "last_podcast_name": "Dwarkesh Podcast",
     "last_episode_date": "2026-08-11",
     "mention_score": 1,
-    "mention_score_decayed": 0.91,
+    "mention_score_decayed": 0.89,
     "last_main_idea": "Investment in AI development and security is crucial to manage the rapid advancements and ensure ethical AI behavior.",
     "last_proof_cite": "Dwarkesh Podcast \u2022 2026-08-11 \u2022 Ryan Greenblatt \u2013 Human level AIs might build runaway superintelligences by 2032",
     "last_proof_snippet": "Today, I'm chatting with Ryan Greenlet, who is the chief scientist at Redwood Research, where he focuses on technical AI safety and security work. I want to talk to you about recursive self-improvement. This is the idea that once you build",
@@ -1490,7 +1667,7 @@
     "last_podcast_name": "Moonshots with Peter Diamandis",
     "last_episode_date": "2026-08-04",
     "mention_score": 1,
-    "mention_score_decayed": 0.78,
+    "mention_score_decayed": 0.76,
     "last_main_idea": "Investing in AI and technology sectors that align with the U.S. government's initiatives for fostering innovation and scientific discovery could provide significant growth opportunities.",
     "last_proof_cite": "Moonshots with Peter Diamandis \u2022 2026-08-04 \u2022 Michael Kratsios on the New Golden Age of American Science | EP #276",
     "last_proof_snippet": "I was a kid in the candy store reading the Golden Age Report. What you're describing there is a complete fundamental AI native AI agent up, reimagining of the entire scientific process. And I think it's something that is possible. My sense",
@@ -1559,7 +1736,7 @@
     "last_podcast_name": "The a16z Show",
     "last_episode_date": "2026-08-04",
     "mention_score": 1,
-    "mention_score_decayed": 0.78,
+    "mention_score_decayed": 0.76,
     "last_main_idea": "Investing in cybersecurity solutions that leverage AI can provide a competitive advantage, but it also requires understanding the novel risks and vulnerabilities that AI models can create.",
     "last_proof_cite": "The a16z Show \u2022 2026-08-04 \u2022 OpenAI's Joshua Achiam: Did We Already Reach AGI?",
     "last_proof_snippet": "Heels like AGI is kind of already here and most people have gone like drug. The fact that we passed the threshold of where unsolved mathematical trajectors are getting solved by extremely intelligent AI, where those AI's are more capable an",
@@ -2848,7 +3025,7 @@
     "last_podcast_name": "All-In with Chamath, Jason, Sacks & Friedberg",
     "last_episode_date": "2026-07-20",
     "mention_score": 1,
-    "mention_score_decayed": 0.56,
+    "mention_score_decayed": 0.55,
     "last_main_idea": "The current market behavior, while bubbly, is distinct from past bubbles and may disproportionately impact venture capital and private equity firms due to aggressive investment strategies.",
     "last_proof_cite": "All-In with Chamath, Jason, Sacks & Friedberg \u2022 2026-07-20 \u2022 Mark Cuban on the AI Bubble: Who Actually Gets Wiped Out?",
     "last_proof_snippet": "You and I live through a couple of bubbles. We've seen this movie before. And this wave seems very different than the dot com wave. So let's talk about that. Are you concerned about a bubble? We're seeing bubbly like behavior people. It's n",
@@ -2983,7 +3160,7 @@
     "last_podcast_name": "The a16z Show",
     "last_episode_date": "2026-07-20",
     "mention_score": 1,
-    "mention_score_decayed": 0.55,
+    "mention_score_decayed": 0.54,
     "last_main_idea": "Invest in open source AI platforms and local AI models to capitalize on the growing demand for privacy-preserving, cost-efficient AI solutions and the potential shift towards model routing.",
     "last_proof_cite": "The a16z Show \u2022 2026-07-20 \u2022 Hugging Face's CEO on Open Source AI, Model Routing, and the Future of Competition",
     "last_proof_snippet": "I think this relation is a very common practice that everyone is using. It's something that everyone uses, but that is not the main reason for success. Like if you suck, you suck without this relation. It's hard for me to say, like, oh, poo",
@@ -3292,7 +3469,7 @@
     "last_podcast_name": "Moonshots with Peter Diamandis",
     "last_episode_date": "2026-07-17",
     "mention_score": 1,
-    "mention_score_decayed": 0.51,
+    "mention_score_decayed": 0.5,
     "last_main_idea": "Investing in AI companies that focus on customization and small language models can provide significant returns as these technologies meet current market demands and have the potential to shape the future of AI.",
     "last_proof_cite": "Moonshots with Peter Diamandis \u2022 2026-07-17 \u2022 Mira Murati's 975B Open Model, Ramin Hasani on Post-Transformer AI, and Demis' AI FINRA | EP #271",
     "last_proof_snippet": "Miramoradi, the former OpenAI CTO, just shipped her first model. It's called Inkling, customization over leaderboard dominance is what's going to win her the day. She's built exactly the thing hitting the market that exactly what everybody",
@@ -4437,7 +4614,7 @@
     "last_podcast_name": "Monetary Matters with Jack Farley",
     "last_episode_date": "2026-07-04",
     "mention_score": 1,
-    "mention_score_decayed": 0.38,
+    "mention_score_decayed": 0.37,
     "last_main_idea": "Invest in multi-family and senior housing to capitalize on demographic shifts, and focus on industrial properties to benefit from e-commerce growth.",
     "last_proof_cite": "Monetary Matters with Jack Farley \u2022 2026-07-04 \u2022 The Real Estate Cycle Is Turning | Josh Pristaw on The New Cycle in Real Estate, Opportunity in Senior Living, Why AI Data Centers Are Too Big For Most Investors",
     "last_proof_snippet": "Today's episode is brought to you by the Fundrise Income Fund. You'll hear more about the income fund later in the show, but for now, let's get into today's interview. Today we're going to be talking all things real estate. I'm joined by Jo",
@@ -4478,66 +4655,6 @@
       ]
     },
     "net_worth": "$12.0M"
-  },
-  {
-    "id": 52,
-    "name": "Alex Carp",
-    "slug": "alex-carp",
-    "bio": "Alex Carp is a technology entrepreneur known for his advocacy of 'intelligence sovereignty' and the control of proprietary data and AI models by enterprises. He is the co-founder and former CEO of Palantir Technologies, a company specializing in big data analytics.",
-    "known_for": "Advocating for 'intelligence sovereignty' and the control of proprietary data and AI models by enterprises.",
-    "net_worth_usd": 14000000000.0,
-    "net_worth_source": "https://www.celebritynetworth.com/richest-businessmen/richest-billionaires/alex-karp-net-worth/",
-    "net_worth_updated_at": "2026-07-03T23:37:37.147345",
-    "voice_tone": "Assertive and knowledgeable.",
-    "voice_style": "Factual and persuasive.",
-    "voice_delivery_notes": "Clear and deliberate pace, with emphasis on the importance of data control.",
-    "voice_profile_updated_at": "2026-07-04 04:37:05",
-    "last_seen": "2026-07-04 04:37:05",
-    "last_episode_title": "AI Sovereignty Wars, Palantir-Nvidia Deal, SCOTUS Birthright Ruling, Newsom's CA Budget Lie",
-    "last_podcast_name": "All-In with Chamath, Jason, Sacks & Friedberg",
-    "last_episode_date": "2026-07-03",
-    "mention_score": 2,
-    "mention_score_decayed": 0.74,
-    "last_main_idea": "Enterprises should prioritize data sovereignty in AI to maintain competitive advantages and consider decentralized, open-source AI models to reduce costs and enhance operational efficiency.",
-    "last_proof_cite": "All-In with Chamath, Jason, Sacks & Friedberg \u2022 2026-07-03 \u2022 AI Sovereignty Wars, Palantir-Nvidia Deal, SCOTUS Birthright Ruling, Newsom's CA Budget Lie",
-    "last_proof_snippet": "All right, everybody, welcome back to the number one podcast in the world. Sure, favorite podcast. It's your podcast. It's your favorite podcast. It's the all-in podcast episode two, seven, nine with me, freebergs, tax, to my, you know, the",
-    "supporting_takeaway": "Monitor companies increasing AI investments, as they are likely to experience growth in headcount and revenue.",
-    "grokipedia_url": null,
-    "grokipedia_fetched_at": "2026-07-03T23:37:35.914601",
-    "pundit_profile": {
-      "source": "llm",
-      "source_model": "moonshot:moonshot-v1-8k",
-      "source_url": "",
-      "page_title": "Alex Carp",
-      "fetched_at": "2026-07-04T04:37:35.914266+00:00",
-      "cliff_notes": "Alex Carp is a prominent figure in the technology sector, recognized for his role in founding Palantir Technologies, a company that provides software solutions for integrating, visualizing, and analyzing large data sets. Carp's vision for 'intelligence sovereignty' emphasizes the importance of enterprises maintaining control over their proprietary data and AI models. His leadership at Palantir has been instrumental in shaping the company's direction and its impact on government and commercial sectors. Carp's influence extends beyond Palantir, as he has been a vocal advocate for data retention and the strategic importance of data in driving innovation and maintaining competitive advantage.",
-      "derived": {
-        "former_positions": "Co-founder and former CEO of Palantir Technologies;"
-      },
-      "infobox": {
-        "Born": "",
-        "Nationality": ""
-      },
-      "lead_paragraphs": [
-        "Alex Carp is a prominent figure in the technology sector, recognized for his role in founding Palantir Technologies, a company that provides software solutions for integrating, visualizing, and analyzing large data sets. Carp's vision for 'intelligence sovereignty' emphasizes the importance of enterprises maintaining control over their proprietary data and AI models.",
-        "His leadership at Palantir has been instrumental in shaping the company's direction and its impact on government and commercial sectors. Carp's influence extends beyond Palantir, as he has been a vocal advocate for data retention and the strategic importance of data in driving innovation and maintaining competitive advantage."
-      ],
-      "sections": [
-        {
-          "heading": "Palantir Technologies",
-          "body": "Alex Carp co-founded Palantir Technologies, which focuses on big data analytics and has become a significant player in the tech industry, particularly in its work with government agencies."
-        },
-        {
-          "heading": "Intelligence Sovereignty",
-          "body": "Carp is a strong advocate for 'intelligence sovereignty,' the concept that companies and governments should retain control over their data and AI models to maintain a competitive edge."
-        },
-        {
-          "heading": "Data and AI Control",
-          "body": "Under Carp's influence, Palantir has emphasized the importance of data control, leading to partnerships and initiatives that promote the use of AI while ensuring data remains with the client."
-        }
-      ]
-    },
-    "net_worth": "$14.00B"
   },
   {
     "id": 319,
@@ -5801,7 +5918,7 @@
     "last_podcast_name": "Latent Space: The AI Engineer Podcast",
     "last_episode_date": "2026-06-17",
     "mention_score": 1,
-    "mention_score_decayed": 0.26,
+    "mention_score_decayed": 0.25,
     "last_main_idea": "Invest in companies that integrate AI with experimental data for material discovery to gain a competitive edge in industries like aerospace and semiconductors.",
     "last_proof_cite": "Latent Space: The AI Engineer Podcast \u2022 2026-06-17 \u2022 \ud83d\udd2c The Self-Driving Lab \u2014 Joseph Krause, Radical AI",
     "last_proof_snippet": "This is the difference between AI for bio and AI for materials. If you look at bio or maybe small molecules is a more broad category, you look at selfies and smile strings, where I which has been a big way to have those materials, those mol",
@@ -6929,7 +7046,7 @@
     "last_podcast_name": "Monetary Matters with Jack Farley",
     "last_episode_date": "2026-06-06",
     "mention_score": 1,
-    "mention_score_decayed": 0.2,
+    "mention_score_decayed": 0.19,
     "last_main_idea": "Investors should focus on undervalued companies in Asia, particularly in South Korea and Southeast Asia, due to favorable valuations and growth prospects.",
     "last_proof_cite": "Monetary Matters with Jack Farley \u2022 2026-06-06 \u2022 The AI Chip Bubble: Why South Korea & Taiwan Are In the Danger Zone | Michael Fritzell | Asian Century Stocks",
     "last_proof_snippet": "South Korea, I do think it is a bubble, because the estimates for profits, for Eski Heinigs and Samsung electronics, we're now talking 200 billion US dollars in that profit estimates for 2028. And that will make them the most profitable com",
@@ -7412,7 +7529,7 @@
     "last_podcast_name": "The a16z Show",
     "last_episode_date": "2026-06-02",
     "mention_score": 2,
-    "mention_score_decayed": 0.36,
+    "mention_score_decayed": 0.35,
     "last_main_idea": "Investment in AI-native computing hardware and software development will be pivotal as personal computing transitions towards AI optimization, with Nvidia and Apple leading the charge.",
     "last_proof_cite": "The a16z Show \u2022 2026-06-02 \u2022 Steven Sinofsky on Apple at 50, Microsoft, and the Future of Computing",
     "last_proof_snippet": "Having lived through like a half dozen component church things, you just sort of wait them out and you jump, let some local max, your local men determine the future. This will all correct itself, in short order. This world where you're all",
@@ -15789,33 +15906,6 @@
     "last_proof_cite": "Monetary Matters with Jack Farley \u2022 2026-03-15 \u2022 Monetary Matters with Jack Farley: Precious Metals, Bonds, and Economic Cycles",
     "last_proof_snippet": "Join today by Alex Gorovich, founder and chief investment officer at Hauntay Asset Management and author of the second edition of the next perfect trade, the Magic Sword of Necessity. Alex, great to talk to you today. We haven't spoken in a",
     "supporting_takeaway": "Gorovich views gold as having a psychological value as a store of value, influenced by thousands of years of accumulation.",
-    "grokipedia_url": null,
-    "grokipedia_fetched_at": null,
-    "pundit_profile": null
-  },
-  {
-    "id": 64,
-    "name": "Brad Gersner",
-    "slug": "brad-gersner",
-    "bio": "Brad Gersner, a guest on the podcast, is known for his involvement in Trump accounts and his insights into the intersection of politics and finance.",
-    "known_for": "Trump accounts and financial market commentary",
-    "net_worth_usd": null,
-    "net_worth_source": null,
-    "net_worth_updated_at": null,
-    "voice_tone": null,
-    "voice_style": null,
-    "voice_delivery_notes": null,
-    "voice_profile_updated_at": null,
-    "last_seen": "2026-03-14 10:01:17",
-    "last_episode_title": "Investing in Capitalism: Trump Accounts, AI, and the Future of Wealth",
-    "last_podcast_name": "All-In with Chamath, Jason, Sacks & Friedberg",
-    "last_episode_date": "2026-03-13",
-    "mention_score": 1,
-    "mention_score_decayed": 0.03,
-    "last_main_idea": "Invest in technologies and platforms that democratize capitalism and leverage AI to create scalable solutions in coding and product development.",
-    "last_proof_cite": "All-In with Chamath, Jason, Sacks & Friedberg \u2022 2026-03-13 \u2022 Investing in Capitalism: Trump Accounts, AI, and the Future of Wealth",
-    "last_proof_snippet": "All right, everybody. Welcome back to the number one podcast in the world. Free birds out saving the world, creating new potatoes or I don't know, Kim Wa. Maybe some Brussels sprouts. I'm not sure what he's working on at this point in his p",
-    "supporting_takeaway": "AI investments are showing significant ROI, particularly in coding assistance for enterprises.",
     "grokipedia_url": null,
     "grokipedia_fetched_at": null,
     "pundit_profile": null
