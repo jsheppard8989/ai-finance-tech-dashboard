@@ -1976,7 +1976,7 @@
         return;
       }
 
-      // Main page: cap to top 20 by presence/recency (backend already sorts by presence, then last_seen).
+      // Main page: cap to 20 after backend ordering by recency, then appearance count.
       items = items.slice(0, 20);
 
       container.innerHTML = items.map(function(item) {
