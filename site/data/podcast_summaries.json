@@ -1,5 +1,21 @@
 [
   {
+    "id": 410,
+    "podcast_name": "The a16z Show",
+    "episode_title": "Stripe\u2019s AI Strategy: Build More, Not Less",
+    "episode_date": "2026-08-17",
+    "summary": "In this episode of the a16z Show, General Partner David George interviews Stripe's Will about the transformative impact of AI on software development and commerce. They discuss how AI is increasing engineering productivity, allowing a single engineer to achieve what previously took multiple teams. The conversation covers Stripe's internal coding agents, the shift towards smaller and flatter teams, and the company's strategy to provide engineers with founder-like agency. They also explore the future of commerce with AI, including the potential disappearance of checkout pages and the rise of micropayments and stablecoins.",
+    "key_takeaways": [
+      "AI is dramatically increasing engineering productivity, allowing for faster software development.",
+      "Stripe is using internal coding agents to generate thousands of code quests, streamlining development.",
+      "Smaller, flatter teams are becoming the norm as companies adopt more agile practices.",
+      "Stripe is focusing on providing engineers with the autonomy traditionally associated with founders.",
+      "The future of commerce is being shaped by AI, with potential changes to checkout processes and the rise of new payment methods like stablecoins."
+    ],
+    "investment_thesis": "Investing in companies that leverage AI to enhance software development and commerce will yield significant returns as productivity increases and new markets open up.",
+    "key_tickers": null
+  },
+  {
     "id": 407,
     "podcast_name": "Monetary Matters with Jack Farley",
     "episode_title": "Robin Wigglesworth on Hyperscalers' 1.5 Trillion of Off-Balance Sheet Liabilities, Private Credit, and His Book \"A Fabulous Debt\"",
@@ -122,21 +138,5 @@
     "key_tickers": [
       "SPY"
     ]
-  },
-  {
-    "id": 399,
-    "podcast_name": "The a16z Show",
-    "episode_title": "Garry Tan on Taste, Agents and Founder Ambition",
-    "episode_date": "2026-08-12",
-    "summary": "In this episode of 'The a16z Show', Anisha Tariah interviews Gary Tan, president and CEO of Wide, on the evolving landscape for startup founders. They discuss the importance of founders following their unique knowledge rather than chasing trends, the transformative impact of AI on coding and company management, and the potential for future startups to be smaller, faster, and more ambitious. Gary also shares insights from his own career, including missed opportunities and the lessons learned from trusting direct experience over consensus.",
-    "key_takeaways": [
-      "Founders should focus on their unique knowledge rather than chasing what's hot in the market.",
-      "AI is revolutionizing coding, company management, and could lead to smaller, faster, and more ambitious startups.",
-      "Direct experience should be trusted over consensus when making investment decisions.",
-      "The future of startups may involve leveraging AI to automate and perfect business processes.",
-      "Experienced founders in their 30s and 40s have an advantage due to their accumulated strategies and understanding of business processes."
-    ],
-    "investment_thesis": "Invest in startups leveraging AI to automate and perfect business processes, led by founders with a deep understanding of their domain and a history of successful strategy implementation.",
-    "key_tickers": null
   }
 ]
