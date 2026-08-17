@@ -3,80 +3,80 @@
 
 const dashboardData = {
   schemaVersion: 2,
-  generatedAt: "2026-08-16T22:04:30.340328",
-  chartsVersion: "2026-08-16T22:04:25.812315",
+  generatedAt: "2026-08-16T23:40:38.721030",
+  chartsVersion: "2026-08-16T23:40:34.029429",
   priceSnapshot: {
   "GOOGL": {
     "price": 345.9,
     "change_pct": 3.65,
     "name": "GOOGL",
-    "updated_at": "2026-08-16T22:04:25.811798"
+    "updated_at": "2026-08-16T23:40:34.028920"
   },
   "NVDA": {
     "price": 225.16,
     "change_pct": 14.29,
     "name": "NVDA",
-    "updated_at": "2026-08-16T22:04:25.811809"
+    "updated_at": "2026-08-16T23:40:34.028930"
   },
   "MSFT": {
     "price": 495.4,
     "change_pct": 25.94,
     "name": "MSFT",
-    "updated_at": "2026-08-16T22:04:25.811813"
+    "updated_at": "2026-08-16T23:40:34.028934"
   },
   "BTC": {
-    "price": 63318.14,
-    "change_pct": -1.15,
+    "price": 63443.63,
+    "change_pct": -0.96,
     "name": "BTC",
-    "updated_at": "2026-08-16T22:04:25.811817"
+    "updated_at": "2026-08-16T23:40:34.028938"
   },
   "TSLA": {
     "price": 342.27,
     "change_pct": 11.33,
     "name": "TSLA",
-    "updated_at": "2026-08-16T22:04:25.811821"
+    "updated_at": "2026-08-16T23:40:34.028941"
   },
   "AMZN": {
     "price": 262.65,
     "change_pct": 13.77,
     "name": "AMZN",
-    "updated_at": "2026-08-16T22:04:25.811825"
+    "updated_at": "2026-08-16T23:40:34.028944"
   },
   "META": {
     "price": 589.85,
     "change_pct": -0.6,
     "name": "META",
-    "updated_at": "2026-08-16T22:04:25.811829"
+    "updated_at": "2026-08-16T23:40:34.028948"
   },
   "WTI": {
     "price": 3.67,
     "change_pct": 15.41,
     "name": "WTI",
-    "updated_at": "2026-08-16T22:04:25.811832"
+    "updated_at": "2026-08-16T23:40:34.028951"
   },
   "S&P 500": {
     "price": 776.34,
     "change_pct": 4.79,
     "name": "S&P 500",
-    "updated_at": "2026-08-16T22:04:25.811836"
+    "updated_at": "2026-08-16T23:40:34.028954"
   },
   "AAPL": {
     "price": 305.93,
     "change_pct": -9.96,
     "name": "AAPL",
-    "updated_at": "2026-08-16T22:04:25.811839"
+    "updated_at": "2026-08-16T23:40:34.028957"
   },
   "QQQ": {
     "price": 731.07,
     "change_pct": 8.23,
     "name": "Invesco QQQ Trust",
-    "updated_at": "2026-08-16T22:04:25.811843"
+    "updated_at": "2026-08-16T23:40:34.028960"
   },
   "BTC-USD": {
-    "price": 63318.14,
-    "change_pct": -1.15,
+    "price": 63443.63,
+    "change_pct": -0.96,
     "name": "Bitcoin USD",
-    "updated_at": "2026-08-16T22:04:25.811847"
+    "updated_at": "2026-08-16T23:40:34.028964"
   }
 },
   tickerScores: [
@@ -1748,6 +1748,25 @@ const dashboardData = {
       "archived_date": null,
       "archived_reason": null,
       "podcast_episode_id": 362
+    },
+    {
+      "id": 424,
+      "title": "Interest Rates to 10%: Why the Treasury Market is the Real Speculative Bubble (Not AI) | Russell Clark",
+      "source_type": "podcast",
+      "source_name": "Monetary Matters with Jack Farley",
+      "source_date": "2026-07-22",
+      "summary": "In this episode of 'Other People's Money,' Max Weathy interviews hedge fund manager Russell Clark on the current state of the housing market, wage inflation, and the speculative nature of the treasuries market. Clark argues for a significant rise in wages to make housing more affordable and posits that the treasuries market is more speculative than the AI trade. The discussion also touches on the impact of tax policies on real estate markets and the potential for private equity and credit markets to face challenges with rising interest rates.",
+      "key_takeaway": "The current speculative nature of the treasuries market and the potential for a significant rise in interest rates present both risks and opportunities for investors.",
+      "tickers_mentioned": [
+        "SOYB"
+      ],
+      "sentiment": "bearish",
+      "display_on_main": 0,
+      "display_order": 0,
+      "added_date": "2026-08-16",
+      "archived_date": null,
+      "archived_reason": null,
+      "podcast_episode_id": 409
     },
     {
       "id": 374,
@@ -9425,8 +9444,8 @@ const dashboardData = {
       "term": "AI CapEx",
       "description": "Capital expenditures specifically in AI infrastructure, such as data centers and compute build-out.",
       "first_detected_date": "2026-06-08",
-      "last_mentioned_date": "2026-08-08",
-      "mention_count": 19,
+      "last_mentioned_date": "2026-07-22",
+      "mention_count": 20,
       "source_podcasts": null,
       "status": "active",
       "investment_implications": "AI CapEx is tax-advantaged and has a high return on invested capital due to the demand for compute power.",
@@ -9435,8 +9454,8 @@ const dashboardData = {
       "archived_reason": null,
       "first_detected_episode_id": 271,
       "first_detected_speaker": null,
-      "last_mentioned_episode_id": 406,
-      "last_mentioned_speaker": "Brad Gersner, David Friedberg"
+      "last_mentioned_episode_id": 409,
+      "last_mentioned_speaker": "Russell Clark"
     },
     {
       "id": 234,
@@ -10883,8 +10902,8 @@ const dashboardData = {
       "term": "AI Race",
       "description": "The global competition among nations to lead in artificial intelligence development and application.",
       "first_detected_date": "2026-03-11",
-      "last_mentioned_date": "2026-07-08",
-      "mention_count": 28,
+      "last_mentioned_date": "2026-07-22",
+      "mention_count": 29,
       "source_podcasts": null,
       "status": "active",
       "investment_implications": "Investing in companies at the forefront of AI could yield significant returns as the technology becomes more pervasive.",
@@ -10893,8 +10912,8 @@ const dashboardData = {
       "archived_reason": null,
       "first_detected_episode_id": 60,
       "first_detected_speaker": null,
-      "last_mentioned_episode_id": 408,
-      "last_mentioned_speaker": "Alex Carp"
+      "last_mentioned_episode_id": 409,
+      "last_mentioned_speaker": "Russell Clark"
     },
     {
       "id": 12,
@@ -36772,6 +36791,58 @@ const dashboardData = {
     "source_name": "Moonshots with Peter Diamandis",
     "source_date": "2026-07-08",
     "key_tickers": []
+  },
+  "424": {
+    "id": 414,
+    "insight_id": 424,
+    "podcast_episode_id": 409,
+    "overview": "The unresolved tension highlighted by Russell Clark is the conflict between the current speculative nature of the treasuries market and the historical shift towards an inflationary environment with a focus on wage growth and full employment. This dynamic is further complicated by the changing political landscape, which is moving away from free-market policies that have dominated since the 1980s. Allocators must consider how these shifts will impact the value of treasuries and other fixed income assets. The metric that arbitrates this uncertainty is the real rate of interest, which Clark suggests should be around 3% to achieve his target of 10% yields on treasuries.",
+    "key_takeaways_detailed": [
+      "Investors should monitor wage growth and housing market trends as indicators of the health of the treasuries market.",
+      "The potential for a significant rise in interest rates presents an opportunity for those positioned to benefit from higher yields but also carries the risk of devaluing existing fixed income assets.",
+      "The political will to maintain or increase foreign reserves in treasuries is contingent on the global geopolitical climate and domestic economic policies.",
+      "A shift towards inflationary policies could lead to a reevaluation of asset allocation, with a potential preference for hard assets like gold over treasuries."
+    ],
+    "investment_thesis": "The core logic of the investment thesis is that the current political and economic shift towards inflation and wage growth will lead to a reevaluation of the treasuries market, resulting in higher interest rates. This thesis is vindicated if there is a sustained rise in wage growth and a corresponding increase in interest rates, particularly if treasuries yields approach the 10% target set by Clark. Conversely, it would be invalidated if wage growth remains stagnant and global geopolitical tensions subside, leading to a continued demand for treasuries as a safe haven asset.",
+    "ticker_analysis": {
+      "AAPL": {
+        "rationale": "Apple Inc. (AAPL) is relevant to this thesis as it is a large-cap technology company that could be affected by changes in interest rates and inflation. Higher interest rates could increase borrowing costs and potentially impact consumer spending on Apple's products.",
+        "positioning": "Positioning in AAPL could be strategic, considering its resilience during market fluctuations and its ability to weather changes in interest rates due to its strong balance sheet and cash reserves.",
+        "risk": "Key risks include a slowdown in consumer spending due to higher interest rates and potential supply chain disruptions that could affect production and sales."
+      }
+    },
+    "positioning_guidance": "",
+    "risk_factors": [],
+    "contrarian_signals": [
+      "The global economy could experience a period of low inflation, which would reduce the pressure on interest rates and maintain the demand for treasuries as a low-risk asset.",
+      "Governments may implement policies that successfully manage fiscal spending and taxation, reducing the need for high levels of debt and maintaining the stability of the treasuries market.",
+      "Technological advancements or economic innovations could lead to a new paradigm that sustains low interest rates, challenging the thesis of a significant rise in yields."
+    ],
+    "catalysts": [
+      "Upcoming inflation reports and wage growth statistics that could indicate a shift towards an inflationary environment.",
+      "Political events and policy announcements that signal a change in fiscal policy or a reevaluation of foreign reserves.",
+      "Global geopolitical developments that could influence the demand for treasuries as a safe haven asset.",
+      "Economic indicators from major economies that could signal a change in the global economic landscape and impact the treasuries market."
+    ],
+    "related_insights": null,
+    "audio_timestamp_start": null,
+    "audio_timestamp_end": null,
+    "transcript_excerpt": null,
+    "created_at": "2026-08-16T23:39:48.695633",
+    "updated_at": "2026-08-17 04:39:48",
+    "episode_evidence": "Russell Clark, in his discussion with Max Weathy, emphasizes the speculative nature of the treasuries market, particularly in the context of changing political and economic landscapes. He points out that 'for the last few years, particularly since COVID, it's sort of being this understanding by the electorate and by politicians that governments will spend whatever it takes to keep growth going.' This suggests a shift from traditional fiscal responsibility to a more aggressive spending approach, which Clark believes has artificially propped up the treasuries market. He also highlights the historical anomaly of holding another country's fixed income as foreign reserves, stating that 'Until 1980, the idea of holding another country's fixed income as a foreign reserve was unknown.' This underscores the relatively recent and potentially unsustainable nature of the current treasuries market dynamics. Clark's perspective is that we are moving towards an inflationary environment where 'governments are actually... under more pressure to sell their dollar reserves to try and keep the [their] currency strong,' which could lead to a significant devaluation of treasuries.",
+    "falsification_tracks": [
+      "A sustained period of wage stagnation or decline would challenge Clark's assertion that wages need to rise significantly to make housing more affordable.",
+      "If housing markets show a consistent increase in nominal terms, it would contradict Clark's view that housing should be flat to decrease real estate prices.",
+      "A significant decrease in global geopolitical tensions could reduce the incentive for countries to diversify away from treasuries, thus supporting their value.",
+      "The implementation of effective fiscal policies that successfully balance government spending and taxation could alleviate concerns about the sustainability of the treasuries market."
+    ],
+    "insight_title": "Interest Rates to 10%: Why the Treasury Market is the Real Speculative Bubble (Not AI) | Russell Clark",
+    "source_name": "Monetary Matters with Jack Farley",
+    "source_date": "2026-07-22",
+    "key_tickers": [
+      "SOYB"
+    ]
   }
 },
   suggestedTerms: [
@@ -36826,7 +36897,7 @@ const dashboardData = {
 ],
   podcastGuests: [
   {
-    "id": 51923,
+    "id": 52039,
     "name": "Travis Kalanick",
     "slug": "travis-kalanick",
     "bio": null,
@@ -36838,7 +36909,7 @@ const dashboardData = {
     "appearance_count": 1
   },
   {
-    "id": 51925,
+    "id": 52041,
     "name": "Emad Mostaque",
     "slug": "emad-mostaque",
     "bio": null,
@@ -36850,7 +36921,7 @@ const dashboardData = {
     "appearance_count": 2
   },
   {
-    "id": 51924,
+    "id": 52040,
     "name": "Rahm Emanuel",
     "slug": "rahm-emanuel",
     "bio": null,
@@ -36862,7 +36933,7 @@ const dashboardData = {
     "appearance_count": 1
   },
   {
-    "id": 51926,
+    "id": 52042,
     "name": "Milton Berg",
     "slug": "milton-berg",
     "bio": "Milton Berg is a veteran technical analyst and CEO of Milton Berg Advisors, specializing in market turning-point analysis for institutional investors.",
@@ -36874,7 +36945,7 @@ const dashboardData = {
     "appearance_count": 2
   },
   {
-    "id": 51927,
+    "id": 52043,
     "name": "How Kavak Rebuilt Itself Around AI Agents",
     "slug": "how-kavak-rebuilt-itself-around-ai-agents",
     "bio": null,
@@ -36886,7 +36957,7 @@ const dashboardData = {
     "appearance_count": 1
   },
   {
-    "id": 51928,
+    "id": 52044,
     "name": "How Open",
     "slug": "how-open",
     "bio": null,
@@ -36898,7 +36969,7 @@ const dashboardData = {
     "appearance_count": 1
   },
   {
-    "id": 51929,
+    "id": 52045,
     "name": "Saronic Founders",
     "slug": "saronic-founders",
     "bio": null,
@@ -36910,7 +36981,7 @@ const dashboardData = {
     "appearance_count": 1
   },
   {
-    "id": 51930,
+    "id": 52046,
     "name": "OpenAI's Joshua Achiam",
     "slug": "openais-joshua-achiam",
     "bio": null,
@@ -36922,7 +36993,7 @@ const dashboardData = {
     "appearance_count": 1
   },
   {
-    "id": 51931,
+    "id": 52047,
     "name": "Why Macro is \u201cPretty Risk-On\u201d for Equities",
     "slug": "why-macro-is-pretty-risk-on-for-equities",
     "bio": null,
@@ -36934,7 +37005,7 @@ const dashboardData = {
     "appearance_count": 1
   },
   {
-    "id": 51932,
+    "id": 52048,
     "name": "AI for America's Small Businesses",
     "slug": "ai-for-americas-small-businesses",
     "bio": null,
@@ -36946,7 +37017,7 @@ const dashboardData = {
     "appearance_count": 1
   },
   {
-    "id": 51933,
+    "id": 52049,
     "name": "Mum\u2019s The Word",
     "slug": "mums-the-word",
     "bio": null,
@@ -36958,7 +37029,7 @@ const dashboardData = {
     "appearance_count": 1
   },
   {
-    "id": 51934,
+    "id": 52050,
     "name": "Luke Gromen",
     "slug": "luke-gromen",
     "bio": null,
@@ -36970,7 +37041,7 @@ const dashboardData = {
     "appearance_count": 1
   },
   {
-    "id": 51935,
+    "id": 52051,
     "name": "Codex from 0 to 10M Users",
     "slug": "codex-from-0-to-10m-users",
     "bio": null,
@@ -36982,7 +37053,7 @@ const dashboardData = {
     "appearance_count": 1
   },
   {
-    "id": 51936,
+    "id": 52052,
     "name": "Ben Horowitz",
     "slug": "ben-horowitz",
     "bio": "Ben Horowitz is a co-founder of venture firm Andreessen Horowitz and former CEO of Opsware, known for advising founders on leadership under pressure.",
@@ -36994,7 +37065,7 @@ const dashboardData = {
     "appearance_count": 3
   },
   {
-    "id": 51937,
+    "id": 52053,
     "name": "Building the Physical AI Stack",
     "slug": "building-the-physical-ai-stack",
     "bio": null,
@@ -37006,7 +37077,7 @@ const dashboardData = {
     "appearance_count": 1
   },
   {
-    "id": 51938,
+    "id": 52054,
     "name": "Travis Kalanick Is Back",
     "slug": "travis-kalanick-is-back",
     "bio": null,
@@ -37018,7 +37089,19 @@ const dashboardData = {
     "appearance_count": 1
   },
   {
-    "id": 51939,
+    "id": 52055,
+    "name": "Interest Rates to 10%",
+    "slug": "interest-rates-to-10",
+    "bio": null,
+    "known_for": null,
+    "last_main_idea": "The current speculative nature of the treasuries market and the potential for a significant rise in interest rates present both risks and opportunities for investors.",
+    "last_episode_title": "Interest Rates to 10%: Why the Treasury Market is the Real Speculative Bubble (Not AI) | Russell Clark",
+    "last_podcast_name": "Monetary Matters with Jack Farley",
+    "last_episode_date": "2026-07-22",
+    "appearance_count": 1
+  },
+  {
+    "id": 52056,
     "name": "Why Physical AI Is the Next Frontier",
     "slug": "why-physical-ai-is-the-next-frontier",
     "bio": null,
@@ -37030,7 +37113,7 @@ const dashboardData = {
     "appearance_count": 1
   },
   {
-    "id": 51940,
+    "id": 52057,
     "name": "Nick Nemeth",
     "slug": "nick-nemeth",
     "bio": null,
@@ -37042,7 +37125,7 @@ const dashboardData = {
     "appearance_count": 1
   },
   {
-    "id": 51941,
+    "id": 52058,
     "name": "Mark Cuban on the AI Bubble",
     "slug": "mark-cuban-on-the-ai-bubble",
     "bio": null,
@@ -37052,21 +37135,69 @@ const dashboardData = {
     "last_podcast_name": "All-In with Chamath, Jason, Sacks & Friedberg",
     "last_episode_date": "2026-07-20",
     "appearance_count": 1
-  },
-  {
-    "id": 51942,
-    "name": "Urgent Update- AI Sputnik Moment",
-    "slug": "urgent-update--ai-sputnik-moment",
-    "bio": null,
-    "known_for": null,
-    "last_main_idea": "Investment in AI technology is crucial as it becomes a key differentiator in global competitiveness, with a focus on companies advancing AI models and quantization.",
-    "last_episode_title": "Urgent Update- AI Sputnik Moment: Kimi K3 Released w/ Emad Mostaque | Ep. 272",
-    "last_podcast_name": "Moonshots with Peter Diamandis",
-    "last_episode_date": "2026-07-19",
-    "appearance_count": 1
   }
 ],
   pundits: [
+  {
+    "id": 405,
+    "name": "Russell Clark",
+    "slug": "russell-clark",
+    "bio": "Russell Clark is a hedge fund manager based in London, known for his analysis on speculative bubbles in financial markets. He also writes a Substack, where he discusses economic trends and market predictions.",
+    "known_for": "His insights into speculative bubbles and their impact on financial markets.",
+    "net_worth_usd": 7740000.0,
+    "net_worth_source": "https://www.benzinga.com/sec/insider-trades/0001754167/richard-ryan-clark",
+    "net_worth_updated_at": "2026-08-16T23:39:24.924223",
+    "voice_tone": "Analytical and cautious.",
+    "voice_style": "Methodical in presenting economic arguments.",
+    "voice_delivery_notes": "Pacing is measured, with emphasis on key economic indicators.",
+    "voice_profile_updated_at": "2026-08-17 04:38:55",
+    "last_seen": "2026-08-17 04:38:55",
+    "last_episode_title": "Interest Rates to 10%: Why the Treasury Market is the Real Speculative Bubble (Not AI) | Russell Clark",
+    "last_podcast_name": "Monetary Matters with Jack Farley",
+    "last_episode_date": "2026-07-22",
+    "mention_score": 1,
+    "mention_score_decayed": 1,
+    "last_main_idea": "The current speculative nature of the treasuries market and the potential for a significant rise in interest rates present both risks and opportunities for investors.",
+    "last_proof_cite": "Monetary Matters with Jack Farley \u2022 2026-07-22 \u2022 Interest Rates to 10%: Why the Treasury Market is the Real Speculative Bubble (Not AI) | Russell Clark",
+    "last_proof_snippet": "If I look at people 40 and under those in the 20 and 30s, their number one problem is they kind of forward housing. If you want to get housing back to some more reasonable levels, you need to have wages rising about 7% a year. So, doubling",
+    "supporting_takeaway": "An interest rate of around 10% is necessary to keep money in deposits rather than real assets, which is the target for treasury yields.",
+    "grokipedia_url": null,
+    "grokipedia_fetched_at": "2026-08-16T23:39:23.898832",
+    "pundit_profile": {
+      "source": "llm",
+      "source_model": "moonshot:moonshot-v1-8k",
+      "source_url": "",
+      "page_title": "Russell Clark",
+      "fetched_at": "2026-08-17T04:39:23.898685+00:00",
+      "cliff_notes": "Russell Clark is a hedge fund manager based in London with a focus on analyzing speculative bubbles in financial markets. His expertise in this area has led him to become a sought-after commentator on economic trends and market predictions. Clark also maintains a Substack, where he shares his insights and analysis with a broader audience. His recent discussions have included the potential end of a bubble in the AI trade and the implications for the housing market and wage growth. His views on interest rates and their impact on asset allocation have also been influential in shaping investor behavior.",
+      "derived": {
+        "current_role": "Hedge fund manager"
+      },
+      "infobox": {
+        "Born": "",
+        "Nationality": "British"
+      },
+      "lead_paragraphs": [
+        "Russell Clark is a hedge fund manager based in London with a focus on analyzing speculative bubbles in financial markets. His expertise in this area has led him to become a sought-after commentator on economic trends and market predictions. Clark also maintains a Substack, where he shares his insights and analysis with a broader audience.",
+        "His recent discussions have included the potential end of a bubble in the AI trade and the implications for the housing market and wage growth. His views on interest rates and their impact on asset allocation have also been influential in shaping investor behavior."
+      ],
+      "sections": [
+        {
+          "heading": "Speculative Bubbles",
+          "body": "Russell Clark is known for his analysis of speculative bubbles in financial markets, providing insights into their formation and potential impact on the economy."
+        },
+        {
+          "heading": "Economic Trends",
+          "body": "Clark regularly discusses economic trends and their implications for investors, including wage growth, housing market dynamics, and interest rate movements."
+        },
+        {
+          "heading": "Market Predictions",
+          "body": "Through his Substack, Clark shares his predictions on market movements, including the potential for a bubble in the AI trade and its implications for asset allocation."
+        }
+      ]
+    },
+    "net_worth": "$7.7M"
+  },
   {
     "id": 52,
     "name": "Alex Carp",
@@ -37262,7 +37393,7 @@ const dashboardData = {
     "last_podcast_name": "All-In with Chamath, Jason, Sacks & Friedberg",
     "last_episode_date": "2026-08-14",
     "mention_score": 1,
-    "mention_score_decayed": 0.98,
+    "mention_score_decayed": 0.95,
     "last_main_idea": "Anduril's upcoming IPO presents an opportunity to invest in a company with significant revenue growth and a lower valuation compared to peers, while the rise of open-source AI could reshape the software industry landscape.",
     "last_proof_cite": "All-In with Chamath, Jason, Sacks & Friedberg \u2022 2026-08-14 \u2022 Anthropic's $2T IPO, Zuck's AI Manifesto, Nvidia's $500B AI Bet, Grok's Comeback",
     "last_proof_snippet": "All right, everybody. Welcome back. We all in podcast. The number one podcast in the world. David Sachs and Evan Baker are with us this week. We got a, we got a short crew, but a long docket. And we are going to rock at how are you doing? G",
@@ -37390,7 +37521,7 @@ const dashboardData = {
     "last_podcast_name": "Moonshots with Peter Diamandis",
     "last_episode_date": "2026-08-13",
     "mention_score": 2,
-    "mention_score_decayed": 1.91,
+    "mention_score_decayed": 1.87,
     "last_main_idea": "Invest in AI and exponential technologies that are redefining industries and creating new opportunities for growth and innovation.",
     "last_proof_cite": "Moonshots with Peter Diamandis \u2022 2026-08-13 \u2022 Bernie Demands the Labs Stop, Wall Street Turns GPUs Into Bonds, Grok 4.7 Takes #1 with Emad Mostaque | EP #279",
     "last_proof_snippet": "Bernie Sanders sent a formal letter to the CEOs of Anthropic Meta and OpenEye AI capabilities have reached a critical threshold. Paul's AI development, the Council of the Baguards, too late, right? Nvidia just announced a partnership that r",
@@ -37575,7 +37706,7 @@ const dashboardData = {
     "last_podcast_name": "All-In with Chamath, Jason, Sacks & Friedberg",
     "last_episode_date": "2026-08-13",
     "mention_score": 1,
-    "mention_score_decayed": 0.93,
+    "mention_score_decayed": 0.91,
     "last_main_idea": "Ron Emmanuel's investment thesis revolves around the need for progressive policies and effective government execution, which he believes are crucial for America's economic and social stability.",
     "last_proof_cite": "All-In with Chamath, Jason, Sacks & Friedberg \u2022 2026-08-13 \u2022 Rahm Emanuel: Trump's Foreign Policy, China, Europe's Decline, Immigration & DSA vs Democrats",
     "last_proof_snippet": "All right, everybody. We are super pleased to have Ron Emmanuel. Join us for the all and interview today. He was a senior advisor of Bill Clinton, last president, resigned over zero national debt. And he was a Bahamas chief of staff, mayor",
@@ -38078,7 +38209,7 @@ const dashboardData = {
     "last_podcast_name": "Monetary Matters with Jack Farley",
     "last_episode_date": "2026-08-07",
     "mention_score": 1,
-    "mention_score_decayed": 0.83,
+    "mention_score_decayed": 0.81,
     "last_main_idea": "Investing success comes from a deep understanding of both macroeconomic trends and single stock fundamental analysis, with a focus on companies that benefit from technological advancements and market disruptions.",
     "last_proof_cite": "Monetary Matters with Jack Farley \u2022 2026-08-07 \u2022 Misunderstood Stocks in Data Center Power, Cybersecurity, and Payments | Dean & Deiya Pernas",
     "last_proof_snippet": "Today I'm sitting down with Daya and Dean Pernos of Pernos Research. We're going to be talking about some of the most important themes and trends in investing such as energy power and data centers, software, AI, cybersecurity, payments. The",
@@ -38138,7 +38269,7 @@ const dashboardData = {
     "last_podcast_name": "Monetary Matters with Jack Farley",
     "last_episode_date": "2026-08-07",
     "mention_score": 1,
-    "mention_score_decayed": 0.83,
+    "mention_score_decayed": 0.81,
     "last_main_idea": "Investing success comes from a deep understanding of both macroeconomic trends and single stock fundamental analysis, with a focus on companies that benefit from technological advancements and market disruptions.",
     "last_proof_cite": "Monetary Matters with Jack Farley \u2022 2026-08-07 \u2022 Misunderstood Stocks in Data Center Power, Cybersecurity, and Payments | Dean & Deiya Pernas",
     "last_proof_snippet": "Today I'm sitting down with Daya and Dean Pernos of Pernos Research. We're going to be talking about some of the most important themes and trends in investing such as energy power and data centers, software, AI, cybersecurity, payments. The",
@@ -38436,7 +38567,7 @@ const dashboardData = {
     "last_podcast_name": "All-In with Chamath, Jason, Sacks & Friedberg",
     "last_episode_date": "2026-08-05",
     "mention_score": 1,
-    "mention_score_decayed": 0.79,
+    "mention_score_decayed": 0.78,
     "last_main_idea": "Investment in autonomous defense technologies is crucial for maintaining a competitive edge and can lead to significant advancements in military capabilities.",
     "last_proof_cite": "All-In with Chamath, Jason, Sacks & Friedberg \u2022 2026-08-05 \u2022 Saronic Founders: Autonomous Warships, China's 230X Advantage & Swarms of Robot Ships",
     "last_proof_snippet": "All right, everybody, welcome back to the all in interview series. I am thrilled. Really thrilled because Ceranic is a defense company that has been doing amazing work. And we are so lucky to have the co-founders here on the program. Welcom",
@@ -38495,7 +38626,7 @@ const dashboardData = {
     "last_podcast_name": "All-In with Chamath, Jason, Sacks & Friedberg",
     "last_episode_date": "2026-08-05",
     "mention_score": 1,
-    "mention_score_decayed": 0.79,
+    "mention_score_decayed": 0.78,
     "last_main_idea": "Investment in autonomous defense technologies is crucial for maintaining a competitive edge and can lead to significant advancements in military capabilities.",
     "last_proof_cite": "All-In with Chamath, Jason, Sacks & Friedberg \u2022 2026-08-05 \u2022 Saronic Founders: Autonomous Warships, China's 230X Advantage & Swarms of Robot Ships",
     "last_proof_snippet": "All right, everybody, welcome back to the all in interview series. I am thrilled. Really thrilled because Ceranic is a defense company that has been doing amazing work. And we are so lucky to have the co-founders here on the program. Welcom",
@@ -38932,7 +39063,7 @@ const dashboardData = {
     "last_podcast_name": "Monetary Matters with Jack Farley",
     "last_episode_date": "2026-08-02",
     "mention_score": 1,
-    "mention_score_decayed": 0.74,
+    "mention_score_decayed": 0.72,
     "last_main_idea": "The market is in a phase where a new narrative is needed to drive further growth, with a focus on value laggards and sectors less exposed to speculative excesses.",
     "last_proof_cite": "Monetary Matters with Jack Farley \u2022 2026-08-02 \u2022 Why Macro is \u201cPretty Risk-On\u201d for Equities | Tian Yang of Variant Perception",
     "last_proof_snippet": "I'm joined once again by TN Yang, co-founder and head of research at variant perception. TN, what do you think about the stock market right now, the S&P, the NASDAQ, the semiconductor stocks, they have been trading quite weekly for the past",
@@ -39665,7 +39796,7 @@ const dashboardData = {
     "last_podcast_name": "Monetary Matters with Jack Farley",
     "last_episode_date": "2026-07-28",
     "mention_score": 2,
-    "mention_score_decayed": 1.35,
+    "mention_score_decayed": 1.32,
     "last_main_idea": "The bond market is facing significant challenges due to supply and demand imbalances, fiscal pressures, and aging populations, making gold an attractive store of value in the current economic climate.",
     "last_proof_cite": "Monetary Matters with Jack Farley \u2022 2026-07-28 \u2022 Luke Gromen: Yield Curve Control is the Only Way to Stop a Global Bond Crisis",
     "last_proof_snippet": "Germany, Japan, and Korea are all historically big creditors from a sovereign perspective. And in particular, Japan, if they're borrowing money to do defense to me, they have turned sellers of bonds as well. So now they're selling, they're",
@@ -39789,7 +39920,7 @@ const dashboardData = {
     "last_podcast_name": "Moonshots with Peter Diamandis",
     "last_episode_date": "2026-07-24",
     "mention_score": 1,
-    "mention_score_decayed": 0.6,
+    "mention_score_decayed": 0.59,
     "last_main_idea": "Investing in AI is about more than just technology; it's an investment in the future of innovation, human potential, and the ability to solve complex problems.",
     "last_proof_cite": "Moonshots with Peter Diamandis \u2022 2026-07-24 \u2022 The Hugging Face Breach, Moonshot AI Valued at $20B, and Living to 1,759 Years Old | EP #273",
     "last_proof_snippet": "Pugging face, the leading open platform for sharing testing and deploying AI models, it got breached by an autonomous agent when the hugging face security team tried to analyze the attack, using either anthropic or open AI, both models refu",
@@ -39849,7 +39980,7 @@ const dashboardData = {
     "last_podcast_name": "Moonshots with Peter Diamandis",
     "last_episode_date": "2026-07-24",
     "mention_score": 1,
-    "mention_score_decayed": 0.6,
+    "mention_score_decayed": 0.59,
     "last_main_idea": "Investing in AI is about more than just technology; it's an investment in the future of innovation, human potential, and the ability to solve complex problems.",
     "last_proof_cite": "Moonshots with Peter Diamandis \u2022 2026-07-24 \u2022 The Hugging Face Breach, Moonshot AI Valued at $20B, and Living to 1,759 Years Old | EP #273",
     "last_proof_snippet": "Pugging face, the leading open platform for sharing testing and deploying AI models, it got breached by an autonomous agent when the hugging face security team tried to analyze the attack, using either anthropic or open AI, both models refu",
@@ -41039,7 +41170,7 @@ const dashboardData = {
     "last_podcast_name": "Monetary Matters with Jack Farley",
     "last_episode_date": "2026-07-14",
     "mention_score": 1,
-    "mention_score_decayed": 0.48,
+    "mention_score_decayed": 0.47,
     "last_main_idea": "Invest in companies at the forefront of AI and semiconductors that can leverage intelligence to perform high-cost, time-consuming tasks more efficiently and at scale.",
     "last_proof_cite": "Monetary Matters with Jack Farley \u2022 2026-07-14 \u2022 The Semiconductor Earnings Boom Is Just Getting Started | Ben Pouladian on why AI is Real, Nvidia is Mispriced, and Capacitors Are Overrated",
     "last_proof_snippet": "Got a special conversation today. I'm joined by Ben Kulandian of BEP Research. Ben is a specialist investor and analyst in the semi-conductor world and the semi-conductor supply chain. Of course, that is what powers AI Ben welcome to moneta",
@@ -41243,7 +41374,7 @@ const dashboardData = {
     "last_podcast_name": "All-In with Chamath, Jason, Sacks & Friedberg",
     "last_episode_date": "2026-07-10",
     "mention_score": 2,
-    "mention_score_decayed": 0.85,
+    "mention_score_decayed": 0.83,
     "last_main_idea": "Investing in AI infrastructure and data center companies could yield significant returns as the demand for AI continues to grow exponentially.",
     "last_proof_cite": "All-In with Chamath, Jason, Sacks & Friedberg \u2022 2026-07-10 \u2022 Open Source Wins, AGI Is Here, and Scorsese's AI Toolkit with CEOs of Cerebras & Black Forest Labs",
     "last_proof_snippet": "We are in the race for super intelligence and Andrew Feldman is back and obviously CEO and founders Ceribres doing in friendships pioneered the space, had a successful IPO. We've talked about this a couple of times, we got to see each other",
@@ -41621,7 +41752,7 @@ const dashboardData = {
     "last_podcast_name": "Monetary Matters with Jack Farley",
     "last_episode_date": "2026-07-05",
     "mention_score": 1,
-    "mention_score_decayed": 0.39,
+    "mention_score_decayed": 0.38,
     "last_main_idea": "The Federal Reserve's ability to manage interest rates effectively hinges on maintaining adequate reserve levels; monitoring the implementation of techniques to reduce reserve demand could provide insights into future monetary policy and market stability.",
     "last_proof_cite": "Monetary Matters with Jack Farley \u2022 2026-07-05 \u2022 The Ultimate Playbook for Reducing The Fed\u2019s Balance Sheet | Professor Darrell Duffie on 4 Tools For Federal Reserve To Shrink Reserve Demand In Banking System",
     "last_proof_snippet": "Today's episode is brought to you by the Fundrise Income Fund. You'll hear more about the income fund later in the show, but for now, let's get into today's interview. The new Fed Chair Kevin Worsh has made it no secret that he prefers a sm",
@@ -42051,7 +42182,7 @@ const dashboardData = {
     "last_podcast_name": "Monetary Matters with Jack Farley",
     "last_episode_date": "2026-06-29",
     "mention_score": 1,
-    "mention_score_decayed": 0.34,
+    "mention_score_decayed": 0.33,
     "last_main_idea": "Investors should be cautious of current AI and data center investment booms, drawing parallels with the 1873 financial crisis, and be mindful of the risks associated with excessive leverage and mismanaged monetary policy.",
     "last_proof_cite": "Monetary Matters with Jack Farley \u2022 2026-06-29 \u2022 Rothschilds, Railroads, & Ruin | Liaquat Ahamed on \u201c1873\u201d (New Book!)",
     "last_proof_snippet": "I am so glad today we have a very special guest, one of my favorite authors of all time Leakwet Ahamed, who's the author of the new book 1873, The Roth Childs, The First Great Depression, and The Making of the Modern World Leakwet. Welcome",
@@ -42178,7 +42309,7 @@ const dashboardData = {
     "last_podcast_name": "Monetary Matters with Jack Farley",
     "last_episode_date": "2026-06-24",
     "mention_score": 1,
-    "mention_score_decayed": 0.3,
+    "mention_score_decayed": 0.29,
     "last_main_idea": "Plutus democratizes investment management by providing individual investors access to sophisticated strategies and research, previously limited to institutional investors, at a competitive fee.",
     "last_proof_cite": "Monetary Matters with Jack Farley \u2022 2026-06-24 \u2022 Inside The Platform Helping to Invest Like Substack & FinTwit's Top Researchers | Plutus",
     "last_proof_snippet": "I think for the first time, we're at a place where talented, portfolio builders, manager researchers have an avenue that is not limited to big banks and put us fully intends to incubate that talent and grow it. We really looked at it from t",
@@ -42492,7 +42623,7 @@ const dashboardData = {
     "last_podcast_name": "Latent Space: The AI Engineer Podcast",
     "last_episode_date": "2026-06-22",
     "mention_score": 1,
-    "mention_score_decayed": 0.29,
+    "mention_score_decayed": 0.28,
     "last_main_idea": "Invest in companies focused on AI safety and security, as they are essential players in the evolving tech landscape and can help organizations navigate the complexities of AI deployment and ensure compliance with security standards.",
     "last_proof_cite": "Latent Space: The AI Engineer Podcast \u2022 2026-06-22 \u2022 Red-Teaming after Mythos \u2014 Zico Kolter & Matt Fredrikson, Gray Swan",
     "last_proof_snippet": "Okay, we're here in a studio with Grace One, Matt and Zico welcome. Great to be here. Yeah. Thanks for having us. You're visiting from Pittsburgh? That's right. The home of all good computer science, I don't know if I'm oversteaving things.",
@@ -42555,7 +42686,7 @@ const dashboardData = {
     "last_podcast_name": "The a16z Show",
     "last_episode_date": "2026-06-22",
     "mention_score": 1,
-    "mention_score_decayed": 0.29,
+    "mention_score_decayed": 0.28,
     "last_main_idea": "Invest in founders who demonstrate resilience and adaptability, focusing on sectors like AI, defense, aerospace, infrastructure, and software.",
     "last_proof_cite": "The a16z Show \u2022 2026-06-22 \u2022 Jake Paul & Anti Fund: From Creator to Investor",
     "last_proof_snippet": "We're officially announcing the $100 million over subscribe to growth fund and some of the tier 1 names Maybe all the tier 1 names And are all at cognition, psoronic, modal When we announce anti-fine but like GW like you're making a mistake",
@@ -42619,7 +42750,7 @@ const dashboardData = {
     "last_podcast_name": "The a16z Show",
     "last_episode_date": "2026-06-22",
     "mention_score": 1,
-    "mention_score_decayed": 0.29,
+    "mention_score_decayed": 0.28,
     "last_main_idea": "Invest in founders who demonstrate resilience and adaptability, focusing on sectors like AI, defense, aerospace, infrastructure, and software.",
     "last_proof_cite": "The a16z Show \u2022 2026-06-22 \u2022 Jake Paul & Anti Fund: From Creator to Investor",
     "last_proof_snippet": "We're officially announcing the $100 million over subscribe to growth fund and some of the tier 1 names Maybe all the tier 1 names And are all at cognition, psoronic, modal When we announce anti-fine but like GW like you're making a mistake",
@@ -42678,7 +42809,7 @@ const dashboardData = {
     "last_podcast_name": "Monetary Matters with Jack Farley",
     "last_episode_date": "2026-06-21",
     "mention_score": 1,
-    "mention_score_decayed": 0.28,
+    "mention_score_decayed": 0.27,
     "last_main_idea": "Investors should be cautious about the long-term viability of AI companies with high operational losses and unsustainable financial models.",
     "last_proof_cite": "Monetary Matters with Jack Farley \u2022 2026-06-21 \u2022 Ed Zitron: The AI Bubble is Bleeding Cash, Here Are The Receipts",
     "last_proof_snippet": "Got a very special conversation. I am speaking to one of the most prolific skeptics about AI. I'm joined today by Ed Zitron, author of Where's Your Ed at Newsletter and the Better Offline Podcast. Ed, welcome to monetary matters. Thanks for",
@@ -43231,7 +43362,7 @@ const dashboardData = {
     "last_podcast_name": "BG2Pod with Brad Gerstner and Bill Gurley",
     "last_episode_date": "2026-06-11",
     "mention_score": 2,
-    "mention_score_decayed": 0.5,
+    "mention_score_decayed": 0.49,
     "last_main_idea": "SpaceX's unique position in the AI compute market and its rapid deployment capabilities make it a compelling long-term investment, with potential for significant revenue growth through Starlink and AI advancements.",
     "last_proof_cite": "BG2Pod with Brad Gerstner and Bill Gurley \u2022 2026-06-11 \u2022 The SpaceX IPO, Fable 5, AI Capex Update & Market Check w/ Gavin Baker, Andrew Fox & Clark Tang | BG2",
     "last_proof_snippet": "I think we're all pretty AI-pilled, and if you're AI-pilled, that means we've got to build a lot more compute than the world thinks, and that these models are going to be a lot more valuable than people think. You combine that with their co",
@@ -43293,7 +43424,7 @@ const dashboardData = {
     "last_podcast_name": "BG2Pod with Brad Gerstner and Bill Gurley",
     "last_episode_date": "2026-06-11",
     "mention_score": 1,
-    "mention_score_decayed": 0.25,
+    "mention_score_decayed": 0.24,
     "last_main_idea": "SpaceX's unique position in the AI compute market and its rapid deployment capabilities make it a compelling long-term investment, with potential for significant revenue growth through Starlink and AI advancements.",
     "last_proof_cite": "BG2Pod with Brad Gerstner and Bill Gurley \u2022 2026-06-11 \u2022 The SpaceX IPO, Fable 5, AI Capex Update & Market Check w/ Gavin Baker, Andrew Fox & Clark Tang | BG2",
     "last_proof_snippet": "I think we're all pretty AI-pilled, and if you're AI-pilled, that means we've got to build a lot more compute than the world thinks, and that these models are going to be a lot more valuable than people think. You combine that with their co",
@@ -44465,7 +44596,7 @@ const dashboardData = {
     "last_podcast_name": "Moonshots with Peter Diamandis",
     "last_episode_date": "2026-06-03",
     "mention_score": 1,
-    "mention_score_decayed": 0.19,
+    "mention_score_decayed": 0.18,
     "last_main_idea": "Invest in companies at the forefront of AI advancements, particularly in large language models and robotics, as these technologies are expected to drive the next wave of innovation and growth.",
     "last_proof_cite": "Moonshots with Peter Diamandis \u2022 2026-06-03 \u2022 Why AGI Is Close but Not Here Yet | Ray Kurzweil | EP #261",
     "last_proof_snippet": "We just saw a story where Dennis is obvious, who you know, said 50, 50, whether we need another breakthrough to get to AGI. What do you think? Well, I think we need two things. So we've made a 75,000 million trillion folding grease over thi",
@@ -48612,7 +48743,7 @@ const dashboardData = {
     "last_podcast_name": "The a16z Show",
     "last_episode_date": "2026-04-17",
     "mention_score": 1,
-    "mention_score_decayed": 0.07,
+    "mention_score_decayed": 0.06,
     "last_main_idea": "Investing in autonomous driving technologies offers significant potential as the industry moves from research to real-world deployment, with a focus on companies that understand the physical and social aspects of driving.",
     "last_proof_cite": "The a16z Show \u2022 2026-04-17 \u2022 From Models to Mobility: Building Waymo with Dmitri Dolgov",
     "last_proof_snippet": "The autonomous driving industry has moved from scientific research to accelerated global scaling and deployment.",

@@ -917,6 +917,25 @@
       "podcast_episode_id": 362
     },
     {
+      "id": 424,
+      "title": "Interest Rates to 10%: Why the Treasury Market is the Real Speculative Bubble (Not AI) | Russell Clark",
+      "source_type": "podcast",
+      "source_name": "Monetary Matters with Jack Farley",
+      "source_date": "2026-07-22",
+      "summary": "In this episode of 'Other People's Money,' Max Weathy interviews hedge fund manager Russell Clark on the current state of the housing market, wage inflation, and the speculative nature of the treasuries market. Clark argues for a significant rise in wages to make housing more affordable and posits that the treasuries market is more speculative than the AI trade. The discussion also touches on the impact of tax policies on real estate markets and the potential for private equity and credit markets to face challenges with rising interest rates.",
+      "key_takeaway": "The current speculative nature of the treasuries market and the potential for a significant rise in interest rates present both risks and opportunities for investors.",
+      "tickers_mentioned": [
+        "SOYB"
+      ],
+      "sentiment": "bearish",
+      "display_on_main": 0,
+      "display_order": 0,
+      "added_date": "2026-08-16",
+      "archived_date": null,
+      "archived_reason": null,
+      "podcast_episode_id": 409
+    },
+    {
       "id": 374,
       "title": "Why Physical AI Is the Next Frontier | Applied Intuition",
       "source_type": "podcast",
@@ -8592,8 +8611,8 @@
       "term": "AI CapEx",
       "description": "Capital expenditures specifically in AI infrastructure, such as data centers and compute build-out.",
       "first_detected_date": "2026-06-08",
-      "last_mentioned_date": "2026-08-08",
-      "mention_count": 19,
+      "last_mentioned_date": "2026-07-22",
+      "mention_count": 20,
       "source_podcasts": null,
       "status": "active",
       "investment_implications": "AI CapEx is tax-advantaged and has a high return on invested capital due to the demand for compute power.",
@@ -8602,8 +8621,8 @@
       "archived_reason": null,
       "first_detected_episode_id": 271,
       "first_detected_speaker": null,
-      "last_mentioned_episode_id": 406,
-      "last_mentioned_speaker": "Brad Gersner, David Friedberg"
+      "last_mentioned_episode_id": 409,
+      "last_mentioned_speaker": "Russell Clark"
     },
     {
       "id": 234,
@@ -10050,8 +10069,8 @@
       "term": "AI Race",
       "description": "The global competition among nations to lead in artificial intelligence development and application.",
       "first_detected_date": "2026-03-11",
-      "last_mentioned_date": "2026-07-08",
-      "mention_count": 28,
+      "last_mentioned_date": "2026-07-22",
+      "mention_count": 29,
       "source_podcasts": null,
       "status": "active",
       "investment_implications": "Investing in companies at the forefront of AI could yield significant returns as the technology becomes more pervasive.",
@@ -10060,8 +10079,8 @@
       "archived_reason": null,
       "first_detected_episode_id": 60,
       "first_detected_speaker": null,
-      "last_mentioned_episode_id": 408,
-      "last_mentioned_speaker": "Alex Carp"
+      "last_mentioned_episode_id": 409,
+      "last_mentioned_speaker": "Russell Clark"
     },
     {
       "id": 12,

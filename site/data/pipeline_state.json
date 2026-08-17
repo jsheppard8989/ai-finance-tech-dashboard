@@ -1,31 +1,31 @@
 {
-  "generated_at": "2026-08-16T22:04:27.954342",
-  "last_updated": "2026-08-16T22:04:27.954342",
-  "last_pipeline_run": "2026-08-16T22:04:27.954342",
+  "generated_at": "2026-08-16T23:40:36.263906",
+  "last_updated": "2026-08-16T23:40:36.263906",
+  "last_pipeline_run": "2026-08-16T23:40:36.263906",
   "main_page": {
     "overton": 13,
     "insights": 8,
-    "pundits": 266
+    "pundits": 267
   },
   "counts": {
     "ticker_mentions": 216,
-    "podcast_episodes": 381,
+    "podcast_episodes": 382,
     "newsletters": 7,
     "daily_scores": 151,
     "overton_terms_total": 125,
-    "latest_insights_total": 395,
+    "latest_insights_total": 396,
     "today_mentions": {
       "podcast": 3
     },
-    "podcasts_analyzed": 3
+    "podcasts_analyzed": 4
   },
   "step_results": {
-    "downloaded": 3,
-    "transcribed": 3,
-    "analyzed": 2,
-    "insight_created": 2,
-    "published": 1,
-    "total": 3
+    "downloaded": 1,
+    "transcribed": 1,
+    "analyzed": 0,
+    "insight_created": 0,
+    "published": 0,
+    "total": 1
   },
   "episodes": [
     {
@@ -84,57 +84,6 @@
         }
       },
       "status": "needs_analysis"
-    },
-    {
-      "id": "b43076ce-9999-11f1-974a-3f0d0c1ea12c",
-      "podcast": "Monetary Matters with Jack Farley",
-      "title": "Robin Wigglesworth on Hyperscalers' 1.5 Trillion of Off-Balance Sheet Liabilities, Private Credit, and His Book \"A Fabulous Debt\"",
-      "published": "2026-08-16",
-      "rss_guid": "b43076ce-9999-11f1-974a-3f0d0c1ea12c",
-      "stages": {
-        "downloaded": true,
-        "transcribed": true,
-        "analyzed": true,
-        "insight_created": true,
-        "published": true
-      },
-      "stage_reasons": {},
-      "first_blocker": null,
-      "remediation_by_stage": {},
-      "status": "complete"
-    },
-    {
-      "id": "bf461c11-8e10-4124-8c40-f24dab393cf9",
-      "podcast": "All-In with Chamath, Jason, Sacks & Friedberg",
-      "title": "Google's AI Brain Drain, SpaceX's Huge Quarter, Airtable's 90% Collapse, US Data Fuels China AI",
-      "published": "2026-08-08",
-      "rss_guid": "bf461c11-8e10-4124-8c40-f24dab393cf9",
-      "stages": {
-        "downloaded": true,
-        "transcribed": true,
-        "analyzed": true,
-        "insight_created": true,
-        "published": false
-      },
-      "stage_reasons": {
-        "published": "Insight exists but added_to_site=0 \u2014 Deep Dives + export must succeed; run auto_pipeline."
-      },
-      "first_blocker": "published",
-      "remediation_by_stage": {
-        "published": {
-          "action_id": "EXPORT_AND_PUBLISH",
-          "steps": [
-            "Site export runs only after generate_deepdives.py succeeds; if Deep Dives fail, export and git push are skipped.",
-            "Fix Deep Dive errors (see pipeline logs), then run auto_pipeline.py to export site JSON and push.",
-            "When added_to_site=1 on the episode row, this stage turns green."
-          ],
-          "commands": [
-            "cd /Users/jaredsheppard/projects/ai-finance-tech-dashboard/pipeline && python3 generate_deepdives.py",
-            "cd /Users/jaredsheppard/projects/ai-finance-tech-dashboard/pipeline && python3 auto_pipeline.py"
-          ]
-        }
-      },
-      "status": "needs_export"
     }
   ],
   "available_from_rss": [
@@ -146,17 +95,7 @@
       "rss_guid": ""
     }
   ],
-  "stale_episodes": [
-    {
-      "id": "bf461c11-8e10-4124-8c40-f24dab393cf9",
-      "podcast": "All-In with Chamath, Jason, Sacks & Friedberg",
-      "title": "Google's AI Brain Drain, SpaceX's Huge Quarter, Airtable's 90% Collapse, US Data Fuels China AI",
-      "status": "needs_export",
-      "published": "2026-08-08",
-      "age_days": 8,
-      "next_blocker": "published"
-    }
-  ],
+  "stale_episodes": [],
   "stale_threshold_days": 2,
   "rss_filter_criteria": {
     "cutoff_date": "2026-02-01",
