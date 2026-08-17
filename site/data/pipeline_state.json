@@ -1,7 +1,7 @@
 {
-  "generated_at": "2026-08-17T12:05:52.485599",
-  "last_updated": "2026-08-17T12:05:52.485599",
-  "last_pipeline_run": "2026-08-17T12:05:52.485599",
+  "generated_at": "2026-08-17T13:38:03.514716",
+  "last_updated": "2026-08-17T13:38:03.514716",
+  "last_pipeline_run": "2026-08-17T13:38:03.514716",
   "main_page": {
     "overton": 13,
     "insights": 8,
@@ -20,12 +20,12 @@
     "podcasts_analyzed": 1
   },
   "step_results": {
-    "downloaded": 2,
-    "transcribed": 2,
-    "analyzed": 1,
-    "insight_created": 1,
-    "published": 1,
-    "total": 2
+    "downloaded": 1,
+    "transcribed": 1,
+    "analyzed": 0,
+    "insight_created": 0,
+    "published": 0,
+    "total": 1
   },
   "episodes": [
     {
@@ -84,24 +84,6 @@
         }
       },
       "status": "needs_analysis"
-    },
-    {
-      "id": "9afeb415-7028-4fce-a6d4-7341f96df5b9",
-      "podcast": "The a16z Show",
-      "title": "Stripe\u2019s AI Strategy: Build More, Not Less",
-      "published": "2026-08-17",
-      "rss_guid": "9afeb415-7028-4fce-a6d4-7341f96df5b9",
-      "stages": {
-        "downloaded": true,
-        "transcribed": true,
-        "analyzed": true,
-        "insight_created": true,
-        "published": true
-      },
-      "stage_reasons": {},
-      "first_blocker": null,
-      "remediation_by_stage": {},
-      "status": "complete"
     }
   ],
   "available_from_rss": [
