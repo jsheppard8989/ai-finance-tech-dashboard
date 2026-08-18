@@ -3,80 +3,80 @@
 
 const dashboardData = {
   schemaVersion: 2,
-  generatedAt: "2026-08-18T05:02:01.015145",
-  chartsVersion: "2026-08-18T05:01:56.376188",
+  generatedAt: "2026-08-18T06:38:25.862678",
+  chartsVersion: "2026-08-18T06:38:17.828789",
   priceSnapshot: {
   "GOOGL": {
     "price": NaN,
     "change_pct": NaN,
     "name": "GOOGL",
-    "updated_at": "2026-08-18T05:01:56.375747"
+    "updated_at": "2026-08-18T06:38:17.827847"
   },
   "NVDA": {
     "price": NaN,
     "change_pct": NaN,
     "name": "NVDA",
-    "updated_at": "2026-08-18T05:01:56.375758"
+    "updated_at": "2026-08-18T06:38:17.827866"
   },
   "MSFT": {
     "price": NaN,
     "change_pct": NaN,
     "name": "MSFT",
-    "updated_at": "2026-08-18T05:01:56.375761"
+    "updated_at": "2026-08-18T06:38:17.827873"
   },
   "BTC": {
-    "price": 64078.92,
-    "change_pct": -0.8,
+    "price": 64309.64,
+    "change_pct": -0.45,
     "name": "BTC",
-    "updated_at": "2026-08-18T05:01:56.375767"
+    "updated_at": "2026-08-18T06:38:17.827884"
   },
   "TSLA": {
     "price": NaN,
     "change_pct": NaN,
     "name": "TSLA",
-    "updated_at": "2026-08-18T05:01:56.375769"
+    "updated_at": "2026-08-18T06:38:17.827890"
   },
   "AMZN": {
     "price": NaN,
     "change_pct": NaN,
     "name": "AMZN",
-    "updated_at": "2026-08-18T05:01:56.375772"
+    "updated_at": "2026-08-18T06:38:17.827897"
   },
   "META": {
     "price": NaN,
     "change_pct": NaN,
     "name": "META",
-    "updated_at": "2026-08-18T05:01:56.375775"
+    "updated_at": "2026-08-18T06:38:17.827903"
   },
   "WTI": {
     "price": NaN,
     "change_pct": NaN,
     "name": "WTI",
-    "updated_at": "2026-08-18T05:01:56.375777"
+    "updated_at": "2026-08-18T06:38:17.827909"
   },
   "S&P 500": {
     "price": NaN,
     "change_pct": NaN,
     "name": "S&P 500",
-    "updated_at": "2026-08-18T05:01:56.375780"
+    "updated_at": "2026-08-18T06:38:17.827915"
   },
   "AAPL": {
     "price": NaN,
     "change_pct": NaN,
     "name": "AAPL",
-    "updated_at": "2026-08-18T05:01:56.375783"
+    "updated_at": "2026-08-18T06:38:17.827922"
   },
   "QQQ": {
     "price": NaN,
     "change_pct": NaN,
     "name": "Invesco QQQ Trust",
-    "updated_at": "2026-08-18T05:01:56.375785"
+    "updated_at": "2026-08-18T06:38:17.827928"
   },
   "BTC-USD": {
-    "price": 64078.92,
-    "change_pct": -0.8,
+    "price": 64309.64,
+    "change_pct": -0.45,
     "name": "Bitcoin USD",
-    "updated_at": "2026-08-18T05:01:56.375789"
+    "updated_at": "2026-08-18T06:38:17.827936"
   }
 },
   tickerScores: [
@@ -37033,7 +37033,7 @@ const dashboardData = {
 ],
   podcastGuests: [
   {
-    "id": 52862,
+    "id": 52980,
     "name": "Stripe\u2019s AI Strategy",
     "slug": "stripes-ai-strategy",
     "bio": null,
@@ -37045,7 +37045,7 @@ const dashboardData = {
     "appearance_count": 1
   },
   {
-    "id": 52863,
+    "id": 52981,
     "name": "Travis Kalanick",
     "slug": "travis-kalanick",
     "bio": null,
@@ -37057,7 +37057,7 @@ const dashboardData = {
     "appearance_count": 1
   },
   {
-    "id": 52865,
+    "id": 52983,
     "name": "Emad Mostaque",
     "slug": "emad-mostaque",
     "bio": null,
@@ -37069,7 +37069,7 @@ const dashboardData = {
     "appearance_count": 2
   },
   {
-    "id": 52864,
+    "id": 52982,
     "name": "Rahm Emanuel",
     "slug": "rahm-emanuel",
     "bio": null,
@@ -37081,7 +37081,7 @@ const dashboardData = {
     "appearance_count": 1
   },
   {
-    "id": 52866,
+    "id": 52984,
     "name": "Milton Berg",
     "slug": "milton-berg",
     "bio": "Milton Berg is a veteran technical analyst and CEO of Milton Berg Advisors, specializing in market turning-point analysis for institutional investors.",
@@ -37093,7 +37093,7 @@ const dashboardData = {
     "appearance_count": 2
   },
   {
-    "id": 52867,
+    "id": 52985,
     "name": "How Kavak Rebuilt Itself Around AI Agents",
     "slug": "how-kavak-rebuilt-itself-around-ai-agents",
     "bio": null,
@@ -37105,7 +37105,7 @@ const dashboardData = {
     "appearance_count": 1
   },
   {
-    "id": 52868,
+    "id": 52986,
     "name": "How Open",
     "slug": "how-open",
     "bio": null,
@@ -37117,7 +37117,7 @@ const dashboardData = {
     "appearance_count": 1
   },
   {
-    "id": 52869,
+    "id": 52987,
     "name": "Saronic Founders",
     "slug": "saronic-founders",
     "bio": null,
@@ -37129,7 +37129,7 @@ const dashboardData = {
     "appearance_count": 1
   },
   {
-    "id": 52870,
+    "id": 52988,
     "name": "OpenAI's Joshua Achiam",
     "slug": "openais-joshua-achiam",
     "bio": null,
@@ -37141,7 +37141,7 @@ const dashboardData = {
     "appearance_count": 1
   },
   {
-    "id": 52871,
+    "id": 52989,
     "name": "Why Macro is \u201cPretty Risk-On\u201d for Equities",
     "slug": "why-macro-is-pretty-risk-on-for-equities",
     "bio": null,
@@ -37153,7 +37153,7 @@ const dashboardData = {
     "appearance_count": 1
   },
   {
-    "id": 52872,
+    "id": 52990,
     "name": "AI for America's Small Businesses",
     "slug": "ai-for-americas-small-businesses",
     "bio": null,
@@ -37165,7 +37165,7 @@ const dashboardData = {
     "appearance_count": 1
   },
   {
-    "id": 52873,
+    "id": 52991,
     "name": "Mum\u2019s The Word",
     "slug": "mums-the-word",
     "bio": null,
@@ -37177,7 +37177,7 @@ const dashboardData = {
     "appearance_count": 1
   },
   {
-    "id": 52874,
+    "id": 52992,
     "name": "Luke Gromen",
     "slug": "luke-gromen",
     "bio": null,
@@ -37189,7 +37189,7 @@ const dashboardData = {
     "appearance_count": 1
   },
   {
-    "id": 52875,
+    "id": 52993,
     "name": "Codex from 0 to 10M Users",
     "slug": "codex-from-0-to-10m-users",
     "bio": null,
@@ -37201,7 +37201,7 @@ const dashboardData = {
     "appearance_count": 1
   },
   {
-    "id": 52876,
+    "id": 52994,
     "name": "Ben Horowitz",
     "slug": "ben-horowitz",
     "bio": "Ben Horowitz is a co-founder of venture firm Andreessen Horowitz and former CEO of Opsware, known for advising founders on leadership under pressure.",
@@ -37213,7 +37213,7 @@ const dashboardData = {
     "appearance_count": 3
   },
   {
-    "id": 52877,
+    "id": 52995,
     "name": "Building the Physical AI Stack",
     "slug": "building-the-physical-ai-stack",
     "bio": null,
@@ -37225,7 +37225,7 @@ const dashboardData = {
     "appearance_count": 1
   },
   {
-    "id": 52878,
+    "id": 52996,
     "name": "Travis Kalanick Is Back",
     "slug": "travis-kalanick-is-back",
     "bio": null,
@@ -37237,7 +37237,7 @@ const dashboardData = {
     "appearance_count": 1
   },
   {
-    "id": 52879,
+    "id": 52997,
     "name": "Interest Rates to 10%",
     "slug": "interest-rates-to-10",
     "bio": null,
@@ -37249,7 +37249,7 @@ const dashboardData = {
     "appearance_count": 1
   },
   {
-    "id": 52880,
+    "id": 52998,
     "name": "Why Physical AI Is the Next Frontier",
     "slug": "why-physical-ai-is-the-next-frontier",
     "bio": null,
@@ -37261,7 +37261,7 @@ const dashboardData = {
     "appearance_count": 1
   },
   {
-    "id": 52881,
+    "id": 52999,
     "name": "Nick Nemeth",
     "slug": "nick-nemeth",
     "bio": null,
@@ -38098,7 +38098,7 @@ const dashboardData = {
     "last_podcast_name": "Moonshots with Peter Diamandis",
     "last_episode_date": "2026-08-11",
     "mention_score": 1,
-    "mention_score_decayed": 0.89,
+    "mention_score_decayed": 0.87,
     "last_main_idea": "Invest in companies and technologies that are at the forefront of AI and compute power, as these are poised to become the driving forces behind future enterprise success.",
     "last_proof_cite": "Moonshots with Peter Diamandis \u2022 2026-08-11 \u2022 Sergey Brin Retakes Gemini, 4 Labs Lose Containment, Compute Trades at NYSE w/ Kush Bavaria | EP #278",
     "last_proof_snippet": "Sergei Bren is back taking personal control of Gemini. I think we can expect Gemini to make more releases in an accelerated pace with less safety constraints. Google has lost the frontier race and so they can't compete. Those who can't comp",
@@ -39753,7 +39753,7 @@ const dashboardData = {
     "last_podcast_name": "The a16z Show",
     "last_episode_date": "2026-07-29",
     "mention_score": 1,
-    "mention_score_decayed": 0.66,
+    "mention_score_decayed": 0.64,
     "last_main_idea": "Investing in AI-native entertainment presents an opportunity to capitalize on the shift towards generative media and the democratization of content creation.",
     "last_proof_cite": "The a16z Show \u2022 2026-07-29 \u2022 AI Micro Dramas, Generative Media, and the Future of Creativity",
     "last_proof_snippet": "I think folks would be surprised by how many TV shows and movies today already have some element of AI being used. I spend a lot of time with studio execs and Amazon and Netflix have already both announced programs for fully-AI-generated an",
@@ -40299,7 +40299,7 @@ const dashboardData = {
     "last_podcast_name": "The a16z Show",
     "last_episode_date": "2026-07-23",
     "mention_score": 1,
-    "mention_score_decayed": 0.57,
+    "mention_score_decayed": 0.56,
     "last_main_idea": "Industrial AI represents a substantial opportunity to transform physical industries through automation and AI, creating significant value beyond traditional software solutions.",
     "last_proof_cite": "The a16z Show \u2022 2026-07-23 \u2022 Building the Physical AI Stack | Travis Kalanick on TBPN",
     "last_proof_snippet": "Travis Kelenick joins TVPN to discuss why he's betting his next company on industrial AI. He shares his vision behind atoms, explains how autonomy is transforming industries like mining and food production, and discusses why bringing AI int",
@@ -43683,7 +43683,7 @@ const dashboardData = {
     "last_podcast_name": "The Jack Mallers Show",
     "last_episode_date": "2026-06-16",
     "mention_score": 2,
-    "mention_score_decayed": 0.48,
+    "mention_score_decayed": 0.47,
     "last_main_idea": "Investors should monitor Bitcoin as a leading market indicator and scrutinize the capital structures of Bitcoin treasury companies for potential risks and rewards, while maintaining a long-term perspective.",
     "last_proof_cite": "The Jack Mallers Show \u2022 2026-06-16 \u2022 15 Questions: The Strait, Strategy, mNAV, Dilution, & My Boots",
     "last_proof_snippet": "Yo, welcome back to another episode of the Jack Mallors Show. I'm your host Jack, and you're listening to mail bag Monday, ladies and gentlemen. Oh, there's my resources tab, my AI tool. All right, let's get back to slide one. You were list",
@@ -46733,7 +46733,7 @@ const dashboardData = {
     "last_podcast_name": "Moonshots with Peter Diamandis",
     "last_episode_date": "2026-05-07",
     "mention_score": 1,
-    "mention_score_decayed": 0.1,
+    "mention_score_decayed": 0.09,
     "last_main_idea": "Invest in incremental AI improvements, new compensation models for CEOs, and emerging biotech sectors focusing on longevity and healthspan.",
     "last_proof_cite": "Moonshots with Peter Diamandis \u2022 2026-05-07 \u2022 Demis Hassabis on AGI, Robots Scale Production, and Elon\u2019s $1T Mars-Shot Comp | EP #253",
     "last_proof_snippet": "Demisis Abbas, the CEO of DeepMind, says AGI may not need a major breakthrough. I've argued in the past that we achieved AGI in the summer of 2020. We know. I would argue what AGI is, and we know how pleased to find it for me. For your AI,",
@@ -47929,7 +47929,7 @@ const dashboardData = {
     "last_podcast_name": "Moonshots with Peter Diamandis",
     "last_episode_date": "2026-04-28",
     "mention_score": 2,
-    "mention_score_decayed": 0.16,
+    "mention_score_decayed": 0.15,
     "last_main_idea": "Investing in longevity and healthspan technologies and therapies offers significant growth potential as scientific advancements continue to extend human lifespan and improve quality of life.",
     "last_proof_cite": "Moonshots with Peter Diamandis \u2022 2026-04-28 \u2022 David Sinclair: The GLP-1 Side Effect No One Talks About, What AI Found in His Lab, and Reversing Blindness | Q&A EP #251",
     "last_proof_snippet": "AI-driven drug design is accelerating research by analyzing billions of molecules for potential therapeutic uses.",
@@ -48684,7 +48684,7 @@ const dashboardData = {
     "last_podcast_name": "The a16z Show",
     "last_episode_date": "2026-04-20",
     "mention_score": 1,
-    "mention_score_decayed": 0.07,
+    "mention_score_decayed": 0.06,
     "last_main_idea": "Investing in the evolution of software development tools that cater to the needs of both human developers and AI coding agents presents an opportunity for significant growth and innovation.",
     "last_proof_cite": "The a16z Show \u2022 2026-04-20 \u2022 Rethinking Git for the Age of Coding Agents with GitHub Cofounder Scott Chacon",
     "last_proof_snippet": "Coding agents are struggling with traditional Git interfaces, necessitating new tool development.",
@@ -50506,7 +50506,7 @@ const dashboardData = {
     "last_podcast_name": "MacroVoices",
     "last_episode_date": "2026-04-02",
     "mention_score": 2,
-    "mention_score_decayed": 0.09,
+    "mention_score_decayed": 0.08,
     "last_main_idea": "Invest in sectors less affected by AI disruption and monitor geopolitical events for opportunities in private credit markets.",
     "last_proof_cite": "MacroVoices \u2022 2026-04-02 \u2022 MacroVoices #526 Matt Barrie: Pay To PrAI",
     "last_proof_snippet": "AI's impact on private credit markets could lead to a market dislocation similar to the 2000.com bust.",
