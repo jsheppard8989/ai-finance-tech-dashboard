@@ -1,5 +1,22 @@
 [
   {
+    "id": 412,
+    "podcast_name": "The a16z Show",
+    "episode_title": "How Do You Defend Against AI That Can Hack?",
+    "episode_date": "2026-08-18",
+    "summary": "The podcast discusses the challenges and opportunities presented by the rapid integration of AI in enterprise applications, focusing on the implications for cybersecurity. Model providers establish guardrails to prevent misuse, which complicates incident response for defenders. Traditional security tools are found inadequate against AI incidents, necessitating the development of new security tools. The evolution of cyber defenses is moving towards dynamic, behavior-based approaches. The total attack surface is expanding due to AI, including human expression.",
+    "key_takeaways": [
+      "Model providers' guardrails inadvertently complicate incident response for defenders.",
+      "50% of enterprise apps will integrate AI by the end of the year, increasing security complexity.",
+      "Traditional security tools are inadequate against AI incidents.",
+      "Enterprises face challenges with a large number of unique software pieces, many becoming AI-driven.",
+      "AI is both creating new attack surfaces and providing defenders with new tools.",
+      "Cyber defenses are evolving from static detection rules to dynamic, behavior-based approaches."
+    ],
+    "investment_thesis": "Invest in companies developing new security tools to address AI incidents and agentic processes, as well as those providing flexible solutions to adapt to the rapid pace of AI development.",
+    "key_tickers": null
+  },
+  {
     "id": 411,
     "podcast_name": "All-In with Chamath, Jason, Sacks & Friedberg",
     "episode_title": "Flock CEO Garrett Langley on Controversy, \"Surveillance State\" Claims, and Privacy vs Safety",
@@ -119,22 +136,6 @@
       "It's important for early-stage companies to hire the best possible sales talent and give them a chance to hit quota, as this can help attract and retain top performers."
     ],
     "investment_thesis": "The choice between the lighthouse and land grab strategies can significantly impact the success of an enterprise AI startup, as each approach has its own set of advantages and challenges that must be carefully considered in the context of the company's specific circumstances.",
-    "key_tickers": null
-  },
-  {
-    "id": 401,
-    "podcast_name": "All-In with Chamath, Jason, Sacks & Friedberg",
-    "episode_title": "Rahm Emanuel: Trump's Foreign Policy, China, Europe's Decline, Immigration & DSA vs Democrats",
-    "episode_date": "2026-08-13",
-    "summary": "In this episode, Ron Emmanuel, a senior advisor to Bill Clinton and ambassador under President Biden, discusses the future of America in a post-Trump world, focusing on topics such as the economy, inflation, employment, national debt, and the rise of socialism and anti-Semitism. Emmanuel shares insights from his decades of service to America and his views on the importance of progressive policies and effective government.",
-    "key_takeaways": [
-      "Emmanuel emphasizes the importance of having a progressive and affirmative view of government.",
-      "He discusses the skills of Bill Clinton and Barack Obama, highlighting their ability to integrate policy, politics, and press.",
-      "Emmanuel argues that progressive policies require a government that can effectively execute.",
-      "He touches on the challenges of immigration and the importance of a balanced approach to economic and social issues.",
-      "Emmanuel expresses his views on the Democratic Socialists of America, stating that they are a separate party and not aligned with the Democrats."
-    ],
-    "investment_thesis": "Ron Emmanuel's investment thesis revolves around the need for progressive policies and effective government execution, which he believes are crucial for America's economic and social stability.",
     "key_tickers": null
   }
 ]

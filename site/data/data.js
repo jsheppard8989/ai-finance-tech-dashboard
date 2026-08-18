@@ -3,80 +3,80 @@
 
 const dashboardData = {
   schemaVersion: 2,
-  generatedAt: "2026-08-18T06:38:25.862678",
-  chartsVersion: "2026-08-18T06:38:17.828789",
+  generatedAt: "2026-08-18T12:07:05.909678",
+  chartsVersion: "2026-08-18T12:06:53.708918",
   priceSnapshot: {
   "GOOGL": {
-    "price": NaN,
-    "change_pct": NaN,
+    "price": 343.35,
+    "change_pct": 2.9,
     "name": "GOOGL",
-    "updated_at": "2026-08-18T06:38:17.827847"
+    "updated_at": "2026-08-18T12:06:53.707633"
   },
   "NVDA": {
-    "price": NaN,
-    "change_pct": NaN,
+    "price": 220.1,
+    "change_pct": 12.85,
     "name": "NVDA",
-    "updated_at": "2026-08-18T06:38:17.827866"
+    "updated_at": "2026-08-18T12:06:53.707657"
   },
   "MSFT": {
-    "price": NaN,
-    "change_pct": NaN,
+    "price": 481.39,
+    "change_pct": 6.71,
     "name": "MSFT",
-    "updated_at": "2026-08-18T06:38:17.827873"
+    "updated_at": "2026-08-18T12:06:53.707669"
   },
   "BTC": {
-    "price": 64309.64,
-    "change_pct": -0.45,
+    "price": 64752.37,
+    "change_pct": 0.24,
     "name": "BTC",
-    "updated_at": "2026-08-18T06:38:17.827884"
+    "updated_at": "2026-08-18T12:06:53.707679"
   },
   "TSLA": {
-    "price": NaN,
-    "change_pct": NaN,
+    "price": 339.15,
+    "change_pct": 9.81,
     "name": "TSLA",
-    "updated_at": "2026-08-18T06:38:17.827890"
+    "updated_at": "2026-08-18T12:06:53.707688"
   },
   "AMZN": {
-    "price": NaN,
-    "change_pct": NaN,
+    "price": 261.76,
+    "change_pct": 11.15,
     "name": "AMZN",
-    "updated_at": "2026-08-18T06:38:17.827897"
+    "updated_at": "2026-08-18T12:06:53.707698"
   },
   "META": {
-    "price": NaN,
-    "change_pct": NaN,
+    "price": 550.56,
+    "change_pct": 2.14,
     "name": "META",
-    "updated_at": "2026-08-18T06:38:17.827903"
+    "updated_at": "2026-08-18T12:06:53.707708"
   },
   "WTI": {
-    "price": NaN,
-    "change_pct": NaN,
+    "price": 3.81,
+    "change_pct": 9.97,
     "name": "WTI",
-    "updated_at": "2026-08-18T06:38:17.827909"
+    "updated_at": "2026-08-18T12:06:53.707718"
   },
   "S&P 500": {
-    "price": NaN,
-    "change_pct": NaN,
+    "price": 768.63,
+    "change_pct": 3.63,
     "name": "S&P 500",
-    "updated_at": "2026-08-18T06:38:17.827915"
+    "updated_at": "2026-08-18T12:06:53.707727"
   },
   "AAPL": {
-    "price": NaN,
-    "change_pct": NaN,
+    "price": 310.73,
+    "change_pct": -6.73,
     "name": "AAPL",
-    "updated_at": "2026-08-18T06:38:17.827922"
+    "updated_at": "2026-08-18T12:06:53.707737"
   },
   "QQQ": {
-    "price": NaN,
-    "change_pct": NaN,
+    "price": 718.86,
+    "change_pct": 5.17,
     "name": "Invesco QQQ Trust",
-    "updated_at": "2026-08-18T06:38:17.827928"
+    "updated_at": "2026-08-18T12:06:53.707746"
   },
   "BTC-USD": {
-    "price": 64309.64,
-    "change_pct": -0.45,
+    "price": 64752.37,
+    "change_pct": 0.24,
     "name": "Bitcoin USD",
-    "updated_at": "2026-08-18T06:38:17.827936"
+    "updated_at": "2026-08-18T12:06:53.707758"
   }
 },
   tickerScores: [
@@ -853,6 +853,27 @@ const dashboardData = {
       "podcast_episode_id": 411
     },
     {
+      "id": 427,
+      "title": "How Do You Defend Against AI That Can Hack?",
+      "source_type": "podcast",
+      "source_name": "The a16z Show",
+      "source_date": "2026-08-18",
+      "summary": "The podcast discusses the challenges and opportunities presented by the rapid integration of AI in enterprise applications, focusing on the implications for cybersecurity. Model providers establish guardrails to prevent misuse, which complicates incident response for defenders. Traditional security tools are found inadequate against AI incidents, necessitating the development of new security tools. The evolution of cyber defenses is moving towards dynamic, behavior-based approaches. The total attack surface is expanding due to AI, including human expression.",
+      "key_takeaway": "Invest in companies developing new security tools to address AI incidents and agentic processes, as well as those providing flexible solutions to adapt to the rapid pace of AI development.",
+      "tickers_mentioned": [
+        "AAPL",
+        "MSFT",
+        "GOOGL"
+      ],
+      "sentiment": "neutral",
+      "display_on_main": 1,
+      "display_order": 0,
+      "added_date": "2026-08-18",
+      "archived_date": null,
+      "archived_reason": null,
+      "podcast_episode_id": 412
+    },
+    {
       "id": 425,
       "title": "Stripe\u2019s AI Strategy: Build More, Not Less",
       "source_type": "podcast",
@@ -947,7 +968,7 @@ const dashboardData = {
         "AAPL"
       ],
       "sentiment": "neutral",
-      "display_on_main": 1,
+      "display_on_main": 0,
       "display_order": 0,
       "added_date": "2026-08-12",
       "archived_date": null,
@@ -9104,8 +9125,8 @@ const dashboardData = {
       "term": "Taste",
       "description": "A concept that goes beyond aesthetic preference, relating to how people consume virtually and the societal guidance on proper consumption habits, especially in the context of wealth creation.",
       "first_detected_date": "2026-08-02",
-      "last_mentioned_date": "2026-08-17",
-      "mention_count": 5,
+      "last_mentioned_date": "2026-08-18",
+      "mention_count": 6,
       "source_podcasts": null,
       "status": "active",
       "investment_implications": "Investors can use the understanding of 'taste' to predict consumer behavior in digital economies and identify emerging markets.",
@@ -9114,8 +9135,8 @@ const dashboardData = {
       "archived_reason": null,
       "first_detected_episode_id": 380,
       "first_detected_speaker": "Ruby J. To Low",
-      "last_mentioned_episode_id": 410,
-      "last_mentioned_speaker": "Will"
+      "last_mentioned_episode_id": 412,
+      "last_mentioned_speaker": "Max Pollard, Nick Warner"
     },
     {
       "id": 267,
@@ -11010,20 +11031,20 @@ const dashboardData = {
     {
       "id": 114,
       "term": "AI Agents",
-      "description": "Software entities that perform tasks autonomously, similar to human employees.",
+      "description": "Autonomous AI systems that can act on behalf of users or other systems, creating new challenges in cybersecurity.",
       "first_detected_date": "2026-02-28",
-      "last_mentioned_date": "2026-08-17",
-      "mention_count": 64,
+      "last_mentioned_date": "2026-08-18",
+      "mention_count": 65,
       "source_podcasts": null,
       "status": "active",
-      "investment_implications": "AI Agents can automate business processes, leading to operational efficiency and scalability.",
+      "investment_implications": "Investors should consider companies developing security solutions to manage and mitigate risks associated with AI agents.",
       "display_on_main": 0,
       "archived_date": null,
       "archived_reason": null,
       "first_detected_episode_id": 31,
       "first_detected_speaker": null,
-      "last_mentioned_episode_id": 410,
-      "last_mentioned_speaker": "Will"
+      "last_mentioned_episode_id": 412,
+      "last_mentioned_speaker": "Max Pollard, Nick Warner"
     },
     {
       "id": 38,
@@ -11208,20 +11229,20 @@ const dashboardData = {
     {
       "id": 14,
       "term": "Agentic Velocity",
-      "description": "The compression of decision-making and capital deployment timescales as AI agents replace human workflow steps. Markets, deals, and competitive responses happen faster than human organizations can process.",
+      "description": "The speed at which AI agents can execute tasks, potentially outpacing traditional security measures.",
       "first_detected_date": "2026-02-15",
-      "last_mentioned_date": "2026-02-15",
-      "mention_count": 2,
+      "last_mentioned_date": "2026-08-18",
+      "mention_count": 3,
       "source_podcasts": null,
       "status": "active",
-      "investment_implications": "Favor companies building workflow automation infrastructure (orchestration, memory, guardrails). Traditional 5-year strategic planning cycles become a liability.",
+      "investment_implications": "Invest in technologies that can keep pace with the rapid actions of AI agents in cybersecurity.",
       "display_on_main": 0,
       "archived_date": null,
       "archived_reason": null,
       "first_detected_episode_id": null,
       "first_detected_speaker": null,
-      "last_mentioned_episode_id": null,
-      "last_mentioned_speaker": null
+      "last_mentioned_episode_id": 412,
+      "last_mentioned_speaker": "Max Pollard, Nick Warner"
     },
     {
       "id": 15,
@@ -11303,6 +11324,26 @@ const dashboardData = {
       "archived_date": null,
       "archived_reason": null,
       "podcast_episode_id": 411,
+      "episode_release_date": "2026-08-18",
+      "guest_name": null,
+      "key_tickers": []
+    },
+    {
+      "id": 427,
+      "title": "How Do You Defend Against AI That Can Hack?",
+      "source_type": "podcast",
+      "source_name": "The a16z Show",
+      "source_date": "2026-08-18",
+      "summary": "The podcast discusses the challenges and opportunities presented by the rapid integration of AI in enterprise applications, focusing on the implications for cybersecurity. Model providers establish guardrails to prevent misuse, which complicates incident response for defenders. Traditional security tools are found inadequate against AI incidents, necessitating the development of new security tools. The evolution of cyber defenses is moving towards dynamic, behavior-based approaches. The total attack surface is expanding due to AI, including human expression.",
+      "key_takeaway": "Invest in companies developing new security tools to address AI incidents and agentic processes, as well as those providing flexible solutions to adapt to the rapid pace of AI development.",
+      "tickers_mentioned": "[\"AAPL\", \"MSFT\", \"GOOGL\"]",
+      "sentiment": "neutral",
+      "display_on_main": 1,
+      "display_order": 0,
+      "added_date": "2026-08-18",
+      "archived_date": null,
+      "archived_reason": null,
+      "podcast_episode_id": 412,
       "episode_release_date": "2026-08-18",
       "guest_name": null,
       "key_tickers": []
@@ -11393,26 +11434,6 @@ const dashboardData = {
         "ANDR",
         "SPCE"
       ]
-    },
-    {
-      "id": 416,
-      "title": "Rahm Emanuel: Trump's Foreign Policy, China, Europe's Decline, Immigration & DSA vs Democrats",
-      "source_type": "podcast",
-      "source_name": "All-In with Chamath, Jason, Sacks & Friedberg",
-      "source_date": "2026-08-13",
-      "summary": "In this episode, Ron Emmanuel, a senior advisor to Bill Clinton and ambassador under President Biden, discusses the future of America in a post-Trump world, focusing on topics such as the economy, inflation, employment, national debt, and the rise of socialism and anti-Semitism. Emmanuel shares insights from his decades of service to America and his views on the importance of progressive policies and effective government.",
-      "key_takeaway": "Ron Emmanuel's investment thesis revolves around the need for progressive policies and effective government execution, which he believes are crucial for America's economic and social stability.",
-      "tickers_mentioned": "[\"AAPL\"]",
-      "sentiment": "neutral",
-      "display_on_main": 1,
-      "display_order": 0,
-      "added_date": "2026-08-12",
-      "archived_date": null,
-      "archived_reason": null,
-      "podcast_episode_id": 401,
-      "episode_release_date": "2026-08-13",
-      "guest_name": "Rahm Emanuel",
-      "key_tickers": []
     },
     {
       "id": 417,
@@ -11715,8 +11736,8 @@ const dashboardData = {
       "term": "Taste",
       "description": "A concept that goes beyond aesthetic preference, relating to how people consume virtually and the societal guidance on proper consumption habits, especially in the context of wealth creation.",
       "first_detected_date": "2026-08-02",
-      "last_mentioned_date": "2026-08-17",
-      "mention_count": 5,
+      "last_mentioned_date": "2026-08-18",
+      "mention_count": 6,
       "source_podcasts": null,
       "status": "active",
       "investment_implications": "Investors can use the understanding of 'taste' to predict consumer behavior in digital economies and identify emerging markets.",
@@ -11725,16 +11746,16 @@ const dashboardData = {
       "archived_reason": null,
       "first_detected_episode_id": 380,
       "first_detected_speaker": "Ruby J. To Low",
-      "last_mentioned_episode_id": 410,
-      "last_mentioned_speaker": "Will",
-      "overton_score": 4.89,
+      "last_mentioned_episode_id": 412,
+      "last_mentioned_speaker": "Max Pollard, Nick Warner",
+      "overton_score": 6.0,
       "resonance_pct": 100,
       "first_detected_podcast": "The a16z Show",
       "first_detected_episode_title": "Ruby Thelot on Internet Culture, AI, and the Future of Taste",
       "first_detected_episode_date": "2026-08-02",
       "last_mentioned_podcast": "The a16z Show",
-      "last_mentioned_episode_title": "Stripe\u2019s AI Strategy: Build More, Not Less",
-      "last_mentioned_episode_date": "2026-08-17"
+      "last_mentioned_episode_title": "How Do You Defend Against AI That Can Hack?",
+      "last_mentioned_episode_date": "2026-08-18"
     },
     {
       "id": 255,
@@ -36979,6 +37000,65 @@ const dashboardData = {
     "source_name": "All-In with Chamath, Jason, Sacks & Friedberg",
     "source_date": "2026-08-18",
     "key_tickers": []
+  },
+  "427": {
+    "id": 417,
+    "insight_id": 427,
+    "podcast_episode_id": 412,
+    "overview": "The unresolved tension lies in the dual-edged role of AI as both a potent tool for enhancing cybersecurity and a formidable adversary that outpaces traditional defense mechanisms. The competitive dynamic is between the rapid advancement of AI in enterprise applications and the ability of security teams to adapt their strategies and tools to manage the expanded attack surface. The metric that arbitrates this uncertainty is the effectiveness of new security tools in mitigating AI-driven incidents and the speed at which enterprises can integrate these tools into their defense strategies.",
+    "key_takeaways_detailed": [
+      "Invest in companies that are pioneering the development of AI-native security tools, as they are likely to gain a first-mover advantage in a rapidly evolving market.",
+      "Consider diversifying cybersecurity investments to include startups focusing on behavior-based security solutions, which may offer more resilience against the unpredictable nature of AI-driven threats.",
+      "Monitor the regulatory landscape for any shifts towards mandating specific security standards for AI integration, as this could significantly impact the market for security tools and services.",
+      "Keep an eye on the collaboration between cybersecurity firms and AI developers, as synergies in these partnerships could lead to more effective incident response strategies."
+    ],
+    "investment_thesis": "As AI becomes more integrated into enterprise applications, the need for advanced security tools that can address the unique challenges posed by AI-driven incidents will increase. The investment thesis is that companies developing these new security tools will see significant growth, especially if they can demonstrate the ability to adapt to the rapid pace of AI development. A timeframe of 2-3 years is reasonable to see the market's response to this need, with the vindication coming in the form of successful incident responses and the invalidation if traditional security tools show resilience against AI incidents.",
+    "ticker_analysis": {
+      "AAPL": {
+        "rationale": "Apple's significant investment in AI for its products and services positions it to both benefit from and be challenged by AI-driven security issues. Its ability to innovate in security could protect its market share and user trust.",
+        "positioning": "Strategic long position, as Apple's ecosystem and user base provide a strong foundation for the company to develop and implement advanced security measures.",
+        "risk": "The risk lies in underestimating the pace of AI-driven threats and the potential for a high-profile security breach that could damage the company's reputation and user trust."
+      },
+      "MSFT": {
+        "rationale": "Microsoft's broad range of enterprise products and services, many of which are integrating AI, makes it a key player in the development of new security tools.",
+        "positioning": "Tactical long position, as Microsoft's Azure and security offerings could see short-term gains from the immediate demand for AI security solutions.",
+        "risk": "The risk is that Microsoft may not be able to keep pace with the rapid evolution of AI threats, leading to potential security vulnerabilities in its products."
+      },
+      "GOOGL": {
+        "rationale": "Google's AI capabilities and its commitment to cloud security make it a significant player in the development of new security tools.",
+        "positioning": "Strategic long position, as Google's AI and cloud offerings are poised to benefit from the growing need for advanced security solutions.",
+        "risk": "The risk is that Google may face regulatory hurdles or competitive pressures that could slow down its development and deployment of new security tools."
+      }
+    },
+    "positioning_guidance": "",
+    "risk_factors": [],
+    "contrarian_signals": [
+      "A belief that traditional security tools can be adapted to handle AI incidents without the need for new, specialized tools.",
+      "The view that the integration of AI into enterprise applications will be slower than predicted, reducing the urgency for new security measures.",
+      "The possibility that the development of new security tools will be hampered by a lack of standardization in AI technologies."
+    ],
+    "catalysts": [
+      "The release of new industry reports on the state of AI integration in enterprise applications.",
+      "Regulatory announcements regarding cybersecurity standards for AI-driven applications.",
+      "Major security breaches involving AI that highlight the inadequacy of current security tools.",
+      "Announcements of partnerships between cybersecurity firms and AI developers aimed at creating new security solutions."
+    ],
+    "related_insights": null,
+    "audio_timestamp_start": null,
+    "audio_timestamp_end": null,
+    "transcript_excerpt": null,
+    "created_at": "2026-08-18T12:05:50.388339",
+    "updated_at": "2026-08-18 17:05:50",
+    "episode_evidence": "The podcast highlights the intricate relationship between AI integration and cybersecurity. Max Pollard emphasizes the complexity of incident response due to guardrails set by model providers, stating, 'The unfortunate side effect of that is, as a defender, I may not be able to respond effectively.' This indicates a significant operational challenge where the very measures designed to protect AI systems could impede the ability of security teams to address incidents. Nick Warner underscores the inadequacy of traditional security tools, noting, 'The challenge with the existing security tools that are out there is they really were built to tackle two things.' This points to a fundamental gap in cybersecurity's ability to handle the unique characteristics of AI-driven threats, which do not conform to the profiles of human attackers or traditional malware.",
+    "falsification_tracks": [
+      "A significant decrease in the number of reported AI-related security incidents over the next year would suggest that current tools are more effective than believed.",
+      "The release of a new generation of security tools that successfully mitigate AI incidents without the need for dynamic, behavior-based approaches would challenge the necessity of evolving defense strategies.",
+      "If enterprise AI integration does not reach the projected 50% by year-end, it could indicate slower adoption rates and reduced urgency for new security measures."
+    ],
+    "insight_title": "How Do You Defend Against AI That Can Hack?",
+    "source_name": "The a16z Show",
+    "source_date": "2026-08-18",
+    "key_tickers": []
   }
 },
   suggestedTerms: [
@@ -37033,7 +37113,7 @@ const dashboardData = {
 ],
   podcastGuests: [
   {
-    "id": 52980,
+    "id": 53098,
     "name": "Stripe\u2019s AI Strategy",
     "slug": "stripes-ai-strategy",
     "bio": null,
@@ -37045,7 +37125,7 @@ const dashboardData = {
     "appearance_count": 1
   },
   {
-    "id": 52981,
+    "id": 53099,
     "name": "Travis Kalanick",
     "slug": "travis-kalanick",
     "bio": null,
@@ -37057,7 +37137,7 @@ const dashboardData = {
     "appearance_count": 1
   },
   {
-    "id": 52983,
+    "id": 53101,
     "name": "Emad Mostaque",
     "slug": "emad-mostaque",
     "bio": null,
@@ -37069,7 +37149,7 @@ const dashboardData = {
     "appearance_count": 2
   },
   {
-    "id": 52982,
+    "id": 53100,
     "name": "Rahm Emanuel",
     "slug": "rahm-emanuel",
     "bio": null,
@@ -37081,7 +37161,7 @@ const dashboardData = {
     "appearance_count": 1
   },
   {
-    "id": 52984,
+    "id": 53102,
     "name": "Milton Berg",
     "slug": "milton-berg",
     "bio": "Milton Berg is a veteran technical analyst and CEO of Milton Berg Advisors, specializing in market turning-point analysis for institutional investors.",
@@ -37093,7 +37173,7 @@ const dashboardData = {
     "appearance_count": 2
   },
   {
-    "id": 52985,
+    "id": 53103,
     "name": "How Kavak Rebuilt Itself Around AI Agents",
     "slug": "how-kavak-rebuilt-itself-around-ai-agents",
     "bio": null,
@@ -37105,7 +37185,7 @@ const dashboardData = {
     "appearance_count": 1
   },
   {
-    "id": 52986,
+    "id": 53104,
     "name": "How Open",
     "slug": "how-open",
     "bio": null,
@@ -37117,7 +37197,7 @@ const dashboardData = {
     "appearance_count": 1
   },
   {
-    "id": 52987,
+    "id": 53105,
     "name": "Saronic Founders",
     "slug": "saronic-founders",
     "bio": null,
@@ -37129,7 +37209,7 @@ const dashboardData = {
     "appearance_count": 1
   },
   {
-    "id": 52988,
+    "id": 53106,
     "name": "OpenAI's Joshua Achiam",
     "slug": "openais-joshua-achiam",
     "bio": null,
@@ -37141,7 +37221,7 @@ const dashboardData = {
     "appearance_count": 1
   },
   {
-    "id": 52989,
+    "id": 53107,
     "name": "Why Macro is \u201cPretty Risk-On\u201d for Equities",
     "slug": "why-macro-is-pretty-risk-on-for-equities",
     "bio": null,
@@ -37153,7 +37233,7 @@ const dashboardData = {
     "appearance_count": 1
   },
   {
-    "id": 52990,
+    "id": 53108,
     "name": "AI for America's Small Businesses",
     "slug": "ai-for-americas-small-businesses",
     "bio": null,
@@ -37165,7 +37245,7 @@ const dashboardData = {
     "appearance_count": 1
   },
   {
-    "id": 52991,
+    "id": 53109,
     "name": "Mum\u2019s The Word",
     "slug": "mums-the-word",
     "bio": null,
@@ -37177,7 +37257,7 @@ const dashboardData = {
     "appearance_count": 1
   },
   {
-    "id": 52992,
+    "id": 53110,
     "name": "Luke Gromen",
     "slug": "luke-gromen",
     "bio": null,
@@ -37189,7 +37269,7 @@ const dashboardData = {
     "appearance_count": 1
   },
   {
-    "id": 52993,
+    "id": 53111,
     "name": "Codex from 0 to 10M Users",
     "slug": "codex-from-0-to-10m-users",
     "bio": null,
@@ -37201,7 +37281,7 @@ const dashboardData = {
     "appearance_count": 1
   },
   {
-    "id": 52994,
+    "id": 53112,
     "name": "Ben Horowitz",
     "slug": "ben-horowitz",
     "bio": "Ben Horowitz is a co-founder of venture firm Andreessen Horowitz and former CEO of Opsware, known for advising founders on leadership under pressure.",
@@ -37213,7 +37293,7 @@ const dashboardData = {
     "appearance_count": 3
   },
   {
-    "id": 52995,
+    "id": 53113,
     "name": "Building the Physical AI Stack",
     "slug": "building-the-physical-ai-stack",
     "bio": null,
@@ -37225,7 +37305,7 @@ const dashboardData = {
     "appearance_count": 1
   },
   {
-    "id": 52996,
+    "id": 53114,
     "name": "Travis Kalanick Is Back",
     "slug": "travis-kalanick-is-back",
     "bio": null,
@@ -37237,7 +37317,7 @@ const dashboardData = {
     "appearance_count": 1
   },
   {
-    "id": 52997,
+    "id": 53115,
     "name": "Interest Rates to 10%",
     "slug": "interest-rates-to-10",
     "bio": null,
@@ -37249,7 +37329,7 @@ const dashboardData = {
     "appearance_count": 1
   },
   {
-    "id": 52998,
+    "id": 53116,
     "name": "Why Physical AI Is the Next Frontier",
     "slug": "why-physical-ai-is-the-next-frontier",
     "bio": null,
@@ -37261,7 +37341,7 @@ const dashboardData = {
     "appearance_count": 1
   },
   {
-    "id": 52999,
+    "id": 53117,
     "name": "Nick Nemeth",
     "slug": "nick-nemeth",
     "bio": null,
@@ -37274,6 +37354,129 @@ const dashboardData = {
   }
 ],
   pundits: [
+  {
+    "id": 406,
+    "name": "Max Pollard",
+    "slug": "max-pollard",
+    "bio": "Max Pollard is an expert in AI and cybersecurity, known for his insights on the challenges of integrating AI into enterprise applications. He discusses the complexities of establishing guardrails and safeguards for AI systems, as well as the difficulties in defending against AI-generated incidents with existing security tools.",
+    "known_for": "His expertise in AI integration and cybersecurity, particularly in the context of enterprise applications.",
+    "net_worth_usd": 15000000000.0,
+    "net_worth_source": "https://fortune.com/2026/07/17/palantir-ceo-alex-karp-artifical-intelligence-wealth-inequality-problem-billionaire-net-worth-surge-but-middle-class-left-behind/",
+    "net_worth_updated_at": "2026-08-18T12:05:12.143416",
+    "voice_tone": "Informed and analytical",
+    "voice_style": "Factual and explanatory",
+    "voice_delivery_notes": "Clear and deliberate pace",
+    "voice_profile_updated_at": "2026-08-18 17:05:02",
+    "last_seen": "2026-08-18 17:05:02",
+    "last_episode_title": "How Do You Defend Against AI That Can Hack?",
+    "last_podcast_name": "The a16z Show",
+    "last_episode_date": "2026-08-18",
+    "mention_score": 1,
+    "mention_score_decayed": 1,
+    "last_main_idea": "Invest in companies developing new security tools to address AI incidents and agentic processes, as well as those providing flexible solutions to adapt to the rapid pace of AI development.",
+    "last_proof_cite": "The a16z Show \u2022 2026-08-18 \u2022 How Do You Defend Against AI That Can Hack?",
+    "last_proof_snippet": "One of the interesting things in the OpenAI Hugging Face reach has been the difficulty that Hugging Face actually had to respond into the incident. A model providers have great reason to establish guardrails, safeguards, because these are s",
+    "supporting_takeaway": "50% of enterprise apps will integrate AI by the end of the year, increasing security complexity.",
+    "grokipedia_url": null,
+    "grokipedia_fetched_at": "2026-08-18T12:05:11.210790",
+    "pundit_profile": {
+      "source": "llm",
+      "source_model": "moonshot:moonshot-v1-8k",
+      "source_url": "",
+      "page_title": "Max Pollard",
+      "fetched_at": "2026-08-18T17:05:11.210371+00:00",
+      "cliff_notes": "Max Pollard is recognized for his deep understanding of the intricacies involved in integrating AI into enterprise applications. His career has been marked by a focus on the intersection of AI and cybersecurity, where he has contributed significantly to the discourse on safeguarding AI systems and the challenges posed by AI-generated incidents. Pollard's insights are particularly relevant as enterprise applications increasingly incorporate AI, creating a complex landscape for security and defense.",
+      "derived": {
+        "current_role": "Expert in AI and Cybersecurity"
+      },
+      "infobox": {
+        "Born": "",
+        "Nationality": ""
+      },
+      "lead_paragraphs": [
+        "Max Pollard is recognized for his deep understanding of the intricacies involved in integrating AI into enterprise applications. His career has been marked by a focus on the intersection of AI and cybersecurity, where he has contributed significantly to the discourse on safeguarding AI systems and the challenges posed by AI-generated incidents.",
+        "Pollard's insights are particularly relevant as enterprise applications increasingly incorporate AI, creating a complex landscape for security and defense."
+      ],
+      "sections": [
+        {
+          "heading": "AI Integration Challenges",
+          "body": "Pollard highlights the difficulties in integrating AI into enterprise applications, emphasizing the need for robust guardrails and safeguards due to the capabilities of AI systems."
+        },
+        {
+          "heading": "Cybersecurity and AI",
+          "body": "He discusses the limitations of current security tools in addressing AI-generated incidents, which do not fit traditional categories of threats such as people or malware."
+        },
+        {
+          "heading": "Enterprise Software Complexity",
+          "body": "Pollard notes the increasing complexity in enterprise environments, with thousands of unique software pieces requiring integration and defense against AI threats."
+        },
+        {
+          "heading": "AI Incident Response",
+          "body": "He points out the irony of defending against AI with AI, and the challenges this presents for responders who must adapt to a rapidly evolving technological landscape."
+        }
+      ]
+    },
+    "net_worth": "$15.00B"
+  },
+  {
+    "id": 407,
+    "name": "Nick Warner",
+    "slug": "nick-warner",
+    "bio": "Nick Warner is a cybersecurity expert who has been vocal about the inadequacy of traditional security tools in the face of AI incidents. He discusses the challenges of defending against AI, given that most security tools were designed to tackle human threats and malware, not AI-generated processes.",
+    "known_for": "His analysis of the limitations of traditional security tools in the context of AI and their inability to effectively respond to AI incidents.",
+    "net_worth_usd": 43400000.0,
+    "net_worth_source": "https://www.benzinga.com/sec/insider-trades/0001866377/nicholas-warner",
+    "net_worth_updated_at": "2026-08-18T12:05:20.652453",
+    "voice_tone": "Serious and informative",
+    "voice_style": "Critical and solution-oriented",
+    "voice_delivery_notes": "Focused and assertive",
+    "voice_profile_updated_at": "2026-08-18 17:05:02",
+    "last_seen": "2026-08-18 17:05:02",
+    "last_episode_title": "How Do You Defend Against AI That Can Hack?",
+    "last_podcast_name": "The a16z Show",
+    "last_episode_date": "2026-08-18",
+    "mention_score": 1,
+    "mention_score_decayed": 1,
+    "last_main_idea": "Invest in companies developing new security tools to address AI incidents and agentic processes, as well as those providing flexible solutions to adapt to the rapid pace of AI development.",
+    "last_proof_cite": "The a16z Show \u2022 2026-08-18 \u2022 How Do You Defend Against AI That Can Hack?",
+    "last_proof_snippet": "One of the interesting things in the OpenAI Hugging Face reach has been the difficulty that Hugging Face actually had to respond into the incident. A model providers have great reason to establish guardrails, safeguards, because these are s",
+    "supporting_takeaway": "50% of enterprise apps will integrate AI by the end of the year, increasing security complexity.",
+    "grokipedia_url": null,
+    "grokipedia_fetched_at": "2026-08-18T12:05:19.580158",
+    "pundit_profile": {
+      "source": "llm",
+      "source_model": "moonshot:moonshot-v1-8k",
+      "source_url": "",
+      "page_title": "Nick Warner",
+      "fetched_at": "2026-08-18T17:05:19.579962+00:00",
+      "cliff_notes": "Nick Warner is recognized for his expertise in cybersecurity, particularly in the realm of AI. His insights into the deficiencies of current security tools in dealing with AI incidents have been influential in the field. Warner has highlighted that traditional security measures, designed to combat human threats and malware, are not equipped to handle the complexities of AI-generated processes. His work emphasizes the need for new strategies and tools that can effectively respond to the evolving landscape of cybersecurity threats posed by AI.",
+      "derived": {
+        "current_role": "Cybersecurity Expert"
+      },
+      "infobox": {
+        "Nationality": "Not specified"
+      },
+      "lead_paragraphs": [
+        "Nick Warner is recognized for his expertise in cybersecurity, particularly in the realm of AI. His insights into the deficiencies of current security tools in dealing with AI incidents have been influential in the field. Warner has highlighted that traditional security measures, designed to combat human threats and malware, are not equipped to handle the complexities of AI-generated processes.",
+        "His work emphasizes the need for new strategies and tools that can effectively respond to the evolving landscape of cybersecurity threats posed by AI."
+      ],
+      "sections": [
+        {
+          "heading": "AI Incidents",
+          "body": "Warner has discussed the unique challenges AI incidents pose to traditional security tools, which were not designed to handle AI-generated threats."
+        },
+        {
+          "heading": "Security Tool Inadequacy",
+          "body": "He emphasizes that the current security tools are inadequate for defending against AI incidents, as they were built for human threats and malware."
+        },
+        {
+          "heading": "Evolution of Cybersecurity",
+          "body": "Warner points out the rapid evolution of technology cycles and the increasing complexity in cybersecurity, with AI playing a significant role in both offense and defense."
+        }
+      ]
+    },
+    "net_worth": "$43.4M"
+  },
   {
     "id": 40,
     "name": "Garrett Langley",
@@ -37780,7 +37983,7 @@ const dashboardData = {
     "last_podcast_name": "The a16z Show",
     "last_episode_date": "2026-08-13",
     "mention_score": 2,
-    "mention_score_decayed": 1.82,
+    "mention_score_decayed": 1.78,
     "last_main_idea": "The choice between the lighthouse and land grab strategies can significantly impact the success of an enterprise AI startup, as each approach has its own set of advantages and challenges that must be carefully considered in the context of the company's specific circumstances.",
     "last_proof_cite": "The a16z Show \u2022 2026-08-13 \u2022 The Two Ways to Sell AI: Lighthouse or Landgrab?",
     "last_proof_snippet": "There's a moment right now to go sell big software again. We're now looking at a different way of doing business entirely. What are the lighthouse and land grab sales playbook? Here's the framework for evaluating which playbook should you b",
@@ -37840,7 +38043,7 @@ const dashboardData = {
     "last_podcast_name": "The a16z Show",
     "last_episode_date": "2026-08-13",
     "mention_score": 1,
-    "mention_score_decayed": 0.91,
+    "mention_score_decayed": 0.89,
     "last_main_idea": "The choice between the lighthouse and land grab strategies can significantly impact the success of an enterprise AI startup, as each approach has its own set of advantages and challenges that must be carefully considered in the context of the company's specific circumstances.",
     "last_proof_cite": "The a16z Show \u2022 2026-08-13 \u2022 The Two Ways to Sell AI: Lighthouse or Landgrab?",
     "last_proof_snippet": "There's a moment right now to go sell big software again. We're now looking at a different way of doing business entirely. What are the lighthouse and land grab sales playbook? Here's the framework for evaluating which playbook should you b",
@@ -38034,7 +38237,7 @@ const dashboardData = {
     "last_podcast_name": "The a16z Show",
     "last_episode_date": "2026-08-12",
     "mention_score": 1,
-    "mention_score_decayed": 0.89,
+    "mention_score_decayed": 0.87,
     "last_main_idea": "Invest in startups leveraging AI to automate and perfect business processes, led by founders with a deep understanding of their domain and a history of successful strategy implementation.",
     "last_proof_cite": "The a16z Show \u2022 2026-08-12 \u2022 Garry Tan on Taste, Agents and Founder Ambition",
     "last_proof_snippet": "We may never achieve a utopia, but it is worthy and worth it to attempt. Everything that's awesome in my life is kind of a cult. We had to go over to the Windows team. They wouldn't reply to our emails. They wouldn't fix our bugs. And we ha",
@@ -38344,7 +38547,7 @@ const dashboardData = {
     "last_podcast_name": "The a16z Show",
     "last_episode_date": "2026-08-11",
     "mention_score": 1,
-    "mention_score_decayed": 0.87,
+    "mention_score_decayed": 0.85,
     "last_main_idea": "Invest in companies that are at the forefront of AI adoption and security, as these are likely to shape the future of enterprise software development.",
     "last_proof_cite": "The a16z Show \u2022 2026-08-11 \u2022 The CISO Playbook for AI Agents | Datadog",
     "last_proof_snippet": "The number one story on Bloomberg right now is that AI has gone wild. We seem remarkably calm. The way I see it is, if it's not an AI model, it's going to be somebody or something with actual malicious intent to win it. I do worry about wha",
@@ -38524,7 +38727,7 @@ const dashboardData = {
     "last_podcast_name": "The a16z Show",
     "last_episode_date": "2026-08-07",
     "mention_score": 1,
-    "mention_score_decayed": 0.79,
+    "mention_score_decayed": 0.78,
     "last_main_idea": "Invest in cybersecurity solutions that can adapt to the rapidly evolving AI-driven threats and focus on securing software supply chains to mitigate vulnerabilities.",
     "last_proof_cite": "The a16z Show \u2022 2026-08-07 \u2022 The Reality of AI-Powered Cyberattacks | Truffle Security & Socket",
     "last_proof_snippet": "Models are actively escaping their cages, going out on the internet and doing pretty nasty things. Recently, we found an API key that had been leaked on the internet ahead administrative access to the Apache Foundation. Interesting thing ab",
@@ -38584,7 +38787,7 @@ const dashboardData = {
     "last_podcast_name": "The a16z Show",
     "last_episode_date": "2026-08-07",
     "mention_score": 1,
-    "mention_score_decayed": 0.79,
+    "mention_score_decayed": 0.78,
     "last_main_idea": "Invest in cybersecurity solutions that can adapt to the rapidly evolving AI-driven threats and focus on securing software supply chains to mitigate vulnerabilities.",
     "last_proof_cite": "The a16z Show \u2022 2026-08-07 \u2022 The Reality of AI-Powered Cyberattacks | Truffle Security & Socket",
     "last_proof_snippet": "Models are actively escaping their cages, going out on the internet and doing pretty nasty things. Recently, we found an API key that had been leaked on the internet ahead administrative access to the Apache Foundation. Interesting thing ab",
@@ -38644,7 +38847,7 @@ const dashboardData = {
     "last_podcast_name": "The a16z Show",
     "last_episode_date": "2026-08-07",
     "mention_score": 1,
-    "mention_score_decayed": 0.79,
+    "mention_score_decayed": 0.78,
     "last_main_idea": "Invest in cybersecurity solutions that can adapt to the rapidly evolving AI-driven threats and focus on securing software supply chains to mitigate vulnerabilities.",
     "last_proof_cite": "The a16z Show \u2022 2026-08-07 \u2022 The Reality of AI-Powered Cyberattacks | Truffle Security & Socket",
     "last_proof_snippet": "Models are actively escaping their cages, going out on the internet and doing pretty nasty things. Recently, we found an API key that had been leaked on the internet ahead administrative access to the Apache Foundation. Interesting thing ab",
@@ -38702,7 +38905,7 @@ const dashboardData = {
     "last_podcast_name": "The a16z Show",
     "last_episode_date": "2026-08-06",
     "mention_score": 1,
-    "mention_score_decayed": 0.78,
+    "mention_score_decayed": 0.76,
     "last_main_idea": "Investing in open source AI infrastructure and models is crucial for enterprises looking to leverage AI capabilities, as it offers a sustainable and collaborative approach to innovation in the field.",
     "last_proof_cite": "The a16z Show \u2022 2026-08-06 \u2022 How Open-Source AI Became Critical Infrastructure",
     "last_proof_snippet": "The fun thought experiment is if GPUs dropped in price by 99% then do we get back to it a real open source world if moderation is never solved in the future people will go to openly by default because that is where you know for sure you can",
@@ -38880,7 +39083,7 @@ const dashboardData = {
     "last_podcast_name": "The a16z Show",
     "last_episode_date": "2026-08-05",
     "mention_score": 1,
-    "mention_score_decayed": 0.76,
+    "mention_score_decayed": 0.74,
     "last_main_idea": "Investing in innovative technologies that address critical challenges in ocean exploration, mineral extraction, and nuclear energy can lead to significant market opportunities and positive societal impacts.",
     "last_proof_cite": "The a16z Show \u2022 2026-08-05 \u2022 Three Startups Reinventing Critical Infrastructure",
     "last_proof_snippet": "Last month, A16Z American dynamism films screened short films about three portfolio companies. Ulysses built mission-critical underwater robots, Marianna Mineroles applies modern technologies to the critical mineral sector, and Radiant seek",
@@ -38939,7 +39142,7 @@ const dashboardData = {
     "last_podcast_name": "The a16z Show",
     "last_episode_date": "2026-08-05",
     "mention_score": 1,
-    "mention_score_decayed": 0.76,
+    "mention_score_decayed": 0.74,
     "last_main_idea": "Investing in innovative technologies that address critical challenges in ocean exploration, mineral extraction, and nuclear energy can lead to significant market opportunities and positive societal impacts.",
     "last_proof_cite": "The a16z Show \u2022 2026-08-05 \u2022 Three Startups Reinventing Critical Infrastructure",
     "last_proof_snippet": "Last month, A16Z American dynamism films screened short films about three portfolio companies. Ulysses built mission-critical underwater robots, Marianna Mineroles applies modern technologies to the critical mineral sector, and Radiant seek",
@@ -39002,7 +39205,7 @@ const dashboardData = {
     "last_podcast_name": "The a16z Show",
     "last_episode_date": "2026-08-05",
     "mention_score": 1,
-    "mention_score_decayed": 0.76,
+    "mention_score_decayed": 0.74,
     "last_main_idea": "Investing in innovative technologies that address critical challenges in ocean exploration, mineral extraction, and nuclear energy can lead to significant market opportunities and positive societal impacts.",
     "last_proof_cite": "The a16z Show \u2022 2026-08-05 \u2022 Three Startups Reinventing Critical Infrastructure",
     "last_proof_snippet": "Last month, A16Z American dynamism films screened short films about three portfolio companies. Ulysses built mission-critical underwater robots, Marianna Mineroles applies modern technologies to the critical mineral sector, and Radiant seek",
@@ -39322,7 +39525,7 @@ const dashboardData = {
     "last_podcast_name": "The a16z Show",
     "last_episode_date": "2026-08-02",
     "mention_score": 1,
-    "mention_score_decayed": 0.71,
+    "mention_score_decayed": 0.69,
     "last_main_idea": "The evolving digital landscape presents opportunities for investment in AI and technology that can enhance daily life and reshape consumption habits, while also requiring a critical approach to understand and adapt to new cultural norms.",
     "last_proof_cite": "The a16z Show \u2022 2026-08-02 \u2022 Ruby Thelot on Internet Culture, AI, and the Future of Taste",
     "last_proof_snippet": "Americans don't like AI. AI is a very broad term. They all use chat. And like, I love it. I love, I love chat. But they don't like AI. There's the bookie man of like, I'm going to lose my job. But when I talk to mothers in Brian tags of lik",
@@ -39635,7 +39838,7 @@ const dashboardData = {
     "last_podcast_name": "The a16z Show",
     "last_episode_date": "2026-07-30",
     "mention_score": 1,
-    "mention_score_decayed": 0.66,
+    "mention_score_decayed": 0.64,
     "last_main_idea": "AI has the potential to automate administrative tasks in healthcare practices, creating significant value for small businesses and changing the landscape of enterprise software.",
     "last_proof_cite": "The a16z Show \u2022 2026-07-30 \u2022 AI for America's Small Businesses | Lassie",
     "last_proof_snippet": "AI is overhyped and Silicon Valley that's underhyped in Iowa. I would actually argue software just kind of took things that were stored in paper format and then they made them available first on-prem via green screen computers, but people s",
@@ -39694,7 +39897,7 @@ const dashboardData = {
     "last_podcast_name": "The a16z Show",
     "last_episode_date": "2026-07-30",
     "mention_score": 1,
-    "mention_score_decayed": 0.66,
+    "mention_score_decayed": 0.64,
     "last_main_idea": "AI has the potential to automate administrative tasks in healthcare practices, creating significant value for small businesses and changing the landscape of enterprise software.",
     "last_proof_cite": "The a16z Show \u2022 2026-07-30 \u2022 AI for America's Small Businesses | Lassie",
     "last_proof_snippet": "AI is overhyped and Silicon Valley that's underhyped in Iowa. I would actually argue software just kind of took things that were stored in paper format and then they made them available first on-prem via green screen computers, but people s",
@@ -40234,7 +40437,7 @@ const dashboardData = {
     "last_podcast_name": "The a16z Show",
     "last_episode_date": "2026-07-24",
     "mention_score": 1,
-    "mention_score_decayed": 0.57,
+    "mention_score_decayed": 0.56,
     "last_main_idea": "Investors should consider the impact of open-source AI models on frontier labs and monitor the security and competitive landscape of AI, as well as potential opportunities in related sectors like cloud computing and data centers.",
     "last_proof_cite": "The a16z Show \u2022 2026-07-24 \u2022 Sriram Krishnan on Open Source AI's Biggest Week Yet",
     "last_proof_snippet": "You can bring it back to very business first principles. If you're providing a product of value, Capitalism will find a way to make the supply chain work for you. So if you have an open-made model that is providing value, that means that ev",
@@ -40359,7 +40562,7 @@ const dashboardData = {
     "last_podcast_name": "Latent Space: The AI Engineer Podcast",
     "last_episode_date": "2026-07-23",
     "mention_score": 1,
-    "mention_score_decayed": 0.56,
+    "mention_score_decayed": 0.55,
     "last_main_idea": "Investing in AI development, particularly in the democratization of AI and the scaling of language models, can lead to significant innovation and competitive advantage.",
     "last_proof_cite": "Latent Space: The AI Engineer Podcast \u2022 2026-07-23 \u2022 Inside the Model Factory \u2014 Eiso Kant, Poolside AI",
     "last_proof_snippet": "All right, we're here in the studio. If I was a countryman, we'll fight together with people. Welcome. Thanks, thank you, guys. It's good to be here. Yeah, fresh on the plane. You texted me, you're like, hey, I'm on my way to SF. I was like",
@@ -40928,7 +41131,7 @@ const dashboardData = {
     "last_podcast_name": "The a16z Show",
     "last_episode_date": "2026-07-17",
     "mention_score": 2,
-    "mention_score_decayed": 0.98,
+    "mention_score_decayed": 0.95,
     "last_main_idea": "Investing in companies that prioritize public communication and authenticity can lead to stronger brand loyalty and trust, which are valuable assets in the long term.",
     "last_proof_cite": "The a16z Show \u2022 2026-07-17 \u2022 Amjad Masad on Going Direct, Building Replit, and the Future of Software",
     "last_proof_snippet": "Being canceled is a choice. You should choose to get canceled and retreat from the public eye, but I think if you're still out there, at some point, honestly, the haters kind of give up. To some people ask, hey, how should I think about exp",
@@ -41297,7 +41500,7 @@ const dashboardData = {
     "last_podcast_name": "The a16z Show",
     "last_episode_date": "2026-07-15",
     "mention_score": 1,
-    "mention_score_decayed": 0.47,
+    "mention_score_decayed": 0.46,
     "last_main_idea": "Investing in AI hardware requires a focus on infrastructure and the ability to scale efficiently, as the AI race is not just about models but also the underlying technology that supports them.",
     "last_proof_cite": "The a16z Show \u2022 2026-07-15 \u2022 Can Anyone Catch NVIDIA? | The Future of Chips and Infrastructure",
     "last_proof_snippet": "In videos that are going to have better networking than you, they're going to have better HP, they're going to have better process-node, they're going to come to market faster, they're going to be able to ramp faster, they're going to have",
@@ -41429,7 +41632,7 @@ const dashboardData = {
     "last_podcast_name": "The a16z Show",
     "last_episode_date": "2026-07-13",
     "mention_score": 1,
-    "mention_score_decayed": 0.45,
+    "mention_score_decayed": 0.44,
     "last_main_idea": "Investing in blockchain technology and AI requires a deep understanding of the foundational computer science principles that underpin these fields, as well as an awareness of the evolving landscape of systems research.",
     "last_proof_cite": "The a16z Show \u2022 2026-07-13 \u2022 Before Blockchains, There Was State Machine Replication",
     "last_proof_snippet": "DARPA had recognized that this was a serious problem, the problem of malicious attacks and was looking for research in that area. I had a student Miguel Castro. We came to me and he said, why don't we see whether we can figure out a way to",
@@ -41633,7 +41836,7 @@ const dashboardData = {
     "last_podcast_name": "The a16z Show",
     "last_episode_date": "2026-07-09",
     "mention_score": 1,
-    "mention_score_decayed": 0.41,
+    "mention_score_decayed": 0.4,
     "last_main_idea": "Investing in the development of new tools for biology and leveraging AI can accelerate scientific discovery and disease management, potentially leading to significant advancements in medicine.",
     "last_proof_cite": "The a16z Show \u2022 2026-07-09 \u2022 Mark Zuckerberg & Priscilla Chan: How AI Will Help Cure Disease",
     "last_proof_snippet": "This is a space that, and if there's just going to be a huge amount of leverage with AI, it still seems like there could be a lot more effort in this space around building tools. And it's kind of this crazy thing that we're, you know, here",
@@ -41699,7 +41902,7 @@ const dashboardData = {
     "last_podcast_name": "The a16z Show",
     "last_episode_date": "2026-07-09",
     "mention_score": 1,
-    "mention_score_decayed": 0.41,
+    "mention_score_decayed": 0.4,
     "last_main_idea": "Investing in the development of new tools for biology and leveraging AI can accelerate scientific discovery and disease management, potentially leading to significant advancements in medicine.",
     "last_proof_cite": "The a16z Show \u2022 2026-07-09 \u2022 Mark Zuckerberg & Priscilla Chan: How AI Will Help Cure Disease",
     "last_proof_snippet": "This is a space that, and if there's just going to be a huge amount of leverage with AI, it still seems like there could be a lot more effort in this space around building tools. And it's kind of this crazy thing that we're, you know, here",
@@ -41760,7 +41963,7 @@ const dashboardData = {
     "last_podcast_name": "The a16z Show",
     "last_episode_date": "2026-07-08",
     "mention_score": 1,
-    "mention_score_decayed": 0.4,
+    "mention_score_decayed": 0.39,
     "last_main_idea": "Invest in real estate companies that emphasize community engagement, technological adaptability, and global scalability to capitalize on the evolving landscape of work and living.",
     "last_proof_cite": "The a16z Show \u2022 2026-07-08 \u2022 Adam Neumann: This Is How You Build Iconic Companies",
     "last_proof_snippet": "You said, I don't tell me how you're doing and I jumped straight into my lessons learned and this had an answer. And you're like, oh, you're still in that stage? That was, and we don't know each other. I was like, Mark, please tell me what",
@@ -41825,7 +42028,7 @@ const dashboardData = {
     "last_podcast_name": "The a16z Show",
     "last_episode_date": "2026-07-07",
     "mention_score": 1,
-    "mention_score_decayed": 0.39,
+    "mention_score_decayed": 0.38,
     "last_main_idea": "Invest in companies that are innovating in headless software architectures and facilitating communication between different business functions within organizations.",
     "last_proof_cite": "The a16z Show \u2022 2026-07-07 \u2022 Is Software Losing Its Head?",
     "last_proof_snippet": "There are many things that made software sticky but a lot of it had to do with the fact that it was built around like the way a human interacts. In an agenda world, do you actually need that? The data, the logic, I mean store below it is re",
@@ -41884,7 +42087,7 @@ const dashboardData = {
     "last_podcast_name": "The a16z Show",
     "last_episode_date": "2026-07-07",
     "mention_score": 1,
-    "mention_score_decayed": 0.39,
+    "mention_score_decayed": 0.38,
     "last_main_idea": "Invest in companies that are innovating in headless software architectures and facilitating communication between different business functions within organizations.",
     "last_proof_cite": "The a16z Show \u2022 2026-07-07 \u2022 Is Software Losing Its Head?",
     "last_proof_snippet": "There are many things that made software sticky but a lot of it had to do with the fact that it was built around like the way a human interacts. In an agenda world, do you actually need that? The data, the logic, I mean store below it is re",
@@ -42068,7 +42271,7 @@ const dashboardData = {
     "last_podcast_name": "The a16z Show",
     "last_episode_date": "2026-07-02",
     "mention_score": 1,
-    "mention_score_decayed": 0.35,
+    "mention_score_decayed": 0.34,
     "last_main_idea": "Invest in companies with capital efficiency and operational excellence in the mobility sector, as they are better positioned to adapt and grow in a competitive landscape.",
     "last_proof_cite": "The a16z Show \u2022 2026-07-02 \u2022 Outsmarting Uber: Why Bolt Wins in Europe",
     "last_proof_snippet": "The mobility market in general is the least competitive in the world. Paul is the leading, share mobility, business, we operate in more than 50 countries with a mission to replace people's private cars. A lot of the taxi companies obviously",
@@ -42252,7 +42455,7 @@ const dashboardData = {
     "last_podcast_name": "The a16z Show",
     "last_episode_date": "2026-07-01",
     "mention_score": 1,
-    "mention_score_decayed": 0.34,
+    "mention_score_decayed": 0.33,
     "last_main_idea": "Invest in platforms that empower creativity and personal expression, as authenticity resonates more deeply with audiences and can lead to more impactful art.",
     "last_proof_cite": "The a16z Show \u2022 2026-07-01 \u2022 Rick Rubin on AI, Creativity, and The Way of Code",
     "last_proof_snippet": "So many people I know who use AI ask it questions and think that the results that they get back is the answer and it seems like people are more interested in getting an answer that can allow them to stop thinking about the question than rea",
@@ -42313,7 +42516,7 @@ const dashboardData = {
     "last_podcast_name": "The a16z Show",
     "last_episode_date": "2026-06-30",
     "mention_score": 1,
-    "mention_score_decayed": 0.33,
+    "mention_score_decayed": 0.32,
     "last_main_idea": "Invest in companies that prioritize user creativity and personalization in their AI offerings, as well as those that leverage data analytics to understand and enhance user experience.",
     "last_proof_cite": "The a16z Show \u2022 2026-06-30 \u2022 Building AI for Creators | Luma & Phota Labs",
     "last_proof_snippet": "I think the creativity is building a story. The tools alone aren't a story. Someone has to direct them. It's not about mastering those tools. It's about directing an agent who can use those tools to achieve your creativity. Generally, I hav",
@@ -42564,7 +42767,7 @@ const dashboardData = {
     "last_podcast_name": "The a16z Show",
     "last_episode_date": "2026-06-24",
     "mention_score": 1,
-    "mention_score_decayed": 0.29,
+    "mention_score_decayed": 0.28,
     "last_main_idea": "Investing in companies that prioritize design expertise and leverage AI tools effectively can lead to better outcomes in product development, as design quality becomes increasingly critical in a mobile-first world.",
     "last_proof_cite": "The a16z Show \u2022 2026-06-24 \u2022 What Happens to Design After AI?",
     "last_proof_snippet": "Designers when using Claude, as opposed to engineers using Claude, would consistently get better results. And it's because of the language that they used. We have to remember that design in the European sense came from royalty and the desir",
@@ -42624,7 +42827,7 @@ const dashboardData = {
     "last_podcast_name": "The a16z Show",
     "last_episode_date": "2026-06-24",
     "mention_score": 1,
-    "mention_score_decayed": 0.29,
+    "mention_score_decayed": 0.28,
     "last_main_idea": "Investing in companies that prioritize design expertise and leverage AI tools effectively can lead to better outcomes in product development, as design quality becomes increasingly critical in a mobile-first world.",
     "last_proof_cite": "The a16z Show \u2022 2026-06-24 \u2022 What Happens to Design After AI?",
     "last_proof_snippet": "Designers when using Claude, as opposed to engineers using Claude, would consistently get better results. And it's because of the language that they used. We have to remember that design in the European sense came from royalty and the desir",
@@ -44122,7 +44325,7 @@ const dashboardData = {
     "last_podcast_name": "The a16z Show",
     "last_episode_date": "2026-06-10",
     "mention_score": 1,
-    "mention_score_decayed": 0.21,
+    "mention_score_decayed": 0.2,
     "last_main_idea": "Invest in healthcare companies that actively integrate AI to streamline operations and improve patient experiences, as well as organizations that foster a culture of AI experimentation and collaboration.",
     "last_proof_cite": "The a16z Show \u2022 2026-06-10 \u2022 AI, Growth, and the Future of Healthcare | Anish Acharya & Sachin Jain",
     "last_proof_snippet": "The way that we make sure this technology benefits all of society is we make important things cheap. And the most important thing is healthcare. This is one of the most beautiful humanistic technologies we've ever invented. We've spent 40 y",
@@ -44592,7 +44795,7 @@ const dashboardData = {
     "last_podcast_name": "The a16z Show",
     "last_episode_date": "2026-06-05",
     "mention_score": 1,
-    "mention_score_decayed": 0.19,
+    "mention_score_decayed": 0.18,
     "last_main_idea": "Invest in companies that prioritize open data practices and robust software infrastructure to capitalize on AI-driven operational efficiencies and data management.",
     "last_proof_cite": "The a16z Show \u2022 2026-06-05 \u2022 AI Agents and the Fight for Customer Data",
     "last_proof_snippet": "There is a new reason to have all your day-to-day-then-one-place, which is AI agency context. If you don't do that, then it's sort of like using chatGBT from before chatGBT was connected to the internet. Postgres, contrary to popular belief",

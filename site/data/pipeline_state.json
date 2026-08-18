@@ -1,29 +1,29 @@
 {
-  "generated_at": "2026-08-18T06:38:22.481349",
-  "last_updated": "2026-08-18T06:38:22.481349",
-  "last_pipeline_run": "2026-08-18T06:38:22.481349",
+  "generated_at": "2026-08-18T12:07:01.856074",
+  "last_updated": "2026-08-18T12:07:01.856074",
+  "last_pipeline_run": "2026-08-18T12:07:01.856074",
   "main_page": {
     "overton": 13,
     "insights": 8,
-    "pundits": 267
+    "pundits": 269
   },
   "counts": {
     "ticker_mentions": 216,
-    "podcast_episodes": 384,
+    "podcast_episodes": 385,
     "newsletters": 7,
     "daily_scores": 153,
     "overton_terms_total": 125,
-    "latest_insights_total": 398,
+    "latest_insights_total": 399,
     "today_mentions": {},
-    "podcasts_analyzed": 0
+    "podcasts_analyzed": 1
   },
   "step_results": {
-    "downloaded": 2,
-    "transcribed": 1,
-    "analyzed": 0,
-    "insight_created": 0,
-    "published": 0,
-    "total": 2
+    "downloaded": 3,
+    "transcribed": 2,
+    "analyzed": 1,
+    "insight_created": 1,
+    "published": 1,
+    "total": 3
   },
   "episodes": [
     {
@@ -84,11 +84,11 @@
       "status": "needs_analysis"
     },
     {
-      "id": "293ae091-1596-474c-bc94-7403bc58a375",
-      "podcast": "The a16z Show",
-      "title": "How Do You Defend Against AI That Can Hack?",
+      "id": "3db9fb2c-9a6c-11f1-bae3-176a0945fba2",
+      "podcast": "Monetary Matters with Jack Farley",
+      "title": "Ex-Goya COO on the $1.4 Trillion Family Business Opportunity in Three Consumer Sectors | Andy Unanue",
       "published": "2026-08-18",
-      "rss_guid": "293ae091-1596-474c-bc94-7403bc58a375",
+      "rss_guid": "3db9fb2c-9a6c-11f1-bae3-176a0945fba2",
       "stages": {
         "downloaded": true,
         "transcribed": false,
@@ -153,13 +153,31 @@
         }
       },
       "status": "needs_transcription"
+    },
+    {
+      "id": "293ae091-1596-474c-bc94-7403bc58a375",
+      "podcast": "The a16z Show",
+      "title": "How Do You Defend Against AI That Can Hack?",
+      "published": "2026-08-18",
+      "rss_guid": "293ae091-1596-474c-bc94-7403bc58a375",
+      "stages": {
+        "downloaded": true,
+        "transcribed": true,
+        "analyzed": true,
+        "insight_created": true,
+        "published": true
+      },
+      "stage_reasons": {},
+      "first_blocker": null,
+      "remediation_by_stage": {},
+      "status": "complete"
     }
   ],
   "available_from_rss": [
     {
-      "podcast": "The a16z Show",
-      "title": "How Do You Defend Against AI That Can Hack?",
-      "published": "Tue, 18 Aug 2026 10:00:00 +0000",
+      "podcast": "Monetary Matters with Jack Farley",
+      "title": "Ex-Goya COO on the $1.4 Trillion Family Business Opportunity in Three Consumer Sectors | Andy Unanue",
+      "published": "Tue, 18 Aug 2026 12:00:00 -0000",
       "published_date": "2026-08-18",
       "rss_guid": ""
     },
