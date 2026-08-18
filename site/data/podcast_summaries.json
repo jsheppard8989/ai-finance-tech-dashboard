@@ -1,5 +1,22 @@
 [
   {
+    "id": 413,
+    "podcast_name": "Monetary Matters with Jack Farley",
+    "episode_title": "Ex-Goya COO on the $1.4 Trillion Family Business Opportunity in Three Consumer Sectors | Andy Unanue",
+    "episode_date": "2026-08-18",
+    "summary": "In this episode of 'Monetary Matters with Jack Farley', Max Weethy interviews Andy Yunnan Way, the founder and managing partner of AUA Private Equity Partners. They discuss the significant role family-run businesses play in the U.S. economy, particularly in the food, beverage, pet wellness, and co-manufacturing sectors, which constitute a $1.3 to $1.4 trillion market opportunity. Andy shares insights from his experience as COO of Goia Foods and how it influenced AUA's strategy. They also explore the importance of authenticity in family businesses, the impact of the internet and social media on consumer preferences, and the future outlook for AUA Private Equity Partners.",
+    "key_takeaways": [
+      "Family-run businesses contribute over 70% of the U.S. GDP.",
+      "The food, beverage, pet wellness, and co-manufacturing sectors represent a $1.3 to $1.4 trillion market.",
+      "Andy Yunnan Way's experience in his family business, Goia Foods, shaped AUA's focus on operational improvements in family businesses.",
+      "Authenticity and the family business model are increasingly important to consumers, especially younger generations.",
+      "The internet and social media have expanded consumer exposure to diverse foods, influencing market trends.",
+      "AUA Private Equity Partners is looking to sell some businesses and may structure a longer-term hold for a healthy snacking company."
+    ],
+    "investment_thesis": "AUA Private Equity Partners focuses on operational improvements in family-run businesses within the food, beverage, pet wellness, and co-manufacturing sectors, targeting a $1.3 to $1.4 trillion market opportunity.",
+    "key_tickers": null
+  },
+  {
     "id": 412,
     "podcast_name": "The a16z Show",
     "episode_title": "How Do You Defend Against AI That Can Hack?",
@@ -121,21 +138,5 @@
     "key_tickers": [
       "NVDA"
     ]
-  },
-  {
-    "id": 402,
-    "podcast_name": "The a16z Show",
-    "episode_title": "The Two Ways to Sell AI: Lighthouse or Landgrab?",
-    "episode_date": "2026-08-13",
-    "summary": "In this episode of the a16z Show, Elena Berger sits down with Joe Schmidt and Andy McCall from a16z to discuss the two dominant go-to-market strategies for enterprise AI startups: the lighthouse strategy and the land grab strategy. They explore the nuances of each approach, the circumstances under which one might be more effective than the other, and the critical considerations for founders when deciding which path to take. Drawing on lessons from building sales organizations at companies like Samsara and Maraki, they provide a framework for evaluating which playbook to follow and when to switch strategies.",
-    "key_takeaways": [
-      "The lighthouse strategy involves winning a handful of high-profile customers to unlock a market, while the land grab strategy focuses on capturing as much of the market as quickly as possible by finding customers with existing budgets.",
-      "Founders should evaluate which playbook to follow based on their unique circumstances, including the nature of their product, the market landscape, and their sales capabilities.",
-      "Sometimes the best sales advice is to stop strategizing and start selling, as the most effective approach can vary widely between different companies and industries.",
-      "The timing of when to switch strategies is crucial and can depend on factors such as market maturity, competitive dynamics, and the company's growth stage.",
-      "It's important for early-stage companies to hire the best possible sales talent and give them a chance to hit quota, as this can help attract and retain top performers."
-    ],
-    "investment_thesis": "The choice between the lighthouse and land grab strategies can significantly impact the success of an enterprise AI startup, as each approach has its own set of advantages and challenges that must be carefully considered in the context of the company's specific circumstances.",
-    "key_tickers": null
   }
 ]
