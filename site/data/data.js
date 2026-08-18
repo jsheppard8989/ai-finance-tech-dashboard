@@ -3,80 +3,80 @@
 
 const dashboardData = {
   schemaVersion: 2,
-  generatedAt: "2026-08-17T22:02:27.416430",
-  chartsVersion: "2026-08-17T22:02:18.257744",
+  generatedAt: "2026-08-17T23:36:10.341785",
+  chartsVersion: "2026-08-17T23:36:05.417990",
   priceSnapshot: {
   "GOOGL": {
-    "price": 344.0,
-    "change_pct": 2.17,
+    "price": NaN,
+    "change_pct": NaN,
     "name": "GOOGL",
-    "updated_at": "2026-08-17T22:02:18.256790"
+    "updated_at": "2026-08-17T23:36:05.417499"
   },
   "NVDA": {
-    "price": 225.01,
-    "change_pct": 18.42,
+    "price": NaN,
+    "change_pct": NaN,
     "name": "NVDA",
-    "updated_at": "2026-08-17T22:02:18.256811"
+    "updated_at": "2026-08-17T23:36:05.417509"
   },
   "MSFT": {
-    "price": 480.35,
-    "change_pct": 23.0,
+    "price": NaN,
+    "change_pct": NaN,
     "name": "MSFT",
-    "updated_at": "2026-08-17T22:02:18.256821"
+    "updated_at": "2026-08-17T23:36:05.417512"
   },
   "BTC": {
-    "price": 64066.2,
-    "change_pct": -0.82,
+    "price": 64176.02,
+    "change_pct": -0.65,
     "name": "BTC",
-    "updated_at": "2026-08-17T22:02:18.256829"
+    "updated_at": "2026-08-17T23:36:05.417517"
   },
   "TSLA": {
-    "price": 339.3,
-    "change_pct": 13.74,
+    "price": NaN,
+    "change_pct": NaN,
     "name": "TSLA",
-    "updated_at": "2026-08-17T22:02:18.256838"
+    "updated_at": "2026-08-17T23:36:05.417520"
   },
   "AMZN": {
-    "price": 261.31,
-    "change_pct": 15.29,
+    "price": NaN,
+    "change_pct": NaN,
     "name": "AMZN",
-    "updated_at": "2026-08-17T22:02:18.256846"
+    "updated_at": "2026-08-17T23:36:05.417523"
   },
   "META": {
-    "price": 568.97,
-    "change_pct": -2.84,
+    "price": NaN,
+    "change_pct": NaN,
     "name": "META",
-    "updated_at": "2026-08-17T22:02:18.256855"
+    "updated_at": "2026-08-17T23:36:05.417527"
   },
   "WTI": {
-    "price": 3.75,
-    "change_pct": 6.23,
+    "price": NaN,
+    "change_pct": NaN,
     "name": "WTI",
-    "updated_at": "2026-08-17T22:02:18.256863"
+    "updated_at": "2026-08-17T23:36:05.417529"
   },
   "S&P 500": {
-    "price": 772.67,
-    "change_pct": 5.92,
+    "price": NaN,
+    "change_pct": NaN,
     "name": "S&P 500",
-    "updated_at": "2026-08-17T22:02:18.256871"
+    "updated_at": "2026-08-17T23:36:05.417531"
   },
   "AAPL": {
-    "price": 305.59,
-    "change_pct": -9.56,
+    "price": NaN,
+    "change_pct": NaN,
     "name": "AAPL",
-    "updated_at": "2026-08-17T22:02:18.256884"
+    "updated_at": "2026-08-17T23:36:05.417534"
   },
   "QQQ": {
-    "price": 729.87,
-    "change_pct": 10.3,
+    "price": NaN,
+    "change_pct": NaN,
     "name": "Invesco QQQ Trust",
-    "updated_at": "2026-08-17T22:02:18.256893"
+    "updated_at": "2026-08-17T23:36:05.417536"
   },
   "BTC-USD": {
-    "price": 64066.2,
-    "change_pct": -0.82,
+    "price": 64176.02,
+    "change_pct": -0.65,
     "name": "Bitcoin USD",
-    "updated_at": "2026-08-17T22:02:18.256903"
+    "updated_at": "2026-08-17T23:36:05.417540"
   }
 },
   tickerScores: [
@@ -834,6 +834,25 @@ const dashboardData = {
   archive: {
   "insights": [
     {
+      "id": 426,
+      "title": "Flock CEO Garrett Langley on Controversy, \"Surveillance State\" Claims, and Privacy vs Safety",
+      "source_type": "podcast",
+      "source_name": "All-In with Chamath, Jason, Sacks & Friedberg",
+      "source_date": "2026-08-18",
+      "summary": "In this episode of 'All-In with Chamath, Jason, Sacks & Friedberg', the hosts interview Garrett Langley, CEO of Flock, a company specializing in safety cameras and license plate readers. The discussion revolves around the balance between public safety and privacy, particularly in the context of Flock's technology being adopted in communities across the country. The conversation delves into the impact of Flock's technology on crime reduction, the ethical considerations surrounding its use, and the evolving responsibilities of tech companies in addressing privacy concerns.",
+      "key_takeaway": "Investing in companies like Flock that focus on enhancing public safety through technology presents an opportunity to capitalize on the growing demand for security solutions, while also navigating the complex ethical landscape of privacy concerns.",
+      "tickers_mentioned": [
+        "AAPL"
+      ],
+      "sentiment": "bullish",
+      "display_on_main": 1,
+      "display_order": 0,
+      "added_date": "2026-08-17",
+      "archived_date": null,
+      "archived_reason": null,
+      "podcast_episode_id": 411
+    },
+    {
       "id": 425,
       "title": "Stripe\u2019s AI Strategy: Build More, Not Less",
       "source_type": "podcast",
@@ -1004,7 +1023,7 @@ const dashboardData = {
         "SPY"
       ],
       "sentiment": "bullish",
-      "display_on_main": 1,
+      "display_on_main": 0,
       "display_order": 0,
       "added_date": "2026-08-12",
       "archived_date": null,
@@ -11269,6 +11288,26 @@ const dashboardData = {
   mainContent: {
   "insights": [
     {
+      "id": 426,
+      "title": "Flock CEO Garrett Langley on Controversy, \"Surveillance State\" Claims, and Privacy vs Safety",
+      "source_type": "podcast",
+      "source_name": "All-In with Chamath, Jason, Sacks & Friedberg",
+      "source_date": "2026-08-18",
+      "summary": "In this episode of 'All-In with Chamath, Jason, Sacks & Friedberg', the hosts interview Garrett Langley, CEO of Flock, a company specializing in safety cameras and license plate readers. The discussion revolves around the balance between public safety and privacy, particularly in the context of Flock's technology being adopted in communities across the country. The conversation delves into the impact of Flock's technology on crime reduction, the ethical considerations surrounding its use, and the evolving responsibilities of tech companies in addressing privacy concerns.",
+      "key_takeaway": "Investing in companies like Flock that focus on enhancing public safety through technology presents an opportunity to capitalize on the growing demand for security solutions, while also navigating the complex ethical landscape of privacy concerns.",
+      "tickers_mentioned": "[\"AAPL\"]",
+      "sentiment": "bullish",
+      "display_on_main": 1,
+      "display_order": 0,
+      "added_date": "2026-08-17",
+      "archived_date": null,
+      "archived_reason": null,
+      "podcast_episode_id": 411,
+      "episode_release_date": "2026-08-18",
+      "guest_name": null,
+      "key_tickers": []
+    },
+    {
       "id": 425,
       "title": "Stripe\u2019s AI Strategy: Build More, Not Less",
       "source_type": "podcast",
@@ -11415,28 +11454,6 @@ const dashboardData = {
       "guest_name": "Emad Mostaque",
       "key_tickers": [
         "NVDA"
-      ]
-    },
-    {
-      "id": 415,
-      "title": "Milton Berg: I Have Evidence Market Has Likely Bottomed | Why Milton\u2019s Long Semis, Korea, Nasdaq, and More (With Caveats), and Why He Thinks Gold has made a Multi-year Top",
-      "source_type": "podcast",
-      "source_name": "Monetary Matters with Jack Farley",
-      "source_date": "2026-08-12",
-      "summary": "In this episode of Monetary Matters with Jack Farley, Milton Berg of MB advisors shares his market technician insights. Berg discusses his non-traditional approach to market analysis, focusing on data and turning points rather than charts. He provides his views on the potential bottoming of stocks, particularly in the semiconductor sector, and shares his bullish stance on the market. Berg also discusses the importance of cycle dates in identifying market turning points and provides his analysis on the long-term outlook for bonds, suggesting that current yields are too low and predicting a rise in bond yields.",
-      "key_takeaway": "Milton Berg's investment thesis is that the market may have bottomed and is poised for a rebound, with specific focus on sectors that have experienced significant declines as potential short-term bounce candidates.",
-      "tickers_mentioned": "[\"SPY\"]",
-      "sentiment": "bullish",
-      "display_on_main": 1,
-      "display_order": 0,
-      "added_date": "2026-08-12",
-      "archived_date": null,
-      "archived_reason": null,
-      "podcast_episode_id": 400,
-      "episode_release_date": "2026-08-12",
-      "guest_name": "Milton Berg",
-      "key_tickers": [
-        "SPY"
       ]
     }
   ],
@@ -36912,9 +36929,83 @@ const dashboardData = {
     "source_name": "The a16z Show",
     "source_date": "2026-08-17",
     "key_tickers": []
+  },
+  "426": {
+    "id": 416,
+    "insight_id": 426,
+    "podcast_episode_id": 411,
+    "overview": "The unresolved tension in the source material revolves around the tradeoff between public safety and individual privacy, particularly with the deployment of Flock's technology in communities. The competitive dynamic is between the need for effective crime reduction and the ethical considerations of surveillance. What converts belief in Flock's value proposition is the demonstrable impact on crime reduction and the successful recovery of missing individuals, balanced against the company's commitment to respecting privacy through data retention policies that can be tailored to community preferences.",
+    "key_takeaways_detailed": [
+      "Flock's success is tied to its ability to provide actionable data within a short retention window, suggesting that the company's technology must be efficient and reliable.",
+      "The company's approach to local control over data retention periods could be a competitive advantage, as it allows for customization and addresses community-specific concerns.",
+      "Investors should monitor legislative changes that could impact the use of surveillance technology, as regulatory shifts could significantly affect Flock's business model.",
+      "Flock's commitment to reducing data retention periods to seven days indicates a strategic move to balance utility and privacy, which could influence public perception and adoption rates."
+    ],
+    "investment_thesis": "The investment thesis is that Flock's technology, which aids in crime reduction and locates missing individuals, will continue to gain traction as communities seek effective public safety solutions. The timeframe for this thesis is medium to long-term, as the adoption of such technology typically involves a lengthy procurement and implementation process. An observable development that would vindicate this thesis is a continued increase in the number of communities adopting Flock's technology, along with a consistent record of successful crime reduction and missing person recovery. Conversely, a significant decline in these metrics or a rise in privacy-related controversies could invalidate the thesis.",
+    "ticker_analysis": {
+      "AAPL": {
+        "rationale": "Apple's involvement in privacy-centric technologies and its stance on user data protection makes it a relevant comparator for assessing the market's broader attitude towards privacy and surveillance issues.",
+        "positioning": "Apple could be positioned as a long-term strategic investment to benefit from its strong brand and commitment to privacy, which may resonate with consumers concerned about surveillance technologies.",
+        "risk": "Key risks include potential regulatory changes that could limit data collection and usage, and a shift in consumer sentiment towards more privacy-invasive technologies that could impact Apple's market position."
+      }
+    },
+    "positioning_guidance": "",
+    "risk_factors": [],
+    "contrarian_signals": [
+      "A potential backlash against surveillance technologies could lead to decreased demand for Flock's products.",
+      "There is a risk that the effectiveness of Flock's technology in crime reduction may plateau, reducing its appeal to new customers.",
+      "Increased competition from alternative public safety technologies could erode Flock's market share."
+    ],
+    "catalysts": [
+      "New legislation or court rulings on privacy and surveillance.",
+      "Publication of independent studies evaluating the effectiveness of Flock's technology in crime reduction.",
+      "Announcements of new partnerships or significant contracts with large cities or federal agencies.",
+      "Publicized cases where Flock's technology played a crucial role in solving high-profile crimes or locating missing individuals."
+    ],
+    "related_insights": null,
+    "audio_timestamp_start": null,
+    "audio_timestamp_end": null,
+    "transcript_excerpt": null,
+    "created_at": "2026-08-17T23:35:18.260405",
+    "updated_at": "2026-08-18 04:35:18",
+    "episode_evidence": "Garrett Langley, CEO of Flock, emphasized the company's mission to enhance safety in neighborhoods, stating, 'I started the company 99 years ago with a pretty simple mission, which is to live in a safer neighborhood.' Flock's technology has been instrumental in solving over a million crimes and locating over 10,000 missing individuals, including a dramatic rescue of a child in Atlanta. Langley highlighted the company's approach to data retention, asserting that '90 percent of crimes will be solved within seven days of data retention.' This suggests a balance between utility and privacy, as Flock has shifted its default data retention period from 30 days to seven days, reflecting a compromise between effectiveness and privacy concerns. Langley also underscored the importance of local control, stating that 'city council should have that final say for how long they want to store it.' This approach allows communities to decide the extent of surveillance technology's role within their jurisdiction, addressing the balance between public safety and privacy on a case-by-case basis.",
+    "falsification_tracks": [
+      "A significant increase in reported privacy abuses or data breaches associated with Flock's technology would undermine the company's claims of responsible data handling.",
+      "If crime reduction statistics fail to improve or worsen in communities with Flock's technology, it would challenge the efficacy of the product in enhancing public safety.",
+      "A legislative push at the federal or state level that restricts or bans the use of license plate readers and safety cameras could limit Flock's operational scope and market potential.",
+      "A substantial drop in the number of missing persons found or crimes solved using Flock's technology would indicate a decline in the company's impact and value proposition."
+    ],
+    "insight_title": "Flock CEO Garrett Langley on Controversy, \"Surveillance State\" Claims, and Privacy vs Safety",
+    "source_name": "All-In with Chamath, Jason, Sacks & Friedberg",
+    "source_date": "2026-08-18",
+    "key_tickers": []
   }
 },
   suggestedTerms: [
+  {
+    "id": 595,
+    "term": "Privacy Concerns",
+    "definition": "The worries and potential objections raised by individuals or groups about the collection and use of their personal data by entities like Flock.",
+    "investment_implications": "Understanding and addressing privacy concerns is crucial for companies operating in the safety technology space to maintain public trust and comply with regulations.",
+    "source_type": "auto_extracted",
+    "mention_count": 1,
+    "source_diversity": 1,
+    "relevance_score": 50,
+    "submitted_date": "2026-08-18 04:34:22",
+    "priority_score": 80
+  },
+  {
+    "id": 596,
+    "term": "Community Values",
+    "definition": "The collective beliefs and principles that guide the decisions and actions within a community, influencing how technology like Flock's is implemented and used.",
+    "investment_implications": "Aligning technology solutions with community values is essential for successful adoption and to ensure that the technology serves the community's needs without infringing on individual rights.",
+    "source_type": "auto_extracted",
+    "mention_count": 1,
+    "source_diversity": 1,
+    "relevance_score": 50,
+    "submitted_date": "2026-08-18 04:34:22",
+    "priority_score": 80
+  },
   {
     "id": 592,
     "term": "Agentic Efficiency",
@@ -36938,35 +37029,11 @@ const dashboardData = {
     "relevance_score": 50,
     "submitted_date": "2026-08-17 17:04:17",
     "priority_score": 80
-  },
-  {
-    "id": 594,
-    "term": "Checkout Page Disappearance",
-    "definition": "The prediction that traditional checkout pages will be replaced by more streamlined and automated payment processes, potentially driven by AI.",
-    "investment_implications": "Investors should consider the impact of AI on e-commerce platforms and payment processing, as this could lead to significant changes in consumer behavior and payment technologies.",
-    "source_type": "auto_extracted",
-    "mention_count": 1,
-    "source_diversity": 1,
-    "relevance_score": 50,
-    "submitted_date": "2026-08-17 17:04:17",
-    "priority_score": 80
-  },
-  {
-    "id": 591,
-    "term": "AI-designed Chips",
-    "definition": "AI systems are used to design better AI chips, which can significantly speed up the development process and potentially lead to recursive self-improvement in AI capabilities.",
-    "investment_implications": "Investors should monitor advancements in AI chip design as they could lead to new investment opportunities in AI technology.",
-    "source_type": "auto_extracted",
-    "mention_count": 1,
-    "source_diversity": 1,
-    "relevance_score": 50,
-    "submitted_date": "2026-08-17 03:02:02",
-    "priority_score": 80
   }
 ],
   podcastGuests: [
   {
-    "id": 52626,
+    "id": 52744,
     "name": "Stripe\u2019s AI Strategy",
     "slug": "stripes-ai-strategy",
     "bio": null,
@@ -36978,7 +37045,7 @@ const dashboardData = {
     "appearance_count": 1
   },
   {
-    "id": 52627,
+    "id": 52745,
     "name": "Travis Kalanick",
     "slug": "travis-kalanick",
     "bio": null,
@@ -36990,7 +37057,7 @@ const dashboardData = {
     "appearance_count": 1
   },
   {
-    "id": 52629,
+    "id": 52747,
     "name": "Emad Mostaque",
     "slug": "emad-mostaque",
     "bio": null,
@@ -37002,7 +37069,7 @@ const dashboardData = {
     "appearance_count": 2
   },
   {
-    "id": 52628,
+    "id": 52746,
     "name": "Rahm Emanuel",
     "slug": "rahm-emanuel",
     "bio": null,
@@ -37014,7 +37081,7 @@ const dashboardData = {
     "appearance_count": 1
   },
   {
-    "id": 52630,
+    "id": 52748,
     "name": "Milton Berg",
     "slug": "milton-berg",
     "bio": "Milton Berg is a veteran technical analyst and CEO of Milton Berg Advisors, specializing in market turning-point analysis for institutional investors.",
@@ -37026,7 +37093,7 @@ const dashboardData = {
     "appearance_count": 2
   },
   {
-    "id": 52631,
+    "id": 52749,
     "name": "How Kavak Rebuilt Itself Around AI Agents",
     "slug": "how-kavak-rebuilt-itself-around-ai-agents",
     "bio": null,
@@ -37038,7 +37105,7 @@ const dashboardData = {
     "appearance_count": 1
   },
   {
-    "id": 52632,
+    "id": 52750,
     "name": "How Open",
     "slug": "how-open",
     "bio": null,
@@ -37050,7 +37117,7 @@ const dashboardData = {
     "appearance_count": 1
   },
   {
-    "id": 52633,
+    "id": 52751,
     "name": "Saronic Founders",
     "slug": "saronic-founders",
     "bio": null,
@@ -37062,7 +37129,7 @@ const dashboardData = {
     "appearance_count": 1
   },
   {
-    "id": 52634,
+    "id": 52752,
     "name": "OpenAI's Joshua Achiam",
     "slug": "openais-joshua-achiam",
     "bio": null,
@@ -37074,7 +37141,7 @@ const dashboardData = {
     "appearance_count": 1
   },
   {
-    "id": 52635,
+    "id": 52753,
     "name": "Why Macro is \u201cPretty Risk-On\u201d for Equities",
     "slug": "why-macro-is-pretty-risk-on-for-equities",
     "bio": null,
@@ -37086,7 +37153,7 @@ const dashboardData = {
     "appearance_count": 1
   },
   {
-    "id": 52636,
+    "id": 52754,
     "name": "AI for America's Small Businesses",
     "slug": "ai-for-americas-small-businesses",
     "bio": null,
@@ -37098,7 +37165,7 @@ const dashboardData = {
     "appearance_count": 1
   },
   {
-    "id": 52637,
+    "id": 52755,
     "name": "Mum\u2019s The Word",
     "slug": "mums-the-word",
     "bio": null,
@@ -37110,7 +37177,7 @@ const dashboardData = {
     "appearance_count": 1
   },
   {
-    "id": 52638,
+    "id": 52756,
     "name": "Luke Gromen",
     "slug": "luke-gromen",
     "bio": null,
@@ -37122,7 +37189,7 @@ const dashboardData = {
     "appearance_count": 1
   },
   {
-    "id": 52639,
+    "id": 52757,
     "name": "Codex from 0 to 10M Users",
     "slug": "codex-from-0-to-10m-users",
     "bio": null,
@@ -37134,7 +37201,7 @@ const dashboardData = {
     "appearance_count": 1
   },
   {
-    "id": 52640,
+    "id": 52758,
     "name": "Ben Horowitz",
     "slug": "ben-horowitz",
     "bio": "Ben Horowitz is a co-founder of venture firm Andreessen Horowitz and former CEO of Opsware, known for advising founders on leadership under pressure.",
@@ -37146,7 +37213,7 @@ const dashboardData = {
     "appearance_count": 3
   },
   {
-    "id": 52641,
+    "id": 52759,
     "name": "Building the Physical AI Stack",
     "slug": "building-the-physical-ai-stack",
     "bio": null,
@@ -37158,7 +37225,7 @@ const dashboardData = {
     "appearance_count": 1
   },
   {
-    "id": 52642,
+    "id": 52760,
     "name": "Travis Kalanick Is Back",
     "slug": "travis-kalanick-is-back",
     "bio": null,
@@ -37170,7 +37237,7 @@ const dashboardData = {
     "appearance_count": 1
   },
   {
-    "id": 52643,
+    "id": 52761,
     "name": "Interest Rates to 10%",
     "slug": "interest-rates-to-10",
     "bio": null,
@@ -37182,7 +37249,7 @@ const dashboardData = {
     "appearance_count": 1
   },
   {
-    "id": 52644,
+    "id": 52762,
     "name": "Why Physical AI Is the Next Frontier",
     "slug": "why-physical-ai-is-the-next-frontier",
     "bio": null,
@@ -37194,7 +37261,7 @@ const dashboardData = {
     "appearance_count": 1
   },
   {
-    "id": 52645,
+    "id": 52763,
     "name": "Nick Nemeth",
     "slug": "nick-nemeth",
     "bio": null,
@@ -37207,6 +37274,65 @@ const dashboardData = {
   }
 ],
   pundits: [
+  {
+    "id": 40,
+    "name": "Garrett Langley",
+    "slug": "garrett-langley",
+    "bio": "Garrett Langley is the CEO of Flock, a company that specializes in safety cameras and license plate readers. Under his leadership, Flock has been adopted in many communities across the United States, significantly impacting crime reduction.",
+    "known_for": "Leading the development and implementation of Flock's technology in communities across the United States.",
+    "net_worth_usd": 500000000.0,
+    "net_worth_source": "https://ftp.richardgraygallery.com/posts/garrett-langley-net-worth-updated-2026.html",
+    "net_worth_updated_at": "2026-08-17T23:34:51.724698",
+    "voice_tone": "Candid and thoughtful.",
+    "voice_style": "Addresses concerns directly and provides detailed explanations of Flock's technology and its impact.",
+    "voice_delivery_notes": "Speaks with a measured pace, emphasizing key points about community involvement and privacy.",
+    "voice_profile_updated_at": "2026-08-18 04:34:22",
+    "last_seen": "2026-08-18 04:34:22",
+    "last_episode_title": "Flock CEO Garrett Langley on Controversy, \"Surveillance State\" Claims, and Privacy vs Safety",
+    "last_podcast_name": "All-In with Chamath, Jason, Sacks & Friedberg",
+    "last_episode_date": "2026-08-18",
+    "mention_score": 2,
+    "mention_score_decayed": 2,
+    "last_main_idea": "Investing in companies like Flock that focus on enhancing public safety through technology presents an opportunity to capitalize on the growing demand for security solutions, while also navigating the complex ethical landscape of privacy concerns.",
+    "last_proof_cite": "All-In with Chamath, Jason, Sacks & Friedberg \u2022 2026-08-18 \u2022 Flock CEO Garrett Langley on Controversy, \"Surveillance State\" Claims, and Privacy vs Safety",
+    "last_proof_snippet": "All right, everybody. Welcome back to the all in interview. This is where we find the people building the future. Sometimes a politician, sometimes a CEO, sometimes an investor, all the time, an important discussion. And one of the most imp",
+    "supporting_takeaway": "There is a growing debate on the trade-off between privacy and safety, with Flock's technology at the center of this discussion.",
+    "grokipedia_url": null,
+    "grokipedia_fetched_at": "2026-08-17T23:34:50.698653",
+    "pundit_profile": {
+      "source": "llm",
+      "source_model": "moonshot:moonshot-v1-8k",
+      "source_url": "",
+      "page_title": "Garrett Langley",
+      "fetched_at": "2026-08-18T04:34:50.698331+00:00",
+      "cliff_notes": "Garrett Langley is the CEO of Flock, a company that focuses on safety cameras and license plate readers. His leadership has been instrumental in the widespread adoption of Flock's technology across various communities in the United States. This has led to a significant impact on crime reduction, making Flock an important player in the intersection of safety and privacy. Langley's work with Flock has positioned him as a key figure in the discussion of balancing these two critical aspects of modern society.",
+      "derived": {
+        "current_role": "CEO of Flock"
+      },
+      "infobox": {
+        "Nationality": "American"
+      },
+      "lead_paragraphs": [
+        "Garrett Langley is the CEO of Flock, a company that focuses on safety cameras and license plate readers. His leadership has been instrumental in the widespread adoption of Flock's technology across various communities in the United States. This has led to a significant impact on crime reduction, making Flock an important player in the intersection of safety and privacy.",
+        "Langley's work with Flock has positioned him as a key figure in the discussion of balancing these two critical aspects of modern society."
+      ],
+      "sections": [
+        {
+          "heading": "Flock's Impact",
+          "body": "Flock, under Langley's leadership, has been implemented in numerous communities, leading to a notable reduction in crime rates."
+        },
+        {
+          "heading": "Safety and Privacy",
+          "body": "Garrett Langley's work at Flock has put him at the forefront of the debate on balancing safety and privacy in the age of advanced surveillance technology."
+        },
+        {
+          "heading": "Community Adoption",
+          "body": "The success of Flock's technology has been marked by its adoption in various communities, showcasing Langley's ability to lead the company through growth and expansion."
+        }
+      ]
+    },
+    "net_worth": "$500.0M"
+  },
   {
     "id": 405,
     "name": "Russell Clark",
@@ -37462,7 +37588,7 @@ const dashboardData = {
     "last_podcast_name": "All-In with Chamath, Jason, Sacks & Friedberg",
     "last_episode_date": "2026-08-14",
     "mention_score": 1,
-    "mention_score_decayed": 0.95,
+    "mention_score_decayed": 0.93,
     "last_main_idea": "Anduril's upcoming IPO presents an opportunity to invest in a company with significant revenue growth and a lower valuation compared to peers, while the rise of open-source AI could reshape the software industry landscape.",
     "last_proof_cite": "All-In with Chamath, Jason, Sacks & Friedberg \u2022 2026-08-14 \u2022 Anthropic's $2T IPO, Zuck's AI Manifesto, Nvidia's $500B AI Bet, Grok's Comeback",
     "last_proof_snippet": "All right, everybody. Welcome back. We all in podcast. The number one podcast in the world. David Sachs and Evan Baker are with us this week. We got a, we got a short crew, but a long docket. And we are going to rock at how are you doing? G",
@@ -39865,7 +39991,7 @@ const dashboardData = {
     "last_podcast_name": "Monetary Matters with Jack Farley",
     "last_episode_date": "2026-07-28",
     "mention_score": 2,
-    "mention_score_decayed": 1.32,
+    "mention_score_decayed": 1.29,
     "last_main_idea": "The bond market is facing significant challenges due to supply and demand imbalances, fiscal pressures, and aging populations, making gold an attractive store of value in the current economic climate.",
     "last_proof_cite": "Monetary Matters with Jack Farley \u2022 2026-07-28 \u2022 Luke Gromen: Yield Curve Control is the Only Way to Stop a Global Bond Crisis",
     "last_proof_snippet": "Germany, Japan, and Korea are all historically big creditors from a sovereign perspective. And in particular, Japan, if they're borrowing money to do defense to me, they have turned sellers of bonds as well. So now they're selling, they're",
@@ -41239,7 +41365,7 @@ const dashboardData = {
     "last_podcast_name": "Monetary Matters with Jack Farley",
     "last_episode_date": "2026-07-14",
     "mention_score": 1,
-    "mention_score_decayed": 0.47,
+    "mention_score_decayed": 0.46,
     "last_main_idea": "Invest in companies at the forefront of AI and semiconductors that can leverage intelligence to perform high-cost, time-consuming tasks more efficiently and at scale.",
     "last_proof_cite": "Monetary Matters with Jack Farley \u2022 2026-07-14 \u2022 The Semiconductor Earnings Boom Is Just Getting Started | Ben Pouladian on why AI is Real, Nvidia is Mispriced, and Capacitors Are Overrated",
     "last_proof_snippet": "Got a special conversation today. I'm joined by Ben Kulandian of BEP Research. Ben is a specialist investor and analyst in the semi-conductor world and the semi-conductor supply chain. Of course, that is what powers AI Ben welcome to moneta",
@@ -41443,7 +41569,7 @@ const dashboardData = {
     "last_podcast_name": "All-In with Chamath, Jason, Sacks & Friedberg",
     "last_episode_date": "2026-07-10",
     "mention_score": 2,
-    "mention_score_decayed": 0.83,
+    "mention_score_decayed": 0.81,
     "last_main_idea": "Investing in AI infrastructure and data center companies could yield significant returns as the demand for AI continues to grow exponentially.",
     "last_proof_cite": "All-In with Chamath, Jason, Sacks & Friedberg \u2022 2026-07-10 \u2022 Open Source Wins, AGI Is Here, and Scorsese's AI Toolkit with CEOs of Cerebras & Black Forest Labs",
     "last_proof_snippet": "We are in the race for super intelligence and Andrew Feldman is back and obviously CEO and founders Ceribres doing in friendships pioneered the space, had a successful IPO. We've talked about this a couple of times, we got to see each other",
@@ -42937,7 +43063,7 @@ const dashboardData = {
     "last_podcast_name": "Monetary Matters with Jack Farley",
     "last_episode_date": "2026-06-20",
     "mention_score": 1,
-    "mention_score_decayed": 0.27,
+    "mention_score_decayed": 0.26,
     "last_main_idea": "Investors should focus on individual company fundamentals in the AI and semiconductor sectors, rather than broad macro trends, and be cautious of inflated valuations and unprofitable business models.",
     "last_proof_cite": "Monetary Matters with Jack Farley \u2022 2026-06-20 \u2022 Jim Chanos & Val Zlatev: Long and Short Alpha in AI, Semiconductors, Data Centers, Neoclouds, and Data Centers | MacroMinds Symposium 2026",
     "last_proof_snippet": "Where's to find value in the AI boom on the long side and the short side? This is the question that I asked two great investors earlier this month when I had the privilege of hosting Jim Channos and Val Zlathe. Jim is a legendary short sell",
@@ -43002,7 +43128,7 @@ const dashboardData = {
     "last_podcast_name": "Monetary Matters with Jack Farley",
     "last_episode_date": "2026-06-20",
     "mention_score": 1,
-    "mention_score_decayed": 0.27,
+    "mention_score_decayed": 0.26,
     "last_main_idea": "Investors should focus on individual company fundamentals in the AI and semiconductor sectors, rather than broad macro trends, and be cautious of inflated valuations and unprofitable business models.",
     "last_proof_cite": "Monetary Matters with Jack Farley \u2022 2026-06-20 \u2022 Jim Chanos & Val Zlatev: Long and Short Alpha in AI, Semiconductors, Data Centers, Neoclouds, and Data Centers | MacroMinds Symposium 2026",
     "last_proof_snippet": "Where's to find value in the AI boom on the long side and the short side? This is the question that I asked two great investors earlier this month when I had the privilege of hosting Jim Channos and Val Zlathe. Jim is a legendary short sell",
@@ -43065,7 +43191,7 @@ const dashboardData = {
     "last_podcast_name": "Latent Space: The AI Engineer Podcast",
     "last_episode_date": "2026-06-01",
     "mention_score": 1,
-    "mention_score_decayed": 0.26,
+    "mention_score_decayed": 0.25,
     "last_main_idea": "Invest in AI companies that prioritize language integration with video generation and have efficient training processes to capitalize on the evolving capabilities of generative AI.",
     "last_proof_cite": "Latent Space: The AI Engineer Podcast \u2022 2026-06-01 \u2022 Why Video Agent models are next \u2014 Ethan He, xAI Grok Imagine",
     "last_proof_snippet": "Okay, we're here in a studio with Eden Ha, most recently of XCI. Welcome. Yeah, thank you, glad being here. We were so here with Vibu. You were first coming to us or joining Lily in Space World because you were working on Cosmos in a video",
@@ -43126,7 +43252,7 @@ const dashboardData = {
     "last_podcast_name": "Monetary Matters with Jack Farley",
     "last_episode_date": "2026-06-18",
     "mention_score": 1,
-    "mention_score_decayed": 0.26,
+    "mention_score_decayed": 0.25,
     "last_main_idea": "Invest in U.S. industrial champions with strong order backlogs and companies positioned to benefit from the electrification and modernization of the U.S. grid.",
     "last_proof_cite": "Monetary Matters with Jack Farley \u2022 2026-06-18 \u2022 The US Manufacturing and Electrification Megatrends Are Here and They\u2019re Way More Than AI | Chris Semenuk",
     "last_proof_snippet": "The U.S. manufacturing has essentially been in a recession for three straight years and we have only just emerged now. If I had a CMMI survey, just reached about 50 in the last three months. And that's after three consecutive years of sub-5",
@@ -43186,7 +43312,7 @@ const dashboardData = {
     "last_podcast_name": "Latent Space: The AI Engineer Podcast",
     "last_episode_date": "2026-06-17",
     "mention_score": 1,
-    "mention_score_decayed": 0.25,
+    "mention_score_decayed": 0.24,
     "last_main_idea": "Invest in companies that integrate AI with experimental data for material discovery to gain a competitive edge in industries like aerospace and semiconductors.",
     "last_proof_cite": "Latent Space: The AI Engineer Podcast \u2022 2026-06-17 \u2022 \ud83d\udd2c The Self-Driving Lab \u2014 Joseph Krause, Radical AI",
     "last_proof_snippet": "This is the difference between AI for bio and AI for materials. If you look at bio or maybe small molecules is a more broad category, you look at selfies and smile strings, where I which has been a big way to have those materials, those mol",
@@ -46668,7 +46794,7 @@ const dashboardData = {
     "last_podcast_name": "Macro Voices",
     "last_episode_date": "2026-05-07",
     "mention_score": 1,
-    "mention_score_decayed": 0.1,
+    "mention_score_decayed": 0.09,
     "last_main_idea": "Investors should consider a diversified approach across commodities and sectors affected by geopolitical tensions, with a focus on strategic stockpiling and safe haven assets.",
     "last_proof_cite": "Macro Voices \u2022 2026-05-07 \u2022 MacroVoices #531 Louis-Vincent Gave: Semiconductors, AI & Iran Conflict",
     "last_proof_snippet": "This is Macrovoisers, the Free Weekly Financial Podcast, targeting professional finance, high-net worth individuals, family offices, and other sophisticated investors. Macrovoisers is all about the brightest minds in the world of finance an",
@@ -49253,7 +49379,7 @@ const dashboardData = {
     "last_podcast_name": "The a16z Show",
     "last_episode_date": "2026-04-13",
     "mention_score": 1,
-    "mention_score_decayed": 0.06,
+    "mention_score_decayed": 0.05,
     "last_main_idea": "AI has the potential to revolutionize home management and parenting by automating administrative tasks, which could lead to increased satisfaction and potentially influence demographic trends.",
     "last_proof_cite": "The a16z Show \u2022 2026-04-13 \u2022 Building Agents at Home: Parenting, Work, and Benevolent Neglect",
     "last_proof_snippet": "Jessie Janae built 11 distinct AI agents to manage different aspects of her home and children's education, demonstrating the practical applications of AI in daily life.",
@@ -50192,7 +50318,7 @@ const dashboardData = {
     "last_podcast_name": "Monetary Matters with Jack Farley",
     "last_episode_date": "2026-04-04",
     "mention_score": 1,
-    "mention_score_decayed": 0.05,
+    "mention_score_decayed": 0.04,
     "last_main_idea": "The disruption in shipping due to geopolitical conflicts presents a unique investment opportunity in shipping stocks, particularly for those with a keen understanding of the market dynamics.",
     "last_proof_cite": "Monetary Matters with Jack Farley \u2022 2026-04-04 \u2022 \u201cBooks Will Be Written\u201d About This Shipping Market | Ed Finley-Richardson of Misadventures in Shipping on War-Induced Oil Tanker Mayhem, Squeeze for Asiabound Refined Products, and Persian Gulf \u201cFeeding Frenzy\u201d Scenario",
     "last_proof_snippet": "Shipping inefficiencies can lead to increased profits for ship owners.",
@@ -53309,33 +53435,6 @@ const dashboardData = {
     "last_proof_cite": "Moonshots with Peter Diamandis \u2022 2026-03-09 \u2022 The Future of Personal AI Agents with OpenClaw",
     "last_proof_snippet": "We have a special guest with us today. Alex Finn, give us the 101 here for folks. OpenClaw is basically a open source, fully customizable, self-improving, self-learning, self-evolving, personal AI agent. This is kind of the answer Apple's b",
     "supporting_takeaway": "The potential for AI to run locally is vast, with implications for productivity and efficiency across various sectors.",
-    "grokipedia_url": null,
-    "grokipedia_fetched_at": null,
-    "pundit_profile": null
-  },
-  {
-    "id": 40,
-    "name": "Garrett Langley",
-    "slug": "garrett-langley",
-    "bio": "Founder of Flock Safety, an electrical engineer turned entrepreneur.",
-    "known_for": "Developing a neighborhood safety system that evolved into a nationwide real-time crime prevention platform.",
-    "net_worth_usd": null,
-    "net_worth_source": null,
-    "net_worth_updated_at": null,
-    "voice_tone": null,
-    "voice_style": null,
-    "voice_delivery_notes": null,
-    "voice_profile_updated_at": null,
-    "last_seen": "2026-03-12 19:38:37",
-    "last_episode_title": "Real-time Crime Prevention and the Future of Policing",
-    "last_podcast_name": "The a16z Show",
-    "last_episode_date": "2026-03-11",
-    "mention_score": 1,
-    "mention_score_decayed": 0.03,
-    "last_main_idea": "Investing in technology that enhances real-time crime prevention and clearance rates can lead to more effective law enforcement and safer communities.",
-    "last_proof_cite": "The a16z Show \u2022 2026-03-11 \u2022 Real-time Crime Prevention and the Future of Policing",
-    "last_proof_snippet": "South American cartels fly illegal drones through these neighborhoods. They'll flip on night vision. Look through houses to see if you can tell me. Didn't go break in. I was working with a town in Tennessee. It's a good city. Their average",
-    "supporting_takeaway": "The company has expanded from its initial prototype to offer a suite of products, including drones and 911 integration.",
     "grokipedia_url": null,
     "grokipedia_fetched_at": null,
     "pundit_profile": null

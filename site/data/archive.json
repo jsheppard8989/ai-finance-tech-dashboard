@@ -1,6 +1,25 @@
 {
   "insights": [
     {
+      "id": 426,
+      "title": "Flock CEO Garrett Langley on Controversy, \"Surveillance State\" Claims, and Privacy vs Safety",
+      "source_type": "podcast",
+      "source_name": "All-In with Chamath, Jason, Sacks & Friedberg",
+      "source_date": "2026-08-18",
+      "summary": "In this episode of 'All-In with Chamath, Jason, Sacks & Friedberg', the hosts interview Garrett Langley, CEO of Flock, a company specializing in safety cameras and license plate readers. The discussion revolves around the balance between public safety and privacy, particularly in the context of Flock's technology being adopted in communities across the country. The conversation delves into the impact of Flock's technology on crime reduction, the ethical considerations surrounding its use, and the evolving responsibilities of tech companies in addressing privacy concerns.",
+      "key_takeaway": "Investing in companies like Flock that focus on enhancing public safety through technology presents an opportunity to capitalize on the growing demand for security solutions, while also navigating the complex ethical landscape of privacy concerns.",
+      "tickers_mentioned": [
+        "AAPL"
+      ],
+      "sentiment": "bullish",
+      "display_on_main": 1,
+      "display_order": 0,
+      "added_date": "2026-08-17",
+      "archived_date": null,
+      "archived_reason": null,
+      "podcast_episode_id": 411
+    },
+    {
       "id": 425,
       "title": "Stripe\u2019s AI Strategy: Build More, Not Less",
       "source_type": "podcast",
@@ -171,7 +190,7 @@
         "SPY"
       ],
       "sentiment": "bullish",
-      "display_on_main": 1,
+      "display_on_main": 0,
       "display_order": 0,
       "added_date": "2026-08-12",
       "archived_date": null,
