@@ -1,6 +1,27 @@
 {
   "insights": [
     {
+      "id": 430,
+      "title": "How Whatnot Built a Global Marketplace",
+      "source_type": "podcast",
+      "source_name": "The a16z Show",
+      "source_date": "2026-08-19",
+      "summary": "In this episode, a16z General Partner David George interviews Grant LaFontaine, co-founder of whatnot, to discuss the rise of live commerce and its potential to disrupt traditional e-commerce. They explore how live shopping combines commerce, entertainment, discovery, and community in a way that traditional e-commerce does not. Grant shares his personal journey from selling Pokemon cards as a child to co-founding whatnot, and how the platform has expanded from collectibles into over 100 categories. They also discuss the small businesses being built on the platform, the importance of trust and safety, and how whatnot is using AI to help sellers scale without losing the human connection.",
+      "key_takeaway": "Live commerce has the potential to disrupt traditional e-commerce by combining shopping with entertainment and community, creating a more engaging and enjoyable experience for users and opening up new opportunities for small businesses.",
+      "tickers_mentioned": [
+        "AAPL",
+        "AMZN",
+        "FB"
+      ],
+      "sentiment": "bearish",
+      "display_on_main": 1,
+      "display_order": 0,
+      "added_date": "2026-08-19",
+      "archived_date": null,
+      "archived_reason": null,
+      "podcast_episode_id": 415
+    },
+    {
       "id": 426,
       "title": "Flock CEO Garrett Langley on Controversy, \"Surveillance State\" Claims, and Privacy vs Safety",
       "source_type": "podcast",
@@ -58,6 +79,25 @@
       "archived_date": null,
       "archived_reason": null,
       "podcast_episode_id": 413
+    },
+    {
+      "id": 429,
+      "title": "China\u2019s Endgame: ASI Timelines, US-China Relations, and the $1.7T AI Bubble With Alvin Graylin | #281",
+      "source_type": "podcast",
+      "source_name": "Moonshots with Peter Diamandis",
+      "source_date": "2026-08-18",
+      "summary": "In this episode of Moonshots with Peter Diamandis, the focus is on the US-China AI race and its economic implications. Alvin Wang Graylin, an expert with extensive experience in both Chinese and US technology ecosystems, discusses the different approaches of the US and China towards AI development. He argues that the US-China AI race is not a prisoner's dilemma but a 'lag hunt', emphasizing coordination and trust. Graylin also touches on the potential for an economic correction in the AI sector, the importance of integrating AI into industries, and proposes the idea of an 'AI Marshall Plan' for the US to create a market for AI technology and foster international cooperation.",
+      "key_takeaway": "Investment in AI technology should consider the broader geopolitical landscape and the potential for international cooperation and market creation, as proposed by the 'AI Marshall Plan'.",
+      "tickers_mentioned": [
+        "NVDA"
+      ],
+      "sentiment": "neutral",
+      "display_on_main": 0,
+      "display_order": 0,
+      "added_date": "2026-08-18",
+      "archived_date": null,
+      "archived_reason": null,
+      "podcast_episode_id": 414
     },
     {
       "id": 425,
@@ -192,7 +232,7 @@
         "NVDA"
       ],
       "sentiment": "bullish",
-      "display_on_main": 1,
+      "display_on_main": 0,
       "display_order": 0,
       "added_date": "2026-08-13",
       "archived_date": null,
@@ -8527,8 +8567,8 @@
       "term": "ASI",
       "description": "Artificial Super Intelligence, referring to AI systems that surpass human intelligence in every field.",
       "first_detected_date": "2026-06-29",
-      "last_mentioned_date": "2026-07-08",
-      "mention_count": 9,
+      "last_mentioned_date": "2026-08-18",
+      "mention_count": 10,
       "source_podcasts": null,
       "status": "active",
       "investment_implications": "ASI represents a potential paradigm shift in technology and could disrupt various industries.",
@@ -8537,8 +8577,8 @@
       "archived_reason": null,
       "first_detected_episode_id": 319,
       "first_detected_speaker": "Peter Diamandis (hosts)",
-      "last_mentioned_episode_id": 408,
-      "last_mentioned_speaker": "Alex Carp"
+      "last_mentioned_episode_id": 414,
+      "last_mentioned_speaker": "Alvin Wang Graylin"
     },
     {
       "id": 135,
@@ -8599,8 +8639,8 @@
       "term": "Hyperscalers",
       "description": "Large companies that provide computing resources, storage, and various services over the internet at a massive scale.",
       "first_detected_date": "2026-06-19",
-      "last_mentioned_date": "2026-07-08",
-      "mention_count": 19,
+      "last_mentioned_date": "2026-08-18",
+      "mention_count": 20,
       "source_podcasts": null,
       "status": "active",
       "investment_implications": "Their significant capital expenditures and innovative financial structures can offer investment opportunities but also pose risks.",
@@ -8609,8 +8649,8 @@
       "archived_reason": null,
       "first_detected_episode_id": 302,
       "first_detected_speaker": "Chamath Palihapitiya, Jason Calacanis (hosts)",
-      "last_mentioned_episode_id": 408,
-      "last_mentioned_speaker": "Alex Carp"
+      "last_mentioned_episode_id": 414,
+      "last_mentioned_speaker": "Alvin Wang Graylin"
     },
     {
       "id": 256,
@@ -9085,8 +9125,8 @@
       "term": "Singularity",
       "description": "A hypothetical point in the future when technological growth becomes uncontrollable and irreversible, leading to unforeseeable changes to human civilization.",
       "first_detected_date": "2026-05-15",
-      "last_mentioned_date": "2026-08-17",
-      "mention_count": 49,
+      "last_mentioned_date": "2026-08-18",
+      "mention_count": 50,
       "source_podcasts": null,
       "status": "active",
       "investment_implications": "Investors should be aware of companies and technologies that are pushing the boundaries of AI and automation, as they may be key players in the approach to the singularity.",
@@ -9095,16 +9135,16 @@
       "archived_reason": null,
       "first_detected_episode_id": 221,
       "first_detected_speaker": null,
-      "last_mentioned_episode_id": 410,
-      "last_mentioned_speaker": "Will"
+      "last_mentioned_episode_id": 414,
+      "last_mentioned_speaker": "Alvin Wang Graylin"
     },
     {
       "id": 97,
       "term": "Distillation",
       "description": "The process of training a smaller AI model on the output of a larger model to achieve similar results with less computational power.",
       "first_detected_date": "2026-05-15",
-      "last_mentioned_date": "2026-08-17",
-      "mention_count": 39,
+      "last_mentioned_date": "2026-08-18",
+      "mention_count": 40,
       "source_podcasts": null,
       "status": "active",
       "investment_implications": "Distillation can make AI more accessible and cost-effective, impacting how businesses allocate resources for AI development.",
@@ -9113,8 +9153,8 @@
       "archived_reason": null,
       "first_detected_episode_id": 221,
       "first_detected_speaker": null,
-      "last_mentioned_episode_id": 410,
-      "last_mentioned_speaker": "Will"
+      "last_mentioned_episode_id": 414,
+      "last_mentioned_speaker": "Alvin Wang Graylin"
     },
     {
       "id": 174,
@@ -9211,8 +9251,8 @@
       "term": "AGI",
       "description": "Artificial General Intelligence, the ability of machines to understand, learn, and apply knowledge across a broad range of tasks at a human level.",
       "first_detected_date": "2026-05-07",
-      "last_mentioned_date": "2026-07-08",
-      "mention_count": 74,
+      "last_mentioned_date": "2026-08-18",
+      "mention_count": 75,
       "source_podcasts": null,
       "status": "active",
       "investment_implications": "Invest in companies that are making incremental progress towards AGI capabilities.",
@@ -9221,8 +9261,8 @@
       "archived_reason": null,
       "first_detected_episode_id": 204,
       "first_detected_speaker": "Demis Hassabis",
-      "last_mentioned_episode_id": 408,
-      "last_mentioned_speaker": "Alex Carp"
+      "last_mentioned_episode_id": 414,
+      "last_mentioned_speaker": "Alvin Wang Graylin"
     },
     {
       "id": 162,
@@ -10237,8 +10277,8 @@
       "term": "AI Race",
       "description": "The global competition among nations to lead in artificial intelligence development and application.",
       "first_detected_date": "2026-03-11",
-      "last_mentioned_date": "2026-07-22",
-      "mention_count": 29,
+      "last_mentioned_date": "2026-08-18",
+      "mention_count": 30,
       "source_podcasts": null,
       "status": "active",
       "investment_implications": "Investing in companies at the forefront of AI could yield significant returns as the technology becomes more pervasive.",
@@ -10247,8 +10287,8 @@
       "archived_reason": null,
       "first_detected_episode_id": 60,
       "first_detected_speaker": null,
-      "last_mentioned_episode_id": 409,
-      "last_mentioned_speaker": "Russell Clark"
+      "last_mentioned_episode_id": 414,
+      "last_mentioned_speaker": "Alvin Wang Graylin"
     },
     {
       "id": 12,
@@ -10310,7 +10350,7 @@
       "description": "Autonomous AI systems that can act on behalf of users or other systems, creating new challenges in cybersecurity.",
       "first_detected_date": "2026-02-28",
       "last_mentioned_date": "2026-08-18",
-      "mention_count": 65,
+      "mention_count": 66,
       "source_podcasts": null,
       "status": "active",
       "investment_implications": "Investors should consider companies developing security solutions to manage and mitigate risks associated with AI agents.",
@@ -10319,8 +10359,8 @@
       "archived_reason": null,
       "first_detected_episode_id": 31,
       "first_detected_speaker": null,
-      "last_mentioned_episode_id": 412,
-      "last_mentioned_speaker": "Max Pollard, Nick Warner"
+      "last_mentioned_episode_id": 414,
+      "last_mentioned_speaker": "Alvin Wang Graylin"
     },
     {
       "id": 38,

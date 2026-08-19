@@ -1,5 +1,21 @@
 [
   {
+    "id": 415,
+    "podcast_name": "The a16z Show",
+    "episode_title": "How Whatnot Built a Global Marketplace",
+    "episode_date": "2026-08-19",
+    "summary": "In this episode, a16z General Partner David George interviews Grant LaFontaine, co-founder of whatnot, to discuss the rise of live commerce and its potential to disrupt traditional e-commerce. They explore how live shopping combines commerce, entertainment, discovery, and community in a way that traditional e-commerce does not. Grant shares his personal journey from selling Pokemon cards as a child to co-founding whatnot, and how the platform has expanded from collectibles into over 100 categories. They also discuss the small businesses being built on the platform, the importance of trust and safety, and how whatnot is using AI to help sellers scale without losing the human connection.",
+    "key_takeaways": [
+      "Live commerce currently represents over a third of all commerce in Asia, with 30-40% of commerce in China being live commerce.",
+      "In contrast, live commerce in the U.S. is still in single digits, indicating significant growth potential.",
+      "The whatnot platform has expanded from collectibles into over 100 categories, including plans to enter the car market.",
+      "The platform is empowering small businesses, generating billions of dollars for businesses ranging from one to two person operations to larger enterprises.",
+      "Whatnot's focus on trust and safety is a significant part of the company's investment, with AI being used to help sellers scale while maintaining a human connection."
+    ],
+    "investment_thesis": "Live commerce has the potential to disrupt traditional e-commerce by combining shopping with entertainment and community, creating a more engaging and enjoyable experience for users and opening up new opportunities for small businesses.",
+    "key_tickers": null
+  },
+  {
     "id": 413,
     "podcast_name": "Monetary Matters with Jack Farley",
     "episode_title": "Ex-Goya COO on the $1.4 Trillion Family Business Opportunity in Three Consumer Sectors | Andy Unanue",
@@ -119,24 +135,5 @@
     ],
     "investment_thesis": "Invest in industries that are ripe for automation and AI integration, as industrial AI could revolutionize multiple trillion-dollar industries.",
     "key_tickers": null
-  },
-  {
-    "id": 403,
-    "podcast_name": "Moonshots with Peter Diamandis",
-    "episode_title": "Bernie Demands the Labs Stop, Wall Street Turns GPUs Into Bonds, Grok 4.7 Takes #1 with Emad Mostaque | EP #279",
-    "episode_date": "2026-08-13",
-    "summary": "In this episode, Peter Diamandis and his guests discuss a range of topics from AI development to the future of investment in exponential technologies. They touch on Bernie Sanders' letter to AI CEOs, the implications of AI creating new viruses, and the potential for AI to redefine financial assets. The conversation also covers the acceleration of singularities and the compression of the distance between the impossible and the inevitable. Key investment insights include the impact of AI on longevity, infrastructure, synthetic biology, and urban air mobility.",
-    "key_takeaways": [
-      "AI development has reached a critical threshold, prompting concerns about safety and control.",
-      "Nvidia's partnership redefines GPU compute as a financial asset, signaling a shift in the market.",
-      "Elon Musk's Grock 4.6 AI is expected to revolutionize SpaceX physics and engineering knowledge.",
-      "Investment in longevity technologies aims to add 20 healthy years to human life.",
-      "Exponential technologies do not provide predictable depreciation, challenging traditional financial asset models.",
-      "AI safety confrontations are becoming more serious, with potential implications for regulation and development."
-    ],
-    "investment_thesis": "Invest in AI and exponential technologies that are redefining industries and creating new opportunities for growth and innovation.",
-    "key_tickers": [
-      "NVDA"
-    ]
   }
 ]
