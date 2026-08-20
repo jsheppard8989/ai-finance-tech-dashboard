@@ -1,6 +1,25 @@
 {
   "insights": [
     {
+      "id": 431,
+      "title": "How Global Networks Are Reshaping Startup Success",
+      "source_type": "podcast",
+      "source_name": "The a16z Show",
+      "source_date": "2026-08-20",
+      "summary": "In this episode of the a16z podcast, Laina Berger interviews Angela Strange and Gabriel Vasquez about the concept of 'borderless founders' and how AI is accelerating the shift towards global entrepreneurship. They discuss the unique advantages that global founders bring to the table, including access to talent, customers, and distribution networks. The conversation also touches on the power of founder diasporas and the increasing bidirectional relationship between Silicon Valley and the rest of the world in terms of startup ecosystems.",
+      "key_takeaway": "Investing in borderless founders offers access to a global talent pool, customer base, and distribution networks, which can lead to the creation of successful global companies.",
+      "tickers_mentioned": [
+        "AAPL"
+      ],
+      "sentiment": "neutral",
+      "display_on_main": 1,
+      "display_order": 0,
+      "added_date": "2026-08-20",
+      "archived_date": null,
+      "archived_reason": null,
+      "podcast_episode_id": 416
+    },
+    {
       "id": 430,
       "title": "How Whatnot Built a Global Marketplace",
       "source_type": "podcast",
@@ -155,7 +174,7 @@
         "TSLA"
       ],
       "sentiment": "bullish",
-      "display_on_main": 1,
+      "display_on_main": 0,
       "display_order": 0,
       "added_date": "2026-08-14",
       "archived_date": null,

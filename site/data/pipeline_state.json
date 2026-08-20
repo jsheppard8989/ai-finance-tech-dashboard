@@ -1,19 +1,19 @@
 {
-  "generated_at": "2026-08-19T12:02:52.954266",
-  "last_updated": "2026-08-19T12:02:52.954266",
-  "last_pipeline_run": "2026-08-19T12:02:52.954266",
+  "generated_at": "2026-08-20T12:07:13.981212",
+  "last_updated": "2026-08-20T12:07:13.981212",
+  "last_pipeline_run": "2026-08-20T12:07:13.981212",
   "main_page": {
     "overton": 13,
     "insights": 8,
-    "pundits": 272
+    "pundits": 274
   },
   "counts": {
     "ticker_mentions": 216,
-    "podcast_episodes": 388,
+    "podcast_episodes": 389,
     "newsletters": 7,
     "daily_scores": 153,
     "overton_terms_total": 130,
-    "latest_insights_total": 402,
+    "latest_insights_total": 403,
     "today_mentions": {},
     "podcasts_analyzed": 1
   },
@@ -84,11 +84,11 @@
       "status": "needs_analysis"
     },
     {
-      "id": "05dbb55e-33ef-4251-883f-74cd5ec26640",
+      "id": "7b3192da-4f6e-4643-8a4b-849986198fd8",
       "podcast": "The a16z Show",
-      "title": "How Whatnot Built a Global Marketplace",
-      "published": "2026-08-19",
-      "rss_guid": "05dbb55e-33ef-4251-883f-74cd5ec26640",
+      "title": "How Global Networks Are Reshaping Startup Success",
+      "published": "2026-08-20",
+      "rss_guid": "7b3192da-4f6e-4643-8a4b-849986198fd8",
       "stages": {
         "downloaded": true,
         "transcribed": true,
@@ -118,7 +118,7 @@
       "title": "200GW Hiding in Grid, Sodium Batteries 10x Cheaper, Wave-Powered Datacenters w/ Ramez Naam | EP #280",
       "status": "needs_analysis",
       "published": "2026-08-15",
-      "age_days": 4,
+      "age_days": 5,
       "next_blocker": "analyzed"
     }
   ],
