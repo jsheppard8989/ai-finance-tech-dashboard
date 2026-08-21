@@ -17,6 +17,7 @@ EXCLUDED_PUNDIT_NAMES: FrozenSet[str] = frozenset(
         "Marc Andreessen",
         "Mark Andreessen",  # common spelling slip / ASR
         # Moonshots / recurring co-hosts & variants
+        "Peter Diamandis",
         "Dylan",
         "Moonshots",
         "Salim Ismail",

@@ -1,0 +1,50 @@
+{
+  "merges": [
+    {
+      "canonical": "AGI",
+      "aliases": [
+        "Artificial General Intelligence (AGI)",
+        "AGI (Artificial General Intelligence)",
+        "artificial general intelligence"
+      ]
+    },
+    {
+      "canonical": "ASI",
+      "aliases": [
+        "ASI (Artificial Super Intelligence)",
+        "Artificial Super Intelligence",
+        "artificial super intelligence"
+      ]
+    },
+    {
+      "canonical": "SaaS Apocalypse",
+      "aliases": [
+        "SaaSpocalypse",
+        "SaaS apocalypse"
+      ]
+    },
+    {
+      "canonical": "Healthspan",
+      "aliases": [
+        "health span",
+        "Health span",
+        "healthspan"
+      ]
+    },
+    {
+      "canonical": "Multi-modal AI",
+      "aliases": [
+        "Multimodal AI",
+        "multi-modal ai",
+        "multimodal ai"
+      ]
+    },
+    {
+      "canonical": "Jevon's Paradox",
+      "aliases": [
+        "Jevons Paradox",
+        "Jevon's paradox"
+      ]
+    }
+  ]
+}

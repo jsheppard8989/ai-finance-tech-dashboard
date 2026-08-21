@@ -2,11 +2,15 @@
 import os
 import subprocess
 import json
+import sys
 import time
 from pathlib import Path
 
+_REPO = Path(__file__).resolve().parent
+sys.path.insert(0, str(_REPO / "pipeline"))
+from workspace_paths import WORKSPACE_ROOT as WORKSPACE
+
 # Define path and command
-WORKSPACE = Path.home() / ".openclaw/workspace"
 CONTACT_API_SCRIPT = WORKSPACE / "contact_api.py"
 
 def is_running():

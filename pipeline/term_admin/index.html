@@ -1,0 +1,152 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Review new terms</title>
+  <style>
+    :root { color-scheme: light; font-family: system-ui, -apple-system, sans-serif; }
+    * { box-sizing: border-box; }
+    body { margin: 0; background: #f5f7fa; color: #172033; }
+    main { width: min(760px, 100%); margin: 0 auto; padding: 32px 18px 64px; }
+    h1 { margin: 0 0 6px; font-size: 1.7rem; }
+    .local { margin: 0 0 24px; color: #596579; }
+    .notice, .status, .card { border: 1px solid #dce2ea; border-radius: 12px; background: white; }
+    .notice { padding: 12px 14px; margin-bottom: 18px; font-size: .9rem; }
+    .status { padding: 22px; text-align: center; color: #596579; }
+    .status.error { color: #9d1c1c; border-color: #efb4b4; background: #fff8f8; }
+    .card { padding: 20px; margin-bottom: 14px; box-shadow: 0 2px 8px rgb(20 32 55 / 6%); }
+    .term { margin: 0 0 5px; font-size: 1.25rem; }
+    .meta { color: #68758a; font-size: .85rem; margin-bottom: 14px; }
+    .label { margin: 12px 0 3px; color: #68758a; font-size: .75rem; font-weight: 700; text-transform: uppercase; }
+    .copy { margin: 0; white-space: pre-wrap; }
+    .empty-copy { color: #8893a3; font-style: italic; }
+    .actions { display: grid; grid-template-columns: 1fr 1fr; gap: 10px; margin-top: 20px; }
+    button { min-height: 46px; border: 0; border-radius: 9px; font: inherit; font-weight: 700; cursor: pointer; }
+    button:disabled { cursor: wait; opacity: .55; }
+    .approve { color: white; background: #18794e; }
+    .reject { color: #a21c1c; background: #fde8e8; }
+    #feedback { position: sticky; top: 10px; z-index: 2; display: none; margin-bottom: 14px; padding: 12px 14px; border-radius: 9px; background: #dcfce7; color: #14532d; }
+    #feedback.error { background: #fee2e2; color: #991b1b; }
+    @media (max-width: 500px) { .actions { grid-template-columns: 1fr; } }
+  </style>
+</head>
+<body>
+  <main>
+    <h1>Review new terms</h1>
+    <p class="local">Private admin page running only on this Mac.</p>
+    <div class="notice">
+      Approve makes a term eligible for the website's next export. Reject removes it from the review queue.
+      This page does not publish directly to GitHub Pages.
+    </div>
+    <div id="feedback" role="status" aria-live="polite"></div>
+    <div id="queue" class="status">Loading terms…</div>
+  </main>
+
+  <script>
+    const queue = document.getElementById('queue');
+    const feedback = document.getElementById('feedback');
+
+    function escapeHtml(value) {
+      return String(value == null ? '' : value)
+        .replace(/&/g, '&amp;').replace(/</g, '&lt;').replace(/>/g, '&gt;')
+        .replace(/"/g, '&quot;').replace(/'/g, '&#039;');
+    }
+
+    function showFeedback(message, isError) {
+      feedback.textContent = message;
+      feedback.className = isError ? 'error' : '';
+      feedback.style.display = 'block';
+    }
+
+    async function request(path, options) {
+      const response = await fetch(path, Object.assign({
+        headers: { 'Content-Type': 'application/json' }
+      }, options || {}));
+      const payload = await response.json().catch(() => ({}));
+      if (!response.ok || payload.ok === false) {
+        throw new Error(payload.error || `Request failed (${response.status})`);
+      }
+      return payload;
+    }
+
+    function provenance(item) {
+      const seen = item.last_seen || item.first_seen || {};
+      return [seen.podcast, seen.episode_date].filter(Boolean).join(' · ');
+    }
+
+    function render(items) {
+      if (!items.length) {
+        queue.className = 'status';
+        queue.innerHTML = 'All caught up — there are no new terms to review.';
+        return;
+      }
+      queue.className = '';
+      queue.innerHTML = items.map(item => {
+        const definition = item.description || item.definition;
+        const source = provenance(item);
+        const meta = [
+          `${Number(item.mention_count || 0)} mention${Number(item.mention_count || 0) === 1 ? '' : 's'}`,
+          source
+        ].filter(Boolean).join(' · ');
+        return `
+          <article class="card" data-kind="${escapeHtml(item.kind)}" data-id="${escapeHtml(item.id)}" data-term="${escapeHtml(item.term)}">
+            <h2 class="term">${escapeHtml(item.term)}</h2>
+            <div class="meta">${escapeHtml(meta)}</div>
+            <div class="label">Definition</div>
+            <p class="copy ${definition ? '' : 'empty-copy'}">${escapeHtml(definition || 'No definition provided')}</p>
+            <div class="label">Investment angle</div>
+            <p class="copy ${item.investment_implications ? '' : 'empty-copy'}">${escapeHtml(item.investment_implications || 'No investment angle provided')}</p>
+            <div class="actions">
+              <button class="approve" data-action="approve">Approve for website</button>
+              <button class="reject" data-action="reject">Reject</button>
+            </div>
+          </article>`;
+      }).join('');
+    }
+
+    async function loadQueue() {
+      try {
+        const data = await request('/api/review-queue');
+        render(data.items || []);
+      } catch (error) {
+        queue.className = 'status error';
+        queue.textContent = `Could not load terms: ${error.message}`;
+      }
+    }
+
+    queue.addEventListener('click', async event => {
+      const button = event.target.closest('button');
+      if (!button) return;
+      const card = button.closest('.card');
+      const action = button.dataset.action;
+      const term = card.dataset.term;
+      if (action === 'reject' && !confirm(`Reject "${term}"?`)) return;
+
+      card.querySelectorAll('button').forEach(item => { item.disabled = true; });
+      try {
+        const kind = card.dataset.kind;
+        let path;
+        let body = {};
+        if (kind === 'suggested') {
+          path = `/api/pending/${card.dataset.id}/${action}`;
+          if (action === 'approve') body = { show_on_main: true };
+        } else {
+          path = `/api/overton/${encodeURIComponent(term)}/${action === 'approve' ? 'show' : 'reject'}`;
+          body = { term };
+        }
+        await request(path, { method: 'POST', body: JSON.stringify(body) });
+        showFeedback(action === 'approve'
+          ? `Approved "${term}" for the website.`
+          : `Rejected "${term}".`, false);
+        await loadQueue();
+      } catch (error) {
+        showFeedback(`Could not ${action} "${term}": ${error.message}`, true);
+        card.querySelectorAll('button').forEach(item => { item.disabled = false; });
+      }
+    });
+
+    loadQueue();
+  </script>
+</body>
+</html>

@@ -1,7 +1,7 @@
 # Podcast/Newsletter Pipeline Codebase Audit Report
 
 **Date:** 2026-02-16  
-**Scope:** Complete audit of `~/.openclaw/workspace/pipeline/` for stub functions, placeholder implementations, and non-functional code
+**Scope:** Complete audit of `$WORKSPACE_ROOT/pipeline/` for stub functions, placeholder implementations, and non-functional code
 
 ---
 

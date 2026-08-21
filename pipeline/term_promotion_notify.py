@@ -1,8 +1,11 @@
 #!/usr/bin/env python3
 """
-When a suggested term is auto-promoted into Definitions + Overton, notify the user by iMessage
-and record a short token. They can reply "NO <token>" or a plain "NO" / "No" to remove it
-(see process_term_promotion_replies.py; plain NO targets the last notified promotion).
+When a suggested term is auto-promoted into Definitions + Overton (display_on_main=0),
+notify the user by iMessage and record a short token.
+
+  • Reply YES <token> (or plain YES) to show on the main Overton list.
+  • Reply NO <token> (or plain NO) to remove entirely
+    (see process_term_promotion_replies.py).
 
 Env:
   IMESSAGE_NOTIFY_PHONE — E.164, default +16306437437 (same as morning_curator)
@@ -127,8 +130,8 @@ def notify_promoted_term(term_data: Dict[str, Any]) -> None:
 
     # Keep message short for SMS; token must be copy-pastable
     body = (
-        f'Scarcity: promoted to Overton — "{term}". '
-        f"Keep it? Do nothing. Remove? Reply exactly: NO {token}"
+        f'Scarcity: Overton candidate — "{term}" (2+ episodes). '
+        f"Show on site? Reply YES {token}. Remove? NO {token}"
     )
     escaped = _escape_applescript_string(body)
     script = f'tell application "Messages" to send "{escaped}" to buddy "{phone}"'

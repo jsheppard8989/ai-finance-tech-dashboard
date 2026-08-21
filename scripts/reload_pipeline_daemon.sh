@@ -1,13 +1,13 @@
 #!/usr/bin/env bash
-# Reload the pipeline LaunchDaemon so it picks up the plist from the repo.
-# Run from workspace root. You'll be prompted for your Mac password.
+# Reload the pipeline interval runner as a standard user LaunchAgent.
+# Run from repo root or anywhere; no administrator password is required.
 set -e
-WORKSPACE="${HOME}/.openclaw/workspace"
-PLIST="com.openclaw.pipeline.daemon.plist"
-echo "Copying ${PLIST} to /Library/LaunchDaemons/ and reloading..."
-sudo cp "${WORKSPACE}/docs/launchd/${PLIST}" /Library/LaunchDaemons/
-sudo chown root:wheel "/Library/LaunchDaemons/${PLIST}"
-sudo chmod 644 "/Library/LaunchDaemons/${PLIST}"
-sudo launchctl unload "/Library/LaunchDaemons/${PLIST}" 2>/dev/null || true
-sudo launchctl load "/Library/LaunchDaemons/${PLIST}"
-echo "Done. Daemon is loaded. Check: sudo launchctl list | grep openclaw.pipeline.daemon"
+REPO_ROOT="$(cd "$(dirname "${BASH_SOURCE[0]}")/.." && pwd)"
+WORKSPACE="${WORKSPACE_ROOT:-$REPO_ROOT}"
+PLIST="com.scarcity.pipeline.daemon.plist"
+DEST="${HOME}/Library/LaunchAgents/${PLIST}"
+echo "Copying ${PLIST} to ${HOME}/Library/LaunchAgents/ and reloading..."
+cp "${WORKSPACE}/docs/launchd/${PLIST}" "${DEST}"
+launchctl unload "${DEST}" 2>/dev/null || true
+launchctl load "${DEST}"
+echo "Done. LaunchAgent is loaded. Check: launchctl list | grep scarcity.pipeline.daemon"

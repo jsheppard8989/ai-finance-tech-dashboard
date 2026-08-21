@@ -18,8 +18,11 @@ from workspace_paths import STATE_DIR
 
 # Priority score (must match db_manager.get_suggested_terms_for_website):
 #   mention_count * 10 + source_diversity * 20 + relevance_score
-# User rule (2026-04-14): above this → promote pending term into Overton (via auto_promote_term).
+# Used for ordering only; promotion requires meets_recurrence_gate() below.
 PRIORITY_SCORE_PROMOTE_THRESHOLD = 66.7
+
+# Minimum signal before a pending term can enter Overton (2+ mentions, 2+ episodes).
+MIN_MENTIONS_FOR_PROMOTE = 2
 
 # Auto-promotion criteria (used when priority score is NOT above threshold)
 MIN_RELEVANCE_AUTO = 70  # Auto-promote if relevance >= 70
@@ -34,7 +37,7 @@ MIN_RELEVANCE_REVIEW = 40  # Flag for review if relevance >= 40 but < 70
 
 
 def compute_priority_score(term_data: dict) -> int:
-    """Same formula as Emerging Terms card / SQL priority_score."""
+    """Same formula as suggested_terms priority_score."""
     try:
         m = int(term_data.get("mention_count") or 0)
         s = int(term_data.get("source_diversity") or 0)
@@ -44,11 +47,32 @@ def compute_priority_score(term_data: dict) -> int:
     return m * 10 + s * 20 + r
 
 
+def meets_recurrence_gate(term_data: dict) -> bool:
+    """Require 2+ mentions across at least two distinct episodes."""
+    try:
+        mentions = int(term_data.get("mention_count") or 0)
+    except (TypeError, ValueError):
+        mentions = 0
+    if mentions < MIN_MENTIONS_FOR_PROMOTE:
+        return False
+    first_ep = term_data.get("first_seen_episode_id")
+    last_ep = term_data.get("last_seen_episode_id")
+    if first_ep is None or last_ep is None:
+        return False
+    try:
+        return int(first_ep) != int(last_ep)
+    except (TypeError, ValueError):
+        return False
+
+
 def analyze_term_quality(term_data):
     """
     Analyze term quality for auto-curation.
     Returns: ('auto_promote', 'manual_review', or 'skip')
     """
+    if not meets_recurrence_gate(term_data):
+        return 'skip'
+
     relevance = term_data.get('relevance_score', 0) or 0
     sources = term_data.get('source_diversity', 0) or 0
     mentions = term_data.get('mention_count', 0) or 0
@@ -125,7 +149,7 @@ def auto_promote_term(db, term_data):
         conn.execute("""
             INSERT INTO definitions 
             (term, definition, investment_implications, added_date, vote_count, display_on_main, display_order)
-            VALUES (?, ?, ?, date('now'), ?, 1, 0)
+            VALUES (?, ?, ?, date('now'), ?, 0, 0)
         """, (
             term_data['term'],
             term_data.get('definition') or f"Definition for {term_data['term']}",
@@ -141,11 +165,14 @@ def auto_promote_term(db, term_data):
             UPDATE suggested_terms 
             SET status = 'approved', 
                 reviewed_at = CURRENT_TIMESTAMP, 
-                review_notes = 'Auto-approved: high relevance score'
+                review_notes = 'Auto-approved: recurring term (2+ episodes); awaiting YES for main page'
             WHERE id = ?
         """, (term_data['id'],))
 
-        print(f"  ✅ AUTO-PROMOTED: '{term_data['term']}' → Definitions + Overton Window (relevance: {term_data.get('relevance_score', 'N/A')})")
+        print(
+            f"  ✅ AUTO-PROMOTED (hidden until YES): '{term_data['term']}' → Definitions + Overton "
+            f"(mentions: {term_data.get('mention_count', 'N/A')}, relevance: {term_data.get('relevance_score', 'N/A')})"
+        )
         try:
             from term_promotion_notify import notify_promoted_term
 
@@ -210,7 +237,6 @@ def _ensure_overton_term(conn, term_data):
                 last_mentioned_date = ?,
                 mention_count = MAX(mention_count, ?),
                 status = 'active',
-                display_on_main = 1,
                 last_mentioned_episode_id = COALESCE(?, last_mentioned_episode_id),
                 last_mentioned_speaker = COALESCE(?, last_mentioned_speaker),
                 first_detected_episode_id = COALESCE(first_detected_episode_id, ?),
@@ -239,7 +265,7 @@ def _ensure_overton_term(conn, term_data):
              status, investment_implications, display_on_main,
              first_detected_episode_id, first_detected_speaker,
              last_mentioned_episode_id, last_mentioned_speaker)
-            VALUES (?, ?, ?, ?, ?, 'active', ?, 1, ?, ?, ?, ?)
+            VALUES (?, ?, ?, ?, ?, 'active', ?, 0, ?, ?, ?, ?)
             """,
             (
                 term,
@@ -316,6 +342,15 @@ def main():
     skipped = 0
     
     for term in pending_terms:
+        if not meets_recurrence_gate(term):
+            skipped += 1
+            print(
+                f"  ⏳ WAITING: '{term['term']}' "
+                f"(mentions: {term.get('mention_count', 0)}, "
+                f"episodes: {term.get('first_seen_episode_id')} → {term.get('last_seen_episode_id')})"
+            )
+            continue
+
         ps = compute_priority_score(term)
         if ps > PRIORITY_SCORE_PROMOTE_THRESHOLD:
             print(

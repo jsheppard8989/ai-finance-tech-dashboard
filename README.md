@@ -82,7 +82,7 @@ python3 -m http.server 8000
 
 2. **Push Code**
    ```bash
-   cd ~/.openclaw/workspace
+   cd $WORKSPACE_ROOT
    git init
    git add .
    git commit -m "Initial commit"
@@ -144,12 +144,12 @@ PUSHOVER_USER=your-pushover-user
 
 ### Automated Updates
 
-Scheduling is via **OpenClaw cron** (see MEMORY.md and pipeline/README.md). Jobs run `auto_pipeline.py` (full or `--analyze-only`). For system cron instead:
+Scheduling uses your preferred host (**cron**, **launchd**, or another runner). Jobs run `auto_pipeline.py` (full or `--analyze-only`). Example system cron entries:
 
 ```bash
 crontab -e
 # Example: full pipeline daily at 7 AM
-0 7 * * * cd ~/.openclaw/workspace/pipeline && python3 auto_pipeline.py
+0 7 * * * cd $WORKSPACE_ROOT/pipeline && python3 auto_pipeline.py
 ```
 
 ### Source Weighting
@@ -178,11 +178,15 @@ crontab -e
 ## 📊 Data Sources
 
 ### Podcasts
-- The Rundown AI
+- Moonshots with Peter Diamandis
 - Monetary Matters with Jack Farley
-- The Jack Mallers Show
-- a16z Live
-- Network State Podcast
+- The a16z Show
+- All-In Podcast
+- BG2 Pod (Brad Gerstner & Bill Gurley)
+- Latent Space: The AI Engineer Podcast
+- Dwarkesh Podcast
+
+On hold (no new episodes): The Jack Mallers Show, Macro Voices — see `podcast_feeds_on_hold.txt`.
 
 ### Newsletters
 - Gmail NEWSLETTERS label
@@ -199,7 +203,7 @@ python3 archive_manager.py archive insights 123 --reason "Replaced by newer"
 ```
 
 ### Add New Podcast
-Edit `curate.py` and add feed URL to `PODCAST_FEEDS`.
+Add the RSS URL to `podcast_feeds.txt` (one URL per line). To pause a feed, move its URL to `podcast_feeds_on_hold.txt`.
 
 ### Update Definitions
 Edit in database or use `archive_manager.py`.
@@ -216,4 +220,4 @@ This is a personal project, but suggestions welcome via issues.
 
 Curated by [6AIndolf](https://github.com/YOUR_USERNAME) 🤖🧙‍♂️
 
-Powered by OpenClaw, SQLite, and automated pipelines.
+Powered by SQLite, Python, GitHub Actions, and automated pipelines.

@@ -29,7 +29,7 @@ See also `WORKSPACE_LAYOUT.md` in the workspace root.
 
 ### Fetch New Emails
 ```bash
-cd ~/.openclaw/workspace/pipeline
+cd "$WORKSPACE_ROOT/pipeline"
 python3 ingest.py
 ```
 
@@ -51,24 +51,25 @@ Set up a cron job to run ingestion daily:
 crontab -e
 
 # Add line for daily run at 8am:
-0 8 * * * cd ~/.openclaw/workspace/pipeline && python3 ingest.py && python3 analyze.py
+0 8 * * * cd "$WORKSPACE_ROOT/pipeline" && python3 ingest.py && python3 analyze.py
 ```
 
-Or use OpenClaw's cron system to schedule runs. For scheduled runs to push to GitHub, set **GITHUB_PUSH_TOKEN** in the workspace `.env` (see MEMORY.md § Scheduled Jobs).
+Schedule runs however you prefer (cron, launchd, or a scheduler UI). To push without interactive auth, set **GITHUB_PUSH_TOKEN** in `.env`.
 
 ## Robust podcast transcription (queue + worker) — recommended
 
 The approach that worked for the All-In episode: **transcription runs in a separate process** (queue + worker), so the main pipeline doesn’t hit OOM, timeouts, or SIGABRT.
 
-1. **Run the worker** (outside the OpenClaw sandbox) so it’s always available:
-   - Worker script: `workspace/whisper_worker.sh`
-   - It watches `workspace/whisper_queue/`, runs Whisper (e.g. `$HOME/anaconda3/bin/whisper`), writes `.txt` + `.meta.json` to `workspace/whisper_done/`.
+1. **Run the worker** (outside restrictive sandboxes so Whisper can finish) so it’s always available:
+   - Worker script: **`$WORKSPACE_ROOT/whisper_worker.sh`**
+   - It watches **`$WORKSPACE_ROOT/whisper_queue/`**, runs Whisper (e.g. `$HOME/anaconda3/bin/whisper`), writes `.txt` + `.meta.json` to **`$WORKSPACE_ROOT/whisper_done/`**.
    - Run it as a **LaunchAgent** or in a dedicated terminal so it keeps processing the queue.
    - Ensure `whisper` is on your PATH (e.g. Anaconda: `conda install -c conda-forge openai-whisper`).
 
 2. **Pipeline uses the queue by default.**  
    When you run `fetch_latest.py` (or the full pipeline), it:
    - Sweeps any completed files from `whisper_done/` into `pipeline/transcripts/`.
+   - After a successful **site push** (`auto_pipeline` / `publish_site.py`), deletes episode **downloads only** (`workspace/audio/`, `pipeline/audio/`, `whisper_queue/`) when the episode is on the site (`added_to_site=1`), fully processed (`is_processed=1`), and the transcript file still exists — **`.txt` transcripts are kept.** Set `DISABLE_AUDIO_CLEANUP=1` to skip. Manual: `python3 fetch_latest.py --cleanup-published-audio`.
    - Downloads new episodes and **enqueues** them (copies audio + meta into `whisper_queue/`).
    - Either **waits** for the worker to finish (default), or **exits after enqueue** if you use enqueue-only (see below).
 
@@ -104,10 +105,10 @@ First run downloads the model to `~/.cache/whisper/`. Use `--model small` or `--
 
 ## Publishing transcripts from whisper_done
 
-When the LaunchAgent (or another process) writes transcripts to `workspace/whisper_done/`, sweep them into the pipeline and refresh the site:
+When the LaunchAgent (or another process) writes transcripts to **`$WORKSPACE_ROOT/whisper_done/`**, sweep them into the pipeline and refresh the site:
 
 ```bash
-cd ~/.openclaw/workspace/pipeline
+cd "$WORKSPACE_ROOT/pipeline"
 python3 sweep_whisper_done_and_publish.py
 ```
 
@@ -116,7 +117,7 @@ This copies any new `.txt` and `.meta.json` from `whisper_done/` to `pipeline/tr
 **Manual steps** (if you prefer):
 
 1. Copy (or move) files:  
-   `cp workspace/whisper_done/ALLIN-E262_Ch_1.txt workspace/whisper_done/ALLIN-E262_Ch_1.meta.json pipeline/transcripts/`
+   `cp $WORKSPACE_ROOT/whisper_done/ALLIN-E262_Ch_1.txt $WORKSPACE_ROOT/whisper_done/ALLIN-E262_Ch_1.meta.json pipeline/transcripts/`
 2. Analyze:  
    `python3 analyze_transcript.py`
 3. Export site:  

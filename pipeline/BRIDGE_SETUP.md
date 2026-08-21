@@ -22,7 +22,7 @@ Bridge exposes IMAP at `localhost:1143`
 
 Once Bridge is running:
 ```bash
-cd ~/.openclaw/workspace/pipeline
+cd $WORKSPACE_ROOT/pipeline
 python3 ingest.py
 ```
 
@@ -38,5 +38,5 @@ The script will connect to Bridge and fetch unread emails.
 
 If Bridge has issues:
 1. Export emails from ProtonMail web
-2. Save .eml files to `~/.openclaw/workspace/pipeline/inbox/`
+2. Save .eml files to `$WORKSPACE_ROOT/pipeline/inbox/`
 3. Run `python3 ingest.py --manual`

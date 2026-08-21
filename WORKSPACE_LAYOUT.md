@@ -1,6 +1,6 @@
 # Workspace Layout
 
-How the OpenClaw workspace is organized and where to find things.
+How this repository root is organized and where pipeline vs site artifacts live.
 
 ## Root
 
@@ -16,10 +16,10 @@ How the OpenClaw workspace is organized and where to find things.
 | `whisper_queue/` | Audio files waiting for transcription (worker consumes) |
 | `whisper_done/` | Completed transcripts from worker (swept into pipeline) |
 | `whisper_worker.sh` | LaunchAgent script: watches queue, runs Whisper, writes to whisper_done |
-| `podcast_feeds.txt` | RSS feed URLs (one per line) for fetch_latest |
+| `podcast_feeds.txt` | Active RSS feed URLs (one per line) for fetch_latest / curate |
+| `podcast_feeds_on_hold.txt` | Paused feeds — skipped until moved back to active list |
 | `pipeline/` | Data pipeline: fetch → transcribe → analyze → export |
 | `site/` | Static site (data, charts, index) |
-| `scripts/` | One-off and helper scripts (Twitter RSS, etc.) |
 | `contacts.py`, `contact_api.py`, `contact_search.py` | Contact form backend and APIs |
 | `pushover.sh`, `send_imessage.sh` | Notifications (used by pipeline) |
 | `pending_contacts.json` | Pending contact form submissions |
@@ -43,6 +43,7 @@ How the OpenClaw workspace is organized and where to find things.
 - **Analyze + export only:** `python3 auto_pipeline.py --analyze-only`
 - **Sweep whisper_done and publish:** `python3 sweep_whisper_done_and_publish.py`
 - **Fetch latest (enqueue):** `python3 fetch_latest.py` or `python3 fetch_latest.py --queue-only`
+- **Term review (local UI):** from `pipeline/`, run `./run_term_admin.sh`; it opens http://127.0.0.1:8765. Approvals reach the public site on the next export.
 
 ## site/
 

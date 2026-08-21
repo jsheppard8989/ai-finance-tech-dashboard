@@ -798,7 +798,7 @@ def _rss_filter_criteria():
     criteria = {
         "cutoff_date": CUTOFF_DATE_ISO,
         "approval": "Feed list is the filter. If a feed is in podcast_feeds.txt, all its episodes (within window) are approved. No per-episode relevance score.",
-        "feeds": "podcast_feeds.txt; episodes already in DB (by rss_guid) are skipped.",
+        "feeds": "podcast_feeds.txt (active); podcast_feeds_on_hold.txt (paused — no new fetch/transcribe). Episodes already in DB (by rss_guid) are skipped.",
     }
     if CURRENT_MONTH_ONLY:
         criteria["window"] = "Current calendar month only (forward-looking; no backfill of prior months)."

@@ -12,7 +12,8 @@ import hashlib
 from pathlib import Path
 from datetime import datetime, date
 
-from workspace_paths import AUDIO_DIR, DB_PATH, FEEDS_FILE, STATE_DIR, TRANSCRIPT_DIR
+from workspace_paths import AUDIO_DIR, DB_PATH, FEEDS_FILE, FEEDS_ON_HOLD_FILE, STATE_DIR, TRANSCRIPT_DIR
+from podcast_feeds_util import load_active_feeds, load_on_hold_feeds
 
 # Config
 CURATION_LOG = STATE_DIR / "curation_log.json"
@@ -28,15 +29,8 @@ from cutoff_date import CUTOFF_DATE_ISO, is_before_cutoff
 # We do not apply per-episode relevance scoring; if it's in the feed list, it's relevant.
 
 def load_feeds():
-    """Load podcast feed URLs from file."""
-    feeds = []
-    if FEEDS_FILE.exists():
-        with open(FEEDS_FILE, 'r') as f:
-            for line in f:
-                line = line.strip()
-                if line.startswith('http'):
-                    feeds.append(line)
-    return feeds
+    """Load active podcast feed URLs (excludes podcast_feeds_on_hold.txt)."""
+    return load_active_feeds()
 
 def fetch_feed_metadata(feed_url, skip_if_in_db=True):
     """Fetch and parse RSS feed to get episode metadata.
@@ -311,7 +305,12 @@ def main():
     
     # Load feeds
     feeds = load_feeds()
-    print(f"\nFound {len(feeds)} podcast feeds")
+    on_hold = load_on_hold_feeds()
+    print(f"\nFound {len(feeds)} active podcast feeds")
+    if on_hold:
+        print(f"On hold ({len(on_hold)} feeds — see {FEEDS_ON_HOLD_FILE.name}):")
+        for url in on_hold:
+            print(f"  ⏸ {url}")
     
     if not feeds:
         print(f"\nNo feeds found. Create {FEEDS_FILE}")

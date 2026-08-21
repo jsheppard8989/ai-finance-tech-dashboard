@@ -57,14 +57,10 @@ Sorting on the front page uses these scores; Overton will get a 30‑day half‑
 
 **Cursor (this assistant):**
 
-- Optimized for: code, pipeline wiring, local tools, HEARTBEAT/MEMORY updates.
-- Treat as the “Clawbot brain” for design and implementation work.
+- Optimized for: code, pipeline wiring, local tools, docs/HEARTBEAT-style status notes where you keep them.
+- Treat Cursor as the place to design pipeline changes before they land in git.
 
-**OpenClaw agents (Clawbot / WhatsApp / iMessage / cron):**
-
-- **Primary:** `openai/gpt-4o` — set in `~/.openclaw/openclaw.json` (`agents.defaults.model.primary`).  
-- **Fallbacks:** `gpt-5-chat-latest`, Kimi, Sonnet, `gpt-5`, then `gpt-4o-mini` for cost if upstream fails.  
-- Heartbeats should stay *light* (read JSONs); only trigger heavy pipeline work when stale or blocked.
+**Other assistants / bots (outside this repo):** model choice belongs in whichever host configures them; keep outbound heartbeats cheap (read lightweight JSON/state) and invoke `auto_pipeline.py` only when data is stale or blocked.
 
 ---
 

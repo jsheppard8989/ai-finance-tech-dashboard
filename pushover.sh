@@ -15,8 +15,8 @@ fi
 USER_KEY="$PUSHOVER_USER_KEY"
 APP_TOKEN="$PUSHOVER_APP_TOKEN"
 
-TITLE="${1:-OpenClaw Alert}"
-MESSAGE="${2:-Notification from OpenClaw}"
+TITLE="${1:-Dashboard pipeline alert}"
+MESSAGE="${2:-Notification from scarcity-abundance pipeline}"
 PRIORITY="${3:-0}"
 
 curl -s \

@@ -1,12 +1,13 @@
 #!/bin/bash
-# whisper_worker.sh — runs outside OpenClaw sandbox as a LaunchAgent
-# Watches ~/.openclaw/workspace/whisper_queue/ for .mp3 files
-# Transcribes each one, writes .txt to whisper_done/, writes .done marker
+# Transcription worker (LaunchAgent): watches whisper_queue/, writes transcripts to whisper_done/
+# Repo layout: whisper_queue/ and whisper_done/ at workspace root next to pipeline/ and site/
 
-QUEUE_DIR="$HOME/.openclaw/workspace/whisper_queue"
-DONE_DIR="$HOME/.openclaw/workspace/whisper_done"
-WHISPER="$HOME/anaconda3/bin/whisper"
-LOG="$HOME/.openclaw/workspace/whisper_worker.log"
+REPO_ROOT="$(cd "$(dirname "${BASH_SOURCE[0]}")" && pwd)"
+: "${WORKSPACE_ROOT:=$REPO_ROOT}"
+QUEUE_DIR="$WORKSPACE_ROOT/whisper_queue"
+DONE_DIR="$WORKSPACE_ROOT/whisper_done"
+WHISPER="${WHISPER:-$HOME/anaconda3/bin/whisper}"
+LOG="${WORKSPACE_ROOT}/whisper_worker.log"
 
 mkdir -p "$QUEUE_DIR" "$DONE_DIR"
 
@@ -14,7 +15,7 @@ log() {
     echo "[$(date '+%Y-%m-%d %H:%M:%S')] $1" | tee -a "$LOG"
 }
 
-log "=== Whisper worker started ==="
+log "=== Whisper worker started (WORKSPACE_ROOT=$WORKSPACE_ROOT) ==="
 
 while true; do
     # Look for any .mp3 files in queue (skip ones with a .processing marker)

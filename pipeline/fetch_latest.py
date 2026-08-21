@@ -24,12 +24,14 @@ from workspace_paths import (
     AUDIO_DIR,
     DB_PATH,
     FEEDS_FILE,
+    FEEDS_ON_HOLD_FILE,
     PIPELINE_AUDIO_DIR,
     PIPELINE_DIR,
     TRANSCRIPT_DIR,
     WHISPER_DONE_DIR,
     WHISPER_QUEUE_DIR,
 )
+from podcast_feeds_util import load_active_feeds, load_on_hold_feeds
 # Hard stop: do not download anything older than Feb 2026
 from cutoff_date import is_before_cutoff
 
@@ -40,15 +42,8 @@ TRANSCRIPT_DIR.mkdir(parents=True, exist_ok=True)
 PIPELINE_AUDIO_DIR.mkdir(parents=True, exist_ok=True)
 
 def load_feeds():
-    """Load podcast feed URLs from file."""
-    feeds = []
-    if FEEDS_FILE.exists():
-        with open(FEEDS_FILE, 'r') as f:
-            for line in f:
-                line = line.strip()
-                if line.startswith('http'):
-                    feeds.append(line)
-    return feeds
+    """Load active podcast feed URLs (excludes podcast_feeds_on_hold.txt)."""
+    return load_active_feeds()
 
 def fetch_latest_episode(feed_url, max_age_days=14, max_items_scan=25):
     """Pick the newest RSS episode for this feed that passes date rules and is not already in the DB.
@@ -290,32 +285,13 @@ def download_episode(episode):
                 pass
         return None
 
-def _delete_audio_for_stem(stem: str) -> int:
-    """Delete episode audio for this transcript stem under workspace/audio, whisper_queue, pipeline/audio."""
-    deleted = 0
-    for base_dir in (AUDIO_DIR, WHISPER_QUEUE_DIR, PIPELINE_AUDIO_DIR):
-        if not base_dir.exists():
-            continue
-        for ext in (".mp3", ".m4a"):
-            path = base_dir / f"{stem}{ext}"
-            if path.exists():
-                try:
-                    path.unlink()
-                    deleted += 1
-                except OSError:
-                    pass
-    return deleted
-
-
-def cleanup_audio_for_site_published_episodes() -> int:
+def cleanup_audio_for_site_published_episodes(*, dry_run: bool = False) -> int:
     """
-    Remove downloaded episode audio once an episode is on the site (DB added_to_site=1),
-    is fully processed (is_processed=1), and the transcript file still exists on disk.
+    Remove downloaded episode audio only after completed analysis, Deep Dive generation,
+    and inclusion in the successfully published site bundle.
 
-    Keeps transcripts and site assets under site/audio. Skips entirely if DISABLE_AUDIO_CLEANUP=1.
-
-    Call after export/publish (e.g. after a successful git push) so unpublished work-in-flight
-    still keeps its MP3s.
+    Keeps transcripts and all site/audio assets. The CLI uses dry-run unless --execute
+    is also supplied; post-publish callers retain the historical destructive default.
 
     Returns the number of audio files removed.
     """
@@ -323,49 +299,22 @@ def cleanup_audio_for_site_published_episodes() -> int:
         print("  ⏭ Audio cleanup skipped (DISABLE_AUDIO_CLEANUP is set)")
         return 0
     try:
-        from db_manager import get_db
+        from audio_cleanup import cleanup_published_episode_audio
     except ImportError:
-        print("  ⚠ Audio cleanup skipped: db_manager unavailable")
+        print("  ⚠ Audio cleanup skipped: audio_cleanup unavailable")
         return 0
 
-    db = get_db()
-    deleted_total = 0
-    stems_done: set[str] = set()
-    query = """
-        SELECT DISTINCT transcript_path
-        FROM podcast_episodes
-        WHERE added_to_site = 1
-          AND is_processed = 1
-          AND transcript_path IS NOT NULL
-          AND TRIM(transcript_path) != ''
-    """
     try:
-        with db._get_connection() as conn:
-            rows = conn.execute(query).fetchall()
-        for row in rows:
-            raw = (row["transcript_path"] or "").strip()
-            if not raw:
-                continue
-            tp = Path(raw)
-            if not tp.is_absolute():
-                tp = (PIPELINE_DIR / tp).resolve()
-            else:
-                tp = tp.resolve()
-            if tp.suffix.lower() != ".txt":
-                continue
-            if not tp.is_file():
-                continue
-            stem = tp.stem
-            if stem in stems_done:
-                continue
-            stems_done.add(stem)
-            deleted_total += _delete_audio_for_stem(stem)
-        if deleted_total:
-            print(
-                f"  ✓ Post-publish audio cleanup: removed {deleted_total} file(s) "
-                f"(kept transcripts; unpublished episodes untouched)"
-            )
-        return deleted_total
+        report = cleanup_published_episode_audio(dry_run=dry_run)
+        verb = "would remove" if dry_run else "removed"
+        print(
+            f"  ✓ Post-publish audio cleanup: {verb} {report['eligible_files'] if dry_run else report['deleted_files']} "
+            f"file(s), {report['eligible_bytes'] if dry_run else report['deleted_bytes']} bytes "
+            f"(transcripts and site audio protected)"
+        )
+        for reason, count in report["retained_by_reason"].items():
+            print(f"    retained {count}: {reason}")
+        return report["eligible_files"] if dry_run else report["deleted_files"]
     except Exception as e:
         print(f"  ⚠ Audio cleanup skipped: {e}")
         return 0
@@ -374,7 +323,7 @@ def cleanup_audio_for_site_published_episodes() -> int:
 def sweep_completed_transcripts():
     """
     Sweep completed transcripts from whisper_done into pipeline/transcripts.
-    Source MP3s are left in place until the episode is on the site — see cleanup_audio_for_site_published_episodes().
+    Source MP3s remain until analysis, Deep Dive, and publication complete.
     """
     WHISPER_DONE_DIR.mkdir(parents=True, exist_ok=True)
     TRANSCRIPT_DIR.mkdir(parents=True, exist_ok=True)
@@ -395,7 +344,7 @@ def sweep_completed_transcripts():
             shutil.move(str(meta), str(dest))
             moved += 1
 
-    # Keep corresponding MP3s until the episode is on the site (see cleanup_audio_for_site_published_episodes).
+    # Keep MP3s until conservative post-publish cleanup confirms full eligibility.
 
     if moved:
         print(f"  ✓ Swept {moved} completed transcript file(s) from whisper_done into transcripts")
@@ -404,7 +353,7 @@ def sweep_completed_transcripts():
 def cleanup_orphan_audio():
     """
     Deprecated: transcripts alone no longer trigger audio deletion.
-    Audio is removed only after episodes are marked on-site — see cleanup_audio_for_site_published_episodes().
+    Audio is removed only after completed analysis, Deep Dive, and publication.
     """
     cleanup_audio_for_site_published_episodes()
 
@@ -571,8 +520,10 @@ def main():
 
     if "--cleanup-published-audio" in sys.argv:
         print("Cleaning up workspace audio for site-published episodes (transcripts retained)...")
-        n = cleanup_audio_for_site_published_episodes()
-        print(f"Done ({n} audio file(s) removed).")
+        execute = "--execute" in sys.argv
+        n = cleanup_audio_for_site_published_episodes(dry_run=not execute)
+        action = "removed" if execute else "eligible (dry-run; pass --execute to delete)"
+        print(f"Done ({n} audio file(s) {action}).")
         return
 
     print("=" * 70)
@@ -583,7 +534,10 @@ def main():
     sweep_completed_transcripts()
 
     feeds = load_feeds()
-    print(f"\nFound {len(feeds)} podcast feeds")
+    on_hold = load_on_hold_feeds()
+    print(f"\nFound {len(feeds)} active podcast feeds")
+    if on_hold:
+        print(f"On hold ({len(on_hold)} feeds — see {FEEDS_ON_HOLD_FILE.name})")
     
     if not feeds:
         print(f"\nNo feeds found. Check {FEEDS_FILE}")

@@ -1,6 +1,6 @@
 # Website & pipeline audit (2026-04-15)
 
-This document records **inconsistencies**, **scheduling risks**, and **push/data-path** gaps found in-repo. Use it to prioritize fixes; it is not a substitute for checking what is actually **loaded** on your Mac (`launchctl list`, OpenClaw cron UI, and `crontab -l`).
+This document records **inconsistencies**, **scheduling risks**, and **push/data-path** gaps found in-repo. Use it to prioritize fixes; it is not a substitute for checking what is actually **loaded** on your Mac (`launchctl list`, your scheduler UI if you use one, and `crontab -l`).
 
 ---
 
@@ -8,23 +8,23 @@ This document records **inconsistencies**, **scheduling risks**, and **push/data
 
 | Source | What it claims |
 |--------|----------------|
-| **`docs/AUTOMATION.md` + `docs/launchd/*.plist`** | **22:00** and **05:00** `StartCalendarInterval`; optional **LaunchDaemon** every **5 min** → `run_if_scheduled.sh` (windows **22:00–22:20** and **05:00–05:20**); optional catch-up on login. |
-| **`MEMORY.md` § Scheduled Jobs** | **OpenClaw cron** table: midnight analyze-only, 4am curate+fetch, **7am** morning publish, **12pm** midday, **10pm** evening — **not** defined in repo plists. |
+| **`docs/AUTOMATION.md` + `docs/launchd/*.plist`** | Calendar runs plus an optional user **LaunchAgent** interval fallback → `run_if_scheduled.sh`; optional catch-up on login. |
+| **`MEMORY.md` § Scheduled Jobs** | May list extra times (e.g. midnight, 4am, 7am, midday) that are **not** defined in repo plists. |
 | **`pipeline/run_midday_refresh.sh`** | **No git push** — comments say export only; safe for launchd. |
 
-**Inconsistency:** Jobs listed only in **MEMORY / OpenClaw** cannot be verified from this repository. The **repo** only ships **evening/morning calendar plists** and daemon/catch-up helpers.
+**Inconsistency:** Jobs listed only in **MEMORY** (or another host) cannot be verified from this repository. The **repo** ships **evening/morning calendar plists** and daemon/catch-up helpers.
 
-**Risk:** Believing MEMORY’s table matches **launchd** can leave you thinking 7am/12pm runs exist when only **OpenClaw** runs them—or the opposite.
+**Risk:** Believing MEMORY’s table matches **launchd** can leave you thinking 7am/12pm runs exist when they are handled elsewhere—or the opposite.
 
-**Recommendation:** Maintain **one** schedule table (e.g. in `docs/AUTOMATION.md`) that distinguishes **(A)** launchd plist jobs, **(B)** OpenClaw cron jobs, **(C)** manual. Update MEMORY to link to that table instead of duplicating times.
+**Recommendation:** Maintain **one** schedule table (e.g. in `docs/AUTOMATION.md`) that distinguishes **(A)** launchd plist jobs, **(B)** any other cron/scheduler jobs, **(C)** manual. Update MEMORY to link to that table instead of duplicating times.
 
 ---
 
 ## 2. Double scheduling: daemon vs calendar plist
 
-`docs/AUTOMATION.md` says: if you use the **LaunchDaemon**, **unload** the user **schedule** plist so the pipeline does not run twice.
+Avoid loading redundant calendar and interval runners under multiple legacy labels; they can start the pipeline twice.
 
-**Risk:** If **both** `com.openclaw.pipeline.schedule` (22:00 / 05:00) **and** `com.openclaw.pipeline.daemon` are loaded, you can get **overlapping** full `auto_pipeline.py` runs. The daemon’s **90-minute** gate and marker file reduce duplicates but do not eliminate races if two triggers fire close together.
+**Risk:** If **both** `com.scarcity.pipeline.schedule` (22:00 / 05:00) **and** `com.scarcity.pipeline.daemon` are loaded, you can get **overlapping** full `auto_pipeline.py` runs. The daemon’s **90-minute** gate and marker file reduce duplicates but do not eliminate races if two triggers fire close together.
 
 **Recommendation:** Document **current** install state in one line in `MEMORY.md` or `docs/AUTOMATION.md`: *“Active: daemon only”* or *“schedule plist only”*.
 
@@ -94,7 +94,7 @@ This violates the **“no hardcoded insights”** rule in **`MEMORY.md`** audit 
 ## 8. HEARTBEAT vs MEMORY (pipeline auto-run)
 
 - **`HEARTBEAT.md`:** Do **not** run **`auto_pipeline.py`** from heartbeat; only notify if stale.
-- **`MEMORY.md`:** Implies heartbeat/Clawbot may run **`auto_pipeline`** when stale beyond threshold.
+- **`MEMORY.md`:** May imply an external notifier may run **`auto_pipeline`** when stale beyond threshold.
 
 **These conflict.** The live policy should be **one sentence** in both files (recommend: **HEARTBEAT wins** unless Jared explicitly asks to auto-run).
 
@@ -123,7 +123,7 @@ This violates the **“no hardcoded insights”** rule in **`MEMORY.md`** audit 
 
 ## Priority actions (suggested order)
 
-1. **Reconcile schedules:** One doc for launchd vs OpenClaw; fix midday **push** story vs **`run_midday_refresh.sh`**.
+1. **Reconcile schedules:** One doc for launchd vs any other runners; fix midday **push** story vs **`run_midday_refresh.sh`**.
 2. **Narrow default `git_push`** for pipeline to **`site/`** (or document “clean tree before run”).
 3. **Remove or debug-gate `embeddedInsights`** on **`index.html`**.
 4. **Align cache-busting** across all pages loading **`data.js`**.
@@ -132,4 +132,4 @@ This violates the **“no hardcoded insights”** rule in **`MEMORY.md`** audit 
 
 ---
 
-*Generated from repository inspection; actual loaded LaunchAgents/OpenClaw jobs may differ on disk.*
+*Generated from repository inspection; actual loaded LaunchAgents and cron entries may differ on disk.*

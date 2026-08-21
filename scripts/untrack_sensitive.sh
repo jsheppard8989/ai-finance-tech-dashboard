@@ -1,7 +1,7 @@
 #!/usr/bin/env bash
-# Stop tracking Openclaw and sensitive files (files stay on disk).
+# Stop tracking local-only agent/sensitive paths (files stay on disk).
 # Run from workspace root: ./scripts/untrack_sensitive.sh
-# Then: git add .gitignore && git commit -m "Stop tracking Openclaw and sensitive files" && git push origin main
+# Then: git add .gitignore && git commit -m "Stop tracking local-only sensitive files" && git push origin main
 
 set -e
 cd "$(dirname "$0")/.."
@@ -16,4 +16,4 @@ git rm -r --cached memory/ 2>/dev/null || true
 # git rm -r --cached pipeline/inbox/ 2>/dev/null || true
 
 echo "Done. Staged: untracked paths. Files remain on disk."
-echo "Next: git add .gitignore && git commit -m \"Stop tracking Openclaw and sensitive files; add to .gitignore\" && git push origin main"
+echo "Next: git add .gitignore && git commit -m \"Stop tracking local-only sensitive files; add to .gitignore\" && git push origin main"

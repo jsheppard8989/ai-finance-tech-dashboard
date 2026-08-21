@@ -88,7 +88,7 @@ The goal is to keep this **isolated from the finance/AI dashboard**, so your mai
 From the workspace root:
 
 ```bash
-cd ~/.openclaw/workspace/nfl_backtest
+cd $WORKSPACE_ROOT/nfl_backtest
 python3 backtest.py
 ```
 

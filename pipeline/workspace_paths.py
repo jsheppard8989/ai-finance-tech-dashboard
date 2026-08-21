@@ -35,6 +35,7 @@ INBOX_DIR = PIPELINE_DIR / "inbox"
 NEWSLETTER_PROCESSED_DIR = PIPELINE_DIR / "processed"
 PROCESSING_MARKER_DIR = NEWSLETTER_PROCESSED_DIR
 FEEDS_FILE = _WS / "podcast_feeds.txt"
+FEEDS_ON_HOLD_FILE = _WS / "podcast_feeds_on_hold.txt"
 TRANSCRIPTION_LOG_JSON = _WS / "transcription_log.json"
 
 

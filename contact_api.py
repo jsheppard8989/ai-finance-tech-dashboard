@@ -6,9 +6,13 @@ and trigger a pushover notification.
 from http.server import BaseHTTPRequestHandler, HTTPServer
 import json, time, subprocess
 from datetime import datetime
+import sys
 from pathlib import Path
 
-WORKSPACE = Path.home() / ".openclaw/workspace"
+_REPO = Path(__file__).resolve().parent
+sys.path.insert(0, str(_REPO / "pipeline"))
+from workspace_paths import WORKSPACE_ROOT as WORKSPACE
+
 PENDING_FILE = WORKSPACE / "pending_contacts.json"
 PUSHOVER_SCRIPT = WORKSPACE / "pushover.sh"
 

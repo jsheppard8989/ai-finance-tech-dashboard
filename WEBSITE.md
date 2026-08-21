@@ -25,7 +25,7 @@ Everything the main page shows is **derived from one SQLite database** (`pipelin
 
 ### 1. Ingestion
 
-- **Podcasts:** RSS feeds in `podcast_feeds.txt` → download → audio is transcribed (often via a **queue + worker** so long episodes do not crash the main pipeline).
+- **Podcasts:** Active RSS feeds in `podcast_feeds.txt` → download → audio is transcribed (often via a **queue + worker** so long episodes do not crash the main pipeline). Paused feeds live in `podcast_feeds_on_hold.txt`.
 - **Newsletters:** Email ingestion (e.g. Gmail IMAP) writes structured content into the pipeline inbox for analysis.
 
 ### 2. Analysis and storage
@@ -45,7 +45,7 @@ Everything the main page shows is **derived from one SQLite database** (`pipelin
 
 ### 5. Automation on your machine (optional but normal)
 
-- **Cron / LaunchAgent / OpenClaw** runs `auto_pipeline.py` or `export_data.py` on a schedule so the DB and `site/data/` stay fresh without manual steps.
+- **Cron, launchd, or another scheduler** runs `auto_pipeline.py` or `export_data.py` on a cadence so the DB and `site/data/` stay fresh without manual steps.
 
 ---
 

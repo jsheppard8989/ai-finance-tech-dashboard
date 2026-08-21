@@ -89,6 +89,29 @@ def friday_iso_cst(d: Optional[datetime] = None) -> str:
     return str(target)
 
 
+def now_cst_context() -> str:
+    """Human-readable clock + contract window for LLM prompts."""
+    try:
+        from zoneinfo import ZoneInfo
+
+        tz = ZoneInfo("America/Chicago")
+        now = datetime.now(tz)
+    except Exception:
+        now = datetime.now()
+        tz = None
+    friday = friday_iso_cst(now)
+    resolves = resolves_iso_from_friday(friday)
+    if tz:
+        stamp = now.strftime("%A, %B %d, %Y %I:%M %p %Z")
+    else:
+        stamp = now.strftime("%A, %B %d, %Y %I:%M %p")
+    return (
+        f"TODAY (America/Chicago): {stamp}\n"
+        f"Current contract Friday: {friday}\n"
+        f"Resolution date (+42 days): {resolves}"
+    )
+
+
 def load_pundits() -> List[Dict[str, Any]]:
     if not PUNDITS_PATH.exists():
         return []
@@ -519,6 +542,35 @@ def validate_prompt_temporal_window(prompt: str, friday_iso: str, resolves_iso: 
     return True, ""
 
 
+def validate_prompt_event_plausibility(prompt: str, friday_iso: str, resolves_iso: str) -> Tuple[bool, str]:
+    """
+    Reject contracts that imply elections or chamber flips unlikely inside a 42-day window.
+    """
+    pl = (prompt or "").lower()
+    if re.search(r"\b(senate|house of representatives|u\.s\. house)\b", pl) and re.search(
+        r"\b(control(?:led by)?|majority|flip|takeover)\b", pl
+    ):
+        if not re.search(r"\b(special election|runoff|recall|by-election)\b", pl):
+            return (
+                False,
+                "Chamber-control questions usually require an election outside a 42-day window; "
+                "pick a policy, market, or local-government event instead.",
+            )
+    if re.search(r"\b(presidential|parliamentary|general) election\b", pl):
+        for raw, d in _extract_prompt_calendar_dates(prompt):
+            try:
+                window_start = datetime.strptime((friday_iso or "")[:10], "%Y-%m-%d").date()
+                window_end = datetime.strptime((resolves_iso or "")[:10], "%Y-%m-%d").date()
+            except Exception:
+                return False, "invalid date window for election check"
+            if d < window_start or d > window_end:
+                return (
+                    False,
+                    f"Election date '{raw}' is outside friday_iso–resolves_iso ({window_start} to {window_end}).",
+                )
+    return True, ""
+
+
 def generate_contract(
     client_kind: str,
     client: Any,
@@ -534,6 +586,7 @@ def generate_contract(
     system = """You are the editorial brain for a weekly investor debate show.
 Return ONLY valid JSON with keys:
   "prompt": string — one clear Yes/No question, falsifiable within ~42 days, no single-stock tickers (no AAPL, NVDA, etc.); themes like AI, rates, labor, policy, macro, crypto OK. Phrase the time window as **within the next 42 days** — do not use "by the end of the next 42 days".
+  "editorial_note": string — 2–4 sentences explaining why WE picked this topic this week (feed friction, podcast themes, market relevance). Write in first-person plural ("we").
   "expires_rule": string — human-readable e.g. "Resolves Friday 12:00 PM CST YYYY-MM-DD" (pick date = contract Friday + 42 days). Use the CURRENT calendar year from context.
   "crux_theme": short label for the substance (e.g. "AI labor", "rates path").
   "resolution_clarity": { "source_of_truth": string, "resolution_sources": [string], "resolution_criteria": [string] } — concrete enough to settle the bet (feeds, agencies, official data), not vague.
@@ -543,6 +596,7 @@ PRIMARY SOURCE OF TRUTH FOR TOPICS:
 - Do NOT invent synthetic index price strikes from memory (e.g. outdated S&P levels). If the question involves S&P / SPX / S&P 500, you MUST follow the numeric rules in the LIVE REFERENCE block.
 - If you cannot meet those rules, choose a non-index Polymarket theme instead of a bad index question.
 - STRICT TEMPORAL WINDOW: the contract Friday and resolution date are provided below. Any explicit calendar date mentioned in the prompt/criteria must fall inside that window. Do not use past-year windows.
+- TODAY's date/time is in the user message. Never write contracts about U.S. Senate/House control or national elections unless a verifiable election falls between friday_iso and resolves_iso.
 
 Anti-stale rules:
 - Each week must feel NEW: different theme AND different numeric thresholds than recent weeks unless unavoidable.
@@ -559,7 +613,9 @@ Anti-stale rules:
     macro = (macro_reference_block or "").strip() or "(No live macro reference — prefer non-numeric Polymarket themes.)"
     banned_block = f"\n\n{banned_nums}\n" if banned_nums else "\n"
     retry_block = f"\n\nVALIDATION RETRY — fix this issue and regenerate JSON only:\n{retry_hint}\n" if retry_hint.strip() else ""
-    user = f"""Contract date window (HARD CONSTRAINT):
+    user = f"""{now_cst_context()}
+
+Contract date window (HARD CONSTRAINT):
 - friday_iso: {friday_iso or "(missing)"}
 - resolves_iso: {resolves_iso or "(missing)"}
 - Prompt/criteria must stay inside this window OR use only "within the next 42 days".
@@ -581,6 +637,7 @@ Produce ONE fresh contract JSON. The question must be specific enough to argue y
         if k not in data or not str(data[k]).strip():
             raise ValueError(f"LLM contract missing {k}")
     data.setdefault("crux_theme", "")
+    data.setdefault("editorial_note", "")
     data.setdefault("resolution_clarity", {})
     data["sides"] = {"a": "Affirmative (YES)", "b": "Negative (NO)"}
     return data
@@ -1133,10 +1190,23 @@ def main() -> int:
             friday,
             (contract_core.get("resolves_iso") or resolves_iso),
         )
-        if ok_macro and ok_time:
+        ok_event, err_event = validate_prompt_event_plausibility(
+            (contract_core.get("prompt") or "").strip(),
+            friday,
+            (contract_core.get("resolves_iso") or resolves_iso),
+        )
+        if ok_macro and ok_time and ok_event:
             contract_ok = True
             break
-        errs = [e for e in (err_macro if not ok_macro else "", err_time if not ok_time else "") if e]
+        errs = [
+            e
+            for e in (
+                err_macro if not ok_macro else "",
+                err_time if not ok_time else "",
+                err_event if not ok_event else "",
+            )
+            if e
+        ]
         retry_hint = " | ".join(errs) if errs else "validation failed"
         print(f"  ⚠ Contract validation {attempt + 1}/3 failed: {retry_hint}")
 

@@ -7,12 +7,16 @@ Processes submissions, sends verification messages, and stores verified contacts
 import json
 import os
 import re
+import sys
 import time
 from datetime import datetime
 from pathlib import Path
 
+_REPO = Path(__file__).resolve().parent
+sys.path.insert(0, str(_REPO / "pipeline"))
+from workspace_paths import WORKSPACE_ROOT as WORKSPACE
+
 # Paths
-WORKSPACE = Path.home() / ".openclaw/workspace"
 CONTACTS_FILE = WORKSPACE / "contacts.json"
 PENDING_FILE = WORKSPACE / "pending_contacts.json"
 LOG_FILE = WORKSPACE / "contact_log.txt"

@@ -20,6 +20,18 @@ OVERTON_MAIN_PAGE_LIMIT = 13
 # Same visual scale as pundit Presence bars (decayed score before capping to 100%)
 RESONANCE_SCORE_CAP = 4.0
 
+
+def _sort_pundits_for_site(pundits: List[Dict]) -> List[Dict]:
+    """Most recent appearance first; frequency breaks recency ties."""
+    ordered = sorted(
+        pundits,
+        key=lambda p: ((p.get("name") or "").casefold(), p.get("id") or 0),
+    )
+    ordered.sort(key=lambda p: p.get("mention_score") or 0, reverse=True)
+    ordered.sort(key=lambda p: str(p.get("last_seen") or ""), reverse=True)
+    return ordered
+
+
 @dataclass
 class TickerMention:
     ticker: str
@@ -217,11 +229,25 @@ class DashboardDB:
                 "ALTER TABLE suggested_terms ADD COLUMN last_seen_episode_id INTEGER",
                 "ALTER TABLE suggested_terms ADD COLUMN first_seen_speaker TEXT",
                 "ALTER TABLE suggested_terms ADD COLUMN last_seen_speaker TEXT",
+                "ALTER TABLE suggested_terms ADD COLUMN speaker_quote TEXT",
             ]:
                 try:
                     conn.execute(col_sql)
                 except sqlite3.OperationalError:
                     pass
+
+            conn.execute("""
+                CREATE TABLE IF NOT EXISTS term_aliases (
+                    id INTEGER PRIMARY KEY AUTOINCREMENT,
+                    canonical_term TEXT NOT NULL,
+                    alias TEXT NOT NULL UNIQUE COLLATE NOCASE,
+                    created_at TIMESTAMP DEFAULT CURRENT_TIMESTAMP
+                )
+            """)
+            conn.execute(
+                "CREATE INDEX IF NOT EXISTS idx_term_aliases_canonical ON term_aliases(canonical_term)"
+            )
+            self._seed_term_aliases(conn)
             for col_sql in [
                 "ALTER TABLE overton_terms ADD COLUMN first_detected_episode_id INTEGER",
                 "ALTER TABLE overton_terms ADD COLUMN first_detected_speaker TEXT",
@@ -232,6 +258,115 @@ class DashboardDB:
                     conn.execute(col_sql)
                 except sqlite3.OperationalError:
                     pass
+
+    # === Term Aliases ===
+
+    def _seed_term_aliases(self, conn) -> None:
+        """Load term_aliases.json into term_aliases table when empty."""
+        count = conn.execute("SELECT COUNT(*) AS n FROM term_aliases").fetchone()["n"]
+        if count:
+            return
+        json_path = Path(__file__).parent / "term_aliases.json"
+        if not json_path.exists():
+            return
+        data = json.loads(json_path.read_text(encoding="utf-8"))
+        for group in data.get("merges") or []:
+            canonical = (group.get("canonical") or "").strip()
+            if not canonical:
+                continue
+            for alias in group.get("aliases") or []:
+                alias_clean = (alias or "").strip()
+                if not alias_clean or alias_clean.lower() == canonical.lower():
+                    continue
+                try:
+                    conn.execute(
+                        "INSERT INTO term_aliases (canonical_term, alias) VALUES (?, ?)",
+                        (canonical, alias_clean),
+                    )
+                except sqlite3.IntegrityError:
+                    pass
+
+    def seed_term_aliases_from_json(self) -> int:
+        """Insert any new aliases from term_aliases.json (idempotent). Returns rows added."""
+        json_path = Path(__file__).parent / "term_aliases.json"
+        if not json_path.exists():
+            return 0
+        data = json.loads(json_path.read_text(encoding="utf-8"))
+        added = 0
+        with self._get_connection() as conn:
+            for group in data.get("merges") or []:
+                canonical = (group.get("canonical") or "").strip()
+                if not canonical:
+                    continue
+                for alias in group.get("aliases") or []:
+                    alias_clean = (alias or "").strip()
+                    if not alias_clean or alias_clean.lower() == canonical.lower():
+                        continue
+                    try:
+                        conn.execute(
+                            "INSERT INTO term_aliases (canonical_term, alias) VALUES (?, ?)",
+                            (canonical, alias_clean),
+                        )
+                        added += 1
+                    except sqlite3.IntegrityError:
+                        pass
+        return added
+
+    def resolve_term(self, raw: str) -> str:
+        """Map alias strings to canonical term (case preserved from canonical row)."""
+        raw_clean = (raw or "").strip()
+        if not raw_clean:
+            return raw_clean
+        with self._get_connection() as conn:
+            row = conn.execute(
+                """
+                SELECT canonical_term FROM term_aliases
+                WHERE LOWER(TRIM(alias)) = LOWER(?)
+                """,
+                (raw_clean,),
+            ).fetchone()
+            if row:
+                return row["canonical_term"]
+            row = conn.execute(
+                """
+                SELECT canonical_term FROM term_aliases
+                WHERE LOWER(TRIM(canonical_term)) = LOWER(?)
+                LIMIT 1
+                """,
+                (raw_clean,),
+            ).fetchone()
+            if row:
+                return row["canonical_term"]
+        return raw_clean
+
+    def get_term_alias_groups(self) -> Dict[str, List[str]]:
+        """Return canonical_term -> list of alias strings."""
+        groups: Dict[str, List[str]] = {}
+        with self._get_connection() as conn:
+            rows = conn.execute(
+                "SELECT canonical_term, alias FROM term_aliases ORDER BY canonical_term, alias"
+            ).fetchall()
+        for row in rows:
+            canonical = (row["canonical_term"] or "").strip()
+            alias = (row["alias"] or "").strip()
+            if not canonical:
+                continue
+            groups.setdefault(canonical, []).append(alias)
+        return groups
+
+    def get_top_tracked_terms_for_glossary(self, limit: int = 60) -> List[Dict]:
+        """Top Overton terms by mention count for prompt glossary supplementation."""
+        with self._get_connection() as conn:
+            rows = conn.execute(
+                """
+                SELECT term, mention_count FROM overton_terms
+                WHERE status = 'active'
+                ORDER BY mention_count DESC, term ASC
+                LIMIT ?
+                """,
+                (limit,),
+            ).fetchall()
+        return [dict(r) for r in rows]
 
     # === Ticker Aliases ===
 
@@ -560,7 +695,7 @@ class DashboardDB:
                 ) latest ON latest.entity_id = a.entity_id AND a.id = latest.mid
                 LEFT JOIN podcast_episodes pe ON pe.id = a.source_id
                 WHERE e.type = 'person'
-                ORDER BY agg.appearance_count DESC, a.created_at DESC
+                ORDER BY a.created_at DESC, agg.appearance_count DESC, e.name COLLATE NOCASE ASC
                 """
             )
             rows = [dict(row) for row in cursor.fetchall()]
@@ -698,6 +833,7 @@ class DashboardDB:
                         p['net_worth'] = f"${nw:,.0f}"
                 pundits.append(p)
 
+        pundits = _sort_pundits_for_site(pundits)
         pundits = strip_cjk_public_text(pundits)
         with open(output_dir / 'pundits.json', 'w') as f:
             json.dump(pundits, f, indent=2, default=str)
@@ -1142,47 +1278,77 @@ class DashboardDB:
         *,
         episode_id: Optional[int] = None,
         detected_by: Optional[str] = None,
+        speaker_quote: Optional[str] = None,
     ) -> bool:
         """Insert or update suggested_terms from AI episode analysis. Returns True if new."""
-        term_clean = (term or "").strip()
+        term_clean = self.resolve_term((term or "").strip())
         if not term_clean or len(term_clean) < 3:
             return False
+        quote = (speaker_quote or "").strip()[:200] or None
         db_episode_id = int(episode_id) if episode_id is not None else None
         speaker = (detected_by or "").strip() or None
         with self._get_connection() as conn:
             row = conn.execute(
-                "SELECT id, mention_count FROM suggested_terms WHERE LOWER(TRIM(term)) = LOWER(?)",
+                """
+                SELECT id, mention_count, last_seen_episode_id
+                FROM suggested_terms WHERE LOWER(TRIM(term)) = LOWER(?)
+                """,
                 (term_clean,),
             ).fetchone()
             if row:
-                sets = [
-                    "mention_count = mention_count + 1",
-                    "last_mentioned_date = date('now')",
-                    "relevance_score = MIN(COALESCE(relevance_score, 50) + 5, 100)",
+                same_episode = False
+                if db_episode_id is not None and row["last_seen_episode_id"] is not None:
+                    try:
+                        same_episode = int(row["last_seen_episode_id"]) == int(db_episode_id)
+                    except (TypeError, ValueError):
+                        same_episode = False
+
+                sets: List[str] = [
                     "definition = COALESCE(?, definition)",
                     "investment_implications = COALESCE(?, investment_implications)",
                     "source_context = COALESCE(?, source_context)",
+                    "speaker_quote = COALESCE(?, speaker_quote)",
                 ]
-                params = [definition, investment_implications, source_context]
-                if db_episode_id is not None:
-                    sets.append("last_seen_episode_id = ?")
-                    params.append(db_episode_id)
-                if speaker:
-                    sets.append("last_seen_speaker = ?")
+                params: list = [definition, investment_implications, source_context, quote]
+
+                if not same_episode:
+                    sets.extend([
+                        "mention_count = mention_count + 1",
+                        "last_mentioned_date = date('now')",
+                        "relevance_score = MIN(COALESCE(relevance_score, 50) + 5, 100)",
+                    ])
+                    if db_episode_id is not None:
+                        prev_last = row["last_seen_episode_id"]
+                        try:
+                            new_episode = prev_last is None or int(prev_last) != int(db_episode_id)
+                        except (TypeError, ValueError):
+                            new_episode = True
+                        if new_episode:
+                            sets.append("source_diversity = source_diversity + 1")
+                        sets.append("last_seen_episode_id = ?")
+                        params.append(db_episode_id)
+                    if speaker:
+                        sets.append("last_seen_speaker = ?")
+                        params.append(speaker)
+                elif speaker:
+                    sets.append("last_seen_speaker = COALESCE(last_seen_speaker, ?)")
                     params.append(speaker)
+
                 params.append(row["id"])
                 conn.execute(
                     f"UPDATE suggested_terms SET {', '.join(sets)} WHERE id = ?",
                     tuple(params),
                 )
+                self.sync_overton_from_suggested(conn, term_clean)
                 return False
             conn.execute(
                 """
                 INSERT INTO suggested_terms
                 (term, definition, investment_implications, source_type, source_context,
                  mention_count, source_diversity, relevance_score, last_mentioned_date, status,
-                 first_seen_episode_id, last_seen_episode_id, first_seen_speaker, last_seen_speaker)
-                VALUES (?, ?, ?, 'auto_extracted', ?, 1, 1, 50, date('now'), 'pending', ?, ?, ?, ?)
+                 first_seen_episode_id, last_seen_episode_id, first_seen_speaker, last_seen_speaker,
+                 speaker_quote)
+                VALUES (?, ?, ?, 'auto_extracted', ?, 1, 1, 50, date('now'), 'pending', ?, ?, ?, ?, ?)
                 """,
                 (
                     term_clean,
@@ -1193,9 +1359,206 @@ class DashboardDB:
                     db_episode_id,
                     speaker,
                     speaker,
+                    quote,
                 ),
             )
             return True
+
+    def record_tracked_term_episode_mention(
+        self,
+        conn,
+        term: str,
+        *,
+        episode_id: int,
+        detected_by: Optional[str] = None,
+    ) -> bool:
+        """
+        Increment mention counts when a known term appears in an episode transcript.
+        Skips if this episode was already recorded as last_seen for the term.
+        """
+        term_clean = self.resolve_term((term or "").strip())
+        if not term_clean:
+            return False
+        eid = int(episode_id)
+        speaker = (detected_by or "").strip() or None
+
+        row = conn.execute(
+            """
+            SELECT id, last_seen_episode_id, first_seen_episode_id
+            FROM suggested_terms WHERE LOWER(TRIM(term)) = LOWER(?)
+            """,
+            (term_clean,),
+        ).fetchone()
+        if row and row["last_seen_episode_id"] is not None:
+            try:
+                if int(row["last_seen_episode_id"]) == eid:
+                    return False
+            except (TypeError, ValueError):
+                pass
+
+        ot_row = conn.execute(
+            """
+            SELECT id, last_mentioned_episode_id, first_detected_episode_id, mention_count
+            FROM overton_terms
+            WHERE LOWER(TRIM(term)) = LOWER(?) AND status = 'active'
+            """,
+            (term_clean,),
+        ).fetchone()
+        if not row and ot_row and ot_row["last_mentioned_episode_id"] is not None:
+            try:
+                if int(ot_row["last_mentioned_episode_id"]) == eid:
+                    return False
+            except (TypeError, ValueError):
+                pass
+
+        if row:
+            sets = [
+                "mention_count = mention_count + 1",
+                "last_mentioned_date = date('now')",
+                "last_seen_episode_id = ?",
+            ]
+            params: list = [eid]
+            if row["first_seen_episode_id"] is None:
+                sets.append("first_seen_episode_id = ?")
+                params.append(eid)
+                if speaker:
+                    sets.append("first_seen_speaker = ?")
+                    params.append(speaker)
+            prev_last = row["last_seen_episode_id"]
+            try:
+                new_episode = prev_last is None or int(prev_last) != eid
+            except (TypeError, ValueError):
+                new_episode = True
+            if new_episode:
+                sets.append("source_diversity = source_diversity + 1")
+            if speaker:
+                sets.append("last_seen_speaker = ?")
+                params.append(speaker)
+            params.append(row["id"])
+            conn.execute(
+                f"UPDATE suggested_terms SET {', '.join(sets)} WHERE id = ?",
+                tuple(params),
+            )
+            self.sync_overton_from_suggested(conn, term_clean)
+            return True
+
+        if ot_row:
+            last_d = conn.execute(
+                "SELECT date(episode_date) AS d FROM podcast_episodes WHERE id = ?",
+                (eid,),
+            ).fetchone()
+            last_md = str(last_d["d"])[:10] if last_d and last_d["d"] else None
+            conn.execute(
+                """
+                UPDATE overton_terms
+                SET mention_count = mention_count + 1,
+                    last_mentioned_date = COALESCE(?, date('now')),
+                    last_mentioned_episode_id = ?,
+                    last_mentioned_speaker = COALESCE(?, last_mentioned_speaker),
+                    first_detected_episode_id = COALESCE(first_detected_episode_id, ?),
+                    first_detected_speaker = COALESCE(first_detected_speaker, ?)
+                WHERE id = ?
+                """,
+                (last_md, eid, speaker, eid, speaker, ot_row["id"]),
+            )
+            return True
+
+        return False
+
+    def sync_all_overton_from_suggested(self) -> int:
+        """Backfill overton_terms counts/dates from suggested_terms for matching terms."""
+        n = 0
+        with self._get_connection() as conn:
+            rows = conn.execute(
+                """
+                SELECT term FROM suggested_terms
+                WHERE status IN ('approved', 'pending')
+                """
+            ).fetchall()
+            for row in rows:
+                if self.sync_overton_from_suggested(conn, row["term"]):
+                    n += 1
+        return n
+
+    def sync_overton_from_suggested(self, conn, term_clean: str) -> bool:
+        """Keep overton_terms counts and first/last attribution in sync with suggested_terms."""
+        term_clean = (term_clean or "").strip()
+        if not term_clean:
+            return False
+        suggested = conn.execute(
+            """
+            SELECT term, mention_count, definition, investment_implications,
+                   first_seen_episode_id, last_seen_episode_id,
+                   first_seen_speaker, last_seen_speaker, submitted_date
+            FROM suggested_terms
+            WHERE LOWER(TRIM(term)) = LOWER(?)
+            """,
+            (term_clean,),
+        ).fetchone()
+        if not suggested:
+            return False
+        existing = conn.execute(
+            "SELECT id FROM overton_terms WHERE LOWER(TRIM(term)) = LOWER(?)",
+            (term_clean,),
+        ).fetchone()
+        if not existing:
+            return False
+
+        def _episode_date(eid) -> Optional[str]:
+            if eid is None:
+                return None
+            r = conn.execute(
+                "SELECT date(episode_date) AS d FROM podcast_episodes WHERE id = ?",
+                (int(eid),),
+            ).fetchone()
+            if not r or not r["d"]:
+                return None
+            return str(r["d"])[:10]
+
+        feid = suggested["first_seen_episode_id"]
+        leid = suggested["last_seen_episode_id"] or feid
+        fspeaker = (suggested["first_seen_speaker"] or "").strip() or None
+        lspeaker = (suggested["last_seen_speaker"] or fspeaker or "").strip() or None
+        first_d = _episode_date(feid)
+        if not first_d:
+            sub = suggested["submitted_date"]
+            if sub and len(str(sub)) >= 10:
+                first_d = str(sub)[:10]
+            else:
+                first_d = date.today().isoformat()
+        last_d = _episode_date(leid) or first_d
+        mention_count = int(suggested["mention_count"] or 1)
+        description = suggested["definition"] or f"Curated concept: {suggested['term']}"
+        investment_implications = suggested["investment_implications"]
+
+        conn.execute(
+            """
+            UPDATE overton_terms
+            SET description = COALESCE(?, description),
+                investment_implications = COALESCE(?, investment_implications),
+                first_detected_date = COALESCE(?, first_detected_date),
+                last_mentioned_date = ?,
+                mention_count = MAX(mention_count, ?),
+                first_detected_episode_id = COALESCE(first_detected_episode_id, ?),
+                first_detected_speaker = COALESCE(first_detected_speaker, ?),
+                last_mentioned_episode_id = ?,
+                last_mentioned_speaker = COALESCE(?, last_mentioned_speaker)
+            WHERE LOWER(TRIM(term)) = LOWER(?)
+            """,
+            (
+                description,
+                investment_implications,
+                first_d,
+                last_d,
+                mention_count,
+                feid,
+                fspeaker,
+                leid or feid,
+                lspeaker,
+                term_clean,
+            ),
+        )
+        return True
 
     # === Podcast Guests (Interviewees) ===
 

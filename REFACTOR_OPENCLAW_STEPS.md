@@ -1,6 +1,8 @@
 # Exact .gitignore and git rm --cached for Openclaw/sensitive cleanup
 
-Run all commands from the **workspace root**: `~/.openclaw/workspace`.
+> Historical cleanup record only. The website and pipeline do not use OpenClaw at runtime.
+
+Run all commands from the **workspace root**: `$WORKSPACE_ROOT`.
 
 ---
 

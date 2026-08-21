@@ -74,6 +74,9 @@ CONTENT_PODCAST_HINTS = [
     (r'acquired\.fm|acquired podcast|ben gilbert.*david rosenthal', 'Acquired'),
     (r'invest like the best|patrick o\'shaughnessy', 'Invest Like the Best'),
     (r'we study billionaires|the investor\'s podcast', 'We Study Billionaires'),
+    (r'bg2pod|bg2 pod|bill gurley|brad gerstner', 'BG2 Pod'),
+    (r'latent space|latent\.space|ai engineer podcast', 'Latent Space: The AI Engineer Podcast'),
+    (r'macro voices|macrovoices', 'Macro Voices'),
 ]
 
 
@@ -365,6 +368,7 @@ def analyze_transcript_with_ai(
     podcast_name: str,
     *,
     content_from_digest: bool = False,
+    tracked_terms_glossary: str = "",
 ) -> Dict:
     """Use AI to extract structured data from transcript.
 
@@ -399,6 +403,10 @@ def analyze_transcript_with_ai(
             "NOTE: The following is an evidence-preserving markdown DIGEST (ads/filler removed; "
             "quotes, tickers, and facts retained). Extract insights from this digest.\n\n"
         )
+
+    glossary = (tracked_terms_glossary or "").strip()
+    if not glossary:
+        glossary = "- (none yet — use Title Case for new coined phrases)"
 
     prompt = (
         "You are an expert financial analyst and podcast curator. "
@@ -448,12 +456,36 @@ def analyze_transcript_with_ai(
         "  ],\n"
         "  \"emerging_terms\": [\n"
         "    {\n"
-        "      \"term\": \"Concept or phrase (e.g. Compute Arbitrage, Regulatory Moat)\",\n"
-        "      \"definition\": \"1-2 sentence definition\",\n"
-        "      \"investment_angle\": \"One line for investors\"\n"
+        "      \"term\": \"Canonical phrase exactly as spoken or glossary spelling (see rules below)\",\n"
+        "      \"definition\": \"1-2 sentence definition in plain English\",\n"
+        "      \"investment_angle\": \"One line: why this matters for capital allocation, risk, or sector positioning\",\n"
+        "      \"speaker_quote\": \"Short verbatim line from the transcript (max 200 chars, ASCII only)\"\n"
         "    }\n"
         "  ]\n"
         "}\n\n"
+        "EMERGING TERMS — investment concepts for the Overton Window (read carefully):\n\n"
+        "Purpose: Capture named frameworks, theses, or coined phrases that change how an investor thinks — NOT every topic mentioned.\n\n"
+        "INCLUDE (priority order):\n"
+        "- Coined or repeated phrases treated as a unit (e.g. SaaS Apocalypse, Compute Arbitrage, K-shaped recovery)\n"
+        "- Established frameworks discussed with a clear argument or trade implication (e.g. Jevon's Paradox applied to AI power, AGI timeline/deployment debate)\n"
+        "- Terms where a speaker defines, contrasts, or stakes an investment view on the concept\n\n"
+        "EXCLUDE (do not put in emerging_terms):\n"
+        "- Bare generic labels with no specific framing: AI, inflation, the Fed, tech stocks, Bitcoin (unless part of a named thesis)\n"
+        "- Person names, company names, product names, tickers, podcast names\n"
+        "- Restating the episode title or a guest's job title\n"
+        "- Vague abstractions with no investable angle (the future, disruption, innovation)\n\n"
+        "NORMALIZE (critical — one row per concept):\n"
+        "- Use the CANONICAL term spelling below when the concept matches (even if the transcript uses a variant)\n"
+        "- Prefer the short form speakers actually use: AGI not artificial general intelligence as a new separate term\n"
+        "- Do not emit multiple JSON entries for the same concept under different wordings\n"
+        "- Title Case for multi-word concepts; keep standard acronyms uppercase (AGI, ASI, ETF)\n\n"
+        "CANONICAL GLOSSARY (reuse exact \"term\" string when the concept matches):\n"
+        f"{glossary}\n\n"
+        "If nothing qualifies after these rules, return \"emerging_terms\": [].\n\n"
+        "Per episode: at most ONE emerging_terms entry per distinct concept. Do not list synonyms or repeats of the same idea.\n"
+        "Return at most 5 emerging_terms entries total (prefer 2-4 strong ones over a long list).\n\n"
+        "speaker_quote: Required for each entry — the best single line that shows WHY this term matters in this episode "
+        "(paraphrase only if verbatim is unavailable; still ASCII).\n\n"
         "Scoring guidelines:\n"
         "- conviction_score: 0-100 per ticker based on strength of argument (90+ for \"deep dive/thesis\", 70-89 for strong preference, 50-69 for positive mention, <50 for tracking/watching)\n"
         "- sentiment: Use explicit statements from speakers, not your inference\n"
@@ -688,11 +720,17 @@ def process_transcript_file(transcript_path: Path, client_info, db) -> Optional[
         print(f"    ⚠ transcript_digest skipped: {exc}")
 
     # Analyze with AI (full transcript or Stage A digest)
+    from term_alias_util import build_tracked_terms_glossary
+
+    db_for_glossary = get_db()
+    db_for_glossary.seed_term_aliases_from_json()
+    glossary = build_tracked_terms_glossary(db_for_glossary)
     analysis = analyze_transcript_with_ai(
         client_info,
         analysis_source,
         podcast_name,
         content_from_digest=used_digest,
+        tracked_terms_glossary=glossary,
     )
     if not analysis:
         print(f"    ✗ AI analysis failed")
@@ -732,7 +770,7 @@ def process_transcript_file(transcript_path: Path, client_info, db) -> Optional[
         episode_title = sidecar_episode_title
 
     title_s = (episode_title or "").strip()
-    if "%" in title_s or title_s.lower().startswith("http") or "cloudfront.net" in title_s.lower():
+    if re.search(r"%[0-9a-fA-F]{2}", title_s) or title_s.lower().startswith("http") or "cloudfront.net" in title_s.lower():
         print("    ⏭ Skipping: episode title still looks like a URL/encoding artifact after sidecar/AI merge.")
         mark_transcript_processed(transcript_path, -1)
         return None
@@ -869,15 +907,18 @@ def process_transcript_file(transcript_path: Path, client_info, db) -> Optional[
             prominence=1,
         )
 
-    # Ingest emerging terms from AI into suggested_terms (Emerging Terms box)
+    # Ingest emerging terms from AI into suggested_terms (Overton candidate pipeline)
+    from term_alias_util import dedupe_emerging_terms
+
     source_context = f"{podcast_name} • {episode_title[:80]}"
     detected_by = _emerging_term_attributed_speaker(analysis)
-    for et in analysis.get('emerging_terms') or []:
-        term = (et.get('term') or '').strip()
+    for et in dedupe_emerging_terms(analysis.get("emerging_terms") or [], db):
+        term = (et.get("term") or "").strip()
         if not term:
             continue
-        definition = (et.get('definition') or '').strip() or None
-        investment_angle = (et.get('investment_angle') or '').strip() or None
+        definition = (et.get("definition") or "").strip() or None
+        investment_angle = (et.get("investment_angle") or "").strip() or None
+        speaker_quote = (et.get("speaker_quote") or "").strip() or None
         if db.upsert_suggested_term_from_ai(
             term,
             definition,
@@ -885,8 +926,26 @@ def process_transcript_file(transcript_path: Path, client_info, db) -> Optional[
             source_context,
             episode_id=episode_id,
             detected_by=detected_by,
+            speaker_quote=speaker_quote,
         ):
             print(f"    + Emerging term: {term[:50]}")
+
+    # Recurring vocabulary: scan transcript for known Overton/suggested terms (per episode)
+    try:
+        from term_mention_scan import record_episode_mentions
+
+        transcript_text = transcript_path.read_text(encoding="utf-8", errors="ignore")
+        n_scan, scanned = record_episode_mentions(
+            db,
+            transcript=transcript_text,
+            episode_id=episode_id,
+            detected_by=detected_by,
+        )
+        if n_scan:
+            print(f"    + Tracked term mentions ({n_scan}): {', '.join(scanned[:5])}" +
+                  (f" +{n_scan - 5} more" if n_scan > 5 else ""))
+    except Exception as exc:
+        print(f"    ⚠ Term mention scan skipped: {exc}")
 
     # Store rss_guid and published_date from sidecar
     if episode_id and (rss_guid or sidecar.get('published_date')):
