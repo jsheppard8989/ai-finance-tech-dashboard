@@ -1,6 +1,19 @@
 {
-  "rotation_index": 25,
+  "rotation_index": 26,
   "weeks": [
+    {
+      "friday_iso": "2026-08-14",
+      "week_label": "Week of 2026-08-14",
+      "prompt": "Will the S&P 500 index close above 8,000 within the next 42 days?",
+      "debater_a": "Joshua Ahoyom",
+      "debater_b": "Victor Hagani",
+      "expires_rule": "Resolves Friday 12:00 PM CST 2026-09-25",
+      "resolves_iso": "2026-09-25",
+      "resolution_status": "pending",
+      "resolution_notes": "",
+      "archived_at": "2026-08-21T13:49:56.370258",
+      "audio_href": "./audio/archive/debate_2026-08-14.mp3"
+    },
     {
       "friday_iso": "2026-08-07",
       "week_label": "Week of 2026-08-07",

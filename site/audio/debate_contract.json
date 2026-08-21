@@ -1,119 +1,108 @@
 {
   "prompt": "Will the S&P 500 index close above 8,000 within the next 42 days?",
-  "editorial_note": "Given the recent discussion on market conditions and the fluctuation of indices like the S&P 500, we are intrigued to see if the index can break past a significant psychological threshold amidst the current economic discussions. This question relates directly to investor sentiment and future market direction, a pertinent issue for our audience.",
-  "expires_rule": "Resolves Friday 12:00 PM CST 2026-09-25",
-  "crux_theme": "S&P 500 Index Threshold",
+  "editorial_note": "Given our recent discussions on the global economy's resilience and the S&P 500's recent performance, we felt it was crucial to explore market sentiment by posing a question on the S&P 500's potential to reach a significant milestone. This question also allows us to gauge investor confidence and market dynamics in a concrete and measurable way within a specific time frame.",
+  "expires_rule": "Resolves Friday 12:00 PM CST 2026-10-02",
+  "crux_theme": "S&P 500 rally",
   "resolution_clarity": {
-    "source_of_truth": "Financial Market Data",
+    "source_of_truth": "Yahoo Finance official closing price",
     "resolution_sources": [
-      "CBOE (Chicago Board Options Exchange)",
-      "NASDAQ Official Closing Prices",
-      "Yahoo Finance"
+      "^GSPC official closing price data"
     ],
     "resolution_criteria": [
-      "The final closing value of the S&P 500 index on the specified resolution date"
+      "The question will resolve 'Yes' if the S&P 500 index (^GSPC) officially closes above 8,000 at any point within the next 42 days as reported by Yahoo Finance."
     ]
   },
   "sides": {
     "a": "Affirmative (YES)",
     "b": "Negative (NO)"
   },
-  "resolves_iso": "2026-09-25",
-  "friday_iso": "2026-08-14",
-  "week_label": "Week of 2026-08-14",
-  "debater_a": "Joshua Ahoyom",
-  "debater_b": "Victor Hagani",
-  "generated_at": "2026-08-14T05:04:18.157595",
+  "resolves_iso": "2026-10-02",
+  "friday_iso": "2026-08-21",
+  "week_label": "Week of 2026-08-21",
+  "debater_a": "Dr. Peter Funkhouser",
+  "debater_b": "Katherine Rooney Vera",
+  "generated_at": "2026-08-21T13:49:56.370321",
   "bet_status": "open",
   "audio_href": "./audio/emp_ai_the_debate_11labs.mp3",
   "debater_a_snapshot": {
-    "name": "Joshua Ahoyom",
-    "known_for": "His insights on the subtle arrival of AGI and its profound implications on cybersecurity, state actors, and the future of technology.",
-    "bio": "Joshua Ahoyom is recognized for his thought leadership in AI and its implications for the future. As the Chief Futurist at Open AI, he has been instrumental in shaping discussions around the advancement of artificial general intelligence (AGI) and its impact on society.",
-    "last_main_idea": "Investing in cybersecurity solutions that leverage AI can provide a competitive advantage, but it also requires understanding the novel risks and vulnerabilities that AI models can create.",
-    "last_podcast_name": "The a16z Show",
-    "last_episode_date": "2026-08-04",
-    "net_worth": "$150.0M",
+    "name": "Dr. Peter Funkhouser",
+    "known_for": "Developing the Anymal, a four-legged robot used for inspection in critical infrastructure.",
+    "bio": "Dr. Peter Funkhouser is the co-founder and CEO of Anybotics, a company that specializes in developing four-legged inspection robots, specifically the Anymal. With nearly two decades of experience in robotics, Funkhouser has played a pivotal role in advancing the technology of autonomous robots for critical infrastructure inspection.",
+    "last_main_idea": "Investing in robotics and AI companies that are successfully transitioning from research to real-world applications could offer significant growth potential as these technologies become more integrated into various industries.",
+    "last_podcast_name": "All-In with Chamath, Jason, Sacks & Friedberg",
+    "last_episode_date": "2026-07-28",
     "pundit_profile": {
       "source": "llm",
       "source_model": "moonshot:moonshot-v1-8k",
       "source_url": "",
-      "page_title": "Joshua Ahoyom",
-      "fetched_at": "2026-08-05T03:03:28.571993+00:00",
-      "cliff_notes": "Joshua Ahoyom has been a prominent voice in the field of AI, particularly focusing on the future implications of artificial general intelligence. His work at Open AI has centered around understanding how AGI is already integrated into our lives, often going unnoticed by the general public. Ahoyom's discussions often revolve around the normalization of AI models that can outperform human experts in specialized domains and the potential for AI-powered cyber attacks. His contributions to the discourse on AI's recursive self-improvement and its gradual yet strange impact on the future have been influential. Despite his announcement of leaving Open AI, his insights will continue to shape the conversation around AI's role in society and technology.",
+      "page_title": "Dr. Peter Funkhouser",
+      "fetched_at": "2026-07-30T10:03:05.635107+00:00",
+      "cliff_notes": "Dr. Peter Funkhouser has been a key figure in the field of robotics for nearly 20 years. He co-founded Anybotics, a company that has been instrumental in the development of the Anymal, a four-legged robot designed for inspection in critical infrastructure. The company started as a research lab for the first five years and transitioned into a commercial entity for the last five, focusing on deploying dog-based robots. Funkhouser's work has been crucial in the advancement of autonomous technology, particularly in the realm of inspection and maintenance of industrial facilities, which is a significant area of interest for investors and technology enthusiasts.",
       "derived": {
-        "current_role": "Chief Futurist at Open AI"
+        "current_role": "Co-founder and CEO of Anybotics"
       },
       "infobox": {
         "Born": "",
         "Nationality": ""
       },
       "lead_paragraphs": [
-        "Joshua Ahoyom has been a prominent voice in the field of AI, particularly focusing on the future implications of artificial general intelligence. His work at Open AI has centered around understanding how AGI is already integrated into our lives, often going unnoticed by the general public. Ahoyom's discussions often revolve around the normalization of AI models that can outperform human experts in specialized domains and the potential for AI-powered cyber attacks.",
-        "His contributions to the discourse on AI's recursive self-improvement and its gradual yet strange impact on the future have been influential. Despite his announcement of leaving Open AI, his insights will continue to shape the conversation around AI's role in society and technology."
+        "Dr. Peter Funkhouser has been a key figure in the field of robotics for nearly 20 years. He co-founded Anybotics, a company that has been instrumental in the development of the Anymal, a four-legged robot designed for inspection in critical infrastructure. The company started as a research lab for the first five years and transitioned into a commercial entity for the last five, focusing on deploying dog-based robots.",
+        "Funkhouser's work has been crucial in the advancement of autonomous technology, particularly in the realm of inspection and maintenance of industrial facilities, which is a significant area of interest for investors and technology enthusiasts."
       ],
       "sections": [
         {
-          "heading": "Artificial General Intelligence",
-          "body": "Ahoyom discusses the subtle arrival of AGI and how it has already integrated into various aspects of society without much public awareness."
+          "heading": "Robotics Innovation",
+          "body": "Dr. Peter Funkhouser has been at the forefront of robotics innovation, particularly with the development of the Anymal robot, which is used for critical infrastructure inspection."
         },
         {
-          "heading": "Cybersecurity",
-          "body": "He highlights the potential risks of AI-powered cyber attacks and the need for robust defenses against such threats."
+          "heading": "Autonomous Technology",
+          "body": "Funkhouser's work with Anybotics has contributed significantly to the field of autonomous technology, making inspections of industrial facilities safer and more efficient."
         },
         {
-          "heading": "State Actors and AI",
-          "body": "Ahoyom emphasizes the role of state actors in the development and deployment of AI technologies and their potential geopolitical implications."
-        },
-        {
-          "heading": "Recursive Self-Improvement",
-          "body": "He explores the concept of AI systems improving themselves, which could lead to rapid advancements in technology and capabilities."
-        },
-        {
-          "heading": "Future of Technology",
-          "body": "Ahoyom posits that the future may feel more gradual and stranger than most people expect, with AI playing a central role in shaping these changes."
+          "heading": "Entrepreneurship in Robotics",
+          "body": "As the co-founder and CEO of Anybotics, Dr. Funkhouser has played a pivotal role in establishing the company as a leader in the field of four-legged inspection robots."
         }
       ]
     }
   },
   "debater_b_snapshot": {
-    "name": "Victor Hagani",
-    "known_for": "His role in the rise and fall of Long-Term Capital Management and his contributions to personal finance strategies.",
-    "bio": "Victor Hagani is a prominent figure in finance, known for his work as a founding partner of Long-Term Capital Management (LTCM) and authoring 'The Missing Billionaires'. His insights on personal finance and risk management have been influential in the industry.",
-    "last_main_idea": "The S&P 500's performance over the next two years will be largely determined by the behavior of extrapolators and corporate equity activity, rather than fundamental earnings growth.",
+    "name": "Katherine Rooney Vera",
+    "known_for": "Her accurate market predictions and in-depth analysis of Federal Reserve policy.",
+    "bio": "Katherine Rooney Vera is the Chief Market Strategist at Stone X Groups, where she specializes in board markets and macroeconomic analysis. Known for her accurate market predictions and in-depth analysis of Fed policy, Vera has made a significant impact in the financial industry.",
+    "last_main_idea": "The Federal Reserve's credibility is at stake, and market reactions to economic data and Fed policy suggest a potential shift in expectations for inflation and interest rates, impacting bond yields and stock market performance.",
     "last_podcast_name": "Monetary Matters with Jack Farley",
-    "last_episode_date": "2026-08-04",
+    "last_episode_date": "2026-07-29",
+    "net_worth": "$26.7M",
     "pundit_profile": {
       "source": "llm",
       "source_model": "moonshot:moonshot-v1-8k",
       "source_url": "",
-      "page_title": "Victor Hagani",
-      "fetched_at": "2026-08-04T18:36:36.170655+00:00",
-      "cliff_notes": "Victor Hagani is best known for his role as a founding partner of Long-Term Capital Management (LTCM), a hedge fund that gained notoriety for its high-risk strategies and eventual bailout by the Federal Reserve. Hagani's expertise in finance and risk management has been sought after, and he has shared his insights through his book 'The Missing Billionaires'. His work has had a significant impact on understanding risk in finance and personal finance strategies. Hagani's lessons from LTCM emphasize the importance of personal risk taking, the structure of financial institutions, and the nature of relative value trades.",
+      "page_title": "Katherine Rooney Vera",
+      "fetched_at": "2026-07-30T05:00:36.723848+00:00",
+      "cliff_notes": "Katherine Rooney Vera is a prominent figure in the financial industry, serving as the Chief Market Strategist at Stone X Groups. Her expertise lies in board markets and macroeconomic analysis, with a particular focus on the Federal Reserve's policies. Vera has gained recognition for her accurate market predictions and her ability to dissect complex economic data. Her insights have been influential in guiding investment decisions and understanding market trends. Her career has been marked by a deep understanding of financial markets and the ability to translate economic indicators into actionable strategies for investors.",
       "derived": {
-        "former_positions": "Founding Partner of Long-Term Capital Management",
-        "books_or_works": "The Missing Billionaires"
+        "current_role": "Chief Market Strategist at Stone X Groups"
       },
       "infobox": {
         "Born": "",
         "Nationality": ""
       },
       "lead_paragraphs": [
-        "Victor Hagani is best known for his role as a founding partner of Long-Term Capital Management (LTCM), a hedge fund that gained notoriety for its high-risk strategies and eventual bailout by the Federal Reserve. Hagani's expertise in finance and risk management has been sought after, and he has shared his insights through his book 'The Missing Billionaires'.",
-        "His work has had a significant impact on understanding risk in finance and personal finance strategies. Hagani's lessons from LTCM emphasize the importance of personal risk taking, the structure of financial institutions, and the nature of relative value trades."
+        "Katherine Rooney Vera is a prominent figure in the financial industry, serving as the Chief Market Strategist at Stone X Groups. Her expertise lies in board markets and macroeconomic analysis, with a particular focus on the Federal Reserve's policies. Vera has gained recognition for her accurate market predictions and her ability to dissect complex economic data.",
+        "Her insights have been influential in guiding investment decisions and understanding market trends. Her career has been marked by a deep understanding of financial markets and the ability to translate economic indicators into actionable strategies for investors."
       ],
       "sections": [
         {
-          "heading": "Long-Term Capital Management",
-          "body": "Victor Hagani co-founded Long-Term Capital Management, a hedge fund that became infamous for its high-risk strategies and eventual need for a bailout."
+          "heading": "Market Predictions",
+          "body": "Katherine Rooney Vera is known for her accurate predictions in the financial markets, particularly regarding Federal Reserve policy decisions."
         },
         {
-          "heading": "Risk Management",
-          "body": "Hagani's work emphasizes the importance of understanding and managing risk, particularly in the context of personal finance and high-stakes financial institutions."
+          "heading": "Macroeconomic Analysis",
+          "body": "Vera's expertise in macroeconomic analysis allows her to provide insightful commentary on the broader economic trends affecting financial markets."
         },
         {
-          "heading": "Personal Finance",
-          "body": "Through his writings and insights, Hagani has contributed to the discourse on personal finance, highlighting the need for individuals to understand and manage their financial risks."
+          "heading": "Federal Reserve Policy",
+          "body": "Her in-depth analysis of the Federal Reserve's policy has been influential in shaping investor expectations and market reactions."
         }
       ]
     }

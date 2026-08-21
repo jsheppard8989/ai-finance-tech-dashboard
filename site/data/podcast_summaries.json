@@ -1,5 +1,21 @@
 [
   {
+    "id": 418,
+    "podcast_name": "All-In with Chamath, Jason, Sacks & Friedberg",
+    "episode_title": "Dario Defends Himself, Datacenter Panic, AI Doomer Trap, Senate Toss-Up",
+    "episode_date": "2026-08-21",
+    "summary": "The podcast episode features a discussion on AI company Anthropic, its regulatory approach, and the concept of recursive self-improvement. The hosts analyze Dario's response to Gavin Baker's comments and delve into the implications of regulatory capture and the potential for AI to evolve autonomously. They also touch on the philanthropic efforts of Anthropic's co-founders and the broader impact of AI on society and the economy.",
+    "key_takeaways": [
+      "Dario's response to Gavin Baker's comments suggests a defensive stance on the allegations of regulatory capture.",
+      "The hosts argue that Anthropic has been aggressive in seeking to implement its preferred regulatory frameworks.",
+      "The discussion highlights the potential for AI to evolve through recursive self-improvement, leading to a potential singularity.",
+      "Anthropic's co-founders have donated a significant portion of their shares, indicating a focus on philanthropy rather than personal gain.",
+      "The episode debates the role of human intervention in AI development and the potential for AI to become self-evolutionary."
+    ],
+    "investment_thesis": "Investment in AI companies requires considering not only technological advancement but also the regulatory landscape and potential societal impact.",
+    "key_tickers": null
+  },
+  {
     "id": 417,
     "podcast_name": "Monetary Matters with Jack Farley",
     "episode_title": "Why Bessent Blinked | Luke Gromen on Doubling of Treasury Buyback Plan to Tame Long-End Yields",
@@ -116,25 +132,5 @@
     ],
     "investment_thesis": "Investing in companies that leverage AI to enhance software development and commerce will yield significant returns as productivity increases and new markets open up.",
     "key_tickers": null
-  },
-  {
-    "id": 407,
-    "podcast_name": "Monetary Matters with Jack Farley",
-    "episode_title": "Robin Wigglesworth on Hyperscalers' 1.5 Trillion of Off-Balance Sheet Liabilities, Private Credit, and His Book \"A Fabulous Debt\"",
-    "episode_date": "2026-08-16",
-    "summary": "In this episode of Monetary Matters with Jack Farley, Robin Wigglesworth, editor of AlphaVille and author of 'Fabulous Debt', discusses the capital market events surrounding hyperscalers like Meta, Google, and Microsoft. They delve into the off-balance sheet hidden leverage, massive capex investments, and innovative financial structures like lease obligations that have grown from $1 trillion to $1.5 trillion. The conversation also touches on historical parallels, such as the 19th-century canal and railway booms, and their implications for today's financial landscape.",
-    "key_takeaways": [
-      "Hyperscalers are investing heavily in capital expenditures, with figures reaching into the hundreds of billions.",
-      "Off-balance sheet leverage has grown significantly, with guarantees and lease obligations increasing from $1 trillion to $1.5 trillion.",
-      "The scale of capex is transformative, drawing parallels to historical events like the 19th-century railway boom.",
-      "Financial creativity in the form of lease structures and bond sales is on the rise, with potential dangers if not managed properly.",
-      "Historical financial manias, while painful, have often led to significant economic transformations."
-    ],
-    "investment_thesis": "Investment in hyperscaler companies may offer significant returns due to their transformative technology and massive capital investments, but also carries risks due to the off-balance sheet leverage and innovative financial structures.",
-    "key_tickers": [
-      "META",
-      "GOOGL",
-      "MSFT"
-    ]
   }
 ]
