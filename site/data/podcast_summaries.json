@@ -1,5 +1,24 @@
 [
   {
+    "id": 417,
+    "podcast_name": "Monetary Matters with Jack Farley",
+    "episode_title": "Why Bessent Blinked | Luke Gromen on Doubling of Treasury Buyback Plan to Tame Long-End Yields",
+    "episode_date": "2026-08-20",
+    "summary": "In this episode of Monetary Matters, Jack Farley discusses with Luke Groman of Forest for the Trees Research the impact of AI and government spending on borrowing costs and long-end yields. They analyze the AI capex build out's effect on the economy, the rise in yields, and the Treasury Secretary's recent announcement to double the size of treasury buybacks. The conversation also touches on potential strategies for managing long rates and the implications for inflation, bondholders, and the stock market.",
+    "key_takeaways": [
+      "AI and government spending are driving up borrowing costs, leading to a rise in long-end yields.",
+      "Hyperscaler issuance for the year is projected to be around 500 billion, significantly impacting the market.",
+      "The Treasury Secretary's announcement to double the size of treasury buybacks is seen as a form of yield curve control.",
+      "The conversation suggests that managing long rates via buybacks could be a precursor to more aggressive monetary policy.",
+      "Inflation, wages, and nominal GDP growth are expected to be significantly affected by these policies.",
+      "The discussion highlights the potential for a significant shift in the valuation of gold as a strategy for managing the national debt."
+    ],
+    "investment_thesis": "The rise in AI capex and government spending is leading to increased borrowing costs, which will have profound effects on bond markets and inflation, creating both risks and opportunities for investors.",
+    "key_tickers": [
+      "CORN"
+    ]
+  },
+  {
     "id": 416,
     "podcast_name": "The a16z Show",
     "episode_title": "How Global Networks Are Reshaping Startup Success",
@@ -116,25 +135,6 @@
       "META",
       "GOOGL",
       "MSFT"
-    ]
-  },
-  {
-    "id": 405,
-    "podcast_name": "All-In with Chamath, Jason, Sacks & Friedberg",
-    "episode_title": "Anthropic's $2T IPO, Zuck's AI Manifesto, Nvidia's $500B AI Bet, Grok's Comeback",
-    "episode_date": "2026-08-14",
-    "summary": "In this episode, the hosts discuss the potential IPO of Anduril, the company's valuation, and its revenue growth. They also touch upon the political landscape with insights on the Democratic party's internal conflicts and the role of moderate candidates. Additionally, the conversation covers the significance of CEOs having their own voice on X and the impact of open-source AI on the software industry. The podcast also speculates on the potential acquisition of Workday by Silver Lake and its implications for the stock market.",
-    "key_takeaways": [
-      "Anduril is targeting a $2 trillion IPO, which would break SpaceX's record.",
-      "The company is expected to go public in October with an annualized run rate between $100 and $120 billion.",
-      "Anduril's valuation is at 16 to 20 times sales, significantly lower than other high-valued tech stocks like SpaceX and Palantir.",
-      "The rise of open-source AI is seen as a positive development for the American software industry, potentially leading to a resurgence of private equity interest in software companies.",
-      "The hosts discuss the importance of CEOs establishing their own voice and brand on X to mitigate risks and enhance their power."
-    ],
-    "investment_thesis": "Anduril's upcoming IPO presents an opportunity to invest in a company with significant revenue growth and a lower valuation compared to peers, while the rise of open-source AI could reshape the software industry landscape.",
-    "key_tickers": [
-      "ANDR",
-      "SPCE"
     ]
   }
 ]

@@ -20,6 +20,25 @@
       "podcast_episode_id": 416
     },
     {
+      "id": 432,
+      "title": "Why Bessent Blinked | Luke Gromen on Doubling of Treasury Buyback Plan to Tame Long-End Yields",
+      "source_type": "podcast",
+      "source_name": "Monetary Matters with Jack Farley",
+      "source_date": "2026-08-20",
+      "summary": "In this episode of Monetary Matters, Jack Farley discusses with Luke Groman of Forest for the Trees Research the impact of AI and government spending on borrowing costs and long-end yields. They analyze the AI capex build out's effect on the economy, the rise in yields, and the Treasury Secretary's recent announcement to double the size of treasury buybacks. The conversation also touches on potential strategies for managing long rates and the implications for inflation, bondholders, and the stock market.",
+      "key_takeaway": "The rise in AI capex and government spending is leading to increased borrowing costs, which will have profound effects on bond markets and inflation, creating both risks and opportunities for investors.",
+      "tickers_mentioned": [
+        "CORN"
+      ],
+      "sentiment": "bullish",
+      "display_on_main": 1,
+      "display_order": 0,
+      "added_date": "2026-08-20",
+      "archived_date": null,
+      "archived_reason": null,
+      "podcast_episode_id": 417
+    },
+    {
       "id": 430,
       "title": "How Whatnot Built a Global Marketplace",
       "source_type": "podcast",
@@ -194,7 +213,7 @@
         "SPCE"
       ],
       "sentiment": "bullish",
-      "display_on_main": 1,
+      "display_on_main": 0,
       "display_order": 0,
       "added_date": "2026-08-14",
       "archived_date": null,
@@ -8386,37 +8405,37 @@
     {
       "id": 267,
       "term": "Stablecoins",
-      "description": "Cryptocurrencies pegged to a stable asset, like the US dollar, to minimize volatility.",
+      "description": "A type of digital currency that is designed to have a stable value, typically pegged to a reserve of assets like fiat currencies or precious metals.",
       "first_detected_date": "2026-08-01",
-      "last_mentioned_date": "2026-08-17",
-      "mention_count": 3,
+      "last_mentioned_date": "2026-08-20",
+      "mention_count": 4,
       "source_podcasts": null,
       "status": "active",
-      "investment_implications": "Stablecoins are seen as a rival to traditional payment networks and could disrupt global finance.",
+      "investment_implications": "The potential shift to stablecoins as a store of value could disrupt traditional financial markets and affect inflation.",
       "display_on_main": 1,
       "archived_date": null,
       "archived_reason": null,
       "first_detected_episode_id": 379,
       "first_detected_speaker": "Mark Andrewson, Chris Dixon",
-      "last_mentioned_episode_id": 410,
-      "last_mentioned_speaker": "Will"
+      "last_mentioned_episode_id": 417,
+      "last_mentioned_speaker": "Luke Groman"
     },
     {
       "id": 276,
       "term": "Yield Curve Control",
-      "description": "A monetary policy tool used by central banks to influence the shape of the yield curve by setting target interest rates for specific maturities.",
+      "description": "A monetary policy strategy where a central bank attempts to influence the shape of the yield curve by targeting specific interest rates along the curve.",
       "first_detected_date": "2026-07-28",
-      "last_mentioned_date": "2026-07-28",
-      "mention_count": 1,
+      "last_mentioned_date": "2026-08-20",
+      "mention_count": 2,
       "source_podcasts": null,
       "status": "active",
-      "investment_implications": "Yield curve control may become a necessary policy tool as countries grapple with rising yields and fiscal challenges.",
+      "investment_implications": "The discussion suggests that the Treasury Secretary's actions may be a form of yield curve control, which could have significant implications for bond market investors.",
       "display_on_main": 1,
       "archived_date": null,
       "archived_reason": null,
       "first_detected_episode_id": 371,
       "first_detected_speaker": "Luke Groman",
-      "last_mentioned_episode_id": 371,
+      "last_mentioned_episode_id": 417,
       "last_mentioned_speaker": "Luke Groman"
     },
     {
@@ -8622,8 +8641,8 @@
       "term": "AI Boom",
       "description": "A global phenomenon characterized by significant investments in artificial intelligence and data centers, drawing parallels to the pre-1873 financial boom.",
       "first_detected_date": "2026-06-29",
-      "last_mentioned_date": "2026-07-31",
-      "mention_count": 6,
+      "last_mentioned_date": "2026-08-20",
+      "mention_count": 7,
       "source_podcasts": null,
       "status": "active",
       "investment_implications": "Investors should be cautious of potential over-investment and subsequent corrections in the AI sector.",
@@ -8632,8 +8651,8 @@
       "archived_reason": null,
       "first_detected_episode_id": 320,
       "first_detected_speaker": "Leakwet Ahamed",
-      "last_mentioned_episode_id": 378,
-      "last_mentioned_speaker": "Chamath Palihapitiya, Jason Calacanis (hosts)"
+      "last_mentioned_episode_id": 417,
+      "last_mentioned_speaker": "Luke Groman"
     },
     {
       "id": 279,
@@ -8694,8 +8713,8 @@
       "term": "Electrification",
       "description": "The process of converting systems or industries to use electricity as the primary power source.",
       "first_detected_date": "2026-06-18",
-      "last_mentioned_date": "2026-08-07",
-      "mention_count": 2,
+      "last_mentioned_date": "2026-08-20",
+      "mention_count": 3,
       "source_podcasts": null,
       "status": "active",
       "investment_implications": "Investors should focus on companies involved in the electrification of the grid and power generation, as demand for electricity is projected to increase.",
@@ -8704,8 +8723,8 @@
       "archived_reason": null,
       "first_detected_episode_id": 297,
       "first_detected_speaker": "Chris Seminoch",
-      "last_mentioned_episode_id": 392,
-      "last_mentioned_speaker": "Daya Pernos, Dean Pernos"
+      "last_mentioned_episode_id": 417,
+      "last_mentioned_speaker": "Luke Groman"
     },
     {
       "id": 258,
@@ -8818,20 +8837,20 @@
     {
       "id": 138,
       "term": "AI CapEx",
-      "description": "Capital expenditures specifically in AI infrastructure, such as data centers and compute build-out.",
+      "description": "Capital expenditures related to artificial intelligence, including investments in AI infrastructure and technology.",
       "first_detected_date": "2026-06-08",
-      "last_mentioned_date": "2026-07-22",
-      "mention_count": 20,
+      "last_mentioned_date": "2026-08-20",
+      "mention_count": 21,
       "source_podcasts": null,
       "status": "active",
-      "investment_implications": "AI CapEx is tax-advantaged and has a high return on invested capital due to the demand for compute power.",
+      "investment_implications": "AI CapEx is driving up borrowing costs and impacting long-term interest rates, which can significantly affect bond and equity markets.",
       "display_on_main": 0,
       "archived_date": null,
       "archived_reason": null,
       "first_detected_episode_id": 271,
       "first_detected_speaker": null,
-      "last_mentioned_episode_id": 409,
-      "last_mentioned_speaker": "Russell Clark"
+      "last_mentioned_episode_id": 417,
+      "last_mentioned_speaker": "Luke Groman"
     },
     {
       "id": 234,
@@ -10314,8 +10333,8 @@
       "term": "Yen Carry Trade",
       "description": "A strategy where investors borrow in Japanese yen (low interest rates ~0.25%) and invest in higher-yielding assets (US Treasuries, tech stocks, emerging markets).",
       "first_detected_date": "2026-03-09",
-      "last_mentioned_date": "2026-03-09",
-      "mention_count": 3,
+      "last_mentioned_date": "2026-08-20",
+      "mention_count": 4,
       "source_podcasts": null,
       "status": "active",
       "investment_implications": "When the Bank of Japan hikes rates or yen strengthens, unwinds trigger forced selling. 2024 unwind caused 12% VIX spike\u2014watch JPY/USD >150.",
@@ -10324,8 +10343,8 @@
       "archived_reason": null,
       "first_detected_episode_id": 53,
       "first_detected_speaker": null,
-      "last_mentioned_episode_id": 53,
-      "last_mentioned_speaker": null
+      "last_mentioned_episode_id": 417,
+      "last_mentioned_speaker": "Luke Groman"
     },
     {
       "id": 95,

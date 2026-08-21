@@ -1,7 +1,7 @@
 {
-  "generated_at": "2026-08-20T12:07:13.981212",
-  "last_updated": "2026-08-20T12:07:13.981212",
-  "last_pipeline_run": "2026-08-20T12:07:13.981212",
+  "generated_at": "2026-08-20T22:02:49.869688",
+  "last_updated": "2026-08-20T22:02:49.869688",
+  "last_pipeline_run": "2026-08-20T22:02:49.869688",
   "main_page": {
     "overton": 13,
     "insights": 8,
@@ -9,13 +9,13 @@
   },
   "counts": {
     "ticker_mentions": 216,
-    "podcast_episodes": 389,
+    "podcast_episodes": 390,
     "newsletters": 7,
     "daily_scores": 153,
     "overton_terms_total": 130,
-    "latest_insights_total": 403,
+    "latest_insights_total": 404,
     "today_mentions": {},
-    "podcasts_analyzed": 1
+    "podcasts_analyzed": 2
   },
   "step_results": {
     "downloaded": 2,
@@ -84,11 +84,11 @@
       "status": "needs_analysis"
     },
     {
-      "id": "7b3192da-4f6e-4643-8a4b-849986198fd8",
-      "podcast": "The a16z Show",
-      "title": "How Global Networks Are Reshaping Startup Success",
+      "id": "32c05816-9cbe-11f1-97c9-7315d69820bd",
+      "podcast": "Monetary Matters with Jack Farley",
+      "title": "Why Bessent Blinked | Luke Gromen on Doubling of Treasury Buyback Plan to Tame Long-End Yields",
       "published": "2026-08-20",
-      "rss_guid": "7b3192da-4f6e-4643-8a4b-849986198fd8",
+      "rss_guid": "32c05816-9cbe-11f1-97c9-7315d69820bd",
       "stages": {
         "downloaded": true,
         "transcribed": true,
