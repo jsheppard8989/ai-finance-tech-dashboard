@@ -20,6 +20,25 @@
       "podcast_episode_id": 418
     },
     {
+      "id": 434,
+      "title": "OpenAI Pauses Frontier Training, Elon's 100X Prediction Lands, Robot Beats Usain Bolt with Emad Mostaque | EP#282",
+      "source_type": "podcast",
+      "source_name": "Moonshots with Peter Diamandis",
+      "source_date": "2026-08-21",
+      "summary": "In this episode of Moonshots with Peter Diamandis, the quintet discusses the implications of AI advancements, the potential for 100x gains in certain sectors as predicted by Elon Musk, and the ethical considerations surrounding humanoid robots. They also touch on the power dynamics in AI companies, the future of energy, and the need for new structures to manage the impact of exponential technologies.",
+      "key_takeaway": "Invest in AI and exponential technologies that are driving the accelerating singularity, with a focus on companies that prioritize safety and ethical considerations.",
+      "tickers_mentioned": [
+        "AAPL"
+      ],
+      "sentiment": "neutral",
+      "display_on_main": 1,
+      "display_order": 0,
+      "added_date": "2026-08-21",
+      "archived_date": null,
+      "archived_reason": null,
+      "podcast_episode_id": 419
+    },
+    {
       "id": 431,
       "title": "How Global Networks Are Reshaping Startup Success",
       "source_type": "podcast",
@@ -168,7 +187,7 @@
         "AAPL"
       ],
       "sentiment": "neutral",
-      "display_on_main": 1,
+      "display_on_main": 0,
       "display_order": 0,
       "added_date": "2026-08-17",
       "archived_date": null,
@@ -8499,7 +8518,7 @@
       "description": "The ability of systems or machines to function independently without human intervention, often in the context of vehicles or industrial equipment.",
       "first_detected_date": "2026-07-22",
       "last_mentioned_date": "2026-08-21",
-      "mention_count": 8,
+      "mention_count": 9,
       "source_podcasts": null,
       "status": "active",
       "investment_implications": "Investors should monitor advancements in autonomy as it could significantly impact transportation and logistics.",
@@ -8508,8 +8527,8 @@
       "archived_reason": null,
       "first_detected_episode_id": 362,
       "first_detected_speaker": "Travis Kalanick, Ben Horowitz",
-      "last_mentioned_episode_id": 418,
-      "last_mentioned_speaker": "Chamath Palihapitiya, Jason Calacanis (hosts)"
+      "last_mentioned_episode_id": 419,
+      "last_mentioned_speaker": "Elon Musk"
     },
     {
       "id": 265,
@@ -8624,8 +8643,8 @@
       "term": "ASI",
       "description": "Artificial Super Intelligence, referring to AI systems that surpass human intelligence in every field.",
       "first_detected_date": "2026-06-29",
-      "last_mentioned_date": "2026-08-18",
-      "mention_count": 10,
+      "last_mentioned_date": "2026-08-21",
+      "mention_count": 11,
       "source_podcasts": null,
       "status": "active",
       "investment_implications": "ASI represents a potential paradigm shift in technology and could disrupt various industries.",
@@ -8634,16 +8653,16 @@
       "archived_reason": null,
       "first_detected_episode_id": 319,
       "first_detected_speaker": "Peter Diamandis (hosts)",
-      "last_mentioned_episode_id": 414,
-      "last_mentioned_speaker": "Alvin Wang Graylin"
+      "last_mentioned_episode_id": 419,
+      "last_mentioned_speaker": "Elon Musk"
     },
     {
       "id": 135,
       "term": "Healthspan",
       "description": "The period of life during which an individual is generally healthy and free from chronic diseases.",
       "first_detected_date": "2026-06-29",
-      "last_mentioned_date": "2026-08-13",
-      "mention_count": 5,
+      "last_mentioned_date": "2026-08-21",
+      "mention_count": 6,
       "source_podcasts": null,
       "status": "active",
       "investment_implications": "Investments in technologies that extend healthspan could have significant societal and economic impacts.",
@@ -8652,8 +8671,8 @@
       "archived_reason": null,
       "first_detected_episode_id": 319,
       "first_detected_speaker": "Peter Diamandis (hosts)",
-      "last_mentioned_episode_id": 403,
-      "last_mentioned_speaker": "Dave Blondon, Salim Ismail"
+      "last_mentioned_episode_id": 419,
+      "last_mentioned_speaker": "Elon Musk"
     },
     {
       "id": 255,
@@ -8856,20 +8875,20 @@
     {
       "id": 138,
       "term": "AI CapEx",
-      "description": "Capital expenditures related to artificial intelligence, including investments in AI infrastructure and technology.",
+      "description": "Capital expenditures by companies in the field of artificial intelligence, indicating a commitment to developing and implementing AI technologies.",
       "first_detected_date": "2026-06-08",
-      "last_mentioned_date": "2026-08-20",
-      "mention_count": 21,
+      "last_mentioned_date": "2026-08-21",
+      "mention_count": 22,
       "source_podcasts": null,
       "status": "active",
-      "investment_implications": "AI CapEx is driving up borrowing costs and impacting long-term interest rates, which can significantly affect bond and equity markets.",
+      "investment_implications": "Investors should track AI CapEx as an indicator of a company's strategic focus on AI and potential for future growth.",
       "display_on_main": 0,
       "archived_date": null,
       "archived_reason": null,
       "first_detected_episode_id": 271,
       "first_detected_speaker": null,
-      "last_mentioned_episode_id": 417,
-      "last_mentioned_speaker": "Luke Groman"
+      "last_mentioned_episode_id": 419,
+      "last_mentioned_speaker": "Elon Musk"
     },
     {
       "id": 234,
@@ -9183,7 +9202,7 @@
       "description": "A hypothetical point in the future at which technological growth becomes uncontrollable and irreversible, leading to unforeseeable changes in human civilization.",
       "first_detected_date": "2026-05-15",
       "last_mentioned_date": "2026-08-21",
-      "mention_count": 51,
+      "mention_count": 52,
       "source_podcasts": null,
       "status": "active",
       "investment_implications": "Investors should consider the potential for rapid technological change and its impact on various sectors, including AI, when making long-term investment decisions.",
@@ -9192,8 +9211,8 @@
       "archived_reason": null,
       "first_detected_episode_id": 221,
       "first_detected_speaker": null,
-      "last_mentioned_episode_id": 418,
-      "last_mentioned_speaker": "Chamath Palihapitiya, Jason Calacanis (hosts)"
+      "last_mentioned_episode_id": 419,
+      "last_mentioned_speaker": "Elon Musk"
     },
     {
       "id": 97,
@@ -9309,7 +9328,7 @@
       "description": "Artificial General Intelligence, the ability of machines to understand, learn, and apply knowledge across a broad range of tasks at a human level.",
       "first_detected_date": "2026-05-07",
       "last_mentioned_date": "2026-08-21",
-      "mention_count": 76,
+      "mention_count": 77,
       "source_podcasts": null,
       "status": "active",
       "investment_implications": "Invest in companies that are making incremental progress towards AGI capabilities.",
@@ -9318,8 +9337,8 @@
       "archived_reason": null,
       "first_detected_episode_id": 204,
       "first_detected_speaker": "Demis Hassabis",
-      "last_mentioned_episode_id": 418,
-      "last_mentioned_speaker": "Chamath Palihapitiya, Jason Calacanis (hosts)"
+      "last_mentioned_episode_id": 419,
+      "last_mentioned_speaker": "Elon Musk"
     },
     {
       "id": 162,
@@ -10406,8 +10425,8 @@
       "term": "AI Agents",
       "description": "Autonomous AI systems that can act on behalf of users or other systems, creating new challenges in cybersecurity.",
       "first_detected_date": "2026-02-28",
-      "last_mentioned_date": "2026-08-18",
-      "mention_count": 66,
+      "last_mentioned_date": "2026-08-21",
+      "mention_count": 67,
       "source_podcasts": null,
       "status": "active",
       "investment_implications": "Investors should consider companies developing security solutions to manage and mitigate risks associated with AI agents.",
@@ -10416,8 +10435,8 @@
       "archived_reason": null,
       "first_detected_episode_id": 31,
       "first_detected_speaker": null,
-      "last_mentioned_episode_id": 414,
-      "last_mentioned_speaker": "Alvin Wang Graylin"
+      "last_mentioned_episode_id": 419,
+      "last_mentioned_speaker": "Elon Musk"
     },
     {
       "id": 38,

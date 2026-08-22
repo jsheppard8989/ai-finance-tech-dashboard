@@ -1,7 +1,7 @@
 {
-  "generated_at": "2026-08-21T13:49:34.919479",
-  "last_updated": "2026-08-21T13:49:34.919479",
-  "last_pipeline_run": "2026-08-21T13:49:34.919479",
+  "generated_at": "2026-08-21T23:39:40.675018",
+  "last_updated": "2026-08-21T23:39:40.675018",
+  "last_pipeline_run": "2026-08-21T23:39:40.675018",
   "main_page": {
     "overton": 13,
     "insights": 8,
@@ -9,23 +9,41 @@
   },
   "counts": {
     "ticker_mentions": 216,
-    "podcast_episodes": 391,
+    "podcast_episodes": 392,
     "newsletters": 7,
     "daily_scores": 153,
     "overton_terms_total": 130,
-    "latest_insights_total": 405,
+    "latest_insights_total": 406,
     "today_mentions": {},
-    "podcasts_analyzed": 1
+    "podcasts_analyzed": 2
   },
   "step_results": {
-    "downloaded": 3,
-    "transcribed": 2,
+    "downloaded": 4,
+    "transcribed": 3,
     "analyzed": 1,
     "insight_created": 1,
     "published": 1,
-    "total": 3
+    "total": 4
   },
   "episodes": [
+    {
+      "id": "0e0b5862-9d7d-11f1-93d2-f7a1ad40d7e8",
+      "podcast": "Moonshots with Peter Diamandis",
+      "title": "OpenAI Pauses Frontier Training, Elon's 100X Prediction Lands, Robot Beats Usain Bolt with Emad Mostaque | EP#282",
+      "published": "2026-08-21",
+      "rss_guid": "0e0b5862-9d7d-11f1-93d2-f7a1ad40d7e8",
+      "stages": {
+        "downloaded": true,
+        "transcribed": true,
+        "analyzed": true,
+        "insight_created": true,
+        "published": true
+      },
+      "stage_reasons": {},
+      "first_blocker": null,
+      "remediation_by_stage": {},
+      "status": "complete"
+    },
     {
       "id": "79d5b1ce-9836-11f1-91ea-3f4eeb824a0e",
       "podcast": "Moonshots with Peter Diamandis",
@@ -155,22 +173,61 @@
       "status": "needs_transcription"
     },
     {
-      "id": "688c4809-9cf4-4d77-b5d7-482ee43e7ccc",
-      "podcast": "All-In with Chamath, Jason, Sacks & Friedberg",
-      "title": "Dario Defends Himself, Datacenter Panic, AI Doomer Trap, Senate Toss-Up",
+      "id": "substack:post:212197985",
+      "podcast": "Latent Space: The AI Engineer Podcast",
+      "title": "Simulation: the new Scaling Law \u2014 Joon Sung Park, Simile AI",
       "published": "2026-08-21",
-      "rss_guid": "688c4809-9cf4-4d77-b5d7-482ee43e7ccc",
+      "rss_guid": "substack:post:212197985",
       "stages": {
         "downloaded": true,
         "transcribed": true,
-        "analyzed": true,
-        "insight_created": true,
-        "published": true
+        "analyzed": false,
+        "insight_created": false,
+        "published": false
       },
-      "stage_reasons": {},
-      "first_blocker": null,
-      "remediation_by_stage": {},
-      "status": "complete"
+      "stage_reasons": {
+        "analyzed": "No podcast_episodes row yet (curated APPROVED but DB not updated). Usually fixed by: fetch_latest --queue-only + whisper worker + auto_pipeline sweep.",
+        "insight_created": "No podcast_episodes row yet (curated APPROVED but DB not updated). Usually fixed by: fetch_latest --queue-only + whisper worker + auto_pipeline sweep.",
+        "published": "No podcast_episodes row yet (curated APPROVED but DB not updated). Usually fixed by: fetch_latest --queue-only + whisper worker + auto_pipeline sweep."
+      },
+      "first_blocker": "analyzed",
+      "remediation_by_stage": {
+        "analyzed": {
+          "action_id": "ANALYZE_TRANSCRIPTS",
+          "steps": [
+            "Run transcript analysis so is_processed=1 on podcast_episodes (analyze_transcript via auto_pipeline).",
+            "Ensure LLM keys in workspace .env (e.g. MOONSHOT_API_KEY) are set if the analyzer requires them.",
+            "Quick path: auto_pipeline.py --analyze-only analyzes then continues promotion/export steps in that run."
+          ],
+          "commands": [
+            "cd /Users/jaredsheppard/projects/ai-finance-tech-dashboard/pipeline && python3 auto_pipeline.py --analyze-only",
+            "cd /Users/jaredsheppard/projects/ai-finance-tech-dashboard/pipeline && python3 auto_pipeline.py"
+          ]
+        },
+        "insight_created": {
+          "action_id": "PROMOTE_INSIGHT",
+          "steps": [
+            "Promotion to latest_insights runs inside auto_pipeline after analysis.",
+            "If analysis succeeded but insight is missing, re-run full auto_pipeline.py and check logs for promote_episodes_to_insights errors."
+          ],
+          "commands": [
+            "cd /Users/jaredsheppard/projects/ai-finance-tech-dashboard/pipeline && python3 auto_pipeline.py"
+          ]
+        },
+        "published": {
+          "action_id": "EXPORT_AND_PUBLISH",
+          "steps": [
+            "Site export runs only after generate_deepdives.py succeeds; if Deep Dives fail, export and git push are skipped.",
+            "Fix Deep Dive errors (see pipeline logs), then run auto_pipeline.py to export site JSON and push.",
+            "When added_to_site=1 on the episode row, this stage turns green."
+          ],
+          "commands": [
+            "cd /Users/jaredsheppard/projects/ai-finance-tech-dashboard/pipeline && python3 generate_deepdives.py",
+            "cd /Users/jaredsheppard/projects/ai-finance-tech-dashboard/pipeline && python3 auto_pipeline.py"
+          ]
+        }
+      },
+      "status": "needs_analysis"
     }
   ],
   "available_from_rss": [
@@ -178,6 +235,13 @@
       "podcast": "The a16z Show",
       "title": "Microsoft's Deputy CISO on Securing AI Agents",
       "published": "Fri, 21 Aug 2026 11:40:08 +0000",
+      "published_date": "2026-08-21",
+      "rss_guid": ""
+    },
+    {
+      "podcast": "Latent Space: The AI Engineer Podcast",
+      "title": "Simulation: the new Scaling Law \u2014 Joon Sung Park, Simile AI",
+      "published": "Fri, 21 Aug 2026 23:37:38 GMT",
       "published_date": "2026-08-21",
       "rss_guid": ""
     },

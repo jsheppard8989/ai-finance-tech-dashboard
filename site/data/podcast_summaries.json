@@ -1,5 +1,21 @@
 [
   {
+    "id": 419,
+    "podcast_name": "Moonshots with Peter Diamandis",
+    "episode_title": "OpenAI Pauses Frontier Training, Elon's 100X Prediction Lands, Robot Beats Usain Bolt with Emad Mostaque | EP#282",
+    "episode_date": "2026-08-21",
+    "summary": "In this episode of Moonshots with Peter Diamandis, the quintet discusses the implications of AI advancements, the potential for 100x gains in certain sectors as predicted by Elon Musk, and the ethical considerations surrounding humanoid robots. They also touch on the power dynamics in AI companies, the future of energy, and the need for new structures to manage the impact of exponential technologies.",
+    "key_takeaways": [
+      "Open AI's voluntary pause on reinforcement learning training suggests a growing awareness of the ethical considerations in AI development.",
+      "Elon Musk's prediction of 100x gains in certain sectors is becoming a reality, highlighting the potential for significant investment returns in AI and related technologies.",
+      "The discussion on humanoid robots raises concerns about safety and the potential for bans on superhuman robots, indicating a need for regulation in this space.",
+      "AI companies like Open AI and Anthropic have unique ownership structures to attract top talent focused on safety, which could impact investment theses.",
+      "The conversation around energy and data centers suggests a bullish view on the growth of these sectors, with a focus on the need for more power and data processing capabilities."
+    ],
+    "investment_thesis": "Invest in AI and exponential technologies that are driving the accelerating singularity, with a focus on companies that prioritize safety and ethical considerations.",
+    "key_tickers": null
+  },
+  {
     "id": 418,
     "podcast_name": "All-In with Chamath, Jason, Sacks & Friedberg",
     "episode_title": "Dario Defends Himself, Datacenter Panic, AI Doomer Trap, Senate Toss-Up",
@@ -115,22 +131,6 @@
       "The conversation highlights the challenges faced by tech companies in navigating the complex landscape of privacy concerns and community safety."
     ],
     "investment_thesis": "Investing in companies like Flock that focus on enhancing public safety through technology presents an opportunity to capitalize on the growing demand for security solutions, while also navigating the complex ethical landscape of privacy concerns.",
-    "key_tickers": null
-  },
-  {
-    "id": 410,
-    "podcast_name": "The a16z Show",
-    "episode_title": "Stripe\u2019s AI Strategy: Build More, Not Less",
-    "episode_date": "2026-08-17",
-    "summary": "In this episode of the a16z Show, General Partner David George interviews Stripe's Will about the transformative impact of AI on software development and commerce. They discuss how AI is increasing engineering productivity, allowing a single engineer to achieve what previously took multiple teams. The conversation covers Stripe's internal coding agents, the shift towards smaller and flatter teams, and the company's strategy to provide engineers with founder-like agency. They also explore the future of commerce with AI, including the potential disappearance of checkout pages and the rise of micropayments and stablecoins.",
-    "key_takeaways": [
-      "AI is dramatically increasing engineering productivity, allowing for faster software development.",
-      "Stripe is using internal coding agents to generate thousands of code quests, streamlining development.",
-      "Smaller, flatter teams are becoming the norm as companies adopt more agile practices.",
-      "Stripe is focusing on providing engineers with the autonomy traditionally associated with founders.",
-      "The future of commerce is being shaped by AI, with potential changes to checkout processes and the rise of new payment methods like stablecoins."
-    ],
-    "investment_thesis": "Investing in companies that leverage AI to enhance software development and commerce will yield significant returns as productivity increases and new markets open up.",
     "key_tickers": null
   }
 ]
