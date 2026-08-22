@@ -3,80 +3,80 @@
 
 const dashboardData = {
   schemaVersion: 2,
-  generatedAt: "2026-08-21T23:39:43.825652",
-  chartsVersion: "2026-08-21T23:39:36.418763",
+  generatedAt: "2026-08-22T05:02:36.367770",
+  chartsVersion: "2026-08-22T05:02:30.135900",
   priceSnapshot: {
   "GOOGL": {
     "price": 344.82,
     "change_pct": -8.69,
     "name": "GOOGL",
-    "updated_at": "2026-08-21T23:39:36.418027"
+    "updated_at": "2026-08-22T05:02:30.135151"
   },
   "NVDA": {
     "price": 214.72,
     "change_pct": 1.31,
     "name": "NVDA",
-    "updated_at": "2026-08-21T23:39:36.418043"
+    "updated_at": "2026-08-22T05:02:30.135168"
   },
   "MSFT": {
     "price": 483.24,
     "change_pct": -1.76,
     "name": "MSFT",
-    "updated_at": "2026-08-21T23:39:36.418049"
+    "updated_at": "2026-08-22T05:02:30.135176"
   },
   "BTC": {
-    "price": 78744.81,
-    "change_pct": 21.44,
+    "price": 76953.68,
+    "change_pct": 18.67,
     "name": "BTC",
-    "updated_at": "2026-08-21T23:39:36.418056"
+    "updated_at": "2026-08-22T05:02:30.135182"
   },
   "TSLA": {
     "price": 362.86,
     "change_pct": 10.85,
     "name": "TSLA",
-    "updated_at": "2026-08-21T23:39:36.418063"
+    "updated_at": "2026-08-22T05:02:30.135189"
   },
   "AMZN": {
     "price": 258.63,
     "change_pct": -6.77,
     "name": "AMZN",
-    "updated_at": "2026-08-21T23:39:36.418069"
+    "updated_at": "2026-08-22T05:02:30.135195"
   },
   "META": {
     "price": 549.9,
     "change_pct": -6.47,
     "name": "META",
-    "updated_at": "2026-08-21T23:39:36.418074"
+    "updated_at": "2026-08-22T05:02:30.135201"
   },
   "WTI": {
     "price": 3.92,
     "change_pct": 14.92,
     "name": "WTI",
-    "updated_at": "2026-08-21T23:39:36.418079"
+    "updated_at": "2026-08-22T05:02:30.135207"
   },
   "S&P 500": {
     "price": 765.72,
     "change_pct": -0.73,
     "name": "S&P 500",
-    "updated_at": "2026-08-21T23:39:36.418085"
+    "updated_at": "2026-08-22T05:02:30.135213"
   },
   "AAPL": {
     "price": 309.35,
     "change_pct": 0.08,
     "name": "AAPL",
-    "updated_at": "2026-08-21T23:39:36.418090"
+    "updated_at": "2026-08-22T05:02:30.135219"
   },
   "QQQ": {
     "price": 713.44,
     "change_pct": -1.44,
     "name": "Invesco QQQ Trust",
-    "updated_at": "2026-08-21T23:39:36.418095"
+    "updated_at": "2026-08-22T05:02:30.135224"
   },
   "BTC-USD": {
-    "price": 78744.81,
-    "change_pct": 21.44,
+    "price": 76953.68,
+    "change_pct": 18.67,
     "name": "Bitcoin USD",
-    "updated_at": "2026-08-21T23:39:36.418102"
+    "updated_at": "2026-08-22T05:02:30.135231"
   }
 },
   tickerScores: [
@@ -872,6 +872,27 @@ const dashboardData = {
       "podcast_episode_id": 419
     },
     {
+      "id": 435,
+      "title": "Simulation: the new Scaling Law \u2014 Joon Sung Park, Simile AI",
+      "source_type": "podcast",
+      "source_name": "Latent Space: The AI Engineer Podcast",
+      "source_date": "2026-08-21",
+      "summary": "In this episode, the guest shares their journey from a non-technical background to becoming a prominent figure in AI research. They discuss their influential paper on foundation models, the potential applications of these models, and the challenges in predicting human behavior. The conversation also touches on the importance of simulation in decision-making and the future of AI technology. The guest, who has built a successful company around these concepts, shares insights into their hiring process and the blend of research and product development within their organization.",
+      "key_takeaway": "Investing in companies that are at the forefront of AI and simulation technology could yield significant returns as these technologies become more integrated into everyday decision-making.",
+      "tickers_mentioned": [
+        "AAPL",
+        "GOOGL",
+        "MSFT"
+      ],
+      "sentiment": "neutral",
+      "display_on_main": 1,
+      "display_order": 0,
+      "added_date": "2026-08-22",
+      "archived_date": null,
+      "archived_reason": null,
+      "podcast_episode_id": 420
+    },
+    {
       "id": 431,
       "title": "How Global Networks Are Reshaping Startup Success",
       "source_type": "podcast",
@@ -942,7 +963,7 @@ const dashboardData = {
         "AAPL"
       ],
       "sentiment": "bullish",
-      "display_on_main": 1,
+      "display_on_main": 0,
       "display_order": 0,
       "added_date": "2026-08-17",
       "archived_date": null,
@@ -10161,7 +10182,7 @@ const dashboardData = {
       "description": "Artificial General Intelligence, the ability of machines to understand, learn, and apply knowledge across a broad range of tasks at a human level.",
       "first_detected_date": "2026-05-07",
       "last_mentioned_date": "2026-08-21",
-      "mention_count": 77,
+      "mention_count": 78,
       "source_podcasts": null,
       "status": "active",
       "investment_implications": "Invest in companies that are making incremental progress towards AGI capabilities.",
@@ -10170,8 +10191,8 @@ const dashboardData = {
       "archived_reason": null,
       "first_detected_episode_id": 204,
       "first_detected_speaker": "Demis Hassabis",
-      "last_mentioned_episode_id": 419,
-      "last_mentioned_speaker": "Elon Musk"
+      "last_mentioned_episode_id": 420,
+      "last_mentioned_speaker": "June"
     },
     {
       "id": 162,
@@ -11574,6 +11595,26 @@ const dashboardData = {
       "key_tickers": []
     },
     {
+      "id": 435,
+      "title": "Simulation: the new Scaling Law \u2014 Joon Sung Park, Simile AI",
+      "source_type": "podcast",
+      "source_name": "Latent Space: The AI Engineer Podcast",
+      "source_date": "2026-08-21",
+      "summary": "In this episode, the guest shares their journey from a non-technical background to becoming a prominent figure in AI research. They discuss their influential paper on foundation models, the potential applications of these models, and the challenges in predicting human behavior. The conversation also touches on the importance of simulation in decision-making and the future of AI technology. The guest, who has built a successful company around these concepts, shares insights into their hiring process and the blend of research and product development within their organization.",
+      "key_takeaway": "Investing in companies that are at the forefront of AI and simulation technology could yield significant returns as these technologies become more integrated into everyday decision-making.",
+      "tickers_mentioned": "[\"AAPL\", \"GOOGL\", \"MSFT\"]",
+      "sentiment": "neutral",
+      "display_on_main": 1,
+      "display_order": 0,
+      "added_date": "2026-08-22",
+      "archived_date": null,
+      "archived_reason": null,
+      "podcast_episode_id": 420,
+      "episode_release_date": "2026-08-21",
+      "guest_name": "Simulation",
+      "key_tickers": []
+    },
+    {
       "id": 431,
       "title": "How Global Networks Are Reshaping Startup Success",
       "source_type": "podcast",
@@ -11632,26 +11673,6 @@ const dashboardData = {
       "archived_reason": null,
       "podcast_episode_id": 415,
       "episode_release_date": "2026-08-19",
-      "guest_name": null,
-      "key_tickers": []
-    },
-    {
-      "id": 426,
-      "title": "Flock CEO Garrett Langley on Controversy, \"Surveillance State\" Claims, and Privacy vs Safety",
-      "source_type": "podcast",
-      "source_name": "All-In with Chamath, Jason, Sacks & Friedberg",
-      "source_date": "2026-08-18",
-      "summary": "In this episode of 'All-In with Chamath, Jason, Sacks & Friedberg', the hosts interview Garrett Langley, CEO of Flock, a company specializing in safety cameras and license plate readers. The discussion revolves around the balance between public safety and privacy, particularly in the context of Flock's technology being adopted in communities across the country. The conversation delves into the impact of Flock's technology on crime reduction, the ethical considerations surrounding its use, and the evolving responsibilities of tech companies in addressing privacy concerns.",
-      "key_takeaway": "Investing in companies like Flock that focus on enhancing public safety through technology presents an opportunity to capitalize on the growing demand for security solutions, while also navigating the complex ethical landscape of privacy concerns.",
-      "tickers_mentioned": "[\"AAPL\"]",
-      "sentiment": "bullish",
-      "display_on_main": 1,
-      "display_order": 0,
-      "added_date": "2026-08-17",
-      "archived_date": null,
-      "archived_reason": null,
-      "podcast_episode_id": 411,
-      "episode_release_date": "2026-08-18",
       "guest_name": null,
       "key_tickers": []
     },
@@ -11825,7 +11846,7 @@ const dashboardData = {
       "description": "Artificial General Intelligence, the ability of machines to understand, learn, and apply knowledge across a broad range of tasks at a human level.",
       "first_detected_date": "2026-05-07",
       "last_mentioned_date": "2026-08-21",
-      "mention_count": 77,
+      "mention_count": 78,
       "source_podcasts": null,
       "status": "active",
       "investment_implications": "Invest in companies that are making incremental progress towards AGI capabilities.",
@@ -11834,15 +11855,15 @@ const dashboardData = {
       "archived_reason": null,
       "first_detected_episode_id": 204,
       "first_detected_speaker": "Demis Hassabis",
-      "last_mentioned_episode_id": 419,
-      "last_mentioned_speaker": "Elon Musk",
-      "overton_score": 77.0,
+      "last_mentioned_episode_id": 420,
+      "last_mentioned_speaker": "June",
+      "overton_score": 76.22,
       "resonance_pct": 100,
       "first_detected_podcast": "Moonshots with Peter Diamandis",
       "first_detected_episode_title": "Demis Hassabis on AGI, Robots Scale Production, and Elon\u2019s $1T Mars-Shot Comp | EP #253",
       "first_detected_episode_date": "2026-05-07",
-      "last_mentioned_podcast": "Moonshots with Peter Diamandis",
-      "last_mentioned_episode_title": "OpenAI Pauses Frontier Training, Elon's 100X Prediction Lands, Robot Beats Usain Bolt with Emad Mostaque | EP#282",
+      "last_mentioned_podcast": "Latent Space: The AI Engineer Podcast",
+      "last_mentioned_episode_title": "Simulation: the new Scaling Law \u2014 Joon Sung Park, Simile AI",
       "last_mentioned_episode_date": "2026-08-21"
     },
     {
@@ -11862,7 +11883,7 @@ const dashboardData = {
       "first_detected_speaker": null,
       "last_mentioned_episode_id": 403,
       "last_mentioned_speaker": "Dave Blondon, Salim Ismail",
-      "overton_score": 19.95,
+      "overton_score": 19.49,
       "resonance_pct": 100,
       "first_detected_podcast": "Moonshots with Peter Diamandis",
       "first_detected_episode_title": "SpaceX\u2019 $75B+ Historic IPO, GPT 5.5 Outperforms Polymarket, and AI Solves 80 yr old math problem | EP #257",
@@ -11888,7 +11909,7 @@ const dashboardData = {
       "first_detected_speaker": "Chamath Palihapitiya, Jason Calacanis (hosts)",
       "last_mentioned_episode_id": 414,
       "last_mentioned_speaker": "Alvin Wang Graylin",
-      "overton_score": 18.66,
+      "overton_score": 18.23,
       "resonance_pct": 100,
       "first_detected_podcast": "All-In with Chamath, Jason, Sacks & Friedberg",
       "first_detected_episode_title": "World's First Trillionaire, Anthropic Fable Banned, The New Oligarchs, Iran Peace Deal",
@@ -11914,7 +11935,7 @@ const dashboardData = {
       "first_detected_speaker": "Travis Kalanick, Ben Horowitz",
       "last_mentioned_episode_id": 419,
       "last_mentioned_speaker": "Elon Musk",
-      "overton_score": 9.0,
+      "overton_score": 8.79,
       "resonance_pct": 100,
       "first_detected_podcast": "The a16z Show",
       "first_detected_episode_title": "Travis Kalanick Is Back | Building the Future of Industrial AI",
@@ -11940,7 +11961,7 @@ const dashboardData = {
       "first_detected_speaker": "Leakwet Ahamed",
       "last_mentioned_episode_id": 418,
       "last_mentioned_speaker": "Chamath Palihapitiya, Jason Calacanis (hosts)",
-      "overton_score": 8.0,
+      "overton_score": 7.82,
       "resonance_pct": 100,
       "first_detected_podcast": "Monetary Matters with Jack Farley",
       "first_detected_episode_title": "Rothschilds, Railroads, & Ruin | Liaquat Ahamed on \u201c1873\u201d (New Book!)",
@@ -11966,7 +11987,7 @@ const dashboardData = {
       "first_detected_speaker": "Peter Diamandis",
       "last_mentioned_episode_id": 408,
       "last_mentioned_speaker": "Alex Carp",
-      "overton_score": 6.87,
+      "overton_score": 6.72,
       "resonance_pct": 100,
       "first_detected_podcast": "Moonshots with Peter Diamandis",
       "first_detected_episode_title": "Emerging Situation: Anthropic's Global Pause, Recursive Self-Improvement Arrives, and AI Personhood Arrives | EP #263",
@@ -11992,7 +12013,7 @@ const dashboardData = {
       "first_detected_speaker": null,
       "last_mentioned_episode_id": 377,
       "last_mentioned_speaker": "Jesse Zang, Ashwin Srinivas",
-      "overton_score": 6.77,
+      "overton_score": 6.62,
       "resonance_pct": 100,
       "first_detected_podcast": "Moonshots with Peter Diamandis",
       "first_detected_episode_title": "Pope Leo vs. AI, GPT 5.5 Beats Claude, and Sam Altman Walks Back Job Apocalypse | EP #259",
@@ -12018,7 +12039,7 @@ const dashboardData = {
       "first_detected_speaker": "Ruby J. To Low",
       "last_mentioned_episode_id": 413,
       "last_mentioned_speaker": "Andy Yunnan Way",
-      "overton_score": 6.53,
+      "overton_score": 6.38,
       "resonance_pct": 100,
       "first_detected_podcast": "The a16z Show",
       "first_detected_episode_title": "Ruby Thelot on Internet Culture, AI, and the Future of Taste",
@@ -12044,7 +12065,7 @@ const dashboardData = {
       "first_detected_speaker": null,
       "last_mentioned_episode_id": 413,
       "last_mentioned_speaker": "Andy Yunnan Way",
-      "overton_score": 4.67,
+      "overton_score": 4.56,
       "resonance_pct": 100,
       "first_detected_podcast": "The a16z Show",
       "first_detected_episode_title": "The New Rules of Media | Marc Andreessen & Ben Horowitz",
@@ -12070,8 +12091,8 @@ const dashboardData = {
       "first_detected_speaker": null,
       "last_mentioned_episode_id": 417,
       "last_mentioned_speaker": "Luke Groman",
-      "overton_score": 3.91,
-      "resonance_pct": 98,
+      "overton_score": 3.82,
+      "resonance_pct": 96,
       "first_detected_podcast": "Monetary Matters with Jack Farley",
       "first_detected_episode_title": "Monetary Matters with Jack Farley: Global Liquidity and Asset Allocation",
       "first_detected_episode_date": "2026-03-09",
@@ -12096,8 +12117,8 @@ const dashboardData = {
       "first_detected_speaker": "Mark Andrewson, Chris Dixon",
       "last_mentioned_episode_id": 417,
       "last_mentioned_speaker": "Luke Groman",
-      "overton_score": 3.91,
-      "resonance_pct": 98,
+      "overton_score": 3.82,
+      "resonance_pct": 96,
       "first_detected_podcast": "The a16z Show",
       "first_detected_episode_title": "Marc Andreessen and Chris Dixon: What\u2019s at Stake in Crypto Regulation",
       "first_detected_episode_date": "2026-08-01",
@@ -12122,8 +12143,8 @@ const dashboardData = {
       "first_detected_speaker": "Ramine Hassani",
       "last_mentioned_episode_id": 393,
       "last_mentioned_speaker": "Saline",
-      "overton_score": 2.96,
-      "resonance_pct": 74,
+      "overton_score": 2.89,
+      "resonance_pct": 72,
       "first_detected_podcast": "Moonshots with Peter Diamandis",
       "first_detected_episode_title": "Mira Murati's 975B Open Model, Ramin Hasani on Post-Transformer AI, and Demis' AI FINRA | EP #271",
       "first_detected_episode_date": "2026-07-17",
@@ -12148,8 +12169,8 @@ const dashboardData = {
       "first_detected_speaker": "Chris Seminoch",
       "last_mentioned_episode_id": 417,
       "last_mentioned_speaker": "Luke Groman",
-      "overton_score": 2.93,
-      "resonance_pct": 73,
+      "overton_score": 2.86,
+      "resonance_pct": 72,
       "first_detected_podcast": "Monetary Matters with Jack Farley",
       "first_detected_episode_title": "The US Manufacturing and Electrification Megatrends Are Here and They\u2019re Way More Than AI | Chris Semenuk",
       "first_detected_episode_date": "2026-06-18",
@@ -37584,9 +37605,79 @@ const dashboardData = {
     "source_name": "Moonshots with Peter Diamandis",
     "source_date": "2026-08-21",
     "key_tickers": []
+  },
+  "435": {
+    "id": 424,
+    "insight_id": 435,
+    "podcast_episode_id": 420,
+    "overview": "The unresolved tension in the field of AI, as highlighted by Joon Sung Park, is the gap between the theoretical potential of foundation models and their practical application in simulating human behavior and decision-making. The competitive dynamic is centered around who can successfully harness these models to create more accurate simulations and personalized AI assistants. The metric that arbitrates this uncertainty is the ability of these models to accurately predict and replicate complex human behaviors and social interactions.",
+    "key_takeaways_detailed": [
+      "Investors should monitor the citation trends and adoption rates of foundation models to gauge the ongoing relevance and innovation in the AI sector.",
+      "Companies that can demonstrate the ability to train foundation models on a diverse set of behavioral data will have a competitive edge.",
+      "The success of AI simulation technology will likely be measured by its ability to create personalized user experiences, which could disrupt traditional customer service and decision-support systems.",
+      "Investors should look for companies that are not only advancing AI research but also have a clear path to product development and market application."
+    ],
+    "investment_thesis": "The core logic is that as AI technology advances, the ability to simulate human behavior accurately will become a critical differentiator. Companies that can leverage foundation models to create realistic simulations will lead the next wave of AI applications. This thesis is vindicated if, within the next five years, there is a significant increase in the adoption of AI simulation technology in decision-making processes across various industries, and if companies focusing on this area show consistent growth in valuation and market share.",
+    "ticker_analysis": {
+      "AAPL": {
+        "rationale": "Apple's investment in AI research and its potential to integrate advanced AI models into its ecosystem of products makes it relevant to the thesis.",
+        "positioning": "Positioned long-term as Apple continues to innovate and could leverage foundation models to enhance its services and products.",
+        "risk": "Key risks include regulatory challenges to data usage and potential setbacks in AI research and development."
+      },
+      "GOOGL": {
+        "rationale": "Google's deep investment in AI and machine learning positions it well to capitalize on the development and application of foundation models.",
+        "positioning": "Strategic long position due to Google's potential to integrate these models into its search and cloud services.",
+        "risk": "The risk lies in Google's ability to maintain its competitive edge in AI against other tech giants and startups."
+      },
+      "MSFT": {
+        "rationale": "Microsoft's active role in AI development and its cloud services could benefit significantly from the integration of foundation models.",
+        "positioning": "Tactical long position as Microsoft could quickly adapt its services to leverage these models in a business context.",
+        "risk": "The risk is the speed of adoption and the potential for Microsoft to fall behind in the rapidly evolving AI landscape."
+      }
+    },
+    "positioning_guidance": "",
+    "risk_factors": [],
+    "contrarian_signals": [
+      "The practical applications of foundation models may not materialize as quickly as expected, leading to a slower adoption rate than predicted.",
+      "Ethical concerns and regulatory hurdles could slow down the development and deployment of AI simulation technology.",
+      "There is a possibility that the current hype around AI simulation could lead to overvaluation of companies in this space, creating a bubble that may burst."
+    ],
+    "catalysts": [
+      "Publication of new research papers that significantly advance the understanding or application of foundation models.",
+      "Major product announcements from tech companies that integrate AI simulation technology into their offerings.",
+      "Regulatory decisions that either support or restrict the use of AI and data in simulating human behavior."
+    ],
+    "related_insights": null,
+    "audio_timestamp_start": null,
+    "audio_timestamp_end": null,
+    "transcript_excerpt": null,
+    "created_at": "2026-08-22T05:01:41.504454",
+    "updated_at": "2026-08-22 10:01:41",
+    "episode_evidence": "Joon Sung Park, the guest on the podcast, details his journey from a non-technical background to becoming a significant figure in AI research. He shares, 'I was originally trained to be a neuroscientist... then gradually I got really interested in this idea of... the greatest artists often creates their own medium and the best medium that we had available today was actually in computation.' This shift led him to Stanford, where he co-authored an influential paper on foundation models, which he describes as 'fundamentally new in our ecosystem... it wasn't again trained to do anything in particular but it was its premise was it could do anything and everything.' The paper, often referred to as the 'small-ville paper,' has been cited extensively, with Google Scholar showing 7000 citations, indicating its impact on the field. Park also discusses the 'time machine game,' a thought experiment where he and his colleagues considered what applications of these models would be most significant in the future, concluding that simulating the world we live in was the most ambitious and potentially impactful.",
+    "falsification_tracks": [
+      "If the number of citations for Park's foundational paper decreases significantly over the next year, it could indicate waning interest or relevance in the concept of foundation models.",
+      "Should Simile AI fail to secure further funding or experience a notable decline in their valuation, it might suggest that the market is less convinced of the practical applications of AI simulation technology.",
+      "If major tech companies do not adopt or invest in foundation models within the next two years, it could signal that the industry does not see these models as a critical component of future AI development."
+    ],
+    "insight_title": "Simulation: the new Scaling Law \u2014 Joon Sung Park, Simile AI",
+    "source_name": "Latent Space: The AI Engineer Podcast",
+    "source_date": "2026-08-21",
+    "key_tickers": []
   }
 },
   suggestedTerms: [
+  {
+    "id": 602,
+    "term": "Simulation",
+    "definition": "The use of models and computer programs to represent and analyze real or imagined systems or situations.",
+    "investment_implications": "Simulation technology can provide significant insights for decision-making, making investments in this area potentially valuable.",
+    "source_type": "auto_extracted",
+    "mention_count": 1,
+    "source_diversity": 1,
+    "relevance_score": 50,
+    "submitted_date": "2026-08-22 10:00:25",
+    "priority_score": 80
+  },
   {
     "id": 600,
     "term": "Borderless Founder",
@@ -37626,7 +37717,7 @@ const dashboardData = {
 ],
   podcastGuests: [
   {
-    "id": 55601,
+    "id": 55721,
     "name": "Emad Mostaque",
     "slug": "emad-mostaque",
     "bio": null,
@@ -37638,7 +37729,19 @@ const dashboardData = {
     "appearance_count": 3
   },
   {
-    "id": 55602,
+    "id": 55722,
+    "name": "Simulation",
+    "slug": "simulation",
+    "bio": null,
+    "known_for": null,
+    "last_main_idea": "Investing in companies that are at the forefront of AI and simulation technology could yield significant returns as these technologies become more integrated into everyday decision-making.",
+    "last_episode_title": "Simulation: the new Scaling Law \u2014 Joon Sung Park, Simile AI",
+    "last_podcast_name": "Latent Space: The AI Engineer Podcast",
+    "last_episode_date": "2026-08-21",
+    "appearance_count": 1
+  },
+  {
+    "id": 55723,
     "name": "Why Bessent Blinked",
     "slug": "why-bessent-blinked",
     "bio": null,
@@ -37650,7 +37753,7 @@ const dashboardData = {
     "appearance_count": 1
   },
   {
-    "id": 55603,
+    "id": 55724,
     "name": "China\u2019s Endgame",
     "slug": "chinas-endgame",
     "bio": null,
@@ -37662,7 +37765,7 @@ const dashboardData = {
     "appearance_count": 1
   },
   {
-    "id": 55604,
+    "id": 55725,
     "name": "Stripe\u2019s AI Strategy",
     "slug": "stripes-ai-strategy",
     "bio": null,
@@ -37674,7 +37777,7 @@ const dashboardData = {
     "appearance_count": 1
   },
   {
-    "id": 55605,
+    "id": 55726,
     "name": "Travis Kalanick",
     "slug": "travis-kalanick",
     "bio": null,
@@ -37686,7 +37789,7 @@ const dashboardData = {
     "appearance_count": 1
   },
   {
-    "id": 55606,
+    "id": 55727,
     "name": "Rahm Emanuel",
     "slug": "rahm-emanuel",
     "bio": null,
@@ -37698,7 +37801,7 @@ const dashboardData = {
     "appearance_count": 1
   },
   {
-    "id": 55607,
+    "id": 55728,
     "name": "Milton Berg",
     "slug": "milton-berg",
     "bio": "Milton Berg is a veteran technical analyst and CEO of Milton Berg Advisors, specializing in market turning-point analysis for institutional investors.",
@@ -37710,7 +37813,7 @@ const dashboardData = {
     "appearance_count": 2
   },
   {
-    "id": 55608,
+    "id": 55729,
     "name": "How Kavak Rebuilt Itself Around AI Agents",
     "slug": "how-kavak-rebuilt-itself-around-ai-agents",
     "bio": null,
@@ -37722,7 +37825,7 @@ const dashboardData = {
     "appearance_count": 1
   },
   {
-    "id": 55609,
+    "id": 55730,
     "name": "How Open",
     "slug": "how-open",
     "bio": null,
@@ -37734,7 +37837,7 @@ const dashboardData = {
     "appearance_count": 1
   },
   {
-    "id": 55610,
+    "id": 55731,
     "name": "Saronic Founders",
     "slug": "saronic-founders",
     "bio": null,
@@ -37746,7 +37849,7 @@ const dashboardData = {
     "appearance_count": 1
   },
   {
-    "id": 55611,
+    "id": 55732,
     "name": "OpenAI's Joshua Achiam",
     "slug": "openais-joshua-achiam",
     "bio": null,
@@ -37758,7 +37861,7 @@ const dashboardData = {
     "appearance_count": 1
   },
   {
-    "id": 55612,
+    "id": 55733,
     "name": "Why Macro is \u201cPretty Risk-On\u201d for Equities",
     "slug": "why-macro-is-pretty-risk-on-for-equities",
     "bio": null,
@@ -37770,7 +37873,7 @@ const dashboardData = {
     "appearance_count": 1
   },
   {
-    "id": 55613,
+    "id": 55734,
     "name": "AI for America's Small Businesses",
     "slug": "ai-for-americas-small-businesses",
     "bio": null,
@@ -37782,7 +37885,7 @@ const dashboardData = {
     "appearance_count": 1
   },
   {
-    "id": 55614,
+    "id": 55735,
     "name": "Mum\u2019s The Word",
     "slug": "mums-the-word",
     "bio": null,
@@ -37794,7 +37897,7 @@ const dashboardData = {
     "appearance_count": 1
   },
   {
-    "id": 55615,
+    "id": 55736,
     "name": "Luke Gromen",
     "slug": "luke-gromen",
     "bio": null,
@@ -37806,7 +37909,7 @@ const dashboardData = {
     "appearance_count": 1
   },
   {
-    "id": 55616,
+    "id": 55737,
     "name": "Codex from 0 to 10M Users",
     "slug": "codex-from-0-to-10m-users",
     "bio": null,
@@ -37818,7 +37921,7 @@ const dashboardData = {
     "appearance_count": 1
   },
   {
-    "id": 55617,
+    "id": 55738,
     "name": "Ben Horowitz",
     "slug": "ben-horowitz",
     "bio": "Ben Horowitz is a co-founder of venture firm Andreessen Horowitz and former CEO of Opsware, known for advising founders on leadership under pressure.",
@@ -37830,7 +37933,7 @@ const dashboardData = {
     "appearance_count": 3
   },
   {
-    "id": 55618,
+    "id": 55739,
     "name": "Building the Physical AI Stack",
     "slug": "building-the-physical-ai-stack",
     "bio": null,
@@ -37842,7 +37945,7 @@ const dashboardData = {
     "appearance_count": 1
   },
   {
-    "id": 55619,
+    "id": 55740,
     "name": "Travis Kalanick Is Back",
     "slug": "travis-kalanick-is-back",
     "bio": null,
@@ -37850,18 +37953,6 @@ const dashboardData = {
     "last_main_idea": "The next great technology revolution will be in the physical world, with industrial AI, robotics, and autonomy driving transformative change across industries.",
     "last_episode_title": "Travis Kalanick Is Back | Building the Future of Industrial AI",
     "last_podcast_name": "The a16z Show",
-    "last_episode_date": "2026-07-22",
-    "appearance_count": 1
-  },
-  {
-    "id": 55620,
-    "name": "Interest Rates to 10%",
-    "slug": "interest-rates-to-10",
-    "bio": null,
-    "known_for": null,
-    "last_main_idea": "The current speculative nature of the treasuries market and the potential for a significant rise in interest rates present both risks and opportunities for investors.",
-    "last_episode_title": "Interest Rates to 10%: Why the Treasury Market is the Real Speculative Bubble (Not AI) | Russell Clark",
-    "last_podcast_name": "Monetary Matters with Jack Farley",
     "last_episode_date": "2026-07-22",
     "appearance_count": 1
   }
@@ -39322,7 +39413,7 @@ const dashboardData = {
     "last_podcast_name": "Latent Space: The AI Engineer Podcast",
     "last_episode_date": "2026-08-11",
     "mention_score": 1,
-    "mention_score_decayed": 0.81,
+    "mention_score_decayed": 0.79,
     "last_main_idea": "Investing in AI-driven protein design companies like Try Discovery could offer significant returns as these platforms have the potential to disrupt traditional drug discovery, making it more efficient and cost-effective.",
     "last_proof_cite": "Latent Space: The AI Engineer Podcast \u2022 2026-08-11 \u2022 \ud83d\udd2cThe BioAI Phase Shift - Matthew McPartlon & Neil Patil, Chai Discovery",
     "last_proof_snippet": "It looks a lot less like a, you know, a chat GPT and a lot more like a autodesk or solid works or a figma, you know, if you've used those things where you can kind of load up your molecule, there's this almost like photo shop S click design",
@@ -39381,7 +39472,7 @@ const dashboardData = {
     "last_podcast_name": "Latent Space: The AI Engineer Podcast",
     "last_episode_date": "2026-08-11",
     "mention_score": 1,
-    "mention_score_decayed": 0.81,
+    "mention_score_decayed": 0.79,
     "last_main_idea": "Investing in AI-driven protein design companies like Try Discovery could offer significant returns as these platforms have the potential to disrupt traditional drug discovery, making it more efficient and cost-effective.",
     "last_proof_cite": "Latent Space: The AI Engineer Podcast \u2022 2026-08-11 \u2022 \ud83d\udd2cThe BioAI Phase Shift - Matthew McPartlon & Neil Patil, Chai Discovery",
     "last_proof_snippet": "It looks a lot less like a, you know, a chat GPT and a lot more like a autodesk or solid works or a figma, you know, if you've used those things where you can kind of load up your molecule, there's this almost like photo shop S click design",
@@ -40917,7 +41008,7 @@ const dashboardData = {
     "last_podcast_name": "The a16z Show",
     "last_episode_date": "2026-07-29",
     "mention_score": 1,
-    "mention_score_decayed": 0.6,
+    "mention_score_decayed": 0.59,
     "last_main_idea": "Investing in AI-native entertainment presents an opportunity to capitalize on the shift towards generative media and the democratization of content creation.",
     "last_proof_cite": "The a16z Show \u2022 2026-07-29 \u2022 AI Micro Dramas, Generative Media, and the Future of Creativity",
     "last_proof_snippet": "I think folks would be surprised by how many TV shows and movies today already have some element of AI being used. I spend a lot of time with studio execs and Amazon and Netflix have already both announced programs for fully-AI-generated an",
@@ -40977,7 +41068,7 @@ const dashboardData = {
     "last_podcast_name": "All-In with Chamath, Jason, Sacks & Friedberg",
     "last_episode_date": "2026-07-28",
     "mention_score": 1,
-    "mention_score_decayed": 0.6,
+    "mention_score_decayed": 0.59,
     "last_main_idea": "Investing in robotics and AI companies that are successfully transitioning from research to real-world applications could offer significant growth potential as these technologies become more integrated into various industries.",
     "last_proof_cite": "All-In with Chamath, Jason, Sacks & Friedberg \u2022 2026-07-28 \u2022 The $1/Hour Worker: Four Robotics CEOs on Humanoids at Home, China's Threat, and the End of Dangerous Jobs",
     "last_proof_snippet": "Hey everybody, it's your boy Jake Al, I'm here in Paris, France at a conference called Makina, basically AI in the real world. Pardon my robot. Thanks for tuning in, and let's get started. Apple ovens started with an $8 domain and no VC fun",
@@ -41036,7 +41127,7 @@ const dashboardData = {
     "last_podcast_name": "All-In with Chamath, Jason, Sacks & Friedberg",
     "last_episode_date": "2026-07-28",
     "mention_score": 1,
-    "mention_score_decayed": 0.6,
+    "mention_score_decayed": 0.59,
     "last_main_idea": "Investing in robotics and AI companies that are successfully transitioning from research to real-world applications could offer significant growth potential as these technologies become more integrated into various industries.",
     "last_proof_cite": "All-In with Chamath, Jason, Sacks & Friedberg \u2022 2026-07-28 \u2022 The $1/Hour Worker: Four Robotics CEOs on Humanoids at Home, China's Threat, and the End of Dangerous Jobs",
     "last_proof_snippet": "Hey everybody, it's your boy Jake Al, I'm here in Paris, France at a conference called Makina, basically AI in the real world. Pardon my robot. Thanks for tuning in, and let's get started. Apple ovens started with an $8 domain and no VC fun",
@@ -41095,7 +41186,7 @@ const dashboardData = {
     "last_podcast_name": "Monetary Matters with Jack Farley",
     "last_episode_date": "2026-07-29",
     "mention_score": 1,
-    "mention_score_decayed": 0.6,
+    "mention_score_decayed": 0.59,
     "last_main_idea": "The Federal Reserve's credibility is at stake, and market reactions to economic data and Fed policy suggest a potential shift in expectations for inflation and interest rates, impacting bond yields and stock market performance.",
     "last_proof_cite": "Monetary Matters with Jack Farley \u2022 2026-07-29 \u2022 Mum\u2019s The Word: Kathryn Rooney Vera on Fed\u2019s Second Meeting under Kevin Warsh, Plus Earnings Breakdown (Live Replay)",
     "last_proof_snippet": "Wow. All right. We are here. We are joined by Katherine Rooney Vera, who's the chief market strategist at Stone X Groups. A lot of views on board markets, everything in macro. We mean we can get to to currencies and bonds. Katherine had a v",
@@ -42335,7 +42426,7 @@ const dashboardData = {
     "last_podcast_name": "All-In with Chamath, Jason, Sacks & Friedberg",
     "last_episode_date": "2026-07-15",
     "mention_score": 1,
-    "mention_score_decayed": 0.44,
+    "mention_score_decayed": 0.43,
     "last_main_idea": "Investing in companies with strong technical leadership and a focus on future-proofing through R&D can yield significant long-term returns.",
     "last_proof_cite": "All-In with Chamath, Jason, Sacks & Friedberg \u2022 2026-07-15 \u2022 Former Intel CEO on What Went Wrong, What's Next + Lovable CEO on the Real Promise of Vibe Coding",
     "last_proof_snippet": "spent a long time in Intel, and only 34 years, 34 years, probably one of the greatest American companies ever, and then, absolutely went off the rails and got absolutely demolished by Nvidia, TSMC, and I guess Apple to a certain extent. So",
@@ -43051,7 +43142,7 @@ const dashboardData = {
     "last_podcast_name": "Monetary Matters with Jack Farley",
     "last_episode_date": "2026-07-05",
     "mention_score": 1,
-    "mention_score_decayed": 0.35,
+    "mention_score_decayed": 0.34,
     "last_main_idea": "The Federal Reserve's ability to manage interest rates effectively hinges on maintaining adequate reserve levels; monitoring the implementation of techniques to reduce reserve demand could provide insights into future monetary policy and market stability.",
     "last_proof_cite": "Monetary Matters with Jack Farley \u2022 2026-07-05 \u2022 The Ultimate Playbook for Reducing The Fed\u2019s Balance Sheet | Professor Darrell Duffie on 4 Tools For Federal Reserve To Shrink Reserve Demand In Banking System",
     "last_proof_snippet": "Today's episode is brought to you by the Fundrise Income Fund. You'll hear more about the income fund later in the show, but for now, let's get into today's interview. The new Fed Chair Kevin Worsh has made it no secret that he prefers a sm",

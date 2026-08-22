@@ -1,5 +1,22 @@
 [
   {
+    "id": 420,
+    "podcast_name": "Latent Space: The AI Engineer Podcast",
+    "episode_title": "Simulation: the new Scaling Law \u2014 Joon Sung Park, Simile AI",
+    "episode_date": "2026-08-21",
+    "summary": "In this episode, the guest shares their journey from a non-technical background to becoming a prominent figure in AI research. They discuss their influential paper on foundation models, the potential applications of these models, and the challenges in predicting human behavior. The conversation also touches on the importance of simulation in decision-making and the future of AI technology. The guest, who has built a successful company around these concepts, shares insights into their hiring process and the blend of research and product development within their organization.",
+    "key_takeaways": [
+      "The guest's paper on foundation models was highly influential in the field of AI.",
+      "Foundation models are likened to stem cells, capable of doing anything and everything.",
+      "The guest's company is a blend of research lab and product development company, focusing on simulation technology.",
+      "Data from well-designed random and controlled trials can significantly improve models' ability to predict human behavior.",
+      "The guest discusses the importance of understanding what is fundamentally human when developing AI models.",
+      "The company is hiring across all sections, with a focus on research talent and engineers."
+    ],
+    "investment_thesis": "Investing in companies that are at the forefront of AI and simulation technology could yield significant returns as these technologies become more integrated into everyday decision-making.",
+    "key_tickers": null
+  },
+  {
     "id": 419,
     "podcast_name": "Moonshots with Peter Diamandis",
     "episode_title": "OpenAI Pauses Frontier Training, Elon's 100X Prediction Lands, Robot Beats Usain Bolt with Emad Mostaque | EP#282",
@@ -115,22 +132,6 @@
       "Cyber defenses are evolving from static detection rules to dynamic, behavior-based approaches."
     ],
     "investment_thesis": "Invest in companies developing new security tools to address AI incidents and agentic processes, as well as those providing flexible solutions to adapt to the rapid pace of AI development.",
-    "key_tickers": null
-  },
-  {
-    "id": 411,
-    "podcast_name": "All-In with Chamath, Jason, Sacks & Friedberg",
-    "episode_title": "Flock CEO Garrett Langley on Controversy, \"Surveillance State\" Claims, and Privacy vs Safety",
-    "episode_date": "2026-08-18",
-    "summary": "In this episode of 'All-In with Chamath, Jason, Sacks & Friedberg', the hosts interview Garrett Langley, CEO of Flock, a company specializing in safety cameras and license plate readers. The discussion revolves around the balance between public safety and privacy, particularly in the context of Flock's technology being adopted in communities across the country. The conversation delves into the impact of Flock's technology on crime reduction, the ethical considerations surrounding its use, and the evolving responsibilities of tech companies in addressing privacy concerns.",
-    "key_takeaways": [
-      "Flock has been successful in reducing crime and locating missing persons, with over a million crimes solved and 10,000 people found.",
-      "There is a growing debate on the trade-off between privacy and safety, with Flock's technology at the center of this discussion.",
-      "Garrett Langley emphasizes the importance of community values in shaping the use of Flock's technology and the need for transparency and accountability.",
-      "The company is taking a cautious approach to implementing AI features to avoid overstepping privacy boundaries.",
-      "The conversation highlights the challenges faced by tech companies in navigating the complex landscape of privacy concerns and community safety."
-    ],
-    "investment_thesis": "Investing in companies like Flock that focus on enhancing public safety through technology presents an opportunity to capitalize on the growing demand for security solutions, while also navigating the complex ethical landscape of privacy concerns.",
     "key_tickers": null
   }
 ]

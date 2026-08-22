@@ -1,7 +1,7 @@
 {
-  "generated_at": "2026-08-21T23:39:40.675018",
-  "last_updated": "2026-08-21T23:39:40.675018",
-  "last_pipeline_run": "2026-08-21T23:39:40.675018",
+  "generated_at": "2026-08-22T05:02:33.248118",
+  "last_updated": "2026-08-22T05:02:33.248118",
+  "last_pipeline_run": "2026-08-22T05:02:33.248118",
   "main_page": {
     "overton": 13,
     "insights": 8,
@@ -9,41 +9,23 @@
   },
   "counts": {
     "ticker_mentions": 216,
-    "podcast_episodes": 392,
+    "podcast_episodes": 393,
     "newsletters": 7,
     "daily_scores": 153,
     "overton_terms_total": 130,
-    "latest_insights_total": 406,
+    "latest_insights_total": 407,
     "today_mentions": {},
-    "podcasts_analyzed": 2
+    "podcasts_analyzed": 1
   },
   "step_results": {
-    "downloaded": 4,
-    "transcribed": 3,
+    "downloaded": 3,
+    "transcribed": 2,
     "analyzed": 1,
     "insight_created": 1,
     "published": 1,
     "total": 4
   },
   "episodes": [
-    {
-      "id": "0e0b5862-9d7d-11f1-93d2-f7a1ad40d7e8",
-      "podcast": "Moonshots with Peter Diamandis",
-      "title": "OpenAI Pauses Frontier Training, Elon's 100X Prediction Lands, Robot Beats Usain Bolt with Emad Mostaque | EP#282",
-      "published": "2026-08-21",
-      "rss_guid": "0e0b5862-9d7d-11f1-93d2-f7a1ad40d7e8",
-      "stages": {
-        "downloaded": true,
-        "transcribed": true,
-        "analyzed": true,
-        "insight_created": true,
-        "published": true
-      },
-      "stage_reasons": {},
-      "first_blocker": null,
-      "remediation_by_stage": {},
-      "status": "complete"
-    },
     {
       "id": "79d5b1ce-9836-11f1-91ea-3f4eeb824a0e",
       "podcast": "Moonshots with Peter Diamandis",
@@ -181,17 +163,60 @@
       "stages": {
         "downloaded": true,
         "transcribed": true,
+        "analyzed": true,
+        "insight_created": true,
+        "published": true
+      },
+      "stage_reasons": {},
+      "first_blocker": null,
+      "remediation_by_stage": {},
+      "status": "complete"
+    },
+    {
+      "id": "rss::the a16z show::martin casado on where the value is going in ai",
+      "podcast": "The a16z Show",
+      "title": "Martin Casado on Where the Value Is Going in AI",
+      "published": "2026-08-22",
+      "published_date": "2026-08-22",
+      "rss_guid": "",
+      "stages": {
+        "downloaded": false,
+        "transcribed": false,
         "analyzed": false,
         "insight_created": false,
         "published": false
       },
       "stage_reasons": {
-        "analyzed": "No podcast_episodes row yet (curated APPROVED but DB not updated). Usually fixed by: fetch_latest --queue-only + whisper worker + auto_pipeline sweep.",
-        "insight_created": "No podcast_episodes row yet (curated APPROVED but DB not updated). Usually fixed by: fetch_latest --queue-only + whisper worker + auto_pipeline sweep.",
-        "published": "No podcast_episodes row yet (curated APPROVED but DB not updated). Usually fixed by: fetch_latest --queue-only + whisper worker + auto_pipeline sweep."
+        "downloaded": "RSS-only: not in curation_log APPROVED list yet \u2014 run curate.py so it can be fetched.",
+        "transcribed": "Blocked until download completes.",
+        "analyzed": "Blocked until transcript exists.",
+        "insight_created": "Blocked until analysis completes.",
+        "published": "Blocked until export after insight promotion."
       },
-      "first_blocker": "analyzed",
+      "first_blocker": "downloaded",
       "remediation_by_stage": {
+        "downloaded": {
+          "action_id": "FETCH_AUDIO",
+          "steps": [
+            "Approve the episode in curation (curate.py refreshes pipeline/state/curation_log.json).",
+            "Download audio and enqueue transcription: fetch_latest.py --queue-only.",
+            "If MP3 never appears, inspect pipeline/logs/pipeline_schedule.err and fetch_latest output."
+          ],
+          "commands": [
+            "cd /Users/jaredsheppard/projects/ai-finance-tech-dashboard/pipeline && python3 curate.py",
+            "cd /Users/jaredsheppard/projects/ai-finance-tech-dashboard/pipeline && python3 fetch_latest.py --queue-only"
+          ]
+        },
+        "transcribed": {
+          "action_id": "FETCH_BEFORE_TRANSCRIBE",
+          "steps": [
+            "Audio must exist before transcription. Complete FETCH_AUDIO first."
+          ],
+          "commands": [
+            "cd /Users/jaredsheppard/projects/ai-finance-tech-dashboard/pipeline && python3 curate.py",
+            "cd /Users/jaredsheppard/projects/ai-finance-tech-dashboard/pipeline && python3 fetch_latest.py --queue-only"
+          ]
+        },
         "analyzed": {
           "action_id": "ANALYZE_TRANSCRIPTS",
           "steps": [
@@ -227,21 +252,21 @@
           ]
         }
       },
-      "status": "needs_analysis"
+      "status": "needs_download"
     }
   ],
   "available_from_rss": [
     {
       "podcast": "The a16z Show",
-      "title": "Microsoft's Deputy CISO on Securing AI Agents",
-      "published": "Fri, 21 Aug 2026 11:40:08 +0000",
-      "published_date": "2026-08-21",
+      "title": "Martin Casado on Where the Value Is Going in AI",
+      "published": "Sat, 22 Aug 2026 10:00:00 +0000",
+      "published_date": "2026-08-22",
       "rss_guid": ""
     },
     {
-      "podcast": "Latent Space: The AI Engineer Podcast",
-      "title": "Simulation: the new Scaling Law \u2014 Joon Sung Park, Simile AI",
-      "published": "Fri, 21 Aug 2026 23:37:38 GMT",
+      "podcast": "The a16z Show",
+      "title": "Microsoft's Deputy CISO on Securing AI Agents",
+      "published": "Fri, 21 Aug 2026 11:40:08 +0000",
       "published_date": "2026-08-21",
       "rss_guid": ""
     },
@@ -260,7 +285,7 @@
       "title": "200GW Hiding in Grid, Sodium Batteries 10x Cheaper, Wave-Powered Datacenters w/ Ramez Naam | EP #280",
       "status": "needs_analysis",
       "published": "2026-08-15",
-      "age_days": 6,
+      "age_days": 7,
       "next_blocker": "analyzed"
     }
   ],
