@@ -3,80 +3,80 @@
 
 const dashboardData = {
   schemaVersion: 2,
-  generatedAt: "2026-08-24T12:21:33.643989",
-  chartsVersion: "2026-08-24T12:21:24.256025",
+  generatedAt: "2026-08-24T13:54:14.830027",
+  chartsVersion: "2026-08-24T13:54:08.144326",
   priceSnapshot: {
   "GOOGL": {
-    "price": 349.31,
-    "change_pct": -3.62,
+    "price": 348.3,
+    "change_pct": -3.9,
     "name": "GOOGL",
-    "updated_at": "2026-08-24T12:21:24.255033"
+    "updated_at": "2026-08-24T13:54:08.143586"
   },
   "NVDA": {
-    "price": 209.46,
-    "change_pct": -4.45,
+    "price": 209.4,
+    "change_pct": -4.48,
     "name": "NVDA",
-    "updated_at": "2026-08-24T12:21:24.255053"
+    "updated_at": "2026-08-24T13:54:08.143603"
   },
   "MSFT": {
-    "price": 488.85,
-    "change_pct": 0.47,
+    "price": 487.85,
+    "change_pct": 0.27,
     "name": "MSFT",
-    "updated_at": "2026-08-24T12:21:24.255062"
+    "updated_at": "2026-08-24T13:54:08.143610"
   },
   "BTC": {
-    "price": 78815.85,
-    "change_pct": 24.02,
+    "price": 78932.86,
+    "change_pct": 24.2,
     "name": "BTC",
-    "updated_at": "2026-08-24T12:21:24.255070"
+    "updated_at": "2026-08-24T13:54:08.143616"
   },
   "TSLA": {
-    "price": 355.95,
-    "change_pct": 10.7,
+    "price": 350.3,
+    "change_pct": 8.94,
     "name": "TSLA",
-    "updated_at": "2026-08-24T12:21:24.255078"
+    "updated_at": "2026-08-24T13:54:08.143622"
   },
   "AMZN": {
-    "price": 262.15,
-    "change_pct": -3.85,
+    "price": 261.99,
+    "change_pct": -3.91,
     "name": "AMZN",
-    "updated_at": "2026-08-24T12:21:24.255086"
+    "updated_at": "2026-08-24T13:54:08.143628"
   },
   "META": {
-    "price": 557.86,
-    "change_pct": -5.25,
+    "price": 560.7,
+    "change_pct": -4.77,
     "name": "META",
-    "updated_at": "2026-08-24T12:21:24.255094"
+    "updated_at": "2026-08-24T13:54:08.143634"
   },
   "WTI": {
-    "price": 3.76,
-    "change_pct": 16.0,
+    "price": 3.77,
+    "change_pct": 16.15,
     "name": "WTI",
-    "updated_at": "2026-08-24T12:21:24.255101"
+    "updated_at": "2026-08-24T13:54:08.143639"
   },
   "S&P 500": {
-    "price": 763.76,
-    "change_pct": -0.78,
+    "price": 764.1,
+    "change_pct": -0.74,
     "name": "S&P 500",
-    "updated_at": "2026-08-24T12:21:24.255108"
+    "updated_at": "2026-08-24T13:54:08.143644"
   },
   "AAPL": {
-    "price": 312.01,
-    "change_pct": 0.41,
+    "price": 311.5,
+    "change_pct": 0.25,
     "name": "AAPL",
-    "updated_at": "2026-08-24T12:21:24.255115"
+    "updated_at": "2026-08-24T13:54:08.143649"
   },
   "QQQ": {
-    "price": 707.49,
-    "change_pct": -1.37,
+    "price": 707.91,
+    "change_pct": -1.31,
     "name": "Invesco QQQ Trust",
-    "updated_at": "2026-08-24T12:21:24.255123"
+    "updated_at": "2026-08-24T13:54:08.143654"
   },
   "BTC-USD": {
-    "price": 78815.85,
-    "change_pct": 24.02,
+    "price": 78932.86,
+    "change_pct": 24.2,
     "name": "Bitcoin USD",
-    "updated_at": "2026-08-24T12:21:24.255132"
+    "updated_at": "2026-08-24T13:54:08.143661"
   }
 },
   tickerScores: [
@@ -853,6 +853,25 @@ const dashboardData = {
       "podcast_episode_id": 421
     },
     {
+      "id": 437,
+      "title": "Is Private Equity Broken? Why the Buyside\u2019s Problems Are Making 2026 \u201cThe Year of the Banker\u201d | High Yield Harry",
+      "source_type": "podcast",
+      "source_name": "Monetary Matters with Jack Farley",
+      "source_date": "2026-08-24",
+      "summary": "In this episode of 'Monetary Matters with Jack Farley', Max Weethy interviews High-Yield Harry to discuss the current state of the buy side in finance. They explore the impact of AI on junior analysts, the maturation of private equity, and concerns within the private credit sector. The conversation highlights the bifurcated nature of the buy side, with investment bankers currently benefiting from increased M&A activity and stability, while private equity and private credit professionals face challenges in exiting positions and fundraising. The episode also touches on the potential for AI to disrupt traditional roles within finance and the implications for compensation and career progression.",
+      "key_takeaway": "The current bifurcated state of the buy side presents opportunities for investment bankers due to increased M&A activity, while private equity and private credit professionals face challenges that may impact their compensation and career progression.",
+      "tickers_mentioned": [
+        "NVDA"
+      ],
+      "sentiment": "bullish",
+      "display_on_main": 1,
+      "display_order": 0,
+      "added_date": "2026-08-24",
+      "archived_date": null,
+      "archived_reason": null,
+      "podcast_episode_id": 422
+    },
+    {
       "id": 433,
       "title": "Dario Defends Himself, Datacenter Panic, AI Doomer Trap, Senate Toss-Up",
       "source_type": "podcast",
@@ -1022,7 +1041,7 @@ const dashboardData = {
         "AAPL"
       ],
       "sentiment": "bullish",
-      "display_on_main": 1,
+      "display_on_main": 0,
       "display_order": 0,
       "added_date": "2026-08-18",
       "archived_date": null,
@@ -9588,8 +9607,8 @@ const dashboardData = {
       "term": "Hyperscalers",
       "description": "Large companies that provide computing resources, storage, and various services over the internet at a massive scale.",
       "first_detected_date": "2026-06-19",
-      "last_mentioned_date": "2026-08-18",
-      "mention_count": 20,
+      "last_mentioned_date": "2026-08-24",
+      "mention_count": 21,
       "source_podcasts": null,
       "status": "active",
       "investment_implications": "Their significant capital expenditures and innovative financial structures can offer investment opportunities but also pose risks.",
@@ -9598,8 +9617,8 @@ const dashboardData = {
       "archived_reason": null,
       "first_detected_episode_id": 302,
       "first_detected_speaker": "Chamath Palihapitiya, Jason Calacanis (hosts)",
-      "last_mentioned_episode_id": 414,
-      "last_mentioned_speaker": "Alvin Wang Graylin"
+      "last_mentioned_episode_id": 422,
+      "last_mentioned_speaker": "Harry"
     },
     {
       "id": 256,
@@ -10074,8 +10093,8 @@ const dashboardData = {
       "term": "Singularity",
       "description": "A hypothetical point in the future at which technological growth becomes uncontrollable and irreversible, leading to unforeseeable changes in human civilization.",
       "first_detected_date": "2026-05-15",
-      "last_mentioned_date": "2026-08-21",
-      "mention_count": 52,
+      "last_mentioned_date": "2026-08-24",
+      "mention_count": 53,
       "source_podcasts": null,
       "status": "active",
       "investment_implications": "Investors should consider the potential for rapid technological change and its impact on various sectors, including AI, when making long-term investment decisions.",
@@ -10084,8 +10103,8 @@ const dashboardData = {
       "archived_reason": null,
       "first_detected_episode_id": 221,
       "first_detected_speaker": null,
-      "last_mentioned_episode_id": 419,
-      "last_mentioned_speaker": "Elon Musk"
+      "last_mentioned_episode_id": 422,
+      "last_mentioned_speaker": "Harry"
     },
     {
       "id": 97,
@@ -11594,6 +11613,26 @@ const dashboardData = {
       "key_tickers": []
     },
     {
+      "id": 437,
+      "title": "Is Private Equity Broken? Why the Buyside\u2019s Problems Are Making 2026 \u201cThe Year of the Banker\u201d | High Yield Harry",
+      "source_type": "podcast",
+      "source_name": "Monetary Matters with Jack Farley",
+      "source_date": "2026-08-24",
+      "summary": "In this episode of 'Monetary Matters with Jack Farley', Max Weethy interviews High-Yield Harry to discuss the current state of the buy side in finance. They explore the impact of AI on junior analysts, the maturation of private equity, and concerns within the private credit sector. The conversation highlights the bifurcated nature of the buy side, with investment bankers currently benefiting from increased M&A activity and stability, while private equity and private credit professionals face challenges in exiting positions and fundraising. The episode also touches on the potential for AI to disrupt traditional roles within finance and the implications for compensation and career progression.",
+      "key_takeaway": "The current bifurcated state of the buy side presents opportunities for investment bankers due to increased M&A activity, while private equity and private credit professionals face challenges that may impact their compensation and career progression.",
+      "tickers_mentioned": "[\"NVDA\"]",
+      "sentiment": "bullish",
+      "display_on_main": 1,
+      "display_order": 0,
+      "added_date": "2026-08-24",
+      "archived_date": null,
+      "archived_reason": null,
+      "podcast_episode_id": 422,
+      "episode_release_date": "2026-08-24",
+      "guest_name": null,
+      "key_tickers": []
+    },
+    {
       "id": 433,
       "title": "Dario Defends Himself, Datacenter Panic, AI Doomer Trap, Senate Toss-Up",
       "source_type": "podcast",
@@ -11712,26 +11751,6 @@ const dashboardData = {
       "archived_reason": null,
       "podcast_episode_id": 415,
       "episode_release_date": "2026-08-19",
-      "guest_name": null,
-      "key_tickers": []
-    },
-    {
-      "id": 428,
-      "title": "Ex-Goya COO on the $1.4 Trillion Family Business Opportunity in Three Consumer Sectors | Andy Unanue",
-      "source_type": "podcast",
-      "source_name": "Monetary Matters with Jack Farley",
-      "source_date": "2026-08-18",
-      "summary": "In this episode of 'Monetary Matters with Jack Farley', Max Weethy interviews Andy Yunnan Way, the founder and managing partner of AUA Private Equity Partners. They discuss the significant role family-run businesses play in the U.S. economy, particularly in the food, beverage, pet wellness, and co-manufacturing sectors, which constitute a $1.3 to $1.4 trillion market opportunity. Andy shares insights from his experience as COO of Goia Foods and how it influenced AUA's strategy. They also explore the importance of authenticity in family businesses, the impact of the internet and social media on consumer preferences, and the future outlook for AUA Private Equity Partners.",
-      "key_takeaway": "AUA Private Equity Partners focuses on operational improvements in family-run businesses within the food, beverage, pet wellness, and co-manufacturing sectors, targeting a $1.3 to $1.4 trillion market opportunity.",
-      "tickers_mentioned": "[\"AAPL\"]",
-      "sentiment": "bullish",
-      "display_on_main": 1,
-      "display_order": 0,
-      "added_date": "2026-08-18",
-      "archived_date": null,
-      "archived_reason": null,
-      "podcast_episode_id": 413,
-      "episode_release_date": "2026-08-18",
       "guest_name": null,
       "key_tickers": []
     }
@@ -11886,6 +11905,32 @@ const dashboardData = {
       "last_mentioned_episode_date": "2026-08-21"
     },
     {
+      "id": 254,
+      "term": "Hyperscalers",
+      "description": "Large companies that provide computing resources, storage, and various services over the internet at a massive scale.",
+      "first_detected_date": "2026-06-19",
+      "last_mentioned_date": "2026-08-24",
+      "mention_count": 21,
+      "source_podcasts": null,
+      "status": "active",
+      "investment_implications": "Their significant capital expenditures and innovative financial structures can offer investment opportunities but also pose risks.",
+      "display_on_main": 1,
+      "archived_date": null,
+      "archived_reason": null,
+      "first_detected_episode_id": 302,
+      "first_detected_speaker": "Chamath Palihapitiya, Jason Calacanis (hosts)",
+      "last_mentioned_episode_id": 422,
+      "last_mentioned_speaker": "Harry",
+      "overton_score": 21.0,
+      "resonance_pct": 100,
+      "first_detected_podcast": "All-In with Chamath, Jason, Sacks & Friedberg",
+      "first_detected_episode_title": "World's First Trillionaire, Anthropic Fable Banned, The New Oligarchs, Iran Peace Deal",
+      "first_detected_episode_date": "2026-06-19",
+      "last_mentioned_podcast": "Monetary Matters with Jack Farley",
+      "last_mentioned_episode_title": "Is Private Equity Broken? Why the Buyside\u2019s Problems Are Making 2026 \u201cThe Year of the Banker\u201d | High Yield Harry",
+      "last_mentioned_episode_date": "2026-08-24"
+    },
+    {
       "id": 10,
       "term": "Dyson Swarm",
       "description": "A hypothetical network of satellites that could harness solar energy from space.",
@@ -11910,32 +11955,6 @@ const dashboardData = {
       "last_mentioned_podcast": "Moonshots with Peter Diamandis",
       "last_mentioned_episode_title": "Bernie Demands the Labs Stop, Wall Street Turns GPUs Into Bonds, Grok 4.7 Takes #1 with Emad Mostaque | EP #279",
       "last_mentioned_episode_date": "2026-08-13"
-    },
-    {
-      "id": 254,
-      "term": "Hyperscalers",
-      "description": "Large companies that provide computing resources, storage, and various services over the internet at a massive scale.",
-      "first_detected_date": "2026-06-19",
-      "last_mentioned_date": "2026-08-18",
-      "mention_count": 20,
-      "source_podcasts": null,
-      "status": "active",
-      "investment_implications": "Their significant capital expenditures and innovative financial structures can offer investment opportunities but also pose risks.",
-      "display_on_main": 1,
-      "archived_date": null,
-      "archived_reason": null,
-      "first_detected_episode_id": 302,
-      "first_detected_speaker": "Chamath Palihapitiya, Jason Calacanis (hosts)",
-      "last_mentioned_episode_id": 414,
-      "last_mentioned_speaker": "Alvin Wang Graylin",
-      "overton_score": 17.41,
-      "resonance_pct": 100,
-      "first_detected_podcast": "All-In with Chamath, Jason, Sacks & Friedberg",
-      "first_detected_episode_title": "World's First Trillionaire, Anthropic Fable Banned, The New Oligarchs, Iran Peace Deal",
-      "first_detected_episode_date": "2026-06-19",
-      "last_mentioned_podcast": "Moonshots with Peter Diamandis",
-      "last_mentioned_episode_title": "China\u2019s Endgame: ASI Timelines, US-China Relations, and the $1.7T AI Bubble With Alvin Graylin | #281",
-      "last_mentioned_episode_date": "2026-08-18"
     },
     {
       "id": 264,
@@ -38125,9 +38144,71 @@ const dashboardData = {
     "source_name": "The a16z Show",
     "source_date": "2026-08-24",
     "key_tickers": []
+  },
+  "437": {
+    "id": 426,
+    "insight_id": 437,
+    "podcast_episode_id": 422,
+    "overview": "The podcast highlights a significant shift in the buy side's dynamics, with investment bankers experiencing a 'year of the banker' due to increased M&A activity and stability. In contrast, private equity and private credit professionals are grappling with challenges in exiting positions and fundraising, which are exacerbated by a potential 12 to 18-month lag in the impact of these issues on compensation. Additionally, the rise in redemption rates, especially from retail investors who may not fully understand the nature of private credit investments, is causing concern. This trend could lead to a retrenchment in retail involvement in private credit, which has been a significant flow over the past few years.",
+    "key_takeaways_detailed": [],
+    "investment_thesis": "If the thesis of a bifurcated buy side holds, allocators should anticipate a continued divergence in performance and opportunities between investment banking and private equity/private credit. Over the short to medium term, they may find more stability and potential for returns in investment banking-related activities. Conversely, they should be cautious with private equity and private credit investments, monitoring the ability of these sectors to exit positions and raise funds. Disproving the thesis would require a significant turnaround in these areas, particularly in the form of successful fundraising and exits, which would signal a healthier environment for private equity and private credit professionals.",
+    "ticker_analysis": {
+      "NVDA": {
+        "rationale": "NVIDIA (NVDA) is mentioned as a company involved in the AI space, which is expected to disrupt traditional roles within finance. As AI technology advances, NVIDIA's performance could serve as a barometer for the pace and impact of AI on the financial industry, particularly affecting junior analyst roles.",
+        "positioning": "",
+        "risk": ""
+      }
+    },
+    "positioning_guidance": "",
+    "risk_factors": [],
+    "contrarian_signals": [],
+    "catalysts": [],
+    "related_insights": null,
+    "audio_timestamp_start": null,
+    "audio_timestamp_end": null,
+    "transcript_excerpt": null,
+    "created_at": "2026-08-24T13:53:13.821912",
+    "updated_at": "2026-08-24 18:53:13",
+    "episode_evidence": "-host: 'I think the first and foremost with private equity versus private credit, you see a lot of doomerism with private credit and I think it's very fair because we've seen that even some of these well established funds are seeing their redemption rates go up quarter of a quarter.'\n-guest: 'I think the retail component is really important because that's not necessarily a flow that will happen three, five years from now. It's definitely part of the flow story over the past two to three years where retail is getting more involved in private credit.'",
+    "falsification_tracks": [
+      "A significant increase in successful exits and realizations in the private equity space that would alleviate concerns about illiquidity and position challenges.",
+      "A substantial decline in redemption rates, particularly from retail investors, indicating a renewed confidence in private credit funds.",
+      "An uptick in fundraising success for private equity and private credit funds, suggesting a healthier environment for these professionals.",
+      "A notable shift in retail investor behavior towards a better understanding and acceptance of the locked-up nature of private credit investments, potentially reducing redemption pressures.",
+      "A substantial decrease in the use of non-recourse loans against future earnings by private equity professionals, indicating an improvement in their financial situation and the overall health of the private equity market."
+    ],
+    "schema_version": 2,
+    "insight_title": "Is Private Equity Broken? Why the Buyside\u2019s Problems Are Making 2026 \u201cThe Year of the Banker\u201d | High Yield Harry",
+    "source_name": "Monetary Matters with Jack Farley",
+    "source_date": "2026-08-24",
+    "key_tickers": []
   }
 },
   suggestedTerms: [
+  {
+    "id": 605,
+    "term": "AI coming for the junior analyst job",
+    "definition": "The concern that artificial intelligence will replace or significantly alter the roles of junior analysts in the finance industry.",
+    "investment_implications": "This could lead to a shift in the demand for human capital and potentially disrupt traditional career paths within finance.",
+    "source_type": "auto_extracted",
+    "mention_count": 1,
+    "source_diversity": 1,
+    "relevance_score": 50,
+    "submitted_date": "2026-08-24 18:52:50",
+    "priority_score": 80
+  },
+  {
+    "id": 606,
+    "term": "Year of the investment banker",
+    "definition": "A period characterized by increased activity and stability in investment banking, contrasting with challenges faced by other areas of finance.",
+    "investment_implications": "This suggests a potential opportunity for investors to focus on banking stocks or related financial instruments during such periods.",
+    "source_type": "auto_extracted",
+    "mention_count": 1,
+    "source_diversity": 1,
+    "relevance_score": 50,
+    "submitted_date": "2026-08-24 18:52:50",
+    "priority_score": 80
+  },
   {
     "id": 603,
     "term": "e-values",
@@ -38151,35 +38232,11 @@ const dashboardData = {
     "relevance_score": 50,
     "submitted_date": "2026-08-24 12:02:04",
     "priority_score": 80
-  },
-  {
-    "id": 602,
-    "term": "Simulation",
-    "definition": "The use of models and computer programs to represent and analyze real or imagined systems or situations.",
-    "investment_implications": "Simulation technology can provide significant insights for decision-making, making investments in this area potentially valuable.",
-    "source_type": "auto_extracted",
-    "mention_count": 1,
-    "source_diversity": 1,
-    "relevance_score": 50,
-    "submitted_date": "2026-08-22 10:00:25",
-    "priority_score": 80
-  },
-  {
-    "id": 600,
-    "term": "Borderless Founder",
-    "definition": "A founder with global ambitions who leverages their international background to access talent, customers, and distribution networks across borders.",
-    "investment_implications": "Borderless founders can create global companies by combining the resources of Silicon Valley with the networks of their home markets.",
-    "source_type": "auto_extracted",
-    "mention_count": 1,
-    "source_diversity": 1,
-    "relevance_score": 50,
-    "submitted_date": "2026-08-20 17:05:02",
-    "priority_score": 80
   }
 ],
   podcastGuests: [
   {
-    "id": 57413,
+    "id": 57493,
     "name": "Emad Mostaque",
     "slug": "emad-mostaque",
     "bio": null,
@@ -38191,7 +38248,7 @@ const dashboardData = {
     "appearance_count": 3
   },
   {
-    "id": 57414,
+    "id": 57494,
     "name": "Angela Strange and Gabriel Vasquez",
     "slug": "angela-strange-and-gabriel-vasquez",
     "bio": null,
@@ -38203,7 +38260,7 @@ const dashboardData = {
     "appearance_count": 1
   },
   {
-    "id": 57415,
+    "id": 57495,
     "name": "Why Bessent Blinked",
     "slug": "why-bessent-blinked",
     "bio": null,
@@ -38215,7 +38272,7 @@ const dashboardData = {
     "appearance_count": 1
   },
   {
-    "id": 57416,
+    "id": 57496,
     "name": "Travis Kalanick",
     "slug": "travis-kalanick",
     "bio": null,
@@ -38227,7 +38284,7 @@ const dashboardData = {
     "appearance_count": 1
   },
   {
-    "id": 57417,
+    "id": 57497,
     "name": "Rahm Emanuel",
     "slug": "rahm-emanuel",
     "bio": null,
@@ -38239,7 +38296,7 @@ const dashboardData = {
     "appearance_count": 1
   },
   {
-    "id": 57418,
+    "id": 57498,
     "name": "Milton Berg",
     "slug": "milton-berg",
     "bio": "Milton Berg is a veteran technical analyst and CEO of Milton Berg Advisors, specializing in market turning-point analysis for institutional investors.",
@@ -38251,7 +38308,7 @@ const dashboardData = {
     "appearance_count": 1
   },
   {
-    "id": 57419,
+    "id": 57499,
     "name": "How Open",
     "slug": "how-open",
     "bio": null,
@@ -38263,7 +38320,7 @@ const dashboardData = {
     "appearance_count": 1
   },
   {
-    "id": 57420,
+    "id": 57500,
     "name": "Saronic Founders",
     "slug": "saronic-founders",
     "bio": null,
@@ -38275,7 +38332,7 @@ const dashboardData = {
     "appearance_count": 1
   },
   {
-    "id": 57421,
+    "id": 57501,
     "name": "OpenAI's Joshua Achiam",
     "slug": "openais-joshua-achiam",
     "bio": null,
@@ -38287,7 +38344,7 @@ const dashboardData = {
     "appearance_count": 1
   },
   {
-    "id": 57422,
+    "id": 57502,
     "name": "Marc Andreessen and Chris Dixon",
     "slug": "marc-andreessen-and-chris-dixon",
     "bio": null,
@@ -38299,7 +38356,7 @@ const dashboardData = {
     "appearance_count": 1
   },
   {
-    "id": 57423,
+    "id": 57503,
     "name": "AI for America's Small Businesses",
     "slug": "ai-for-americas-small-businesses",
     "bio": null,
@@ -38311,7 +38368,7 @@ const dashboardData = {
     "appearance_count": 1
   },
   {
-    "id": 57424,
+    "id": 57504,
     "name": "Luke Gromen",
     "slug": "luke-gromen",
     "bio": null,
@@ -38323,7 +38380,7 @@ const dashboardData = {
     "appearance_count": 1
   },
   {
-    "id": 57425,
+    "id": 57505,
     "name": "Travis Kelenick",
     "slug": "travis-kelenick",
     "bio": null,
@@ -38335,7 +38392,7 @@ const dashboardData = {
     "appearance_count": 1
   },
   {
-    "id": 57426,
+    "id": 57506,
     "name": "Travis Kalanick Is Back",
     "slug": "travis-kalanick-is-back",
     "bio": null,
@@ -38347,7 +38404,7 @@ const dashboardData = {
     "appearance_count": 1
   },
   {
-    "id": 57427,
+    "id": 57507,
     "name": "Interest Rates to 10%",
     "slug": "interest-rates-to-10",
     "bio": null,
@@ -38359,7 +38416,7 @@ const dashboardData = {
     "appearance_count": 1
   },
   {
-    "id": 57428,
+    "id": 57508,
     "name": "Nick Nemeth",
     "slug": "nick-nemeth",
     "bio": null,
@@ -38371,7 +38428,7 @@ const dashboardData = {
     "appearance_count": 1
   },
   {
-    "id": 57429,
+    "id": 57509,
     "name": "Urgent Update- AI Sputnik Moment",
     "slug": "urgent-update--ai-sputnik-moment",
     "bio": null,
@@ -38383,7 +38440,7 @@ const dashboardData = {
     "appearance_count": 1
   },
   {
-    "id": 57430,
+    "id": 57510,
     "name": "David Sachs",
     "slug": "david-sachs",
     "bio": null,
@@ -38395,7 +38452,7 @@ const dashboardData = {
     "appearance_count": 1
   },
   {
-    "id": 57431,
+    "id": 57511,
     "name": "Turbo Charged Trend Following",
     "slug": "turbo-charged-trend-following",
     "bio": null,
@@ -38407,7 +38464,7 @@ const dashboardData = {
     "appearance_count": 1
   },
   {
-    "id": 57432,
+    "id": 57512,
     "name": "Can Anyone Catch NVIDIA?",
     "slug": "can-anyone-catch-nvidia",
     "bio": null,
@@ -38890,7 +38947,7 @@ const dashboardData = {
     "last_podcast_name": "Monetary Matters with Jack Farley",
     "last_episode_date": "2026-08-18",
     "mention_score": 1,
-    "mention_score_decayed": 0.89,
+    "mention_score_decayed": 0.87,
     "last_main_idea": "AUA Private Equity Partners focuses on operational improvements in family-run businesses within the food, beverage, pet wellness, and co-manufacturing sectors, targeting a $1.3 to $1.4 trillion market opportunity.",
     "last_proof_cite": "Monetary Matters with Jack Farley \u2022 2026-08-18 \u2022 Ex-Goya COO on the $1.4 Trillion Family Business Opportunity in Three Consumer Sectors | Andy Unanue",
     "last_proof_snippet": "Our economy is driven by family run businesses, 70 plus percent of the GDP is generated through family run businesses. Then the food beverage pack wellness sector, it's a 1.3, 1.4 trillion dollar market opportunity. So it's a big market. I'",
@@ -39433,7 +39490,7 @@ const dashboardData = {
     "last_podcast_name": "The a16z Show",
     "last_episode_date": "2026-08-14",
     "mention_score": 4,
-    "mention_score_decayed": 3.25,
+    "mention_score_decayed": 3.17,
     "last_main_idea": "Invest in industries that are ripe for automation and AI integration, as industrial AI could revolutionize multiple trillion-dollar industries.",
     "last_proof_cite": "The a16z Show \u2022 2026-08-14 \u2022 Ben Horowitz and Travis Kalanick on Building Again",
     "last_proof_snippet": "Hey Travis is back, but I've actually been working for eight years, I just haven't been talking about it. We're competing for the next industrial revolution. People said, are you pissed off about Uber? Does that grind you when you fall in l",
@@ -40980,7 +41037,7 @@ const dashboardData = {
     "last_podcast_name": "Monetary Matters with Jack Farley",
     "last_episode_date": "2026-08-04",
     "mention_score": 1,
-    "mention_score_decayed": 0.64,
+    "mention_score_decayed": 0.63,
     "last_main_idea": "The S&P 500's performance over the next two years will be largely determined by the behavior of extrapolators and corporate equity activity, rather than fundamental earnings growth.",
     "last_proof_cite": "Monetary Matters with Jack Farley \u2022 2026-08-04 \u2022 Victor Haghani on Death of Random Walk, and Passive, Buybacks, and LTCM",
     "last_proof_snippet": "So I feel like we can talk about LTCM. We can talk about, I mean, let's not do that. That's so boring. I mean, everybody's sick of LTCM. Yeah. What do you think the real lessons are? You know, I think the biggest lessons are about personal",
@@ -41172,7 +41229,7 @@ const dashboardData = {
     "last_podcast_name": "The a16z Show",
     "last_episode_date": "2026-08-01",
     "mention_score": 3,
-    "mention_score_decayed": 1.8,
+    "mention_score_decayed": 1.76,
     "last_main_idea": "Regulatory clarity through acts like the Clarity Act is essential for the next phase of blockchain adoption and could unlock significant investment opportunities in stablecoins and tokenized assets.",
     "last_proof_cite": "The a16z Show \u2022 2026-08-01 \u2022 Marc Andreessen and Chris Dixon: What\u2019s at Stake in Crypto Regulation",
     "last_proof_snippet": "Stable coins are tokenized stocks or dollars on blockchain. Rivals the size of the Visa network. Trillings the dollar is transacted. If you have a dollar of that stable coin, there is a dollar sitting in the bank. And that's why the Clarity",
@@ -41233,7 +41290,7 @@ const dashboardData = {
     "last_podcast_name": "The a16z Show",
     "last_episode_date": "2026-08-01",
     "mention_score": 1,
-    "mention_score_decayed": 0.6,
+    "mention_score_decayed": 0.59,
     "last_main_idea": "Regulatory clarity through acts like the Clarity Act is essential for the next phase of blockchain adoption and could unlock significant investment opportunities in stablecoins and tokenized assets.",
     "last_proof_cite": "The a16z Show \u2022 2026-08-01 \u2022 Marc Andreessen and Chris Dixon: What\u2019s at Stake in Crypto Regulation",
     "last_proof_snippet": "Stable coins are tokenized stocks or dollars on blockchain. Rivals the size of the Visa network. Trillings the dollar is transacted. If you have a dollar of that stable coin, there is a dollar sitting in the bank. And that's why the Clarity",
@@ -41293,7 +41350,7 @@ const dashboardData = {
     "last_podcast_name": "The a16z Show",
     "last_episode_date": "2026-07-31",
     "mention_score": 1,
-    "mention_score_decayed": 0.59,
+    "mention_score_decayed": 0.57,
     "last_main_idea": "Investing in AI-driven enterprise software that leverages open source models can lead to better control, performance, and scalability, creating a competitive advantage in the market.",
     "last_proof_cite": "The a16z Show \u2022 2026-07-31 \u2022 How Enterprise AI Really Gets Deployed",
     "last_proof_snippet": "And AI agents should just be the funder of your business and every interaction, whether it's like reactive or proactive with a customer, should be handled by AI. This narrative dominated the first half of 2026, which is that anthropic open",
@@ -41353,7 +41410,7 @@ const dashboardData = {
     "last_podcast_name": "The a16z Show",
     "last_episode_date": "2026-07-31",
     "mention_score": 1,
-    "mention_score_decayed": 0.59,
+    "mention_score_decayed": 0.57,
     "last_main_idea": "Investing in AI-driven enterprise software that leverages open source models can lead to better control, performance, and scalability, creating a competitive advantage in the market.",
     "last_proof_cite": "The a16z Show \u2022 2026-07-31 \u2022 How Enterprise AI Really Gets Deployed",
     "last_proof_snippet": "And AI agents should just be the funder of your business and every interaction, whether it's like reactive or proactive with a customer, should be handled by AI. This narrative dominated the first half of 2026, which is that anthropic open",
@@ -41773,7 +41830,7 @@ const dashboardData = {
     "last_podcast_name": "Monetary Matters with Jack Farley",
     "last_episode_date": "2026-07-26",
     "mention_score": 1,
-    "mention_score_decayed": 0.52,
+    "mention_score_decayed": 0.51,
     "last_main_idea": "Contrary to popular belief, private credit and corporate debt are sustainable, and the real risk lies in government debt levels, which could lead to increased market volatility if not addressed.",
     "last_proof_cite": "Monetary Matters with Jack Farley \u2022 2026-07-26 \u2022 Debt Service Coverage in Private Markets Is Improving, Actually | Nicholas Brooks",
     "last_proof_snippet": "Over the past year, there's been some very bad press on private credit, including on this channel where recent guest Nick Nemitz said that he thinks it's almost inevitable that the next financial crisis will be caused by private credit. Tod",
@@ -42212,7 +42269,7 @@ const dashboardData = {
     "last_podcast_name": "The a16z Show",
     "last_episode_date": "2026-07-21",
     "mention_score": 1,
-    "mention_score_decayed": 0.47,
+    "mention_score_decayed": 0.46,
     "last_main_idea": "Investing in physical AI and autonomous systems could lead to significant returns as these technologies transform the physical economy and unlock new productivity gains.",
     "last_proof_cite": "The a16z Show \u2022 2026-07-21 \u2022 Why Physical AI Is the Next Frontier | Applied Intuition",
     "last_proof_snippet": "Our mission is to put intelligence on a billion machines, and that we think that can have a profound impact on society. Applied intuition is a physical attack company. We put intelligence on machines. Cars, trucks, tanks, drones. It's a phy",
@@ -42340,7 +42397,7 @@ const dashboardData = {
     "last_podcast_name": "Monetary Matters with Jack Farley",
     "last_episode_date": "2026-07-20",
     "mention_score": 1,
-    "mention_score_decayed": 0.46,
+    "mention_score_decayed": 0.45,
     "last_main_idea": "The private credit industry is overleveraged and poses a significant systemic risk, with potential for a massive financial blow-up that could be triggered by the insurance industry's massive balance sheets.",
     "last_proof_cite": "Monetary Matters with Jack Farley \u2022 2026-07-20 \u2022 Nick Nemeth: Private Credit Will Blow-up Insurance System | Immense Leverage, Shaky Loans, and Retirement System That Actually Does Have Run Risk (via Surrenders)",
     "last_proof_snippet": "Today's episode is brought to you by the two-cream corn fund ticker C-O-R-N. Let's get into it. Join today by Nick Nemeth Financial Investor Researcher and author at Miss Price Assets. Nick, welcome to monetary matters. Thanks, Jack. It's g",
@@ -42404,7 +42461,7 @@ const dashboardData = {
     "last_podcast_name": "Moonshots with Peter Diamandis",
     "last_episode_date": "2026-07-19",
     "mention_score": 1,
-    "mention_score_decayed": 0.45,
+    "mention_score_decayed": 0.44,
     "last_main_idea": "Investment in AI technology is crucial as it becomes a key differentiator in global competitiveness, with a focus on companies advancing AI models and quantization.",
     "last_proof_cite": "Moonshots with Peter Diamandis \u2022 2026-07-19 \u2022 Urgent Update- AI Sputnik Moment: Kimi K3 Released w/ Emad Mostaque | Ep. 272",
     "last_proof_snippet": "Today we put out the bat signal, and called for an emergency pod because America just experienced an AI-splitnik moment. Kimmy K3 released yesterday shocking the AI world with the largest op-weight model ever, and it went straight to number",
@@ -42465,7 +42522,7 @@ const dashboardData = {
     "last_podcast_name": "Moonshots with Peter Diamandis",
     "last_episode_date": "2026-07-19",
     "mention_score": 1,
-    "mention_score_decayed": 0.45,
+    "mention_score_decayed": 0.44,
     "last_main_idea": "Investment in AI technology is crucial as it becomes a key differentiator in global competitiveness, with a focus on companies advancing AI models and quantization.",
     "last_proof_cite": "Moonshots with Peter Diamandis \u2022 2026-07-19 \u2022 Urgent Update- AI Sputnik Moment: Kimi K3 Released w/ Emad Mostaque | Ep. 272",
     "last_proof_snippet": "Today we put out the bat signal, and called for an emergency pod because America just experienced an AI-splitnik moment. Kimmy K3 released yesterday shocking the AI world with the largest op-weight model ever, and it went straight to number",
@@ -42525,7 +42582,7 @@ const dashboardData = {
     "last_podcast_name": "Moonshots with Peter Diamandis",
     "last_episode_date": "2026-07-19",
     "mention_score": 1,
-    "mention_score_decayed": 0.45,
+    "mention_score_decayed": 0.44,
     "last_main_idea": "Investment in AI technology is crucial as it becomes a key differentiator in global competitiveness, with a focus on companies advancing AI models and quantization.",
     "last_proof_cite": "Moonshots with Peter Diamandis \u2022 2026-07-19 \u2022 Urgent Update- AI Sputnik Moment: Kimi K3 Released w/ Emad Mostaque | Ep. 272",
     "last_proof_snippet": "Today we put out the bat signal, and called for an emergency pod because America just experienced an AI-splitnik moment. Kimmy K3 released yesterday shocking the AI world with the largest op-weight model ever, and it went straight to number",
@@ -42710,7 +42767,7 @@ const dashboardData = {
     "last_podcast_name": "Latent Space: The AI Engineer Podcast",
     "last_episode_date": "2026-07-16",
     "mention_score": 1,
-    "mention_score_decayed": 0.42,
+    "mention_score_decayed": 0.41,
     "last_main_idea": "Investing in AI-driven platforms in healthcare and life sciences can lead to significant efficiency gains and cost reductions in drug discovery and materials science.",
     "last_proof_cite": "Latent Space: The AI Engineer Podcast \u2022 2026-07-16 \u2022 \ud83d\udd2c The Lab of the Future Should Feel Like a Data Center \u2014 Andy Beam & Rafa G\u00f3mez-Bombarelli, Lila Sciences",
     "last_proof_snippet": "But not just tech bio, what do you do in terms of science? We are all in on the bitter lesson and scale. We think that methods that scale and that are general retows that are not. As Ely has said, it's last year, we have but one internet, i",
@@ -42770,7 +42827,7 @@ const dashboardData = {
     "last_podcast_name": "Latent Space: The AI Engineer Podcast",
     "last_episode_date": "2026-07-16",
     "mention_score": 1,
-    "mention_score_decayed": 0.42,
+    "mention_score_decayed": 0.41,
     "last_main_idea": "Investing in AI-driven platforms in healthcare and life sciences can lead to significant efficiency gains and cost reductions in drug discovery and materials science.",
     "last_proof_cite": "Latent Space: The AI Engineer Podcast \u2022 2026-07-16 \u2022 \ud83d\udd2c The Lab of the Future Should Feel Like a Data Center \u2014 Andy Beam & Rafa G\u00f3mez-Bombarelli, Lila Sciences",
     "last_proof_snippet": "But not just tech bio, what do you do in terms of science? We are all in on the bitter lesson and scale. We think that methods that scale and that are general retows that are not. As Ely has said, it's last year, we have but one internet, i",
@@ -42834,7 +42891,7 @@ const dashboardData = {
     "last_podcast_name": "Monetary Matters with Jack Farley",
     "last_episode_date": "2026-07-16",
     "mention_score": 1,
-    "mention_score_decayed": 0.42,
+    "mention_score_decayed": 0.41,
     "last_main_idea": "Takahay Capital's investment thesis revolves around trend following and quantitative diversification, aiming to capitalize on major market trends while maintaining a diverse portfolio to mitigate risk.",
     "last_proof_cite": "Monetary Matters with Jack Farley \u2022 2026-07-16 \u2022 Turbo Charged Trend Following: Why Capturing the Market\u2019s Biggest Trends Means Embracing High Volatility | Moritz Seibert & Moritz Heiden | Takahe Capital",
     "last_proof_snippet": "single market trend has a very good year and that is right because you've seen these major trends and like equities and gold sovereign markets that we've mentioned it deserves to be large it deserves to be moving the needle it deserves a la",
@@ -42894,7 +42951,7 @@ const dashboardData = {
     "last_podcast_name": "Monetary Matters with Jack Farley",
     "last_episode_date": "2026-07-16",
     "mention_score": 1,
-    "mention_score_decayed": 0.42,
+    "mention_score_decayed": 0.41,
     "last_main_idea": "Takahay Capital's investment thesis revolves around trend following and quantitative diversification, aiming to capitalize on major market trends while maintaining a diverse portfolio to mitigate risk.",
     "last_proof_cite": "Monetary Matters with Jack Farley \u2022 2026-07-16 \u2022 Turbo Charged Trend Following: Why Capturing the Market\u2019s Biggest Trends Means Embracing High Volatility | Moritz Seibert & Moritz Heiden | Takahe Capital",
     "last_proof_snippet": "single market trend has a very good year and that is right because you've seen these major trends and like equities and gold sovereign markets that we've mentioned it deserves to be large it deserves to be moving the needle it deserves a la",
@@ -43221,7 +43278,7 @@ const dashboardData = {
     "last_podcast_name": "Dwarkesh Podcast",
     "last_episode_date": "2026-07-10",
     "mention_score": 1,
-    "mention_score_decayed": 0.36,
+    "mention_score_decayed": 0.35,
     "last_main_idea": "While this episode does not present a direct investment thesis, it provides foundational knowledge about the principles of physics that could influence investment decisions in technology and space sectors.",
     "last_proof_cite": "Dwarkesh Podcast \u2022 2026-07-10 \u2022 Adam Brown \u2013 Einstein's happiest thought: General Relativity from scratch",
     "last_proof_snippet": "I'm back with Adam Brown. You currently need blue shift at Google DeepMine, which is cracking science and reasoning. In a previous life, Adam was a prolific physicist taught at Stanford and did research and everything from cosmology to stri",
@@ -45524,7 +45581,7 @@ const dashboardData = {
     "last_podcast_name": "Moonshots with Peter Diamandis",
     "last_episode_date": "2026-06-11",
     "mention_score": 1,
-    "mention_score_decayed": 0.19,
+    "mention_score_decayed": 0.18,
     "last_main_idea": "Invest in sectors at the forefront of technological disruption, with a focus on cryptocurrency, AI, and biotech innovations that promise significant market transformation and growth.",
     "last_proof_cite": "Moonshots with Peter Diamandis \u2022 2026-06-11 \u2022 Brian Armstrong on Bitcoin, Anthropic Drops Fable 5 & Mythos 5, NewLimit's $435M Age-Reversal | EP #264",
     "last_proof_snippet": "City Bank projects a Bitcoin price reaching as much as 189,000 by the end of 2026. Bitcoin is the new digital gold. I think it's going to be a key part of our economy going forward into the future. I remember it was supposed to be counter-s",
@@ -45585,7 +45642,7 @@ const dashboardData = {
     "last_podcast_name": "Macro Voices",
     "last_episode_date": "2026-06-11",
     "mention_score": 1,
-    "mention_score_decayed": 0.19,
+    "mention_score_decayed": 0.18,
     "last_main_idea": "The market may be entering a new inflation shock regime, leading to a rotation from financial assets to hard assets, with the healthcare sector presenting an under-owned opportunity.",
     "last_proof_cite": "Macro Voices \u2022 2026-06-11 \u2022 MacroVoices #536 Larry Mcdonald: The Migration is Upon us",
     "last_proof_snippet": "This is Macrovoisers, the Free Weekly Financial Podcast, targeting professional finance, high-net worth individuals, family offices, and other sophisticated investors. Macrovoisers is all about the brightest minds in the world of finance an",
@@ -45908,7 +45965,7 @@ const dashboardData = {
     "last_podcast_name": "All-In with Chamath, Jason, Sacks & Friedberg",
     "last_episode_date": "2026-06-09",
     "mention_score": 1,
-    "mention_score_decayed": 0.18,
+    "mention_score_decayed": 0.17,
     "last_main_idea": "Invest in smaller, more focused venture capital funds that leverage AI for portfolio construction and consider early-stage investments in foundational AI technologies for long-term gains.",
     "last_proof_cite": "All-In with Chamath, Jason, Sacks & Friedberg \u2022 2026-06-09 \u2022 Bill Maris: How Google Could Crush AI Competitors, Why Small Funds Win, and AI's Atari Stage",
     "last_proof_snippet": "After saying he was out, now Bill Maris is returning to the investing world. The founding CEO of Google Ventures has raised $150 million for his new fund, called Section 32. With a smaller fund, I have the advantage to be very selective in",
@@ -46102,7 +46159,7 @@ const dashboardData = {
     "last_podcast_name": "Monetary Matters with Jack Farley",
     "last_episode_date": "2026-06-07",
     "mention_score": 1,
-    "mention_score_decayed": 0.17,
+    "mention_score_decayed": 0.16,
     "last_main_idea": "Investors should be prepared for significant price volatility in the oil market due to geopolitical tensions and supply chain disruptions, with a focus on monitoring inventory levels and hedging strategies.",
     "last_proof_cite": "Monetary Matters with Jack Farley \u2022 2026-06-07 \u2022 \u201cSleepwalking into Crisis\u201d: Why The Oil Market Hasn\u2019t Imploded Yet | Kpler\u2019s Matt Smith",
     "last_proof_snippet": "Today's episode is brought to you by the two-cream corn fund, ticker CORN. Let's get into it. Got a very important conversation today. I'm joined by Matt Smith, director of research at Kepler, which is a research platform focused on commodi",
@@ -46771,7 +46828,7 @@ const dashboardData = {
     "last_podcast_name": "Moonshots with Peter Diamandis",
     "last_episode_date": "2026-05-30",
     "mention_score": 2,
-    "mention_score_decayed": 0.28,
+    "mention_score_decayed": 0.27,
     "last_main_idea": "Invest in AI and space exploration companies that demonstrate rapid innovation and adaptability, as these sectors are poised for significant growth and disruption.",
     "last_proof_cite": "Moonshots with Peter Diamandis \u2022 2026-05-30 \u2022 Pope Leo vs. AI, GPT 5.5 Beats Claude, and Sam Altman Walks Back Job Apocalypse | EP #259",
     "last_proof_snippet": "Pope Leo the 14th warns of AI risks and just dropped a 42,000-word in cyclical on AI. The Vatican has seemingly staked out the first major religion position against AI personhood. This is the first technology that forces us to define humani",
@@ -47014,7 +47071,7 @@ const dashboardData = {
     "last_podcast_name": "Monetary Matters with Jack Farley",
     "last_episode_date": "2026-05-25",
     "mention_score": 1,
-    "mention_score_decayed": 0.13,
+    "mention_score_decayed": 0.12,
     "last_main_idea": "Invest in companies with strong supply chains and pricing power, particularly in consumer goods, to benefit in an inflationary environment, and consider reallocating investments towards India and away from weaker emerging markets.",
     "last_proof_cite": "Monetary Matters with Jack Farley \u2022 2026-05-25 \u2022 Things Are Going to Get Even Crazier: The Macro Regime Shift | Andreas Steno Larsen",
     "last_proof_snippet": "I think the semiconductor cycle will roll over to what's the end of the year early next year. But I think we have the euphoric part of the head of us before we get to that part. Having said that at Wave of IPOs is always a late cycle signal",
@@ -47764,7 +47821,7 @@ const dashboardData = {
     "last_podcast_name": "Macro Voices",
     "last_episode_date": "2026-05-14",
     "mention_score": 6,
-    "mention_score_decayed": 0.58,
+    "mention_score_decayed": 0.57,
     "last_main_idea": "Investors should prepare for potential volatility as economic indicators begin to reflect the impacts of energy prices and passive investment flows.",
     "last_proof_cite": "Macro Voices \u2022 2026-05-14 \u2022 MacroVoices #532 Mike Green: Record Mechanical Flows",
     "last_proof_snippet": "This is Macrovoisers, the Free Weekly Financial Podcast, targeting professional finance, high-net worth individuals, family offices, and other sophisticated investors. Macrovoisers is all about the brightest minds in the world of finance an",
@@ -47823,7 +47880,7 @@ const dashboardData = {
     "last_podcast_name": "Macro Voices",
     "last_episode_date": "2026-05-14",
     "mention_score": 1,
-    "mention_score_decayed": 0.1,
+    "mention_score_decayed": 0.09,
     "last_main_idea": "Investors should prepare for potential volatility as economic indicators begin to reflect the impacts of energy prices and passive investment flows.",
     "last_proof_cite": "Macro Voices \u2022 2026-05-14 \u2022 MacroVoices #532 Mike Green: Record Mechanical Flows",
     "last_proof_snippet": "This is Macrovoisers, the Free Weekly Financial Podcast, targeting professional finance, high-net worth individuals, family offices, and other sophisticated investors. Macrovoisers is all about the brightest minds in the world of finance an",
