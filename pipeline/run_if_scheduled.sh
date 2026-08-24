@@ -1,7 +1,7 @@
 #!/usr/bin/env bash
-# Run by LaunchDaemon every 5 minutes. If we're inside a run window and the
-# pipeline has not run in the last 90 minutes, run it. Wide windows + frequent
-# checks avoid missing the narrow slot when the clock ticks.
+# Run by com.scarcity.pipeline.daemon every 45 minutes. If we're inside a run
+# window and the pipeline has not run in the last 90 minutes, run it. Wide windows
+# + frequent checks avoid missing the narrow slot when the clock ticks.
 set -e
 SCRIPT_DIR="$(cd "$(dirname "${BASH_SOURCE[0]}")" && pwd)"
 WORKSPACE="$(cd "$SCRIPT_DIR/.." && pwd)"

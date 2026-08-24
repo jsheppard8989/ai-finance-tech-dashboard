@@ -1,5 +1,10 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<!--
+  DEPRECATED — do not install alongside com.scarcity.pipeline.daemon.
+  Use com.scarcity.pipeline.daemon.plist instead (45-minute poll + run windows + cooldown).
+  Kept in-repo for reference only.
+-->
 <plist version="1.0">
 <dict>
     <key>Label</key>

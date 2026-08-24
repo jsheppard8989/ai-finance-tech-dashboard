@@ -37,10 +37,35 @@ EXCLUDED_PUNDIT_NAMES: FrozenSet[str] = frozenset(
     }
 )
 
+# Celebrities / placeholders that must never be debate cast (even if in pundits export)
+EXCLUDED_DEBATER_NAMES: FrozenSet[str] = frozenset(
+    {
+        "Mark Zuckerberg",
+        "Priscilla Chan",
+        "Elon Musk",
+        "John Doe",
+        "Jane Doe",
+        "Pundit A",
+        "Pundit B",
+        "Debater A",
+        "Debater B",
+    }
+)
+
 _EXCLUDED_LOWER: FrozenSet[str] = frozenset(x.lower() for x in EXCLUDED_PUNDIT_NAMES)
+_EXCLUDED_DEBATER_LOWER: FrozenSet[str] = frozenset(x.lower() for x in EXCLUDED_DEBATER_NAMES)
 
 
 def is_excluded_pundit_name(name: str) -> bool:
     """True if this display name is a blocked co-host / non-pundit (case-insensitive)."""
     n = (name or "").strip()
     return bool(n) and n.lower() in _EXCLUDED_LOWER
+
+
+def is_excluded_debater_name(name: str) -> bool:
+    """True if this name must not appear as a weekly debate cast member."""
+    n = (name or "").strip()
+    if not n:
+        return True
+    low = n.lower()
+    return low in _EXCLUDED_LOWER or low in _EXCLUDED_DEBATER_LOWER

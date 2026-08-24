@@ -4,11 +4,28 @@ This doc explains how the 10pm pipeline is scheduled, why **sleep can prevent it
 
 ---
 
+## Active scheduler (canonical)
+
+**Use `com.scarcity.pipeline.daemon` only** — polls every 45 minutes and runs the full pipeline when:
+
+- Current hour is in a run window (**05:00–07:59**, **12:00–14:59**, **22:00–23:59**), and
+- No successful run in the last **90 minutes** (`pipeline/state/last_evening_run.txt`).
+
+Install/reload:
+
+```bash
+$WORKSPACE_ROOT/scripts/reload_pipeline_daemon.sh
+```
+
+**Deprecated:** `com.scarcity.pipeline.schedule` (fixed calendar times). Do not load it alongside the daemon — it causes duplicate runs. The schedule plist remains in `docs/launchd/` for reference only.
+
+**Also recommended:** `com.scarcity.pipeline.catchup` — runs on login/wake and at 22:10 as backup if the Mac was asleep during a window.
+
+---
+
 ## The problem: launchd only runs when the Mac is awake
 
-Your pipeline can be triggered by **launchd** (`com.scarcity.pipeline.schedule.plist`) with:
-
-- **StartCalendarInterval:** 22:00 (10pm) and 05:00 (5am)
+Your pipeline is triggered by **`com.scarcity.pipeline.daemon`** (interval poll) and optionally **`com.scarcity.pipeline.catchup`** (login/wake backup).
 
 **Important:** StartCalendarInterval runs only when the Mac is **already awake** at that time. If the Mac is asleep at 10pm, the job **does not run** when it wakes later. So “computer set to not fall asleep” (or falling asleep anyway) is exactly the right concern.
 
@@ -71,20 +88,24 @@ You can only have one repeat schedule; this overwrites any existing one.
 
 Plist files live in the repo at **`docs/launchd/`** so you can version them. Copy into `~/Library/LaunchAgents` and load. They embed **absolute** paths to the pipeline scripts and log files — if your clone is not `/Users/jaredsheppard/projects/ai-finance-tech-dashboard`, search-replace in the plist **before** copying, or regenerate paths to match **`$WORKSPACE_ROOT`** on disk.
 
-**Duplicate jobs:** If you ever installed an older copy of these plists under a different **Label**, check `launchctl list | grep pipeline` and `sudo launchctl list | grep pipeline` and **unload** any stale schedule/catch-up/daemon you no longer want so the evening pipeline is not started twice.
+**Duplicate jobs:** Only one pipeline scheduler should be loaded. If you ever installed `com.scarcity.pipeline.schedule`, unload and remove it:
+
+```bash
+launchctl unload ~/Library/LaunchAgents/com.scarcity.pipeline.schedule.plist 2>/dev/null || true
+rm -f ~/Library/LaunchAgents/com.scarcity.pipeline.schedule.plist
+```
+
+Check `launchctl list | grep scarcity.pipeline` — you should see **daemon** (and optionally **catchup**), not **schedule**.
 
 All supported jobs run from this repository as standard user LaunchAgents. They do not require an agent workspace or a system LaunchDaemon.
 
-### 1. Scheduled 10pm (and 5am) run
-
-Copy the plist into your LaunchAgents and load it:
+### 1. Pipeline interval runner (canonical)
 
 ```bash
-cp $WORKSPACE_ROOT/docs/launchd/com.scarcity.pipeline.schedule.plist \
-   ~/Library/LaunchAgents/
-launchctl unload ~/Library/LaunchAgents/com.scarcity.pipeline.schedule.plist 2>/dev/null || true
-launchctl load ~/Library/LaunchAgents/com.scarcity.pipeline.schedule.plist
+$WORKSPACE_ROOT/scripts/reload_pipeline_daemon.sh
 ```
+
+This installs `com.scarcity.pipeline.daemon` and removes any deprecated `com.scarcity.pipeline.schedule` plist.
 
 ### 2. Catch-up on login/wake (optional but recommended)
 
@@ -97,13 +118,7 @@ launchctl load ~/Library/LaunchAgents/com.scarcity.pipeline.catchup.plist
 
 ### 3. Interval fallback LaunchAgent
 
-The interval runner executes `pipeline/run_if_scheduled.sh` every **45 minutes**. That script checks the configured run windows and the 90-minute cooldown before starting the evening pipeline.
-
-```bash
-$WORKSPACE_ROOT/scripts/reload_pipeline_daemon.sh
-```
-
-Verify: `launchctl list | grep scarcity.pipeline.daemon`
+Same as step 1 — `scripts/reload_pipeline_daemon.sh` installs the daemon.
 
 **Heartbeat:** The daemon writes the current time to `pipeline/state/daemon_last_check.txt` every run. If that file's timestamp is recent (within the last few minutes), the daemon is firing. Success marker for the pipeline itself is still `pipeline/state/last_evening_run.txt`.
 
@@ -138,7 +153,7 @@ The worker reads `$WORKSPACE_ROOT/whisper_queue/`, writes `$WORKSPACE_ROOT/whisp
 
 4. **LaunchAgent status:**
    `launchctl list | grep scarcity.pipeline`
-   You should see `com.scarcity.pipeline.schedule` and, if installed, `com.scarcity.pipeline.catchup`.
+   You should see `com.scarcity.pipeline.daemon` and, if installed, `com.scarcity.pipeline.catchup`. **Not** `com.scarcity.pipeline.schedule`.
 
 5. **Interval runner status:**
    `launchctl list | grep scarcity.pipeline.daemon`

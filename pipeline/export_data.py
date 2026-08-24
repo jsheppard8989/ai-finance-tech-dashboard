@@ -120,7 +120,47 @@ def export_website_data():
     # Export canonical pipeline state used by Pipeline Health (single source).
     _export_pipeline_state(site_dir)
 
+    _stamp_debate_contract_publishable()
+
     return stats
+
+
+def _stamp_debate_contract_publishable() -> None:
+    """Refresh publishable flag on debate_contract.json so the site can gate the listen page."""
+    contract_path = SITE_DIR / "audio" / "debate_contract.json"
+    history_path = SITE_DIR / "debate_history.json"
+    if not contract_path.is_file():
+        return
+    try:
+        contract = json.loads(contract_path.read_text(encoding="utf-8"))
+    except Exception as e:
+        print(f"  ⚠ Could not read debate contract for publish stamp: {e}")
+        return
+    prior: list = []
+    if history_path.is_file():
+        try:
+            hist = json.loads(history_path.read_text(encoding="utf-8"))
+            prior = [w.get("prompt", "") for w in hist.get("weeks", []) if w.get("prompt")]
+        except Exception:
+            prior = []
+    spx_ref = None
+    try:
+        from debate_weekly import fetch_yahoo_last_price
+
+        spx_ref = fetch_yahoo_last_price("^GSPC")
+    except Exception:
+        spx_ref = None
+    try:
+        from debate_quality import stamp_contract_publishable
+
+        stamped = stamp_contract_publishable(contract, prior, spx_ref=spx_ref)
+    except Exception as e:
+        print(f"  ⚠ Debate publish stamp skipped: {e}")
+        return
+    if stamped.get("publishable") != contract.get("publishable"):
+        status = "publishable" if stamped.get("publishable") else "held"
+        print(f"  ✓ Debate contract marked {status}")
+    contract_path.write_text(json.dumps(stamped, indent=2), encoding="utf-8")
 
 
 def _parse_iso_date_prefix(s: str):

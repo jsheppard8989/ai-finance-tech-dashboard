@@ -5,12 +5,40 @@
     "Wolverine",
     "\"A Huge Problem for Everybody\"",
     "shares insights",
-    "Oil, Bonds, and Bitcoin"
+    "Oil, Bonds, and Bitcoin",
+    "also touches",
+    "OpenClaw",
+    "Ground Infrastructure",
+    "From Models to Mobility",
+    "Navigating the SaaS Apocalypse",
+    "Building Agents at Home",
+    "This special episode",
+    "This episode",
+    "Inventing the Renaissance",
+    "Investing in Capitalism",
+    "Stock Market on Shaky Foundations",
+    "Inside the Private Stock Market Boom",
+    "Reality",
+    "Macro Voices",
+    "are on the rise. The episode",
+    "Ben Horowitz",
+    "Marc Andreessen",
+    "Peter Diamandis",
+    "David Sacks",
+    "David Friedberg"
   ],
   "fixes": {
     "Ray Dahlia": "Ray Dalio",
     "Berg": "Milton Berg",
-    "cary": null
+    "cary": null,
+    "banking specialist Chris Wayland": "Chris Wayland",
+    "host Jack Mallers": null,
+    "Nobel Prize-winning economist Paul Krugman": "Paul Krugman",
+    "Governor Josh Shapiro of Pennsylvania": "Josh Shapiro",
+    "Harvard Professor Graham Allison": "Graham Allison",
+    "Box CEO Aaron Levie": "Aaron Levie",
+    "Senator John Fetterman on Voting Rights": null,
+    "Meta CTO Andrew 'Boz' Bosworth": "Andrew Bosworth"
   },
   "overrides": {
     "Graham Allison": {
@@ -51,4 +79,3 @@
     }
   }
 }
-

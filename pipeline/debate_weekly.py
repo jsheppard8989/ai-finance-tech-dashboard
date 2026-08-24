@@ -49,12 +49,31 @@ AUDIO_META_PATH = SITE_AUDIO / "debate_audio_meta.json"
 
 sys.path.insert(0, str(PIPELINE))
 
-from pundit_exclusions import is_excluded_pundit_name
+from pundit_exclusions import is_excluded_debater_name, is_excluded_pundit_name
 
 try:
     from polymarket_debate_context import fetch_polymarket_debate_context
 except ImportError:
     fetch_polymarket_debate_context = None  # type: ignore
+
+try:
+    from debate_quality import (
+        stamp_contract_publishable,
+        validate_contract_publishable,
+        validate_debaters,
+        validate_editorial_note,
+        validate_prompt_not_repetitive,
+        validate_resolution_clarity,
+        validate_spx_strike_plausible,
+    )
+except ImportError:
+    stamp_contract_publishable = None  # type: ignore
+    validate_contract_publishable = None  # type: ignore
+    validate_debaters = None  # type: ignore
+    validate_editorial_note = None  # type: ignore
+    validate_prompt_not_repetitive = None  # type: ignore
+    validate_resolution_clarity = None  # type: ignore
+    validate_spx_strike_plausible = None  # type: ignore
 
 
 def load_env() -> None:
@@ -126,15 +145,18 @@ def load_pundits() -> List[Dict[str, Any]]:
 
 
 def pick_debaters(pundits: List[Dict[str, Any]], rotation: int) -> Tuple[Dict, Dict]:
-    n = len(pundits)
+    eligible = [
+        p for p in pundits if not is_excluded_debater_name((p.get("name") or ""))
+    ]
+    n = len(eligible)
     if n >= 2:
         i = (rotation * 2) % n
         j = (i + 1 + (rotation // max(1, n // 2))) % n
         if j == i:
             j = (i + 1) % n
-        return pundits[i], pundits[j]
+        return eligible[i], eligible[j]
     if n == 1:
-        return pundits[0], {"name": "Pundit B", "known_for": "", "bio": ""}
+        return eligible[0], {"name": "Pundit B", "known_for": "", "bio": ""}
     return (
         {"name": "Pundit A", "known_for": "", "bio": ""},
         {"name": "Pundit B", "known_for": "", "bio": ""},
@@ -1195,7 +1217,27 @@ def main() -> int:
             friday,
             (contract_core.get("resolves_iso") or resolves_iso),
         )
-        if ok_macro and ok_time and ok_event:
+        ok_repeat, err_repeat = (True, "")
+        ok_rc, err_rc = (True, "")
+        ok_note, err_note = (True, "")
+        ok_spx, err_spx = (True, "")
+        if validate_prompt_not_repetitive:
+            ok_repeat, err_repeat = validate_prompt_not_repetitive(
+                (contract_core.get("prompt") or "").strip(),
+                avoid,
+            )
+        if validate_resolution_clarity:
+            ok_rc, err_rc = validate_resolution_clarity(contract_core)
+        if validate_editorial_note:
+            ok_note, err_note = validate_editorial_note(
+                str(contract_core.get("editorial_note") or "")
+            )
+        if validate_spx_strike_plausible:
+            ok_spx, err_spx = validate_spx_strike_plausible(
+                (contract_core.get("prompt") or "").strip(),
+                spx_ref,
+            )
+        if ok_macro and ok_time and ok_event and ok_repeat and ok_rc and ok_note and ok_spx:
             contract_ok = True
             break
         errs = [
@@ -1204,6 +1246,10 @@ def main() -> int:
                 err_macro if not ok_macro else "",
                 err_time if not ok_time else "",
                 err_event if not ok_event else "",
+                err_repeat if not ok_repeat else "",
+                err_rc if not ok_rc else "",
+                err_note if not ok_note else "",
+                err_spx if not ok_spx else "",
             )
             if e
         ]
@@ -1224,6 +1270,12 @@ def main() -> int:
     p_a, p_b = pick_debaters(pundits, rotation)
     name_a = (p_a.get("name") or "Debater A").strip()
     name_b = (p_b.get("name") or "Debater B").strip()
+
+    if validate_debaters:
+        ok_debaters, err_debaters = validate_debaters(name_a, name_b)
+        if not ok_debaters:
+            print(f"✗ Debater validation failed: {err_debaters}")
+            return 1
 
     yes_speech, no_speech = generate_speeches(
         kind,
@@ -1259,6 +1311,15 @@ def main() -> int:
     prompt_hash = hashlib.sha256(contract_core["prompt"].encode("utf-8")).hexdigest()[:16]
     full_public = public_contract(contract_core, friday, name_a, name_b, p_a, p_b)
     full_public["prompt_hash"] = prompt_hash
+    if stamp_contract_publishable:
+        full_public = stamp_contract_publishable(full_public, avoid, spx_ref=spx_ref, btc_ref=btc_ref)
+    elif validate_contract_publishable:
+        ok_pub, reason, _ = validate_contract_publishable(full_public, avoid, spx_ref=spx_ref, btc_ref=btc_ref)
+        full_public["publishable"] = ok_pub
+        full_public["publish_block_reason"] = "" if ok_pub else reason
+    if not full_public.get("publishable", True):
+        print(f"✗ Contract failed publish quality gate: {full_public.get('publish_block_reason')}")
+        return 1
     SITE_AUDIO.mkdir(parents=True, exist_ok=True)
 
     try:

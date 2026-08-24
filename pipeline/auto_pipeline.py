@@ -920,7 +920,7 @@ def build_summary(results: dict) -> str:
         pass
 
     if results.get("deep_dives_ok") is False:
-        lines.append("\n⚠ Site export skipped (Deep Dive step did not complete).")
+        lines.append("\n⚠ Site export skipped (Deep Dive step could not run — check AI keys).")
     else:
         lines.append("\n🌐 Website export ran (see git push result for publish).")
     return "\n".join(lines)
@@ -1004,8 +1004,7 @@ def main():
             results["main_insights_synced"] = 0
             send_notification(
                 "Pipeline: Deep Dives failed",
-                "generate_deepdives.py did not complete successfully. Export and git push were skipped; "
-                "insights stay off the main list until the next successful run.",
+                "generate_deepdives.py could not run (no AI client). Export and git push were skipped.",
                 priority=1,
             )
 
@@ -1042,7 +1041,7 @@ def main():
                     priority=1,
                 )
         else:
-            print("  ⏭ Skipping export and git push (Deep Dive step did not complete).")
+            print("  ⏭ Skipping export and git push (no AI client for Deep Dives).")
 
         # Build commit message
         ts = datetime.now().strftime("%Y-%m-%d %H:%M")

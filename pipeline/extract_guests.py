@@ -20,6 +20,62 @@ from db_manager import get_db
 OVERRIDES_PATH = PIPELINE_DIR / "guest_overrides.json"
 _OVERRIDES_CACHE = None
 
+_NAME_PART = re.compile(r"^(?:Dr\.|Mr\.|Ms\.|Mrs\.|Sen\.|Gov\.|[A-Z][a-z]+(?:[-'][A-Z][a-z]+)?|[A-Z]\.)$")
+_ROLE_PREFIX = re.compile(
+    r"^(?:banking\s+specialist|host|guest|professor|senator|governor|ceo|chief|nobel\s+prize-winning\s+economist|meta\s+cto)\s+",
+    re.I,
+)
+_QUOTED = re.compile(r'^["\'“”‘’].+["\'“”‘’]$')
+
+_HEADLINE_STOPWORDS = frozenset(
+    {
+        "the",
+        "will",
+        "navigating",
+        "building",
+        "investing",
+        "stock",
+        "market",
+        "ground",
+        "infrastructure",
+        "from",
+        "models",
+        "mobility",
+        "inventing",
+        "renaissance",
+        "special",
+        "episode",
+        "this",
+        "also",
+        "touches",
+        "inside",
+        "when",
+        "music",
+        "stops",
+        "openclaw",
+        "macro",
+        "voices",
+        "technology",
+        "culture",
+        "next",
+        "interface",
+        "reality",
+        "software",
+        "hard",
+        "asset",
+        "banking",
+        "specialist",
+        "private",
+        "boom",
+        "apocalypse",
+        "capitalism",
+        "foundations",
+        "shaky",
+        "agents",
+        "home",
+    }
+)
+
 
 def load_overrides():
     global _OVERRIDES_CACHE
@@ -61,6 +117,73 @@ def grokipedia_lookup(name: str) -> tuple:
     return fixed, bio, known_for, False
 
 
+def _name_parts(name: str) -> list:
+    return [p for p in re.split(r"\s+", (name or "").strip()) if p]
+
+
+def normalize_guest_name(name: str) -> str:
+    raw = (name or "").strip()
+    m = _ROLE_PREFIX.match(raw)
+    if m:
+        raw = raw[m.end() :].strip()
+    return raw
+
+
+def is_plausible_person_name(name: str, podcast_name: str = "") -> bool:
+    """
+    Reject title fragments, quoted headlines, role-prefixed phrases, and non-person strings.
+    """
+    raw = normalize_guest_name(name)
+    if not raw or len(raw) < 4 or len(raw) > 80:
+        return False
+    if _QUOTED.match(raw):
+        return False
+    if raw.startswith('"') or raw.startswith("'"):
+        return False
+    lower = raw.lower()
+    if " episode" in lower or lower.startswith("this ") or lower.startswith("also "):
+        return False
+    p = (podcast_name or "").lower()
+    if p and (lower in p or p in lower):
+        return False
+    if any(x in lower for x in ("the panel", "podcast", " part 2", " part 1", "monetary matters")):
+        return False
+    if raw.count(",") >= 1:
+        return False
+    if re.search(r"#\d|^\s*The\s+|\s+and\s+the\s+", raw, re.I):
+        return False
+
+    parts = _name_parts(raw)
+    if not parts:
+        return False
+    if len(parts) > 5:
+        return False
+
+    name_like = [p for p in parts if _NAME_PART.match(p)]
+    if len(name_like) < 2:
+        return False
+
+    stop_hits = sum(1 for p in parts if p.lower() in _HEADLINE_STOPWORDS)
+    if stop_hits >= 2 and stop_hits >= len(parts) - 1:
+        return False
+    if len(parts) >= 3 and stop_hits >= len(parts) // 2:
+        return False
+
+    # Title-case phrase without enough person tokens (e.g. "Ground Infrastructure")
+    if len(parts) == 2 and all(p[0].isupper() for p in parts):
+        if parts[0].lower() in _HEADLINE_STOPWORDS or parts[1].lower() in _HEADLINE_STOPWORDS:
+            return False
+
+    ov = load_overrides()
+    if raw in ov.get("overrides", {}):
+        return True
+    if len(name_like) >= 2 and len(raw) <= 45:
+        return True
+    if len(name_like) >= 3:
+        return True
+    return False
+
+
 def extract_guest_name(episode_title: str, summary: str, podcast_name: str = "") -> Optional[str]:
     """
     Heuristic extraction of guest/interviewee name from title and summary.
@@ -70,52 +193,45 @@ def extract_guest_name(episode_title: str, summary: str, podcast_name: str = "")
     summary = (summary or "").strip()
 
     def ok(name):
-        if not name or len(name) < 4 or len(name) > 80:
-            return False
-        p = (podcast_name or "").lower()
-        if p and (name.lower() in p or p in name.lower()):
-            return False
-        lower = name.lower()
-        if any(x in lower for x in ("the panel", "podcast", " episode ", " part 2", " part 1", "monetary matters")):
-            return False
-        if name.count(",") >= 1 or (len(name) > 45 and not re.match(r"^[A-Z][a-z]+(?:\s+[A-Z][a-z]+)+$", name)):
-            return False
-        if re.search(r"#\d|^\s*The\s+|\s+and\s+", name, re.I):
-            return False
-        return True
+        cleaned = normalize_guest_name(name)
+        return is_plausible_person_name(cleaned, podcast_name)
+
+    def pick(name):
+        cleaned = normalize_guest_name(name)
+        return cleaned if ok(name) else None
+
+    # "Topic with Guest Name" (prefer before naive "Title: fragment" capture)
+    m = re.search(r"\bwith\s+([A-Za-z][a-zA-Z\s\.\-']+?)(?:\s*[:\|,]|$|\.)", title)
+    if m:
+        name = pick(m.group(1).strip())
+        if name:
+            return name
 
     # Pattern: "Guest Name: Topic" or "Guest Name | Topic"
     m = re.match(r"^([^:|]+?)\s*[:\|]\s*", title)
     if m:
-        name = m.group(1).strip()
-        if not name.startswith("The ") and ok(name):
+        name = pick(m.group(1).strip())
+        if name and not name.startswith("The "):
             return name
 
-    # "Topic with Guest Name"
-    m = re.search(r"\bwith\s+([A-Z][a-zA-Z\s\.\-]+?)(?:\s*[:\|,]|$|\.)", title)
-    if m:
-        name = m.group(1).strip()
-        if ok(name):
-            return name
-
-    # Summary: "X interviews Y" or "Y joins X"
+    # "Topic with Guest Name" in summary
     for pattern in [
-        r"(?:interviews?|talks? to|speaks? with)\s+([A-Z][a-zA-Z\s\.\-]+?)(?:\s+about|\.|$)",
-        r"([A-Z][a-zA-Z\s\.\-]+?)\s+joins?\s+",
-        r"([A-Z][a-zA-Z\s\.\-]+?)\s+discusses?\s+",
-        r"(?:guest|interview(?:ee)?)\s+([A-Z][a-zA-Z\s\.\-]+?)(?:\s+on|\.|$)",
+        r"(?:interviews?|talks? to|speaks? with)\s+([A-Z][a-zA-Z\s\.\-']+?)(?:\s+about|\.|$)",
+        r"([A-Z][a-zA-Z\s\.\-']+?)\s+joins?\s+",
+        r"([A-Z][a-zA-Z\s\.\-']+?)\s+discusses?\s+",
+        r"(?:guest|interview(?:ee)?)\s+([A-Z][a-zA-Z\s\.\-']+?)(?:\s+on|\.|$)",
     ]:
         m = re.search(pattern, summary, re.I)
         if m:
-            name = m.group(1).strip()
-            if ok(name):
+            name = pick(m.group(1).strip())
+            if name:
                 return name
 
     # Title: "First Last" at start
     m = re.match(r"^([A-Z][a-z]+(?:\s+[A-Z][a-z]+)(?:\s+[A-Z][a-z]+)?)\s*[:\|\-]", title)
     if m:
-        name = m.group(1).strip()
-        if ok(name):
+        name = pick(m.group(1).strip())
+        if name:
             return name
 
     return None
