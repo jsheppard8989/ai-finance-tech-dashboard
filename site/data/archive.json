@@ -1,6 +1,25 @@
 {
   "insights": [
     {
+      "id": 436,
+      "title": "Why Medical AI Needs a Referee | Protege's Engy Ziedan",
+      "source_type": "podcast",
+      "source_name": "The a16z Show",
+      "source_date": "2026-08-24",
+      "summary": "In this episode of the a16z Show, Daisy Wolfe and Eva Steinman interview NG ZDN, co-founder and chief scientific officer of Protege, to discuss the challenges of measuring performance in healthcare AI. They delve into the gap between benchmarks and real-world clinical tasks, the subtle biases and misalignments in AI models, and the need for an independent referee to test AI behavior in real clinical settings. The conversation also touches on the importance of understanding valuable versus valueless technology in the AI market and the rapid evolution of AI models compared to the healthcare system's ability to keep pace.",
+      "key_takeaway": "Investing in healthcare AI requires a focus on companies that can provide safe, aligned data and independent evaluation of AI models to ensure their usefulness and safety in real-world clinical settings.",
+      "tickers_mentioned": [
+        "NVDA"
+      ],
+      "sentiment": "neutral",
+      "display_on_main": 1,
+      "display_order": 0,
+      "added_date": "2026-08-24",
+      "archived_date": null,
+      "archived_reason": null,
+      "podcast_episode_id": 421
+    },
+    {
       "id": 433,
       "title": "Dario Defends Himself, Datacenter Panic, AI Doomer Trap, Senate Toss-Up",
       "source_type": "podcast",
@@ -151,7 +170,7 @@
         "GOOGL"
       ],
       "sentiment": "neutral",
-      "display_on_main": 1,
+      "display_on_main": 0,
       "display_order": 0,
       "added_date": "2026-08-18",
       "archived_date": null,

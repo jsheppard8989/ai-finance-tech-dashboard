@@ -1,5 +1,70 @@
 [
   {
+    "id": 414,
+    "name": "NG ZDN",
+    "slug": "ng-zdn",
+    "bio": "NG ZDN is the co-founder and chief scientific officer of Protege, a healthcare AI company. He is also an assistant professor at Indiana University and a healthcare economist. ZDN's work has been featured in the New York Times and cited by the CDC.",
+    "known_for": "Developing healthcare AI models that prioritize safety and alignment with human values.",
+    "net_worth_usd": 230000000.0,
+    "net_worth_source": "https://leads.rosseducation.edu/the-rise-of-andrew-ng-uncovering-his-net-worth/",
+    "net_worth_updated_at": "2026-08-24T07:02:18.338078",
+    "voice_tone": "",
+    "voice_style": "",
+    "voice_delivery_notes": "",
+    "voice_profile_updated_at": null,
+    "last_seen": "2026-08-24 12:02:04",
+    "last_episode_title": "Why Medical AI Needs a Referee | Protege's Engy Ziedan",
+    "last_podcast_name": "The a16z Show",
+    "last_episode_date": "2026-08-24",
+    "mention_score": 1,
+    "mention_score_decayed": 1,
+    "last_main_idea": "Investing in healthcare AI requires a focus on companies that can provide safe, aligned data and independent evaluation of AI models to ensure their usefulness and safety in real-world clinical settings.",
+    "last_proof_cite": "The a16z Show \u2022 2026-08-24 \u2022 Why Medical AI Needs a Referee | Protege's Engy Ziedan",
+    "last_proof_snippet": "Hundreds of millions of people ask chat to the questions about their health. Who, if any, is making sure that the answers that are spit out is safe and correct? Models are going to be inhibited in their usefulness by the training data avail",
+    "supporting_takeaway": "Subtle biases and misalignments in AI models can be harder to detect than catastrophic failures.",
+    "grokipedia_url": null,
+    "grokipedia_fetched_at": "2026-08-24T07:02:17.205984",
+    "pundit_profile": {
+      "source": "llm",
+      "source_model": "moonshot:moonshot-v1-8k",
+      "source_url": "",
+      "page_title": "NG ZDN",
+      "fetched_at": "2026-08-24T12:02:17.205554+00:00",
+      "cliff_notes": "NG ZDN is a healthcare economist and assistant professor at Indiana University. He co-founded Protege, a healthcare AI company, where he serves as the chief scientific officer. ZDN's work focuses on developing AI models that prioritize safety and alignment with human values. His research has been featured in the New York Times and cited by the CDC. ZDN's mission is to provide safe and aligned data that makes AI useful in healthcare. He emphasizes the importance of understanding the value of AI technology and its limitations in order to develop effective healthcare AI models.",
+      "derived": {
+        "current_role": "Co-founder and Chief Scientific Officer of Protege; Assistant Professor at Indiana University",
+        "teaching_summary": "Assistant Professor at Indiana University"
+      },
+      "infobox": {
+        "Born": "",
+        "Nationality": ""
+      },
+      "lead_paragraphs": [
+        "NG ZDN is a healthcare economist and assistant professor at Indiana University. He co-founded Protege, a healthcare AI company, where he serves as the chief scientific officer. ZDN's work focuses on developing AI models that prioritize safety and alignment with human values. His research has been featured in the New York Times and cited by the CDC.",
+        "ZDN's mission is to provide safe and aligned data that makes AI useful in healthcare. He emphasizes the importance of understanding the value of AI technology and its limitations in order to develop effective healthcare AI models."
+      ],
+      "sections": [
+        {
+          "heading": "Healthcare AI",
+          "body": "ZDN's work focuses on developing healthcare AI models that prioritize safety and alignment with human values."
+        },
+        {
+          "heading": "Protege",
+          "body": "ZDN co-founded Protege, a healthcare AI company, where he serves as the chief scientific officer."
+        },
+        {
+          "heading": "Human Values",
+          "body": "ZDN emphasizes the importance of understanding the value of AI technology and its limitations in order to develop effective healthcare AI models."
+        },
+        {
+          "heading": "Research",
+          "body": "ZDN's research has been featured in the New York Times and cited by the CDC."
+        }
+      ]
+    },
+    "net_worth": "$230.0M"
+  },
+  {
     "id": 81,
     "name": "Elon Musk",
     "slug": "elon-musk",
@@ -3535,7 +3600,7 @@
     "last_podcast_name": "The a16z Show",
     "last_episode_date": "2026-07-23",
     "mention_score": 1,
-    "mention_score_decayed": 0.5,
+    "mention_score_decayed": 0.49,
     "last_main_idea": "Industrial AI represents a substantial opportunity to transform physical industries through automation and AI, creating significant value beyond traditional software solutions.",
     "last_proof_cite": "The a16z Show \u2022 2026-07-23 \u2022 Building the Physical AI Stack | Travis Kalanick on TBPN",
     "last_proof_snippet": "Travis Kelenick joins TVPN to discuss why he's betting his next company on industrial AI. He shares his vision behind atoms, explains how autonomy is transforming industries like mining and food production, and discusses why bringing AI int",
@@ -3595,7 +3660,7 @@
     "last_podcast_name": "Latent Space: The AI Engineer Podcast",
     "last_episode_date": "2026-07-23",
     "mention_score": 1,
-    "mention_score_decayed": 0.49,
+    "mention_score_decayed": 0.48,
     "last_main_idea": "Investing in AI development, particularly in the democratization of AI and the scaling of language models, can lead to significant innovation and competitive advantage.",
     "last_proof_cite": "Latent Space: The AI Engineer Podcast \u2022 2026-07-23 \u2022 Inside the Model Factory \u2014 Eiso Kant, Poolside AI",
     "last_proof_snippet": "All right, we're here in the studio. If I was a countryman, we'll fight together with people. Welcome. Thanks, thank you, guys. It's good to be here. Yeah, fresh on the plane. You texted me, you're like, hey, I'm on my way to SF. I was like",
@@ -6919,7 +6984,7 @@
     "last_podcast_name": "The Jack Mallers Show",
     "last_episode_date": "2026-06-16",
     "mention_score": 2,
-    "mention_score_decayed": 0.42,
+    "mention_score_decayed": 0.41,
     "last_main_idea": "Investors should monitor Bitcoin as a leading market indicator and scrutinize the capital structures of Bitcoin treasury companies for potential risks and rewards, while maintaining a long-term perspective.",
     "last_proof_cite": "The Jack Mallers Show \u2022 2026-06-16 \u2022 15 Questions: The Strait, Strategy, mNAV, Dilution, & My Boots",
     "last_proof_snippet": "Yo, welcome back to another episode of the Jack Mallors Show. I'm your host Jack, and you're listening to mail bag Monday, ladies and gentlemen. Oh, there's my resources tab, my AI tool. All right, let's get back to slide one. You were list",
@@ -16251,7 +16316,7 @@
     "last_podcast_name": "The a16z Show",
     "last_episode_date": "2026-03-17",
     "mention_score": 1,
-    "mention_score_decayed": 0.03,
+    "mention_score_decayed": 0.02,
     "last_main_idea": "Investing in companies and technologies that are advancing the understanding and capabilities of LLMs could be a pathway to participate in the development of AGI.",
     "last_proof_cite": "The a16z Show \u2022 2026-03-17 \u2022 Understanding the Mechanics of Large Language Models (LLMs) and the Path to AGI",
     "last_proof_snippet": "LLMs learn correlations but do not build models of cause and effect, which is a key distinction from human intelligence.",

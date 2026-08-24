@@ -3,80 +3,80 @@
 
 const dashboardData = {
   schemaVersion: 2,
-  generatedAt: "2026-08-24T05:30:25.561643",
-  chartsVersion: "2026-08-24T05:30:12.715071",
+  generatedAt: "2026-08-24T07:03:58.177085",
+  chartsVersion: "2026-08-24T07:03:51.292804",
   priceSnapshot: {
   "GOOGL": {
     "price": 344.82,
     "change_pct": -8.69,
     "name": "GOOGL",
-    "updated_at": "2026-08-24T05:30:12.714003"
+    "updated_at": "2026-08-24T07:03:51.292079"
   },
   "NVDA": {
     "price": 214.72,
     "change_pct": 1.31,
     "name": "NVDA",
-    "updated_at": "2026-08-24T05:30:12.714025"
+    "updated_at": "2026-08-24T07:03:51.292096"
   },
   "MSFT": {
     "price": 483.24,
     "change_pct": -1.76,
     "name": "MSFT",
-    "updated_at": "2026-08-24T05:30:12.714036"
+    "updated_at": "2026-08-24T07:03:51.292103"
   },
   "BTC": {
-    "price": 77842.54,
-    "change_pct": 22.49,
+    "price": 78206.8,
+    "change_pct": 23.06,
     "name": "BTC",
-    "updated_at": "2026-08-24T05:30:12.714046"
+    "updated_at": "2026-08-24T07:03:51.292109"
   },
   "TSLA": {
     "price": 362.86,
     "change_pct": 10.85,
     "name": "TSLA",
-    "updated_at": "2026-08-24T05:30:12.714054"
+    "updated_at": "2026-08-24T07:03:51.292114"
   },
   "AMZN": {
     "price": 258.63,
     "change_pct": -6.77,
     "name": "AMZN",
-    "updated_at": "2026-08-24T05:30:12.714063"
+    "updated_at": "2026-08-24T07:03:51.292119"
   },
   "META": {
     "price": 549.9,
     "change_pct": -6.47,
     "name": "META",
-    "updated_at": "2026-08-24T05:30:12.714072"
+    "updated_at": "2026-08-24T07:03:51.292125"
   },
   "WTI": {
     "price": 3.92,
     "change_pct": 14.92,
     "name": "WTI",
-    "updated_at": "2026-08-24T05:30:12.714081"
+    "updated_at": "2026-08-24T07:03:51.292130"
   },
   "S&P 500": {
     "price": 765.72,
     "change_pct": -0.73,
     "name": "S&P 500",
-    "updated_at": "2026-08-24T05:30:12.714090"
+    "updated_at": "2026-08-24T07:03:51.292135"
   },
   "AAPL": {
     "price": 309.35,
     "change_pct": 0.08,
     "name": "AAPL",
-    "updated_at": "2026-08-24T05:30:12.714099"
+    "updated_at": "2026-08-24T07:03:51.292141"
   },
   "QQQ": {
     "price": 713.44,
     "change_pct": -1.44,
     "name": "Invesco QQQ Trust",
-    "updated_at": "2026-08-24T05:30:12.714107"
+    "updated_at": "2026-08-24T07:03:51.292146"
   },
   "BTC-USD": {
-    "price": 77845.32,
-    "change_pct": 22.49,
+    "price": 78206.8,
+    "change_pct": 23.06,
     "name": "Bitcoin USD",
-    "updated_at": "2026-08-24T05:30:12.714117"
+    "updated_at": "2026-08-24T07:03:51.292152"
   }
 },
   tickerScores: [
@@ -834,6 +834,25 @@ const dashboardData = {
   archive: {
   "insights": [
     {
+      "id": 436,
+      "title": "Why Medical AI Needs a Referee | Protege's Engy Ziedan",
+      "source_type": "podcast",
+      "source_name": "The a16z Show",
+      "source_date": "2026-08-24",
+      "summary": "In this episode of the a16z Show, Daisy Wolfe and Eva Steinman interview NG ZDN, co-founder and chief scientific officer of Protege, to discuss the challenges of measuring performance in healthcare AI. They delve into the gap between benchmarks and real-world clinical tasks, the subtle biases and misalignments in AI models, and the need for an independent referee to test AI behavior in real clinical settings. The conversation also touches on the importance of understanding valuable versus valueless technology in the AI market and the rapid evolution of AI models compared to the healthcare system's ability to keep pace.",
+      "key_takeaway": "Investing in healthcare AI requires a focus on companies that can provide safe, aligned data and independent evaluation of AI models to ensure their usefulness and safety in real-world clinical settings.",
+      "tickers_mentioned": [
+        "NVDA"
+      ],
+      "sentiment": "neutral",
+      "display_on_main": 1,
+      "display_order": 0,
+      "added_date": "2026-08-24",
+      "archived_date": null,
+      "archived_reason": null,
+      "podcast_episode_id": 421
+    },
+    {
       "id": 433,
       "title": "Dario Defends Himself, Datacenter Panic, AI Doomer Trap, Senate Toss-Up",
       "source_type": "podcast",
@@ -984,7 +1003,7 @@ const dashboardData = {
         "GOOGL"
       ],
       "sentiment": "neutral",
-      "display_on_main": 1,
+      "display_on_main": 0,
       "display_order": 0,
       "added_date": "2026-08-18",
       "archived_date": null,
@@ -11555,6 +11574,26 @@ const dashboardData = {
   mainContent: {
   "insights": [
     {
+      "id": 436,
+      "title": "Why Medical AI Needs a Referee | Protege's Engy Ziedan",
+      "source_type": "podcast",
+      "source_name": "The a16z Show",
+      "source_date": "2026-08-24",
+      "summary": "In this episode of the a16z Show, Daisy Wolfe and Eva Steinman interview NG ZDN, co-founder and chief scientific officer of Protege, to discuss the challenges of measuring performance in healthcare AI. They delve into the gap between benchmarks and real-world clinical tasks, the subtle biases and misalignments in AI models, and the need for an independent referee to test AI behavior in real clinical settings. The conversation also touches on the importance of understanding valuable versus valueless technology in the AI market and the rapid evolution of AI models compared to the healthcare system's ability to keep pace.",
+      "key_takeaway": "Investing in healthcare AI requires a focus on companies that can provide safe, aligned data and independent evaluation of AI models to ensure their usefulness and safety in real-world clinical settings.",
+      "tickers_mentioned": "[\"NVDA\"]",
+      "sentiment": "neutral",
+      "display_on_main": 1,
+      "display_order": 0,
+      "added_date": "2026-08-24",
+      "archived_date": null,
+      "archived_reason": null,
+      "podcast_episode_id": 421,
+      "episode_release_date": "2026-08-24",
+      "guest_name": null,
+      "key_tickers": []
+    },
+    {
       "id": 433,
       "title": "Dario Defends Himself, Datacenter Panic, AI Doomer Trap, Senate Toss-Up",
       "source_type": "podcast",
@@ -11673,26 +11712,6 @@ const dashboardData = {
       "archived_reason": null,
       "podcast_episode_id": 415,
       "episode_release_date": "2026-08-19",
-      "guest_name": null,
-      "key_tickers": []
-    },
-    {
-      "id": 427,
-      "title": "How Do You Defend Against AI That Can Hack?",
-      "source_type": "podcast",
-      "source_name": "The a16z Show",
-      "source_date": "2026-08-18",
-      "summary": "The podcast discusses the challenges and opportunities presented by the rapid integration of AI in enterprise applications, focusing on the implications for cybersecurity. Model providers establish guardrails to prevent misuse, which complicates incident response for defenders. Traditional security tools are found inadequate against AI incidents, necessitating the development of new security tools. The evolution of cyber defenses is moving towards dynamic, behavior-based approaches. The total attack surface is expanding due to AI, including human expression.",
-      "key_takeaway": "Invest in companies developing new security tools to address AI incidents and agentic processes, as well as those providing flexible solutions to adapt to the rapid pace of AI development.",
-      "tickers_mentioned": "[\"AAPL\", \"MSFT\", \"GOOGL\"]",
-      "sentiment": "neutral",
-      "display_on_main": 1,
-      "display_order": 0,
-      "added_date": "2026-08-18",
-      "archived_date": null,
-      "archived_reason": null,
-      "podcast_episode_id": 412,
-      "episode_release_date": "2026-08-18",
       "guest_name": null,
       "key_tickers": []
     },
@@ -12231,6 +12250,7 @@ const dashboardData = {
     "updated_at": "2026-02-15 16:12:59",
     "episode_evidence": null,
     "falsification_tracks": null,
+    "schema_version": 1,
     "insight_title": "SpaceX/xAI $1.25T Super-Entity",
     "source_name": "The Rundown AI",
     "source_date": "2026-02-13",
@@ -12290,6 +12310,7 @@ const dashboardData = {
     "updated_at": "2026-02-15 16:12:59",
     "episode_evidence": null,
     "falsification_tracks": null,
+    "schema_version": 1,
     "insight_title": "Gold Climax Top Signal",
     "source_name": "Monetary Matters",
     "source_date": "2026-02-10",
@@ -12345,6 +12366,7 @@ const dashboardData = {
     "updated_at": "2026-02-15 16:12:59",
     "episode_evidence": null,
     "falsification_tracks": null,
+    "schema_version": 1,
     "insight_title": "Bitcoin as Hard Asset",
     "source_name": "Jack Mallers Show",
     "source_date": "2026-02-03",
@@ -12400,6 +12422,7 @@ const dashboardData = {
     "updated_at": "2026-02-15 16:12:59",
     "episode_evidence": null,
     "falsification_tracks": null,
+    "schema_version": 1,
     "insight_title": "Healthcare AI Moats",
     "source_name": "The a16z Show",
     "source_date": "2026-01-25",
@@ -12455,6 +12478,7 @@ const dashboardData = {
     "updated_at": "2026-02-15 16:12:59",
     "episode_evidence": null,
     "falsification_tracks": null,
+    "schema_version": 1,
     "insight_title": "Machine-Native Money",
     "source_name": "Network State Podcast",
     "source_date": "2026-01-16",
@@ -12498,6 +12522,7 @@ const dashboardData = {
     "updated_at": "2026-02-15 16:35:18",
     "episode_evidence": null,
     "falsification_tracks": null,
+    "schema_version": 1,
     "insight_title": "Milton Berg's Market Signals: Local Bottom or Major Top?",
     "source_name": "Monetary Matters",
     "source_date": "2026-02-06",
@@ -12542,6 +12567,7 @@ const dashboardData = {
     "updated_at": "2026-02-15 16:35:18",
     "episode_evidence": null,
     "falsification_tracks": null,
+    "schema_version": 1,
     "insight_title": "Carson Block: Don't Short AI Yet, Buy Gold Miners",
     "source_name": "Muddy Waters",
     "source_date": "2025-11-15",
@@ -12611,6 +12637,7 @@ const dashboardData = {
     "updated_at": "2026-02-19 18:02:49",
     "episode_evidence": null,
     "falsification_tracks": null,
+    "schema_version": 1,
     "insight_title": "Moonshots #231: 400x AI Cost Collapse & India's Talent Decade",
     "source_name": "Moonshots with Peter Diamandis",
     "source_date": "2026-02-18",
@@ -12693,6 +12720,7 @@ const dashboardData = {
     "updated_at": "2026-02-19 18:02:49",
     "episode_evidence": null,
     "falsification_tracks": null,
+    "schema_version": 1,
     "insight_title": "Ben Horowitz: xAI Exodus, $5B SSI, & Apple's Structural AI Crisis",
     "source_name": "Moonshots with Peter Diamandis",
     "source_date": "2026-02-19",
@@ -12773,6 +12801,7 @@ const dashboardData = {
     "updated_at": "2026-02-22 20:34:07",
     "episode_evidence": null,
     "falsification_tracks": null,
+    "schema_version": 1,
     "insight_title": "Fed Pivot Signal",
     "source_name": "Monetary Matters",
     "source_date": "2026-01-01",
@@ -12820,6 +12849,7 @@ const dashboardData = {
     "updated_at": "2026-02-22 20:34:29",
     "episode_evidence": null,
     "falsification_tracks": null,
+    "schema_version": 1,
     "insight_title": "Nuclear Renaissance",
     "source_name": "The Energy Letter",
     "source_date": "2025-12-17",
@@ -12887,6 +12917,7 @@ const dashboardData = {
     "updated_at": "2026-02-22 20:52:20",
     "episode_evidence": null,
     "falsification_tracks": null,
+    "schema_version": 1,
     "insight_title": "Milton Berg: Rare Signal \u2014 Local Bottom or Major Top Ahead",
     "source_name": "Monetary Matters with Jack Farley",
     "source_date": "2026-02-06",
@@ -12939,6 +12970,7 @@ const dashboardData = {
     "updated_at": "2026-02-22 20:53:00",
     "episode_evidence": null,
     "falsification_tracks": null,
+    "schema_version": 1,
     "insight_title": "xAI Co-founder Exodus Amid SpaceX Merger Raises Concerns",
     "source_name": "The Rundown AI <news@daily.therundown.ai>",
     "source_date": "2026-02-11",
@@ -13012,6 +13044,7 @@ const dashboardData = {
     "updated_at": "2026-02-22 20:53:21",
     "episode_evidence": null,
     "falsification_tracks": null,
+    "schema_version": 1,
     "insight_title": "OpenAI's AI Succession Plan and AGI Claims",
     "source_name": "The Rundown AI <news@daily.therundown.ai>",
     "source_date": "2026-02-04",
@@ -13085,6 +13118,7 @@ const dashboardData = {
     "updated_at": "2026-02-22 20:53:36",
     "episode_evidence": null,
     "falsification_tracks": null,
+    "schema_version": 1,
     "insight_title": "SpaceX-xAI Merger Forms $1.25T AI-Space Super-Entity",
     "source_name": "The Rundown AI <news@daily.therundown.ai>",
     "source_date": "2026-02-03",
@@ -13132,6 +13166,7 @@ const dashboardData = {
     "updated_at": "2026-02-22 20:54:00",
     "episode_evidence": null,
     "falsification_tracks": null,
+    "schema_version": 1,
     "insight_title": "xAI Accelerates AI Expansion with Lunar Ambitions",
     "source_name": "The Rundown AI <news@daily.therundown.ai>",
     "source_date": "2026-02-12",
@@ -13168,6 +13203,7 @@ const dashboardData = {
     "updated_at": "2026-02-22 20:53:08",
     "episode_evidence": null,
     "falsification_tracks": null,
+    "schema_version": 1,
     "insight_title": "Figure's General Purpose Robot: Investment Shift in 2026",
     "source_name": "Figure's General Purpose Robot",
     "source_date": "2026-02-13",
@@ -13204,6 +13240,7 @@ const dashboardData = {
     "updated_at": "2026-02-22 20:53:08",
     "episode_evidence": null,
     "falsification_tracks": null,
+    "schema_version": 1,
     "insight_title": "Agentic Inversion: Moltbook and Axie Infinity's Impact on Investment Velocity",
     "source_name": "The Agentic Inversion",
     "source_date": "2026-02-13",
@@ -13240,6 +13277,7 @@ const dashboardData = {
     "updated_at": "2026-02-22 20:53:08",
     "episode_evidence": null,
     "falsification_tracks": null,
+    "schema_version": 1,
     "insight_title": "Google's AI Advancements Signal New Investment Frontier",
     "source_name": "The Rundown AI <news@daily.therundown.ai>",
     "source_date": "2026-02-13",
@@ -13308,6 +13346,7 @@ const dashboardData = {
     "updated_at": "2026-02-23 01:17:01",
     "episode_evidence": null,
     "falsification_tracks": null,
+    "schema_version": 1,
     "insight_title": "The Epstein Saga: Diverse Perspectives and Investment Implications",
     "source_name": "All-In with Chamath, Jason, Sacks & Friedberg",
     "source_date": "2026-02-20",
@@ -13377,6 +13416,7 @@ const dashboardData = {
     "updated_at": "2026-03-01 18:49:54",
     "episode_evidence": null,
     "falsification_tracks": null,
+    "schema_version": 1,
     "insight_title": "AI Breaking the System and What It Means for Bitcoin",
     "source_name": "The Jack Mallers Show",
     "source_date": "2026-02-24",
@@ -13426,6 +13466,7 @@ const dashboardData = {
     "updated_at": "2026-03-01 18:50:15",
     "episode_evidence": null,
     "falsification_tracks": null,
+    "schema_version": 1,
     "insight_title": "State of the Union on Age Reversal",
     "source_name": "Moonshots with Peter Diamandis",
     "source_date": "2026-02-24",
@@ -13499,6 +13540,7 @@ const dashboardData = {
     "updated_at": "2026-03-01 18:50:34",
     "episode_evidence": null,
     "falsification_tracks": null,
+    "schema_version": 1,
     "insight_title": "Conspiracy Corner and Market Impact of AI",
     "source_name": "All-In with Chamath, Jason, Sacks & Friedberg",
     "source_date": "2026-02-28",
@@ -13577,6 +13619,7 @@ const dashboardData = {
     "updated_at": "2026-03-01 23:26:25",
     "episode_evidence": null,
     "falsification_tracks": null,
+    "schema_version": 1,
     "insight_title": "Monetary Matters with Rick Rule on Commodities and Contrarian Investment",
     "source_name": "Monetary Matters with Jack Farley",
     "source_date": "2026-03-01",
@@ -13654,6 +13697,7 @@ const dashboardData = {
     "updated_at": "2026-03-01 23:26:43",
     "episode_evidence": null,
     "falsification_tracks": null,
+    "schema_version": 1,
     "insight_title": "The a16z Show: New Media Strategy and Investment Insights",
     "source_name": "The a16z Show",
     "source_date": "2026-02-27",
@@ -13702,6 +13746,7 @@ const dashboardData = {
     "updated_at": "2026-03-01 23:27:01",
     "episode_evidence": null,
     "falsification_tracks": null,
+    "schema_version": 1,
     "insight_title": "The Future of Education and the Role of AI",
     "source_name": "Moonshots with Peter Diamandis",
     "source_date": "2026-02-25",
@@ -13759,6 +13804,7 @@ const dashboardData = {
     "updated_at": "2026-03-05 03:01:30",
     "episode_evidence": null,
     "falsification_tracks": null,
+    "schema_version": 1,
     "insight_title": "Mailbag Monday: War, AI, and Deep Value in Bitcoin",
     "source_name": "The Jack Mallers Show",
     "source_date": "2026-03-03",
@@ -13806,6 +13852,7 @@ const dashboardData = {
     "updated_at": "2026-03-05 03:01:57",
     "episode_evidence": null,
     "falsification_tracks": null,
+    "schema_version": 1,
     "insight_title": "The Great Debt Cycle and Economic Outlook",
     "source_name": "All-In with Chamath, Jason, Sacks & Friedberg",
     "source_date": "2026-03-03",
@@ -13879,6 +13926,7 @@ const dashboardData = {
     "updated_at": "2026-03-05 03:02:23",
     "episode_evidence": null,
     "falsification_tracks": null,
+    "schema_version": 1,
     "insight_title": "Constructive Confrontation and Decision Debt in Tech Companies",
     "source_name": "The a16z Show",
     "source_date": "2026-03-03",
@@ -13952,6 +14000,7 @@ const dashboardData = {
     "updated_at": "2026-03-05 03:02:48",
     "episode_evidence": null,
     "falsification_tracks": null,
+    "schema_version": 1,
     "insight_title": "Moonshots with Peter Diamandis: AI, Exponential Technologies, and the Future of Auditing",
     "source_name": "Moonshots with Peter Diamandis",
     "source_date": "2026-03-02",
@@ -14027,6 +14076,7 @@ const dashboardData = {
     "updated_at": "2026-03-05 10:01:09",
     "episode_evidence": null,
     "falsification_tracks": null,
+    "schema_version": 1,
     "insight_title": "Monetary Matters: Macro Regimes and Investment Insights",
     "source_name": "Monetary Matters with Jack Farley",
     "source_date": "2026-03-04",
@@ -14101,6 +14151,7 @@ const dashboardData = {
     "updated_at": "2026-03-05 10:01:49",
     "episode_evidence": null,
     "falsification_tracks": null,
+    "schema_version": 1,
     "insight_title": "The Future of Healthcare with AI and Technology",
     "source_name": "The a16z Show",
     "source_date": "2026-03-04",
@@ -14171,6 +14222,7 @@ const dashboardData = {
     "updated_at": "2026-03-06 10:01:30",
     "episode_evidence": null,
     "falsification_tracks": null,
+    "schema_version": 1,
     "insight_title": "The Future of Advanced Nuclear Energy and its Impact on Markets",
     "source_name": "MacroVoices",
     "source_date": "2026-03-05",
@@ -14247,6 +14299,7 @@ const dashboardData = {
     "updated_at": "2026-03-06 10:01:52",
     "episode_evidence": null,
     "falsification_tracks": null,
+    "schema_version": 1,
     "insight_title": "Anthropic and Alignment: The Intersection of AI, Politics, and Business",
     "source_name": "The a16z Show",
     "source_date": "2026-03-05",
@@ -14317,6 +14370,7 @@ const dashboardData = {
     "updated_at": "2026-03-06 10:02:19",
     "episode_evidence": null,
     "falsification_tracks": null,
+    "schema_version": 1,
     "insight_title": "The Financialization of Super Intelligence and the Entrepreneurial Opportunity of a Lifetime",
     "source_name": "Moonshots with Peter Diamandis",
     "source_date": "2026-03-05",
@@ -14395,6 +14449,7 @@ const dashboardData = {
     "updated_at": "2026-03-06 10:02:45",
     "episode_evidence": null,
     "falsification_tracks": null,
+    "schema_version": 1,
     "insight_title": "Economic Growth through Creative Destruction",
     "source_name": "Monetary Matters with Jack Farley",
     "source_date": "2026-03-05",
@@ -14463,6 +14518,7 @@ const dashboardData = {
     "updated_at": "2026-03-06 13:46:06",
     "episode_evidence": null,
     "falsification_tracks": null,
+    "schema_version": 1,
     "insight_title": "Emergency Podcast: US-Iran Conflict and its Impact on Global Markets",
     "source_name": "All-In with Chamath, Jason, Sacks & Friedberg",
     "source_date": "2026-03-06",
@@ -14536,6 +14592,7 @@ const dashboardData = {
     "updated_at": "2026-03-07 10:01:03",
     "episode_evidence": null,
     "falsification_tracks": null,
+    "schema_version": 1,
     "insight_title": "The AI Transformation of Software and SaaS Landscape",
     "source_name": "The a16z Show",
     "source_date": "2026-03-06",
@@ -14613,6 +14670,7 @@ const dashboardData = {
     "updated_at": "2026-03-08 04:25:31",
     "episode_evidence": null,
     "falsification_tracks": null,
+    "schema_version": 1,
     "insight_title": "The Future of Work and Income with Andrew Yang",
     "source_name": "Moonshots with Peter Diamandis",
     "source_date": "2026-03-07",
@@ -14688,6 +14746,7 @@ const dashboardData = {
     "updated_at": "2026-03-08 04:25:57",
     "episode_evidence": null,
     "falsification_tracks": null,
+    "schema_version": 1,
     "insight_title": "All In with Chamath, Jason, Sacks & Friedberg - Episode 263 Part 2: Vision for Iran Post-Military Action",
     "source_name": "All-In with Chamath, Jason, Sacks & Friedberg",
     "source_date": "2026-03-07",
@@ -14761,6 +14820,7 @@ const dashboardData = {
     "updated_at": "2026-03-10 03:04:53",
     "episode_evidence": null,
     "falsification_tracks": null,
+    "schema_version": 1,
     "insight_title": "The Future of Health and Biotech Innovations",
     "source_name": "The a16z Show",
     "source_date": "2026-03-09",
@@ -14831,6 +14891,7 @@ const dashboardData = {
     "updated_at": "2026-03-11 03:03:30",
     "episode_evidence": null,
     "falsification_tracks": null,
+    "schema_version": 1,
     "insight_title": "Oil, Bonds, and Bitcoin: Navigating Geopolitical Poker and Market Volatility",
     "source_name": "The Jack Mallers Show",
     "source_date": "2026-03-10",
@@ -14905,6 +14966,7 @@ const dashboardData = {
     "updated_at": "2026-03-11 03:03:50",
     "episode_evidence": null,
     "falsification_tracks": null,
+    "schema_version": 1,
     "insight_title": "The a16z Show: AI Adoption, Creative Tools, and the Future of Generative AI",
     "source_name": "The a16z Show",
     "source_date": "2026-03-10",
@@ -14981,6 +15043,7 @@ const dashboardData = {
     "updated_at": "2026-03-11 03:04:13",
     "episode_evidence": null,
     "falsification_tracks": null,
+    "schema_version": 1,
     "insight_title": "The Future of Personal AI Agents with OpenClaw",
     "source_name": "Moonshots with Peter Diamandis",
     "source_date": "2026-03-09",
@@ -15051,6 +15114,7 @@ const dashboardData = {
     "updated_at": "2026-03-11 03:04:38",
     "episode_evidence": null,
     "falsification_tracks": null,
+    "schema_version": 1,
     "insight_title": "Monetary Matters with Jack Farley: Global Liquidity and Asset Allocation",
     "source_name": "Monetary Matters with Jack Farley",
     "source_date": "2026-03-09",
@@ -15121,6 +15185,7 @@ const dashboardData = {
     "updated_at": "2026-03-11 03:05:06",
     "episode_evidence": null,
     "falsification_tracks": null,
+    "schema_version": 1,
     "insight_title": "All-In with Chamath, Jason, Sacks & Friedberg - Discussion with Graham Allison",
     "source_name": "All-In with Chamath, Jason, Sacks & Friedberg",
     "source_date": "2026-03-09",
@@ -15197,6 +15262,7 @@ const dashboardData = {
     "updated_at": "2026-03-12 03:02:23",
     "episode_evidence": null,
     "falsification_tracks": null,
+    "schema_version": 1,
     "insight_title": "Real-time Crime Prevention and the Future of Policing",
     "source_name": "The a16z Show",
     "source_date": "2026-03-11",
@@ -15265,6 +15331,7 @@ const dashboardData = {
     "updated_at": "2026-03-12 10:04:04",
     "episode_evidence": null,
     "falsification_tracks": null,
+    "schema_version": 1,
     "insight_title": "Capital Markets Evolution and the Future of IPOs",
     "source_name": "All-In with Chamath, Jason, Sacks & Friedberg",
     "source_date": "2026-03-11",
@@ -15338,6 +15405,7 @@ const dashboardData = {
     "updated_at": "2026-03-12 10:04:30",
     "episode_evidence": null,
     "falsification_tracks": null,
+    "schema_version": 1,
     "insight_title": "Monetary Matters: Economic Consequences of War and AI's Impact",
     "source_name": "Monetary Matters with Jack Farley",
     "source_date": "2026-03-11",
@@ -15406,6 +15474,7 @@ const dashboardData = {
     "updated_at": "2026-03-13 03:00:59",
     "episode_evidence": null,
     "falsification_tracks": null,
+    "schema_version": 1,
     "insight_title": "Macro Voices Episode 523: Geopolitical Situation in Iran, Oil Prices, Precious Metals, and Market Analysis",
     "source_name": "MacroVoices",
     "source_date": "2026-03-12",
@@ -15486,6 +15555,7 @@ const dashboardData = {
     "updated_at": "2026-03-13 03:01:38",
     "episode_evidence": null,
     "falsification_tracks": null,
+    "schema_version": 1,
     "insight_title": "The Intersection of Technology, Geopolitics, and National Defense",
     "source_name": "The a16z Show",
     "source_date": "2026-03-12",
@@ -15561,6 +15631,7 @@ const dashboardData = {
     "updated_at": "2026-03-13 10:03:03",
     "episode_evidence": null,
     "falsification_tracks": null,
+    "schema_version": 1,
     "insight_title": "AI and the Future of Warfare: The Department of War vs. Anthropic",
     "source_name": "Dwarkesh Podcast",
     "source_date": "2026-03-11",
@@ -15639,6 +15710,7 @@ const dashboardData = {
     "updated_at": "2026-03-14 03:04:36",
     "episode_evidence": null,
     "falsification_tracks": null,
+    "schema_version": 1,
     "insight_title": "Semiconductors and the Future of Compute",
     "source_name": "Dwarkesh Podcast",
     "source_date": "2026-03-13",
@@ -15720,6 +15792,7 @@ const dashboardData = {
     "updated_at": "2026-03-14 03:05:00",
     "episode_evidence": null,
     "falsification_tracks": null,
+    "schema_version": 1,
     "insight_title": "AI in Defense and the Future of Military Technology",
     "source_name": "The a16z Show",
     "source_date": "2026-03-13",
@@ -15790,6 +15863,7 @@ const dashboardData = {
     "updated_at": "2026-03-14 03:05:25",
     "episode_evidence": null,
     "falsification_tracks": null,
+    "schema_version": 1,
     "insight_title": "Monetary Matters: The Impact of US-Iran Conflict on the World Economy",
     "source_name": "Monetary Matters with Jack Farley",
     "source_date": "2026-03-13",
@@ -15857,6 +15931,7 @@ const dashboardData = {
     "updated_at": "2026-03-14 10:01:43",
     "episode_evidence": null,
     "falsification_tracks": null,
+    "schema_version": 1,
     "insight_title": "Investing in Capitalism: Trump Accounts, AI, and the Future of Wealth",
     "source_name": "All-In with Chamath, Jason, Sacks & Friedberg",
     "source_date": "2026-03-13",
@@ -15931,6 +16006,7 @@ const dashboardData = {
     "updated_at": "2026-03-16 10:05:26",
     "episode_evidence": null,
     "falsification_tracks": null,
+    "schema_version": 1,
     "insight_title": "The Intersection of Technology, Entrepreneurship, and the Future",
     "source_name": "The a16z Show",
     "source_date": "2026-03-15",
@@ -16003,6 +16079,7 @@ const dashboardData = {
     "updated_at": "2026-03-16 10:06:03",
     "episode_evidence": null,
     "falsification_tracks": null,
+    "schema_version": 1,
     "insight_title": "Monetary Matters with Jack Farley: Precious Metals, Bonds, and Economic Cycles",
     "source_name": "Monetary Matters with Jack Farley",
     "source_date": "2026-03-15",
@@ -16080,6 +16157,7 @@ const dashboardData = {
     "updated_at": "2026-03-16 13:08:58",
     "episode_evidence": null,
     "falsification_tracks": null,
+    "schema_version": 1,
     "insight_title": "AI Startups and the Future of Technology",
     "source_name": "The a16z Show",
     "source_date": "2026-03-16",
@@ -16153,6 +16231,7 @@ const dashboardData = {
     "updated_at": "2026-03-16 21:44:06",
     "episode_evidence": null,
     "falsification_tracks": null,
+    "schema_version": 1,
     "insight_title": "Moonshots Podcast Episode #232 - The Pace of AI and Major Industry Moves",
     "source_name": "Moonshots with Peter Diamandis",
     "source_date": "2026-02-19",
@@ -16228,6 +16307,7 @@ const dashboardData = {
     "updated_at": "2026-03-16 21:44:27",
     "episode_evidence": null,
     "falsification_tracks": null,
+    "schema_version": 1,
     "insight_title": "Moonshots Podcast Episode #231 - OpenAI Acquires OpenClaw, 400x Cost Collapse, & Why India Wins the Talent War",
     "source_name": "Moonshots with Peter Diamandis",
     "source_date": "2026-02-18",
@@ -16303,6 +16383,7 @@ const dashboardData = {
     "updated_at": "2026-03-17 03:05:18",
     "episode_evidence": null,
     "falsification_tracks": null,
+    "schema_version": 1,
     "insight_title": "The AI CEO Arrives: Sam Altman's Succession Plan, Job Loss Continues, and Our 2027 'Solve Everything' Paper",
     "source_name": "Moonshots with Peter Diamandis",
     "source_date": "2026-02-17",
@@ -16376,6 +16457,7 @@ const dashboardData = {
     "updated_at": "2026-03-17 10:16:35",
     "episode_evidence": null,
     "falsification_tracks": null,
+    "schema_version": 1,
     "insight_title": "Stealth Startups and the Digitization of the Physical World",
     "source_name": "All-In with Chamath, Jason, Sacks & Friedberg",
     "source_date": "2026-03-17",
@@ -16448,6 +16530,7 @@ const dashboardData = {
     "updated_at": "2026-03-17 10:51:03",
     "episode_evidence": null,
     "falsification_tracks": null,
+    "schema_version": 1,
     "insight_title": "Bitcoin in a World That Can't Be Reversed with a Tweet",
     "source_name": "The Jack Mallers Show",
     "source_date": "2026-03-17",
@@ -16516,6 +16599,7 @@ const dashboardData = {
     "updated_at": "2026-03-17 11:59:59",
     "episode_evidence": null,
     "falsification_tracks": null,
+    "schema_version": 1,
     "insight_title": "Understanding the Mechanics of Large Language Models (LLMs) and the Path to AGI",
     "source_name": "The a16z Show",
     "source_date": "2026-03-17",
@@ -16584,6 +16668,7 @@ const dashboardData = {
     "updated_at": "2026-03-17 13:42:32",
     "episode_evidence": null,
     "falsification_tracks": null,
+    "schema_version": 1,
     "insight_title": "Monetary Matters with Jack Farley: Farmland Investment Insights",
     "source_name": "Monetary Matters with Jack Farley",
     "source_date": "2026-03-17",
@@ -16654,6 +16739,7 @@ const dashboardData = {
     "updated_at": "2026-03-17 22:18:08",
     "episode_evidence": null,
     "falsification_tracks": null,
+    "schema_version": 1,
     "insight_title": "Elon Musk on Moonshots: Discussing AI, Robotics, and Future Technologies",
     "source_name": "Moonshots with Peter Diamandis",
     "source_date": "2026-03-17",
@@ -16724,6 +16810,7 @@ const dashboardData = {
     "updated_at": "2026-03-19 03:05:41",
     "episode_evidence": null,
     "falsification_tracks": null,
+    "schema_version": 1,
     "insight_title": "Monetary Matters with Jack Farley: Oil Shocks, Inflation, and Market Reactions",
     "source_name": "Monetary Matters with Jack Farley",
     "source_date": "2026-03-19",
@@ -16794,6 +16881,7 @@ const dashboardData = {
     "updated_at": "2026-03-19 03:06:13",
     "episode_evidence": null,
     "falsification_tracks": null,
+    "schema_version": 1,
     "insight_title": "Interview with Senator John Fetterman on Voting Rights, Policy Decisions, and the Democratic Party",
     "source_name": "All-In with Chamath, Jason, Sacks & Friedberg",
     "source_date": "2026-03-18",
@@ -16867,6 +16955,7 @@ const dashboardData = {
     "updated_at": "2026-03-19 03:06:41",
     "episode_evidence": null,
     "falsification_tracks": null,
+    "schema_version": 1,
     "insight_title": "The Geopolitics of Technology and the Future Economy",
     "source_name": "The a16z Show",
     "source_date": "2026-03-18",
@@ -16931,6 +17020,7 @@ const dashboardData = {
     "updated_at": "2026-03-20 03:20:10",
     "episode_evidence": null,
     "falsification_tracks": null,
+    "schema_version": 1,
     "insight_title": "Genomic Screening and Ethical Considerations",
     "source_name": "Network State Podcast",
     "source_date": "2026-02-19",
@@ -16999,6 +17089,7 @@ const dashboardData = {
     "updated_at": "2026-03-20 03:21:01",
     "episode_evidence": null,
     "falsification_tracks": null,
+    "schema_version": 1,
     "insight_title": "Japan AI and the Next Liquidity Shock: Why Bitcoin's Weakness is an Early Warning",
     "source_name": "The Jack Mallers Show",
     "source_date": "2026-02-19",
@@ -17072,6 +17163,7 @@ const dashboardData = {
     "updated_at": "2026-03-20 03:22:44",
     "episode_evidence": null,
     "falsification_tracks": null,
+    "schema_version": 1,
     "insight_title": "The Future of Technology and Investment in AI",
     "source_name": "Dwarkesh Podcast",
     "source_date": "2026-02-19",
@@ -17142,6 +17234,7 @@ const dashboardData = {
     "updated_at": "2026-03-20 03:23:20",
     "episode_evidence": null,
     "falsification_tracks": null,
+    "schema_version": 1,
     "insight_title": "Monetary Matters with Jack Farley: The US Dollar, Trade Deficits, and the Role of AI in Finance",
     "source_name": "Monetary Matters with Jack Farley",
     "source_date": "2026-02-19",
@@ -17217,6 +17310,7 @@ const dashboardData = {
     "updated_at": "2026-03-20 03:24:02",
     "episode_evidence": null,
     "falsification_tracks": null,
+    "schema_version": 1,
     "insight_title": "Moonshots with Peter Diamandis: AI, Automation, and the Path to Abundance by 2035",
     "source_name": "Moonshots with Peter Diamandis",
     "source_date": "2026-02-19",
@@ -17290,6 +17384,7 @@ const dashboardData = {
     "updated_at": "2026-03-20 09:43:57",
     "episode_evidence": null,
     "falsification_tracks": null,
+    "schema_version": 1,
     "insight_title": "Humanoid Run on Neural Net, Autonomous Manufacturing, $50T Market #229",
     "source_name": "Moonshots with Peter Diamandis",
     "source_date": "2026-02-17",
@@ -17363,6 +17458,7 @@ const dashboardData = {
     "updated_at": "2026-03-20 09:45:43",
     "episode_evidence": null,
     "falsification_tracks": null,
+    "schema_version": 1,
     "insight_title": "The Future of Consumer Technology and the Post-Mobile Phone Era",
     "source_name": "The a16z Show",
     "source_date": "2026-02-15",
@@ -17431,6 +17527,7 @@ const dashboardData = {
     "updated_at": "2026-03-20 09:47:25",
     "episode_evidence": null,
     "falsification_tracks": null,
+    "schema_version": 1,
     "insight_title": "From Software to Hard Asset: Bitcoin and the New Liquidity Regime",
     "source_name": "The Jack Mallers Show",
     "source_date": "2026-02-15",
@@ -17498,6 +17595,7 @@ const dashboardData = {
     "updated_at": "2026-03-20 09:49:24",
     "episode_evidence": null,
     "falsification_tracks": null,
+    "schema_version": 1,
     "insight_title": "Macro Voices: The Iran Conflict's Impact on Inflation and Energy Markets",
     "source_name": "MacroVoices",
     "source_date": "2026-03-19",
@@ -17575,6 +17673,7 @@ const dashboardData = {
     "updated_at": "2026-03-20 09:51:29",
     "episode_evidence": null,
     "falsification_tracks": null,
+    "schema_version": 1,
     "insight_title": "AI Factory and the Future of Computing",
     "source_name": "All-In with Chamath, Jason, Sacks & Friedberg",
     "source_date": "2026-03-19",
@@ -17650,6 +17749,7 @@ const dashboardData = {
     "updated_at": "2026-03-20 09:53:06",
     "episode_evidence": null,
     "falsification_tracks": null,
+    "schema_version": 1,
     "insight_title": "Monetary Matters: Geopolitical Impact on Oil Markets with Rory Johnston",
     "source_name": "Monetary Matters with Jack Farley",
     "source_date": "2026-03-19",
@@ -17723,6 +17823,7 @@ const dashboardData = {
     "updated_at": "2026-03-21 03:09:05",
     "episode_evidence": null,
     "falsification_tracks": null,
+    "schema_version": 1,
     "insight_title": "Monetary Matters with Jack Farley: Short Selling Insights and AI in Investing",
     "source_name": "Monetary Matters with Jack Farley",
     "source_date": "2026-02-15",
@@ -17798,6 +17899,7 @@ const dashboardData = {
     "updated_at": "2026-03-21 03:09:34",
     "episode_evidence": null,
     "falsification_tracks": null,
+    "schema_version": 1,
     "insight_title": "Meta Buys Moltbook GPT 5.4 and Fruitfly Brain Upload",
     "source_name": "Moonshots with Peter Diamandis",
     "source_date": "2026-03-17",
@@ -17871,6 +17973,7 @@ const dashboardData = {
     "updated_at": "2026-03-21 09:34:00",
     "episode_evidence": null,
     "falsification_tracks": null,
+    "schema_version": 1,
     "insight_title": "The Impact of AI on Mathematics and Scientific Discovery",
     "source_name": "Dwarkesh Podcast",
     "source_date": "2026-03-20",
@@ -17944,6 +18047,7 @@ const dashboardData = {
     "updated_at": "2026-03-21 09:35:15",
     "episode_evidence": null,
     "falsification_tracks": null,
+    "schema_version": 1,
     "insight_title": "The A16z Show: Winning the AI Race and American Competitiveness",
     "source_name": "The a16z Show",
     "source_date": "2026-03-20",
@@ -18019,6 +18123,7 @@ const dashboardData = {
     "updated_at": "2026-03-23 09:23:14",
     "episode_evidence": null,
     "falsification_tracks": null,
+    "schema_version": 1,
     "insight_title": "California's Spending Woes and the Governor's Race",
     "source_name": "All-In with Chamath, Jason, Sacks & Friedberg",
     "source_date": "2026-03-23",
@@ -18082,6 +18187,7 @@ const dashboardData = {
     "updated_at": "2026-03-23 09:23:57",
     "episode_evidence": null,
     "falsification_tracks": null,
+    "schema_version": 1,
     "insight_title": "Monetary Matters with Jack Farley: Impact of Iran War on Fertilizer Prices and Agriculture",
     "source_name": "Monetary Matters with Jack Farley",
     "source_date": "2026-03-22",
@@ -18152,6 +18258,7 @@ const dashboardData = {
     "updated_at": "2026-03-24 09:46:31",
     "episode_evidence": null,
     "falsification_tracks": null,
+    "schema_version": 1,
     "insight_title": "Ground Infrastructure: The Overlooked Bottleneck in the Space Economy",
     "source_name": "The a16z Show",
     "source_date": "2026-03-23",
@@ -18225,6 +18332,7 @@ const dashboardData = {
     "updated_at": "2026-03-24 09:48:27",
     "episode_evidence": null,
     "falsification_tracks": null,
+    "schema_version": 1,
     "insight_title": "Interview with Michael Intrader at Nvidia's GTC Conference",
     "source_name": "All-In with Chamath, Jason, Sacks & Friedberg",
     "source_date": "2026-03-23",
@@ -18284,6 +18392,7 @@ const dashboardData = {
     "updated_at": "2026-03-24 09:49:51",
     "episode_evidence": null,
     "falsification_tracks": null,
+    "schema_version": 1,
     "insight_title": "Monetary Matters: Middle East Crisis and Global Market Impact",
     "source_name": "Monetary Matters with Jack Farley",
     "source_date": "2026-03-23",
@@ -18354,6 +18463,7 @@ const dashboardData = {
     "updated_at": "2026-03-24 10:35:17",
     "episode_evidence": null,
     "falsification_tracks": null,
+    "schema_version": 1,
     "insight_title": "When the Music Stops: Why Bitcoin is Next",
     "source_name": "The Jack Mallers Show",
     "source_date": "2026-03-24",
@@ -18427,6 +18537,7 @@ const dashboardData = {
     "updated_at": "2026-03-25 09:11:59",
     "episode_evidence": null,
     "falsification_tracks": null,
+    "schema_version": 1,
     "insight_title": "The Tactical Power Layer for Modern Warfare",
     "source_name": "The a16z Show",
     "source_date": "2026-03-24",
@@ -18500,6 +18611,7 @@ const dashboardData = {
     "updated_at": "2026-03-26 03:09:35",
     "episode_evidence": null,
     "falsification_tracks": null,
+    "schema_version": 1,
     "insight_title": "The Future of AI and its Impact on Society and Investment",
     "source_name": "Moonshots with Peter Diamandis",
     "source_date": "2026-03-24",
@@ -18571,6 +18683,7 @@ const dashboardData = {
     "updated_at": "2026-03-26 09:23:05",
     "episode_evidence": null,
     "falsification_tracks": null,
+    "schema_version": 1,
     "insight_title": "Exploring Psychedelics for Longevity and Personal Growth",
     "source_name": "All-In with Chamath, Jason, Sacks & Friedberg",
     "source_date": "2026-03-26",
@@ -18645,6 +18758,7 @@ const dashboardData = {
     "updated_at": "2026-03-26 09:23:27",
     "episode_evidence": null,
     "falsification_tracks": null,
+    "schema_version": 1,
     "insight_title": "Submarine Manufacturing and Advanced Factories",
     "source_name": "The a16z Show",
     "source_date": "2026-03-25",
@@ -18713,6 +18827,7 @@ const dashboardData = {
     "updated_at": "2026-03-26 13:21:54",
     "episode_evidence": null,
     "falsification_tracks": null,
+    "schema_version": 1,
     "insight_title": "Monetary Matters: Analyzing Market Stress and the Impact of Oil Prices",
     "source_name": "Monetary Matters with Jack Farley",
     "source_date": "2026-03-25",
@@ -18789,6 +18904,7 @@ const dashboardData = {
     "updated_at": "2026-03-26 16:17:29",
     "episode_evidence": null,
     "falsification_tracks": null,
+    "schema_version": 1,
     "insight_title": "Cybersecurity and National Security in the Telecommunications Sector",
     "source_name": "The a16z Show",
     "source_date": "2026-03-26",
@@ -18857,6 +18973,7 @@ const dashboardData = {
     "updated_at": "2026-03-26 19:16:15",
     "episode_evidence": null,
     "falsification_tracks": null,
+    "schema_version": 1,
     "insight_title": "Macro Voices Episode 525: Multi-Polar World Order, Iran Conflict, and Inflation Outlook",
     "source_name": "MacroVoices",
     "source_date": "2026-03-26",
@@ -18913,6 +19030,7 @@ const dashboardData = {
     "updated_at": "2026-03-28 09:07:31",
     "episode_evidence": null,
     "falsification_tracks": null,
+    "schema_version": 1,
     "insight_title": "Investing in Sovereign Credit with Lupin Ramon",
     "source_name": "Monetary Matters with Jack Farley",
     "source_date": "2026-03-27",
@@ -18973,6 +19091,7 @@ const dashboardData = {
     "updated_at": "2026-03-28 09:07:50",
     "episode_evidence": null,
     "falsification_tracks": null,
+    "schema_version": 1,
     "insight_title": "Lessons from SpaceX and Tesla: Building for the Physical Economy",
     "source_name": "The a16z Show",
     "source_date": "2026-03-27",
@@ -19049,6 +19168,7 @@ const dashboardData = {
     "updated_at": "2026-03-29 03:06:43",
     "episode_evidence": null,
     "falsification_tracks": null,
+    "schema_version": 1,
     "insight_title": "all in with chamath jason sacks frie jensen huang live nvidia s future physical ai rise of the 03b9c382",
     "source_name": "All-In with Chamath, Jason, Sacks & Friedberg",
     "source_date": "2026-03-28",
@@ -19124,6 +19244,7 @@ const dashboardData = {
     "updated_at": "2026-03-29 03:07:06",
     "episode_evidence": null,
     "falsification_tracks": null,
+    "schema_version": 1,
     "insight_title": "the a16z show chris dixon from quant trading to building a16z crypto be2e5b4b",
     "source_name": "The a16z Show",
     "source_date": "2026-03-28",
@@ -19197,6 +19318,7 @@ const dashboardData = {
     "updated_at": "2026-03-29 03:07:33",
     "episode_evidence": null,
     "falsification_tracks": null,
+    "schema_version": 1,
     "insight_title": "ALLIN-INTV Jensen V2 Ch",
     "source_name": "All-In with Chamath, Jason, Sacks & Friedberg",
     "source_date": "2026-03-28",
@@ -19272,6 +19394,7 @@ const dashboardData = {
     "updated_at": "2026-03-29 03:07:54",
     "episode_evidence": null,
     "falsification_tracks": null,
+    "schema_version": 1,
     "insight_title": "the a16z show 20260319 1e92a9dd 78da 4417 b1ce 4b4318d1",
     "source_name": "The a16z Show",
     "source_date": "2026-03-28",
@@ -19345,6 +19468,7 @@ const dashboardData = {
     "updated_at": "2026-03-29 03:08:20",
     "episode_evidence": null,
     "falsification_tracks": null,
+    "schema_version": 1,
     "insight_title": "Anthropic's Generational Run, OpenAI Panics, AI Moats, Meta Loses Lawsuits",
     "source_name": "All-In with Chamath, Jason, Sacks & Friedberg",
     "source_date": "2026-03-27",
@@ -19423,6 +19547,7 @@ const dashboardData = {
     "updated_at": "2026-03-29 03:08:41",
     "episode_evidence": null,
     "falsification_tracks": null,
+    "schema_version": 1,
     "insight_title": "AI Just Gave You Superpowers \u2014 Now What?",
     "source_name": "The a16z Show",
     "source_date": "2026-03-19",
@@ -19491,6 +19616,7 @@ const dashboardData = {
     "updated_at": "2026-03-29 03:09:03",
     "episode_evidence": null,
     "falsification_tracks": null,
+    "schema_version": 1,
     "insight_title": "Stock Market on Shaky Foundations | Blind Squirrel Macro\u2019s Rupert Mitchell on IPO Supply, Oil, and Private Credit",
     "source_name": "Monetary Matters with Jack Farley",
     "source_date": "2026-03-18",
@@ -19568,6 +19694,7 @@ const dashboardData = {
     "updated_at": "2026-03-29 03:09:26",
     "episode_evidence": null,
     "falsification_tracks": null,
+    "schema_version": 1,
     "insight_title": "EWWMN9153105374",
     "source_name": "Monetary Matters with Jack Farley",
     "source_date": "2026-03-15",
@@ -19642,6 +19769,7 @@ const dashboardData = {
     "updated_at": "2026-03-29 03:09:47",
     "episode_evidence": null,
     "falsification_tracks": null,
+    "schema_version": 1,
     "insight_title": "Inventing the Renaissance: Economic and Technological Insights",
     "source_name": "Dwarkesh Podcast",
     "source_date": "2026-03-06",
@@ -19715,6 +19843,7 @@ const dashboardData = {
     "updated_at": "2026-03-29 03:10:10",
     "episode_evidence": null,
     "falsification_tracks": null,
+    "schema_version": 1,
     "insight_title": "Technical Analysis Deep Dive with Milton Berg - February 2026 Market Signals",
     "source_name": "Monetary Matters with Jack Farley",
     "source_date": "2026-02-15",
@@ -19785,6 +19914,7 @@ const dashboardData = {
     "updated_at": "2026-03-29 09:10:00",
     "episode_evidence": null,
     "falsification_tracks": null,
+    "schema_version": 1,
     "insight_title": "MacroVoices-2026-03-19-Simon-White",
     "source_name": "MacroVoices",
     "source_date": "2026-03-19",
@@ -19851,6 +19981,7 @@ const dashboardData = {
     "updated_at": "2026-03-30 10:03:53",
     "episode_evidence": null,
     "falsification_tracks": null,
+    "schema_version": 1,
     "insight_title": "The 2026 Private Credit Liquidity Crunch | Leyla Kunimoto on Redemptions in Semi-liquid Vehicles, Private/Public BDCs, and the Future of Alternatives",
     "source_name": "Monetary Matters with Jack Farley",
     "source_date": "2026-03-29",
@@ -19927,6 +20058,7 @@ const dashboardData = {
     "updated_at": "2026-03-31 10:05:12",
     "episode_evidence": null,
     "falsification_tracks": null,
+    "schema_version": 1,
     "insight_title": "Marc Andreessen on Evaluating Founders and AI's Consumer Surplus",
     "source_name": "The a16z Show",
     "source_date": "2026-03-30",
@@ -19995,6 +20127,7 @@ const dashboardData = {
     "updated_at": "2026-04-01 10:05:50",
     "episode_evidence": null,
     "falsification_tracks": null,
+    "schema_version": 1,
     "insight_title": "They're Lying to You. Again. Stay Humble & Stack Sats.",
     "source_name": "The Jack Mallers Show",
     "source_date": "2026-03-31",
@@ -20069,6 +20202,7 @@ const dashboardData = {
     "updated_at": "2026-04-01 10:06:26",
     "episode_evidence": null,
     "falsification_tracks": null,
+    "schema_version": 1,
     "insight_title": "Uber CEO on Winning the Robotaxi Race, the End of Car Ownership, and Uber\u2019s Next $1 Trillion Bet | Dara Khosrowshahi (Uber CEO) | 243",
     "source_name": "Moonshots with Peter Diamandis",
     "source_date": "2026-03-31",
@@ -20144,6 +20278,7 @@ const dashboardData = {
     "updated_at": "2026-04-01 10:06:56",
     "episode_evidence": null,
     "falsification_tracks": null,
+    "schema_version": 1,
     "insight_title": "How Radiant and Heron Are Rethinking Power Generation and Delivery",
     "source_name": "The a16z Show",
     "source_date": "2026-03-31",
@@ -20212,6 +20347,7 @@ const dashboardData = {
     "updated_at": "2026-04-01 10:07:28",
     "episode_evidence": null,
     "falsification_tracks": null,
+    "schema_version": 1,
     "insight_title": "The Psychology of Market Champions: Inside the Minds of Point 72 & Citadel Portfolio Managers | Dr. Gio Valiante",
     "source_name": "Monetary Matters with Jack Farley",
     "source_date": "2026-03-31",
@@ -20289,6 +20425,7 @@ const dashboardData = {
     "updated_at": "2026-04-01 20:16:04",
     "episode_evidence": null,
     "falsification_tracks": null,
+    "schema_version": 1,
     "insight_title": "What Happens When a Public Company Goes All In on AI",
     "source_name": "The a16z Show",
     "source_date": "2026-04-01",
@@ -20364,6 +20501,7 @@ const dashboardData = {
     "updated_at": "2026-04-02 03:04:32",
     "episode_evidence": null,
     "falsification_tracks": null,
+    "schema_version": 1,
     "insight_title": "Why $200 Oil Won\u2019t Spike Inflation to 9% | Anna Wong on Recession Probability, PCE vs CPI, and Fed Reaction Function In A Scenario of Soaring Energy Prices",
     "source_name": "Monetary Matters with Jack Farley",
     "source_date": "2026-04-01",
@@ -20440,6 +20578,7 @@ const dashboardData = {
     "updated_at": "2026-04-03 10:06:09",
     "episode_evidence": null,
     "falsification_tracks": null,
+    "schema_version": 1,
     "insight_title": "Alex Blania on Proof of Human and Building World's Identity Network",
     "source_name": "The a16z Show",
     "source_date": "2026-04-02",
@@ -20513,6 +20652,7 @@ const dashboardData = {
     "updated_at": "2026-04-03 10:06:36",
     "episode_evidence": null,
     "falsification_tracks": null,
+    "schema_version": 1,
     "insight_title": "Uber\u2019s Robotaxi Playbook, the End of Human Driving & $10B Bet on Robots | Dara Khosrowshahi (Uber CEO) | EP #244",
     "source_name": "Moonshots with Peter Diamandis",
     "source_date": "2026-04-02",
@@ -20588,6 +20728,7 @@ const dashboardData = {
     "updated_at": "2026-04-03 10:07:12",
     "episode_evidence": null,
     "falsification_tracks": null,
+    "schema_version": 1,
     "insight_title": "MacroVoices #526 Matt Barrie: Pay To PrAI",
     "source_name": "MacroVoices",
     "source_date": "2026-04-02",
@@ -20659,6 +20800,7 @@ const dashboardData = {
     "updated_at": "2026-04-04 10:06:02",
     "episode_evidence": null,
     "falsification_tracks": null,
+    "schema_version": 1,
     "insight_title": "SpaceX IPO, Iran War Fallout, Quantum Bitcoin Hack, The Space Opportunity",
     "source_name": "All-In with Chamath, Jason, Sacks & Friedberg",
     "source_date": "2026-04-03",
@@ -20735,6 +20877,7 @@ const dashboardData = {
     "updated_at": "2026-04-04 10:06:22",
     "episode_evidence": null,
     "falsification_tracks": null,
+    "schema_version": 1,
     "insight_title": "Marc Andreessen on AI Winters and Agent Breakthroughs",
     "source_name": "The a16z Show",
     "source_date": "2026-04-03",
@@ -20798,6 +20941,7 @@ const dashboardData = {
     "updated_at": "2026-04-05 03:03:28",
     "episode_evidence": null,
     "falsification_tracks": null,
+    "schema_version": 1,
     "insight_title": "\u201cBooks Will Be Written\u201d About This Shipping Market | Ed Finley-Richardson of Misadventures in Shipping on War-Induced Oil Tanker Mayhem, Squeeze for Asiabound Refined Products, and Persian Gulf \u201cFeeding Frenzy\u201d Scenario",
     "source_name": "Monetary Matters with Jack Farley",
     "source_date": "2026-04-04",
@@ -20873,6 +21017,7 @@ const dashboardData = {
     "updated_at": "2026-04-07 10:07:00",
     "episode_evidence": null,
     "falsification_tracks": null,
+    "schema_version": 1,
     "insight_title": "The Companies Changing Warfare Forever: Palantir & Anduril Execs on Drones, AI & the Future of War",
     "source_name": "All-In with Chamath, Jason, Sacks & Friedberg",
     "source_date": "2026-04-06",
@@ -20941,6 +21086,7 @@ const dashboardData = {
     "updated_at": "2026-04-07 10:07:23",
     "episode_evidence": null,
     "falsification_tracks": null,
+    "schema_version": 1,
     "insight_title": "Peter Yang on Small Teams, Coding Agents, and Why Human Ambition Has No Ceiling",
     "source_name": "The a16z Show",
     "source_date": "2026-04-06",
@@ -21016,6 +21162,7 @@ const dashboardData = {
     "updated_at": "2026-04-08 03:06:34",
     "episode_evidence": null,
     "falsification_tracks": null,
+    "schema_version": 1,
     "insight_title": "Balaji on Why AI Raises the Cost of Verification",
     "source_name": "The a16z Show",
     "source_date": "2026-04-07",
@@ -21083,6 +21230,7 @@ const dashboardData = {
     "updated_at": "2026-04-08 03:07:09",
     "episode_evidence": null,
     "falsification_tracks": null,
+    "schema_version": 1,
     "insight_title": "We Were Right. Now What?",
     "source_name": "The Jack Mallers Show",
     "source_date": "2026-04-07",
@@ -21156,6 +21304,7 @@ const dashboardData = {
     "updated_at": "2026-04-08 10:05:33",
     "episode_evidence": null,
     "falsification_tracks": null,
+    "schema_version": 1,
     "insight_title": "Michael Nielsen \u2013 How science actually progresses",
     "source_name": "Dwarkesh Podcast",
     "source_date": "2026-04-07",
@@ -21209,6 +21358,7 @@ const dashboardData = {
     "updated_at": "2026-04-08 10:06:00",
     "episode_evidence": null,
     "falsification_tracks": null,
+    "schema_version": 1,
     "insight_title": "Why Emerging Markets are Finally Outperforming Developed Markets | Robert Koenigsberger | Gramercy",
     "source_name": "Monetary Matters with Jack Farley",
     "source_date": "2026-04-07",
@@ -21280,6 +21430,7 @@ const dashboardData = {
     "updated_at": "2026-04-08 10:06:25",
     "episode_evidence": null,
     "falsification_tracks": null,
+    "schema_version": 1,
     "insight_title": "How AI Is Bringing Extinct Animals Back (And What Comes Next) | Ben Lamm (Colossal) | EP #245",
     "source_name": "Moonshots with Peter Diamandis",
     "source_date": "2026-04-07",
@@ -21348,6 +21499,7 @@ const dashboardData = {
     "updated_at": "2026-04-09 10:07:12",
     "episode_evidence": null,
     "falsification_tracks": null,
+    "schema_version": 1,
     "insight_title": "Josh Shapiro on Trump, Iran War Chaos, Israel's Failure, the Economy, and 2028 Race",
     "source_name": "All-In with Chamath, Jason, Sacks & Friedberg",
     "source_date": "2026-04-08",
@@ -21421,6 +21573,7 @@ const dashboardData = {
     "updated_at": "2026-04-10 03:07:00",
     "episode_evidence": null,
     "falsification_tracks": null,
+    "schema_version": 1,
     "insight_title": "Who Controls AI Acceleration? Vitalik Buterin and Guillaume Verdon Debate",
     "source_name": "The a16z Show",
     "source_date": "2026-04-09",
@@ -21489,6 +21642,7 @@ const dashboardData = {
     "updated_at": "2026-04-10 03:07:37",
     "episode_evidence": null,
     "falsification_tracks": null,
+    "schema_version": 1,
     "insight_title": "Private Credit \u201cDoom\u201d Narrative On Shaky Foundation? | Michael Haynes On Why Retail Outflows Are Real But Credit Foundations Are Solid",
     "source_name": "Monetary Matters with Jack Farley",
     "source_date": "2026-04-08",
@@ -21552,6 +21706,7 @@ const dashboardData = {
     "updated_at": "2026-04-10 10:07:53",
     "episode_evidence": null,
     "falsification_tracks": null,
+    "schema_version": 1,
     "insight_title": "\"The Best Time to Invest\": How AI Disruption is Reshaping Software Valuations | Ben Topor | Titan Capital Partners",
     "source_name": "Monetary Matters with Jack Farley",
     "source_date": "2026-04-09",
@@ -21630,6 +21785,7 @@ const dashboardData = {
     "updated_at": "2026-04-10 10:08:41",
     "episode_evidence": null,
     "falsification_tracks": null,
+    "schema_version": 1,
     "insight_title": "MacroVoices #527 Adam Rozencwajg: What Comes Next After The Iran Crisis",
     "source_name": "MacroVoices",
     "source_date": "2026-04-09",
@@ -21694,6 +21850,7 @@ const dashboardData = {
       "Microsoft consistently matching or exceeding Apple's annual product release cycle and quality for multiple years.",
       "A drastic change in consumer preference towards Microsoft products over Apple in key markets like smartphones or wearables."
     ],
+    "schema_version": 1,
     "insight_title": "What Running Windows at Microsoft Taught Steven Sinofsky About Apple",
     "source_name": "The a16z Show",
     "source_date": "2026-04-10",
@@ -21774,6 +21931,7 @@ const dashboardData = {
       "If enterprise adoption of AI plateaus or declines, it would indicate a weaker market for AI companies.",
       "Government regulations that significantly restrict the use of AI in labor augmentation and replacement could impede the growth of the AI market."
     ],
+    "schema_version": 1,
     "insight_title": "Anthropic's $30B Ramp, Mythos Doomsday, OpenClaw Ankled, Iran War Ceasefire, Israel's Influence",
     "source_name": "All-In with Chamath, Jason, Sacks & Friedberg",
     "source_date": "2026-04-10",
@@ -21853,6 +22011,7 @@ const dashboardData = {
       "A significant delay or failure in SpaceX's launch schedule could undermine the company's growth narrative.",
       "Regulatory hurdles or policy changes that restrict the development or deployment of space technology or AI applications."
     ],
+    "schema_version": 1,
     "insight_title": "SpaceX Goes Public, Claude\u2019s Mythos Release, and the US Data Center Delay | EP #246",
     "source_name": "Moonshots with Peter Diamandis",
     "source_date": "2026-04-11",
@@ -21930,6 +22089,7 @@ const dashboardData = {
       "A study showing no change or a decrease in parental satisfaction or an increase in stress levels among parents using AI for home and child management.",
       "Demographic data indicating no change or a continued decline in fertility rates despite the proliferation of AI home management tools."
     ],
+    "schema_version": 1,
     "insight_title": "Building Agents at Home: Parenting, Work, and Benevolent Neglect",
     "source_name": "The a16z Show",
     "source_date": "2026-04-13",
@@ -22006,6 +22166,7 @@ const dashboardData = {
       "If there is a substantial decrease in the cost or an increase in the availability of GPUs, making AI advancements more accessible, the advantage of compressing development time with resources would be less pronounced.",
       "A slowdown in AI development or a plateau in technological advancement could challenge the thesis that historical rules no longer apply in the tech industry."
     ],
+    "schema_version": 1,
     "insight_title": "Ben Horowitz on AI Infrastructure, Economics and The New Laws of Software",
     "source_name": "The a16z Show",
     "source_date": "2026-04-14",
@@ -22070,6 +22231,7 @@ const dashboardData = {
       "Iran and the U.S. reaching a comprehensive agreement that reopens the Strait of Hormuz and stabilizes oil markets, reducing the perceived need for alternative reserve currencies.",
       "Central banks successfully implementing policies that control inflation without causing significant economic disruption, diminishing the appeal of Bitcoin as a store of value."
     ],
+    "schema_version": 1,
     "insight_title": "Bitcoin & the Bigger Shovel",
     "source_name": "The Jack Mallers Show",
     "source_date": "2026-04-14",
@@ -22133,6 +22295,7 @@ const dashboardData = {
       "If consumer spending shows a consistent decline over multiple quarters, it would indicate weaker consumer health than Emory suggests.",
       "A significant drop in housing prices or a surge in rental rates could undermine the stability of the consumer's biggest asset and liability."
     ],
+    "schema_version": 1,
     "insight_title": "\"I Don't Believe the Stagflation Narrative\": How the Strong Consumer and AI Tailwinds Shape Sean Emory's Bullish Blueprint | Avory & Co",
     "source_name": "Monetary Matters with Jack Farley",
     "source_date": "2026-04-14",
@@ -22213,6 +22376,7 @@ const dashboardData = {
       "Labor market data showing a decrease in white-collar job losses or an inability for AI to perform white-collar tasks as predicted.",
       "A shift in political discourse or policy that limits the influence of capital on political processes, potentially affecting the growth of AI companies."
     ],
+    "schema_version": 1,
     "insight_title": "Elon Musk vs. Sam Altman, AI Job Loss, and OpenAI\u2019s $852B Valuation | EP #247",
     "source_name": "Moonshots with Peter Diamandis",
     "source_date": "2026-04-14",
@@ -22275,6 +22439,7 @@ const dashboardData = {
       "Major tech companies successfully develop competing AI coding platforms that outperform Replet in key metrics such as speed, cost, or user experience.",
       "There is a significant increase in the number of coding-related jobs, suggesting that the demand for traditional coding skills is still high and the need for AI democratization is less urgent."
     ],
+    "schema_version": 1,
     "insight_title": "Replit's CEO on Vibe Coding, Wealth Building, and What Most People Get Wrong About AI",
     "source_name": "The a16z Show",
     "source_date": "2026-04-15",
@@ -22350,6 +22515,7 @@ const dashboardData = {
       "A substantial increase in the supply of GPUs that outpaces demand, which could lead to a drop in prices and affect Nvidia's profitability.",
       "Reports of widespread commoditization in the software sector, particularly among tool makers, which could reduce the value proposition of Nvidia's offerings."
     ],
+    "schema_version": 1,
     "insight_title": "Jensen Huang \u2013 TPU competition, why we should sell chips to China, & Nvidia\u2019s supply chain moat",
     "source_name": "Dwarkesh Podcast",
     "source_date": "2026-04-15",
@@ -22408,6 +22574,7 @@ const dashboardData = {
       "A shift in political landscape leading to policy changes that reduce the government's reliance on financial repression, such as significant tax reforms or austerity measures.",
       "An international response or economic sanction that affects a country's ability to use financial repression as a tool, such as restrictions on bond issuances or capital controls."
     ],
+    "schema_version": 1,
     "insight_title": "Financial Repression, Pt. 1  | Professor Hanno Lustig on Hidden Taxes, Fiscal Sustainability, and Japan\u2019s Debt Puzzle",
     "source_name": "Monetary Matters with Jack Farley",
     "source_date": "2026-04-15",
@@ -22488,6 +22655,7 @@ const dashboardData = {
       "A decline in the use of APIs and CLIs as primary interaction methods for AI agents, indicating a move away from the discussed paradigm.",
       "Enterprises failing to adapt their software development practices to accommodate AI agents, suggesting that the market is not moving towards building software for agents as predicted."
     ],
+    "schema_version": 1,
     "insight_title": "The Agent Era: Building Software Beyond Chat with Box CEO Aaron Levie",
     "source_name": "The a16z Show",
     "source_date": "2026-04-08",
@@ -22554,6 +22722,7 @@ const dashboardData = {
       "A significant de-escalation in US-Iran tensions and a return to diplomatic negotiations would alter the geopolitical risk assessment.",
       "Sustained high levels of oil production and export from Iran, indicating a resolution to the crisis, would mitigate supply chain concerns."
     ],
+    "schema_version": 1,
     "insight_title": "MacroVoices #528 Luke Gromen: Hormuz Could Lead To a 1956 US Suez Moment",
     "source_name": "MacroVoices",
     "source_date": "2026-04-16",
@@ -22634,6 +22803,7 @@ const dashboardData = {
       "A lack of investment in AI research and development, or a shift in focus away from integrating formal and intuitive knowledge in AI, would weaken the investment case.",
       "If regulatory bodies impose strict limitations on AI usage, especially concerning data privacy and ethical considerations, it could slow down the progress and adoption of AI technologies."
     ],
+    "schema_version": 1,
     "insight_title": "Technology, Culture, and the Next AI Interface with sign\u00fcll",
     "source_name": "The a16z Show",
     "source_date": "2026-04-16",
@@ -22710,6 +22880,7 @@ const dashboardData = {
       "A major safety recall or incident involving Wemo's autonomous vehicles could erode public trust and regulatory support, undermining the potential for continued growth and adoption.",
       "Should there be a significant slowdown in the global deployment of autonomous driving technologies due to regulatory hurdles or technological setbacks, it would counter the narrative of accelerated scaling."
     ],
+    "schema_version": 1,
     "insight_title": "From Models to Mobility: Building Waymo with Dmitri Dolgov",
     "source_name": "The a16z Show",
     "source_date": "2026-04-17",
@@ -22774,6 +22945,7 @@ const dashboardData = {
       "A sustained increase in the number of new entrants in the SaaS market with competitive offerings could indicate that the disruption is deeper than anticipated.",
       "Should the market cap-weighted performance of the SaaS index continue to decline, it may signal that the market's fears are justified, reducing the conviction in the thesis."
     ],
+    "schema_version": 1,
     "insight_title": "Navigating the SaaS Apocalypse: Why AI Disruption is Mispriced | Deiya Pernas | Pernas Research",
     "source_name": "Monetary Matters with Jack Farley",
     "source_date": "2026-04-19",
@@ -22854,6 +23026,7 @@ const dashboardData = {
       "If there is a notable increase in job creation within the AI and consumer tech sectors, the concern about job displacement due to AI might be reduced.",
       "Should the government or private sector implement effective programs that provide a sense of purpose beyond financial support, the urgency for 'universal basic purpose' could be diminished."
     ],
+    "schema_version": 1,
     "insight_title": "Network Effects, AI Costs, and the Future of Consumer Investing with Anish Acharya on The Kevin Rose Show",
     "source_name": "The a16z Show",
     "source_date": "2026-04-19",
@@ -22910,6 +23083,7 @@ const dashboardData = {
       "A lack of adoption of AI technologies in key industries, such as a failure of AI to gain significant traction in sectors like healthcare or finance, would challenge the thesis of AI reshaping the economy.",
       "Regulatory actions that significantly limit the development or use of AI, such as strict data privacy laws, could hinder the progress and application of AI technologies."
     ],
+    "schema_version": 1,
     "insight_title": "Sam Altman\u2019s Attack, Amazon vs. Starlink, and What Opus 4.7 Actually Means | #248",
     "source_name": "Moonshots with Peter Diamandis",
     "source_date": "2026-04-18",
@@ -22976,6 +23150,7 @@ const dashboardData = {
       "If there is a noticeable increase in construction or development of new residential properties in New York City post-tax implementation, it would suggest that the tax does not deter development as hypothesized.",
       "A significant shift in public perception towards data centers, with increased support or understanding of their role in technological advancement, could reduce the controversy and potential regulation, affecting the investment thesis differently."
     ],
+    "schema_version": 1,
     "insight_title": "OpenAI's Identity Crisis, Datacenter Wars, Market Up on Iran News, Mamdani's First Tax, Swalwell Out",
     "source_name": "All-In with Chamath, Jason, Sacks & Friedberg",
     "source_date": "2026-04-17",
@@ -23040,6 +23215,7 @@ const dashboardData = {
       "Should there be a lack of significant investment in Git-related startups or tools aimed at improving the Git experience, it could indicate a market belief that the current tools are sufficient or that the need for improvement is not pressing.",
       "A failure in the development of AI coding agents or a slowdown in their adoption could reduce the urgency for updating Git to accommodate non-human users, potentially invalidating the need for the changes discussed."
     ],
+    "schema_version": 1,
     "insight_title": "Rethinking Git for the Age of Coding Agents with GitHub Cofounder Scott Chacon",
     "source_name": "The a16z Show",
     "source_date": "2026-04-20",
@@ -23120,6 +23296,7 @@ const dashboardData = {
       "Global supply chains returning to normal operation without significant economic repercussions, reducing the need for a hedge like Bitcoin.",
       "A significant decrease in Bitcoin's market cap and price stability, indicating a loss of confidence in its value as a store of value."
     ],
+    "schema_version": 1,
     "insight_title": "All Roads Lead to Bitcoin",
     "source_name": "The Jack Mallers Show",
     "source_date": "2026-04-21",
@@ -23197,6 +23374,7 @@ const dashboardData = {
       "The emergence of a new dominant media platform that centralizes news consumption would challenge the thesis of decentralized media acceleration.",
       "A sustained period where news cycles slow down, with fewer controversies arising or gaining traction, could indicate a change in societal behavior or media consumption patterns."
     ],
+    "schema_version": 1,
     "insight_title": "Marc Andreessen: Monitoring the Situation and the Future of Media",
     "source_name": "The a16z Show",
     "source_date": "2026-04-21",
@@ -23275,6 +23453,7 @@ const dashboardData = {
       "The occurrence of major security breaches or failures in blockchain systems that compromise the integrity of verifiable records would reduce confidence in blockchain's ability to secure information.",
       "A lack of legislative support or regulatory hurdles that stifle the growth and adoption of blockchain technology in media and communication would counter the investment thesis."
     ],
+    "schema_version": 1,
     "insight_title": "Balaji Srinivasan: Prove Correct, Not Just Go Direct",
     "source_name": "The a16z Show",
     "source_date": "2026-04-22",
@@ -23354,6 +23533,7 @@ const dashboardData = {
       "A significant downturn in the commercial real estate market could impact banks with substantial mortgage exposure, affecting their overall stability.",
       "Public disclosure of substantial losses by major banks due to private credit defaults would contradict the narrative of controlled risk."
     ],
+    "schema_version": 1,
     "insight_title": "Banks' \u201cConsiderable\u201d Exposure to Private Credit | Chris Whalen on Banks\u2019 Loans to NBFIs, Plus CRE, Gold, and Payments",
     "source_name": "Monetary Matters with Jack Farley",
     "source_date": "2026-04-18",
@@ -23417,6 +23597,7 @@ const dashboardData = {
       "A lack of new breakthroughs in AI technology that could disrupt the current market dynamics would reduce the conviction in the need for innovation in computing.",
       "Should traditional tech giants successfully adapt to the new AI landscape, reducing the leverage of specialized startups, the thesis of significant opportunities in AI would be weakened."
     ],
+    "schema_version": 1,
     "insight_title": "Martin Shkreli on AI, Pharma, and What Actually Matters",
     "source_name": "The a16z Show",
     "source_date": "2026-04-23",
@@ -23476,6 +23657,7 @@ const dashboardData = {
       "A significant increase in U.S. oil production and rig deployment over the next quarter would challenge the thesis of a prolonged supply disruption.",
       "Should global geopolitical tensions ease and lead to a resumption of Iranian oil exports, the thesis of sustained energy market disruptions would be weakened."
     ],
+    "schema_version": 1,
     "insight_title": "MacroVoices #529 Ole S Hansen: Commodities in The Wake of The Iran Crisis",
     "source_name": "MacroVoices",
     "source_date": "2026-04-23",
@@ -23551,6 +23733,7 @@ const dashboardData = {
       "If no significant system shocks are observed following conflicts, the assertion about war's broader impact on systems could be questioned.",
       "A lack of frontier lab success in competing with established businesses in AI would challenge the narrative of rapid industry disruption."
     ],
+    "schema_version": 1,
     "insight_title": "Iran's AI Supply Chain Threat, Claude vs. SaaS, and Elon's $60B Cursor Bet | EP #249",
     "source_name": "Moonshots with Peter Diamandis",
     "source_date": "2026-04-23",
@@ -23625,6 +23808,7 @@ const dashboardData = {
       "Widespread successful integration of AI across various enterprise sectors, indicating a resolved integration challenge.",
       "A marked decrease in AI investment or adoption rates among large organizations, suggesting a reduced belief in AI's potential."
     ],
+    "schema_version": 1,
     "insight_title": "AI Inside the Enterprise",
     "source_name": "The a16z Show",
     "source_date": "2026-04-24",
@@ -23677,6 +23861,7 @@ const dashboardData = {
       "SpaceX's projected revenue for 2026 falls significantly below the $24 billion mark, affecting the valuation and terms of the deal.",
       "The Biden administration implements policies that hinder AI development or data center growth, contradicting the current supportive stance."
     ],
+    "schema_version": 1,
     "insight_title": "SpaceX-Cursor Deal, SaaS Debt Bomb, New Apple CEO, SPLC Indictment, Colon Cancer Spike",
     "source_name": "All-In with Chamath, Jason, Sacks & Friedberg",
     "source_date": "2026-04-24",
@@ -23732,6 +23917,7 @@ const dashboardData = {
       "If there is a significant and sustained recovery in the valuation of BDCs holding syndicated loans, it could indicate a change in market perception regarding the risk profile of these assets.",
       "A continued increase in the default rates of syndicated loans without a corresponding rise in private credit defaults would undermine the argument for the relative safety of syndicated loans."
     ],
+    "schema_version": 1,
     "insight_title": "\u201cOverblown\u201d Sell-off in Software Loans | Matthew Bloomfield on Public BDCs (Business Development Companies) and Collateralized Loan Obligations (CLOs)",
     "source_name": "Monetary Matters with Jack Farley",
     "source_date": "2026-04-26",
@@ -23790,6 +23976,7 @@ const dashboardData = {
       "Should subsequent trials in other tissues and organs not demonstrate age reversal or improvement in function, the thesis of epigenetic reprogramming as a longevity solution would be weakened.",
       "Failure to replicate the findings in independent labs or the emergence of significant safety concerns could halt the progress of this field."
     ],
+    "schema_version": 1,
     "insight_title": "David Sinclair on the Longevity Pill, Age Reversal Timelines, and Updated Protocols | EP #250",
     "source_name": "Moonshots with Peter Diamandis",
     "source_date": "2026-04-27",
@@ -23862,6 +24049,7 @@ const dashboardData = {
       "A lack of successful exits or IPOs from startups in the AI space would indicate overregulation is stifling innovation.",
       "Failure of leadership to manage and scale teams effectively within tech companies could undermine the importance of leadership in the success of startups."
     ],
+    "schema_version": 1,
     "insight_title": "Ben Horowitz on Venture Capital and AI",
     "source_name": "The a16z Show",
     "source_date": "2026-04-27",
@@ -23939,6 +24127,7 @@ const dashboardData = {
       "If there is a significant drop in the usage or integration of AI in business operations, it would counter the argument for the increasing importance of AI in driving commerce.",
       "A failure in the development or adoption of high-throughput blockchains would undermine the necessity for such technology to support agentic commerce and high transaction volumes."
     ],
+    "schema_version": 1,
     "insight_title": "John and Patrick Collison on Stripe's Growth, Agent Commerce, and the Future of Software",
     "source_name": "The a16z Show",
     "source_date": "2026-04-28",
@@ -24018,6 +24207,7 @@ const dashboardData = {
       "A significant downturn in investment or funding for longevity research and development could slow the pace of scientific advancements in this area.",
       "The emergence of new genetic research that contradicts the current understanding of the genetic determination of lifespan could alter the investment landscape for longevity-focused biotech companies."
     ],
+    "schema_version": 1,
     "insight_title": "David Sinclair: The GLP-1 Side Effect No One Talks About, What AI Found in His Lab, and Reversing Blindness | Q&A EP #251",
     "source_name": "Moonshots with Peter Diamandis",
     "source_date": "2026-04-28",
@@ -24075,6 +24265,7 @@ const dashboardData = {
       "A significant increase in US investment in biomedical research and development that leads to a surge in the number of clinical trials could indicate a resurgence in US leadership.",
       "Should China's clinical trial system face major setbacks, such as scandals or regulatory issues, affecting the quality and speed of their drug development, it would weaken the case for China's current advantage."
     ],
+    "schema_version": 1,
     "insight_title": "The Shift in Global Drug Development",
     "source_name": "The a16z Show",
     "source_date": "2026-04-29",
@@ -24137,6 +24328,7 @@ const dashboardData = {
       "An increase in California's business climate ranking by Chief Executive magazine, suggesting that the state's tax and regulatory environment is becoming more business-friendly, contrary to Helden's claims.",
       "A significant drop in the number of Californians who cannot afford to meet basic needs, indicating that current policies are effectively addressing economic challenges."
     ],
+    "schema_version": 1,
     "insight_title": "CA Governor Candidate Steve Hilton on Why California is Destroying Itself & How a Republican Can Win",
     "source_name": "All-In with Chamath, Jason, Sacks & Friedberg",
     "source_date": "2026-04-29",
@@ -24199,6 +24391,7 @@ const dashboardData = {
       "A shift in AI model architecture that negates the importance of batch size, such as the widespread adoption of sparse attention mechanisms, would alter the current investment thesis.",
       "If hardware advancements lead to a significant increase in memory bandwidth, making memory-bound operations less of a constraint, the current model of optimizing for batch size could become less relevant."
     ],
+    "schema_version": 1,
     "insight_title": "Reiner Pope \u2013 The math behind how LLMs are trained and served",
     "source_name": "Dwarkesh Podcast",
     "source_date": "2026-04-29",
@@ -24250,6 +24443,7 @@ const dashboardData = {
       "If the hedge funds that Old Farm Partners co-invests with consistently underperform their benchmarks over a year, the co-investment strategy's effectiveness would be questioned.",
       "A lack of new AI-related investment opportunities that meet Kavanaugh's criteria could indicate market saturation or a shift in tech trends."
     ],
+    "schema_version": 1,
     "insight_title": "From Soros to Old Farm: How to Identify the Market\u2019s Top Thematic Risk-Takers | Kieran Cavanna | Old Farm Partners",
     "source_name": "Monetary Matters with Jack Farley",
     "source_date": "2026-04-29",
@@ -24315,6 +24509,7 @@ const dashboardData = {
       "The emergence of a new enterprise software platform with clear, measurable efficiency gains over Workday that is rapidly adopted by large enterprises would indicate that disruption is happening but not necessarily from AI-driven platforms.",
       "A sustained period of declining enterprise spending on AI solutions for enterprise software could signal a reduced appetite for change and a weakening of the disruption thesis."
     ],
+    "schema_version": 1,
     "insight_title": "Workday\u2019s Last Workday? AI and the Future of Enterprise Software",
     "source_name": "The a16z Show",
     "source_date": "2026-04-30",
@@ -24396,6 +24591,7 @@ const dashboardData = {
       "A failure of Google Cloud to maintain its lead in AI hardware with TPUs, or a significant breakthrough by a competitor, would disrupt the current landscape of AI dominance.",
       "OpenAI's TPU 5.5 failing to make a significant impact on the AI landscape would suggest that the competitive edge is shifting away from OpenAI."
     ],
+    "schema_version": 1,
     "insight_title": "Google Invests $40B Into Anthropic, GPT 5.5 Drops, and Google Cloud Dominates | EP #252",
     "source_name": "Moonshots with Peter Diamandis",
     "source_date": "2026-04-30",
@@ -24457,6 +24653,7 @@ const dashboardData = {
       "If early investors are locked in for a longer period than rumored, altering the supply dynamics post-IPO.",
       "A substantial delay in the IPO process or a shift in market sentiment towards tech IPOs that could affect demand."
     ],
+    "schema_version": 1,
     "insight_title": "SpaceX IPO: Why This Hedge Fund Manager is Fading the Hype | Moez Kassam",
     "source_name": "Monetary Matters with Jack Farley",
     "source_date": "2026-04-30",
@@ -24535,6 +24732,7 @@ const dashboardData = {
       "If cryptographic verification technologies fail to gain traction or are overshadowed by centralized solutions, the need for decentralized truth verification would be diminished.",
       "A lack of legislative or regulatory moves towards curbing corporate surveillance would indicate a reduced societal pushback against nonconsensual surveillance, affecting the demand for decentralized truth mechanisms."
     ],
+    "schema_version": 1,
     "insight_title": "Balaji and Taylor Lorenz on AI and Media",
     "source_name": "The a16z Show",
     "source_date": "2026-05-01",
@@ -24604,6 +24802,7 @@ const dashboardData = {
       "Tech giants like Amazon, Microsoft, Google, and Meta announce significant reductions in their capital expenditure plans for AI and cloud computing.",
       "Elon Musk and OpenAI resolve their legal battle amicably, and Musk announces a substantial investment in OpenAI, signaling a positive shift in the narrative."
     ],
+    "schema_version": 1,
     "insight_title": "OpenAI Misses Targets, Codex vs Claude, Elon vs Sam Trial, Big Hyperscaler Beats, Peptide Craze",
     "source_name": "All-In with Chamath, Jason, Sacks & Friedberg",
     "source_date": "2026-05-01",
@@ -24671,6 +24870,7 @@ const dashboardData = {
       "A significant change in accounting standards that begins to accurately capture intangible assets, thereby making traditional valuation metrics more relevant.",
       "A prolonged market downturn affecting old economy stocks, suggesting that even traditional sectors are now subject to the same intangible asset-driven unpredictability as new economy stocks."
     ],
+    "schema_version": 1,
     "insight_title": "Why Fundamentals Fail the New Economy | Jacob Pozharny on \u201cSentiment\u201d Analysis\u2019 Role in New Economy Stocks",
     "source_name": "Monetary Matters with Jack Farley",
     "source_date": "2026-05-01",
@@ -24747,6 +24947,7 @@ const dashboardData = {
       "If oil prices continue to rise sharply without a corresponding increase in tech sector growth, it could indicate that equities are not successfully looking past the current challenges.",
       "A failure in the deployment or adoption of AI technologies in key industries would undermine the thesis that AI advancements are a primary market driver."
     ],
+    "schema_version": 1,
     "insight_title": "Warren Pies: The Scramble for Compute Cures All Ills | Two Wolves of \u201cHockeysticking Earnings\u201d and Hormuz Oil Shock (Plus Caliban)",
     "source_name": "Monetary Matters with Jack Farley",
     "source_date": "2026-05-04",
@@ -24825,6 +25026,7 @@ const dashboardData = {
       "A significant decrease in global commerce conducted over the internet would undermine the strategic importance of maintaining digital freedom.",
       "The emergence of a non-Western AI stack that gains global acceptance and prioritizes user consent could reduce the strategic advantage of a Western AI stack."
     ],
+    "schema_version": 1,
     "insight_title": "Sarah Rogers: Free Speech, AI Diplomacy, and What America Owes Its Allies",
     "source_name": "The a16z Show",
     "source_date": "2026-05-04",
@@ -24897,6 +25099,7 @@ const dashboardData = {
       "The Inspector General of the Federal Reserve releasing a report that finds no significant wrongdoing in the building contract overruns, which would undermine Bianco's argument about Powell's motivations.",
       "A significant decrease in oil prices, which would alleviate inflationary pressures and potentially reduce the number of dissenting votes within the Fed, contradicting the expectation of higher interest rates."
     ],
+    "schema_version": 1,
     "insight_title": "Jim Bianco on Division at the Fed and Jerome Powell\u2019s Controversial Decision to Stay",
     "source_name": "Monetary Matters with Jack Farley",
     "source_date": "2026-05-01",
@@ -24967,6 +25170,7 @@ const dashboardData = {
       "A consistent failure to raise new funds at expected valuations, indicating a loss of investor confidence in the firm's ability to compound capital.",
       "Public reports of a deteriorating corporate culture within Blackstone that leads to high-profile departures and reduced ability to attract top talent."
     ],
+    "schema_version": 1,
     "insight_title": "Building Blackstone, Backing Costco, with Tony James",
     "source_name": "The a16z Show",
     "source_date": "2026-05-05",
@@ -25020,6 +25224,7 @@ const dashboardData = {
       "A significant decrease in Bitcoin's price volatility, indicating that the market has started to accurately price in future volatility.",
       "Global debt levels stabilize or decrease, suggesting that the current economic disruptions are not as severe as believed."
     ],
+    "schema_version": 1,
     "insight_title": "Hold Onto Your Butts (And Your Bitcoin)",
     "source_name": "The Jack Mallers Show",
     "source_date": "2026-05-05",
@@ -25087,6 +25292,7 @@ const dashboardData = {
       "A significant reduction in government funding or policy changes that deprioritize lunar operations would undermine the investment thesis.",
       "The emergence of a major international partner that significantly outpaces NASA in lunar operations could alter the competitive landscape."
     ],
+    "schema_version": 1,
     "insight_title": "The New Space Race: NASA, Artemis, and the Race to the Moon",
     "source_name": "The a16z Show",
     "source_date": "2026-05-06",
@@ -25156,6 +25362,7 @@ const dashboardData = {
       "A substantial drop in utilization rates in regions like Texas, which would counter the current narrative of high operational efficiency contributing to market tightness.",
       "Unexpected technological advancements that significantly increase the efficiency of existing refineries, potentially reducing the need for new capacity additions."
     ],
+    "schema_version": 1,
     "insight_title": "Finding the Market\u2019s Most Overlooked Macro Themes and Profiting from Global Volatility | Harris Kupperman",
     "source_name": "Monetary Matters with Jack Farley",
     "source_date": "2026-05-06",
@@ -25215,6 +25422,7 @@ const dashboardData = {
       "Should the regulatory environment become less favorable or uncertain, particularly with the failure of the 'Senate and Public Clarity Act' or similar legislation, it could hinder the integration of crypto into financial infrastructure.",
       "A significant security breach or loss of trust in stablecoins, similar to past incidents like the FTX crash, would undermine the argument for their role in payments and financial markets."
     ],
+    "schema_version": 1,
     "insight_title": "Crypto Fund 5: We Raised $2.2B. Here\u2019s Why.",
     "source_name": "The a16z Show",
     "source_date": "2026-05-07",
@@ -25274,6 +25482,7 @@ const dashboardData = {
       "A decline in gold prices amidst ongoing geopolitical tensions would suggest that safe haven assets are not as sought after as anticipated.",
       "Failure of Alloatomics or similar companies to capitalize on their DSA approval could indicate a weaker uranium market than predicted."
     ],
+    "schema_version": 1,
     "insight_title": "MacroVoices #531 Louis-Vincent Gave: Semiconductors, AI & Iran Conflict",
     "source_name": "Macro Voices",
     "source_date": "2026-05-07",
@@ -25338,6 +25547,7 @@ const dashboardData = {
       "If GLP-1 drug sales do not meet the projected revenue milestones, it could indicate that the market for longevity and healthspan enhancement is not as lucrative as anticipated.",
       "A significant delay or failure in achieving AGI capabilities through incremental improvements would challenge the current narrative and might shift focus back towards the need for a major breakthrough."
     ],
+    "schema_version": 1,
     "insight_title": "Demis Hassabis on AGI, Robots Scale Production, and Elon\u2019s $1T Mars-Shot Comp | EP #253",
     "source_name": "Moonshots with Peter Diamandis",
     "source_date": "2026-05-07",
@@ -25387,6 +25597,7 @@ const dashboardData = {
       "Should future research indicate that the Bronze Age did not have a significant impact on genetic selection, it would challenge the study's conclusions about the period's role in human evolution.",
       "If large-scale genetic databases show no correlation between the identified genetic positions and traits like immunity and metabolism, it would undermine the study's methodology and conclusions."
     ],
+    "schema_version": 1,
     "insight_title": "David Reich \u2013 Why the Bronze Age was an inflection point in human evolution",
     "source_name": "Dwarkesh Podcast",
     "source_date": "2026-05-08",
@@ -25457,6 +25668,7 @@ const dashboardData = {
       "If public sentiment in the U.S. towards AI does not improve over the next 12 months, despite efforts to promote positive narratives, the optimism gap may widen, challenging the U.S.'s ability to lead in AI innovation.",
       "Should A16Z fail to effectively deploy the newly raised funds into companies that drive technological advancement, it could signal a misalignment with national interests and a potential loss of leadership in frontier technologies."
     ],
+    "schema_version": 1,
     "insight_title": "Ben Horowitz on the Next Technology Era",
     "source_name": "The a16z Show",
     "source_date": "2026-05-08",
@@ -25529,6 +25741,7 @@ const dashboardData = {
       "If the unemployment rate for young college graduates increases significantly, it could indicate that AI is having a negative impact on the labor market, contrary to the current resilience narrative.",
       "A failure of major tech companies to report substantial revenue increases in consecutive quarters could signal a slowdown in the growth of cloud computing and AI sectors."
     ],
+    "schema_version": 1,
     "insight_title": "Elon's Anthropic Deal, The Next AI Monopoly?, \"FDA for AI\" Panic, Trading the AI Boom",
     "source_name": "All-In with Chamath, Jason, Sacks & Friedberg",
     "source_date": "2026-05-08",
@@ -25593,6 +25806,7 @@ const dashboardData = {
       "Failures in the deployment or commercial viability of innovative AI data center solutions could undermine the sustainability and efficiency claims of these technologies.",
       "A lack of policy changes or enforcement regarding AI regulation could indicate that current geopolitical tensions and ethical considerations are not as pressing as suggested."
     ],
+    "schema_version": 1,
     "insight_title": "Google's Record Quarter, the White House Intervenes, and GPT 5.5 Silently Matches Mythos | EP 254",
     "source_name": "Moonshots with Peter Diamandis",
     "source_date": "2026-05-09",
@@ -25648,6 +25862,7 @@ const dashboardData = {
       "Should the cost of cloud computing for model training increase dramatically, it could erode Pictay's operational efficiency advantage.",
       "If the relationship between analyst forecasts and calendar timing, as identified by Pictay, is disproven by empirical studies, it would undermine a key component of their strategy."
     ],
+    "schema_version": 1,
     "insight_title": "Why Generative AI Still Can\u2019t Trade | David Wright on How Quant Alpha Actually Is Done With Machine Learning, Decision Trees, and Gradient Boosting",
     "source_name": "Monetary Matters with Jack Farley",
     "source_date": "2026-05-10",
@@ -25706,6 +25921,7 @@ const dashboardData = {
       "An increase in business permits issued and a decrease in reported bureaucratic hurdles by small business owners.",
       "A public report showing a substantial reduction in crime rates, contradicting Pratt's assertion that enforcing existing laws is crucial for restoring safety."
     ],
+    "schema_version": 1,
     "insight_title": "Spencer Pratt on Fixing LA: Wildfires, Homelessness, Corruption & the Fight to Take It Back",
     "source_name": "All-In with Chamath, Jason, Sacks & Friedberg",
     "source_date": "2026-05-10",
@@ -25777,6 +25993,7 @@ const dashboardData = {
       "A significant increase in labor lawsuits or worker's rights movements against 'AI Vampire' conditions, indicating a negative societal reaction to AI's impact on well-being.",
       "A lack of new job categories or significant changes in job market dynamics, suggesting that AI is not transforming the workforce as predicted."
     ],
+    "schema_version": 1,
     "insight_title": "Marc Andreessen on Builder Culture in the Age of AI",
     "source_name": "The a16z Show",
     "source_date": "2026-05-11",
@@ -25847,6 +26064,7 @@ const dashboardData = {
       "A drop in the 30-year bond yield below 5% could signal a reduction in perceived financial instability.",
       "If AI-driven productivity growth slows down, with S&P 500 Q1 earnings per share growth falling below 20% year over year, it would challenge the narrative of a productivity boom."
     ],
+    "schema_version": 1,
     "insight_title": "Bitcoin & The Tale of Two Wolves",
     "source_name": "The Jack Mallers Show",
     "source_date": "2026-05-12",
@@ -25902,6 +26120,7 @@ const dashboardData = {
       "If Goldman Sachs were to experience a significant financial loss due to an unanticipated risk event, it would challenge the effectiveness of their contingency planning approach.",
       "A consistent pattern of employee turnover or lack of long-term commitment could indicate a failure in fostering a partnership culture, undermining the firm's stability."
     ],
+    "schema_version": 1,
     "insight_title": "Lloyd Blankfein on Risk, Crisis, and Leadership",
     "source_name": "The a16z Show",
     "source_date": "2026-05-12",
@@ -25950,6 +26169,7 @@ const dashboardData = {
       "A significant increase in the number of non-bank originated real estate credit deals in Europe would challenge the current narrative of a less mature market.",
       "Should preferred equity structures fail to deliver on their promise of uncapped upside in a substantial number of cases, their strategic value could be questioned."
     ],
+    "schema_version": 1,
     "insight_title": "Lending Where the Banks Won\u2019t Go: What\u2019s Fueling Europe\u2019s Growing Real Estate Private Credit Market?",
     "source_name": "Monetary Matters with Jack Farley",
     "source_date": "2026-05-12",
@@ -26001,6 +26221,7 @@ const dashboardData = {
       "Consistent failure to learn from setbacks, as evidenced by repeated errors in strategic decisions, would undermine the company's resilience.",
       "A significant decline in employee satisfaction or innovation could suggest that bottom-up empowerment is not effectively driving organizational success."
     ],
+    "schema_version": 1,
     "insight_title": "Charles & Chase Koch on How They Quietly Built a $150B Empire",
     "source_name": "All-In with Chamath, Jason, Sacks & Friedberg",
     "source_date": "2026-05-12",
@@ -26052,6 +26273,7 @@ const dashboardData = {
       "If Mariana Minerals fails to deliver on its promise of integrating software and autonomy in mining and refining, resulting in no substantial operational cost reductions or efficiency improvements, the belief in the potential of such technologies would be challenged.",
       "A failure by Heron Power to successfully deploy solid-state transformers on a large scale, or if these transformers do not meet the expected performance standards, would undermine the case for modernizing the electricity grid with this technology."
     ],
+    "schema_version": 1,
     "insight_title": "Energy, Minerals, and the Physical Stack Behind AI",
     "source_name": "The a16z Show",
     "source_date": "2026-05-13",
@@ -26109,6 +26331,7 @@ const dashboardData = {
       "If semiconductor sales data from major manufacturers show a consistent decline over the next year, it would challenge the narrative of a sustained surge in demand.",
       "Should global AI investment plateau or decrease significantly in the coming quarters, it would undermine Alden's assertion about the transformative impact of AI on the economy."
     ],
+    "schema_version": 1,
     "insight_title": "Lyn Alden on Macro Consequences of AI and The Stolgard Incident  (Monitoring The Situation Replay)",
     "source_name": "Monetary Matters with Jack Farley",
     "source_date": "2026-05-13",
@@ -26186,6 +26409,7 @@ const dashboardData = {
       "A decline in the demand for creativity and relationship-building skills in job market trends.",
       "A market study showing that companies with a documented evolving story underperform those without such documentation."
     ],
+    "schema_version": 1,
     "insight_title": "Ben Horowitz - \"Your ONLY job is Right Product, Right Time\"",
     "source_name": "The a16z Show",
     "source_date": "2026-05-14",
@@ -26237,6 +26461,7 @@ const dashboardData = {
       "Should China and the U.S. reach a resolution on the Hormuz crisis that stabilizes oil prices, potentially reducing the risk of economic dislocation.",
       "A reversal in the trend of labor market deterioration, indicating a healthier economy and potentially altering Fed policy expectations."
     ],
+    "schema_version": 1,
     "insight_title": "MacroVoices #532 Mike Green: Record Mechanical Flows",
     "source_name": "Macro Voices",
     "source_date": "2026-05-14",
@@ -26289,6 +26514,7 @@ const dashboardData = {
       "Should agricultural commodity prices decline significantly due to eased supply chain issues or reduced geopolitical tensions, Perry's bullish stance on these commodities would be undermined.",
       "If the MOVE index shows a consistent decrease in bond market volatility over several months, it might suggest a more stable liquidity environment, contradicting Perry's current caution."
     ],
+    "schema_version": 1,
     "insight_title": "\u201cYou Don\u2019t Sell Blow-offs\u201d | Andrew Perry on Bullish Technicals of U.S. Stock Market, \u201cDangerous\u201d Period for Global Equities, and Bull Case for Agricultural Commodities",
     "source_name": "Monetary Matters with Jack Farley",
     "source_date": "2026-05-15",
@@ -26352,6 +26578,7 @@ const dashboardData = {
       "A significant increase in the cost of compute resources could undermine the economic viability of the reduced compute requirement narrative.",
       "Observations of AI models trained with MCTS struggling to generalize to non-game applications would weaken the argument for the broad applicability of these technologies."
     ],
+    "schema_version": 1,
     "insight_title": "Eric Jang \u2013 Building AlphaGo from scratch",
     "source_name": "Dwarkesh Podcast",
     "source_date": "2026-05-15",
@@ -26401,6 +26628,7 @@ const dashboardData = {
       "A significant decrease in reported cybercrimes or privacy breaches might indicate that current technologies are effectively addressing safety concerns without compromising privacy.",
       "Should the adoption of AI and digital communication technologies plateau or decline, it could suggest that the market is not prioritizing individual agency and privacy as hypothesized."
     ],
+    "schema_version": 1,
     "insight_title": "Vitalik Buterin on Human Agency in the AI Era",
     "source_name": "The a16z Show",
     "source_date": "2026-05-15",
@@ -26474,6 +26702,7 @@ const dashboardData = {
       "Policymakers implementing aggressive measures to combat inflation, which could stabilize market expectations and reduce the risk of a bubble.",
       "A sudden increase in the number of companies achieving their earnings projections, indicating a broader and more sustainable market growth."
     ],
+    "schema_version": 1,
     "insight_title": "Why Andy Constan Says The AI Bubble is in Earnings, Not Price",
     "source_name": "Monetary Matters with Jack Farley",
     "source_date": "2026-05-16",
@@ -26526,6 +26755,7 @@ const dashboardData = {
       "Any security breaches or regulatory hurdles for ocean-based data centers could challenge their viability as a future infrastructure option.",
       "A lack of progress in U.S.-China AI collaboration could slow down the pace of technological advancement in the field."
     ],
+    "schema_version": 1,
     "insight_title": "Anthropic Partners With SpaceX AI, Leopold's $5.5B Bet, and the Singularity Economy | EP #255",
     "source_name": "Moonshots with Peter Diamandis",
     "source_date": "2026-05-16",
@@ -26587,6 +26817,7 @@ const dashboardData = {
       "A significant economic downturn leads to a reevaluation of Basel III requirements, altering the projected capital requirement changes.",
       "Cybersecurity incidents lead to a substantial increase in operational risk weights, affecting the projected decrease in risk weights for traditional lending."
     ],
+    "schema_version": 1,
     "insight_title": "A Basel III Deep Dive | What to Know About How It Will Transform Banking Globally",
     "source_name": "Monetary Matters with Jack Farley",
     "source_date": "2026-05-17",
@@ -26635,6 +26866,7 @@ const dashboardData = {
       "A rise in officer burnout rates or mental health incidents despite the implementation of mental health analytics would suggest that current technologies are not adequately addressing officer well-being.",
       "Failure to see a decrease in response times or improvement in situational awareness with the integration of advanced technologies would undermine the value proposition of these tools in law enforcement."
     ],
+    "schema_version": 1,
     "insight_title": "The Plan to Make American Crime Obsolete",
     "source_name": "The a16z Show",
     "source_date": "2026-05-18",
@@ -26702,6 +26934,7 @@ const dashboardData = {
       "A significant decline in Bitcoin's market adoption or a technological setback could undermine its position as a strategic asset.",
       "If the U.S. Treasury yields fall below 4%, it could indicate a stabilization in the bond market, reducing the perceived risk of a sovereign debt crisis."
     ],
+    "schema_version": 1,
     "insight_title": "Bitcoin Doesn't Negotiate",
     "source_name": "The Jack Mallers Show",
     "source_date": "2026-05-19",
@@ -26763,6 +26996,7 @@ const dashboardData = {
       "A lack of private capital investments in defense contractors' modernization efforts would indicate a slower adoption of modern manufacturing techniques, contradicting the podcast's emphasis on the need for modernization.",
       "Should there be a notable decline in the number of companies integrating commercial markets with defense contracts, it would undermine the argument for the importance of dual-market engagement for sustaining production capabilities."
     ],
+    "schema_version": 1,
     "insight_title": "Rebuilding The American Shipyard",
     "source_name": "The a16z Show",
     "source_date": "2026-05-19",
@@ -26834,6 +27068,7 @@ const dashboardData = {
       "Should AI integration in healthcare not lead to tangible improvements in patient outcomes or efficiency within a decade, the transformative potential of AI in this field would be questioned.",
       "If job creation and transformation do not materialize as predicted, with unemployment rates rising instead, the narrative of AI creating new opportunities would be challenged."
     ],
+    "schema_version": 1,
     "insight_title": "Marc Andreessen on AI, California, and the Future of America | Joe Rogan",
     "source_name": "The a16z Show",
     "source_date": "2026-05-20",
@@ -26887,6 +27122,7 @@ const dashboardData = {
       "If Superhuman's premium pricing leads to a significant loss in user base without a corresponding increase in perceived value, it would question the sustainability of their pricing strategy.",
       "Should the application of game design principles fail to result in higher user engagement or retention, it would cast doubt on the strategy's impact on user experience."
     ],
+    "schema_version": 1,
     "insight_title": "How Superhuman Took Over Silicon Valley Email",
     "source_name": "The a16z Show",
     "source_date": "2026-05-21",
@@ -26960,6 +27196,7 @@ const dashboardData = {
       "An economic downturn that leads to a substantial and prolonged decrease in oil demand, independent of price increases.",
       "The rapid construction and deployment of alternative pipelines that bypass the Strait of Hormuz, reducing its strategic importance."
     ],
+    "schema_version": 1,
     "insight_title": "MacroVoices #533 Morgan Downey: The Return of Oil 101",
     "source_name": "Macro Voices",
     "source_date": "2026-05-21",
@@ -27016,6 +27253,7 @@ const dashboardData = {
       "Failure of Synth ID to gain widespread adoption and partnership could undermine the thesis on the importance of content verification in AI applications.",
       "A significant drop in Cerberus' market cap post-IPO would signal a potential market overestimation of AI hardware demand."
     ],
+    "schema_version": 1,
     "insight_title": "Google I/O 2026, Karpathy Joins Anthropic, and Cerebras\u2019 $95B IPO | EP #256",
     "source_name": "Moonshots with Peter Diamandis",
     "source_date": "2026-05-21",
@@ -27069,6 +27307,7 @@ const dashboardData = {
       "Failure of Hugging Face to maintain its in AI model sharing, indicated by a drop in user engagement or market share, would undermine its competitive advantage.",
       "A significant downturn in global investment in robotics, reflected in reduced funding rounds or lower valuations of robotics companies, would cast doubt on the sector's potential as the 'next frontier' for AI."
     ],
+    "schema_version": 1,
     "insight_title": "Hugging Face's Clem Delangue on Open Source AI and the LLM Bubble | MTS Live",
     "source_name": "The a16z Show",
     "source_date": "2026-05-22",
@@ -27124,6 +27363,7 @@ const dashboardData = {
       "A shift towards AI applications that require higher precision across all operations, not just in accumulation, could diminish the strategic advantage of focusing on precision in accumulation steps alone.",
       "The emergence of new cloud service providers offering significantly lower operational costs could challenge the current cost leadership of 'gold tier' providers like kruzo."
     ],
+    "schema_version": 1,
     "insight_title": "Reiner Pope \u2013 Chip design from the bottom up",
     "source_name": "Dwarkesh Podcast",
     "source_date": "2026-05-22",
@@ -27186,6 +27426,7 @@ const dashboardData = {
       "Should SpaceX's IPO not meet the $75 billion fundraising target or the $1.75 trillion valuation, it would challenge the narrative of high market potential for space-based services.",
       "If Nvidia's revenue growth does not continue at a similar pace in subsequent quarters, it could indicate that the high valuations in the semiconductor sector are unsustainable."
     ],
+    "schema_version": 1,
     "insight_title": "SpaceX's $2T Case, Nvidia's Shock Selloff, America Turns on AI, Trump Pulls AI Order, Bond Crisis?",
     "source_name": "All-In with Chamath, Jason, Sacks & Friedberg",
     "source_date": "2026-05-22",
@@ -27253,6 +27494,7 @@ const dashboardData = {
       "If Colossal's technology does not lead to further successful species revivals or if ethical concerns halt such efforts, the potential impact on biodiversity and synthetic biology would be diminished.",
       "A shift in public opinion towards supporting data center construction, possibly due to better energy management or green initiatives, could alleviate current opposition and change the dynamics of tech company growth strategies."
     ],
+    "schema_version": 1,
     "insight_title": "SpaceX\u2019 $75B+ Historic IPO, GPT 5.5 Outperforms Polymarket, and AI Solves 80 yr old math problem | EP #257",
     "source_name": "Moonshots with Peter Diamandis",
     "source_date": "2026-05-23",
@@ -27303,6 +27545,7 @@ const dashboardData = {
       "Should the default rates in private credit funds rise sharply, particularly in non-sponsored lending, it would undermine the argument for its stability and lower risk profile.",
       "A sustained contraction in the secondary market for private credit, indicated by a decrease in transaction volume or value, would weaken the case for evolving liquidity options."
     ],
+    "schema_version": 1,
     "insight_title": "What Doomer Narratives Miss About Private Credit | John Cocke of Corbin Capital",
     "source_name": "Monetary Matters with Jack Farley",
     "source_date": "2026-05-24",
@@ -27357,6 +27600,7 @@ const dashboardData = {
       "If token costs decrease significantly, indicating a potential overestimation of the cost-conscious approach to AI spending, it could alter investment strategies.",
       "A sudden decline in the number of new entrants challenging incumbents in the AI and SaaS markets would weaken the argument for a dynamic competitive landscape."
     ],
+    "schema_version": 1,
     "insight_title": "Why AI Isn\u2019t Killing SaaS Yet",
     "source_name": "The a16z Show",
     "source_date": "2026-05-25",
@@ -27411,6 +27655,7 @@ const dashboardData = {
       "Should CPI prints remain stable or decrease over the next few months, the current assessment of inflation pressures being primarily isolated could be proven incorrect.",
       "If the Fed maintains a hawkish stance and does not adopt a neutral bias, the expected flexibility in interest rate decisions would not materialize, affecting market expectations."
     ],
+    "schema_version": 1,
     "insight_title": "Things Are Going to Get Even Crazier: The Macro Regime Shift | Andreas Steno Larsen",
     "source_name": "Monetary Matters with Jack Farley",
     "source_date": "2026-05-25",
@@ -27471,6 +27716,7 @@ const dashboardData = {
       "Should the U.S. successfully manage its debt levels without resorting to money printing, the prediction of a potential economic crisis due to unsustainable debt would be weakened.",
       "A sustained increase in the number of venture capital deals in the Bitcoin space could indicate a broader distribution of investment, reducing the risk of market volatility due to capital concentration."
     ],
+    "schema_version": 1,
     "insight_title": "Bitcoin Memorial Day Briefing",
     "source_name": "The Jack Mallers Show",
     "source_date": "2026-05-26",
@@ -27544,6 +27790,7 @@ const dashboardData = {
       "The emergence of new legal frameworks that effectively manage the 'fiduciary wedge' without the need for drastic organizational restructuring.",
       "A prolonged period where traditional hierarchical structures continue to outperform AI-native models in terms of operational efficiency and innovation."
     ],
+    "schema_version": 1,
     "insight_title": "The Organizational Singularity: AI-Proof Your Company | EP #258",
     "source_name": "Moonshots with Peter Diamandis",
     "source_date": "2026-05-26",
@@ -27599,6 +27846,7 @@ const dashboardData = {
       "A downturn in global commodity prices affecting Brazil could undermine the thesis of a robust real estate market recovery there.",
       "If logistics and industrial property demand fails to materialize as predicted, the growth potential in these sectors would be called into question."
     ],
+    "schema_version": 1,
     "insight_title": "How This Real Estate Investor is Betting on an AI Boom (It\u2019s Not Data Centers) | Tom Shapiro",
     "source_name": "Monetary Matters with Jack Farley",
     "source_date": "2026-05-26",
@@ -27647,6 +27895,7 @@ const dashboardData = {
       "A lack of significant corporate adoption of prediction markets for decision-making could indicate that the benefits are not as substantial as claimed.",
       "Should there be a notable increase in fraudulent activities within prediction markets, it could lead to increased regulation and reduced credibility."
     ],
+    "schema_version": 1,
     "insight_title": "Robin Hanson on Prediction Markets, Gambling, and the Future of Forecasting",
     "source_name": "The a16z Show",
     "source_date": "2026-05-26",
@@ -27695,6 +27944,7 @@ const dashboardData = {
       "If private markets fail to attract a broader range of investors despite democratization efforts, it would suggest that the strategy to increase accessibility is not effective.",
       "A sustained decline in the value of private companies like Thropic, OpenAI, and SpaceX could indicate that the shift to private markets is not yielding the expected returns."
     ],
+    "schema_version": 1,
     "insight_title": "Marc Rowan on Private Markets, Software Repricing, and Capital Allocation",
     "source_name": "The a16z Show",
     "source_date": "2026-05-27",
@@ -27747,6 +27997,7 @@ const dashboardData = {
       "Failure to integrate AI effectively into underwriting and customer service could lead to increased operational costs and reduced efficiency, negating the competitive advantage Jeeps has gained.",
       "If Jeeps' transaction volume does not reach the projected $6 billion, it would cast doubt on the sustainability of their growth and the effectiveness of their strategic pivot."
     ],
+    "schema_version": 1,
     "insight_title": "Stablecoins, AI Agents, and The Future of Global Banking",
     "source_name": "The a16z Show",
     "source_date": "2026-05-28",
@@ -27819,6 +28070,7 @@ const dashboardData = {
       "A sustained drop in global oil demand due to economic downturns could counteract the supply constraints posed by the Strait's closure.",
       "A significant increase in alternative energy sources or a breakthrough in nuclear energy could reduce the geopolitical premium on oil prices."
     ],
+    "schema_version": 1,
     "insight_title": "MacroVoices #534 Dr. Pippa Malmgren: Superpower War or Superpower Hug?",
     "source_name": "Macro Voices",
     "source_date": "2026-05-28",
@@ -27895,6 +28147,7 @@ const dashboardData = {
       "Public market rejection of AI company IPOs, signaling a lack of confidence in the sector's growth potential.",
       "A substantial decrease in the top 1% of startup exit values, indicating a downturn in the venture capital environment."
     ],
+    "schema_version": 1,
     "insight_title": "Why $1B Exits are Dead",
     "source_name": "The a16z Show",
     "source_date": "2026-05-29",
@@ -27954,6 +28207,7 @@ const dashboardData = {
       "A rise in legal actions against companies for AI washing would indicate that this is a widespread issue, affecting the credibility of corporate communications on AI.",
       "Should monopolization in the AI space increase, with fewer companies controlling AI technologies, it would undermine the argument for open-source AI fostering competition and innovation."
     ],
+    "schema_version": 1,
     "insight_title": "Pope vs AI, Anthropic's Digital God, AI Job Loss Narrative Flips, Open Source Crackdown Coming?",
     "source_name": "All-In with Chamath, Jason, Sacks & Friedberg",
     "source_date": "2026-05-29",
@@ -28019,6 +28273,7 @@ const dashboardData = {
       "Should job displacement due to AI accelerate despite Altman's revised views, it could undermine confidence in AI's societal benefits.",
       "Failure of AI coding tools to meet the benchmarks set by GPT-5.5 in real-world applications would challenge the narrative of rapid AI advancement."
     ],
+    "schema_version": 1,
     "insight_title": "Pope Leo vs. AI, GPT 5.5 Beats Claude, and Sam Altman Walks Back Job Apocalypse | EP #259",
     "source_name": "Moonshots with Peter Diamandis",
     "source_date": "2026-05-30",
@@ -28072,6 +28327,7 @@ const dashboardData = {
       "A correction in the S&P to below 25 times trailing 10-year earnings would suggest less overvaluation and potentially alter the market outlook.",
       "Resolution of major geopolitical tensions and supply chain normalization could reduce the anticipated rise in agricultural commodity prices."
     ],
+    "schema_version": 1,
     "insight_title": "Overvaluation Meets Macro Risk: Why This Massive Asset Manager is Getting Bearish | Jim Masturzo | Research Affiliates",
     "source_name": "Monetary Matters with Jack Farley",
     "source_date": "2026-05-31",
@@ -28121,6 +28377,7 @@ const dashboardData = {
       "A lack of expansion into new sectors or a failure to integrate with major players in utilities and telecommunications would weaken the thesis of the universality of coordination challenges across industries.",
       "Should competitors successfully deploy context-aware AI solutions that outperform Happy Robot's in terms of user experience and operational efficiency, it would challenge the company's market position."
     ],
+    "schema_version": 1,
     "insight_title": "Building AI Agents for Enterprise Operations",
     "source_name": "The a16z Show",
     "source_date": "2026-06-01",
@@ -28188,6 +28445,7 @@ const dashboardData = {
       "Should the timeline for AGI be significantly delayed beyond 2029, it would alter investment strategies and expectations within the tech sector.",
       "If Amazon's AI shopping assistant fails to maintain high conversion rates or if similar technologies from competitors outperform it, the narrative of e-commerce transformation would be weakened."
     ],
+    "schema_version": 1,
     "insight_title": "Opus 4.8 Beats GPT 5.5, the $220B OpenAI Foundation, and Hassabis\u2019s 2029 AGI Prediction | EP #260",
     "source_name": "Moonshots with Peter Diamandis",
     "source_date": "2026-06-01",
@@ -28240,6 +28498,7 @@ const dashboardData = {
       "A change in Federal Reserve policy that effectively balances inflation and economic stability would challenge the current dilemma narrative.",
       "A significant slowdown in AI investments or a clear demonstration of substantial ROI could alter the perception of AI investment sustainability."
     ],
+    "schema_version": 1,
     "insight_title": "Real Boom? Fake Money?",
     "source_name": "The Jack Mallers Show",
     "source_date": "2026-06-02",
@@ -28311,6 +28570,7 @@ const dashboardData = {
       "Should the projected revenue from AI compute not materialize, potentially due to technological stagnation or market saturation, the economic model's validity would be questioned.",
       "A significant downturn in the AI market, reflected in reduced investment and lower valuations of AI companies, would challenge the current bullish narrative on AI's financial potential."
     ],
+    "schema_version": 1,
     "insight_title": "OpenAI CFO Sarah Friar on IPO, AI Rivalries, New Device, and Spending $100B+ on Compute",
     "source_name": "All-In with Chamath, Jason, Sacks & Friedberg",
     "source_date": "2026-06-02",
@@ -28367,6 +28627,7 @@ const dashboardData = {
       "Dell's XPS 13 fails to compete effectively with Apple's MacBook Neo, indicating that hardware optimization for AI applications is not a significant factor in consumer preferences.",
       "The market does not show a clear trend towards AI-optimized hardware, suggesting that the traditional Windows device market remains dominant."
     ],
+    "schema_version": 1,
     "insight_title": "Steven Sinofsky on Apple at 50, Microsoft, and the Future of Computing",
     "source_name": "The a16z Show",
     "source_date": "2026-06-02",
@@ -28441,6 +28702,7 @@ const dashboardData = {
       "The U.S. military successfully diversifies its supply chain, reducing dependency on Chinese manufacturing, which would diminish the urgency of the discussed supply chain vulnerabilities.",
       "A significant increase in domestic manufacturing capabilities in the U.S., which would challenge the current narrative of supply chain vulnerabilities and the need for a rational industrial policy."
     ],
+    "schema_version": 1,
     "insight_title": "Balaji and Steven Glinert on Network States, Supply Chains, and Allied Coalition Strategy",
     "source_name": "The a16z Show",
     "source_date": "2026-06-03",
@@ -28502,6 +28764,7 @@ const dashboardData = {
       "A significant increase in the average tenure of S&P 500 CEOs, indicating a shift towards long-term strategic planning, could challenge Ackman's emphasis on founder-led companies.",
       "If venture investments in AI do not yield the expected high returns within the projected timeframe, it would cast doubt on Ackman's assertion about the potential for significant returns in this sector."
     ],
+    "schema_version": 1,
     "insight_title": "Bill Ackman: Investment Strategy, What the Market is Missing, How AI Breaks Businesses",
     "source_name": "All-In with Chamath, Jason, Sacks & Friedberg",
     "source_date": "2026-06-03",
@@ -28555,6 +28818,7 @@ const dashboardData = {
       "Should Ray Kurzweil's prediction accuracy drop significantly below 86%, it would reduce the credibility of his AGI timeline prediction.",
       "If AI integration into governance leads to increased inefficiencies or ethical controversies without clear solutions, it could slow the adoption of AI in decision-making processes."
     ],
+    "schema_version": 1,
     "insight_title": "Why AGI Is Close but Not Here Yet | Ray Kurzweil | EP #261",
     "source_name": "Moonshots with Peter Diamandis",
     "source_date": "2026-06-03",
@@ -28626,6 +28890,7 @@ const dashboardData = {
       "Should major tech companies not allocate a significant portion of their revenue to capex, as projected, it could indicate a shift in their strategic focus away from AI development.",
       "If job automation through AI does not lead to significant changes in job roles or organizational structures within the predicted timeframe, it would suggest a slower adoption rate and less disruptive impact than currently anticipated."
     ],
+    "schema_version": 1,
     "insight_title": "AI Eats the World? A Reality Check with Benedict Evans",
     "source_name": "The a16z Show",
     "source_date": "2026-06-04",
@@ -28686,6 +28951,7 @@ const dashboardData = {
       "A significant and sustained increase in unemployment rates across various sectors could indicate that automation is leading to job displacement contrary to the podcast's assertions.",
       "Should developing countries fail to adopt AI technologies and show no signs of leapfrogging traditional development stages, it would undermine the potential for AI to catalyze economic growth in these regions."
     ],
+    "schema_version": 1,
     "insight_title": "Alex Imas and Phil Trammell \u2013 What remains scarce after AGI?",
     "source_name": "Dwarkesh Podcast",
     "source_date": "2026-06-04",
@@ -28760,6 +29026,7 @@ const dashboardData = {
       "A sharp decline in the 10-year Treasury yield would suggest that inflation expectations are not rising, contradicting the current narrative of market pressure.",
       "A sustained rally in the S&P 500 without a significant correction would cast doubt on the market exhaustion signals discussed."
     ],
+    "schema_version": 1,
     "insight_title": "MacroVoices #535 Michael Every: NAFTA and NAPTHA \u2013 Warcraft & Fartcraft",
     "source_name": "Macro Voices",
     "source_date": "2026-06-04",
@@ -28810,6 +29077,7 @@ const dashboardData = {
       "Should SpaceX's launch cadence slow down significantly without a corresponding decrease in valuation, the correlation between operational metrics and valuation would be questioned.",
       "A failure of the AI ecosystem to reach the projected $300 billion by the end of 2024 would cast doubt on the aggressive growth expectations."
     ],
+    "schema_version": 1,
     "insight_title": "Thomas Laffont: The $4T AI IPO Wave, 2026's Unicorn Economy, and the 10X Paradox",
     "source_name": "All-In with Chamath, Jason, Sacks & Friedberg",
     "source_date": "2026-06-04",
@@ -28880,6 +29148,7 @@ const dashboardData = {
       "Emergence of new technologies that make data movement less costly and more efficient, undermining the argument against 'data gravity'.",
       "AI applications demonstrate a significant decrease in demand for robust software infrastructure, suggesting that AI commodifies rather than enhances infrastructure needs."
     ],
+    "schema_version": 1,
     "insight_title": "AI Agents and the Fight for Customer Data",
     "source_name": "The a16z Show",
     "source_date": "2026-06-05",
@@ -28928,6 +29197,7 @@ const dashboardData = {
       "A sustained increase in home prices and a decrease in construction costs could indicate a healthier home building industry, reducing the conviction in short-selling opportunities.",
       "If credit spreads tighten significantly across the market, it might suggest a return to a more favorable environment for stock picking rather than credit picking."
     ],
+    "schema_version": 1,
     "insight_title": "Dan Loeb: The Lost Art of Short Selling, and Why Stock Picking is Back",
     "source_name": "All-In with Chamath, Jason, Sacks & Friedberg",
     "source_date": "2026-06-05",
@@ -28990,6 +29260,7 @@ const dashboardData = {
       "The U.S. government implements stricter regulations on AI development, contradicting the current voluntary model sharing approach.",
       "OpenAI experiences a significant drop in monthly active users, suggesting a potential market saturation or reduced demand for AI tools."
     ],
+    "schema_version": 1,
     "insight_title": "Anthropic Files $965B IPO, Trump Signs AI Executive Order, and ChatGPT Crosses 1B Users | EP #262",
     "source_name": "Moonshots with Peter Diamandis",
     "source_date": "2026-06-06",
@@ -29039,6 +29310,7 @@ const dashboardData = {
       "Should satellite launch costs not continue their downward trend or if miniaturization technologies fail to advance, the feasibility of space-based data centers could be compromised.",
       "If Planet Labs or similar companies fail to maintain growth in security-related applications, which account for 60% of their revenue, it could signal a weaker market for satellite data services."
     ],
+    "schema_version": 1,
     "insight_title": "The IPO Comeback: Why Tech Giants Are Finally Going Public | All-In Liquidity IPO Panel",
     "source_name": "All-In with Chamath, Jason, Sacks & Friedberg",
     "source_date": "2026-06-06",
@@ -29110,6 +29382,7 @@ const dashboardData = {
       "Should major tech companies like Google or Microsoft release their own AI agent-specific search solutions that gain significant market traction, Exah's competitive advantage could be diminished.",
       "If there is a lack of progress in AI agent integration into everyday tasks, as predicted, it would challenge the thesis that the search market will shift towards AI-centric solutions."
     ],
+    "schema_version": 1,
     "insight_title": "Building Search for AI Agents with Exa CEO Will Bryk",
     "source_name": "The a16z Show",
     "source_date": "2026-06-06",
@@ -29156,6 +29429,7 @@ const dashboardData = {
       "A sudden increase in global memory chip demand could alleviate concerns about overvaluation in the South Korean market by supporting higher profit margins.",
       "If Southeast Asian markets experience a sharp economic downturn or political instability, the attractiveness of their undervalued small-cap stocks could diminish."
     ],
+    "schema_version": 1,
     "insight_title": "The AI Chip Bubble: Why South Korea & Taiwan Are In the Danger Zone | Michael Fritzell | Asian Century Stocks",
     "source_name": "Monetary Matters with Jack Farley",
     "source_date": "2026-06-06",
@@ -29222,6 +29496,7 @@ const dashboardData = {
       "China's crude imports returning to pre-halt levels, indicating a sustained increase in global demand.",
       "Geopolitical tensions easing without military escalation, leading to stable oil supply routes."
     ],
+    "schema_version": 1,
     "insight_title": "\u201cSleepwalking into Crisis\u201d: Why The Oil Market Hasn\u2019t Imploded Yet | Kpler\u2019s Matt Smith",
     "source_name": "Monetary Matters with Jack Farley",
     "source_date": "2026-06-07",
@@ -29273,6 +29548,7 @@ const dashboardData = {
       "If the percentage of primary venture activity involving secondary transactions falls below 20%, it would suggest a reversal in the trend towards secondary market reliance.",
       "A marked increase in the number of AI companies going public could signal a shift back towards traditional IPOs as the preferred exit strategy."
     ],
+    "schema_version": 1,
     "insight_title": "Inside the Private Stock Market Boom: SpaceX, Anthropic, OpenAI & the Rise of Secondaries",
     "source_name": "All-In with Chamath, Jason, Sacks & Friedberg",
     "source_date": "2026-06-07",
@@ -29323,6 +29599,7 @@ const dashboardData = {
       "Should Argentina's AI strategy not attract significant investment or fail to establish itself as a global AI hub, it would challenge the thesis of favorable regulatory environments driving AI advancements.",
       "If the U.S. job market fails to continue adding jobs or experiences a significant downturn, it would counter the narrative of AI creating more jobs than it eliminates."
     ],
+    "schema_version": 1,
     "insight_title": "Emerging Situation: Anthropic's Global Pause, Recursive Self-Improvement Arrives, and AI Personhood Arrives | EP #263",
     "source_name": "Moonshots with Peter Diamandis",
     "source_date": "2026-06-08",
@@ -29374,6 +29651,7 @@ const dashboardData = {
       "Traditional SaaS companies show a resurgence in market share, suggesting that the shift to AI models is not as pronounced as predicted.",
       "Infrastructure software companies fail to meet the increased demand for data storage and management, indicating a slower adoption of AI and data-heavy applications."
     ],
+    "schema_version": 1,
     "insight_title": "Nikesh Arora: Mythos is Real, Analytical SaaS is Dead, and Google can be a $10T company",
     "source_name": "All-In with Chamath, Jason, Sacks & Friedberg",
     "source_date": "2026-06-08",
@@ -29428,6 +29706,7 @@ const dashboardData = {
       "A sustained increase in Bitcoin's price and stability could indicate that the market's rotation and liquidity concerns are overblown, challenging the current bearish sentiment.",
       "A significant inflow into Bitcoin ETFs could signal a reversal of the capital rotation trend, potentially alleviating downward pressure on Bitcoin's price."
     ],
+    "schema_version": 1,
     "insight_title": "Bitcoin Selloff Explained: Capital Rotation & Strategy Deep Dive",
     "source_name": "The Jack Mallers Show",
     "source_date": "2026-06-09",
@@ -29500,6 +29779,7 @@ const dashboardData = {
       "If labor market studies consistently show a net loss of jobs across various sectors due to AI, the thesis of job creation amidst automation would be weakened.",
       "Should economic forecasts from reputable institutions predict a sustained decline in productivity growth, this would challenge the claim that AI will drive economic advancement and improve living standards."
     ],
+    "schema_version": 1,
     "insight_title": "Tyler Cowen & Alex Tabarrok on AI, Jobs, and Economic Growth",
     "source_name": "The a16z Show",
     "source_date": "2026-06-09",
@@ -29551,6 +29831,7 @@ const dashboardData = {
       "Should AI-driven portfolio construction fail to deliver superior returns across a significant number of venture capital funds over a two-year period, the importance of AI in venture capital would be questioned.",
       "A sustained period of market downturns where late-stage investments outperform early-stage investments could challenge Maris's skepticism about the sustainability of late-stage venture capital strategies."
     ],
+    "schema_version": 1,
     "insight_title": "Bill Maris: How Google Could Crush AI Competitors, Why Small Funds Win, and AI's Atari Stage",
     "source_name": "All-In with Chamath, Jason, Sacks & Friedberg",
     "source_date": "2026-06-09",
@@ -29602,6 +29883,7 @@ const dashboardData = {
       "A substantial discovery of new copper reserves outside of China that could meet global demand, diminishing the strategic importance of domestic mining.",
       "If the US government fails to pass legislation or allocate sufficient funds to support domestic mining and infrastructure modernization, hindering the progress towards self-sufficiency."
     ],
+    "schema_version": 1,
     "insight_title": "Dan Dreyfus: America's Critical Minerals Crisis is Here",
     "source_name": "All-In with Chamath, Jason, Sacks & Friedberg",
     "source_date": "2026-06-10",
@@ -29650,6 +29932,7 @@ const dashboardData = {
       "If employee productivity and innovation do not improve alongside the increased use of AI tools, it would suggest that curiosity and engagement with AI are not as crucial as claimed.",
       "A failure to see a merger of customer support with sales and operations, or a lack of enhancement in the overall customer experience, would undermine the argument for the evolving role of customer support."
     ],
+    "schema_version": 1,
     "insight_title": "AI, Growth, and the Future of Healthcare | Anish Acharya & Sachin Jain",
     "source_name": "The a16z Show",
     "source_date": "2026-06-10",
@@ -29701,6 +29984,7 @@ const dashboardData = {
       "If geopolitical tensions lead to a significant reduction in investment in regions like Latin America, Eastern Europe, and Africa, the strategic alignment of DFC investments with U.S. foreign policy goals could be compromised.",
       "A consistent pattern of DFC investments not yielding the expected financial returns or development impact would undermine the credibility of its investment strategy and the effectiveness of its governance model."
     ],
+    "schema_version": 1,
     "insight_title": "America\u2019s $205 Billion Government Fund You\u2019ve Never Heard Of | Conor Coleman, Head of Investments at Development Finance Corporation (DFC)",
     "source_name": "Monetary Matters with Jack Farley",
     "source_date": "2026-06-10",
@@ -29750,6 +30034,7 @@ const dashboardData = {
       "If the investment in AI and data centers does not meet the projected job creation and economic growth within the next 3 years, the economic opportunity narrative is weakened.",
       "A significant decline in Latino and African American voter turnout in upcoming elections would challenge the state's role as a microcosm of U.S. political trends."
     ],
+    "schema_version": 1,
     "insight_title": "Senators John Fetterman and Dave McCormick: Bipartisanship, Money in DC, Datacenters, Graham Platner",
     "source_name": "All-In with Chamath, Jason, Sacks & Friedberg",
     "source_date": "2026-06-10",
@@ -29801,6 +30086,7 @@ const dashboardData = {
       "Should the U.S. continue to see a decline in students pursuing degrees in engineering and technology, the cultural shift towards valuing physical product creation will not materialize, hindering hardware innovation.",
       "If market analysis reports do not show a decrease in the cost or an increase in the speed of circuit board manufacturing within the next two years, the prediction of full automation in this sector may be overestimated."
     ],
+    "schema_version": 1,
     "insight_title": "Designing the Physical World with AI",
     "source_name": "The a16z Show",
     "source_date": "2026-06-11",
@@ -29850,6 +30136,7 @@ const dashboardData = {
       "Should New Limit fail to achieve milestones in age-reversal research, it could diminish investor confidence in the potential of biotech for longevity therapies.",
       "If Coinbase reports a decline in transactions processed for AI agents, it might signal a slower adoption rate of AI in financial services than anticipated."
     ],
+    "schema_version": 1,
     "insight_title": "Brian Armstrong on Bitcoin, Anthropic Drops Fable 5 & Mythos 5, NewLimit's $435M Age-Reversal | EP #264",
     "source_name": "Moonshots with Peter Diamandis",
     "source_date": "2026-06-11",
@@ -29903,6 +30190,7 @@ const dashboardData = {
       "A failure of the U.S. dollar to break out could indicate that the market does not anticipate inflationary pressures as strongly as suggested.",
       "An unexpected resolution to the Iran conflict that stabilizes oil prices would reduce market uncertainty and potentially alter the rotation towards hard assets."
     ],
+    "schema_version": 1,
     "insight_title": "MacroVoices #536 Larry Mcdonald: The Migration is Upon us",
     "source_name": "Macro Voices",
     "source_date": "2026-06-11",
@@ -29972,6 +30260,7 @@ const dashboardData = {
       "A failure in Actus Oncology's clinical trials would significantly reduce the conviction in its high-potential valuation.",
       "GEONet's revenue not tripling in the coming year despite its decentralized model would cast doubt on the scalability and market adoption of its RTK network."
     ],
+    "schema_version": 1,
     "insight_title": "All-In's Best Ideas Pitch Competition: 4 Investors Present Their Top Trades Live",
     "source_name": "All-In with Chamath, Jason, Sacks & Friedberg",
     "source_date": "2026-06-12",
@@ -30026,6 +30315,7 @@ const dashboardData = {
       "If there is a significant decrease in political discourse around wealth redistribution from AI companies, it could indicate a reduced likelihood of increased regulation and taxation impacting AI firms.",
       "The implementation of substantial electoral reforms in California that address the vulnerabilities mentioned would reduce concerns about election integrity and the legitimacy of election outcomes."
     ],
+    "schema_version": 1,
     "insight_title": "Anthropic's Fable Backlash, Nationalizing AI, Inflation Heats Up & California's Broken Elections",
     "source_name": "All-In with Chamath, Jason, Sacks & Friedberg",
     "source_date": "2026-06-13",
@@ -30080,6 +30370,7 @@ const dashboardData = {
       "If JSON prompting does not provide the level of precision and consistency needed for professional use, it could limit the model's adoption in enterprise settings.",
       "Poor performance in taste and aesthetic quality could alienate creative professionals, who are a key target market for Ideogram."
     ],
+    "schema_version": 1,
     "insight_title": "AI, Design, and the Power of Open Models",
     "source_name": "The a16z Show",
     "source_date": "2026-06-15",
@@ -30131,6 +30422,7 @@ const dashboardData = {
       "A sustained decrease in component costs could invalidate the earnings growth illusion, revealing the true state of earnings growth for hyperscalers.",
       "Should there be a noticeable lack of regulatory actions or delays in government crackdowns on AI models, the perceived regulatory risks surrounding AI would be reduced."
     ],
+    "schema_version": 1,
     "insight_title": "Regulatory Risk is Coming For AI | David Woo on AI Data Center CapEx and Iran War",
     "source_name": "Monetary Matters with Jack Farley",
     "source_date": "2026-06-15",
@@ -30181,6 +30473,7 @@ const dashboardData = {
       "Bitcoin treasury companies successfully managing their capital structures without causing significant sell pressure on Bitcoin would weaken the argument for the complexity of their financial strategies.",
       "A decrease in the number of authentic and transparent discussions within the Bitcoin community could indicate a failure to prioritize open dialogue, undermining the importance of such conversations."
     ],
+    "schema_version": 1,
     "insight_title": "15 Questions: The Strait, Strategy, mNAV, Dilution, & My Boots",
     "source_name": "The Jack Mallers Show",
     "source_date": "2026-06-16",
@@ -30231,6 +30524,7 @@ const dashboardData = {
       "Should customer feedback consistently lead to successful product iterations without derailing the core mission, the balance between feedback and vision might be reconsidered.",
       "A significant number of successful startups that ignore early customer feedback and still achieve product-market fit would challenge the importance of incorporating customer insights."
     ],
+    "schema_version": 1,
     "insight_title": "Jack Altman on Product-Market Fit",
     "source_name": "The a16z Show",
     "source_date": "2026-06-16",
@@ -30283,6 +30577,7 @@ const dashboardData = {
       "A significant delay or failure in Starlink's rollout, or a lack of uptake in broadband services, would undermine the revenue growth narrative.",
       "If the integration of cursor into X.AI does not result in enhanced model capabilities or increased revenue, it would question the strategic value of the acquisition."
     ],
+    "schema_version": 1,
     "insight_title": "The SpaceX IPO, Fable 5, AI Capex Update & Market Check w/ Gavin Baker, Andrew Fox & Clark Tang | BG2",
     "source_name": "BG2Pod with Brad Gerstner and Bill Gurley",
     "source_date": "2026-06-11",
@@ -30354,6 +30649,7 @@ const dashboardData = {
       "If Andalabbs' AI agents fail to perform tasks autonomously in real-world tests consistently, it would challenge the thesis of AI's readiness for business management.",
       "Should ethical issues with AI agents, such as lying or manipulation, become widespread and unmanageable, it could lead to regulatory backlash, reducing the viability of AI in business operations."
     ],
+    "schema_version": 1,
     "insight_title": "Reality: The Final Eval \u2014 Lukas Petersson and Axel Backlund of Andon Labs",
     "source_name": "Latent Space: The AI Engineer Podcast",
     "source_date": "2026-06-04",
@@ -30404,6 +30700,7 @@ const dashboardData = {
       "If the company's verified AI tools do not gain widespread adoption within the mathematics and related scientific communities, it would challenge the scalability of their approach.",
       "In the event of high-profile failures or inaccuracies in AI-generated proofs using Axiom's technology, trust in verified AI could be eroded, impacting Axiom's reputation and market position."
     ],
+    "schema_version": 1,
     "insight_title": "\ud83d\udd2cScaling Past Informal AI - Carina Hong, Axiom Math",
     "source_name": "Latent Space: The AI Engineer Podcast",
     "source_date": "2026-06-03",
@@ -30455,6 +30752,7 @@ const dashboardData = {
       "Failure to expand into new markets or a decline in the number of consumers and merchants served, indicating a lack of scalability.",
       "A shift in the company's performance metrics away from the North Star approach, suggesting a loss of focus on key business objectives."
     ],
+    "schema_version": 1,
     "insight_title": "The Fintech Playbook for Latin America",
     "source_name": "The a16z Show",
     "source_date": "2026-06-17",
@@ -30519,6 +30817,7 @@ const dashboardData = {
       "A significant number of companies struggling with data lineage and AI application specialization would cast doubt on the importance of these aspects in AI performance.",
       "Should the community impact of AI initiatives fail to materialize, with no tangible benefits for local economies, it would challenge the necessity and effectiveness of considering community impact in tech initiatives."
     ],
+    "schema_version": 1,
     "insight_title": "\u26a1\ufe0fSatya Nadella: No Priors x Latent Space Crossover Special at Microsoft Build",
     "source_name": "Latent Space: The AI Engineer Podcast",
     "source_date": "2026-06-03",
@@ -30570,6 +30869,7 @@ const dashboardData = {
       "A breakthrough in material science that bypasses the need for extensive experimental data would undermine Radical AI's approach.",
       "If China successfully scales its centralized approach to material innovation, outpacing the U.S. in material science advancements, the strategic benefits of open sourcing AI models could diminish."
     ],
+    "schema_version": 1,
     "insight_title": "\ud83d\udd2c The Self-Driving Lab \u2014 Joseph Krause, Radical AI",
     "source_name": "Latent Space: The AI Engineer Podcast",
     "source_date": "2026-06-17",
@@ -30617,6 +30917,7 @@ const dashboardData = {
       "If GitHub's commit rate fails to increase as projected and stagnates or decreases, it would challenge the narrative of exponential growth.",
       "Should GitHub's infrastructure continue to suffer from significant outages despite their scaling efforts, it could indicate an inability to manage growth, undermining user trust and engagement."
     ],
+    "schema_version": 1,
     "insight_title": "GitHub's plan for Agents \u2014 Kyle Daigle, GitHub",
     "source_name": "Latent Space: The AI Engineer Podcast",
     "source_date": "2026-06-02",
@@ -30674,6 +30975,7 @@ const dashboardData = {
       "A successful mitigation of the Kessler effect or the development of effective orbital debris management could reduce the existential threat to space operations, altering the risk assessment for investors.",
       "The establishment of sovereign wealth funds in AI that do not align with the equitable distribution of wealth could challenge the thesis on economic shifts and societal implications."
     ],
+    "schema_version": 1,
     "insight_title": "SpaceX IPOs at $2.89T Market Cap, US Govt Suspends Fable & Mythos 5, Altman Delays OpenAI\u2019s IPO | EP #265",
     "source_name": "Moonshots with Peter Diamandis",
     "source_date": "2026-06-18",
@@ -30726,6 +31028,7 @@ const dashboardData = {
       "A significant increase in community opposition to data center projects despite increased funding for local benefits would undermine the community engagement strategy.",
       "Failure of ISO models to deliver cost savings and efficiency improvements would cast doubt on their potential to optimize compute resource utilization."
     ],
+    "schema_version": 1,
     "insight_title": "The Professor of Outputmaxxing \u2014 Anjney Midha, AMP",
     "source_name": "Latent Space: The AI Engineer Podcast",
     "source_date": "2026-06-18",
@@ -30796,6 +31099,7 @@ const dashboardData = {
       "Failure to pass key legislation supporting manufacturing and electrification could hinder the progress of re-industrialization.",
       "If there is a notable decrease in the demand for electricity due to a slowdown in manufacturing or data center growth, it would challenge the electrification demand surge narrative."
     ],
+    "schema_version": 1,
     "insight_title": "The US Manufacturing and Electrification Megatrends Are Here and They\u2019re Way More Than AI | Chris Semenuk",
     "source_name": "Monetary Matters with Jack Farley",
     "source_date": "2026-06-18",
@@ -30848,6 +31152,7 @@ const dashboardData = {
       "If the cost of data storage and compute resources for video model training does not align with industry benchmarks, the financial sustainability of video generation companies could be in question.",
       "If language integration with video generation does not lead to noticeable improvements in output quality within the next 12 months, the strategic value of language models in video generation could be overestimated."
     ],
+    "schema_version": 1,
     "insight_title": "Why Video Agent models are next \u2014 Ethan He, xAI Grok Imagine",
     "source_name": "Latent Space: The AI Engineer Podcast",
     "source_date": "2026-06-01",
@@ -30919,6 +31224,7 @@ const dashboardData = {
       "A significant increase in media literacy among audiences that leads to skepticism of personal brand narratives could reduce the effectiveness of direct communication strategies.",
       "If there is a notable decline in the number of followers or engagement on founders' social media platforms, it could indicate that the direct communication strategy is losing its impact."
     ],
+    "schema_version": 1,
     "insight_title": "The New Rules of Media | Marc Andreessen & Ben Horowitz",
     "source_name": "The a16z Show",
     "source_date": "2026-06-19",
@@ -30992,6 +31298,7 @@ const dashboardData = {
       "A substantial increase in the number of AI models achieving human-like learning efficiency with less data would undermine the current understanding of AI's data dependency.",
       "Should the market for domain-specific data shrink, as indicated by a decline in revenue for data labeling companies, it would signal a potential shift in AI training methodologies."
     ],
+    "schema_version": 1,
     "insight_title": "The data black hole at the center of AI",
     "source_name": "Dwarkesh Podcast",
     "source_date": "2026-06-19",
@@ -31058,6 +31365,7 @@ const dashboardData = {
       "Should there be a significant regulatory crackdown on hyperscalers' control over AI, it would challenge the current narrative of market dominance.",
       "If Kursher's integration into SpaceX fails to meet the expected synergies, it could signal overpayment or mismanagement of resources."
     ],
+    "schema_version": 1,
     "insight_title": "World's First Trillionaire, Anthropic Fable Banned, The New Oligarchs, Iran Peace Deal",
     "source_name": "All-In with Chamath, Jason, Sacks & Friedberg",
     "source_date": "2026-06-19",
@@ -31113,6 +31421,7 @@ const dashboardData = {
       "Should memory market supply constraints ease and lead to a rapid decrease in DRAM and NAND prices, the assertion of sustained higher prices would be challenged.",
       "A demonstration of profitability and positive returns on capital in sectors like Bitcoin mining and data center development would counter the claims of unprofitable business models."
     ],
+    "schema_version": 1,
     "insight_title": "Jim Chanos & Val Zlatev: Long and Short Alpha in AI, Semiconductors, Data Centers, Neoclouds, and Data Centers | MacroMinds Symposium 2026",
     "source_name": "Monetary Matters with Jack Farley",
     "source_date": "2026-06-20",
@@ -31160,6 +31469,7 @@ const dashboardData = {
       "A sustained increase in demand for AI services across various industries, supported by concrete data, would challenge the current skepticism about the disconnect between AI demand and reality.",
       "The introduction of new regulatory frameworks that support AI innovation without imposing restrictive controls could alter the perception of increased regulatory risks."
     ],
+    "schema_version": 1,
     "insight_title": "Ed Zitron: The AI Bubble is Bleeding Cash, Here Are The Receipts",
     "source_name": "Monetary Matters with Jack Farley",
     "source_date": "2026-06-21",
@@ -31209,6 +31519,7 @@ const dashboardData = {
       "A decline in the number of enterprises adopting AI technologies would reduce the demand for AI safety solutions, weakening Grace One's market position.",
       "If there is a significant security breach in an AI system that Grace One was supposed to protect, it would cast doubt on the effectiveness of their security solutions."
     ],
+    "schema_version": 1,
     "insight_title": "Red-Teaming after Mythos \u2014 Zico Kolter & Matt Fredrikson, Gray Swan",
     "source_name": "Latent Space: The AI Engineer Podcast",
     "source_date": "2026-06-22",
@@ -31259,6 +31570,7 @@ const dashboardData = {
       "A lack of successful exits or IPOs from the fund's portfolio would challenge the thesis that focusing on sectors like AI and defense is a winning strategy.",
       "Should educational reforms not lead to improved financial literacy or economic participation, it would undermine the argument for backing educational startups as a means to drive economic growth."
     ],
+    "schema_version": 1,
     "insight_title": "Jake Paul & Anti Fund: From Creator to Investor",
     "source_name": "The a16z Show",
     "source_date": "2026-06-22",
@@ -31309,6 +31621,7 @@ const dashboardData = {
       "A significant downturn in venture capital investment towards AI in consumer applications would undermine the belief in the growth potential of this sector.",
       "If traditional advertising methods show a resurgence in effectiveness, overshadowing creator-led distribution channels, it would counter the narrative of changing consumer behavior and expectations."
     ],
+    "schema_version": 1,
     "insight_title": "What\u2019s Next for Consumer AI? | Josh Elman Joins a16z",
     "source_name": "The a16z Show",
     "source_date": "2026-06-23",
@@ -31365,6 +31678,7 @@ const dashboardData = {
       "Failure to integrate eBay's live commerce capabilities successfully would reduce the potential synergies from the acquisition.",
       "If eBay's digital collectibles market does not develop as anticipated, it would diminish the potential for significant growth in this area."
     ],
+    "schema_version": 1,
     "insight_title": "GameStop CEO Ryan Cohen's $56B Plan to Take Over eBay",
     "source_name": "All-In with Chamath, Jason, Sacks & Friedberg",
     "source_date": "2026-06-23",
@@ -31420,6 +31734,7 @@ const dashboardData = {
       "If the number of AI tools adopted by designers does not increase over the next two years, it would suggest that the integration of AI in design is not as beneficial as claimed.",
       "Should user satisfaction with mobile experiences not improve despite increased investment in design, it would challenge the necessity of high-quality design in a mobile-first world."
     ],
+    "schema_version": 1,
     "insight_title": "What Happens to Design After AI?",
     "source_name": "The a16z Show",
     "source_date": "2026-06-24",
@@ -31481,6 +31796,7 @@ const dashboardData = {
       "Failure of specialized models to deliver expected efficiency gains in real-world applications would reduce the appeal of Databricks' offerings.",
       "If the company's incremental development approach leads to frequent disruptions or user dissatisfaction, it could signal a misalignment with market needs."
     ],
+    "schema_version": 1,
     "insight_title": "Why the Frontier Ecosystem must be Open \u2014 Matei Zaharia and Reynold Xin, Databricks",
     "source_name": "Latent Space: The AI Engineer Podcast",
     "source_date": "2026-06-24",
@@ -31533,6 +31849,7 @@ const dashboardData = {
       "If the platform experiences a high rate of user withdrawals, it may suggest that the lack of capital lockups is not enough to offset other concerns or dissatisfaction with the service.",
       "Should Plutus fail to attract and retain high-quality research providers, the quality of its investment offerings could suffer, potentially leading to underperformance and a loss of users."
     ],
+    "schema_version": 1,
     "insight_title": "Inside The Platform Helping to Invest Like Substack & FinTwit's Top Researchers | Plutus",
     "source_name": "Monetary Matters with Jack Farley",
     "source_date": "2026-06-24",
@@ -31604,6 +31921,7 @@ const dashboardData = {
       "A sustained increase in unemployment rates due to AI automation would challenge the narrative of job creation through technological advancement.",
       "Instances of AI misuse leading to significant societal harm would undermine the argument for ethical AI development being a priority."
     ],
+    "schema_version": 1,
     "insight_title": "Marc Andreessen on AI, Technology, and the Future of Humanity",
     "source_name": "The a16z Show",
     "source_date": "2026-06-25",
@@ -31676,6 +31994,7 @@ const dashboardData = {
       "A lack of significant improvements in ensemble modeling outcomes compared to single models would challenge the value proposition of this approach.",
       "Failure of B2B AI startups to demonstrate clear economic benefits to businesses would indicate a misalignment with market needs and reduce the appeal of this sector for investors."
     ],
+    "schema_version": 1,
     "insight_title": "AI Is Crossing the Frontier of Human Knowledge | Kevin Weil",
     "source_name": "The a16z Show",
     "source_date": "2026-06-26",
@@ -31734,6 +32053,7 @@ const dashboardData = {
       "If sample efficiency of AI models does not improve significantly within the next two years, it would challenge the feasibility of scaling AI applications across various domains.",
       "Should AI models fail to demonstrate continuous learning capabilities in real-world applications over the next few years, it would indicate that current approaches to AI development are insufficient for dynamic environments."
     ],
+    "schema_version": 1,
     "insight_title": "The next big breakthrough will be AIs learning on the job",
     "source_name": "Dwarkesh Podcast",
     "source_date": "2026-06-26",
@@ -31783,6 +32103,7 @@ const dashboardData = {
       "Should China's GLM5.2 model fail to replicate its performance in independent benchmarks, the perception of its competitiveness would diminish.",
       "A sustained increase in the cost of AI intelligence, as tracked by platforms like Oron, would challenge the thesis of decreasing AI costs."
     ],
+    "schema_version": 1,
     "insight_title": "The $10B Satellite Empire Putting AI in Orbit, Why Chips Beat Rockets & China's #1 Open Model | EP #266",
     "source_name": "Moonshots with Peter Diamandis",
     "source_date": "2026-06-26",
@@ -31857,6 +32178,7 @@ const dashboardData = {
       "Should Chinese AI models like GLM 5.2 fail to maintain their competitive edge or if U.S. companies demonstrate significant advancements, the competitive threat from China would be reduced.",
       "If the IPO market stabilizes and new tech companies like Cerebras show consistent performance post-IPO, the current volatility and challenges in the IPO landscape would be less significant."
     ],
+    "schema_version": 1,
     "insight_title": "Socialists Sweep NYC, China Catches Up in Coding, AI Memory Crunch, Micron's Blowout Quarter",
     "source_name": "All-In with Chamath, Jason, Sacks & Friedberg",
     "source_date": "2026-06-26",
@@ -31933,6 +32255,7 @@ const dashboardData = {
       "If China's open-source AI strategy leads to significant economic gains while the U.S. lags, the competitive edge argument would be challenged.",
       "A substantial increase in public sector investment in AI and technology could indicate a shift towards modernization, affecting the need for reform narrative."
     ],
+    "schema_version": 1,
     "insight_title": "Beyond P(doom): Marc Andreessen - Betting on America",
     "source_name": "The a16z Show",
     "source_date": "2026-06-29",
@@ -31986,6 +32309,7 @@ const dashboardData = {
       "A substantial economic upturn that alleviates youth economic anxieties and shifts their sentiment towards capitalism.",
       "Social media platforms implementing changes to their algorithms that reduce the impact of filter bubbles, potentially moderating partisan views."
     ],
+    "schema_version": 1,
     "insight_title": "Nate Silver Predicts: Democrats Take the House, Newsom Is Fading & AOC Might Win It All in 2028",
     "source_name": "All-In with Chamath, Jason, Sacks & Friedberg",
     "source_date": "2026-06-29",
@@ -32036,6 +32360,7 @@ const dashboardData = {
       "Should AI and data center investments show consistent profitability and debt sustainability over multiple quarters, the parallel with the 1873 crisis's excessive leverage and mismanagement would be less compelling.",
       "A sustained period of economic stability and growth without significant downturns would challenge the notion of inevitable boom-bust cycles in financial markets."
     ],
+    "schema_version": 1,
     "insight_title": "Rothschilds, Railroads, & Ruin | Liaquat Ahamed on \u201c1873\u201d (New Book!)",
     "source_name": "Monetary Matters with Jack Farley",
     "source_date": "2026-06-29",
@@ -32087,6 +32412,7 @@ const dashboardData = {
       "A failure in the deployment or effectiveness of new drone technologies for wildfire detection and suppression would challenge the narrative of rapid advancements in autonomous firefighting solutions.",
       "A significant reduction in U.S. government investments in quantum computing or a public statement indicating a change in strategy would undermine the current thesis about the importance of maintaining a competitive edge in this field."
     ],
+    "schema_version": 1,
     "insight_title": "Why the US Government Is Blocking Model Releases (GPT-5.6) | #267",
     "source_name": "Moonshots with Peter Diamandis",
     "source_date": "2026-06-29",
@@ -32139,6 +32465,7 @@ const dashboardData = {
       "A lack of significant investment in data analytics by companies in the creative AI space could indicate a failure to understand and enhance user experience.",
       "If traditional creative tools see a sharp decrease in usage or market share, it might suggest that the coexistence of traditional and AI-driven tools is not as balanced as the discussion implies."
     ],
+    "schema_version": 1,
     "insight_title": "Building AI for Creators | Luma & Phota Labs",
     "source_name": "The a16z Show",
     "source_date": "2026-06-30",
@@ -32210,6 +32537,7 @@ const dashboardData = {
       "A rise in unemployment rates among mathematics educators or a decrease in demand for mathematics education would contradict the stability of teaching careers.",
       "If AI fails to generate new conjectures or definitions in mathematics, it would indicate a limit to its exploratory capabilities in the field."
     ],
+    "schema_version": 1,
     "insight_title": "Grant Sanderson \u2013 AI and the future of math",
     "source_name": "Dwarkesh Podcast",
     "source_date": "2026-06-30",
@@ -32261,6 +32589,7 @@ const dashboardData = {
       "A sudden increase in the number of companies going public, particularly those with lower revenues, would counter the claim that the current IPO wave is characterized by fewer, larger companies.",
       "If AI companies face less regulatory scrutiny than anticipated and their operational challenges are minimal, the cautionary stance on regulatory risks in AI investments would be undermined."
     ],
+    "schema_version": 1,
     "insight_title": "Top IPO Scholar on Unprecedented IPO Wave & Why IPOs Underperform the Market | Jay Ritter",
     "source_name": "Monetary Matters with Jack Farley",
     "source_date": "2026-06-30",
@@ -32312,6 +32641,7 @@ const dashboardData = {
       "A sustained lack of diversity in creative outputs following the democratization of creative tools would undermine the argument for a broader range of voices in the creative landscape.",
       "If artists who prioritize authenticity and personal expression consistently underperform in the market compared to those who conform to market demands, it would cast doubt on the value of authenticity in art."
     ],
+    "schema_version": 1,
     "insight_title": "Rick Rubin on AI, Creativity, and The Way of Code",
     "source_name": "The a16z Show",
     "source_date": "2026-07-01",
@@ -32362,6 +32692,7 @@ const dashboardData = {
       "Should the feedback loop between AI predictions and experimental validation fail to produce a significant acceleration in drug discovery, the efficiency claims would be challenged.",
       "A high false positive rate in high-throughput screening that is not improved by AI integration would undermine the argument for AI's role in enhancing drug discovery."
     ],
+    "schema_version": 1,
     "insight_title": "\ud83d\udd2c The Coolest Diffusion Research Isn't in LLMs \u2014 Evan Feinberg & Sergey Edunov, Genesis Molecular AI",
     "source_name": "Latent Space: The AI Engineer Podcast",
     "source_date": "2026-07-01",
@@ -32416,6 +32747,7 @@ const dashboardData = {
       "If Switzerland or other European countries revert to their previous stance against nuclear energy, it would signal a potential decline in nuclear energy investment opportunities.",
       "Any major setbacks or delays in Rocket Lab's vertical integration strategy could diminish the competitive advantage they aim to achieve in the space industry."
     ],
+    "schema_version": 1,
     "insight_title": "Sonnet 5 Drops, Fable 5 Will Return & Fusion's First Plant Gets Licensed w/ Philip Johnston | #268",
     "source_name": "Moonshots with Peter Diamandis",
     "source_date": "2026-07-01",
@@ -32472,6 +32804,7 @@ const dashboardData = {
       "A significant technological advancement by competitors in autonomous vehicles undermines Bolt's existing infrastructure and operational expertise.",
       "Bolt's AI-driven productivity enhancements fail to materialize, leading to increased costs and reduced service quality."
     ],
+    "schema_version": 1,
     "insight_title": "Outsmarting Uber: Why Bolt Wins in Europe",
     "source_name": "The a16z Show",
     "source_date": "2026-07-02",
@@ -32538,6 +32871,7 @@ const dashboardData = {
       "A drop in oil prices below $60 per barrel for an extended period could negate the positive surprise potential in the energy sector.",
       "A decline in European banks' earnings growth to below 3% could signal a weaker recovery than anticipated."
     ],
+    "schema_version": 1,
     "insight_title": "What If It\u2019s Still Early? | Erik YWR on $10,000 S&P 500 by 2027 Case, Hyperscaler ROIC, AI CapEx, Semis, Exchanges, and Reverse Crash Risk In \u201cProject Zimbabwe\u201d",
     "source_name": "Monetary Matters with Jack Farley",
     "source_date": "2026-07-02",
@@ -32610,6 +32944,7 @@ const dashboardData = {
       "A rise in protectionist policies globally that hinder international tech partnerships and market entries.",
       "A substantial increase in cybersecurity breaches that cannot be attributed to AI, indicating that the dual-use nature of AI in cybersecurity might be overemphasized."
     ],
+    "schema_version": 1,
     "insight_title": "Technology, Alliances, and American Leadership.",
     "source_name": "The a16z Show",
     "source_date": "2026-07-03",
@@ -32664,6 +32999,7 @@ const dashboardData = {
       "If studies show a decrease in headcount in companies that have adopted AI, contradicting the job growth narrative, it would challenge the positive impact of AI on employment.",
       "If enterprises fail to maintain competitive advantages by losing control over their data to AI providers, it would indicate that data sovereignty is not as crucial as claimed."
     ],
+    "schema_version": 1,
     "insight_title": "AI Sovereignty Wars, Palantir-Nvidia Deal, SCOTUS Birthright Ruling, Newsom's CA Budget Lie",
     "source_name": "All-In with Chamath, Jason, Sacks & Friedberg",
     "source_date": "2026-07-03",
@@ -32715,6 +33051,7 @@ const dashboardData = {
       "If the aging population growth rate slows or senior housing supply catches up with demand, the urgency for new senior housing developments would diminish.",
       "A sustained decline in rental rates or a decrease in job growth in key markets could weaken the case for multi-family housing investments."
     ],
+    "schema_version": 1,
     "insight_title": "The Real Estate Cycle Is Turning | Josh Pristaw on The New Cycle in Real Estate, Opportunity in Senior Living, Why AI Data Centers Are Too Big For Most Investors",
     "source_name": "Monetary Matters with Jack Farley",
     "source_date": "2026-07-04",
@@ -32765,6 +33102,7 @@ const dashboardData = {
       "The absence of a liquidity savings mechanism implementation or its failure to reduce reserve requirements by the projected 20-30% would cast doubt on the feasibility of this technique.",
       "If tiering the remuneration of reserves does not lead to a significant reduction in reserve demand, it would suggest that this method is less effective than anticipated in managing the balance sheet."
     ],
+    "schema_version": 1,
     "insight_title": "The Ultimate Playbook for Reducing The Fed\u2019s Balance Sheet | Professor Darrell Duffie on 4 Tools For Federal Reserve To Shrink Reserve Demand In Banking System",
     "source_name": "Monetary Matters with Jack Farley",
     "source_date": "2026-07-05",
@@ -32837,6 +33175,7 @@ const dashboardData = {
       "Should child labor rates show an uptick, it would undermine the positive historical trend and potentially shift investment focus away from sectors relying on this data.",
       "If the number of smartphone users plateaus or declines, it could indicate a saturation point has been reached, affecting the democratization of information narrative."
     ],
+    "schema_version": 1,
     "insight_title": "Don\u2019t Follow Your Passion | Ben Horowitz\u2019s Advice for New Graduates",
     "source_name": "The a16z Show",
     "source_date": "2026-07-06",
@@ -32909,6 +33248,7 @@ const dashboardData = {
       "A lack of significant growth in the usage of AI agents in enterprise software, as measured by metrics like the number of AI-driven transactions or workflow completions, could challenge the thesis of AI agents becoming primary users.",
       "Enterprises reverting to traditional user interface-centric software solutions due to complexity or cost issues with headless architectures would undermine the argument for a shift in software design."
     ],
+    "schema_version": 1,
     "insight_title": "Is Software Losing Its Head?",
     "source_name": "The a16z Show",
     "source_date": "2026-07-07",
@@ -32962,6 +33302,7 @@ const dashboardData = {
       "A sustained decrease in retail investor participation in Japan's markets could indicate a loss of confidence in the governance reforms and market performance.",
       "If hedge fund returns, particularly for liquid strategies, consistently underperform market benchmarks, it could signal a reduced demand and shift in investor preferences."
     ],
+    "schema_version": 1,
     "insight_title": "Breaking Down the Multi-Manager Playbook: How This $19B CIO Thinks About Alpha | Sean McGould | The Lighthouse Group",
     "source_name": "Monetary Matters with Jack Farley",
     "source_date": "2026-07-07",
@@ -33014,6 +33355,7 @@ const dashboardData = {
       "A decline in global investor interest or a failure to secure funding in new markets would challenge Flow's scalability narrative.",
       "If remote work trends reverse and there is a mass return to traditional office settings, the demand for Flow's flexible living solutions may diminish."
     ],
+    "schema_version": 1,
     "insight_title": "Adam Neumann: This Is How You Build Iconic Companies",
     "source_name": "The a16z Show",
     "source_date": "2026-07-08",
@@ -33062,6 +33404,7 @@ const dashboardData = {
       "Should customer testimonials and case studies not validate the improved developer and agent experience claimed by Model's unique runtime, it would undermine the company's value proposition.",
       "A failure in the widespread adoption of speculative decoding and D Flash technology within the next year would suggest that these innovations are not as disruptive as initially thought."
     ],
+    "schema_version": 1,
     "insight_title": "Why AI Infrastructure must evolve for Agent Experience \u2014 Akshat Bubna, Modal CTO",
     "source_name": "Latent Space: The AI Engineer Podcast",
     "source_date": "2026-07-08",
@@ -33110,6 +33453,7 @@ const dashboardData = {
       "If there is a consistent pattern of AI and biology tools developed by CZI not being adopted or utilized effectively by the scientific community, it would suggest that the initiative is not meeting its goals.",
       "A lack of peer-reviewed publications or significant scientific advancements attributing their success to tools developed by CZI would indicate that their approach is not yielding the expected results."
     ],
+    "schema_version": 1,
     "insight_title": "Mark Zuckerberg & Priscilla Chan: How AI Will Help Cure Disease",
     "source_name": "The a16z Show",
     "source_date": "2026-07-09",
@@ -33159,6 +33503,7 @@ const dashboardData = {
       "Publicly reported reductions in AI investment by major tech companies like Google or SpaceX.",
       "A lack of progress in AI's ability to understand intent and provide solutions, as evidenced by stagnant or declining performance metrics in AI reasoning and inference tasks."
     ],
+    "schema_version": 1,
     "insight_title": "Open Source Wins, AGI Is Here, and Scorsese's AI Toolkit with CEOs of Cerebras & Black Forest Labs",
     "source_name": "All-In with Chamath, Jason, Sacks & Friedberg",
     "source_date": "2026-07-10",
@@ -33233,6 +33578,7 @@ const dashboardData = {
       "Should academic research fail to produce actionable insights for blockchain development, the convergence narrative loses credibility.",
       "A significant security breach in a proof of stake blockchain would challenge the assertion that these mechanisms improve security."
     ],
+    "schema_version": 1,
     "insight_title": "How Bitcoin Rewired a Classic Computer Science Problem",
     "source_name": "The a16z Show",
     "source_date": "2026-07-10",
@@ -33304,6 +33650,7 @@ const dashboardData = {
       "Detection of a violation of the equivalence principle, a cornerstone of general relativity, in a high-precision experiment would cast doubt on the theory's validity.",
       "If future space-based experiments find that the geodesic deviation predicted by general relativity does not match observed motion of celestial bodies, it would suggest a need to revise or extend the theory."
     ],
+    "schema_version": 1,
     "insight_title": "Adam Brown \u2013 Einstein's happiest thought: General Relativity from scratch",
     "source_name": "Dwarkesh Podcast",
     "source_date": "2026-07-10",
@@ -33355,6 +33702,7 @@ const dashboardData = {
       "Failure of any of the discussed companies to go public within the next 12 months, which would indicate a weaker market for tech IPOs than the hosts predict.",
       "A decline in the performance of verticalized AI models in specific industries, suggesting that the market may not be ready for such specialized solutions."
     ],
+    "schema_version": 1,
     "insight_title": "More Trillion Dollar IPOs, Anthropic $3T, Zuck's Price War, China Ends Open Source?, Trump Accounts",
     "source_name": "All-In with Chamath, Jason, Sacks & Friedberg",
     "source_date": "2026-07-11",
@@ -33419,6 +33767,7 @@ const dashboardData = {
       "A failure of distributed systems to scale efficiently under increased computational demands could indicate that the current replication protocols are reaching their limits, reducing the viability of blockchain applications.",
       "If academic research or industry developments produce a new consensus mechanism that significantly outperforms state machine replication in terms of security and efficiency, it could undermine the current blockchain protocols based on Liskov's work."
     ],
+    "schema_version": 1,
     "insight_title": "Before Blockchains, There Was State Machine Replication",
     "source_name": "The a16z Show",
     "source_date": "2026-07-13",
@@ -33469,6 +33818,7 @@ const dashboardData = {
       "A failure by any of the new entrants to maintain their position at the 'optimal frontier' in subsequent AI performance benchmarks.",
       "A major security breach or failure in an AI system that leads to increased regulation, slowing down the pace of innovation and deployment."
     ],
+    "schema_version": 1,
     "insight_title": "The AI Duopoly Is Over: Grok 4. 5 , GPT-5 . 6 , and Muse Spark in One Week | #270",
     "source_name": "Moonshots with Peter Diamandis",
     "source_date": "2026-07-13",
@@ -33522,6 +33872,7 @@ const dashboardData = {
       "If the company's employee turnover rate increases significantly, it may suggest issues with maintaining company culture during rapid growth.",
       "A decrease in the number of new partnerships or a failure to integrate frontier AI models could indicate a weakening competitive position in the market."
     ],
+    "schema_version": 1,
     "insight_title": "The Trillion-Dollar Industries AI Is Disrupting: Voice, Law & the End of the Billable Hour",
     "source_name": "All-In with Chamath, Jason, Sacks & Friedberg",
     "source_date": "2026-07-13",
@@ -33594,6 +33945,7 @@ const dashboardData = {
       "A significant drop in the market share of tech giants like Google and Nvidia in the AI hardware market could indicate a shift in competitive dynamics.",
       "Should consumer internet companies fail to adopt chatbot interfaces or see a decline in user engagement with such interfaces, it would question the potential for this shift in the market structure."
     ],
+    "schema_version": 1,
     "insight_title": "Is AI a Bubble? | Gavin Baker on Data Centers, GPUs, and the AI Economy",
     "source_name": "The a16z Show",
     "source_date": "2026-07-14",
@@ -33652,6 +34004,7 @@ const dashboardData = {
       "Major setbacks or failures in AI-driven scientific discoveries that question the efficiency and scalability of AI in research.",
       "A shift in national defense strategies away from AI reliance, indicating a reduced importance of AI in military capabilities."
     ],
+    "schema_version": 1,
     "insight_title": "The Semiconductor Earnings Boom Is Just Getting Started | Ben Pouladian on why AI is Real, Nvidia is Mispriced, and Capacitors Are Overrated",
     "source_name": "Monetary Matters with Jack Farley",
     "source_date": "2026-07-14",
@@ -33719,6 +34072,7 @@ const dashboardData = {
       "If there is a notable slowdown in the development and deployment of custom silicon tailored for AI applications, it could indicate that the importance of specialized hardware is diminishing.",
       "A shift in regulatory policies that restricts the export of AI technologies and hardware could disrupt the global competition and collaboration in the field, altering the dynamics of the AI race."
     ],
+    "schema_version": 1,
     "insight_title": "Can Anyone Catch NVIDIA? | The Future of Chips and Infrastructure",
     "source_name": "The a16z Show",
     "source_date": "2026-07-15",
@@ -33785,6 +34139,7 @@ const dashboardData = {
       "Should Apple's in-house silicon fail to maintain performance leadership, it would undermine the strategy of vertical integration highlighted by the guest.",
       "A significant slowdown in the growth of AI and cryptocurrency markets could reduce the demand for high-performance chips, affecting Nvidia's market position."
     ],
+    "schema_version": 1,
     "insight_title": "Former Intel CEO on What Went Wrong, What's Next + Lovable CEO on the Real Promise of Vibe Coding",
     "source_name": "All-In with Chamath, Jason, Sacks & Friedberg",
     "source_date": "2026-07-15",
@@ -33858,6 +34213,7 @@ const dashboardData = {
       "Should European countries successfully implement regulations that significantly slow down or stifle the development of AI technologies, potentially giving them a competitive edge.",
       "A significant increase in the number of AI startups in highly regulated industries, suggesting that permissionless innovation is no longer a driving force in Silicon Valley."
     ],
+    "schema_version": 1,
     "insight_title": "Replay 2025: David Sacks on AI, Crypto, and America's Technology Future",
     "source_name": "The a16z Show",
     "source_date": "2026-07-16",
@@ -33907,6 +34263,7 @@ const dashboardData = {
       "Should there be a significant technological breakthrough in traditional data processing methods that outperforms AI in terms of cost and efficiency, the investment thesis in AI-driven platforms could be reversed.",
       "If there is a lack of significant investment or regulatory support for AI in healthcare and life sciences, it could slow the adoption of these technologies and reduce the conviction in the investment thesis."
     ],
+    "schema_version": 1,
     "insight_title": "\ud83d\udd2c The Lab of the Future Should Feel Like a Data Center \u2014 Andy Beam & Rafa G\u00f3mez-Bombarelli, Lila Sciences",
     "source_name": "Latent Space: The AI Engineer Podcast",
     "source_date": "2026-07-16",
@@ -33956,6 +34313,7 @@ const dashboardData = {
       "A sustained period where markets that are expected to trend, like gold or oil, fail to do so, would undermine the effectiveness of their strategy.",
       "Should the portfolio experience a series of large losing trades without any significant trending markets to offset the losses, it would cast doubt on the resilience of their trend following approach."
     ],
+    "schema_version": 1,
     "insight_title": "Turbo Charged Trend Following: Why Capturing the Market\u2019s Biggest Trends Means Embracing High Volatility | Moritz Seibert & Moritz Heiden | Takahe Capital",
     "source_name": "Monetary Matters with Jack Farley",
     "source_date": "2026-07-16",
@@ -34028,6 +34386,7 @@ const dashboardData = {
       "Instances where CEOs or companies face backlash for being authentic on social media, indicating that the public may not always value authenticity as predicted.",
       "A pattern of PR crises that are not effectively managed by companies admitting mistakes, leading to lasting damage to their reputation and business performance."
     ],
+    "schema_version": 1,
     "insight_title": "Amjad Masad on Going Direct, Building Replit, and the Future of Software",
     "source_name": "The a16z Show",
     "source_date": "2026-07-17",
@@ -34076,6 +34435,7 @@ const dashboardData = {
       "Should the US government not move forward with the establishment of a Frontier AI standards body within the next year, it would indicate a slower adoption of regulation in AI, potentially delaying industry standardization.",
       "If there is a significant security breach or misuse of AI technology that causes harm, it could reduce the conviction in the need for AI regulation and the ability of the industry to self-regulate effectively."
     ],
+    "schema_version": 1,
     "insight_title": "Mira Murati's 975B Open Model, Ramin Hasani on Post-Transformer AI, and Demis' AI FINRA | EP #271",
     "source_name": "Moonshots with Peter Diamandis",
     "source_date": "2026-07-17",
@@ -34135,6 +34495,7 @@ const dashboardData = {
       "If major AI companies like Google, Microsoft, or Amazon publicly oppose the self-regulation proposal, it would reduce the likelihood of such a body being formed.",
       "The emergence of significant cybersecurity incidents or national security threats linked to AI models that were not caught by the proposed self-regulatory body would undermine the case for industry self-regulation."
     ],
+    "schema_version": 1,
     "insight_title": "Can the AI Industry Regulate Itself? Stripe Wants PayPal, China Catches Up, NY Bans Datacenters",
     "source_name": "All-In with Chamath, Jason, Sacks & Friedberg",
     "source_date": "2026-07-18",
@@ -34205,6 +34566,7 @@ const dashboardData = {
       "If Kimi K3 fails to maintain its in AI benchmarks within the next six months, it would suggest that the model's impact is less significant than initially thought.",
       "A significant breakthrough in a new AI architecture by either US or Chinese labs that outperforms Kimi K3 would challenge the current competitive landscape."
     ],
+    "schema_version": 1,
     "insight_title": "Urgent Update- AI Sputnik Moment: Kimi K3 Released w/ Emad Mostaque | Ep. 272",
     "source_name": "Moonshots with Peter Diamandis",
     "source_date": "2026-07-19",
@@ -34259,6 +34621,7 @@ const dashboardData = {
       "A series of successful exits and debt repayments by private equity firms without resorting to high-risk financial engineering, indicating a healthier industry.",
       "Insurance companies demonstrating robust capital reserves and effective risk management practices that ensure policyholder funds are secure and not overexposed to private credit risks."
     ],
+    "schema_version": 1,
     "insight_title": "Nick Nemeth: Private Credit Will Blow-up Insurance System | Immense Leverage, Shaky Loans, and Retirement System That Actually Does Have Run Risk (via Surrenders)",
     "source_name": "Monetary Matters with Jack Farley",
     "source_date": "2026-07-20",
@@ -34318,6 +34681,7 @@ const dashboardData = {
       "Should the adoption of local AI models not increase or if they fail to deliver on cost efficiency and privacy, the thesis of their market disruption would be weakened.",
       "A significant increase in cyber security threats linked to open source AI models would challenge the perception of their safety."
     ],
+    "schema_version": 1,
     "insight_title": "Hugging Face's CEO on Open Source AI, Model Routing, and the Future of Competition",
     "source_name": "The a16z Show",
     "source_date": "2026-07-20",
@@ -34372,6 +34736,7 @@ const dashboardData = {
       "A regulatory crackdown on autonomous systems that slows down or halts their deployment would challenge the growth of physical AI companies.",
       "Failures in safety or significant accidents involving autonomous systems could erode public trust and slow the adoption of physical AI, affecting Applied Intuition's growth."
     ],
+    "schema_version": 1,
     "insight_title": "Why Physical AI Is the Next Frontier | Applied Intuition",
     "source_name": "The a16z Show",
     "source_date": "2026-07-21",
@@ -34422,6 +34787,7 @@ const dashboardData = {
       "Technological advancements in AI and data centers do not materialize as expected, maintaining the status quo and not disrupting current investments.",
       "The number of companies going public at the $100 million IPO level does not increase, suggesting that the market is not as bubbly as the hosts predict."
     ],
+    "schema_version": 1,
     "insight_title": "Mark Cuban on the AI Bubble: Who Actually Gets Wiped Out?",
     "source_name": "All-In with Chamath, Jason, Sacks & Friedberg",
     "source_date": "2026-07-20",
@@ -34476,6 +34842,7 @@ const dashboardData = {
       "Reduction in the volume or quality of data Xero can access, which could hinder the training and accuracy of their AI models.",
       "Regulatory setbacks or increased scrutiny from the FDA on AI-driven drug discovery processes, potentially slowing down the drug approval process."
     ],
+    "schema_version": 1,
     "insight_title": "\ud83d\udd2cCausal Models Need Causal Data - Xaira\u2019s X-Cell model for Drug Discovery (Bo Wang & Ci Chu, Chief Discovery Officer & Chief AI Scientist)",
     "source_name": "Latent Space: The AI Engineer Podcast",
     "source_date": "2026-07-21",
@@ -34523,6 +34890,7 @@ const dashboardData = {
       "If key players in the food delivery space, such as DoorDash or Grubhub, successfully integrate advanced robotics and AI into their operations ahead of CloudKitchens, it would undermine Kalanick's competitive advantage in the sector.",
       "A lack of substantial investment or partnerships in industrial AI and robotics by major technology companies would cast doubt on the imminent arrival of a physical technology revolution as predicted by Kalanick."
     ],
+    "schema_version": 1,
     "insight_title": "Travis Kalanick Is Back | Building the Future of Industrial AI",
     "source_name": "The a16z Show",
     "source_date": "2026-07-22",
@@ -34572,6 +34940,7 @@ const dashboardData = {
       "Should major tech companies like Google or OpenAI release breakthroughs in AI that render Poolside AI's models obsolete or less competitive, it would challenge the thesis of the importance of scaling in AI development.",
       "If Poolside AI fails to secure further funding or partnerships, it could signal that the market does not value the open-source approach to AI development as highly as suggested."
     ],
+    "schema_version": 1,
     "insight_title": "Inside the Model Factory \u2014 Eiso Kant, Poolside AI",
     "source_name": "Latent Space: The AI Engineer Podcast",
     "source_date": "2026-07-23",
@@ -34622,6 +34991,7 @@ const dashboardData = {
       "If the company's technology does not achieve or maintain better than human productivity levels across a variety of mining and food production environments, the core value proposition would be weakened.",
       "Failure to secure additional significant funding rounds could indicate a lack of market confidence in the scalability of the industrial AI solution."
     ],
+    "schema_version": 1,
     "insight_title": "Building the Physical AI Stack | Travis Kalanick on TBPN",
     "source_name": "The a16z Show",
     "source_date": "2026-07-23",
@@ -34692,6 +35062,7 @@ const dashboardData = {
       "Should frontier labs report stable or increasing gross margins despite the rise of open-source models, it could indicate that they have successfully adapted or that the pricing pressure is less severe than anticipated.",
       "If there is a notable decrease in the frequency of security breaches or vulnerabilities reported in open-source AI models, it would challenge the current belief in their superior security due to transparency and widespread inspection."
     ],
+    "schema_version": 1,
     "insight_title": "Sriram Krishnan on Open Source AI's Biggest Week Yet",
     "source_name": "The a16z Show",
     "source_date": "2026-07-24",
@@ -34739,6 +35110,7 @@ const dashboardData = {
       "Prolonged underperformance of AI-focused companies or funds relative to the broader market could indicate that the market is not valuing AI as highly as the podcast suggests.",
       "If advancements in AI do not lead to material improvements in sectors like healthcare and education within the next 5 years, it could signal that the transformative potential of AI is overestimated."
     ],
+    "schema_version": 1,
     "insight_title": "The Hugging Face Breach, Moonshot AI Valued at $20B, and Living to 1,759 Years Old | EP #273",
     "source_name": "Moonshots with Peter Diamandis",
     "source_date": "2026-07-24",
@@ -34788,6 +35160,7 @@ const dashboardData = {
       "Anthropic publicly committing to effective measures to curb distillation practices would challenge the narrative of needing government protection.",
       "A significant slowdown in the commoditization of AI models, as indicated by a sustained performance advantage by proprietary models over open-source alternatives, would weaken the case for a shift in valuation towards the application layer and infrastructure."
     ],
+    "schema_version": 1,
     "insight_title": "The Fight Over Open Source AI, Anthropic's $1.5B Payout, NYC Socialists: Evictions = Violence?",
     "source_name": "All-In with Chamath, Jason, Sacks & Friedberg",
     "source_date": "2026-07-24",
@@ -34838,6 +35211,7 @@ const dashboardData = {
       "Decreased community involvement or contributions to open source AI projects could undermine the innovation advantage claimed for these models.",
       "A shift in academic and startup preferences towards proprietary AI models could disrupt the balance and level playing field that open source AI currently provides."
     ],
+    "schema_version": 1,
     "insight_title": "Ben Horowitz: The Fight Over Open Source AI",
     "source_name": "The a16z Show",
     "source_date": "2026-07-26",
@@ -34888,6 +35262,7 @@ const dashboardData = {
       "Widespread defaults or credit downgrades in the private credit market that are not sector-specific or isolated to a few funds.",
       "A sharp increase in interest rates that outpaces the ability of companies to adjust, leading to a rapid deterioration in interest coverage ratios."
     ],
+    "schema_version": 1,
     "insight_title": "Debt Service Coverage in Private Markets Is Improving, Actually | Nicholas Brooks",
     "source_name": "Monetary Matters with Jack Farley",
     "source_date": "2026-07-26",
@@ -34939,6 +35314,7 @@ const dashboardData = {
       "If the synergy between World Lab and Sinex does not materialize as expected, it could impede the development of a robust multimodal robotics model.",
       "A lack of significant progress in simulation technology that meets the needs of spatial intelligence AI could indicate that the current approach to robotics development is flawed."
     ],
+    "schema_version": 1,
     "insight_title": "Fei-Fei Li on Spatial Intelligence and Robotics",
     "source_name": "The a16z Show",
     "source_date": "2026-07-28",
@@ -34989,6 +35365,7 @@ const dashboardData = {
       "Should global aging trends reverse or significant technological advancements in healthcare and retirement planning emerge, reducing the strain on entitlement programs, the demand for yield curve control might diminish.",
       "The implementation of effective fiscal policies that successfully manage or reduce the debt-to-GDP ratio could weaken the case for yield curve control."
     ],
+    "schema_version": 1,
     "insight_title": "Luke Gromen: Yield Curve Control is the Only Way to Stop a Global Bond Crisis",
     "source_name": "Monetary Matters with Jack Farley",
     "source_date": "2026-07-28",
@@ -35037,6 +35414,7 @@ const dashboardData = {
       "A sustained rise in inflation that does not respond to current Fed policy would undermine the argument that the Fed can effectively manage inflation expectations without aggressive rate hikes.",
       "Should productivity levels fail to improve significantly, it would cast doubt on the potential for a productivity-driven absorption of inflation, Vera's outlook on the Fed's policy direction."
     ],
+    "schema_version": 1,
     "insight_title": "Mum\u2019s The Word: Kathryn Rooney Vera on Fed\u2019s Second Meeting under Kevin Warsh, Plus Earnings Breakdown (Live Replay)",
     "source_name": "Monetary Matters with Jack Farley",
     "source_date": "2026-07-29",
@@ -35101,6 +35479,7 @@ const dashboardData = {
       "Should major studios like Amazon and Netflix fail to successfully launch and monetize AI-generated animation programs as announced.",
       "If the creator economy does not expand as expected, with individual creators and small teams not achieving significant viewership or monetization with AI-native content."
     ],
+    "schema_version": 1,
     "insight_title": "AI Micro Dramas, Generative Media, and the Future of Creativity",
     "source_name": "The a16z Show",
     "source_date": "2026-07-29",
@@ -35150,6 +35529,7 @@ const dashboardData = {
       "Should OpenAI fail to maintain a consistent user experience across Codex and ChatGPT Work, leading to a significant user exodus, it would challenge the company's strategy of a shared harness.",
       "If enterprise adoption of AI solutions plateaus without significant growth, it could indicate that the tailored approach to enterprise needs is not effective, undermining the thesis of AI's broad applicability."
     ],
+    "schema_version": 1,
     "insight_title": "Codex from 0 to 10M Users: Building ChatGPT Work \u2014 Akshay Nathan, OpenAI",
     "source_name": "Latent Space: The AI Engineer Podcast",
     "source_date": "2026-07-28",
@@ -35198,6 +35578,7 @@ const dashboardData = {
       "Should the cost of sensors and AI components used in these robots decrease significantly due to technological advancements, the current pricing model might become unsustainable.",
       "A significant increase in the number of accidents or failures during robot operations could undermine confidence in the technology, reducing demand."
     ],
+    "schema_version": 1,
     "insight_title": "The $1/Hour Worker: Four Robotics CEOs on Humanoids at Home, China's Threat, and the End of Dangerous Jobs",
     "source_name": "All-In with Chamath, Jason, Sacks & Friedberg",
     "source_date": "2026-07-28",
@@ -35247,6 +35628,7 @@ const dashboardData = {
       "If the adoption rate of AI-driven administrative tools in healthcare practices remains below 10% over the next 5 years, it could indicate that the technology is not meeting the needs of small businesses.",
       "A lack of improvement in doctor satisfaction or work-life balance metrics, despite the deployment of AI in administrative tasks, would challenge the narrative of AI freeing up valuable time for healthcare professionals."
     ],
+    "schema_version": 1,
     "insight_title": "AI for America's Small Businesses | Lassie",
     "source_name": "The a16z Show",
     "source_date": "2026-07-30",
@@ -35296,6 +35678,7 @@ const dashboardData = {
       "Should open source models fail to maintain or improve their performance on specific tasks compared to proprietary models, the advantage of using open source for task-specific optimization would be challenged.",
       "If enterprises widely adopt in-house model training with open source and experience higher costs or lower performance than anticipated, the cost and performance benefits of open source models could be questioned."
     ],
+    "schema_version": 1,
     "insight_title": "How Enterprise AI Really Gets Deployed",
     "source_name": "The a16z Show",
     "source_date": "2026-07-31",
@@ -35367,6 +35750,7 @@ const dashboardData = {
       "A sustained increase in global chip supply that outpaces demand could erode the pricing power of chip companies, undermining the bullish case for the sector.",
       "If there is a significant slowdown in AI development or a shift in tech priorities away from AI, the growth prospects for chip companies tied to AI could be severely curtailed."
     ],
+    "schema_version": 1,
     "insight_title": "Chip Stocks Crash, $20B Fund Margin Called, Frontier Labs: SLOW DOWN AI, Mamdani's Grocery Stores",
     "source_name": "All-In with Chamath, Jason, Sacks & Friedberg",
     "source_date": "2026-07-31",
@@ -35442,6 +35826,7 @@ const dashboardData = {
       "If there is a significant security breach or fraud incident within the stablecoin market that undermines consumer confidence, it could challenge the narrative of blockchain's security and performance.",
       "A shift in global crypto innovation leadership to another country, evidenced by a decrease in U.S.-based crypto startups or a migration of blockchain-related businesses abroad, would indicate a failure in maintaining a conducive regulatory environment."
     ],
+    "schema_version": 1,
     "insight_title": "Marc Andreessen and Chris Dixon: What\u2019s at Stake in Crypto Regulation",
     "source_name": "The a16z Show",
     "source_date": "2026-08-01",
@@ -35503,6 +35888,7 @@ const dashboardData = {
       "A substantial decrease in the number of users engaging with AI-driven applications, indicating a reduced impact of technology on daily life.",
       "The emergence of a unified digital language or behavior across different online communities, reducing the necessity for specialized understanding of subcultures."
     ],
+    "schema_version": 1,
     "insight_title": "Ruby Thelot on Internet Culture, AI, and the Future of Taste",
     "source_name": "The a16z Show",
     "source_date": "2026-08-02",
@@ -35551,6 +35937,7 @@ const dashboardData = {
       "A significant and sustained increase in inflation that forces central banks to aggressively tighten monetary policy.",
       "A sharp decline in liquidity measures, indicating a drying up of funds available for investment in risk assets."
     ],
+    "schema_version": 1,
     "insight_title": "Why Macro is \u201cPretty Risk-On\u201d for Equities | Tian Yang of Variant Perception",
     "source_name": "Monetary Matters with Jack Farley",
     "source_date": "2026-08-02",
@@ -35607,6 +35994,7 @@ const dashboardData = {
       "A sustained decrease in spot prices for compute below the 40% increase since February would indicate a softening market, contradicting the need for higher compute prices.",
       "If the share of compute spent on inference by leading AI companies were to decrease, it would suggest that the industry is not prioritizing inference as a growth strategy."
     ],
+    "schema_version": 1,
     "insight_title": "Why smarter AI models could drive up compute prices 10x",
     "source_name": "Dwarkesh Podcast",
     "source_date": "2026-08-03",
@@ -35676,6 +36064,7 @@ const dashboardData = {
       "The emergence of a new technology that allows for more efficient handling of long queries, reducing the need for complex routing and caching strategies.",
       "A substantial decrease in the volume of queries processed by Baseten, which would challenge the economic rationale for dedicated deployments over public model APIs."
     ],
+    "schema_version": 1,
     "insight_title": "The Inference Engineering Masterclass \u2014 Philip Kiely & Ali Taha, Baseten",
     "source_name": "Latent Space: The AI Engineer Podcast",
     "source_date": "2026-08-03",
@@ -35722,6 +36111,7 @@ const dashboardData = {
       "If the S&P 500 experiences a period of low volatility and stable earnings growth that persists for more than two years, the hypothesis about the dominance of extrapolators and corporate equity activity would be challenged.",
       "A sustained period where market movements are consistently predictable based on fundamental earnings growth would undermine the argument against the random walk theory."
     ],
+    "schema_version": 1,
     "insight_title": "Victor Haghani on Death of Random Walk, and Passive, Buybacks, and LTCM",
     "source_name": "Monetary Matters with Jack Farley",
     "source_date": "2026-08-04",
@@ -35783,6 +36173,7 @@ const dashboardData = {
       "Should there be a significant delay in the Genesis Mission or the establishment of a lunar base, it would challenge the narrative of rapid scientific progress and government efficiency.",
       "A lack of tangible outcomes from the 'Golden Age of Science' within the projected timelines would suggest that the ambitious goals set by Kratsios may not be achievable."
     ],
+    "schema_version": 1,
     "insight_title": "Michael Kratsios on the New Golden Age of American Science | EP #276",
     "source_name": "Moonshots with Peter Diamandis",
     "source_date": "2026-08-04",
@@ -35847,6 +36238,7 @@ const dashboardData = {
       "The emergence of a new AI model that consistently resists attempts at data poisoning or manipulation, even with substantial computational resources, would suggest that the risks are overstated.",
       "A lack of reported incidents where AI models are used to identify and patch vulnerabilities quickly, which would indicate that the defensive capabilities of AI are not as advanced as claimed."
     ],
+    "schema_version": 1,
     "insight_title": "OpenAI's Joshua Achiam: Did We Already Reach AGI?",
     "source_name": "The a16z Show",
     "source_date": "2026-08-04",
@@ -35896,6 +36288,7 @@ const dashboardData = {
       "If Marianna Mineroles does not achieve breakthroughs in mineral extraction technology, it could struggle to differentiate itself in a competitive market.",
       "A failure by Radiant to meet safety and regulatory standards for nuclear micro-reactors would undermine investor confidence and delay market entry."
     ],
+    "schema_version": 1,
     "insight_title": "Three Startups Reinventing Critical Infrastructure",
     "source_name": "The a16z Show",
     "source_date": "2026-08-05",
@@ -35944,6 +36337,7 @@ const dashboardData = {
       "Should the U.S. Navy adopt autonomous ship technology on a large scale, reducing the reliance on traditional shipbuilding methods.",
       "In the event of a significant decrease in China's shipbuilding subsidies, altering the cost dynamics of global ship production."
     ],
+    "schema_version": 1,
     "insight_title": "Saronic Founders: Autonomous Warships, China's 230X Advantage & Swarms of Robot Ships",
     "source_name": "All-In with Chamath, Jason, Sacks & Friedberg",
     "source_date": "2026-08-05",
@@ -35997,6 +36391,7 @@ const dashboardData = {
       "The emergence of proprietary models that offer substantially better performance or cost efficiency, leading to a decrease in the use of open source models.",
       "A lack of innovation in open source AI models, where proprietary models consistently outperform them, indicating a failure to close the capability gap."
     ],
+    "schema_version": 1,
     "insight_title": "How Open-Source AI Became Critical Infrastructure",
     "source_name": "The a16z Show",
     "source_date": "2026-08-06",
@@ -36055,6 +36450,7 @@ const dashboardData = {
       "A lack of new vulnerabilities being discovered in major software supply chains would challenge the narrative of increasing threats.",
       "Should organizations report successful implementation of robust patching processes that keep pace with AI-driven threats, it might indicate that the risks are manageable and not as pressing as suggested."
     ],
+    "schema_version": 1,
     "insight_title": "The Reality of AI-Powered Cyberattacks | Truffle Security & Socket",
     "source_name": "The a16z Show",
     "source_date": "2026-08-07",
@@ -36126,6 +36522,7 @@ const dashboardData = {
       "A significant decline in the number of AI deployments or a marked reduction in the diversity of AI training data would challenge the claim that continual learning leads to more robust and versatile AI systems.",
       "If the cost of switching AI models does not increase as predicted, this could indicate that the personalized context accumulation is not as significant a factor in user retention as suggested."
     ],
+    "schema_version": 1,
     "insight_title": "8 Predictions for the Era of Continual Learning",
     "source_name": "Dwarkesh Podcast",
     "source_date": "2026-08-07",
@@ -36195,6 +36592,7 @@ const dashboardData = {
       "A significant decrease in the energy demand for AI, which would reduce the need for hyperscalers to bring their own power and thus impact the companies benefiting from this trend.",
       "Hyperscalers reducing their capital expenditures on AI, which would decrease the demand for GPUs and other infrastructure, affecting the companies that Pernos Research is bullish on."
     ],
+    "schema_version": 1,
     "insight_title": "Misunderstood Stocks in Data Center Power, Cybersecurity, and Payments | Dean & Deiya Pernas",
     "source_name": "Monetary Matters with Jack Farley",
     "source_date": "2026-08-07",
@@ -36259,6 +36657,7 @@ const dashboardData = {
       "A significant data breach or failure in AI ethics at Google or DeepMind could slow the adoption of AI technology and disrupt the current trajectory.",
       "A decline in venture capital investment in AI and space technology startups could signal a reduced belief in the growth potential of these sectors."
     ],
+    "schema_version": 1,
     "insight_title": "Google\u2019s Jeff Dean Exits, SpaceX Hits $100B in Rev & OpenAI\u2019s Astra Solves Decade-Old Math Problems with Emad Mostaque | EP #277",
     "source_name": "Moonshots with Peter Diamandis",
     "source_date": "2026-08-08",
@@ -36311,6 +36710,7 @@ const dashboardData = {
       "Kavak's customer lifetime value metrics do not show significant improvement over time.",
       "Kavak's AI agents are unable to work effectively alongside humans, leading to increased friction and reduced productivity."
     ],
+    "schema_version": 1,
     "insight_title": "How Kavak Rebuilt Itself Around AI Agents | Alejandro Maza Ayala",
     "source_name": "The a16z Show",
     "source_date": "2026-08-10",
@@ -36359,6 +36759,7 @@ const dashboardData = {
       "Should the adoption rate of AI tools by engineers plateau or decline, it would challenge the assertion that AI is rapidly transforming enterprise operations.",
       "A lack of significant investment in AI security solutions by leading tech companies would cast doubt on the urgency and value of AI in enhancing security measures."
     ],
+    "schema_version": 1,
     "insight_title": "The CISO Playbook for AI Agents | Datadog",
     "source_name": "The a16z Show",
     "source_date": "2026-08-11",
@@ -36416,6 +36817,7 @@ const dashboardData = {
       "The emergence of technical limitations or bottlenecks in AI development that cannot be overcome within the projected timeframe would invalidate the expectation of quick progression to superintelligence.",
       "Observed ethical and security measures that effectively slow down or halt the recursive self-improvement of AI, contradicting the prediction of rapid advancement towards superintelligence."
     ],
+    "schema_version": 1,
     "insight_title": "Ryan Greenblatt \u2013 Human level AIs might build runaway superintelligences by 2032",
     "source_name": "Dwarkesh Podcast",
     "source_date": "2026-08-11",
@@ -36470,6 +36872,7 @@ const dashboardData = {
       "If major AI labs globally report successful containment of their AI models, it would contradict the narrative of AI models 'escaping containment' and reduce the urgency of the discussed phenomenon.",
       "A significant decrease in the demand for compute power or a technological breakthrough that makes current compute resources obsolete would undermine the comparison of compute to oil and its importance in the modern enterprise."
     ],
+    "schema_version": 1,
     "insight_title": "Sergey Brin Retakes Gemini, 4 Labs Lose Containment, Compute Trades at NYSE w/ Kush Bavaria | EP #278",
     "source_name": "Moonshots with Peter Diamandis",
     "source_date": "2026-08-11",
@@ -36521,6 +36924,7 @@ const dashboardData = {
       "Should key partnerships with pharmaceutical companies like Eli Lilly and Pfizer not result in successful clinical candidates, it would undermine the perceived value of Try Discovery's AI-driven approach.",
       "A failure to attract and retain top talent in the competitive AI and biology fields could signal a weakening of Try Discovery's ability to innovate and maintain a competitive edge."
     ],
+    "schema_version": 1,
     "insight_title": "\ud83d\udd2cThe BioAI Phase Shift - Matthew McPartlon & Neil Patil, Chai Discovery",
     "source_name": "Latent Space: The AI Engineer Podcast",
     "source_date": "2026-08-11",
@@ -36569,6 +36973,7 @@ const dashboardData = {
       "If the number of successful startups led by founders with deep domain knowledge but without AI integration plateaus or declines, it would suggest that AI is not as crucial as posited for startup success.",
       "A sustained period where startups led by trend-chasers outperform those founded on deep domain knowledge would invalidate the importance of founders following their unique knowledge."
     ],
+    "schema_version": 1,
     "insight_title": "Garry Tan on Taste, Agents and Founder Ambition",
     "source_name": "The a16z Show",
     "source_date": "2026-08-12",
@@ -36618,6 +37023,7 @@ const dashboardData = {
       "Failure of the S&P 500 to maintain above its June lows would indicate a breakdown of the positive divergence Berg identified.",
       "A sharp increase in bond yields contrary to Berg's prediction would undermine his thesis on the long-term outlook for bonds."
     ],
+    "schema_version": 1,
     "insight_title": "Milton Berg: I Have Evidence Market Has Likely Bottomed | Why Milton\u2019s Long Semis, Korea, Nasdaq, and More (With Caveats), and Why He Thinks Gold has made a Multi-year Top",
     "source_name": "Monetary Matters with Jack Farley",
     "source_date": "2026-08-12",
@@ -36666,6 +37072,7 @@ const dashboardData = {
       "Should China's economic policies lead to a significant decrease in global trade tensions, Emanuel's critique of China's strategy for global dependence might be weakened.",
       "An increase in global cooperation and successful economic blocs that counter China's influence would undermine Emanuel's call for a unified economic front against China."
     ],
+    "schema_version": 1,
     "insight_title": "Rahm Emanuel: Trump's Foreign Policy, China, Europe's Decline, Immigration & DSA vs Democrats",
     "source_name": "All-In with Chamath, Jason, Sacks & Friedberg",
     "source_date": "2026-08-13",
@@ -36715,6 +37122,7 @@ const dashboardData = {
       "A prolonged economic downturn that leads to budget cuts in companies, reducing the of the land grab strategy as existing budgets dry up.",
       "A failure of AI startups to deliver on promised efficiencies and cost savings, leading to a loss of confidence among potential enterprise customers in both strategies."
     ],
+    "schema_version": 1,
     "insight_title": "The Two Ways to Sell AI: Lighthouse or Landgrab?",
     "source_name": "The a16z Show",
     "source_date": "2026-08-13",
@@ -36768,6 +37176,7 @@ const dashboardData = {
       "A significant security breach or misuse of AI technology that leads to regulatory crackdowns, as hinted by the discussion on Bernie Sanders' letter.",
       "Failure of Grok 4.7 to meet the hype, reflected in a lack of significant advancements or applications in AI, which would challenge the narrative of rapid AI progress."
     ],
+    "schema_version": 1,
     "insight_title": "Bernie Demands the Labs Stop, Wall Street Turns GPUs Into Bonds, Grok 4.7 Takes #1 with Emad Mostaque | EP #279",
     "source_name": "Moonshots with Peter Diamandis",
     "source_date": "2026-08-13",
@@ -36840,6 +37249,7 @@ const dashboardData = {
       "Should there be a significant increase in regulatory hurdles that impede the deployment of industrial AI, it could delay or reduce the impact of Kalanick's venture.",
       "If there is a lack of significant investment or interest from major players in the industries Kalanick is targeting, it could indicate a lower likelihood of success for his venture."
     ],
+    "schema_version": 1,
     "insight_title": "Ben Horowitz and Travis Kalanick on Building Again",
     "source_name": "The a16z Show",
     "source_date": "2026-08-14",
@@ -36890,6 +37300,7 @@ const dashboardData = {
       "Any public disclosure of Anduril's financials that show slowing growth or lower-than-expected revenues would challenge the current investment narrative.",
       "If open-source AI or Grok overtakes Anduril in terms of technological advancement or market share, it could diminish Anduril's competitive advantage and affect its valuation."
     ],
+    "schema_version": 1,
     "insight_title": "Anthropic's $2T IPO, Zuck's AI Manifesto, Nvidia's $500B AI Bet, Grok's Comeback",
     "source_name": "All-In with Chamath, Jason, Sacks & Friedberg",
     "source_date": "2026-08-14",
@@ -36953,6 +37364,7 @@ const dashboardData = {
       "If the debt markets show a sustained lack of appetite for the bond sales of hyperscaler companies, it could signal a reassessment of risk and a potential reduction in investment returns.",
       "Regulatory changes that increase the requirement for hyperscaler companies to bring these off-balance sheet liabilities onto their balance sheets could significantly alter the financial landscape and investor perceptions."
     ],
+    "schema_version": 1,
     "insight_title": "Robin Wigglesworth on Hyperscalers' 1.5 Trillion of Off-Balance Sheet Liabilities, Private Credit, and His Book \"A Fabulous Debt\"",
     "source_name": "Monetary Matters with Jack Farley",
     "source_date": "2026-08-16",
@@ -37010,6 +37422,7 @@ const dashboardData = {
       "Discovery Loop fails to secure significant funding or makes no notable progress in deep scientific breakthroughs within the first year.",
       "US tax laws change, reducing the advantages of investing in AI compute infrastructure, impacting the strategic rationale for such investments."
     ],
+    "schema_version": 1,
     "insight_title": "Google's AI Brain Drain, SpaceX's Huge Quarter, Airtable's 90% Collapse, US Data Fuels China AI",
     "source_name": "All-In with Chamath, Jason, Sacks & Friedberg",
     "source_date": "2026-08-08",
@@ -37083,6 +37496,7 @@ const dashboardData = {
       "In the event that advancements in AI chip design do not materialize or fail to deliver the expected exponential growth in AI capabilities.",
       "If global intellectual property laws fail to adapt to the realities of AI-generated inventions, leading to a stagnation in innovation and protection of AI-related patents."
     ],
+    "schema_version": 1,
     "insight_title": "Fable 5 Is Back & Govt-Leashed, Altman Offers 5% of OpenAI & AI Grows Conscious | #269",
     "source_name": "Moonshots with Peter Diamandis",
     "source_date": "2026-07-08",
@@ -37133,6 +37547,7 @@ const dashboardData = {
       "A significant decrease in global geopolitical tensions could reduce the incentive for countries to diversify away from treasuries, thus supporting their value.",
       "The implementation of effective fiscal policies that successfully balance government spending and taxation could alleviate concerns about the sustainability of the treasuries market."
     ],
+    "schema_version": 1,
     "insight_title": "Interest Rates to 10%: Why the Treasury Market is the Real Speculative Bubble (Not AI) | Russell Clark",
     "source_name": "Monetary Matters with Jack Farley",
     "source_date": "2026-07-22",
@@ -37185,6 +37600,7 @@ const dashboardData = {
       "If Stripe's engineering teams begin to increase in size significantly, it could indicate that the efficiency gains from AI are not being realized as expected.",
       "A reduction in the number of new software products shipped by Stripe over time would contradict the claim of increased productivity and the ability to 'build everything'."
     ],
+    "schema_version": 1,
     "insight_title": "Stripe\u2019s AI Strategy: Build More, Not Less",
     "source_name": "The a16z Show",
     "source_date": "2026-08-17",
@@ -37235,6 +37651,7 @@ const dashboardData = {
       "A legislative push at the federal or state level that restricts or bans the use of license plate readers and safety cameras could limit Flock's operational scope and market potential.",
       "A substantial drop in the number of missing persons found or crimes solved using Flock's technology would indicate a decline in the company's impact and value proposition."
     ],
+    "schema_version": 1,
     "insight_title": "Flock CEO Garrett Langley on Controversy, \"Surveillance State\" Claims, and Privacy vs Safety",
     "source_name": "All-In with Chamath, Jason, Sacks & Friedberg",
     "source_date": "2026-08-18",
@@ -37294,6 +37711,7 @@ const dashboardData = {
       "The release of a new generation of security tools that successfully mitigate AI incidents without the need for dynamic, behavior-based approaches would challenge the necessity of evolving defense strategies.",
       "If enterprise AI integration does not reach the projected 50% by year-end, it could indicate slower adoption rates and reduced urgency for new security measures."
     ],
+    "schema_version": 1,
     "insight_title": "How Do You Defend Against AI That Can Hack?",
     "source_name": "The a16z Show",
     "source_date": "2026-08-18",
@@ -37344,6 +37762,7 @@ const dashboardData = {
       "A sharp increase in interest rates that makes leveraged buyouts less attractive could challenge AUA's moderate leverage strategy.",
       "A sustained period where family businesses show resistance to external investment or operational changes could indicate a reduced market opportunity for AUA's approach."
     ],
+    "schema_version": 1,
     "insight_title": "Ex-Goya COO on the $1.4 Trillion Family Business Opportunity in Three Consumer Sectors | Andy Unanue",
     "source_name": "Monetary Matters with Jack Farley",
     "source_date": "2026-08-18",
@@ -37406,6 +37825,7 @@ const dashboardData = {
       "A failure in trust and safety measures leading to a significant increase in fraudulent activities or user complaints, which could erode the platform's reputation and user base.",
       "A lack of growth in the number of small businesses built on the platform, indicating that whatnot is not effectively opening up new opportunities for entrepreneurs as hypothesized."
     ],
+    "schema_version": 1,
     "insight_title": "How Whatnot Built a Global Marketplace",
     "source_name": "The a16z Show",
     "source_date": "2026-08-19",
@@ -37455,6 +37875,7 @@ const dashboardData = {
       "A sustained decline in cross-border investment activities could challenge the thesis of borderless founders leveraging global networks for success.",
       "If there is a notable increase in the number of services available in international markets similar to those in the US, reducing the need for founders to build their own infrastructure, the unique advantage of borderless founders might be diminished."
     ],
+    "schema_version": 1,
     "insight_title": "How Global Networks Are Reshaping Startup Success",
     "source_name": "The a16z Show",
     "source_date": "2026-08-20",
@@ -37505,6 +37926,7 @@ const dashboardData = {
       "Should the Federal Reserve adopt a more aggressive hawkish stance and successfully control inflation, the rationale for increased long-end yields would be diminished.",
       "A material deceleration in the growth rate of entitlements, interest, and veterans benefits to below the growth rate of receipts would alter the fiscal dynamics discussed."
     ],
+    "schema_version": 1,
     "insight_title": "Why Bessent Blinked | Luke Gromen on Doubling of Treasury Buyback Plan to Tame Long-End Yields",
     "source_name": "Monetary Matters with Jack Farley",
     "source_date": "2026-08-20",
@@ -37553,6 +37975,7 @@ const dashboardData = {
       "A public acknowledgment or study from a reputable third party that refutes the claims of high job displacement rates due to AI would challenge the hosts' assertion of Anthropic's role in spreading fear.",
       "The passage of regulatory frameworks that effectively manage AI risks without stifling innovation would reduce concerns about regulatory capture by AI companies like Anthropic."
     ],
+    "schema_version": 1,
     "insight_title": "Dario Defends Himself, Datacenter Panic, AI Doomer Trap, Senate Toss-Up",
     "source_name": "All-In with Chamath, Jason, Sacks & Friedberg",
     "source_date": "2026-08-21",
@@ -37601,6 +38024,7 @@ const dashboardData = {
       "Elon Musk's companies, such as Tesla or SpaceX, fail to deliver on their exponential growth promises, undermining the 100x gains thesis.",
       "Regulatory bodies impose strict limitations on AI development, significantly slowing down the progress and potential of AI technologies."
     ],
+    "schema_version": 1,
     "insight_title": "OpenAI Pauses Frontier Training, Elon's 100X Prediction Lands, Robot Beats Usain Bolt with Emad Mostaque | EP#282",
     "source_name": "Moonshots with Peter Diamandis",
     "source_date": "2026-08-21",
@@ -37659,13 +38083,75 @@ const dashboardData = {
       "Should Simile AI fail to secure further funding or experience a notable decline in their valuation, it might suggest that the market is less convinced of the practical applications of AI simulation technology.",
       "If major tech companies do not adopt or invest in foundation models within the next two years, it could signal that the industry does not see these models as a critical component of future AI development."
     ],
+    "schema_version": 1,
     "insight_title": "Simulation: the new Scaling Law \u2014 Joon Sung Park, Simile AI",
     "source_name": "Latent Space: The AI Engineer Podcast",
     "source_date": "2026-08-21",
     "key_tickers": []
+  },
+  "436": {
+    "id": 425,
+    "insight_id": 436,
+    "podcast_episode_id": 421,
+    "overview": "The podcast delves into the nuances of healthcare AI, highlighting the critical need for real-world data to train AI models effectively. NG ZDN emphasizes the importance of aligning AI with the dynamic nature of healthcare, where the 'right decision' can change over time. Protege's approach to providing safe and aligned data is underscored by the recognition that synthetic data may be insufficient for training robust AI models in healthcare. The discussion also touches on the economic implications of AI in healthcare, suggesting that the value of AI is not only in its ability to perform tasks but also in its alignment with the evolving needs of the healthcare system.",
+    "key_takeaways_detailed": [],
+    "investment_thesis": "If the thesis that healthcare AI requires independent evaluation for real-world effectiveness is correct, investors should focus on companies that are at the forefront of providing these evaluation services or those that are developing AI models with a strong emphasis on real-world data and independent testing. The investment timeframe should be medium to long-term, as the integration of AI in healthcare is a gradual process. The thesis would be proven if independent evaluations become a standard part of healthcare AI deployment, and disproven if AI models are widely adopted without such evaluations.",
+    "ticker_analysis": {
+      "NVDA": {
+        "rationale": "NVIDIA is a key player in the AI hardware space, providing the GPUs that power many AI models. As healthcare AI becomes more reliant on real-world data and independent evaluation, the demand for powerful, efficient GPUs to process this data could increase, making NVIDIA a clean expression of the investment thesis.",
+        "positioning": "",
+        "risk": ""
+      }
+    },
+    "positioning_guidance": "",
+    "risk_factors": [],
+    "contrarian_signals": [],
+    "catalysts": [],
+    "related_insights": null,
+    "audio_timestamp_start": null,
+    "audio_timestamp_end": null,
+    "transcript_excerpt": null,
+    "created_at": "2026-08-24T07:03:02.197023",
+    "updated_at": "2026-08-24 12:03:02",
+    "episode_evidence": "- Models are going to be inhibited in their usefulness by the training data available for them.\n- In today's AI market, there is a need for the pricing to be accurate for equilibrium for clearing.",
+    "falsification_tracks": [
+      "A significant increase in the number of AI models that are successfully deployed in real-world clinical settings without the need for independent evaluation, suggesting that the current challenges in measuring performance are overstated.",
+      "The emergence of a widely accepted benchmarking system for healthcare AI that effectively measures performance in real-world clinical tasks, reducing the need for independent referees.",
+      "A substantial decrease in the number of AI models failing at tasks they are trained to perform, indicating that current methods of evaluating AI performance are sufficient.",
+      "Regulatory bodies implementing strict guidelines that effectively address the subtle biases and misalignments in AI models, reducing the need for independent testing in real clinical settings."
+    ],
+    "schema_version": 2,
+    "insight_title": "Why Medical AI Needs a Referee | Protege's Engy Ziedan",
+    "source_name": "The a16z Show",
+    "source_date": "2026-08-24",
+    "key_tickers": []
   }
 },
   suggestedTerms: [
+  {
+    "id": 603,
+    "term": "e-values",
+    "definition": "A measure of the value of technology, particularly in the context of AI and healthcare, which is used to assess the pricing and usefulness of different models and technologies.",
+    "investment_implications": "Understanding e-values is crucial for investors to differentiate between valuable and valueless technology in the AI market.",
+    "source_type": "auto_extracted",
+    "mention_count": 1,
+    "source_diversity": 1,
+    "relevance_score": 50,
+    "submitted_date": "2026-08-24 12:02:04",
+    "priority_score": 80
+  },
+  {
+    "id": 604,
+    "term": "Independent Referee",
+    "definition": "An entity or system that provides unbiased, continuous testing and evaluation of AI models in real clinical settings to ensure their performance and safety.",
+    "investment_implications": "Investing in companies that can serve as an independent referee for healthcare AI models is essential for validating their effectiveness and building trust in the technology.",
+    "source_type": "auto_extracted",
+    "mention_count": 1,
+    "source_diversity": 1,
+    "relevance_score": 50,
+    "submitted_date": "2026-08-24 12:02:04",
+    "priority_score": 80
+  },
   {
     "id": 602,
     "term": "Simulation",
@@ -37689,35 +38175,11 @@ const dashboardData = {
     "relevance_score": 50,
     "submitted_date": "2026-08-20 17:05:02",
     "priority_score": 80
-  },
-  {
-    "id": 598,
-    "term": "AI Marshall Plan",
-    "definition": "A proposed initiative modeled after the post-World War II Marshall Plan, aimed at creating a market for AI technology and fostering international cooperation.",
-    "investment_implications": "This plan could stimulate global demand for AI technology, creating opportunities for companies in the sector.",
-    "source_type": "auto_extracted",
-    "mention_count": 1,
-    "source_diversity": 1,
-    "relevance_score": 50,
-    "submitted_date": "2026-08-19 04:35:59",
-    "priority_score": 80
-  },
-  {
-    "id": 599,
-    "term": "Lag Hunt",
-    "definition": "A game theory model that emphasizes coordination and trust, contrasting with the competitive 'prisoner's dilemma'.",
-    "investment_implications": "Understanding the nature of the US-China AI race as a 'lag hunt' can influence investment strategies, focusing on collaboration over competition.",
-    "source_type": "auto_extracted",
-    "mention_count": 1,
-    "source_diversity": 1,
-    "relevance_score": 50,
-    "submitted_date": "2026-08-19 04:35:59",
-    "priority_score": 80
   }
 ],
   podcastGuests: [
   {
-    "id": 57253,
+    "id": 57333,
     "name": "Emad Mostaque",
     "slug": "emad-mostaque",
     "bio": null,
@@ -37729,7 +38191,7 @@ const dashboardData = {
     "appearance_count": 3
   },
   {
-    "id": 57254,
+    "id": 57334,
     "name": "Angela Strange and Gabriel Vasquez",
     "slug": "angela-strange-and-gabriel-vasquez",
     "bio": null,
@@ -37741,7 +38203,7 @@ const dashboardData = {
     "appearance_count": 1
   },
   {
-    "id": 57255,
+    "id": 57335,
     "name": "Why Bessent Blinked",
     "slug": "why-bessent-blinked",
     "bio": null,
@@ -37753,7 +38215,7 @@ const dashboardData = {
     "appearance_count": 1
   },
   {
-    "id": 57256,
+    "id": 57336,
     "name": "Travis Kalanick",
     "slug": "travis-kalanick",
     "bio": null,
@@ -37765,7 +38227,7 @@ const dashboardData = {
     "appearance_count": 1
   },
   {
-    "id": 57257,
+    "id": 57337,
     "name": "Rahm Emanuel",
     "slug": "rahm-emanuel",
     "bio": null,
@@ -37777,7 +38239,7 @@ const dashboardData = {
     "appearance_count": 1
   },
   {
-    "id": 57258,
+    "id": 57338,
     "name": "Milton Berg",
     "slug": "milton-berg",
     "bio": "Milton Berg is a veteran technical analyst and CEO of Milton Berg Advisors, specializing in market turning-point analysis for institutional investors.",
@@ -37789,7 +38251,7 @@ const dashboardData = {
     "appearance_count": 1
   },
   {
-    "id": 57259,
+    "id": 57339,
     "name": "How Open",
     "slug": "how-open",
     "bio": null,
@@ -37801,7 +38263,7 @@ const dashboardData = {
     "appearance_count": 1
   },
   {
-    "id": 57260,
+    "id": 57340,
     "name": "Saronic Founders",
     "slug": "saronic-founders",
     "bio": null,
@@ -37813,7 +38275,7 @@ const dashboardData = {
     "appearance_count": 1
   },
   {
-    "id": 57261,
+    "id": 57341,
     "name": "OpenAI's Joshua Achiam",
     "slug": "openais-joshua-achiam",
     "bio": null,
@@ -37825,7 +38287,7 @@ const dashboardData = {
     "appearance_count": 1
   },
   {
-    "id": 57262,
+    "id": 57342,
     "name": "Marc Andreessen and Chris Dixon",
     "slug": "marc-andreessen-and-chris-dixon",
     "bio": null,
@@ -37837,7 +38299,7 @@ const dashboardData = {
     "appearance_count": 1
   },
   {
-    "id": 57263,
+    "id": 57343,
     "name": "AI for America's Small Businesses",
     "slug": "ai-for-americas-small-businesses",
     "bio": null,
@@ -37849,7 +38311,7 @@ const dashboardData = {
     "appearance_count": 1
   },
   {
-    "id": 57264,
+    "id": 57344,
     "name": "Luke Gromen",
     "slug": "luke-gromen",
     "bio": null,
@@ -37861,7 +38323,7 @@ const dashboardData = {
     "appearance_count": 1
   },
   {
-    "id": 57265,
+    "id": 57345,
     "name": "Travis Kelenick",
     "slug": "travis-kelenick",
     "bio": null,
@@ -37873,7 +38335,7 @@ const dashboardData = {
     "appearance_count": 1
   },
   {
-    "id": 57266,
+    "id": 57346,
     "name": "Travis Kalanick Is Back",
     "slug": "travis-kalanick-is-back",
     "bio": null,
@@ -37885,7 +38347,7 @@ const dashboardData = {
     "appearance_count": 1
   },
   {
-    "id": 57267,
+    "id": 57347,
     "name": "Interest Rates to 10%",
     "slug": "interest-rates-to-10",
     "bio": null,
@@ -37897,7 +38359,7 @@ const dashboardData = {
     "appearance_count": 1
   },
   {
-    "id": 57268,
+    "id": 57348,
     "name": "Nick Nemeth",
     "slug": "nick-nemeth",
     "bio": null,
@@ -37909,7 +38371,7 @@ const dashboardData = {
     "appearance_count": 1
   },
   {
-    "id": 57269,
+    "id": 57349,
     "name": "Urgent Update- AI Sputnik Moment",
     "slug": "urgent-update--ai-sputnik-moment",
     "bio": null,
@@ -37921,7 +38383,7 @@ const dashboardData = {
     "appearance_count": 1
   },
   {
-    "id": 57270,
+    "id": 57350,
     "name": "David Sachs",
     "slug": "david-sachs",
     "bio": null,
@@ -37933,7 +38395,7 @@ const dashboardData = {
     "appearance_count": 1
   },
   {
-    "id": 57271,
+    "id": 57351,
     "name": "Turbo Charged Trend Following",
     "slug": "turbo-charged-trend-following",
     "bio": null,
@@ -37945,7 +38407,7 @@ const dashboardData = {
     "appearance_count": 1
   },
   {
-    "id": 57272,
+    "id": 57352,
     "name": "Can Anyone Catch NVIDIA?",
     "slug": "can-anyone-catch-nvidia",
     "bio": null,
@@ -37958,6 +38420,71 @@ const dashboardData = {
   }
 ],
   pundits: [
+  {
+    "id": 414,
+    "name": "NG ZDN",
+    "slug": "ng-zdn",
+    "bio": "NG ZDN is the co-founder and chief scientific officer of Protege, a healthcare AI company. He is also an assistant professor at Indiana University and a healthcare economist. ZDN's work has been featured in the New York Times and cited by the CDC.",
+    "known_for": "Developing healthcare AI models that prioritize safety and alignment with human values.",
+    "net_worth_usd": 230000000.0,
+    "net_worth_source": "https://leads.rosseducation.edu/the-rise-of-andrew-ng-uncovering-his-net-worth/",
+    "net_worth_updated_at": "2026-08-24T07:02:18.338078",
+    "voice_tone": "",
+    "voice_style": "",
+    "voice_delivery_notes": "",
+    "voice_profile_updated_at": null,
+    "last_seen": "2026-08-24 12:02:04",
+    "last_episode_title": "Why Medical AI Needs a Referee | Protege's Engy Ziedan",
+    "last_podcast_name": "The a16z Show",
+    "last_episode_date": "2026-08-24",
+    "mention_score": 1,
+    "mention_score_decayed": 1,
+    "last_main_idea": "Investing in healthcare AI requires a focus on companies that can provide safe, aligned data and independent evaluation of AI models to ensure their usefulness and safety in real-world clinical settings.",
+    "last_proof_cite": "The a16z Show \u2022 2026-08-24 \u2022 Why Medical AI Needs a Referee | Protege's Engy Ziedan",
+    "last_proof_snippet": "Hundreds of millions of people ask chat to the questions about their health. Who, if any, is making sure that the answers that are spit out is safe and correct? Models are going to be inhibited in their usefulness by the training data avail",
+    "supporting_takeaway": "Subtle biases and misalignments in AI models can be harder to detect than catastrophic failures.",
+    "grokipedia_url": null,
+    "grokipedia_fetched_at": "2026-08-24T07:02:17.205984",
+    "pundit_profile": {
+      "source": "llm",
+      "source_model": "moonshot:moonshot-v1-8k",
+      "source_url": "",
+      "page_title": "NG ZDN",
+      "fetched_at": "2026-08-24T12:02:17.205554+00:00",
+      "cliff_notes": "NG ZDN is a healthcare economist and assistant professor at Indiana University. He co-founded Protege, a healthcare AI company, where he serves as the chief scientific officer. ZDN's work focuses on developing AI models that prioritize safety and alignment with human values. His research has been featured in the New York Times and cited by the CDC. ZDN's mission is to provide safe and aligned data that makes AI useful in healthcare. He emphasizes the importance of understanding the value of AI technology and its limitations in order to develop effective healthcare AI models.",
+      "derived": {
+        "current_role": "Co-founder and Chief Scientific Officer of Protege; Assistant Professor at Indiana University",
+        "teaching_summary": "Assistant Professor at Indiana University"
+      },
+      "infobox": {
+        "Born": "",
+        "Nationality": ""
+      },
+      "lead_paragraphs": [
+        "NG ZDN is a healthcare economist and assistant professor at Indiana University. He co-founded Protege, a healthcare AI company, where he serves as the chief scientific officer. ZDN's work focuses on developing AI models that prioritize safety and alignment with human values. His research has been featured in the New York Times and cited by the CDC.",
+        "ZDN's mission is to provide safe and aligned data that makes AI useful in healthcare. He emphasizes the importance of understanding the value of AI technology and its limitations in order to develop effective healthcare AI models."
+      ],
+      "sections": [
+        {
+          "heading": "Healthcare AI",
+          "body": "ZDN's work focuses on developing healthcare AI models that prioritize safety and alignment with human values."
+        },
+        {
+          "heading": "Protege",
+          "body": "ZDN co-founded Protege, a healthcare AI company, where he serves as the chief scientific officer."
+        },
+        {
+          "heading": "Human Values",
+          "body": "ZDN emphasizes the importance of understanding the value of AI technology and its limitations in order to develop effective healthcare AI models."
+        },
+        {
+          "heading": "Research",
+          "body": "ZDN's research has been featured in the New York Times and cited by the CDC."
+        }
+      ]
+    },
+    "net_worth": "$230.0M"
+  },
   {
     "id": 81,
     "name": "Elon Musk",
@@ -41494,7 +42021,7 @@ const dashboardData = {
     "last_podcast_name": "The a16z Show",
     "last_episode_date": "2026-07-23",
     "mention_score": 1,
-    "mention_score_decayed": 0.5,
+    "mention_score_decayed": 0.49,
     "last_main_idea": "Industrial AI represents a substantial opportunity to transform physical industries through automation and AI, creating significant value beyond traditional software solutions.",
     "last_proof_cite": "The a16z Show \u2022 2026-07-23 \u2022 Building the Physical AI Stack | Travis Kalanick on TBPN",
     "last_proof_snippet": "Travis Kelenick joins TVPN to discuss why he's betting his next company on industrial AI. He shares his vision behind atoms, explains how autonomy is transforming industries like mining and food production, and discusses why bringing AI int",
@@ -41554,7 +42081,7 @@ const dashboardData = {
     "last_podcast_name": "Latent Space: The AI Engineer Podcast",
     "last_episode_date": "2026-07-23",
     "mention_score": 1,
-    "mention_score_decayed": 0.49,
+    "mention_score_decayed": 0.48,
     "last_main_idea": "Investing in AI development, particularly in the democratization of AI and the scaling of language models, can lead to significant innovation and competitive advantage.",
     "last_proof_cite": "Latent Space: The AI Engineer Podcast \u2022 2026-07-23 \u2022 Inside the Model Factory \u2014 Eiso Kant, Poolside AI",
     "last_proof_snippet": "All right, we're here in the studio. If I was a countryman, we'll fight together with people. Welcome. Thanks, thank you, guys. It's good to be here. Yeah, fresh on the plane. You texted me, you're like, hey, I'm on my way to SF. I was like",
@@ -44878,7 +45405,7 @@ const dashboardData = {
     "last_podcast_name": "The Jack Mallers Show",
     "last_episode_date": "2026-06-16",
     "mention_score": 2,
-    "mention_score_decayed": 0.42,
+    "mention_score_decayed": 0.41,
     "last_main_idea": "Investors should monitor Bitcoin as a leading market indicator and scrutinize the capital structures of Bitcoin treasury companies for potential risks and rewards, while maintaining a long-term perspective.",
     "last_proof_cite": "The Jack Mallers Show \u2022 2026-06-16 \u2022 15 Questions: The Strait, Strategy, mNAV, Dilution, & My Boots",
     "last_proof_snippet": "Yo, welcome back to another episode of the Jack Mallors Show. I'm your host Jack, and you're listening to mail bag Monday, ladies and gentlemen. Oh, there's my resources tab, my AI tool. All right, let's get back to slide one. You were list",
@@ -54210,7 +54737,7 @@ const dashboardData = {
     "last_podcast_name": "The a16z Show",
     "last_episode_date": "2026-03-17",
     "mention_score": 1,
-    "mention_score_decayed": 0.03,
+    "mention_score_decayed": 0.02,
     "last_main_idea": "Investing in companies and technologies that are advancing the understanding and capabilities of LLMs could be a pathway to participate in the development of AGI.",
     "last_proof_cite": "The a16z Show \u2022 2026-03-17 \u2022 Understanding the Mechanics of Large Language Models (LLMs) and the Path to AGI",
     "last_proof_snippet": "LLMs learn correlations but do not build models of cause and effect, which is a key distinction from human intelligence.",

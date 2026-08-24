@@ -1,5 +1,21 @@
 [
   {
+    "id": 421,
+    "podcast_name": "The a16z Show",
+    "episode_title": "Why Medical AI Needs a Referee | Protege's Engy Ziedan",
+    "episode_date": "2026-08-24",
+    "summary": "In this episode of the a16z Show, Daisy Wolfe and Eva Steinman interview NG ZDN, co-founder and chief scientific officer of Protege, to discuss the challenges of measuring performance in healthcare AI. They delve into the gap between benchmarks and real-world clinical tasks, the subtle biases and misalignments in AI models, and the need for an independent referee to test AI behavior in real clinical settings. The conversation also touches on the importance of understanding valuable versus valueless technology in the AI market and the rapid evolution of AI models compared to the healthcare system's ability to keep pace.",
+    "key_takeaways": [
+      "Healthcare AI models need a better way to measure performance beyond traditional benchmarks.",
+      "Subtle biases and misalignments in AI models can be harder to detect than catastrophic failures.",
+      "The evolution of AI models may outpace the healthcare system's ability to evaluate and incorporate them.",
+      "An independent referee is needed to continuously test AI behavior in real clinical settings and compare competing models.",
+      "Understanding the value of technology is crucial for accurate pricing in the AI market."
+    ],
+    "investment_thesis": "Investing in healthcare AI requires a focus on companies that can provide safe, aligned data and independent evaluation of AI models to ensure their usefulness and safety in real-world clinical settings.",
+    "key_tickers": null
+  },
+  {
     "id": 420,
     "podcast_name": "Latent Space: The AI Engineer Podcast",
     "episode_title": "Simulation: the new Scaling Law \u2014 Joon Sung Park, Simile AI",
@@ -115,23 +131,6 @@
       "AUA Private Equity Partners is looking to sell some businesses and may structure a longer-term hold for a healthy snacking company."
     ],
     "investment_thesis": "AUA Private Equity Partners focuses on operational improvements in family-run businesses within the food, beverage, pet wellness, and co-manufacturing sectors, targeting a $1.3 to $1.4 trillion market opportunity.",
-    "key_tickers": null
-  },
-  {
-    "id": 412,
-    "podcast_name": "The a16z Show",
-    "episode_title": "How Do You Defend Against AI That Can Hack?",
-    "episode_date": "2026-08-18",
-    "summary": "The podcast discusses the challenges and opportunities presented by the rapid integration of AI in enterprise applications, focusing on the implications for cybersecurity. Model providers establish guardrails to prevent misuse, which complicates incident response for defenders. Traditional security tools are found inadequate against AI incidents, necessitating the development of new security tools. The evolution of cyber defenses is moving towards dynamic, behavior-based approaches. The total attack surface is expanding due to AI, including human expression.",
-    "key_takeaways": [
-      "Model providers' guardrails inadvertently complicate incident response for defenders.",
-      "50% of enterprise apps will integrate AI by the end of the year, increasing security complexity.",
-      "Traditional security tools are inadequate against AI incidents.",
-      "Enterprises face challenges with a large number of unique software pieces, many becoming AI-driven.",
-      "AI is both creating new attack surfaces and providing defenders with new tools.",
-      "Cyber defenses are evolving from static detection rules to dynamic, behavior-based approaches."
-    ],
-    "investment_thesis": "Invest in companies developing new security tools to address AI incidents and agentic processes, as well as those providing flexible solutions to adapt to the rapid pace of AI development.",
     "key_tickers": null
   }
 ]
