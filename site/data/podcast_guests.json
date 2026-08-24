@@ -1,6 +1,6 @@
 [
   {
-    "id": 55721,
+    "id": 57093,
     "name": "Emad Mostaque",
     "slug": "emad-mostaque",
     "bio": null,
@@ -12,19 +12,19 @@
     "appearance_count": 3
   },
   {
-    "id": 55722,
-    "name": "Simulation",
-    "slug": "simulation",
+    "id": 57094,
+    "name": "Angela Strange and Gabriel Vasquez",
+    "slug": "angela-strange-and-gabriel-vasquez",
     "bio": null,
     "known_for": null,
-    "last_main_idea": "Investing in companies that are at the forefront of AI and simulation technology could yield significant returns as these technologies become more integrated into everyday decision-making.",
-    "last_episode_title": "Simulation: the new Scaling Law \u2014 Joon Sung Park, Simile AI",
-    "last_podcast_name": "Latent Space: The AI Engineer Podcast",
-    "last_episode_date": "2026-08-21",
+    "last_main_idea": "Investing in borderless founders offers access to a global talent pool, customer base, and distribution networks, which can lead to the creation of successful global companies.",
+    "last_episode_title": "How Global Networks Are Reshaping Startup Success",
+    "last_podcast_name": "The a16z Show",
+    "last_episode_date": "2026-08-20",
     "appearance_count": 1
   },
   {
-    "id": 55723,
+    "id": 57095,
     "name": "Why Bessent Blinked",
     "slug": "why-bessent-blinked",
     "bio": null,
@@ -36,31 +36,7 @@
     "appearance_count": 1
   },
   {
-    "id": 55724,
-    "name": "China\u2019s Endgame",
-    "slug": "chinas-endgame",
-    "bio": null,
-    "known_for": null,
-    "last_main_idea": "Investment in AI technology should consider the broader geopolitical landscape and the potential for international cooperation and market creation, as proposed by the 'AI Marshall Plan'.",
-    "last_episode_title": "China\u2019s Endgame: ASI Timelines, US-China Relations, and the $1.7T AI Bubble With Alvin Graylin | #281",
-    "last_podcast_name": "Moonshots with Peter Diamandis",
-    "last_episode_date": "2026-08-18",
-    "appearance_count": 1
-  },
-  {
-    "id": 55725,
-    "name": "Stripe\u2019s AI Strategy",
-    "slug": "stripes-ai-strategy",
-    "bio": null,
-    "known_for": null,
-    "last_main_idea": "Investing in companies that leverage AI to enhance software development and commerce will yield significant returns as productivity increases and new markets open up.",
-    "last_episode_title": "Stripe\u2019s AI Strategy: Build More, Not Less",
-    "last_podcast_name": "The a16z Show",
-    "last_episode_date": "2026-08-17",
-    "appearance_count": 1
-  },
-  {
-    "id": 55726,
+    "id": 57096,
     "name": "Travis Kalanick",
     "slug": "travis-kalanick",
     "bio": null,
@@ -72,7 +48,7 @@
     "appearance_count": 1
   },
   {
-    "id": 55727,
+    "id": 57097,
     "name": "Rahm Emanuel",
     "slug": "rahm-emanuel",
     "bio": null,
@@ -84,7 +60,7 @@
     "appearance_count": 1
   },
   {
-    "id": 55728,
+    "id": 57098,
     "name": "Milton Berg",
     "slug": "milton-berg",
     "bio": "Milton Berg is a veteran technical analyst and CEO of Milton Berg Advisors, specializing in market turning-point analysis for institutional investors.",
@@ -93,22 +69,10 @@
     "last_episode_title": "Milton Berg: I Have Evidence Market Has Likely Bottomed | Why Milton\u2019s Long Semis, Korea, Nasdaq, and More (With Caveats), and Why He Thinks Gold has made a Multi-year Top",
     "last_podcast_name": "Monetary Matters with Jack Farley",
     "last_episode_date": "2026-08-12",
-    "appearance_count": 2
-  },
-  {
-    "id": 55729,
-    "name": "How Kavak Rebuilt Itself Around AI Agents",
-    "slug": "how-kavak-rebuilt-itself-around-ai-agents",
-    "bio": null,
-    "known_for": null,
-    "last_main_idea": "Investing in AI capabilities that can perform at a superhuman level can potentially revolutionize industries by handling complex tasks more efficiently and effectively than traditional human teams.",
-    "last_episode_title": "How Kavak Rebuilt Itself Around AI Agents | Alejandro Maza Ayala",
-    "last_podcast_name": "The a16z Show",
-    "last_episode_date": "2026-08-10",
     "appearance_count": 1
   },
   {
-    "id": 55730,
+    "id": 57099,
     "name": "How Open",
     "slug": "how-open",
     "bio": null,
@@ -120,7 +84,7 @@
     "appearance_count": 1
   },
   {
-    "id": 55731,
+    "id": 57100,
     "name": "Saronic Founders",
     "slug": "saronic-founders",
     "bio": null,
@@ -132,7 +96,7 @@
     "appearance_count": 1
   },
   {
-    "id": 55732,
+    "id": 57101,
     "name": "OpenAI's Joshua Achiam",
     "slug": "openais-joshua-achiam",
     "bio": null,
@@ -144,19 +108,19 @@
     "appearance_count": 1
   },
   {
-    "id": 55733,
-    "name": "Why Macro is \u201cPretty Risk-On\u201d for Equities",
-    "slug": "why-macro-is-pretty-risk-on-for-equities",
+    "id": 57102,
+    "name": "Marc Andreessen and Chris Dixon",
+    "slug": "marc-andreessen-and-chris-dixon",
     "bio": null,
     "known_for": null,
-    "last_main_idea": "The market is in a phase where a new narrative is needed to drive further growth, with a focus on value laggards and sectors less exposed to speculative excesses.",
-    "last_episode_title": "Why Macro is \u201cPretty Risk-On\u201d for Equities | Tian Yang of Variant Perception",
-    "last_podcast_name": "Monetary Matters with Jack Farley",
-    "last_episode_date": "2026-08-02",
+    "last_main_idea": "Regulatory clarity through acts like the Clarity Act is essential for the next phase of blockchain adoption and could unlock significant investment opportunities in stablecoins and tokenized assets.",
+    "last_episode_title": "Marc Andreessen and Chris Dixon: What\u2019s at Stake in Crypto Regulation",
+    "last_podcast_name": "The a16z Show",
+    "last_episode_date": "2026-08-01",
     "appearance_count": 1
   },
   {
-    "id": 55734,
+    "id": 57103,
     "name": "AI for America's Small Businesses",
     "slug": "ai-for-americas-small-businesses",
     "bio": null,
@@ -168,19 +132,7 @@
     "appearance_count": 1
   },
   {
-    "id": 55735,
-    "name": "Mum\u2019s The Word",
-    "slug": "mums-the-word",
-    "bio": null,
-    "known_for": null,
-    "last_main_idea": "The Federal Reserve's credibility is at stake, and market reactions to economic data and Fed policy suggest a potential shift in expectations for inflation and interest rates, impacting bond yields and stock market performance.",
-    "last_episode_title": "Mum\u2019s The Word: Kathryn Rooney Vera on Fed\u2019s Second Meeting under Kevin Warsh, Plus Earnings Breakdown (Live Replay)",
-    "last_podcast_name": "Monetary Matters with Jack Farley",
-    "last_episode_date": "2026-07-29",
-    "appearance_count": 1
-  },
-  {
-    "id": 55736,
+    "id": 57104,
     "name": "Luke Gromen",
     "slug": "luke-gromen",
     "bio": null,
@@ -192,33 +144,9 @@
     "appearance_count": 1
   },
   {
-    "id": 55737,
-    "name": "Codex from 0 to 10M Users",
-    "slug": "codex-from-0-to-10m-users",
-    "bio": null,
-    "known_for": null,
-    "last_main_idea": "Investing in AI technology that democratizes coding and database management can lead to significant productivity gains and market opportunities.",
-    "last_episode_title": "Codex from 0 to 10M Users: Building ChatGPT Work \u2014 Akshay Nathan, OpenAI",
-    "last_podcast_name": "Latent Space: The AI Engineer Podcast",
-    "last_episode_date": "2026-07-28",
-    "appearance_count": 1
-  },
-  {
-    "id": 55738,
-    "name": "Ben Horowitz",
-    "slug": "ben-horowitz",
-    "bio": "Ben Horowitz is a co-founder of venture firm Andreessen Horowitz and former CEO of Opsware, known for advising founders on leadership under pressure.",
-    "known_for": "Co-founding a16z and authoring 'The Hard Thing About Hard Things'.",
-    "last_main_idea": "Invest in open source AI technologies to leverage community-driven innovation and capitalize on the under-penetrated AI market.",
-    "last_episode_title": "Ben Horowitz: The Fight Over Open Source AI",
-    "last_podcast_name": "The a16z Show",
-    "last_episode_date": "2026-07-26",
-    "appearance_count": 3
-  },
-  {
-    "id": 55739,
-    "name": "Building the Physical AI Stack",
-    "slug": "building-the-physical-ai-stack",
+    "id": 57105,
+    "name": "Travis Kelenick",
+    "slug": "travis-kelenick",
     "bio": null,
     "known_for": null,
     "last_main_idea": "Industrial AI represents a substantial opportunity to transform physical industries through automation and AI, creating significant value beyond traditional software solutions.",
@@ -228,7 +156,7 @@
     "appearance_count": 1
   },
   {
-    "id": 55740,
+    "id": 57106,
     "name": "Travis Kalanick Is Back",
     "slug": "travis-kalanick-is-back",
     "bio": null,
@@ -240,7 +168,7 @@
     "appearance_count": 1
   },
   {
-    "id": 55741,
+    "id": 57107,
     "name": "Interest Rates to 10%",
     "slug": "interest-rates-to-10",
     "bio": null,
@@ -252,19 +180,7 @@
     "appearance_count": 1
   },
   {
-    "id": 55742,
-    "name": "Why Physical AI Is the Next Frontier",
-    "slug": "why-physical-ai-is-the-next-frontier",
-    "bio": null,
-    "known_for": null,
-    "last_main_idea": "Investing in physical AI and autonomous systems could lead to significant returns as these technologies transform the physical economy and unlock new productivity gains.",
-    "last_episode_title": "Why Physical AI Is the Next Frontier | Applied Intuition",
-    "last_podcast_name": "The a16z Show",
-    "last_episode_date": "2026-07-21",
-    "appearance_count": 1
-  },
-  {
-    "id": 55743,
+    "id": 57108,
     "name": "Nick Nemeth",
     "slug": "nick-nemeth",
     "bio": null,
@@ -276,19 +192,7 @@
     "appearance_count": 1
   },
   {
-    "id": 55744,
-    "name": "Mark Cuban on the AI Bubble",
-    "slug": "mark-cuban-on-the-ai-bubble",
-    "bio": null,
-    "known_for": null,
-    "last_main_idea": "The current market behavior, while bubbly, is distinct from past bubbles and may disproportionately impact venture capital and private equity firms due to aggressive investment strategies.",
-    "last_episode_title": "Mark Cuban on the AI Bubble: Who Actually Gets Wiped Out?",
-    "last_podcast_name": "All-In with Chamath, Jason, Sacks & Friedberg",
-    "last_episode_date": "2026-07-20",
-    "appearance_count": 1
-  },
-  {
-    "id": 55745,
+    "id": 57109,
     "name": "Urgent Update- AI Sputnik Moment",
     "slug": "urgent-update--ai-sputnik-moment",
     "bio": null,
@@ -300,9 +204,9 @@
     "appearance_count": 1
   },
   {
-    "id": 55746,
-    "name": "Replay 2025",
-    "slug": "replay-2025",
+    "id": 57110,
+    "name": "David Sachs",
+    "slug": "david-sachs",
     "bio": null,
     "known_for": null,
     "last_main_idea": "Investing in AI and crypto requires understanding the interplay between technology and policy, with a focus on regulatory clarity and open-source initiatives for long-term competitiveness.",
@@ -312,7 +216,7 @@
     "appearance_count": 1
   },
   {
-    "id": 55747,
+    "id": 57111,
     "name": "Turbo Charged Trend Following",
     "slug": "turbo-charged-trend-following",
     "bio": null,
@@ -324,7 +228,7 @@
     "appearance_count": 1
   },
   {
-    "id": 55748,
+    "id": 57112,
     "name": "Can Anyone Catch NVIDIA?",
     "slug": "can-anyone-catch-nvidia",
     "bio": null,
@@ -336,27 +240,123 @@
     "appearance_count": 1
   },
   {
-    "id": 55749,
-    "name": "Is AI a Bubble?",
-    "slug": "is-ai-a-bubble",
+    "id": 57113,
+    "name": "Mark Zuckerberg & Priscilla Chan",
+    "slug": "mark-zuckerberg--priscilla-chan",
     "bio": null,
     "known_for": null,
-    "last_main_idea": "Investment in AI is sustainable and not indicative of an impending market collapse, with a focus on competitive dynamics and the potential for instant distribution via APIs and cloud computing.",
-    "last_episode_title": "Is AI a Bubble? | Gavin Baker on Data Centers, GPUs, and the AI Economy",
+    "last_main_idea": "Investing in the development of new tools for biology and leveraging AI can accelerate scientific discovery and disease management, potentially leading to significant advancements in medicine.",
+    "last_episode_title": "Mark Zuckerberg & Priscilla Chan: How AI Will Help Cure Disease",
     "last_podcast_name": "The a16z Show",
-    "last_episode_date": "2026-07-14",
+    "last_episode_date": "2026-07-09",
     "appearance_count": 1
   },
   {
-    "id": 55750,
-    "name": "Adam Brown \u2013 Einstein's happiest thought",
-    "slug": "adam-brown--einsteins-happiest-thought",
+    "id": 57114,
+    "name": "Adam Neumann",
+    "slug": "adam-neumann",
     "bio": null,
     "known_for": null,
-    "last_main_idea": "While this episode does not present a direct investment thesis, it provides foundational knowledge about the principles of physics that could influence investment decisions in technology and space sectors.",
-    "last_episode_title": "Adam Brown \u2013 Einstein's happiest thought: General Relativity from scratch",
-    "last_podcast_name": "Dwarkesh Podcast",
-    "last_episode_date": "2026-07-10",
+    "last_main_idea": "Invest in real estate companies that emphasize community engagement, technological adaptability, and global scalability to capitalize on the evolving landscape of work and living.",
+    "last_episode_title": "Adam Neumann: This Is How You Build Iconic Companies",
+    "last_podcast_name": "The a16z Show",
+    "last_episode_date": "2026-07-08",
+    "appearance_count": 1
+  },
+  {
+    "id": 57115,
+    "name": "Breaking Down the Multi-Manager Playbook",
+    "slug": "breaking-down-the-multi-manager-playbook",
+    "bio": null,
+    "known_for": null,
+    "last_main_idea": "Invest in Japanese equities and multi-strategy hedge funds to capitalize on governance reforms and diversify risk.",
+    "last_episode_title": "Breaking Down the Multi-Manager Playbook: How This $19B CIO Thinks About Alpha | Sean McGould | The Lighthouse Group",
+    "last_podcast_name": "Monetary Matters with Jack Farley",
+    "last_episode_date": "2026-07-07",
+    "appearance_count": 1
+  },
+  {
+    "id": 57116,
+    "name": "Don\u2019t Follow Your Passion",
+    "slug": "dont-follow-your-passion",
+    "bio": null,
+    "known_for": null,
+    "last_main_idea": "Invest in original ideas and platforms that challenge conventional wisdom and facilitate access to information and innovation, particularly those with societal contributions.",
+    "last_episode_title": "Don\u2019t Follow Your Passion | Ben Horowitz\u2019s Advice for New Graduates",
+    "last_podcast_name": "The a16z Show",
+    "last_episode_date": "2026-07-06",
+    "appearance_count": 1
+  },
+  {
+    "id": 57117,
+    "name": "trillion. Guest Daryl Duffy",
+    "slug": "trillion-guest-daryl-duffy",
+    "bio": null,
+    "known_for": null,
+    "last_main_idea": "The Federal Reserve's ability to manage interest rates effectively hinges on maintaining adequate reserve levels; monitoring the implementation of techniques to reduce reserve demand could provide insights into future monetary policy and market stability.",
+    "last_episode_title": "The Ultimate Playbook for Reducing The Fed\u2019s Balance Sheet | Professor Darrell Duffie on 4 Tools For Federal Reserve To Shrink Reserve Demand In Banking System",
+    "last_podcast_name": "Monetary Matters with Jack Farley",
+    "last_episode_date": "2026-07-05",
+    "appearance_count": 1
+  },
+  {
+    "id": 57118,
+    "name": "Outsmarting Uber",
+    "slug": "outsmarting-uber",
+    "bio": null,
+    "known_for": null,
+    "last_main_idea": "Invest in companies with capital efficiency and operational excellence in the mobility sector, as they are better positioned to adapt and grow in a competitive landscape.",
+    "last_episode_title": "Outsmarting Uber: Why Bolt Wins in Europe",
+    "last_podcast_name": "The a16z Show",
+    "last_episode_date": "2026-07-02",
+    "appearance_count": 1
+  },
+  {
+    "id": 57119,
+    "name": "What If It\u2019s Still Early?",
+    "slug": "what-if-its-still-early",
+    "bio": null,
+    "known_for": null,
+    "last_main_idea": "The S&P 500 is projected to reach 10,000 due to accelerating earnings growth and a favorable economic environment, justifying higher P/E ratios and making equities more attractive.",
+    "last_episode_title": "What If It\u2019s Still Early? | Erik YWR on $10,000 S&P 500 by 2027 Case, Hyperscaler ROIC, AI CapEx, Semis, Exchanges, and Reverse Crash Risk In \u201cProject Zimbabwe\u201d",
+    "last_podcast_name": "Monetary Matters with Jack Farley",
+    "last_episode_date": "2026-07-02",
+    "appearance_count": 1
+  },
+  {
+    "id": 57120,
+    "name": "Building AI for Creators",
+    "slug": "building-ai-for-creators",
+    "bio": null,
+    "known_for": null,
+    "last_main_idea": "Invest in companies that prioritize user creativity and personalization in their AI offerings, as well as those that leverage data analytics to understand and enhance user experience.",
+    "last_episode_title": "Building AI for Creators | Luma & Phota Labs",
+    "last_podcast_name": "The a16z Show",
+    "last_episode_date": "2026-06-30",
+    "appearance_count": 1
+  },
+  {
+    "id": 57121,
+    "name": "Mark Andreessen",
+    "slug": "mark-andreessen",
+    "bio": null,
+    "known_for": null,
+    "last_main_idea": "Invest in AI-driven blue sectors to capitalize on rapid productivity growth, while advocating for regulatory reforms and public sector modernization to overcome constraints on AI's transformative potential.",
+    "last_episode_title": "Beyond P(doom): Marc Andreessen - Betting on America",
+    "last_podcast_name": "The a16z Show",
+    "last_episode_date": "2026-06-29",
+    "appearance_count": 1
+  },
+  {
+    "id": 57122,
+    "name": "Nate Silver Predicts",
+    "slug": "nate-silver-predicts",
+    "bio": null,
+    "known_for": null,
+    "last_main_idea": "Invest in organizations that demonstrate strong leadership and a track record of success, and prepare for potential policy shifts based on midterm election outcomes.",
+    "last_episode_title": "Nate Silver Predicts: Democrats Take the House, Newsom Is Fading & AOC Might Win It All in 2028",
+    "last_podcast_name": "All-In with Chamath, Jason, Sacks & Friedberg",
+    "last_episode_date": "2026-06-29",
     "appearance_count": 1
   }
 ]

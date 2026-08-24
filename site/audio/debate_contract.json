@@ -107,5 +107,10 @@
       ]
     }
   },
-  "prompt_hash": "3d04e5fc265c8235"
+  "prompt_hash": "3d04e5fc265c8235",
+  "publishable": false,
+  "publish_block_reason": "Prompt too similar to a recent contract (100% overlap).",
+  "publish_block_reasons": [
+    "Prompt too similar to a recent contract (100% overlap)."
+  ]
 }
