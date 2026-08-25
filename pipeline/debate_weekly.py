@@ -2,15 +2,19 @@
 """
 Weekly debate orchestrator — The Long and Short of It
 
-Runs each Friday (cron): archives last week → LLM new Yes/No contract from DB context
-→ LLM debater speeches → rotates pundit pair → ElevenLabs audio → writes public JSON.
+Runs each Friday (cron): archives last week → uses the approved editorial contract for that
+Friday when present, otherwise generates an LLM Yes/No contract from DB context → LLM debater
+speeches → rotates pundit pair → ElevenLabs audio → writes public JSON.
 
-No hardcoded weekly topic; contract uses Overton/insights + live Polymarket Gamma themes (filtered, volume-weighted) + anti-repeat rules; speeches use full pundit profiles from `pundits.json`.
+Editorial contracts live in `debate_editorial_contract.json`. Generated fallbacks use
+Overton/insights + live Polymarket Gamma themes (filtered, volume-weighted) + anti-repeat rules;
+speeches use full pundit profiles from `pundits.json`.
 
 Usage:
   python3 debate_weekly.py              # full run if new week (America/Chicago Friday)
   python3 debate_weekly.py --force      # regenerate even if same friday_iso
   python3 debate_weekly.py --dry-run    # print plan + LLM output, no audio
+  python3 debate_weekly.py --scripts-only # generate review scripts; no archive, audio, or publish
   python3 debate_weekly.py --audio-only # TTS only from last saved scripts
   python3 debate_weekly.py --resolve 2026-03-14 yes "Settled per filings"
 
@@ -40,6 +44,7 @@ WORKSPACE = SITE_DIR.parent
 SITE_AUDIO = SITE_DIR / "audio"
 PUNDITS_PATH = SITE_DATA / "pundits.json"
 CONTRACT_PATH = SITE_AUDIO / "debate_contract.json"
+EDITORIAL_CONTRACT_PATH = PIPELINE / "debate_editorial_contract.json"
 HISTORY_PATH = SITE_DIR / "debate_history.json"
 SCRIPTS_STATE = PIPELINE / "state" / "last_debate_scripts.json"
 ARCHIVE_DIR = SITE_AUDIO / "archive"
@@ -173,6 +178,22 @@ def load_history() -> Dict[str, Any]:
     h.setdefault("rotation_index", 0)
     h.setdefault("weeks", [])
     return h
+
+
+def load_editorial_contract(friday_iso: str, path: Optional[Path] = None) -> Optional[Dict[str, Any]]:
+    """Load a human-approved contract only for its explicitly scheduled Friday."""
+    source = path or EDITORIAL_CONTRACT_PATH
+    if not source.exists():
+        return None
+    try:
+        contract = json.loads(source.read_text(encoding="utf-8"))
+    except Exception:
+        return None
+    if not isinstance(contract, dict):
+        return None
+    if (contract.get("friday_iso") or "").strip() != friday_iso:
+        return None
+    return contract
 
 
 def archive_audio_href(friday_iso: str) -> str:
@@ -665,6 +686,19 @@ Produce ONE fresh contract JSON. The question must be specific enough to argue y
     return data
 
 
+def build_speech_evidence_context(contract: Dict[str, Any]) -> str:
+    """Format only contract-attached, editor-reviewed material as speech evidence."""
+    packet: Dict[str, Any] = {}
+    if contract.get("evidence_brief"):
+        packet["evidence_brief"] = contract["evidence_brief"]
+    if contract.get("editorial_note"):
+        packet["editorial_note"] = contract["editorial_note"]
+    clarity = contract.get("resolution_clarity")
+    if isinstance(clarity, dict) and clarity:
+        packet["resolution_clarity"] = clarity
+    return json.dumps(packet, indent=2, ensure_ascii=False) if packet else ""
+
+
 def generate_speeches(
     client_kind: str,
     client: Any,
@@ -674,25 +708,40 @@ def generate_speeches(
     name_no: str,
     context_yes: str = "",
     context_no: str = "",
+    evidence_context: str = "",
 ) -> Tuple[str, str]:
     system = """Return ONLY valid JSON:
   "yes_speech": string — plain text for text-to-speech. Speaker is arguing YES on the contract.
   "no_speech": string — plain text for TTS, arguing NO.
 
+Objective:
+- Maximize truth and understanding, not rhetorical victory. A strong argument may openly weaken its own case.
+- Build from first principles: clearly defensible constraints, incentives, causal mechanisms, base rates, and tradeoffs. Do not use slogans, popularity, authority, or ideology as foundations.
+
 Rules:
 - Start each speech with only the speaker's first line as their name plus period, e.g. "Sam." then blank line, then body. Use the exact names given.
 - The first sentence of YES body must begin with "The long of it".
 - The first sentence of NO body must begin with "The short of it".
-- Three substantive paragraphs (or sections) plus a short "Concession." paragraph.
+- Use three substantive paragraphs plus a short paragraph beginning exactly "Concession."
+- First explain in plain English what the proposal or event would change, who is affected, and how the mechanism works. Assume no prior knowledge.
+- Separate verified fact from inference, forecast, and value judgment in natural language. Never present an assumption or prediction as an established fact.
+- Use specific figures, dates, studies, or quotations only when they appear in the supplied evidence packet. Name the source near the claim. Never invent evidence or vaguely invoke "studies," "data," "history," "experts," or "indicators."
+- Show the causal chain behind the conclusion step by step and identify its weakest link.
+- Steelman the strongest opposing case and address its strongest evidence. Do not create a weak or caricatured opponent.
+- In "Concession.", state the most important uncertainty and one concrete observation that would change the speaker's conclusion.
 - Argue the CRUX of the issue (e.g. real economic force vs narrative). Do NOT nitpick the contract wording or hide behind legal parsing.
 - Do NOT repeat or quote the full Yes/No question; the listener already heard it from the host.
 - Each speaker's argument should reflect their real background and rhetorical style as described in their profile — without caricature.
+- End the substantive case with a realistic path for AI to increase U.S. productivity, wages, business formation, or competitiveness while addressing the risks raised. Keep optimism conditional and evidence-based, never promotional.
 - No stage directions, no markdown."""
 
     user = f"""Contract question (for your reasoning only — do not read it back verbatim in the speeches):
 {prompt}
 
 Crux theme: {crux or "general"}
+
+--- VERIFIED EVIDENCE PACKET ---
+{evidence_context or "(No verified evidence packet was supplied. Do not introduce empirical specifics; reason from clearly labeled assumptions and first principles only.)"}
 
 --- YES speaker ({name_yes}) — use background and voice to shape the argument ---
 {context_yes or "(minimal profile)"}
@@ -781,6 +830,8 @@ def _debater_llm_context(p: Dict[str, Any]) -> str:
 def archive_current_week(history: Dict[str, Any], prev_contract: Optional[Dict]) -> None:
     if not prev_contract or not prev_contract.get("friday_iso"):
         return
+    if prev_contract.get("publishable") is False:
+        return
     fr = prev_contract["friday_iso"]
     # already in history?
     for w in history["weeks"]:
@@ -812,18 +863,23 @@ def archive_current_week(history: Dict[str, Any], prev_contract: Optional[Dict])
     )
 
 
-def write_scripts_state(host: str, yes_s: str, no_s: str) -> None:
+def write_scripts_state(
+    host: str,
+    yes_s: str,
+    no_s: str,
+    review_metadata: Optional[Dict[str, Any]] = None,
+) -> None:
     SCRIPTS_STATE.parent.mkdir(parents=True, exist_ok=True)
+    bundle: Dict[str, Any] = {
+        "host": host,
+        "yes": yes_s,
+        "no": no_s,
+        "close": "This has been The Long and Short of It. Choose evidence over tribe.",
+    }
+    if review_metadata:
+        bundle["review"] = review_metadata
     SCRIPTS_STATE.write_text(
-        json.dumps(
-            {
-                "host": host,
-                "yes": yes_s,
-                "no": no_s,
-                "close": "This has been The Long and Short of It. Choose evidence over tribe.",
-            },
-            indent=2,
-        ),
+        json.dumps(bundle, indent=2),
         encoding="utf-8",
     )
 
@@ -842,6 +898,15 @@ def validate_speeches(yes_s: str, no_s: str, expected_yes: str, expected_no: str
         raise ValueError(f"YES speech speaker mismatch: expected '{expected_yes}', got '{got_yes}'")
     if got_no.lower() != (expected_no or "").strip().lower():
         raise ValueError(f"NO speech speaker mismatch: expected '{expected_no}', got '{got_no}'")
+    yes_body = "\n".join((yes_s or "").strip().splitlines()[1:]).strip()
+    no_body = "\n".join((no_s or "").strip().splitlines()[1:]).strip()
+    if not yes_body.lower().startswith("the long of it"):
+        raise ValueError("YES speech must begin with 'The long of it'.")
+    if not no_body.lower().startswith("the short of it"):
+        raise ValueError("NO speech must begin with 'The short of it'.")
+    for side, speech in (("YES", yes_s), ("NO", no_s)):
+        if not re.search(r"(?m)^Concession\.", speech or ""):
+            raise ValueError(f"{side} speech must include a 'Concession.' paragraph.")
 
 
 def run_tts(
@@ -1107,6 +1172,11 @@ def main() -> int:
     ap = argparse.ArgumentParser(description="Weekly debate orchestrator")
     ap.add_argument("--force", action="store_true", help="Regenerate even if friday_iso matches")
     ap.add_argument("--dry-run", action="store_true")
+    ap.add_argument(
+        "--scripts-only",
+        action="store_true",
+        help="Generate written arguments for review without archiving, TTS, or publishing",
+    )
     ap.add_argument("--audio-only", action="store_true", help="TTS from last_debate_scripts.json only")
     ap.add_argument("--mark-resolved", metavar="FRIDAY_ISO", help="With --status, update history")
     ap.add_argument("--status", choices=("yes", "no", "void", "pending"), help="Bet resolution for --mark-resolved")
@@ -1117,6 +1187,11 @@ def main() -> int:
         help="Refresh debate_history audio_href + archive_manifest.json from disk",
     )
     args = ap.parse_args()
+
+    if args.scripts_only and (
+        args.audio_only or args.dry_run or args.sync_archive or args.mark_resolved
+    ):
+        ap.error("--scripts-only cannot be combined with --audio-only, --dry-run, --sync-archive, or --mark-resolved")
 
     if args.sync_archive:
         save_history(load_history())
@@ -1158,7 +1233,7 @@ def main() -> int:
             prev = None
 
     prev_friday = (prev or {}).get("friday_iso")
-    if prev_friday == friday and not args.force:
+    if prev_friday == friday and not args.force and not args.scripts_only:
         print(f"Contract already current for {friday}. Use --force to regenerate.")
         return 0
 
@@ -1185,23 +1260,29 @@ def main() -> int:
     macro_block, spx_ref, btc_ref = build_macro_reference_block()
     resolves_iso = resolves_iso_from_friday(friday)
     retry_hint = ""
+    editorial_contract = load_editorial_contract(friday)
     contract_core: Optional[Dict[str, Any]] = None
     contract_ok = False
-    for attempt in range(3):
-        contract_core = generate_contract(
-            kind,
-            client,
-            overton,
-            insights,
-            avoid,
-            friday_iso=friday,
-            resolves_iso=resolves_iso,
-            polymarket_context=poly,
-            macro_reference_block=macro_block,
-            retry_hint=retry_hint,
-        )
-        # Deterministic enforcement: friday_iso + 42 days (fixes wrong YEAR issues).
-        contract_core = _enforce_contract_resolution_dates(contract_core, friday)
+    attempts = 1 if editorial_contract else 3
+    for attempt in range(attempts):
+        if editorial_contract:
+            contract_core = dict(editorial_contract)
+            print(f"  ✓ Using editorially approved contract for {friday}")
+        else:
+            contract_core = generate_contract(
+                kind,
+                client,
+                overton,
+                insights,
+                avoid,
+                friday_iso=friday,
+                resolves_iso=resolves_iso,
+                polymarket_context=poly,
+                macro_reference_block=macro_block,
+                retry_hint=retry_hint,
+            )
+            # Deterministic enforcement: generated contracts use friday_iso + 42 days.
+            contract_core = _enforce_contract_resolution_dates(contract_core, friday)
         ok_macro, err_macro = validate_prompt_macro_sanity(
             (contract_core.get("prompt") or "").strip(),
             spx_ref,
@@ -1254,10 +1335,11 @@ def main() -> int:
             if e
         ]
         retry_hint = " | ".join(errs) if errs else "validation failed"
-        print(f"  ⚠ Contract validation {attempt + 1}/3 failed: {retry_hint}")
+        print(f"  ⚠ Contract validation {attempt + 1}/{attempts} failed: {retry_hint}")
 
     if not contract_ok or not contract_core:
-        print("✗ Could not generate a contract that passes live-market sanity checks after 3 tries.")
+        source = "Editorial contract" if editorial_contract else "Generated contract"
+        print(f"✗ {source} did not pass contract quality checks.")
         return 1
 
     if args.dry_run:
@@ -1286,10 +1368,29 @@ def main() -> int:
         name_b,
         _debater_llm_context(p_a),
         _debater_llm_context(p_b),
+        build_speech_evidence_context(contract_core),
     )
     validate_speeches(yes_speech, no_speech, name_a, name_b)
     host_s = build_host_script(contract_core["prompt"], name_a, name_b)
-    write_scripts_state(host_s, yes_speech, no_speech)
+    write_scripts_state(
+        host_s,
+        yes_speech,
+        no_speech,
+        {
+            "generated_at": datetime.now().isoformat(),
+            "mode": "scripts_only" if args.scripts_only else "publish",
+            "friday_iso": friday,
+            "prompt": contract_core["prompt"],
+            "crux_theme": contract_core.get("crux_theme") or "",
+            "expires_rule": contract_core.get("expires_rule") or "",
+            "debater_yes": name_a,
+            "debater_no": name_b,
+        },
+    )
+    if args.scripts_only:
+        print(f"✓ Wrote review scripts to {SCRIPTS_STATE}")
+        print("  No history, audio, contract, or public site files were changed.")
+        return 0
 
     # Archive old week audio into history snapshot before overwriting current MP3.
     history_next = dict(history)
