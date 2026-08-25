@@ -1,0 +1,67 @@
+{
+  "friday_iso": "",
+  "prompt": "Will California enact SB 951 by September 30, requiring employers to disclose when AI drives a mass layoff—naming the affected occupations, automated job functions, and technology used—and the state to publish quarterly displacement summaries?",
+  "editorial_note": "We picked this because SB 951 would extend California's worker-notice system beyond ordinary layoff counts. Employers would have to flag mass layoffs materially driven by AI, name the occupations cut and the job functions being automated, identify the technology responsible, and feed a quarterly public tally of technological displacement. We also note the bill was narrowed on August 21, when a proposed notice requirement for AI-driven hiring freezes was replaced by a state study.",
+  "expires_rule": "Resolves Wednesday 11:59 PM PT 2026-09-30",
+  "resolves_iso": "2026-09-30",
+  "crux_theme": "AI labor transparency",
+  "evidence_brief": [
+    {
+      "fact": "As of August 24, 2026, SB 951 was an active bill in the Assembly floor process after being ordered to third reading on August 21.",
+      "source": "California Legislative Information, official SB 951 status",
+      "source_url": "https://leginfo.legislature.ca.gov/faces/billStatusClient.xhtml?bill_id=202520260SB951"
+    },
+    {
+      "fact": "Existing Cal/WARN law generally requires 60 days' notice for a covered mass layoff, relocation, or termination. SB 951 would add disclosures when that action is caused in whole or substantial part by AI or other automated technology, including the number, classification or occupation, and work location of the affected layoffs, the job functions to be automated, the category or type of AI system responsible, and a header reading 'This notice is for a technology displacement'.",
+      "source": "Proposed Labor Code section 1401(d)(1)",
+      "source_url": "https://leginfo.legislature.ca.gov/faces/billCompareClient.xhtml?bill_id=202520260SB951&showamends=false"
+    },
+    {
+      "fact": "The Employment Development Department would publish a summary of those notices as part of its regular Cal/WARN data reporting and post a quarterly statewide summary of reported technology displacements.",
+      "source": "Proposed Labor Code section 1401(d)(2)",
+      "source_url": "https://leginfo.legislature.ca.gov/faces/billCompareClient.xhtml?bill_id=202520260SB951&showamends=false"
+    },
+    {
+      "fact": "The August 21, 2026 amendment removed the earlier proposal requiring employers to file a notice when they permanently stop hiring for a position because of AI. Section 1402.7 now only directs the Employment Development Department to report to the Legislature by January 1, 2028 on AI's effects on business hiring practices. That report may include recommendations for a future notice requirement, but the statute lets the department satisfy it with summaries of hiring trends and existing research instead. The section is repealed January 1, 2029.",
+      "source": "Labor Code section 1402.7 as amended August 21, 2026",
+      "source_url": "https://leginfo.legislature.ca.gov/faces/billCompareClient.xhtml?bill_id=202520260SB951&showamends=false"
+    },
+    {
+      "fact": "SB 951 would add a statutory definition of artificial intelligence to the Cal/WARN Act, covering machine-based systems that infer from their input how to generate outputs influencing physical or virtual environments.",
+      "source": "Proposed Labor Code section 1400.5(a)",
+      "source_url": "https://leginfo.legislature.ca.gov/faces/billCompareClient.xhtml?bill_id=202520260SB951&showamends=false"
+    },
+    {
+      "fact": "California's 2026 calendar sets August 31 as the last day for each house to pass bills and September 30 as the governor's deadline to sign or veto qualifying bills.",
+      "source": "California Legislature 2026 legislative calendar",
+      "source_url": "https://clerk.assembly.ca.gov/sites/clerk.assembly.ca.gov/files/2026-01/2026-calendar.pdf"
+    },
+    {
+      "fact": "A Stanford Digital Economy Lab analysis using ADP payroll data reported that employment among workers ages 22 to 25 in highly AI-exposed occupations was about 19% below a comparison path by June 2026, with the divergence operating mainly through reduced hiring rather than separations.",
+      "source": "Stanford Digital Economy Lab, Canaries in the Coal Mine? August 2026 update",
+      "source_url": "https://digitaleconomy.stanford.edu/news/canariesaug26/",
+      "limitation": "The researchers describe these as early descriptive indicators, not causal estimates of AI's effect."
+    }
+  ],
+  "resolution_clarity": {
+    "source_of_truth": "California Legislative Information official SB 951 status and chaptered bill text",
+    "resolution_sources": [
+      "https://leginfo.legislature.ca.gov/faces/billStatusClient.xhtml?bill_id=202520260SB951",
+      "https://leginfo.legislature.ca.gov/faces/billNavClient.xhtml?bill_id=202520260SB951",
+      "https://leginfo.legislature.ca.gov/faces/billCompareClient.xhtml?bill_id=202520260SB951&showamends=false"
+    ],
+    "resolution_criteria": [
+      "Resolves YES only if California's official bill record lists SB 951 as Chaptered on or before September 30, 2026.",
+      "The chaptered text must require disclosure when a Cal/WARN-covered mass layoff is caused in whole or in substantial part by AI or other automated technology.",
+      "That disclosure must identify the affected occupations or classifications, the job functions to be automated, and the category or type of AI or automated technology responsible.",
+      "The chaptered text must require the Employment Development Department to publish notice summaries and a recurring statewide summary of reported technology displacement.",
+      "Resolves NO if SB 951 is vetoed, is not chaptered by the deadline, or any of those three substantive requirements is removed. Cosmetic wording changes do not affect resolution.",
+      "The section 1402.7 study of AI's effects on hiring is not required for YES. It may be amended, narrowed, or removed without affecting resolution."
+    ]
+  },
+  "sides": {
+    "a": "Affirmative (YES)",
+    "b": "Negative (NO)"
+  },
+  "editorial_approved": false
+}

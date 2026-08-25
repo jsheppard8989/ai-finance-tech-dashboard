@@ -15,45 +15,6 @@
       "audio_href": "./audio/archive/debate_2026-08-14.mp3"
     },
     {
-      "friday_iso": "2026-08-07",
-      "week_label": "Week of 2026-08-07",
-      "prompt": "Will the S&P 500 index close above 7,600 within the next 42 days?",
-      "debater_a": "Day Blenden",
-      "debater_b": "Sleam Ismail",
-      "expires_rule": "Resolves Friday 12:00 PM CST 2026-09-18",
-      "resolves_iso": "2026-09-18",
-      "resolution_status": "pending",
-      "resolution_notes": "",
-      "archived_at": "2026-08-14T05:04:18.157519",
-      "audio_href": "./audio/archive/debate_2026-08-07.mp3"
-    },
-    {
-      "friday_iso": "2026-07-31",
-      "week_label": "Week of 2026-07-31",
-      "prompt": "Will the S&P 500 index close above 7,600 within the next 42 days?",
-      "debater_a": "Ramine Hassani",
-      "debater_b": "Andy Beam",
-      "expires_rule": "Resolves Friday 12:00 PM CST 2026-09-11",
-      "resolves_iso": "2026-09-11",
-      "resolution_status": "pending",
-      "resolution_notes": "",
-      "archived_at": "2026-08-07T05:03:32.396689",
-      "audio_href": "./audio/archive/debate_2026-07-31.mp3"
-    },
-    {
-      "friday_iso": "2026-07-24",
-      "week_label": "Week of 2026-07-24",
-      "prompt": "Will the S&P 500 index close above 7,500 within the next 42 days?",
-      "debater_a": "Mark Zuckerberg",
-      "debater_b": "Priscilla Chan",
-      "expires_rule": "Resolves Friday 12:00 PM CST 2026-09-04",
-      "resolves_iso": "2026-09-04",
-      "resolution_status": "pending",
-      "resolution_notes": "",
-      "archived_at": "2026-07-31T12:07:17.836545",
-      "audio_href": "./audio/archive/debate_2026-07-24.mp3"
-    },
-    {
       "friday_iso": "2026-07-17",
       "week_label": "Week of 2026-07-17",
       "prompt": "Will the price of Bitcoin exceed $75,000 within the next 42 days?",
@@ -80,45 +41,6 @@
       "audio_href": "./audio/archive/debate_2026-07-10.mp3"
     },
     {
-      "friday_iso": "2026-07-03",
-      "week_label": "Week of 2026-07-03",
-      "prompt": "Will the price of Bitcoin exceed $90,000 within the next 42 days?",
-      "debater_a": "Ed Zitron",
-      "debater_b": "Jim Chanos",
-      "expires_rule": "Resolves Friday 12:00 PM CST 2026-08-14",
-      "resolves_iso": "2026-08-14",
-      "resolution_status": "pending",
-      "resolution_notes": "",
-      "archived_at": "2026-07-10T05:03:29.729089",
-      "audio_href": "./audio/archive/debate_2026-07-03.mp3"
-    },
-    {
-      "friday_iso": "2026-06-26",
-      "week_label": "Week of 2026-06-26",
-      "prompt": "Will the price of Bitcoin exceed $75,000 within the next 42 days?",
-      "debater_a": "Joseph Krauss",
-      "debater_b": "Sartina Della",
-      "expires_rule": "Resolves Friday 12:00 PM CST 2026-08-07",
-      "resolves_iso": "2026-08-07",
-      "resolution_status": "pending",
-      "resolution_notes": "",
-      "archived_at": "2026-07-03T05:03:53.365130",
-      "audio_href": "./audio/archive/debate_2026-06-26.mp3"
-    },
-    {
-      "friday_iso": "2026-06-19",
-      "week_label": "Week of 2026-06-19",
-      "prompt": "Will the S&P 500 index close above 7,800 within the next 42 days?",
-      "debater_a": "David A. Asnagi",
-      "debater_b": "Connor Coleman",
-      "expires_rule": "Resolves Friday 12:00 PM CST 2026-07-31",
-      "resolves_iso": "2026-07-31",
-      "resolution_status": "pending",
-      "resolution_notes": "",
-      "archived_at": "2026-06-26T05:02:50.565628",
-      "audio_href": "./audio/archive/debate_2026-06-19.mp3"
-    },
-    {
       "friday_iso": "2026-06-12",
       "week_label": "Week of 2026-06-12",
       "prompt": "Will at least two U.S. counties or municipalities enact new moratoriums or major restrictive ordinances on AI data center construction within the next 42 days?",
@@ -130,19 +52,6 @@
       "resolution_notes": "",
       "archived_at": "2026-06-19T05:02:38.585546",
       "audio_href": "./audio/archive/debate_2026-06-12.mp3"
-    },
-    {
-      "friday_iso": "2026-06-05",
-      "week_label": "Week of 2026-06-05",
-      "prompt": "Will the price of Bitcoin exceed $75,000 within the next 42 days?",
-      "debater_a": "Andreas Stino-Larson",
-      "debater_b": "John Doe",
-      "expires_rule": "Resolves Friday 12:00 PM CST 2026-07-17",
-      "resolves_iso": "2026-07-17",
-      "resolution_status": "pending",
-      "resolution_notes": "",
-      "archived_at": "2026-06-12T05:04:07.610512",
-      "audio_href": "./audio/archive/debate_2026-06-05.mp3"
     },
     {
       "friday_iso": "2026-05-29",
@@ -171,19 +80,6 @@
       "audio_href": "./audio/archive/debate_2026-05-15.mp3"
     },
     {
-      "friday_iso": "2026-05-08",
-      "week_label": "Week of 2026-05-08",
-      "prompt": "Will any presidential candidate win outright in the first round of the Brazil election within the next 42 days?",
-      "debater_a": "Jared Isaacman",
-      "debater_b": "Tony James",
-      "expires_rule": "Resolves Friday 12:00 PM CST 2026-06-19",
-      "resolution_status": "pending",
-      "resolution_notes": "",
-      "archived_at": "2026-05-15T05:02:19.567362",
-      "audio_href": "./audio/archive/debate_2026-05-08.mp3",
-      "resolves_iso": "2026-06-19"
-    },
-    {
       "friday_iso": "2026-05-01",
       "week_label": "Week of 2026-05-01",
       "prompt": "Will any presidential candidate win outright in the first round of the Colombia's election by Jun 12, 2026?",
@@ -208,19 +104,6 @@
       "resolved_at": "2026-06-04T08:40:00-05:00",
       "archived_at": "2026-05-01T05:08:50.459570",
       "resolves_iso": "2026-06-05"
-    },
-    {
-      "friday_iso": "2026-04-03",
-      "week_label": "Week of 2026-04-03",
-      "prompt": "Will the price of Bitcoin exceed $75,000 by the end of the next 42 days?",
-      "debater_a": "Dara Khosrowshahi",
-      "debater_b": "Doug Burnower",
-      "expires_rule": "Resolves Friday 12:00 PM CST 2026-05-15",
-      "resolution_status": "yes",
-      "resolution_notes": "Affirmative (contract YES).",
-      "resolved_at": "2026-05-02T12:00:00.000000",
-      "archived_at": "2026-04-24T05:06:54.743979",
-      "resolves_iso": "2026-05-15"
     },
     {
       "friday_iso": "2026-03-20",

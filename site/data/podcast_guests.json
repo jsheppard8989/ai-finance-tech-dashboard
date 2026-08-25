@@ -1,6 +1,18 @@
 [
   {
-    "id": 57493,
+    "id": 57653,
+    "name": "Michael Kratsios",
+    "slug": "michael-kratsios",
+    "bio": null,
+    "known_for": null,
+    "last_main_idea": "Investing in the U.S. science and technology ecosystem can lead to significant returns, as the administration aims to empower young scientists and create an environment for groundbreaking discoveries.",
+    "last_episode_title": "Michael Kratsios: Trump's Science Agenda, Anti-Science Claims, Fauci's Damage, DEI & China",
+    "last_podcast_name": "All-In with Chamath, Jason, Sacks & Friedberg",
+    "last_episode_date": "2026-08-24",
+    "appearance_count": 1
+  },
+  {
+    "id": 57654,
     "name": "Emad Mostaque",
     "slug": "emad-mostaque",
     "bio": null,
@@ -12,7 +24,7 @@
     "appearance_count": 3
   },
   {
-    "id": 57494,
+    "id": 57655,
     "name": "Angela Strange and Gabriel Vasquez",
     "slug": "angela-strange-and-gabriel-vasquez",
     "bio": null,
@@ -24,7 +36,7 @@
     "appearance_count": 1
   },
   {
-    "id": 57495,
+    "id": 57656,
     "name": "Why Bessent Blinked",
     "slug": "why-bessent-blinked",
     "bio": null,
@@ -36,7 +48,7 @@
     "appearance_count": 1
   },
   {
-    "id": 57496,
+    "id": 57657,
     "name": "Travis Kalanick",
     "slug": "travis-kalanick",
     "bio": null,
@@ -48,7 +60,7 @@
     "appearance_count": 1
   },
   {
-    "id": 57497,
+    "id": 57658,
     "name": "Rahm Emanuel",
     "slug": "rahm-emanuel",
     "bio": null,
@@ -60,7 +72,7 @@
     "appearance_count": 1
   },
   {
-    "id": 57498,
+    "id": 57659,
     "name": "Milton Berg",
     "slug": "milton-berg",
     "bio": "Milton Berg is a veteran technical analyst and CEO of Milton Berg Advisors, specializing in market turning-point analysis for institutional investors.",
@@ -72,7 +84,7 @@
     "appearance_count": 1
   },
   {
-    "id": 57499,
+    "id": 57660,
     "name": "How Open",
     "slug": "how-open",
     "bio": null,
@@ -84,7 +96,7 @@
     "appearance_count": 1
   },
   {
-    "id": 57500,
+    "id": 57661,
     "name": "Saronic Founders",
     "slug": "saronic-founders",
     "bio": null,
@@ -96,7 +108,7 @@
     "appearance_count": 1
   },
   {
-    "id": 57501,
+    "id": 57662,
     "name": "OpenAI's Joshua Achiam",
     "slug": "openais-joshua-achiam",
     "bio": null,
@@ -108,7 +120,7 @@
     "appearance_count": 1
   },
   {
-    "id": 57502,
+    "id": 57663,
     "name": "Marc Andreessen and Chris Dixon",
     "slug": "marc-andreessen-and-chris-dixon",
     "bio": null,
@@ -120,7 +132,7 @@
     "appearance_count": 1
   },
   {
-    "id": 57503,
+    "id": 57664,
     "name": "AI for America's Small Businesses",
     "slug": "ai-for-americas-small-businesses",
     "bio": null,
@@ -132,7 +144,7 @@
     "appearance_count": 1
   },
   {
-    "id": 57504,
+    "id": 57665,
     "name": "Luke Gromen",
     "slug": "luke-gromen",
     "bio": null,
@@ -144,7 +156,7 @@
     "appearance_count": 1
   },
   {
-    "id": 57505,
+    "id": 57666,
     "name": "Travis Kelenick",
     "slug": "travis-kelenick",
     "bio": null,
@@ -156,7 +168,7 @@
     "appearance_count": 1
   },
   {
-    "id": 57506,
+    "id": 57667,
     "name": "Travis Kalanick Is Back",
     "slug": "travis-kalanick-is-back",
     "bio": null,
@@ -168,7 +180,7 @@
     "appearance_count": 1
   },
   {
-    "id": 57507,
+    "id": 57668,
     "name": "Interest Rates to 10%",
     "slug": "interest-rates-to-10",
     "bio": null,
@@ -180,7 +192,7 @@
     "appearance_count": 1
   },
   {
-    "id": 57508,
+    "id": 57669,
     "name": "Nick Nemeth",
     "slug": "nick-nemeth",
     "bio": null,
@@ -192,7 +204,7 @@
     "appearance_count": 1
   },
   {
-    "id": 57509,
+    "id": 57670,
     "name": "Urgent Update- AI Sputnik Moment",
     "slug": "urgent-update--ai-sputnik-moment",
     "bio": null,
@@ -204,7 +216,7 @@
     "appearance_count": 1
   },
   {
-    "id": 57510,
+    "id": 57671,
     "name": "David Sachs",
     "slug": "david-sachs",
     "bio": null,
@@ -216,7 +228,7 @@
     "appearance_count": 1
   },
   {
-    "id": 57511,
+    "id": 57672,
     "name": "Turbo Charged Trend Following",
     "slug": "turbo-charged-trend-following",
     "bio": null,
@@ -228,7 +240,7 @@
     "appearance_count": 1
   },
   {
-    "id": 57512,
+    "id": 57673,
     "name": "Can Anyone Catch NVIDIA?",
     "slug": "can-anyone-catch-nvidia",
     "bio": null,
@@ -240,7 +252,7 @@
     "appearance_count": 1
   },
   {
-    "id": 57513,
+    "id": 57674,
     "name": "Mark Zuckerberg & Priscilla Chan",
     "slug": "mark-zuckerberg--priscilla-chan",
     "bio": null,
@@ -252,7 +264,7 @@
     "appearance_count": 1
   },
   {
-    "id": 57514,
+    "id": 57675,
     "name": "Adam Neumann",
     "slug": "adam-neumann",
     "bio": null,
@@ -264,7 +276,7 @@
     "appearance_count": 1
   },
   {
-    "id": 57515,
+    "id": 57676,
     "name": "Breaking Down the Multi-Manager Playbook",
     "slug": "breaking-down-the-multi-manager-playbook",
     "bio": null,
@@ -276,7 +288,7 @@
     "appearance_count": 1
   },
   {
-    "id": 57516,
+    "id": 57677,
     "name": "Don\u2019t Follow Your Passion",
     "slug": "dont-follow-your-passion",
     "bio": null,
@@ -288,7 +300,7 @@
     "appearance_count": 1
   },
   {
-    "id": 57517,
+    "id": 57678,
     "name": "trillion. Guest Daryl Duffy",
     "slug": "trillion-guest-daryl-duffy",
     "bio": null,
@@ -300,7 +312,7 @@
     "appearance_count": 1
   },
   {
-    "id": 57518,
+    "id": 57679,
     "name": "Outsmarting Uber",
     "slug": "outsmarting-uber",
     "bio": null,
@@ -312,7 +324,7 @@
     "appearance_count": 1
   },
   {
-    "id": 57519,
+    "id": 57680,
     "name": "What If It\u2019s Still Early?",
     "slug": "what-if-its-still-early",
     "bio": null,
@@ -324,7 +336,7 @@
     "appearance_count": 1
   },
   {
-    "id": 57520,
+    "id": 57681,
     "name": "Building AI for Creators",
     "slug": "building-ai-for-creators",
     "bio": null,
@@ -336,7 +348,7 @@
     "appearance_count": 1
   },
   {
-    "id": 57521,
+    "id": 57682,
     "name": "Mark Andreessen",
     "slug": "mark-andreessen",
     "bio": null,
@@ -344,18 +356,6 @@
     "last_main_idea": "Invest in AI-driven blue sectors to capitalize on rapid productivity growth, while advocating for regulatory reforms and public sector modernization to overcome constraints on AI's transformative potential.",
     "last_episode_title": "Beyond P(doom): Marc Andreessen - Betting on America",
     "last_podcast_name": "The a16z Show",
-    "last_episode_date": "2026-06-29",
-    "appearance_count": 1
-  },
-  {
-    "id": 57522,
-    "name": "Nate Silver Predicts",
-    "slug": "nate-silver-predicts",
-    "bio": null,
-    "known_for": null,
-    "last_main_idea": "Invest in organizations that demonstrate strong leadership and a track record of success, and prepare for potential policy shifts based on midterm election outcomes.",
-    "last_episode_title": "Nate Silver Predicts: Democrats Take the House, Newsom Is Fading & AOC Might Win It All in 2028",
-    "last_podcast_name": "All-In with Chamath, Jason, Sacks & Friedberg",
     "last_episode_date": "2026-06-29",
     "appearance_count": 1
   }

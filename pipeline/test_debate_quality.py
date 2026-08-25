@@ -1,8 +1,18 @@
 #!/usr/bin/env python3
 """Tests for debate contract publish quality gates."""
 
+import json
+import tempfile
 import unittest
+from pathlib import Path
+from unittest.mock import patch
 
+from debate_weekly import (
+    build_speech_evidence_context,
+    generate_speeches,
+    load_editorial_contract,
+    validate_speeches,
+)
 from debate_quality import (
     prompt_similarity,
     validate_contract_publishable,
@@ -13,6 +23,71 @@ from debate_quality import (
 
 
 class TestDebateQuality(unittest.TestCase):
+    def test_speech_prompt_requires_truth_seeking_and_grounded_evidence(self):
+        generated = {
+            "yes_speech": (
+                "Alice Smith.\n\nThe long of it is grounded in the supplied evidence and a clear "
+                "causal mechanism.\n\nConcession. I would update if the mechanism fails."
+            ),
+            "no_speech": (
+                "Bob Jones.\n\nThe short of it is grounded in the supplied evidence and a clear "
+                "causal mechanism.\n\nConcession. I would update if the mechanism holds."
+            ),
+        }
+        with patch("debate_weekly.llm_chat_json", return_value=generated) as chat:
+            generate_speeches(
+                "test",
+                object(),
+                "Will the policy pass?",
+                "policy",
+                "Alice Smith",
+                "Bob Jones",
+                evidence_context='{"fact": "Officially verified."}',
+            )
+        system_prompt = chat.call_args.args[2]
+        user_prompt = chat.call_args.args[3]
+        self.assertIn("Maximize truth and understanding", system_prompt)
+        self.assertIn("first principles", system_prompt)
+        self.assertIn("Never invent evidence", system_prompt)
+        self.assertIn("Officially verified.", user_prompt)
+
+    def test_speech_evidence_uses_only_contract_attached_material(self):
+        context = build_speech_evidence_context(
+            {
+                "editorial_note": "Editor-reviewed context.",
+                "evidence_brief": [{"fact": "Verified fact.", "source": "Official source"}],
+                "unreviewed_field": "Do not include this.",
+            }
+        )
+        self.assertIn("Verified fact.", context)
+        self.assertIn("Editor-reviewed context.", context)
+        self.assertNotIn("Do not include this.", context)
+
+    def test_speech_structure_validation(self):
+        validate_speeches(
+            "Alice Smith.\n\nThe long of it is the mechanism matters.\n\nConcession. This could be wrong.",
+            "Bob Jones.\n\nThe short of it is the tradeoff matters.\n\nConcession. This could be wrong.",
+            "Alice Smith",
+            "Bob Jones",
+        )
+        with self.assertRaisesRegex(ValueError, "Concession"):
+            validate_speeches(
+                "Alice Smith.\n\nThe long of it is the mechanism matters.",
+                "Bob Jones.\n\nThe short of it is the tradeoff matters.\n\nConcession. This could be wrong.",
+                "Alice Smith",
+                "Bob Jones",
+            )
+
+    def test_loads_editorial_contract_only_for_scheduled_friday(self):
+        with tempfile.TemporaryDirectory() as tmp:
+            path = Path(tmp) / "contract.json"
+            path.write_text(
+                json.dumps({"friday_iso": "2026-08-28", "prompt": "Approved?"}),
+                encoding="utf-8",
+            )
+            self.assertIsNotNone(load_editorial_contract("2026-08-28", path))
+            self.assertIsNone(load_editorial_contract("2026-09-04", path))
+
     def test_rejects_duplicate_prompt(self):
         prior = ["Will the S&P 500 index close above 8,000 within the next 42 days?"]
         prompt = "Will the S&P 500 close above 8,000 in the next 42 days?"

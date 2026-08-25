@@ -1,21 +1,21 @@
 {
-  "generated_at": "2026-08-24T13:54:11.542971",
-  "last_updated": "2026-08-24T13:54:11.542971",
-  "last_pipeline_run": "2026-08-24T13:54:11.542971",
+  "generated_at": "2026-08-24T23:44:54.370960",
+  "last_updated": "2026-08-24T23:44:54.370960",
+  "last_pipeline_run": "2026-08-24T23:44:54.370960",
   "main_page": {
     "overton": 13,
     "insights": 8,
-    "pundits": 275
+    "pundits": 276
   },
   "counts": {
     "ticker_mentions": 216,
-    "podcast_episodes": 395,
+    "podcast_episodes": 396,
     "newsletters": 7,
     "daily_scores": 153,
-    "overton_terms_total": 130,
-    "latest_insights_total": 409,
+    "overton_terms_total": 131,
+    "latest_insights_total": 410,
     "today_mentions": {},
-    "podcasts_analyzed": 2
+    "podcasts_analyzed": 3
   },
   "step_results": {
     "downloaded": 4,
@@ -82,24 +82,6 @@
         }
       },
       "status": "needs_analysis"
-    },
-    {
-      "id": "b8c9473a-9f6e-11f1-946b-2b3f9ea17d93",
-      "podcast": "Monetary Matters with Jack Farley",
-      "title": "Is Private Equity Broken? Why the Buyside\u2019s Problems Are Making 2026 \u201cThe Year of the Banker\u201d | High Yield Harry",
-      "published": "2026-08-24",
-      "rss_guid": "b8c9473a-9f6e-11f1-946b-2b3f9ea17d93",
-      "stages": {
-        "downloaded": true,
-        "transcribed": true,
-        "analyzed": true,
-        "insight_created": true,
-        "published": true
-      },
-      "stage_reasons": {},
-      "first_blocker": null,
-      "remediation_by_stage": {},
-      "status": "complete"
     },
     {
       "id": "3cab0976-a409-472e-870f-ea70c2adb5e5",
@@ -228,6 +210,24 @@
         }
       },
       "status": "needs_transcription"
+    },
+    {
+      "id": "64b534f7-b272-4bb8-9238-96055f4fa858",
+      "podcast": "All-In with Chamath, Jason, Sacks & Friedberg",
+      "title": "Michael Kratsios: Trump's Science Agenda, Anti-Science Claims, Fauci's Damage, DEI & China",
+      "published": "2026-08-24",
+      "rss_guid": "64b534f7-b272-4bb8-9238-96055f4fa858",
+      "stages": {
+        "downloaded": true,
+        "transcribed": true,
+        "analyzed": true,
+        "insight_created": true,
+        "published": true
+      },
+      "stage_reasons": {},
+      "first_blocker": null,
+      "remediation_by_stage": {},
+      "status": "complete"
     }
   ],
   "available_from_rss": [

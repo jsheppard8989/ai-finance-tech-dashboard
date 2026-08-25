@@ -39,6 +39,25 @@
       "podcast_episode_id": 422
     },
     {
+      "id": 438,
+      "title": "Michael Kratsios: Trump's Science Agenda, Anti-Science Claims, Fauci's Damage, DEI & China",
+      "source_type": "podcast",
+      "source_name": "All-In with Chamath, Jason, Sacks & Friedberg",
+      "source_date": "2026-08-24",
+      "summary": "In this episode, the hosts discuss the current state of science and technology policy in the United States with Michael Crathfields, the director of the Office of Science and Technology Policy at the White House. The conversation covers the administration's stance on science, the politicization of science, and the future of scientific research and funding. Crathfields emphasizes the importance of empowering young scientists, creating an ecosystem for scientific discovery, and aligning efforts across various agencies to achieve national scientific and technological goals.",
+      "key_takeaway": "Investing in the U.S. science and technology ecosystem can lead to significant returns, as the administration aims to empower young scientists and create an environment for groundbreaking discoveries.",
+      "tickers_mentioned": [
+        "NVDA"
+      ],
+      "sentiment": "neutral",
+      "display_on_main": 1,
+      "display_order": 0,
+      "added_date": "2026-08-24",
+      "archived_date": null,
+      "archived_reason": null,
+      "podcast_episode_id": 423
+    },
+    {
       "id": 433,
       "title": "Dario Defends Himself, Datacenter Panic, AI Doomer Trap, Senate Toss-Up",
       "source_type": "podcast",
@@ -149,7 +168,7 @@
         "FB"
       ],
       "sentiment": "bearish",
-      "display_on_main": 1,
+      "display_on_main": 0,
       "display_order": 0,
       "added_date": "2026-08-19",
       "archived_date": null,
@@ -8410,6 +8429,24 @@
   "definitions": [],
   "overton": [
     {
+      "id": 281,
+      "term": "Simulation",
+      "description": "The use of models and computer programs to represent and analyze real or imagined systems or situations.",
+      "first_detected_date": "2026-08-21",
+      "last_mentioned_date": "2026-08-24",
+      "mention_count": 2,
+      "source_podcasts": null,
+      "status": "active",
+      "investment_implications": "Simulation technology can provide significant insights for decision-making, making investments in this area potentially valuable.",
+      "display_on_main": 0,
+      "archived_date": null,
+      "archived_reason": null,
+      "first_detected_episode_id": 420,
+      "first_detected_speaker": "June",
+      "last_mentioned_episode_id": 423,
+      "last_mentioned_speaker": "Michael Crathfields"
+    },
+    {
       "id": 272,
       "term": "Compute Commoditization",
       "description": "The process by which compute power becomes a standard, tradable commodity, similar to oil or natural gas, with market structures and pricing based on supply and demand.",
@@ -8466,20 +8503,20 @@
     {
       "id": 269,
       "term": "Golden Age of Science",
-      "description": "A period characterized by rapid scientific discovery and technological advancement, often associated with significant government support and investment.",
+      "description": "A period characterized by significant advancements and investment in scientific research and technology, with the goal of making the U.S. a hub for scientific discovery.",
       "first_detected_date": "2026-08-04",
-      "last_mentioned_date": "2026-08-08",
-      "mention_count": 2,
+      "last_mentioned_date": "2026-08-24",
+      "mention_count": 3,
       "source_podcasts": null,
       "status": "active",
-      "investment_implications": "Focusing on sectors and companies that benefit from increased scientific research and development could lead to high growth opportunities.",
+      "investment_implications": "Investors should consider opportunities in sectors that align with the administration's scientific and technological priorities.",
       "display_on_main": 1,
       "archived_date": null,
       "archived_reason": null,
       "first_detected_episode_id": 386,
       "first_detected_speaker": "Michael Kratsios",
-      "last_mentioned_episode_id": 393,
-      "last_mentioned_speaker": "Saline"
+      "last_mentioned_episode_id": 423,
+      "last_mentioned_speaker": "Michael Crathfields"
     },
     {
       "id": 270,
