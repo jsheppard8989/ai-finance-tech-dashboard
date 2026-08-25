@@ -3,80 +3,80 @@
 
 const dashboardData = {
   schemaVersion: 2,
-  generatedAt: "2026-08-25T05:02:59.840526",
-  chartsVersion: "2026-08-25T05:02:53.002946",
+  generatedAt: "2026-08-25T06:35:38.508267",
+  chartsVersion: "2026-08-25T06:35:28.820546",
   priceSnapshot: {
   "GOOGL": {
     "price": 348.06,
     "change_pct": -3.96,
     "name": "GOOGL",
-    "updated_at": "2026-08-25T05:02:53.002266"
+    "updated_at": "2026-08-25T06:35:28.819483"
   },
   "NVDA": {
     "price": 208.48,
     "change_pct": -4.9,
     "name": "NVDA",
-    "updated_at": "2026-08-25T05:02:53.002282"
+    "updated_at": "2026-08-25T06:35:28.819502"
   },
   "MSFT": {
     "price": 487.31,
     "change_pct": 0.16,
     "name": "MSFT",
-    "updated_at": "2026-08-25T05:02:53.002289"
+    "updated_at": "2026-08-25T06:35:28.819510"
   },
   "BTC": {
-    "price": 79030.01,
-    "change_pct": 24.65,
+    "price": 79330.69,
+    "change_pct": 25.12,
     "name": "BTC",
-    "updated_at": "2026-08-25T05:02:53.002295"
+    "updated_at": "2026-08-25T06:35:28.819517"
   },
   "TSLA": {
     "price": 348.95,
     "change_pct": 8.52,
     "name": "TSLA",
-    "updated_at": "2026-08-25T05:02:53.002300"
+    "updated_at": "2026-08-25T06:35:28.819524"
   },
   "AMZN": {
     "price": 262.07,
     "change_pct": -3.88,
     "name": "AMZN",
-    "updated_at": "2026-08-25T05:02:53.002306"
+    "updated_at": "2026-08-25T06:35:28.819532"
   },
   "META": {
     "price": 559.02,
     "change_pct": -5.05,
     "name": "META",
-    "updated_at": "2026-08-25T05:02:53.002312"
+    "updated_at": "2026-08-25T06:35:28.819538"
   },
   "WTI": {
     "price": 3.8,
     "change_pct": 17.23,
     "name": "WTI",
-    "updated_at": "2026-08-25T05:02:53.002317"
+    "updated_at": "2026-08-25T06:35:28.819545"
   },
   "S&P 500": {
     "price": 763.47,
     "change_pct": -0.82,
     "name": "S&P 500",
-    "updated_at": "2026-08-25T05:02:53.002322"
+    "updated_at": "2026-08-25T06:35:28.819552"
   },
   "AAPL": {
     "price": 310.34,
     "change_pct": -0.13,
     "name": "AAPL",
-    "updated_at": "2026-08-25T05:02:53.002327"
+    "updated_at": "2026-08-25T06:35:28.819559"
   },
   "QQQ": {
     "price": 706.32,
     "change_pct": -1.53,
     "name": "Invesco QQQ Trust",
-    "updated_at": "2026-08-25T05:02:53.002332"
+    "updated_at": "2026-08-25T06:35:28.819565"
   },
   "BTC-USD": {
-    "price": 79030.01,
-    "change_pct": 24.65,
+    "price": 79330.69,
+    "change_pct": 25.12,
     "name": "Bitcoin USD",
-    "updated_at": "2026-08-25T05:02:53.002339"
+    "updated_at": "2026-08-25T06:35:28.819572"
   }
 },
   tickerScores: [
@@ -38310,7 +38310,7 @@ const dashboardData = {
 ],
   podcastGuests: [
   {
-    "id": 57734,
+    "id": 57815,
     "name": "Michael Kratsios",
     "slug": "michael-kratsios",
     "bio": null,
@@ -38322,7 +38322,7 @@ const dashboardData = {
     "appearance_count": 1
   },
   {
-    "id": 57735,
+    "id": 57816,
     "name": "Emad Mostaque",
     "slug": "emad-mostaque",
     "bio": null,
@@ -38334,7 +38334,7 @@ const dashboardData = {
     "appearance_count": 3
   },
   {
-    "id": 57736,
+    "id": 57817,
     "name": "Angela Strange and Gabriel Vasquez",
     "slug": "angela-strange-and-gabriel-vasquez",
     "bio": null,
@@ -38346,7 +38346,7 @@ const dashboardData = {
     "appearance_count": 1
   },
   {
-    "id": 57737,
+    "id": 57818,
     "name": "Why Bessent Blinked",
     "slug": "why-bessent-blinked",
     "bio": null,
@@ -38358,7 +38358,7 @@ const dashboardData = {
     "appearance_count": 1
   },
   {
-    "id": 57738,
+    "id": 57819,
     "name": "Travis Kalanick",
     "slug": "travis-kalanick",
     "bio": null,
@@ -38370,7 +38370,7 @@ const dashboardData = {
     "appearance_count": 1
   },
   {
-    "id": 57739,
+    "id": 57820,
     "name": "Rahm Emanuel",
     "slug": "rahm-emanuel",
     "bio": null,
@@ -38382,7 +38382,7 @@ const dashboardData = {
     "appearance_count": 1
   },
   {
-    "id": 57740,
+    "id": 57821,
     "name": "Milton Berg",
     "slug": "milton-berg",
     "bio": "Milton Berg is a veteran technical analyst and CEO of Milton Berg Advisors, specializing in market turning-point analysis for institutional investors.",
@@ -38394,7 +38394,7 @@ const dashboardData = {
     "appearance_count": 1
   },
   {
-    "id": 57741,
+    "id": 57822,
     "name": "How Open",
     "slug": "how-open",
     "bio": null,
@@ -38406,7 +38406,7 @@ const dashboardData = {
     "appearance_count": 1
   },
   {
-    "id": 57742,
+    "id": 57823,
     "name": "Saronic Founders",
     "slug": "saronic-founders",
     "bio": null,
@@ -38418,7 +38418,7 @@ const dashboardData = {
     "appearance_count": 1
   },
   {
-    "id": 57743,
+    "id": 57824,
     "name": "OpenAI's Joshua Achiam",
     "slug": "openais-joshua-achiam",
     "bio": null,
@@ -38430,7 +38430,7 @@ const dashboardData = {
     "appearance_count": 1
   },
   {
-    "id": 57744,
+    "id": 57825,
     "name": "Marc Andreessen and Chris Dixon",
     "slug": "marc-andreessen-and-chris-dixon",
     "bio": null,
@@ -38442,7 +38442,7 @@ const dashboardData = {
     "appearance_count": 1
   },
   {
-    "id": 57745,
+    "id": 57826,
     "name": "AI for America's Small Businesses",
     "slug": "ai-for-americas-small-businesses",
     "bio": null,
@@ -38454,7 +38454,7 @@ const dashboardData = {
     "appearance_count": 1
   },
   {
-    "id": 57746,
+    "id": 57827,
     "name": "Luke Gromen",
     "slug": "luke-gromen",
     "bio": null,
@@ -38466,7 +38466,7 @@ const dashboardData = {
     "appearance_count": 1
   },
   {
-    "id": 57747,
+    "id": 57828,
     "name": "Travis Kelenick",
     "slug": "travis-kelenick",
     "bio": null,
@@ -38478,7 +38478,7 @@ const dashboardData = {
     "appearance_count": 1
   },
   {
-    "id": 57748,
+    "id": 57829,
     "name": "Travis Kalanick Is Back",
     "slug": "travis-kalanick-is-back",
     "bio": null,
@@ -38490,7 +38490,7 @@ const dashboardData = {
     "appearance_count": 1
   },
   {
-    "id": 57749,
+    "id": 57830,
     "name": "Interest Rates to 10%",
     "slug": "interest-rates-to-10",
     "bio": null,
@@ -38502,7 +38502,7 @@ const dashboardData = {
     "appearance_count": 1
   },
   {
-    "id": 57750,
+    "id": 57831,
     "name": "Nick Nemeth",
     "slug": "nick-nemeth",
     "bio": null,
@@ -38514,7 +38514,7 @@ const dashboardData = {
     "appearance_count": 1
   },
   {
-    "id": 57751,
+    "id": 57832,
     "name": "Urgent Update- AI Sputnik Moment",
     "slug": "urgent-update--ai-sputnik-moment",
     "bio": null,
@@ -38526,7 +38526,7 @@ const dashboardData = {
     "appearance_count": 1
   },
   {
-    "id": 57752,
+    "id": 57833,
     "name": "David Sachs",
     "slug": "david-sachs",
     "bio": null,
@@ -38538,7 +38538,7 @@ const dashboardData = {
     "appearance_count": 1
   },
   {
-    "id": 57753,
+    "id": 57834,
     "name": "Turbo Charged Trend Following",
     "slug": "turbo-charged-trend-following",
     "bio": null,
@@ -40075,7 +40075,7 @@ const dashboardData = {
     "last_podcast_name": "Moonshots with Peter Diamandis",
     "last_episode_date": "2026-08-11",
     "mention_score": 1,
-    "mention_score_decayed": 0.76,
+    "mention_score_decayed": 0.74,
     "last_main_idea": "Invest in companies and technologies that are at the forefront of AI and compute power, as these are poised to become the driving forces behind future enterprise success.",
     "last_proof_cite": "Moonshots with Peter Diamandis \u2022 2026-08-11 \u2022 Sergey Brin Retakes Gemini, 4 Labs Lose Containment, Compute Trades at NYSE w/ Kush Bavaria | EP #278",
     "last_proof_snippet": "Sergei Bren is back taking personal control of Gemini. I think we can expect Gemini to make more releases in an accelerated pace with less safety constraints. Google has lost the frontier race and so they can't compete. Those who can't comp",
@@ -50601,7 +50601,7 @@ const dashboardData = {
     "last_podcast_name": "The a16z Show",
     "last_episode_date": "2026-04-20",
     "mention_score": 1,
-    "mention_score_decayed": 0.06,
+    "mention_score_decayed": 0.05,
     "last_main_idea": "Investing in the evolution of software development tools that cater to the needs of both human developers and AI coding agents presents an opportunity for significant growth and innovation.",
     "last_proof_cite": "The a16z Show \u2022 2026-04-20 \u2022 Rethinking Git for the Age of Coding Agents with GitHub Cofounder Scott Chacon",
     "last_proof_snippet": "Coding agents are struggling with traditional Git interfaces, necessitating new tool development.",
@@ -51048,7 +51048,7 @@ const dashboardData = {
     "last_podcast_name": "Dwarkesh Podcast",
     "last_episode_date": "2026-04-15",
     "mention_score": 4,
-    "mention_score_decayed": 0.2,
+    "mention_score_decayed": 0.19,
     "last_main_idea": "Nvidia's role in the transformation of electrons to valuable tokens and the acceleration of computing tasks positions it well in the AI and broader technology market.",
     "last_proof_cite": "Dwarkesh Podcast \u2022 2026-04-15 \u2022 Jensen Huang \u2013 TPU competition, why we should sell chips to China, & Nvidia\u2019s supply chain moat",
     "last_proof_snippet": "Nvidia has built a large ecosystem of partners across the supply chain and in application development.",
@@ -51356,7 +51356,7 @@ const dashboardData = {
     "last_podcast_name": "Moonshots with Peter Diamandis",
     "last_episode_date": "2026-04-11",
     "mention_score": 1,
-    "mention_score_decayed": 0.05,
+    "mention_score_decayed": 0.04,
     "last_main_idea": "Invest in companies and technologies at the forefront of AI and space exploration for potential high returns as these sectors are expected to drive the next wave of technological advancements.",
     "last_proof_cite": "Moonshots with Peter Diamandis \u2022 2026-04-11 \u2022 SpaceX Goes Public, Claude\u2019s Mythos Release, and the US Data Center Delay | EP #246",
     "last_proof_snippet": "Starlink is seen as a profitable stepping stone for SpaceX's ambitions in space.",
@@ -51418,7 +51418,7 @@ const dashboardData = {
     "last_podcast_name": "Moonshots with Peter Diamandis",
     "last_episode_date": "2026-04-11",
     "mention_score": 1,
-    "mention_score_decayed": 0.05,
+    "mention_score_decayed": 0.04,
     "last_main_idea": "Invest in companies and technologies at the forefront of AI and space exploration for potential high returns as these sectors are expected to drive the next wave of technological advancements.",
     "last_proof_cite": "Moonshots with Peter Diamandis \u2022 2026-04-11 \u2022 SpaceX Goes Public, Claude\u2019s Mythos Release, and the US Data Center Delay | EP #246",
     "last_proof_snippet": "Starlink is seen as a profitable stepping stone for SpaceX's ambitions in space.",
@@ -52634,7 +52634,7 @@ const dashboardData = {
     "last_podcast_name": "Moonshots with Peter Diamandis",
     "last_episode_date": "2026-03-31",
     "mention_score": 1,
-    "mention_score_decayed": 0.04,
+    "mention_score_decayed": 0.03,
     "last_main_idea": "Investment in autonomous vehicle technology is poised to disrupt urban mobility and logistics, with companies like Uber positioned to capitalize on this shift.",
     "last_proof_cite": "Moonshots with Peter Diamandis \u2022 2026-03-31 \u2022 Uber CEO on Winning the Robotaxi Race, the End of Car Ownership, and Uber\u2019s Next $1 Trillion Bet | Dara Khosrowshahi (Uber CEO) | 243",
     "last_proof_snippet": "Autonomous vehicles are becoming a reality, with a hybrid model expected to emerge where both human-driven and autonomous vehicles coexist.",
@@ -52695,7 +52695,7 @@ const dashboardData = {
     "last_podcast_name": "The a16z Show",
     "last_episode_date": "2026-03-31",
     "mention_score": 1,
-    "mention_score_decayed": 0.04,
+    "mention_score_decayed": 0.03,
     "last_main_idea": "Investing in companies that innovate in energy delivery and grid infrastructure can lead to significant returns as the demand for electricity increases and the need for a more efficient and sustainable grid becomes critical.",
     "last_proof_cite": "The a16z Show \u2022 2026-03-31 \u2022 How Radiant and Heron Are Rethinking Power Generation and Delivery",
     "last_proof_snippet": "Delivery, not new generation, is the bottleneck in the current energy infrastructure.",
@@ -52760,7 +52760,7 @@ const dashboardData = {
     "last_podcast_name": "The a16z Show",
     "last_episode_date": "2026-03-31",
     "mention_score": 1,
-    "mention_score_decayed": 0.04,
+    "mention_score_decayed": 0.03,
     "last_main_idea": "Investing in companies that innovate in energy delivery and grid infrastructure can lead to significant returns as the demand for electricity increases and the need for a more efficient and sustainable grid becomes critical.",
     "last_proof_cite": "The a16z Show \u2022 2026-03-31 \u2022 How Radiant and Heron Are Rethinking Power Generation and Delivery",
     "last_proof_snippet": "Delivery, not new generation, is the bottleneck in the current energy infrastructure.",
@@ -52821,7 +52821,7 @@ const dashboardData = {
     "last_podcast_name": "Monetary Matters with Jack Farley",
     "last_episode_date": "2026-03-31",
     "mention_score": 1,
-    "mention_score_decayed": 0.04,
+    "mention_score_decayed": 0.03,
     "last_main_idea": "Investing in AI-enhanced ETFs like PQNT and PQUS can provide enhanced equity exposure in the current market environment.",
     "last_proof_cite": "Monetary Matters with Jack Farley \u2022 2026-03-31 \u2022 The Psychology of Market Champions: Inside the Minds of Point 72 & Citadel Portfolio Managers | Dr. Gio Valiante",
     "last_proof_snippet": "The impact of regulation and policy on the cost of starting a hedge fund.",
