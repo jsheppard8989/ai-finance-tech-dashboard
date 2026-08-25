@@ -43,7 +43,7 @@
     {
       "friday_iso": "2026-06-12",
       "week_label": "Week of 2026-06-12",
-      "prompt": "Will at least two U.S. counties or municipalities enact new moratoriums or major restrictive ordinances on AI data center construction within the next 42 days?",
+      "prompt": "Will the U.S. Senate be controlled by the Democratic Party within the next 42 days?",
       "debater_a": "Michael Fritzell",
       "debater_b": "Will Brick",
       "expires_rule": "Resolves Friday 12:00 PM CST 2026-07-24",
