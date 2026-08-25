@@ -3,80 +3,80 @@
 
 const dashboardData = {
   schemaVersion: 2,
-  generatedAt: "2026-08-24T22:12:01.789803",
-  chartsVersion: "2026-08-24T22:11:51.969375",
+  generatedAt: "2026-08-24T23:44:57.880480",
+  chartsVersion: "2026-08-24T23:44:50.050421",
   priceSnapshot: {
   "GOOGL": {
     "price": 348.06,
     "change_pct": -3.96,
     "name": "GOOGL",
-    "updated_at": "2026-08-24T22:11:51.968179"
+    "updated_at": "2026-08-24T23:44:50.049795"
   },
   "NVDA": {
     "price": 208.48,
     "change_pct": -4.9,
     "name": "NVDA",
-    "updated_at": "2026-08-24T22:11:51.968197"
+    "updated_at": "2026-08-24T23:44:50.049807"
   },
   "MSFT": {
     "price": 487.31,
     "change_pct": 0.16,
     "name": "MSFT",
-    "updated_at": "2026-08-24T22:11:51.968204"
+    "updated_at": "2026-08-24T23:44:50.049812"
   },
   "BTC": {
-    "price": 80786.73,
-    "change_pct": 27.42,
+    "price": 80197.49,
+    "change_pct": 26.49,
     "name": "BTC",
-    "updated_at": "2026-08-24T22:11:51.968211"
+    "updated_at": "2026-08-24T23:44:50.049816"
   },
   "TSLA": {
     "price": 348.95,
     "change_pct": 8.52,
     "name": "TSLA",
-    "updated_at": "2026-08-24T22:11:51.968217"
+    "updated_at": "2026-08-24T23:44:50.049820"
   },
   "AMZN": {
     "price": 262.07,
     "change_pct": -3.88,
     "name": "AMZN",
-    "updated_at": "2026-08-24T22:11:51.968224"
+    "updated_at": "2026-08-24T23:44:50.049824"
   },
   "META": {
     "price": 559.02,
     "change_pct": -5.05,
     "name": "META",
-    "updated_at": "2026-08-24T22:11:51.968233"
+    "updated_at": "2026-08-24T23:44:50.049828"
   },
   "WTI": {
     "price": 3.8,
     "change_pct": 17.23,
     "name": "WTI",
-    "updated_at": "2026-08-24T22:11:51.968239"
+    "updated_at": "2026-08-24T23:44:50.049831"
   },
   "S&P 500": {
     "price": 763.47,
     "change_pct": -0.82,
     "name": "S&P 500",
-    "updated_at": "2026-08-24T22:11:51.968245"
+    "updated_at": "2026-08-24T23:44:50.049835"
   },
   "AAPL": {
     "price": 310.34,
     "change_pct": -0.13,
     "name": "AAPL",
-    "updated_at": "2026-08-24T22:11:51.968252"
+    "updated_at": "2026-08-24T23:44:50.049839"
   },
   "QQQ": {
     "price": 706.32,
     "change_pct": -1.53,
     "name": "Invesco QQQ Trust",
-    "updated_at": "2026-08-24T22:11:51.968258"
+    "updated_at": "2026-08-24T23:44:50.049843"
   },
   "BTC-USD": {
-    "price": 80786.73,
-    "change_pct": 27.42,
+    "price": 80197.49,
+    "change_pct": 26.49,
     "name": "Bitcoin USD",
-    "updated_at": "2026-08-24T22:11:51.968295"
+    "updated_at": "2026-08-24T23:44:50.049847"
   }
 },
   tickerScores: [
@@ -872,6 +872,25 @@ const dashboardData = {
       "podcast_episode_id": 422
     },
     {
+      "id": 438,
+      "title": "Michael Kratsios: Trump's Science Agenda, Anti-Science Claims, Fauci's Damage, DEI & China",
+      "source_type": "podcast",
+      "source_name": "All-In with Chamath, Jason, Sacks & Friedberg",
+      "source_date": "2026-08-24",
+      "summary": "In this episode, the hosts discuss the current state of science and technology policy in the United States with Michael Crathfields, the director of the Office of Science and Technology Policy at the White House. The conversation covers the administration's stance on science, the politicization of science, and the future of scientific research and funding. Crathfields emphasizes the importance of empowering young scientists, creating an ecosystem for scientific discovery, and aligning efforts across various agencies to achieve national scientific and technological goals.",
+      "key_takeaway": "Investing in the U.S. science and technology ecosystem can lead to significant returns, as the administration aims to empower young scientists and create an environment for groundbreaking discoveries.",
+      "tickers_mentioned": [
+        "NVDA"
+      ],
+      "sentiment": "neutral",
+      "display_on_main": 1,
+      "display_order": 0,
+      "added_date": "2026-08-24",
+      "archived_date": null,
+      "archived_reason": null,
+      "podcast_episode_id": 423
+    },
+    {
       "id": 433,
       "title": "Dario Defends Himself, Datacenter Panic, AI Doomer Trap, Senate Toss-Up",
       "source_type": "podcast",
@@ -982,7 +1001,7 @@ const dashboardData = {
         "FB"
       ],
       "sentiment": "bearish",
-      "display_on_main": 1,
+      "display_on_main": 0,
       "display_order": 0,
       "added_date": "2026-08-19",
       "archived_date": null,
@@ -9243,6 +9262,24 @@ const dashboardData = {
   "definitions": [],
   "overton": [
     {
+      "id": 281,
+      "term": "Simulation",
+      "description": "The use of models and computer programs to represent and analyze real or imagined systems or situations.",
+      "first_detected_date": "2026-08-21",
+      "last_mentioned_date": "2026-08-24",
+      "mention_count": 2,
+      "source_podcasts": null,
+      "status": "active",
+      "investment_implications": "Simulation technology can provide significant insights for decision-making, making investments in this area potentially valuable.",
+      "display_on_main": 0,
+      "archived_date": null,
+      "archived_reason": null,
+      "first_detected_episode_id": 420,
+      "first_detected_speaker": "June",
+      "last_mentioned_episode_id": 423,
+      "last_mentioned_speaker": "Michael Crathfields"
+    },
+    {
       "id": 272,
       "term": "Compute Commoditization",
       "description": "The process by which compute power becomes a standard, tradable commodity, similar to oil or natural gas, with market structures and pricing based on supply and demand.",
@@ -9299,20 +9336,20 @@ const dashboardData = {
     {
       "id": 269,
       "term": "Golden Age of Science",
-      "description": "A period characterized by rapid scientific discovery and technological advancement, often associated with significant government support and investment.",
+      "description": "A period characterized by significant advancements and investment in scientific research and technology, with the goal of making the U.S. a hub for scientific discovery.",
       "first_detected_date": "2026-08-04",
-      "last_mentioned_date": "2026-08-08",
-      "mention_count": 2,
+      "last_mentioned_date": "2026-08-24",
+      "mention_count": 3,
       "source_podcasts": null,
       "status": "active",
-      "investment_implications": "Focusing on sectors and companies that benefit from increased scientific research and development could lead to high growth opportunities.",
+      "investment_implications": "Investors should consider opportunities in sectors that align with the administration's scientific and technological priorities.",
       "display_on_main": 1,
       "archived_date": null,
       "archived_reason": null,
       "first_detected_episode_id": 386,
       "first_detected_speaker": "Michael Kratsios",
-      "last_mentioned_episode_id": 393,
-      "last_mentioned_speaker": "Saline"
+      "last_mentioned_episode_id": 423,
+      "last_mentioned_speaker": "Michael Crathfields"
     },
     {
       "id": 270,
@@ -11633,6 +11670,26 @@ const dashboardData = {
       "key_tickers": []
     },
     {
+      "id": 438,
+      "title": "Michael Kratsios: Trump's Science Agenda, Anti-Science Claims, Fauci's Damage, DEI & China",
+      "source_type": "podcast",
+      "source_name": "All-In with Chamath, Jason, Sacks & Friedberg",
+      "source_date": "2026-08-24",
+      "summary": "In this episode, the hosts discuss the current state of science and technology policy in the United States with Michael Crathfields, the director of the Office of Science and Technology Policy at the White House. The conversation covers the administration's stance on science, the politicization of science, and the future of scientific research and funding. Crathfields emphasizes the importance of empowering young scientists, creating an ecosystem for scientific discovery, and aligning efforts across various agencies to achieve national scientific and technological goals.",
+      "key_takeaway": "Investing in the U.S. science and technology ecosystem can lead to significant returns, as the administration aims to empower young scientists and create an environment for groundbreaking discoveries.",
+      "tickers_mentioned": "[\"NVDA\"]",
+      "sentiment": "neutral",
+      "display_on_main": 1,
+      "display_order": 0,
+      "added_date": "2026-08-24",
+      "archived_date": null,
+      "archived_reason": null,
+      "podcast_episode_id": 423,
+      "episode_release_date": "2026-08-24",
+      "guest_name": "Michael Kratsios",
+      "key_tickers": []
+    },
+    {
       "id": 433,
       "title": "Dario Defends Himself, Datacenter Panic, AI Doomer Trap, Senate Toss-Up",
       "source_type": "podcast",
@@ -11733,26 +11790,6 @@ const dashboardData = {
       "key_tickers": [
         "CORN"
       ]
-    },
-    {
-      "id": 430,
-      "title": "How Whatnot Built a Global Marketplace",
-      "source_type": "podcast",
-      "source_name": "The a16z Show",
-      "source_date": "2026-08-19",
-      "summary": "In this episode, a16z General Partner David George interviews Grant LaFontaine, co-founder of whatnot, to discuss the rise of live commerce and its potential to disrupt traditional e-commerce. They explore how live shopping combines commerce, entertainment, discovery, and community in a way that traditional e-commerce does not. Grant shares his personal journey from selling Pokemon cards as a child to co-founding whatnot, and how the platform has expanded from collectibles into over 100 categories. They also discuss the small businesses being built on the platform, the importance of trust and safety, and how whatnot is using AI to help sellers scale without losing the human connection.",
-      "key_takeaway": "Live commerce has the potential to disrupt traditional e-commerce by combining shopping with entertainment and community, creating a more engaging and enjoyable experience for users and opening up new opportunities for small businesses.",
-      "tickers_mentioned": "[\"AAPL\", \"AMZN\", \"FB\"]",
-      "sentiment": "bearish",
-      "display_on_main": 1,
-      "display_order": 0,
-      "added_date": "2026-08-19",
-      "archived_date": null,
-      "archived_reason": null,
-      "podcast_episode_id": 415,
-      "episode_release_date": "2026-08-19",
-      "guest_name": null,
-      "key_tickers": []
     }
   ],
   "definitions": [
@@ -12165,6 +12202,32 @@ const dashboardData = {
       "last_mentioned_episode_date": "2026-08-20"
     },
     {
+      "id": 269,
+      "term": "Golden Age of Science",
+      "description": "A period characterized by significant advancements and investment in scientific research and technology, with the goal of making the U.S. a hub for scientific discovery.",
+      "first_detected_date": "2026-08-04",
+      "last_mentioned_date": "2026-08-24",
+      "mention_count": 3,
+      "source_podcasts": null,
+      "status": "active",
+      "investment_implications": "Investors should consider opportunities in sectors that align with the administration's scientific and technological priorities.",
+      "display_on_main": 1,
+      "archived_date": null,
+      "archived_reason": null,
+      "first_detected_episode_id": 386,
+      "first_detected_speaker": "Michael Kratsios",
+      "last_mentioned_episode_id": 423,
+      "last_mentioned_speaker": "Michael Crathfields",
+      "overton_score": 3.0,
+      "resonance_pct": 75,
+      "first_detected_podcast": "Moonshots with Peter Diamandis",
+      "first_detected_episode_title": "Michael Kratsios on the New Golden Age of American Science | EP #276",
+      "first_detected_episode_date": "2026-08-04",
+      "last_mentioned_podcast": "All-In with Chamath, Jason, Sacks & Friedberg",
+      "last_mentioned_episode_title": "Michael Kratsios: Trump's Science Agenda, Anti-Science Claims, Fauci's Damage, DEI & China",
+      "last_mentioned_episode_date": "2026-08-24"
+    },
+    {
       "id": 259,
       "term": "Liquid AI",
       "description": "A type of AI that focuses on efficient, general-purpose intelligence at various scales, often using small language models.",
@@ -12189,32 +12252,6 @@ const dashboardData = {
       "last_mentioned_podcast": "Moonshots with Peter Diamandis",
       "last_mentioned_episode_title": "Google\u2019s Jeff Dean Exits, SpaceX Hits $100B in Rev & OpenAI\u2019s Astra Solves Decade-Old Math Problems with Emad Mostaque | EP #277",
       "last_mentioned_episode_date": "2026-08-08"
-    },
-    {
-      "id": 266,
-      "term": "Electrification",
-      "description": "The process of converting systems or industries to use electricity as the primary power source.",
-      "first_detected_date": "2026-06-18",
-      "last_mentioned_date": "2026-08-20",
-      "mention_count": 3,
-      "source_podcasts": null,
-      "status": "active",
-      "investment_implications": "Investors should focus on companies involved in the electrification of the grid and power generation, as demand for electricity is projected to increase.",
-      "display_on_main": 1,
-      "archived_date": null,
-      "archived_reason": null,
-      "first_detected_episode_id": 297,
-      "first_detected_speaker": "Chris Seminoch",
-      "last_mentioned_episode_id": 417,
-      "last_mentioned_speaker": "Luke Groman",
-      "overton_score": 2.74,
-      "resonance_pct": 68,
-      "first_detected_podcast": "Monetary Matters with Jack Farley",
-      "first_detected_episode_title": "The US Manufacturing and Electrification Megatrends Are Here and They\u2019re Way More Than AI | Chris Semenuk",
-      "first_detected_episode_date": "2026-06-18",
-      "last_mentioned_podcast": "Monetary Matters with Jack Farley",
-      "last_mentioned_episode_title": "Why Bessent Blinked | Luke Gromen on Doubling of Treasury Buyback Plan to Tame Long-End Yields",
-      "last_mentioned_episode_date": "2026-08-20"
     }
   ]
 },
@@ -38182,6 +38219,43 @@ const dashboardData = {
     "source_name": "Monetary Matters with Jack Farley",
     "source_date": "2026-08-24",
     "key_tickers": []
+  },
+  "438": {
+    "id": 427,
+    "insight_id": 438,
+    "podcast_episode_id": 423,
+    "overview": "The administration's approach to science and technology policy is characterized by a focus on aligning efforts across various agencies to achieve national scientific and technological goals. This includes a critical examination of how the $200 billion in annual S&T funding is allocated, with an emphasis on ensuring that investments drive breakthroughs and are not simply directed towards politically motivated initiatives. There is also a clear stance against the politicization of science, as evidenced by the termination of $3 billion in unspent funds on active grants, particularly those related to DEI initiatives, which the administration views asAdditionally, there is a push towards investing in technologies that can provide abundant energy, such as nuclear energy, with a specific target set for 2035 regarding fusion energy.",
+    "key_takeaways_detailed": [],
+    "investment_thesis": "If the administration's approach to science and technology policy leads to a more efficient allocation of R&D funding and a reduction in the politicization of science, investors should expect to see an increase in innovation and technological advancements, particularly in areas such as energy and nuclear technology. This could present opportunities in sectors that are poised to benefit from breakthroughs in these areas. The success of this policy will be evident in the form of new technologies coming to market and the U.S. maintaining or enhancing its global leadership in science and technology. Disproving this thesis would require evidence of continued stagnation in scientific output or a failure to meet key technological milestones.",
+    "ticker_analysis": {
+      "NVDA": {
+        "rationale": "NVIDIA is a key player in the technology sector, with significant investments in AI and deep learning technologies. As the administration aims to create an ecosystem for scientific discovery, NVIDIA's role in advancing computational capabilities could be pivotal, making it a clean expression of the potential benefits of the administration's S&T policy.",
+        "positioning": "",
+        "risk": ""
+      }
+    },
+    "positioning_guidance": "",
+    "risk_factors": [],
+    "contrarian_signals": [],
+    "catalysts": [],
+    "related_insights": null,
+    "audio_timestamp_start": null,
+    "audio_timestamp_end": null,
+    "transcript_excerpt": null,
+    "created_at": "2026-08-24T23:44:00.937655",
+    "updated_at": "2026-08-25 04:44:00",
+    "episode_evidence": "- I think one of the things that I'm most proud of is the release of a new report a couple weeks ago called Science and New Golden Age.\n- To me, I think the scientific community has lost its way over over the last few decades.",
+    "falsification_tracks": [
+      "A significant increase in the number of high-impact scientific discoveries and technological innovations that can be directly attributed to the current administration's policies.",
+      "Congress appropriating funds in a manner that contradicts the administration's emphasis on efficiency and effectiveness in S&T funding, diverting resources to areas not aligned with the administration's goals.",
+      "Public opinion polls showing a substantial shift in the scientific community's perception of the administration, indicating a reduced belief in the politicization of science and an increased trust in the government's approach to S&T policy.",
+      "The failure to meet the 2035 target for fusion energy, which would call into question the administration's ability to effectively implement its technology-focused agenda."
+    ],
+    "schema_version": 2,
+    "insight_title": "Michael Kratsios: Trump's Science Agenda, Anti-Science Claims, Fauci's Damage, DEI & China",
+    "source_name": "All-In with Chamath, Jason, Sacks & Friedberg",
+    "source_date": "2026-08-24",
+    "key_tickers": []
   }
 },
   suggestedTerms: [
@@ -38236,7 +38310,19 @@ const dashboardData = {
 ],
   podcastGuests: [
   {
-    "id": 57573,
+    "id": 57653,
+    "name": "Michael Kratsios",
+    "slug": "michael-kratsios",
+    "bio": null,
+    "known_for": null,
+    "last_main_idea": "Investing in the U.S. science and technology ecosystem can lead to significant returns, as the administration aims to empower young scientists and create an environment for groundbreaking discoveries.",
+    "last_episode_title": "Michael Kratsios: Trump's Science Agenda, Anti-Science Claims, Fauci's Damage, DEI & China",
+    "last_podcast_name": "All-In with Chamath, Jason, Sacks & Friedberg",
+    "last_episode_date": "2026-08-24",
+    "appearance_count": 1
+  },
+  {
+    "id": 57654,
     "name": "Emad Mostaque",
     "slug": "emad-mostaque",
     "bio": null,
@@ -38248,7 +38334,7 @@ const dashboardData = {
     "appearance_count": 3
   },
   {
-    "id": 57574,
+    "id": 57655,
     "name": "Angela Strange and Gabriel Vasquez",
     "slug": "angela-strange-and-gabriel-vasquez",
     "bio": null,
@@ -38260,7 +38346,7 @@ const dashboardData = {
     "appearance_count": 1
   },
   {
-    "id": 57575,
+    "id": 57656,
     "name": "Why Bessent Blinked",
     "slug": "why-bessent-blinked",
     "bio": null,
@@ -38272,7 +38358,7 @@ const dashboardData = {
     "appearance_count": 1
   },
   {
-    "id": 57576,
+    "id": 57657,
     "name": "Travis Kalanick",
     "slug": "travis-kalanick",
     "bio": null,
@@ -38284,7 +38370,7 @@ const dashboardData = {
     "appearance_count": 1
   },
   {
-    "id": 57577,
+    "id": 57658,
     "name": "Rahm Emanuel",
     "slug": "rahm-emanuel",
     "bio": null,
@@ -38296,7 +38382,7 @@ const dashboardData = {
     "appearance_count": 1
   },
   {
-    "id": 57578,
+    "id": 57659,
     "name": "Milton Berg",
     "slug": "milton-berg",
     "bio": "Milton Berg is a veteran technical analyst and CEO of Milton Berg Advisors, specializing in market turning-point analysis for institutional investors.",
@@ -38308,7 +38394,7 @@ const dashboardData = {
     "appearance_count": 1
   },
   {
-    "id": 57579,
+    "id": 57660,
     "name": "How Open",
     "slug": "how-open",
     "bio": null,
@@ -38320,7 +38406,7 @@ const dashboardData = {
     "appearance_count": 1
   },
   {
-    "id": 57580,
+    "id": 57661,
     "name": "Saronic Founders",
     "slug": "saronic-founders",
     "bio": null,
@@ -38332,7 +38418,7 @@ const dashboardData = {
     "appearance_count": 1
   },
   {
-    "id": 57581,
+    "id": 57662,
     "name": "OpenAI's Joshua Achiam",
     "slug": "openais-joshua-achiam",
     "bio": null,
@@ -38344,7 +38430,7 @@ const dashboardData = {
     "appearance_count": 1
   },
   {
-    "id": 57582,
+    "id": 57663,
     "name": "Marc Andreessen and Chris Dixon",
     "slug": "marc-andreessen-and-chris-dixon",
     "bio": null,
@@ -38356,7 +38442,7 @@ const dashboardData = {
     "appearance_count": 1
   },
   {
-    "id": 57583,
+    "id": 57664,
     "name": "AI for America's Small Businesses",
     "slug": "ai-for-americas-small-businesses",
     "bio": null,
@@ -38368,7 +38454,7 @@ const dashboardData = {
     "appearance_count": 1
   },
   {
-    "id": 57584,
+    "id": 57665,
     "name": "Luke Gromen",
     "slug": "luke-gromen",
     "bio": null,
@@ -38380,7 +38466,7 @@ const dashboardData = {
     "appearance_count": 1
   },
   {
-    "id": 57585,
+    "id": 57666,
     "name": "Travis Kelenick",
     "slug": "travis-kelenick",
     "bio": null,
@@ -38392,7 +38478,7 @@ const dashboardData = {
     "appearance_count": 1
   },
   {
-    "id": 57586,
+    "id": 57667,
     "name": "Travis Kalanick Is Back",
     "slug": "travis-kalanick-is-back",
     "bio": null,
@@ -38404,7 +38490,7 @@ const dashboardData = {
     "appearance_count": 1
   },
   {
-    "id": 57587,
+    "id": 57668,
     "name": "Interest Rates to 10%",
     "slug": "interest-rates-to-10",
     "bio": null,
@@ -38416,7 +38502,7 @@ const dashboardData = {
     "appearance_count": 1
   },
   {
-    "id": 57588,
+    "id": 57669,
     "name": "Nick Nemeth",
     "slug": "nick-nemeth",
     "bio": null,
@@ -38428,7 +38514,7 @@ const dashboardData = {
     "appearance_count": 1
   },
   {
-    "id": 57589,
+    "id": 57670,
     "name": "Urgent Update- AI Sputnik Moment",
     "slug": "urgent-update--ai-sputnik-moment",
     "bio": null,
@@ -38440,7 +38526,7 @@ const dashboardData = {
     "appearance_count": 1
   },
   {
-    "id": 57590,
+    "id": 57671,
     "name": "David Sachs",
     "slug": "david-sachs",
     "bio": null,
@@ -38452,7 +38538,7 @@ const dashboardData = {
     "appearance_count": 1
   },
   {
-    "id": 57591,
+    "id": 57672,
     "name": "Turbo Charged Trend Following",
     "slug": "turbo-charged-trend-following",
     "bio": null,
@@ -38462,21 +38548,73 @@ const dashboardData = {
     "last_podcast_name": "Monetary Matters with Jack Farley",
     "last_episode_date": "2026-07-16",
     "appearance_count": 1
-  },
-  {
-    "id": 57592,
-    "name": "Can Anyone Catch NVIDIA?",
-    "slug": "can-anyone-catch-nvidia",
-    "bio": null,
-    "known_for": null,
-    "last_main_idea": "Investing in AI hardware requires a focus on infrastructure and the ability to scale efficiently, as the AI race is not just about models but also the underlying technology that supports them.",
-    "last_episode_title": "Can Anyone Catch NVIDIA? | The Future of Chips and Infrastructure",
-    "last_podcast_name": "The a16z Show",
-    "last_episode_date": "2026-07-15",
-    "appearance_count": 1
   }
 ],
   pundits: [
+  {
+    "id": 417,
+    "name": "Michael Crathfields",
+    "slug": "michael-crathfields",
+    "bio": "Michael Crathfields is the Director of the Office of Science and Technology Policy at the White House, responsible for coordinating science and technology policy across various administrations. His role is pivotal in ensuring the United States maintains a robust scientific output and addresses critical issues in technology and innovation.",
+    "known_for": "Coordinating science and technology policy across administrations and striving to double the scientific output of the United States.",
+    "net_worth_usd": 5000000.0,
+    "net_worth_source": "https://ifann.net/wiki/michael-kratsios",
+    "net_worth_updated_at": "2026-08-24T23:43:41.575304",
+    "voice_tone": "Confident and knowledgeable",
+    "voice_style": "Factual and explanatory",
+    "voice_delivery_notes": "Clear and assertive",
+    "voice_profile_updated_at": "2026-08-25 04:43:04",
+    "last_seen": "2026-08-25 04:43:04",
+    "last_episode_title": "Michael Kratsios: Trump's Science Agenda, Anti-Science Claims, Fauci's Damage, DEI & China",
+    "last_podcast_name": "All-In with Chamath, Jason, Sacks & Friedberg",
+    "last_episode_date": "2026-08-24",
+    "mention_score": 1,
+    "mention_score_decayed": 1,
+    "last_main_idea": "Investing in the U.S. science and technology ecosystem can lead to significant returns, as the administration aims to empower young scientists and create an environment for groundbreaking discoveries.",
+    "last_proof_cite": "All-In with Chamath, Jason, Sacks & Friedberg \u2022 2026-08-24 \u2022 Michael Kratsios: Trump's Science Agenda, Anti-Science Claims, Fauci's Damage, DEI & China",
+    "last_proof_snippet": "Is this administration anti-science? We want to essentially double the scientific output of the United States. Did we lose it? Or did it lead to moments where you have like Fauci? That's great question. Are we in this moment this populous m",
+    "supporting_takeaway": "Science has become deeply politicized in recent years, leading to a loss of focus on the scientific method and questioning of conclusions.",
+    "grokipedia_url": null,
+    "grokipedia_fetched_at": "2026-08-24T23:43:40.549331",
+    "pundit_profile": {
+      "source": "llm",
+      "source_model": "moonshot:moonshot-v1-8k",
+      "source_url": "",
+      "page_title": "Michael Crathfields",
+      "fetched_at": "2026-08-25T04:43:40.548691+00:00",
+      "cliff_notes": "Michael Crathfields serves as the Director of the Office of Science and Technology Policy at the White House. His role is to coordinate science and technology policy across different administrations, a task that is unique to the United States due to the absence of a central agency dedicated to science and technology. Instead, various agencies handle different aspects of the scientific and technological enterprise. Crathfields' work is crucial in maintaining the United States' leadership in scientific research and technological innovation, and he has been vocal about the importance of not letting science stagnate in America. His efforts aim to counter the perception of science and technology as elitist tools and to foster a more inclusive and progressive approach to scientific advancement.",
+      "derived": {
+        "current_role": "Director of the Office of Science and Technology Policy at the White House"
+      },
+      "infobox": {
+        "Born": "",
+        "Nationality": "American"
+      },
+      "lead_paragraphs": [
+        "Michael Crathfields serves as the Director of the Office of Science and Technology Policy at the White House. His role is to coordinate science and technology policy across different administrations, a task that is unique to the United States due to the absence of a central agency dedicated to science and technology. Instead, various agencies handle different aspects of the scientific and technological enterprise.",
+        "Crathfields' work is crucial in maintaining the United States' leadership in scientific research and technological innovation, and he has been vocal about the importance of not letting science stagnate in America. His efforts aim to counter the perception of science and technology as elitist tools and to foster a more inclusive and progressive approach to scientific advancement."
+      ],
+      "sections": [
+        {
+          "heading": "Policy Coordination",
+          "body": "Michael Crathfields is responsible for coordinating science and technology policy across various U.S. administrations, ensuring a consistent approach to scientific and technological issues."
+        },
+        {
+          "heading": "Scientific Output",
+          "body": "Crathfields has expressed the goal of doubling the scientific output of the United States, emphasizing the importance of maintaining a strong scientific presence on the global stage."
+        },
+        {
+          "heading": "Perception of Science",
+          "body": "He has addressed concerns about the perception of science and technology as tools of the elite, advocating for a more inclusive view that promotes scientific advancement for the benefit of all."
+        },
+        {
+          "heading": "National Science Foundation",
+          "body": "The National Science Foundation, which focuses on basic research, is one of the many agencies that Crathfields coordinates with in his role, highlighting the fragmented yet collaborative nature of U.S. science policy."
+        }
+      ]
+    },
+    "net_worth": "$5.0M"
+  },
   {
     "id": 414,
     "name": "NG ZDN",
@@ -38560,7 +38698,7 @@ const dashboardData = {
     "last_podcast_name": "Moonshots with Peter Diamandis",
     "last_episode_date": "2026-08-21",
     "mention_score": 2,
-    "mention_score_decayed": 1.91,
+    "mention_score_decayed": 1.87,
     "last_main_idea": "Invest in AI and exponential technologies that are driving the accelerating singularity, with a focus on companies that prioritize safety and ethical considerations.",
     "last_proof_cite": "Moonshots with Peter Diamandis \u2022 2026-08-21 \u2022 OpenAI Pauses Frontier Training, Elon's 100X Prediction Lands, Robot Beats Usain Bolt with Emad Mostaque | EP#282",
     "last_proof_snippet": "Open AI announced it is voluntarily pausing some of the frontier reinforcement learning training that it's doing what have they paused and is it really significant and do you think the other frontier labs are going to do the same thing? The",
@@ -38883,7 +39021,7 @@ const dashboardData = {
     "last_podcast_name": "Moonshots with Peter Diamandis",
     "last_episode_date": "2026-08-18",
     "mention_score": 1,
-    "mention_score_decayed": 0.89,
+    "mention_score_decayed": 0.87,
     "last_main_idea": "Investment in AI technology should consider the broader geopolitical landscape and the potential for international cooperation and market creation, as proposed by the 'AI Marshall Plan'.",
     "last_proof_cite": "Moonshots with Peter Diamandis \u2022 2026-08-18 \u2022 China\u2019s Endgame: ASI Timelines, US-China Relations, and the $1.7T AI Bubble With Alvin Graylin | #281",
     "last_proof_snippet": "There seems to be prevailing a view around the campuses that ASI has, you know, five to 10 years out, maybe even 20 years. And so I really curious what the prevailing view is in China. They are not behaving like they believe ASI is around t",
@@ -39131,7 +39269,7 @@ const dashboardData = {
     "last_podcast_name": "All-In with Chamath, Jason, Sacks & Friedberg",
     "last_episode_date": "2026-08-18",
     "mention_score": 2,
-    "mention_score_decayed": 1.74,
+    "mention_score_decayed": 1.7,
     "last_main_idea": "Investing in companies like Flock that focus on enhancing public safety through technology presents an opportunity to capitalize on the growing demand for security solutions, while also navigating the complex ethical landscape of privacy concerns.",
     "last_proof_cite": "All-In with Chamath, Jason, Sacks & Friedberg \u2022 2026-08-18 \u2022 Flock CEO Garrett Langley on Controversy, \"Surveillance State\" Claims, and Privacy vs Safety",
     "last_proof_snippet": "All right, everybody. Welcome back to the all in interview. This is where we find the people building the future. Sometimes a politician, sometimes a CEO, sometimes an investor, all the time, an important discussion. And one of the most imp",
@@ -39190,7 +39328,7 @@ const dashboardData = {
     "last_podcast_name": "Monetary Matters with Jack Farley",
     "last_episode_date": "2026-07-22",
     "mention_score": 1,
-    "mention_score_decayed": 0.85,
+    "mention_score_decayed": 0.83,
     "last_main_idea": "The current speculative nature of the treasuries market and the potential for a significant rise in interest rates present both risks and opportunities for investors.",
     "last_proof_cite": "Monetary Matters with Jack Farley \u2022 2026-07-22 \u2022 Interest Rates to 10%: Why the Treasury Market is the Real Speculative Bubble (Not AI) | Russell Clark",
     "last_proof_snippet": "If I look at people 40 and under those in the 20 and 30s, their number one problem is they kind of forward housing. If you want to get housing back to some more reasonable levels, you need to have wages rising about 7% a year. So, doubling",
@@ -39427,7 +39565,7 @@ const dashboardData = {
     "last_podcast_name": "All-In with Chamath, Jason, Sacks & Friedberg",
     "last_episode_date": "2026-08-14",
     "mention_score": 1,
-    "mention_score_decayed": 0.81,
+    "mention_score_decayed": 0.79,
     "last_main_idea": "Anduril's upcoming IPO presents an opportunity to invest in a company with significant revenue growth and a lower valuation compared to peers, while the rise of open-source AI could reshape the software industry landscape.",
     "last_proof_cite": "All-In with Chamath, Jason, Sacks & Friedberg \u2022 2026-08-14 \u2022 Anthropic's $2T IPO, Zuck's AI Manifesto, Nvidia's $500B AI Bet, Grok's Comeback",
     "last_proof_snippet": "All right, everybody. Welcome back. We all in podcast. The number one podcast in the world. David Sachs and Evan Baker are with us this week. We got a, we got a short crew, but a long docket. And we are going to rock at how are you doing? G",
@@ -39555,7 +39693,7 @@ const dashboardData = {
     "last_podcast_name": "Moonshots with Peter Diamandis",
     "last_episode_date": "2026-08-13",
     "mention_score": 2,
-    "mention_score_decayed": 1.59,
+    "mention_score_decayed": 1.55,
     "last_main_idea": "Invest in AI and exponential technologies that are redefining industries and creating new opportunities for growth and innovation.",
     "last_proof_cite": "Moonshots with Peter Diamandis \u2022 2026-08-13 \u2022 Bernie Demands the Labs Stop, Wall Street Turns GPUs Into Bonds, Grok 4.7 Takes #1 with Emad Mostaque | EP #279",
     "last_proof_snippet": "Bernie Sanders sent a formal letter to the CEOs of Anthropic Meta and OpenEye AI capabilities have reached a critical threshold. Paul's AI development, the Council of the Baguards, too late, right? Nvidia just announced a partnership that r",
@@ -39740,7 +39878,7 @@ const dashboardData = {
     "last_podcast_name": "All-In with Chamath, Jason, Sacks & Friedberg",
     "last_episode_date": "2026-08-13",
     "mention_score": 1,
-    "mention_score_decayed": 0.78,
+    "mention_score_decayed": 0.76,
     "last_main_idea": "Ron Emmanuel's investment thesis revolves around the need for progressive policies and effective government execution, which he believes are crucial for America's economic and social stability.",
     "last_proof_cite": "All-In with Chamath, Jason, Sacks & Friedberg \u2022 2026-08-13 \u2022 Rahm Emanuel: Trump's Foreign Policy, China, Europe's Decline, Immigration & DSA vs Democrats",
     "last_proof_snippet": "All right, everybody. We are super pleased to have Ron Emmanuel. Join us for the all and interview today. He was a senior advisor of Bill Clinton, last president, resigned over zero national debt. And he was a Bahamas chief of staff, mayor",
@@ -40243,7 +40381,7 @@ const dashboardData = {
     "last_podcast_name": "Monetary Matters with Jack Farley",
     "last_episode_date": "2026-08-07",
     "mention_score": 1,
-    "mention_score_decayed": 0.69,
+    "mention_score_decayed": 0.68,
     "last_main_idea": "Investing success comes from a deep understanding of both macroeconomic trends and single stock fundamental analysis, with a focus on companies that benefit from technological advancements and market disruptions.",
     "last_proof_cite": "Monetary Matters with Jack Farley \u2022 2026-08-07 \u2022 Misunderstood Stocks in Data Center Power, Cybersecurity, and Payments | Dean & Deiya Pernas",
     "last_proof_snippet": "Today I'm sitting down with Daya and Dean Pernos of Pernos Research. We're going to be talking about some of the most important themes and trends in investing such as energy power and data centers, software, AI, cybersecurity, payments. The",
@@ -40303,7 +40441,7 @@ const dashboardData = {
     "last_podcast_name": "Monetary Matters with Jack Farley",
     "last_episode_date": "2026-08-07",
     "mention_score": 1,
-    "mention_score_decayed": 0.69,
+    "mention_score_decayed": 0.68,
     "last_main_idea": "Investing success comes from a deep understanding of both macroeconomic trends and single stock fundamental analysis, with a focus on companies that benefit from technological advancements and market disruptions.",
     "last_proof_cite": "Monetary Matters with Jack Farley \u2022 2026-08-07 \u2022 Misunderstood Stocks in Data Center Power, Cybersecurity, and Payments | Dean & Deiya Pernas",
     "last_proof_snippet": "Today I'm sitting down with Daya and Dean Pernos of Pernos Research. We're going to be talking about some of the most important themes and trends in investing such as energy power and data centers, software, AI, cybersecurity, payments. The",
@@ -40601,7 +40739,7 @@ const dashboardData = {
     "last_podcast_name": "All-In with Chamath, Jason, Sacks & Friedberg",
     "last_episode_date": "2026-08-05",
     "mention_score": 1,
-    "mention_score_decayed": 0.66,
+    "mention_score_decayed": 0.64,
     "last_main_idea": "Investment in autonomous defense technologies is crucial for maintaining a competitive edge and can lead to significant advancements in military capabilities.",
     "last_proof_cite": "All-In with Chamath, Jason, Sacks & Friedberg \u2022 2026-08-05 \u2022 Saronic Founders: Autonomous Warships, China's 230X Advantage & Swarms of Robot Ships",
     "last_proof_snippet": "All right, everybody, welcome back to the all in interview series. I am thrilled. Really thrilled because Ceranic is a defense company that has been doing amazing work. And we are so lucky to have the co-founders here on the program. Welcom",
@@ -40660,7 +40798,7 @@ const dashboardData = {
     "last_podcast_name": "All-In with Chamath, Jason, Sacks & Friedberg",
     "last_episode_date": "2026-08-05",
     "mention_score": 1,
-    "mention_score_decayed": 0.66,
+    "mention_score_decayed": 0.64,
     "last_main_idea": "Investment in autonomous defense technologies is crucial for maintaining a competitive edge and can lead to significant advancements in military capabilities.",
     "last_proof_cite": "All-In with Chamath, Jason, Sacks & Friedberg \u2022 2026-08-05 \u2022 Saronic Founders: Autonomous Warships, China's 230X Advantage & Swarms of Robot Ships",
     "last_proof_snippet": "All right, everybody, welcome back to the all in interview series. I am thrilled. Really thrilled because Ceranic is a defense company that has been doing amazing work. And we are so lucky to have the co-founders here on the program. Welcom",
@@ -41097,7 +41235,7 @@ const dashboardData = {
     "last_podcast_name": "Monetary Matters with Jack Farley",
     "last_episode_date": "2026-08-02",
     "mention_score": 1,
-    "mention_score_decayed": 0.62,
+    "mention_score_decayed": 0.6,
     "last_main_idea": "The market is in a phase where a new narrative is needed to drive further growth, with a focus on value laggards and sectors less exposed to speculative excesses.",
     "last_proof_cite": "Monetary Matters with Jack Farley \u2022 2026-08-02 \u2022 Why Macro is \u201cPretty Risk-On\u201d for Equities | Tian Yang of Variant Perception",
     "last_proof_snippet": "I'm joined once again by TN Yang, co-founder and head of research at variant perception. TN, what do you think about the stock market right now, the S&P, the NASDAQ, the semiconductor stocks, they have been trading quite weekly for the past",
@@ -41894,7 +42032,7 @@ const dashboardData = {
     "last_podcast_name": "Moonshots with Peter Diamandis",
     "last_episode_date": "2026-07-24",
     "mention_score": 1,
-    "mention_score_decayed": 0.5,
+    "mention_score_decayed": 0.49,
     "last_main_idea": "Investing in AI is about more than just technology; it's an investment in the future of innovation, human potential, and the ability to solve complex problems.",
     "last_proof_cite": "Moonshots with Peter Diamandis \u2022 2026-07-24 \u2022 The Hugging Face Breach, Moonshot AI Valued at $20B, and Living to 1,759 Years Old | EP #273",
     "last_proof_snippet": "Pugging face, the leading open platform for sharing testing and deploying AI models, it got breached by an autonomous agent when the hugging face security team tried to analyze the attack, using either anthropic or open AI, both models refu",
@@ -41954,7 +42092,7 @@ const dashboardData = {
     "last_podcast_name": "Moonshots with Peter Diamandis",
     "last_episode_date": "2026-07-24",
     "mention_score": 1,
-    "mention_score_decayed": 0.5,
+    "mention_score_decayed": 0.49,
     "last_main_idea": "Investing in AI is about more than just technology; it's an investment in the future of innovation, human potential, and the ability to solve complex problems.",
     "last_proof_cite": "Moonshots with Peter Diamandis \u2022 2026-07-24 \u2022 The Hugging Face Breach, Moonshot AI Valued at $20B, and Living to 1,759 Years Old | EP #273",
     "last_proof_snippet": "Pugging face, the leading open platform for sharing testing and deploying AI models, it got breached by an autonomous agent when the hugging face security team tried to analyze the attack, using either anthropic or open AI, both models refu",
@@ -43144,7 +43282,7 @@ const dashboardData = {
     "last_podcast_name": "Monetary Matters with Jack Farley",
     "last_episode_date": "2026-07-14",
     "mention_score": 1,
-    "mention_score_decayed": 0.4,
+    "mention_score_decayed": 0.39,
     "last_main_idea": "Invest in companies at the forefront of AI and semiconductors that can leverage intelligence to perform high-cost, time-consuming tasks more efficiently and at scale.",
     "last_proof_cite": "Monetary Matters with Jack Farley \u2022 2026-07-14 \u2022 The Semiconductor Earnings Boom Is Just Getting Started | Ben Pouladian on why AI is Real, Nvidia is Mispriced, and Capacitors Are Overrated",
     "last_proof_snippet": "Got a special conversation today. I'm joined by Ben Kulandian of BEP Research. Ben is a specialist investor and analyst in the semi-conductor world and the semi-conductor supply chain. Of course, that is what powers AI Ben welcome to moneta",
@@ -43348,7 +43486,7 @@ const dashboardData = {
     "last_podcast_name": "All-In with Chamath, Jason, Sacks & Friedberg",
     "last_episode_date": "2026-07-10",
     "mention_score": 2,
-    "mention_score_decayed": 0.71,
+    "mention_score_decayed": 0.69,
     "last_main_idea": "Investing in AI infrastructure and data center companies could yield significant returns as the demand for AI continues to grow exponentially.",
     "last_proof_cite": "All-In with Chamath, Jason, Sacks & Friedberg \u2022 2026-07-10 \u2022 Open Source Wins, AGI Is Here, and Scorsese's AI Toolkit with CEOs of Cerebras & Black Forest Labs",
     "last_proof_snippet": "We are in the race for super intelligence and Andrew Feldman is back and obviously CEO and founders Ceribres doing in friendships pioneered the space, had a successful IPO. We've talked about this a couple of times, we got to see each other",
@@ -43726,7 +43864,7 @@ const dashboardData = {
     "last_podcast_name": "Monetary Matters with Jack Farley",
     "last_episode_date": "2026-07-05",
     "mention_score": 1,
-    "mention_score_decayed": 0.32,
+    "mention_score_decayed": 0.31,
     "last_main_idea": "The Federal Reserve's ability to manage interest rates effectively hinges on maintaining adequate reserve levels; monitoring the implementation of techniques to reduce reserve demand could provide insights into future monetary policy and market stability.",
     "last_proof_cite": "Monetary Matters with Jack Farley \u2022 2026-07-05 \u2022 The Ultimate Playbook for Reducing The Fed\u2019s Balance Sheet | Professor Darrell Duffie on 4 Tools For Federal Reserve To Shrink Reserve Demand In Banking System",
     "last_proof_snippet": "Today's episode is brought to you by the Fundrise Income Fund. You'll hear more about the income fund later in the show, but for now, let's get into today's interview. The new Fed Chair Kevin Worsh has made it no secret that he prefers a sm",
@@ -44156,7 +44294,7 @@ const dashboardData = {
     "last_podcast_name": "Monetary Matters with Jack Farley",
     "last_episode_date": "2026-06-29",
     "mention_score": 1,
-    "mention_score_decayed": 0.28,
+    "mention_score_decayed": 0.27,
     "last_main_idea": "Investors should be cautious of current AI and data center investment booms, drawing parallels with the 1873 financial crisis, and be mindful of the risks associated with excessive leverage and mismanaged monetary policy.",
     "last_proof_cite": "Monetary Matters with Jack Farley \u2022 2026-06-29 \u2022 Rothschilds, Railroads, & Ruin | Liaquat Ahamed on \u201c1873\u201d (New Book!)",
     "last_proof_snippet": "I am so glad today we have a very special guest, one of my favorite authors of all time Leakwet Ahamed, who's the author of the new book 1873, The Roth Childs, The First Great Depression, and The Making of the Modern World Leakwet. Welcome",
@@ -44283,7 +44421,7 @@ const dashboardData = {
     "last_podcast_name": "Monetary Matters with Jack Farley",
     "last_episode_date": "2026-06-24",
     "mention_score": 1,
-    "mention_score_decayed": 0.25,
+    "mention_score_decayed": 0.24,
     "last_main_idea": "Plutus democratizes investment management by providing individual investors access to sophisticated strategies and research, previously limited to institutional investors, at a competitive fee.",
     "last_proof_cite": "Monetary Matters with Jack Farley \u2022 2026-06-24 \u2022 Inside The Platform Helping to Invest Like Substack & FinTwit's Top Researchers | Plutus",
     "last_proof_snippet": "I think for the first time, we're at a place where talented, portfolio builders, manager researchers have an avenue that is not limited to big banks and put us fully intends to incubate that talent and grow it. We really looked at it from t",
@@ -44597,7 +44735,7 @@ const dashboardData = {
     "last_podcast_name": "Latent Space: The AI Engineer Podcast",
     "last_episode_date": "2026-06-22",
     "mention_score": 1,
-    "mention_score_decayed": 0.24,
+    "mention_score_decayed": 0.23,
     "last_main_idea": "Invest in companies focused on AI safety and security, as they are essential players in the evolving tech landscape and can help organizations navigate the complexities of AI deployment and ensure compliance with security standards.",
     "last_proof_cite": "Latent Space: The AI Engineer Podcast \u2022 2026-06-22 \u2022 Red-Teaming after Mythos \u2014 Zico Kolter & Matt Fredrikson, Gray Swan",
     "last_proof_snippet": "Okay, we're here in a studio with Grace One, Matt and Zico welcome. Great to be here. Yeah. Thanks for having us. You're visiting from Pittsburgh? That's right. The home of all good computer science, I don't know if I'm oversteaving things.",
@@ -44660,7 +44798,7 @@ const dashboardData = {
     "last_podcast_name": "The a16z Show",
     "last_episode_date": "2026-06-22",
     "mention_score": 1,
-    "mention_score_decayed": 0.24,
+    "mention_score_decayed": 0.23,
     "last_main_idea": "Invest in founders who demonstrate resilience and adaptability, focusing on sectors like AI, defense, aerospace, infrastructure, and software.",
     "last_proof_cite": "The a16z Show \u2022 2026-06-22 \u2022 Jake Paul & Anti Fund: From Creator to Investor",
     "last_proof_snippet": "We're officially announcing the $100 million over subscribe to growth fund and some of the tier 1 names Maybe all the tier 1 names And are all at cognition, psoronic, modal When we announce anti-fine but like GW like you're making a mistake",
@@ -44724,7 +44862,7 @@ const dashboardData = {
     "last_podcast_name": "The a16z Show",
     "last_episode_date": "2026-06-22",
     "mention_score": 1,
-    "mention_score_decayed": 0.24,
+    "mention_score_decayed": 0.23,
     "last_main_idea": "Invest in founders who demonstrate resilience and adaptability, focusing on sectors like AI, defense, aerospace, infrastructure, and software.",
     "last_proof_cite": "The a16z Show \u2022 2026-06-22 \u2022 Jake Paul & Anti Fund: From Creator to Investor",
     "last_proof_snippet": "We're officially announcing the $100 million over subscribe to growth fund and some of the tier 1 names Maybe all the tier 1 names And are all at cognition, psoronic, modal When we announce anti-fine but like GW like you're making a mistake",
@@ -44842,7 +44980,7 @@ const dashboardData = {
     "last_podcast_name": "Monetary Matters with Jack Farley",
     "last_episode_date": "2026-06-20",
     "mention_score": 1,
-    "mention_score_decayed": 0.23,
+    "mention_score_decayed": 0.22,
     "last_main_idea": "Investors should focus on individual company fundamentals in the AI and semiconductor sectors, rather than broad macro trends, and be cautious of inflated valuations and unprofitable business models.",
     "last_proof_cite": "Monetary Matters with Jack Farley \u2022 2026-06-20 \u2022 Jim Chanos & Val Zlatev: Long and Short Alpha in AI, Semiconductors, Data Centers, Neoclouds, and Data Centers | MacroMinds Symposium 2026",
     "last_proof_snippet": "Where's to find value in the AI boom on the long side and the short side? This is the question that I asked two great investors earlier this month when I had the privilege of hosting Jim Channos and Val Zlathe. Jim is a legendary short sell",
@@ -44907,7 +45045,7 @@ const dashboardData = {
     "last_podcast_name": "Monetary Matters with Jack Farley",
     "last_episode_date": "2026-06-20",
     "mention_score": 1,
-    "mention_score_decayed": 0.23,
+    "mention_score_decayed": 0.22,
     "last_main_idea": "Investors should focus on individual company fundamentals in the AI and semiconductor sectors, rather than broad macro trends, and be cautious of inflated valuations and unprofitable business models.",
     "last_proof_cite": "Monetary Matters with Jack Farley \u2022 2026-06-20 \u2022 Jim Chanos & Val Zlatev: Long and Short Alpha in AI, Semiconductors, Data Centers, Neoclouds, and Data Centers | MacroMinds Symposium 2026",
     "last_proof_snippet": "Where's to find value in the AI boom on the long side and the short side? This is the question that I asked two great investors earlier this month when I had the privilege of hosting Jim Channos and Val Zlathe. Jim is a legendary short sell",
@@ -45336,7 +45474,7 @@ const dashboardData = {
     "last_podcast_name": "BG2Pod with Brad Gerstner and Bill Gurley",
     "last_episode_date": "2026-06-11",
     "mention_score": 2,
-    "mention_score_decayed": 0.42,
+    "mention_score_decayed": 0.41,
     "last_main_idea": "SpaceX's unique position in the AI compute market and its rapid deployment capabilities make it a compelling long-term investment, with potential for significant revenue growth through Starlink and AI advancements.",
     "last_proof_cite": "BG2Pod with Brad Gerstner and Bill Gurley \u2022 2026-06-11 \u2022 The SpaceX IPO, Fable 5, AI Capex Update & Market Check w/ Gavin Baker, Andrew Fox & Clark Tang | BG2",
     "last_proof_snippet": "I think we're all pretty AI-pilled, and if you're AI-pilled, that means we've got to build a lot more compute than the world thinks, and that these models are going to be a lot more valuable than people think. You combine that with their co",
@@ -45398,7 +45536,7 @@ const dashboardData = {
     "last_podcast_name": "BG2Pod with Brad Gerstner and Bill Gurley",
     "last_episode_date": "2026-06-11",
     "mention_score": 1,
-    "mention_score_decayed": 0.21,
+    "mention_score_decayed": 0.2,
     "last_main_idea": "SpaceX's unique position in the AI compute market and its rapid deployment capabilities make it a compelling long-term investment, with potential for significant revenue growth through Starlink and AI advancements.",
     "last_proof_cite": "BG2Pod with Brad Gerstner and Bill Gurley \u2022 2026-06-11 \u2022 The SpaceX IPO, Fable 5, AI Capex Update & Market Check w/ Gavin Baker, Andrew Fox & Clark Tang | BG2",
     "last_proof_snippet": "I think we're all pretty AI-pilled, and if you're AI-pilled, that means we've got to build a lot more compute than the world thinks, and that these models are going to be a lot more valuable than people think. You combine that with their co",
@@ -47634,7 +47772,7 @@ const dashboardData = {
     "last_podcast_name": "The a16z Show",
     "last_episode_date": "2026-05-15",
     "mention_score": 2,
-    "mention_score_decayed": 0.2,
+    "mention_score_decayed": 0.19,
     "last_main_idea": "Invest in technologies that empower individuals to maintain autonomy and control in a world where threats to personal safety and privacy are growing.",
     "last_proof_cite": "The a16z Show \u2022 2026-05-15 \u2022 Vitalik Buterin on Human Agency in the AI Era",
     "last_proof_snippet": "One of the challenges the world right now is that we're definitely in a less peaceful and less safe world than 10 or 15 years ago. The vision of safety that we're competing with is basically, oh, you know, let's trust the uncle in the sky a",
