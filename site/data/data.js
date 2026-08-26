@@ -3,80 +3,80 @@
 
 const dashboardData = {
   schemaVersion: 2,
-  generatedAt: "2026-08-25T14:11:30.780075",
-  chartsVersion: "2026-08-25T14:11:18.718458",
+  generatedAt: "2026-08-25T22:30:11.396350",
+  chartsVersion: "2026-08-25T22:30:02.457076",
   priceSnapshot: {
   "GOOGL": {
-    "price": 346.15,
-    "change_pct": -3.24,
+    "price": 346.96,
+    "change_pct": -3.02,
     "name": "GOOGL",
-    "updated_at": "2026-08-25T14:11:18.717758"
+    "updated_at": "2026-08-25T22:30:02.456238"
   },
   "NVDA": {
-    "price": 212.87,
-    "change_pct": -2.79,
+    "price": 213.05,
+    "change_pct": -2.71,
     "name": "NVDA",
-    "updated_at": "2026-08-25T14:11:18.717774"
+    "updated_at": "2026-08-25T22:30:02.456255"
   },
   "MSFT": {
-    "price": 490.11,
-    "change_pct": -1.77,
+    "price": 491.71,
+    "change_pct": -1.45,
     "name": "MSFT",
-    "updated_at": "2026-08-25T14:11:18.717781"
+    "updated_at": "2026-08-25T22:30:02.456262"
   },
   "BTC": {
-    "price": 79113.98,
-    "change_pct": 24.78,
+    "price": 79041.6,
+    "change_pct": 24.67,
     "name": "BTC",
-    "updated_at": "2026-08-25T14:11:18.717786"
+    "updated_at": "2026-08-25T22:30:02.456268"
   },
   "TSLA": {
-    "price": 352.28,
-    "change_pct": 10.25,
+    "price": 350.25,
+    "change_pct": 9.61,
     "name": "TSLA",
-    "updated_at": "2026-08-25T14:11:18.717792"
+    "updated_at": "2026-08-25T22:30:02.456274"
   },
   "AMZN": {
-    "price": 260.15,
-    "change_pct": -4.45,
+    "price": 261.06,
+    "change_pct": -4.11,
     "name": "AMZN",
-    "updated_at": "2026-08-25T14:11:18.717797"
+    "updated_at": "2026-08-25T22:30:02.456280"
   },
   "META": {
-    "price": 565.9,
-    "change_pct": -4.07,
+    "price": 570.05,
+    "change_pct": -3.36,
     "name": "META",
-    "updated_at": "2026-08-25T14:11:18.717804"
+    "updated_at": "2026-08-25T22:30:02.456286"
   },
   "WTI": {
-    "price": 3.66,
-    "change_pct": 10.02,
+    "price": 3.6,
+    "change_pct": 8.07,
     "name": "WTI",
-    "updated_at": "2026-08-25T14:11:18.717809"
+    "updated_at": "2026-08-25T22:30:02.456291"
   },
   "S&P 500": {
-    "price": 765.26,
-    "change_pct": -0.43,
+    "price": 765.91,
+    "change_pct": -0.34,
     "name": "S&P 500",
-    "updated_at": "2026-08-25T14:11:18.717815"
+    "updated_at": "2026-08-25T22:30:02.456297"
   },
   "AAPL": {
-    "price": 308.51,
-    "change_pct": -1.16,
+    "price": 309.9,
+    "change_pct": -0.72,
     "name": "AAPL",
-    "updated_at": "2026-08-25T14:11:18.717820"
+    "updated_at": "2026-08-25T22:30:02.456302"
   },
   "QQQ": {
-    "price": 709.96,
-    "change_pct": -0.66,
+    "price": 710.72,
+    "change_pct": -0.55,
     "name": "Invesco QQQ Trust",
-    "updated_at": "2026-08-25T14:11:18.717826"
+    "updated_at": "2026-08-25T22:30:02.456307"
   },
   "BTC-USD": {
-    "price": 79113.98,
-    "change_pct": 24.78,
+    "price": 79041.6,
+    "change_pct": 24.67,
     "name": "Bitcoin USD",
-    "updated_at": "2026-08-25T14:11:18.717832"
+    "updated_at": "2026-08-25T22:30:02.456314"
   }
 },
   tickerScores: [
@@ -834,6 +834,25 @@ const dashboardData = {
   archive: {
   "insights": [
     {
+      "id": 439,
+      "title": "Dylan Patel \u2013 Anthropic & OpenAI will have most of the world\u2019s compute by 2028",
+      "source_type": "podcast",
+      "source_name": "Dwarkesh Podcast",
+      "source_date": "2026-08-25",
+      "summary": "In this episode of the Dwarkesh Podcast, Dylan Patel, Founder of Simming Analysis, discusses the rapid growth of AI infrastructure and its impact on the world economy. The conversation covers the increasing investment in labs by companies like OpenEye and Anthropic, the shift from venture capital funding to self-funded operations, and the potential for labs to control a significant portion of the world's compute power. Patel also touches on the implications of centralization of compute and the role of China in the global AI race.",
+      "key_takeaway": "Investment in AI infrastructure and labs is set to grow exponentially, leading to significant capital allocation shifts and potential market disruptions.",
+      "tickers_mentioned": [
+        "NVIDIA"
+      ],
+      "sentiment": "bullish",
+      "display_on_main": 1,
+      "display_order": 0,
+      "added_date": "2026-08-25",
+      "archived_date": null,
+      "archived_reason": null,
+      "podcast_episode_id": 424
+    },
+    {
       "id": 436,
       "title": "Why Medical AI Needs a Referee | Protege's Engy Ziedan",
       "source_type": "podcast",
@@ -961,7 +980,7 @@ const dashboardData = {
         "AAPL"
       ],
       "sentiment": "neutral",
-      "display_on_main": 1,
+      "display_on_main": 0,
       "display_order": 0,
       "added_date": "2026-08-20",
       "archived_date": null,
@@ -9572,8 +9591,8 @@ const dashboardData = {
       "term": "ASI",
       "description": "Artificial Super Intelligence, referring to AI systems that surpass human intelligence in every field.",
       "first_detected_date": "2026-06-29",
-      "last_mentioned_date": "2026-08-21",
-      "mention_count": 11,
+      "last_mentioned_date": "2026-08-25",
+      "mention_count": 12,
       "source_podcasts": null,
       "status": "active",
       "investment_implications": "ASI represents a potential paradigm shift in technology and could disrupt various industries.",
@@ -9582,8 +9601,8 @@ const dashboardData = {
       "archived_reason": null,
       "first_detected_episode_id": 319,
       "first_detected_speaker": "Peter Diamandis (hosts)",
-      "last_mentioned_episode_id": 419,
-      "last_mentioned_speaker": "Elon Musk"
+      "last_mentioned_episode_id": 424,
+      "last_mentioned_speaker": "Dylan Patel"
     },
     {
       "id": 135,
@@ -9644,8 +9663,8 @@ const dashboardData = {
       "term": "Hyperscalers",
       "description": "Large companies that provide computing resources, storage, and various services over the internet at a massive scale.",
       "first_detected_date": "2026-06-19",
-      "last_mentioned_date": "2026-08-24",
-      "mention_count": 21,
+      "last_mentioned_date": "2026-08-25",
+      "mention_count": 22,
       "source_podcasts": null,
       "status": "active",
       "investment_implications": "Their significant capital expenditures and innovative financial structures can offer investment opportunities but also pose risks.",
@@ -9654,8 +9673,8 @@ const dashboardData = {
       "archived_reason": null,
       "first_detected_episode_id": 302,
       "first_detected_speaker": "Chamath Palihapitiya, Jason Calacanis (hosts)",
-      "last_mentioned_episode_id": 422,
-      "last_mentioned_speaker": "Harry"
+      "last_mentioned_episode_id": 424,
+      "last_mentioned_speaker": "Dylan Patel"
     },
     {
       "id": 256,
@@ -9804,20 +9823,20 @@ const dashboardData = {
     {
       "id": 138,
       "term": "AI CapEx",
-      "description": "Capital expenditures by companies in the field of artificial intelligence, indicating a commitment to developing and implementing AI technologies.",
+      "description": "Capital expenditures related to the development and deployment of artificial intelligence technologies.",
       "first_detected_date": "2026-06-08",
-      "last_mentioned_date": "2026-08-21",
-      "mention_count": 22,
+      "last_mentioned_date": "2026-08-25",
+      "mention_count": 23,
       "source_podcasts": null,
       "status": "active",
-      "investment_implications": "Investors should track AI CapEx as an indicator of a company's strategic focus on AI and potential for future growth.",
+      "investment_implications": "AI CapEx is a significant driver of growth in the tech sector, indicating the scale of investment in AI infrastructure.",
       "display_on_main": 0,
       "archived_date": null,
       "archived_reason": null,
       "first_detected_episode_id": 271,
       "first_detected_speaker": null,
-      "last_mentioned_episode_id": 419,
-      "last_mentioned_speaker": "Elon Musk"
+      "last_mentioned_episode_id": 424,
+      "last_mentioned_speaker": "Dylan Patel"
     },
     {
       "id": 234,
@@ -10130,8 +10149,8 @@ const dashboardData = {
       "term": "Singularity",
       "description": "A hypothetical point in the future at which technological growth becomes uncontrollable and irreversible, leading to unforeseeable changes in human civilization.",
       "first_detected_date": "2026-05-15",
-      "last_mentioned_date": "2026-08-24",
-      "mention_count": 53,
+      "last_mentioned_date": "2026-08-25",
+      "mention_count": 54,
       "source_podcasts": null,
       "status": "active",
       "investment_implications": "Investors should consider the potential for rapid technological change and its impact on various sectors, including AI, when making long-term investment decisions.",
@@ -10140,8 +10159,8 @@ const dashboardData = {
       "archived_reason": null,
       "first_detected_episode_id": 221,
       "first_detected_speaker": null,
-      "last_mentioned_episode_id": 422,
-      "last_mentioned_speaker": "Harry"
+      "last_mentioned_episode_id": 424,
+      "last_mentioned_speaker": "Dylan Patel"
     },
     {
       "id": 97,
@@ -10254,20 +10273,20 @@ const dashboardData = {
     {
       "id": 161,
       "term": "AGI",
-      "description": "Artificial General Intelligence, the ability of machines to understand, learn, and apply knowledge across a broad range of tasks at a human level.",
+      "description": "Artificial General Intelligence, referring to AI systems that possess the ability to understand, learn, and apply knowledge across a broad range of tasks at a level comparable to or exceeding human performance.",
       "first_detected_date": "2026-05-07",
-      "last_mentioned_date": "2026-08-21",
-      "mention_count": 78,
+      "last_mentioned_date": "2026-08-25",
+      "mention_count": 79,
       "source_podcasts": null,
       "status": "active",
-      "investment_implications": "Invest in companies that are making incremental progress towards AGI capabilities.",
+      "investment_implications": "Investment in AGI represents a long-term opportunity for transformative technologies that could reshape various industries.",
       "display_on_main": 1,
       "archived_date": null,
       "archived_reason": null,
       "first_detected_episode_id": 204,
       "first_detected_speaker": "Demis Hassabis",
-      "last_mentioned_episode_id": 420,
-      "last_mentioned_speaker": "June"
+      "last_mentioned_episode_id": 424,
+      "last_mentioned_speaker": "Dylan Patel"
     },
     {
       "id": 162,
@@ -11082,20 +11101,20 @@ const dashboardData = {
     {
       "id": 57,
       "term": "AI Infrastructure",
-      "description": "The underlying technology and systems that support the development and operation of AI applications.",
+      "description": "The physical and technological foundation that supports the development, deployment, and operation of AI applications.",
       "first_detected_date": "2026-03-17",
-      "last_mentioned_date": "2026-08-08",
-      "mention_count": 28,
+      "last_mentioned_date": "2026-08-25",
+      "mention_count": 29,
       "source_podcasts": null,
       "status": "active",
-      "investment_implications": "Investing in AI infrastructure can provide the foundation for innovation in AI-driven startups.",
+      "investment_implications": "AI infrastructure is a critical area for investment as it underpins the growth and capabilities of AI applications.",
       "display_on_main": 0,
       "archived_date": null,
       "archived_reason": null,
       "first_detected_episode_id": 71,
       "first_detected_speaker": null,
-      "last_mentioned_episode_id": 406,
-      "last_mentioned_speaker": "Brad Gersner, David Friedberg"
+      "last_mentioned_episode_id": 424,
+      "last_mentioned_speaker": "Dylan Patel"
     },
     {
       "id": 26,
@@ -11190,20 +11209,20 @@ const dashboardData = {
     {
       "id": 18,
       "term": "Compute Arbitrage",
-      "description": "The strategic allocation of compute resources to take advantage of the most cost-effective or efficient locations for data processing.",
+      "description": "The practice of leveraging differences in compute costs and capabilities across regions or providers to optimize performance and cost.",
       "first_detected_date": "2026-03-13",
-      "last_mentioned_date": "2026-08-08",
-      "mention_count": 20,
+      "last_mentioned_date": "2026-08-25",
+      "mention_count": 21,
       "source_podcasts": null,
       "status": "active",
-      "investment_implications": "Investors should consider the potential for cost savings and efficiency gains from compute arbitrage in their tech investments.",
+      "investment_implications": "Understanding compute arbitrage is key for investors looking to capitalize on regional disparities in AI development.",
       "display_on_main": 0,
       "archived_date": null,
       "archived_reason": null,
       "first_detected_episode_id": null,
       "first_detected_speaker": null,
-      "last_mentioned_episode_id": 406,
-      "last_mentioned_speaker": "Brad Gersner, David Friedberg"
+      "last_mentioned_episode_id": 424,
+      "last_mentioned_speaker": "Dylan Patel"
     },
     {
       "id": 19,
@@ -11282,8 +11301,8 @@ const dashboardData = {
       "term": "AI Race",
       "description": "The global competition among nations to lead in artificial intelligence development and application.",
       "first_detected_date": "2026-03-11",
-      "last_mentioned_date": "2026-08-18",
-      "mention_count": 30,
+      "last_mentioned_date": "2026-08-25",
+      "mention_count": 31,
       "source_podcasts": null,
       "status": "active",
       "investment_implications": "Investing in companies at the forefront of AI could yield significant returns as the technology becomes more pervasive.",
@@ -11292,8 +11311,8 @@ const dashboardData = {
       "archived_reason": null,
       "first_detected_episode_id": 60,
       "first_detected_speaker": null,
-      "last_mentioned_episode_id": 414,
-      "last_mentioned_speaker": "Alvin Wang Graylin"
+      "last_mentioned_episode_id": 424,
+      "last_mentioned_speaker": "Dylan Patel"
     },
     {
       "id": 12,
@@ -11630,6 +11649,28 @@ const dashboardData = {
   mainContent: {
   "insights": [
     {
+      "id": 439,
+      "title": "Dylan Patel \u2013 Anthropic & OpenAI will have most of the world\u2019s compute by 2028",
+      "source_type": "podcast",
+      "source_name": "Dwarkesh Podcast",
+      "source_date": "2026-08-25",
+      "summary": "In this episode of the Dwarkesh Podcast, Dylan Patel, Founder of Simming Analysis, discusses the rapid growth of AI infrastructure and its impact on the world economy. The conversation covers the increasing investment in labs by companies like OpenEye and Anthropic, the shift from venture capital funding to self-funded operations, and the potential for labs to control a significant portion of the world's compute power. Patel also touches on the implications of centralization of compute and the role of China in the global AI race.",
+      "key_takeaway": "Investment in AI infrastructure and labs is set to grow exponentially, leading to significant capital allocation shifts and potential market disruptions.",
+      "tickers_mentioned": "[\"NVIDIA\"]",
+      "sentiment": "bullish",
+      "display_on_main": 1,
+      "display_order": 0,
+      "added_date": "2026-08-25",
+      "archived_date": null,
+      "archived_reason": null,
+      "podcast_episode_id": 424,
+      "episode_release_date": "2026-08-25",
+      "guest_name": null,
+      "key_tickers": [
+        "NVIDIA"
+      ]
+    },
+    {
       "id": 436,
       "title": "Why Medical AI Needs a Referee | Protege's Engy Ziedan",
       "source_type": "podcast",
@@ -11747,26 +11788,6 @@ const dashboardData = {
       "podcast_episode_id": 420,
       "episode_release_date": "2026-08-21",
       "guest_name": "Simulation",
-      "key_tickers": []
-    },
-    {
-      "id": 431,
-      "title": "How Global Networks Are Reshaping Startup Success",
-      "source_type": "podcast",
-      "source_name": "The a16z Show",
-      "source_date": "2026-08-20",
-      "summary": "In this episode of the a16z podcast, Laina Berger interviews Angela Strange and Gabriel Vasquez about the concept of 'borderless founders' and how AI is accelerating the shift towards global entrepreneurship. They discuss the unique advantages that global founders bring to the table, including access to talent, customers, and distribution networks. The conversation also touches on the power of founder diasporas and the increasing bidirectional relationship between Silicon Valley and the rest of the world in terms of startup ecosystems.",
-      "key_takeaway": "Investing in borderless founders offers access to a global talent pool, customer base, and distribution networks, which can lead to the creation of successful global companies.",
-      "tickers_mentioned": "[\"AAPL\"]",
-      "sentiment": "neutral",
-      "display_on_main": 1,
-      "display_order": 0,
-      "added_date": "2026-08-20",
-      "archived_date": null,
-      "archived_reason": null,
-      "podcast_episode_id": 416,
-      "episode_release_date": "2026-08-20",
-      "guest_name": "Angela Strange and Gabriel Vasquez",
       "key_tickers": []
     },
     {
@@ -11918,36 +11939,36 @@ const dashboardData = {
     {
       "id": 161,
       "term": "AGI",
-      "description": "Artificial General Intelligence, the ability of machines to understand, learn, and apply knowledge across a broad range of tasks at a human level.",
+      "description": "Artificial General Intelligence, referring to AI systems that possess the ability to understand, learn, and apply knowledge across a broad range of tasks at a level comparable to or exceeding human performance.",
       "first_detected_date": "2026-05-07",
-      "last_mentioned_date": "2026-08-21",
-      "mention_count": 78,
+      "last_mentioned_date": "2026-08-25",
+      "mention_count": 79,
       "source_podcasts": null,
       "status": "active",
-      "investment_implications": "Invest in companies that are making incremental progress towards AGI capabilities.",
+      "investment_implications": "Investment in AGI represents a long-term opportunity for transformative technologies that could reshape various industries.",
       "display_on_main": 1,
       "archived_date": null,
       "archived_reason": null,
       "first_detected_episode_id": 204,
       "first_detected_speaker": "Demis Hassabis",
-      "last_mentioned_episode_id": 420,
-      "last_mentioned_speaker": "June",
-      "overton_score": 71.11,
+      "last_mentioned_episode_id": 424,
+      "last_mentioned_speaker": "Dylan Patel",
+      "overton_score": 79.0,
       "resonance_pct": 100,
       "first_detected_podcast": "Moonshots with Peter Diamandis",
       "first_detected_episode_title": "Demis Hassabis on AGI, Robots Scale Production, and Elon\u2019s $1T Mars-Shot Comp | EP #253",
       "first_detected_episode_date": "2026-05-07",
-      "last_mentioned_podcast": "Latent Space: The AI Engineer Podcast",
-      "last_mentioned_episode_title": "Simulation: the new Scaling Law \u2014 Joon Sung Park, Simile AI",
-      "last_mentioned_episode_date": "2026-08-21"
+      "last_mentioned_podcast": "Dwarkesh Podcast",
+      "last_mentioned_episode_title": "Dylan Patel \u2013 Anthropic & OpenAI will have most of the world\u2019s compute by 2028",
+      "last_mentioned_episode_date": "2026-08-25"
     },
     {
       "id": 254,
       "term": "Hyperscalers",
       "description": "Large companies that provide computing resources, storage, and various services over the internet at a massive scale.",
       "first_detected_date": "2026-06-19",
-      "last_mentioned_date": "2026-08-24",
-      "mention_count": 21,
+      "last_mentioned_date": "2026-08-25",
+      "mention_count": 22,
       "source_podcasts": null,
       "status": "active",
       "investment_implications": "Their significant capital expenditures and innovative financial structures can offer investment opportunities but also pose risks.",
@@ -11956,16 +11977,16 @@ const dashboardData = {
       "archived_reason": null,
       "first_detected_episode_id": 302,
       "first_detected_speaker": "Chamath Palihapitiya, Jason Calacanis (hosts)",
-      "last_mentioned_episode_id": 422,
-      "last_mentioned_speaker": "Harry",
-      "overton_score": 20.52,
+      "last_mentioned_episode_id": 424,
+      "last_mentioned_speaker": "Dylan Patel",
+      "overton_score": 22.0,
       "resonance_pct": 100,
       "first_detected_podcast": "All-In with Chamath, Jason, Sacks & Friedberg",
       "first_detected_episode_title": "World's First Trillionaire, Anthropic Fable Banned, The New Oligarchs, Iran Peace Deal",
       "first_detected_episode_date": "2026-06-19",
-      "last_mentioned_podcast": "Monetary Matters with Jack Farley",
-      "last_mentioned_episode_title": "Is Private Equity Broken? Why the Buyside\u2019s Problems Are Making 2026 \u201cThe Year of the Banker\u201d | High Yield Harry",
-      "last_mentioned_episode_date": "2026-08-24"
+      "last_mentioned_podcast": "Dwarkesh Podcast",
+      "last_mentioned_episode_title": "Dylan Patel \u2013 Anthropic & OpenAI will have most of the world\u2019s compute by 2028",
+      "last_mentioned_episode_date": "2026-08-25"
     },
     {
       "id": 10,
@@ -38256,6 +38277,45 @@ const dashboardData = {
     "source_name": "All-In with Chamath, Jason, Sacks & Friedberg",
     "source_date": "2026-08-24",
     "key_tickers": []
+  },
+  "439": {
+    "id": 428,
+    "insight_id": 439,
+    "podcast_episode_id": 424,
+    "overview": "The rapid growth in AI infrastructure investment is not only a matter of increasing capital allocation but also a shift in the economic landscape where labs like OpenEye and Anthropic are transitioning from venture capital-funded entities to self-sustaining operations with skyrocketing margins. This transition is marked by a significant increase in revenue per megawatt, with Anthropic reaching as high as $50 million per megawatt, enabling reinvestment into training and further expansion. The centralization of compute power is accelerating, with these labs projected to control a substantial portion of the world's compute by 2028, which could lead to a monopolization of AI advancements and economic influence.",
+    "key_takeaways_detailed": [],
+    "investment_thesis": "If the thesis holds true, investors should anticipate a significant reallocation of capital towards AI infrastructure and related technologies within the next decade. Allocations should consider companies that provide the hardware, software, and services necessary for this infrastructure growth. The timeframe for this shift is, with implications becoming more pronounced towards the end of the decade. Disproving the thesis would require observing a stagnation in AI infrastructure investment or a significant decentralization of compute power.",
+    "ticker_analysis": {
+      "NVDA": {
+        "rationale": "Nvidia Corporation (NVDA) is identified as a key player in the AI infrastructure space, providing advanced GPUs that are central to the operations of AI labs. Its products are integral to the compute power discussed, making NVDA a clean expression of the investment thesis related to the growth of AI infrastructure.",
+        "positioning": "",
+        "risk": ""
+      }
+    },
+    "positioning_guidance": "",
+    "risk_factors": [],
+    "contrarian_signals": [],
+    "catalysts": [],
+    "related_insights": null,
+    "audio_timestamp_start": null,
+    "audio_timestamp_end": null,
+    "transcript_excerpt": null,
+    "created_at": "2026-08-25T22:29:14.103551",
+    "updated_at": "2026-08-26 03:29:14",
+    "episode_evidence": "\"As we go forward into the future, the numbers for computer ballooning, right? We're at, you know, a little bit over a trillion dollars of capex this year. As you've gotten to 28, it's going to be more than two trillion dollars.\"\n\"And so ultimately, you've got a very interesting situation where the labs are going from companies that spend tens of billions of dollars a year, to hundreds of billions of dollars a year, to forecasting to spend trillions of dollars a year, even towards the end of the decade.\"",
+    "falsification_tracks": [
+      "A significant downturn in global economic conditions that reduces overall investment in AI infrastructure.",
+      "Regulatory interventions that limit the ability of AI labs to expand their compute capacity or increase operational costs.",
+      "Breakthroughs in distributed computing that make centralized AI infrastructure less efficient or cost-effective.",
+      "A substantial increase in the number of new entrants in the AI space that the concentration of compute power."
+    ],
+    "schema_version": 2,
+    "insight_title": "Dylan Patel \u2013 Anthropic & OpenAI will have most of the world\u2019s compute by 2028",
+    "source_name": "Dwarkesh Podcast",
+    "source_date": "2026-08-25",
+    "key_tickers": [
+      "NVIDIA"
+    ]
   }
 },
   suggestedTerms: [
@@ -38310,7 +38370,7 @@ const dashboardData = {
 ],
   podcastGuests: [
   {
-    "id": 57977,
+    "id": 58058,
     "name": "Michael Kratsios",
     "slug": "michael-kratsios",
     "bio": null,
@@ -38322,7 +38382,7 @@ const dashboardData = {
     "appearance_count": 1
   },
   {
-    "id": 57978,
+    "id": 58059,
     "name": "Emad Mostaque",
     "slug": "emad-mostaque",
     "bio": null,
@@ -38334,7 +38394,7 @@ const dashboardData = {
     "appearance_count": 3
   },
   {
-    "id": 57979,
+    "id": 58060,
     "name": "Angela Strange and Gabriel Vasquez",
     "slug": "angela-strange-and-gabriel-vasquez",
     "bio": null,
@@ -38346,7 +38406,7 @@ const dashboardData = {
     "appearance_count": 1
   },
   {
-    "id": 57980,
+    "id": 58061,
     "name": "Why Bessent Blinked",
     "slug": "why-bessent-blinked",
     "bio": null,
@@ -38358,7 +38418,7 @@ const dashboardData = {
     "appearance_count": 1
   },
   {
-    "id": 57981,
+    "id": 58062,
     "name": "Travis Kalanick",
     "slug": "travis-kalanick",
     "bio": null,
@@ -38370,7 +38430,7 @@ const dashboardData = {
     "appearance_count": 1
   },
   {
-    "id": 57982,
+    "id": 58063,
     "name": "Rahm Emanuel",
     "slug": "rahm-emanuel",
     "bio": null,
@@ -38382,7 +38442,7 @@ const dashboardData = {
     "appearance_count": 1
   },
   {
-    "id": 57983,
+    "id": 58064,
     "name": "Milton Berg",
     "slug": "milton-berg",
     "bio": "Milton Berg is a veteran technical analyst and CEO of Milton Berg Advisors, specializing in market turning-point analysis for institutional investors.",
@@ -38394,7 +38454,7 @@ const dashboardData = {
     "appearance_count": 1
   },
   {
-    "id": 57984,
+    "id": 58065,
     "name": "How Open",
     "slug": "how-open",
     "bio": null,
@@ -38406,7 +38466,7 @@ const dashboardData = {
     "appearance_count": 1
   },
   {
-    "id": 57985,
+    "id": 58066,
     "name": "Saronic Founders",
     "slug": "saronic-founders",
     "bio": null,
@@ -38418,7 +38478,7 @@ const dashboardData = {
     "appearance_count": 1
   },
   {
-    "id": 57986,
+    "id": 58067,
     "name": "OpenAI's Joshua Achiam",
     "slug": "openais-joshua-achiam",
     "bio": null,
@@ -38430,7 +38490,7 @@ const dashboardData = {
     "appearance_count": 1
   },
   {
-    "id": 57987,
+    "id": 58068,
     "name": "Marc Andreessen and Chris Dixon",
     "slug": "marc-andreessen-and-chris-dixon",
     "bio": null,
@@ -38442,7 +38502,7 @@ const dashboardData = {
     "appearance_count": 1
   },
   {
-    "id": 57988,
+    "id": 58069,
     "name": "AI for America's Small Businesses",
     "slug": "ai-for-americas-small-businesses",
     "bio": null,
@@ -38454,7 +38514,7 @@ const dashboardData = {
     "appearance_count": 1
   },
   {
-    "id": 57989,
+    "id": 58070,
     "name": "Luke Gromen",
     "slug": "luke-gromen",
     "bio": null,
@@ -38466,7 +38526,7 @@ const dashboardData = {
     "appearance_count": 1
   },
   {
-    "id": 57990,
+    "id": 58071,
     "name": "Travis Kelenick",
     "slug": "travis-kelenick",
     "bio": null,
@@ -38478,7 +38538,7 @@ const dashboardData = {
     "appearance_count": 1
   },
   {
-    "id": 57991,
+    "id": 58072,
     "name": "Travis Kalanick Is Back",
     "slug": "travis-kalanick-is-back",
     "bio": null,
@@ -38490,7 +38550,7 @@ const dashboardData = {
     "appearance_count": 1
   },
   {
-    "id": 57992,
+    "id": 58073,
     "name": "Interest Rates to 10%",
     "slug": "interest-rates-to-10",
     "bio": null,
@@ -38502,7 +38562,7 @@ const dashboardData = {
     "appearance_count": 1
   },
   {
-    "id": 57993,
+    "id": 58074,
     "name": "Nick Nemeth",
     "slug": "nick-nemeth",
     "bio": null,
@@ -38514,7 +38574,7 @@ const dashboardData = {
     "appearance_count": 1
   },
   {
-    "id": 57994,
+    "id": 58075,
     "name": "Urgent Update- AI Sputnik Moment",
     "slug": "urgent-update--ai-sputnik-moment",
     "bio": null,
@@ -38526,7 +38586,7 @@ const dashboardData = {
     "appearance_count": 1
   },
   {
-    "id": 57995,
+    "id": 58076,
     "name": "David Sachs",
     "slug": "david-sachs",
     "bio": null,
@@ -38538,7 +38598,7 @@ const dashboardData = {
     "appearance_count": 1
   },
   {
-    "id": 57996,
+    "id": 58077,
     "name": "Turbo Charged Trend Following",
     "slug": "turbo-charged-trend-following",
     "bio": null,
@@ -38551,6 +38611,66 @@ const dashboardData = {
   }
 ],
   pundits: [
+  {
+    "id": 333,
+    "name": "Dylan Patel",
+    "slug": "dylan-patel",
+    "bio": "Dylan Patel is the founder of Simming Analysis, a firm specializing in AI infrastructure and compute market analysis. He is recognized for his insights into the future of AI and its impact on the global economy, particularly focusing on the growth of AI infrastructure and its contribution to GDP.",
+    "known_for": "His expertise in AI infrastructure and its role in shaping the global economy.",
+    "net_worth_usd": 3700000000.0,
+    "net_worth_source": "https://substack.com/home/post/p-153458455",
+    "net_worth_updated_at": "2026-07-15T12:06:20.503583",
+    "voice_tone": "Confident and knowledgeable",
+    "voice_style": "Factual and data-driven",
+    "voice_delivery_notes": "Clear and concise, with a focus on key statistics and trends",
+    "voice_profile_updated_at": "2026-08-26 03:28:15",
+    "last_seen": "2026-08-26 03:28:15",
+    "last_episode_title": "Dylan Patel \u2013 Anthropic & OpenAI will have most of the world\u2019s compute by 2028",
+    "last_podcast_name": "Dwarkesh Podcast",
+    "last_episode_date": "2026-08-25",
+    "mention_score": 2,
+    "mention_score_decayed": 2,
+    "last_main_idea": "Investment in AI infrastructure and labs is set to grow exponentially, leading to significant capital allocation shifts and potential market disruptions.",
+    "last_proof_cite": "Dwarkesh Podcast \u2022 2026-08-25 \u2022 Dylan Patel \u2013 Anthropic & OpenAI will have most of the world\u2019s compute by 2028",
+    "last_proof_snippet": "Okay, I'm back with Dylan Patel, Founder of Simming Analysis, our version of Family, Thanksgiving dinner is a regular early podcast, but you're not actually related. I won't tell the people here. We'll destroy the myth. Walk me, basically w",
+    "supporting_takeaway": "Labs like OpenEye and Anthropic are expected to spend trillions of dollars annually by the end of the decade.",
+    "grokipedia_url": null,
+    "grokipedia_fetched_at": "2026-08-25T22:28:51.037076",
+    "pundit_profile": {
+      "source": "llm",
+      "source_model": "moonshot:moonshot-v1-8k",
+      "source_url": "",
+      "page_title": "Dylan Patel",
+      "fetched_at": "2026-08-26T03:28:51.036737+00:00",
+      "cliff_notes": "Dylan Patel is a prominent figure in the field of AI infrastructure and compute market analysis. As the founder of Simming Analysis, he has dedicated his career to understanding and forecasting the trends and developments within the AI sector. Patel's work is particularly focused on how advancements in AI infrastructure are influencing economic growth, with a keen eye on the allocation of capital expenditures in the industry. His insights are sought after for their ability to predict the trajectory of the global economy in relation to the advancements in AI technology. Patel's contributions to the discourse on AI's economic impact have made him a respected voice in both the tech and finance sectors.",
+      "derived": {
+        "current_role": "Founder of Simming Analysis"
+      },
+      "infobox": {
+        "Born": "",
+        "Nationality": ""
+      },
+      "lead_paragraphs": [
+        "Dylan Patel is a prominent figure in the field of AI infrastructure and compute market analysis. As the founder of Simming Analysis, he has dedicated his career to understanding and forecasting the trends and developments within the AI sector. Patel's work is particularly focused on how advancements in AI infrastructure are influencing economic growth, with a keen eye on the allocation of capital expenditures in the industry.",
+        "His insights are sought after for their ability to predict the trajectory of the global economy in relation to the advancements in AI technology. Patel's contributions to the discourse on AI's economic impact have made him a respected voice in both the tech and finance sectors."
+      ],
+      "sections": [
+        {
+          "heading": "AI Infrastructure Growth",
+          "body": "Dylan Patel has been instrumental in analyzing the growth of AI infrastructure, highlighting its significant contribution to GDP and the economy."
+        },
+        {
+          "heading": "Compute Market Analysis",
+          "body": "Patel's expertise lies in the analysis of the compute market, where he forecasts the allocation of capital expenditures and their impact on economic growth."
+        },
+        {
+          "heading": "Economic Impact of AI",
+          "body": "He provides valuable insights into how AI advancements are shaping the global economy, focusing on the role of AI infrastructure in driving economic progress."
+        }
+      ]
+    },
+    "net_worth": "$3.70B"
+  },
   {
     "id": 417,
     "name": "Michael Crathfields",
@@ -38770,7 +38890,7 @@ const dashboardData = {
     "last_podcast_name": "Monetary Matters with Jack Farley",
     "last_episode_date": "2026-08-20",
     "mention_score": 3,
-    "mention_score_decayed": 2.74,
+    "mention_score_decayed": 2.67,
     "last_main_idea": "The rise in AI capex and government spending is leading to increased borrowing costs, which will have profound effects on bond markets and inflation, creating both risks and opportunities for investors.",
     "last_proof_cite": "Monetary Matters with Jack Farley \u2022 2026-08-20 \u2022 Why Bessent Blinked | Luke Gromen on Doubling of Treasury Buyback Plan to Tame Long-End Yields",
     "last_proof_snippet": "Today's episode is brought to you by the two-cream corn fund Take or C-O-R-N. Let's get into it. Got a very important conversation today. I'm joined once again by Luke Groman of Forest for the Trees Research Luke. Welcome back to Monterey M",
@@ -39388,7 +39508,7 @@ const dashboardData = {
     "last_podcast_name": "Moonshots with Peter Diamandis",
     "last_episode_date": "2026-07-08",
     "mention_score": 3,
-    "mention_score_decayed": 2.49,
+    "mention_score_decayed": 2.44,
     "last_main_idea": "Invest in companies that are integrating AI into their operations to capitalize on job growth and technological advancements.",
     "last_proof_cite": "Moonshots with Peter Diamandis \u2022 2026-07-08 \u2022 Fable 5 Is Back & Govt-Leashed, Altman Offers 5% of OpenAI & AI Grows Conscious | #269",
     "last_proof_snippet": "Fable 5 came back online globally on July 1st with a few Provisos. This feels like the first time a frontier model has a standing duty to the U.S. government. This is probably close to the best scenario we could have hoped for. Sam has been",
@@ -39448,7 +39568,7 @@ const dashboardData = {
     "last_podcast_name": "Monetary Matters with Jack Farley",
     "last_episode_date": "2026-08-16",
     "mention_score": 1,
-    "mention_score_decayed": 0.83,
+    "mention_score_decayed": 0.81,
     "last_main_idea": "Investment in hyperscaler companies may offer significant returns due to their transformative technology and massive capital investments, but also carries risks due to the off-balance sheet leverage and innovative financial structures.",
     "last_proof_cite": "Monetary Matters with Jack Farley \u2022 2026-08-16 \u2022 Robin Wigglesworth on Hyperscalers' 1.5 Trillion of Off-Balance Sheet Liabilities, Private Credit, and His Book \"A Fabulous Debt\"",
     "last_proof_snippet": "I'm joined today by Robin Wigglesworth, editor of AlphaVille, the Financial Times Financial blog and author of a fabulous debt, the epic story of how bonds built the modern world Robin. But one talk about bonds fixed income of course, but w",
@@ -39507,7 +39627,7 @@ const dashboardData = {
     "last_podcast_name": "All-In with Chamath, Jason, Sacks & Friedberg",
     "last_episode_date": "2026-08-08",
     "mention_score": 2,
-    "mention_score_decayed": 1.66,
+    "mention_score_decayed": 1.62,
     "last_main_idea": "Investment in AI infrastructure and data centers is becoming increasingly important due to the demand for compute power and the tax advantages of such investments in the U.S.",
     "last_proof_cite": "All-In with Chamath, Jason, Sacks & Friedberg \u2022 2026-08-08 \u2022 Google's AI Brain Drain, SpaceX's Huge Quarter, Airtable's 90% Collapse, US Data Fuels China AI",
     "last_proof_snippet": "All right, everybody. Welcome back to your favorite podcast. It's the all-in podcast. It's the summer. It's August 6th. Haven't a hard time getting a core. I'm here on the podcast. But David Friedberg is here. David Friedberg is back our Su",
@@ -39948,7 +40068,7 @@ const dashboardData = {
     "last_podcast_name": "Monetary Matters with Jack Farley",
     "last_episode_date": "2026-08-12",
     "mention_score": 1,
-    "mention_score_decayed": 0.76,
+    "mention_score_decayed": 0.74,
     "last_main_idea": "Milton Berg's investment thesis is that the market may have bottomed and is poised for a rebound, with specific focus on sectors that have experienced significant declines as potential short-term bounce candidates.",
     "last_proof_cite": "Monetary Matters with Jack Farley \u2022 2026-08-12 \u2022 Milton Berg: I Have Evidence Market Has Likely Bottomed | Why Milton\u2019s Long Semis, Korea, Nasdaq, and More (With Caveats), and Why He Thinks Gold has made a Multi-year Top",
     "last_proof_snippet": "I am joined once again by Milton Berg of MB advisors and Milton Berg Edge. Milton is one of the greatest market technicians alive. And he focuses on a lot of things that most tetanolists don't follow. He's mostly not looking at charts. He's",
@@ -40262,7 +40382,7 @@ const dashboardData = {
     "last_podcast_name": "Dwarkesh Podcast",
     "last_episode_date": "2026-08-11",
     "mention_score": 1,
-    "mention_score_decayed": 0.74,
+    "mention_score_decayed": 0.72,
     "last_main_idea": "Investment in AI development and security is crucial to manage the rapid advancements and ensure ethical AI behavior.",
     "last_proof_cite": "Dwarkesh Podcast \u2022 2026-08-11 \u2022 Ryan Greenblatt \u2013 Human level AIs might build runaway superintelligences by 2032",
     "last_proof_snippet": "Today, I'm chatting with Ryan Greenlet, who is the chief scientist at Redwood Research, where he focuses on technical AI safety and security work. I want to talk to you about recursive self-improvement. This is the idea that once you build",
@@ -41038,7 +41158,7 @@ const dashboardData = {
     "last_podcast_name": "Moonshots with Peter Diamandis",
     "last_episode_date": "2026-08-04",
     "mention_score": 1,
-    "mention_score_decayed": 0.63,
+    "mention_score_decayed": 0.62,
     "last_main_idea": "Investing in AI and technology sectors that align with the U.S. government's initiatives for fostering innovation and scientific discovery could provide significant growth opportunities.",
     "last_proof_cite": "Moonshots with Peter Diamandis \u2022 2026-08-04 \u2022 Michael Kratsios on the New Golden Age of American Science | EP #276",
     "last_proof_snippet": "I was a kid in the candy store reading the Golden Age Report. What you're describing there is a complete fundamental AI native AI agent up, reimagining of the entire scientific process. And I think it's something that is possible. My sense",
@@ -41107,7 +41227,7 @@ const dashboardData = {
     "last_podcast_name": "The a16z Show",
     "last_episode_date": "2026-08-04",
     "mention_score": 1,
-    "mention_score_decayed": 0.63,
+    "mention_score_decayed": 0.62,
     "last_main_idea": "Investing in cybersecurity solutions that leverage AI can provide a competitive advantage, but it also requires understanding the novel risks and vulnerabilities that AI models can create.",
     "last_proof_cite": "The a16z Show \u2022 2026-08-04 \u2022 OpenAI's Joshua Achiam: Did We Already Reach AGI?",
     "last_proof_snippet": "Heels like AGI is kind of already here and most people have gone like drug. The fact that we passed the threshold of where unsolved mathematical trajectors are getting solved by extremely intelligent AI, where those AI's are more capable an",
@@ -42336,7 +42456,7 @@ const dashboardData = {
     "last_podcast_name": "All-In with Chamath, Jason, Sacks & Friedberg",
     "last_episode_date": "2026-07-20",
     "mention_score": 1,
-    "mention_score_decayed": 0.46,
+    "mention_score_decayed": 0.45,
     "last_main_idea": "The current market behavior, while bubbly, is distinct from past bubbles and may disproportionately impact venture capital and private equity firms due to aggressive investment strategies.",
     "last_proof_cite": "All-In with Chamath, Jason, Sacks & Friedberg \u2022 2026-07-20 \u2022 Mark Cuban on the AI Bubble: Who Actually Gets Wiped Out?",
     "last_proof_snippet": "You and I live through a couple of bubbles. We've seen this movie before. And this wave seems very different than the dot com wave. So let's talk about that. Are you concerned about a bubble? We're seeing bubbly like behavior people. It's n",
@@ -42471,7 +42591,7 @@ const dashboardData = {
     "last_podcast_name": "The a16z Show",
     "last_episode_date": "2026-07-20",
     "mention_score": 1,
-    "mention_score_decayed": 0.45,
+    "mention_score_decayed": 0.44,
     "last_main_idea": "Invest in open source AI platforms and local AI models to capitalize on the growing demand for privacy-preserving, cost-efficient AI solutions and the potential shift towards model routing.",
     "last_proof_cite": "The a16z Show \u2022 2026-07-20 \u2022 Hugging Face's CEO on Open Source AI, Model Routing, and the Future of Competition",
     "last_proof_snippet": "I think this relation is a very common practice that everyone is using. It's something that everyone uses, but that is not the main reason for success. Like if you suck, you suck without this relation. It's hard for me to say, like, oh, poo",
@@ -42780,7 +42900,7 @@ const dashboardData = {
     "last_podcast_name": "Moonshots with Peter Diamandis",
     "last_episode_date": "2026-07-17",
     "mention_score": 1,
-    "mention_score_decayed": 0.42,
+    "mention_score_decayed": 0.41,
     "last_main_idea": "Investing in AI companies that focus on customization and small language models can provide significant returns as these technologies meet current market demands and have the potential to shape the future of AI.",
     "last_proof_cite": "Moonshots with Peter Diamandis \u2022 2026-07-17 \u2022 Mira Murati's 975B Open Model, Ramin Hasani on Post-Transformer AI, and Demis' AI FINRA | EP #271",
     "last_proof_snippet": "Miramoradi, the former OpenAI CTO, just shipped her first model. It's called Inkling, customization over leaderboard dominance is what's going to win her the day. She's built exactly the thing hitting the market that exactly what everybody",
@@ -43195,74 +43315,6 @@ const dashboardData = {
       ]
     },
     "net_worth": "$120.0M"
-  },
-  {
-    "id": 333,
-    "name": "Dylan Patel",
-    "slug": "dylan-patel",
-    "bio": "Dylan Patel is the co-founder of SemiAnalysis, a firm that specializes in covering AI hardware and data center space. He is recognized for his exceptional insights into the semiconductor industry and the infrastructure that supports AI advancements.",
-    "known_for": "His expertise in AI hardware and semiconductors, and the impact of these technologies on data centers and AI economics.",
-    "net_worth_usd": 3700000000.0,
-    "net_worth_source": "https://substack.com/home/post/p-153458455",
-    "net_worth_updated_at": "2026-07-15T12:06:20.503583",
-    "voice_tone": "Informed and analytical.",
-    "voice_style": "Factual and insightful, providing deep industry knowledge.",
-    "voice_delivery_notes": "Clear and concise, with a focus on key industry trends and insights.",
-    "voice_profile_updated_at": "2026-07-15 17:05:26",
-    "last_seen": "2026-07-15 17:05:26",
-    "last_episode_title": "Can Anyone Catch NVIDIA? | The Future of Chips and Infrastructure",
-    "last_podcast_name": "The a16z Show",
-    "last_episode_date": "2026-07-15",
-    "mention_score": 1,
-    "mention_score_decayed": 0.39,
-    "last_main_idea": "Investing in AI hardware requires a focus on infrastructure and the ability to scale efficiently, as the AI race is not just about models but also the underlying technology that supports them.",
-    "last_proof_cite": "The a16z Show \u2022 2026-07-15 \u2022 Can Anyone Catch NVIDIA? | The Future of Chips and Infrastructure",
-    "last_proof_snippet": "In videos that are going to have better networking than you, they're going to have better HP, they're going to have better process-node, they're going to come to market faster, they're going to be able to ramp faster, they're going to have",
-    "supporting_takeaway": "Companies need to leap forward and be significantly better to compete with video in the AI space.",
-    "grokipedia_url": null,
-    "grokipedia_fetched_at": "2026-07-15T12:06:19.625174",
-    "pundit_profile": {
-      "source": "llm",
-      "source_model": "moonshot:moonshot-v1-8k",
-      "source_url": "",
-      "page_title": "Dylan Patel",
-      "fetched_at": "2026-07-15T17:06:19.625007+00:00",
-      "cliff_notes": "Dylan Patel is a prominent figure in the technology sector, particularly in the realm of AI hardware and semiconductors. As the co-founder of SemiAnalysis, he has been instrumental in providing in-depth analysis and coverage of the AI hardware space and its implications for data centers. His work is crucial for understanding the underpinnings of AI advancements, including the infrastructure that supports these technologies. Patel's insights are sought after by investors and tech enthusiasts alike, as they help navigate the complex landscape of AI and its hardware requirements. His contributions to the discourse on AI infrastructure, including custom silicon, robotics, and export controls, have positioned him as a thought leader in the field.",
-      "derived": {
-        "current_role": "Co-founder of SemiAnalysis"
-      },
-      "infobox": {
-        "Born": "",
-        "Nationality": ""
-      },
-      "lead_paragraphs": [
-        "Dylan Patel is a prominent figure in the technology sector, particularly in the realm of AI hardware and semiconductors. As the co-founder of SemiAnalysis, he has been instrumental in providing in-depth analysis and coverage of the AI hardware space and its implications for data centers. His work is crucial for understanding the underpinnings of AI advancements, including the infrastructure that supports these technologies.",
-        "Patel's insights are sought after by investors and tech enthusiasts alike, as they help navigate the complex landscape of AI and its hardware requirements. His contributions to the discourse on AI infrastructure, including custom silicon, robotics, and export controls, have positioned him as a thought leader in the field."
-      ],
-      "sections": [
-        {
-          "heading": "AI Hardware",
-          "body": "Dylan Patel is known for his expertise in AI hardware, discussing the importance of infrastructure and how it affects the development and scaling of AI technologies."
-        },
-        {
-          "heading": "Semiconductor Industry",
-          "body": "Patel's analysis of the semiconductor space is highly regarded, with a focus on how advancements in this area can drive innovation in AI and data centers."
-        },
-        {
-          "heading": "Data Center Economics",
-          "body": "He explores the economic factors that influence data center operations and the ability of companies to scale their AI capabilities effectively."
-        },
-        {
-          "heading": "Custom Silicon",
-          "body": "Patel discusses the role of custom silicon in the next generation of AI infrastructure and how it can provide a competitive edge."
-        },
-        {
-          "heading": "AI Infrastructure",
-          "body": "His insights into AI infrastructure include the challenges faced by companies like Google, Amazon, Meta, and OpenAI in developing and deploying advanced AI systems."
-        }
-      ]
-    },
-    "net_worth": "$3.70B"
   },
   {
     "id": 332,
@@ -43925,7 +43977,7 @@ const dashboardData = {
     "last_podcast_name": "Monetary Matters with Jack Farley",
     "last_episode_date": "2026-07-04",
     "mention_score": 1,
-    "mention_score_decayed": 0.31,
+    "mention_score_decayed": 0.3,
     "last_main_idea": "Invest in multi-family and senior housing to capitalize on demographic shifts, and focus on industrial properties to benefit from e-commerce growth.",
     "last_proof_cite": "Monetary Matters with Jack Farley \u2022 2026-07-04 \u2022 The Real Estate Cycle Is Turning | Josh Pristaw on The New Cycle in Real Estate, Opportunity in Senior Living, Why AI Data Centers Are Too Big For Most Investors",
     "last_proof_snippet": "Today's episode is brought to you by the Fundrise Income Fund. You'll hear more about the income fund later in the show, but for now, let's get into today's interview. Today we're going to be talking all things real estate. I'm joined by Jo",
@@ -45229,7 +45281,7 @@ const dashboardData = {
     "last_podcast_name": "Latent Space: The AI Engineer Podcast",
     "last_episode_date": "2026-06-17",
     "mention_score": 1,
-    "mention_score_decayed": 0.21,
+    "mention_score_decayed": 0.2,
     "last_main_idea": "Invest in companies that integrate AI with experimental data for material discovery to gain a competitive edge in industries like aerospace and semiconductors.",
     "last_proof_cite": "Latent Space: The AI Engineer Podcast \u2022 2026-06-17 \u2022 \ud83d\udd2c The Self-Driving Lab \u2014 Joseph Krause, Radical AI",
     "last_proof_snippet": "This is the difference between AI for bio and AI for materials. If you look at bio or maybe small molecules is a more broad category, you look at selfies and smile strings, where I which has been a big way to have those materials, those mol",
@@ -47152,7 +47204,7 @@ const dashboardData = {
     "last_podcast_name": "The a16z Show",
     "last_episode_date": "2026-05-26",
     "mention_score": 1,
-    "mention_score_decayed": 0.13,
+    "mention_score_decayed": 0.12,
     "last_main_idea": "Invest in companies developing prediction market platforms, focusing on those with strong legal compliance strategies and potential for cultural acceptance.",
     "last_proof_cite": "The a16z Show \u2022 2026-05-26 \u2022 Robin Hanson on Prediction Markets, Gambling, and the Future of Forecasting",
     "last_proof_snippet": "Well, so, start at the beginning. The basic vision is that speculative markets are shown to be a unmatched mechanism for aggregating information and telling us about stuff. And initially, most people who come to this area think about, let's",
@@ -47834,7 +47886,7 @@ const dashboardData = {
     "last_podcast_name": "Dwarkesh Podcast",
     "last_episode_date": "2026-05-15",
     "mention_score": 1,
-    "mention_score_decayed": 0.1,
+    "mention_score_decayed": 0.09,
     "last_main_idea": "Invest in AI technologies that leverage advancements in MCTS and reduced compute requirements to create scalable and efficient solutions in various industries.",
     "last_proof_cite": "Dwarkesh Podcast \u2022 2026-05-15 \u2022 Eric Jang \u2013 Building AlphaGo from scratch",
     "last_proof_snippet": "Today I'm here with Eric Jeng, who was most recently Vice President of AI at one ex-technologies, before that senior research scientist at what is now Google DeepMind Robotics, and you've been on sabbatical for the last few months. One of t",
@@ -49212,7 +49264,7 @@ const dashboardData = {
     "last_podcast_name": "Monetary Matters with Jack Farley",
     "last_episode_date": "2026-05-04",
     "mention_score": 1,
-    "mention_score_decayed": 0.08,
+    "mention_score_decayed": 0.07,
     "last_main_idea": "The current bull market is driven by advancements in AI and technology, which are expected to continue outpacing concerns over oil shortages and inflation.",
     "last_proof_cite": "Monetary Matters with Jack Farley \u2022 2026-05-04 \u2022 Warren Pies: The Scramble for Compute Cures All Ills | Two Wolves of \u201cHockeysticking Earnings\u201d and Hormuz Oil Shock (Plus Caliban)",
     "last_proof_snippet": "Today I was speaking to one of the best and most data-driven analysts around, Warren Pious of 314 research. If you have been seeing the ball clearer than him, last time I spoke to him, Warren's calling for S&P to 7,000 by 2026, which obviou",
@@ -49276,7 +49328,7 @@ const dashboardData = {
     "last_podcast_name": "The a16z Show",
     "last_episode_date": "2026-05-04",
     "mention_score": 1,
-    "mention_score_decayed": 0.08,
+    "mention_score_decayed": 0.07,
     "last_main_idea": "Investing in AI technologies that align with Western values of individual consent and rule-based operations can be a strategic move in the digital age, as these technologies are poised to become increasingly influential in global commerce and diplomacy.",
     "last_proof_cite": "The a16z Show \u2022 2026-05-04 \u2022 Sarah Rogers: Free Speech, AI Diplomacy, and What America Owes Its Allies",
     "last_proof_snippet": "AI is going to be more important, not less important, and so the proliferation of a Western AI stack to be a top priority for anyone who cares about freedom. The rules around AI are changing fast. There's a lot of regulation abroad around d",
@@ -49913,7 +49965,7 @@ const dashboardData = {
     "last_podcast_name": "The a16z Show",
     "last_episode_date": "2026-04-28",
     "mention_score": 1,
-    "mention_score_decayed": 0.07,
+    "mention_score_decayed": 0.06,
     "last_main_idea": "The future of commerce will be driven by platforms that can handle massive transaction volumes, necessitating advancements in blockchain technology and a shift in software economics towards bespoke, real-time solutions.",
     "last_proof_cite": "The a16z Show \u2022 2026-04-28 \u2022 John and Patrick Collison on Stripe's Growth, Agent Commerce, and the Future of Software",
     "last_proof_snippet": "The 2025 cohort of businesses on Stripe is larger and performing better on a per business basis than any prior cohort.",
@@ -52510,7 +52562,7 @@ const dashboardData = {
     "last_podcast_name": "Monetary Matters with Jack Farley",
     "last_episode_date": "2026-04-01",
     "mention_score": 1,
-    "mention_score_decayed": 0.04,
+    "mention_score_decayed": 0.03,
     "last_main_idea": "Pictay asset management's AI-enhanced ETFs (PQNT and PQUS) aim to provide enhanced equity exposure through the use of artificial intelligence.",
     "last_proof_cite": "Monetary Matters with Jack Farley \u2022 2026-04-01 \u2022 Why $200 Oil Won\u2019t Spike Inflation to 9% | Anna Wong on Recession Probability, PCE vs CPI, and Fed Reaction Function In A Scenario of Soaring Energy Prices",
     "last_proof_snippet": "Oil futures curve suggests prices will decline to around $80 in the second half of the year.",
@@ -52570,7 +52622,7 @@ const dashboardData = {
     "last_podcast_name": "The a16z Show",
     "last_episode_date": "2026-04-01",
     "mention_score": 1,
-    "mention_score_decayed": 0.04,
+    "mention_score_decayed": 0.03,
     "last_main_idea": "Investing in companies that understand complex problems and can leverage AI to gain a competitive advantage in their operations and product development.",
     "last_proof_cite": "The a16z Show \u2022 2026-04-01 \u2022 What Happens When a Public Company Goes All In on AI",
     "last_proof_snippet": "AI agents have significantly increased productivity, with one or two engineers on the tools being able to achieve 10-100x more output than before.",
@@ -54680,7 +54732,7 @@ const dashboardData = {
     "last_podcast_name": "All-In with Chamath, Jason, Sacks & Friedberg",
     "last_episode_date": "2026-03-18",
     "mention_score": 1,
-    "mention_score_decayed": 0.03,
+    "mention_score_decayed": 0.02,
     "last_main_idea": "While not directly investment-focused, the episode provides insights into the political climate and potential policy directions that could indirectly affect various sectors and investment strategies.",
     "last_proof_cite": "All-In with Chamath, Jason, Sacks & Friedberg \u2022 2026-03-18 \u2022 Interview with Senator John Fetterman on Voting Rights, Policy Decisions, and the Democratic Party",
     "last_proof_snippet": "Fetterman has a unique perspective, being popular among Republicans while maintaining his Democratic affiliation.",
@@ -54746,7 +54798,7 @@ const dashboardData = {
     "last_podcast_name": "The a16z Show",
     "last_episode_date": "2026-03-18",
     "mention_score": 1,
-    "mention_score_decayed": 0.03,
+    "mention_score_decayed": 0.02,
     "last_main_idea": "Invest in companies that are at the forefront of AI innovation, hardware manufacturing, and secure supply chain management to capitalize on the new geopolitics of technology and the reindustrialization of the US.",
     "last_proof_cite": "The a16z Show \u2022 2026-03-18 \u2022 The Geopolitics of Technology and the Future Economy",
     "last_proof_snippet": "Helbert emphasizes the importance of hardware in the geopolitical technology war and the control over the internet's infrastructure.",
@@ -54810,7 +54862,7 @@ const dashboardData = {
     "last_podcast_name": "Monetary Matters with Jack Farley",
     "last_episode_date": "2026-03-19",
     "mention_score": 1,
-    "mention_score_decayed": 0.03,
+    "mention_score_decayed": 0.02,
     "last_main_idea": "The current elevated oil prices and their subsequent impact on inflation and growth present a complex investment landscape, with stocks and bonds being particularly at risk. Investors should consider packaging trades to navigate these dynamics.",
     "last_proof_cite": "Monetary Matters with Jack Farley \u2022 2026-03-19 \u2022 Monetary Matters with Jack Farley: Oil Shocks, Inflation, and Market Reactions",
     "last_proof_snippet": "The immediate impact of an oil shock is inflationary, but over time it could lead to a negative shock on the economy.",

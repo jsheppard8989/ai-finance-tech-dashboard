@@ -1,5 +1,24 @@
 [
   {
+    "id": 424,
+    "podcast_name": "Dwarkesh Podcast",
+    "episode_title": "Dylan Patel \u2013 Anthropic & OpenAI will have most of the world\u2019s compute by 2028",
+    "episode_date": "2026-08-25",
+    "summary": "In this episode of the Dwarkesh Podcast, Dylan Patel, Founder of Simming Analysis, discusses the rapid growth of AI infrastructure and its impact on the world economy. The conversation covers the increasing investment in labs by companies like OpenEye and Anthropic, the shift from venture capital funding to self-funded operations, and the potential for labs to control a significant portion of the world's compute power. Patel also touches on the implications of centralization of compute and the role of China in the global AI race.",
+    "key_takeaways": [
+      "AI infrastructure is a major driver of GDP growth in America.",
+      "Labs like OpenEye and Anthropic are expected to spend trillions of dollars annually by the end of the decade.",
+      "The shift from venture capital funding to self-funded operations is underway, with labs now generating significant revenue.",
+      "The cost of compute is decreasing, while revenue generation per megawatt is increasing, allowing labs to reinvest profits into training.",
+      "Centralization of compute is increasing, with a significant portion of incremental compute being directed towards labs.",
+      "China's role in the global AI race is significant, with the potential to scale manufacturing and close the gap in semiconductor production."
+    ],
+    "investment_thesis": "Investment in AI infrastructure and labs is set to grow exponentially, leading to significant capital allocation shifts and potential market disruptions.",
+    "key_tickers": [
+      "NVIDIA"
+    ]
+  },
+  {
     "id": 423,
     "podcast_name": "All-In with Chamath, Jason, Sacks & Friedberg",
     "episode_title": "Michael Kratsios: Trump's Science Agenda, Anti-Science Claims, Fauci's Damage, DEI & China",
@@ -115,22 +134,5 @@
     "key_tickers": [
       "CORN"
     ]
-  },
-  {
-    "id": 416,
-    "podcast_name": "The a16z Show",
-    "episode_title": "How Global Networks Are Reshaping Startup Success",
-    "episode_date": "2026-08-20",
-    "summary": "In this episode of the a16z podcast, Laina Berger interviews Angela Strange and Gabriel Vasquez about the concept of 'borderless founders' and how AI is accelerating the shift towards global entrepreneurship. They discuss the unique advantages that global founders bring to the table, including access to talent, customers, and distribution networks. The conversation also touches on the power of founder diasporas and the increasing bidirectional relationship between Silicon Valley and the rest of the world in terms of startup ecosystems.",
-    "key_takeaways": [
-      "Borderless founders often have a strong desire to prove their ability to achieve greatness regardless of their origin.",
-      "International markets may lack the infrastructure and services available in the US, necessitating founders to build everything from scratch.",
-      "Despite technology being democratizing, the epicenter of fast-moving innovations still tends to concentrate in areas like Silicon Valley.",
-      "Global founders can leverage their home markets alongside Silicon Valley's resources to build global companies.",
-      "The advantages of global founders include access to differentiated talent pools, early-stage partnerships that can convert into significant contracts, and the ability to attract international talent through strong branding.",
-      "International founders can also build relationships with governments, adding to their reputation and ability to attract further talent and customers."
-    ],
-    "investment_thesis": "Investing in borderless founders offers access to a global talent pool, customer base, and distribution networks, which can lead to the creation of successful global companies.",
-    "key_tickers": null
   }
 ]
