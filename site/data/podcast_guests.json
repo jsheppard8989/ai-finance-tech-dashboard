@@ -1,6 +1,18 @@
 [
   {
-    "id": 58301,
+    "id": 58382,
+    "name": "Time to Reduce Equity Risk",
+    "slug": "time-to-reduce-equity-risk",
+    "bio": null,
+    "known_for": null,
+    "last_main_idea": "Warren Pi suggests that despite the current macro risks, the AI sector remains a key area for investment, with all roads leading back to AI trades.",
+    "last_episode_title": "Time to Reduce Equity Risk: Why Underappreciated Macro Risks Could Derail the Bull Market | Warren Pies",
+    "last_podcast_name": "Monetary Matters with Jack Farley",
+    "last_episode_date": "2026-08-26",
+    "appearance_count": 1
+  },
+  {
+    "id": 58383,
     "name": "Michael Kratsios",
     "slug": "michael-kratsios",
     "bio": null,
@@ -12,7 +24,7 @@
     "appearance_count": 1
   },
   {
-    "id": 58302,
+    "id": 58384,
     "name": "Emad Mostaque",
     "slug": "emad-mostaque",
     "bio": null,
@@ -24,7 +36,7 @@
     "appearance_count": 3
   },
   {
-    "id": 58303,
+    "id": 58385,
     "name": "Angela Strange and Gabriel Vasquez",
     "slug": "angela-strange-and-gabriel-vasquez",
     "bio": null,
@@ -36,7 +48,7 @@
     "appearance_count": 1
   },
   {
-    "id": 58304,
+    "id": 58386,
     "name": "Why Bessent Blinked",
     "slug": "why-bessent-blinked",
     "bio": null,
@@ -48,7 +60,7 @@
     "appearance_count": 1
   },
   {
-    "id": 58305,
+    "id": 58387,
     "name": "Travis Kalanick",
     "slug": "travis-kalanick",
     "bio": null,
@@ -60,7 +72,7 @@
     "appearance_count": 1
   },
   {
-    "id": 58306,
+    "id": 58388,
     "name": "Rahm Emanuel",
     "slug": "rahm-emanuel",
     "bio": null,
@@ -72,7 +84,7 @@
     "appearance_count": 1
   },
   {
-    "id": 58307,
+    "id": 58389,
     "name": "Milton Berg",
     "slug": "milton-berg",
     "bio": "Milton Berg is a veteran technical analyst and CEO of Milton Berg Advisors, specializing in market turning-point analysis for institutional investors.",
@@ -84,7 +96,7 @@
     "appearance_count": 1
   },
   {
-    "id": 58308,
+    "id": 58390,
     "name": "How Open",
     "slug": "how-open",
     "bio": null,
@@ -96,7 +108,7 @@
     "appearance_count": 1
   },
   {
-    "id": 58309,
+    "id": 58391,
     "name": "Saronic Founders",
     "slug": "saronic-founders",
     "bio": null,
@@ -108,7 +120,7 @@
     "appearance_count": 1
   },
   {
-    "id": 58310,
+    "id": 58392,
     "name": "OpenAI's Joshua Achiam",
     "slug": "openais-joshua-achiam",
     "bio": null,
@@ -120,7 +132,7 @@
     "appearance_count": 1
   },
   {
-    "id": 58311,
+    "id": 58393,
     "name": "Marc Andreessen and Chris Dixon",
     "slug": "marc-andreessen-and-chris-dixon",
     "bio": null,
@@ -132,7 +144,7 @@
     "appearance_count": 1
   },
   {
-    "id": 58312,
+    "id": 58394,
     "name": "AI for America's Small Businesses",
     "slug": "ai-for-americas-small-businesses",
     "bio": null,
@@ -144,7 +156,7 @@
     "appearance_count": 1
   },
   {
-    "id": 58313,
+    "id": 58395,
     "name": "Luke Gromen",
     "slug": "luke-gromen",
     "bio": null,
@@ -156,7 +168,7 @@
     "appearance_count": 1
   },
   {
-    "id": 58314,
+    "id": 58396,
     "name": "Travis Kelenick",
     "slug": "travis-kelenick",
     "bio": null,
@@ -168,7 +180,7 @@
     "appearance_count": 1
   },
   {
-    "id": 58315,
+    "id": 58397,
     "name": "Travis Kalanick Is Back",
     "slug": "travis-kalanick-is-back",
     "bio": null,
@@ -180,7 +192,7 @@
     "appearance_count": 1
   },
   {
-    "id": 58316,
+    "id": 58398,
     "name": "Interest Rates to 10%",
     "slug": "interest-rates-to-10",
     "bio": null,
@@ -192,7 +204,7 @@
     "appearance_count": 1
   },
   {
-    "id": 58317,
+    "id": 58399,
     "name": "Nick Nemeth",
     "slug": "nick-nemeth",
     "bio": null,
@@ -204,7 +216,7 @@
     "appearance_count": 1
   },
   {
-    "id": 58318,
+    "id": 58400,
     "name": "Urgent Update- AI Sputnik Moment",
     "slug": "urgent-update--ai-sputnik-moment",
     "bio": null,
@@ -216,7 +228,7 @@
     "appearance_count": 1
   },
   {
-    "id": 58319,
+    "id": 58401,
     "name": "David Sachs",
     "slug": "david-sachs",
     "bio": null,
@@ -228,7 +240,7 @@
     "appearance_count": 1
   },
   {
-    "id": 58320,
+    "id": 58402,
     "name": "Turbo Charged Trend Following",
     "slug": "turbo-charged-trend-following",
     "bio": null,
@@ -240,7 +252,7 @@
     "appearance_count": 1
   },
   {
-    "id": 58321,
+    "id": 58403,
     "name": "Can Anyone Catch NVIDIA?",
     "slug": "can-anyone-catch-nvidia",
     "bio": null,
@@ -252,7 +264,7 @@
     "appearance_count": 1
   },
   {
-    "id": 58322,
+    "id": 58404,
     "name": "Mark Zuckerberg & Priscilla Chan",
     "slug": "mark-zuckerberg--priscilla-chan",
     "bio": null,
@@ -264,7 +276,7 @@
     "appearance_count": 1
   },
   {
-    "id": 58323,
+    "id": 58405,
     "name": "Adam Neumann",
     "slug": "adam-neumann",
     "bio": null,
@@ -276,7 +288,7 @@
     "appearance_count": 1
   },
   {
-    "id": 58324,
+    "id": 58406,
     "name": "Breaking Down the Multi-Manager Playbook",
     "slug": "breaking-down-the-multi-manager-playbook",
     "bio": null,
@@ -288,7 +300,7 @@
     "appearance_count": 1
   },
   {
-    "id": 58325,
+    "id": 58407,
     "name": "Don\u2019t Follow Your Passion",
     "slug": "dont-follow-your-passion",
     "bio": null,
@@ -300,7 +312,7 @@
     "appearance_count": 1
   },
   {
-    "id": 58326,
+    "id": 58408,
     "name": "trillion. Guest Daryl Duffy",
     "slug": "trillion-guest-daryl-duffy",
     "bio": null,
@@ -312,7 +324,7 @@
     "appearance_count": 1
   },
   {
-    "id": 58327,
+    "id": 58409,
     "name": "Outsmarting Uber",
     "slug": "outsmarting-uber",
     "bio": null,
@@ -324,7 +336,7 @@
     "appearance_count": 1
   },
   {
-    "id": 58328,
+    "id": 58410,
     "name": "What If It\u2019s Still Early?",
     "slug": "what-if-its-still-early",
     "bio": null,
@@ -336,7 +348,7 @@
     "appearance_count": 1
   },
   {
-    "id": 58329,
+    "id": 58411,
     "name": "Building AI for Creators",
     "slug": "building-ai-for-creators",
     "bio": null,
@@ -345,18 +357,6 @@
     "last_episode_title": "Building AI for Creators | Luma & Phota Labs",
     "last_podcast_name": "The a16z Show",
     "last_episode_date": "2026-06-30",
-    "appearance_count": 1
-  },
-  {
-    "id": 58330,
-    "name": "Mark Andreessen",
-    "slug": "mark-andreessen",
-    "bio": null,
-    "known_for": null,
-    "last_main_idea": "Invest in AI-driven blue sectors to capitalize on rapid productivity growth, while advocating for regulatory reforms and public sector modernization to overcome constraints on AI's transformative potential.",
-    "last_episode_title": "Beyond P(doom): Marc Andreessen - Betting on America",
-    "last_podcast_name": "The a16z Show",
-    "last_episode_date": "2026-06-29",
     "appearance_count": 1
   }
 ]

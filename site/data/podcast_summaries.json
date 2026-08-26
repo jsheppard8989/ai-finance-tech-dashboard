@@ -1,5 +1,42 @@
 [
   {
+    "id": 427,
+    "podcast_name": "Monetary Matters with Jack Farley",
+    "episode_title": "Time to Reduce Equity Risk: Why Underappreciated Macro Risks Could Derail the Bull Market | Warren Pies",
+    "episode_date": "2026-08-26",
+    "summary": "In this episode of 'Other People's Money', Max Weathie interviews Warren Pi, co-founder of 314 Research, to discuss the current macro risks overshadowing the market. They analyze the market structure, seasonal patterns, and the impact of AI on the tech sector. Warren shares his insights on earnings, Fed's potential rate hikes, and the implications for investors. The conversation also touches on the importance of GPU availability and rental rates in the AI space.",
+    "key_takeaways": [
+      "Warren Pi believes that macro risks are taking over the market after a strong earnings season.",
+      "He highlighted the period from August 15th to October 15th as a time with unfavorable seasonals and market structure.",
+      "Pi's team had been overweight stocks from mid-April but has since neutralized their position due to increased risks.",
+      "There is a concern about low correlations and the potential for a macro risk to emerge, causing a spike in correlation and a sell-off.",
+      "Warren discusses the importance of AI and the impact of recent AR numbers for companies like Anthropic and OpenAI on the sector.",
+      "GPU availability and rental rates are being closely monitored as indicators of the health of the AI ecosystem."
+    ],
+    "investment_thesis": "Warren Pi suggests that despite the current macro risks, the AI sector remains a key area for investment, with all roads leading back to AI trades.",
+    "key_tickers": [
+      "HFGM"
+    ]
+  },
+  {
+    "id": 426,
+    "podcast_name": "Latent Space: The AI Engineer Podcast",
+    "episode_title": "\ud83d\udd2c\u201cWe have foundation models for language, not for physics\u201d \u2014 Anima Anandkumar, Bren Professor of Computing",
+    "episode_date": "2026-08-26",
+    "summary": "In this episode of Latent Space, the AI Engineer Podcast, hosts Brandon and RJHONICY interview Anamah Anankumar, a brain professor of mathematics and computer science at Caltech, about her work combining AI with models of the physical world. The discussion revolves around the use of AI in weather modeling, the challenges and potential of AI in science, and the democratization of AI access. Anamah shares her insights on how AI can be used to predict weather patterns with high accuracy and speed, and how this technology could revolutionize climate modeling.",
+    "key_takeaways": [
+      "AI can be effectively used in weather modeling, achieving accuracy comparable to traditional models but at a significantly faster pace.",
+      "The use of neural operators in AI has the potential to transform weather forecasting by capturing complex phenomena.",
+      "AI's ability to predict extreme weather events with a probabilistic approach offers a significant advantage over deterministic models.",
+      "The democratization of AI is crucial for enabling global access to advanced research and applications in various fields, including weather modeling.",
+      "Increasing compute power is essential for advancing AI research and enabling more accurate and faster simulations in climate modeling."
+    ],
+    "investment_thesis": "Investing in AI technology that enhances weather and climate modeling can lead to significant advancements in forecasting accuracy and speed, potentially revolutionizing the field and creating new investment opportunities in AI applications for science.",
+    "key_tickers": [
+      "NVDA"
+    ]
+  },
+  {
     "id": 425,
     "podcast_name": "The a16z Show",
     "episode_title": "The State of AI: Macro, Apps, and Consumer",
@@ -99,38 +136,6 @@
       "The company is hiring across all sections, with a focus on research talent and engineers."
     ],
     "investment_thesis": "Investing in companies that are at the forefront of AI and simulation technology could yield significant returns as these technologies become more integrated into everyday decision-making.",
-    "key_tickers": null
-  },
-  {
-    "id": 419,
-    "podcast_name": "Moonshots with Peter Diamandis",
-    "episode_title": "OpenAI Pauses Frontier Training, Elon's 100X Prediction Lands, Robot Beats Usain Bolt with Emad Mostaque | EP#282",
-    "episode_date": "2026-08-21",
-    "summary": "In this episode of Moonshots with Peter Diamandis, the quintet discusses the implications of AI advancements, the potential for 100x gains in certain sectors as predicted by Elon Musk, and the ethical considerations surrounding humanoid robots. They also touch on the power dynamics in AI companies, the future of energy, and the need for new structures to manage the impact of exponential technologies.",
-    "key_takeaways": [
-      "Open AI's voluntary pause on reinforcement learning training suggests a growing awareness of the ethical considerations in AI development.",
-      "Elon Musk's prediction of 100x gains in certain sectors is becoming a reality, highlighting the potential for significant investment returns in AI and related technologies.",
-      "The discussion on humanoid robots raises concerns about safety and the potential for bans on superhuman robots, indicating a need for regulation in this space.",
-      "AI companies like Open AI and Anthropic have unique ownership structures to attract top talent focused on safety, which could impact investment theses.",
-      "The conversation around energy and data centers suggests a bullish view on the growth of these sectors, with a focus on the need for more power and data processing capabilities."
-    ],
-    "investment_thesis": "Invest in AI and exponential technologies that are driving the accelerating singularity, with a focus on companies that prioritize safety and ethical considerations.",
-    "key_tickers": null
-  },
-  {
-    "id": 418,
-    "podcast_name": "All-In with Chamath, Jason, Sacks & Friedberg",
-    "episode_title": "Dario Defends Himself, Datacenter Panic, AI Doomer Trap, Senate Toss-Up",
-    "episode_date": "2026-08-21",
-    "summary": "The podcast episode features a discussion on AI company Anthropic, its regulatory approach, and the concept of recursive self-improvement. The hosts analyze Dario's response to Gavin Baker's comments and delve into the implications of regulatory capture and the potential for AI to evolve autonomously. They also touch on the philanthropic efforts of Anthropic's co-founders and the broader impact of AI on society and the economy.",
-    "key_takeaways": [
-      "Dario's response to Gavin Baker's comments suggests a defensive stance on the allegations of regulatory capture.",
-      "The hosts argue that Anthropic has been aggressive in seeking to implement its preferred regulatory frameworks.",
-      "The discussion highlights the potential for AI to evolve through recursive self-improvement, leading to a potential singularity.",
-      "Anthropic's co-founders have donated a significant portion of their shares, indicating a focus on philanthropy rather than personal gain.",
-      "The episode debates the role of human intervention in AI development and the potential for AI to become self-evolutionary."
-    ],
-    "investment_thesis": "Investment in AI companies requires considering not only technological advancement but also the regulatory landscape and potential societal impact.",
     "key_tickers": null
   }
 ]

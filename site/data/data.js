@@ -3,80 +3,80 @@
 
 const dashboardData = {
   schemaVersion: 2,
-  generatedAt: "2026-08-26T12:10:01.763106",
-  chartsVersion: "2026-08-26T12:09:51.851617",
+  generatedAt: "2026-08-26T13:44:25.518700",
+  chartsVersion: "2026-08-26T13:44:16.064882",
   priceSnapshot: {
   "GOOGL": {
-    "price": 341.26,
-    "change_pct": -3.68,
+    "price": 341.52,
+    "change_pct": -3.61,
     "name": "GOOGL",
-    "updated_at": "2026-08-26T12:09:51.850401"
+    "updated_at": "2026-08-26T13:44:16.063574"
   },
   "NVDA": {
-    "price": 209.98,
-    "change_pct": -6.24,
+    "price": 210.66,
+    "change_pct": -5.94,
     "name": "NVDA",
-    "updated_at": "2026-08-26T12:09:51.850421"
+    "updated_at": "2026-08-26T13:44:16.063591"
   },
   "MSFT": {
-    "price": 494.22,
-    "change_pct": -0.97,
+    "price": 493.96,
+    "change_pct": -1.02,
     "name": "MSFT",
-    "updated_at": "2026-08-26T12:09:51.850430"
+    "updated_at": "2026-08-26T13:44:16.063598"
   },
   "BTC": {
-    "price": 78113.4,
-    "change_pct": 23.2,
+    "price": 78281.97,
+    "change_pct": 23.47,
     "name": "BTC",
-    "updated_at": "2026-08-26T12:09:51.850438"
+    "updated_at": "2026-08-26T13:44:16.063603"
   },
   "TSLA": {
-    "price": 345.59,
+    "price": 345.61,
     "change_pct": 5.18,
     "name": "TSLA",
-    "updated_at": "2026-08-26T12:09:51.850446"
+    "updated_at": "2026-08-26T13:44:16.063609"
   },
   "AMZN": {
-    "price": 258.9,
-    "change_pct": -5.68,
+    "price": 258.93,
+    "change_pct": -5.67,
     "name": "AMZN",
-    "updated_at": "2026-08-26T12:09:51.850454"
+    "updated_at": "2026-08-26T13:44:16.063615"
   },
   "META": {
-    "price": 575.91,
-    "change_pct": -2.73,
+    "price": 579.27,
+    "change_pct": -2.17,
     "name": "META",
-    "updated_at": "2026-08-26T12:09:51.850463"
+    "updated_at": "2026-08-26T13:44:16.063621"
   },
   "WTI": {
-    "price": 3.6,
-    "change_pct": 5.23,
+    "price": 3.57,
+    "change_pct": 4.35,
     "name": "WTI",
-    "updated_at": "2026-08-26T12:09:51.850470"
+    "updated_at": "2026-08-26T13:44:16.063627"
   },
   "S&P 500": {
-    "price": 765.08,
-    "change_pct": -1.06,
+    "price": 765.79,
+    "change_pct": -0.97,
     "name": "S&P 500",
-    "updated_at": "2026-08-26T12:09:51.850478"
+    "updated_at": "2026-08-26T13:44:16.063633"
   },
   "AAPL": {
-    "price": 312.82,
-    "change_pct": -0.08,
+    "price": 313.44,
+    "change_pct": 0.12,
     "name": "AAPL",
-    "updated_at": "2026-08-26T12:09:51.850491"
+    "updated_at": "2026-08-26T13:44:16.063639"
   },
   "QQQ": {
-    "price": 709.86,
-    "change_pct": -1.82,
+    "price": 711.17,
+    "change_pct": -1.64,
     "name": "Invesco QQQ Trust",
-    "updated_at": "2026-08-26T12:09:51.850499"
+    "updated_at": "2026-08-26T13:44:16.063644"
   },
   "BTC-USD": {
-    "price": 78113.4,
-    "change_pct": 23.2,
+    "price": 78281.97,
+    "change_pct": 23.47,
     "name": "Bitcoin USD",
-    "updated_at": "2026-08-26T12:09:51.850508"
+    "updated_at": "2026-08-26T13:44:16.063651"
   }
 },
   tickerScores: [
@@ -853,6 +853,44 @@ const dashboardData = {
       "podcast_episode_id": 425
     },
     {
+      "id": 441,
+      "title": "Time to Reduce Equity Risk: Why Underappreciated Macro Risks Could Derail the Bull Market | Warren Pies",
+      "source_type": "podcast",
+      "source_name": "Monetary Matters with Jack Farley",
+      "source_date": "2026-08-26",
+      "summary": "In this episode of 'Other People's Money', Max Weathie interviews Warren Pi, co-founder of 314 Research, to discuss the current macro risks overshadowing the market. They analyze the market structure, seasonal patterns, and the impact of AI on the tech sector. Warren shares his insights on earnings, Fed's potential rate hikes, and the implications for investors. The conversation also touches on the importance of GPU availability and rental rates in the AI space.",
+      "key_takeaway": "Warren Pi suggests that despite the current macro risks, the AI sector remains a key area for investment, with all roads leading back to AI trades.",
+      "tickers_mentioned": [
+        "HFGM"
+      ],
+      "sentiment": "bearish",
+      "display_on_main": 1,
+      "display_order": 0,
+      "added_date": "2026-08-26",
+      "archived_date": null,
+      "archived_reason": null,
+      "podcast_episode_id": 427
+    },
+    {
+      "id": 442,
+      "title": "\ud83d\udd2c\u201cWe have foundation models for language, not for physics\u201d \u2014 Anima Anandkumar, Bren Professor of Computing",
+      "source_type": "podcast",
+      "source_name": "Latent Space: The AI Engineer Podcast",
+      "source_date": "2026-08-26",
+      "summary": "In this episode of Latent Space, the AI Engineer Podcast, hosts Brandon and RJHONICY interview Anamah Anankumar, a brain professor of mathematics and computer science at Caltech, about her work combining AI with models of the physical world. The discussion revolves around the use of AI in weather modeling, the challenges and potential of AI in science, and the democratization of AI access. Anamah shares her insights on how AI can be used to predict weather patterns with high accuracy and speed, and how this technology could revolutionize climate modeling.",
+      "key_takeaway": "Investing in AI technology that enhances weather and climate modeling can lead to significant advancements in forecasting accuracy and speed, potentially revolutionizing the field and creating new investment opportunities in AI applications for science.",
+      "tickers_mentioned": [
+        "NVDA"
+      ],
+      "sentiment": "neutral",
+      "display_on_main": 1,
+      "display_order": 0,
+      "added_date": "2026-08-26",
+      "archived_date": null,
+      "archived_reason": null,
+      "podcast_episode_id": 426
+    },
+    {
       "id": 439,
       "title": "Dylan Patel \u2013 Anthropic & OpenAI will have most of the world\u2019s compute by 2028",
       "source_type": "podcast",
@@ -940,7 +978,7 @@ const dashboardData = {
         "AAPL"
       ],
       "sentiment": "neutral",
-      "display_on_main": 1,
+      "display_on_main": 0,
       "display_order": 0,
       "added_date": "2026-08-21",
       "archived_date": null,
@@ -959,7 +997,7 @@ const dashboardData = {
         "AAPL"
       ],
       "sentiment": "neutral",
-      "display_on_main": 1,
+      "display_on_main": 0,
       "display_order": 0,
       "added_date": "2026-08-21",
       "archived_date": null,
@@ -9304,8 +9342,8 @@ const dashboardData = {
       "term": "Simulation",
       "description": "The use of models and computer programs to represent and analyze real or imagined systems or situations.",
       "first_detected_date": "2026-08-21",
-      "last_mentioned_date": "2026-08-24",
-      "mention_count": 2,
+      "last_mentioned_date": "2026-08-26",
+      "mention_count": 3,
       "source_podcasts": null,
       "status": "active",
       "investment_implications": "Simulation technology can provide significant insights for decision-making, making investments in this area potentially valuable.",
@@ -9314,8 +9352,8 @@ const dashboardData = {
       "archived_reason": null,
       "first_detected_episode_id": 420,
       "first_detected_speaker": "June",
-      "last_mentioned_episode_id": 423,
-      "last_mentioned_speaker": "Michael Crathfields"
+      "last_mentioned_episode_id": 426,
+      "last_mentioned_speaker": "Anamah Anankumar"
     },
     {
       "id": 272,
@@ -9842,20 +9880,20 @@ const dashboardData = {
     {
       "id": 138,
       "term": "AI CapEx",
-      "description": "Capital expenditures related to the development and deployment of artificial intelligence technologies.",
+      "description": "Capital expenditures related to artificial intelligence, including investments in AI infrastructure, data centers, and compute resources.",
       "first_detected_date": "2026-06-08",
-      "last_mentioned_date": "2026-08-25",
-      "mention_count": 23,
+      "last_mentioned_date": "2026-08-26",
+      "mention_count": 24,
       "source_podcasts": null,
       "status": "active",
-      "investment_implications": "AI CapEx is a significant driver of growth in the tech sector, indicating the scale of investment in AI infrastructure.",
+      "investment_implications": "AI CapEx is a key indicator of the health and growth potential of the AI sector, influencing investment decisions in tech stocks.",
       "display_on_main": 0,
       "archived_date": null,
       "archived_reason": null,
       "first_detected_episode_id": 271,
       "first_detected_speaker": null,
-      "last_mentioned_episode_id": 424,
-      "last_mentioned_speaker": "Dylan Patel"
+      "last_mentioned_episode_id": 427,
+      "last_mentioned_speaker": "Warren Pi"
     },
     {
       "id": 234,
@@ -10168,8 +10206,8 @@ const dashboardData = {
       "term": "Singularity",
       "description": "A hypothetical point in the future at which technological growth becomes uncontrollable and irreversible, leading to unforeseeable changes in human civilization.",
       "first_detected_date": "2026-05-15",
-      "last_mentioned_date": "2026-08-25",
-      "mention_count": 54,
+      "last_mentioned_date": "2026-08-26",
+      "mention_count": 55,
       "source_podcasts": null,
       "status": "active",
       "investment_implications": "Investors should consider the potential for rapid technological change and its impact on various sectors, including AI, when making long-term investment decisions.",
@@ -10178,8 +10216,8 @@ const dashboardData = {
       "archived_reason": null,
       "first_detected_episode_id": 221,
       "first_detected_speaker": null,
-      "last_mentioned_episode_id": 424,
-      "last_mentioned_speaker": "Dylan Patel"
+      "last_mentioned_episode_id": 426,
+      "last_mentioned_speaker": "Anamah Anankumar"
     },
     {
       "id": 97,
@@ -11688,6 +11726,50 @@ const dashboardData = {
       "key_tickers": []
     },
     {
+      "id": 441,
+      "title": "Time to Reduce Equity Risk: Why Underappreciated Macro Risks Could Derail the Bull Market | Warren Pies",
+      "source_type": "podcast",
+      "source_name": "Monetary Matters with Jack Farley",
+      "source_date": "2026-08-26",
+      "summary": "In this episode of 'Other People's Money', Max Weathie interviews Warren Pi, co-founder of 314 Research, to discuss the current macro risks overshadowing the market. They analyze the market structure, seasonal patterns, and the impact of AI on the tech sector. Warren shares his insights on earnings, Fed's potential rate hikes, and the implications for investors. The conversation also touches on the importance of GPU availability and rental rates in the AI space.",
+      "key_takeaway": "Warren Pi suggests that despite the current macro risks, the AI sector remains a key area for investment, with all roads leading back to AI trades.",
+      "tickers_mentioned": "[\"HFGM\"]",
+      "sentiment": "bearish",
+      "display_on_main": 1,
+      "display_order": 0,
+      "added_date": "2026-08-26",
+      "archived_date": null,
+      "archived_reason": null,
+      "podcast_episode_id": 427,
+      "episode_release_date": "2026-08-26",
+      "guest_name": "Time to Reduce Equity Risk",
+      "key_tickers": [
+        "HFGM"
+      ]
+    },
+    {
+      "id": 442,
+      "title": "\ud83d\udd2c\u201cWe have foundation models for language, not for physics\u201d \u2014 Anima Anandkumar, Bren Professor of Computing",
+      "source_type": "podcast",
+      "source_name": "Latent Space: The AI Engineer Podcast",
+      "source_date": "2026-08-26",
+      "summary": "In this episode of Latent Space, the AI Engineer Podcast, hosts Brandon and RJHONICY interview Anamah Anankumar, a brain professor of mathematics and computer science at Caltech, about her work combining AI with models of the physical world. The discussion revolves around the use of AI in weather modeling, the challenges and potential of AI in science, and the democratization of AI access. Anamah shares her insights on how AI can be used to predict weather patterns with high accuracy and speed, and how this technology could revolutionize climate modeling.",
+      "key_takeaway": "Investing in AI technology that enhances weather and climate modeling can lead to significant advancements in forecasting accuracy and speed, potentially revolutionizing the field and creating new investment opportunities in AI applications for science.",
+      "tickers_mentioned": "[\"NVDA\"]",
+      "sentiment": "neutral",
+      "display_on_main": 1,
+      "display_order": 0,
+      "added_date": "2026-08-26",
+      "archived_date": null,
+      "archived_reason": null,
+      "podcast_episode_id": 426,
+      "episode_release_date": "2026-08-26",
+      "guest_name": null,
+      "key_tickers": [
+        "NVDA"
+      ]
+    },
+    {
       "id": 439,
       "title": "Dylan Patel \u2013 Anthropic & OpenAI will have most of the world\u2019s compute by 2028",
       "source_type": "podcast",
@@ -11767,46 +11849,6 @@ const dashboardData = {
       "podcast_episode_id": 423,
       "episode_release_date": "2026-08-24",
       "guest_name": "Michael Kratsios",
-      "key_tickers": []
-    },
-    {
-      "id": 433,
-      "title": "Dario Defends Himself, Datacenter Panic, AI Doomer Trap, Senate Toss-Up",
-      "source_type": "podcast",
-      "source_name": "All-In with Chamath, Jason, Sacks & Friedberg",
-      "source_date": "2026-08-21",
-      "summary": "The podcast episode features a discussion on AI company Anthropic, its regulatory approach, and the concept of recursive self-improvement. The hosts analyze Dario's response to Gavin Baker's comments and delve into the implications of regulatory capture and the potential for AI to evolve autonomously. They also touch on the philanthropic efforts of Anthropic's co-founders and the broader impact of AI on society and the economy.",
-      "key_takeaway": "Investment in AI companies requires considering not only technological advancement but also the regulatory landscape and potential societal impact.",
-      "tickers_mentioned": "[\"AAPL\"]",
-      "sentiment": "neutral",
-      "display_on_main": 1,
-      "display_order": 0,
-      "added_date": "2026-08-21",
-      "archived_date": null,
-      "archived_reason": null,
-      "podcast_episode_id": 418,
-      "episode_release_date": "2026-08-21",
-      "guest_name": null,
-      "key_tickers": []
-    },
-    {
-      "id": 434,
-      "title": "OpenAI Pauses Frontier Training, Elon's 100X Prediction Lands, Robot Beats Usain Bolt with Emad Mostaque | EP#282",
-      "source_type": "podcast",
-      "source_name": "Moonshots with Peter Diamandis",
-      "source_date": "2026-08-21",
-      "summary": "In this episode of Moonshots with Peter Diamandis, the quintet discusses the implications of AI advancements, the potential for 100x gains in certain sectors as predicted by Elon Musk, and the ethical considerations surrounding humanoid robots. They also touch on the power dynamics in AI companies, the future of energy, and the need for new structures to manage the impact of exponential technologies.",
-      "key_takeaway": "Invest in AI and exponential technologies that are driving the accelerating singularity, with a focus on companies that prioritize safety and ethical considerations.",
-      "tickers_mentioned": "[\"AAPL\"]",
-      "sentiment": "neutral",
-      "display_on_main": 1,
-      "display_order": 0,
-      "added_date": "2026-08-21",
-      "archived_date": null,
-      "archived_reason": null,
-      "podcast_episode_id": 419,
-      "episode_release_date": "2026-08-21",
-      "guest_name": "Emad Mostaque",
       "key_tickers": []
     },
     {
@@ -38373,9 +38415,126 @@ const dashboardData = {
     "source_name": "The a16z Show",
     "source_date": "2026-08-26",
     "key_tickers": []
+  },
+  "441": {
+    "id": 430,
+    "insight_id": 441,
+    "podcast_episode_id": 427,
+    "overview": "Warren Pi points out that the market's reaction to recent data has been overly dovish, which could be a misinterpretation. He argues that the Federal Reserve's tolerance for looking through one-off inflation spikes is wearing thin, influenced by political pressure and the potential for a policy mistake. Pi's analysis suggests that the market may be underestimating the likelihood of a September rate hike, with odds currently around 40%, a significant shift from the 75% odds in July. This underappreciation of macro risks, particularly around the Fed's actions, could have significant implications for market positioning and investor expectations.",
+    "key_takeaways_detailed": [],
+    "investment_thesis": "If Warren Pi's thesis holds\u2014that the market is underestimating macro risks and the likelihood of a Fed rate hike in September\u2014then investors should consider reducing equity exposure, particularly in the window from August 15th to October 15th. This period is marked by unfavorable seasonal patterns and market structure, suggesting a time to take down risk. Investors should monitor Fed communications and economic data releases closely for signs that could either confirm or disprove the thesis. A this thesis would be a higher-than-expected rate hike or a significant shift in Fed rhetoric towards a more hawkish stance, while a disproval would be a Fed hold or a dovish pivot.",
+    "ticker_analysis": {
+      "NVDA": {
+        "rationale": "Nvidia (NVDA) is highlighted as it is set to report earnings in the coming week, and given its significant role in the tech sector, particularly in relation to AI and GPU availability, it serves as a bellwether for the market's sentiment towards tech and AI. Any deviation in NVDA's performance relative to expectations could indicate a shift in market sentiment and validate or challenge Pi's broader macro thesis.",
+        "positioning": "",
+        "risk": ""
+      }
+    },
+    "positioning_guidance": "",
+    "risk_factors": [],
+    "contrarian_signals": [],
+    "catalysts": [],
+    "related_insights": null,
+    "audio_timestamp_start": null,
+    "audio_timestamp_end": null,
+    "transcript_excerpt": null,
+    "created_at": "2026-08-26T13:42:55.629424",
+    "updated_at": "2026-08-26 18:42:55",
+    "episode_evidence": "\u201cEverybody's been. You watch CNBC or Bloomberg. I mean, you get a parade of strategies to tell you how great earnings are. And I think that's the rear view.\u201d\n- Warren Pi\n\n\u201cRemember, again, back in July, odds of a September hike were like 75%. So like this is, these are the things you want to fade.\u201d\n- Warren Pi",
+    "falsification_tracks": [
+      "A clear communication from the Federal Reserve indicating a stance and a delay in rate hikes beyond September.",
+      "Economic data showing a significant and sustained decrease in inflation, reducing the for the Fed to act.",
+      "A significant market event or geopolitical development that shifts the focus away from macro risks, leading to a rise in stock correlations and a decrease in single stock volatility.",
+      "The outcome of the midterm elections that does not align with the of a 'blue wave', altering the political landscape and potentially easing political pressure on the Fed."
+    ],
+    "schema_version": 2,
+    "insight_title": "Time to Reduce Equity Risk: Why Underappreciated Macro Risks Could Derail the Bull Market | Warren Pies",
+    "source_name": "Monetary Matters with Jack Farley",
+    "source_date": "2026-08-26",
+    "key_tickers": [
+      "HFGM"
+    ]
+  },
+  "442": {
+    "id": 431,
+    "insight_id": 442,
+    "podcast_episode_id": 426,
+    "overview": "Anamah Anandkumar's work on AI in science is distinguished by its focus on creating AI models that can be formally verified for robustness and stability, particularly in control systems such as nuclear reactors. Her team's development of Torch Lean, a framework that allows neural networks to be written in Lean, a formal language, enables the formal verification of mathematical statements and neural network claims. This is a significant advancement as it provides a method to ensure that AI systems, especially those integrated into critical control loops, meet stringent safety and accuracy requirements. The scalability of Lean, however, remains a challenge, as it is currently CPU-based and has not been fully optimized for GPU usage, which is crucial for handling large-scale AI models.",
+    "key_takeaways_detailed": [],
+    "investment_thesis": "If the integration of AI into physical sciences and control systems is indeed a transformative development, as suggested by Anandkumar's work, investors should consider allocating resources to companies at the forefront of this technology. The focus should be on firms that are developing or implementing AI solutions for scientific modeling and control systems, with an emphasis on those that prioritize formal verification for safety and accuracy. The investment thesis would be supported by evidence of successful scalability of Torch Lean or similar frameworks to GPU usage and by the adoption of these technologies in critical industries. Conversely, any significant setbacks in these areas would challenge the investment thesis.",
+    "ticker_analysis": {
+      "NVDA": {
+        "rationale": "NVIDIA is a key player in the development of AI technologies and has been involved in research led by Anandkumar, making it a clean expression of the investment idea as it stands to benefit from advancements in AI for scientific applications.",
+        "positioning": "",
+        "risk": ""
+      }
+    },
+    "positioning_guidance": "",
+    "risk_factors": [],
+    "contrarian_signals": [],
+    "catalysts": [
+      "Publication of peer-reviewed studies validating the effectiveness of Torch Lean in formal verification of AI models.",
+      "Announcements from regulatory bodies regarding the approval or rejection of AI systems in critical control applications."
+    ],
+    "related_insights": null,
+    "audio_timestamp_start": null,
+    "audio_timestamp_end": null,
+    "transcript_excerpt": null,
+    "created_at": "2026-08-26T13:43:05.847430",
+    "updated_at": "2026-08-26 18:43:05",
+    "episode_evidence": "- So, you know, there are several aspects to that. One is people have been taking how to use language models for science.\n- And so, this aspect is where a lot of my recent focus has been, on how do we ensure that we can build AI that has guarantees that it will work in the physical world or any aspects in scientific domains.",
+    "falsification_tracks": [
+      "Failure of Torch Lean to scale effectively to GPU usage, which would hinder its practical application in large-scale AI systems.",
+      "Reports of significant failures in AI-assisted control systems, indicating that the formal verification methods are insufficient to ensure robustness and stability.",
+      "Publications or studies that demonstrate AI models in physical sciences are consistently outperformed by traditional models without the need for formal verification.",
+      "Regulatory bodies imposing restrictions on the use of AI in critical control systems due to concerns over unproven reliability and safety."
+    ],
+    "schema_version": 2,
+    "insight_title": "\ud83d\udd2c\u201cWe have foundation models for language, not for physics\u201d \u2014 Anima Anandkumar, Bren Professor of Computing",
+    "source_name": "Latent Space: The AI Engineer Podcast",
+    "source_date": "2026-08-26",
+    "key_tickers": [
+      "NVDA"
+    ]
   }
 },
   suggestedTerms: [
+  {
+    "id": 610,
+    "term": "Macro Takeover",
+    "definition": "A situation where macroeconomic risks begin to dominate market movements, overshadowing other factors.",
+    "investment_implications": "Investors should be cautious during periods of macro takeover due to increased volatility and potential for sharp market corrections.",
+    "source_type": "auto_extracted",
+    "mention_count": 1,
+    "source_diversity": 1,
+    "relevance_score": 50,
+    "submitted_date": "2026-08-26 18:42:05",
+    "priority_score": 80
+  },
+  {
+    "id": 611,
+    "term": "GPU Availability",
+    "definition": "The accessibility and supply of Graphics Processing Units, critical components for AI and machine learning operations.",
+    "investment_implications": "Changes in GPU availability can signal shifts in the demand for AI services and the overall health of the AI industry.",
+    "source_type": "auto_extracted",
+    "mention_count": 1,
+    "source_diversity": 1,
+    "relevance_score": 50,
+    "submitted_date": "2026-08-26 18:42:05",
+    "priority_score": 80
+  },
+  {
+    "id": 609,
+    "term": "Neural Operators",
+    "definition": "A type of AI model used to capture and predict complex physical phenomena, such as weather patterns.",
+    "investment_implications": "Investing in companies developing neural operator technology could provide exposure to advancements in AI-driven scientific modeling.",
+    "source_type": "auto_extracted",
+    "mention_count": 1,
+    "source_diversity": 1,
+    "relevance_score": 50,
+    "submitted_date": "2026-08-26 18:41:12",
+    "priority_score": 80
+  },
   {
     "id": 607,
     "term": "AI-native distribution channel",
@@ -38387,47 +38546,23 @@ const dashboardData = {
     "relevance_score": 50,
     "submitted_date": "2026-08-26 11:50:07",
     "priority_score": 80
-  },
-  {
-    "id": 608,
-    "term": "Digitally native entrepreneur",
-    "definition": "An entrepreneur who builds businesses on the internet, leveraging digital tools and platforms.",
-    "investment_implications": "Investors should consider the potential of digitally native entrepreneurs in the AI space.",
-    "source_type": "auto_extracted",
-    "mention_count": 1,
-    "source_diversity": 1,
-    "relevance_score": 50,
-    "submitted_date": "2026-08-26 11:50:07",
-    "priority_score": 80
-  },
-  {
-    "id": 605,
-    "term": "AI coming for the junior analyst job",
-    "definition": "The concern that artificial intelligence will replace or significantly alter the roles of junior analysts in the finance industry.",
-    "investment_implications": "This could lead to a shift in the demand for human capital and potentially disrupt traditional career paths within finance.",
-    "source_type": "auto_extracted",
-    "mention_count": 1,
-    "source_diversity": 1,
-    "relevance_score": 50,
-    "submitted_date": "2026-08-24 18:52:50",
-    "priority_score": 80
-  },
-  {
-    "id": 606,
-    "term": "Year of the investment banker",
-    "definition": "A period characterized by increased activity and stability in investment banking, contrasting with challenges faced by other areas of finance.",
-    "investment_implications": "This suggests a potential opportunity for investors to focus on banking stocks or related financial instruments during such periods.",
-    "source_type": "auto_extracted",
-    "mention_count": 1,
-    "source_diversity": 1,
-    "relevance_score": 50,
-    "submitted_date": "2026-08-24 18:52:50",
-    "priority_score": 80
   }
 ],
   podcastGuests: [
   {
-    "id": 58301,
+    "id": 58382,
+    "name": "Time to Reduce Equity Risk",
+    "slug": "time-to-reduce-equity-risk",
+    "bio": null,
+    "known_for": null,
+    "last_main_idea": "Warren Pi suggests that despite the current macro risks, the AI sector remains a key area for investment, with all roads leading back to AI trades.",
+    "last_episode_title": "Time to Reduce Equity Risk: Why Underappreciated Macro Risks Could Derail the Bull Market | Warren Pies",
+    "last_podcast_name": "Monetary Matters with Jack Farley",
+    "last_episode_date": "2026-08-26",
+    "appearance_count": 1
+  },
+  {
+    "id": 58383,
     "name": "Michael Kratsios",
     "slug": "michael-kratsios",
     "bio": null,
@@ -38439,7 +38574,7 @@ const dashboardData = {
     "appearance_count": 1
   },
   {
-    "id": 58302,
+    "id": 58384,
     "name": "Emad Mostaque",
     "slug": "emad-mostaque",
     "bio": null,
@@ -38451,7 +38586,7 @@ const dashboardData = {
     "appearance_count": 3
   },
   {
-    "id": 58303,
+    "id": 58385,
     "name": "Angela Strange and Gabriel Vasquez",
     "slug": "angela-strange-and-gabriel-vasquez",
     "bio": null,
@@ -38463,7 +38598,7 @@ const dashboardData = {
     "appearance_count": 1
   },
   {
-    "id": 58304,
+    "id": 58386,
     "name": "Why Bessent Blinked",
     "slug": "why-bessent-blinked",
     "bio": null,
@@ -38475,7 +38610,7 @@ const dashboardData = {
     "appearance_count": 1
   },
   {
-    "id": 58305,
+    "id": 58387,
     "name": "Travis Kalanick",
     "slug": "travis-kalanick",
     "bio": null,
@@ -38487,7 +38622,7 @@ const dashboardData = {
     "appearance_count": 1
   },
   {
-    "id": 58306,
+    "id": 58388,
     "name": "Rahm Emanuel",
     "slug": "rahm-emanuel",
     "bio": null,
@@ -38499,7 +38634,7 @@ const dashboardData = {
     "appearance_count": 1
   },
   {
-    "id": 58307,
+    "id": 58389,
     "name": "Milton Berg",
     "slug": "milton-berg",
     "bio": "Milton Berg is a veteran technical analyst and CEO of Milton Berg Advisors, specializing in market turning-point analysis for institutional investors.",
@@ -38511,7 +38646,7 @@ const dashboardData = {
     "appearance_count": 1
   },
   {
-    "id": 58308,
+    "id": 58390,
     "name": "How Open",
     "slug": "how-open",
     "bio": null,
@@ -38523,7 +38658,7 @@ const dashboardData = {
     "appearance_count": 1
   },
   {
-    "id": 58309,
+    "id": 58391,
     "name": "Saronic Founders",
     "slug": "saronic-founders",
     "bio": null,
@@ -38535,7 +38670,7 @@ const dashboardData = {
     "appearance_count": 1
   },
   {
-    "id": 58310,
+    "id": 58392,
     "name": "OpenAI's Joshua Achiam",
     "slug": "openais-joshua-achiam",
     "bio": null,
@@ -38547,7 +38682,7 @@ const dashboardData = {
     "appearance_count": 1
   },
   {
-    "id": 58311,
+    "id": 58393,
     "name": "Marc Andreessen and Chris Dixon",
     "slug": "marc-andreessen-and-chris-dixon",
     "bio": null,
@@ -38559,7 +38694,7 @@ const dashboardData = {
     "appearance_count": 1
   },
   {
-    "id": 58312,
+    "id": 58394,
     "name": "AI for America's Small Businesses",
     "slug": "ai-for-americas-small-businesses",
     "bio": null,
@@ -38571,7 +38706,7 @@ const dashboardData = {
     "appearance_count": 1
   },
   {
-    "id": 58313,
+    "id": 58395,
     "name": "Luke Gromen",
     "slug": "luke-gromen",
     "bio": null,
@@ -38583,7 +38718,7 @@ const dashboardData = {
     "appearance_count": 1
   },
   {
-    "id": 58314,
+    "id": 58396,
     "name": "Travis Kelenick",
     "slug": "travis-kelenick",
     "bio": null,
@@ -38595,7 +38730,7 @@ const dashboardData = {
     "appearance_count": 1
   },
   {
-    "id": 58315,
+    "id": 58397,
     "name": "Travis Kalanick Is Back",
     "slug": "travis-kalanick-is-back",
     "bio": null,
@@ -38607,7 +38742,7 @@ const dashboardData = {
     "appearance_count": 1
   },
   {
-    "id": 58316,
+    "id": 58398,
     "name": "Interest Rates to 10%",
     "slug": "interest-rates-to-10",
     "bio": null,
@@ -38619,7 +38754,7 @@ const dashboardData = {
     "appearance_count": 1
   },
   {
-    "id": 58317,
+    "id": 58399,
     "name": "Nick Nemeth",
     "slug": "nick-nemeth",
     "bio": null,
@@ -38631,7 +38766,7 @@ const dashboardData = {
     "appearance_count": 1
   },
   {
-    "id": 58318,
+    "id": 58400,
     "name": "Urgent Update- AI Sputnik Moment",
     "slug": "urgent-update--ai-sputnik-moment",
     "bio": null,
@@ -38643,7 +38778,7 @@ const dashboardData = {
     "appearance_count": 1
   },
   {
-    "id": 58319,
+    "id": 58401,
     "name": "David Sachs",
     "slug": "david-sachs",
     "bio": null,
@@ -38653,21 +38788,134 @@ const dashboardData = {
     "last_podcast_name": "The a16z Show",
     "last_episode_date": "2026-07-16",
     "appearance_count": 1
-  },
-  {
-    "id": 58320,
-    "name": "Turbo Charged Trend Following",
-    "slug": "turbo-charged-trend-following",
-    "bio": null,
-    "known_for": null,
-    "last_main_idea": "Takahay Capital's investment thesis revolves around trend following and quantitative diversification, aiming to capitalize on major market trends while maintaining a diverse portfolio to mitigate risk.",
-    "last_episode_title": "Turbo Charged Trend Following: Why Capturing the Market\u2019s Biggest Trends Means Embracing High Volatility | Moritz Seibert & Moritz Heiden | Takahe Capital",
-    "last_podcast_name": "Monetary Matters with Jack Farley",
-    "last_episode_date": "2026-07-16",
-    "appearance_count": 1
   }
 ],
   pundits: [
+  {
+    "id": 421,
+    "name": "Warren Pi",
+    "slug": "warren-pi",
+    "bio": "Warren Pi is the co-founder of 314 Research, a firm specializing in macro risk analysis and market structure insights. He is known for his detailed reports and podcasts discussing market trends and macroeconomic risks, providing valuable insights to investors.",
+    "known_for": "His expertise in macro risk analysis and market structure insights.",
+    "net_worth_usd": 142300000000.0,
+    "net_worth_source": "https://www.investopedia.com/articles/01/071801.asp",
+    "net_worth_updated_at": "2026-08-26T13:42:26.848557",
+    "voice_tone": "Analytical and cautious",
+    "voice_style": "Methodical in presenting market analysis",
+    "voice_delivery_notes": "Paced with emphasis on key market data points",
+    "voice_profile_updated_at": "2026-08-26 18:42:05",
+    "last_seen": "2026-08-26 18:42:05",
+    "last_episode_title": "Time to Reduce Equity Risk: Why Underappreciated Macro Risks Could Derail the Bull Market | Warren Pies",
+    "last_podcast_name": "Monetary Matters with Jack Farley",
+    "last_episode_date": "2026-08-26",
+    "mention_score": 1,
+    "mention_score_decayed": 1,
+    "last_main_idea": "Warren Pi suggests that despite the current macro risks, the AI sector remains a key area for investment, with all roads leading back to AI trades.",
+    "last_proof_cite": "Monetary Matters with Jack Farley \u2022 2026-08-26 \u2022 Time to Reduce Equity Risk: Why Underappreciated Macro Risks Could Derail the Bull Market | Warren Pies",
+    "last_proof_snippet": "If I knew with certainly the Fed was going to hike in September, I'd be underweight stocks right now. It's not that I would say I'm straight up bearish here. I just think the risks are too excited. We highlighted the window from August 15th",
+    "supporting_takeaway": "He highlighted the period from August 15th to October 15th as a time with unfavorable seasonals and market structure.",
+    "grokipedia_url": null,
+    "grokipedia_fetched_at": "2026-08-26T13:42:25.681021",
+    "pundit_profile": {
+      "source": "llm",
+      "source_model": "moonshot:moonshot-v1-8k",
+      "source_url": "",
+      "page_title": "Warren Pi",
+      "fetched_at": "2026-08-26T18:42:25.680726+00:00",
+      "cliff_notes": "Warren Pi is a prominent figure in the financial industry, recognized for his deep understanding of macroeconomic risks and market structures. As the co-founder of 314 Research, he has been instrumental in providing insightful analysis to clients and investors. His work often focuses on the interplay between macroeconomic factors and market dynamics, offering a unique perspective on investment strategies. Pi's contributions to the field have made him a sought-after commentator on financial podcasts and a respected voice in the industry.",
+      "derived": {
+        "current_role": "Co-founder of 314 Research"
+      },
+      "infobox": {
+        "Born": "",
+        "Nationality": ""
+      },
+      "lead_paragraphs": [
+        "Warren Pi is a prominent figure in the financial industry, recognized for his deep understanding of macroeconomic risks and market structures. As the co-founder of 314 Research, he has been instrumental in providing insightful analysis to clients and investors. His work often focuses on the interplay between macroeconomic factors and market dynamics, offering a unique perspective on investment strategies.",
+        "Pi's contributions to the field have made him a sought-after commentator on financial podcasts and a respected voice in the industry."
+      ],
+      "sections": [
+        {
+          "heading": "Macro Risk Analysis",
+          "body": "Warren Pi is known for his in-depth analysis of macroeconomic risks, which he believes can significantly impact market trends and investment decisions."
+        },
+        {
+          "heading": "Market Structure Insights",
+          "body": "Pi's work often delves into the structure of financial markets, examining how different factors influence market behavior and the potential implications for investors."
+        },
+        {
+          "heading": "Seasonal and Structural Risks",
+          "body": "In his recent appearances, Pi has highlighted the importance of considering seasonal and structural risks within the market, advising investors to adjust their strategies accordingly."
+        },
+        {
+          "heading": "Podcast Contributions",
+          "body": "Warren Pi regularly contributes to financial podcasts, sharing his insights on market conditions and macroeconomic developments, making complex financial topics accessible to a broader audience."
+        }
+      ]
+    },
+    "net_worth": "$142.30B"
+  },
+  {
+    "id": 420,
+    "name": "Anamah Anankumar",
+    "slug": "anamah-anankumar",
+    "bio": "Anamah Anankumar is a Brain professor of mathematics and computer science at Caltech, known for her work in combining AI with models of the physical world, including weather and climate modeling.",
+    "known_for": "Her innovative use of AI in weather modeling, which has shown to be nearly as accurate as traditional models but tens of thousands of times faster.",
+    "net_worth_usd": null,
+    "net_worth_source": "",
+    "net_worth_updated_at": null,
+    "voice_tone": "Confident and knowledgeable",
+    "voice_style": "Factual and explanatory, with a focus on the practical applications of AI in science",
+    "voice_delivery_notes": "Clear and concise, with an emphasis on the transformative potential of AI in scientific research",
+    "voice_profile_updated_at": "2026-08-26 18:41:12",
+    "last_seen": "2026-08-26 18:41:12",
+    "last_episode_title": "\ud83d\udd2c\u201cWe have foundation models for language, not for physics\u201d \u2014 Anima Anandkumar, Bren Professor of Computing",
+    "last_podcast_name": "Latent Space: The AI Engineer Podcast",
+    "last_episode_date": "2026-08-26",
+    "mention_score": 1,
+    "mention_score_decayed": 1,
+    "last_main_idea": "Investing in AI technology that enhances weather and climate modeling can lead to significant advancements in forecasting accuracy and speed, potentially revolutionizing the field and creating new investment opportunities in AI applications for science.",
+    "last_proof_cite": "Latent Space: The AI Engineer Podcast \u2022 2026-08-26 \u2022 \ud83d\udd2c\u201cWe have foundation models for language, not for physics\u201d \u2014 Anima Anandkumar, Bren Professor of Computing",
+    "last_proof_snippet": "So we, you know, set out looking for interesting examples and one of them was like weather modeling because the weather data is open source and so given that the data was there we were like, okay, let's just go try it. Right. And that's the",
+    "supporting_takeaway": "The use of neural operators in AI has the potential to transform weather forecasting by capturing complex phenomena.",
+    "grokipedia_url": null,
+    "grokipedia_fetched_at": "2026-08-26T13:42:35.204191",
+    "pundit_profile": {
+      "source": "llm",
+      "source_model": "moonshot:moonshot-v1-8k",
+      "source_url": "",
+      "page_title": "Anamah Anankumar",
+      "fetched_at": "2026-08-26T18:42:35.203947+00:00",
+      "cliff_notes": "Anamah Anankumar is a distinguished professor at Caltech, focusing on the intersection of artificial intelligence and physical systems, particularly in the realms of weather and climate modeling. Her work has challenged traditional methods by demonstrating that AI can achieve near-parity with decades-old forecasting techniques but at a significantly reduced computational cost. This breakthrough has the potential to revolutionize how we understand and predict weather patterns, offering faster and more efficient solutions. Her contributions are significant in the fields of AI and environmental science, making her a key figure in the ongoing development of technology that can better predict and understand our world.",
+      "derived": {
+        "current_role": "Brain Professor of Mathematics and Computer Science at Caltech",
+        "education": "Degrees and institutions not specified",
+        "teaching_summary": "Professor of Mathematics and Computer Science at Caltech"
+      },
+      "infobox": {
+        "Born": "",
+        "Nationality": ""
+      },
+      "lead_paragraphs": [
+        "Anamah Anankumar is a distinguished professor at Caltech, focusing on the intersection of artificial intelligence and physical systems, particularly in the realms of weather and climate modeling. Her work has challenged traditional methods by demonstrating that AI can achieve near-parity with decades-old forecasting techniques but at a significantly reduced computational cost.",
+        "This breakthrough has the potential to revolutionize how we understand and predict weather patterns, offering faster and more efficient solutions. Her contributions are significant in the fields of AI and environmental science, making her a key figure in the ongoing development of technology that can better predict and understand our world."
+      ],
+      "sections": [
+        {
+          "heading": "AI in Weather Modeling",
+          "body": "Anamah Anankumar has been instrumental in demonstrating the effectiveness of AI in weather modeling, showing that it can be as accurate as traditional methods but at a fraction of the computational cost."
+        },
+        {
+          "heading": "Neural Operators",
+          "body": "Her research involves the use of neural operators to capture complex phenomena in weather systems, leading to faster and more efficient modeling techniques."
+        },
+        {
+          "heading": "Data Availability",
+          "body": "Anankumar emphasizes the importance of open-source data in facilitating advancements in AI and weather modeling, highlighting how accessible data can drive innovation."
+        }
+      ]
+    }
+  },
   {
     "id": 418,
     "name": "An Eshicharya",
@@ -39322,7 +39570,7 @@ const dashboardData = {
     "last_podcast_name": "Monetary Matters with Jack Farley",
     "last_episode_date": "2026-08-18",
     "mention_score": 1,
-    "mention_score_decayed": 0.85,
+    "mention_score_decayed": 0.83,
     "last_main_idea": "AUA Private Equity Partners focuses on operational improvements in family-run businesses within the food, beverage, pet wellness, and co-manufacturing sectors, targeting a $1.3 to $1.4 trillion market opportunity.",
     "last_proof_cite": "Monetary Matters with Jack Farley \u2022 2026-08-18 \u2022 Ex-Goya COO on the $1.4 Trillion Family Business Opportunity in Three Consumer Sectors | Andy Unanue",
     "last_proof_snippet": "Our economy is driven by family run businesses, 70 plus percent of the GDP is generated through family run businesses. Then the food beverage pack wellness sector, it's a 1.3, 1.4 trillion dollar market opportunity. So it's a big market. I'",
@@ -39865,7 +40113,7 @@ const dashboardData = {
     "last_podcast_name": "The a16z Show",
     "last_episode_date": "2026-08-14",
     "mention_score": 4,
-    "mention_score_decayed": 3.1,
+    "mention_score_decayed": 3.03,
     "last_main_idea": "Invest in industries that are ripe for automation and AI integration, as industrial AI could revolutionize multiple trillion-dollar industries.",
     "last_proof_cite": "The a16z Show \u2022 2026-08-14 \u2022 Ben Horowitz and Travis Kalanick on Building Again",
     "last_proof_snippet": "Hey Travis is back, but I've actually been working for eight years, I just haven't been talking about it. We're competing for the next industrial revolution. People said, are you pissed off about Uber? Does that grind you when you fall in l",
@@ -41412,7 +41660,7 @@ const dashboardData = {
     "last_podcast_name": "Monetary Matters with Jack Farley",
     "last_episode_date": "2026-08-04",
     "mention_score": 1,
-    "mention_score_decayed": 0.62,
+    "mention_score_decayed": 0.6,
     "last_main_idea": "The S&P 500's performance over the next two years will be largely determined by the behavior of extrapolators and corporate equity activity, rather than fundamental earnings growth.",
     "last_proof_cite": "Monetary Matters with Jack Farley \u2022 2026-08-04 \u2022 Victor Haghani on Death of Random Walk, and Passive, Buybacks, and LTCM",
     "last_proof_snippet": "So I feel like we can talk about LTCM. We can talk about, I mean, let's not do that. That's so boring. I mean, everybody's sick of LTCM. Yeah. What do you think the real lessons are? You know, I think the biggest lessons are about personal",
@@ -41604,7 +41852,7 @@ const dashboardData = {
     "last_podcast_name": "The a16z Show",
     "last_episode_date": "2026-08-01",
     "mention_score": 3,
-    "mention_score_decayed": 1.72,
+    "mention_score_decayed": 1.68,
     "last_main_idea": "Regulatory clarity through acts like the Clarity Act is essential for the next phase of blockchain adoption and could unlock significant investment opportunities in stablecoins and tokenized assets.",
     "last_proof_cite": "The a16z Show \u2022 2026-08-01 \u2022 Marc Andreessen and Chris Dixon: What\u2019s at Stake in Crypto Regulation",
     "last_proof_snippet": "Stable coins are tokenized stocks or dollars on blockchain. Rivals the size of the Visa network. Trillings the dollar is transacted. If you have a dollar of that stable coin, there is a dollar sitting in the bank. And that's why the Clarity",
@@ -41665,7 +41913,7 @@ const dashboardData = {
     "last_podcast_name": "The a16z Show",
     "last_episode_date": "2026-08-01",
     "mention_score": 1,
-    "mention_score_decayed": 0.57,
+    "mention_score_decayed": 0.56,
     "last_main_idea": "Regulatory clarity through acts like the Clarity Act is essential for the next phase of blockchain adoption and could unlock significant investment opportunities in stablecoins and tokenized assets.",
     "last_proof_cite": "The a16z Show \u2022 2026-08-01 \u2022 Marc Andreessen and Chris Dixon: What\u2019s at Stake in Crypto Regulation",
     "last_proof_snippet": "Stable coins are tokenized stocks or dollars on blockchain. Rivals the size of the Visa network. Trillings the dollar is transacted. If you have a dollar of that stable coin, there is a dollar sitting in the bank. And that's why the Clarity",
@@ -41725,7 +41973,7 @@ const dashboardData = {
     "last_podcast_name": "The a16z Show",
     "last_episode_date": "2026-07-31",
     "mention_score": 1,
-    "mention_score_decayed": 0.56,
+    "mention_score_decayed": 0.55,
     "last_main_idea": "Investing in AI-driven enterprise software that leverages open source models can lead to better control, performance, and scalability, creating a competitive advantage in the market.",
     "last_proof_cite": "The a16z Show \u2022 2026-07-31 \u2022 How Enterprise AI Really Gets Deployed",
     "last_proof_snippet": "And AI agents should just be the funder of your business and every interaction, whether it's like reactive or proactive with a customer, should be handled by AI. This narrative dominated the first half of 2026, which is that anthropic open",
@@ -41785,7 +42033,7 @@ const dashboardData = {
     "last_podcast_name": "The a16z Show",
     "last_episode_date": "2026-07-31",
     "mention_score": 1,
-    "mention_score_decayed": 0.56,
+    "mention_score_decayed": 0.55,
     "last_main_idea": "Investing in AI-driven enterprise software that leverages open source models can lead to better control, performance, and scalability, creating a competitive advantage in the market.",
     "last_proof_cite": "The a16z Show \u2022 2026-07-31 \u2022 How Enterprise AI Really Gets Deployed",
     "last_proof_snippet": "And AI agents should just be the funder of your business and every interaction, whether it's like reactive or proactive with a customer, should be handled by AI. This narrative dominated the first half of 2026, which is that anthropic open",
@@ -42205,7 +42453,7 @@ const dashboardData = {
     "last_podcast_name": "Monetary Matters with Jack Farley",
     "last_episode_date": "2026-07-26",
     "mention_score": 1,
-    "mention_score_decayed": 0.5,
+    "mention_score_decayed": 0.49,
     "last_main_idea": "Contrary to popular belief, private credit and corporate debt are sustainable, and the real risk lies in government debt levels, which could lead to increased market volatility if not addressed.",
     "last_proof_cite": "Monetary Matters with Jack Farley \u2022 2026-07-26 \u2022 Debt Service Coverage in Private Markets Is Improving, Actually | Nicholas Brooks",
     "last_proof_snippet": "Over the past year, there's been some very bad press on private credit, including on this channel where recent guest Nick Nemitz said that he thinks it's almost inevitable that the next financial crisis will be caused by private credit. Tod",
@@ -42644,7 +42892,7 @@ const dashboardData = {
     "last_podcast_name": "The a16z Show",
     "last_episode_date": "2026-07-21",
     "mention_score": 1,
-    "mention_score_decayed": 0.45,
+    "mention_score_decayed": 0.44,
     "last_main_idea": "Investing in physical AI and autonomous systems could lead to significant returns as these technologies transform the physical economy and unlock new productivity gains.",
     "last_proof_cite": "The a16z Show \u2022 2026-07-21 \u2022 Why Physical AI Is the Next Frontier | Applied Intuition",
     "last_proof_snippet": "Our mission is to put intelligence on a billion machines, and that we think that can have a profound impact on society. Applied intuition is a physical attack company. We put intelligence on machines. Cars, trucks, tanks, drones. It's a phy",
@@ -42772,7 +43020,7 @@ const dashboardData = {
     "last_podcast_name": "Monetary Matters with Jack Farley",
     "last_episode_date": "2026-07-20",
     "mention_score": 1,
-    "mention_score_decayed": 0.44,
+    "mention_score_decayed": 0.43,
     "last_main_idea": "The private credit industry is overleveraged and poses a significant systemic risk, with potential for a massive financial blow-up that could be triggered by the insurance industry's massive balance sheets.",
     "last_proof_cite": "Monetary Matters with Jack Farley \u2022 2026-07-20 \u2022 Nick Nemeth: Private Credit Will Blow-up Insurance System | Immense Leverage, Shaky Loans, and Retirement System That Actually Does Have Run Risk (via Surrenders)",
     "last_proof_snippet": "Today's episode is brought to you by the two-cream corn fund ticker C-O-R-N. Let's get into it. Join today by Nick Nemeth Financial Investor Researcher and author at Miss Price Assets. Nick, welcome to monetary matters. Thanks, Jack. It's g",
@@ -42836,7 +43084,7 @@ const dashboardData = {
     "last_podcast_name": "Moonshots with Peter Diamandis",
     "last_episode_date": "2026-07-19",
     "mention_score": 1,
-    "mention_score_decayed": 0.43,
+    "mention_score_decayed": 0.42,
     "last_main_idea": "Investment in AI technology is crucial as it becomes a key differentiator in global competitiveness, with a focus on companies advancing AI models and quantization.",
     "last_proof_cite": "Moonshots with Peter Diamandis \u2022 2026-07-19 \u2022 Urgent Update- AI Sputnik Moment: Kimi K3 Released w/ Emad Mostaque | Ep. 272",
     "last_proof_snippet": "Today we put out the bat signal, and called for an emergency pod because America just experienced an AI-splitnik moment. Kimmy K3 released yesterday shocking the AI world with the largest op-weight model ever, and it went straight to number",
@@ -42897,7 +43145,7 @@ const dashboardData = {
     "last_podcast_name": "Moonshots with Peter Diamandis",
     "last_episode_date": "2026-07-19",
     "mention_score": 1,
-    "mention_score_decayed": 0.43,
+    "mention_score_decayed": 0.42,
     "last_main_idea": "Investment in AI technology is crucial as it becomes a key differentiator in global competitiveness, with a focus on companies advancing AI models and quantization.",
     "last_proof_cite": "Moonshots with Peter Diamandis \u2022 2026-07-19 \u2022 Urgent Update- AI Sputnik Moment: Kimi K3 Released w/ Emad Mostaque | Ep. 272",
     "last_proof_snippet": "Today we put out the bat signal, and called for an emergency pod because America just experienced an AI-splitnik moment. Kimmy K3 released yesterday shocking the AI world with the largest op-weight model ever, and it went straight to number",
@@ -42957,7 +43205,7 @@ const dashboardData = {
     "last_podcast_name": "Moonshots with Peter Diamandis",
     "last_episode_date": "2026-07-19",
     "mention_score": 1,
-    "mention_score_decayed": 0.43,
+    "mention_score_decayed": 0.42,
     "last_main_idea": "Investment in AI technology is crucial as it becomes a key differentiator in global competitiveness, with a focus on companies advancing AI models and quantization.",
     "last_proof_cite": "Moonshots with Peter Diamandis \u2022 2026-07-19 \u2022 Urgent Update- AI Sputnik Moment: Kimi K3 Released w/ Emad Mostaque | Ep. 272",
     "last_proof_snippet": "Today we put out the bat signal, and called for an emergency pod because America just experienced an AI-splitnik moment. Kimmy K3 released yesterday shocking the AI world with the largest op-weight model ever, and it went straight to number",
@@ -43142,7 +43390,7 @@ const dashboardData = {
     "last_podcast_name": "Latent Space: The AI Engineer Podcast",
     "last_episode_date": "2026-07-16",
     "mention_score": 1,
-    "mention_score_decayed": 0.4,
+    "mention_score_decayed": 0.39,
     "last_main_idea": "Investing in AI-driven platforms in healthcare and life sciences can lead to significant efficiency gains and cost reductions in drug discovery and materials science.",
     "last_proof_cite": "Latent Space: The AI Engineer Podcast \u2022 2026-07-16 \u2022 \ud83d\udd2c The Lab of the Future Should Feel Like a Data Center \u2014 Andy Beam & Rafa G\u00f3mez-Bombarelli, Lila Sciences",
     "last_proof_snippet": "But not just tech bio, what do you do in terms of science? We are all in on the bitter lesson and scale. We think that methods that scale and that are general retows that are not. As Ely has said, it's last year, we have but one internet, i",
@@ -43202,7 +43450,7 @@ const dashboardData = {
     "last_podcast_name": "Latent Space: The AI Engineer Podcast",
     "last_episode_date": "2026-07-16",
     "mention_score": 1,
-    "mention_score_decayed": 0.4,
+    "mention_score_decayed": 0.39,
     "last_main_idea": "Investing in AI-driven platforms in healthcare and life sciences can lead to significant efficiency gains and cost reductions in drug discovery and materials science.",
     "last_proof_cite": "Latent Space: The AI Engineer Podcast \u2022 2026-07-16 \u2022 \ud83d\udd2c The Lab of the Future Should Feel Like a Data Center \u2014 Andy Beam & Rafa G\u00f3mez-Bombarelli, Lila Sciences",
     "last_proof_snippet": "But not just tech bio, what do you do in terms of science? We are all in on the bitter lesson and scale. We think that methods that scale and that are general retows that are not. As Ely has said, it's last year, we have but one internet, i",
@@ -43266,7 +43514,7 @@ const dashboardData = {
     "last_podcast_name": "Monetary Matters with Jack Farley",
     "last_episode_date": "2026-07-16",
     "mention_score": 1,
-    "mention_score_decayed": 0.4,
+    "mention_score_decayed": 0.39,
     "last_main_idea": "Takahay Capital's investment thesis revolves around trend following and quantitative diversification, aiming to capitalize on major market trends while maintaining a diverse portfolio to mitigate risk.",
     "last_proof_cite": "Monetary Matters with Jack Farley \u2022 2026-07-16 \u2022 Turbo Charged Trend Following: Why Capturing the Market\u2019s Biggest Trends Means Embracing High Volatility | Moritz Seibert & Moritz Heiden | Takahe Capital",
     "last_proof_snippet": "single market trend has a very good year and that is right because you've seen these major trends and like equities and gold sovereign markets that we've mentioned it deserves to be large it deserves to be moving the needle it deserves a la",
@@ -43326,7 +43574,7 @@ const dashboardData = {
     "last_podcast_name": "Monetary Matters with Jack Farley",
     "last_episode_date": "2026-07-16",
     "mention_score": 1,
-    "mention_score_decayed": 0.4,
+    "mention_score_decayed": 0.39,
     "last_main_idea": "Takahay Capital's investment thesis revolves around trend following and quantitative diversification, aiming to capitalize on major market trends while maintaining a diverse portfolio to mitigate risk.",
     "last_proof_cite": "Monetary Matters with Jack Farley \u2022 2026-07-16 \u2022 Turbo Charged Trend Following: Why Capturing the Market\u2019s Biggest Trends Means Embracing High Volatility | Moritz Seibert & Moritz Heiden | Takahe Capital",
     "last_proof_snippet": "single market trend has a very good year and that is right because you've seen these major trends and like equities and gold sovereign markets that we've mentioned it deserves to be large it deserves to be moving the needle it deserves a la",
@@ -43585,7 +43833,7 @@ const dashboardData = {
     "last_podcast_name": "Dwarkesh Podcast",
     "last_episode_date": "2026-07-10",
     "mention_score": 1,
-    "mention_score_decayed": 0.35,
+    "mention_score_decayed": 0.34,
     "last_main_idea": "While this episode does not present a direct investment thesis, it provides foundational knowledge about the principles of physics that could influence investment decisions in technology and space sectors.",
     "last_proof_cite": "Dwarkesh Podcast \u2022 2026-07-10 \u2022 Adam Brown \u2013 Einstein's happiest thought: General Relativity from scratch",
     "last_proof_snippet": "I'm back with Adam Brown. You currently need blue shift at Google DeepMine, which is cracking science and reasoning. In a previous life, Adam was a prolific physicist taught at Stanford and did research and everything from cosmology to stri",
@@ -44217,7 +44465,7 @@ const dashboardData = {
     "last_podcast_name": "Latent Space: The AI Engineer Podcast",
     "last_episode_date": "2026-07-01",
     "mention_score": 1,
-    "mention_score_decayed": 0.28,
+    "mention_score_decayed": 0.27,
     "last_main_idea": "Investing in AI-driven drug discovery companies like Genesis Molecular AI can offer significant returns due to the potential for increased efficiency and accuracy in drug development processes.",
     "last_proof_cite": "Latent Space: The AI Engineer Podcast \u2022 2026-07-01 \u2022 \ud83d\udd2c The Coolest Diffusion Research Isn't in LLMs \u2014 Evan Feinberg & Sergey Edunov, Genesis Molecular AI",
     "last_proof_snippet": "I remember very clearly in like 2017, 2018, talking about guns and how generative adversarial networks and how they're clearly the future of image generation, obviously. They didn't work over very well for proteins or protein-like systems a",
@@ -44276,7 +44524,7 @@ const dashboardData = {
     "last_podcast_name": "Latent Space: The AI Engineer Podcast",
     "last_episode_date": "2026-07-01",
     "mention_score": 1,
-    "mention_score_decayed": 0.28,
+    "mention_score_decayed": 0.27,
     "last_main_idea": "Investing in AI-driven drug discovery companies like Genesis Molecular AI can offer significant returns due to the potential for increased efficiency and accuracy in drug development processes.",
     "last_proof_cite": "Latent Space: The AI Engineer Podcast \u2022 2026-07-01 \u2022 \ud83d\udd2c The Coolest Diffusion Research Isn't in LLMs \u2014 Evan Feinberg & Sergey Edunov, Genesis Molecular AI",
     "last_proof_snippet": "I remember very clearly in like 2017, 2018, talking about guns and how generative adversarial networks and how they're clearly the future of image generation, obviously. They didn't work over very well for proteins or protein-like systems a",
@@ -44526,7 +44774,7 @@ const dashboardData = {
     "last_podcast_name": "Moonshots with Peter Diamandis",
     "last_episode_date": "2026-06-26",
     "mention_score": 1,
-    "mention_score_decayed": 0.25,
+    "mention_score_decayed": 0.24,
     "last_main_idea": "Invest in companies at the forefront of AI and satellite data integration for real-world applications, while monitoring global AI competition and regulatory changes.",
     "last_proof_cite": "Moonshots with Peter Diamandis \u2022 2026-06-26 \u2022 The $10B Satellite Empire Putting AI in Orbit, Why Chips Beat Rockets & China's #1 Open Model | EP #266",
     "last_proof_snippet": "Today, plan is a $10 billion company. You've coined the term large earth models. What does that mean? It, like, Google index the internet to make it searchable, we're indexing the earth to make it searchable. It will finally enable us to be",
@@ -45888,7 +46136,7 @@ const dashboardData = {
     "last_podcast_name": "Moonshots with Peter Diamandis",
     "last_episode_date": "2026-06-11",
     "mention_score": 1,
-    "mention_score_decayed": 0.18,
+    "mention_score_decayed": 0.17,
     "last_main_idea": "Invest in sectors at the forefront of technological disruption, with a focus on cryptocurrency, AI, and biotech innovations that promise significant market transformation and growth.",
     "last_proof_cite": "Moonshots with Peter Diamandis \u2022 2026-06-11 \u2022 Brian Armstrong on Bitcoin, Anthropic Drops Fable 5 & Mythos 5, NewLimit's $435M Age-Reversal | EP #264",
     "last_proof_snippet": "City Bank projects a Bitcoin price reaching as much as 189,000 by the end of 2026. Bitcoin is the new digital gold. I think it's going to be a key part of our economy going forward into the future. I remember it was supposed to be counter-s",
@@ -45949,7 +46197,7 @@ const dashboardData = {
     "last_podcast_name": "Macro Voices",
     "last_episode_date": "2026-06-11",
     "mention_score": 1,
-    "mention_score_decayed": 0.18,
+    "mention_score_decayed": 0.17,
     "last_main_idea": "The market may be entering a new inflation shock regime, leading to a rotation from financial assets to hard assets, with the healthcare sector presenting an under-owned opportunity.",
     "last_proof_cite": "Macro Voices \u2022 2026-06-11 \u2022 MacroVoices #536 Larry Mcdonald: The Migration is Upon us",
     "last_proof_snippet": "This is Macrovoisers, the Free Weekly Financial Podcast, targeting professional finance, high-net worth individuals, family offices, and other sophisticated investors. Macrovoisers is all about the brightest minds in the world of finance an",
@@ -46272,7 +46520,7 @@ const dashboardData = {
     "last_podcast_name": "All-In with Chamath, Jason, Sacks & Friedberg",
     "last_episode_date": "2026-06-09",
     "mention_score": 1,
-    "mention_score_decayed": 0.17,
+    "mention_score_decayed": 0.16,
     "last_main_idea": "Invest in smaller, more focused venture capital funds that leverage AI for portfolio construction and consider early-stage investments in foundational AI technologies for long-term gains.",
     "last_proof_cite": "All-In with Chamath, Jason, Sacks & Friedberg \u2022 2026-06-09 \u2022 Bill Maris: How Google Could Crush AI Competitors, Why Small Funds Win, and AI's Atari Stage",
     "last_proof_snippet": "After saying he was out, now Bill Maris is returning to the investing world. The founding CEO of Google Ventures has raised $150 million for his new fund, called Section 32. With a smaller fund, I have the advantage to be very selective in",
@@ -46553,7 +46801,7 @@ const dashboardData = {
     "last_podcast_name": "The a16z Show",
     "last_episode_date": "2026-06-06",
     "mention_score": 1,
-    "mention_score_decayed": 0.16,
+    "mention_score_decayed": 0.15,
     "last_main_idea": "Invest in companies that are innovating in AI-driven search technologies, as they are likely to capture a growing market segment and reshape the search landscape.",
     "last_proof_cite": "The a16z Show \u2022 2026-06-06 \u2022 Building Search for AI Agents with Exa CEO Will Bryk",
     "last_proof_snippet": "Search is the gateway to the world of information if you can make it perfect. Then that has so many downstream positive implications for the world. You can kind of think of Google as being synonymous with search, right? It's one of the grea",
@@ -46742,7 +46990,7 @@ const dashboardData = {
     "last_podcast_name": "Macro Voices",
     "last_episode_date": "2026-06-04",
     "mention_score": 2,
-    "mention_score_decayed": 0.3,
+    "mention_score_decayed": 0.29,
     "last_main_idea": "Invest in sectors that are likely to benefit from a shift towards economic statecraft and prepare for market volatility due to geopolitical tensions.",
     "last_proof_cite": "Macro Voices \u2022 2026-06-04 \u2022 MacroVoices #535 Michael Every: NAFTA and NAPTHA \u2013 Warcraft & Fartcraft",
     "last_proof_snippet": "This is Macrovoisers, the Free Weekly Financial Podcast, targeting professional finance, high-net worth individuals, family offices, and other sophisticated investors. Macrovoisers is all about the brightest minds in the world of finance an",
@@ -46944,7 +47192,7 @@ const dashboardData = {
     "last_podcast_name": "All-In with Chamath, Jason, Sacks & Friedberg",
     "last_episode_date": "2026-06-03",
     "mention_score": 1,
-    "mention_score_decayed": 0.15,
+    "mention_score_decayed": 0.14,
     "last_main_idea": "Invest in long-term, durable business quality and undervalued companies with strong fundamentals, particularly in the AI sector.",
     "last_proof_cite": "All-In with Chamath, Jason, Sacks & Friedberg \u2022 2026-06-03 \u2022 Bill Ackman: Investment Strategy, What the Market is Missing, How AI Breaks Businesses",
     "last_proof_snippet": "One of the most provocative and interesting investors in the country. A legendary activist investor. Pershing square CEO and founder Bill Acling. Taking a short position and going public with it is a pretty serious business. Interestingly,",
@@ -47135,7 +47383,7 @@ const dashboardData = {
     "last_podcast_name": "Moonshots with Peter Diamandis",
     "last_episode_date": "2026-05-30",
     "mention_score": 2,
-    "mention_score_decayed": 0.27,
+    "mention_score_decayed": 0.26,
     "last_main_idea": "Invest in AI and space exploration companies that demonstrate rapid innovation and adaptability, as these sectors are poised for significant growth and disruption.",
     "last_proof_cite": "Moonshots with Peter Diamandis \u2022 2026-05-30 \u2022 Pope Leo vs. AI, GPT 5.5 Beats Claude, and Sam Altman Walks Back Job Apocalypse | EP #259",
     "last_proof_snippet": "Pope Leo the 14th warns of AI risks and just dropped a 42,000-word in cyclical on AI. The Vatican has seemingly staked out the first major religion position against AI personhood. This is the first technology that forces us to define humani",

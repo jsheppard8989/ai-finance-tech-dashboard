@@ -20,6 +20,44 @@
       "podcast_episode_id": 425
     },
     {
+      "id": 441,
+      "title": "Time to Reduce Equity Risk: Why Underappreciated Macro Risks Could Derail the Bull Market | Warren Pies",
+      "source_type": "podcast",
+      "source_name": "Monetary Matters with Jack Farley",
+      "source_date": "2026-08-26",
+      "summary": "In this episode of 'Other People's Money', Max Weathie interviews Warren Pi, co-founder of 314 Research, to discuss the current macro risks overshadowing the market. They analyze the market structure, seasonal patterns, and the impact of AI on the tech sector. Warren shares his insights on earnings, Fed's potential rate hikes, and the implications for investors. The conversation also touches on the importance of GPU availability and rental rates in the AI space.",
+      "key_takeaway": "Warren Pi suggests that despite the current macro risks, the AI sector remains a key area for investment, with all roads leading back to AI trades.",
+      "tickers_mentioned": [
+        "HFGM"
+      ],
+      "sentiment": "bearish",
+      "display_on_main": 1,
+      "display_order": 0,
+      "added_date": "2026-08-26",
+      "archived_date": null,
+      "archived_reason": null,
+      "podcast_episode_id": 427
+    },
+    {
+      "id": 442,
+      "title": "\ud83d\udd2c\u201cWe have foundation models for language, not for physics\u201d \u2014 Anima Anandkumar, Bren Professor of Computing",
+      "source_type": "podcast",
+      "source_name": "Latent Space: The AI Engineer Podcast",
+      "source_date": "2026-08-26",
+      "summary": "In this episode of Latent Space, the AI Engineer Podcast, hosts Brandon and RJHONICY interview Anamah Anankumar, a brain professor of mathematics and computer science at Caltech, about her work combining AI with models of the physical world. The discussion revolves around the use of AI in weather modeling, the challenges and potential of AI in science, and the democratization of AI access. Anamah shares her insights on how AI can be used to predict weather patterns with high accuracy and speed, and how this technology could revolutionize climate modeling.",
+      "key_takeaway": "Investing in AI technology that enhances weather and climate modeling can lead to significant advancements in forecasting accuracy and speed, potentially revolutionizing the field and creating new investment opportunities in AI applications for science.",
+      "tickers_mentioned": [
+        "NVDA"
+      ],
+      "sentiment": "neutral",
+      "display_on_main": 1,
+      "display_order": 0,
+      "added_date": "2026-08-26",
+      "archived_date": null,
+      "archived_reason": null,
+      "podcast_episode_id": 426
+    },
+    {
       "id": 439,
       "title": "Dylan Patel \u2013 Anthropic & OpenAI will have most of the world\u2019s compute by 2028",
       "source_type": "podcast",
@@ -107,7 +145,7 @@
         "AAPL"
       ],
       "sentiment": "neutral",
-      "display_on_main": 1,
+      "display_on_main": 0,
       "display_order": 0,
       "added_date": "2026-08-21",
       "archived_date": null,
@@ -126,7 +164,7 @@
         "AAPL"
       ],
       "sentiment": "neutral",
-      "display_on_main": 1,
+      "display_on_main": 0,
       "display_order": 0,
       "added_date": "2026-08-21",
       "archived_date": null,
@@ -8471,8 +8509,8 @@
       "term": "Simulation",
       "description": "The use of models and computer programs to represent and analyze real or imagined systems or situations.",
       "first_detected_date": "2026-08-21",
-      "last_mentioned_date": "2026-08-24",
-      "mention_count": 2,
+      "last_mentioned_date": "2026-08-26",
+      "mention_count": 3,
       "source_podcasts": null,
       "status": "active",
       "investment_implications": "Simulation technology can provide significant insights for decision-making, making investments in this area potentially valuable.",
@@ -8481,8 +8519,8 @@
       "archived_reason": null,
       "first_detected_episode_id": 420,
       "first_detected_speaker": "June",
-      "last_mentioned_episode_id": 423,
-      "last_mentioned_speaker": "Michael Crathfields"
+      "last_mentioned_episode_id": 426,
+      "last_mentioned_speaker": "Anamah Anankumar"
     },
     {
       "id": 272,
@@ -9009,20 +9047,20 @@
     {
       "id": 138,
       "term": "AI CapEx",
-      "description": "Capital expenditures related to the development and deployment of artificial intelligence technologies.",
+      "description": "Capital expenditures related to artificial intelligence, including investments in AI infrastructure, data centers, and compute resources.",
       "first_detected_date": "2026-06-08",
-      "last_mentioned_date": "2026-08-25",
-      "mention_count": 23,
+      "last_mentioned_date": "2026-08-26",
+      "mention_count": 24,
       "source_podcasts": null,
       "status": "active",
-      "investment_implications": "AI CapEx is a significant driver of growth in the tech sector, indicating the scale of investment in AI infrastructure.",
+      "investment_implications": "AI CapEx is a key indicator of the health and growth potential of the AI sector, influencing investment decisions in tech stocks.",
       "display_on_main": 0,
       "archived_date": null,
       "archived_reason": null,
       "first_detected_episode_id": 271,
       "first_detected_speaker": null,
-      "last_mentioned_episode_id": 424,
-      "last_mentioned_speaker": "Dylan Patel"
+      "last_mentioned_episode_id": 427,
+      "last_mentioned_speaker": "Warren Pi"
     },
     {
       "id": 234,
@@ -9335,8 +9373,8 @@
       "term": "Singularity",
       "description": "A hypothetical point in the future at which technological growth becomes uncontrollable and irreversible, leading to unforeseeable changes in human civilization.",
       "first_detected_date": "2026-05-15",
-      "last_mentioned_date": "2026-08-25",
-      "mention_count": 54,
+      "last_mentioned_date": "2026-08-26",
+      "mention_count": 55,
       "source_podcasts": null,
       "status": "active",
       "investment_implications": "Investors should consider the potential for rapid technological change and its impact on various sectors, including AI, when making long-term investment decisions.",
@@ -9345,8 +9383,8 @@
       "archived_reason": null,
       "first_detected_episode_id": 221,
       "first_detected_speaker": null,
-      "last_mentioned_episode_id": 424,
-      "last_mentioned_speaker": "Dylan Patel"
+      "last_mentioned_episode_id": 426,
+      "last_mentioned_speaker": "Anamah Anankumar"
     },
     {
       "id": 97,
