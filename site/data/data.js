@@ -3,80 +3,80 @@
 
 const dashboardData = {
   schemaVersion: 2,
-  generatedAt: "2026-08-26T05:18:28.633489",
-  chartsVersion: "2026-08-26T05:18:16.766294",
+  generatedAt: "2026-08-26T06:52:05.439670",
+  chartsVersion: "2026-08-26T06:51:58.533873",
   priceSnapshot: {
   "GOOGL": {
     "price": 346.96,
     "change_pct": -3.02,
     "name": "GOOGL",
-    "updated_at": "2026-08-26T05:18:16.765017"
+    "updated_at": "2026-08-26T06:51:58.533476"
   },
   "NVDA": {
     "price": 213.05,
     "change_pct": -2.71,
     "name": "NVDA",
-    "updated_at": "2026-08-26T05:18:16.765040"
+    "updated_at": "2026-08-26T06:51:58.533487"
   },
   "MSFT": {
     "price": 491.71,
     "change_pct": -1.45,
     "name": "MSFT",
-    "updated_at": "2026-08-26T05:18:16.765050"
+    "updated_at": "2026-08-26T06:51:58.533490"
   },
   "BTC": {
-    "price": 78494.73,
-    "change_pct": 23.8,
+    "price": 78450.75,
+    "change_pct": 23.74,
     "name": "BTC",
-    "updated_at": "2026-08-26T05:18:16.765059"
+    "updated_at": "2026-08-26T06:51:58.533494"
   },
   "TSLA": {
     "price": 350.25,
     "change_pct": 9.61,
     "name": "TSLA",
-    "updated_at": "2026-08-26T05:18:16.765068"
+    "updated_at": "2026-08-26T06:51:58.533497"
   },
   "AMZN": {
     "price": 261.06,
     "change_pct": -4.11,
     "name": "AMZN",
-    "updated_at": "2026-08-26T05:18:16.765077"
+    "updated_at": "2026-08-26T06:51:58.533499"
   },
   "META": {
     "price": 570.05,
     "change_pct": -3.36,
     "name": "META",
-    "updated_at": "2026-08-26T05:18:16.765087"
+    "updated_at": "2026-08-26T06:51:58.533502"
   },
   "WTI": {
     "price": 3.6,
     "change_pct": 8.07,
     "name": "WTI",
-    "updated_at": "2026-08-26T05:18:16.765095"
+    "updated_at": "2026-08-26T06:51:58.533506"
   },
   "S&P 500": {
     "price": 765.91,
     "change_pct": -0.34,
     "name": "S&P 500",
-    "updated_at": "2026-08-26T05:18:16.765103"
+    "updated_at": "2026-08-26T06:51:58.533508"
   },
   "AAPL": {
     "price": 309.9,
     "change_pct": -0.72,
     "name": "AAPL",
-    "updated_at": "2026-08-26T05:18:16.765112"
+    "updated_at": "2026-08-26T06:51:58.533511"
   },
   "QQQ": {
     "price": 710.72,
     "change_pct": -0.55,
     "name": "Invesco QQQ Trust",
-    "updated_at": "2026-08-26T05:18:16.765120"
+    "updated_at": "2026-08-26T06:51:58.533514"
   },
   "BTC-USD": {
-    "price": 78494.73,
-    "change_pct": 23.8,
+    "price": 78450.75,
+    "change_pct": 23.74,
     "name": "Bitcoin USD",
-    "updated_at": "2026-08-26T05:18:16.765130"
+    "updated_at": "2026-08-26T06:51:58.533517"
   }
 },
   tickerScores: [
@@ -834,6 +834,25 @@ const dashboardData = {
   archive: {
   "insights": [
     {
+      "id": 440,
+      "title": "The State of AI: Macro, Apps, and Consumer",
+      "source_type": "podcast",
+      "source_name": "The a16z Show",
+      "source_date": "2026-08-26",
+      "summary": "In this episode of the a16z Show, Jen Cos sits down with An Eshicharya to discuss the future of AI, moving beyond the competition among models to the applications built on top of them. They explore the competitive landscape of AI models, the potential for applications to capture significant value, and the rise of consumer AI with personal agents. The conversation also touches on the renaissance for consumer builders and the need for founders to think bigger about what AI can achieve.",
+      "key_takeaway": "Invest in the application layer of AI where significant value can be captured, and consider the emerging consumer AI space for new opportunities.",
+      "tickers_mentioned": [
+        "NVDA"
+      ],
+      "sentiment": "neutral",
+      "display_on_main": 1,
+      "display_order": 0,
+      "added_date": "2026-08-26",
+      "archived_date": null,
+      "archived_reason": null,
+      "podcast_episode_id": 425
+    },
+    {
       "id": 439,
       "title": "Dylan Patel \u2013 Anthropic & OpenAI will have most of the world\u2019s compute by 2028",
       "source_type": "podcast",
@@ -999,7 +1018,7 @@ const dashboardData = {
         "CORN"
       ],
       "sentiment": "bullish",
-      "display_on_main": 1,
+      "display_on_main": 0,
       "display_order": 0,
       "added_date": "2026-08-20",
       "archived_date": null,
@@ -11371,20 +11390,20 @@ const dashboardData = {
     {
       "id": 114,
       "term": "AI Agents",
-      "description": "Autonomous AI systems that can act on behalf of users or other systems, creating new challenges in cybersecurity.",
+      "description": "Software agents that perform tasks on behalf of users, embodying the next wave of consumer AI.",
       "first_detected_date": "2026-02-28",
-      "last_mentioned_date": "2026-08-21",
-      "mention_count": 67,
+      "last_mentioned_date": "2026-08-26",
+      "mention_count": 68,
       "source_podcasts": null,
       "status": "active",
-      "investment_implications": "Investors should consider companies developing security solutions to manage and mitigate risks associated with AI agents.",
+      "investment_implications": "Investors should look for opportunities in companies developing AI agents for consumer applications.",
       "display_on_main": 0,
       "archived_date": null,
       "archived_reason": null,
       "first_detected_episode_id": 31,
       "first_detected_speaker": null,
-      "last_mentioned_episode_id": 419,
-      "last_mentioned_speaker": "Elon Musk"
+      "last_mentioned_episode_id": 425,
+      "last_mentioned_speaker": "An Eshicharya"
     },
     {
       "id": 38,
@@ -11649,6 +11668,26 @@ const dashboardData = {
   mainContent: {
   "insights": [
     {
+      "id": 440,
+      "title": "The State of AI: Macro, Apps, and Consumer",
+      "source_type": "podcast",
+      "source_name": "The a16z Show",
+      "source_date": "2026-08-26",
+      "summary": "In this episode of the a16z Show, Jen Cos sits down with An Eshicharya to discuss the future of AI, moving beyond the competition among models to the applications built on top of them. They explore the competitive landscape of AI models, the potential for applications to capture significant value, and the rise of consumer AI with personal agents. The conversation also touches on the renaissance for consumer builders and the need for founders to think bigger about what AI can achieve.",
+      "key_takeaway": "Invest in the application layer of AI where significant value can be captured, and consider the emerging consumer AI space for new opportunities.",
+      "tickers_mentioned": "[\"NVDA\"]",
+      "sentiment": "neutral",
+      "display_on_main": 1,
+      "display_order": 0,
+      "added_date": "2026-08-26",
+      "archived_date": null,
+      "archived_reason": null,
+      "podcast_episode_id": 425,
+      "episode_release_date": "2026-08-26",
+      "guest_name": null,
+      "key_tickers": []
+    },
+    {
       "id": 439,
       "title": "Dylan Patel \u2013 Anthropic & OpenAI will have most of the world\u2019s compute by 2028",
       "source_type": "podcast",
@@ -11789,28 +11828,6 @@ const dashboardData = {
       "episode_release_date": "2026-08-21",
       "guest_name": "Simulation",
       "key_tickers": []
-    },
-    {
-      "id": 432,
-      "title": "Why Bessent Blinked | Luke Gromen on Doubling of Treasury Buyback Plan to Tame Long-End Yields",
-      "source_type": "podcast",
-      "source_name": "Monetary Matters with Jack Farley",
-      "source_date": "2026-08-20",
-      "summary": "In this episode of Monetary Matters, Jack Farley discusses with Luke Groman of Forest for the Trees Research the impact of AI and government spending on borrowing costs and long-end yields. They analyze the AI capex build out's effect on the economy, the rise in yields, and the Treasury Secretary's recent announcement to double the size of treasury buybacks. The conversation also touches on potential strategies for managing long rates and the implications for inflation, bondholders, and the stock market.",
-      "key_takeaway": "The rise in AI capex and government spending is leading to increased borrowing costs, which will have profound effects on bond markets and inflation, creating both risks and opportunities for investors.",
-      "tickers_mentioned": "[\"CORN\"]",
-      "sentiment": "bullish",
-      "display_on_main": 1,
-      "display_order": 0,
-      "added_date": "2026-08-20",
-      "archived_date": null,
-      "archived_reason": null,
-      "podcast_episode_id": 417,
-      "episode_release_date": "2026-08-20",
-      "guest_name": "Why Bessent Blinked",
-      "key_tickers": [
-        "CORN"
-      ]
     }
   ],
   "definitions": [
@@ -38316,9 +38333,73 @@ const dashboardData = {
     "key_tickers": [
       "NVIDIA"
     ]
+  },
+  "440": {
+    "id": 429,
+    "insight_id": 440,
+    "podcast_episode_id": 425,
+    "overview": "The AI market is experiencing a significant shift from model competition to application development. This transition is marked by the emergence of specialized AI models, each with unique strengths, such as literal, rule-abiding models like GLM-5, and more creative, presumptuous models like K-3. The competitive landscape is no longer a 'two-horse race' but has expanded to include multiple contenders, reflecting a diversification in AI capabilities. Additionally, there's a growing recognition of the importance of open-weight models, especially in domains where cost efficiency and reinforcement learning can create a competitive advantage, such as in customer support or legal services.",
+    "key_takeaways_detailed": [],
+    "investment_thesis": "If the thesis of investing in the application layer of AI holds true, allocators should expect to see a proliferation of successful AI applications across various sectors, with a particular focus on consumer AI. The timeframe for this would be within the next 3 to 5 years, as the technology matures and consumer adoption increases. This would be proven by the growth of companies building on top of AI models and the emergence of new consumer AI products that gain significant market share. Conversely, if these applications fail to gain traction or if a single AI model dominates all others, it could disprove the current investment thesis.",
+    "ticker_analysis": {
+      "NVDA": {
+        "rationale": "NVIDIA is a key player in the AI space, providing the GPU technology that powers many AI models. As the application layer of AI becomes more prominent, NVIDIA's position as a supplier of essential hardware makes it a clean expression of the investment thesis in AI applications.",
+        "positioning": "",
+        "risk": ""
+      }
+    },
+    "positioning_guidance": "",
+    "risk_factors": [],
+    "contrarian_signals": [],
+    "catalysts": [
+      "Q4 2023 earnings reports from major AI companies to gauge the financial performance of AI applications.",
+      "AI conference in 2024 where new consumer AI products are expected to be launched."
+    ],
+    "related_insights": null,
+    "audio_timestamp_start": null,
+    "audio_timestamp_end": null,
+    "transcript_excerpt": null,
+    "created_at": "2026-08-26T06:51:13.925608",
+    "updated_at": "2026-08-26 11:51:13",
+    "episode_evidence": "- I'm a many winners guy. If you look at what's happened in the last two weeks, I see I went from, not even being a real contender on the model side to being one of three.\n- We really think that the kind of rational architecture and the one that is emerging is that for jobs that have unlimited upside-like sales or product, you always want to use frontier tokens.",
+    "falsification_tracks": [
+      "A significant decline in venture capital funding for AI startups, indicating a loss of confidence in the application layer's ability to capture value.",
+      "The release of a new dominant AI model that outperforms all others across a wide range of tasks, reducing the competitive landscape to a single winner.",
+      "A major security breach or ethical scandal involving consumer AI agents that leads to increased regulation and a decline in consumer trust.",
+      "A failure in the commercialization of AI applications, with consumers showing a lack of interest or adoption, reflected in poor sales figures and market penetration rates."
+    ],
+    "schema_version": 2,
+    "insight_title": "The State of AI: Macro, Apps, and Consumer",
+    "source_name": "The a16z Show",
+    "source_date": "2026-08-26",
+    "key_tickers": []
   }
 },
   suggestedTerms: [
+  {
+    "id": 607,
+    "term": "AI-native distribution channel",
+    "definition": "A distribution channel specifically designed for AI products, which has been lacking until now.",
+    "investment_implications": "The creation of AI-native distribution channels could be a significant opportunity for startups.",
+    "source_type": "auto_extracted",
+    "mention_count": 1,
+    "source_diversity": 1,
+    "relevance_score": 50,
+    "submitted_date": "2026-08-26 11:50:07",
+    "priority_score": 80
+  },
+  {
+    "id": 608,
+    "term": "Digitally native entrepreneur",
+    "definition": "An entrepreneur who builds businesses on the internet, leveraging digital tools and platforms.",
+    "investment_implications": "Investors should consider the potential of digitally native entrepreneurs in the AI space.",
+    "source_type": "auto_extracted",
+    "mention_count": 1,
+    "source_diversity": 1,
+    "relevance_score": 50,
+    "submitted_date": "2026-08-26 11:50:07",
+    "priority_score": 80
+  },
   {
     "id": 605,
     "term": "AI coming for the junior analyst job",
@@ -38342,35 +38423,11 @@ const dashboardData = {
     "relevance_score": 50,
     "submitted_date": "2026-08-24 18:52:50",
     "priority_score": 80
-  },
-  {
-    "id": 603,
-    "term": "e-values",
-    "definition": "A measure of the value of technology, particularly in the context of AI and healthcare, which is used to assess the pricing and usefulness of different models and technologies.",
-    "investment_implications": "Understanding e-values is crucial for investors to differentiate between valuable and valueless technology in the AI market.",
-    "source_type": "auto_extracted",
-    "mention_count": 1,
-    "source_diversity": 1,
-    "relevance_score": 50,
-    "submitted_date": "2026-08-24 12:02:04",
-    "priority_score": 80
-  },
-  {
-    "id": 604,
-    "term": "Independent Referee",
-    "definition": "An entity or system that provides unbiased, continuous testing and evaluation of AI models in real clinical settings to ensure their performance and safety.",
-    "investment_implications": "Investing in companies that can serve as an independent referee for healthcare AI models is essential for validating their effectiveness and building trust in the technology.",
-    "source_type": "auto_extracted",
-    "mention_count": 1,
-    "source_diversity": 1,
-    "relevance_score": 50,
-    "submitted_date": "2026-08-24 12:02:04",
-    "priority_score": 80
   }
 ],
   podcastGuests: [
   {
-    "id": 58139,
+    "id": 58220,
     "name": "Michael Kratsios",
     "slug": "michael-kratsios",
     "bio": null,
@@ -38382,7 +38439,7 @@ const dashboardData = {
     "appearance_count": 1
   },
   {
-    "id": 58140,
+    "id": 58221,
     "name": "Emad Mostaque",
     "slug": "emad-mostaque",
     "bio": null,
@@ -38394,7 +38451,7 @@ const dashboardData = {
     "appearance_count": 3
   },
   {
-    "id": 58141,
+    "id": 58222,
     "name": "Angela Strange and Gabriel Vasquez",
     "slug": "angela-strange-and-gabriel-vasquez",
     "bio": null,
@@ -38406,7 +38463,7 @@ const dashboardData = {
     "appearance_count": 1
   },
   {
-    "id": 58142,
+    "id": 58223,
     "name": "Why Bessent Blinked",
     "slug": "why-bessent-blinked",
     "bio": null,
@@ -38418,7 +38475,7 @@ const dashboardData = {
     "appearance_count": 1
   },
   {
-    "id": 58143,
+    "id": 58224,
     "name": "Travis Kalanick",
     "slug": "travis-kalanick",
     "bio": null,
@@ -38430,7 +38487,7 @@ const dashboardData = {
     "appearance_count": 1
   },
   {
-    "id": 58144,
+    "id": 58225,
     "name": "Rahm Emanuel",
     "slug": "rahm-emanuel",
     "bio": null,
@@ -38442,7 +38499,7 @@ const dashboardData = {
     "appearance_count": 1
   },
   {
-    "id": 58145,
+    "id": 58226,
     "name": "Milton Berg",
     "slug": "milton-berg",
     "bio": "Milton Berg is a veteran technical analyst and CEO of Milton Berg Advisors, specializing in market turning-point analysis for institutional investors.",
@@ -38454,7 +38511,7 @@ const dashboardData = {
     "appearance_count": 1
   },
   {
-    "id": 58146,
+    "id": 58227,
     "name": "How Open",
     "slug": "how-open",
     "bio": null,
@@ -38466,7 +38523,7 @@ const dashboardData = {
     "appearance_count": 1
   },
   {
-    "id": 58147,
+    "id": 58228,
     "name": "Saronic Founders",
     "slug": "saronic-founders",
     "bio": null,
@@ -38478,7 +38535,7 @@ const dashboardData = {
     "appearance_count": 1
   },
   {
-    "id": 58148,
+    "id": 58229,
     "name": "OpenAI's Joshua Achiam",
     "slug": "openais-joshua-achiam",
     "bio": null,
@@ -38490,7 +38547,7 @@ const dashboardData = {
     "appearance_count": 1
   },
   {
-    "id": 58149,
+    "id": 58230,
     "name": "Marc Andreessen and Chris Dixon",
     "slug": "marc-andreessen-and-chris-dixon",
     "bio": null,
@@ -38502,7 +38559,7 @@ const dashboardData = {
     "appearance_count": 1
   },
   {
-    "id": 58150,
+    "id": 58231,
     "name": "AI for America's Small Businesses",
     "slug": "ai-for-americas-small-businesses",
     "bio": null,
@@ -38514,7 +38571,7 @@ const dashboardData = {
     "appearance_count": 1
   },
   {
-    "id": 58151,
+    "id": 58232,
     "name": "Luke Gromen",
     "slug": "luke-gromen",
     "bio": null,
@@ -38526,7 +38583,7 @@ const dashboardData = {
     "appearance_count": 1
   },
   {
-    "id": 58152,
+    "id": 58233,
     "name": "Travis Kelenick",
     "slug": "travis-kelenick",
     "bio": null,
@@ -38538,7 +38595,7 @@ const dashboardData = {
     "appearance_count": 1
   },
   {
-    "id": 58153,
+    "id": 58234,
     "name": "Travis Kalanick Is Back",
     "slug": "travis-kalanick-is-back",
     "bio": null,
@@ -38550,7 +38607,7 @@ const dashboardData = {
     "appearance_count": 1
   },
   {
-    "id": 58154,
+    "id": 58235,
     "name": "Interest Rates to 10%",
     "slug": "interest-rates-to-10",
     "bio": null,
@@ -38562,7 +38619,7 @@ const dashboardData = {
     "appearance_count": 1
   },
   {
-    "id": 58155,
+    "id": 58236,
     "name": "Nick Nemeth",
     "slug": "nick-nemeth",
     "bio": null,
@@ -38574,7 +38631,7 @@ const dashboardData = {
     "appearance_count": 1
   },
   {
-    "id": 58156,
+    "id": 58237,
     "name": "Urgent Update- AI Sputnik Moment",
     "slug": "urgent-update--ai-sputnik-moment",
     "bio": null,
@@ -38586,7 +38643,7 @@ const dashboardData = {
     "appearance_count": 1
   },
   {
-    "id": 58157,
+    "id": 58238,
     "name": "David Sachs",
     "slug": "david-sachs",
     "bio": null,
@@ -38598,7 +38655,7 @@ const dashboardData = {
     "appearance_count": 1
   },
   {
-    "id": 58158,
+    "id": 58239,
     "name": "Turbo Charged Trend Following",
     "slug": "turbo-charged-trend-following",
     "bio": null,
@@ -38611,6 +38668,66 @@ const dashboardData = {
   }
 ],
   pundits: [
+  {
+    "id": 418,
+    "name": "An Eshicharya",
+    "slug": "an-eshicharya",
+    "bio": "An Eshicharya is a General Partner at a venture capital firm, focusing on artificial intelligence and its applications. He is known for his insights on AI model competition and the rise of consumer AI, discussing the future of AI and its impact on various industries.",
+    "known_for": "His expertise in AI model competition and consumer AI, and his views on the future of AI applications.",
+    "net_worth_usd": 13800000000.0,
+    "net_worth_source": "https://www.africanbusinessreview.co.za/ilya-sutskever-net-worth/",
+    "net_worth_updated_at": "2026-08-26T06:50:42.066673",
+    "voice_tone": "Informed and optimistic about the future of AI.",
+    "voice_style": "Analytical with a focus on market dynamics and consumer behavior.",
+    "voice_delivery_notes": "Speaks with a clear and measured pace, emphasizing key points about AI's potential.",
+    "voice_profile_updated_at": "2026-08-26 11:50:07",
+    "last_seen": "2026-08-26 11:50:07",
+    "last_episode_title": "The State of AI: Macro, Apps, and Consumer",
+    "last_podcast_name": "The a16z Show",
+    "last_episode_date": "2026-08-26",
+    "mention_score": 1,
+    "mention_score_decayed": 1,
+    "last_main_idea": "Invest in the application layer of AI where significant value can be captured, and consider the emerging consumer AI space for new opportunities.",
+    "last_proof_cite": "The a16z Show \u2022 2026-08-26 \u2022 The State of AI: Macro, Apps, and Consumer",
+    "last_proof_snippet": "For the last few years, the biggest question in the AI was which model would win. The next phase may be less about the models, and more about what gets built on top of them. In this episode, Jen Cos sits down with an Eshicharya, to unpack w",
+    "supporting_takeaway": "Open weight models have an advantage and can lead to significant value capture at the application layer.",
+    "grokipedia_url": null,
+    "grokipedia_fetched_at": "2026-08-26T06:50:40.930566",
+    "pundit_profile": {
+      "source": "llm",
+      "source_model": "moonshot:moonshot-v1-8k",
+      "source_url": "",
+      "page_title": "An Eshicharya",
+      "fetched_at": "2026-08-26T11:50:40.930205+00:00",
+      "cliff_notes": "An Eshicharya is a venture capitalist with a focus on artificial intelligence and its applications. As a General Partner at a venture capital firm, he has been at the forefront of discussions around AI model competition and the burgeoning consumer AI market. His insights into the future of AI, including the transition from model competition to building applications on top of these models, have been influential in the tech industry. Eshicharya's work emphasizes the importance of the application layer in capturing value in the AI space, even as frontier labs continue to grow. He also highlights the potential for a renaissance in consumer AI, with personal agents beginning to perform tasks on behalf of users, suggesting a new generation of founders may need to think bigger about what AI makes possible.",
+      "derived": {
+        "current_role": "General Partner at a venture capital firm"
+      },
+      "infobox": {
+        "Born": "",
+        "Nationality": ""
+      },
+      "lead_paragraphs": [
+        "An Eshicharya is a venture capitalist with a focus on artificial intelligence and its applications. As a General Partner at a venture capital firm, he has been at the forefront of discussions around AI model competition and the burgeoning consumer AI market. His insights into the future of AI, including the transition from model competition to building applications on top of these models, have been influential in the tech industry.",
+        "Eshicharya's work emphasizes the importance of the application layer in capturing value in the AI space, even as frontier labs continue to grow. He also highlights the potential for a renaissance in consumer AI, with personal agents beginning to perform tasks on behalf of users, suggesting a new generation of founders may need to think bigger about what AI makes possible."
+      ],
+      "sections": [
+        {
+          "heading": "AI Model Competition",
+          "body": "An Eshicharya discusses the shift in AI from model competition to building applications on top of these models, emphasizing the importance of the application layer in capturing value."
+        },
+        {
+          "heading": "Consumer AI",
+          "body": "Eshicharya highlights the rise of consumer AI, where personal agents are beginning to shop, manage inboxes, and take action on behalf of users, suggesting a renaissance for consumer builders."
+        },
+        {
+          "heading": "Future of AI",
+          "body": "An Eshicharya shares his views on where AI is headed, discussing why AI models aren't becoming commodities and the advantages of open weight models in the competitive landscape."
+        }
+      ]
+    },
+    "net_worth": "$13.80B"
+  },
   {
     "id": 333,
     "name": "Dylan Patel",
@@ -42336,7 +42453,7 @@ const dashboardData = {
     "last_podcast_name": "The a16z Show",
     "last_episode_date": "2026-07-23",
     "mention_score": 1,
-    "mention_score_decayed": 0.48,
+    "mention_score_decayed": 0.47,
     "last_main_idea": "Industrial AI represents a substantial opportunity to transform physical industries through automation and AI, creating significant value beyond traditional software solutions.",
     "last_proof_cite": "The a16z Show \u2022 2026-07-23 \u2022 Building the Physical AI Stack | Travis Kalanick on TBPN",
     "last_proof_snippet": "Travis Kelenick joins TVPN to discuss why he's betting his next company on industrial AI. He shares his vision behind atoms, explains how autonomy is transforming industries like mining and food production, and discusses why bringing AI int",
@@ -42396,7 +42513,7 @@ const dashboardData = {
     "last_podcast_name": "Latent Space: The AI Engineer Podcast",
     "last_episode_date": "2026-07-23",
     "mention_score": 1,
-    "mention_score_decayed": 0.47,
+    "mention_score_decayed": 0.46,
     "last_main_idea": "Investing in AI development, particularly in the democratization of AI and the scaling of language models, can lead to significant innovation and competitive advantage.",
     "last_proof_cite": "Latent Space: The AI Engineer Podcast \u2022 2026-07-23 \u2022 Inside the Model Factory \u2014 Eiso Kant, Poolside AI",
     "last_proof_snippet": "All right, we're here in the studio. If I was a countryman, we'll fight together with people. Welcome. Thanks, thank you, guys. It's good to be here. Yeah, fresh on the plane. You texted me, you're like, hey, I'm on my way to SF. I was like",
@@ -45652,7 +45769,7 @@ const dashboardData = {
     "last_podcast_name": "The Jack Mallers Show",
     "last_episode_date": "2026-06-16",
     "mention_score": 2,
-    "mention_score_decayed": 0.4,
+    "mention_score_decayed": 0.39,
     "last_main_idea": "Investors should monitor Bitcoin as a leading market indicator and scrutinize the capital structures of Bitcoin treasury companies for potential risks and rewards, while maintaining a long-term perspective.",
     "last_proof_cite": "The Jack Mallers Show \u2022 2026-06-16 \u2022 15 Questions: The Strait, Strategy, mNAV, Dilution, & My Boots",
     "last_proof_snippet": "Yo, welcome back to another episode of the Jack Mallors Show. I'm your host Jack, and you're listening to mail bag Monday, ladies and gentlemen. Oh, there's my resources tab, my AI tool. All right, let's get back to slide one. You were list",

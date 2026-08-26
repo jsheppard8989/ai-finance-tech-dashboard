@@ -1,6 +1,25 @@
 {
   "insights": [
     {
+      "id": 440,
+      "title": "The State of AI: Macro, Apps, and Consumer",
+      "source_type": "podcast",
+      "source_name": "The a16z Show",
+      "source_date": "2026-08-26",
+      "summary": "In this episode of the a16z Show, Jen Cos sits down with An Eshicharya to discuss the future of AI, moving beyond the competition among models to the applications built on top of them. They explore the competitive landscape of AI models, the potential for applications to capture significant value, and the rise of consumer AI with personal agents. The conversation also touches on the renaissance for consumer builders and the need for founders to think bigger about what AI can achieve.",
+      "key_takeaway": "Invest in the application layer of AI where significant value can be captured, and consider the emerging consumer AI space for new opportunities.",
+      "tickers_mentioned": [
+        "NVDA"
+      ],
+      "sentiment": "neutral",
+      "display_on_main": 1,
+      "display_order": 0,
+      "added_date": "2026-08-26",
+      "archived_date": null,
+      "archived_reason": null,
+      "podcast_episode_id": 425
+    },
+    {
       "id": 439,
       "title": "Dylan Patel \u2013 Anthropic & OpenAI will have most of the world\u2019s compute by 2028",
       "source_type": "podcast",
@@ -166,7 +185,7 @@
         "CORN"
       ],
       "sentiment": "bullish",
-      "display_on_main": 1,
+      "display_on_main": 0,
       "display_order": 0,
       "added_date": "2026-08-20",
       "archived_date": null,
@@ -10538,20 +10557,20 @@
     {
       "id": 114,
       "term": "AI Agents",
-      "description": "Autonomous AI systems that can act on behalf of users or other systems, creating new challenges in cybersecurity.",
+      "description": "Software agents that perform tasks on behalf of users, embodying the next wave of consumer AI.",
       "first_detected_date": "2026-02-28",
-      "last_mentioned_date": "2026-08-21",
-      "mention_count": 67,
+      "last_mentioned_date": "2026-08-26",
+      "mention_count": 68,
       "source_podcasts": null,
       "status": "active",
-      "investment_implications": "Investors should consider companies developing security solutions to manage and mitigate risks associated with AI agents.",
+      "investment_implications": "Investors should look for opportunities in companies developing AI agents for consumer applications.",
       "display_on_main": 0,
       "archived_date": null,
       "archived_reason": null,
       "first_detected_episode_id": 31,
       "first_detected_speaker": null,
-      "last_mentioned_episode_id": 419,
-      "last_mentioned_speaker": "Elon Musk"
+      "last_mentioned_episode_id": 425,
+      "last_mentioned_speaker": "An Eshicharya"
     },
     {
       "id": 38,

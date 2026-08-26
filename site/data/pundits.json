@@ -1,5 +1,65 @@
 [
   {
+    "id": 418,
+    "name": "An Eshicharya",
+    "slug": "an-eshicharya",
+    "bio": "An Eshicharya is a General Partner at a venture capital firm, focusing on artificial intelligence and its applications. He is known for his insights on AI model competition and the rise of consumer AI, discussing the future of AI and its impact on various industries.",
+    "known_for": "His expertise in AI model competition and consumer AI, and his views on the future of AI applications.",
+    "net_worth_usd": 13800000000.0,
+    "net_worth_source": "https://www.africanbusinessreview.co.za/ilya-sutskever-net-worth/",
+    "net_worth_updated_at": "2026-08-26T06:50:42.066673",
+    "voice_tone": "Informed and optimistic about the future of AI.",
+    "voice_style": "Analytical with a focus on market dynamics and consumer behavior.",
+    "voice_delivery_notes": "Speaks with a clear and measured pace, emphasizing key points about AI's potential.",
+    "voice_profile_updated_at": "2026-08-26 11:50:07",
+    "last_seen": "2026-08-26 11:50:07",
+    "last_episode_title": "The State of AI: Macro, Apps, and Consumer",
+    "last_podcast_name": "The a16z Show",
+    "last_episode_date": "2026-08-26",
+    "mention_score": 1,
+    "mention_score_decayed": 1,
+    "last_main_idea": "Invest in the application layer of AI where significant value can be captured, and consider the emerging consumer AI space for new opportunities.",
+    "last_proof_cite": "The a16z Show \u2022 2026-08-26 \u2022 The State of AI: Macro, Apps, and Consumer",
+    "last_proof_snippet": "For the last few years, the biggest question in the AI was which model would win. The next phase may be less about the models, and more about what gets built on top of them. In this episode, Jen Cos sits down with an Eshicharya, to unpack w",
+    "supporting_takeaway": "Open weight models have an advantage and can lead to significant value capture at the application layer.",
+    "grokipedia_url": null,
+    "grokipedia_fetched_at": "2026-08-26T06:50:40.930566",
+    "pundit_profile": {
+      "source": "llm",
+      "source_model": "moonshot:moonshot-v1-8k",
+      "source_url": "",
+      "page_title": "An Eshicharya",
+      "fetched_at": "2026-08-26T11:50:40.930205+00:00",
+      "cliff_notes": "An Eshicharya is a venture capitalist with a focus on artificial intelligence and its applications. As a General Partner at a venture capital firm, he has been at the forefront of discussions around AI model competition and the burgeoning consumer AI market. His insights into the future of AI, including the transition from model competition to building applications on top of these models, have been influential in the tech industry. Eshicharya's work emphasizes the importance of the application layer in capturing value in the AI space, even as frontier labs continue to grow. He also highlights the potential for a renaissance in consumer AI, with personal agents beginning to perform tasks on behalf of users, suggesting a new generation of founders may need to think bigger about what AI makes possible.",
+      "derived": {
+        "current_role": "General Partner at a venture capital firm"
+      },
+      "infobox": {
+        "Born": "",
+        "Nationality": ""
+      },
+      "lead_paragraphs": [
+        "An Eshicharya is a venture capitalist with a focus on artificial intelligence and its applications. As a General Partner at a venture capital firm, he has been at the forefront of discussions around AI model competition and the burgeoning consumer AI market. His insights into the future of AI, including the transition from model competition to building applications on top of these models, have been influential in the tech industry.",
+        "Eshicharya's work emphasizes the importance of the application layer in capturing value in the AI space, even as frontier labs continue to grow. He also highlights the potential for a renaissance in consumer AI, with personal agents beginning to perform tasks on behalf of users, suggesting a new generation of founders may need to think bigger about what AI makes possible."
+      ],
+      "sections": [
+        {
+          "heading": "AI Model Competition",
+          "body": "An Eshicharya discusses the shift in AI from model competition to building applications on top of these models, emphasizing the importance of the application layer in capturing value."
+        },
+        {
+          "heading": "Consumer AI",
+          "body": "Eshicharya highlights the rise of consumer AI, where personal agents are beginning to shop, manage inboxes, and take action on behalf of users, suggesting a renaissance for consumer builders."
+        },
+        {
+          "heading": "Future of AI",
+          "body": "An Eshicharya shares his views on where AI is headed, discussing why AI models aren't becoming commodities and the advantages of open weight models in the competitive landscape."
+        }
+      ]
+    },
+    "net_worth": "$13.80B"
+  },
+  {
     "id": 333,
     "name": "Dylan Patel",
     "slug": "dylan-patel",
@@ -3724,7 +3784,7 @@
     "last_podcast_name": "The a16z Show",
     "last_episode_date": "2026-07-23",
     "mention_score": 1,
-    "mention_score_decayed": 0.48,
+    "mention_score_decayed": 0.47,
     "last_main_idea": "Industrial AI represents a substantial opportunity to transform physical industries through automation and AI, creating significant value beyond traditional software solutions.",
     "last_proof_cite": "The a16z Show \u2022 2026-07-23 \u2022 Building the Physical AI Stack | Travis Kalanick on TBPN",
     "last_proof_snippet": "Travis Kelenick joins TVPN to discuss why he's betting his next company on industrial AI. He shares his vision behind atoms, explains how autonomy is transforming industries like mining and food production, and discusses why bringing AI int",
@@ -3784,7 +3844,7 @@
     "last_podcast_name": "Latent Space: The AI Engineer Podcast",
     "last_episode_date": "2026-07-23",
     "mention_score": 1,
-    "mention_score_decayed": 0.47,
+    "mention_score_decayed": 0.46,
     "last_main_idea": "Investing in AI development, particularly in the democratization of AI and the scaling of language models, can lead to significant innovation and competitive advantage.",
     "last_proof_cite": "Latent Space: The AI Engineer Podcast \u2022 2026-07-23 \u2022 Inside the Model Factory \u2014 Eiso Kant, Poolside AI",
     "last_proof_snippet": "All right, we're here in the studio. If I was a countryman, we'll fight together with people. Welcome. Thanks, thank you, guys. It's good to be here. Yeah, fresh on the plane. You texted me, you're like, hey, I'm on my way to SF. I was like",
@@ -7040,7 +7100,7 @@
     "last_podcast_name": "The Jack Mallers Show",
     "last_episode_date": "2026-06-16",
     "mention_score": 2,
-    "mention_score_decayed": 0.4,
+    "mention_score_decayed": 0.39,
     "last_main_idea": "Investors should monitor Bitcoin as a leading market indicator and scrutinize the capital structures of Bitcoin treasury companies for potential risks and rewards, while maintaining a long-term perspective.",
     "last_proof_cite": "The Jack Mallers Show \u2022 2026-06-16 \u2022 15 Questions: The Strait, Strategy, mNAV, Dilution, & My Boots",
     "last_proof_snippet": "Yo, welcome back to another episode of the Jack Mallors Show. I'm your host Jack, and you're listening to mail bag Monday, ladies and gentlemen. Oh, there's my resources tab, my AI tool. All right, let's get back to slide one. You were list",

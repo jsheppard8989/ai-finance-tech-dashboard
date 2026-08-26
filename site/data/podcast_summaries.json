@@ -1,5 +1,22 @@
 [
   {
+    "id": 425,
+    "podcast_name": "The a16z Show",
+    "episode_title": "The State of AI: Macro, Apps, and Consumer",
+    "episode_date": "2026-08-26",
+    "summary": "In this episode of the a16z Show, Jen Cos sits down with An Eshicharya to discuss the future of AI, moving beyond the competition among models to the applications built on top of them. They explore the competitive landscape of AI models, the potential for applications to capture significant value, and the rise of consumer AI with personal agents. The conversation also touches on the renaissance for consumer builders and the need for founders to think bigger about what AI can achieve.",
+    "key_takeaways": [
+      "AI models are not becoming commodities and there could be multiple winners in the space.",
+      "Open weight models have an advantage and can lead to significant value capture at the application layer.",
+      "Consumer AI is emerging with personal agents that can shop and manage tasks on behalf of users.",
+      "AI's potential is vast, and a new generation of founders should think bigger about what's possible.",
+      "There's a shift in enterprise automation through AI, making changes at the surface level of entire businesses.",
+      "SMEs and new business formations are areas where AI adoption is growing, with a focus on word-of-mouth marketing."
+    ],
+    "investment_thesis": "Invest in the application layer of AI where significant value can be captured, and consider the emerging consumer AI space for new opportunities.",
+    "key_tickers": null
+  },
+  {
     "id": 424,
     "podcast_name": "Dwarkesh Podcast",
     "episode_title": "Dylan Patel \u2013 Anthropic & OpenAI will have most of the world\u2019s compute by 2028",
@@ -115,24 +132,5 @@
     ],
     "investment_thesis": "Investment in AI companies requires considering not only technological advancement but also the regulatory landscape and potential societal impact.",
     "key_tickers": null
-  },
-  {
-    "id": 417,
-    "podcast_name": "Monetary Matters with Jack Farley",
-    "episode_title": "Why Bessent Blinked | Luke Gromen on Doubling of Treasury Buyback Plan to Tame Long-End Yields",
-    "episode_date": "2026-08-20",
-    "summary": "In this episode of Monetary Matters, Jack Farley discusses with Luke Groman of Forest for the Trees Research the impact of AI and government spending on borrowing costs and long-end yields. They analyze the AI capex build out's effect on the economy, the rise in yields, and the Treasury Secretary's recent announcement to double the size of treasury buybacks. The conversation also touches on potential strategies for managing long rates and the implications for inflation, bondholders, and the stock market.",
-    "key_takeaways": [
-      "AI and government spending are driving up borrowing costs, leading to a rise in long-end yields.",
-      "Hyperscaler issuance for the year is projected to be around 500 billion, significantly impacting the market.",
-      "The Treasury Secretary's announcement to double the size of treasury buybacks is seen as a form of yield curve control.",
-      "The conversation suggests that managing long rates via buybacks could be a precursor to more aggressive monetary policy.",
-      "Inflation, wages, and nominal GDP growth are expected to be significantly affected by these policies.",
-      "The discussion highlights the potential for a significant shift in the valuation of gold as a strategy for managing the national debt."
-    ],
-    "investment_thesis": "The rise in AI capex and government spending is leading to increased borrowing costs, which will have profound effects on bond markets and inflation, creating both risks and opportunities for investors.",
-    "key_tickers": [
-      "CORN"
-    ]
   }
 ]
