@@ -1,5 +1,24 @@
 [
   {
+    "id": 428,
+    "podcast_name": "Monetary Matters with Jack Farley",
+    "episode_title": "The Commodity Bull Market Is Broadening | Jim Wiederhold on Copper, Grains, and Bloomberg Commodity Index",
+    "episode_date": "2026-08-26",
+    "summary": "In this episode of Monetary Matters with Jack Farley, Jim Weederhold, commodity indices product manager at Bloomberg, discusses the current state and future outlook of the commodity complex. Key themes include the impact of AI on metals like copper and silver, the role of energy commodities in production costs, and the potential for extreme price appreciation in certain commodities. The conversation also touches on macroeconomic shifts, such as de-globalization and increased costs of doing business, which are driving up commodity prices. Additionally, Weederhold shares his insights on agricultural commodities and the potential sleeper in the corn market due to fertilizer costs and supply disruptions.",
+    "key_takeaways": [
+      "AI and data center build-outs are significant drivers for commodities, particularly metals like copper and silver.",
+      "Macroeconomic themes such as de-globalization and increased costs of doing business are contributing to higher commodity prices.",
+      "Energy commodities have seen the most significant price movement this year, impacting the cost of production for other commodities.",
+      "Industrial metals like copper and zinc are expected to outperform precious metals like gold and silver due to historical price patterns and market conditions.",
+      "Agricultural commodities, particularly corn and soybeans, may face future price appreciation due to fertilizer cost increases and potential supply disruptions.",
+      "Refined petroleum products are experiencing scarcity and high crack spreads compared to crude oil, leading to significant price appreciation."
+    ],
+    "investment_thesis": "The commodity complex is poised for continued price appreciation due to macroeconomic tailwinds, increased production costs, and the impact of AI on demand for certain metals.",
+    "key_tickers": [
+      "CORN"
+    ]
+  },
+  {
     "id": 427,
     "podcast_name": "Monetary Matters with Jack Farley",
     "episode_title": "Time to Reduce Equity Risk: Why Underappreciated Macro Risks Could Derail the Bull Market | Warren Pies",
@@ -119,23 +138,6 @@
       "Understanding the value of technology is crucial for accurate pricing in the AI market."
     ],
     "investment_thesis": "Investing in healthcare AI requires a focus on companies that can provide safe, aligned data and independent evaluation of AI models to ensure their usefulness and safety in real-world clinical settings.",
-    "key_tickers": null
-  },
-  {
-    "id": 420,
-    "podcast_name": "Latent Space: The AI Engineer Podcast",
-    "episode_title": "Simulation: the new Scaling Law \u2014 Joon Sung Park, Simile AI",
-    "episode_date": "2026-08-21",
-    "summary": "In this episode, the guest shares their journey from a non-technical background to becoming a prominent figure in AI research. They discuss their influential paper on foundation models, the potential applications of these models, and the challenges in predicting human behavior. The conversation also touches on the importance of simulation in decision-making and the future of AI technology. The guest, who has built a successful company around these concepts, shares insights into their hiring process and the blend of research and product development within their organization.",
-    "key_takeaways": [
-      "The guest's paper on foundation models was highly influential in the field of AI.",
-      "Foundation models are likened to stem cells, capable of doing anything and everything.",
-      "The guest's company is a blend of research lab and product development company, focusing on simulation technology.",
-      "Data from well-designed random and controlled trials can significantly improve models' ability to predict human behavior.",
-      "The guest discusses the importance of understanding what is fundamentally human when developing AI models.",
-      "The company is hiring across all sections, with a focus on research talent and engineers."
-    ],
-    "investment_thesis": "Investing in companies that are at the forefront of AI and simulation technology could yield significant returns as these technologies become more integrated into everyday decision-making.",
     "key_tickers": null
   }
 ]

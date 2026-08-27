@@ -58,6 +58,25 @@
       "podcast_episode_id": 426
     },
     {
+      "id": 443,
+      "title": "The Commodity Bull Market Is Broadening | Jim Wiederhold on Copper, Grains, and Bloomberg Commodity Index",
+      "source_type": "podcast",
+      "source_name": "Monetary Matters with Jack Farley",
+      "source_date": "2026-08-26",
+      "summary": "In this episode of Monetary Matters with Jack Farley, Jim Weederhold, commodity indices product manager at Bloomberg, discusses the current state and future outlook of the commodity complex. Key themes include the impact of AI on metals like copper and silver, the role of energy commodities in production costs, and the potential for extreme price appreciation in certain commodities. The conversation also touches on macroeconomic shifts, such as de-globalization and increased costs of doing business, which are driving up commodity prices. Additionally, Weederhold shares his insights on agricultural commodities and the potential sleeper in the corn market due to fertilizer costs and supply disruptions.",
+      "key_takeaway": "The commodity complex is poised for continued price appreciation due to macroeconomic tailwinds, increased production costs, and the impact of AI on demand for certain metals.",
+      "tickers_mentioned": [
+        "CORN"
+      ],
+      "sentiment": "neutral",
+      "display_on_main": 1,
+      "display_order": 0,
+      "added_date": "2026-08-26",
+      "archived_date": null,
+      "archived_reason": null,
+      "podcast_episode_id": 428
+    },
+    {
       "id": 439,
       "title": "Dylan Patel \u2013 Anthropic & OpenAI will have most of the world\u2019s compute by 2028",
       "source_type": "podcast",
@@ -185,7 +204,7 @@
         "MSFT"
       ],
       "sentiment": "neutral",
-      "display_on_main": 1,
+      "display_on_main": 0,
       "display_order": 0,
       "added_date": "2026-08-22",
       "archived_date": null,
@@ -8923,8 +8942,8 @@
       "term": "Electrification",
       "description": "The process of converting systems or industries to use electricity as the primary power source.",
       "first_detected_date": "2026-06-18",
-      "last_mentioned_date": "2026-08-20",
-      "mention_count": 3,
+      "last_mentioned_date": "2026-08-26",
+      "mention_count": 4,
       "source_podcasts": null,
       "status": "active",
       "investment_implications": "Investors should focus on companies involved in the electrification of the grid and power generation, as demand for electricity is projected to increase.",
@@ -8933,8 +8952,8 @@
       "archived_reason": null,
       "first_detected_episode_id": 297,
       "first_detected_speaker": "Chris Seminoch",
-      "last_mentioned_episode_id": 417,
-      "last_mentioned_speaker": "Luke Groman"
+      "last_mentioned_episode_id": 428,
+      "last_mentioned_speaker": "Jim Weederhold"
     },
     {
       "id": 258,

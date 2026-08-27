@@ -3,80 +3,80 @@
 
 const dashboardData = {
   schemaVersion: 2,
-  generatedAt: "2026-08-26T13:44:25.518700",
-  chartsVersion: "2026-08-26T13:44:16.064882",
+  generatedAt: "2026-08-26T22:48:21.265843",
+  chartsVersion: "2026-08-26T22:48:11.671844",
   priceSnapshot: {
   "GOOGL": {
-    "price": 341.52,
-    "change_pct": -3.61,
+    "price": 342.0,
+    "change_pct": -3.47,
     "name": "GOOGL",
-    "updated_at": "2026-08-26T13:44:16.063574"
+    "updated_at": "2026-08-26T22:48:11.670365"
   },
   "NVDA": {
-    "price": 210.66,
-    "change_pct": -5.94,
+    "price": 209.66,
+    "change_pct": -6.39,
     "name": "NVDA",
-    "updated_at": "2026-08-26T13:44:16.063591"
+    "updated_at": "2026-08-26T22:48:11.670384"
   },
   "MSFT": {
-    "price": 493.96,
-    "change_pct": -1.02,
+    "price": 496.37,
+    "change_pct": -0.54,
     "name": "MSFT",
-    "updated_at": "2026-08-26T13:44:16.063598"
+    "updated_at": "2026-08-26T22:48:11.670392"
   },
   "BTC": {
-    "price": 78281.97,
-    "change_pct": 23.47,
+    "price": 78857.68,
+    "change_pct": 25.22,
     "name": "BTC",
-    "updated_at": "2026-08-26T13:44:16.063603"
+    "updated_at": "2026-08-26T22:48:11.670400"
   },
   "TSLA": {
-    "price": 345.61,
-    "change_pct": 5.18,
+    "price": 345.82,
+    "change_pct": 5.25,
     "name": "TSLA",
-    "updated_at": "2026-08-26T13:44:16.063609"
+    "updated_at": "2026-08-26T22:48:11.670407"
   },
   "AMZN": {
-    "price": 258.93,
-    "change_pct": -5.67,
+    "price": 260.28,
+    "change_pct": -5.17,
     "name": "AMZN",
-    "updated_at": "2026-08-26T13:44:16.063615"
+    "updated_at": "2026-08-26T22:48:11.670414"
   },
   "META": {
-    "price": 579.27,
-    "change_pct": -2.17,
+    "price": 576.14,
+    "change_pct": -2.7,
     "name": "META",
-    "updated_at": "2026-08-26T13:44:16.063621"
+    "updated_at": "2026-08-26T22:48:11.670421"
   },
   "WTI": {
     "price": 3.57,
     "change_pct": 4.35,
     "name": "WTI",
-    "updated_at": "2026-08-26T13:44:16.063627"
+    "updated_at": "2026-08-26T22:48:11.670443"
   },
   "S&P 500": {
-    "price": 765.79,
-    "change_pct": -0.97,
+    "price": 766.08,
+    "change_pct": -0.93,
     "name": "S&P 500",
-    "updated_at": "2026-08-26T13:44:16.063633"
+    "updated_at": "2026-08-26T22:48:11.670452"
   },
   "AAPL": {
-    "price": 313.44,
+    "price": 313.45,
     "change_pct": 0.12,
     "name": "AAPL",
-    "updated_at": "2026-08-26T13:44:16.063639"
+    "updated_at": "2026-08-26T22:48:11.670461"
   },
   "QQQ": {
-    "price": 711.17,
-    "change_pct": -1.64,
+    "price": 711.37,
+    "change_pct": -1.61,
     "name": "Invesco QQQ Trust",
-    "updated_at": "2026-08-26T13:44:16.063644"
+    "updated_at": "2026-08-26T22:48:11.670469"
   },
   "BTC-USD": {
-    "price": 78281.97,
-    "change_pct": 23.47,
+    "price": 78857.68,
+    "change_pct": 25.22,
     "name": "Bitcoin USD",
-    "updated_at": "2026-08-26T13:44:16.063651"
+    "updated_at": "2026-08-26T22:48:11.670563"
   }
 },
   tickerScores: [
@@ -891,6 +891,25 @@ const dashboardData = {
       "podcast_episode_id": 426
     },
     {
+      "id": 443,
+      "title": "The Commodity Bull Market Is Broadening | Jim Wiederhold on Copper, Grains, and Bloomberg Commodity Index",
+      "source_type": "podcast",
+      "source_name": "Monetary Matters with Jack Farley",
+      "source_date": "2026-08-26",
+      "summary": "In this episode of Monetary Matters with Jack Farley, Jim Weederhold, commodity indices product manager at Bloomberg, discusses the current state and future outlook of the commodity complex. Key themes include the impact of AI on metals like copper and silver, the role of energy commodities in production costs, and the potential for extreme price appreciation in certain commodities. The conversation also touches on macroeconomic shifts, such as de-globalization and increased costs of doing business, which are driving up commodity prices. Additionally, Weederhold shares his insights on agricultural commodities and the potential sleeper in the corn market due to fertilizer costs and supply disruptions.",
+      "key_takeaway": "The commodity complex is poised for continued price appreciation due to macroeconomic tailwinds, increased production costs, and the impact of AI on demand for certain metals.",
+      "tickers_mentioned": [
+        "CORN"
+      ],
+      "sentiment": "neutral",
+      "display_on_main": 1,
+      "display_order": 0,
+      "added_date": "2026-08-26",
+      "archived_date": null,
+      "archived_reason": null,
+      "podcast_episode_id": 428
+    },
+    {
       "id": 439,
       "title": "Dylan Patel \u2013 Anthropic & OpenAI will have most of the world\u2019s compute by 2028",
       "source_type": "podcast",
@@ -1018,7 +1037,7 @@ const dashboardData = {
         "MSFT"
       ],
       "sentiment": "neutral",
-      "display_on_main": 1,
+      "display_on_main": 0,
       "display_order": 0,
       "added_date": "2026-08-22",
       "archived_date": null,
@@ -9756,8 +9775,8 @@ const dashboardData = {
       "term": "Electrification",
       "description": "The process of converting systems or industries to use electricity as the primary power source.",
       "first_detected_date": "2026-06-18",
-      "last_mentioned_date": "2026-08-20",
-      "mention_count": 3,
+      "last_mentioned_date": "2026-08-26",
+      "mention_count": 4,
       "source_podcasts": null,
       "status": "active",
       "investment_implications": "Investors should focus on companies involved in the electrification of the grid and power generation, as demand for electricity is projected to increase.",
@@ -9766,8 +9785,8 @@ const dashboardData = {
       "archived_reason": null,
       "first_detected_episode_id": 297,
       "first_detected_speaker": "Chris Seminoch",
-      "last_mentioned_episode_id": 417,
-      "last_mentioned_speaker": "Luke Groman"
+      "last_mentioned_episode_id": 428,
+      "last_mentioned_speaker": "Jim Weederhold"
     },
     {
       "id": 258,
@@ -11770,6 +11789,28 @@ const dashboardData = {
       ]
     },
     {
+      "id": 443,
+      "title": "The Commodity Bull Market Is Broadening | Jim Wiederhold on Copper, Grains, and Bloomberg Commodity Index",
+      "source_type": "podcast",
+      "source_name": "Monetary Matters with Jack Farley",
+      "source_date": "2026-08-26",
+      "summary": "In this episode of Monetary Matters with Jack Farley, Jim Weederhold, commodity indices product manager at Bloomberg, discusses the current state and future outlook of the commodity complex. Key themes include the impact of AI on metals like copper and silver, the role of energy commodities in production costs, and the potential for extreme price appreciation in certain commodities. The conversation also touches on macroeconomic shifts, such as de-globalization and increased costs of doing business, which are driving up commodity prices. Additionally, Weederhold shares his insights on agricultural commodities and the potential sleeper in the corn market due to fertilizer costs and supply disruptions.",
+      "key_takeaway": "The commodity complex is poised for continued price appreciation due to macroeconomic tailwinds, increased production costs, and the impact of AI on demand for certain metals.",
+      "tickers_mentioned": "[\"CORN\"]",
+      "sentiment": "neutral",
+      "display_on_main": 1,
+      "display_order": 0,
+      "added_date": "2026-08-26",
+      "archived_date": null,
+      "archived_reason": null,
+      "podcast_episode_id": 428,
+      "episode_release_date": "2026-08-26",
+      "guest_name": null,
+      "key_tickers": [
+        "CORN"
+      ]
+    },
+    {
       "id": 439,
       "title": "Dylan Patel \u2013 Anthropic & OpenAI will have most of the world\u2019s compute by 2028",
       "source_type": "podcast",
@@ -11849,26 +11890,6 @@ const dashboardData = {
       "podcast_episode_id": 423,
       "episode_release_date": "2026-08-24",
       "guest_name": "Michael Kratsios",
-      "key_tickers": []
-    },
-    {
-      "id": 435,
-      "title": "Simulation: the new Scaling Law \u2014 Joon Sung Park, Simile AI",
-      "source_type": "podcast",
-      "source_name": "Latent Space: The AI Engineer Podcast",
-      "source_date": "2026-08-21",
-      "summary": "In this episode, the guest shares their journey from a non-technical background to becoming a prominent figure in AI research. They discuss their influential paper on foundation models, the potential applications of these models, and the challenges in predicting human behavior. The conversation also touches on the importance of simulation in decision-making and the future of AI technology. The guest, who has built a successful company around these concepts, shares insights into their hiring process and the blend of research and product development within their organization.",
-      "key_takeaway": "Investing in companies that are at the forefront of AI and simulation technology could yield significant returns as these technologies become more integrated into everyday decision-making.",
-      "tickers_mentioned": "[\"AAPL\", \"GOOGL\", \"MSFT\"]",
-      "sentiment": "neutral",
-      "display_on_main": 1,
-      "display_order": 0,
-      "added_date": "2026-08-22",
-      "archived_date": null,
-      "archived_reason": null,
-      "podcast_episode_id": 420,
-      "episode_release_date": "2026-08-21",
-      "guest_name": "Simulation",
       "key_tickers": []
     }
   ],
@@ -12230,6 +12251,32 @@ const dashboardData = {
       "last_mentioned_episode_date": "2026-08-18"
     },
     {
+      "id": 266,
+      "term": "Electrification",
+      "description": "The process of converting systems or industries to use electricity as the primary power source.",
+      "first_detected_date": "2026-06-18",
+      "last_mentioned_date": "2026-08-26",
+      "mention_count": 4,
+      "source_podcasts": null,
+      "status": "active",
+      "investment_implications": "Investors should focus on companies involved in the electrification of the grid and power generation, as demand for electricity is projected to increase.",
+      "display_on_main": 1,
+      "archived_date": null,
+      "archived_reason": null,
+      "first_detected_episode_id": 297,
+      "first_detected_speaker": "Chris Seminoch",
+      "last_mentioned_episode_id": 428,
+      "last_mentioned_speaker": "Jim Weederhold",
+      "overton_score": 4.0,
+      "resonance_pct": 100,
+      "first_detected_podcast": "Monetary Matters with Jack Farley",
+      "first_detected_episode_title": "The US Manufacturing and Electrification Megatrends Are Here and They\u2019re Way More Than AI | Chris Semenuk",
+      "first_detected_episode_date": "2026-06-18",
+      "last_mentioned_podcast": "Monetary Matters with Jack Farley",
+      "last_mentioned_episode_title": "The Commodity Bull Market Is Broadening | Jim Wiederhold on Copper, Grains, and Bloomberg Commodity Index",
+      "last_mentioned_episode_date": "2026-08-26"
+    },
+    {
       "id": 12,
       "term": "Yen Carry Trade",
       "description": "A strategy where investors borrow in Japanese yen (low interest rates ~0.25%) and invest in higher-yielding assets (US Treasuries, tech stocks, emerging markets).",
@@ -12306,32 +12353,6 @@ const dashboardData = {
       "last_mentioned_podcast": "All-In with Chamath, Jason, Sacks & Friedberg",
       "last_mentioned_episode_title": "Michael Kratsios: Trump's Science Agenda, Anti-Science Claims, Fauci's Damage, DEI & China",
       "last_mentioned_episode_date": "2026-08-24"
-    },
-    {
-      "id": 259,
-      "term": "Liquid AI",
-      "description": "A type of AI that focuses on efficient, general-purpose intelligence at various scales, often using small language models.",
-      "first_detected_date": "2026-07-17",
-      "last_mentioned_date": "2026-08-08",
-      "mention_count": 4,
-      "source_podcasts": null,
-      "status": "active",
-      "investment_implications": "Investors should consider companies developing Liquid AI for their potential to disrupt traditional AI markets and offer more adaptable solutions.",
-      "display_on_main": 1,
-      "archived_date": null,
-      "archived_reason": null,
-      "first_detected_episode_id": 354,
-      "first_detected_speaker": "Ramine Hassani",
-      "last_mentioned_episode_id": 393,
-      "last_mentioned_speaker": "Saline",
-      "overton_score": 2.64,
-      "resonance_pct": 66,
-      "first_detected_podcast": "Moonshots with Peter Diamandis",
-      "first_detected_episode_title": "Mira Murati's 975B Open Model, Ramin Hasani on Post-Transformer AI, and Demis' AI FINRA | EP #271",
-      "first_detected_episode_date": "2026-07-17",
-      "last_mentioned_podcast": "Moonshots with Peter Diamandis",
-      "last_mentioned_episode_title": "Google\u2019s Jeff Dean Exits, SpaceX Hits $100B in Rev & OpenAI\u2019s Astra Solves Decade-Old Math Problems with Emad Mostaque | EP #277",
-      "last_mentioned_episode_date": "2026-08-08"
     }
   ]
 },
@@ -38496,9 +38517,73 @@ const dashboardData = {
     "key_tickers": [
       "NVDA"
     ]
+  },
+  "443": {
+    "id": 432,
+    "insight_id": 443,
+    "podcast_episode_id": 428,
+    "overview": "Jim Weederhold highlighted the significant impact of increased production costs and weather disruptions on commodity prices. He noted that the cost to hire a tanker has increased by three to four times in certain areas due to the US-Iran war, and extreme weather events have lowered river levels, complicating the movement of goods. These factors, combined with de-globalization and increased business costs, are driving up the cost of commodities. Additionally, the energy transition towards renewables is creating a scarcity in metals like copper, which is used extensively in wiring for electric vehicles, solar panels, and data centers. The supply of copper is also facing constraints, with fewer large mines coming online compared to 25 years ago, potentially leading to a supply-demand imbalance.",
+    "key_takeaways_detailed": [],
+    "investment_thesis": "If the thesis of a broadening commodity bull market holds, allocators should consider increasing their exposure to commodities, particularly those linked to the energy transition and AI development. The timeframe for this investment could span several years, aligning with the projected growth in renewable energy and data center construction. Proof of this thesis would be sustained high prices for commodities like copper and silver, along with increased investment in new mining projects to meet demand. Conversely, a disproval would come from a significant drop in commodity prices or the emergence of alternative materials that reduce the demand for current metals.",
+    "ticker_analysis": {
+      "NVDA": {
+        "rationale": "NVIDIA is a key player in the AI and data center space, and its demand for copper and silver in its products makes it a clean expression of the idea. As the need for these metals grows due to AI advancements and data center expansion, NVIDIA's performance could be indicative of the underlying commodity trends.",
+        "positioning": "",
+        "risk": ""
+      }
+    },
+    "positioning_guidance": "",
+    "risk_factors": [],
+    "contrarian_signals": [],
+    "catalysts": [],
+    "related_insights": null,
+    "audio_timestamp_start": null,
+    "audio_timestamp_end": null,
+    "transcript_excerpt": null,
+    "created_at": "2026-08-26T22:47:13.884164",
+    "updated_at": "2026-08-27 03:47:13",
+    "episode_evidence": "- There's a clear ton of tailwinds for the commodity's asset class. So, not only on the demand side, like you said with AI, where we data center build-outs, which require a lot of metals power energy to do that, but also just, we general macro themes that are really taking hold this year.\n- The cost of doing business is going up, and it's leading to, you know, increase cost across commodity.",
+    "falsification_tracks": [
+      "A significant decrease in the cost of doing business globally, such as a reduction in freight costs or a resolution to geopolitical conflicts that currently inflate these costs.",
+      "Observed weather patterns returning to normal, alleviating the constraints on the movement and production of commodities caused by extreme weather events.",
+      "The discovery and development of new, large-scale copper mines that could meet the increasing demand from the energy transition and data center build-outs.",
+      "A substantial shift in global energy policies away from renewables, which would reduce the demand for copper and other metals critical to these technologies.",
+      "A technological breakthrough that significantly reduces the need for copper and silver in data centers and renewable energy infrastructure."
+    ],
+    "schema_version": 2,
+    "insight_title": "The Commodity Bull Market Is Broadening | Jim Wiederhold on Copper, Grains, and Bloomberg Commodity Index",
+    "source_name": "Monetary Matters with Jack Farley",
+    "source_date": "2026-08-26",
+    "key_tickers": [
+      "CORN"
+    ]
   }
 },
   suggestedTerms: [
+  {
+    "id": 612,
+    "term": "De-globalization",
+    "definition": "The reversal of globalization trends, leading to increased costs of doing business and potentially higher commodity prices.",
+    "investment_implications": "De-globalization may drive up the cost of production and transportation for commodities, affecting their prices and investment outlook.",
+    "source_type": "auto_extracted",
+    "mention_count": 1,
+    "source_diversity": 1,
+    "relevance_score": 50,
+    "submitted_date": "2026-08-27 03:45:44",
+    "priority_score": 80
+  },
+  {
+    "id": 613,
+    "term": "Cracked Spreads",
+    "definition": "The difference in price between refined petroleum products and crude oil, indicating market scarcity and price dynamics.",
+    "investment_implications": "High cracked spreads suggest a potential investment opportunity in refined petroleum products due to scarcity.",
+    "source_type": "auto_extracted",
+    "mention_count": 1,
+    "source_diversity": 1,
+    "relevance_score": 50,
+    "submitted_date": "2026-08-27 03:45:44",
+    "priority_score": 80
+  },
   {
     "id": 610,
     "term": "Macro Takeover",
@@ -38522,35 +38607,11 @@ const dashboardData = {
     "relevance_score": 50,
     "submitted_date": "2026-08-26 18:42:05",
     "priority_score": 80
-  },
-  {
-    "id": 609,
-    "term": "Neural Operators",
-    "definition": "A type of AI model used to capture and predict complex physical phenomena, such as weather patterns.",
-    "investment_implications": "Investing in companies developing neural operator technology could provide exposure to advancements in AI-driven scientific modeling.",
-    "source_type": "auto_extracted",
-    "mention_count": 1,
-    "source_diversity": 1,
-    "relevance_score": 50,
-    "submitted_date": "2026-08-26 18:41:12",
-    "priority_score": 80
-  },
-  {
-    "id": 607,
-    "term": "AI-native distribution channel",
-    "definition": "A distribution channel specifically designed for AI products, which has been lacking until now.",
-    "investment_implications": "The creation of AI-native distribution channels could be a significant opportunity for startups.",
-    "source_type": "auto_extracted",
-    "mention_count": 1,
-    "source_diversity": 1,
-    "relevance_score": 50,
-    "submitted_date": "2026-08-26 11:50:07",
-    "priority_score": 80
   }
 ],
   podcastGuests: [
   {
-    "id": 58382,
+    "id": 58464,
     "name": "Time to Reduce Equity Risk",
     "slug": "time-to-reduce-equity-risk",
     "bio": null,
@@ -38562,7 +38623,7 @@ const dashboardData = {
     "appearance_count": 1
   },
   {
-    "id": 58383,
+    "id": 58465,
     "name": "Michael Kratsios",
     "slug": "michael-kratsios",
     "bio": null,
@@ -38574,7 +38635,7 @@ const dashboardData = {
     "appearance_count": 1
   },
   {
-    "id": 58384,
+    "id": 58466,
     "name": "Emad Mostaque",
     "slug": "emad-mostaque",
     "bio": null,
@@ -38586,7 +38647,7 @@ const dashboardData = {
     "appearance_count": 3
   },
   {
-    "id": 58385,
+    "id": 58467,
     "name": "Angela Strange and Gabriel Vasquez",
     "slug": "angela-strange-and-gabriel-vasquez",
     "bio": null,
@@ -38598,7 +38659,7 @@ const dashboardData = {
     "appearance_count": 1
   },
   {
-    "id": 58386,
+    "id": 58468,
     "name": "Why Bessent Blinked",
     "slug": "why-bessent-blinked",
     "bio": null,
@@ -38610,7 +38671,7 @@ const dashboardData = {
     "appearance_count": 1
   },
   {
-    "id": 58387,
+    "id": 58469,
     "name": "Travis Kalanick",
     "slug": "travis-kalanick",
     "bio": null,
@@ -38622,7 +38683,7 @@ const dashboardData = {
     "appearance_count": 1
   },
   {
-    "id": 58388,
+    "id": 58470,
     "name": "Rahm Emanuel",
     "slug": "rahm-emanuel",
     "bio": null,
@@ -38634,7 +38695,7 @@ const dashboardData = {
     "appearance_count": 1
   },
   {
-    "id": 58389,
+    "id": 58471,
     "name": "Milton Berg",
     "slug": "milton-berg",
     "bio": "Milton Berg is a veteran technical analyst and CEO of Milton Berg Advisors, specializing in market turning-point analysis for institutional investors.",
@@ -38646,7 +38707,7 @@ const dashboardData = {
     "appearance_count": 1
   },
   {
-    "id": 58390,
+    "id": 58472,
     "name": "How Open",
     "slug": "how-open",
     "bio": null,
@@ -38658,7 +38719,7 @@ const dashboardData = {
     "appearance_count": 1
   },
   {
-    "id": 58391,
+    "id": 58473,
     "name": "Saronic Founders",
     "slug": "saronic-founders",
     "bio": null,
@@ -38670,7 +38731,7 @@ const dashboardData = {
     "appearance_count": 1
   },
   {
-    "id": 58392,
+    "id": 58474,
     "name": "OpenAI's Joshua Achiam",
     "slug": "openais-joshua-achiam",
     "bio": null,
@@ -38682,7 +38743,7 @@ const dashboardData = {
     "appearance_count": 1
   },
   {
-    "id": 58393,
+    "id": 58475,
     "name": "Marc Andreessen and Chris Dixon",
     "slug": "marc-andreessen-and-chris-dixon",
     "bio": null,
@@ -38694,7 +38755,7 @@ const dashboardData = {
     "appearance_count": 1
   },
   {
-    "id": 58394,
+    "id": 58476,
     "name": "AI for America's Small Businesses",
     "slug": "ai-for-americas-small-businesses",
     "bio": null,
@@ -38706,7 +38767,7 @@ const dashboardData = {
     "appearance_count": 1
   },
   {
-    "id": 58395,
+    "id": 58477,
     "name": "Luke Gromen",
     "slug": "luke-gromen",
     "bio": null,
@@ -38718,7 +38779,7 @@ const dashboardData = {
     "appearance_count": 1
   },
   {
-    "id": 58396,
+    "id": 58478,
     "name": "Travis Kelenick",
     "slug": "travis-kelenick",
     "bio": null,
@@ -38730,7 +38791,7 @@ const dashboardData = {
     "appearance_count": 1
   },
   {
-    "id": 58397,
+    "id": 58479,
     "name": "Travis Kalanick Is Back",
     "slug": "travis-kalanick-is-back",
     "bio": null,
@@ -38742,7 +38803,7 @@ const dashboardData = {
     "appearance_count": 1
   },
   {
-    "id": 58398,
+    "id": 58480,
     "name": "Interest Rates to 10%",
     "slug": "interest-rates-to-10",
     "bio": null,
@@ -38754,7 +38815,7 @@ const dashboardData = {
     "appearance_count": 1
   },
   {
-    "id": 58399,
+    "id": 58481,
     "name": "Nick Nemeth",
     "slug": "nick-nemeth",
     "bio": null,
@@ -38766,7 +38827,7 @@ const dashboardData = {
     "appearance_count": 1
   },
   {
-    "id": 58400,
+    "id": 58482,
     "name": "Urgent Update- AI Sputnik Moment",
     "slug": "urgent-update--ai-sputnik-moment",
     "bio": null,
@@ -38778,7 +38839,7 @@ const dashboardData = {
     "appearance_count": 1
   },
   {
-    "id": 58401,
+    "id": 58483,
     "name": "David Sachs",
     "slug": "david-sachs",
     "bio": null,
@@ -38791,6 +38852,69 @@ const dashboardData = {
   }
 ],
   pundits: [
+  {
+    "id": 422,
+    "name": "Jim Weederhold",
+    "slug": "jim-weederhold",
+    "bio": "Jim Weederhold is a commodity indices product manager at Bloomberg, where he specializes in the analysis and management of commodity indices. He is known for his expertise in market analysis and the impact of technology on commodity prices.",
+    "known_for": "Expertise in commodity indices and the influence of technology on market trends.",
+    "net_worth_usd": 5000000.0,
+    "net_worth_source": "https://moneyarcher.com/james-wedmore-net-worth/",
+    "net_worth_updated_at": "2026-08-26T22:46:52.946862",
+    "voice_tone": "Informative and analytical",
+    "voice_style": "Factual and data-driven",
+    "voice_delivery_notes": "Clear and concise with emphasis on key market insights",
+    "voice_profile_updated_at": "2026-08-27 03:45:44",
+    "last_seen": "2026-08-27 03:45:44",
+    "last_episode_title": "The Commodity Bull Market Is Broadening | Jim Wiederhold on Copper, Grains, and Bloomberg Commodity Index",
+    "last_podcast_name": "Monetary Matters with Jack Farley",
+    "last_episode_date": "2026-08-26",
+    "mention_score": 1,
+    "mention_score_decayed": 1,
+    "last_main_idea": "The commodity complex is poised for continued price appreciation due to macroeconomic tailwinds, increased production costs, and the impact of AI on demand for certain metals.",
+    "last_proof_cite": "Monetary Matters with Jack Farley \u2022 2026-08-26 \u2022 The Commodity Bull Market Is Broadening | Jim Wiederhold on Copper, Grains, and Bloomberg Commodity Index",
+    "last_proof_snippet": "Today's episode is brought to you by the two Korean corn fund, take our CORN. Let's get into it. Join today by Jim Weederhold, commodity indices product manager at Bloomberg, Jim, great to see you welcome to monetary matters. Jack, thanks.",
+    "supporting_takeaway": "Macroeconomic themes such as de-globalization and increased costs of doing business are contributing to higher commodity prices.",
+    "grokipedia_url": null,
+    "grokipedia_fetched_at": "2026-08-26T22:46:52.004839",
+    "pundit_profile": {
+      "source": "llm",
+      "source_model": "moonshot:moonshot-v1-8k",
+      "source_url": "",
+      "page_title": "Jim Weederhold",
+      "fetched_at": "2026-08-27T03:46:52.004266+00:00",
+      "cliff_notes": "Jim Weederhold is recognized for his in-depth understanding of commodity indices and market analysis. As a product manager at Bloomberg, he has been instrumental in shaping the discourse around commodities, particularly in the context of technological advancements such as AI and their impact on the demand for metals and energy. His insights into the macroeconomic themes that have been driving commodity prices over the past few years highlight the shift from a low-inflation, low-rate environment to one characterized by increased volatility and changing globalization dynamics. Weederhold's work is crucial for investors and market analysts looking to navigate the complex interplay between technology, commodities, and broader economic trends.",
+      "derived": {
+        "current_role": "Commodity Indices Product Manager at Bloomberg"
+      },
+      "infobox": {
+        "Industry": "Financial Services"
+      },
+      "lead_paragraphs": [
+        "Jim Weederhold is recognized for his in-depth understanding of commodity indices and market analysis. As a product manager at Bloomberg, he has been instrumental in shaping the discourse around commodities, particularly in the context of technological advancements such as AI and their impact on the demand for metals and energy.",
+        "His insights into the macroeconomic themes that have been driving commodity prices over the past few years highlight the shift from a low-inflation, low-rate environment to one characterized by increased volatility and changing globalization dynamics. Weederhold's work is crucial for investors and market analysts looking to navigate the complex interplay between technology, commodities, and broader economic trends."
+      ],
+      "sections": [
+        {
+          "heading": "Commodity Indices",
+          "body": "Jim Weederhold is a specialist in commodity indices, offering valuable insights into how these indices are influenced by various market factors including technological advancements."
+        },
+        {
+          "heading": "Market Analysis",
+          "body": "Weederhold's market analysis expertise allows him to identify key drivers in commodity pricing, such as the impact of AI and data center build-outs on the demand for metals and energy."
+        },
+        {
+          "heading": "Macroeconomic Trends",
+          "body": "He has a keen understanding of macroeconomic trends, explaining how shifts from the 2010s to the current decade have affected commodity asset classes and prices."
+        },
+        {
+          "heading": "Technology's Role",
+          "body": "Weederhold discusses the significant role that technology plays in commodity markets, particularly in driving demand for certain metals and energy sources due to AI and data processing needs."
+        }
+      ]
+    },
+    "net_worth": "$5.0M"
+  },
   {
     "id": 421,
     "name": "Warren Pi",
@@ -38994,7 +39118,7 @@ const dashboardData = {
     "last_podcast_name": "Dwarkesh Podcast",
     "last_episode_date": "2026-08-25",
     "mention_score": 2,
-    "mention_score_decayed": 2,
+    "mention_score_decayed": 1.95,
     "last_main_idea": "Investment in AI infrastructure and labs is set to grow exponentially, leading to significant capital allocation shifts and potential market disruptions.",
     "last_proof_cite": "Dwarkesh Podcast \u2022 2026-08-25 \u2022 Dylan Patel \u2013 Anthropic & OpenAI will have most of the world\u2019s compute by 2028",
     "last_proof_snippet": "Okay, I'm back with Dylan Patel, Founder of Simming Analysis, our version of Family, Thanksgiving dinner is a regular early podcast, but you're not actually related. I won't tell the people here. We'll destroy the myth. Walk me, basically w",
@@ -39255,7 +39379,7 @@ const dashboardData = {
     "last_podcast_name": "Monetary Matters with Jack Farley",
     "last_episode_date": "2026-08-20",
     "mention_score": 3,
-    "mention_score_decayed": 2.67,
+    "mention_score_decayed": 2.61,
     "last_main_idea": "The rise in AI capex and government spending is leading to increased borrowing costs, which will have profound effects on bond markets and inflation, creating both risks and opportunities for investors.",
     "last_proof_cite": "Monetary Matters with Jack Farley \u2022 2026-08-20 \u2022 Why Bessent Blinked | Luke Gromen on Doubling of Treasury Buyback Plan to Tame Long-End Yields",
     "last_proof_snippet": "Today's episode is brought to you by the two-cream corn fund Take or C-O-R-N. Let's get into it. Got a very important conversation today. I'm joined once again by Luke Groman of Forest for the Trees Research Luke. Welcome back to Monterey M",
@@ -39873,7 +39997,7 @@ const dashboardData = {
     "last_podcast_name": "Moonshots with Peter Diamandis",
     "last_episode_date": "2026-07-08",
     "mention_score": 3,
-    "mention_score_decayed": 2.44,
+    "mention_score_decayed": 2.38,
     "last_main_idea": "Invest in companies that are integrating AI into their operations to capitalize on job growth and technological advancements.",
     "last_proof_cite": "Moonshots with Peter Diamandis \u2022 2026-07-08 \u2022 Fable 5 Is Back & Govt-Leashed, Altman Offers 5% of OpenAI & AI Grows Conscious | #269",
     "last_proof_snippet": "Fable 5 came back online globally on July 1st with a few Provisos. This feels like the first time a frontier model has a standing duty to the U.S. government. This is probably close to the best scenario we could have hoped for. Sam has been",
@@ -39933,7 +40057,7 @@ const dashboardData = {
     "last_podcast_name": "Monetary Matters with Jack Farley",
     "last_episode_date": "2026-08-16",
     "mention_score": 1,
-    "mention_score_decayed": 0.81,
+    "mention_score_decayed": 0.79,
     "last_main_idea": "Investment in hyperscaler companies may offer significant returns due to their transformative technology and massive capital investments, but also carries risks due to the off-balance sheet leverage and innovative financial structures.",
     "last_proof_cite": "Monetary Matters with Jack Farley \u2022 2026-08-16 \u2022 Robin Wigglesworth on Hyperscalers' 1.5 Trillion of Off-Balance Sheet Liabilities, Private Credit, and His Book \"A Fabulous Debt\"",
     "last_proof_snippet": "I'm joined today by Robin Wigglesworth, editor of AlphaVille, the Financial Times Financial blog and author of a fabulous debt, the epic story of how bonds built the modern world Robin. But one talk about bonds fixed income of course, but w",
@@ -39992,7 +40116,7 @@ const dashboardData = {
     "last_podcast_name": "All-In with Chamath, Jason, Sacks & Friedberg",
     "last_episode_date": "2026-08-08",
     "mention_score": 2,
-    "mention_score_decayed": 1.62,
+    "mention_score_decayed": 1.59,
     "last_main_idea": "Investment in AI infrastructure and data centers is becoming increasingly important due to the demand for compute power and the tax advantages of such investments in the U.S.",
     "last_proof_cite": "All-In with Chamath, Jason, Sacks & Friedberg \u2022 2026-08-08 \u2022 Google's AI Brain Drain, SpaceX's Huge Quarter, Airtable's 90% Collapse, US Data Fuels China AI",
     "last_proof_snippet": "All right, everybody. Welcome back to your favorite podcast. It's the all-in podcast. It's the summer. It's August 6th. Haven't a hard time getting a core. I'm here on the podcast. But David Friedberg is here. David Friedberg is back our Su",
@@ -40433,7 +40557,7 @@ const dashboardData = {
     "last_podcast_name": "Monetary Matters with Jack Farley",
     "last_episode_date": "2026-08-12",
     "mention_score": 1,
-    "mention_score_decayed": 0.74,
+    "mention_score_decayed": 0.72,
     "last_main_idea": "Milton Berg's investment thesis is that the market may have bottomed and is poised for a rebound, with specific focus on sectors that have experienced significant declines as potential short-term bounce candidates.",
     "last_proof_cite": "Monetary Matters with Jack Farley \u2022 2026-08-12 \u2022 Milton Berg: I Have Evidence Market Has Likely Bottomed | Why Milton\u2019s Long Semis, Korea, Nasdaq, and More (With Caveats), and Why He Thinks Gold has made a Multi-year Top",
     "last_proof_snippet": "I am joined once again by Milton Berg of MB advisors and Milton Berg Edge. Milton is one of the greatest market technicians alive. And he focuses on a lot of things that most tetanolists don't follow. He's mostly not looking at charts. He's",
@@ -40747,7 +40871,7 @@ const dashboardData = {
     "last_podcast_name": "Dwarkesh Podcast",
     "last_episode_date": "2026-08-11",
     "mention_score": 1,
-    "mention_score_decayed": 0.72,
+    "mention_score_decayed": 0.71,
     "last_main_idea": "Investment in AI development and security is crucial to manage the rapid advancements and ensure ethical AI behavior.",
     "last_proof_cite": "Dwarkesh Podcast \u2022 2026-08-11 \u2022 Ryan Greenblatt \u2013 Human level AIs might build runaway superintelligences by 2032",
     "last_proof_snippet": "Today, I'm chatting with Ryan Greenlet, who is the chief scientist at Redwood Research, where he focuses on technical AI safety and security work. I want to talk to you about recursive self-improvement. This is the idea that once you build",
@@ -41523,7 +41647,7 @@ const dashboardData = {
     "last_podcast_name": "Moonshots with Peter Diamandis",
     "last_episode_date": "2026-08-04",
     "mention_score": 1,
-    "mention_score_decayed": 0.62,
+    "mention_score_decayed": 0.6,
     "last_main_idea": "Investing in AI and technology sectors that align with the U.S. government's initiatives for fostering innovation and scientific discovery could provide significant growth opportunities.",
     "last_proof_cite": "Moonshots with Peter Diamandis \u2022 2026-08-04 \u2022 Michael Kratsios on the New Golden Age of American Science | EP #276",
     "last_proof_snippet": "I was a kid in the candy store reading the Golden Age Report. What you're describing there is a complete fundamental AI native AI agent up, reimagining of the entire scientific process. And I think it's something that is possible. My sense",
@@ -41592,7 +41716,7 @@ const dashboardData = {
     "last_podcast_name": "The a16z Show",
     "last_episode_date": "2026-08-04",
     "mention_score": 1,
-    "mention_score_decayed": 0.62,
+    "mention_score_decayed": 0.6,
     "last_main_idea": "Investing in cybersecurity solutions that leverage AI can provide a competitive advantage, but it also requires understanding the novel risks and vulnerabilities that AI models can create.",
     "last_proof_cite": "The a16z Show \u2022 2026-08-04 \u2022 OpenAI's Joshua Achiam: Did We Already Reach AGI?",
     "last_proof_snippet": "Heels like AGI is kind of already here and most people have gone like drug. The fact that we passed the threshold of where unsolved mathematical trajectors are getting solved by extremely intelligent AI, where those AI's are more capable an",
@@ -42821,7 +42945,7 @@ const dashboardData = {
     "last_podcast_name": "All-In with Chamath, Jason, Sacks & Friedberg",
     "last_episode_date": "2026-07-20",
     "mention_score": 1,
-    "mention_score_decayed": 0.45,
+    "mention_score_decayed": 0.44,
     "last_main_idea": "The current market behavior, while bubbly, is distinct from past bubbles and may disproportionately impact venture capital and private equity firms due to aggressive investment strategies.",
     "last_proof_cite": "All-In with Chamath, Jason, Sacks & Friedberg \u2022 2026-07-20 \u2022 Mark Cuban on the AI Bubble: Who Actually Gets Wiped Out?",
     "last_proof_snippet": "You and I live through a couple of bubbles. We've seen this movie before. And this wave seems very different than the dot com wave. So let's talk about that. Are you concerned about a bubble? We're seeing bubbly like behavior people. It's n",
@@ -42956,7 +43080,7 @@ const dashboardData = {
     "last_podcast_name": "The a16z Show",
     "last_episode_date": "2026-07-20",
     "mention_score": 1,
-    "mention_score_decayed": 0.44,
+    "mention_score_decayed": 0.43,
     "last_main_idea": "Invest in open source AI platforms and local AI models to capitalize on the growing demand for privacy-preserving, cost-efficient AI solutions and the potential shift towards model routing.",
     "last_proof_cite": "The a16z Show \u2022 2026-07-20 \u2022 Hugging Face's CEO on Open Source AI, Model Routing, and the Future of Competition",
     "last_proof_snippet": "I think this relation is a very common practice that everyone is using. It's something that everyone uses, but that is not the main reason for success. Like if you suck, you suck without this relation. It's hard for me to say, like, oh, poo",
@@ -43265,7 +43389,7 @@ const dashboardData = {
     "last_podcast_name": "Moonshots with Peter Diamandis",
     "last_episode_date": "2026-07-17",
     "mention_score": 1,
-    "mention_score_decayed": 0.41,
+    "mention_score_decayed": 0.4,
     "last_main_idea": "Investing in AI companies that focus on customization and small language models can provide significant returns as these technologies meet current market demands and have the potential to shape the future of AI.",
     "last_proof_cite": "Moonshots with Peter Diamandis \u2022 2026-07-17 \u2022 Mira Murati's 975B Open Model, Ramin Hasani on Post-Transformer AI, and Demis' AI FINRA | EP #271",
     "last_proof_snippet": "Miramoradi, the former OpenAI CTO, just shipped her first model. It's called Inkling, customization over leaderboard dominance is what's going to win her the day. She's built exactly the thing hitting the market that exactly what everybody",
@@ -44342,7 +44466,7 @@ const dashboardData = {
     "last_podcast_name": "Monetary Matters with Jack Farley",
     "last_episode_date": "2026-07-04",
     "mention_score": 1,
-    "mention_score_decayed": 0.3,
+    "mention_score_decayed": 0.29,
     "last_main_idea": "Invest in multi-family and senior housing to capitalize on demographic shifts, and focus on industrial properties to benefit from e-commerce growth.",
     "last_proof_cite": "Monetary Matters with Jack Farley \u2022 2026-07-04 \u2022 The Real Estate Cycle Is Turning | Josh Pristaw on The New Cycle in Real Estate, Opportunity in Senior Living, Why AI Data Centers Are Too Big For Most Investors",
     "last_proof_snippet": "Today's episode is brought to you by the Fundrise Income Fund. You'll hear more about the income fund later in the show, but for now, let's get into today's interview. Today we're going to be talking all things real estate. I'm joined by Jo",
@@ -45525,7 +45649,7 @@ const dashboardData = {
     "last_podcast_name": "Latent Space: The AI Engineer Podcast",
     "last_episode_date": "2026-06-01",
     "mention_score": 1,
-    "mention_score_decayed": 0.21,
+    "mention_score_decayed": 0.2,
     "last_main_idea": "Invest in AI companies that prioritize language integration with video generation and have efficient training processes to capitalize on the evolving capabilities of generative AI.",
     "last_proof_cite": "Latent Space: The AI Engineer Podcast \u2022 2026-06-01 \u2022 Why Video Agent models are next \u2014 Ethan He, xAI Grok Imagine",
     "last_proof_snippet": "Okay, we're here in a studio with Eden Ha, most recently of XCI. Welcome. Yeah, thank you, glad being here. We were so here with Vibu. You were first coming to us or joining Lily in Space World because you were working on Cosmos in a video",
@@ -45586,7 +45710,7 @@ const dashboardData = {
     "last_podcast_name": "Monetary Matters with Jack Farley",
     "last_episode_date": "2026-06-18",
     "mention_score": 1,
-    "mention_score_decayed": 0.21,
+    "mention_score_decayed": 0.2,
     "last_main_idea": "Invest in U.S. industrial champions with strong order backlogs and companies positioned to benefit from the electrification and modernization of the U.S. grid.",
     "last_proof_cite": "Monetary Matters with Jack Farley \u2022 2026-06-18 \u2022 The US Manufacturing and Electrification Megatrends Are Here and They\u2019re Way More Than AI | Chris Semenuk",
     "last_proof_snippet": "The U.S. manufacturing has essentially been in a recession for three straight years and we have only just emerged now. If I had a CMMI survey, just reached about 50 in the last three months. And that's after three consecutive years of sub-5",
@@ -46774,7 +46898,7 @@ const dashboardData = {
     "last_podcast_name": "Monetary Matters with Jack Farley",
     "last_episode_date": "2026-06-06",
     "mention_score": 1,
-    "mention_score_decayed": 0.16,
+    "mention_score_decayed": 0.15,
     "last_main_idea": "Investors should focus on undervalued companies in Asia, particularly in South Korea and Southeast Asia, due to favorable valuations and growth prospects.",
     "last_proof_cite": "Monetary Matters with Jack Farley \u2022 2026-06-06 \u2022 The AI Chip Bubble: Why South Korea & Taiwan Are In the Danger Zone | Michael Fritzell | Asian Century Stocks",
     "last_proof_snippet": "South Korea, I do think it is a bubble, because the estimates for profits, for Eski Heinigs and Samsung electronics, we're now talking 200 billion US dollars in that profit estimates for 2028. And that will make them the most profitable com",
@@ -47257,7 +47381,7 @@ const dashboardData = {
     "last_podcast_name": "The a16z Show",
     "last_episode_date": "2026-06-02",
     "mention_score": 2,
-    "mention_score_decayed": 0.29,
+    "mention_score_decayed": 0.28,
     "last_main_idea": "Investment in AI-native computing hardware and software development will be pivotal as personal computing transitions towards AI optimization, with Nvidia and Apple leading the charge.",
     "last_proof_cite": "The a16z Show \u2022 2026-06-02 \u2022 Steven Sinofsky on Apple at 50, Microsoft, and the Future of Computing",
     "last_proof_snippet": "Having lived through like a half dozen component church things, you just sort of wait them out and you jump, let some local max, your local men determine the future. This will all correct itself, in short order. This world where you're all",
@@ -48063,7 +48187,7 @@ const dashboardData = {
     "last_podcast_name": "Monetary Matters with Jack Farley",
     "last_episode_date": "2026-05-16",
     "mention_score": 1,
-    "mention_score_decayed": 0.1,
+    "mention_score_decayed": 0.09,
     "last_main_idea": "The current market dynamics suggest a potential bubble, characterized by inflated earnings expectations rather than traditional valuation metrics, indicating the need for disciplined profit-taking strategies and portfolio diversification.",
     "last_proof_cite": "Monetary Matters with Jack Farley \u2022 2026-05-16 \u2022 Why Andy Constan Says The AI Bubble is in Earnings, Not Price",
     "last_proof_snippet": "If we're in a bubble, why aren't we selling crazy P is? It's not the P that's the bubble, it's the E. The S&P in its entirety is expected to earn 400 billion. Where's the GDP that can do that? Now it could come from everywhere else. It coul",
@@ -48128,7 +48252,7 @@ const dashboardData = {
     "last_podcast_name": "Moonshots with Peter Diamandis",
     "last_episode_date": "2026-05-16",
     "mention_score": 1,
-    "mention_score_decayed": 0.1,
+    "mention_score_decayed": 0.09,
     "last_main_idea": "Invest in AI companies poised for exponential growth, particularly those with strategic partnerships and enterprise solutions.",
     "last_proof_cite": "Moonshots with Peter Diamandis \u2022 2026-05-16 \u2022 Anthropic Partners With SpaceX AI, Leopold's $5.5B Bet, and the Singularity Economy | EP #255",
     "last_proof_snippet": "Anthropic is taking over all of SpaceX's Colossus-1 data center in Memphis, and this immediately allowed Anthropic to double Claude Code rate limits. I think Rockus on life support. So this is Elon who had been for the past year shit talkin",
@@ -48376,7 +48500,7 @@ const dashboardData = {
     "last_podcast_name": "Macro Voices",
     "last_episode_date": "2026-05-14",
     "mention_score": 6,
-    "mention_score_decayed": 0.56,
+    "mention_score_decayed": 0.54,
     "last_main_idea": "Investors should prepare for potential volatility as economic indicators begin to reflect the impacts of energy prices and passive investment flows.",
     "last_proof_cite": "Macro Voices \u2022 2026-05-14 \u2022 MacroVoices #532 Mike Green: Record Mechanical Flows",
     "last_proof_snippet": "This is Macrovoisers, the Free Weekly Financial Podcast, targeting professional finance, high-net worth individuals, family offices, and other sophisticated investors. Macrovoisers is all about the brightest minds in the world of finance an",
@@ -49565,7 +49689,7 @@ const dashboardData = {
     "last_podcast_name": "Monetary Matters with Jack Farley",
     "last_episode_date": "2026-05-01",
     "mention_score": 3,
-    "mention_score_decayed": 0.23,
+    "mention_score_decayed": 0.22,
     "last_main_idea": "In an environment of protracted conflict and supply chain disruptions, commodities, particularly oil, are expected to remain elevated, with interest rates trending higher.",
     "last_proof_cite": "Monetary Matters with Jack Farley \u2022 2026-05-01 \u2022 Jim Bianco on Division at the Fed and Jerome Powell\u2019s Controversial Decision to Stay",
     "last_proof_snippet": "We are here another addition of monetary matters live on monitoring the situation. I'm Jack Farley and I'm Max Weethy. We've got a big day Jack. It's almost a comically large amount of news we have to get into. We're going to be speaking ab",
@@ -50200,7 +50324,7 @@ const dashboardData = {
     "last_podcast_name": "The a16z Show",
     "last_episode_date": "2026-04-29",
     "mention_score": 1,
-    "mention_score_decayed": 0.07,
+    "mention_score_decayed": 0.06,
     "last_main_idea": "Investment in the biotech sector may need to consider the geographic shift towards China for innovation and efficiency in drug development.",
     "last_proof_cite": "The a16z Show \u2022 2026-04-29 \u2022 The Shift in Global Drug Development",
     "last_proof_snippet": "China's clinical trial system has rapidly expanded, with reforms that streamline the approval process.",
@@ -50957,7 +51081,7 @@ const dashboardData = {
     "last_podcast_name": "The a16z Show",
     "last_episode_date": "2026-04-22",
     "mention_score": 1,
-    "mention_score_decayed": 0.06,
+    "mention_score_decayed": 0.05,
     "last_main_idea": "Invest in technologies and platforms that leverage cryptography and blockchain to provide verifiable information and restore trust in digital content.",
     "last_proof_cite": "The a16z Show \u2022 2026-04-22 \u2022 Balaji Srinivasan: Prove Correct, Not Just Go Direct",
     "last_proof_snippet": "The growing distrust in media is due to the increasing cost of verifying content as synthetic content floods systems.",
@@ -51713,7 +51837,7 @@ const dashboardData = {
     "last_podcast_name": "The a16z Show",
     "last_episode_date": "2026-04-13",
     "mention_score": 1,
-    "mention_score_decayed": 0.05,
+    "mention_score_decayed": 0.04,
     "last_main_idea": "AI has the potential to revolutionize home management and parenting by automating administrative tasks, which could lead to increased satisfaction and potentially influence demographic trends.",
     "last_proof_cite": "The a16z Show \u2022 2026-04-13 \u2022 Building Agents at Home: Parenting, Work, and Benevolent Neglect",
     "last_proof_snippet": "Jessie Janae built 11 distinct AI agents to manage different aspects of her home and children's education, demonstrating the practical applications of AI in daily life.",
@@ -54901,7 +55025,7 @@ const dashboardData = {
     "last_podcast_name": "Moonshots with Peter Diamandis",
     "last_episode_date": "2026-02-17",
     "mention_score": 1,
-    "mention_score_decayed": 0.03,
+    "mention_score_decayed": 0.02,
     "last_main_idea": "Investing in AI and robotics companies that leverage neural networks for autonomous manufacturing could yield significant returns as this market is expected to become the largest economy globally.",
     "last_proof_cite": "Moonshots with Peter Diamandis \u2022 2026-02-17 \u2022 Humanoid Run on Neural Net, Autonomous Manufacturing, $50T Market #229",
     "last_proof_snippet": "Data accumulation is becoming a significant barrier to entry and a valuable asset in the AI and robotics space.",
@@ -54965,7 +55089,7 @@ const dashboardData = {
     "last_podcast_name": "The a16z Show",
     "last_episode_date": "2026-02-15",
     "mention_score": 1,
-    "mention_score_decayed": 0.03,
+    "mention_score_decayed": 0.02,
     "last_main_idea": "Invest in companies that are at the forefront of developing AI-enabled, immersive technologies that can redefine consumer interactions beyond the current app-centric model.",
     "last_proof_cite": "The a16z Show \u2022 2026-02-15 \u2022 The Future of Consumer Technology and the Post-Mobile Phone Era",
     "last_proof_snippet": "Augmented reality glasses are a real possibility for content consumption in the next decade.",
@@ -55027,7 +55151,7 @@ const dashboardData = {
     "last_podcast_name": "Monetary Matters with Jack Farley",
     "last_episode_date": "2026-02-19",
     "mention_score": 1,
-    "mention_score_decayed": 0.03,
+    "mention_score_decayed": 0.02,
     "last_main_idea": "The Picta AI Enhanced International Equity ETF (PQNT) uses AI to enhance international equity returns, suggesting a potential for outperformance through technology-driven investment strategies.",
     "last_proof_cite": "Monetary Matters with Jack Farley \u2022 2026-02-19 \u2022 Monetary Matters with Jack Farley: The US Dollar, Trade Deficits, and the Role of AI in Finance",
     "last_proof_snippet": "The dollar's international role is complex and not easily replaced, affecting its value beyond trade deficits.",
