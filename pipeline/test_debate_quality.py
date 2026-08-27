@@ -78,6 +78,19 @@ class TestDebateQuality(unittest.TestCase):
                 "Bob Jones",
             )
 
+    def test_speech_validation_rejects_non_english_paragraph(self):
+        with self.assertRaisesRegex(ValueError, "entirely in English"):
+            validate_speeches(
+                "Alice Smith.\n\nThe long of it is the mechanism matters.\n\nConcession. This could be wrong.",
+                (
+                    "Bob Jones.\n\nThe short of it is the tradeoff matters.\n\n"
+                    "这是一整段不应该发送到语音合成器的中文内容。\n\n"
+                    "Concession. This could be wrong."
+                ),
+                "Alice Smith",
+                "Bob Jones",
+            )
+
     def test_loads_editorial_contract_only_for_scheduled_friday(self):
         with tempfile.TemporaryDirectory() as tmp:
             path = Path(tmp) / "contract.json"

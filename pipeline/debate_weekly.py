@@ -720,6 +720,7 @@ Objective:
 
 Rules:
 - Start each speech with only the speaker's first line as their name plus period, e.g. "Sam." then blank line, then body. Use the exact names given.
+- Write entirely in English, including every paragraph.
 - The first sentence of YES body must begin with "The long of it".
 - The first sentence of NO body must begin with "The short of it".
 - Use three substantive paragraphs plus a short paragraph beginning exactly "Concession."
@@ -891,6 +892,16 @@ def _first_line_name(speech: str) -> str:
     return line.strip()
 
 
+def _has_non_english_script(text: str) -> bool:
+    """Reject substantial CJK, Cyrillic, Arabic, or Hebrew output before TTS."""
+    chars = re.findall(
+        r"[\u3040-\u30ff\u3400-\u4dbf\u4e00-\u9fff"
+        r"\uac00-\ud7af\u0400-\u052f\u0590-\u05ff\u0600-\u06ff]",
+        text or "",
+    )
+    return len(chars) >= 8
+
+
 def validate_speeches(yes_s: str, no_s: str, expected_yes: str, expected_no: str) -> None:
     got_yes = _first_line_name(yes_s)
     got_no = _first_line_name(no_s)
@@ -904,7 +915,9 @@ def validate_speeches(yes_s: str, no_s: str, expected_yes: str, expected_no: str
         raise ValueError("YES speech must begin with 'The long of it'.")
     if not no_body.lower().startswith("the short of it"):
         raise ValueError("NO speech must begin with 'The short of it'.")
-    for side, speech in (("YES", yes_s), ("NO", no_s)):
+    for side, speech, body in (("YES", yes_s, yes_body), ("NO", no_s, no_body)):
+        if _has_non_english_script(body):
+            raise ValueError(f"{side} speech must be entirely in English.")
         if not re.search(r"(?m)^Concession\.", speech or ""):
             raise ValueError(f"{side} speech must include a 'Concession.' paragraph.")
 
