@@ -1,6 +1,25 @@
 {
   "insights": [
     {
+      "id": 445,
+      "title": "Inside Cursor: The Anatomy of a Generational Startup",
+      "source_type": "podcast",
+      "source_name": "The a16z Show",
+      "source_date": "2026-08-27",
+      "summary": "In this episode of 'The a16z Show', Martin Casado, Sarah Wang, and Matt Bornstein discuss the journey of Cursor, a company at the forefront of AI advancements. They analyze Cursor's strategic decisions, including building a standalone product instead of a plugin, resisting early enterprise sales, and maintaining focus amidst a changing competitive landscape. The conversation also delves into Cursor's ability to reinvent itself as AI evolved, its culture of speed and taste, and the intensity it brought to hiring and acquisitions. The episode provides broader insights into what it takes to build a defining company in a market characterized by rapidly changing technology, competition, and conventional wisdom.",
+      "key_takeaway": "Cursor's investment thesis revolves around its ability to leverage AI advancements to create a competitive edge in the coding market, focusing on the interface between humans and AI models rather than competing directly with other AI models.",
+      "tickers_mentioned": [
+        "MSFT"
+      ],
+      "sentiment": "neutral",
+      "display_on_main": 1,
+      "display_order": 0,
+      "added_date": "2026-08-27",
+      "archived_date": null,
+      "archived_reason": null,
+      "podcast_episode_id": 430
+    },
+    {
       "id": 440,
       "title": "The State of AI: Macro, Apps, and Consumer",
       "source_type": "podcast",
@@ -145,7 +164,7 @@
         "NVDA"
       ],
       "sentiment": "bullish",
-      "display_on_main": 1,
+      "display_on_main": 0,
       "display_order": 0,
       "added_date": "2026-08-24",
       "archived_date": null,
@@ -8637,8 +8656,8 @@
       "term": "Taste",
       "description": "A concept that goes beyond aesthetic preference, relating to how people consume virtually and the societal guidance on proper consumption habits, especially in the context of wealth creation.",
       "first_detected_date": "2026-08-02",
-      "last_mentioned_date": "2026-08-26",
-      "mention_count": 8,
+      "last_mentioned_date": "2026-08-27",
+      "mention_count": 9,
       "source_podcasts": null,
       "status": "active",
       "investment_implications": "Investors can use the understanding of 'taste' to predict consumer behavior in digital economies and identify emerging markets.",
@@ -8647,8 +8666,8 @@
       "archived_reason": null,
       "first_detected_episode_id": 380,
       "first_detected_speaker": "Ruby J. To Low",
-      "last_mentioned_episode_id": 429,
-      "last_mentioned_speaker": "Eric Weinstein"
+      "last_mentioned_episode_id": 430,
+      "last_mentioned_speaker": "Martin Casado, Sarah Wang, Matt Bornstein"
     },
     {
       "id": 267,
@@ -10363,20 +10382,20 @@
     {
       "id": 57,
       "term": "AI Infrastructure",
-      "description": "The physical and technological foundation that supports the development, deployment, and operation of AI applications.",
+      "description": "The underlying technology and systems that support the development, deployment, and operation of AI applications.",
       "first_detected_date": "2026-03-17",
-      "last_mentioned_date": "2026-08-25",
-      "mention_count": 29,
+      "last_mentioned_date": "2026-08-27",
+      "mention_count": 30,
       "source_podcasts": null,
       "status": "active",
-      "investment_implications": "AI infrastructure is a critical area for investment as it underpins the growth and capabilities of AI applications.",
+      "investment_implications": "Investments in AI Infrastructure are crucial for companies aiming to leverage AI at scale, affecting the competitive landscape and market opportunities.",
       "display_on_main": 0,
       "archived_date": null,
       "archived_reason": null,
       "first_detected_episode_id": 71,
       "first_detected_speaker": null,
-      "last_mentioned_episode_id": 424,
-      "last_mentioned_speaker": "Dylan Patel"
+      "last_mentioned_episode_id": 430,
+      "last_mentioned_speaker": "Martin Casado, Sarah Wang, Matt Bornstein"
     },
     {
       "id": 26,
@@ -10633,20 +10652,20 @@
     {
       "id": 114,
       "term": "AI Agents",
-      "description": "Software agents that perform tasks on behalf of users, embodying the next wave of consumer AI.",
+      "description": "AI-driven software agents that perform tasks or services on behalf of users.",
       "first_detected_date": "2026-02-28",
-      "last_mentioned_date": "2026-08-26",
-      "mention_count": 68,
+      "last_mentioned_date": "2026-08-27",
+      "mention_count": 69,
       "source_podcasts": null,
       "status": "active",
-      "investment_implications": "Investors should look for opportunities in companies developing AI agents for consumer applications.",
+      "investment_implications": "AI Agents represent a shift towards more autonomous and personalized software services, impacting how companies approach product development and user engagement.",
       "display_on_main": 0,
       "archived_date": null,
       "archived_reason": null,
       "first_detected_episode_id": 31,
       "first_detected_speaker": null,
-      "last_mentioned_episode_id": 425,
-      "last_mentioned_speaker": "An Eshicharya"
+      "last_mentioned_episode_id": 430,
+      "last_mentioned_speaker": "Martin Casado, Sarah Wang, Matt Bornstein"
     },
     {
       "id": 38,

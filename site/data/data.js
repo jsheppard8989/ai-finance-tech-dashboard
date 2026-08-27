@@ -3,80 +3,80 @@
 
 const dashboardData = {
   schemaVersion: 2,
-  generatedAt: "2026-08-27T05:36:57.680506",
-  chartsVersion: "2026-08-27T05:36:47.978806",
+  generatedAt: "2026-08-27T07:10:54.984685",
+  chartsVersion: "2026-08-27T07:10:48.696183",
   priceSnapshot: {
   "GOOGL": {
     "price": 342.0,
     "change_pct": -3.47,
     "name": "GOOGL",
-    "updated_at": "2026-08-27T05:36:47.977226"
+    "updated_at": "2026-08-27T07:10:48.695445"
   },
   "NVDA": {
     "price": 209.66,
     "change_pct": -6.39,
     "name": "NVDA",
-    "updated_at": "2026-08-27T05:36:47.977257"
+    "updated_at": "2026-08-27T07:10:48.695462"
   },
   "MSFT": {
     "price": 496.37,
     "change_pct": -0.54,
     "name": "MSFT",
-    "updated_at": "2026-08-27T05:36:47.977269"
+    "updated_at": "2026-08-27T07:10:48.695468"
   },
   "BTC": {
-    "price": 79526.66,
-    "change_pct": 26.28,
+    "price": 79446.76,
+    "change_pct": 26.15,
     "name": "BTC",
-    "updated_at": "2026-08-27T05:36:47.977280"
+    "updated_at": "2026-08-27T07:10:48.695474"
   },
   "TSLA": {
     "price": 345.82,
     "change_pct": 5.25,
     "name": "TSLA",
-    "updated_at": "2026-08-27T05:36:47.977291"
+    "updated_at": "2026-08-27T07:10:48.695480"
   },
   "AMZN": {
     "price": 260.28,
     "change_pct": -5.17,
     "name": "AMZN",
-    "updated_at": "2026-08-27T05:36:47.977302"
+    "updated_at": "2026-08-27T07:10:48.695486"
   },
   "META": {
     "price": 576.14,
     "change_pct": -2.7,
     "name": "META",
-    "updated_at": "2026-08-27T05:36:47.977314"
+    "updated_at": "2026-08-27T07:10:48.695491"
   },
   "WTI": {
     "price": 3.57,
     "change_pct": 4.35,
     "name": "WTI",
-    "updated_at": "2026-08-27T05:36:47.977326"
+    "updated_at": "2026-08-27T07:10:48.695496"
   },
   "S&P 500": {
     "price": 766.08,
     "change_pct": -0.93,
     "name": "S&P 500",
-    "updated_at": "2026-08-27T05:36:47.977335"
+    "updated_at": "2026-08-27T07:10:48.695502"
   },
   "AAPL": {
     "price": 313.45,
     "change_pct": 0.12,
     "name": "AAPL",
-    "updated_at": "2026-08-27T05:36:47.977345"
+    "updated_at": "2026-08-27T07:10:48.695507"
   },
   "QQQ": {
     "price": 711.37,
     "change_pct": -1.61,
     "name": "Invesco QQQ Trust",
-    "updated_at": "2026-08-27T05:36:47.977355"
+    "updated_at": "2026-08-27T07:10:48.695513"
   },
   "BTC-USD": {
-    "price": 79526.66,
-    "change_pct": 26.28,
+    "price": 79446.76,
+    "change_pct": 26.15,
     "name": "Bitcoin USD",
-    "updated_at": "2026-08-27T05:36:47.977383"
+    "updated_at": "2026-08-27T07:10:48.695519"
   }
 },
   tickerScores: [
@@ -834,6 +834,25 @@ const dashboardData = {
   archive: {
   "insights": [
     {
+      "id": 445,
+      "title": "Inside Cursor: The Anatomy of a Generational Startup",
+      "source_type": "podcast",
+      "source_name": "The a16z Show",
+      "source_date": "2026-08-27",
+      "summary": "In this episode of 'The a16z Show', Martin Casado, Sarah Wang, and Matt Bornstein discuss the journey of Cursor, a company at the forefront of AI advancements. They analyze Cursor's strategic decisions, including building a standalone product instead of a plugin, resisting early enterprise sales, and maintaining focus amidst a changing competitive landscape. The conversation also delves into Cursor's ability to reinvent itself as AI evolved, its culture of speed and taste, and the intensity it brought to hiring and acquisitions. The episode provides broader insights into what it takes to build a defining company in a market characterized by rapidly changing technology, competition, and conventional wisdom.",
+      "key_takeaway": "Cursor's investment thesis revolves around its ability to leverage AI advancements to create a competitive edge in the coding market, focusing on the interface between humans and AI models rather than competing directly with other AI models.",
+      "tickers_mentioned": [
+        "MSFT"
+      ],
+      "sentiment": "neutral",
+      "display_on_main": 1,
+      "display_order": 0,
+      "added_date": "2026-08-27",
+      "archived_date": null,
+      "archived_reason": null,
+      "podcast_episode_id": 430
+    },
+    {
       "id": 440,
       "title": "The State of AI: Macro, Apps, and Consumer",
       "source_type": "podcast",
@@ -978,7 +997,7 @@ const dashboardData = {
         "NVDA"
       ],
       "sentiment": "bullish",
-      "display_on_main": 1,
+      "display_on_main": 0,
       "display_order": 0,
       "added_date": "2026-08-24",
       "archived_date": null,
@@ -9470,8 +9489,8 @@ const dashboardData = {
       "term": "Taste",
       "description": "A concept that goes beyond aesthetic preference, relating to how people consume virtually and the societal guidance on proper consumption habits, especially in the context of wealth creation.",
       "first_detected_date": "2026-08-02",
-      "last_mentioned_date": "2026-08-26",
-      "mention_count": 8,
+      "last_mentioned_date": "2026-08-27",
+      "mention_count": 9,
       "source_podcasts": null,
       "status": "active",
       "investment_implications": "Investors can use the understanding of 'taste' to predict consumer behavior in digital economies and identify emerging markets.",
@@ -9480,8 +9499,8 @@ const dashboardData = {
       "archived_reason": null,
       "first_detected_episode_id": 380,
       "first_detected_speaker": "Ruby J. To Low",
-      "last_mentioned_episode_id": 429,
-      "last_mentioned_speaker": "Eric Weinstein"
+      "last_mentioned_episode_id": 430,
+      "last_mentioned_speaker": "Martin Casado, Sarah Wang, Matt Bornstein"
     },
     {
       "id": 267,
@@ -11196,20 +11215,20 @@ const dashboardData = {
     {
       "id": 57,
       "term": "AI Infrastructure",
-      "description": "The physical and technological foundation that supports the development, deployment, and operation of AI applications.",
+      "description": "The underlying technology and systems that support the development, deployment, and operation of AI applications.",
       "first_detected_date": "2026-03-17",
-      "last_mentioned_date": "2026-08-25",
-      "mention_count": 29,
+      "last_mentioned_date": "2026-08-27",
+      "mention_count": 30,
       "source_podcasts": null,
       "status": "active",
-      "investment_implications": "AI infrastructure is a critical area for investment as it underpins the growth and capabilities of AI applications.",
+      "investment_implications": "Investments in AI Infrastructure are crucial for companies aiming to leverage AI at scale, affecting the competitive landscape and market opportunities.",
       "display_on_main": 0,
       "archived_date": null,
       "archived_reason": null,
       "first_detected_episode_id": 71,
       "first_detected_speaker": null,
-      "last_mentioned_episode_id": 424,
-      "last_mentioned_speaker": "Dylan Patel"
+      "last_mentioned_episode_id": 430,
+      "last_mentioned_speaker": "Martin Casado, Sarah Wang, Matt Bornstein"
     },
     {
       "id": 26,
@@ -11466,20 +11485,20 @@ const dashboardData = {
     {
       "id": 114,
       "term": "AI Agents",
-      "description": "Software agents that perform tasks on behalf of users, embodying the next wave of consumer AI.",
+      "description": "AI-driven software agents that perform tasks or services on behalf of users.",
       "first_detected_date": "2026-02-28",
-      "last_mentioned_date": "2026-08-26",
-      "mention_count": 68,
+      "last_mentioned_date": "2026-08-27",
+      "mention_count": 69,
       "source_podcasts": null,
       "status": "active",
-      "investment_implications": "Investors should look for opportunities in companies developing AI agents for consumer applications.",
+      "investment_implications": "AI Agents represent a shift towards more autonomous and personalized software services, impacting how companies approach product development and user engagement.",
       "display_on_main": 0,
       "archived_date": null,
       "archived_reason": null,
       "first_detected_episode_id": 31,
       "first_detected_speaker": null,
-      "last_mentioned_episode_id": 425,
-      "last_mentioned_speaker": "An Eshicharya"
+      "last_mentioned_episode_id": 430,
+      "last_mentioned_speaker": "Martin Casado, Sarah Wang, Matt Bornstein"
     },
     {
       "id": 38,
@@ -11744,6 +11763,28 @@ const dashboardData = {
   mainContent: {
   "insights": [
     {
+      "id": 445,
+      "title": "Inside Cursor: The Anatomy of a Generational Startup",
+      "source_type": "podcast",
+      "source_name": "The a16z Show",
+      "source_date": "2026-08-27",
+      "summary": "In this episode of 'The a16z Show', Martin Casado, Sarah Wang, and Matt Bornstein discuss the journey of Cursor, a company at the forefront of AI advancements. They analyze Cursor's strategic decisions, including building a standalone product instead of a plugin, resisting early enterprise sales, and maintaining focus amidst a changing competitive landscape. The conversation also delves into Cursor's ability to reinvent itself as AI evolved, its culture of speed and taste, and the intensity it brought to hiring and acquisitions. The episode provides broader insights into what it takes to build a defining company in a market characterized by rapidly changing technology, competition, and conventional wisdom.",
+      "key_takeaway": "Cursor's investment thesis revolves around its ability to leverage AI advancements to create a competitive edge in the coding market, focusing on the interface between humans and AI models rather than competing directly with other AI models.",
+      "tickers_mentioned": "[\"MSFT\"]",
+      "sentiment": "neutral",
+      "display_on_main": 1,
+      "display_order": 0,
+      "added_date": "2026-08-27",
+      "archived_date": null,
+      "archived_reason": null,
+      "podcast_episode_id": 430,
+      "episode_release_date": "2026-08-27",
+      "guest_name": null,
+      "key_tickers": [
+        "MSFT"
+      ]
+    },
+    {
       "id": 440,
       "title": "The State of AI: Macro, Apps, and Consumer",
       "source_type": "podcast",
@@ -11870,26 +11911,6 @@ const dashboardData = {
       "key_tickers": [
         "NVIDIA"
       ]
-    },
-    {
-      "id": 437,
-      "title": "Is Private Equity Broken? Why the Buyside\u2019s Problems Are Making 2026 \u201cThe Year of the Banker\u201d | High Yield Harry",
-      "source_type": "podcast",
-      "source_name": "Monetary Matters with Jack Farley",
-      "source_date": "2026-08-24",
-      "summary": "In this episode of 'Monetary Matters with Jack Farley', Max Weethy interviews High-Yield Harry to discuss the current state of the buy side in finance. They explore the impact of AI on junior analysts, the maturation of private equity, and concerns within the private credit sector. The conversation highlights the bifurcated nature of the buy side, with investment bankers currently benefiting from increased M&A activity and stability, while private equity and private credit professionals face challenges in exiting positions and fundraising. The episode also touches on the potential for AI to disrupt traditional roles within finance and the implications for compensation and career progression.",
-      "key_takeaway": "The current bifurcated state of the buy side presents opportunities for investment bankers due to increased M&A activity, while private equity and private credit professionals face challenges that may impact their compensation and career progression.",
-      "tickers_mentioned": "[\"NVDA\"]",
-      "sentiment": "bullish",
-      "display_on_main": 1,
-      "display_order": 0,
-      "added_date": "2026-08-24",
-      "archived_date": null,
-      "archived_reason": null,
-      "podcast_episode_id": 422,
-      "episode_release_date": "2026-08-24",
-      "guest_name": null,
-      "key_tickers": []
     },
     {
       "id": 438,
@@ -12114,6 +12135,32 @@ const dashboardData = {
       "last_mentioned_episode_date": "2026-08-13"
     },
     {
+      "id": 270,
+      "term": "Taste",
+      "description": "A concept that goes beyond aesthetic preference, relating to how people consume virtually and the societal guidance on proper consumption habits, especially in the context of wealth creation.",
+      "first_detected_date": "2026-08-02",
+      "last_mentioned_date": "2026-08-27",
+      "mention_count": 9,
+      "source_podcasts": null,
+      "status": "active",
+      "investment_implications": "Investors can use the understanding of 'taste' to predict consumer behavior in digital economies and identify emerging markets.",
+      "display_on_main": 1,
+      "archived_date": null,
+      "archived_reason": null,
+      "first_detected_episode_id": 380,
+      "first_detected_speaker": "Ruby J. To Low",
+      "last_mentioned_episode_id": 430,
+      "last_mentioned_speaker": "Martin Casado, Sarah Wang, Matt Bornstein",
+      "overton_score": 9.0,
+      "resonance_pct": 100,
+      "first_detected_podcast": "The a16z Show",
+      "first_detected_episode_title": "Ruby Thelot on Internet Culture, AI, and the Future of Taste",
+      "first_detected_episode_date": "2026-08-02",
+      "last_mentioned_podcast": "The a16z Show",
+      "last_mentioned_episode_title": "Inside Cursor: The Anatomy of a Generational Startup",
+      "last_mentioned_episode_date": "2026-08-27"
+    },
+    {
       "id": 264,
       "term": "Autonomy",
       "description": "The ability of systems or machines to function independently without human intervention, often in the context of vehicles or industrial equipment.",
@@ -12138,32 +12185,6 @@ const dashboardData = {
       "last_mentioned_podcast": "Moonshots with Peter Diamandis",
       "last_mentioned_episode_title": "OpenAI Pauses Frontier Training, Elon's 100X Prediction Lands, Robot Beats Usain Bolt with Emad Mostaque | EP#282",
       "last_mentioned_episode_date": "2026-08-21"
-    },
-    {
-      "id": 270,
-      "term": "Taste",
-      "description": "A concept that goes beyond aesthetic preference, relating to how people consume virtually and the societal guidance on proper consumption habits, especially in the context of wealth creation.",
-      "first_detected_date": "2026-08-02",
-      "last_mentioned_date": "2026-08-26",
-      "mention_count": 8,
-      "source_podcasts": null,
-      "status": "active",
-      "investment_implications": "Investors can use the understanding of 'taste' to predict consumer behavior in digital economies and identify emerging markets.",
-      "display_on_main": 1,
-      "archived_date": null,
-      "archived_reason": null,
-      "first_detected_episode_id": 380,
-      "first_detected_speaker": "Ruby J. To Low",
-      "last_mentioned_episode_id": 429,
-      "last_mentioned_speaker": "Eric Weinstein",
-      "overton_score": 7.82,
-      "resonance_pct": 100,
-      "first_detected_podcast": "The a16z Show",
-      "first_detected_episode_title": "Ruby Thelot on Internet Culture, AI, and the Future of Taste",
-      "first_detected_episode_date": "2026-08-02",
-      "last_mentioned_podcast": "All-In with Chamath, Jason, Sacks & Friedberg",
-      "last_mentioned_episode_title": "Eric Weinstein: The State of American Science, Breakthrough Coverups, and the Danger of Physics",
-      "last_mentioned_episode_date": "2026-08-26"
     },
     {
       "id": 255,
@@ -38613,9 +38634,63 @@ const dashboardData = {
     "source_name": "All-In with Chamath, Jason, Sacks & Friedberg",
     "source_date": "2026-08-26",
     "key_tickers": []
+  },
+  "445": {
+    "id": 434,
+    "insight_id": 445,
+    "podcast_episode_id": 430,
+    "overview": "Cursor's approach to AI coding tools was distinguished by its focus on the interface between humans and AI models, rather than competing directly with other AI models. This strategic decision was pivotal as it allowed Cursor to leverage existing language models, avoiding the need to develop a coding-specific model from scratch. Cursor's early traction was remarkable, with rapid user acquisition and a strong brand reputation, which was unusual for a startup in such a competitive space. The company's ability to pivot and adapt as AI technology evolved was also a key factor in its success, demonstrating a level of agility that is often challenging for startups to maintain.",
+    "key_takeaways_detailed": [],
+    "investment_thesis": "If Cursor's investment thesis holds true, we would expect to see continued growth in the user base and market share, particularly among developers who value the human-AI interface. Allocators should monitor Cursor's ability to maintain its competitive edge as the AI landscape evolves, with a focus on its product innovation and market penetration. The success of Cursor could be proven by sustained user growth and positive feedback loops from the developer community, while a failure to innovate or a shift in market preferences could disprove the thesis.",
+    "ticker_analysis": {
+      "NVDA": {
+        "rationale": "NVIDIA is a key player in the AI hardware space, and its performance can be indicative of the broader health and growth of the AI industry, which is central to Cursor's success.",
+        "positioning": "",
+        "risk": ""
+      }
+    },
+    "positioning_guidance": "",
+    "risk_factors": [],
+    "contrarian_signals": [],
+    "catalysts": [
+      "Upcoming AI conferences where Cursor may announce new features or partnerships.",
+      "Quarterly user growth metrics and satisfaction surveys from independent developer communities."
+    ],
+    "related_insights": null,
+    "audio_timestamp_start": null,
+    "audio_timestamp_end": null,
+    "transcript_excerpt": null,
+    "created_at": "2026-08-27T07:09:56.437481",
+    "updated_at": "2026-08-27 12:09:56",
+    "episode_evidence": "- I remember Michael making this point a lot. Like when you look at old computer science papers, there's a section. Here's the algorithm, not in code, but in like pseudocode, which I'm sure many people are used to.\n- They had an unusual degree of focus. I remember we got Michael to come pitch our GP group. And 90% of the meeting was him saying no to things, which is just like, like, for like the other chef they're working on products that you love.",
+    "falsification_tracks": [
+      "A significant decline in the usage or adoption rates of Cursor's platform by developers, indicating that the interface approach is no longer valued.",
+      "The emergence of a new competitor with a disruptive interface design that significantly outperforms Cursor's in user satisfaction and efficiency.",
+      "A major technological breakthrough by a competitor that allows for the creation of a coding-specific AI model that outperforms general language models in coding tasks.",
+      "A shift in the market where enterprises begin to favor plugin-based solutions over standalone products, impacting Cursor's growth trajectory."
+    ],
+    "schema_version": 2,
+    "insight_title": "Inside Cursor: The Anatomy of a Generational Startup",
+    "source_name": "The a16z Show",
+    "source_date": "2026-08-27",
+    "key_tickers": [
+      "MSFT"
+    ]
   }
 },
   suggestedTerms: [
+  {
+    "id": 615,
+    "term": "Pareto Frontier",
+    "definition": "The boundary that represents the set of optimal allocations in an economy, where it's impossible to make any one individual better off without making at least one individual worse off.",
+    "investment_implications": "Understanding the Pareto Frontier is essential for founders and investors to maximize efficiency and returns while considering trade-offs.",
+    "source_type": "auto_extracted",
+    "mention_count": 1,
+    "source_diversity": 1,
+    "relevance_score": 50,
+    "submitted_date": "2026-08-27 12:09:04",
+    "priority_score": 80
+  },
   {
     "id": 614,
     "term": "Geometric Unity",
@@ -38651,23 +38726,11 @@ const dashboardData = {
     "relevance_score": 50,
     "submitted_date": "2026-08-27 03:45:44",
     "priority_score": 80
-  },
-  {
-    "id": 610,
-    "term": "Macro Takeover",
-    "definition": "A situation where macroeconomic risks begin to dominate market movements, overshadowing other factors.",
-    "investment_implications": "Investors should be cautious during periods of macro takeover due to increased volatility and potential for sharp market corrections.",
-    "source_type": "auto_extracted",
-    "mention_count": 1,
-    "source_diversity": 1,
-    "relevance_score": 50,
-    "submitted_date": "2026-08-26 18:42:05",
-    "priority_score": 80
   }
 ],
   podcastGuests: [
   {
-    "id": 58546,
+    "id": 58629,
     "name": "Time to Reduce Equity Risk",
     "slug": "time-to-reduce-equity-risk",
     "bio": null,
@@ -38679,7 +38742,7 @@ const dashboardData = {
     "appearance_count": 1
   },
   {
-    "id": 58547,
+    "id": 58630,
     "name": "Eric Weinstein",
     "slug": "eric-weinstein",
     "bio": null,
@@ -38691,7 +38754,7 @@ const dashboardData = {
     "appearance_count": 1
   },
   {
-    "id": 58548,
+    "id": 58631,
     "name": "Michael Kratsios",
     "slug": "michael-kratsios",
     "bio": null,
@@ -38703,7 +38766,7 @@ const dashboardData = {
     "appearance_count": 1
   },
   {
-    "id": 58549,
+    "id": 58632,
     "name": "Emad Mostaque",
     "slug": "emad-mostaque",
     "bio": null,
@@ -38715,7 +38778,7 @@ const dashboardData = {
     "appearance_count": 3
   },
   {
-    "id": 58550,
+    "id": 58633,
     "name": "Angela Strange and Gabriel Vasquez",
     "slug": "angela-strange-and-gabriel-vasquez",
     "bio": null,
@@ -38727,7 +38790,7 @@ const dashboardData = {
     "appearance_count": 1
   },
   {
-    "id": 58551,
+    "id": 58634,
     "name": "Why Bessent Blinked",
     "slug": "why-bessent-blinked",
     "bio": null,
@@ -38739,7 +38802,7 @@ const dashboardData = {
     "appearance_count": 1
   },
   {
-    "id": 58552,
+    "id": 58635,
     "name": "Travis Kalanick",
     "slug": "travis-kalanick",
     "bio": null,
@@ -38751,7 +38814,7 @@ const dashboardData = {
     "appearance_count": 1
   },
   {
-    "id": 58553,
+    "id": 58636,
     "name": "Rahm Emanuel",
     "slug": "rahm-emanuel",
     "bio": null,
@@ -38763,7 +38826,7 @@ const dashboardData = {
     "appearance_count": 1
   },
   {
-    "id": 58554,
+    "id": 58637,
     "name": "Milton Berg",
     "slug": "milton-berg",
     "bio": "Milton Berg is a veteran technical analyst and CEO of Milton Berg Advisors, specializing in market turning-point analysis for institutional investors.",
@@ -38775,7 +38838,7 @@ const dashboardData = {
     "appearance_count": 1
   },
   {
-    "id": 58555,
+    "id": 58638,
     "name": "How Open",
     "slug": "how-open",
     "bio": null,
@@ -38787,7 +38850,7 @@ const dashboardData = {
     "appearance_count": 1
   },
   {
-    "id": 58556,
+    "id": 58639,
     "name": "Saronic Founders",
     "slug": "saronic-founders",
     "bio": null,
@@ -38799,7 +38862,7 @@ const dashboardData = {
     "appearance_count": 1
   },
   {
-    "id": 58557,
+    "id": 58640,
     "name": "OpenAI's Joshua Achiam",
     "slug": "openais-joshua-achiam",
     "bio": null,
@@ -38811,7 +38874,7 @@ const dashboardData = {
     "appearance_count": 1
   },
   {
-    "id": 58558,
+    "id": 58641,
     "name": "Marc Andreessen and Chris Dixon",
     "slug": "marc-andreessen-and-chris-dixon",
     "bio": null,
@@ -38823,7 +38886,7 @@ const dashboardData = {
     "appearance_count": 1
   },
   {
-    "id": 58559,
+    "id": 58642,
     "name": "AI for America's Small Businesses",
     "slug": "ai-for-americas-small-businesses",
     "bio": null,
@@ -38835,7 +38898,7 @@ const dashboardData = {
     "appearance_count": 1
   },
   {
-    "id": 58560,
+    "id": 58643,
     "name": "Luke Gromen",
     "slug": "luke-gromen",
     "bio": null,
@@ -38847,7 +38910,7 @@ const dashboardData = {
     "appearance_count": 1
   },
   {
-    "id": 58561,
+    "id": 58644,
     "name": "Travis Kelenick",
     "slug": "travis-kelenick",
     "bio": null,
@@ -38859,7 +38922,7 @@ const dashboardData = {
     "appearance_count": 1
   },
   {
-    "id": 58562,
+    "id": 58645,
     "name": "Travis Kalanick Is Back",
     "slug": "travis-kalanick-is-back",
     "bio": null,
@@ -38871,7 +38934,7 @@ const dashboardData = {
     "appearance_count": 1
   },
   {
-    "id": 58563,
+    "id": 58646,
     "name": "Interest Rates to 10%",
     "slug": "interest-rates-to-10",
     "bio": null,
@@ -38883,7 +38946,7 @@ const dashboardData = {
     "appearance_count": 1
   },
   {
-    "id": 58564,
+    "id": 58647,
     "name": "Nick Nemeth",
     "slug": "nick-nemeth",
     "bio": null,
@@ -38895,7 +38958,7 @@ const dashboardData = {
     "appearance_count": 1
   },
   {
-    "id": 58565,
+    "id": 58648,
     "name": "Urgent Update- AI Sputnik Moment",
     "slug": "urgent-update--ai-sputnik-moment",
     "bio": null,
@@ -38908,6 +38971,187 @@ const dashboardData = {
   }
 ],
   pundits: [
+  {
+    "id": 78,
+    "name": "Martin Casado",
+    "slug": "martin-casado",
+    "bio": "Martin Casado is a General Partner at a16z, a venture capital firm, and co-founder of Nicira, a company acquired by VMware for $1.26B. He is known for his expertise in networking and cloud computing investments.",
+    "known_for": "His investments in networking and cloud computing, and his role in founding Nicira.",
+    "net_worth_usd": 600000000.0,
+    "net_worth_source": "https://www.thetwentyminutevc.com/martin-casado",
+    "net_worth_updated_at": "2026-03-19T15:48:58.459470",
+    "voice_tone": "Analytical and measured.",
+    "voice_style": "Uses industry knowledge to frame Cursor's position in the market.",
+    "voice_delivery_notes": "Pacing is steady with emphasis on key strategic points.",
+    "voice_profile_updated_at": "2026-08-27 12:09:04",
+    "last_seen": "2026-08-27 12:09:04",
+    "last_episode_title": "Inside Cursor: The Anatomy of a Generational Startup",
+    "last_podcast_name": "The a16z Show",
+    "last_episode_date": "2026-08-27",
+    "mention_score": 3,
+    "mention_score_decayed": 3,
+    "last_main_idea": "Cursor's investment thesis revolves around its ability to leverage AI advancements to create a competitive edge in the coding market, focusing on the interface between humans and AI models rather than competing directly with other AI models.",
+    "last_proof_cite": "The a16z Show \u2022 2026-08-27 \u2022 Inside Cursor: The Anatomy of a Generational Startup",
+    "last_proof_snippet": "We don't need to compete with anthropic and open AI on models right now. The interface between the human and the model is the key thing. If you looked at the competitive landscape, it was almost silly. I asked Michael, I was like, what do y",
+    "supporting_takeaway": "The company pursued the largest market opportunity without being deterred by competitors like CloudCope.",
+    "grokipedia_url": null,
+    "grokipedia_fetched_at": "2026-08-27T07:09:17.809769",
+    "pundit_profile": {
+      "source": "llm",
+      "source_model": "moonshot:moonshot-v1-8k",
+      "source_url": "",
+      "page_title": "Martin Casado",
+      "fetched_at": "2026-08-27T12:09:17.809535+00:00",
+      "cliff_notes": "Martin Casado is a prominent figure in the tech industry, particularly in the realms of networking and cloud computing. As a General Partner at a16z, he plays a significant role in identifying and nurturing innovative startups. Casado's career took a significant leap with the co-founding of Nicira, a company that revolutionized the networking space and was eventually acquired by VMware for a staggering $1.26 billion. His insights into the competitive landscape and the importance of the interface between humans and models highlight his forward-thinking approach to technology and investment. Casado's work has been pivotal in shaping the future of cloud computing and networking, making him a key influencer in these fields.",
+      "derived": {
+        "current_role": "General Partner at a16z",
+        "former_positions": "Co-founder of Nicira; Chief Technology Officer at Nicira"
+      },
+      "infobox": {
+        "Born": "",
+        "Nationality": ""
+      },
+      "lead_paragraphs": [
+        "Martin Casado is a prominent figure in the tech industry, particularly in the realms of networking and cloud computing. As a General Partner at a16z, he plays a significant role in identifying and nurturing innovative startups. Casado's career took a significant leap with the co-founding of Nicira, a company that revolutionized the networking space and was eventually acquired by VMware for a staggering $1.26 billion.",
+        "His insights into the competitive landscape and the importance of the interface between humans and models highlight his forward-thinking approach to technology and investment. Casado's work has been pivotal in shaping the future of cloud computing and networking, making him a key influencer in these fields."
+      ],
+      "sections": [
+        {
+          "heading": "Networking and Cloud Computing",
+          "body": "Martin Casado is recognized for his investments and insights in the fields of networking and cloud computing, contributing to the growth and innovation in these areas."
+        },
+        {
+          "heading": "Nicira Acquisition",
+          "body": "Casado co-founded Nicira, which was later acquired by VMware for $1.26 billion, marking a significant milestone in his career and the industry."
+        },
+        {
+          "heading": "Venture Capital Insights",
+          "body": "As a General Partner at a16z, Casado provides valuable perspectives on the competitive landscape and the importance of the human-model interface in technology investments."
+        }
+      ]
+    },
+    "net_worth": "$600.0M"
+  },
+  {
+    "id": 424,
+    "name": "Matt Bornstein",
+    "slug": "matt-bornstein",
+    "bio": "Matt Bornstein is a General Partner at a16z, focusing on frontier tech and deep tech investments, particularly in AI, machine learning, and quantum computing. He has been instrumental in shaping the firm's strategy in these areas and has been vocal about the importance of the human-model interface in AI.",
+    "known_for": "His strategic investments and insights into the intersection of human and AI interfaces in the field of frontier technology.",
+    "net_worth_usd": null,
+    "net_worth_source": "",
+    "net_worth_updated_at": null,
+    "voice_tone": "Thoughtful and articulate.",
+    "voice_style": "Provides a nuanced perspective on Cursor's competitive landscape.",
+    "voice_delivery_notes": "Delivers points with a calm and composed manner, suitable for in-depth analysis.",
+    "voice_profile_updated_at": "2026-08-27 12:09:04",
+    "last_seen": "2026-08-27 12:09:04",
+    "last_episode_title": "Inside Cursor: The Anatomy of a Generational Startup",
+    "last_podcast_name": "The a16z Show",
+    "last_episode_date": "2026-08-27",
+    "mention_score": 1,
+    "mention_score_decayed": 1,
+    "last_main_idea": "Cursor's investment thesis revolves around its ability to leverage AI advancements to create a competitive edge in the coding market, focusing on the interface between humans and AI models rather than competing directly with other AI models.",
+    "last_proof_cite": "The a16z Show \u2022 2026-08-27 \u2022 Inside Cursor: The Anatomy of a Generational Startup",
+    "last_proof_snippet": "We don't need to compete with anthropic and open AI on models right now. The interface between the human and the model is the key thing. If you looked at the competitive landscape, it was almost silly. I asked Michael, I was like, what do y",
+    "supporting_takeaway": "The company pursued the largest market opportunity without being deterred by competitors like CloudCope.",
+    "grokipedia_url": null,
+    "grokipedia_fetched_at": "2026-08-27T07:09:36.958032",
+    "pundit_profile": {
+      "source": "llm",
+      "source_model": "moonshot:moonshot-v1-8k",
+      "source_url": "",
+      "page_title": "Matt Bornstein",
+      "fetched_at": "2026-08-27T12:09:36.957885+00:00",
+      "cliff_notes": "Matt Bornstein is recognized for his work as a General Partner at a16z, where he concentrates on investments in frontier tech and deep tech, with a specific focus on AI, machine learning, and quantum computing. His approach to investing emphasizes the importance of the interface between humans and AI models, suggesting that this is a key differentiator in the competitive landscape of AI technology. Bornstein's insights into the market and his strategic investments have positioned a16z as a significant player in the tech industry, particularly in the burgeoning fields of AI and machine learning.",
+      "derived": {
+        "current_role": "General Partner at a16z"
+      },
+      "infobox": {
+        "Born": "",
+        "Nationality": ""
+      },
+      "lead_paragraphs": [
+        "Matt Bornstein is recognized for his work as a General Partner at a16z, where he concentrates on investments in frontier tech and deep tech, with a specific focus on AI, machine learning, and quantum computing. His approach to investing emphasizes the importance of the interface between humans and AI models, suggesting that this is a key differentiator in the competitive landscape of AI technology.",
+        "Bornstein's insights into the market and his strategic investments have positioned a16z as a significant player in the tech industry, particularly in the burgeoning fields of AI and machine learning."
+      ],
+      "sections": [
+        {
+          "heading": "AI and Human Interface",
+          "body": "Matt Bornstein emphasizes the importance of the human-AI interface, suggesting it's a critical factor in the development and application of AI technologies."
+        },
+        {
+          "heading": "Investment Strategy",
+          "body": "As a General Partner at a16z, Bornstein is involved in crafting the firm's investment strategy, particularly in the areas of frontier tech and deep tech."
+        },
+        {
+          "heading": "Quantum Computing",
+          "body": "Bornstein's focus extends to quantum computing, an emerging field that promises to revolutionize computation and has significant investment potential."
+        },
+        {
+          "heading": "Competitive Landscape",
+          "body": "He has commented on the competitive landscape of AI, noting that a16z does not shy away from competition and is focused on tackling the largest market opportunities."
+        }
+      ]
+    }
+  },
+  {
+    "id": 176,
+    "name": "Sarah Wang",
+    "slug": "sarah-wang",
+    "bio": "General Partner at a16z focused on consumer tech and deep tech investments.",
+    "known_for": "Investments in AI, robotics, and future of work.",
+    "net_worth_usd": null,
+    "net_worth_source": "",
+    "net_worth_updated_at": null,
+    "voice_tone": "Inquisitive and insightful.",
+    "voice_style": "Asks probing questions to uncover Cursor's strategic decisions.",
+    "voice_delivery_notes": "Speaks with a clear and engaging tone, emphasizing key learnings.",
+    "voice_profile_updated_at": "2026-08-27 12:09:04",
+    "last_seen": "2026-08-27 12:09:04",
+    "last_episode_title": "Inside Cursor: The Anatomy of a Generational Startup",
+    "last_podcast_name": "The a16z Show",
+    "last_episode_date": "2026-08-27",
+    "mention_score": 1,
+    "mention_score_decayed": 1,
+    "last_main_idea": "Cursor's investment thesis revolves around its ability to leverage AI advancements to create a competitive edge in the coding market, focusing on the interface between humans and AI models rather than competing directly with other AI models.",
+    "last_proof_cite": "The a16z Show \u2022 2026-08-27 \u2022 Inside Cursor: The Anatomy of a Generational Startup",
+    "last_proof_snippet": "We don't need to compete with anthropic and open AI on models right now. The interface between the human and the model is the key thing. If you looked at the competitive landscape, it was almost silly. I asked Michael, I was like, what do y",
+    "supporting_takeaway": "The company pursued the largest market opportunity without being deterred by competitors like CloudCope.",
+    "grokipedia_url": null,
+    "grokipedia_fetched_at": "2026-07-31T13:40:08.543511",
+    "pundit_profile": {
+      "source": "llm",
+      "source_model": "moonshot:moonshot-v1-8k",
+      "source_url": "",
+      "page_title": "Sarah Wang",
+      "fetched_at": "2026-07-31T18:40:08.543178+00:00",
+      "cliff_notes": "Sarah Wang has carved a niche for herself in the technology sector, particularly in the realms of artificial intelligence and machine learning. Her career has been marked by a series of leadership roles within the tech industry, where she has been instrumental in pushing the boundaries of innovation and technological advancement. Wang's work has not only influenced her organizations but has also contributed to the broader tech landscape, making her a figure of note for investors and tech enthusiasts alike. Her contributions to the field have been recognized, and her insights are sought after for their potential to shape the future of technology.",
+      "derived": {},
+      "infobox": {
+        "Born": "",
+        "Nationality": ""
+      },
+      "lead_paragraphs": [
+        "Sarah Wang has carved a niche for herself in the technology sector, particularly in the realms of artificial intelligence and machine learning. Her career has been marked by a series of leadership roles within the tech industry, where she has been instrumental in pushing the boundaries of innovation and technological advancement.",
+        "Wang's work has not only influenced her organizations but has also contributed to the broader tech landscape, making her a figure of note for investors and tech enthusiasts alike. Her contributions to the field have been recognized, and her insights are sought after for their potential to shape the future of technology."
+      ],
+      "sections": [
+        {
+          "heading": "AI and Machine Learning",
+          "body": "Sarah Wang is recognized for her deep expertise in AI and machine learning, fields in which she has made significant contributions throughout her career."
+        },
+        {
+          "heading": "Leadership Roles",
+          "body": "Wang has held various leadership positions within the tech industry, where she has been pivotal in steering technological innovation and driving strategic growth."
+        },
+        {
+          "heading": "Innovation and Advancement",
+          "body": "Her work has been acknowledged for its impact on technological advancement, with a particular focus on the practical applications of AI and machine learning in real-world scenarios."
+        }
+      ]
+    }
+  },
   {
     "id": 423,
     "name": "Eric Weinstein",
@@ -39177,7 +39421,7 @@ const dashboardData = {
     "last_podcast_name": "The a16z Show",
     "last_episode_date": "2026-08-26",
     "mention_score": 1,
-    "mention_score_decayed": 1,
+    "mention_score_decayed": 0.98,
     "last_main_idea": "Invest in the application layer of AI where significant value can be captured, and consider the emerging consumer AI space for new opportunities.",
     "last_proof_cite": "The a16z Show \u2022 2026-08-26 \u2022 The State of AI: Macro, Apps, and Consumer",
     "last_proof_snippet": "For the last few years, the biggest question in the AI was which model would win. The next phase may be less about the models, and more about what gets built on top of them. In this episode, Jen Cos sits down with an Eshicharya, to unpack w",
@@ -39361,7 +39605,7 @@ const dashboardData = {
     "last_podcast_name": "The a16z Show",
     "last_episode_date": "2026-08-24",
     "mention_score": 1,
-    "mention_score_decayed": 0.95,
+    "mention_score_decayed": 0.93,
     "last_main_idea": "Investing in healthcare AI requires a focus on companies that can provide safe, aligned data and independent evaluation of AI models to ensure their usefulness and safety in real-world clinical settings.",
     "last_proof_cite": "The a16z Show \u2022 2026-08-24 \u2022 Why Medical AI Needs a Referee | Protege's Engy Ziedan",
     "last_proof_snippet": "Hundreds of millions of people ask chat to the questions about their health. Who, if any, is making sure that the answers that are spit out is safe and correct? Models are going to be inhibited in their usefulness by the training data avail",
@@ -42944,7 +43188,7 @@ const dashboardData = {
     "last_podcast_name": "The a16z Show",
     "last_episode_date": "2026-07-23",
     "mention_score": 1,
-    "mention_score_decayed": 0.47,
+    "mention_score_decayed": 0.46,
     "last_main_idea": "Industrial AI represents a substantial opportunity to transform physical industries through automation and AI, creating significant value beyond traditional software solutions.",
     "last_proof_cite": "The a16z Show \u2022 2026-07-23 \u2022 Building the Physical AI Stack | Travis Kalanick on TBPN",
     "last_proof_snippet": "Travis Kelenick joins TVPN to discuss why he's betting his next company on industrial AI. He shares his vision behind atoms, explains how autonomy is transforming industries like mining and food production, and discusses why bringing AI int",
@@ -43004,7 +43248,7 @@ const dashboardData = {
     "last_podcast_name": "Latent Space: The AI Engineer Podcast",
     "last_episode_date": "2026-07-23",
     "mention_score": 1,
-    "mention_score_decayed": 0.46,
+    "mention_score_decayed": 0.45,
     "last_main_idea": "Investing in AI development, particularly in the democratization of AI and the scaling of language models, can lead to significant innovation and competitive advantage.",
     "last_proof_cite": "Latent Space: The AI Engineer Podcast \u2022 2026-07-23 \u2022 Inside the Model Factory \u2014 Eiso Kant, Poolside AI",
     "last_proof_snippet": "All right, we're here in the studio. If I was a countryman, we'll fight together with people. Welcome. Thanks, thank you, guys. It's good to be here. Yeah, fresh on the plane. You texted me, you're like, hey, I'm on my way to SF. I was like",
@@ -46071,7 +46315,7 @@ const dashboardData = {
     "last_podcast_name": "Latent Space: The AI Engineer Podcast",
     "last_episode_date": "2026-06-03",
     "mention_score": 1,
-    "mention_score_decayed": 0.2,
+    "mention_score_decayed": 0.19,
     "last_main_idea": "Invest in Axiom Math for its pioneering role in verified AI for mathematics, which has the potential to drive innovation and efficiency in problem-solving across various fields.",
     "last_proof_cite": "Latent Space: The AI Engineer Podcast \u2022 2026-06-03 \u2022 \ud83d\udd2cScaling Past Informal AI - Carina Hong, Axiom Math",
     "last_proof_snippet": "But it's for the first time now I think verified AI is to open up collaboration. Either it's human AI collaboration. Well, before a blueprint like that's human human collaboration. And Lin was a grounding, was a verification formal language",
@@ -46260,7 +46504,7 @@ const dashboardData = {
     "last_podcast_name": "The Jack Mallers Show",
     "last_episode_date": "2026-06-16",
     "mention_score": 2,
-    "mention_score_decayed": 0.39,
+    "mention_score_decayed": 0.38,
     "last_main_idea": "Investors should monitor Bitcoin as a leading market indicator and scrutinize the capital structures of Bitcoin treasury companies for potential risks and rewards, while maintaining a long-term perspective.",
     "last_proof_cite": "The Jack Mallers Show \u2022 2026-06-16 \u2022 15 Questions: The Strait, Strategy, mNAV, Dilution, & My Boots",
     "last_proof_snippet": "Yo, welcome back to another episode of the Jack Mallors Show. I'm your host Jack, and you're listening to mail bag Monday, ladies and gentlemen. Oh, there's my resources tab, my AI tool. All right, let's get back to slide one. You were list",
@@ -50742,72 +50986,6 @@ const dashboardData = {
       ]
     },
     "net_worth": "$107.9M"
-  },
-  {
-    "id": 78,
-    "name": "Martin Casado",
-    "slug": "martin-casado",
-    "bio": "General Partner at a16z",
-    "known_for": "His expertise in enterprise technology and networking",
-    "net_worth_usd": 600000000.0,
-    "net_worth_source": "https://www.thetwentyminutevc.com/martin-casado",
-    "net_worth_updated_at": "2026-03-19T15:48:58.459470",
-    "voice_tone": "Thoughtful and insightful",
-    "voice_style": "Provides a deep dive into the technical aspects of AI and integration",
-    "voice_delivery_notes": "Delivers complex ideas with clarity and precision",
-    "voice_profile_updated_at": "2026-04-25 10:05:40",
-    "last_seen": "2026-04-25 10:05:40",
-    "last_episode_title": "AI Inside the Enterprise",
-    "last_podcast_name": "The a16z Show",
-    "last_episode_date": "2026-04-24",
-    "mention_score": 2,
-    "mention_score_decayed": 0.11,
-    "last_main_idea": "Investing in AI integration tools and platforms that can bridge the gap between AI capabilities and enterprise deployment is a key opportunity.",
-    "last_proof_cite": "The a16z Show \u2022 2026-04-24 \u2022 AI Inside the Enterprise",
-    "last_proof_snippet": "There's a growing gap between what's possible with AI and what's being deployed in large organizations.",
-    "supporting_takeaway": "There's a growing gap between what's possible with AI and what's being deployed in large organizations.",
-    "grokipedia_url": null,
-    "grokipedia_fetched_at": "2026-04-16T22:06:17.509156",
-    "pundit_profile": {
-      "source": "llm",
-      "source_model": "moonshot:moonshot-v1-8k",
-      "source_url": "",
-      "page_title": "Martin Casado",
-      "fetched_at": "2026-04-17T03:06:17.508927+00:00",
-      "cliff_notes": "Martin Casado is a technology entrepreneur and venture capitalist with a focus on enterprise technology. He began his career by co-founding Nicira, a company that specialized in software-defined networking (SDN). Nicira was later acquired by VMware, where Casado continued to work, eventually becoming the Chief Technology Officer. His work in SDN and virtualization has been influential in shaping the modern data center and cloud infrastructure. Casado is now a general partner at Andreessen Horowitz, where he invests in and advises startups in the enterprise technology space. He is also known for his thought leadership on the future of AI and its implications for business and society.",
-      "derived": {
-        "current_role": "General Partner at Andreessen Horowitz",
-        "former_positions": "Co-founder of Nicira; Chief Technology Officer at Nicira",
-        "education": "Stanford University"
-      },
-      "infobox": {
-        "Born": "",
-        "Nationality": "American"
-      },
-      "lead_paragraphs": [
-        "Martin Casado is a technology entrepreneur and venture capitalist with a focus on enterprise technology. He began his career by co-founding Nicira, a company that specialized in software-defined networking (SDN). Nicira was later acquired by VMware, where Casado continued to work, eventually becoming the Chief Technology Officer.",
-        "His work in SDN and virtualization has been influential in shaping the modern data center and cloud infrastructure. Casado is now a general partner at Andreessen Horowitz, where he invests in and advises startups in the enterprise technology space. He is also known for his thought leadership on the future of AI and its implications for business and society."
-      ],
-      "sections": [
-        {
-          "heading": "SDN Pioneer",
-          "body": "Martin Casado is recognized for his pioneering work in software-defined networking, which has revolutionized how networks are managed and configured in data centers."
-        },
-        {
-          "heading": "VMware Acquisition",
-          "body": "Casado's company Nicira was acquired by VMware, significantly impacting the trajectory of both companies and solidifying VMware's position in the SDN market."
-        },
-        {
-          "heading": "Venture Capital Insights",
-          "body": "As a general partner at Andreessen Horowitz, Casado provides valuable insights and guidance to startups, particularly in the areas of cloud computing and AI."
-        },
-        {
-          "heading": "AI and the Future of Work",
-          "body": "Casado has spoken about the diffusion of AI capabilities and its impact on the workforce, suggesting that software must be built with agents in mind to fully leverage the potential of AI."
-        }
-      ]
-    },
-    "net_worth": "$600.0M"
   },
   {
     "id": 205,

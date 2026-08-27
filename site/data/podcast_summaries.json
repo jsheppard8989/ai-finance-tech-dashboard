@@ -1,5 +1,24 @@
 [
   {
+    "id": 430,
+    "podcast_name": "The a16z Show",
+    "episode_title": "Inside Cursor: The Anatomy of a Generational Startup",
+    "episode_date": "2026-08-27",
+    "summary": "In this episode of 'The a16z Show', Martin Casado, Sarah Wang, and Matt Bornstein discuss the journey of Cursor, a company at the forefront of AI advancements. They analyze Cursor's strategic decisions, including building a standalone product instead of a plugin, resisting early enterprise sales, and maintaining focus amidst a changing competitive landscape. The conversation also delves into Cursor's ability to reinvent itself as AI evolved, its culture of speed and taste, and the intensity it brought to hiring and acquisitions. The episode provides broader insights into what it takes to build a defining company in a market characterized by rapidly changing technology, competition, and conventional wisdom.",
+    "key_takeaways": [
+      "Cursor focused on the interface between humans and AI models as a key differentiator.",
+      "The company pursued the largest market opportunity without being deterred by competitors like CloudCope.",
+      "Cursor's initial investment decision was influenced by its rapid user acquisition and brand recognition.",
+      "The company repeatedly reinvented itself as AI technology advanced, demonstrating adaptability.",
+      "Cursor built a culture around speed and taste, which eventually extended to hiring and acquisitions.",
+      "The competitive landscape in AI is characterized by a rotating cast of major competitors."
+    ],
+    "investment_thesis": "Cursor's investment thesis revolves around its ability to leverage AI advancements to create a competitive edge in the coding market, focusing on the interface between humans and AI models rather than competing directly with other AI models.",
+    "key_tickers": [
+      "MSFT"
+    ]
+  },
+  {
     "id": 429,
     "podcast_name": "All-In with Chamath, Jason, Sacks & Friedberg",
     "episode_title": "Eric Weinstein: The State of American Science, Breakthrough Coverups, and the Danger of Physics",
@@ -122,23 +141,6 @@
       "There is a debate on whether to consolidate various science and technology agencies into a single entity, but the current system's diversity is seen as a strength."
     ],
     "investment_thesis": "Investing in the U.S. science and technology ecosystem can lead to significant returns, as the administration aims to empower young scientists and create an environment for groundbreaking discoveries.",
-    "key_tickers": null
-  },
-  {
-    "id": 422,
-    "podcast_name": "Monetary Matters with Jack Farley",
-    "episode_title": "Is Private Equity Broken? Why the Buyside\u2019s Problems Are Making 2026 \u201cThe Year of the Banker\u201d | High Yield Harry",
-    "episode_date": "2026-08-24",
-    "summary": "In this episode of 'Monetary Matters with Jack Farley', Max Weethy interviews High-Yield Harry to discuss the current state of the buy side in finance. They explore the impact of AI on junior analysts, the maturation of private equity, and concerns within the private credit sector. The conversation highlights the bifurcated nature of the buy side, with investment bankers currently benefiting from increased M&A activity and stability, while private equity and private credit professionals face challenges in exiting positions and fundraising. The episode also touches on the potential for AI to disrupt traditional roles within finance and the implications for compensation and career progression.",
-    "key_takeaways": [
-      "The buy side is experiencing a bifurcated environment with investment bankers benefiting from increased M&A activity and stability.",
-      "Private equity and private credit professionals are facing challenges in exiting positions and fundraising, leading to concerns about compensation and career progression.",
-      "AI is seen as a potential disruptor in the finance industry, with the potential to replace or augment the roles of junior analysts and mid-level professionals.",
-      "The current environment is leading some private equity professionals to take non-recourse loans against future earnings to subsidize their lifestyles.",
-      "Compensation in private credit has peaked, with a 12 to 18-month lag expected before the full impact is felt by private equity professionals.",
-      "Investment bankers may be insulated from the immediate effects of AI, while mid-level professionals who understand the industry and are AI-forward may be well-positioned to advance."
-    ],
-    "investment_thesis": "The current bifurcated state of the buy side presents opportunities for investment bankers due to increased M&A activity, while private equity and private credit professionals face challenges that may impact their compensation and career progression.",
     "key_tickers": null
   }
 ]
