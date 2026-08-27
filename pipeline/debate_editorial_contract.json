@@ -1,67 +1,87 @@
 {
-  "friday_iso": "",
-  "prompt": "Will California enact SB 951 by September 30, requiring employers to disclose when AI drives a mass layoff—naming the affected occupations, automated job functions, and technology used—and the state to publish quarterly displacement summaries?",
-  "editorial_note": "We picked this because SB 951 would extend California's worker-notice system beyond ordinary layoff counts. Employers would have to flag mass layoffs materially driven by AI, name the occupations cut and the job functions being automated, identify the technology responsible, and feed a quarterly public tally of technological displacement. We also note the bill was narrowed on August 21, when a proposed notice requirement for AI-driven hiring freezes was replaced by a state study.",
-  "expires_rule": "Resolves Wednesday 11:59 PM PT 2026-09-30",
-  "resolves_iso": "2026-09-30",
-  "crux_theme": "AI labor transparency",
+  "friday_iso": "2026-08-28",
+  "prompt": "Will IGV, the iShares Expanded Tech-Software ETF, trail the SPY exchange-traded fund by at least 4 percentage points of total return from the close on 2026-08-28 to the close on 2026-10-09?",
+  "editorial_note": "We killed the legislative version of this question because a bill either passes or it does not, and that vote tells you nothing about whether AI is actually substituting for human labor. So we moved it to a venue that has to price the answer: IGV holds the enterprise-software companies whose revenue has historically been indexed to human headcount, and SPY is the broad tape they are measured against. We set the bar at 4 percentage points because the median absolute 29-trading-day gap between the two funds over the past five years is 3.41 points, so anything smaller resolves on noise rather than on the thesis. Over those same five years the spread reached minus 4 or worse in 25.5% of windows, and in 45.0% of the windows starting in the last twelve months, which makes this genuinely uncertain instead of a gimme for either side.",
+  "expires_rule": "Resolves Friday 2026-10-09 on official closing prices (4:00 PM ET)",
+  "resolves_iso": "2026-10-09",
+  "crux_theme": "AI vs the wage bill",
   "evidence_brief": [
     {
-      "fact": "As of August 24, 2026, SB 951 was an active bill in the Assembly floor process after being ordered to third reading on August 21.",
-      "source": "California Legislative Information, official SB 951 status",
-      "source_url": "https://leginfo.legislature.ca.gov/faces/billStatusClient.xhtml?bill_id=202520260SB951"
+      "fact": "Enterprise software is sold per human seat, so its revenue is indexed to headcount. That link is being cut in public: on June 25, 2026 Salesforce announced Agentforce Help Agent with pay-per-resolution pricing, charging only when the agent resolves an issue autonomously, and said 'your cost is tied to outcomes, not activity.'",
+      "source": "Salesforce newsroom, June 25, 2026",
+      "source_url": "https://www.salesforce.com/news/stories/agentforce-help-agent-announcement/",
+      "limitation": "One vendor, one product. It shows direction, not the size of the revenue effect on the sector."
     },
     {
-      "fact": "Existing Cal/WARN law generally requires 60 days' notice for a covered mass layoff, relocation, or termination. SB 951 would add disclosures when that action is caused in whole or substantial part by AI or other automated technology, including the number, classification or occupation, and work location of the affected layoffs, the job functions to be automated, the category or type of AI system responsible, and a header reading 'This notice is for a technology displacement'.",
-      "source": "Proposed Labor Code section 1401(d)(1)",
-      "source_url": "https://leginfo.legislature.ca.gov/faces/billCompareClient.xhtml?bill_id=202520260SB951&showamends=false"
-    },
-    {
-      "fact": "The Employment Development Department would publish a summary of those notices as part of its regular Cal/WARN data reporting and post a quarterly statewide summary of reported technology displacements.",
-      "source": "Proposed Labor Code section 1401(d)(2)",
-      "source_url": "https://leginfo.legislature.ca.gov/faces/billCompareClient.xhtml?bill_id=202520260SB951&showamends=false"
-    },
-    {
-      "fact": "The August 21, 2026 amendment removed the earlier proposal requiring employers to file a notice when they permanently stop hiring for a position because of AI. Section 1402.7 now only directs the Employment Development Department to report to the Legislature by January 1, 2028 on AI's effects on business hiring practices. That report may include recommendations for a future notice requirement, but the statute lets the department satisfy it with summaries of hiring trends and existing research instead. The section is repealed January 1, 2029.",
-      "source": "Labor Code section 1402.7 as amended August 21, 2026",
-      "source_url": "https://leginfo.legislature.ca.gov/faces/billCompareClient.xhtml?bill_id=202520260SB951&showamends=false"
-    },
-    {
-      "fact": "SB 951 would add a statutory definition of artificial intelligence to the Cal/WARN Act, covering machine-based systems that infer from their input how to generate outputs influencing physical or virtual environments.",
-      "source": "Proposed Labor Code section 1400.5(a)",
-      "source_url": "https://leginfo.legislature.ca.gov/faces/billCompareClient.xhtml?bill_id=202520260SB951&showamends=false"
-    },
-    {
-      "fact": "California's 2026 calendar sets August 31 as the last day for each house to pass bills and September 30 as the governor's deadline to sign or veto qualifying bills.",
-      "source": "California Legislature 2026 legislative calendar",
-      "source_url": "https://clerk.assembly.ca.gov/sites/clerk.assembly.ca.gov/files/2026-01/2026-calendar.pdf"
-    },
-    {
-      "fact": "A Stanford Digital Economy Lab analysis using ADP payroll data reported that employment among workers ages 22 to 25 in highly AI-exposed occupations was about 19% below a comparison path by June 2026, with the divergence operating mainly through reduced hiring rather than separations.",
-      "source": "Stanford Digital Economy Lab, Canaries in the Coal Mine? August 2026 update",
+      "fact": "Stanford Digital Economy Lab, using ADP payroll data, reports employment among workers aged 22 to 25 in highly AI-exposed occupations about 19% below where it would be had it tracked less-exposed peers, up from 15% a year earlier. The adjustment runs through reduced hiring, not separations, and concentrates where AI automates rather than complements.",
+      "source": "Stanford Digital Economy Lab, 'Canaries in the Coal Mine?', August 12, 2026",
       "source_url": "https://digitaleconomy.stanford.edu/news/canariesaug26/",
-      "limitation": "The researchers describe these as early descriptive indicators, not causal estimates of AI's effect."
+      "limitation": "The authors call these descriptive patterns, not causal estimates; gaps shrink when education is controlled for."
+    },
+    {
+      "fact": "The same Stanford paper's first listed finding cuts against displacement: 'We do not see widespread, economy-wide job displacement associated with AI.' Experienced workers show no comparable gap, and the effect shows up in employment, not in base pay.",
+      "source": "Stanford Digital Economy Lab, August 12, 2026",
+      "source_url": "https://digitaleconomy.stanford.edu/news/canariesaug26/",
+      "limitation": "Aggregates can lag a compositional shift, so absence of an economy-wide signal is not proof of no substitution."
+    },
+    {
+      "fact": "On dividend-adjusted closes, IGV returned -3.10% from December 31, 2025 to August 26, 2026 while SPY returned +12.94%, a 16.04 point gap. Over the trailing year IGV returned -3.90% against SPY's +20.06%, a 23.96 point gap. iShares published the same -3.10% year-to-date NAV total return for that date.",
+      "source": "Yahoo Finance adjusted closes, cross-checked against the iShares IGV fund page",
+      "source_url": "https://finance.yahoo.com/quote/IGV/history/",
+      "limitation": "Descriptive. It does not separate AI business-model risk from valuation compression, rates, or rotation."
+    },
+    {
+      "fact": "That repricing is already partly reversed. IGV fell 29.35% from the 2025 year-end close to its April 10, 2026 low while SPY was flat at -0.09%; IGV has since risen 37.1%. Over the 29 sessions ending August 26, 2026 IGV gained 9.27% against SPY's 2.05%, beating it by 7.23 points. IGV closed at $102.39, 13.1% below its 52-week high.",
+      "source": "Yahoo Finance adjusted closes for IGV and SPY",
+      "source_url": "https://finance.yahoo.com/quote/IGV/history/",
+      "limitation": "A rebound fits both an overdone fear and a rally inside a continuing derating."
+    },
+    {
+      "fact": "Base rates for this exact structure. Across five years of overlapping 29-trading-day windows to August 26, 2026 (n = 1,225), the median IGV-minus-SPY total-return spread was -0.52 points and the median absolute spread was 3.41 points. The spread reached -4 points or worse in 25.5% of all windows, 32.8% of 2026 windows and 45.0% of the last twelve months' windows, and +4 or better in 17.0%.",
+      "source": "Computed from Yahoo Finance adjusted closes, 2021-08-27 to 2026-08-26",
+      "source_url": "https://finance.yahoo.com/quote/SPY/history/",
+      "limitation": "Overlapping windows are serially correlated, so these are frequency counts, not probabilities."
+    },
+    {
+      "fact": "Seasonality cuts against YES. Over the nearest trading days to this same late-August-to-early-October window, the IGV-minus-SPY spread was -1.75, -1.90, +3.03, +3.91 and +2.32 points in 2021 through 2025. IGV won three of five, and none of the five reached -4.",
+      "source": "Computed from Yahoo Finance adjusted closes for IGV and SPY",
+      "source_url": "https://finance.yahoo.com/quote/SPY/history/",
+      "limitation": "Five observations spanning two very different macro regimes. A pattern, not a base rate."
+    },
+    {
+      "fact": "IGV is not a pure per-seat software basket. Its largest positions on August 26, 2026 were Palantir 10.31%, Microsoft 9.61%, Palo Alto Networks 9.34%, CrowdStrike 6.40%, Salesforce 5.70% and Oracle 5.59%, with the top ten at 61.85% of assets.",
+      "source": "ETF Database holdings page for IGV",
+      "source_url": "https://etfdb.com/etf/IGV/",
+      "limitation": "This is the contract's weakest link. Oracle, Microsoft and Palantir make it partly an AI-infrastructure bet and roughly a fifth is cybersecurity, whose budgets do not track headcount, so the spread cannot be attributed to labor substitution alone."
+    },
+    {
+      "fact": "Both legs are hedgeable. iShares reported IGV net assets near $13.87 billion on August 25, 2026, 30-day average volume of 11,947,551 shares and a 30-day median bid/ask spread of 0.01%. State Street reported SPY assets of $808.5 billion at an August 26, 2026 NAV of $765.77. IGV traded about $1.41 billion a day and SPY about $38.2 billion over the prior 60 sessions. Both have listed options. IGV pays semi-annually in June and December, so no IGV ex-date falls in the window; SPY pays quarterly and its September ex-date normally does, which is why the contract is written on total return.",
+      "source": "iShares and State Street fund pages; dollar volume computed from Yahoo Finance closes and volumes",
+      "source_url": "https://www.ishares.com/us/products/239771/ishares-north-american-techsoftware-etf",
+      "limitation": "Distribution amounts and ex-dates are not final until the issuers declare them."
     }
   ],
   "resolution_clarity": {
-    "source_of_truth": "California Legislative Information official SB 951 status and chaptered bill text",
+    "source_of_truth": "Total return for each fund from its official closing price on 2026-08-28 to its official closing price on 2026-10-09, with any cash distribution whose ex-date falls inside that window reinvested at that day's official closing price, and any share split applied. IGV trades on Cboe BZX and SPY on NYSE Arca; the consolidated closing price for each is used.",
     "resolution_sources": [
-      "https://leginfo.legislature.ca.gov/faces/billStatusClient.xhtml?bill_id=202520260SB951",
-      "https://leginfo.legislature.ca.gov/faces/billNavClient.xhtml?bill_id=202520260SB951",
-      "https://leginfo.legislature.ca.gov/faces/billCompareClient.xhtml?bill_id=202520260SB951&showamends=false"
+      "https://www.ishares.com/us/products/239771/ishares-north-american-techsoftware-etf",
+      "https://www.ssga.com/us/en/individual/etfs/state-street-spdr-sp-500-etf-trust-spy",
+      "https://finance.yahoo.com/quote/IGV/history/",
+      "https://finance.yahoo.com/quote/SPY/history/"
     ],
     "resolution_criteria": [
-      "Resolves YES only if California's official bill record lists SB 951 as Chaptered on or before September 30, 2026.",
-      "The chaptered text must require disclosure when a Cal/WARN-covered mass layoff is caused in whole or in substantial part by AI or other automated technology.",
-      "That disclosure must identify the affected occupations or classifications, the job functions to be automated, and the category or type of AI or automated technology responsible.",
-      "The chaptered text must require the Employment Development Department to publish notice summaries and a recurring statewide summary of reported technology displacement.",
-      "Resolves NO if SB 951 is vetoed, is not chaptered by the deadline, or any of those three substantive requirements is removed. Cosmetic wording changes do not affect resolution.",
-      "The section 1402.7 study of AI's effects on hiring is not required for YES. It may be amended, narrowed, or removed without affecting resolution."
+      "Let R_IGV and R_SPY be each fund's total return, in percent, from the official close on 2026-08-28 to the official close on 2026-10-09, with distributions having ex-dates inside the window reinvested at that day's closing price and any split applied.",
+      "Let SPREAD = R_IGV minus R_SPY, expressed in percentage points and rounded to two decimals.",
+      "Resolves YES if SPREAD is less than or equal to -4.00 percentage points. A SPREAD of exactly -4.00 resolves YES.",
+      "Resolves NO in every other case, including a spread of -3.99 or better and any outcome in which IGV outperforms SPY.",
+      "Issuer-published data takes precedence. Where the iShares and State Street fund pages disagree with the Yahoo Finance dividend-adjusted series, the issuer figures govern and the Yahoo series is used only as a public cross-check.",
+      "Neither leg's absolute direction matters. Both funds rising, both falling, or one of each all resolve on the spread alone.",
+      "Resolves VOID only if either fund is delisted, liquidated, merged, or halted for a full regular session on 2026-08-28 or 2026-10-09, or if a scheduled U.S. equity market close eliminates one of those two sessions."
     ]
   },
   "sides": {
     "a": "Affirmative (YES)",
     "b": "Negative (NO)"
   },
-  "editorial_approved": false
+  "editorial_approved": true
 }
