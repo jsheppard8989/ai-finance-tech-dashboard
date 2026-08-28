@@ -1,87 +1,98 @@
 {
   "friday_iso": "2026-08-28",
-  "prompt": "Will IGV, the iShares Expanded Tech-Software ETF, trail the SPY exchange-traded fund by at least 4 percentage points of total return from the close on 2026-08-28 to the close on 2026-10-09?",
-  "editorial_note": "We killed the legislative version of this question because a bill either passes or it does not, and that vote tells you nothing about whether AI is actually substituting for human labor. So we moved it to a venue that has to price the answer: IGV holds the enterprise-software companies whose revenue has historically been indexed to human headcount, and SPY is the broad tape they are measured against. We set the bar at 4 percentage points because the median absolute 29-trading-day gap between the two funds over the past five years is 3.41 points, so anything smaller resolves on noise rather than on the thesis. Over those same five years the spread reached minus 4 or worse in 25.5% of windows, and in 45.0% of the windows starting in the last twelve months, which makes this genuinely uncertain instead of a gimme for either side.",
-  "expires_rule": "Resolves Friday 2026-10-09 on official closing prices (4:00 PM ET)",
-  "resolves_iso": "2026-10-09",
-  "crux_theme": "AI vs the wage bill",
+  "prompt": "Will the Federal Open Market Committee raise the federal funds target range at its September 15-16, 2026 meeting?",
+  "editorial_note": "We picked this deliberately simple binary question because it contains a difficult macro tradeoff. Inflation remains well above the Fed's 2% target, Chair Kevin Warsh says financial conditions are not broadly restrictive, and three FOMC members preferred a hike in July. Against that, July payrolls fell, the next jobs and CPI reports arrive before the meeting, and long-term yields plus a large federal refinancing burden raise the cost of additional tightening. Market pricing moved toward a coin flip after Warsh's Jackson Hole speech, leaving both sides live.",
+  "expires_rule": "Resolves Wednesday 2026-09-16 at publication of the FOMC policy statement",
+  "resolves_iso": "2026-09-16",
+  "crux_theme": "inflation credibility versus labor and fiscal stress",
+  "argument_requirements": [
+    "Both sides must weigh Warsh's Jackson Hole framework and the latest PCE and CPI readings against payrolls, unemployment, and participation, then say how the August jobs and CPI releases could change their conclusion.",
+    "Both sides must distinguish the overnight policy rate from 10-year and 30-year yields, connecting yen intervention, global capital flows, Treasury buybacks, the deficit, nondiscretionary outlays, interest expense, total debt, and the $8.374 trillion twelve-month rollover burden without implying that Treasury financing cost is the Fed's mandate.",
+    "Both sides must treat the midterms as a test of Fed independence rather than proof of political voting, treat market odds as prices rather than proof, and identify the strongest fact against their own conclusion."
+  ],
   "evidence_brief": [
     {
-      "fact": "Enterprise software is sold per human seat, so its revenue is indexed to headcount. That link is being cut in public: on June 25, 2026 Salesforce announced Agentforce Help Agent with pay-per-resolution pricing, charging only when the agent resolves an issue autonomously, and said 'your cost is tied to outcomes, not activity.'",
-      "source": "Salesforce newsroom, June 25, 2026",
-      "source_url": "https://www.salesforce.com/news/stories/agentforce-help-agent-announcement/",
-      "limitation": "One vendor, one product. It shows direction, not the size of the revenue effect on the sector."
+      "fact": "The FOMC held the federal funds target range at 3.50% to 3.75% on July 29, 2026 by a 9-3 vote. Three members preferred a 25-basis-point increase. The minutes say market pricing before that meeting assigned about a one-in-three chance to a July increase and fully priced a 25-basis-point increase by the September meeting.",
+      "source": "Federal Reserve, minutes of the July 28-29, 2026 FOMC meeting",
+      "source_url": "https://www.federalreserve.gov/monetarypolicy/fomcminutes20260729.htm",
+      "limitation": "The market pricing described in the minutes predates subsequent inflation, employment, intervention, and Jackson Hole news."
     },
     {
-      "fact": "Stanford Digital Economy Lab, using ADP payroll data, reports employment among workers aged 22 to 25 in highly AI-exposed occupations about 19% below where it would be had it tracked less-exposed peers, up from 15% a year earlier. The adjustment runs through reduced hiring, not separations, and concentrates where AI automates rather than complements.",
-      "source": "Stanford Digital Economy Lab, 'Canaries in the Coal Mine?', August 12, 2026",
-      "source_url": "https://digitaleconomy.stanford.edu/news/canariesaug26/",
-      "limitation": "The authors call these descriptive patterns, not causal estimates; gaps shrink when education is controlled for."
+      "fact": "In his August 28 Jackson Hole speech, Chair Kevin Warsh said the 2% PCE inflation objective is a firm, fixed target; short-term interest rates are the predominant policy tool; broad financial conditions were hard to describe as restrictive; and the Fed's predominant focus should be prices. He said the 12-month PCE rate was 3.7%, the six-month rate was 4.1%, and summer data had not meaningfully improved the underlying trend.",
+      "source": "Federal Reserve, Chair Warsh, 'In Our Time,' August 28, 2026",
+      "source_url": "https://www.federalreserve.gov/newsevents/speech/warsh20260828a.htm"
     },
     {
-      "fact": "The same Stanford paper's first listed finding cuts against displacement: 'We do not see widespread, economy-wide job displacement associated with AI.' Experienced workers show no comparable gap, and the effect shows up in employment, not in base pay.",
-      "source": "Stanford Digital Economy Lab, August 12, 2026",
-      "source_url": "https://digitaleconomy.stanford.edu/news/canariesaug26/",
-      "limitation": "Aggregates can lag a compositional shift, so absence of an economy-wide signal is not proof of no substitution."
+      "fact": "Warsh also refused to pre-commit. He criticized routine forward guidance, said July's majority wanted more information before changing policy, described labor as consistent with full employment, and closed: 'I stand here today committed to a discipline, not to a decision.'",
+      "source": "Federal Reserve, Chair Warsh, 'In Our Time,' August 28, 2026",
+      "source_url": "https://www.federalreserve.gov/newsevents/speech/warsh20260828a.htm",
+      "limitation": "The speech establishes Warsh's framework, not how the full FOMC will vote on September 16."
     },
     {
-      "fact": "On dividend-adjusted closes, IGV returned -3.10% from December 31, 2025 to August 26, 2026 while SPY returned +12.94%, a 16.04 point gap. Over the trailing year IGV returned -3.90% against SPY's +20.06%, a 23.96 point gap. iShares published the same -3.10% year-to-date NAV total return for that date.",
-      "source": "Yahoo Finance adjusted closes, cross-checked against the iShares IGV fund page",
-      "source_url": "https://finance.yahoo.com/quote/IGV/history/",
-      "limitation": "Descriptive. It does not separate AI business-model risk from valuation compression, rates, or rotation."
+      "fact": "After the Jackson Hole speech, federal-funds futures moved to roughly 56% to 60% odds of a September hike, up from about 35% to 40% beforehand.",
+      "source": "CNBC and Reuters market reports, August 28, 2026",
+      "source_url": "https://www.cnbc.com/2026/08/28/kevin-warsh-jackson-hole-federal-reserve-inflation.html",
+      "limitation": "This is an intraday market-implied estimate, not a forecast certainty, and it can change materially before the meeting."
     },
     {
-      "fact": "That repricing is already partly reversed. IGV fell 29.35% from the 2025 year-end close to its April 10, 2026 low while SPY was flat at -0.09%; IGV has since risen 37.1%. Over the 29 sessions ending August 26, 2026 IGV gained 9.27% against SPY's 2.05%, beating it by 7.23 points. IGV closed at $102.39, 13.1% below its 52-week high.",
-      "source": "Yahoo Finance adjusted closes for IGV and SPY",
-      "source_url": "https://finance.yahoo.com/quote/IGV/history/",
-      "limitation": "A rebound fits both an overdone fear and a rally inside a continuing derating."
+      "fact": "July inflation sent mixed but still above-target signals. Headline CPI rose 0.1% in the month and 3.4% over twelve months; core CPI rose 0.2% and 2.5%. The Fed-preferred PCE index rose 0.2% in July and 3.7% over twelve months; core PCE rose 0.2% and 3.3%. August CPI is scheduled for September 11, before the FOMC decision.",
+      "source": "Bureau of Labor Statistics July 2026 CPI release and Bureau of Economic Analysis July 2026 Personal Income and Outlays",
+      "source_url": "https://www.bea.gov/news/2026/personal-income-and-outlays-july-2026"
     },
     {
-      "fact": "Base rates for this exact structure. Across five years of overlapping 29-trading-day windows to August 26, 2026 (n = 1,225), the median IGV-minus-SPY total-return spread was -0.52 points and the median absolute spread was 3.41 points. The spread reached -4 points or worse in 25.5% of all windows, 32.8% of 2026 windows and 45.0% of the last twelve months' windows, and +4 or better in 17.0%.",
-      "source": "Computed from Yahoo Finance adjusted closes, 2021-08-27 to 2026-08-26",
-      "source_url": "https://finance.yahoo.com/quote/SPY/history/",
-      "limitation": "Overlapping windows are serially correlated, so these are frequency counts, not probabilities."
+      "fact": "July nonfarm payrolls fell by 23,000, following an average monthly gain of 34,000 over the prior twelve months. Unemployment declined to 4.1%, but labor-force participation also fell to 61.4%. The August employment report is scheduled for September 4, before the FOMC meeting.",
+      "source": "Bureau of Labor Statistics, Employment Situation for July 2026",
+      "source_url": "https://www.bls.gov/news.release/empsit.nr0.htm",
+      "limitation": "One monthly payroll estimate is noisy and subject to revision; the August report will supersede part of this information set."
     },
     {
-      "fact": "Seasonality cuts against YES. Over the nearest trading days to this same late-August-to-early-October window, the IGV-minus-SPY spread was -1.75, -1.90, +3.03, +3.91 and +2.32 points in 2021 through 2025. IGV won three of five, and none of the five reached -4.",
-      "source": "Computed from Yahoo Finance adjusted closes for IGV and SPY",
-      "source_url": "https://finance.yahoo.com/quote/SPY/history/",
-      "limitation": "Five observations spanning two very different macro regimes. A pattern, not a base rate."
+      "fact": "On August 27, the latest completed day available when this contract was written, Treasury's official par yield curve put the 10-year yield at 4.67% and the 30-year yield at 5.19%. These rates are based on indicative bid-side quotations near 3:30 p.m. ET.",
+      "source": "U.S. Treasury, Daily Treasury Par Yield Curve Rates",
+      "source_url": "https://home.treasury.gov/resource-center/data-chart-center/interest-rates/TextView?field_tdr_date_value_month=202608&type=daily_treasury_yield_curve",
+      "limitation": "Long yields reflect inflation, growth, term premium, supply, and global flows; they are not controlled one-for-one by the overnight federal funds rate."
     },
     {
-      "fact": "IGV is not a pure per-seat software basket. Its largest positions on August 26, 2026 were Palantir 10.31%, Microsoft 9.61%, Palo Alto Networks 9.34%, CrowdStrike 6.40%, Salesforce 5.70% and Oracle 5.59%, with the top ten at 61.85% of assets.",
-      "source": "ETF Database holdings page for IGV",
-      "source_url": "https://etfdb.com/etf/IGV/",
-      "limitation": "This is the contract's weakest link. Oracle, Microsoft and Palantir make it partly an AI-infrastructure bet and roughly a fifth is cybersecurity, whose budgets do not track headcount, so the spread cannot be attributed to labor substitution alone."
+      "fact": "The United States and Japan jointly bought yen after it weakened toward 164 per dollar. Treasury Secretary Scott Bessent's 'whatever it takes' statement referred to supporting Japan's currency-stabilization effort, not to capping long-term U.S. yields. Separately, Treasury announced that long-end liquidity-support buybacks in the 10-to-30-year sectors would increase from a $2 billion maximum to at least $4 billion per operation beginning September 9.",
+      "source": "Reuters, August 4, 2026, and U.S. Treasury, August 19, 2026",
+      "source_url": "https://home.treasury.gov/news/press-releases/sb0607",
+      "limitation": "Buybacks are officially described as liquidity support, not yield-curve control. Currency intervention can affect global demand and exchange rates, but its effect on the September FOMC vote is indirect."
     },
     {
-      "fact": "Both legs are hedgeable. iShares reported IGV net assets near $13.87 billion on August 25, 2026, 30-day average volume of 11,947,551 shares and a 30-day median bid/ask spread of 0.01%. State Street reported SPY assets of $808.5 billion at an August 26, 2026 NAV of $765.77. IGV traded about $1.41 billion a day and SPY about $38.2 billion over the prior 60 sessions. Both have listed options. IGV pays semi-annually in June and December, so no IGV ex-date falls in the window; SPY pays quarterly and its September ex-date normally does, which is why the contract is written on total return.",
-      "source": "iShares and State Street fund pages; dollar volume computed from Yahoo Finance closes and volumes",
-      "source_url": "https://www.ishares.com/us/products/239771/ishares-north-american-techsoftware-etf",
-      "limitation": "Distribution amounts and ex-dates are not final until the issuers declare them."
+      "fact": "Fiscal-year 2026 through July recorded $4.485 trillion of receipts, $6.284 trillion of outlays, and a $1.799 trillion deficit. Major outlays included about $1.384 trillion for Social Security, $955 billion for Medicare, $931 billion for net interest, and $598 billion for Medicaid. These large benefit and interest obligations leave a smaller portion of the budget adjustable through annual discretionary appropriations.",
+      "source": "U.S. Treasury, Monthly Treasury Statement for July 2026",
+      "source_url": "https://fiscaldata.treasury.gov/static-data/published-reports/mts/MonthlyTreasuryStatement_202607.pdf",
+      "limitation": "Fiscal policy and the composition of federal spending affect monetary conditions, but the Fed does not set rates to reduce Treasury's interest bill."
+    },
+    {
+      "fact": "As of August 26, total public debt outstanding was $40.070 trillion, including $32.306 trillion held by the public. A calculation from Treasury's July 31 security-level table shows $8.374 trillion of marketable debt maturing from August 28, 2026 through August 28, 2027: $4.864 trillion of bills, $2.904 trillion of notes, and $606 billion across floating-rate notes, inflation-protected securities, and bonds.",
+      "source": "Calculated from U.S. Treasury Fiscal Data, Debt to the Penny and July 2026 Detail of Marketable Treasury Securities Outstanding",
+      "source_url": "https://api.fiscaldata.treasury.gov/services/api/fiscal_service/v2/accounting/od/debt_to_penny?filter=record_date:eq:2026-08-26",
+      "limitation": "The maturity snapshot predates August issuance and changes as bills are issued. Gross maturities are routinely refinanced and should not be confused with $8.374 trillion of new borrowing."
+    },
+    {
+      "fact": "The next regularly scheduled federal general election is November 3, 2026. The September FOMC decision therefore arrives during the midterm campaign, and the following scheduled decision is October 28, six days before Election Day.",
+      "source": "Federal Election Commission and Federal Reserve calendars",
+      "source_url": "https://www.fec.gov/introduction-campaign-finance/election-results-and-voting-information/",
+      "limitation": "Political timing may shape outside pressure and perceptions, but the Federal Reserve is institutionally responsible for its dual mandate; the election calendar is not evidence that officials will alter their votes."
     }
   ],
   "resolution_clarity": {
-    "source_of_truth": "Total return for each fund from its official closing price on 2026-08-28 to its official closing price on 2026-10-09, with any cash distribution whose ex-date falls inside that window reinvested at that day's official closing price, and any share split applied. IGV trades on Cboe BZX and SPY on NYSE Arca; the consolidated closing price for each is used.",
+    "source_of_truth": "The Federal Reserve's official policy statement for the FOMC meeting scheduled for September 15-16, 2026",
     "resolution_sources": [
-      "https://www.ishares.com/us/products/239771/ishares-north-american-techsoftware-etf",
-      "https://www.ssga.com/us/en/individual/etfs/state-street-spdr-sp-500-etf-trust-spy",
-      "https://finance.yahoo.com/quote/IGV/history/",
-      "https://finance.yahoo.com/quote/SPY/history/"
+      "https://www.federalreserve.gov/monetarypolicy/fomccalendars.htm",
+      "https://www.federalreserve.gov/monetarypolicy.htm"
     ],
     "resolution_criteria": [
-      "Let R_IGV and R_SPY be each fund's total return, in percent, from the official close on 2026-08-28 to the official close on 2026-10-09, with distributions having ex-dates inside the window reinvested at that day's closing price and any split applied.",
-      "Let SPREAD = R_IGV minus R_SPY, expressed in percentage points and rounded to two decimals.",
-      "Resolves YES if SPREAD is less than or equal to -4.00 percentage points. A SPREAD of exactly -4.00 resolves YES.",
-      "Resolves NO in every other case, including a spread of -3.99 or better and any outcome in which IGV outperforms SPY.",
-      "Issuer-published data takes precedence. Where the iShares and State Street fund pages disagree with the Yahoo Finance dividend-adjusted series, the issuer figures govern and the Yahoo series is used only as a public cross-check.",
-      "Neither leg's absolute direction matters. Both funds rising, both falling, or one of each all resolve on the spread alone.",
-      "Resolves VOID only if either fund is delisted, liquidated, merged, or halted for a full regular session on 2026-08-28 or 2026-10-09, or if a scheduled U.S. equity market close eliminates one of those two sessions."
+      "The starting federal funds target range is 3.50% to 3.75%, as maintained at the July 28-29, 2026 FOMC meeting.",
+      "Resolves YES if the September 15-16 FOMC policy statement sets both bounds of the federal funds target range above 3.50% to 3.75%, including a 25-basis-point or larger increase.",
+      "Resolves NO if the target range is unchanged, reduced, or replaced by a single target rate that is not above the prior range's 3.75% upper bound.",
+      "Changes to administered rates, balance-sheet policy, forward guidance, or the Summary of Economic Projections do not count unless the official federal funds target itself is raised.",
+      "If the scheduled meeting is delayed, the contract resolves on the first official FOMC policy decision released no later than September 23, 2026; it resolves VOID if no decision is released by then."
     ]
   },
   "sides": {
-    "a": "Affirmative (YES)",
-    "b": "Negative (NO)"
+    "a": "Affirmative (YES, the FOMC raises the target range)",
+    "b": "Negative (NO, the FOMC does not raise the target range)"
   },
   "editorial_approved": true
 }

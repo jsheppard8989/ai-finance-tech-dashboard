@@ -51,16 +51,46 @@ class TestDebateQuality(unittest.TestCase):
         self.assertIn("Never invent evidence", system_prompt)
         self.assertIn("Officially verified.", user_prompt)
 
+    def test_speech_generation_retries_invalid_structure(self):
+        malformed = {
+            "yes_speech": "Alice.\n\nThe long of it is incomplete.\n\nConcession. Maybe.",
+            "no_speech": "Bob Jones.\n\nThe short of it is incomplete.\n\nConcession. Maybe.",
+        }
+        valid = {
+            "yes_speech": (
+                "Alice Smith.\n\nThe long of it is grounded in a sufficiently developed causal "
+                "mechanism.\n\nConcession. I would update if the mechanism fails."
+            ),
+            "no_speech": (
+                "Bob Jones.\n\nThe short of it is grounded in a sufficiently developed causal "
+                "mechanism.\n\nConcession. I would update if the mechanism holds."
+            ),
+        }
+        with patch("debate_weekly.llm_chat_json", side_effect=[malformed, valid]) as chat:
+            yes_speech, no_speech = generate_speeches(
+                "test",
+                object(),
+                "Will the target rate rise?",
+                "monetary policy",
+                "Alice Smith",
+                "Bob Jones",
+            )
+        self.assertEqual(chat.call_count, 2)
+        self.assertTrue(yes_speech.startswith("Alice Smith."))
+        self.assertTrue(no_speech.startswith("Bob Jones."))
+
     def test_speech_evidence_uses_only_contract_attached_material(self):
         context = build_speech_evidence_context(
             {
                 "editorial_note": "Editor-reviewed context.",
                 "evidence_brief": [{"fact": "Verified fact.", "source": "Official source"}],
+                "argument_requirements": ["Analyze the transmission mechanism."],
                 "unreviewed_field": "Do not include this.",
             }
         )
         self.assertIn("Verified fact.", context)
         self.assertIn("Editor-reviewed context.", context)
+        self.assertIn("Analyze the transmission mechanism.", context)
         self.assertNotIn("Do not include this.", context)
 
     def test_speech_structure_validation(self):
@@ -84,7 +114,7 @@ class TestDebateQuality(unittest.TestCase):
                 "Alice Smith.\n\nThe long of it is the mechanism matters.\n\nConcession. This could be wrong.",
                 (
                     "Bob Jones.\n\nThe short of it is the tradeoff matters.\n\n"
-                    "这是一整段不应该发送到语音合成器的中文内容。\n\n"
+                    "This single fragment 考量 should not reach the speech synthesizer.\n\n"
                     "Concession. This could be wrong."
                 ),
                 "Alice Smith",
