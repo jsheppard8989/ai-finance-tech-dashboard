@@ -1,6 +1,18 @@
 [
   {
-    "id": 58629,
+    "id": 60315,
+    "name": "Sam Altman",
+    "slug": "sam-altman",
+    "bio": null,
+    "known_for": null,
+    "last_main_idea": "Investment in AI and autonomous vehicle sectors should consider the shift towards more gradual AI integration and the potential for cost-effective Chinese AI models to disrupt the market.",
+    "last_episode_title": "Sam Altman: Singularity Slow-Down, Emad Runs 18 Grokbots, Waymo Slashes Hardware 83% | EP #283",
+    "last_podcast_name": "Moonshots with Peter Diamandis",
+    "last_episode_date": "2026-08-27",
+    "appearance_count": 1
+  },
+  {
+    "id": 60316,
     "name": "Time to Reduce Equity Risk",
     "slug": "time-to-reduce-equity-risk",
     "bio": null,
@@ -12,7 +24,7 @@
     "appearance_count": 1
   },
   {
-    "id": 58630,
+    "id": 60317,
     "name": "Eric Weinstein",
     "slug": "eric-weinstein",
     "bio": null,
@@ -24,7 +36,7 @@
     "appearance_count": 1
   },
   {
-    "id": 58631,
+    "id": 60318,
     "name": "Michael Kratsios",
     "slug": "michael-kratsios",
     "bio": null,
@@ -36,7 +48,7 @@
     "appearance_count": 1
   },
   {
-    "id": 58632,
+    "id": 60319,
     "name": "Emad Mostaque",
     "slug": "emad-mostaque",
     "bio": null,
@@ -48,7 +60,7 @@
     "appearance_count": 3
   },
   {
-    "id": 58633,
+    "id": 60320,
     "name": "Angela Strange and Gabriel Vasquez",
     "slug": "angela-strange-and-gabriel-vasquez",
     "bio": null,
@@ -60,7 +72,7 @@
     "appearance_count": 1
   },
   {
-    "id": 58634,
+    "id": 60321,
     "name": "Why Bessent Blinked",
     "slug": "why-bessent-blinked",
     "bio": null,
@@ -72,7 +84,7 @@
     "appearance_count": 1
   },
   {
-    "id": 58635,
+    "id": 60322,
     "name": "Travis Kalanick",
     "slug": "travis-kalanick",
     "bio": null,
@@ -84,7 +96,7 @@
     "appearance_count": 1
   },
   {
-    "id": 58636,
+    "id": 60323,
     "name": "Rahm Emanuel",
     "slug": "rahm-emanuel",
     "bio": null,
@@ -96,7 +108,7 @@
     "appearance_count": 1
   },
   {
-    "id": 58637,
+    "id": 60324,
     "name": "Milton Berg",
     "slug": "milton-berg",
     "bio": "Milton Berg is a veteran technical analyst and CEO of Milton Berg Advisors, specializing in market turning-point analysis for institutional investors.",
@@ -108,7 +120,7 @@
     "appearance_count": 1
   },
   {
-    "id": 58638,
+    "id": 60325,
     "name": "How Open",
     "slug": "how-open",
     "bio": null,
@@ -120,7 +132,7 @@
     "appearance_count": 1
   },
   {
-    "id": 58639,
+    "id": 60326,
     "name": "Saronic Founders",
     "slug": "saronic-founders",
     "bio": null,
@@ -132,7 +144,7 @@
     "appearance_count": 1
   },
   {
-    "id": 58640,
+    "id": 60327,
     "name": "OpenAI's Joshua Achiam",
     "slug": "openais-joshua-achiam",
     "bio": null,
@@ -144,7 +156,7 @@
     "appearance_count": 1
   },
   {
-    "id": 58641,
+    "id": 60328,
     "name": "Marc Andreessen and Chris Dixon",
     "slug": "marc-andreessen-and-chris-dixon",
     "bio": null,
@@ -156,7 +168,7 @@
     "appearance_count": 1
   },
   {
-    "id": 58642,
+    "id": 60329,
     "name": "AI for America's Small Businesses",
     "slug": "ai-for-americas-small-businesses",
     "bio": null,
@@ -168,7 +180,7 @@
     "appearance_count": 1
   },
   {
-    "id": 58643,
+    "id": 60330,
     "name": "Luke Gromen",
     "slug": "luke-gromen",
     "bio": null,
@@ -180,7 +192,19 @@
     "appearance_count": 1
   },
   {
-    "id": 58644,
+    "id": 60331,
+    "name": "Steven Sinofsky",
+    "slug": "steven-sinofsky",
+    "bio": null,
+    "known_for": null,
+    "last_main_idea": "Invest in companies that embrace open-source AI strategies and are compliant with existing regulations, while monitoring the regulatory landscape for potential impacts on AI development.",
+    "last_episode_title": "Steven Sinofsky: AI Doesn't Need New Rules Yet",
+    "last_podcast_name": "The a16z Show",
+    "last_episode_date": "2026-07-27",
+    "appearance_count": 1
+  },
+  {
+    "id": 60332,
     "name": "Travis Kelenick",
     "slug": "travis-kelenick",
     "bio": null,
@@ -192,7 +216,7 @@
     "appearance_count": 1
   },
   {
-    "id": 58645,
+    "id": 60333,
     "name": "Travis Kalanick Is Back",
     "slug": "travis-kalanick-is-back",
     "bio": null,
@@ -204,7 +228,7 @@
     "appearance_count": 1
   },
   {
-    "id": 58646,
+    "id": 60334,
     "name": "Interest Rates to 10%",
     "slug": "interest-rates-to-10",
     "bio": null,
@@ -216,7 +240,7 @@
     "appearance_count": 1
   },
   {
-    "id": 58647,
+    "id": 60335,
     "name": "Nick Nemeth",
     "slug": "nick-nemeth",
     "bio": null,
@@ -228,7 +252,7 @@
     "appearance_count": 1
   },
   {
-    "id": 58648,
+    "id": 60336,
     "name": "Urgent Update- AI Sputnik Moment",
     "slug": "urgent-update--ai-sputnik-moment",
     "bio": null,
@@ -240,7 +264,7 @@
     "appearance_count": 1
   },
   {
-    "id": 58649,
+    "id": 60337,
     "name": "David Sachs",
     "slug": "david-sachs",
     "bio": null,
@@ -252,7 +276,7 @@
     "appearance_count": 1
   },
   {
-    "id": 58650,
+    "id": 60338,
     "name": "Turbo Charged Trend Following",
     "slug": "turbo-charged-trend-following",
     "bio": null,
@@ -264,7 +288,7 @@
     "appearance_count": 1
   },
   {
-    "id": 58651,
+    "id": 60339,
     "name": "Can Anyone Catch NVIDIA?",
     "slug": "can-anyone-catch-nvidia",
     "bio": null,
@@ -276,7 +300,7 @@
     "appearance_count": 1
   },
   {
-    "id": 58652,
+    "id": 60340,
     "name": "Mark Zuckerberg & Priscilla Chan",
     "slug": "mark-zuckerberg--priscilla-chan",
     "bio": null,
@@ -288,7 +312,7 @@
     "appearance_count": 1
   },
   {
-    "id": 58653,
+    "id": 60341,
     "name": "Adam Neumann",
     "slug": "adam-neumann",
     "bio": null,
@@ -300,7 +324,7 @@
     "appearance_count": 1
   },
   {
-    "id": 58654,
+    "id": 60342,
     "name": "Breaking Down the Multi-Manager Playbook",
     "slug": "breaking-down-the-multi-manager-playbook",
     "bio": null,
@@ -312,7 +336,7 @@
     "appearance_count": 1
   },
   {
-    "id": 58655,
+    "id": 60343,
     "name": "Don\u2019t Follow Your Passion",
     "slug": "dont-follow-your-passion",
     "bio": null,
@@ -324,7 +348,7 @@
     "appearance_count": 1
   },
   {
-    "id": 58656,
+    "id": 60344,
     "name": "trillion. Guest Daryl Duffy",
     "slug": "trillion-guest-daryl-duffy",
     "bio": null,
@@ -333,30 +357,6 @@
     "last_episode_title": "The Ultimate Playbook for Reducing The Fed\u2019s Balance Sheet | Professor Darrell Duffie on 4 Tools For Federal Reserve To Shrink Reserve Demand In Banking System",
     "last_podcast_name": "Monetary Matters with Jack Farley",
     "last_episode_date": "2026-07-05",
-    "appearance_count": 1
-  },
-  {
-    "id": 58657,
-    "name": "Outsmarting Uber",
-    "slug": "outsmarting-uber",
-    "bio": null,
-    "known_for": null,
-    "last_main_idea": "Invest in companies with capital efficiency and operational excellence in the mobility sector, as they are better positioned to adapt and grow in a competitive landscape.",
-    "last_episode_title": "Outsmarting Uber: Why Bolt Wins in Europe",
-    "last_podcast_name": "The a16z Show",
-    "last_episode_date": "2026-07-02",
-    "appearance_count": 1
-  },
-  {
-    "id": 58658,
-    "name": "What If It\u2019s Still Early?",
-    "slug": "what-if-its-still-early",
-    "bio": null,
-    "known_for": null,
-    "last_main_idea": "The S&P 500 is projected to reach 10,000 due to accelerating earnings growth and a favorable economic environment, justifying higher P/E ratios and making equities more attractive.",
-    "last_episode_title": "What If It\u2019s Still Early? | Erik YWR on $10,000 S&P 500 by 2027 Case, Hyperscaler ROIC, AI CapEx, Semis, Exchanges, and Reverse Crash Risk In \u201cProject Zimbabwe\u201d",
-    "last_podcast_name": "Monetary Matters with Jack Farley",
-    "last_episode_date": "2026-07-02",
     "appearance_count": 1
   }
 ]
