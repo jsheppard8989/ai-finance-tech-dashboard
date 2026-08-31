@@ -48,17 +48,42 @@ def get_tickers_from_data():
     return sorted(tickers)
 
 # Map display names / invalid symbols to Yahoo Finance symbols. None = skip fetch.
+# Tuple values: (yahoo_symbol, display_label) - display_label overrides the key in output
 YAHOO_SYMBOL_MAP = {
     'AppLovin': 'APP',
     'CROWD': 'CRWD',   # CrowdStrike
     'Russell': 'IWM',  # Russell 2000 ETF
-    'S&P': 'SPY',
-    'S&P 500': 'SPY',
+    # S&P 500 index - use ^GSPC for actual index (trades ~5000+), not SPY ETF (~500s)
+    'S&P': ('^GSPC', 'S&P 500'),
+    'S&P 500': ('^GSPC', 'S&P 500'),
+    'SPX': ('^GSPC', 'S&P 500'),
+    'SMP-500': ('^GSPC', 'S&P 500'),
     'Semiconductors': 'SMH',
     'Nasdaq': 'QQQ',
+    # WTI Crude Oil - CL=F is front-month futures contract
+    'WTI': ('CL=F', 'WTI Crude'),
+    'WTI CRUDE OIL': ('CL=F', 'WTI Crude'),
+    # Commodities
+    'GOLD': ('GC=F', 'Gold'),          # Gold futures
+    'COPPER': ('HG=F', 'Copper'),      # Copper futures
+    'URANIUM': ('URA', 'Uranium ETF'), # Global X Uranium ETF (no direct uranium futures on Yahoo)
+    # Skip unmappable tickers
     'WORK': None,      # WeWork delisted
     'FTIE': None,      # Unclear / LSE-only
     'SQ': None,        # Block Inc - Yahoo 404
+    'SPACEX': None,    # Private company
+    'GPU': None,       # Not a tradeable ticker
+    'GEONET': None,    # Not a standard ticker
+    'ANDR': None,      # Unclear ticker
+    'PQNT': None,      # Unclear ticker
+    'ARBOMB': None,    # Not a ticker
+    'ARBOB GASOLINE': None,  # Use RB=F if needed
+    'SAMSUNG ELECTRONICS': '005930.KS',  # Korean exchange
+    'SK HYNIX': '000660.KS',             # Korean exchange
+    'E-TORO': None,    # Private / not on Yahoo
+    'EMAX': None,      # Unclear ticker
+    'ZEN': 'ZEN',      # Zendesk (if still trading)
+    'SQUARE': 'XYZ',   # Block Inc trades as XYZ now (was SQ)
 }
 SKIP_TICKERS = {'N/A', 'n/a', ''}
 
@@ -67,9 +92,15 @@ def fetch_price_data(ticker):
     try:
         if ticker in SKIP_TICKERS or not (ticker and str(ticker).strip()):
             return None
-        symbol = YAHOO_SYMBOL_MAP.get(ticker, ticker)
-        if symbol is None:
+        mapping = YAHOO_SYMBOL_MAP.get(ticker, ticker)
+        if mapping is None:
             return None
+        # Handle tuple mappings: (yahoo_symbol, display_label)
+        if isinstance(mapping, tuple):
+            symbol, display_label = mapping
+        else:
+            symbol = mapping
+            display_label = None  # Will use API-provided name or ticker
         if symbol == 'BTC':
             symbol = 'BTC-USD'
         elif symbol == 'VIX':
@@ -119,11 +150,13 @@ def fetch_price_data(ticker):
             else:
                 change_pct = 0
         
+        # Use custom display_label if provided, otherwise API name or ticker
+        name = display_label if display_label else meta.get('shortName', meta.get('longName', ticker))
         return {
             'price': round(current_price, 2),
             'change_pct': round(change_pct, 2),
-            'name': meta.get('shortName', meta.get('longName', ticker)),
-            'updated': datetime.now().isoformat(),
+            'name': name,
+            'updated_at': datetime.now().isoformat(),
             'price_14d_ago': round(prices[-14], 2) if len(prices) >= 14 else None
         }
         
