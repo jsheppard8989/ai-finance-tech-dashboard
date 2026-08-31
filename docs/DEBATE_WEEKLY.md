@@ -33,6 +33,8 @@ Add editor-verified facts and source URLs under `evidence_brief`. Speech generat
 specifics only from this packet; otherwise it must label claims as assumptions or first-principles
 inferences. Both sides are instructed to steelman the opposition, expose their weakest causal link,
 state what would change their conclusion, and offer a conditional path to U.S. economic upside from AI.
+Use `argument_requirements` for editor-approved mechanisms that both speeches must analyze without
+prescribing either side's conclusion.
 
 Before publishing, run `--scripts-only` and review `pipeline/state/last_debate_scripts.json`. This
 generates the selected debaters' written cases and review metadata, then exits before changing history,

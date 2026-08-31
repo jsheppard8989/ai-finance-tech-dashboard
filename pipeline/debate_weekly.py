@@ -691,6 +691,8 @@ def build_speech_evidence_context(contract: Dict[str, Any]) -> str:
     packet: Dict[str, Any] = {}
     if contract.get("evidence_brief"):
         packet["evidence_brief"] = contract["evidence_brief"]
+    if contract.get("argument_requirements"):
+        packet["argument_requirements"] = contract["argument_requirements"]
     if contract.get("editorial_note"):
         packet["editorial_note"] = contract["editorial_note"]
     clarity = contract.get("resolution_clarity")
@@ -720,12 +722,14 @@ Objective:
 
 Rules:
 - Start each speech with only the speaker's first line as their name plus period, e.g. "Sam." then blank line, then body. Use the exact names given.
+- Write entirely in English, including every paragraph.
 - The first sentence of YES body must begin with "The long of it".
 - The first sentence of NO body must begin with "The short of it".
 - Use three substantive paragraphs plus a short paragraph beginning exactly "Concession."
 - First explain in plain English what the proposal or event would change, who is affected, and how the mechanism works. Assume no prior knowledge.
 - Separate verified fact from inference, forecast, and value judgment in natural language. Never present an assumption or prediction as an established fact.
 - Use specific figures, dates, studies, or quotations only when they appear in the supplied evidence packet. Name the source near the claim. Never invent evidence or vaguely invoke "studies," "data," "history," "experts," or "indicators."
+- Follow every editorial argument requirement in the evidence packet. These requirements identify mechanisms that both sides must analyze, not conclusions they must adopt.
 - Show the causal chain behind the conclusion step by step and identify its weakest link.
 - Steelman the strongest opposing case and address its strongest evidence. Do not create a weak or caricatured opponent.
 - In "Concession.", state the most important uncertainty and one concrete observation that would change the speaker's conclusion.
@@ -749,14 +753,25 @@ Crux theme: {crux or "general"}
 --- NO speaker ({name_no}) — use background and voice to shape the argument ---
 {context_no or "(minimal profile)"}
 
+Required first lines:
+- yes_speech must start exactly: {name_yes}.
+- no_speech must start exactly: {name_no}.
+
 Write yes_speech and no_speech."""
 
-    data = llm_chat_json(client_kind, client, system, user)
-    ys = (data.get("yes_speech") or "").strip()
-    ns = (data.get("no_speech") or "").strip()
-    if len(ys) < 80 or len(ns) < 80:
-        raise ValueError("LLM speeches too short")
-    return ys, ns
+    last_error: Optional[ValueError] = None
+    for _attempt in range(3):
+        data = llm_chat_json(client_kind, client, system, user)
+        ys = (data.get("yes_speech") or "").strip()
+        ns = (data.get("no_speech") or "").strip()
+        try:
+            if len(ys) < 80 or len(ns) < 80:
+                raise ValueError("LLM speeches too short")
+            validate_speeches(ys, ns, name_yes, name_no)
+            return ys, ns
+        except ValueError as exc:
+            last_error = exc
+    raise ValueError(f"LLM speeches invalid after 3 attempts: {last_error}")
 
 
 def build_host_script(prompt: str, name_a: str, name_b: str) -> str:
@@ -891,6 +906,16 @@ def _first_line_name(speech: str) -> str:
     return line.strip()
 
 
+def _has_non_english_script(text: str) -> bool:
+    """Reject CJK, Cyrillic, Arabic, or Hebrew output before TTS."""
+    chars = re.findall(
+        r"[\u3040-\u30ff\u3400-\u4dbf\u4e00-\u9fff"
+        r"\uac00-\ud7af\u0400-\u052f\u0590-\u05ff\u0600-\u06ff]",
+        text or "",
+    )
+    return bool(chars)
+
+
 def validate_speeches(yes_s: str, no_s: str, expected_yes: str, expected_no: str) -> None:
     got_yes = _first_line_name(yes_s)
     got_no = _first_line_name(no_s)
@@ -904,7 +929,9 @@ def validate_speeches(yes_s: str, no_s: str, expected_yes: str, expected_no: str
         raise ValueError("YES speech must begin with 'The long of it'.")
     if not no_body.lower().startswith("the short of it"):
         raise ValueError("NO speech must begin with 'The short of it'.")
-    for side, speech in (("YES", yes_s), ("NO", no_s)):
+    for side, speech, body in (("YES", yes_s, yes_body), ("NO", no_s, no_body)):
+        if _has_non_english_script(body):
+            raise ValueError(f"{side} speech must be entirely in English.")
         if not re.search(r"(?m)^Concession\.", speech or ""):
             raise ValueError(f"{side} speech must include a 'Concession.' paragraph.")
 
