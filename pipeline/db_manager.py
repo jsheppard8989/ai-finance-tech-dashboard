@@ -628,25 +628,25 @@ class DashboardDB:
         except Exception as e:
             print(f"  ⚠ Excluded pundit cleanup skipped: {e}")
         
-        from site_text_sanitize import strip_cjk_public_text
+        from site_text_sanitize import sanitize_public_text
 
         # Export all tickers ranked by total weighted score from ticker_mentions
-        scores = strip_cjk_public_text(self.get_all_ticker_scores())
+        scores = sanitize_public_text(self.get_all_ticker_scores())
         with open(output_dir / 'ticker_scores.json', 'w') as f:
             json.dump(scores, f, indent=2, default=str)
 
         # Export podcast summaries
-        podcasts = strip_cjk_public_text(self.get_podcast_summaries_for_site())
+        podcasts = sanitize_public_text(self.get_podcast_summaries_for_site())
         with open(output_dir / 'podcast_summaries.json', 'w') as f:
             json.dump(podcasts, f, indent=2, default=str)
 
         # Export archive data
-        archive = strip_cjk_public_text(self.export_archive_data())
+        archive = sanitize_public_text(self.export_archive_data())
         with open(output_dir / 'archive.json', 'w') as f:
             json.dump(archive, f, indent=2, default=str)
 
         # Export podcast guests for site (legacy path)
-        guests = strip_cjk_public_text(self.get_podcast_guests_for_site(limit=30))
+        guests = sanitize_public_text(self.get_podcast_guests_for_site(limit=30))
         with open(output_dir / 'podcast_guests.json', 'w') as f:
             json.dump(guests, f, indent=2, default=str)
 
@@ -834,7 +834,7 @@ class DashboardDB:
                 pundits.append(p)
 
         pundits = _sort_pundits_for_site(pundits)
-        pundits = strip_cjk_public_text(pundits)
+        pundits = sanitize_public_text(pundits)
         with open(output_dir / 'pundits.json', 'w') as f:
             json.dump(pundits, f, indent=2, default=str)
 

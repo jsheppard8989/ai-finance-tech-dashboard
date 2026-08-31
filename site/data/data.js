@@ -1164,7 +1164,7 @@ const dashboardData = {
       "source_type": "podcast",
       "source_name": "Moonshots with Peter Diamandis",
       "source_date": "2026-08-27",
-      "summary": "In this episode of Moonshots with Peter Diamandis, the panel discusses the impact of AI on various sectors and the vertical integration in the autonomous vehicle industry. Sam Alman's change of opinion on AI's slower than expected impact is highlighted, along with the discussion on Grockbot as a leading consumer AI product. Weimo's announcement of their Ohio vehicle, a Robotaxi minivan, signifies a shift towards vertical integration and the use of Chinese hardware by Western companies. The conversation also touches on the cost-effectiveness and performance of open-source Chinese AI models compared to their Western counterparts.",
+      "summary": "In this episode of Moonshots with Peter Diamandis, the panel discusses the impact of AI on various sectors and the vertical integration in the autonomous vehicle industry. Sam Altman's change of opinion on AI's slower than expected impact is highlighted, along with the discussion on Grok as a leading consumer AI product. Waymo's announcement of their Ohio vehicle, a Robotaxi minivan, signifies a shift towards vertical integration and the use of Chinese hardware by Western companies. The conversation also touches on the cost-effectiveness and performance of open-source Chinese AI models compared to their Western counterparts.",
       "key_takeaway": "Investment in AI and autonomous vehicle sectors should consider the shift towards more gradual AI integration and the potential for cost-effective Chinese AI models to disrupt the market.",
       "tickers_mentioned": [
         "NVDA"
@@ -1183,7 +1183,7 @@ const dashboardData = {
       "source_type": "podcast",
       "source_name": "The a16z Show",
       "source_date": "2026-08-26",
-      "summary": "In this episode of the a16z Show, Jen Cos sits down with An Eshicharya to discuss the future of AI, moving beyond the competition among models to the applications built on top of them. They explore the competitive landscape of AI models, the potential for applications to capture significant value, and the rise of consumer AI with personal agents. The conversation also touches on the renaissance for consumer builders and the need for founders to think bigger about what AI can achieve.",
+      "summary": "In this episode of the a16z Show, Jen Costa sits down with Anish Acharya to discuss the future of AI, moving beyond the competition among models to the applications built on top of them. They explore the competitive landscape of AI models, the potential for applications to capture significant value, and the rise of consumer AI with personal agents. The conversation also touches on the renaissance for consumer builders and the need for founders to think bigger about what AI can achieve.",
       "key_takeaway": "Invest in the application layer of AI where significant value can be captured, and consider the emerging consumer AI space for new opportunities.",
       "tickers_mentioned": [
         "NVDA"
@@ -1202,8 +1202,8 @@ const dashboardData = {
       "source_type": "podcast",
       "source_name": "Monetary Matters with Jack Farley",
       "source_date": "2026-08-26",
-      "summary": "In this episode of 'Other People's Money', Max Weathie interviews Warren Pi, co-founder of 314 Research, to discuss the current macro risks overshadowing the market. They analyze the market structure, seasonal patterns, and the impact of AI on the tech sector. Warren shares his insights on earnings, Fed's potential rate hikes, and the implications for investors. The conversation also touches on the importance of GPU availability and rental rates in the AI space.",
-      "key_takeaway": "Warren Pi suggests that despite the current macro risks, the AI sector remains a key area for investment, with all roads leading back to AI trades.",
+      "summary": "In this episode of 'Other People's Money', Max Weathie interviews Warren Pies, co-founder of 314 Research, to discuss the current macro risks overshadowing the market. They analyze the market structure, seasonal patterns, and the impact of AI on the tech sector. Warren shares his insights on earnings, Fed's potential rate hikes, and the implications for investors. The conversation also touches on the importance of GPU availability and rental rates in the AI space.",
+      "key_takeaway": "Warren Pies suggests that despite the current macro risks, the AI sector remains a key area for investment, with all roads leading back to AI trades.",
       "tickers_mentioned": [
         "HFGM"
       ],
@@ -1221,7 +1221,7 @@ const dashboardData = {
       "source_type": "podcast",
       "source_name": "Latent Space: The AI Engineer Podcast",
       "source_date": "2026-08-26",
-      "summary": "In this episode of Latent Space, the AI Engineer Podcast, hosts Brandon and RJHONICY interview Anamah Anankumar, a brain professor of mathematics and computer science at Caltech, about her work combining AI with models of the physical world. The discussion revolves around the use of AI in weather modeling, the challenges and potential of AI in science, and the democratization of AI access. Anamah shares her insights on how AI can be used to predict weather patterns with high accuracy and speed, and how this technology could revolutionize climate modeling.",
+      "summary": "In this episode of Latent Space, the AI Engineer Podcast, hosts Brandon and RJHONICY interview Anima Anandkumar, a brain professor of mathematics and computer science at Caltech, about her work combining AI with models of the physical world. The discussion revolves around the use of AI in weather modeling, the challenges and potential of AI in science, and the democratization of AI access. Anima shares her insights on how AI can be used to predict weather patterns with high accuracy and speed, and how this technology could revolutionize climate modeling.",
       "key_takeaway": "Investing in AI technology that enhances weather and climate modeling can lead to significant advancements in forecasting accuracy and speed, potentially revolutionizing the field and creating new investment opportunities in AI applications for science.",
       "tickers_mentioned": [
         "NVDA"
@@ -1278,7 +1278,7 @@ const dashboardData = {
       "source_type": "podcast",
       "source_name": "Dwarkesh Podcast",
       "source_date": "2026-08-25",
-      "summary": "In this episode of the Dwarkesh Podcast, Dylan Patel, Founder of Simming Analysis, discusses the rapid growth of AI infrastructure and its impact on the world economy. The conversation covers the increasing investment in labs by companies like OpenEye and Anthropic, the shift from venture capital funding to self-funded operations, and the potential for labs to control a significant portion of the world's compute power. Patel also touches on the implications of centralization of compute and the role of China in the global AI race.",
+      "summary": "In this episode of the Dwarkesh Podcast, Dylan Patel, Founder of SemiAnalysis, discusses the rapid growth of AI infrastructure and its impact on the world economy. The conversation covers the increasing investment in labs by companies like OpenAI and Anthropic, the shift from venture capital funding to self-funded operations, and the potential for labs to control a significant portion of the world's compute power. Patel also touches on the implications of centralization of compute and the role of China in the global AI race.",
       "key_takeaway": "Investment in AI infrastructure and labs is set to grow exponentially, leading to significant capital allocation shifts and potential market disruptions.",
       "tickers_mentioned": [
         "NVIDIA"
@@ -6019,7 +6019,7 @@ const dashboardData = {
       "source_type": "podcast",
       "source_name": "Monetary Matters with Jack Farley",
       "source_date": "2026-05-04",
-      "summary": "In this episode, Jack Farley interviews Warren Pious, CEO of 314 Research and Caliban, discussing the dual forces shaping the market: the historic oil shortage and the burgeoning AI sector. Pious highlights the significance of AI advancements, particularly in GPU availability and semiconductor movements, as a driving force behind the current bull market. The conversation also covers the impact of high oil prices on the economy and equities, with Pious suggesting that equities are looking past current challenges to focus on future growth, especially in the tech sector.",
+      "summary": "In this episode, Jack Farley interviews Warren Pies, CEO of 314 Research and Caliban, discussing the dual forces shaping the market: the historic oil shortage and the burgeoning AI sector. Pious highlights the significance of AI advancements, particularly in GPU availability and semiconductor movements, as a driving force behind the current bull market. The conversation also covers the impact of high oil prices on the economy and equities, with Pious suggesting that equities are looking past current challenges to focus on future growth, especially in the tech sector.",
       "key_takeaway": "The current bull market is driven by advancements in AI and technology, which are expected to continue outpacing concerns over oil shortages and inflation.",
       "tickers_mentioned": [
         "S&P 500",
@@ -12413,7 +12413,7 @@ const dashboardData = {
       "source_type": "podcast",
       "source_name": "Moonshots with Peter Diamandis",
       "source_date": "2026-08-27",
-      "summary": "In this episode of Moonshots with Peter Diamandis, the panel discusses the impact of AI on various sectors and the vertical integration in the autonomous vehicle industry. Sam Alman's change of opinion on AI's slower than expected impact is highlighted, along with the discussion on Grockbot as a leading consumer AI product. Weimo's announcement of their Ohio vehicle, a Robotaxi minivan, signifies a shift towards vertical integration and the use of Chinese hardware by Western companies. The conversation also touches on the cost-effectiveness and performance of open-source Chinese AI models compared to their Western counterparts.",
+      "summary": "In this episode of Moonshots with Peter Diamandis, the panel discusses the impact of AI on various sectors and the vertical integration in the autonomous vehicle industry. Sam Altman's change of opinion on AI's slower than expected impact is highlighted, along with the discussion on Grok as a leading consumer AI product. Waymo's announcement of their Ohio vehicle, a Robotaxi minivan, signifies a shift towards vertical integration and the use of Chinese hardware by Western companies. The conversation also touches on the cost-effectiveness and performance of open-source Chinese AI models compared to their Western counterparts.",
       "key_takeaway": "Investment in AI and autonomous vehicle sectors should consider the shift towards more gradual AI integration and the potential for cost-effective Chinese AI models to disrupt the market.",
       "tickers_mentioned": "[\"NVDA\"]",
       "sentiment": "bullish",
@@ -25653,7 +25653,7 @@ const dashboardData = {
     "transcript_excerpt": null,
     "created_at": "2026-05-04T22:01:56.292909",
     "updated_at": "2026-05-05 03:01:56",
-    "episode_evidence": "Warren Pious, CEO of 314 Research and Caliban, identified two major forces shaping the market: the historic oil shortage and the burgeoning AI sector. He highlighted the significance of AI advancements, particularly in GPU availability and semiconductor movements, as a driving force behind the current bull market. Pious stated, 'there's a step change happening in the AI space that much of the promise of AI is starting to be fulfilled through this kind of a genetic explosion.' He also noted the impact of high oil prices on the economy and equities, suggesting that equities are looking past current challenges to focus on future growth, especially in the tech sector. 'Equities are discounting things into the future,' Pious explained, 'oils not capable of doing that.' This perspective suggests that despite the immediate concerns over oil shortages, the market is more focused on the long-term potential of AI and technology advancements.",
+    "episode_evidence": "Warren Pies, CEO of 314 Research and Caliban, identified two major forces shaping the market: the historic oil shortage and the burgeoning AI sector. He highlighted the significance of AI advancements, particularly in GPU availability and semiconductor movements, as a driving force behind the current bull market. Pious stated, 'there's a step change happening in the AI space that much of the promise of AI is starting to be fulfilled through this kind of a genetic explosion.' He also noted the impact of high oil prices on the economy and equities, suggesting that equities are looking past current challenges to focus on future growth, especially in the tech sector. 'Equities are discounting things into the future,' Pious explained, 'oils not capable of doing that.' This perspective suggests that despite the immediate concerns over oil shortages, the market is more focused on the long-term potential of AI and technology advancements.",
     "falsification_tracks": [
       "A sustained decline in GPU availability or a significant slowdown in semiconductor advancements would challenge the bullish narrative on AI driving the market.",
       "If oil prices continue to rise sharply without a corresponding increase in tech sector growth, it could indicate that equities are not successfully looking past the current challenges.",
@@ -37882,7 +37882,7 @@ const dashboardData = {
     "transcript_excerpt": null,
     "created_at": "2026-08-13T23:38:24.431163",
     "updated_at": "2026-08-14 04:38:24",
-    "episode_evidence": "In the podcast, Bernie Sanders' letter to AI CEOs is mentioned, indicating a growing concern about AI capabilities, as stated by the host: 'Bernie Sanders sent a formal letter to the CEOs of Anthropic Meta and OpenEye AI capabilities have reached a critical threshold.' This suggests a potential regulatory or policy shift that could impact AI development. Nvidia's partnership redefining GPU compute as a financial asset is highlighted: 'Nvidia just announced a partnership that redefines what GPU compute means as a financial asset.' This could signal a shift in how technology infrastructure is valued and financed. The discussion on Grok 4.6 and the upcoming Grok 4.7 trained on SpaceX knowledge implies rapid advancements in AI capabilities: 'Elon just dropped Grok 4.6...4.7 is rumored to be coming out in two weeks.' This underscores the exponential growth in AI, with potential implications for various industries.",
+    "episode_evidence": "In the podcast, Bernie Sanders' letter to AI CEOs is mentioned, indicating a growing concern about AI capabilities, as stated by the host: 'Bernie Sanders sent a formal letter to the CEOs of Anthropic Meta and OpenAI AI capabilities have reached a critical threshold.' This suggests a potential regulatory or policy shift that could impact AI development. Nvidia's partnership redefining GPU compute as a financial asset is highlighted: 'Nvidia just announced a partnership that redefines what GPU compute means as a financial asset.' This could signal a shift in how technology infrastructure is valued and financed. The discussion on Grok 4.6 and the upcoming Grok 4.7 trained on SpaceX knowledge implies rapid advancements in AI capabilities: 'Elon just dropped Grok 4.6...4.7 is rumored to be coming out in two weeks.' This underscores the exponential growth in AI, with potential implications for various industries.",
     "falsification_tracks": [
       "Should Nvidia's partnership fail to deliver the anticipated financial asset redefinition, causing a decline in their stock price or market confidence.",
       "A significant security breach or misuse of AI technology that leads to regulatory crackdowns, as hinted by the discussion on Bernie Sanders' letter.",
@@ -38917,7 +38917,7 @@ const dashboardData = {
     "id": 428,
     "insight_id": 439,
     "podcast_episode_id": 424,
-    "overview": "The rapid growth in AI infrastructure investment is not only a matter of increasing capital allocation but also a shift in the economic landscape where labs like OpenEye and Anthropic are transitioning from venture capital-funded entities to self-sustaining operations with skyrocketing margins. This transition is marked by a significant increase in revenue per megawatt, with Anthropic reaching as high as $50 million per megawatt, enabling reinvestment into training and further expansion. The centralization of compute power is accelerating, with these labs projected to control a substantial portion of the world's compute by 2028, which could lead to a monopolization of AI advancements and economic influence.",
+    "overview": "The rapid growth in AI infrastructure investment is not only a matter of increasing capital allocation but also a shift in the economic landscape where labs like OpenAI and Anthropic are transitioning from venture capital-funded entities to self-sustaining operations with skyrocketing margins. This transition is marked by a significant increase in revenue per megawatt, with Anthropic reaching as high as $50 million per megawatt, enabling reinvestment into training and further expansion. The centralization of compute power is accelerating, with these labs projected to control a substantial portion of the world's compute by 2028, which could lead to a monopolization of AI advancements and economic influence.",
     "key_takeaways_detailed": [],
     "investment_thesis": "If the thesis holds true, investors should anticipate a significant reallocation of capital towards AI infrastructure and related technologies within the next decade. Allocations should consider companies that provide the hardware, software, and services necessary for this infrastructure growth. The timeframe for this shift is, with implications becoming more pronounced towards the end of the decade. Disproving the thesis would require observing a stagnation in AI infrastructure investment or a significant decentralization of compute power.",
     "ticker_analysis": {
@@ -38996,9 +38996,9 @@ const dashboardData = {
     "id": 430,
     "insight_id": 441,
     "podcast_episode_id": 427,
-    "overview": "Warren Pi points out that the market's reaction to recent data has been overly dovish, which could be a misinterpretation. He argues that the Federal Reserve's tolerance for looking through one-off inflation spikes is wearing thin, influenced by political pressure and the potential for a policy mistake. Pi's analysis suggests that the market may be underestimating the likelihood of a September rate hike, with odds currently around 40%, a significant shift from the 75% odds in July. This underappreciation of macro risks, particularly around the Fed's actions, could have significant implications for market positioning and investor expectations.",
+    "overview": "Warren Pies points out that the market's reaction to recent data has been overly dovish, which could be a misinterpretation. He argues that the Federal Reserve's tolerance for looking through one-off inflation spikes is wearing thin, influenced by political pressure and the potential for a policy mistake. Pi's analysis suggests that the market may be underestimating the likelihood of a September rate hike, with odds currently around 40%, a significant shift from the 75% odds in July. This underappreciation of macro risks, particularly around the Fed's actions, could have significant implications for market positioning and investor expectations.",
     "key_takeaways_detailed": [],
-    "investment_thesis": "If Warren Pi's thesis holds\u2014that the market is underestimating macro risks and the likelihood of a Fed rate hike in September\u2014then investors should consider reducing equity exposure, particularly in the window from August 15th to October 15th. This period is marked by unfavorable seasonal patterns and market structure, suggesting a time to take down risk. Investors should monitor Fed communications and economic data releases closely for signs that could either confirm or disprove the thesis. A this thesis would be a higher-than-expected rate hike or a significant shift in Fed rhetoric towards a more hawkish stance, while a disproval would be a Fed hold or a dovish pivot.",
+    "investment_thesis": "If Warren Pies's thesis holds\u2014that the market is underestimating macro risks and the likelihood of a Fed rate hike in September\u2014then investors should consider reducing equity exposure, particularly in the window from August 15th to October 15th. This period is marked by unfavorable seasonal patterns and market structure, suggesting a time to take down risk. Investors should monitor Fed communications and economic data releases closely for signs that could either confirm or disprove the thesis. A this thesis would be a higher-than-expected rate hike or a significant shift in Fed rhetoric towards a more hawkish stance, while a disproval would be a Fed hold or a dovish pivot.",
     "ticker_analysis": {
       "NVDA": {
         "rationale": "Nvidia (NVDA) is highlighted as it is set to report earnings in the coming week, and given its significant role in the tech sector, particularly in relation to AI and GPU availability, it serves as a bellwether for the market's sentiment towards tech and AI. Any deviation in NVDA's performance relative to expectations could indicate a shift in market sentiment and validate or challenge Pi's broader macro thesis.",
@@ -39016,7 +39016,7 @@ const dashboardData = {
     "transcript_excerpt": null,
     "created_at": "2026-08-26T13:42:55.629424",
     "updated_at": "2026-08-26 18:42:55",
-    "episode_evidence": "\u201cEverybody's been. You watch CNBC or Bloomberg. I mean, you get a parade of strategies to tell you how great earnings are. And I think that's the rear view.\u201d\n- Warren Pi\n\n\u201cRemember, again, back in July, odds of a September hike were like 75%. So like this is, these are the things you want to fade.\u201d\n- Warren Pi",
+    "episode_evidence": "\u201cEverybody's been. You watch CNBC or Bloomberg. I mean, you get a parade of strategies to tell you how great earnings are. And I think that's the rear view.\u201d\n- Warren Pies\n\n\u201cRemember, again, back in July, odds of a September hike were like 75%. So like this is, these are the things you want to fade.\u201d\n- Warren Pies",
     "falsification_tracks": [
       "A clear communication from the Federal Reserve indicating a stance and a delay in rate hikes beyond September.",
       "Economic data showing a significant and sustained decrease in inflation, reducing the for the Fed to act.",
@@ -39035,7 +39035,7 @@ const dashboardData = {
     "id": 431,
     "insight_id": 442,
     "podcast_episode_id": 426,
-    "overview": "Anamah Anandkumar's work on AI in science is distinguished by its focus on creating AI models that can be formally verified for robustness and stability, particularly in control systems such as nuclear reactors. Her team's development of Torch Lean, a framework that allows neural networks to be written in Lean, a formal language, enables the formal verification of mathematical statements and neural network claims. This is a significant advancement as it provides a method to ensure that AI systems, especially those integrated into critical control loops, meet stringent safety and accuracy requirements. The scalability of Lean, however, remains a challenge, as it is currently CPU-based and has not been fully optimized for GPU usage, which is crucial for handling large-scale AI models.",
+    "overview": "Anima Anandkumar's work on AI in science is distinguished by its focus on creating AI models that can be formally verified for robustness and stability, particularly in control systems such as nuclear reactors. Her team's development of Torch Lean, a framework that allows neural networks to be written in Lean, a formal language, enables the formal verification of mathematical statements and neural network claims. This is a significant advancement as it provides a method to ensure that AI systems, especially those integrated into critical control loops, meet stringent safety and accuracy requirements. The scalability of Lean, however, remains a challenge, as it is currently CPU-based and has not been fully optimized for GPU usage, which is crucial for handling large-scale AI models.",
     "key_takeaways_detailed": [],
     "investment_thesis": "If the integration of AI into physical sciences and control systems is indeed a transformative development, as suggested by Anandkumar's work, investors should consider allocating resources to companies at the forefront of this technology. The focus should be on firms that are developing or implementing AI solutions for scientific modeling and control systems, with an emphasis on those that prioritize formal verification for safety and accuracy. The investment thesis would be supported by evidence of successful scalability of Torch Lean or similar frameworks to GPU usage and by the adoption of these technologies in critical industries. Conversely, any significant setbacks in these areas would challenge the investment thesis.",
     "ticker_analysis": {
@@ -39196,7 +39196,7 @@ const dashboardData = {
     "id": 435,
     "insight_id": 446,
     "podcast_episode_id": 431,
-    "overview": "The discussion on Grockbot as a leading consumer AI product is significant because it represents a shift in consumer technology towards more accessible and practical AI applications. This contrasts with the traditional focus on high-level, disruptive AI technologies. Additionally, the vertical integration highlighted by Weimo's Ohio vehicle signifies a strategic move towards cost efficiency and performance optimization in the autonomous vehicle industry, which could lead to a more rapid adoption of autonomous vehicles. The use of Chinese hardware by Western companies like Weimo also underscores a global supply chain realignment, where cost and performance are driving factors in technology adoption.",
+    "overview": "The discussion on Grok as a leading consumer AI product is significant because it represents a shift in consumer technology towards more accessible and practical AI applications. This contrasts with the traditional focus on high-level, disruptive AI technologies. Additionally, the vertical integration highlighted by Waymo's Ohio vehicle signifies a strategic move towards cost efficiency and performance optimization in the autonomous vehicle industry, which could lead to a more rapid adoption of autonomous vehicles. The use of Chinese hardware by Western companies like Waymo also underscores a global supply chain realignment, where cost and performance are driving factors in technology adoption.",
     "key_takeaways_detailed": [],
     "investment_thesis": "If the thesis of a more gradual AI integration and the cost-effectiveness of Chinese AI models holds, investors should look for opportunities in companies that are adapting to these trends. This includes firms that are developing consumer-friendly AI applications and those in the autonomous vehicle sector that are leveraging cost-effective hardware. The timeframe for investment returns will likely be medium to long-term, as the integration of AI and the adoption of new technologies typically require time to mature and gain market acceptance. Disproving the thesis would require evidence of a rapid acceleration in AI disruption or a significant backlash against the use of Chinese hardware in Western technologies.",
     "ticker_analysis": {
@@ -39218,11 +39218,11 @@ const dashboardData = {
     "transcript_excerpt": null,
     "created_at": "2026-08-28T05:10:46.590408",
     "updated_at": "2026-08-28 10:10:46",
-    "episode_evidence": "- Sam Alman went on video this week to tell the world that he was wrong about the impact of advancing AI.\n- 'I think I was wrong about a few things, but one of them, in terms of the speed, one of them is the economy just has so much inertia.'",
+    "episode_evidence": "- Sam Altman went on video this week to tell the world that he was wrong about the impact of advancing AI.\n- 'I think I was wrong about a few things, but one of them, in terms of the speed, one of them is the economy just has so much inertia.'",
     "falsification_tracks": [
-      "A significant delay or failure in the deployment of Grockbot or similar consumer AI products that would challenge the notion of gradual, practical AI integration.",
+      "A significant delay or failure in the deployment of Grok or similar consumer AI products that would challenge the notion of gradual, practical AI integration.",
       "Reports of increased regulatory hurdles or consumer pushback against the use of Chinese hardware in Western autonomous vehicle technology, which could slow down the industry's progress towards vertical integration.",
-      "Weimo's Ohio vehicle failing to meet performance expectations or cost targets, which would undermine the case for the cost-effectiveness of Chinese hardware in autonomous vehicles."
+      "Waymo's Ohio vehicle failing to meet performance expectations or cost targets, which would undermine the case for the cost-effectiveness of Chinese hardware in autonomous vehicles."
     ],
     "schema_version": 2,
     "insight_title": "Sam Altman: Singularity Slow-Down, Emad Runs 18 Grokbots, Waymo Slashes Hardware 83% | EP #283",
@@ -39861,7 +39861,7 @@ const dashboardData = {
     "slug": "time-to-reduce-equity-risk",
     "bio": null,
     "known_for": null,
-    "last_main_idea": "Warren Pi suggests that despite the current macro risks, the AI sector remains a key area for investment, with all roads leading back to AI trades.",
+    "last_main_idea": "Warren Pies suggests that despite the current macro risks, the AI sector remains a key area for investment, with all roads leading back to AI trades.",
     "last_episode_title": "Time to Reduce Equity Risk: Why Underappreciated Macro Risks Could Derail the Bull Market | Warren Pies",
     "last_podcast_name": "Monetary Matters with Jack Farley",
     "last_episode_date": "2026-08-26",
@@ -40514,9 +40514,9 @@ const dashboardData = {
   },
   {
     "id": 425,
-    "name": "Sam Alman",
+    "name": "Sam Altman",
     "slug": "sam-alman",
-    "bio": "Sam Alman is an AI expert who has recently revised his opinion on the pace of AI's impact, acknowledging that advancements are slower than initially anticipated. He has been vocal about his views on AI's influence and has evaluated various AI products, such as Grockbot, which he considers the most generally useful consumer AI product of the year.",
+    "bio": "Sam Altman is an AI expert who has recently revised his opinion on the pace of AI's impact, acknowledging that advancements are slower than initially anticipated. He has been vocal about his views on AI's influence and has evaluated various AI products, such as Grok, which he considers the most generally useful consumer AI product of the year.",
     "known_for": "His reassessment of the speed at which AI is transforming industries and his insights into consumer AI products.",
     "net_worth_usd": 1000000000.0,
     "net_worth_source": "https://unnetworth.com/sam-altman-net-worth/",
@@ -40533,38 +40533,38 @@ const dashboardData = {
     "mention_score_decayed": 0.93,
     "last_main_idea": "Investment in AI and autonomous vehicle sectors should consider the shift towards more gradual AI integration and the potential for cost-effective Chinese AI models to disrupt the market.",
     "last_proof_cite": "Moonshots with Peter Diamandis \u2022 2026-08-27 \u2022 Sam Altman: Singularity Slow-Down, Emad Runs 18 Grokbots, Waymo Slashes Hardware 83% | EP #283",
-    "last_proof_snippet": "Sam Alman went on video this week to tell the world that he was wrong about the impact of advancing AI. We've all been too ambitious on time on it's even with this incredible technology. He now believes it will be something slower, more lik",
-    "supporting_takeaway": "Grockbot is highlighted as a leading consumer AI product, indicating a shift towards more accessible AI technologies.",
+    "last_proof_snippet": "Sam Altman went on video this week to tell the world that he was wrong about the impact of advancing AI. We've all been too ambitious on time on it's even with this incredible technology. He now believes it will be something slower, more lik",
+    "supporting_takeaway": "Grok is highlighted as a leading consumer AI product, indicating a shift towards more accessible AI technologies.",
     "grokipedia_url": null,
     "grokipedia_fetched_at": "2026-08-28T05:09:53.628116",
     "pundit_profile": {
       "source": "llm",
       "source_model": "moonshot:moonshot-v1-8k",
       "source_url": "",
-      "page_title": "Sam Alman",
+      "page_title": "Sam Altman",
       "fetched_at": "2026-08-28T10:09:53.627549+00:00",
-      "cliff_notes": "Sam Alman is recognized for his expertise in the field of artificial intelligence. Initially, he shared a common belief that AI would rapidly transform various sectors, but he has since adjusted his stance, suggesting that the impact is more gradual. Alman has been actively involved in evaluating and discussing AI technologies, including consumer AI products like Grockbot, which he has implemented and praised for its utility. His changing perspective on AI's pace of impact has made him a notable figure in discussions around AI's role in society and business. Alman's commentary on AI's development, including his views on the vertical integration seen in companies like Weimo, adds to the discourse on how AI technology is evolving and being integrated into existing business models.",
+      "cliff_notes": "Sam Altman is recognized for his expertise in the field of artificial intelligence. Initially, he shared a common belief that AI would rapidly transform various sectors, but he has since adjusted his stance, suggesting that the impact is more gradual. Alman has been actively involved in evaluating and discussing AI technologies, including consumer AI products like Grok, which he has implemented and praised for its utility. His changing perspective on AI's pace of impact has made him a notable figure in discussions around AI's role in society and business. Altman's commentary on AI's development, including his views on the vertical integration seen in companies like Waymo, adds to the discourse on how AI technology is evolving and being integrated into existing business models.",
       "derived": {},
       "infobox": {
         "Born": "",
         "Nationality": ""
       },
       "lead_paragraphs": [
-        "Sam Alman is recognized for his expertise in the field of artificial intelligence. Initially, he shared a common belief that AI would rapidly transform various sectors, but he has since adjusted his stance, suggesting that the impact is more gradual. Alman has been actively involved in evaluating and discussing AI technologies, including consumer AI products like Grockbot, which he has implemented and praised for its utility.",
-        "His changing perspective on AI's pace of impact has made him a notable figure in discussions around AI's role in society and business. Alman's commentary on AI's development, including his views on the vertical integration seen in companies like Weimo, adds to the discourse on how AI technology is evolving and being integrated into existing business models."
+        "Sam Altman is recognized for his expertise in the field of artificial intelligence. Initially, he shared a common belief that AI would rapidly transform various sectors, but he has since adjusted his stance, suggesting that the impact is more gradual. Alman has been actively involved in evaluating and discussing AI technologies, including consumer AI products like Grok, which he has implemented and praised for its utility.",
+        "His changing perspective on AI's pace of impact has made him a notable figure in discussions around AI's role in society and business. Altman's commentary on AI's development, including his views on the vertical integration seen in companies like Waymo, adds to the discourse on how AI technology is evolving and being integrated into existing business models."
       ],
       "sections": [
         {
           "heading": "AI Impact Reassessment",
-          "body": "Sam Alman has publicly changed his opinion on the speed of AI's impact, now believing it to be slower and more akin to a rising tide rather than a rapid transformation."
+          "body": "Sam Altman has publicly changed his opinion on the speed of AI's impact, now believing it to be slower and more akin to a rising tide rather than a rapid transformation."
         },
         {
-          "heading": "Grockbot Implementation",
-          "body": "Alman has implemented Grockbot, an AI product he considers the most generally useful consumer AI product of the year, indicating a practical application of AI in daily life."
+          "heading": "Grok Implementation",
+          "body": "Alman has implemented Grok, an AI product he considers the most generally useful consumer AI product of the year, indicating a practical application of AI in daily life."
         },
         {
-          "heading": "Weimo and Vertical Integration",
-          "body": "Alman commented on Weimo's significant redesign and the unveiling of the Ohio vehicle, a Robotaxi minivan, highlighting the company's move towards vertical integration and the use of Chinese hardware."
+          "heading": "Waymo and Vertical Integration",
+          "body": "Alman commented on Waymo's significant redesign and the unveiling of the Ohio vehicle, a Robotaxi minivan, highlighting the company's move towards vertical integration and the use of Chinese hardware."
         }
       ]
     },
@@ -40886,9 +40886,9 @@ const dashboardData = {
   },
   {
     "id": 421,
-    "name": "Warren Pi",
+    "name": "Warren Pies",
     "slug": "warren-pi",
-    "bio": "Warren Pi is the co-founder of 314 Research, a firm specializing in macro risk analysis and market structure insights. He is known for his detailed reports and podcasts discussing market trends and macroeconomic risks, providing valuable insights to investors.",
+    "bio": "Warren Pies is the co-founder of 314 Research, a firm specializing in macro risk analysis and market structure insights. He is known for his detailed reports and podcasts discussing market trends and macroeconomic risks, providing valuable insights to investors.",
     "known_for": "His expertise in macro risk analysis and market structure insights.",
     "net_worth_usd": 142300000000.0,
     "net_worth_source": "https://www.investopedia.com/articles/01/071801.asp",
@@ -40903,7 +40903,7 @@ const dashboardData = {
     "last_episode_date": "2026-08-26",
     "mention_score": 1,
     "mention_score_decayed": 0.89,
-    "last_main_idea": "Warren Pi suggests that despite the current macro risks, the AI sector remains a key area for investment, with all roads leading back to AI trades.",
+    "last_main_idea": "Warren Pies suggests that despite the current macro risks, the AI sector remains a key area for investment, with all roads leading back to AI trades.",
     "last_proof_cite": "Monetary Matters with Jack Farley \u2022 2026-08-26 \u2022 Time to Reduce Equity Risk: Why Underappreciated Macro Risks Could Derail the Bull Market | Warren Pies",
     "last_proof_snippet": "If I knew with certainly the Fed was going to hike in September, I'd be underweight stocks right now. It's not that I would say I'm straight up bearish here. I just think the risks are too excited. We highlighted the window from August 15th",
     "supporting_takeaway": "He highlighted the period from August 15th to October 15th as a time with unfavorable seasonals and market structure.",
@@ -40913,9 +40913,9 @@ const dashboardData = {
       "source": "llm",
       "source_model": "moonshot:moonshot-v1-8k",
       "source_url": "",
-      "page_title": "Warren Pi",
+      "page_title": "Warren Pies",
       "fetched_at": "2026-08-26T18:42:25.680726+00:00",
-      "cliff_notes": "Warren Pi is a prominent figure in the financial industry, recognized for his deep understanding of macroeconomic risks and market structures. As the co-founder of 314 Research, he has been instrumental in providing insightful analysis to clients and investors. His work often focuses on the interplay between macroeconomic factors and market dynamics, offering a unique perspective on investment strategies. Pi's contributions to the field have made him a sought-after commentator on financial podcasts and a respected voice in the industry.",
+      "cliff_notes": "Warren Pies is a prominent figure in the financial industry, recognized for his deep understanding of macroeconomic risks and market structures. As the co-founder of 314 Research, he has been instrumental in providing insightful analysis to clients and investors. His work often focuses on the interplay between macroeconomic factors and market dynamics, offering a unique perspective on investment strategies. Pi's contributions to the field have made him a sought-after commentator on financial podcasts and a respected voice in the industry.",
       "derived": {
         "current_role": "Co-founder of 314 Research"
       },
@@ -40924,13 +40924,13 @@ const dashboardData = {
         "Nationality": ""
       },
       "lead_paragraphs": [
-        "Warren Pi is a prominent figure in the financial industry, recognized for his deep understanding of macroeconomic risks and market structures. As the co-founder of 314 Research, he has been instrumental in providing insightful analysis to clients and investors. His work often focuses on the interplay between macroeconomic factors and market dynamics, offering a unique perspective on investment strategies.",
+        "Warren Pies is a prominent figure in the financial industry, recognized for his deep understanding of macroeconomic risks and market structures. As the co-founder of 314 Research, he has been instrumental in providing insightful analysis to clients and investors. His work often focuses on the interplay between macroeconomic factors and market dynamics, offering a unique perspective on investment strategies.",
         "Pi's contributions to the field have made him a sought-after commentator on financial podcasts and a respected voice in the industry."
       ],
       "sections": [
         {
           "heading": "Macro Risk Analysis",
-          "body": "Warren Pi is known for his in-depth analysis of macroeconomic risks, which he believes can significantly impact market trends and investment decisions."
+          "body": "Warren Pies is known for his in-depth analysis of macroeconomic risks, which he believes can significantly impact market trends and investment decisions."
         },
         {
           "heading": "Market Structure Insights",
@@ -40942,7 +40942,7 @@ const dashboardData = {
         },
         {
           "heading": "Podcast Contributions",
-          "body": "Warren Pi regularly contributes to financial podcasts, sharing his insights on market conditions and macroeconomic developments, making complex financial topics accessible to a broader audience."
+          "body": "Warren Pies regularly contributes to financial podcasts, sharing his insights on market conditions and macroeconomic developments, making complex financial topics accessible to a broader audience."
         }
       ]
     },
@@ -40950,9 +40950,9 @@ const dashboardData = {
   },
   {
     "id": 420,
-    "name": "Anamah Anankumar",
+    "name": "Anima Anandkumar",
     "slug": "anamah-anankumar",
-    "bio": "Anamah Anankumar is a Brain professor of mathematics and computer science at Caltech, known for her work in combining AI with models of the physical world, including weather and climate modeling.",
+    "bio": "Anima Anandkumar is a Brain professor of mathematics and computer science at Caltech, known for her work in combining AI with models of the physical world, including weather and climate modeling.",
     "known_for": "Her innovative use of AI in weather modeling, which has shown to be nearly as accurate as traditional models but tens of thousands of times faster.",
     "net_worth_usd": null,
     "net_worth_source": "",
@@ -40977,9 +40977,9 @@ const dashboardData = {
       "source": "llm",
       "source_model": "moonshot:moonshot-v1-8k",
       "source_url": "",
-      "page_title": "Anamah Anankumar",
+      "page_title": "Anima Anandkumar",
       "fetched_at": "2026-08-26T18:42:35.203947+00:00",
-      "cliff_notes": "Anamah Anankumar is a distinguished professor at Caltech, focusing on the intersection of artificial intelligence and physical systems, particularly in the realms of weather and climate modeling. Her work has challenged traditional methods by demonstrating that AI can achieve near-parity with decades-old forecasting techniques but at a significantly reduced computational cost. This breakthrough has the potential to revolutionize how we understand and predict weather patterns, offering faster and more efficient solutions. Her contributions are significant in the fields of AI and environmental science, making her a key figure in the ongoing development of technology that can better predict and understand our world.",
+      "cliff_notes": "Anima Anandkumar is a distinguished professor at Caltech, focusing on the intersection of artificial intelligence and physical systems, particularly in the realms of weather and climate modeling. Her work has challenged traditional methods by demonstrating that AI can achieve near-parity with decades-old forecasting techniques but at a significantly reduced computational cost. This breakthrough has the potential to revolutionize how we understand and predict weather patterns, offering faster and more efficient solutions. Her contributions are significant in the fields of AI and environmental science, making her a key figure in the ongoing development of technology that can better predict and understand our world.",
       "derived": {
         "current_role": "Brain Professor of Mathematics and Computer Science at Caltech",
         "education": "Degrees and institutions not specified",
@@ -40990,13 +40990,13 @@ const dashboardData = {
         "Nationality": ""
       },
       "lead_paragraphs": [
-        "Anamah Anankumar is a distinguished professor at Caltech, focusing on the intersection of artificial intelligence and physical systems, particularly in the realms of weather and climate modeling. Her work has challenged traditional methods by demonstrating that AI can achieve near-parity with decades-old forecasting techniques but at a significantly reduced computational cost.",
+        "Anima Anandkumar is a distinguished professor at Caltech, focusing on the intersection of artificial intelligence and physical systems, particularly in the realms of weather and climate modeling. Her work has challenged traditional methods by demonstrating that AI can achieve near-parity with decades-old forecasting techniques but at a significantly reduced computational cost.",
         "This breakthrough has the potential to revolutionize how we understand and predict weather patterns, offering faster and more efficient solutions. Her contributions are significant in the fields of AI and environmental science, making her a key figure in the ongoing development of technology that can better predict and understand our world."
       ],
       "sections": [
         {
           "heading": "AI in Weather Modeling",
-          "body": "Anamah Anankumar has been instrumental in demonstrating the effectiveness of AI in weather modeling, showing that it can be as accurate as traditional methods but at a fraction of the computational cost."
+          "body": "Anima Anandkumar has been instrumental in demonstrating the effectiveness of AI in weather modeling, showing that it can be as accurate as traditional methods but at a fraction of the computational cost."
         },
         {
           "heading": "Neural Operators",
@@ -41011,9 +41011,9 @@ const dashboardData = {
   },
   {
     "id": 418,
-    "name": "An Eshicharya",
+    "name": "Anish Acharya",
     "slug": "an-eshicharya",
-    "bio": "An Eshicharya is a General Partner at a venture capital firm, focusing on artificial intelligence and its applications. He is known for his insights on AI model competition and the rise of consumer AI, discussing the future of AI and its impact on various industries.",
+    "bio": "Anish Acharya is a General Partner at a venture capital firm, focusing on artificial intelligence and its applications. He is known for his insights on AI model competition and the rise of consumer AI, discussing the future of AI and its impact on various industries.",
     "known_for": "His expertise in AI model competition and consumer AI, and his views on the future of AI applications.",
     "net_worth_usd": 13800000000.0,
     "net_worth_source": "https://www.africanbusinessreview.co.za/ilya-sutskever-net-worth/",
@@ -41030,7 +41030,7 @@ const dashboardData = {
     "mention_score_decayed": 0.89,
     "last_main_idea": "Invest in the application layer of AI where significant value can be captured, and consider the emerging consumer AI space for new opportunities.",
     "last_proof_cite": "The a16z Show \u2022 2026-08-26 \u2022 The State of AI: Macro, Apps, and Consumer",
-    "last_proof_snippet": "For the last few years, the biggest question in the AI was which model would win. The next phase may be less about the models, and more about what gets built on top of them. In this episode, Jen Cos sits down with an Eshicharya, to unpack w",
+    "last_proof_snippet": "For the last few years, the biggest question in the AI was which model would win. The next phase may be less about the models, and more about what gets built on top of them. In this episode, Jen Costa sits down with Anish Acharya, to unpack w",
     "supporting_takeaway": "Open weight models have an advantage and can lead to significant value capture at the application layer.",
     "grokipedia_url": null,
     "grokipedia_fetched_at": "2026-08-26T06:50:40.930566",
@@ -41038,9 +41038,9 @@ const dashboardData = {
       "source": "llm",
       "source_model": "moonshot:moonshot-v1-8k",
       "source_url": "",
-      "page_title": "An Eshicharya",
+      "page_title": "Anish Acharya",
       "fetched_at": "2026-08-26T11:50:40.930205+00:00",
-      "cliff_notes": "An Eshicharya is a venture capitalist with a focus on artificial intelligence and its applications. As a General Partner at a venture capital firm, he has been at the forefront of discussions around AI model competition and the burgeoning consumer AI market. His insights into the future of AI, including the transition from model competition to building applications on top of these models, have been influential in the tech industry. Eshicharya's work emphasizes the importance of the application layer in capturing value in the AI space, even as frontier labs continue to grow. He also highlights the potential for a renaissance in consumer AI, with personal agents beginning to perform tasks on behalf of users, suggesting a new generation of founders may need to think bigger about what AI makes possible.",
+      "cliff_notes": "Anish Acharya is a venture capitalist with a focus on artificial intelligence and its applications. As a General Partner at a venture capital firm, he has been at the forefront of discussions around AI model competition and the burgeoning consumer AI market. His insights into the future of AI, including the transition from model competition to building applications on top of these models, have been influential in the tech industry. Eshicharya's work emphasizes the importance of the application layer in capturing value in the AI space, even as frontier labs continue to grow. He also highlights the potential for a renaissance in consumer AI, with personal agents beginning to perform tasks on behalf of users, suggesting a new generation of founders may need to think bigger about what AI makes possible.",
       "derived": {
         "current_role": "General Partner at a venture capital firm"
       },
@@ -41049,13 +41049,13 @@ const dashboardData = {
         "Nationality": ""
       },
       "lead_paragraphs": [
-        "An Eshicharya is a venture capitalist with a focus on artificial intelligence and its applications. As a General Partner at a venture capital firm, he has been at the forefront of discussions around AI model competition and the burgeoning consumer AI market. His insights into the future of AI, including the transition from model competition to building applications on top of these models, have been influential in the tech industry.",
+        "Anish Acharya is a venture capitalist with a focus on artificial intelligence and its applications. As a General Partner at a venture capital firm, he has been at the forefront of discussions around AI model competition and the burgeoning consumer AI market. His insights into the future of AI, including the transition from model competition to building applications on top of these models, have been influential in the tech industry.",
         "Eshicharya's work emphasizes the importance of the application layer in capturing value in the AI space, even as frontier labs continue to grow. He also highlights the potential for a renaissance in consumer AI, with personal agents beginning to perform tasks on behalf of users, suggesting a new generation of founders may need to think bigger about what AI makes possible."
       ],
       "sections": [
         {
           "heading": "AI Model Competition",
-          "body": "An Eshicharya discusses the shift in AI from model competition to building applications on top of these models, emphasizing the importance of the application layer in capturing value."
+          "body": "Anish Acharya discusses the shift in AI from model competition to building applications on top of these models, emphasizing the importance of the application layer in capturing value."
         },
         {
           "heading": "Consumer AI",
@@ -41063,7 +41063,7 @@ const dashboardData = {
         },
         {
           "heading": "Future of AI",
-          "body": "An Eshicharya shares his views on where AI is headed, discussing why AI models aren't becoming commodities and the advantages of open weight models in the competitive landscape."
+          "body": "Anish Acharya shares his views on where AI is headed, discussing why AI models aren't becoming commodities and the advantages of open weight models in the competitive landscape."
         }
       ]
     },
@@ -41073,7 +41073,7 @@ const dashboardData = {
     "id": 333,
     "name": "Dylan Patel",
     "slug": "dylan-patel",
-    "bio": "Dylan Patel is the founder of Simming Analysis, a firm specializing in AI infrastructure and compute market analysis. He is recognized for his insights into the future of AI and its impact on the global economy, particularly focusing on the growth of AI infrastructure and its contribution to GDP.",
+    "bio": "Dylan Patel is the founder of SemiAnalysis, a firm specializing in AI infrastructure and compute market analysis. He is recognized for his insights into the future of AI and its impact on the global economy, particularly focusing on the growth of AI infrastructure and its contribution to GDP.",
     "known_for": "His expertise in AI infrastructure and its role in shaping the global economy.",
     "net_worth_usd": 3700000000.0,
     "net_worth_source": "https://substack.com/home/post/p-153458455",
@@ -41090,8 +41090,8 @@ const dashboardData = {
     "mention_score_decayed": 1.78,
     "last_main_idea": "Investment in AI infrastructure and labs is set to grow exponentially, leading to significant capital allocation shifts and potential market disruptions.",
     "last_proof_cite": "Dwarkesh Podcast \u2022 2026-08-25 \u2022 Dylan Patel \u2013 Anthropic & OpenAI will have most of the world\u2019s compute by 2028",
-    "last_proof_snippet": "Okay, I'm back with Dylan Patel, Founder of Simming Analysis, our version of Family, Thanksgiving dinner is a regular early podcast, but you're not actually related. I won't tell the people here. We'll destroy the myth. Walk me, basically w",
-    "supporting_takeaway": "Labs like OpenEye and Anthropic are expected to spend trillions of dollars annually by the end of the decade.",
+    "last_proof_snippet": "Okay, I'm back with Dylan Patel, Founder of SemiAnalysis, our version of Family, Thanksgiving dinner is a regular early podcast, but you're not actually related. I won't tell the people here. We'll destroy the myth. Walk me, basically w",
+    "supporting_takeaway": "Labs like OpenAI and Anthropic are expected to spend trillions of dollars annually by the end of the decade.",
     "grokipedia_url": null,
     "grokipedia_fetched_at": "2026-08-25T22:28:51.037076",
     "pundit_profile": {
@@ -41100,16 +41100,16 @@ const dashboardData = {
       "source_url": "",
       "page_title": "Dylan Patel",
       "fetched_at": "2026-08-26T03:28:51.036737+00:00",
-      "cliff_notes": "Dylan Patel is a prominent figure in the field of AI infrastructure and compute market analysis. As the founder of Simming Analysis, he has dedicated his career to understanding and forecasting the trends and developments within the AI sector. Patel's work is particularly focused on how advancements in AI infrastructure are influencing economic growth, with a keen eye on the allocation of capital expenditures in the industry. His insights are sought after for their ability to predict the trajectory of the global economy in relation to the advancements in AI technology. Patel's contributions to the discourse on AI's economic impact have made him a respected voice in both the tech and finance sectors.",
+      "cliff_notes": "Dylan Patel is a prominent figure in the field of AI infrastructure and compute market analysis. As the founder of SemiAnalysis, he has dedicated his career to understanding and forecasting the trends and developments within the AI sector. Patel's work is particularly focused on how advancements in AI infrastructure are influencing economic growth, with a keen eye on the allocation of capital expenditures in the industry. His insights are sought after for their ability to predict the trajectory of the global economy in relation to the advancements in AI technology. Patel's contributions to the discourse on AI's economic impact have made him a respected voice in both the tech and finance sectors.",
       "derived": {
-        "current_role": "Founder of Simming Analysis"
+        "current_role": "Founder of SemiAnalysis"
       },
       "infobox": {
         "Born": "",
         "Nationality": ""
       },
       "lead_paragraphs": [
-        "Dylan Patel is a prominent figure in the field of AI infrastructure and compute market analysis. As the founder of Simming Analysis, he has dedicated his career to understanding and forecasting the trends and developments within the AI sector. Patel's work is particularly focused on how advancements in AI infrastructure are influencing economic growth, with a keen eye on the allocation of capital expenditures in the industry.",
+        "Dylan Patel is a prominent figure in the field of AI infrastructure and compute market analysis. As the founder of SemiAnalysis, he has dedicated his career to understanding and forecasting the trends and developments within the AI sector. Patel's work is particularly focused on how advancements in AI infrastructure are influencing economic growth, with a keen eye on the allocation of capital expenditures in the industry.",
         "His insights are sought after for their ability to predict the trajectory of the global economy in relation to the advancements in AI technology. Patel's contributions to the discourse on AI's economic impact have made him a respected voice in both the tech and finance sectors."
       ],
       "sections": [
@@ -42274,7 +42274,7 @@ const dashboardData = {
     "mention_score_decayed": 1.35,
     "last_main_idea": "Invest in AI and exponential technologies that are redefining industries and creating new opportunities for growth and innovation.",
     "last_proof_cite": "Moonshots with Peter Diamandis \u2022 2026-08-13 \u2022 Bernie Demands the Labs Stop, Wall Street Turns GPUs Into Bonds, Grok 4.7 Takes #1 with Emad Mostaque | EP #279",
-    "last_proof_snippet": "Bernie Sanders sent a formal letter to the CEOs of Anthropic Meta and OpenEye AI capabilities have reached a critical threshold. Paul's AI development, the Council of the Baguards, too late, right? Nvidia just announced a partnership that r",
+    "last_proof_snippet": "Bernie Sanders sent a formal letter to the CEOs of Anthropic Meta and OpenAI AI capabilities have reached a critical threshold. Paul's AI development, the Council of the Baguards, too late, right? Nvidia just announced a partnership that r",
     "supporting_takeaway": "Nvidia's partnership redefines GPU compute as a financial asset, signaling a shift in the market.",
     "grokipedia_url": null,
     "grokipedia_fetched_at": "2026-08-13T23:37:58.122292",
@@ -51706,9 +51706,9 @@ const dashboardData = {
   },
   {
     "id": 226,
-    "name": "Warren Pious",
+    "name": "Warren Pies",
     "slug": "warren-pious",
-    "bio": "Warren Pious is the founder and CEO of 314 Research and Caliban, a data-driven analyst known for his accurate market predictions. His work in AI research and charting tools has made significant contributions to the financial industry.",
+    "bio": "Warren Pies is the founder and CEO of 314 Research and Caliban, a data-driven analyst known for his accurate market predictions. His work in AI research and charting tools has made significant contributions to the financial industry.",
     "known_for": "Accurately predicting the S&P to reach 7,000 by 2026 and developing the AI research and charting tool Caliban.",
     "net_worth_usd": 12000000.0,
     "net_worth_source": "https://www.cinenetworth.com/elizabeth-warren-salary-and-net-worth/",
@@ -51725,7 +51725,7 @@ const dashboardData = {
     "mention_score_decayed": 0.07,
     "last_main_idea": "The current bull market is driven by advancements in AI and technology, which are expected to continue outpacing concerns over oil shortages and inflation.",
     "last_proof_cite": "Monetary Matters with Jack Farley \u2022 2026-05-04 \u2022 Warren Pies: The Scramble for Compute Cures All Ills | Two Wolves of \u201cHockeysticking Earnings\u201d and Hormuz Oil Shock (Plus Caliban)",
-    "last_proof_snippet": "Today I was speaking to one of the best and most data-driven analysts around, Warren Pious of 314 research. If you have been seeing the ball clearer than him, last time I spoke to him, Warren's calling for S&P to 7,000 by 2026, which obviou",
+    "last_proof_snippet": "Today I was speaking to one of the best and most data-driven analysts around, Warren Pies of 314 research. If you have been seeing the ball clearer than him, last time I spoke to him, Warren's calling for S&P to 7,000 by 2026, which obviou",
     "supporting_takeaway": "The oil shortage is a significant concern, but the AI sector's advancements are a more powerful market driver.",
     "grokipedia_url": null,
     "grokipedia_fetched_at": "2026-05-04T22:01:11.428081",
@@ -51733,9 +51733,9 @@ const dashboardData = {
       "source": "llm",
       "source_model": "moonshot:moonshot-v1-8k",
       "source_url": "",
-      "page_title": "Warren Pious",
+      "page_title": "Warren Pies",
       "fetched_at": "2026-05-05T03:01:11.427805+00:00",
-      "cliff_notes": "Warren Pious is a prominent figure in the financial industry, recognized for his data-driven analysis and accurate market predictions. As the founder and CEO of 314 Research and Caliban, Pious has leveraged his expertise in AI research to develop innovative charting tools that have become integral to the financial decision-making process. His prediction that the S&P would reach 7,000 by 2026, which was achieved, further solidified his reputation as a reliable analyst. Pious's work with Caliban, an AI research and charting tool, has been particularly influential, offering insights that drive market movements and providing a powerful resource for financial professionals.",
+      "cliff_notes": "Warren Pies is a prominent figure in the financial industry, recognized for his data-driven analysis and accurate market predictions. As the founder and CEO of 314 Research and Caliban, Pious has leveraged his expertise in AI research to develop innovative charting tools that have become integral to the financial decision-making process. His prediction that the S&P would reach 7,000 by 2026, which was achieved, further solidified his reputation as a reliable analyst. Pious's work with Caliban, an AI research and charting tool, has been particularly influential, offering insights that drive market movements and providing a powerful resource for financial professionals.",
       "derived": {
         "current_role": "Founder and CEO of 314 Research and Caliban"
       },
@@ -51744,13 +51744,13 @@ const dashboardData = {
         "Nationality": ""
       },
       "lead_paragraphs": [
-        "Warren Pious is a prominent figure in the financial industry, recognized for his data-driven analysis and accurate market predictions. As the founder and CEO of 314 Research and Caliban, Pious has leveraged his expertise in AI research to develop innovative charting tools that have become integral to the financial decision-making process.",
+        "Warren Pies is a prominent figure in the financial industry, recognized for his data-driven analysis and accurate market predictions. As the founder and CEO of 314 Research and Caliban, Pious has leveraged his expertise in AI research to develop innovative charting tools that have become integral to the financial decision-making process.",
         "His prediction that the S&P would reach 7,000 by 2026, which was achieved, further solidified his reputation as a reliable analyst. Pious's work with Caliban, an AI research and charting tool, has been particularly influential, offering insights that drive market movements and providing a powerful resource for financial professionals."
       ],
       "sections": [
         {
           "heading": "Market Predictions",
-          "body": "Warren Pious is known for his accurate market predictions, including the S&P reaching 7,000 by 2026."
+          "body": "Warren Pies is known for his accurate market predictions, including the S&P reaching 7,000 by 2026."
         },
         {
           "heading": "AI Research",

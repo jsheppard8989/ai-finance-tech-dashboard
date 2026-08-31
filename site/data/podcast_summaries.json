@@ -96,12 +96,12 @@
     "podcast_name": "Moonshots with Peter Diamandis",
     "episode_title": "Sam Altman: Singularity Slow-Down, Emad Runs 18 Grokbots, Waymo Slashes Hardware 83% | EP #283",
     "episode_date": "2026-08-27",
-    "summary": "In this episode of Moonshots with Peter Diamandis, the panel discusses the impact of AI on various sectors and the vertical integration in the autonomous vehicle industry. Sam Alman's change of opinion on AI's slower than expected impact is highlighted, along with the discussion on Grockbot as a leading consumer AI product. Weimo's announcement of their Ohio vehicle, a Robotaxi minivan, signifies a shift towards vertical integration and the use of Chinese hardware by Western companies. The conversation also touches on the cost-effectiveness and performance of open-source Chinese AI models compared to their Western counterparts.",
+    "summary": "In this episode of Moonshots with Peter Diamandis, the panel discusses the impact of AI on various sectors and the vertical integration in the autonomous vehicle industry. Sam Altman's change of opinion on AI's slower than expected impact is highlighted, along with the discussion on Grok as a leading consumer AI product. Waymo's announcement of their Ohio vehicle, a Robotaxi minivan, signifies a shift towards vertical integration and the use of Chinese hardware by Western companies. The conversation also touches on the cost-effectiveness and performance of open-source Chinese AI models compared to their Western counterparts.",
     "key_takeaways": [
       "AI's impact on various sectors is slower than initially anticipated, with a more gradual, rising tide-like effect.",
-      "Grockbot is highlighted as a leading consumer AI product, indicating a shift towards more accessible AI technologies.",
-      "Weimo's Ohio vehicle represents a significant step towards vertical integration in the autonomous vehicle industry.",
-      "The use of Chinese hardware by Western companies like Weimo raises questions about the future of hardware sourcing and vertical integration.",
+      "Grok is highlighted as a leading consumer AI product, indicating a shift towards more accessible AI technologies.",
+      "Waymo's Ohio vehicle represents a significant step towards vertical integration in the autonomous vehicle industry.",
+      "The use of Chinese hardware by Western companies like Waymo raises questions about the future of hardware sourcing and vertical integration.",
       "Open-source Chinese AI models are becoming competitive with Western models in terms of performance and cost, leading to a potential shift in AI model sourcing."
     ],
     "investment_thesis": "Investment in AI and autonomous vehicle sectors should consider the shift towards more gradual AI integration and the potential for cost-effective Chinese AI models to disrupt the market.",

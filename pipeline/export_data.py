@@ -14,7 +14,7 @@ import sqlite3
 # Add pipeline directory to path
 sys.path.insert(0, str(Path(__file__).parent))
 from db_manager import get_db
-from site_text_sanitize import strip_cjk_public_text
+from site_text_sanitize import sanitize_public_text, strip_cjk_public_text
 from workspace_paths import (
     DB_PATH,
     PIPELINE_DIR,
@@ -857,16 +857,16 @@ def generate_website_js():
     site_dir = SITE_DATA_DIR
     
     # Get all data including archive
-    archive = strip_cjk_public_text(db.export_archive_data())
-    main_content = strip_cjk_public_text(db.get_main_page_content())
-    deepdives = strip_cjk_public_text(db.get_all_deep_dive_content())
-    suggested_terms = strip_cjk_public_text(db.get_suggested_terms_for_website(limit=4))
-    podcast_guests = strip_cjk_public_text(db.get_podcast_guests_for_site(limit=20))
+    archive = sanitize_public_text(db.export_archive_data())
+    main_content = sanitize_public_text(db.get_main_page_content())
+    deepdives = sanitize_public_text(db.get_all_deep_dive_content())
+    suggested_terms = sanitize_public_text(db.get_suggested_terms_for_website(limit=4))
+    podcast_guests = sanitize_public_text(db.get_podcast_guests_for_site(limit=20))
     # Load pundits (semantic layer) from JSON exported by export_for_website
     pundits_path = site_dir / "pundits.json"
     try:
         with open(pundits_path, "r") as f:
-            pundits = strip_cjk_public_text(json.load(f))
+            pundits = sanitize_public_text(json.load(f))
     except FileNotFoundError:
         pundits = []
 
@@ -884,7 +884,7 @@ def generate_website_js():
     # Load ticker scores
     try:
         with open(site_dir / 'ticker_scores.json', 'r') as f:
-            ticker_scores = strip_cjk_public_text(json.load(f))
+            ticker_scores = sanitize_public_text(json.load(f))
     except FileNotFoundError:
         ticker_scores = []
 
