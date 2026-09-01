@@ -1,7 +1,7 @@
 {
-  "generated_at": "2026-09-01T06:49:08.711809",
-  "last_updated": "2026-09-01T06:49:08.711809",
-  "last_pipeline_run": "2026-09-01T06:49:08.711809",
+  "generated_at": "2026-09-01T18:29:20.384994",
+  "last_updated": "2026-09-01T18:29:20.384994",
+  "last_pipeline_run": "2026-09-01T18:29:20.384994",
   "main_page": {
     "overton": 13,
     "insights": 8,
@@ -9,13 +9,13 @@
   },
   "counts": {
     "ticker_mentions": 219,
-    "podcast_episodes": 422,
+    "podcast_episodes": 423,
     "newsletters": 7,
     "daily_scores": 156,
-    "overton_terms_total": 132,
-    "latest_insights_total": 436,
+    "overton_terms_total": 133,
+    "latest_insights_total": 437,
     "today_mentions": {},
-    "podcasts_analyzed": 1
+    "podcasts_analyzed": 2
   },
   "step_results": {
     "downloaded": 1,
@@ -27,11 +27,11 @@
   },
   "episodes": [
     {
-      "id": "530a274b-dbf9-4577-9c39-1207c889db37",
-      "podcast": "The a16z Show",
-      "title": "Daniel Litt: The Mathematician's Guide to AI",
+      "id": "substack:post:213682035",
+      "podcast": "Dwarkesh Podcast",
+      "title": "Ajeya Cotra \u2013 Inside the OpenAI agent swarm that hacked Hugging Face",
       "published": "2026-09-01",
-      "rss_guid": "530a274b-dbf9-4577-9c39-1207c889db37",
+      "rss_guid": "substack:post:213682035",
       "stages": {
         "downloaded": true,
         "transcribed": true,
@@ -63,8 +63,6 @@
       "published"
     ],
     "whisper_queue_pending_mp3": 0,
-    "whisper_queue_stale_mp3": [],
-    "whisper_queue_stale_hours": 12,
     "fix_order": "For each episode, read first_blocker then remediation_by_stage[first_blocker].",
     "end_to_end": "cd /Users/jaredsheppard/projects/ai-finance-tech-dashboard/pipeline && python3 auto_pipeline.py",
     "analyze_only": "cd /Users/jaredsheppard/projects/ai-finance-tech-dashboard/pipeline && python3 auto_pipeline.py --analyze-only",
