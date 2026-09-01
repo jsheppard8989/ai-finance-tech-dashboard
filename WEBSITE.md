@@ -46,6 +46,7 @@ Everything the main page shows is **derived from one SQLite database** (`pipelin
 ### 5. Automation on your machine (optional but normal)
 
 - **Cron, launchd, or another scheduler** runs `auto_pipeline.py` or `export_data.py` on a cadence so the DB and `site/data/` stay fresh without manual steps.
+- **Live state:** See **[docs/AUTOMATION.md](docs/AUTOMATION.md)** for the current schedule, loaded LaunchAgents, and ops RACI.
 
 ---
 

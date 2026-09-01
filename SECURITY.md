@@ -32,9 +32,15 @@ Set them via:
 
 ### Repository Security Features Enabled
 
+> **Verified 2026-08-31:** The following reflects what is actually enabled on GitHub.
+
 - ✅ Secret scanning (detects leaked credentials)
-- ✅ Dependency scanning
-- ✅ CodeQL analysis
+- ✅ Push protection (blocks commits containing detected secrets)
+- ❌ Dependabot alerts — **not enabled**
+- ❌ CodeQL analysis — **not enabled**
+- ❌ Dependabot security updates — **not enabled**
+
+To enable additional security features, go to **Settings → Code security** in the GitHub repository.
 
 ## Known Security Issues (Resolved)
 

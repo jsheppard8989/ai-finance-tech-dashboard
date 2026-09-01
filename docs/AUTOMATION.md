@@ -4,6 +4,29 @@ This doc explains how the 10pm pipeline is scheduled, why **sleep can prevent it
 
 ---
 
+## Live state (as of 2026-08-31)
+
+**Loaded LaunchAgents** (verify with `launchctl list | grep scarcity`):
+
+| Label | Status | Purpose |
+|-------|--------|---------|
+| `com.scarcity.pipeline.daemon` | ✅ loaded | Canonical pipeline runner — polls every **45 minutes** (`StartInterval=2700`); runs `run_if_scheduled.sh` during windows |
+| `com.scarcity.pipeline.catchup` | ✅ loaded | Backup on login/wake and 22:10 |
+| `com.scarcity.whisper-worker` | ✅ loaded | Local Whisper transcription worker |
+| `com.scarcity.site.qa` | ✅ loaded | Site QA checks |
+| `com.scarcity.term_promotion_replies` | ✅ loaded | Processes term promotion replies |
+| `com.scarcity.pipeline.schedule` | ❌ **NOT loaded** | Deprecated fixed-time calendar schedule; do not load |
+
+**Run windows (daemon):** 05:00–07:59, 12:00–14:59, 22:00–23:59 local time.
+
+**Cooldown:** 90 minutes via `pipeline/state/last_evening_run.txt`.
+
+**Compute:** Pipeline jobs run on **Jared's Mac** via launchd. No GitHub Actions cron — deployment is push-triggered only (see below).
+
+**GitHub Actions:** Single workflow `.github/workflows/deploy.yml` deploys to GitHub Pages on push to `main` when `site/**` or `pipeline/data/**` change, plus manual `workflow_dispatch`. No scheduled Actions runs.
+
+---
+
 ## Active scheduler (canonical)
 
 **Use `com.scarcity.pipeline.daemon` only** — polls every 45 minutes and runs the full pipeline when:
