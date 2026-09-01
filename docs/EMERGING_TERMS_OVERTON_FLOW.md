@@ -1,40 +1,129 @@
-# Emerging Terms → Overton Window: Current Setup & Target Flow
+# Emerging Terms → Overton Window: Current Setup & Flow
 
-## Current setup
+> **Last updated:** 2026-09-01 (novelty-aware ranking overhaul)
 
-### 1. Where Emerging Terms come from today
-- **Source:** `suggested_terms` table.
-- **Population:** `manage_suggested_terms.py` → `scan_content_for_terms()`:
-  - Reads **episode summaries** and newsletter content (not full transcripts).
-  - Uses **regex/heuristics** (`extract_terms_from_content`) to find quoted phrases and repeated capitalized phrases.
-  - Inserts/updates rows in `suggested_terms` with `status = 'pending'`.
-- **Export:** `get_suggested_terms_for_website(limit=4)` → `dashboardData.suggestedTerms`.
-- **Site:** Emerging Terms box reads `suggestedTerms`, filters out person names, and displays.
+## Overview
 
-### 2. Promotion today
-- **Script:** `auto_curate_terms.py` runs after suggested-terms scan.
-- **Logic:** Scores pending terms; if relevance + mentions + source diversity meet thresholds → **auto-promote to `definitions` table only**.
-- **Overton Window:** Not used for promotion. `overton_terms` table exists but is populated by seed/migration, not by this pipeline.
+The Overton Window surfaces recurring ideas from podcast/newsletter feeds. Terms must be
+mentioned across **multiple episodes** before appearing on the main board.
 
-### 3. Overton Window on the site
-- **Rendering:** Fully **static HTML** in `index.html` (seven hardcoded `.overton-window-item` cards).
-- **Data:** `get_main_page_content()` returns `definitions` and `overton` from the DB and they are in `dashboardData.mainContent`, but the site **never uses them**; the Overton section does not load from data.
+### Key changes in this version
+- **Novelty-aware ranking**: Terms ranked by freshness + source diversity + specificity, not raw volume
+- **Established tier**: Saturated terms (AGI, Autonomy, etc.) demoted to a collapsible section
+- **Extraction stop-list**: Generic phrases filtered from Emerging Terms inbox
+- **Better Signal display**: Log-scaled bars instead of saturated percentages
 
 ---
 
-## Target flow (fully functional)
+## Current setup (LIVE)
 
-1. **AI episode analysis** returns an array of **emerging terms** per episode (term + short definition + investment angle).
-2. **Ingest** each term into `suggested_terms` (with episode/source context) so the **Emerging Terms** box is driven by AI output, not regex.
-3. **Promotion:** When a suggested term is approved (auto or manual), add it to **both** `definitions` and **`overton_terms`** so it appears in the Overton Window.
-4. **Site:** **Load Overton Window from data**: merge `mainContent.definitions` and `mainContent.overton` and render `.overton-window-item` cards from that list (with a fallback/empty state when no data).
+### 1. Where Emerging Terms come from
+- **Source:** `suggested_terms` table
+- **Population:** 
+  - `analyze_transcript.py` extracts `emerging_terms` from AI analysis
+  - `manage_suggested_terms.py` scans summaries/newsletters for regex patterns
+  - Both insert into `suggested_terms` with `status = 'pending'`
+- **Filtering:** 
+  - `extraction_stoplist.py` blocks generic phrases ("AI takeover", "Compute shortages", etc.)
+  - `saturated_terms.py` flags established terms (AGI, Autonomy, AI Boom, etc.)
+- **Export:** `get_suggested_terms_for_website(limit=4)` → `dashboardData.suggestedTerms`
+- **Site:** Emerging Terms box displays filtered pending terms
+
+### 2. Promotion to Overton Window
+- **Script:** `auto_curate_terms.py` runs after suggested-terms scan
+- **Gate:** Requires 2+ mentions across 2+ distinct episodes
+- **Action:** Auto-promotes to **both** `definitions` and `overton_terms` tables
+- **Notification:** Sends iMessage for manual review of borderline terms
+
+### 3. Overton Window ranking (novelty-aware)
+
+The main Overton board now ranks by **novelty score**, not raw mentions × recency:
+
+```
+novelty_score = (freshness × source_diversity × specificity) + recency_bonus
+```
+
+Components:
+- **Freshness**: Newer terms (days since `first_detected_date`) score higher (90-day half-life)
+- **Source diversity**: Terms mentioned across multiple shows get 1.0–2.0× bonus
+- **Specificity**: Established/saturated terms get 85% penalty (multiplier = 0.15)
+- **Recency bonus**: Recent `last_mentioned_date` adds a small boost (30-day half-life)
+- **Mention factor**: Log-scaled to prevent volume domination
+
+### 4. Established tier (saturated terms)
+Terms in `saturated_terms.ESTABLISHED_TERMS` are demoted to a separate collapsible section:
+- AGI, Artificial General Intelligence
+- ASI, Artificial Super Intelligence
+- Autonomy, Authenticity, AI Boom
+- Machine Learning, Deep Learning, Neural Networks
+
+These still appear on the site but don't crowd out newer/specific ideas.
+
+### 5. Signal display (resonance replacement)
+Old "Resonance" bars saturated at 100% due to low cap (4.0). New "Signal" uses log scale:
+
+```javascript
+signal_pct = log(1 + novelty_score × 10) × 25  // Clamped to 5–95%
+```
+
+This spreads values across the 0–100 range for better visual differentiation.
 
 ---
 
-## Implementation checklist
+## Data flow
 
-- [ ] **analyze_transcript.py:** Add `emerging_terms` to the AI JSON schema; in `process_transcript_file` ingest each into `suggested_terms` (same shape as existing pipeline: term, definition, investment_implications, source_context = episode).
-- [ ] **auto_curate_terms.py:** When auto-promoting, insert into **overton_terms** as well as definitions (so promoted terms show in the Overton Window).
-- [ ] **index.html:** Replace static Overton cards with a container; add `loadOvertonWindow()` that builds the list from `mainContent.definitions` + `mainContent.overton` and renders unified `.overton-window-item` cards; call on load and keep existing burst/expand behavior.
+```
+Transcripts/Newsletters
+        ↓
+  AI extraction / regex scan
+        ↓
+  suggested_terms (status='pending')
+        ↓ [filtered by extraction_stoplist]
+  Emerging Terms box (site)
+        ↓ [2+ mentions across 2+ episodes]
+  auto_curate_terms.py
+        ↓
+  overton_terms + definitions
+        ↓ [ranked by novelty_score]
+  Main Overton board (new ideas)
+        ↓ [if is_established]
+  Established tier (collapsed)
+```
 
-After this, Emerging Terms will be populated from the AI episode analysis response, and promoted terms will appear in the Overton Window and be driven by DB data.
+---
+
+## Key files
+
+| File | Purpose |
+|------|---------|
+| `pipeline/saturated_terms.py` | Established term list + specificity multiplier |
+| `pipeline/extraction_stoplist.py` | Generic phrase filter for Emerging inbox |
+| `pipeline/db_manager.py` | Novelty scoring in `get_main_page_content()` |
+| `pipeline/auto_curate_terms.py` | Promotion logic (suggested → overton) |
+| `site/index.html` | `loadOvertonWindow()` renders both tiers |
+
+---
+
+## Configuration
+
+### Adding established terms
+Edit `pipeline/saturated_terms.py`:
+```python
+ESTABLISHED_TERMS["New Term"] = EstablishedTerm(
+    term="New Term",
+    reason="Why this term is saturated",
+    min_mentions_before_established=5,
+)
+```
+
+### Adding stoplist phrases
+Edit `pipeline/extraction_stoplist.py`:
+```python
+EXTRACTION_STOPLIST.add("Generic Phrase")
+```
+
+### Tuning novelty scoring
+In `pipeline/db_manager.py`:
+- `freshness_half_life_days = 90.0` — how fast freshness decays
+- `recency_half_life_days = 30.0` — how fast recency bonus decays
+- `ESTABLISHED_TERM_RANKING_MULTIPLIER = 0.15` — penalty for saturated terms

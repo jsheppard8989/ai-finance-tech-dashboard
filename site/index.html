@@ -360,6 +360,22 @@
       color: #a8b2d1;
     }
 
+    /* Established tier items (saturated terms) - muted styling */
+    .overton-window-item.established-item {
+      background: rgba(100, 100, 120, 0.08);
+      border-color: rgba(100, 100, 120, 0.25);
+      opacity: 0.85;
+    }
+
+    .overton-window-item.established-item:hover {
+      background: rgba(100, 100, 120, 0.12);
+      border-color: rgba(100, 100, 120, 0.4);
+    }
+
+    .overton-window-item.established-item .resonance-bar > span {
+      background: linear-gradient(90deg, #6b7280, #9ca3af);
+    }
+
     .guest-item {
       position: relative;
       overflow: hidden;
@@ -1669,7 +1685,7 @@
         <!-- The Overton Window: definitions + overton terms merged -->
         <div class="card">
           <h2>The Overton Window</h2>
-          <p style="color: #8892b0; margin-bottom: 0.5rem; font-size: 0.9rem;">Recurring ideas from the feed — only terms mentioned across multiple episodes, approved for the main list. First and last detection show where discourse picked up and came back.</p>
+          <p style="color: #8892b0; margin-bottom: 0.5rem; font-size: 0.9rem;">New ideas from the feed — ranked by novelty (freshness + source diversity + specificity), not raw volume. Saturated terms like AGI move to the Established tier below.</p>
           <div style="margin-bottom: 1.25rem;"></div>
 
           <div id="overton-window-list">
@@ -1839,12 +1855,15 @@
       return isNaN(v) ? 0 : v;
     }
     // Load Overton Window from mainContent.overton (display_on_main = 1 only)
+    // Now with novelty-aware ranking: newer/specific terms rank higher than saturated ones.
+    // Established tier (AGI, Autonomy, etc.) shown separately in collapsible section.
     function loadOvertonWindow() {
       const container = document.getElementById('overton-window-list');
       if (!container) return;
 
       const main = (typeof dashboardData !== 'undefined' && dashboardData.mainContent) ? dashboardData.mainContent : {};
       const overton = main.overton || [];
+      const established = main.overton_established || [];
 
       function esc(s) {
         if (s == null || s === '') return '';
@@ -1869,30 +1888,25 @@
         return '<div class="ow-provenance-line"><span class="ow-prov-label">' + esc(label) + '</span> ' + bits.join(' · ') + '</div>';
       }
 
-      const rows = overton.slice().sort(function(a, b) {
-        var sa = (typeof a.overton_score === 'number') ? a.overton_score : (parseFloat(a.overton_score) || 0);
-        var sb = (typeof b.overton_score === 'number') ? b.overton_score : (parseFloat(b.overton_score) || 0);
-        if (sb !== sa) return sb - sa;
-        var ma = (typeof a.mention_count === 'number') ? a.mention_count : (parseInt(a.mention_count, 10) || 0);
-        var mb = (typeof b.mention_count === 'number') ? b.mention_count : (parseInt(b.mention_count, 10) || 0);
-        return mb - ma;
-      });
-
-      const items = [];
-      rows.forEach(function(o) {
+      function buildTermCard(o, isEstablished) {
         const term = esc(o.term);
         const desc = esc(o.description || o.definition || '');
         const impl = esc(o.investment_implications || '');
         const mentions = (typeof o.mention_count === 'number') ? o.mention_count : (parseInt(o.mention_count, 10) || 0);
         let rPct = (typeof o.resonance_pct === 'number') ? o.resonance_pct : (parseInt(o.resonance_pct, 10));
         if (rPct === null || isNaN(rPct)) {
-          var sc = (typeof o.overton_score === 'number') ? o.overton_score : (parseFloat(o.overton_score) || 0);
-          rPct = Math.max(0, Math.min(100, Math.round(100 * Math.min(1, (sc || 0) / 4))));
+          // Fallback: log-scaled resonance for better differentiation
+          var sc = (typeof o.novelty_score === 'number') ? o.novelty_score : (parseFloat(o.overton_score) || 0);
+          rPct = Math.max(5, Math.min(95, Math.round(Math.log(1 + sc * 10) * 25)));
         }
-        const resTitle = 'Resonance: mentions × recency decay (30-day half-life since last mention). Bar uses the same 4-point cap as Pundit Presence. Raw mentions: ' + mentions + '.';
+        
+        // Updated tooltip explaining novelty-aware ranking
+        const resTitle = isEstablished
+          ? 'Established concept: widely discussed but no longer novel. Mentions: ' + mentions + '.'
+          : 'Signal: novelty-aware score (freshness × source diversity × specificity + recency). Newer/specific terms rank higher. Mentions: ' + mentions + '.';
         const resonanceHtml =
           '<div class="resonance" title="' + esc(resTitle) + '">' +
-            '<span class="resonance-label">Resonance</span>' +
+            '<span class="resonance-label">' + (isEstablished ? 'Saturated' : 'Signal') + '</span>' +
             '<span class="resonance-value">' + rPct + '%</span>' +
             '<span class="resonance-bar"><span style="width:' + rPct + '%;"></span></span>' +
           '</div>';
@@ -1920,8 +1934,9 @@
         }
 
         const expanded = impl ? '<strong>Investment angle:</strong> ' + impl : '';
-        items.push(
-          '<div class="overton-window-item">' +
+        const cardClass = isEstablished ? 'overton-window-item established-item' : 'overton-window-item';
+        return (
+          '<div class="' + cardClass + '">' +
             '<div class="overton-header-row">' +
               '<div class="ow-term">' + term + '</div>' +
               resonanceHtml +
@@ -1932,13 +1947,64 @@
             (expanded ? '<div class="ow-expanded"><div class="ow-expanded-inner">' + expanded + '</div></div>' : '') +
           '</div>'
         );
+      }
+
+      // Sort new ideas by novelty score (already sorted in backend, but re-sort for safety)
+      const rows = overton.slice().sort(function(a, b) {
+        var sa = (typeof a.novelty_score === 'number') ? a.novelty_score : (parseFloat(a.overton_score) || 0);
+        var sb = (typeof b.novelty_score === 'number') ? b.novelty_score : (parseFloat(b.overton_score) || 0);
+        if (sb !== sa) return sb - sa;
+        var ma = (typeof a.mention_count === 'number') ? a.mention_count : (parseInt(a.mention_count, 10) || 0);
+        var mb = (typeof b.mention_count === 'number') ? b.mention_count : (parseInt(b.mention_count, 10) || 0);
+        return mb - ma;
       });
 
-      if (items.length === 0) {
+      const items = [];
+      rows.forEach(function(o) {
+        items.push(buildTermCard(o, false));
+      });
+
+      // Build Established tier (collapsible)
+      let establishedHtml = '';
+      if (established.length > 0) {
+        const estItems = [];
+        established.forEach(function(o) {
+          estItems.push(buildTermCard(o, true));
+        });
+        establishedHtml = 
+          '<div class="established-tier" style="margin-top: 1.5rem; border-top: 1px solid rgba(255,255,255,0.1); padding-top: 1rem;">' +
+            '<div class="established-header" onclick="toggleEstablishedTier(this)" style="cursor: pointer; display: flex; align-items: center; gap: 0.5rem; margin-bottom: 0.75rem;">' +
+              '<span class="established-toggle" style="font-size: 0.9rem; color: #6b7280;">▶</span>' +
+              '<h3 style="margin: 0; font-size: 0.95rem; color: #8892b0; font-weight: 600;">Established Concepts</h3>' +
+              '<span style="font-size: 0.75rem; color: #6b7280; margin-left: auto;">(' + established.length + ' saturated terms)</span>' +
+            '</div>' +
+            '<p style="color: #6b7280; font-size: 0.8rem; margin-bottom: 0.75rem;">Widely discussed but no longer novel — demoted from the main board.</p>' +
+            '<div class="established-content" style="display: none;">' +
+              estItems.join('') +
+            '</div>' +
+          '</div>';
+      }
+
+      if (items.length === 0 && established.length === 0) {
         container.innerHTML = '<p style="color: #8892b0; font-size: 0.9rem; padding: 1rem;">No recurring terms on the main list yet — candidates need two episodes plus a YES reply. See <a href="pipeline-health.html" style="color: #00d4ff;">data status</a>.</p>';
         return;
       }
-      container.innerHTML = items.join('');
+      
+      container.innerHTML = items.join('') + establishedHtml;
+    }
+
+    // Toggle Established tier visibility
+    function toggleEstablishedTier(header) {
+      const tier = header.closest('.established-tier');
+      const content = tier.querySelector('.established-content');
+      const toggle = tier.querySelector('.established-toggle');
+      if (content.style.display === 'none') {
+        content.style.display = 'block';
+        toggle.textContent = '▼';
+      } else {
+        content.style.display = 'none';
+        toggle.textContent = '▶';
+      }
     }
 
     // Initialize on page load

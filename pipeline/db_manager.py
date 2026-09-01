@@ -17,8 +17,13 @@ SCHEMA_PATH = Path(__file__).parent / "schema.sql"
 
 # Main-page Overton list size (historically 8; +5 for denser board)
 OVERTON_MAIN_PAGE_LIMIT = 13
-# Same visual scale as pundit Presence bars (decayed score before capping to 100%)
-RESONANCE_SCORE_CAP = 4.0
+# Established tier: saturated terms shown separately from new ideas
+OVERTON_ESTABLISHED_LIMIT = 5
+
+# Resonance scoring parameters (novelty-aware ranking)
+# Old cap of 4.0 caused saturation; now use log scale for better differentiation
+RESONANCE_LOG_BASE = 2.0  # log base for resonance scaling
+RESONANCE_LOG_SCALE = 25.0  # multiplier for log output to get 0-100 range
 
 
 def _sort_pundits_for_site(pundits: List[Dict]) -> List[Dict]:
@@ -991,7 +996,8 @@ class DashboardDB:
         content = {
             'insights': [],
             'definitions': [],
-            'overton': []
+            'overton': [],
+            'overton_established': [],  # Saturated terms in separate tier
         }
         
         with self._get_connection() as conn:
@@ -1027,8 +1033,9 @@ class DashboardDB:
             """)
             content['definitions'] = [dict(row) for row in cursor.fetchall()]
             
-            # Active Overton terms: rank by Resonance score (mentions × 30-day recency half-life),
-            # same family as pundit Presence decay in export_for_website — then take top N.
+            # Active Overton terms: rank by NOVELTY-AWARE score
+            # Formula: (freshness_since_first_detection × source_diversity × specificity_multiplier) + recency_bonus
+            # This surfaces newer/specific terms over saturated high-volume terms like AGI.
             cursor = conn.execute("""
                 SELECT * FROM overton_terms
                 WHERE display_on_main = 1 AND status = 'active'
@@ -1052,37 +1059,117 @@ class DashboardDB:
                 ds = str(d)[:10] if d is not None else None
                 return r["podcast_name"], r["episode_title"], ds
 
+            # Count unique sources for each term (cross-show diversity)
+            def _count_unique_sources(term_name: str) -> int:
+                """Count distinct podcasts that mentioned this term."""
+                # Check suggested_terms for source_diversity
+                st_row = conn.execute(
+                    "SELECT source_diversity FROM suggested_terms WHERE LOWER(TRIM(term)) = LOWER(?)",
+                    (term_name,),
+                ).fetchone()
+                if st_row and st_row["source_diversity"]:
+                    return int(st_row["source_diversity"])
+                # Fallback: estimate from mention_count (assume ~1.5 mentions per source)
+                return 1
+
             try:
                 from datetime import date as _date
-                from math import exp as _exp, log as _log
+                from math import exp as _exp, log as _log, log2 as _log2
 
-                half_life_days = 30.0
-                lam = _log(2.0) / half_life_days
+                # Import saturated terms for specificity scoring
+                try:
+                    from saturated_terms import is_established_term, get_specificity_multiplier
+                except ImportError:
+                    def is_established_term(t): return False
+                    def get_specificity_multiplier(t): return 1.0
+
                 today = _date.today()
+                freshness_half_life_days = 90.0  # Newer terms decay slower than old ranking
+                recency_half_life_days = 30.0    # Recent mentions still get a bonus
+                lam_fresh = _log(2.0) / freshness_half_life_days
+                lam_recent = _log(2.0) / recency_half_life_days
 
-                def _overton_attention_score(term: dict) -> float:
+                def _parse_date(raw) -> _date:
+                    if not raw:
+                        return today
+                    try:
+                        if isinstance(raw, str):
+                            return _date.fromisoformat(str(raw)[:10])
+                        elif hasattr(raw, "year"):
+                            return raw
+                    except Exception:
+                        pass
+                    return today
+
+                def _novelty_score(term: dict) -> float:
+                    """
+                    Novelty-aware ranking score.
+                    
+                    Components:
+                    1. Freshness: newer terms (days since first_detected) score higher
+                    2. Source diversity: mentioned across multiple shows = higher
+                    3. Specificity: established/saturated terms get 85% penalty
+                    4. Recency bonus: recent last_mentioned adds a small boost
+                    5. Minimum mentions gate: require 2+ mentions to rank
+                    """
+                    term_name = term.get("term") or ""
                     mc = int(term.get("mention_count") or 0)
-                    last_raw = term.get("last_mentioned_date") or term.get("first_detected_date")
-                    days = 0
-                    if last_raw:
-                        try:
-                            if isinstance(last_raw, str):
-                                ld = _date.fromisoformat(str(last_raw)[:10])
-                            elif hasattr(last_raw, "year"):
-                                ld = last_raw
-                            else:
-                                ld = today
-                            days = max(0, (today - ld).days)
-                        except Exception:
-                            days = 0
-                    return float(mc) * _exp(-lam * float(days))
+                    
+                    # Gate: require minimum mentions (already in DB, but double-check)
+                    if mc < 2:
+                        return 0.0
+                    
+                    # 1. Freshness since first detection (newer = higher)
+                    first_d = _parse_date(term.get("first_detected_date"))
+                    days_since_first = max(0, (today - first_d).days)
+                    # Invert: newer terms (fewer days) get higher score
+                    # Max freshness at day 0, decays over 90-day half-life
+                    freshness = _exp(-lam_fresh * days_since_first)
+                    
+                    # 2. Source diversity (cross-show mentions)
+                    sources = _count_unique_sources(term_name)
+                    diversity_bonus = 1.0 + (0.25 * min(sources - 1, 4))  # Up to 2x for 5+ sources
+                    
+                    # 3. Specificity multiplier (saturated terms get heavy penalty)
+                    specificity = get_specificity_multiplier(term_name)
+                    
+                    # 4. Recency bonus (recent activity adds a small boost)
+                    last_d = _parse_date(term.get("last_mentioned_date") or term.get("first_detected_date"))
+                    days_since_last = max(0, (today - last_d).days)
+                    recency_bonus = 0.3 * _exp(-lam_recent * days_since_last)
+                    
+                    # 5. Mention count factor (log scale to avoid volume domination)
+                    mention_factor = _log2(1 + mc) / _log2(10)  # Normalize: 10 mentions → 1.0
+                    
+                    # Combined score
+                    base_score = freshness * diversity_bonus * specificity * (0.5 + mention_factor)
+                    return base_score + recency_bonus
+
+                def _resonance_pct(novelty_score: float, mention_count: int) -> int:
+                    """
+                    Compute resonance percentage using log scale for better differentiation.
+                    
+                    Old formula saturated everything at 100% due to low cap.
+                    New formula: log-scaled to spread values across 0-100 range.
+                    """
+                    if novelty_score <= 0 or mention_count < 2:
+                        return 0
+                    # Log scale: higher scores still differentiate at top end
+                    raw = _log(1 + novelty_score * 10) * RESONANCE_LOG_SCALE
+                    return int(max(5, min(95, round(raw))))  # Clamp to 5-95% for visual clarity
+
+                # Separate established terms from new ideas
+                established_terms = []
+                new_idea_terms = []
 
                 for t in overton_rows:
-                    t["overton_score"] = round(_overton_attention_score(t), 2)
-                    sc = float(t.get("overton_score") or 0.0)
-                    t["resonance_pct"] = int(
-                        max(0, min(100, round(100 * min(1.0, sc / float(RESONANCE_SCORE_CAP)))))
-                    )
+                    term_name = t.get("term") or ""
+                    t["novelty_score"] = round(_novelty_score(t), 4)
+                    t["overton_score"] = t["novelty_score"]  # Backward compat
+                    t["resonance_pct"] = _resonance_pct(t["novelty_score"], int(t.get("mention_count") or 0))
+                    t["is_established"] = is_established_term(term_name)
+                    
+                    # Episode brief info
                     fp, ft, fd = _episode_brief(t.get("first_detected_episode_id"))
                     t["first_detected_podcast"] = fp
                     t["first_detected_episode_title"] = ft
@@ -1091,20 +1178,37 @@ class DashboardDB:
                     t["last_mentioned_podcast"] = lp
                     t["last_mentioned_episode_title"] = lt
                     t["last_mentioned_episode_date"] = ld
-                overton_rows.sort(
+                    
+                    if t["is_established"]:
+                        established_terms.append(t)
+                    else:
+                        new_idea_terms.append(t)
+
+                # Sort new ideas by novelty score (higher = better)
+                new_idea_terms.sort(
                     key=lambda t: (
-                        float(t.get("overton_score") or 0),
+                        float(t.get("novelty_score") or 0),
                         int(t.get("mention_count") or 0),
                     ),
                     reverse=True,
                 )
-            except Exception:
+                
+                # Sort established by mention count (they're all saturated, so volume is the tiebreaker)
+                established_terms.sort(
+                    key=lambda t: int(t.get("mention_count") or 0),
+                    reverse=True,
+                )
+
+            except Exception as e:
+                # Fallback: simple mention count ranking
+                new_idea_terms = overton_rows
+                established_terms = []
                 for t in overton_rows:
-                    t["overton_score"] = float(int(t.get("mention_count") or 0))
-                    sc = float(t.get("overton_score") or 0.0)
-                    t["resonance_pct"] = int(
-                        max(0, min(100, round(100 * min(1.0, sc / float(RESONANCE_SCORE_CAP)))))
-                    )
+                    t["novelty_score"] = float(int(t.get("mention_count") or 0))
+                    t["overton_score"] = t["novelty_score"]
+                    mc = int(t.get("mention_count") or 0)
+                    t["resonance_pct"] = int(max(5, min(95, mc * 10))) if mc >= 2 else 0
+                    t["is_established"] = False
                     fp, ft, fd = _episode_brief(t.get("first_detected_episode_id"))
                     t["first_detected_podcast"] = fp
                     t["first_detected_episode_title"] = ft
@@ -1113,11 +1217,15 @@ class DashboardDB:
                     t["last_mentioned_podcast"] = lp
                     t["last_mentioned_episode_title"] = lt
                     t["last_mentioned_episode_date"] = ld
-                overton_rows.sort(
-                    key=lambda t: (float(t.get("overton_score") or 0),),
+                new_idea_terms.sort(
+                    key=lambda t: float(t.get("novelty_score") or 0),
                     reverse=True,
                 )
-            content["overton"] = overton_rows[:OVERTON_MAIN_PAGE_LIMIT]
+
+            # Main overton list: new ideas only (not saturated terms)
+            content["overton"] = new_idea_terms[:OVERTON_MAIN_PAGE_LIMIT]
+            # Established tier: saturated terms in separate list
+            content["overton_established"] = established_terms[:OVERTON_ESTABLISHED_LIMIT]
         
         return content
     
@@ -1232,10 +1340,25 @@ class DashboardDB:
         generics. (Promoted terms use status != pending and are excluded here; they
         move to Definitions / Overton via auto_curate_terms.)
 
+        Filters out:
+        - Stoplist terms (generic phrases like "AI takeover", "Compute shortages")
+        - Established/saturated terms (AGI, Autonomy, etc.)
+
         Note: SQLite ignores ORDER BY inside simple views when the outer query has no
         ORDER BY; this query is explicit and deterministic.
         """
+        # Import filters
+        try:
+            from extraction_stoplist import is_stoplist_term
+        except ImportError:
+            def is_stoplist_term(t): return False
+        try:
+            from saturated_terms import is_established_term
+        except ImportError:
+            def is_established_term(t): return False
+
         with self._get_connection() as conn:
+            # Fetch more than limit to account for filtering
             cursor = conn.execute(
                 """
                 SELECT
@@ -1255,9 +1378,23 @@ class DashboardDB:
                 ORDER BY datetime(submitted_date) DESC, priority_score DESC
                 LIMIT ?
                 """,
-                (limit,),
+                (limit * 3,),  # Fetch extra to account for filtering
             )
-            return [dict(row) for row in cursor.fetchall()]
+            rows = [dict(row) for row in cursor.fetchall()]
+            
+            # Filter out stoplist and established terms
+            filtered = []
+            for row in rows:
+                term = row.get("term", "")
+                if is_stoplist_term(term):
+                    continue
+                if is_established_term(term):
+                    continue
+                filtered.append(row)
+                if len(filtered) >= limit:
+                    break
+            
+            return filtered
     
     def get_all_pending_suggestions(self) -> List[Dict]:
         """Get all pending suggestions for admin review."""
