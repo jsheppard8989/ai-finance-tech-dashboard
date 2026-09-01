@@ -89,8 +89,7 @@
       "resolves_iso": "2026-06-26",
       "resolution_status": "pending",
       "resolution_notes": "",
-      "archived_at": "2026-05-22T00:03:39.470274",
-      "audio_href": "./audio/archive/debate_2026-05-15.mp3"
+      "archived_at": "2026-05-22T00:03:39.470274"
     },
     {
       "friday_iso": "2026-05-01",
@@ -102,7 +101,6 @@
       "resolution_status": "pending",
       "resolution_notes": "",
       "archived_at": "2026-05-08T06:50:25.429216",
-      "audio_href": "./audio/archive/debate_2026-05-01.mp3",
       "resolves_iso": "2026-06-12"
     },
     {

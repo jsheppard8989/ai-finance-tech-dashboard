@@ -1,6 +1,30 @@
 [
   {
-    "id": 60910,
+    "id": 61253,
+    "name": "Daniel Litt",
+    "slug": "daniel-litt",
+    "bio": null,
+    "known_for": null,
+    "last_main_idea": "Invest in technologies and educational initiatives that enhance human intuition and critical thinking in mathematics, focusing on AI tools that augment human understanding rather than replace it, while also supporting frameworks for quality control in AI-driven research.",
+    "last_episode_title": "Daniel Litt: The Mathematician's Guide to AI",
+    "last_podcast_name": "The a16z Show",
+    "last_episode_date": "2026-09-01",
+    "appearance_count": 1
+  },
+  {
+    "id": 61254,
+    "name": "Gavin Baker",
+    "slug": "gavin-baker",
+    "bio": null,
+    "known_for": null,
+    "last_main_idea": "Invest in AI companies demonstrating strong growth and robust compute management strategies, while also considering key infrastructure providers like Nvidia and emerging areas such as orbital computing, recognizing the market's positive-sum potential despite compute supply risks.",
+    "last_episode_title": "Gavin Baker: Why AI Demand Is Outrunning Compute Supply",
+    "last_podcast_name": "The a16z Show",
+    "last_episode_date": "2026-08-31",
+    "appearance_count": 1
+  },
+  {
+    "id": 61255,
     "name": "Sam Altman",
     "slug": "sam-altman",
     "bio": null,
@@ -12,19 +36,19 @@
     "appearance_count": 1
   },
   {
-    "id": 60911,
+    "id": 61256,
     "name": "Time to Reduce Equity Risk",
     "slug": "time-to-reduce-equity-risk",
     "bio": null,
     "known_for": null,
-    "last_main_idea": "Warren Pies suggests that despite the current macro risks, the AI sector remains a key area for investment, with all roads leading back to AI trades.",
+    "last_main_idea": "Warren Pi suggests that despite the current macro risks, the AI sector remains a key area for investment, with all roads leading back to AI trades.",
     "last_episode_title": "Time to Reduce Equity Risk: Why Underappreciated Macro Risks Could Derail the Bull Market | Warren Pies",
     "last_podcast_name": "Monetary Matters with Jack Farley",
     "last_episode_date": "2026-08-26",
     "appearance_count": 1
   },
   {
-    "id": 60912,
+    "id": 61257,
     "name": "Eric Weinstein",
     "slug": "eric-weinstein",
     "bio": null,
@@ -36,7 +60,7 @@
     "appearance_count": 1
   },
   {
-    "id": 60913,
+    "id": 61258,
     "name": "Michael Kratsios",
     "slug": "michael-kratsios",
     "bio": null,
@@ -48,7 +72,7 @@
     "appearance_count": 1
   },
   {
-    "id": 60914,
+    "id": 61259,
     "name": "Emad Mostaque",
     "slug": "emad-mostaque",
     "bio": null,
@@ -60,7 +84,7 @@
     "appearance_count": 3
   },
   {
-    "id": 60915,
+    "id": 61260,
     "name": "Angela Strange and Gabriel Vasquez",
     "slug": "angela-strange-and-gabriel-vasquez",
     "bio": null,
@@ -72,7 +96,7 @@
     "appearance_count": 1
   },
   {
-    "id": 60916,
+    "id": 61261,
     "name": "Why Bessent Blinked",
     "slug": "why-bessent-blinked",
     "bio": null,
@@ -84,7 +108,7 @@
     "appearance_count": 1
   },
   {
-    "id": 60917,
+    "id": 61262,
     "name": "Travis Kalanick",
     "slug": "travis-kalanick",
     "bio": null,
@@ -96,7 +120,7 @@
     "appearance_count": 1
   },
   {
-    "id": 60918,
+    "id": 61263,
     "name": "Rahm Emanuel",
     "slug": "rahm-emanuel",
     "bio": null,
@@ -108,7 +132,7 @@
     "appearance_count": 1
   },
   {
-    "id": 60919,
+    "id": 61264,
     "name": "Milton Berg",
     "slug": "milton-berg",
     "bio": "Milton Berg is a veteran technical analyst and CEO of Milton Berg Advisors, specializing in market turning-point analysis for institutional investors.",
@@ -120,7 +144,7 @@
     "appearance_count": 1
   },
   {
-    "id": 60920,
+    "id": 61265,
     "name": "How Open",
     "slug": "how-open",
     "bio": null,
@@ -132,7 +156,7 @@
     "appearance_count": 1
   },
   {
-    "id": 60921,
+    "id": 61266,
     "name": "Saronic Founders",
     "slug": "saronic-founders",
     "bio": null,
@@ -144,7 +168,7 @@
     "appearance_count": 1
   },
   {
-    "id": 60922,
+    "id": 61267,
     "name": "OpenAI's Joshua Achiam",
     "slug": "openais-joshua-achiam",
     "bio": null,
@@ -156,7 +180,7 @@
     "appearance_count": 1
   },
   {
-    "id": 60923,
+    "id": 61268,
     "name": "Marc Andreessen and Chris Dixon",
     "slug": "marc-andreessen-and-chris-dixon",
     "bio": null,
@@ -168,7 +192,7 @@
     "appearance_count": 1
   },
   {
-    "id": 60924,
+    "id": 61269,
     "name": "AI for America's Small Businesses",
     "slug": "ai-for-americas-small-businesses",
     "bio": null,
@@ -180,7 +204,7 @@
     "appearance_count": 1
   },
   {
-    "id": 60925,
+    "id": 61270,
     "name": "Luke Gromen",
     "slug": "luke-gromen",
     "bio": null,
@@ -192,7 +216,7 @@
     "appearance_count": 1
   },
   {
-    "id": 60926,
+    "id": 61271,
     "name": "Steven Sinofsky",
     "slug": "steven-sinofsky",
     "bio": null,
@@ -204,7 +228,7 @@
     "appearance_count": 1
   },
   {
-    "id": 60927,
+    "id": 61272,
     "name": "Travis Kelenick",
     "slug": "travis-kelenick",
     "bio": null,
@@ -216,7 +240,7 @@
     "appearance_count": 1
   },
   {
-    "id": 60928,
+    "id": 61273,
     "name": "Travis Kalanick Is Back",
     "slug": "travis-kalanick-is-back",
     "bio": null,
@@ -228,7 +252,7 @@
     "appearance_count": 1
   },
   {
-    "id": 60929,
+    "id": 61274,
     "name": "Interest Rates to 10%",
     "slug": "interest-rates-to-10",
     "bio": null,
@@ -240,7 +264,7 @@
     "appearance_count": 1
   },
   {
-    "id": 60930,
+    "id": 61275,
     "name": "Nick Nemeth",
     "slug": "nick-nemeth",
     "bio": null,
@@ -252,7 +276,7 @@
     "appearance_count": 1
   },
   {
-    "id": 60931,
+    "id": 61276,
     "name": "Urgent Update- AI Sputnik Moment",
     "slug": "urgent-update--ai-sputnik-moment",
     "bio": null,
@@ -264,7 +288,7 @@
     "appearance_count": 1
   },
   {
-    "id": 60932,
+    "id": 61277,
     "name": "David Sachs",
     "slug": "david-sachs",
     "bio": null,
@@ -276,7 +300,7 @@
     "appearance_count": 1
   },
   {
-    "id": 60933,
+    "id": 61278,
     "name": "Turbo Charged Trend Following",
     "slug": "turbo-charged-trend-following",
     "bio": null,
@@ -288,7 +312,7 @@
     "appearance_count": 1
   },
   {
-    "id": 60934,
+    "id": 61279,
     "name": "Can Anyone Catch NVIDIA?",
     "slug": "can-anyone-catch-nvidia",
     "bio": null,
@@ -300,7 +324,7 @@
     "appearance_count": 1
   },
   {
-    "id": 60935,
+    "id": 61280,
     "name": "Mark Zuckerberg & Priscilla Chan",
     "slug": "mark-zuckerberg--priscilla-chan",
     "bio": null,
@@ -312,7 +336,7 @@
     "appearance_count": 1
   },
   {
-    "id": 60936,
+    "id": 61281,
     "name": "Adam Neumann",
     "slug": "adam-neumann",
     "bio": null,
@@ -324,7 +348,7 @@
     "appearance_count": 1
   },
   {
-    "id": 60937,
+    "id": 61282,
     "name": "Breaking Down the Multi-Manager Playbook",
     "slug": "breaking-down-the-multi-manager-playbook",
     "bio": null,
@@ -333,30 +357,6 @@
     "last_episode_title": "Breaking Down the Multi-Manager Playbook: How This $19B CIO Thinks About Alpha | Sean McGould | The Lighthouse Group",
     "last_podcast_name": "Monetary Matters with Jack Farley",
     "last_episode_date": "2026-07-07",
-    "appearance_count": 1
-  },
-  {
-    "id": 60938,
-    "name": "Don\u2019t Follow Your Passion",
-    "slug": "dont-follow-your-passion",
-    "bio": null,
-    "known_for": null,
-    "last_main_idea": "Invest in original ideas and platforms that challenge conventional wisdom and facilitate access to information and innovation, particularly those with societal contributions.",
-    "last_episode_title": "Don\u2019t Follow Your Passion | Ben Horowitz\u2019s Advice for New Graduates",
-    "last_podcast_name": "The a16z Show",
-    "last_episode_date": "2026-07-06",
-    "appearance_count": 1
-  },
-  {
-    "id": 60939,
-    "name": "trillion. Guest Daryl Duffy",
-    "slug": "trillion-guest-daryl-duffy",
-    "bio": null,
-    "known_for": null,
-    "last_main_idea": "The Federal Reserve's ability to manage interest rates effectively hinges on maintaining adequate reserve levels; monitoring the implementation of techniques to reduce reserve demand could provide insights into future monetary policy and market stability.",
-    "last_episode_title": "The Ultimate Playbook for Reducing The Fed\u2019s Balance Sheet | Professor Darrell Duffie on 4 Tools For Federal Reserve To Shrink Reserve Demand In Banking System",
-    "last_podcast_name": "Monetary Matters with Jack Farley",
-    "last_episode_date": "2026-07-05",
     "appearance_count": 1
   }
 ]

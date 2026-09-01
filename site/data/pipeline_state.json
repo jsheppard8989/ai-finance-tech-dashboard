@@ -1,162 +1,51 @@
 {
-  "generated_at": "2026-08-31T14:05:33.554511",
-  "last_updated": "2026-08-31T14:05:33.554511",
-  "last_pipeline_run": "2026-08-31T14:05:33.554511",
+  "generated_at": "2026-09-01T06:49:08.711809",
+  "last_updated": "2026-09-01T06:49:08.711809",
+  "last_pipeline_run": "2026-09-01T06:49:08.711809",
   "main_page": {
     "overton": 13,
     "insights": 8,
-    "pundits": 292
+    "pundits": 293
   },
   "counts": {
     "ticker_mentions": 219,
-    "podcast_episodes": 418,
+    "podcast_episodes": 422,
     "newsletters": 7,
     "daily_scores": 156,
     "overton_terms_total": 132,
-    "latest_insights_total": 432,
+    "latest_insights_total": 436,
     "today_mentions": {},
-    "podcasts_analyzed": 0
+    "podcasts_analyzed": 1
   },
   "step_results": {
-    "downloaded": 2,
-    "transcribed": 2,
-    "analyzed": 0,
-    "insight_created": 0,
-    "published": 0,
-    "total": 2
+    "downloaded": 1,
+    "transcribed": 1,
+    "analyzed": 1,
+    "insight_created": 1,
+    "published": 1,
+    "total": 1
   },
   "episodes": [
     {
-      "id": "5ae2f5b2-a55e-11f1-90c0-c38f26cd87c8",
-      "podcast": "Monetary Matters with Jack Farley",
-      "title": "The Certainty Premium: What\u2019s Driving the Tech Sector Divergence? | Jeff Keller",
-      "published": "2026-08-31",
-      "rss_guid": "5ae2f5b2-a55e-11f1-90c0-c38f26cd87c8",
+      "id": "530a274b-dbf9-4577-9c39-1207c889db37",
+      "podcast": "The a16z Show",
+      "title": "Daniel Litt: The Mathematician's Guide to AI",
+      "published": "2026-09-01",
+      "rss_guid": "530a274b-dbf9-4577-9c39-1207c889db37",
       "stages": {
         "downloaded": true,
         "transcribed": true,
-        "analyzed": false,
-        "insight_created": false,
-        "published": false
+        "analyzed": true,
+        "insight_created": true,
+        "published": true
       },
-      "stage_reasons": {
-        "analyzed": "No podcast_episodes row yet (curated APPROVED but DB not updated). Usually fixed by: fetch_latest --queue-only + whisper worker + auto_pipeline sweep.",
-        "insight_created": "No podcast_episodes row yet (curated APPROVED but DB not updated). Usually fixed by: fetch_latest --queue-only + whisper worker + auto_pipeline sweep.",
-        "published": "No podcast_episodes row yet (curated APPROVED but DB not updated). Usually fixed by: fetch_latest --queue-only + whisper worker + auto_pipeline sweep."
-      },
-      "first_blocker": "analyzed",
-      "remediation_by_stage": {
-        "analyzed": {
-          "action_id": "ANALYZE_TRANSCRIPTS",
-          "steps": [
-            "Run transcript analysis so is_processed=1 on podcast_episodes (analyze_transcript via auto_pipeline).",
-            "Ensure LLM keys in workspace .env (e.g. MOONSHOT_API_KEY) are set if the analyzer requires them.",
-            "Quick path: auto_pipeline.py --analyze-only analyzes then continues promotion/export steps in that run."
-          ],
-          "commands": [
-            "cd /Users/jaredsheppard/projects/ai-finance-tech-dashboard/pipeline && python3 auto_pipeline.py --analyze-only",
-            "cd /Users/jaredsheppard/projects/ai-finance-tech-dashboard/pipeline && python3 auto_pipeline.py"
-          ]
-        },
-        "insight_created": {
-          "action_id": "PROMOTE_INSIGHT",
-          "steps": [
-            "Promotion to latest_insights runs inside auto_pipeline after analysis.",
-            "If analysis succeeded but insight is missing, re-run full auto_pipeline.py and check logs for promote_episodes_to_insights errors."
-          ],
-          "commands": [
-            "cd /Users/jaredsheppard/projects/ai-finance-tech-dashboard/pipeline && python3 auto_pipeline.py"
-          ]
-        },
-        "published": {
-          "action_id": "EXPORT_AND_PUBLISH",
-          "steps": [
-            "Site export runs only after generate_deepdives.py succeeds; if Deep Dives fail, export and git push are skipped.",
-            "Fix Deep Dive errors (see pipeline logs), then run auto_pipeline.py to export site JSON and push.",
-            "When added_to_site=1 on the episode row, this stage turns green."
-          ],
-          "commands": [
-            "cd /Users/jaredsheppard/projects/ai-finance-tech-dashboard/pipeline && python3 generate_deepdives.py",
-            "cd /Users/jaredsheppard/projects/ai-finance-tech-dashboard/pipeline && python3 auto_pipeline.py"
-          ]
-        }
-      },
-      "status": "needs_analysis"
-    },
-    {
-      "id": "38ff9198-903d-4a96-8b02-b577f87670c0",
-      "podcast": "The a16z Show",
-      "title": "Gavin Baker: Why AI Demand Is Outrunning Compute Supply",
-      "published": "2026-08-31",
-      "rss_guid": "38ff9198-903d-4a96-8b02-b577f87670c0",
-      "stages": {
-        "downloaded": true,
-        "transcribed": true,
-        "analyzed": false,
-        "insight_created": false,
-        "published": false
-      },
-      "stage_reasons": {
-        "analyzed": "No podcast_episodes row yet (curated APPROVED but DB not updated). Usually fixed by: fetch_latest --queue-only + whisper worker + auto_pipeline sweep.",
-        "insight_created": "No podcast_episodes row yet (curated APPROVED but DB not updated). Usually fixed by: fetch_latest --queue-only + whisper worker + auto_pipeline sweep.",
-        "published": "No podcast_episodes row yet (curated APPROVED but DB not updated). Usually fixed by: fetch_latest --queue-only + whisper worker + auto_pipeline sweep."
-      },
-      "first_blocker": "analyzed",
-      "remediation_by_stage": {
-        "analyzed": {
-          "action_id": "ANALYZE_TRANSCRIPTS",
-          "steps": [
-            "Run transcript analysis so is_processed=1 on podcast_episodes (analyze_transcript via auto_pipeline).",
-            "Ensure LLM keys in workspace .env (e.g. MOONSHOT_API_KEY) are set if the analyzer requires them.",
-            "Quick path: auto_pipeline.py --analyze-only analyzes then continues promotion/export steps in that run."
-          ],
-          "commands": [
-            "cd /Users/jaredsheppard/projects/ai-finance-tech-dashboard/pipeline && python3 auto_pipeline.py --analyze-only",
-            "cd /Users/jaredsheppard/projects/ai-finance-tech-dashboard/pipeline && python3 auto_pipeline.py"
-          ]
-        },
-        "insight_created": {
-          "action_id": "PROMOTE_INSIGHT",
-          "steps": [
-            "Promotion to latest_insights runs inside auto_pipeline after analysis.",
-            "If analysis succeeded but insight is missing, re-run full auto_pipeline.py and check logs for promote_episodes_to_insights errors."
-          ],
-          "commands": [
-            "cd /Users/jaredsheppard/projects/ai-finance-tech-dashboard/pipeline && python3 auto_pipeline.py"
-          ]
-        },
-        "published": {
-          "action_id": "EXPORT_AND_PUBLISH",
-          "steps": [
-            "Site export runs only after generate_deepdives.py succeeds; if Deep Dives fail, export and git push are skipped.",
-            "Fix Deep Dive errors (see pipeline logs), then run auto_pipeline.py to export site JSON and push.",
-            "When added_to_site=1 on the episode row, this stage turns green."
-          ],
-          "commands": [
-            "cd /Users/jaredsheppard/projects/ai-finance-tech-dashboard/pipeline && python3 generate_deepdives.py",
-            "cd /Users/jaredsheppard/projects/ai-finance-tech-dashboard/pipeline && python3 auto_pipeline.py"
-          ]
-        }
-      },
-      "status": "needs_analysis"
+      "stage_reasons": {},
+      "first_blocker": null,
+      "remediation_by_stage": {},
+      "status": "complete"
     }
   ],
-  "available_from_rss": [
-    {
-      "podcast": "Monetary Matters with Jack Farley",
-      "title": "The Certainty Premium: What\u2019s Driving the Tech Sector Divergence? | Jeff Keller",
-      "published": "Mon, 31 Aug 2026 17:06:00 -0000",
-      "published_date": "2026-08-31",
-      "rss_guid": ""
-    },
-    {
-      "podcast": "The a16z Show",
-      "title": "Gavin Baker: Why AI Demand Is Outrunning Compute Supply",
-      "published": "Mon, 31 Aug 2026 10:00:00 +0000",
-      "published_date": "2026-08-31",
-      "rss_guid": ""
-    }
-  ],
+  "available_from_rss": [],
   "stale_episodes": [],
   "stale_threshold_days": 2,
   "rss_filter_criteria": {
@@ -174,6 +63,8 @@
       "published"
     ],
     "whisper_queue_pending_mp3": 0,
+    "whisper_queue_stale_mp3": [],
+    "whisper_queue_stale_hours": 12,
     "fix_order": "For each episode, read first_blocker then remediation_by_stage[first_blocker].",
     "end_to_end": "cd /Users/jaredsheppard/projects/ai-finance-tech-dashboard/pipeline && python3 auto_pipeline.py",
     "analyze_only": "cd /Users/jaredsheppard/projects/ai-finance-tech-dashboard/pipeline && python3 auto_pipeline.py --analyze-only",
