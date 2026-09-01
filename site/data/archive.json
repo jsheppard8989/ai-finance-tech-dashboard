@@ -123,7 +123,7 @@
       "source_type": "podcast",
       "source_name": "Moonshots with Peter Diamandis",
       "source_date": "2026-08-27",
-      "summary": "In this episode of Moonshots with Peter Diamandis, the panel discusses the impact of AI on various sectors and the vertical integration in the autonomous vehicle industry. Sam Alman's change of opinion on AI's slower than expected impact is highlighted, along with the discussion on Grockbot as a leading consumer AI product. Weimo's announcement of their Ohio vehicle, a Robotaxi minivan, signifies a shift towards vertical integration and the use of Chinese hardware by Western companies. The conversation also touches on the cost-effectiveness and performance of open-source Chinese AI models compared to their Western counterparts.",
+      "summary": "In this episode of Moonshots with Peter Diamandis, the panel discusses the impact of AI on various sectors and the vertical integration in the autonomous vehicle industry. Sam Altman's change of opinion on AI's slower than expected impact is highlighted, along with the discussion on Grok as a leading consumer AI product. Waymo's announcement of their Ohio vehicle, a Robotaxi minivan, signifies a shift towards vertical integration and the use of Chinese hardware by Western companies. The conversation also touches on the cost-effectiveness and performance of open-source Chinese AI models compared to their Western counterparts.",
       "key_takeaway": "Investment in AI and autonomous vehicle sectors should consider the shift towards more gradual AI integration and the potential for cost-effective Chinese AI models to disrupt the market.",
       "tickers_mentioned": [
         "NVDA"
@@ -142,7 +142,7 @@
       "source_type": "podcast",
       "source_name": "The a16z Show",
       "source_date": "2026-08-26",
-      "summary": "In this episode of the a16z Show, Jen Cos sits down with An Eshicharya to discuss the future of AI, moving beyond the competition among models to the applications built on top of them. They explore the competitive landscape of AI models, the potential for applications to capture significant value, and the rise of consumer AI with personal agents. The conversation also touches on the renaissance for consumer builders and the need for founders to think bigger about what AI can achieve.",
+      "summary": "In this episode of the a16z Show, Jen Costa sits down with Anish Acharya to discuss the future of AI, moving beyond the competition among models to the applications built on top of them. They explore the competitive landscape of AI models, the potential for applications to capture significant value, and the rise of consumer AI with personal agents. The conversation also touches on the renaissance for consumer builders and the need for founders to think bigger about what AI can achieve.",
       "key_takeaway": "Invest in the application layer of AI where significant value can be captured, and consider the emerging consumer AI space for new opportunities.",
       "tickers_mentioned": [
         "NVDA"
@@ -161,8 +161,8 @@
       "source_type": "podcast",
       "source_name": "Monetary Matters with Jack Farley",
       "source_date": "2026-08-26",
-      "summary": "In this episode of 'Other People's Money', Max Weathie interviews Warren Pi, co-founder of 314 Research, to discuss the current macro risks overshadowing the market. They analyze the market structure, seasonal patterns, and the impact of AI on the tech sector. Warren shares his insights on earnings, Fed's potential rate hikes, and the implications for investors. The conversation also touches on the importance of GPU availability and rental rates in the AI space.",
-      "key_takeaway": "Warren Pi suggests that despite the current macro risks, the AI sector remains a key area for investment, with all roads leading back to AI trades.",
+      "summary": "In this episode of 'Other People's Money', Max Weathie interviews Warren Pies, co-founder of 314 Research, to discuss the current macro risks overshadowing the market. They analyze the market structure, seasonal patterns, and the impact of AI on the tech sector. Warren shares his insights on earnings, Fed's potential rate hikes, and the implications for investors. The conversation also touches on the importance of GPU availability and rental rates in the AI space.",
+      "key_takeaway": "Warren Pies suggests that despite the current macro risks, the AI sector remains a key area for investment, with all roads leading back to AI trades.",
       "tickers_mentioned": [
         "HFGM"
       ],
@@ -180,7 +180,7 @@
       "source_type": "podcast",
       "source_name": "Latent Space: The AI Engineer Podcast",
       "source_date": "2026-08-26",
-      "summary": "In this episode of Latent Space, the AI Engineer Podcast, hosts Brandon and RJHONICY interview Anamah Anankumar, a brain professor of mathematics and computer science at Caltech, about her work combining AI with models of the physical world. The discussion revolves around the use of AI in weather modeling, the challenges and potential of AI in science, and the democratization of AI access. Anamah shares her insights on how AI can be used to predict weather patterns with high accuracy and speed, and how this technology could revolutionize climate modeling.",
+      "summary": "In this episode of Latent Space, the AI Engineer Podcast, hosts Brandon and RJHONICY interview Anima Anandkumar, a brain professor of mathematics and computer science at Caltech, about her work combining AI with models of the physical world. The discussion revolves around the use of AI in weather modeling, the challenges and potential of AI in science, and the democratization of AI access. Anima shares her insights on how AI can be used to predict weather patterns with high accuracy and speed, and how this technology could revolutionize climate modeling.",
       "key_takeaway": "Investing in AI technology that enhances weather and climate modeling can lead to significant advancements in forecasting accuracy and speed, potentially revolutionizing the field and creating new investment opportunities in AI applications for science.",
       "tickers_mentioned": [
         "NVDA"
@@ -237,7 +237,7 @@
       "source_type": "podcast",
       "source_name": "Dwarkesh Podcast",
       "source_date": "2026-08-25",
-      "summary": "In this episode of the Dwarkesh Podcast, Dylan Patel, Founder of Simming Analysis, discusses the rapid growth of AI infrastructure and its impact on the world economy. The conversation covers the increasing investment in labs by companies like OpenEye and Anthropic, the shift from venture capital funding to self-funded operations, and the potential for labs to control a significant portion of the world's compute power. Patel also touches on the implications of centralization of compute and the role of China in the global AI race.",
+      "summary": "In this episode of the Dwarkesh Podcast, Dylan Patel, Founder of SemiAnalysis, discusses the rapid growth of AI infrastructure and its impact on the world economy. The conversation covers the increasing investment in labs by companies like OpenAI and Anthropic, the shift from venture capital funding to self-funded operations, and the potential for labs to control a significant portion of the world's compute power. Patel also touches on the implications of centralization of compute and the role of China in the global AI race.",
       "key_takeaway": "Investment in AI infrastructure and labs is set to grow exponentially, leading to significant capital allocation shifts and potential market disruptions.",
       "tickers_mentioned": [
         "NVIDIA"
@@ -4978,7 +4978,7 @@
       "source_type": "podcast",
       "source_name": "Monetary Matters with Jack Farley",
       "source_date": "2026-05-04",
-      "summary": "In this episode, Jack Farley interviews Warren Pious, CEO of 314 Research and Caliban, discussing the dual forces shaping the market: the historic oil shortage and the burgeoning AI sector. Pious highlights the significance of AI advancements, particularly in GPU availability and semiconductor movements, as a driving force behind the current bull market. The conversation also covers the impact of high oil prices on the economy and equities, with Pious suggesting that equities are looking past current challenges to focus on future growth, especially in the tech sector.",
+      "summary": "In this episode, Jack Farley interviews Warren Pies, CEO of 314 Research and Caliban, discussing the dual forces shaping the market: the historic oil shortage and the burgeoning AI sector. Pious highlights the significance of AI advancements, particularly in GPU availability and semiconductor movements, as a driving force behind the current bull market. The conversation also covers the impact of high oil prices on the economy and equities, with Pious suggesting that equities are looking past current challenges to focus on future growth, especially in the tech sector.",
       "key_takeaway": "The current bull market is driven by advancements in AI and technology, which are expected to continue outpacing concerns over oil shortages and inflation.",
       "tickers_mentioned": [
         "S&P 500",

@@ -428,9 +428,9 @@
   },
   {
     "id": 425,
-    "name": "Sam Alman",
+    "name": "Sam Altman",
     "slug": "sam-alman",
-    "bio": "Sam Alman is an AI expert who has recently revised his opinion on the pace of AI's impact, acknowledging that advancements are slower than initially anticipated. He has been vocal about his views on AI's influence and has evaluated various AI products, such as Grockbot, which he considers the most generally useful consumer AI product of the year.",
+    "bio": "Sam Altman is an AI expert who has recently revised his opinion on the pace of AI's impact, acknowledging that advancements are slower than initially anticipated. He has been vocal about his views on AI's influence and has evaluated various AI products, such as Grok, which he considers the most generally useful consumer AI product of the year.",
     "known_for": "His reassessment of the speed at which AI is transforming industries and his insights into consumer AI products.",
     "net_worth_usd": 1000000000.0,
     "net_worth_source": "https://unnetworth.com/sam-altman-net-worth/",
@@ -447,38 +447,38 @@
     "mention_score_decayed": 0.93,
     "last_main_idea": "Investment in AI and autonomous vehicle sectors should consider the shift towards more gradual AI integration and the potential for cost-effective Chinese AI models to disrupt the market.",
     "last_proof_cite": "Moonshots with Peter Diamandis \u2022 2026-08-27 \u2022 Sam Altman: Singularity Slow-Down, Emad Runs 18 Grokbots, Waymo Slashes Hardware 83% | EP #283",
-    "last_proof_snippet": "Sam Alman went on video this week to tell the world that he was wrong about the impact of advancing AI. We've all been too ambitious on time on it's even with this incredible technology. He now believes it will be something slower, more lik",
-    "supporting_takeaway": "Grockbot is highlighted as a leading consumer AI product, indicating a shift towards more accessible AI technologies.",
+    "last_proof_snippet": "Sam Altman went on video this week to tell the world that he was wrong about the impact of advancing AI. We've all been too ambitious on time on it's even with this incredible technology. He now believes it will be something slower, more lik",
+    "supporting_takeaway": "Grok is highlighted as a leading consumer AI product, indicating a shift towards more accessible AI technologies.",
     "grokipedia_url": null,
     "grokipedia_fetched_at": "2026-08-28T05:09:53.628116",
     "pundit_profile": {
       "source": "llm",
       "source_model": "moonshot:moonshot-v1-8k",
       "source_url": "",
-      "page_title": "Sam Alman",
+      "page_title": "Sam Altman",
       "fetched_at": "2026-08-28T10:09:53.627549+00:00",
-      "cliff_notes": "Sam Alman is recognized for his expertise in the field of artificial intelligence. Initially, he shared a common belief that AI would rapidly transform various sectors, but he has since adjusted his stance, suggesting that the impact is more gradual. Alman has been actively involved in evaluating and discussing AI technologies, including consumer AI products like Grockbot, which he has implemented and praised for its utility. His changing perspective on AI's pace of impact has made him a notable figure in discussions around AI's role in society and business. Alman's commentary on AI's development, including his views on the vertical integration seen in companies like Weimo, adds to the discourse on how AI technology is evolving and being integrated into existing business models.",
+      "cliff_notes": "Sam Altman is recognized for his expertise in the field of artificial intelligence. Initially, he shared a common belief that AI would rapidly transform various sectors, but he has since adjusted his stance, suggesting that the impact is more gradual. Alman has been actively involved in evaluating and discussing AI technologies, including consumer AI products like Grok, which he has implemented and praised for its utility. His changing perspective on AI's pace of impact has made him a notable figure in discussions around AI's role in society and business. Altman's commentary on AI's development, including his views on the vertical integration seen in companies like Waymo, adds to the discourse on how AI technology is evolving and being integrated into existing business models.",
       "derived": {},
       "infobox": {
         "Born": "",
         "Nationality": ""
       },
       "lead_paragraphs": [
-        "Sam Alman is recognized for his expertise in the field of artificial intelligence. Initially, he shared a common belief that AI would rapidly transform various sectors, but he has since adjusted his stance, suggesting that the impact is more gradual. Alman has been actively involved in evaluating and discussing AI technologies, including consumer AI products like Grockbot, which he has implemented and praised for its utility.",
-        "His changing perspective on AI's pace of impact has made him a notable figure in discussions around AI's role in society and business. Alman's commentary on AI's development, including his views on the vertical integration seen in companies like Weimo, adds to the discourse on how AI technology is evolving and being integrated into existing business models."
+        "Sam Altman is recognized for his expertise in the field of artificial intelligence. Initially, he shared a common belief that AI would rapidly transform various sectors, but he has since adjusted his stance, suggesting that the impact is more gradual. Alman has been actively involved in evaluating and discussing AI technologies, including consumer AI products like Grok, which he has implemented and praised for its utility.",
+        "His changing perspective on AI's pace of impact has made him a notable figure in discussions around AI's role in society and business. Altman's commentary on AI's development, including his views on the vertical integration seen in companies like Waymo, adds to the discourse on how AI technology is evolving and being integrated into existing business models."
       ],
       "sections": [
         {
           "heading": "AI Impact Reassessment",
-          "body": "Sam Alman has publicly changed his opinion on the speed of AI's impact, now believing it to be slower and more akin to a rising tide rather than a rapid transformation."
+          "body": "Sam Altman has publicly changed his opinion on the speed of AI's impact, now believing it to be slower and more akin to a rising tide rather than a rapid transformation."
         },
         {
-          "heading": "Grockbot Implementation",
-          "body": "Alman has implemented Grockbot, an AI product he considers the most generally useful consumer AI product of the year, indicating a practical application of AI in daily life."
+          "heading": "Grok Implementation",
+          "body": "Alman has implemented Grok, an AI product he considers the most generally useful consumer AI product of the year, indicating a practical application of AI in daily life."
         },
         {
-          "heading": "Weimo and Vertical Integration",
-          "body": "Alman commented on Weimo's significant redesign and the unveiling of the Ohio vehicle, a Robotaxi minivan, highlighting the company's move towards vertical integration and the use of Chinese hardware."
+          "heading": "Waymo and Vertical Integration",
+          "body": "Alman commented on Waymo's significant redesign and the unveiling of the Ohio vehicle, a Robotaxi minivan, highlighting the company's move towards vertical integration and the use of Chinese hardware."
         }
       ]
     },
@@ -800,9 +800,9 @@
   },
   {
     "id": 421,
-    "name": "Warren Pi",
+    "name": "Warren Pies",
     "slug": "warren-pi",
-    "bio": "Warren Pi is the co-founder of 314 Research, a firm specializing in macro risk analysis and market structure insights. He is known for his detailed reports and podcasts discussing market trends and macroeconomic risks, providing valuable insights to investors.",
+    "bio": "Warren Pies is the co-founder of 314 Research, a firm specializing in macro risk analysis and market structure insights. He is known for his detailed reports and podcasts discussing market trends and macroeconomic risks, providing valuable insights to investors.",
     "known_for": "His expertise in macro risk analysis and market structure insights.",
     "net_worth_usd": 142300000000.0,
     "net_worth_source": "https://www.investopedia.com/articles/01/071801.asp",
@@ -817,7 +817,7 @@
     "last_episode_date": "2026-08-26",
     "mention_score": 1,
     "mention_score_decayed": 0.89,
-    "last_main_idea": "Warren Pi suggests that despite the current macro risks, the AI sector remains a key area for investment, with all roads leading back to AI trades.",
+    "last_main_idea": "Warren Pies suggests that despite the current macro risks, the AI sector remains a key area for investment, with all roads leading back to AI trades.",
     "last_proof_cite": "Monetary Matters with Jack Farley \u2022 2026-08-26 \u2022 Time to Reduce Equity Risk: Why Underappreciated Macro Risks Could Derail the Bull Market | Warren Pies",
     "last_proof_snippet": "If I knew with certainly the Fed was going to hike in September, I'd be underweight stocks right now. It's not that I would say I'm straight up bearish here. I just think the risks are too excited. We highlighted the window from August 15th",
     "supporting_takeaway": "He highlighted the period from August 15th to October 15th as a time with unfavorable seasonals and market structure.",
@@ -827,9 +827,9 @@
       "source": "llm",
       "source_model": "moonshot:moonshot-v1-8k",
       "source_url": "",
-      "page_title": "Warren Pi",
+      "page_title": "Warren Pies",
       "fetched_at": "2026-08-26T18:42:25.680726+00:00",
-      "cliff_notes": "Warren Pi is a prominent figure in the financial industry, recognized for his deep understanding of macroeconomic risks and market structures. As the co-founder of 314 Research, he has been instrumental in providing insightful analysis to clients and investors. His work often focuses on the interplay between macroeconomic factors and market dynamics, offering a unique perspective on investment strategies. Pi's contributions to the field have made him a sought-after commentator on financial podcasts and a respected voice in the industry.",
+      "cliff_notes": "Warren Pies is a prominent figure in the financial industry, recognized for his deep understanding of macroeconomic risks and market structures. As the co-founder of 314 Research, he has been instrumental in providing insightful analysis to clients and investors. His work often focuses on the interplay between macroeconomic factors and market dynamics, offering a unique perspective on investment strategies. Pi's contributions to the field have made him a sought-after commentator on financial podcasts and a respected voice in the industry.",
       "derived": {
         "current_role": "Co-founder of 314 Research"
       },
@@ -838,13 +838,13 @@
         "Nationality": ""
       },
       "lead_paragraphs": [
-        "Warren Pi is a prominent figure in the financial industry, recognized for his deep understanding of macroeconomic risks and market structures. As the co-founder of 314 Research, he has been instrumental in providing insightful analysis to clients and investors. His work often focuses on the interplay between macroeconomic factors and market dynamics, offering a unique perspective on investment strategies.",
+        "Warren Pies is a prominent figure in the financial industry, recognized for his deep understanding of macroeconomic risks and market structures. As the co-founder of 314 Research, he has been instrumental in providing insightful analysis to clients and investors. His work often focuses on the interplay between macroeconomic factors and market dynamics, offering a unique perspective on investment strategies.",
         "Pi's contributions to the field have made him a sought-after commentator on financial podcasts and a respected voice in the industry."
       ],
       "sections": [
         {
           "heading": "Macro Risk Analysis",
-          "body": "Warren Pi is known for his in-depth analysis of macroeconomic risks, which he believes can significantly impact market trends and investment decisions."
+          "body": "Warren Pies is known for his in-depth analysis of macroeconomic risks, which he believes can significantly impact market trends and investment decisions."
         },
         {
           "heading": "Market Structure Insights",
@@ -856,7 +856,7 @@
         },
         {
           "heading": "Podcast Contributions",
-          "body": "Warren Pi regularly contributes to financial podcasts, sharing his insights on market conditions and macroeconomic developments, making complex financial topics accessible to a broader audience."
+          "body": "Warren Pies regularly contributes to financial podcasts, sharing his insights on market conditions and macroeconomic developments, making complex financial topics accessible to a broader audience."
         }
       ]
     },
@@ -864,9 +864,9 @@
   },
   {
     "id": 420,
-    "name": "Anamah Anankumar",
+    "name": "Anima Anandkumar",
     "slug": "anamah-anankumar",
-    "bio": "Anamah Anankumar is a Brain professor of mathematics and computer science at Caltech, known for her work in combining AI with models of the physical world, including weather and climate modeling.",
+    "bio": "Anima Anandkumar is a Brain professor of mathematics and computer science at Caltech, known for her work in combining AI with models of the physical world, including weather and climate modeling.",
     "known_for": "Her innovative use of AI in weather modeling, which has shown to be nearly as accurate as traditional models but tens of thousands of times faster.",
     "net_worth_usd": null,
     "net_worth_source": "",
@@ -891,9 +891,9 @@
       "source": "llm",
       "source_model": "moonshot:moonshot-v1-8k",
       "source_url": "",
-      "page_title": "Anamah Anankumar",
+      "page_title": "Anima Anandkumar",
       "fetched_at": "2026-08-26T18:42:35.203947+00:00",
-      "cliff_notes": "Anamah Anankumar is a distinguished professor at Caltech, focusing on the intersection of artificial intelligence and physical systems, particularly in the realms of weather and climate modeling. Her work has challenged traditional methods by demonstrating that AI can achieve near-parity with decades-old forecasting techniques but at a significantly reduced computational cost. This breakthrough has the potential to revolutionize how we understand and predict weather patterns, offering faster and more efficient solutions. Her contributions are significant in the fields of AI and environmental science, making her a key figure in the ongoing development of technology that can better predict and understand our world.",
+      "cliff_notes": "Anima Anandkumar is a distinguished professor at Caltech, focusing on the intersection of artificial intelligence and physical systems, particularly in the realms of weather and climate modeling. Her work has challenged traditional methods by demonstrating that AI can achieve near-parity with decades-old forecasting techniques but at a significantly reduced computational cost. This breakthrough has the potential to revolutionize how we understand and predict weather patterns, offering faster and more efficient solutions. Her contributions are significant in the fields of AI and environmental science, making her a key figure in the ongoing development of technology that can better predict and understand our world.",
       "derived": {
         "current_role": "Brain Professor of Mathematics and Computer Science at Caltech",
         "education": "Degrees and institutions not specified",
@@ -904,13 +904,13 @@
         "Nationality": ""
       },
       "lead_paragraphs": [
-        "Anamah Anankumar is a distinguished professor at Caltech, focusing on the intersection of artificial intelligence and physical systems, particularly in the realms of weather and climate modeling. Her work has challenged traditional methods by demonstrating that AI can achieve near-parity with decades-old forecasting techniques but at a significantly reduced computational cost.",
+        "Anima Anandkumar is a distinguished professor at Caltech, focusing on the intersection of artificial intelligence and physical systems, particularly in the realms of weather and climate modeling. Her work has challenged traditional methods by demonstrating that AI can achieve near-parity with decades-old forecasting techniques but at a significantly reduced computational cost.",
         "This breakthrough has the potential to revolutionize how we understand and predict weather patterns, offering faster and more efficient solutions. Her contributions are significant in the fields of AI and environmental science, making her a key figure in the ongoing development of technology that can better predict and understand our world."
       ],
       "sections": [
         {
           "heading": "AI in Weather Modeling",
-          "body": "Anamah Anankumar has been instrumental in demonstrating the effectiveness of AI in weather modeling, showing that it can be as accurate as traditional methods but at a fraction of the computational cost."
+          "body": "Anima Anandkumar has been instrumental in demonstrating the effectiveness of AI in weather modeling, showing that it can be as accurate as traditional methods but at a fraction of the computational cost."
         },
         {
           "heading": "Neural Operators",
@@ -925,9 +925,9 @@
   },
   {
     "id": 418,
-    "name": "An Eshicharya",
+    "name": "Anish Acharya",
     "slug": "an-eshicharya",
-    "bio": "An Eshicharya is a General Partner at a venture capital firm, focusing on artificial intelligence and its applications. He is known for his insights on AI model competition and the rise of consumer AI, discussing the future of AI and its impact on various industries.",
+    "bio": "Anish Acharya is a General Partner at a venture capital firm, focusing on artificial intelligence and its applications. He is known for his insights on AI model competition and the rise of consumer AI, discussing the future of AI and its impact on various industries.",
     "known_for": "His expertise in AI model competition and consumer AI, and his views on the future of AI applications.",
     "net_worth_usd": 13800000000.0,
     "net_worth_source": "https://www.africanbusinessreview.co.za/ilya-sutskever-net-worth/",
@@ -944,7 +944,7 @@
     "mention_score_decayed": 0.89,
     "last_main_idea": "Invest in the application layer of AI where significant value can be captured, and consider the emerging consumer AI space for new opportunities.",
     "last_proof_cite": "The a16z Show \u2022 2026-08-26 \u2022 The State of AI: Macro, Apps, and Consumer",
-    "last_proof_snippet": "For the last few years, the biggest question in the AI was which model would win. The next phase may be less about the models, and more about what gets built on top of them. In this episode, Jen Cos sits down with an Eshicharya, to unpack w",
+    "last_proof_snippet": "For the last few years, the biggest question in the AI was which model would win. The next phase may be less about the models, and more about what gets built on top of them. In this episode, Jen Costa sits down with Anish Acharya, to unpack w",
     "supporting_takeaway": "Open weight models have an advantage and can lead to significant value capture at the application layer.",
     "grokipedia_url": null,
     "grokipedia_fetched_at": "2026-08-26T06:50:40.930566",
@@ -952,9 +952,9 @@
       "source": "llm",
       "source_model": "moonshot:moonshot-v1-8k",
       "source_url": "",
-      "page_title": "An Eshicharya",
+      "page_title": "Anish Acharya",
       "fetched_at": "2026-08-26T11:50:40.930205+00:00",
-      "cliff_notes": "An Eshicharya is a venture capitalist with a focus on artificial intelligence and its applications. As a General Partner at a venture capital firm, he has been at the forefront of discussions around AI model competition and the burgeoning consumer AI market. His insights into the future of AI, including the transition from model competition to building applications on top of these models, have been influential in the tech industry. Eshicharya's work emphasizes the importance of the application layer in capturing value in the AI space, even as frontier labs continue to grow. He also highlights the potential for a renaissance in consumer AI, with personal agents beginning to perform tasks on behalf of users, suggesting a new generation of founders may need to think bigger about what AI makes possible.",
+      "cliff_notes": "Anish Acharya is a venture capitalist with a focus on artificial intelligence and its applications. As a General Partner at a venture capital firm, he has been at the forefront of discussions around AI model competition and the burgeoning consumer AI market. His insights into the future of AI, including the transition from model competition to building applications on top of these models, have been influential in the tech industry. Eshicharya's work emphasizes the importance of the application layer in capturing value in the AI space, even as frontier labs continue to grow. He also highlights the potential for a renaissance in consumer AI, with personal agents beginning to perform tasks on behalf of users, suggesting a new generation of founders may need to think bigger about what AI makes possible.",
       "derived": {
         "current_role": "General Partner at a venture capital firm"
       },
@@ -963,13 +963,13 @@
         "Nationality": ""
       },
       "lead_paragraphs": [
-        "An Eshicharya is a venture capitalist with a focus on artificial intelligence and its applications. As a General Partner at a venture capital firm, he has been at the forefront of discussions around AI model competition and the burgeoning consumer AI market. His insights into the future of AI, including the transition from model competition to building applications on top of these models, have been influential in the tech industry.",
+        "Anish Acharya is a venture capitalist with a focus on artificial intelligence and its applications. As a General Partner at a venture capital firm, he has been at the forefront of discussions around AI model competition and the burgeoning consumer AI market. His insights into the future of AI, including the transition from model competition to building applications on top of these models, have been influential in the tech industry.",
         "Eshicharya's work emphasizes the importance of the application layer in capturing value in the AI space, even as frontier labs continue to grow. He also highlights the potential for a renaissance in consumer AI, with personal agents beginning to perform tasks on behalf of users, suggesting a new generation of founders may need to think bigger about what AI makes possible."
       ],
       "sections": [
         {
           "heading": "AI Model Competition",
-          "body": "An Eshicharya discusses the shift in AI from model competition to building applications on top of these models, emphasizing the importance of the application layer in capturing value."
+          "body": "Anish Acharya discusses the shift in AI from model competition to building applications on top of these models, emphasizing the importance of the application layer in capturing value."
         },
         {
           "heading": "Consumer AI",
@@ -977,7 +977,7 @@
         },
         {
           "heading": "Future of AI",
-          "body": "An Eshicharya shares his views on where AI is headed, discussing why AI models aren't becoming commodities and the advantages of open weight models in the competitive landscape."
+          "body": "Anish Acharya shares his views on where AI is headed, discussing why AI models aren't becoming commodities and the advantages of open weight models in the competitive landscape."
         }
       ]
     },
@@ -987,7 +987,7 @@
     "id": 333,
     "name": "Dylan Patel",
     "slug": "dylan-patel",
-    "bio": "Dylan Patel is the founder of Simming Analysis, a firm specializing in AI infrastructure and compute market analysis. He is recognized for his insights into the future of AI and its impact on the global economy, particularly focusing on the growth of AI infrastructure and its contribution to GDP.",
+    "bio": "Dylan Patel is the founder of SemiAnalysis, a firm specializing in AI infrastructure and compute market analysis. He is recognized for his insights into the future of AI and its impact on the global economy, particularly focusing on the growth of AI infrastructure and its contribution to GDP.",
     "known_for": "His expertise in AI infrastructure and its role in shaping the global economy.",
     "net_worth_usd": 3700000000.0,
     "net_worth_source": "https://substack.com/home/post/p-153458455",
@@ -1004,8 +1004,8 @@
     "mention_score_decayed": 1.78,
     "last_main_idea": "Investment in AI infrastructure and labs is set to grow exponentially, leading to significant capital allocation shifts and potential market disruptions.",
     "last_proof_cite": "Dwarkesh Podcast \u2022 2026-08-25 \u2022 Dylan Patel \u2013 Anthropic & OpenAI will have most of the world\u2019s compute by 2028",
-    "last_proof_snippet": "Okay, I'm back with Dylan Patel, Founder of Simming Analysis, our version of Family, Thanksgiving dinner is a regular early podcast, but you're not actually related. I won't tell the people here. We'll destroy the myth. Walk me, basically w",
-    "supporting_takeaway": "Labs like OpenEye and Anthropic are expected to spend trillions of dollars annually by the end of the decade.",
+    "last_proof_snippet": "Okay, I'm back with Dylan Patel, Founder of SemiAnalysis, our version of Family, Thanksgiving dinner is a regular early podcast, but you're not actually related. I won't tell the people here. We'll destroy the myth. Walk me, basically w",
+    "supporting_takeaway": "Labs like OpenAI and Anthropic are expected to spend trillions of dollars annually by the end of the decade.",
     "grokipedia_url": null,
     "grokipedia_fetched_at": "2026-08-25T22:28:51.037076",
     "pundit_profile": {
@@ -1014,16 +1014,16 @@
       "source_url": "",
       "page_title": "Dylan Patel",
       "fetched_at": "2026-08-26T03:28:51.036737+00:00",
-      "cliff_notes": "Dylan Patel is a prominent figure in the field of AI infrastructure and compute market analysis. As the founder of Simming Analysis, he has dedicated his career to understanding and forecasting the trends and developments within the AI sector. Patel's work is particularly focused on how advancements in AI infrastructure are influencing economic growth, with a keen eye on the allocation of capital expenditures in the industry. His insights are sought after for their ability to predict the trajectory of the global economy in relation to the advancements in AI technology. Patel's contributions to the discourse on AI's economic impact have made him a respected voice in both the tech and finance sectors.",
+      "cliff_notes": "Dylan Patel is a prominent figure in the field of AI infrastructure and compute market analysis. As the founder of SemiAnalysis, he has dedicated his career to understanding and forecasting the trends and developments within the AI sector. Patel's work is particularly focused on how advancements in AI infrastructure are influencing economic growth, with a keen eye on the allocation of capital expenditures in the industry. His insights are sought after for their ability to predict the trajectory of the global economy in relation to the advancements in AI technology. Patel's contributions to the discourse on AI's economic impact have made him a respected voice in both the tech and finance sectors.",
       "derived": {
-        "current_role": "Founder of Simming Analysis"
+        "current_role": "Founder of SemiAnalysis"
       },
       "infobox": {
         "Born": "",
         "Nationality": ""
       },
       "lead_paragraphs": [
-        "Dylan Patel is a prominent figure in the field of AI infrastructure and compute market analysis. As the founder of Simming Analysis, he has dedicated his career to understanding and forecasting the trends and developments within the AI sector. Patel's work is particularly focused on how advancements in AI infrastructure are influencing economic growth, with a keen eye on the allocation of capital expenditures in the industry.",
+        "Dylan Patel is a prominent figure in the field of AI infrastructure and compute market analysis. As the founder of SemiAnalysis, he has dedicated his career to understanding and forecasting the trends and developments within the AI sector. Patel's work is particularly focused on how advancements in AI infrastructure are influencing economic growth, with a keen eye on the allocation of capital expenditures in the industry.",
         "His insights are sought after for their ability to predict the trajectory of the global economy in relation to the advancements in AI technology. Patel's contributions to the discourse on AI's economic impact have made him a respected voice in both the tech and finance sectors."
       ],
       "sections": [
@@ -2188,7 +2188,7 @@
     "mention_score_decayed": 1.35,
     "last_main_idea": "Invest in AI and exponential technologies that are redefining industries and creating new opportunities for growth and innovation.",
     "last_proof_cite": "Moonshots with Peter Diamandis \u2022 2026-08-13 \u2022 Bernie Demands the Labs Stop, Wall Street Turns GPUs Into Bonds, Grok 4.7 Takes #1 with Emad Mostaque | EP #279",
-    "last_proof_snippet": "Bernie Sanders sent a formal letter to the CEOs of Anthropic Meta and OpenEye AI capabilities have reached a critical threshold. Paul's AI development, the Council of the Baguards, too late, right? Nvidia just announced a partnership that r",
+    "last_proof_snippet": "Bernie Sanders sent a formal letter to the CEOs of Anthropic Meta and OpenAI AI capabilities have reached a critical threshold. Paul's AI development, the Council of the Baguards, too late, right? Nvidia just announced a partnership that r",
     "supporting_takeaway": "Nvidia's partnership redefines GPU compute as a financial asset, signaling a shift in the market.",
     "grokipedia_url": null,
     "grokipedia_fetched_at": "2026-08-13T23:37:58.122292",
@@ -11620,9 +11620,9 @@
   },
   {
     "id": 226,
-    "name": "Warren Pious",
+    "name": "Warren Pies",
     "slug": "warren-pious",
-    "bio": "Warren Pious is the founder and CEO of 314 Research and Caliban, a data-driven analyst known for his accurate market predictions. His work in AI research and charting tools has made significant contributions to the financial industry.",
+    "bio": "Warren Pies is the founder and CEO of 314 Research and Caliban, a data-driven analyst known for his accurate market predictions. His work in AI research and charting tools has made significant contributions to the financial industry.",
     "known_for": "Accurately predicting the S&P to reach 7,000 by 2026 and developing the AI research and charting tool Caliban.",
     "net_worth_usd": 12000000.0,
     "net_worth_source": "https://www.cinenetworth.com/elizabeth-warren-salary-and-net-worth/",
@@ -11639,7 +11639,7 @@
     "mention_score_decayed": 0.07,
     "last_main_idea": "The current bull market is driven by advancements in AI and technology, which are expected to continue outpacing concerns over oil shortages and inflation.",
     "last_proof_cite": "Monetary Matters with Jack Farley \u2022 2026-05-04 \u2022 Warren Pies: The Scramble for Compute Cures All Ills | Two Wolves of \u201cHockeysticking Earnings\u201d and Hormuz Oil Shock (Plus Caliban)",
-    "last_proof_snippet": "Today I was speaking to one of the best and most data-driven analysts around, Warren Pious of 314 research. If you have been seeing the ball clearer than him, last time I spoke to him, Warren's calling for S&P to 7,000 by 2026, which obviou",
+    "last_proof_snippet": "Today I was speaking to one of the best and most data-driven analysts around, Warren Pies of 314 research. If you have been seeing the ball clearer than him, last time I spoke to him, Warren's calling for S&P to 7,000 by 2026, which obviou",
     "supporting_takeaway": "The oil shortage is a significant concern, but the AI sector's advancements are a more powerful market driver.",
     "grokipedia_url": null,
     "grokipedia_fetched_at": "2026-05-04T22:01:11.428081",
@@ -11647,9 +11647,9 @@
       "source": "llm",
       "source_model": "moonshot:moonshot-v1-8k",
       "source_url": "",
-      "page_title": "Warren Pious",
+      "page_title": "Warren Pies",
       "fetched_at": "2026-05-05T03:01:11.427805+00:00",
-      "cliff_notes": "Warren Pious is a prominent figure in the financial industry, recognized for his data-driven analysis and accurate market predictions. As the founder and CEO of 314 Research and Caliban, Pious has leveraged his expertise in AI research to develop innovative charting tools that have become integral to the financial decision-making process. His prediction that the S&P would reach 7,000 by 2026, which was achieved, further solidified his reputation as a reliable analyst. Pious's work with Caliban, an AI research and charting tool, has been particularly influential, offering insights that drive market movements and providing a powerful resource for financial professionals.",
+      "cliff_notes": "Warren Pies is a prominent figure in the financial industry, recognized for his data-driven analysis and accurate market predictions. As the founder and CEO of 314 Research and Caliban, Pious has leveraged his expertise in AI research to develop innovative charting tools that have become integral to the financial decision-making process. His prediction that the S&P would reach 7,000 by 2026, which was achieved, further solidified his reputation as a reliable analyst. Pious's work with Caliban, an AI research and charting tool, has been particularly influential, offering insights that drive market movements and providing a powerful resource for financial professionals.",
       "derived": {
         "current_role": "Founder and CEO of 314 Research and Caliban"
       },
@@ -11658,13 +11658,13 @@
         "Nationality": ""
       },
       "lead_paragraphs": [
-        "Warren Pious is a prominent figure in the financial industry, recognized for his data-driven analysis and accurate market predictions. As the founder and CEO of 314 Research and Caliban, Pious has leveraged his expertise in AI research to develop innovative charting tools that have become integral to the financial decision-making process.",
+        "Warren Pies is a prominent figure in the financial industry, recognized for his data-driven analysis and accurate market predictions. As the founder and CEO of 314 Research and Caliban, Pious has leveraged his expertise in AI research to develop innovative charting tools that have become integral to the financial decision-making process.",
         "His prediction that the S&P would reach 7,000 by 2026, which was achieved, further solidified his reputation as a reliable analyst. Pious's work with Caliban, an AI research and charting tool, has been particularly influential, offering insights that drive market movements and providing a powerful resource for financial professionals."
       ],
       "sections": [
         {
           "heading": "Market Predictions",
-          "body": "Warren Pious is known for his accurate market predictions, including the S&P reaching 7,000 by 2026."
+          "body": "Warren Pies is known for his accurate market predictions, including the S&P reaching 7,000 by 2026."
         },
         {
           "heading": "AI Research",
