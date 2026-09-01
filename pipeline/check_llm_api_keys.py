@@ -40,18 +40,20 @@ def _try_moonshot() -> tuple[str, bool, str]:
         from openai import OpenAI
     except ImportError:
         return ("moonshot", False, "openai package missing")
+    from analyze_transcript import resolve_llm_model
     key = os.environ.get("MOONSHOT_API_KEY", "").strip()
     if not key:
         return ("moonshot", False, "MOONSHOT_API_KEY unset")
     try:
         c = OpenAI(api_key=key, base_url="https://api.moonshot.ai/v1")
+        model = resolve_llm_model("moonshot")
         r = c.chat.completions.create(
-            model="moonshot-v1-8k",
+            model=model,
             messages=[{"role": "user", "content": "Say OK in one word."}],
             max_tokens=8,
         )
         text = (r.choices[0].message.content or "").strip()
-        return ("moonshot", True, f"reply={text[:40]}")
+        return ("moonshot", True, f"model={model} reply={text[:30]}")
     except Exception as e:
         return ("moonshot", False, str(e)[:200])
 
@@ -61,23 +63,26 @@ def _try_openai() -> tuple[str, bool, str]:
         from openai import OpenAI
     except ImportError:
         return ("openai", False, "openai package missing")
+    from analyze_transcript import resolve_llm_model
     key = os.environ.get("OPENAI_API_KEY", "").strip()
     if not key:
         return ("openai", False, "OPENAI_API_KEY unset")
     try:
         c = OpenAI(api_key=key)
+        model = resolve_llm_model("openai")
         r = c.chat.completions.create(
-            model="gpt-4o-mini",
+            model=model,
             messages=[{"role": "user", "content": "Say OK in one word."}],
             max_tokens=8,
         )
         text = (r.choices[0].message.content or "").strip()
-        return ("openai", True, f"reply={text[:40]}")
+        return ("openai", True, f"model={model} reply={text[:30]}")
     except Exception as e:
         return ("openai", False, str(e)[:200])
 
 
 def _try_gemini() -> tuple[str, bool, str]:
+    from analyze_transcript import resolve_llm_model
     key = os.environ.get("GEMINI_API_KEY", "").strip()
     if not key:
         return ("gemini", False, "GEMINI_API_KEY unset")
@@ -87,10 +92,11 @@ def _try_gemini() -> tuple[str, bool, str]:
         return ("gemini", False, "google-generativeai missing")
     try:
         genai.configure(api_key=key)
-        model = genai.GenerativeModel("gemini-1.5-flash")
+        model_name = resolve_llm_model("gemini")
+        model = genai.GenerativeModel(model_name)
         r = model.generate_content("Say OK in one word.")
         text = (r.text or "").strip()
-        return ("gemini", True, f"reply={text[:40]}")
+        return ("gemini", True, f"model={model_name} reply={text[:30]}")
     except Exception as e:
         return ("gemini", False, str(e)[:200])
 
@@ -104,7 +110,8 @@ def main() -> int:
     print(
         "\nNote: Transcript analysis uses get_ai_client() priority: Moonshot (auth profile or MOONSHOT_API_KEY) → Gemini → OpenAI."
     )
-    print("Debate weekly / Deep Dives use moonshot-v1-8k, gpt-4o-mini, or gemini-1.5-flash depending on which client initializes.")
+    print("Model defaults (env-overridable): Moonshot=kimi-k2.6, OpenAI=gpt-4o-mini, Gemini=gemini-1.5-flash.")
+    print("Override via DEBATE_LLM_MODEL / MOONSHOT_MODEL, OPENAI_DEBATE_MODEL / OPENAI_MODEL, GEMINI_DEBATE_MODEL / GEMINI_MODEL.")
     return 0 if any(r[1] for r in results) else 1
 
 

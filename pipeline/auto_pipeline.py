@@ -609,9 +609,10 @@ Return JSON with:
 - "tickers": list of relevant ticker symbols mentioned
 - "sentiment": "bullish", "bearish", or "neutral"
 """
+                from analyze_transcript import resolve_llm_model
                 client_type, client = client_info
                 if client_type in ('openai', 'moonshot'):
-                    model_name = "moonshot-v1-8k" if client_type == 'moonshot' else "gpt-4o-mini"
+                    model_name = resolve_llm_model(client_type)
                     resp = client.chat.completions.create(
                         model=model_name,
                         messages=[{"role": "user", "content": prompt}],
@@ -621,7 +622,7 @@ Return JSON with:
                     result = json.loads(resp.choices[0].message.content)
                 elif client_type == 'gemini':
                     import google.generativeai as genai
-                    model = genai.GenerativeModel('gemini-1.5-flash')
+                    model = genai.GenerativeModel(resolve_llm_model('gemini'))
                     resp = model.generate_content(prompt)
                     result = json.loads(resp.text)
                 else:

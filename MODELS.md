@@ -8,22 +8,33 @@ This is the quick reference for which models we use where, and in what order. Tr
 
 **Use for:** podcast transcript analysis, Deep Dives, Emerging Terms, Overton auto‑curation.
 
-- **Primary:** `moonshot-v1-8k`  
-  - Provider: Moonshot/Kimi (via `moonshot:default` profile in `auth-profiles.json`).  
-  - Used in: `analyze_transcript.py`, `auto_pipeline.py`, `ai_analyze_transcript.py`, `generate_deepdives.py`, `fix_ticker_mentions.py` (when base_url is Moonshot).
+- **Primary:** `kimi-k2.6`
+  - Provider: Moonshot/Kimi (via `moonshot:default` profile in `auth-profiles.json` or `MOONSHOT_API_KEY`).
+  - Used in: `analyze_transcript.py`, `auto_pipeline.py`, `ai_analyze_transcript.py`, `generate_deepdives.py`, `debate_weekly.py`, `pundit_profile_llm.py`.
+  - Override via `DEBATE_LLM_MODEL` or `MOONSHOT_MODEL` env vars.
 
-- **Fallback:** `gpt-4o-mini`  
-  - Provider: OpenAI.  
-  - Used automatically when we don’t have a Moonshot base_url on the client.
+- **Fallback:** `gpt-4o-mini`
+  - Provider: OpenAI.
+  - Used automatically when Moonshot is unavailable.
+  - Override via `OPENAI_DEBATE_MODEL` or `OPENAI_MODEL` env vars.
 
-- **Secondary fallback (rare):** `gemini-1.5-flash`  
-  - Provider: Google Generative AI, when `GEMINI_API_KEY` is set.  
+- **Secondary fallback (rare):** `gemini-1.5-flash`
+  - Provider: Google Generative AI, when `GEMINI_API_KEY` is set.
   - Used only when Moonshot/OpenAI are unavailable.
+  - Override via `GEMINI_DEBATE_MODEL` or `GEMINI_MODEL` env vars.
 
-**Do NOT use (deprecated/forbidden):**
+**Do NOT use (deprecated/retired):**
 
+- `moonshot-v1-8k` (retired 2026-08-31, returns 404)
+- `moonshot-v1-32k` (retired 2026-08-31)
+- `moonshot-v1-128k` (retired 2026-08-31)
 - `openai/codex-mini-latest`
 - `kimi-coding/kimi-k2-thinking`
+
+**Available Moonshot/Kimi models:**
+
+- `kimi-k2.6` — cheap default, good for pipeline analysis
+- `kimi-k3` — flagship model, higher cost
 
 ---
 
@@ -31,8 +42,8 @@ This is the quick reference for which models we use where, and in what order. Tr
 
 **Use for:** turning audio into text before analysis.
 
-- **Default (queue/worker path):**  
-  - `fetch_latest.py` → `whisper_worker.sh` (configured separately).  
+- **Default (queue/worker path):**
+  - `fetch_latest.py` → `whisper_worker.sh` (configured separately).
   - Model is configured in the worker; prefer small Whisper/OpenAI or faster‑whisper models for cost.
 
 - **Local helpers (manual / debugging):**
@@ -67,11 +78,10 @@ Sorting on the front page uses these scores; Overton will get a 30‑day half‑
 ### 5. Cost Guardrails (summary)
 
 - Heavy cost = long‑context LLM calls (transcripts, Deep Dives, term curation), not chats.
-- Don’t run `auto_pipeline.py` on every chat; keep it on:
+- Don't run `auto_pipeline.py` on every chat; keep it on:
   - Scheduled jobs (midnight, 4am, 7am, 10pm), and
   - Explicit commands when something is clearly stale/broken.
 - Heartbeats:
-  - Read `status.json` / `pipeline_state.json`.  
-  - Only trigger `auto_pipeline.py` when `last_pipeline_run` is past the configured threshold.  
+  - Read `status.json` / `pipeline_state.json`.
+  - Only trigger `auto_pipeline.py` when `last_pipeline_run` is past the configured threshold.
   - Notify Jared only on `blocked_*` states or stuck episodes, not on normal in‑flight work.
-

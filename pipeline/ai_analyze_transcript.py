@@ -99,8 +99,9 @@ Be concise. If there are no clear people or investment ideas in this segment, re
 """
 
     # Use same pattern as newsletter AI: JSON response_format
+    from analyze_transcript import resolve_llm_model
     if client_type in ("openai", "moonshot"):
-        model_name = "moonshot-v1-8k" if client_type == "moonshot" else "gpt-4o-mini"
+        model_name = resolve_llm_model(client_type)
         resp = client.chat.completions.create(
             model=model_name,
             messages=[{"role": "user", "content": prompt}],
@@ -114,7 +115,7 @@ Be concise. If there are no clear people or investment ideas in this segment, re
         import json as _json
         import google.generativeai as genai  # type: ignore
 
-        model = genai.GenerativeModel("gemini-1.5-flash")
+        model = genai.GenerativeModel(resolve_llm_model("gemini"))
         resp = model.generate_content(prompt)
         return _json.loads(resp.text)
     else:

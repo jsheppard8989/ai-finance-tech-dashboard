@@ -37,6 +37,27 @@ except ImportError:
 PROCESSED_MARKER_DIR.mkdir(parents=True, exist_ok=True)
 
 
+def resolve_llm_model(client_kind: str) -> str:
+    """Resolve the LLM model name for a given client kind.
+    
+    Moonshot retired moonshot-v1-8k on 2026-08-31; default is now kimi-k2.6.
+    
+    Args:
+        client_kind: "moonshot", "openai", or "gemini"
+    
+    Returns:
+        Model string to use for API calls.
+    """
+    if client_kind == "moonshot":
+        return os.environ.get("DEBATE_LLM_MODEL") or os.environ.get("MOONSHOT_MODEL") or "kimi-k2.6"
+    elif client_kind == "openai":
+        return os.environ.get("OPENAI_DEBATE_MODEL") or os.environ.get("OPENAI_MODEL") or "gpt-4o-mini"
+    elif client_kind == "gemini":
+        return os.environ.get("GEMINI_DEBATE_MODEL") or os.environ.get("GEMINI_MODEL") or "gemini-1.5-flash"
+    else:
+        raise ValueError(f"Unknown client kind: {client_kind}")
+
+
 def _emerging_term_attributed_speaker(analysis: Dict) -> Optional[str]:
     """Label for 'who' surfaced an emerging term: primary guests, else hosts."""
     guests = analysis.get("guests") or []
@@ -499,7 +520,7 @@ def analyze_transcript_with_ai(
 
     try:
         if client_type == 'openai':
-            model = "gpt-4o-mini"
+            model = resolve_llm_model('openai')
             response = client.chat.completions.create(
                 model=model,
                 messages=[
@@ -513,7 +534,7 @@ def analyze_transcript_with_ai(
         elif client_type == 'moonshot':
             # Moonshot/Kimi API (OpenAI-compatible)
             response = client.chat.completions.create(
-                model="moonshot-v1-8k",
+                model=resolve_llm_model('moonshot'),
                 messages=[
                     {"role": "system", "content": "You are a precise financial analyst. Return only valid JSON."},
                     {"role": "user", "content": prompt}
@@ -524,7 +545,7 @@ def analyze_transcript_with_ai(
             content = response.choices[0].message.content.strip()
         elif client_type == 'gemini':
             # Gemini API
-            model = genai.GenerativeModel('gemini-1.5-flash')
+            model = genai.GenerativeModel(resolve_llm_model('gemini'))
             response = model.generate_content(
                 prompt,
                 generation_config=genai.types.GenerationConfig(
