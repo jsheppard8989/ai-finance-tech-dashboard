@@ -228,13 +228,12 @@ def fetch_pundit_profile_via_llm(
 
     model_used = ""
     try:
+        from analyze_transcript import resolve_llm_model
         if kind in ("moonshot", "openai"):
-            model_used = os.getenv("PUNDIT_LLM_MODEL") or os.getenv("DEBATE_LLM_MODEL", "moonshot-v1-8k")
-            if kind == "openai" and "moonshot" in model_used:
-                model_used = os.getenv("OPENAI_PUNDIT_MODEL") or os.getenv("OPENAI_DEBATE_MODEL", "gpt-4o-mini")
+            model_used = os.getenv("PUNDIT_LLM_MODEL") or resolve_llm_model(kind)
             raw = _openai_compatible_json(client, model_used, system, user)
         elif kind == "gemini":
-            model_used = os.getenv("GEMINI_PUNDIT_MODEL") or os.getenv("GEMINI_DEBATE_MODEL", "gemini-1.5-flash")
+            model_used = os.getenv("GEMINI_PUNDIT_MODEL") or resolve_llm_model("gemini")
             raw = _gemini_json(client, model_used, system, user)
         else:
             return None

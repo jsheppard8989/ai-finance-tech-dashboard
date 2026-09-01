@@ -559,13 +559,14 @@ def get_source_content(insight_id: int, source_type: str, episode_id: int = None
 
 def _call_json_model(clients: List[Tuple[str, Any]], prompt: str) -> Tuple[Optional[dict], Optional[str]]:
     """Try each configured provider; return (parsed_json, last_error_detail)."""
+    from analyze_transcript import resolve_llm_model
     last_error = ""
     content_filter_hit = False
     for client_type, client in clients:
         try:
             if client_type == "moonshot":
                 resp = client.chat.completions.create(
-                    model="moonshot-v1-8k",
+                    model=resolve_llm_model("moonshot"),
                     messages=[{"role": "user", "content": prompt}],
                     response_format={"type": "json_object"},
                     max_tokens=3200,
@@ -574,7 +575,7 @@ def _call_json_model(clients: List[Tuple[str, Any]], prompt: str) -> Tuple[Optio
 
             if client_type == "openai":
                 resp = client.chat.completions.create(
-                    model="gpt-4o-mini",
+                    model=resolve_llm_model("openai"),
                     messages=[{"role": "user", "content": prompt}],
                     response_format={"type": "json_object"},
                     max_tokens=3200,
@@ -584,7 +585,7 @@ def _call_json_model(clients: List[Tuple[str, Any]], prompt: str) -> Tuple[Optio
             if client_type == "gemini":
                 import google.generativeai as genai
 
-                model = genai.GenerativeModel("gemini-1.5-flash")
+                model = genai.GenerativeModel(resolve_llm_model("gemini"))
                 resp = model.generate_content(prompt)
                 return json.loads(resp.text), None
         except Exception as e:

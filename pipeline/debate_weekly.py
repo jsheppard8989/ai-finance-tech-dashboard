@@ -322,10 +322,9 @@ def _strip_json_fence(s: str) -> str:
 
 
 def llm_chat_json(client_kind: str, client: Any, system: str, user: str) -> Dict[str, Any]:
+    from analyze_transcript import resolve_llm_model
     if client_kind == "moonshot" or client_kind == "openai":
-        model = os.getenv("DEBATE_LLM_MODEL", "moonshot-v1-8k")
-        if client_kind == "openai" and "moonshot" in model:
-            model = os.getenv("OPENAI_DEBATE_MODEL", "gpt-4o-mini")
+        model = resolve_llm_model(client_kind)
         common = dict(
             model=model,
             messages=[
@@ -347,7 +346,7 @@ def llm_chat_json(client_kind: str, client: Any, system: str, user: str) -> Dict
         import google.generativeai as genai
 
         genai.configure(api_key=client)
-        model = os.getenv("GEMINI_DEBATE_MODEL", "gemini-1.5-flash")
+        model = resolve_llm_model("gemini")
         m = genai.GenerativeModel(model)
         r = m.generate_content(
             f"{system}\n\n---\n\n{user}",
