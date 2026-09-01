@@ -1,286 +1,74 @@
 {
-  "AAPL": {
-    "price": 316.85,
-    "change_pct": 4.83,
-    "name": "Apple Inc.",
-    "updated_at": "2026-08-31T23:17:18.361058",
-    "price_14d_ago": 302.25
-  },
-  "AEP": {
-    "price": 122.43,
-    "change_pct": -1.78,
-    "name": "American Electric Power Company",
-    "updated_at": "2026-08-31T23:17:18.468708",
-    "price_14d_ago": 124.65
-  },
-  "AMD": {
-    "price": 470.72,
-    "change_pct": -2.53,
-    "name": "Advanced Micro Devices, Inc.",
-    "updated_at": "2026-08-31T23:17:18.528815",
-    "price_14d_ago": 482.93
-  },
-  "AMZN": {
-    "price": 259.77,
-    "change_pct": -2.81,
-    "name": "Amazon.com, Inc.",
-    "updated_at": "2026-08-31T23:17:18.581614",
-    "price_14d_ago": 267.28
-  },
-  "BTC": {
-    "price": 78495.45,
-    "change_pct": 21.36,
-    "name": "Bitcoin USD",
-    "updated_at": "2026-08-31T23:17:18.636793",
-    "price_14d_ago": 64680.71
-  },
-  "COIN": {
-    "price": 188.12,
-    "change_pct": 26.22,
-    "name": "Coinbase Global, Inc.",
-    "updated_at": "2026-08-31T23:17:18.699202",
-    "price_14d_ago": 149.04
-  },
-  "COPPER": {
-    "price": 6.69,
-    "change_pct": 1.46,
-    "name": "Copper",
-    "updated_at": "2026-08-31T23:17:18.756236",
-    "price_14d_ago": 6.6
-  },
-  "CROWD": {
-    "price": 231.0,
-    "change_pct": 4.16,
-    "name": "CrowdStrike Holdings, Inc.",
-    "updated_at": "2026-08-31T23:17:18.812547",
-    "price_14d_ago": 221.78
-  },
-  "DELL": {
-    "price": 456.01,
-    "change_pct": -5.88,
-    "name": "Dell Technologies Inc.",
-    "updated_at": "2026-08-31T23:17:18.871800",
-    "price_14d_ago": 484.5
-  },
-  "EBAY": {
-    "price": 103.56,
-    "change_pct": 1.22,
-    "name": "eBay Inc.",
-    "updated_at": "2026-08-31T23:17:18.931295",
-    "price_14d_ago": 102.31
-  },
-  "GLD": {
-    "price": 408.42,
-    "change_pct": 0.86,
-    "name": "SPDR Gold Shares",
-    "updated_at": "2026-08-31T23:17:19.023924",
-    "price_14d_ago": 404.92
-  },
-  "GOLD": {
-    "price": 4494.9,
-    "change_pct": 1.95,
-    "name": "Gold",
-    "updated_at": "2026-08-31T23:17:19.083594",
-    "price_14d_ago": 4408.9
-  },
-  "GOOG": {
-    "price": 335.41,
-    "change_pct": -2.03,
-    "name": "Alphabet Inc.",
-    "updated_at": "2026-08-31T23:17:19.146432",
-    "price_14d_ago": 342.37
-  },
   "GOOGL": {
     "price": 339.35,
     "change_pct": -1.22,
-    "name": "Alphabet Inc.",
-    "updated_at": "2026-08-31T23:17:19.203678",
-    "price_14d_ago": 343.54
-  },
-  "IBM": {
-    "price": 233.87,
-    "change_pct": -0.89,
-    "name": "International Business Machines",
-    "updated_at": "2026-08-31T23:17:19.361768",
-    "price_14d_ago": 235.98
-  },
-  "INTC": {
-    "price": 89.51,
-    "change_pct": -11.33,
-    "name": "Intel Corporation",
-    "updated_at": "2026-08-31T23:17:19.455242",
-    "price_14d_ago": 100.95
-  },
-  "LLY": {
-    "price": 1156.73,
-    "change_pct": -5.21,
-    "name": "Eli Lilly and Company",
-    "updated_at": "2026-08-31T23:17:19.566220",
-    "price_14d_ago": 1220.28
-  },
-  "META": {
-    "price": 572.34,
-    "change_pct": -1.12,
-    "name": "Meta Platforms, Inc.",
-    "updated_at": "2026-08-31T23:17:19.627631",
-    "price_14d_ago": 578.85
-  },
-  "MS": {
-    "price": 213.32,
-    "change_pct": -1.98,
-    "name": "Morgan Stanley",
-    "updated_at": "2026-08-31T23:17:19.709430",
-    "price_14d_ago": 217.64
-  },
-  "MSFT": {
-    "price": 507.29,
-    "change_pct": 3.02,
-    "name": "Microsoft Corporation",
-    "updated_at": "2026-08-31T23:17:19.786785",
-    "price_14d_ago": 492.43
-  },
-  "MSTR": {
-    "price": 132.94,
-    "change_pct": 40.19,
-    "name": "Strategy Inc",
-    "updated_at": "2026-08-31T23:17:19.839780",
-    "price_14d_ago": 94.83
-  },
-  "NOW": {
-    "price": 147.99,
-    "change_pct": 18.45,
-    "name": "ServiceNow, Inc.",
-    "updated_at": "2026-08-31T23:17:19.903978",
-    "price_14d_ago": 124.94
+    "name": "GOOGL",
+    "updated_at": "2026-09-01T06:49:05.294296"
   },
   "NVDA": {
     "price": 220.78,
     "change_pct": -1.48,
-    "name": "NVIDIA Corporation",
-    "updated_at": "2026-08-31T23:17:19.975218",
-    "price_14d_ago": 224.09
+    "name": "NVDA",
+    "updated_at": "2026-09-01T06:49:05.294313"
   },
-  "PANW": {
-    "price": 382.13,
-    "change_pct": -1.26,
-    "name": "Palo Alto Networks, Inc.",
-    "updated_at": "2026-08-31T23:17:20.032256",
-    "price_14d_ago": 387.01
+  "MSFT": {
+    "price": 507.29,
+    "change_pct": 3.21,
+    "name": "MSFT",
+    "updated_at": "2026-09-01T06:49:05.294320"
   },
-  "QTA": {
-    "price": 0,
-    "change_pct": 0,
-    "name": "QTA",
-    "updated_at": "2026-08-31T23:17:20.101051",
-    "price_14d_ago": null
-  },
-  "S&P 500": {
-    "price": 7686.14,
-    "change_pct": -0.8,
-    "name": "S&P 500",
-    "updated_at": "2026-08-31T23:17:20.186828",
-    "price_14d_ago": 7748.5
-  },
-  "SAMSUNG ELECTRONICS": {
-    "price": 260000.0,
-    "change_pct": 8.56,
-    "name": "SamsungElec",
-    "updated_at": "2026-08-31T23:17:20.261614",
-    "price_14d_ago": 239500.0
-  },
-  "SK HYNIX": {
-    "price": 1674000.0,
-    "change_pct": 17.47,
-    "name": "SK hynix",
-    "updated_at": "2026-08-31T23:17:20.345562",
-    "price_14d_ago": 1425000.0
-  },
-  "SMH": {
-    "price": 556.63,
-    "change_pct": -4.82,
-    "name": "VanEck Semiconductor ETF",
-    "updated_at": "2026-08-31T23:17:20.418099",
-    "price_14d_ago": 584.83
-  },
-  "SMP-500": {
-    "price": 7686.14,
-    "change_pct": -0.8,
-    "name": "S&P 500",
-    "updated_at": "2026-08-31T23:17:20.472604",
-    "price_14d_ago": 7748.5
-  },
-  "SNWGF": {
-    "price": 12.51,
-    "change_pct": 4.08,
-    "name": "SNOWLINE GOLD CORP",
-    "updated_at": "2026-08-31T23:17:20.557789",
-    "price_14d_ago": 12.02
-  },
-  "SPCE": {
-    "price": 2.92,
-    "change_pct": -11.52,
-    "name": "Virgin Galactic Holdings, Inc.",
-    "updated_at": "2026-08-31T23:17:20.653081",
-    "price_14d_ago": 3.3
-  },
-  "SPX": {
-    "price": 7686.14,
-    "change_pct": -0.8,
-    "name": "S&P 500",
-    "updated_at": "2026-08-31T23:17:20.712255",
-    "price_14d_ago": 7748.5
-  },
-  "SPY": {
-    "price": 767.05,
-    "change_pct": -0.7,
-    "name": "State Street SPDR S&P 500 ETF T",
-    "updated_at": "2026-08-31T23:17:20.794052",
-    "price_14d_ago": 772.49
-  },
-  "SQUARE": {
-    "price": 82.02,
-    "change_pct": 4.78,
-    "name": "Block, Inc.",
-    "updated_at": "2026-08-31T23:17:20.895157",
-    "price_14d_ago": 78.28
+  "BTC": {
+    "price": 78086.12,
+    "change_pct": 12.73,
+    "name": "BTC",
+    "updated_at": "2026-09-01T06:49:05.294326"
   },
   "TSLA": {
     "price": 367.95,
     "change_pct": 12.35,
-    "name": "Tesla, Inc.",
-    "updated_at": "2026-08-31T23:17:20.954116",
-    "price_14d_ago": 327.51
+    "name": "TSLA",
+    "updated_at": "2026-09-01T06:49:05.294332"
   },
-  "URANIUM": {
-    "price": 45.51,
-    "change_pct": 0.69,
-    "name": "Uranium ETF",
-    "updated_at": "2026-08-31T23:17:21.034921",
-    "price_14d_ago": 45.2
+  "AMZN": {
+    "price": 259.77,
+    "change_pct": -2.81,
+    "name": "AMZN",
+    "updated_at": "2026-09-01T06:49:05.294338"
+  },
+  "META": {
+    "price": 572.34,
+    "change_pct": -1.12,
+    "name": "META",
+    "updated_at": "2026-09-01T06:49:05.294344"
   },
   "WTI": {
-    "price": 86.44,
-    "change_pct": 3.81,
-    "name": "WTI Crude",
-    "updated_at": "2026-08-31T23:17:21.102883",
-    "price_14d_ago": 83.27
+    "price": 3.71,
+    "change_pct": 1.08,
+    "name": "WTI",
+    "updated_at": "2026-09-01T06:49:05.294350"
   },
-  "WTI CRUDE OIL": {
-    "price": 86.44,
-    "change_pct": 3.81,
-    "name": "WTI Crude",
-    "updated_at": "2026-08-31T23:17:21.168520",
-    "price_14d_ago": 83.27
+  "S&P 500": {
+    "price": 767.05,
+    "change_pct": -0.7,
+    "name": "S&P 500",
+    "updated_at": "2026-09-01T06:49:05.294356"
+  },
+  "AAPL": {
+    "price": 316.85,
+    "change_pct": 4.83,
+    "name": "AAPL",
+    "updated_at": "2026-09-01T06:49:05.294361"
   },
   "QQQ": {
     "price": 716.76,
     "change_pct": -0.96,
-    "name": "Invesco QQQ Trust, Series 1",
-    "updated_at": "2026-08-31T23:17:21.295754",
-    "price_14d_ago": 723.7
+    "name": "Invesco QQQ Trust",
+    "updated_at": "2026-09-01T06:49:05.294367"
   },
-  "_metadata": {
-    "last_updated": "2026-08-31T23:17:21.295773",
-    "count": 40
+  "BTC-USD": {
+    "price": 78086.12,
+    "change_pct": 12.73,
+    "name": "Bitcoin USD",
+    "updated_at": "2026-09-01T06:49:05.294373"
   }
 }
