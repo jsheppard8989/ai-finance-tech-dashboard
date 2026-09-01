@@ -128,28 +128,13 @@ def print_brief(report: dict[str, Any]) -> None:
     print()
 
 
-def notify_pushover(report: dict[str, Any]) -> None:
-    if report.get("ok"):
-        return
-    script = WORKSPACE / "pushover.sh"
-    if not script.is_file():
-        return
-    subprocess.run(
-        [str(script), "Site QA failed", report["summary"][:900]],
-        check=False,
-        cwd=str(WORKSPACE),
-    )
-
-
 def main() -> int:
     ap = argparse.ArgumentParser(description="QA the podcast dashboard site.")
-    ap.add_argument("--notify", action="store_true")
+    ap.add_argument("--notify", action="store_true", help="(deprecated, no-op)")
     args = ap.parse_args()
     report = run_checks()
     write_report(report)
     print_brief(report)
-    if args.notify:
-        notify_pushover(report)
     return 0 if report["ok"] else 1
 
 

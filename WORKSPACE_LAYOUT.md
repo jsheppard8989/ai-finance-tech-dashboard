@@ -21,7 +21,7 @@ How this repository root is organized and where pipeline vs site artifacts live.
 | `pipeline/` | Data pipeline: fetch → transcribe → analyze → export |
 | `site/` | Static site (data, charts, index) |
 | `contacts.py`, `contact_api.py`, `contact_search.py` | Contact form backend and APIs |
-| `pushover.sh`, `send_imessage.sh` | Notifications (used by pipeline) |
+| `send_imessage.sh` | iMessage notifications (used by pipeline) |
 | `pending_contacts.json` | Pending contact form submissions |
 
 ## pipeline/

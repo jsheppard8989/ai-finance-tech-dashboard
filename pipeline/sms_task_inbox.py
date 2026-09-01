@@ -3,7 +3,7 @@
 Phone → agent task inbox.
 
 Accepts HTTP POST /task with JSON {"text": "fix the homepage debate player"} or form field `text`.
-Appends to pipeline/state/agent_tasks.jsonl and optionally notifies via Pushover.
+Appends to pipeline/state/agent_tasks.jsonl.
 
 Run on your Mac (LAN or via ngrok/Cloudflare tunnel for Twilio SMS webhooks):
 
@@ -24,14 +24,13 @@ from __future__ import annotations
 
 import argparse
 import json
-import subprocess
 import sys
 from datetime import datetime, timezone
 from http.server import BaseHTTPRequestHandler, HTTPServer
 from pathlib import Path
 from urllib.parse import parse_qs
 
-from workspace_paths import STATE_DIR, WORKSPACE_ROOT as WORKSPACE
+from workspace_paths import STATE_DIR
 
 INBOX = STATE_DIR / "agent_tasks.jsonl"
 
@@ -46,17 +45,6 @@ def append_task(text: str, source: str = "http") -> dict:
     with INBOX.open("a", encoding="utf-8") as fh:
         fh.write(json.dumps(entry) + "\n")
     return entry
-
-
-def notify_task(text: str) -> None:
-    script = WORKSPACE / "pushover.sh"
-    if not script.is_file():
-        return
-    subprocess.run(
-        [str(script), "Agent task queued", text[:900]],
-        check=False,
-        cwd=str(WORKSPACE),
-    )
 
 
 class TaskHandler(BaseHTTPRequestHandler):
@@ -96,7 +84,6 @@ class TaskHandler(BaseHTTPRequestHandler):
             self._ok({"ok": False, "error": "empty text"})
             return
         entry = append_task(text, source=source)
-        notify_task(text)
         self._ok({"ok": True, "queued": entry})
 
 

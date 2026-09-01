@@ -2,7 +2,7 @@
 """
 Gated site publish: export → validate bundle → git commit/push (site/ only).
 
-Fails closed: if validation fails, nothing is committed. Uses the same Pushover/iMessage
+Fails closed: if validation fails, nothing is committed. Uses the same iMessage
 notifications as auto_pipeline on git failure.
 
 Usage:
