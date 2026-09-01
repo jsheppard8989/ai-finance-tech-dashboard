@@ -9,7 +9,6 @@ You are not competing with passive dashboards. You need to **queue work** from y
 | `pipeline/sms_task_inbox.py serve` | Local HTTP inbox on `127.0.0.1:8787/task` |
 | `pipeline/state/agent_tasks.jsonl` | Append-only task queue |
 | `pipeline/site_qa.py` | Twice-daily site editor QA (launchd plist in `docs/launchd/`) |
-| `pushover.sh` | Alerts when QA fails or a task is queued |
 
 ## Option A — Apple Shortcuts (fastest, no Twilio)
 
@@ -34,11 +33,7 @@ Tasks land in `agent_tasks.jsonl`. Open Cursor on the Mac and say: *“Drain age
 
 1. Twilio number → **Messaging webhook** POST to your tunnel URL `/task`
 2. Twilio sends form body `Body=your message` — already supported by `sms_task_inbox.py`
-3. You text your Twilio number; task queues + Pushover ping (if keys set)
-
-## Option C — Pushover (notification-only)
-
-Already wired for pipeline failures. Reply-from-phone is limited; use Shortcuts/Twilio for two-way task intake.
+3. You text your Twilio number; task queues
 
 ## Site QA routine (automated editor)
 

@@ -136,10 +136,6 @@ Create `.env` in `pipeline/` directory:
 # Email (for newsletter ingestion)
 GMAIL_USER=your-email@gmail.com
 GMAIL_APP_PASSWORD=your-app-password
-
-# Optional: Pushover notifications
-PUSHOVER_TOKEN=your-pushover-token
-PUSHOVER_USER=your-pushover-user
 ```
 
 ### Automated Updates

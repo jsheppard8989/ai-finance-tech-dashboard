@@ -90,16 +90,8 @@ def release_lock() -> None:
         pass
 
 def send_notification(title: str, message: str, priority: int = 0):
-    """Send Pushover + iMessage notification."""
-    pushover = WORKSPACE / "pushover.sh"
+    """Send iMessage notification."""
     imessage = WORKSPACE / "send_imessage.sh"
-
-    if pushover.exists():
-        try:
-            subprocess.run([str(pushover), title, message, str(priority)],
-                           capture_output=True, timeout=15)
-        except Exception as e:
-            print(f"  Pushover failed: {e}")
 
     if imessage.exists():
         try:

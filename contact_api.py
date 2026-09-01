@@ -1,10 +1,9 @@
 #!/usr/bin/env python3
 """
-contact_api.py — lightweight local API to capture contact-form submissions
-and trigger a pushover notification.
+contact_api.py — lightweight local API to capture contact-form submissions.
 """
 from http.server import BaseHTTPRequestHandler, HTTPServer
-import json, time, subprocess
+import json, time
 from datetime import datetime
 import sys
 from pathlib import Path
@@ -14,7 +13,6 @@ sys.path.insert(0, str(_REPO / "pipeline"))
 from workspace_paths import WORKSPACE_ROOT as WORKSPACE
 
 PENDING_FILE = WORKSPACE / "pending_contacts.json"
-PUSHOVER_SCRIPT = WORKSPACE / "pushover.sh"
 
 class ContactHandler(BaseHTTPRequestHandler):
     def _set_headers(self, status=200):
@@ -71,18 +69,6 @@ class ContactHandler(BaseHTTPRequestHandler):
 
             with open(PENDING_FILE, 'w') as f:
                 json.dump(pending_data, f, indent=2)
-
-            # Trigger pushover notification
-            if PUSHOVER_SCRIPT.exists():
-                try:
-                    subprocess.run([
-                        str(PUSHOVER_SCRIPT),
-                        "New Contact",
-                        f"{name} ({contact}) just signed up.",
-                        "0"
-                    ])
-                except Exception as e:
-                    print('Pushover error:', e)
 
             self._set_headers(200)
             self.wfile.write(json.dumps({'status': 'ok'}).encode())

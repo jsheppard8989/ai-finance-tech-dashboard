@@ -26,7 +26,6 @@ from workspace_paths import STATE_DIR, WORKSPACE_ROOT as WORKSPACE
 
 PENDING_FILE = STATE_DIR / "pending_term_promotions.json"
 IMESSAGE_SCRIPT = WORKSPACE / "send_imessage.sh"
-PUSHOVER_SCRIPT = WORKSPACE / "pushover.sh"
 NOTIFY_LOG_FILE = STATE_DIR / "term_promotion_notify_log.jsonl"
 
 
@@ -71,22 +70,6 @@ def _append_notify_log(entry: Dict[str, Any]) -> None:
         pass
 
 
-def _send_fallback_notification(title: str, message: str) -> None:
-    if not PUSHOVER_SCRIPT.is_file():
-        return
-    try:
-        subprocess.run(
-            [str(PUSHOVER_SCRIPT), title, message, "0"],
-            cwd=str(WORKSPACE),
-            capture_output=True,
-            text=True,
-            timeout=20,
-            check=False,
-        )
-    except Exception:
-        pass
-
-
 def notify_promoted_term(term_data: Dict[str, Any]) -> None:
     """
     Send iMessage asking if they want to keep the term; record token for NO <token> replies.
@@ -104,10 +87,6 @@ def notify_promoted_term(term_data: Dict[str, Any]) -> None:
                 "status": "skipped",
                 "reason": "send_imessage.sh missing",
             }
-        )
-        _send_fallback_notification(
-            "Term promotion notification skipped",
-            f'Promoted "{term}" but send_imessage.sh was not found; no iMessage sent.',
         )
         return
 
@@ -169,11 +148,6 @@ def notify_promoted_term(term_data: Dict[str, Any]) -> None:
                 "stdout": stdout[:500],
             }
         )
-        _send_fallback_notification(
-            "Term promotion iMessage failed",
-            f'Promoted "{term}" but osascript could not send iMessage (rc={run.returncode}). '
-            f"See term_promotion_notify_log.jsonl for details.",
-        )
     except Exception as e:
         _append_notify_log(
             {
@@ -184,10 +158,6 @@ def notify_promoted_term(term_data: Dict[str, Any]) -> None:
                 "status": "error",
                 "error": str(e)[:500],
             }
-        )
-        _send_fallback_notification(
-            "Term promotion iMessage error",
-            f'Promoted "{term}" but iMessage send raised an exception. Check term_promotion_notify_log.jsonl.',
         )
 
 
