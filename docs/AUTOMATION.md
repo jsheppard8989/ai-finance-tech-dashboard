@@ -25,6 +25,8 @@ This doc explains how the 10pm pipeline is scheduled, why **sleep can prevent it
 
 **GitHub Actions:** Single workflow `.github/workflows/deploy.yml` deploys to GitHub Pages on push to `main` when `site/**` or `pipeline/data/**` change, plus manual `workflow_dispatch`. No scheduled Actions runs.
 
+**Site publish via PR:** Because `main` is protected by a ruleset requiring PRs, the pipeline cannot push directly to `main`. When `git_push(..., pathspecs=["site"])` is called, if the direct push is rejected (GH013), the pipeline automatically creates a `publish/dashboard-export-YYYY-MM-DD-HHMM` branch, opens a PR, and attempts to merge it. If auto-merge succeeds, the workflow continues normally. If merge is blocked (e.g., review required), the PR URL is printed and a notification is sent for manual merge.
+
 ---
 
 ## Active scheduler (canonical)

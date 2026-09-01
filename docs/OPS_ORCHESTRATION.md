@@ -38,3 +38,5 @@ GitHub repository ruleset (id `21978893`, name "Protect main (PR required)") on 
 - No signed commits or linear history requirement
 
 Note: The classic branch protection API still reports `main` as unprotected because protection is enforced via rulesets, not the legacy API.
+
+**Site publish path:** Because direct push to `main` is blocked (GH013), the pipeline's `git_push(..., pathspecs=["site"])` automatically falls back to creating a `publish/dashboard-export-*` branch and PR when the direct push is rejected. If the PR can be auto-merged (no review required), the publish succeeds. Otherwise, the PR URL is logged for manual merge.

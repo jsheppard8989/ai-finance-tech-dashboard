@@ -719,12 +719,104 @@ def maybe_run_weekly_debate_after_export() -> bool:
     return run_script("Weekly Debate", "debate_weekly.py", timeout=7200)
 
 
+def _get_timestamp_chicago_or_utc() -> str:
+    """Return timestamp string in America/Chicago if available, else UTC."""
+    try:
+        from zoneinfo import ZoneInfo
+        tz = ZoneInfo("America/Chicago")
+        return datetime.now(tz).strftime("%Y-%m-%d-%H%M")
+    except Exception:
+        return datetime.now().strftime("%Y-%m-%d-%H%M")
+
+
+def _publish_via_pr(commit_msg: str, pathspecs: list) -> tuple[bool, str]:
+    """
+    Create a branch + PR to land site changes when direct push to main is blocked (GH013).
+    
+    Returns (success, pr_url_or_error). On success, pr_url is the URL of the merged or open PR.
+    """
+    ts = _get_timestamp_chicago_or_utc()
+    branch_name = f"publish/dashboard-export-{ts}"
+    
+    print(f"\n  Publishing via PR: branch {branch_name}")
+    
+    try:
+        # Create and switch to publish branch from current HEAD (which has the commit)
+        result = subprocess.run(
+            ["git", "checkout", "-b", branch_name],
+            capture_output=True, text=True, cwd=WORKSPACE, timeout=30
+        )
+        if result.returncode != 0:
+            return False, f"git checkout -b failed: {result.stderr or result.stdout}"
+        
+        # Push branch to origin
+        push_result = subprocess.run(
+            ["git", "push", "-u", "origin", branch_name],
+            capture_output=True, text=True, cwd=WORKSPACE, timeout=60
+        )
+        if push_result.returncode != 0:
+            return False, f"git push branch failed: {push_result.stderr or push_result.stdout}"
+        
+        print(f"  ✓ Pushed branch {branch_name}")
+        
+        # Create PR using gh CLI
+        pr_title = "Publish site: automated dashboard export"
+        pr_body = f"""Automated site export via pipeline.
+
+**Commit:** {commit_msg}
+
+This PR was created automatically because direct push to `main` is blocked by branch protection (GH013).
+The pipeline exports site data and creates this PR to land the changes.
+"""
+        pr_create_result = subprocess.run(
+            ["gh", "pr", "create", "--base", "main", "--head", branch_name,
+             "--title", pr_title, "--body", pr_body],
+            capture_output=True, text=True, cwd=WORKSPACE, timeout=60
+        )
+        
+        if pr_create_result.returncode != 0:
+            err = pr_create_result.stderr or pr_create_result.stdout
+            return False, f"gh pr create failed: {err}"
+        
+        pr_url = (pr_create_result.stdout or "").strip()
+        print(f"  ✓ Created PR: {pr_url}")
+        
+        # Try to merge the PR
+        merge_result = subprocess.run(
+            ["gh", "pr", "merge", branch_name, "--merge", "--delete-branch"],
+            capture_output=True, text=True, cwd=WORKSPACE, timeout=120
+        )
+        
+        if merge_result.returncode == 0:
+            print(f"  ✓ PR merged and branch deleted")
+            # Switch back to main and pull
+            subprocess.run(["git", "checkout", "main"], cwd=WORKSPACE, capture_output=True)
+            subprocess.run(["git", "pull", "origin", "main"], cwd=WORKSPACE, capture_output=True)
+            return True, pr_url
+        else:
+            merge_err = (merge_result.stderr or merge_result.stdout or "").strip()
+            print(f"  ⚠ Auto-merge not possible: {merge_err}")
+            print(f"  → PR remains open: {pr_url}")
+            # Switch back to main (don't stay on publish branch)
+            subprocess.run(["git", "checkout", "main"], cwd=WORKSPACE, capture_output=True)
+            return False, pr_url
+            
+    except subprocess.TimeoutExpired:
+        return False, "PR creation timed out"
+    except Exception as e:
+        return False, str(e)
+
+
 def git_push(commit_msg: str, pathspecs=None) -> bool:
     """Commit and push changes to GitHub. On failure, log stderr and send notification.
     If GITHUB_PUSH_TOKEN is set in workspace .env, uses it for push (so cron can push without keychain).
 
     If pathspecs is set (e.g. [\"site\"]), only those paths are staged — use for publish_site.py so
     unrelated workspace changes are not swept into the same commit.
+    
+    When direct push to main is rejected (GH013 due to branch protection), falls back to
+    creating a publish/* branch and PR. If the PR can be auto-merged, returns True.
+    If merge fails (e.g. requires review), returns False but prints the PR URL.
     """
     print("\n" + "="*60)
     print("STEP: Push to GitHub")
@@ -848,6 +940,44 @@ def git_push(commit_msg: str, pathspecs=None) -> bool:
                         push_result = _do_push()
             if push_result.returncode != 0:
                 err = (push_result.stderr or push_result.stdout or str(push_result)).strip()
+                
+                # Check for GH013 (branch protection) or similar rejection
+                is_protected = (
+                    "gh013" in err.lower()
+                    or "protected branch" in err.lower()
+                    or "required status check" in err.lower()
+                    or "pull request" in err.lower() and "require" in err.lower()
+                )
+                
+                if is_protected and pathspecs:
+                    print(f"  ⚠ Direct push blocked by branch protection: {err[:200]}")
+                    print("  → Attempting publish via PR...")
+                    pr_ok, pr_url_or_err = _publish_via_pr(commit_msg, pathspecs)
+                    if pr_ok:
+                        print(f"  ✓ Site published via PR: {pr_url_or_err}")
+                        return True
+                    elif pr_url_or_err.startswith("http"):
+                        # PR created but merge failed — PR URL available
+                        print(f"\n{'='*60}")
+                        print(f"PR OPEN — MANUAL MERGE REQUIRED")
+                        print(f"URL: {pr_url_or_err}")
+                        print(f"{'='*60}\n")
+                        send_notification(
+                            "Pipeline: Site PR needs merge",
+                            f"Auto-merge blocked. PR open at:\n{pr_url_or_err}\n\n"
+                            "Merge manually to publish site.",
+                            priority=1,
+                        )
+                        return False
+                    else:
+                        print(f"✗ PR publish failed: {pr_url_or_err}")
+                        send_notification(
+                            "Pipeline: Site publish via PR failed",
+                            f"Direct push blocked and PR creation failed.\n\n{pr_url_or_err[:500]}",
+                            priority=1,
+                        )
+                        return False
+                
                 print(f"✗ Git push failed: {err}")
                 send_notification(
                     "Pipeline: Git push failed",
