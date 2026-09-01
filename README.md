@@ -144,7 +144,11 @@ PUSHOVER_USER=your-pushover-user
 
 ### Automated Updates
 
-Scheduling uses your preferred host (**cron**, **launchd**, or another runner). Jobs run `auto_pipeline.py` (full or `--analyze-only`). Example system cron entries:
+Scheduling uses your preferred host (**cron**, **launchd**, or another runner). Jobs run `auto_pipeline.py` (full or `--analyze-only`).
+
+> **Live state:** For the current schedule and LaunchAgent configuration on the production Mac, see **[docs/AUTOMATION.md](docs/AUTOMATION.md)**.
+
+Example system cron entries:
 
 ```bash
 crontab -e

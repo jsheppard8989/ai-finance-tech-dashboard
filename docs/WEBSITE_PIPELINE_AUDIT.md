@@ -1,5 +1,7 @@
 # Website & pipeline audit (2026-04-15)
 
+> **⚠️ Staleness notice (2026-08-31):** Several claims in this audit are now outdated. For **current** scheduling and LaunchAgent state, see **[docs/AUTOMATION.md](AUTOMATION.md)** ("Live state" section) and **[docs/OPS_ORCHESTRATION.md](OPS_ORCHESTRATION.md)** for ops RACI. This audit remains useful for historical context and technical-debt items that may still apply.
+
 This document records **inconsistencies**, **scheduling risks**, and **push/data-path** gaps found in-repo. Use it to prioritize fixes; it is not a substitute for checking what is actually **loaded** on your Mac (`launchctl list`, your scheduler UI if you use one, and `crontab -l`).
 
 ---
