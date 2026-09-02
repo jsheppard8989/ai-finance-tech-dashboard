@@ -1,0 +1,183 @@
+{
+  "_comment": "First-class market data objects for the idea radar. Treasury auctions, curve snapshots, and positioning data.",
+  "_updated": "2026-09-02",
+  "_data_status": "stub_awaiting_live_fetch",
+  "schema_version": 1,
+  
+  "treasury_calendar": {
+    "_comment": "Treasury refunding and auction calendar. Source: treasury.gov. Tony: set up fetch from https://home.treasury.gov/resource-center/data-chart-center/quarterly-refunding",
+    "_fetch_url": "https://home.treasury.gov/resource-center/data-chart-center/quarterly-refunding",
+    "_api_endpoint": "https://api.fiscaldata.treasury.gov/services/api/fiscal_service/",
+    "last_updated": null,
+    "next_refunding_announcement": {
+      "date": "2026-11-01",
+      "status": "estimated",
+      "notes": "Quarterly Refunding Announcement (QRA) - sets issuance sizes for next quarter"
+    },
+    "upcoming_auctions": [
+      {
+        "date": "2026-09-05",
+        "security": "3-Year Note",
+        "cusip": null,
+        "size_billions": null,
+        "status": "stub"
+      },
+      {
+        "date": "2026-09-06",
+        "security": "10-Year Note",
+        "cusip": null,
+        "size_billions": null,
+        "status": "stub"
+      },
+      {
+        "date": "2026-09-07",
+        "security": "30-Year Bond",
+        "cusip": null,
+        "size_billions": null,
+        "status": "stub"
+      }
+    ],
+    "recent_auction_results": [],
+    "refunding_context": {
+      "_comment": "Key metrics from latest QRA",
+      "net_coupon_issuance_q": null,
+      "bills_vs_coupons_mix": null,
+      "buyback_program_status": null
+    }
+  },
+  
+  "curve_data": {
+    "_comment": "Yield curve spreads and volatility. Sources: FRED (free, no key needed for basic series), Yahoo Finance.",
+    "_fred_series": {
+      "T10Y2Y": "10-Year minus 2-Year Treasury spread",
+      "T10Y3M": "10-Year minus 3-Month Treasury spread (preferred by some)",
+      "DGS2": "2-Year Treasury Constant Maturity",
+      "DGS10": "10-Year Treasury Constant Maturity", 
+      "DGS30": "30-Year Treasury Constant Maturity"
+    },
+    "_fetch_instructions": "Tony: Use FRED API (free, no key for <500 calls/day) at https://fred.stlouisfed.org/series/{SERIES_ID}/downloaddata. Or use yfinance Python package for ^TNX, ^FVX, ^TYX.",
+    "last_updated": null,
+    
+    "spreads": {
+      "2s10s": {
+        "label": "2s10s Spread",
+        "description": "10Y minus 2Y Treasury yield. Classic recession indicator. Negative = inverted curve.",
+        "value_bps": null,
+        "change_1d_bps": null,
+        "change_1w_bps": null,
+        "signal": null,
+        "fred_series": "T10Y2Y"
+      },
+      "10s30s": {
+        "label": "10s30s Spread (NOB proxy)",
+        "description": "30Y minus 10Y Treasury yield. Reflects long-end term premium and duration demand.",
+        "value_bps": null,
+        "change_1d_bps": null,
+        "change_1w_bps": null,
+        "signal": null,
+        "fred_series": null,
+        "calculation": "DGS30 - DGS10"
+      }
+    },
+    
+    "levels": {
+      "2y": {"value": null, "change_1d": null, "fred_series": "DGS2"},
+      "10y": {"value": null, "change_1d": null, "fred_series": "DGS10"},
+      "30y": {"value": null, "change_1d": null, "fred_series": "DGS30"}
+    },
+    
+    "move_index": {
+      "_comment": "MOVE Index - bond market VIX. Source: Yahoo Finance ^MOVE or ICE.",
+      "label": "MOVE Index",
+      "description": "Treasury implied volatility index. High readings = bond market stress/uncertainty.",
+      "value": null,
+      "change_1d": null,
+      "percentile_1y": null,
+      "yahoo_symbol": "^MOVE",
+      "signal": null,
+      "thresholds": {
+        "low": 80,
+        "normal": 100,
+        "elevated": 120,
+        "high": 150
+      }
+    }
+  },
+  
+  "cftc_cot": {
+    "_comment": "CFTC Commitment of Traders positioning data. Source: cftc.gov weekly reports.",
+    "_fetch_url": "https://www.cftc.gov/dea/futures/financial_lf.htm",
+    "_api_alternative": "Quandl CFTC dataset (may need key)",
+    "_fetch_instructions": "Tony: CFTC releases COT every Friday at 3:30pm ET for positions as of prior Tuesday. Parse the financial futures report for rates contracts.",
+    "last_updated": null,
+    "report_date": null,
+    
+    "rates_positioning": {
+      "10y_note": {
+        "label": "10-Year T-Note Futures",
+        "contract": "TY",
+        "asset_manager_net": null,
+        "leveraged_funds_net": null,
+        "dealer_net": null,
+        "change_1w": null,
+        "signal": null,
+        "percentile_1y": null
+      },
+      "2y_note": {
+        "label": "2-Year T-Note Futures",
+        "contract": "TU",
+        "asset_manager_net": null,
+        "leveraged_funds_net": null,
+        "dealer_net": null,
+        "change_1w": null,
+        "signal": null,
+        "percentile_1y": null
+      },
+      "30y_bond": {
+        "label": "30-Year T-Bond Futures",
+        "contract": "US",
+        "asset_manager_net": null,
+        "leveraged_funds_net": null,
+        "dealer_net": null,
+        "change_1w": null,
+        "signal": null,
+        "percentile_1y": null
+      }
+    },
+    
+    "btc_positioning": {
+      "_comment": "Bitcoin futures COT - added per JG request",
+      "cme_btc": {
+        "label": "CME Bitcoin Futures",
+        "contract": "BTC",
+        "asset_manager_net": null,
+        "leveraged_funds_net": null,
+        "dealer_net": null,
+        "change_1w": null,
+        "signal": null,
+        "percentile_1y": null
+      }
+    },
+    
+    "positioning_context": {
+      "_comment": "Narrative summary of positioning trends",
+      "summary": null,
+      "key_shift": null,
+      "crowded_trades": []
+    }
+  },
+  
+  "data_fetch_status": {
+    "_comment": "Track what data is live vs stubbed",
+    "treasury_calendar": "stub",
+    "curve_data": "stub",
+    "cftc_cot": "stub",
+    "follow_up_for_tony": [
+      "Set up FRED API fetch for curve data (free, no key needed for basic usage)",
+      "Set up Treasury auction calendar fetch from fiscaldata.treasury.gov API",
+      "Set up CFTC COT weekly parse from cftc.gov or Quandl",
+      "Add cron job to pipeline for weekly/daily updates",
+      "Consider yfinance package for MOVE index (^MOVE ticker)"
+    ]
+  }
+}

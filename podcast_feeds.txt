@@ -5,3 +5,5 @@ https://rss.libsyn.com/shows/254861/destinations/1928300.xml
 https://anchor.fm/s/f06c2370/podcast/rss
 https://api.substack.com/feed/podcast/1084089.rss
 https://api.substack.com/feed/podcast/69345.rss
+# Macro Voices - Treasury/Fed liquidity plumbing, curve/positioning
+https://feed.podbean.com/macrovoices/feed.xml

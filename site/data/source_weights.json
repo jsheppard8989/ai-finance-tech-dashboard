@@ -1,0 +1,46 @@
+{
+  "_comment": "DOCUMENTATION ONLY — NOT USED FOR SCORING. Reference classification of podcast sources by category. Overton is NOT a ranking engine for shows.",
+  "_updated": "2026-09-02",
+  "_status": "reference_only",
+  "schema_version": 1,
+  
+  "source_categories": {
+    "_comment": "Reference classification of sources. Not applied to scoring.",
+    
+    "vc_tech_cluster": {
+      "_comment": "VC/tech podcasts — all retained on RSS feed list",
+      "podcasts": [
+        "The a16z Show",
+        "All-In with Chamath, Jason, Sacks & Friedberg",
+        "Dwarkesh Podcast",
+        "Moonshots with Peter Diamandis",
+        "BG2 with Brad Gerstner and Bill Gurley",
+        "Latent Space: The AI Engineer Podcast"
+      ]
+    },
+    
+    "plumbing_niche": {
+      "_comment": "Plumbing/niche sources — Fed, macro, rates",
+      "podcasts": [
+        "Monetary Matters with Jack Farley",
+        "Macro Voices"
+      ],
+      "x_accounts": [
+        "Joseph Wang (@FedGuy12)",
+        "Alfonso Peccatiello (@MacroAlf)",
+        "Jim Bianco (@biancoresearch)"
+      ]
+    },
+    
+    "biotech_genomics": {
+      "_comment": "Biotech/genomics idea-space",
+      "x_accounts": [
+        "Eric Topol (@EricTopol)",
+        "Adam Feuerstein (@adamfeuerstein)"
+      ],
+      "blogs": [
+        "Derek Lowe (In the Pipeline)"
+      ]
+    }
+  }
+}
