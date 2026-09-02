@@ -549,40 +549,85 @@ class DashboardDB:
                       score.rank))
     
     def get_all_ticker_scores(self, limit: int = 50) -> List[Dict]:
-        """Get all tickers ranked by total weighted score from all mentions."""
+        """Get all tickers ranked by total weighted score from all mentions.
+        
+        Applies source weights: plumbing/niche sources get boosted,
+        VC cluster podcasts (a16z, All-In, Dwarkesh, Moonshots) get de-weighted.
+        """
+        # Try to load source weights for de-weighting VC cluster
+        try:
+            from source_weights import get_podcast_weight, is_vc_cluster_source
+            use_weights = True
+        except ImportError:
+            use_weights = False
+        
         with self._get_connection() as conn:
+            # Get per-mention data to apply source weights
             cursor = conn.execute("""
                 SELECT 
                     ticker,
-                    SUM(weighted_score) as total_score,
-                    COUNT(*) as raw_mention_count,
-                    COUNT(DISTINCT source_type) as unique_sources,
-                    SUM(CASE WHEN source_type = 'podcast' THEN 1 ELSE 0 END) as podcast_mentions,
-                    SUM(CASE WHEN source_type = 'newsletter' THEN 1 ELSE 0 END) as newsletter_mentions
+                    weighted_score,
+                    source_type,
+                    source_name
                 FROM ticker_mentions
                 WHERE ticker NOT IN ('S&P', 'Nasdaq', 'Russell', 'Semiconductors')
-                GROUP BY ticker
-                ORDER BY total_score DESC
-                LIMIT ?
-            """, (limit,))
+            """)
             
+            # Aggregate with source weights applied
+            ticker_data = {}
+            for row in cursor.fetchall():
+                ticker = row['ticker']
+                base_score = row['weighted_score'] or 0
+                source_name = row['source_name'] or ''
+                source_type = row['source_type'] or ''
+                
+                # Apply source weight multiplier
+                if use_weights and source_type == 'podcast':
+                    weight = get_podcast_weight(source_name)
+                    weighted_score = base_score * weight
+                else:
+                    weighted_score = base_score
+                
+                if ticker not in ticker_data:
+                    ticker_data[ticker] = {
+                        'ticker': ticker,
+                        'total_score': 0,
+                        'raw_mention_count': 0,
+                        'unique_sources': set(),
+                        'podcast_mentions': 0,
+                        'newsletter_mentions': 0,
+                    }
+                
+                ticker_data[ticker]['total_score'] += weighted_score
+                ticker_data[ticker]['raw_mention_count'] += 1
+                ticker_data[ticker]['unique_sources'].add(source_name)
+                if source_type == 'podcast':
+                    ticker_data[ticker]['podcast_mentions'] += 1
+                elif source_type == 'newsletter':
+                    ticker_data[ticker]['newsletter_mentions'] += 1
+            
+            # Convert to list and sort
+            results_list = list(ticker_data.values())
+            results_list.sort(key=lambda x: x['total_score'], reverse=True)
+            
+            # Format output
             results = []
             rank = 1
-            for row in cursor.fetchall():
+            for item in results_list[:limit]:
                 results.append({
-                    'ticker': row['ticker'],
-                    'total_score': round(row['total_score'], 1),
-                    'raw_mention_count': row['raw_mention_count'],
-                    'unique_sources': row['unique_sources'],
-                    'podcast_mentions': row['podcast_mentions'],
-                    'newsletter_mentions': row['newsletter_mentions'],
+                    'ticker': item['ticker'],
+                    'total_score': round(item['total_score'], 1),
+                    'raw_mention_count': item['raw_mention_count'],
+                    'unique_sources': len(item['unique_sources']),
+                    'podcast_mentions': item['podcast_mentions'],
+                    'newsletter_mentions': item['newsletter_mentions'],
                     'rank': rank,
-                    'score': round(row['total_score'], 1),  # For frontend compatibility
-                    'mentions': row['raw_mention_count'],  # For frontend compatibility
-                    'conviction_level': 'medium',  # Default, can be enhanced
-                    'contrarian_signal': 'neutral',  # Default, can be enhanced
-                    'timeframe': 'long_term',  # Default, can be enhanced
-                    'contexts': []  # Can be populated with actual contexts if needed
+                    'score': round(item['total_score'], 1),
+                    'mentions': item['raw_mention_count'],
+                    'conviction_level': 'medium',
+                    'contrarian_signal': 'neutral',
+                    'timeframe': 'long_term',
+                    'contexts': []
                 })
                 rank += 1
             return results
@@ -1111,6 +1156,7 @@ class DashboardDB:
                     3. Specificity: established/saturated terms get 85% penalty
                     4. Recency bonus: recent last_mentioned adds a small boost
                     5. Minimum mentions gate: require 2+ mentions to rank
+                    6. Source weight: plumbing/niche sources boost, VC cluster relegates
                     """
                     term_name = term.get("term") or ""
                     mc = int(term.get("mention_count") or 0)
@@ -1141,9 +1187,21 @@ class DashboardDB:
                     # 5. Mention count factor (log scale to avoid volume domination)
                     mention_factor = _log2(1 + mc) / _log2(10)  # Normalize: 10 mentions → 1.0
                     
+                    # 6. Source weight multiplier (from source_weights.json)
+                    # Plumbing/niche sources (Macro Voices, Monetary Matters) get boost
+                    # VC cluster (a16z, All-In, Dwarkesh, Moonshots) get relegated
+                    source_weight = 1.0
+                    try:
+                        from source_weights import get_podcast_weight
+                        first_podcast = term.get("first_detected_podcast") or ""
+                        if first_podcast:
+                            source_weight = get_podcast_weight(first_podcast)
+                    except ImportError:
+                        pass  # source_weights module not available, use default
+                    
                     # Combined score
                     base_score = freshness * diversity_bonus * specificity * (0.5 + mention_factor)
-                    return base_score + recency_bonus
+                    return (base_score + recency_bonus) * source_weight
 
                 def _resonance_pct(novelty_score: float, mention_count: int) -> int:
                     """

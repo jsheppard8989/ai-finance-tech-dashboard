@@ -1,0 +1,57 @@
+{
+  "_comment": "Source weights for Overton/ticker ranking. Lower weight = relegated (crowd-map recaps, not ranking engine). Higher weight = plumbing/niche sources prioritized.",
+  "_updated": "2026-09-02",
+  "schema_version": 1,
+  
+  "podcast_weights": {
+    "_default": 1.0,
+    
+    "relegated_vc_cluster": {
+      "_comment": "VC/tech cluster podcasts - keep as crowd-map recaps, lower weight in rankings",
+      "The a16z Show": 0.3,
+      "All-In with Chamath, Jason, Sacks & Friedberg": 0.3,
+      "Dwarkesh Podcast": 0.3,
+      "Moonshots with Peter Diamandis": 0.3,
+      "BG2 with Brad Gerstner and Bill Gurley": 0.4,
+      "Latent Space: The AI Engineer Podcast": 0.4
+    },
+    
+    "plumbing_niche": {
+      "_comment": "Plumbing/niche sources - prioritized in rankings for novel ideas",
+      "Monetary Matters with Jack Farley": 1.5,
+      "Macro Voices": 1.8,
+      "Fed Guy (Joseph Wang)": 2.0
+    }
+  },
+  
+  "x_source_weights": {
+    "_comment": "X/Twitter accounts - high-signal niche sources",
+    "_default": 1.2,
+    "fed_plumbing": 2.0,
+    "macro_niche": 1.8,
+    "biotech_genomics": 1.5
+  },
+  
+  "data_source_weights": {
+    "_comment": "First-class data objects (not pundit narrative)",
+    "treasury_auctions": 2.5,
+    "curve_data": 2.0,
+    "cftc_cot": 1.8,
+    "fred_series": 1.5
+  },
+  
+  "ranking_rules": {
+    "overton": {
+      "_comment": "Overton ranking prefers plumbing/niche over VC cluster",
+      "source_diversity_bonus": 1.2,
+      "first_seen_recency_weight": 1.5,
+      "vc_cluster_mention_cap": 3,
+      "niche_source_multiplier": 1.5
+    },
+    "ticker": {
+      "_comment": "Ticker ranking de-emphasizes VC cluster mention count",
+      "vc_cluster_weight_multiplier": 0.4,
+      "plumbing_source_weight_multiplier": 1.8
+    }
+  }
+}

@@ -3,6 +3,3 @@
 
 # The Jack Mallers Show
 https://anchor.fm/s/e29097f4/podcast/rss
-
-# Macro Voices
-https://feed.podbean.com/macrovoices/feed.xml

@@ -1,0 +1,326 @@
+{
+  "_comment": "Curated high-signal sources beyond the VC podcast cluster. source_type distinguishes X vs podcast vs newsletter vs data_feed.",
+  "_updated": "2026-09-02",
+  "schema_version": 1,
+  
+  "pundits": [
+    {
+      "id": "fed-guy-joseph-wang",
+      "name": "Joseph Wang",
+      "slug": "joseph-wang",
+      "alias": "Fed Guy",
+      "source_type": "x_and_substack",
+      "category": "fed_plumbing",
+      "bio": "Former senior trader at the NY Fed's Open Market Desk. Author of 'Central Banking 101'. Expert on Fed operations, Treasury markets, and liquidity plumbing.",
+      "known_for": "Deep expertise in Fed balance sheet mechanics, repo markets, Treasury issuance, and reserve dynamics. Breaks down FOMC decisions and Treasury refunding announcements.",
+      "focus_areas": ["Fed liquidity", "Treasury markets", "Repo operations", "QT mechanics", "Reserve balances"],
+      "x_handle": "@FedGuy12",
+      "x_url": "https://x.com/FedGuy12",
+      "substack_url": "https://fedguy.com/",
+      "podcast_appearances": ["Macro Voices", "Forward Guidance", "Blockworks Macro"],
+      "profile_url": "https://fedguy.com/about/",
+      "last_updated": "2026-09-02",
+      "ingestion_status": "seed_only",
+      "ingestion_hook": "X API or Substack RSS needed for live ingestion"
+    },
+    {
+      "id": "alfonso-peccatiello",
+      "name": "Alfonso Peccatiello",
+      "slug": "alfonso-peccatiello",
+      "alias": "Macro Alf",
+      "source_type": "x_and_substack",
+      "category": "macro_niche",
+      "bio": "Former head of fixed income at ING. Runs The Macro Compass, covering global macro, bonds, and cross-asset positioning.",
+      "known_for": "Credit impulse analysis, bond market positioning, and macro regime frameworks. Focuses on what moves institutional flows.",
+      "focus_areas": ["Credit impulse", "Bond positioning", "Macro regimes", "Cross-asset flows"],
+      "x_handle": "@MacroAlf",
+      "x_url": "https://x.com/MacroAlf",
+      "substack_url": "https://themacrocompass.substack.com/",
+      "last_updated": "2026-09-02",
+      "ingestion_status": "seed_only",
+      "ingestion_hook": "Substack RSS: https://themacrocompass.substack.com/feed"
+    },
+    {
+      "id": "andy-constan",
+      "name": "Andy Constan",
+      "slug": "andy-constan",
+      "source_type": "x",
+      "category": "macro_niche",
+      "bio": "Former CIO at Bridgewater. Deep expertise in macro trading, volatility, and portfolio construction.",
+      "known_for": "Options/vol strategy, macro frameworks, and institutional positioning insights.",
+      "focus_areas": ["Volatility", "Options strategy", "Macro trading", "Portfolio construction"],
+      "x_handle": "@dampedspring",
+      "x_url": "https://x.com/dampedspring",
+      "last_updated": "2026-09-02",
+      "ingestion_status": "seed_only",
+      "ingestion_hook": "X API needed"
+    },
+    {
+      "id": "michael-howell",
+      "name": "Michael Howell",
+      "slug": "michael-howell",
+      "source_type": "x_and_newsletter",
+      "category": "macro_niche",
+      "bio": "Founder of CrossBorder Capital. Expert on global liquidity cycles and their impact on asset prices.",
+      "known_for": "Global liquidity tracking, Central Bank balance sheet analysis, and liquidity-driven asset allocation.",
+      "focus_areas": ["Global liquidity", "Central Bank balance sheets", "Liquidity cycles", "Asset allocation"],
+      "x_handle": "@crossabordr",
+      "x_url": "https://x.com/crossabordr",
+      "website_url": "https://www.crossbordercapital.com/",
+      "last_updated": "2026-09-02",
+      "ingestion_status": "seed_only",
+      "ingestion_hook": "Website scrape or X API"
+    },
+    {
+      "id": "george-goncalves",
+      "name": "George Goncalves",
+      "slug": "george-goncalves",
+      "source_type": "x",
+      "category": "fed_plumbing",
+      "bio": "Head of US Macro Strategy at MUFG. Deep rates market expertise.",
+      "known_for": "Treasury market analysis, curve trades, and Fed policy implications for rates.",
+      "focus_areas": ["Treasury markets", "Yield curve", "Fed policy", "Rates strategy"],
+      "x_handle": "@bondstrategist",
+      "x_url": "https://x.com/bondstrategist",
+      "last_updated": "2026-09-02",
+      "ingestion_status": "seed_only",
+      "ingestion_hook": "X API needed"
+    },
+    {
+      "id": "dario-perkins",
+      "name": "Dario Perkins",
+      "slug": "dario-perkins",
+      "source_type": "x",
+      "category": "macro_niche",
+      "bio": "Managing Director, Global Macro at TS Lombard. Former UK Treasury economist.",
+      "known_for": "Witty macro commentary, central bank analysis, and economic cycle frameworks.",
+      "focus_areas": ["Central banks", "Economic cycles", "Policy analysis", "Global macro"],
+      "x_handle": "@DarioPerkins",
+      "x_url": "https://x.com/DarioPerkins",
+      "last_updated": "2026-09-02",
+      "ingestion_status": "seed_only",
+      "ingestion_hook": "X API needed"
+    },
+    {
+      "id": "jim-bianco",
+      "name": "Jim Bianco",
+      "slug": "jim-bianco",
+      "source_type": "x_and_podcast",
+      "category": "macro_niche",
+      "bio": "President of Bianco Research. Known for contrarian macro calls and fixed income expertise.",
+      "known_for": "Bond market analysis, inflation views, Fed criticism, and contrarian macro calls.",
+      "focus_areas": ["Fixed income", "Inflation", "Fed policy", "Market structure"],
+      "x_handle": "@biabordar",
+      "x_url": "https://x.com/biancoresearch",
+      "podcast_appearances": ["Macro Voices", "Real Vision", "Wealthion"],
+      "last_updated": "2026-09-02",
+      "ingestion_status": "seed_only",
+      "ingestion_hook": "X API or podcast guest extraction"
+    },
+    {
+      "id": "eric-topol",
+      "name": "Eric Topol",
+      "slug": "eric-topol",
+      "source_type": "x_and_substack",
+      "category": "biotech_genomics",
+      "bio": "Cardiologist, geneticist, and digital health researcher. Founder of Scripps Research Translational Institute.",
+      "known_for": "AI in medicine, genomics breakthroughs, and digital health innovation. Author of 'Deep Medicine'.",
+      "focus_areas": ["AI in medicine", "Genomics", "Digital health", "Clinical trials"],
+      "x_handle": "@EricTopol",
+      "x_url": "https://x.com/EricTopol",
+      "substack_url": "https://erictopol.substack.com/",
+      "last_updated": "2026-09-02",
+      "ingestion_status": "seed_only",
+      "ingestion_hook": "Substack RSS: https://erictopol.substack.com/feed"
+    },
+    {
+      "id": "derek-lowe",
+      "name": "Derek Lowe",
+      "slug": "derek-lowe",
+      "source_type": "blog",
+      "category": "biotech_genomics",
+      "bio": "Medicinal chemist with decades of pharma R&D experience. Writes 'In the Pipeline' at Science magazine.",
+      "known_for": "Drug discovery insights, clinical trial analysis, and pharma industry commentary. Known for 'Things I Won't Work With' series.",
+      "focus_areas": ["Drug discovery", "Clinical trials", "Pharma R&D", "Chemistry"],
+      "blog_url": "https://www.science.org/blogs/pipeline",
+      "last_updated": "2026-09-02",
+      "ingestion_status": "seed_only",
+      "ingestion_hook": "RSS feed available at science.org"
+    },
+    {
+      "id": "andy-biotech",
+      "name": "Andy",
+      "slug": "andy-biotech",
+      "alias": "Biotech Scooper",
+      "source_type": "x",
+      "category": "biotech_genomics",
+      "bio": "Anonymous biotech analyst known for early calls on clinical trial readouts and M&A activity.",
+      "known_for": "Biotech catalyst tracking, clinical trial predictions, and FDA timeline analysis.",
+      "focus_areas": ["Clinical catalysts", "Biotech M&A", "FDA timelines", "Trial readouts"],
+      "x_handle": "@biotechscooper",
+      "x_url": "https://x.com/biotechscooper",
+      "last_updated": "2026-09-02",
+      "ingestion_status": "seed_only",
+      "ingestion_hook": "X API needed"
+    },
+    {
+      "id": "adam-feuerstein",
+      "name": "Adam Feuerstein",
+      "slug": "adam-feuerstein",
+      "source_type": "x_and_newsletter",
+      "category": "biotech_genomics",
+      "bio": "Senior biotech writer at STAT News. Veteran biotech journalist with deep industry sources.",
+      "known_for": "Breaking biotech news, FDA coverage, and pharma industry analysis.",
+      "focus_areas": ["Biotech news", "FDA decisions", "Pharma M&A", "Clinical trials"],
+      "x_handle": "@adamfeuerstein",
+      "x_url": "https://x.com/adamfeuerstein",
+      "publication_url": "https://www.statnews.com/",
+      "last_updated": "2026-09-02",
+      "ingestion_status": "seed_only",
+      "ingestion_hook": "X API or STAT RSS"
+    },
+    {
+      "id": "matthew-herper",
+      "name": "Matthew Herper",
+      "slug": "matthew-herper",
+      "source_type": "x_and_newsletter",
+      "category": "biotech_genomics",
+      "bio": "Senior writer at STAT News covering biotechnology and pharmaceuticals.",
+      "known_for": "Long-form biotech analysis, drug pricing coverage, and industry deep dives.",
+      "focus_areas": ["Biotech analysis", "Drug pricing", "Pharma strategy", "Science policy"],
+      "x_handle": "@matthewherper",
+      "x_url": "https://x.com/matthewherper",
+      "publication_url": "https://www.statnews.com/",
+      "last_updated": "2026-09-02",
+      "ingestion_status": "seed_only",
+      "ingestion_hook": "X API or STAT RSS"
+    },
+    {
+      "id": "luke-gromen",
+      "name": "Luke Gromen",
+      "slug": "luke-gromen",
+      "source_type": "x_and_newsletter",
+      "category": "macro_niche",
+      "bio": "Founder of Forest for the Trees (FFTT). Macro strategist focused on USD reserve currency dynamics and fiscal dominance.",
+      "known_for": "Petrodollar thesis, fiscal dominance framework, and gold/BTC as reserve diversification.",
+      "focus_areas": ["USD reserve status", "Fiscal dominance", "Gold", "Energy/petrodollar"],
+      "x_handle": "@LukeGromen",
+      "x_url": "https://x.com/LukeGromen",
+      "newsletter_url": "https://fftt-llc.com/",
+      "podcast_appearances": ["Macro Voices", "Real Vision", "Wealthion"],
+      "last_updated": "2026-09-02",
+      "ingestion_status": "seed_only",
+      "ingestion_hook": "Podcast guest extraction or X API"
+    },
+    {
+      "id": "sam-rines",
+      "name": "Sam Rines",
+      "slug": "sam-rines",
+      "source_type": "x_and_substack",
+      "category": "macro_niche",
+      "bio": "Economist and Managing Director at Corbu. Writes The Last Bear Standing.",
+      "known_for": "Economic cycle analysis, earnings/fundamentals focus, and contrarian takes.",
+      "focus_areas": ["Economic cycles", "Corporate earnings", "Fundamentals", "Macro strategy"],
+      "x_handle": "@SamRines",
+      "x_url": "https://x.com/SamRines",
+      "substack_url": "https://thelastbearstanding.substack.com/",
+      "last_updated": "2026-09-02",
+      "ingestion_status": "seed_only",
+      "ingestion_hook": "Substack RSS: https://thelastbearstanding.substack.com/feed"
+    }
+  ],
+  
+  "overton_seeds": {
+    "_comment": "Seed terms for the Overton radar from niche/plumbing sources (NOT the VC/agent swarm)",
+    "fed_plumbing": [
+      {
+        "term": "Reserve scarcity regime",
+        "description": "Fed operating framework where bank reserves are constrained, affecting overnight rates and requiring active Fed intervention.",
+        "first_source": "Joseph Wang (Fed Guy)",
+        "source_type": "x_and_substack",
+        "category": "fed_plumbing"
+      },
+      {
+        "term": "Treasury basis trade",
+        "description": "Hedge fund arbitrage between Treasury cash and futures, creating leveraged exposure that can amplify market stress.",
+        "first_source": "Macro Voices",
+        "source_type": "podcast",
+        "category": "fed_plumbing"
+      },
+      {
+        "term": "BTFP cliff",
+        "description": "Expiration of the Bank Term Funding Program creating potential liquidity stress for regional banks holding underwater securities.",
+        "first_source": "Joseph Wang (Fed Guy)",
+        "source_type": "x_and_substack",
+        "category": "fed_plumbing"
+      },
+      {
+        "term": "QT endpoint",
+        "description": "Debate over when the Fed will stop balance sheet runoff based on reserve levels and money market stress signals.",
+        "first_source": "Alfonso Peccatiello",
+        "source_type": "x_and_substack",
+        "category": "fed_plumbing"
+      }
+    ],
+    "curve_positioning": [
+      {
+        "term": "Bear steepener",
+        "description": "Yield curve steepening driven by long-end selling, often signaling fiscal concerns or reduced foreign demand.",
+        "first_source": "Macro Voices",
+        "source_type": "podcast",
+        "category": "curve_positioning"
+      },
+      {
+        "term": "Term premium normalization",
+        "description": "Return of positive term premium after years of suppression, repricing duration risk in long bonds.",
+        "first_source": "Jim Bianco",
+        "source_type": "x_and_podcast",
+        "category": "curve_positioning"
+      },
+      {
+        "term": "Curve control vs curve chaos",
+        "description": "Tension between central bank attempts to manage yield curves and market forces demanding higher term premia.",
+        "first_source": "Michael Howell",
+        "source_type": "x_and_newsletter",
+        "category": "macro_niche"
+      }
+    ],
+    "biotech_genomics": [
+      {
+        "term": "Spatial transcriptomics",
+        "description": "Technology mapping gene expression to tissue location, enabling new drug targets and diagnostic approaches.",
+        "first_source": "Eric Topol",
+        "source_type": "x_and_substack",
+        "category": "biotech_genomics"
+      },
+      {
+        "term": "AI-designed proteins",
+        "description": "Machine learning models (like AlphaFold successors) designing novel therapeutic proteins from scratch.",
+        "first_source": "Derek Lowe",
+        "source_type": "blog",
+        "category": "biotech_genomics"
+      },
+      {
+        "term": "Base editing vs prime editing",
+        "description": "Next-gen CRISPR variants with different precision/safety profiles, competing for therapeutic applications.",
+        "first_source": "Eric Topol",
+        "source_type": "x_and_substack",
+        "category": "biotech_genomics"
+      },
+      {
+        "term": "GLP-1 beyond obesity",
+        "description": "Expanding applications of GLP-1 agonists (Ozempic class) to cardiovascular, liver, and addiction indications.",
+        "first_source": "STAT News",
+        "source_type": "newsletter",
+        "category": "biotech_genomics"
+      },
+      {
+        "term": "Radiopharmaceuticals",
+        "description": "Targeted radiation therapies (like Novartis Pluvicto) as emerging cancer treatment modality with M&A activity.",
+        "first_source": "Adam Feuerstein",
+        "source_type": "x_and_newsletter",
+        "category": "biotech_genomics"
+      }
+    ]
+  }
+}

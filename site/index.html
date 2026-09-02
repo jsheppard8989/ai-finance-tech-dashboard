@@ -1753,14 +1753,49 @@
 
       </div>
 
-      <!-- Right Column - Podcast Pundits -->
+      <!-- Right Column - Podcast Pundits + Niche Sources -->
       <div class="right-col">
         <div class="card" id="guests-card">
-          <h2>Podcast Pundits</h2>
-          <p style="color: #8892b0; margin-bottom: 0.5rem; font-size: 0.9rem;">Guests who keep showing up — tap for a short profile and their latest angle.</p>
-          <p style="color: #6b7280; font-size: 0.8rem; margin-bottom: 1rem;">Up to twenty, ranked by recency and how often they appear.</p>
+          <h2>Pundits & Sources</h2>
+          <p style="color: #8892b0; margin-bottom: 0.5rem; font-size: 0.9rem;">Podcast guests + curated X/niche voices — tap for profile and latest angle.</p>
+          <p style="color: #6b7280; font-size: 0.8rem; margin-bottom: 1rem;">Ranked by recency; includes Fed plumbing, macro, and biotech sources.</p>
           <div id="guests-list"></div>
+          <!-- Niche X/Substack sources (from curated_sources.json) -->
+          <div id="niche-sources-list" style="margin-top: 1rem; border-top: 1px solid rgba(255,255,255,0.1); padding-top: 1rem;">
+            <h3 style="font-size: 0.85rem; color: #8892b0; margin-bottom: 0.5rem;">📡 Niche Sources (X / Substack)</h3>
+            <div id="niche-sources-container"></div>
+          </div>
         </div>
+      </div>
+    </div>
+
+    <!-- Market Plumbing Widgets (compact, supplemental - not replacing recaps) -->
+    <div class="plumbing-widgets" style="margin: 1rem 0; display: grid; grid-template-columns: repeat(auto-fit, minmax(200px, 1fr)); gap: 0.75rem;">
+      <div class="card" style="padding: 0.75rem; margin-bottom: 0;">
+        <h3 style="font-size: 0.9rem; color: #00d4ff; margin-bottom: 0.35rem;">📊 Treasury Calendar</h3>
+        <p style="color: #6b7280; font-size: 0.7rem; margin-bottom: 0.5rem;">Next QRA & auction schedule</p>
+        <div id="treasury-widget" style="font-size: 0.8rem; color: #a8b2d1;">
+          <span style="color: #8892b0;">Data stub — </span>
+          <a href="https://home.treasury.gov/resource-center/data-chart-center/quarterly-refunding" target="_blank" style="color: #00d4ff; font-size: 0.7rem;">treasury.gov</a>
+        </div>
+      </div>
+      <div class="card" style="padding: 0.75rem; margin-bottom: 0;">
+        <h3 style="font-size: 0.9rem; color: #00d4ff; margin-bottom: 0.35rem;">📈 Curve Snapshot</h3>
+        <p style="color: #6b7280; font-size: 0.7rem; margin-bottom: 0.5rem;">2s10s, 10s30s, MOVE</p>
+        <div id="curve-widget" style="display: flex; gap: 0.75rem; font-size: 0.75rem;">
+          <span style="color: #a8b2d1;"><strong>2s10s:</strong> —</span>
+          <span style="color: #a8b2d1;"><strong>MOVE:</strong> —</span>
+        </div>
+        <div style="margin-top: 0.3rem;"><span style="color: #6b7280; font-size: 0.65rem;">Source: FRED / Yahoo</span></div>
+      </div>
+      <div class="card" style="padding: 0.75rem; margin-bottom: 0;">
+        <h3 style="font-size: 0.9rem; color: #00d4ff; margin-bottom: 0.35rem;">📋 COT Positioning</h3>
+        <p style="color: #6b7280; font-size: 0.7rem; margin-bottom: 0.5rem;">CFTC rates & BTC</p>
+        <div id="cot-widget" style="display: flex; gap: 0.75rem; font-size: 0.75rem;">
+          <span style="color: #a8b2d1;"><strong>10Y:</strong> —</span>
+          <span style="color: #a8b2d1;"><strong>BTC:</strong> —</span>
+        </div>
+        <div style="margin-top: 0.3rem;"><span style="color: #6b7280; font-size: 0.65rem;">Source: CFTC (Fridays)</span></div>
       </div>
     </div>
 
@@ -2011,7 +2046,108 @@
     document.addEventListener('DOMContentLoaded', function() {
       loadPodcastGuests();
       loadOvertonWindow();
+      loadNicheSources();
+      loadMarketWidgets();
     });
+
+    // Load curated X/niche sources (Fed plumbing, macro, biotech)
+    async function loadNicheSources() {
+      const container = document.getElementById('niche-sources-container');
+      if (!container) return;
+
+      try {
+        const resp = await fetch('./data/curated_sources.json', { cache: 'no-cache' });
+        if (!resp.ok) {
+          container.innerHTML = '<p style="color: #6b7280; font-size: 0.8rem;">Niche sources loading...</p>';
+          return;
+        }
+        const data = await resp.json();
+        const pundits = data.pundits || [];
+
+        if (pundits.length === 0) {
+          container.innerHTML = '<p style="color: #6b7280; font-size: 0.8rem;">No niche sources yet.</p>';
+          return;
+        }
+
+        function esc(s) { return s == null ? '' : String(s).replace(/</g, '&lt;').replace(/>/g, '&gt;'); }
+        function getSourceBadge(type) {
+          const t = (type || '').toLowerCase();
+          if (t.includes('x')) return '<span style="background: rgba(29, 161, 242, 0.2); color: #1da1f2; font-size: 0.6rem; padding: 0.1rem 0.3rem; border-radius: 3px; margin-left: 0.3rem;">𝕏</span>';
+          if (t.includes('substack')) return '<span style="background: rgba(255, 102, 0, 0.2); color: #ff6600; font-size: 0.6rem; padding: 0.1rem 0.3rem; border-radius: 3px; margin-left: 0.3rem;">Substack</span>';
+          if (t === 'blog') return '<span style="background: rgba(255, 193, 7, 0.2); color: #ffc107; font-size: 0.6rem; padding: 0.1rem 0.3rem; border-radius: 3px; margin-left: 0.3rem;">Blog</span>';
+          return '';
+        }
+
+        // Show first 8 niche sources
+        container.innerHTML = pundits.slice(0, 8).map(function(p) {
+          const name = esc(p.name);
+          const alias = p.alias ? ' (' + esc(p.alias) + ')' : '';
+          const bio = esc(p.bio || '').substring(0, 120);
+          const badge = getSourceBadge(p.source_type);
+          const xLink = p.x_url ? '<a href="' + esc(p.x_url) + '" target="_blank" style="color: #1da1f2; font-size: 0.7rem; text-decoration: none;">𝕏</a>' : '';
+          const subLink = p.substack_url ? '<a href="' + esc(p.substack_url) + '" target="_blank" style="color: #ff6600; font-size: 0.7rem; text-decoration: none; margin-left: 0.4rem;">Substack</a>' : '';
+
+          return (
+            '<div style="background: rgba(0, 212, 255, 0.04); border: 1px solid rgba(0, 212, 255, 0.15); border-radius: 8px; padding: 0.6rem; margin-bottom: 0.5rem;">' +
+              '<div style="font-weight: 600; color: #00d4ff; font-size: 0.85rem;">' + name + alias + badge + '</div>' +
+              '<div style="color: #a8b2d1; font-size: 0.75rem; line-height: 1.35; margin: 0.25rem 0;">' + bio + (bio.length >= 120 ? '...' : '') + '</div>' +
+              '<div style="display: flex; gap: 0.5rem;">' + xLink + subLink + '</div>' +
+            '</div>'
+          );
+        }).join('');
+
+      } catch (e) {
+        console.warn('Could not load curated_sources.json:', e);
+        container.innerHTML = '<p style="color: #6b7280; font-size: 0.8rem;">Niche sources unavailable.</p>';
+      }
+    }
+
+    // Load market plumbing widgets (Treasury, Curve, COT)
+    async function loadMarketWidgets() {
+      try {
+        const resp = await fetch('./data/market_data.json', { cache: 'no-cache' });
+        if (!resp.ok) return;
+        const data = await resp.json();
+
+        // Update Treasury widget
+        const treasuryEl = document.getElementById('treasury-widget');
+        if (treasuryEl && data.treasury_calendar && data.treasury_calendar.next_refunding_announcement) {
+          const qra = data.treasury_calendar.next_refunding_announcement;
+          if (qra.date) {
+            treasuryEl.innerHTML = '<span style="color: #e8e8e8;">Next QRA: <strong>' + qra.date + '</strong></span> <span style="color: #6b7280; font-size: 0.7rem;">(' + (qra.status || 'est.') + ')</span>';
+          }
+        }
+
+        // Update Curve widget
+        const curveEl = document.getElementById('curve-widget');
+        if (curveEl && data.curve_data && data.curve_data.spreads) {
+          const s2s10s = data.curve_data.spreads['2s10s'];
+          const move = data.curve_data.move_index;
+          const v2s10s = s2s10s && s2s10s.value_bps ? s2s10s.value_bps + 'bp' : '—';
+          const vMove = move && move.value ? move.value : '—';
+          curveEl.innerHTML = '<span style="color: #a8b2d1;"><strong>2s10s:</strong> ' + v2s10s + '</span><span style="color: #a8b2d1;"><strong>MOVE:</strong> ' + vMove + '</span>';
+        }
+
+        // Update COT widget
+        const cotEl = document.getElementById('cot-widget');
+        if (cotEl && data.cftc_cot) {
+          const cot = data.cftc_cot;
+          let v10y = '—', vBtc = '—';
+          if (cot.rates_positioning && cot.rates_positioning['10y_note']) {
+            const net = cot.rates_positioning['10y_note'].leveraged_funds_net;
+            if (net !== null) v10y = (net > 0 ? '+' : '') + net + 'K';
+          }
+          if (cot.btc_positioning && cot.btc_positioning.cme_btc) {
+            const net = cot.btc_positioning.cme_btc.leveraged_funds_net;
+            if (net !== null) vBtc = (net > 0 ? '+' : '') + net + 'K';
+          }
+          cotEl.innerHTML = '<span style="color: #a8b2d1;"><strong>10Y:</strong> ' + v10y + '</span><span style="color: #a8b2d1;"><strong>BTC:</strong> ' + vBtc + '</span>';
+        }
+
+      } catch (e) {
+        console.warn('Could not load market_data.json:', e);
+      }
+    }
 
     async function loadPodcastGuests() {
       const container = document.getElementById('guests-list');
