@@ -2078,8 +2078,8 @@
           return '';
         }
 
-        // Show first 8 niche sources
-        container.innerHTML = pundits.slice(0, 8).map(function(p) {
+        // Render all curated niche sources (small list, ~14 entries)
+        container.innerHTML = pundits.map(function(p) {
           const name = esc(p.name);
           const alias = p.alias ? ' (' + esc(p.alias) + ')' : '';
           const bio = esc(p.bio || '').substring(0, 120);
