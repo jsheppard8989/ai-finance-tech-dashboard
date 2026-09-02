@@ -1,7 +1,7 @@
 {
-  "generated_at": "2026-09-01T18:29:20.384994",
-  "last_updated": "2026-09-01T18:29:20.384994",
-  "last_pipeline_run": "2026-09-01T18:29:20.384994",
+  "generated_at": "2026-09-01T22:40:00.767574",
+  "last_updated": "2026-09-01T22:40:00.767574",
+  "last_pipeline_run": "2026-09-01T22:40:00.767574",
   "main_page": {
     "overton": 13,
     "insights": 8,
@@ -18,33 +18,14 @@
     "podcasts_analyzed": 2
   },
   "step_results": {
-    "downloaded": 1,
-    "transcribed": 1,
-    "analyzed": 1,
-    "insight_created": 1,
-    "published": 1,
-    "total": 1
+    "downloaded": 0,
+    "transcribed": 0,
+    "analyzed": 0,
+    "insight_created": 0,
+    "published": 0,
+    "total": 0
   },
-  "episodes": [
-    {
-      "id": "substack:post:213682035",
-      "podcast": "Dwarkesh Podcast",
-      "title": "Ajeya Cotra \u2013 Inside the OpenAI agent swarm that hacked Hugging Face",
-      "published": "2026-09-01",
-      "rss_guid": "substack:post:213682035",
-      "stages": {
-        "downloaded": true,
-        "transcribed": true,
-        "analyzed": true,
-        "insight_created": true,
-        "published": true
-      },
-      "stage_reasons": {},
-      "first_blocker": null,
-      "remediation_by_stage": {},
-      "status": "complete"
-    }
-  ],
+  "episodes": [],
   "available_from_rss": [],
   "stale_episodes": [],
   "stale_threshold_days": 2,
