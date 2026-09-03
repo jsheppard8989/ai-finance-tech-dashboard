@@ -1,9 +1,8 @@
 {
   "_comment": "First-class market data objects for the idea radar. Treasury auctions, curve snapshots, and positioning data.",
-  "_updated": "2026-09-02",
+  "_updated": "2026-09-03",
   "_data_status": "stub_awaiting_live_fetch",
   "schema_version": 1,
-  
   "treasury_calendar": {
     "_comment": "Treasury refunding and auction calendar. Source: treasury.gov. Tony: set up fetch from https://home.treasury.gov/resource-center/data-chart-center/quarterly-refunding",
     "_fetch_url": "https://home.treasury.gov/resource-center/data-chart-center/quarterly-refunding",
@@ -45,19 +44,17 @@
       "buyback_program_status": null
     }
   },
-  
   "curve_data": {
     "_comment": "Yield curve spreads and volatility. Sources: FRED (free, no key needed for basic series), Yahoo Finance.",
     "_fred_series": {
       "T10Y2Y": "10-Year minus 2-Year Treasury spread",
       "T10Y3M": "10-Year minus 3-Month Treasury spread (preferred by some)",
       "DGS2": "2-Year Treasury Constant Maturity",
-      "DGS10": "10-Year Treasury Constant Maturity", 
+      "DGS10": "10-Year Treasury Constant Maturity",
       "DGS30": "30-Year Treasury Constant Maturity"
     },
     "_fetch_instructions": "Tony: Use FRED API (free, no key for <500 calls/day) at https://fred.stlouisfed.org/series/{SERIES_ID}/downloaddata. Or use yfinance Python package for ^TNX, ^FVX, ^TYX.",
     "last_updated": null,
-    
     "spreads": {
       "2s10s": {
         "label": "2s10s Spread",
@@ -79,13 +76,23 @@
         "calculation": "DGS30 - DGS10"
       }
     },
-    
     "levels": {
-      "2y": {"value": null, "change_1d": null, "fred_series": "DGS2"},
-      "10y": {"value": null, "change_1d": null, "fred_series": "DGS10"},
-      "30y": {"value": null, "change_1d": null, "fred_series": "DGS30"}
+      "2y": {
+        "value": null,
+        "change_1d": null,
+        "fred_series": "DGS2"
+      },
+      "10y": {
+        "value": null,
+        "change_1d": null,
+        "fred_series": "DGS10"
+      },
+      "30y": {
+        "value": null,
+        "change_1d": null,
+        "fred_series": "DGS30"
+      }
     },
-    
     "move_index": {
       "_comment": "MOVE Index - bond market VIX. Source: Yahoo Finance ^MOVE or ICE.",
       "label": "MOVE Index",
@@ -103,7 +110,6 @@
       }
     }
   },
-  
   "cftc_cot": {
     "_comment": "CFTC Commitment of Traders positioning data. Source: cftc.gov weekly reports.",
     "_fetch_url": "https://www.cftc.gov/dea/futures/financial_lf.htm",
@@ -111,7 +117,6 @@
     "_fetch_instructions": "Tony: CFTC releases COT every Friday at 3:30pm ET for positions as of prior Tuesday. Parse the financial futures report for rates contracts.",
     "last_updated": null,
     "report_date": null,
-    
     "rates_positioning": {
       "10y_note": {
         "label": "10-Year T-Note Futures",
@@ -144,7 +149,6 @@
         "percentile_1y": null
       }
     },
-    
     "btc_positioning": {
       "_comment": "Bitcoin futures COT - added per JG request",
       "cme_btc": {
@@ -158,7 +162,6 @@
         "percentile_1y": null
       }
     },
-    
     "positioning_context": {
       "_comment": "Narrative summary of positioning trends",
       "summary": null,
@@ -166,7 +169,6 @@
       "crowded_trades": []
     }
   },
-  
   "data_fetch_status": {
     "_comment": "Track what data is live vs stubbed",
     "treasury_calendar": "stub",
@@ -178,6 +180,85 @@
       "Set up CFTC COT weekly parse from cftc.gov or Quandl",
       "Add cron job to pipeline for weekly/daily updates",
       "Consider yfinance package for MOVE index (^MOVE ticker)"
-    ]
+    ],
+    "compute_forward": "live"
+  },
+  "compute_forward": {
+    "_comment": "GPU rental pricing index from SemiAnalysis. This is SURVEYED data from monthly surveys of 100+ neoclouds/buyers, validated against transactions. NOT a live market price.",
+    "_source_url": "https://gpu-index.semianalysis.com/",
+    "_data_type": "surveyed_index",
+    "_staleness_note": "Free public data lags several months behind current date. Display the as-of period prominently.",
+    "last_fetched": "2026-09-03T15:51:24.581315",
+    "h100": {
+      "period": "Apr 2026",
+      "composite_index": {
+        "display": "$2.82",
+        "type": "single",
+        "value": 2.82
+      },
+      "1y_contract": {
+        "display": "$2.10-2.70",
+        "type": "range",
+        "low": 2.1,
+        "high": 2.7,
+        "midpoint": 2.4000000000000004
+      },
+      "on_demand": {
+        "display": "Sold Out",
+        "type": "sold_out",
+        "period": "Apr 2026"
+      },
+      "trend": {
+        "direction": "rising_sharply",
+        "change_pct": 15.7,
+        "latest_value": 2.4000000000000004,
+        "latest_display": "$2.10-2.70",
+        "latest_period": "Apr 2026",
+        "comparison_period": "Feb 2026",
+        "comparison_value": 2.075,
+        "comparison_display": "$1.80-2.35",
+        "data_points": 18
+      }
+    },
+    "b200": {
+      "period": "Apr 2026",
+      "composite_index": {
+        "display": "$3.68",
+        "type": "single",
+        "value": 3.68
+      }
+    },
+    "history_summary": {
+      "oldest_period": "1H 2023",
+      "newest_period": "Apr 2026",
+      "total_periods": 18,
+      "recent_5": [
+        {
+          "period": "Dec 2025",
+          "1y_contract": "$1.45-2.00",
+          "on_demand": "$2.20-3.00"
+        },
+        {
+          "period": "Jan 2026",
+          "1y_contract": "$1.50-2.05",
+          "on_demand": "$2.20-3.00"
+        },
+        {
+          "period": "Feb 2026",
+          "1y_contract": "$1.80-2.35",
+          "on_demand": "Sold Out"
+        },
+        {
+          "period": "Mar 2026",
+          "1y_contract": "$2.00-2.70",
+          "on_demand": "Sold Out"
+        },
+        {
+          "period": "Apr 2026",
+          "1y_contract": "$2.10-2.70",
+          "on_demand": "Sold Out"
+        }
+      ]
+    }
   }
 }
