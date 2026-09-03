@@ -2178,21 +2178,24 @@
             }
           }
           
-          // Trend direction with visual indicator
+          // Trend direction with visual indicator and explicit comparison period
+          // IMPORTANT: Always show "vs [period]" so readers know what's being compared
           let vTrend = '—';
           if (h100.trend && h100.trend.direction) {
             const dir = h100.trend.direction;
             const pct = h100.trend.change_pct;
+            const vsPeriod = h100.trend.comparison_period || '?';
+            const pctSign = pct >= 0 ? '+' : '';
             if (dir === 'rising_sharply') {
-              vTrend = '<span style="color: #ef4444;">↑↑ +' + pct + '%</span>';
+              vTrend = '<span style="color: #ef4444;" title="' + pctSign + pct + '% vs ' + vsPeriod + '">↑↑ ' + pctSign + pct + '% vs ' + vsPeriod + '</span>';
             } else if (dir === 'rising') {
-              vTrend = '<span style="color: #f59e0b;">↑ +' + pct + '%</span>';
+              vTrend = '<span style="color: #f59e0b;" title="' + pctSign + pct + '% vs ' + vsPeriod + '">↑ ' + pctSign + pct + '% vs ' + vsPeriod + '</span>';
             } else if (dir === 'falling_sharply') {
-              vTrend = '<span style="color: #10b981;">↓↓ ' + pct + '%</span>';
+              vTrend = '<span style="color: #10b981;" title="' + pct + '% vs ' + vsPeriod + '">↓↓ ' + pct + '% vs ' + vsPeriod + '</span>';
             } else if (dir === 'falling') {
-              vTrend = '<span style="color: #22c55e;">↓ ' + pct + '%</span>';
+              vTrend = '<span style="color: #22c55e;" title="' + pct + '% vs ' + vsPeriod + '">↓ ' + pct + '% vs ' + vsPeriod + '</span>';
             } else if (dir === 'stable') {
-              vTrend = '<span style="color: #6b7280;">→ stable</span>';
+              vTrend = '<span style="color: #6b7280;" title="Stable vs ' + vsPeriod + '">→ stable vs ' + vsPeriod + '</span>';
             }
           }
           

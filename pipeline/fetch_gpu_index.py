@@ -12,6 +12,17 @@ This fetcher extracts:
 - Period/as-of date for staleness awareness
 
 The free public data LAGS by several months. This is intentional and must be displayed.
+
+TREND CALCULATION:
+The trend compares the latest period to the immediately previous period (period-over-period).
+This is a deliberate choice: the SemiAnalysis history uses varying period lengths (half-years
+and quarters in 2023-2024, monthly from mid-2025 onward), so a fixed "N-month" lookback would
+be misleading. Period-over-period is always honest because the comparison period is stored
+and displayed alongside the percentage. The UI must show "vs [comparison_period]" so readers
+know exactly what's being compared.
+
+All numeric values are rounded at the data boundary (2 decimal places for prices/midpoints,
+1 decimal place for percentages) to prevent floating point noise from reaching the page.
 """
 
 import json
@@ -97,9 +108,9 @@ def normalize_price_value(raw: str) -> Dict[str, Any]:
         return {
             'display': f'${low:.2f}-{high:.2f}',
             'type': 'range',
-            'low': low,
-            'high': high,
-            'midpoint': (low + high) / 2
+            'low': round(low, 2),
+            'high': round(high, 2),
+            'midpoint': round((low + high) / 2, 2)
         }
     
     single_match = re.match(r'\$?([\d.]+)', text)
@@ -215,8 +226,17 @@ def parse_history_table(rows: List[List[str]]) -> List[Dict[str, Any]]:
 
 def compute_trend(history: List[Dict[str, Any]], field: str = '1y_contract') -> Dict[str, Any]:
     """
-    Compute trend direction for a price series.
-    Returns trend info with direction, recent values, and change.
+    Compute trend direction for a price series using period-over-period comparison.
+    
+    Compares the latest period to the immediately previous period. This is deliberate:
+    the SemiAnalysis history uses varying period lengths (half-years/quarters early on,
+    monthly more recently), so a fixed N-month lookback would be misleading. By comparing
+    adjacent periods and storing both, the UI can display "vs [comparison_period]" for
+    full transparency.
+    
+    All numeric values are rounded to prevent floating point noise from reaching the page.
+    
+    Returns trend info with direction, values, and the explicit comparison period.
     """
     valid_points = []
     for h in history:
@@ -225,9 +245,9 @@ def compute_trend(history: List[Dict[str, Any]], field: str = '1y_contract') -> 
         price_data = h[field]
         if price_data['type'] in ('range', 'single'):
             if price_data['type'] == 'range':
-                value = price_data['midpoint']
+                value = round(price_data['midpoint'], 2)
             else:
-                value = price_data['value']
+                value = round(price_data['value'], 2)
             valid_points.append({
                 'period': h['period'],
                 'value': value,
@@ -237,13 +257,11 @@ def compute_trend(history: List[Dict[str, Any]], field: str = '1y_contract') -> 
     if len(valid_points) < 2:
         return {'direction': 'insufficient_data', 'points': len(valid_points)}
     
-    recent_3 = valid_points[-3:] if len(valid_points) >= 3 else valid_points[-2:]
-    recent_6 = valid_points[-6:] if len(valid_points) >= 6 else valid_points
+    latest = valid_points[-1]
+    previous = valid_points[-2]
     
-    latest = recent_3[-1]['value']
-    prev = recent_3[0]['value']
-    
-    change_pct = ((latest - prev) / prev) * 100 if prev > 0 else 0
+    change_pct = ((latest['value'] - previous['value']) / previous['value']) * 100 if previous['value'] > 0 else 0
+    change_pct = round(change_pct, 1)
     
     if change_pct > 10:
         direction = 'rising_sharply'
@@ -258,13 +276,13 @@ def compute_trend(history: List[Dict[str, Any]], field: str = '1y_contract') -> 
     
     return {
         'direction': direction,
-        'change_pct': round(change_pct, 1),
-        'latest_value': latest,
-        'latest_display': recent_3[-1]['display'],
-        'latest_period': recent_3[-1]['period'],
-        'comparison_period': recent_3[0]['period'],
-        'comparison_value': prev,
-        'comparison_display': recent_3[0]['display'],
+        'change_pct': change_pct,
+        'latest_value': latest['value'],
+        'latest_display': latest['display'],
+        'latest_period': latest['period'],
+        'comparison_period': previous['period'],
+        'comparison_value': previous['value'],
+        'comparison_display': previous['display'],
         'data_points': len(valid_points)
     }
 

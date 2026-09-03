@@ -188,7 +188,7 @@
     "_source_url": "https://gpu-index.semianalysis.com/",
     "_data_type": "surveyed_index",
     "_staleness_note": "Free public data lags several months behind current date. Display the as-of period prominently.",
-    "last_fetched": "2026-09-03T15:51:24.581315",
+    "last_fetched": "2026-09-03T15:56:37.685808",
     "h100": {
       "period": "Apr 2026",
       "composite_index": {
@@ -201,7 +201,7 @@
         "type": "range",
         "low": 2.1,
         "high": 2.7,
-        "midpoint": 2.4000000000000004
+        "midpoint": 2.4
       },
       "on_demand": {
         "display": "Sold Out",
@@ -209,14 +209,14 @@
         "period": "Apr 2026"
       },
       "trend": {
-        "direction": "rising_sharply",
-        "change_pct": 15.7,
-        "latest_value": 2.4000000000000004,
+        "direction": "stable",
+        "change_pct": 2.1,
+        "latest_value": 2.4,
         "latest_display": "$2.10-2.70",
         "latest_period": "Apr 2026",
-        "comparison_period": "Feb 2026",
-        "comparison_value": 2.075,
-        "comparison_display": "$1.80-2.35",
+        "comparison_period": "Mar 2026",
+        "comparison_value": 2.35,
+        "comparison_display": "$2.00-2.70",
         "data_points": 18
       }
     },
