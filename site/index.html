@@ -1797,6 +1797,21 @@
         </div>
         <div style="margin-top: 0.3rem;"><span style="color: #6b7280; font-size: 0.65rem;">Source: CFTC (Fridays)</span></div>
       </div>
+      <div class="card" style="padding: 0.75rem; margin-bottom: 0;">
+        <h3 style="font-size: 0.9rem; color: #00d4ff; margin-bottom: 0.35rem;">🖥️ Compute Forward</h3>
+        <p style="color: #6b7280; font-size: 0.7rem; margin-bottom: 0.5rem;">H100 1Y contract (surveyed)</p>
+        <div id="compute-forward-widget" style="font-size: 0.75rem;">
+          <div style="display: flex; gap: 0.75rem; flex-wrap: wrap;">
+            <span style="color: #a8b2d1;"><strong>1Y:</strong> —</span>
+            <span style="color: #a8b2d1;"><strong>Spot:</strong> —</span>
+            <span style="color: #a8b2d1;"><strong>Trend:</strong> —</span>
+          </div>
+          <div style="margin-top: 0.25rem; color: #6b7280; font-size: 0.65rem;">
+            <span id="compute-forward-period">As of: —</span>
+          </div>
+        </div>
+        <div style="margin-top: 0.3rem;"><a href="https://gpu-index.semianalysis.com/" target="_blank" style="color: #6b7280; font-size: 0.65rem;">Source: SemiAnalysis (surveyed index)</a></div>
+      </div>
     </div>
 
     <!-- Disclaimer -->
@@ -2142,6 +2157,58 @@
             if (net !== null) vBtc = (net > 0 ? '+' : '') + net + 'K';
           }
           cotEl.innerHTML = '<span style="color: #a8b2d1;"><strong>10Y:</strong> ' + v10y + '</span><span style="color: #a8b2d1;"><strong>BTC:</strong> ' + vBtc + '</span>';
+        }
+
+        // Update Compute Forward widget (GPU rental pricing - surveyed index)
+        const computeEl = document.getElementById('compute-forward-widget');
+        if (computeEl && data.compute_forward && data.compute_forward.h100) {
+          const cf = data.compute_forward;
+          const h100 = cf.h100;
+          
+          // 1Y contract price
+          const v1y = h100['1y_contract'] && h100['1y_contract'].display ? h100['1y_contract'].display : '—';
+          
+          // On-demand/spot status - surface "Sold Out" as the scarcity signal it is
+          let vSpot = '—';
+          if (h100.on_demand) {
+            if (h100.on_demand.type === 'sold_out') {
+              vSpot = '<span style="color: #ef4444;">Sold Out</span>';
+            } else if (h100.on_demand.display && h100.on_demand.display !== '—') {
+              vSpot = h100.on_demand.display;
+            }
+          }
+          
+          // Trend direction with visual indicator and explicit comparison period
+          // IMPORTANT: Always show "vs [period]" so readers know what's being compared
+          let vTrend = '—';
+          if (h100.trend && h100.trend.direction) {
+            const dir = h100.trend.direction;
+            const pct = h100.trend.change_pct;
+            const vsPeriod = h100.trend.comparison_period || '?';
+            const pctSign = pct >= 0 ? '+' : '';
+            if (dir === 'rising_sharply') {
+              vTrend = '<span style="color: #ef4444;" title="' + pctSign + pct + '% vs ' + vsPeriod + '">↑↑ ' + pctSign + pct + '% vs ' + vsPeriod + '</span>';
+            } else if (dir === 'rising') {
+              vTrend = '<span style="color: #f59e0b;" title="' + pctSign + pct + '% vs ' + vsPeriod + '">↑ ' + pctSign + pct + '% vs ' + vsPeriod + '</span>';
+            } else if (dir === 'falling_sharply') {
+              vTrend = '<span style="color: #10b981;" title="' + pct + '% vs ' + vsPeriod + '">↓↓ ' + pct + '% vs ' + vsPeriod + '</span>';
+            } else if (dir === 'falling') {
+              vTrend = '<span style="color: #22c55e;" title="' + pct + '% vs ' + vsPeriod + '">↓ ' + pct + '% vs ' + vsPeriod + '</span>';
+            } else if (dir === 'stable') {
+              vTrend = '<span style="color: #6b7280;" title="Stable vs ' + vsPeriod + '">→ stable vs ' + vsPeriod + '</span>';
+            }
+          }
+          
+          // Build the widget content
+          computeEl.innerHTML = 
+            '<div style="display: flex; gap: 0.75rem; flex-wrap: wrap;">' +
+              '<span style="color: #a8b2d1;"><strong>1Y:</strong> ' + v1y + '</span>' +
+              '<span style="color: #a8b2d1;"><strong>Spot:</strong> ' + vSpot + '</span>' +
+              '<span style="color: #a8b2d1;"><strong>Trend:</strong> ' + vTrend + '</span>' +
+            '</div>' +
+            '<div style="margin-top: 0.25rem; color: #6b7280; font-size: 0.65rem;">' +
+              '<span>As of: ' + (h100.period || '—') + ' (surveyed, lags current)</span>' +
+            '</div>';
         }
 
       } catch (e) {
