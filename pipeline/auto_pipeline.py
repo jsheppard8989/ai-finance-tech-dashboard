@@ -1132,6 +1132,7 @@ def main():
             )
 
         run_script("Fetch Prices", "fetch_prices.py", timeout=120)
+        run_script("Fetch GPU Index", "fetch_gpu_index.py", timeout=60)
         # Generate 2-week charts and price data for the website
         if not run_script("Generate Charts", "generate_charts.py", timeout=600):
             errors.append("charts")

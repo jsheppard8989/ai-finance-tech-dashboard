@@ -226,17 +226,25 @@ def parse_history_table(rows: List[List[str]]) -> List[Dict[str, Any]]:
 
 def compute_trend(history: List[Dict[str, Any]], field: str = '1y_contract') -> Dict[str, Any]:
     """
-    Compute trend direction for a price series using period-over-period comparison.
+    Compute trend for a price series using dual-horizon comparison.
     
-    Compares the latest period to the immediately previous period. This is deliberate:
-    the SemiAnalysis history uses varying period lengths (half-years/quarters early on,
-    monthly more recently), so a fixed N-month lookback would be misleading. By comparing
-    adjacent periods and storing both, the UI can display "vs [comparison_period]" for
-    full transparency.
+    Returns TWO comparisons:
+    1. Short-term: Latest period vs immediately previous period (period-over-period)
+    2. Long-term: Latest period vs anchor ~6 rows back (or earliest valid if <7 points)
+    
+    ANCHOR SELECTION RULE (deterministic, documented):
+    - If history has ≥7 valid data points: use index -7 (6 row intervals back from latest)
+    - Otherwise: use index 0 (earliest available point)
+    
+    IMPORTANT: The history contains non-monthly rows (1H 2023, 2H 2023, Q1 2024, etc.)
+    so row count does NOT equal calendar months. The `row_intervals` field explicitly
+    counts the number of valid data rows between anchor and latest, not elapsed time.
+    
+    ZERO/INVALID ANCHOR HANDLING:
+    If an anchor value is zero or negative, the percentage cannot be computed validly.
+    In this case, the long_term comparison is omitted entirely (fail-closed).
     
     All numeric values are rounded to prevent floating point noise from reaching the page.
-    
-    Returns trend info with direction, values, and the explicit comparison period.
     """
     valid_points = []
     for h in history:
@@ -255,66 +263,156 @@ def compute_trend(history: List[Dict[str, Any]], field: str = '1y_contract') -> 
             })
     
     if len(valid_points) < 2:
-        return {'direction': 'insufficient_data', 'points': len(valid_points)}
+        return {'insufficient_data': True, 'data_points': len(valid_points)}
     
     latest = valid_points[-1]
     previous = valid_points[-2]
     
-    change_pct = ((latest['value'] - previous['value']) / previous['value']) * 100 if previous['value'] > 0 else 0
-    change_pct = round(change_pct, 1)
+    # Short-term: period-over-period comparison
+    # Guard against zero/negative previous value (fail-closed: no percentage)
+    if previous['value'] <= 0:
+        return {'insufficient_data': True, 'data_points': len(valid_points), 
+                'reason': 'previous period value is zero or negative'}
     
-    if change_pct > 10:
-        direction = 'rising_sharply'
-    elif change_pct > 3:
-        direction = 'rising'
-    elif change_pct < -10:
-        direction = 'falling_sharply'
-    elif change_pct < -3:
-        direction = 'falling'
-    else:
-        direction = 'stable'
+    short_pct = ((latest['value'] - previous['value']) / previous['value']) * 100
+    short_pct = round(short_pct, 1)
     
-    return {
-        'direction': direction,
-        'change_pct': change_pct,
+    result = {
+        'data_points': len(valid_points),
         'latest_value': latest['value'],
         'latest_display': latest['display'],
         'latest_period': latest['period'],
-        'comparison_period': previous['period'],
-        'comparison_value': previous['value'],
-        'comparison_display': previous['display'],
-        'data_points': len(valid_points)
+        'short_term': {
+            'change_pct': short_pct,
+            'comparison_period': previous['period'],
+            'comparison_value': previous['value'],
+            'comparison_display': previous['display']
+        }
     }
+    
+    # Long-term: anchor selection per documented rule
+    # Prefer index -7 (6 row intervals back) if ≥7 points; otherwise earliest (index 0)
+    if len(valid_points) >= 7:
+        anchor_index = -7
+    else:
+        anchor_index = 0
+    
+    anchor = valid_points[anchor_index]
+    
+    # Only include long_term if:
+    # 1. Anchor differs from short_term comparison (i.e., at least 3 points)
+    # 2. Anchor value is positive (fail-closed: no invalid percentages)
+    if anchor['period'] != previous['period'] and anchor['value'] > 0:
+        long_pct = ((latest['value'] - anchor['value']) / anchor['value']) * 100
+        long_pct = round(long_pct, 1)
+        
+        # row_intervals: number of rows between anchor and latest (not calendar time)
+        # For index -7 with 18 points: latest is index 17, anchor is index 11, intervals = 6
+        # This is explicitly row-based because history has varying period lengths
+        # (1H 2023, Q1 2024, monthly from mid-2025, etc.)
+        if anchor_index < 0:
+            row_intervals = abs(anchor_index) - 1  # -7 means 6 intervals to latest
+        else:
+            row_intervals = len(valid_points) - 1 - anchor_index
+        
+        result['long_term'] = {
+            'change_pct': long_pct,
+            'anchor_period': anchor['period'],
+            'anchor_value': anchor['value'],
+            'anchor_display': anchor['display'],
+            'row_intervals': row_intervals
+        }
+    
+    # Legacy compatibility: keep 'change_pct' at top level but deprecate it
+    # The UI should migrate to using short_term/long_term objects
+    result['change_pct'] = short_pct
+    result['comparison_period'] = previous['period']
+    result['comparison_value'] = previous['value']
+    result['comparison_display'] = previous['display']
+    
+    return result
 
 
-def fetch_and_parse() -> Optional[Dict[str, Any]]:
+def validate_parsed_result(result: Dict[str, Any]) -> tuple[bool, str]:
+    """
+    Validate that a parsed result has all required fields with valid data.
+    Returns (is_valid, error_reason).
+    
+    Required for a valid result:
+    - h100.period must not be 'unknown' or empty
+    - h100.1y_contract must have a valid type (range or single), not unavailable
+    - h100.trend must have short_term data (not insufficient_data)
+    
+    This prevents partial/malformed parses from overwriting previously good data.
+    """
+    if not result:
+        return False, "result is None"
+    
+    h100 = result.get('h100', {})
+    
+    # Check period
+    period = h100.get('period', '')
+    if not period or period == 'unknown':
+        return False, "H100 period is missing or unknown"
+    
+    # Check 1y_contract has valid pricing data
+    contract = h100.get('1y_contract', {})
+    contract_type = contract.get('type', '')
+    if contract_type not in ('range', 'single'):
+        return False, f"H100 1y_contract type is '{contract_type}', expected range or single"
+    
+    # Check trend has valid short_term data
+    trend = h100.get('trend', {})
+    if trend.get('insufficient_data'):
+        return False, f"H100 trend has insufficient data: {trend.get('reason', 'unknown reason')}"
+    if not trend.get('short_term'):
+        return False, "H100 trend missing short_term comparison"
+    
+    return True, ""
+
+
+def fetch_and_parse() -> tuple[Optional[Dict[str, Any]], str]:
     """
     Main fetch and parse function.
-    Returns structured data for the compute forward widget.
+    Returns (structured_data, error_reason) tuple.
+    
+    On success: (data_dict, "")
+    On failure: (None, "reason for failure")
+    
+    The error_reason is used to mark existing data as stale with context.
     """
     print("Fetching SemiAnalysis GPU Index...")
     
     html = fetch_gpu_index_page()
     if not html:
-        return None
+        return None, "Network error: failed to fetch page"
     
     current_table_rows = parse_table_rows(html, 0)
     history_table_rows = parse_table_rows(html, 1)
     
-    if not current_table_rows or not history_table_rows:
-        print("  ✗ Failed to parse tables from HTML")
-        return None
+    if not current_table_rows:
+        return None, "Parse error: current market pricing table not found"
+    if not history_table_rows:
+        return None, "Parse error: pricing history table not found"
     
     current_data = parse_current_market_table(current_table_rows)
     history_data = parse_history_table(history_table_rows)
     
+    if not current_data:
+        return None, "Parse error: could not extract current market data from table"
+    if not history_data:
+        return None, "Parse error: could not extract history data from table"
+    
     h100_current = current_data.get('H100', {})
+    if not h100_current:
+        return None, "Parse error: H100 row not found in current market table"
+    
     h100_trend = compute_trend(history_data, '1y_contract')
     
     latest_on_demand = None
     for h in reversed(history_data):
         if 'on_demand' in h and h['on_demand']['type'] != 'unavailable':
-            latest_on_demand = h['on_demand']
+            latest_on_demand = h['on_demand'].copy()
             latest_on_demand['period'] = h['period']
             break
     
@@ -353,12 +451,59 @@ def fetch_and_parse() -> Optional[Dict[str, Any]]:
         }
     }
     
+    # Validate the result before accepting it
+    is_valid, error_reason = validate_parsed_result(result)
+    if not is_valid:
+        return None, f"Validation error: {error_reason}"
+    
     print(f"  ✓ Parsed H100 data for period: {result['h100']['period']}")
     print(f"    1Y Contract: {result['h100']['1y_contract']['display']}")
     print(f"    On-Demand: {result['h100']['on_demand']['display']}")
-    print(f"    Trend: {result['h100']['trend']['direction']} ({result['h100']['trend'].get('change_pct', 'N/A')}%)")
+    trend = result['h100']['trend']
+    if trend.get('short_term'):
+        short = trend['short_term']
+        long_str = ""
+        if trend.get('long_term'):
+            lt = trend['long_term']
+            long_str = f", {lt['change_pct']:+.1f}% since {lt['anchor_period']}"
+        print(f"    Trend: {short['change_pct']:+.1f}% vs {short['comparison_period']}{long_str}")
+    else:
+        print(f"    Trend: insufficient data ({trend.get('data_points', 0)} points)")
     
-    return result
+    return result, ""
+
+
+def mark_data_stale(error_reason: str) -> bool:
+    """
+    Mark existing compute_forward data as stale without overwriting it.
+    Called on fetch failure so the widget shows the last known good data
+    with a staleness indicator rather than fabricated or missing values.
+    """
+    try:
+        if not MARKET_DATA_FILE.exists():
+            print(f"  ⚠ No existing market_data.json to mark stale")
+            return False
+        
+        with open(MARKET_DATA_FILE, 'r') as f:
+            market_data = json.load(f)
+        
+        if 'compute_forward' in market_data:
+            market_data['compute_forward']['_stale'] = True
+            market_data['compute_forward']['_stale_since'] = datetime.now().isoformat()
+            market_data['compute_forward']['_stale_reason'] = error_reason
+        
+        if 'data_fetch_status' in market_data:
+            market_data['data_fetch_status']['compute_forward'] = 'stale'
+        
+        with open(MARKET_DATA_FILE, 'w') as f:
+            json.dump(market_data, f, indent=2)
+        
+        print(f"  ⚠ Marked compute_forward as stale: {error_reason}")
+        return True
+        
+    except Exception as e:
+        print(f"  ✗ Failed to mark data stale: {e}")
+        return False
 
 
 def update_market_data(gpu_data: Dict[str, Any]) -> bool:
@@ -395,19 +540,35 @@ def main():
     print(f"Started: {datetime.now()}")
     print("=" * 60)
     
-    data = fetch_and_parse()
+    data, error_reason = fetch_and_parse()
     
     if data:
-        update_market_data(data)
+        if not update_market_data(data):
+            mark_data_stale("Failed to write market_data.json")
+            return 1
         print("\n" + "=" * 60)
         print("SUMMARY")
         print("=" * 60)
         print(f"H100 1Y Contract: {data['h100']['1y_contract']['display']}")
         print(f"As-of Period: {data['h100']['period']}")
-        print(f"Trend: {data['h100']['trend']['direction']}")
+        trend = data['h100']['trend']
+        if trend.get('short_term'):
+            short = trend['short_term']
+            trend_str = f"{short['change_pct']:+.1f}% vs {short['comparison_period']}"
+            if trend.get('long_term'):
+                lt = trend['long_term']
+                trend_str += f" · {lt['change_pct']:+.1f}% since {lt['anchor_period']}"
+            print(f"Trend: {trend_str}")
+        else:
+            print(f"Trend: insufficient data")
         print(f"On-Demand Status: {data['h100']['on_demand']['display']}")
     else:
-        print("\n✗ Failed to fetch GPU index data")
+        # Fetch/parse/validation failed - mark existing data as stale but don't overwrite it
+        # This is fail-closed behavior: the widget shows last known good data
+        # with staleness indicator rather than fabricated or missing values
+        mark_data_stale(error_reason or "Unknown error during fetch/parse")
+        print(f"\n✗ Failed to fetch GPU index data: {error_reason}")
+        print("  (existing data preserved, marked stale)")
         return 1
     
     return 0

@@ -56,6 +56,22 @@ crontab -e
 
 Schedule runs however you prefer (cron, launchd, or a scheduler UI). To push without interactive auth, set **GITHUB_PUSH_TOKEN** in `.env`.
 
+## Scheduled data sources
+
+The pipeline fetches market data as part of each `auto_pipeline.py` run:
+
+| Script | Data | Source | Failure behavior |
+|--------|------|--------|-----------------|
+| `fetch_prices.py` | Ticker prices & 2-week changes | Yahoo Finance | Uses cached prices on failure |
+| `fetch_gpu_index.py` | GPU rental pricing (H100 1Y contract) | SemiAnalysis GPU Index | Marks data stale, preserves last-known-good |
+
+**GPU Index notes:**
+- Source: `https://gpu-index.semianalysis.com/` (server-rendered HTML scrape, no auth)
+- Free public data **lags several months** behind current date; the widget shows the as-of period
+- Trend shows dual horizons: short-term (vs prior period) and long-term (~6 periods back)
+- On fetch failure (network, timeout, page restructure): existing data preserved, marked `_stale: true`
+- Tests: `python3 test_gpu_index_trend.py`
+
 ## Robust podcast transcription (queue + worker) — recommended
 
 The approach that worked for the All-In episode: **transcription runs in a separate process** (queue + worker), so the main pipeline doesn’t hit OOM, timeouts, or SIGABRT.
