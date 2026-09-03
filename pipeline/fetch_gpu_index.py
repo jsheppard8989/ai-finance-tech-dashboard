@@ -226,17 +226,25 @@ def parse_history_table(rows: List[List[str]]) -> List[Dict[str, Any]]:
 
 def compute_trend(history: List[Dict[str, Any]], field: str = '1y_contract') -> Dict[str, Any]:
     """
-    Compute trend direction for a price series using period-over-period comparison.
+    Compute trend for a price series using dual-horizon comparison.
     
-    Compares the latest period to the immediately previous period. This is deliberate:
-    the SemiAnalysis history uses varying period lengths (half-years/quarters early on,
-    monthly more recently), so a fixed N-month lookback would be misleading. By comparing
-    adjacent periods and storing both, the UI can display "vs [comparison_period]" for
-    full transparency.
+    Returns TWO comparisons:
+    1. Short-term: Latest period vs immediately previous period (period-over-period)
+    2. Long-term: Latest period vs anchor ~6 periods back (or earliest valid if <7 points)
+    
+    ANCHOR SELECTION RULE (deterministic, documented):
+    - If history has ≥7 valid data points: use index -7 (6 periods back from latest)
+    - Otherwise: use index 0 (earliest available point)
+    This gives roughly "half a year" of context for monthly data, degrading gracefully
+    for shorter histories. The rule is intentionally simple so it stays honest as rows
+    are added—no hardcoded periods or magic dates.
+    
+    DIRECTION LABELS:
+    We deliberately omit subjective labels like "stable" or "rising" because a small
+    month-over-month change can mask a large multi-month trend. The UI should display
+    both labeled percentages and let readers draw conclusions.
     
     All numeric values are rounded to prevent floating point noise from reaching the page.
-    
-    Returns trend info with direction, values, and the explicit comparison period.
     """
     valid_points = []
     for h in history:
@@ -255,36 +263,58 @@ def compute_trend(history: List[Dict[str, Any]], field: str = '1y_contract') -> 
             })
     
     if len(valid_points) < 2:
-        return {'direction': 'insufficient_data', 'points': len(valid_points)}
+        return {'insufficient_data': True, 'data_points': len(valid_points)}
     
     latest = valid_points[-1]
     previous = valid_points[-2]
     
-    change_pct = ((latest['value'] - previous['value']) / previous['value']) * 100 if previous['value'] > 0 else 0
-    change_pct = round(change_pct, 1)
+    # Short-term: period-over-period comparison
+    short_pct = ((latest['value'] - previous['value']) / previous['value']) * 100 if previous['value'] > 0 else 0
+    short_pct = round(short_pct, 1)
     
-    if change_pct > 10:
-        direction = 'rising_sharply'
-    elif change_pct > 3:
-        direction = 'rising'
-    elif change_pct < -10:
-        direction = 'falling_sharply'
-    elif change_pct < -3:
-        direction = 'falling'
-    else:
-        direction = 'stable'
-    
-    return {
-        'direction': direction,
-        'change_pct': change_pct,
+    result = {
+        'data_points': len(valid_points),
         'latest_value': latest['value'],
         'latest_display': latest['display'],
         'latest_period': latest['period'],
-        'comparison_period': previous['period'],
-        'comparison_value': previous['value'],
-        'comparison_display': previous['display'],
-        'data_points': len(valid_points)
+        'short_term': {
+            'change_pct': short_pct,
+            'comparison_period': previous['period'],
+            'comparison_value': previous['value'],
+            'comparison_display': previous['display']
+        }
     }
+    
+    # Long-term: anchor selection per documented rule
+    # Prefer index -7 (6 periods back) if ≥7 points; otherwise earliest (index 0)
+    if len(valid_points) >= 7:
+        anchor_index = -7
+    else:
+        anchor_index = 0
+    
+    anchor = valid_points[anchor_index]
+    
+    # Only include long_term if anchor differs from short_term comparison
+    # (i.e., we have at least 3 points, so anchor != previous)
+    if anchor['period'] != previous['period']:
+        long_pct = ((latest['value'] - anchor['value']) / anchor['value']) * 100 if anchor['value'] > 0 else 0
+        long_pct = round(long_pct, 1)
+        result['long_term'] = {
+            'change_pct': long_pct,
+            'anchor_period': anchor['period'],
+            'anchor_value': anchor['value'],
+            'anchor_display': anchor['display'],
+            'periods_back': len(valid_points) - 1 + anchor_index if anchor_index < 0 else len(valid_points) - 1
+        }
+    
+    # Legacy compatibility: keep 'direction' and 'change_pct' at top level but deprecate them
+    # The UI should migrate to using short_term/long_term objects
+    result['change_pct'] = short_pct
+    result['comparison_period'] = previous['period']
+    result['comparison_value'] = previous['value']
+    result['comparison_display'] = previous['display']
+    
+    return result
 
 
 def fetch_and_parse() -> Optional[Dict[str, Any]]:
@@ -356,9 +386,51 @@ def fetch_and_parse() -> Optional[Dict[str, Any]]:
     print(f"  ✓ Parsed H100 data for period: {result['h100']['period']}")
     print(f"    1Y Contract: {result['h100']['1y_contract']['display']}")
     print(f"    On-Demand: {result['h100']['on_demand']['display']}")
-    print(f"    Trend: {result['h100']['trend']['direction']} ({result['h100']['trend'].get('change_pct', 'N/A')}%)")
+    trend = result['h100']['trend']
+    if trend.get('short_term'):
+        short = trend['short_term']
+        long_str = ""
+        if trend.get('long_term'):
+            lt = trend['long_term']
+            long_str = f", {lt['change_pct']:+.1f}% since {lt['anchor_period']}"
+        print(f"    Trend: {short['change_pct']:+.1f}% vs {short['comparison_period']}{long_str}")
+    else:
+        print(f"    Trend: insufficient data ({trend.get('data_points', 0)} points)")
     
     return result
+
+
+def mark_data_stale(error_reason: str) -> bool:
+    """
+    Mark existing compute_forward data as stale without overwriting it.
+    Called on fetch failure so the widget shows the last known good data
+    with a staleness indicator rather than fabricated or missing values.
+    """
+    try:
+        if not MARKET_DATA_FILE.exists():
+            print(f"  ⚠ No existing market_data.json to mark stale")
+            return False
+        
+        with open(MARKET_DATA_FILE, 'r') as f:
+            market_data = json.load(f)
+        
+        if 'compute_forward' in market_data:
+            market_data['compute_forward']['_stale'] = True
+            market_data['compute_forward']['_stale_since'] = datetime.now().isoformat()
+            market_data['compute_forward']['_stale_reason'] = error_reason
+        
+        if 'data_fetch_status' in market_data:
+            market_data['data_fetch_status']['compute_forward'] = 'stale'
+        
+        with open(MARKET_DATA_FILE, 'w') as f:
+            json.dump(market_data, f, indent=2)
+        
+        print(f"  ⚠ Marked compute_forward as stale: {error_reason}")
+        return True
+        
+    except Exception as e:
+        print(f"  ✗ Failed to mark data stale: {e}")
+        return False
 
 
 def update_market_data(gpu_data: Dict[str, Any]) -> bool:
@@ -398,16 +470,31 @@ def main():
     data = fetch_and_parse()
     
     if data:
-        update_market_data(data)
+        if not update_market_data(data):
+            mark_data_stale("Failed to write market_data.json")
+            return 1
         print("\n" + "=" * 60)
         print("SUMMARY")
         print("=" * 60)
         print(f"H100 1Y Contract: {data['h100']['1y_contract']['display']}")
         print(f"As-of Period: {data['h100']['period']}")
-        print(f"Trend: {data['h100']['trend']['direction']}")
+        trend = data['h100']['trend']
+        if trend.get('short_term'):
+            short = trend['short_term']
+            trend_str = f"{short['change_pct']:+.1f}% vs {short['comparison_period']}"
+            if trend.get('long_term'):
+                lt = trend['long_term']
+                trend_str += f" · {lt['change_pct']:+.1f}% since {lt['anchor_period']}"
+            print(f"Trend: {trend_str}")
+        else:
+            print(f"Trend: insufficient data")
         print(f"On-Demand Status: {data['h100']['on_demand']['display']}")
     else:
-        print("\n✗ Failed to fetch GPU index data")
+        # Fetch failed - mark existing data as stale but don't overwrite it
+        # This is fail-closed behavior: the widget shows last known good data
+        # with staleness indicator rather than fabricated or missing values
+        mark_data_stale("Fetch failed (network error, timeout, or page restructure)")
+        print("\n✗ Failed to fetch GPU index data (existing data preserved, marked stale)")
         return 1
     
     return 0

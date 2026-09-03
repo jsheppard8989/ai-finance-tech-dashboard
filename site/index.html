@@ -2178,25 +2178,41 @@
             }
           }
           
-          // Trend direction with visual indicator and explicit comparison period
-          // IMPORTANT: Always show "vs [period]" so readers know what's being compared
+          // Trend: dual-horizon display with labeled percentages
+          // Shows both short-term (vs prior period) and long-term (vs ~6mo anchor) when available
+          // No subjective labels like "stable" - let the numbers speak
           let vTrend = '—';
-          if (h100.trend && h100.trend.direction) {
-            const dir = h100.trend.direction;
+          if (h100.trend && h100.trend.short_term) {
+            const shortPct = h100.trend.short_term.change_pct;
+            const shortPeriod = h100.trend.short_term.comparison_period || '?';
+            const shortSign = shortPct >= 0 ? '+' : '';
+            
+            // Color based on long-term trend if available, otherwise short-term
+            const longTerm = h100.trend.long_term;
+            const colorPct = longTerm ? longTerm.change_pct : shortPct;
+            let color = '#6b7280'; // neutral gray
+            if (colorPct > 10) color = '#ef4444';       // strong up = red (cost rising)
+            else if (colorPct > 3) color = '#f59e0b';   // moderate up = amber
+            else if (colorPct < -10) color = '#10b981'; // strong down = green (cost falling)
+            else if (colorPct < -3) color = '#22c55e';  // moderate down = light green
+            
+            // Build trend string: short-term always shown
+            let trendParts = [shortSign + shortPct + '% vs ' + shortPeriod];
+            
+            // Add long-term if available and meaningful
+            if (longTerm && longTerm.anchor_period) {
+              const longSign = longTerm.change_pct >= 0 ? '+' : '';
+              trendParts.push(longSign + longTerm.change_pct + '% since ' + longTerm.anchor_period);
+            }
+            
+            const trendText = trendParts.join(' · ');
+            vTrend = '<span style="color: ' + color + ';" title="' + trendText + '">' + trendText + '</span>';
+          } else if (h100.trend && h100.trend.change_pct !== undefined) {
+            // Legacy fallback for old data format
             const pct = h100.trend.change_pct;
             const vsPeriod = h100.trend.comparison_period || '?';
             const pctSign = pct >= 0 ? '+' : '';
-            if (dir === 'rising_sharply') {
-              vTrend = '<span style="color: #ef4444;" title="' + pctSign + pct + '% vs ' + vsPeriod + '">↑↑ ' + pctSign + pct + '% vs ' + vsPeriod + '</span>';
-            } else if (dir === 'rising') {
-              vTrend = '<span style="color: #f59e0b;" title="' + pctSign + pct + '% vs ' + vsPeriod + '">↑ ' + pctSign + pct + '% vs ' + vsPeriod + '</span>';
-            } else if (dir === 'falling_sharply') {
-              vTrend = '<span style="color: #10b981;" title="' + pct + '% vs ' + vsPeriod + '">↓↓ ' + pct + '% vs ' + vsPeriod + '</span>';
-            } else if (dir === 'falling') {
-              vTrend = '<span style="color: #22c55e;" title="' + pct + '% vs ' + vsPeriod + '">↓ ' + pct + '% vs ' + vsPeriod + '</span>';
-            } else if (dir === 'stable') {
-              vTrend = '<span style="color: #6b7280;" title="Stable vs ' + vsPeriod + '">→ stable vs ' + vsPeriod + '</span>';
-            }
+            vTrend = '<span style="color: #6b7280;">' + pctSign + pct + '% vs ' + vsPeriod + '</span>';
           }
           
           // Build the widget content
