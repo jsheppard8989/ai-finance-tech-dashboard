@@ -188,7 +188,7 @@
     "_source_url": "https://gpu-index.semianalysis.com/",
     "_data_type": "surveyed_index",
     "_staleness_note": "Free public data lags several months behind current date. Display the as-of period prominently.",
-    "last_fetched": "2026-09-03T16:14:33.477229",
+    "last_fetched": "2026-09-03T14:01:32.514903",
     "h100": {
       "period": "Apr 2026",
       "composite_index": {
