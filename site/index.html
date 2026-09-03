@@ -2165,6 +2165,10 @@
           const cf = data.compute_forward;
           const h100 = cf.h100;
           
+          // Check for stale data - show indicator but keep displaying last-known-good values
+          const isStale = cf._stale === true;
+          const staleReason = cf._stale_reason || 'fetch failed';
+          
           // 1Y contract price
           const v1y = h100['1y_contract'] && h100['1y_contract'].display ? h100['1y_contract'].display : '—';
           
@@ -2199,8 +2203,8 @@
             // Build trend string: short-term always shown
             let trendParts = [shortSign + shortPct + '% vs ' + shortPeriod];
             
-            // Add long-term if available and meaningful
-            if (longTerm && longTerm.anchor_period) {
+            // Add long-term if available and meaningful (anchor must have valid value)
+            if (longTerm && longTerm.anchor_period && longTerm.anchor_value > 0) {
               const longSign = longTerm.change_pct >= 0 ? '+' : '';
               trendParts.push(longSign + longTerm.change_pct + '% since ' + longTerm.anchor_period);
             }
@@ -2215,6 +2219,14 @@
             vTrend = '<span style="color: #6b7280;">' + pctSign + pct + '% vs ' + vsPeriod + '</span>';
           }
           
+          // Build stale indicator if data is stale
+          let staleIndicator = '';
+          if (isStale) {
+            staleIndicator = '<div style="margin-top: 0.35rem; padding: 0.2rem 0.4rem; background: rgba(245, 158, 11, 0.15); border-radius: 3px; display: inline-block;">' +
+              '<span style="color: #f59e0b; font-size: 0.6rem;" title="' + staleReason + '">⚠ Stale — last successful fetch: ' + (cf.last_fetched ? new Date(cf.last_fetched).toLocaleDateString() : 'unknown') + '</span>' +
+            '</div>';
+          }
+          
           // Build the widget content
           computeEl.innerHTML = 
             '<div style="display: flex; gap: 0.75rem; flex-wrap: wrap;">' +
@@ -2224,7 +2236,8 @@
             '</div>' +
             '<div style="margin-top: 0.25rem; color: #6b7280; font-size: 0.65rem;">' +
               '<span>As of: ' + (h100.period || '—') + ' (surveyed, lags current)</span>' +
-            '</div>';
+            '</div>' +
+            staleIndicator;
         }
 
       } catch (e) {
