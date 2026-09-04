@@ -1,5 +1,215 @@
 [
   {
+    "id": 439,
+    "name": "Stefan Bunzel",
+    "slug": "stefan-bunzel",
+    "bio": "CEO of Moderna, leading the company's pivot from infectious disease vaccines to personalized cancer therapeutics and autoimmune applications.",
+    "known_for": "Pioneering commercial-scale personalized mRNA medicine manufacturing",
+    "net_worth_usd": 6000000000.0,
+    "net_worth_source": "https://www.celebritynetworth.com/richest-businessmen/ceos/stephane-bancel-net-worth/",
+    "net_worth_updated_at": "2026-09-04T08:47:09.957201",
+    "voice_tone": "Measured, operational, and quietly confident",
+    "voice_style": "Uses specific metrics and timelines to ground ambitious claims; emphasizes process rigor over scientific speculation",
+    "voice_delivery_notes": "Speaks with deliberate pacing on technical details; accelerates slightly when discussing future applications; maintain calm authority for TTS",
+    "voice_profile_updated_at": "2026-09-04 13:46:33",
+    "last_seen": "2026-09-04 13:46:33",
+    "last_episode_title": "Inside Moderna\u2019s Personalized Cancer Vaccine",
+    "last_podcast_name": "The a16z Show",
+    "last_episode_date": "2026-09-02",
+    "mention_score": 1,
+    "mention_score_decayed": 1,
+    "last_main_idea": "Moderna is transitioning from a COVID vaccine company to a platform biotech with a validated personalized medicine manufacturing system, where the melanoma approval would de-risk expansion into a $100B+ addressable market across oncology and autoimmune disease.",
+    "last_proof_cite": "The a16z Show \u2022 2026-09-02 \u2022 Inside Moderna\u2019s Personalized Cancer Vaccine",
+    "last_proof_snippet": "So first time there is a cancer vaccine working but field has been doing that for 20 plus years more than a thousand clinical trials that have all failed. What was different this time? What is it about mRNA technology that enables the immun",
+    "supporting_takeaway": "Personalization is foundational, not optional: 90% of tumor antigens differ patient-to-patient, making individualized manufacturing the core competitive moat",
+    "grokipedia_url": null,
+    "grokipedia_fetched_at": null,
+    "pundit_profile": null,
+    "net_worth": "$6.00B"
+  },
+  {
+    "id": 81,
+    "name": "Elon Musk",
+    "slug": "elon-musk",
+    "bio": "CEO of Tesla, SpaceX, and xAI; serial entrepreneur focused on sustainable energy, space exploration, and artificial intelligence.",
+    "known_for": "Building multi-billion dollar companies across EVs, space, and AI; world's wealthiest individual as of 2024",
+    "net_worth_usd": 270100000000.0,
+    "net_worth_source": "https://www.wikidata.org/wiki/Q317521",
+    "net_worth_updated_at": "2026-03-19T15:06:00.316451",
+    "voice_tone": "Confident, matter-of-fact, occasionally apocalyptic",
+    "voice_style": "Uses specific numerical projections to anchor arguments, frames problems in existential risk terms",
+    "voice_delivery_notes": "Speak with deliberate pacing on technical claims; his numbers-heavy assertions land with more weight when slightly slowed",
+    "voice_profile_updated_at": "2026-09-04 13:46:05",
+    "last_seen": "2026-09-04 13:46:05",
+    "last_episode_title": "Humanity's First Star Probe, Architect Labs Beats NVIDIA 3.4x, Musk Wants Satellites to Cool Earth | EP #285",
+    "last_podcast_name": "Moonshots with Peter Diamandis",
+    "last_episode_date": "2026-09-02",
+    "mention_score": 3,
+    "mention_score_decayed": 3,
+    "last_main_idea": "The convergence of AI compute demand and energy infrastructure constraints creates a dual-investment opportunity in renewable energy production and next-generation chip architectures, while nuclear propulsion and geoengineering represent emerging frontier markets with significant government backing.",
+    "last_proof_cite": "Moonshots with Peter Diamandis \u2022 2026-09-02 \u2022 Humanity's First Star Probe, Architect Labs Beats NVIDIA 3.4x, Musk Wants Satellites to Cool Earth | EP #285",
+    "last_proof_snippet": "The first interstellar mission to Alpha Centauri. Philip and Matt are here to join the Moonshot Mates. Are we the first kid on the block? Or are we now auditioning for a membership in a Cosmic Club? And the ticket to entry is, can you handl",
+    "supporting_takeaway": "Energy infrastructure is the critical bottleneck for AI expansion - 15 GW of 2027 compute capacity may be stranded without power",
+    "grokipedia_url": null,
+    "grokipedia_fetched_at": "2026-08-21T23:37:11.055855",
+    "pundit_profile": {
+      "source": "llm",
+      "source_model": "moonshot:moonshot-v1-8k",
+      "source_url": "",
+      "page_title": "Elon Musk",
+      "fetched_at": "2026-08-22T04:37:11.055483+00:00",
+      "cliff_notes": "Elon Musk was born in Pretoria, South Africa, and moved to the United States in 1995 to attend university. He dropped out of Stanford University's Ph.D. program in applied physics to start Zip2, a company that provided business directories and maps for newspapers. After selling Zip2, Musk co-founded X.com, which later became PayPal. He then founded SpaceX in 2002 with the goal of reducing space transportation costs and enabling the colonization of Mars. In 2004, Musk became an early investor in Tesla, an electric vehicle company, and later took over as CEO. Under his leadership, Tesla has become a major player in the electric vehicle market. Musk is also involved in several other ventures, including Neuralink, a neurotechnology company, and The Boring Company, which aims to reduce traffic congestion through underground tunnels. His ambitious goals and innovative ventures have made him a prominent figure in the tech and finance world.",
+      "derived": {
+        "current_role": "CEO of Tesla and SpaceX",
+        "former_positions": "CEO of Zip2; CEO of X.com (later PayPal); CEO of SolarCity",
+        "education": "Bachelor of Science in Physics and Economics from the University of Pennsylvania; transferred to Stanford University for Ph.D. in Applied Physics but left after two days",
+        "political_affiliation": "Independent"
+      },
+      "infobox": {
+        "Born": "June 28, 1971",
+        "Nationality": "South African-born American"
+      },
+      "lead_paragraphs": [
+        "Elon Musk was born in Pretoria, South Africa, and moved to the United States in 1995 to attend university. He dropped out of Stanford University's Ph.D. program in applied physics to start Zip2, a company that provided business directories and maps for newspapers. After selling Zip2, Musk co-founded X.com, which later became PayPal.",
+        "He then founded SpaceX in 2002 with the goal of reducing space transportation costs and enabling the colonization of Mars. In 2004, Musk became an early investor in Tesla, an electric vehicle company, and later took over as CEO. Under his leadership, Tesla has become a major player in the electric vehicle market. Musk is also involved in several other ventures, including Neuralink, a neurotechnology company, and The Boring Company, which aims to reduce traffic congestion through underground tunnels.",
+        "His ambitious goals and innovative ventures have made him a prominent figure in the tech and finance world."
+      ],
+      "sections": [
+        {
+          "heading": "Electric Vehicles",
+          "body": "Musk is the CEO of Tesla, a company that has revolutionized the electric vehicle market with its innovative designs and technology. Tesla's vehicles have set new standards for electric range, performance, and safety."
+        },
+        {
+          "heading": "Space Exploration",
+          "body": "As the CEO of SpaceX, Musk has made significant strides in reducing the cost of space travel and enabling the colonization of Mars. SpaceX has successfully developed reusable rockets and launched numerous satellites, including the Starlink constellation."
+        },
+        {
+          "heading": "Artificial Intelligence",
+          "body": "Musk is involved in AI through his company Neuralink, which aims to develop brain-computer interfaces to treat neurological disorders and enhance human cognition. He has also expressed concerns about the potential risks of AI and the need for regulation."
+        },
+        {
+          "heading": "Infrastructure and Transportation",
+          "body": "Musk founded The Boring Company to address traffic congestion through the development of underground hyperloop and tunnel systems. The company has completed several projects, including a tunnel in Las Vegas."
+        },
+        {
+          "heading": "Renewable Energy",
+          "body": "Tesla is not only an electric vehicle company but also a clean energy company, offering solar panels, solar roofs, and energy storage products. Musk's vision for a sustainable energy future extends beyond electric vehicles."
+        }
+      ]
+    },
+    "net_worth": "$270.10B"
+  },
+  {
+    "id": 438,
+    "name": "Dr. Carley Anderson",
+    "slug": "dr-carley-anderson",
+    "bio": "Nuclear energy expert specializing in advanced reactor design, fuel cycles, and commercialization pathways for next-generation nuclear technologies.",
+    "known_for": "Advancing small modular reactor deployment timelines and identifying early-market applications for advanced nuclear",
+    "net_worth_usd": null,
+    "net_worth_source": null,
+    "net_worth_updated_at": null,
+    "voice_tone": "Precise, technically authoritative with measured optimism",
+    "voice_style": "Uses specific engineering metrics and deployment timelines to ground bullish nuclear thesis in operational reality",
+    "voice_delivery_notes": "Emphasize numerical specifics ($100/MWh, sub-2 years, 50% efficiency) when reading quotes; maintain steady, confident pacing on technical claims",
+    "voice_profile_updated_at": "2026-09-04 13:45:14",
+    "last_seen": "2026-09-04 13:45:14",
+    "last_episode_title": "MacroVoices #548 Dr. Carly Anderson: Emerging Energy Technologies Roundup",
+    "last_podcast_name": "Macro Voices",
+    "last_episode_date": "2026-09-03",
+    "mention_score": 1,
+    "mention_score_decayed": 1,
+    "last_main_idea": "The convergence of AI-driven power demand and small modular reactor commercialization creates a multi-decade nuclear infrastructure investment cycle, with early returns captured by companies securing hyperscaler PPAs, manufacturing standardized reactor components, and innovating in fuel enrichment and power conversion technologies.",
+    "last_proof_cite": "Macro Voices \u2022 2026-09-03 \u2022 MacroVoices #548 Dr. Carly Anderson: Emerging Energy Technologies Roundup",
+    "last_proof_snippet": "You can't understate the importance of hyperscalers and data center builders to opening up these new markets and creating the conditions for a nuclear renaissance. Because you really do need somebody who's willing to sign a 20 year PBA for",
+    "supporting_takeaway": "Small modular reactor designs targeting sub-2-year deployment (ideally months) require mass production of standardized components, favoring manufacturing innovators over traditional EPC plays",
+    "grokipedia_url": null,
+    "grokipedia_fetched_at": null,
+    "pundit_profile": null
+  },
+  {
+    "id": 437,
+    "name": "Ben Milton Hall",
+    "slug": "ben-milton-hall",
+    "bio": "Applied researcher focused on practical deployment of 3D reconstruction technologies",
+    "known_for": "Demonstrating minimal-hardware approaches to high-fidelity 3D capture",
+    "net_worth_usd": 10000000.0,
+    "net_worth_source": "https://mabumbe.com/people/jace-hall-age-net-worth-relationships-family-career-highlights-more/",
+    "net_worth_updated_at": "2026-09-04T08:47:14.550190",
+    "voice_tone": "Pragmatic and demo-oriented, emphasizing accessibility",
+    "voice_style": "Uses concrete, low-friction examples to illustrate technical capabilities",
+    "voice_delivery_notes": "Deliver 'three iPhones on tripods' with casual emphasis to highlight the radical simplicity; maintain conversational momentum through the example",
+    "voice_profile_updated_at": "2026-09-04 13:44:50",
+    "last_seen": "2026-09-04 13:44:50",
+    "last_episode_title": "Fei Fei Li: The Race to Build World Models For AI",
+    "last_podcast_name": "The a16z Show",
+    "last_episode_date": "2026-09-04",
+    "mention_score": 1,
+    "mention_score_decayed": 1,
+    "last_main_idea": "New view prediction and unified 3D world models represent a paradigm shift in computer vision with investable implications across AI infrastructure, robotics simulation, and creative tools, where first-movers leveraging multi-modal efficiency gains will capture disproportionate value as compute constraints ease.",
+    "last_proof_cite": "The a16z Show \u2022 2026-09-04 \u2022 Fei Fei Li: The Race to Build World Models For AI",
+    "last_proof_snippet": "On the past through spatial intelligence, generating pixels that are truly spatially contextualized and grounded. That is the very hard step that Atlasistic. We know LLens are built on next token prediction. We've seen video models as being",
+    "supporting_takeaway": "Atlas reduces 3D reconstruction data requirements from hundreds of images to as few as three camera views, dramatically lowering barriers to entry and enabling mass-market adoption",
+    "grokipedia_url": null,
+    "grokipedia_fetched_at": null,
+    "pundit_profile": null,
+    "net_worth": "$10.0M"
+  },
+  {
+    "id": 436,
+    "name": "Justin Johnson",
+    "slug": "justin-johnson",
+    "bio": "Researcher and expert in computer vision and generative models, involved in the development of Atlas",
+    "known_for": "Pioneering work in neural radiance fields and 3D generative AI",
+    "net_worth_usd": null,
+    "net_worth_source": null,
+    "net_worth_updated_at": null,
+    "voice_tone": "Technical but accessible, emphasizing architectural elegance",
+    "voice_style": "Frames complex computer vision problems through unifying conceptual primitives",
+    "voice_delivery_notes": "Emphasize 'new view prediction' as a deliberate, foundational phrase; pause after 'Atlas is really' for definitional clarity",
+    "voice_profile_updated_at": "2026-09-04 13:44:50",
+    "last_seen": "2026-09-04 13:44:50",
+    "last_episode_title": "Fei Fei Li: The Race to Build World Models For AI",
+    "last_podcast_name": "The a16z Show",
+    "last_episode_date": "2026-09-04",
+    "mention_score": 1,
+    "mention_score_decayed": 1,
+    "last_main_idea": "New view prediction and unified 3D world models represent a paradigm shift in computer vision with investable implications across AI infrastructure, robotics simulation, and creative tools, where first-movers leveraging multi-modal efficiency gains will capture disproportionate value as compute constraints ease.",
+    "last_proof_cite": "The a16z Show \u2022 2026-09-04 \u2022 Fei Fei Li: The Race to Build World Models For AI",
+    "last_proof_snippet": "On the past through spatial intelligence, generating pixels that are truly spatially contextualized and grounded. That is the very hard step that Atlasistic. We know LLens are built on next token prediction. We've seen video models as being",
+    "supporting_takeaway": "Atlas reduces 3D reconstruction data requirements from hundreds of images to as few as three camera views, dramatically lowering barriers to entry and enabling mass-market adoption",
+    "grokipedia_url": null,
+    "grokipedia_fetched_at": null,
+    "pundit_profile": null
+  },
+  {
+    "id": 435,
+    "name": "Jared Dillian",
+    "slug": "jared-dillian",
+    "bio": "Market strategist and investment commentator known for applying sentiment analysis and behavioral finance to macro and fixed-income markets.",
+    "known_for": "Contrarian macro calls and fixed-income sentiment analysis",
+    "net_worth_usd": 100000000.0,
+    "net_worth_source": "https://wggtb.substack.com/p/going-out-on-top",
+    "net_worth_updated_at": "2026-09-04T08:47:16.094659",
+    "voice_tone": "Confident and assertive with a contrarian edge",
+    "voice_style": "Uses direct, punchy declarations and hypothetical scenarios to challenge consensus narratives",
+    "voice_delivery_notes": "Emphasize absolute statements like insanely bullish and trust me for maximum conviction; pace is brisk and declarative",
+    "voice_profile_updated_at": "2026-09-04 13:22:50",
+    "last_seen": "2026-09-04 13:22:50",
+    "last_episode_title": "\u201cI\u2019m Insanely Bullish on Bonds\u201d | Jared Dillian on Copper, Bonds, Semis, and The Awesome Portfolio",
+    "last_podcast_name": "Monetary Matters with Jack Farley",
+    "last_episode_date": "2026-09-03",
+    "mention_score": 1,
+    "mention_score_decayed": 1,
+    "last_main_idea": "Investors should exploit the disconnect between bearish bond sentiment and moderating inflation by locking in historically high yields in long-duration government bonds, while hedging equity concentration risk through true cross-asset diversification and avoiding illiquid private markets until a clear floor forms.",
+    "last_proof_cite": "Monetary Matters with Jack Farley \u2022 2026-09-03 \u2022 \u201cI\u2019m Insanely Bullish on Bonds\u201d | Jared Dillian on Copper, Bonds, Semis, and The Awesome Portfolio",
+    "last_proof_snippet": "Join today, once again, by Jared Dillian of the Daily Dirt Wrap and the new book, the awesome portfolio. Jared, good to see you. Good to be here, man. Thanks for having me. Yeah, you too, Jared, looking at the front page Bloomberg global bo",
+    "supporting_takeaway": "Supply-driven bond bear arguments ignore demand dynamics; a risk-off event in equities could trigger a flight-to-quality that collapses interest rates.",
+    "grokipedia_url": null,
+    "grokipedia_fetched_at": null,
+    "pundit_profile": null,
+    "net_worth": "$100.0M"
+  },
+  {
     "id": 434,
     "name": "Daniel Litt",
     "slug": "daniel-litt",
@@ -1198,78 +1408,6 @@
       ]
     },
     "net_worth": "$230.0M"
-  },
-  {
-    "id": 81,
-    "name": "Elon Musk",
-    "slug": "elon-musk",
-    "bio": "Elon Musk is an entrepreneur and CEO known for his innovative ventures in electric vehicles, space exploration, and AI. He is the CEO of Tesla, an electric vehicle and clean energy company, and SpaceX, a space exploration company. Musk is also involved in several other ventures, including Neuralink and The Boring Company.",
-    "known_for": "His leadership in pioneering electric vehicles, space exploration, and AI technologies.",
-    "net_worth_usd": 270100000000.0,
-    "net_worth_source": "https://www.wikidata.org/wiki/Q317521",
-    "net_worth_updated_at": "2026-03-19T15:06:00.316451",
-    "voice_tone": "",
-    "voice_style": "",
-    "voice_delivery_notes": "",
-    "voice_profile_updated_at": null,
-    "last_seen": "2026-08-22 04:36:56",
-    "last_episode_title": "OpenAI Pauses Frontier Training, Elon's 100X Prediction Lands, Robot Beats Usain Bolt with Emad Mostaque | EP#282",
-    "last_podcast_name": "Moonshots with Peter Diamandis",
-    "last_episode_date": "2026-08-21",
-    "mention_score": 2,
-    "mention_score_decayed": 1.48,
-    "last_main_idea": "Invest in AI and exponential technologies that are driving the accelerating singularity, with a focus on companies that prioritize safety and ethical considerations.",
-    "last_proof_cite": "Moonshots with Peter Diamandis \u2022 2026-08-21 \u2022 OpenAI Pauses Frontier Training, Elon's 100X Prediction Lands, Robot Beats Usain Bolt with Emad Mostaque | EP#282",
-    "last_proof_snippet": "Open AI announced it is voluntarily pausing some of the frontier reinforcement learning training that it's doing what have they paused and is it really significant and do you think the other frontier labs are going to do the same thing? The",
-    "supporting_takeaway": "Elon Musk's prediction of 100x gains in certain sectors is becoming a reality, highlighting the potential for significant investment returns in AI and related technologies.",
-    "grokipedia_url": null,
-    "grokipedia_fetched_at": "2026-08-21T23:37:11.055855",
-    "pundit_profile": {
-      "source": "llm",
-      "source_model": "moonshot:moonshot-v1-8k",
-      "source_url": "",
-      "page_title": "Elon Musk",
-      "fetched_at": "2026-08-22T04:37:11.055483+00:00",
-      "cliff_notes": "Elon Musk was born in Pretoria, South Africa, and moved to the United States in 1995 to attend university. He dropped out of Stanford University's Ph.D. program in applied physics to start Zip2, a company that provided business directories and maps for newspapers. After selling Zip2, Musk co-founded X.com, which later became PayPal. He then founded SpaceX in 2002 with the goal of reducing space transportation costs and enabling the colonization of Mars. In 2004, Musk became an early investor in Tesla, an electric vehicle company, and later took over as CEO. Under his leadership, Tesla has become a major player in the electric vehicle market. Musk is also involved in several other ventures, including Neuralink, a neurotechnology company, and The Boring Company, which aims to reduce traffic congestion through underground tunnels. His ambitious goals and innovative ventures have made him a prominent figure in the tech and finance world.",
-      "derived": {
-        "current_role": "CEO of Tesla and SpaceX",
-        "former_positions": "CEO of Zip2; CEO of X.com (later PayPal); CEO of SolarCity",
-        "education": "Bachelor of Science in Physics and Economics from the University of Pennsylvania; transferred to Stanford University for Ph.D. in Applied Physics but left after two days",
-        "political_affiliation": "Independent"
-      },
-      "infobox": {
-        "Born": "June 28, 1971",
-        "Nationality": "South African-born American"
-      },
-      "lead_paragraphs": [
-        "Elon Musk was born in Pretoria, South Africa, and moved to the United States in 1995 to attend university. He dropped out of Stanford University's Ph.D. program in applied physics to start Zip2, a company that provided business directories and maps for newspapers. After selling Zip2, Musk co-founded X.com, which later became PayPal.",
-        "He then founded SpaceX in 2002 with the goal of reducing space transportation costs and enabling the colonization of Mars. In 2004, Musk became an early investor in Tesla, an electric vehicle company, and later took over as CEO. Under his leadership, Tesla has become a major player in the electric vehicle market. Musk is also involved in several other ventures, including Neuralink, a neurotechnology company, and The Boring Company, which aims to reduce traffic congestion through underground tunnels.",
-        "His ambitious goals and innovative ventures have made him a prominent figure in the tech and finance world."
-      ],
-      "sections": [
-        {
-          "heading": "Electric Vehicles",
-          "body": "Musk is the CEO of Tesla, a company that has revolutionized the electric vehicle market with its innovative designs and technology. Tesla's vehicles have set new standards for electric range, performance, and safety."
-        },
-        {
-          "heading": "Space Exploration",
-          "body": "As the CEO of SpaceX, Musk has made significant strides in reducing the cost of space travel and enabling the colonization of Mars. SpaceX has successfully developed reusable rockets and launched numerous satellites, including the Starlink constellation."
-        },
-        {
-          "heading": "Artificial Intelligence",
-          "body": "Musk is involved in AI through his company Neuralink, which aims to develop brain-computer interfaces to treat neurological disorders and enhance human cognition. He has also expressed concerns about the potential risks of AI and the need for regulation."
-        },
-        {
-          "heading": "Infrastructure and Transportation",
-          "body": "Musk founded The Boring Company to address traffic congestion through the development of underground hyperloop and tunnel systems. The company has completed several projects, including a tunnel in Las Vegas."
-        },
-        {
-          "heading": "Renewable Energy",
-          "body": "Tesla is not only an electric vehicle company but also a clean energy company, offering solar panels, solar roofs, and energy storage products. Musk's vision for a sustainable energy future extends beyond electric vehicles."
-        }
-      ]
-    },
-    "net_worth": "$270.10B"
   },
   {
     "id": 187,
