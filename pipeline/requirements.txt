@@ -9,7 +9,7 @@ pandas>=2.0.0
 numpy>=1.24.0
 
 # Database
-sqlite3-python
+# NOTE: sqlite3 ships with the Python standard library — no PyPI package required.
 
 # Web requests
 requests>=2.31.0
