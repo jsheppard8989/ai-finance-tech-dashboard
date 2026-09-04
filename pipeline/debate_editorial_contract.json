@@ -1,98 +1,49 @@
 {
-  "friday_iso": "2026-08-28",
-  "prompt": "Will the Federal Open Market Committee raise the federal funds target range at its September 15-16, 2026 meeting?",
-  "editorial_note": "We picked this deliberately simple binary question because it contains a difficult macro tradeoff. Inflation remains well above the Fed's 2% target, Chair Kevin Warsh says financial conditions are not broadly restrictive, and three FOMC members preferred a hike in July. Against that, July payrolls fell, the next jobs and CPI reports arrive before the meeting, and long-term yields plus a large federal refinancing burden raise the cost of additional tightening. Market pricing moved toward a coin flip after Warsh's Jackson Hole speech, leaving both sides live.",
-  "expires_rule": "Resolves Wednesday 2026-09-16 at publication of the FOMC policy statement",
-  "resolves_iso": "2026-09-16",
-  "crux_theme": "inflation credibility versus labor and fiscal stress",
+  "friday_iso": "2026-09-04",
+  "prompt": "Will the 10-year Treasury constant-maturity yield (FRED DGS10 official daily) print at or above 5.00% on any observation through Friday 23 Oct 2026 12:00 PM CT?",
+  "editorial_note": "We picked this contract because duration risk—and the buyers who must own it—is live on our Overton board right now. The 10-year yield is the market's single best gauge of term premium and fiscal-stress pricing; 5.00% is a clean, publicly checkable round number that sits comfortably above the Sep 2 print of 4.79%. We pinned expiry to Oct 23 because that date aligns with the TY futures options serial cycle, not the Oct 16 Friday weekly.",
+  "expires_rule": "Resolves Friday 2026-10-23 12:00 PM CT — settlement by FRED DGS10 observation date (not a noon clock print)",
+  "resolves_iso": "2026-10-23",
+  "crux_theme": "10-year term premium vs 5% print",
   "argument_requirements": [
-    "Both sides must weigh Warsh's Jackson Hole framework and the latest PCE and CPI readings against payrolls, unemployment, and participation, then say how the August jobs and CPI releases could change their conclusion.",
-    "Both sides must distinguish the overnight policy rate from 10-year and 30-year yields, connecting yen intervention, global capital flows, Treasury buybacks, the deficit, nondiscretionary outlays, interest expense, total debt, and the $8.374 trillion twelve-month rollover burden without implying that Treasury financing cost is the Fed's mandate.",
-    "Both sides must treat the midterms as a test of Fed independence rather than proof of political voting, treat market odds as prices rather than proof, and identify the strongest fact against their own conclusion."
+    "Both sides must distinguish DGS10 constant-maturity yield from the on-the-run 10-year cash note and TY futures when discussing price levels, spreads, and market mechanics.",
+    "Both sides must weigh auction dynamics, Treasury refunding calendar, foreign demand, and SLR-captivity pressures against soft-landing narratives and the Fed's expected rate path, without treating either as determinative.",
+    "Both sides must treat the 5.00% level as a concrete print rule—does DGS10 touch or exceed 5.00 on any observation date by Oct 23?—not a directional vibes call or investment recommendation."
   ],
   "evidence_brief": [
     {
-      "fact": "The FOMC held the federal funds target range at 3.50% to 3.75% on July 29, 2026 by a 9-3 vote. Three members preferred a 25-basis-point increase. The minutes say market pricing before that meeting assigned about a one-in-three chance to a July increase and fully priced a 25-basis-point increase by the September meeting.",
-      "source": "Federal Reserve, minutes of the July 28-29, 2026 FOMC meeting",
-      "source_url": "https://www.federalreserve.gov/monetarypolicy/fomcminutes20260729.htm",
-      "limitation": "The market pricing described in the minutes predates subsequent inflation, employment, intervention, and Jackson Hole news."
+      "fact": "The contract resolves YES if any official FRED DGS10 daily observation with observation date on or before 2026-10-23 prints at or above 5.00%. The window is approximately seven weeks.",
+      "source": "Locked prompt definition",
+      "limitation": "This is the contract rule, not market data."
     },
     {
-      "fact": "In his August 28 Jackson Hole speech, Chair Kevin Warsh said the 2% PCE inflation objective is a firm, fixed target; short-term interest rates are the predominant policy tool; broad financial conditions were hard to describe as restrictive; and the Fed's predominant focus should be prices. He said the 12-month PCE rate was 3.7%, the six-month rate was 4.1%, and summer data had not meaningfully improved the underlying trend.",
-      "source": "Federal Reserve, Chair Warsh, 'In Our Time,' August 28, 2026",
-      "source_url": "https://www.federalreserve.gov/newsevents/speech/warsh20260828a.htm"
+      "fact": "On September 2, 2026, the FRED DGS10 series printed 4.79%.",
+      "source": "FRED DGS10 (10-Year Treasury Constant Maturity Rate)",
+      "source_url": "https://fred.stlouisfed.org/series/DGS10",
+      "limitation": "Briefing anchor supplied by Ditka; confirm on FRED before publish."
     },
     {
-      "fact": "Warsh also refused to pre-commit. He criticized routine forward guidance, said July's majority wanted more information before changing policy, described labor as consistent with full employment, and closed: 'I stand here today committed to a discipline, not to a decision.'",
-      "source": "Federal Reserve, Chair Warsh, 'In Our Time,' August 28, 2026",
-      "source_url": "https://www.federalreserve.gov/newsevents/speech/warsh20260828a.htm",
-      "limitation": "The speech establishes Warsh's framework, not how the full FOMC will vote on September 16."
-    },
-    {
-      "fact": "After the Jackson Hole speech, federal-funds futures moved to roughly 56% to 60% odds of a September hike, up from about 35% to 40% beforehand.",
-      "source": "CNBC and Reuters market reports, August 28, 2026",
-      "source_url": "https://www.cnbc.com/2026/08/28/kevin-warsh-jackson-hole-federal-reserve-inflation.html",
-      "limitation": "This is an intraday market-implied estimate, not a forecast certainty, and it can change materially before the meeting."
-    },
-    {
-      "fact": "July inflation sent mixed but still above-target signals. Headline CPI rose 0.1% in the month and 3.4% over twelve months; core CPI rose 0.2% and 2.5%. The Fed-preferred PCE index rose 0.2% in July and 3.7% over twelve months; core PCE rose 0.2% and 3.3%. August CPI is scheduled for September 11, before the FOMC decision.",
-      "source": "Bureau of Labor Statistics July 2026 CPI release and Bureau of Economic Analysis July 2026 Personal Income and Outlays",
-      "source_url": "https://www.bea.gov/news/2026/personal-income-and-outlays-july-2026"
-    },
-    {
-      "fact": "July nonfarm payrolls fell by 23,000, following an average monthly gain of 34,000 over the prior twelve months. Unemployment declined to 4.1%, but labor-force participation also fell to 61.4%. The August employment report is scheduled for September 4, before the FOMC meeting.",
-      "source": "Bureau of Labor Statistics, Employment Situation for July 2026",
-      "source_url": "https://www.bls.gov/news.release/empsit.nr0.htm",
-      "limitation": "One monthly payroll estimate is noisy and subject to revision; the August report will supersede part of this information set."
-    },
-    {
-      "fact": "On August 27, the latest completed day available when this contract was written, Treasury's official par yield curve put the 10-year yield at 4.67% and the 30-year yield at 5.19%. These rates are based on indicative bid-side quotations near 3:30 p.m. ET.",
-      "source": "U.S. Treasury, Daily Treasury Par Yield Curve Rates",
-      "source_url": "https://home.treasury.gov/resource-center/data-chart-center/interest-rates/TextView?field_tdr_date_value_month=202608&type=daily_treasury_yield_curve",
-      "limitation": "Long yields reflect inflation, growth, term premium, supply, and global flows; they are not controlled one-for-one by the overnight federal funds rate."
-    },
-    {
-      "fact": "The United States and Japan jointly bought yen after it weakened toward 164 per dollar. Treasury Secretary Scott Bessent's 'whatever it takes' statement referred to supporting Japan's currency-stabilization effort, not to capping long-term U.S. yields. Separately, Treasury announced that long-end liquidity-support buybacks in the 10-to-30-year sectors would increase from a $2 billion maximum to at least $4 billion per operation beginning September 9.",
-      "source": "Reuters, August 4, 2026, and U.S. Treasury, August 19, 2026",
-      "source_url": "https://home.treasury.gov/news/press-releases/sb0607",
-      "limitation": "Buybacks are officially described as liquidity support, not yield-curve control. Currency intervention can affect global demand and exchange rates, but its effect on the September FOMC vote is indirect."
-    },
-    {
-      "fact": "Fiscal-year 2026 through July recorded $4.485 trillion of receipts, $6.284 trillion of outlays, and a $1.799 trillion deficit. Major outlays included about $1.384 trillion for Social Security, $955 billion for Medicare, $931 billion for net interest, and $598 billion for Medicaid. These large benefit and interest obligations leave a smaller portion of the budget adjustable through annual discretionary appropriations.",
-      "source": "U.S. Treasury, Monthly Treasury Statement for July 2026",
-      "source_url": "https://fiscaldata.treasury.gov/static-data/published-reports/mts/MonthlyTreasuryStatement_202607.pdf",
-      "limitation": "Fiscal policy and the composition of federal spending affect monetary conditions, but the Fed does not set rates to reduce Treasury's interest bill."
-    },
-    {
-      "fact": "As of August 26, total public debt outstanding was $40.070 trillion, including $32.306 trillion held by the public. A calculation from Treasury's July 31 security-level table shows $8.374 trillion of marketable debt maturing from August 28, 2026 through August 28, 2027: $4.864 trillion of bills, $2.904 trillion of notes, and $606 billion across floating-rate notes, inflation-protected securities, and bonds.",
-      "source": "Calculated from U.S. Treasury Fiscal Data, Debt to the Penny and July 2026 Detail of Marketable Treasury Securities Outstanding",
-      "source_url": "https://api.fiscaldata.treasury.gov/services/api/fiscal_service/v2/accounting/od/debt_to_penny?filter=record_date:eq:2026-08-26",
-      "limitation": "The maturity snapshot predates August issuance and changes as bills are issued. Gross maturities are routinely refinanced and should not be confused with $8.374 trillion of new borrowing."
-    },
-    {
-      "fact": "The next regularly scheduled federal general election is November 3, 2026. The September FOMC decision therefore arrives during the midterm campaign, and the following scheduled decision is October 28, six days before Election Day.",
-      "source": "Federal Election Commission and Federal Reserve calendars",
-      "source_url": "https://www.fec.gov/introduction-campaign-finance/election-results-and-voting-information/",
-      "limitation": "Political timing may shape outside pressure and perceptions, but the Federal Reserve is institutionally responsible for its dual mandate; the election calendar is not evidence that officials will alter their votes."
+      "fact": "The contract expiry of October 23, 2026 is pinned to the TY futures options serial expiration cycle, not the October 16 Friday weekly options. This aligns settlement with the deeper, more liquid options structure.",
+      "source": "CME Group Treasury futures options calendar",
+      "limitation": "Scheduling note for contract design; not a trade recommendation."
     }
   ],
   "resolution_clarity": {
-    "source_of_truth": "The Federal Reserve's official policy statement for the FOMC meeting scheduled for September 15-16, 2026",
+    "source_of_truth": "FRED series DGS10 (10-Year Treasury Constant Maturity Rate, official daily)",
     "resolution_sources": [
-      "https://www.federalreserve.gov/monetarypolicy/fomccalendars.htm",
-      "https://www.federalreserve.gov/monetarypolicy.htm"
+      "https://fred.stlouisfed.org/series/DGS10"
     ],
     "resolution_criteria": [
-      "The starting federal funds target range is 3.50% to 3.75%, as maintained at the July 28-29, 2026 FOMC meeting.",
-      "Resolves YES if the September 15-16 FOMC policy statement sets both bounds of the federal funds target range above 3.50% to 3.75%, including a 25-basis-point or larger increase.",
-      "Resolves NO if the target range is unchanged, reduced, or replaced by a single target rate that is not above the prior range's 3.75% upper bound.",
-      "Changes to administered rates, balance-sheet policy, forward guidance, or the Summary of Economic Projections do not count unless the official federal funds target itself is raised.",
-      "If the scheduled meeting is delayed, the contract resolves on the first official FOMC policy decision released no later than September 23, 2026; it resolves VOID if no decision is released by then."
+      "YES if any official DGS10 daily observation with observation date on or before 2026-10-23 has a value greater than or equal to 5.00.",
+      "NO otherwise.",
+      "The 12:00 PM America/Chicago clock on 2026-10-23 closes which observation dates are in scope; it does not require FRED to publish at noon.",
+      "Use the observation date on the series, not the retrieval timestamp.",
+      "If FRED later revises a print, use the value as published for that observation date at resolution time."
     ]
   },
   "sides": {
-    "a": "Affirmative (YES, the FOMC raises the target range)",
-    "b": "Negative (NO, the FOMC does not raise the target range)"
+    "a": "Affirmative (YES, DGS10 prints at or above 5.00% by Oct 23)",
+    "b": "Negative (NO, DGS10 stays below 5.00% through Oct 23)"
   },
   "editorial_approved": true
 }
