@@ -1,116 +1,53 @@
 {
-  "prompt": "Will the S&P 500 index close above 8,000 within the next 42 days?",
-  "editorial_note": "Given our recent discussions on the global economy's resilience and the S&P 500's recent performance, we felt it was crucial to explore market sentiment by posing a question on the S&P 500's potential to reach a significant milestone. This question also allows us to gauge investor confidence and market dynamics in a concrete and measurable way within a specific time frame.",
-  "expires_rule": "Resolves Friday 12:00 PM CST 2026-10-02",
-  "crux_theme": "S&P 500 rally",
+  "prompt": "Will the 10-year Treasury constant-maturity yield (FRED DGS10 official daily) print at or above 5.00% on any observation through Friday 23 Oct 2026 12:00 PM CT?",
+  "editorial_note": "We picked this contract because duration risk—and the buyers who must own it—is live on our Overton board right now. The 10-year yield is the market's single best gauge of term premium and fiscal-stress pricing; 5.00% is a clean, publicly checkable round number that sits comfortably above the Sep 2 print of 4.79%. We pinned expiry to Oct 23 because that date aligns with the TY futures options serial cycle, not the Oct 16 Friday weekly.",
+  "expires_rule": "Resolves Friday 2026-10-23 12:00 PM CT — settlement by FRED DGS10 observation date (not a noon clock print)",
+  "crux_theme": "10-year term premium vs 5% print",
   "resolution_clarity": {
-    "source_of_truth": "Yahoo Finance official closing price",
+    "source_of_truth": "FRED series DGS10 (10-Year Treasury Constant Maturity Rate, official daily)",
     "resolution_sources": [
-      "^GSPC official closing price data"
+      "https://fred.stlouisfed.org/series/DGS10"
     ],
     "resolution_criteria": [
-      "The question will resolve 'Yes' if the S&P 500 index (^GSPC) officially closes above 8,000 at any point within the next 42 days as reported by Yahoo Finance."
+      "YES if any official DGS10 daily observation with observation date on or before 2026-10-23 has a value greater than or equal to 5.00.",
+      "NO otherwise.",
+      "The 12:00 PM America/Chicago clock on 2026-10-23 closes which observation dates are in scope; it does not require FRED to publish at noon.",
+      "Use the observation date on the series, not the retrieval timestamp.",
+      "If FRED later revises a print, use the value as published for that observation date at resolution time."
     ]
   },
   "sides": {
-    "a": "Affirmative (YES)",
-    "b": "Negative (NO)"
+    "a": "Affirmative (YES, DGS10 prints at or above 5.00% by Oct 23)",
+    "b": "Negative (NO, DGS10 stays below 5.00% through Oct 23)"
   },
-  "resolves_iso": "2026-10-02",
-  "friday_iso": "2026-08-21",
-  "week_label": "Week of 2026-08-21",
-  "debater_a": "Dr. Peter Funkhouser",
-  "debater_b": "Katherine Rooney Vera",
-  "generated_at": "2026-08-21T13:49:56.370321",
+  "resolves_iso": "2026-10-23",
+  "friday_iso": "2026-09-04",
+  "week_label": "Week of 2026-09-04",
+  "generated_at": "2026-09-04T17:29:32.608457",
   "bet_status": "open",
-  "audio_href": "./audio/emp_ai_the_debate_11labs.mp3",
-  "debater_a_snapshot": {
-    "name": "Dr. Peter Funkhouser",
-    "known_for": "Developing the Anymal, a four-legged robot used for inspection in critical infrastructure.",
-    "bio": "Dr. Peter Funkhouser is the co-founder and CEO of Anybotics, a company that specializes in developing four-legged inspection robots, specifically the Anymal. With nearly two decades of experience in robotics, Funkhouser has played a pivotal role in advancing the technology of autonomous robots for critical infrastructure inspection.",
-    "last_main_idea": "Investing in robotics and AI companies that are successfully transitioning from research to real-world applications could offer significant growth potential as these technologies become more integrated into various industries.",
-    "last_podcast_name": "All-In with Chamath, Jason, Sacks & Friedberg",
-    "last_episode_date": "2026-07-28",
-    "pundit_profile": {
-      "source": "llm",
-      "source_model": "moonshot:moonshot-v1-8k",
-      "source_url": "",
-      "page_title": "Dr. Peter Funkhouser",
-      "fetched_at": "2026-07-30T10:03:05.635107+00:00",
-      "cliff_notes": "Dr. Peter Funkhouser has been a key figure in the field of robotics for nearly 20 years. He co-founded Anybotics, a company that has been instrumental in the development of the Anymal, a four-legged robot designed for inspection in critical infrastructure. The company started as a research lab for the first five years and transitioned into a commercial entity for the last five, focusing on deploying dog-based robots. Funkhouser's work has been crucial in the advancement of autonomous technology, particularly in the realm of inspection and maintenance of industrial facilities, which is a significant area of interest for investors and technology enthusiasts.",
-      "derived": {
-        "current_role": "Co-founder and CEO of Anybotics"
-      },
-      "infobox": {
-        "Born": "",
-        "Nationality": ""
-      },
-      "lead_paragraphs": [
-        "Dr. Peter Funkhouser has been a key figure in the field of robotics for nearly 20 years. He co-founded Anybotics, a company that has been instrumental in the development of the Anymal, a four-legged robot designed for inspection in critical infrastructure. The company started as a research lab for the first five years and transitioned into a commercial entity for the last five, focusing on deploying dog-based robots.",
-        "Funkhouser's work has been crucial in the advancement of autonomous technology, particularly in the realm of inspection and maintenance of industrial facilities, which is a significant area of interest for investors and technology enthusiasts."
-      ],
-      "sections": [
-        {
-          "heading": "Robotics Innovation",
-          "body": "Dr. Peter Funkhouser has been at the forefront of robotics innovation, particularly with the development of the Anymal robot, which is used for critical infrastructure inspection."
-        },
-        {
-          "heading": "Autonomous Technology",
-          "body": "Funkhouser's work with Anybotics has contributed significantly to the field of autonomous technology, making inspections of industrial facilities safer and more efficient."
-        },
-        {
-          "heading": "Entrepreneurship in Robotics",
-          "body": "As the co-founder and CEO of Anybotics, Dr. Funkhouser has played a pivotal role in establishing the company as a leader in the field of four-legged inspection robots."
-        }
-      ]
+  "publishable": true,
+  "argument_requirements": [
+    "Both sides must distinguish DGS10 constant-maturity yield from the on-the-run 10-year cash note and TY futures when discussing price levels, spreads, and market mechanics.",
+    "Both sides must weigh auction dynamics, Treasury refunding calendar, foreign demand, and SLR-captivity pressures against soft-landing narratives and the Fed's expected rate path, without treating either as determinative.",
+    "Both sides must treat the 5.00% level as a concrete print rule—does DGS10 touch or exceed 5.00 on any observation date by Oct 23?—not a directional vibes call or investment recommendation."
+  ],
+  "evidence_brief": [
+    {
+      "fact": "The contract resolves YES if any official FRED DGS10 daily observation with observation date on or before 2026-10-23 prints at or above 5.00%. The window is approximately seven weeks.",
+      "source": "Locked prompt definition",
+      "limitation": "This is the contract rule, not market data."
+    },
+    {
+      "fact": "On September 2, 2026, the FRED DGS10 series printed 4.79%.",
+      "source": "FRED DGS10 (10-Year Treasury Constant Maturity Rate)",
+      "source_url": "https://fred.stlouisfed.org/series/DGS10",
+      "limitation": "Briefing anchor supplied by Ditka; confirm on FRED before publish."
+    },
+    {
+      "fact": "The contract expiry of October 23, 2026 is pinned to the TY futures options serial expiration cycle, not the October 16 Friday weekly options. This aligns settlement with the deeper, more liquid options structure.",
+      "source": "CME Group Treasury futures options calendar",
+      "limitation": "Scheduling note for contract design; not a trade recommendation."
     }
-  },
-  "debater_b_snapshot": {
-    "name": "Katherine Rooney Vera",
-    "known_for": "Her accurate market predictions and in-depth analysis of Federal Reserve policy.",
-    "bio": "Katherine Rooney Vera is the Chief Market Strategist at Stone X Groups, where she specializes in board markets and macroeconomic analysis. Known for her accurate market predictions and in-depth analysis of Fed policy, Vera has made a significant impact in the financial industry.",
-    "last_main_idea": "The Federal Reserve's credibility is at stake, and market reactions to economic data and Fed policy suggest a potential shift in expectations for inflation and interest rates, impacting bond yields and stock market performance.",
-    "last_podcast_name": "Monetary Matters with Jack Farley",
-    "last_episode_date": "2026-07-29",
-    "net_worth": "$26.7M",
-    "pundit_profile": {
-      "source": "llm",
-      "source_model": "moonshot:moonshot-v1-8k",
-      "source_url": "",
-      "page_title": "Katherine Rooney Vera",
-      "fetched_at": "2026-07-30T05:00:36.723848+00:00",
-      "cliff_notes": "Katherine Rooney Vera is a prominent figure in the financial industry, serving as the Chief Market Strategist at Stone X Groups. Her expertise lies in board markets and macroeconomic analysis, with a particular focus on the Federal Reserve's policies. Vera has gained recognition for her accurate market predictions and her ability to dissect complex economic data. Her insights have been influential in guiding investment decisions and understanding market trends. Her career has been marked by a deep understanding of financial markets and the ability to translate economic indicators into actionable strategies for investors.",
-      "derived": {
-        "current_role": "Chief Market Strategist at Stone X Groups"
-      },
-      "infobox": {
-        "Born": "",
-        "Nationality": ""
-      },
-      "lead_paragraphs": [
-        "Katherine Rooney Vera is a prominent figure in the financial industry, serving as the Chief Market Strategist at Stone X Groups. Her expertise lies in board markets and macroeconomic analysis, with a particular focus on the Federal Reserve's policies. Vera has gained recognition for her accurate market predictions and her ability to dissect complex economic data.",
-        "Her insights have been influential in guiding investment decisions and understanding market trends. Her career has been marked by a deep understanding of financial markets and the ability to translate economic indicators into actionable strategies for investors."
-      ],
-      "sections": [
-        {
-          "heading": "Market Predictions",
-          "body": "Katherine Rooney Vera is known for her accurate predictions in the financial markets, particularly regarding Federal Reserve policy decisions."
-        },
-        {
-          "heading": "Macroeconomic Analysis",
-          "body": "Vera's expertise in macroeconomic analysis allows her to provide insightful commentary on the broader economic trends affecting financial markets."
-        },
-        {
-          "heading": "Federal Reserve Policy",
-          "body": "Her in-depth analysis of the Federal Reserve's policy has been influential in shaping investor expectations and market reactions."
-        }
-      ]
-    }
-  },
-  "prompt_hash": "3d04e5fc265c8235",
-  "publishable": false,
-  "publish_block_reason": "Prompt too similar to a recent contract (100% overlap).",
-  "publish_block_reasons": [
-    "Prompt too similar to a recent contract (100% overlap)."
-  ]
+  ],
+  "editorial_approved": true
 }
