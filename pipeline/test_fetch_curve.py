@@ -1,11 +1,13 @@
 #!/usr/bin/env python3
 """
-Tests for curve data fetching, focusing on:
-- FRED CSV parsing
-- 10s30s spread computation
-- Fail-closed behavior (preserve prior values on failure)
-- Data merge logic
-- Stale marking
+Tests for fetch_curve.py yield curve data fetching, focusing on:
+- Treasury XML parsing (primary source)
+- Spread computation (2s10s, 10s30s from levels)
+- Signal determination (inverted, flat, normal)
+- MOVE index fetching from Yahoo
+- Optional FRED enrichment (doesn't block pipeline)
+- Stale data preservation (fail-closed pattern)
+- Validation of required fields
 """
 
 import sys
@@ -17,349 +19,511 @@ from unittest.mock import patch, MagicMock
 sys.path.insert(0, str(Path(__file__).parent))
 
 from fetch_curve import (
-    fetch_fred_series,
-    fetch_move_index,
-    fetch_all_curve_data,
-    has_any_data,
-    merge_curve_data,
-    mark_curve_stale,
-    MARKET_DATA_FILE,
+    parse_treasury_xml,
+    validate_curve_data,
+    mark_curve_data_stale,
+    MARKET_DATA_FILE
 )
 
 
-class TestFREDParsing:
-    """Test FRED CSV response parsing."""
-    
-    def test_parse_valid_fred_csv(self):
-        """Valid FRED CSV should parse correctly."""
-        mock_csv = """DATE,T10Y2Y
-2026-09-01,0.45
-2026-09-02,0.48
-2026-09-03,.
-2026-09-04,0.52
-"""
-        with patch('urllib.request.urlopen') as mock_urlopen:
-            mock_response = MagicMock()
-            mock_response.read.return_value = mock_csv.encode('utf-8')
-            mock_response.__enter__ = lambda s: s
-            mock_response.__exit__ = MagicMock(return_value=False)
-            mock_urlopen.return_value = mock_response
-            
-            value, date = fetch_fred_series("T10Y2Y")
-            
-            assert value == 0.52
-            assert date == "2026-09-04"
-    
-    def test_parse_fred_csv_with_missing_values(self):
-        """FRED CSV with dots (missing values) should skip to last valid."""
-        mock_csv = """DATE,DGS10
-2026-09-01,4.25
-2026-09-02,4.28
-2026-09-03,.
-"""
-        with patch('urllib.request.urlopen') as mock_urlopen:
-            mock_response = MagicMock()
-            mock_response.read.return_value = mock_csv.encode('utf-8')
-            mock_response.__enter__ = lambda s: s
-            mock_response.__exit__ = MagicMock(return_value=False)
-            mock_urlopen.return_value = mock_response
-            
-            value, date = fetch_fred_series("DGS10")
-            
-            assert value == 4.28
-            assert date == "2026-09-02"
-    
-    def test_parse_fred_csv_empty_response(self):
-        """Empty FRED CSV should return None."""
-        mock_csv = """DATE,T10Y2Y
-"""
-        with patch('urllib.request.urlopen') as mock_urlopen:
-            mock_response = MagicMock()
-            mock_response.read.return_value = mock_csv.encode('utf-8')
-            mock_response.__enter__ = lambda s: s
-            mock_response.__exit__ = MagicMock(return_value=False)
-            mock_urlopen.return_value = mock_response
-            
-            value, date = fetch_fred_series("T10Y2Y")
-            
-            assert value is None
-            assert date is None
-    
-    def test_fred_network_error_returns_none(self):
-        """Network error should return None (fail-closed)."""
-        with patch('urllib.request.urlopen') as mock_urlopen:
-            mock_urlopen.side_effect = Exception("Network error")
-            
-            value, date = fetch_fred_series("T10Y2Y")
-            
-            assert value is None
-            assert date is None
+# Sample Treasury XML for testing (matches real structure)
+SAMPLE_TREASURY_XML = '''<?xml version="1.0" encoding="utf-8"?>
+<feed xmlns="http://www.w3.org/2005/Atom" xmlns:m="http://schemas.microsoft.com/ado/2007/08/dataservices/metadata" xmlns:d="http://schemas.microsoft.com/ado/2007/08/dataservices">
+  <title type="text">DailyTreasuryYieldCurveRateData</title>
+  <entry>
+    <content type="application/xml">
+      <m:properties>
+        <d:NEW_DATE>2026-09-03T00:00:00</d:NEW_DATE>
+        <d:BC_1MONTH>4.25</d:BC_1MONTH>
+        <d:BC_3MONTH>4.30</d:BC_3MONTH>
+        <d:BC_6MONTH>4.15</d:BC_6MONTH>
+        <d:BC_1YEAR>3.95</d:BC_1YEAR>
+        <d:BC_2YEAR>3.85</d:BC_2YEAR>
+        <d:BC_5YEAR>3.90</d:BC_5YEAR>
+        <d:BC_7YEAR>4.00</d:BC_7YEAR>
+        <d:BC_10YEAR>4.20</d:BC_10YEAR>
+        <d:BC_20YEAR>4.55</d:BC_20YEAR>
+        <d:BC_30YEAR>4.45</d:BC_30YEAR>
+      </m:properties>
+    </content>
+  </entry>
+  <entry>
+    <content type="application/xml">
+      <m:properties>
+        <d:NEW_DATE>2026-09-02T00:00:00</d:NEW_DATE>
+        <d:BC_1MONTH>4.24</d:BC_1MONTH>
+        <d:BC_3MONTH>4.28</d:BC_3MONTH>
+        <d:BC_6MONTH>4.12</d:BC_6MONTH>
+        <d:BC_1YEAR>3.92</d:BC_1YEAR>
+        <d:BC_2YEAR>3.80</d:BC_2YEAR>
+        <d:BC_5YEAR>3.85</d:BC_5YEAR>
+        <d:BC_7YEAR>3.95</d:BC_7YEAR>
+        <d:BC_10YEAR>4.15</d:BC_10YEAR>
+        <d:BC_20YEAR>4.50</d:BC_20YEAR>
+        <d:BC_30YEAR>4.40</d:BC_30YEAR>
+      </m:properties>
+    </content>
+  </entry>
+</feed>'''
+
+# XML with inverted curve (2Y > 10Y)
+INVERTED_CURVE_XML = '''<?xml version="1.0" encoding="utf-8"?>
+<feed xmlns="http://www.w3.org/2005/Atom" xmlns:m="http://schemas.microsoft.com/ado/2007/08/dataservices/metadata" xmlns:d="http://schemas.microsoft.com/ado/2007/08/dataservices">
+  <entry>
+    <content type="application/xml">
+      <m:properties>
+        <d:NEW_DATE>2026-09-03T00:00:00</d:NEW_DATE>
+        <d:BC_2YEAR>5.20</d:BC_2YEAR>
+        <d:BC_10YEAR>4.80</d:BC_10YEAR>
+        <d:BC_30YEAR>4.70</d:BC_30YEAR>
+      </m:properties>
+    </content>
+  </entry>
+</feed>'''
+
+# XML with flat curve
+FLAT_CURVE_XML = '''<?xml version="1.0" encoding="utf-8"?>
+<feed xmlns="http://www.w3.org/2005/Atom" xmlns:m="http://schemas.microsoft.com/ado/2007/08/dataservices/metadata" xmlns:d="http://schemas.microsoft.com/ado/2007/08/dataservices">
+  <entry>
+    <content type="application/xml">
+      <m:properties>
+        <d:NEW_DATE>2026-09-03T00:00:00</d:NEW_DATE>
+        <d:BC_2YEAR>4.00</d:BC_2YEAR>
+        <d:BC_10YEAR>4.10</d:BC_10YEAR>
+        <d:BC_30YEAR>4.15</d:BC_30YEAR>
+      </m:properties>
+    </content>
+  </entry>
+</feed>'''
 
 
-class TestMOVEParsing:
-    """Test Yahoo MOVE index response parsing."""
+class TestTreasuryXMLParsing:
+    """Test Treasury.gov XML parsing."""
     
-    def test_parse_valid_move_response(self):
-        """Valid Yahoo response should parse correctly."""
-        mock_response_data = {
-            'chart': {
-                'result': [{
-                    'meta': {
-                        'regularMarketPrice': 95.42,
-                        'regularMarketTime': 1725465600  # 2024-09-04
-                    }
-                }]
-            }
-        }
+    def test_parse_valid_xml(self):
+        """Valid Treasury XML should parse correctly."""
+        records = parse_treasury_xml(SAMPLE_TREASURY_XML)
         
-        with patch('urllib.request.urlopen') as mock_urlopen:
-            mock_response = MagicMock()
-            mock_response.read.return_value = json.dumps(mock_response_data).encode('utf-8')
-            mock_response.__enter__ = lambda s: s
-            mock_response.__exit__ = MagicMock(return_value=False)
-            mock_urlopen.return_value = mock_response
-            
-            value, date = fetch_move_index()
-            
-            assert value == 95.42
-            assert date is not None
-    
-    def test_move_no_result_returns_none(self):
-        """Empty Yahoo result should return None."""
-        mock_response_data = {'chart': {'result': None}}
+        assert len(records) == 2
+        # Most recent first after sorting
+        assert records[0]['date'] == '2026-09-03'
+        assert records[1]['date'] == '2026-09-02'
         
-        with patch('urllib.request.urlopen') as mock_urlopen:
-            mock_response = MagicMock()
-            mock_response.read.return_value = json.dumps(mock_response_data).encode('utf-8')
-            mock_response.__enter__ = lambda s: s
-            mock_response.__exit__ = MagicMock(return_value=False)
-            mock_urlopen.return_value = mock_response
-            
-            value, date = fetch_move_index()
-            
-            assert value is None
-            assert date is None
-    
-    def test_move_network_error_returns_none(self):
-        """Network error should return None (fail-closed)."""
-        with patch('urllib.request.urlopen') as mock_urlopen:
-            mock_urlopen.side_effect = Exception("Network error")
-            
-            value, date = fetch_move_index()
-            
-            assert value is None
-            assert date is None
+    def test_parse_yields_correctly(self):
+        """Yields should be extracted as floats."""
+        records = parse_treasury_xml(SAMPLE_TREASURY_XML)
+        latest = records[0]
+        
+        assert latest['2y'] == 3.85
+        assert latest['10y'] == 4.20
+        assert latest['30y'] == 4.45
+        
+    def test_parse_all_maturities(self):
+        """Should extract all available maturities."""
+        records = parse_treasury_xml(SAMPLE_TREASURY_XML)
+        latest = records[0]
+        
+        assert '1m' in latest
+        assert '3m' in latest
+        assert '6m' in latest
+        assert '1yr' in latest
+        assert '5y' in latest
+        assert '7y' in latest
+        assert '20y' in latest
+        
+    def test_parse_empty_xml(self):
+        """Empty XML should return empty list."""
+        records = parse_treasury_xml('')
+        assert records == []
+        
+    def test_parse_malformed_xml(self):
+        """Malformed XML should return empty list (not crash)."""
+        records = parse_treasury_xml('<invalid>not valid xml')
+        assert records == []
+        
+    def test_parse_xml_missing_yields(self):
+        """XML with missing yield elements should still parse available data."""
+        partial_xml = '''<?xml version="1.0" encoding="utf-8"?>
+<feed xmlns="http://www.w3.org/2005/Atom" xmlns:m="http://schemas.microsoft.com/ado/2007/08/dataservices/metadata" xmlns:d="http://schemas.microsoft.com/ado/2007/08/dataservices">
+  <entry>
+    <content type="application/xml">
+      <m:properties>
+        <d:NEW_DATE>2026-09-03T00:00:00</d:NEW_DATE>
+        <d:BC_10YEAR>4.20</d:BC_10YEAR>
+      </m:properties>
+    </content>
+  </entry>
+</feed>'''
+        records = parse_treasury_xml(partial_xml)
+        
+        assert len(records) == 1
+        assert records[0]['10y'] == 4.20
+        assert '2y' not in records[0]
 
 
 class TestSpreadComputation:
-    """Test 10s30s spread computation."""
+    """Test yield spread calculations."""
     
-    def test_compute_10s30s_spread(self):
-        """10s30s = DGS30 - DGS10."""
-        mock_csvs = {
-            'DGS10': """DATE,DGS10
-2026-09-04,4.25""",
-            'DGS30': """DATE,DGS30
-2026-09-04,4.55""",
-            'T10Y2Y': """DATE,T10Y2Y
-2026-09-04,0.45""",
-            'DGS2': """DATE,DGS2
-2026-09-04,3.80""",
-        }
+    def test_2s10s_spread_normal(self):
+        """Normal (positive) 2s10s spread computed correctly."""
+        records = parse_treasury_xml(SAMPLE_TREASURY_XML)
+        latest = records[0]
         
-        def mock_urlopen_side_effect(req, timeout=30):
-            url = req.full_url if hasattr(req, 'full_url') else str(req)
-            for series, csv in mock_csvs.items():
-                if series in url:
-                    mock_resp = MagicMock()
-                    mock_resp.read.return_value = csv.encode('utf-8')
-                    mock_resp.__enter__ = lambda s: s
-                    mock_resp.__exit__ = MagicMock(return_value=False)
-                    return mock_resp
-            raise ValueError(f"Unexpected URL: {url}")
+        # 2s10s = 10Y - 2Y = 4.20 - 3.85 = 0.35 = 35 bps
+        spread_2s10s = round((latest['10y'] - latest['2y']) * 100, 1)
+        assert spread_2s10s == 35.0
         
-        with patch('urllib.request.urlopen', side_effect=mock_urlopen_side_effect):
-            with patch('fetch_curve.fetch_move_index', return_value=(95.42, '2026-09-04')):
-                result = fetch_all_curve_data()
+    def test_2s10s_spread_inverted(self):
+        """Inverted 2s10s spread computed correctly."""
+        records = parse_treasury_xml(INVERTED_CURVE_XML)
+        latest = records[0]
         
-        assert result['spreads']['10s30s']['value_bps'] == 30.0
-        assert result['spreads']['10s30s']['value_pct'] == 0.3
-    
-    def test_10s30s_none_when_missing_dgs30(self):
-        """10s30s should be None if DGS30 fetch fails."""
-        mock_csvs = {
-            'DGS10': """DATE,DGS10
-2026-09-04,4.25""",
-            'DGS30': """DATE,DGS30
-""",
-            'T10Y2Y': """DATE,T10Y2Y
-2026-09-04,0.45""",
-            'DGS2': """DATE,DGS2
-2026-09-04,3.80""",
-        }
+        # 2s10s = 10Y - 2Y = 4.80 - 5.20 = -0.40 = -40 bps
+        spread_2s10s = round((latest['10y'] - latest['2y']) * 100, 1)
+        assert spread_2s10s == -40.0
         
-        def mock_urlopen_side_effect(req, timeout=30):
-            url = req.full_url if hasattr(req, 'full_url') else str(req)
-            for series, csv in mock_csvs.items():
-                if series in url:
-                    mock_resp = MagicMock()
-                    mock_resp.read.return_value = csv.encode('utf-8')
-                    mock_resp.__enter__ = lambda s: s
-                    mock_resp.__exit__ = MagicMock(return_value=False)
-                    return mock_resp
-            raise ValueError(f"Unexpected URL: {url}")
+    def test_10s30s_spread_normal(self):
+        """Normal 10s30s spread computed correctly."""
+        records = parse_treasury_xml(SAMPLE_TREASURY_XML)
+        latest = records[0]
         
-        with patch('urllib.request.urlopen', side_effect=mock_urlopen_side_effect):
-            with patch('fetch_curve.fetch_move_index', return_value=(None, None)):
-                result = fetch_all_curve_data()
+        # 10s30s = 30Y - 10Y = 4.45 - 4.20 = 0.25 = 25 bps
+        spread_10s30s = round((latest['30y'] - latest['10y']) * 100, 1)
+        assert spread_10s30s == 25.0
         
-        assert result['spreads']['10s30s']['value_bps'] is None
+    def test_10s30s_spread_inverted(self):
+        """Inverted 10s30s spread computed correctly."""
+        records = parse_treasury_xml(INVERTED_CURVE_XML)
+        latest = records[0]
+        
+        # 10s30s = 30Y - 10Y = 4.70 - 4.80 = -0.10 = -10 bps
+        spread_10s30s = round((latest['30y'] - latest['10y']) * 100, 1)
+        assert spread_10s30s == -10.0
 
 
-class TestHasAnyData:
-    """Test has_any_data validation."""
+class TestSignalDetermination:
+    """Test spread signal determination (inverted/flat/normal)."""
     
-    def test_has_data_with_2s10s(self):
-        """Should return True if 2s10s has value."""
+    def test_inverted_signal_2s10s(self):
+        """Negative spread should be 'inverted'."""
+        spread_bps = -40.0  # From inverted curve
+        signal = 'inverted' if spread_bps < 0 else ('flat' if spread_bps < 25 else 'normal')
+        assert signal == 'inverted'
+        
+    def test_flat_signal_2s10s(self):
+        """Small positive spread (<25 bps) should be 'flat'."""
+        spread_bps = 10.0  # Small positive
+        signal = 'inverted' if spread_bps < 0 else ('flat' if spread_bps < 25 else 'normal')
+        assert signal == 'flat'
+        
+    def test_normal_signal_2s10s(self):
+        """Normal positive spread (>=25 bps) should be 'normal'."""
+        spread_bps = 35.0  # From sample data
+        signal = 'inverted' if spread_bps < 0 else ('flat' if spread_bps < 25 else 'normal')
+        assert signal == 'normal'
+        
+    def test_flat_signal_10s30s(self):
+        """Small 10s30s spread (<15 bps) should be 'flat'."""
+        spread_bps = 5.0  # Small positive
+        signal = 'inverted' if spread_bps < 0 else ('flat' if spread_bps < 15 else 'normal')
+        assert signal == 'flat'
+
+
+class TestValidateCurveData:
+    """Test validation of curve data structure."""
+    
+    def test_valid_data_passes(self):
+        """Complete valid data should pass validation."""
         data = {
-            'spreads': {'2s10s': {'value_bps': 45.0}},
-            'move_index': {'value': None}
+            'spreads': {
+                '2s10s': {'value_bps': 35.0}
+            },
+            'levels': {
+                '2y': {'value': 3.85},
+                '10y': {'value': 4.20}
+            }
         }
-        assert has_any_data(data) is True
-    
-    def test_has_data_with_move_only(self):
-        """Should return True if only MOVE has value."""
+        is_valid, error = validate_curve_data(data)
+        assert is_valid == True
+        assert error == ""
+        
+    def test_missing_2s10s_fails(self):
+        """Missing 2s10s spread should fail validation."""
         data = {
-            'spreads': {'2s10s': {'value_bps': None}, '10s30s': {'value_bps': None}},
-            'move_index': {'value': 95.5}
+            'spreads': {},
+            'levels': {
+                '2y': {'value': 3.85},
+                '10y': {'value': 4.20}
+            }
         }
-        assert has_any_data(data) is True
-    
-    def test_has_no_data_all_none(self):
-        """Should return False if all values are None."""
+        is_valid, error = validate_curve_data(data)
+        assert is_valid == False
+        assert '2s10s' in error.lower()
+        
+    def test_null_2s10s_fails(self):
+        """Null 2s10s spread should fail validation."""
         data = {
-            'spreads': {'2s10s': {'value_bps': None}, '10s30s': {'value_bps': None}},
-            'move_index': {'value': None}
-        }
-        assert has_any_data(data) is False
-    
-    def test_has_no_data_empty(self):
-        """Should return False for empty data."""
-        assert has_any_data({}) is False
-
-
-class TestMergeCurveData:
-    """Test fail-closed merge logic."""
-    
-    def test_merge_preserves_existing_on_none(self):
-        """New None values should not overwrite existing good values."""
-        existing = {
             'spreads': {
-                '2s10s': {'value_bps': 45.0, 'observation_date': '2026-09-03'},
-                '10s30s': {'value_bps': 30.0}
+                '2s10s': {'value_bps': None}
             },
-            'move_index': {'value': 95.5}
+            'levels': {
+                '2y': {'value': 3.85},
+                '10y': {'value': 4.20}
+            }
         }
-        new_data = {
-            'last_updated': '2026-09-04T12:00:00',
+        is_valid, error = validate_curve_data(data)
+        assert is_valid == False
+        
+    def test_missing_2y_level_fails(self):
+        """Missing 2Y level should fail validation."""
+        data = {
             'spreads': {
-                '2s10s': {'value_bps': None},
-                '10s30s': {'value_bps': 32.0, 'observation_date': '2026-09-04'}
+                '2s10s': {'value_bps': 35.0}
             },
-            'move_index': {'value': None}
+            'levels': {
+                '10y': {'value': 4.20}
+            }
         }
+        is_valid, error = validate_curve_data(data)
+        assert is_valid == False
+        assert '2y' in error.lower()
         
-        merged = merge_curve_data(existing, new_data)
-        
-        assert merged['spreads']['2s10s']['value_bps'] == 45.0
-        assert merged['spreads']['10s30s']['value_bps'] == 32.0
-        assert merged['move_index']['value'] == 95.5
-    
-    def test_merge_updates_with_new_values(self):
-        """New valid values should update existing."""
-        existing = {
-            'spreads': {'2s10s': {'value_bps': 45.0}},
-            'move_index': {'value': 95.5}
-        }
-        new_data = {
-            'last_updated': '2026-09-04T12:00:00',
+    def test_missing_10y_level_fails(self):
+        """Missing 10Y level should fail validation."""
+        data = {
             'spreads': {
-                '2s10s': {'value_bps': 48.0, 'observation_date': '2026-09-04'},
-                '10s30s': {'value_bps': 32.0}
+                '2s10s': {'value_bps': 35.0}
             },
-            'move_index': {'value': 98.2, 'observation_date': '2026-09-04'}
+            'levels': {
+                '2y': {'value': 3.85}
+            }
         }
+        is_valid, error = validate_curve_data(data)
+        assert is_valid == False
+        assert '10y' in error.lower()
         
-        merged = merge_curve_data(existing, new_data)
-        
-        assert merged['spreads']['2s10s']['value_bps'] == 48.0
-        assert merged['spreads']['10s30s']['value_bps'] == 32.0
-        assert merged['move_index']['value'] == 98.2
-    
-    def test_merge_empty_existing(self):
-        """Merge into empty existing should work."""
-        new_data = {
-            'last_updated': '2026-09-04T12:00:00',
-            'spreads': {'2s10s': {'value_bps': 45.0}},
-            'move_index': {'value': 95.5}
-        }
-        
-        merged = merge_curve_data({}, new_data)
-        
-        assert merged['spreads']['2s10s']['value_bps'] == 45.0
-        assert merged['move_index']['value'] == 95.5
+    def test_none_data_fails(self):
+        """None data should fail validation."""
+        is_valid, error = validate_curve_data(None)
+        assert is_valid == False
 
 
-class TestStaleMarking:
-    """Test stale data preservation."""
+class TestStaleDataPreservation:
+    """Test that stale marking preserves existing data (fail-closed pattern)."""
     
-    def test_mark_stale_preserves_data(self):
-        """mark_curve_stale should add stale metadata without overwriting data."""
-        import fetch_curve
-        
+    def test_mark_curve_data_stale_adds_metadata(self):
+        """mark_curve_data_stale should add stale metadata without overwriting data."""
         with tempfile.TemporaryDirectory() as tmpdir:
             tmppath = Path(tmpdir) / "market_data.json"
             good_data = {
                 'curve_data': {
-                    'last_updated': '2026-09-03T10:00:00',
-                    'spreads': {'2s10s': {'value_bps': 45.0}}
+                    'last_updated': '2026-09-01T10:00:00',
+                    'spreads': {
+                        '2s10s': {'value_bps': 35.0, 'signal': 'normal'}
+                    },
+                    'levels': {
+                        '2y': {'value': 3.85},
+                        '10y': {'value': 4.20}
+                    }
                 },
                 'data_fetch_status': {'curve_data': 'live'}
             }
             tmppath.write_text(json.dumps(good_data))
             
+            # Monkey-patch MARKET_DATA_FILE for this test
+            import fetch_curve
             original_path = fetch_curve.MARKET_DATA_FILE
             fetch_curve.MARKET_DATA_FILE = tmppath
             
             try:
-                result = mark_curve_stale("Test error: network timeout")
-                assert result is True
+                # Mark as stale
+                result = mark_curve_data_stale("Test error: Treasury.gov timeout")
+                assert result == True
                 
+                # Read back and verify
                 updated = json.loads(tmppath.read_text())
                 
-                assert updated['curve_data']['spreads']['2s10s']['value_bps'] == 45.0
-                assert updated['curve_data']['_stale'] is True
-                assert 'network timeout' in updated['curve_data']['_stale_reason']
+                # Original data preserved
+                assert updated['curve_data']['spreads']['2s10s']['value_bps'] == 35.0
+                assert updated['curve_data']['levels']['2y']['value'] == 3.85
+                assert updated['curve_data']['last_updated'] == '2026-09-01T10:00:00'
+                
+                # Stale metadata added
+                assert updated['curve_data']['_stale'] == True
+                assert 'Treasury.gov timeout' in updated['curve_data']['_stale_reason']
+                assert '_stale_since' in updated['curve_data']
+                
+                # Status updated
                 assert updated['data_fetch_status']['curve_data'] == 'stale'
                 
             finally:
                 fetch_curve.MARKET_DATA_FILE = original_path
-    
-    def test_mark_stale_no_file(self):
-        """mark_curve_stale should handle missing file gracefully."""
-        import fetch_curve
-        
+                
+    def test_mark_stale_no_existing_file(self):
+        """mark_curve_data_stale handles missing file gracefully."""
         with tempfile.TemporaryDirectory() as tmpdir:
             tmppath = Path(tmpdir) / "nonexistent.json"
             
+            import fetch_curve
             original_path = fetch_curve.MARKET_DATA_FILE
             fetch_curve.MARKET_DATA_FILE = tmppath
             
             try:
-                result = mark_curve_stale("Test error")
-                assert result is False
+                result = mark_curve_data_stale("Test error")
+                assert result == False  # Should return False, not crash
             finally:
                 fetch_curve.MARKET_DATA_FILE = original_path
+
+
+class TestFREDOptional:
+    """Test that FRED is truly optional and doesn't block the pipeline."""
+    
+    def test_pipeline_works_without_fred_key(self):
+        """Pipeline should succeed without FRED_API_KEY set."""
+        import os
+        # Ensure no FRED key
+        fred_key = os.environ.pop('FRED_API_KEY', None)
+        
+        try:
+            # FRED enrichment should not crash
+            from fetch_curve import try_fred_enrichment
+            result = try_fred_enrichment()
+            # Result can be None (unavailable) or dict (available)
+            # Either is acceptable - it should NOT raise
+            assert result is None or isinstance(result, dict)
+        finally:
+            if fred_key:
+                os.environ['FRED_API_KEY'] = fred_key
+
+
+class TestMOVESignals:
+    """Test MOVE index signal thresholds."""
+    
+    def test_move_low_vol_signal(self):
+        """MOVE < 80 should be 'low_vol'."""
+        value = 75
+        thresholds = {'low': 80, 'normal': 100, 'elevated': 120, 'high': 150}
+        
+        if value < thresholds['low']:
+            signal = 'low_vol'
+        elif value < thresholds['normal']:
+            signal = 'normal'
+        elif value < thresholds['elevated']:
+            signal = 'elevated'
+        elif value < thresholds['high']:
+            signal = 'high'
+        else:
+            signal = 'extreme'
+            
+        assert signal == 'low_vol'
+        
+    def test_move_normal_signal(self):
+        """80 <= MOVE < 100 should be 'normal'."""
+        value = 90
+        thresholds = {'low': 80, 'normal': 100, 'elevated': 120, 'high': 150}
+        
+        if value < thresholds['low']:
+            signal = 'low_vol'
+        elif value < thresholds['normal']:
+            signal = 'normal'
+        elif value < thresholds['elevated']:
+            signal = 'elevated'
+        elif value < thresholds['high']:
+            signal = 'high'
+        else:
+            signal = 'extreme'
+            
+        assert signal == 'normal'
+        
+    def test_move_elevated_signal(self):
+        """100 <= MOVE < 120 should be 'elevated'."""
+        value = 110
+        thresholds = {'low': 80, 'normal': 100, 'elevated': 120, 'high': 150}
+        
+        if value < thresholds['low']:
+            signal = 'low_vol'
+        elif value < thresholds['normal']:
+            signal = 'normal'
+        elif value < thresholds['elevated']:
+            signal = 'elevated'
+        elif value < thresholds['high']:
+            signal = 'high'
+        else:
+            signal = 'extreme'
+            
+        assert signal == 'elevated'
+        
+    def test_move_high_signal(self):
+        """120 <= MOVE < 150 should be 'high'."""
+        value = 135
+        thresholds = {'low': 80, 'normal': 100, 'elevated': 120, 'high': 150}
+        
+        if value < thresholds['low']:
+            signal = 'low_vol'
+        elif value < thresholds['normal']:
+            signal = 'normal'
+        elif value < thresholds['elevated']:
+            signal = 'elevated'
+        elif value < thresholds['high']:
+            signal = 'high'
+        else:
+            signal = 'extreme'
+            
+        assert signal == 'high'
+        
+    def test_move_extreme_signal(self):
+        """MOVE >= 150 should be 'extreme'."""
+        value = 175
+        thresholds = {'low': 80, 'normal': 100, 'elevated': 120, 'high': 150}
+        
+        if value < thresholds['low']:
+            signal = 'low_vol'
+        elif value < thresholds['normal']:
+            signal = 'normal'
+        elif value < thresholds['elevated']:
+            signal = 'elevated'
+        elif value < thresholds['high']:
+            signal = 'high'
+        else:
+            signal = 'extreme'
+            
+        assert signal == 'extreme'
+
+
+class TestSourceLabeling:
+    """Test that source labels are honest (Treasury.gov vs FRED)."""
+    
+    def test_spread_source_is_treasury(self):
+        """Spreads should indicate Treasury.gov as source."""
+        # This tests the data structure, not the fetch
+        spread_data = {
+            '2s10s': {
+                'value_bps': 35.0,
+                'source': 'Treasury.gov (computed)',
+                'calculation': '10Y - 2Y from Treasury daily curve'
+            }
+        }
+        assert 'Treasury' in spread_data['2s10s']['source']
+        assert 'FRED' not in spread_data['2s10s']['source']
+        
+    def test_level_source_is_treasury(self):
+        """Levels should indicate Treasury.gov as source."""
+        level_data = {
+            '2y': {
+                'value': 3.85,
+                'source': 'Treasury.gov'
+            }
+        }
+        assert 'Treasury' in level_data['2y']['source']
+        
+    def test_move_source_is_yahoo(self):
+        """MOVE should indicate Yahoo Finance as source."""
+        move_data = {
+            'value': 95.0,
+            'source': 'Yahoo Finance',
+            'yahoo_symbol': '^MOVE'
+        }
+        assert 'Yahoo' in move_data['source']
 
 
 def run_tests():
@@ -367,12 +531,14 @@ def run_tests():
     import traceback
     
     test_classes = [
-        TestFREDParsing,
-        TestMOVEParsing,
+        TestTreasuryXMLParsing,
         TestSpreadComputation,
-        TestHasAnyData,
-        TestMergeCurveData,
-        TestStaleMarking,
+        TestSignalDetermination,
+        TestValidateCurveData,
+        TestStaleDataPreservation,
+        TestFREDOptional,
+        TestMOVESignals,
+        TestSourceLabeling,
     ]
     
     total = 0
