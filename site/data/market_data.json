@@ -1,6 +1,6 @@
 {
   "_comment": "First-class market data objects for the idea radar. Treasury auctions, curve snapshots, and positioning data.",
-  "_updated": "2026-09-03",
+  "_updated": "2026-09-04",
   "_data_status": "stub_awaiting_live_fetch",
   "schema_version": 1,
   "treasury_calendar": {
@@ -188,7 +188,7 @@
     "_source_url": "https://gpu-index.semianalysis.com/",
     "_data_type": "surveyed_index",
     "_staleness_note": "Free public data lags several months behind current date. Display the as-of period prominently.",
-    "last_fetched": "2026-09-03T23:49:51.979965",
+    "last_fetched": "2026-09-04T05:06:44.275341",
     "h100": {
       "period": "Apr 2026",
       "composite_index": {
