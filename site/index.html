@@ -376,6 +376,78 @@
       background: linear-gradient(90deg, #6b7280, #9ca3af);
     }
 
+    /* Featured/Debated cards - curated thesis not from podcast pipeline */
+    .overton-window-item.featured-item {
+      background: rgba(255, 193, 7, 0.08);
+      border: 1px solid rgba(255, 193, 7, 0.35);
+      border-left: 3px solid rgba(255, 193, 7, 0.7);
+    }
+
+    .overton-window-item.featured-item:hover {
+      background: rgba(255, 193, 7, 0.12);
+      border-color: rgba(255, 193, 7, 0.5);
+      box-shadow: 0 6px 24px rgba(255, 193, 7, 0.12);
+    }
+
+    .overton-window-item.featured-item .debated-badge {
+      display: inline-block;
+      background: rgba(255, 193, 7, 0.2);
+      color: #ffc107;
+      font-size: 0.6rem;
+      font-weight: 700;
+      text-transform: uppercase;
+      letter-spacing: 0.05em;
+      padding: 0.15rem 0.4rem;
+      border-radius: 3px;
+      margin-left: 0.5rem;
+      vertical-align: middle;
+    }
+
+    .overton-window-item.featured-item .ow-section {
+      margin-top: 0.6rem;
+      padding-top: 0.5rem;
+      border-top: 1px solid rgba(255, 255, 255, 0.05);
+    }
+
+    .overton-window-item.featured-item .ow-section-label {
+      font-size: 0.7rem;
+      font-weight: 700;
+      color: #ffc107;
+      text-transform: uppercase;
+      letter-spacing: 0.03em;
+      margin-bottom: 0.25rem;
+    }
+
+    .overton-window-item.featured-item .ow-section-content {
+      font-size: 0.85rem;
+      color: #a8b2d1;
+      line-height: 1.5;
+    }
+
+    .overton-window-item.featured-item .ow-nested-note {
+      font-size: 0.78rem;
+      color: #8892b0;
+      font-style: italic;
+      margin-top: 0.5rem;
+      padding: 0.4rem 0.6rem;
+      background: rgba(255, 255, 255, 0.03);
+      border-radius: 4px;
+      border-left: 2px solid rgba(255, 193, 7, 0.3);
+    }
+
+    .overton-window-item.featured-item .ow-curated-prov {
+      font-size: 0.72rem;
+      color: #8892b0;
+      margin-top: 0.6rem;
+      padding-top: 0.4rem;
+      border-top: 1px solid rgba(255, 255, 255, 0.05);
+    }
+
+    .overton-window-item.featured-item .ow-curated-prov .prov-label {
+      color: #6b7280;
+      font-weight: 600;
+    }
+
     .guest-item {
       position: relative;
       overflow: hidden;
@@ -1907,7 +1979,8 @@
     // Load Overton Window from mainContent.overton (display_on_main = 1 only)
     // Now with novelty-aware ranking: newer/specific terms rank higher than saturated ones.
     // Established tier (AGI, Autonomy, etc.) shown separately in collapsible section.
-    function loadOvertonWindow() {
+    // Featured/curated cards from featured_overton.json are pinned at the top with a "Debated" badge.
+    async function loadOvertonWindow() {
       const container = document.getElementById('overton-window-list');
       if (!container) return;
 
@@ -1936,6 +2009,47 @@
           bits.push(esc(t.length > 72 ? t.substring(0, 69) + '…' : t));
         }
         return '<div class="ow-provenance-line"><span class="ow-prov-label">' + esc(label) + '</span> ' + bits.join(' · ') + '</div>';
+      }
+
+      // Build a featured/curated card (no fake mention_count or resonance bar)
+      function buildFeaturedCard(f) {
+        const term = esc(f.term);
+        const thesis = esc(f.thesis || '');
+        const whoCollects = esc(f.who_collects_rent || '');
+        const killShot = esc(f.kill_shot || '');
+        const nestedNote = esc(f.nested_note || '');
+        const adjacentNote = esc(f.adjacent_note || '');
+        const prov = f.provenance || {};
+        const provDate = esc(prov.date || '');
+        const provAuthor = esc(prov.author || 'Curated');
+        const provNote = esc(prov.note || '');
+
+        let sectionsHtml = '';
+        if (whoCollects) {
+          sectionsHtml += '<div class="ow-section"><div class="ow-section-label">Who collects the rent</div><div class="ow-section-content">' + whoCollects + '</div></div>';
+        }
+        if (killShot) {
+          sectionsHtml += '<div class="ow-section"><div class="ow-section-label">Operational kill-shot</div><div class="ow-section-content">' + killShot + '</div></div>';
+        }
+        if (nestedNote) {
+          sectionsHtml += '<div class="ow-nested-note">' + nestedNote + '</div>';
+        }
+        if (adjacentNote) {
+          sectionsHtml += '<div style="font-size: 0.75rem; color: #8892b0; margin-top: 0.4rem; font-style: italic;">' + adjacentNote + '</div>';
+        }
+
+        const provHtml = '<div class="ow-curated-prov"><span class="prov-label">Curated:</span> ' + provDate + ' · ' + provAuthor + (provNote ? ' — ' + provNote : '') + '</div>';
+
+        return (
+          '<div class="overton-window-item featured-item">' +
+            '<div class="overton-header-row">' +
+              '<div class="ow-term">' + term + '<span class="debated-badge">Debated</span></div>' +
+            '</div>' +
+            '<div class="ow-description">' + thesis + '</div>' +
+            sectionsHtml +
+            provHtml +
+          '</div>'
+        );
       }
 
       function buildTermCard(o, isEstablished) {
@@ -1999,6 +2113,20 @@
         );
       }
 
+      // Fetch featured/curated cards (independent of pipeline)
+      let featuredItems = [];
+      try {
+        const featuredResp = await fetch('./data/featured_overton.json', { cache: 'no-cache' });
+        if (featuredResp.ok) {
+          const featuredData = await featuredResp.json();
+          const featured = (featuredData.featured || []).filter(f => f.status === 'active');
+          featured.sort((a, b) => (a.display_order || 999) - (b.display_order || 999));
+          featured.forEach(f => featuredItems.push(buildFeaturedCard(f)));
+        }
+      } catch (e) {
+        console.warn('Could not load featured_overton.json:', e);
+      }
+
       // Sort new ideas by novelty score (already sorted in backend, but re-sort for safety)
       const rows = overton.slice().sort(function(a, b) {
         var sa = (typeof a.novelty_score === 'number') ? a.novelty_score : (parseFloat(a.overton_score) || 0);
@@ -2035,12 +2163,13 @@
           '</div>';
       }
 
-      if (items.length === 0 && established.length === 0) {
+      if (featuredItems.length === 0 && items.length === 0 && established.length === 0) {
         container.innerHTML = '<p style="color: #8892b0; font-size: 0.9rem; padding: 1rem;">No recurring terms on the main list yet — candidates need two episodes plus a YES reply. See <a href="pipeline-health.html" style="color: #00d4ff;">data status</a>.</p>';
         return;
       }
       
-      container.innerHTML = items.join('') + establishedHtml;
+      // Featured cards pinned at top, then pipeline-ranked items, then established tier
+      container.innerHTML = featuredItems.join('') + items.join('') + establishedHtml;
     }
 
     // Toggle Established tier visibility
