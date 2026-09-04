@@ -40,6 +40,8 @@ Before publishing, run `--scripts-only` and review `pipeline/state/last_debate_s
 generates the selected debaters' written cases and review metadata, then exits before changing history,
 calling ElevenLabs, writing the public contract, or touching site audio.
 
+For quality Debaits, the editorial path may use `pipeline/debait_generator_contract_v1.md` (same-vs-different framing + episode lenses + Scout packet + pre-audio gate) instead of the automated LLM speech path.
+
 ## CLI
 
 ```bash
