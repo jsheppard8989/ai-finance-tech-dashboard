@@ -3,80 +3,80 @@
 
 const dashboardData = {
   schemaVersion: 2,
-  generatedAt: "2026-09-04T05:07:18.808463",
-  chartsVersion: "2026-09-04T05:07:02.351836",
+  generatedAt: "2026-09-04T06:39:22.318966",
+  chartsVersion: "2026-09-04T06:39:11.577359",
   priceSnapshot: {
   "GOOGL": {
     "price": 342.48,
     "change_pct": -0.44,
     "name": "GOOGL",
-    "updated_at": "2026-09-04T05:07:02.350765"
+    "updated_at": "2026-09-04T06:39:11.576452"
   },
   "NVDA": {
     "price": 228.45,
     "change_pct": 1.53,
     "name": "NVDA",
-    "updated_at": "2026-09-04T05:07:02.350786"
+    "updated_at": "2026-09-04T06:39:11.576469"
   },
   "MSFT": {
     "price": 510.12,
     "change_pct": 6.4,
     "name": "MSFT",
-    "updated_at": "2026-09-04T05:07:02.350796"
+    "updated_at": "2026-09-04T06:39:11.576476"
   },
   "BTC": {
-    "price": 80995.59,
-    "change_pct": 5.08,
+    "price": 81291.0,
+    "change_pct": 5.46,
     "name": "BTC",
-    "updated_at": "2026-09-04T05:07:02.350805"
+    "updated_at": "2026-09-04T06:39:11.576482"
   },
   "TSLA": {
     "price": 376.37,
     "change_pct": 10.93,
     "name": "TSLA",
-    "updated_at": "2026-09-04T05:07:02.350813"
+    "updated_at": "2026-09-04T06:39:11.576488"
   },
   "AMZN": {
     "price": 258.9,
     "change_pct": -0.92,
     "name": "AMZN",
-    "updated_at": "2026-09-04T05:07:02.350822"
+    "updated_at": "2026-09-04T06:39:11.576493"
   },
   "META": {
     "price": 610.68,
     "change_pct": 7.33,
     "name": "META",
-    "updated_at": "2026-09-04T05:07:02.350831"
+    "updated_at": "2026-09-04T06:39:11.576499"
   },
   "WTI": {
     "price": 3.89,
     "change_pct": 4.0,
     "name": "WTI",
-    "updated_at": "2026-09-04T05:07:02.350839"
+    "updated_at": "2026-09-04T06:39:11.576504"
   },
   "S&P 500": {
     "price": 773.17,
     "change_pct": 0.06,
     "name": "S&P 500",
-    "updated_at": "2026-09-04T05:07:02.350847"
+    "updated_at": "2026-09-04T06:39:11.576517"
   },
   "AAPL": {
     "price": 328.21,
     "change_pct": 7.4,
     "name": "AAPL",
-    "updated_at": "2026-09-04T05:07:02.350855"
+    "updated_at": "2026-09-04T06:39:11.576523"
   },
   "QQQ": {
     "price": 717.67,
     "change_pct": -1.67,
     "name": "Invesco QQQ Trust",
-    "updated_at": "2026-09-04T05:07:02.350863"
+    "updated_at": "2026-09-04T06:39:11.576529"
   },
   "BTC-USD": {
-    "price": 80995.59,
-    "change_pct": 5.08,
+    "price": 81291.0,
+    "change_pct": 5.46,
     "name": "Bitcoin USD",
-    "updated_at": "2026-09-04T05:07:02.350873"
+    "updated_at": "2026-09-04T06:39:11.576535"
   }
 },
   tickerScores: [
@@ -40068,7 +40068,7 @@ const dashboardData = {
 ],
   podcastGuests: [
   {
-    "id": 62645,
+    "id": 62732,
     "name": "Daniel Litt",
     "slug": "daniel-litt",
     "bio": null,
@@ -40080,7 +40080,7 @@ const dashboardData = {
     "appearance_count": 1
   },
   {
-    "id": 62646,
+    "id": 62733,
     "name": "Gavin Baker",
     "slug": "gavin-baker",
     "bio": null,
@@ -40092,7 +40092,7 @@ const dashboardData = {
     "appearance_count": 1
   },
   {
-    "id": 62647,
+    "id": 62734,
     "name": "Sam Altman",
     "slug": "sam-altman",
     "bio": null,
@@ -40104,7 +40104,7 @@ const dashboardData = {
     "appearance_count": 1
   },
   {
-    "id": 62648,
+    "id": 62735,
     "name": "Time to Reduce Equity Risk",
     "slug": "time-to-reduce-equity-risk",
     "bio": null,
@@ -40116,7 +40116,7 @@ const dashboardData = {
     "appearance_count": 1
   },
   {
-    "id": 62649,
+    "id": 62736,
     "name": "Eric Weinstein",
     "slug": "eric-weinstein",
     "bio": null,
@@ -40128,7 +40128,7 @@ const dashboardData = {
     "appearance_count": 1
   },
   {
-    "id": 62650,
+    "id": 62737,
     "name": "Michael Kratsios",
     "slug": "michael-kratsios",
     "bio": null,
@@ -40140,7 +40140,7 @@ const dashboardData = {
     "appearance_count": 1
   },
   {
-    "id": 62651,
+    "id": 62738,
     "name": "Emad Mostaque",
     "slug": "emad-mostaque",
     "bio": null,
@@ -40152,7 +40152,7 @@ const dashboardData = {
     "appearance_count": 3
   },
   {
-    "id": 62652,
+    "id": 62739,
     "name": "Angela Strange and Gabriel Vasquez",
     "slug": "angela-strange-and-gabriel-vasquez",
     "bio": null,
@@ -40164,7 +40164,7 @@ const dashboardData = {
     "appearance_count": 1
   },
   {
-    "id": 62653,
+    "id": 62740,
     "name": "Why Bessent Blinked",
     "slug": "why-bessent-blinked",
     "bio": null,
@@ -40176,7 +40176,7 @@ const dashboardData = {
     "appearance_count": 1
   },
   {
-    "id": 62654,
+    "id": 62741,
     "name": "Travis Kalanick",
     "slug": "travis-kalanick",
     "bio": null,
@@ -40188,7 +40188,7 @@ const dashboardData = {
     "appearance_count": 1
   },
   {
-    "id": 62655,
+    "id": 62742,
     "name": "Rahm Emanuel",
     "slug": "rahm-emanuel",
     "bio": null,
@@ -40200,7 +40200,7 @@ const dashboardData = {
     "appearance_count": 1
   },
   {
-    "id": 62656,
+    "id": 62743,
     "name": "Milton Berg",
     "slug": "milton-berg",
     "bio": "Milton Berg is a veteran technical analyst and CEO of Milton Berg Advisors, specializing in market turning-point analysis for institutional investors.",
@@ -40212,7 +40212,7 @@ const dashboardData = {
     "appearance_count": 1
   },
   {
-    "id": 62657,
+    "id": 62744,
     "name": "How Open",
     "slug": "how-open",
     "bio": null,
@@ -40224,7 +40224,7 @@ const dashboardData = {
     "appearance_count": 1
   },
   {
-    "id": 62658,
+    "id": 62745,
     "name": "Saronic Founders",
     "slug": "saronic-founders",
     "bio": null,
@@ -40236,7 +40236,7 @@ const dashboardData = {
     "appearance_count": 1
   },
   {
-    "id": 62659,
+    "id": 62746,
     "name": "OpenAI's Joshua Achiam",
     "slug": "openais-joshua-achiam",
     "bio": null,
@@ -40248,7 +40248,7 @@ const dashboardData = {
     "appearance_count": 1
   },
   {
-    "id": 62660,
+    "id": 62747,
     "name": "Marc Andreessen and Chris Dixon",
     "slug": "marc-andreessen-and-chris-dixon",
     "bio": null,
@@ -40260,7 +40260,7 @@ const dashboardData = {
     "appearance_count": 1
   },
   {
-    "id": 62661,
+    "id": 62748,
     "name": "AI for America's Small Businesses",
     "slug": "ai-for-americas-small-businesses",
     "bio": null,
@@ -40272,7 +40272,7 @@ const dashboardData = {
     "appearance_count": 1
   },
   {
-    "id": 62662,
+    "id": 62749,
     "name": "Luke Gromen",
     "slug": "luke-gromen",
     "bio": null,
@@ -40284,7 +40284,7 @@ const dashboardData = {
     "appearance_count": 1
   },
   {
-    "id": 62663,
+    "id": 62750,
     "name": "Steven Sinofsky",
     "slug": "steven-sinofsky",
     "bio": null,
@@ -40296,7 +40296,7 @@ const dashboardData = {
     "appearance_count": 1
   },
   {
-    "id": 62664,
+    "id": 62751,
     "name": "Travis Kelenick",
     "slug": "travis-kelenick",
     "bio": null,
@@ -40781,7 +40781,7 @@ const dashboardData = {
     "last_podcast_name": "Moonshots with Peter Diamandis",
     "last_episode_date": "2026-08-27",
     "mention_score": 1,
-    "mention_score_decayed": 0.87,
+    "mention_score_decayed": 0.85,
     "last_main_idea": "Investment in AI and autonomous vehicle sectors should consider the shift towards more gradual AI integration and the potential for cost-effective Chinese AI models to disrupt the market.",
     "last_proof_cite": "Moonshots with Peter Diamandis \u2022 2026-08-27 \u2022 Sam Altman: Singularity Slow-Down, Emad Runs 18 Grokbots, Waymo Slashes Hardware 83% | EP #283",
     "last_proof_snippet": "Sam Altman went on video this week to tell the world that he was wrong about the impact of advancing AI. We've all been too ambitious on time on it's even with this incredible technology. He now believes it will be something slower, more lik",
@@ -41027,7 +41027,7 @@ const dashboardData = {
     "last_podcast_name": "All-In with Chamath, Jason, Sacks & Friedberg",
     "last_episode_date": "2026-08-26",
     "mention_score": 1,
-    "mention_score_decayed": 0.85,
+    "mention_score_decayed": 0.83,
     "last_main_idea": "Investing in cutting-edge scientific research and exploration could lead to paradigm-shifting discoveries with significant impact on various industries.",
     "last_proof_cite": "All-In with Chamath, Jason, Sacks & Friedberg \u2022 2026-08-26 \u2022 Eric Weinstein: The State of American Science, Breakthrough Coverups, and the Danger of Physics",
     "last_proof_snippet": "We have become a f***ing nation when it comes to science. You were called a friend scientist and keep saying, friend, yeah. I totally disagree with the narrative of the field. I want to blow a giant pole in civil rights act. The stagnation",
@@ -45045,7 +45045,7 @@ const dashboardData = {
     "last_podcast_name": "The a16z Show",
     "last_episode_date": "2026-07-23",
     "mention_score": 1,
-    "mention_score_decayed": 0.39,
+    "mention_score_decayed": 0.38,
     "last_main_idea": "Industrial AI represents a substantial opportunity to transform physical industries through automation and AI, creating significant value beyond traditional software solutions.",
     "last_proof_cite": "The a16z Show \u2022 2026-07-23 \u2022 Building the Physical AI Stack | Travis Kalanick on TBPN",
     "last_proof_snippet": "Travis Kelenick joins TVPN to discuss why he's betting his next company on industrial AI. He shares his vision behind atoms, explains how autonomy is transforming industries like mining and food production, and discusses why bringing AI int",
@@ -48361,7 +48361,7 @@ const dashboardData = {
     "last_podcast_name": "The Jack Mallers Show",
     "last_episode_date": "2026-06-16",
     "mention_score": 2,
-    "mention_score_decayed": 0.32,
+    "mention_score_decayed": 0.31,
     "last_main_idea": "Investors should monitor Bitcoin as a leading market indicator and scrutinize the capital structures of Bitcoin treasury companies for potential risks and rewards, while maintaining a long-term perspective.",
     "last_proof_cite": "The Jack Mallers Show \u2022 2026-06-16 \u2022 15 Questions: The Strait, Strategy, mNAV, Dilution, & My Boots",
     "last_proof_snippet": "Yo, welcome back to another episode of the Jack Mallors Show. I'm your host Jack, and you're listening to mail bag Monday, ladies and gentlemen. Oh, there's my resources tab, my AI tool. All right, let's get back to slide one. You were list",
