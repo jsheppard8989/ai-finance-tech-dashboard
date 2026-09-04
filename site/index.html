@@ -1773,7 +1773,8 @@
         <h3 style="font-size: 0.9rem; color: #00d4ff; margin-bottom: 0.25rem;">📋 COT Positioning</h3>
         <p style="color: #9ca3af; font-size: 0.68rem; line-height: 1.35; margin-bottom: 0.5rem;">Who is long or short duration (and BTC) — the positioning side of captivity, not another narrative recap.</p>
         <div id="cot-widget" style="display: flex; gap: 0.75rem; font-size: 0.75rem; flex-wrap: wrap;">
-          <span style="color: #a8b2d1;">Coming soon — awaiting live data</span>
+          <span style="color: #a8b2d1;"><strong>10Y:</strong> <span style="color: #6b7280;">Coming soon</span></span>
+          <span style="color: #a8b2d1;"><strong>BTC:</strong> <span style="color: #6b7280;">Coming soon</span></span>
         </div>
         <div style="margin-top: 0.3rem;"><span style="color: #9ca3af; font-size: 0.65rem;">Source: CFTC (Fridays)</span></div>
       </div>
@@ -2291,23 +2292,42 @@
           }
         }
 
-        // Update COT widget
+        // Update COT widget - leveraged funds net positioning
+        // Shows "Coming soon" when data absent; never bare em dashes
         const cotEl = document.getElementById('cot-widget');
-        if (cotEl && data.cftc_cot) {
-          const cot = data.cftc_cot;
-          let v10y = null, vBtc = null;
+        if (cotEl) {
+          const cot = data.cftc_cot || {};
+          const isStale = cot._stale === true;
+          
+          // Format net position: +123K / -45K / "Coming soon" if null
+          function formatNet(net) {
+            if (net === null || net === undefined) return '<span style="color: #6b7280;">Coming soon</span>';
+            // Convert to K (thousands) for display
+            const netK = Math.round(net / 1000);
+            const sign = netK > 0 ? '+' : '';
+            return '<span style="color: ' + (netK > 0 ? '#10b981' : netK < 0 ? '#ef4444' : '#a8b2d1') + ';">' + sign + netK + 'K</span>';
+          }
+          
+          let v10y = '<span style="color: #6b7280;">Coming soon</span>';
+          let vBtc = '<span style="color: #6b7280;">Coming soon</span>';
+
           if (cot.rates_positioning && cot.rates_positioning['10y_note']) {
             const net = cot.rates_positioning['10y_note'].leveraged_funds_net;
-            if (net !== null) v10y = (net > 0 ? '+' : '') + net + 'K';
+            v10y = formatNet(net);
           }
           if (cot.btc_positioning && cot.btc_positioning.cme_btc) {
             const net = cot.btc_positioning.cme_btc.leveraged_funds_net;
-            if (net !== null) vBtc = (net > 0 ? '+' : '') + net + 'K';
+            vBtc = formatNet(net);
           }
-          const hasData = v10y !== null || vBtc !== null;
-          if (hasData) {
-            cotEl.innerHTML = '<span style="color: #a8b2d1;"><strong>10Y:</strong> ' + (v10y || 'Coming soon') + '</span> <span style="color: #a8b2d1;"><strong>BTC:</strong> ' + (vBtc || 'Coming soon') + '</span>';
+
+          // Build display with stale indicator if needed; never hide card
+          let html = '<span style="color: #a8b2d1;"><strong>10Y:</strong> ' + v10y + '</span>';
+          html += '<span style="color: #a8b2d1;"><strong>BTC:</strong> ' + vBtc + '</span>';
+          if (isStale) {
+            html += '<span style="color: #f59e0b; font-size: 0.65rem; margin-left: 0.5rem;" title="' + (cot._stale_reason || 'Data may be stale') + '">⚠️ stale</span>';
           }
+          cotEl.innerHTML = html;
+
         }
 
         // Update Compute Forward widget (GPU rental pricing - surveyed index)
