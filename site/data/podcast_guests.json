@@ -1,6 +1,30 @@
 [
   {
-    "id": 62819,
+    "id": 62906,
+    "name": "Fei Fei Li",
+    "slug": "fei-fei-li",
+    "bio": null,
+    "known_for": null,
+    "last_main_idea": "New view prediction and unified 3D world models represent a paradigm shift in computer vision with investable implications across AI infrastructure, robotics simulation, and creative tools, where first-movers leveraging multi-modal efficiency gains will capture disproportionate value as compute constraints ease.",
+    "last_episode_title": "Fei Fei Li: The Race to Build World Models For AI",
+    "last_podcast_name": "The a16z Show",
+    "last_episode_date": "2026-09-04",
+    "appearance_count": 1
+  },
+  {
+    "id": 62907,
+    "name": "Financial strategist Jared Dillian",
+    "slug": "financial-strategist-jared-dillian",
+    "bio": null,
+    "known_for": null,
+    "last_main_idea": "Investors should exploit the disconnect between bearish bond sentiment and moderating inflation by locking in historically high yields in long-duration government bonds, while hedging equity concentration risk through true cross-asset diversification and avoiding illiquid private markets until a clear floor forms.",
+    "last_episode_title": "\u201cI\u2019m Insanely Bullish on Bonds\u201d | Jared Dillian on Copper, Bonds, Semis, and The Awesome Portfolio",
+    "last_podcast_name": "Monetary Matters with Jack Farley",
+    "last_episode_date": "2026-09-03",
+    "appearance_count": 1
+  },
+  {
+    "id": 62908,
     "name": "Daniel Litt",
     "slug": "daniel-litt",
     "bio": null,
@@ -12,7 +36,7 @@
     "appearance_count": 1
   },
   {
-    "id": 62820,
+    "id": 62909,
     "name": "Gavin Baker",
     "slug": "gavin-baker",
     "bio": null,
@@ -24,7 +48,7 @@
     "appearance_count": 1
   },
   {
-    "id": 62821,
+    "id": 62910,
     "name": "Sam Altman",
     "slug": "sam-altman",
     "bio": null,
@@ -36,7 +60,7 @@
     "appearance_count": 1
   },
   {
-    "id": 62822,
+    "id": 62911,
     "name": "Time to Reduce Equity Risk",
     "slug": "time-to-reduce-equity-risk",
     "bio": null,
@@ -48,7 +72,7 @@
     "appearance_count": 1
   },
   {
-    "id": 62823,
+    "id": 62912,
     "name": "Eric Weinstein",
     "slug": "eric-weinstein",
     "bio": null,
@@ -60,7 +84,7 @@
     "appearance_count": 1
   },
   {
-    "id": 62824,
+    "id": 62913,
     "name": "Michael Kratsios",
     "slug": "michael-kratsios",
     "bio": null,
@@ -72,7 +96,7 @@
     "appearance_count": 1
   },
   {
-    "id": 62825,
+    "id": 62914,
     "name": "Emad Mostaque",
     "slug": "emad-mostaque",
     "bio": null,
@@ -84,7 +108,7 @@
     "appearance_count": 3
   },
   {
-    "id": 62826,
+    "id": 62915,
     "name": "Angela Strange and Gabriel Vasquez",
     "slug": "angela-strange-and-gabriel-vasquez",
     "bio": null,
@@ -96,7 +120,7 @@
     "appearance_count": 1
   },
   {
-    "id": 62827,
+    "id": 62916,
     "name": "Why Bessent Blinked",
     "slug": "why-bessent-blinked",
     "bio": null,
@@ -108,7 +132,7 @@
     "appearance_count": 1
   },
   {
-    "id": 62828,
+    "id": 62917,
     "name": "Travis Kalanick",
     "slug": "travis-kalanick",
     "bio": null,
@@ -120,7 +144,7 @@
     "appearance_count": 1
   },
   {
-    "id": 62829,
+    "id": 62918,
     "name": "Rahm Emanuel",
     "slug": "rahm-emanuel",
     "bio": null,
@@ -132,7 +156,7 @@
     "appearance_count": 1
   },
   {
-    "id": 62830,
+    "id": 62919,
     "name": "Milton Berg",
     "slug": "milton-berg",
     "bio": "Milton Berg is a veteran technical analyst and CEO of Milton Berg Advisors, specializing in market turning-point analysis for institutional investors.",
@@ -144,7 +168,7 @@
     "appearance_count": 1
   },
   {
-    "id": 62831,
+    "id": 62920,
     "name": "How Open",
     "slug": "how-open",
     "bio": null,
@@ -156,7 +180,7 @@
     "appearance_count": 1
   },
   {
-    "id": 62832,
+    "id": 62921,
     "name": "Saronic Founders",
     "slug": "saronic-founders",
     "bio": null,
@@ -168,7 +192,7 @@
     "appearance_count": 1
   },
   {
-    "id": 62833,
+    "id": 62922,
     "name": "OpenAI's Joshua Achiam",
     "slug": "openais-joshua-achiam",
     "bio": null,
@@ -180,7 +204,7 @@
     "appearance_count": 1
   },
   {
-    "id": 62834,
+    "id": 62923,
     "name": "Marc Andreessen and Chris Dixon",
     "slug": "marc-andreessen-and-chris-dixon",
     "bio": null,
@@ -192,7 +216,7 @@
     "appearance_count": 1
   },
   {
-    "id": 62835,
+    "id": 62924,
     "name": "AI for America's Small Businesses",
     "slug": "ai-for-americas-small-businesses",
     "bio": null,
@@ -204,7 +228,7 @@
     "appearance_count": 1
   },
   {
-    "id": 62836,
+    "id": 62925,
     "name": "Luke Gromen",
     "slug": "luke-gromen",
     "bio": null,
@@ -216,7 +240,7 @@
     "appearance_count": 1
   },
   {
-    "id": 62837,
+    "id": 62926,
     "name": "Steven Sinofsky",
     "slug": "steven-sinofsky",
     "bio": null,
@@ -228,7 +252,7 @@
     "appearance_count": 1
   },
   {
-    "id": 62838,
+    "id": 62927,
     "name": "Travis Kelenick",
     "slug": "travis-kelenick",
     "bio": null,
@@ -240,7 +264,7 @@
     "appearance_count": 1
   },
   {
-    "id": 62839,
+    "id": 62928,
     "name": "Travis Kalanick Is Back",
     "slug": "travis-kalanick-is-back",
     "bio": null,
@@ -252,7 +276,7 @@
     "appearance_count": 1
   },
   {
-    "id": 62840,
+    "id": 62929,
     "name": "Interest Rates to 10%",
     "slug": "interest-rates-to-10",
     "bio": null,
@@ -264,7 +288,7 @@
     "appearance_count": 1
   },
   {
-    "id": 62841,
+    "id": 62930,
     "name": "Nick Nemeth",
     "slug": "nick-nemeth",
     "bio": null,
@@ -276,7 +300,7 @@
     "appearance_count": 1
   },
   {
-    "id": 62842,
+    "id": 62931,
     "name": "Urgent Update- AI Sputnik Moment",
     "slug": "urgent-update--ai-sputnik-moment",
     "bio": null,
@@ -288,7 +312,7 @@
     "appearance_count": 1
   },
   {
-    "id": 62843,
+    "id": 62932,
     "name": "David Sachs",
     "slug": "david-sachs",
     "bio": null,
@@ -300,7 +324,7 @@
     "appearance_count": 1
   },
   {
-    "id": 62844,
+    "id": 62933,
     "name": "Turbo Charged Trend Following",
     "slug": "turbo-charged-trend-following",
     "bio": null,
@@ -312,7 +336,7 @@
     "appearance_count": 1
   },
   {
-    "id": 62845,
+    "id": 62934,
     "name": "Can Anyone Catch NVIDIA?",
     "slug": "can-anyone-catch-nvidia",
     "bio": null,
@@ -324,7 +348,7 @@
     "appearance_count": 1
   },
   {
-    "id": 62846,
+    "id": 62935,
     "name": "Mark Zuckerberg & Priscilla Chan",
     "slug": "mark-zuckerberg--priscilla-chan",
     "bio": null,
@@ -333,30 +357,6 @@
     "last_episode_title": "Mark Zuckerberg & Priscilla Chan: How AI Will Help Cure Disease",
     "last_podcast_name": "The a16z Show",
     "last_episode_date": "2026-07-09",
-    "appearance_count": 1
-  },
-  {
-    "id": 62847,
-    "name": "Adam Neumann",
-    "slug": "adam-neumann",
-    "bio": null,
-    "known_for": null,
-    "last_main_idea": "Invest in real estate companies that emphasize community engagement, technological adaptability, and global scalability to capitalize on the evolving landscape of work and living.",
-    "last_episode_title": "Adam Neumann: This Is How You Build Iconic Companies",
-    "last_podcast_name": "The a16z Show",
-    "last_episode_date": "2026-07-08",
-    "appearance_count": 1
-  },
-  {
-    "id": 62848,
-    "name": "Breaking Down the Multi-Manager Playbook",
-    "slug": "breaking-down-the-multi-manager-playbook",
-    "bio": null,
-    "known_for": null,
-    "last_main_idea": "Invest in Japanese equities and multi-strategy hedge funds to capitalize on governance reforms and diversify risk.",
-    "last_episode_title": "Breaking Down the Multi-Manager Playbook: How This $19B CIO Thinks About Alpha | Sean McGould | The Lighthouse Group",
-    "last_podcast_name": "Monetary Matters with Jack Farley",
-    "last_episode_date": "2026-07-07",
     "appearance_count": 1
   }
 ]

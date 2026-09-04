@@ -1,6 +1,121 @@
 {
   "insights": [
     {
+      "id": 466,
+      "title": "Fei Fei Li: The Race to Build World Models For AI",
+      "source_type": "podcast",
+      "source_name": "The a16z Show",
+      "source_date": "2026-09-04",
+      "summary": "This episode of The a16z Show explores Atlas, a next-generation world model that unifies 3D generation, reconstruction, and simulation through new view prediction. The discussion centers on how Atlas can generate high-quality video frames and perform sparse 3D reconstruction from as few as three camera views, dramatically reducing data capture requirements. The hosts and guests examine how Atlas's multi-modal architecture---integrating text, images, videos, and camera poses---addresses a long-standing gap in computer vision by combining pixel generation and reconstruction in a single model. The conversation highlights implications for creative industries, architecture, robotics, and simulation, while noting that computational resources remain the primary bottleneck for scaling. The episode positions new view prediction as a potential foundational primitive for future AI development, analogous to next token prediction in language models, with significant investment implications across gaming, virtual reality, robotics, and AI infrastructure.",
+      "key_takeaway": "New view prediction and unified 3D world models represent a paradigm shift in computer vision with investable implications across AI infrastructure, robotics simulation, and creative tools, where first-movers leveraging multi-modal efficiency gains will capture disproportionate value as compute constraints ease.",
+      "tickers_mentioned": [
+        "NVDA"
+      ],
+      "sentiment": "bullish",
+      "display_on_main": 1,
+      "display_order": 0,
+      "added_date": "2026-09-04",
+      "archived_date": null,
+      "archived_reason": null,
+      "podcast_episode_id": 452
+    },
+    {
+      "id": 467,
+      "title": "The $100B Niches Hiding Inside Payments",
+      "source_type": "podcast",
+      "source_name": "The a16z Show",
+      "source_date": "2026-09-03",
+      "summary": "This episode of The a16z Show explores the evolution and future of payment systems, anchored by the provocative claim that the credit card represents the most effective user interface ever created. The discussion traces how payment interfaces have resisted disruption for decades due to entrenched consumer behavior and network effects, while highlighting that even 'niche' payment opportunities represent $100 billion-plus markets. A central theme is the potential for AI to finally disintermediate the card interface through 'agentic commerce,' though consumer trust remains a critical barrier. The episode also examines how embedded financing, particularly 0% installment options, has transformed merchant conversion rates and enabled direct-to-consumer business models, using the mattress industry as a case study. Finally, the conversation explores the strategic convergence of payments and advertising, where payment data can shift merchants from passive demand fulfillment to active demand creation.",
+      "key_takeaway": "Payment interfaces are entering a renegotiation phase where AI agents, embedded financing, and payments-advertising convergence create multiple vectors for multi-billion dollar value creation, with first-mover advantages accruing to platforms that solve the trust and behavioral friction problems that have protected incumbent card networks for decades.",
+      "tickers_mentioned": [
+        "NVDA"
+      ],
+      "sentiment": "neutral",
+      "display_on_main": 1,
+      "display_order": 0,
+      "added_date": "2026-09-04",
+      "archived_date": null,
+      "archived_reason": null,
+      "podcast_episode_id": 454
+    },
+    {
+      "id": 468,
+      "title": "MacroVoices #548 Dr. Carly Anderson: Emerging Energy Technologies Roundup",
+      "source_type": "podcast",
+      "source_name": "Macro Voices",
+      "source_date": "2026-09-03",
+      "summary": "This episode of Macro Voices explores the accelerating nuclear renaissance driven by surging electricity demand from AI data centers and hyperscalers. Dr. Carley Anderson details how long-term power purchase agreements (PPAs) from tech giants are creating the financing foundation for new nuclear deployment, while mass production techniques aim to reduce reactor construction timelines from years to months. The discussion covers advanced nuclear applications in military, remote mining, and data center markets; regulatory progress including NRC Part 57; and critical supply chain innovations in fuel enrichment. Additional segments examine supercritical CO2 turbines for 50%+ thermal efficiency, silicon carbide power electronics, robotics for hazardous environments, and the competitive threat from China's 5-10 GW annual nuclear buildout. The episode frames nuclear as both an AI-enabling infrastructure play and a geopolitical imperative for US energy security.",
+      "key_takeaway": "The convergence of AI-driven power demand and small modular reactor commercialization creates a multi-decade nuclear infrastructure investment cycle, with early returns captured by companies securing hyperscaler PPAs, manufacturing standardized reactor components, and innovating in fuel enrichment and power conversion technologies.",
+      "tickers_mentioned": [
+        "NVDA"
+      ],
+      "sentiment": "bullish",
+      "display_on_main": 1,
+      "display_order": 0,
+      "added_date": "2026-09-04",
+      "archived_date": null,
+      "archived_reason": null,
+      "podcast_episode_id": 453
+    },
+    {
+      "id": 469,
+      "title": "\u201cI\u2019m Insanely Bullish on Bonds\u201d | Jared Dillian on Copper, Bonds, Semis, and The Awesome Portfolio",
+      "source_type": "podcast",
+      "source_name": "Monetary Matters with Jack Farley",
+      "source_date": "2026-09-03",
+      "summary": "Financial strategist Jared Dillian joins Monetary Matters to argue that the bond market is trapped in excessive pessimism, creating rare long-term buying opportunities at yields not seen since 2008. He contends that investors are obsessively focused on bond supply and deficit fears while ignoring the demand side, which could surge dramatically during a risk-off event and drive interest rates sharply lower. Dillian also applies sentiment analysis to the AI frenzy and semiconductor space, warning that euphoric retail narratives often mark cyclical tops, and questions whether AI-driven productivity gains are sustainable. Beyond macro calls, he critiques the widespread strategy of blindly dollar-cost averaging into the S&P 500, advocating instead for broad diversification across stocks, bonds, gold, cash, and real estate to cut volatility without sacrificing meaningful returns. He also cautions that private credit and private equity remain mired in a bear market with unresolved liquidity risks.",
+      "key_takeaway": "Investors should exploit the disconnect between bearish bond sentiment and moderating inflation by locking in historically high yields in long-duration government bonds, while hedging equity concentration risk through true cross-asset diversification and avoiding illiquid private markets until a clear floor forms.",
+      "tickers_mentioned": [
+        "NVDA"
+      ],
+      "sentiment": "bearish",
+      "display_on_main": 1,
+      "display_order": 0,
+      "added_date": "2026-09-04",
+      "archived_date": null,
+      "archived_reason": null,
+      "podcast_episode_id": 451
+    },
+    {
+      "id": 470,
+      "title": "Inside Moderna\u2019s Personalized Cancer Vaccine",
+      "source_type": "podcast",
+      "source_name": "The a16z Show",
+      "source_date": "2026-09-02",
+      "summary": "This episode features Moderna's CEO Stefan Bunzel discussing the landmark Phase 3 success of their personalized mRNA cancer vaccine for melanoma, the first effective cancer vaccine after over a thousand failed trials. The treatment achieves 80% recurrence-free survival at five years versus 50% for standard-of-care Keytruda, by sequencing each patient's tumor DNA to create a unique mRNA vaccine that trains the immune system to recognize cancer-specific mutations. Bunzel details the operational challenge of manufacturing thousands of unique doses with a 42-day turnaround, the regulatory pathway modeled on CAR T-cell therapies, and expansion plans into kidney, bladder, pancreatic cancers and autoimmune diseases. The core investment theme is that personalization is not an edge case but fundamental to next-generation therapeutics, requiring entirely new manufacturing, regulatory, and commercial paradigms.",
+      "key_takeaway": "Moderna is transitioning from a COVID vaccine company to a platform biotech with a validated personalized medicine manufacturing system, where the melanoma approval would de-risk expansion into a $100B+ addressable market across oncology and autoimmune disease.",
+      "tickers_mentioned": [
+        "MRNA"
+      ],
+      "sentiment": "bearish",
+      "display_on_main": 1,
+      "display_order": 0,
+      "added_date": "2026-09-04",
+      "archived_date": null,
+      "archived_reason": null,
+      "podcast_episode_id": 456
+    },
+    {
+      "id": 471,
+      "title": "Humanity's First Star Probe, Architect Labs Beats NVIDIA 3.4x, Musk Wants Satellites to Cool Earth | EP #285",
+      "source_type": "podcast",
+      "source_name": "Moonshots with Peter Diamandis",
+      "source_date": "2026-09-02",
+      "summary": "This episode of Moonshots explores several frontier technology themes with significant investment implications. Elon Musk joins Peter Diamandis to discuss the looming energy infrastructure gap threatening AI compute expansion, with 15 gigawatts of projected 2027 capacity potentially stranded without power. Musk outlines ambitious plans for 100 gigawatts of annual solar production through SpaceX and Tesla to address this gap. The conversation covers breakthrough AI-designed semiconductors from ArchaTech Labs that achieve 3.4x performance per watt versus Nvidia's Jetson, potentially disrupting the chip industry. NASA's planned 2028 nuclear-powered Mars mission represents a major acceleration in interplanetary capability. Musk also advocates for geoengineering via satellite-based temperature control as an extinction-risk mitigation strategy. A notable business model shift is identified in AI pricing: outcome-based models where customers pay only for completed results rather than token consumption, with OpenAI already piloting this approach.",
+      "key_takeaway": "The convergence of AI compute demand and energy infrastructure constraints creates a dual-investment opportunity in renewable energy production and next-generation chip architectures, while nuclear propulsion and geoengineering represent emerging frontier markets with significant government backing.",
+      "tickers_mentioned": [
+        "NVDA",
+        "TSLA"
+      ],
+      "sentiment": "neutral",
+      "display_on_main": 1,
+      "display_order": 0,
+      "added_date": "2026-09-04",
+      "archived_date": null,
+      "archived_reason": null,
+      "podcast_episode_id": 455
+    },
+    {
       "id": 464,
       "title": "Daniel Litt: The Mathematician's Guide to AI",
       "source_type": "podcast",
@@ -50,7 +165,7 @@
         "NVDA"
       ],
       "sentiment": "bearish",
-      "display_on_main": 1,
+      "display_on_main": 0,
       "display_order": 0,
       "added_date": "2026-08-31",
       "archived_date": null,
@@ -69,7 +184,7 @@
         "NVDA"
       ],
       "sentiment": "bullish",
-      "display_on_main": 1,
+      "display_on_main": 0,
       "display_order": 0,
       "added_date": "2026-08-31",
       "archived_date": null,
@@ -88,7 +203,7 @@
         "NVDA"
       ],
       "sentiment": "bearish",
-      "display_on_main": 1,
+      "display_on_main": 0,
       "display_order": 0,
       "added_date": "2026-08-31",
       "archived_date": null,
@@ -107,7 +222,7 @@
         "NVDA"
       ],
       "sentiment": "bullish",
-      "display_on_main": 1,
+      "display_on_main": 0,
       "display_order": 0,
       "added_date": "2026-08-30",
       "archived_date": null,
@@ -147,7 +262,7 @@
         "NVDA"
       ],
       "sentiment": "bearish",
-      "display_on_main": 1,
+      "display_on_main": 0,
       "display_order": 0,
       "added_date": "2026-08-29",
       "archived_date": null,
@@ -167,7 +282,7 @@
         "TSLA"
       ],
       "sentiment": "neutral",
-      "display_on_main": 1,
+      "display_on_main": 0,
       "display_order": 0,
       "added_date": "2026-08-29",
       "archived_date": null,
@@ -8987,8 +9102,8 @@
       "term": "Simulation",
       "description": "The use of models and computer programs to represent and analyze real or imagined systems or situations.",
       "first_detected_date": "2026-08-21",
-      "last_mentioned_date": "2026-08-29",
-      "mention_count": 5,
+      "last_mentioned_date": "2026-09-02",
+      "mention_count": 8,
       "source_podcasts": null,
       "status": "active",
       "investment_implications": "Simulation technology can provide significant insights for decision-making, making investments in this area potentially valuable.",
@@ -8997,8 +9112,8 @@
       "archived_reason": null,
       "first_detected_episode_id": 420,
       "first_detected_speaker": "June",
-      "last_mentioned_episode_id": 444,
-      "last_mentioned_speaker": "Peter Diamandis (hosts)"
+      "last_mentioned_episode_id": 455,
+      "last_mentioned_speaker": "Elon Musk"
     },
     {
       "id": 272,
@@ -9095,8 +9210,8 @@
       "term": "Stablecoins",
       "description": "A type of digital currency that is designed to have a stable value, typically pegged to a reserve of assets like fiat currencies or precious metals.",
       "first_detected_date": "2026-08-01",
-      "last_mentioned_date": "2026-08-20",
-      "mention_count": 4,
+      "last_mentioned_date": "2026-09-03",
+      "mention_count": 5,
       "source_podcasts": null,
       "status": "active",
       "investment_implications": "The potential shift to stablecoins as a store of value could disrupt traditional financial markets and affect inflation.",
@@ -9105,7 +9220,7 @@
       "archived_reason": null,
       "first_detected_episode_id": 379,
       "first_detected_speaker": "Mark Andrewson, Chris Dixon",
-      "last_mentioned_episode_id": 417,
+      "last_mentioned_episode_id": 454,
       "last_mentioned_speaker": "Luke Groman"
     },
     {
@@ -9131,8 +9246,8 @@
       "term": "Spatial Intelligence",
       "description": "AI capable of generating, understanding, reasoning with, and interacting with spaces, both physical and virtual.",
       "first_detected_date": "2026-07-28",
-      "last_mentioned_date": "2026-07-28",
-      "mention_count": 1,
+      "last_mentioned_date": "2026-09-04",
+      "mention_count": 2,
       "source_podcasts": null,
       "status": "active",
       "investment_implications": "Key for advancing robotics and creating immersive virtual environments.",
@@ -9141,8 +9256,8 @@
       "archived_reason": null,
       "first_detected_episode_id": 370,
       "first_detected_speaker": null,
-      "last_mentioned_episode_id": 370,
-      "last_mentioned_speaker": null
+      "last_mentioned_episode_id": 452,
+      "last_mentioned_speaker": "Justin Johnson, Ben Milton Hall"
     },
     {
       "id": 263,
@@ -9167,8 +9282,8 @@
       "term": "Autonomy",
       "description": "The capacity of an AI system to make decisions and operate independently of direct human control or oversight, as evidenced by agents not alerting humans about their unethical actions.",
       "first_detected_date": "2026-07-22",
-      "last_mentioned_date": "2026-09-01",
-      "mention_count": 15,
+      "last_mentioned_date": "2026-09-02",
+      "mention_count": 16,
       "source_podcasts": null,
       "status": "active",
       "investment_implications": "Emphasizes the critical need for ethical AI frameworks, clear oversight mechanisms, and fail-safes to manage systems operating independently of human control, impacting regulatory compliance and public trust.",
@@ -9177,8 +9292,8 @@
       "archived_reason": null,
       "first_detected_episode_id": 362,
       "first_detected_speaker": "Travis Kalanick, Ben Horowitz",
-      "last_mentioned_episode_id": 449,
-      "last_mentioned_speaker": "Daniel Litt"
+      "last_mentioned_episode_id": 455,
+      "last_mentioned_speaker": "Elon Musk"
     },
     {
       "id": 265,
@@ -9293,8 +9408,8 @@
       "term": "ASI",
       "description": "Artificial Super Intelligence, referring to AI systems that surpass human intelligence in every field.",
       "first_detected_date": "2026-06-29",
-      "last_mentioned_date": "2026-08-31",
-      "mention_count": 16,
+      "last_mentioned_date": "2026-09-02",
+      "mention_count": 17,
       "source_podcasts": null,
       "status": "active",
       "investment_implications": "ASI represents a potential paradigm shift in technology and could disrupt various industries.",
@@ -9303,8 +9418,8 @@
       "archived_reason": null,
       "first_detected_episode_id": 319,
       "first_detected_speaker": "Peter Diamandis (hosts)",
-      "last_mentioned_episode_id": 447,
-      "last_mentioned_speaker": "Peter Diamandis (hosts)"
+      "last_mentioned_episode_id": 455,
+      "last_mentioned_speaker": "Elon Musk"
     },
     {
       "id": 135,
@@ -9363,20 +9478,20 @@
     {
       "id": 254,
       "term": "Hyperscalers",
-      "description": "Large companies that provide computing resources, storage, and various services over the internet at a massive scale.",
+      "description": "Massive cloud computing providers (Amazon, Google, Microsoft, Meta) whose data center power demands are reshaping electricity markets and enabling new energy infrastructure financing.",
       "first_detected_date": "2026-06-19",
-      "last_mentioned_date": "2026-08-31",
-      "mention_count": 30,
+      "last_mentioned_date": "2026-09-03",
+      "mention_count": 32,
       "source_podcasts": null,
       "status": "active",
-      "investment_implications": "Their significant capital expenditures and innovative financial structures can offer investment opportunities but also pose risks.",
+      "investment_implications": "Their 20-year PPAs are the demand anchor making previously uneconomic nuclear projects bankable; track PPA announcements as leading indicators for nuclear buildout.",
       "display_on_main": 1,
       "archived_date": null,
       "archived_reason": null,
       "first_detected_episode_id": 302,
       "first_detected_speaker": "Chamath Palihapitiya, Jason Calacanis (hosts)",
-      "last_mentioned_episode_id": 447,
-      "last_mentioned_speaker": "Jack Farley (hosts)"
+      "last_mentioned_episode_id": 453,
+      "last_mentioned_speaker": "Dr. Carley Anderson"
     },
     {
       "id": 256,
@@ -9401,8 +9516,8 @@
       "term": "Electrification",
       "description": "The process of converting systems or industries to use electricity as the primary power source.",
       "first_detected_date": "2026-06-18",
-      "last_mentioned_date": "2026-08-26",
-      "mention_count": 4,
+      "last_mentioned_date": "2026-09-02",
+      "mention_count": 5,
       "source_podcasts": null,
       "status": "active",
       "investment_implications": "Investors should focus on companies involved in the electrification of the grid and power generation, as demand for electricity is projected to increase.",
@@ -9411,8 +9526,8 @@
       "archived_reason": null,
       "first_detected_episode_id": 297,
       "first_detected_speaker": "Chris Seminoch",
-      "last_mentioned_episode_id": 428,
-      "last_mentioned_speaker": "Jim Weederhold"
+      "last_mentioned_episode_id": 455,
+      "last_mentioned_speaker": "Elon Musk"
     },
     {
       "id": 258,
@@ -9669,20 +9784,20 @@
     {
       "id": 219,
       "term": "AI-native computing",
-      "description": "A business model where artificial intelligence is integrated into the core operations and infrastructure of a company, rather than being an add-on or separate function.",
+      "description": "Hardware architectures designed from the ground up by AI systems rather than human engineers, potentially bypassing traditional design constraints.",
       "first_detected_date": "2026-06-02",
-      "last_mentioned_date": "2026-08-10",
-      "mention_count": 3,
+      "last_mentioned_date": "2026-09-02",
+      "mention_count": 4,
       "source_podcasts": null,
       "status": "active",
-      "investment_implications": "AI-native companies may have a competitive advantage by leveraging AI for efficiency and innovation.",
+      "investment_implications": "Represents potential disruption of established semiconductor design workflows and incumbent advantages; early movers may capture outsized returns.",
       "display_on_main": 1,
       "archived_date": null,
       "archived_reason": null,
       "first_detected_episode_id": 255,
       "first_detected_speaker": "Steven Sinofsky",
-      "last_mentioned_episode_id": 394,
-      "last_mentioned_speaker": "Max"
+      "last_mentioned_episode_id": 455,
+      "last_mentioned_speaker": "Elon Musk"
     },
     {
       "id": 220,
@@ -9761,8 +9876,8 @@
       "term": "Dyson Swarm",
       "description": "A hypothetical network of satellites that could harness solar energy from space.",
       "first_detected_date": "2026-05-23",
-      "last_mentioned_date": "2026-08-29",
-      "mention_count": 27,
+      "last_mentioned_date": "2026-09-02",
+      "mention_count": 28,
       "source_podcasts": null,
       "status": "active",
       "investment_implications": "Investments in space-based energy could disrupt traditional energy markets.",
@@ -9771,8 +9886,8 @@
       "archived_reason": null,
       "first_detected_episode_id": 236,
       "first_detected_speaker": null,
-      "last_mentioned_episode_id": 444,
-      "last_mentioned_speaker": "Peter Diamandis (hosts)"
+      "last_mentioned_episode_id": 455,
+      "last_mentioned_speaker": "Elon Musk"
     },
     {
       "id": 113,
@@ -9795,20 +9910,20 @@
     {
       "id": 194,
       "term": "Multi-modal AI",
-      "description": "AI systems that can process and understand information from multiple sources or modalities, such as vision, language, and sound.",
+      "description": "AI systems that natively process and integrate multiple input types---text, images, video, and structured data like camera poses---within a unified architecture rather than through separate pipelines.",
       "first_detected_date": "2026-05-21",
-      "last_mentioned_date": "2026-07-28",
-      "mention_count": 3,
+      "last_mentioned_date": "2026-09-04",
+      "mention_count": 4,
       "source_podcasts": null,
       "status": "active",
-      "investment_implications": "Potential for a foundation model in robotics involving multimodal inputs and actions.",
+      "investment_implications": "Creates defensive moats and expands TAM for AI companies relative to single-modality competitors, particularly in creative and industrial applications.",
       "display_on_main": 1,
       "archived_date": null,
       "archived_reason": null,
       "first_detected_episode_id": 232,
       "first_detected_speaker": "Andrew Feldman",
-      "last_mentioned_episode_id": 370,
-      "last_mentioned_speaker": "Josh Elman"
+      "last_mentioned_episode_id": 452,
+      "last_mentioned_speaker": "Justin Johnson, Ben Milton Hall"
     },
     {
       "id": 195,
@@ -9851,8 +9966,8 @@
       "term": "Singularity",
       "description": "A hypothetical point in the future at which technological growth becomes uncontrollable and irreversible, leading to unforeseeable changes in human civilization.",
       "first_detected_date": "2026-05-15",
-      "last_mentioned_date": "2026-08-29",
-      "mention_count": 61,
+      "last_mentioned_date": "2026-09-02",
+      "mention_count": 62,
       "source_podcasts": null,
       "status": "active",
       "investment_implications": "Investors should consider the potential for rapid technological change and its impact on various sectors, including AI, when making long-term investment decisions.",
@@ -9861,16 +9976,16 @@
       "archived_reason": null,
       "first_detected_episode_id": 221,
       "first_detected_speaker": null,
-      "last_mentioned_episode_id": 444,
-      "last_mentioned_speaker": "Peter Diamandis (hosts)"
+      "last_mentioned_episode_id": 455,
+      "last_mentioned_speaker": "Elon Musk"
     },
     {
       "id": 97,
       "term": "Distillation",
       "description": "The process of training a smaller AI model on the output of a larger model to achieve similar results with less computational power.",
       "first_detected_date": "2026-05-15",
-      "last_mentioned_date": "2026-07-29",
-      "mention_count": 43,
+      "last_mentioned_date": "2026-09-02",
+      "mention_count": 44,
       "source_podcasts": null,
       "status": "active",
       "investment_implications": "Distillation can make AI more accessible and cost-effective, impacting how businesses allocate resources for AI development.",
@@ -9879,8 +9994,8 @@
       "archived_reason": null,
       "first_detected_episode_id": 221,
       "first_detected_speaker": null,
-      "last_mentioned_episode_id": 436,
-      "last_mentioned_speaker": "Jensen Wong, Dario Amodei"
+      "last_mentioned_episode_id": 455,
+      "last_mentioned_speaker": "Elon Musk"
     },
     {
       "id": 174,
@@ -9939,19 +10054,19 @@
     {
       "id": 75,
       "term": "AI Adjacent",
-      "description": "Industries or companies that are related to or benefit from the growth and development of artificial intelligence, even if they are not directly involved in AI production.",
+      "description": "Business models and infrastructure positioned to capture value from AI transformation without directly competing in core AI model development, often by solving trust, interface, or integration challenges.",
       "first_detected_date": "2026-05-07",
-      "last_mentioned_date": "2026-02-15",
-      "mention_count": 3,
+      "last_mentioned_date": "2026-09-03",
+      "mention_count": 4,
       "source_podcasts": null,
       "status": "active",
-      "investment_implications": "Investors should consider the broad impact of AI on various sectors when identifying opportunities and risks.",
+      "investment_implications": "Payments and commerce infrastructure represent high-conviction AI-adjacent exposure with clearer monetization paths than foundational AI bets.",
       "display_on_main": 0,
       "archived_date": null,
       "archived_reason": null,
       "first_detected_episode_id": 204,
       "first_detected_speaker": null,
-      "last_mentioned_episode_id": 113,
+      "last_mentioned_episode_id": 454,
       "last_mentioned_speaker": null
     },
     {
@@ -9977,8 +10092,8 @@
       "term": "AGI",
       "description": "Artificial General Intelligence refers to hypothetical AI that can understand, learn, and apply intelligence to any intellectual task that a human being can.",
       "first_detected_date": "2026-05-07",
-      "last_mentioned_date": "2026-08-31",
-      "mention_count": 86,
+      "last_mentioned_date": "2026-09-02",
+      "mention_count": 87,
       "source_podcasts": null,
       "status": "active",
       "investment_implications": "Early investment in AGI-related technologies or foundational research could yield substantial returns as capabilities expand and industries are transformed.",
@@ -9987,8 +10102,8 @@
       "archived_reason": null,
       "first_detected_episode_id": 204,
       "first_detected_speaker": "Demis Hassabis",
-      "last_mentioned_episode_id": 447,
-      "last_mentioned_speaker": "Peter Diamandis (hosts)"
+      "last_mentioned_episode_id": 455,
+      "last_mentioned_speaker": "Elon Musk"
     },
     {
       "id": 162,
@@ -10137,20 +10252,20 @@
     {
       "id": 126,
       "term": "Data Center Nimbyism",
-      "description": "Resistance from local communities to the establishment of data centers due to environmental and economic concerns.",
+      "description": "Local opposition to data center construction due to noise, land use, and grid strain that pushes developers toward dedicated power sources including on-site nuclear.",
       "first_detected_date": "2026-04-20",
-      "last_mentioned_date": "2026-07-20",
-      "mention_count": 3,
+      "last_mentioned_date": "2026-09-03",
+      "mention_count": 4,
       "source_podcasts": null,
       "status": "active",
-      "investment_implications": "Data center nimbyism can impact the siting and construction of new data centers, affecting the cost and efficiency of AI and cloud computing operations.",
+      "investment_implications": "Nuclear co-location with data centers bypasses transmission constraints and local opposition, creating premium-priced captive power markets.",
       "display_on_main": 0,
       "archived_date": null,
       "archived_reason": null,
       "first_detected_episode_id": null,
       "first_detected_speaker": null,
-      "last_mentioned_episode_id": 360,
-      "last_mentioned_speaker": "Mark Cuban"
+      "last_mentioned_episode_id": 453,
+      "last_mentioned_speaker": "Dr. Carley Anderson"
     },
     {
       "id": 118,
@@ -10803,20 +10918,20 @@
     {
       "id": 57,
       "term": "AI Infrastructure",
-      "description": "The physical components and systems that support AI technologies, including chips, networking, and data centers.",
+      "description": "The physical and energy systems required to train and deploy AI at scale, now recognized as a binding constraint on growth.",
       "first_detected_date": "2026-03-17",
-      "last_mentioned_date": "2026-09-01",
-      "mention_count": 33,
+      "last_mentioned_date": "2026-09-02",
+      "mention_count": 34,
       "source_podcasts": null,
       "status": "active",
-      "investment_implications": "Investors should focus on companies that innovate in AI infrastructure to capitalize on the growing demand for these technologies.",
+      "investment_implications": "Energy production, transmission, and novel cooling/storage solutions may outperform pure AI software plays as bottlenecks tighten.",
       "display_on_main": 0,
       "archived_date": null,
       "archived_reason": null,
       "first_detected_episode_id": 71,
       "first_detected_speaker": null,
-      "last_mentioned_episode_id": 450,
-      "last_mentioned_speaker": "Gencom (hosts)"
+      "last_mentioned_episode_id": 455,
+      "last_mentioned_speaker": "Elon Musk"
     },
     {
       "id": 26,
@@ -10911,20 +11026,20 @@
     {
       "id": 18,
       "term": "Compute Arbitrage",
-      "description": "The strategic allocation of capital to leverage computational resources, enabling rapid scaling of AI projects.",
+      "description": "Exploiting price or efficiency differentials between computing resources, increasingly relevant as energy costs dominate AI economics.",
       "first_detected_date": "2026-03-13",
-      "last_mentioned_date": "2026-08-25",
-      "mention_count": 23,
+      "last_mentioned_date": "2026-09-02",
+      "mention_count": 25,
       "source_podcasts": null,
       "status": "active",
-      "investment_implications": "Investors should look for opportunities in sectors where AI can be applied to solve complex problems through capital investment.",
+      "investment_implications": "Investors should track where cheap energy intersects with compute demand, as location and power sourcing become competitive moats.",
       "display_on_main": 0,
       "archived_date": null,
       "archived_reason": null,
       "first_detected_episode_id": null,
       "first_detected_speaker": null,
-      "last_mentioned_episode_id": 435,
-      "last_mentioned_speaker": "a16z Host (hosts)"
+      "last_mentioned_episode_id": 455,
+      "last_mentioned_speaker": "Elon Musk"
     },
     {
       "id": 19,
@@ -11037,20 +11152,20 @@
     {
       "id": 95,
       "term": "Reindustrialization",
-      "description": "The process of rebuilding and modernizing domestic industrial capacity, particularly in America, driven by technological advancements like AI.",
+      "description": "The onshoring of manufacturing and energy-intensive industry requiring reliable baseload power, favoring nuclear over intermittent renewables for industrial clusters.",
       "first_detected_date": "2026-03-04",
-      "last_mentioned_date": "2026-08-31",
-      "mention_count": 8,
+      "last_mentioned_date": "2026-09-03",
+      "mention_count": 9,
       "source_podcasts": null,
       "status": "active",
-      "investment_implications": "Implies significant capital expenditure in manufacturing, infrastructure, and technology sectors, leading to economic growth and job creation.",
+      "investment_implications": "US industrial policy (CHIPS Act, IRA) is creating demand pockets where nuclear's reliability premium commands higher returns than merchant power markets.",
       "display_on_main": 0,
       "archived_date": null,
       "archived_reason": null,
       "first_detected_episode_id": 40,
       "first_detected_speaker": null,
-      "last_mentioned_episode_id": 447,
-      "last_mentioned_speaker": "Andy Yunnan Way"
+      "last_mentioned_episode_id": 453,
+      "last_mentioned_speaker": "Dr. Carley Anderson"
     },
     {
       "id": 112,
@@ -11075,8 +11190,8 @@
       "term": "AI Agents",
       "description": "Autonomous artificial intelligence programs designed to perform tasks, which in this context demonstrated the ability to communicate, collaborate, and strategize collectively to achieve goals, including exploitation.",
       "first_detected_date": "2026-02-28",
-      "last_mentioned_date": "2026-09-01",
-      "mention_count": 80,
+      "last_mentioned_date": "2026-09-02",
+      "mention_count": 82,
       "source_podcasts": null,
       "status": "active",
       "investment_implications": "The emergence of collaborative and potentially malicious AI Agents creates a significant market for AI security, monitoring, and governance technologies.",
@@ -11085,8 +11200,8 @@
       "archived_reason": null,
       "first_detected_episode_id": 31,
       "first_detected_speaker": null,
-      "last_mentioned_episode_id": 450,
-      "last_mentioned_speaker": "Gencom (hosts)"
+      "last_mentioned_episode_id": 455,
+      "last_mentioned_speaker": "Elon Musk"
     },
     {
       "id": 38,
@@ -11163,20 +11278,20 @@
     {
       "id": 48,
       "term": "Big Blob of Compute Hypothesis",
-      "description": "A concept suggesting that the exponential growth in AI and technology is primarily driven by increases in raw compute power, data, and training duration.",
+      "description": "The observation that scaling advanced AI models is primarily constrained by available training compute rather than algorithmic or data limitations, implying infrastructure investments directly enable capability jumps.",
       "first_detected_date": "2026-02-19",
-      "last_mentioned_date": "2026-02-19",
-      "mention_count": 2,
+      "last_mentioned_date": "2026-09-04",
+      "mention_count": 3,
       "source_podcasts": null,
       "status": "active",
-      "investment_implications": "Investors should consider the role of compute and data in the development and scaling of AI technologies.",
+      "investment_implications": "Validates long positions in compute infrastructure and efficient training methodologies as levered bets on model capability advancement.",
       "display_on_main": 0,
       "archived_date": null,
       "archived_reason": null,
       "first_detected_episode_id": 81,
       "first_detected_speaker": null,
-      "last_mentioned_episode_id": 81,
-      "last_mentioned_speaker": null
+      "last_mentioned_episode_id": 452,
+      "last_mentioned_speaker": "Justin Johnson, Ben Milton Hall"
     },
     {
       "id": 52,
