@@ -1755,7 +1755,7 @@
     <div class="plumbing-widgets" style="margin: 1rem 0; display: grid; grid-template-columns: repeat(auto-fit, minmax(220px, 1fr)); gap: 0.75rem;">
       <div class="card" style="padding: 0.75rem; margin-bottom: 0;">
         <h3 style="font-size: 0.9rem; color: #00d4ff; margin-bottom: 0.25rem;">📊 Treasury Calendar</h3>
-        <p style="color: #9ca3af; font-size: 0.68rem; line-height: 1.35; margin-bottom: 0.5rem;">Next auction / QRA dates are the kill-shot calendar for Captive buyer of duration and the window that can force a 10Y Debait print.</p>
+        <p style="color: #9ca3af; font-size: 0.68rem; line-height: 1.35; margin-bottom: 0.5rem;">Next auction / QRA dates are the make-or-break calendar for Captive buyer of duration and the window that can force a 10Y Debait print.</p>
         <div id="treasury-widget" style="font-size: 0.8rem; color: #a8b2d1;">
           <span style="color: #a8b2d1;">Coming soon — awaiting live data</span>
         </div>
@@ -2015,7 +2015,7 @@
         const term = esc(f.term);
         const thesis = esc(f.thesis || '');
         const whoCollects = esc(f.who_collects_rent || '');
-        const killShot = esc(f.kill_shot || '');
+        const decisiveTest = esc(f.decisive_test || '');
         const nestedNote = esc(f.nested_note || '');
         const adjacentNote = esc(f.adjacent_note || '');
         const prov = f.provenance || {};
@@ -2027,8 +2027,8 @@
         if (whoCollects) {
           sectionsHtml += '<div class="ow-section"><div class="ow-section-label">Who collects the rent</div><div class="ow-section-content">' + whoCollects + '</div></div>';
         }
-        if (killShot) {
-          sectionsHtml += '<div class="ow-section"><div class="ow-section-label">Operational kill-shot</div><div class="ow-section-content">' + killShot + '</div></div>';
+        if (decisiveTest) {
+          sectionsHtml += '<div class="ow-section"><div class="ow-section-label">Decisive test</div><div class="ow-section-content">' + decisiveTest + '</div></div>';
         }
         if (nestedNote) {
           sectionsHtml += '<div class="ow-nested-note">' + nestedNote + '</div>';
