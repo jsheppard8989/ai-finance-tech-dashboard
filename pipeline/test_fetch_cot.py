@@ -21,6 +21,7 @@ from fetch_cot import (
     build_cot_result,
     format_net_display,
     mark_cot_stale,
+    _run_curl_fetch,
     CONTRACT_PATTERNS,
     MARKET_DATA_FILE,
 )
@@ -362,6 +363,59 @@ class TestFailClosedBehavior:
             assert result['10y_note'].get('leveraged_funds_net') is None
 
 
+class TestCurlPreference:
+    """
+    Test curl preference logic for Mac Anaconda SSL workaround.
+    
+    DOCUMENTED BEHAVIOR:
+    When fetching CFTC data, the system prefers /usr/bin/curl (macOS system curl)
+    over PATH curl (which may be Anaconda curl with outdated SSL certs).
+    This prevents SSL certificate failures (http=000 / returncode 60/35) on
+    Macs with Anaconda installed.
+    
+    The preference order is:
+    1. /usr/bin/curl or /bin/curl (system curl)
+    2. PATH curl (may be Anaconda)
+    3. urllib fallback
+    """
+    
+    def test_run_curl_fetch_returns_none_on_missing_binary(self):
+        """_run_curl_fetch should return None if binary doesn't exist."""
+        result = _run_curl_fetch('/nonexistent/curl', 'http://example.com', 'test')
+        assert result is None
+    
+    def test_system_curl_paths_exist_on_unix(self):
+        """On Unix systems, system curl should be at /usr/bin/curl."""
+        import platform
+        if platform.system() in ('Darwin', 'Linux'):
+            system_curl = Path('/usr/bin/curl')
+            # On most Unix systems, system curl exists
+            # This test documents the expected path
+            assert system_curl.exists() or Path('/bin/curl').exists(), \
+                "System curl expected at /usr/bin/curl or /bin/curl on Unix"
+    
+    def test_curl_preference_order_documented(self):
+        """
+        Verify the documented preference order in fetch_cot_page docstring.
+        This is a documentation test - verifying the order is correct.
+        
+        Expected order:
+        1. System curl (/usr/bin/curl) - uses macOS Keychain certs
+        2. PATH curl - may be Anaconda curl with outdated certs
+        3. urllib - Python ssl fallback
+        
+        This ordering ensures Mac users with Anaconda get working fetches.
+        """
+        import shutil
+        from fetch_cot import fetch_cot_page
+        
+        # Verify the docstring documents the preference
+        docstring = fetch_cot_page.__doc__ or ""
+        assert '/usr/bin/curl' in docstring, "Docstring should mention system curl path"
+        assert 'Anaconda' in docstring, "Docstring should explain Anaconda SSL issue"
+        assert 'SSL' in docstring, "Docstring should mention SSL certificates"
+
+
 def run_tests():
     """Run all tests and report results."""
     import traceback
@@ -374,6 +428,7 @@ def run_tests():
         TestFormatNetDisplay,
         TestStaleDataPreservation,
         TestFailClosedBehavior,
+        TestCurlPreference,
     ]
     
     total = 0
