@@ -60,6 +60,8 @@ _PLACEHOLDER_DEBATER = re.compile(
     re.I,
 )
 
+_VALID_SIDE_LABELS = frozenset({"affirmative", "negative"})
+
 
 def _norm_prompt(text: str) -> str:
     return re.sub(r"\s+", " ", (text or "").lower()).strip()
@@ -121,6 +123,8 @@ def validate_debaters(name_a: str, name_b: str) -> Tuple[bool, str]:
             return False, f"Placeholder debater name: {name!r}."
         if is_excluded_debater_name(name):
             return False, f"Blocked debater name: {name!r}."
+        if name.lower() in _VALID_SIDE_LABELS:
+            continue
         parts = [p for p in re.split(r"\s+", name) if p]
         if len(parts) < 2:
             return False, f"Debater name looks incomplete: {name!r}."
