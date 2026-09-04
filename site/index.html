@@ -2320,9 +2320,28 @@
             vBtc = formatNet(net);
           }
 
-          // Build display with stale indicator if needed; never hide card
+          // Format report date for display (e.g., "2026-08-25" → "Aug 25")
+          function formatReportDate(dateStr) {
+            if (!dateStr) return null;
+            try {
+              const d = new Date(dateStr + 'T00:00:00');
+              const months = ['Jan', 'Feb', 'Mar', 'Apr', 'May', 'Jun', 'Jul', 'Aug', 'Sep', 'Oct', 'Nov', 'Dec'];
+              return months[d.getMonth()] + ' ' + d.getDate();
+            } catch (e) {
+              return null;
+            }
+          }
+
+          // Build display with report date and stale indicator; never hide card
           let html = '<span style="color: #a8b2d1;"><strong>10Y:</strong> ' + v10y + '</span>';
           html += '<span style="color: #a8b2d1;"><strong>BTC:</strong> ' + vBtc + '</span>';
+          
+          // Show report date if available (positions as of this date)
+          const reportDate = formatReportDate(cot.report_date);
+          if (reportDate) {
+            html += '<span style="color: #6b7280; font-size: 0.65rem; margin-left: 0.3rem;">(as of ' + reportDate + ')</span>';
+          }
+          
           if (isStale) {
             html += '<span style="color: #f59e0b; font-size: 0.65rem; margin-left: 0.5rem;" title="' + (cot._stale_reason || 'Data may be stale') + '">⚠️ stale</span>';
           }
