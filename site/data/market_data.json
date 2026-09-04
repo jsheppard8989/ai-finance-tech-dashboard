@@ -54,7 +54,7 @@
       "DGS30": "30-Year Treasury Constant Maturity"
     },
     "_fetch_instructions": "Tony: Use FRED API (free, no key for <500 calls/day) at https://fred.stlouisfed.org/series/{SERIES_ID}/downloaddata. Or use yfinance Python package for ^TNX, ^FVX, ^TYX.",
-    "last_updated": null,
+    "last_updated": "2026-09-04T18:44:59.193720",
     "spreads": {
       "2s10s": {
         "label": "2s10s Spread",
@@ -97,7 +97,7 @@
       "_comment": "MOVE Index - bond market VIX. Source: Yahoo Finance ^MOVE or ICE.",
       "label": "MOVE Index",
       "description": "Treasury implied volatility index. High readings = bond market stress/uncertainty.",
-      "value": null,
+      "value": 74.68,
       "change_1d": null,
       "percentile_1y": null,
       "yahoo_symbol": "^MOVE",
@@ -107,7 +107,8 @@
         "normal": 100,
         "elevated": 120,
         "high": 150
-      }
+      },
+      "observation_date": "2026-09-03"
     }
   },
   "cftc_cot": {
@@ -172,7 +173,7 @@
   "data_fetch_status": {
     "_comment": "Track what data is live vs stubbed",
     "treasury_calendar": "stub",
-    "curve_data": "stub",
+    "curve_data": "live",
     "cftc_cot": "stub",
     "follow_up_for_tony": [
       "Set up FRED API fetch for curve data (free, no key needed for basic usage)",

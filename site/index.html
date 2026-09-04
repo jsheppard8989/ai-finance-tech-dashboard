@@ -1854,9 +1854,8 @@
       <div class="card" style="padding: 0.75rem; margin-bottom: 0;">
         <h3 style="font-size: 0.9rem; color: #00d4ff; margin-bottom: 0.35rem;">📈 Curve Snapshot</h3>
         <p style="color: #6b7280; font-size: 0.7rem; margin-bottom: 0.5rem;">2s10s, 10s30s, MOVE</p>
-        <div id="curve-widget" style="display: flex; gap: 0.75rem; font-size: 0.75rem;">
-          <span style="color: #a8b2d1;"><strong>2s10s:</strong> —</span>
-          <span style="color: #a8b2d1;"><strong>MOVE:</strong> —</span>
+        <div id="curve-widget" style="display: flex; gap: 0.75rem; flex-wrap: wrap; font-size: 0.75rem;">
+          <span style="color: #8892b0;">Coming soon</span>
         </div>
         <div style="margin-top: 0.3rem;"><span style="color: #6b7280; font-size: 0.65rem;">Source: FRED / Yahoo</span></div>
       </div>
@@ -2264,12 +2263,33 @@
 
         // Update Curve widget
         const curveEl = document.getElementById('curve-widget');
-        if (curveEl && data.curve_data && data.curve_data.spreads) {
-          const s2s10s = data.curve_data.spreads['2s10s'];
+        if (curveEl && data.curve_data) {
+          const spreads = data.curve_data.spreads || {};
+          const s2s10s = spreads['2s10s'];
+          const s10s30s = spreads['10s30s'];
           const move = data.curve_data.move_index;
-          const v2s10s = s2s10s && s2s10s.value_bps ? s2s10s.value_bps + 'bp' : '—';
-          const vMove = move && move.value ? move.value : '—';
-          curveEl.innerHTML = '<span style="color: #a8b2d1;"><strong>2s10s:</strong> ' + v2s10s + '</span><span style="color: #a8b2d1;"><strong>MOVE:</strong> ' + vMove + '</span>';
+          
+          const v2s10s = s2s10s && s2s10s.value_bps != null ? s2s10s.value_bps + 'bp' : null;
+          const v10s30s = s10s30s && s10s30s.value_bps != null ? s10s30s.value_bps + 'bp' : null;
+          const vMove = move && move.value != null ? move.value : null;
+          
+          // Check if we have any live data
+          if (v2s10s != null || v10s30s != null || vMove != null) {
+            let parts = [];
+            if (v2s10s != null) {
+              parts.push('<span style="color: #a8b2d1;"><strong>2s10s:</strong> ' + v2s10s + '</span>');
+            }
+            if (v10s30s != null) {
+              parts.push('<span style="color: #a8b2d1;"><strong>10s30s:</strong> ' + v10s30s + '</span>');
+            }
+            if (vMove != null) {
+              parts.push('<span style="color: #a8b2d1;"><strong>MOVE:</strong> ' + vMove + '</span>');
+            }
+            curveEl.innerHTML = parts.join('');
+          } else {
+            // No live data - show Coming soon
+            curveEl.innerHTML = '<span style="color: #8892b0;">Coming soon</span>';
+          }
         }
 
         // Update COT widget
