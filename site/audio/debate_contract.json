@@ -25,7 +25,7 @@
   "week_label": "Week of 2026-09-04",
   "generated_at": "2026-09-04T12:48:25.159895",
   "bet_status": "open",
-  "publishable": false,
+  "publishable": true,
   "argument_requirements": [
     "Both sides must distinguish DGS10 constant-maturity yield from the on-the-run 10-year cash note and TY futures when discussing price levels, spreads, and market mechanics.",
     "Both sides must weigh auction dynamics, Treasury refunding calendar, foreign demand, and SLR-captivity pressures against soft-landing narratives and the Fed's expected rate path, without treating either as determinative.",
@@ -54,8 +54,6 @@
   "debater_b": "Negative",
   "audio_href": "./audio/emp_ai_the_debate_11labs.mp3",
   "prompt_hash": "7d19b7622c85fe7d",
-  "publish_block_reason": "Debater name looks incomplete: 'Affirmative'.",
-  "publish_block_reasons": [
-    "Debater name looks incomplete: 'Affirmative'."
-  ]
+  "publish_block_reason": "",
+  "publish_block_reasons": []
 }

@@ -144,6 +144,19 @@ class TestDebateQuality(unittest.TestCase):
         self.assertFalse(ok)
         self.assertIn("Blocked", err)
 
+    def test_accepts_side_labels_as_valid_debaters(self):
+        ok, err = validate_debaters("Affirmative", "Negative")
+        self.assertTrue(ok, err)
+        ok, err = validate_debaters("Yes", "No")
+        self.assertTrue(ok, err)
+        ok, err = validate_debaters("AFFIRMATIVE", "negative")
+        self.assertTrue(ok, err)
+
+    def test_rejects_single_side_label_with_incomplete_name(self):
+        ok, err = validate_debaters("Affirmative", "Bob")
+        self.assertFalse(ok)
+        self.assertIn("incomplete", err.lower())
+
     def test_rejects_trivial_spx_strike(self):
         ok, err = validate_spx_strike_plausible(
             "Will the S&P 500 index close above 6,000 within the next 42 days?",

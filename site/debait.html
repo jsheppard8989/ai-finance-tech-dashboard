@@ -393,7 +393,7 @@
       </p>
     </div>
 
-    <div class="card">
+    <div class="card" id="debaters-card">
       <h2>This week’s debaters</h2>
       <p class="tagline" id="opening-tagline">
         The two voices in this episode—assigned to yes and no for color. Full pundit roster lives on the main dashboard.
@@ -835,29 +835,39 @@
         `;
 
         const colsEl = document.getElementById('debate-columns');
+        const debatersCard = document.getElementById('debaters-card');
         colsEl.innerHTML = '';
         const aLabel = (contract && contract.sides && contract.sides.a) ? String(contract.sides.a) : 'Yes';
         const bLabel = (contract && contract.sides && contract.sides.b) ? String(contract.sides.b) : 'No';
         const nameA = contract && contract.debater_a ? String(contract.debater_a).trim() : '';
         const nameB = contract && contract.debater_b ? String(contract.debater_b).trim() : '';
-        let pYes = nameA ? findPunditByName(nameA, filtered) : null;
-        let pNo = nameB ? findPunditByName(nameB, filtered) : null;
-        if (!pYes && nameA) pYes = punditStub(nameA);
-        if (!pNo && nameB) pNo = punditStub(nameB);
-        if (contract && contract.debater_a_snapshot) {
-          pYes = applyDebaterSnapshot(pYes || punditStub(nameA), contract.debater_a_snapshot);
-        }
-        if (contract && contract.debater_b_snapshot) {
-          pNo = applyDebaterSnapshot(pNo || punditStub(nameB), contract.debater_b_snapshot);
-        }
-        if (!pYes && filtered[0]) pYes = filtered[0];
-        if (!pNo && filtered[1]) pNo = filtered[1];
-        if (!pYes && !pNo) {
-          colsEl.innerHTML = '<p style="color:#9ca3af; font-size:0.85rem;">Run <code>debate_weekly.py</code> after pundit export—the contract lists this week’s debaters.</p>';
+
+        const SIDE_LABELS = new Set(['affirmative', 'negative', 'yes', 'no']);
+        const aIsSideLabel = SIDE_LABELS.has(nameA.toLowerCase());
+        const bIsSideLabel = SIDE_LABELS.has(nameB.toLowerCase());
+        if (aIsSideLabel && bIsSideLabel) {
+          if (debatersCard) debatersCard.style.display = 'none';
         } else {
-          colsEl.innerHTML =
-            punditCardHtml(pYes || punditStub('Yes side'), 'yes', aLabel) +
-            punditCardHtml(pNo || punditStub('No side'), 'no', bLabel);
+          if (debatersCard) debatersCard.style.display = 'block';
+          let pYes = nameA ? findPunditByName(nameA, filtered) : null;
+          let pNo = nameB ? findPunditByName(nameB, filtered) : null;
+          if (!pYes && nameA) pYes = punditStub(nameA);
+          if (!pNo && nameB) pNo = punditStub(nameB);
+          if (contract && contract.debater_a_snapshot) {
+            pYes = applyDebaterSnapshot(pYes || punditStub(nameA), contract.debater_a_snapshot);
+          }
+          if (contract && contract.debater_b_snapshot) {
+            pNo = applyDebaterSnapshot(pNo || punditStub(nameB), contract.debater_b_snapshot);
+          }
+          if (!pYes && filtered[0]) pYes = filtered[0];
+          if (!pNo && filtered[1]) pNo = filtered[1];
+          if (!pYes && !pNo) {
+            colsEl.innerHTML = '<p style="color:#9ca3af; font-size:0.85rem;">Run <code>debate_weekly.py</code> after pundit export—the contract lists this week's debaters.</p>';
+          } else {
+            colsEl.innerHTML =
+              punditCardHtml(pYes || punditStub('Yes side'), 'yes', aLabel) +
+              punditCardHtml(pNo || punditStub('No side'), 'no', bLabel);
+          }
         }
 
         renderHistory(Array.isArray(hist.weeks) ? hist.weeks : [], archiveByFriday);
