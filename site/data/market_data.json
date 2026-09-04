@@ -49,7 +49,7 @@
     "_primary_source": "Treasury.gov",
     "_source_url": "https://home.treasury.gov/resource-center/data-chart-center/interest-rates/TextView?type=daily_treasury_yield_curve",
     "_fred_status": "unavailable (optional)",
-    "last_updated": "2026-09-04T19:05:08.554634",
+    "last_updated": "2026-09-04T14:15:18.407809",
     "as_of_date": "2026-09-03",
     "spreads": {
       "2s10s": {
