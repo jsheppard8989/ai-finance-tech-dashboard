@@ -100,7 +100,8 @@
         "normal": 100,
         "elevated": 120,
         "high": 150
-      }
+      },
+      "observation_date": "2026-09-03"
     }
   },
   "cftc_cot": {

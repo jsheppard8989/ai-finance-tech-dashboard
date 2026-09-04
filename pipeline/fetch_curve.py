@@ -538,7 +538,22 @@ def update_market_data(curve_data: Dict[str, Any]) -> bool:
         curve_data.pop('_stale', None)
         curve_data.pop('_stale_since', None)
         curve_data.pop('_stale_reason', None)
-        
+
+        existing_curve = market_data.get('curve_data') or {}
+        new_move = curve_data.get('move_index') or {}
+        old_move = existing_curve.get('move_index') or {}
+        if new_move.get('value') is None and old_move.get('value') is not None:
+            # Preserve last-known-good MOVE when Yahoo is unreachable
+            preserved = dict(old_move)
+            preserved['_comment'] = new_move.get('_comment', preserved.get('_comment'))
+            preserved['label'] = new_move.get('label', preserved.get('label'))
+            preserved['description'] = new_move.get('description', preserved.get('description'))
+            preserved['yahoo_symbol'] = new_move.get('yahoo_symbol', preserved.get('yahoo_symbol'))
+            preserved['source'] = new_move.get('source', preserved.get('source', 'Yahoo Finance'))
+            preserved['thresholds'] = new_move.get('thresholds', preserved.get('thresholds'))
+            curve_data['move_index'] = preserved
+            print("  ⚠ MOVE unavailable; preserved last-known-good MOVE value")
+
         market_data['curve_data'] = curve_data
         
         if 'data_fetch_status' in market_data:
