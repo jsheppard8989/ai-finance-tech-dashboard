@@ -1,0 +1,3637 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>AI, Finance, Tech: Scarcity & Abundance</title>
+  <!-- Auto-updated via pipeline -->
+  <style>
+    * {
+      margin: 0;
+      padding: 0;
+      box-sizing: border-box;
+    }
+
+    body {
+      font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, sans-serif;
+      background: linear-gradient(135deg, #1a1a2e 0%, #16213e 50%, #0f3460 100%);
+      min-height: 100vh;
+      color: #e8e8e8;
+      line-height: 1.6;
+    }
+
+    .container {
+      max-width: 1400px;
+      margin: 0 auto;
+      padding: 1rem;
+    }
+
+    /* Header */
+    header {
+      text-align: center;
+      padding: 1.5rem 1rem;
+      background: rgba(0, 0, 0, 0.3);
+      border-radius: 16px;
+      margin-bottom: 1rem;
+      border: 1px solid rgba(255, 255, 255, 0.1);
+    }
+
+    h1 {
+      font-size: 2.5rem;
+      font-weight: 700;
+      background: linear-gradient(135deg, #00d4ff 0%, #7b2cbf 100%);
+      -webkit-background-clip: text;
+      -webkit-text-fill-color: transparent;
+      background-clip: text;
+      margin-bottom: 0.5rem;
+    }
+
+    .subtitle {
+      color: #8892b0;
+      font-size: 1.1rem;
+    }
+
+    /* Grid Layout - 3 Columns (middle is widest: 3/7, sides 2/7 each) */
+    .grid {
+      display: grid;
+      grid-template-columns: 2fr 3fr 2fr;
+      gap: 0.75rem;
+      max-width: 100%;
+      box-sizing: border-box;
+    }
+
+    .left-col, .middle-col, .right-col {
+      min-width: 0;
+      overflow-wrap: break-word;
+    }
+
+    @media (max-width: 1200px) {
+      .grid {
+        grid-template-columns: 1fr 1fr;
+      }
+      .right-col {
+        grid-column: 1 / -1;
+      }
+    }
+
+    @media (max-width: 768px) {
+      /* Grid */
+      .grid {
+        grid-template-columns: 1fr;
+      }
+      .right-col {
+        grid-column: auto;
+      }
+
+      /* Column order: center (insights/tickers) first on mobile */
+      .middle-col { order: 1; }
+      .left-col   { order: 2; }
+      .right-col  { order: 3; }
+
+      /* Header — pull absolute ticker badges into normal flow */
+      header {
+        padding-bottom: 0.75rem;
+      }
+      header h1 {
+        font-size: 1.5rem;
+      }
+      .header-qqq-badge,
+      .header-btc-badge {
+        position: static !important;
+        display: inline-flex !important;
+        bottom: auto !important;
+        left: auto !important;
+        right: auto !important;
+        margin-top: 0.5rem;
+        margin-right: 0.5rem;
+      }
+
+      /* Ticker cards — stack vertically */
+      .ticker-header {
+        flex-direction: column;
+        gap: 0.4rem;
+      }
+      .ticker-main {
+        align-items: center;
+      }
+      .ticker-rank {
+        font-size: 1.1rem;
+        min-width: 24px;
+      }
+      .ticker-symbol {
+        font-size: 1.3rem;
+      }
+      .ticker-meta {
+        align-items: flex-start;
+        flex-direction: row;
+        flex-wrap: wrap;
+        gap: 0.3rem;
+      }
+      .ticker-details {
+        flex-wrap: wrap;
+        gap: 0.5rem;
+      }
+      .detail-label {
+        font-size: 0.55rem;
+      }
+      .detail-value {
+        font-size: 0.75rem;
+      }
+
+      /* Stock items (big BTC/top card) */
+      .stock-item {
+        flex-direction: column;
+        align-items: flex-start;
+        gap: 0.4rem;
+        padding: 0.75rem;
+      }
+      .stock-grid {
+        gap: 0.5rem;
+      }
+
+      /* Chart modal */
+      .chart-modal {
+        padding: 0.5rem;
+      }
+      .chart-container {
+        height: auto;
+        max-height: 80vh;
+        padding: 1rem;
+      }
+      .chart-header h3 {
+        font-size: 1.1rem;
+      }
+
+      /* Podcast modal */
+      .podcast-modal {
+        padding: 0.5rem;
+      }
+      .podcast-container {
+        max-height: 92vh;
+      }
+      .podcast-header {
+        padding: 1rem;
+      }
+      .podcast-header h3 {
+        font-size: 1rem;
+      }
+      .podcast-content {
+        padding: 1rem;
+        max-height: calc(92vh - 70px);
+      }
+    }
+
+    /* Cards */
+    .card {
+      background: rgba(255, 255, 255, 0.05);
+      border-radius: 12px;
+      padding: 1rem;
+      border: 1px solid rgba(255, 255, 255, 0.1);
+      backdrop-filter: blur(10px);
+      margin-bottom: 1rem;
+    }
+
+    .card h2 {
+      font-size: 1.3rem;
+      color: #00d4ff;
+      margin-bottom: 0.75rem;
+      display: flex;
+      align-items: center;
+      gap: 0.5rem;
+    }
+
+    .card h2::before {
+      content: '';
+      display: inline-block;
+      width: 4px;
+      height: 24px;
+      background: linear-gradient(180deg, #00d4ff, #7b2cbf);
+      border-radius: 2px;
+    }
+
+    /* Overton Window – unified cards (definitions + emerging terms, same structure) */
+    .overton-window-item {
+      background: rgba(123, 44, 191, 0.1);
+      border: 1px solid rgba(123, 44, 191, 0.3);
+      padding: 0.75rem;
+      margin-bottom: 0.75rem;
+      border-radius: 10px;
+      cursor: pointer;
+      transition: all 0.3s cubic-bezier(0.4, 0, 0.2, 1);
+      position: relative;
+      overflow: hidden;
+    }
+
+    .overton-window-item::before {
+      content: '';
+      position: absolute;
+      top: 0;
+      left: 0;
+      right: 0;
+      bottom: 0;
+      background: linear-gradient(135deg, rgba(123, 44, 191, 0.15) 0%, rgba(0, 212, 255, 0.08) 100%);
+      opacity: 0;
+      transition: opacity 0.3s ease;
+      pointer-events: none;
+    }
+
+    .overton-window-item:hover {
+      border-color: rgba(123, 44, 191, 0.5);
+      background: rgba(123, 44, 191, 0.15);
+      box-shadow: 0 6px 24px rgba(123, 44, 191, 0.15);
+      transform: translateY(-2px);
+    }
+
+    .overton-window-item:hover::before {
+      opacity: 1;
+    }
+
+    .overton-window-item.active {
+      border-color: rgba(123, 44, 191, 0.7);
+      background: rgba(123, 44, 191, 0.18);
+      box-shadow: 0 8px 32px rgba(123, 44, 191, 0.2);
+    }
+
+    .overton-header-row {
+      display: flex;
+      justify-content: space-between;
+      align-items: flex-start;
+      gap: 0.75rem;
+      margin-bottom: 0.35rem;
+    }
+
+    .overton-window-item .ow-term {
+      flex: 1;
+      min-width: 0;
+      font-weight: 700;
+      color: #e8e8e8;
+      font-size: 1rem;
+      margin-bottom: 0;
+    }
+
+    .overton-window-item .resonance {
+      flex-shrink: 0;
+      display: flex;
+      flex-direction: column;
+      align-items: flex-end;
+      gap: 0.12rem;
+      font-size: 0.75rem;
+      color: #8892b0;
+    }
+
+    .overton-window-item .resonance-label {
+      font-weight: 600;
+      color: #c4b5fd;
+      letter-spacing: 0.02em;
+    }
+
+    .overton-window-item .resonance-value {
+      font-weight: 700;
+      color: #a8b2d1;
+      font-size: 0.75rem;
+      text-align: right;
+    }
+
+    .overton-window-item .resonance-bar {
+      width: 46px;
+      height: 5px;
+      background: rgba(255, 255, 255, 0.08);
+      border: 1px solid rgba(255, 255, 255, 0.12);
+      border-radius: 999px;
+      overflow: hidden;
+    }
+
+    .overton-window-item .resonance-bar > span {
+      display: block;
+      height: 100%;
+      background: linear-gradient(90deg, #7b2cbf, #00d4ff);
+    }
+
+    .overton-window-item .ow-provenance {
+      font-size: 0.72rem;
+      color: #8892b0;
+      margin-top: 0.45rem;
+      line-height: 1.45;
+    }
+
+    .overton-window-item .ow-provenance-line {
+      margin-bottom: 0.25rem;
+    }
+
+    .overton-window-item .ow-prov-label {
+      color: #6b7280;
+      font-weight: 600;
+    }
+
+    .overton-window-item .ow-description {
+      font-size: 0.9rem;
+      color: #a8b2d1;
+      line-height: 1.5;
+      margin-top: 0.25rem;
+    }
+
+    .overton-window-item .ow-source {
+      font-size: 0.75rem;
+      color: #8892b0;
+      margin-top: 0.5rem;
+      font-style: italic;
+    }
+
+    .overton-window-item .ow-expanded {
+      max-height: 0;
+      overflow: hidden;
+      transition: max-height 0.4s ease, opacity 0.3s ease, padding 0.3s ease, margin 0.3s ease;
+      opacity: 0;
+      padding: 0;
+      margin: 0;
+      border-top: 1px solid transparent;
+    }
+
+    .overton-window-item.active .ow-expanded {
+      max-height: 200px;
+      opacity: 1;
+      padding-top: 0.75rem;
+      margin-top: 0.5rem;
+      border-top-color: rgba(255, 255, 255, 0.1);
+    }
+
+    .overton-window-item .ow-expanded-inner {
+      font-size: 0.85rem;
+      color: #a8b2d1;
+    }
+
+    /* Established tier items (saturated terms) - muted styling */
+    .overton-window-item.established-item {
+      background: rgba(100, 100, 120, 0.08);
+      border-color: rgba(100, 100, 120, 0.25);
+      opacity: 0.85;
+    }
+
+    .overton-window-item.established-item:hover {
+      background: rgba(100, 100, 120, 0.12);
+      border-color: rgba(100, 100, 120, 0.4);
+    }
+
+    .overton-window-item.established-item .resonance-bar > span {
+      background: linear-gradient(90deg, #6b7280, #9ca3af);
+    }
+
+    /* Featured/Debated cards - curated thesis not from podcast pipeline */
+    .overton-window-item.featured-item {
+      background: rgba(255, 193, 7, 0.08);
+      border: 1px solid rgba(255, 193, 7, 0.35);
+      border-left: 3px solid rgba(255, 193, 7, 0.7);
+    }
+
+    .overton-window-item.featured-item:hover {
+      background: rgba(255, 193, 7, 0.12);
+      border-color: rgba(255, 193, 7, 0.5);
+      box-shadow: 0 6px 24px rgba(255, 193, 7, 0.12);
+    }
+
+    .overton-window-item.featured-item .debated-badge {
+      display: inline-block;
+      background: rgba(255, 193, 7, 0.2);
+      color: #ffc107;
+      font-size: 0.6rem;
+      font-weight: 700;
+      text-transform: uppercase;
+      letter-spacing: 0.05em;
+      padding: 0.15rem 0.4rem;
+      border-radius: 3px;
+      margin-left: 0.5rem;
+      vertical-align: middle;
+    }
+
+    .overton-window-item.featured-item .ow-section {
+      margin-top: 0.6rem;
+      padding-top: 0.5rem;
+      border-top: 1px solid rgba(255, 255, 255, 0.05);
+    }
+
+    .overton-window-item.featured-item .ow-section-label {
+      font-size: 0.7rem;
+      font-weight: 700;
+      color: #ffc107;
+      text-transform: uppercase;
+      letter-spacing: 0.03em;
+      margin-bottom: 0.25rem;
+    }
+
+    .overton-window-item.featured-item .ow-section-content {
+      font-size: 0.85rem;
+      color: #a8b2d1;
+      line-height: 1.5;
+    }
+
+    .overton-window-item.featured-item .ow-nested-note {
+      font-size: 0.78rem;
+      color: #8892b0;
+      font-style: italic;
+      margin-top: 0.5rem;
+      padding: 0.4rem 0.6rem;
+      background: rgba(255, 255, 255, 0.03);
+      border-radius: 4px;
+      border-left: 2px solid rgba(255, 193, 7, 0.3);
+    }
+
+    .overton-window-item.featured-item .ow-curated-prov {
+      font-size: 0.72rem;
+      color: #8892b0;
+      margin-top: 0.6rem;
+      padding-top: 0.4rem;
+      border-top: 1px solid rgba(255, 255, 255, 0.05);
+    }
+
+    .overton-window-item.featured-item .ow-curated-prov .prov-label {
+      color: #6b7280;
+      font-weight: 600;
+    }
+
+    .guest-item {
+      position: relative;
+      overflow: hidden;
+      background: rgba(0, 212, 255, 0.06);
+      border: 1px solid rgba(0, 212, 255, 0.25);
+      padding: 0.75rem 1rem;
+      margin-bottom: 0.75rem;
+      border-radius: 10px;
+      cursor: pointer;
+      transition: all 0.25s ease;
+    }
+    .guest-item:hover {
+      border-color: rgba(0, 212, 255, 0.45);
+      box-shadow: 0 4px 16px rgba(0, 212, 255, 0.1);
+    }
+    .guest-item .guest-name { font-weight: 700; color: #00d4ff; font-size: 0.95rem; margin-bottom: 0.25rem; }
+    .guest-item .guest-known-for { font-size: 0.8rem; color: #8892b0; font-style: italic; margin-bottom: 0.25rem; line-height: 1.35; }
+    .guest-item .guest-source { font-size: 0.7rem; color: #8892b0; margin-top: 0.15rem; }
+    .guest-inline {
+      display: grid;
+      grid-template-columns: 1fr;
+      gap: 0.25rem 0.75rem;
+      align-items: center;
+      position: relative;
+    }
+    .guest-inline .inline-tagline {
+      color: #a8b2d1;
+      font-size: 0.85rem;
+      padding-right: 7rem; /* keep tagline clear of the upper-right Presence */
+    }
+    .presence {
+      position: absolute;
+      top: 0.05rem;
+      right: 0;
+      z-index: 5;
+      display: flex;
+      flex-direction: column;
+      align-items: flex-end;
+      justify-content: flex-start;
+      gap: 0.15rem;
+      font-size: 0.75rem;
+      color: #8892b0;
+    }
+    .presence-value {
+      font-weight: 700;
+      color: #a8b2d1;
+      font-size: 0.75rem;
+      text-align: right;
+    }
+    .presence-bar {
+      width: 46px;
+      height: 5px;
+      background: rgba(255,255,255,0.08);
+      border: 1px solid rgba(255,255,255,0.12);
+      border-radius: 999px;
+      overflow: hidden;
+    }
+    .presence-bar > span {
+      display: block;
+      height: 100%;
+      background: linear-gradient(90deg, #00d4ff, #7b2cbf);
+    }
+    .latest-arena {
+      color: #8892b0;
+      font-size: 0.75rem;
+      width: 100%;
+    }
+    .last-proof-snippet {
+      color: #a8b2d1;
+      font-size: 0.78rem;
+      font-style: italic;
+      margin-top: 0.3rem;
+      line-height: 1.38;
+      border-left: 2px solid rgba(0, 212, 255, 0.35);
+      padding-left: 0.45rem;
+    }
+    .last-thesis {
+      color: #e8e8e8;
+      font-size: 0.85rem;
+      margin-top: 0.35rem;
+    }
+    .last-thesis .thesis-label {
+      display: block;
+      font-size: 0.72rem;
+      color: #8892b0;
+      font-weight: 600;
+      letter-spacing: 0.02em;
+      margin-bottom: 0.15rem;
+    }
+    .guest-extra {
+      max-height: 0;
+      overflow: hidden;
+      opacity: 0;
+      margin-top: 0;
+      padding-top: 0;
+      border-top: 1px solid transparent;
+      transition: max-height 0.3s ease, opacity 0.25s ease, margin-top 0.25s ease, padding-top 0.25s ease, border-top-color 0.25s ease;
+    }
+    .guest-item.active .guest-extra {
+      max-height: 260px;
+      opacity: 1;
+      margin-top: 0.5rem;
+      padding-top: 0.5rem;
+      border-top-color: rgba(255,255,255,0.08);
+    }
+    .guest-extra .guest-bio { font-size: 0.85rem; color: #a8b2d1; line-height: 1.45; margin-bottom: 0.4rem; }
+    .guest-extra .guest-idea { font-size: 0.8rem; color: #e8e8e8; line-height: 1.4; }
+
+    .vote-counts {
+      display: flex;
+      gap: 1rem;
+      font-size: 0.85rem;
+    }
+
+    .vote-count {
+      display: flex;
+      align-items: center;
+      gap: 0.25rem;
+    }
+
+    .vote-count.up {
+      color: #4caf50;
+    }
+
+    .vote-count.down {
+      color: #f44336;
+    }
+
+    .vote-count.threshold {
+      color: #ffc107;
+      font-weight: 600;
+    }
+
+    .vote-buttons {
+      display: flex;
+      gap: 0.5rem;
+    }
+
+    .vote-btn {
+      background: none;
+      border: 1px solid rgba(255, 255, 255, 0.3);
+      color: #fff;
+      padding: 0.25rem 0.75rem;
+      border-radius: 4px;
+      cursor: pointer;
+      font-size: 0.85rem;
+      transition: all 0.2s;
+    }
+
+    .vote-btn:hover {
+      background: rgba(255, 255, 255, 0.1);
+    }
+
+    .vote-btn.approve:hover {
+      background: rgba(76, 175, 80, 0.3);
+      border-color: #4caf50;
+    }
+
+    .vote-btn.reject:hover {
+      background: rgba(244, 67, 54, 0.3);
+      border-color: #f44336;
+    }
+
+    .status-badge {
+      font-size: 0.75rem;
+      padding: 0.15rem 0.5rem;
+      border-radius: 4px;
+      font-weight: 600;
+    }
+
+    .status-badge.ready {
+      background: rgba(76, 175, 80, 0.2);
+      color: #4caf50;
+      border: 1px solid #4caf50;
+    }
+
+    /* Stock Picks Section */
+    .stock-grid {
+      display: grid;
+      gap: 1rem;
+    }
+
+    .stock-item {
+      background: linear-gradient(135deg, rgba(0, 212, 255, 0.1) 0%, rgba(123, 44, 191, 0.1) 100%);
+      border: 1px solid rgba(0, 212, 255, 0.2);
+      border-radius: 12px;
+      padding: 1.5rem;
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+    }
+
+    .stock-item.bitcoin {
+      background: linear-gradient(135deg, rgba(247, 147, 26, 0.1) 0%, rgba(247, 147, 26, 0.2) 100%);
+      border: 1px solid rgba(247, 147, 26, 0.4);
+    }
+
+    .stock-item.bitcoin .ticker {
+      color: #f7931a;
+    }
+
+    .stock-item.bitcoin .score {
+      color: #f7931a;
+    }
+
+    .stock-item .rank {
+      font-size: 2rem;
+      font-weight: 700;
+      color: #00d4ff;
+      opacity: 0.5;
+    }
+
+    .stock-item .info {
+      flex: 1;
+      margin-left: 1rem;
+    }
+
+    .stock-item .ticker {
+      font-size: 1.5rem;
+      font-weight: 700;
+      color: #fff;
+    }
+
+    .stock-item .score {
+      font-size: 0.9rem;
+      color: #00d4ff;
+    }
+
+    .stock-item .mentions {
+      font-size: 0.85rem;
+      color: #8892b0;
+    }
+
+    /* Enhanced Ticker Cards - Clickable Format */
+    .ticker-card {
+      background: linear-gradient(135deg, rgba(0, 212, 255, 0.05) 0%, rgba(123, 44, 191, 0.05) 100%);
+      border: 1px solid rgba(0, 212, 255, 0.15);
+      border-radius: 12px;
+      padding: 0;
+      margin-bottom: 0.75rem;
+      transition: all 0.3s cubic-bezier(0.4, 0, 0.2, 1);
+      cursor: pointer;
+      position: relative;
+      overflow: hidden;
+    }
+
+    .ticker-card::before {
+      content: '';
+      position: absolute;
+      top: 0;
+      left: 0;
+      right: 0;
+      bottom: 0;
+      background: linear-gradient(135deg, rgba(0, 212, 255, 0.1) 0%, rgba(123, 44, 191, 0.1) 100%);
+      opacity: 0;
+      transition: opacity 0.3s ease;
+      pointer-events: none;
+    }
+
+    .ticker-card:hover {
+      border-color: rgba(0, 212, 255, 0.5);
+      box-shadow: 0 8px 32px rgba(0, 212, 255, 0.15), 0 0 0 1px rgba(0, 212, 255, 0.3);
+      transform: translateY(-2px);
+    }
+
+    .ticker-card:hover::before {
+      opacity: 1;
+    }
+
+    .ticker-card.active {
+      border-color: rgba(0, 212, 255, 0.7);
+      box-shadow: 0 12px 40px rgba(0, 212, 255, 0.2), 0 0 0 2px rgba(0, 212, 255, 0.4);
+    }
+
+    .ticker-card.hidden-gem {
+      background: linear-gradient(135deg, rgba(255, 193, 7, 0.08) 0%, rgba(255, 152, 0, 0.05) 100%);
+      border-color: rgba(255, 193, 7, 0.3);
+    }
+
+    .ticker-card.hidden-gem:hover {
+      border-color: rgba(255, 193, 7, 0.6);
+      box-shadow: 0 8px 32px rgba(255, 193, 7, 0.2), 0 0 0 1px rgba(255, 193, 7, 0.4);
+    }
+
+    .ticker-card.hidden-gem.active {
+      border-color: rgba(255, 193, 7, 0.8);
+      box-shadow: 0 12px 40px rgba(255, 193, 7, 0.25), 0 0 0 2px rgba(255, 193, 7, 0.5);
+    }
+
+    .ticker-card.contrarian {
+      background: linear-gradient(135deg, rgba(76, 175, 80, 0.08) 0%, rgba(139, 195, 74, 0.05) 100%);
+      border-color: rgba(76, 175, 80, 0.3);
+    }
+
+    .ticker-card.contrarian:hover {
+      border-color: rgba(76, 175, 80, 0.6);
+      box-shadow: 0 8px 32px rgba(76, 175, 80, 0.2), 0 0 0 1px rgba(76, 175, 80, 0.4);
+    }
+
+    .ticker-card.crowded {
+      background: linear-gradient(135deg, rgba(244, 67, 54, 0.08) 0%, rgba(233, 30, 99, 0.05) 100%);
+      border-color: rgba(244, 67, 54, 0.3);
+    }
+
+    .ticker-card.crowded:hover {
+      border-color: rgba(244, 67, 54, 0.6);
+      box-shadow: 0 8px 32px rgba(244, 67, 54, 0.2), 0 0 0 1px rgba(244, 67, 54, 0.4);
+    }
+
+    .ticker-card-inner {
+      padding: 0.75rem;
+    }
+
+    .ticker-header {
+      display: flex;
+      justify-content: space-between;
+      align-items: flex-start;
+      margin-bottom: 0.5rem;
+    }
+
+    .ticker-main {
+      display: flex;
+      align-items: flex-start;
+      gap: 0.75rem;
+      flex: 1;
+      min-width: 0;
+    }
+
+    .ticker-rank {
+      font-size: 1.5rem;
+      font-weight: 800;
+      color: #00d4ff;
+      opacity: 0.4;
+      min-width: 32px;
+      line-height: 1;
+    }
+
+    .ticker-symbol {
+      font-size: 1.6rem;
+      font-weight: 700;
+      color: #fff;
+      letter-spacing: -0.5px;
+    }
+
+    .ticker-meta {
+      display: flex;
+      flex-direction: column;
+      align-items: flex-end;
+      gap: 0.25rem;
+    }
+
+    .score-badge {
+      background: linear-gradient(135deg, rgba(0, 212, 255, 0.2) 0%, rgba(123, 44, 191, 0.2) 100%);
+      color: #00d4ff;
+      padding: 0.25rem 0.6rem;
+      border-radius: 20px;
+      font-size: 0.8rem;
+      font-weight: 700;
+      border: 1px solid rgba(0, 212, 255, 0.3);
+    }
+
+    .conviction-indicator {
+      display: flex;
+      align-items: center;
+      gap: 0.2rem;
+      font-size: 0.75rem;
+    }
+
+    .conviction-indicator.high { color: #4caf50; }
+    .conviction-indicator.medium { color: #ffc107; }
+    .conviction-indicator.low { color: #8892b0; }
+
+    .signal-badge {
+      font-size: 0.7rem;
+      padding: 0.2rem 0.5rem;
+      border-radius: 4px;
+      font-weight: 600;
+    }
+
+    .signal-badge.contrarian {
+      background: rgba(76, 175, 80, 0.25);
+      color: #4caf50;
+      border: 1px solid rgba(76, 175, 80, 0.4);
+    }
+
+    .signal-badge.crowded {
+      background: rgba(244, 67, 54, 0.25);
+      color: #f44336;
+      border: 1px solid rgba(244, 67, 54, 0.4);
+    }
+
+    .ticker-details {
+      display: flex;
+      gap: 1rem;
+      margin: 0.5rem 0;
+      padding: 0.5rem 0;
+      border-top: 1px solid rgba(255, 255, 255, 0.08);
+      border-bottom: 1px solid rgba(255, 255, 255, 0.08);
+    }
+
+    .detail-item {
+      display: flex;
+      flex-direction: column;
+      gap: 0.1rem;
+    }
+
+    .detail-label {
+      font-size: 0.6rem;
+      color: #8892b0;
+      text-transform: uppercase;
+      letter-spacing: 0.8px;
+      font-weight: 500;
+    }
+
+    .detail-value {
+      font-size: 0.85rem;
+      color: #e8e8e8;
+      font-weight: 600;
+    }
+
+    .hidden-plays {
+      margin-top: 0.5rem;
+      font-size: 0.8rem;
+    }
+
+    .hidden-plays-title {
+      font-size: 0.7rem;
+      color: #ffc107;
+      margin-bottom: 0.3rem;
+      font-weight: 600;
+    }
+
+    .play-tag {
+      display: inline-block;
+      background: rgba(255, 193, 7, 0.12);
+      border: 1px solid rgba(255, 193, 7, 0.35);
+      color: #ffc107;
+      padding: 0.15rem 0.5rem;
+      border-radius: 4px;
+      font-size: 0.7rem;
+      margin: 0.1rem;
+      font-weight: 500;
+      transition: all 0.2s;
+    }
+
+    .play-tag:hover {
+      background: rgba(255, 193, 7, 0.25);
+      transform: scale(1.05);
+    }
+
+    /* Expandable Content */
+    .ticker-expanded {
+      max-height: 0;
+      overflow: hidden;
+      transition: max-height 0.4s cubic-bezier(0.4, 0, 0.2, 1), opacity 0.3s ease;
+      opacity: 0;
+    }
+
+    .ticker-card.active .ticker-expanded {
+      max-height: 400px;
+      opacity: 1;
+    }
+
+    .expanded-content {
+      padding: 0.75rem;
+      background: rgba(0, 0, 0, 0.2);
+      border-top: 1px solid rgba(255, 255, 255, 0.1);
+    }
+
+    .expanded-section {
+      margin-bottom: 0.75rem;
+    }
+
+    .expanded-section:last-child {
+      margin-bottom: 0;
+    }
+
+    .expanded-label {
+      font-size: 0.65rem;
+      color: #8892b0;
+      text-transform: uppercase;
+      letter-spacing: 0.8px;
+      margin-bottom: 0.25rem;
+      font-weight: 600;
+    }
+
+    .context-text {
+      font-size: 0.85rem;
+      color: #e8e8e8;
+      line-height: 1.5;
+      font-style: italic;
+    }
+
+    .expanded-actions {
+      display: flex;
+      gap: 0.5rem;
+      margin-top: 0.75rem;
+    }
+
+    .action-btn {
+      background: linear-gradient(135deg, rgba(0, 212, 255, 0.15) 0%, rgba(123, 44, 191, 0.15) 100%);
+      border: 1px solid rgba(0, 212, 255, 0.3);
+      color: #00d4ff;
+      padding: 0.5rem 1rem;
+      border-radius: 6px;
+      cursor: pointer;
+      font-size: 0.8rem;
+      font-weight: 500;
+      transition: all 0.2s;
+      display: flex;
+      align-items: center;
+      gap: 0.4rem;
+    }
+
+    .action-btn:hover {
+      background: linear-gradient(135deg, rgba(0, 212, 255, 0.25) 0%, rgba(123, 44, 191, 0.25) 100%);
+      border-color: rgba(0, 212, 255, 0.5);
+      transform: translateY(-1px);
+    }
+
+    .action-btn:active {
+      transform: translateY(0);
+    }
+
+    .action-btn.secondary {
+      background: rgba(255, 255, 255, 0.05);
+      border-color: rgba(255, 255, 255, 0.2);
+      color: #8892b0;
+    }
+
+    .action-btn.secondary:hover {
+      background: rgba(255, 255, 255, 0.1);
+      border-color: rgba(255, 255, 255, 0.3);
+      color: #e8e8e8;
+    }
+
+    .expand-hint {
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      gap: 0.3rem;
+      font-size: 0.7rem;
+      color: #8892b0;
+      margin-top: 0.5rem;
+      opacity: 0.7;
+      transition: opacity 0.2s;
+    }
+
+    .ticker-card:hover .expand-hint {
+      opacity: 1;
+    }
+
+    .expand-icon {
+      transition: transform 0.3s ease;
+    }
+
+    .ticker-card.active .expand-icon {
+      transform: rotate(180deg);
+    }
+
+    /* Ripple Effect */
+    .ripple {
+      position: absolute;
+      border-radius: 50%;
+      background: rgba(0, 212, 255, 0.4);
+      transform: scale(0);
+      animation: ripple-animation 0.6s ease-out;
+      pointer-events: none;
+    }
+
+    @keyframes ripple-animation {
+      to {
+        transform: scale(4);
+        opacity: 0;
+      }
+    }
+
+    /* Title ticker symbols */
+    .title-ticker {
+      background: rgba(0, 212, 255, 0.15);
+      border: 1px solid rgba(0, 212, 255, 0.4);
+      color: #00d4ff;
+      padding: 0.4rem 0.8rem;
+      border-radius: 6px;
+      font-size: 0.9rem;
+      font-weight: 600;
+      cursor: pointer;
+      transition: all 0.2s;
+      user-select: none;
+    }
+
+    .title-ticker:hover {
+      background: rgba(0, 212, 255, 0.25);
+      border-color: rgba(0, 212, 255, 0.6);
+      transform: scale(1.05);
+    }
+
+    .title-ticker.btc {
+      background: rgba(247, 147, 26, 0.15);
+      border-color: rgba(247, 147, 26, 0.4);
+      color: #f7931a;
+      font-size: 1.2rem;
+      padding: 0.3rem 0.7rem;
+    }
+
+    .title-ticker.btc:hover {
+      background: rgba(247, 147, 26, 0.25);
+      border-color: rgba(247, 147, 26, 0.6);
+    }
+
+    .ticker-price {
+      font-size: 0.75rem;
+      opacity: 0.9;
+      margin-left: 0.3rem;
+    }
+
+    .ticker-change {
+      font-size: 0.7rem;
+      padding: 0.1rem 0.3rem;
+      border-radius: 3px;
+      margin-left: 0.2rem;
+    }
+
+    .ticker-change.positive {
+      background: rgba(76, 175, 80, 0.2);
+      color: #4caf50;
+    }
+
+    .ticker-change.negative {
+      background: rgba(244, 67, 54, 0.2);
+      color: #f44336;
+    }
+
+    .chart-btn {
+      background: rgba(0, 212, 255, 0.2);
+      border: 1px solid #00d4ff;
+      color: #00d4ff;
+      padding: 0.5rem 1rem;
+      border-radius: 6px;
+      cursor: pointer;
+      font-size: 0.85rem;
+      transition: all 0.2s;
+    }
+
+    .chart-btn:hover {
+      background: rgba(0, 212, 255, 0.3);
+    }
+
+    .chart-btn.btc {
+      background: rgba(247, 147, 26, 0.2);
+      border-color: #f7931a;
+      color: #f7931a;
+    }
+
+    .chart-btn.btc:hover {
+      background: rgba(247, 147, 26, 0.3);
+    }
+
+    /* Chart Modal */
+    .chart-modal {
+      display: none;
+      position: fixed;
+      top: 0;
+      left: 0;
+      width: 100%;
+      height: 100%;
+      background: rgba(0, 0, 0, 0.9);
+      z-index: 1000;
+      justify-content: center;
+      align-items: center;
+      padding: 2rem;
+    }
+
+    .chart-modal.active {
+      display: flex;
+    }
+
+    .chart-container {
+      background: rgba(26, 26, 46, 0.95);
+      border-radius: 16px;
+      padding: 2rem;
+      width: 100%;
+      max-width: 1000px;
+      height: 600px;
+      position: relative;
+    }
+
+    .chart-header {
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+      margin-bottom: 1rem;
+    }
+
+    .chart-header h3 {
+      color: #00d4ff;
+      font-size: 1.5rem;
+    }
+
+    .close-btn {
+      background: none;
+      border: 1px solid rgba(255, 255, 255, 0.3);
+      color: #fff;
+      padding: 0.5rem 1rem;
+      border-radius: 6px;
+      cursor: pointer;
+      font-size: 1rem;
+    }
+
+    .close-btn:hover {
+      background: rgba(255, 255, 255, 0.1);
+    }
+
+    #chart-image-container {
+      height: calc(100% - 60px);
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      overflow: hidden;
+    }
+
+    #chart-image-container img {
+      max-width: 100%;
+      max-height: 100%;
+      border-radius: 8px;
+      box-shadow: 0 4px 20px rgba(0, 0, 0, 0.5);
+    }
+
+    /* Podcast Summary Modal */
+    .podcast-modal {
+      display: none;
+      position: fixed;
+      top: 0;
+      left: 0;
+      width: 100%;
+      height: 100%;
+      background: rgba(0, 0, 0, 0.9);
+      z-index: 1001;
+      justify-content: center;
+      align-items: center;
+      padding: 2rem;
+    }
+
+    .podcast-modal.active {
+      display: flex;
+    }
+
+    /* Pundit net worth modal */
+    .networth-modal {
+      display: none;
+      position: fixed;
+      inset: 0;
+      background: rgba(0, 0, 0, 0.9);
+      z-index: 1002;
+      justify-content: center;
+      align-items: center;
+      padding: 2rem;
+    }
+    .networth-modal.active { display: flex; }
+    .networth-container {
+      background: rgba(26, 26, 46, 0.98);
+      border-radius: 16px;
+      padding: 1.5rem 2rem;
+      width: 100%;
+      max-width: 720px;
+      max-height: 88vh;
+      overflow-y: auto;
+      border: 1px solid rgba(0, 212, 255, 0.2);
+      box-shadow: 0 20px 60px rgba(0, 0, 0, 0.5);
+    }
+    .networth-title {
+      color: #00d4ff;
+      font-size: 1.2rem;
+      font-weight: 700;
+      margin-bottom: 0.35rem;
+    }
+    .networth-value {
+      font-size: 2rem;
+      font-weight: 800;
+      color: #e8e8e8;
+      letter-spacing: -0.5px;
+      margin: 0.5rem 0 0.75rem;
+    }
+    .networth-sub {
+      color: #8892b0;
+      font-size: 0.9rem;
+      line-height: 1.5;
+    }
+    .networth-actions {
+      display: flex;
+      justify-content: flex-end;
+      gap: 0.5rem;
+      margin-top: 1rem;
+    }
+    .networth-actions .close-btn {
+      background: none;
+      border: 1px solid rgba(255, 255, 255, 0.3);
+      color: #fff;
+      padding: 0.5rem 1rem;
+      border-radius: 6px;
+      cursor: pointer;
+      font-size: 1rem;
+    }
+    .networth-profile {
+      margin-top: 1.25rem;
+      padding-top: 1rem;
+      border-top: 1px solid rgba(255, 255, 255, 0.08);
+      color: #c5cee0;
+      font-size: 0.88rem;
+      line-height: 1.55;
+    }
+    .networth-profile h4 {
+      color: #00d4ff;
+      font-size: 0.78rem;
+      text-transform: uppercase;
+      letter-spacing: 0.06em;
+      margin: 1rem 0 0.35rem;
+      font-weight: 700;
+    }
+    .networth-profile h4:first-child { margin-top: 0; }
+    .networth-profile .profile-dl {
+      display: grid;
+      grid-template-columns: minmax(0, 34%) 1fr;
+      gap: 0.35rem 0.75rem;
+      margin: 0.25rem 0 0.5rem;
+    }
+    .networth-profile .profile-dl dt {
+      color: #8892b0;
+      font-weight: 600;
+      font-size: 0.8rem;
+    }
+    .networth-profile .profile-dl dd {
+      margin: 0;
+      color: #e8e8e8;
+    }
+    .networth-profile .cliff-notes {
+      color: #e8e8e8;
+      white-space: pre-wrap;
+      margin: 0.35rem 0 0.75rem;
+    }
+    .networth-profile .section-block {
+      margin-bottom: 0.65rem;
+    }
+    .networth-profile .section-block .sec-title {
+      color: #a8b2d1;
+      font-weight: 600;
+      font-size: 0.82rem;
+      margin-bottom: 0.2rem;
+    }
+    .networth-profile .section-block .sec-body {
+      color: #b8c0d4;
+      font-size: 0.84rem;
+    }
+    .networth-profile a.grokipedia-link {
+      color: #00d4ff;
+      text-decoration: underline;
+      font-size: 0.85rem;
+      display: inline-block;
+      margin-top: 0.5rem;
+    }
+
+    .podcast-container {
+      background: rgba(26, 26, 46, 0.98);
+      border-radius: 16px;
+      padding: 0;
+      width: 100%;
+      max-width: 900px;
+      max-height: 85vh;
+      position: relative;
+      overflow: hidden;
+      border: 1px solid rgba(0, 212, 255, 0.2);
+      box-shadow: 0 20px 60px rgba(0, 0, 0, 0.5);
+    }
+
+    .podcast-header {
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+      padding: 1.5rem 2rem;
+      background: linear-gradient(135deg, rgba(0, 212, 255, 0.1) 0%, rgba(123, 44, 191, 0.1) 100%);
+      border-bottom: 1px solid rgba(255, 255, 255, 0.1);
+    }
+
+    .podcast-header h3 {
+      color: #00d4ff;
+      font-size: 1.3rem;
+      margin: 0;
+    }
+
+    .podcast-source {
+      font-size: 0.8rem;
+      color: #8892b0;
+      margin-top: 0.25rem;
+    }
+
+    .podcast-content {
+      padding: 2rem;
+      overflow-y: auto;
+      max-height: calc(85vh - 80px);
+    }
+
+    .podcast-section {
+      margin-bottom: 1.5rem;
+    }
+
+    .podcast-section:last-child {
+      margin-bottom: 0;
+    }
+
+    .podcast-section h4 {
+      color: #00d4ff;
+      font-size: 1rem;
+      margin-bottom: 0.75rem;
+      display: flex;
+      align-items: center;
+      gap: 0.5rem;
+    }
+
+    .key-point-box {
+      background: rgba(0, 212, 255, 0.08);
+      border-left: 3px solid #00d4ff;
+      padding: 1rem;
+      margin-bottom: 0.75rem;
+      border-radius: 0 8px 8px 0;
+    }
+
+    .key-point-box.warning {
+      background: rgba(244, 67, 54, 0.08);
+      border-left-color: #f44336;
+    }
+
+    .key-point-box.bullish {
+      background: rgba(76, 175, 80, 0.08);
+      border-left-color: #4caf50;
+    }
+
+    .key-point-box.bitcoin {
+      background: rgba(247, 147, 26, 0.08);
+      border-left-color: #f7931a;
+    }
+
+    .ticker-box-inline {
+      display: inline-block;
+      background: rgba(255, 255, 255, 0.05);
+      border: 1px solid rgba(255, 255, 255, 0.1);
+      border-radius: 6px;
+      padding: 0.5rem 1rem;
+      margin: 0.25rem;
+      text-align: center;
+    }
+
+    .ticker-box-inline .symbol {
+      font-weight: 700;
+      color: #00d4ff;
+    }
+
+    .ticker-box-inline .thesis {
+      font-size: 0.75rem;
+      color: #8892b0;
+      margin-top: 0.25rem;
+    }
+
+    .quote-box {
+      font-style: italic;
+      color: #a8b2d1;
+      border-left: 2px solid rgba(255, 255, 255, 0.3);
+      padding-left: 1rem;
+      margin: 1rem 0;
+      line-height: 1.6;
+    }
+
+    .implication-box {
+      background: rgba(76, 175, 80, 0.1);
+      border: 1px solid rgba(76, 175, 80, 0.3);
+      border-radius: 8px;
+      padding: 1rem;
+    }
+
+    .implication-box.bearish {
+      background: rgba(244, 67, 54, 0.1);
+      border-color: rgba(244, 67, 54, 0.3);
+    }
+
+    .implication-box h5 {
+      color: #4caf50;
+      font-size: 0.85rem;
+      margin-bottom: 0.5rem;
+    }
+
+    .implication-box.bearish h5 {
+      color: #f44336;
+    }
+
+    /* Insights Section - Clickable Cards */
+    .insight-item {
+      background: rgba(255, 255, 255, 0.03);
+      border-radius: 10px;
+      padding: 0.75rem;
+      margin-bottom: 0.75rem;
+      border: 1px solid rgba(255, 255, 255, 0.05);
+      cursor: pointer;
+      transition: all 0.3s cubic-bezier(0.4, 0, 0.2, 1);
+      position: relative;
+      overflow: hidden;
+    }
+
+    .insight-item::before {
+      content: '';
+      position: absolute;
+      top: 0;
+      left: 0;
+      right: 0;
+      bottom: 0;
+      background: linear-gradient(135deg, rgba(0, 212, 255, 0.08) 0%, rgba(123, 44, 191, 0.08) 100%);
+      opacity: 0;
+      transition: opacity 0.3s ease;
+      pointer-events: none;
+    }
+
+    .insight-item:hover {
+      border-color: rgba(0, 212, 255, 0.3);
+      box-shadow: 0 6px 24px rgba(0, 212, 255, 0.1);
+      transform: translateY(-2px);
+    }
+
+    .insight-item:hover::before {
+      opacity: 1;
+    }
+
+    .insight-item.active {
+      border-color: rgba(0, 212, 255, 0.5);
+      box-shadow: 0 8px 32px rgba(0, 212, 255, 0.15);
+    }
+
+    .insight-item .source {
+      font-size: 0.75rem;
+      color: #00d4ff;
+      text-transform: uppercase;
+      letter-spacing: 1.5px;
+      margin-bottom: 0.5rem;
+      font-weight: 600;
+    }
+
+    .insight-item .text {
+      color: #e8e8e8;
+      line-height: 1.5;
+    }
+
+    .insight-expanded {
+      max-height: 0;
+      overflow: hidden;
+      transition: max-height 0.4s ease, opacity 0.3s ease, padding 0.3s ease;
+      opacity: 0;
+      padding: 0;
+      border-top: 1px solid transparent;
+    }
+
+    .insight-item.active .insight-expanded {
+      max-height: 200px;
+      opacity: 1;
+      padding-top: 0.75rem;
+      margin-top: 0.75rem;
+      border-top-color: rgba(255, 255, 255, 0.1);
+    }
+
+    /* Contact Form */
+    .contact-card {
+      max-width: 600px;
+      margin: 1rem auto;
+    }
+
+    .contact-form {
+      display: flex;
+      flex-direction: column;
+      gap: 0.6rem;
+    }
+
+    .form-group {
+      display: flex;
+      flex-direction: column;
+      gap: 0.25rem;
+    }
+
+    .form-group label {
+      color: #00d4ff;
+      font-size: 0.9rem;
+      font-weight: 500;
+    }
+
+    .form-group input,
+    .form-group textarea {
+      background: rgba(0, 0, 0, 0.3);
+      border: 1px solid rgba(255, 255, 255, 0.2);
+      border-radius: 6px;
+      padding: 0.4rem 0.6rem;
+      color: #e8e8e8;
+      font-size: 0.9rem;
+      transition: border-color 0.2s;
+    }
+
+    .form-group input:focus,
+    .form-group textarea:focus {
+      outline: none;
+      border-color: #00d4ff;
+    }
+
+    .form-group input::placeholder,
+    .form-group textarea::placeholder {
+      color: #8892b0;
+    }
+
+    .form-hint {
+      color: #8892b0;
+      font-size: 0.8rem;
+    }
+
+    .checkbox-group {
+      margin-top: 0.5rem;
+    }
+
+    .checkbox-label {
+      display: flex;
+      align-items: flex-start;
+      gap: 0.75rem;
+      cursor: pointer;
+      color: #e8e8e8;
+      font-size: 0.95rem;
+      line-height: 1.4;
+    }
+
+    .checkbox-label input[type="checkbox"] {
+      display: none;
+    }
+
+    .checkmark {
+      width: 20px;
+      height: 20px;
+      min-width: 20px;
+      background: rgba(0, 0, 0, 0.3);
+      border: 2px solid rgba(0, 212, 255, 0.4);
+      border-radius: 4px;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      transition: all 0.2s;
+      margin-top: 1px;
+    }
+
+    .checkbox-label input[type="checkbox"]:checked + .checkmark {
+      background: #00d4ff;
+      border-color: #00d4ff;
+    }
+
+    .checkbox-label input[type="checkbox"]:checked + .checkmark::after {
+      content: '✓';
+      color: #1a1a2e;
+      font-size: 14px;
+      font-weight: bold;
+    }
+
+    .checkbox-text {
+      color: #a8b2d1;
+    }
+
+    .submit-btn {
+      background: linear-gradient(135deg, #00d4ff 0%, #7b2cbf 100%);
+      border: none;
+      color: #fff;
+      padding: 0.5rem 1rem;
+      border-radius: 6px;
+      font-size: 0.9rem;
+      font-weight: 600;
+      cursor: pointer;
+      transition: opacity 0.2s, transform 0.1s;
+    }
+
+    .submit-btn:hover {
+      opacity: 0.9;
+    }
+
+    .submit-btn:active {
+      transform: scale(0.98);
+    }
+
+    .submit-btn:disabled {
+      opacity: 0.5;
+      cursor: not-allowed;
+    }
+
+    .form-status {
+      margin-top: 1rem;
+      padding: 1rem;
+      border-radius: 8px;
+      font-size: 0.95rem;
+    }
+
+    .form-status.success {
+      background: rgba(76, 175, 80, 0.1);
+      border: 1px solid rgba(76, 175, 80, 0.3);
+      color: #4caf50;
+    }
+
+    .form-status.error {
+      background: rgba(244, 67, 54, 0.1);
+      border: 1px solid rgba(244, 67, 54, 0.3);
+      color: #f44336;
+    }
+
+    /* Footer */
+    footer {
+      text-align: center;
+      padding: 1rem;
+      margin-top: 1rem;
+      background: rgba(0, 0, 0, 0.3);
+      border-radius: 12px;
+      border: 1px solid rgba(255, 255, 255, 0.1);
+    }
+
+    footer .credit {
+      color: #00d4ff;
+      font-weight: 600;
+      font-size: 1.1rem;
+      margin-bottom: 0.5rem;
+    }
+
+    footer .subtext {
+      color: #8892b0;
+      font-size: 0.9rem;
+    }
+
+    footer .update-time {
+      color: #8892b0;
+      font-size: 0.8rem;
+      margin-top: 1rem;
+    }
+
+    /* Loading State */
+    .loading {
+      text-align: center;
+      padding: 2rem;
+      color: #8892b0;
+    }
+
+    /* Placeholder */
+    .placeholder {
+      color: #8892b0;
+      font-style: italic;
+      text-align: center;
+      padding: 2rem;
+    }
+
+    /* Top navigation — public-facing; no internal jargon in labels */
+    .site-nav {
+      display: flex;
+      flex-wrap: wrap;
+      gap: 1rem 1.25rem;
+      justify-content: center;
+      align-items: center;
+      padding: 0.65rem 1rem;
+      margin-bottom: 0.75rem;
+      background: rgba(0, 0, 0, 0.28);
+      border-radius: 12px;
+      border: 1px solid rgba(255, 255, 255, 0.1);
+    }
+    .site-nav a {
+      color: #00d4ff;
+      text-decoration: none;
+      font-size: 0.95rem;
+      font-weight: 500;
+    }
+    .site-nav a:hover {
+      text-decoration: underline;
+    }
+  </style>
+</head>
+<body>
+  <div class="container">
+    <nav class="site-nav" aria-label="Site sections">
+      <a href="index.html">Home</a>
+      <a href="archive.html">Archive</a>
+      <a href="debait.html" id="home-debate-listen">Long &amp; Short</a>
+      <a href="pipeline-health.html">Data Status</a>
+    </nav>
+    <header style="position: relative;">
+      <h1>AI, Finance, Tech: Scarcity &amp; Abundance</h1>
+      <p class="subtitle">Summaries and themes from the podcasts and newsletters in our feed — not investment advice.</p>
+      <p style="color: #8892b0; font-size: 0.8rem; margin-top: 0.5rem;">
+        <span id="last-updated">Last updated: —</span>
+        <span id="last-updated-meta"> · <span style="color: #a8b2d1;">Ticker cards show ~2-week % change where available</span> · <a href="pipeline-health.html" style="color: #00d4ff;">Data Status</a></span>
+      </p>
+      <!-- Desktop: absolute positioned badges; Mobile: inline via CSS override -->
+      <div class="header-qqq-badge" style="position: absolute; bottom: 1rem; left: 2rem; display: flex; gap: 1rem;">
+        <span class="title-ticker" onclick="showChart('QQQ')" title="View QQQ 2-week chart">
+          QQQ <span id="qqq-price" class="ticker-price"></span> <span id="qqq-change" class="ticker-change"></span>
+        </span>
+      </div>
+      <div class="header-btc-badge" style="position: absolute; bottom: 1rem; right: 2rem; display: flex; gap: 1rem;">
+        <span class="title-ticker btc" onclick="showChart('BTC')" title="View Bitcoin 2-week chart">
+          <span id="btc-change" class="ticker-change"></span> <span id="btc-price" class="ticker-price"></span> ₿
+        </span>
+      </div>
+    </header>
+
+    <!-- Market Plumbing Widgets (compact band between header and grid) -->
+    <div class="plumbing-widgets" style="margin: 1rem 0; display: grid; grid-template-columns: repeat(auto-fit, minmax(220px, 1fr)); gap: 0.75rem;">
+      <div class="card" style="padding: 0.75rem; margin-bottom: 0;">
+        <h3 style="font-size: 0.9rem; color: #00d4ff; margin-bottom: 0.25rem;">📊 Treasury Calendar</h3>
+        <p style="color: #9ca3af; font-size: 0.68rem; line-height: 1.35; margin-bottom: 0.5rem;">Next auction / QRA dates are the make-or-break calendar for Captive buyer of duration and the window that can force a 10Y Debait print.</p>
+        <div id="treasury-widget" style="font-size: 0.8rem; color: #a8b2d1;">
+          <span style="color: #a8b2d1;">Coming soon — awaiting live data</span>
+        </div>
+        <div style="margin-top: 0.3rem;"><a href="https://home.treasury.gov/resource-center/data-chart-center/quarterly-refunding" target="_blank" style="color: #9ca3af; font-size: 0.65rem;">Source: treasury.gov</a></div>
+      </div>
+      <div class="card" style="padding: 0.75rem; margin-bottom: 0;">
+        <h3 style="font-size: 0.9rem; color: #00d4ff; margin-bottom: 0.25rem;">📈 Curve Snapshot</h3>
+        <p style="color: #9ca3af; font-size: 0.68rem; line-height: 1.35; margin-bottom: 0.5rem;">2s10s, 10s30s, and MOVE show whether term premium is steepening toward the Debait's 5.00% DGS10 bar — or easing.</p>
+        <div id="curve-widget" style="display: flex; gap: 0.75rem; font-size: 0.75rem; flex-wrap: wrap;">
+          <span style="color: #a8b2d1;">Coming soon — awaiting live data</span>
+        </div>
+        <div style="margin-top: 0.3rem;"><span style="color: #9ca3af; font-size: 0.65rem;">Source: FRED / Yahoo</span></div>
+      </div>
+      <div class="card" style="padding: 0.75rem; margin-bottom: 0;">
+        <h3 style="font-size: 0.9rem; color: #00d4ff; margin-bottom: 0.25rem;">📋 COT Positioning</h3>
+        <p style="color: #9ca3af; font-size: 0.68rem; line-height: 1.35; margin-bottom: 0.5rem;">Who is long or short duration (and BTC) — the positioning side of captivity, not another narrative recap.</p>
+        <div id="cot-widget" style="display: flex; gap: 0.75rem; font-size: 0.75rem; flex-wrap: wrap;">
+          <span style="color: #a8b2d1;"><strong>10Y:</strong> <span style="color: #6b7280;">Coming soon</span></span>
+          <span style="color: #a8b2d1;"><strong>BTC:</strong> <span style="color: #6b7280;">Coming soon</span></span>
+        </div>
+        <div style="margin-top: 0.3rem;"><span style="color: #9ca3af; font-size: 0.65rem;">Source: CFTC (Fridays)</span></div>
+      </div>
+      <div class="card" style="padding: 0.75rem; margin-bottom: 0;">
+        <h3 style="font-size: 0.9rem; color: #00d4ff; margin-bottom: 0.25rem;">🖥️ Compute Forward</h3>
+        <p style="color: #9ca3af; font-size: 0.68rem; line-height: 1.35; margin-bottom: 0.5rem;">The rent on AI compute (not NVDA equity): sold-out spot with rising 1Y contracts is the scarcity half of the same shop.</p>
+        <div id="compute-forward-widget" style="font-size: 0.75rem;">
+          <div style="display: flex; gap: 0.75rem; flex-wrap: wrap;">
+            <span style="color: #a8b2d1;"><strong>1Y:</strong> —</span>
+            <span style="color: #a8b2d1;"><strong>Spot:</strong> —</span>
+            <span style="color: #a8b2d1;"><strong>Trend:</strong> —</span>
+          </div>
+          <div style="margin-top: 0.25rem; color: #9ca3af; font-size: 0.65rem;">
+            <span id="compute-forward-period">As of: —</span>
+          </div>
+        </div>
+        <div style="margin-top: 0.3rem;"><a href="https://gpu-index.semianalysis.com/" target="_blank" style="color: #9ca3af; font-size: 0.65rem;">Source: SemiAnalysis (surveyed index)</a></div>
+      </div>
+    </div>
+
+    <div class="grid">
+      <!-- Left Column - The Overton Window (definitions + emerging concepts) -->
+      <div class="left-col">
+        <!-- The Overton Window: definitions + overton terms merged -->
+        <div class="card">
+          <h2>The Overton Window</h2>
+          <p style="color: #8892b0; margin-bottom: 0.5rem; font-size: 0.9rem;">New ideas from the feed — ranked by novelty (freshness + source diversity + specificity), not raw volume. Saturated terms like AGI move to the Established tier below.</p>
+          <div style="margin-bottom: 1.25rem;"></div>
+
+          <div id="overton-window-list">
+            <!-- Filled by loadOvertonWindow() from mainContent.overton -->
+          </div>
+
+          <!-- Contact Section -->
+          <div class="card contact-card" style="margin-top: 2rem;" data-fallback-email="">
+            <h2>📬 Get in touch</h2>
+            <p style="color: #8892b0; margin-bottom: 1.5rem; font-size: 0.95rem;">Collaboration, feedback, or a quick hello — leave a note and I&apos;ll follow up.</p>
+
+            <form id="contactForm" class="contact-form">
+              <div class="form-group">
+                <label for="contactName">Name (optional)</label>
+                <input type="text" id="contactName" name="name" placeholder="Your name">
+              </div>
+
+              <div class="form-group">
+                <label for="contactInfo">Email or Phone <span style="color: #f44336;">*</span></label>
+                <input type="text" id="contactInfo" name="contact" placeholder="you@email.com or +1-555-123-4567" required>
+                <small class="form-hint">We'll send a verification message to confirm</small>
+              </div>
+
+              <div class="form-group">
+                <label for="contactMessage">Message (optional)</label>
+                <textarea id="contactMessage" name="message" rows="3" placeholder="What brings you here?"></textarea>
+              </div>
+
+              <div class="form-group checkbox-group">
+                <label class="checkbox-label">
+                  <input type="checkbox" id="weeklyUpdates" name="weeklyUpdates">
+                  <span class="checkmark"></span>
+                  <span class="checkbox-text">Send me a once-weekly update of your latest insights</span>
+                </label>
+              </div>
+
+              <button type="submit" class="submit-btn">
+                <span class="btn-text">Send & Verify</span>
+                <span class="btn-loading" style="display: none;">Sending...</span>
+              </button>
+            </form>
+
+            <div id="formStatus" class="form-status" style="display: none;"></div>
+          </div>
+        </div>
+
+        <!-- Alpha or Atrophy moved into left column -->
+        <div class="card" style="margin-top: 1.5rem;">
+          <h2 style="font-size: 1.3rem;">Alpha or atrophy</h2>
+          <p style="color: #8892b0; margin-bottom: 1rem; font-size: 0.8rem;">Ranked themes from mention volume, conviction, how many sources agree, and contrarian flags. <strong>Tap a row for a chart.</strong></p>
+          <div class="stock-grid" id="tickerGrid"></div>
+        </div>
+      </div>
+
+      <!-- Middle Column - Insights -->
+      <div class="middle-col">
+        <!-- Latest Insights -->
+        <div class="card">
+          <h2>Latest insights</h2>
+          <p style="color: #6b7280; font-size: 0.8rem; margin-bottom: 1rem;">Short takeaways from recent podcast episodes — tickers called out in the underlying analysis (up to twelve shown).</p>
+          <div id="insights-container">
+            <!-- Insights loaded dynamically from database -->
+          </div>
+        </div>
+
+      </div>
+
+      <!-- Right Column - Podcast Pundits + Niche Sources -->
+      <div class="right-col">
+        <div class="card" id="guests-card">
+          <h2>Pundits & Sources</h2>
+          <p style="color: #8892b0; margin-bottom: 0.5rem; font-size: 0.9rem;">Podcast guests + curated X/niche voices — tap for profile and latest angle.</p>
+          <p style="color: #6b7280; font-size: 0.8rem; margin-bottom: 1rem;">Ranked by recency; includes Fed plumbing, macro, and biotech sources.</p>
+          <div id="guests-list"></div>
+          <!-- Niche X/Substack sources (from curated_sources.json) -->
+          <div id="niche-sources-list" style="margin-top: 1rem; border-top: 1px solid rgba(255,255,255,0.1); padding-top: 1rem;">
+            <h3 style="font-size: 0.85rem; color: #8892b0; margin-bottom: 0.5rem;">📡 Niche Sources (X / Substack)</h3>
+            <div id="niche-sources-container"></div>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <!-- Disclaimer -->
+    <div class="disclaimer" style="background: rgba(0, 0, 0, 0.2); border: 1px solid rgba(255, 255, 255, 0.1); border-radius: 8px; padding: 0.75rem; margin: 1rem 0; text-align: center;">
+      <p style="color: #8892b0; font-size: 0.8rem; line-height: 1.4; margin: 0;">
+        <strong>Disclaimer:</strong> Nothing on this page constitutes investment advice or a recommendation to buy or sell any security.
+        All content is for informational and educational purposes only. We may hold positions in some or all of the companies mentioned.
+        Past performance is not indicative of future results. Always conduct your own research and consult with a qualified financial advisor before making investment decisions.
+      </p>
+    </div>
+
+    <footer>
+      <div class="credit">Jared Sheppard</div>
+      <div class="subtext">Personal research board · Not financial advice</div>
+      <div class="subtext">
+        <a href="archive.html" style="color: #00d4ff; text-decoration: none;">Archive</a> · 
+        <a href="debait.html" id="home-debate-listen" style="color: #00d4ff; text-decoration: none;">Long &amp; Short</a> · 
+        <a href="index.html" style="color: #00d4ff; text-decoration: none;">Home</a> · 
+        <a href="pipeline-health.html" style="color: #00d4ff; text-decoration: none;">Data Status</a>
+      </div>
+    </footer>
+  </div>
+
+  <!-- Chart Modal -->
+  <div id="chartModal" class="chart-modal">
+    <div class="chart-container">
+      <div class="chart-header">
+        <h3 id="chartTitle">Stock Chart</h3>
+        <button class="close-btn" onclick="closeChart()">✕ Close</button>
+      </div>
+      <div id="chart-image-container">
+        <img id="chartImage" src="" alt="Stock Chart">
+      </div>
+    </div>
+  </div>
+
+  <!-- Podcast Summary Modal -->
+  <div id="podcastModal" class="podcast-modal">
+    <div class="podcast-container">
+      <div class="podcast-header">
+        <div>
+          <h3 id="podcastTitle">Podcast Summary</h3>
+          <div id="podcastSource" class="podcast-source"></div>
+        </div>
+        <button class="close-btn" onclick="closePodcastSummary()">✕ Close</button>
+      </div>
+      <div id="podcastContent" class="podcast-content">
+        <!-- Content populated by JavaScript -->
+      </div>
+    </div>
+  </div>
+
+  <!-- Deep Dive Modal -->
+  <div id="deepDiveModal" class="podcast-modal" style="display: none;">
+    <div class="podcast-container" style="max-width: 800px;">
+      <div class="podcast-header">
+        <div>
+          <h3 id="deepDiveTitle">Deep Dive Analysis</h3>
+          <div id="deepDiveSource" class="podcast-source"></div>
+        </div>
+        <button class="close-btn" onclick="closeDeepDive()">✕ Close</button>
+      </div>
+      <div id="deepDiveContent" class="podcast-content">
+        <!-- Deep dive content populated by JavaScript -->
+      </div>
+    </div>
+  </div>
+
+  <!-- Net Worth Modal (Pundits) -->
+  <div id="netWorthModal" class="networth-modal">
+    <div class="networth-container">
+      <div class="networth-title" id="netWorthTitle">Net Worth</div>
+      <div class="networth-value" id="netWorthValue">—</div>
+      <div class="networth-sub" id="netWorthSub"></div>
+      <div class="networth-profile" id="netWorthProfile" style="display: none;"></div>
+      <div class="networth-actions">
+        <button class="close-btn" onclick="closeNetWorthModal()">✕ Close</button>
+      </div>
+    </div>
+  </div>
+
+  <!-- Load dashboard data from pipeline (if available) -->
+  <script src="./data/data.js?v=1788549342"></script>
+  <script src="./js/common.js"></script>
+  
+  <script>
+    var DEBUG_SITE = !!window.DEBUG_SITE;
+    function getSchemaVersion() {
+      if (typeof dashboardData === 'undefined' || dashboardData === null) return 0;
+      var v = Number(dashboardData.schemaVersion || 0);
+      return isNaN(v) ? 0 : v;
+    }
+    // Load Overton Window from mainContent.overton (display_on_main = 1 only)
+    // Now with novelty-aware ranking: newer/specific terms rank higher than saturated ones.
+    // Established tier (AGI, Autonomy, etc.) shown separately in collapsible section.
+    // Featured/curated cards from featured_overton.json are pinned at the top with a "Debated" badge.
+    async function loadOvertonWindow() {
+      const container = document.getElementById('overton-window-list');
+      if (!container) return;
+
+      const main = (typeof dashboardData !== 'undefined' && dashboardData.mainContent) ? dashboardData.mainContent : {};
+      const overton = main.overton || [];
+      const established = main.overton_established || [];
+
+      function esc(s) {
+        if (s == null || s === '') return '';
+        return String(s).replace(/</g, '&lt;').replace(/>/g, '&gt;');
+      }
+
+      function isoDatePart(v) {
+        if (v == null || v === '') return '';
+        var s = String(v);
+        return s.length >= 10 ? s.substring(0, 10) : s;
+      }
+
+      function provLine(label, dateStr, by, podcast, epTitle) {
+        var bits = [];
+        if (dateStr) bits.push(esc(dateStr));
+        bits.push(by ? esc(by) : '—');
+        if (podcast) bits.push(esc(podcast));
+        if (epTitle) {
+          var t = String(epTitle);
+          bits.push(esc(t.length > 72 ? t.substring(0, 69) + '…' : t));
+        }
+        return '<div class="ow-provenance-line"><span class="ow-prov-label">' + esc(label) + '</span> ' + bits.join(' · ') + '</div>';
+      }
+
+      // Build a featured/curated card (no fake mention_count or resonance bar)
+      function buildFeaturedCard(f) {
+        const term = esc(f.term);
+        const thesis = esc(f.thesis || '');
+        const whoCollects = esc(f.who_collects_rent || '');
+        const decisiveTest = esc(f.decisive_test || '');
+        const nestedNote = esc(f.nested_note || '');
+        const adjacentNote = esc(f.adjacent_note || '');
+        const prov = f.provenance || {};
+        const provDate = esc(prov.date || '');
+        const provAuthor = esc(prov.author || 'Curated');
+        const provNote = esc(prov.note || '');
+
+        let sectionsHtml = '';
+        if (whoCollects) {
+          sectionsHtml += '<div class="ow-section"><div class="ow-section-label">Who collects the rent</div><div class="ow-section-content">' + whoCollects + '</div></div>';
+        }
+        if (decisiveTest) {
+          sectionsHtml += '<div class="ow-section"><div class="ow-section-label">Decisive test</div><div class="ow-section-content">' + decisiveTest + '</div></div>';
+        }
+        if (nestedNote) {
+          sectionsHtml += '<div class="ow-nested-note">' + nestedNote + '</div>';
+        }
+        if (adjacentNote) {
+          sectionsHtml += '<div style="font-size: 0.75rem; color: #8892b0; margin-top: 0.4rem; font-style: italic;">' + adjacentNote + '</div>';
+        }
+
+        const provHtml = '<div class="ow-curated-prov"><span class="prov-label">Curated:</span> ' + provDate + ' · ' + provAuthor + (provNote ? ' — ' + provNote : '') + '</div>';
+
+        return (
+          '<div class="overton-window-item featured-item">' +
+            '<div class="overton-header-row">' +
+              '<div class="ow-term">' + term + '<span class="debated-badge">Debated</span></div>' +
+            '</div>' +
+            '<div class="ow-description">' + thesis + '</div>' +
+            sectionsHtml +
+            provHtml +
+          '</div>'
+        );
+      }
+
+      function buildTermCard(o, isEstablished) {
+        const term = esc(o.term);
+        const desc = esc(o.description || o.definition || '');
+        const impl = esc(o.investment_implications || '');
+        const mentions = (typeof o.mention_count === 'number') ? o.mention_count : (parseInt(o.mention_count, 10) || 0);
+        let rPct = (typeof o.resonance_pct === 'number') ? o.resonance_pct : (parseInt(o.resonance_pct, 10));
+        if (rPct === null || isNaN(rPct)) {
+          // Fallback: log-scaled resonance for better differentiation
+          var sc = (typeof o.novelty_score === 'number') ? o.novelty_score : (parseFloat(o.overton_score) || 0);
+          rPct = Math.max(5, Math.min(95, Math.round(Math.log(1 + sc * 10) * 25)));
+        }
+        
+        // Updated tooltip explaining novelty-aware ranking
+        const resTitle = isEstablished
+          ? 'Established concept: widely discussed but no longer novel. Mentions: ' + mentions + '.'
+          : 'Signal: novelty-aware score (freshness × source diversity × specificity + recency). Newer/specific terms rank higher. Mentions: ' + mentions + '.';
+        const resonanceHtml =
+          '<div class="resonance" title="' + esc(resTitle) + '">' +
+            '<span class="resonance-label">' + (isEstablished ? 'Saturated' : 'Signal') + '</span>' +
+            '<span class="resonance-value">' + rPct + '%</span>' +
+            '<span class="resonance-bar"><span style="width:' + rPct + '%;"></span></span>' +
+          '</div>';
+
+        const firstDate = isoDatePart(o.first_detected_date || o.first_detected_episode_date);
+        const lastDate = isoDatePart(o.last_mentioned_date || o.last_mentioned_episode_date) || firstDate;
+        const firstBy = (o.first_detected_speaker || '').trim();
+        const lastBy = (o.last_mentioned_speaker || '').trim();
+        const fp = (o.first_detected_podcast || '').trim();
+        const ft = (o.first_detected_episode_title || '').trim();
+        const lp = (o.last_mentioned_podcast || '').trim();
+        const lt = (o.last_mentioned_episode_title || '').trim();
+        const provBlock =
+          '<div class="ow-provenance">' +
+            provLine('First detected', firstDate, firstBy || '—', fp, ft) +
+            provLine('Last detected', lastDate, lastBy || '—', lp, lt) +
+          '</div>';
+
+        let legacy = '';
+        if (o.source_podcasts) {
+          try {
+            const arr = typeof o.source_podcasts === 'string' ? JSON.parse(o.source_podcasts) : o.source_podcasts;
+            if (Array.isArray(arr) && arr.length) legacy = '<div class="ow-source">Also noted in: ' + esc(arr.slice(0, 2).join(', ')) + '</div>';
+          } catch (e) {}
+        }
+
+        const expanded = impl ? '<strong>Investment angle:</strong> ' + impl : '';
+        const cardClass = isEstablished ? 'overton-window-item established-item' : 'overton-window-item';
+        return (
+          '<div class="' + cardClass + '">' +
+            '<div class="overton-header-row">' +
+              '<div class="ow-term">' + term + '</div>' +
+              resonanceHtml +
+            '</div>' +
+            '<div class="ow-description">' + desc + '</div>' +
+            provBlock +
+            legacy +
+            (expanded ? '<div class="ow-expanded"><div class="ow-expanded-inner">' + expanded + '</div></div>' : '') +
+          '</div>'
+        );
+      }
+
+      // Fetch featured/curated cards (independent of pipeline)
+      let featuredItems = [];
+      try {
+        const featuredResp = await fetch('./data/featured_overton.json', { cache: 'no-cache' });
+        if (featuredResp.ok) {
+          const featuredData = await featuredResp.json();
+          const featured = (featuredData.featured || []).filter(f => f.status === 'active');
+          featured.sort((a, b) => (a.display_order || 999) - (b.display_order || 999));
+          featured.forEach(f => featuredItems.push(buildFeaturedCard(f)));
+        }
+      } catch (e) {
+        console.warn('Could not load featured_overton.json:', e);
+      }
+
+      // Sort new ideas by novelty score (already sorted in backend, but re-sort for safety)
+      const rows = overton.slice().sort(function(a, b) {
+        var sa = (typeof a.novelty_score === 'number') ? a.novelty_score : (parseFloat(a.overton_score) || 0);
+        var sb = (typeof b.novelty_score === 'number') ? b.novelty_score : (parseFloat(b.overton_score) || 0);
+        if (sb !== sa) return sb - sa;
+        var ma = (typeof a.mention_count === 'number') ? a.mention_count : (parseInt(a.mention_count, 10) || 0);
+        var mb = (typeof b.mention_count === 'number') ? b.mention_count : (parseInt(b.mention_count, 10) || 0);
+        return mb - ma;
+      });
+
+      const items = [];
+      rows.forEach(function(o) {
+        items.push(buildTermCard(o, false));
+      });
+
+      // Build Established tier (collapsible)
+      let establishedHtml = '';
+      if (established.length > 0) {
+        const estItems = [];
+        established.forEach(function(o) {
+          estItems.push(buildTermCard(o, true));
+        });
+        establishedHtml = 
+          '<div class="established-tier" style="margin-top: 1.5rem; border-top: 1px solid rgba(255,255,255,0.1); padding-top: 1rem;">' +
+            '<div class="established-header" onclick="toggleEstablishedTier(this)" style="cursor: pointer; display: flex; align-items: center; gap: 0.5rem; margin-bottom: 0.75rem;">' +
+              '<span class="established-toggle" style="font-size: 0.9rem; color: #6b7280;">▶</span>' +
+              '<h3 style="margin: 0; font-size: 0.95rem; color: #8892b0; font-weight: 600;">Established Concepts</h3>' +
+              '<span style="font-size: 0.75rem; color: #6b7280; margin-left: auto;">(' + established.length + ' saturated terms)</span>' +
+            '</div>' +
+            '<p style="color: #6b7280; font-size: 0.8rem; margin-bottom: 0.75rem;">Widely discussed but no longer novel — demoted from the main board.</p>' +
+            '<div class="established-content" style="display: none;">' +
+              estItems.join('') +
+            '</div>' +
+          '</div>';
+      }
+
+      if (featuredItems.length === 0 && items.length === 0 && established.length === 0) {
+        container.innerHTML = '<p style="color: #8892b0; font-size: 0.9rem; padding: 1rem;">No recurring terms on the main list yet — candidates need two episodes plus a YES reply. See <a href="pipeline-health.html" style="color: #00d4ff;">data status</a>.</p>';
+        return;
+      }
+      
+      // Featured cards pinned at top, then pipeline-ranked items, then established tier
+      container.innerHTML = featuredItems.join('') + items.join('') + establishedHtml;
+    }
+
+    // Toggle Established tier visibility
+    function toggleEstablishedTier(header) {
+      const tier = header.closest('.established-tier');
+      const content = tier.querySelector('.established-content');
+      const toggle = tier.querySelector('.established-toggle');
+      if (content.style.display === 'none') {
+        content.style.display = 'block';
+        toggle.textContent = '▼';
+      } else {
+        content.style.display = 'none';
+        toggle.textContent = '▶';
+      }
+    }
+
+    // Initialize on page load
+    document.addEventListener('DOMContentLoaded', function() {
+      loadPodcastGuests();
+      loadOvertonWindow();
+      loadNicheSources();
+      loadMarketWidgets();
+    });
+
+    // Load curated X/niche sources (Fed plumbing, macro, biotech)
+    async function loadNicheSources() {
+      const container = document.getElementById('niche-sources-container');
+      if (!container) return;
+
+      try {
+        const resp = await fetch('./data/curated_sources.json', { cache: 'no-cache' });
+        if (!resp.ok) {
+          container.innerHTML = '<p style="color: #6b7280; font-size: 0.8rem;">Niche sources loading...</p>';
+          return;
+        }
+        const data = await resp.json();
+        const pundits = data.pundits || [];
+
+        if (pundits.length === 0) {
+          container.innerHTML = '<p style="color: #6b7280; font-size: 0.8rem;">No niche sources yet.</p>';
+          return;
+        }
+
+        function esc(s) { return s == null ? '' : String(s).replace(/</g, '&lt;').replace(/>/g, '&gt;'); }
+        function getSourceBadge(type) {
+          const t = (type || '').toLowerCase();
+          if (t.includes('x')) return '<span style="background: rgba(29, 161, 242, 0.2); color: #1da1f2; font-size: 0.6rem; padding: 0.1rem 0.3rem; border-radius: 3px; margin-left: 0.3rem;">𝕏</span>';
+          if (t.includes('substack')) return '<span style="background: rgba(255, 102, 0, 0.2); color: #ff6600; font-size: 0.6rem; padding: 0.1rem 0.3rem; border-radius: 3px; margin-left: 0.3rem;">Substack</span>';
+          if (t === 'blog') return '<span style="background: rgba(255, 193, 7, 0.2); color: #ffc107; font-size: 0.6rem; padding: 0.1rem 0.3rem; border-radius: 3px; margin-left: 0.3rem;">Blog</span>';
+          return '';
+        }
+
+        // Render all curated niche sources (small list, ~14 entries)
+        container.innerHTML = pundits.map(function(p) {
+          const name = esc(p.name);
+          const alias = p.alias ? ' (' + esc(p.alias) + ')' : '';
+          const bio = esc(p.bio || '').substring(0, 120);
+          const badge = getSourceBadge(p.source_type);
+          const xLink = p.x_url ? '<a href="' + esc(p.x_url) + '" target="_blank" style="color: #1da1f2; font-size: 0.7rem; text-decoration: none;">𝕏</a>' : '';
+          const subLink = p.substack_url ? '<a href="' + esc(p.substack_url) + '" target="_blank" style="color: #ff6600; font-size: 0.7rem; text-decoration: none; margin-left: 0.4rem;">Substack</a>' : '';
+
+          return (
+            '<div style="background: rgba(0, 212, 255, 0.04); border: 1px solid rgba(0, 212, 255, 0.15); border-radius: 8px; padding: 0.6rem; margin-bottom: 0.5rem;">' +
+              '<div style="font-weight: 600; color: #00d4ff; font-size: 0.85rem;">' + name + alias + badge + '</div>' +
+              '<div style="color: #a8b2d1; font-size: 0.75rem; line-height: 1.35; margin: 0.25rem 0;">' + bio + (bio.length >= 120 ? '...' : '') + '</div>' +
+              '<div style="display: flex; gap: 0.5rem;">' + xLink + subLink + '</div>' +
+            '</div>'
+          );
+        }).join('');
+
+      } catch (e) {
+        console.warn('Could not load curated_sources.json:', e);
+        container.innerHTML = '<p style="color: #6b7280; font-size: 0.8rem;">Niche sources unavailable.</p>';
+      }
+    }
+
+    // Load market plumbing widgets (Treasury, Curve, COT)
+    async function loadMarketWidgets() {
+      try {
+        const resp = await fetch('./data/market_data.json', { cache: 'no-cache' });
+        if (!resp.ok) return;
+        const data = await resp.json();
+
+        // Update Treasury widget
+        const treasuryEl = document.getElementById('treasury-widget');
+        if (treasuryEl && data.treasury_calendar && data.treasury_calendar.next_refunding_announcement) {
+          const qra = data.treasury_calendar.next_refunding_announcement;
+          if (qra.date) {
+            treasuryEl.innerHTML = '<span style="color: #e8e8e8;">Next QRA: <strong>' + qra.date + '</strong></span> <span style="color: #9ca3af; font-size: 0.7rem;">(' + (qra.status || 'est.') + ')</span>';
+          }
+        }
+
+        // Update Curve widget
+        const curveEl = document.getElementById('curve-widget');
+        if (curveEl && data.curve_data) {
+          const spreads = data.curve_data.spreads || {};
+          const s2s10s = spreads['2s10s'];
+          const s10s30s = spreads['10s30s'];
+          const move = data.curve_data.move_index;
+
+          const v2s10s = s2s10s && s2s10s.value_bps != null ? s2s10s.value_bps + 'bp' : null;
+          const v10s30s = s10s30s && s10s30s.value_bps != null ? s10s30s.value_bps + 'bp' : null;
+          const vMove = move && move.value != null ? move.value : null;
+          
+          // Check if we have any live data
+          if (v2s10s != null || v10s30s != null || vMove != null) {
+            let parts = [];
+            if (v2s10s != null) {
+              parts.push('<span style="color: #a8b2d1;"><strong>2s10s:</strong> ' + v2s10s + '</span>');
+            }
+            if (v10s30s != null) {
+              parts.push('<span style="color: #a8b2d1;"><strong>10s30s:</strong> ' + v10s30s + '</span>');
+            }
+            if (vMove != null) {
+              parts.push('<span style="color: #a8b2d1;"><strong>MOVE:</strong> ' + vMove + '</span>');
+            }
+            curveEl.innerHTML = parts.join('');
+          } else {
+            // No live data - show Coming soon (card stays visible)
+            curveEl.innerHTML = '<span style="color: #a8b2d1;">Coming soon — awaiting live data</span>';
+          }
+        }
+
+        // Update COT widget - leveraged funds net positioning
+        // Shows "Coming soon" when data absent; never bare em dashes
+        const cotEl = document.getElementById('cot-widget');
+        if (cotEl) {
+          const cot = data.cftc_cot || {};
+          const isStale = cot._stale === true;
+          
+          // Format net position: +123K / -45K / "Coming soon" if null
+          function formatNet(net) {
+            if (net === null || net === undefined) return '<span style="color: #6b7280;">Coming soon</span>';
+            // Convert to K (thousands) for display
+            const netK = Math.round(net / 1000);
+            const sign = netK > 0 ? '+' : '';
+            return '<span style="color: ' + (netK > 0 ? '#10b981' : netK < 0 ? '#ef4444' : '#a8b2d1') + ';">' + sign + netK + 'K</span>';
+          }
+          
+          let v10y = '<span style="color: #6b7280;">Coming soon</span>';
+          let vBtc = '<span style="color: #6b7280;">Coming soon</span>';
+
+          if (cot.rates_positioning && cot.rates_positioning['10y_note']) {
+            const net = cot.rates_positioning['10y_note'].leveraged_funds_net;
+            v10y = formatNet(net);
+          }
+          if (cot.btc_positioning && cot.btc_positioning.cme_btc) {
+            const net = cot.btc_positioning.cme_btc.leveraged_funds_net;
+            vBtc = formatNet(net);
+          }
+
+          // Format report date for display (e.g., "2026-08-25" → "Aug 25")
+          function formatReportDate(dateStr) {
+            if (!dateStr) return null;
+            try {
+              const d = new Date(dateStr + 'T00:00:00');
+              const months = ['Jan', 'Feb', 'Mar', 'Apr', 'May', 'Jun', 'Jul', 'Aug', 'Sep', 'Oct', 'Nov', 'Dec'];
+              return months[d.getMonth()] + ' ' + d.getDate();
+            } catch (e) {
+              return null;
+            }
+          }
+
+          // Build display with report date and stale indicator; never hide card
+          let html = '<span style="color: #a8b2d1;"><strong>10Y:</strong> ' + v10y + '</span>';
+          html += '<span style="color: #a8b2d1;"><strong>BTC:</strong> ' + vBtc + '</span>';
+          
+          // Show report date if available (positions as of this date)
+          const reportDate = formatReportDate(cot.report_date);
+          if (reportDate) {
+            html += '<span style="color: #6b7280; font-size: 0.65rem; margin-left: 0.3rem;">(as of ' + reportDate + ')</span>';
+          }
+          
+          if (isStale) {
+            html += '<span style="color: #f59e0b; font-size: 0.65rem; margin-left: 0.5rem;" title="' + (cot._stale_reason || 'Data may be stale') + '">⚠️ stale</span>';
+          }
+          cotEl.innerHTML = html;
+
+        }
+
+        // Update Compute Forward widget (GPU rental pricing - surveyed index)
+        const computeEl = document.getElementById('compute-forward-widget');
+        if (computeEl && data.compute_forward && data.compute_forward.h100) {
+          const cf = data.compute_forward;
+          const h100 = cf.h100;
+          
+          // Check for stale data - show indicator but keep displaying last-known-good values
+          const isStale = cf._stale === true;
+          const staleReason = cf._stale_reason || 'fetch failed';
+          
+          // 1Y contract price
+          const v1y = h100['1y_contract'] && h100['1y_contract'].display ? h100['1y_contract'].display : '—';
+          
+          // On-demand/spot status - surface "Sold Out" as the scarcity signal it is
+          let vSpot = '—';
+          if (h100.on_demand) {
+            if (h100.on_demand.type === 'sold_out') {
+              vSpot = '<span style="color: #ef4444;">Sold Out</span>';
+            } else if (h100.on_demand.display && h100.on_demand.display !== '—') {
+              vSpot = h100.on_demand.display;
+            }
+          }
+          
+          // Trend: dual-horizon display with labeled percentages
+          // Shows both short-term (vs prior period) and long-term (vs ~6mo anchor) when available
+          // No subjective labels like "stable" - let the numbers speak
+          let vTrend = '—';
+          if (h100.trend && h100.trend.short_term) {
+            const shortPct = h100.trend.short_term.change_pct;
+            const shortPeriod = h100.trend.short_term.comparison_period || '?';
+            const shortSign = shortPct >= 0 ? '+' : '';
+            
+            // Color based on long-term trend if available, otherwise short-term
+            const longTerm = h100.trend.long_term;
+            const colorPct = longTerm ? longTerm.change_pct : shortPct;
+            let color = '#9ca3af'; // neutral gray
+            if (colorPct > 10) color = '#ef4444';       // strong up = red (cost rising)
+            else if (colorPct > 3) color = '#f59e0b';   // moderate up = amber
+            else if (colorPct < -10) color = '#10b981'; // strong down = green (cost falling)
+            else if (colorPct < -3) color = '#22c55e';  // moderate down = light green
+            
+            // Build trend string: short-term always shown
+            let trendParts = [shortSign + shortPct + '% vs ' + shortPeriod];
+            
+            // Add long-term if available and meaningful (anchor must have valid value)
+            if (longTerm && longTerm.anchor_period && longTerm.anchor_value > 0) {
+              const longSign = longTerm.change_pct >= 0 ? '+' : '';
+              trendParts.push(longSign + longTerm.change_pct + '% since ' + longTerm.anchor_period);
+            }
+            
+            const trendText = trendParts.join(' · ');
+            vTrend = '<span style="color: ' + color + ';" title="' + trendText + '">' + trendText + '</span>';
+          } else if (h100.trend && h100.trend.change_pct !== undefined) {
+            // Legacy fallback for old data format
+            const pct = h100.trend.change_pct;
+            const vsPeriod = h100.trend.comparison_period || '?';
+            const pctSign = pct >= 0 ? '+' : '';
+            vTrend = '<span style="color: #9ca3af;">' + pctSign + pct + '% vs ' + vsPeriod + '</span>';
+          }
+          
+          // Build stale indicator if data is stale
+          let staleIndicator = '';
+          if (isStale) {
+            staleIndicator = '<div style="margin-top: 0.35rem; padding: 0.2rem 0.4rem; background: rgba(245, 158, 11, 0.15); border-radius: 3px; display: inline-block;">' +
+              '<span style="color: #f59e0b; font-size: 0.6rem;" title="' + staleReason + '">⚠ Stale — last successful fetch: ' + (cf.last_fetched ? new Date(cf.last_fetched).toLocaleDateString() : 'unknown') + '</span>' +
+            '</div>';
+          }
+          
+          // Build the widget content
+          computeEl.innerHTML = 
+            '<div style="display: flex; gap: 0.75rem; flex-wrap: wrap;">' +
+              '<span style="color: #a8b2d1;"><strong>1Y:</strong> ' + v1y + '</span>' +
+              '<span style="color: #a8b2d1;"><strong>Spot:</strong> ' + vSpot + '</span>' +
+              '<span style="color: #a8b2d1;"><strong>Trend:</strong> ' + vTrend + '</span>' +
+            '</div>' +
+            '<div style="margin-top: 0.25rem; color: #9ca3af; font-size: 0.65rem;">' +
+              '<span>As of: ' + (h100.period || '—') + ' (surveyed, lags current)</span>' +
+            '</div>' +
+            staleIndicator;
+        }
+
+      } catch (e) {
+        console.warn('Could not load market_data.json:', e);
+      }
+    }
+
+    async function loadPodcastGuests() {
+      const container = document.getElementById('guests-list');
+      const card = document.getElementById('guests-card');
+      if (!container || !card) return;
+
+      // Pundits come primarily from semantic-layer entities/appearances (guest_primary roles)
+      let items = (typeof dashboardData !== 'undefined' && Array.isArray(dashboardData.pundits)) ? dashboardData.pundits : [];
+
+      // Dev-only: load pundits.json if data.js is missing pundits (local debugging).
+      if ((!items || items.length === 0) && DEBUG_SITE && typeof fetch === 'function') {
+        try {
+          const resp = await fetch('./data/pundits.json', { cache: 'no-cache' });
+          if (resp.ok) {
+            const json = await resp.json();
+            if (Array.isArray(json) && json.length > 0) {
+              items = json;
+              if (typeof dashboardData !== 'undefined') {
+                dashboardData.pundits = json;
+              }
+            }
+          }
+        } catch (e) {
+          console.warn('Could not load pundits.json fallback:', e);
+        }
+      }
+
+      if (items.length === 0) {
+        container.innerHTML = '<p style="color: #8892b0; font-size: 0.9rem; padding: 1rem;">No guest profiles yet. After the next ingest and export, they&apos;ll show here — <a href="pipeline-health.html" style="color: #00d4ff;">data status</a>.</p>';
+        return;
+      }
+
+      // Main page: cap to 20 after backend ordering by recency, then appearance count.
+      items = items.slice(0, 20);
+
+      container.innerHTML = items.map(function(item) {
+        var name = (item.name || 'Guest').replace(/</g, '&lt;').replace(/>/g, '&gt;');
+        var known = (item.known_for || '').replace(/</g, '&lt;').replace(/>/g, '&gt;');
+        var bio = (item.bio || '').replace(/</g, '&lt;').replace(/>/g, '&gt;');
+        var idea = (item.last_main_idea || '').replace(/</g, '&lt;').replace(/>/g, '&gt;');
+        var proofCite = (item.last_proof_cite || '').replace(/</g, '&lt;').replace(/>/g, '&gt;');
+        var proofSnip = (item.last_proof_snippet || '').replace(/</g, '&lt;').replace(/>/g, '&gt;');
+        var src = '';
+        if (item.last_podcast_name || item.last_episode_date) {
+          var epDateStr = item.last_episode_date ? formatSiteCalendarDate(item.last_episode_date, { month: 'short', day: 'numeric', year: 'numeric' }) : '';
+          src = (item.last_podcast_name || '') + (epDateStr ? ' • ' + epDateStr : '');
+        } else if (item.last_seen) {
+          src = String(item.last_seen).substring(0, 10);
+        }
+
+        var mentionScore = item.mention_score || item.appearance_count || 0;
+        var decayed = (typeof item.mention_score_decayed === 'number') ? item.mention_score_decayed : mentionScore;
+        // Normalize decayed to 0..1 for a tiny bar (cap at e.g., 4)
+        var norm = 0;
+        try {
+          var cap = 4.0;
+          norm = Math.max(0, Math.min(1, (decayed || 0) / cap));
+        } catch(e) { norm = 0; }
+        var presencePct = Math.max(0, Math.min(100, Math.round(norm * 100)));
+
+        // Who: short, factual identity line
+        var whoText = '';
+        if (known) {
+          whoText = known;
+        } else if (bio) {
+          whoText = bio;
+        }
+
+        // Grounding: cite + transcript excerpt (export), not net-worth trivia
+        var arenaBits = [];
+        if (mentionScore) {
+          arenaBits.push(mentionScore + '× guest spot' + (mentionScore === 1 ? '' : 's'));
+        }
+        if (proofCite) {
+          arenaBits.push('Latest proof: ' + proofCite);
+        } else if (src) {
+          arenaBits.push('Latest: ' + src);
+        }
+        var whyText = arenaBits.join(' · ');
+
+        var whatText = idea || 'Latest thesis not yet extracted from transcripts.';
+
+        var proofBlock = '';
+        if (proofSnip) {
+          var shown = proofSnip.length > 320 ? proofSnip.substring(0, 317) + '…' : proofSnip;
+          proofBlock = '<div class="last-proof-snippet">“' + shown + '”</div>';
+        }
+
+        // Inline (always-visible) summary block
+        var inline = '' +
+          '<div class="guest-inline">' +
+            '<div class="inline-tagline">' + (whoText || '') + '</div>' +
+            '<div class="presence">' +
+              '<span class="presence-label">Presence</span>' +
+              '<span class="presence-value">' + presencePct + '%</span>' +
+              '<span class="presence-bar"><span style="width:' + presencePct + '%;"></span></span>' +
+            '</div>' +
+            '<div class="latest-arena">' + (whyText || '') + '</div>' +
+          '</div>';
+
+        var thesis = whatText
+          ? ('<div class="last-thesis"><span class="thesis-label">Thesis (latest episode)</span>“' + whatText + '”</div>')
+          : '';
+
+        // Net worth may be enriched later (e.g. Grokopedia). Keep data attrs for modal.
+        // Prefer pre-formatted display string when available.
+        var netWorth = item.net_worth || item.net_worth_usd || '';
+        var netWorthSrc = item.net_worth_source || '';
+        var profileB64 = '';
+        if (item.pundit_profile && typeof item.pundit_profile === 'object') {
+          try {
+            profileB64 = btoa(unescape(encodeURIComponent(JSON.stringify(item.pundit_profile))));
+          } catch (err) { profileB64 = ''; }
+        }
+
+        return '' +
+          '<div class="guest-item" data-name="' + name.replace(/"/g, '&quot;') + '" data-networth="' + String(netWorth).replace(/"/g, '&quot;') + '" data-networthsrc="' + String(netWorthSrc).replace(/"/g, '&quot;') + '" data-profile-b64="' + profileB64.replace(/"/g, '') + '">' +
+            '<div class="guest-name">' + name + '</div>' +
+            inline +
+            proofBlock +
+            thesis +
+          '</div>';
+      }).join('');
+
+      // Ensure click handler is attached even if guests load after tickers.
+      container.querySelectorAll('.guest-item').forEach(function(card) {
+        card.addEventListener('click', handleCardClick);
+      });
+    }
+
+    // Chart modal functions — reset container so img is always present after placeholder
+    function resetChartContainer() {
+      var container = document.getElementById('chart-image-container');
+      if (!container) return;
+      container.innerHTML = '<img id="chartImage" src="" alt="Stock Chart">';
+    }
+
+    function showChart(ticker) {
+      resetChartContainer();
+      var modal = document.getElementById('chartModal');
+      var title = document.getElementById('chartTitle');
+      var chartImage = document.getElementById('chartImage');
+
+      var chartFiles = {
+        'GOOGL': 'GOOGL_chart.png',
+        'MSFT': 'MSFT_chart.png',
+        'AAPL': 'AAPL_chart.png',
+        'NVDA': 'NVDA_chart.png',
+        'META': 'META_chart.png',
+        'BTC': 'BTC_USD_chart.png'
+      };
+
+      var chartFile = chartFiles[ticker] || (ticker + '_chart.png');
+      var chartsVersion = (typeof dashboardData !== 'undefined' && dashboardData.chartsVersion) ? dashboardData.chartsVersion : '';
+      var cacheSuffix = chartsVersion ? ('?v=' + encodeURIComponent(chartsVersion)) : '';
+      var displayName = ticker === 'BTC' ? 'Bitcoin (BTC-USD)' : ticker;
+
+      title.textContent = displayName + ' - 2 Week Chart';
+      chartImage.src = 'charts/' + chartFile + cacheSuffix;
+      chartImage.style.display = '';
+      modal.classList.add('active');
+    }
+
+    function closeChart() {
+      var modal = document.getElementById('chartModal');
+      modal.classList.remove('active');
+      resetChartContainer();
+    }
+
+    // Close modal on outside click
+    document.getElementById('chartModal').addEventListener('click', function(e) {
+      if (e.target === this) {
+        closeChart();
+      }
+    });
+
+    // Podcast Summary Data - Loaded from database export or embedded
+    let podcastSummaries = {};
+    
+    // Production: podcast summaries come from dashboardData + DB exports only (no hardcoded demos).
+    const embeddedInsights = [];
+    
+    // Initialize podcast summaries from embedded data
+    function initPodcastSummaries() {
+      embeddedInsights.forEach(insight => {
+        podcastSummaries[insight.id] = {
+          title: insight.title,
+          source: insight.source,
+          content: generateInsightHTML(insight)
+        };
+      });
+      if (DEBUG_SITE) console.log('✓ Initialized podcast summaries from embedded data');
+    }
+    
+    // Generate HTML for insight modal - uses Deep Dive content if available
+    function generateInsightHTML(insight) {
+      // Try to find matching deep dive by title
+      let deepDive = null;
+      if (typeof dashboardData !== 'undefined' && dashboardData.deepDives) {
+        deepDive = dashboardData.deepDives[String(insight.id)];
+      }
+      
+      if (deepDive) {
+        return generateDeepDiveHTML(deepDive);
+      }
+      
+      // Fallback to basic HTML if no Deep Dive content. Use key_tickers from AI JSON only (no fallback tickers).
+      let fallbackTickers = insight.key_tickers;
+      if (typeof fallbackTickers === 'string') {
+        try { fallbackTickers = JSON.parse(fallbackTickers); } catch (e) { fallbackTickers = []; }
+      }
+      if (!Array.isArray(fallbackTickers)) fallbackTickers = [];
+      const tickerHtml = fallbackTickers.map(t =>
+        `<span style="background: rgba(0,212,255,0.15); color: #00d4ff; padding: 0.25rem 0.75rem; border-radius: 4px; font-size: 0.9rem; margin-right: 0.5rem;">${t}</span>`
+      ).join('');
+      
+      return `
+        <div style="margin-bottom: 1.5rem;">
+          <h4 style="color: #00d4ff; margin-bottom: 0.75rem; font-size: 1.1rem;">🎯 Key Takeaway</h4>
+          <p style="color: #e8e8e8; line-height: 1.6; font-size: 1rem;">${insight.key_takeaway}</p>
+        </div>
+        <div style="margin-bottom: 1.5rem;">
+          <h4 style="color: #00d4ff; margin-bottom: 0.75rem; font-size: 1.1rem;">📝 Summary</h4>
+          <p style="color: #a8b2d1; line-height: 1.6;">${insight.summary}</p>
+        </div>
+        <div style="margin-bottom: 1.5rem;">
+          <h4 style="color: #00d4ff; margin-bottom: 0.75rem; font-size: 1.1rem;">📈 Key Tickers</h4>
+          <div style="display: flex; gap: 0.5rem; flex-wrap: wrap; margin-top: 0.5rem;">${tickerHtml || 'None'}</div>
+        </div>
+        <div>
+          <h4 style="color: #00d4ff; margin-bottom: 0.75rem; font-size: 1.1rem;">💭 Sentiment</h4>
+          <span style="${insight.sentiment === 'bullish' ? 'color: #4caf50;' : insight.sentiment === 'bearish' ? 'color: #f44336;' : 'color: #ffc107;'} font-weight: 600; font-size: 1rem;">${(insight.sentiment || 'neutral').toUpperCase()}</span>
+        </div>
+      `;
+    }
+    
+    // Load insights dynamically from database
+    function loadInsights() {
+      const container = document.getElementById('insights-container');
+      if (!container) return;
+
+      let insights = [];
+      if (typeof dashboardData !== 'undefined' && dashboardData.mainContent && dashboardData.mainContent.insights) {
+        insights = dashboardData.mainContent.insights.filter(i => i.display_on_main === 1);
+        insights.sort((a, b) => {
+          const dateA = parseSiteDateForSort(a.source_date || a.added_date);
+          const dateB = parseSiteDateForSort(b.source_date || b.added_date);
+          return dateB - dateA;
+        });
+        insights = insights.slice(0, 12);
+      }
+      
+      if (insights.length === 0) {
+        if (typeof dashboardData === 'undefined') {
+          container.innerHTML = '<div class="placeholder" style="color: #ff6b6b;">Error: dashboardData not loaded.</div>';
+        } else if (!dashboardData.mainContent) {
+          container.innerHTML = '<div class="placeholder" style="color: #ff6b6b;">Error: mainContent missing.</div>';
+        } else if (!dashboardData.mainContent.insights) {
+          container.innerHTML = '<div class="placeholder" style="color: #ff6b6b;">Error: insights array missing.</div>';
+        } else {
+          container.innerHTML = '<div class="placeholder">No insights to show yet. Next export should populate this — <a href="pipeline-health.html" style="color: #00d4ff;">data status</a>.</div>';
+        }
+        return;
+      }
+      
+      // Render insights with Deep Dive buttons (use episode release date when available for consistency with pundits)
+      const dateOpts = { month: 'short', day: 'numeric', year: 'numeric' };
+      let html = '';
+      for (const insight of insights) {
+        const episodeDate = insight.episode_release_date || insight.source_date;
+        const dateStr = episodeDate ? formatSiteCalendarDate(episodeDate, dateOpts) : '—';
+        // Key tickers come directly from structured AI output (podcast_episodes.key_tickers)
+        // Parse tickers — handle array, JSON string, or plain string
+        let tickerArr = insight.key_tickers;
+        if (typeof tickerArr === 'string') {
+          try { tickerArr = JSON.parse(tickerArr); } catch(e) { tickerArr = tickerArr ? [tickerArr] : []; }
+        }
+        if (!Array.isArray(tickerArr)) tickerArr = [];
+        const tickerDisplay = tickerArr.length > 0 ? tickerArr.join(' · ') : 'None';
+
+        const sentimentColor = insight.sentiment === 'bullish' ? '#4caf50' : insight.sentiment === 'bearish' ? '#f44336' : '#ffc107';
+        
+        let sourceLine = insight.source_name + ' • ' + dateStr;
+        if (insight.guest_name) sourceLine += ' • ' + insight.guest_name;
+
+        // Check for deep dive
+        const hasDeepDive = typeof dashboardData !== 'undefined' && dashboardData.deepDives && 
+          !!dashboardData.deepDives[String(insight.id)];
+        const deepDiveBtn = hasDeepDive ? 
+          '<button onclick="event.stopPropagation(); showDeepDiveModal(' + insight.id + ')" style="background: linear-gradient(90deg, #00d4ff, #7b2cbf); color: white; border: none; padding: 0.4rem 0.9rem; border-radius: 4px; cursor: pointer; font-size: 0.8rem; white-space: nowrap;">🔍 Deep Dive</button>' : '';
+        
+        html += '<div class="insight-item" onclick="toggleInsight(this)">';
+        html += '<div class="source">' + sourceLine + '</div>';
+        html += '<div class="text"><strong>' + insight.title + ':</strong> ' + insight.summary + ' <span style="color:' + sentimentColor + ';">→ ' + (insight.key_takeaway || '') + '</span></div>';
+        html += '<div class="insight-expanded"><div style="font-size: 0.85rem; color: #a8b2d1; display: flex; justify-content: space-between; align-items: flex-end; gap: 0.5rem;">';
+        html += '<span><strong>Key Tickers:</strong> ' + tickerDisplay + '</span>' + deepDiveBtn;
+        html += '</div></div></div>';
+      }
+      container.innerHTML = html;
+      if (diag) diag.innerHTML = '<strong style="color:#4caf50">✓ ' + insights.length + ' insights loaded</strong>';
+    }
+
+    // Load podcast data from external source (kept for future database integration)
+    async function loadPodcastData() {
+      // Always initialize from embedded data first
+      initPodcastSummaries();
+      
+      try {
+        // Try to load additional data from data.js if available
+        if (typeof dashboardData !== 'undefined' && dashboardData.podcastSummaries) {
+          const additional = formatPodcastData(dashboardData.podcastSummaries);
+          podcastSummaries = { ...podcastSummaries, ...additional };
+          if (DEBUG_SITE) console.log('✓ Loaded additional podcast data from dashboardData');
+        }
+      } catch (error) {
+        if (DEBUG_SITE) console.log('Note: No additional podcast data available');
+      }
+    }
+    
+    // Format database podcast data to match expected structure
+    function formatPodcastData(data) {
+      const formatted = {};
+      data.forEach(episode => {
+        const id = episode.podcast_name.toLowerCase().replace(/[^a-z0-9]/g, '_') + '_' + 
+                   episode.episode_title.toLowerCase().replace(/[^a-z0-9]/g, '_').substring(0, 20);
+        
+        formatted[id] = {
+          title: episode.episode_title,
+          source: `${episode.podcast_name} • ${formatSiteCalendarDate(episode.episode_date, { month: 'short', day: 'numeric', year: 'numeric' })}`,
+          content: episode.summary || generateDefaultSummary(episode)
+        };
+      });
+      return formatted;
+    }
+    
+    // Generate default summary if none provided
+    function generateDefaultSummary(episode) {
+      const tickers = episode.key_tickers || [];
+      const tickerHtml = tickers.map(t => 
+        `<span class="ticker-box-inline"><span class="symbol">${t}</span></span>`
+      ).join('');
+      
+      return `
+        <div class="podcast-section">
+          <h4>🎯 Key Takeaways</h4>
+          ${(episode.key_takeaways || []).map(takeaway => 
+            `<div class="key-point-box">${takeaway}</div>`
+          ).join('')}
+        </div>
+        <div class="podcast-section">
+          <h4>📈 Investment Implications</h4>
+          <div style="margin-top: 0.5rem;">${tickerHtml}</div>
+        </div>
+        <div class="podcast-section">
+          <h4>🎲 Positioning</h4>
+          <div class="implication-box">
+            <p style="color: #a8b2d1; font-size: 0.9rem;">${episode.investment_thesis || 'No thesis available.'}</p>
+          </div>
+        </div>
+      `;
+    }
+    
+    // Fallback default data (used when database export not available)
+    function loadDefaultPodcastData() {
+      podcastSummaries = {};
+      if (DEBUG_SITE) console.log('Loaded default (empty) podcast data');
+    }
+
+    // Show podcast summary modal
+    function showPodcastSummary(podcastId) {
+      const modal = document.getElementById('podcastModal');
+      const title = document.getElementById('podcastTitle');
+      const source = document.getElementById('podcastSource');
+      const content = document.getElementById('podcastContent');
+
+      const data = podcastSummaries[podcastId];
+      if (!data) {
+        if (DEBUG_SITE) console.error('Podcast summary not found:', podcastId);
+        return;
+      }
+
+      title.textContent = data.title;
+      source.textContent = data.source;
+      content.innerHTML = data.content;
+
+      modal.classList.add('active');
+    }
+
+    // Close podcast summary modal
+    function closePodcastSummary() {
+      const modal = document.getElementById('podcastModal');
+      modal.classList.remove('active');
+    }
+
+    // Close podcast modal on outside click
+    document.getElementById('podcastModal').addEventListener('click', function(e) {
+      if (e.target === this) {
+        closePodcastSummary();
+      }
+    });
+
+    // Close net worth modal on outside click
+    document.getElementById('netWorthModal').addEventListener('click', function(e) {
+      if (e.target === this) {
+        closeNetWorthModal();
+      }
+    });
+
+    // Show Deep Dive modal with full analysis
+    function showDeepDiveModal(insightId) {
+      const modal = document.getElementById('deepDiveModal');
+      const title = document.getElementById('deepDiveTitle');
+      const source = document.getElementById('deepDiveSource');
+      const content = document.getElementById('deepDiveContent');
+      
+      // Look up deep dive by numeric insight id
+      const deepDive = (typeof dashboardData !== 'undefined' && dashboardData.deepDives)
+        ? dashboardData.deepDives[String(insightId)]
+        : null;
+        
+      if (deepDive) {
+        title.textContent = deepDive.insight_title || 'Deep Dive Analysis';
+        source.textContent = deepDive.source_name ? `${deepDive.source_name} • Deep Dive` : 'AI-Powered Analysis';
+        content.innerHTML = generateDeepDiveHTML(deepDive);
+        modal.style.display = 'flex';
+        modal.classList.add('active');
+        return;
+      }
+      
+      // Fallback if no deep dive found
+      title.textContent = 'Deep Dive';
+      source.textContent = 'Analysis';
+      content.innerHTML = '<div style="padding: 2rem; text-align: center; color: #8892b0;">Deep dive content not available for this insight.</div>';
+      modal.style.display = 'flex';
+      modal.classList.add('active');
+    }
+
+    // Close Deep Dive modal
+    function closeDeepDive() {
+      const modal = document.getElementById('deepDiveModal');
+      modal.classList.remove('active');
+      setTimeout(() => { modal.style.display = 'none'; }, 300);
+    }
+
+    // Close deep dive modal on outside click
+    document.getElementById('deepDiveModal').addEventListener('click', function(e) {
+      if (e.target === this) {
+        closeDeepDive();
+      }
+    });
+
+    // Close modal on Escape key
+    document.addEventListener('keydown', function(e) {
+      if (e.key === 'Escape') {
+        closeChart();
+        closePodcastSummary();
+        // Also close any expanded cards
+        document.querySelectorAll('.ticker-card.active, .insight-item.active, .overton-window-item.active').forEach(card => {
+          card.classList.remove('active');
+        });
+        activeCard = null;
+      }
+    });
+
+    // Toggle insight cards
+    function toggleInsight(item) {
+      // Close other expanded items
+      document.querySelectorAll('.insight-item.active').forEach(el => {
+        if (el !== item) el.classList.remove('active');
+      });
+      item.classList.toggle('active');
+    }
+
+    // Toggle overton window items
+    function toggleOverton(item) {
+      // Close other expanded items
+      document.querySelectorAll('.overton-window-item.active').forEach(el => {
+        if (el !== item) el.classList.remove('active');
+      });
+      item.classList.toggle('active');
+    }
+
+    // Legacy toggles (Overton cards now use shared handleCardClick)
+    function toggleDefinition(item) {
+      document.querySelectorAll('.overton-window-item.active').forEach(el => {
+        if (el !== item) el.classList.remove('active');
+      });
+      if (item) item.classList.toggle('active');
+    }
+
+    // Close expanded cards when clicking outside
+    document.addEventListener('click', function(e) {
+      if (!e.target.closest('.ticker-card') && !e.target.closest('.insight-item') && !e.target.closest('.overton-window-item') && !e.target.closest('.guest-item')) {
+        document.querySelectorAll('.ticker-card.active, .insight-item.active, .overton-window-item.active, .guest-item.active').forEach(card => {
+          card.classList.remove('active');
+        });
+        activeCard = null;
+      }
+    });
+
+    // Auto-refresh data every 5 minutes
+      setInterval(() => { if (DEBUG_SITE) console.log('Checking for updated data...'); }, 300000);
+
+    // Price data - loaded from price_data.json
+    let priceData = {};
+
+    async function loadPriceData() {
+      priceData = {};
+      try {
+        if (typeof dashboardData !== 'undefined' && dashboardData.priceSnapshot && typeof dashboardData.priceSnapshot === 'object') {
+          priceData = Object.assign({}, dashboardData.priceSnapshot);
+          delete priceData._metadata;
+          if (DEBUG_SITE) console.log('Loaded price data from dashboardData.priceSnapshot:', Object.keys(priceData).length);
+          updateTitleTickers();
+          populateTickers();
+          return;
+        }
+        if (DEBUG_SITE) {
+          const response = await fetch('./price_data.json?v=' + Date.now());
+          if (response.ok) {
+            priceData = await response.json();
+            delete priceData._metadata;
+            if (DEBUG_SITE) console.log('Loaded price data from price_data.json:', Object.keys(priceData).length);
+          }
+        }
+      } catch (error) {
+        if (DEBUG_SITE) console.log('Error loading price data:', error);
+        priceData = {};
+      }
+      updateTitleTickers();
+      populateTickers();
+    }
+
+    // Update title tickers with price data
+    function updateTitleTickers() {
+      // QQQ: symbol price change
+      if (priceData['QQQ']) {
+        const qqq = priceData['QQQ'];
+        document.getElementById('qqq-price').textContent = `$${qqq.price.toFixed(2)}`;
+        const changeEl = document.getElementById('qqq-change');
+        changeEl.textContent = `${qqq.change_pct >= 0 ? '+' : ''}${qqq.change_pct.toFixed(1)}%`;
+        changeEl.className = 'ticker-change ' + (qqq.change_pct >= 0 ? 'positive' : 'negative');
+      }
+
+      // BTC: change price symbol (check both BTC and BTC-USD keys)
+      const btcKey = priceData['BTC'] ? 'BTC' : 'BTC-USD';
+      if (priceData[btcKey]) {
+        const btc = priceData[btcKey];
+        document.getElementById('btc-price').textContent = `$${btc.price.toLocaleString('en-US', {maximumFractionDigits: 0})}`;
+        const changeEl = document.getElementById('btc-change');
+        changeEl.textContent = `${btc.change_pct >= 0 ? '+' : ''}${btc.change_pct.toFixed(1)}%`;
+        changeEl.className = 'ticker-change ' + (btc.change_pct >= 0 ? 'positive' : 'negative');
+      }
+    }
+
+    // Ticker data - loaded from database export
+    let enhancedTickers = [];
+
+    // Load ticker data from database export
+    async function loadTickerData() {
+      try {
+        if (typeof dashboardData !== 'undefined' && Array.isArray(dashboardData.tickerScores) && dashboardData.tickerScores.length > 0) {
+          enhancedTickers = dashboardData.tickerScores.map(formatTickerData);
+          if (DEBUG_SITE) console.log('Loaded ticker data from dashboardData:', enhancedTickers.length);
+          populateTickers();
+          return;
+        }
+
+        if (DEBUG_SITE) {
+          const response = await fetch('./data/ticker_scores.json');
+          if (response.ok) {
+            const data = await response.json();
+            enhancedTickers = data.map(formatTickerData);
+            if (DEBUG_SITE) console.log('Loaded ticker data from JSON (dev):', enhancedTickers.length);
+            populateTickers();
+            return;
+          }
+          loadDefaultTickerData();
+          return;
+        }
+
+        enhancedTickers = [];
+        populateTickers();
+      } catch (error) {
+        if (DEBUG_SITE) console.log('Error loading ticker data:', error);
+        if (DEBUG_SITE) loadDefaultTickerData();
+        else {
+          enhancedTickers = [];
+          populateTickers();
+        }
+      }
+    }
+
+    // Format database ticker data to match expected structure
+    function formatTickerData(score) {
+      return {
+        ticker: score.ticker,
+        score: Math.round(score.total_score || score.score),
+        rank: score.rank || 0,
+        mentions: score.raw_mention_count || score.podcast_mentions + score.newsletter_mentions || 1,
+        uniqueSources: score.unique_sources || 1,
+        convictionLevel: score.conviction_level || 'medium',
+        contrarianSignal: score.contrarian_signal || 'neutral',
+        timeframe: score.timeframe || 'long_term',
+        hiddenPlays: score.hidden_plays || [],
+        latestContext: score.contexts && score.contexts[0] ? score.contexts[0].preview : 'No context available',
+        contexts: score.contexts || []
+      };
+    }
+
+    // Fallback default ticker data
+    function loadDefaultTickerData() {
+      enhancedTickers = [
+        {
+          ticker: 'GOOGL',
+          score: 115,
+          rank: 1,
+          mentions: 6,
+          uniqueSources: 2,
+          convictionLevel: 'medium',
+          contrarianSignal: 'neutral',
+          timeframe: 'long_term',
+          hiddenPlays: [
+            { category: 'Cloud Infrastructure', tickers: ['ANET', 'FFIV', 'NET'] },
+            { category: 'AI Training', tickers: ['SNOW', 'PLTR'] }
+          ],
+          latestContext: 'SpaceX/xAI $1.25T super-entity signals defensive moat importance'
+        },
+        {
+          ticker: 'NVDA',
+          score: 88,
+          rank: 3,
+          mentions: 3,
+          uniqueSources: 2,
+          convictionLevel: 'high',
+          contrarianSignal: 'crowded_warning',
+          timeframe: 'long_term',
+          hiddenPlays: [
+            { category: 'Power', tickers: ['NEE', 'CEG', 'VST'] },
+            { category: 'Networking', tickers: ['ANET', 'AVGO', 'MRVL'] }
+          ],
+          latestContext: 'Google upgrade breaks reasoning barriers - continued compute demand'
+        }
+      ];
+      populateTickers();
+    }
+
+    // Update last updated timestamp from data
+    async function updateLastUpdated() {
+      const lastUpdatedEl = document.getElementById('last-updated');
+      if (!lastUpdatedEl) return;
+
+      let ts = null;
+      if (typeof dashboardData !== 'undefined' && dashboardData.generatedAt) {
+        ts = dashboardData.generatedAt;
+      }
+
+      if (!ts && DEBUG_SITE) {
+        try {
+          const resp = await fetch('./data/status.json', { cache: 'no-cache' });
+          if (resp.ok) {
+            const status = await resp.json();
+            ts = status.last_pipeline_run || null;
+          }
+        } catch (e) {
+          console.warn('Could not load status.json:', e);
+        }
+      }
+
+      if (ts) {
+        const date = new Date(ts);
+        const options = { 
+          month: 'long', 
+          day: 'numeric', 
+          year: 'numeric',
+          hour: 'numeric',
+          minute: '2-digit',
+          timeZoneName: 'short'
+        };
+        lastUpdatedEl.textContent = 'Last updated: ' + date.toLocaleString('en-US', options);
+      } else {
+        lastUpdatedEl.textContent = 'Last updated: (unknown)';
+      }
+    }
+
+    // Initialize on page load
+    document.addEventListener('DOMContentLoaded', async function() {
+      if (DEBUG_SITE) console.log('Page loading...');
+      updateLastUpdated();
+      await loadPriceData();  // Load prices first (also calls updateTitleTickers and populateTickers)
+      loadTickerData();
+      loadInsights();  // Load insights dynamically from database
+      loadPodcastData();
+    });
+
+    // Track active card
+    let activeCard = null;
+
+    // Populate enhanced ticker cards
+    function populateTickers() {
+      const grid = document.getElementById('tickerGrid');
+      if (!grid) return;
+
+      if (enhancedTickers.length === 0) {
+        grid.innerHTML = '<div class="placeholder">Loading tickers...</div>';
+        return;
+      }
+
+      // Sort by score and take top 10
+      const top10 = enhancedTickers
+        .sort((a, b) => b.score - a.score)
+        .slice(0, 10);
+
+      // Create main ticker cards (top 10 only)
+      let html = top10.map((ticker, index) => createTickerCard(ticker, index + 1)).join('');
+
+      grid.innerHTML = html;
+
+      // Add click handlers to cards
+      document.querySelectorAll('.ticker-card, .guest-item, .overton-window-item').forEach(card => {
+        card.addEventListener('click', handleCardClick);
+      });
+
+    }
+
+    // Handle card click with ripple effect
+    function handleCardClick(e) {
+      const card = e.currentTarget;
+
+      // Don't toggle if clicking on action buttons
+      if (e.target.closest('.action-btn')) {
+        return;
+      }
+
+      // Create ripple effect
+      const rect = card.getBoundingClientRect();
+      const ripple = document.createElement('span');
+      const size = Math.max(rect.width, rect.height);
+      const x = e.clientX - rect.left - size / 2;
+      const y = e.clientY - rect.top - size / 2;
+
+      ripple.style.width = ripple.style.height = size + 'px';
+      ripple.style.left = x + 'px';
+      ripple.style.top = y + 'px';
+      ripple.classList.add('ripple');
+
+      card.appendChild(ripple);
+
+      setTimeout(() => ripple.remove(), 600);
+
+      // Pundits: show net worth modal instead of expanding
+      if (card.classList.contains('guest-item')) {
+        const name = card.getAttribute('data-name') || 'Pundit';
+        const nw = card.getAttribute('data-networth') || '';
+        const src = card.getAttribute('data-networthsrc') || '';
+        const pb64 = card.getAttribute('data-profile-b64') || '';
+        showNetWorthModal(name, nw, src, pb64);
+        return;
+      }
+
+      // Toggle active state
+      if (activeCard && activeCard !== card) {
+        activeCard.classList.remove('active');
+      }
+
+      card.classList.toggle('active');
+      activeCard = card.classList.contains('active') ? card : null;
+    }
+
+    function formatNetWorthDisplay(raw) {
+      const clean = String(raw || '').trim();
+      if (!clean) return '';
+      // Keep already human-formatted values like "$12.4B".
+      if (/[a-zA-Z]/.test(clean)) return clean;
+      // Numeric-ish input → currency with commas.
+      const numeric = Number(clean.replace(/[$,\s]/g, ''));
+      if (Number.isFinite(numeric) && numeric > 0) {
+        return '$' + numeric.toLocaleString('en-US', { maximumFractionDigits: 0 });
+      }
+      return clean;
+    }
+
+    function decodePunditProfileB64(b64) {
+      if (!b64 || typeof b64 !== 'string') return null;
+      try {
+        const json = decodeURIComponent(escape(atob(b64)));
+        const o = JSON.parse(json);
+        return (o && typeof o === 'object') ? o : null;
+      } catch (err) {
+        return null;
+      }
+    }
+
+    function escapeHtmlText(s) {
+      if (s === null || s === undefined) return '';
+      const d = document.createElement('div');
+      d.textContent = String(s);
+      return d.innerHTML;
+    }
+
+    function renderPunditProfileHtml(profile) {
+      if (!profile) return '';
+      const derived = profile.derived && typeof profile.derived === 'object' ? profile.derived : {};
+      const labels = {
+        current_role: 'Current role',
+        former_positions: 'Former positions',
+        boards: 'Boards & memberships',
+        education: 'Education',
+        political_affiliation: 'Political affiliation',
+        political_summary: 'Political (summary)',
+        books_or_works: 'Books & notable works',
+        teaching_summary: 'Teaching & academia'
+      };
+      let dlParts = [];
+      Object.keys(labels).forEach(function (key) {
+        const v = derived[key];
+        if (v && String(v).trim()) {
+          dlParts.push('<dt>' + escapeHtmlText(labels[key]) + '</dt><dd>' + escapeHtmlText(String(v)) + '</dd>');
+        }
+      });
+      let html = '';
+      if (profile.source_url) {
+        html += '<a class="grokipedia-link" href="' + escapeHtmlText(profile.source_url) + '" target="_blank" rel="noopener noreferrer">Read full article on Grokipedia →</a>';
+        html += '<p style="color:#8892b0;font-size:0.78rem;margin:0.35rem 0 0;">Micro-biography below is excerpted from Grokipedia. Net worth above may use Wikidata/Brave separately.</p>';
+      } else if (profile.source === 'llm') {
+        html += '<p style="color:#8892b0;font-size:0.78rem;margin:0 0 0.35rem;">Structured profile from an LLM using public biographical knowledge — verify important facts at primary sources. Net worth above may use Wikidata/Brave separately.</p>';
+        if (profile.source_model) {
+          html += '<p style="color:#6b7280;font-size:0.72rem;margin:0 0 0.35rem;">Source: ' + escapeHtmlText(String(profile.source_model)) + '</p>';
+        }
+      }
+      if (dlParts.length) {
+        html += '<h4>At a glance</h4><dl class="profile-dl">' + dlParts.join('') + '</dl>';
+      }
+      const cliff = (profile.cliff_notes || '').trim();
+      if (cliff) {
+        html += '<h4>Cliff notes</h4><div class="cliff-notes">' + escapeHtmlText(cliff) + '</div>';
+      }
+      const sections = Array.isArray(profile.sections) ? profile.sections : [];
+      if (sections.length) {
+        html += '<h4>Topic highlights</h4>';
+        sections.forEach(function (sec) {
+          const h = (sec && sec.heading) ? String(sec.heading) : '';
+          const b = (sec && sec.body) ? String(sec.body) : '';
+          if (!h && !b) return;
+          html += '<div class="section-block"><div class="sec-title">' + escapeHtmlText(h) + '</div><div class="sec-body">' + escapeHtmlText(b) + '</div></div>';
+        });
+      }
+      const box = profile.infobox && typeof profile.infobox === 'object' ? profile.infobox : null;
+      if (box) {
+        const keys = Object.keys(box).slice(0, 14);
+        if (keys.length) {
+          html += '<h4>' + (profile.source === 'llm' ? 'Extra facts' : 'Infobox (Grokipedia)') + '</h4><dl class="profile-dl">';
+          keys.forEach(function (k) {
+            html += '<dt>' + escapeHtmlText(k) + '</dt><dd>' + escapeHtmlText(String(box[k])) + '</dd>';
+          });
+          html += '</dl>';
+        }
+      }
+      return html;
+    }
+
+    function showNetWorthModal(name, netWorth, netWorthSrc, profileB64) {
+      const modal = document.getElementById('netWorthModal');
+      const title = document.getElementById('netWorthTitle');
+      const value = document.getElementById('netWorthValue');
+      const sub = document.getElementById('netWorthSub');
+      const profEl = document.getElementById('netWorthProfile');
+      if (!modal || !title || !value || !sub) return;
+
+      title.textContent = name + ' — Net Worth';
+
+      const clean = formatNetWorthDisplay(netWorth);
+      if (clean) {
+        value.textContent = clean;
+        sub.textContent = netWorthSrc ? ('Source: ' + netWorthSrc) : 'Source: (not recorded)';
+      } else {
+        value.textContent = 'Estimate currently unavailable';
+        sub.textContent = 'We do not have a reliable public estimate for this person yet.';
+      }
+
+      if (profEl) {
+        const p = decodePunditProfileB64(profileB64 || '');
+        const inner = renderPunditProfileHtml(p);
+        if (inner) {
+          profEl.innerHTML = inner;
+          profEl.style.display = 'block';
+        } else {
+          profEl.innerHTML = '';
+          profEl.style.display = 'none';
+        }
+      }
+
+      modal.classList.add('active');
+    }
+
+    function closeNetWorthModal() {
+      const modal = document.getElementById('netWorthModal');
+      if (modal) modal.classList.remove('active');
+    }
+
+    // Show chart or "Deep Dive" placeholder for a ticker (from ticker cards)
+    function showDeepDive(ticker) {
+      resetChartContainer();
+      var modal = document.getElementById('chartModal');
+      var title = document.getElementById('chartTitle');
+      var chartImage = document.getElementById('chartImage');
+      var container = document.getElementById('chart-image-container');
+
+      title.textContent = ticker + ' - 2 Week Chart';
+      var chartFile = (ticker === 'BTC' ? 'BTC_USD' : ticker) + '_chart.png';
+      chartImage.src = 'charts/' + chartFile;
+      chartImage.style.display = '';
+
+      chartImage.onerror = function() {
+        chartImage.style.display = 'none';
+        chartImage.onerror = null;
+        var placeholder = document.getElementById('chart-placeholder');
+        if (!placeholder) {
+          placeholder = document.createElement('div');
+          placeholder.id = 'chart-placeholder';
+          placeholder.style.cssText = 'text-align: center; color: #8892b0; padding: 3rem;';
+          container.appendChild(placeholder);
+        }
+        placeholder.innerHTML = '<div style="font-size: 3rem; margin-bottom: 1rem;">🔍</div>' +
+          '<div style="font-size: 1.2rem; margin-bottom: 0.5rem;">Chart for ' + ticker + '</div>' +
+          '<div style="font-size: 0.9rem;">No chart image available.</div>';
+        placeholder.style.display = 'block';
+      };
+
+      chartImage.onload = function() {
+        var placeholder = document.getElementById('chart-placeholder');
+        if (placeholder) placeholder.style.display = 'none';
+        chartImage.style.display = 'block';
+      };
+
+      modal.classList.add('active');
+    }
+
+    function createTickerCard(ticker, rank) {
+      const convictionEmoji = {
+        'high': '🔥 High',
+        'medium': '⚡ Medium',
+        'low': '◦ Low'
+      };
+
+      // Handle data structure differences
+      const tickerSymbol = ticker.ticker || 'UNKNOWN';
+      const tickerScore = Math.round(ticker.score || 0);
+      const tickerMentions = ticker.mentions || 0;
+      const tickerSources = ticker.unique_sources || ticker.uniqueSources || 1;
+      const tickerConviction = ticker.conviction_level || ticker.convictionLevel || 'medium';
+      const tickerSignal = ticker.contrarian_signal || ticker.contrarianSignal || 'neutral';
+      const tickerTimeframe = ticker.timeframe || 'unspecified';
+      const tickerHiddenPlays = ticker.hidden_plays || ticker.hiddenPlays || [];
+      const contexts = ticker.contexts || [];
+      const latestContext = contexts.length > 0 ? (contexts[0].subject || contexts[0].preview || '') : '';
+
+      // Get price data if available (handle BTC -> BTC-USD mapping)
+      let priceLookupKey = tickerSymbol;
+      if (tickerSymbol === 'BTC' && !priceData['BTC'] && priceData['BTC-USD']) {
+        priceLookupKey = 'BTC-USD';
+      }
+      const priceInfo = priceData[priceLookupKey] || {};
+      const price = priceInfo.price;
+      const changePct = priceInfo.change_pct;
+      const hasPrice = price !== undefined && changePct !== undefined;
+
+      const cardClass = tickerSignal === 'contrarian_positive' ? 'contrarian' :
+                        tickerSignal === 'crowded_warning' ? 'crowded' : '';
+
+      const signalBadge = tickerSignal === 'contrarian_positive' ?
+        '<span class="signal-badge contrarian">🎯 Contrarian</span>' :
+        tickerSignal === 'crowded_warning' ?
+        '<span class="signal-badge crowded">⚠️ Crowded</span>' : '';
+
+      // Hidden plays for collapsed view
+      const hiddenPlaysCollapsed = tickerHiddenPlays.length > 0 ? `
+        <div class="hidden-plays">
+          <span class="hidden-plays-title">💎 Hidden Plays:</span>
+          ${tickerHiddenPlays.slice(0, 2).map(play => {
+            const tickers = play.tickers || [];
+            return tickers.slice(0, 3).map(t => `<span class="play-tag">${t}</span>`).join('');
+          }).join('')}
+        </div>
+      ` : '';
+
+      // Hidden plays for expanded view
+      const hiddenPlaysExpanded = tickerHiddenPlays.length > 0 ? `
+        <div class="expanded-section">
+          <div class="expanded-label">💎 Hidden Plays & Second-Order Effects</div>
+          ${tickerHiddenPlays.map(play => `
+            <div style="margin-bottom: 0.5rem;">
+              <div style="font-size: 0.75rem; color: #ffc107; margin-bottom: 0.25rem;">${play.category}</div>
+              <div>${play.tickers.map(t => `<span class="play-tag">${t}</span>`).join('')}</div>
+            </div>
+          `).join('')}
+        </div>
+      ` : '';
+
+      const timeframeEmoji = tickerTimeframe === 'long_term' ? '📅 Long' :
+                             tickerTimeframe === 'short_term' ? '⚡ Short' : '⏱️ Unspec';
+
+      // Price display HTML
+      const priceHtmlRight = hasPrice ? `
+        <div style="display: flex; flex-direction: column; align-items: flex-end; gap: 0.15rem;">
+          <span style="font-size: 0.9rem; color: #e8e8e8; font-weight: 700;">$${price < 1000 ? price.toFixed(2) : price.toLocaleString('en-US', {maximumFractionDigits: 0})}</span>
+          <span class="ticker-change ${changePct >= 0 ? 'positive' : 'negative'}" style="font-size: 0.7rem; padding: 0.15rem 0.4rem; font-weight: 600;">${changePct >= 0 ? '+' : ''}${changePct.toFixed(1)}%</span>
+        </div>
+      ` : '';
+
+      // Context preview for collapsed view
+      const contextPreview = latestContext ?
+        `<div style="font-size: 0.75rem; color: #8892b0; white-space: nowrap; overflow: hidden; text-overflow: ellipsis; margin-top: 0.2rem; max-width: 200px;">${latestContext.substring(0, 50)}...</div>` : '';
+
+      // Full context for expanded view
+      const contextExpanded = latestContext ? `
+        <div class="expanded-section">
+          <div class="expanded-label">📝 Latest Context</div>
+          <div class="context-text">"${latestContext}"</div>
+        </div>
+      ` : '';
+
+      return `
+        <div class="ticker-card ${cardClass}" data-ticker="${tickerSymbol}">
+          <div class="ticker-card-inner">
+            <div class="ticker-header">
+              <div class="ticker-main">
+                <div class="ticker-rank">#${rank}</div>
+                <div style="min-width: 0; flex: 1;">
+                  <div class="ticker-symbol">${tickerSymbol}</div>
+                  ${contextPreview}
+                </div>
+              </div>
+              <div class="ticker-meta">
+                ${priceHtmlRight}
+                <span class="score-badge">${tickerScore}</span>
+                ${signalBadge}
+              </div>
+            </div>
+
+            <div class="ticker-details">
+              <div class="detail-item">
+                <span class="detail-label">Mentions</span>
+                <span class="detail-value">${tickerMentions}</span>
+              </div>
+              <div class="detail-item">
+                <span class="detail-label">Sources</span>
+                <span class="detail-value">${tickerSources}</span>
+              </div>
+              <div class="detail-item">
+                <span class="detail-label">Conviction</span>
+                <span class="detail-value conviction-indicator ${tickerConviction}">
+                  ${convictionEmoji[tickerConviction] || '◦ Low'}
+                </span>
+              </div>
+              <div class="detail-item">
+                <span class="detail-label">Timeframe</span>
+                <span class="detail-value">${timeframeEmoji}</span>
+              </div>
+            </div>
+
+            ${hiddenPlaysCollapsed}
+
+            <div class="expand-hint">
+              <span>Click to expand details</span>
+              <span class="expand-icon">▼</span>
+            </div>
+          </div>
+
+          <div class="ticker-expanded">
+            <div class="expanded-content">
+              ${contextExpanded}
+              ${hiddenPlaysExpanded}
+
+              <div class="expanded-section">
+                <div class="expanded-label">📊 Quick Stats</div>
+                <div style="display: grid; grid-template-columns: repeat(2, 1fr); gap: 0.5rem; font-size: 0.8rem;">
+                  <div style="background: rgba(0,0,0,0.2); padding: 0.5rem; border-radius: 6px;">
+                    <div style="color: #8892b0; font-size: 0.7rem;">Score Breakdown</div>
+                    <div style="color: #e8e8e8;">Base: ${tickerMentions * 10} × Diversity: ${tickerSources > 2 ? '2x' : tickerSources > 1 ? '1.5x' : '1x'}</div>
+                  </div>
+                  <div style="background: rgba(0,0,0,0.2); padding: 0.5rem; border-radius: 6px;">
+                    <div style="color: #8892b0; font-size: 0.7rem;">Signal Type</div>
+                    <div style="color: ${tickerSignal === 'contrarian_positive' ? '#4caf50' : tickerSignal === 'crowded_warning' ? '#f44336' : '#00d4ff'};">
+                      ${tickerSignal === 'contrarian_positive' ? 'Contrarian Positive' : tickerSignal === 'crowded_warning' ? 'Crowded Warning' : 'Standard Mention'}
+                    </div>
+                  </div>
+                </div>
+              </div>
+
+              <div class="expanded-actions">
+                <button class="action-btn" onclick="event.stopPropagation(); showChart('${tickerSymbol}')">
+                  📊 View Chart
+                </button>
+                <button class="action-btn secondary" onclick="event.stopPropagation(); window.open('https://finance.yahoo.com/quote/${tickerSymbol}', '_blank')">
+                  ↗️ Yahoo Finance
+                </button>
+              </div>
+            </div>
+          </div>
+        </div>
+      `;
+    }
+
+    // Contact Form Handler
+    document.getElementById('contactForm').addEventListener('submit', async function(e) {
+      e.preventDefault();
+
+      const submitBtn = this.querySelector('.submit-btn');
+      const btnText = submitBtn.querySelector('.btn-text');
+      const btnLoading = submitBtn.querySelector('.btn-loading');
+      const statusDiv = document.getElementById('formStatus');
+
+      // Get form data
+      const name = document.getElementById('contactName').value.trim();
+      const contact = document.getElementById('contactInfo').value.trim();
+      const message = document.getElementById('contactMessage').value.trim();
+      const wantsWeekly = document.getElementById('weeklyUpdates').checked;
+
+      // Validate contact info
+      const emailRegex = /^[^\s@]+@[^\s@]+\.[^\s@]+$/;
+      const phoneRegex = /^[\+]?[(]?[0-9]{3}[)]?[-\s\.]?[0-9]{3}[-\s\.]?[0-9]{4,6}$/;
+
+      const isEmail = emailRegex.test(contact);
+      const isPhone = phoneRegex.test(contact.replace(/\s/g, ''));
+
+      if (!isEmail && !isPhone) {
+        showStatus('Please enter a valid email address or phone number (e.g., you@email.com or +1-555-123-4567)', 'error');
+        return;
+      }
+
+      // Show loading state
+      submitBtn.disabled = true;
+      btnText.style.display = 'none';
+      btnLoading.style.display = 'inline';
+
+      try {
+        // Send to Formspree backend (or override via CONTACT_API_URL if set)
+        const defaultUrl = 'https://formspree.io/f/mqeyzgre';
+        const apiUrl = (typeof window.CONTACT_API_URL === 'string' && window.CONTACT_API_URL)
+          ? window.CONTACT_API_URL
+          : defaultUrl;
+
+        const response = await fetch(apiUrl, {
+          method: 'POST',
+          headers: {
+            'Content-Type': 'application/json',
+            'Accept': 'application/json'
+          },
+          body: JSON.stringify({
+            name: name || 'Anonymous',
+            contact: contact,
+            message: message || '',
+            wantsWeekly: wantsWeekly
+          })
+        });
+
+        if (!response.ok) {
+          throw new Error('Server error: ' + response.status);
+        }
+
+        // Show success message
+        const weeklyText = wantsWeekly ? ' You\'ve opted in for weekly updates.' : '';
+        showStatus(
+          `✓ Thanks${name ? ', ' + name : ''}! We've received your ${isEmail ? 'email' : 'phone number'}.${weeklyText} ` +
+          `Reply STOP anytime to unsubscribe.`,
+          'success'
+        );
+
+        // Reset form
+        this.reset();
+
+      } catch (error) {
+        if (DEBUG_SITE) console.error('Form submission error:', error);
+        let msg = 'Something went wrong sending your message. Please try again later.';
+        const statusDiv = document.getElementById('formStatus');
+        statusDiv.innerHTML = msg;
+        statusDiv.className = 'form-status error';
+        statusDiv.style.display = 'block';
+        setTimeout(() => { statusDiv.style.display = 'none'; }, 15000);
+      } finally {
+        submitBtn.disabled = false;
+        btnText.style.display = 'inline';
+        btnLoading.style.display = 'none';
+      }
+    });
+
+    function showStatus(message, type) {
+      const statusDiv = document.getElementById('formStatus');
+      statusDiv.textContent = message;
+      statusDiv.className = 'form-status ' + type;
+      statusDiv.style.display = 'block';
+
+      // Auto-hide after 10 seconds
+      setTimeout(() => {
+        statusDiv.style.display = 'none';
+      }, 10000);
+    }
+  </script>
+</body>
+</html>
