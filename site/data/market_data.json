@@ -54,43 +54,55 @@
       "DGS30": "30-Year Treasury Constant Maturity"
     },
     "_fetch_instructions": "Tony: Use FRED API (free, no key for <500 calls/day) at https://fred.stlouisfed.org/series/{SERIES_ID}/downloaddata. Or use yfinance Python package for ^TNX, ^FVX, ^TYX.",
-    "last_updated": "2026-09-04T18:44:59.193720",
+    "last_updated": "2026-09-04T13:57:04.643864",
     "spreads": {
       "2s10s": {
         "label": "2s10s Spread",
         "description": "10Y minus 2Y Treasury yield. Classic recession indicator. Negative = inverted curve.",
-        "value_bps": null,
+        "value_bps": 43.0,
         "change_1d_bps": null,
         "change_1w_bps": null,
         "signal": null,
-        "fred_series": "T10Y2Y"
+        "fred_series": "T10Y2Y",
+        "value_pct": 0.43,
+        "observation_date": "2026-09-03",
+        "_source_note": "Treasury.gov daily yield curve (FRED timed out); 10Y-2Y"
       },
       "10s30s": {
         "label": "10s30s Spread (NOB proxy)",
         "description": "30Y minus 10Y Treasury yield. Reflects long-end term premium and duration demand.",
-        "value_bps": null,
+        "value_bps": 48.0,
         "change_1d_bps": null,
         "change_1w_bps": null,
         "signal": null,
         "fred_series": null,
-        "calculation": "DGS30 - DGS10"
+        "calculation": "DGS30 - DGS10",
+        "value_pct": 0.48,
+        "observation_date": "2026-09-03",
+        "_source_note": "Treasury.gov daily yield curve (FRED timed out); 30Y-10Y"
       }
     },
     "levels": {
       "2y": {
-        "value": null,
+        "value": 4.34,
         "change_1d": null,
-        "fred_series": "DGS2"
+        "fred_series": "DGS2",
+        "observation_date": "2026-09-03",
+        "_source_note": "Treasury.gov daily yield curve (FRED timed out)"
       },
       "10y": {
-        "value": null,
+        "value": 4.77,
         "change_1d": null,
-        "fred_series": "DGS10"
+        "fred_series": "DGS10",
+        "observation_date": "2026-09-03",
+        "_source_note": "Treasury.gov daily yield curve (FRED timed out)"
       },
       "30y": {
-        "value": null,
+        "value": 5.25,
         "change_1d": null,
-        "fred_series": "DGS30"
+        "fred_series": "DGS30",
+        "observation_date": "2026-09-03",
+        "_source_note": "Treasury.gov daily yield curve (FRED timed out)"
       }
     },
     "move_index": {
