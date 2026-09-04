@@ -79,23 +79,78 @@ def _make_request_headers() -> dict:
     }
 
 
-def fetch_cot_page() -> Optional[str]:
-    """Fetch the CFTC financial futures COT HTML page."""
-    # Use curl as primary - works better with Cloudflare and auto-decompresses
+def _run_curl_fetch(curl_cmd: str, url: str, label: str) -> Optional[str]:
+    """
+    Run curl fetch with specific binary path.
+    Returns content on success, None on failure.
+    """
+    import subprocess
     try:
-        import subprocess
         result = subprocess.run(
-            ['curl', '-sL', '--compressed', '--max-time', '30', CFTC_FIN_LF_PAGE],
+            [curl_cmd, '-sL', '--compressed', '--max-time', '30', url],
             capture_output=True,
             timeout=35
         )
         if result.returncode == 0 and result.stdout:
             content = result.stdout.decode('utf-8', errors='replace')
             if len(content) > 10000:  # Expect ~140KB of data
-                print(f"  ✓ Fetched CFTC page via curl ({len(content)} bytes)")
+                print(f"  ✓ Fetched CFTC page via {label} ({len(content)} bytes)")
                 return content
+            else:
+                print(f"  ✗ {label} returned only {len(content)} bytes (SSL/connection failure?)")
+        else:
+            stderr = result.stderr.decode('utf-8', errors='replace') if result.stderr else ''
+            if 'SSL' in stderr or 'certificate' in stderr.lower() or result.returncode == 60:
+                print(f"  ✗ {label} SSL certificate error (returncode={result.returncode})")
+            elif result.returncode == 35:
+                print(f"  ✗ {label} SSL connect error")
+            else:
+                print(f"  ✗ {label} failed (returncode={result.returncode})")
+    except FileNotFoundError:
+        print(f"  ✗ {label} not found")
     except Exception as e:
-        print(f"  ✗ curl failed: {e}")
+        print(f"  ✗ {label} error: {e}")
+    return None
+
+
+def fetch_cot_page() -> Optional[str]:
+    """
+    Fetch the CFTC financial futures COT HTML page.
+    
+    CURL PREFERENCE ORDER (Mac Anaconda SSL workaround):
+    On Mac, Anaconda's bundled curl may use outdated SSL certificates that fail
+    to verify CFTC's Cloudflare certificate (http=000 / returncode 60/35).
+    To handle this, we try multiple curl binaries in order:
+    
+    1. /usr/bin/curl (macOS system curl - uses system certificates)
+    2. PATH curl (may be Anaconda curl - works on Linux, may fail Mac SSL)
+    3. urllib fallback (Python ssl, usually works but slower)
+    
+    This ordering ensures Mac users with Anaconda get working fetches while
+    Linux and non-Anaconda Mac users also work fine.
+    """
+    import shutil
+    
+    # Preferred curl binaries in order of preference
+    # System curl first (reliable SSL on Mac), then PATH curl
+    curl_candidates = []
+    
+    # macOS/Linux system curl - preferred for SSL reliability
+    for system_curl in ['/usr/bin/curl', '/bin/curl']:
+        if Path(system_curl).exists():
+            curl_candidates.append((system_curl, f"system curl ({system_curl})"))
+            break
+    
+    # PATH curl (may be Anaconda curl on Mac)
+    path_curl = shutil.which('curl')
+    if path_curl and path_curl not in [c[0] for c in curl_candidates]:
+        curl_candidates.append((path_curl, f"PATH curl ({path_curl})"))
+    
+    # Try each curl candidate
+    for curl_cmd, label in curl_candidates:
+        content = _run_curl_fetch(curl_cmd, CFTC_FIN_LF_PAGE, label)
+        if content:
+            return content
     
     # Fallback to urllib with explicit gzip handling
     try:
