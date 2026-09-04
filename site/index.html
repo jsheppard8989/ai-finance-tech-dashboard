@@ -1751,6 +1751,50 @@
       </div>
     </header>
 
+    <!-- Market Plumbing Widgets (compact band between header and grid) -->
+    <div class="plumbing-widgets" style="margin: 1rem 0; display: grid; grid-template-columns: repeat(auto-fit, minmax(220px, 1fr)); gap: 0.75rem;">
+      <div class="card" style="padding: 0.75rem; margin-bottom: 0;">
+        <h3 style="font-size: 0.9rem; color: #00d4ff; margin-bottom: 0.25rem;">📊 Treasury Calendar</h3>
+        <p style="color: #9ca3af; font-size: 0.68rem; line-height: 1.35; margin-bottom: 0.5rem;">Next auction / QRA dates are the kill-shot calendar for Captive buyer of duration and the window that can force a 10Y Debait print.</p>
+        <div id="treasury-widget" style="font-size: 0.8rem; color: #a8b2d1;">
+          <span style="color: #a8b2d1;">Coming soon — awaiting live data</span>
+        </div>
+        <div style="margin-top: 0.3rem;"><a href="https://home.treasury.gov/resource-center/data-chart-center/quarterly-refunding" target="_blank" style="color: #9ca3af; font-size: 0.65rem;">Source: treasury.gov</a></div>
+      </div>
+      <div class="card" style="padding: 0.75rem; margin-bottom: 0;">
+        <h3 style="font-size: 0.9rem; color: #00d4ff; margin-bottom: 0.25rem;">📈 Curve Snapshot</h3>
+        <p style="color: #9ca3af; font-size: 0.68rem; line-height: 1.35; margin-bottom: 0.5rem;">2s10s, 10s30s, and MOVE show whether term premium is steepening toward the Debait's 5.00% DGS10 bar — or easing.</p>
+        <div id="curve-widget" style="display: flex; gap: 0.75rem; font-size: 0.75rem; flex-wrap: wrap;">
+          <span style="color: #a8b2d1;">Coming soon — awaiting live data</span>
+        </div>
+        <div style="margin-top: 0.3rem;"><span style="color: #9ca3af; font-size: 0.65rem;">Source: FRED / Yahoo</span></div>
+      </div>
+      <div class="card" style="padding: 0.75rem; margin-bottom: 0;">
+        <h3 style="font-size: 0.9rem; color: #00d4ff; margin-bottom: 0.25rem;">📋 COT Positioning</h3>
+        <p style="color: #9ca3af; font-size: 0.68rem; line-height: 1.35; margin-bottom: 0.5rem;">Who is long or short duration (and BTC) — the positioning side of captivity, not another narrative recap.</p>
+        <div id="cot-widget" style="display: flex; gap: 0.75rem; font-size: 0.75rem; flex-wrap: wrap;">
+          <span style="color: #a8b2d1;"><strong>10Y:</strong> <span style="color: #6b7280;">Coming soon</span></span>
+          <span style="color: #a8b2d1;"><strong>BTC:</strong> <span style="color: #6b7280;">Coming soon</span></span>
+        </div>
+        <div style="margin-top: 0.3rem;"><span style="color: #9ca3af; font-size: 0.65rem;">Source: CFTC (Fridays)</span></div>
+      </div>
+      <div class="card" style="padding: 0.75rem; margin-bottom: 0;">
+        <h3 style="font-size: 0.9rem; color: #00d4ff; margin-bottom: 0.25rem;">🖥️ Compute Forward</h3>
+        <p style="color: #9ca3af; font-size: 0.68rem; line-height: 1.35; margin-bottom: 0.5rem;">The rent on AI compute (not NVDA equity): sold-out spot with rising 1Y contracts is the scarcity half of the same shop.</p>
+        <div id="compute-forward-widget" style="font-size: 0.75rem;">
+          <div style="display: flex; gap: 0.75rem; flex-wrap: wrap;">
+            <span style="color: #a8b2d1;"><strong>1Y:</strong> —</span>
+            <span style="color: #a8b2d1;"><strong>Spot:</strong> —</span>
+            <span style="color: #a8b2d1;"><strong>Trend:</strong> —</span>
+          </div>
+          <div style="margin-top: 0.25rem; color: #9ca3af; font-size: 0.65rem;">
+            <span id="compute-forward-period">As of: —</span>
+          </div>
+        </div>
+        <div style="margin-top: 0.3rem;"><a href="https://gpu-index.semianalysis.com/" target="_blank" style="color: #9ca3af; font-size: 0.65rem;">Source: SemiAnalysis (surveyed index)</a></div>
+      </div>
+    </div>
+
     <div class="grid">
       <!-- Left Column - The Overton Window (definitions + emerging concepts) -->
       <div class="left-col">
@@ -1838,51 +1882,6 @@
             <div id="niche-sources-container"></div>
           </div>
         </div>
-      </div>
-    </div>
-
-    <!-- Market Plumbing Widgets (compact, supplemental - not replacing recaps) -->
-    <div class="plumbing-widgets" style="margin: 1rem 0; display: grid; grid-template-columns: repeat(auto-fit, minmax(200px, 1fr)); gap: 0.75rem;">
-      <div class="card" style="padding: 0.75rem; margin-bottom: 0;">
-        <h3 style="font-size: 0.9rem; color: #00d4ff; margin-bottom: 0.35rem;">📊 Treasury Calendar</h3>
-        <p style="color: #6b7280; font-size: 0.7rem; margin-bottom: 0.5rem;">Next QRA & auction schedule</p>
-        <div id="treasury-widget" style="font-size: 0.8rem; color: #a8b2d1;">
-          <span style="color: #8892b0;">Data stub — </span>
-          <a href="https://home.treasury.gov/resource-center/data-chart-center/quarterly-refunding" target="_blank" style="color: #00d4ff; font-size: 0.7rem;">treasury.gov</a>
-        </div>
-      </div>
-      <div class="card" style="padding: 0.75rem; margin-bottom: 0;">
-        <h3 style="font-size: 0.9rem; color: #00d4ff; margin-bottom: 0.35rem;">📈 Curve Snapshot</h3>
-        <p style="color: #6b7280; font-size: 0.7rem; margin-bottom: 0.5rem;">2s10s, 10s30s, MOVE</p>
-        <div id="curve-widget" style="display: flex; gap: 0.75rem; font-size: 0.75rem;">
-          <span style="color: #a8b2d1;"><strong>2s10s:</strong> —</span>
-          <span style="color: #a8b2d1;"><strong>MOVE:</strong> —</span>
-        </div>
-        <div style="margin-top: 0.3rem;"><span style="color: #6b7280; font-size: 0.65rem;">Source: FRED / Yahoo</span></div>
-      </div>
-      <div class="card" style="padding: 0.75rem; margin-bottom: 0;">
-        <h3 style="font-size: 0.9rem; color: #00d4ff; margin-bottom: 0.35rem;">📋 COT Positioning</h3>
-        <p style="color: #6b7280; font-size: 0.7rem; margin-bottom: 0.5rem;">CFTC leveraged funds net</p>
-        <div id="cot-widget" style="display: flex; gap: 0.75rem; font-size: 0.75rem;">
-          <span style="color: #a8b2d1;"><strong>10Y:</strong> <span style="color: #6b7280;">Coming soon</span></span>
-          <span style="color: #a8b2d1;"><strong>BTC:</strong> <span style="color: #6b7280;">Coming soon</span></span>
-        </div>
-        <div style="margin-top: 0.3rem;"><span style="color: #6b7280; font-size: 0.65rem;">Source: CFTC weekly (Fridays)</span></div>
-      </div>
-      <div class="card" style="padding: 0.75rem; margin-bottom: 0;">
-        <h3 style="font-size: 0.9rem; color: #00d4ff; margin-bottom: 0.35rem;">🖥️ Compute Forward</h3>
-        <p style="color: #6b7280; font-size: 0.7rem; margin-bottom: 0.5rem;">H100 1Y contract (surveyed)</p>
-        <div id="compute-forward-widget" style="font-size: 0.75rem;">
-          <div style="display: flex; gap: 0.75rem; flex-wrap: wrap;">
-            <span style="color: #a8b2d1;"><strong>1Y:</strong> —</span>
-            <span style="color: #a8b2d1;"><strong>Spot:</strong> —</span>
-            <span style="color: #a8b2d1;"><strong>Trend:</strong> —</span>
-          </div>
-          <div style="margin-top: 0.25rem; color: #6b7280; font-size: 0.65rem;">
-            <span id="compute-forward-period">As of: —</span>
-          </div>
-        </div>
-        <div style="margin-top: 0.3rem;"><a href="https://gpu-index.semianalysis.com/" target="_blank" style="color: #6b7280; font-size: 0.65rem;">Source: SemiAnalysis (surveyed index)</a></div>
       </div>
     </div>
 
@@ -2258,18 +2257,39 @@
         if (treasuryEl && data.treasury_calendar && data.treasury_calendar.next_refunding_announcement) {
           const qra = data.treasury_calendar.next_refunding_announcement;
           if (qra.date) {
-            treasuryEl.innerHTML = '<span style="color: #e8e8e8;">Next QRA: <strong>' + qra.date + '</strong></span> <span style="color: #6b7280; font-size: 0.7rem;">(' + (qra.status || 'est.') + ')</span>';
+            treasuryEl.innerHTML = '<span style="color: #e8e8e8;">Next QRA: <strong>' + qra.date + '</strong></span> <span style="color: #9ca3af; font-size: 0.7rem;">(' + (qra.status || 'est.') + ')</span>';
           }
         }
 
         // Update Curve widget
         const curveEl = document.getElementById('curve-widget');
-        if (curveEl && data.curve_data && data.curve_data.spreads) {
-          const s2s10s = data.curve_data.spreads['2s10s'];
+        if (curveEl && data.curve_data) {
+          const spreads = data.curve_data.spreads || {};
+          const s2s10s = spreads['2s10s'];
+          const s10s30s = spreads['10s30s'];
           const move = data.curve_data.move_index;
-          const v2s10s = s2s10s && s2s10s.value_bps ? s2s10s.value_bps + 'bp' : '—';
-          const vMove = move && move.value ? move.value : '—';
-          curveEl.innerHTML = '<span style="color: #a8b2d1;"><strong>2s10s:</strong> ' + v2s10s + '</span><span style="color: #a8b2d1;"><strong>MOVE:</strong> ' + vMove + '</span>';
+
+          const v2s10s = s2s10s && s2s10s.value_bps != null ? s2s10s.value_bps + 'bp' : null;
+          const v10s30s = s10s30s && s10s30s.value_bps != null ? s10s30s.value_bps + 'bp' : null;
+          const vMove = move && move.value != null ? move.value : null;
+          
+          // Check if we have any live data
+          if (v2s10s != null || v10s30s != null || vMove != null) {
+            let parts = [];
+            if (v2s10s != null) {
+              parts.push('<span style="color: #a8b2d1;"><strong>2s10s:</strong> ' + v2s10s + '</span>');
+            }
+            if (v10s30s != null) {
+              parts.push('<span style="color: #a8b2d1;"><strong>10s30s:</strong> ' + v10s30s + '</span>');
+            }
+            if (vMove != null) {
+              parts.push('<span style="color: #a8b2d1;"><strong>MOVE:</strong> ' + vMove + '</span>');
+            }
+            curveEl.innerHTML = parts.join('');
+          } else {
+            // No live data - show Coming soon (card stays visible)
+            curveEl.innerHTML = '<span style="color: #a8b2d1;">Coming soon — awaiting live data</span>';
+          }
         }
 
         // Update COT widget - leveraged funds net positioning
@@ -2290,7 +2310,7 @@
           
           let v10y = '<span style="color: #6b7280;">Coming soon</span>';
           let vBtc = '<span style="color: #6b7280;">Coming soon</span>';
-          
+
           if (cot.rates_positioning && cot.rates_positioning['10y_note']) {
             const net = cot.rates_positioning['10y_note'].leveraged_funds_net;
             v10y = formatNet(net);
@@ -2299,14 +2319,15 @@
             const net = cot.btc_positioning.cme_btc.leveraged_funds_net;
             vBtc = formatNet(net);
           }
-          
-          // Build display with stale indicator if needed
+
+          // Build display with stale indicator if needed; never hide card
           let html = '<span style="color: #a8b2d1;"><strong>10Y:</strong> ' + v10y + '</span>';
           html += '<span style="color: #a8b2d1;"><strong>BTC:</strong> ' + vBtc + '</span>';
           if (isStale) {
             html += '<span style="color: #f59e0b; font-size: 0.65rem; margin-left: 0.5rem;" title="' + (cot._stale_reason || 'Data may be stale') + '">⚠️ stale</span>';
           }
           cotEl.innerHTML = html;
+
         }
 
         // Update Compute Forward widget (GPU rental pricing - surveyed index)
@@ -2344,7 +2365,7 @@
             // Color based on long-term trend if available, otherwise short-term
             const longTerm = h100.trend.long_term;
             const colorPct = longTerm ? longTerm.change_pct : shortPct;
-            let color = '#6b7280'; // neutral gray
+            let color = '#9ca3af'; // neutral gray
             if (colorPct > 10) color = '#ef4444';       // strong up = red (cost rising)
             else if (colorPct > 3) color = '#f59e0b';   // moderate up = amber
             else if (colorPct < -10) color = '#10b981'; // strong down = green (cost falling)
@@ -2366,7 +2387,7 @@
             const pct = h100.trend.change_pct;
             const vsPeriod = h100.trend.comparison_period || '?';
             const pctSign = pct >= 0 ? '+' : '';
-            vTrend = '<span style="color: #6b7280;">' + pctSign + pct + '% vs ' + vsPeriod + '</span>';
+            vTrend = '<span style="color: #9ca3af;">' + pctSign + pct + '% vs ' + vsPeriod + '</span>';
           }
           
           // Build stale indicator if data is stale
@@ -2384,7 +2405,7 @@
               '<span style="color: #a8b2d1;"><strong>Spot:</strong> ' + vSpot + '</span>' +
               '<span style="color: #a8b2d1;"><strong>Trend:</strong> ' + vTrend + '</span>' +
             '</div>' +
-            '<div style="margin-top: 0.25rem; color: #6b7280; font-size: 0.65rem;">' +
+            '<div style="margin-top: 0.25rem; color: #9ca3af; font-size: 0.65rem;">' +
               '<span>As of: ' + (h100.period || '—') + ' (surveyed, lags current)</span>' +
             '</div>' +
             staleIndicator;
