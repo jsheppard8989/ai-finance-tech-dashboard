@@ -1,7 +1,7 @@
 {
-  "generated_at": "2026-09-04T08:56:29.517295",
-  "last_updated": "2026-09-04T08:56:29.517295",
-  "last_pipeline_run": "2026-09-04T08:56:29.517295",
+  "generated_at": "2026-09-04T12:41:33.401966",
+  "last_updated": "2026-09-04T12:41:33.401966",
+  "last_pipeline_run": "2026-09-04T12:41:33.401966",
   "main_page": {
     "overton": 13,
     "insights": 8,
@@ -20,123 +20,14 @@
     "podcasts_analyzed": 6
   },
   "step_results": {
-    "downloaded": 6,
-    "transcribed": 6,
-    "analyzed": 6,
-    "insight_created": 6,
-    "published": 6,
-    "total": 6
+    "downloaded": 0,
+    "transcribed": 0,
+    "analyzed": 0,
+    "insight_created": 0,
+    "published": 0,
+    "total": 0
   },
-  "episodes": [
-    {
-      "id": "c788c560-a6fe-11f1-8883-4773df526e10",
-      "podcast": "Moonshots with Peter Diamandis",
-      "title": "Humanity's First Star Probe, Architect Labs Beats NVIDIA 3.4x, Musk Wants Satellites to Cool Earth | EP #285",
-      "published": "2026-09-02",
-      "rss_guid": "c788c560-a6fe-11f1-8883-4773df526e10",
-      "stages": {
-        "downloaded": true,
-        "transcribed": true,
-        "analyzed": true,
-        "insight_created": true,
-        "published": true
-      },
-      "stage_reasons": {},
-      "first_blocker": null,
-      "remediation_by_stage": {},
-      "status": "complete"
-    },
-    {
-      "id": "c668045c-a6ea-11f1-9fa3-9762e3473041",
-      "podcast": "Monetary Matters with Jack Farley",
-      "title": "\u201cI\u2019m Insanely Bullish on Bonds\u201d | Jared Dillian on Copper, Bonds, Semis, and The Awesome Portfolio",
-      "published": "2026-09-03",
-      "rss_guid": "c668045c-a6ea-11f1-9fa3-9762e3473041",
-      "stages": {
-        "downloaded": true,
-        "transcribed": true,
-        "analyzed": true,
-        "insight_created": true,
-        "published": true
-      },
-      "stage_reasons": {},
-      "first_blocker": null,
-      "remediation_by_stage": {},
-      "status": "complete"
-    },
-    {
-      "id": "66ed7536-8ad1-44b3-8a94-06c3160329e2",
-      "podcast": "The a16z Show",
-      "title": "Fei Fei Li: The Race to Build World Models For AI",
-      "published": "2026-09-04",
-      "rss_guid": "66ed7536-8ad1-44b3-8a94-06c3160329e2",
-      "stages": {
-        "downloaded": true,
-        "transcribed": true,
-        "analyzed": true,
-        "insight_created": true,
-        "published": true
-      },
-      "stage_reasons": {},
-      "first_blocker": null,
-      "remediation_by_stage": {},
-      "status": "complete"
-    },
-    {
-      "id": "c2b497da-b59b-41be-86a6-a966bd3ef724",
-      "podcast": "The a16z Show",
-      "title": "The $100B Niches Hiding Inside Payments",
-      "published": "2026-09-03",
-      "rss_guid": "c2b497da-b59b-41be-86a6-a966bd3ef724",
-      "stages": {
-        "downloaded": true,
-        "transcribed": true,
-        "analyzed": true,
-        "insight_created": true,
-        "published": true
-      },
-      "stage_reasons": {},
-      "first_blocker": null,
-      "remediation_by_stage": {},
-      "status": "complete"
-    },
-    {
-      "id": "011a424b-1445-4278-902f-875110d48818",
-      "podcast": "The a16z Show",
-      "title": "Inside Moderna\u2019s Personalized Cancer Vaccine",
-      "published": "2026-09-02",
-      "rss_guid": "011a424b-1445-4278-902f-875110d48818",
-      "stages": {
-        "downloaded": true,
-        "transcribed": true,
-        "analyzed": true,
-        "insight_created": true,
-        "published": true
-      },
-      "stage_reasons": {},
-      "first_blocker": null,
-      "remediation_by_stage": {},
-      "status": "complete"
-    },
-    {
-      "id": "macrovoices.podbean.com/6f4d0c39-6a19-3e29-88d7-65a8614ff8f4",
-      "podcast": "Macro Voices",
-      "title": "MacroVoices #548 Dr. Carly Anderson: Emerging Energy Technologies Roundup",
-      "published": "2026-09-03",
-      "rss_guid": "macrovoices.podbean.com/6f4d0c39-6a19-3e29-88d7-65a8614ff8f4",
-      "stages": {
-        "downloaded": true,
-        "transcribed": true,
-        "analyzed": true,
-        "insight_created": true,
-        "published": true
-      },
-      "stage_reasons": {},
-      "first_blocker": null,
-      "remediation_by_stage": {},
-      "status": "complete"
-    }
-  ],
+  "episodes": [],
   "available_from_rss": [],
   "stale_episodes": [],
   "stale_threshold_days": 2,
