@@ -45,63 +45,56 @@
     }
   },
   "curve_data": {
-    "_comment": "Yield curve spreads and volatility. Sources: FRED (free, no key needed for basic series), Yahoo Finance.",
-    "_fred_series": {
-      "T10Y2Y": "10-Year minus 2-Year Treasury spread",
-      "T10Y3M": "10-Year minus 3-Month Treasury spread (preferred by some)",
-      "DGS2": "2-Year Treasury Constant Maturity",
-      "DGS10": "10-Year Treasury Constant Maturity",
-      "DGS30": "30-Year Treasury Constant Maturity"
-    },
-    "_fetch_instructions": "Tony: Use FRED API (free, no key for <500 calls/day) at https://fred.stlouisfed.org/series/{SERIES_ID}/downloaddata. Or use yfinance Python package for ^TNX, ^FVX, ^TYX.",
-    "last_updated": null,
+    "_comment": "Yield curve spreads and volatility. PRIMARY source: Treasury.gov daily yield curve. MOVE: Yahoo Finance.",
+    "_primary_source": "Treasury.gov",
+    "_source_url": "https://home.treasury.gov/resource-center/data-chart-center/interest-rates/TextView?type=daily_treasury_yield_curve",
+    "_fred_status": "unavailable (optional)",
+    "last_updated": "2026-09-04T19:05:08.554634",
+    "as_of_date": "2026-09-03",
     "spreads": {
       "2s10s": {
         "label": "2s10s Spread",
         "description": "10Y minus 2Y Treasury yield. Classic recession indicator. Negative = inverted curve.",
-        "value_bps": null,
-        "change_1d_bps": null,
-        "change_1w_bps": null,
-        "signal": null,
-        "fred_series": "T10Y2Y"
+        "value_bps": 43.0,
+        "signal": "normal",
+        "source": "Treasury.gov (computed)",
+        "calculation": "10Y - 2Y from Treasury daily curve"
       },
       "10s30s": {
         "label": "10s30s Spread (NOB proxy)",
         "description": "30Y minus 10Y Treasury yield. Reflects long-end term premium and duration demand.",
-        "value_bps": null,
-        "change_1d_bps": null,
-        "change_1w_bps": null,
-        "signal": null,
-        "fred_series": null,
-        "calculation": "DGS30 - DGS10"
+        "value_bps": 48.0,
+        "signal": "normal",
+        "source": "Treasury.gov (computed)",
+        "calculation": "30Y - 10Y from Treasury daily curve"
       }
     },
     "levels": {
       "2y": {
-        "value": null,
-        "change_1d": null,
-        "fred_series": "DGS2"
+        "value": 4.34,
+        "change_1d_bps": -5.0,
+        "source": "Treasury.gov"
       },
       "10y": {
-        "value": null,
-        "change_1d": null,
-        "fred_series": "DGS10"
+        "value": 4.77,
+        "change_1d_bps": -2.0,
+        "source": "Treasury.gov"
       },
       "30y": {
-        "value": null,
-        "change_1d": null,
-        "fred_series": "DGS30"
+        "value": 5.25,
+        "change_1d_bps": -2.0,
+        "source": "Treasury.gov"
       }
     },
     "move_index": {
-      "_comment": "MOVE Index - bond market VIX. Source: Yahoo Finance ^MOVE or ICE.",
+      "_comment": "MOVE Index - bond market VIX. Source: Yahoo Finance ^MOVE.",
       "label": "MOVE Index",
       "description": "Treasury implied volatility index. High readings = bond market stress/uncertainty.",
-      "value": null,
-      "change_1d": null,
-      "percentile_1y": null,
+      "value": 74.68,
+      "change_1d": 0.0,
+      "signal": "low_vol",
       "yahoo_symbol": "^MOVE",
-      "signal": null,
+      "source": "Yahoo Finance",
       "thresholds": {
         "low": 80,
         "normal": 100,
@@ -172,14 +165,13 @@
   "data_fetch_status": {
     "_comment": "Track what data is live vs stubbed",
     "treasury_calendar": "stub",
-    "curve_data": "stub",
+    "curve_data": "live",
     "cftc_cot": "stub",
     "follow_up_for_tony": [
-      "Set up FRED API fetch for curve data (free, no key needed for basic usage)",
+      "DONE: Yield curve fetch via fetch_curve.py (Treasury.gov primary, FRED optional, MOVE via Yahoo)",
       "Set up Treasury auction calendar fetch from fiscaldata.treasury.gov API",
       "Set up CFTC COT weekly parse from cftc.gov or Quandl",
-      "Add cron job to pipeline for weekly/daily updates",
-      "Consider yfinance package for MOVE index (^MOVE ticker)"
+      "Add cron job to pipeline for weekly/daily updates"
     ],
     "compute_forward": "live"
   },
