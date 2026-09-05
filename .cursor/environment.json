@@ -1,0 +1,17 @@
+{
+  "name": "AI Finance Tech Dashboard",
+  "install": "bash .cursor/install.sh",
+  "terminals": [
+    {
+      "name": "site",
+      "command": "cd site && python3 -m http.server 8000",
+      "description": "Serves the static dashboard (site/) at http://localhost:8000 using the committed site/data bundle. No pipeline run or external credentials required."
+    }
+  ],
+  "ports": [
+    {
+      "name": "dashboard",
+      "port": 8000
+    }
+  ]
+}
