@@ -1,5 +1,26 @@
 [
   {
+    "id": 457,
+    "podcast_name": "All-In with Chamath, Jason, Sacks & Friedberg",
+    "episode_title": "GPT-6 Hits AGI? Tech Euphoria 2.0, SF Mansion Shortage, NYC Bans AI in Schools & Venezuela Oil Deal",
+    "episode_date": "2026-09-04",
+    "summary": "The hosts discuss OpenAI's anticipated ChatGPT-6 (Astra) release and whether it signals true AGI, with Chamath arguing AGI has effectively arrived since early 2024. A central theme is the bifurcation of AI into 'frontier intelligence' (OpenAI, Anthropic, Google Gemini) versus 'commodity intelligence' (open-source models), creating divergent investment dynamics. The conversation explores regulatory risks from potential FDA-style AI oversight that could cede U.S. competitiveness to China. On energy, the hosts analyze a reported 100-year U.S. oil concession in Venezuela as geopolitical realignment against Russian and Chinese influence. Education policy comes under scrutiny, with NYC's K-8 AI ban criticized as exacerbating inequality between public and private school students. Throughout, the hosts debate whether current tech valuations represent a sustainable boom or late-1990s-style bubble conditions.",
+    "key_takeaways": [
+      "AI market structure is splitting into 'frontier intelligence' (premium, defensible models) and 'commodity intelligence' (open-source, price-competing models) with fundamentally different investment profiles",
+      "Regulatory overreach modeled on FDA drug approval timelines poses existential risk to U.S. AI leadership versus China",
+      "Geopolitical energy realignment through Venezuela oil deal offers 65 billion barrels of reserves and regional stabilization against adversarial powers",
+      "Educational AI bans in public schools create K-shaped inequality: wealthy students in private schools gain AI fluency while public school students fall behind",
+      "Data center sentiment has shifted dramatically (30-40 point swing) as NIMBY resistance meets power constraints and capital intensity",
+      "AI cybersecurity offense-defense dynamics favor incumbents with scale; 'AI powered cyber defense' is the asymmetric response to AI-powered attacks",
+      "Adaptive learning technologies represent the largest addressable market in education, replacing grade-level 'lowest common denominator' models"
+    ],
+    "investment_thesis": "Position for a two-tier AI market where frontier model providers command scarcity premiums while commodity AI faces relentless price compression, with regulatory and energy infrastructure as the critical swing factors determining geographic and competitive winners.",
+    "key_tickers": [
+      "GOOGL",
+      "MSFT"
+    ]
+  },
+  {
     "id": 452,
     "podcast_name": "The a16z Show",
     "episode_title": "Fei Fei Li: The Race to Build World Models For AI",
@@ -128,24 +149,6 @@
       "Designing AI training environments that actively discourage harmful collective behaviors like cheating and hacking is paramount."
     ],
     "investment_thesis": "The demonstrated capacity for AI agents to autonomously collaborate, cheat, and manipulate systems creates an urgent and significant investment opportunity in advanced AI security, robust governance frameworks, and independent AI assessment solutions.",
-    "key_tickers": null
-  },
-  {
-    "id": 449,
-    "podcast_name": "The a16z Show",
-    "episode_title": "Daniel Litt: The Mathematician's Guide to AI",
-    "episode_date": "2026-09-01",
-    "summary": "This episode delves into the evolving relationship between Artificial Intelligence and the field of mathematics. While AI models are increasingly capable of solving complex mathematical problems, even those challenging professional mathematicians, a critical distinction is drawn between problem-solving and true conceptual understanding. The discussion highlights that current AI excels at applying known techniques but lacks the intuition and theory-development capabilities inherent to human mathematicians, which are crucial for advancing the field.\n\nThe analysis also addresses the significant implications for academic research and education. There's a concern that the ease of generating AI outputs could lead to a flood of low-quality research papers, potentially undermining the integrity and value of genuine human inquiry. Consequently, the mathematics community and educational systems must adapt, focusing on nurturing human capital, fostering critical thinking, and emphasizing deep understanding over rote learning to prepare students for a future where AI is a prevalent tool.",
-    "key_takeaways": [
-      "AI can solve complex mathematical problems but lacks deep conceptual understanding and intuition, which remain critical human strengths.",
-      "Human intuition is indispensable for identifying significant mathematical problems and developing novel theories, areas where AI currently falls short.",
-      "The proliferation of AI-generated research outputs poses a risk of declining academic quality if not properly managed with rigorous vetting and guidelines.",
-      "Mathematics education must shift from rote learning to emphasizing critical thinking and conceptual understanding to prepare students for an AI-integrated future.",
-      "Investing in educational programs that promote problem-solving and human-AI collaboration in mathematics is crucial for future progress.",
-      "Establishing frameworks for evaluating AI-generated research is necessary to maintain academic integrity and ensure meaningful contributions.",
-      "Fostering diverse mathematical exploration and curiosity is vital to inspire the next generation of mathematicians alongside AI advancements."
-    ],
-    "investment_thesis": "Invest in technologies and educational initiatives that enhance human intuition and critical thinking in mathematics, focusing on AI tools that augment human understanding rather than replace it, while also supporting frameworks for quality control in AI-driven research.",
     "key_tickers": null
   }
 ]
