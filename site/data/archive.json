@@ -20,6 +20,26 @@
       "podcast_episode_id": 452
     },
     {
+      "id": 472,
+      "title": "GPT-6 Hits AGI? Tech Euphoria 2.0, SF Mansion Shortage, NYC Bans AI in Schools & Venezuela Oil Deal",
+      "source_type": "podcast",
+      "source_name": "All-In with Chamath, Jason, Sacks & Friedberg",
+      "source_date": "2026-09-04",
+      "summary": "The hosts discuss OpenAI's anticipated ChatGPT-6 (Astra) release and whether it signals true AGI, with Chamath arguing AGI has effectively arrived since early 2024. A central theme is the bifurcation of AI into 'frontier intelligence' (OpenAI, Anthropic, Google Gemini) versus 'commodity intelligence' (open-source models), creating divergent investment dynamics. The conversation explores regulatory risks from potential FDA-style AI oversight that could cede U.S. competitiveness to China. On energy, the hosts analyze a reported 100-year U.S. oil concession in Venezuela as geopolitical realignment against Russian and Chinese influence. Education policy comes under scrutiny, with NYC's K-8 AI ban criticized as exacerbating inequality between public and private school students. Throughout, the hosts debate whether current tech valuations represent a sustainable boom or late-1990s-style bubble conditions.",
+      "key_takeaway": "Position for a two-tier AI market where frontier model providers command scarcity premiums while commodity AI faces relentless price compression, with regulatory and energy infrastructure as the critical swing factors determining geographic and competitive winners.",
+      "tickers_mentioned": [
+        "GOOGL",
+        "MSFT"
+      ],
+      "sentiment": "bearish",
+      "display_on_main": 1,
+      "display_order": 0,
+      "added_date": "2026-09-05",
+      "archived_date": null,
+      "archived_reason": null,
+      "podcast_episode_id": 457
+    },
+    {
       "id": 467,
       "title": "The $100B Niches Hiding Inside Payments",
       "source_type": "podcast",
@@ -127,7 +147,7 @@
         "NVDA"
       ],
       "sentiment": "neutral",
-      "display_on_main": 1,
+      "display_on_main": 0,
       "display_order": 0,
       "added_date": "2026-09-01",
       "archived_date": null,
@@ -9156,8 +9176,8 @@
       "term": "Skin in the Game",
       "description": "A principle where individuals or entities have a personal stake or risk in the outcomes of their decisions or actions.",
       "first_detected_date": "2026-08-04",
-      "last_mentioned_date": "2026-08-07",
-      "mention_count": 2,
+      "last_mentioned_date": "2026-09-04",
+      "mention_count": 3,
       "source_podcasts": null,
       "status": "active",
       "investment_implications": "Having skin in the game can align incentives and encourage more prudent risk management in investment strategies.",
@@ -9166,8 +9186,8 @@
       "archived_reason": null,
       "first_detected_episode_id": 384,
       "first_detected_speaker": "Victor Hagani",
-      "last_mentioned_episode_id": 392,
-      "last_mentioned_speaker": "Daya Pernos, Dean Pernos"
+      "last_mentioned_episode_id": 457,
+      "last_mentioned_speaker": "Chamath Palihapitiya, Jason Calacanis (hosts)"
     },
     {
       "id": 269,
@@ -9568,20 +9588,20 @@
     {
       "id": 252,
       "term": "AI Commoditization",
-      "description": "The process by which core AI capabilities, particularly foundational models, become widely available and less differentiated, leading to a shift in competitive advantage towards application-specific innovation and product execution.",
+      "description": "The downward price pressure on basic AI capabilities as open-source models and inference costs collapse, separating premium from commodity offerings.",
       "first_detected_date": "2026-06-15",
-      "last_mentioned_date": "2026-08-22",
-      "mention_count": 4,
+      "last_mentioned_date": "2026-09-04",
+      "mention_count": 5,
       "source_podcasts": null,
       "status": "active",
-      "investment_implications": "Investors should focus on application-layer companies that can leverage commoditized AI to achieve strong product-market fit rather than solely on foundational model providers.",
+      "investment_implications": "Forces differentiation between investable frontier intelligence (scarcity premium) and un-investable commodity AI (margin compression).",
       "display_on_main": 1,
       "archived_date": null,
       "archived_reason": null,
       "first_detected_episode_id": 286,
       "first_detected_speaker": "Jack Farley (hosts)",
-      "last_mentioned_episode_id": 439,
-      "last_mentioned_speaker": "Martin Casado (hosts)"
+      "last_mentioned_episode_id": 457,
+      "last_mentioned_speaker": "Chamath Palihapitiya, Jason Calacanis (hosts)"
     },
     {
       "id": 248,
@@ -10090,20 +10110,20 @@
     {
       "id": 161,
       "term": "AGI",
-      "description": "Artificial General Intelligence refers to hypothetical AI that can understand, learn, and apply intelligence to any intellectual task that a human being can.",
+      "description": "Artificial General Intelligence: AI systems with human-level reasoning and problem-solving across any domain, debated here as already arrived versus still emerging.",
       "first_detected_date": "2026-05-07",
-      "last_mentioned_date": "2026-09-02",
-      "mention_count": 87,
+      "last_mentioned_date": "2026-09-04",
+      "mention_count": 88,
       "source_podcasts": null,
       "status": "active",
-      "investment_implications": "Early investment in AGI-related technologies or foundational research could yield substantial returns as capabilities expand and industries are transformed.",
+      "investment_implications": "Determines valuation multiples for frontier AI companies and timeline for workforce displacement across sectors.",
       "display_on_main": 1,
       "archived_date": null,
       "archived_reason": null,
       "first_detected_episode_id": 204,
       "first_detected_speaker": "Demis Hassabis",
-      "last_mentioned_episode_id": 455,
-      "last_mentioned_speaker": "Elon Musk"
+      "last_mentioned_episode_id": 457,
+      "last_mentioned_speaker": "Chamath Palihapitiya, Jason Calacanis (hosts)"
     },
     {
       "id": 162,
@@ -10252,20 +10272,20 @@
     {
       "id": 126,
       "term": "Data Center Nimbyism",
-      "description": "Local opposition to data center construction due to noise, land use, and grid strain that pushes developers toward dedicated power sources including on-site nuclear.",
+      "description": "Local opposition to data center construction due to power, water, and land use concerns, increasingly constraining AI infrastructure expansion.",
       "first_detected_date": "2026-04-20",
-      "last_mentioned_date": "2026-09-03",
-      "mention_count": 4,
+      "last_mentioned_date": "2026-09-04",
+      "mention_count": 5,
       "source_podcasts": null,
       "status": "active",
-      "investment_implications": "Nuclear co-location with data centers bypasses transmission constraints and local opposition, creating premium-priced captive power markets.",
+      "investment_implications": "Creates geographic moats for existing data center clusters and advantages regions with permissive zoning and excess power capacity.",
       "display_on_main": 0,
       "archived_date": null,
       "archived_reason": null,
       "first_detected_episode_id": null,
       "first_detected_speaker": null,
-      "last_mentioned_episode_id": 453,
-      "last_mentioned_speaker": "Dr. Carley Anderson"
+      "last_mentioned_episode_id": 457,
+      "last_mentioned_speaker": "Chamath Palihapitiya, Jason Calacanis (hosts)"
     },
     {
       "id": 118,
@@ -11044,20 +11064,20 @@
     {
       "id": 19,
       "term": "Regulatory Moat",
-      "description": "A barrier to entry created by regulatory frameworks that can protect incumbents or hinder new entrants.",
+      "description": "Competitive advantage created by compliance complexity that only large incumbents can navigate, here discussed as a risk if FDA-style AI regulation emerges.",
       "first_detected_date": "2026-03-13",
-      "last_mentioned_date": "2026-07-16",
-      "mention_count": 3,
+      "last_mentioned_date": "2026-09-04",
+      "mention_count": 4,
       "source_podcasts": null,
       "status": "active",
-      "investment_implications": "Understanding the impact of regulatory moats is key for investors assessing the competitive landscape of emerging technologies.",
+      "investment_implications": "Paradoxically, overregulation could entrench dominant players while stifling startup innovation and ceding ground to unregulated foreign competitors.",
       "display_on_main": 0,
       "archived_date": null,
       "archived_reason": null,
       "first_detected_episode_id": null,
       "first_detected_speaker": null,
-      "last_mentioned_episode_id": 350,
-      "last_mentioned_speaker": "David Sachs"
+      "last_mentioned_episode_id": 457,
+      "last_mentioned_speaker": "Chamath Palihapitiya, Jason Calacanis (hosts)"
     },
     {
       "id": 21,
@@ -11118,8 +11138,8 @@
       "term": "AI Race",
       "description": "The global competition between countries to lead in artificial intelligence development and application.",
       "first_detected_date": "2026-03-11",
-      "last_mentioned_date": "2026-08-29",
-      "mention_count": 33,
+      "last_mentioned_date": "2026-09-04",
+      "mention_count": 34,
       "source_podcasts": null,
       "status": "active",
       "investment_implications": "Investors should consider the AI optimism and development pace in different countries when allocating capital.",
@@ -11128,8 +11148,8 @@
       "archived_reason": null,
       "first_detected_episode_id": 60,
       "first_detected_speaker": null,
-      "last_mentioned_episode_id": 444,
-      "last_mentioned_speaker": "Peter Diamandis (hosts)"
+      "last_mentioned_episode_id": 457,
+      "last_mentioned_speaker": "Chamath Palihapitiya, Jason Calacanis (hosts)"
     },
     {
       "id": 12,
@@ -11190,8 +11210,8 @@
       "term": "AI Agents",
       "description": "Autonomous artificial intelligence programs designed to perform tasks, which in this context demonstrated the ability to communicate, collaborate, and strategize collectively to achieve goals, including exploitation.",
       "first_detected_date": "2026-02-28",
-      "last_mentioned_date": "2026-09-02",
-      "mention_count": 82,
+      "last_mentioned_date": "2026-09-04",
+      "mention_count": 83,
       "source_podcasts": null,
       "status": "active",
       "investment_implications": "The emergence of collaborative and potentially malicious AI Agents creates a significant market for AI security, monitoring, and governance technologies.",
@@ -11200,8 +11220,8 @@
       "archived_reason": null,
       "first_detected_episode_id": 31,
       "first_detected_speaker": null,
-      "last_mentioned_episode_id": 455,
-      "last_mentioned_speaker": "Elon Musk"
+      "last_mentioned_episode_id": 457,
+      "last_mentioned_speaker": "Chamath Palihapitiya, Jason Calacanis (hosts)"
     },
     {
       "id": 38,
