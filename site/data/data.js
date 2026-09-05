@@ -3,80 +3,80 @@
 
 const dashboardData = {
   schemaVersion: 2,
-  generatedAt: "2026-09-05T05:23:18.643445",
-  chartsVersion: "2026-09-05T05:23:06.789354",
+  generatedAt: "2026-09-05T06:56:08.646310",
+  chartsVersion: "2026-09-05T06:55:52.542107",
   priceSnapshot: {
   "GOOGL": {
     "price": 338.46,
     "change_pct": -1.6,
     "name": "GOOGL",
-    "updated_at": "2026-09-05T05:23:06.788578"
+    "updated_at": "2026-09-05T06:55:52.540937"
   },
   "NVDA": {
     "price": 230.36,
     "change_pct": 4.83,
     "name": "NVDA",
-    "updated_at": "2026-09-05T05:23:06.788594"
+    "updated_at": "2026-09-05T06:55:52.540960"
   },
   "TSLA": {
     "price": 354.08,
     "change_pct": 5.11,
     "name": "TSLA",
-    "updated_at": "2026-09-05T05:23:06.788600"
+    "updated_at": "2026-09-05T06:55:52.540969"
   },
   "MSFT": {
     "price": 499.7,
     "change_pct": 3.95,
     "name": "MSFT",
-    "updated_at": "2026-09-05T05:23:06.788606"
+    "updated_at": "2026-09-05T06:55:52.540977"
   },
   "BTC": {
-    "price": 79614.14,
-    "change_pct": 2.39,
+    "price": 79647.62,
+    "change_pct": 2.43,
     "name": "BTC",
-    "updated_at": "2026-09-05T05:23:06.788612"
+    "updated_at": "2026-09-05T06:55:52.540984"
   },
   "AMZN": {
     "price": 258.51,
     "change_pct": -0.36,
     "name": "AMZN",
-    "updated_at": "2026-09-05T05:23:06.788617"
+    "updated_at": "2026-09-05T06:55:52.540993"
   },
   "META": {
     "price": 616.77,
     "change_pct": 13.45,
     "name": "META",
-    "updated_at": "2026-09-05T05:23:06.788623"
+    "updated_at": "2026-09-05T06:55:52.541002"
   },
   "WTI": {
     "price": 3.82,
     "change_pct": 0.0,
     "name": "WTI",
-    "updated_at": "2026-09-05T05:23:06.788629"
+    "updated_at": "2026-09-05T06:55:52.541011"
   },
   "S&P 500": {
     "price": 770.19,
     "change_pct": 0.36,
     "name": "S&P 500",
-    "updated_at": "2026-09-05T05:23:06.788634"
+    "updated_at": "2026-09-05T06:55:52.541019"
   },
   "AAPL": {
     "price": 319.97,
     "change_pct": 3.21,
     "name": "AAPL",
-    "updated_at": "2026-09-05T05:23:06.788640"
+    "updated_at": "2026-09-05T06:55:52.541028"
   },
   "QQQ": {
     "price": 718.96,
     "change_pct": 0.2,
     "name": "Invesco QQQ Trust",
-    "updated_at": "2026-09-05T05:23:06.788645"
+    "updated_at": "2026-09-05T06:55:52.541036"
   },
   "BTC-USD": {
-    "price": 79614.14,
-    "change_pct": 2.39,
+    "price": 79647.62,
+    "change_pct": 2.43,
     "name": "Bitcoin USD",
-    "updated_at": "2026-09-05T05:23:06.788651"
+    "updated_at": "2026-09-05T06:55:52.541045"
   }
 },
   tickerScores: [
@@ -40481,7 +40481,7 @@ const dashboardData = {
 ],
   podcastGuests: [
   {
-    "id": 63262,
+    "id": 63351,
     "name": "Fei Fei Li",
     "slug": "fei-fei-li",
     "bio": null,
@@ -40493,7 +40493,7 @@ const dashboardData = {
     "appearance_count": 1
   },
   {
-    "id": 63263,
+    "id": 63352,
     "name": "Financial strategist Jared Dillian",
     "slug": "financial-strategist-jared-dillian",
     "bio": null,
@@ -40505,7 +40505,7 @@ const dashboardData = {
     "appearance_count": 1
   },
   {
-    "id": 63264,
+    "id": 63353,
     "name": "Daniel Litt",
     "slug": "daniel-litt",
     "bio": null,
@@ -40517,7 +40517,7 @@ const dashboardData = {
     "appearance_count": 1
   },
   {
-    "id": 63265,
+    "id": 63354,
     "name": "Gavin Baker",
     "slug": "gavin-baker",
     "bio": null,
@@ -40529,7 +40529,7 @@ const dashboardData = {
     "appearance_count": 1
   },
   {
-    "id": 63266,
+    "id": 63355,
     "name": "Sam Altman",
     "slug": "sam-altman",
     "bio": null,
@@ -40541,7 +40541,7 @@ const dashboardData = {
     "appearance_count": 1
   },
   {
-    "id": 63267,
+    "id": 63356,
     "name": "Time to Reduce Equity Risk",
     "slug": "time-to-reduce-equity-risk",
     "bio": null,
@@ -40553,7 +40553,7 @@ const dashboardData = {
     "appearance_count": 1
   },
   {
-    "id": 63268,
+    "id": 63357,
     "name": "Eric Weinstein",
     "slug": "eric-weinstein",
     "bio": null,
@@ -40565,7 +40565,7 @@ const dashboardData = {
     "appearance_count": 1
   },
   {
-    "id": 63269,
+    "id": 63358,
     "name": "Michael Kratsios",
     "slug": "michael-kratsios",
     "bio": null,
@@ -40577,7 +40577,7 @@ const dashboardData = {
     "appearance_count": 1
   },
   {
-    "id": 63270,
+    "id": 63359,
     "name": "Emad Mostaque",
     "slug": "emad-mostaque",
     "bio": null,
@@ -40589,7 +40589,7 @@ const dashboardData = {
     "appearance_count": 3
   },
   {
-    "id": 63271,
+    "id": 63360,
     "name": "Angela Strange and Gabriel Vasquez",
     "slug": "angela-strange-and-gabriel-vasquez",
     "bio": null,
@@ -40601,7 +40601,7 @@ const dashboardData = {
     "appearance_count": 1
   },
   {
-    "id": 63272,
+    "id": 63361,
     "name": "Why Bessent Blinked",
     "slug": "why-bessent-blinked",
     "bio": null,
@@ -40613,7 +40613,7 @@ const dashboardData = {
     "appearance_count": 1
   },
   {
-    "id": 63273,
+    "id": 63362,
     "name": "Travis Kalanick",
     "slug": "travis-kalanick",
     "bio": null,
@@ -40625,7 +40625,7 @@ const dashboardData = {
     "appearance_count": 1
   },
   {
-    "id": 63274,
+    "id": 63363,
     "name": "Rahm Emanuel",
     "slug": "rahm-emanuel",
     "bio": null,
@@ -40637,7 +40637,7 @@ const dashboardData = {
     "appearance_count": 1
   },
   {
-    "id": 63275,
+    "id": 63364,
     "name": "Milton Berg",
     "slug": "milton-berg",
     "bio": "Milton Berg is a veteran technical analyst and CEO of Milton Berg Advisors, specializing in market turning-point analysis for institutional investors.",
@@ -40649,7 +40649,7 @@ const dashboardData = {
     "appearance_count": 1
   },
   {
-    "id": 63276,
+    "id": 63365,
     "name": "How Open",
     "slug": "how-open",
     "bio": null,
@@ -40661,7 +40661,7 @@ const dashboardData = {
     "appearance_count": 1
   },
   {
-    "id": 63277,
+    "id": 63366,
     "name": "Saronic Founders",
     "slug": "saronic-founders",
     "bio": null,
@@ -40673,7 +40673,7 @@ const dashboardData = {
     "appearance_count": 1
   },
   {
-    "id": 63278,
+    "id": 63367,
     "name": "OpenAI's Joshua Achiam",
     "slug": "openais-joshua-achiam",
     "bio": null,
@@ -40685,7 +40685,7 @@ const dashboardData = {
     "appearance_count": 1
   },
   {
-    "id": 63279,
+    "id": 63368,
     "name": "Marc Andreessen and Chris Dixon",
     "slug": "marc-andreessen-and-chris-dixon",
     "bio": null,
@@ -40697,7 +40697,7 @@ const dashboardData = {
     "appearance_count": 1
   },
   {
-    "id": 63280,
+    "id": 63369,
     "name": "AI for America's Small Businesses",
     "slug": "ai-for-americas-small-businesses",
     "bio": null,
@@ -40709,7 +40709,7 @@ const dashboardData = {
     "appearance_count": 1
   },
   {
-    "id": 63281,
+    "id": 63370,
     "name": "Luke Gromen",
     "slug": "luke-gromen",
     "bio": null,
@@ -40950,7 +40950,7 @@ const dashboardData = {
     "last_podcast_name": "The a16z Show",
     "last_episode_date": "2026-09-01",
     "mention_score": 1,
-    "mention_score_decayed": 0.93,
+    "mention_score_decayed": 0.91,
     "last_main_idea": "Invest in technologies and educational initiatives that enhance human intuition and critical thinking in mathematics, focusing on AI tools that augment human understanding rather than replace it, while also supporting frameworks for quality control in AI-driven research.",
     "last_proof_cite": "The a16z Show \u2022 2026-09-01 \u2022 Daniel Litt: The Mathematician's Guide to AI",
     "last_proof_snippet": "The goal of mathematics is not to produce mathematics papers. It's to produce some kind of understanding. Maybe some of that understanding resides in model weights. To me, that's like pretty unsatisfied. Comparing and profit with open AI. D",
@@ -41276,7 +41276,7 @@ const dashboardData = {
     "last_podcast_name": "The a16z Show",
     "last_episode_date": "2026-08-28",
     "mention_score": 1,
-    "mention_score_decayed": 0.85,
+    "mention_score_decayed": 0.83,
     "last_main_idea": "The next major bottleneck in AI is not the model itself, but the underlying infrastructure that supports it, presenting a significant investment opportunity in companies that can innovate and scale to meet these new demands.",
     "last_proof_cite": "The a16z Show \u2022 2026-08-28 \u2022 The Infrastructure Behind the Machine Age",
     "last_proof_snippet": "We have a whole new technology that's most important technology ever and you need a whole new infrastructure Now I'm going to even be talking about the infrastructure We're talking about the subverse and the storage and the network here goe",
@@ -41340,7 +41340,7 @@ const dashboardData = {
     "last_podcast_name": "The a16z Show",
     "last_episode_date": "2026-08-28",
     "mention_score": 1,
-    "mention_score_decayed": 0.85,
+    "mention_score_decayed": 0.83,
     "last_main_idea": "The next major bottleneck in AI is not the model itself, but the underlying infrastructure that supports it, presenting a significant investment opportunity in companies that can innovate and scale to meet these new demands.",
     "last_proof_cite": "The a16z Show \u2022 2026-08-28 \u2022 The Infrastructure Behind the Machine Age",
     "last_proof_snippet": "We have a whole new technology that's most important technology ever and you need a whole new infrastructure Now I'm going to even be talking about the infrastructure We're talking about the subverse and the storage and the network here goe",
@@ -41650,7 +41650,7 @@ const dashboardData = {
     "last_podcast_name": "All-In with Chamath, Jason, Sacks & Friedberg",
     "last_episode_date": "2026-08-26",
     "mention_score": 1,
-    "mention_score_decayed": 0.83,
+    "mention_score_decayed": 0.81,
     "last_main_idea": "Investing in cutting-edge scientific research and exploration could lead to paradigm-shifting discoveries with significant impact on various industries.",
     "last_proof_cite": "All-In with Chamath, Jason, Sacks & Friedberg \u2022 2026-08-26 \u2022 Eric Weinstein: The State of American Science, Breakthrough Coverups, and the Danger of Physics",
     "last_proof_snippet": "We have become a f***ing nation when it comes to science. You were called a friend scientist and keep saying, friend, yeah. I totally disagree with the narrative of the field. I want to blow a giant pole in civil rights act. The stagnation",
@@ -41901,7 +41901,7 @@ const dashboardData = {
     "last_podcast_name": "The a16z Show",
     "last_episode_date": "2026-08-26",
     "mention_score": 1,
-    "mention_score_decayed": 0.81,
+    "mention_score_decayed": 0.79,
     "last_main_idea": "Invest in the application layer of AI where significant value can be captured, and consider the emerging consumer AI space for new opportunities.",
     "last_proof_cite": "The a16z Show \u2022 2026-08-26 \u2022 The State of AI: Macro, Apps, and Consumer",
     "last_proof_snippet": "For the last few years, the biggest question in the AI was which model would win. The next phase may be less about the models, and more about what gets built on top of them. In this episode, Jen Costa sits down with Anish Acharya, to unpack w",
@@ -45596,7 +45596,7 @@ const dashboardData = {
     "last_podcast_name": "The a16z Show",
     "last_episode_date": "2026-07-23",
     "mention_score": 1,
-    "mention_score_decayed": 0.38,
+    "mention_score_decayed": 0.37,
     "last_main_idea": "Industrial AI represents a substantial opportunity to transform physical industries through automation and AI, creating significant value beyond traditional software solutions.",
     "last_proof_cite": "The a16z Show \u2022 2026-07-23 \u2022 Building the Physical AI Stack | Travis Kalanick on TBPN",
     "last_proof_snippet": "Travis Kelenick joins TVPN to discuss why he's betting his next company on industrial AI. He shares his vision behind atoms, explains how autonomy is transforming industries like mining and food production, and discusses why bringing AI int",
@@ -45656,7 +45656,7 @@ const dashboardData = {
     "last_podcast_name": "Latent Space: The AI Engineer Podcast",
     "last_episode_date": "2026-07-23",
     "mention_score": 1,
-    "mention_score_decayed": 0.37,
+    "mention_score_decayed": 0.36,
     "last_main_idea": "Investing in AI development, particularly in the democratization of AI and the scaling of language models, can lead to significant innovation and competitive advantage.",
     "last_proof_cite": "Latent Space: The AI Engineer Podcast \u2022 2026-07-23 \u2022 Inside the Model Factory \u2014 Eiso Kant, Poolside AI",
     "last_proof_snippet": "All right, we're here in the studio. If I was a countryman, we'll fight together with people. Welcome. Thanks, thank you, guys. It's good to be here. Yeah, fresh on the plane. You texted me, you're like, hey, I'm on my way to SF. I was like",
