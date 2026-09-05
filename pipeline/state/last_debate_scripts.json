@@ -1,22 +1,28 @@
 {
-  "host": "Welcome to The Long and Short of It.\nToday's contract debate topic is:\nWill the 10-year Treasury constant-maturity yield (FRED DGS10 official daily) print at or above 5.00% on any observation through Friday 23 Oct 2026 12:00 PM CT?\n\nAffirmative will make the case for yes.\nNegative will make the case for no.",
-  "yes": "Affirmative.\n\nThe long of it is that this time is the same machine that drove FRED DGS10 to its cycle high of 4.98% on October 19, 2023 \u2014 coupon supply plus TGA cash rebuild into QT \u2014 only now without the ON RRP cushion. Into that near-miss, Treasury had raised coupon auction sizes after the August 2, 2023 quarterly refunding while Fed SOMA Treasuries were still running off near 4.91 to 4.93 trillion dollars, and TGA balances climbed from 481.6 billion on September 6 to 841.1 billion by October 18. DGS10 never printed 5.00% then; the last official observation at or above 5.00% remains July 19, 2007. Fear is the buffer is gone: ON RRP that still sat above 2.2 trillion in May 2023 prints mostly under 1 billion day-to-day by early September 2026, while TGA sits near 944 billion and Fed total assets are already down to about 6.74 trillion. Soft-landing stories treat term premium as quiet; the captive-duration and fiscal-dominance narrative live on this site says coupon supply still has to clear without a wartime yield peg. Concession: the August 12, 2026 ten-year auction cleared with only 8.60% primary-dealer take-down and 76.73% indirect, versus 18.75% dealer take-down on October 11, 2023 \u2014 so if September 9 and October 7 ten-year allotments keep that non-dealer clearing, the rhyme can fail to push any official DGS10 print through 5.00% by October 23.",
-  "no": "Negative.\n\nThe short of it is that this time is different at the clearing margin and in US reserve-currency plumbing. The October 11, 2023 ten-year left 18.75% with primary dealers into the near-miss; the August 12, 2026 ten-year left only 8.60% with dealers and 76.73% with indirect bidders, and Fed custody on September 2, 2026 still shows about 2.60 trillion dollars of marketable Treasuries held for foreign official and international accounts. Hope is that this plumbing absorbs coupon supply the way an EM sudden-stop cannot \u2014 Thailand floated the baht on July 2, 1997, and the 1996 to 1997 reversal of net private capital flows across the five Asian crisis economies was about 11% of combined GDP. Soft-landing precedents in 1995 and 2019 kept expansions alive without a wartime two-and-a-half-percent long-bond peg; Japan ran yield-curve control from September 21, 2016 until March 19, 2024 with the Bank of Japan holding nearly half of JGBs, and the United States has had no standing yield ceiling since the 1951 Accord. Concession: debt held by the public is still near wartime scale \u2014 98% of GDP in 2025 versus a 106% peak in 1946 \u2014 and ON RRP is drained, so a September 9 or October 7 ten-year allotment that pushes primary-dealer take-down back toward the October 2023 pattern would put the fiscal-dominance narrative back on trial. Until that print shows up, August clearing and foreign custody argue DGS10 stays below 5.00% through October 23.",
+  "host": "Welcome to The Long and Short of It.\nToday's contract: will the 10-year yield print at or above 5.00% on any observation through October 23rd?\n\nAffirmative will make the case for yes.\nNegative will make the case for no.",
+  "yes": "Affirmative.\n\nThe long of it is that this time is the same duration squeeze \u2014 only the who has changed. Overnight Reverse Repo (ON RRP) is a Fed facility, not a Treasury button, and take-up that peaked near two and a half trillion at the end of 2022 is now mostly under a billion day-to-day; the slogan that Yellen emptied it is the live narrative on trial, but the print is the drained buffer either way. Fear is that Secretary Bessent still has not delivered the duration extension he floated as the eventual goal \u2014 February 2025 he called terming out a long way off, and the August 2026 refunding kept coupon sizes flat for at least the next several quarters while leaning on bills as the shock absorber. Soft-landing hopes lean on Chair Warsh to cut; Trump said at nomination that Warsh certainly wants to cut rates, but Warsh's own Jackson Hole line in August 2026 put prices first with inflation still above target and work to do. Concession: August's ten-year auction still cleared with thin primary-dealer take-down and heavy indirect demand, so if Bessent's maintain-coupon path keeps clearing that way through the next refunding prints, the same machine can miss 5.00% by October 23rd. The captive-duration story on this site says actors who leave the cushion empty and coupons unextended still put the 10-year yield through the bar.",
+  "no": "Negative.\n\nThe short of it is that this time is different at who owns the plumbing and what they have actually done. Overnight Reverse Repo (ON RRP) rundowns when money-market funds stop submitting to the Desk \u2014 Fed mechanics, not a Yellen empty-button; treat that slogan as unverified. Hope is Bessent's path dependence: he criticized a bill-heavy mix before office, then as Secretary said terming out was eventual but not signaled now, and August 2026 refunding plus TBAC kept coupons flat with dealers generally eyeing size hikes sometime in 2027 \u2014 buybacks raised for long-end liquidity are not a coupon-duration extension. Soft-landing versus fiscal-dominance is on trial in the Warsh file: his record is inflation-accountability and a puzzled reaction to the September 2024 cut, while Trump's \"certainly wants to cut rates\" was Trump's claim about him, not Warsh's pledge \u2014 Jackson Hole was discipline, not a cut date. Concession: ON RRP near empty removes a cash sponge that existed into the October 2023 near-miss, when the 10-year yield peaked at 4.98% and never printed 5.00%, so a weak coupon-clearing print before October 23rd would put the same-machine story back up. Until Bessent actually raises coupons or Warsh delivers an easy path, the who-and-direction file argues the 10-yr yield stays under 5.00% through October 23rd.",
   "close": "This has been The Long and Short of It. Choose evidence over tribe.",
   "review": {
-    "mode": "publish_audio_v2",
+    "mode": "scripts_only_v3",
     "friday_iso": "2026-09-04",
     "prompt": "Will the 10-year Treasury constant-maturity yield (FRED DGS10 official daily) print at or above 5.00% on any observation through Friday 23 Oct 2026 12:00 PM CT?",
     "resolves_iso": "2026-10-23",
-    "note": "JG contract v1 + Scout packet; v2. Generated 2026-09-04 under Debait Generator Contract v1. YES pole=SAME (lenses 1 near-miss, 5 plumbing; narrative: captive-duration/fiscal-dominance vs soft-landing). NO pole=DIFFERENT (lenses 7 auction clearing, 4 EM vs reserve privilege, 6 soft-landing/YCC contrast). Gate PASS. DGS10 history correct (4.98% peak 2023-10-19; last \u22655.00% 2007-07-19). ElevenLabs audio shipped 2026-09-04 from this v2 (Ditka GO); not v1 redline.",
+    "note": "JG contract v1 + Scout who/direction packet; v3 audio rules (Jared via Ditka). HOST uses 10-year yield + October 23rd only. First ON RRP expanded once per speech. Who+direction lead: ON RRP Fed-owned rundown (Yellen-empty slogan on trial / unverified per Scout); Bessent said eventual term-out, Aug 2026 maintain coupons; Warsh inflation-first quotes vs Trump 'certainly wants to cut rates' claim. YES=SAME; NO=DIFFERENT. Lenses ~5 plumbing + 6 narrative (+1 near-miss support on NO). Gate self-check PASS. No ElevenLabs until JG gate + Ditka/Jared Tony call.",
     "yes_lenses": [
-      1,
-      5
+      5,
+      6
     ],
     "no_lenses": [
-      7,
-      4,
-      6
+      5,
+      6,
+      1
+    ],
+    "audio_rules": [
+      "10-year yield / 10-yr yield \u2014 no full FRED DGS10 constant-maturity speech",
+      "resolve date October 23rd only",
+      "first ON RRP = Overnight Reverse Repo (ON RRP)",
+      "who+direction > dollar stacks"
     ],
     "gate": {
       "swappable": false,
@@ -24,10 +30,13 @@
       "live_narrative_on_trial": true,
       "false_dgs10_history": false,
       "facts_from_packet": true,
+      "yellen_empty_asserted_as_fact": false,
       "pass": true
     },
     "sources": [
       "/workspace/debait/generator-contract-v1.md",
+      "/workspace/debait/10y-v3-plumbing-who-packet.md",
+      "/workspace/debait/v3-audio-rules.md",
       "/workspace/debait/10y-v2-fact-packet.md"
     ]
   }
