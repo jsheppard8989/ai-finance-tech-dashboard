@@ -1,5 +1,26 @@
 [
   {
+    "id": 459,
+    "podcast_name": "Moonshots with Peter Diamandis",
+    "episode_title": "GPT-6 Astra Saturates ARC-AGI-3, Tesla's $30K Cybercab Floods Austin, Anthropic Proves Fermat's Last Theorem | EP #286",
+    "episode_date": "2026-09-05",
+    "summary": "This episode of Moonshots with Peter Diamandis explores breakthrough developments across space infrastructure, autonomous vehicles, healthcare AI, and longevity science. Key investment themes include NASA's selection of Blue Origin for Mars telecommunications relay networks, signaling the emergence of interplanetary infrastructure as an investable frontier. Tesla's projected $30,000 Cyber Cab represents a potential price disruption in autonomous ride-hailing that could reshape urban mobility economics. In healthcare, the FDA approval of a RAS inhibitor for previously 'undruggable' cancers marks a watershed moment in targeted oncology, while OpenAI's integration into Epic's electronic health records demonstrates AI's accelerating penetration into clinical workflows. Perhaps most significantly for longevity investors, new research links GLP-1 drugs to lifespan extension and reduced infections, potentially expanding their addressable market beyond diabetes and obesity into anti-aging therapeutics.",
+    "key_takeaways": [
+      "Blue Origin's NASA contract for Mars telecom establishes early competitive positioning in interplanetary infrastructure, with implications for space economy investors",
+      "Tesla's $30,000 Cyber Cab target price could undercut existing autonomous vehicle economics by 50-70%, potentially triggering rapid fleet adoption and urban transport disruption",
+      "RAS inhibitors represent a breakthrough in targeting 30% of human cancers previously considered undruggable, with expansion from pancreatic to lung cancer indications underway",
+      "OpenAI-Epic integration enables natural language queries across complete patient records, suggesting AI healthcare adoption is moving from pilot to production at scale",
+      "GLP-1 drugs show almost 100-day lifespan extension in late-life mouse studies, indicating potential repositioning from metabolic to longevity therapeutics with massive TAM expansion",
+      "Space infrastructure, particularly interplanetary communications, is transitioning from government-only to commercially competitive with identifiable investment entry points",
+      "Healthcare AI integration is shifting from diagnostic imaging to clinical workflow and EHR analytics, representing a broader enterprise software opportunity in medicine"
+    ],
+    "investment_thesis": "The convergence of space commercialization, autonomous mobility price disruption, and healthcare's shift from treatment to prevention and longevity creates a multi-decade investment opportunity in infrastructure-for-frontier-markets, with GLP-1 drugs potentially becoming the largest pharmaceutical category in history if lifespan extension claims hold in human trials.",
+    "key_tickers": [
+      "TSLA",
+      "AMZN"
+    ]
+  },
+  {
     "id": 458,
     "podcast_name": "The a16z Show",
     "episode_title": "Aaron Levie on Why Open AI Wins",
@@ -109,26 +130,6 @@
     ],
     "investment_thesis": "Investors should exploit the disconnect between bearish bond sentiment and moderating inflation by locking in historically high yields in long-duration government bonds, while hedging equity concentration risk through true cross-asset diversification and avoiding illiquid private markets until a clear floor forms.",
     "key_tickers": null
-  },
-  {
-    "id": 456,
-    "podcast_name": "The a16z Show",
-    "episode_title": "Inside Moderna\u2019s Personalized Cancer Vaccine",
-    "episode_date": "2026-09-02",
-    "summary": "This episode features Moderna's CEO Stefan Bunzel discussing the landmark Phase 3 success of their personalized mRNA cancer vaccine for melanoma, the first effective cancer vaccine after over a thousand failed trials. The treatment achieves 80% recurrence-free survival at five years versus 50% for standard-of-care Keytruda, by sequencing each patient's tumor DNA to create a unique mRNA vaccine that trains the immune system to recognize cancer-specific mutations. Bunzel details the operational challenge of manufacturing thousands of unique doses with a 42-day turnaround, the regulatory pathway modeled on CAR T-cell therapies, and expansion plans into kidney, bladder, pancreatic cancers and autoimmune diseases. The core investment theme is that personalization is not an edge case but fundamental to next-generation therapeutics, requiring entirely new manufacturing, regulatory, and commercial paradigms.",
-    "key_takeaways": [
-      "Moderna's personalized mRNA melanoma vaccine achieved 80% five-year recurrence-free survival in Phase 3, a historic first for cancer vaccines with massive market potential",
-      "Personalization is foundational, not optional: 90% of tumor antigens differ patient-to-patient, making individualized manufacturing the core competitive moat",
-      "Operational execution at scale is the critical bottleneck: 42-day biopsy-to-vaccine turnaround with thousands of unique SKUs requires heavy automation and robotics investment",
-      "Regulatory framework will likely follow CAR T-cell model (process-based approval), reducing per-product regulatory burden and enabling faster pipeline expansion",
-      "Platform expansion into kidney, bladder, pancreatic cancers and autoimmune diseases represents a multi-vector growth opportunity beyond oncology",
-      "Current version of the technology is described as 'the worst version you're going to see,' implying significant efficiency gains and cost reductions ahead",
-      "The 'new education of T-cell' mechanism suggests broader applicability to diseases where immune system modulation is therapeutic"
-    ],
-    "investment_thesis": "Moderna is transitioning from a COVID vaccine company to a platform biotech with a validated personalized medicine manufacturing system, where the melanoma approval would de-risk expansion into a $100B+ addressable market across oncology and autoimmune disease.",
-    "key_tickers": [
-      "MRNA"
-    ]
   },
   {
     "id": 455,

@@ -3,80 +3,80 @@
 
 const dashboardData = {
   schemaVersion: 2,
-  generatedAt: "2026-09-05T22:06:24.342466",
-  chartsVersion: "2026-09-05T22:06:02.212490",
+  generatedAt: "2026-09-05T23:40:24.620661",
+  chartsVersion: "2026-09-05T23:40:15.967853",
   priceSnapshot: {
   "GOOGL": {
     "price": 338.46,
     "change_pct": -1.6,
     "name": "GOOGL",
-    "updated_at": "2026-09-05T22:06:02.211373"
+    "updated_at": "2026-09-05T23:40:15.967361"
   },
   "NVDA": {
     "price": 230.36,
     "change_pct": 4.83,
     "name": "NVDA",
-    "updated_at": "2026-09-05T22:06:02.211392"
+    "updated_at": "2026-09-05T23:40:15.967371"
   },
   "TSLA": {
     "price": 354.08,
     "change_pct": 5.11,
     "name": "TSLA",
-    "updated_at": "2026-09-05T22:06:02.211401"
+    "updated_at": "2026-09-05T23:40:15.967375"
   },
   "MSFT": {
     "price": 499.7,
     "change_pct": 3.95,
     "name": "MSFT",
-    "updated_at": "2026-09-05T22:06:02.211409"
+    "updated_at": "2026-09-05T23:40:15.967378"
   },
   "BTC": {
-    "price": 79919.81,
-    "change_pct": 1.21,
+    "price": 79914.0,
+    "change_pct": 1.2,
     "name": "BTC",
-    "updated_at": "2026-09-05T22:06:02.211416"
+    "updated_at": "2026-09-05T23:40:15.967382"
   },
   "AMZN": {
     "price": 258.51,
     "change_pct": -0.36,
     "name": "AMZN",
-    "updated_at": "2026-09-05T22:06:02.211424"
+    "updated_at": "2026-09-05T23:40:15.967385"
   },
   "META": {
     "price": 616.77,
     "change_pct": 13.45,
     "name": "META",
-    "updated_at": "2026-09-05T22:06:02.211432"
+    "updated_at": "2026-09-05T23:40:15.967389"
   },
   "WTI": {
     "price": 3.82,
     "change_pct": 0.0,
     "name": "WTI",
-    "updated_at": "2026-09-05T22:06:02.211439"
+    "updated_at": "2026-09-05T23:40:15.967392"
   },
   "S&P 500": {
     "price": 770.19,
     "change_pct": 0.36,
     "name": "S&P 500",
-    "updated_at": "2026-09-05T22:06:02.211446"
+    "updated_at": "2026-09-05T23:40:15.967395"
   },
   "AAPL": {
     "price": 319.97,
     "change_pct": 3.21,
     "name": "AAPL",
-    "updated_at": "2026-09-05T22:06:02.211453"
+    "updated_at": "2026-09-05T23:40:15.967398"
   },
   "QQQ": {
     "price": 718.96,
     "change_pct": 0.2,
     "name": "Invesco QQQ Trust",
-    "updated_at": "2026-09-05T22:06:02.211460"
+    "updated_at": "2026-09-05T23:40:15.967401"
   },
   "BTC-USD": {
-    "price": 79919.81,
-    "change_pct": 1.21,
+    "price": 79914.0,
+    "change_pct": 1.2,
     "name": "Bitcoin USD",
-    "updated_at": "2026-09-05T22:06:02.211469"
+    "updated_at": "2026-09-05T23:40:15.967405"
   }
 },
   tickerScores: [
@@ -157,14 +157,14 @@ const dashboardData = {
   },
   {
     "ticker": "AMZN",
-    "total_score": 374.0,
-    "raw_mention_count": 6,
+    "total_score": 444.0,
+    "raw_mention_count": 7,
     "unique_sources": 1,
-    "podcast_mentions": 6,
+    "podcast_mentions": 7,
     "newsletter_mentions": 0,
     "rank": 6,
-    "score": 374.0,
-    "mentions": 6,
+    "score": 444.0,
+    "mentions": 7,
     "conviction_level": "medium",
     "contrarian_signal": "neutral",
     "timeframe": "long_term",
@@ -853,6 +853,26 @@ const dashboardData = {
       "podcast_episode_id": 458
     },
     {
+      "id": 474,
+      "title": "GPT-6 Astra Saturates ARC-AGI-3, Tesla's $30K Cybercab Floods Austin, Anthropic Proves Fermat's Last Theorem | EP #286",
+      "source_type": "podcast",
+      "source_name": "Moonshots with Peter Diamandis",
+      "source_date": "2026-09-05",
+      "summary": "This episode of Moonshots with Peter Diamandis explores breakthrough developments across space infrastructure, autonomous vehicles, healthcare AI, and longevity science. Key investment themes include NASA's selection of Blue Origin for Mars telecommunications relay networks, signaling the emergence of interplanetary infrastructure as an investable frontier. Tesla's projected $30,000 Cyber Cab represents a potential price disruption in autonomous ride-hailing that could reshape urban mobility economics. In healthcare, the FDA approval of a RAS inhibitor for previously 'undruggable' cancers marks a watershed moment in targeted oncology, while OpenAI's integration into Epic's electronic health records demonstrates AI's accelerating penetration into clinical workflows. Perhaps most significantly for longevity investors, new research links GLP-1 drugs to lifespan extension and reduced infections, potentially expanding their addressable market beyond diabetes and obesity into anti-aging therapeutics.",
+      "key_takeaway": "The convergence of space commercialization, autonomous mobility price disruption, and healthcare's shift from treatment to prevention and longevity creates a multi-decade investment opportunity in infrastructure-for-frontier-markets, with GLP-1 drugs potentially becoming the largest pharmaceutical category in history if lifespan extension claims hold in human trials.",
+      "tickers_mentioned": [
+        "TSLA",
+        "AMZN"
+      ],
+      "sentiment": "bullish",
+      "display_on_main": 1,
+      "display_order": 0,
+      "added_date": "2026-09-05",
+      "archived_date": null,
+      "archived_reason": null,
+      "podcast_episode_id": 459
+    },
+    {
       "id": 466,
       "title": "Fei Fei Li: The Race to Build World Models For AI",
       "source_type": "podcast",
@@ -960,7 +980,7 @@ const dashboardData = {
         "MRNA"
       ],
       "sentiment": "bearish",
-      "display_on_main": 1,
+      "display_on_main": 0,
       "display_order": 0,
       "added_date": "2026-09-04",
       "archived_date": null,
@@ -9974,8 +9994,8 @@ const dashboardData = {
       "term": "Simulation",
       "description": "The use of models and computer programs to represent and analyze real or imagined systems or situations.",
       "first_detected_date": "2026-08-21",
-      "last_mentioned_date": "2026-09-02",
-      "mention_count": 8,
+      "last_mentioned_date": "2026-09-05",
+      "mention_count": 9,
       "source_podcasts": null,
       "status": "active",
       "investment_implications": "Simulation technology can provide significant insights for decision-making, making investments in this area potentially valuable.",
@@ -9984,8 +10004,8 @@ const dashboardData = {
       "archived_reason": null,
       "first_detected_episode_id": 420,
       "first_detected_speaker": "June",
-      "last_mentioned_episode_id": 455,
-      "last_mentioned_speaker": "Elon Musk"
+      "last_mentioned_episode_id": 459,
+      "last_mentioned_speaker": "Peter Diamandis (hosts)"
     },
     {
       "id": 272,
@@ -10154,8 +10174,8 @@ const dashboardData = {
       "term": "Autonomy",
       "description": "The capacity of an AI system to make decisions and operate independently of direct human control or oversight, as evidenced by agents not alerting humans about their unethical actions.",
       "first_detected_date": "2026-07-22",
-      "last_mentioned_date": "2026-09-02",
-      "mention_count": 16,
+      "last_mentioned_date": "2026-09-05",
+      "mention_count": 17,
       "source_podcasts": null,
       "status": "active",
       "investment_implications": "Emphasizes the critical need for ethical AI frameworks, clear oversight mechanisms, and fail-safes to manage systems operating independently of human control, impacting regulatory compliance and public trust.",
@@ -10164,8 +10184,8 @@ const dashboardData = {
       "archived_reason": null,
       "first_detected_episode_id": 362,
       "first_detected_speaker": "Travis Kalanick, Ben Horowitz",
-      "last_mentioned_episode_id": 455,
-      "last_mentioned_speaker": "Elon Musk"
+      "last_mentioned_episode_id": 459,
+      "last_mentioned_speaker": "Peter Diamandis (hosts)"
     },
     {
       "id": 265,
@@ -10280,8 +10300,8 @@ const dashboardData = {
       "term": "ASI",
       "description": "Artificial Super Intelligence, referring to AI systems that surpass human intelligence in every field.",
       "first_detected_date": "2026-06-29",
-      "last_mentioned_date": "2026-09-02",
-      "mention_count": 17,
+      "last_mentioned_date": "2026-09-05",
+      "mention_count": 18,
       "source_podcasts": null,
       "status": "active",
       "investment_implications": "ASI represents a potential paradigm shift in technology and could disrupt various industries.",
@@ -10290,26 +10310,26 @@ const dashboardData = {
       "archived_reason": null,
       "first_detected_episode_id": 319,
       "first_detected_speaker": "Peter Diamandis (hosts)",
-      "last_mentioned_episode_id": 455,
-      "last_mentioned_speaker": "Elon Musk"
+      "last_mentioned_episode_id": 459,
+      "last_mentioned_speaker": "Peter Diamandis (hosts)"
     },
     {
       "id": 135,
       "term": "Healthspan",
-      "description": "The period of life during which an individual is generally healthy and free from chronic diseases.",
+      "description": "The portion of life spent in good health, distinct from lifespan; GLP-1 drugs are showing potential to extend both by reducing serious infections and metabolic disease.",
       "first_detected_date": "2026-06-29",
-      "last_mentioned_date": "2026-08-21",
-      "mention_count": 6,
+      "last_mentioned_date": "2026-09-05",
+      "mention_count": 7,
       "source_podcasts": null,
       "status": "active",
-      "investment_implications": "Investments in technologies that extend healthspan could have significant societal and economic impacts.",
+      "investment_implications": "GLP-1 repositioning from diabetes/obesity to longevity could expand addressable market 10x if clinical evidence supports human lifespan extension.",
       "display_on_main": 0,
       "archived_date": null,
       "archived_reason": null,
       "first_detected_episode_id": 319,
       "first_detected_speaker": "Peter Diamandis (hosts)",
-      "last_mentioned_episode_id": 419,
-      "last_mentioned_speaker": "Elon Musk"
+      "last_mentioned_episode_id": 459,
+      "last_mentioned_speaker": "Peter Diamandis (hosts)"
     },
     {
       "id": 255,
@@ -10838,8 +10858,8 @@ const dashboardData = {
       "term": "Singularity",
       "description": "A hypothetical point in the future at which technological growth becomes uncontrollable and irreversible, leading to unforeseeable changes in human civilization.",
       "first_detected_date": "2026-05-15",
-      "last_mentioned_date": "2026-09-02",
-      "mention_count": 62,
+      "last_mentioned_date": "2026-09-05",
+      "mention_count": 63,
       "source_podcasts": null,
       "status": "active",
       "investment_implications": "Investors should consider the potential for rapid technological change and its impact on various sectors, including AI, when making long-term investment decisions.",
@@ -10848,8 +10868,8 @@ const dashboardData = {
       "archived_reason": null,
       "first_detected_episode_id": 221,
       "first_detected_speaker": null,
-      "last_mentioned_episode_id": 455,
-      "last_mentioned_speaker": "Elon Musk"
+      "last_mentioned_episode_id": 459,
+      "last_mentioned_speaker": "Peter Diamandis (hosts)"
     },
     {
       "id": 97,
@@ -10926,20 +10946,20 @@ const dashboardData = {
     {
       "id": 75,
       "term": "AI Adjacent",
-      "description": "Business models and infrastructure positioned to capture value from AI transformation without directly competing in core AI model development, often by solving trust, interface, or integration challenges.",
+      "description": "Healthcare applications where AI augments rather than replaces clinical decision-making, such as OpenAI integration with Epic EHRs for natural language patient record queries.",
       "first_detected_date": "2026-05-07",
-      "last_mentioned_date": "2026-09-03",
-      "mention_count": 4,
+      "last_mentioned_date": "2026-09-05",
+      "mention_count": 5,
       "source_podcasts": null,
       "status": "active",
-      "investment_implications": "Payments and commerce infrastructure represent high-conviction AI-adjacent exposure with clearer monetization paths than foundational AI bets.",
+      "investment_implications": "Enterprise AI adoption in regulated healthcare workflows may create more durable competitive moats than consumer-facing AI applications.",
       "display_on_main": 0,
       "archived_date": null,
       "archived_reason": null,
       "first_detected_episode_id": 204,
       "first_detected_speaker": null,
-      "last_mentioned_episode_id": 454,
-      "last_mentioned_speaker": null
+      "last_mentioned_episode_id": 459,
+      "last_mentioned_speaker": "Peter Diamandis (hosts)"
     },
     {
       "id": 160,
@@ -10964,8 +10984,8 @@ const dashboardData = {
       "term": "AGI",
       "description": "Artificial General Intelligence: AI systems with human-level reasoning and problem-solving across any domain, debated here as already arrived versus still emerging.",
       "first_detected_date": "2026-05-07",
-      "last_mentioned_date": "2026-09-04",
-      "mention_count": 88,
+      "last_mentioned_date": "2026-09-05",
+      "mention_count": 89,
       "source_podcasts": null,
       "status": "active",
       "investment_implications": "Determines valuation multiples for frontier AI companies and timeline for workforce displacement across sectors.",
@@ -10974,8 +10994,8 @@ const dashboardData = {
       "archived_reason": null,
       "first_detected_episode_id": 204,
       "first_detected_speaker": "Demis Hassabis",
-      "last_mentioned_episode_id": 457,
-      "last_mentioned_speaker": "Chamath Palihapitiya, Jason Calacanis (hosts)"
+      "last_mentioned_episode_id": 459,
+      "last_mentioned_speaker": "Peter Diamandis (hosts)"
     },
     {
       "id": 162,
@@ -11340,19 +11360,19 @@ const dashboardData = {
     {
       "id": 89,
       "term": "Autonomous Vehicles (AVs)",
-      "description": "Self-driving vehicles that use a combination of sensors, cameras, and artificial intelligence to navigate without human input.",
+      "description": "Self-driving vehicles designed to operate without human intervention, with Tesla's Cyber Cab representing a consumer-priced autonomous fleet vehicle model.",
       "first_detected_date": "2026-04-03",
-      "last_mentioned_date": "2026-08-29",
-      "mention_count": 5,
+      "last_mentioned_date": "2026-09-05",
+      "mention_count": 6,
       "source_podcasts": null,
       "status": "active",
-      "investment_implications": "The expansion of Autonomous Vehicles into ride-sharing services like Tesla's Robotaxi could revolutionize the transportation industry and offer new investment opportunities.",
+      "investment_implications": "Price points below $35K could trigger mass fleet adoption and reshape urban real estate, insurance, and transportation economics.",
       "display_on_main": 0,
       "archived_date": null,
       "archived_reason": null,
       "first_detected_episode_id": null,
       "first_detected_speaker": null,
-      "last_mentioned_episode_id": 444,
+      "last_mentioned_episode_id": 459,
       "last_mentioned_speaker": "Peter Diamandis (hosts)"
     },
     {
@@ -12062,8 +12082,8 @@ const dashboardData = {
       "term": "AI Agents",
       "description": "Autonomous artificial intelligence programs designed to perform tasks, which in this context demonstrated the ability to communicate, collaborate, and strategize collectively to achieve goals, including exploitation.",
       "first_detected_date": "2026-02-28",
-      "last_mentioned_date": "2026-09-04",
-      "mention_count": 83,
+      "last_mentioned_date": "2026-09-05",
+      "mention_count": 84,
       "source_podcasts": null,
       "status": "active",
       "investment_implications": "The emergence of collaborative and potentially malicious AI Agents creates a significant market for AI security, monitoring, and governance technologies.",
@@ -12072,8 +12092,8 @@ const dashboardData = {
       "archived_reason": null,
       "first_detected_episode_id": 31,
       "first_detected_speaker": null,
-      "last_mentioned_episode_id": 457,
-      "last_mentioned_speaker": "Chamath Palihapitiya, Jason Calacanis (hosts)"
+      "last_mentioned_episode_id": 459,
+      "last_mentioned_speaker": "Peter Diamandis (hosts)"
     },
     {
       "id": 38,
@@ -12358,6 +12378,29 @@ const dashboardData = {
       "key_tickers": []
     },
     {
+      "id": 474,
+      "title": "GPT-6 Astra Saturates ARC-AGI-3, Tesla's $30K Cybercab Floods Austin, Anthropic Proves Fermat's Last Theorem | EP #286",
+      "source_type": "podcast",
+      "source_name": "Moonshots with Peter Diamandis",
+      "source_date": "2026-09-05",
+      "summary": "This episode of Moonshots with Peter Diamandis explores breakthrough developments across space infrastructure, autonomous vehicles, healthcare AI, and longevity science. Key investment themes include NASA's selection of Blue Origin for Mars telecommunications relay networks, signaling the emergence of interplanetary infrastructure as an investable frontier. Tesla's projected $30,000 Cyber Cab represents a potential price disruption in autonomous ride-hailing that could reshape urban mobility economics. In healthcare, the FDA approval of a RAS inhibitor for previously 'undruggable' cancers marks a watershed moment in targeted oncology, while OpenAI's integration into Epic's electronic health records demonstrates AI's accelerating penetration into clinical workflows. Perhaps most significantly for longevity investors, new research links GLP-1 drugs to lifespan extension and reduced infections, potentially expanding their addressable market beyond diabetes and obesity into anti-aging therapeutics.",
+      "key_takeaway": "The convergence of space commercialization, autonomous mobility price disruption, and healthcare's shift from treatment to prevention and longevity creates a multi-decade investment opportunity in infrastructure-for-frontier-markets, with GLP-1 drugs potentially becoming the largest pharmaceutical category in history if lifespan extension claims hold in human trials.",
+      "tickers_mentioned": "[\"TSLA\", \"AMZN\"]",
+      "sentiment": "bullish",
+      "display_on_main": 1,
+      "display_order": 0,
+      "added_date": "2026-09-05",
+      "archived_date": null,
+      "archived_reason": null,
+      "podcast_episode_id": 459,
+      "episode_release_date": "2026-09-05",
+      "guest_name": null,
+      "key_tickers": [
+        "TSLA",
+        "AMZN"
+      ]
+    },
+    {
       "id": 466,
       "title": "Fei Fei Li: The Race to Build World Models For AI",
       "source_type": "podcast",
@@ -12459,28 +12502,6 @@ const dashboardData = {
       "episode_release_date": "2026-09-03",
       "guest_name": "Financial strategist Jared Dillian",
       "key_tickers": []
-    },
-    {
-      "id": 470,
-      "title": "Inside Moderna\u2019s Personalized Cancer Vaccine",
-      "source_type": "podcast",
-      "source_name": "The a16z Show",
-      "source_date": "2026-09-02",
-      "summary": "This episode features Moderna's CEO Stefan Bunzel discussing the landmark Phase 3 success of their personalized mRNA cancer vaccine for melanoma, the first effective cancer vaccine after over a thousand failed trials. The treatment achieves 80% recurrence-free survival at five years versus 50% for standard-of-care Keytruda, by sequencing each patient's tumor DNA to create a unique mRNA vaccine that trains the immune system to recognize cancer-specific mutations. Bunzel details the operational challenge of manufacturing thousands of unique doses with a 42-day turnaround, the regulatory pathway modeled on CAR T-cell therapies, and expansion plans into kidney, bladder, pancreatic cancers and autoimmune diseases. The core investment theme is that personalization is not an edge case but fundamental to next-generation therapeutics, requiring entirely new manufacturing, regulatory, and commercial paradigms.",
-      "key_takeaway": "Moderna is transitioning from a COVID vaccine company to a platform biotech with a validated personalized medicine manufacturing system, where the melanoma approval would de-risk expansion into a $100B+ addressable market across oncology and autoimmune disease.",
-      "tickers_mentioned": "[\"MRNA\"]",
-      "sentiment": "bearish",
-      "display_on_main": 1,
-      "display_order": 0,
-      "added_date": "2026-09-04",
-      "archived_date": null,
-      "archived_reason": null,
-      "podcast_episode_id": 456,
-      "episode_release_date": "2026-09-02",
-      "guest_name": null,
-      "key_tickers": [
-        "MRNA"
-      ]
     },
     {
       "id": 471,
@@ -13000,8 +13021,8 @@ const dashboardData = {
       "term": "AGI",
       "description": "Artificial General Intelligence: AI systems with human-level reasoning and problem-solving across any domain, debated here as already arrived versus still emerging.",
       "first_detected_date": "2026-05-07",
-      "last_mentioned_date": "2026-09-04",
-      "mention_count": 88,
+      "last_mentioned_date": "2026-09-05",
+      "mention_count": 89,
       "source_podcasts": null,
       "status": "active",
       "investment_implications": "Determines valuation multiples for frontier AI companies and timeline for workforce displacement across sectors.",
@@ -13010,26 +13031,26 @@ const dashboardData = {
       "archived_reason": null,
       "first_detected_episode_id": 204,
       "first_detected_speaker": "Demis Hassabis",
-      "last_mentioned_episode_id": 457,
-      "last_mentioned_speaker": "Chamath Palihapitiya, Jason Calacanis (hosts)",
-      "novelty_score": 0.5825,
-      "overton_score": 0.5825,
+      "last_mentioned_episode_id": 459,
+      "last_mentioned_speaker": "Peter Diamandis (hosts)",
+      "novelty_score": 0.5899,
+      "overton_score": 0.5899,
       "resonance_pct": 48,
       "is_established": true,
       "first_detected_podcast": "Moonshots with Peter Diamandis",
       "first_detected_episode_title": "Demis Hassabis on AGI, Robots Scale Production, and Elon\u2019s $1T Mars-Shot Comp | EP #253",
       "first_detected_episode_date": "2026-05-07",
-      "last_mentioned_podcast": "All-In with Chamath, Jason, Sacks & Friedberg",
-      "last_mentioned_episode_title": "GPT-6 Hits AGI? Tech Euphoria 2.0, SF Mansion Shortage, NYC Bans AI in Schools & Venezuela Oil Deal",
-      "last_mentioned_episode_date": "2026-09-04"
+      "last_mentioned_podcast": "Moonshots with Peter Diamandis",
+      "last_mentioned_episode_title": "GPT-6 Astra Saturates ARC-AGI-3, Tesla's $30K Cybercab Floods Austin, Anthropic Proves Fermat's Last Theorem | EP #286",
+      "last_mentioned_episode_date": "2026-09-05"
     },
     {
       "id": 264,
       "term": "Autonomy",
       "description": "The capacity of an AI system to make decisions and operate independently of direct human control or oversight, as evidenced by agents not alerting humans about their unethical actions.",
       "first_detected_date": "2026-07-22",
-      "last_mentioned_date": "2026-09-02",
-      "mention_count": 16,
+      "last_mentioned_date": "2026-09-05",
+      "mention_count": 17,
       "source_podcasts": null,
       "status": "active",
       "investment_implications": "Emphasizes the critical need for ethical AI frameworks, clear oversight mechanisms, and fail-safes to manage systems operating independently of human control, impacting regulatory compliance and public trust.",
@@ -13038,18 +13059,18 @@ const dashboardData = {
       "archived_reason": null,
       "first_detected_episode_id": 362,
       "first_detected_speaker": "Travis Kalanick, Ben Horowitz",
-      "last_mentioned_episode_id": 455,
-      "last_mentioned_speaker": "Elon Musk",
-      "novelty_score": 0.647,
-      "overton_score": 0.647,
-      "resonance_pct": 50,
+      "last_mentioned_episode_id": 459,
+      "last_mentioned_speaker": "Peter Diamandis (hosts)",
+      "novelty_score": 0.6723,
+      "overton_score": 0.6723,
+      "resonance_pct": 51,
       "is_established": true,
       "first_detected_podcast": "The a16z Show",
       "first_detected_episode_title": "Travis Kalanick Is Back | Building the Future of Industrial AI",
       "first_detected_episode_date": "2026-07-22",
       "last_mentioned_podcast": "Moonshots with Peter Diamandis",
-      "last_mentioned_episode_title": "Humanity's First Star Probe, Architect Labs Beats NVIDIA 3.4x, Musk Wants Satellites to Cool Earth | EP #285",
-      "last_mentioned_episode_date": "2026-09-02"
+      "last_mentioned_episode_title": "GPT-6 Astra Saturates ARC-AGI-3, Tesla's $30K Cybercab Floods Austin, Anthropic Proves Fermat's Last Theorem | EP #286",
+      "last_mentioned_episode_date": "2026-09-05"
     },
     {
       "id": 255,
@@ -40483,6 +40504,47 @@ const dashboardData = {
     "source_name": "The a16z Show",
     "source_date": "2026-09-05",
     "key_tickers": []
+  },
+  "474": {
+    "id": 463,
+    "insight_id": 474,
+    "podcast_episode_id": 459,
+    "overview": "The successful implementation of Blue Origin\u2019s telecommunications network will require innovative technology to handle the latency and distance inherent in interplanetary communications. This investment isn\u2019t only about building infrastructure\u2014it embodies challenges like developing low-latency data transmission protocols and power-efficient relay satellites capable of functioning in Mars\u2019 harsh environment. Additionally, the emergence of Tesla's Cyber Cab involves not just price disruption but also regulatory hurdles as local governments will need to adapt existing transportation frameworks and safety standards to accommodate a fleet of autonomous vehicles, potentially affecting timelines for widespread deployment.",
+    "key_takeaways_detailed": [],
+    "investment_thesis": "If the thesis holds, investors could see substantial returns in the next three to five years. Strong performances by companies like Blue Origin and Tesla, alongside advances in anti-cancer therapies and longevity treatments, could signal a new era of market opportunities. However, successfully proving the clinical efficacy of GLP-1 drugs will be critical in solidifying their market potential.",
+    "ticker_analysis": {
+      "NVDA": {
+        "rationale": "NVIDIA represents a unique opportunity to capitalize on the burgeoning demand for AI-driven technology across autonomous vehicles and healthcare sectors.",
+        "positioning": "",
+        "risk": ""
+      }
+    },
+    "positioning_guidance": "",
+    "risk_factors": [],
+    "contrarian_signals": [],
+    "catalysts": [],
+    "related_insights": null,
+    "audio_timestamp_start": null,
+    "audio_timestamp_end": null,
+    "transcript_excerpt": null,
+    "created_at": "2026-09-05T23:39:13.054853",
+    "updated_at": "2026-09-06 04:39:13",
+    "episode_evidence": "Host: Peter Diamandis: \"Elon wants to sell these at 30,000 each... you can buy them and put them on the streets.\"\nHost: Peter Diamandis: \"NASA chose blue origin to build the telecommunications relay network on Mars.\"",
+    "falsification_tracks": [
+      "Tesla's Cyber Cab fails to gain regulatory approval in key cities affecting anticipated launch timelines.",
+      "Blue Origin's telecommunications network experiences significant technical failures during initial testing phases.",
+      "Clinical trials of GLP-1 drugs show no significant lifespan extension or health benefits, leading to a decline in market interest.",
+      "A competitor develops a significantly cheaper and more efficient autonomous vehicle, undermining Tesla's market position.",
+      "The FDA reverses its approval of the RAS inhibitor drug after revealing safety concerns in ongoing trials."
+    ],
+    "schema_version": 2,
+    "insight_title": "GPT-6 Astra Saturates ARC-AGI-3, Tesla's $30K Cybercab Floods Austin, Anthropic Proves Fermat's Last Theorem | EP #286",
+    "source_name": "Moonshots with Peter Diamandis",
+    "source_date": "2026-09-05",
+    "key_tickers": [
+      "TSLA",
+      "AMZN"
+    ]
   }
 },
   suggestedTerms: [
@@ -40537,7 +40599,7 @@ const dashboardData = {
 ],
   podcastGuests: [
   {
-    "id": 63618,
+    "id": 63707,
     "name": "Fei Fei Li",
     "slug": "fei-fei-li",
     "bio": null,
@@ -40549,7 +40611,7 @@ const dashboardData = {
     "appearance_count": 1
   },
   {
-    "id": 63619,
+    "id": 63708,
     "name": "Financial strategist Jared Dillian",
     "slug": "financial-strategist-jared-dillian",
     "bio": null,
@@ -40561,7 +40623,7 @@ const dashboardData = {
     "appearance_count": 1
   },
   {
-    "id": 63620,
+    "id": 63709,
     "name": "Daniel Litt",
     "slug": "daniel-litt",
     "bio": null,
@@ -40573,7 +40635,7 @@ const dashboardData = {
     "appearance_count": 1
   },
   {
-    "id": 63621,
+    "id": 63710,
     "name": "Gavin Baker",
     "slug": "gavin-baker",
     "bio": null,
@@ -40585,7 +40647,7 @@ const dashboardData = {
     "appearance_count": 1
   },
   {
-    "id": 63622,
+    "id": 63711,
     "name": "Sam Altman",
     "slug": "sam-altman",
     "bio": null,
@@ -40597,7 +40659,7 @@ const dashboardData = {
     "appearance_count": 1
   },
   {
-    "id": 63623,
+    "id": 63712,
     "name": "Time to Reduce Equity Risk",
     "slug": "time-to-reduce-equity-risk",
     "bio": null,
@@ -40609,7 +40671,7 @@ const dashboardData = {
     "appearance_count": 1
   },
   {
-    "id": 63624,
+    "id": 63713,
     "name": "Eric Weinstein",
     "slug": "eric-weinstein",
     "bio": null,
@@ -40621,7 +40683,7 @@ const dashboardData = {
     "appearance_count": 1
   },
   {
-    "id": 63625,
+    "id": 63714,
     "name": "Michael Kratsios",
     "slug": "michael-kratsios",
     "bio": null,
@@ -40633,7 +40695,7 @@ const dashboardData = {
     "appearance_count": 1
   },
   {
-    "id": 63626,
+    "id": 63715,
     "name": "Emad Mostaque",
     "slug": "emad-mostaque",
     "bio": null,
@@ -40645,7 +40707,7 @@ const dashboardData = {
     "appearance_count": 3
   },
   {
-    "id": 63627,
+    "id": 63716,
     "name": "Angela Strange and Gabriel Vasquez",
     "slug": "angela-strange-and-gabriel-vasquez",
     "bio": null,
@@ -40657,7 +40719,7 @@ const dashboardData = {
     "appearance_count": 1
   },
   {
-    "id": 63628,
+    "id": 63717,
     "name": "Why Bessent Blinked",
     "slug": "why-bessent-blinked",
     "bio": null,
@@ -40669,7 +40731,7 @@ const dashboardData = {
     "appearance_count": 1
   },
   {
-    "id": 63629,
+    "id": 63718,
     "name": "Travis Kalanick",
     "slug": "travis-kalanick",
     "bio": null,
@@ -40681,7 +40743,7 @@ const dashboardData = {
     "appearance_count": 1
   },
   {
-    "id": 63630,
+    "id": 63719,
     "name": "Rahm Emanuel",
     "slug": "rahm-emanuel",
     "bio": null,
@@ -40693,7 +40755,7 @@ const dashboardData = {
     "appearance_count": 1
   },
   {
-    "id": 63631,
+    "id": 63720,
     "name": "Milton Berg",
     "slug": "milton-berg",
     "bio": "Milton Berg is a veteran technical analyst and CEO of Milton Berg Advisors, specializing in market turning-point analysis for institutional investors.",
@@ -40705,7 +40767,7 @@ const dashboardData = {
     "appearance_count": 1
   },
   {
-    "id": 63632,
+    "id": 63721,
     "name": "How Open",
     "slug": "how-open",
     "bio": null,
@@ -40717,7 +40779,7 @@ const dashboardData = {
     "appearance_count": 1
   },
   {
-    "id": 63633,
+    "id": 63722,
     "name": "Saronic Founders",
     "slug": "saronic-founders",
     "bio": null,
@@ -40729,7 +40791,7 @@ const dashboardData = {
     "appearance_count": 1
   },
   {
-    "id": 63634,
+    "id": 63723,
     "name": "OpenAI's Joshua Achiam",
     "slug": "openais-joshua-achiam",
     "bio": null,
@@ -40741,7 +40803,7 @@ const dashboardData = {
     "appearance_count": 1
   },
   {
-    "id": 63635,
+    "id": 63724,
     "name": "Marc Andreessen and Chris Dixon",
     "slug": "marc-andreessen-and-chris-dixon",
     "bio": null,
@@ -40753,7 +40815,7 @@ const dashboardData = {
     "appearance_count": 1
   },
   {
-    "id": 63636,
+    "id": 63725,
     "name": "AI for America's Small Businesses",
     "slug": "ai-for-americas-small-businesses",
     "bio": null,
@@ -40765,7 +40827,7 @@ const dashboardData = {
     "appearance_count": 1
   },
   {
-    "id": 63637,
+    "id": 63726,
     "name": "Luke Gromen",
     "slug": "luke-gromen",
     "bio": null,
@@ -41829,7 +41891,7 @@ const dashboardData = {
     "last_podcast_name": "Monetary Matters with Jack Farley",
     "last_episode_date": "2026-08-26",
     "mention_score": 1,
-    "mention_score_decayed": 0.81,
+    "mention_score_decayed": 0.79,
     "last_main_idea": "The commodity complex is poised for continued price appreciation due to macroeconomic tailwinds, increased production costs, and the impact of AI on demand for certain metals.",
     "last_proof_cite": "Monetary Matters with Jack Farley \u2022 2026-08-26 \u2022 The Commodity Bull Market Is Broadening | Jim Wiederhold on Copper, Grains, and Bloomberg Commodity Index",
     "last_proof_snippet": "Today's episode is brought to you by the two Korean corn fund, take our CORN. Let's get into it. Join today by Jim Weederhold, commodity indices product manager at Bloomberg, Jim, great to see you welcome to monetary matters. Jack, thanks.",
@@ -42077,7 +42139,7 @@ const dashboardData = {
     "last_podcast_name": "Dwarkesh Podcast",
     "last_episode_date": "2026-08-25",
     "mention_score": 2,
-    "mention_score_decayed": 1.59,
+    "mention_score_decayed": 1.55,
     "last_main_idea": "Investment in AI infrastructure and labs is set to grow exponentially, leading to significant capital allocation shifts and potential market disruptions.",
     "last_proof_cite": "Dwarkesh Podcast \u2022 2026-08-25 \u2022 Dylan Patel \u2013 Anthropic & OpenAI will have most of the world\u2019s compute by 2028",
     "last_proof_snippet": "Okay, I'm back with Dylan Patel, Founder of SemiAnalysis, our version of Family, Thanksgiving dinner is a regular early podcast, but you're not actually related. I won't tell the people here. We'll destroy the myth. Walk me, basically w",
@@ -42517,7 +42579,7 @@ const dashboardData = {
     "last_podcast_name": "Moonshots with Peter Diamandis",
     "last_episode_date": "2026-08-18",
     "mention_score": 1,
-    "mention_score_decayed": 0.68,
+    "mention_score_decayed": 0.66,
     "last_main_idea": "Investment in AI technology should consider the broader geopolitical landscape and the potential for international cooperation and market creation, as proposed by the 'AI Marshall Plan'.",
     "last_proof_cite": "Moonshots with Peter Diamandis \u2022 2026-08-18 \u2022 China\u2019s Endgame: ASI Timelines, US-China Relations, and the $1.7T AI Bubble With Alvin Graylin | #281",
     "last_proof_snippet": "There seems to be prevailing a view around the campuses that ASI has, you know, five to 10 years out, maybe even 20 years. And so I really curious what the prevailing view is in China. They are not behaving like they believe ASI is around t",
@@ -42765,7 +42827,7 @@ const dashboardData = {
     "last_podcast_name": "All-In with Chamath, Jason, Sacks & Friedberg",
     "last_episode_date": "2026-08-18",
     "mention_score": 2,
-    "mention_score_decayed": 1.32,
+    "mention_score_decayed": 1.29,
     "last_main_idea": "Investing in companies like Flock that focus on enhancing public safety through technology presents an opportunity to capitalize on the growing demand for security solutions, while also navigating the complex ethical landscape of privacy concerns.",
     "last_proof_cite": "All-In with Chamath, Jason, Sacks & Friedberg \u2022 2026-08-18 \u2022 Flock CEO Garrett Langley on Controversy, \"Surveillance State\" Claims, and Privacy vs Safety",
     "last_proof_snippet": "All right, everybody. Welcome back to the all in interview. This is where we find the people building the future. Sometimes a politician, sometimes a CEO, sometimes an investor, all the time, an important discussion. And one of the most imp",
@@ -42824,7 +42886,7 @@ const dashboardData = {
     "last_podcast_name": "Monetary Matters with Jack Farley",
     "last_episode_date": "2026-07-22",
     "mention_score": 1,
-    "mention_score_decayed": 0.64,
+    "mention_score_decayed": 0.63,
     "last_main_idea": "The current speculative nature of the treasuries market and the potential for a significant rise in interest rates present both risks and opportunities for investors.",
     "last_proof_cite": "Monetary Matters with Jack Farley \u2022 2026-07-22 \u2022 Interest Rates to 10%: Why the Treasury Market is the Real Speculative Bubble (Not AI) | Russell Clark",
     "last_proof_snippet": "If I look at people 40 and under those in the 20 and 30s, their number one problem is they kind of forward housing. If you want to get housing back to some more reasonable levels, you need to have wages rising about 7% a year. So, doubling",
@@ -43061,7 +43123,7 @@ const dashboardData = {
     "last_podcast_name": "All-In with Chamath, Jason, Sacks & Friedberg",
     "last_episode_date": "2026-08-14",
     "mention_score": 1,
-    "mention_score_decayed": 0.62,
+    "mention_score_decayed": 0.6,
     "last_main_idea": "Anduril's upcoming IPO presents an opportunity to invest in a company with significant revenue growth and a lower valuation compared to peers, while the rise of open-source AI could reshape the software industry landscape.",
     "last_proof_cite": "All-In with Chamath, Jason, Sacks & Friedberg \u2022 2026-08-14 \u2022 Anthropic's $2T IPO, Zuck's AI Manifesto, Nvidia's $500B AI Bet, Grok's Comeback",
     "last_proof_snippet": "All right, everybody. Welcome back. We all in podcast. The number one podcast in the world. David Sachs and Evan Baker are with us this week. We got a, we got a short crew, but a long docket. And we are going to rock at how are you doing? G",
@@ -43189,7 +43251,7 @@ const dashboardData = {
     "last_podcast_name": "Moonshots with Peter Diamandis",
     "last_episode_date": "2026-08-13",
     "mention_score": 2,
-    "mention_score_decayed": 1.2,
+    "mention_score_decayed": 1.18,
     "last_main_idea": "Invest in AI and exponential technologies that are redefining industries and creating new opportunities for growth and innovation.",
     "last_proof_cite": "Moonshots with Peter Diamandis \u2022 2026-08-13 \u2022 Bernie Demands the Labs Stop, Wall Street Turns GPUs Into Bonds, Grok 4.7 Takes #1 with Emad Mostaque | EP #279",
     "last_proof_snippet": "Bernie Sanders sent a formal letter to the CEOs of Anthropic Meta and OpenAI AI capabilities have reached a critical threshold. Paul's AI development, the Council of the Baguards, too late, right? Nvidia just announced a partnership that r",
@@ -43374,7 +43436,7 @@ const dashboardData = {
     "last_podcast_name": "All-In with Chamath, Jason, Sacks & Friedberg",
     "last_episode_date": "2026-08-13",
     "mention_score": 1,
-    "mention_score_decayed": 0.59,
+    "mention_score_decayed": 0.57,
     "last_main_idea": "Ron Emmanuel's investment thesis revolves around the need for progressive policies and effective government execution, which he believes are crucial for America's economic and social stability.",
     "last_proof_cite": "All-In with Chamath, Jason, Sacks & Friedberg \u2022 2026-08-13 \u2022 Rahm Emanuel: Trump's Foreign Policy, China, Europe's Decline, Immigration & DSA vs Democrats",
     "last_proof_snippet": "All right, everybody. We are super pleased to have Ron Emmanuel. Join us for the all and interview today. He was a senior advisor of Bill Clinton, last president, resigned over zero national debt. And he was a Bahamas chief of staff, mayor",
@@ -43877,7 +43939,7 @@ const dashboardData = {
     "last_podcast_name": "Monetary Matters with Jack Farley",
     "last_episode_date": "2026-08-07",
     "mention_score": 1,
-    "mention_score_decayed": 0.52,
+    "mention_score_decayed": 0.51,
     "last_main_idea": "Investing success comes from a deep understanding of both macroeconomic trends and single stock fundamental analysis, with a focus on companies that benefit from technological advancements and market disruptions.",
     "last_proof_cite": "Monetary Matters with Jack Farley \u2022 2026-08-07 \u2022 Misunderstood Stocks in Data Center Power, Cybersecurity, and Payments | Dean & Deiya Pernas",
     "last_proof_snippet": "Today I'm sitting down with Daya and Dean Pernos of Pernos Research. We're going to be talking about some of the most important themes and trends in investing such as energy power and data centers, software, AI, cybersecurity, payments. The",
@@ -43937,7 +43999,7 @@ const dashboardData = {
     "last_podcast_name": "Monetary Matters with Jack Farley",
     "last_episode_date": "2026-08-07",
     "mention_score": 1,
-    "mention_score_decayed": 0.52,
+    "mention_score_decayed": 0.51,
     "last_main_idea": "Investing success comes from a deep understanding of both macroeconomic trends and single stock fundamental analysis, with a focus on companies that benefit from technological advancements and market disruptions.",
     "last_proof_cite": "Monetary Matters with Jack Farley \u2022 2026-08-07 \u2022 Misunderstood Stocks in Data Center Power, Cybersecurity, and Payments | Dean & Deiya Pernas",
     "last_proof_snippet": "Today I'm sitting down with Daya and Dean Pernos of Pernos Research. We're going to be talking about some of the most important themes and trends in investing such as energy power and data centers, software, AI, cybersecurity, payments. The",
@@ -44235,7 +44297,7 @@ const dashboardData = {
     "last_podcast_name": "All-In with Chamath, Jason, Sacks & Friedberg",
     "last_episode_date": "2026-08-05",
     "mention_score": 1,
-    "mention_score_decayed": 0.5,
+    "mention_score_decayed": 0.49,
     "last_main_idea": "Investment in autonomous defense technologies is crucial for maintaining a competitive edge and can lead to significant advancements in military capabilities.",
     "last_proof_cite": "All-In with Chamath, Jason, Sacks & Friedberg \u2022 2026-08-05 \u2022 Saronic Founders: Autonomous Warships, China's 230X Advantage & Swarms of Robot Ships",
     "last_proof_snippet": "All right, everybody, welcome back to the all in interview series. I am thrilled. Really thrilled because Ceranic is a defense company that has been doing amazing work. And we are so lucky to have the co-founders here on the program. Welcom",
@@ -44294,7 +44356,7 @@ const dashboardData = {
     "last_podcast_name": "All-In with Chamath, Jason, Sacks & Friedberg",
     "last_episode_date": "2026-08-05",
     "mention_score": 1,
-    "mention_score_decayed": 0.5,
+    "mention_score_decayed": 0.49,
     "last_main_idea": "Investment in autonomous defense technologies is crucial for maintaining a competitive edge and can lead to significant advancements in military capabilities.",
     "last_proof_cite": "All-In with Chamath, Jason, Sacks & Friedberg \u2022 2026-08-05 \u2022 Saronic Founders: Autonomous Warships, China's 230X Advantage & Swarms of Robot Ships",
     "last_proof_snippet": "All right, everybody, welcome back to the all in interview series. I am thrilled. Really thrilled because Ceranic is a defense company that has been doing amazing work. And we are so lucky to have the co-founders here on the program. Welcom",
@@ -44731,7 +44793,7 @@ const dashboardData = {
     "last_podcast_name": "Monetary Matters with Jack Farley",
     "last_episode_date": "2026-08-02",
     "mention_score": 1,
-    "mention_score_decayed": 0.47,
+    "mention_score_decayed": 0.46,
     "last_main_idea": "The market is in a phase where a new narrative is needed to drive further growth, with a focus on value laggards and sectors less exposed to speculative excesses.",
     "last_proof_cite": "Monetary Matters with Jack Farley \u2022 2026-08-02 \u2022 Why Macro is \u201cPretty Risk-On\u201d for Equities | Tian Yang of Variant Perception",
     "last_proof_snippet": "I'm joined once again by TN Yang, co-founder and head of research at variant perception. TN, what do you think about the stock market right now, the S&P, the NASDAQ, the semiconductor stocks, they have been trading quite weekly for the past",
@@ -45528,7 +45590,7 @@ const dashboardData = {
     "last_podcast_name": "Moonshots with Peter Diamandis",
     "last_episode_date": "2026-07-24",
     "mention_score": 1,
-    "mention_score_decayed": 0.38,
+    "mention_score_decayed": 0.37,
     "last_main_idea": "Investing in AI is about more than just technology; it's an investment in the future of innovation, human potential, and the ability to solve complex problems.",
     "last_proof_cite": "Moonshots with Peter Diamandis \u2022 2026-07-24 \u2022 The Hugging Face Breach, Moonshot AI Valued at $20B, and Living to 1,759 Years Old | EP #273",
     "last_proof_snippet": "Pugging face, the leading open platform for sharing testing and deploying AI models, it got breached by an autonomous agent when the hugging face security team tried to analyze the attack, using either anthropic or open AI, both models refu",
@@ -45588,7 +45650,7 @@ const dashboardData = {
     "last_podcast_name": "Moonshots with Peter Diamandis",
     "last_episode_date": "2026-07-24",
     "mention_score": 1,
-    "mention_score_decayed": 0.38,
+    "mention_score_decayed": 0.37,
     "last_main_idea": "Investing in AI is about more than just technology; it's an investment in the future of innovation, human potential, and the ability to solve complex problems.",
     "last_proof_cite": "Moonshots with Peter Diamandis \u2022 2026-07-24 \u2022 The Hugging Face Breach, Moonshot AI Valued at $20B, and Living to 1,759 Years Old | EP #273",
     "last_proof_snippet": "Pugging face, the leading open platform for sharing testing and deploying AI models, it got breached by an autonomous agent when the hugging face security team tried to analyze the attack, using either anthropic or open AI, both models refu",
@@ -46710,7 +46772,7 @@ const dashboardData = {
     "last_podcast_name": "Monetary Matters with Jack Farley",
     "last_episode_date": "2026-07-14",
     "mention_score": 1,
-    "mention_score_decayed": 0.3,
+    "mention_score_decayed": 0.29,
     "last_main_idea": "Invest in companies at the forefront of AI and semiconductors that can leverage intelligence to perform high-cost, time-consuming tasks more efficiently and at scale.",
     "last_proof_cite": "Monetary Matters with Jack Farley \u2022 2026-07-14 \u2022 The Semiconductor Earnings Boom Is Just Getting Started | Ben Pouladian on why AI is Real, Nvidia is Mispriced, and Capacitors Are Overrated",
     "last_proof_snippet": "Got a special conversation today. I'm joined by Ben Kulandian of BEP Research. Ben is a specialist investor and analyst in the semi-conductor world and the semi-conductor supply chain. Of course, that is what powers AI Ben welcome to moneta",
@@ -46914,7 +46976,7 @@ const dashboardData = {
     "last_podcast_name": "All-In with Chamath, Jason, Sacks & Friedberg",
     "last_episode_date": "2026-07-10",
     "mention_score": 2,
-    "mention_score_decayed": 0.54,
+    "mention_score_decayed": 0.52,
     "last_main_idea": "Investing in AI infrastructure and data center companies could yield significant returns as the demand for AI continues to grow exponentially.",
     "last_proof_cite": "All-In with Chamath, Jason, Sacks & Friedberg \u2022 2026-07-10 \u2022 Open Source Wins, AGI Is Here, and Scorsese's AI Toolkit with CEOs of Cerebras & Black Forest Labs",
     "last_proof_snippet": "We are in the race for super intelligence and Andrew Feldman is back and obviously CEO and founders Ceribres doing in friendships pioneered the space, had a successful IPO. We've talked about this a couple of times, we got to see each other",
@@ -48033,7 +48095,7 @@ const dashboardData = {
     "last_podcast_name": "All-In with Chamath, Jason, Sacks & Friedberg",
     "last_episode_date": "2026-06-23",
     "mention_score": 1,
-    "mention_score_decayed": 0.19,
+    "mention_score_decayed": 0.18,
     "last_main_idea": "Ryan Cohen's investment strategy at GameStop focuses on operational efficiency, cost optimization, and leveraging the growing collectibles market to drive profitability and shareholder value.",
     "last_proof_cite": "All-In with Chamath, Jason, Sacks & Friedberg \u2022 2026-06-23 \u2022 GameStop CEO Ryan Cohen's $56B Plan to Take Over eBay",
     "last_proof_snippet": "Everyone hates GameStop and it seems like everyone in the media basically wants us to fail and wants them to succeed and you've got a board that's making hundreds of thousands of dollars a year and they don't buy stock with their own money.",
@@ -48349,7 +48411,7 @@ const dashboardData = {
     "last_podcast_name": "Monetary Matters with Jack Farley",
     "last_episode_date": "2026-06-21",
     "mention_score": 1,
-    "mention_score_decayed": 0.18,
+    "mention_score_decayed": 0.17,
     "last_main_idea": "Investors should be cautious about the long-term viability of AI companies with high operational losses and unsustainable financial models.",
     "last_proof_cite": "Monetary Matters with Jack Farley \u2022 2026-06-21 \u2022 Ed Zitron: The AI Bubble is Bleeding Cash, Here Are The Receipts",
     "last_proof_snippet": "Got a very special conversation. I am speaking to one of the most prolific skeptics about AI. I'm joined today by Ed Zitron, author of Where's Your Ed at Newsletter and the Better Offline Podcast. Ed, welcome to monetary matters. Thanks for",
@@ -48964,7 +49026,7 @@ const dashboardData = {
     "last_podcast_name": "BG2Pod with Brad Gerstner and Bill Gurley",
     "last_episode_date": "2026-06-11",
     "mention_score": 1,
-    "mention_score_decayed": 0.16,
+    "mention_score_decayed": 0.15,
     "last_main_idea": "SpaceX's unique position in the AI compute market and its rapid deployment capabilities make it a compelling long-term investment, with potential for significant revenue growth through Starlink and AI advancements.",
     "last_proof_cite": "BG2Pod with Brad Gerstner and Bill Gurley \u2022 2026-06-11 \u2022 The SpaceX IPO, Fable 5, AI Capex Update & Market Check w/ Gavin Baker, Andrew Fox & Clark Tang | BG2",
     "last_proof_snippet": "I think we're all pretty AI-pilled, and if you're AI-pilled, that means we've got to build a lot more compute than the world thinks, and that these models are going to be a lot more valuable than people think. You combine that with their co",
@@ -50136,7 +50198,7 @@ const dashboardData = {
     "last_podcast_name": "Moonshots with Peter Diamandis",
     "last_episode_date": "2026-06-03",
     "mention_score": 1,
-    "mention_score_decayed": 0.12,
+    "mention_score_decayed": 0.11,
     "last_main_idea": "Invest in companies at the forefront of AI advancements, particularly in large language models and robotics, as these technologies are expected to drive the next wave of innovation and growth.",
     "last_proof_cite": "Moonshots with Peter Diamandis \u2022 2026-06-03 \u2022 Why AGI Is Close but Not Here Yet | Ray Kurzweil | EP #261",
     "last_proof_snippet": "We just saw a story where Dennis is obvious, who you know, said 50, 50, whether we need another breakthrough to get to AGI. What do you think? Well, I think we need two things. So we've made a 75,000 million trillion folding grease over thi",

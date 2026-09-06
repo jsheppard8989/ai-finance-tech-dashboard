@@ -20,6 +20,26 @@
       "podcast_episode_id": 458
     },
     {
+      "id": 474,
+      "title": "GPT-6 Astra Saturates ARC-AGI-3, Tesla's $30K Cybercab Floods Austin, Anthropic Proves Fermat's Last Theorem | EP #286",
+      "source_type": "podcast",
+      "source_name": "Moonshots with Peter Diamandis",
+      "source_date": "2026-09-05",
+      "summary": "This episode of Moonshots with Peter Diamandis explores breakthrough developments across space infrastructure, autonomous vehicles, healthcare AI, and longevity science. Key investment themes include NASA's selection of Blue Origin for Mars telecommunications relay networks, signaling the emergence of interplanetary infrastructure as an investable frontier. Tesla's projected $30,000 Cyber Cab represents a potential price disruption in autonomous ride-hailing that could reshape urban mobility economics. In healthcare, the FDA approval of a RAS inhibitor for previously 'undruggable' cancers marks a watershed moment in targeted oncology, while OpenAI's integration into Epic's electronic health records demonstrates AI's accelerating penetration into clinical workflows. Perhaps most significantly for longevity investors, new research links GLP-1 drugs to lifespan extension and reduced infections, potentially expanding their addressable market beyond diabetes and obesity into anti-aging therapeutics.",
+      "key_takeaway": "The convergence of space commercialization, autonomous mobility price disruption, and healthcare's shift from treatment to prevention and longevity creates a multi-decade investment opportunity in infrastructure-for-frontier-markets, with GLP-1 drugs potentially becoming the largest pharmaceutical category in history if lifespan extension claims hold in human trials.",
+      "tickers_mentioned": [
+        "TSLA",
+        "AMZN"
+      ],
+      "sentiment": "bullish",
+      "display_on_main": 1,
+      "display_order": 0,
+      "added_date": "2026-09-05",
+      "archived_date": null,
+      "archived_reason": null,
+      "podcast_episode_id": 459
+    },
+    {
       "id": 466,
       "title": "Fei Fei Li: The Race to Build World Models For AI",
       "source_type": "podcast",
@@ -127,7 +147,7 @@
         "MRNA"
       ],
       "sentiment": "bearish",
-      "display_on_main": 1,
+      "display_on_main": 0,
       "display_order": 0,
       "added_date": "2026-09-04",
       "archived_date": null,
@@ -9141,8 +9161,8 @@
       "term": "Simulation",
       "description": "The use of models and computer programs to represent and analyze real or imagined systems or situations.",
       "first_detected_date": "2026-08-21",
-      "last_mentioned_date": "2026-09-02",
-      "mention_count": 8,
+      "last_mentioned_date": "2026-09-05",
+      "mention_count": 9,
       "source_podcasts": null,
       "status": "active",
       "investment_implications": "Simulation technology can provide significant insights for decision-making, making investments in this area potentially valuable.",
@@ -9151,8 +9171,8 @@
       "archived_reason": null,
       "first_detected_episode_id": 420,
       "first_detected_speaker": "June",
-      "last_mentioned_episode_id": 455,
-      "last_mentioned_speaker": "Elon Musk"
+      "last_mentioned_episode_id": 459,
+      "last_mentioned_speaker": "Peter Diamandis (hosts)"
     },
     {
       "id": 272,
@@ -9321,8 +9341,8 @@
       "term": "Autonomy",
       "description": "The capacity of an AI system to make decisions and operate independently of direct human control or oversight, as evidenced by agents not alerting humans about their unethical actions.",
       "first_detected_date": "2026-07-22",
-      "last_mentioned_date": "2026-09-02",
-      "mention_count": 16,
+      "last_mentioned_date": "2026-09-05",
+      "mention_count": 17,
       "source_podcasts": null,
       "status": "active",
       "investment_implications": "Emphasizes the critical need for ethical AI frameworks, clear oversight mechanisms, and fail-safes to manage systems operating independently of human control, impacting regulatory compliance and public trust.",
@@ -9331,8 +9351,8 @@
       "archived_reason": null,
       "first_detected_episode_id": 362,
       "first_detected_speaker": "Travis Kalanick, Ben Horowitz",
-      "last_mentioned_episode_id": 455,
-      "last_mentioned_speaker": "Elon Musk"
+      "last_mentioned_episode_id": 459,
+      "last_mentioned_speaker": "Peter Diamandis (hosts)"
     },
     {
       "id": 265,
@@ -9447,8 +9467,8 @@
       "term": "ASI",
       "description": "Artificial Super Intelligence, referring to AI systems that surpass human intelligence in every field.",
       "first_detected_date": "2026-06-29",
-      "last_mentioned_date": "2026-09-02",
-      "mention_count": 17,
+      "last_mentioned_date": "2026-09-05",
+      "mention_count": 18,
       "source_podcasts": null,
       "status": "active",
       "investment_implications": "ASI represents a potential paradigm shift in technology and could disrupt various industries.",
@@ -9457,26 +9477,26 @@
       "archived_reason": null,
       "first_detected_episode_id": 319,
       "first_detected_speaker": "Peter Diamandis (hosts)",
-      "last_mentioned_episode_id": 455,
-      "last_mentioned_speaker": "Elon Musk"
+      "last_mentioned_episode_id": 459,
+      "last_mentioned_speaker": "Peter Diamandis (hosts)"
     },
     {
       "id": 135,
       "term": "Healthspan",
-      "description": "The period of life during which an individual is generally healthy and free from chronic diseases.",
+      "description": "The portion of life spent in good health, distinct from lifespan; GLP-1 drugs are showing potential to extend both by reducing serious infections and metabolic disease.",
       "first_detected_date": "2026-06-29",
-      "last_mentioned_date": "2026-08-21",
-      "mention_count": 6,
+      "last_mentioned_date": "2026-09-05",
+      "mention_count": 7,
       "source_podcasts": null,
       "status": "active",
-      "investment_implications": "Investments in technologies that extend healthspan could have significant societal and economic impacts.",
+      "investment_implications": "GLP-1 repositioning from diabetes/obesity to longevity could expand addressable market 10x if clinical evidence supports human lifespan extension.",
       "display_on_main": 0,
       "archived_date": null,
       "archived_reason": null,
       "first_detected_episode_id": 319,
       "first_detected_speaker": "Peter Diamandis (hosts)",
-      "last_mentioned_episode_id": 419,
-      "last_mentioned_speaker": "Elon Musk"
+      "last_mentioned_episode_id": 459,
+      "last_mentioned_speaker": "Peter Diamandis (hosts)"
     },
     {
       "id": 255,
@@ -10005,8 +10025,8 @@
       "term": "Singularity",
       "description": "A hypothetical point in the future at which technological growth becomes uncontrollable and irreversible, leading to unforeseeable changes in human civilization.",
       "first_detected_date": "2026-05-15",
-      "last_mentioned_date": "2026-09-02",
-      "mention_count": 62,
+      "last_mentioned_date": "2026-09-05",
+      "mention_count": 63,
       "source_podcasts": null,
       "status": "active",
       "investment_implications": "Investors should consider the potential for rapid technological change and its impact on various sectors, including AI, when making long-term investment decisions.",
@@ -10015,8 +10035,8 @@
       "archived_reason": null,
       "first_detected_episode_id": 221,
       "first_detected_speaker": null,
-      "last_mentioned_episode_id": 455,
-      "last_mentioned_speaker": "Elon Musk"
+      "last_mentioned_episode_id": 459,
+      "last_mentioned_speaker": "Peter Diamandis (hosts)"
     },
     {
       "id": 97,
@@ -10093,20 +10113,20 @@
     {
       "id": 75,
       "term": "AI Adjacent",
-      "description": "Business models and infrastructure positioned to capture value from AI transformation without directly competing in core AI model development, often by solving trust, interface, or integration challenges.",
+      "description": "Healthcare applications where AI augments rather than replaces clinical decision-making, such as OpenAI integration with Epic EHRs for natural language patient record queries.",
       "first_detected_date": "2026-05-07",
-      "last_mentioned_date": "2026-09-03",
-      "mention_count": 4,
+      "last_mentioned_date": "2026-09-05",
+      "mention_count": 5,
       "source_podcasts": null,
       "status": "active",
-      "investment_implications": "Payments and commerce infrastructure represent high-conviction AI-adjacent exposure with clearer monetization paths than foundational AI bets.",
+      "investment_implications": "Enterprise AI adoption in regulated healthcare workflows may create more durable competitive moats than consumer-facing AI applications.",
       "display_on_main": 0,
       "archived_date": null,
       "archived_reason": null,
       "first_detected_episode_id": 204,
       "first_detected_speaker": null,
-      "last_mentioned_episode_id": 454,
-      "last_mentioned_speaker": null
+      "last_mentioned_episode_id": 459,
+      "last_mentioned_speaker": "Peter Diamandis (hosts)"
     },
     {
       "id": 160,
@@ -10131,8 +10151,8 @@
       "term": "AGI",
       "description": "Artificial General Intelligence: AI systems with human-level reasoning and problem-solving across any domain, debated here as already arrived versus still emerging.",
       "first_detected_date": "2026-05-07",
-      "last_mentioned_date": "2026-09-04",
-      "mention_count": 88,
+      "last_mentioned_date": "2026-09-05",
+      "mention_count": 89,
       "source_podcasts": null,
       "status": "active",
       "investment_implications": "Determines valuation multiples for frontier AI companies and timeline for workforce displacement across sectors.",
@@ -10141,8 +10161,8 @@
       "archived_reason": null,
       "first_detected_episode_id": 204,
       "first_detected_speaker": "Demis Hassabis",
-      "last_mentioned_episode_id": 457,
-      "last_mentioned_speaker": "Chamath Palihapitiya, Jason Calacanis (hosts)"
+      "last_mentioned_episode_id": 459,
+      "last_mentioned_speaker": "Peter Diamandis (hosts)"
     },
     {
       "id": 162,
@@ -10507,19 +10527,19 @@
     {
       "id": 89,
       "term": "Autonomous Vehicles (AVs)",
-      "description": "Self-driving vehicles that use a combination of sensors, cameras, and artificial intelligence to navigate without human input.",
+      "description": "Self-driving vehicles designed to operate without human intervention, with Tesla's Cyber Cab representing a consumer-priced autonomous fleet vehicle model.",
       "first_detected_date": "2026-04-03",
-      "last_mentioned_date": "2026-08-29",
-      "mention_count": 5,
+      "last_mentioned_date": "2026-09-05",
+      "mention_count": 6,
       "source_podcasts": null,
       "status": "active",
-      "investment_implications": "The expansion of Autonomous Vehicles into ride-sharing services like Tesla's Robotaxi could revolutionize the transportation industry and offer new investment opportunities.",
+      "investment_implications": "Price points below $35K could trigger mass fleet adoption and reshape urban real estate, insurance, and transportation economics.",
       "display_on_main": 0,
       "archived_date": null,
       "archived_reason": null,
       "first_detected_episode_id": null,
       "first_detected_speaker": null,
-      "last_mentioned_episode_id": 444,
+      "last_mentioned_episode_id": 459,
       "last_mentioned_speaker": "Peter Diamandis (hosts)"
     },
     {
@@ -11229,8 +11249,8 @@
       "term": "AI Agents",
       "description": "Autonomous artificial intelligence programs designed to perform tasks, which in this context demonstrated the ability to communicate, collaborate, and strategize collectively to achieve goals, including exploitation.",
       "first_detected_date": "2026-02-28",
-      "last_mentioned_date": "2026-09-04",
-      "mention_count": 83,
+      "last_mentioned_date": "2026-09-05",
+      "mention_count": 84,
       "source_podcasts": null,
       "status": "active",
       "investment_implications": "The emergence of collaborative and potentially malicious AI Agents creates a significant market for AI security, monitoring, and governance technologies.",
@@ -11239,8 +11259,8 @@
       "archived_reason": null,
       "first_detected_episode_id": 31,
       "first_detected_speaker": null,
-      "last_mentioned_episode_id": 457,
-      "last_mentioned_speaker": "Chamath Palihapitiya, Jason Calacanis (hosts)"
+      "last_mentioned_episode_id": 459,
+      "last_mentioned_speaker": "Peter Diamandis (hosts)"
     },
     {
       "id": 38,
