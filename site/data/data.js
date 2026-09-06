@@ -3,80 +3,80 @@
 
 const dashboardData = {
   schemaVersion: 2,
-  generatedAt: "2026-09-06T05:43:13.803058",
-  chartsVersion: "2026-09-06T05:42:58.109045",
+  generatedAt: "2026-09-06T07:17:45.790712",
+  chartsVersion: "2026-09-06T07:17:37.127671",
   priceSnapshot: {
   "GOOGL": {
     "price": 338.46,
     "change_pct": -1.6,
     "name": "GOOGL",
-    "updated_at": "2026-09-06T05:42:58.107420"
+    "updated_at": "2026-09-06T07:17:37.127211"
   },
   "NVDA": {
     "price": 230.36,
     "change_pct": 4.83,
     "name": "NVDA",
-    "updated_at": "2026-09-06T05:42:58.107441"
+    "updated_at": "2026-09-06T07:17:37.127221"
   },
   "TSLA": {
     "price": 354.08,
     "change_pct": 5.11,
     "name": "TSLA",
-    "updated_at": "2026-09-06T05:42:58.107451"
+    "updated_at": "2026-09-06T07:17:37.127226"
   },
   "MSFT": {
     "price": 499.7,
     "change_pct": 3.95,
     "name": "MSFT",
-    "updated_at": "2026-09-06T05:42:58.107459"
+    "updated_at": "2026-09-06T07:17:37.127229"
   },
   "BTC": {
-    "price": 79994.23,
+    "price": 79992.27,
     "change_pct": 1.3,
     "name": "BTC",
-    "updated_at": "2026-09-06T05:42:58.107467"
+    "updated_at": "2026-09-06T07:17:37.127232"
   },
   "AMZN": {
     "price": 258.51,
     "change_pct": -0.36,
     "name": "AMZN",
-    "updated_at": "2026-09-06T05:42:58.107476"
+    "updated_at": "2026-09-06T07:17:37.127236"
   },
   "META": {
     "price": 616.77,
     "change_pct": 13.45,
     "name": "META",
-    "updated_at": "2026-09-06T05:42:58.107484"
+    "updated_at": "2026-09-06T07:17:37.127239"
   },
   "WTI": {
     "price": 3.82,
     "change_pct": 0.0,
     "name": "WTI",
-    "updated_at": "2026-09-06T05:42:58.107492"
+    "updated_at": "2026-09-06T07:17:37.127242"
   },
   "S&P 500": {
     "price": 770.19,
     "change_pct": 0.36,
     "name": "S&P 500",
-    "updated_at": "2026-09-06T05:42:58.107500"
+    "updated_at": "2026-09-06T07:17:37.127245"
   },
   "AAPL": {
     "price": 319.97,
     "change_pct": 3.21,
     "name": "AAPL",
-    "updated_at": "2026-09-06T05:42:58.107507"
+    "updated_at": "2026-09-06T07:17:37.127248"
   },
   "QQQ": {
     "price": 718.96,
     "change_pct": 0.2,
     "name": "Invesco QQQ Trust",
-    "updated_at": "2026-09-06T05:42:58.107515"
+    "updated_at": "2026-09-06T07:17:37.127251"
   },
   "BTC-USD": {
-    "price": 79994.23,
+    "price": 79992.27,
     "change_pct": 1.3,
     "name": "Bitcoin USD",
-    "updated_at": "2026-09-06T05:42:58.107523"
+    "updated_at": "2026-09-06T07:17:37.127255"
   }
 },
   tickerScores: [
@@ -834,6 +834,25 @@ const dashboardData = {
   archive: {
   "insights": [
     {
+      "id": 475,
+      "title": "Your AI Doctor Is Coming | Julie Yoo",
+      "source_type": "podcast",
+      "source_name": "The a16z Show",
+      "source_date": "2026-09-06",
+      "summary": "This episode of The a16z Show explores how artificial intelligence is poised to fundamentally transform healthcare, potentially more than any other industry. The discussion centers on three major investment themes: AI-native healthcare delivery that bypasses legacy IT systems, the rise of consumer-driven cash-pay healthcare models, and innovative payment structures that challenge traditional insurance paradigms. The speakers highlight a critical paradox in healthcare where high demand coexists with low physician utilization rates, indicating massive inefficiencies that technology can address. The pandemic has accelerated digital transformation and shifted consumer expectations, creating openings for startups to build direct-to-patient services with transparent pricing. Robotics and automation are also emerging as key enablers in high-acuity settings, allowing for hybrid care models that combine human expertise with technological efficiency.",
+      "key_takeaway": "Healthcare is entering a renaissance where AI-native companies, consumer-driven cash-pay models, and alternative payment structures will capture significant value from a historically tech-laggard industry now primed for disruption by post-pandemic digital adoption and patient demand for transparency.",
+      "tickers_mentioned": [
+        "NVDA"
+      ],
+      "sentiment": "neutral",
+      "display_on_main": 1,
+      "display_order": 0,
+      "added_date": "2026-09-06",
+      "archived_date": null,
+      "archived_reason": null,
+      "podcast_episode_id": 460
+    },
+    {
       "id": 473,
       "title": "Aaron Levie on Why Open AI Wins",
       "source_type": "podcast",
@@ -1000,7 +1019,7 @@ const dashboardData = {
         "TSLA"
       ],
       "sentiment": "neutral",
-      "display_on_main": 1,
+      "display_on_main": 0,
       "display_order": 0,
       "added_date": "2026-09-04",
       "archived_date": null,
@@ -10048,8 +10067,8 @@ const dashboardData = {
       "term": "Skin in the Game",
       "description": "A principle where individuals or entities have a personal stake or risk in the outcomes of their decisions or actions.",
       "first_detected_date": "2026-08-04",
-      "last_mentioned_date": "2026-09-04",
-      "mention_count": 3,
+      "last_mentioned_date": "2026-09-06",
+      "mention_count": 4,
       "source_podcasts": null,
       "status": "active",
       "investment_implications": "Having skin in the game can align incentives and encourage more prudent risk management in investment strategies.",
@@ -10058,7 +10077,7 @@ const dashboardData = {
       "archived_reason": null,
       "first_detected_episode_id": 384,
       "first_detected_speaker": "Victor Hagani",
-      "last_mentioned_episode_id": 457,
+      "last_mentioned_episode_id": 460,
       "last_mentioned_speaker": "Chamath Palihapitiya, Jason Calacanis (hosts)"
     },
     {
@@ -10316,19 +10335,19 @@ const dashboardData = {
     {
       "id": 135,
       "term": "Healthspan",
-      "description": "The portion of life spent in good health, distinct from lifespan; GLP-1 drugs are showing potential to extend both by reducing serious infections and metabolic disease.",
+      "description": "The period of life spent in good health, free from chronic disease and disability, as distinguished from simple lifespan extension.",
       "first_detected_date": "2026-06-29",
-      "last_mentioned_date": "2026-09-05",
-      "mention_count": 7,
+      "last_mentioned_date": "2026-09-06",
+      "mention_count": 8,
       "source_podcasts": null,
       "status": "active",
-      "investment_implications": "GLP-1 repositioning from diabetes/obesity to longevity could expand addressable market 10x if clinical evidence supports human lifespan extension.",
+      "investment_implications": "Consumer willingness to pay directly for healthspan optimization creates premium pricing power and recurring revenue opportunities outside insurance reimbursement.",
       "display_on_main": 0,
       "archived_date": null,
       "archived_reason": null,
       "first_detected_episode_id": 319,
       "first_detected_speaker": "Peter Diamandis (hosts)",
-      "last_mentioned_episode_id": 459,
+      "last_mentioned_episode_id": 460,
       "last_mentioned_speaker": "Peter Diamandis (hosts)"
     },
     {
@@ -12278,19 +12297,19 @@ const dashboardData = {
     {
       "id": 14,
       "term": "Agentic Velocity",
-      "description": "The speed at which AI agents can execute tasks, potentially outpacing traditional security measures.",
+      "description": "The speed and efficiency with which AI agents can autonomously perform tasks and make decisions in healthcare workflows, replacing traditional software development cycles.",
       "first_detected_date": "2026-02-15",
-      "last_mentioned_date": "2026-08-18",
-      "mention_count": 3,
+      "last_mentioned_date": "2026-09-06",
+      "mention_count": 4,
       "source_podcasts": null,
       "status": "active",
-      "investment_implications": "Invest in technologies that can keep pace with the rapid actions of AI agents in cybersecurity.",
+      "investment_implications": "Higher agentic velocity enables healthcare startups to scale faster and at lower cost than traditional SaaS or services models, improving capital efficiency.",
       "display_on_main": 0,
       "archived_date": null,
       "archived_reason": null,
       "first_detected_episode_id": null,
       "first_detected_speaker": null,
-      "last_mentioned_episode_id": 412,
+      "last_mentioned_episode_id": 460,
       "last_mentioned_speaker": "Max Pollard, Nick Warner"
     },
     {
@@ -12357,6 +12376,26 @@ const dashboardData = {
 },
   mainContent: {
   "insights": [
+    {
+      "id": 475,
+      "title": "Your AI Doctor Is Coming | Julie Yoo",
+      "source_type": "podcast",
+      "source_name": "The a16z Show",
+      "source_date": "2026-09-06",
+      "summary": "This episode of The a16z Show explores how artificial intelligence is poised to fundamentally transform healthcare, potentially more than any other industry. The discussion centers on three major investment themes: AI-native healthcare delivery that bypasses legacy IT systems, the rise of consumer-driven cash-pay healthcare models, and innovative payment structures that challenge traditional insurance paradigms. The speakers highlight a critical paradox in healthcare where high demand coexists with low physician utilization rates, indicating massive inefficiencies that technology can address. The pandemic has accelerated digital transformation and shifted consumer expectations, creating openings for startups to build direct-to-patient services with transparent pricing. Robotics and automation are also emerging as key enablers in high-acuity settings, allowing for hybrid care models that combine human expertise with technological efficiency.",
+      "key_takeaway": "Healthcare is entering a renaissance where AI-native companies, consumer-driven cash-pay models, and alternative payment structures will capture significant value from a historically tech-laggard industry now primed for disruption by post-pandemic digital adoption and patient demand for transparency.",
+      "tickers_mentioned": "[\"NVDA\"]",
+      "sentiment": "neutral",
+      "display_on_main": 1,
+      "display_order": 0,
+      "added_date": "2026-09-06",
+      "archived_date": null,
+      "archived_reason": null,
+      "podcast_episode_id": 460,
+      "episode_release_date": "2026-09-06",
+      "guest_name": "Your AI Doctor Is Coming",
+      "key_tickers": []
+    },
     {
       "id": 473,
       "title": "Aaron Levie on Why Open AI Wins",
@@ -12502,29 +12541,6 @@ const dashboardData = {
       "episode_release_date": "2026-09-03",
       "guest_name": "Financial strategist Jared Dillian",
       "key_tickers": []
-    },
-    {
-      "id": 471,
-      "title": "Humanity's First Star Probe, Architect Labs Beats NVIDIA 3.4x, Musk Wants Satellites to Cool Earth | EP #285",
-      "source_type": "podcast",
-      "source_name": "Moonshots with Peter Diamandis",
-      "source_date": "2026-09-02",
-      "summary": "This episode of Moonshots explores several frontier technology themes with significant investment implications. Elon Musk joins Peter Diamandis to discuss the looming energy infrastructure gap threatening AI compute expansion, with 15 gigawatts of projected 2027 capacity potentially stranded without power. Musk outlines ambitious plans for 100 gigawatts of annual solar production through SpaceX and Tesla to address this gap. The conversation covers breakthrough AI-designed semiconductors from ArchaTech Labs that achieve 3.4x performance per watt versus Nvidia's Jetson, potentially disrupting the chip industry. NASA's planned 2028 nuclear-powered Mars mission represents a major acceleration in interplanetary capability. Musk also advocates for geoengineering via satellite-based temperature control as an extinction-risk mitigation strategy. A notable business model shift is identified in AI pricing: outcome-based models where customers pay only for completed results rather than token consumption, with OpenAI already piloting this approach.",
-      "key_takeaway": "The convergence of AI compute demand and energy infrastructure constraints creates a dual-investment opportunity in renewable energy production and next-generation chip architectures, while nuclear propulsion and geoengineering represent emerging frontier markets with significant government backing.",
-      "tickers_mentioned": "[\"NVDA\", \"TSLA\"]",
-      "sentiment": "neutral",
-      "display_on_main": 1,
-      "display_order": 0,
-      "added_date": "2026-09-04",
-      "archived_date": null,
-      "archived_reason": null,
-      "podcast_episode_id": 455,
-      "episode_release_date": "2026-09-02",
-      "guest_name": null,
-      "key_tickers": [
-        "NVDA",
-        "TSLA"
-      ]
     }
   ],
   "definitions": [
@@ -12819,6 +12835,34 @@ const dashboardData = {
       "last_mentioned_episode_date": "2026-08-15"
     },
     {
+      "id": 268,
+      "term": "Skin in the Game",
+      "description": "A principle where individuals or entities have a personal stake or risk in the outcomes of their decisions or actions.",
+      "first_detected_date": "2026-08-04",
+      "last_mentioned_date": "2026-09-06",
+      "mention_count": 4,
+      "source_podcasts": null,
+      "status": "active",
+      "investment_implications": "Having skin in the game can align incentives and encourage more prudent risk management in investment strategies.",
+      "display_on_main": 1,
+      "archived_date": null,
+      "archived_reason": null,
+      "first_detected_episode_id": 384,
+      "first_detected_speaker": "Victor Hagani",
+      "last_mentioned_episode_id": 460,
+      "last_mentioned_speaker": "Chamath Palihapitiya, Jason Calacanis (hosts)",
+      "novelty_score": 1.9273,
+      "overton_score": 1.9273,
+      "resonance_pct": 75,
+      "is_established": false,
+      "first_detected_podcast": "Monetary Matters with Jack Farley",
+      "first_detected_episode_title": "Victor Haghani on Death of Random Walk, and Passive, Buybacks, and LTCM",
+      "first_detected_episode_date": "2026-08-04",
+      "last_mentioned_podcast": "The a16z Show",
+      "last_mentioned_episode_title": "Your AI Doctor Is Coming | Julie Yoo",
+      "last_mentioned_episode_date": "2026-09-06"
+    },
+    {
       "id": 269,
       "term": "Golden Age of Science",
       "description": "A period of significant scientific discovery and progress, often associated with rapid advancements and breakthroughs.",
@@ -12985,34 +13029,6 @@ const dashboardData = {
       "last_mentioned_podcast": "Moonshots with Peter Diamandis",
       "last_mentioned_episode_title": "NVIDIA's $96.2B Quarter, China's 200,000 Fake Accounts, & OpenAI's New Chip | EP #284",
       "last_mentioned_episode_date": "2026-08-29"
-    },
-    {
-      "id": 259,
-      "term": "Liquid AI",
-      "description": "A type of AI that focuses on efficient, general-purpose intelligence at various scales, often using small language models.",
-      "first_detected_date": "2026-07-17",
-      "last_mentioned_date": "2026-08-08",
-      "mention_count": 4,
-      "source_podcasts": null,
-      "status": "active",
-      "investment_implications": "Investors should consider companies developing Liquid AI for their potential to disrupt traditional AI markets and offer more adaptable solutions.",
-      "display_on_main": 1,
-      "archived_date": null,
-      "archived_reason": null,
-      "first_detected_episode_id": 354,
-      "first_detected_speaker": "Ramine Hassani",
-      "last_mentioned_episode_id": 393,
-      "last_mentioned_speaker": "Saline",
-      "novelty_score": 1.5702,
-      "overton_score": 1.5702,
-      "resonance_pct": 70,
-      "is_established": false,
-      "first_detected_podcast": "Moonshots with Peter Diamandis",
-      "first_detected_episode_title": "Mira Murati's 975B Open Model, Ramin Hasani on Post-Transformer AI, and Demis' AI FINRA | EP #271",
-      "first_detected_episode_date": "2026-07-17",
-      "last_mentioned_podcast": "Moonshots with Peter Diamandis",
-      "last_mentioned_episode_title": "Google\u2019s Jeff Dean Exits, SpaceX Hits $100B in Rev & OpenAI\u2019s Astra Solves Decade-Old Math Problems with Emad Mostaque | EP #277",
-      "last_mentioned_episode_date": "2026-08-08"
     }
   ],
   "overton_established": [
@@ -40545,9 +40561,59 @@ const dashboardData = {
       "TSLA",
       "AMZN"
     ]
+  },
+  "475": {
+    "id": 464,
+    "insight_id": 475,
+    "podcast_episode_id": 460,
+    "overview": "The traditonal healthcare model's reliance on insurance complicates the patient experience, often leading to confusion and dissatisfaction due to opaque pricing and long wait times. Startup companies offering clearer cash-pay options are tapping into this frustration, enhancing patient autonomy and satisfaction. Interestingly, this transition isn't merely a trend; it's driven by rising consumer expectations and demand for timely access to care, with surveys indicating that nearly 70% of patients prefer a transparent pricing model. Furthermore, advancements in AI analytics are enabling quick price estimations for services, which can further empower consumers in their healthcare choices.",
+    "key_takeaways_detailed": [],
+    "investment_thesis": "If the trends towards AI and consumer-driven models continue, allocators may find a compelling opportunity in investing in healthcare startups that embody these shifts. The timeframe for realizing significant returns could align closely with ongoing digital transformations over the next 3 to 5 years. Conversely, if traditional healthcare frameworks regain dominance or consumer preferences shift back to insurance-heavy models, this thesis could lose credibility.",
+    "ticker_analysis": {
+      "NVDA": {
+        "rationale": "NVIDIA is the cleanest expression of the idea due to its pivotal role in AI development, providing the technology that drives many healthcare innovations.",
+        "positioning": "",
+        "risk": ""
+      }
+    },
+    "positioning_guidance": "",
+    "risk_factors": [],
+    "contrarian_signals": [],
+    "catalysts": [],
+    "related_insights": null,
+    "audio_timestamp_start": null,
+    "audio_timestamp_end": null,
+    "transcript_excerpt": null,
+    "created_at": "2026-09-06T07:16:35.901425",
+    "updated_at": "2026-09-06 12:16:35",
+    "episode_evidence": "- \"I believe healthcare is the industry that will benefit the most from AI.\"\n- \"Now that all that's changed... some of the fastest growing companies that we see in health tech are cash pay.\"",
+    "falsification_tracks": [
+      "A significant reduction in consumer interest in cash-pay healthcare options evidenced by decreased adoption rates or customer feedback.",
+      "A resurgence of traditional insurance models that offer competitive pricing and transparency, attracting consumers back to legacy systems.",
+      "Research indicating that the expected efficiencies from AI integration in healthcare delivery are not realized in practice, leading to stagnation or delays in tech adoption.",
+      "Financial strain on new startups causing a pullback from innovations due to unproven business models in the consumer healthcare space.",
+      "A marked decline in physician engagement levels even with the advent of AI, suggesting that automation isn\u2019t leading to improved utilization rates."
+    ],
+    "schema_version": 2,
+    "insight_title": "Your AI Doctor Is Coming | Julie Yoo",
+    "source_name": "The a16z Show",
+    "source_date": "2026-09-06",
+    "key_tickers": []
   }
 },
   suggestedTerms: [
+  {
+    "id": 650,
+    "term": "AI-native care delivery",
+    "definition": "Healthcare delivery models built from the ground up using artificial intelligence rather than retrofitting AI onto existing legacy systems and workflows.",
+    "investment_implications": "Companies without legacy IT debt can achieve faster implementation and superior unit economics, creating competitive moats against incumbent providers.",
+    "source_type": "auto_extracted",
+    "mention_count": 1,
+    "source_diversity": 1,
+    "relevance_score": 50,
+    "submitted_date": "2026-09-06 12:14:13",
+    "priority_score": 80
+  },
   {
     "id": 647,
     "term": "Cycle Time Obsession",
@@ -40583,23 +40649,23 @@ const dashboardData = {
     "relevance_score": 50,
     "submitted_date": "2026-09-04 13:46:33",
     "priority_score": 80
-  },
-  {
-    "id": 646,
-    "term": "Outcome-Based Pricing",
-    "definition": "A business model where AI customers pay only when the system successfully completes a task or delivers a result, rather than per token or API call.",
-    "investment_implications": "Could expand AI adoption among risk-averse enterprises and create more predictable revenue streams for AI providers willing to bear execution risk.",
-    "source_type": "auto_extracted",
-    "mention_count": 1,
-    "source_diversity": 1,
-    "relevance_score": 50,
-    "submitted_date": "2026-09-04 13:46:05",
-    "priority_score": 80
   }
 ],
   podcastGuests: [
   {
-    "id": 63796,
+    "id": 63885,
+    "name": "Your AI Doctor Is Coming",
+    "slug": "your-ai-doctor-is-coming",
+    "bio": null,
+    "known_for": null,
+    "last_main_idea": "Healthcare is entering a renaissance where AI-native companies, consumer-driven cash-pay models, and alternative payment structures will capture significant value from a historically tech-laggard industry now primed for disruption by post-pandemic digital adoption and patient demand for transparency.",
+    "last_episode_title": "Your AI Doctor Is Coming | Julie Yoo",
+    "last_podcast_name": "The a16z Show",
+    "last_episode_date": "2026-09-06",
+    "appearance_count": 1
+  },
+  {
+    "id": 63886,
     "name": "Fei Fei Li",
     "slug": "fei-fei-li",
     "bio": null,
@@ -40611,7 +40677,7 @@ const dashboardData = {
     "appearance_count": 1
   },
   {
-    "id": 63797,
+    "id": 63887,
     "name": "Financial strategist Jared Dillian",
     "slug": "financial-strategist-jared-dillian",
     "bio": null,
@@ -40623,7 +40689,7 @@ const dashboardData = {
     "appearance_count": 1
   },
   {
-    "id": 63798,
+    "id": 63888,
     "name": "Daniel Litt",
     "slug": "daniel-litt",
     "bio": null,
@@ -40635,7 +40701,7 @@ const dashboardData = {
     "appearance_count": 1
   },
   {
-    "id": 63799,
+    "id": 63889,
     "name": "Gavin Baker",
     "slug": "gavin-baker",
     "bio": null,
@@ -40647,7 +40713,7 @@ const dashboardData = {
     "appearance_count": 1
   },
   {
-    "id": 63800,
+    "id": 63890,
     "name": "Sam Altman",
     "slug": "sam-altman",
     "bio": null,
@@ -40659,7 +40725,7 @@ const dashboardData = {
     "appearance_count": 1
   },
   {
-    "id": 63801,
+    "id": 63891,
     "name": "Time to Reduce Equity Risk",
     "slug": "time-to-reduce-equity-risk",
     "bio": null,
@@ -40671,7 +40737,7 @@ const dashboardData = {
     "appearance_count": 1
   },
   {
-    "id": 63802,
+    "id": 63892,
     "name": "Eric Weinstein",
     "slug": "eric-weinstein",
     "bio": null,
@@ -40683,7 +40749,7 @@ const dashboardData = {
     "appearance_count": 1
   },
   {
-    "id": 63803,
+    "id": 63893,
     "name": "Michael Kratsios",
     "slug": "michael-kratsios",
     "bio": null,
@@ -40695,7 +40761,7 @@ const dashboardData = {
     "appearance_count": 1
   },
   {
-    "id": 63804,
+    "id": 63894,
     "name": "Emad Mostaque",
     "slug": "emad-mostaque",
     "bio": null,
@@ -40707,7 +40773,7 @@ const dashboardData = {
     "appearance_count": 3
   },
   {
-    "id": 63805,
+    "id": 63895,
     "name": "Angela Strange and Gabriel Vasquez",
     "slug": "angela-strange-and-gabriel-vasquez",
     "bio": null,
@@ -40719,7 +40785,7 @@ const dashboardData = {
     "appearance_count": 1
   },
   {
-    "id": 63806,
+    "id": 63896,
     "name": "Why Bessent Blinked",
     "slug": "why-bessent-blinked",
     "bio": null,
@@ -40731,7 +40797,7 @@ const dashboardData = {
     "appearance_count": 1
   },
   {
-    "id": 63807,
+    "id": 63897,
     "name": "Travis Kalanick",
     "slug": "travis-kalanick",
     "bio": null,
@@ -40743,7 +40809,7 @@ const dashboardData = {
     "appearance_count": 1
   },
   {
-    "id": 63808,
+    "id": 63898,
     "name": "Rahm Emanuel",
     "slug": "rahm-emanuel",
     "bio": null,
@@ -40755,7 +40821,7 @@ const dashboardData = {
     "appearance_count": 1
   },
   {
-    "id": 63809,
+    "id": 63899,
     "name": "Milton Berg",
     "slug": "milton-berg",
     "bio": "Milton Berg is a veteran technical analyst and CEO of Milton Berg Advisors, specializing in market turning-point analysis for institutional investors.",
@@ -40767,7 +40833,7 @@ const dashboardData = {
     "appearance_count": 1
   },
   {
-    "id": 63810,
+    "id": 63900,
     "name": "How Open",
     "slug": "how-open",
     "bio": null,
@@ -40779,7 +40845,7 @@ const dashboardData = {
     "appearance_count": 1
   },
   {
-    "id": 63811,
+    "id": 63901,
     "name": "Saronic Founders",
     "slug": "saronic-founders",
     "bio": null,
@@ -40791,7 +40857,7 @@ const dashboardData = {
     "appearance_count": 1
   },
   {
-    "id": 63812,
+    "id": 63902,
     "name": "OpenAI's Joshua Achiam",
     "slug": "openais-joshua-achiam",
     "bio": null,
@@ -40803,7 +40869,7 @@ const dashboardData = {
     "appearance_count": 1
   },
   {
-    "id": 63813,
+    "id": 63903,
     "name": "Marc Andreessen and Chris Dixon",
     "slug": "marc-andreessen-and-chris-dixon",
     "bio": null,
@@ -40815,7 +40881,7 @@ const dashboardData = {
     "appearance_count": 1
   },
   {
-    "id": 63814,
+    "id": 63904,
     "name": "AI for America's Small Businesses",
     "slug": "ai-for-americas-small-businesses",
     "bio": null,
@@ -40824,18 +40890,6 @@ const dashboardData = {
     "last_episode_title": "AI for America's Small Businesses | Lassie",
     "last_podcast_name": "The a16z Show",
     "last_episode_date": "2026-07-30",
-    "appearance_count": 1
-  },
-  {
-    "id": 63815,
-    "name": "Luke Gromen",
-    "slug": "luke-gromen",
-    "bio": null,
-    "known_for": null,
-    "last_main_idea": "The bond market is facing significant challenges due to supply and demand imbalances, fiscal pressures, and aging populations, making gold an attractive store of value in the current economic climate.",
-    "last_episode_title": "Luke Gromen: Yield Curve Control is the Only Way to Stop a Global Bond Crisis",
-    "last_podcast_name": "Monetary Matters with Jack Farley",
-    "last_episode_date": "2026-07-28",
     "appearance_count": 1
   }
 ],
@@ -41128,7 +41182,7 @@ const dashboardData = {
     "last_podcast_name": "The a16z Show",
     "last_episode_date": "2026-09-01",
     "mention_score": 1,
-    "mention_score_decayed": 0.91,
+    "mention_score_decayed": 0.89,
     "last_main_idea": "Invest in technologies and educational initiatives that enhance human intuition and critical thinking in mathematics, focusing on AI tools that augment human understanding rather than replace it, while also supporting frameworks for quality control in AI-driven research.",
     "last_proof_cite": "The a16z Show \u2022 2026-09-01 \u2022 Daniel Litt: The Mathematician's Guide to AI",
     "last_proof_snippet": "The goal of mathematics is not to produce mathematics papers. It's to produce some kind of understanding. Maybe some of that understanding resides in model weights. To me, that's like pretty unsatisfied. Comparing and profit with open AI. D",
@@ -41155,7 +41209,7 @@ const dashboardData = {
     "last_podcast_name": "The a16z Show",
     "last_episode_date": "2026-08-29",
     "mention_score": 1,
-    "mention_score_decayed": 0.85,
+    "mention_score_decayed": 0.83,
     "last_main_idea": "Investors should prioritize oversight and governance frameworks in AI development processes and support initiatives that promote independent oversight of AI development and deployment.",
     "last_proof_cite": "The a16z Show \u2022 2026-08-29 \u2022 Why 1,200 AI Agents Started Working Together | Ryan Greenblatt",
     "last_proof_snippet": "What happens when you give more than 1,000 AI agents the ability to communicate with each other? They start organizing. Ryan Greenblatt, Chief Scientist at Redwood Research, joins Theo Jaffee on MTS to unpack a new investigation into the Op",
@@ -41454,7 +41508,7 @@ const dashboardData = {
     "last_podcast_name": "The a16z Show",
     "last_episode_date": "2026-08-28",
     "mention_score": 1,
-    "mention_score_decayed": 0.83,
+    "mention_score_decayed": 0.81,
     "last_main_idea": "The next major bottleneck in AI is not the model itself, but the underlying infrastructure that supports it, presenting a significant investment opportunity in companies that can innovate and scale to meet these new demands.",
     "last_proof_cite": "The a16z Show \u2022 2026-08-28 \u2022 The Infrastructure Behind the Machine Age",
     "last_proof_snippet": "We have a whole new technology that's most important technology ever and you need a whole new infrastructure Now I'm going to even be talking about the infrastructure We're talking about the subverse and the storage and the network here goe",
@@ -41518,7 +41572,7 @@ const dashboardData = {
     "last_podcast_name": "The a16z Show",
     "last_episode_date": "2026-08-28",
     "mention_score": 1,
-    "mention_score_decayed": 0.83,
+    "mention_score_decayed": 0.81,
     "last_main_idea": "The next major bottleneck in AI is not the model itself, but the underlying infrastructure that supports it, presenting a significant investment opportunity in companies that can innovate and scale to meet these new demands.",
     "last_proof_cite": "The a16z Show \u2022 2026-08-28 \u2022 The Infrastructure Behind the Machine Age",
     "last_proof_snippet": "We have a whole new technology that's most important technology ever and you need a whole new infrastructure Now I'm going to even be talking about the infrastructure We're talking about the subverse and the storage and the network here goe",
@@ -41640,7 +41694,7 @@ const dashboardData = {
     "last_podcast_name": "The a16z Show",
     "last_episode_date": "2026-08-27",
     "mention_score": 3,
-    "mention_score_decayed": 2.44,
+    "mention_score_decayed": 2.38,
     "last_main_idea": "Cursor's investment thesis revolves around its ability to leverage AI advancements to create a competitive edge in the coding market, focusing on the interface between humans and AI models rather than competing directly with other AI models.",
     "last_proof_cite": "The a16z Show \u2022 2026-08-27 \u2022 Inside Cursor: The Anatomy of a Generational Startup",
     "last_proof_snippet": "We don't need to compete with anthropic and open AI on models right now. The interface between the human and the model is the key thing. If you looked at the competitive landscape, it was almost silly. I asked Michael, I was like, what do y",
@@ -41701,7 +41755,7 @@ const dashboardData = {
     "last_podcast_name": "The a16z Show",
     "last_episode_date": "2026-08-27",
     "mention_score": 1,
-    "mention_score_decayed": 0.81,
+    "mention_score_decayed": 0.79,
     "last_main_idea": "Cursor's investment thesis revolves around its ability to leverage AI advancements to create a competitive edge in the coding market, focusing on the interface between humans and AI models rather than competing directly with other AI models.",
     "last_proof_cite": "The a16z Show \u2022 2026-08-27 \u2022 Inside Cursor: The Anatomy of a Generational Startup",
     "last_proof_snippet": "We don't need to compete with anthropic and open AI on models right now. The interface between the human and the model is the key thing. If you looked at the competitive landscape, it was almost silly. I asked Michael, I was like, what do y",
@@ -41764,7 +41818,7 @@ const dashboardData = {
     "last_podcast_name": "The a16z Show",
     "last_episode_date": "2026-08-27",
     "mention_score": 1,
-    "mention_score_decayed": 0.81,
+    "mention_score_decayed": 0.79,
     "last_main_idea": "Cursor's investment thesis revolves around its ability to leverage AI advancements to create a competitive edge in the coding market, focusing on the interface between humans and AI models rather than competing directly with other AI models.",
     "last_proof_cite": "The a16z Show \u2022 2026-08-27 \u2022 Inside Cursor: The Anatomy of a Generational Startup",
     "last_proof_snippet": "We don't need to compete with anthropic and open AI on models right now. The interface between the human and the model is the key thing. If you looked at the competitive landscape, it was almost silly. I asked Michael, I was like, what do y",
@@ -42079,7 +42133,7 @@ const dashboardData = {
     "last_podcast_name": "The a16z Show",
     "last_episode_date": "2026-08-26",
     "mention_score": 1,
-    "mention_score_decayed": 0.79,
+    "mention_score_decayed": 0.78,
     "last_main_idea": "Invest in the application layer of AI where significant value can be captured, and consider the emerging consumer AI space for new opportunities.",
     "last_proof_cite": "The a16z Show \u2022 2026-08-26 \u2022 The State of AI: Macro, Apps, and Consumer",
     "last_proof_snippet": "For the last few years, the biggest question in the AI was which model would win. The next phase may be less about the models, and more about what gets built on top of them. In this episode, Jen Costa sits down with Anish Acharya, to unpack w",
@@ -42263,7 +42317,7 @@ const dashboardData = {
     "last_podcast_name": "The a16z Show",
     "last_episode_date": "2026-08-24",
     "mention_score": 1,
-    "mention_score_decayed": 0.76,
+    "mention_score_decayed": 0.74,
     "last_main_idea": "Investing in healthcare AI requires a focus on companies that can provide safe, aligned data and independent evaluation of AI models to ensure their usefulness and safety in real-world clinical settings.",
     "last_proof_cite": "The a16z Show \u2022 2026-08-24 \u2022 Why Medical AI Needs a Referee | Protege's Engy Ziedan",
     "last_proof_snippet": "Hundreds of millions of people ask chat to the questions about their health. Who, if any, is making sure that the answers that are spit out is safe and correct? Models are going to be inhibited in their usefulness by the training data avail",
@@ -45774,7 +45828,7 @@ const dashboardData = {
     "last_podcast_name": "The a16z Show",
     "last_episode_date": "2026-07-23",
     "mention_score": 1,
-    "mention_score_decayed": 0.37,
+    "mention_score_decayed": 0.36,
     "last_main_idea": "Industrial AI represents a substantial opportunity to transform physical industries through automation and AI, creating significant value beyond traditional software solutions.",
     "last_proof_cite": "The a16z Show \u2022 2026-07-23 \u2022 Building the Physical AI Stack | Travis Kalanick on TBPN",
     "last_proof_snippet": "Travis Kelenick joins TVPN to discuss why he's betting his next company on industrial AI. He shares his vision behind atoms, explains how autonomy is transforming industries like mining and food production, and discusses why bringing AI int",
@@ -45834,7 +45888,7 @@ const dashboardData = {
     "last_podcast_name": "Latent Space: The AI Engineer Podcast",
     "last_episode_date": "2026-07-23",
     "mention_score": 1,
-    "mention_score_decayed": 0.36,
+    "mention_score_decayed": 0.35,
     "last_main_idea": "Investing in AI development, particularly in the democratization of AI and the scaling of language models, can lead to significant innovation and competitive advantage.",
     "last_proof_cite": "Latent Space: The AI Engineer Podcast \u2022 2026-07-23 \u2022 Inside the Model Factory \u2014 Eiso Kant, Poolside AI",
     "last_proof_snippet": "All right, we're here in the studio. If I was a countryman, we'll fight together with people. Welcome. Thanks, thank you, guys. It's good to be here. Yeah, fresh on the plane. You texted me, you're like, hey, I'm on my way to SF. I was like",
@@ -48901,7 +48955,7 @@ const dashboardData = {
     "last_podcast_name": "Latent Space: The AI Engineer Podcast",
     "last_episode_date": "2026-06-03",
     "mention_score": 1,
-    "mention_score_decayed": 0.16,
+    "mention_score_decayed": 0.15,
     "last_main_idea": "Invest in Axiom Math for its pioneering role in verified AI for mathematics, which has the potential to drive innovation and efficiency in problem-solving across various fields.",
     "last_proof_cite": "Latent Space: The AI Engineer Podcast \u2022 2026-06-03 \u2022 \ud83d\udd2cScaling Past Informal AI - Carina Hong, Axiom Math",
     "last_proof_snippet": "But it's for the first time now I think verified AI is to open up collaboration. Either it's human AI collaboration. Well, before a blueprint like that's human human collaboration. And Lin was a grounding, was a verification formal language",
@@ -49090,7 +49144,7 @@ const dashboardData = {
     "last_podcast_name": "The Jack Mallers Show",
     "last_episode_date": "2026-06-16",
     "mention_score": 2,
-    "mention_score_decayed": 0.31,
+    "mention_score_decayed": 0.3,
     "last_main_idea": "Investors should monitor Bitcoin as a leading market indicator and scrutinize the capital structures of Bitcoin treasury companies for potential risks and rewards, while maintaining a long-term perspective.",
     "last_proof_cite": "The Jack Mallers Show \u2022 2026-06-16 \u2022 15 Questions: The Strait, Strategy, mNAV, Dilution, & My Boots",
     "last_proof_snippet": "Yo, welcome back to another episode of the Jack Mallors Show. I'm your host Jack, and you're listening to mail bag Monday, ladies and gentlemen. Oh, there's my resources tab, my AI tool. All right, let's get back to slide one. You were list",

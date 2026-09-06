@@ -1,5 +1,23 @@
 [
   {
+    "id": 460,
+    "podcast_name": "The a16z Show",
+    "episode_title": "Your AI Doctor Is Coming | Julie Yoo",
+    "episode_date": "2026-09-06",
+    "summary": "This episode of The a16z Show explores how artificial intelligence is poised to fundamentally transform healthcare, potentially more than any other industry. The discussion centers on three major investment themes: AI-native healthcare delivery that bypasses legacy IT systems, the rise of consumer-driven cash-pay healthcare models, and innovative payment structures that challenge traditional insurance paradigms. The speakers highlight a critical paradox in healthcare where high demand coexists with low physician utilization rates, indicating massive inefficiencies that technology can address. The pandemic has accelerated digital transformation and shifted consumer expectations, creating openings for startups to build direct-to-patient services with transparent pricing. Robotics and automation are also emerging as key enablers in high-acuity settings, allowing for hybrid care models that combine human expertise with technological efficiency.",
+    "key_takeaways": [
+      "Healthcare is identified as the industry that will benefit most from AI, surpassing other sectors in transformation potential",
+      "Consumer-driven cash-pay healthcare models are among the fastest-growing segments in health tech, bypassing traditional insurance complexity",
+      "AI-native healthcare companies can leapfrog legacy software development cycles by going directly to agentic AI architectures",
+      "Robotics and automation are becoming integral to high-acuity healthcare delivery, enabling hybrid human-machine care models",
+      "New payment model startups are explicitly seeking to 'blow up' current healthcare financing structures with ambitious alternatives",
+      "Founders should prioritize consumer health, AI-native solutions, and innovative payment frameworks to capture the healthcare renaissance",
+      "The shift toward personalized, continuous AI-driven care represents a fundamental restructuring of the patient-provider relationship"
+    ],
+    "investment_thesis": "Healthcare is entering a renaissance where AI-native companies, consumer-driven cash-pay models, and alternative payment structures will capture significant value from a historically tech-laggard industry now primed for disruption by post-pandemic digital adoption and patient demand for transparency.",
+    "key_tickers": null
+  },
+  {
     "id": 459,
     "podcast_name": "Moonshots with Peter Diamandis",
     "episode_title": "GPT-6 Astra Saturates ARC-AGI-3, Tesla's $30K Cybercab Floods Austin, Anthropic Proves Fermat's Last Theorem | EP #286",
@@ -130,26 +148,5 @@
     ],
     "investment_thesis": "Investors should exploit the disconnect between bearish bond sentiment and moderating inflation by locking in historically high yields in long-duration government bonds, while hedging equity concentration risk through true cross-asset diversification and avoiding illiquid private markets until a clear floor forms.",
     "key_tickers": null
-  },
-  {
-    "id": 455,
-    "podcast_name": "Moonshots with Peter Diamandis",
-    "episode_title": "Humanity's First Star Probe, Architect Labs Beats NVIDIA 3.4x, Musk Wants Satellites to Cool Earth | EP #285",
-    "episode_date": "2026-09-02",
-    "summary": "This episode of Moonshots explores several frontier technology themes with significant investment implications. Elon Musk joins Peter Diamandis to discuss the looming energy infrastructure gap threatening AI compute expansion, with 15 gigawatts of projected 2027 capacity potentially stranded without power. Musk outlines ambitious plans for 100 gigawatts of annual solar production through SpaceX and Tesla to address this gap. The conversation covers breakthrough AI-designed semiconductors from ArchaTech Labs that achieve 3.4x performance per watt versus Nvidia's Jetson, potentially disrupting the chip industry. NASA's planned 2028 nuclear-powered Mars mission represents a major acceleration in interplanetary capability. Musk also advocates for geoengineering via satellite-based temperature control as an extinction-risk mitigation strategy. A notable business model shift is identified in AI pricing: outcome-based models where customers pay only for completed results rather than token consumption, with OpenAI already piloting this approach.",
-    "key_takeaways": [
-      "AI-designed chips (ArchaTech Labs' Redwood) may disrupt Nvidia's dominance with 3.4x performance per watt advantages",
-      "Energy infrastructure is the critical bottleneck for AI expansion - 15 GW of 2027 compute capacity may be stranded without power",
-      "Musk plans 100 GW annual solar production through SpaceX/Tesla, creating massive renewable energy investment opportunity",
-      "NASA's 2028 nuclear Mars mission signals renewed government commitment to nuclear propulsion and space infrastructure",
-      "Outcome-based AI pricing models (pay for results, not tokens) could reshape SaaS economics and customer acquisition",
-      "Geoengineering via satellite temperature control represents an emerging climate tech investment frontier",
-      "The U.S. Space Academy establishment indicates long-term human capital investment in aerospace workforce"
-    ],
-    "investment_thesis": "The convergence of AI compute demand and energy infrastructure constraints creates a dual-investment opportunity in renewable energy production and next-generation chip architectures, while nuclear propulsion and geoengineering represent emerging frontier markets with significant government backing.",
-    "key_tickers": [
-      "NVDA",
-      "TSLA"
-    ]
   }
 ]
