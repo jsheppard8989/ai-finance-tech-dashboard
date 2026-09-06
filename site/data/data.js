@@ -3,80 +3,80 @@
 
 const dashboardData = {
   schemaVersion: 2,
-  generatedAt: "2026-09-06T12:35:27.182373",
-  chartsVersion: "2026-09-06T12:35:11.291602",
+  generatedAt: "2026-09-06T14:09:03.981483",
+  chartsVersion: "2026-09-06T14:08:52.424069",
   priceSnapshot: {
   "GOOGL": {
     "price": 338.46,
     "change_pct": -1.6,
     "name": "GOOGL",
-    "updated_at": "2026-09-06T12:35:11.290551"
+    "updated_at": "2026-09-06T14:08:52.423302"
   },
   "NVDA": {
     "price": 230.36,
     "change_pct": 4.83,
     "name": "NVDA",
-    "updated_at": "2026-09-06T12:35:11.290572"
+    "updated_at": "2026-09-06T14:08:52.423318"
   },
   "TSLA": {
     "price": 354.08,
     "change_pct": 5.11,
     "name": "TSLA",
-    "updated_at": "2026-09-06T12:35:11.290581"
+    "updated_at": "2026-09-06T14:08:52.423325"
   },
   "MSFT": {
     "price": 499.7,
     "change_pct": 3.95,
     "name": "MSFT",
-    "updated_at": "2026-09-06T12:35:11.290589"
+    "updated_at": "2026-09-06T14:08:52.423330"
   },
   "BTC": {
-    "price": 79700.31,
-    "change_pct": 0.93,
+    "price": 79864.83,
+    "change_pct": 1.14,
     "name": "BTC",
-    "updated_at": "2026-09-06T12:35:11.290598"
+    "updated_at": "2026-09-06T14:08:52.423336"
   },
   "AMZN": {
     "price": 258.51,
     "change_pct": -0.36,
     "name": "AMZN",
-    "updated_at": "2026-09-06T12:35:11.290606"
+    "updated_at": "2026-09-06T14:08:52.423342"
   },
   "META": {
     "price": 616.77,
     "change_pct": 13.45,
     "name": "META",
-    "updated_at": "2026-09-06T12:35:11.290614"
+    "updated_at": "2026-09-06T14:08:52.423349"
   },
   "WTI": {
     "price": 3.82,
     "change_pct": 0.0,
     "name": "WTI",
-    "updated_at": "2026-09-06T12:35:11.290621"
+    "updated_at": "2026-09-06T14:08:52.423355"
   },
   "S&P 500": {
     "price": 770.19,
     "change_pct": 0.36,
     "name": "S&P 500",
-    "updated_at": "2026-09-06T12:35:11.290629"
+    "updated_at": "2026-09-06T14:08:52.423360"
   },
   "AAPL": {
     "price": 319.97,
     "change_pct": 3.21,
     "name": "AAPL",
-    "updated_at": "2026-09-06T12:35:11.290636"
+    "updated_at": "2026-09-06T14:08:52.423366"
   },
   "QQQ": {
     "price": 718.96,
     "change_pct": 0.2,
     "name": "Invesco QQQ Trust",
-    "updated_at": "2026-09-06T12:35:11.290643"
+    "updated_at": "2026-09-06T14:08:52.423371"
   },
   "BTC-USD": {
-    "price": 79700.31,
-    "change_pct": 0.93,
+    "price": 79864.83,
+    "change_pct": 1.14,
     "name": "Bitcoin USD",
-    "updated_at": "2026-09-06T12:35:11.290652"
+    "updated_at": "2026-09-06T14:08:52.423377"
   }
 },
   tickerScores: [
@@ -853,6 +853,25 @@ const dashboardData = {
       "podcast_episode_id": 460
     },
     {
+      "id": 476,
+      "title": "What Actually Happens When a Life Insurer Fails (It's Worse Than a Bank) | Pranjal Drall and Andrew Granato on How Private Equity Turned Life Insurance Into a Taxpayer Backstop",
+      "source_type": "podcast",
+      "source_name": "Monetary Matters with Jack Farley",
+      "source_date": "2026-09-06",
+      "summary": "This episode of Monetary Matters examines the growing infiltration of private equity into the life insurance industry, a development that poses systemic risks to taxpayers and policyholders alike. Host Jack Farley interviews experts who reveal how private equity ownership of life insurers has exploded from $23 billion in 2009 to approximately $700 billion by 2024, representing 8-14% of industry assets. The discussion centers on regulatory failures that allow insurers to hold opaque private credit assets without adequate risk-based penalties, creating misaligned incentives where private equity firms extract short-term profits while socializing potential losses to taxpayers. Key concerns include extreme leverage ratios (estimated at 30:1 to 50:1), the liquidity risk from policy surrenderability, and specific cases like Delaware Life and Clear Spring that demonstrate inadequate regulatory scrutiny of affiliated transactions. The episode proposes concrete reforms including taxing opaque assets, eliminating private letter ratings, and aligning holding company liability with systemic risks posed.",
+      "key_takeaway": "The life insurance sector represents a hidden systemic risk where private equity has engineered a regulatory arbitrage to extract profits while transferring downside to taxpayers; investors should avoid exposure to PE-owned insurers and monitor for potential regulatory crackdowns that could force asset liquidations.",
+      "tickers_mentioned": [
+        "NVDA"
+      ],
+      "sentiment": "bearish",
+      "display_on_main": 1,
+      "display_order": 0,
+      "added_date": "2026-09-06",
+      "archived_date": null,
+      "archived_reason": null,
+      "podcast_episode_id": 461
+    },
+    {
       "id": 473,
       "title": "Aaron Levie on Why Open AI Wins",
       "source_type": "podcast",
@@ -942,7 +961,7 @@ const dashboardData = {
         "NVDA"
       ],
       "sentiment": "neutral",
-      "display_on_main": 1,
+      "display_on_main": 0,
       "display_order": 0,
       "added_date": "2026-09-04",
       "archived_date": null,
@@ -11955,20 +11974,20 @@ const dashboardData = {
     {
       "id": 19,
       "term": "Regulatory Moat",
-      "description": "Competitive advantage created by compliance complexity that only large incumbents can navigate, here discussed as a risk if FDA-style AI regulation emerges.",
+      "description": "In this context, the structural advantage private equity gains from insurance regulation's inferior capacity to police investment risk versus banking regulation.",
       "first_detected_date": "2026-03-13",
-      "last_mentioned_date": "2026-09-04",
-      "mention_count": 4,
+      "last_mentioned_date": "2026-09-06",
+      "mention_count": 5,
       "source_podcasts": null,
       "status": "active",
-      "investment_implications": "Paradoxically, overregulation could entrench dominant players while stifling startup innovation and ceding ground to unregulated foreign competitors.",
+      "investment_implications": "Suggests eventual regulatory convergence toward bank-like standards, threatening current PE insurer business models and potentially repricing private credit.",
       "display_on_main": 0,
       "archived_date": null,
       "archived_reason": null,
       "first_detected_episode_id": null,
       "first_detected_speaker": null,
-      "last_mentioned_episode_id": 457,
-      "last_mentioned_speaker": "Chamath Palihapitiya, Jason Calacanis (hosts)"
+      "last_mentioned_episode_id": 461,
+      "last_mentioned_speaker": "Jack Farley (hosts)"
     },
     {
       "id": 21,
@@ -12397,6 +12416,26 @@ const dashboardData = {
       "key_tickers": []
     },
     {
+      "id": 476,
+      "title": "What Actually Happens When a Life Insurer Fails (It's Worse Than a Bank) | Pranjal Drall and Andrew Granato on How Private Equity Turned Life Insurance Into a Taxpayer Backstop",
+      "source_type": "podcast",
+      "source_name": "Monetary Matters with Jack Farley",
+      "source_date": "2026-09-06",
+      "summary": "This episode of Monetary Matters examines the growing infiltration of private equity into the life insurance industry, a development that poses systemic risks to taxpayers and policyholders alike. Host Jack Farley interviews experts who reveal how private equity ownership of life insurers has exploded from $23 billion in 2009 to approximately $700 billion by 2024, representing 8-14% of industry assets. The discussion centers on regulatory failures that allow insurers to hold opaque private credit assets without adequate risk-based penalties, creating misaligned incentives where private equity firms extract short-term profits while socializing potential losses to taxpayers. Key concerns include extreme leverage ratios (estimated at 30:1 to 50:1), the liquidity risk from policy surrenderability, and specific cases like Delaware Life and Clear Spring that demonstrate inadequate regulatory scrutiny of affiliated transactions. The episode proposes concrete reforms including taxing opaque assets, eliminating private letter ratings, and aligning holding company liability with systemic risks posed.",
+      "key_takeaway": "The life insurance sector represents a hidden systemic risk where private equity has engineered a regulatory arbitrage to extract profits while transferring downside to taxpayers; investors should avoid exposure to PE-owned insurers and monitor for potential regulatory crackdowns that could force asset liquidations.",
+      "tickers_mentioned": "[\"NVDA\"]",
+      "sentiment": "bearish",
+      "display_on_main": 1,
+      "display_order": 0,
+      "added_date": "2026-09-06",
+      "archived_date": null,
+      "archived_reason": null,
+      "podcast_episode_id": 461,
+      "episode_release_date": "2026-09-06",
+      "guest_name": null,
+      "key_tickers": []
+    },
+    {
       "id": 473,
       "title": "Aaron Levie on Why Open AI Wins",
       "source_type": "podcast",
@@ -12481,26 +12520,6 @@ const dashboardData = {
         "GOOGL",
         "MSFT"
       ]
-    },
-    {
-      "id": 467,
-      "title": "The $100B Niches Hiding Inside Payments",
-      "source_type": "podcast",
-      "source_name": "The a16z Show",
-      "source_date": "2026-09-03",
-      "summary": "This episode of The a16z Show explores the evolution and future of payment systems, anchored by the provocative claim that the credit card represents the most effective user interface ever created. The discussion traces how payment interfaces have resisted disruption for decades due to entrenched consumer behavior and network effects, while highlighting that even 'niche' payment opportunities represent $100 billion-plus markets. A central theme is the potential for AI to finally disintermediate the card interface through 'agentic commerce,' though consumer trust remains a critical barrier. The episode also examines how embedded financing, particularly 0% installment options, has transformed merchant conversion rates and enabled direct-to-consumer business models, using the mattress industry as a case study. Finally, the conversation explores the strategic convergence of payments and advertising, where payment data can shift merchants from passive demand fulfillment to active demand creation.",
-      "key_takeaway": "Payment interfaces are entering a renegotiation phase where AI agents, embedded financing, and payments-advertising convergence create multiple vectors for multi-billion dollar value creation, with first-mover advantages accruing to platforms that solve the trust and behavioral friction problems that have protected incumbent card networks for decades.",
-      "tickers_mentioned": "[\"NVDA\"]",
-      "sentiment": "neutral",
-      "display_on_main": 1,
-      "display_order": 0,
-      "added_date": "2026-09-04",
-      "archived_date": null,
-      "archived_reason": null,
-      "podcast_episode_id": 454,
-      "episode_release_date": "2026-09-03",
-      "guest_name": null,
-      "key_tickers": []
     },
     {
       "id": 468,
@@ -40599,9 +40618,81 @@ const dashboardData = {
     "source_name": "The a16z Show",
     "source_date": "2026-09-06",
     "key_tickers": []
+  },
+  "476": {
+    "id": 465,
+    "insight_id": 476,
+    "podcast_episode_id": 461,
+    "overview": "The episode reveals that private equity firms have not just increased their stakes in life insurers but have also introduced new financial products that could further exacerbate risks. These products often involve repackaging riskier assets in complex structures, making them difficult for regulators and investors to understand. Moreover, while leverage ratios are alarming, the real risk lies in the interconnectedness of these insurers with other financial institutions, creating potential contagion effects during a market downturn. This trend highlights a broader reliance on opaque debt instruments in the life insurance sector, which may not be adequately captured in existing financial statements or risk assessments.",
+    "key_takeaways_detailed": [],
+    "investment_thesis": "If the concerns about systemic risk from private equity ownership of life insurers are substantiated, allocators could see significant disruptions in the insurance sector, potentially leading to tighter credit conditions and increased scrutiny of private equity strategies. Over the next 12-24 months, evidence of regulatory reform or strong performances amidst market volatility would reinforce or challenge these views, respectively.",
+    "ticker_analysis": {
+      "NVDA": {
+        "rationale": "NVIDIA stands out as a technology firm poised to benefit from shifts in financial products and risk assessment analytics.",
+        "positioning": "",
+        "risk": ""
+      }
+    },
+    "positioning_guidance": "",
+    "risk_factors": [],
+    "contrarian_signals": [],
+    "catalysts": [],
+    "related_insights": null,
+    "audio_timestamp_start": null,
+    "audio_timestamp_end": null,
+    "transcript_excerpt": null,
+    "created_at": "2026-09-06T14:07:45.407429",
+    "updated_at": "2026-09-06 19:07:45",
+    "episode_evidence": "- \"If we continue on the same path we're going, the probability of that scenario is going to increase.\"\n- \"This is a taxpayer bailout, but it's not one that ever needs to get voted on.\"",
+    "falsification_tracks": [
+      "Regulatory bodies implement stricter oversight that leads to a decrease in private equity involvement in life insurance.",
+      "Major life insurers successfully navigate market downturns without significant taxpayer support, revealing robust risk management strategies.",
+      "Evidence emerges showing that high leverage ratios for PE-owned insurers are not associated with increased insolvencies or losses."
+    ],
+    "schema_version": 2,
+    "insight_title": "What Actually Happens When a Life Insurer Fails (It's Worse Than a Bank) | Pranjal Drall and Andrew Granato on How Private Equity Turned Life Insurance Into a Taxpayer Backstop",
+    "source_name": "Monetary Matters with Jack Farley",
+    "source_date": "2026-09-06",
+    "key_tickers": []
   }
 },
   suggestedTerms: [
+  {
+    "id": 651,
+    "term": "Socialization of Losses",
+    "definition": "A systemic pattern where private equity captures profits from insurer operations while taxpayers absorb insolvency costs through state guaranty funds and tax credits.",
+    "investment_implications": "Creates hidden contingent liabilities for state budgets and mispriced risk in insurance-linked securities and credit markets.",
+    "source_type": "auto_extracted",
+    "mention_count": 1,
+    "source_diversity": 1,
+    "relevance_score": 50,
+    "submitted_date": "2026-09-06 19:06:45",
+    "priority_score": 80
+  },
+  {
+    "id": 652,
+    "term": "Private Letter Ratings",
+    "definition": "Non-public credit assessments issued by rating agencies for specific clients, often used by insurers to justify holding risky private credit at favorable capital treatment.",
+    "investment_implications": "Enables regulatory arbitrage where opaque assets receive investment-grade treatment without market scrutiny, inflating reported capital adequacy.",
+    "source_type": "auto_extracted",
+    "mention_count": 1,
+    "source_diversity": 1,
+    "relevance_score": 50,
+    "submitted_date": "2026-09-06 19:06:45",
+    "priority_score": 80
+  },
+  {
+    "id": 653,
+    "term": "Surrenderability Risk",
+    "definition": "The policyholder right to demand return of premiums or cash value, creating a hidden liquidity mismatch when insurers invest in illiquid long-dated private credit.",
+    "investment_implications": "Transforms life insurers into shadow banks vulnerable to runs, with potential for fire-sale dynamics in private credit markets during stress.",
+    "source_type": "auto_extracted",
+    "mention_count": 1,
+    "source_diversity": 1,
+    "relevance_score": 50,
+    "submitted_date": "2026-09-06 19:06:45",
+    "priority_score": 80
+  },
   {
     "id": 650,
     "term": "AI-native care delivery",
@@ -40613,47 +40704,11 @@ const dashboardData = {
     "relevance_score": 50,
     "submitted_date": "2026-09-06 12:14:13",
     "priority_score": 80
-  },
-  {
-    "id": 647,
-    "term": "Cycle Time Obsession",
-    "definition": "A manufacturing philosophy prioritizing reduction of turnaround time from patient biopsy to personalized therapy delivery, treating speed as a direct driver of asset utilization and patient outcomes.",
-    "investment_implications": "Companies that master cycle time compression in personalized medicine will capture disproportionate market share as manufacturing scale becomes the primary competitive barrier.",
-    "source_type": "auto_extracted",
-    "mention_count": 1,
-    "source_diversity": 1,
-    "relevance_score": 50,
-    "submitted_date": "2026-09-04 13:46:33",
-    "priority_score": 80
-  },
-  {
-    "id": 648,
-    "term": "Process-Based Regulation",
-    "definition": "A regulatory framework where approval is granted to a validated manufacturing process rather than individual drug products, enabling rapid iteration and expansion within an approved platform.",
-    "investment_implications": "Process-based regulation dramatically reduces time-to-market and regulatory costs for personalized therapies, favoring platform companies over single-asset biotechs.",
-    "source_type": "auto_extracted",
-    "mention_count": 1,
-    "source_diversity": 1,
-    "relevance_score": 50,
-    "submitted_date": "2026-09-04 13:46:33",
-    "priority_score": 80
-  },
-  {
-    "id": 649,
-    "term": "New Education of T-Cell",
-    "definition": "A therapeutic mechanism where mRNA vaccines train the immune system to recognize novel cancer antigens not previously presented to T-cells, effectively expanding the immune repertoire.",
-    "investment_implications": "This mechanism validates mRNA as a programmable immune system interface, with applications far beyond cancer into infectious disease, autoimmune conditions, and potentially tolerance induction.",
-    "source_type": "auto_extracted",
-    "mention_count": 1,
-    "source_diversity": 1,
-    "relevance_score": 50,
-    "submitted_date": "2026-09-04 13:46:33",
-    "priority_score": 80
   }
 ],
   podcastGuests: [
   {
-    "id": 63975,
+    "id": 64065,
     "name": "Your AI Doctor Is Coming",
     "slug": "your-ai-doctor-is-coming",
     "bio": null,
@@ -40665,7 +40720,7 @@ const dashboardData = {
     "appearance_count": 1
   },
   {
-    "id": 63976,
+    "id": 64066,
     "name": "Fei Fei Li",
     "slug": "fei-fei-li",
     "bio": null,
@@ -40677,7 +40732,7 @@ const dashboardData = {
     "appearance_count": 1
   },
   {
-    "id": 63977,
+    "id": 64067,
     "name": "Financial strategist Jared Dillian",
     "slug": "financial-strategist-jared-dillian",
     "bio": null,
@@ -40689,7 +40744,7 @@ const dashboardData = {
     "appearance_count": 1
   },
   {
-    "id": 63978,
+    "id": 64068,
     "name": "Daniel Litt",
     "slug": "daniel-litt",
     "bio": null,
@@ -40701,7 +40756,7 @@ const dashboardData = {
     "appearance_count": 1
   },
   {
-    "id": 63979,
+    "id": 64069,
     "name": "Gavin Baker",
     "slug": "gavin-baker",
     "bio": null,
@@ -40713,7 +40768,7 @@ const dashboardData = {
     "appearance_count": 1
   },
   {
-    "id": 63980,
+    "id": 64070,
     "name": "Sam Altman",
     "slug": "sam-altman",
     "bio": null,
@@ -40725,7 +40780,7 @@ const dashboardData = {
     "appearance_count": 1
   },
   {
-    "id": 63981,
+    "id": 64071,
     "name": "Time to Reduce Equity Risk",
     "slug": "time-to-reduce-equity-risk",
     "bio": null,
@@ -40737,7 +40792,7 @@ const dashboardData = {
     "appearance_count": 1
   },
   {
-    "id": 63982,
+    "id": 64072,
     "name": "Eric Weinstein",
     "slug": "eric-weinstein",
     "bio": null,
@@ -40749,7 +40804,7 @@ const dashboardData = {
     "appearance_count": 1
   },
   {
-    "id": 63983,
+    "id": 64073,
     "name": "Michael Kratsios",
     "slug": "michael-kratsios",
     "bio": null,
@@ -40761,7 +40816,7 @@ const dashboardData = {
     "appearance_count": 1
   },
   {
-    "id": 63984,
+    "id": 64074,
     "name": "Emad Mostaque",
     "slug": "emad-mostaque",
     "bio": null,
@@ -40773,7 +40828,7 @@ const dashboardData = {
     "appearance_count": 3
   },
   {
-    "id": 63985,
+    "id": 64075,
     "name": "Angela Strange and Gabriel Vasquez",
     "slug": "angela-strange-and-gabriel-vasquez",
     "bio": null,
@@ -40785,7 +40840,7 @@ const dashboardData = {
     "appearance_count": 1
   },
   {
-    "id": 63986,
+    "id": 64076,
     "name": "Why Bessent Blinked",
     "slug": "why-bessent-blinked",
     "bio": null,
@@ -40797,7 +40852,7 @@ const dashboardData = {
     "appearance_count": 1
   },
   {
-    "id": 63987,
+    "id": 64077,
     "name": "Travis Kalanick",
     "slug": "travis-kalanick",
     "bio": null,
@@ -40809,7 +40864,7 @@ const dashboardData = {
     "appearance_count": 1
   },
   {
-    "id": 63988,
+    "id": 64078,
     "name": "Rahm Emanuel",
     "slug": "rahm-emanuel",
     "bio": null,
@@ -40821,7 +40876,7 @@ const dashboardData = {
     "appearance_count": 1
   },
   {
-    "id": 63989,
+    "id": 64079,
     "name": "Milton Berg",
     "slug": "milton-berg",
     "bio": "Milton Berg is a veteran technical analyst and CEO of Milton Berg Advisors, specializing in market turning-point analysis for institutional investors.",
@@ -40833,7 +40888,7 @@ const dashboardData = {
     "appearance_count": 1
   },
   {
-    "id": 63990,
+    "id": 64080,
     "name": "How Open",
     "slug": "how-open",
     "bio": null,
@@ -40845,7 +40900,7 @@ const dashboardData = {
     "appearance_count": 1
   },
   {
-    "id": 63991,
+    "id": 64081,
     "name": "Saronic Founders",
     "slug": "saronic-founders",
     "bio": null,
@@ -40857,7 +40912,7 @@ const dashboardData = {
     "appearance_count": 1
   },
   {
-    "id": 63992,
+    "id": 64082,
     "name": "OpenAI's Joshua Achiam",
     "slug": "openais-joshua-achiam",
     "bio": null,
@@ -40869,7 +40924,7 @@ const dashboardData = {
     "appearance_count": 1
   },
   {
-    "id": 63993,
+    "id": 64083,
     "name": "Marc Andreessen and Chris Dixon",
     "slug": "marc-andreessen-and-chris-dixon",
     "bio": null,
@@ -40881,7 +40936,7 @@ const dashboardData = {
     "appearance_count": 1
   },
   {
-    "id": 63994,
+    "id": 64084,
     "name": "AI for America's Small Businesses",
     "slug": "ai-for-americas-small-businesses",
     "bio": null,
@@ -42008,7 +42063,7 @@ const dashboardData = {
     "last_podcast_name": "Monetary Matters with Jack Farley",
     "last_episode_date": "2026-08-26",
     "mention_score": 1,
-    "mention_score_decayed": 0.79,
+    "mention_score_decayed": 0.78,
     "last_main_idea": "Warren Pies suggests that despite the current macro risks, the AI sector remains a key area for investment, with all roads leading back to AI trades.",
     "last_proof_cite": "Monetary Matters with Jack Farley \u2022 2026-08-26 \u2022 Time to Reduce Equity Risk: Why Underappreciated Macro Risks Could Derail the Bull Market | Warren Pies",
     "last_proof_snippet": "If I knew with certainly the Fed was going to hike in September, I'd be underweight stocks right now. It's not that I would say I'm straight up bearish here. I just think the risks are too excited. We highlighted the window from August 15th",
@@ -42072,7 +42127,7 @@ const dashboardData = {
     "last_podcast_name": "Latent Space: The AI Engineer Podcast",
     "last_episode_date": "2026-08-26",
     "mention_score": 1,
-    "mention_score_decayed": 0.79,
+    "mention_score_decayed": 0.78,
     "last_main_idea": "Investing in AI technology that enhances weather and climate modeling can lead to significant advancements in forecasting accuracy and speed, potentially revolutionizing the field and creating new investment opportunities in AI applications for science.",
     "last_proof_cite": "Latent Space: The AI Engineer Podcast \u2022 2026-08-26 \u2022 \ud83d\udd2c\u201cWe have foundation models for language, not for physics\u201d \u2014 Anima Anandkumar, Bren Professor of Computing",
     "last_proof_snippet": "So we, you know, set out looking for interesting examples and one of them was like weather modeling because the weather data is open source and so given that the data was there we were like, okay, let's just go try it. Right. And that's the",
@@ -42697,7 +42752,7 @@ const dashboardData = {
     "last_podcast_name": "Monetary Matters with Jack Farley",
     "last_episode_date": "2026-08-18",
     "mention_score": 1,
-    "mention_score_decayed": 0.66,
+    "mention_score_decayed": 0.64,
     "last_main_idea": "AUA Private Equity Partners focuses on operational improvements in family-run businesses within the food, beverage, pet wellness, and co-manufacturing sectors, targeting a $1.3 to $1.4 trillion market opportunity.",
     "last_proof_cite": "Monetary Matters with Jack Farley \u2022 2026-08-18 \u2022 Ex-Goya COO on the $1.4 Trillion Family Business Opportunity in Three Consumer Sectors | Andy Unanue",
     "last_proof_snippet": "Our economy is driven by family run businesses, 70 plus percent of the GDP is generated through family run businesses. Then the food beverage pack wellness sector, it's a 1.3, 1.4 trillion dollar market opportunity. So it's a big market. I'",
@@ -43240,7 +43295,7 @@ const dashboardData = {
     "last_podcast_name": "The a16z Show",
     "last_episode_date": "2026-08-14",
     "mention_score": 4,
-    "mention_score_decayed": 2.41,
+    "mention_score_decayed": 2.35,
     "last_main_idea": "Invest in industries that are ripe for automation and AI integration, as industrial AI could revolutionize multiple trillion-dollar industries.",
     "last_proof_cite": "The a16z Show \u2022 2026-08-14 \u2022 Ben Horowitz and Travis Kalanick on Building Again",
     "last_proof_snippet": "Hey Travis is back, but I've actually been working for eight years, I just haven't been talking about it. We're competing for the next industrial revolution. People said, are you pissed off about Uber? Does that grind you when you fall in l",
@@ -44787,7 +44842,7 @@ const dashboardData = {
     "last_podcast_name": "Monetary Matters with Jack Farley",
     "last_episode_date": "2026-08-04",
     "mention_score": 1,
-    "mention_score_decayed": 0.48,
+    "mention_score_decayed": 0.47,
     "last_main_idea": "The S&P 500's performance over the next two years will be largely determined by the behavior of extrapolators and corporate equity activity, rather than fundamental earnings growth.",
     "last_proof_cite": "Monetary Matters with Jack Farley \u2022 2026-08-04 \u2022 Victor Haghani on Death of Random Walk, and Passive, Buybacks, and LTCM",
     "last_proof_snippet": "So I feel like we can talk about LTCM. We can talk about, I mean, let's not do that. That's so boring. I mean, everybody's sick of LTCM. Yeah. What do you think the real lessons are? You know, I think the biggest lessons are about personal",
@@ -44979,7 +45034,7 @@ const dashboardData = {
     "last_podcast_name": "The a16z Show",
     "last_episode_date": "2026-08-01",
     "mention_score": 3,
-    "mention_score_decayed": 1.34,
+    "mention_score_decayed": 1.31,
     "last_main_idea": "Regulatory clarity through acts like the Clarity Act is essential for the next phase of blockchain adoption and could unlock significant investment opportunities in stablecoins and tokenized assets.",
     "last_proof_cite": "The a16z Show \u2022 2026-08-01 \u2022 Marc Andreessen and Chris Dixon: What\u2019s at Stake in Crypto Regulation",
     "last_proof_snippet": "Stable coins are tokenized stocks or dollars on blockchain. Rivals the size of the Visa network. Trillings the dollar is transacted. If you have a dollar of that stable coin, there is a dollar sitting in the bank. And that's why the Clarity",
@@ -45040,7 +45095,7 @@ const dashboardData = {
     "last_podcast_name": "The a16z Show",
     "last_episode_date": "2026-08-01",
     "mention_score": 1,
-    "mention_score_decayed": 0.45,
+    "mention_score_decayed": 0.44,
     "last_main_idea": "Regulatory clarity through acts like the Clarity Act is essential for the next phase of blockchain adoption and could unlock significant investment opportunities in stablecoins and tokenized assets.",
     "last_proof_cite": "The a16z Show \u2022 2026-08-01 \u2022 Marc Andreessen and Chris Dixon: What\u2019s at Stake in Crypto Regulation",
     "last_proof_snippet": "Stable coins are tokenized stocks or dollars on blockchain. Rivals the size of the Visa network. Trillings the dollar is transacted. If you have a dollar of that stable coin, there is a dollar sitting in the bank. And that's why the Clarity",
@@ -45100,7 +45155,7 @@ const dashboardData = {
     "last_podcast_name": "The a16z Show",
     "last_episode_date": "2026-07-31",
     "mention_score": 1,
-    "mention_score_decayed": 0.44,
+    "mention_score_decayed": 0.43,
     "last_main_idea": "Investing in AI-driven enterprise software that leverages open source models can lead to better control, performance, and scalability, creating a competitive advantage in the market.",
     "last_proof_cite": "The a16z Show \u2022 2026-07-31 \u2022 How Enterprise AI Really Gets Deployed",
     "last_proof_snippet": "And AI agents should just be the funder of your business and every interaction, whether it's like reactive or proactive with a customer, should be handled by AI. This narrative dominated the first half of 2026, which is that anthropic open",
@@ -45160,7 +45215,7 @@ const dashboardData = {
     "last_podcast_name": "The a16z Show",
     "last_episode_date": "2026-07-31",
     "mention_score": 1,
-    "mention_score_decayed": 0.44,
+    "mention_score_decayed": 0.43,
     "last_main_idea": "Investing in AI-driven enterprise software that leverages open source models can lead to better control, performance, and scalability, creating a competitive advantage in the market.",
     "last_proof_cite": "The a16z Show \u2022 2026-07-31 \u2022 How Enterprise AI Really Gets Deployed",
     "last_proof_snippet": "And AI agents should just be the funder of your business and every interaction, whether it's like reactive or proactive with a customer, should be handled by AI. This narrative dominated the first half of 2026, which is that anthropic open",
@@ -45580,7 +45635,7 @@ const dashboardData = {
     "last_podcast_name": "Monetary Matters with Jack Farley",
     "last_episode_date": "2026-07-26",
     "mention_score": 1,
-    "mention_score_decayed": 0.39,
+    "mention_score_decayed": 0.38,
     "last_main_idea": "Contrary to popular belief, private credit and corporate debt are sustainable, and the real risk lies in government debt levels, which could lead to increased market volatility if not addressed.",
     "last_proof_cite": "Monetary Matters with Jack Farley \u2022 2026-07-26 \u2022 Debt Service Coverage in Private Markets Is Improving, Actually | Nicholas Brooks",
     "last_proof_snippet": "Over the past year, there's been some very bad press on private credit, including on this channel where recent guest Nick Nemitz said that he thinks it's almost inevitable that the next financial crisis will be caused by private credit. Tod",
@@ -46019,7 +46074,7 @@ const dashboardData = {
     "last_podcast_name": "The a16z Show",
     "last_episode_date": "2026-07-21",
     "mention_score": 1,
-    "mention_score_decayed": 0.35,
+    "mention_score_decayed": 0.34,
     "last_main_idea": "Investing in physical AI and autonomous systems could lead to significant returns as these technologies transform the physical economy and unlock new productivity gains.",
     "last_proof_cite": "The a16z Show \u2022 2026-07-21 \u2022 Why Physical AI Is the Next Frontier | Applied Intuition",
     "last_proof_snippet": "Our mission is to put intelligence on a billion machines, and that we think that can have a profound impact on society. Applied intuition is a physical attack company. We put intelligence on machines. Cars, trucks, tanks, drones. It's a phy",
@@ -46147,7 +46202,7 @@ const dashboardData = {
     "last_podcast_name": "Monetary Matters with Jack Farley",
     "last_episode_date": "2026-07-20",
     "mention_score": 1,
-    "mention_score_decayed": 0.34,
+    "mention_score_decayed": 0.33,
     "last_main_idea": "The private credit industry is overleveraged and poses a significant systemic risk, with potential for a massive financial blow-up that could be triggered by the insurance industry's massive balance sheets.",
     "last_proof_cite": "Monetary Matters with Jack Farley \u2022 2026-07-20 \u2022 Nick Nemeth: Private Credit Will Blow-up Insurance System | Immense Leverage, Shaky Loans, and Retirement System That Actually Does Have Run Risk (via Surrenders)",
     "last_proof_snippet": "Today's episode is brought to you by the two-cream corn fund ticker C-O-R-N. Let's get into it. Join today by Nick Nemeth Financial Investor Researcher and author at Miss Price Assets. Nick, welcome to monetary matters. Thanks, Jack. It's g",
@@ -46211,7 +46266,7 @@ const dashboardData = {
     "last_podcast_name": "Moonshots with Peter Diamandis",
     "last_episode_date": "2026-07-19",
     "mention_score": 1,
-    "mention_score_decayed": 0.33,
+    "mention_score_decayed": 0.32,
     "last_main_idea": "Investment in AI technology is crucial as it becomes a key differentiator in global competitiveness, with a focus on companies advancing AI models and quantization.",
     "last_proof_cite": "Moonshots with Peter Diamandis \u2022 2026-07-19 \u2022 Urgent Update- AI Sputnik Moment: Kimi K3 Released w/ Emad Mostaque | Ep. 272",
     "last_proof_snippet": "Today we put out the bat signal, and called for an emergency pod because America just experienced an AI-splitnik moment. Kimmy K3 released yesterday shocking the AI world with the largest op-weight model ever, and it went straight to number",
@@ -46272,7 +46327,7 @@ const dashboardData = {
     "last_podcast_name": "Moonshots with Peter Diamandis",
     "last_episode_date": "2026-07-19",
     "mention_score": 1,
-    "mention_score_decayed": 0.33,
+    "mention_score_decayed": 0.32,
     "last_main_idea": "Investment in AI technology is crucial as it becomes a key differentiator in global competitiveness, with a focus on companies advancing AI models and quantization.",
     "last_proof_cite": "Moonshots with Peter Diamandis \u2022 2026-07-19 \u2022 Urgent Update- AI Sputnik Moment: Kimi K3 Released w/ Emad Mostaque | Ep. 272",
     "last_proof_snippet": "Today we put out the bat signal, and called for an emergency pod because America just experienced an AI-splitnik moment. Kimmy K3 released yesterday shocking the AI world with the largest op-weight model ever, and it went straight to number",
@@ -46332,7 +46387,7 @@ const dashboardData = {
     "last_podcast_name": "Moonshots with Peter Diamandis",
     "last_episode_date": "2026-07-19",
     "mention_score": 1,
-    "mention_score_decayed": 0.33,
+    "mention_score_decayed": 0.32,
     "last_main_idea": "Investment in AI technology is crucial as it becomes a key differentiator in global competitiveness, with a focus on companies advancing AI models and quantization.",
     "last_proof_cite": "Moonshots with Peter Diamandis \u2022 2026-07-19 \u2022 Urgent Update- AI Sputnik Moment: Kimi K3 Released w/ Emad Mostaque | Ep. 272",
     "last_proof_snippet": "Today we put out the bat signal, and called for an emergency pod because America just experienced an AI-splitnik moment. Kimmy K3 released yesterday shocking the AI world with the largest op-weight model ever, and it went straight to number",
@@ -46517,7 +46572,7 @@ const dashboardData = {
     "last_podcast_name": "Latent Space: The AI Engineer Podcast",
     "last_episode_date": "2026-07-16",
     "mention_score": 1,
-    "mention_score_decayed": 0.31,
+    "mention_score_decayed": 0.3,
     "last_main_idea": "Investing in AI-driven platforms in healthcare and life sciences can lead to significant efficiency gains and cost reductions in drug discovery and materials science.",
     "last_proof_cite": "Latent Space: The AI Engineer Podcast \u2022 2026-07-16 \u2022 \ud83d\udd2c The Lab of the Future Should Feel Like a Data Center \u2014 Andy Beam & Rafa G\u00f3mez-Bombarelli, Lila Sciences",
     "last_proof_snippet": "But not just tech bio, what do you do in terms of science? We are all in on the bitter lesson and scale. We think that methods that scale and that are general retows that are not. As Ely has said, it's last year, we have but one internet, i",
@@ -46577,7 +46632,7 @@ const dashboardData = {
     "last_podcast_name": "Latent Space: The AI Engineer Podcast",
     "last_episode_date": "2026-07-16",
     "mention_score": 1,
-    "mention_score_decayed": 0.31,
+    "mention_score_decayed": 0.3,
     "last_main_idea": "Investing in AI-driven platforms in healthcare and life sciences can lead to significant efficiency gains and cost reductions in drug discovery and materials science.",
     "last_proof_cite": "Latent Space: The AI Engineer Podcast \u2022 2026-07-16 \u2022 \ud83d\udd2c The Lab of the Future Should Feel Like a Data Center \u2014 Andy Beam & Rafa G\u00f3mez-Bombarelli, Lila Sciences",
     "last_proof_snippet": "But not just tech bio, what do you do in terms of science? We are all in on the bitter lesson and scale. We think that methods that scale and that are general retows that are not. As Ely has said, it's last year, we have but one internet, i",
@@ -46641,7 +46696,7 @@ const dashboardData = {
     "last_podcast_name": "Monetary Matters with Jack Farley",
     "last_episode_date": "2026-07-16",
     "mention_score": 1,
-    "mention_score_decayed": 0.31,
+    "mention_score_decayed": 0.3,
     "last_main_idea": "Takahay Capital's investment thesis revolves around trend following and quantitative diversification, aiming to capitalize on major market trends while maintaining a diverse portfolio to mitigate risk.",
     "last_proof_cite": "Monetary Matters with Jack Farley \u2022 2026-07-16 \u2022 Turbo Charged Trend Following: Why Capturing the Market\u2019s Biggest Trends Means Embracing High Volatility | Moritz Seibert & Moritz Heiden | Takahe Capital",
     "last_proof_snippet": "single market trend has a very good year and that is right because you've seen these major trends and like equities and gold sovereign markets that we've mentioned it deserves to be large it deserves to be moving the needle it deserves a la",
@@ -46701,7 +46756,7 @@ const dashboardData = {
     "last_podcast_name": "Monetary Matters with Jack Farley",
     "last_episode_date": "2026-07-16",
     "mention_score": 1,
-    "mention_score_decayed": 0.31,
+    "mention_score_decayed": 0.3,
     "last_main_idea": "Takahay Capital's investment thesis revolves around trend following and quantitative diversification, aiming to capitalize on major market trends while maintaining a diverse portfolio to mitigate risk.",
     "last_proof_cite": "Monetary Matters with Jack Farley \u2022 2026-07-16 \u2022 Turbo Charged Trend Following: Why Capturing the Market\u2019s Biggest Trends Means Embracing High Volatility | Moritz Seibert & Moritz Heiden | Takahe Capital",
     "last_proof_snippet": "single market trend has a very good year and that is right because you've seen these major trends and like equities and gold sovereign markets that we've mentioned it deserves to be large it deserves to be moving the needle it deserves a la",
@@ -46960,7 +47015,7 @@ const dashboardData = {
     "last_podcast_name": "Dwarkesh Podcast",
     "last_episode_date": "2026-07-10",
     "mention_score": 1,
-    "mention_score_decayed": 0.27,
+    "mention_score_decayed": 0.26,
     "last_main_idea": "While this episode does not present a direct investment thesis, it provides foundational knowledge about the principles of physics that could influence investment decisions in technology and space sectors.",
     "last_proof_cite": "Dwarkesh Podcast \u2022 2026-07-10 \u2022 Adam Brown \u2013 Einstein's happiest thought: General Relativity from scratch",
     "last_proof_snippet": "I'm back with Adam Brown. You currently need blue shift at Google DeepMine, which is cracking science and reasoning. In a previous life, Adam was a prolific physicist taught at Stanford and did research and everything from cosmology to stri",
@@ -47592,7 +47647,7 @@ const dashboardData = {
     "last_podcast_name": "Latent Space: The AI Engineer Podcast",
     "last_episode_date": "2026-07-01",
     "mention_score": 1,
-    "mention_score_decayed": 0.22,
+    "mention_score_decayed": 0.21,
     "last_main_idea": "Investing in AI-driven drug discovery companies like Genesis Molecular AI can offer significant returns due to the potential for increased efficiency and accuracy in drug development processes.",
     "last_proof_cite": "Latent Space: The AI Engineer Podcast \u2022 2026-07-01 \u2022 \ud83d\udd2c The Coolest Diffusion Research Isn't in LLMs \u2014 Evan Feinberg & Sergey Edunov, Genesis Molecular AI",
     "last_proof_snippet": "I remember very clearly in like 2017, 2018, talking about guns and how generative adversarial networks and how they're clearly the future of image generation, obviously. They didn't work over very well for proteins or protein-like systems a",
@@ -47651,7 +47706,7 @@ const dashboardData = {
     "last_podcast_name": "Latent Space: The AI Engineer Podcast",
     "last_episode_date": "2026-07-01",
     "mention_score": 1,
-    "mention_score_decayed": 0.22,
+    "mention_score_decayed": 0.21,
     "last_main_idea": "Investing in AI-driven drug discovery companies like Genesis Molecular AI can offer significant returns due to the potential for increased efficiency and accuracy in drug development processes.",
     "last_proof_cite": "Latent Space: The AI Engineer Podcast \u2022 2026-07-01 \u2022 \ud83d\udd2c The Coolest Diffusion Research Isn't in LLMs \u2014 Evan Feinberg & Sergey Edunov, Genesis Molecular AI",
     "last_proof_snippet": "I remember very clearly in like 2017, 2018, talking about guns and how generative adversarial networks and how they're clearly the future of image generation, obviously. They didn't work over very well for proteins or protein-like systems a",
@@ -48832,7 +48887,7 @@ const dashboardData = {
     "last_podcast_name": "Latent Space: The AI Engineer Podcast",
     "last_episode_date": "2026-06-03",
     "mention_score": 1,
-    "mention_score_decayed": 0.16,
+    "mention_score_decayed": 0.15,
     "last_main_idea": "Invest in companies that can integrate AI into their operations and leverage Microsoft's ecosystem for competitive advantage, focusing on data management capabilities and adaptability to new pricing models.",
     "last_proof_cite": "Latent Space: The AI Engineer Podcast \u2022 2026-06-03 \u2022 \u26a1\ufe0fSatya Nadella: No Priors x Latent Space Crossover Special at Microsoft Build",
     "last_proof_snippet": "Please welcome Swicks, Saragawa, Alad Gill and Chairman and Chief Executive Officer of Microsoft, Sartina Della. I'm so excited to be here. Welcome to a crossover episode of NoPriors and Lanesvists with Sartina Della. Congratulations on an",
@@ -49263,7 +49318,7 @@ const dashboardData = {
     "last_podcast_name": "Moonshots with Peter Diamandis",
     "last_episode_date": "2026-06-11",
     "mention_score": 1,
-    "mention_score_decayed": 0.14,
+    "mention_score_decayed": 0.13,
     "last_main_idea": "Invest in sectors at the forefront of technological disruption, with a focus on cryptocurrency, AI, and biotech innovations that promise significant market transformation and growth.",
     "last_proof_cite": "Moonshots with Peter Diamandis \u2022 2026-06-11 \u2022 Brian Armstrong on Bitcoin, Anthropic Drops Fable 5 & Mythos 5, NewLimit's $435M Age-Reversal | EP #264",
     "last_proof_snippet": "City Bank projects a Bitcoin price reaching as much as 189,000 by the end of 2026. Bitcoin is the new digital gold. I think it's going to be a key part of our economy going forward into the future. I remember it was supposed to be counter-s",
@@ -49324,7 +49379,7 @@ const dashboardData = {
     "last_podcast_name": "Macro Voices",
     "last_episode_date": "2026-06-11",
     "mention_score": 1,
-    "mention_score_decayed": 0.14,
+    "mention_score_decayed": 0.13,
     "last_main_idea": "The market may be entering a new inflation shock regime, leading to a rotation from financial assets to hard assets, with the healthcare sector presenting an under-owned opportunity.",
     "last_proof_cite": "Macro Voices \u2022 2026-06-11 \u2022 MacroVoices #536 Larry Mcdonald: The Migration is Upon us",
     "last_proof_snippet": "This is Macrovoisers, the Free Weekly Financial Podcast, targeting professional finance, high-net worth individuals, family offices, and other sophisticated investors. Macrovoisers is all about the brightest minds in the world of finance an",
@@ -49841,7 +49896,7 @@ const dashboardData = {
     "last_podcast_name": "Monetary Matters with Jack Farley",
     "last_episode_date": "2026-06-07",
     "mention_score": 1,
-    "mention_score_decayed": 0.13,
+    "mention_score_decayed": 0.12,
     "last_main_idea": "Investors should be prepared for significant price volatility in the oil market due to geopolitical tensions and supply chain disruptions, with a focus on monitoring inventory levels and hedging strategies.",
     "last_proof_cite": "Monetary Matters with Jack Farley \u2022 2026-06-07 \u2022 \u201cSleepwalking into Crisis\u201d: Why The Oil Market Hasn\u2019t Imploded Yet | Kpler\u2019s Matt Smith",
     "last_proof_snippet": "Today's episode is brought to you by the two-cream corn fund, ticker CORN. Let's get into it. Got a very important conversation today. I'm joined by Matt Smith, director of research at Kepler, which is a research platform focused on commodi",
@@ -50510,7 +50565,7 @@ const dashboardData = {
     "last_podcast_name": "Moonshots with Peter Diamandis",
     "last_episode_date": "2026-05-30",
     "mention_score": 2,
-    "mention_score_decayed": 0.21,
+    "mention_score_decayed": 0.2,
     "last_main_idea": "Invest in AI and space exploration companies that demonstrate rapid innovation and adaptability, as these sectors are poised for significant growth and disruption.",
     "last_proof_cite": "Moonshots with Peter Diamandis \u2022 2026-05-30 \u2022 Pope Leo vs. AI, GPT 5.5 Beats Claude, and Sam Altman Walks Back Job Apocalypse | EP #259",
     "last_proof_snippet": "Pope Leo the 14th warns of AI risks and just dropped a 42,000-word in cyclical on AI. The Vatican has seemingly staked out the first major religion position against AI personhood. This is the first technology that forces us to define humani",
@@ -51190,7 +51245,7 @@ const dashboardData = {
     "last_podcast_name": "Monetary Matters with Jack Farley",
     "last_episode_date": "2026-05-16",
     "mention_score": 1,
-    "mention_score_decayed": 0.08,
+    "mention_score_decayed": 0.07,
     "last_main_idea": "The current market dynamics suggest a potential bubble, characterized by inflated earnings expectations rather than traditional valuation metrics, indicating the need for disciplined profit-taking strategies and portfolio diversification.",
     "last_proof_cite": "Monetary Matters with Jack Farley \u2022 2026-05-16 \u2022 Why Andy Constan Says The AI Bubble is in Earnings, Not Price",
     "last_proof_snippet": "If we're in a bubble, why aren't we selling crazy P is? It's not the P that's the bubble, it's the E. The S&P in its entirety is expected to earn 400 billion. Where's the GDP that can do that? Now it could come from everywhere else. It coul",
@@ -51255,7 +51310,7 @@ const dashboardData = {
     "last_podcast_name": "Moonshots with Peter Diamandis",
     "last_episode_date": "2026-05-16",
     "mention_score": 1,
-    "mention_score_decayed": 0.08,
+    "mention_score_decayed": 0.07,
     "last_main_idea": "Invest in AI companies poised for exponential growth, particularly those with strategic partnerships and enterprise solutions.",
     "last_proof_cite": "Moonshots with Peter Diamandis \u2022 2026-05-16 \u2022 Anthropic Partners With SpaceX AI, Leopold's $5.5B Bet, and the Singularity Economy | EP #255",
     "last_proof_snippet": "Anthropic is taking over all of SpaceX's Colossus-1 data center in Memphis, and this immediately allowed Anthropic to double Claude Code rate limits. I think Rockus on life support. So this is Elon who had been for the past year shit talkin",
@@ -51503,7 +51558,7 @@ const dashboardData = {
     "last_podcast_name": "Macro Voices",
     "last_episode_date": "2026-05-14",
     "mention_score": 6,
-    "mention_score_decayed": 0.43,
+    "mention_score_decayed": 0.42,
     "last_main_idea": "Investors should prepare for potential volatility as economic indicators begin to reflect the impacts of energy prices and passive investment flows.",
     "last_proof_cite": "Macro Voices \u2022 2026-05-14 \u2022 MacroVoices #532 Mike Green: Record Mechanical Flows",
     "last_proof_snippet": "This is Macrovoisers, the Free Weekly Financial Podcast, targeting professional finance, high-net worth individuals, family offices, and other sophisticated investors. Macrovoisers is all about the brightest minds in the world of finance an",
@@ -52068,7 +52123,7 @@ const dashboardData = {
     "last_podcast_name": "Monetary Matters with Jack Farley",
     "last_episode_date": "2026-05-10",
     "mention_score": 1,
-    "mention_score_decayed": 0.07,
+    "mention_score_decayed": 0.06,
     "last_main_idea": "Pictay Asset Management's investment thesis is to use interpretable machine learning techniques to outperform benchmarks while maintaining index-like risk characteristics.",
     "last_proof_cite": "Monetary Matters with Jack Farley \u2022 2026-05-10 \u2022 Why Generative AI Still Can\u2019t Trade | David Wright on How Quant Alpha Actually Is Done With Machine Learning, Decision Trees, and Gradient Boosting",
     "last_proof_snippet": "Very pleased today to be joined by David Wright, co-head of Pictay asset management's quantitative investments franchise, which manages over $30 billion in their quant group. This includes most recently two ETFs they launched PQ&T, their Pi",
