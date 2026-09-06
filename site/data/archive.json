@@ -1,6 +1,25 @@
 {
   "insights": [
     {
+      "id": 475,
+      "title": "Your AI Doctor Is Coming | Julie Yoo",
+      "source_type": "podcast",
+      "source_name": "The a16z Show",
+      "source_date": "2026-09-06",
+      "summary": "This episode of The a16z Show explores how artificial intelligence is poised to fundamentally transform healthcare, potentially more than any other industry. The discussion centers on three major investment themes: AI-native healthcare delivery that bypasses legacy IT systems, the rise of consumer-driven cash-pay healthcare models, and innovative payment structures that challenge traditional insurance paradigms. The speakers highlight a critical paradox in healthcare where high demand coexists with low physician utilization rates, indicating massive inefficiencies that technology can address. The pandemic has accelerated digital transformation and shifted consumer expectations, creating openings for startups to build direct-to-patient services with transparent pricing. Robotics and automation are also emerging as key enablers in high-acuity settings, allowing for hybrid care models that combine human expertise with technological efficiency.",
+      "key_takeaway": "Healthcare is entering a renaissance where AI-native companies, consumer-driven cash-pay models, and alternative payment structures will capture significant value from a historically tech-laggard industry now primed for disruption by post-pandemic digital adoption and patient demand for transparency.",
+      "tickers_mentioned": [
+        "NVDA"
+      ],
+      "sentiment": "neutral",
+      "display_on_main": 1,
+      "display_order": 0,
+      "added_date": "2026-09-06",
+      "archived_date": null,
+      "archived_reason": null,
+      "podcast_episode_id": 460
+    },
+    {
       "id": 473,
       "title": "Aaron Levie on Why Open AI Wins",
       "source_type": "podcast",
@@ -167,7 +186,7 @@
         "TSLA"
       ],
       "sentiment": "neutral",
-      "display_on_main": 1,
+      "display_on_main": 0,
       "display_order": 0,
       "added_date": "2026-09-04",
       "archived_date": null,
@@ -9215,8 +9234,8 @@
       "term": "Skin in the Game",
       "description": "A principle where individuals or entities have a personal stake or risk in the outcomes of their decisions or actions.",
       "first_detected_date": "2026-08-04",
-      "last_mentioned_date": "2026-09-04",
-      "mention_count": 3,
+      "last_mentioned_date": "2026-09-06",
+      "mention_count": 4,
       "source_podcasts": null,
       "status": "active",
       "investment_implications": "Having skin in the game can align incentives and encourage more prudent risk management in investment strategies.",
@@ -9225,7 +9244,7 @@
       "archived_reason": null,
       "first_detected_episode_id": 384,
       "first_detected_speaker": "Victor Hagani",
-      "last_mentioned_episode_id": 457,
+      "last_mentioned_episode_id": 460,
       "last_mentioned_speaker": "Chamath Palihapitiya, Jason Calacanis (hosts)"
     },
     {
@@ -9483,19 +9502,19 @@
     {
       "id": 135,
       "term": "Healthspan",
-      "description": "The portion of life spent in good health, distinct from lifespan; GLP-1 drugs are showing potential to extend both by reducing serious infections and metabolic disease.",
+      "description": "The period of life spent in good health, free from chronic disease and disability, as distinguished from simple lifespan extension.",
       "first_detected_date": "2026-06-29",
-      "last_mentioned_date": "2026-09-05",
-      "mention_count": 7,
+      "last_mentioned_date": "2026-09-06",
+      "mention_count": 8,
       "source_podcasts": null,
       "status": "active",
-      "investment_implications": "GLP-1 repositioning from diabetes/obesity to longevity could expand addressable market 10x if clinical evidence supports human lifespan extension.",
+      "investment_implications": "Consumer willingness to pay directly for healthspan optimization creates premium pricing power and recurring revenue opportunities outside insurance reimbursement.",
       "display_on_main": 0,
       "archived_date": null,
       "archived_reason": null,
       "first_detected_episode_id": 319,
       "first_detected_speaker": "Peter Diamandis (hosts)",
-      "last_mentioned_episode_id": 459,
+      "last_mentioned_episode_id": 460,
       "last_mentioned_speaker": "Peter Diamandis (hosts)"
     },
     {
@@ -11445,19 +11464,19 @@
     {
       "id": 14,
       "term": "Agentic Velocity",
-      "description": "The speed at which AI agents can execute tasks, potentially outpacing traditional security measures.",
+      "description": "The speed and efficiency with which AI agents can autonomously perform tasks and make decisions in healthcare workflows, replacing traditional software development cycles.",
       "first_detected_date": "2026-02-15",
-      "last_mentioned_date": "2026-08-18",
-      "mention_count": 3,
+      "last_mentioned_date": "2026-09-06",
+      "mention_count": 4,
       "source_podcasts": null,
       "status": "active",
-      "investment_implications": "Invest in technologies that can keep pace with the rapid actions of AI agents in cybersecurity.",
+      "investment_implications": "Higher agentic velocity enables healthcare startups to scale faster and at lower cost than traditional SaaS or services models, improving capital efficiency.",
       "display_on_main": 0,
       "archived_date": null,
       "archived_reason": null,
       "first_detected_episode_id": null,
       "first_detected_speaker": null,
-      "last_mentioned_episode_id": 412,
+      "last_mentioned_episode_id": 460,
       "last_mentioned_speaker": "Max Pollard, Nick Warner"
     },
     {
