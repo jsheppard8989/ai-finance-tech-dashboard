@@ -1,7 +1,7 @@
 {
-  "generated_at": "2026-09-07T11:06:46.886207",
-  "last_updated": "2026-09-07T11:06:46.886207",
-  "last_pipeline_run": "2026-09-07T11:06:46.886207",
+  "generated_at": "2026-09-07T12:08:35.389322",
+  "last_updated": "2026-09-07T12:08:35.389322",
+  "last_pipeline_run": "2026-09-07T12:08:35.389322",
   "main_page": {
     "overton": 13,
     "insights": 8,
@@ -18,69 +18,14 @@
     "podcasts_analyzed": 1
   },
   "step_results": {
-    "downloaded": 3,
-    "transcribed": 3,
-    "analyzed": 3,
-    "insight_created": 3,
-    "published": 3,
-    "total": 3
+    "downloaded": 0,
+    "transcribed": 0,
+    "analyzed": 0,
+    "insight_created": 0,
+    "published": 0,
+    "total": 0
   },
-  "episodes": [
-    {
-      "id": "ac47c1cb-6452-44a2-9e35-afa19b1a34b9",
-      "podcast": "The a16z Show",
-      "title": "Can Open Source Keep AI Power From Concentrating?",
-      "published": "2026-09-07",
-      "rss_guid": "ac47c1cb-6452-44a2-9e35-afa19b1a34b9",
-      "stages": {
-        "downloaded": true,
-        "transcribed": true,
-        "analyzed": true,
-        "insight_created": true,
-        "published": true
-      },
-      "stage_reasons": {},
-      "first_blocker": null,
-      "remediation_by_stage": {},
-      "status": "complete"
-    },
-    {
-      "id": "macrovoices.podbean.com/6f4d0c39-6a19-3e29-88d7-65a8614ff8f4",
-      "podcast": "Macro Voices",
-      "title": "MacroVoices #548 Dr. Carly Anderson: Emerging Energy Technologies Roundup",
-      "published": "2026-09-03",
-      "rss_guid": "macrovoices.podbean.com/6f4d0c39-6a19-3e29-88d7-65a8614ff8f4",
-      "stages": {
-        "downloaded": true,
-        "transcribed": true,
-        "analyzed": true,
-        "insight_created": true,
-        "published": true
-      },
-      "stage_reasons": {},
-      "first_blocker": null,
-      "remediation_by_stage": {},
-      "status": "complete"
-    },
-    {
-      "id": "substack:post:213682035",
-      "podcast": "Dwarkesh Podcast",
-      "title": "Ajeya Cotra \u2013 Inside the OpenAI agent swarm that hacked Hugging Face",
-      "published": "2026-09-01",
-      "rss_guid": "substack:post:213682035",
-      "stages": {
-        "downloaded": true,
-        "transcribed": true,
-        "analyzed": true,
-        "insight_created": true,
-        "published": true
-      },
-      "stage_reasons": {},
-      "first_blocker": null,
-      "remediation_by_stage": {},
-      "status": "complete"
-    }
-  ],
+  "episodes": [],
   "available_from_rss": [],
   "stale_episodes": [
     {
