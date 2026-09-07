@@ -29,10 +29,18 @@ TITLE_BAR_TICKERS = {
 }
 
 # Map dashboard ticker labels to Yahoo Finance symbols when they differ.
+# NOTE: This is for charting only. price_data.json is managed by fetch_prices.py.
 YAHOO_SYMBOL_OVERRIDES = {
     'BTC': 'BTC-USD',
-    'S&P 500': 'SPY',
+    # Use ^GSPC for S&P 500 index (trades ~5000+), not SPY ETF (~500s)
+    'S&P 500': '^GSPC',
+    'S&P': '^GSPC',
+    # WTI Crude Oil - CL=F is front-month futures (~$70-80), not NG=F gas (~$3-4)
+    'WTI': 'CL=F',
+    'WTI CRUDE OIL': 'CL=F',
+    # Commodities
     'COPPER': 'HG=F',
+    'GOLD': 'GC=F',
 }
 
 
@@ -178,26 +186,9 @@ def create_candlestick_chart(df, symbol, name, market_symbol=None):
         return None
 
 
-def save_price_data(all_data):
-    """Save price data to JSON for webpage consumption."""
-    price_data = {}
-    
-    for item in all_data:
-        symbol = item['symbol']
-        price_data[symbol] = {
-            'price': round(item['latest_price'], 2),
-            'change_pct': round(item['change_pct'], 2),
-            'name': item['name'],
-            'updated_at': datetime.now().isoformat()
-        }
-    
-    # Save to site directory for webpage access
-    price_file = CHARTS_DIR.parent / 'price_data.json'
-    with open(price_file, 'w') as f:
-        json.dump(price_data, f, indent=2)
-    
-    print(f"\n✓ Price data saved to: {price_file}")
-    return price_file
+# NOTE: save_price_data() removed — fetch_prices.py is the sole owner of price_data.json.
+# Charts module should not overwrite spot prices with potentially wrong symbol mappings.
+# See fetch_prices.py YAHOO_SYMBOL_MAP for the canonical symbol resolution.
 
 
 def main():
@@ -206,7 +197,6 @@ def main():
     print("=" * 60)
     
     charts_created = []
-    all_price_data = []
     
     # Get top 10 tickers from database
     top_tickers = get_top_tickers_from_db(limit=10)
@@ -255,11 +245,7 @@ def main():
                 'price_14d_ago': price_14d_ago
             }
             charts_created.append(chart_data)
-            all_price_data.append(chart_data)
             print(f"  ✓ ${latest_price:.2f} ({change_pct:+.2f}% over 14 days)")
-    
-    # Save price data for webpage
-    save_price_data(all_price_data)
     
     # Summary
     print("\n" + "=" * 60)
