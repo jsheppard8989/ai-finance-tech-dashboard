@@ -405,6 +405,9 @@ def _export_pipeline_state(site_dir: Path):
     # Build episode objects
     episodes_out = []
     stale_threshold_days = 2
+    # stale_episodes: curation_log APPROVED is the active fetch queue, while stale
+    # also covers unpublished recent DB rows (episodes that finished processing but
+    # haven't reached the live site yet).
     stale_episodes = []
 
     def compute_age_days(pub_str: str):
@@ -751,6 +754,119 @@ def _export_pipeline_state(site_dir: Path):
                     "next_blocker": "downloaded",
                 }
             )
+
+    # Third pass: Include recent DB episodes that are incomplete from a site perspective.
+    # This catches episodes that finished analysis/insight but aren't on the live site yet,
+    # even if they've left the curation window (curation_log APPROVED is the active fetch
+    # queue, while stale also covers unpublished recent DB rows).
+    stale_lookback_days = 14
+    tracked_episode_ids = set()
+    tracked_rss_guids = set()
+    for ep in stale_episodes:
+        eid = ep.get("id", "")
+        if eid:
+            tracked_episode_ids.add(str(eid).lower())
+        rss = ep.get("rss_guid", "")
+        if rss:
+            tracked_rss_guids.add(str(rss).strip())
+
+    try:
+        with db._get_connection() as conn:
+            # Query recent episodes not fully on site:
+            # - Within lookback window (last 14 days by episode_date or created_at)
+            # - Age >= stale_threshold_days
+            # - Either: added_to_site=0, OR no insight row, OR insight exists but no deep dive
+            cur = conn.execute(
+                """
+                SELECT 
+                    pe.id,
+                    pe.rss_guid,
+                    pe.podcast_name,
+                    pe.episode_title,
+                    pe.episode_date,
+                    pe.audio_url,
+                    pe.transcript_path,
+                    pe.is_processed,
+                    pe.added_to_site,
+                    pe.created_at,
+                    (SELECT COUNT(*) FROM latest_insights li WHERE li.podcast_episode_id = pe.id) AS insight_count,
+                    (SELECT COUNT(*) FROM deep_dive_content ddc 
+                     JOIN latest_insights li2 ON ddc.insight_id = li2.id 
+                     WHERE li2.podcast_episode_id = pe.id) AS deepdive_count
+                FROM podcast_episodes pe
+                WHERE date(COALESCE(pe.episode_date, date(pe.created_at))) >= date('now', ?)
+                  AND julianday('now') - julianday(COALESCE(pe.episode_date, date(pe.created_at))) >= ?
+                  AND (
+                      pe.added_to_site = 0
+                      OR NOT EXISTS (SELECT 1 FROM latest_insights li WHERE li.podcast_episode_id = pe.id)
+                      OR NOT EXISTS (
+                          SELECT 1 FROM deep_dive_content ddc
+                          JOIN latest_insights li2 ON ddc.insight_id = li2.id
+                          WHERE li2.podcast_episode_id = pe.id
+                      )
+                  )
+                ORDER BY pe.episode_date DESC, pe.id DESC
+                """,
+                (f'-{stale_lookback_days} days', stale_threshold_days),
+            )
+            for row in cur.fetchall():
+                r = dict(row)
+                ep_id = r.get("id")
+                rss_guid = str(r.get("rss_guid") or "").strip()
+
+                # Dedupe: skip if already tracked by rss_guid or constructed id
+                if rss_guid and rss_guid in tracked_rss_guids:
+                    continue
+                ep_key = rss_guid if rss_guid else f"{r.get('podcast_name', '')}_{str(r.get('episode_title', ''))[:40]}".replace(" ", "_").lower()
+                if ep_key.lower() in tracked_episode_ids:
+                    continue
+
+                # Compute age
+                pub_str = str(r.get("episode_date") or "")[:10]
+                age_days = compute_age_days(pub_str)
+                if age_days is None:
+                    # Fallback to created_at
+                    created = str(r.get("created_at") or "")[:10]
+                    age_days = compute_age_days(created)
+                if age_days is None or age_days < stale_threshold_days:
+                    continue
+
+                # Compute status and blocker
+                downloaded = bool(r.get("audio_url")) or bool(r.get("transcript_path"))
+                transcribed = bool(r.get("transcript_path"))
+                analyzed = bool(r.get("is_processed"))
+                insight_created = int(r.get("insight_count") or 0) > 0
+                has_deepdive = int(r.get("deepdive_count") or 0) > 0
+                published = bool(r.get("added_to_site")) and insight_created and has_deepdive
+
+                status = derive_status(downloaded, transcribed, analyzed, insight_created, published)
+                if status == "complete":
+                    continue  # Already fully published
+
+                blocker = next(
+                    (k for k in ["downloaded", "transcribed", "analyzed", "insight_created", "published"]
+                     if not {"downloaded": downloaded, "transcribed": transcribed, "analyzed": analyzed,
+                             "insight_created": insight_created, "published": published}.get(k)),
+                    "unknown"
+                )
+
+                stale_episodes.append(
+                    {
+                        "id": ep_key,
+                        "podcast": r.get("podcast_name", ""),
+                        "title": r.get("episode_title", ""),
+                        "status": status,
+                        "published": pub_str,
+                        "age_days": age_days,
+                        "next_blocker": blocker,
+                        "source": "db_incomplete",  # Distinguish from curated/rss sources
+                    }
+                )
+                tracked_episode_ids.add(ep_key.lower())
+                if rss_guid:
+                    tracked_rss_guids.add(rss_guid)
+    except Exception as e:
+        print(f"  ⚠ Could not add DB-incomplete episodes to stale list: {e}")
 
     # main-page tie-out and counts (keep dashboard consistent)
     try:
