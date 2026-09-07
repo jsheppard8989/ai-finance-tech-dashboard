@@ -1,0 +1,158 @@
+{
+  "generated_at": "2026-09-07T10:51:36.209247",
+  "last_updated": "2026-09-07T10:51:36.209247",
+  "last_pipeline_run": "2026-09-07T10:51:36.209247",
+  "main_page": {
+    "overton": 13,
+    "insights": 8,
+    "pundits": 0
+  },
+  "counts": {
+    "ticker_mentions": 221,
+    "podcast_episodes": 435,
+    "newsletters": 7,
+    "daily_scores": 158,
+    "overton_terms_total": 133,
+    "latest_insights_total": 449,
+    "today_mentions": {},
+    "podcasts_analyzed": 1
+  },
+  "step_results": {
+    "downloaded": 3,
+    "transcribed": 3,
+    "analyzed": 3,
+    "insight_created": 3,
+    "published": 1,
+    "total": 3
+  },
+  "episodes": [
+    {
+      "id": "ac47c1cb-6452-44a2-9e35-afa19b1a34b9",
+      "podcast": "The a16z Show",
+      "title": "Can Open Source Keep AI Power From Concentrating?",
+      "published": "2026-09-07",
+      "rss_guid": "ac47c1cb-6452-44a2-9e35-afa19b1a34b9",
+      "stages": {
+        "downloaded": true,
+        "transcribed": true,
+        "analyzed": true,
+        "insight_created": true,
+        "published": true
+      },
+      "stage_reasons": {},
+      "first_blocker": null,
+      "remediation_by_stage": {},
+      "status": "complete"
+    },
+    {
+      "id": "macrovoices.podbean.com/6f4d0c39-6a19-3e29-88d7-65a8614ff8f4",
+      "podcast": "Macro Voices",
+      "title": "MacroVoices #548 Dr. Carly Anderson: Emerging Energy Technologies Roundup",
+      "published": "2026-09-03",
+      "rss_guid": "macrovoices.podbean.com/6f4d0c39-6a19-3e29-88d7-65a8614ff8f4",
+      "stages": {
+        "downloaded": true,
+        "transcribed": true,
+        "analyzed": true,
+        "insight_created": true,
+        "published": false
+      },
+      "stage_reasons": {
+        "published": "Insight exists but added_to_site=0 \u2014 Deep Dives + export must succeed; run auto_pipeline."
+      },
+      "first_blocker": "published",
+      "remediation_by_stage": {
+        "published": {
+          "action_id": "EXPORT_AND_PUBLISH",
+          "steps": [
+            "Site export runs only after generate_deepdives.py succeeds; if Deep Dives fail, export and git push are skipped.",
+            "Fix Deep Dive errors (see pipeline logs), then run auto_pipeline.py to export site JSON and push.",
+            "When added_to_site=1 on the episode row, this stage turns green."
+          ],
+          "commands": [
+            "cd /Users/jaredsheppard/projects/ai-finance-tech-dashboard/pipeline && python3 generate_deepdives.py",
+            "cd /Users/jaredsheppard/projects/ai-finance-tech-dashboard/pipeline && python3 auto_pipeline.py"
+          ]
+        }
+      },
+      "status": "needs_export"
+    },
+    {
+      "id": "substack:post:213682035",
+      "podcast": "Dwarkesh Podcast",
+      "title": "Ajeya Cotra \u2013 Inside the OpenAI agent swarm that hacked Hugging Face",
+      "published": "2026-09-01",
+      "rss_guid": "substack:post:213682035",
+      "stages": {
+        "downloaded": true,
+        "transcribed": true,
+        "analyzed": true,
+        "insight_created": true,
+        "published": false
+      },
+      "stage_reasons": {
+        "published": "Insight exists but added_to_site=0 \u2014 Deep Dives + export must succeed; run auto_pipeline."
+      },
+      "first_blocker": "published",
+      "remediation_by_stage": {
+        "published": {
+          "action_id": "EXPORT_AND_PUBLISH",
+          "steps": [
+            "Site export runs only after generate_deepdives.py succeeds; if Deep Dives fail, export and git push are skipped.",
+            "Fix Deep Dive errors (see pipeline logs), then run auto_pipeline.py to export site JSON and push.",
+            "When added_to_site=1 on the episode row, this stage turns green."
+          ],
+          "commands": [
+            "cd /Users/jaredsheppard/projects/ai-finance-tech-dashboard/pipeline && python3 generate_deepdives.py",
+            "cd /Users/jaredsheppard/projects/ai-finance-tech-dashboard/pipeline && python3 auto_pipeline.py"
+          ]
+        }
+      },
+      "status": "needs_export"
+    }
+  ],
+  "available_from_rss": [],
+  "stale_episodes": [
+    {
+      "id": "macrovoices.podbean.com/6f4d0c39-6a19-3e29-88d7-65a8614ff8f4",
+      "podcast": "Macro Voices",
+      "title": "MacroVoices #548 Dr. Carly Anderson: Emerging Energy Technologies Roundup",
+      "status": "needs_export",
+      "published": "2026-09-03",
+      "age_days": 4,
+      "next_blocker": "published"
+    },
+    {
+      "id": "substack:post:213682035",
+      "podcast": "Dwarkesh Podcast",
+      "title": "Ajeya Cotra \u2013 Inside the OpenAI agent swarm that hacked Hugging Face",
+      "status": "needs_export",
+      "published": "2026-09-01",
+      "age_days": 6,
+      "next_blocker": "published"
+    }
+  ],
+  "stale_threshold_days": 2,
+  "rss_filter_criteria": {
+    "cutoff_date": "2026-02-01",
+    "approval": "Feed list is the filter. If a feed is in podcast_feeds.txt, all its episodes (within window) are approved. No per-episode relevance score.",
+    "feeds": "podcast_feeds.txt (active); podcast_feeds_on_hold.txt (paused \u2014 no new fetch/transcribe). Episodes already in DB (by rss_guid) are skipped.",
+    "window": "Current calendar month only (forward-looking; no backfill of prior months)."
+  },
+  "automation_hints": {
+    "stage_order": [
+      "downloaded",
+      "transcribed",
+      "analyzed",
+      "insight_created",
+      "published"
+    ],
+    "whisper_queue_pending_mp3": 0,
+    "fix_order": "For each episode, read first_blocker then remediation_by_stage[first_blocker].",
+    "end_to_end": "cd /Users/jaredsheppard/projects/ai-finance-tech-dashboard/pipeline && python3 auto_pipeline.py",
+    "analyze_only": "cd /Users/jaredsheppard/projects/ai-finance-tech-dashboard/pipeline && python3 auto_pipeline.py --analyze-only",
+    "whisper_worker": "cd /Users/jaredsheppard/projects/ai-finance-tech-dashboard && ./whisper_worker.sh",
+    "schema": "episode.remediation_by_stage[stage] = {action_id, steps[], commands[]}"
+  },
+  "note": "Canonical pipeline_state from DB + curation. Red stages include stage_reasons (human) and remediation_by_stage (action_id, steps, commands) for automation."
+}

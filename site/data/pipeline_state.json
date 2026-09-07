@@ -1,7 +1,7 @@
 {
-  "generated_at": "2026-09-07T06:51:17.014384",
-  "last_updated": "2026-09-07T06:51:17.014384",
-  "last_pipeline_run": "2026-09-07T06:51:17.014384",
+  "generated_at": "2026-09-07T11:02:46.596990",
+  "last_updated": "2026-09-07T11:02:46.596990",
+  "last_pipeline_run": "2026-09-07T11:02:46.596990",
   "main_page": {
     "overton": 13,
     "insights": 8,
@@ -18,12 +18,12 @@
     "podcasts_analyzed": 1
   },
   "step_results": {
-    "downloaded": 1,
-    "transcribed": 1,
-    "analyzed": 1,
-    "insight_created": 1,
-    "published": 1,
-    "total": 1
+    "downloaded": 3,
+    "transcribed": 3,
+    "analyzed": 3,
+    "insight_created": 3,
+    "published": 3,
+    "total": 3
   },
   "episodes": [
     {
@@ -43,10 +43,307 @@
       "first_blocker": null,
       "remediation_by_stage": {},
       "status": "complete"
+    },
+    {
+      "id": "macrovoices.podbean.com/6f4d0c39-6a19-3e29-88d7-65a8614ff8f4",
+      "podcast": "Macro Voices",
+      "title": "MacroVoices #548 Dr. Carly Anderson: Emerging Energy Technologies Roundup",
+      "published": "2026-09-03",
+      "rss_guid": "macrovoices.podbean.com/6f4d0c39-6a19-3e29-88d7-65a8614ff8f4",
+      "stages": {
+        "downloaded": true,
+        "transcribed": true,
+        "analyzed": true,
+        "insight_created": true,
+        "published": true
+      },
+      "stage_reasons": {},
+      "first_blocker": null,
+      "remediation_by_stage": {},
+      "status": "complete"
+    },
+    {
+      "id": "substack:post:213682035",
+      "podcast": "Dwarkesh Podcast",
+      "title": "Ajeya Cotra \u2013 Inside the OpenAI agent swarm that hacked Hugging Face",
+      "published": "2026-09-01",
+      "rss_guid": "substack:post:213682035",
+      "stages": {
+        "downloaded": true,
+        "transcribed": true,
+        "analyzed": true,
+        "insight_created": true,
+        "published": true
+      },
+      "stage_reasons": {},
+      "first_blocker": null,
+      "remediation_by_stage": {},
+      "status": "complete"
     }
   ],
   "available_from_rss": [],
-  "stale_episodes": [],
+  "stale_episodes": [
+    {
+      "id": "66ed7536-8ad1-44b3-8a94-06c3160329e2",
+      "podcast": "The a16z Show",
+      "title": "Fei Fei Li: The Race to Build World Models For AI",
+      "status": "needs_export",
+      "published": "2026-09-04",
+      "age_days": 3,
+      "next_blocker": "published",
+      "source": "db_incomplete"
+    },
+    {
+      "id": "c2b497da-b59b-41be-86a6-a966bd3ef724",
+      "podcast": "The a16z Show",
+      "title": "The $100B Niches Hiding Inside Payments",
+      "status": "needs_export",
+      "published": "2026-09-03",
+      "age_days": 4,
+      "next_blocker": "published",
+      "source": "db_incomplete"
+    },
+    {
+      "id": "c668045c-a6ea-11f1-9fa3-9762e3473041",
+      "podcast": "Monetary Matters with Jack Farley",
+      "title": "\u201cI\u2019m Insanely Bullish on Bonds\u201d | Jared Dillian on Copper, Bonds, Semis, and The Awesome Portfolio",
+      "status": "needs_export",
+      "published": "2026-09-03",
+      "age_days": 4,
+      "next_blocker": "published",
+      "source": "db_incomplete"
+    },
+    {
+      "id": "011a424b-1445-4278-902f-875110d48818",
+      "podcast": "The a16z Show",
+      "title": "Inside Moderna\u2019s Personalized Cancer Vaccine",
+      "status": "needs_export",
+      "published": "2026-09-02",
+      "age_days": 5,
+      "next_blocker": "published",
+      "source": "db_incomplete"
+    },
+    {
+      "id": "c788c560-a6fe-11f1-8883-4773df526e10",
+      "podcast": "Moonshots with Peter Diamandis",
+      "title": "Humanity's First Star Probe, Architect Labs Beats NVIDIA 3.4x, Musk Wants Satellites to Cool Earth | EP #285",
+      "status": "needs_export",
+      "published": "2026-09-02",
+      "age_days": 5,
+      "next_blocker": "published",
+      "source": "db_incomplete"
+    },
+    {
+      "id": "530a274b-dbf9-4577-9c39-1207c889db37",
+      "podcast": "The a16z Show",
+      "title": "Daniel Litt: The Mathematician's Guide to AI",
+      "status": "needs_export",
+      "published": "2026-09-01",
+      "age_days": 6,
+      "next_blocker": "published",
+      "source": "db_incomplete"
+    },
+    {
+      "id": "substack:post:213603862",
+      "podcast": "Dwarkesh Podcast",
+      "title": "The rise and fall of agent civilizations",
+      "status": "needs_export",
+      "published": "2026-08-31",
+      "age_days": 7,
+      "next_blocker": "published",
+      "source": "db_incomplete"
+    },
+    {
+      "id": "38ff9198-903d-4a96-8b02-b577f87670c0",
+      "podcast": "The a16z Show",
+      "title": "Gavin Baker: Why AI Demand Is Outrunning Compute Supply",
+      "status": "needs_export",
+      "published": "2026-08-31",
+      "age_days": 7,
+      "next_blocker": "published",
+      "source": "db_incomplete"
+    },
+    {
+      "id": "5ae2f5b2-a55e-11f1-90c0-c38f26cd87c8",
+      "podcast": "Monetary Matters with Jack Farley",
+      "title": "The Certainty Premium: What\u2019s Driving the Tech Sector Divergence? | Jeff Keller",
+      "status": "needs_export",
+      "published": "2026-08-31",
+      "age_days": 7,
+      "next_blocker": "published",
+      "source": "db_incomplete"
+    },
+    {
+      "id": "8fe5cec4-1819-471b-b826-50cc7292e4f5",
+      "podcast": "The a16z Show",
+      "title": "Why a16z Launched the Machine Age Fund | Jen Kha",
+      "status": "needs_export",
+      "published": "2026-08-30",
+      "age_days": 8,
+      "next_blocker": "published",
+      "source": "db_incomplete"
+    },
+    {
+      "id": "15e49284-a3ad-11f1-ad3f-b33f879d3d7e",
+      "podcast": "Moonshots with Peter Diamandis",
+      "title": "NVIDIA's $96.2B Quarter, China's 200,000 Fake Accounts, & OpenAI's New Chip | EP #284",
+      "status": "needs_export",
+      "published": "2026-08-29",
+      "age_days": 9,
+      "next_blocker": "published",
+      "source": "db_incomplete"
+    },
+    {
+      "id": "59027622-5673-45c8-a068-0fe18b34022c",
+      "podcast": "The a16z Show",
+      "title": "Why 1,200 AI Agents Started Working Together | Ryan Greenblatt",
+      "status": "needs_export",
+      "published": "2026-08-29",
+      "age_days": 9,
+      "next_blocker": "published",
+      "source": "db_incomplete"
+    },
+    {
+      "id": "6d431e83-eb88-4082-9b0c-aec16b34ea7b",
+      "podcast": "All-In with Chamath, Jason, Sacks & Friedberg",
+      "title": "Nvidia's Historic Quarter, SaaS Comeback, Bessent vs Druck, America's Debt Crisis, Cancer Vaccine",
+      "status": "needs_export",
+      "published": "2026-08-29",
+      "age_days": 9,
+      "next_blocker": "published",
+      "source": "db_incomplete"
+    },
+    {
+      "id": "a3717c93-a145-4f25-9fe6-6b47cd11b9d1",
+      "podcast": "The a16z Show",
+      "title": "The Infrastructure Behind the Machine Age",
+      "status": "needs_export",
+      "published": "2026-08-28",
+      "age_days": 10,
+      "next_blocker": "published",
+      "source": "db_incomplete"
+    },
+    {
+      "id": "ca702e5a-a251-11f1-81e3-4ff6c683f74d",
+      "podcast": "Moonshots with Peter Diamandis",
+      "title": "Sam Altman: Singularity Slow-Down, Emad Runs 18 Grokbots, Waymo Slashes Hardware 83% | EP #283",
+      "status": "needs_export",
+      "published": "2026-08-27",
+      "age_days": 11,
+      "next_blocker": "published",
+      "source": "db_incomplete"
+    },
+    {
+      "id": "8b0662be-356b-4bcd-81b0-1b0fd63de740",
+      "podcast": "The a16z Show",
+      "title": "Inside Cursor: The Anatomy of a Generational Startup",
+      "status": "needs_export",
+      "published": "2026-08-27",
+      "age_days": 11,
+      "next_blocker": "published",
+      "source": "db_incomplete"
+    },
+    {
+      "id": "83789c12-210d-431c-9b7e-8796293414a7",
+      "podcast": "All-In with Chamath, Jason, Sacks & Friedberg",
+      "title": "Eric Weinstein: The State of American Science, Breakthrough Coverups, and the Danger of Physics",
+      "status": "needs_export",
+      "published": "2026-08-26",
+      "age_days": 12,
+      "next_blocker": "published",
+      "source": "db_incomplete"
+    },
+    {
+      "id": "363a4bf4-a179-11f1-ad46-8bd88e04ce7d",
+      "podcast": "Monetary Matters with Jack Farley",
+      "title": "The Commodity Bull Market Is Broadening | Jim Wiederhold on Copper, Grains, and Bloomberg Commodity Index",
+      "status": "needs_export",
+      "published": "2026-08-26",
+      "age_days": 12,
+      "next_blocker": "published",
+      "source": "db_incomplete"
+    },
+    {
+      "id": "061ad740-a084-11f1-8a09-0bcd9cc59371",
+      "podcast": "Monetary Matters with Jack Farley",
+      "title": "Time to Reduce Equity Risk: Why Underappreciated Macro Risks Could Derail the Bull Market | Warren Pies",
+      "status": "needs_export",
+      "published": "2026-08-26",
+      "age_days": 12,
+      "next_blocker": "published",
+      "source": "db_incomplete"
+    },
+    {
+      "id": "substack:post:212802973",
+      "podcast": "Latent Space: The AI Engineer Podcast",
+      "title": "\ud83d\udd2c\u201cWe have foundation models for language, not for physics\u201d \u2014 Anima Anandkumar, Bren Professor of Computing",
+      "status": "needs_export",
+      "published": "2026-08-26",
+      "age_days": 12,
+      "next_blocker": "published",
+      "source": "db_incomplete"
+    },
+    {
+      "id": "548ff3fc-0c93-4ca1-9475-b62cd4bd4288",
+      "podcast": "The a16z Show",
+      "title": "The State of AI: Macro, Apps, and Consumer",
+      "status": "needs_export",
+      "published": "2026-08-26",
+      "age_days": 12,
+      "next_blocker": "published",
+      "source": "db_incomplete"
+    },
+    {
+      "id": "ad8ee5b3-6b8e-4582-8524-9cb6c6e97a82",
+      "podcast": "The a16z Show",
+      "title": "The New Economics of AI | Martin Casado & Steven Sinofsky",
+      "status": "needs_export",
+      "published": "2026-08-25",
+      "age_days": 13,
+      "next_blocker": "published",
+      "source": "db_incomplete"
+    },
+    {
+      "id": "substack:post:212689635",
+      "podcast": "Dwarkesh Podcast",
+      "title": "Dylan Patel \u2013 Anthropic & OpenAI will have most of the world\u2019s compute by 2028",
+      "status": "needs_export",
+      "published": "2026-08-25",
+      "age_days": 13,
+      "next_blocker": "published",
+      "source": "db_incomplete"
+    },
+    {
+      "id": "64b534f7-b272-4bb8-9238-96055f4fa858",
+      "podcast": "All-In with Chamath, Jason, Sacks & Friedberg",
+      "title": "Michael Kratsios: Trump's Science Agenda, Anti-Science Claims, Fauci's Damage, DEI & China",
+      "status": "needs_export",
+      "published": "2026-08-24",
+      "age_days": 14,
+      "next_blocker": "published",
+      "source": "db_incomplete"
+    },
+    {
+      "id": "b8c9473a-9f6e-11f1-946b-2b3f9ea17d93",
+      "podcast": "Monetary Matters with Jack Farley",
+      "title": "Is Private Equity Broken? Why the Buyside\u2019s Problems Are Making 2026 \u201cThe Year of the Banker\u201d | High Yield Harry",
+      "status": "needs_export",
+      "published": "2026-08-24",
+      "age_days": 14,
+      "next_blocker": "published",
+      "source": "db_incomplete"
+    },
+    {
+      "id": "9214c273-93fb-476f-bb4a-1306e7fa4fe1",
+      "podcast": "The a16z Show",
+      "title": "Why Medical AI Needs a Referee | Protege's Engy Ziedan",
+      "status": "needs_export",
+      "published": "2026-08-24",
+      "age_days": 14,
+      "next_blocker": "published",
+      "source": "db_incomplete"
+    }
+  ],
   "stale_threshold_days": 2,
   "rss_filter_criteria": {
     "cutoff_date": "2026-02-01",
