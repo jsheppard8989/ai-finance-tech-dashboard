@@ -1752,35 +1752,76 @@
     </header>
 
     <!-- Market Plumbing Widgets (compact band between header and grid) -->
+    <style>
+      .plumbing-num { font-size: 0.95rem; color: #00d4ff; font-weight: 600; }
+      .plumbing-num-sm { font-size: 0.85rem; color: #00d4ff; font-weight: 600; }
+      .plumbing-expand { margin-top: 0.4rem; }
+      .plumbing-expand summary { color: #9ca3af; font-size: 0.68rem; cursor: pointer; user-select: none; }
+      .plumbing-expand summary:hover { color: #00d4ff; }
+      .plumbing-expand[open] summary { color: #00d4ff; }
+      .plumbing-expand .expand-content { color: #8892b0; font-size: 0.68rem; line-height: 1.45; margin-top: 0.35rem; padding-left: 0.5rem; border-left: 2px solid rgba(0, 212, 255, 0.2); }
+    </style>
     <div class="plumbing-widgets" style="margin: 1rem 0; display: grid; grid-template-columns: repeat(auto-fit, minmax(220px, 1fr)); gap: 0.75rem;">
+      <!-- Treasury Calendar -->
       <div class="card" style="padding: 0.75rem; margin-bottom: 0;">
         <h3 style="font-size: 0.9rem; color: #00d4ff; margin-bottom: 0.25rem;">📊 Treasury Calendar</h3>
-        <p style="color: #9ca3af; font-size: 0.68rem; line-height: 1.35; margin-bottom: 0.5rem;">Next auction / QRA dates are the make-or-break calendar for Captive buyer of duration and the window that can force a 10Y Debait print.</p>
+        <p style="color: #9ca3af; font-size: 0.68rem; line-height: 1.35; margin-bottom: 0.5rem;">Upcoming coupon auctions and the next Quarterly Refunding date — when Treasury sets how much paper the market must absorb.</p>
         <div id="treasury-widget" style="font-size: 0.8rem; color: #a8b2d1;">
           <span style="color: #a8b2d1;">Coming soon — awaiting live data</span>
         </div>
+        <details class="plumbing-expand" id="treasury-expand">
+          <summary>What this means</summary>
+          <div class="expand-content">
+            <strong>QRA</strong> (Quarterly Refunding Announcement): Treasury announces issuance sizes for the coming quarter. Markets watch for surprises in coupon vs bill mix.<br><br>
+            <strong>Auction week</strong>: Watch bid-to-cover ratios and dealer vs indirect (foreign) demand. Weak auctions can move yields higher.
+          </div>
+        </details>
         <div style="margin-top: 0.3rem;"><a href="https://home.treasury.gov/resource-center/data-chart-center/quarterly-refunding" target="_blank" style="color: #9ca3af; font-size: 0.65rem;">Source: treasury.gov</a></div>
       </div>
+
+      <!-- Curve Snapshot -->
       <div class="card" style="padding: 0.75rem; margin-bottom: 0;">
         <h3 style="font-size: 0.9rem; color: #00d4ff; margin-bottom: 0.25rem;">📈 Curve Snapshot</h3>
-        <p style="color: #9ca3af; font-size: 0.68rem; line-height: 1.35; margin-bottom: 0.5rem;">2s10s, 10s30s, and MOVE show whether term premium is steepening toward the Debait's 5.00% DGS10 bar — or easing.</p>
+        <p style="color: #9ca3af; font-size: 0.68rem; line-height: 1.35; margin-bottom: 0.5rem;">Yield curve shape and rate volatility — steepening, flattening, or calm.</p>
         <div id="curve-widget" style="display: flex; gap: 0.75rem; font-size: 0.75rem; flex-wrap: wrap;">
           <span style="color: #a8b2d1;">Coming soon — awaiting live data</span>
         </div>
-        <div style="margin-top: 0.3rem;"><span style="color: #9ca3af; font-size: 0.65rem;">Source: FRED / Yahoo</span></div>
+        <div id="curve-shape-line" style="color: #9ca3af; font-size: 0.72rem; margin-top: 0.3rem;"></div>
+        <details class="plumbing-expand" id="curve-expand">
+          <summary>What this means</summary>
+          <div class="expand-content">
+            <strong>2s10s</strong>: 10Y minus 2Y yield. Positive = normal upward-sloping curve; inverted (negative) historically signals recession risk.<br><br>
+            <strong>10s30s</strong>: Long-end term premium. Widening suggests demand for duration hedging or inflation compensation.<br><br>
+            <strong>MOVE</strong>: Treasury options implied-vol index (bond-market VIX). Low (&lt;80) = calm rate environment. Elevated (120+) = stress or uncertainty. High (150+) = crisis-level vol.
+          </div>
+        </details>
+        <div style="margin-top: 0.3rem;"><span style="color: #9ca3af; font-size: 0.65rem;">Source: Treasury.gov / Yahoo</span></div>
       </div>
+
+      <!-- COT Positioning -->
       <div class="card" style="padding: 0.75rem; margin-bottom: 0;">
         <h3 style="font-size: 0.9rem; color: #00d4ff; margin-bottom: 0.25rem;">📋 COT Positioning</h3>
-        <p style="color: #9ca3af; font-size: 0.68rem; line-height: 1.35; margin-bottom: 0.5rem;">Who is long or short duration (and BTC) — the positioning side of captivity, not another narrative recap.</p>
+        <p style="color: #9ca3af; font-size: 0.68rem; line-height: 1.35; margin-bottom: 0.5rem;">Leveraged-funds net positioning in 10Y futures and CME Bitcoin.</p>
         <div id="cot-widget" style="display: flex; gap: 0.75rem; font-size: 0.75rem; flex-wrap: wrap;">
           <span style="color: #a8b2d1;"><strong>10Y:</strong> <span style="color: #6b7280;">Coming soon</span></span>
           <span style="color: #a8b2d1;"><strong>BTC:</strong> <span style="color: #6b7280;">Coming soon</span></span>
         </div>
+        <details class="plumbing-expand" id="cot-expand">
+          <summary>What this means</summary>
+          <div class="expand-content">
+            <strong>CFTC Commitment of Traders</strong>: Leveraged funds = CTA/hedge-fund positioning. Net = long contracts minus short.<br><br>
+            <strong>10Y</strong>: Rising net long = specs adding duration. Deep net short = lean against bonds (betting yields rise).<br><br>
+            <strong>BTC</strong>: Same logic for CME Bitcoin futures — net long is bullish spec positioning.<br><br>
+            Released Fridays for prior Tuesday. Units are contracts (large numbers are normal).
+          </div>
+        </details>
         <div style="margin-top: 0.3rem;"><span style="color: #9ca3af; font-size: 0.65rem;">Source: CFTC (Fridays)</span></div>
       </div>
+
+      <!-- Compute Forward -->
       <div class="card" style="padding: 0.75rem; margin-bottom: 0;">
         <h3 style="font-size: 0.9rem; color: #00d4ff; margin-bottom: 0.25rem;">🖥️ Compute Forward</h3>
-        <p style="color: #9ca3af; font-size: 0.68rem; line-height: 1.35; margin-bottom: 0.5rem;">The rent on AI compute (not NVDA equity): sold-out spot with rising 1Y contracts is the scarcity half of the same shop.</p>
+        <p style="color: #9ca3af; font-size: 0.68rem; line-height: 1.35; margin-bottom: 0.5rem;">Surveyed GPU rental forward (not a live exchange). As-of period matters — free data lags.</p>
         <div id="compute-forward-widget" style="font-size: 0.75rem;">
           <div style="display: flex; gap: 0.75rem; flex-wrap: wrap;">
             <span style="color: #a8b2d1;"><strong>1Y:</strong> —</span>
@@ -1791,6 +1832,14 @@
             <span id="compute-forward-period">As of: —</span>
           </div>
         </div>
+        <details class="plumbing-expand">
+          <summary>What this means</summary>
+          <div class="expand-content">
+            <strong>H100 1Y contract</strong>: SemiAnalysis surveys 100+ neocloud providers and buyers monthly.<br><br>
+            <strong>Sold Out</strong>: On-demand spot unavailable — scarcity signal.<br><br>
+            Data lags several months. Trend direction matters more than absolute price.
+          </div>
+        </details>
         <div style="margin-top: 0.3rem;"><a href="https://gpu-index.semianalysis.com/" target="_blank" style="color: #9ca3af; font-size: 0.65rem;">Source: SemiAnalysis (surveyed index)</a></div>
       </div>
     </div>
@@ -2254,40 +2303,77 @@
 
         // Update Treasury widget
         const treasuryEl = document.getElementById('treasury-widget');
-        if (treasuryEl && data.treasury_calendar && data.treasury_calendar.next_refunding_announcement) {
-          const qra = data.treasury_calendar.next_refunding_announcement;
-          if (qra.date) {
-            treasuryEl.innerHTML = '<span style="color: #e8e8e8;">Next QRA: <strong>' + qra.date + '</strong></span> <span style="color: #9ca3af; font-size: 0.7rem;">(' + (qra.status || 'est.') + ')</span>';
+        if (treasuryEl && data.treasury_calendar) {
+          const tc = data.treasury_calendar;
+          const qra = tc.next_refunding_announcement;
+          const auctions = tc.upcoming_auctions || [];
+          
+          let html = '';
+          if (qra && qra.date) {
+            html += '<div style="margin-bottom: 0.4rem;"><span style="color: #a8b2d1;">Next QRA:</span> <span class="plumbing-num">' + qra.date + '</span> <span style="color: #6b7280; font-size: 0.65rem;">(' + (qra.status || 'est.') + ')</span></div>';
+          }
+          
+          if (auctions.length > 0) {
+            const nextThree = auctions.slice(0, 3);
+            const auctionLines = nextThree.map(function(a) {
+              const size = a.size_billions ? '<span class="plumbing-num-sm">$' + a.size_billions + 'B</span>' : '';
+              return '<div style="font-size: 0.72rem; color: #a8b2d1; margin-bottom: 0.15rem;">' + a.date + ': ' + a.security + ' ' + size + '</div>';
+            }).join('');
+            html += auctionLines;
+          }
+          
+          if (html) {
+            treasuryEl.innerHTML = html;
           }
         }
 
-        // Update Curve widget
+        // Update Curve widget with steep/flat logic and MOVE explanation
         const curveEl = document.getElementById('curve-widget');
+        const curveShapeEl = document.getElementById('curve-shape-line');
         if (curveEl && data.curve_data) {
           const spreads = data.curve_data.spreads || {};
           const s2s10s = spreads['2s10s'];
           const s10s30s = spreads['10s30s'];
           const move = data.curve_data.move_index;
 
-          const v2s10s = s2s10s && s2s10s.value_bps != null ? s2s10s.value_bps + 'bp' : null;
-          const v10s30s = s10s30s && s10s30s.value_bps != null ? s10s30s.value_bps + 'bp' : null;
-          const vMove = move && move.value != null ? move.value : null;
+          const v2s10sBps = s2s10s && s2s10s.value_bps != null ? s2s10s.value_bps : null;
+          const v10s30sBps = s10s30s && s10s30s.value_bps != null ? s10s30s.value_bps : null;
+          const vMoveVal = move && move.value != null ? move.value : null;
           
           // Check if we have any live data
-          if (v2s10s != null || v10s30s != null || vMove != null) {
+          if (v2s10sBps != null || v10s30sBps != null || vMoveVal != null) {
             let parts = [];
-            if (v2s10s != null) {
-              parts.push('<span style="color: #a8b2d1;"><strong>2s10s:</strong> ' + v2s10s + '</span>');
+            if (v2s10sBps != null) {
+              parts.push('<span style="color: #a8b2d1;"><strong>2s10s:</strong> <span class="plumbing-num">' + v2s10sBps + 'bp</span></span>');
             }
-            if (v10s30s != null) {
-              parts.push('<span style="color: #a8b2d1;"><strong>10s30s:</strong> ' + v10s30s + '</span>');
+            if (v10s30sBps != null) {
+              parts.push('<span style="color: #a8b2d1;"><strong>10s30s:</strong> <span class="plumbing-num">' + v10s30sBps + 'bp</span></span>');
             }
-            if (vMove != null) {
-              parts.push('<span style="color: #a8b2d1;"><strong>MOVE:</strong> ' + vMove + '</span>');
+            if (vMoveVal != null) {
+              // MOVE level interpretation
+              let moveLabel = '';
+              let moveColor = '#9ca3af';
+              if (vMoveVal < 80) { moveLabel = 'low'; moveColor = '#10b981'; }
+              else if (vMoveVal < 120) { moveLabel = 'normal'; moveColor = '#9ca3af'; }
+              else if (vMoveVal < 150) { moveLabel = 'elevated'; moveColor = '#f59e0b'; }
+              else { moveLabel = 'high'; moveColor = '#ef4444'; }
+              parts.push('<span style="color: #a8b2d1;"><strong>MOVE:</strong> <span class="plumbing-num" style="color: ' + moveColor + ';">' + vMoveVal + '</span> <span style="font-size: 0.68rem; color: ' + moveColor + ';">(' + moveLabel + ')</span></span>');
             }
             curveEl.innerHTML = parts.join('');
+            
+            // Curve shape line: steepener/flattener based on 2s10s
+            if (curveShapeEl && v2s10sBps != null) {
+              let shapeText = '';
+              if (v2s10sBps > 0) {
+                shapeText = '📈 Curve upward-sloping (2s10s +' + v2s10sBps + 'bp)';
+              } else if (v2s10sBps < 0) {
+                shapeText = '📉 Curve inverted (2s10s ' + v2s10sBps + 'bp)';
+              } else {
+                shapeText = 'Curve flat (2s10s at 0)';
+              }
+              curveShapeEl.innerHTML = shapeText;
+            }
           } else {
-            // No live data - show Coming soon (card stays visible)
             curveEl.innerHTML = '<span style="color: #a8b2d1;">Coming soon — awaiting live data</span>';
           }
         }
@@ -2299,25 +2385,33 @@
           const cot = data.cftc_cot || {};
           const isStale = cot._stale === true;
           
-          // Format net position: +123K / -45K / "Coming soon" if null
-          function formatNet(net) {
-            if (net === null || net === undefined) return '<span style="color: #6b7280;">Coming soon</span>';
-            // Convert to K (thousands) for display
-            const netK = Math.round(net / 1000);
-            const sign = netK > 0 ? '+' : '';
-            return '<span style="color: ' + (netK > 0 ? '#10b981' : netK < 0 ? '#ef4444' : '#a8b2d1') + ';">' + sign + netK + 'K</span>';
+          // Format net position: +1.2M / -456K / "Coming soon" if null
+          // Uses M for millions, K for thousands; tooltip shows exact number
+          function formatNet(net, label) {
+            if (net === null || net === undefined) return { html: '<span style="color: #6b7280;">Coming soon</span>', tooltip: '' };
+            const absNet = Math.abs(net);
+            const sign = net > 0 ? '+' : '';
+            const color = net > 0 ? '#10b981' : net < 0 ? '#ef4444' : '#a8b2d1';
+            let display;
+            if (absNet >= 1000000) {
+              display = sign + (net / 1000000).toFixed(1) + 'M';
+            } else {
+              display = sign + Math.round(net / 1000) + 'K';
+            }
+            const tooltip = label + ': ' + net.toLocaleString() + ' contracts net (' + (net > 0 ? 'long' : net < 0 ? 'short' : 'flat') + ')';
+            return { html: '<span class="plumbing-num" style="color: ' + color + ';" title="' + tooltip + '">' + display + '</span>', tooltip: tooltip };
           }
           
-          let v10y = '<span style="color: #6b7280;">Coming soon</span>';
-          let vBtc = '<span style="color: #6b7280;">Coming soon</span>';
+          let v10y = { html: '<span style="color: #6b7280;">Coming soon</span>', tooltip: '' };
+          let vBtc = { html: '<span style="color: #6b7280;">Coming soon</span>', tooltip: '' };
 
           if (cot.rates_positioning && cot.rates_positioning['10y_note']) {
             const net = cot.rates_positioning['10y_note'].leveraged_funds_net;
-            v10y = formatNet(net);
+            v10y = formatNet(net, '10Y leveraged funds');
           }
           if (cot.btc_positioning && cot.btc_positioning.cme_btc) {
             const net = cot.btc_positioning.cme_btc.leveraged_funds_net;
-            vBtc = formatNet(net);
+            vBtc = formatNet(net, 'BTC leveraged funds');
           }
 
           // Format report date for display (e.g., "2026-08-25" → "Aug 25")
@@ -2333,13 +2427,13 @@
           }
 
           // Build display with report date and stale indicator; never hide card
-          let html = '<span style="color: #a8b2d1;"><strong>10Y:</strong> ' + v10y + '</span>';
-          html += '<span style="color: #a8b2d1;"><strong>BTC:</strong> ' + vBtc + '</span>';
+          let html = '<span style="color: #a8b2d1;"><strong>10Y:</strong> ' + v10y.html + '</span>';
+          html += '<span style="color: #a8b2d1; margin-left: 0.5rem;"><strong>BTC:</strong> ' + vBtc.html + '</span>';
           
           // Show report date if available (positions as of this date)
           const reportDate = formatReportDate(cot.report_date);
           if (reportDate) {
-            html += '<span style="color: #6b7280; font-size: 0.65rem; margin-left: 0.3rem;">(as of ' + reportDate + ')</span>';
+            html += '<span style="color: #6b7280; font-size: 0.65rem; margin-left: 0.5rem;">(as of ' + reportDate + ')</span>';
           }
           
           if (isStale) {
@@ -2417,10 +2511,10 @@
             '</div>';
           }
           
-          // Build the widget content
+          // Build the widget content - use plumbing-num for key values
           computeEl.innerHTML = 
             '<div style="display: flex; gap: 0.75rem; flex-wrap: wrap;">' +
-              '<span style="color: #a8b2d1;"><strong>1Y:</strong> ' + v1y + '</span>' +
+              '<span style="color: #a8b2d1;"><strong>1Y:</strong> <span class="plumbing-num">' + v1y + '</span></span>' +
               '<span style="color: #a8b2d1;"><strong>Spot:</strong> ' + vSpot + '</span>' +
               '<span style="color: #a8b2d1;"><strong>Trend:</strong> ' + vTrend + '</span>' +
             '</div>' +
