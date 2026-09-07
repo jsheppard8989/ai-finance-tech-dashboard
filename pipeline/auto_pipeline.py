@@ -326,14 +326,44 @@ def aggregate_scores():
     return len(scores)
 
 
+def _load_main_insight_pins() -> list[int]:
+    """Optional pinned insight IDs from pipeline/main_insight_pins.json (shop-visible main list)."""
+    pin_path = PIPELINE_DIR / "main_insight_pins.json"
+    if not pin_path.exists():
+        return []
+    try:
+        data = json.loads(pin_path.read_text())
+    except Exception as e:
+        print(f"  ⚠ Could not read {pin_path.name}: {e}")
+        return []
+    raw = data.get("pinned_insight_ids") or data.get("pins") or []
+    pins: list[int] = []
+    for x in raw:
+        try:
+            pins.append(int(x))
+        except (TypeError, ValueError):
+            continue
+    # Preserve file order; drop dupes
+    seen = set()
+    out = []
+    for iid in pins:
+        if iid not in seen:
+            seen.add(iid)
+            out.append(iid)
+    return out
+
+
 def sync_main_insights_with_deepdives(max_on_main: int = 8) -> int:
     """Turn on main-page display only for insights that already have Deep Dive content.
 
-    Clears display_on_main for all non-archived rows, then enables the top ``max_on_main``
-    by source_date among insights that have a ``deep_dive_content`` row. Aligns
-    ``podcast_episodes.added_to_site`` with whether the episode is on the main insight list.
+    Clears display_on_main for all non-archived rows, then enables up to ``max_on_main``
+    insights that have a ``deep_dive_content`` row. Selection order:
+      1) pinned IDs from ``pipeline/main_insight_pins.json`` (if they still have Deep Dives)
+      2) remaining slots by source_date DESC, id DESC
+    Aligns ``podcast_episodes.added_to_site`` with whether the episode is on the main insight list.
     """
     db = get_db()
+    pinned = _load_main_insight_pins()
     with db._get_connection() as conn:
         conn.execute(
             """
@@ -341,17 +371,48 @@ def sync_main_insights_with_deepdives(max_on_main: int = 8) -> int:
             WHERE archived_date IS NULL
             """
         )
-        rows = conn.execute(
-            """
-            SELECT li.id FROM latest_insights li
-            INNER JOIN deep_dive_content ddc ON ddc.insight_id = li.id
-            WHERE li.archived_date IS NULL
-            ORDER BY li.source_date DESC, li.id DESC
-            LIMIT ?
-            """,
-            (max_on_main,),
-        ).fetchall()
-        main_ids = [int(r["id"]) for r in rows]
+        main_ids: list[int] = []
+        if pinned:
+            ph = ",".join("?" * len(pinned))
+            # Keep pin file order, but only if deep dive exists and not archived
+            rows = conn.execute(
+                f"""
+                SELECT li.id FROM latest_insights li
+                INNER JOIN deep_dive_content ddc ON ddc.insight_id = li.id
+                WHERE li.archived_date IS NULL AND li.id IN ({ph})
+                """,
+                pinned,
+            ).fetchall()
+            have = {int(r["id"]) for r in rows}
+            for iid in pinned:
+                if iid in have and len(main_ids) < max_on_main:
+                    main_ids.append(iid)
+            missing = [i for i in pinned if i not in have]
+            if missing:
+                print(f"  ⚠ Pin(s) skipped (no Deep Dive or archived): {missing}")
+
+        remaining = max_on_main - len(main_ids)
+        if remaining > 0:
+            exclude_sql = ""
+            params: list = []
+            if main_ids:
+                ph = ",".join("?" * len(main_ids))
+                exclude_sql = f"AND li.id NOT IN ({ph})"
+                params.extend(main_ids)
+            params.append(remaining)
+            rows = conn.execute(
+                f"""
+                SELECT li.id FROM latest_insights li
+                INNER JOIN deep_dive_content ddc ON ddc.insight_id = li.id
+                WHERE li.archived_date IS NULL
+                {exclude_sql}
+                ORDER BY li.source_date DESC, li.id DESC
+                LIMIT ?
+                """,
+                params,
+            ).fetchall()
+            main_ids.extend(int(r["id"]) for r in rows)
+
         for iid in main_ids:
             conn.execute(
                 "UPDATE latest_insights SET display_on_main = 1 WHERE id = ?",
@@ -371,7 +432,7 @@ def sync_main_insights_with_deepdives(max_on_main: int = 8) -> int:
             )
             """
         )
-    print(f"  ✓ Main insight list synced with Deep Dives ({len(main_ids)} on main)")
+    print(f"  ✓ Main insight list synced with Deep Dives ({len(main_ids)} on main; pins={pinned})")
     return len(main_ids)
 
 

@@ -1,0 +1,12 @@
+{
+  "description": "Insight IDs forced onto the main Latest Insights list (max 8 total). Pins consume slots first; remaining slots fill by source_date DESC among insights that have deep_dive_content. Used by sync_main_insights_with_deepdives.",
+  "pinned_insight_ids": [
+    465,
+    468
+  ],
+  "notes": [
+    "465 = Dwarkesh / Ajeya Cotra (episode 450, 2026-09-01)",
+    "468 = Macro Voices #548 / Dr. Carly Anderson (episode 453, 2026-09-03)",
+    "Pinned because auto deep-dives exist but recency-only main-8 selection dropped them off the shop-visible list."
+  ]
+}
