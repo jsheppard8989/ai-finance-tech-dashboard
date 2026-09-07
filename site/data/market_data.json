@@ -1,7 +1,7 @@
 {
   "_comment": "First-class market data objects for the idea radar. Treasury auctions, curve snapshots, and positioning data.",
   "_updated": "2026-09-07",
-  "_data_status": "stub_awaiting_live_fetch",
+  "_data_status": "live",
   "schema_version": 1,
   "treasury_calendar": {
     "_comment": "Treasury refunding and auction calendar. Source: treasury.gov. Tony: set up fetch from https://home.treasury.gov/resource-center/data-chart-center/quarterly-refunding",
