@@ -473,6 +473,45 @@ def fetch_and_parse() -> tuple[Optional[Dict[str, Any]], str]:
     return result, ""
 
 
+def _rollup_data_status(market_data: Dict[str, Any]) -> str:
+    """
+    Compute top-level _data_status from individual data_fetch_status values.
+    
+    Returns:
+        'live'    - All automated sections are live
+        'partial' - Some sections are live, others stale or stub
+        'stale'   - All automated sections are stale
+        'stub'    - No sections have live data yet
+    """
+    status = market_data.get('data_fetch_status', {})
+    # Key automated sections (treasury_calendar is manual/stub for now)
+    auto_sections = ['curve_data', 'cftc_cot', 'compute_forward']
+    
+    live_count = 0
+    stale_count = 0
+    stub_count = 0
+    
+    for section in auto_sections:
+        val = status.get(section, 'stub')
+        if val == 'live':
+            live_count += 1
+        elif val == 'stale':
+            stale_count += 1
+        else:
+            stub_count += 1
+    
+    total = len(auto_sections)
+    
+    if live_count == total:
+        return 'live'
+    elif live_count > 0:
+        return 'partial'
+    elif stale_count > 0:
+        return 'stale'
+    else:
+        return 'stub'
+
+
 def mark_data_stale(error_reason: str) -> bool:
     """
     Mark existing compute_forward data as stale without overwriting it.
@@ -494,6 +533,9 @@ def mark_data_stale(error_reason: str) -> bool:
         
         if 'data_fetch_status' in market_data:
             market_data['data_fetch_status']['compute_forward'] = 'stale'
+        
+        # Roll up _data_status based on individual section statuses
+        market_data['_data_status'] = _rollup_data_status(market_data)
         
         with open(MARKET_DATA_FILE, 'w') as f:
             json.dump(market_data, f, indent=2)
@@ -520,6 +562,8 @@ def update_market_data(gpu_data: Dict[str, Any]) -> bool:
         if 'data_fetch_status' in market_data:
             market_data['data_fetch_status']['compute_forward'] = 'live'
         
+        # Roll up _data_status based on individual section statuses
+        market_data['_data_status'] = _rollup_data_status(market_data)
         market_data['_updated'] = datetime.now().strftime('%Y-%m-%d')
         
         with open(MARKET_DATA_FILE, 'w') as f:
