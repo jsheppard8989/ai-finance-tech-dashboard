@@ -3,80 +3,80 @@
 
 const dashboardData = {
   schemaVersion: 2,
-  generatedAt: "2026-09-07T05:16:52.386715",
-  chartsVersion: "2026-09-07T05:16:36.162721",
+  generatedAt: "2026-09-07T06:51:23.236069",
+  chartsVersion: "2026-09-07T06:51:14.105353",
   priceSnapshot: {
   "GOOGL": {
     "price": 338.46,
     "change_pct": -1.6,
     "name": "GOOGL",
-    "updated_at": "2026-09-07T05:16:36.161835"
+    "updated_at": "2026-09-07T06:51:14.104850"
   },
   "NVDA": {
     "price": 230.36,
     "change_pct": 4.83,
     "name": "NVDA",
-    "updated_at": "2026-09-07T05:16:36.161852"
+    "updated_at": "2026-09-07T06:51:14.104860"
   },
   "TSLA": {
     "price": 354.08,
     "change_pct": 5.11,
     "name": "TSLA",
-    "updated_at": "2026-09-07T05:16:36.161859"
+    "updated_at": "2026-09-07T06:51:14.104864"
   },
   "MSFT": {
     "price": 499.7,
     "change_pct": 3.95,
     "name": "MSFT",
-    "updated_at": "2026-09-07T05:16:36.161864"
+    "updated_at": "2026-09-07T06:51:14.104867"
   },
   "BTC": {
-    "price": 79395.01,
-    "change_pct": 1.06,
+    "price": 79390.43,
+    "change_pct": 1.05,
     "name": "BTC",
-    "updated_at": "2026-09-07T05:16:36.161871"
+    "updated_at": "2026-09-07T06:51:14.104871"
   },
   "AMZN": {
     "price": 258.51,
     "change_pct": -0.36,
     "name": "AMZN",
-    "updated_at": "2026-09-07T05:16:36.161877"
+    "updated_at": "2026-09-07T06:51:14.104875"
   },
   "META": {
     "price": 616.77,
     "change_pct": 13.45,
     "name": "META",
-    "updated_at": "2026-09-07T05:16:36.161883"
+    "updated_at": "2026-09-07T06:51:14.104879"
   },
   "WTI": {
     "price": 3.82,
     "change_pct": 0.0,
     "name": "WTI",
-    "updated_at": "2026-09-07T05:16:36.161889"
+    "updated_at": "2026-09-07T06:51:14.104881"
   },
   "S&P 500": {
     "price": 770.19,
     "change_pct": 0.36,
     "name": "S&P 500",
-    "updated_at": "2026-09-07T05:16:36.161894"
+    "updated_at": "2026-09-07T06:51:14.104885"
   },
   "AAPL": {
     "price": 319.97,
     "change_pct": 3.21,
     "name": "AAPL",
-    "updated_at": "2026-09-07T05:16:36.161901"
+    "updated_at": "2026-09-07T06:51:14.104888"
   },
   "QQQ": {
     "price": 718.96,
     "change_pct": 0.2,
     "name": "Invesco QQQ Trust",
-    "updated_at": "2026-09-07T05:16:36.161907"
+    "updated_at": "2026-09-07T06:51:14.104891"
   },
   "BTC-USD": {
-    "price": 79395.01,
-    "change_pct": 1.06,
+    "price": 79390.43,
+    "change_pct": 1.05,
     "name": "Bitcoin USD",
-    "updated_at": "2026-09-07T05:16:36.161913"
+    "updated_at": "2026-09-07T06:51:14.104895"
   }
 },
   tickerScores: [
@@ -834,6 +834,25 @@ const dashboardData = {
   archive: {
   "insights": [
     {
+      "id": 477,
+      "title": "Can Open Source Keep AI Power From Concentrating?",
+      "source_type": "podcast",
+      "source_name": "The a16z Show",
+      "source_date": "2026-09-07",
+      "summary": "This episode of The a16z Show explores whether open source AI can prevent the concentration of AI power among a few large technology companies. Host Sophia Dew interviews Lukasz Kaiser, co-author of the foundational 'Attention Is All You Need' paper, who argues that the current resource-intensive nature of AI training is a temporary technological limitation rather than an inevitable feature of AI development. Kaiser contends that transformers, while powerful, are less than a decade old and require enormous amounts of data and compute to perform well as generalists. He draws an analogy to human cognition, where distributed expertise and smaller, specialized knowledge domains produce superior outcomes. The discussion examines how the current 'bigger is better' approach benefits well-capitalized incumbents but may shift as research breakthroughs enable more efficient training paradigms. Kaiser expresses optimism that algorithmic innovation, potentially emerging from academia and open source movements, will democratize AI development by enabling smaller models trained on less data to achieve expert-level performance in specific domains.",
+      "key_takeaway": "The AI infrastructure landscape may undergo significant decentralization as algorithmic breakthroughs reduce dependence on hyperscaler-scale compute, creating investment opportunities in edge computing, specialized AI chips, and open-source ecosystem enablers while potentially compressing returns for pure scale-based incumbents.",
+      "tickers_mentioned": [
+        "NVDA"
+      ],
+      "sentiment": "neutral",
+      "display_on_main": 1,
+      "display_order": 0,
+      "added_date": "2026-09-07",
+      "archived_date": null,
+      "archived_reason": null,
+      "podcast_episode_id": 462
+    },
+    {
       "id": 475,
       "title": "Your AI Doctor Is Coming | Julie Yoo",
       "source_type": "podcast",
@@ -980,7 +999,7 @@ const dashboardData = {
         "NVDA"
       ],
       "sentiment": "bullish",
-      "display_on_main": 1,
+      "display_on_main": 0,
       "display_order": 0,
       "added_date": "2026-09-04",
       "archived_date": null,
@@ -10498,20 +10517,20 @@ const dashboardData = {
     {
       "id": 252,
       "term": "AI Commoditization",
-      "description": "The trend toward AI model capabilities becoming widely available and price-competitive, reducing differentiation at the base model layer.",
+      "description": "The potential for AI capabilities to become widely available and undifferentiated across providers due to open-source alternatives and algorithmic efficiency gains, eroding pricing power of incumbent model providers.",
       "first_detected_date": "2026-06-15",
-      "last_mentioned_date": "2026-09-05",
-      "mention_count": 6,
+      "last_mentioned_date": "2026-09-07",
+      "mention_count": 7,
       "source_podcasts": null,
       "status": "active",
-      "investment_implications": "Shifts investment focus from model creators to orchestration platforms, application layers, and proprietary data moats.",
+      "investment_implications": "Commoditization pressures may compress margins for generalist model providers while creating demand for differentiation through specialization, data moats, and vertical-specific applications.",
       "display_on_main": 1,
       "archived_date": null,
       "archived_reason": null,
       "first_detected_episode_id": 286,
       "first_detected_speaker": "Jack Farley (hosts)",
-      "last_mentioned_episode_id": 458,
-      "last_mentioned_speaker": "Aaron Levy"
+      "last_mentioned_episode_id": 462,
+      "last_mentioned_speaker": "Lukasz Kaiser"
     },
     {
       "id": 248,
@@ -11542,20 +11561,20 @@ const dashboardData = {
     {
       "id": 78,
       "term": "Open-Source AI Models",
-      "description": "AI models with publicly available weights that can be downloaded, modified, and deployed locally, enabling customization and reducing vendor lock-in.",
+      "description": "AI models whose weights, architecture, and often training data are publicly available, enabling modification, fine-tuning, and deployment without dependency on proprietary API providers.",
       "first_detected_date": "2026-03-29",
-      "last_mentioned_date": "2026-09-05",
-      "mention_count": 22,
+      "last_mentioned_date": "2026-09-07",
+      "mention_count": 23,
       "source_podcasts": null,
       "status": "active",
-      "investment_implications": "Critical infrastructure layer for national competitiveness and enterprise flexibility; reduces dependency on single closed providers.",
+      "investment_implications": "Open-source models may commoditize foundation model layers and shift value capture to application layers, infrastructure tooling, and specialized downstream implementations.",
       "display_on_main": 0,
       "archived_date": null,
       "archived_reason": null,
       "first_detected_episode_id": null,
       "first_detected_speaker": null,
-      "last_mentioned_episode_id": 458,
-      "last_mentioned_speaker": "Aaron Levy"
+      "last_mentioned_episode_id": 462,
+      "last_mentioned_speaker": "Lukasz Kaiser"
     },
     {
       "id": 79,
@@ -12208,20 +12227,20 @@ const dashboardData = {
     {
       "id": 48,
       "term": "Big Blob of Compute Hypothesis",
-      "description": "The observation that scaling advanced AI models is primarily constrained by available training compute rather than algorithmic or data limitations, implying infrastructure investments directly enable capability jumps.",
+      "description": "The prevailing paradigm that AI capability scales primarily through centralized, massive compute clusters training monolithic models on internet-scale data, favoring capital-rich incumbents.",
       "first_detected_date": "2026-02-19",
-      "last_mentioned_date": "2026-09-04",
-      "mention_count": 3,
+      "last_mentioned_date": "2026-09-07",
+      "mention_count": 4,
       "source_podcasts": null,
       "status": "active",
-      "investment_implications": "Validates long positions in compute infrastructure and efficient training methodologies as levered bets on model capability advancement.",
+      "investment_implications": "If this hypothesis proves transient rather than fundamental, capital allocation to hyperscaler AI infrastructure may face diminishing returns while efficient-algorithm bets generate asymmetric upside.",
       "display_on_main": 0,
       "archived_date": null,
       "archived_reason": null,
       "first_detected_episode_id": 81,
       "first_detected_speaker": null,
-      "last_mentioned_episode_id": 452,
-      "last_mentioned_speaker": "Justin Johnson, Ben Milton Hall"
+      "last_mentioned_episode_id": 462,
+      "last_mentioned_speaker": "Lukasz Kaiser"
     },
     {
       "id": 52,
@@ -12298,20 +12317,20 @@ const dashboardData = {
     {
       "id": 13,
       "term": "Compute Deflation Trade",
-      "description": "The investment thesis built around the 400x AI compute cost collapse: identifying who wins (inference-at-scale platforms, edge AI hardware) and who loses (legacy SaaS companies whose moats were priced assuming expensive AI).",
+      "description": "The investment thesis that algorithmic innovation and hardware advancement will reduce the effective cost of AI computation faster than demand grows, enabling new use cases and market entrants.",
       "first_detected_date": "2026-02-15",
-      "last_mentioned_date": "2026-02-15",
-      "mention_count": 3,
+      "last_mentioned_date": "2026-09-07",
+      "mention_count": 4,
       "source_podcasts": null,
       "status": "active",
-      "investment_implications": "Long inference infrastructure and edge AI; short or underweight legacy SaaS with AI-priced multiples that cannot defend margin as compute commoditizes.",
+      "investment_implications": "Positioning for compute deflation favors companies with variable cost structures, edge deployment capabilities, and software leverage over those with fixed-cost hyperscaler dependencies.",
       "display_on_main": 0,
       "archived_date": null,
       "archived_reason": null,
       "first_detected_episode_id": null,
       "first_detected_speaker": null,
-      "last_mentioned_episode_id": null,
-      "last_mentioned_speaker": null
+      "last_mentioned_episode_id": 462,
+      "last_mentioned_speaker": "Lukasz Kaiser"
     },
     {
       "id": 14,
@@ -12395,6 +12414,26 @@ const dashboardData = {
 },
   mainContent: {
   "insights": [
+    {
+      "id": 477,
+      "title": "Can Open Source Keep AI Power From Concentrating?",
+      "source_type": "podcast",
+      "source_name": "The a16z Show",
+      "source_date": "2026-09-07",
+      "summary": "This episode of The a16z Show explores whether open source AI can prevent the concentration of AI power among a few large technology companies. Host Sophia Dew interviews Lukasz Kaiser, co-author of the foundational 'Attention Is All You Need' paper, who argues that the current resource-intensive nature of AI training is a temporary technological limitation rather than an inevitable feature of AI development. Kaiser contends that transformers, while powerful, are less than a decade old and require enormous amounts of data and compute to perform well as generalists. He draws an analogy to human cognition, where distributed expertise and smaller, specialized knowledge domains produce superior outcomes. The discussion examines how the current 'bigger is better' approach benefits well-capitalized incumbents but may shift as research breakthroughs enable more efficient training paradigms. Kaiser expresses optimism that algorithmic innovation, potentially emerging from academia and open source movements, will democratize AI development by enabling smaller models trained on less data to achieve expert-level performance in specific domains.",
+      "key_takeaway": "The AI infrastructure landscape may undergo significant decentralization as algorithmic breakthroughs reduce dependence on hyperscaler-scale compute, creating investment opportunities in edge computing, specialized AI chips, and open-source ecosystem enablers while potentially compressing returns for pure scale-based incumbents.",
+      "tickers_mentioned": "[\"NVDA\"]",
+      "sentiment": "neutral",
+      "display_on_main": 1,
+      "display_order": 0,
+      "added_date": "2026-09-07",
+      "archived_date": null,
+      "archived_reason": null,
+      "podcast_episode_id": 462,
+      "episode_release_date": "2026-09-07",
+      "guest_name": null,
+      "key_tickers": []
+    },
     {
       "id": 475,
       "title": "Your AI Doctor Is Coming | Julie Yoo",
@@ -12520,26 +12559,6 @@ const dashboardData = {
         "GOOGL",
         "MSFT"
       ]
-    },
-    {
-      "id": 468,
-      "title": "MacroVoices #548 Dr. Carly Anderson: Emerging Energy Technologies Roundup",
-      "source_type": "podcast",
-      "source_name": "Macro Voices",
-      "source_date": "2026-09-03",
-      "summary": "This episode of Macro Voices explores the accelerating nuclear renaissance driven by surging electricity demand from AI data centers and hyperscalers. Dr. Carley Anderson details how long-term power purchase agreements (PPAs) from tech giants are creating the financing foundation for new nuclear deployment, while mass production techniques aim to reduce reactor construction timelines from years to months. The discussion covers advanced nuclear applications in military, remote mining, and data center markets; regulatory progress including NRC Part 57; and critical supply chain innovations in fuel enrichment. Additional segments examine supercritical CO2 turbines for 50%+ thermal efficiency, silicon carbide power electronics, robotics for hazardous environments, and the competitive threat from China's 5-10 GW annual nuclear buildout. The episode frames nuclear as both an AI-enabling infrastructure play and a geopolitical imperative for US energy security.",
-      "key_takeaway": "The convergence of AI-driven power demand and small modular reactor commercialization creates a multi-decade nuclear infrastructure investment cycle, with early returns captured by companies securing hyperscaler PPAs, manufacturing standardized reactor components, and innovating in fuel enrichment and power conversion technologies.",
-      "tickers_mentioned": "[\"NVDA\"]",
-      "sentiment": "bullish",
-      "display_on_main": 1,
-      "display_order": 0,
-      "added_date": "2026-09-04",
-      "archived_date": null,
-      "archived_reason": null,
-      "podcast_episode_id": 453,
-      "episode_release_date": "2026-09-03",
-      "guest_name": null,
-      "key_tickers": []
     },
     {
       "id": 469,
@@ -12912,30 +12931,30 @@ const dashboardData = {
     {
       "id": 252,
       "term": "AI Commoditization",
-      "description": "The trend toward AI model capabilities becoming widely available and price-competitive, reducing differentiation at the base model layer.",
+      "description": "The potential for AI capabilities to become widely available and undifferentiated across providers due to open-source alternatives and algorithmic efficiency gains, eroding pricing power of incumbent model providers.",
       "first_detected_date": "2026-06-15",
-      "last_mentioned_date": "2026-09-05",
-      "mention_count": 6,
+      "last_mentioned_date": "2026-09-07",
+      "mention_count": 7,
       "source_podcasts": null,
       "status": "active",
-      "investment_implications": "Shifts investment focus from model creators to orchestration platforms, application layers, and proprietary data moats.",
+      "investment_implications": "Commoditization pressures may compress margins for generalist model providers while creating demand for differentiation through specialization, data moats, and vertical-specific applications.",
       "display_on_main": 1,
       "archived_date": null,
       "archived_reason": null,
       "first_detected_episode_id": 286,
       "first_detected_speaker": "Jack Farley (hosts)",
-      "last_mentioned_episode_id": 458,
-      "last_mentioned_speaker": "Aaron Levy",
-      "novelty_score": 1.6952,
-      "overton_score": 1.6952,
-      "resonance_pct": 72,
+      "last_mentioned_episode_id": 462,
+      "last_mentioned_speaker": "Lukasz Kaiser",
+      "novelty_score": 1.7694,
+      "overton_score": 1.7694,
+      "resonance_pct": 73,
       "is_established": false,
       "first_detected_podcast": "Monetary Matters with Jack Farley",
       "first_detected_episode_title": "Regulatory Risk is Coming For AI | David Woo on AI Data Center CapEx and Iran War",
       "first_detected_episode_date": "2026-06-15",
       "last_mentioned_podcast": "The a16z Show",
-      "last_mentioned_episode_title": "Aaron Levie on Why Open AI Wins",
-      "last_mentioned_episode_date": "2026-09-05"
+      "last_mentioned_episode_title": "Can Open Source Keep AI Power From Concentrating?",
+      "last_mentioned_episode_date": "2026-09-07"
     },
     {
       "id": 262,
@@ -40654,6 +40673,44 @@ const dashboardData = {
     "source_name": "Monetary Matters with Jack Farley",
     "source_date": "2026-09-06",
     "key_tickers": []
+  },
+  "477": {
+    "id": 466,
+    "insight_id": 477,
+    "podcast_episode_id": 462,
+    "overview": "The discussion highlights that the AI training landscape is not just about scale but also about innovation dynamics and investment patterns that might evolve as smaller, specialized models gain traction. Research breakthroughs in model design could lead to decreased reliance on massive computing resources, suggesting that companies capable of adapting their architectures or founding new approaches may not only disrupt larger incumbents but also reshape market valuations and competitive landscapes. The financial implications of this potential decentralization could prompt venture capital to flow toward startups focused on open-source AI tools, algorithmic efficiency, and edge computing solutions, diversifying investment portfolios in the tech sector significantly.",
+    "key_takeaways_detailed": [],
+    "investment_thesis": "If the thesis holds true, investors may find opportunities in decentralized AI frameworks and companies associated with developing smaller, efficient models. A successful emergence of algorithmically sophisticated yet resource-efficient AI could culminate in a shift in the balance of power, benefiting early investors in open-source tools and edge computing technologies within the next 3-5 years. Conversely, if traditional models continue to dominate and expand, the growth narrative for these smaller ventures may falter, leading to diminished returns.",
+    "ticker_analysis": {
+      "NVDA": {
+        "rationale": "NVIDIA stands out as the cleanest expression of the idea due to its critical role in supplying high-performance computing resources needed for AI development.",
+        "positioning": "",
+        "risk": ""
+      }
+    },
+    "positioning_guidance": "",
+    "risk_factors": [],
+    "contrarian_signals": [],
+    "catalysts": [],
+    "related_insights": null,
+    "audio_timestamp_start": null,
+    "audio_timestamp_end": null,
+    "transcript_excerpt": null,
+    "created_at": "2026-09-07T06:50:11.142013",
+    "updated_at": "2026-09-07 11:50:11",
+    "episode_evidence": "Host: 'Sophia explores where AI power is actually concentrating, what openness can change, and what it still leaves unsolved.'\nGuest: 'If you look at the world, it's, it's humans are the most amazing computers in the world, right? Our brains are still unmatched by the models.'",
+    "falsification_tracks": [
+      "A significant breakthrough in creating a general model that vastly outperforms smaller, specialized models using traditional methods.",
+      "Major regulatory changes that impose stringent controls over open-source AI development, stifling innovation and market entry.",
+      "A prolonged period where no new effective training paradigms emerge, reinforcing the status quo of existing large models.",
+      "Increased compute costs or supply chain constraints that prevent smaller companies from accessing necessary resources for AI development.",
+      "Market data indicating a sustained preference for large-scale AI models over specialized ones, showing a clear return on investment for hyperscale companies."
+    ],
+    "schema_version": 2,
+    "insight_title": "Can Open Source Keep AI Power From Concentrating?",
+    "source_name": "The a16z Show",
+    "source_date": "2026-09-07",
+    "key_tickers": []
   }
 },
   suggestedTerms: [
@@ -40708,7 +40765,7 @@ const dashboardData = {
 ],
   podcastGuests: [
   {
-    "id": 64335,
+    "id": 64425,
     "name": "Your AI Doctor Is Coming",
     "slug": "your-ai-doctor-is-coming",
     "bio": null,
@@ -40720,7 +40777,7 @@ const dashboardData = {
     "appearance_count": 1
   },
   {
-    "id": 64336,
+    "id": 64426,
     "name": "Fei Fei Li",
     "slug": "fei-fei-li",
     "bio": null,
@@ -40732,7 +40789,7 @@ const dashboardData = {
     "appearance_count": 1
   },
   {
-    "id": 64337,
+    "id": 64427,
     "name": "Financial strategist Jared Dillian",
     "slug": "financial-strategist-jared-dillian",
     "bio": null,
@@ -40744,7 +40801,7 @@ const dashboardData = {
     "appearance_count": 1
   },
   {
-    "id": 64338,
+    "id": 64428,
     "name": "Daniel Litt",
     "slug": "daniel-litt",
     "bio": null,
@@ -40756,7 +40813,7 @@ const dashboardData = {
     "appearance_count": 1
   },
   {
-    "id": 64339,
+    "id": 64429,
     "name": "Gavin Baker",
     "slug": "gavin-baker",
     "bio": null,
@@ -40768,7 +40825,7 @@ const dashboardData = {
     "appearance_count": 1
   },
   {
-    "id": 64340,
+    "id": 64430,
     "name": "Sam Altman",
     "slug": "sam-altman",
     "bio": null,
@@ -40780,7 +40837,7 @@ const dashboardData = {
     "appearance_count": 1
   },
   {
-    "id": 64341,
+    "id": 64431,
     "name": "Time to Reduce Equity Risk",
     "slug": "time-to-reduce-equity-risk",
     "bio": null,
@@ -40792,7 +40849,7 @@ const dashboardData = {
     "appearance_count": 1
   },
   {
-    "id": 64342,
+    "id": 64432,
     "name": "Eric Weinstein",
     "slug": "eric-weinstein",
     "bio": null,
@@ -40804,7 +40861,7 @@ const dashboardData = {
     "appearance_count": 1
   },
   {
-    "id": 64343,
+    "id": 64433,
     "name": "Michael Kratsios",
     "slug": "michael-kratsios",
     "bio": null,
@@ -40816,7 +40873,7 @@ const dashboardData = {
     "appearance_count": 1
   },
   {
-    "id": 64344,
+    "id": 64434,
     "name": "Emad Mostaque",
     "slug": "emad-mostaque",
     "bio": null,
@@ -40828,7 +40885,7 @@ const dashboardData = {
     "appearance_count": 3
   },
   {
-    "id": 64345,
+    "id": 64435,
     "name": "Angela Strange and Gabriel Vasquez",
     "slug": "angela-strange-and-gabriel-vasquez",
     "bio": null,
@@ -40840,7 +40897,7 @@ const dashboardData = {
     "appearance_count": 1
   },
   {
-    "id": 64346,
+    "id": 64436,
     "name": "Why Bessent Blinked",
     "slug": "why-bessent-blinked",
     "bio": null,
@@ -40852,7 +40909,7 @@ const dashboardData = {
     "appearance_count": 1
   },
   {
-    "id": 64347,
+    "id": 64437,
     "name": "Travis Kalanick",
     "slug": "travis-kalanick",
     "bio": null,
@@ -40864,7 +40921,7 @@ const dashboardData = {
     "appearance_count": 1
   },
   {
-    "id": 64348,
+    "id": 64438,
     "name": "Rahm Emanuel",
     "slug": "rahm-emanuel",
     "bio": null,
@@ -40876,7 +40933,7 @@ const dashboardData = {
     "appearance_count": 1
   },
   {
-    "id": 64349,
+    "id": 64439,
     "name": "Milton Berg",
     "slug": "milton-berg",
     "bio": "Milton Berg is a veteran technical analyst and CEO of Milton Berg Advisors, specializing in market turning-point analysis for institutional investors.",
@@ -40888,7 +40945,7 @@ const dashboardData = {
     "appearance_count": 1
   },
   {
-    "id": 64350,
+    "id": 64440,
     "name": "How Open",
     "slug": "how-open",
     "bio": null,
@@ -40900,7 +40957,7 @@ const dashboardData = {
     "appearance_count": 1
   },
   {
-    "id": 64351,
+    "id": 64441,
     "name": "Saronic Founders",
     "slug": "saronic-founders",
     "bio": null,
@@ -40912,7 +40969,7 @@ const dashboardData = {
     "appearance_count": 1
   },
   {
-    "id": 64352,
+    "id": 64442,
     "name": "OpenAI's Joshua Achiam",
     "slug": "openais-joshua-achiam",
     "bio": null,
@@ -40924,7 +40981,7 @@ const dashboardData = {
     "appearance_count": 1
   },
   {
-    "id": 64353,
+    "id": 64443,
     "name": "Marc Andreessen and Chris Dixon",
     "slug": "marc-andreessen-and-chris-dixon",
     "bio": null,
@@ -40936,7 +40993,7 @@ const dashboardData = {
     "appearance_count": 1
   },
   {
-    "id": 64354,
+    "id": 64444,
     "name": "AI for America's Small Businesses",
     "slug": "ai-for-americas-small-businesses",
     "bio": null,
@@ -40949,6 +41006,33 @@ const dashboardData = {
   }
 ],
   pundits: [
+  {
+    "id": 440,
+    "name": "Lukasz Kaiser",
+    "slug": "lukasz-kaiser",
+    "bio": "AI researcher and co-author of the landmark 2017 paper 'Attention Is All You Need' that introduced the transformer architecture.",
+    "known_for": "Co-inventing the transformer architecture that underpins modern large language models",
+    "net_worth_usd": null,
+    "net_worth_source": null,
+    "net_worth_updated_at": null,
+    "voice_tone": "Measured, optimistic, research-oriented",
+    "voice_style": "Uses analogies to human cognition and historical technology progression to argue against deterministic views of AI concentration",
+    "voice_delivery_notes": "Speaks with deliberate pacing, frequently qualifying statements with 'maybe' and 'I think'; emphasizes uncertainty as opportunity rather than risk",
+    "voice_profile_updated_at": "2026-09-07 11:47:59",
+    "last_seen": "2026-09-07 11:47:59",
+    "last_episode_title": "Can Open Source Keep AI Power From Concentrating?",
+    "last_podcast_name": "The a16z Show",
+    "last_episode_date": "2026-09-07",
+    "mention_score": 1,
+    "mention_score_decayed": 1,
+    "last_main_idea": "The AI infrastructure landscape may undergo significant decentralization as algorithmic breakthroughs reduce dependence on hyperscaler-scale compute, creating investment opportunities in edge computing, specialized AI chips, and open-source ecosystem enablers while potentially compressing returns for pure scale-based incumbents.",
+    "last_proof_cite": "The a16z Show \u2022 2026-09-07 \u2022 Can Open Source Keep AI Power From Concentrating?",
+    "last_proof_snippet": "AI is becoming more powerful, but the resources needed to build it are increasingly concentrated. Does it have to stay that way? MTS host Sophia Dew heads to the open source AI summit in San Francisco. To ask researchers and founders across",
+    "supporting_takeaway": "The 'bigger is better' paradigm requires billions in capital and internet-scale data scraping, creating natural moats for hyperscalers",
+    "grokipedia_url": null,
+    "grokipedia_fetched_at": null,
+    "pundit_profile": null
+  },
   {
     "id": 183,
     "name": "Aaron Levy",
@@ -41237,7 +41321,7 @@ const dashboardData = {
     "last_podcast_name": "The a16z Show",
     "last_episode_date": "2026-09-01",
     "mention_score": 1,
-    "mention_score_decayed": 0.89,
+    "mention_score_decayed": 0.87,
     "last_main_idea": "Invest in technologies and educational initiatives that enhance human intuition and critical thinking in mathematics, focusing on AI tools that augment human understanding rather than replace it, while also supporting frameworks for quality control in AI-driven research.",
     "last_proof_cite": "The a16z Show \u2022 2026-09-01 \u2022 Daniel Litt: The Mathematician's Guide to AI",
     "last_proof_snippet": "The goal of mathematics is not to produce mathematics papers. It's to produce some kind of understanding. Maybe some of that understanding resides in model weights. To me, that's like pretty unsatisfied. Comparing and profit with open AI. D",
@@ -41563,7 +41647,7 @@ const dashboardData = {
     "last_podcast_name": "The a16z Show",
     "last_episode_date": "2026-08-28",
     "mention_score": 1,
-    "mention_score_decayed": 0.81,
+    "mention_score_decayed": 0.79,
     "last_main_idea": "The next major bottleneck in AI is not the model itself, but the underlying infrastructure that supports it, presenting a significant investment opportunity in companies that can innovate and scale to meet these new demands.",
     "last_proof_cite": "The a16z Show \u2022 2026-08-28 \u2022 The Infrastructure Behind the Machine Age",
     "last_proof_snippet": "We have a whole new technology that's most important technology ever and you need a whole new infrastructure Now I'm going to even be talking about the infrastructure We're talking about the subverse and the storage and the network here goe",
@@ -41627,7 +41711,7 @@ const dashboardData = {
     "last_podcast_name": "The a16z Show",
     "last_episode_date": "2026-08-28",
     "mention_score": 1,
-    "mention_score_decayed": 0.81,
+    "mention_score_decayed": 0.79,
     "last_main_idea": "The next major bottleneck in AI is not the model itself, but the underlying infrastructure that supports it, presenting a significant investment opportunity in companies that can innovate and scale to meet these new demands.",
     "last_proof_cite": "The a16z Show \u2022 2026-08-28 \u2022 The Infrastructure Behind the Machine Age",
     "last_proof_snippet": "We have a whole new technology that's most important technology ever and you need a whole new infrastructure Now I'm going to even be talking about the infrastructure We're talking about the subverse and the storage and the network here goe",
@@ -41937,7 +42021,7 @@ const dashboardData = {
     "last_podcast_name": "All-In with Chamath, Jason, Sacks & Friedberg",
     "last_episode_date": "2026-08-26",
     "mention_score": 1,
-    "mention_score_decayed": 0.79,
+    "mention_score_decayed": 0.78,
     "last_main_idea": "Investing in cutting-edge scientific research and exploration could lead to paradigm-shifting discoveries with significant impact on various industries.",
     "last_proof_cite": "All-In with Chamath, Jason, Sacks & Friedberg \u2022 2026-08-26 \u2022 Eric Weinstein: The State of American Science, Breakthrough Coverups, and the Danger of Physics",
     "last_proof_snippet": "We have become a f***ing nation when it comes to science. You were called a friend scientist and keep saying, friend, yeah. I totally disagree with the narrative of the field. I want to blow a giant pole in civil rights act. The stagnation",
@@ -42188,7 +42272,7 @@ const dashboardData = {
     "last_podcast_name": "The a16z Show",
     "last_episode_date": "2026-08-26",
     "mention_score": 1,
-    "mention_score_decayed": 0.78,
+    "mention_score_decayed": 0.76,
     "last_main_idea": "Invest in the application layer of AI where significant value can be captured, and consider the emerging consumer AI space for new opportunities.",
     "last_proof_cite": "The a16z Show \u2022 2026-08-26 \u2022 The State of AI: Macro, Apps, and Consumer",
     "last_proof_snippet": "For the last few years, the biggest question in the AI was which model would win. The next phase may be less about the models, and more about what gets built on top of them. In this episode, Jen Costa sits down with Anish Acharya, to unpack w",
@@ -45883,7 +45967,7 @@ const dashboardData = {
     "last_podcast_name": "The a16z Show",
     "last_episode_date": "2026-07-23",
     "mention_score": 1,
-    "mention_score_decayed": 0.36,
+    "mention_score_decayed": 0.35,
     "last_main_idea": "Industrial AI represents a substantial opportunity to transform physical industries through automation and AI, creating significant value beyond traditional software solutions.",
     "last_proof_cite": "The a16z Show \u2022 2026-07-23 \u2022 Building the Physical AI Stack | Travis Kalanick on TBPN",
     "last_proof_snippet": "Travis Kelenick joins TVPN to discuss why he's betting his next company on industrial AI. He shares his vision behind atoms, explains how autonomy is transforming industries like mining and food production, and discusses why bringing AI int",
@@ -49199,7 +49283,7 @@ const dashboardData = {
     "last_podcast_name": "The Jack Mallers Show",
     "last_episode_date": "2026-06-16",
     "mention_score": 2,
-    "mention_score_decayed": 0.3,
+    "mention_score_decayed": 0.29,
     "last_main_idea": "Investors should monitor Bitcoin as a leading market indicator and scrutinize the capital structures of Bitcoin treasury companies for potential risks and rewards, while maintaining a long-term perspective.",
     "last_proof_cite": "The Jack Mallers Show \u2022 2026-06-16 \u2022 15 Questions: The Strait, Strategy, mNAV, Dilution, & My Boots",
     "last_proof_snippet": "Yo, welcome back to another episode of the Jack Mallors Show. I'm your host Jack, and you're listening to mail bag Monday, ladies and gentlemen. Oh, there's my resources tab, my AI tool. All right, let's get back to slide one. You were list",

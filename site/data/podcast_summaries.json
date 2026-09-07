@@ -1,5 +1,23 @@
 [
   {
+    "id": 462,
+    "podcast_name": "The a16z Show",
+    "episode_title": "Can Open Source Keep AI Power From Concentrating?",
+    "episode_date": "2026-09-07",
+    "summary": "This episode of The a16z Show explores whether open source AI can prevent the concentration of AI power among a few large technology companies. Host Sophia Dew interviews Lukasz Kaiser, co-author of the foundational 'Attention Is All You Need' paper, who argues that the current resource-intensive nature of AI training is a temporary technological limitation rather than an inevitable feature of AI development. Kaiser contends that transformers, while powerful, are less than a decade old and require enormous amounts of data and compute to perform well as generalists. He draws an analogy to human cognition, where distributed expertise and smaller, specialized knowledge domains produce superior outcomes. The discussion examines how the current 'bigger is better' approach benefits well-capitalized incumbents but may shift as research breakthroughs enable more efficient training paradigms. Kaiser expresses optimism that algorithmic innovation, potentially emerging from academia and open source movements, will democratize AI development by enabling smaller models trained on less data to achieve expert-level performance in specific domains.",
+    "key_takeaways": [
+      "Current AI concentration is driven by transformer architecture limitations, not fundamental AI properties; breakthroughs could dramatically alter economics",
+      "The 'bigger is better' paradigm requires billions in capital and internet-scale data scraping, creating natural moats for hyperscalers",
+      "Human cognition demonstrates that distributed, specialized expertise outperforms monolithic general intelligence, suggesting a path for smaller models",
+      "Research focus has shifted from fundamental innovation to productization at major labs, creating opportunity for academia and open source",
+      "Consumer hardware (e.g., RTX 5090) now exceeds the compute used for original transformer research, lowering barriers to experimentation",
+      "The current state of AI represents a transient technological step, not an endpoint; model diversity and specialization likely to increase",
+      "Ensemble approaches and distributed model architectures may prove more efficient than single large models for fixed data quantities"
+    ],
+    "investment_thesis": "The AI infrastructure landscape may undergo significant decentralization as algorithmic breakthroughs reduce dependence on hyperscaler-scale compute, creating investment opportunities in edge computing, specialized AI chips, and open-source ecosystem enablers while potentially compressing returns for pure scale-based incumbents.",
+    "key_tickers": null
+  },
+  {
     "id": 461,
     "podcast_name": "Monetary Matters with Jack Farley",
     "episode_title": "What Actually Happens When a Life Insurer Fails (It's Worse Than a Bank) | Pranjal Drall and Andrew Granato on How Private Equity Turned Life Insurance Into a Taxpayer Backstop",
@@ -111,24 +129,6 @@
       "Creative industries, architecture, and gaming face disruption from AI-native 3D tools that compress production timelines and reduce specialized labor dependency"
     ],
     "investment_thesis": "New view prediction and unified 3D world models represent a paradigm shift in computer vision with investable implications across AI infrastructure, robotics simulation, and creative tools, where first-movers leveraging multi-modal efficiency gains will capture disproportionate value as compute constraints ease.",
-    "key_tickers": null
-  },
-  {
-    "id": 453,
-    "podcast_name": "Macro Voices",
-    "episode_title": "MacroVoices #548 Dr. Carly Anderson: Emerging Energy Technologies Roundup",
-    "episode_date": "2026-09-03",
-    "summary": "This episode of Macro Voices explores the accelerating nuclear renaissance driven by surging electricity demand from AI data centers and hyperscalers. Dr. Carley Anderson details how long-term power purchase agreements (PPAs) from tech giants are creating the financing foundation for new nuclear deployment, while mass production techniques aim to reduce reactor construction timelines from years to months. The discussion covers advanced nuclear applications in military, remote mining, and data center markets; regulatory progress including NRC Part 57; and critical supply chain innovations in fuel enrichment. Additional segments examine supercritical CO2 turbines for 50%+ thermal efficiency, silicon carbide power electronics, robotics for hazardous environments, and the competitive threat from China's 5-10 GW annual nuclear buildout. The episode frames nuclear as both an AI-enabling infrastructure play and a geopolitical imperative for US energy security.",
-    "key_takeaways": [
-      "Hyperscalers signing 20-year PPAs at ~$100/MWh are the critical demand anchor financing new nuclear buildout - watch for data center-nuclear partnerships as investable catalysts",
-      "Small modular reactor designs targeting sub-2-year deployment (ideally months) require mass production of standardized components, favoring manufacturing innovators over traditional EPC plays",
-      "Advanced nuclear is finding three near-term niche markets: military bases, remote mining villages, and AI data centers - each offering faster regulatory pathways and premium pricing",
-      "Supercritical CO2 turbines can achieve 50% thermal efficiency versus ~33% for conventional reactors, representing a step-change in levelized cost of energy for next-generation designs",
-      "Silicon carbide power electronics enable higher-temperature, more compact grid integration systems critical for both nuclear and renewable energy deployment",
-      "China's 5-10 GW annual nuclear installation rate versus US stagnation creates urgent competitive pressure; domestic fuel supply chain security (including laser enrichment) is a national security priority",
-      "Geothermal remains technically challenging for mass production despite theoretical promise; robotics adoption for hazardous energy tasks lags globally outside the US"
-    ],
-    "investment_thesis": "The convergence of AI-driven power demand and small modular reactor commercialization creates a multi-decade nuclear infrastructure investment cycle, with early returns captured by companies securing hyperscaler PPAs, manufacturing standardized reactor components, and innovating in fuel enrichment and power conversion technologies.",
     "key_tickers": null
   },
   {
