@@ -7,7 +7,7 @@
     "_comment": "Treasury refunding and auction calendar. Source: treasury.gov. Tony: set up fetch from https://home.treasury.gov/resource-center/data-chart-center/quarterly-refunding",
     "_fetch_url": "https://home.treasury.gov/resource-center/data-chart-center/quarterly-refunding",
     "_api_endpoint": "https://api.fiscaldata.treasury.gov/services/api/fiscal_service/",
-    "last_updated": null,
+    "last_updated": "2026-09-07",
     "next_refunding_announcement": {
       "date": "2026-11-01",
       "status": "estimated",
@@ -15,25 +15,28 @@
     },
     "upcoming_auctions": [
       {
-        "date": "2026-09-05",
+        "date": "2026-09-08",
         "security": "3-Year Note",
         "cusip": null,
-        "size_billions": null,
-        "status": "stub"
+        "size_billions": 58.0,
+        "status": "scheduled",
+        "notes": "New 3Y \u2014 TreasuryDirect offering amount"
       },
       {
-        "date": "2026-09-06",
-        "security": "10-Year Note",
+        "date": "2026-09-09",
+        "security": "10-Year Note (9y11m reopening)",
         "cusip": null,
-        "size_billions": null,
-        "status": "stub"
+        "size_billions": 39.0,
+        "status": "scheduled",
+        "notes": "Post\u2013Labor Day coupon week \u2014 primary captive-buyer print"
       },
       {
-        "date": "2026-09-07",
-        "security": "30-Year Bond",
+        "date": "2026-09-10",
+        "security": "30-Year Bond (29y11m reopening)",
         "cusip": null,
-        "size_billions": null,
-        "status": "stub"
+        "size_billions": 22.0,
+        "status": "scheduled",
+        "notes": "Post\u2013Labor Day long bond \u2014 dealer vs indirect share is the test"
       }
     ],
     "recent_auction_results": [],
@@ -167,8 +170,8 @@
     "curve_data": "live",
     "cftc_cot": "live",
     "follow_up_for_tony": [
+      "Labor Day 2026-09-07: manually replaced stale Sep 5\u20137 stub auctions with TreasuryDirect Sep 8\u201310 coupon week (3Y/10Y/30Y).",
       "DONE: Yield curve fetch via fetch_curve.py (Treasury.gov primary, FRED optional, MOVE via Yahoo)",
-      "Set up Treasury auction calendar fetch from fiscaldata.treasury.gov API",
       "Set up CFTC COT weekly parse from cftc.gov or Quandl",
       "Add cron job to pipeline for weekly/daily updates"
     ],
