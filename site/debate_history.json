@@ -22,8 +22,10 @@
       "debater_b": "Priscilla Chan",
       "expires_rule": "Resolves Friday 12:00 PM CST 2026-09-04",
       "resolves_iso": "2026-09-04",
-      "resolution_status": "pending",
-      "resolution_notes": "",
+      "resolution_status": "yes",
+      "resolution_notes": "Affirmative. S&P 500 closed above 7,500 inside the window. After the Jul 24, 2026 debate Friday close of 7,411.98, the index closed 7,600.50 on Aug 3 and a record 7,798.99 on Aug 13 — both before the Sep 4 resolve. Official closes from public market history.",
+      "resolution_source": "https://www.cnbc.com/2026/09/08/sp-500-posts-3percent-summer-rally-some-on-wall-street-see-more-coming.html",
+      "resolved_at": "2026-09-08T18:24:00-05:00",
       "archived_at": "2026-07-31T12:07:17.836545",
       "audio_href": "./audio/archive/debate_2026-07-24.mp3"
     },
