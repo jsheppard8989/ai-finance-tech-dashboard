@@ -90,7 +90,7 @@
         "NVDA"
       ],
       "sentiment": "neutral",
-      "display_on_main": 1,
+      "display_on_main": 0,
       "display_order": 0,
       "added_date": "2026-09-05",
       "archived_date": null,
@@ -110,7 +110,7 @@
         "AMZN"
       ],
       "sentiment": "bullish",
-      "display_on_main": 1,
+      "display_on_main": 0,
       "display_order": 0,
       "added_date": "2026-09-05",
       "archived_date": null,
@@ -129,7 +129,7 @@
         "NVDA"
       ],
       "sentiment": "bullish",
-      "display_on_main": 0,
+      "display_on_main": 1,
       "display_order": 0,
       "added_date": "2026-09-04",
       "archived_date": null,
@@ -149,7 +149,7 @@
         "MSFT"
       ],
       "sentiment": "bearish",
-      "display_on_main": 0,
+      "display_on_main": 1,
       "display_order": 0,
       "added_date": "2026-09-05",
       "archived_date": null,
