@@ -1,7 +1,7 @@
 {
-  "generated_at": "2026-09-08T07:06:47.191360",
-  "last_updated": "2026-09-08T07:06:47.191360",
-  "last_pipeline_run": "2026-09-08T07:06:47.191360",
+  "generated_at": "2026-09-08T09:38:37.245168",
+  "last_updated": "2026-09-08T09:38:37.245168",
+  "last_pipeline_run": "2026-09-08T09:38:37.245168",
   "main_page": {
     "overton": 13,
     "insights": 8,
@@ -50,22 +50,22 @@
   "available_from_rss": [],
   "stale_episodes": [
     {
-      "id": "a3cf57b6-0471-4554-a7e1-a41345c06d96",
-      "podcast": "All-In with Chamath, Jason, Sacks & Friedberg",
-      "title": "GPT-6 Hits AGI? Tech Euphoria 2.0, SF Mansion Shortage, NYC Bans AI in Schools & Venezuela Oil Deal",
+      "id": "7ad7fcd8-a931-11f1-bffa-c7609ced84aa",
+      "podcast": "Moonshots with Peter Diamandis",
+      "title": "GPT-6 Astra Saturates ARC-AGI-3, Tesla's $30K Cybercab Floods Austin, Anthropic Proves Fermat's Last Theorem | EP #286",
       "status": "needs_export",
-      "published": "2026-09-04",
-      "age_days": 4,
+      "published": "2026-09-05",
+      "age_days": 3,
       "next_blocker": "published",
       "source": "db_incomplete"
     },
     {
-      "id": "66ed7536-8ad1-44b3-8a94-06c3160329e2",
+      "id": "c467545c-37d0-4862-8fce-65d81646cd39",
       "podcast": "The a16z Show",
-      "title": "Fei Fei Li: The Race to Build World Models For AI",
+      "title": "Aaron Levie on Why Open AI Wins",
       "status": "needs_export",
-      "published": "2026-09-04",
-      "age_days": 4,
+      "published": "2026-09-05",
+      "age_days": 3,
       "next_blocker": "published",
       "source": "db_incomplete"
     },
