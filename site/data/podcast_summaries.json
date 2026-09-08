@@ -1,5 +1,27 @@
 [
   {
+    "id": 463,
+    "podcast_name": "The a16z Show",
+    "episode_title": "OpenAI Researchers on the Future of Mathematical Reasoning",
+    "episode_date": "2026-09-08",
+    "summary": "This episode of The a16z Show explores breakthrough applications of AI in pure mathematics, particularly Google's DeepMind Astra model proving the existence of non-sofic groups - a decades-old problem in group theory. The discussion centers on how AI reasoning traces now resemble expert human mathematicians, enabling novel proof strategies that combine systematic backtracking with human-like intuition. The hosts and guests examine the investment implications of AI democratizing advanced mathematics, the evolving nature of human-AI collaboration in research, and how this shift from benchmarks to genuine mathematical discovery signals a new phase in AI capabilities with cross-sector implications for R&D-intensive industries.",
+    "key_takeaways": [
+      "AI has crossed from benchmark performance to genuine mathematical discovery, with DeepMind's Astra proving the existence of non-sofic groups - challenging long-held conjectures",
+      "AI reasoning traces now 'shockingly' resemble expert human mathematicians, enabling interpretable and buildable proofs rather than black-box results",
+      "The ability to systematically backtrack without cognitive bias gives AI advantages over human mathematicians in complex proof exploration",
+      "Mathematical collaboration models will require restructuring as AI-generated results become prevalent, creating opportunities for new research tooling platforms",
+      "Democratization of advanced mathematics through AI could expand the talent pool and accelerate innovation in physics, cryptography, and computer science",
+      "Investors should monitor AI R&D applications beyond traditional enterprise use cases, particularly in foundational science and mathematics",
+      "The shift from 'proving results' to 'collaborative exploration' represents a paradigm change in how knowledge institutions operate"
+    ],
+    "investment_thesis": "AI capabilities are expanding from applied tasks to foundational scientific discovery, creating asymmetric opportunities in companies building advanced reasoning systems and the infrastructure supporting scientific AI, while traditional R&D-intensive industries face disruption or amplification depending on adoption speed.",
+    "key_tickers": [
+      "GOOGL",
+      "MSFT",
+      "NVDA"
+    ]
+  },
+  {
     "id": 462,
     "podcast_name": "The a16z Show",
     "episode_title": "Can Open Source Keep AI Power From Concentrating?",
@@ -91,27 +113,6 @@
     ],
     "investment_thesis": "The winning AI infrastructure investments will be in open-weights-enabling platforms and model-agnostic orchestration layers, as enterprise adoption shifts from single-model dependence to intelligent routing across specialized models.",
     "key_tickers": null
-  },
-  {
-    "id": 457,
-    "podcast_name": "All-In with Chamath, Jason, Sacks & Friedberg",
-    "episode_title": "GPT-6 Hits AGI? Tech Euphoria 2.0, SF Mansion Shortage, NYC Bans AI in Schools & Venezuela Oil Deal",
-    "episode_date": "2026-09-04",
-    "summary": "The hosts discuss OpenAI's anticipated ChatGPT-6 (Astra) release and whether it signals true AGI, with Chamath arguing AGI has effectively arrived since early 2024. A central theme is the bifurcation of AI into 'frontier intelligence' (OpenAI, Anthropic, Google Gemini) versus 'commodity intelligence' (open-source models), creating divergent investment dynamics. The conversation explores regulatory risks from potential FDA-style AI oversight that could cede U.S. competitiveness to China. On energy, the hosts analyze a reported 100-year U.S. oil concession in Venezuela as geopolitical realignment against Russian and Chinese influence. Education policy comes under scrutiny, with NYC's K-8 AI ban criticized as exacerbating inequality between public and private school students. Throughout, the hosts debate whether current tech valuations represent a sustainable boom or late-1990s-style bubble conditions.",
-    "key_takeaways": [
-      "AI market structure is splitting into 'frontier intelligence' (premium, defensible models) and 'commodity intelligence' (open-source, price-competing models) with fundamentally different investment profiles",
-      "Regulatory overreach modeled on FDA drug approval timelines poses existential risk to U.S. AI leadership versus China",
-      "Geopolitical energy realignment through Venezuela oil deal offers 65 billion barrels of reserves and regional stabilization against adversarial powers",
-      "Educational AI bans in public schools create K-shaped inequality: wealthy students in private schools gain AI fluency while public school students fall behind",
-      "Data center sentiment has shifted dramatically (30-40 point swing) as NIMBY resistance meets power constraints and capital intensity",
-      "AI cybersecurity offense-defense dynamics favor incumbents with scale; 'AI powered cyber defense' is the asymmetric response to AI-powered attacks",
-      "Adaptive learning technologies represent the largest addressable market in education, replacing grade-level 'lowest common denominator' models"
-    ],
-    "investment_thesis": "Position for a two-tier AI market where frontier model providers command scarcity premiums while commodity AI faces relentless price compression, with regulatory and energy infrastructure as the critical swing factors determining geographic and competitive winners.",
-    "key_tickers": [
-      "GOOGL",
-      "MSFT"
-    ]
   },
   {
     "id": 453,
