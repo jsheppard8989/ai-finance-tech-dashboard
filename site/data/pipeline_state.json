@@ -1,7 +1,7 @@
 {
-  "generated_at": "2026-09-07T22:44:00.372902",
-  "last_updated": "2026-09-07T22:44:00.372902",
-  "last_pipeline_run": "2026-09-07T22:44:00.372902",
+  "generated_at": "2026-09-08T05:31:57.442912",
+  "last_updated": "2026-09-08T05:31:57.442912",
+  "last_pipeline_run": "2026-09-08T05:31:57.442912",
   "main_page": {
     "overton": 13,
     "insights": 8,
@@ -15,18 +15,98 @@
     "overton_terms_total": 133,
     "latest_insights_total": 449,
     "today_mentions": {},
-    "podcasts_analyzed": 1
+    "podcasts_analyzed": 0
   },
   "step_results": {
-    "downloaded": 0,
+    "downloaded": 1,
     "transcribed": 0,
     "analyzed": 0,
     "insight_created": 0,
     "published": 0,
-    "total": 0
+    "total": 1
   },
-  "episodes": [],
-  "available_from_rss": [],
+  "episodes": [
+    {
+      "id": "b27552ed-6e90-47a2-9753-20a21225f1b6",
+      "podcast": "The a16z Show",
+      "title": "OpenAI Researchers on the Future of Mathematical Reasoning",
+      "published": "2026-09-08",
+      "rss_guid": "b27552ed-6e90-47a2-9753-20a21225f1b6",
+      "stages": {
+        "downloaded": true,
+        "transcribed": false,
+        "analyzed": false,
+        "insight_created": false,
+        "published": false
+      },
+      "stage_reasons": {
+        "transcribed": "No podcast_episodes row yet (curated APPROVED but DB not updated). Usually fixed by: fetch_latest --queue-only + whisper worker + auto_pipeline sweep.",
+        "analyzed": "No podcast_episodes row yet (curated APPROVED but DB not updated). Usually fixed by: fetch_latest --queue-only + whisper worker + auto_pipeline sweep.",
+        "insight_created": "No podcast_episodes row yet (curated APPROVED but DB not updated). Usually fixed by: fetch_latest --queue-only + whisper worker + auto_pipeline sweep.",
+        "published": "No podcast_episodes row yet (curated APPROVED but DB not updated). Usually fixed by: fetch_latest --queue-only + whisper worker + auto_pipeline sweep."
+      },
+      "first_blocker": "transcribed",
+      "remediation_by_stage": {
+        "transcribed": {
+          "action_id": "TRANSCRIBE",
+          "steps": [
+            "There are 1 MP3 file(s) in whisper_queue/ waiting for the worker.",
+            "Run whisper_worker.sh from the repo root (WORKSPACE_ROOT) so whisper_queue/ drains to whisper_done/.",
+            "If the queue is empty but there is still no transcript, read whisper_worker.log for Whisper failures.",
+            "After transcripts land in whisper_done/, run auto_pipeline.py so fetch sweeps them into the DB and pipeline/transcripts/."
+          ],
+          "commands": [
+            "cd /Users/jaredsheppard/projects/ai-finance-tech-dashboard && ./whisper_worker.sh",
+            "cd /Users/jaredsheppard/projects/ai-finance-tech-dashboard/pipeline && python3 auto_pipeline.py"
+          ]
+        },
+        "analyzed": {
+          "action_id": "ANALYZE_TRANSCRIPTS",
+          "steps": [
+            "Run transcript analysis so is_processed=1 on podcast_episodes (analyze_transcript via auto_pipeline).",
+            "Ensure LLM keys in workspace .env (e.g. MOONSHOT_API_KEY) are set if the analyzer requires them.",
+            "Quick path: auto_pipeline.py --analyze-only analyzes then continues promotion/export steps in that run."
+          ],
+          "commands": [
+            "cd /Users/jaredsheppard/projects/ai-finance-tech-dashboard/pipeline && python3 auto_pipeline.py --analyze-only",
+            "cd /Users/jaredsheppard/projects/ai-finance-tech-dashboard/pipeline && python3 auto_pipeline.py"
+          ]
+        },
+        "insight_created": {
+          "action_id": "PROMOTE_INSIGHT",
+          "steps": [
+            "Promotion to latest_insights runs inside auto_pipeline after analysis.",
+            "If analysis succeeded but insight is missing, re-run full auto_pipeline.py and check logs for promote_episodes_to_insights errors."
+          ],
+          "commands": [
+            "cd /Users/jaredsheppard/projects/ai-finance-tech-dashboard/pipeline && python3 auto_pipeline.py"
+          ]
+        },
+        "published": {
+          "action_id": "EXPORT_AND_PUBLISH",
+          "steps": [
+            "Site export runs only after generate_deepdives.py succeeds; if Deep Dives fail, export and git push are skipped.",
+            "Fix Deep Dive errors (see pipeline logs), then run auto_pipeline.py to export site JSON and push.",
+            "When added_to_site=1 on the episode row, this stage turns green."
+          ],
+          "commands": [
+            "cd /Users/jaredsheppard/projects/ai-finance-tech-dashboard/pipeline && python3 generate_deepdives.py",
+            "cd /Users/jaredsheppard/projects/ai-finance-tech-dashboard/pipeline && python3 auto_pipeline.py"
+          ]
+        }
+      },
+      "status": "needs_transcription"
+    }
+  ],
+  "available_from_rss": [
+    {
+      "podcast": "The a16z Show",
+      "title": "OpenAI Researchers on the Future of Mathematical Reasoning",
+      "published": "Tue, 8 Sep 2026 10:00:00 +0000",
+      "published_date": "2026-09-08",
+      "rss_guid": ""
+    }
+  ],
   "stale_episodes": [
     {
       "id": "66ed7536-8ad1-44b3-8a94-06c3160329e2",
@@ -34,7 +114,7 @@
       "title": "Fei Fei Li: The Race to Build World Models For AI",
       "status": "needs_export",
       "published": "2026-09-04",
-      "age_days": 3,
+      "age_days": 4,
       "next_blocker": "published",
       "source": "db_incomplete"
     },
@@ -44,7 +124,7 @@
       "title": "The $100B Niches Hiding Inside Payments",
       "status": "needs_export",
       "published": "2026-09-03",
-      "age_days": 4,
+      "age_days": 5,
       "next_blocker": "published",
       "source": "db_incomplete"
     },
@@ -54,7 +134,7 @@
       "title": "\u201cI\u2019m Insanely Bullish on Bonds\u201d | Jared Dillian on Copper, Bonds, Semis, and The Awesome Portfolio",
       "status": "needs_export",
       "published": "2026-09-03",
-      "age_days": 4,
+      "age_days": 5,
       "next_blocker": "published",
       "source": "db_incomplete"
     },
@@ -64,7 +144,7 @@
       "title": "Inside Moderna\u2019s Personalized Cancer Vaccine",
       "status": "needs_export",
       "published": "2026-09-02",
-      "age_days": 5,
+      "age_days": 6,
       "next_blocker": "published",
       "source": "db_incomplete"
     },
@@ -74,7 +154,7 @@
       "title": "Humanity's First Star Probe, Architect Labs Beats NVIDIA 3.4x, Musk Wants Satellites to Cool Earth | EP #285",
       "status": "needs_export",
       "published": "2026-09-02",
-      "age_days": 5,
+      "age_days": 6,
       "next_blocker": "published",
       "source": "db_incomplete"
     },
@@ -84,7 +164,7 @@
       "title": "Daniel Litt: The Mathematician's Guide to AI",
       "status": "needs_export",
       "published": "2026-09-01",
-      "age_days": 6,
+      "age_days": 7,
       "next_blocker": "published",
       "source": "db_incomplete"
     },
@@ -94,7 +174,7 @@
       "title": "The rise and fall of agent civilizations",
       "status": "needs_export",
       "published": "2026-08-31",
-      "age_days": 7,
+      "age_days": 8,
       "next_blocker": "published",
       "source": "db_incomplete"
     },
@@ -104,7 +184,7 @@
       "title": "Gavin Baker: Why AI Demand Is Outrunning Compute Supply",
       "status": "needs_export",
       "published": "2026-08-31",
-      "age_days": 7,
+      "age_days": 8,
       "next_blocker": "published",
       "source": "db_incomplete"
     },
@@ -114,7 +194,7 @@
       "title": "The Certainty Premium: What\u2019s Driving the Tech Sector Divergence? | Jeff Keller",
       "status": "needs_export",
       "published": "2026-08-31",
-      "age_days": 7,
+      "age_days": 8,
       "next_blocker": "published",
       "source": "db_incomplete"
     },
@@ -124,7 +204,7 @@
       "title": "Why a16z Launched the Machine Age Fund | Jen Kha",
       "status": "needs_export",
       "published": "2026-08-30",
-      "age_days": 8,
+      "age_days": 9,
       "next_blocker": "published",
       "source": "db_incomplete"
     },
@@ -134,7 +214,7 @@
       "title": "NVIDIA's $96.2B Quarter, China's 200,000 Fake Accounts, & OpenAI's New Chip | EP #284",
       "status": "needs_export",
       "published": "2026-08-29",
-      "age_days": 9,
+      "age_days": 10,
       "next_blocker": "published",
       "source": "db_incomplete"
     },
@@ -144,7 +224,7 @@
       "title": "Why 1,200 AI Agents Started Working Together | Ryan Greenblatt",
       "status": "needs_export",
       "published": "2026-08-29",
-      "age_days": 9,
+      "age_days": 10,
       "next_blocker": "published",
       "source": "db_incomplete"
     },
@@ -154,7 +234,7 @@
       "title": "Nvidia's Historic Quarter, SaaS Comeback, Bessent vs Druck, America's Debt Crisis, Cancer Vaccine",
       "status": "needs_export",
       "published": "2026-08-29",
-      "age_days": 9,
+      "age_days": 10,
       "next_blocker": "published",
       "source": "db_incomplete"
     },
@@ -164,7 +244,7 @@
       "title": "The Infrastructure Behind the Machine Age",
       "status": "needs_export",
       "published": "2026-08-28",
-      "age_days": 10,
+      "age_days": 11,
       "next_blocker": "published",
       "source": "db_incomplete"
     },
@@ -174,7 +254,7 @@
       "title": "Sam Altman: Singularity Slow-Down, Emad Runs 18 Grokbots, Waymo Slashes Hardware 83% | EP #283",
       "status": "needs_export",
       "published": "2026-08-27",
-      "age_days": 11,
+      "age_days": 12,
       "next_blocker": "published",
       "source": "db_incomplete"
     },
@@ -184,7 +264,7 @@
       "title": "Inside Cursor: The Anatomy of a Generational Startup",
       "status": "needs_export",
       "published": "2026-08-27",
-      "age_days": 11,
+      "age_days": 12,
       "next_blocker": "published",
       "source": "db_incomplete"
     },
@@ -194,7 +274,7 @@
       "title": "Eric Weinstein: The State of American Science, Breakthrough Coverups, and the Danger of Physics",
       "status": "needs_export",
       "published": "2026-08-26",
-      "age_days": 12,
+      "age_days": 13,
       "next_blocker": "published",
       "source": "db_incomplete"
     },
@@ -204,7 +284,7 @@
       "title": "The Commodity Bull Market Is Broadening | Jim Wiederhold on Copper, Grains, and Bloomberg Commodity Index",
       "status": "needs_export",
       "published": "2026-08-26",
-      "age_days": 12,
+      "age_days": 13,
       "next_blocker": "published",
       "source": "db_incomplete"
     },
@@ -214,7 +294,7 @@
       "title": "Time to Reduce Equity Risk: Why Underappreciated Macro Risks Could Derail the Bull Market | Warren Pies",
       "status": "needs_export",
       "published": "2026-08-26",
-      "age_days": 12,
+      "age_days": 13,
       "next_blocker": "published",
       "source": "db_incomplete"
     },
@@ -224,7 +304,7 @@
       "title": "\ud83d\udd2c\u201cWe have foundation models for language, not for physics\u201d \u2014 Anima Anandkumar, Bren Professor of Computing",
       "status": "needs_export",
       "published": "2026-08-26",
-      "age_days": 12,
+      "age_days": 13,
       "next_blocker": "published",
       "source": "db_incomplete"
     },
@@ -234,7 +314,7 @@
       "title": "The State of AI: Macro, Apps, and Consumer",
       "status": "needs_export",
       "published": "2026-08-26",
-      "age_days": 12,
+      "age_days": 13,
       "next_blocker": "published",
       "source": "db_incomplete"
     },
@@ -244,7 +324,7 @@
       "title": "The New Economics of AI | Martin Casado & Steven Sinofsky",
       "status": "needs_export",
       "published": "2026-08-25",
-      "age_days": 13,
+      "age_days": 14,
       "next_blocker": "published",
       "source": "db_incomplete"
     },
@@ -254,7 +334,7 @@
       "title": "Dylan Patel \u2013 Anthropic & OpenAI will have most of the world\u2019s compute by 2028",
       "status": "needs_export",
       "published": "2026-08-25",
-      "age_days": 13,
+      "age_days": 14,
       "next_blocker": "published",
       "source": "db_incomplete"
     }
@@ -274,7 +354,7 @@
       "insight_created",
       "published"
     ],
-    "whisper_queue_pending_mp3": 0,
+    "whisper_queue_pending_mp3": 1,
     "fix_order": "For each episode, read first_blocker then remediation_by_stage[first_blocker].",
     "end_to_end": "cd /Users/jaredsheppard/projects/ai-finance-tech-dashboard/pipeline && python3 auto_pipeline.py",
     "analyze_only": "cd /Users/jaredsheppard/projects/ai-finance-tech-dashboard/pipeline && python3 auto_pipeline.py --analyze-only",
