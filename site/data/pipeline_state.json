@@ -1,7 +1,7 @@
 {
-  "generated_at": "2026-09-07T13:40:59.068988",
-  "last_updated": "2026-09-07T13:40:59.068988",
-  "last_pipeline_run": "2026-09-07T13:40:59.068988",
+  "generated_at": "2026-09-07T22:44:00.372902",
+  "last_updated": "2026-09-07T22:44:00.372902",
+  "last_pipeline_run": "2026-09-07T22:44:00.372902",
   "main_page": {
     "overton": 13,
     "insights": 8,
@@ -255,36 +255,6 @@
       "status": "needs_export",
       "published": "2026-08-25",
       "age_days": 13,
-      "next_blocker": "published",
-      "source": "db_incomplete"
-    },
-    {
-      "id": "64b534f7-b272-4bb8-9238-96055f4fa858",
-      "podcast": "All-In with Chamath, Jason, Sacks & Friedberg",
-      "title": "Michael Kratsios: Trump's Science Agenda, Anti-Science Claims, Fauci's Damage, DEI & China",
-      "status": "needs_export",
-      "published": "2026-08-24",
-      "age_days": 14,
-      "next_blocker": "published",
-      "source": "db_incomplete"
-    },
-    {
-      "id": "b8c9473a-9f6e-11f1-946b-2b3f9ea17d93",
-      "podcast": "Monetary Matters with Jack Farley",
-      "title": "Is Private Equity Broken? Why the Buyside\u2019s Problems Are Making 2026 \u201cThe Year of the Banker\u201d | High Yield Harry",
-      "status": "needs_export",
-      "published": "2026-08-24",
-      "age_days": 14,
-      "next_blocker": "published",
-      "source": "db_incomplete"
-    },
-    {
-      "id": "9214c273-93fb-476f-bb4a-1306e7fa4fe1",
-      "podcast": "The a16z Show",
-      "title": "Why Medical AI Needs a Referee | Protege's Engy Ziedan",
-      "status": "needs_export",
-      "published": "2026-08-24",
-      "age_days": 14,
       "next_blocker": "published",
       "source": "db_incomplete"
     }
