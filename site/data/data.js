@@ -3,7 +3,7 @@
 
 const dashboardData = {
   schemaVersion: 2,
-  generatedAt: "2026-09-08T07:06:54.145298",
+  generatedAt: "2026-09-08T09:37:35.705833",
   chartsVersion: "2026-09-08T07:06:42.580933",
   priceSnapshot: {
   "AAPL": {
@@ -1838,7 +1838,7 @@ const dashboardData = {
         "NVDA"
       ],
       "sentiment": "neutral",
-      "display_on_main": 1,
+      "display_on_main": 0,
       "display_order": 0,
       "added_date": "2026-09-05",
       "archived_date": null,
@@ -1858,7 +1858,7 @@ const dashboardData = {
         "AMZN"
       ],
       "sentiment": "bullish",
-      "display_on_main": 1,
+      "display_on_main": 0,
       "display_order": 0,
       "added_date": "2026-09-05",
       "archived_date": null,
@@ -1877,7 +1877,7 @@ const dashboardData = {
         "NVDA"
       ],
       "sentiment": "bullish",
-      "display_on_main": 0,
+      "display_on_main": 1,
       "display_order": 0,
       "added_date": "2026-09-04",
       "archived_date": null,
@@ -1897,7 +1897,7 @@ const dashboardData = {
         "MSFT"
       ],
       "sentiment": "bearish",
-      "display_on_main": 0,
+      "display_on_main": 1,
       "display_order": 0,
       "added_date": "2026-09-05",
       "archived_date": null,
@@ -13435,46 +13435,46 @@ const dashboardData = {
       "key_tickers": []
     },
     {
-      "id": 473,
-      "title": "Aaron Levie on Why Open AI Wins",
+      "id": 466,
+      "title": "Fei Fei Li: The Race to Build World Models For AI",
       "source_type": "podcast",
       "source_name": "The a16z Show",
-      "source_date": "2026-09-05",
-      "summary": "This episode features a16z partner Aaron Levy discussing the strategic importance of open weights AI models for maintaining U.S. competitiveness against China, particularly in the context of national security and innovation ecosystems. Levy argues that open weights models do not compete with closed models but rather drive innovation across the entire AI stack, pushing closed providers to improve faster. The discussion covers the economics of model distillation, framing it as a natural market dynamic rather than purely an ethical concern. A key investment theme is the emergence of model routing as the dominant enterprise AI architecture, where value accrues to the orchestration layer that can intelligently dispatch tasks across multiple specialized models. Levy also notes significant performance improvements in recent releases from OpenAI and Anthropic, particularly for knowledge work applications.",
-      "key_takeaway": "The winning AI infrastructure investments will be in open-weights-enabling platforms and model-agnostic orchestration layers, as enterprise adoption shifts from single-model dependence to intelligent routing across specialized models.",
+      "source_date": "2026-09-04",
+      "summary": "This episode of The a16z Show explores Atlas, a next-generation world model that unifies 3D generation, reconstruction, and simulation through new view prediction. The discussion centers on how Atlas can generate high-quality video frames and perform sparse 3D reconstruction from as few as three camera views, dramatically reducing data capture requirements. The hosts and guests examine how Atlas's multi-modal architecture---integrating text, images, videos, and camera poses---addresses a long-standing gap in computer vision by combining pixel generation and reconstruction in a single model. The conversation highlights implications for creative industries, architecture, robotics, and simulation, while noting that computational resources remain the primary bottleneck for scaling. The episode positions new view prediction as a potential foundational primitive for future AI development, analogous to next token prediction in language models, with significant investment implications across gaming, virtual reality, robotics, and AI infrastructure.",
+      "key_takeaway": "New view prediction and unified 3D world models represent a paradigm shift in computer vision with investable implications across AI infrastructure, robotics simulation, and creative tools, where first-movers leveraging multi-modal efficiency gains will capture disproportionate value as compute constraints ease.",
       "tickers_mentioned": "[\"NVDA\"]",
-      "sentiment": "neutral",
-      "display_on_main": 1,
-      "display_order": 0,
-      "added_date": "2026-09-05",
-      "archived_date": null,
-      "archived_reason": null,
-      "podcast_episode_id": 458,
-      "episode_release_date": "2026-09-05",
-      "guest_name": null,
-      "key_tickers": []
-    },
-    {
-      "id": 474,
-      "title": "GPT-6 Astra Saturates ARC-AGI-3, Tesla's $30K Cybercab Floods Austin, Anthropic Proves Fermat's Last Theorem | EP #286",
-      "source_type": "podcast",
-      "source_name": "Moonshots with Peter Diamandis",
-      "source_date": "2026-09-05",
-      "summary": "This episode of Moonshots with Peter Diamandis explores breakthrough developments across space infrastructure, autonomous vehicles, healthcare AI, and longevity science. Key investment themes include NASA's selection of Blue Origin for Mars telecommunications relay networks, signaling the emergence of interplanetary infrastructure as an investable frontier. Tesla's projected $30,000 Cyber Cab represents a potential price disruption in autonomous ride-hailing that could reshape urban mobility economics. In healthcare, the FDA approval of a RAS inhibitor for previously 'undruggable' cancers marks a watershed moment in targeted oncology, while OpenAI's integration into Epic's electronic health records demonstrates AI's accelerating penetration into clinical workflows. Perhaps most significantly for longevity investors, new research links GLP-1 drugs to lifespan extension and reduced infections, potentially expanding their addressable market beyond diabetes and obesity into anti-aging therapeutics.",
-      "key_takeaway": "The convergence of space commercialization, autonomous mobility price disruption, and healthcare's shift from treatment to prevention and longevity creates a multi-decade investment opportunity in infrastructure-for-frontier-markets, with GLP-1 drugs potentially becoming the largest pharmaceutical category in history if lifespan extension claims hold in human trials.",
-      "tickers_mentioned": "[\"TSLA\", \"AMZN\"]",
       "sentiment": "bullish",
       "display_on_main": 1,
       "display_order": 0,
+      "added_date": "2026-09-04",
+      "archived_date": null,
+      "archived_reason": null,
+      "podcast_episode_id": 452,
+      "episode_release_date": "2026-09-04",
+      "guest_name": "Fei Fei Li",
+      "key_tickers": []
+    },
+    {
+      "id": 472,
+      "title": "GPT-6 Hits AGI? Tech Euphoria 2.0, SF Mansion Shortage, NYC Bans AI in Schools & Venezuela Oil Deal",
+      "source_type": "podcast",
+      "source_name": "All-In with Chamath, Jason, Sacks & Friedberg",
+      "source_date": "2026-09-04",
+      "summary": "The hosts discuss OpenAI's anticipated ChatGPT-6 (Astra) release and whether it signals true AGI, with Chamath arguing AGI has effectively arrived since early 2024. A central theme is the bifurcation of AI into 'frontier intelligence' (OpenAI, Anthropic, Google Gemini) versus 'commodity intelligence' (open-source models), creating divergent investment dynamics. The conversation explores regulatory risks from potential FDA-style AI oversight that could cede U.S. competitiveness to China. On energy, the hosts analyze a reported 100-year U.S. oil concession in Venezuela as geopolitical realignment against Russian and Chinese influence. Education policy comes under scrutiny, with NYC's K-8 AI ban criticized as exacerbating inequality between public and private school students. Throughout, the hosts debate whether current tech valuations represent a sustainable boom or late-1990s-style bubble conditions.",
+      "key_takeaway": "Position for a two-tier AI market where frontier model providers command scarcity premiums while commodity AI faces relentless price compression, with regulatory and energy infrastructure as the critical swing factors determining geographic and competitive winners.",
+      "tickers_mentioned": "[\"GOOGL\", \"MSFT\"]",
+      "sentiment": "bearish",
+      "display_on_main": 1,
+      "display_order": 0,
       "added_date": "2026-09-05",
       "archived_date": null,
       "archived_reason": null,
-      "podcast_episode_id": 459,
-      "episode_release_date": "2026-09-05",
+      "podcast_episode_id": 457,
+      "episode_release_date": "2026-09-04",
       "guest_name": null,
       "key_tickers": [
-        "TSLA",
-        "AMZN"
+        "GOOGL",
+        "MSFT"
       ]
     },
     {
