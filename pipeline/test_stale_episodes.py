@@ -119,15 +119,20 @@ def _insert_deepdive(conn, insight_id: int, episode_id: int) -> int:
 class TestStaleEpisodesDetection:
     """Test that stale_episodes correctly identifies incomplete recent episodes."""
 
-    def test_episode_with_insight_and_deepdive_but_not_on_site_is_stale(self, tmp_path):
-        """Episode 450-like: analyzed, has insight+deepdive, but added_to_site=0."""
+    def test_episode_with_insight_and_deepdive_but_not_on_site_is_NOT_stale(self, tmp_path):
+        """Episode with insight+deepdive but added_to_site=0 is off-main overflow, NOT stale.
+        
+        These episodes lost the main-8 race (sync_main_insights_with_deepdives keeps
+        a rolling top-8 + pins). They are complete from a pipeline perspective — just
+        not displayed on the main page. They should NOT appear in stale_episodes.
+        """
         db_path = tmp_path / "test.db"
         _init_test_db(db_path)
 
         conn = sqlite3.connect(str(db_path))
         conn.row_factory = sqlite3.Row
 
-        # Episode from 5 days ago, fully processed but not on site
+        # Episode from 5 days ago, fully processed but not on site (off-main overflow)
         ep_date = date.today() - timedelta(days=5)
         ep_id = _insert_episode(
             conn,
@@ -141,7 +146,7 @@ class TestStaleEpisodesDetection:
         insight_id = _insert_insight(conn, ep_id, "Ajeya Cotra on AI Timelines")
         _insert_deepdive(conn, insight_id, ep_id)
 
-        # Run the stale detection query (extracted from export_data.py)
+        # Run the stale detection query — should NOT include off-main overflow
         stale_threshold_days = 2
         stale_lookback_days = 14
         cur = conn.execute(
@@ -162,8 +167,7 @@ class TestStaleEpisodesDetection:
             WHERE date(COALESCE(pe.episode_date, date(pe.created_at))) >= date('now', ?)
               AND julianday('now') - julianday(COALESCE(pe.episode_date, date(pe.created_at))) >= ?
               AND (
-                  pe.added_to_site = 0
-                  OR NOT EXISTS (SELECT 1 FROM latest_insights li WHERE li.podcast_episode_id = pe.id)
+                  NOT EXISTS (SELECT 1 FROM latest_insights li WHERE li.podcast_episode_id = pe.id)
                   OR NOT EXISTS (
                       SELECT 1 FROM deep_dive_content ddc
                       JOIN latest_insights li2 ON ddc.insight_id = li2.id
@@ -176,15 +180,10 @@ class TestStaleEpisodesDetection:
         rows = [dict(r) for r in cur.fetchall()]
         conn.close()
 
-        assert len(rows) == 1, f"Expected 1 stale episode, got {len(rows)}"
-        assert rows[0]["podcast_name"] == "Dwarkesh Podcast"
-        assert rows[0]["rss_guid"] == "guid-450"
-        assert rows[0]["added_to_site"] == 0
-        assert rows[0]["insight_count"] == 1
-        assert rows[0]["deepdive_count"] == 1
+        assert len(rows) == 0, f"Off-main overflow (insight+DD, added_to_site=0) should NOT be stale, got {len(rows)}"
 
     def test_episode_with_insight_but_no_deepdive_is_stale(self, tmp_path):
-        """Episode has insight but no deep dive - should be stale."""
+        """Episode has insight but no deep dive - should be stale (true pipeline debt)."""
         db_path = tmp_path / "test.db"
         _init_test_db(db_path)
 
@@ -202,8 +201,10 @@ class TestStaleEpisodesDetection:
             rss_guid="guid-453",
         )
         _insert_insight(conn, ep_id, "Macro Voices Market Analysis")
-        # No deep dive
+        # No deep dive — this is true pipeline debt
 
+        stale_threshold_days = 2
+        stale_lookback_days = 14
         cur = conn.execute(
             """
             SELECT pe.id, pe.episode_title,
@@ -212,18 +213,23 @@ class TestStaleEpisodesDetection:
                  JOIN latest_insights li2 ON ddc.insight_id = li2.id 
                  WHERE li2.podcast_episode_id = pe.id) AS deepdive_count
             FROM podcast_episodes pe
-            WHERE pe.added_to_site = 0
-              OR NOT EXISTS (
-                  SELECT 1 FROM deep_dive_content ddc
-                  JOIN latest_insights li2 ON ddc.insight_id = li2.id
-                  WHERE li2.podcast_episode_id = pe.id
+            WHERE date(COALESCE(pe.episode_date, date(pe.created_at))) >= date('now', ?)
+              AND julianday('now') - julianday(COALESCE(pe.episode_date, date(pe.created_at))) >= ?
+              AND (
+                  NOT EXISTS (SELECT 1 FROM latest_insights li WHERE li.podcast_episode_id = pe.id)
+                  OR NOT EXISTS (
+                      SELECT 1 FROM deep_dive_content ddc
+                      JOIN latest_insights li2 ON ddc.insight_id = li2.id
+                      WHERE li2.podcast_episode_id = pe.id
+                  )
               )
-            """
+            """,
+            (f"-{stale_lookback_days} days", stale_threshold_days),
         )
         rows = [dict(r) for r in cur.fetchall()]
         conn.close()
 
-        assert len(rows) == 1
+        assert len(rows) == 1, "Episode with insight but no deep dive should be stale"
         assert rows[0]["insight_count"] == 1
         assert rows[0]["deepdive_count"] == 0
 
@@ -257,8 +263,7 @@ class TestStaleEpisodesDetection:
             WHERE date(COALESCE(pe.episode_date, date(pe.created_at))) >= date('now', ?)
               AND julianday('now') - julianday(COALESCE(pe.episode_date, date(pe.created_at))) >= ?
               AND (
-                  pe.added_to_site = 0
-                  OR NOT EXISTS (SELECT 1 FROM latest_insights li WHERE li.podcast_episode_id = pe.id)
+                  NOT EXISTS (SELECT 1 FROM latest_insights li WHERE li.podcast_episode_id = pe.id)
                   OR NOT EXISTS (
                       SELECT 1 FROM deep_dive_content ddc
                       JOIN latest_insights li2 ON ddc.insight_id = li2.id
@@ -281,7 +286,7 @@ class TestStaleEpisodesDetection:
         conn = sqlite3.connect(str(db_path))
         conn.row_factory = sqlite3.Row
 
-        # Episode from yesterday
+        # Episode from yesterday — no insight/DD yet, but too fresh to be stale
         ep_date = date.today() - timedelta(days=1)
         _insert_episode(
             conn,
@@ -301,7 +306,14 @@ class TestStaleEpisodesDetection:
             FROM podcast_episodes pe
             WHERE date(COALESCE(pe.episode_date, date(pe.created_at))) >= date('now', ?)
               AND julianday('now') - julianday(COALESCE(pe.episode_date, date(pe.created_at))) >= ?
-              AND pe.added_to_site = 0
+              AND (
+                  NOT EXISTS (SELECT 1 FROM latest_insights li WHERE li.podcast_episode_id = pe.id)
+                  OR NOT EXISTS (
+                      SELECT 1 FROM deep_dive_content ddc
+                      JOIN latest_insights li2 ON ddc.insight_id = li2.id
+                      WHERE li2.podcast_episode_id = pe.id
+                  )
+              )
             """,
             (f"-{stale_lookback_days} days", stale_threshold_days),
         )
@@ -318,7 +330,7 @@ class TestStaleEpisodesDetection:
         conn = sqlite3.connect(str(db_path))
         conn.row_factory = sqlite3.Row
 
-        # Episode from 20 days ago (outside 14-day lookback)
+        # Episode from 20 days ago (outside 14-day lookback) — no insight/DD
         ep_date = date.today() - timedelta(days=20)
         _insert_episode(
             conn,
@@ -338,7 +350,14 @@ class TestStaleEpisodesDetection:
             FROM podcast_episodes pe
             WHERE date(COALESCE(pe.episode_date, date(pe.created_at))) >= date('now', ?)
               AND julianday('now') - julianday(COALESCE(pe.episode_date, date(pe.created_at))) >= ?
-              AND pe.added_to_site = 0
+              AND (
+                  NOT EXISTS (SELECT 1 FROM latest_insights li WHERE li.podcast_episode_id = pe.id)
+                  OR NOT EXISTS (
+                      SELECT 1 FROM deep_dive_content ddc
+                      JOIN latest_insights li2 ON ddc.insight_id = li2.id
+                      WHERE li2.podcast_episode_id = pe.id
+                  )
+              )
             """,
             (f"-{stale_lookback_days} days", stale_threshold_days),
         )

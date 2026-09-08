@@ -331,6 +331,7 @@ def _export_pipeline_state(site_dir: Path):
     db = get_db()
     episode_rows_by_guid = {}
     insights_by_episode_id = {}
+    deepdives_by_episode_id = {}
     try:
         with db._get_connection() as conn:
             # Insight counts for every episode id — not only rows matched by rss_guid below.
@@ -352,6 +353,24 @@ def _export_pipeline_state(site_dir: Path):
                 if pid is None:
                     continue
                 insights_by_episode_id[int(pid)] = int(rr["c"] or 0)
+
+            # Deep dive counts by episode id — used to identify off-main overflow
+            # (episodes that have insight + deep dive but just didn't make the main-8)
+            cur_dd = conn.execute(
+                """
+                SELECT li.podcast_episode_id, COUNT(ddc.id) as c
+                FROM deep_dive_content ddc
+                JOIN latest_insights li ON ddc.insight_id = li.id
+                WHERE li.podcast_episode_id IS NOT NULL
+                GROUP BY li.podcast_episode_id
+                """
+            )
+            for row2 in cur_dd.fetchall():
+                rr = dict(row2)
+                pid = rr.get("podcast_episode_id")
+                if pid is None:
+                    continue
+                deepdives_by_episode_id[int(pid)] = int(rr["c"] or 0)
 
             # Fetch all podcast_episodes rows for curated rss_guids in one shot.
             guids = [str(ep.get("rss_guid") or "").strip() for ep in curated_eps if ep.get("rss_guid")]
@@ -559,8 +578,10 @@ def _export_pipeline_state(site_dir: Path):
         transcribed = transcribed_db or transcribed_fs
         analyzed = is_processed
         insight_created = False
+        has_deepdive = False
         if podcast_episode_id is not None:
             insight_created = bool(insights_by_episode_id.get(podcast_episode_id, 0) > 0)
+            has_deepdive = bool(deepdives_by_episode_id.get(podcast_episode_id, 0) > 0)
         published = added_to_site
 
         # Stage reasons (deterministic, DB-based)
@@ -630,19 +651,28 @@ def _export_pipeline_state(site_dir: Path):
             }
         )
 
+        # Off-main overflow: episode has insight + deep dive but added_to_site=0
+        # (lost the main-8 race via sync_main_insights_with_deepdives).
+        # These are NOT pipeline debt — they're complete but not displayed on main.
+        is_off_main_overflow = insight_created and has_deepdive and not published
+
         if status != "complete" and age_days is not None and age_days >= stale_threshold_days:
-            blocker = next((k for k in ["downloaded", "transcribed", "analyzed", "insight_created", "published"] if not (episodes_out[-1]["stages"].get(k))), "unknown")
-            stale_episodes.append(
-                {
-                    "id": ep_key,
-                    "podcast": podcast,
-                    "title": episodes_out[-1]["title"],
-                    "status": status,
-                    "published": published_str,
-                    "age_days": age_days,
-                    "next_blocker": blocker,
-                }
-            )
+            # Skip off-main overflow — not escalate-worthy pipeline debt
+            if is_off_main_overflow:
+                pass
+            else:
+                blocker = next((k for k in ["downloaded", "transcribed", "analyzed", "insight_created", "published"] if not (episodes_out[-1]["stages"].get(k))), "unknown")
+                stale_episodes.append(
+                    {
+                        "id": ep_key,
+                        "podcast": podcast,
+                        "title": episodes_out[-1]["title"],
+                        "status": status,
+                        "published": published_str,
+                        "age_days": age_days,
+                        "next_blocker": blocker,
+                    }
+                )
 
     # New on feeds: RSS-only episodes not yet in curation/db pipeline selection.
     # We preserve existing curate/filter logic (window + feeds list) by using the helper.
@@ -772,10 +802,12 @@ def _export_pipeline_state(site_dir: Path):
 
     try:
         with db._get_connection() as conn:
-            # Query recent episodes not fully on site:
+            # Query recent episodes with actual pipeline debt:
             # - Within lookback window (last 14 days by episode_date or created_at)
             # - Age >= stale_threshold_days
-            # - Either: added_to_site=0, OR no insight row, OR insight exists but no deep dive
+            # - Missing insight OR missing deep dive (true pipeline debt)
+            # NOTE: episodes with insight + deep dive but added_to_site=0 are "off-main
+            # overflow" (lost the main-8 race) — NOT pipeline debt, so excluded here.
             cur = conn.execute(
                 """
                 SELECT 
@@ -797,8 +829,7 @@ def _export_pipeline_state(site_dir: Path):
                 WHERE date(COALESCE(pe.episode_date, date(pe.created_at))) >= date('now', ?)
                   AND julianday('now') - julianday(COALESCE(pe.episode_date, date(pe.created_at))) >= ?
                   AND (
-                      pe.added_to_site = 0
-                      OR NOT EXISTS (SELECT 1 FROM latest_insights li WHERE li.podcast_episode_id = pe.id)
+                      NOT EXISTS (SELECT 1 FROM latest_insights li WHERE li.podcast_episode_id = pe.id)
                       OR NOT EXISTS (
                           SELECT 1 FROM deep_dive_content ddc
                           JOIN latest_insights li2 ON ddc.insight_id = li2.id
