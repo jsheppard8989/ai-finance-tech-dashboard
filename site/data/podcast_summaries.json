@@ -76,42 +76,42 @@
     "key_tickers": null
   },
   {
-    "id": 459,
-    "podcast_name": "Moonshots with Peter Diamandis",
-    "episode_title": "GPT-6 Astra Saturates ARC-AGI-3, Tesla's $30K Cybercab Floods Austin, Anthropic Proves Fermat's Last Theorem | EP #286",
-    "episode_date": "2026-09-05",
-    "summary": "This episode of Moonshots with Peter Diamandis explores breakthrough developments across space infrastructure, autonomous vehicles, healthcare AI, and longevity science. Key investment themes include NASA's selection of Blue Origin for Mars telecommunications relay networks, signaling the emergence of interplanetary infrastructure as an investable frontier. Tesla's projected $30,000 Cyber Cab represents a potential price disruption in autonomous ride-hailing that could reshape urban mobility economics. In healthcare, the FDA approval of a RAS inhibitor for previously 'undruggable' cancers marks a watershed moment in targeted oncology, while OpenAI's integration into Epic's electronic health records demonstrates AI's accelerating penetration into clinical workflows. Perhaps most significantly for longevity investors, new research links GLP-1 drugs to lifespan extension and reduced infections, potentially expanding their addressable market beyond diabetes and obesity into anti-aging therapeutics.",
+    "id": 457,
+    "podcast_name": "All-In with Chamath, Jason, Sacks & Friedberg",
+    "episode_title": "GPT-6 Hits AGI? Tech Euphoria 2.0, SF Mansion Shortage, NYC Bans AI in Schools & Venezuela Oil Deal",
+    "episode_date": "2026-09-04",
+    "summary": "The hosts discuss OpenAI's anticipated ChatGPT-6 (Astra) release and whether it signals true AGI, with Chamath arguing AGI has effectively arrived since early 2024. A central theme is the bifurcation of AI into 'frontier intelligence' (OpenAI, Anthropic, Google Gemini) versus 'commodity intelligence' (open-source models), creating divergent investment dynamics. The conversation explores regulatory risks from potential FDA-style AI oversight that could cede U.S. competitiveness to China. On energy, the hosts analyze a reported 100-year U.S. oil concession in Venezuela as geopolitical realignment against Russian and Chinese influence. Education policy comes under scrutiny, with NYC's K-8 AI ban criticized as exacerbating inequality between public and private school students. Throughout, the hosts debate whether current tech valuations represent a sustainable boom or late-1990s-style bubble conditions.",
     "key_takeaways": [
-      "Blue Origin's NASA contract for Mars telecom establishes early competitive positioning in interplanetary infrastructure, with implications for space economy investors",
-      "Tesla's $30,000 Cyber Cab target price could undercut existing autonomous vehicle economics by 50-70%, potentially triggering rapid fleet adoption and urban transport disruption",
-      "RAS inhibitors represent a breakthrough in targeting 30% of human cancers previously considered undruggable, with expansion from pancreatic to lung cancer indications underway",
-      "OpenAI-Epic integration enables natural language queries across complete patient records, suggesting AI healthcare adoption is moving from pilot to production at scale",
-      "GLP-1 drugs show almost 100-day lifespan extension in late-life mouse studies, indicating potential repositioning from metabolic to longevity therapeutics with massive TAM expansion",
-      "Space infrastructure, particularly interplanetary communications, is transitioning from government-only to commercially competitive with identifiable investment entry points",
-      "Healthcare AI integration is shifting from diagnostic imaging to clinical workflow and EHR analytics, representing a broader enterprise software opportunity in medicine"
+      "AI market structure is splitting into 'frontier intelligence' (premium, defensible models) and 'commodity intelligence' (open-source, price-competing models) with fundamentally different investment profiles",
+      "Regulatory overreach modeled on FDA drug approval timelines poses existential risk to U.S. AI leadership versus China",
+      "Geopolitical energy realignment through Venezuela oil deal offers 65 billion barrels of reserves and regional stabilization against adversarial powers",
+      "Educational AI bans in public schools create K-shaped inequality: wealthy students in private schools gain AI fluency while public school students fall behind",
+      "Data center sentiment has shifted dramatically (30-40 point swing) as NIMBY resistance meets power constraints and capital intensity",
+      "AI cybersecurity offense-defense dynamics favor incumbents with scale; 'AI powered cyber defense' is the asymmetric response to AI-powered attacks",
+      "Adaptive learning technologies represent the largest addressable market in education, replacing grade-level 'lowest common denominator' models"
     ],
-    "investment_thesis": "The convergence of space commercialization, autonomous mobility price disruption, and healthcare's shift from treatment to prevention and longevity creates a multi-decade investment opportunity in infrastructure-for-frontier-markets, with GLP-1 drugs potentially becoming the largest pharmaceutical category in history if lifespan extension claims hold in human trials.",
+    "investment_thesis": "Position for a two-tier AI market where frontier model providers command scarcity premiums while commodity AI faces relentless price compression, with regulatory and energy infrastructure as the critical swing factors determining geographic and competitive winners.",
     "key_tickers": [
-      "TSLA",
-      "AMZN"
+      "GOOGL",
+      "MSFT"
     ]
   },
   {
-    "id": 458,
+    "id": 452,
     "podcast_name": "The a16z Show",
-    "episode_title": "Aaron Levie on Why Open AI Wins",
-    "episode_date": "2026-09-05",
-    "summary": "This episode features a16z partner Aaron Levy discussing the strategic importance of open weights AI models for maintaining U.S. competitiveness against China, particularly in the context of national security and innovation ecosystems. Levy argues that open weights models do not compete with closed models but rather drive innovation across the entire AI stack, pushing closed providers to improve faster. The discussion covers the economics of model distillation, framing it as a natural market dynamic rather than purely an ethical concern. A key investment theme is the emergence of model routing as the dominant enterprise AI architecture, where value accrues to the orchestration layer that can intelligently dispatch tasks across multiple specialized models. Levy also notes significant performance improvements in recent releases from OpenAI and Anthropic, particularly for knowledge work applications.",
+    "episode_title": "Fei Fei Li: The Race to Build World Models For AI",
+    "episode_date": "2026-09-04",
+    "summary": "This episode of The a16z Show explores Atlas, a next-generation world model that unifies 3D generation, reconstruction, and simulation through new view prediction. The discussion centers on how Atlas can generate high-quality video frames and perform sparse 3D reconstruction from as few as three camera views, dramatically reducing data capture requirements. The hosts and guests examine how Atlas's multi-modal architecture---integrating text, images, videos, and camera poses---addresses a long-standing gap in computer vision by combining pixel generation and reconstruction in a single model. The conversation highlights implications for creative industries, architecture, robotics, and simulation, while noting that computational resources remain the primary bottleneck for scaling. The episode positions new view prediction as a potential foundational primitive for future AI development, analogous to next token prediction in language models, with significant investment implications across gaming, virtual reality, robotics, and AI infrastructure.",
     "key_takeaways": [
-      "Open weights AI models are complementary to closed models, accelerating innovation across the entire ecosystem rather than cannibalizing it",
-      "U.S. policy and investment in open weights models is critical to avoid technological dependence on China, which currently leads in this domain",
-      "Model distillation should be viewed as standard economic activity in competitive markets, not primarily as an ethical violation",
-      "Enterprise AI value will increasingly accrue to model routing and orchestration layers that can optimize across multiple models for cost and performance",
-      "Recent model releases from OpenAI and Anthropic show meaningful capability jumps, particularly for knowledge work and complex reasoning tasks",
-      "Investors should prioritize companies building open weights infrastructure or model-agnostic platforms over single-model dependencies",
-      "Government funding initiatives for domestic AI innovation represent a key policy catalyst to monitor for portfolio positioning"
+      "New view prediction represents a potential foundational primitive for AI, comparable to next token prediction in LLMs, with broad applications across 3D environments",
+      "Atlas reduces 3D reconstruction data requirements from hundreds of images to as few as three camera views, dramatically lowering barriers to entry and enabling mass-market adoption",
+      "Multi-modal AI integration (text, images, video, camera poses) creates competitive moats and expands addressable markets beyond single-modality solutions",
+      "The unification of generation and reconstruction in a single architecture eliminates fragmentation in computer vision workflows, suggesting consolidation opportunities",
+      "Robotics and simulation represent high-conviction application areas where Atlas could accelerate training data generation and policy development",
+      "Training compute is the explicit bottleneck for scaling, implying infrastructure providers and efficient training methodologies will capture significant value",
+      "Creative industries, architecture, and gaming face disruption from AI-native 3D tools that compress production timelines and reduce specialized labor dependency"
     ],
-    "investment_thesis": "The winning AI infrastructure investments will be in open-weights-enabling platforms and model-agnostic orchestration layers, as enterprise adoption shifts from single-model dependence to intelligent routing across specialized models.",
+    "investment_thesis": "New view prediction and unified 3D world models represent a paradigm shift in computer vision with investable implications across AI infrastructure, robotics simulation, and creative tools, where first-movers leveraging multi-modal efficiency gains will capture disproportionate value as compute constraints ease.",
     "key_tickers": null
   },
   {
