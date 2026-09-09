@@ -1,6 +1,6 @@
 {
   "_comment": "Featured/curated Overton terms that bypass the podcast mention pipeline. These are pinned at the top of the Overton Window with a 'Debated' badge. Pipeline exports cannot overwrite this file.",
-  "_updated": "2026-09-08",
+  "_updated": "2026-09-09",
   "schema_version": 1,
   "featured": [
     {
@@ -22,7 +22,25 @@
         "note": "JG Thu Overton input 2026-09-08 (Tue prep); SB0607 + auction calendar."
       },
       "status": "active",
-      "display_order": 1
+      "display_order": 1,
+      "falsifier_log": [
+        {
+          "test_id": 1,
+          "label": "Sep 9 10y reopen",
+          "status": "pending",
+          "one_liner": null,
+          "as_of": null,
+          "source": null
+        },
+        {
+          "test_id": 2,
+          "label": "Sep 10 30y reopen",
+          "status": "pending",
+          "one_liner": null,
+          "as_of": null,
+          "source": null
+        }
+      ]
     }
   ]
 }

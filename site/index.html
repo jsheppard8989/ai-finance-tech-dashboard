@@ -448,6 +448,76 @@
       font-weight: 600;
     }
 
+    /* Falsifier track for featured cards */
+    .overton-window-item.featured-item .falsifier-track {
+      margin-top: 0.6rem;
+      padding-top: 0.5rem;
+      border-top: 1px solid rgba(255, 255, 255, 0.05);
+    }
+
+    .overton-window-item.featured-item .falsifier-track-label {
+      font-size: 0.7rem;
+      font-weight: 700;
+      color: #9ca3af;
+      text-transform: uppercase;
+      letter-spacing: 0.04em;
+      margin-bottom: 0.35rem;
+    }
+
+    .overton-window-item.featured-item .falsifier-entry {
+      display: flex;
+      align-items: baseline;
+      gap: 0.5rem;
+      font-size: 0.78rem;
+      color: #a8b2d1;
+      line-height: 1.5;
+      margin-bottom: 0.15rem;
+    }
+
+    .overton-window-item.featured-item .falsifier-entry:last-child {
+      margin-bottom: 0;
+    }
+
+    .overton-window-item.featured-item .falsifier-badge {
+      display: inline-block;
+      font-size: 0.65rem;
+      font-weight: 600;
+      text-transform: uppercase;
+      letter-spacing: 0.03em;
+      padding: 0.1rem 0.35rem;
+      border-radius: 3px;
+      flex-shrink: 0;
+    }
+
+    .overton-window-item.featured-item .falsifier-badge.pending {
+      background: rgba(107, 114, 128, 0.25);
+      color: #9ca3af;
+    }
+
+    .overton-window-item.featured-item .falsifier-badge.pass {
+      background: rgba(34, 197, 94, 0.2);
+      color: #22c55e;
+    }
+
+    .overton-window-item.featured-item .falsifier-badge.fail {
+      background: rgba(245, 158, 11, 0.2);
+      color: #f59e0b;
+    }
+
+    .overton-window-item.featured-item .falsifier-badge.inconclusive {
+      background: rgba(168, 162, 158, 0.2);
+      color: #a8a29e;
+    }
+
+    .overton-window-item.featured-item .falsifier-label {
+      flex-shrink: 0;
+    }
+
+    .overton-window-item.featured-item .falsifier-oneliner {
+      color: #8892b0;
+      font-style: italic;
+    }
+
     .guest-item {
       position: relative;
       overflow: hidden;
@@ -2078,6 +2148,28 @@
         }
         if (decisiveTest) {
           sectionsHtml += '<div class="ow-section"><div class="ow-section-label">Decisive test</div><div class="ow-section-content">' + decisiveTest + '</div></div>';
+        }
+        // Falsifier track: compact pass/fail annotation for decisive tests
+        const falsifierLog = f.falsifier_log || [];
+        if (falsifierLog.length > 0) {
+          let entriesHtml = '';
+          for (let i = 0; i < falsifierLog.length; i++) {
+            const entry = falsifierLog[i];
+            const label = esc(entry.label || '');
+            const status = (entry.status || 'pending').toLowerCase();
+            const oneLiner = entry.one_liner ? esc(entry.one_liner) : '';
+            let badgeClass = 'pending';
+            let badgeText = 'awaiting print';
+            if (status === 'pass') { badgeClass = 'pass'; badgeText = 'pass'; }
+            else if (status === 'fail') { badgeClass = 'fail'; badgeText = 'fail'; }
+            else if (status === 'inconclusive') { badgeClass = 'inconclusive'; badgeText = 'inconclusive'; }
+            entriesHtml += '<div class="falsifier-entry">' +
+              '<span class="falsifier-label">' + label + '</span>' +
+              '<span class="falsifier-badge ' + badgeClass + '">' + badgeText + '</span>' +
+              (oneLiner ? '<span class="falsifier-oneliner">' + oneLiner + '</span>' : '') +
+            '</div>';
+          }
+          sectionsHtml += '<div class="falsifier-track"><div class="falsifier-track-label">Falsifier track</div>' + entriesHtml + '</div>';
         }
         if (nestedNote) {
           sectionsHtml += '<div class="ow-nested-note">' + nestedNote + '</div>';
