@@ -2307,8 +2307,30 @@
           const tc = data.treasury_calendar;
           const qra = tc.next_refunding_announcement;
           const auctions = tc.upcoming_auctions || [];
+          const results = tc.recent_auction_results || [];
           
           let html = '';
+          
+          // Recent auction results (completed auctions with key metrics)
+          if (results.length > 0) {
+            html += '<div style="margin-bottom: 0.5rem;">';
+            results.slice(0, 2).forEach(function(r) {
+              const shortSec = r.security.replace(' Note', '').replace(' Bond', '');
+              html += '<div style="font-size: 0.72rem; margin-bottom: 0.25rem; padding: 0.25rem 0; border-bottom: 1px solid rgba(0,212,255,0.15);">';
+              html += '<div style="color: #10b981; font-weight: 500;">' + r.date + ': ' + shortSec + ' <span style="color: #6b7280; font-weight: 400;">RESULTS</span></div>';
+              html += '<div style="color: #a8b2d1; font-size: 0.68rem; margin-top: 0.1rem;">';
+              html += '<span class="plumbing-num">' + r.high_yield_pct + '%</span> stop · ';
+              html += 'BTC <span class="plumbing-num">' + r.bid_to_cover + '</span> · ';
+              html += '<span class="plumbing-num">' + r.allocation_at_high_pct + '%</span> alloc';
+              html += '</div>';
+              if (r.stranger_note) {
+                html += '<div style="color: #6b7280; font-size: 0.62rem; margin-top: 0.1rem; font-style: italic;">' + r.stranger_note + '</div>';
+              }
+              html += '</div>';
+            });
+            html += '</div>';
+          }
+          
           if (qra && qra.date) {
             html += '<div style="margin-bottom: 0.4rem;"><span style="color: #a8b2d1;">Next QRA:</span> <span class="plumbing-num">' + qra.date + '</span> <span style="color: #6b7280; font-size: 0.65rem;">(' + (qra.status || 'est.') + ')</span></div>';
           }
