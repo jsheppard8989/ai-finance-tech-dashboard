@@ -1,0 +1,106 @@
+{
+  "_schema_version": 1,
+  "_comment": "Trap Map: Research-based thesis cards with falsifiable tests. Each trap corresponds to one research piece and tracks validation status. FORBIDDEN: any language about holdings, portfolio positions, share counts, powder, IRA, buy/sell sizing, kill, kill-shot, Vote, Debait tip, or whether 'we' hold the name.",
+  "_field_definitions": {
+    "id": "Stable slug identifier for the trap",
+    "title": "Short headline for the card",
+    "validation_status": "WATCH = live thesis, next named print is the gate; HOLD = goalposts set (thesis language, not a portfolio hold); POUNCE = print flipped the map for investigation (not a buy call); RELEGATE = demoted on the map",
+    "who_collects_rent": "Entity/mechanism that captures economic rent first",
+    "leftover": "Who gets the residual after rent-collectors clear",
+    "decisive_test": "Single stranger-checkable test that validates or falsifies the thesis",
+    "next_datapoint": "Optional: { label, expected_date } for tracking upcoming prints",
+    "relegate_if": "Conditions under which the thesis should be relegated",
+    "sources": "Array of primary source labels (URLs added when available)",
+    "updated_at": "ISO date of last update"
+  },
+  "public_rules": {
+    "status_vocab": ["WATCH", "HOLD", "POUNCE", "RELEGATE"],
+    "forbidden": ["kill", "kill-shot", "holdings", "position size", "powder", "IRA", "buy", "sell", "Vote", "Debait tip"],
+    "status_legend": {
+      "WATCH": "Live thesis — next named print is the gate",
+      "HOLD": "Goalposts set (thesis language, not a portfolio hold)",
+      "POUNCE": "Print flipped the map for investigation (not a buy call)",
+      "RELEGATE": "Demoted on the map"
+    }
+  },
+  "as_of": "2026-09-09",
+  "traps": [
+    {
+      "id": "trap-1-power-interconnect",
+      "title": "Power + interconnect into data centers",
+      "validation_status": "WATCH",
+      "who_collects_rent": "Regulated T&D / FERC transmission owners / mandatory CIAC or DCT collateral / firm capacity or RBP offtake — not uncured queue MW or GPU narrative.",
+      "leftover": "Hyperscaler or colo equity priced as if watts and interconnect are free; miners without firm PPA or curtailable tariff edge.",
+      "decisive_test": "Next named print that re-prices who clears the gate: Dominion CIAC tariff text (PUR-2026-00131, ~late Oct 2026), peer DCT asks→binding MW, new PJM IMM/BRA DC-load revenue attribution, or FERC §206 large-load tariff text (≤16 Nov 2026).",
+      "next_datapoint": {
+        "label": "EIA Sep STEO TX/WSC commercial vs Aug 14%→6% cut; then Dominion CIAC tariff text / FERC §206 large-load tariff",
+        "expected_date": "STEO 2026-09-09 ~11:00–11:15 CDT; CIAC ~late Oct 2026 (PUR-2026-00131); §206 on/before 16 Nov 2026; PJM wants ER26-3380 order by 29 Sep 2026"
+      },
+      "relegate_if": "Sustained PJM BRA collapse without load-forecast cuts or firm-capacity flood; Batch Zero / DCT / CIAC watered so speculative queue MW energize without collateral; transformer/GSU lead times mean-revert under ~12 months with no price spike.",
+      "sources": [
+        "PJM IMM / Monitoring Analytics SOM (DC load BRA attribution)",
+        "VA SCC PUR-2026-00056 / PUR-2026-00131",
+        "FERC EL26-67 et al.",
+        "ERCOT Batch Zero / PUCT materials"
+      ],
+      "updated_at": "2026-09-09"
+    },
+    {
+      "id": "asts-secondary-watch",
+      "title": "AST SpaceMobile — path-to-profit vs CapEx identity",
+      "validation_status": "WATCH",
+      "who_collects_rent": "Gateway / government milestone revenue and the CapEx + convert stack that funds constellation build.",
+      "leftover": "Equity priced as if commercial direct-to-device service is already clearing CapEx multiples.",
+      "decisive_test": "Q1 2027 Form 10-Q discloses whether approximately 45 BlueBird satellites are in orbit vs Jul 15 2026 8-K early-2027 target.",
+      "next_datapoint": {
+        "label": "Next intervening 8-K / IR launch or schedule print; then Q1 2027 10-Q constellation disclosure vs Jul 15 2026 8-K ~45 BlueBirds early 2027",
+        "expected_date": "Ongoing IR/8-K; decisive window = Q1 2027 10-Q filing"
+      },
+      "relegate_if": "Q1 2027 10-Q does not disclose ~45 BlueBirds in orbit against the Jul 15 2026 8-K target — or a new 8-K officially slips the constellation schedule without a replacement checkable date.",
+      "sources": [
+        "ASTS 8-K 2026-07-15 (accession 0001493152-26-033365)",
+        "ASTS 10-Q / Ex. 99.1 filed 2026-08-10"
+      ],
+      "updated_at": "2026-09-09"
+    },
+    {
+      "id": "arkg-hold-goalposts",
+      "title": "ARK Genomic Revolution — theme basket vs first-money prints",
+      "validation_status": "HOLD",
+      "status_note": "HOLD = thesis goalposts set, not a portfolio hold. This card tracks validation criteria for the genomic-innovation theme, not a position.",
+      "who_collects_rent": "Platform tools (ILMN/TXG/TWST), reimbursed diagnostics (NTRA/GH/TEM), therapeutic cash (LLY / Vertex-led CASGEVY; CRSP as residual partner).",
+      "leftover": "Active mid/small genomic ETF sleeve after platform/dx/therapy cash + fee drag + clinical optionality overlap.",
+      "decisive_test": "≥2 goalpost prints decide thesis upgrade vs relegate pressure — never a tip: TWST Q4 adj. EBITDA path; TEM–PSNL close track; NTRA/GH guides; gene-edit path (CASGEVY uptake or NTLA BLA acceptance); opposite cluster for relegate pressure.",
+      "next_datapoint": {
+        "label": "TWST Q4 FY26 adj. EBITDA print / TEM–PSNL close update / NTLA BLA acceptance window",
+        "expected_date": "TWST ~Nov FY26 report; TEM–PSNL late Q4'26–early'27; NTLA acceptance expected 2H 2026"
+      },
+      "relegate_if": "≥2 of: TWST ops miss on Q4 adj. EBITDA; TEM–PSNL deal break; TXG/ILMN guide cuts while top weights; dilution cascade across clinical sleeve; sustained fund outflows into weakness.",
+      "sources": [
+        "ARK published weight CSV (public disclosure)",
+        "Company IR / 10-Q for TWST, TEM, CRSP, NTLA, BEAM",
+        "ETFDB/Morningstar AUM-flow prints (dated)"
+      ],
+      "updated_at": "2026-09-09"
+    },
+    {
+      "id": "buyback-confession-captive-duration",
+      "title": "Buyback as confession — captive duration",
+      "validation_status": "WATCH",
+      "who_collects_rent": "Whoever is forced or structurally bid to warehouse long-end duration (banks/pensions under repression; issuer as standing long-end bid via enlarged buybacks) while coupon supply continues.",
+      "leftover": "Narratives that treat buybacks as one-off 'support' while private sponsorship of the long end remains thin.",
+      "decisive_test": "Sep 9 10y / Sep 10 30y cover-tail-indirects; first enlarged long-end buyback ops after Sep 9; Nov 4 refunding buyback sizes.",
+      "next_datapoint": {
+        "label": "Sep 9 10y coupon auction cover-tail-indirects; Sep 10 30y; first enlarged long-end buyback ops after Sep 9; Nov 4 refunding buyback sizes",
+        "expected_date": "2026-09-09; 2026-09-10; then Nov 4 2026 refunding"
+      },
+      "relegate_if": "Strong private auction sponsorship makes buybacks cosmetic; or Nov 4 refunding cuts buyback sizes so the structural state-bid claim dies.",
+      "sources": [
+        "Treasury SB0607 / buyback announcements",
+        "Auction results (cover, tail, indirects)",
+        "FRED CMT / refunding documents"
+      ],
+      "updated_at": "2026-09-09"
+    }
+  ]
+}

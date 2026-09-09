@@ -1,0 +1,607 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Trap Map | AI, Finance, Tech: Scarcity & Abundance</title>
+  <style>
+    * { margin: 0; padding: 0; box-sizing: border-box; }
+    body {
+      font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif;
+      background: linear-gradient(135deg, #1a1a2e 0%, #16213e 50%, #0f3460 100%);
+      min-height: 100vh;
+      color: #e8e8e8;
+      line-height: 1.6;
+      padding: 2rem;
+    }
+    .container { max-width: 1200px; margin: 0 auto; }
+    .back-link { 
+      color: #00d4ff; 
+      text-decoration: none; 
+      display: inline-flex; 
+      align-items: center; 
+      gap: 0.5rem; 
+      margin-bottom: 2rem; 
+      font-size: 0.9rem; 
+    }
+    .back-link:hover { text-decoration: underline; }
+    
+    h1 { 
+      font-size: 2.2rem; 
+      margin-bottom: 0.5rem; 
+      background: linear-gradient(135deg, #00d4ff 0%, #7b2cbf 100%); 
+      -webkit-background-clip: text; 
+      -webkit-text-fill-color: transparent;
+      background-clip: text;
+    }
+    .subtitle { color: #8892b0; margin-bottom: 0.5rem; font-size: 1rem; }
+    .page-description {
+      color: #6b7280;
+      font-size: 0.85rem;
+      margin-bottom: 2rem;
+      max-width: 800px;
+      line-height: 1.7;
+    }
+
+    /* Stats bar */
+    .stats { 
+      display: flex; 
+      gap: 1rem; 
+      margin-bottom: 2rem; 
+      flex-wrap: wrap;
+    }
+    .stat-box { 
+      background: rgba(255, 255, 255, 0.03); 
+      border: 1px solid rgba(255, 255, 255, 0.1); 
+      padding: 0.75rem 1.25rem; 
+      border-radius: 8px; 
+      text-align: center; 
+      min-width: 100px; 
+    }
+    .stat-number { font-size: 1.3rem; font-weight: 600; color: #00d4ff; }
+    .stat-label { font-size: 0.75rem; color: #8892b0; margin-top: 0.15rem; }
+    
+    /* Status-specific stat boxes */
+    .stat-box.watch .stat-number { color: #fbbf24; }
+    .stat-box.hold .stat-number { color: #3b82f6; }
+    .stat-box.pounce .stat-number { color: #10b981; }
+    .stat-box.relegate .stat-number { color: #6b7280; }
+
+    /* Trap cards grid */
+    .trap-grid {
+      display: grid;
+      grid-template-columns: repeat(auto-fill, minmax(380px, 1fr));
+      gap: 1.5rem;
+    }
+    
+    @media (max-width: 480px) {
+      .trap-grid {
+        grid-template-columns: 1fr;
+      }
+    }
+
+    /* Individual trap card */
+    .trap-card {
+      background: rgba(255, 255, 255, 0.03);
+      border: 1px solid rgba(255, 255, 255, 0.1);
+      border-radius: 12px;
+      padding: 1.5rem;
+      transition: all 0.3s ease;
+      position: relative;
+      overflow: hidden;
+    }
+    .trap-card:hover {
+      background: rgba(255, 255, 255, 0.05);
+      border-color: rgba(0, 212, 255, 0.3);
+      transform: translateY(-2px);
+      box-shadow: 0 8px 32px rgba(0, 0, 0, 0.3);
+    }
+    .trap-card::before {
+      content: '';
+      position: absolute;
+      top: 0;
+      left: 0;
+      right: 0;
+      height: 3px;
+      background: linear-gradient(90deg, #00d4ff, #7b2cbf);
+      opacity: 0;
+      transition: opacity 0.3s;
+    }
+    .trap-card:hover::before {
+      opacity: 1;
+    }
+
+    /* Card header */
+    .trap-header {
+      display: flex;
+      justify-content: space-between;
+      align-items: flex-start;
+      gap: 1rem;
+      margin-bottom: 1rem;
+    }
+    .trap-title {
+      font-size: 1.15rem;
+      font-weight: 600;
+      color: #e8e8e8;
+      flex: 1;
+      min-width: 0;
+    }
+
+    /* Status badges */
+    .status-badge {
+      padding: 0.35rem 0.75rem;
+      border-radius: 6px;
+      font-size: 0.7rem;
+      font-weight: 700;
+      text-transform: uppercase;
+      letter-spacing: 0.05em;
+      white-space: nowrap;
+    }
+    .status-badge.watch {
+      background: rgba(251, 191, 36, 0.15);
+      border: 1px solid rgba(251, 191, 36, 0.4);
+      color: #fbbf24;
+    }
+    .status-badge.hold {
+      background: rgba(59, 130, 246, 0.15);
+      border: 1px solid rgba(59, 130, 246, 0.4);
+      color: #3b82f6;
+    }
+    .status-badge.pounce {
+      background: rgba(16, 185, 129, 0.15);
+      border: 1px solid rgba(16, 185, 129, 0.4);
+      color: #10b981;
+    }
+    .status-badge.relegate {
+      background: rgba(107, 114, 128, 0.15);
+      border: 1px solid rgba(107, 114, 128, 0.4);
+      color: #6b7280;
+    }
+
+    /* Card sections */
+    .trap-section {
+      margin-bottom: 1rem;
+    }
+    .trap-section-label {
+      font-size: 0.7rem;
+      font-weight: 600;
+      color: #00d4ff;
+      text-transform: uppercase;
+      letter-spacing: 0.05em;
+      margin-bottom: 0.35rem;
+    }
+    .trap-section-content {
+      font-size: 0.88rem;
+      color: #a8b2d1;
+      line-height: 1.65;
+    }
+
+    /* Thesis summary */
+    .trap-thesis {
+      background: rgba(0, 212, 255, 0.05);
+      border-left: 3px solid rgba(0, 212, 255, 0.5);
+      padding: 0.75rem 1rem;
+      border-radius: 0 8px 8px 0;
+      margin-bottom: 1rem;
+    }
+    .trap-thesis p {
+      font-size: 0.9rem;
+      color: #e8e8e8;
+      line-height: 1.7;
+      margin: 0;
+    }
+
+    /* Decisive test (highlighted) */
+    .decisive-test {
+      background: rgba(251, 191, 36, 0.06);
+      border: 1px solid rgba(251, 191, 36, 0.25);
+      border-radius: 8px;
+      padding: 0.85rem 1rem;
+      margin-bottom: 1rem;
+    }
+    .decisive-test .trap-section-label {
+      color: #fbbf24;
+    }
+    .decisive-test .trap-section-content {
+      color: #e8e8e8;
+      font-size: 0.85rem;
+    }
+
+    /* Next datapoint callout */
+    .next-datapoint {
+      background: rgba(123, 44, 191, 0.08);
+      border: 1px solid rgba(123, 44, 191, 0.25);
+      border-radius: 8px;
+      padding: 0.75rem 1rem;
+      margin-bottom: 1rem;
+      display: flex;
+      align-items: center;
+      gap: 0.75rem;
+    }
+    .next-datapoint-icon {
+      font-size: 1.2rem;
+    }
+    .next-datapoint-content {
+      flex: 1;
+      min-width: 0;
+    }
+    .next-datapoint-label {
+      font-size: 0.85rem;
+      color: #c084fc;
+      font-weight: 600;
+    }
+    .next-datapoint-date {
+      font-size: 0.75rem;
+      color: #8892b0;
+    }
+    .next-datapoint-hint {
+      font-size: 0.72rem;
+      color: #6b7280;
+      font-style: italic;
+    }
+
+    /* Who collects rent */
+    .rent-section {
+      background: rgba(16, 185, 129, 0.06);
+      border: 1px solid rgba(16, 185, 129, 0.2);
+      border-radius: 8px;
+      padding: 0.75rem 1rem;
+      margin-bottom: 1rem;
+    }
+    .rent-section .trap-section-label {
+      color: #10b981;
+    }
+
+    /* Leftover section */
+    .leftover-section {
+      background: rgba(107, 114, 128, 0.08);
+      border: 1px solid rgba(107, 114, 128, 0.2);
+      border-radius: 8px;
+      padding: 0.75rem 1rem;
+      margin-bottom: 1rem;
+    }
+    .leftover-section .trap-section-label {
+      color: #9ca3af;
+    }
+
+    /* Relegate-if section */
+    .relegate-section {
+      background: rgba(239, 68, 68, 0.06);
+      border: 1px solid rgba(239, 68, 68, 0.2);
+      border-radius: 8px;
+      padding: 0.75rem 1rem;
+      margin-bottom: 1rem;
+    }
+    .relegate-section .trap-section-label {
+      color: #f87171;
+    }
+
+    /* Sources */
+    .trap-sources {
+      margin-top: 1rem;
+      padding-top: 1rem;
+      border-top: 1px solid rgba(255, 255, 255, 0.08);
+    }
+    .trap-sources-title {
+      font-size: 0.7rem;
+      color: #6b7280;
+      text-transform: uppercase;
+      letter-spacing: 0.05em;
+      margin-bottom: 0.5rem;
+    }
+    .source-link {
+      display: inline-block;
+      font-size: 0.75rem;
+      color: #00d4ff;
+      text-decoration: none;
+      margin-right: 1rem;
+      margin-bottom: 0.25rem;
+    }
+    .source-link:hover {
+      text-decoration: underline;
+    }
+    .source-date {
+      color: #6b7280;
+      font-size: 0.7rem;
+    }
+
+    /* Updated timestamp */
+    .trap-updated {
+      font-size: 0.7rem;
+      color: #4b5563;
+      margin-top: 0.75rem;
+      text-align: right;
+    }
+
+    /* Footer */
+    footer {
+      margin-top: 3rem;
+      padding: 1.5rem;
+      text-align: center;
+      border-top: 1px solid rgba(255, 255, 255, 0.08);
+    }
+    footer a {
+      color: #00d4ff;
+      text-decoration: none;
+      margin: 0 0.75rem;
+      font-size: 0.85rem;
+    }
+    footer a:hover {
+      text-decoration: underline;
+    }
+    .credit {
+      color: #8892b0;
+      font-size: 0.8rem;
+      margin-bottom: 0.5rem;
+    }
+    .subtext {
+      color: #6b7280;
+      font-size: 0.75rem;
+    }
+
+    /* Empty state */
+    .empty-state {
+      text-align: center;
+      padding: 4rem 2rem;
+      color: #6b7280;
+    }
+    .empty-state-icon {
+      font-size: 3rem;
+      margin-bottom: 1rem;
+    }
+
+    /* Disclaimer */
+    .disclaimer {
+      background: rgba(0, 0, 0, 0.2);
+      border: 1px solid rgba(255, 255, 255, 0.1);
+      border-radius: 8px;
+      padding: 0.75rem;
+      margin: 2rem 0;
+      text-align: center;
+    }
+    .disclaimer p {
+      color: #8892b0;
+      font-size: 0.75rem;
+      line-height: 1.5;
+      margin: 0;
+    }
+  </style>
+</head>
+<body>
+  <div class="container">
+    <a href="index.html" class="back-link">← Back to Dashboard</a>
+    
+    <h1>Trap Map</h1>
+    <p class="subtitle">Research theses under falsifiable tests — who gets paid first, what print decides, when to relegate.</p>
+    <p class="page-description">
+      Hunt list of checkable research objects. Not tips, scores, holdings, or position size. Each card tracks a thesis 
+      with a stranger-checkable decisive test and named prints that move the map.
+    </p>
+
+    <!-- Status Legend -->
+    <div class="status-legend" style="background: rgba(255,255,255,0.02); border: 1px solid rgba(255,255,255,0.08); border-radius: 8px; padding: 0.75rem 1rem; margin-bottom: 1.5rem; font-size: 0.8rem;">
+      <div style="display: flex; flex-wrap: wrap; gap: 1rem; color: #8892b0;">
+        <span><strong style="color: #fbbf24;">WATCH</strong> = live thesis, next named print is the gate</span>
+        <span><strong style="color: #3b82f6;">HOLD</strong> = goalposts set (thesis language, not a portfolio hold)</span>
+        <span><strong style="color: #10b981;">POUNCE</strong> = print flipped the map for investigation (not a buy call)</span>
+        <span><strong style="color: #6b7280;">RELEGATE</strong> = demoted on the map</span>
+      </div>
+    </div>
+
+    <div class="stats" id="statsContainer">
+      <div class="stat-box"><div class="stat-number" id="totalCount">0</div><div class="stat-label">Total Traps</div></div>
+      <div class="stat-box watch"><div class="stat-number" id="watchCount">0</div><div class="stat-label">Watch</div></div>
+      <div class="stat-box hold"><div class="stat-number" id="holdCount">0</div><div class="stat-label">Hold</div></div>
+      <div class="stat-box pounce"><div class="stat-number" id="pounceCount">0</div><div class="stat-label">Pounce</div></div>
+      <div class="stat-box relegate"><div class="stat-number" id="relegateCount">0</div><div class="stat-label">Relegate</div></div>
+    </div>
+
+    <div class="trap-grid" id="trapGrid">
+      <div class="empty-state">
+        <div class="empty-state-icon">🔍</div>
+        <div>Loading trap map data...</div>
+      </div>
+    </div>
+
+    <div class="disclaimer">
+      <p>
+        <strong>Disclaimer:</strong> Nothing on this page constitutes investment advice or a recommendation to buy or sell any security.
+        All content is for informational and research documentation purposes only. 
+        Past performance is not indicative of future results. Always conduct your own research.
+      </p>
+    </div>
+
+    <footer>
+      <div class="credit">Jared Sheppard</div>
+      <div class="subtext">Personal research board · Not financial advice</div>
+      <div class="subtext" style="margin-top: 0.5rem;">
+        <a href="archive.html">Archive</a> · 
+        <a href="debait.html">Long & Short</a> · 
+        <a href="index.html">Home</a> · 
+        <a href="trap-map.html" style="color: #c084fc;">Trap Map</a> · 
+        <a href="pipeline-health.html">Data Status</a>
+      </div>
+    </footer>
+  </div>
+
+  <script>
+    function escapeHtml(str) {
+      if (!str) return '';
+      const div = document.createElement('div');
+      div.textContent = String(str);
+      return div.innerHTML;
+    }
+
+    function formatDate(dateStr) {
+      if (!dateStr) return '';
+      try {
+        const d = new Date(dateStr);
+        if (isNaN(d.getTime())) return dateStr;
+        return d.toLocaleDateString('en-US', { month: 'short', day: 'numeric', year: 'numeric' });
+      } catch (e) {
+        return dateStr;
+      }
+    }
+
+    function getStatusClass(status) {
+      const s = (status || '').toUpperCase();
+      if (s === 'WATCH') return 'watch';
+      if (s === 'HOLD') return 'hold';
+      if (s === 'POUNCE') return 'pounce';
+      if (s === 'RELEGATE') return 'relegate';
+      return 'watch';
+    }
+
+    function buildTrapCard(trap) {
+      const statusClass = getStatusClass(trap.validation_status);
+      const statusLabel = (trap.validation_status || 'WATCH').toUpperCase();
+
+      let nextDatapointHtml = '';
+      if (trap.next_datapoint && trap.next_datapoint.label) {
+        const nd = trap.next_datapoint;
+        nextDatapointHtml = `
+          <div class="next-datapoint">
+            <div class="next-datapoint-icon">📅</div>
+            <div class="next-datapoint-content">
+              <div class="next-datapoint-label">${escapeHtml(nd.label)}</div>
+              ${nd.expected_date ? `<div class="next-datapoint-date">${escapeHtml(nd.expected_date)}</div>` : ''}
+              ${nd.source_hint ? `<div class="next-datapoint-hint">${escapeHtml(nd.source_hint)}</div>` : ''}
+            </div>
+          </div>
+        `;
+      }
+
+      let sourcesHtml = '';
+      if (trap.sources && trap.sources.length > 0) {
+        const sourceLinks = trap.sources.map(s => {
+          if (typeof s === 'string') {
+            return `<span class="source-link" style="color: #8892b0;">${escapeHtml(s)}</span>`;
+          }
+          const dateStr = s.date ? ` <span class="source-date">(${escapeHtml(s.date)})</span>` : '';
+          if (s.url) {
+            return `<a href="${escapeHtml(s.url)}" class="source-link" target="_blank" rel="noopener">${escapeHtml(s.label)}${dateStr}</a>`;
+          }
+          return `<span class="source-link" style="color: #8892b0;">${escapeHtml(s.label)}${dateStr}</span>`;
+        }).join('');
+        sourcesHtml = `
+          <div class="trap-sources">
+            <div class="trap-sources-title">Primary Sources</div>
+            ${sourceLinks}
+          </div>
+        `;
+      }
+
+      return `
+        <div class="trap-card" data-status="${statusClass}">
+          <div class="trap-header">
+            <div class="trap-title">${escapeHtml(trap.title)}</div>
+            <span class="status-badge ${statusClass}">${statusLabel}</span>
+          </div>
+
+          ${trap.status_note ? `
+            <div style="font-size: 0.75rem; color: #3b82f6; font-style: italic; margin-bottom: 0.75rem; padding: 0.5rem 0.75rem; background: rgba(59, 130, 246, 0.08); border-radius: 6px;">
+              ${escapeHtml(trap.status_note)}
+            </div>
+          ` : ''}
+
+          ${trap.thesis_summary ? `
+            <div class="trap-thesis">
+              <p>${escapeHtml(trap.thesis_summary)}</p>
+            </div>
+          ` : ''}
+
+          ${trap.who_collects_rent ? `
+            <div class="rent-section">
+              <div class="trap-section-label">Who Collects First</div>
+              <div class="trap-section-content">${escapeHtml(trap.who_collects_rent)}</div>
+            </div>
+          ` : ''}
+
+          ${trap.leftover ? `
+            <div class="leftover-section">
+              <div class="trap-section-label">Leftover</div>
+              <div class="trap-section-content">${escapeHtml(trap.leftover)}</div>
+            </div>
+          ` : ''}
+
+          <div class="decisive-test">
+            <div class="trap-section-label">🎯 Decisive Test</div>
+            <div class="trap-section-content">${escapeHtml(trap.decisive_test)}</div>
+          </div>
+
+          ${nextDatapointHtml}
+
+          ${trap.relegate_if ? `
+            <div class="relegate-section">
+              <div class="trap-section-label">Relegate If</div>
+              <div class="trap-section-content">${escapeHtml(trap.relegate_if)}</div>
+            </div>
+          ` : ''}
+
+          ${sourcesHtml}
+
+          ${trap.updated_at ? `<div class="trap-updated">Updated: ${formatDate(trap.updated_at)}</div>` : ''}
+        </div>
+      `;
+    }
+
+    function updateStats(traps) {
+      const counts = { total: 0, watch: 0, hold: 0, pounce: 0, relegate: 0 };
+      traps.forEach(trap => {
+        counts.total++;
+        const s = (trap.validation_status || 'WATCH').toUpperCase();
+        if (s === 'WATCH') counts.watch++;
+        else if (s === 'HOLD') counts.hold++;
+        else if (s === 'POUNCE') counts.pounce++;
+        else if (s === 'RELEGATE') counts.relegate++;
+      });
+      document.getElementById('totalCount').textContent = counts.total;
+      document.getElementById('watchCount').textContent = counts.watch;
+      document.getElementById('holdCount').textContent = counts.hold;
+      document.getElementById('pounceCount').textContent = counts.pounce;
+      document.getElementById('relegateCount').textContent = counts.relegate;
+    }
+
+    async function loadTrapMap() {
+      const grid = document.getElementById('trapGrid');
+      
+      try {
+        const response = await fetch('./data/trap_map.json', { cache: 'no-cache' });
+        if (!response.ok) {
+          throw new Error('Failed to load trap_map.json: ' + response.status);
+        }
+        
+        const data = await response.json();
+        const traps = data.traps || [];
+        
+        if (traps.length === 0) {
+          grid.innerHTML = `
+            <div class="empty-state">
+              <div class="empty-state-icon">📋</div>
+              <div>No traps configured yet. Add entries to trap_map.json.</div>
+            </div>
+          `;
+          return;
+        }
+
+        updateStats(traps);
+
+        const cardsHtml = traps.map(buildTrapCard).join('');
+        grid.innerHTML = cardsHtml;
+
+      } catch (error) {
+        console.error('Error loading trap map:', error);
+        grid.innerHTML = `
+          <div class="empty-state">
+            <div class="empty-state-icon">⚠️</div>
+            <div>Error loading trap map data. Please check that trap_map.json exists.</div>
+            <div style="font-size: 0.75rem; margin-top: 0.5rem; color: #f44336;">${escapeHtml(error.message)}</div>
+          </div>
+        `;
+      }
+    }
+
+    document.addEventListener('DOMContentLoaded', loadTrapMap);
+  </script>
+</body>
+</html>
