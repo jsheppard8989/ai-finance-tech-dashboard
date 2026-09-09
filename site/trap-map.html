@@ -372,12 +372,21 @@
     <a href="index.html" class="back-link">← Back to Dashboard</a>
     
     <h1>Trap Map</h1>
-    <p class="subtitle">Research-backed thesis cards with falsification tests</p>
+    <p class="subtitle">Research theses under falsifiable tests — who gets paid first, what print decides, when to relegate.</p>
     <p class="page-description">
-      Each trap corresponds to one research piece. Validation status tracks whether the thesis is being monitored (WATCH), 
-      holding steady (HOLD), conditions are met (POUNCE), or the thesis has been falsified (RELEGATE). 
-      The decisive test is a single stranger-checkable criterion. This is a hunt/falsifier framework, not a tip sheet.
+      Hunt list of checkable research objects. Not tips, scores, holdings, or position size. Each card tracks a thesis 
+      with a stranger-checkable decisive test and named prints that move the map.
     </p>
+
+    <!-- Status Legend -->
+    <div class="status-legend" style="background: rgba(255,255,255,0.02); border: 1px solid rgba(255,255,255,0.08); border-radius: 8px; padding: 0.75rem 1rem; margin-bottom: 1.5rem; font-size: 0.8rem;">
+      <div style="display: flex; flex-wrap: wrap; gap: 1rem; color: #8892b0;">
+        <span><strong style="color: #fbbf24;">WATCH</strong> = live thesis, next named print is the gate</span>
+        <span><strong style="color: #3b82f6;">HOLD</strong> = goalposts set (thesis language, not a portfolio hold)</span>
+        <span><strong style="color: #10b981;">POUNCE</strong> = print flipped the map for investigation (not a buy call)</span>
+        <span><strong style="color: #6b7280;">RELEGATE</strong> = demoted on the map</span>
+      </div>
+    </div>
 
     <div class="stats" id="statsContainer">
       <div class="stat-box"><div class="stat-number" id="totalCount">0</div><div class="stat-label">Total Traps</div></div>
@@ -488,6 +497,12 @@
             <div class="trap-title">${escapeHtml(trap.title)}</div>
             <span class="status-badge ${statusClass}">${statusLabel}</span>
           </div>
+
+          ${trap.status_note ? `
+            <div style="font-size: 0.75rem; color: #3b82f6; font-style: italic; margin-bottom: 0.75rem; padding: 0.5rem 0.75rem; background: rgba(59, 130, 246, 0.08); border-radius: 6px;">
+              ${escapeHtml(trap.status_note)}
+            </div>
+          ` : ''}
 
           ${trap.thesis_summary ? `
             <div class="trap-thesis">

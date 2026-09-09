@@ -1901,7 +1901,7 @@
         <!-- Trap Map callout (replaced Alpha/Atrophy ticker grid) -->
         <div class="card" style="margin-top: 1.5rem;">
           <h2 style="font-size: 1.3rem;">Trap Map</h2>
-          <p style="color: #8892b0; margin-bottom: 1rem; font-size: 0.85rem;">Research-backed thesis cards with falsification tests. Track validation status: WATCH, HOLD, POUNCE, or RELEGATE.</p>
+          <p style="color: #8892b0; margin-bottom: 1rem; font-size: 0.85rem;">Research theses under falsifiable tests — who gets paid first, what print decides, when to relegate. Not a tip sheet.</p>
           <a href="trap-map.html" style="display: inline-flex; align-items: center; gap: 0.5rem; padding: 0.75rem 1.25rem; background: rgba(0, 212, 255, 0.1); border: 1px solid rgba(0, 212, 255, 0.3); border-radius: 8px; color: #00d4ff; text-decoration: none; font-size: 0.9rem; transition: all 0.2s;">
             <span>View Trap Map</span>
             <span style="font-size: 1.1rem;">→</span>
@@ -3245,6 +3245,12 @@
       if (DEBUG_SITE) console.log('Page loading...');
       updateLastUpdated();
       await loadPriceData();  // Load prices first (also calls updateTitleTickers and populateTickers)
+      // TODO(Tony): loadTickerData() and populateTickers() still run but tickerGrid element
+      // was removed when Alpha/Atrophy UI was replaced with Trap Map link. populateTickers()
+      // exits early when grid is missing. Safe to remove loadTickerData call + related
+      // functions (formatTickerData, loadDefaultTickerData, populateTickers, createTickerCard)
+      // if ticker_scores.json is no longer needed elsewhere. Left intact to avoid breaking
+      // unrelated widgets that might consume enhancedTickers or dashboardData.tickerScores.
       loadTickerData();
       loadInsights();  // Load insights dynamically from database
       loadPodcastData();
