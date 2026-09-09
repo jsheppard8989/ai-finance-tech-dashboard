@@ -27,10 +27,10 @@
         {
           "test_id": 1,
           "label": "Sep 9 10y reopen",
-          "status": "pending",
-          "one_liner": null,
-          "as_of": null,
-          "source": null
+          "status": "pass",
+          "one_liner": "PASS — Sep 9 10y reopen: BTC 2.71 (above prior-6 avg ~2.49), high yield 4.834%, indirects ~79% of accepted — private bid intact; buyback expansion reads cosmetic.",
+          "as_of": "2026-09-09",
+          "source": "https://www.treasurydirect.gov/instit/annceresult/press/preanre/2026/R_20260909_2.pdf"
         },
         {
           "test_id": 2,
