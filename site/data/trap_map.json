@@ -94,11 +94,12 @@
       "leftover": "Narratives that treat buybacks as one-off 'support' while private sponsorship of the long end remains thin.",
       "decisive_test": "Sep 9 10y / Sep 10 30y cover-tail-indirects; first enlarged long-end buyback ops after Sep 9; Nov 4 refunding buyback sizes.",
       "next_datapoint": {
-        "label": "Sep 9 10y coupon auction cover-tail-indirects; Sep 10 30y; first enlarged long-end buyback ops after Sep 9; Nov 4 refunding buyback sizes",
-        "expected_date": "2026-09-09; 2026-09-10; then Nov 4 2026 refunding"
+        "label": "Sep 10 30Y cover-tail-indirects + first enlarged long-end buyback ops after Sep 9; Nov 4 refunding buyback sizes (Sep 9 10Y stamped — sensor #1 toward relegate pressure; status WATCH pending)",
+        "expected_date": "2026-09-10; then first enlarged buyback ops; Nov 4 2026 refunding"
       },
       "relegate_if": "Strong private auction sponsorship makes buybacks cosmetic; or Nov 4 refunding cuts buyback sizes so the structural state-bid claim dies.",
       "sources": [
+        "Treasury 10Y auction 2026-09-09 — BTC 2.71; high yield 4.834%; indirects ~79.2% (sensor #1 toward relegate pressure per strong private sponsorship; status WATCH — JG)",
         "Treasury SB0607 / buyback announcements",
         "Auction results (cover, tail, indirects)",
         "FRED CMT / refunding documents"
