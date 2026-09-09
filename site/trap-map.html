@@ -252,6 +252,30 @@
       color: #10b981;
     }
 
+    /* Leftover section */
+    .leftover-section {
+      background: rgba(107, 114, 128, 0.08);
+      border: 1px solid rgba(107, 114, 128, 0.2);
+      border-radius: 8px;
+      padding: 0.75rem 1rem;
+      margin-bottom: 1rem;
+    }
+    .leftover-section .trap-section-label {
+      color: #9ca3af;
+    }
+
+    /* Relegate-if section */
+    .relegate-section {
+      background: rgba(239, 68, 68, 0.06);
+      border: 1px solid rgba(239, 68, 68, 0.2);
+      border-radius: 8px;
+      padding: 0.75rem 1rem;
+      margin-bottom: 1rem;
+    }
+    .relegate-section .trap-section-label {
+      color: #f87171;
+    }
+
     /* Sources */
     .trap-sources {
       margin-top: 1rem;
@@ -441,6 +465,9 @@
       let sourcesHtml = '';
       if (trap.sources && trap.sources.length > 0) {
         const sourceLinks = trap.sources.map(s => {
+          if (typeof s === 'string') {
+            return `<span class="source-link" style="color: #8892b0;">${escapeHtml(s)}</span>`;
+          }
           const dateStr = s.date ? ` <span class="source-date">(${escapeHtml(s.date)})</span>` : '';
           if (s.url) {
             return `<a href="${escapeHtml(s.url)}" class="source-link" target="_blank" rel="noopener">${escapeHtml(s.label)}${dateStr}</a>`;
@@ -462,14 +489,23 @@
             <span class="status-badge ${statusClass}">${statusLabel}</span>
           </div>
 
-          <div class="trap-thesis">
-            <p>${escapeHtml(trap.thesis_summary)}</p>
-          </div>
+          ${trap.thesis_summary ? `
+            <div class="trap-thesis">
+              <p>${escapeHtml(trap.thesis_summary)}</p>
+            </div>
+          ` : ''}
 
           ${trap.who_collects_rent ? `
             <div class="rent-section">
-              <div class="trap-section-label">Who Collects the Rent</div>
+              <div class="trap-section-label">Who Collects First</div>
               <div class="trap-section-content">${escapeHtml(trap.who_collects_rent)}</div>
+            </div>
+          ` : ''}
+
+          ${trap.leftover ? `
+            <div class="leftover-section">
+              <div class="trap-section-label">Leftover</div>
+              <div class="trap-section-content">${escapeHtml(trap.leftover)}</div>
             </div>
           ` : ''}
 
@@ -479,6 +515,13 @@
           </div>
 
           ${nextDatapointHtml}
+
+          ${trap.relegate_if ? `
+            <div class="relegate-section">
+              <div class="trap-section-label">Relegate If</div>
+              <div class="trap-section-content">${escapeHtml(trap.relegate_if)}</div>
+            </div>
+          ` : ''}
 
           ${sourcesHtml}
 
