@@ -1,0 +1,126 @@
+{
+  "_schema_version": 1,
+  "_comment": "Trap Map: Research-based thesis cards with falsification tests. Each trap corresponds to one research piece and tracks validation status. FORBIDDEN: any language about holdings, portfolio positions, share counts, powder, IRA, buy/sell sizing, or whether 'we' hold the name.",
+  "_field_definitions": {
+    "id": "Stable slug identifier for the trap (e.g., 'power-scarcity-trap-1')",
+    "title": "Short headline for the card",
+    "thesis_summary": "One-paragraph stranger-usable summary of the thesis",
+    "who_collects_rent": "Entity/mechanism that captures economic rent vs residual claimants",
+    "validation_status": "One of: WATCH (monitoring), HOLD (thesis intact, waiting), POUNCE (conditions met), RELEGATE (thesis falsified or obsolete)",
+    "decisive_test": "Single stranger-checkable test that validates or falsifies the thesis",
+    "next_datapoint": "Optional: { label, expected_date, source_hint } for automated tracking",
+    "research_ref": "Path or URL to the underlying research piece/memo",
+    "sources": "Array of { label, url, date } primary sources",
+    "updated_at": "ISO date of last update"
+  },
+  "traps": [
+    {
+      "id": "power-scarcity-trap-1",
+      "title": "Power & Interconnect Scarcity",
+      "thesis_summary": "AI infrastructure buildout is bottlenecked by firm watts and cleared interconnection paths, not just GPU supply. Datacenters with power purchase agreements and grid-ready sites command premium valuations. The constraint timeline extends through 2027+ as hyperscalers race to secure capacity.",
+      "who_collects_rent": "Utilities with contracted generation capacity, landowners with transmission-ready sites, and datacenter developers with executed PPAs. GPU makers are price-takers at the power constraint; power providers are rent collectors.",
+      "validation_status": "WATCH",
+      "decisive_test": "Track hyperscaler capex allocation: if >40% of disclosed AI capex goes to power/infrastructure vs compute hardware across major hyperscalers (MSFT, GOOGL, AMZN, META) for 2 consecutive quarters, scarcity thesis is validated. If GPU supply normalizes and capex pivots back to hardware-first, thesis weakens.",
+      "next_datapoint": {
+        "label": "Q3 2026 Hyperscaler Earnings",
+        "expected_date": "2026-10-25",
+        "source_hint": "MSFT, GOOGL, AMZN, META earnings calls - capex breakdowns"
+      },
+      "research_ref": "/docs/research/power-scarcity-thesis.md",
+      "sources": [
+        {
+          "label": "Grid Interconnection Queue Analysis",
+          "url": "https://www.eia.gov/electricity/data/eia860/",
+          "date": "2026-06-15"
+        },
+        {
+          "label": "Hyperscaler Capex Tracker",
+          "url": "https://www.semianalysis.com/",
+          "date": "2026-08-01"
+        }
+      ],
+      "updated_at": "2026-09-09"
+    },
+    {
+      "id": "asts-bluebird-secondary",
+      "title": "ASTS BlueBird Constellation Watch",
+      "thesis_summary": "AST SpaceMobile's thesis hinges on BlueBird satellite constellation achieving commercial service. Secondary offerings dilute existing shareholders but fund constellation buildout. The key validation is whether the technology delivers promised direct-to-cell coverage at scale.",
+      "who_collects_rent": "If successful, ASTS captures rent as infrastructure owner with spectrum partnerships. MNO partners (AT&T, Vodafone) share economics but ASTS holds the orbital assets. If constellation fails, capital is stranded.",
+      "validation_status": "WATCH",
+      "decisive_test": "First 5 BlueBird satellites must demonstrate commercial-grade voice/data throughput to unmodified smartphones in partner MNO coverage gaps within 6 months of launch. Throughput <1 Mbps average or coverage gaps >50% of target zones falsifies thesis.",
+      "next_datapoint": {
+        "label": "BlueBird Launch & Early Ops",
+        "expected_date": "2026-Q4",
+        "source_hint": "ASTS investor updates, FCC filings, partner MNO press releases"
+      },
+      "research_ref": "/docs/research/asts-bluebird-watch.md",
+      "sources": [
+        {
+          "label": "ASTS SEC Filings",
+          "url": "https://www.sec.gov/cgi-bin/browse-edgar?action=getcompany&CIK=0001820144",
+          "date": "2026-08-15"
+        },
+        {
+          "label": "FCC Experimental License",
+          "url": "https://www.fcc.gov/",
+          "date": "2026-07-01"
+        }
+      ],
+      "updated_at": "2026-09-09"
+    },
+    {
+      "id": "arkg-thesis-goalposts",
+      "title": "ARKG Thesis Validation Framework",
+      "thesis_summary": "ARK Genomics (ARKG) represents a basket bet on multi-year genomic medicine timelines. The thesis validates not as a position but as a research framework: do ARK's core bets (CRISPR therapeutics, multi-omics diagnostics, synthetic biology) hit clinical/commercial milestones within stated timeframes?",
+      "who_collects_rent": "Platform companies with approved therapies and reimbursement pathways collect rent. Tools-only companies remain picks-and-shovels. ARKG as a vehicle takes management fees regardless of thesis accuracy.",
+      "validation_status": "HOLD",
+      "decisive_test": "Track top 10 ARKG holdings by weight: if ≥4 achieve FDA approval or significant commercial revenue (>$500M annual) by end of 2027, innovation thesis validates. If <2 hit milestones and fund underperforms biotech benchmark by >20% cumulative, framework requires revision.",
+      "next_datapoint": {
+        "label": "ARKG Holdings FDA Calendar",
+        "expected_date": "2026-12-31",
+        "source_hint": "FDA PDUFA dates, company earnings, ARK monthly reports"
+      },
+      "research_ref": "/docs/research/arkg-goalposts.md",
+      "sources": [
+        {
+          "label": "ARK Monthly Portfolio Updates",
+          "url": "https://ark-invest.com/",
+          "date": "2026-09-01"
+        },
+        {
+          "label": "FDA Drug Approval Database",
+          "url": "https://www.fda.gov/drugs/development-approval-process-drugs",
+          "date": "2026-09-01"
+        }
+      ],
+      "updated_at": "2026-09-09"
+    },
+    {
+      "id": "buyback-captive-duration",
+      "title": "Buyback as Confession (Captive Duration)",
+      "thesis_summary": "When Treasury doubles long-end liquidity-support buybacks concurrent with 10s/30s issuance, the regime signals that private sponsorship of duration is insufficient without a structural state bid. This is the captive-buyer system around the bond, not a one-off support headline. The money is in who warehouses duration and the issuer as standing long-end bid.",
+      "who_collects_rent": "Whoever sets captivity/balance-sheet rules and runs the buyback backstop — regulators, Treasury, Fed plumbing. Dealers take warehouse/fees. Equity of stuffed franchises is residual.",
+      "validation_status": "WATCH",
+      "decisive_test": "(1) 10y/30y auctions cover at/above recent averages with strong indirects → private bid intact, buyback expansion is cosmetic. (2) First enlarged long-end buyback ops undersubscribe vs claim of 'strong sponsorship' → plumbing story overstated. (3) QRA buyback max sizes cut back or framed as temporary → structural state-bid claim fails.",
+      "next_datapoint": {
+        "label": "Treasury Auction & QRA",
+        "expected_date": "2026-11-04",
+        "source_hint": "Treasury auction results, QRA announcement, Fed buyback operations"
+      },
+      "research_ref": "/docs/research/buyback-captive-duration.md",
+      "sources": [
+        {
+          "label": "Treasury Buyback Announcements",
+          "url": "https://treasurydirect.gov/",
+          "date": "2026-09-08"
+        },
+        {
+          "label": "FRED CMT Data",
+          "url": "https://fred.stlouisfed.org/",
+          "date": "2026-09-03"
+        }
+      ],
+      "updated_at": "2026-09-09"
+    }
+  ]
+}
