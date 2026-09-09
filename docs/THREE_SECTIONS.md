@@ -22,12 +22,13 @@ The main site has **three sections** that should be tied out, buttoned up, and c
 - **Flow:** Transcript → AI analysis → `latest_insights` + episode `key_tickers` / `investment_thesis` / `key_takeaways` → export → data.js.
 - **Consistency:** Key tickers on cards and Deep Dive come only from AI JSON.
 
-## 3. Right: Podcast Pundits + Alpha or Atrophy
+## 3. Right: Podcast Pundits
 
 | What | Source | Limit |
 |------|--------|-------|
 | **Pundits** | `pundits.json` (or `dashboardData.pundits`) from `export_for_website()` → entities with `guest_primary` + last episode thesis/takeaways | 20 |
-| **Alpha or Atrophy** | `ticker_scores.json` / `dashboardData.tickerScores` from `get_all_ticker_scores()`. | — |
+
+> **Note:** Alpha or Atrophy UI was retired in PR #98 (replaced by Trap Map link).
 
 - **Flow:** Entities/appearances (guest_primary) → join to `podcast_episodes` for `last_episode_*` and `investment_thesis` / `key_takeaways` → `last_main_idea` → pundits.json.
 - **Consistency:** Frontend falls back to `./data/pundits.json` if `dashboardData.pundits` is missing.

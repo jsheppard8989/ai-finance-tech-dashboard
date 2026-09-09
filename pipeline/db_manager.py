@@ -635,10 +635,9 @@ class DashboardDB:
         
         from site_text_sanitize import sanitize_public_text
 
-        # Export all tickers ranked by total weighted score from ticker_mentions
-        scores = sanitize_public_text(self.get_all_ticker_scores())
-        with open(output_dir / 'ticker_scores.json', 'w') as f:
-            json.dump(scores, f, indent=2, default=str)
+        # NOTE: ticker_scores.json export removed — Alpha/Atrophy UI retired in PR #98
+        # (replaced by Trap Map). get_all_ticker_scores() still exists for potential
+        # future use but is no longer written to site/data/.
 
         # Export podcast summaries
         podcasts = sanitize_public_text(self.get_podcast_summaries_for_site())
@@ -845,7 +844,6 @@ class DashboardDB:
 
         print(f"✓ Exported website data to {output_dir}")
         return {
-            'ticker_scores': len(scores),
             'podcast_summaries': len(podcasts),
             'archive_items': sum(len(v) for v in archive.values()),
             'podcast_guests': len(guests),

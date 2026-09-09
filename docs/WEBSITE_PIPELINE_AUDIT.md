@@ -73,9 +73,10 @@ Both use the same **`export_website_data` + `generate_website_js`** pattern. **`
 
 - Primary: **`dashboardData`** from **`data.js`**.
 - **Pundits:** `fetch('./data/pundits.json')` if pundits missing/empty.
-- **Tickers:** `dashboardData.tickerScores` first, else **`fetch('./data/ticker_scores.json')`**.
-- **Prices:** **`fetch('./price_data.json')`** (separate from `data.js`).
+- **Prices:** **`fetch('./price_data.json')`** (separate from `data.js`) for title bar tickers (QQQ, BTC).
 - **Status / freshness:** **`fetch('./data/status.json')`** and `dashboardData.generatedAt`.
+
+> **Note:** Alpha/Atrophy ticker grid was retired in PR #98 (replaced by Trap Map link). `ticker_scores.json` and `dashboardData.tickerScores` are no longer used.
 
 **Effect:** The UI can **blend** sources; GitHub Pages cache + partial fetches can show **inconsistent** combinations (e.g. new `data.js` from one cache layer and old JSON from another).
 

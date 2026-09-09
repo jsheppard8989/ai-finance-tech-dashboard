@@ -14,23 +14,16 @@ from workspace_paths import DB_PATH, SITE_DATA_DIR, SITE_DIR
 PRICE_FILE = SITE_DIR / "price_data.json"
 
 def get_tickers_from_data():
-    """Get all tickers that need prices from ticker_scores.json and database."""
+    """Get tickers that need prices for header widgets and insight cards.
+    
+    NOTE: ticker_scores.json no longer exists — Alpha/Atrophy UI retired in PR #98
+    (replaced by Trap Map). Tickers now come from:
+    - Static header tickers (QQQ, BTC) added in main()
+    - Tickers mentioned in latest_insights (for insight cards)
+    """
     tickers = set()
     
-    # Load from ticker_scores.json (primary source)
-    ticker_scores_file = SITE_DATA_DIR / "ticker_scores.json"
-    if ticker_scores_file.exists():
-        try:
-            with open(ticker_scores_file, 'r') as f:
-                scores = json.load(f)
-                for s in scores:
-                    if 'ticker' in s:
-                        tickers.add(s['ticker'])
-            print(f"  Loaded {len(tickers)} tickers from ticker_scores.json")
-        except Exception as e:
-            print(f"  Warning: Could not load ticker_scores.json: {e}")
-    
-    # Also get from database for any missing tickers
+    # Get tickers mentioned in insights (for insight card display)
     try:
         conn = sqlite3.connect(DB_PATH)
         cursor = conn.execute('SELECT tickers_mentioned FROM latest_insights WHERE tickers_mentioned IS NOT NULL')
@@ -42,6 +35,8 @@ def get_tickers_from_data():
                 except:
                     pass
         conn.close()
+        if tickers:
+            print(f"  Loaded {len(tickers)} tickers from latest_insights")
     except Exception as e:
         print(f"  Warning: Could not load from database: {e}")
     
