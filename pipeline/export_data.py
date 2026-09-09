@@ -1028,12 +1028,8 @@ def generate_website_js():
         except Exception:
             charts_version = None
 
-    # Load ticker scores
-    try:
-        with open(site_dir / 'ticker_scores.json', 'r') as f:
-            ticker_scores = sanitize_public_text(json.load(f))
-    except FileNotFoundError:
-        ticker_scores = []
+    # NOTE: ticker_scores.json no longer exported — Alpha/Atrophy UI retired in PR #98
+    # (replaced by Trap Map). tickerScores in data.js is now an empty array with a comment.
 
     # Intraday prices for header tickers (same file fetch_prices.py writes; keeps index on one bundle)
     price_snapshot: dict = {}
@@ -1050,7 +1046,6 @@ def generate_website_js():
     
     # Generate data.js that the HTML can load
     # Pre-serialize to avoid f-string issues
-    ticker_json = json.dumps(ticker_scores, indent=2)
     archive_json = json.dumps(archive, indent=2)
     main_json = json.dumps(main_content, indent=2)
     deepdives_json = json.dumps(deepdives, indent=2)
@@ -1068,7 +1063,8 @@ const dashboardData = {{
   generatedAt: "{datetime.now().isoformat()}",
   chartsVersion: {json.dumps(charts_version) if 'charts_version' in locals() else 'null'},
   priceSnapshot: {price_json},
-  tickerScores: {ticker_json},
+  // tickerScores: Alpha/Atrophy UI retired in PR #98; Trap Map replaced it.
+  tickerScores: [],
   archive: {archive_json},
   mainContent: {main_json},
   deepDives: {deepdives_json},
@@ -1089,7 +1085,7 @@ if (typeof module !== 'undefined' && module.exports) {{
     bump_data_js_cache_in_site_html()
     
     total_archive = sum(len(v) for v in archive.values() if isinstance(v, list))
-    print(f"✓ Generated data.js with {len(ticker_scores)} tickers, {total_archive} archive items, {len(deepdives)} deep dives, {len(suggested_terms)} suggested terms, {len(podcast_guests)} legacy guests, {len(pundits)} pundits; chartsVersion={charts_version}")
+    print(f"✓ Generated data.js with {total_archive} archive items, {len(deepdives)} deep dives, {len(suggested_terms)} suggested terms, {len(podcast_guests)} legacy guests, {len(pundits)} pundits; chartsVersion={charts_version}")
     return True
 
 

@@ -33,11 +33,11 @@ LAST_ATTEMPT = STATE_DIR / "last_publish_attempt.json"
 MIN_DATA_JS_BYTES = 800
 
 # Required substrings in data.js (contract between export_data.generate_website_js and the UI)
+# NOTE: tickerScores removed — Alpha/Atrophy UI retired in PR #98 (replaced by Trap Map)
 REQUIRED_MARKERS = (
     "const dashboardData",
     "schemaVersion",
     "generatedAt",
-    "tickerScores",
     "mainContent",
     "pundits",
 )

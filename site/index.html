@@ -3161,7 +3161,6 @@
           delete priceData._metadata;
           if (DEBUG_SITE) console.log('Loaded price data from dashboardData.priceSnapshot:', Object.keys(priceData).length);
           updateTitleTickers();
-          populateTickers();
           return;
         }
         if (DEBUG_SITE) {
@@ -3177,7 +3176,6 @@
         priceData = {};
       }
       updateTitleTickers();
-      populateTickers();
     }
 
     // Update title tickers with price data
@@ -3200,98 +3198,6 @@
         changeEl.textContent = `${btc.change_pct >= 0 ? '+' : ''}${btc.change_pct.toFixed(1)}%`;
         changeEl.className = 'ticker-change ' + (btc.change_pct >= 0 ? 'positive' : 'negative');
       }
-    }
-
-    // Ticker data - loaded from database export
-    let enhancedTickers = [];
-
-    // Load ticker data from database export
-    async function loadTickerData() {
-      try {
-        if (typeof dashboardData !== 'undefined' && Array.isArray(dashboardData.tickerScores) && dashboardData.tickerScores.length > 0) {
-          enhancedTickers = dashboardData.tickerScores.map(formatTickerData);
-          if (DEBUG_SITE) console.log('Loaded ticker data from dashboardData:', enhancedTickers.length);
-          populateTickers();
-          return;
-        }
-
-        if (DEBUG_SITE) {
-          const response = await fetch('./data/ticker_scores.json');
-          if (response.ok) {
-            const data = await response.json();
-            enhancedTickers = data.map(formatTickerData);
-            if (DEBUG_SITE) console.log('Loaded ticker data from JSON (dev):', enhancedTickers.length);
-            populateTickers();
-            return;
-          }
-          loadDefaultTickerData();
-          return;
-        }
-
-        enhancedTickers = [];
-        populateTickers();
-      } catch (error) {
-        if (DEBUG_SITE) console.log('Error loading ticker data:', error);
-        if (DEBUG_SITE) loadDefaultTickerData();
-        else {
-          enhancedTickers = [];
-          populateTickers();
-        }
-      }
-    }
-
-    // Format database ticker data to match expected structure
-    function formatTickerData(score) {
-      return {
-        ticker: score.ticker,
-        score: Math.round(score.total_score || score.score),
-        rank: score.rank || 0,
-        mentions: score.raw_mention_count || score.podcast_mentions + score.newsletter_mentions || 1,
-        uniqueSources: score.unique_sources || 1,
-        convictionLevel: score.conviction_level || 'medium',
-        contrarianSignal: score.contrarian_signal || 'neutral',
-        timeframe: score.timeframe || 'long_term',
-        hiddenPlays: score.hidden_plays || [],
-        latestContext: score.contexts && score.contexts[0] ? score.contexts[0].preview : 'No context available',
-        contexts: score.contexts || []
-      };
-    }
-
-    // Fallback default ticker data
-    function loadDefaultTickerData() {
-      enhancedTickers = [
-        {
-          ticker: 'GOOGL',
-          score: 115,
-          rank: 1,
-          mentions: 6,
-          uniqueSources: 2,
-          convictionLevel: 'medium',
-          contrarianSignal: 'neutral',
-          timeframe: 'long_term',
-          hiddenPlays: [
-            { category: 'Cloud Infrastructure', tickers: ['ANET', 'FFIV', 'NET'] },
-            { category: 'AI Training', tickers: ['SNOW', 'PLTR'] }
-          ],
-          latestContext: 'SpaceX/xAI $1.25T super-entity signals defensive moat importance'
-        },
-        {
-          ticker: 'NVDA',
-          score: 88,
-          rank: 3,
-          mentions: 3,
-          uniqueSources: 2,
-          convictionLevel: 'high',
-          contrarianSignal: 'crowded_warning',
-          timeframe: 'long_term',
-          hiddenPlays: [
-            { category: 'Power', tickers: ['NEE', 'CEG', 'VST'] },
-            { category: 'Networking', tickers: ['ANET', 'AVGO', 'MRVL'] }
-          ],
-          latestContext: 'Google upgrade breaks reasoning barriers - continued compute demand'
-        }
-      ];
-      populateTickers();
     }
 
     // Update last updated timestamp from data
@@ -3336,47 +3242,13 @@
     document.addEventListener('DOMContentLoaded', async function() {
       if (DEBUG_SITE) console.log('Page loading...');
       updateLastUpdated();
-      await loadPriceData();  // Load prices first (also calls updateTitleTickers and populateTickers)
-      // TODO(Tony): loadTickerData() and populateTickers() still run but tickerGrid element
-      // was removed when Alpha/Atrophy UI was replaced with Trap Map link. populateTickers()
-      // exits early when grid is missing. Safe to remove loadTickerData call + related
-      // functions (formatTickerData, loadDefaultTickerData, populateTickers, createTickerCard)
-      // if ticker_scores.json is no longer needed elsewhere. Left intact to avoid breaking
-      // unrelated widgets that might consume enhancedTickers or dashboardData.tickerScores.
-      loadTickerData();
+      await loadPriceData();  // Load prices first (updates title price tickers: QQQ, BTC)
       loadInsights();  // Load insights dynamically from database
       loadPodcastData();
     });
 
     // Track active card
     let activeCard = null;
-
-    // Populate enhanced ticker cards
-    function populateTickers() {
-      const grid = document.getElementById('tickerGrid');
-      if (!grid) return;
-
-      if (enhancedTickers.length === 0) {
-        grid.innerHTML = '<div class="placeholder">Loading tickers...</div>';
-        return;
-      }
-
-      // Sort by score and take top 10
-      const top10 = enhancedTickers
-        .sort((a, b) => b.score - a.score)
-        .slice(0, 10);
-
-      // Create main ticker cards (top 10 only)
-      let html = top10.map((ticker, index) => createTickerCard(ticker, index + 1)).join('');
-
-      grid.innerHTML = html;
-
-      // Add click handlers to cards
-      document.querySelectorAll('.ticker-card, .guest-item, .overton-window-item').forEach(card => {
-        card.addEventListener('click', handleCardClick);
-      });
-
-    }
 
     // Handle card click with ripple effect
     function handleCardClick(e) {
@@ -3589,172 +3461,6 @@
       };
 
       modal.classList.add('active');
-    }
-
-    function createTickerCard(ticker, rank) {
-      const convictionEmoji = {
-        'high': '🔥 High',
-        'medium': '⚡ Medium',
-        'low': '◦ Low'
-      };
-
-      // Handle data structure differences
-      const tickerSymbol = ticker.ticker || 'UNKNOWN';
-      const tickerScore = Math.round(ticker.score || 0);
-      const tickerMentions = ticker.mentions || 0;
-      const tickerSources = ticker.unique_sources || ticker.uniqueSources || 1;
-      const tickerConviction = ticker.conviction_level || ticker.convictionLevel || 'medium';
-      const tickerSignal = ticker.contrarian_signal || ticker.contrarianSignal || 'neutral';
-      const tickerTimeframe = ticker.timeframe || 'unspecified';
-      const tickerHiddenPlays = ticker.hidden_plays || ticker.hiddenPlays || [];
-      const contexts = ticker.contexts || [];
-      const latestContext = contexts.length > 0 ? (contexts[0].subject || contexts[0].preview || '') : '';
-
-      // Get price data if available (handle BTC -> BTC-USD mapping)
-      let priceLookupKey = tickerSymbol;
-      if (tickerSymbol === 'BTC' && !priceData['BTC'] && priceData['BTC-USD']) {
-        priceLookupKey = 'BTC-USD';
-      }
-      const priceInfo = priceData[priceLookupKey] || {};
-      const price = priceInfo.price;
-      const changePct = priceInfo.change_pct;
-      const hasPrice = price !== undefined && changePct !== undefined;
-
-      const cardClass = tickerSignal === 'contrarian_positive' ? 'contrarian' :
-                        tickerSignal === 'crowded_warning' ? 'crowded' : '';
-
-      const signalBadge = tickerSignal === 'contrarian_positive' ?
-        '<span class="signal-badge contrarian">🎯 Contrarian</span>' :
-        tickerSignal === 'crowded_warning' ?
-        '<span class="signal-badge crowded">⚠️ Crowded</span>' : '';
-
-      // Hidden plays for collapsed view
-      const hiddenPlaysCollapsed = tickerHiddenPlays.length > 0 ? `
-        <div class="hidden-plays">
-          <span class="hidden-plays-title">💎 Hidden Plays:</span>
-          ${tickerHiddenPlays.slice(0, 2).map(play => {
-            const tickers = play.tickers || [];
-            return tickers.slice(0, 3).map(t => `<span class="play-tag">${t}</span>`).join('');
-          }).join('')}
-        </div>
-      ` : '';
-
-      // Hidden plays for expanded view
-      const hiddenPlaysExpanded = tickerHiddenPlays.length > 0 ? `
-        <div class="expanded-section">
-          <div class="expanded-label">💎 Hidden Plays & Second-Order Effects</div>
-          ${tickerHiddenPlays.map(play => `
-            <div style="margin-bottom: 0.5rem;">
-              <div style="font-size: 0.75rem; color: #ffc107; margin-bottom: 0.25rem;">${play.category}</div>
-              <div>${play.tickers.map(t => `<span class="play-tag">${t}</span>`).join('')}</div>
-            </div>
-          `).join('')}
-        </div>
-      ` : '';
-
-      const timeframeEmoji = tickerTimeframe === 'long_term' ? '📅 Long' :
-                             tickerTimeframe === 'short_term' ? '⚡ Short' : '⏱️ Unspec';
-
-      // Price display HTML
-      const priceHtmlRight = hasPrice ? `
-        <div style="display: flex; flex-direction: column; align-items: flex-end; gap: 0.15rem;">
-          <span style="font-size: 0.9rem; color: #e8e8e8; font-weight: 700;">$${price < 1000 ? price.toFixed(2) : price.toLocaleString('en-US', {maximumFractionDigits: 0})}</span>
-          <span class="ticker-change ${changePct >= 0 ? 'positive' : 'negative'}" style="font-size: 0.7rem; padding: 0.15rem 0.4rem; font-weight: 600;">${changePct >= 0 ? '+' : ''}${changePct.toFixed(1)}%</span>
-        </div>
-      ` : '';
-
-      // Context preview for collapsed view
-      const contextPreview = latestContext ?
-        `<div style="font-size: 0.75rem; color: #8892b0; white-space: nowrap; overflow: hidden; text-overflow: ellipsis; margin-top: 0.2rem; max-width: 200px;">${latestContext.substring(0, 50)}...</div>` : '';
-
-      // Full context for expanded view
-      const contextExpanded = latestContext ? `
-        <div class="expanded-section">
-          <div class="expanded-label">📝 Latest Context</div>
-          <div class="context-text">"${latestContext}"</div>
-        </div>
-      ` : '';
-
-      return `
-        <div class="ticker-card ${cardClass}" data-ticker="${tickerSymbol}">
-          <div class="ticker-card-inner">
-            <div class="ticker-header">
-              <div class="ticker-main">
-                <div class="ticker-rank">#${rank}</div>
-                <div style="min-width: 0; flex: 1;">
-                  <div class="ticker-symbol">${tickerSymbol}</div>
-                  ${contextPreview}
-                </div>
-              </div>
-              <div class="ticker-meta">
-                ${priceHtmlRight}
-                <span class="score-badge">${tickerScore}</span>
-                ${signalBadge}
-              </div>
-            </div>
-
-            <div class="ticker-details">
-              <div class="detail-item">
-                <span class="detail-label">Mentions</span>
-                <span class="detail-value">${tickerMentions}</span>
-              </div>
-              <div class="detail-item">
-                <span class="detail-label">Sources</span>
-                <span class="detail-value">${tickerSources}</span>
-              </div>
-              <div class="detail-item">
-                <span class="detail-label">Conviction</span>
-                <span class="detail-value conviction-indicator ${tickerConviction}">
-                  ${convictionEmoji[tickerConviction] || '◦ Low'}
-                </span>
-              </div>
-              <div class="detail-item">
-                <span class="detail-label">Timeframe</span>
-                <span class="detail-value">${timeframeEmoji}</span>
-              </div>
-            </div>
-
-            ${hiddenPlaysCollapsed}
-
-            <div class="expand-hint">
-              <span>Click to expand details</span>
-              <span class="expand-icon">▼</span>
-            </div>
-          </div>
-
-          <div class="ticker-expanded">
-            <div class="expanded-content">
-              ${contextExpanded}
-              ${hiddenPlaysExpanded}
-
-              <div class="expanded-section">
-                <div class="expanded-label">📊 Quick Stats</div>
-                <div style="display: grid; grid-template-columns: repeat(2, 1fr); gap: 0.5rem; font-size: 0.8rem;">
-                  <div style="background: rgba(0,0,0,0.2); padding: 0.5rem; border-radius: 6px;">
-                    <div style="color: #8892b0; font-size: 0.7rem;">Score Breakdown</div>
-                    <div style="color: #e8e8e8;">Base: ${tickerMentions * 10} × Diversity: ${tickerSources > 2 ? '2x' : tickerSources > 1 ? '1.5x' : '1x'}</div>
-                  </div>
-                  <div style="background: rgba(0,0,0,0.2); padding: 0.5rem; border-radius: 6px;">
-                    <div style="color: #8892b0; font-size: 0.7rem;">Signal Type</div>
-                    <div style="color: ${tickerSignal === 'contrarian_positive' ? '#4caf50' : tickerSignal === 'crowded_warning' ? '#f44336' : '#00d4ff'};">
-                      ${tickerSignal === 'contrarian_positive' ? 'Contrarian Positive' : tickerSignal === 'crowded_warning' ? 'Crowded Warning' : 'Standard Mention'}
-                    </div>
-                  </div>
-                </div>
-              </div>
-
-              <div class="expanded-actions">
-                <button class="action-btn" onclick="event.stopPropagation(); showChart('${tickerSymbol}')">
-                  📊 View Chart
-                </button>
-                <button class="action-btn secondary" onclick="event.stopPropagation(); window.open('https://finance.yahoo.com/quote/${tickerSymbol}', '_blank')">
-                  ↗️ Yahoo Finance
-                </button>
-              </div>
-            </div>
-          </div>
-        </div>
-      `;
     }
 
     // Contact Form Handler

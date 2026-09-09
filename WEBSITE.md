@@ -35,7 +35,7 @@ Everything the main page shows is **derived from one SQLite database** (`pipelin
 
 ### 3. Export (the bridge to the browser)
 
-- **`export_data.py`** (and the export step inside **`auto_pipeline.py`**) calls **`export_for_website()`** on the database manager. That writes JSON files such as `ticker_scores.json`, `pundits.json`, and related artifacts into **`site/data/`**.
+- **`export_data.py`** (and the export step inside **`auto_pipeline.py`**) calls **`export_for_website()`** on the database manager. That writes JSON files such as `pundits.json`, `podcast_summaries.json`, and related artifacts into **`site/data/`**. (Note: `ticker_scores.json` was retired in PR #98 when Alpha/Atrophy UI was replaced by Trap Map.)
 - The same flow builds **`data.js`**, which defines a single global object **`dashboardData`** (tickers, insights, Overton terms, deep dives, suggested terms, guests, pundits, archive payloads, chart version metadata, etc.).
 - **`index.html`** and other pages load **`data.js`** and render cards, lists, and modals from that object.
 
