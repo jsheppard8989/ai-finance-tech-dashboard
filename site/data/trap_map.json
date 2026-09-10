@@ -90,20 +90,20 @@
       "id": "buyback-confession-captive-duration",
       "title": "Buyback as confession — captive duration",
       "validation_status": "WATCH",
-      "status_note": "Sep 9 10Y + Sep 10 30y + buyback stamps applied (PASS — private bid intact; buyback take-up $5.187bn/~86% of $6bn max); next check Nov 4 QRA buyback maxes; validation_status remains WATCH.",
+      "status_note": "Sep 9 10Y + Sep 10 30Y auction pair PASS + thick buyback take-up ($5.187bn/~86% of $6bn max) → COSMETIC lean; WATCH; Nov 4 QRA gate.",
       "who_collects_rent": "Whoever is forced or structurally bid to warehouse long-end duration (banks/pensions under repression; issuer as standing long-end bid via enlarged buybacks) while coupon supply continues.",
       "leftover": "Narratives that treat buybacks as one-off 'support' while private sponsorship of the long end remains thin.",
-      "decisive_test": "Sep 9 10y STAMPED (PASS); Sep 10 30y + $6bn buyback STAMPED (PASS — take-up $5.187bn/~86% of max); Nov 4 QRA buyback maxes.",
+      "decisive_test": "Sep 9 10Y STAMPED (PASS); Sep 10 30Y STAMPED (PASS — BTC 2.61, HY 5.308%, indirects ~79.5%); Sep 10 buyback STAMPED ($5.187bn/~86% of $6bn max) → COSMETIC lean; Nov 4 QRA buyback maxes.",
       "next_datapoint": {
-        "label": "Nov 4 QRA buyback maxes — cut or framed temporary → RELEGATE; sustained/expanded → WATCH continues. Sep 9 10Y + Sep 10 30y + buyback all PASS stamped.",
+        "label": "Nov 4 QRA buyback maxes — cut or framed temporary → RELEGATE; sustained/expanded → WATCH continues.",
         "expected_date": "2026-11-04"
       },
       "relegate_if": "Strong private auction sponsorship makes buybacks cosmetic; or Nov 4 refunding cuts buyback sizes so the structural state-bid claim dies.",
       "sources": [
-        "Treasury 10Y auction 2026-09-09 — BTC 2.71; high yield 4.834%; indirects ~79.2% (PASS — private bid intact; buyback expansion leans cosmetic)",
+        "Treasury 10Y auction 2026-09-09 — BTC 2.71; high yield 4.834%; indirects ~79.2% (PASS — private bid intact; COSMETIC lean)",
+        "Treasury 30Y auction 2026-09-10 — BTC 2.61; high yield 5.308%; indirects ~79.5% (PASS — private bid intact; COSMETIC lean)",
+        "Treasury BBR_20260910174000 — buyback op take-up $5.187bn accepted / $6bn max (~86%) from $10.489bn offered; 23/40 issues (https://treasurydirect.gov/instit/annceresult/press/preanre/2026/BBR_20260910174000.pdf)",
         "Treasury SB0607 / buyback announcements — Sep 10 max $6bn in 10–20y (triple prior $2bn)",
-        "Treasury auction results — cover, tail, indirects (10y Sep 9 STAMPED / 30y Sep 10 STAMPED)",
-        "Treasury BBR_20260910174000 — buyback op take-up $5.187bn/~86% of $6bn max; 23/40 issues accepted from $10.49bn offered (https://treasurydirect.gov/instit/annceresult/press/preanre/2026/BBR_20260910174000.pdf)",
         "FRED CMT series / Treasury refunding documents (Nov 4 2026)"
       ],
       "updated_at": "2026-09-10"
