@@ -7,31 +7,48 @@
     "_comment": "Treasury refunding and auction calendar. Source: treasury.gov. Tony: set up fetch from https://home.treasury.gov/resource-center/data-chart-center/quarterly-refunding",
     "_fetch_url": "https://home.treasury.gov/resource-center/data-chart-center/quarterly-refunding",
     "_api_endpoint": "https://api.fiscaldata.treasury.gov/services/api/fiscal_service/",
-    "last_updated": "2026-09-08",
+    "last_updated": "2026-09-10",
     "next_refunding_announcement": {
       "date": "2026-11-01",
       "status": "estimated",
       "notes": "Quarterly Refunding Announcement (QRA) - sets issuance sizes for next quarter"
     },
-    "upcoming_auctions": [
+    "upcoming_auctions": [],
+    "recent_auction_results": [
       {
-        "date": "2026-09-09",
-        "security": "10-Year Note (9y11m reopening)",
-        "cusip": null,
-        "size_billions": 39.0,
-        "status": "scheduled",
-        "notes": "Post\u2013Labor Day coupon week \u2014 watch bid-to-cover and dealer vs indirect share"
-      },
-      {
+        "_comment": "Completed auction with official results from TreasuryDirect TA_WS API",
         "date": "2026-09-10",
         "security": "30-Year Bond (29y11m reopening)",
-        "cusip": null,
+        "series": "Bonds of August 2056",
+        "cusip": "912810UW6",
         "size_billions": 22.0,
-        "status": "scheduled",
-        "notes": "Post\u2013Labor Day long bond \u2014 dealer vs indirect share is the test"
-      }
-    ],
-    "recent_auction_results": [
+        "issue_date": "2026-09-15",
+        "maturity_date": "2056-08-15",
+        "high_yield_pct": 5.308,
+        "coupon_pct": 5.125,
+        "bid_to_cover": 2.61,
+        "allocation_at_high_pct": 64.29,
+        "total_tendered_billions": 57.467,
+        "total_accepted_billions": 22.0,
+        "primary_dealer_accepted_billions": 0.485,
+        "direct_accepted_billions": 4.02,
+        "indirect_accepted_billions": 17.453,
+        "source_url": "https://www.treasurydirect.gov/TA_WS/securities/search?format=json&type=Bond&term=30-Year",
+        "results_pdf": "R_20260910_3.pdf",
+        "stranger_note": "BTC 2.61; strong indirect demand (~79% of accepted)."
+      },
+      {
+        "_comment": "Completed auction with official results from TreasuryDirect TA_WS API",
+        "date": "2026-09-09",
+        "security": "10-Year Note (9y11m reopening)",
+        "cusip": "91282CRF0",
+        "size_billions": 39.0,
+        "high_yield_pct": 4.834,
+        "bid_to_cover": 2.71,
+        "allocation_at_high_pct": 89.25,
+        "source_url": "https://www.treasurydirect.gov/TA_WS/securities/search?format=json&type=Note&term=10-Year",
+        "stranger_note": "BTC 2.71; high allocation at high (89.25%)."
+      },
       {
         "_comment": "Completed auction with official results from TreasuryDirect TA_WS API",
         "date": "2026-09-08",
@@ -187,7 +204,7 @@
     "curve_data": "live",
     "cftc_cot": "live",
     "follow_up_for_tony": [
-      "Labor Day 2026-09-07: manually replaced stale Sep 5\u20137 stub auctions with TreasuryDirect Sep 8\u201310 coupon week (3Y/10Y/30Y).",
+      "Labor Day 2026-09-07: manually replaced stale Sep 5–7 stub auctions with TreasuryDirect Sep 8–10 coupon week (3Y/10Y/30Y).",
       "DONE: Yield curve fetch via fetch_curve.py (Treasury.gov primary, FRED optional, MOVE via Yahoo)",
       "Set up CFTC COT weekly parse from cftc.gov or Quandl",
       "Add cron job to pipeline for weekly/daily updates"
