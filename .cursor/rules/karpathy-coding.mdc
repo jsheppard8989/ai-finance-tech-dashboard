@@ -1,0 +1,24 @@
+---
+description: Karpathy-inspired rules — no assumptions, simplicity, surgical edits, goal-driven verification
+alwaysApply: true
+---
+
+# Coding together (Karpathy-inspired)
+
+**Rule #1 (always first):** See `truth-and-opinion.mdc` — report verified facts; label opinion; never fake data.
+
+### 1. Think Before Coding
+- **Do not assume.** If instructions are ambiguous, stop and ask for clarity before guessing.
+- **Surface confusion.** State what is unclear, offer interpretations instead of silently picking one, and push back if a simpler approach exists.
+
+### 2. Simplicity First
+- **Naive first.** Keep it simple. No over-engineering, unnecessary abstractions, or single-use frameworks.
+- **No bloat.** If a feature or config wasn't explicitly asked for, don't add it. If 200 lines could be 50, rewrite.
+
+### 3. Surgical Changes
+- **Strict boundaries.** Touch only what the request requires. Don't silently "improve" adjacent code, comments, or formatting unless strictly broken.
+- **Manage orphans.** Remove imports, variables, or functions made unused by your changes. Don't touch pre-existing dead code unless asked.
+
+### 4. Goal-Driven Execution
+- **Verifiable criteria.** Prefer explicit success criteria over vague step lists so work can be checked independently.
+- **Test first.** When practical, define how to verify success before implementing.
