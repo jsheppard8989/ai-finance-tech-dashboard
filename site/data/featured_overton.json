@@ -8,8 +8,8 @@
       "term": "Buyback as confession (captive duration)",
       "thesis": "When Treasury triples the long-end liquidity buyback the same week it sells 10s and 30s, and the 10y still clears at a multi-year high yield with strong cover, the regime is confessing that private sponsorship of duration is not enough without a standing state bid — and the market is already pricing that bid as too small. Money is in who warehouses duration (banks/pensions/HTM-SLR/dealer inventory) and the issuer as standing long-end bid while coupon supply continues — not debt scare, not Nvidia.",
       "who_collects_rent": "Whoever sets captivity / balance-sheet rules and runs the buyback backstop — regulators / Treasury / Fed plumbing — not the coupon; dealers take warehouse/fees; equity of stuffed franchises can be leftover.",
-      "decisive_test": "(1) Sep 9 10y STAMPED — BTC 2.71, high yield 4.834%, indirects ~79% → private bid intact at high levels; buyback expansion leans cosmetic (WATCH; one auction ≠ RELEGATE). (2) TODAY Sep 10 ~$22bn 30y reopen — cover ≥ recent averages, no meaningful tail, strong indirects → private bid intact / cosmetic lean; soft cover/fat tail/weak indirects with yields elevated → sponsorship stress live. (3) TODAY first enlarged long-end buyback op — max $6bn in 10–20y (triple prior $2bn; above SB0607 ≥$4bn floor) — thick take-up into rising yields = backstop used; thin offers vs strong-sponsorship claim = plumbing overstated. (4) Nov 4 QRA — buyback maxes cut or framed temporary → structural state-bid claim fails → RELEGATE.",
-      "nested_note": "Sep 9 stamp: 10y ~$39bn · high 4.834% · BTC 2.71 · indirects ~79% (TreasuryDirect R_20260909_2). Buyback reveal: Thu Sep 10 max $6bn in 10–20y. Next check TODAY: ~$22bn 30y reopen + $6bn op take-up. Curve stress into sale: secondary 10y ~4.84% / 30y ~5.29–5.30%. Anti-Overton: SV room on AGI/racks/hyperscaler capex/power souvenirs vs empty space = fiscal-repression plumbing (who warehouses duration; buybacks as confession). Nest power/interconnect under Trap #1 / AI foundation — NOT this card's headline. Calendar: Sep 15 20y; CPI Sep 11; FOMC+SEP Sep 15–16; Nov 4 refunding.",
+      "decisive_test": "(1) Sep 9 10Y STAMPED — BTC 2.71, high 4.834%, indirects ~79% → private bid intact (PASS). (2) Sep 10 30Y STAMPED — $22bn CUSIP 912810UW6; high 5.308%; BTC 2.61; indirects 79.5%; dealers 2.2% → private bid intact at elevated clear (PASS). (3) Sep 10 buyback STAMPED — max $6bn 10–20Y; offered $10.489bn; accepted $5.187bn (86.5% of max); 23/40 issues (BBR_20260910174000). (4) Nov 4 QRA — buyback maxes cut or framed temporary → structural state-bid claim fails → RELEGATE.",
+      "nested_note": "Sep 9 stamp: 10Y ~$39bn · high 4.834% · BTC 2.71 · indirects ~79% (TreasuryDirect R_20260909_2). Sep 10 stamp: 30Y $22bn CUSIP 912810UW6 · high 5.308% · BTC 2.61 · indirects 79.5% · dealers 2.2% (PASS). Sep 10 buyback stamp: max $6bn 10–20Y; offered $10.489bn; accepted $5.187bn (86.5% of max) (BBR_20260910174000). Curve stress into sale: secondary 10y ~4.84% / 30y ~5.29–5.30%. Anti-Overton: SV room on AGI/racks/hyperscaler capex/power souvenirs vs empty space = fiscal-repression plumbing (who warehouses duration; buybacks as confession). Nest power/interconnect under Trap #1 / AI foundation — NOT this card's headline. Calendar: Sep 15 20y; CPI Sep 11; FOMC+SEP Sep 15–16; Nov 4 refunding.",
       "adjacent_terms": [
         "Yield Curve Control (YCC)"
       ],
@@ -19,7 +19,7 @@
         "author": "JG / Site Admin",
         "date": "2026-09-10",
         "greenlit_by": "Jared",
-        "note": "JG Thu Overton edit 2026-09-10 — Sep 9 stamp + Sep 10 sensors; SB0607 / Reuters."
+        "note": "JG Thu Overton edit 2026-09-10 — Sep 9 10Y + Sep 10 30Y + buyback take-up STAMPED; SB0607."
       },
       "status": "active",
       "display_order": 1,
@@ -34,11 +34,11 @@
         },
         {
           "test_id": 2,
-          "label": "Sep 10 30y reopen + $6bn long-end buyback op",
-          "status": "pending",
-          "one_liner": null,
-          "as_of": null,
-          "source": null
+          "label": "Sep 10 30Y reopen + $6bn long-end buyback op",
+          "status": "pass",
+          "one_liner": "PASS — Sep 10 30Y reopen CUSIP 912810UW6: $22bn; high 5.308%; BTC 2.61; indirects 79.5%; dealers 2.2%. Buyback: max $6bn 10–20Y; offered $10.489bn; accepted $5.187bn (86.5% of max) (BBR_20260910174000).",
+          "as_of": "2026-09-10",
+          "source": "https://www.treasurydirect.gov/instit/annceresult/press/preanre/2026/R_20260910_3.pdf"
         },
         {
           "test_id": 3,
