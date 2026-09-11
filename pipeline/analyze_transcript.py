@@ -545,7 +545,9 @@ def analyze_transcript_with_ai(
             )
             content = response.choices[0].message.content.strip()
         elif client_type == 'moonshot':
-            # Moonshot/Kimi API (OpenAI-compatible)
+            # Moonshot/Kimi API (OpenAI-compatible).
+            # kimi-k2.6 is a reasoning model: reasoning_tokens count against max_tokens.
+            # 4000 was often exhausted mid-JSON (finish_reason=length) → empty/truncated parse.
             response = client.chat.completions.create(
                 model=resolve_llm_model('moonshot'),
                 messages=[
@@ -553,9 +555,16 @@ def analyze_transcript_with_ai(
                     {"role": "user", "content": prompt}
                 ],
                 temperature=llm_temperature('moonshot', 0.3),
-                max_tokens=4000
+                max_tokens=16000
             )
-            content = response.choices[0].message.content.strip()
+            raw = response.choices[0].message.content
+            if not raw or not str(raw).strip():
+                finish = getattr(response.choices[0], "finish_reason", None)
+                usage = getattr(response, "usage", None)
+                raise ValueError(
+                    f"Moonshot returned empty content (finish_reason={finish}, usage={usage})"
+                )
+            content = str(raw).strip()
         elif client_type == 'gemini':
             # Gemini API
             model = genai.GenerativeModel(resolve_llm_model('gemini'))

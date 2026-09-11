@@ -325,6 +325,8 @@ def llm_chat_json(client_kind: str, client: Any, system: str, user: str) -> Dict
     from analyze_transcript import resolve_llm_model, llm_temperature
     if client_kind == "moonshot" or client_kind == "openai":
         model = resolve_llm_model(client_kind)
+        # kimi-k2.x reasoning consumes completion budget; keep headroom for JSON body.
+        max_tok = 8000 if client_kind == "moonshot" else 2000
         common = dict(
             model=model,
             messages=[
@@ -332,7 +334,7 @@ def llm_chat_json(client_kind: str, client: Any, system: str, user: str) -> Dict
                 {"role": "user", "content": user},
             ],
             temperature=llm_temperature(client_kind, 0.75),
-            max_tokens=2000,
+            max_tokens=max_tok,
         )
         # Best-effort: force strict JSON output (prevents parse crashes).
         try:
