@@ -1,6 +1,6 @@
 {
   "_comment": "First-class market data objects for the idea radar. Treasury auctions, curve snapshots, and positioning data.",
-  "_updated": "2026-09-10",
+  "_updated": "2026-09-11",
   "_data_status": "live",
   "schema_version": 1,
   "treasury_calendar": {
@@ -86,7 +86,7 @@
     "_primary_source": "Treasury.gov",
     "_source_url": "https://home.treasury.gov/resource-center/data-chart-center/interest-rates/TextView?type=daily_treasury_yield_curve",
     "_fred_status": "unavailable (optional)",
-    "last_updated": "2026-09-10T22:45:54.839247",
+    "last_updated": "2026-09-11T05:33:10.953322",
     "as_of_date": "2026-09-10",
     "spreads": {
       "2s10s": {
@@ -145,7 +145,7 @@
     "_fetch_url": "https://www.cftc.gov/dea/futures/financial_lf.htm",
     "_api_alternative": "Quandl CFTC dataset (may need key)",
     "_fetch_instructions": "CFTC releases COT every Friday at 3:30pm ET for positions as of prior Tuesday.",
-    "last_updated": "2026-09-10T22:45:55.261899",
+    "last_updated": "2026-09-11T05:33:11.471713",
     "report_date": "2026-09-01",
     "rates_positioning": {
       "10y_note": {
@@ -204,7 +204,7 @@
     "curve_data": "live",
     "cftc_cot": "live",
     "follow_up_for_tony": [
-      "Labor Day 2026-09-07: manually replaced stale Sep 5–7 stub auctions with TreasuryDirect Sep 8–10 coupon week (3Y/10Y/30Y).",
+      "Labor Day 2026-09-07: manually replaced stale Sep 5\u20137 stub auctions with TreasuryDirect Sep 8\u201310 coupon week (3Y/10Y/30Y).",
       "DONE: Yield curve fetch via fetch_curve.py (Treasury.gov primary, FRED optional, MOVE via Yahoo)",
       "Set up CFTC COT weekly parse from cftc.gov or Quandl",
       "Add cron job to pipeline for weekly/daily updates"
@@ -216,7 +216,7 @@
     "_source_url": "https://gpu-index.semianalysis.com/",
     "_data_type": "surveyed_index",
     "_staleness_note": "Free public data lags several months behind current date. Display the as-of period prominently.",
-    "last_fetched": "2026-09-10T22:45:38.472510",
+    "last_fetched": "2026-09-11T05:32:54.679603",
     "h100": {
       "period": "Apr 2026",
       "composite_index": {
