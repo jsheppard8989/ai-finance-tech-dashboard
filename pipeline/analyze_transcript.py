@@ -37,6 +37,19 @@ except ImportError:
 PROCESSED_MARKER_DIR.mkdir(parents=True, exist_ok=True)
 
 
+
+def llm_temperature(client_kind: str, desired: float) -> float:
+    """Return a temperature accepted by the active provider/model.
+
+    Moonshot kimi-k2.x / kimi-k3 currently reject any temperature other than 1
+    (API: "invalid temperature: only 1 is allowed for this model"). Clamping
+    here keeps analyze/debate/pundit calls from failing before DB insert.
+    """
+    if (client_kind or "").strip().lower() == "moonshot":
+        return 1.0
+    return desired
+
+
 def resolve_llm_model(client_kind: str) -> str:
     """Resolve the LLM model name for a given client kind.
     
@@ -527,7 +540,7 @@ def analyze_transcript_with_ai(
                     {"role": "system", "content": "You are a precise financial analyst. Return only valid JSON."},
                     {"role": "user", "content": prompt}
                 ],
-                temperature=0.3,
+                temperature=llm_temperature('openai', 0.3),
                 max_tokens=4000
             )
             content = response.choices[0].message.content.strip()
@@ -539,7 +552,7 @@ def analyze_transcript_with_ai(
                     {"role": "system", "content": "You are a precise financial analyst. Return only valid JSON."},
                     {"role": "user", "content": prompt}
                 ],
-                temperature=0.3,
+                temperature=llm_temperature('moonshot', 0.3),
                 max_tokens=4000
             )
             content = response.choices[0].message.content.strip()
@@ -549,7 +562,7 @@ def analyze_transcript_with_ai(
             response = model.generate_content(
                 prompt,
                 generation_config=genai.types.GenerationConfig(
-                    temperature=0.3,
+                    temperature=llm_temperature('gemini', 0.3),
                     max_output_tokens=4000
                 )
             )

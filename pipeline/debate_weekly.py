@@ -322,7 +322,7 @@ def _strip_json_fence(s: str) -> str:
 
 
 def llm_chat_json(client_kind: str, client: Any, system: str, user: str) -> Dict[str, Any]:
-    from analyze_transcript import resolve_llm_model
+    from analyze_transcript import resolve_llm_model, llm_temperature
     if client_kind == "moonshot" or client_kind == "openai":
         model = resolve_llm_model(client_kind)
         common = dict(
@@ -331,7 +331,7 @@ def llm_chat_json(client_kind: str, client: Any, system: str, user: str) -> Dict
                 {"role": "system", "content": system},
                 {"role": "user", "content": user},
             ],
-            temperature=0.75,
+            temperature=llm_temperature(client_kind, 0.75),
             max_tokens=2000,
         )
         # Best-effort: force strict JSON output (prevents parse crashes).
@@ -350,7 +350,7 @@ def llm_chat_json(client_kind: str, client: Any, system: str, user: str) -> Dict
         m = genai.GenerativeModel(model)
         r = m.generate_content(
             f"{system}\n\n---\n\n{user}",
-            generation_config={"temperature": 0.75},
+            generation_config={"temperature": llm_temperature("gemini", 0.75)},
         )
         text = (getattr(r, "text", None) or "").strip()
     else:

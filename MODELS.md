@@ -12,6 +12,7 @@ This is the quick reference for which models we use where, and in what order. Tr
   - Provider: Moonshot/Kimi (via `moonshot:default` profile in `auth-profiles.json` or `MOONSHOT_API_KEY`).
   - Used in: `analyze_transcript.py`, `auto_pipeline.py`, `ai_analyze_transcript.py`, `generate_deepdives.py`, `debate_weekly.py`, `pundit_profile_llm.py`.
   - Override via `DEBATE_LLM_MODEL` or `MOONSHOT_MODEL` env vars.
+  - **Temperature:** `kimi-k2.6` / `kimi-k3` only accept `temperature=1`; pipeline helpers clamp via `llm_temperature()` in `analyze_transcript.py` (passing 0.3/0.75 previously caused analyze to fail before `podcast_episodes` insert).
 
 - **Fallback:** `gpt-4o-mini`
   - Provider: OpenAI.

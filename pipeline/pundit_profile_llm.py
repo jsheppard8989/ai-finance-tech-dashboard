@@ -55,6 +55,10 @@ def _openai_compatible_json(
     client: Any, model: str, system: str, user: str, temperature: float = 0.25
 ) -> Dict[str, Any]:
     """Chat Completions with JSON mode when supported (OpenAI + many OpenAI-compatible APIs)."""
+    # kimi-k2.x / kimi-k3 reject any temperature other than 1.
+    model_l = (model or "").lower()
+    if model_l.startswith("kimi-k2") or model_l.startswith("kimi-k3") or "moonshot" in model_l:
+        temperature = 1.0
     kwargs: Dict[str, Any] = {
         "model": model,
         "messages": [
