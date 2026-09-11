@@ -229,11 +229,11 @@
     "id": 445,
     "name": "Ryan Krishneth",
     "slug": "ryan-krishneth",
-    "bio": "Leader at Val, the company behind Valsmith, with expertise in enterprise AI benchmarking and independent model evaluation.",
+    "bio": "Ryan Krishneth is a leader at Val, the company behind Valsmith, with expertise in enterprise AI benchmarking and independent model evaluation. He advocates for independent AI testing and private benchmarking to help organizations validate the return on investment of their AI systems. His work focuses on providing enterprises with rigorous, vendor-neutral assessment frameworks for deployed AI models.",
     "known_for": "Advocating for independent AI testing and private benchmarking to validate enterprise AI ROI.",
-    "net_worth_usd": null,
-    "net_worth_source": null,
-    "net_worth_updated_at": null,
+    "net_worth_usd": 12000000.0,
+    "net_worth_source": "https://ibusiness.news/news/2026-01-07/exploring-sriram-krishnans-net-worth-and-connections-to-trump-and-elon-musk/",
+    "net_worth_updated_at": "2026-09-11T14:00:36.678436",
     "voice_tone": "Data-driven and pragmatic, focusing on empirical evidence and cost metrics.",
     "voice_style": "Employs specific financial anecdotes and benchmark comparisons to illustrate gaps between public marketing and private model performance.",
     "voice_delivery_notes": "Deliver at a measured pace with slight emphasis on dollar figures and comparative ratios to underscore enterprise urgency.",
@@ -249,8 +249,38 @@
     "last_proof_snippet": "Public benchmarks frequently misrepresent true model capabilities; investors and enterprises must rely on private held-out evaluations to avoid misallocation of capital.",
     "supporting_takeaway": "Public benchmarks frequently misrepresent true model capabilities; investors and enterprises must rely on private held-out evaluations to avoid misallocation of capital.",
     "grokipedia_url": null,
-    "grokipedia_fetched_at": null,
-    "pundit_profile": null
+    "grokipedia_fetched_at": "2026-09-11T14:00:35.767772",
+    "pundit_profile": {
+      "source": "llm",
+      "source_model": "moonshot:kimi-k2.6",
+      "source_url": "",
+      "page_title": "Ryan Krishneth",
+      "fetched_at": "2026-09-11T19:00:35.767223+00:00",
+      "cliff_notes": "Ryan Krishneth is recognized for his work in enterprise AI evaluation, holding a leadership position at Val, the company that developed the Valsmith platform. In this capacity, he focuses on independent model evaluation and enterprise AI benchmarking, promoting methodologies that allow organizations to verify AI performance and return on investment through third-party, private testing rather than vendor-reported metrics. His public profile centers on the need for transparency and rigor in AI procurement and deployment, positioning independent validation as a safeguard for enterprise buyers in a crowded and rapidly evolving market. While specific details about his earlier career trajectory, educational background, and prior professional roles are not widely documented in public sources, his current advocacy underscores a focus on practical, risk-reduction strategies for corporate AI adoption.",
+      "derived": {
+        "current_role": "Leader at Val"
+      },
+      "infobox": {},
+      "lead_paragraphs": [
+        "Ryan Krishneth is recognized for his work in enterprise AI evaluation, holding a leadership position at Val, the company that developed the Valsmith platform. In this capacity, he focuses on independent model evaluation and enterprise AI benchmarking, promoting methodologies that allow organizations to verify AI performance and return on investment through third-party, private testing rather than vendor-reported metrics.",
+        "His public profile centers on the need for transparency and rigor in AI procurement and deployment, positioning independent validation as a safeguard for enterprise buyers in a crowded and rapidly evolving market. While specific details about his earlier career trajectory, educational background, and prior professional roles are not widely documented in public sources, his current advocacy underscores a focus on practical, risk-reduction strategies for corporate AI adoption."
+      ],
+      "sections": [
+        {
+          "heading": "Enterprise AI Benchmarking",
+          "body": "Krishneth leads efforts to develop benchmarking frameworks that assess AI model performance in enterprise environments. His work aims to replace vendor-supplied metrics with independent evaluations that reflect real-world business requirements and operational constraints."
+        },
+        {
+          "heading": "Independent AI Testing Advocacy",
+          "body": "He is a vocal advocate for private, third-party AI testing, arguing that independent validation is essential for organizations to accurately measure AI ROI. This approach is intended to reduce reliance on marketing claims and improve procurement rigor."
+        },
+        {
+          "heading": "Val and Valsmith",
+          "body": "As a leader at Val, the company behind the Valsmith platform, Krishneth contributes to tools and methodologies designed for independent model evaluation. The company focuses on providing enterprises with transparent, standardized assessment capabilities for their AI investments."
+        }
+      ]
+    },
+    "net_worth": "$12.0M"
   },
   {
     "id": 444,
@@ -283,10 +313,10 @@
     "id": 442,
     "name": "Astra Research Team",
     "slug": "astra-research-team",
-    "bio": "OpenAI research team behind the Astra model that proved the existence of non-sofic groups using AI-driven mathematical reasoning.",
-    "known_for": "First AI system to prove a major unsolved problem in group theory",
+    "bio": "The Astra Research Team is a research group at OpenAI responsible for developing the Astra reasoning model, an AI system designed for advanced mathematical deduction. The team gained prominence by using Astra to prove the existence of non-sofic groups, a long-standing open problem in group theory and one of the first major unsolved problems in pure mathematics tackled with substantial AI assistance. Their work focuses on pushing automated reasoning beyond standard benchmarks toward novel, verifiable scientific discovery. The team\u2019s efforts signal growing investor interest in AI systems capable of frontier research and development.",
+    "known_for": "Pioneering the first AI proof of a major unsolved group-theory problem, demonstrating that large-scale reasoning models can produce original, verifiable mathematical results.",
     "net_worth_usd": null,
-    "net_worth_source": null,
+    "net_worth_source": "",
     "net_worth_updated_at": null,
     "voice_tone": "Measured and technical with emphasis on methodological rigor",
     "voice_style": "Builds arguments from concrete mathematical examples before generalizing to broader AI implications",
@@ -303,8 +333,51 @@
     "last_proof_snippet": "Often, it's a practicing mouth-efficient, you have an idea, and then you kind of think it might work, then you try for a few hours if you reach, and at some point, you give up. Whereas for GPT, like, okay, I keep informing you to do this, l",
     "supporting_takeaway": "AI reasoning traces now 'shockingly' resemble expert human mathematicians, enabling interpretable and buildable proofs rather than black-box results",
     "grokipedia_url": null,
-    "grokipedia_fetched_at": null,
-    "pundit_profile": null
+    "grokipedia_fetched_at": "2026-09-11T14:04:36.270622",
+    "pundit_profile": {
+      "source": "llm",
+      "source_model": "moonshot:kimi-k2.6",
+      "source_url": "",
+      "page_title": "Astra Research Team",
+      "fetched_at": "2026-09-11T19:04:36.270274+00:00",
+      "cliff_notes": "The Astra Research Team operates within OpenAI and is distinguished by its focus on applying large language models and reasoning systems to frontier mathematics. The team developed the Astra model, an AI system engineered to perform sustained, rigorous mathematical deduction and verification. In a widely noted result, the team deployed Astra to produce a proof establishing the existence of non-sofic groups, a decades-old open question in group theory. This marked one of the first instances of an AI system proving a major unsolved problem in pure mathematics without relying solely on human derivation, suggesting that modern AI architectures can move beyond benchmark performance to generate novel, checkable knowledge. In public discussions, team members have emphasized a methodology oriented around \"reachable results\"\u2014iteratively probing problems where AI assistance can yield concrete progress rather than open-ended speculation. Their appearance on an Andreessen Horowitz podcast highlighted their view that AI mathematical reasoning is scaling rapidly, with a high ceiling for problem difficulty, though they remain measured about near-term prospects for the most famous open problems like P versus NP. By bridging advanced AI research with pure mathematics, the Astra Research Team exemplifies a strategic bet that reasoning capabilities will unlock scientific and commercial value in deeply technical domains.",
+      "derived": {
+        "current_role": "Research team at OpenAI (developers of the Astra reasoning model)"
+      },
+      "infobox": {
+        "Affiliation": "OpenAI",
+        "Notable achievement": "First AI proof of the existence of non-sofic groups",
+        "Field": "Artificial intelligence; Group theory",
+        "Status": "Active"
+      },
+      "lead_paragraphs": [
+        "The Astra Research Team operates within OpenAI and is distinguished by its focus on applying large language models and reasoning systems to frontier mathematics. The team developed the Astra model, an AI system engineered to perform sustained, rigorous mathematical deduction and verification. In a widely noted result, the team deployed Astra to produce a proof establishing the existence of non-sofic groups, a decades-old open question in group theory.",
+        "This marked one of the first instances of an AI system proving a major unsolved problem in pure mathematics without relying solely on human derivation, suggesting that modern AI architectures can move beyond benchmark performance to generate novel, checkable knowledge. In public discussions, team members have emphasized a methodology oriented around \"reachable results\"\u2014iteratively probing problems where AI assistance can yield concrete progress rather than open-ended speculation.",
+        "Their appearance on an Andreessen Horowitz podcast highlighted their view that AI mathematical reasoning is scaling rapidly, with a high ceiling for problem difficulty, though they remain measured about near-term prospects for the most famous open problems like P versus NP. By bridging advanced AI research with pure mathematics, the Astra Research Team exemplifies a strategic bet that reasoning capabilities will unlock scientific and commercial value in deeply technical domains."
+      ],
+      "sections": [
+        {
+          "heading": "AI-Driven Proof of Non-Sofic Groups",
+          "body": "The team used the Astra model to produce a proof establishing the existence of non-sofic groups, a long-standing unsolved problem in group theory. This result is cited as one of the first major unsolved problems in pure mathematics resolved with substantial AI assistance. It demonstrates that contemporary AI systems can generate novel, verifiable mathematical arguments beyond standard benchmarks."
+        },
+        {
+          "heading": "The Astra Reasoning Model",
+          "body": "Astra is an OpenAI reasoning system developed by the team to perform sustained, complex mathematical deduction. The model is designed to iteratively explore proofs and verify logical steps, acting as a collaborative instrument for mathematical discovery rather than a simple pattern matcher. Its architecture targets frontier scientific problems requiring deep, structured reasoning."
+        },
+        {
+          "heading": "Research Philosophy and Reachable Results",
+          "body": "Team members describe a focus on \"reachable results\"\u2014targeting mathematical problems where iterative AI probing can yield tangible progress within practical timeframes. This approach contrasts with open-ended conjecture, emphasizing concrete, checkable outcomes. The philosophy reflects a broader strategy to make AI a practical tool for working mathematicians and scientists."
+        },
+        {
+          "heading": "Scaling Mathematical Reasoning",
+          "body": "In public discussions, the team has argued that the ceiling for AI mathematical capability is very high, even if certain legendary open problems remain out of reach for now. They note that current systems show no apparent limit on difficulty for a wide class of solvable problems, suggesting a long runway for AI-assisted science and R&D."
+        },
+        {
+          "heading": "Investor and Commercial Significance",
+          "body": "By solving a decades-old problem in group theory, the Astra Research Team provides a concrete signal that large-scale AI can produce original intellectual property in technical and scientific domains. This capability has implications for automating research-intensive industries such as pharmaceuticals, materials science, and engineering design."
+        }
+      ]
+    }
   },
   {
     "id": 440,
@@ -391,7 +464,7 @@
     "last_podcast_name": "The a16z Show",
     "last_episode_date": "2026-09-05",
     "mention_score": 3,
-    "mention_score_decayed": 2.67,
+    "mention_score_decayed": 2.61,
     "last_main_idea": "The winning AI infrastructure investments will be in open-weights-enabling platforms and model-agnostic orchestration layers, as enterprise adoption shifts from single-model dependence to intelligent routing across specialized models.",
     "last_proof_cite": "The a16z Show \u2022 2026-09-05 \u2022 Aaron Levie on Why Open AI Wins",
     "last_proof_snippet": "Openweight AI is often framed as a threat to frontier labs. Aaron Levy thinks that kits the economics backwards. The box co-founder and CEO joins the OJFI and Sofia Puccini on MTS to discuss why open models could make the AI ecosystem more",
@@ -437,8 +510,8 @@
     "id": 439,
     "name": "Stefan Bunzel",
     "slug": "stefan-bunzel",
-    "bio": "CEO of Moderna, leading the company's pivot from infectious disease vaccines to personalized cancer therapeutics and autoimmune applications.",
-    "known_for": "Pioneering commercial-scale personalized mRNA medicine manufacturing",
+    "bio": "Stefan Bunzel is recognized for advancing the commercial-scale production of personalized mRNA medicines, particularly individualized cancer vaccines. His public commentary centers on using tumor DNA sequencing and computational algorithms to identify patient-specific mutations, then manufacturing unique mRNA doses to teach the immune system to recognize cancer signatures. He has discussed the technical and regulatory challenges of industrializing therapies where every vial is a bespoke product.",
+    "known_for": "Pioneering industrial-scale manufacturing of personalized mRNA therapeutics tailored to individual tumor biology.",
     "net_worth_usd": 6000000000.0,
     "net_worth_source": "https://www.celebritynetworth.com/richest-businessmen/ceos/stephane-bancel-net-worth/",
     "net_worth_updated_at": "2026-09-04T08:47:09.957201",
@@ -457,8 +530,40 @@
     "last_proof_snippet": "So first time there is a cancer vaccine working but field has been doing that for 20 plus years more than a thousand clinical trials that have all failed. What was different this time? What is it about mRNA technology that enables the immun",
     "supporting_takeaway": "Personalization is foundational, not optional: 90% of tumor antigens differ patient-to-patient, making individualized manufacturing the core competitive moat",
     "grokipedia_url": null,
-    "grokipedia_fetched_at": null,
-    "pundit_profile": null,
+    "grokipedia_fetched_at": "2026-09-11T14:10:42.885074",
+    "pundit_profile": {
+      "source": "llm",
+      "source_model": "moonshot:kimi-k2.6",
+      "source_url": "",
+      "page_title": "Stefan Bunzel",
+      "fetched_at": "2026-09-11T19:10:42.884692+00:00",
+      "cliff_notes": "Stefan Bunzel\u2019s public career centers on translating messenger RNA (mRNA) technology into individualized medicine, with a focus on oncology and scalable manufacturing. He is known for efforts to build the computational and production infrastructure required for personalized mRNA therapeutics at commercial volume. In recorded discussions, he has described a workflow in which a patient\u2019s tumor biopsy and healthy tissue are sequenced and compared nucleotide-by-nucleotide to identify cancer-specific mutations. Algorithms then rank these alterations to design a bespoke mRNA vaccine encoding the most immunologically relevant neoantigens. The therapeutic is intended to reeducate the immune system to attack cancer cells it had previously failed to recognize. Bunzel has contextualized recent progress against a history of more than two decades of largely unsuccessful cancer vaccine clinical trials, arguing that mRNA\u2019s ability to program immune learning represents a qualitative advance. He has also highlighted the operational and regulatory complexities inherent to personalized medicine, noting that because each dose is different, traditional batch-based approval and quality frameworks must evolve to accommodate individualized production.",
+      "derived": {},
+      "infobox": {},
+      "lead_paragraphs": [
+        "Stefan Bunzel\u2019s public career centers on translating messenger RNA (mRNA) technology into individualized medicine, with a focus on oncology and scalable manufacturing. He is known for efforts to build the computational and production infrastructure required for personalized mRNA therapeutics at commercial volume. In recorded discussions, he has described a workflow in which a patient\u2019s tumor biopsy and healthy tissue are sequenced and compared nucleotide-by-nucleotide to identify cancer-specific mutations.",
+        "Algorithms then rank these alterations to design a bespoke mRNA vaccine encoding the most immunologically relevant neoantigens. The therapeutic is intended to reeducate the immune system to attack cancer cells it had previously failed to recognize. Bunzel has contextualized recent progress against a history of more than two decades of largely unsuccessful cancer vaccine clinical trials, arguing that mRNA\u2019s ability to program immune learning represents a qualitative advance.",
+        "He has also highlighted the operational and regulatory complexities inherent to personalized medicine, noting that because each dose is different, traditional batch-based approval and quality frameworks must evolve to accommodate individualized production."
+      ],
+      "sections": [
+        {
+          "heading": "Personalized Cancer Vaccines",
+          "body": "Bunzel has outlined a process in which tumor DNA and healthy cell DNA are sequenced and compared letter-by-letter to identify patient-specific mutations. Computational algorithms select the most relevant alterations, which are then encoded into a custom mRNA vaccine designed to direct the immune system against that individual\u2019s cancer."
+        },
+        {
+          "heading": "mRNA Immune Education",
+          "body": "He has argued that mRNA technology enables the immune system to learn cancer signatures in ways prior approaches could not, potentially overcoming decades of failed trials by precisely targeting the unique neoantigens present in each patient\u2019s tumor."
+        },
+        {
+          "heading": "Regulatory & Manufacturing Scale",
+          "body": "Because every personalized dose is distinct, conventional batch-release and approval frameworks do not directly apply. Bunzel\u2019s work involves developing commercial-scale systems and adaptive regulatory pathways for medicines in which each vial is a unique product."
+        },
+        {
+          "heading": "Commercial-Scale Personalization",
+          "body": "A central theme of his career is the industrialization of individualized therapy\u2014translating bespoke treatments from research concept to repeatable, large-scale manufacturing without losing the tailored nature of each dose."
+        }
+      ]
+    },
     "net_worth": "$6.00B"
   },
   {
@@ -537,10 +642,10 @@
     "id": 438,
     "name": "Dr. Carley Anderson",
     "slug": "dr-carley-anderson",
-    "bio": "Nuclear energy expert specializing in advanced reactor design, fuel cycles, and commercialization pathways for next-generation nuclear technologies.",
-    "known_for": "Advancing small modular reactor deployment timelines and identifying early-market applications for advanced nuclear",
+    "bio": "Dr. Carley Anderson is a venture capitalist and nuclear energy expert who specializes in early-stage investments in advanced energy technologies, including next-generation nuclear systems. With a PhD and deep technical background in reactor design and fuel cycles, she focuses on commercialization pathways for small modular reactors and advanced nuclear concepts. Anderson is particularly recognized for identifying early-market opportunities\u2014such as data-center power demand\u2014that can support long-term power purchase agreements and accelerate reactor deployment timelines.",
+    "known_for": "Identifying early-market applications and offtake strategies that accelerate small modular reactor deployment and anchor the advanced nuclear renaissance.",
     "net_worth_usd": null,
-    "net_worth_source": null,
+    "net_worth_source": "",
     "net_worth_updated_at": null,
     "voice_tone": "Precise, technically authoritative with measured optimism",
     "voice_style": "Uses specific engineering metrics and deployment timelines to ground bullish nuclear thesis in operational reality",
@@ -557,8 +662,51 @@
     "last_proof_snippet": "You can't understate the importance of hyperscalers and data center builders to opening up these new markets and creating the conditions for a nuclear renaissance. Because you really do need somebody who's willing to sign a 20 year PBA for",
     "supporting_takeaway": "Bottleneck is manufacturing/supply chain and skilled labor, not just reactor physics; industrial robotics and standardized modules are the timescale unlock",
     "grokipedia_url": null,
-    "grokipedia_fetched_at": null,
-    "pundit_profile": null
+    "grokipedia_fetched_at": "2026-09-11T14:12:28.323009",
+    "pundit_profile": {
+      "source": "llm",
+      "source_model": "moonshot:kimi-k2.6",
+      "source_url": "",
+      "page_title": "Dr. Carley Anderson",
+      "fetched_at": "2026-09-11T19:12:28.322694+00:00",
+      "cliff_notes": "Dr. Carley Anderson has built a career at the intersection of advanced nuclear engineering and early-stage venture capital. A PhD scientist with deep expertise in reactor design, fuel cycles, and energy commercialization, she moved from technical research into investing, where she now focuses on early-stage companies developing transformative energy technologies. Her portfolio and commentary span small modular reactors, advanced nuclear fission, nuclear fusion, next-generation turbines, and laser uranium enrichment. Anderson is particularly influential in discussions about how new nuclear projects get financed and offtaken. She has highlighted the transformative impact of hyperscalers and data-center developers entering the power market as creditworthy counterparties willing to sign long-term power purchase agreements at prices that can support new reactor builds. By linking technical readiness with credible customer demand and venture funding, she has become a prominent voice for investors tracking the formative nuclear renaissance and the broader advanced-energy transition.",
+      "derived": {
+        "current_role": "Venture capitalist specializing in early-stage energy investments",
+        "education": "PhD"
+      },
+      "infobox": {},
+      "lead_paragraphs": [
+        "Dr. Carley Anderson has built a career at the intersection of advanced nuclear engineering and early-stage venture capital. A PhD scientist with deep expertise in reactor design, fuel cycles, and energy commercialization, she moved from technical research into investing, where she now focuses on early-stage companies developing transformative energy technologies.",
+        "Her portfolio and commentary span small modular reactors, advanced nuclear fission, nuclear fusion, next-generation turbines, and laser uranium enrichment. Anderson is particularly influential in discussions about how new nuclear projects get financed and offtaken. She has highlighted the transformative impact of hyperscalers and data-center developers entering the power market as creditworthy counterparties willing to sign long-term power purchase agreements at prices that can support new reactor builds.",
+        "By linking technical readiness with credible customer demand and venture funding, she has become a prominent voice for investors tracking the formative nuclear renaissance and the broader advanced-energy transition."
+      ],
+      "sections": [
+        {
+          "heading": "Small Modular Reactor Deployment",
+          "body": "Anderson works to advance timelines for small modular reactor commercialization by focusing on the techno-economic milestones and supply-chain readiness needed to move from demonstration to deployment."
+        },
+        {
+          "heading": "Early-Market Applications for Advanced Nuclear",
+          "body": "She identifies near-term customer segments\u2014particularly energy-intensive industries and data-center operators\u2014that can absorb new nuclear capacity and provide the demand certainty required for first-of-a-kind projects."
+        },
+        {
+          "heading": "Long-Term Power Purchase Agreements",
+          "body": "Anderson emphasizes that twenty-year power purchase agreements at prices around $100 per megawatt-hour are essential to project finance; the recent willingness of hyperscalers to sign such contracts is a key enabler of the nuclear renaissance."
+        },
+        {
+          "heading": "Venture Capital in Energy Transition",
+          "body": "As a practicing venture capitalist, she invests in early-stage companies across advanced nuclear fission, fusion, turbine technologies, and laser uranium enrichment, seeking transformative energy technologies with scalable market pathways."
+        },
+        {
+          "heading": "Advanced Fuel Cycles and Enrichment",
+          "body": "Her technical expertise extends to next-generation fuel cycles, including laser enrichment methods, which could reshape uranium supply chains and improve the economics of advanced reactors."
+        },
+        {
+          "heading": "Nuclear Renaissance: Fission and Fusion",
+          "body": "She tracks the parallel development of advanced fission and fusion ecosystems, arguing that both are entering formative phases driven by improved capital access, regulatory evolution, and new classes of corporate buyers."
+        }
+      ]
+    }
   },
   {
     "id": 437,
@@ -652,8 +800,8 @@
     "id": 435,
     "name": "Jared Dillian",
     "slug": "jared-dillian",
-    "bio": "Market strategist and investment commentator known for applying sentiment analysis and behavioral finance to macro and fixed-income markets.",
-    "known_for": "Contrarian macro calls and fixed-income sentiment analysis",
+    "bio": "Jared Dillian is a market strategist, author, and publisher of the macro newsletter The Daily Dirtnap. He is known for applying sentiment analysis and behavioral finance to global macro and fixed-income markets, often taking contrarian positions. A former ETF trader at Lehman Brothers, he writes and speaks frequently on bond markets, inflation, and investor psychology. His recent work includes the book The Awesome Portfolio.",
+    "known_for": "Contrarian macro calls and fixed-income sentiment analysis that challenge mainstream narratives on inflation, deficits, and bond yields.",
     "net_worth_usd": 100000000.0,
     "net_worth_source": "https://wggtb.substack.com/p/going-out-on-top",
     "net_worth_updated_at": "2026-09-04T08:47:16.094659",
@@ -672,8 +820,54 @@
     "last_proof_snippet": "Join today, once again, by Jared Dillian of the Daily Dirt Wrap and the new book, the awesome portfolio. Jared, good to see you. Good to be here, man. Thanks for having me. Yeah, you too, Jared, looking at the front page Bloomberg global bo",
     "supporting_takeaway": "Supply-driven bond bear arguments ignore demand dynamics; a risk-off event in equities could trigger a flight-to-quality that collapses interest rates.",
     "grokipedia_url": null,
-    "grokipedia_fetched_at": null,
-    "pundit_profile": null,
+    "grokipedia_fetched_at": "2026-09-11T14:09:01.712013",
+    "pundit_profile": {
+      "source": "llm",
+      "source_model": "moonshot:kimi-k2.6",
+      "source_url": "",
+      "page_title": "Jared Dillian",
+      "fetched_at": "2026-09-11T19:09:01.711266+00:00",
+      "cliff_notes": "Dillian began his professional life on the trading floor of Lehman Brothers, where he traded ETFs and witnessed the firm\u2019s implosion firsthand. Those experiences shaped his skepticism toward consensus narratives and informed his later writing on market psychology. After Lehman, he founded The Daily Dirtnap, a daily macro newsletter that became known for its contrarian, behaviorally oriented analysis of fixed-income, currency, and global-risk markets.\n\nDillian\u2019s framework centers on sentiment analysis and contrarian macro calls. He closely tracks investor positioning and narrative extremes, arguing that markets in rates and risk assets frequently overshoot fundamental reality. During periods such as the 2023\u20132024 global bond sell-off, he has publicly pushed back against alarm over deficits and inflation, citing deteriorating economic data and positioning-driven extremes.\n\nIn addition to newsletter publishing, Dillian is the author of Street Freak: Money and Madness at Lehman Brothers, a memoir that details the trading-floor culture and psychological pressures inside the firm before its bankruptcy. He later published The Awesome Portfolio, which focuses on asset-allocation principles for individual investors.\n\nAs a commentator, Dillian bridges macro strategy and behavioral finance. He is a regular guest on finance podcasts and broadcasts, offering a counterweight to dominant rate and inflation narratives by emphasizing crowd psychology and sentiment indicators. His career arc reflects a move from sell-side trading to independent publishing, with a consistent focus on the gap between market perception and macro fundamentals.",
+      "derived": {
+        "current_role": "Editor and Publisher, The Daily Dirtnap; Author",
+        "former_positions": "ETF Trader, Lehman Brothers",
+        "books_or_works": "The Awesome Portfolio; Street Freak: Money and Madness at Lehman Brothers; The Daily Dirtnap (newsletter)"
+      },
+      "infobox": {
+        "Notable Book": "The Awesome Portfolio",
+        "Previous Book": "Street Freak: Money and Madness at Lehman Brothers",
+        "Newsletter": "The Daily Dirtnap",
+        "Primary Focus": "Macro strategy, fixed income, behavioral finance"
+      },
+      "lead_paragraphs": [
+        "Dillian began his professional life on the trading floor of Lehman Brothers, where he traded ETFs and witnessed the firm\u2019s implosion firsthand. Those experiences shaped his skepticism toward consensus narratives and informed his later writing on market psychology. After Lehman, he founded The Daily Dirtnap, a daily macro newsletter that became known for its contrarian, behaviorally oriented analysis of fixed-income, currency, and global-risk markets.",
+        "Dillian\u2019s framework centers on sentiment analysis and contrarian macro calls. He closely tracks investor positioning and narrative extremes, arguing that markets in rates and risk assets frequently overshoot fundamental reality. During periods such as the 2023\u20132024 global bond sell-off, he has publicly pushed back against alarm over deficits and inflation, citing deteriorating economic data and positioning-driven extremes.",
+        "In addition to newsletter publishing, Dillian is the author of Street Freak: Money and Madness at Lehman Brothers, a memoir that details the trading-floor culture and psychological pressures inside the firm before its bankruptcy. He later published The Awesome Portfolio, which focuses on asset-allocation principles for individual investors.",
+        "As a commentator, Dillian bridges macro strategy and behavioral finance. He is a regular guest on finance podcasts and broadcasts, offering a counterweight to dominant rate and inflation narratives by emphasizing crowd psychology and sentiment indicators. His career arc reflects a move from sell-side trading to independent publishing, with a consistent focus on the gap between market perception and macro fundamentals."
+      ],
+      "sections": [
+        {
+          "heading": "Contrarian Macro and Bond-Market Calls",
+          "body": "Dillian is best known for contrarian takes on interest rates, inflation, and sovereign debt. He argues that consensus fears\u2014such as deficit-driven bond crashes\u2014often become self-reversing once positioning reaches extremes. In recent commentary he has pushed back against the 2023\u20132024 bond bear narrative, noting weakening payroll and growth data even as yields spiked."
+        },
+        {
+          "heading": "Behavioral Finance and Sentiment Analysis",
+          "body": "His research process emphasizes investor sentiment, positioning, and narrative psychology over pure fundamental modeling. By tracking crowd extremes in futures, surveys, and media tone, he identifies dislocations in rates and risk assets. This behavioral overlay is a hallmark of his newsletter and media appearances."
+        },
+        {
+          "heading": "Lehman Brothers Trading Background",
+          "body": "Dillian traded ETFs at Lehman Brothers before the firm\u2019s 2008 collapse, an experience he chronicled in his memoir Street Freak. The book details trading-floor culture, risk-taking incentives, and the psychological toll of market stress. That sell-side foundation informs his skepticism toward institutional consensus today."
+        },
+        {
+          "heading": "The Daily Dirtnap Newsletter",
+          "body": "He founded The Daily Dirtnap, a subscription macro letter aimed at professional investors and traders. It covers global fixed income, currencies, and cross-asset risk with a tone and perspective distinct from sell-side research. The publication has been a primary vehicle for his contrarian market calls for over a decade."
+        },
+        {
+          "heading": "Retail Asset Allocation",
+          "body": "In The Awesome Portfolio, Dillian translates macro and risk-management concepts into frameworks for individual investors. The book focuses on practical portfolio construction, integrating diversification, behavioral discipline, and inflation protection without relying on mainstream 60/40 conventions."
+        }
+      ]
+    },
     "net_worth": "$100.0M"
   },
   {
@@ -1520,7 +1714,7 @@
     "last_podcast_name": "Monetary Matters with Jack Farley",
     "last_episode_date": "2026-08-26",
     "mention_score": 1,
-    "mention_score_decayed": 0.71,
+    "mention_score_decayed": 0.69,
     "last_main_idea": "Warren Pies suggests that despite the current macro risks, the AI sector remains a key area for investment, with all roads leading back to AI trades.",
     "last_proof_cite": "Monetary Matters with Jack Farley \u2022 2026-08-26 \u2022 Time to Reduce Equity Risk: Why Underappreciated Macro Risks Could Derail the Bull Market | Warren Pies",
     "last_proof_snippet": "If I knew with certainly the Fed was going to hike in September, I'd be underweight stocks right now. It's not that I would say I'm straight up bearish here. I just think the risks are too excited. We highlighted the window from August 15th",
@@ -1584,7 +1778,7 @@
     "last_podcast_name": "Latent Space: The AI Engineer Podcast",
     "last_episode_date": "2026-08-26",
     "mention_score": 1,
-    "mention_score_decayed": 0.71,
+    "mention_score_decayed": 0.69,
     "last_main_idea": "Investing in AI technology that enhances weather and climate modeling can lead to significant advancements in forecasting accuracy and speed, potentially revolutionizing the field and creating new investment opportunities in AI applications for science.",
     "last_proof_cite": "Latent Space: The AI Engineer Podcast \u2022 2026-08-26 \u2022 \ud83d\udd2c\u201cWe have foundation models for language, not for physics\u201d \u2014 Anima Anandkumar, Bren Professor of Computing",
     "last_proof_snippet": "So we, you know, set out looking for interesting examples and one of them was like weather modeling because the weather data is open source and so given that the data was there we were like, okay, let's just go try it. Right. And that's the",
@@ -1954,7 +2148,7 @@
     "last_podcast_name": "The a16z Show",
     "last_episode_date": "2026-08-20",
     "mention_score": 1,
-    "mention_score_decayed": 0.62,
+    "mention_score_decayed": 0.6,
     "last_main_idea": "Investing in borderless founders offers access to a global talent pool, customer base, and distribution networks, which can lead to the creation of successful global companies.",
     "last_proof_cite": "The a16z Show \u2022 2026-08-20 \u2022 How Global Networks Are Reshaping Startup Success",
     "last_proof_snippet": "Anyone, international, whether you're building primarily in your home country to start, but that you have global ambitions, your board of the standard. They tend to have a chip on their folder. It's the desire that they want to become the b",
@@ -2019,7 +2213,7 @@
     "last_podcast_name": "The a16z Show",
     "last_episode_date": "2026-08-20",
     "mention_score": 1,
-    "mention_score_decayed": 0.62,
+    "mention_score_decayed": 0.6,
     "last_main_idea": "Investing in borderless founders offers access to a global talent pool, customer base, and distribution networks, which can lead to the creation of successful global companies.",
     "last_proof_cite": "The a16z Show \u2022 2026-08-20 \u2022 How Global Networks Are Reshaping Startup Success",
     "last_proof_snippet": "Anyone, international, whether you're building primarily in your home country to start, but that you have global ambitions, your board of the standard. They tend to have a chip on their folder. It's the desire that they want to become the b",
@@ -2209,7 +2403,7 @@
     "last_podcast_name": "Monetary Matters with Jack Farley",
     "last_episode_date": "2026-08-18",
     "mention_score": 1,
-    "mention_score_decayed": 0.59,
+    "mention_score_decayed": 0.57,
     "last_main_idea": "AUA Private Equity Partners focuses on operational improvements in family-run businesses within the food, beverage, pet wellness, and co-manufacturing sectors, targeting a $1.3 to $1.4 trillion market opportunity.",
     "last_proof_cite": "Monetary Matters with Jack Farley \u2022 2026-08-18 \u2022 Ex-Goya COO on the $1.4 Trillion Family Business Opportunity in Three Consumer Sectors | Andy Unanue",
     "last_proof_snippet": "Our economy is driven by family run businesses, 70 plus percent of the GDP is generated through family run businesses. Then the food beverage pack wellness sector, it's a 1.3, 1.4 trillion dollar market opportunity. So it's a big market. I'",
@@ -2270,7 +2464,7 @@
     "last_podcast_name": "The a16z Show",
     "last_episode_date": "2026-08-18",
     "mention_score": 1,
-    "mention_score_decayed": 0.59,
+    "mention_score_decayed": 0.57,
     "last_main_idea": "Invest in companies developing new security tools to address AI incidents and agentic processes, as well as those providing flexible solutions to adapt to the rapid pace of AI development.",
     "last_proof_cite": "The a16z Show \u2022 2026-08-18 \u2022 How Do You Defend Against AI That Can Hack?",
     "last_proof_snippet": "One of the interesting things in the OpenAI Hugging Face reach has been the difficulty that Hugging Face actually had to respond into the incident. A model providers have great reason to establish guardrails, safeguards, because these are s",
@@ -2334,7 +2528,7 @@
     "last_podcast_name": "The a16z Show",
     "last_episode_date": "2026-08-18",
     "mention_score": 1,
-    "mention_score_decayed": 0.59,
+    "mention_score_decayed": 0.57,
     "last_main_idea": "Invest in companies developing new security tools to address AI incidents and agentic processes, as well as those providing flexible solutions to adapt to the rapid pace of AI development.",
     "last_proof_cite": "The a16z Show \u2022 2026-08-18 \u2022 How Do You Defend Against AI That Can Hack?",
     "last_proof_snippet": "One of the interesting things in the OpenAI Hugging Face reach has been the difficulty that Hugging Face actually had to respond into the incident. A model providers have great reason to establish guardrails, safeguards, because these are s",
@@ -2752,7 +2946,7 @@
     "last_podcast_name": "The a16z Show",
     "last_episode_date": "2026-08-14",
     "mention_score": 4,
-    "mention_score_decayed": 2.14,
+    "mention_score_decayed": 2.09,
     "last_main_idea": "Invest in industries that are ripe for automation and AI integration, as industrial AI could revolutionize multiple trillion-dollar industries.",
     "last_proof_cite": "The a16z Show \u2022 2026-08-14 \u2022 Ben Horowitz and Travis Kalanick on Building Again",
     "last_proof_snippet": "Hey Travis is back, but I've actually been working for eight years, I just haven't been talking about it. We're competing for the next industrial revolution. People said, are you pissed off about Uber? Does that grind you when you fall in l",
@@ -2881,7 +3075,7 @@
     "last_podcast_name": "The a16z Show",
     "last_episode_date": "2026-08-13",
     "mention_score": 2,
-    "mention_score_decayed": 1.05,
+    "mention_score_decayed": 1.02,
     "last_main_idea": "The choice between the lighthouse and land grab strategies can significantly impact the success of an enterprise AI startup, as each approach has its own set of advantages and challenges that must be carefully considered in the context of the company's specific circumstances.",
     "last_proof_cite": "The a16z Show \u2022 2026-08-13 \u2022 The Two Ways to Sell AI: Lighthouse or Landgrab?",
     "last_proof_snippet": "There's a moment right now to go sell big software again. We're now looking at a different way of doing business entirely. What are the lighthouse and land grab sales playbook? Here's the framework for evaluating which playbook should you b",
@@ -2941,7 +3135,7 @@
     "last_podcast_name": "The a16z Show",
     "last_episode_date": "2026-08-13",
     "mention_score": 1,
-    "mention_score_decayed": 0.52,
+    "mention_score_decayed": 0.51,
     "last_main_idea": "The choice between the lighthouse and land grab strategies can significantly impact the success of an enterprise AI startup, as each approach has its own set of advantages and challenges that must be carefully considered in the context of the company's specific circumstances.",
     "last_proof_cite": "The a16z Show \u2022 2026-08-13 \u2022 The Two Ways to Sell AI: Lighthouse or Landgrab?",
     "last_proof_snippet": "There's a moment right now to go sell big software again. We're now looking at a different way of doing business entirely. What are the lighthouse and land grab sales playbook? Here's the framework for evaluating which playbook should you b",
@@ -3135,7 +3329,7 @@
     "last_podcast_name": "The a16z Show",
     "last_episode_date": "2026-08-12",
     "mention_score": 1,
-    "mention_score_decayed": 0.51,
+    "mention_score_decayed": 0.5,
     "last_main_idea": "Invest in startups leveraging AI to automate and perfect business processes, led by founders with a deep understanding of their domain and a history of successful strategy implementation.",
     "last_proof_cite": "The a16z Show \u2022 2026-08-12 \u2022 Garry Tan on Taste, Agents and Founder Ambition",
     "last_proof_snippet": "We may never achieve a utopia, but it is worthy and worth it to attempt. Everything that's awesome in my life is kind of a cult. We had to go over to the Windows team. They wouldn't reply to our emails. They wouldn't fix our bugs. And we ha",
@@ -3445,7 +3639,7 @@
     "last_podcast_name": "The a16z Show",
     "last_episode_date": "2026-08-11",
     "mention_score": 1,
-    "mention_score_decayed": 0.5,
+    "mention_score_decayed": 0.49,
     "last_main_idea": "Invest in companies that are at the forefront of AI adoption and security, as these are likely to shape the future of enterprise software development.",
     "last_proof_cite": "The a16z Show \u2022 2026-08-11 \u2022 The CISO Playbook for AI Agents | Datadog",
     "last_proof_snippet": "The number one story on Bloomberg right now is that AI has gone wild. We seem remarkably calm. The way I see it is, if it's not an AI model, it's going to be somebody or something with actual malicious intent to win it. I do worry about wha",
@@ -3625,7 +3819,7 @@
     "last_podcast_name": "The a16z Show",
     "last_episode_date": "2026-08-07",
     "mention_score": 1,
-    "mention_score_decayed": 0.46,
+    "mention_score_decayed": 0.45,
     "last_main_idea": "Invest in cybersecurity solutions that can adapt to the rapidly evolving AI-driven threats and focus on securing software supply chains to mitigate vulnerabilities.",
     "last_proof_cite": "The a16z Show \u2022 2026-08-07 \u2022 The Reality of AI-Powered Cyberattacks | Truffle Security & Socket",
     "last_proof_snippet": "Models are actively escaping their cages, going out on the internet and doing pretty nasty things. Recently, we found an API key that had been leaked on the internet ahead administrative access to the Apache Foundation. Interesting thing ab",
@@ -3685,7 +3879,7 @@
     "last_podcast_name": "The a16z Show",
     "last_episode_date": "2026-08-07",
     "mention_score": 1,
-    "mention_score_decayed": 0.46,
+    "mention_score_decayed": 0.45,
     "last_main_idea": "Invest in cybersecurity solutions that can adapt to the rapidly evolving AI-driven threats and focus on securing software supply chains to mitigate vulnerabilities.",
     "last_proof_cite": "The a16z Show \u2022 2026-08-07 \u2022 The Reality of AI-Powered Cyberattacks | Truffle Security & Socket",
     "last_proof_snippet": "Models are actively escaping their cages, going out on the internet and doing pretty nasty things. Recently, we found an API key that had been leaked on the internet ahead administrative access to the Apache Foundation. Interesting thing ab",
@@ -3745,7 +3939,7 @@
     "last_podcast_name": "The a16z Show",
     "last_episode_date": "2026-08-07",
     "mention_score": 1,
-    "mention_score_decayed": 0.46,
+    "mention_score_decayed": 0.45,
     "last_main_idea": "Invest in cybersecurity solutions that can adapt to the rapidly evolving AI-driven threats and focus on securing software supply chains to mitigate vulnerabilities.",
     "last_proof_cite": "The a16z Show \u2022 2026-08-07 \u2022 The Reality of AI-Powered Cyberattacks | Truffle Security & Socket",
     "last_proof_snippet": "Models are actively escaping their cages, going out on the internet and doing pretty nasty things. Recently, we found an API key that had been leaked on the internet ahead administrative access to the Apache Foundation. Interesting thing ab",
@@ -3803,7 +3997,7 @@
     "last_podcast_name": "The a16z Show",
     "last_episode_date": "2026-08-06",
     "mention_score": 1,
-    "mention_score_decayed": 0.45,
+    "mention_score_decayed": 0.44,
     "last_main_idea": "Investing in open source AI infrastructure and models is crucial for enterprises looking to leverage AI capabilities, as it offers a sustainable and collaborative approach to innovation in the field.",
     "last_proof_cite": "The a16z Show \u2022 2026-08-06 \u2022 How Open-Source AI Became Critical Infrastructure",
     "last_proof_snippet": "The fun thought experiment is if GPUs dropped in price by 99% then do we get back to it a real open source world if moderation is never solved in the future people will go to openly by default because that is where you know for sure you can",
@@ -4299,7 +4493,7 @@
     "last_podcast_name": "Monetary Matters with Jack Farley",
     "last_episode_date": "2026-08-04",
     "mention_score": 1,
-    "mention_score_decayed": 0.43,
+    "mention_score_decayed": 0.42,
     "last_main_idea": "The S&P 500's performance over the next two years will be largely determined by the behavior of extrapolators and corporate equity activity, rather than fundamental earnings growth.",
     "last_proof_cite": "Monetary Matters with Jack Farley \u2022 2026-08-04 \u2022 Victor Haghani on Death of Random Walk, and Passive, Buybacks, and LTCM",
     "last_proof_snippet": "So I feel like we can talk about LTCM. We can talk about, I mean, let's not do that. That's so boring. I mean, everybody's sick of LTCM. Yeah. What do you think the real lessons are? You know, I think the biggest lessons are about personal",
@@ -4491,7 +4685,7 @@
     "last_podcast_name": "The a16z Show",
     "last_episode_date": "2026-08-01",
     "mention_score": 3,
-    "mention_score_decayed": 1.19,
+    "mention_score_decayed": 1.16,
     "last_main_idea": "Regulatory clarity through acts like the Clarity Act is essential for the next phase of blockchain adoption and could unlock significant investment opportunities in stablecoins and tokenized assets.",
     "last_proof_cite": "The a16z Show \u2022 2026-08-01 \u2022 Marc Andreessen and Chris Dixon: What\u2019s at Stake in Crypto Regulation",
     "last_proof_snippet": "Stable coins are tokenized stocks or dollars on blockchain. Rivals the size of the Visa network. Trillings the dollar is transacted. If you have a dollar of that stable coin, there is a dollar sitting in the bank. And that's why the Clarity",
@@ -4552,7 +4746,7 @@
     "last_podcast_name": "The a16z Show",
     "last_episode_date": "2026-08-01",
     "mention_score": 1,
-    "mention_score_decayed": 0.4,
+    "mention_score_decayed": 0.39,
     "last_main_idea": "Regulatory clarity through acts like the Clarity Act is essential for the next phase of blockchain adoption and could unlock significant investment opportunities in stablecoins and tokenized assets.",
     "last_proof_cite": "The a16z Show \u2022 2026-08-01 \u2022 Marc Andreessen and Chris Dixon: What\u2019s at Stake in Crypto Regulation",
     "last_proof_snippet": "Stable coins are tokenized stocks or dollars on blockchain. Rivals the size of the Visa network. Trillings the dollar is transacted. If you have a dollar of that stable coin, there is a dollar sitting in the bank. And that's why the Clarity",
@@ -4612,7 +4806,7 @@
     "last_podcast_name": "The a16z Show",
     "last_episode_date": "2026-07-31",
     "mention_score": 1,
-    "mention_score_decayed": 0.39,
+    "mention_score_decayed": 0.38,
     "last_main_idea": "Investing in AI-driven enterprise software that leverages open source models can lead to better control, performance, and scalability, creating a competitive advantage in the market.",
     "last_proof_cite": "The a16z Show \u2022 2026-07-31 \u2022 How Enterprise AI Really Gets Deployed",
     "last_proof_snippet": "And AI agents should just be the funder of your business and every interaction, whether it's like reactive or proactive with a customer, should be handled by AI. This narrative dominated the first half of 2026, which is that anthropic open",
@@ -4672,7 +4866,7 @@
     "last_podcast_name": "The a16z Show",
     "last_episode_date": "2026-07-31",
     "mention_score": 1,
-    "mention_score_decayed": 0.39,
+    "mention_score_decayed": 0.38,
     "last_main_idea": "Investing in AI-driven enterprise software that leverages open source models can lead to better control, performance, and scalability, creating a competitive advantage in the market.",
     "last_proof_cite": "The a16z Show \u2022 2026-07-31 \u2022 How Enterprise AI Really Gets Deployed",
     "last_proof_snippet": "And AI agents should just be the funder of your business and every interaction, whether it's like reactive or proactive with a customer, should be handled by AI. This narrative dominated the first half of 2026, which is that anthropic open",
@@ -5092,7 +5286,7 @@
     "last_podcast_name": "Monetary Matters with Jack Farley",
     "last_episode_date": "2026-07-26",
     "mention_score": 1,
-    "mention_score_decayed": 0.35,
+    "mention_score_decayed": 0.34,
     "last_main_idea": "Contrary to popular belief, private credit and corporate debt are sustainable, and the real risk lies in government debt levels, which could lead to increased market volatility if not addressed.",
     "last_proof_cite": "Monetary Matters with Jack Farley \u2022 2026-07-26 \u2022 Debt Service Coverage in Private Markets Is Improving, Actually | Nicholas Brooks",
     "last_proof_snippet": "Over the past year, there's been some very bad press on private credit, including on this channel where recent guest Nick Nemitz said that he thinks it's almost inevitable that the next financial crisis will be caused by private credit. Tod",
@@ -5275,7 +5469,7 @@
     "last_podcast_name": "The a16z Show",
     "last_episode_date": "2026-07-24",
     "mention_score": 1,
-    "mention_score_decayed": 0.33,
+    "mention_score_decayed": 0.32,
     "last_main_idea": "Investors should consider the impact of open-source AI models on frontier labs and monitor the security and competitive landscape of AI, as well as potential opportunities in related sectors like cloud computing and data centers.",
     "last_proof_cite": "The a16z Show \u2022 2026-07-24 \u2022 Sriram Krishnan on Open Source AI's Biggest Week Yet",
     "last_proof_snippet": "You can bring it back to very business first principles. If you're providing a product of value, Capitalism will find a way to make the supply chain work for you. So if you have an open-made model that is providing value, that means that ev",
@@ -5531,7 +5725,7 @@
     "last_podcast_name": "The a16z Show",
     "last_episode_date": "2026-07-21",
     "mention_score": 1,
-    "mention_score_decayed": 0.31,
+    "mention_score_decayed": 0.3,
     "last_main_idea": "Investing in physical AI and autonomous systems could lead to significant returns as these technologies transform the physical economy and unlock new productivity gains.",
     "last_proof_cite": "The a16z Show \u2022 2026-07-21 \u2022 Why Physical AI Is the Next Frontier | Applied Intuition",
     "last_proof_snippet": "Our mission is to put intelligence on a billion machines, and that we think that can have a profound impact on society. Applied intuition is a physical attack company. We put intelligence on machines. Cars, trucks, tanks, drones. It's a phy",
@@ -5659,7 +5853,7 @@
     "last_podcast_name": "Monetary Matters with Jack Farley",
     "last_episode_date": "2026-07-20",
     "mention_score": 1,
-    "mention_score_decayed": 0.3,
+    "mention_score_decayed": 0.29,
     "last_main_idea": "The private credit industry is overleveraged and poses a significant systemic risk, with potential for a massive financial blow-up that could be triggered by the insurance industry's massive balance sheets.",
     "last_proof_cite": "Monetary Matters with Jack Farley \u2022 2026-07-20 \u2022 Nick Nemeth: Private Credit Will Blow-up Insurance System | Immense Leverage, Shaky Loans, and Retirement System That Actually Does Have Run Risk (via Surrenders)",
     "last_proof_snippet": "Today's episode is brought to you by the two-cream corn fund ticker C-O-R-N. Let's get into it. Join today by Nick Nemeth Financial Investor Researcher and author at Miss Price Assets. Nick, welcome to monetary matters. Thanks, Jack. It's g",
@@ -6402,7 +6596,7 @@
     "last_podcast_name": "The a16z Show",
     "last_episode_date": "2026-07-13",
     "mention_score": 1,
-    "mention_score_decayed": 0.26,
+    "mention_score_decayed": 0.25,
     "last_main_idea": "Investing in blockchain technology and AI requires a deep understanding of the foundational computer science principles that underpin these fields, as well as an awareness of the evolving landscape of systems research.",
     "last_proof_cite": "The a16z Show \u2022 2026-07-13 \u2022 Before Blockchains, There Was State Machine Replication",
     "last_proof_snippet": "DARPA had recognized that this was a serious problem, the problem of malicious attacks and was looking for research in that area. I had a student Miguel Castro. We came to me and he said, why don't we see whether we can figure out a way to",
@@ -6472,7 +6666,7 @@
     "last_podcast_name": "Dwarkesh Podcast",
     "last_episode_date": "2026-07-10",
     "mention_score": 1,
-    "mention_score_decayed": 0.24,
+    "mention_score_decayed": 0.23,
     "last_main_idea": "While this episode does not present a direct investment thesis, it provides foundational knowledge about the principles of physics that could influence investment decisions in technology and space sectors.",
     "last_proof_cite": "Dwarkesh Podcast \u2022 2026-07-10 \u2022 Adam Brown \u2013 Einstein's happiest thought: General Relativity from scratch",
     "last_proof_snippet": "I'm back with Adam Brown. You currently need blue shift at Google DeepMine, which is cracking science and reasoning. In a previous life, Adam was a prolific physicist taught at Stanford and did research and everything from cosmology to stri",
@@ -6733,7 +6927,7 @@
     "last_podcast_name": "The a16z Show",
     "last_episode_date": "2026-07-08",
     "mention_score": 1,
-    "mention_score_decayed": 0.23,
+    "mention_score_decayed": 0.22,
     "last_main_idea": "Invest in real estate companies that emphasize community engagement, technological adaptability, and global scalability to capitalize on the evolving landscape of work and living.",
     "last_proof_cite": "The a16z Show \u2022 2026-07-08 \u2022 Adam Neumann: This Is How You Build Iconic Companies",
     "last_proof_snippet": "You said, I don't tell me how you're doing and I jumped straight into my lessons learned and this had an answer. And you're like, oh, you're still in that stage? That was, and we don't know each other. I was like, Mark, please tell me what",
@@ -7041,7 +7235,7 @@
     "last_podcast_name": "The a16z Show",
     "last_episode_date": "2026-07-02",
     "mention_score": 1,
-    "mention_score_decayed": 0.2,
+    "mention_score_decayed": 0.19,
     "last_main_idea": "Invest in companies with capital efficiency and operational excellence in the mobility sector, as they are better positioned to adapt and grow in a competitive landscape.",
     "last_proof_cite": "The a16z Show \u2022 2026-07-02 \u2022 Outsmarting Uber: Why Bolt Wins in Europe",
     "last_proof_snippet": "The mobility market in general is the least competitive in the world. Paul is the leading, share mobility, business, we operate in more than 50 countries with a mission to replace people's private cars. A lot of the taxi companies obviously",
@@ -9159,7 +9353,7 @@
     "last_podcast_name": "All-In with Chamath, Jason, Sacks & Friedberg",
     "last_episode_date": "2026-06-09",
     "mention_score": 1,
-    "mention_score_decayed": 0.12,
+    "mention_score_decayed": 0.11,
     "last_main_idea": "Invest in smaller, more focused venture capital funds that leverage AI for portfolio construction and consider early-stage investments in foundational AI technologies for long-term gains.",
     "last_proof_cite": "All-In with Chamath, Jason, Sacks & Friedberg \u2022 2026-06-09 \u2022 Bill Maris: How Google Could Crush AI Competitors, Why Small Funds Win, and AI's Atari Stage",
     "last_proof_snippet": "After saying he was out, now Bill Maris is returning to the investing world. The founding CEO of Google Ventures has raised $150 million for his new fund, called Section 32. With a smaller fund, I have the advantage to be very selective in",
@@ -9224,7 +9418,7 @@
     "last_podcast_name": "The a16z Show",
     "last_episode_date": "2026-06-09",
     "mention_score": 1,
-    "mention_score_decayed": 0.12,
+    "mention_score_decayed": 0.11,
     "last_main_idea": "Invest in sectors poised for growth due to AI advancements and consider the long-term impact of AI on the job market and economic trends.",
     "last_proof_cite": "The a16z Show \u2022 2026-06-09 \u2022 Tyler Cowen & Alex Tabarrok on AI, Jobs, and Economic Growth",
     "last_proof_snippet": "In the world with strong AI, there's a kind of moral nervousness that sets in. So, I'm much more likely to tell people, like, hey, you'd better pass in your seatbelt. Like, you don't want to miss out on what's coming, how many years you mig",
@@ -9287,7 +9481,7 @@
     "last_podcast_name": "The a16z Show",
     "last_episode_date": "2026-06-09",
     "mention_score": 1,
-    "mention_score_decayed": 0.12,
+    "mention_score_decayed": 0.11,
     "last_main_idea": "Invest in sectors poised for growth due to AI advancements and consider the long-term impact of AI on the job market and economic trends.",
     "last_proof_cite": "The a16z Show \u2022 2026-06-09 \u2022 Tyler Cowen & Alex Tabarrok on AI, Jobs, and Economic Growth",
     "last_proof_snippet": "In the world with strong AI, there's a kind of moral nervousness that sets in. So, I'm much more likely to tell people, like, hey, you'd better pass in your seatbelt. Like, you don't want to miss out on what's coming, how many years you mig",
@@ -9565,7 +9759,7 @@
     "last_podcast_name": "The a16z Show",
     "last_episode_date": "2026-06-05",
     "mention_score": 1,
-    "mention_score_decayed": 0.11,
+    "mention_score_decayed": 0.1,
     "last_main_idea": "Invest in companies that prioritize open data practices and robust software infrastructure to capitalize on AI-driven operational efficiencies and data management.",
     "last_proof_cite": "The a16z Show \u2022 2026-06-05 \u2022 AI Agents and the Fight for Customer Data",
     "last_proof_snippet": "There is a new reason to have all your day-to-day-then-one-place, which is AI agency context. If you don't do that, then it's sort of like using chatGBT from before chatGBT was connected to the internet. Postgres, contrary to popular belief",
@@ -9629,7 +9823,7 @@
     "last_podcast_name": "Macro Voices",
     "last_episode_date": "2026-06-04",
     "mention_score": 2,
-    "mention_score_decayed": 0.21,
+    "mention_score_decayed": 0.2,
     "last_main_idea": "Invest in sectors that are likely to benefit from a shift towards economic statecraft and prepare for market volatility due to geopolitical tensions.",
     "last_proof_cite": "Macro Voices \u2022 2026-06-04 \u2022 MacroVoices #535 Michael Every: NAFTA and NAPTHA \u2013 Warcraft & Fartcraft",
     "last_proof_snippet": "This is Macrovoisers, the Free Weekly Financial Podcast, targeting professional finance, high-net worth individuals, family offices, and other sophisticated investors. Macrovoisers is all about the brightest minds in the world of finance an",
@@ -10022,7 +10216,7 @@
     "last_podcast_name": "Moonshots with Peter Diamandis",
     "last_episode_date": "2026-05-30",
     "mention_score": 2,
-    "mention_score_decayed": 0.19,
+    "mention_score_decayed": 0.18,
     "last_main_idea": "Invest in AI and space exploration companies that demonstrate rapid innovation and adaptability, as these sectors are poised for significant growth and disruption.",
     "last_proof_cite": "Moonshots with Peter Diamandis \u2022 2026-05-30 \u2022 Pope Leo vs. AI, GPT 5.5 Beats Claude, and Sam Altman Walks Back Job Apocalypse | EP #259",
     "last_proof_snippet": "Pope Leo the 14th warns of AI risks and just dropped a 42,000-word in cyclical on AI. The Vatican has seemingly staked out the first major religion position against AI personhood. This is the first technology that forces us to define humani",
@@ -10147,7 +10341,7 @@
     "last_podcast_name": "The a16z Show",
     "last_episode_date": "2026-05-27",
     "mention_score": 1,
-    "mention_score_decayed": 0.09,
+    "mention_score_decayed": 0.08,
     "last_main_idea": "Investors should focus on diversification through private markets, particularly in sectors like AI and energy, to capture growth and mitigate risks associated with public market concentration.",
     "last_proof_cite": "The a16z Show \u2022 2026-05-27 \u2022 Marc Rowan on Private Markets, Software Repricing, and Capital Allocation",
     "last_proof_snippet": "10 stocks right now in the U.S. are nearly 50% of the S&P and they're all levered to the same trend. The same thing is happening in the global fixed income market. And so if you're an investor and you're looking for diversification, there's",
@@ -10456,7 +10650,7 @@
     "last_podcast_name": "Macro Voices",
     "last_episode_date": "2026-05-21",
     "mention_score": 1,
-    "mention_score_decayed": 0.08,
+    "mention_score_decayed": 0.07,
     "last_main_idea": "Investors should prepare for potential oil price volatility and consider hedging strategies, while also looking for investment opportunities in companies improving inventory efficiency and energy infrastructure projects.",
     "last_proof_cite": "Macro Voices \u2022 2026-05-21 \u2022 MacroVoices #533 Morgan Downey: The Return of Oil 101",
     "last_proof_snippet": "This is Macrovoisers, the Free Weekly Financial Podcast, targeting professional finance, high-net worth individuals, family offices, and other sophisticated investors. Macrovoisers is all about the brightest minds in the world of finance an",
@@ -10515,7 +10709,7 @@
     "last_podcast_name": "The a16z Show",
     "last_episode_date": "2026-05-21",
     "mention_score": 1,
-    "mention_score_decayed": 0.08,
+    "mention_score_decayed": 0.07,
     "last_main_idea": "Invest in products that demonstrate strong product market fit through high user satisfaction and retention, particularly those employing game design principles and targeting the pro-sumur demographic with a premium pricing strategy.",
     "last_proof_cite": "The a16z Show \u2022 2026-05-21 \u2022 How Superhuman Took Over Silicon Valley Email",
     "last_proof_snippet": "Convincing people of things is possibly the hardest thing we have to do as factors, right? And there are so many different audiences, there's investors, there's future co-founders, there's your earliest users, there's the press, there's the",
@@ -10954,7 +11148,7 @@
     "last_podcast_name": "Monetary Matters with Jack Farley",
     "last_episode_date": "2026-05-15",
     "mention_score": 1,
-    "mention_score_decayed": 0.07,
+    "mention_score_decayed": 0.06,
     "last_main_idea": "The current market rally in US stocks presents an opportunity for long positions, while the agricultural commodities sector offers a strategic investment due to global supply chain disruptions and geopolitical tensions.",
     "last_proof_cite": "Monetary Matters with Jack Farley \u2022 2026-05-15 \u2022 \u201cYou Don\u2019t Sell Blow-offs\u201d | Andrew Perry on Bullish Technicals of U.S. Stock Market, \u201cDangerous\u201d Period for Global Equities, and Bull Case for Agricultural Commodities",
     "last_proof_snippet": "Today's episode is brought to you by the two Korean corn fund, take our CORN. Let's get into it. I'm joined by Andrew Perry, veteran macro investors. He has worked at the top macro hedge funds, all the big banks, Andrew, welcome to monetary",
@@ -11640,7 +11834,7 @@
     "last_podcast_name": "Dwarkesh Podcast",
     "last_episode_date": "2026-05-08",
     "mention_score": 1,
-    "mention_score_decayed": 0.06,
+    "mention_score_decayed": 0.05,
     "last_main_idea": "Invest in genetic research companies leveraging large datasets and innovative methodologies to uncover insights about human evolution and health.",
     "last_proof_cite": "Dwarkesh Podcast \u2022 2026-05-08 \u2022 David Reich \u2013 Why the Bronze Age was an inflection point in human evolution",
     "last_proof_snippet": "I am back with David Reich, who is a professor of ancient DNA at Harvard. How do you describe what it is that you study? I'm a geneticist and I work on human history and how people relate to ancient people relate to each other and people li",
@@ -18045,7 +18239,7 @@
     "last_podcast_name": "The a16z Show",
     "last_episode_date": "2026-03-13",
     "mention_score": 1,
-    "mention_score_decayed": 0.02,
+    "mention_score_decayed": 0.01,
     "last_main_idea": "Investment in AI technology within the defense sector is critical for maintaining national security and ensuring operational effectiveness.",
     "last_proof_cite": "The a16z Show \u2022 2026-03-13 \u2022 AI in Defense and the Future of Military Technology",
     "last_proof_snippet": "1.2 million of the department's 3 million personnel have used AI within 90 days, up from 80,000 at the start.",
@@ -18072,7 +18266,7 @@
     "last_podcast_name": "Monetary Matters with Jack Farley",
     "last_episode_date": "2026-03-13",
     "mention_score": 1,
-    "mention_score_decayed": 0.02,
+    "mention_score_decayed": 0.01,
     "last_main_idea": "Investors should consider the geopolitical risks associated with the US-Iran conflict and the potential impact on global oil supply, as well as the long-term shift towards renewable energy sources.",
     "last_proof_cite": "Monetary Matters with Jack Farley \u2022 2026-03-13 \u2022 Monetary Matters: The Impact of US-Iran Conflict on the World Economy",
     "last_proof_snippet": "A conflict in the Gulf could significantly disrupt the world's oil supply, with potentially severe economic consequences.",
