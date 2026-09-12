@@ -1,7 +1,7 @@
 {
-  "generated_at": "2026-09-12T07:21:51.926482",
-  "last_updated": "2026-09-12T07:21:51.926482",
-  "last_pipeline_run": "2026-09-12T07:21:51.926482",
+  "generated_at": "2026-09-12T12:48:33.684409",
+  "last_updated": "2026-09-12T12:48:33.684409",
+  "last_pipeline_run": "2026-09-12T12:48:33.684409",
   "main_page": {
     "overton": 13,
     "insights": 8,
@@ -18,33 +18,14 @@
     "podcasts_analyzed": 3
   },
   "step_results": {
-    "downloaded": 1,
-    "transcribed": 1,
-    "analyzed": 1,
-    "insight_created": 1,
-    "published": 1,
-    "total": 1
+    "downloaded": 0,
+    "transcribed": 0,
+    "analyzed": 0,
+    "insight_created": 0,
+    "published": 0,
+    "total": 0
   },
-  "episodes": [
-    {
-      "id": "655e460d-9b1f-42f3-8678-a3b8b561e964",
-      "podcast": "The a16z Show",
-      "title": "Why Companies Are Becoming a Series of Loops | Anish Acharya on Lenny\u2019s Podcast",
-      "published": "2026-09-12",
-      "rss_guid": "655e460d-9b1f-42f3-8678-a3b8b561e964",
-      "stages": {
-        "downloaded": true,
-        "transcribed": true,
-        "analyzed": true,
-        "insight_created": true,
-        "published": true
-      },
-      "stage_reasons": {},
-      "first_blocker": null,
-      "remediation_by_stage": {},
-      "status": "complete"
-    }
-  ],
+  "episodes": [],
   "available_from_rss": [],
   "stale_episodes": [],
   "stale_threshold_days": 2,
