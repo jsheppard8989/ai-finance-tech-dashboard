@@ -1,6 +1,25 @@
 {
   "insights": [
     {
+      "id": 488,
+      "title": "Why Companies Are Becoming a Series of Loops | Anish Acharya on Lenny\u2019s Podcast",
+      "source_type": "podcast",
+      "source_name": "The a16z Show",
+      "source_date": "2026-09-12",
+      "summary": "This episode explores how artificial intelligence is amplifying human agency and enabling founders to pursue more ambitious projects than ever before. The speakers argue that AI is not creating a permanent underclass but rather expanding economic opportunity, as evidenced by all-time-high job postings. They introduce the concept of operational loops, where AI handles repetitive tasks and humans focus on intuition and strategy, fundamentally restructuring how companies operate. The conversation also challenges conventional wisdom in consumer technology, suggesting that high-value, emotionally resonant consumer software can command premium prices and that organic distribution is replacing traditional network-effect marketing.",
+      "key_takeaway": "The convergence of AI-driven operational loops and a cultural shift toward ambition is creating an unprecedented window for premium consumer software that enhances human connection and productivity, with organic distribution offering a new scalable moat.",
+      "tickers_mentioned": [
+        "NVDA"
+      ],
+      "sentiment": "bullish",
+      "display_on_main": 1,
+      "display_order": 0,
+      "added_date": "2026-09-12",
+      "archived_date": null,
+      "archived_reason": null,
+      "podcast_episode_id": 473
+    },
+    {
       "id": 479,
       "title": "What It Takes to Build a Startup | Andrew Chen & Matt Perault",
       "source_type": "podcast",
@@ -31,7 +50,7 @@
         "NVDA"
       ],
       "sentiment": "bullish",
-      "display_on_main": 1,
+      "display_on_main": 0,
       "display_order": 0,
       "added_date": "2026-09-11",
       "archived_date": null,
@@ -10291,8 +10310,8 @@
       "term": "Distillation",
       "description": "The practice of training a smaller or different AI model on the outputs of a larger, more capable model to transfer capabilities at lower cost.",
       "first_detected_date": "2026-05-15",
-      "last_mentioned_date": "2026-09-11",
-      "mention_count": 48,
+      "last_mentioned_date": "2026-09-12",
+      "mention_count": 49,
       "source_podcasts": null,
       "status": "active",
       "investment_implications": "A deflationary force on model costs that reshapes competitive dynamics and margin structures across the AI stack.",
@@ -10301,7 +10320,7 @@
       "archived_reason": null,
       "first_detected_episode_id": 221,
       "first_detected_speaker": null,
-      "last_mentioned_episode_id": 471,
+      "last_mentioned_episode_id": 473,
       "last_mentioned_speaker": "Dave Blenden, Alex Weesner"
     },
     {
@@ -10399,8 +10418,8 @@
       "term": "AGI",
       "description": "Artificial General Intelligence, the threshold at which AI systems can perform any intellectual task that a human can, now claimed to have arrived according to the episode's discussion.",
       "first_detected_date": "2026-05-07",
-      "last_mentioned_date": "2026-09-11",
-      "mention_count": 93,
+      "last_mentioned_date": "2026-09-12",
+      "mention_count": 94,
       "source_podcasts": null,
       "status": "active",
       "investment_implications": "AGI arrival compresses timelines for automation and productivity gains but amplifies regulatory and catastrophic-risk premiums across AI-exposed portfolios.",
@@ -10409,7 +10428,7 @@
       "archived_reason": null,
       "first_detected_episode_id": 204,
       "first_detected_speaker": "Demis Hassabis",
-      "last_mentioned_episode_id": 471,
+      "last_mentioned_episode_id": 473,
       "last_mentioned_speaker": "Dave Blenden, Alex Weesner"
     },
     {
