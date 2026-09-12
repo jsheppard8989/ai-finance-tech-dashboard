@@ -12,7 +12,7 @@
         "NVDA"
       ],
       "sentiment": "neutral",
-      "display_on_main": 1,
+      "display_on_main": 0,
       "display_order": 0,
       "added_date": "2026-09-11",
       "archived_date": null,
@@ -56,6 +56,44 @@
       "podcast_episode_id": 469
     },
     {
+      "id": 486,
+      "title": "AI Kills Everybody or Doomer Psyop? OpenAI's Math Breakthrough, Nike's $200B Collapse",
+      "source_type": "podcast",
+      "source_name": "All-In with Chamath, Jason, Sacks & Friedberg",
+      "source_date": "2026-09-11",
+      "summary": "The hosts examine the resignation of an Anthropic researcher who warned that AI could cause human extinction, arguing that the viral fallout appears orchestrated by organized groups with regulatory agendas. They highlight the investment implications for Anthropics IPO prospects and the broader product liability risks facing AI labs that internally acknowledge existential dangers while marketing commercial products. Separately, the episode covers enterprise data sovereignty, warning that companies risk leaking proprietary information through third-party AI services and should migrate to sovereign or on-premise AI infrastructure. Finally, the hosts critique Nikes strategic shift from performance excellence to narrative-driven marketing, attributing its market share decline to a brand identity crisis that alienated core customers.",
+      "key_takeaway": "AI labs face escalating regulatory, liability, and data-sovereignty risks that threaten public-market viability, while legacy consumer brands like Nike demonstrate that abandoning core excellence narratives for activism-driven marketing destroys shareholder value.",
+      "tickers_mentioned": [
+        "NKE"
+      ],
+      "sentiment": "bearish",
+      "display_on_main": 1,
+      "display_order": 0,
+      "added_date": "2026-09-12",
+      "archived_date": null,
+      "archived_reason": null,
+      "podcast_episode_id": 472
+    },
+    {
+      "id": 487,
+      "title": "Should we slow down AI progress? | MOONSHOTS #288",
+      "source_type": "podcast",
+      "source_name": "Moonshots with Peter Diamandis",
+      "source_date": "2026-09-11",
+      "summary": "The episode examines the claim that AGI has arrived and the accelerating race toward self-improving superintelligence, framed by a high-profile resignation at OpenAI and Anthropic over safety concerns. Peter Diamandis and guests discuss how data quality now dominates model architecture in driving compute efficiency, while the GPU market transforms into a fungible infrastructure asset class generating rental yield. The conversation also covers the maturation of AI-designed therapeutics, including a phase-three drug candidate from Insilico Medicine and Google DeepMind's Alpha Genome Atlas, alongside growing governance friction as Anthropic withholds its latest frontier model from UK pre-release testing.",
+      "key_takeaway": "The episode argues that AGI-level capabilities, commoditized GPU infrastructure, and clinically validated AI-designed therapeutics are converging into a multi-trillion-dollar opportunity set across technology, healthcare, and fintech, but investors must price escalating alignment and governance risks.",
+      "tickers_mentioned": [
+        "NVDA"
+      ],
+      "sentiment": "bullish",
+      "display_on_main": 1,
+      "display_order": 0,
+      "added_date": "2026-09-12",
+      "archived_date": null,
+      "archived_reason": null,
+      "podcast_episode_id": 471
+    },
+    {
       "id": 480,
       "title": "MacroVoices #549 Matt Barrie: AI-gent Provocateur",
       "source_type": "podcast",
@@ -86,7 +124,7 @@
         "NVDA"
       ],
       "sentiment": "bullish",
-      "display_on_main": 1,
+      "display_on_main": 0,
       "display_order": 0,
       "added_date": "2026-09-11",
       "archived_date": null,
@@ -9371,8 +9409,8 @@
       "term": "Simulation",
       "description": "The use of models and computer programs to represent and analyze real or imagined systems or situations.",
       "first_detected_date": "2026-08-21",
-      "last_mentioned_date": "2026-09-09",
-      "mention_count": 10,
+      "last_mentioned_date": "2026-09-11",
+      "mention_count": 11,
       "source_podcasts": null,
       "status": "active",
       "investment_implications": "Simulation technology can provide significant insights for decision-making, making investments in this area potentially valuable.",
@@ -9381,8 +9419,8 @@
       "archived_reason": null,
       "first_detected_episode_id": 420,
       "first_detected_speaker": "June",
-      "last_mentioned_episode_id": 468,
-      "last_mentioned_speaker": "Jacob Bondas, Salim Ismail"
+      "last_mentioned_episode_id": 471,
+      "last_mentioned_speaker": "Dave Blenden, Alex Weesner"
     },
     {
       "id": 272,
@@ -9515,8 +9553,8 @@
       "term": "Spatial Intelligence",
       "description": "AI capable of generating, understanding, reasoning with, and interacting with spaces, both physical and virtual.",
       "first_detected_date": "2026-07-28",
-      "last_mentioned_date": "2026-09-04",
-      "mention_count": 2,
+      "last_mentioned_date": "2026-09-11",
+      "mention_count": 3,
       "source_podcasts": null,
       "status": "active",
       "investment_implications": "Key for advancing robotics and creating immersive virtual environments.",
@@ -9525,8 +9563,8 @@
       "archived_reason": null,
       "first_detected_episode_id": 370,
       "first_detected_speaker": null,
-      "last_mentioned_episode_id": 452,
-      "last_mentioned_speaker": "Justin Johnson, Ben Milton Hall"
+      "last_mentioned_episode_id": 471,
+      "last_mentioned_speaker": "Dave Blenden, Alex Weesner"
     },
     {
       "id": 263,
@@ -9678,7 +9716,7 @@
       "description": "Artificial Super Intelligence, referring to AI systems that surpass human intelligence in every field.",
       "first_detected_date": "2026-06-29",
       "last_mentioned_date": "2026-09-11",
-      "mention_count": 20,
+      "mention_count": 21,
       "source_podcasts": null,
       "status": "active",
       "investment_implications": "ASI represents a potential paradigm shift in technology and could disrupt various industries.",
@@ -9687,8 +9725,8 @@
       "archived_reason": null,
       "first_detected_episode_id": 319,
       "first_detected_speaker": "Peter Diamandis (hosts)",
-      "last_mentioned_episode_id": 470,
-      "last_mentioned_speaker": "Dwarkesh Patel (hosts)"
+      "last_mentioned_episode_id": 471,
+      "last_mentioned_speaker": "Dave Blenden, Alex Weesner"
     },
     {
       "id": 135,
@@ -10145,8 +10183,8 @@
       "term": "Dyson Swarm",
       "description": "A hypothetical network of satellites that could harness solar energy from space.",
       "first_detected_date": "2026-05-23",
-      "last_mentioned_date": "2026-09-09",
-      "mention_count": 29,
+      "last_mentioned_date": "2026-09-11",
+      "mention_count": 30,
       "source_podcasts": null,
       "status": "active",
       "investment_implications": "Investments in space-based energy could disrupt traditional energy markets.",
@@ -10155,8 +10193,8 @@
       "archived_reason": null,
       "first_detected_episode_id": 236,
       "first_detected_speaker": null,
-      "last_mentioned_episode_id": 468,
-      "last_mentioned_speaker": "Jacob Bondas, Salim Ismail"
+      "last_mentioned_episode_id": 471,
+      "last_mentioned_speaker": "Dave Blenden, Alex Weesner"
     },
     {
       "id": 113,
@@ -10236,7 +10274,7 @@
       "description": "A hypothetical point in the future at which technological growth becomes uncontrollable and irreversible, leading to unforeseeable changes in human civilization.",
       "first_detected_date": "2026-05-15",
       "last_mentioned_date": "2026-09-11",
-      "mention_count": 66,
+      "mention_count": 67,
       "source_podcasts": null,
       "status": "active",
       "investment_implications": "Investors should consider the potential for rapid technological change and its impact on various sectors, including AI, when making long-term investment decisions.",
@@ -10245,8 +10283,8 @@
       "archived_reason": null,
       "first_detected_episode_id": 221,
       "first_detected_speaker": null,
-      "last_mentioned_episode_id": 470,
-      "last_mentioned_speaker": "Dwarkesh Patel (hosts)"
+      "last_mentioned_episode_id": 471,
+      "last_mentioned_speaker": "Dave Blenden, Alex Weesner"
     },
     {
       "id": 97,
@@ -10254,7 +10292,7 @@
       "description": "The practice of training a smaller or different AI model on the outputs of a larger, more capable model to transfer capabilities at lower cost.",
       "first_detected_date": "2026-05-15",
       "last_mentioned_date": "2026-09-11",
-      "mention_count": 47,
+      "mention_count": 48,
       "source_podcasts": null,
       "status": "active",
       "investment_implications": "A deflationary force on model costs that reshapes competitive dynamics and margin structures across the AI stack.",
@@ -10263,8 +10301,8 @@
       "archived_reason": null,
       "first_detected_episode_id": 221,
       "first_detected_speaker": null,
-      "last_mentioned_episode_id": 470,
-      "last_mentioned_speaker": "Dwarkesh Patel (hosts)"
+      "last_mentioned_episode_id": 471,
+      "last_mentioned_speaker": "Dave Blenden, Alex Weesner"
     },
     {
       "id": 174,
@@ -10359,20 +10397,20 @@
     {
       "id": 161,
       "term": "AGI",
-      "description": "Artificial General Intelligence, the threshold at which AI systems match or exceed human expert performance across virtually all cognitive and white-collar domains.",
+      "description": "Artificial General Intelligence, the threshold at which AI systems can perform any intellectual task that a human can, now claimed to have arrived according to the episode's discussion.",
       "first_detected_date": "2026-05-07",
       "last_mentioned_date": "2026-09-11",
-      "mention_count": 92,
+      "mention_count": 93,
       "source_podcasts": null,
       "status": "active",
-      "investment_implications": "Compression of AGI timelines to 1-5 years implies an imminent repricing of labor-dependent equities and infrastructure beneficiaries.",
+      "investment_implications": "AGI arrival compresses timelines for automation and productivity gains but amplifies regulatory and catastrophic-risk premiums across AI-exposed portfolios.",
       "display_on_main": 1,
       "archived_date": null,
       "archived_reason": null,
       "first_detected_episode_id": 204,
       "first_detected_speaker": "Demis Hassabis",
-      "last_mentioned_episode_id": 470,
-      "last_mentioned_speaker": "Dwarkesh Patel (hosts)"
+      "last_mentioned_episode_id": 471,
+      "last_mentioned_speaker": "Dave Blenden, Alex Weesner"
     },
     {
       "id": 162,
@@ -11187,20 +11225,20 @@
     {
       "id": 57,
       "term": "AI Infrastructure",
-      "description": "The physical and energy systems required to train and deploy AI at scale, now recognized as a binding constraint on growth.",
+      "description": "The physical and cloud compute layer, particularly GPUs, that serves as the foundational revenue-generating substrate for modern AI workloads.",
       "first_detected_date": "2026-03-17",
-      "last_mentioned_date": "2026-09-02",
-      "mention_count": 34,
+      "last_mentioned_date": "2026-09-11",
+      "mention_count": 35,
       "source_podcasts": null,
       "status": "active",
-      "investment_implications": "Energy production, transmission, and novel cooling/storage solutions may outperform pure AI software plays as bottlenecks tighten.",
+      "investment_implications": "As GPUs become fungible, durable, revenue-generating assets, AI infrastructure shifts from pure capex drain to yield-producing real estate-like investments.",
       "display_on_main": 0,
       "archived_date": null,
       "archived_reason": null,
       "first_detected_episode_id": 71,
       "first_detected_speaker": null,
-      "last_mentioned_episode_id": 455,
-      "last_mentioned_speaker": "Elon Musk"
+      "last_mentioned_episode_id": 471,
+      "last_mentioned_speaker": "Dave Blenden, Alex Weesner"
     },
     {
       "id": 26,
@@ -11385,20 +11423,20 @@
     {
       "id": 64,
       "term": "AI Race",
-      "description": "The competitive escalation among companies and nations to develop and deploy superior artificial intelligence capabilities, models, and infrastructure.",
+      "description": "The competitive dynamic among frontier labs to develop self-improving superintelligence as quickly as possible, often at the expense of safety testing and alignment.",
       "first_detected_date": "2026-03-11",
-      "last_mentioned_date": "2026-09-10",
-      "mention_count": 35,
+      "last_mentioned_date": "2026-09-11",
+      "mention_count": 36,
       "source_podcasts": null,
       "status": "active",
-      "investment_implications": "Intensifying competition is funneling massive capital into AI infrastructure and hardware, while compressing margins for model providers due to low switching costs and rapid innovation.",
+      "investment_implications": "An unregulated AI Race increases tail-risk for AI leaders and could force punitive policy responses, creating volatility in high-multiple tech names.",
       "display_on_main": 0,
       "archived_date": null,
       "archived_reason": null,
       "first_detected_episode_id": 60,
       "first_detected_speaker": null,
-      "last_mentioned_episode_id": 467,
-      "last_mentioned_speaker": "Matt Barry"
+      "last_mentioned_episode_id": 471,
+      "last_mentioned_speaker": "Dave Blenden, Alex Weesner"
     },
     {
       "id": 12,
@@ -11457,20 +11495,20 @@
     {
       "id": 114,
       "term": "AI Agents",
-      "description": "Autonomous AI systems capable of functioning as drop-in remote workers that execute end-to-end white-collar tasks including coding, legal work, and project management.",
+      "description": "Autonomous AI systems capable of collaborating in large swarms to solve complex problems, exemplified by the use of 10,000 agents to tackle the Navier-Stokes millennium prize problem.",
       "first_detected_date": "2026-02-28",
       "last_mentioned_date": "2026-09-11",
-      "mention_count": 87,
+      "mention_count": 88,
       "source_podcasts": null,
       "status": "active",
-      "investment_implications": "Agentic deployment threatens legacy SaaS and outsourcing models while creating durable demand for orchestration, training, and feedback infrastructure.",
+      "investment_implications": "Agentic swarms represent the next compute demand layer beyond chatbots, driving infrastructure needs and opening enterprise automation markets.",
       "display_on_main": 0,
       "archived_date": null,
       "archived_reason": null,
       "first_detected_episode_id": 31,
       "first_detected_speaker": null,
-      "last_mentioned_episode_id": 470,
-      "last_mentioned_speaker": "Dwarkesh Patel (hosts)"
+      "last_mentioned_episode_id": 471,
+      "last_mentioned_speaker": "Dave Blenden, Alex Weesner"
     },
     {
       "id": 38,
