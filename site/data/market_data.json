@@ -86,13 +86,13 @@
     "_primary_source": "Treasury.gov",
     "_source_url": "https://home.treasury.gov/resource-center/data-chart-center/interest-rates/TextView?type=daily_treasury_yield_curve",
     "_fred_status": "unavailable (optional)",
-    "last_updated": "2026-09-11T14:13:34.372694",
-    "as_of_date": "2026-09-10",
+    "last_updated": "2026-09-11T22:59:27.647140",
+    "as_of_date": "2026-09-11",
     "spreads": {
       "2s10s": {
         "label": "2s10s Spread",
         "description": "10Y minus 2Y Treasury yield. Classic recession indicator. Negative = inverted curve.",
-        "value_bps": 39.0,
+        "value_bps": 33.0,
         "signal": "normal",
         "source": "Treasury.gov (computed)",
         "calculation": "10Y - 2Y from Treasury daily curve"
@@ -100,7 +100,7 @@
       "10s30s": {
         "label": "10s30s Spread (NOB proxy)",
         "description": "30Y minus 10Y Treasury yield. Reflects long-end term premium and duration demand.",
-        "value_bps": 42.0,
+        "value_bps": 39.0,
         "signal": "normal",
         "source": "Treasury.gov (computed)",
         "calculation": "30Y - 10Y from Treasury daily curve"
@@ -108,18 +108,18 @@
     },
     "levels": {
       "2y": {
-        "value": 4.56,
-        "change_1d_bps": 13.0,
+        "value": 4.63,
+        "change_1d_bps": 7.0,
         "source": "Treasury.gov"
       },
       "10y": {
-        "value": 4.95,
-        "change_1d_bps": 12.0,
+        "value": 4.96,
+        "change_1d_bps": 1.0,
         "source": "Treasury.gov"
       },
       "30y": {
-        "value": 5.37,
-        "change_1d_bps": 9.0,
+        "value": 5.35,
+        "change_1d_bps": -2.0,
         "source": "Treasury.gov"
       }
     },
@@ -127,7 +127,7 @@
       "_comment": "MOVE Index - bond market VIX. Source: Yahoo Finance ^MOVE.",
       "label": "MOVE Index",
       "description": "Treasury implied volatility index. High readings = bond market stress/uncertainty.",
-      "value": 82.09,
+      "value": 82.21,
       "change_1d": 0.0,
       "signal": "normal",
       "yahoo_symbol": "^MOVE",
@@ -145,14 +145,14 @@
     "_fetch_url": "https://www.cftc.gov/dea/futures/financial_lf.htm",
     "_api_alternative": "Quandl CFTC dataset (may need key)",
     "_fetch_instructions": "CFTC releases COT every Friday at 3:30pm ET for positions as of prior Tuesday.",
-    "last_updated": "2026-09-11T14:13:34.869126",
-    "report_date": "2026-09-01",
+    "last_updated": "2026-09-11T22:59:28.180923",
+    "report_date": "2026-09-08",
     "rates_positioning": {
       "10y_note": {
         "label": "10-Year T-Note Futures",
         "contract": "TY",
         "asset_manager_net": null,
-        "leveraged_funds_net": -2062502,
+        "leveraged_funds_net": -1938754,
         "dealer_net": null,
         "change_1w": null,
         "signal": null,
@@ -162,7 +162,7 @@
         "label": "2-Year T-Note Futures",
         "contract": "TU",
         "asset_manager_net": null,
-        "leveraged_funds_net": -1268034,
+        "leveraged_funds_net": -1290479,
         "dealer_net": null,
         "change_1w": null,
         "signal": null,
@@ -172,7 +172,7 @@
         "label": "30-Year T-Bond Futures",
         "contract": "US",
         "asset_manager_net": null,
-        "leveraged_funds_net": -303045,
+        "leveraged_funds_net": -276965,
         "dealer_net": null,
         "change_1w": null,
         "signal": null,
@@ -184,7 +184,7 @@
         "label": "CME Bitcoin Futures",
         "contract": "BTC",
         "asset_manager_net": null,
-        "leveraged_funds_net": -7620,
+        "leveraged_funds_net": -7892,
         "dealer_net": null,
         "change_1w": null,
         "signal": null,
@@ -216,7 +216,7 @@
     "_source_url": "https://gpu-index.semianalysis.com/",
     "_data_type": "surveyed_index",
     "_staleness_note": "Free public data lags several months behind current date. Display the as-of period prominently.",
-    "last_fetched": "2026-09-11T14:13:18.048824",
+    "last_fetched": "2026-09-11T22:59:11.266156",
     "h100": {
       "period": "Apr 2026",
       "composite_index": {

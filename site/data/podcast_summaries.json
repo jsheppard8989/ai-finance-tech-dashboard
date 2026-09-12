@@ -1,5 +1,40 @@
 [
   {
+    "id": 470,
+    "podcast_name": "Dwarkesh Podcast",
+    "episode_title": "AI researchers debate how close we are to recursive self-improvement",
+    "episode_date": "2026-09-11",
+    "summary": "The episode explores the accelerating trajectory toward Artificial General Intelligence (AGI), with speakers arguing that AI systems will achieve human-level performance across white-collar professions within one to three years and surpass human experts in all domains within five to ten years. A central theme is the shift from raw pre-training scale to Reinforcement Learning (RL) and data efficiency as the primary drivers of capability gains, with models doubling their effective reasoning and task-execution horizons every few months. The discussion frames AI not merely as a tool but as a drop-in remote workforce, predicting that autonomous AI agents will automate coding, legal work, and project management while collectively forming a deployment \"hive mind\" that learns from real-world feedback and drives exponential improvement. For investors, the implications point toward an imminent repricing of labor-intensive software and services, and a strategic pivot toward infrastructure and platforms optimized for agentic training and orchestration rather than brute-force parameter scaling.",
+    "key_takeaways": [
+      "AGI timelines are compressing to 1-3 years for white-collar equivalence and 5-10 years for superhuman expertise, suggesting immediate portfolio exposure to automation beneficiaries is warranted.",
+      "Reinforcement Learning (RL) has emerged as the critical capability amplifier beyond base pre-training, directing investment focus toward firms with proprietary RL environments and high-signal feedback loops.",
+      "AI agents are poised to act as drop-in remote workers, threatening traditional SaaS, business process outsourcing, and professional services that do not embed autonomous execution.",
+      "Model capability doubling every few months in reasoning duration implies non-linear productivity inflection points that markets are likely underpricing.",
+      "The bottleneck is migrating from raw data availability to training efficiency and diverse environment design, favoring optimized AI infrastructure plays over pure compute expansion.",
+      "Collective deployment learning or a \"hive mind\" effect could trigger step-function capability increases, creating winner-take-most dynamics for platforms with large real-world agent footprints."
+    ],
+    "investment_thesis": "The convergence of compressed AGI timelines, Reinforcement Learning breakthroughs, and agentic deployment is creating an asymmetric investment opportunity in AI infrastructure and automation-native platforms, while traditional white-collar labor models and non-agentic SaaS face existential disruption.",
+    "key_tickers": null
+  },
+  {
+    "id": 469,
+    "podcast_name": "Monetary Matters with Jack Farley",
+    "episode_title": "Why Farmland With Centuries of Water Is the Ultimate Scarce Asset | John Farris of LandFund Partners on Super El Ni\u00f1o, Food Security, and the Sources of Alpha in Farmland",
+    "episode_date": "2026-09-11",
+    "summary": "This episode of Monetary Matters features a deep dive into farmland as an underappreciated real asset amid structural global imbalances. Guest John Ferris of Land Fund Partners argues that shrinking arable land combined with rising global protein demand creates a compelling supply-demand tension, further pressured by multi-decade lows in global grain reserves. He notes that global grain stocks have fallen to roughly 70 days of supply, raising food security concerns at a time when agricultural productivity gains have plateaued.\n\nThe discussion centers on the Mid-South region, specifically farmland over the Mississippi Alluvial Aquifer, which holds over 300 years of water at current draw rates and trades at a significant discount to Midwestern farmland. Ferris explains how regenerative farming practices enhance soil health, reduce chemical inputs, and drive higher long-term yields, while government subsidy programs provide income stability and encourage capital investment. He also highlights that the firm has thousands of acres under solar lease options, creating additional revenue streams beyond traditional crop production.\n\nFrom a portfolio construction standpoint, the episode emphasizes farmland's negative correlation to both equity and fixed-income markets, making it a valuable diversification tool. With the upcoming El Nino pattern threatening production in major exporting nations, and with U.S. policy supporting farmer incomes, the asset class offers a hedge against inflation, food scarcity, and broader market volatility.",
+    "key_takeaways": [
+      "Global grain reserves have fallen to roughly 70 days, a ten-year low, creating structural tailwinds for agricultural real assets.",
+      "High-quality Midwestern farmland trades at a 140% premium to comparable Mid-South acreage, suggesting potential regional price convergence.",
+      "The Mississippi Alluvial Aquifer contains over 300 years of water at current usage rates, offering a durable competitive advantage for irrigated farmland in the region.",
+      "Regenerative farming practices can reduce input costs and increase soil productivity over a three-year horizon, directly improving operating margins.",
+      "U.S. agricultural subsidies provide income stability that de-risks farmland cash flows and encourages long-term capital investment.",
+      "Solar farm leases and recreational use rights offer non-farming revenue streams that can materially increase per-acre land value.",
+      "Farmland exhibits negative correlation to both equity and fixed-income markets, making it a powerful diversification tool for institutional and retail portfolios."
+    ],
+    "investment_thesis": "Investors can exploit a regional arbitrage in U.S. farmland by acquiring irrigated Mid-South properties at a steep discount to Midwestern equivalents, while benefiting from regenerative practices, government subsidies, and embedded solar lease optionality to generate yield and capital appreciation in an inflationary, food-scarce environment.",
+    "key_tickers": null
+  },
+  {
     "id": 464,
     "podcast_name": "The a16z Show",
     "episode_title": "What It Takes to Build a Startup | Andrew Chen & Matt Perault",
@@ -18,26 +53,6 @@
     "key_tickers": null
   },
   {
-    "id": 467,
-    "podcast_name": "Macro Voices",
-    "episode_title": "MacroVoices #549 Matt Barrie: AI-gent Provocateur",
-    "episode_date": "2026-09-10",
-    "summary": "Matt Barry joins Macro Voices to discuss the rapid maturation of artificial intelligence, arguing that AI has reached an inflection point where it can reliably automate complex white-collar workflows. He details a live case study where enterprise token costs surged to $1,300 per day, only to be slashed to $150 by switching to cheaper Chinese models, illustrating both the power and the cost volatility of the current AI stack.\n\nBarry also explores the enterprise pivot toward dedicated hardware such as Nvidia DGX systems to escape cloud dependency, while warning that zero switching costs are commoditizing model providers and could create a debt bubble in data centers reminiscent of subprime mortgages. The conversation concludes with the implications of artificial general intelligence and the potential for severe labor dislocation across banking, law, and corporate services.",
-    "key_takeaways": [
-      "AI workflow automation is now reliable enough to replace human teams in repetitive cognitive tasks, driving superhuman productivity gains and threatening white-collar employment.",
-      "Token costs can escalate rapidly to unsustainable levels, but enterprises can slash expenses by arbitraging across models, including cheaper Chinese alternatives.",
-      "Companies are increasingly purchasing dedicated AI hardware like Nvidia DGX systems to reduce long-term reliance on expensive cloud infrastructure.",
-      "Zero switching costs in AI eliminate vendor lock-in, enabling seamless model arbitrage but eroding pricing power for incumbent providers such as OpenAI and Anthropic.",
-      "Rising debt levels tied to data center expansion echo subprime mortgage dynamics, posing systemic risks to the AI infrastructure build-out.",
-      "Workforce dislocation will be severe in sectors such as banking and law, requiring organizations to prioritize adaptability and retraining.",
-      "AGI remains the ultimate long-term catalyst, offering transformative economic opportunities alongside existential societal and portfolio risks."
-    ],
-    "investment_thesis": "The core opportunity lies in AI infrastructure and hardware providers benefiting from enterprise insourcing, while model-facing incumbents face margin compression from zero switching costs and open competition; investors must also hedge against white-collar labor dislocation and potential data-center debt excesses.",
-    "key_tickers": [
-      "NVDA"
-    ]
-  },
-  {
     "id": 466,
     "podcast_name": "The a16z Show",
     "episode_title": "How AI Is Rewriting the Power Law of Venture Capital",
@@ -53,24 +68,6 @@
       "The trend of companies staying private longer is structurally entrenched, permanently altering liquidity dynamics and middle-stage venture capital."
     ],
     "investment_thesis": "AI is expanding the investable universe far beyond software to encompass trillions in GDP, and investors who concentrate capital in top-decile early-stage firms while favoring compute-heavy, capital-efficient models are best positioned to capture outsized returns in a market where the middle is being hollowed out.",
-    "key_tickers": null
-  },
-  {
-    "id": 465,
-    "podcast_name": "The a16z Show",
-    "episode_title": "Who Grades the AI Models? | Ben Horowitz & Rayan Krishnan",
-    "episode_date": "2026-09-09",
-    "summary": "The episode examines the rapid evolution of AI evaluation from public leaderboards to independent, privately held benchmarks that more accurately reflect model capabilities. Speakers argue that as AI becomes a trillion-dollar industry, third-party testing groups will play a role analogous to financial auditors, ensuring transparency and reducing enterprise investment risk. The conversation highlights how public benchmarks can be gamed or misleading, while internal tools and rigorous evaluation frameworks are necessary to quantify true return on investment.\n\nA central focus is the dramatic rise in enterprise AI token consumption, with one organization reporting spend ten times greater than employee salaries, underscoring the urgent need for internal benchmarking solutions like Valsmith. The discussion also explores recursive self-improvement as a transformational capability requiring novel evaluation metrics, and stresses that effective government AI policy will depend on collaboration with independent evaluators rather than relying solely on vendor self-certification or public benchmarks.",
-    "key_takeaways": [
-      "Independent testing groups are emerging as essential infrastructure for the AI industry, analogous to auditors in finance, creating investment opportunities in third-party validation services.",
-      "Public benchmarks frequently misrepresent true model capabilities; investors and enterprises must rely on private held-out evaluations to avoid misallocation of capital.",
-      "Recursive self-improvement represents a transformational capability that requires novel benchmarking frameworks and could drive exponential, non-linear AI progress.",
-      "Enterprise AI token spend is scaling rapidly, with reported cases exceeding employee salary costs by an order of magnitude, necessitating clear ROI metrics and internal benchmarking.",
-      "Products that enable custom internal coding benchmarks are poised to capture share as enterprises seek to optimize AI tool procurement and validate productivity gains.",
-      "Government AI policy and international risk management will increasingly depend on independent third-party evaluators, establishing regulatory moats for trusted testing organizations.",
-      "The complexity of AI evaluations is shifting toward fewer samples but more comprehensive criteria, requiring enterprises to invest in robust, nuanced assessment frameworks."
-    ],
-    "investment_thesis": "Independent benchmarking and third-party model evaluation are becoming critical infrastructure as enterprise AI token spend rapidly outpaces traditional labor costs, creating opportunities in validation services and internal ROI optimization platforms while mitigating risks from benchmark gaming.",
     "key_tickers": null
   },
   {
