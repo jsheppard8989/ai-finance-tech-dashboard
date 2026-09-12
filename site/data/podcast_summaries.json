@@ -1,5 +1,40 @@
 [
   {
+    "id": 472,
+    "podcast_name": "All-In with Chamath, Jason, Sacks & Friedberg",
+    "episode_title": "AI Kills Everybody or Doomer Psyop? OpenAI's Math Breakthrough, Nike's $200B Collapse",
+    "episode_date": "2026-09-11",
+    "summary": "The hosts examine the resignation of an Anthropic researcher who warned that AI could cause human extinction, arguing that the viral fallout appears orchestrated by organized groups with regulatory agendas. They highlight the investment implications for Anthropics IPO prospects and the broader product liability risks facing AI labs that internally acknowledge existential dangers while marketing commercial products. Separately, the episode covers enterprise data sovereignty, warning that companies risk leaking proprietary information through third-party AI services and should migrate to sovereign or on-premise AI infrastructure. Finally, the hosts critique Nikes strategic shift from performance excellence to narrative-driven marketing, attributing its market share decline to a brand identity crisis that alienated core customers.",
+    "key_takeaways": [
+      "Anthropic faces severe IPO and product liability risks if internal AI safety fears contradict public commercialization efforts.",
+      "Organized amplification of AI extinction fears suggests regulatory campaigns may be coordinated rather than organic, creating policy uncertainty.",
+      "Enterprises must treat data sovereignty as a priority, adopting private AI deployments to prevent intellectual property leakage.",
+      "Nikes pivot away from excellence and mastery toward activism-centric marketing has damaged brand equity and sales.",
+      "OpenAIs mathematical breakthroughs illustrate AIs leverage potential but intensify concerns about data privacy and IP exposure."
+    ],
+    "investment_thesis": "AI labs face escalating regulatory, liability, and data-sovereignty risks that threaten public-market viability, while legacy consumer brands like Nike demonstrate that abandoning core excellence narratives for activism-driven marketing destroys shareholder value.",
+    "key_tickers": [
+      "NKE"
+    ]
+  },
+  {
+    "id": 471,
+    "podcast_name": "Moonshots with Peter Diamandis",
+    "episode_title": "Should we slow down AI progress? | MOONSHOTS #288",
+    "episode_date": "2026-09-11",
+    "summary": "The episode examines the claim that AGI has arrived and the accelerating race toward self-improving superintelligence, framed by a high-profile resignation at OpenAI and Anthropic over safety concerns. Peter Diamandis and guests discuss how data quality now dominates model architecture in driving compute efficiency, while the GPU market transforms into a fungible infrastructure asset class generating rental yield. The conversation also covers the maturation of AI-designed therapeutics, including a phase-three drug candidate from Insilico Medicine and Google DeepMind's Alpha Genome Atlas, alongside growing governance friction as Anthropic withholds its latest frontier model from UK pre-release testing.",
+    "key_takeaways": [
+      "AGI capabilities are now viewed as achieved by some insiders, elevating alignment and pacing debates to urgent investment risks.",
+      "Optimizing data pipelines delivers 12x compute efficiency gains versus 3.7x from better architectures, favoring data-centric AI platforms and tools.",
+      "GPUs are becoming liquid, revenue-generating infrastructure assets, creating new yield and scarcity dynamics in AI compute.",
+      "AI-designed drugs and genetic-prediction tools are reaching late-stage clinical and research milestones, validating biotech AI platforms.",
+      "Frontier labs are bypassing national security institutes, signaling a breakdown in voluntary governance and rising regulatory tail risks.",
+      "Vesmerk's acquisition highlights a trillion-dollar opportunity to AIify legacy financial technology stacks."
+    ],
+    "investment_thesis": "The episode argues that AGI-level capabilities, commoditized GPU infrastructure, and clinically validated AI-designed therapeutics are converging into a multi-trillion-dollar opportunity set across technology, healthcare, and fintech, but investors must price escalating alignment and governance risks.",
+    "key_tickers": null
+  },
+  {
     "id": 470,
     "podcast_name": "Dwarkesh Podcast",
     "episode_title": "AI researchers debate how close we are to recursive self-improvement",
@@ -32,42 +67,6 @@
       "Farmland exhibits negative correlation to both equity and fixed-income markets, making it a powerful diversification tool for institutional and retail portfolios."
     ],
     "investment_thesis": "Investors can exploit a regional arbitrage in U.S. farmland by acquiring irrigated Mid-South properties at a steep discount to Midwestern equivalents, while benefiting from regenerative practices, government subsidies, and embedded solar lease optionality to generate yield and capital appreciation in an inflationary, food-scarce environment.",
-    "key_tickers": null
-  },
-  {
-    "id": 464,
-    "podcast_name": "The a16z Show",
-    "episode_title": "What It Takes to Build a Startup | Andrew Chen & Matt Perault",
-    "episode_date": "2026-09-11",
-    "summary": "A16Z's Speedrun program represents a concentrated bet on company formation at the earliest possible stage, investing up to one million dollars in teams of two to three founders often working from home without prior external capital. Over a twelve-week period, the program provides intensive mentorship, resources, and a demo day designed to bridge the gap between raw founder potential and institutional investor readiness. The strategy implicitly argues that traditional venture timelines are too slow for certain categories of innovation, and that hands-on creation of companies generates superior returns compared to waiting for traction to emerge.\n\nThe discussion highlights a widening structural gap between startup regulatory burdens and founder capacity to engage in policy, with Andrew Chen noting that early teams lack lobbyists and time to participate in political processes. Location decisions are also evolving, as the Bay Area's dominance in artificial intelligence is no longer assumed to be permanent, with founders increasingly weighing cost of living and regulatory climate against access to talent networks. A16Z frames its approach as a lifelong partnership, accepting high failure rates in individual ventures in exchange for sustained relationships with founders who will iterate across multiple companies over their careers.",
-    "key_takeaways": [
-      "A16Z's Speedrun program invests up to $1 million in nascent, often bootstrapped teams of 2-3 founders working remotely, compressing the path from idea to investor readiness into 12 weeks.",
-      "Early-stage founders face severe regulatory burdens but lack representation or time to engage in policy, creating a structural disadvantage that threatens startup viability.",
-      "Geographic diversification is accelerating as founders weigh regulatory climates and cost of living against traditional hubs, challenging the assumption that California will remain the default location.",
-      "Founder selection prioritizes unique lived experiences and diverse backgrounds over traditional pedigrees or traction metrics, treating atypical resumes as a predictive signal.",
-      "A16Z approaches earliest-stage investing as a lifelong relationship, expecting initial failures but betting on repeated founder attempts across multiple ventures over a career.",
-      "Demo Day and structured mentorship act as critical scaling mechanisms for pre-seed companies that lack capital and network access, effectively manufacturing runway and social proof.",
-      "Policymakers need direct founder engagement to avoid regulatory frameworks that inadvertently crush nascent startups which have no bandwidth for lobbying or compliance overhead."
-    ],
-    "investment_thesis": "A16Z's Speedrun program targets high-conviction, pre-seed investments in small, bootstrapped teams with unique founder experiences, while the firm leverages long-term founder relationships and policy advocacy to mitigate geographic and regulatory risks.",
-    "key_tickers": null
-  },
-  {
-    "id": 466,
-    "podcast_name": "The a16z Show",
-    "episode_title": "How AI Is Rewriting the Power Law of Venture Capital",
-    "episode_date": "2026-09-10",
-    "summary": "This episode explores the extreme power law dynamics in venture capital, where only a tiny fraction of firms generate consistent outsized returns. The speakers argue that AI represents a transformational opportunity far larger than traditional SaaS, potentially impacting every facet of the global GDP including transportation, labor, and energy. They emphasize that successful AI startups exhibit superior capital efficiency by converting dollars into compute rather than headcount, enabling faster scaling. The discussion also covers the necessity for asset allocators to shift AI from a satellite to a core portfolio position, and the structural hollowing out of mid-stage venture capital as larger funds compete for earlier deals.\n\nA key theme is the reinvention of labor and the economy through AI, with the potential for the next century-defining companies to emerge from healthcare, robotics, and energy rather than pure software. The speakers warn that average venture returns have lagged private equity and public markets, making access to top-decile early-stage firms critical. They note that companies are staying private longer, altering liquidity timelines, and that the best funds tolerate high early-stage loss rates in pursuit of category-defining winners. The conversation ultimately frames the current environment as a once-in-a-generation reshuffling of asset allocation and portfolio construction.",
-    "key_takeaways": [
-      "Only approximately 20 out of 3,000 US capital firms have achieved consistent 3x returns over the last two decades, illustrating an extreme power law that demands selectivity.",
-      "AI is attacking every facet of GDP and may create an addressable market an order of magnitude larger than existing SaaS, expanding across transportation, labor, services, and energy.",
-      "AI startups demonstrate superior capital efficiency by deploying funding into compute rather than traditional hiring, accelerating product development and scaling.",
-      "Asset allocators should reposition AI from a satellite holding to a core or super core portfolio allocation to capture the coming wave of value creation.",
-      "The best-performing venture funds experience roughly 60% loss rates in early-stage investments, reinforcing the necessity of high conviction and access to category-defining companies every vintage.",
-      "The next $100 trillion market cap company is likely to emerge from AI-enabled sectors such as healthcare, robotics, and energy, rather than traditional software.",
-      "The trend of companies staying private longer is structurally entrenched, permanently altering liquidity dynamics and middle-stage venture capital."
-    ],
-    "investment_thesis": "AI is expanding the investable universe far beyond software to encompass trillions in GDP, and investors who concentrate capital in top-decile early-stage firms while favoring compute-heavy, capital-efficient models are best positioned to capture outsized returns in a market where the middle is being hollowed out.",
     "key_tickers": null
   },
   {
