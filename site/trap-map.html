@@ -492,7 +492,7 @@
       }
 
       return `
-        <div class="trap-card" data-status="${statusClass}">
+        <div class="trap-card" id="${escapeHtml(trap.id)}" data-status="${statusClass}">
           <div class="trap-header">
             <div class="trap-title">${escapeHtml(trap.title)}</div>
             <span class="status-badge ${statusClass}">${statusLabel}</span>
@@ -588,6 +588,18 @@
 
         const cardsHtml = traps.map(buildTrapCard).join('');
         grid.innerHTML = cardsHtml;
+
+        if (window.location.hash) {
+          const targetId = window.location.hash.slice(1);
+          const targetCard = document.getElementById(targetId);
+          if (targetCard) {
+            setTimeout(() => {
+              targetCard.scrollIntoView({ behavior: 'smooth', block: 'center' });
+              targetCard.style.boxShadow = '0 0 20px rgba(0, 212, 255, 0.5)';
+              setTimeout(() => { targetCard.style.boxShadow = ''; }, 2000);
+            }, 100);
+          }
+        }
 
       } catch (error) {
         console.error('Error loading trap map:', error);
