@@ -1466,6 +1466,11 @@
       font-size: 0.72rem;
       margin-top: 0.15rem;
     }
+    .pundit-networth-quarantine .nw-na {
+      color: #6b7280;
+      font-weight: 500;
+      font-style: italic;
+    }
 
     .podcast-container {
       background: rgba(26, 26, 46, 0.98);
@@ -3502,11 +3507,12 @@
     }
 
     function isNetWorthTrustworthy(source, netWorthRaw, name) {
-      if (!source && !netWorthRaw) return false;
+      if (!netWorthRaw) return { trusted: false, reason: 'no_value' };
       const srcLower = (source || '').toLowerCase();
       const isWikidata = srcLower.includes('wikidata.org');
-      if (!source || (!isWikidata && srcLower)) {
-        return false;
+      const isForbes = srcLower.includes('forbes.com');
+      if (!source || (!isWikidata && !isForbes)) {
+        return { trusted: false, reason: 'untrusted_source' };
       }
       const numeric = parseFloat(String(netWorthRaw).replace(/[$,BMK\s]/gi, function(m) {
         if (m.toUpperCase() === 'B') return 'e9';
@@ -3514,13 +3520,17 @@
         if (m.toUpperCase() === 'K') return 'e3';
         return '';
       }));
-      if (Number.isFinite(numeric) && numeric > 200e9) {
+      if (!Number.isFinite(numeric) || numeric <= 0) {
+        return { trusted: false, reason: 'invalid_value' };
+      }
+      if (numeric > 200e9) {
         const megaCapAllowlist = ['elon musk', 'jeff bezos', 'bernard arnault', 'bill gates', 'larry ellison', 'mark zuckerberg', 'warren buffett', 'larry page', 'sergey brin', 'steve ballmer', 'jensen huang', 'michael bloomberg', 'mukesh ambani', 'gautam adani', 'zhong shanshan'];
         const nameLower = (name || '').toLowerCase();
         const allowed = megaCapAllowlist.some(function(n) { return nameLower.includes(n); });
-        if (!allowed) return false;
+        if (!allowed) return { trusted: false, reason: 'suspect_magnitude' };
       }
-      return true;
+      const sourceLabel = isWikidata ? 'Wikidata' : 'Forbes';
+      return { trusted: true, sourceLabel: sourceLabel };
     }
 
     function showPunditModal(name, evidenceB64, profileB64) {
@@ -3602,20 +3612,19 @@
       if (nwBlock) {
         const nwRaw = ev.net_worth || '';
         const nwSrc = ev.net_worth_source || '';
-        if (isNetWorthTrustworthy(nwSrc, nwRaw, name)) {
+        const nwCheck = isNetWorthTrustworthy(nwSrc, nwRaw, name);
+        let nwHtml = '';
+        if (nwCheck.trusted) {
           const clean = formatNetWorthDisplay(nwRaw);
-          if (clean) {
-            let nwHtml = '<div class="nw-label">Net Worth (Wikidata)</div>';
-            nwHtml += '<div class="nw-value">' + escapeHtmlText(clean) + '</div>';
-            nwHtml += '<div class="nw-source">Source: ' + escapeHtmlText(nwSrc) + '</div>';
-            nwBlock.innerHTML = nwHtml;
-            nwBlock.style.display = 'block';
-          } else {
-            nwBlock.style.display = 'none';
-          }
+          nwHtml = '<div class="nw-label">Net Worth (' + escapeHtmlText(nwCheck.sourceLabel) + ')</div>';
+          nwHtml += '<div class="nw-value">' + escapeHtmlText(clean) + '</div>';
+          nwHtml += '<div class="nw-source">Source: ' + escapeHtmlText(nwSrc) + '</div>';
         } else {
-          nwBlock.style.display = 'none';
+          nwHtml = '<div class="nw-label">Net Worth</div>';
+          nwHtml += '<div class="nw-value nw-na">NA</div>';
         }
+        nwBlock.innerHTML = nwHtml;
+        nwBlock.style.display = 'block';
       }
 
       if (profEl) {
