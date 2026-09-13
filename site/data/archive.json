@@ -20,6 +20,44 @@
       "podcast_episode_id": 474
     },
     {
+      "id": 490,
+      "title": "Hunting for Value in Mining Stocks Amid Soaring Metals Prices | Freddy Brick | Muddy Waters Capital",
+      "source_type": "podcast",
+      "source_name": "Monetary Matters with Jack Farley",
+      "source_date": "2026-09-13",
+      "summary": "Freddie Brick of Muddy Waters Capital joins Jack Farley to discuss the firm's approach to the junior mining sector, which centers on acquiring distressed, underappreciated assets with durable fundamentals. Brick explains that the firm typically runs a 50% net long book, remaining liquid enough to capitalize on drawdowns while targeting projects that are economically viable across a wide range of historical commodity prices. He acknowledges the structural copper bull thesis driven by electrification and EV demand but stresses that regulatory and discovery hurdles make timing uncertain, reinforcing the need for long-dated patience and strong management teams.\n\nBrick highlights that the junior mining space has suffered a decade of capital flight since the last super cycle, leaving many viable projects overlooked and creating a potential M&A catalyst as majors search for advanced assets. He emphasizes that hedging individual junior miners is impractical due to liquidity constraints, and that the firm creates value through collaborative activism and a three-to-five-year horizon rather than short-term trading.",
+      "key_takeaway": "The junior mining sector offers a compelling asymmetric opportunity in distressed, underappreciated assets with strong management, where years of capital flight and depleted liquidity have created a fertile environment for patient capital to realize value through operational improvement and an impending wave of major-miner M&A.",
+      "tickers_mentioned": [
+        "NVDA"
+      ],
+      "sentiment": "bullish",
+      "display_on_main": 1,
+      "display_order": 0,
+      "added_date": "2026-09-13",
+      "archived_date": null,
+      "archived_reason": null,
+      "podcast_episode_id": 476
+    },
+    {
+      "id": 491,
+      "title": "Ask the Mates anything | MOONSHOTS AMA  #289",
+      "source_type": "podcast",
+      "source_name": "Moonshots with Peter Diamandis",
+      "source_date": "2026-09-13",
+      "summary": "Peter Diamandis explores four converging exponential technology platforms that are rapidly approaching inflection points. The episode emphasizes AI-powered healthcare diagnostics, particularly in cardiovascular disease where AI-enhanced CT imaging is detecting coronary disease in nearly nine out of ten patients, creating a compelling case for personalized medicine and early intervention startups. Beyond healthcare, the discussion covers Brain-Computer Interfaces as an emerging class of human-augmentation technology, a fundamental shift in education toward demand-side experiential learning, and AI-optimized energy solutions including speculative megastructures like Dyson Swarms. For investors, the through-line is that AI is not merely a sector but an enabling layer across healthcare, neurotechnology, education, and energy that will redefine incumbents and create entirely new asset classes.",
+      "key_takeaway": "AI is rapidly becoming the foundational enabling layer across healthcare, neurotechnology, education, and energy, creating a multi-decade opportunity to invest in startups and platforms that replace legacy systems with predictive, personalized, and exponentially scalable solutions.",
+      "tickers_mentioned": [
+        "NVDA"
+      ],
+      "sentiment": "bullish",
+      "display_on_main": 1,
+      "display_order": 0,
+      "added_date": "2026-09-13",
+      "archived_date": null,
+      "archived_reason": null,
+      "podcast_episode_id": 475
+    },
+    {
       "id": 488,
       "title": "Why Companies Are Becoming a Series of Loops | Anish Acharya on Lenny\u2019s Podcast",
       "source_type": "podcast",
@@ -105,7 +143,7 @@
         "NKE"
       ],
       "sentiment": "bearish",
-      "display_on_main": 1,
+      "display_on_main": 0,
       "display_order": 0,
       "added_date": "2026-09-12",
       "archived_date": null,
@@ -124,7 +162,7 @@
         "NVDA"
       ],
       "sentiment": "bullish",
-      "display_on_main": 1,
+      "display_on_main": 0,
       "display_order": 0,
       "added_date": "2026-09-12",
       "archived_date": null,
@@ -9448,7 +9486,7 @@
       "description": "The use of models and computer programs to represent and analyze real or imagined systems or situations.",
       "first_detected_date": "2026-08-21",
       "last_mentioned_date": "2026-09-13",
-      "mention_count": 12,
+      "mention_count": 13,
       "source_podcasts": null,
       "status": "active",
       "investment_implications": "Simulation technology can provide significant insights for decision-making, making investments in this area potentially valuable.",
@@ -9457,8 +9495,8 @@
       "archived_reason": null,
       "first_detected_episode_id": 420,
       "first_detected_speaker": "June",
-      "last_mentioned_episode_id": 474,
-      "last_mentioned_speaker": "Justin Johnson"
+      "last_mentioned_episode_id": 475,
+      "last_mentioned_speaker": "Peter Diamandis (hosts)"
     },
     {
       "id": 272,
@@ -9645,8 +9683,8 @@
       "term": "Dana",
       "description": "A platform developed by Applied Intuition for designing and developing autonomous systems, aiming to simplify the process and make it more accessible.",
       "first_detected_date": "2026-07-21",
-      "last_mentioned_date": "2026-08-02",
-      "mention_count": 2,
+      "last_mentioned_date": "2026-09-13",
+      "mention_count": 3,
       "source_podcasts": null,
       "status": "active",
       "investment_implications": "Platforms like Dana could lower the barrier to entry for developing autonomous systems, potentially sparking innovation and growth in the sector.",
@@ -9655,8 +9693,8 @@
       "archived_reason": null,
       "first_detected_episode_id": 359,
       "first_detected_speaker": "Casser, Eunice, Peter Ludwig",
-      "last_mentioned_episode_id": 380,
-      "last_mentioned_speaker": "Ruby J. To Low"
+      "last_mentioned_episode_id": 475,
+      "last_mentioned_speaker": "Peter Diamandis (hosts)"
     },
     {
       "id": 262,
@@ -9753,8 +9791,8 @@
       "term": "ASI",
       "description": "Artificial Super Intelligence, referring to AI systems that surpass human intelligence in every field.",
       "first_detected_date": "2026-06-29",
-      "last_mentioned_date": "2026-09-11",
-      "mention_count": 21,
+      "last_mentioned_date": "2026-09-13",
+      "mention_count": 22,
       "source_podcasts": null,
       "status": "active",
       "investment_implications": "ASI represents a potential paradigm shift in technology and could disrupt various industries.",
@@ -9763,8 +9801,8 @@
       "archived_reason": null,
       "first_detected_episode_id": 319,
       "first_detected_speaker": "Peter Diamandis (hosts)",
-      "last_mentioned_episode_id": 471,
-      "last_mentioned_speaker": "Dave Blenden, Alex Weesner"
+      "last_mentioned_episode_id": 475,
+      "last_mentioned_speaker": "Peter Diamandis (hosts)"
     },
     {
       "id": 135,
@@ -10219,20 +10257,20 @@
     {
       "id": 10,
       "term": "Dyson Swarm",
-      "description": "A hypothetical network of satellites that could harness solar energy from space.",
+      "description": "A hypothetical megastructure of numerous small satellites surrounding a star to capture its energy output, discussed here as a future AI-enabled energy breakthrough.",
       "first_detected_date": "2026-05-23",
-      "last_mentioned_date": "2026-09-11",
-      "mention_count": 30,
+      "last_mentioned_date": "2026-09-13",
+      "mention_count": 31,
       "source_podcasts": null,
       "status": "active",
-      "investment_implications": "Investments in space-based energy could disrupt traditional energy markets.",
+      "investment_implications": "Long-term exposure to space tech, advanced energy infrastructure, and AI-driven applied physics could position investors ahead of secular shifts in global energy production.",
       "display_on_main": 1,
       "archived_date": null,
       "archived_reason": null,
       "first_detected_episode_id": 236,
       "first_detected_speaker": null,
-      "last_mentioned_episode_id": 471,
-      "last_mentioned_speaker": "Dave Blenden, Alex Weesner"
+      "last_mentioned_episode_id": 475,
+      "last_mentioned_speaker": "Peter Diamandis (hosts)"
     },
     {
       "id": 113,
@@ -10311,8 +10349,8 @@
       "term": "Singularity",
       "description": "A hypothetical point in the future at which technological growth becomes uncontrollable and irreversible, leading to unforeseeable changes in human civilization.",
       "first_detected_date": "2026-05-15",
-      "last_mentioned_date": "2026-09-11",
-      "mention_count": 67,
+      "last_mentioned_date": "2026-09-13",
+      "mention_count": 68,
       "source_podcasts": null,
       "status": "active",
       "investment_implications": "Investors should consider the potential for rapid technological change and its impact on various sectors, including AI, when making long-term investment decisions.",
@@ -10321,8 +10359,8 @@
       "archived_reason": null,
       "first_detected_episode_id": 221,
       "first_detected_speaker": null,
-      "last_mentioned_episode_id": 471,
-      "last_mentioned_speaker": "Dave Blenden, Alex Weesner"
+      "last_mentioned_episode_id": 475,
+      "last_mentioned_speaker": "Peter Diamandis (hosts)"
     },
     {
       "id": 97,
@@ -10437,8 +10475,8 @@
       "term": "AGI",
       "description": "Artificial General Intelligence, the threshold at which AI systems can perform any intellectual task that a human can, now claimed to have arrived according to the episode's discussion.",
       "first_detected_date": "2026-05-07",
-      "last_mentioned_date": "2026-09-12",
-      "mention_count": 94,
+      "last_mentioned_date": "2026-09-13",
+      "mention_count": 95,
       "source_podcasts": null,
       "status": "active",
       "investment_implications": "AGI arrival compresses timelines for automation and productivity gains but amplifies regulatory and catastrophic-risk premiums across AI-exposed portfolios.",
@@ -10447,8 +10485,8 @@
       "archived_reason": null,
       "first_detected_episode_id": 204,
       "first_detected_speaker": "Demis Hassabis",
-      "last_mentioned_episode_id": 473,
-      "last_mentioned_speaker": "Dave Blenden, Alex Weesner"
+      "last_mentioned_episode_id": 475,
+      "last_mentioned_speaker": "Peter Diamandis (hosts)"
     },
     {
       "id": 162,
@@ -11463,8 +11501,8 @@
       "term": "AI Race",
       "description": "The competitive dynamic among frontier labs to develop self-improving superintelligence as quickly as possible, often at the expense of safety testing and alignment.",
       "first_detected_date": "2026-03-11",
-      "last_mentioned_date": "2026-09-11",
-      "mention_count": 36,
+      "last_mentioned_date": "2026-09-13",
+      "mention_count": 37,
       "source_podcasts": null,
       "status": "active",
       "investment_implications": "An unregulated AI Race increases tail-risk for AI leaders and could force punitive policy responses, creating volatility in high-multiple tech names.",
@@ -11473,8 +11511,8 @@
       "archived_reason": null,
       "first_detected_episode_id": 60,
       "first_detected_speaker": null,
-      "last_mentioned_episode_id": 471,
-      "last_mentioned_speaker": "Dave Blenden, Alex Weesner"
+      "last_mentioned_episode_id": 475,
+      "last_mentioned_speaker": "Peter Diamandis (hosts)"
     },
     {
       "id": 12,
@@ -11535,8 +11573,8 @@
       "term": "AI Agents",
       "description": "Autonomous AI systems capable of collaborating in large swarms to solve complex problems, exemplified by the use of 10,000 agents to tackle the Navier-Stokes millennium prize problem.",
       "first_detected_date": "2026-02-28",
-      "last_mentioned_date": "2026-09-11",
-      "mention_count": 88,
+      "last_mentioned_date": "2026-09-13",
+      "mention_count": 89,
       "source_podcasts": null,
       "status": "active",
       "investment_implications": "Agentic swarms represent the next compute demand layer beyond chatbots, driving infrastructure needs and opening enterprise automation markets.",
@@ -11545,8 +11583,8 @@
       "archived_reason": null,
       "first_detected_episode_id": 31,
       "first_detected_speaker": null,
-      "last_mentioned_episode_id": 471,
-      "last_mentioned_speaker": "Dave Blenden, Alex Weesner"
+      "last_mentioned_episode_id": 475,
+      "last_mentioned_speaker": "Peter Diamandis (hosts)"
     },
     {
       "id": 38,
