@@ -1,11 +1,11 @@
 {
-  "generated_at": "2026-09-12T14:27:25.715912",
-  "last_updated": "2026-09-12T14:27:25.715912",
-  "last_pipeline_run": "2026-09-12T14:27:25.715912",
+  "generated_at": "2026-09-12T22:48:44.944508",
+  "last_updated": "2026-09-12T22:48:44.944508",
+  "last_pipeline_run": "2026-09-12T22:48:44.944508",
   "main_page": {
     "overton": 13,
     "insights": 8,
-    "pundits": 308
+    "pundits": 306
   },
   "counts": {
     "ticker_mentions": 223,
