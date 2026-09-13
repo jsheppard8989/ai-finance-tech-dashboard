@@ -6,11 +6,17 @@ Enrich person entities (pundits) with:
 - **LLM JSON profile (default)** — one API call → strict JSON for `bio`, `known_for`, and
   `pundit_profile_json` (site modal). Uses Moonshot / Gemini / OpenAI via `get_ai_client()`.
 - **Grokipedia scrape (optional)** — `--grokipedia-profile`, or LLM failure + `PUNDIT_FALLBACK_GROKIPEDIA=1`.
-- **Wikidata (+ optional Brave)** — net worth.
+- **Wikidata P2218 (strict)** — net worth, ONLY from Wikidata property P2218 with QID verification.
 - **Optional Grok API** — voice profile; bio fallback if no LLM client.
 
+**Net Worth Policy (strict allowlist):**
+- ACCEPTED: Wikidata P2218 (with QID entity verification)
+- REJECTED: CelebrityNetWorth, Brave/web scrapes, any source where entity doesn't match
+- If no confident match → net_worth stays null (UI shows "NA")
+- Never attach wrong $B figures from name-similar wrong persons
+
 Env: `PUNDIT_LLM_MODEL`, `PUNDIT_PROFILE_STALE_DAYS`, `GROKIPEDIA_STALE_DAYS`, `PUNDIT_FALLBACK_GROKIPEDIA`,
-`GROK_API_*`, `BRAVE_API_KEY`.
+`GROK_API_*`.
 """
 
 import os
@@ -46,6 +52,7 @@ except ImportError:
     fetch_pundit_profile_via_llm = None  # type: ignore
 
 from pundit_exclusions import is_excluded_pundit_name
+from person_name_safety import canonicalize_person_name
 
 
 def fetch_top_pundit_entity_ids(conn, limit: int = 10) -> List[int]:
@@ -163,14 +170,99 @@ def call_grok_for_bio(name: str) -> Optional[dict]:
         return None
 
 
-def _wikidata_search_entity_id(name: str) -> Optional[str]:
-    """Find likely Wikidata entity id for a person name."""
+def _normalize_name_for_comparison(name: str) -> str:
+    """Normalize a name for fuzzy comparison (lowercase, no punctuation, collapsed whitespace)."""
+    import re
+    s = (name or "").lower()
+    s = re.sub(r"[^\w\s]", " ", s)  # Remove punctuation
+    s = " ".join(s.split())  # Collapse whitespace
+    return s
+
+
+def _name_similarity_ok(query_name: str, wikidata_label: str) -> bool:
+    """
+    Check if Wikidata label is a reasonable match for our query name.
+    
+    Returns True if the names are similar enough to trust net worth data.
+    Prevents wrong net worth from being attached when Wikidata returns a different person.
+    """
+    q = _normalize_name_for_comparison(query_name)
+    w = _normalize_name_for_comparison(wikidata_label)
+    
+    if not q or not w:
+        return False
+    
+    # Exact match after normalization
+    if q == w:
+        return True
+    
+    # Check if all tokens from query appear in Wikidata label (handles middle names, suffixes)
+    q_tokens = set(q.split())
+    w_tokens = set(w.split())
+    
+    # Require at least 2/3 of query tokens to appear in Wikidata label
+    # This handles cases like "Alex Wissner-Gross" vs "Alexander Wissner-Gross"
+    overlap = len(q_tokens & w_tokens)
+    if len(q_tokens) > 0 and overlap >= max(2, len(q_tokens) * 0.6):
+        return True
+    
+    # Handle first name variations (Alex/Alexander, Dave/David, etc.)
+    first_name_variants = {
+        "alex": {"alexander", "alexis"},
+        "dave": {"david"},
+        "mike": {"michael"},
+        "rob": {"robert"},
+        "bill": {"william"},
+        "bob": {"robert"},
+        "jim": {"james"},
+        "joe": {"joseph"},
+        "dan": {"daniel"},
+        "tom": {"thomas"},
+        "ben": {"benjamin"},
+        "matt": {"matthew"},
+        "chris": {"christopher"},
+        "nick": {"nicholas"},
+        "tony": {"anthony"},
+        "steve": {"steven", "stephen"},
+        "dick": {"richard"},
+    }
+    # Build bidirectional map
+    name_equiv = {}
+    for short, fulls in first_name_variants.items():
+        name_equiv[short] = fulls | {short}
+        for full in fulls:
+            name_equiv[full] = fulls | {short, full}
+    
+    # Expand query tokens with variants
+    q_expanded = set()
+    for t in q_tokens:
+        q_expanded.add(t)
+        q_expanded.update(name_equiv.get(t, set()))
+    
+    overlap_expanded = len(q_expanded & w_tokens)
+    if len(q_tokens) > 0 and overlap_expanded >= max(2, len(q_tokens) * 0.6):
+        return True
+    
+    return False
+
+
+def _wikidata_search_entity_strict(name: str) -> Optional[dict]:
+    """
+    Find Wikidata entity for a person name with STRICT verification.
+    
+    Returns dict with {id, label, description} only if the entity label closely
+    matches the query name. This prevents wrong net worth from name-similar wrong persons.
+    
+    Returns None if:
+    - No results found
+    - No result has a label that matches the query name closely enough
+    """
     if not requests:
         return None
     try:
         resp = requests.get(
             "https://www.wikidata.org/w/api.php",
-            headers={"User-Agent": "ScarcityAbundanceDashboard/1.0 (ai-finance-tech-dashboard; no-reply)"},  # Wikidata requires UA
+            headers={"User-Agent": "ScarcityAbundanceDashboard/1.0 (ai-finance-tech-dashboard; no-reply)"},
             params={
                 "action": "wbsearchentities",
                 "format": "json",
@@ -186,12 +278,34 @@ def _wikidata_search_entity_id(name: str) -> Optional[str]:
         results = data.get("search", []) or []
         if not results:
             return None
-        # Prefer obvious human profiles first.
+        
+        # STRICT: require the Wikidata label to closely match our query name
+        # This is the key gate preventing wrong net worth from name-similar wrong persons
         for r in results:
+            label = (r.get("label") or "").strip()
             desc = (r.get("description") or "").lower()
+            qid = r.get("id")
+            
+            # Skip if label doesn't match well enough
+            if not _name_similarity_ok(name, label):
+                continue
+            
+            # Prefer obvious human profiles (entrepreneur, investor, etc.)
             if any(k in desc for k in ["entrepreneur", "investor", "business", "american", "ceo", "founder"]):
-                return r.get("id")
-        return results[0].get("id")
+                return {"id": qid, "label": label, "description": desc}
+        
+        # Second pass: take first result with matching label (even if description isn't business-related)
+        for r in results:
+            label = (r.get("label") or "").strip()
+            if _name_similarity_ok(name, label):
+                return {
+                    "id": r.get("id"),
+                    "label": label,
+                    "description": (r.get("description") or "").lower()
+                }
+        
+        # No confident match found
+        return None
     except Exception:
         return None
 
@@ -246,12 +360,37 @@ def _wikidata_net_worth_usd(entity_id: str) -> Tuple[Optional[float], Optional[s
         return None, None
 
 
-def fetch_net_worth_from_web(name: str) -> Tuple[Optional[float], Optional[str]]:
-    """Best-effort structured net worth lookup from public web data (Wikidata)."""
-    entity_id = _wikidata_search_entity_id(name)
-    if not entity_id:
+def fetch_net_worth_from_wikidata_strict(name: str) -> Tuple[Optional[float], Optional[str]]:
+    """
+    Strict net worth lookup from Wikidata P2218 ONLY.
+    
+    **Allowlist policy:**
+    - ACCEPTED: Wikidata P2218 with verified QID (entity label matches query name)
+    - REJECTED: Everything else (CelebrityNetWorth, Brave scrapes, non-matching entities)
+    
+    Returns (usd_value, source_url) or (None, None) if:
+    - No Wikidata entity found with matching label
+    - Entity found but has no P2218 net worth property
+    - Entity label doesn't match query name closely enough (wrong person)
+    
+    Uses canonical name for lookup (ASR variants map to canonical excluded names).
+    """
+    # Use canonical name for lookup (e.g., "Dave Blenden" → "Dave Blundin")
+    canonical = canonicalize_person_name(name)
+    
+    # STRICT: require Wikidata label to match our query name
+    entity = _wikidata_search_entity_strict(canonical)
+    if not entity:
         return None, None
-    return _wikidata_net_worth_usd(entity_id)
+    
+    qid = entity.get("id")
+    entity_label = entity.get("label", "")
+    
+    # Double-check: entity label must match our canonical name
+    if not _name_similarity_ok(canonical, entity_label):
+        return None, None
+    
+    return _wikidata_net_worth_usd(qid)
 
 
 def _parse_money_estimate_to_usd(text: str) -> Optional[float]:
@@ -279,44 +418,16 @@ def _parse_money_estimate_to_usd(text: str) -> Optional[float]:
 
 def fetch_net_worth_from_search(name: str, known_for: str = "") -> Tuple[Optional[float], Optional[str]]:
     """
-    Rough estimate fallback via Brave web search.
-    Strategy: query "estimated net worth", then take the first parseable estimate from top results.
+    DEPRECATED: Brave web search fallback is now REJECTED per net worth policy.
+    
+    **Rejected sources (per strict allowlist):**
+    - CelebrityNetWorth, Brave/web scrapes, any non-Wikidata P2218 source
+    
+    This function now always returns (None, None).
+    Use fetch_net_worth_from_wikidata_strict() instead.
     """
-    if not requests:
-        return None, None
-    brave_key = os.getenv("BRAVE_API_KEY") or os.getenv("BRAVE_SUBSCRIPTION_TOKEN")
-    if not brave_key:
-        return None, None
-    query = f'What is the estimated net worth of {name} who is known for {known_for or "technology investing"}?'
-    try:
-        resp = requests.get(
-            "https://api.search.brave.com/res/v1/web/search",
-            headers={
-                "X-Subscription-Token": brave_key.strip(),
-                "Accept": "application/json",
-                "User-Agent": "ScarcityAbundanceDashboard/1.0 (ai-finance-tech-dashboard; no-reply)",
-            },
-            params={"q": query, "count": 10},
-            timeout=20,
-        )
-        resp.raise_for_status()
-        data = resp.json()
-        results = (((data or {}).get("web") or {}).get("results") or [])
-        for r in results:
-            title = (r.get("title") or "").strip()
-            desc = (r.get("description") or "").strip()
-            url = (r.get("url") or "").strip()
-            combined = f"{title}. {desc}"
-            text = combined.lower()
-            # Require explicit \"net worth\"-style context so we don't grab random price targets.
-            if "net worth" not in text and "worth an estimated" not in text and "estimated net worth" not in text:
-                continue
-            amt = _parse_money_estimate_to_usd(combined)
-            if isinstance(amt, (int, float)) and amt >= NET_WORTH_MIN_USD:
-                return float(amt), (url or "brave:web-search")
-        return None, None
-    except Exception:
-        return None, None
+    # Brave scrapes are now rejected per policy — only Wikidata P2218 is accepted
+    return None, None
 
 
 def _load_latest_transcript_excerpt(conn, entity_id: int, max_chars: int = 5000) -> str:
@@ -507,6 +618,10 @@ def enrich_pundits(
             # Never enrich placeholders; keep them out of DB-derived pundit UI.
             if is_placeholder_person_name(name):
                 continue
+            # Never enrich excluded names (co-hosts, ASR variants of co-hosts).
+            # This prevents attaching wrong net worth to ASR-mangled names like "Dave Blenden".
+            if is_excluded_pundit_name(name):
+                continue
             bio = (row["bio"] or "").strip()
             known_for = (row["known_for"] or "").strip()
             net_worth_usd = row["net_worth_usd"]
@@ -638,13 +753,14 @@ def enrich_pundits(
                 new_known_for = (info.get("known_for") or "").strip() or new_known_for
 
             if need_net_worth and not grokipedia_only:
-                nw, src = fetch_net_worth_from_web(name)
-                if not (isinstance(nw, (int, float)) and nw > 0):
-                    nw, src = fetch_net_worth_from_search(name, known_for or new_known_for)
+                # STRICT: Only Wikidata P2218 with QID verification is accepted
+                # Brave/CelebrityNetWorth scrapes are rejected per policy
+                nw, src = fetch_net_worth_from_wikidata_strict(name)
                 if isinstance(nw, (int, float)) and nw > 0:
                     new_net_worth = float(nw)
-                    new_net_source = src or "wikidata"
+                    new_net_source = src or "wikidata:P2218"
                     new_net_updated = datetime.now().isoformat()
+                # If no confident Wikidata match, leave net_worth null (UI shows "NA")
 
             if need_voice and not grokipedia_only:
                 excerpt = _load_latest_transcript_excerpt(conn, ent_id)
