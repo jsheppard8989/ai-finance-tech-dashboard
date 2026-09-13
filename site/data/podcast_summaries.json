@@ -1,5 +1,40 @@
 [
   {
+    "id": 476,
+    "podcast_name": "Monetary Matters with Jack Farley",
+    "episode_title": "Hunting for Value in Mining Stocks Amid Soaring Metals Prices | Freddy Brick | Muddy Waters Capital",
+    "episode_date": "2026-09-13",
+    "summary": "Freddie Brick of Muddy Waters Capital joins Jack Farley to discuss the firm's approach to the junior mining sector, which centers on acquiring distressed, underappreciated assets with durable fundamentals. Brick explains that the firm typically runs a 50% net long book, remaining liquid enough to capitalize on drawdowns while targeting projects that are economically viable across a wide range of historical commodity prices. He acknowledges the structural copper bull thesis driven by electrification and EV demand but stresses that regulatory and discovery hurdles make timing uncertain, reinforcing the need for long-dated patience and strong management teams.\n\nBrick highlights that the junior mining space has suffered a decade of capital flight since the last super cycle, leaving many viable projects overlooked and creating a potential M&A catalyst as majors search for advanced assets. He emphasizes that hedging individual junior miners is impractical due to liquidity constraints, and that the firm creates value through collaborative activism and a three-to-five-year horizon rather than short-term trading.",
+    "key_takeaways": [
+      "Target distressed junior mining assets with solid fundamentals and patient, competent management teams.",
+      "Maintain a conservative net long posture near 50% to preserve liquidity for opportunistic deployment during sector drawdowns.",
+      "Favor assets that can generate positive economics at virtually any commodity price observed over the past decade.",
+      "Expect a wave of M&A as major miners acquire advanced projects that were progressed during the prolonged bear market.",
+      "Plan for a multi-year holding period of three to five years because value realization in junior mining is rarely instantaneous.",
+      "Recognize that sector liquidity is extremely limited, making hedging difficult and long-term conviction essential."
+    ],
+    "investment_thesis": "The junior mining sector offers a compelling asymmetric opportunity in distressed, underappreciated assets with strong management, where years of capital flight and depleted liquidity have created a fertile environment for patient capital to realize value through operational improvement and an impending wave of major-miner M&A.",
+    "key_tickers": null
+  },
+  {
+    "id": 475,
+    "podcast_name": "Moonshots with Peter Diamandis",
+    "episode_title": "Ask the Mates anything | MOONSHOTS AMA  #289",
+    "episode_date": "2026-09-13",
+    "summary": "Peter Diamandis explores four converging exponential technology platforms that are rapidly approaching inflection points. The episode emphasizes AI-powered healthcare diagnostics, particularly in cardiovascular disease where AI-enhanced CT imaging is detecting coronary disease in nearly nine out of ten patients, creating a compelling case for personalized medicine and early intervention startups. Beyond healthcare, the discussion covers Brain-Computer Interfaces as an emerging class of human-augmentation technology, a fundamental shift in education toward demand-side experiential learning, and AI-optimized energy solutions including speculative megastructures like Dyson Swarms. For investors, the through-line is that AI is not merely a sector but an enabling layer across healthcare, neurotechnology, education, and energy that will redefine incumbents and create entirely new asset classes.",
+    "key_takeaways": [
+      "AI-driven diagnostics in cardiovascular care present a major healthcare investment opportunity, with early detection capabilities identifying coronary disease in a significant majority of patients.",
+      "Brain-Computer Interfaces are approaching a tipping point of rapid advancement, creating venture-style opportunities in neurotechnology and human augmentation.",
+      "The education sector is shifting toward demand-driven, experiential learning models, opening growth potential for edtech platforms that replace traditional supply-side credentialing.",
+      "AI-optimized energy systems and speculative future technologies like Dyson Swarms could disrupt fossil fuel dependency and transform the energy investment landscape.",
+      "Investors should prioritize companies leveraging AI for personalized medicine and predictive diagnostics to capture value from declining mortality and healthcare cost curves.",
+      "Sustainable energy and applied physics breakthroughs enabled by AI represent long-term, high-conviction bets on next-generation infrastructure.",
+      "Portfolio construction should account for paradigm shifts across healthcare, education, energy, and human-computer interaction rather than siloed sector exposure."
+    ],
+    "investment_thesis": "AI is rapidly becoming the foundational enabling layer across healthcare, neurotechnology, education, and energy, creating a multi-decade opportunity to invest in startups and platforms that replace legacy systems with predictive, personalized, and exponentially scalable solutions.",
+    "key_tickers": null
+  },
+  {
     "id": 474,
     "podcast_name": "The a16z Show",
     "episode_title": "World Models, Robotics, and the Future of 3D AI",
@@ -32,41 +67,6 @@
       "Rapid shipping and iterative learning outperform perfectionism in the current AI product cycle."
     ],
     "investment_thesis": "The convergence of AI-driven operational loops and a cultural shift toward ambition is creating an unprecedented window for premium consumer software that enhances human connection and productivity, with organic distribution offering a new scalable moat.",
-    "key_tickers": null
-  },
-  {
-    "id": 472,
-    "podcast_name": "All-In with Chamath, Jason, Sacks & Friedberg",
-    "episode_title": "AI Kills Everybody or Doomer Psyop? OpenAI's Math Breakthrough, Nike's $200B Collapse",
-    "episode_date": "2026-09-11",
-    "summary": "The hosts examine the resignation of an Anthropic researcher who warned that AI could cause human extinction, arguing that the viral fallout appears orchestrated by organized groups with regulatory agendas. They highlight the investment implications for Anthropics IPO prospects and the broader product liability risks facing AI labs that internally acknowledge existential dangers while marketing commercial products. Separately, the episode covers enterprise data sovereignty, warning that companies risk leaking proprietary information through third-party AI services and should migrate to sovereign or on-premise AI infrastructure. Finally, the hosts critique Nikes strategic shift from performance excellence to narrative-driven marketing, attributing its market share decline to a brand identity crisis that alienated core customers.",
-    "key_takeaways": [
-      "Anthropic faces severe IPO and product liability risks if internal AI safety fears contradict public commercialization efforts.",
-      "Organized amplification of AI extinction fears suggests regulatory campaigns may be coordinated rather than organic, creating policy uncertainty.",
-      "Enterprises must treat data sovereignty as a priority, adopting private AI deployments to prevent intellectual property leakage.",
-      "Nikes pivot away from excellence and mastery toward activism-centric marketing has damaged brand equity and sales.",
-      "OpenAIs mathematical breakthroughs illustrate AIs leverage potential but intensify concerns about data privacy and IP exposure."
-    ],
-    "investment_thesis": "AI labs face escalating regulatory, liability, and data-sovereignty risks that threaten public-market viability, while legacy consumer brands like Nike demonstrate that abandoning core excellence narratives for activism-driven marketing destroys shareholder value.",
-    "key_tickers": [
-      "NKE"
-    ]
-  },
-  {
-    "id": 471,
-    "podcast_name": "Moonshots with Peter Diamandis",
-    "episode_title": "Should we slow down AI progress? | MOONSHOTS #288",
-    "episode_date": "2026-09-11",
-    "summary": "The episode examines the claim that AGI has arrived and the accelerating race toward self-improving superintelligence, framed by a high-profile resignation at OpenAI and Anthropic over safety concerns. Peter Diamandis and guests discuss how data quality now dominates model architecture in driving compute efficiency, while the GPU market transforms into a fungible infrastructure asset class generating rental yield. The conversation also covers the maturation of AI-designed therapeutics, including a phase-three drug candidate from Insilico Medicine and Google DeepMind's Alpha Genome Atlas, alongside growing governance friction as Anthropic withholds its latest frontier model from UK pre-release testing.",
-    "key_takeaways": [
-      "AGI capabilities are now viewed as achieved by some insiders, elevating alignment and pacing debates to urgent investment risks.",
-      "Optimizing data pipelines delivers 12x compute efficiency gains versus 3.7x from better architectures, favoring data-centric AI platforms and tools.",
-      "GPUs are becoming liquid, revenue-generating infrastructure assets, creating new yield and scarcity dynamics in AI compute.",
-      "AI-designed drugs and genetic-prediction tools are reaching late-stage clinical and research milestones, validating biotech AI platforms.",
-      "Frontier labs are bypassing national security institutes, signaling a breakdown in voluntary governance and rising regulatory tail risks.",
-      "Vesmerk's acquisition highlights a trillion-dollar opportunity to AIify legacy financial technology stacks."
-    ],
-    "investment_thesis": "The episode argues that AGI-level capabilities, commoditized GPU infrastructure, and clinically validated AI-designed therapeutics are converging into a multi-trillion-dollar opportunity set across technology, healthcare, and fintech, but investors must price escalating alignment and governance risks.",
     "key_tickers": null
   },
   {
