@@ -1379,6 +1379,94 @@
       margin-top: 0.5rem;
     }
 
+    /* Pundit Evidence Modal - Episode-grounded detail */
+    .pundit-episode-lead {
+      color: #8892b0;
+      font-size: 0.88rem;
+      margin-bottom: 1rem;
+      line-height: 1.4;
+    }
+    .pundit-episode-lead .ep-show { color: #a8b2d1; }
+    .pundit-episode-lead .ep-date { color: #6b7280; }
+    .pundit-episode-lead .ep-title { color: #e8e8e8; font-weight: 500; }
+    .pundit-evidence-block {
+      margin-bottom: 1.25rem;
+    }
+    .pundit-evidence-block .evidence-label {
+      color: #00d4ff;
+      font-size: 0.72rem;
+      text-transform: uppercase;
+      letter-spacing: 0.04em;
+      font-weight: 700;
+      margin-bottom: 0.3rem;
+    }
+    .pundit-evidence-block .thesis-text {
+      color: #e8e8e8;
+      font-size: 0.95rem;
+      line-height: 1.55;
+      margin-bottom: 0.85rem;
+    }
+    .pundit-evidence-block .proof-snippet {
+      background: rgba(255, 255, 255, 0.03);
+      border-left: 2px solid rgba(0, 212, 255, 0.4);
+      padding: 0.65rem 0.85rem;
+      color: #b8c0d4;
+      font-size: 0.88rem;
+      line-height: 1.5;
+      font-style: italic;
+      margin-bottom: 0.55rem;
+    }
+    .pundit-evidence-block .proof-cite {
+      color: #6b7280;
+      font-size: 0.78rem;
+      margin-bottom: 0.75rem;
+    }
+    .pundit-evidence-block .takeaway-text {
+      color: #a8b2d1;
+      font-size: 0.88rem;
+      line-height: 1.5;
+    }
+    .pundit-bio-block {
+      color: #8892b0;
+      font-size: 0.85rem;
+      line-height: 1.5;
+      margin-bottom: 1rem;
+      padding-bottom: 0.75rem;
+      border-bottom: 1px solid rgba(255, 255, 255, 0.06);
+    }
+    .pundit-bio-block .bio-label {
+      color: #00d4ff;
+      font-size: 0.72rem;
+      text-transform: uppercase;
+      letter-spacing: 0.04em;
+      font-weight: 700;
+      margin-bottom: 0.3rem;
+    }
+    .pundit-networth-quarantine {
+      background: rgba(255, 255, 255, 0.02);
+      border: 1px solid rgba(255, 255, 255, 0.06);
+      border-radius: 6px;
+      padding: 0.65rem 0.85rem;
+      margin-bottom: 1rem;
+      font-size: 0.82rem;
+    }
+    .pundit-networth-quarantine .nw-label {
+      color: #6b7280;
+      font-size: 0.7rem;
+      text-transform: uppercase;
+      letter-spacing: 0.03em;
+      margin-bottom: 0.2rem;
+    }
+    .pundit-networth-quarantine .nw-value {
+      color: #a8b2d1;
+      font-weight: 600;
+    }
+    .pundit-networth-quarantine .nw-source {
+      color: #555c6e;
+      font-size: 0.72rem;
+      margin-top: 0.15rem;
+    }
+
     .podcast-container {
       background: rgba(26, 26, 46, 0.98);
       border-radius: 16px;
@@ -2075,15 +2163,17 @@
     </div>
   </div>
 
-  <!-- Net Worth Modal (Pundits) -->
-  <div id="netWorthModal" class="networth-modal">
+  <!-- Pundit Evidence Modal (Episode-grounded detail) -->
+  <div id="punditModal" class="networth-modal">
     <div class="networth-container">
-      <div class="networth-title" id="netWorthTitle">Net Worth</div>
-      <div class="networth-value" id="netWorthValue">—</div>
-      <div class="networth-sub" id="netWorthSub"></div>
-      <div class="networth-profile" id="netWorthProfile" style="display: none;"></div>
+      <div class="networth-title" id="punditModalTitle">Pundit</div>
+      <div id="punditEpisodeLead" class="pundit-episode-lead" style="display: none;"></div>
+      <div id="punditEvidenceBlock" class="pundit-evidence-block" style="display: none;"></div>
+      <div id="punditBioBlock" class="pundit-bio-block" style="display: none;"></div>
+      <div id="punditNetWorthBlock" class="pundit-networth-quarantine" style="display: none;"></div>
+      <div class="networth-profile" id="punditProfileBlock" style="display: none;"></div>
       <div class="networth-actions">
-        <button class="close-btn" onclick="closeNetWorthModal()">✕ Close</button>
+        <button class="close-btn" onclick="closePunditModal()">✕ Close</button>
       </div>
     </div>
   </div>
@@ -2751,10 +2841,25 @@
           ? ('<div class="last-thesis"><span class="thesis-label">Thesis (latest episode)</span>“' + whatText + '”</div>')
           : '';
 
-        // Net worth may be enriched later (e.g. Grokopedia). Keep data attrs for modal.
-        // Prefer pre-formatted display string when available.
-        var netWorth = item.net_worth || item.net_worth_usd || '';
-        var netWorthSrc = item.net_worth_source || '';
+        // Episode evidence: bundle episode-grounded fields for the modal.
+        var evidenceObj = {
+          last_podcast_name: item.last_podcast_name || '',
+          last_episode_date: item.last_episode_date || '',
+          last_episode_title: item.last_episode_title || '',
+          last_main_idea: item.last_main_idea || '',
+          last_proof_snippet: item.last_proof_snippet || '',
+          last_proof_cite: item.last_proof_cite || '',
+          supporting_takeaway: item.supporting_takeaway || '',
+          bio: item.bio || '',
+          known_for: item.known_for || '',
+          net_worth: item.net_worth || item.net_worth_usd || '',
+          net_worth_source: item.net_worth_source || ''
+        };
+        var evidenceB64 = '';
+        try {
+          evidenceB64 = btoa(unescape(encodeURIComponent(JSON.stringify(evidenceObj))));
+        } catch (err) { evidenceB64 = ''; }
+
         var profileB64 = '';
         if (item.pundit_profile && typeof item.pundit_profile === 'object') {
           try {
@@ -2763,7 +2868,7 @@
         }
 
         return '' +
-          '<div class="guest-item" data-name="' + name.replace(/"/g, '&quot;') + '" data-networth="' + String(netWorth).replace(/"/g, '&quot;') + '" data-networthsrc="' + String(netWorthSrc).replace(/"/g, '&quot;') + '" data-profile-b64="' + profileB64.replace(/"/g, '') + '">' +
+          '<div class="guest-item" data-name="' + name.replace(/"/g, '&quot;') + '" data-evidence-b64="' + evidenceB64.replace(/"/g, '') + '" data-profile-b64="' + profileB64.replace(/"/g, '') + '">' +
             '<div class="guest-name">' + name + '</div>' +
             inline +
             proofBlock +
@@ -3048,10 +3153,10 @@
       }
     });
 
-    // Close net worth modal on outside click
-    document.getElementById('netWorthModal').addEventListener('click', function(e) {
+    // Close pundit modal on outside click
+    document.getElementById('punditModal').addEventListener('click', function(e) {
       if (e.target === this) {
-        closeNetWorthModal();
+        closePunditModal();
       }
     });
 
@@ -3275,13 +3380,12 @@
 
       setTimeout(() => ripple.remove(), 600);
 
-      // Pundits: show net worth modal instead of expanding
+      // Pundits: show episode evidence modal instead of expanding
       if (card.classList.contains('guest-item')) {
         const name = card.getAttribute('data-name') || 'Pundit';
-        const nw = card.getAttribute('data-networth') || '';
-        const src = card.getAttribute('data-networthsrc') || '';
+        const evB64 = card.getAttribute('data-evidence-b64') || '';
         const pb64 = card.getAttribute('data-profile-b64') || '';
-        showNetWorthModal(name, nw, src, pb64);
+        showPunditModal(name, evB64, pb64);
         return;
       }
 
@@ -3386,23 +3490,131 @@
       return html;
     }
 
-    function showNetWorthModal(name, netWorth, netWorthSrc, profileB64) {
-      const modal = document.getElementById('netWorthModal');
-      const title = document.getElementById('netWorthTitle');
-      const value = document.getElementById('netWorthValue');
-      const sub = document.getElementById('netWorthSub');
-      const profEl = document.getElementById('netWorthProfile');
-      if (!modal || !title || !value || !sub) return;
+    function decodeEvidenceB64(b64) {
+      if (!b64 || typeof b64 !== 'string') return null;
+      try {
+        const json = decodeURIComponent(escape(atob(b64)));
+        const o = JSON.parse(json);
+        return (o && typeof o === 'object') ? o : null;
+      } catch (err) {
+        return null;
+      }
+    }
 
-      title.textContent = name + ' — Net Worth';
+    function isNetWorthTrustworthy(source, netWorthRaw, name) {
+      if (!source && !netWorthRaw) return false;
+      const srcLower = (source || '').toLowerCase();
+      const isWikidata = srcLower.includes('wikidata.org');
+      if (!source || (!isWikidata && srcLower)) {
+        return false;
+      }
+      const numeric = parseFloat(String(netWorthRaw).replace(/[$,BMK\s]/gi, function(m) {
+        if (m.toUpperCase() === 'B') return 'e9';
+        if (m.toUpperCase() === 'M') return 'e6';
+        if (m.toUpperCase() === 'K') return 'e3';
+        return '';
+      }));
+      if (Number.isFinite(numeric) && numeric > 200e9) {
+        const megaCapAllowlist = ['elon musk', 'jeff bezos', 'bernard arnault', 'bill gates', 'larry ellison', 'mark zuckerberg', 'warren buffett', 'larry page', 'sergey brin', 'steve ballmer', 'jensen huang', 'michael bloomberg', 'mukesh ambani', 'gautam adani', 'zhong shanshan'];
+        const nameLower = (name || '').toLowerCase();
+        const allowed = megaCapAllowlist.some(function(n) { return nameLower.includes(n); });
+        if (!allowed) return false;
+      }
+      return true;
+    }
 
-      const clean = formatNetWorthDisplay(netWorth);
-      if (clean) {
-        value.textContent = clean;
-        sub.textContent = netWorthSrc ? ('Source: ' + netWorthSrc) : 'Source: (not recorded)';
-      } else {
-        value.textContent = 'Estimate currently unavailable';
-        sub.textContent = 'We do not have a reliable public estimate for this person yet.';
+    function showPunditModal(name, evidenceB64, profileB64) {
+      const modal = document.getElementById('punditModal');
+      const title = document.getElementById('punditModalTitle');
+      const episodeLead = document.getElementById('punditEpisodeLead');
+      const evidenceBlock = document.getElementById('punditEvidenceBlock');
+      const bioBlock = document.getElementById('punditBioBlock');
+      const nwBlock = document.getElementById('punditNetWorthBlock');
+      const profEl = document.getElementById('punditProfileBlock');
+      if (!modal || !title) return;
+
+      title.textContent = name;
+
+      const ev = decodeEvidenceB64(evidenceB64) || {};
+
+      if (episodeLead) {
+        const show = ev.last_podcast_name || '';
+        const epDate = ev.last_episode_date || '';
+        const epTitle = ev.last_episode_title || '';
+        if (show || epDate || epTitle) {
+          let leadHtml = '';
+          if (show) leadHtml += '<span class="ep-show">' + escapeHtmlText(show) + '</span>';
+          if (epDate) {
+            const dStr = formatSiteCalendarDate(epDate, { month: 'short', day: 'numeric', year: 'numeric' });
+            leadHtml += (leadHtml ? ' · ' : '') + '<span class="ep-date">' + escapeHtmlText(dStr) + '</span>';
+          }
+          if (epTitle) leadHtml += '<br><span class="ep-title">' + escapeHtmlText(epTitle) + '</span>';
+          episodeLead.innerHTML = leadHtml;
+          episodeLead.style.display = 'block';
+        } else {
+          episodeLead.style.display = 'none';
+        }
+      }
+
+      if (evidenceBlock) {
+        let evHtml = '';
+        if (ev.last_main_idea) {
+          evHtml += '<div class="evidence-label">Thesis</div>';
+          evHtml += '<div class="thesis-text">' + escapeHtmlText(ev.last_main_idea) + '</div>';
+        }
+        if (ev.last_proof_snippet) {
+          evHtml += '<div class="proof-snippet">"' + escapeHtmlText(ev.last_proof_snippet) + '"</div>';
+        }
+        if (ev.last_proof_cite) {
+          evHtml += '<div class="proof-cite">' + escapeHtmlText(ev.last_proof_cite) + '</div>';
+        }
+        if (ev.supporting_takeaway) {
+          evHtml += '<div class="evidence-label">Supporting Takeaway</div>';
+          evHtml += '<div class="takeaway-text">' + escapeHtmlText(ev.supporting_takeaway) + '</div>';
+        }
+        if (evHtml) {
+          evidenceBlock.innerHTML = evHtml;
+          evidenceBlock.style.display = 'block';
+        } else {
+          evidenceBlock.style.display = 'none';
+        }
+      }
+
+      if (bioBlock) {
+        const bioText = ev.bio || '';
+        const knownFor = ev.known_for || '';
+        if (bioText || knownFor) {
+          let bioHtml = '';
+          if (knownFor) {
+            bioHtml += '<div class="bio-label">Known For</div>' + escapeHtmlText(knownFor);
+          }
+          if (bioText && bioText !== knownFor) {
+            bioHtml += (bioHtml ? '<br><br>' : '') + escapeHtmlText(bioText);
+          }
+          bioBlock.innerHTML = bioHtml;
+          bioBlock.style.display = 'block';
+        } else {
+          bioBlock.style.display = 'none';
+        }
+      }
+
+      if (nwBlock) {
+        const nwRaw = ev.net_worth || '';
+        const nwSrc = ev.net_worth_source || '';
+        if (isNetWorthTrustworthy(nwSrc, nwRaw, name)) {
+          const clean = formatNetWorthDisplay(nwRaw);
+          if (clean) {
+            let nwHtml = '<div class="nw-label">Net Worth (Wikidata)</div>';
+            nwHtml += '<div class="nw-value">' + escapeHtmlText(clean) + '</div>';
+            nwHtml += '<div class="nw-source">Source: ' + escapeHtmlText(nwSrc) + '</div>';
+            nwBlock.innerHTML = nwHtml;
+            nwBlock.style.display = 'block';
+          } else {
+            nwBlock.style.display = 'none';
+          }
+        } else {
+          nwBlock.style.display = 'none';
+        }
       }
 
       if (profEl) {
@@ -3420,8 +3632,8 @@
       modal.classList.add('active');
     }
 
-    function closeNetWorthModal() {
-      const modal = document.getElementById('netWorthModal');
+    function closePunditModal() {
+      const modal = document.getElementById('punditModal');
       if (modal) modal.classList.remove('active');
     }
 
