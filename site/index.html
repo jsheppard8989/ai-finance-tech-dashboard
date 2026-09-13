@@ -2819,7 +2819,14 @@
       }
 
       // Main page: cap to 20 after backend ordering by recency, then appearance count.
-      items = items.slice(0, 20);
+      // Force-include pundits that match trap links (so strangers see Gromen/Pernas chips).
+      const top20 = items.slice(0, 20);
+      const top20Slugs = new Set(top20.map(function(p) { return (p.slug || p.name || '').toLowerCase(); }));
+      const trapLinked = items.filter(function(p) {
+        const slug = (p.slug || p.name || '').toLowerCase();
+        return !top20Slugs.has(slug) && punditMatchesTrapLink(p);
+      });
+      items = top20.concat(trapLinked).slice(0, 24);
 
       container.innerHTML = items.map(function(item) {
         var name = (item.name || 'Guest').replace(/</g, '&lt;').replace(/>/g, '&gt;');
@@ -3583,19 +3590,37 @@
           match: { guest_name_contains: "Grom", episode_date: "2026-08-20", podcast_name_contains: "Monetary" },
           trap_id: "buyback-confession-captive-duration",
           trap_title: "Buyback as confession — captive duration",
-          note: "Buyback / soft YCC theme — Monetary Matters 2026-08-20"
+          note: "Buyback / soft YCC theme — Luke Gromen, Monetary Matters 2026-08-20"
         },
         {
           match: { guest_name_contains: "Pern", episode_date: "2026-08-07", podcast_name_contains: "Monetary" },
           trap_id: "trap-1-power-interconnect",
           trap_title: "Power + interconnect into data centers",
-          note: "Data-center power theme — Monetary Matters 2026-08-07 (thematic, not hard print)"
+          note: "Data-center power theme — Pernas, Monetary Matters 2026-08-07 (thematic, not hard print)"
         }
       ]
     };
 
     function loadPunditTrapLinks() {
       return Promise.resolve(PUNDIT_TRAP_LINKS);
+    }
+
+    function punditMatchesTrapLink(item) {
+      const name = (item.name || '').toLowerCase();
+      const epDate = (item.last_episode_date || '').trim();
+      const podcast = (item.last_podcast_name || '').toLowerCase();
+      for (const link of PUNDIT_TRAP_LINKS.links) {
+        const m = link.match || {};
+        const nameContains = (m.guest_name_contains || '').toLowerCase();
+        const dateMatch = m.episode_date || '';
+        const podcastContains = (m.podcast_name_contains || '').toLowerCase();
+        let hit = true;
+        if (nameContains && name.indexOf(nameContains) === -1) hit = false;
+        if (dateMatch && epDate !== dateMatch) hit = false;
+        if (podcastContains && podcast.indexOf(podcastContains) === -1) hit = false;
+        if (hit) return true;
+      }
+      return false;
     }
 
     function matchTrapLinks(name, ev, linksData) {
