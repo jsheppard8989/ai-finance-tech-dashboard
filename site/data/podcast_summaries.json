@@ -1,5 +1,22 @@
 [
   {
+    "id": 474,
+    "podcast_name": "The a16z Show",
+    "episode_title": "World Models, Robotics, and the Future of 3D AI",
+    "episode_date": "2026-09-13",
+    "summary": "World Labs has introduced Atlas, a multi-modal world model designed to generate, reconstruct, and simulate three-dimensional environments with pixel-perfect camera control. The model represents a shift from traditional generative architectures by eliminating Gaussian splat bottlenecks and producing direct two-dimensional and three-dimensional outputs. Atlas enables users to create new worlds from text or image prompts, reconstruct physical spaces from minimal photographs, and simulate robot behavior in high-fidelity environments, positioning it as a horizontal platform for spatial intelligence across entertainment, virtual reality, construction, and robotics.\n\nThe investment significance lies in Atlas's potential to reduce the cost and time required for physical prototyping, content creation, and robotics deployment. By allowing robots to be trained and evaluated in simulated replicas of their target environments, the technology lowers deployment risk and accelerates iteration cycles. The platform also aims to democratize advanced simulation for non-technical creators, suggesting a broad expansion of the addressable market beyond traditional technical users.\n\nLooking forward, the architecture is expected to integrate with language models and other AI tools to streamline workflows, while future enhancements may incorporate complex physics simulations for scientific and engineering applications. This trajectory indicates that world models could become a foundational AI layer distinct from large language models, with horizontal applicability across industrial design, immersive media, and autonomous systems.",
+    "key_takeaways": [
+      "World models are emerging as a new horizontal AI platform category focused on spatial reasoning, distinct from text-centric large language models.",
+      "Atlas removes prior architectural constraints by bypassing Gaussian splat representations, enabling more efficient direct two-dimensional and three-dimensional generation.",
+      "High-fidelity environment simulation allows robotics companies to train and evaluate systems in situ, reducing deployment risk and capital requirements.",
+      "Democratization of advanced simulation for non-technical users expands the total addressable market into creative industries and enterprise design workflows.",
+      "Integration with language models and interoperability with existing toolchains could accelerate enterprise adoption and create ecosystem lock-in.",
+      "Future physics capabilities may open additional markets in scientific computing and engineering, moving beyond creative and commercial applications."
+    ],
+    "investment_thesis": "Spatial intelligence via multi-modal world models is emerging as a foundational AI layer, offering horizontal disruption across robotics, immersive media, and industrial simulation by replacing expensive physical prototyping with generative three-dimensional reasoning.",
+    "key_tickers": null
+  },
+  {
     "id": 473,
     "podcast_name": "The a16z Show",
     "episode_title": "Why Companies Are Becoming a Series of Loops | Anish Acharya on Lenny\u2019s Podcast",
@@ -50,24 +67,6 @@
       "Vesmerk's acquisition highlights a trillion-dollar opportunity to AIify legacy financial technology stacks."
     ],
     "investment_thesis": "The episode argues that AGI-level capabilities, commoditized GPU infrastructure, and clinically validated AI-designed therapeutics are converging into a multi-trillion-dollar opportunity set across technology, healthcare, and fintech, but investors must price escalating alignment and governance risks.",
-    "key_tickers": null
-  },
-  {
-    "id": 469,
-    "podcast_name": "Monetary Matters with Jack Farley",
-    "episode_title": "Why Farmland With Centuries of Water Is the Ultimate Scarce Asset | John Farris of LandFund Partners on Super El Ni\u00f1o, Food Security, and the Sources of Alpha in Farmland",
-    "episode_date": "2026-09-11",
-    "summary": "This episode of Monetary Matters features a deep dive into farmland as an underappreciated real asset amid structural global imbalances. Guest John Ferris of Land Fund Partners argues that shrinking arable land combined with rising global protein demand creates a compelling supply-demand tension, further pressured by multi-decade lows in global grain reserves. He notes that global grain stocks have fallen to roughly 70 days of supply, raising food security concerns at a time when agricultural productivity gains have plateaued.\n\nThe discussion centers on the Mid-South region, specifically farmland over the Mississippi Alluvial Aquifer, which holds over 300 years of water at current draw rates and trades at a significant discount to Midwestern farmland. Ferris explains how regenerative farming practices enhance soil health, reduce chemical inputs, and drive higher long-term yields, while government subsidy programs provide income stability and encourage capital investment. He also highlights that the firm has thousands of acres under solar lease options, creating additional revenue streams beyond traditional crop production.\n\nFrom a portfolio construction standpoint, the episode emphasizes farmland's negative correlation to both equity and fixed-income markets, making it a valuable diversification tool. With the upcoming El Nino pattern threatening production in major exporting nations, and with U.S. policy supporting farmer incomes, the asset class offers a hedge against inflation, food scarcity, and broader market volatility.",
-    "key_takeaways": [
-      "Global grain reserves have fallen to roughly 70 days, a ten-year low, creating structural tailwinds for agricultural real assets.",
-      "High-quality Midwestern farmland trades at a 140% premium to comparable Mid-South acreage, suggesting potential regional price convergence.",
-      "The Mississippi Alluvial Aquifer contains over 300 years of water at current usage rates, offering a durable competitive advantage for irrigated farmland in the region.",
-      "Regenerative farming practices can reduce input costs and increase soil productivity over a three-year horizon, directly improving operating margins.",
-      "U.S. agricultural subsidies provide income stability that de-risks farmland cash flows and encourages long-term capital investment.",
-      "Solar farm leases and recreational use rights offer non-farming revenue streams that can materially increase per-acre land value.",
-      "Farmland exhibits negative correlation to both equity and fixed-income markets, making it a powerful diversification tool for institutional and retail portfolios."
-    ],
-    "investment_thesis": "Investors can exploit a regional arbitrage in U.S. farmland by acquiring irrigated Mid-South properties at a steep discount to Midwestern equivalents, while benefiting from regenerative practices, government subsidies, and embedded solar lease optionality to generate yield and capital appreciation in an inflationary, food-scarce environment.",
     "key_tickers": null
   },
   {
