@@ -1246,15 +1246,20 @@ def main():
             except Exception as e:
                 print(f"  ⚠ Post-publish audio cleanup skipped: {e}")
 
-        # Send summary notification
+        # Send summary notification (success messages gated by opt-in env var)
         summary = build_summary(results)
-        if (
+        has_updates = (
             results.get('transcripts_analyzed', 0) > 0
             or results.get('newsletters_imported', 0) > 0
             or results.get("terms_promoted", 0) > 0
             or results.get("terms_review", 0) > 0
-        ):
-            send_notification("Pipeline Update", summary)
+        )
+        notify_on_success = os.environ.get("PIPELINE_NOTIFY_ON_SUCCESS", "").lower() in ("1", "true", "yes")
+        if has_updates:
+            if notify_on_success:
+                send_notification("Pipeline Update", summary)
+            else:
+                print("Success iMessage disabled (PIPELINE_NOTIFY_ON_SUCCESS not set); failures still notify.")
         else:
             print("Nothing new — skipping notification")
 
