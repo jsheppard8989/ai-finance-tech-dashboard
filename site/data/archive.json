@@ -1,6 +1,25 @@
 {
   "insights": [
     {
+      "id": 489,
+      "title": "World Models, Robotics, and the Future of 3D AI",
+      "source_type": "podcast",
+      "source_name": "The a16z Show",
+      "source_date": "2026-09-13",
+      "summary": "World Labs has introduced Atlas, a multi-modal world model designed to generate, reconstruct, and simulate three-dimensional environments with pixel-perfect camera control. The model represents a shift from traditional generative architectures by eliminating Gaussian splat bottlenecks and producing direct two-dimensional and three-dimensional outputs. Atlas enables users to create new worlds from text or image prompts, reconstruct physical spaces from minimal photographs, and simulate robot behavior in high-fidelity environments, positioning it as a horizontal platform for spatial intelligence across entertainment, virtual reality, construction, and robotics.\n\nThe investment significance lies in Atlas's potential to reduce the cost and time required for physical prototyping, content creation, and robotics deployment. By allowing robots to be trained and evaluated in simulated replicas of their target environments, the technology lowers deployment risk and accelerates iteration cycles. The platform also aims to democratize advanced simulation for non-technical creators, suggesting a broad expansion of the addressable market beyond traditional technical users.\n\nLooking forward, the architecture is expected to integrate with language models and other AI tools to streamline workflows, while future enhancements may incorporate complex physics simulations for scientific and engineering applications. This trajectory indicates that world models could become a foundational AI layer distinct from large language models, with horizontal applicability across industrial design, immersive media, and autonomous systems.",
+      "key_takeaway": "Spatial intelligence via multi-modal world models is emerging as a foundational AI layer, offering horizontal disruption across robotics, immersive media, and industrial simulation by replacing expensive physical prototyping with generative three-dimensional reasoning.",
+      "tickers_mentioned": [
+        "NVDA"
+      ],
+      "sentiment": "bearish",
+      "display_on_main": 1,
+      "display_order": 0,
+      "added_date": "2026-09-13",
+      "archived_date": null,
+      "archived_reason": null,
+      "podcast_episode_id": 474
+    },
+    {
       "id": 488,
       "title": "Why Companies Are Becoming a Series of Loops | Anish Acharya on Lenny\u2019s Podcast",
       "source_type": "podcast",
@@ -67,7 +86,7 @@
       "key_takeaway": "Investors can exploit a regional arbitrage in U.S. farmland by acquiring irrigated Mid-South properties at a steep discount to Midwestern equivalents, while benefiting from regenerative practices, government subsidies, and embedded solar lease optionality to generate yield and capital appreciation in an inflationary, food-scarce environment.",
       "tickers_mentioned": [],
       "sentiment": "bullish",
-      "display_on_main": 1,
+      "display_on_main": 0,
       "display_order": 0,
       "added_date": "2026-09-11",
       "archived_date": null,
@@ -9428,8 +9447,8 @@
       "term": "Simulation",
       "description": "The use of models and computer programs to represent and analyze real or imagined systems or situations.",
       "first_detected_date": "2026-08-21",
-      "last_mentioned_date": "2026-09-11",
-      "mention_count": 11,
+      "last_mentioned_date": "2026-09-13",
+      "mention_count": 12,
       "source_podcasts": null,
       "status": "active",
       "investment_implications": "Simulation technology can provide significant insights for decision-making, making investments in this area potentially valuable.",
@@ -9438,8 +9457,8 @@
       "archived_reason": null,
       "first_detected_episode_id": 420,
       "first_detected_speaker": "June",
-      "last_mentioned_episode_id": 471,
-      "last_mentioned_speaker": "Dave Blenden, Alex Weesner"
+      "last_mentioned_episode_id": 474,
+      "last_mentioned_speaker": "Justin Johnson"
     },
     {
       "id": 272,
@@ -9570,20 +9589,20 @@
     {
       "id": 277,
       "term": "Spatial Intelligence",
-      "description": "AI capable of generating, understanding, reasoning with, and interacting with spaces, both physical and virtual.",
+      "description": "The capability of AI systems to understand, reason about, and interact with three-dimensional space, enabling the generation, reconstruction, and simulation of environments.",
       "first_detected_date": "2026-07-28",
-      "last_mentioned_date": "2026-09-11",
-      "mention_count": 3,
+      "last_mentioned_date": "2026-09-13",
+      "mention_count": 4,
       "source_podcasts": null,
       "status": "active",
-      "investment_implications": "Key for advancing robotics and creating immersive virtual environments.",
+      "investment_implications": "Positions world models as a new horizontal platform layer for robotics, gaming, VR, and industrial design, distinct from text-only LLMs.",
       "display_on_main": 1,
       "archived_date": null,
       "archived_reason": null,
       "first_detected_episode_id": 370,
       "first_detected_speaker": null,
-      "last_mentioned_episode_id": 471,
-      "last_mentioned_speaker": "Dave Blenden, Alex Weesner"
+      "last_mentioned_episode_id": 474,
+      "last_mentioned_speaker": "Justin Johnson"
     },
     {
       "id": 263,
@@ -10236,20 +10255,20 @@
     {
       "id": 194,
       "term": "Multi-modal AI",
-      "description": "AI systems that natively process and integrate multiple input types---text, images, video, and structured data like camera poses---within a unified architecture rather than through separate pipelines.",
+      "description": "AI systems that process and generate outputs across multiple input types such as text, images, and spatial data.",
       "first_detected_date": "2026-05-21",
-      "last_mentioned_date": "2026-09-04",
-      "mention_count": 4,
+      "last_mentioned_date": "2026-09-13",
+      "mention_count": 5,
       "source_podcasts": null,
       "status": "active",
-      "investment_implications": "Creates defensive moats and expands TAM for AI companies relative to single-modality competitors, particularly in creative and industrial applications.",
+      "investment_implications": "Expands the addressable market beyond language by integrating vision and three-dimensional generation into unified models.",
       "display_on_main": 1,
       "archived_date": null,
       "archived_reason": null,
       "first_detected_episode_id": 232,
       "first_detected_speaker": "Andrew Feldman",
-      "last_mentioned_episode_id": 452,
-      "last_mentioned_speaker": "Justin Johnson, Ben Milton Hall"
+      "last_mentioned_episode_id": 474,
+      "last_mentioned_speaker": "Justin Johnson"
     },
     {
       "id": 195,
