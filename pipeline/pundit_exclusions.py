@@ -3,11 +3,16 @@ Names that must never appear as Pundits on the site (co-hosts, ASR manglings, ha
 
 Single source of truth — import from db_manager, enrich_pundits, debate_weekly, etc.
 Keep site/debait.html EXCLUDE in sync (see comment there).
+
+NOTE: ASR variants are handled via canonicalization in person_name_safety.py.
+      is_excluded_pundit_name() canonicalizes first, so "Dave Blenden" → "Dave Blundin" → excluded.
 """
 
 from __future__ import annotations
 
 from typing import FrozenSet
+
+from person_name_safety import canonicalize_person_name
 
 
 EXCLUDED_PUNDIT_NAMES: FrozenSet[str] = frozenset(
@@ -57,15 +62,31 @@ _EXCLUDED_DEBATER_LOWER: FrozenSet[str] = frozenset(x.lower() for x in EXCLUDED_
 
 
 def is_excluded_pundit_name(name: str) -> bool:
-    """True if this display name is a blocked co-host / non-pundit (case-insensitive)."""
+    """
+    True if this display name is a blocked co-host / non-pundit (case-insensitive).
+    
+    First canonicalizes the name to handle ASR variants:
+      - "Dave Blenden" → "Dave Blundin" → excluded
+      - "Alex Weesner" → "Alex Wissner-Gross" → excluded
+    """
     n = (name or "").strip()
-    return bool(n) and n.lower() in _EXCLUDED_LOWER
+    if not n:
+        return False
+    # Canonicalize to catch ASR variants (e.g. "Blenden" → "Blundin")
+    canonical = canonicalize_person_name(n)
+    return canonical.lower() in _EXCLUDED_LOWER
 
 
 def is_excluded_debater_name(name: str) -> bool:
-    """True if this name must not appear as a weekly debate cast member."""
+    """
+    True if this name must not appear as a weekly debate cast member.
+    
+    Canonicalizes to handle ASR variants before checking exclusion lists.
+    """
     n = (name or "").strip()
     if not n:
         return True
-    low = n.lower()
+    # Canonicalize to catch ASR variants
+    canonical = canonicalize_person_name(n)
+    low = canonical.lower()
     return low in _EXCLUDED_LOWER or low in _EXCLUDED_DEBATER_LOWER

@@ -14,9 +14,34 @@ from typing import List
 
 # Known ASR / extraction errors: map mistaken name -> canonical display name.
 # Keep this list small and high-confidence only (wrong merges are worse than duplicates).
+# These aliases are used by:
+#   1. Entity upsert (prevent duplicate entities)
+#   2. Pundit exclusion checks (block ASR variants of excluded names)
+#   3. Net worth lookups (use canonical name for accurate data)
 _TRANSCRIPTION_CANONICAL_NAMES: dict[str, str] = {
     # Same person (Commodity Context); "Roy Johnson" is a recurring transcript mistake.
     "roy johnson": "Rory Johnston",
+    # Dave Blundin (Moonshots co-host) — common ASR mishearings
+    "dave blenden": "Dave Blundin",
+    "david blenden": "Dave Blundin",
+    "dave blundon": "Dave Blundin",
+    "david blundon": "Dave Blundin",
+    "dave blundan": "Dave Blundin",
+    "david blundin": "Dave Blundin",
+    # Alex Wissner-Gross (co-host AWG) — common ASR mishearings
+    "alex weesner": "Alex Wissner-Gross",
+    "alex wiesner": "Alex Wissner-Gross",
+    "alex wisner": "Alex Wissner-Gross",
+    "alex wessner": "Alex Wissner-Gross",
+    "alex weissner": "Alex Wissner-Gross",
+    "alex wissner gross": "Alex Wissner-Gross",
+    "alexander weesner": "Alex Wissner-Gross",
+    "alexander wiesner": "Alex Wissner-Gross",
+    "alexander wisner": "Alex Wissner-Gross",
+    # David Sacks (All-In host) — ASR variants
+    "david sachs": "David Sacks",
+    "dave sacks": "David Sacks",
+    "dave sachs": "David Sacks",
 }
 
 

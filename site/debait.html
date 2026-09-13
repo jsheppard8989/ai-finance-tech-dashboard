@@ -510,12 +510,17 @@
           pundits = data.podcastGuests;
         }
         // Keep in sync with pipeline/pundit_exclusions.py EXCLUDED_PUNDIT_NAMES (case-insensitive)
+        // and person_name_safety.py _TRANSCRIPTION_CANONICAL_NAMES (ASR variants)
         const EXCLUDE_LOWER = new Set([
           'ben horowitz', 'marc andreessen', 'mark andreessen',
           'peter diamandis', 'dylan', 'moonshots', 'salim ismail', 'dave blund', 'dave blundin',
           'david sacks', 'david sachs', 'david friedberg',
           'alexander wissner-gross', 'alex wissner-gross', 'alex wissne-gross',
-          'alex wey', 'awg', 'e-modemustock'
+          'alex wey', 'awg', 'e-modemustock',
+          // ASR variants (from person_name_safety.py _TRANSCRIPTION_CANONICAL_NAMES)
+          'dave blenden', 'david blenden', 'dave blundon', 'david blundon', 'dave blundan', 'david blundin',
+          'alex weesner', 'alex wiesner', 'alex wisner', 'alex wessner', 'alex weissner', 'alex wissner gross',
+          'alexander weesner', 'alexander wiesner', 'alexander wisner', 'dave sachs'
         ]);
         return pundits.filter(p => !EXCLUDE_LOWER.has((p.name || '').trim().toLowerCase()));
       }
