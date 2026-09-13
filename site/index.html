@@ -3563,6 +3563,7 @@
           evHtml += '<div class="thesis-text">' + escapeHtmlText(ev.last_main_idea) + '</div>';
         }
         if (ev.last_proof_snippet) {
+          evHtml += '<div class="evidence-label">From Episode Transcript</div>';
           evHtml += '<div class="proof-snippet">"' + escapeHtmlText(ev.last_proof_snippet) + '"</div>';
         }
         if (ev.last_proof_cite) {
