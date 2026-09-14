@@ -1,6 +1,6 @@
 [
   {
-    "id": 67507,
+    "id": 67600,
     "name": "Ask the Mates anything",
     "slug": "ask-the-mates-anything",
     "bio": null,
@@ -12,7 +12,7 @@
     "appearance_count": 1
   },
   {
-    "id": 67508,
+    "id": 67601,
     "name": "Matt Barry",
     "slug": "matt-barry",
     "bio": null,
@@ -24,7 +24,7 @@
     "appearance_count": 1
   },
   {
-    "id": 67509,
+    "id": 67602,
     "name": "Who Grades the AI Models?",
     "slug": "who-grades-the-ai-models",
     "bio": null,
@@ -36,7 +36,7 @@
     "appearance_count": 1
   },
   {
-    "id": 67510,
+    "id": 67603,
     "name": "Your AI Doctor Is Coming",
     "slug": "your-ai-doctor-is-coming",
     "bio": null,
@@ -48,7 +48,7 @@
     "appearance_count": 1
   },
   {
-    "id": 67511,
+    "id": 67604,
     "name": "Fei Fei Li",
     "slug": "fei-fei-li",
     "bio": null,
@@ -60,7 +60,7 @@
     "appearance_count": 1
   },
   {
-    "id": 67512,
+    "id": 67605,
     "name": "Financial strategist Jared Dillian",
     "slug": "financial-strategist-jared-dillian",
     "bio": null,
@@ -72,7 +72,7 @@
     "appearance_count": 1
   },
   {
-    "id": 67513,
+    "id": 67606,
     "name": "Daniel Litt",
     "slug": "daniel-litt",
     "bio": null,
@@ -84,7 +84,7 @@
     "appearance_count": 1
   },
   {
-    "id": 67514,
+    "id": 67607,
     "name": "Gavin Baker",
     "slug": "gavin-baker",
     "bio": null,
@@ -96,7 +96,7 @@
     "appearance_count": 1
   },
   {
-    "id": 67515,
+    "id": 67608,
     "name": "Sam Altman",
     "slug": "sam-altman",
     "bio": null,
@@ -108,7 +108,7 @@
     "appearance_count": 1
   },
   {
-    "id": 67516,
+    "id": 67609,
     "name": "Time to Reduce Equity Risk",
     "slug": "time-to-reduce-equity-risk",
     "bio": null,
@@ -120,7 +120,7 @@
     "appearance_count": 1
   },
   {
-    "id": 67517,
+    "id": 67610,
     "name": "Eric Weinstein",
     "slug": "eric-weinstein",
     "bio": null,
@@ -132,7 +132,7 @@
     "appearance_count": 1
   },
   {
-    "id": 67518,
+    "id": 67611,
     "name": "Michael Kratsios",
     "slug": "michael-kratsios",
     "bio": null,
@@ -144,7 +144,7 @@
     "appearance_count": 1
   },
   {
-    "id": 67519,
+    "id": 67612,
     "name": "Emad Mostaque",
     "slug": "emad-mostaque",
     "bio": null,
@@ -156,7 +156,7 @@
     "appearance_count": 3
   },
   {
-    "id": 67520,
+    "id": 67613,
     "name": "Angela Strange and Gabriel Vasquez",
     "slug": "angela-strange-and-gabriel-vasquez",
     "bio": null,
@@ -168,7 +168,7 @@
     "appearance_count": 1
   },
   {
-    "id": 67521,
+    "id": 67614,
     "name": "Why Bessent Blinked",
     "slug": "why-bessent-blinked",
     "bio": null,
@@ -180,7 +180,7 @@
     "appearance_count": 1
   },
   {
-    "id": 67522,
+    "id": 67615,
     "name": "Travis Kalanick",
     "slug": "travis-kalanick",
     "bio": null,
@@ -192,7 +192,7 @@
     "appearance_count": 1
   },
   {
-    "id": 67523,
+    "id": 67616,
     "name": "Rahm Emanuel",
     "slug": "rahm-emanuel",
     "bio": null,
@@ -204,7 +204,7 @@
     "appearance_count": 1
   },
   {
-    "id": 67524,
+    "id": 67617,
     "name": "Milton Berg",
     "slug": "milton-berg",
     "bio": "Milton Berg is a veteran technical analyst and CEO of Milton Berg Advisors, specializing in market turning-point analysis for institutional investors.",
@@ -216,7 +216,7 @@
     "appearance_count": 1
   },
   {
-    "id": 67525,
+    "id": 67618,
     "name": "How Open",
     "slug": "how-open",
     "bio": null,
@@ -228,7 +228,7 @@
     "appearance_count": 1
   },
   {
-    "id": 67526,
+    "id": 67619,
     "name": "Saronic Founders",
     "slug": "saronic-founders",
     "bio": null,
@@ -240,7 +240,7 @@
     "appearance_count": 1
   },
   {
-    "id": 67527,
+    "id": 67620,
     "name": "OpenAI's Joshua Achiam",
     "slug": "openais-joshua-achiam",
     "bio": null,
@@ -252,7 +252,7 @@
     "appearance_count": 1
   },
   {
-    "id": 67528,
+    "id": 67621,
     "name": "Marc Andreessen and Chris Dixon",
     "slug": "marc-andreessen-and-chris-dixon",
     "bio": null,
@@ -264,7 +264,7 @@
     "appearance_count": 1
   },
   {
-    "id": 67529,
+    "id": 67622,
     "name": "AI for America's Small Businesses",
     "slug": "ai-for-americas-small-businesses",
     "bio": null,
@@ -276,7 +276,7 @@
     "appearance_count": 1
   },
   {
-    "id": 67530,
+    "id": 67623,
     "name": "Luke Gromen",
     "slug": "luke-gromen",
     "bio": null,
@@ -288,7 +288,7 @@
     "appearance_count": 1
   },
   {
-    "id": 67531,
+    "id": 67624,
     "name": "Steven Sinofsky",
     "slug": "steven-sinofsky",
     "bio": null,
@@ -300,7 +300,7 @@
     "appearance_count": 1
   },
   {
-    "id": 67532,
+    "id": 67625,
     "name": "Travis Kelenick",
     "slug": "travis-kelenick",
     "bio": null,
@@ -312,7 +312,7 @@
     "appearance_count": 1
   },
   {
-    "id": 67533,
+    "id": 67626,
     "name": "Travis Kalanick Is Back",
     "slug": "travis-kalanick-is-back",
     "bio": null,
@@ -324,7 +324,7 @@
     "appearance_count": 1
   },
   {
-    "id": 67534,
+    "id": 67627,
     "name": "Interest Rates to 10%",
     "slug": "interest-rates-to-10",
     "bio": null,
@@ -336,7 +336,7 @@
     "appearance_count": 1
   },
   {
-    "id": 67535,
+    "id": 67628,
     "name": "Nick Nemeth",
     "slug": "nick-nemeth",
     "bio": null,
@@ -348,7 +348,7 @@
     "appearance_count": 1
   },
   {
-    "id": 67536,
+    "id": 67629,
     "name": "Urgent Update- AI Sputnik Moment",
     "slug": "urgent-update--ai-sputnik-moment",
     "bio": null,
