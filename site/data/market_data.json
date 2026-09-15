@@ -86,13 +86,13 @@
     "_primary_source": "Treasury.gov",
     "_source_url": "https://home.treasury.gov/resource-center/data-chart-center/interest-rates/TextView?type=daily_treasury_yield_curve",
     "_fred_status": "unavailable (optional)",
-    "last_updated": "2026-09-14T14:01:02.092098",
-    "as_of_date": "2026-09-11",
+    "last_updated": "2026-09-14T22:18:10.659595",
+    "as_of_date": "2026-09-14",
     "spreads": {
       "2s10s": {
         "label": "2s10s Spread",
         "description": "10Y minus 2Y Treasury yield. Classic recession indicator. Negative = inverted curve.",
-        "value_bps": 33.0,
+        "value_bps": 32.0,
         "signal": "normal",
         "source": "Treasury.gov (computed)",
         "calculation": "10Y - 2Y from Treasury daily curve"
@@ -100,7 +100,7 @@
       "10s30s": {
         "label": "10s30s Spread (NOB proxy)",
         "description": "30Y minus 10Y Treasury yield. Reflects long-end term premium and duration demand.",
-        "value_bps": 39.0,
+        "value_bps": 37.0,
         "signal": "normal",
         "source": "Treasury.gov (computed)",
         "calculation": "30Y - 10Y from Treasury daily curve"
@@ -108,18 +108,18 @@
     },
     "levels": {
       "2y": {
-        "value": 4.63,
-        "change_1d_bps": 7.0,
+        "value": 4.65,
+        "change_1d_bps": 2.0,
         "source": "Treasury.gov"
       },
       "10y": {
-        "value": 4.96,
+        "value": 4.97,
         "change_1d_bps": 1.0,
         "source": "Treasury.gov"
       },
       "30y": {
-        "value": 5.35,
-        "change_1d_bps": -2.0,
+        "value": 5.34,
+        "change_1d_bps": -1.0,
         "source": "Treasury.gov"
       }
     },
@@ -127,7 +127,7 @@
       "_comment": "MOVE Index - bond market VIX. Source: Yahoo Finance ^MOVE.",
       "label": "MOVE Index",
       "description": "Treasury implied volatility index. High readings = bond market stress/uncertainty.",
-      "value": 82.21,
+      "value": 83.9,
       "change_1d": 0.0,
       "signal": "normal",
       "yahoo_symbol": "^MOVE",
@@ -145,7 +145,7 @@
     "_fetch_url": "https://www.cftc.gov/dea/futures/financial_lf.htm",
     "_api_alternative": "Quandl CFTC dataset (may need key)",
     "_fetch_instructions": "CFTC releases COT every Friday at 3:30pm ET for positions as of prior Tuesday.",
-    "last_updated": "2026-09-14T14:01:02.411568",
+    "last_updated": "2026-09-14T22:18:11.195728",
     "report_date": "2026-09-08",
     "rates_positioning": {
       "10y_note": {
@@ -216,7 +216,7 @@
     "_source_url": "https://gpu-index.semianalysis.com/",
     "_data_type": "surveyed_index",
     "_staleness_note": "Free public data lags several months behind current date. Display the as-of period prominently.",
-    "last_fetched": "2026-09-14T14:00:45.766215",
+    "last_fetched": "2026-09-14T22:17:54.207657",
     "h100": {
       "period": "Apr 2026",
       "composite_index": {
