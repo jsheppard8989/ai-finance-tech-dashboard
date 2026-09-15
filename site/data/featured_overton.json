@@ -23,8 +23,11 @@
       "falsifier_log": [
         {
           "test_id": 1,
+          "label": "Nov 4 QRA — buyback maxes",
           "status": "pending",
-          "description": "Nov 4 QRA — buyback maxes"
+          "one_liner": null,
+          "as_of": null,
+          "source": null
         }
       ]
     }
