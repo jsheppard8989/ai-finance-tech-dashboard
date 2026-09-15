@@ -77,6 +77,8 @@ pipeline/inbox/
 
 # Generated site data (JSON/JS exported from pipeline)
 site/data/
+# Exception: curated featured Overton (bypasses pipeline)
+!site/data/featured_overton.json
 
 # AI Bench Press generated audio/cache
 ai-bench-press/audio/seg_*.mp3

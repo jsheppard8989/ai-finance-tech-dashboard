@@ -1,6 +1,35 @@
 {
   "_comment": "Featured/curated Overton terms that bypass the podcast mention pipeline. These are pinned at the top of the Overton Window with a 'Debated' badge. Pipeline exports cannot overwrite this file.",
-  "_updated": "2026-09-14",
+  "_updated": "2026-09-15",
   "schema_version": 1,
-  "featured": []
+  "featured": [
+    {
+      "id": "curated-cleared-unconsoled-2026-09-15",
+      "term": "Cleared, unconsoled (price of duration sponsorship)",
+      "thesis": "When the Sep 9–10 coupon reopenings clear strong at multi-decade-high yields and the first enlarged long-end buyback still leaves 10s through ~5% and 30s near 5.3%, the regime is not \"failed auctions\" — it is the price of sponsorship: private cover exists only at yields that behave like a credit spread, and the state bid is insurance that does not buy the long end. Money is in who warehouses duration at these clearing yields — not Nvidia, not AGI timeline theater.",
+      "who_collects_rent": "Captive duration absorbers (banks/pensions via HTM/SLR/rules); primary dealers as thin warehouse; Treasury buyback ops as liquidity insurance — franchise ROE / accounting on forced holdings at higher equilibrium yields; dealer fees; state bid as cosmetic backstop. Leftover: soft-landing / Fed-cut coupon narrative.",
+      "decisive_test": "(1) Nov 4 QRA — buyback maxes cut or framed temporary → RELEGATE. (2) Sustained FRED CMT 10y back below ~4.50% with buyback ops idle/undersubscribed → price-of-sponsorship thesis weakens. (3) Next long coupon (20y when announced; Oct 6–7 3y/10y) — soft cover/fat tail/weak indirects with thick buybacks → sponsorship stress tightens (WATCH, not RELEGATE). (4) FOMC+SEP Sep 15–16 — sticky/higher long yields after front-end move = regime intact; long-end rally repairing 10s30s with quiet buybacks = falsifier to watch.",
+      "nested_note": "Evolution: last week Buyback as confession; Sep 9–10 stamped cosmetic lean on cover + confession still live on price (clearance ≠ relief). Tape: FRED CMT 2026-09-11 10y 4.96% / 30y 5.35% (10s30s +39bp). Auctions: Sep 9 10y HY 4.834% BTC 2.71; Sep 10 30y HY 5.308% BTC 2.61; buyback ~$5.187bn/$6bn. MOVE UNKNOWN — do not invent. Calendar: FOMC+SEP Sep 15–16; Oct 6–7 3y/10y; Nov 4 QRA. Anti-Overton: SV room on GPT-6/AGI/pause-AI/orbital DCs vs empty space = duration supply as system around AI capital. Nest power/interconnect under Trap #1 — NOT this card's headline. Trap Map Buyback stays WATCH — do not merge cards.",
+      "adjacent_terms": ["Buyback as confession (captive duration)"],
+      "adjacent_note": "Post-print evolution of the confession thesis — clearance without consoling the long end.",
+      "provenance": {
+        "author": "JG / Site Admin",
+        "date": "2026-09-15",
+        "greenlit_by": "Jared (standing Overton lane)",
+        "note": "JG Tue prep 2026-09-15 for Thu Overton edit; SB0607 / TreasuryDirect / Reuters / Man Group / FRED."
+      },
+      "status": "active",
+      "display_order": 1,
+      "falsifier_log": [
+        {
+          "test_id": 1,
+          "label": "Nov 4 QRA — buyback maxes",
+          "status": "pending",
+          "one_liner": null,
+          "as_of": null,
+          "source": null
+        }
+      ]
+    }
+  ]
 }
