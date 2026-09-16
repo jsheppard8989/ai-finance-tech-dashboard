@@ -145,16 +145,18 @@
     "_fetch_url": "https://www.cftc.gov/dea/futures/financial_lf.htm",
     "_api_alternative": "Quandl CFTC dataset (may need key)",
     "_fetch_instructions": "CFTC releases COT every Friday at 3:30pm ET for positions as of prior Tuesday.",
-    "last_updated": "2026-09-16T06:55:51.757444",
+    "last_updated": "2026-09-16T13:39:14.216287",
     "report_date": "2026-09-08",
+    "prior_report_date": "2026-09-08",
     "rates_positioning": {
       "10y_note": {
         "label": "10-Year T-Note Futures",
         "contract": "TY",
         "asset_manager_net": null,
         "leveraged_funds_net": -1938754,
+        "prior_week_net": -1938754,
         "dealer_net": null,
-        "change_1w": null,
+        "change_1w": 0,
         "signal": null,
         "percentile_1y": null
       },
@@ -163,8 +165,9 @@
         "contract": "TU",
         "asset_manager_net": null,
         "leveraged_funds_net": -1290479,
+        "prior_week_net": -1290479,
         "dealer_net": null,
-        "change_1w": null,
+        "change_1w": 0,
         "signal": null,
         "percentile_1y": null
       },
@@ -173,8 +176,9 @@
         "contract": "US",
         "asset_manager_net": null,
         "leveraged_funds_net": -276965,
+        "prior_week_net": -276965,
         "dealer_net": null,
-        "change_1w": null,
+        "change_1w": 0,
         "signal": null,
         "percentile_1y": null
       }
@@ -185,8 +189,22 @@
         "contract": "BTC",
         "asset_manager_net": null,
         "leveraged_funds_net": -7892,
+        "prior_week_net": -7892,
         "dealer_net": null,
-        "change_1w": null,
+        "change_1w": 0,
+        "signal": null,
+        "percentile_1y": null
+      }
+    },
+    "equity_positioning": {
+      "cme_nq": {
+        "label": "CME E-mini Nasdaq-100",
+        "contract": "NQ",
+        "asset_manager_net": null,
+        "leveraged_funds_net": -36884,
+        "prior_week_net": -36884,
+        "dealer_net": null,
+        "change_1w": 0,
         "signal": null,
         "percentile_1y": null
       }
