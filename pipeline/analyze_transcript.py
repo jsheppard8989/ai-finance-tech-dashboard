@@ -114,23 +114,27 @@ CONTENT_PODCAST_HINTS = [
 ]
 
 
+class ProviderKeyMissingError(Exception):
+    """Raised when an explicitly requested provider's API key is not configured."""
+    pass
+
+
 def get_ai_client() -> Optional[any]:
-    """Get AI client.
+    """Get AI client for podcast transcript analysis.
     
-    Normal priority:
-      1. Moonshot/Kimi (primary)
-      2. Gemini (fallback)
-      3. OpenAI (fallback)
+    Provider selection via ANALYZE_BACKEND env var:
+      - "openai"   -> Use OpenAI (requires OPENAI_API_KEY)
+      - "gemini"   -> Use Gemini (requires GEMINI_API_KEY)
+      - "moonshot" -> Use Moonshot/Kimi (requires MOONSHOT_API_KEY or auth profile)
+      - unset      -> Auto: try OpenAI > Gemini > Moonshot (funded providers first)
     
-    For one-off/manual runs you can override this with ANALYZE_BACKEND:
-      ANALYZE_BACKEND=openai   -> force OpenAI
-      ANALYZE_BACKEND=gemini   -> force Gemini
-      ANALYZE_BACKEND=moonshot -> force Moonshot/Kimi
+    When a specific provider is requested but its key is missing, raises
+    ProviderKeyMissingError with a clear message (does NOT silently fall back
+    to another provider that may be suspended).
     """
 
-    backend_override = os.environ.get("ANALYZE_BACKEND", "").strip().lower()
+    provider = os.environ.get("ANALYZE_BACKEND", "").strip().lower() or "auto"
 
-    # Helper lambdas so we can reuse the same init logic in both normal and override paths.
     def _init_moonshot():
         from workspace_paths import agent_auth_profiles_path
 
@@ -190,30 +194,50 @@ def get_ai_client() -> Optional[any]:
             print(f"  ⚠ OpenAI init failed: {e}")
         return None
 
-    # If an override is requested, try that backend first (and only fall back to the
-    # normal priority order if the override is misconfigured).
-    if backend_override == "moonshot":
-        client = _init_moonshot()
+    def _has_moonshot_key() -> bool:
+        if os.environ.get("MOONSHOT_API_KEY", "").strip():
+            return True
+        from workspace_paths import agent_auth_profiles_path
+        auth_path = agent_auth_profiles_path()
+        if auth_path and auth_path.exists():
+            try:
+                with open(auth_path) as f:
+                    profiles = json.load(f).get("profiles", {})
+                if "moonshot:default" in profiles:
+                    return bool(profiles["moonshot:default"].get("key"))
+            except Exception:
+                pass
+        return False
+
+    # When a specific provider is explicitly requested, require its key or fail clearly
+    if provider == "moonshot":
+        client = _init_moonshot() or _init_moonshot_env()
         if client:
             return client
-        client = _init_moonshot_env()
-        if client:
-            return client
-    elif backend_override == "gemini":
+        raise ProviderKeyMissingError(
+            "ANALYZE_BACKEND=moonshot but no Moonshot key found. "
+            "Set MOONSHOT_API_KEY or configure moonshot:default in auth profiles."
+        )
+
+    if provider == "gemini":
         client = _init_gemini()
         if client:
             return client
-    elif backend_override == "openai":
+        raise ProviderKeyMissingError(
+            "ANALYZE_BACKEND=gemini but GEMINI_API_KEY is not set or google-generativeai is not installed."
+        )
+
+    if provider == "openai":
         client = _init_openai()
         if client:
             return client
+        raise ProviderKeyMissingError(
+            "ANALYZE_BACKEND=openai but OPENAI_API_KEY is not set or openai package is not installed."
+        )
 
-    # Normal priority order when no override is set or the override failed.
-    client = _init_moonshot()
-    if client:
-        return client
-
-    client = _init_moonshot_env()
+    # "auto" mode: try funded providers first (OpenAI > Gemini), then Moonshot last
+    # This prevents a suspended Moonshot account from shadowing working backends.
+    client = _init_openai()
     if client:
         return client
 
@@ -221,11 +245,11 @@ def get_ai_client() -> Optional[any]:
     if client:
         return client
 
-    client = _init_openai()
+    client = _init_moonshot() or _init_moonshot_env()
     if client:
         return client
 
-    print("  ⚠ No AI client: set MOONSHOT_API_KEY, GEMINI_API_KEY, or OPENAI_API_KEY (or Moonshot in Cursor auth profiles).")
+    print("  ⚠ No AI client: set OPENAI_API_KEY or GEMINI_API_KEY (preferred), or MOONSHOT_API_KEY.")
     return None
 
 

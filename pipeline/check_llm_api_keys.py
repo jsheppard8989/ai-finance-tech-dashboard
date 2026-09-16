@@ -108,7 +108,7 @@ def main() -> int:
         status = "OK " if ok else "FAIL"
         print(f"  {status}  {name:10}  {detail}")
     print(
-        "\nNote: Transcript analysis uses get_ai_client() priority: Moonshot (auth profile or MOONSHOT_API_KEY) → Gemini → OpenAI."
+        "\nNote: Transcript analysis uses get_ai_client() priority: OpenAI → Gemini → Moonshot (PODCAST_ANALYZER_PROVIDER overrides)."
     )
     print("Model defaults (env-overridable): Moonshot=kimi-k2.6, OpenAI=gpt-4o-mini, Gemini=gemini-1.5-flash.")
     print("Override via DEBATE_LLM_MODEL / MOONSHOT_MODEL, OPENAI_DEBATE_MODEL / OPENAI_MODEL, GEMINI_DEBATE_MODEL / GEMINI_MODEL.")
