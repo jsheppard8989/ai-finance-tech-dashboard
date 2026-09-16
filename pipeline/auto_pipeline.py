@@ -360,7 +360,10 @@ def sync_main_insights_with_deepdives(max_on_main: int = 8) -> int:
     insights that have a ``deep_dive_content`` row. Selection order:
       1) pinned IDs from ``pipeline/main_insight_pins.json`` (if they still have Deep Dives)
       2) remaining slots by source_date DESC, id DESC
-    Aligns ``podcast_episodes.added_to_site`` with whether the episode is on the main insight list.
+
+    Sets ``podcast_episodes.added_to_site=1`` for ANY episode that has a non-archived
+    insight with a deep_dive_content row (archive-ready), regardless of whether it's on
+    the main page. This decouples "site-published" from "on-main".
     """
     db = get_db()
     pinned = _load_main_insight_pins()
@@ -418,13 +421,18 @@ def sync_main_insights_with_deepdives(max_on_main: int = 8) -> int:
                 "UPDATE latest_insights SET display_on_main = 1 WHERE id = ?",
                 (iid,),
             )
+        # Set added_to_site=1 for episodes with non-archived insight AND deep dive content
+        # (archive-ready), regardless of display_on_main. This decouples "published" from "on main".
         conn.execute(
             """
             UPDATE podcast_episodes
             SET added_to_site = CASE
                 WHEN id IN (
-                    SELECT podcast_episode_id FROM latest_insights
-                    WHERE display_on_main = 1 AND podcast_episode_id IS NOT NULL
+                    SELECT li.podcast_episode_id
+                    FROM latest_insights li
+                    INNER JOIN deep_dive_content ddc ON ddc.insight_id = li.id
+                    WHERE li.archived_date IS NULL
+                      AND li.podcast_episode_id IS NOT NULL
                 ) THEN 1 ELSE 0 END
             WHERE id IN (
                 SELECT DISTINCT podcast_episode_id FROM latest_insights
@@ -432,7 +440,17 @@ def sync_main_insights_with_deepdives(max_on_main: int = 8) -> int:
             )
             """
         )
-    print(f"  ✓ Main insight list synced with Deep Dives ({len(main_ids)} on main; pins={pinned})")
+        # Count episodes marked as site-published (insight + deep dive)
+        site_published_count = conn.execute(
+            """
+            SELECT COUNT(DISTINCT pe.id)
+            FROM podcast_episodes pe
+            INNER JOIN latest_insights li ON li.podcast_episode_id = pe.id
+            INNER JOIN deep_dive_content ddc ON ddc.insight_id = li.id
+            WHERE li.archived_date IS NULL AND pe.added_to_site = 1
+            """
+        ).fetchone()[0]
+    print(f"  ✓ Main insight list synced with Deep Dives ({len(main_ids)} on main, {site_published_count} site-published; pins={pinned})")
     return len(main_ids)
 
 

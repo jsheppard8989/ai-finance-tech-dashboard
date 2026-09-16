@@ -37,6 +37,7 @@ def _init_test_db(db_path: Path) -> None:
             source_date DATE,
             podcast_episode_id INTEGER,
             display_on_main BOOLEAN DEFAULT 1,
+            archived_date DATE,
             FOREIGN KEY (podcast_episode_id) REFERENCES podcast_episodes(id)
         );
 
@@ -90,14 +91,14 @@ def _insert_episode(
     return cur.lastrowid
 
 
-def _insert_insight(conn, episode_id: int, title: str) -> int:
+def _insert_insight(conn, episode_id: int, title: str, source_date: str = None) -> int:
     """Insert a latest_insights row linked to an episode."""
     cur = conn.execute(
         """
-        INSERT INTO latest_insights (title, source_type, source_name, podcast_episode_id)
-        VALUES (?, 'podcast', 'Test Podcast', ?)
+        INSERT INTO latest_insights (title, source_type, source_name, source_date, podcast_episode_id)
+        VALUES (?, 'podcast', 'Test Podcast', ?, ?)
         """,
-        (title, episode_id),
+        (title, source_date, episode_id),
     )
     conn.commit()
     return cur.lastrowid
@@ -404,6 +405,323 @@ class TestStaleEpisodesDetection:
 
         assert len(rows) == 1
         assert rows[0]["insight_count"] == 0
+
+
+class TestSyncMainInsightsWithDeepDives:
+    """Test sync_main_insights_with_deepdives correctly decouples added_to_site from display_on_main."""
+
+    def test_off_main_episode_with_deepdive_gets_added_to_site(self, tmp_path):
+        """Episode with insight+deepdive but off main-8 should have added_to_site=1.
+        
+        This is the core fix: added_to_site should be 1 when episode has a non-archived
+        insight AND a deep_dive_content row, regardless of whether it's on the main page.
+        """
+        db_path = tmp_path / "test.db"
+        _init_test_db(db_path)
+
+        conn = sqlite3.connect(str(db_path))
+        conn.row_factory = sqlite3.Row
+
+        # Create 10 episodes to exceed max_on_main (8)
+        ep_ids = []
+        insight_ids = []
+        for i in range(10):
+            ep_date = date.today() - timedelta(days=i)
+            ep_id = _insert_episode(
+                conn,
+                f"Podcast {i}",
+                f"Episode {i}",
+                ep_date,
+                is_processed=True,
+                added_to_site=False,
+                rss_guid=f"guid-{i}",
+            )
+            ep_ids.append(ep_id)
+            # Insert insight with source_date so we can control ordering
+            insight_id = _insert_insight(conn, ep_id, f"Insight {i}", ep_date.isoformat())
+            insight_ids.append(insight_id)
+            # Insert deep dive for each
+            _insert_deepdive(conn, insight_id, ep_id)
+
+        # Run the sync SQL logic directly (mimicking sync_main_insights_with_deepdives)
+        max_on_main = 8
+
+        # Clear display_on_main
+        conn.execute("UPDATE latest_insights SET display_on_main = 0 WHERE archived_date IS NULL")
+
+        # Set display_on_main for top 8 by source_date DESC
+        conn.execute(
+            """
+            UPDATE latest_insights SET display_on_main = 1
+            WHERE id IN (
+                SELECT li.id FROM latest_insights li
+                INNER JOIN deep_dive_content ddc ON ddc.insight_id = li.id
+                WHERE li.archived_date IS NULL
+                ORDER BY li.source_date DESC, li.id DESC
+                LIMIT ?
+            )
+            """,
+            (max_on_main,),
+        )
+
+        # Set added_to_site=1 for ANY episode with insight+deepdive (not just main-8)
+        conn.execute(
+            """
+            UPDATE podcast_episodes
+            SET added_to_site = CASE
+                WHEN id IN (
+                    SELECT li.podcast_episode_id
+                    FROM latest_insights li
+                    INNER JOIN deep_dive_content ddc ON ddc.insight_id = li.id
+                    WHERE li.archived_date IS NULL
+                      AND li.podcast_episode_id IS NOT NULL
+                ) THEN 1 ELSE 0 END
+            WHERE id IN (
+                SELECT DISTINCT podcast_episode_id FROM latest_insights
+                WHERE podcast_episode_id IS NOT NULL
+            )
+            """
+        )
+        conn.commit()
+
+        # Verify: all 10 should have added_to_site=1 (they all have insight+deepdive)
+        cur = conn.execute("SELECT id, added_to_site FROM podcast_episodes ORDER BY id")
+        rows = [dict(r) for r in cur.fetchall()]
+        assert len(rows) == 10
+        for row in rows:
+            assert row["added_to_site"] == 1, f"Episode {row['id']} should have added_to_site=1"
+
+        # Verify: only 8 should have display_on_main=1
+        cur = conn.execute("SELECT COUNT(*) as c FROM latest_insights WHERE display_on_main = 1")
+        main_count = cur.fetchone()["c"]
+        assert main_count == 8, f"Main page should have exactly 8 insights, got {main_count}"
+
+        # Verify: 2 should be off-main but still site-published
+        cur = conn.execute(
+            """
+            SELECT COUNT(*) as c FROM podcast_episodes pe
+            INNER JOIN latest_insights li ON li.podcast_episode_id = pe.id
+            WHERE pe.added_to_site = 1 AND li.display_on_main = 0
+            """
+        )
+        off_main_published = cur.fetchone()["c"]
+        assert off_main_published == 2, f"Should have 2 off-main but site-published, got {off_main_published}"
+
+        conn.close()
+
+    def test_episode_with_insight_but_no_deepdive_not_added_to_site(self, tmp_path):
+        """Episode with insight but NO deep dive should have added_to_site=0."""
+        db_path = tmp_path / "test.db"
+        _init_test_db(db_path)
+
+        conn = sqlite3.connect(str(db_path))
+        conn.row_factory = sqlite3.Row
+
+        # Episode with insight but no deep dive
+        ep_date = date.today() - timedelta(days=1)
+        ep_id = _insert_episode(
+            conn,
+            "No DeepDive Podcast",
+            "Missing DeepDive Episode",
+            ep_date,
+            is_processed=True,
+            added_to_site=False,
+            rss_guid="guid-no-dd",
+        )
+        _insert_insight(conn, ep_id, "Insight Without DeepDive", ep_date.isoformat())
+        # No deep dive inserted!
+
+        # Episode with insight AND deep dive
+        ep_date2 = date.today() - timedelta(days=2)
+        ep_id2 = _insert_episode(
+            conn,
+            "With DeepDive Podcast",
+            "Has DeepDive Episode",
+            ep_date2,
+            is_processed=True,
+            added_to_site=False,
+            rss_guid="guid-has-dd",
+        )
+        insight_id2 = _insert_insight(conn, ep_id2, "Insight With DeepDive", ep_date2.isoformat())
+        _insert_deepdive(conn, insight_id2, ep_id2)
+
+        # Run the sync SQL logic
+        conn.execute("UPDATE latest_insights SET display_on_main = 0 WHERE archived_date IS NULL")
+        conn.execute(
+            """
+            UPDATE latest_insights SET display_on_main = 1
+            WHERE id IN (
+                SELECT li.id FROM latest_insights li
+                INNER JOIN deep_dive_content ddc ON ddc.insight_id = li.id
+                WHERE li.archived_date IS NULL
+                ORDER BY li.source_date DESC, li.id DESC
+                LIMIT 8
+            )
+            """
+        )
+        conn.execute(
+            """
+            UPDATE podcast_episodes
+            SET added_to_site = CASE
+                WHEN id IN (
+                    SELECT li.podcast_episode_id
+                    FROM latest_insights li
+                    INNER JOIN deep_dive_content ddc ON ddc.insight_id = li.id
+                    WHERE li.archived_date IS NULL
+                      AND li.podcast_episode_id IS NOT NULL
+                ) THEN 1 ELSE 0 END
+            WHERE id IN (
+                SELECT DISTINCT podcast_episode_id FROM latest_insights
+                WHERE podcast_episode_id IS NOT NULL
+            )
+            """
+        )
+        conn.commit()
+
+        # Verify: episode without deep dive should have added_to_site=0
+        cur = conn.execute("SELECT added_to_site FROM podcast_episodes WHERE id = ?", (ep_id,))
+        assert cur.fetchone()["added_to_site"] == 0, "Episode without deep dive should NOT be added_to_site"
+
+        # Verify: episode with deep dive should have added_to_site=1
+        cur = conn.execute("SELECT added_to_site FROM podcast_episodes WHERE id = ?", (ep_id2,))
+        assert cur.fetchone()["added_to_site"] == 1, "Episode with deep dive should be added_to_site"
+
+        conn.close()
+
+    def test_archived_insight_episode_not_added_to_site(self, tmp_path):
+        """Episode whose insight is archived should have added_to_site=0."""
+        db_path = tmp_path / "test.db"
+        _init_test_db(db_path)
+
+        conn = sqlite3.connect(str(db_path))
+        conn.row_factory = sqlite3.Row
+
+        # Episode with archived insight + deep dive
+        ep_date = date.today() - timedelta(days=5)
+        ep_id = _insert_episode(
+            conn,
+            "Archived Podcast",
+            "Archived Episode",
+            ep_date,
+            is_processed=True,
+            added_to_site=False,
+            rss_guid="guid-archived",
+        )
+        insight_id = _insert_insight(conn, ep_id, "Archived Insight", ep_date.isoformat())
+        _insert_deepdive(conn, insight_id, ep_id)
+        # Mark insight as archived
+        conn.execute("UPDATE latest_insights SET archived_date = ? WHERE id = ?", (date.today().isoformat(), insight_id))
+        conn.commit()
+
+        # Run the sync SQL logic
+        conn.execute("UPDATE latest_insights SET display_on_main = 0 WHERE archived_date IS NULL")
+        conn.execute(
+            """
+            UPDATE latest_insights SET display_on_main = 1
+            WHERE id IN (
+                SELECT li.id FROM latest_insights li
+                INNER JOIN deep_dive_content ddc ON ddc.insight_id = li.id
+                WHERE li.archived_date IS NULL
+                ORDER BY li.source_date DESC, li.id DESC
+                LIMIT 8
+            )
+            """
+        )
+        conn.execute(
+            """
+            UPDATE podcast_episodes
+            SET added_to_site = CASE
+                WHEN id IN (
+                    SELECT li.podcast_episode_id
+                    FROM latest_insights li
+                    INNER JOIN deep_dive_content ddc ON ddc.insight_id = li.id
+                    WHERE li.archived_date IS NULL
+                      AND li.podcast_episode_id IS NOT NULL
+                ) THEN 1 ELSE 0 END
+            WHERE id IN (
+                SELECT DISTINCT podcast_episode_id FROM latest_insights
+                WHERE podcast_episode_id IS NOT NULL
+            )
+            """
+        )
+        conn.commit()
+
+        # Verify: archived insight's episode should have added_to_site=0
+        cur = conn.execute("SELECT added_to_site FROM podcast_episodes WHERE id = ?", (ep_id,))
+        assert cur.fetchone()["added_to_site"] == 0, "Episode with archived insight should NOT be added_to_site"
+
+        conn.close()
+
+    def test_main_page_capped_at_max_on_main(self, tmp_path):
+        """Main page (display_on_main=1) should never exceed max_on_main (8)."""
+        db_path = tmp_path / "test.db"
+        _init_test_db(db_path)
+
+        conn = sqlite3.connect(str(db_path))
+        conn.row_factory = sqlite3.Row
+
+        # Create 15 episodes with insights and deep dives
+        for i in range(15):
+            ep_date = date.today() - timedelta(days=i)
+            ep_id = _insert_episode(
+                conn,
+                f"Podcast {i}",
+                f"Episode {i}",
+                ep_date,
+                is_processed=True,
+                added_to_site=False,
+                rss_guid=f"guid-main-{i}",
+            )
+            insight_id = _insert_insight(conn, ep_id, f"Insight {i}", ep_date.isoformat())
+            _insert_deepdive(conn, insight_id, ep_id)
+
+        max_on_main = 8
+
+        # Run the sync SQL logic
+        conn.execute("UPDATE latest_insights SET display_on_main = 0 WHERE archived_date IS NULL")
+        conn.execute(
+            """
+            UPDATE latest_insights SET display_on_main = 1
+            WHERE id IN (
+                SELECT li.id FROM latest_insights li
+                INNER JOIN deep_dive_content ddc ON ddc.insight_id = li.id
+                WHERE li.archived_date IS NULL
+                ORDER BY li.source_date DESC, li.id DESC
+                LIMIT ?
+            )
+            """,
+            (max_on_main,),
+        )
+        conn.execute(
+            """
+            UPDATE podcast_episodes
+            SET added_to_site = CASE
+                WHEN id IN (
+                    SELECT li.podcast_episode_id
+                    FROM latest_insights li
+                    INNER JOIN deep_dive_content ddc ON ddc.insight_id = li.id
+                    WHERE li.archived_date IS NULL
+                      AND li.podcast_episode_id IS NOT NULL
+                ) THEN 1 ELSE 0 END
+            WHERE id IN (
+                SELECT DISTINCT podcast_episode_id FROM latest_insights
+                WHERE podcast_episode_id IS NOT NULL
+            )
+            """
+        )
+        conn.commit()
+
+        # Verify: exactly 8 on main
+        cur = conn.execute("SELECT COUNT(*) as c FROM latest_insights WHERE display_on_main = 1")
+        main_count = cur.fetchone()["c"]
+        assert main_count == 8, f"Main page should have exactly 8, got {main_count}"
+
+        # Verify: all 15 site-published
+        cur = conn.execute("SELECT COUNT(*) as c FROM podcast_episodes WHERE added_to_site = 1")
+        published_count = cur.fetchone()["c"]
+        assert published_count == 15, f"All 15 should be site-published, got {published_count}"
+
+        conn.close()
 
 
 if __name__ == "__main__":
