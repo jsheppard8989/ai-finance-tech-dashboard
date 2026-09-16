@@ -1,7 +1,7 @@
 {
-  "generated_at": "2026-09-16T10:23:56.656598",
-  "last_updated": "2026-09-16T10:23:56.656598",
-  "last_pipeline_run": "2026-09-16T10:23:56.656598",
+  "generated_at": "2026-09-16T11:05:22.683102",
+  "last_updated": "2026-09-16T11:05:22.683102",
+  "last_pipeline_run": "2026-09-16T11:05:22.683102",
   "main_page": {
     "overton": 13,
     "insights": 8,
@@ -22,7 +22,7 @@
     "transcribed": 9,
     "analyzed": 9,
     "insight_created": 9,
-    "published": 4,
+    "published": 9,
     "total": 9
   },
   "episodes": [
@@ -73,27 +73,12 @@
         "transcribed": true,
         "analyzed": true,
         "insight_created": true,
-        "published": false
+        "published": true
       },
-      "stage_reasons": {
-        "published": "Insight exists but added_to_site=0 \u2014 Deep Dives + export must succeed; run auto_pipeline."
-      },
-      "first_blocker": "published",
-      "remediation_by_stage": {
-        "published": {
-          "action_id": "EXPORT_AND_PUBLISH",
-          "steps": [
-            "Site export runs only after generate_deepdives.py succeeds; if Deep Dives fail, export and git push are skipped.",
-            "Fix Deep Dive errors (see pipeline logs), then run auto_pipeline.py to export site JSON and push.",
-            "When added_to_site=1 on the episode row, this stage turns green."
-          ],
-          "commands": [
-            "cd /Users/jaredsheppard/projects/ai-finance-tech-dashboard/pipeline && python3 generate_deepdives.py",
-            "cd /Users/jaredsheppard/projects/ai-finance-tech-dashboard/pipeline && python3 auto_pipeline.py"
-          ]
-        }
-      },
-      "status": "needs_export"
+      "stage_reasons": {},
+      "first_blocker": null,
+      "remediation_by_stage": {},
+      "status": "complete"
     },
     {
       "id": "5114c6d7-ce69-45f1-945f-d37ea476b349",
@@ -106,27 +91,12 @@
         "transcribed": true,
         "analyzed": true,
         "insight_created": true,
-        "published": false
+        "published": true
       },
-      "stage_reasons": {
-        "published": "Insight exists but added_to_site=0 \u2014 Deep Dives + export must succeed; run auto_pipeline."
-      },
-      "first_blocker": "published",
-      "remediation_by_stage": {
-        "published": {
-          "action_id": "EXPORT_AND_PUBLISH",
-          "steps": [
-            "Site export runs only after generate_deepdives.py succeeds; if Deep Dives fail, export and git push are skipped.",
-            "Fix Deep Dive errors (see pipeline logs), then run auto_pipeline.py to export site JSON and push.",
-            "When added_to_site=1 on the episode row, this stage turns green."
-          ],
-          "commands": [
-            "cd /Users/jaredsheppard/projects/ai-finance-tech-dashboard/pipeline && python3 generate_deepdives.py",
-            "cd /Users/jaredsheppard/projects/ai-finance-tech-dashboard/pipeline && python3 auto_pipeline.py"
-          ]
-        }
-      },
-      "status": "needs_export"
+      "stage_reasons": {},
+      "first_blocker": null,
+      "remediation_by_stage": {},
+      "status": "complete"
     },
     {
       "id": "cea835d1-fb37-4f07-a91e-356e7e5c8fca",
@@ -157,27 +127,12 @@
         "transcribed": true,
         "analyzed": true,
         "insight_created": true,
-        "published": false
+        "published": true
       },
-      "stage_reasons": {
-        "published": "Insight exists but added_to_site=0 \u2014 Deep Dives + export must succeed; run auto_pipeline."
-      },
-      "first_blocker": "published",
-      "remediation_by_stage": {
-        "published": {
-          "action_id": "EXPORT_AND_PUBLISH",
-          "steps": [
-            "Site export runs only after generate_deepdives.py succeeds; if Deep Dives fail, export and git push are skipped.",
-            "Fix Deep Dive errors (see pipeline logs), then run auto_pipeline.py to export site JSON and push.",
-            "When added_to_site=1 on the episode row, this stage turns green."
-          ],
-          "commands": [
-            "cd /Users/jaredsheppard/projects/ai-finance-tech-dashboard/pipeline && python3 generate_deepdives.py",
-            "cd /Users/jaredsheppard/projects/ai-finance-tech-dashboard/pipeline && python3 auto_pipeline.py"
-          ]
-        }
-      },
-      "status": "needs_export"
+      "stage_reasons": {},
+      "first_blocker": null,
+      "remediation_by_stage": {},
+      "status": "complete"
     },
     {
       "id": "e23cdf18-6528-458c-adff-dea4d619dcb3",
@@ -208,27 +163,12 @@
         "transcribed": true,
         "analyzed": true,
         "insight_created": true,
-        "published": false
+        "published": true
       },
-      "stage_reasons": {
-        "published": "Insight exists but added_to_site=0 \u2014 Deep Dives + export must succeed; run auto_pipeline."
-      },
-      "first_blocker": "published",
-      "remediation_by_stage": {
-        "published": {
-          "action_id": "EXPORT_AND_PUBLISH",
-          "steps": [
-            "Site export runs only after generate_deepdives.py succeeds; if Deep Dives fail, export and git push are skipped.",
-            "Fix Deep Dive errors (see pipeline logs), then run auto_pipeline.py to export site JSON and push.",
-            "When added_to_site=1 on the episode row, this stage turns green."
-          ],
-          "commands": [
-            "cd /Users/jaredsheppard/projects/ai-finance-tech-dashboard/pipeline && python3 generate_deepdives.py",
-            "cd /Users/jaredsheppard/projects/ai-finance-tech-dashboard/pipeline && python3 auto_pipeline.py"
-          ]
-        }
-      },
-      "status": "needs_export"
+      "stage_reasons": {},
+      "first_blocker": null,
+      "remediation_by_stage": {},
+      "status": "complete"
     },
     {
       "id": "substack:post:215289811",
@@ -241,27 +181,12 @@
         "transcribed": true,
         "analyzed": true,
         "insight_created": true,
-        "published": false
+        "published": true
       },
-      "stage_reasons": {
-        "published": "Insight exists but added_to_site=0 \u2014 Deep Dives + export must succeed; run auto_pipeline."
-      },
-      "first_blocker": "published",
-      "remediation_by_stage": {
-        "published": {
-          "action_id": "EXPORT_AND_PUBLISH",
-          "steps": [
-            "Site export runs only after generate_deepdives.py succeeds; if Deep Dives fail, export and git push are skipped.",
-            "Fix Deep Dive errors (see pipeline logs), then run auto_pipeline.py to export site JSON and push.",
-            "When added_to_site=1 on the episode row, this stage turns green."
-          ],
-          "commands": [
-            "cd /Users/jaredsheppard/projects/ai-finance-tech-dashboard/pipeline && python3 generate_deepdives.py",
-            "cd /Users/jaredsheppard/projects/ai-finance-tech-dashboard/pipeline && python3 auto_pipeline.py"
-          ]
-        }
-      },
-      "status": "needs_export"
+      "stage_reasons": {},
+      "first_blocker": null,
+      "remediation_by_stage": {},
+      "status": "complete"
     }
   ],
   "available_from_rss": [],
