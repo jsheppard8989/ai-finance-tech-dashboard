@@ -1,6 +1,177 @@
 {
   "insights": [
     {
+      "id": 492,
+      "title": "The AI-Native CRM",
+      "source_type": "podcast",
+      "source_name": "The a16z Show",
+      "source_date": "2026-09-16",
+      "summary": "In this episode of The a16z Show, Lightfield discusses its recent $47 million Series A funding and strategic pivot from a consumer-focused AI tool to a B2B CRM solution. The company emphasizes the importance of high-fidelity business modeling, which integrates customer interactions across platforms, allowing for better data insights and decision-making. With a unique pricing model and a focus on fast-growing customers, Lightfield aims to optimize growth strategies and enhance customer relationship management through innovative technology.",
+      "key_takeaway": "Investing in Lightfield presents an opportunity to capitalize on the growing demand for innovative B2B CRM solutions that prioritize customer insights and flexible pricing models.",
+      "tickers_mentioned": [
+        "NVDA"
+      ],
+      "sentiment": "bullish",
+      "display_on_main": 1,
+      "display_order": 0,
+      "added_date": "2026-09-16",
+      "archived_date": null,
+      "archived_reason": null,
+      "podcast_episode_id": 479
+    },
+    {
+      "id": 493,
+      "title": "The Age of Body Futurism | Ruby Justice Thelot",
+      "source_type": "podcast",
+      "source_name": "The a16z Show",
+      "source_date": "2026-09-15",
+      "summary": "This episode of The a16z Show delves into the complex landscape of modern health and wellness trends, highlighting the significant gap between public awareness and actual usage of innovations like GLP-1 medications. A key theme is the concept of \"paracontent,\" where discussions around trends can overshadow their real-world impact, influencing consumer behavior and creating both opportunities and pitfalls for investors. The conversation also traces the evolution of health optimization practices, from the niche bodybuilding origins of peptides to the mainstreaming of radical self-care, often misattributed to Silicon Valley's influence.\n\nThe analysis further explores the historical context of societal ideals of thinness, linking them to economic conditions and technological advancements, suggesting that future health trends will likely be dynamic. The episode identifies a dual evolution in the quantified self movement, with a simultaneous growth in technological tracking and a resurgence in holistic health practices. Finally, it touches upon the increasing skepticism towards wellness trends on social media, signaling potential backlash and emphasizing the need for transparency and education in marketing within the health and wellness sectors. These insights collectively offer a nuanced perspective on investing in a rapidly evolving consumer health market.",
+      "key_takeaway": "Invest in health and wellness companies that can effectively navigate the dual trends of technological health optimization and holistic practices, while discerning genuine market shifts from social media-amplified \"paracontent\" and preparing for potential consumer backlash.",
+      "tickers_mentioned": [
+        "NVDA"
+      ],
+      "sentiment": "bullish",
+      "display_on_main": 0,
+      "display_order": 0,
+      "added_date": "2026-09-16",
+      "archived_date": null,
+      "archived_reason": null,
+      "podcast_episode_id": 485
+    },
+    {
+      "id": 494,
+      "title": "Satya Nadella on the AI Doomer Slowdown, Microsoft's Master Plan & Who Wins AI",
+      "source_type": "podcast",
+      "source_name": "All-In with Chamath, Jason, Sacks & Friedberg",
+      "source_date": "2026-09-15",
+      "summary": "In this episode, Microsoft CEO Satya Nadella discusses the critical role of AI technology diffusion and the need for enterprises to maintain control over their AI systems. He emphasizes the importance of reliability over raw power in AI development, the economic implications of AI in job creation, and the necessity for interoperability among AI models. The conversation also highlights the significance of competition between open-source and closed-source AI models, as well as the need for international norms in AI safety.",
+      "key_takeaway": "The future of AI investment lies in companies that prioritize reliability, competition, and control over AI technologies while addressing economic impacts and interoperability.",
+      "tickers_mentioned": [
+        "NVDA"
+      ],
+      "sentiment": "neutral",
+      "display_on_main": 0,
+      "display_order": 0,
+      "added_date": "2026-09-16",
+      "archived_date": null,
+      "archived_reason": null,
+      "podcast_episode_id": 484
+    },
+    {
+      "id": 495,
+      "title": "JD Vance on AI, Entitlement Fraud, Iran War, Israel, H-1B Abuse & the Midterms",
+      "source_type": "podcast",
+      "source_name": "All-In with Chamath, Jason, Sacks & Friedberg",
+      "source_date": "2026-09-15",
+      "summary": "In this episode, the hosts discuss significant economic shifts in the U.S., including a notable reduction in illegal immigration and a bipartisan push for reindustrialization. They highlight the importance of managing inflation, which currently sits at 3.5%, and the need for increased investment in energy infrastructure to close the gap with China. The conversation also touches on fiscal responsibility, fraud reduction in federal programs, and reforms to the H1B visa program, all of which present various investment implications.",
+      "key_takeaway": "The U.S. is undergoing a critical transition towards reindustrialization and improved fiscal management, creating investment opportunities in manufacturing and energy sectors.",
+      "tickers_mentioned": [
+        "NVDA"
+      ],
+      "sentiment": "neutral",
+      "display_on_main": 1,
+      "display_order": 0,
+      "added_date": "2026-09-16",
+      "archived_date": null,
+      "archived_reason": null,
+      "podcast_episode_id": 483
+    },
+    {
+      "id": 496,
+      "title": "Elon Musk & Gwynne Shotwell on AI Risks and Peer Review, Starship, Terafab, SpaceX/Tesla Merger",
+      "source_type": "podcast",
+      "source_name": "All-In with Chamath, Jason, Sacks & Friedberg",
+      "source_date": "2026-09-15",
+      "summary": "The podcast discusses SpaceX's strategic initiatives, particularly focusing on Starlink's growth potential and the innovative use of space for data centers. With current market penetration at only 1.5% to 2%, Starlink is poised for significant revenue growth. Additionally, the development of a fully reusable Starship and the integration of AI into operations are highlighted as critical components for reducing costs and enhancing competitiveness in the aerospace sector.",
+      "key_takeaway": "Investors should focus on SpaceX's innovative strategies, particularly in Starlink and reusable rocket technology, as key drivers of future revenue growth.",
+      "tickers_mentioned": [
+        "NVDA"
+      ],
+      "sentiment": "bullish",
+      "display_on_main": 1,
+      "display_order": 0,
+      "added_date": "2026-09-16",
+      "archived_date": null,
+      "archived_reason": null,
+      "podcast_episode_id": 482
+    },
+    {
+      "id": 497,
+      "title": "Martine Rothblatt: Growing Unlimited Organs, AI Consciousness, & Digital Personhood by 2030",
+      "source_type": "podcast",
+      "source_name": "Moonshots with Peter Diamandis",
+      "source_date": "2026-09-15",
+      "summary": "In this episode, Peter Diamandis and Martin Rothblatt delve into the transformative potential of biotechnology, particularly in organ regeneration and longevity. They discuss the thymus gland's role in aging and the promise of therapies aimed at rejuvenating it within the next decade. Rothblatt emphasizes the importance of scalable technologies that can impact billions of lives, while also exploring the intersection of AI and health, highlighting the need for practical solutions in biotechnology to address challenges such as organ shortages.",
+      "key_takeaway": "Investing in companies focused on thymic rejuvenation and scalable organ regeneration technologies presents a compelling opportunity in the burgeoning biotechnology sector.",
+      "tickers_mentioned": [
+        "UTHR"
+      ],
+      "sentiment": "bullish",
+      "display_on_main": 1,
+      "display_order": 0,
+      "added_date": "2026-09-16",
+      "archived_date": null,
+      "archived_reason": null,
+      "podcast_episode_id": 478
+    },
+    {
+      "id": 498,
+      "title": "Humanity\u2019s Last Invention \u2014 Richard Socher of Recursive",
+      "source_type": "podcast",
+      "source_name": "Latent Space: The AI Engineer Podcast",
+      "source_date": "2026-09-14",
+      "summary": "In this episode of 'Latent Space: The AI Engineer Podcast', the discussion centers around the transformative potential of AI, particularly the concept of the 'Eureka machine', a proposed superintelligence that could revolutionize scientific discovery. The conversation emphasizes the importance of regulating specific AI applications to prevent misuse while fostering innovation, as well as the need for robust reward engineering to align AI with human values. Additionally, the podcast highlights the significance of open-source AI models in promoting collaboration and the potential for AI to accelerate breakthroughs in various scientific fields.",
+      "key_takeaway": "The core investment opportunity lies in supporting companies that harness AI for scientific advancements while adhering to ethical practices and robust regulatory frameworks.",
+      "tickers_mentioned": [
+        "NVDA"
+      ],
+      "sentiment": "bullish",
+      "display_on_main": 0,
+      "display_order": 0,
+      "added_date": "2026-09-16",
+      "archived_date": null,
+      "archived_reason": null,
+      "podcast_episode_id": 481
+    },
+    {
+      "id": 499,
+      "title": "Jensen Huang: The Doomer Hoax, Superintelligence Is Here, and The Future of AI (ft. President Trump)",
+      "source_type": "podcast",
+      "source_name": "All-In with Chamath, Jason, Sacks & Friedberg",
+      "source_date": "2026-09-14",
+      "summary": "In this episode, Jensen Huang, CEO of Nvidia, discusses the critical balance between innovation and safety in AI development. He emphasizes the importance of accountability in AI job impact predictions and the necessity for robust internal controls as AI labs transition from research to engineering. The conversation highlights the role of open-source AI models in fostering innovation and the competitive edge the U.S. must maintain against global rivals in AI capabilities.",
+      "key_takeaway": "Investing in AI companies that prioritize safety, leverage open-source models, and demonstrate strong operational capabilities will likely yield significant returns as the sector evolves.",
+      "tickers_mentioned": [
+        "NVDA"
+      ],
+      "sentiment": "neutral",
+      "display_on_main": 0,
+      "display_order": 0,
+      "added_date": "2026-09-16",
+      "archived_date": null,
+      "archived_reason": null,
+      "podcast_episode_id": 480
+    },
+    {
+      "id": 500,
+      "title": "Greg Brockman on Why OpenAI Says We\u2019re Entering the AGI Era",
+      "source_type": "podcast",
+      "source_name": "The a16z Show",
+      "source_date": "2026-09-14",
+      "summary": "In this episode of The a16z Show, OpenAI's declaration of entering the AGI era with the Astra model is explored, highlighting significant advancements in AI capabilities. The discussion emphasizes the growing demand for compute resources, the evolving role of AI in cybersecurity, and the potential for job creation and entrepreneurship driven by AI technologies. OpenAI's commitment to enhancing cybersecurity for critical infrastructure and the need for better public communication about AI's benefits are also key themes.",
+      "key_takeaway": "The core investment opportunity lies in companies that are at the forefront of AGI development and those enhancing compute infrastructure to meet rising AI demands.",
+      "tickers_mentioned": [
+        "NVDA"
+      ],
+      "sentiment": "bullish",
+      "display_on_main": 0,
+      "display_order": 0,
+      "added_date": "2026-09-16",
+      "archived_date": null,
+      "archived_reason": null,
+      "podcast_episode_id": 477
+    },
+    {
       "id": 489,
       "title": "World Models, Robotics, and the Future of 3D AI",
       "source_type": "podcast",
@@ -12,7 +183,7 @@
         "NVDA"
       ],
       "sentiment": "bearish",
-      "display_on_main": 1,
+      "display_on_main": 0,
       "display_order": 0,
       "added_date": "2026-09-13",
       "archived_date": null,
@@ -31,7 +202,7 @@
         "NVDA"
       ],
       "sentiment": "bullish",
-      "display_on_main": 1,
+      "display_on_main": 0,
       "display_order": 0,
       "added_date": "2026-09-13",
       "archived_date": null,
@@ -50,7 +221,7 @@
         "NVDA"
       ],
       "sentiment": "bullish",
-      "display_on_main": 1,
+      "display_on_main": 0,
       "display_order": 0,
       "added_date": "2026-09-13",
       "archived_date": null,
@@ -69,7 +240,7 @@
         "NVDA"
       ],
       "sentiment": "bullish",
-      "display_on_main": 1,
+      "display_on_main": 0,
       "display_order": 0,
       "added_date": "2026-09-12",
       "archived_date": null,
@@ -9467,8 +9638,8 @@
       "term": "e-values",
       "description": "A measure of the value of technology, particularly in the context of AI and healthcare, which is used to assess the pricing and usefulness of different models and technologies.",
       "first_detected_date": "2026-08-24",
-      "last_mentioned_date": "2026-09-09",
-      "mention_count": 5,
+      "last_mentioned_date": "2026-09-15",
+      "mention_count": 6,
       "source_podcasts": null,
       "status": "active",
       "investment_implications": "Understanding e-values is crucial for investors to differentiate between valuable and valueless technology in the AI market.",
@@ -9477,16 +9648,16 @@
       "archived_reason": null,
       "first_detected_episode_id": 421,
       "first_detected_speaker": "NG ZDN",
-      "last_mentioned_episode_id": 465,
-      "last_mentioned_speaker": "Ryan Krishneth"
+      "last_mentioned_episode_id": 482,
+      "last_mentioned_speaker": "Gwen Shotwell, Elon Musk"
     },
     {
       "id": 281,
       "term": "Simulation",
       "description": "The use of models and computer programs to represent and analyze real or imagined systems or situations.",
       "first_detected_date": "2026-08-21",
-      "last_mentioned_date": "2026-09-13",
-      "mention_count": 13,
+      "last_mentioned_date": "2026-09-15",
+      "mention_count": 15,
       "source_podcasts": null,
       "status": "active",
       "investment_implications": "Simulation technology can provide significant insights for decision-making, making investments in this area potentially valuable.",
@@ -9495,8 +9666,8 @@
       "archived_reason": null,
       "first_detected_episode_id": 420,
       "first_detected_speaker": "June",
-      "last_mentioned_episode_id": 475,
-      "last_mentioned_speaker": "Peter Diamandis (hosts)"
+      "last_mentioned_episode_id": 482,
+      "last_mentioned_speaker": "Gwen Shotwell, Elon Musk"
     },
     {
       "id": 272,
@@ -9809,8 +9980,8 @@
       "term": "Healthspan",
       "description": "The period of life spent in good health, free from chronic disease and disability, as distinguished from simple lifespan extension.",
       "first_detected_date": "2026-06-29",
-      "last_mentioned_date": "2026-09-09",
-      "mention_count": 9,
+      "last_mentioned_date": "2026-09-15",
+      "mention_count": 10,
       "source_podcasts": null,
       "status": "active",
       "investment_implications": "Consumer willingness to pay directly for healthspan optimization creates premium pricing power and recurring revenue opportunities outside insurance reimbursement.",
@@ -9819,16 +9990,16 @@
       "archived_reason": null,
       "first_detected_episode_id": 319,
       "first_detected_speaker": "Peter Diamandis (hosts)",
-      "last_mentioned_episode_id": 468,
-      "last_mentioned_speaker": "Jacob Bondas, Salim Ismail"
+      "last_mentioned_episode_id": 478,
+      "last_mentioned_speaker": "Martin Rothblatt"
     },
     {
       "id": 255,
       "term": "AI Boom",
       "description": "A period characterized by rapid technological advancement, significant investment, and widespread adoption of artificial intelligence, leading to substantial economic growth and wealth creation.",
       "first_detected_date": "2026-06-29",
-      "last_mentioned_date": "2026-09-10",
-      "mention_count": 11,
+      "last_mentioned_date": "2026-09-15",
+      "mention_count": 13,
       "source_podcasts": null,
       "status": "active",
       "investment_implications": "This era presents unparalleled opportunities for investors to back innovative startups and capitalize on transformative industry shifts.",
@@ -9837,8 +10008,8 @@
       "archived_reason": null,
       "first_detected_episode_id": 320,
       "first_detected_speaker": "Leakwet Ahamed",
-      "last_mentioned_episode_id": 467,
-      "last_mentioned_speaker": "Matt Barry"
+      "last_mentioned_episode_id": 485,
+      "last_mentioned_speaker": "Martin Rothblatt"
     },
     {
       "id": 279,
@@ -9863,8 +10034,8 @@
       "term": "Hyperscalers",
       "description": "Massive cloud computing providers (Amazon, Google, Microsoft, Meta) whose data center power demands are reshaping electricity markets and enabling new energy infrastructure financing.",
       "first_detected_date": "2026-06-19",
-      "last_mentioned_date": "2026-09-11",
-      "mention_count": 34,
+      "last_mentioned_date": "2026-09-14",
+      "mention_count": 35,
       "source_podcasts": null,
       "status": "active",
       "investment_implications": "Their 20-year PPAs are the demand anchor making previously uneconomic nuclear projects bankable; track PPA announcements as leading indicators for nuclear buildout.",
@@ -9873,16 +10044,16 @@
       "archived_reason": null,
       "first_detected_episode_id": 302,
       "first_detected_speaker": "Chamath Palihapitiya, Jason Calacanis (hosts)",
-      "last_mentioned_episode_id": 469,
-      "last_mentioned_speaker": "John Ferris"
+      "last_mentioned_episode_id": 480,
+      "last_mentioned_speaker": "Jensen Huang"
     },
     {
       "id": 256,
       "term": "Authenticity",
       "description": "The quality of being genuine or original, often associated with products or businesses that have a personal, non-corporate touch.",
       "first_detected_date": "2026-06-19",
-      "last_mentioned_date": "2026-08-18",
-      "mention_count": 5,
+      "last_mentioned_date": "2026-09-15",
+      "mention_count": 6,
       "source_podcasts": null,
       "status": "active",
       "investment_implications": "Authentic family businesses are increasingly valued by consumers, especially younger generations, for their perceived trustworthiness and connection to tradition.",
@@ -9891,8 +10062,8 @@
       "archived_reason": null,
       "first_detected_episode_id": 301,
       "first_detected_speaker": null,
-      "last_mentioned_episode_id": 413,
-      "last_mentioned_speaker": "Andy Yunnan Way"
+      "last_mentioned_episode_id": 478,
+      "last_mentioned_speaker": "Martin Rothblatt"
     },
     {
       "id": 266,
@@ -10043,8 +10214,8 @@
       "term": "AI Personhood",
       "description": "The concept of whether AI can be granted legal personhood or rights, as seen in the debate over AI being listed as an inventor on patents.",
       "first_detected_date": "2026-06-08",
-      "last_mentioned_date": "2026-08-15",
-      "mention_count": 20,
+      "last_mentioned_date": "2026-09-15",
+      "mention_count": 21,
       "source_podcasts": null,
       "status": "active",
       "investment_implications": "Companies should consider how evolving IP laws may affect their innovations and strategies for protecting AI-generated inventions.",
@@ -10053,8 +10224,8 @@
       "archived_reason": null,
       "first_detected_episode_id": 271,
       "first_detected_speaker": "Peter Diamandis",
-      "last_mentioned_episode_id": 434,
-      "last_mentioned_speaker": "Peter Diamandis (hosts)"
+      "last_mentioned_episode_id": 478,
+      "last_mentioned_speaker": "Martin Rothblatt"
     },
     {
       "id": 59,
@@ -10115,8 +10286,8 @@
       "term": "SaaS Apocalypse",
       "description": "A term used to describe the significant sell-off in software as a service (SaaS) stocks due to AI disruption.",
       "first_detected_date": "2026-06-03",
-      "last_mentioned_date": "2026-08-29",
-      "mention_count": 13,
+      "last_mentioned_date": "2026-09-16",
+      "mention_count": 14,
       "source_podcasts": null,
       "status": "active",
       "investment_implications": "This presents an opportunity for investors to find undervalued SaaS companies that can emerge stronger post-disruption.",
@@ -10125,8 +10296,8 @@
       "archived_reason": null,
       "first_detected_episode_id": 257,
       "first_detected_speaker": null,
-      "last_mentioned_episode_id": 442,
-      "last_mentioned_speaker": "Chamath Palihapitiya, Jason Calacanis (hosts)"
+      "last_mentioned_episode_id": 479,
+      "last_mentioned_speaker": "Keith Perez"
     },
     {
       "id": 275,
@@ -10349,8 +10520,8 @@
       "term": "Singularity",
       "description": "A hypothetical point in the future at which technological growth becomes uncontrollable and irreversible, leading to unforeseeable changes in human civilization.",
       "first_detected_date": "2026-05-15",
-      "last_mentioned_date": "2026-09-13",
-      "mention_count": 68,
+      "last_mentioned_date": "2026-09-15",
+      "mention_count": 69,
       "source_podcasts": null,
       "status": "active",
       "investment_implications": "Investors should consider the potential for rapid technological change and its impact on various sectors, including AI, when making long-term investment decisions.",
@@ -10359,16 +10530,16 @@
       "archived_reason": null,
       "first_detected_episode_id": 221,
       "first_detected_speaker": null,
-      "last_mentioned_episode_id": 475,
-      "last_mentioned_speaker": "Peter Diamandis (hosts)"
+      "last_mentioned_episode_id": 478,
+      "last_mentioned_speaker": "Martin Rothblatt"
     },
     {
       "id": 97,
       "term": "Distillation",
       "description": "The practice of training a smaller or different AI model on the outputs of a larger, more capable model to transfer capabilities at lower cost.",
       "first_detected_date": "2026-05-15",
-      "last_mentioned_date": "2026-09-12",
-      "mention_count": 49,
+      "last_mentioned_date": "2026-09-15",
+      "mention_count": 50,
       "source_podcasts": null,
       "status": "active",
       "investment_implications": "A deflationary force on model costs that reshapes competitive dynamics and margin structures across the AI stack.",
@@ -10377,8 +10548,8 @@
       "archived_reason": null,
       "first_detected_episode_id": 221,
       "first_detected_speaker": null,
-      "last_mentioned_episode_id": 473,
-      "last_mentioned_speaker": "Dave Blenden, Alex Weesner"
+      "last_mentioned_episode_id": 482,
+      "last_mentioned_speaker": "Gwen Shotwell, Elon Musk"
     },
     {
       "id": 174,
@@ -10473,20 +10644,20 @@
     {
       "id": 161,
       "term": "AGI",
-      "description": "Artificial General Intelligence, the threshold at which AI systems can perform any intellectual task that a human can, now claimed to have arrived according to the episode's discussion.",
+      "description": "AGI refers to Artificial General Intelligence, a type of AI that can understand, learn, and apply intelligence across a wide range of tasks, similar to human cognitive abilities.",
       "first_detected_date": "2026-05-07",
-      "last_mentioned_date": "2026-09-13",
-      "mention_count": 95,
+      "last_mentioned_date": "2026-09-14",
+      "mention_count": 97,
       "source_podcasts": null,
       "status": "active",
-      "investment_implications": "AGI arrival compresses timelines for automation and productivity gains but amplifies regulatory and catastrophic-risk premiums across AI-exposed portfolios.",
+      "investment_implications": "Investors should focus on companies developing AGI technologies as they are likely to drive significant industry transformations.",
       "display_on_main": 1,
       "archived_date": null,
       "archived_reason": null,
       "first_detected_episode_id": 204,
       "first_detected_speaker": "Demis Hassabis",
-      "last_mentioned_episode_id": 475,
-      "last_mentioned_speaker": "Peter Diamandis (hosts)"
+      "last_mentioned_episode_id": 480,
+      "last_mentioned_speaker": "Jensen Huang"
     },
     {
       "id": 162,
@@ -10995,20 +11166,20 @@
     {
       "id": 78,
       "term": "Open-Source AI Models",
-      "description": "AI models whose weights, architecture, and often training data are publicly available, enabling modification, fine-tuning, and deployment without dependency on proprietary API providers.",
+      "description": "AI models that are made publicly available for use and modification, fostering innovation and collaboration.",
       "first_detected_date": "2026-03-29",
-      "last_mentioned_date": "2026-09-07",
-      "mention_count": 23,
+      "last_mentioned_date": "2026-09-14",
+      "mention_count": 25,
       "source_podcasts": null,
       "status": "active",
-      "investment_implications": "Open-source models may commoditize foundation model layers and shift value capture to application layers, infrastructure tooling, and specialized downstream implementations.",
+      "investment_implications": "Companies that adopt or contribute to open-source projects may gain a competitive edge in the AI landscape.",
       "display_on_main": 0,
       "archived_date": null,
       "archived_reason": null,
       "first_detected_episode_id": null,
       "first_detected_speaker": null,
-      "last_mentioned_episode_id": 462,
-      "last_mentioned_speaker": "Lukasz Kaiser"
+      "last_mentioned_episode_id": 481,
+      "last_mentioned_speaker": "Host Name (hosts)"
     },
     {
       "id": 79,
@@ -11285,8 +11456,8 @@
       "term": "AI Factory",
       "description": "A facility or system designed for the production of AI capabilities, including data processing and machine learning models.",
       "first_detected_date": "2026-03-17",
-      "last_mentioned_date": "2026-08-08",
-      "mention_count": 5,
+      "last_mentioned_date": "2026-09-14",
+      "mention_count": 6,
       "source_podcasts": null,
       "status": "active",
       "investment_implications": "The ability to rapidly build and scale AI factories is a competitive advantage in the tech industry.",
@@ -11295,8 +11466,8 @@
       "archived_reason": null,
       "first_detected_episode_id": 71,
       "first_detected_speaker": null,
-      "last_mentioned_episode_id": 406,
-      "last_mentioned_speaker": "Brad Gersner, David Friedberg"
+      "last_mentioned_episode_id": 480,
+      "last_mentioned_speaker": "Jensen Huang"
     },
     {
       "id": 57,
@@ -11499,20 +11670,20 @@
     {
       "id": 64,
       "term": "AI Race",
-      "description": "The competitive dynamic among frontier labs to develop self-improving superintelligence as quickly as possible, often at the expense of safety testing and alignment.",
+      "description": "The competitive landscape in AI development, particularly between the U.S. and other countries like China.",
       "first_detected_date": "2026-03-11",
-      "last_mentioned_date": "2026-09-13",
-      "mention_count": 37,
+      "last_mentioned_date": "2026-09-14",
+      "mention_count": 38,
       "source_podcasts": null,
       "status": "active",
-      "investment_implications": "An unregulated AI Race increases tail-risk for AI leaders and could force punitive policy responses, creating volatility in high-multiple tech names.",
+      "investment_implications": "Understanding the AI race is crucial for identifying investment opportunities in companies that can maintain a competitive edge.",
       "display_on_main": 0,
       "archived_date": null,
       "archived_reason": null,
       "first_detected_episode_id": 60,
       "first_detected_speaker": null,
-      "last_mentioned_episode_id": 475,
-      "last_mentioned_speaker": "Peter Diamandis (hosts)"
+      "last_mentioned_episode_id": 480,
+      "last_mentioned_speaker": "Jensen Huang"
     },
     {
       "id": 12,
@@ -11535,20 +11706,20 @@
     {
       "id": 95,
       "term": "Reindustrialization",
-      "description": "The onshoring of manufacturing and energy-intensive industry requiring reliable baseload power, favoring nuclear over intermittent renewables for industrial clusters.",
+      "description": "The process of rebuilding and revitalizing the manufacturing sector of an economy.",
       "first_detected_date": "2026-03-04",
-      "last_mentioned_date": "2026-09-03",
-      "mention_count": 9,
+      "last_mentioned_date": "2026-09-15",
+      "mention_count": 10,
       "source_podcasts": null,
       "status": "active",
-      "investment_implications": "US industrial policy (CHIPS Act, IRA) is creating demand pockets where nuclear's reliability premium commands higher returns than merchant power markets.",
+      "investment_implications": "This shift presents opportunities for investors in manufacturing and related industries as the U.S. seeks to enhance production capabilities.",
       "display_on_main": 0,
       "archived_date": null,
       "archived_reason": null,
       "first_detected_episode_id": 40,
       "first_detected_speaker": null,
-      "last_mentioned_episode_id": 453,
-      "last_mentioned_speaker": "Dr. Carley Anderson"
+      "last_mentioned_episode_id": 483,
+      "last_mentioned_speaker": "Chamath Palihapitiya, Jason Calacanis (hosts)"
     },
     {
       "id": 112,
@@ -11573,8 +11744,8 @@
       "term": "AI Agents",
       "description": "Autonomous AI systems capable of collaborating in large swarms to solve complex problems, exemplified by the use of 10,000 agents to tackle the Navier-Stokes millennium prize problem.",
       "first_detected_date": "2026-02-28",
-      "last_mentioned_date": "2026-09-13",
-      "mention_count": 89,
+      "last_mentioned_date": "2026-09-15",
+      "mention_count": 93,
       "source_podcasts": null,
       "status": "active",
       "investment_implications": "Agentic swarms represent the next compute demand layer beyond chatbots, driving infrastructure needs and opening enterprise automation markets.",
@@ -11583,8 +11754,8 @@
       "archived_reason": null,
       "first_detected_episode_id": 31,
       "first_detected_speaker": null,
-      "last_mentioned_episode_id": 475,
-      "last_mentioned_speaker": "Peter Diamandis (hosts)"
+      "last_mentioned_episode_id": 482,
+      "last_mentioned_speaker": "Gwen Shotwell, Elon Musk"
     },
     {
       "id": 38,
