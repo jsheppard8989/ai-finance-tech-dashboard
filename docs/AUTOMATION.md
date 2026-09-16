@@ -29,6 +29,38 @@ This doc explains how the 10pm pipeline is scheduled, why **sleep can prevent it
 
 ---
 
+## LLM Provider Configuration
+
+The transcript analyzer (`analyze_transcript.py`) supports multiple LLM providers. Configure which provider to use:
+
+**Default priority** (when `ANALYZE_BACKEND` is not set): Gemini → OpenAI → Moonshot
+
+**Explicit selection** via `ANALYZE_BACKEND` env var:
+- `ANALYZE_BACKEND=gemini` — requires `GEMINI_API_KEY` in `.env`
+- `ANALYZE_BACKEND=openai` — requires `OPENAI_API_KEY` in `.env`
+- `ANALYZE_BACKEND=moonshot` — requires `MOONSHOT_API_KEY` in `.env`
+
+When `ANALYZE_BACKEND` is set explicitly, the selected provider's API key **must exist**. The pipeline will fail clearly if the key is missing (no silent fallback to other providers).
+
+### Quick setup for Mac pipeline
+
+Once you identify the funded provider (run `python3 check_llm_api_keys.py` to verify), set the env var in the launchd plist or `.env`:
+
+**Option A: Edit `.env`** (pipeline reads it):
+```bash
+echo "ANALYZE_BACKEND=gemini" >> pipeline/.env
+```
+
+**Option B: Edit launchd plist** (`com.scarcity.pipeline.daemon.plist`):
+```xml
+<key>ANALYZE_BACKEND</key>
+<string>gemini</string>
+```
+
+Then reload: `scripts/reload_pipeline_daemon.sh`
+
+---
+
 ## Active scheduler (canonical)
 
 **Use `com.scarcity.pipeline.daemon` only** — polls every 45 minutes and runs the full pipeline when:

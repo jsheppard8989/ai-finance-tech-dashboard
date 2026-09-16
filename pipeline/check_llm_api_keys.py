@@ -103,14 +103,22 @@ def _try_gemini() -> tuple[str, bool, str]:
 
 def main() -> int:
     print("LLM API probes (keys never shown):\n")
-    results = [_try_moonshot(), _try_openai(), _try_gemini()]
+    results = [_try_gemini(), _try_openai(), _try_moonshot()]
     for name, ok, detail in results:
         status = "OK " if ok else "FAIL"
         print(f"  {status}  {name:10}  {detail}")
     print(
-        "\nNote: Transcript analysis uses get_ai_client() priority: Moonshot (auth profile or MOONSHOT_API_KEY) → Gemini → OpenAI."
+        "\nDefault priority (no ANALYZE_BACKEND set): Gemini → OpenAI → Moonshot."
     )
-    print("Model defaults (env-overridable): Moonshot=kimi-k2.6, OpenAI=gpt-4o-mini, Gemini=gemini-1.5-flash.")
+    print(
+        "\nExplicit provider: Set ANALYZE_BACKEND=gemini|openai|moonshot to force a specific provider."
+    )
+    print(
+        "When ANALYZE_BACKEND is set, the selected provider's key MUST exist (no fallback)."
+    )
+    print(
+        "\nModel defaults (env-overridable): Moonshot=kimi-k2.6, OpenAI=gpt-4o-mini, Gemini=gemini-1.5-flash."
+    )
     print("Override via DEBATE_LLM_MODEL / MOONSHOT_MODEL, OPENAI_DEBATE_MODEL / OPENAI_MODEL, GEMINI_DEBATE_MODEL / GEMINI_MODEL.")
     return 0 if any(r[1] for r in results) else 1
 

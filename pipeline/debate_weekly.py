@@ -308,9 +308,13 @@ def load_context_from_db() -> Tuple[List[str], List[str]]:
 
 
 def get_ai_client():
-    from analyze_transcript import get_ai_client as _gc
-
-    return _gc()
+    from analyze_transcript import get_ai_client as _gc, ProviderKeyMissingError
+    
+    try:
+        return _gc()
+    except ProviderKeyMissingError as e:
+        print(f"  ✗ Provider configuration error: {e}")
+        return None
 
 
 def _strip_json_fence(s: str) -> str:
