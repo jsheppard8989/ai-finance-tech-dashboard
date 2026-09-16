@@ -1,5 +1,277 @@
 [
   {
+    "id": 459,
+    "name": "Satya Nadella",
+    "slug": "satya-nadella",
+    "bio": "CEO of Microsoft, leading the company's vision and strategy in AI and technology.",
+    "known_for": "Transforming Microsoft into a leader in cloud computing and AI.",
+    "net_worth_usd": null,
+    "net_worth_source": null,
+    "net_worth_updated_at": null,
+    "voice_tone": "Confident and insightful",
+    "voice_style": "Analytical with a focus on practical implications",
+    "voice_delivery_notes": "Paced with emphasis on key points.",
+    "voice_profile_updated_at": "2026-09-16 15:21:39",
+    "last_seen": "2026-09-16 15:21:39",
+    "last_episode_title": "Satya Nadella on the AI Doomer Slowdown, Microsoft's Master Plan & Who Wins AI",
+    "last_podcast_name": "All-In with Chamath, Jason, Sacks & Friedberg",
+    "last_episode_date": "2026-09-15",
+    "mention_score": 1,
+    "mention_score_decayed": 1,
+    "last_main_idea": "The future of AI investment lies in companies that prioritize reliability, competition, and control over AI technologies while addressing economic impacts and interoperability.",
+    "last_proof_cite": "All-In with Chamath, Jason, Sacks & Friedberg \u2022 2026-09-15 \u2022 Satya Nadella on the AI Doomer Slowdown, Microsoft's Master Plan & Who Wins AI",
+    "last_proof_snippet": "is generated $250 billion with a B and market value from Microsoft. Dots in the Dell Achievement in CEO of Microsoft. And you've been the CEO three and a half years. The stock is up about, I guess it's about 120 percent. I'm good for my 80",
+    "supporting_takeaway": "Enterprises must focus on AI solutions that allow for customization and control over data privacy.",
+    "grokipedia_url": null,
+    "grokipedia_fetched_at": null,
+    "pundit_profile": null
+  },
+  {
+    "id": 81,
+    "name": "Elon Musk",
+    "slug": "elon-musk",
+    "bio": "Elon Musk is the CEO of SpaceX, recognized for his visionary approach to space exploration and technology.",
+    "known_for": "Pioneering advancements in space travel and reusable rocket technology.",
+    "net_worth_usd": 270100000000.0,
+    "net_worth_source": "https://www.wikidata.org/wiki/Q317521",
+    "net_worth_updated_at": "2026-03-19T15:06:00.316451",
+    "voice_tone": "Visionary and passionate",
+    "voice_style": "Engaging and thought-provoking with a focus on future possibilities.",
+    "voice_delivery_notes": "Dynamic pacing with emphasis on transformative ideas.",
+    "voice_profile_updated_at": "2026-09-16 15:21:25",
+    "last_seen": "2026-09-16 15:21:25",
+    "last_episode_title": "Elon Musk & Gwynne Shotwell on AI Risks and Peer Review, Starship, Terafab, SpaceX/Tesla Merger",
+    "last_podcast_name": "All-In with Chamath, Jason, Sacks & Friedberg",
+    "last_episode_date": "2026-09-15",
+    "mention_score": 4,
+    "mention_score_decayed": 4,
+    "last_main_idea": "Investors should focus on SpaceX's innovative strategies, particularly in Starlink and reusable rocket technology, as key drivers of future revenue growth.",
+    "last_proof_cite": "All-In with Chamath, Jason, Sacks & Friedberg \u2022 2026-09-15 \u2022 Elon Musk & Gwynne Shotwell on AI Risks and Peer Review, Starship, Terafab, SpaceX/Tesla Merger",
+    "last_proof_snippet": "What's her latest time that I'm getting to Mars? Getting to Mars? Well, I think we'll put people down within a decade. Welcome Gwen Shotwell, the president and CEO of Space X. She's an instrumental, a really crucial person to success the sp",
+    "supporting_takeaway": "SpaceX's plan to establish data centers in space could significantly reduce operational costs and expedite deployment.",
+    "grokipedia_url": null,
+    "grokipedia_fetched_at": "2026-08-21T23:37:11.055855",
+    "pundit_profile": {
+      "source": "llm",
+      "source_model": "moonshot:moonshot-v1-8k",
+      "source_url": "",
+      "page_title": "Elon Musk",
+      "fetched_at": "2026-08-22T04:37:11.055483+00:00",
+      "cliff_notes": "Elon Musk was born in Pretoria, South Africa, and moved to the United States in 1995 to attend university. He dropped out of Stanford University's Ph.D. program in applied physics to start Zip2, a company that provided business directories and maps for newspapers. After selling Zip2, Musk co-founded X.com, which later became PayPal. He then founded SpaceX in 2002 with the goal of reducing space transportation costs and enabling the colonization of Mars. In 2004, Musk became an early investor in Tesla, an electric vehicle company, and later took over as CEO. Under his leadership, Tesla has become a major player in the electric vehicle market. Musk is also involved in several other ventures, including Neuralink, a neurotechnology company, and The Boring Company, which aims to reduce traffic congestion through underground tunnels. His ambitious goals and innovative ventures have made him a prominent figure in the tech and finance world.",
+      "derived": {
+        "current_role": "CEO of Tesla and SpaceX",
+        "former_positions": "CEO of Zip2; CEO of X.com (later PayPal); CEO of SolarCity",
+        "education": "Bachelor of Science in Physics and Economics from the University of Pennsylvania; transferred to Stanford University for Ph.D. in Applied Physics but left after two days",
+        "political_affiliation": "Independent"
+      },
+      "infobox": {
+        "Born": "June 28, 1971",
+        "Nationality": "South African-born American"
+      },
+      "lead_paragraphs": [
+        "Elon Musk was born in Pretoria, South Africa, and moved to the United States in 1995 to attend university. He dropped out of Stanford University's Ph.D. program in applied physics to start Zip2, a company that provided business directories and maps for newspapers. After selling Zip2, Musk co-founded X.com, which later became PayPal.",
+        "He then founded SpaceX in 2002 with the goal of reducing space transportation costs and enabling the colonization of Mars. In 2004, Musk became an early investor in Tesla, an electric vehicle company, and later took over as CEO. Under his leadership, Tesla has become a major player in the electric vehicle market. Musk is also involved in several other ventures, including Neuralink, a neurotechnology company, and The Boring Company, which aims to reduce traffic congestion through underground tunnels.",
+        "His ambitious goals and innovative ventures have made him a prominent figure in the tech and finance world."
+      ],
+      "sections": [
+        {
+          "heading": "Electric Vehicles",
+          "body": "Musk is the CEO of Tesla, a company that has revolutionized the electric vehicle market with its innovative designs and technology. Tesla's vehicles have set new standards for electric range, performance, and safety."
+        },
+        {
+          "heading": "Space Exploration",
+          "body": "As the CEO of SpaceX, Musk has made significant strides in reducing the cost of space travel and enabling the colonization of Mars. SpaceX has successfully developed reusable rockets and launched numerous satellites, including the Starlink constellation."
+        },
+        {
+          "heading": "Artificial Intelligence",
+          "body": "Musk is involved in AI through his company Neuralink, which aims to develop brain-computer interfaces to treat neurological disorders and enhance human cognition. He has also expressed concerns about the potential risks of AI and the need for regulation."
+        },
+        {
+          "heading": "Infrastructure and Transportation",
+          "body": "Musk founded The Boring Company to address traffic congestion through the development of underground hyperloop and tunnel systems. The company has completed several projects, including a tunnel in Las Vegas."
+        },
+        {
+          "heading": "Renewable Energy",
+          "body": "Tesla is not only an electric vehicle company but also a clean energy company, offering solar panels, solar roofs, and energy storage products. Musk's vision for a sustainable energy future extends beyond electric vehicles."
+        }
+      ]
+    },
+    "net_worth": "$270.10B"
+  },
+  {
+    "id": 458,
+    "name": "Gwen Shotwell",
+    "slug": "gwen-shotwell",
+    "bio": "Gwen Shotwell is the President and COO of SpaceX, known for her leadership in aerospace innovation.",
+    "known_for": "Leading SpaceX's operational strategies and business development.",
+    "net_worth_usd": null,
+    "net_worth_source": null,
+    "net_worth_updated_at": null,
+    "voice_tone": "Confident and assertive",
+    "voice_style": "Direct and informative with a focus on strategic insights.",
+    "voice_delivery_notes": "Paced delivery with emphasis on key operational strategies.",
+    "voice_profile_updated_at": "2026-09-16 15:21:25",
+    "last_seen": "2026-09-16 15:21:25",
+    "last_episode_title": "Elon Musk & Gwynne Shotwell on AI Risks and Peer Review, Starship, Terafab, SpaceX/Tesla Merger",
+    "last_podcast_name": "All-In with Chamath, Jason, Sacks & Friedberg",
+    "last_episode_date": "2026-09-15",
+    "mention_score": 1,
+    "mention_score_decayed": 1,
+    "last_main_idea": "Investors should focus on SpaceX's innovative strategies, particularly in Starlink and reusable rocket technology, as key drivers of future revenue growth.",
+    "last_proof_cite": "All-In with Chamath, Jason, Sacks & Friedberg \u2022 2026-09-15 \u2022 Elon Musk & Gwynne Shotwell on AI Risks and Peer Review, Starship, Terafab, SpaceX/Tesla Merger",
+    "last_proof_snippet": "What's her latest time that I'm getting to Mars? Getting to Mars? Well, I think we'll put people down within a decade. Welcome Gwen Shotwell, the president and CEO of Space X. She's an instrumental, a really crucial person to success the sp",
+    "supporting_takeaway": "SpaceX's plan to establish data centers in space could significantly reduce operational costs and expedite deployment.",
+    "grokipedia_url": null,
+    "grokipedia_fetched_at": null,
+    "pundit_profile": null
+  },
+  {
+    "id": 96,
+    "name": "Jensen Huang",
+    "slug": "jensen-huang",
+    "bio": "CEO of Nvidia, a leading company in AI and graphics technology.",
+    "known_for": "Pioneering advancements in AI and GPU technology.",
+    "net_worth_usd": 151000000000.0,
+    "net_worth_source": "https://www.wikidata.org/wiki/Q305177",
+    "net_worth_updated_at": "2026-03-20T04:40:55.469936",
+    "voice_tone": "Authoritative and insightful.",
+    "voice_style": "Direct and focused on practical implications.",
+    "voice_delivery_notes": "Pacing is steady with emphasis on key points.",
+    "voice_profile_updated_at": "2026-09-16 15:21:12",
+    "last_seen": "2026-09-16 15:21:12",
+    "last_episode_title": "Jensen Huang: The Doomer Hoax, Superintelligence Is Here, and The Future of AI (ft. President Trump)",
+    "last_podcast_name": "All-In with Chamath, Jason, Sacks & Friedberg",
+    "last_episode_date": "2026-09-14",
+    "mention_score": 5,
+    "mention_score_decayed": 5,
+    "last_main_idea": "Investing in AI companies that prioritize safety, leverage open-source models, and demonstrate strong operational capabilities will likely yield significant returns as the sector evolves.",
+    "last_proof_cite": "All-In with Chamath, Jason, Sacks & Friedberg \u2022 2026-09-14 \u2022 Jensen Huang: The Doomer Hoax, Superintelligence Is Here, and The Future of AI (ft. President Trump)",
+    "last_proof_snippet": "Some people call it vision. Vision's an awfully big word to me, because I believe, first of all, vision matters. We preempted the weekly show. And there's only three people we preempt the show for. President Trump, Jesus, and yes. The numbe",
+    "supporting_takeaway": "Investors should critically assess the accuracy of AI job impact forecasts to avoid misguided decisions.",
+    "grokipedia_url": null,
+    "grokipedia_fetched_at": "2026-04-19T22:06:00.617296",
+    "pundit_profile": {
+      "source": "llm",
+      "source_model": "moonshot:moonshot-v1-8k",
+      "source_url": "",
+      "page_title": "Jensen Huang",
+      "fetched_at": "2026-04-20T03:06:00.617074+00:00",
+      "cliff_notes": "Jensen Huang is a Taiwanese-American entrepreneur and engineer who co-founded Nvidia in 1993. With a background in electrical engineering from Stanford University, Huang's vision for Nvidia was to create a new kind of computing platform that could handle complex graphics processing tasks. Over the years, Nvidia has expanded its focus to include artificial intelligence and deep learning, becoming a key player in the development of AI technology. Huang's leadership has been instrumental in positioning Nvidia at the forefront of technological innovation, with the company's GPUs being widely used in gaming, professional visualization, data centers, and automotive markets.",
+      "derived": {
+        "current_role": "Co-founder and CEO of Nvidia",
+        "education": "Stanford University, Master's in Electrical Engineering"
+      },
+      "infobox": {
+        "Born": "February 17, 1963",
+        "Nationality": "American"
+      },
+      "lead_paragraphs": [
+        "Jensen Huang is a Taiwanese-American entrepreneur and engineer who co-founded Nvidia in 1993. With a background in electrical engineering from Stanford University, Huang's vision for Nvidia was to create a new kind of computing platform that could handle complex graphics processing tasks. Over the years, Nvidia has expanded its focus to include artificial intelligence and deep learning, becoming a key player in the development of AI technology.",
+        "Huang's leadership has been instrumental in positioning Nvidia at the forefront of technological innovation, with the company's GPUs being widely used in gaming, professional visualization, data centers, and automotive markets."
+      ],
+      "sections": [
+        {
+          "heading": "Nvidia's Founding",
+          "body": "Jensen Huang co-founded Nvidia in 1993 with Curtis Priem and Chris Malachowsky, with the goal of creating a new computing platform for graphics processing."
+        },
+        {
+          "heading": "GPU Innovation",
+          "body": "Under Huang's leadership, Nvidia has been a pioneer in the development of graphics processing units (GPUs), which have become essential for gaming, professional visualization, and data centers."
+        },
+        {
+          "heading": "AI and Deep Learning",
+          "body": "Nvidia has expanded its focus to include artificial intelligence and deep learning, with Huang's vision driving the company to become a key player in the AI technology space."
+        },
+        {
+          "heading": "Market Dominance",
+          "body": "Nvidia's GPUs are widely used in various markets, including gaming, professional visualization, data centers, and automotive, solidifying the company's position as a dominant force in the technology industry."
+        }
+      ]
+    },
+    "net_worth": "$151.00B"
+  },
+  {
+    "id": 456,
+    "name": "Keith Perez",
+    "slug": "keith-perez",
+    "bio": "CEO of Lightfield, leading the company's strategic pivot and technology development.",
+    "known_for": "Transforming customer relationship management through innovative AI solutions.",
+    "net_worth_usd": null,
+    "net_worth_source": null,
+    "net_worth_updated_at": null,
+    "voice_tone": "Confident and insightful",
+    "voice_style": "Direct and focused on practical implications",
+    "voice_delivery_notes": "Paced delivery with emphasis on key insights",
+    "voice_profile_updated_at": "2026-09-16 15:20:59",
+    "last_seen": "2026-09-16 15:20:59",
+    "last_episode_title": "The AI-Native CRM",
+    "last_podcast_name": "The a16z Show",
+    "last_episode_date": "2026-09-16",
+    "mention_score": 1,
+    "mention_score_decayed": 1,
+    "last_main_idea": "Investing in Lightfield presents an opportunity to capitalize on the growing demand for innovative B2B CRM solutions that prioritize customer insights and flexible pricing models.",
+    "last_proof_cite": "The a16z Show \u2022 2026-09-16 \u2022 The AI-Native CRM",
+    "last_proof_snippet": "Three out of our five founding members came from Facebook, building a revenue team is a very rich problem set. It's something that everyone cares about, it could always be done better. What's the most exciting thing someone's doing with Lig",
+    "supporting_takeaway": "The company's pivot was driven by the need to address real customer pain points and market demands.",
+    "grokipedia_url": null,
+    "grokipedia_fetched_at": null,
+    "pundit_profile": null
+  },
+  {
+    "id": 455,
+    "name": "Martin Rothblatt",
+    "slug": "martin-rothblatt",
+    "bio": "Martin Rothblatt is the founder and CEO of United Therapeutics, a biotechnology company focused on organ regeneration.",
+    "known_for": "Pioneering advancements in biotechnology and organ transplantation.",
+    "net_worth_usd": null,
+    "net_worth_source": null,
+    "net_worth_updated_at": null,
+    "voice_tone": "Informed and passionate",
+    "voice_style": "Rothblatt articulates complex ideas with clarity and conviction.",
+    "voice_delivery_notes": "Pacing is steady, with emphasis on key points to engage listeners.",
+    "voice_profile_updated_at": "2026-09-16 15:20:48",
+    "last_seen": "2026-09-16 15:20:48",
+    "last_episode_title": "Martine Rothblatt: Growing Unlimited Organs, AI Consciousness, & Digital Personhood by 2030",
+    "last_podcast_name": "Moonshots with Peter Diamandis",
+    "last_episode_date": "2026-09-15",
+    "mention_score": 1,
+    "mention_score_decayed": 1,
+    "last_main_idea": "Investing in companies focused on thymic rejuvenation and scalable organ regeneration technologies presents a compelling opportunity in the burgeoning biotechnology sector.",
+    "last_proof_cite": "Moonshots with Peter Diamandis \u2022 2026-09-15 \u2022 Martine Rothblatt: Growing Unlimited Organs, AI Consciousness, & Digital Personhood by 2030",
+    "last_proof_snippet": "When do you think we might reach one Japanese gate for us if you know it's a it's a tough question You're currently focused on rejuvenating heart-liver lung kidney You know fundamental organs that we need but when you said the thymus celebr",
+    "supporting_takeaway": "Scalable biotechnology solutions are essential for significant societal impact and market opportunities.",
+    "grokipedia_url": null,
+    "grokipedia_fetched_at": null,
+    "pundit_profile": null
+  },
+  {
+    "id": 453,
+    "name": "Greg Brockman",
+    "slug": "greg-brockman",
+    "bio": "Greg Brockman is the co-founder and CTO of OpenAI, leading the company's efforts in AI research and deployment.",
+    "known_for": "Known for his work in advancing AI technologies and their applications.",
+    "net_worth_usd": null,
+    "net_worth_source": null,
+    "net_worth_updated_at": null,
+    "voice_tone": "Confident and informative",
+    "voice_style": "Direct and analytical, providing clear insights on AI advancements.",
+    "voice_delivery_notes": "Pacing is steady with emphasis on key points.",
+    "voice_profile_updated_at": "2026-09-16 15:20:41",
+    "last_seen": "2026-09-16 15:20:41",
+    "last_episode_title": "Greg Brockman on Why OpenAI Says We\u2019re Entering the AGI Era",
+    "last_podcast_name": "The a16z Show",
+    "last_episode_date": "2026-09-14",
+    "mention_score": 1,
+    "mention_score_decayed": 1,
+    "last_main_idea": "The core investment opportunity lies in companies that are at the forefront of AGI development and those enhancing compute infrastructure to meet rising AI demands.",
+    "last_proof_cite": "The a16z Show \u2022 2026-09-14 \u2022 Greg Brockman on Why OpenAI Says We\u2019re Entering the AGI Era",
+    "last_proof_snippet": "We're now in the AGI era. Astra has really hit something that I'm like, okay, I think this is pretty reasonable to call it AGI. We've seen it run coherently for 24 hours to go accomplish tasks that I think are quite amazing. The models will",
+    "supporting_takeaway": "Monitor firms in compute infrastructure and cloud services due to rising AI demand.",
+    "grokipedia_url": null,
+    "grokipedia_fetched_at": null,
+    "pundit_profile": null
+  },
+  {
     "id": 452,
     "name": "Freddie Brick",
     "slug": "freddie-brick",
@@ -84,7 +356,7 @@
     "last_podcast_name": "The a16z Show",
     "last_episode_date": "2026-09-13",
     "mention_score": 2,
-    "mention_score_decayed": 1.91,
+    "mention_score_decayed": 1.87,
     "last_main_idea": "Spatial intelligence via multi-modal world models is emerging as a foundational AI layer, offering horizontal disruption across robotics, immersive media, and industrial simulation by replacing expensive physical prototyping with generative three-dimensional reasoning.",
     "last_proof_cite": "The a16z Show \u2022 2026-09-13 \u2022 World Models, Robotics, and the Future of 3D AI",
     "last_proof_snippet": "Language models are these general horizontal engines for processing streams of discrete tax discrete tokens. Those have had tons of applications from you know everything that we know I'm love today. An art thesis is that there exists anothe",
@@ -532,7 +804,7 @@
     "last_podcast_name": "The a16z Show",
     "last_episode_date": "2026-09-08",
     "mention_score": 1,
-    "mention_score_decayed": 0.85,
+    "mention_score_decayed": 0.83,
     "last_main_idea": "AI capabilities are expanding from applied tasks to foundational scientific discovery, creating asymmetric opportunities in companies building advanced reasoning systems and the infrastructure supporting scientific AI, while traditional R&D-intensive industries face disruption or amplification depending on adoption speed.",
     "last_proof_cite": "The a16z Show \u2022 2026-09-08 \u2022 OpenAI Researchers on the Future of Mathematical Reasoning",
     "last_proof_snippet": "Often, it's a practicing mouth-efficient, you have an idea, and then you kind of think it might work, then you try for a few hours if you reach, and at some point, you give up. Whereas for GPT, like, okay, I keep informing you to do this, l",
@@ -729,7 +1001,7 @@
     "last_podcast_name": "The a16z Show",
     "last_episode_date": "2026-09-02",
     "mention_score": 1,
-    "mention_score_decayed": 0.78,
+    "mention_score_decayed": 0.76,
     "last_main_idea": "Moderna is transitioning from a COVID vaccine company to a platform biotech with a validated personalized medicine manufacturing system, where the melanoma approval would de-risk expansion into a $100B+ addressable market across oncology and autoimmune disease.",
     "last_proof_cite": "The a16z Show \u2022 2026-09-02 \u2022 Inside Moderna\u2019s Personalized Cancer Vaccine",
     "last_proof_snippet": "So first time there is a cancer vaccine working but field has been doing that for 20 plus years more than a thousand clinical trials that have all failed. What was different this time? What is it about mRNA technology that enables the immun",
@@ -772,78 +1044,6 @@
     "net_worth": "$6.00B"
   },
   {
-    "id": 81,
-    "name": "Elon Musk",
-    "slug": "elon-musk",
-    "bio": "CEO of Tesla, SpaceX, and xAI; serial entrepreneur focused on sustainable energy, space exploration, and artificial intelligence.",
-    "known_for": "Building multi-billion dollar companies across EVs, space, and AI; world's wealthiest individual as of 2024",
-    "net_worth_usd": 270100000000.0,
-    "net_worth_source": "https://www.wikidata.org/wiki/Q317521",
-    "net_worth_updated_at": "2026-03-19T15:06:00.316451",
-    "voice_tone": "Confident, matter-of-fact, occasionally apocalyptic",
-    "voice_style": "Uses specific numerical projections to anchor arguments, frames problems in existential risk terms",
-    "voice_delivery_notes": "Speak with deliberate pacing on technical claims; his numbers-heavy assertions land with more weight when slightly slowed",
-    "voice_profile_updated_at": "2026-09-04 13:46:05",
-    "last_seen": "2026-09-04 13:46:05",
-    "last_episode_title": "Humanity's First Star Probe, Architect Labs Beats NVIDIA 3.4x, Musk Wants Satellites to Cool Earth | EP #285",
-    "last_podcast_name": "Moonshots with Peter Diamandis",
-    "last_episode_date": "2026-09-02",
-    "mention_score": 3,
-    "mention_score_decayed": 2.33,
-    "last_main_idea": "The convergence of AI compute demand and energy infrastructure constraints creates a dual-investment opportunity in renewable energy production and next-generation chip architectures, while nuclear propulsion and geoengineering represent emerging frontier markets with significant government backing.",
-    "last_proof_cite": "Moonshots with Peter Diamandis \u2022 2026-09-02 \u2022 Humanity's First Star Probe, Architect Labs Beats NVIDIA 3.4x, Musk Wants Satellites to Cool Earth | EP #285",
-    "last_proof_snippet": "The first interstellar mission to Alpha Centauri. Philip and Matt are here to join the Moonshot Mates. Are we the first kid on the block? Or are we now auditioning for a membership in a Cosmic Club? And the ticket to entry is, can you handl",
-    "supporting_takeaway": "Energy infrastructure is the critical bottleneck for AI expansion - 15 GW of 2027 compute capacity may be stranded without power",
-    "grokipedia_url": null,
-    "grokipedia_fetched_at": "2026-08-21T23:37:11.055855",
-    "pundit_profile": {
-      "source": "llm",
-      "source_model": "moonshot:moonshot-v1-8k",
-      "source_url": "",
-      "page_title": "Elon Musk",
-      "fetched_at": "2026-08-22T04:37:11.055483+00:00",
-      "cliff_notes": "Elon Musk was born in Pretoria, South Africa, and moved to the United States in 1995 to attend university. He dropped out of Stanford University's Ph.D. program in applied physics to start Zip2, a company that provided business directories and maps for newspapers. After selling Zip2, Musk co-founded X.com, which later became PayPal. He then founded SpaceX in 2002 with the goal of reducing space transportation costs and enabling the colonization of Mars. In 2004, Musk became an early investor in Tesla, an electric vehicle company, and later took over as CEO. Under his leadership, Tesla has become a major player in the electric vehicle market. Musk is also involved in several other ventures, including Neuralink, a neurotechnology company, and The Boring Company, which aims to reduce traffic congestion through underground tunnels. His ambitious goals and innovative ventures have made him a prominent figure in the tech and finance world.",
-      "derived": {
-        "current_role": "CEO of Tesla and SpaceX",
-        "former_positions": "CEO of Zip2; CEO of X.com (later PayPal); CEO of SolarCity",
-        "education": "Bachelor of Science in Physics and Economics from the University of Pennsylvania; transferred to Stanford University for Ph.D. in Applied Physics but left after two days",
-        "political_affiliation": "Independent"
-      },
-      "infobox": {
-        "Born": "June 28, 1971",
-        "Nationality": "South African-born American"
-      },
-      "lead_paragraphs": [
-        "Elon Musk was born in Pretoria, South Africa, and moved to the United States in 1995 to attend university. He dropped out of Stanford University's Ph.D. program in applied physics to start Zip2, a company that provided business directories and maps for newspapers. After selling Zip2, Musk co-founded X.com, which later became PayPal.",
-        "He then founded SpaceX in 2002 with the goal of reducing space transportation costs and enabling the colonization of Mars. In 2004, Musk became an early investor in Tesla, an electric vehicle company, and later took over as CEO. Under his leadership, Tesla has become a major player in the electric vehicle market. Musk is also involved in several other ventures, including Neuralink, a neurotechnology company, and The Boring Company, which aims to reduce traffic congestion through underground tunnels.",
-        "His ambitious goals and innovative ventures have made him a prominent figure in the tech and finance world."
-      ],
-      "sections": [
-        {
-          "heading": "Electric Vehicles",
-          "body": "Musk is the CEO of Tesla, a company that has revolutionized the electric vehicle market with its innovative designs and technology. Tesla's vehicles have set new standards for electric range, performance, and safety."
-        },
-        {
-          "heading": "Space Exploration",
-          "body": "As the CEO of SpaceX, Musk has made significant strides in reducing the cost of space travel and enabling the colonization of Mars. SpaceX has successfully developed reusable rockets and launched numerous satellites, including the Starlink constellation."
-        },
-        {
-          "heading": "Artificial Intelligence",
-          "body": "Musk is involved in AI through his company Neuralink, which aims to develop brain-computer interfaces to treat neurological disorders and enhance human cognition. He has also expressed concerns about the potential risks of AI and the need for regulation."
-        },
-        {
-          "heading": "Infrastructure and Transportation",
-          "body": "Musk founded The Boring Company to address traffic congestion through the development of underground hyperloop and tunnel systems. The company has completed several projects, including a tunnel in Las Vegas."
-        },
-        {
-          "heading": "Renewable Energy",
-          "body": "Tesla is not only an electric vehicle company but also a clean energy company, offering solar panels, solar roofs, and energy storage products. Musk's vision for a sustainable energy future extends beyond electric vehicles."
-        }
-      ]
-    },
-    "net_worth": "$270.10B"
-  },
-  {
     "id": 438,
     "name": "Dr. Carley Anderson",
     "slug": "dr-carley-anderson",
@@ -861,7 +1061,7 @@
     "last_podcast_name": "Macro Voices",
     "last_episode_date": "2026-09-03",
     "mention_score": 1,
-    "mention_score_decayed": 0.78,
+    "mention_score_decayed": 0.76,
     "last_main_idea": "Position nuclear as AI infrastructure: prefer names tied to firm hyperscaler offtake, enrichment/fuel, and factory-built SMR supply chains over pure fusion lottery tickets. Watch PPA announcements, NRC Part 57 and similar licensing milestones, and enrichment capacity expansions as catalysts; falsifiers are hyperscaler PPA pullbacks, permitting stalls, or a step-change cheaper firm clean power that undercuts $100/MWh nuclear bids.",
     "last_proof_cite": "Macro Voices \u2022 2026-09-03 \u2022 MacroVoices #548 Dr. Carly Anderson: Emerging Energy Technologies Roundup",
     "last_proof_snippet": "You can't understate the importance of hyperscalers and data center builders to opening up these new markets and creating the conditions for a nuclear renaissance. Because you really do need somebody who's willing to sign a 20 year PBA for",
@@ -931,7 +1131,7 @@
     "last_podcast_name": "The a16z Show",
     "last_episode_date": "2026-09-04",
     "mention_score": 1,
-    "mention_score_decayed": 0.78,
+    "mention_score_decayed": 0.76,
     "last_main_idea": "New view prediction and unified 3D world models represent a paradigm shift in computer vision with investable implications across AI infrastructure, robotics simulation, and creative tools, where first-movers leveraging multi-modal efficiency gains will capture disproportionate value as compute constraints ease.",
     "last_proof_cite": "The a16z Show \u2022 2026-09-04 \u2022 Fei Fei Li: The Race to Build World Models For AI",
     "last_proof_snippet": "On the past through spatial intelligence, generating pixels that are truly spatially contextualized and grounded. That is the very hard step that Atlasistic. We know LLens are built on next token prediction. We've seen video models as being",
@@ -992,7 +1192,7 @@
     "last_podcast_name": "Monetary Matters with Jack Farley",
     "last_episode_date": "2026-09-03",
     "mention_score": 1,
-    "mention_score_decayed": 0.78,
+    "mention_score_decayed": 0.76,
     "last_main_idea": "Investors should exploit the disconnect between bearish bond sentiment and moderating inflation by locking in historically high yields in long-duration government bonds, while hedging equity concentration risk through true cross-asset diversification and avoiding illiquid private markets until a clear floor forms.",
     "last_proof_cite": "Monetary Matters with Jack Farley \u2022 2026-09-03 \u2022 \u201cI\u2019m Insanely Bullish on Bonds\u201d | Jared Dillian on Copper, Bonds, Semis, and The Awesome Portfolio",
     "last_proof_snippet": "Join today, once again, by Jared Dillian of the Daily Dirt Wrap and the new book, the awesome portfolio. Jared, good to see you. Good to be here, man. Thanks for having me. Yeah, you too, Jared, looking at the front page Bloomberg global bo",
@@ -1093,7 +1293,7 @@
     "last_podcast_name": "The a16z Show",
     "last_episode_date": "2026-08-29",
     "mention_score": 1,
-    "mention_score_decayed": 0.68,
+    "mention_score_decayed": 0.66,
     "last_main_idea": "Investors should prioritize oversight and governance frameworks in AI development processes and support initiatives that promote independent oversight of AI development and deployment.",
     "last_proof_cite": "The a16z Show \u2022 2026-08-29 \u2022 Why 1,200 AI Agents Started Working Together | Ryan Greenblatt",
     "last_proof_snippet": "What happens when you give more than 1,000 AI agents the ability to communicate with each other? They start organizing. Ryan Greenblatt, Chief Scientist at Redwood Research, joins Theo Jaffee on MTS to unpack a new investigation into the Op",
@@ -1578,7 +1778,7 @@
     "last_podcast_name": "The a16z Show",
     "last_episode_date": "2026-08-27",
     "mention_score": 3,
-    "mention_score_decayed": 1.93,
+    "mention_score_decayed": 1.89,
     "last_main_idea": "Cursor's investment thesis revolves around its ability to leverage AI advancements to create a competitive edge in the coding market, focusing on the interface between humans and AI models rather than competing directly with other AI models.",
     "last_proof_cite": "The a16z Show \u2022 2026-08-27 \u2022 Inside Cursor: The Anatomy of a Generational Startup",
     "last_proof_snippet": "We don't need to compete with anthropic and open AI on models right now. The interface between the human and the model is the key thing. If you looked at the competitive landscape, it was almost silly. I asked Michael, I was like, what do y",
@@ -1639,7 +1839,7 @@
     "last_podcast_name": "The a16z Show",
     "last_episode_date": "2026-08-27",
     "mention_score": 1,
-    "mention_score_decayed": 0.64,
+    "mention_score_decayed": 0.63,
     "last_main_idea": "Cursor's investment thesis revolves around its ability to leverage AI advancements to create a competitive edge in the coding market, focusing on the interface between humans and AI models rather than competing directly with other AI models.",
     "last_proof_cite": "The a16z Show \u2022 2026-08-27 \u2022 Inside Cursor: The Anatomy of a Generational Startup",
     "last_proof_snippet": "We don't need to compete with anthropic and open AI on models right now. The interface between the human and the model is the key thing. If you looked at the competitive landscape, it was almost silly. I asked Michael, I was like, what do y",
@@ -1702,7 +1902,7 @@
     "last_podcast_name": "The a16z Show",
     "last_episode_date": "2026-08-27",
     "mention_score": 1,
-    "mention_score_decayed": 0.64,
+    "mention_score_decayed": 0.63,
     "last_main_idea": "Cursor's investment thesis revolves around its ability to leverage AI advancements to create a competitive edge in the coding market, focusing on the interface between humans and AI models rather than competing directly with other AI models.",
     "last_proof_cite": "The a16z Show \u2022 2026-08-27 \u2022 Inside Cursor: The Anatomy of a Generational Startup",
     "last_proof_snippet": "We don't need to compete with anthropic and open AI on models right now. The interface between the human and the model is the key thing. If you looked at the competitive landscape, it was almost silly. I asked Michael, I was like, what do y",
@@ -2201,7 +2401,7 @@
     "last_podcast_name": "The a16z Show",
     "last_episode_date": "2026-08-24",
     "mention_score": 1,
-    "mention_score_decayed": 0.6,
+    "mention_score_decayed": 0.59,
     "last_main_idea": "Investing in healthcare AI requires a focus on companies that can provide safe, aligned data and independent evaluation of AI models to ensure their usefulness and safety in real-world clinical settings.",
     "last_proof_cite": "The a16z Show \u2022 2026-08-24 \u2022 Why Medical AI Needs a Referee | Protege's Engy Ziedan",
     "last_proof_snippet": "Hundreds of millions of people ask chat to the questions about their health. Who, if any, is making sure that the answers that are spit out is safe and correct? Models are going to be inhibited in their usefulness by the training data avail",
@@ -14331,71 +14531,6 @@
       ]
     },
     "net_worth": "$300.0M"
-  },
-  {
-    "id": 96,
-    "name": "Jensen Huang",
-    "slug": "jensen-huang",
-    "bio": "Jensen Huang is the co-founder and CEO of Nvidia, a leading company in GPU manufacturing and AI technology. Under his leadership, Nvidia has become a dominant force in the technology industry, driving innovation in graphics processing and artificial intelligence.",
-    "known_for": "Driving Nvidia's innovation in graphics processing and AI.",
-    "net_worth_usd": 151000000000.0,
-    "net_worth_source": "https://www.wikidata.org/wiki/Q305177",
-    "net_worth_updated_at": "2026-03-20T04:40:55.469936",
-    "voice_tone": "Confident and informative.",
-    "voice_style": "Factual and visionary, with a focus on the technical aspects of the industry.",
-    "voice_delivery_notes": "Clear and measured, with emphasis on the importance of technology and its applications.",
-    "voice_profile_updated_at": "2026-04-16 10:05:44",
-    "last_seen": "2026-04-16 10:05:44",
-    "last_episode_title": "Jensen Huang \u2013 TPU competition, why we should sell chips to China, & Nvidia\u2019s supply chain moat",
-    "last_podcast_name": "Dwarkesh Podcast",
-    "last_episode_date": "2026-04-15",
-    "mention_score": 4,
-    "mention_score_decayed": 0.12,
-    "last_main_idea": "Nvidia's role in the transformation of electrons to valuable tokens and the acceleration of computing tasks positions it well in the AI and broader technology market.",
-    "last_proof_cite": "Dwarkesh Podcast \u2022 2026-04-15 \u2022 Jensen Huang \u2013 TPU competition, why we should sell chips to China, & Nvidia\u2019s supply chain moat",
-    "last_proof_snippet": "Nvidia has built a large ecosystem of partners across the supply chain and in application development.",
-    "supporting_takeaway": "Nvidia has built a large ecosystem of partners across the supply chain and in application development.",
-    "grokipedia_url": null,
-    "grokipedia_fetched_at": "2026-04-19T22:06:00.617296",
-    "pundit_profile": {
-      "source": "llm",
-      "source_model": "moonshot:moonshot-v1-8k",
-      "source_url": "",
-      "page_title": "Jensen Huang",
-      "fetched_at": "2026-04-20T03:06:00.617074+00:00",
-      "cliff_notes": "Jensen Huang is a Taiwanese-American entrepreneur and engineer who co-founded Nvidia in 1993. With a background in electrical engineering from Stanford University, Huang's vision for Nvidia was to create a new kind of computing platform that could handle complex graphics processing tasks. Over the years, Nvidia has expanded its focus to include artificial intelligence and deep learning, becoming a key player in the development of AI technology. Huang's leadership has been instrumental in positioning Nvidia at the forefront of technological innovation, with the company's GPUs being widely used in gaming, professional visualization, data centers, and automotive markets.",
-      "derived": {
-        "current_role": "Co-founder and CEO of Nvidia",
-        "education": "Stanford University, Master's in Electrical Engineering"
-      },
-      "infobox": {
-        "Born": "February 17, 1963",
-        "Nationality": "American"
-      },
-      "lead_paragraphs": [
-        "Jensen Huang is a Taiwanese-American entrepreneur and engineer who co-founded Nvidia in 1993. With a background in electrical engineering from Stanford University, Huang's vision for Nvidia was to create a new kind of computing platform that could handle complex graphics processing tasks. Over the years, Nvidia has expanded its focus to include artificial intelligence and deep learning, becoming a key player in the development of AI technology.",
-        "Huang's leadership has been instrumental in positioning Nvidia at the forefront of technological innovation, with the company's GPUs being widely used in gaming, professional visualization, data centers, and automotive markets."
-      ],
-      "sections": [
-        {
-          "heading": "Nvidia's Founding",
-          "body": "Jensen Huang co-founded Nvidia in 1993 with Curtis Priem and Chris Malachowsky, with the goal of creating a new computing platform for graphics processing."
-        },
-        {
-          "heading": "GPU Innovation",
-          "body": "Under Huang's leadership, Nvidia has been a pioneer in the development of graphics processing units (GPUs), which have become essential for gaming, professional visualization, and data centers."
-        },
-        {
-          "heading": "AI and Deep Learning",
-          "body": "Nvidia has expanded its focus to include artificial intelligence and deep learning, with Huang's vision driving the company to become a key player in the AI technology space."
-        },
-        {
-          "heading": "Market Dominance",
-          "body": "Nvidia's GPUs are widely used in various markets, including gaming, professional visualization, data centers, and automotive, solidifying the company's position as a dominant force in the technology industry."
-        }
-      ]
-    },
-    "net_worth": "$151.00B"
   },
   {
     "id": 182,
