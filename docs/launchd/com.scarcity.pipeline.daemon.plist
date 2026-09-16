@@ -33,6 +33,12 @@
         <string>/Users/jaredsheppard/anaconda3/bin:/opt/homebrew/bin:/usr/local/bin:/usr/bin:/bin</string>
         <key>WORKSPACE_ROOT</key>
         <string>/Users/jaredsheppard/projects/ai-finance-tech-dashboard</string>
+        <!-- ANALYZE_BACKEND: force a specific LLM provider for transcript analysis.
+             Options: gemini, openai, moonshot
+             Set to the provider with a funded API key. Requires matching *_API_KEY in .env.
+             Example: <string>gemini</string> uses GEMINI_API_KEY from .env -->
+        <!-- <key>ANALYZE_BACKEND</key> -->
+        <!-- <string>gemini</string> -->
     </dict>
 
     <key>RunAtLoad</key>

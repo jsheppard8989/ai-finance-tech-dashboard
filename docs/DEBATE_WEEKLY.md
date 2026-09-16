@@ -62,7 +62,7 @@ Update `site/debate_history.json` via `--mark-resolved`, or edit the matching `w
 
 ## Requirements
 
-- LLM: Moonshot (primary) or OpenAI/Gemini (see `analyze_transcript.get_ai_client`).
+- LLM: Gemini (default), OpenAI, or Moonshot — set `ANALYZE_BACKEND` to force one; see `analyze_transcript.get_ai_client`.
 - ElevenLabs: `ELEVENLABS_*` in `.env`.
 - `site/data/pundits.json` from export (debater rotation).
 - `pipeline/dashboard.db` with Overton + insights for topic context.
