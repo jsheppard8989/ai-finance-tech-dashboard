@@ -2013,17 +2013,22 @@
       <!-- COT Positioning -->
       <div class="card" style="padding: 0.75rem; margin-bottom: 0;">
         <h3 style="font-size: 0.9rem; color: #00d4ff; margin-bottom: 0.25rem;">📋 COT Positioning</h3>
-        <p style="color: #9ca3af; font-size: 0.68rem; line-height: 1.35; margin-bottom: 0.5rem;">Leveraged-funds net positioning in 10Y futures and CME Bitcoin.</p>
-        <div id="cot-widget" style="display: flex; gap: 0.75rem; font-size: 0.75rem; flex-wrap: wrap;">
-          <span style="color: #a8b2d1;"><strong>10Y:</strong> <span style="color: #6b7280;">Coming soon</span></span>
-          <span style="color: #a8b2d1;"><strong>BTC:</strong> <span style="color: #6b7280;">Coming soon</span></span>
+        <p style="color: #9ca3af; font-size: 0.68rem; line-height: 1.35; margin-bottom: 0.5rem;">Leveraged-funds net positioning: 10Y T-Note, CME Bitcoin, CME Nasdaq-100 (NQ).</p>
+        <div id="cot-widget" style="font-size: 0.75rem;">
+          <div style="display: flex; gap: 0.75rem; flex-wrap: wrap; margin-bottom: 0.3rem;">
+            <span style="color: #a8b2d1;"><strong>TY:</strong> <span style="color: #6b7280;">Coming soon</span></span>
+            <span style="color: #a8b2d1;"><strong>BTC:</strong> <span style="color: #6b7280;">Coming soon</span></span>
+            <span style="color: #a8b2d1;"><strong>NQ:</strong> <span style="color: #6b7280;">Coming soon</span></span>
+          </div>
+          <div id="cot-report-date" style="color: #6b7280; font-size: 0.65rem;"></div>
         </div>
         <details class="plumbing-expand" id="cot-expand">
           <summary>What this means</summary>
           <div class="expand-content">
-            <strong>CFTC Commitment of Traders</strong>: Leveraged funds = CTA/hedge-fund positioning. Net = long contracts minus short.<br><br>
-            <strong>10Y</strong>: Rising net long = specs adding duration. Deep net short = lean against bonds (betting yields rise).<br><br>
-            <strong>BTC</strong>: Same logic for CME Bitcoin futures — net long is bullish spec positioning.<br><br>
+            <strong>CFTC Commitment of Traders</strong>: Leveraged funds = CTA/hedge-fund positioning. Net = long contracts minus short. Δ = week-over-week change.<br><br>
+            <strong>TY (10Y)</strong>: Rising net long = specs adding duration. Deep net short = lean against bonds (betting yields rise).<br><br>
+            <strong>BTC</strong>: CME Bitcoin futures — net long is bullish spec positioning.<br><br>
+            <strong>NQ</strong>: CME E-mini Nasdaq-100 — net long is bullish equity/tech positioning.<br><br>
             Released Fridays for prior Tuesday. Units are contracts (large numbers are normal).
           </div>
         </details>
@@ -2634,7 +2639,8 @@
           }
         }
 
-        // Update COT widget - leveraged funds net positioning
+        // Update COT widget - leveraged funds net positioning for TY, BTC, NQ
+        // Shows current, prior week, and Δ (change) for each contract
         // Shows "Coming soon" when data absent; never bare em dashes
         const cotEl = document.getElementById('cot-widget');
         if (cotEl) {
@@ -2642,34 +2648,65 @@
           const isStale = cot._stale === true;
           
           // Format net position: +1.2M / -456K / "Coming soon" if null
-          // Uses M for millions, K for thousands; tooltip shows exact number
-          function formatNet(net, label) {
-            if (net === null || net === undefined) return { html: '<span style="color: #6b7280;">Coming soon</span>', tooltip: '' };
+          function formatNet(net) {
+            if (net === null || net === undefined) return null;
             const absNet = Math.abs(net);
             const sign = net > 0 ? '+' : '';
-            const color = net > 0 ? '#10b981' : net < 0 ? '#ef4444' : '#a8b2d1';
             let display;
             if (absNet >= 1000000) {
               display = sign + (net / 1000000).toFixed(1) + 'M';
             } else {
               display = sign + Math.round(net / 1000) + 'K';
             }
-            const tooltip = label + ': ' + net.toLocaleString() + ' contracts net (' + (net > 0 ? 'long' : net < 0 ? 'short' : 'flat') + ')';
-            return { html: '<span class="plumbing-num" style="color: ' + color + ';" title="' + tooltip + '">' + display + '</span>', tooltip: tooltip };
+            return display;
           }
           
-          let v10y = { html: '<span style="color: #6b7280;">Coming soon</span>', tooltip: '' };
-          let vBtc = { html: '<span style="color: #6b7280;">Coming soon</span>', tooltip: '' };
-
-          if (cot.rates_positioning && cot.rates_positioning['10y_note']) {
-            const net = cot.rates_positioning['10y_note'].leveraged_funds_net;
-            v10y = formatNet(net, '10Y leveraged funds');
+          // Format change with color: green for positive, red for negative
+          function formatChange(change) {
+            if (change === null || change === undefined) return null;
+            const color = change > 0 ? '#10b981' : change < 0 ? '#ef4444' : '#6b7280';
+            const sign = change > 0 ? '+' : '';
+            let display;
+            const absChange = Math.abs(change);
+            if (absChange >= 1000000) {
+              display = sign + (change / 1000000).toFixed(1) + 'M';
+            } else {
+              display = sign + Math.round(change / 1000) + 'K';
+            }
+            return '<span style="color: ' + color + ';">' + display + '</span>';
           }
-          if (cot.btc_positioning && cot.btc_positioning.cme_btc) {
-            const net = cot.btc_positioning.cme_btc.leveraged_funds_net;
-            vBtc = formatNet(net, 'BTC leveraged funds');
+          
+          // Build contract display: current (Δ change)
+          function buildContractDisplay(entry, label) {
+            if (!entry) return '<span style="color: #6b7280;">Coming soon</span>';
+            const net = entry.leveraged_funds_net;
+            const change = entry.change_1w;
+            if (net === null || net === undefined) {
+              return '<span style="color: #6b7280;">Coming soon</span>';
+            }
+            const color = net > 0 ? '#10b981' : net < 0 ? '#ef4444' : '#a8b2d1';
+            const netDisplay = formatNet(net);
+            const tooltip = label + ': ' + net.toLocaleString() + ' contracts net';
+            let html = '<span class="plumbing-num" style="color: ' + color + ';" title="' + tooltip + '">' + netDisplay + '</span>';
+            const changeDisplay = formatChange(change);
+            if (changeDisplay) {
+              html += ' <span style="font-size: 0.65rem;">(Δ ' + changeDisplay + ')</span>';
+            }
+            return html;
           }
-
+          
+          // Get contract entries from appropriate sections
+          const ty = cot.rates_positioning ? cot.rates_positioning['10y_note'] : null;
+          const btc = cot.btc_positioning ? cot.btc_positioning.cme_btc : null;
+          const nq = cot.equity_positioning ? cot.equity_positioning.cme_nq : null;
+          
+          // Build display: TY, BTC, NQ
+          let html = '<div style="display: flex; gap: 0.75rem; flex-wrap: wrap; margin-bottom: 0.3rem;">';
+          html += '<span style="color: #a8b2d1;"><strong>TY:</strong> ' + buildContractDisplay(ty, '10Y leveraged funds') + '</span>';
+          html += '<span style="color: #a8b2d1;"><strong>BTC:</strong> ' + buildContractDisplay(btc, 'BTC leveraged funds') + '</span>';
+          html += '<span style="color: #a8b2d1;"><strong>NQ:</strong> ' + buildContractDisplay(nq, 'NQ leveraged funds') + '</span>';
+          html += '</div>';
+          
           // Format report date for display (e.g., "2026-08-25" → "Aug 25")
           function formatReportDate(dateStr) {
             if (!dateStr) return null;
@@ -2681,22 +2718,19 @@
               return null;
             }
           }
-
-          // Build display with report date and stale indicator; never hide card
-          let html = '<span style="color: #a8b2d1;"><strong>10Y:</strong> ' + v10y.html + '</span>';
-          html += '<span style="color: #a8b2d1; margin-left: 0.5rem;"><strong>BTC:</strong> ' + vBtc.html + '</span>';
           
-          // Show report date if available (positions as of this date)
+          // Show report date and stale indicator
           const reportDate = formatReportDate(cot.report_date);
+          let dateHtml = '';
           if (reportDate) {
-            html += '<span style="color: #6b7280; font-size: 0.65rem; margin-left: 0.5rem;">(as of ' + reportDate + ')</span>';
+            dateHtml += 'As of ' + reportDate;
           }
-          
           if (isStale) {
-            html += '<span style="color: #f59e0b; font-size: 0.65rem; margin-left: 0.5rem;" title="' + (cot._stale_reason || 'Data may be stale') + '">⚠️ stale</span>';
+            dateHtml += '<span style="color: #f59e0b; margin-left: 0.5rem;" title="' + (cot._stale_reason || 'Data may be stale') + '">⚠️ stale</span>';
           }
+          html += '<div style="color: #6b7280; font-size: 0.65rem;">' + dateHtml + '</div>';
+          
           cotEl.innerHTML = html;
-
         }
 
         // Update Compute Forward widget (GPU rental pricing - surveyed index)

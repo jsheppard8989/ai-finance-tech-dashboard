@@ -27,9 +27,10 @@ from datetime import datetime
 from pathlib import Path
 from typing import Optional, Dict, Any, List, Tuple
 
-from workspace_paths import SITE_DATA_DIR
+from workspace_paths import SITE_DATA_DIR, STATE_DIR
 
 MARKET_DATA_FILE = SITE_DATA_DIR / "market_data.json"
+COT_PRIOR_NETS_FILE = STATE_DIR / "cot_prior_nets.json"
 
 # CFTC Disaggregated Futures-Only report for financial futures
 # This contains leveraged funds, asset managers, etc. breakdown
@@ -63,6 +64,14 @@ CONTRACT_PATTERNS = {
     "cme_btc": [
         "BITCOIN - CHICAGO MERCANTILE EXCHANGE",
         "CME BITCOIN",
+    ],
+    "cme_nq": [
+        "NASDAQ-100 Consolidated",
+        "NASDAQ-100 CONSOLIDATED",
+        "NASDAQ MINI - CHICAGO MERCANTILE EXCHANGE",
+        "NASDAQ MINI",
+        "E-MINI NASDAQ-100",
+        "E-MINI NASDAQ 100",
     ],
 }
 
@@ -545,7 +554,7 @@ def validate_cot_data(data: Dict[str, Any]) -> Tuple[bool, str]:
         return False, "No COT data parsed"
     
     has_valid = False
-    for contract_id in ['10y_note', 'cme_btc', '2y_note', '30y_bond']:
+    for contract_id in ['10y_note', 'cme_btc', '2y_note', '30y_bond', 'cme_nq']:
         if contract_id in data:
             entry = data[contract_id]
             if entry.get('leveraged_funds_net') is not None:
@@ -558,8 +567,61 @@ def validate_cot_data(data: Dict[str, Any]) -> Tuple[bool, str]:
     return True, ""
 
 
+def load_prior_nets() -> Dict[str, Any]:
+    """
+    Load prior week's net positions from state file.
+    Returns dict with report_date and nets by contract_id.
+    """
+    if not COT_PRIOR_NETS_FILE.exists():
+        return {}
+    try:
+        with open(COT_PRIOR_NETS_FILE, 'r') as f:
+            return json.load(f)
+    except Exception as e:
+        print(f"  ⚠ Could not load prior nets: {e}")
+        return {}
+
+
+def save_prior_nets(report_date: str, nets: Dict[str, int]) -> bool:
+    """
+    Save current week's nets as prior for next week's delta computation.
+    """
+    try:
+        STATE_DIR.mkdir(parents=True, exist_ok=True)
+        data = {
+            "report_date": report_date,
+            "saved_at": datetime.now().isoformat(),
+            "nets": nets
+        }
+        with open(COT_PRIOR_NETS_FILE, 'w') as f:
+            json.dump(data, f, indent=2)
+        print(f"  ✓ Saved prior nets for {report_date}")
+        return True
+    except Exception as e:
+        print(f"  ⚠ Could not save prior nets: {e}")
+        return False
+
+
+def compute_change_1w(current_net: Optional[int], prior_net: Optional[int]) -> Optional[int]:
+    """Compute week-over-week change if both values available."""
+    if current_net is None or prior_net is None:
+        return None
+    return current_net - prior_net
+
+
 def build_cot_result(parsed_data: Dict[str, Dict[str, Any]], report_date: Optional[str]) -> Dict[str, Any]:
-    """Build the structured COT result for market_data.json."""
+    """
+    Build the structured COT result for market_data.json.
+    
+    Computes change_1w by comparing current nets to prior week's stored nets.
+    When report_date advances, saves current nets as prior for next week.
+    """
+    prior_data = load_prior_nets()
+    prior_nets = prior_data.get("nets", {})
+    prior_report_date = prior_data.get("report_date")
+    
+    is_new_week = report_date and report_date != prior_report_date
+    current_nets = {}
     
     def build_contract_entry(contract_id: str, label: str, contract_code: str) -> Dict[str, Any]:
         data = parsed_data.get(contract_id, {})
@@ -568,13 +630,20 @@ def build_cot_result(parsed_data: Dict[str, Dict[str, Any]], report_date: Option
         am_net = data.get('asset_manager_net')
         dealer_net = data.get('dealer_net')
         
+        if lev_net is not None:
+            current_nets[contract_id] = lev_net
+        
+        prior_net = prior_nets.get(contract_id)
+        change_1w = compute_change_1w(lev_net, prior_net) if is_new_week or prior_report_date else None
+        
         return {
             "label": label,
             "contract": contract_code,
             "asset_manager_net": am_net,
             "leveraged_funds_net": lev_net,
+            "prior_week_net": prior_net,
             "dealer_net": dealer_net,
-            "change_1w": None,
+            "change_1w": change_1w,
             "signal": None,
             "percentile_1y": None
         }
@@ -586,6 +655,7 @@ def build_cot_result(parsed_data: Dict[str, Dict[str, Any]], report_date: Option
         "_fetch_instructions": "CFTC releases COT every Friday at 3:30pm ET for positions as of prior Tuesday.",
         "last_updated": datetime.now().isoformat(),
         "report_date": report_date,
+        "prior_report_date": prior_report_date,
         "rates_positioning": {
             "10y_note": build_contract_entry("10y_note", "10-Year T-Note Futures", "TY"),
             "2y_note": build_contract_entry("2y_note", "2-Year T-Note Futures", "TU"),
@@ -594,6 +664,9 @@ def build_cot_result(parsed_data: Dict[str, Dict[str, Any]], report_date: Option
         "btc_positioning": {
             "cme_btc": build_contract_entry("cme_btc", "CME Bitcoin Futures", "BTC"),
         },
+        "equity_positioning": {
+            "cme_nq": build_contract_entry("cme_nq", "CME E-mini Nasdaq-100", "NQ"),
+        },
         "positioning_context": {
             "_comment": "Narrative summary of positioning trends",
             "summary": None,
@@ -601,6 +674,9 @@ def build_cot_result(parsed_data: Dict[str, Dict[str, Any]], report_date: Option
             "crowded_trades": []
         }
     }
+    
+    if is_new_week and current_nets and report_date:
+        save_prior_nets(report_date, current_nets)
     
     return result
 
@@ -761,15 +837,24 @@ def fetch_and_parse() -> Tuple[Optional[Dict[str, Any]], str]:
 def _print_result_summary(result: Dict[str, Any]) -> None:
     """Print summary of parsed COT data."""
     report_date = result.get('report_date', 'unknown')
+    prior_report_date = result.get('prior_report_date')
     print(f"  ✓ Parsed COT data for report date: {report_date}")
+    if prior_report_date:
+        print(f"    Prior week: {prior_report_date}")
     
     for section_key, section_data in [('rates_positioning', result.get('rates_positioning', {})),
-                                       ('btc_positioning', result.get('btc_positioning', {}))]:
+                                       ('btc_positioning', result.get('btc_positioning', {})),
+                                       ('equity_positioning', result.get('equity_positioning', {}))]:
         for contract_id, contract_data in section_data.items():
             net = contract_data.get('leveraged_funds_net')
             if net is not None:
                 display = format_net_display(net)
-                print(f"    {contract_data['label']}: {display}")
+                change = contract_data.get('change_1w')
+                change_str = ""
+                if change is not None:
+                    change_display = format_net_display(change)
+                    change_str = f" (Δ {change_display})"
+                print(f"    {contract_data['label']}: {display}{change_str}")
 
 
 def main():
@@ -790,16 +875,24 @@ def main():
         print("SUMMARY")
         print("=" * 60)
         print(f"Report Date: {data.get('report_date', 'unknown')}")
+        prior_date = data.get('prior_report_date')
+        if prior_date:
+            print(f"Prior Week:  {prior_date}")
         
-        rates = data.get('rates_positioning', {})
-        ty = rates.get('10y_note', {})
-        if ty.get('leveraged_funds_net') is not None:
-            print(f"10Y T-Note (TY): Leveraged Funds Net = {format_net_display(ty['leveraged_funds_net'])}")
+        def print_contract(section_name: str, key: str, label: str):
+            section = data.get(section_name, {})
+            entry = section.get(key, {})
+            net = entry.get('leveraged_funds_net')
+            if net is not None:
+                change = entry.get('change_1w')
+                change_str = ""
+                if change is not None:
+                    change_str = f" (Δ {format_net_display(change)})"
+                print(f"{label}: Leveraged Funds Net = {format_net_display(net)}{change_str}")
         
-        btc_section = data.get('btc_positioning', {})
-        btc = btc_section.get('cme_btc', {})
-        if btc.get('leveraged_funds_net') is not None:
-            print(f"CME Bitcoin: Leveraged Funds Net = {format_net_display(btc['leveraged_funds_net'])}")
+        print_contract('rates_positioning', '10y_note', '10Y T-Note (TY)')
+        print_contract('btc_positioning', 'cme_btc', 'CME Bitcoin (BTC)')
+        print_contract('equity_positioning', 'cme_nq', 'CME Nasdaq-100 (NQ)')
     else:
         mark_cot_stale(error_reason or "Unknown error during fetch/parse")
         print(f"\n✗ Failed to fetch COT data: {error_reason}")

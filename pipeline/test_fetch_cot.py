@@ -22,8 +22,12 @@ from fetch_cot import (
     format_net_display,
     mark_cot_stale,
     _run_curl_fetch,
+    compute_change_1w,
+    load_prior_nets,
+    save_prior_nets,
     CONTRACT_PATTERNS,
     MARKET_DATA_FILE,
+    COT_PRIOR_NETS_FILE,
 )
 
 
@@ -33,6 +37,7 @@ SAMPLE_DISAGG_TXT = """Market_and_Exchange_Names,Report_Date_as_YYYY-MM-DD,Lev_M
 "2-YEAR U.S. TREASURY NOTES - CHICAGO BOARD OF TRADE",2026-09-01,120000,80000,400000,350000,50000,75000
 "U.S. TREASURY BONDS - CHICAGO BOARD OF TRADE",2026-09-01,180000,220000,500000,480000,80000,90000
 "BITCOIN - CHICAGO MERCANTILE EXCHANGE",2026-09-01,15000,8000,25000,20000,5000,7000
+"NASDAQ-100 Consolidated - CHICAGO MERCANTILE EXCHANGE",2026-09-01,50000,80000,120000,100000,30000,40000
 """
 
 SAMPLE_DISAGG_EMPTY = """Market_and_Exchange_Names,Report_Date_as_YYYY-MM-DD,Lev_Money_Positions_Long_All,Lev_Money_Positions_Short_All
@@ -43,13 +48,24 @@ class TestParseDisaggregatedTxt:
     """Test parsing of CFTC disaggregated text format."""
     
     def test_parse_all_contracts(self):
-        """All four target contracts should be parsed."""
+        """All five target contracts should be parsed."""
         result = parse_disaggregated_txt(SAMPLE_DISAGG_TXT)
         
         assert '10y_note' in result
         assert '2y_note' in result
         assert '30y_bond' in result
         assert 'cme_btc' in result
+        assert 'cme_nq' in result
+    
+    def test_parse_nq_positions(self):
+        """NQ (Nasdaq-100) leveraged funds net should be calculated correctly."""
+        result = parse_disaggregated_txt(SAMPLE_DISAGG_TXT)
+        
+        nq = result['cme_nq']
+        # Net = Long - Short = 50000 - 80000 = -30000
+        assert nq['leveraged_funds_net'] == -30000
+        assert nq['leveraged_funds_long'] == 50000
+        assert nq['leveraged_funds_short'] == 80000
     
     def test_parse_10y_note_positions(self):
         """10Y note leveraged funds net should be calculated correctly."""
@@ -157,6 +173,23 @@ class TestContractPatternMatching:
                     matched = True
                     break
             assert matched, f"Pattern should match: {name}"
+    
+    def test_nq_patterns_match_cme(self):
+        """NQ (Nasdaq-100) patterns should match CME contract names."""
+        patterns = CONTRACT_PATTERNS['cme_nq']
+        test_names = [
+            "NASDAQ-100 Consolidated - CHICAGO MERCANTILE EXCHANGE",
+            "NASDAQ MINI - CHICAGO MERCANTILE EXCHANGE",
+            "E-MINI NASDAQ-100 INDEX",
+        ]
+        
+        for name in test_names:
+            matched = False
+            for pattern in patterns:
+                if pattern.upper() in name.upper():
+                    matched = True
+                    break
+            assert matched, f"Pattern should match: {name}"
 
 
 class TestValidateCotData:
@@ -239,6 +272,97 @@ class TestBuildCotResult:
         assert result['report_date'] == '2026-09-01'
         assert 'last_updated' in result
         assert '_comment' in result
+    
+    def test_build_result_includes_equity_positioning(self):
+        """Result should include equity_positioning section with NQ."""
+        parsed = {
+            '10y_note': {'leveraged_funds_net': 100000},
+            'cme_nq': {'leveraged_funds_net': -30000}
+        }
+        result = build_cot_result(parsed, '2026-09-01')
+        
+        assert 'equity_positioning' in result
+        assert 'cme_nq' in result['equity_positioning']
+        nq = result['equity_positioning']['cme_nq']
+        assert nq['leveraged_funds_net'] == -30000
+        assert nq['contract'] == 'NQ'
+        assert nq['label'] == 'CME E-mini Nasdaq-100'
+
+
+class TestChange1wComputation:
+    """Test week-over-week change computation."""
+    
+    def test_compute_change_positive(self):
+        """Positive change should be computed correctly."""
+        change = compute_change_1w(150000, 100000)
+        assert change == 50000
+    
+    def test_compute_change_negative(self):
+        """Negative change should be computed correctly."""
+        change = compute_change_1w(80000, 100000)
+        assert change == -20000
+    
+    def test_compute_change_zero(self):
+        """Zero change should be computed when nets are equal."""
+        change = compute_change_1w(100000, 100000)
+        assert change == 0
+    
+    def test_compute_change_none_current(self):
+        """None current net should return None."""
+        change = compute_change_1w(None, 100000)
+        assert change is None
+    
+    def test_compute_change_none_prior(self):
+        """None prior net should return None."""
+        change = compute_change_1w(100000, None)
+        assert change is None
+    
+    def test_compute_change_both_none(self):
+        """Both None should return None."""
+        change = compute_change_1w(None, None)
+        assert change is None
+
+
+class TestPriorNetsPersistence:
+    """Test saving and loading of prior week nets."""
+    
+    def test_save_and_load_prior_nets(self):
+        """Prior nets should be saved and loaded correctly."""
+        import fetch_cot
+        original_path = fetch_cot.COT_PRIOR_NETS_FILE
+        
+        with tempfile.TemporaryDirectory() as tmpdir:
+            tmppath = Path(tmpdir) / "cot_prior_nets.json"
+            fetch_cot.COT_PRIOR_NETS_FILE = tmppath
+            
+            try:
+                test_nets = {
+                    '10y_note': 100000,
+                    'cme_btc': 7000,
+                    'cme_nq': -30000
+                }
+                result = save_prior_nets('2026-09-01', test_nets)
+                assert result == True
+                
+                loaded = load_prior_nets()
+                assert loaded['report_date'] == '2026-09-01'
+                assert loaded['nets']['10y_note'] == 100000
+                assert loaded['nets']['cme_btc'] == 7000
+                assert loaded['nets']['cme_nq'] == -30000
+            finally:
+                fetch_cot.COT_PRIOR_NETS_FILE = original_path
+    
+    def test_load_nonexistent_returns_empty(self):
+        """Loading from nonexistent file should return empty dict."""
+        import fetch_cot
+        original_path = fetch_cot.COT_PRIOR_NETS_FILE
+        fetch_cot.COT_PRIOR_NETS_FILE = Path("/nonexistent/path/cot_prior_nets.json")
+        
+        try:
+            result = load_prior_nets()
+            assert result == {}
+        finally:
+            fetch_cot.COT_PRIOR_NETS_FILE = original_path
 
 
 class TestFormatNetDisplay:
@@ -425,6 +549,8 @@ def run_tests():
         TestContractPatternMatching,
         TestValidateCotData,
         TestBuildCotResult,
+        TestChange1wComputation,
+        TestPriorNetsPersistence,
         TestFormatNetDisplay,
         TestStaleDataPreservation,
         TestFailClosedBehavior,
