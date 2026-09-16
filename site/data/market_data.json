@@ -86,7 +86,7 @@
     "_primary_source": "Treasury.gov",
     "_source_url": "https://home.treasury.gov/resource-center/data-chart-center/interest-rates/TextView?type=daily_treasury_yield_curve",
     "_fred_status": "unavailable (optional)",
-    "last_updated": "2026-09-16T12:13:40.492438",
+    "last_updated": "2026-09-16T13:45:43.800387",
     "as_of_date": "2026-09-15",
     "spreads": {
       "2s10s": {
@@ -145,18 +145,18 @@
     "_fetch_url": "https://www.cftc.gov/dea/futures/financial_lf.htm",
     "_api_alternative": "Quandl CFTC dataset (may need key)",
     "_fetch_instructions": "CFTC releases COT every Friday at 3:30pm ET for positions as of prior Tuesday.",
-    "last_updated": "2026-09-16T12:13:40.806822",
+    "last_updated": "2026-09-16T13:45:44.312945",
     "report_date": "2026-09-08",
-    "prior_report_date": null,
+    "prior_report_date": "2026-09-08",
     "rates_positioning": {
       "10y_note": {
         "label": "10-Year T-Note Futures",
         "contract": "TY",
         "asset_manager_net": null,
         "leveraged_funds_net": -1938754,
-        "prior_week_net": null,
+        "prior_week_net": -1938754,
         "dealer_net": null,
-        "change_1w": null,
+        "change_1w": 0,
         "signal": null,
         "percentile_1y": null
       },
@@ -165,9 +165,9 @@
         "contract": "TU",
         "asset_manager_net": null,
         "leveraged_funds_net": -1290479,
-        "prior_week_net": null,
+        "prior_week_net": -1290479,
         "dealer_net": null,
-        "change_1w": null,
+        "change_1w": 0,
         "signal": null,
         "percentile_1y": null
       },
@@ -176,9 +176,9 @@
         "contract": "US",
         "asset_manager_net": null,
         "leveraged_funds_net": -276965,
-        "prior_week_net": null,
+        "prior_week_net": -276965,
         "dealer_net": null,
-        "change_1w": null,
+        "change_1w": 0,
         "signal": null,
         "percentile_1y": null
       }
@@ -189,9 +189,9 @@
         "contract": "BTC",
         "asset_manager_net": null,
         "leveraged_funds_net": -7892,
-        "prior_week_net": null,
+        "prior_week_net": -7892,
         "dealer_net": null,
-        "change_1w": null,
+        "change_1w": 0,
         "signal": null,
         "percentile_1y": null
       }
@@ -202,9 +202,9 @@
         "contract": "NQ",
         "asset_manager_net": null,
         "leveraged_funds_net": -36884,
-        "prior_week_net": null,
+        "prior_week_net": -36884,
         "dealer_net": null,
-        "change_1w": null,
+        "change_1w": 0,
         "signal": null,
         "percentile_1y": null
       }
@@ -234,7 +234,7 @@
     "_source_url": "https://gpu-index.semianalysis.com/",
     "_data_type": "surveyed_index",
     "_staleness_note": "Free public data lags several months behind current date. Display the as-of period prominently.",
-    "last_fetched": "2026-09-16T12:13:24.151680",
+    "last_fetched": "2026-09-16T13:45:27.483968",
     "h100": {
       "period": "Apr 2026",
       "composite_index": {
