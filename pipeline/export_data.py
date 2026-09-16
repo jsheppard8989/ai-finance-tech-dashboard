@@ -658,17 +658,17 @@ def _export_pipeline_state(site_dir: Path):
 
         if status != "complete" and age_days is not None and age_days >= stale_threshold_days:
             blocker = next((k for k in ["downloaded", "transcribed", "analyzed", "insight_created", "published"] if not (episodes_out[-1]["stages"].get(k))), "unknown")
-                stale_episodes.append(
-                    {
-                        "id": ep_key,
-                        "podcast": podcast,
-                        "title": episodes_out[-1]["title"],
-                        "status": status,
-                        "published": published_str,
-                        "age_days": age_days,
-                        "next_blocker": blocker,
-                    }
-                )
+            stale_episodes.append(
+                {
+                    "id": ep_key,
+                    "podcast": podcast,
+                    "title": episodes_out[-1]["title"],
+                    "status": status,
+                    "published": published_str,
+                    "age_days": age_days,
+                    "next_blocker": blocker,
+                }
+            )
 
     # New on feeds: RSS-only episodes not yet in curation/db pipeline selection.
     # We preserve existing curate/filter logic (window + feeds list) by using the helper.
