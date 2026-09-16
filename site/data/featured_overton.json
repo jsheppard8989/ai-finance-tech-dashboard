@@ -5,13 +5,13 @@
   "featured": [
     {
       "id": "curated-cleared-unconsoled-2026-09-15",
-      "term": "Cleared, unconsoled (price of duration sponsorship)",
+      "term": "Cleared, no relief (price of duration sponsorship)",
       "thesis": "When the Sep 9–10 coupon reopenings clear strong at multi-decade-high yields and the first enlarged long-end buyback still leaves 10s through ~5% and 30s near 5.3%, the regime is not \"failed auctions\" — it is the price of sponsorship: private cover exists only at yields that behave like a credit spread, and the state bid is insurance that does not buy the long end. Money is in who warehouses duration at these clearing yields — not Nvidia, not AGI timeline theater.",
       "who_collects_rent": "Captive duration absorbers (banks/pensions via HTM/SLR/rules); primary dealers as thin warehouse; Treasury buyback ops as liquidity insurance — franchise ROE / accounting on forced holdings at higher equilibrium yields; dealer fees; state bid as cosmetic backstop. Leftover: soft-landing / Fed-cut coupon narrative.",
-      "decisive_test": "(1) Nov 4 QRA — buyback maxes cut or framed temporary → RELEGATE. (2) Sustained FRED CMT 10y back below ~4.50% with buyback ops idle/undersubscribed → price-of-sponsorship thesis weakens. (3) Next long coupon (20y when announced; Oct 6–7 3y/10y) — soft cover/fat tail/weak indirects with thick buybacks → sponsorship stress tightens (WATCH, not RELEGATE). (4) FOMC+SEP Sep 15–16 — sticky/higher long yields after front-end move = regime intact; long-end rally repairing 10s30s with quiet buybacks = falsifier to watch.",
-      "nested_note": "Evolution: last week Buyback as confession; Sep 9–10 stamped cosmetic lean on cover + confession still live on price (clearance ≠ relief). Tape: FRED CMT 2026-09-11 10y 4.96% / 30y 5.35% (10s30s +39bp). Auctions: Sep 9 10y HY 4.834% BTC 2.71; Sep 10 30y HY 5.308% BTC 2.61; buyback ~$5.187bn/$6bn. MOVE UNKNOWN — do not invent. Calendar: FOMC+SEP Sep 15–16; Oct 6–7 3y/10y; Nov 4 QRA. Anti-Overton: SV room on GPT-6/AGI/pause-AI/orbital DCs vs empty space = duration supply as system around AI capital. Nest power/interconnect under Trap #1 — NOT this card's headline. Trap Map Buyback stays WATCH — do not merge cards.",
+      "decisive_test": "(1) Nov 4 QRA — buyback maxes cut or framed temporary → RELEGATE. (2) Sustained FRED CMT 10y back below ~4.50% with buyback ops idle/undersubscribed → price-of-sponsorship thesis weakens. (3) Sep 15 20y stamped soft (HY 5.420% BTC 2.57 indirects ~52.5%) — sponsorship stress tightens WATCH, not RELEGATE; next: Oct 6–7 3y/10y. (4) FOMC+SEP Sep 15–16 — sticky/higher long yields after front-end move = regime intact; long-end rally repairing 10s30s with quiet buybacks = falsifier to watch.",
+      "nested_note": "Evolution: last week Buyback as confession; Sep 9–10 stamped cosmetic lean on cover + confession still live on price (clearance ≠ relief). Tape: FRED CMT 2026-09-11 10y 4.96% / 30y 5.35% (10s30s +39bp). Auctions: Sep 9 10y HY 4.834% BTC 2.71; Sep 10 30y HY 5.308% BTC 2.61; buyback ~$5.187bn/$6bn; Sep 15 20y HY 5.420% BTC 2.57 indirects ~52.5% ($6.776bn/$13bn) — soft vs Sep 9–10, WATCH not RELEGATE. MOVE UNKNOWN — do not invent. Calendar: FOMC+SEP Sep 15–16; Oct 6–7 3y/10y; Nov 4 QRA. Anti-Overton: SV room on GPT-6/AGI/pause-AI/orbital DCs vs empty space = duration supply as system around AI capital. Nest power/interconnect under Trap #1 — NOT this card's headline. Trap Map Buyback stays WATCH — do not merge cards.",
       "adjacent_terms": ["Buyback as confession (captive duration)"],
-      "adjacent_note": "Post-print evolution of the confession thesis — clearance without consoling the long end.",
+      "adjacent_note": "Post-print evolution of the confession thesis — clearance without relief on the long end.",
       "provenance": {
         "author": "JG / Site Admin",
         "date": "2026-09-15",
@@ -28,6 +28,14 @@
           "one_liner": null,
           "as_of": null,
           "source": null
+        },
+        {
+          "test_id": 2,
+          "label": "Sep 15 20Y reopen",
+          "status": "pass",
+          "one_liner": "Soft vs Sep 9–10: HY 5.420% / BTC 2.57 / indirects ~52.5% ($6.776bn of $13bn) — cleared at multi-decade-high yield; sponsorship stress tightens WATCH, not RELEGATE (Nov 4 still structural). TD R_20260915 CUSIP 912810UX4.",
+          "as_of": "2026-09-15",
+          "source": "https://www.treasurydirect.gov/instit/annceresult/press/preauct/2026/R_20260915_1.pdf"
         }
       ]
     }
