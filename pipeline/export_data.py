@@ -417,7 +417,7 @@ def _export_pipeline_state(site_dir: Path):
             "transcribed": "No transcript on DB/disk — whisper_queue must drain (whisper_worker.sh) then auto_pipeline.",
             "analyzed": "Transcript exists but is_processed=0 — run auto_pipeline analysis (or --analyze-only).",
             "insight_created": "Analyzed but no latest_insights row — re-run auto_pipeline (insight promotion step).",
-            "published": "Insight exists but added_to_site=0 — Deep Dives + export must succeed; run auto_pipeline.",
+            "published": "Insight exists but no deep dive content yet — run generate_deepdives.py then auto_pipeline.",
         }
         return mapping.get(missing_stage, "Missing stage.")
 
@@ -651,17 +651,13 @@ def _export_pipeline_state(site_dir: Path):
             }
         )
 
-        # Off-main overflow: episode has insight + deep dive but added_to_site=0
-        # (lost the main-8 race via sync_main_insights_with_deepdives).
-        # These are NOT pipeline debt — they're complete but not displayed on main.
-        is_off_main_overflow = insight_created and has_deepdive and not published
+        # After decoupling added_to_site from display_on_main:
+        # Episodes with insight + deep dive have added_to_site=1 (published=True, status=complete)
+        # regardless of whether they're on the main-8 carousel. True pipeline debt (status!=complete)
+        # means missing insight OR missing deep dive - escalate those to stale list.
 
         if status != "complete" and age_days is not None and age_days >= stale_threshold_days:
-            # Skip off-main overflow — not escalate-worthy pipeline debt
-            if is_off_main_overflow:
-                pass
-            else:
-                blocker = next((k for k in ["downloaded", "transcribed", "analyzed", "insight_created", "published"] if not (episodes_out[-1]["stages"].get(k))), "unknown")
+            blocker = next((k for k in ["downloaded", "transcribed", "analyzed", "insight_created", "published"] if not (episodes_out[-1]["stages"].get(k))), "unknown")
                 stale_episodes.append(
                     {
                         "id": ep_key,
