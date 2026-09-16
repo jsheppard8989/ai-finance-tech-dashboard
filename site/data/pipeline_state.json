@@ -1,7 +1,7 @@
 {
-  "generated_at": "2026-09-15T22:35:09.786656",
-  "last_updated": "2026-09-15T22:35:09.786656",
-  "last_pipeline_run": "2026-09-15T22:35:09.786656",
+  "generated_at": "2026-09-16T05:23:20.113704",
+  "last_updated": "2026-09-16T05:23:20.113704",
+  "last_pipeline_run": "2026-09-16T05:23:20.113704",
   "main_page": {
     "overton": 13,
     "insights": 8,
@@ -18,12 +18,12 @@
     "podcasts_analyzed": 0
   },
   "step_results": {
-    "downloaded": 8,
-    "transcribed": 7,
+    "downloaded": 9,
+    "transcribed": 8,
     "analyzed": 0,
     "insight_created": 0,
     "published": 0,
-    "total": 8
+    "total": 9
   },
   "episodes": [
     {
@@ -82,6 +82,77 @@
         }
       },
       "status": "needs_analysis"
+    },
+    {
+      "id": "277d8505-7c23-4f94-ac79-c48f1f9b89eb",
+      "podcast": "The a16z Show",
+      "title": "The AI-Native CRM",
+      "published": "2026-09-16",
+      "rss_guid": "277d8505-7c23-4f94-ac79-c48f1f9b89eb",
+      "stages": {
+        "downloaded": true,
+        "transcribed": false,
+        "analyzed": false,
+        "insight_created": false,
+        "published": false
+      },
+      "stage_reasons": {
+        "transcribed": "No podcast_episodes row yet (curated APPROVED but DB not updated). Usually fixed by: fetch_latest --queue-only + whisper worker + auto_pipeline sweep.",
+        "analyzed": "No podcast_episodes row yet (curated APPROVED but DB not updated). Usually fixed by: fetch_latest --queue-only + whisper worker + auto_pipeline sweep.",
+        "insight_created": "No podcast_episodes row yet (curated APPROVED but DB not updated). Usually fixed by: fetch_latest --queue-only + whisper worker + auto_pipeline sweep.",
+        "published": "No podcast_episodes row yet (curated APPROVED but DB not updated). Usually fixed by: fetch_latest --queue-only + whisper worker + auto_pipeline sweep."
+      },
+      "first_blocker": "transcribed",
+      "remediation_by_stage": {
+        "transcribed": {
+          "action_id": "TRANSCRIBE",
+          "steps": [
+            "There are 1 MP3 file(s) in whisper_queue/ waiting for the worker.",
+            "Run whisper_worker.sh from the repo root (WORKSPACE_ROOT) so whisper_queue/ drains to whisper_done/.",
+            "If the queue is empty but there is still no transcript, read whisper_worker.log for Whisper failures.",
+            "After transcripts land in whisper_done/, run auto_pipeline.py so fetch sweeps them into the DB and pipeline/transcripts/."
+          ],
+          "commands": [
+            "cd /Users/jaredsheppard/projects/ai-finance-tech-dashboard && ./whisper_worker.sh",
+            "cd /Users/jaredsheppard/projects/ai-finance-tech-dashboard/pipeline && python3 auto_pipeline.py"
+          ]
+        },
+        "analyzed": {
+          "action_id": "ANALYZE_TRANSCRIPTS",
+          "steps": [
+            "Run transcript analysis so is_processed=1 on podcast_episodes (analyze_transcript via auto_pipeline).",
+            "Ensure LLM keys in workspace .env (e.g. MOONSHOT_API_KEY) are set if the analyzer requires them.",
+            "Quick path: auto_pipeline.py --analyze-only analyzes then continues promotion/export steps in that run."
+          ],
+          "commands": [
+            "cd /Users/jaredsheppard/projects/ai-finance-tech-dashboard/pipeline && python3 auto_pipeline.py --analyze-only",
+            "cd /Users/jaredsheppard/projects/ai-finance-tech-dashboard/pipeline && python3 auto_pipeline.py"
+          ]
+        },
+        "insight_created": {
+          "action_id": "PROMOTE_INSIGHT",
+          "steps": [
+            "Promotion to latest_insights runs inside auto_pipeline after analysis.",
+            "If analysis succeeded but insight is missing, re-run full auto_pipeline.py and check logs for promote_episodes_to_insights errors."
+          ],
+          "commands": [
+            "cd /Users/jaredsheppard/projects/ai-finance-tech-dashboard/pipeline && python3 auto_pipeline.py"
+          ]
+        },
+        "published": {
+          "action_id": "EXPORT_AND_PUBLISH",
+          "steps": [
+            "Site export runs only after generate_deepdives.py succeeds; if Deep Dives fail, export and git push are skipped.",
+            "Fix Deep Dive errors (see pipeline logs), then run auto_pipeline.py to export site JSON and push.",
+            "When added_to_site=1 on the episode row, this stage turns green."
+          ],
+          "commands": [
+            "cd /Users/jaredsheppard/projects/ai-finance-tech-dashboard/pipeline && python3 generate_deepdives.py",
+            "cd /Users/jaredsheppard/projects/ai-finance-tech-dashboard/pipeline && python3 auto_pipeline.py"
+          ]
+        }
+      },
+      "status": "needs_transcription"
     },
     {
       "id": "3346a500-eb7e-4419-a483-6859c9709058",
@@ -205,32 +276,18 @@
       "rss_guid": "cea835d1-fb37-4f07-a91e-356e7e5c8fca",
       "stages": {
         "downloaded": true,
-        "transcribed": false,
+        "transcribed": true,
         "analyzed": false,
         "insight_created": false,
         "published": false
       },
       "stage_reasons": {
-        "transcribed": "No podcast_episodes row yet (curated APPROVED but DB not updated). Usually fixed by: fetch_latest --queue-only + whisper worker + auto_pipeline sweep.",
         "analyzed": "No podcast_episodes row yet (curated APPROVED but DB not updated). Usually fixed by: fetch_latest --queue-only + whisper worker + auto_pipeline sweep.",
         "insight_created": "No podcast_episodes row yet (curated APPROVED but DB not updated). Usually fixed by: fetch_latest --queue-only + whisper worker + auto_pipeline sweep.",
         "published": "No podcast_episodes row yet (curated APPROVED but DB not updated). Usually fixed by: fetch_latest --queue-only + whisper worker + auto_pipeline sweep."
       },
-      "first_blocker": "transcribed",
+      "first_blocker": "analyzed",
       "remediation_by_stage": {
-        "transcribed": {
-          "action_id": "TRANSCRIBE",
-          "steps": [
-            "There are 1 MP3 file(s) in whisper_queue/ waiting for the worker.",
-            "Run whisper_worker.sh from the repo root (WORKSPACE_ROOT) so whisper_queue/ drains to whisper_done/.",
-            "If the queue is empty but there is still no transcript, read whisper_worker.log for Whisper failures.",
-            "After transcripts land in whisper_done/, run auto_pipeline.py so fetch sweeps them into the DB and pipeline/transcripts/."
-          ],
-          "commands": [
-            "cd /Users/jaredsheppard/projects/ai-finance-tech-dashboard && ./whisper_worker.sh",
-            "cd /Users/jaredsheppard/projects/ai-finance-tech-dashboard/pipeline && python3 auto_pipeline.py"
-          ]
-        },
         "analyzed": {
           "action_id": "ANALYZE_TRANSCRIPTS",
           "steps": [
@@ -266,7 +323,7 @@
           ]
         }
       },
-      "status": "needs_transcription"
+      "status": "needs_analysis"
     },
     {
       "id": "b72632fc-68fc-41b3-a88c-fdca9e1cf2db",
@@ -499,6 +556,13 @@
   ],
   "available_from_rss": [
     {
+      "podcast": "The a16z Show",
+      "title": "The AI-Native CRM",
+      "published": "Wed, 16 Sep 2026 10:00:00 +0000",
+      "published_date": "2026-09-16",
+      "rss_guid": ""
+    },
+    {
       "podcast": "Moonshots with Peter Diamandis",
       "title": "Martine Rothblatt: Growing Unlimited Organs, AI Consciousness, & Digital Personhood by 2030",
       "published": "Tue, 15 Sep 2026 14:58:00 -0000",
@@ -555,7 +619,35 @@
       "rss_guid": ""
     }
   ],
-  "stale_episodes": [],
+  "stale_episodes": [
+    {
+      "id": "5114c6d7-ce69-45f1-945f-d37ea476b349",
+      "podcast": "The a16z Show",
+      "title": "Greg Brockman on Why OpenAI Says We\u2019re Entering the AGI Era",
+      "status": "needs_analysis",
+      "published": "2026-09-14",
+      "age_days": 2,
+      "next_blocker": "analyzed"
+    },
+    {
+      "id": "7bdf1a10-126c-402c-9320-6678149a2aff",
+      "podcast": "All-In with Chamath, Jason, Sacks & Friedberg",
+      "title": "Jensen Huang: The Doomer Hoax, Superintelligence Is Here, and The Future of AI (ft. President Trump)",
+      "status": "needs_analysis",
+      "published": "2026-09-14",
+      "age_days": 2,
+      "next_blocker": "analyzed"
+    },
+    {
+      "id": "substack:post:215289811",
+      "podcast": "Latent Space: The AI Engineer Podcast",
+      "title": "Humanity\u2019s Last Invention \u2014 Richard Socher of Recursive",
+      "status": "needs_analysis",
+      "published": "2026-09-14",
+      "age_days": 2,
+      "next_blocker": "analyzed"
+    }
+  ],
   "stale_threshold_days": 2,
   "rss_filter_criteria": {
     "cutoff_date": "2026-02-01",
