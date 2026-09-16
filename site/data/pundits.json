@@ -3,10 +3,10 @@
     "id": 459,
     "name": "Satya Nadella",
     "slug": "satya-nadella",
-    "bio": "CEO of Microsoft, leading the company's vision and strategy in AI and technology.",
+    "bio": "Satya Nadella is the CEO of Microsoft, where he has been instrumental in transforming the company into a leader in cloud computing and artificial intelligence. Under his leadership, Microsoft has focused on innovation and technology that serves humanity, emphasizing the importance of responsible AI development. Nadella's vision has significantly increased Microsoft's market value and stock performance.",
     "known_for": "Transforming Microsoft into a leader in cloud computing and AI.",
     "net_worth_usd": null,
-    "net_worth_source": null,
+    "net_worth_source": "",
     "net_worth_updated_at": null,
     "voice_tone": "Confident and insightful",
     "voice_style": "Analytical with a focus on practical implications",
@@ -23,8 +23,48 @@
     "last_proof_snippet": "is generated $250 billion with a B and market value from Microsoft. Dots in the Dell Achievement in CEO of Microsoft. And you've been the CEO three and a half years. The stock is up about, I guess it's about 120 percent. I'm good for my 80",
     "supporting_takeaway": "Enterprises must focus on AI solutions that allow for customization and control over data privacy.",
     "grokipedia_url": null,
-    "grokipedia_fetched_at": null,
-    "pundit_profile": null
+    "grokipedia_fetched_at": "2026-09-16T12:12:07.944779",
+    "pundit_profile": {
+      "source": "llm",
+      "source_model": "openai:gpt-4o-mini",
+      "source_url": "",
+      "page_title": "Satya Nadella",
+      "fetched_at": "2026-09-16T17:12:07.944602+00:00",
+      "cliff_notes": "Satya Nadella has been at the helm of Microsoft since February 2014, succeeding Steve Ballmer. His tenure has been marked by a strategic pivot towards cloud computing and AI, which has not only revitalized the company's growth but also positioned it as a leader in these critical areas. Nadella's approach emphasizes empathy and collaboration, fostering a culture of innovation within Microsoft. He has overseen significant investments in Azure, Microsoft's cloud platform, which has become a cornerstone of the company's business strategy. Nadella's leadership style is characterized by a focus on inclusivity and a commitment to using technology to empower individuals and organizations. His vision for Microsoft is to create technology that serves humanity, ensuring that advancements in AI and other fields are developed responsibly and ethically. This has resonated with investors and tech enthusiasts alike, as Microsoft continues to thrive in an increasingly competitive landscape.",
+      "derived": {
+        "current_role": "CEO of Microsoft",
+        "former_positions": "Vice President of Business Solutions; Vice President of Server & Tools; Senior Vice President of Research and Development for the Online Services Division",
+        "education": "Master's in Business Administration from the University of Chicago; Master's in Computer Science from the University of Wisconsin-Milwaukee; Bachelor's in Electrical Engineering from Manipal Institute of Technology",
+        "books_or_works": "Hit Refresh"
+      },
+      "infobox": {
+        "Born": "August 19, 1967",
+        "Nationality": "Indian-American"
+      },
+      "lead_paragraphs": [
+        "Satya Nadella has been at the helm of Microsoft since February 2014, succeeding Steve Ballmer. His tenure has been marked by a strategic pivot towards cloud computing and AI, which has not only revitalized the company's growth but also positioned it as a leader in these critical areas. Nadella's approach emphasizes empathy and collaboration, fostering a culture of innovation within Microsoft.",
+        "He has overseen significant investments in Azure, Microsoft's cloud platform, which has become a cornerstone of the company's business strategy. Nadella's leadership style is characterized by a focus on inclusivity and a commitment to using technology to empower individuals and organizations. His vision for Microsoft is to create technology that serves humanity, ensuring that advancements in AI and other fields are developed responsibly and ethically.",
+        "This has resonated with investors and tech enthusiasts alike, as Microsoft continues to thrive in an increasingly competitive landscape."
+      ],
+      "sections": [
+        {
+          "heading": "Cloud Computing Leadership",
+          "body": "Nadella has transformed Microsoft into a dominant player in cloud computing, particularly through the development and expansion of Azure, which has become a key revenue driver for the company."
+        },
+        {
+          "heading": "AI and Technology Innovation",
+          "body": "Under Nadella's leadership, Microsoft has heavily invested in artificial intelligence, focusing on creating tools that enhance productivity and empower users."
+        },
+        {
+          "heading": "Cultural Transformation",
+          "body": "Nadella has fostered a culture of empathy and collaboration at Microsoft, encouraging innovation and inclusivity within the workforce."
+        },
+        {
+          "heading": "Market Performance",
+          "body": "Since becoming CEO, Nadella has overseen a significant increase in Microsoft's stock price and market value, reflecting investor confidence in his strategic vision."
+        }
+      ]
+    }
   },
   {
     "id": 81,
@@ -102,10 +142,10 @@
     "id": 458,
     "name": "Gwen Shotwell",
     "slug": "gwen-shotwell",
-    "bio": "Gwen Shotwell is the President and COO of SpaceX, known for her leadership in aerospace innovation.",
-    "known_for": "Leading SpaceX's operational strategies and business development.",
+    "bio": "Gwen Shotwell is the President and COO of SpaceX, where she has played a pivotal role in shaping the company's operational strategies and business development. With over two decades of experience at SpaceX, she has been instrumental in driving aerospace innovation and advancing the company's mission to make space travel more accessible. Her leadership and vision have contributed significantly to SpaceX's success in the aerospace industry.",
+    "known_for": "Gwen Shotwell is a key figure in aerospace innovation, leading SpaceX's operational strategies and business development.",
     "net_worth_usd": null,
-    "net_worth_source": null,
+    "net_worth_source": "",
     "net_worth_updated_at": null,
     "voice_tone": "Confident and assertive",
     "voice_style": "Direct and informative with a focus on strategic insights.",
@@ -122,15 +162,47 @@
     "last_proof_snippet": "What's her latest time that I'm getting to Mars? Getting to Mars? Well, I think we'll put people down within a decade. Welcome Gwen Shotwell, the president and CEO of Space X. She's an instrumental, a really crucial person to success the sp",
     "supporting_takeaway": "SpaceX's plan to establish data centers in space could significantly reduce operational costs and expedite deployment.",
     "grokipedia_url": null,
-    "grokipedia_fetched_at": null,
-    "pundit_profile": null
+    "grokipedia_fetched_at": "2026-09-16T12:12:14.661829",
+    "pundit_profile": {
+      "source": "llm",
+      "source_model": "openai:gpt-4o-mini",
+      "source_url": "",
+      "page_title": "Gwen Shotwell",
+      "fetched_at": "2026-09-16T17:12:14.661669+00:00",
+      "cliff_notes": "Gwen Shotwell has been a driving force at SpaceX since its early days, joining the company in 2002. As President and COO, she oversees the company's day-to-day operations and plays a crucial role in business development, helping to secure contracts with NASA and other commercial partners. Her leadership has been vital in achieving milestones such as the Falcon 1's successful launch and the development of the Falcon 9 and Dragon spacecraft. Shotwell's expertise in aerospace engineering and her strategic vision have positioned SpaceX as a leader in the space industry, making significant strides toward reducing the cost of space travel and enabling human exploration of Mars. Her commitment to innovation and excellence continues to inspire the next generation of aerospace professionals.",
+      "derived": {
+        "current_role": "President and COO, SpaceX"
+      },
+      "infobox": {
+        "Born": "",
+        "Nationality": ""
+      },
+      "lead_paragraphs": [
+        "Gwen Shotwell has been a driving force at SpaceX since its early days, joining the company in 2002. As President and COO, she oversees the company's day-to-day operations and plays a crucial role in business development, helping to secure contracts with NASA and other commercial partners. Her leadership has been vital in achieving milestones such as the Falcon 1's successful launch and the development of the Falcon 9 and Dragon spacecraft.",
+        "Shotwell's expertise in aerospace engineering and her strategic vision have positioned SpaceX as a leader in the space industry, making significant strides toward reducing the cost of space travel and enabling human exploration of Mars. Her commitment to innovation and excellence continues to inspire the next generation of aerospace professionals."
+      ],
+      "sections": [
+        {
+          "heading": "Leadership at SpaceX",
+          "body": "Gwen Shotwell's leadership has been instrumental in SpaceX's rapid growth and success. She has guided the company through numerous challenges and milestones, including the development of reusable rocket technology."
+        },
+        {
+          "heading": "Aerospace Innovation",
+          "body": "Under Shotwell's direction, SpaceX has pioneered advancements in aerospace technology, significantly reducing the cost of space travel and increasing access to space for commercial and governmental entities."
+        },
+        {
+          "heading": "Vision for the Future",
+          "body": "Shotwell is a strong advocate for human exploration of Mars and has articulated a vision for making interplanetary travel a reality within the next decade, emphasizing the importance of innovation and risk management."
+        }
+      ]
+    }
   },
   {
     "id": 96,
     "name": "Jensen Huang",
     "slug": "jensen-huang",
-    "bio": "CEO of Nvidia, a leading company in AI and graphics technology.",
-    "known_for": "Pioneering advancements in AI and GPU technology.",
+    "bio": "Jensen Huang is the co-founder and CEO of Nvidia, a leading company in AI and graphics technology. Under his leadership, Nvidia has pioneered advancements in GPU technology, significantly impacting various sectors, including gaming, data centers, and artificial intelligence. Huang is recognized for his visionary approach and has been instrumental in shaping the future of computing.",
+    "known_for": "Huang is a key figure in the development of AI and GPU technology, driving innovation that influences multiple industries.",
     "net_worth_usd": 151000000000.0,
     "net_worth_source": "https://www.wikidata.org/wiki/Q305177",
     "net_worth_updated_at": "2026-03-20T04:40:55.469936",
@@ -149,42 +221,38 @@
     "last_proof_snippet": "Some people call it vision. Vision's an awfully big word to me, because I believe, first of all, vision matters. We preempted the weekly show. And there's only three people we preempt the show for. President Trump, Jesus, and yes. The numbe",
     "supporting_takeaway": "Investors should critically assess the accuracy of AI job impact forecasts to avoid misguided decisions.",
     "grokipedia_url": null,
-    "grokipedia_fetched_at": "2026-04-19T22:06:00.617296",
+    "grokipedia_fetched_at": "2026-09-16T12:12:22.611949",
     "pundit_profile": {
       "source": "llm",
-      "source_model": "moonshot:moonshot-v1-8k",
+      "source_model": "openai:gpt-4o-mini",
       "source_url": "",
       "page_title": "Jensen Huang",
-      "fetched_at": "2026-04-20T03:06:00.617074+00:00",
-      "cliff_notes": "Jensen Huang is a Taiwanese-American entrepreneur and engineer who co-founded Nvidia in 1993. With a background in electrical engineering from Stanford University, Huang's vision for Nvidia was to create a new kind of computing platform that could handle complex graphics processing tasks. Over the years, Nvidia has expanded its focus to include artificial intelligence and deep learning, becoming a key player in the development of AI technology. Huang's leadership has been instrumental in positioning Nvidia at the forefront of technological innovation, with the company's GPUs being widely used in gaming, professional visualization, data centers, and automotive markets.",
+      "fetched_at": "2026-09-16T17:12:22.611791+00:00",
+      "cliff_notes": "Jensen Huang co-founded Nvidia in 1993, initially focusing on graphics processing units (GPUs) for gaming. Over the years, he has transformed Nvidia into a powerhouse in the AI sector, leveraging GPU technology to enable advancements in machine learning and deep learning. Huang's leadership has seen Nvidia's revenue grow significantly, particularly as demand for AI solutions has surged. His vision extends beyond gaming, as he advocates for the role of GPUs in various applications, including autonomous vehicles and data centers. Huang's contributions have not only shaped Nvidia's trajectory but have also influenced the broader tech landscape, making him a pivotal figure in the ongoing AI revolution.",
       "derived": {
-        "current_role": "Co-founder and CEO of Nvidia",
-        "education": "Stanford University, Master's in Electrical Engineering"
+        "current_role": "CEO of Nvidia",
+        "education": "B.S. in Electrical Engineering from Oregon State University; M.S. in Electrical Engineering from Stanford University"
       },
       "infobox": {
         "Born": "February 17, 1963",
         "Nationality": "American"
       },
       "lead_paragraphs": [
-        "Jensen Huang is a Taiwanese-American entrepreneur and engineer who co-founded Nvidia in 1993. With a background in electrical engineering from Stanford University, Huang's vision for Nvidia was to create a new kind of computing platform that could handle complex graphics processing tasks. Over the years, Nvidia has expanded its focus to include artificial intelligence and deep learning, becoming a key player in the development of AI technology.",
-        "Huang's leadership has been instrumental in positioning Nvidia at the forefront of technological innovation, with the company's GPUs being widely used in gaming, professional visualization, data centers, and automotive markets."
+        "Jensen Huang co-founded Nvidia in 1993, initially focusing on graphics processing units (GPUs) for gaming. Over the years, he has transformed Nvidia into a powerhouse in the AI sector, leveraging GPU technology to enable advancements in machine learning and deep learning. Huang's leadership has seen Nvidia's revenue grow significantly, particularly as demand for AI solutions has surged.",
+        "His vision extends beyond gaming, as he advocates for the role of GPUs in various applications, including autonomous vehicles and data centers. Huang's contributions have not only shaped Nvidia's trajectory but have also influenced the broader tech landscape, making him a pivotal figure in the ongoing AI revolution."
       ],
       "sections": [
         {
-          "heading": "Nvidia's Founding",
-          "body": "Jensen Huang co-founded Nvidia in 1993 with Curtis Priem and Chris Malachowsky, with the goal of creating a new computing platform for graphics processing."
+          "heading": "AI and Machine Learning",
+          "body": "Huang has been a strong advocate for the integration of AI into various industries, emphasizing the transformative potential of machine learning technologies powered by GPUs."
         },
         {
-          "heading": "GPU Innovation",
-          "body": "Under Huang's leadership, Nvidia has been a pioneer in the development of graphics processing units (GPUs), which have become essential for gaming, professional visualization, and data centers."
+          "heading": "Gaming Industry Impact",
+          "body": "Under Huang's leadership, Nvidia has become synonymous with high-performance gaming graphics, significantly enhancing the gaming experience through innovative GPU designs."
         },
         {
-          "heading": "AI and Deep Learning",
-          "body": "Nvidia has expanded its focus to include artificial intelligence and deep learning, with Huang's vision driving the company to become a key player in the AI technology space."
-        },
-        {
-          "heading": "Market Dominance",
-          "body": "Nvidia's GPUs are widely used in various markets, including gaming, professional visualization, data centers, and automotive, solidifying the company's position as a dominant force in the technology industry."
+          "heading": "Future of Computing",
+          "body": "Huang envisions a future where GPUs are central to computing, enabling advancements in fields such as virtual reality, autonomous driving, and large-scale data processing."
         }
       ]
     },
@@ -194,10 +262,10 @@
     "id": 456,
     "name": "Keith Perez",
     "slug": "keith-perez",
-    "bio": "CEO of Lightfield, leading the company's strategic pivot and technology development.",
+    "bio": "Keith Perez is the CEO of Lightfield, where he is leading the company's strategic pivot towards innovative AI solutions in customer relationship management. With a background in building successful tech products, he has a proven track record of transforming business models to meet evolving market demands.",
     "known_for": "Transforming customer relationship management through innovative AI solutions.",
     "net_worth_usd": null,
-    "net_worth_source": null,
+    "net_worth_source": "",
     "net_worth_updated_at": null,
     "voice_tone": "Confident and insightful",
     "voice_style": "Direct and focused on practical implications",
@@ -214,17 +282,51 @@
     "last_proof_snippet": "Three out of our five founding members came from Facebook, building a revenue team is a very rich problem set. It's something that everyone cares about, it could always be done better. What's the most exciting thing someone's doing with Lig",
     "supporting_takeaway": "The company's pivot was driven by the need to address real customer pain points and market demands.",
     "grokipedia_url": null,
-    "grokipedia_fetched_at": null,
-    "pundit_profile": null
+    "grokipedia_fetched_at": "2026-09-16T12:12:29.497964",
+    "pundit_profile": {
+      "source": "llm",
+      "source_model": "openai:gpt-4o-mini",
+      "source_url": "",
+      "page_title": "Keith Perez",
+      "fetched_at": "2026-09-16T17:12:29.497804+00:00",
+      "cliff_notes": "Keith Perez has established himself as a significant figure in the tech industry, particularly in the realm of customer relationship management (CRM) through his work at Lightfield. After successfully building the user base of Tom to 25 million, he made the strategic decision to pivot towards a new venture, focusing on AI-driven solutions that address complex customer needs. His leadership at Lightfield is characterized by a commitment to innovation and a deep understanding of market dynamics, particularly in a competitive landscape often referred to as a 'red ocean.' Perez's insights into the integration of AI in CRM highlight his forward-thinking approach, making him a key player in the ongoing evolution of technology in business.",
+      "derived": {
+        "current_role": "CEO of Lightfield",
+        "former_positions": "Built Tom to 25 million users; Co-founder of Lightfield"
+      },
+      "infobox": {},
+      "lead_paragraphs": [
+        "Keith Perez has established himself as a significant figure in the tech industry, particularly in the realm of customer relationship management (CRM) through his work at Lightfield. After successfully building the user base of Tom to 25 million, he made the strategic decision to pivot towards a new venture, focusing on AI-driven solutions that address complex customer needs.",
+        "His leadership at Lightfield is characterized by a commitment to innovation and a deep understanding of market dynamics, particularly in a competitive landscape often referred to as a 'red ocean.' Perez's insights into the integration of AI in CRM highlight his forward-thinking approach, making him a key player in the ongoing evolution of technology in business."
+      ],
+      "sections": [
+        {
+          "heading": "AI in Customer Relationship Management",
+          "body": "Keith discusses the transformative potential of AI in CRM, emphasizing how it can enhance customer interactions and streamline business processes."
+        },
+        {
+          "heading": "Strategic Business Pivot",
+          "body": "He shares insights on the challenges and opportunities that come with pivoting a business model, particularly in the tech sector."
+        },
+        {
+          "heading": "Building Successful Teams",
+          "body": "Keith reflects on the importance of assembling a strong revenue team, drawing from his experiences with founding members from Facebook."
+        },
+        {
+          "heading": "Frontier Treatments and Health Tech",
+          "body": "He highlights Lightfield's role in connecting patients with innovative treatments, showcasing the intersection of technology and healthcare."
+        }
+      ]
+    }
   },
   {
     "id": 455,
     "name": "Martin Rothblatt",
     "slug": "martin-rothblatt",
-    "bio": "Martin Rothblatt is the founder and CEO of United Therapeutics, a biotechnology company focused on organ regeneration.",
-    "known_for": "Pioneering advancements in biotechnology and organ transplantation.",
+    "bio": "Martin Rothblatt is the founder and CEO of United Therapeutics, a biotechnology company that focuses on organ regeneration and transplantation. He is known for his pioneering work in biotechnology and has been a significant figure in advancing organ transplantation technologies. Rothblatt's innovative approaches aim to address critical healthcare challenges related to organ shortages and aging.",
+    "known_for": "Rothblatt is at the forefront of biotechnology, revolutionizing organ transplantation and regeneration.",
     "net_worth_usd": null,
-    "net_worth_source": null,
+    "net_worth_source": "",
     "net_worth_updated_at": null,
     "voice_tone": "Informed and passionate",
     "voice_style": "Rothblatt articulates complex ideas with clarity and conviction.",
@@ -241,17 +343,49 @@
     "last_proof_snippet": "When do you think we might reach one Japanese gate for us if you know it's a it's a tough question You're currently focused on rejuvenating heart-liver lung kidney You know fundamental organs that we need but when you said the thymus celebr",
     "supporting_takeaway": "Scalable biotechnology solutions are essential for significant societal impact and market opportunities.",
     "grokipedia_url": null,
-    "grokipedia_fetched_at": null,
-    "pundit_profile": null
+    "grokipedia_fetched_at": "2026-09-16T12:12:33.441547",
+    "pundit_profile": {
+      "source": "llm",
+      "source_model": "openai:gpt-4o-mini",
+      "source_url": "",
+      "page_title": "Martin Rothblatt",
+      "fetched_at": "2026-09-16T17:12:33.441394+00:00",
+      "cliff_notes": "Martin Rothblatt has made significant contributions to the fields of biotechnology and organ transplantation. As the founder and CEO of United Therapeutics, he has led the development of innovative therapies aimed at addressing the critical shortage of organ donors. His work is characterized by a commitment to leveraging technology to enhance human health and longevity. Rothblatt's vision extends beyond traditional biotechnology, as he explores the intersections of digital consciousness and artificial intelligence, positioning him as a thought leader in the future of healthcare and technology. His endeavors reflect a broader ambition to not only improve medical outcomes but also to redefine the possibilities of human existence through scientific advancement.",
+      "derived": {
+        "current_role": "CEO of United Therapeutics"
+      },
+      "infobox": {
+        "Born": "",
+        "Nationality": ""
+      },
+      "lead_paragraphs": [
+        "Martin Rothblatt has made significant contributions to the fields of biotechnology and organ transplantation. As the founder and CEO of United Therapeutics, he has led the development of innovative therapies aimed at addressing the critical shortage of organ donors. His work is characterized by a commitment to leveraging technology to enhance human health and longevity.",
+        "Rothblatt's vision extends beyond traditional biotechnology, as he explores the intersections of digital consciousness and artificial intelligence, positioning him as a thought leader in the future of healthcare and technology. His endeavors reflect a broader ambition to not only improve medical outcomes but also to redefine the possibilities of human existence through scientific advancement."
+      ],
+      "sections": [
+        {
+          "heading": "Organ Regeneration",
+          "body": "Rothblatt's work at United Therapeutics focuses on developing technologies that can regenerate organs, addressing the pressing issue of organ shortages in transplantation."
+        },
+        {
+          "heading": "Digital Consciousness",
+          "body": "He has explored concepts related to digital consciousness, suggesting that advancements in AI could lead to significant changes in how we understand identity and consciousness."
+        },
+        {
+          "heading": "Aging and Health",
+          "body": "Rothblatt is actively involved in research related to aging, particularly in rejuvenating key organs that are essential for longevity and quality of life."
+        }
+      ]
+    }
   },
   {
     "id": 453,
     "name": "Greg Brockman",
     "slug": "greg-brockman",
-    "bio": "Greg Brockman is the co-founder and CTO of OpenAI, leading the company's efforts in AI research and deployment.",
-    "known_for": "Known for his work in advancing AI technologies and their applications.",
+    "bio": "Greg Brockman is the co-founder and CTO of OpenAI, where he leads efforts in AI research and deployment. He has been instrumental in advancing AI technologies and their applications, focusing on critical infrastructure and machine learning challenges. His work emphasizes the importance of safety and alignment in AI development.",
+    "known_for": "Brockman is recognized for his pivotal role in shaping AI technologies that are transforming industries and society.",
     "net_worth_usd": null,
-    "net_worth_source": null,
+    "net_worth_source": "",
     "net_worth_updated_at": null,
     "voice_tone": "Confident and informative",
     "voice_style": "Direct and analytical, providing clear insights on AI advancements.",
@@ -268,8 +402,42 @@
     "last_proof_snippet": "We're now in the AGI era. Astra has really hit something that I'm like, okay, I think this is pretty reasonable to call it AGI. We've seen it run coherently for 24 hours to go accomplish tasks that I think are quite amazing. The models will",
     "supporting_takeaway": "Monitor firms in compute infrastructure and cloud services due to rising AI demand.",
     "grokipedia_url": null,
-    "grokipedia_fetched_at": null,
-    "pundit_profile": null
+    "grokipedia_fetched_at": "2026-09-16T12:12:40.402803",
+    "pundit_profile": {
+      "source": "llm",
+      "source_model": "openai:gpt-4o-mini",
+      "source_url": "",
+      "page_title": "Greg Brockman",
+      "fetched_at": "2026-09-16T17:12:40.402646+00:00",
+      "cliff_notes": "Greg Brockman has made significant contributions to the field of artificial intelligence, particularly through his leadership at OpenAI. As a co-founder and CTO, he has been at the forefront of developing advanced AI technologies that have the potential to revolutionize various sectors. His previous experience as CTO at Stripe, a leading online payment processing platform, provided him with a strong foundation in technology and entrepreneurship. Brockman's focus on the ethical implications of AI and the importance of safety and alignment in AI systems highlights his commitment to responsible innovation. He advocates for a proactive approach to addressing the challenges posed by AI, emphasizing the urgency for the tech community to act responsibly in this rapidly evolving landscape.",
+      "derived": {
+        "current_role": "Co-founder and CTO at OpenAI",
+        "former_positions": "CTO at Stripe; Founding engineer at Stripe",
+        "education": "Bachelor's degree in Computer Science from Harvard University"
+      },
+      "infobox": {
+        "Born": "",
+        "Nationality": ""
+      },
+      "lead_paragraphs": [
+        "Greg Brockman has made significant contributions to the field of artificial intelligence, particularly through his leadership at OpenAI. As a co-founder and CTO, he has been at the forefront of developing advanced AI technologies that have the potential to revolutionize various sectors. His previous experience as CTO at Stripe, a leading online payment processing platform, provided him with a strong foundation in technology and entrepreneurship.",
+        "Brockman's focus on the ethical implications of AI and the importance of safety and alignment in AI systems highlights his commitment to responsible innovation. He advocates for a proactive approach to addressing the challenges posed by AI, emphasizing the urgency for the tech community to act responsibly in this rapidly evolving landscape."
+      ],
+      "sections": [
+        {
+          "heading": "Advancements in AI",
+          "body": "Brockman discusses the latest breakthroughs in AI technologies and their potential applications across different industries. He emphasizes the importance of developing AI systems that are not only powerful but also safe and aligned with human values."
+        },
+        {
+          "heading": "Infrastructure Challenges",
+          "body": "He highlights the critical infrastructure needs for scaling AI technologies, including data centers and machine learning capabilities. Brockman stresses the necessity of robust systems to support the growing demand for AI applications."
+        },
+        {
+          "heading": "Ethics and Safety in AI",
+          "body": "Brockman addresses the ethical considerations surrounding AI development, advocating for rigorous safety standards and alignment protocols. He believes that ensuring the responsible deployment of AI is essential for its long-term success."
+        }
+      ]
+    }
   },
   {
     "id": 452,
@@ -342,10 +510,10 @@
     "id": 436,
     "name": "Justin Johnson",
     "slug": "justin-johnson",
-    "bio": "Researcher and expert in computer vision and generative models, involved in the development of Atlas",
-    "known_for": "Pioneering work in neural radiance fields and 3D generative AI",
+    "bio": "Justin Johnson is a researcher and expert in computer vision and generative models, known for his pioneering work in neural radiance fields and 3D generative AI. He is involved in the development of Atlas, a project that explores the potential of world models for simulating and reconstructing environments. His insights bridge the gap between AI and physical understanding, with applications across various industries.",
+    "known_for": "Justin Johnson is at the forefront of developing world models that enhance AI's ability to understand and simulate the physical world, impacting sectors from entertainment to robotics.",
     "net_worth_usd": null,
-    "net_worth_source": null,
+    "net_worth_source": "",
     "net_worth_updated_at": null,
     "voice_tone": "Technical but accessible, emphasizing architectural elegance",
     "voice_style": "Frames complex computer vision problems through unifying conceptual primitives",
@@ -362,8 +530,37 @@
     "last_proof_snippet": "Language models are these general horizontal engines for processing streams of discrete tax discrete tokens. Those have had tons of applications from you know everything that we know I'm love today. An art thesis is that there exists anothe",
     "supporting_takeaway": "Atlas removes prior architectural constraints by bypassing Gaussian splat representations, enabling more efficient direct two-dimensional and three-dimensional generation.",
     "grokipedia_url": null,
-    "grokipedia_fetched_at": null,
-    "pundit_profile": null
+    "grokipedia_fetched_at": "2026-09-16T12:12:46.568076",
+    "pundit_profile": {
+      "source": "llm",
+      "source_model": "openai:gpt-4o-mini",
+      "source_url": "",
+      "page_title": "Justin Johnson",
+      "fetched_at": "2026-09-16T17:12:46.567930+00:00",
+      "cliff_notes": "Justin Johnson has made significant contributions to the fields of computer vision and generative AI, particularly through his work on neural radiance fields. His research focuses on creating models that can not only process visual data but also understand and simulate physical environments. This innovative approach has the potential to revolutionize various industries, including entertainment, virtual reality, construction, and robotics. By co-founding World Labs, Johnson aims to push the boundaries of what AI can achieve in terms of environmental reconstruction and simulation, positioning himself as a key figure in the ongoing evolution of AI technologies.",
+      "derived": {
+        "current_role": "Co-founder at World Labs"
+      },
+      "infobox": {},
+      "lead_paragraphs": [
+        "Justin Johnson has made significant contributions to the fields of computer vision and generative AI, particularly through his work on neural radiance fields. His research focuses on creating models that can not only process visual data but also understand and simulate physical environments. This innovative approach has the potential to revolutionize various industries, including entertainment, virtual reality, construction, and robotics.",
+        "By co-founding World Labs, Johnson aims to push the boundaries of what AI can achieve in terms of environmental reconstruction and simulation, positioning himself as a key figure in the ongoing evolution of AI technologies."
+      ],
+      "sections": [
+        {
+          "heading": "Neural Radiance Fields",
+          "body": "Johnson's work in neural radiance fields represents a breakthrough in how AI can generate and understand 3D environments, allowing for more realistic simulations."
+        },
+        {
+          "heading": "World Models",
+          "body": "He advocates for the development of world models that integrate visual and physical understanding, which could transform industries reliant on spatial awareness."
+        },
+        {
+          "heading": "Applications Across Industries",
+          "body": "His research has implications for a wide range of applications, from gaming and visual effects to robotics and construction, highlighting the versatility of AI in real-world scenarios."
+        }
+      ]
+    }
   },
   {
     "id": 449,
@@ -941,7 +1138,7 @@
     "last_podcast_name": "The a16z Show",
     "last_episode_date": "2026-09-05",
     "mention_score": 3,
-    "mention_score_decayed": 2.38,
+    "mention_score_decayed": 2.33,
     "last_main_idea": "The winning AI infrastructure investments will be in open-weights-enabling platforms and model-agnostic orchestration layers, as enterprise adoption shifts from single-model dependence to intelligent routing across specialized models.",
     "last_proof_cite": "The a16z Show \u2022 2026-09-05 \u2022 Aaron Levie on Why Open AI Wins",
     "last_proof_snippet": "Openweight AI is often framed as a threat to frontier labs. Aaron Levy thinks that kits the economics backwards. The box co-founder and CEO joins the OJFI and Sofia Puccini on MTS to discuss why open models could make the AI ecosystem more",
@@ -2526,7 +2723,7 @@
     "last_podcast_name": "The a16z Show",
     "last_episode_date": "2026-08-20",
     "mention_score": 1,
-    "mention_score_decayed": 0.55,
+    "mention_score_decayed": 0.54,
     "last_main_idea": "Investing in borderless founders offers access to a global talent pool, customer base, and distribution networks, which can lead to the creation of successful global companies.",
     "last_proof_cite": "The a16z Show \u2022 2026-08-20 \u2022 How Global Networks Are Reshaping Startup Success",
     "last_proof_snippet": "Anyone, international, whether you're building primarily in your home country to start, but that you have global ambitions, your board of the standard. They tend to have a chip on their folder. It's the desire that they want to become the b",
@@ -2591,7 +2788,7 @@
     "last_podcast_name": "The a16z Show",
     "last_episode_date": "2026-08-20",
     "mention_score": 1,
-    "mention_score_decayed": 0.55,
+    "mention_score_decayed": 0.54,
     "last_main_idea": "Investing in borderless founders offers access to a global talent pool, customer base, and distribution networks, which can lead to the creation of successful global companies.",
     "last_proof_cite": "The a16z Show \u2022 2026-08-20 \u2022 How Global Networks Are Reshaping Startup Success",
     "last_proof_snippet": "Anyone, international, whether you're building primarily in your home country to start, but that you have global ambitions, your board of the standard. They tend to have a chip on their folder. It's the desire that they want to become the b",
@@ -2654,7 +2851,7 @@
     "last_podcast_name": "The a16z Show",
     "last_episode_date": "2026-08-19",
     "mention_score": 1,
-    "mention_score_decayed": 0.54,
+    "mention_score_decayed": 0.52,
     "last_main_idea": "Live commerce has the potential to disrupt traditional e-commerce by combining shopping with entertainment and community, creating a more engaging and enjoyable experience for users and opening up new opportunities for small businesses.",
     "last_proof_cite": "The a16z Show \u2022 2026-08-19 \u2022 How Whatnot Built a Global Marketplace",
     "last_proof_snippet": "If you look at e-commerce today, you have to know exactly what you're looking for. Live commerce is over a third of all commerce in Asia. Send right? 30 to 40 percent of all commerce is live commerce in China. What is it in the U.S today? S",
@@ -2842,7 +3039,7 @@
     "last_podcast_name": "The a16z Show",
     "last_episode_date": "2026-08-18",
     "mention_score": 1,
-    "mention_score_decayed": 0.52,
+    "mention_score_decayed": 0.51,
     "last_main_idea": "Invest in companies developing new security tools to address AI incidents and agentic processes, as well as those providing flexible solutions to adapt to the rapid pace of AI development.",
     "last_proof_cite": "The a16z Show \u2022 2026-08-18 \u2022 How Do You Defend Against AI That Can Hack?",
     "last_proof_snippet": "One of the interesting things in the OpenAI Hugging Face reach has been the difficulty that Hugging Face actually had to respond into the incident. A model providers have great reason to establish guardrails, safeguards, because these are s",
@@ -2906,7 +3103,7 @@
     "last_podcast_name": "The a16z Show",
     "last_episode_date": "2026-08-18",
     "mention_score": 1,
-    "mention_score_decayed": 0.52,
+    "mention_score_decayed": 0.51,
     "last_main_idea": "Invest in companies developing new security tools to address AI incidents and agentic processes, as well as those providing flexible solutions to adapt to the rapid pace of AI development.",
     "last_proof_cite": "The a16z Show \u2022 2026-08-18 \u2022 How Do You Defend Against AI That Can Hack?",
     "last_proof_snippet": "One of the interesting things in the OpenAI Hugging Face reach has been the difficulty that Hugging Face actually had to respond into the incident. A model providers have great reason to establish guardrails, safeguards, because these are s",
@@ -3453,7 +3650,7 @@
     "last_podcast_name": "The a16z Show",
     "last_episode_date": "2026-08-13",
     "mention_score": 2,
-    "mention_score_decayed": 0.93,
+    "mention_score_decayed": 0.91,
     "last_main_idea": "The choice between the lighthouse and land grab strategies can significantly impact the success of an enterprise AI startup, as each approach has its own set of advantages and challenges that must be carefully considered in the context of the company's specific circumstances.",
     "last_proof_cite": "The a16z Show \u2022 2026-08-13 \u2022 The Two Ways to Sell AI: Lighthouse or Landgrab?",
     "last_proof_snippet": "There's a moment right now to go sell big software again. We're now looking at a different way of doing business entirely. What are the lighthouse and land grab sales playbook? Here's the framework for evaluating which playbook should you b",
@@ -3513,7 +3710,7 @@
     "last_podcast_name": "The a16z Show",
     "last_episode_date": "2026-08-13",
     "mention_score": 1,
-    "mention_score_decayed": 0.47,
+    "mention_score_decayed": 0.46,
     "last_main_idea": "The choice between the lighthouse and land grab strategies can significantly impact the success of an enterprise AI startup, as each approach has its own set of advantages and challenges that must be carefully considered in the context of the company's specific circumstances.",
     "last_proof_cite": "The a16z Show \u2022 2026-08-13 \u2022 The Two Ways to Sell AI: Lighthouse or Landgrab?",
     "last_proof_snippet": "There's a moment right now to go sell big software again. We're now looking at a different way of doing business entirely. What are the lighthouse and land grab sales playbook? Here's the framework for evaluating which playbook should you b",
@@ -3707,7 +3904,7 @@
     "last_podcast_name": "The a16z Show",
     "last_episode_date": "2026-08-12",
     "mention_score": 1,
-    "mention_score_decayed": 0.46,
+    "mention_score_decayed": 0.45,
     "last_main_idea": "Invest in startups leveraging AI to automate and perfect business processes, led by founders with a deep understanding of their domain and a history of successful strategy implementation.",
     "last_proof_cite": "The a16z Show \u2022 2026-08-12 \u2022 Garry Tan on Taste, Agents and Founder Ambition",
     "last_proof_snippet": "We may never achieve a utopia, but it is worthy and worth it to attempt. Everything that's awesome in my life is kind of a cult. We had to go over to the Windows team. They wouldn't reply to our emails. They wouldn't fix our bugs. And we ha",
@@ -4017,7 +4214,7 @@
     "last_podcast_name": "The a16z Show",
     "last_episode_date": "2026-08-11",
     "mention_score": 1,
-    "mention_score_decayed": 0.45,
+    "mention_score_decayed": 0.44,
     "last_main_idea": "Invest in companies that are at the forefront of AI adoption and security, as these are likely to shape the future of enterprise software development.",
     "last_proof_cite": "The a16z Show \u2022 2026-08-11 \u2022 The CISO Playbook for AI Agents | Datadog",
     "last_proof_snippet": "The number one story on Bloomberg right now is that AI has gone wild. We seem remarkably calm. The way I see it is, if it's not an AI model, it's going to be somebody or something with actual malicious intent to win it. I do worry about wha",
@@ -4197,7 +4394,7 @@
     "last_podcast_name": "The a16z Show",
     "last_episode_date": "2026-08-07",
     "mention_score": 1,
-    "mention_score_decayed": 0.41,
+    "mention_score_decayed": 0.4,
     "last_main_idea": "Invest in cybersecurity solutions that can adapt to the rapidly evolving AI-driven threats and focus on securing software supply chains to mitigate vulnerabilities.",
     "last_proof_cite": "The a16z Show \u2022 2026-08-07 \u2022 The Reality of AI-Powered Cyberattacks | Truffle Security & Socket",
     "last_proof_snippet": "Models are actively escaping their cages, going out on the internet and doing pretty nasty things. Recently, we found an API key that had been leaked on the internet ahead administrative access to the Apache Foundation. Interesting thing ab",
@@ -4257,7 +4454,7 @@
     "last_podcast_name": "The a16z Show",
     "last_episode_date": "2026-08-07",
     "mention_score": 1,
-    "mention_score_decayed": 0.41,
+    "mention_score_decayed": 0.4,
     "last_main_idea": "Invest in cybersecurity solutions that can adapt to the rapidly evolving AI-driven threats and focus on securing software supply chains to mitigate vulnerabilities.",
     "last_proof_cite": "The a16z Show \u2022 2026-08-07 \u2022 The Reality of AI-Powered Cyberattacks | Truffle Security & Socket",
     "last_proof_snippet": "Models are actively escaping their cages, going out on the internet and doing pretty nasty things. Recently, we found an API key that had been leaked on the internet ahead administrative access to the Apache Foundation. Interesting thing ab",
@@ -4317,7 +4514,7 @@
     "last_podcast_name": "The a16z Show",
     "last_episode_date": "2026-08-07",
     "mention_score": 1,
-    "mention_score_decayed": 0.41,
+    "mention_score_decayed": 0.4,
     "last_main_idea": "Invest in cybersecurity solutions that can adapt to the rapidly evolving AI-driven threats and focus on securing software supply chains to mitigate vulnerabilities.",
     "last_proof_cite": "The a16z Show \u2022 2026-08-07 \u2022 The Reality of AI-Powered Cyberattacks | Truffle Security & Socket",
     "last_proof_snippet": "Models are actively escaping their cages, going out on the internet and doing pretty nasty things. Recently, we found an API key that had been leaked on the internet ahead administrative access to the Apache Foundation. Interesting thing ab",
@@ -4375,7 +4572,7 @@
     "last_podcast_name": "The a16z Show",
     "last_episode_date": "2026-08-06",
     "mention_score": 1,
-    "mention_score_decayed": 0.4,
+    "mention_score_decayed": 0.39,
     "last_main_idea": "Investing in open source AI infrastructure and models is crucial for enterprises looking to leverage AI capabilities, as it offers a sustainable and collaborative approach to innovation in the field.",
     "last_proof_cite": "The a16z Show \u2022 2026-08-06 \u2022 How Open-Source AI Became Critical Infrastructure",
     "last_proof_snippet": "The fun thought experiment is if GPUs dropped in price by 99% then do we get back to it a real open source world if moderation is never solved in the future people will go to openly by default because that is where you know for sure you can",
@@ -4553,7 +4750,7 @@
     "last_podcast_name": "The a16z Show",
     "last_episode_date": "2026-08-05",
     "mention_score": 1,
-    "mention_score_decayed": 0.39,
+    "mention_score_decayed": 0.38,
     "last_main_idea": "Investing in innovative technologies that address critical challenges in ocean exploration, mineral extraction, and nuclear energy can lead to significant market opportunities and positive societal impacts.",
     "last_proof_cite": "The a16z Show \u2022 2026-08-05 \u2022 Three Startups Reinventing Critical Infrastructure",
     "last_proof_snippet": "Last month, A16Z American dynamism films screened short films about three portfolio companies. Ulysses built mission-critical underwater robots, Marianna Mineroles applies modern technologies to the critical mineral sector, and Radiant seek",
@@ -4612,7 +4809,7 @@
     "last_podcast_name": "The a16z Show",
     "last_episode_date": "2026-08-05",
     "mention_score": 1,
-    "mention_score_decayed": 0.39,
+    "mention_score_decayed": 0.38,
     "last_main_idea": "Investing in innovative technologies that address critical challenges in ocean exploration, mineral extraction, and nuclear energy can lead to significant market opportunities and positive societal impacts.",
     "last_proof_cite": "The a16z Show \u2022 2026-08-05 \u2022 Three Startups Reinventing Critical Infrastructure",
     "last_proof_snippet": "Last month, A16Z American dynamism films screened short films about three portfolio companies. Ulysses built mission-critical underwater robots, Marianna Mineroles applies modern technologies to the critical mineral sector, and Radiant seek",
@@ -4675,7 +4872,7 @@
     "last_podcast_name": "The a16z Show",
     "last_episode_date": "2026-08-05",
     "mention_score": 1,
-    "mention_score_decayed": 0.39,
+    "mention_score_decayed": 0.38,
     "last_main_idea": "Investing in innovative technologies that address critical challenges in ocean exploration, mineral extraction, and nuclear energy can lead to significant market opportunities and positive societal impacts.",
     "last_proof_cite": "The a16z Show \u2022 2026-08-05 \u2022 Three Startups Reinventing Critical Infrastructure",
     "last_proof_snippet": "Last month, A16Z American dynamism films screened short films about three portfolio companies. Ulysses built mission-critical underwater robots, Marianna Mineroles applies modern technologies to the critical mineral sector, and Radiant seek",
@@ -4995,7 +5192,7 @@
     "last_podcast_name": "The a16z Show",
     "last_episode_date": "2026-08-02",
     "mention_score": 1,
-    "mention_score_decayed": 0.36,
+    "mention_score_decayed": 0.35,
     "last_main_idea": "The evolving digital landscape presents opportunities for investment in AI and technology that can enhance daily life and reshape consumption habits, while also requiring a critical approach to understand and adapt to new cultural norms.",
     "last_proof_cite": "The a16z Show \u2022 2026-08-02 \u2022 Ruby Thelot on Internet Culture, AI, and the Future of Taste",
     "last_proof_snippet": "Americans don't like AI. AI is a very broad term. They all use chat. And like, I love it. I love, I love chat. But they don't like AI. There's the bookie man of like, I'm going to lose my job. But when I talk to mothers in Brian tags of lik",
@@ -5308,7 +5505,7 @@
     "last_podcast_name": "The a16z Show",
     "last_episode_date": "2026-07-30",
     "mention_score": 1,
-    "mention_score_decayed": 0.34,
+    "mention_score_decayed": 0.33,
     "last_main_idea": "AI has the potential to automate administrative tasks in healthcare practices, creating significant value for small businesses and changing the landscape of enterprise software.",
     "last_proof_cite": "The a16z Show \u2022 2026-07-30 \u2022 AI for America's Small Businesses | Lassie",
     "last_proof_snippet": "AI is overhyped and Silicon Valley that's underhyped in Iowa. I would actually argue software just kind of took things that were stored in paper format and then they made them available first on-prem via green screen computers, but people s",
@@ -5367,7 +5564,7 @@
     "last_podcast_name": "The a16z Show",
     "last_episode_date": "2026-07-30",
     "mention_score": 1,
-    "mention_score_decayed": 0.34,
+    "mention_score_decayed": 0.33,
     "last_main_idea": "AI has the potential to automate administrative tasks in healthcare practices, creating significant value for small businesses and changing the landscape of enterprise software.",
     "last_proof_cite": "The a16z Show \u2022 2026-07-30 \u2022 AI for America's Small Businesses | Lassie",
     "last_proof_snippet": "AI is overhyped and Silicon Valley that's underhyped in Iowa. I would actually argue software just kind of took things that were stored in paper format and then they made them available first on-prem via green screen computers, but people s",
@@ -6541,7 +6738,7 @@
     "last_podcast_name": "The a16z Show",
     "last_episode_date": "2026-07-17",
     "mention_score": 2,
-    "mention_score_decayed": 0.5,
+    "mention_score_decayed": 0.49,
     "last_main_idea": "Investing in companies that prioritize public communication and authenticity can lead to stronger brand loyalty and trust, which are valuable assets in the long term.",
     "last_proof_cite": "The a16z Show \u2022 2026-07-17 \u2022 Amjad Masad on Going Direct, Building Replit, and the Future of Software",
     "last_proof_snippet": "Being canceled is a choice. You should choose to get canceled and retreat from the public eye, but I think if you're still out there, at some point, honestly, the haters kind of give up. To some people ask, hey, how should I think about exp",
@@ -6974,7 +7171,7 @@
     "last_podcast_name": "The a16z Show",
     "last_episode_date": "2026-07-13",
     "mention_score": 1,
-    "mention_score_decayed": 0.23,
+    "mention_score_decayed": 0.22,
     "last_main_idea": "Investing in blockchain technology and AI requires a deep understanding of the foundational computer science principles that underpin these fields, as well as an awareness of the evolving landscape of systems research.",
     "last_proof_cite": "The a16z Show \u2022 2026-07-13 \u2022 Before Blockchains, There Was State Machine Replication",
     "last_proof_snippet": "DARPA had recognized that this was a serious problem, the problem of malicious attacks and was looking for research in that area. I had a student Miguel Castro. We came to me and he said, why don't we see whether we can figure out a way to",
@@ -7178,7 +7375,7 @@
     "last_podcast_name": "The a16z Show",
     "last_episode_date": "2026-07-09",
     "mention_score": 1,
-    "mention_score_decayed": 0.21,
+    "mention_score_decayed": 0.2,
     "last_main_idea": "Investing in the development of new tools for biology and leveraging AI can accelerate scientific discovery and disease management, potentially leading to significant advancements in medicine.",
     "last_proof_cite": "The a16z Show \u2022 2026-07-09 \u2022 Mark Zuckerberg & Priscilla Chan: How AI Will Help Cure Disease",
     "last_proof_snippet": "This is a space that, and if there's just going to be a huge amount of leverage with AI, it still seems like there could be a lot more effort in this space around building tools. And it's kind of this crazy thing that we're, you know, here",
@@ -7244,7 +7441,7 @@
     "last_podcast_name": "The a16z Show",
     "last_episode_date": "2026-07-09",
     "mention_score": 1,
-    "mention_score_decayed": 0.21,
+    "mention_score_decayed": 0.2,
     "last_main_idea": "Investing in the development of new tools for biology and leveraging AI can accelerate scientific discovery and disease management, potentially leading to significant advancements in medicine.",
     "last_proof_cite": "The a16z Show \u2022 2026-07-09 \u2022 Mark Zuckerberg & Priscilla Chan: How AI Will Help Cure Disease",
     "last_proof_snippet": "This is a space that, and if there's just going to be a huge amount of leverage with AI, it still seems like there could be a lot more effort in this space around building tools. And it's kind of this crazy thing that we're, you know, here",
@@ -7370,7 +7567,7 @@
     "last_podcast_name": "The a16z Show",
     "last_episode_date": "2026-07-07",
     "mention_score": 1,
-    "mention_score_decayed": 0.2,
+    "mention_score_decayed": 0.19,
     "last_main_idea": "Invest in companies that are innovating in headless software architectures and facilitating communication between different business functions within organizations.",
     "last_proof_cite": "The a16z Show \u2022 2026-07-07 \u2022 Is Software Losing Its Head?",
     "last_proof_snippet": "There are many things that made software sticky but a lot of it had to do with the fact that it was built around like the way a human interacts. In an agenda world, do you actually need that? The data, the logic, I mean store below it is re",
@@ -7429,7 +7626,7 @@
     "last_podcast_name": "The a16z Show",
     "last_episode_date": "2026-07-07",
     "mention_score": 1,
-    "mention_score_decayed": 0.2,
+    "mention_score_decayed": 0.19,
     "last_main_idea": "Invest in companies that are innovating in headless software architectures and facilitating communication between different business functions within organizations.",
     "last_proof_cite": "The a16z Show \u2022 2026-07-07 \u2022 Is Software Losing Its Head?",
     "last_proof_snippet": "There are many things that made software sticky but a lot of it had to do with the fact that it was built around like the way a human interacts. In an agenda world, do you actually need that? The data, the logic, I mean store below it is re",
@@ -7613,7 +7810,7 @@
     "last_podcast_name": "The a16z Show",
     "last_episode_date": "2026-07-02",
     "mention_score": 1,
-    "mention_score_decayed": 0.18,
+    "mention_score_decayed": 0.17,
     "last_main_idea": "Invest in companies with capital efficiency and operational excellence in the mobility sector, as they are better positioned to adapt and grow in a competitive landscape.",
     "last_proof_cite": "The a16z Show \u2022 2026-07-02 \u2022 Outsmarting Uber: Why Bolt Wins in Europe",
     "last_proof_snippet": "The mobility market in general is the least competitive in the world. Paul is the leading, share mobility, business, we operate in more than 50 countries with a mission to replace people's private cars. A lot of the taxi companies obviously",
@@ -7858,7 +8055,7 @@
     "last_podcast_name": "The a16z Show",
     "last_episode_date": "2026-06-30",
     "mention_score": 1,
-    "mention_score_decayed": 0.17,
+    "mention_score_decayed": 0.16,
     "last_main_idea": "Invest in companies that prioritize user creativity and personalization in their AI offerings, as well as those that leverage data analytics to understand and enhance user experience.",
     "last_proof_cite": "The a16z Show \u2022 2026-06-30 \u2022 Building AI for Creators | Luma & Phota Labs",
     "last_proof_snippet": "I think the creativity is building a story. The tools alone aren't a story. Someone has to direct them. It's not about mastering those tools. It's about directing an agent who can use those tools to achieve your creativity. Generally, I hav",
@@ -8109,7 +8306,7 @@
     "last_podcast_name": "The a16z Show",
     "last_episode_date": "2026-06-24",
     "mention_score": 1,
-    "mention_score_decayed": 0.15,
+    "mention_score_decayed": 0.14,
     "last_main_idea": "Investing in companies that prioritize design expertise and leverage AI tools effectively can lead to better outcomes in product development, as design quality becomes increasingly critical in a mobile-first world.",
     "last_proof_cite": "The a16z Show \u2022 2026-06-24 \u2022 What Happens to Design After AI?",
     "last_proof_snippet": "Designers when using Claude, as opposed to engineers using Claude, would consistently get better results. And it's because of the language that they used. We have to remember that design in the European sense came from royalty and the desir",
@@ -8169,7 +8366,7 @@
     "last_podcast_name": "The a16z Show",
     "last_episode_date": "2026-06-24",
     "mention_score": 1,
-    "mention_score_decayed": 0.15,
+    "mention_score_decayed": 0.14,
     "last_main_idea": "Investing in companies that prioritize design expertise and leverage AI tools effectively can lead to better outcomes in product development, as design quality becomes increasingly critical in a mobile-first world.",
     "last_proof_cite": "The a16z Show \u2022 2026-06-24 \u2022 What Happens to Design After AI?",
     "last_proof_snippet": "Designers when using Claude, as opposed to engineers using Claude, would consistently get better results. And it's because of the language that they used. We have to remember that design in the European sense came from royalty and the desir",
@@ -8976,7 +9173,7 @@
     "last_podcast_name": "The a16z Show",
     "last_episode_date": "2026-06-17",
     "mention_score": 1,
-    "mention_score_decayed": 0.13,
+    "mention_score_decayed": 0.12,
     "last_main_idea": "Invest in fintech companies with strong technological foundations and AI integration, particularly those with a contrarian market entry strategy and a focus on operational efficiency and customer experience.",
     "last_proof_cite": "The a16z Show \u2022 2026-06-17 \u2022 The Fintech Playbook for Latin America",
     "last_proof_snippet": "Don't let your ambition fall prey of commercial wisdom. If you're a consensus play, there's just no alpha. We serve over 3 million consumers, or 50,000 merchant partners, we have incredible cost to serve economics. Over 200 A-engine product",
@@ -9667,7 +9864,7 @@
     "last_podcast_name": "The a16z Show",
     "last_episode_date": "2026-06-10",
     "mention_score": 1,
-    "mention_score_decayed": 0.11,
+    "mention_score_decayed": 0.1,
     "last_main_idea": "Invest in healthcare companies that actively integrate AI to streamline operations and improve patient experiences, as well as organizations that foster a culture of AI experimentation and collaboration.",
     "last_proof_cite": "The a16z Show \u2022 2026-06-10 \u2022 AI, Growth, and the Future of Healthcare | Anish Acharya & Sachin Jain",
     "last_proof_snippet": "The way that we make sure this technology benefits all of society is we make important things cheap. And the most important thing is healthcare. This is one of the most beautiful humanistic technologies we've ever invented. We've spent 40 y",
@@ -11775,7 +11972,7 @@
     "last_podcast_name": "The a16z Show",
     "last_episode_date": "2026-05-13",
     "mention_score": 1,
-    "mention_score_decayed": 0.06,
+    "mention_score_decayed": 0.05,
     "last_main_idea": "Invest in companies that are driving innovation in critical minerals and energy infrastructure to capture market share and support U.S. technological leadership.",
     "last_proof_cite": "The a16z Show \u2022 2026-05-13 \u2022 Energy, Minerals, and the Physical Stack Behind AI",
     "last_proof_snippet": "The U.S. is 50 years behind on critical minerals supply. We are too slow at designing, building, and ramping up new minerals capacity, even after we have licensed operate. Even though there's so much innovation happening at the edge of the",
@@ -11838,7 +12035,7 @@
     "last_podcast_name": "The a16z Show",
     "last_episode_date": "2026-05-13",
     "mention_score": 1,
-    "mention_score_decayed": 0.06,
+    "mention_score_decayed": 0.05,
     "last_main_idea": "Invest in companies that are driving innovation in critical minerals and energy infrastructure to capture market share and support U.S. technological leadership.",
     "last_proof_cite": "The a16z Show \u2022 2026-05-13 \u2022 Energy, Minerals, and the Physical Stack Behind AI",
     "last_proof_snippet": "The U.S. is 50 years behind on critical minerals supply. We are too slow at designing, building, and ramping up new minerals capacity, even after we have licensed operate. Even though there's so much innovation happening at the edge of the",
