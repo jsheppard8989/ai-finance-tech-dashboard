@@ -1,6 +1,42 @@
 [
   {
-    "id": 68902,
+    "id": 68995,
+    "name": "Martine Rothblatt",
+    "slug": "martine-rothblatt",
+    "bio": null,
+    "known_for": null,
+    "last_main_idea": "Investing in companies focused on thymic rejuvenation and scalable organ regeneration technologies presents a compelling opportunity in the burgeoning biotechnology sector.",
+    "last_episode_title": "Martine Rothblatt: Growing Unlimited Organs, AI Consciousness, & Digital Personhood by 2030",
+    "last_podcast_name": "Moonshots with Peter Diamandis",
+    "last_episode_date": "2026-09-15",
+    "appearance_count": 1
+  },
+  {
+    "id": 68996,
+    "name": "Microsoft CEO Satya Nadella",
+    "slug": "microsoft-ceo-satya-nadella",
+    "bio": null,
+    "known_for": null,
+    "last_main_idea": "The future of AI investment lies in companies that prioritize reliability, competition, and control over AI technologies while addressing economic impacts and interoperability.",
+    "last_episode_title": "Satya Nadella on the AI Doomer Slowdown, Microsoft's Master Plan & Who Wins AI",
+    "last_podcast_name": "All-In with Chamath, Jason, Sacks & Friedberg",
+    "last_episode_date": "2026-09-15",
+    "appearance_count": 1
+  },
+  {
+    "id": 68997,
+    "name": "Jensen Huang",
+    "slug": "jensen-huang",
+    "bio": null,
+    "known_for": null,
+    "last_main_idea": "Investing in AI companies that prioritize safety, leverage open-source models, and demonstrate strong operational capabilities will likely yield significant returns as the sector evolves.",
+    "last_episode_title": "Jensen Huang: The Doomer Hoax, Superintelligence Is Here, and The Future of AI (ft. President Trump)",
+    "last_podcast_name": "All-In with Chamath, Jason, Sacks & Friedberg",
+    "last_episode_date": "2026-09-14",
+    "appearance_count": 1
+  },
+  {
+    "id": 68998,
     "name": "Ask the Mates anything",
     "slug": "ask-the-mates-anything",
     "bio": null,
@@ -12,7 +48,7 @@
     "appearance_count": 1
   },
   {
-    "id": 68903,
+    "id": 68999,
     "name": "Matt Barry",
     "slug": "matt-barry",
     "bio": null,
@@ -24,7 +60,7 @@
     "appearance_count": 1
   },
   {
-    "id": 68904,
+    "id": 69000,
     "name": "Who Grades the AI Models?",
     "slug": "who-grades-the-ai-models",
     "bio": null,
@@ -36,7 +72,7 @@
     "appearance_count": 1
   },
   {
-    "id": 68905,
+    "id": 69001,
     "name": "Your AI Doctor Is Coming",
     "slug": "your-ai-doctor-is-coming",
     "bio": null,
@@ -48,7 +84,7 @@
     "appearance_count": 1
   },
   {
-    "id": 68906,
+    "id": 69002,
     "name": "Fei Fei Li",
     "slug": "fei-fei-li",
     "bio": null,
@@ -60,7 +96,7 @@
     "appearance_count": 1
   },
   {
-    "id": 68907,
+    "id": 69003,
     "name": "Financial strategist Jared Dillian",
     "slug": "financial-strategist-jared-dillian",
     "bio": null,
@@ -72,7 +108,7 @@
     "appearance_count": 1
   },
   {
-    "id": 68908,
+    "id": 69004,
     "name": "Daniel Litt",
     "slug": "daniel-litt",
     "bio": null,
@@ -84,7 +120,7 @@
     "appearance_count": 1
   },
   {
-    "id": 68909,
+    "id": 69005,
     "name": "Gavin Baker",
     "slug": "gavin-baker",
     "bio": null,
@@ -96,7 +132,7 @@
     "appearance_count": 1
   },
   {
-    "id": 68910,
+    "id": 69006,
     "name": "Sam Altman",
     "slug": "sam-altman",
     "bio": null,
@@ -108,7 +144,7 @@
     "appearance_count": 1
   },
   {
-    "id": 68911,
+    "id": 69007,
     "name": "Time to Reduce Equity Risk",
     "slug": "time-to-reduce-equity-risk",
     "bio": null,
@@ -120,7 +156,7 @@
     "appearance_count": 1
   },
   {
-    "id": 68912,
+    "id": 69008,
     "name": "Eric Weinstein",
     "slug": "eric-weinstein",
     "bio": null,
@@ -132,7 +168,7 @@
     "appearance_count": 1
   },
   {
-    "id": 68913,
+    "id": 69009,
     "name": "Michael Kratsios",
     "slug": "michael-kratsios",
     "bio": null,
@@ -144,7 +180,7 @@
     "appearance_count": 1
   },
   {
-    "id": 68914,
+    "id": 69010,
     "name": "Emad Mostaque",
     "slug": "emad-mostaque",
     "bio": null,
@@ -156,7 +192,7 @@
     "appearance_count": 3
   },
   {
-    "id": 68915,
+    "id": 69011,
     "name": "Angela Strange and Gabriel Vasquez",
     "slug": "angela-strange-and-gabriel-vasquez",
     "bio": null,
@@ -168,7 +204,7 @@
     "appearance_count": 1
   },
   {
-    "id": 68916,
+    "id": 69012,
     "name": "Why Bessent Blinked",
     "slug": "why-bessent-blinked",
     "bio": null,
@@ -180,7 +216,7 @@
     "appearance_count": 1
   },
   {
-    "id": 68917,
+    "id": 69013,
     "name": "Travis Kalanick",
     "slug": "travis-kalanick",
     "bio": null,
@@ -192,7 +228,7 @@
     "appearance_count": 1
   },
   {
-    "id": 68918,
+    "id": 69014,
     "name": "Rahm Emanuel",
     "slug": "rahm-emanuel",
     "bio": null,
@@ -204,7 +240,7 @@
     "appearance_count": 1
   },
   {
-    "id": 68919,
+    "id": 69015,
     "name": "Milton Berg",
     "slug": "milton-berg",
     "bio": "Milton Berg is a veteran technical analyst and CEO of Milton Berg Advisors, specializing in market turning-point analysis for institutional investors.",
@@ -216,7 +252,7 @@
     "appearance_count": 1
   },
   {
-    "id": 68920,
+    "id": 69016,
     "name": "How Open",
     "slug": "how-open",
     "bio": null,
@@ -228,7 +264,7 @@
     "appearance_count": 1
   },
   {
-    "id": 68921,
+    "id": 69017,
     "name": "Saronic Founders",
     "slug": "saronic-founders",
     "bio": null,
@@ -240,7 +276,7 @@
     "appearance_count": 1
   },
   {
-    "id": 68922,
+    "id": 69018,
     "name": "OpenAI's Joshua Achiam",
     "slug": "openais-joshua-achiam",
     "bio": null,
@@ -252,7 +288,7 @@
     "appearance_count": 1
   },
   {
-    "id": 68923,
+    "id": 69019,
     "name": "Marc Andreessen and Chris Dixon",
     "slug": "marc-andreessen-and-chris-dixon",
     "bio": null,
@@ -264,7 +300,7 @@
     "appearance_count": 1
   },
   {
-    "id": 68924,
+    "id": 69020,
     "name": "AI for America's Small Businesses",
     "slug": "ai-for-americas-small-businesses",
     "bio": null,
@@ -276,7 +312,7 @@
     "appearance_count": 1
   },
   {
-    "id": 68925,
+    "id": 69021,
     "name": "Luke Gromen",
     "slug": "luke-gromen",
     "bio": null,
@@ -288,7 +324,7 @@
     "appearance_count": 1
   },
   {
-    "id": 68926,
+    "id": 69022,
     "name": "Steven Sinofsky",
     "slug": "steven-sinofsky",
     "bio": null,
@@ -300,7 +336,7 @@
     "appearance_count": 1
   },
   {
-    "id": 68927,
+    "id": 69023,
     "name": "Travis Kelenick",
     "slug": "travis-kelenick",
     "bio": null,
@@ -312,7 +348,7 @@
     "appearance_count": 1
   },
   {
-    "id": 68928,
+    "id": 69024,
     "name": "Travis Kalanick Is Back",
     "slug": "travis-kalanick-is-back",
     "bio": null,
@@ -321,42 +357,6 @@
     "last_episode_title": "Travis Kalanick Is Back | Building the Future of Industrial AI",
     "last_podcast_name": "The a16z Show",
     "last_episode_date": "2026-07-22",
-    "appearance_count": 1
-  },
-  {
-    "id": 68929,
-    "name": "Interest Rates to 10%",
-    "slug": "interest-rates-to-10",
-    "bio": null,
-    "known_for": null,
-    "last_main_idea": "The current speculative nature of the treasuries market and the potential for a significant rise in interest rates present both risks and opportunities for investors.",
-    "last_episode_title": "Interest Rates to 10%: Why the Treasury Market is the Real Speculative Bubble (Not AI) | Russell Clark",
-    "last_podcast_name": "Monetary Matters with Jack Farley",
-    "last_episode_date": "2026-07-22",
-    "appearance_count": 1
-  },
-  {
-    "id": 68930,
-    "name": "Nick Nemeth",
-    "slug": "nick-nemeth",
-    "bio": null,
-    "known_for": null,
-    "last_main_idea": "The private credit industry is overleveraged and poses a significant systemic risk, with potential for a massive financial blow-up that could be triggered by the insurance industry's massive balance sheets.",
-    "last_episode_title": "Nick Nemeth: Private Credit Will Blow-up Insurance System | Immense Leverage, Shaky Loans, and Retirement System That Actually Does Have Run Risk (via Surrenders)",
-    "last_podcast_name": "Monetary Matters with Jack Farley",
-    "last_episode_date": "2026-07-20",
-    "appearance_count": 1
-  },
-  {
-    "id": 68931,
-    "name": "Urgent Update- AI Sputnik Moment",
-    "slug": "urgent-update--ai-sputnik-moment",
-    "bio": null,
-    "known_for": null,
-    "last_main_idea": "Investment in AI technology is crucial as it becomes a key differentiator in global competitiveness, with a focus on companies advancing AI models and quantization.",
-    "last_episode_title": "Urgent Update- AI Sputnik Moment: Kimi K3 Released w/ Emad Mostaque | Ep. 272",
-    "last_podcast_name": "Moonshots with Peter Diamandis",
-    "last_episode_date": "2026-07-19",
     "appearance_count": 1
   }
 ]
