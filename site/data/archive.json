@@ -20,6 +20,25 @@
       "podcast_episode_id": 488
     },
     {
+      "id": 504,
+      "title": "The Next Frontier of AI Video Is Control",
+      "source_type": "podcast",
+      "source_name": "The a16z Show",
+      "source_date": "2026-09-17",
+      "summary": "The podcast discusses the transformative impact of generative video technology, particularly the H3 Max Turbo model, which significantly enhances real-time video generation capabilities. With Hollywood rapidly adopting AI solutions, the episode highlights the increasing demand for generative video and the importance of controllability features for professional creators. Investors are encouraged to explore opportunities in companies leveraging these advancements in the entertainment sector.",
+      "key_takeaway": "Investing in companies that develop real-time generative video technologies and AI solutions for Hollywood presents significant growth opportunities.",
+      "tickers_mentioned": [
+        "NVDA"
+      ],
+      "sentiment": "bullish",
+      "display_on_main": 1,
+      "display_order": 0,
+      "added_date": "2026-09-17",
+      "archived_date": null,
+      "archived_reason": null,
+      "podcast_episode_id": 489
+    },
+    {
       "id": 492,
       "title": "The AI-Native CRM",
       "source_type": "podcast",
@@ -31,7 +50,7 @@
         "NVDA"
       ],
       "sentiment": "bullish",
-      "display_on_main": 1,
+      "display_on_main": 0,
       "display_order": 0,
       "added_date": "2026-09-16",
       "archived_date": null,

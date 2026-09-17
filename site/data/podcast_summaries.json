@@ -1,5 +1,21 @@
 [
   {
+    "id": 489,
+    "podcast_name": "The a16z Show",
+    "episode_title": "The Next Frontier of AI Video Is Control",
+    "episode_date": "2026-09-17",
+    "summary": "The podcast discusses the transformative impact of generative video technology, particularly the H3 Max Turbo model, which significantly enhances real-time video generation capabilities. With Hollywood rapidly adopting AI solutions, the episode highlights the increasing demand for generative video and the importance of controllability features for professional creators. Investors are encouraged to explore opportunities in companies leveraging these advancements in the entertainment sector.",
+    "key_takeaways": [
+      "H3 Max Turbo's ability to generate a 5-second video in 1.5 seconds opens new avenues for live streaming and interactive content.",
+      "Post-training optimizations can double or triple the speed of generative models while maintaining quality, reducing operational costs.",
+      "High demand for generative video is indicated by the concept of token market fit, where users can productively spend many tokens.",
+      "Hollywood is now the fastest-growing segment for AI applications, signaling a shift towards AI-driven content creation.",
+      "Enhanced controllability features for creators, such as camera angles and lighting adjustments, are essential for professional use."
+    ],
+    "investment_thesis": "Investing in companies that develop real-time generative video technologies and AI solutions for Hollywood presents significant growth opportunities.",
+    "key_tickers": null
+  },
+  {
     "id": 488,
     "podcast_name": "All-In with Chamath, Jason, Sacks & Friedberg",
     "episode_title": "Brad Gerstner: No AI Bubble, Semis Eat the Nasdaq & AI's Take Off Problem",
