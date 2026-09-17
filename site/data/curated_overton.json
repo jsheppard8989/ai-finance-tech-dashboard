@@ -1,0 +1,38 @@
+{
+  "_comment": "Curated Overton seeds from niche/plumbing sources (Fed plumbing, macro). These bypass the podcast mention pipeline and are merged at render time into the Overton Window with a 'Curated' badge. Do NOT modify featured_overton.json - that file is for debated theses.",
+  "_updated": "2026-09-17",
+  "_source": "site/data/curated_sources.json overton_seeds.fed_plumbing",
+  "schema_version": 1,
+  "curated": [
+    {
+      "id": "curated-reserve-scarcity-regime",
+      "term": "Reserve scarcity regime",
+      "description": "Fed operating framework where bank reserves are constrained, affecting overnight rates and requiring active Fed intervention.",
+      "first_source": "Joseph Wang (Fed Guy)",
+      "source_type": "x_and_substack",
+      "category": "fed_plumbing",
+      "provenance": {
+        "author": "Joseph Wang (Fed Guy)",
+        "source_url": "https://fedguy.com/",
+        "note": "Curated seed from niche Fed plumbing sources — not from the VC podcast pipeline."
+      },
+      "status": "active",
+      "display_order": 1
+    },
+    {
+      "id": "curated-treasury-basis-trade",
+      "term": "Treasury basis trade",
+      "description": "Hedge fund arbitrage between Treasury cash and futures, creating leveraged exposure that can amplify market stress.",
+      "first_source": "Macro Voices",
+      "source_type": "podcast",
+      "category": "fed_plumbing",
+      "provenance": {
+        "author": "Macro Voices",
+        "source_url": "https://www.macrovoices.com/",
+        "note": "Curated seed from niche Fed plumbing sources — not from the VC podcast pipeline."
+      },
+      "status": "active",
+      "display_order": 2
+    }
+  ]
+}
