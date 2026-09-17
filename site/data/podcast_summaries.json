@@ -1,5 +1,39 @@
 [
   {
+    "id": 491,
+    "podcast_name": "Dwarkesh Podcast",
+    "episode_title": "Noam Brown \u2013 Agent swarms, alignment, & recursive self-improvement",
+    "episode_date": "2026-09-17",
+    "summary": "The podcast discusses the advancements in multi-agent AI systems, highlighting their cognitive capabilities and the challenges of alignment with human values. With 10,000 agents processing vast amounts of data, the conversation emphasizes the importance of optimizing agent performance while addressing the risks of misalignment as AI models become more complex. Investors are encouraged to focus on companies that are developing robust alignment strategies and evaluation frameworks to navigate the rapidly evolving AI landscape.",
+    "key_takeaways": [
+      "Multi-agent systems significantly enhance cognitive capabilities, offering faster problem-solving.",
+      "Performance improvements from additional agents are sublinear, necessitating optimization in AI resource allocation.",
+      "Alignment with human values is increasingly complex, requiring robust strategies to mitigate risks.",
+      "Rapid AI development may outpace safety evaluations, highlighting the need for comprehensive assessment frameworks.",
+      "Monitoring AI interactions is crucial to identify emergent behaviors that could lead to misalignment."
+    ],
+    "investment_thesis": "Investors should focus on companies leveraging multi-agent systems and developing robust alignment strategies to capitalize on the efficiency gains and mitigate risks in AI development.",
+    "key_tickers": null
+  },
+  {
+    "id": 490,
+    "podcast_name": "Macro Voices",
+    "episode_title": "MacroVoices #550 Harley Bassman: In FED We Trust",
+    "episode_date": "2026-09-17",
+    "summary": "In this episode, the discussion centers around the Federal Reserve's credibility crisis and its implications for market volatility and investor sentiment. Key insights include the disconnect between rising corporate profits and economic sentiment, the distress in the housing market, and the increasing influence of non-bank lending on monetary policy. The potential impact of AI on investment strategies and the risks associated with ETFs are also highlighted, emphasizing the need for investors to adapt to these evolving dynamics.",
+    "key_takeaways": [
+      "The Federal Reserve's credibility is eroding, leading to increased market volatility.",
+      "Corporate profits as a percentage of GDP have doubled, indicating a disconnect with public sentiment.",
+      "Housing affordability has worsened, with first-time homebuyers now averaging 38 years old.",
+      "Non-bank lending is on the rise, complicating the Fed's ability to influence monetary policy.",
+      "The mortgage market is becoming more negatively convex, raising volatility risks in fixed income markets.",
+      "AI's potential to disrupt traditional investment strategies necessitates exploration of AI-driven tools.",
+      "Investors should conduct thorough due diligence on ETFs to understand associated risks."
+    ],
+    "investment_thesis": "Investors should focus on adapting their strategies to the evolving trust dynamics in the Fed, the implications of rising corporate profits, and the risks associated with housing affordability and non-bank lending.",
+    "key_tickers": null
+  },
+  {
     "id": 489,
     "podcast_name": "The a16z Show",
     "episode_title": "The Next Frontier of AI Video Is Control",
