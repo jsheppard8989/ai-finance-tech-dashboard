@@ -1,6 +1,18 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
 <!--
+  **DEPRECATED**: The iMessage/SMS control plane for Overton YES/NO decisions is disabled
+  by default. Keep/drop decisions now stay in the Grok Bot / G lane instead of Messages.app.
+
+  DO NOT LOAD this LaunchAgent unless you explicitly need SMS-based term promotion replies.
+  If loaded, it will exit immediately unless TERM_PROMOTION_SMS_REPLIES=1 is set in the
+  EnvironmentVariables below.
+
+  To unload (recommended):
+    launchctl unload ~/Library/LaunchAgents/com.scarcity.term_promotion_replies.plist
+    rm ~/Library/LaunchAgents/com.scarcity.term_promotion_replies.plist
+
+  Original usage (before deprecation):
   Program must be Contents/MacOS/TermPromotionRepliesRunner — same basename as
   CFBundleExecutable — or macOS Full Disk Access ignores the process (errno 1 on chat.db).
   PYTHONHOME loads conda stdlib/site-packages. Remove + re-add the .app in FDA after changes.

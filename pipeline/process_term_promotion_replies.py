@@ -11,7 +11,12 @@ Reads: ~/Library/Messages/chat.db
 
 Run on a schedule (launchd) every few minutes alongside the pipeline.
 
+**DEPRECATED**: The iMessage/SMS control plane for Overton YES/NO decisions is disabled
+by default. Keep/drop decisions now stay in the Grok Bot / G lane. Only enable if you
+explicitly need to process iMessage replies for term promotion.
+
 Env:
+  TERM_PROMOTION_SMS_REPLIES — set to "1" to enable SMS reply processing (DISABLED by default).
   TERM_PROMOTION_MESSAGES_DB — override path to chat.db (default ~/Library/Messages/chat.db)
 """
 
@@ -238,7 +243,21 @@ def process_replies() -> dict[str, int] | None:
     return {"approved": approved, "rejected": rejected}
 
 
+def _is_sms_replies_enabled() -> bool:
+    """Check if SMS reply processing is explicitly enabled via environment variable."""
+    val = os.environ.get("TERM_PROMOTION_SMS_REPLIES", "").strip().lower()
+    return val in ("1", "true", "yes")
+
+
 def main() -> None:
+    if not _is_sms_replies_enabled():
+        print(
+            f"SKIP {datetime.now(timezone.utc).isoformat()} "
+            "(SMS reply processing disabled; set TERM_PROMOTION_SMS_REPLIES=1 to enable)",
+            flush=True,
+        )
+        return
+
     STATE_DIR.mkdir(parents=True, exist_ok=True)
     lock_path = STATE_DIR / "term_promotion_replies.lock"
     lock_fp = open(lock_path, "a+", encoding="utf-8")  # noqa: SIM115 — held until unlock

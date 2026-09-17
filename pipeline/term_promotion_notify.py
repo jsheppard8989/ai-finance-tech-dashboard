@@ -8,6 +8,10 @@ notify the user by iMessage and record a short token.
     (see process_term_promotion_replies.py).
 
 Env:
+  TERM_PROMOTION_IMESSAGE — set to "1" to enable iMessage notifications (DISABLED by default).
+      The iMessage control plane for Overton YES/NO decisions is deprecated;
+      keep/drop decisions now stay in the Grok Bot / G lane instead of SMS.
+      Enable only if you explicitly want iMessage pings for promoted terms.
   IMESSAGE_NOTIFY_PHONE — E.164, default +16306437437 (same as morning_curator)
   TERM_PROMOTION_REPLY_SECRET — optional; included in token hash (set in production)
 """
@@ -70,14 +74,36 @@ def _append_notify_log(entry: Dict[str, Any]) -> None:
         pass
 
 
+def _is_imessage_enabled() -> bool:
+    """Check if iMessage notifications are explicitly enabled via environment variable."""
+    val = os.environ.get("TERM_PROMOTION_IMESSAGE", "").strip().lower()
+    return val in ("1", "true", "yes")
+
+
 def notify_promoted_term(term_data: Dict[str, Any]) -> None:
     """
     Send iMessage asking if they want to keep the term; record token for NO <token> replies.
+
+    DISABLED by default. Set TERM_PROMOTION_IMESSAGE=1 to enable.
+    The iMessage control plane for Overton decisions is deprecated; use Grok Bot / G lane.
     """
     term = (term_data.get("term") or "").strip()
     tid = term_data.get("id")
     if not term or tid is None:
         return
+
+    if not _is_imessage_enabled():
+        _append_notify_log(
+            {
+                "ts": datetime.now(timezone.utc).isoformat(),
+                "term": term,
+                "term_id": tid,
+                "status": "skipped",
+                "reason": "iMessage disabled (TERM_PROMOTION_IMESSAGE not set to 1)",
+            }
+        )
+        return
+
     if not IMESSAGE_SCRIPT.is_file():
         _append_notify_log(
             {
