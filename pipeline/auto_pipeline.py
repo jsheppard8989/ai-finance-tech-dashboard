@@ -1204,7 +1204,11 @@ def main():
                 "generate_charts.py failed. Existing chart images may be stale. Check pipeline logs.",
                 priority=1,
             )
-        run_script("Process Term Promotion Replies", "process_term_promotion_replies.py", timeout=120)
+        # SMS YES/NO control plane is fail-closed (TERM_PROMOTION_SMS_REPLIES).
+        if os.environ.get("TERM_PROMOTION_SMS_REPLIES", "").strip().lower() in ("1", "true", "yes"):
+            run_script("Process Term Promotion Replies", "process_term_promotion_replies.py", timeout=120)
+        else:
+            print("\n⏭ Skipping Process Term Promotion Replies (TERM_PROMOTION_SMS_REPLIES not set).")
         run_script("Auto-Curate Terms", "auto_curate_terms.py", timeout=60)
         term_summary = load_term_curation_summary()
         results["terms_promoted"] = int(term_summary.get("promoted", 0) or 0)

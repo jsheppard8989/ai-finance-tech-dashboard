@@ -4,6 +4,10 @@
   Program must be Contents/MacOS/TermPromotionRepliesRunner — same basename as
   CFBundleExecutable — or macOS Full Disk Access ignores the process (errno 1 on chat.db).
   PYTHONHOME loads conda stdlib/site-packages. Remove + re-add the .app in FDA after changes.
+
+  FAIL-CLOSED: process_term_promotion_replies.py no-ops unless TERM_PROMOTION_SMS_REPLIES=1
+  is set in EnvironmentVariables below. Prefer unload this agent; keep/drop via Grok Bot.
+  Recommended: launchctl bootout gui/$(id -u)/com.scarcity.term_promotion_replies
 -->
 <plist version="1.0">
 <dict>

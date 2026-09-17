@@ -1,13 +1,17 @@
 #!/usr/bin/env python3
 """
 When a suggested term is auto-promoted into Definitions + Overton (display_on_main=0),
-notify the user by iMessage and record a short token.
+record a pending token for Grok Bot / in-app keep-or-drop.
 
-  • Reply YES <token> (or plain YES) to show on the main Overton list.
-  • Reply NO <token> (or plain NO) to remove entirely
-    (see process_term_promotion_replies.py).
+iMessage YES/NO prompts are **fail-closed** (off unless explicitly opted in).
+
+  • Pending queue: pipeline/state/pending_term_promotions.json
+  • Optional iMessage (opt-in only): Reply YES/NO <token>
+    (see process_term_promotion_replies.py; also fail-closed).
 
 Env:
+  TERM_PROMOTION_IMESSAGE — set to 1/true/yes to send Scarcity Overton YES/NO iMessages
+    (default: off). Pending JSON is always written so G-lane approval still works.
   IMESSAGE_NOTIFY_PHONE — E.164, default +16306437437 (same as morning_curator)
   TERM_PROMOTION_REPLY_SECRET — optional; included in token hash (set in production)
 """
@@ -70,29 +74,23 @@ def _append_notify_log(entry: Dict[str, Any]) -> None:
         pass
 
 
+def _imessage_opt_in() -> bool:
+    """True only when TERM_PROMOTION_IMESSAGE is explicitly enabled (fail-closed)."""
+    return os.environ.get("TERM_PROMOTION_IMESSAGE", "").strip().lower() in ("1", "true", "yes")
+
+
 def notify_promoted_term(term_data: Dict[str, Any]) -> None:
     """
-    Send iMessage asking if they want to keep the term; record token for NO <token> replies.
+    Record pending promotion for Grok Bot / in-app keep-or-drop.
+
+    iMessage YES/NO is opt-in only (TERM_PROMOTION_IMESSAGE=1/true/yes).
     """
     term = (term_data.get("term") or "").strip()
     tid = term_data.get("id")
     if not term or tid is None:
         return
-    if not IMESSAGE_SCRIPT.is_file():
-        _append_notify_log(
-            {
-                "ts": datetime.now(timezone.utc).isoformat(),
-                "term": term,
-                "term_id": tid,
-                "status": "skipped",
-                "reason": "send_imessage.sh missing",
-            }
-        )
-        return
 
-    phone = (os.environ.get("IMESSAGE_NOTIFY_PHONE") or "+16306437437").strip()
     token = _reply_token(int(tid), term)
-
     pending = _load_pending()
     by_token = pending.setdefault("by_token", {})
     tl = token.lower()
@@ -106,6 +104,38 @@ def notify_promoted_term(term_data: Dict[str, Any]) -> None:
     pending["last_notified_term"] = term
     pending["last_notified_at"] = datetime.now(timezone.utc).isoformat()
     save_pending(pending)
+
+    if not _imessage_opt_in():
+        _append_notify_log(
+            {
+                "ts": datetime.now(timezone.utc).isoformat(),
+                "term": term,
+                "term_id": int(tid),
+                "token": tl,
+                "status": "skipped",
+                "reason": "TERM_PROMOTION_IMESSAGE not set (fail-closed)",
+            }
+        )
+        print(
+            f"  ℹ️  Overton pending recorded (token {tl}); "
+            "iMessage YES/NO disabled (TERM_PROMOTION_IMESSAGE not set)."
+        )
+        return
+
+    if not IMESSAGE_SCRIPT.is_file():
+        _append_notify_log(
+            {
+                "ts": datetime.now(timezone.utc).isoformat(),
+                "term": term,
+                "term_id": tid,
+                "token": tl,
+                "status": "skipped",
+                "reason": "send_imessage.sh missing",
+            }
+        )
+        return
+
+    phone = (os.environ.get("IMESSAGE_NOTIFY_PHONE") or "+16306437437").strip()
 
     # Keep message short for SMS; token must be copy-pastable
     body = (
