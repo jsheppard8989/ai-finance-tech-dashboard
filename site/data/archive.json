@@ -1,6 +1,25 @@
 {
   "insights": [
     {
+      "id": 503,
+      "title": "Brad Gerstner: No AI Bubble, Semis Eat the Nasdaq & AI's Take Off Problem",
+      "source_type": "podcast",
+      "source_name": "All-In with Chamath, Jason, Sacks & Friedberg",
+      "source_date": "2026-09-17",
+      "summary": "The podcast discusses significant investment themes, including a proposal for children's investment accounts, the high ROI of preventive healthcare, and the current market's earnings-driven growth. It emphasizes the critical role of AI revenue and the challenges posed by regulatory risks and interest rate hikes, suggesting a cautious yet flexible investment strategy.",
+      "key_takeaway": "Investing in preventive healthcare and AI infrastructure presents significant opportunities, but requires careful monitoring of revenue growth and market conditions.",
+      "tickers_mentioned": [
+        "NVDA"
+      ],
+      "sentiment": "neutral",
+      "display_on_main": 1,
+      "display_order": 0,
+      "added_date": "2026-09-17",
+      "archived_date": null,
+      "archived_reason": null,
+      "podcast_episode_id": 488
+    },
+    {
       "id": 492,
       "title": "The AI-Native CRM",
       "source_type": "podcast",
@@ -147,7 +166,7 @@
         "UTHR"
       ],
       "sentiment": "bullish",
-      "display_on_main": 1,
+      "display_on_main": 0,
       "display_order": 0,
       "added_date": "2026-09-16",
       "archived_date": null,
@@ -11550,8 +11569,8 @@
       "term": "AI Infrastructure",
       "description": "The physical and cloud compute layer, particularly GPUs, that serves as the foundational revenue-generating substrate for modern AI workloads.",
       "first_detected_date": "2026-03-17",
-      "last_mentioned_date": "2026-09-11",
-      "mention_count": 35,
+      "last_mentioned_date": "2026-09-17",
+      "mention_count": 36,
       "source_podcasts": null,
       "status": "active",
       "investment_implications": "As GPUs become fungible, durable, revenue-generating assets, AI infrastructure shifts from pure capex drain to yield-producing real estate-like investments.",
@@ -11560,8 +11579,8 @@
       "archived_reason": null,
       "first_detected_episode_id": 71,
       "first_detected_speaker": null,
-      "last_mentioned_episode_id": 471,
-      "last_mentioned_speaker": "Dave Blenden, Alex Weesner"
+      "last_mentioned_episode_id": 488,
+      "last_mentioned_speaker": "Brad Gershner"
     },
     {
       "id": 26,

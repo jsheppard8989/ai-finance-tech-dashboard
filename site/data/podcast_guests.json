@@ -1,6 +1,18 @@
 [
   {
-    "id": 69284,
+    "id": 69382,
+    "name": "Brad Gerstner",
+    "slug": "brad-gerstner",
+    "bio": null,
+    "known_for": null,
+    "last_main_idea": "Investing in preventive healthcare and AI infrastructure presents significant opportunities, but requires careful monitoring of revenue growth and market conditions.",
+    "last_episode_title": "Brad Gerstner: No AI Bubble, Semis Eat the Nasdaq & AI's Take Off Problem",
+    "last_podcast_name": "All-In with Chamath, Jason, Sacks & Friedberg",
+    "last_episode_date": "2026-09-17",
+    "appearance_count": 1
+  },
+  {
+    "id": 69383,
     "name": "Underwriting Superintelligence",
     "slug": "underwriting-superintelligence",
     "bio": null,
@@ -12,7 +24,7 @@
     "appearance_count": 1
   },
   {
-    "id": 69285,
+    "id": 69384,
     "name": "Hawks Take Flight",
     "slug": "hawks-take-flight",
     "bio": null,
@@ -24,7 +36,7 @@
     "appearance_count": 1
   },
   {
-    "id": 69286,
+    "id": 69385,
     "name": "Martine Rothblatt",
     "slug": "martine-rothblatt",
     "bio": null,
@@ -36,7 +48,7 @@
     "appearance_count": 1
   },
   {
-    "id": 69287,
+    "id": 69386,
     "name": "Microsoft CEO Satya Nadella",
     "slug": "microsoft-ceo-satya-nadella",
     "bio": null,
@@ -48,7 +60,7 @@
     "appearance_count": 1
   },
   {
-    "id": 69288,
+    "id": 69387,
     "name": "Jensen Huang",
     "slug": "jensen-huang",
     "bio": null,
@@ -60,7 +72,7 @@
     "appearance_count": 1
   },
   {
-    "id": 69289,
+    "id": 69388,
     "name": "Ask the Mates anything",
     "slug": "ask-the-mates-anything",
     "bio": null,
@@ -72,7 +84,7 @@
     "appearance_count": 1
   },
   {
-    "id": 69290,
+    "id": 69389,
     "name": "Matt Barry",
     "slug": "matt-barry",
     "bio": null,
@@ -84,7 +96,7 @@
     "appearance_count": 1
   },
   {
-    "id": 69291,
+    "id": 69390,
     "name": "Who Grades the AI Models?",
     "slug": "who-grades-the-ai-models",
     "bio": null,
@@ -96,7 +108,7 @@
     "appearance_count": 1
   },
   {
-    "id": 69292,
+    "id": 69391,
     "name": "Your AI Doctor Is Coming",
     "slug": "your-ai-doctor-is-coming",
     "bio": null,
@@ -108,7 +120,7 @@
     "appearance_count": 1
   },
   {
-    "id": 69293,
+    "id": 69392,
     "name": "Fei Fei Li",
     "slug": "fei-fei-li",
     "bio": null,
@@ -120,7 +132,7 @@
     "appearance_count": 1
   },
   {
-    "id": 69294,
+    "id": 69393,
     "name": "Financial strategist Jared Dillian",
     "slug": "financial-strategist-jared-dillian",
     "bio": null,
@@ -132,7 +144,7 @@
     "appearance_count": 1
   },
   {
-    "id": 69295,
+    "id": 69394,
     "name": "Daniel Litt",
     "slug": "daniel-litt",
     "bio": null,
@@ -144,7 +156,7 @@
     "appearance_count": 1
   },
   {
-    "id": 69296,
+    "id": 69395,
     "name": "Gavin Baker",
     "slug": "gavin-baker",
     "bio": null,
@@ -156,7 +168,7 @@
     "appearance_count": 1
   },
   {
-    "id": 69297,
+    "id": 69396,
     "name": "Sam Altman",
     "slug": "sam-altman",
     "bio": null,
@@ -168,7 +180,7 @@
     "appearance_count": 1
   },
   {
-    "id": 69298,
+    "id": 69397,
     "name": "Time to Reduce Equity Risk",
     "slug": "time-to-reduce-equity-risk",
     "bio": null,
@@ -180,7 +192,7 @@
     "appearance_count": 1
   },
   {
-    "id": 69299,
+    "id": 69398,
     "name": "Eric Weinstein",
     "slug": "eric-weinstein",
     "bio": null,
@@ -192,7 +204,7 @@
     "appearance_count": 1
   },
   {
-    "id": 69300,
+    "id": 69399,
     "name": "Michael Kratsios",
     "slug": "michael-kratsios",
     "bio": null,
@@ -204,7 +216,7 @@
     "appearance_count": 1
   },
   {
-    "id": 69301,
+    "id": 69400,
     "name": "Emad Mostaque",
     "slug": "emad-mostaque",
     "bio": null,
@@ -216,7 +228,7 @@
     "appearance_count": 3
   },
   {
-    "id": 69302,
+    "id": 69401,
     "name": "Angela Strange and Gabriel Vasquez",
     "slug": "angela-strange-and-gabriel-vasquez",
     "bio": null,
@@ -228,7 +240,7 @@
     "appearance_count": 1
   },
   {
-    "id": 69303,
+    "id": 69402,
     "name": "Why Bessent Blinked",
     "slug": "why-bessent-blinked",
     "bio": null,
@@ -240,7 +252,7 @@
     "appearance_count": 1
   },
   {
-    "id": 69304,
+    "id": 69403,
     "name": "Travis Kalanick",
     "slug": "travis-kalanick",
     "bio": null,
@@ -252,7 +264,7 @@
     "appearance_count": 1
   },
   {
-    "id": 69305,
+    "id": 69404,
     "name": "Rahm Emanuel",
     "slug": "rahm-emanuel",
     "bio": null,
@@ -264,7 +276,7 @@
     "appearance_count": 1
   },
   {
-    "id": 69306,
+    "id": 69405,
     "name": "Milton Berg",
     "slug": "milton-berg",
     "bio": "Milton Berg is a veteran technical analyst and CEO of Milton Berg Advisors, specializing in market turning-point analysis for institutional investors.",
@@ -276,7 +288,7 @@
     "appearance_count": 1
   },
   {
-    "id": 69307,
+    "id": 69406,
     "name": "How Open",
     "slug": "how-open",
     "bio": null,
@@ -288,7 +300,7 @@
     "appearance_count": 1
   },
   {
-    "id": 69308,
+    "id": 69407,
     "name": "Saronic Founders",
     "slug": "saronic-founders",
     "bio": null,
@@ -300,7 +312,7 @@
     "appearance_count": 1
   },
   {
-    "id": 69309,
+    "id": 69408,
     "name": "OpenAI's Joshua Achiam",
     "slug": "openais-joshua-achiam",
     "bio": null,
@@ -312,7 +324,7 @@
     "appearance_count": 1
   },
   {
-    "id": 69310,
+    "id": 69409,
     "name": "Marc Andreessen and Chris Dixon",
     "slug": "marc-andreessen-and-chris-dixon",
     "bio": null,
@@ -324,7 +336,7 @@
     "appearance_count": 1
   },
   {
-    "id": 69311,
+    "id": 69410,
     "name": "AI for America's Small Businesses",
     "slug": "ai-for-americas-small-businesses",
     "bio": null,
@@ -336,7 +348,7 @@
     "appearance_count": 1
   },
   {
-    "id": 69312,
+    "id": 69411,
     "name": "Luke Gromen",
     "slug": "luke-gromen",
     "bio": null,
@@ -345,18 +357,6 @@
     "last_episode_title": "Luke Gromen: Yield Curve Control is the Only Way to Stop a Global Bond Crisis",
     "last_podcast_name": "Monetary Matters with Jack Farley",
     "last_episode_date": "2026-07-28",
-    "appearance_count": 1
-  },
-  {
-    "id": 69313,
-    "name": "Steven Sinofsky",
-    "slug": "steven-sinofsky",
-    "bio": null,
-    "known_for": null,
-    "last_main_idea": "Invest in companies that embrace open-source AI strategies and are compliant with existing regulations, while monitoring the regulatory landscape for potential impacts on AI development.",
-    "last_episode_title": "Steven Sinofsky: AI Doesn't Need New Rules Yet",
-    "last_podcast_name": "The a16z Show",
-    "last_episode_date": "2026-07-27",
     "appearance_count": 1
   }
 ]

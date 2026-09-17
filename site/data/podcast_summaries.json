@@ -1,5 +1,21 @@
 [
   {
+    "id": 488,
+    "podcast_name": "All-In with Chamath, Jason, Sacks & Friedberg",
+    "episode_title": "Brad Gerstner: No AI Bubble, Semis Eat the Nasdaq & AI's Take Off Problem",
+    "episode_date": "2026-09-17",
+    "summary": "The podcast discusses significant investment themes, including a proposal for children's investment accounts, the high ROI of preventive healthcare, and the current market's earnings-driven growth. It emphasizes the critical role of AI revenue and the challenges posed by regulatory risks and interest rate hikes, suggesting a cautious yet flexible investment strategy.",
+    "key_takeaways": [
+      "Investment accounts for children could reshape wealth distribution and consumer behavior in the U.S.",
+      "The CAC scan is highlighted as a high ROI healthcare intervention, potentially saving thousands of lives.",
+      "Current market growth is driven by earnings rather than multiple expansion, indicating a healthier market environment.",
+      "Anthropic's revenue growth is crucial for sustaining AI investment confidence.",
+      "Investors should be wary of regulatory risks and rising interest rates that could impact tech investments."
+    ],
+    "investment_thesis": "Investing in preventive healthcare and AI infrastructure presents significant opportunities, but requires careful monitoring of revenue growth and market conditions.",
+    "key_tickers": null
+  },
+  {
     "id": 487,
     "podcast_name": "Monetary Matters with Jack Farley",
     "episode_title": "Hawks Take Flight | Joseph Wang on Fed\u2019s Hawkish Hike and Warsh\u2019s Gameplan",
