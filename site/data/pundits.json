@@ -1,5 +1,117 @@
 [
   {
+    "id": 463,
+    "name": "Batuan Tashkaya",
+    "slug": "batuan-tashkaya",
+    "bio": "Batuan Tashkaya specializes in AI model optimization and efficiency improvements, focusing on enhancing generative models for faster processing. He is currently involved in developing advanced video generation technologies that leverage post-training techniques to significantly reduce processing times. His work aims to unlock new workflows in creative industries, particularly in Hollywood.",
+    "known_for": "Expert in optimizing generative models, making AI video generation faster and more efficient.",
+    "net_worth_usd": null,
+    "net_worth_source": "",
+    "net_worth_updated_at": null,
+    "voice_tone": "Analytical and confident",
+    "voice_style": "Technical and detailed, focusing on efficiency gains.",
+    "voice_delivery_notes": "Measured pacing with clarity on technical aspects.",
+    "voice_profile_updated_at": "2026-09-17 12:10:40",
+    "last_seen": "2026-09-17 12:10:40",
+    "last_episode_title": "The Next Frontier of AI Video Is Control",
+    "last_podcast_name": "The a16z Show",
+    "last_episode_date": "2026-09-17",
+    "mention_score": 1,
+    "mention_score_decayed": 1,
+    "last_main_idea": "Investing in companies that develop real-time generative video technologies and AI solutions for Hollywood presents significant growth opportunities.",
+    "last_proof_cite": "The a16z Show \u2022 2026-09-17 \u2022 The Next Frontier of AI Video Is Control",
+    "last_proof_snippet": "Generative media is along with the coding agent market. What we call is token market fit. Everyone's waiting for a large consumer moment in AI. I believe H3 Max makes it possible. We're surprised by the speed up and the gain you could get f",
+    "supporting_takeaway": "Post-training optimizations can double or triple the speed of generative models while maintaining quality, reducing operational costs.",
+    "grokipedia_url": null,
+    "grokipedia_fetched_at": "2026-09-17T07:10:58.649156",
+    "pundit_profile": {
+      "source": "llm",
+      "source_model": "openai:gpt-4o-mini",
+      "source_url": "",
+      "page_title": "Batuan Tashkaya",
+      "fetched_at": "2026-09-17T12:10:58.649031+00:00",
+      "cliff_notes": "Batuan Tashkaya has established himself as a key figure in the field of artificial intelligence, particularly in the optimization of generative models. His expertise lies in enhancing the efficiency of AI systems, which has become increasingly important as demand for rapid content generation grows. Tashkaya's recent work with H3 Max focuses on developing technologies that allow for real-time video generation, a significant advancement that could transform how content is created and consumed. By leveraging post-training techniques, he has contributed to making video generation not only faster but also more accessible for creators in various industries. His insights into the future of generative media and the potential for AI to revolutionize workflows position him as a thought leader in the tech space.",
+      "derived": {
+        "current_role": "Head of Engineering at H3 Max"
+      },
+      "infobox": {},
+      "lead_paragraphs": [
+        "Batuan Tashkaya has established himself as a key figure in the field of artificial intelligence, particularly in the optimization of generative models. His expertise lies in enhancing the efficiency of AI systems, which has become increasingly important as demand for rapid content generation grows. Tashkaya's recent work with H3 Max focuses on developing technologies that allow for real-time video generation, a significant advancement that could transform how content is created and consumed.",
+        "By leveraging post-training techniques, he has contributed to making video generation not only faster but also more accessible for creators in various industries. His insights into the future of generative media and the potential for AI to revolutionize workflows position him as a thought leader in the tech space."
+      ],
+      "sections": [
+        {
+          "heading": "Generative Media Advancements",
+          "body": "Tashkaya discusses the evolution of generative media and its implications for industries such as film and gaming. His focus is on how AI can streamline creative processes."
+        },
+        {
+          "heading": "Post-Training Techniques",
+          "body": "He explains the significance of post-training in AI model development, emphasizing its role in enhancing performance and reducing processing times for generative models."
+        },
+        {
+          "heading": "Real-Time Video Generation",
+          "body": "Tashkaya highlights the potential of real-time video generation, exploring how advancements in AI could lead to new creative opportunities and workflows."
+        }
+      ]
+    }
+  },
+  {
+    "id": 462,
+    "name": "Gork Amir",
+    "slug": "gork-amir",
+    "bio": "Gork Amir is a leading expert in generative video technology, focusing on its applications within the entertainment industry. He is known for his innovative work in AI-driven content creation, particularly with the H3 Max model, which significantly enhances video generation speed and quality. His insights into the future of AI in media are shaping new workflows for professionals in Hollywood.",
+    "known_for": "Pioneering advancements in AI-driven content creation and generative video technology.",
+    "net_worth_usd": null,
+    "net_worth_source": "",
+    "net_worth_updated_at": null,
+    "voice_tone": "Informative and engaging",
+    "voice_style": "Clear and persuasive with a focus on technological advancements.",
+    "voice_delivery_notes": "Paced delivery with emphasis on key technological benefits.",
+    "voice_profile_updated_at": "2026-09-17 12:10:40",
+    "last_seen": "2026-09-17 12:10:40",
+    "last_episode_title": "The Next Frontier of AI Video Is Control",
+    "last_podcast_name": "The a16z Show",
+    "last_episode_date": "2026-09-17",
+    "mention_score": 1,
+    "mention_score_decayed": 1,
+    "last_main_idea": "Investing in companies that develop real-time generative video technologies and AI solutions for Hollywood presents significant growth opportunities.",
+    "last_proof_cite": "The a16z Show \u2022 2026-09-17 \u2022 The Next Frontier of AI Video Is Control",
+    "last_proof_snippet": "Generative media is along with the coding agent market. What we call is token market fit. Everyone's waiting for a large consumer moment in AI. I believe H3 Max makes it possible. We're surprised by the speed up and the gain you could get f",
+    "supporting_takeaway": "Post-training optimizations can double or triple the speed of generative models while maintaining quality, reducing operational costs.",
+    "grokipedia_url": null,
+    "grokipedia_fetched_at": "2026-09-17T07:10:55.140484",
+    "pundit_profile": {
+      "source": "llm",
+      "source_model": "openai:gpt-4o-mini",
+      "source_url": "",
+      "page_title": "Gork Amir",
+      "fetched_at": "2026-09-17T12:10:55.140316+00:00",
+      "cliff_notes": "Gork Amir has established himself as a prominent figure in the realm of generative video technology, particularly through his work on the H3 Max model. This model has revolutionized the speed and efficiency of video generation, allowing for real-time content creation that was previously unattainable. Amir's contributions are not only technical but also strategic, as he navigates the intersection of AI and media to unlock new creative possibilities for filmmakers and content creators. His focus on performance and quality has positioned him as a thought leader in the rapidly evolving landscape of AI-driven content, making him a key player in discussions about the future of entertainment technology.",
+      "derived": {
+        "current_role": "Co-founder at Foul"
+      },
+      "infobox": {},
+      "lead_paragraphs": [
+        "Gork Amir has established himself as a prominent figure in the realm of generative video technology, particularly through his work on the H3 Max model. This model has revolutionized the speed and efficiency of video generation, allowing for real-time content creation that was previously unattainable. Amir's contributions are not only technical but also strategic, as he navigates the intersection of AI and media to unlock new creative possibilities for filmmakers and content creators.",
+        "His focus on performance and quality has positioned him as a thought leader in the rapidly evolving landscape of AI-driven content, making him a key player in discussions about the future of entertainment technology."
+      ],
+      "sections": [
+        {
+          "heading": "Generative Video Technology",
+          "body": "Amir's work in generative video technology is at the forefront of AI advancements, enabling faster and more efficient video production. His innovations are reshaping how content is created and consumed in the entertainment industry."
+        },
+        {
+          "heading": "H3 Max Model",
+          "body": "The H3 Max model represents a significant leap in video generation capabilities, allowing for the creation of high-quality videos in real time. This technology is set to transform workflows in Hollywood and beyond."
+        },
+        {
+          "heading": "AI in Media",
+          "body": "Amir discusses the implications of AI in media, particularly how it can enhance creative processes and unlock new opportunities for storytelling. His insights are critical for understanding the future of content creation."
+        }
+      ]
+    }
+  },
+  {
     "id": 461,
     "name": "Brad Gershner",
     "slug": "brad-gershner",
@@ -1111,7 +1223,7 @@
     "last_podcast_name": "The a16z Show",
     "last_episode_date": "2026-09-08",
     "mention_score": 1,
-    "mention_score_decayed": 0.83,
+    "mention_score_decayed": 0.81,
     "last_main_idea": "AI capabilities are expanding from applied tasks to foundational scientific discovery, creating asymmetric opportunities in companies building advanced reasoning systems and the infrastructure supporting scientific AI, while traditional R&D-intensive industries face disruption or amplification depending on adoption speed.",
     "last_proof_cite": "The a16z Show \u2022 2026-09-08 \u2022 OpenAI Researchers on the Future of Mathematical Reasoning",
     "last_proof_snippet": "Often, it's a practicing mouth-efficient, you have an idea, and then you kind of think it might work, then you try for a few hours if you reach, and at some point, you give up. Whereas for GPT, like, okay, I keep informing you to do this, l",
@@ -1181,7 +1293,7 @@
     "last_podcast_name": "The a16z Show",
     "last_episode_date": "2026-09-07",
     "mention_score": 1,
-    "mention_score_decayed": 0.81,
+    "mention_score_decayed": 0.79,
     "last_main_idea": "The AI infrastructure landscape may undergo significant decentralization as algorithmic breakthroughs reduce dependence on hyperscaler-scale compute, creating investment opportunities in edge computing, specialized AI chips, and open-source ecosystem enablers while potentially compressing returns for pure scale-based incumbents.",
     "last_proof_cite": "The a16z Show \u2022 2026-09-07 \u2022 Can Open Source Keep AI Power From Concentrating?",
     "last_proof_snippet": "AI is becoming more powerful, but the resources needed to build it are increasingly concentrated. Does it have to stay that way? MTS host Sophia Dew heads to the open source AI summit in San Francisco. To ask researchers and founders across",
@@ -1573,7 +1685,7 @@
     "last_podcast_name": "The a16z Show",
     "last_episode_date": "2026-09-01",
     "mention_score": 1,
-    "mention_score_decayed": 0.71,
+    "mention_score_decayed": 0.69,
     "last_main_idea": "Invest in technologies and educational initiatives that enhance human intuition and critical thinking in mathematics, focusing on AI tools that augment human understanding rather than replace it, while also supporting frameworks for quality control in AI-driven research.",
     "last_proof_cite": "The a16z Show \u2022 2026-09-01 \u2022 Daniel Litt: The Mathematician's Guide to AI",
     "last_proof_snippet": "The goal of mathematics is not to produce mathematics papers. It's to produce some kind of understanding. Maybe some of that understanding resides in model weights. To me, that's like pretty unsatisfied. Comparing and profit with open AI. D",
@@ -1600,7 +1712,7 @@
     "last_podcast_name": "The a16z Show",
     "last_episode_date": "2026-08-29",
     "mention_score": 1,
-    "mention_score_decayed": 0.66,
+    "mention_score_decayed": 0.64,
     "last_main_idea": "Investors should prioritize oversight and governance frameworks in AI development processes and support initiatives that promote independent oversight of AI development and deployment.",
     "last_proof_cite": "The a16z Show \u2022 2026-08-29 \u2022 Why 1,200 AI Agents Started Working Together | Ryan Greenblatt",
     "last_proof_snippet": "What happens when you give more than 1,000 AI agents the ability to communicate with each other? They start organizing. Ryan Greenblatt, Chief Scientist at Redwood Research, joins Theo Jaffee on MTS to unpack a new investigation into the Op",
@@ -1899,7 +2011,7 @@
     "last_podcast_name": "The a16z Show",
     "last_episode_date": "2026-08-28",
     "mention_score": 1,
-    "mention_score_decayed": 0.64,
+    "mention_score_decayed": 0.63,
     "last_main_idea": "The next major bottleneck in AI is not the model itself, but the underlying infrastructure that supports it, presenting a significant investment opportunity in companies that can innovate and scale to meet these new demands.",
     "last_proof_cite": "The a16z Show \u2022 2026-08-28 \u2022 The Infrastructure Behind the Machine Age",
     "last_proof_snippet": "We have a whole new technology that's most important technology ever and you need a whole new infrastructure Now I'm going to even be talking about the infrastructure We're talking about the subverse and the storage and the network here goe",
@@ -1963,7 +2075,7 @@
     "last_podcast_name": "The a16z Show",
     "last_episode_date": "2026-08-28",
     "mention_score": 1,
-    "mention_score_decayed": 0.64,
+    "mention_score_decayed": 0.63,
     "last_main_idea": "The next major bottleneck in AI is not the model itself, but the underlying infrastructure that supports it, presenting a significant investment opportunity in companies that can innovate and scale to meet these new demands.",
     "last_proof_cite": "The a16z Show \u2022 2026-08-28 \u2022 The Infrastructure Behind the Machine Age",
     "last_proof_snippet": "We have a whole new technology that's most important technology ever and you need a whole new infrastructure Now I'm going to even be talking about the infrastructure We're talking about the subverse and the storage and the network here goe",
@@ -2085,7 +2197,7 @@
     "last_podcast_name": "The a16z Show",
     "last_episode_date": "2026-08-27",
     "mention_score": 3,
-    "mention_score_decayed": 1.89,
+    "mention_score_decayed": 1.85,
     "last_main_idea": "Cursor's investment thesis revolves around its ability to leverage AI advancements to create a competitive edge in the coding market, focusing on the interface between humans and AI models rather than competing directly with other AI models.",
     "last_proof_cite": "The a16z Show \u2022 2026-08-27 \u2022 Inside Cursor: The Anatomy of a Generational Startup",
     "last_proof_snippet": "We don't need to compete with anthropic and open AI on models right now. The interface between the human and the model is the key thing. If you looked at the competitive landscape, it was almost silly. I asked Michael, I was like, what do y",
@@ -2146,7 +2258,7 @@
     "last_podcast_name": "The a16z Show",
     "last_episode_date": "2026-08-27",
     "mention_score": 1,
-    "mention_score_decayed": 0.63,
+    "mention_score_decayed": 0.62,
     "last_main_idea": "Cursor's investment thesis revolves around its ability to leverage AI advancements to create a competitive edge in the coding market, focusing on the interface between humans and AI models rather than competing directly with other AI models.",
     "last_proof_cite": "The a16z Show \u2022 2026-08-27 \u2022 Inside Cursor: The Anatomy of a Generational Startup",
     "last_proof_snippet": "We don't need to compete with anthropic and open AI on models right now. The interface between the human and the model is the key thing. If you looked at the competitive landscape, it was almost silly. I asked Michael, I was like, what do y",
@@ -2209,7 +2321,7 @@
     "last_podcast_name": "The a16z Show",
     "last_episode_date": "2026-08-27",
     "mention_score": 1,
-    "mention_score_decayed": 0.63,
+    "mention_score_decayed": 0.62,
     "last_main_idea": "Cursor's investment thesis revolves around its ability to leverage AI advancements to create a competitive edge in the coding market, focusing on the interface between humans and AI models rather than competing directly with other AI models.",
     "last_proof_cite": "The a16z Show \u2022 2026-08-27 \u2022 Inside Cursor: The Anatomy of a Generational Startup",
     "last_proof_snippet": "We don't need to compete with anthropic and open AI on models right now. The interface between the human and the model is the key thing. If you looked at the competitive landscape, it was almost silly. I asked Michael, I was like, what do y",
@@ -2524,7 +2636,7 @@
     "last_podcast_name": "The a16z Show",
     "last_episode_date": "2026-08-26",
     "mention_score": 1,
-    "mention_score_decayed": 0.62,
+    "mention_score_decayed": 0.6,
     "last_main_idea": "Invest in the application layer of AI where significant value can be captured, and consider the emerging consumer AI space for new opportunities.",
     "last_proof_cite": "The a16z Show \u2022 2026-08-26 \u2022 The State of AI: Macro, Apps, and Consumer",
     "last_proof_snippet": "For the last few years, the biggest question in the AI was which model would win. The next phase may be less about the models, and more about what gets built on top of them. In this episode, Jen Costa sits down with Anish Acharya, to unpack w",
@@ -2708,7 +2820,7 @@
     "last_podcast_name": "The a16z Show",
     "last_episode_date": "2026-08-24",
     "mention_score": 1,
-    "mention_score_decayed": 0.59,
+    "mention_score_decayed": 0.57,
     "last_main_idea": "Investing in healthcare AI requires a focus on companies that can provide safe, aligned data and independent evaluation of AI models to ensure their usefulness and safety in real-world clinical settings.",
     "last_proof_cite": "The a16z Show \u2022 2026-08-24 \u2022 Why Medical AI Needs a Referee | Protege's Engy Ziedan",
     "last_proof_snippet": "Hundreds of millions of people ask chat to the questions about their health. Who, if any, is making sure that the answers that are spit out is safe and correct? Models are going to be inhibited in their usefulness by the training data avail",
@@ -6219,7 +6331,7 @@
     "last_podcast_name": "The a16z Show",
     "last_episode_date": "2026-07-23",
     "mention_score": 1,
-    "mention_score_decayed": 0.29,
+    "mention_score_decayed": 0.28,
     "last_main_idea": "Industrial AI represents a substantial opportunity to transform physical industries through automation and AI, creating significant value beyond traditional software solutions.",
     "last_proof_cite": "The a16z Show \u2022 2026-07-23 \u2022 Building the Physical AI Stack | Travis Kalanick on TBPN",
     "last_proof_snippet": "Travis Kelenick joins TVPN to discuss why he's betting his next company on industrial AI. He shares his vision behind atoms, explains how autonomy is transforming industries like mining and food production, and discusses why bringing AI int",
@@ -6279,7 +6391,7 @@
     "last_podcast_name": "Latent Space: The AI Engineer Podcast",
     "last_episode_date": "2026-07-23",
     "mention_score": 1,
-    "mention_score_decayed": 0.28,
+    "mention_score_decayed": 0.27,
     "last_main_idea": "Investing in AI development, particularly in the democratization of AI and the scaling of language models, can lead to significant innovation and competitive advantage.",
     "last_proof_cite": "Latent Space: The AI Engineer Podcast \u2022 2026-07-23 \u2022 Inside the Model Factory \u2014 Eiso Kant, Poolside AI",
     "last_proof_snippet": "All right, we're here in the studio. If I was a countryman, we'll fight together with people. Welcome. Thanks, thank you, guys. It's good to be here. Yeah, fresh on the plane. You texted me, you're like, hey, I'm on my way to SF. I was like",
@@ -9535,7 +9647,7 @@
     "last_podcast_name": "The Jack Mallers Show",
     "last_episode_date": "2026-06-16",
     "mention_score": 2,
-    "mention_score_decayed": 0.24,
+    "mention_score_decayed": 0.23,
     "last_main_idea": "Investors should monitor Bitcoin as a leading market indicator and scrutinize the capital structures of Bitcoin treasury companies for potential risks and rewards, while maintaining a long-term perspective.",
     "last_proof_cite": "The Jack Mallers Show \u2022 2026-06-16 \u2022 15 Questions: The Strait, Strategy, mNAV, Dilution, & My Boots",
     "last_proof_snippet": "Yo, welcome back to another episode of the Jack Mallors Show. I'm your host Jack, and you're listening to mail bag Monday, ladies and gentlemen. Oh, there's my resources tab, my AI tool. All right, let's get back to slide one. You were list",
