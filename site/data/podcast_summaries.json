@@ -1,5 +1,21 @@
 [
   {
+    "id": 486,
+    "podcast_name": "Latent Space: The AI Engineer Podcast",
+    "episode_title": "Underwriting Superintelligence: Backing Agents you can Sue \u2014 Rune Kvist, AIUC",
+    "episode_date": "2026-09-16",
+    "summary": "In this episode of 'Latent Space: The AI Engineer Podcast', the discussion centers around AIUC's recent $40 million funding round aimed at developing a robust infrastructure for AI risk management. The podcast emphasizes that the main barrier to AI adoption is not technological capability but rather the perceived risks associated with AI systems. AIUC's certification process is highlighted as a crucial mechanism to build trust and facilitate the adoption of AI technologies across various industries, including banking and healthcare.",
+    "key_takeaways": [
+      "Invest in companies focused on AI risk management frameworks and certifications.",
+      "AIUC's certification process enhances trust among enterprises and regulators.",
+      "Historical technology adoption challenges can inform current AI risk management strategies.",
+      "Partnerships between AI developers and insurance companies can improve credibility and market adoption.",
+      "Stay updated on regulatory changes to adjust investment strategies in the AI sector."
+    ],
+    "investment_thesis": "The core investment opportunity lies in companies that provide solutions for AI risk management, as they are positioned to capture growing market demand driven by the need for trust and safety in AI technologies.",
+    "key_tickers": null
+  },
+  {
     "id": 479,
     "podcast_name": "The a16z Show",
     "episode_title": "The AI-Native CRM",

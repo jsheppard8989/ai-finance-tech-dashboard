@@ -1,7 +1,7 @@
 {
-  "generated_at": "2026-09-16T13:46:08.228253",
-  "last_updated": "2026-09-16T13:46:08.228253",
-  "last_pipeline_run": "2026-09-16T13:46:08.228253",
+  "generated_at": "2026-09-16T22:04:05.483616",
+  "last_updated": "2026-09-16T22:04:05.483616",
+  "last_pipeline_run": "2026-09-16T22:04:05.483616",
   "main_page": {
     "overton": 13,
     "insights": 8,
@@ -9,29 +9,29 @@
   },
   "counts": {
     "ticker_mentions": 223,
-    "podcast_episodes": 458,
+    "podcast_episodes": 459,
     "newsletters": 7,
     "daily_scores": 160,
     "overton_terms_total": 135,
-    "latest_insights_total": 472,
+    "latest_insights_total": 473,
     "today_mentions": {},
-    "podcasts_analyzed": 9
+    "podcasts_analyzed": 10
   },
   "step_results": {
-    "downloaded": 1,
-    "transcribed": 0,
-    "analyzed": 0,
-    "insight_created": 0,
-    "published": 0,
-    "total": 1
+    "downloaded": 2,
+    "transcribed": 1,
+    "analyzed": 1,
+    "insight_created": 1,
+    "published": 1,
+    "total": 2
   },
   "episodes": [
     {
-      "id": "substack:post:215893904",
-      "podcast": "Latent Space: The AI Engineer Podcast",
-      "title": "Underwriting Superintelligence: Backing Agents you can Sue \u2014 Rune Kvist, AIUC",
+      "id": "36a100b4-b21e-11f1-83b5-7f87dc57cd53",
+      "podcast": "Monetary Matters with Jack Farley",
+      "title": "Hawks Take Flight | Joseph Wang on Fed\u2019s Hawkish Hike and Warsh\u2019s Gameplan",
       "published": "2026-09-16",
-      "rss_guid": "substack:post:215893904",
+      "rss_guid": "36a100b4-b21e-11f1-83b5-7f87dc57cd53",
       "stages": {
         "downloaded": true,
         "transcribed": false,
@@ -96,13 +96,31 @@
         }
       },
       "status": "needs_transcription"
+    },
+    {
+      "id": "substack:post:215893904",
+      "podcast": "Latent Space: The AI Engineer Podcast",
+      "title": "Underwriting Superintelligence: Backing Agents you can Sue \u2014 Rune Kvist, AIUC",
+      "published": "2026-09-16",
+      "rss_guid": "substack:post:215893904",
+      "stages": {
+        "downloaded": true,
+        "transcribed": true,
+        "analyzed": true,
+        "insight_created": true,
+        "published": true
+      },
+      "stage_reasons": {},
+      "first_blocker": null,
+      "remediation_by_stage": {},
+      "status": "complete"
     }
   ],
   "available_from_rss": [
     {
-      "podcast": "Latent Space: The AI Engineer Podcast",
-      "title": "Underwriting Superintelligence: Backing Agents you can Sue \u2014 Rune Kvist, AIUC",
-      "published": "Wed, 16 Sep 2026 18:07:45 GMT",
+      "podcast": "Monetary Matters with Jack Farley",
+      "title": "Hawks Take Flight | Joseph Wang on Fed\u2019s Hawkish Hike and Warsh\u2019s Gameplan",
+      "published": "Wed, 16 Sep 2026 22:30:00 -0000",
       "published_date": "2026-09-16",
       "rss_guid": ""
     }
