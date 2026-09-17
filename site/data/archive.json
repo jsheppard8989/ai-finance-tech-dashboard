@@ -39,6 +39,27 @@
       "podcast_episode_id": 486
     },
     {
+      "id": 502,
+      "title": "Hawks Take Flight | Joseph Wang on Fed\u2019s Hawkish Hike and Warsh\u2019s Gameplan",
+      "source_type": "podcast",
+      "source_name": "Monetary Matters with Jack Farley",
+      "source_date": "2026-09-16",
+      "summary": "In this episode of Monetary Matters, Joseph Wang discusses the Federal Reserve's hawkish stance, predicting two more rate hikes as financial conditions remain insufficiently restrictive to combat inflation. The conversation highlights the implications of elevated interest rates on various asset classes, particularly emphasizing the attractiveness of long bonds and the outperformance of the refining sector amidst geopolitical tensions affecting energy prices.",
+      "key_takeaway": "Investors should consider increasing allocations to long bonds and refining stocks while monitoring geopolitical developments that could impact inflation and monetary policy.",
+      "tickers_mentioned": [
+        "TIPS",
+        "MARATHON PETROLEUM",
+        "VALERO"
+      ],
+      "sentiment": "bullish",
+      "display_on_main": 1,
+      "display_order": 0,
+      "added_date": "2026-09-16",
+      "archived_date": null,
+      "archived_reason": null,
+      "podcast_episode_id": 487
+    },
+    {
       "id": 493,
       "title": "The Age of Body Futurism | Ruby Justice Thelot",
       "source_type": "podcast",
@@ -107,7 +128,7 @@
         "NVDA"
       ],
       "sentiment": "bullish",
-      "display_on_main": 1,
+      "display_on_main": 0,
       "display_order": 0,
       "added_date": "2026-09-16",
       "archived_date": null,

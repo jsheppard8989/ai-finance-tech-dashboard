@@ -1,6 +1,6 @@
 [
   {
-    "id": 69187,
+    "id": 69284,
     "name": "Underwriting Superintelligence",
     "slug": "underwriting-superintelligence",
     "bio": null,
@@ -12,7 +12,19 @@
     "appearance_count": 1
   },
   {
-    "id": 69188,
+    "id": 69285,
+    "name": "Hawks Take Flight",
+    "slug": "hawks-take-flight",
+    "bio": null,
+    "known_for": null,
+    "last_main_idea": "Investors should consider increasing allocations to long bonds and refining stocks while monitoring geopolitical developments that could impact inflation and monetary policy.",
+    "last_episode_title": "Hawks Take Flight | Joseph Wang on Fed\u2019s Hawkish Hike and Warsh\u2019s Gameplan",
+    "last_podcast_name": "Monetary Matters with Jack Farley",
+    "last_episode_date": "2026-09-16",
+    "appearance_count": 1
+  },
+  {
+    "id": 69286,
     "name": "Martine Rothblatt",
     "slug": "martine-rothblatt",
     "bio": null,
@@ -24,7 +36,7 @@
     "appearance_count": 1
   },
   {
-    "id": 69189,
+    "id": 69287,
     "name": "Microsoft CEO Satya Nadella",
     "slug": "microsoft-ceo-satya-nadella",
     "bio": null,
@@ -36,7 +48,7 @@
     "appearance_count": 1
   },
   {
-    "id": 69190,
+    "id": 69288,
     "name": "Jensen Huang",
     "slug": "jensen-huang",
     "bio": null,
@@ -48,7 +60,7 @@
     "appearance_count": 1
   },
   {
-    "id": 69191,
+    "id": 69289,
     "name": "Ask the Mates anything",
     "slug": "ask-the-mates-anything",
     "bio": null,
@@ -60,7 +72,7 @@
     "appearance_count": 1
   },
   {
-    "id": 69192,
+    "id": 69290,
     "name": "Matt Barry",
     "slug": "matt-barry",
     "bio": null,
@@ -72,7 +84,7 @@
     "appearance_count": 1
   },
   {
-    "id": 69193,
+    "id": 69291,
     "name": "Who Grades the AI Models?",
     "slug": "who-grades-the-ai-models",
     "bio": null,
@@ -84,7 +96,7 @@
     "appearance_count": 1
   },
   {
-    "id": 69194,
+    "id": 69292,
     "name": "Your AI Doctor Is Coming",
     "slug": "your-ai-doctor-is-coming",
     "bio": null,
@@ -96,7 +108,7 @@
     "appearance_count": 1
   },
   {
-    "id": 69195,
+    "id": 69293,
     "name": "Fei Fei Li",
     "slug": "fei-fei-li",
     "bio": null,
@@ -108,7 +120,7 @@
     "appearance_count": 1
   },
   {
-    "id": 69196,
+    "id": 69294,
     "name": "Financial strategist Jared Dillian",
     "slug": "financial-strategist-jared-dillian",
     "bio": null,
@@ -120,7 +132,7 @@
     "appearance_count": 1
   },
   {
-    "id": 69197,
+    "id": 69295,
     "name": "Daniel Litt",
     "slug": "daniel-litt",
     "bio": null,
@@ -132,7 +144,7 @@
     "appearance_count": 1
   },
   {
-    "id": 69198,
+    "id": 69296,
     "name": "Gavin Baker",
     "slug": "gavin-baker",
     "bio": null,
@@ -144,7 +156,7 @@
     "appearance_count": 1
   },
   {
-    "id": 69199,
+    "id": 69297,
     "name": "Sam Altman",
     "slug": "sam-altman",
     "bio": null,
@@ -156,7 +168,7 @@
     "appearance_count": 1
   },
   {
-    "id": 69200,
+    "id": 69298,
     "name": "Time to Reduce Equity Risk",
     "slug": "time-to-reduce-equity-risk",
     "bio": null,
@@ -168,7 +180,7 @@
     "appearance_count": 1
   },
   {
-    "id": 69201,
+    "id": 69299,
     "name": "Eric Weinstein",
     "slug": "eric-weinstein",
     "bio": null,
@@ -180,7 +192,7 @@
     "appearance_count": 1
   },
   {
-    "id": 69202,
+    "id": 69300,
     "name": "Michael Kratsios",
     "slug": "michael-kratsios",
     "bio": null,
@@ -192,7 +204,7 @@
     "appearance_count": 1
   },
   {
-    "id": 69203,
+    "id": 69301,
     "name": "Emad Mostaque",
     "slug": "emad-mostaque",
     "bio": null,
@@ -204,7 +216,7 @@
     "appearance_count": 3
   },
   {
-    "id": 69204,
+    "id": 69302,
     "name": "Angela Strange and Gabriel Vasquez",
     "slug": "angela-strange-and-gabriel-vasquez",
     "bio": null,
@@ -216,7 +228,7 @@
     "appearance_count": 1
   },
   {
-    "id": 69205,
+    "id": 69303,
     "name": "Why Bessent Blinked",
     "slug": "why-bessent-blinked",
     "bio": null,
@@ -228,7 +240,7 @@
     "appearance_count": 1
   },
   {
-    "id": 69206,
+    "id": 69304,
     "name": "Travis Kalanick",
     "slug": "travis-kalanick",
     "bio": null,
@@ -240,7 +252,7 @@
     "appearance_count": 1
   },
   {
-    "id": 69207,
+    "id": 69305,
     "name": "Rahm Emanuel",
     "slug": "rahm-emanuel",
     "bio": null,
@@ -252,7 +264,7 @@
     "appearance_count": 1
   },
   {
-    "id": 69208,
+    "id": 69306,
     "name": "Milton Berg",
     "slug": "milton-berg",
     "bio": "Milton Berg is a veteran technical analyst and CEO of Milton Berg Advisors, specializing in market turning-point analysis for institutional investors.",
@@ -264,7 +276,7 @@
     "appearance_count": 1
   },
   {
-    "id": 69209,
+    "id": 69307,
     "name": "How Open",
     "slug": "how-open",
     "bio": null,
@@ -276,7 +288,7 @@
     "appearance_count": 1
   },
   {
-    "id": 69210,
+    "id": 69308,
     "name": "Saronic Founders",
     "slug": "saronic-founders",
     "bio": null,
@@ -288,7 +300,7 @@
     "appearance_count": 1
   },
   {
-    "id": 69211,
+    "id": 69309,
     "name": "OpenAI's Joshua Achiam",
     "slug": "openais-joshua-achiam",
     "bio": null,
@@ -300,7 +312,7 @@
     "appearance_count": 1
   },
   {
-    "id": 69212,
+    "id": 69310,
     "name": "Marc Andreessen and Chris Dixon",
     "slug": "marc-andreessen-and-chris-dixon",
     "bio": null,
@@ -312,7 +324,7 @@
     "appearance_count": 1
   },
   {
-    "id": 69213,
+    "id": 69311,
     "name": "AI for America's Small Businesses",
     "slug": "ai-for-americas-small-businesses",
     "bio": null,
@@ -324,7 +336,7 @@
     "appearance_count": 1
   },
   {
-    "id": 69214,
+    "id": 69312,
     "name": "Luke Gromen",
     "slug": "luke-gromen",
     "bio": null,
@@ -336,7 +348,7 @@
     "appearance_count": 1
   },
   {
-    "id": 69215,
+    "id": 69313,
     "name": "Steven Sinofsky",
     "slug": "steven-sinofsky",
     "bio": null,
@@ -345,18 +357,6 @@
     "last_episode_title": "Steven Sinofsky: AI Doesn't Need New Rules Yet",
     "last_podcast_name": "The a16z Show",
     "last_episode_date": "2026-07-27",
-    "appearance_count": 1
-  },
-  {
-    "id": 69216,
-    "name": "Travis Kelenick",
-    "slug": "travis-kelenick",
-    "bio": null,
-    "known_for": null,
-    "last_main_idea": "Industrial AI represents a substantial opportunity to transform physical industries through automation and AI, creating significant value beyond traditional software solutions.",
-    "last_episode_title": "Building the Physical AI Stack | Travis Kalanick on TBPN",
-    "last_podcast_name": "The a16z Show",
-    "last_episode_date": "2026-07-23",
     "appearance_count": 1
   }
 ]
