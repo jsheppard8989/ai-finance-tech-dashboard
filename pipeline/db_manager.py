@@ -704,7 +704,7 @@ class DashboardDB:
             )
             rows = [dict(row) for row in cursor.fetchall()]
 
-            from person_name_safety import is_placeholder_person_name
+            from person_name_safety import is_placeholder_person_name, fails_stranger_name_check
             from pundit_exclusions import is_excluded_pundit_name
 
             pundits = []
@@ -714,6 +714,9 @@ class DashboardDB:
                 if is_excluded_pundit_name(name):
                     continue
                 if is_placeholder_person_name(name):
+                    continue
+                # Filter out ASR-garbage names (e.g., "Ruby J. To Low", "NG ZDN")
+                if fails_stranger_name_check(name):
                     continue
 
                 appearance_count = row.get('appearance_count') or 1
@@ -1160,6 +1163,9 @@ class DashboardDB:
                 established_terms = []
                 new_idea_terms = []
 
+                # Import sanitizer for speaker names
+                from person_name_safety import sanitize_speaker_name_for_display
+
                 for t in overton_rows:
                     term_name = t.get("term") or ""
                     t["novelty_score"] = round(_novelty_score(t), 4)
@@ -1176,6 +1182,14 @@ class DashboardDB:
                     t["last_mentioned_podcast"] = lp
                     t["last_mentioned_episode_title"] = lt
                     t["last_mentioned_episode_date"] = ld
+
+                    # Sanitize speaker names - hide ASR garbage like "Ruby J. To Low", "NG ZDN"
+                    t["first_detected_speaker"] = sanitize_speaker_name_for_display(
+                        t.get("first_detected_speaker") or ""
+                    )
+                    t["last_mentioned_speaker"] = sanitize_speaker_name_for_display(
+                        t.get("last_mentioned_speaker") or ""
+                    )
                     
                     if t["is_established"]:
                         established_terms.append(t)
@@ -1199,6 +1213,7 @@ class DashboardDB:
 
             except Exception as e:
                 # Fallback: simple mention count ranking
+                from person_name_safety import sanitize_speaker_name_for_display as _sanitize
                 new_idea_terms = overton_rows
                 established_terms = []
                 for t in overton_rows:
@@ -1215,6 +1230,9 @@ class DashboardDB:
                     t["last_mentioned_podcast"] = lp
                     t["last_mentioned_episode_title"] = lt
                     t["last_mentioned_episode_date"] = ld
+                    # Sanitize speaker names
+                    t["first_detected_speaker"] = _sanitize(t.get("first_detected_speaker") or "")
+                    t["last_mentioned_speaker"] = _sanitize(t.get("last_mentioned_speaker") or "")
                 new_idea_terms.sort(
                     key=lambda t: float(t.get("novelty_score") or 0),
                     reverse=True,
