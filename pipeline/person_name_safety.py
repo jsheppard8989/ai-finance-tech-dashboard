@@ -122,3 +122,201 @@ def is_placeholder_person_name(name: str) -> bool:
 def filter_real_person_names(names: List[str]) -> List[str]:
     return [n for n in names if not is_placeholder_person_name(n)]
 
+
+# Known legitimate name particles that can appear mid-name (e.g., "Ludwig van Beethoven")
+_KNOWN_NAME_PARTICLES: frozenset[str] = frozenset({
+    "van", "von", "de", "del", "della", "di", "da", "dos", "das", "du",
+    "la", "le", "el", "al", "bin", "ibn", "ben", "mac", "mc", "o'",
+    "st", "st.", "san", "santa", "jr", "jr.", "sr", "sr.", "ii", "iii", "iv",
+})
+
+# Known ASR garbage patterns - these fail immediately
+_KNOWN_ASR_GARBAGE: frozenset[str] = frozenset({
+    # Specific examples from the live site
+    "ruby j. to low",
+    "ng zdn",
+    "sly miss mail",
+    "e-modemoo",
+    "e modemoo",
+    "batuan tashkaya",
+    "alex wees",
+    "e-modemustock",
+    "e modemustock",
+    # Common ASR garbage patterns
+    "ai assistant",
+    "the host",
+    "the guest",
+    "moderator",
+})
+
+
+def fails_stranger_name_check(name: str) -> bool:
+    """
+    Conservative heuristic to detect ASR-garbage speaker names.
+
+    This function flags names that appear to be ASR transcription errors
+    while being conservative to avoid false positives on real names.
+
+    **Fail examples (ASR garbage):**
+    - "Ruby J. To Low" (ASR for Ruby Justice Thelot)
+    - "NG ZDN" (all-caps letter salad)
+    - "Sly Miss Mail" (ASR garbage)
+    - "E-Modemoo" (nonsense compound)
+    - "Batuan Tashkaya" (known ASR error)
+    - "Alex Wees" (ASR variant of co-host)
+
+    **Pass examples (real names):**
+    - "Joseph Wang"
+    - "Alfonso Peccatiello"
+    - "Ruby Justice Thelot"
+    - "Ludwig van Beethoven"
+
+    **Design principle:** Prefer false negatives over false positives.
+    If unsure, let the name through (return False).
+
+    Returns:
+        True if the name fails the check (likely ASR garbage)
+        False if the name passes (looks like a real name or uncertain)
+    """
+    s = _normalize_name(name)
+    if not s:
+        return True
+
+    lower = s.lower()
+
+    # 1. Check against known ASR garbage list
+    if lower in _KNOWN_ASR_GARBAGE:
+        return True
+
+    # 2. Empty or single-token names fail (already covered by is_placeholder_person_name
+    #    but we duplicate here for completeness in this stranger check)
+    if _token_count(s) < 2:
+        return True
+
+    # 3. All-caps letter salad detection
+    #    e.g., "NG ZDN", "ABC XYZ" - but allow things like "JFK" as part of a name
+    tokens = _get_name_tokens(s)
+    if not tokens:
+        return True
+
+    # Count how many tokens are all-caps and short (≤3 chars)
+    all_caps_short_tokens = sum(
+        1 for t in tokens
+        if t.isupper() and len(t) <= 3 and not _is_known_initial_or_suffix(t)
+    )
+    # If more than half the tokens are all-caps short tokens, likely garbage
+    if len(tokens) >= 2 and all_caps_short_tokens > len(tokens) / 2:
+        return True
+
+    # 4. Mid-name glue word detection
+    #    e.g., "Ruby J. To Low" - "To" is a weird mid-name word
+    #    But allow known particles like "van", "de", "von"
+    if len(tokens) >= 3:
+        middle_tokens = tokens[1:-1]  # Exclude first and last
+        for mt in middle_tokens:
+            mt_lower = mt.lower().rstrip(".")
+            # Skip known particles and initials
+            if mt_lower in _KNOWN_NAME_PARTICLES:
+                continue
+            if _is_initial(mt):
+                continue
+            # Flag common English glue words that shouldn't appear mid-name
+            if mt_lower in {"to", "vs", "or", "and", "the", "a", "an", "of", "for", "by", "at", "on", "in", "is", "it"}:
+                return True
+
+    # 5. Hyphenated nonsense detection
+    #    e.g., "E-Modemoo" - single letter followed by gibberish
+    for token in tokens:
+        if "-" in token:
+            parts = token.split("-")
+            # Single letter followed by something weird
+            if len(parts) >= 2:
+                first_part = parts[0]
+                # Single letter hyphen prefix is suspicious unless it's a known pattern
+                if len(first_part) == 1 and first_part.isalpha():
+                    rest = "-".join(parts[1:])
+                    # If the rest doesn't look like a real surname part, flag it
+                    # Also flag if it's unusually long (suggests concatenated garbage)
+                    if not _looks_like_surname_part(rest):
+                        return True
+                    # Even if it passes the basic surname check, flag very long ones
+                    # Real hyphenated surnames with single-letter prefix are rare
+                    if len(rest) > 6:
+                        return True
+
+    # 6. Token-level nonsense detection
+    #    e.g., "Modemoo", "Tashkaya" - but be conservative (could be foreign names)
+    #    Only flag if the token has very unusual patterns
+    for token in tokens:
+        t_clean = token.lower().replace("-", "").replace("'", "")
+        # Skip short tokens and known patterns
+        if len(t_clean) <= 3:
+            continue
+        # Flag tokens that have triple+ repeated letters (very rare in names)
+        if re.search(r"(.)\1{2,}", t_clean):
+            return True
+        # Flag tokens that end in unusual combos suggesting ASR errors
+        # e.g., "modemoo" ends in "emoo" which is very unusual
+        if re.search(r"(moo|zoo|boo|doo|goo|woo|yoo)$", t_clean) and len(t_clean) > 5:
+            # Exception: common surname endings
+            if not t_clean.endswith(("wood", "hood", "good")):
+                return True
+
+    # If we got here, the name passes the stranger check
+    return False
+
+
+def _get_name_tokens(name: str) -> List[str]:
+    """Extract alphabetic tokens from a name string."""
+    s = _normalize_name(name)
+    # Keep hyphens and apostrophes as part of tokens
+    s = re.sub(r"[^\w\s'\-]", " ", s)
+    parts = [p.strip() for p in s.split() if p.strip()]
+    return parts
+
+
+def _is_initial(token: str) -> bool:
+    """Check if a token looks like an initial (e.g., 'J', 'J.', 'Jr.')."""
+    t = token.rstrip(".")
+    return len(t) == 1 and t.isalpha()
+
+
+def _is_known_initial_or_suffix(token: str) -> bool:
+    """Check if an all-caps token is a known initial or suffix."""
+    t = token.lower().rstrip(".")
+    return (
+        len(t) == 1  # Single initial like "J"
+        or t in {"jr", "sr", "ii", "iii", "iv", "md", "phd", "esq", "cpa"}
+    )
+
+
+def _looks_like_surname_part(s: str) -> bool:
+    """
+    Heuristic check if a string looks like it could be part of a hyphenated surname.
+    e.g., "Gross" in "Wissner-Gross" looks valid, "Modemoo" does not.
+    """
+    s = (s or "").lower()
+    if not s or len(s) < 2:
+        return False
+    # Common surname patterns
+    if len(s) >= 3 and s.isalpha():
+        # Check for reasonable vowel/consonant distribution
+        vowels = sum(1 for c in s if c in "aeiou")
+        consonants = len(s) - vowels
+        # Names typically have at least 1 vowel per 4-5 consonants
+        if vowels == 0 and consonants >= 3:
+            return False
+        # Looks reasonably name-like
+        return True
+    return False
+
+
+def sanitize_speaker_name_for_display(name: str) -> str:
+    """
+    Return the name if it passes the stranger check, otherwise return empty string.
+    Used for Overton term speaker attribution display.
+    """
+    if not name or fails_stranger_name_check(name):
+        return ""
+    return _normalize_name(name)
+

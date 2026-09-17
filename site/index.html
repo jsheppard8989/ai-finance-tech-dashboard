@@ -376,6 +376,46 @@
       background: linear-gradient(90deg, #6b7280, #9ca3af);
     }
 
+    /* Curated seed cards - niche/plumbing sources (not VC podcast pipeline) */
+    .overton-window-item.curated-item {
+      background: rgba(34, 197, 94, 0.06);
+      border: 1px solid rgba(34, 197, 94, 0.25);
+      border-left: 3px solid rgba(34, 197, 94, 0.6);
+    }
+
+    .overton-window-item.curated-item:hover {
+      background: rgba(34, 197, 94, 0.1);
+      border-color: rgba(34, 197, 94, 0.4);
+      box-shadow: 0 6px 24px rgba(34, 197, 94, 0.1);
+    }
+
+    .overton-window-item.curated-item .curated-badge {
+      display: inline-block;
+      background: rgba(34, 197, 94, 0.2);
+      color: #22c55e;
+      font-size: 0.6rem;
+      font-weight: 700;
+      text-transform: uppercase;
+      letter-spacing: 0.05em;
+      padding: 0.15rem 0.4rem;
+      border-radius: 3px;
+      margin-left: 0.5rem;
+      vertical-align: middle;
+    }
+
+    .overton-window-item.curated-item .curated-source {
+      font-size: 0.72rem;
+      color: #6b7280;
+      margin-top: 0.5rem;
+      padding-top: 0.35rem;
+      border-top: 1px solid rgba(255, 255, 255, 0.05);
+    }
+
+    .overton-window-item.curated-item .curated-source-label {
+      color: #22c55e;
+      font-weight: 600;
+    }
+
     /* Featured/Debated cards - curated thesis not from podcast pipeline */
     .overton-window-item.featured-item {
       background: rgba(255, 193, 7, 0.08);
@@ -2400,6 +2440,43 @@
         );
       }
 
+      // Build a curated seed card (simpler than featured/debated cards)
+      function buildCuratedCard(c) {
+        const term = esc(c.term);
+        const desc = esc(c.description || '');
+        const firstSource = esc(c.first_source || '');
+        const category = esc(c.category || '');
+        const prov = c.provenance || {};
+        const provNote = esc(prov.note || 'Curated seed from niche sources');
+        const sourceUrl = esc(prov.source_url || '');
+
+        let sourceHtml = '';
+        if (firstSource) {
+          sourceHtml = '<div class="curated-source">';
+          sourceHtml += '<span class="curated-source-label">Source:</span> ';
+          if (sourceUrl) {
+            sourceHtml += '<a href="' + sourceUrl + '" target="_blank" style="color: #a8b2d1; text-decoration: none;">' + firstSource + '</a>';
+          } else {
+            sourceHtml += firstSource;
+          }
+          if (category) {
+            sourceHtml += ' <span style="color: #6b7280;">(' + category.replace(/_/g, ' ') + ')</span>';
+          }
+          sourceHtml += '</div>';
+        }
+
+        return (
+          '<div class="overton-window-item curated-item">' +
+            '<div class="overton-header-row">' +
+              '<div class="ow-term">' + term + '<span class="curated-badge">Curated</span></div>' +
+            '</div>' +
+            '<div class="ow-description">' + desc + '</div>' +
+            sourceHtml +
+            '<div style="font-size: 0.68rem; color: #6b7280; margin-top: 0.35rem; font-style: italic;">' + provNote + '</div>' +
+          '</div>'
+        );
+      }
+
       // Fetch featured/curated cards (independent of pipeline)
       let featuredItems = [];
       try {
@@ -2412,6 +2489,20 @@
         }
       } catch (e) {
         console.warn('Could not load featured_overton.json:', e);
+      }
+
+      // Fetch curated seeds (niche/plumbing sources, e.g., Fed Guy, Macro Voices)
+      let curatedItems = [];
+      try {
+        const curatedResp = await fetch('./data/curated_overton.json', { cache: 'no-cache' });
+        if (curatedResp.ok) {
+          const curatedData = await curatedResp.json();
+          const curated = (curatedData.curated || []).filter(c => c.status === 'active');
+          curated.sort((a, b) => (a.display_order || 999) - (b.display_order || 999));
+          curated.forEach(c => curatedItems.push(buildCuratedCard(c)));
+        }
+      } catch (e) {
+        console.warn('Could not load curated_overton.json:', e);
       }
 
       // Sort new ideas by novelty score (already sorted in backend, but re-sort for safety)
@@ -2450,13 +2541,13 @@
           '</div>';
       }
 
-      if (featuredItems.length === 0 && items.length === 0 && established.length === 0) {
+      if (featuredItems.length === 0 && curatedItems.length === 0 && items.length === 0 && established.length === 0) {
         container.innerHTML = '<p style="color: #8892b0; font-size: 0.9rem; padding: 1rem;">No recurring terms on the main list yet — candidates need two episodes plus a YES reply. See <a href="pipeline-health.html" style="color: #00d4ff;">data status</a>.</p>';
         return;
       }
       
-      // Featured cards pinned at top, then pipeline-ranked items, then established tier
-      container.innerHTML = featuredItems.join('') + items.join('') + establishedHtml;
+      // Featured cards pinned at top, then curated seeds, then pipeline-ranked items, then established tier
+      container.innerHTML = featuredItems.join('') + curatedItems.join('') + items.join('') + establishedHtml;
     }
 
     // Toggle Established tier visibility
