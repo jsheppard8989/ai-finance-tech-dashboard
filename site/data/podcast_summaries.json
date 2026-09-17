@@ -1,5 +1,25 @@
 [
   {
+    "id": 487,
+    "podcast_name": "Monetary Matters with Jack Farley",
+    "episode_title": "Hawks Take Flight | Joseph Wang on Fed\u2019s Hawkish Hike and Warsh\u2019s Gameplan",
+    "episode_date": "2026-09-16",
+    "summary": "In this episode of Monetary Matters, Joseph Wang discusses the Federal Reserve's hawkish stance, predicting two more rate hikes as financial conditions remain insufficiently restrictive to combat inflation. The conversation highlights the implications of elevated interest rates on various asset classes, particularly emphasizing the attractiveness of long bonds and the outperformance of the refining sector amidst geopolitical tensions affecting energy prices.",
+    "key_takeaways": [
+      "The Fed is expected to implement two more rate hikes, indicating a continued hawkish monetary policy.",
+      "Long bonds are viewed positively due to their attractive yields and potential for price appreciation as inflation concerns ease.",
+      "The refining sector is currently outperforming, driven by high crack spreads and limited capacity, presenting investment opportunities.",
+      "Land Research's EBITDA estimates for semiconductor manufacturing equipment are considered too low, suggesting potential growth in this sector.",
+      "Geopolitical developments, especially in the Middle East, are influencing inflation expectations and Fed policy."
+    ],
+    "investment_thesis": "Investors should consider increasing allocations to long bonds and refining stocks while monitoring geopolitical developments that could impact inflation and monetary policy.",
+    "key_tickers": [
+      "TIPS",
+      "MARATHON PETROLEUM",
+      "VALERO"
+    ]
+  },
+  {
     "id": 486,
     "podcast_name": "Latent Space: The AI Engineer Podcast",
     "episode_title": "Underwriting Superintelligence: Backing Agents you can Sue \u2014 Rune Kvist, AIUC",

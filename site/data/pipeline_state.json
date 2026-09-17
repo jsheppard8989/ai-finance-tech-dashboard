@@ -1,21 +1,23 @@
 {
-  "generated_at": "2026-09-16T22:04:05.483616",
-  "last_updated": "2026-09-16T22:04:05.483616",
-  "last_pipeline_run": "2026-09-16T22:04:05.483616",
+  "generated_at": "2026-09-16T23:36:53.830428",
+  "last_updated": "2026-09-16T23:36:53.830428",
+  "last_pipeline_run": "2026-09-16T23:36:53.830428",
   "main_page": {
     "overton": 13,
     "insights": 8,
-    "pundits": 312
+    "pundits": 313
   },
   "counts": {
-    "ticker_mentions": 223,
-    "podcast_episodes": 459,
+    "ticker_mentions": 224,
+    "podcast_episodes": 460,
     "newsletters": 7,
     "daily_scores": 160,
     "overton_terms_total": 135,
-    "latest_insights_total": 473,
-    "today_mentions": {},
-    "podcasts_analyzed": 10
+    "latest_insights_total": 474,
+    "today_mentions": {
+      "podcast": 1
+    },
+    "podcasts_analyzed": 11
   },
   "step_results": {
     "downloaded": 2,
@@ -32,6 +34,24 @@
       "title": "Hawks Take Flight | Joseph Wang on Fed\u2019s Hawkish Hike and Warsh\u2019s Gameplan",
       "published": "2026-09-16",
       "rss_guid": "36a100b4-b21e-11f1-83b5-7f87dc57cd53",
+      "stages": {
+        "downloaded": true,
+        "transcribed": true,
+        "analyzed": true,
+        "insight_created": true,
+        "published": true
+      },
+      "stage_reasons": {},
+      "first_blocker": null,
+      "remediation_by_stage": {},
+      "status": "complete"
+    },
+    {
+      "id": "f225e979-78f3-4508-95fe-79293b3ff678",
+      "podcast": "All-In with Chamath, Jason, Sacks & Friedberg",
+      "title": "Brad Gerstner: No AI Bubble, Semis Eat the Nasdaq & AI's Take Off Problem",
+      "published": "2026-09-17",
+      "rss_guid": "f225e979-78f3-4508-95fe-79293b3ff678",
       "stages": {
         "downloaded": true,
         "transcribed": false,
@@ -96,32 +116,14 @@
         }
       },
       "status": "needs_transcription"
-    },
-    {
-      "id": "substack:post:215893904",
-      "podcast": "Latent Space: The AI Engineer Podcast",
-      "title": "Underwriting Superintelligence: Backing Agents you can Sue \u2014 Rune Kvist, AIUC",
-      "published": "2026-09-16",
-      "rss_guid": "substack:post:215893904",
-      "stages": {
-        "downloaded": true,
-        "transcribed": true,
-        "analyzed": true,
-        "insight_created": true,
-        "published": true
-      },
-      "stage_reasons": {},
-      "first_blocker": null,
-      "remediation_by_stage": {},
-      "status": "complete"
     }
   ],
   "available_from_rss": [
     {
-      "podcast": "Monetary Matters with Jack Farley",
-      "title": "Hawks Take Flight | Joseph Wang on Fed\u2019s Hawkish Hike and Warsh\u2019s Gameplan",
-      "published": "Wed, 16 Sep 2026 22:30:00 -0000",
-      "published_date": "2026-09-16",
+      "podcast": "All-In with Chamath, Jason, Sacks & Friedberg",
+      "title": "Brad Gerstner: No AI Bubble, Semis Eat the Nasdaq & AI's Take Off Problem",
+      "published": "Thu, 17 Sep 2026 03:04:00 +0000",
+      "published_date": "2026-09-17",
       "rss_guid": ""
     }
   ],
