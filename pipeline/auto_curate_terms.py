@@ -178,7 +178,7 @@ def auto_promote_term(db, term_data):
 
             notify_promoted_term(term_data)
         except Exception as exc:
-            print(f"  ⚠ Could not send promotion iMessage: {exc}")
+            print(f"  ⚠ Could not record/notify term promotion: {exc}")
         return True
 
 

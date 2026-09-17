@@ -14,10 +14,17 @@ This doc explains how the 10pm pipeline is scheduled, why **sleep can prevent it
 | `com.scarcity.pipeline.catchup` | ✅ loaded | Backup on login/wake and 22:10 |
 | `com.scarcity.whisper-worker` | ✅ loaded | Local Whisper transcription worker |
 | `com.scarcity.site.qa` | ✅ loaded | Site QA checks |
-| `com.scarcity.term_promotion_replies` | ✅ loaded | Processes term promotion replies |
+| `com.scarcity.term_promotion_replies` | ⚠️ unload recommended | SMS YES/NO replies — **fail-closed** unless `TERM_PROMOTION_SMS_REPLIES=1`; prefer Grok Bot keep/drop |
 | `com.scarcity.pipeline.schedule` | ❌ **NOT loaded** | Deprecated fixed-time calendar schedule; do not load |
 
 **Run windows (daemon):** 05:00–07:59, 12:00–14:59, 22:00–23:59 local time.
+
+### Overton term promotion Messages (fail-closed)
+
+- Outbound Scarcity Overton YES/NO iMessages require `TERM_PROMOTION_IMESSAGE=1` (default off). Pending tokens still go to `pipeline/state/pending_term_promotions.json` for Grok Bot / CLI approve-reject.
+- Inbound SMS YES/NO processing requires `TERM_PROMOTION_SMS_REPLIES=1` (default off). Recommend unloading `com.scarcity.term_promotion_replies`.
+- Pipeline failure iMessages (charts/deepdives/etc.) are unchanged; success summaries still gate on `PIPELINE_NOTIFY_ON_SUCCESS`.
+
 
 **Cooldown:** 90 minutes via `pipeline/state/last_evening_run.txt`.
 

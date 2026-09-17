@@ -5,13 +5,17 @@ Poll macOS Messages database for replies to Overton term promotion iMessages:
   • "YES <8-char-token>" or plain "YES" — show term on main page (display_on_main = 1).
   • "NO <8-char-token>" or plain "NO" — remove term from Overton + definitions.
 
+**Fail-closed:** SMS is not the control plane unless TERM_PROMOTION_SMS_REPLIES is set.
+Keep/drop stays in Grok Bot / G lane (pending_term_promotions.json + approve/reject CLIs).
+
 Requires Full Disk Access for TermPromotionRepliesRunner.app. The conda Python copy is the
 bundle’s CFBundleExecutable (Contents/MacOS/TermPromotionRepliesRunner) so FDA matches launchd.
 Reads: ~/Library/Messages/chat.db
 
-Run on a schedule (launchd) every few minutes alongside the pipeline.
+Run on a schedule (launchd) every few minutes alongside the pipeline (no-op unless opted in).
 
 Env:
+  TERM_PROMOTION_SMS_REPLIES — set to 1/true/yes to process YES/NO from Messages (default: off)
   TERM_PROMOTION_MESSAGES_DB — override path to chat.db (default ~/Library/Messages/chat.db)
 """
 
@@ -238,8 +242,20 @@ def process_replies() -> dict[str, int] | None:
     return {"approved": approved, "rejected": rejected}
 
 
+def _sms_replies_opt_in() -> bool:
+    """True only when TERM_PROMOTION_SMS_REPLIES is explicitly enabled (fail-closed)."""
+    return os.environ.get("TERM_PROMOTION_SMS_REPLIES", "").strip().lower() in ("1", "true", "yes")
+
+
 def main() -> None:
     STATE_DIR.mkdir(parents=True, exist_ok=True)
+    if not _sms_replies_opt_in():
+        print(
+            f"SKIP {datetime.now(timezone.utc).isoformat()} "
+            "(TERM_PROMOTION_SMS_REPLIES not set; SMS YES/NO control plane disabled)",
+            flush=True,
+        )
+        return
     lock_path = STATE_DIR / "term_promotion_replies.lock"
     lock_fp = open(lock_path, "a+", encoding="utf-8")  # noqa: SIM115 — held until unlock
     try:
