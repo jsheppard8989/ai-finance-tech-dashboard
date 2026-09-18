@@ -1,7 +1,7 @@
 #!/usr/bin/env python3
 """
 Fully automated pipeline - no approval step needed.
-Runs end-to-end: fetch → transcribe → analyze → export → (Fridays CST: weekly debate) → push to GitHub.
+Runs end-to-end: fetch → transcribe → analyze → export → push to GitHub. Weekly Debait is opt-in (DEBATE_WEEKLY=1), not standing.
 Sends a summary notification after completion.
 
 Fetch step uses --queue-only: new episodes are enqueued to whisper_queue/ and
@@ -781,11 +781,17 @@ def _is_friday_america_chicago() -> bool:
 
 def maybe_run_weekly_debate_after_export() -> bool:
     """
-    debate_weekly.py reads site/data/pundits.json (written by export). Run only on Fridays CST.
-    If the contract is already current for this Friday, debate_weekly exits quickly.
-    Failures are non-fatal for the rest of the pipeline (site data still pushes).
+    debate_weekly.py reads site/data/pundits.json (written by export).
+
+    Debait is rare — NO standing weekly cycle. Default OFF (skip) even on Fridays CST.
+    Opt in only with DEBATE_WEEKLY=1 (or true/yes). Do not text Jared about skips/failures.
     """
+    flag = os.environ.get("DEBATE_WEEKLY", "").strip().lower()
+    if flag not in ("1", "true", "yes"):
+        print("\n⏭ Skipping Weekly Debate (DEBATE_WEEKLY not set; Debait is rare / no standing weekly).")
+        return True
     if not _is_friday_america_chicago():
+        print("\n⏭ Skipping Weekly Debate (DEBATE_WEEKLY set but today is not Friday CT).")
         return True
     return run_script("Weekly Debate", "debate_weekly.py", timeout=7200)
 
@@ -1243,12 +1249,9 @@ def main():
             if not export_ok:
                 errors.append("export")
             elif not maybe_run_weekly_debate_after_export():
+                # Debait is rare; never iMessage Jared about weekly debate misses.
                 errors.append("weekly_debate")
-                send_notification(
-                    "Pipeline: Weekly debate failed",
-                    "debate_weekly.py failed after export; debate contract/audio were not updated.",
-                    priority=1,
-                )
+                print("  ⚠ Weekly Debate failed (no iMessage; Debait parked unless DEBATE_WEEKLY=1).")
         else:
             print("  ⏭ Skipping export and git push (no AI client for Deep Dives).")
 
