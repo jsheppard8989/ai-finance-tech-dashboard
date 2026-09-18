@@ -3,1008 +3,1008 @@
 
 const dashboardData = {
   schemaVersion: 2,
-  generatedAt: "2026-09-18T05:12:40.848401",
-  chartsVersion: "2026-09-18T05:12:30.485114",
+  generatedAt: "2026-09-18T06:45:04.221207",
+  chartsVersion: "2026-09-18T06:44:53.591480",
   priceSnapshot: {
   "AAPL": {
     "price": 337.0,
     "change_pct": 5.41,
     "name": "Apple Inc.",
-    "updated_at": "2026-09-18T05:11:23.132433",
+    "updated_at": "2026-09-18T06:43:44.425373",
     "price_14d_ago": 319.7
   },
   "AEP": {
     "price": 121.62,
     "change_pct": -0.56,
     "name": "American Electric Power Company",
-    "updated_at": "2026-09-18T05:11:23.430599",
+    "updated_at": "2026-09-18T06:43:44.706526",
     "price_14d_ago": 122.31
   },
   "AMD": {
     "price": 545.09,
     "change_pct": 17.08,
     "name": "Advanced Micro Devices, Inc.",
-    "updated_at": "2026-09-18T05:11:23.662635",
+    "updated_at": "2026-09-18T06:43:44.882439",
     "price_14d_ago": 465.58
   },
   "AMGN": {
     "price": 379.78,
     "change_pct": -12.17,
     "name": "Amgen Inc.",
-    "updated_at": "2026-09-18T05:11:23.914252",
+    "updated_at": "2026-09-18T06:43:45.123226",
     "price_14d_ago": 432.42
   },
   "AMZN": {
     "price": 251.19,
     "change_pct": -5.72,
     "name": "Amazon.com, Inc.",
-    "updated_at": "2026-09-18T05:11:24.125488",
+    "updated_at": "2026-09-18T06:43:45.333231",
     "price_14d_ago": 266.43
   },
   "APO": {
     "price": 126.0,
     "change_pct": -6.69,
     "name": "Apollo Global Management, Inc. ",
-    "updated_at": "2026-09-18T05:11:24.377108",
+    "updated_at": "2026-09-18T06:43:45.557661",
     "price_14d_ago": 135.04
   },
   "APTV": {
     "price": 43.62,
     "change_pct": -4.66,
     "name": "Aptiv PLC",
-    "updated_at": "2026-09-18T05:11:24.603541",
+    "updated_at": "2026-09-18T06:43:45.793680",
     "price_14d_ago": 45.75
   },
   "AVGO": {
     "price": 347.3,
     "change_pct": -5.83,
     "name": "Broadcom Inc.",
-    "updated_at": "2026-09-18T05:11:24.859854",
+    "updated_at": "2026-09-18T06:43:46.087509",
     "price_14d_ago": 368.79
   },
   "BA": {
     "price": 197.0,
     "change_pct": -6.11,
     "name": "Boeing Company (The)",
-    "updated_at": "2026-09-18T05:11:25.326662",
+    "updated_at": "2026-09-18T06:43:46.492221",
     "price_14d_ago": 209.82
   },
   "BABA": {
     "price": 108.54,
     "change_pct": -8.71,
     "name": "Alibaba Group Holding Limited",
-    "updated_at": "2026-09-18T05:11:25.599680",
+    "updated_at": "2026-09-18T06:43:46.681091",
     "price_14d_ago": 118.9
   },
   "BAC": {
     "price": 58.18,
     "change_pct": -6.64,
     "name": "Bank of America Corporation",
-    "updated_at": "2026-09-18T05:11:25.814429",
+    "updated_at": "2026-09-18T06:43:46.898612",
     "price_14d_ago": 62.32
   },
   "BAM": {
     "price": 45.42,
     "change_pct": -12.85,
     "name": "Brookfield Asset Management Inc",
-    "updated_at": "2026-09-18T05:11:25.999347",
+    "updated_at": "2026-09-18T06:43:47.113139",
     "price_14d_ago": 52.12
   },
   "BIDU": {
     "price": 90.03,
     "change_pct": -7.3,
     "name": "Baidu, Inc.",
-    "updated_at": "2026-09-18T05:11:26.390839",
+    "updated_at": "2026-09-18T06:43:47.498033",
     "price_14d_ago": 97.12
   },
   "BP": {
     "price": 45.42,
     "change_pct": 7.76,
     "name": "BP p.l.c.",
-    "updated_at": "2026-09-18T05:11:26.823850",
+    "updated_at": "2026-09-18T06:43:47.997228",
     "price_14d_ago": 42.15
   },
   "BTC": {
-    "price": 78091.42,
-    "change_pct": -2.17,
+    "price": 77962.62,
+    "change_pct": -2.33,
     "name": "Bitcoin USD",
-    "updated_at": "2026-09-18T05:11:27.048940",
+    "updated_at": "2026-09-18T06:43:48.210183",
     "price_14d_ago": 79823.87
   },
   "BTC-USD": {
-    "price": 78095.05,
-    "change_pct": -2.17,
+    "price": 77957.11,
+    "change_pct": -2.34,
     "name": "Bitcoin USD",
-    "updated_at": "2026-09-18T05:11:27.329096",
+    "updated_at": "2026-09-18T06:43:48.446236",
     "price_14d_ago": 79823.87
   },
   "BX": {
     "price": 125.41,
     "change_pct": -11.92,
     "name": "Blackstone Inc.",
-    "updated_at": "2026-09-18T05:11:27.582343",
+    "updated_at": "2026-09-18T06:43:48.663437",
     "price_14d_ago": 142.39
   },
   "BYD": {
     "price": 74.25,
     "change_pct": -6.57,
     "name": "Boyd Gaming Corporation",
-    "updated_at": "2026-09-18T05:11:27.825454",
+    "updated_at": "2026-09-18T06:43:48.943764",
     "price_14d_ago": 79.47
   },
   "CAT": {
     "price": 798.57,
     "change_pct": -0.21,
     "name": "Caterpillar, Inc.",
-    "updated_at": "2026-09-18T05:11:28.260990",
+    "updated_at": "2026-09-18T06:43:49.418164",
     "price_14d_ago": 800.25
   },
   "CCJ": {
     "price": 92.8,
     "change_pct": -7.21,
     "name": "Cameco Corporation",
-    "updated_at": "2026-09-18T05:11:28.465240",
+    "updated_at": "2026-09-18T06:43:49.708748",
     "price_14d_ago": 100.01
   },
   "CEG": {
     "price": 262.8,
     "change_pct": -5.04,
     "name": "Constellation Energy Corporatio",
-    "updated_at": "2026-09-18T05:11:28.647104",
+    "updated_at": "2026-09-18T06:43:49.921967",
     "price_14d_ago": 276.75
   },
   "COIN": {
     "price": 173.97,
     "change_pct": -2.61,
     "name": "Coinbase Global, Inc.",
-    "updated_at": "2026-09-18T05:11:28.882976",
+    "updated_at": "2026-09-18T06:43:50.159070",
     "price_14d_ago": 178.64
   },
   "COPPER": {
-    "price": 6.65,
-    "change_pct": 0.82,
+    "price": 6.66,
+    "change_pct": 1.0,
     "name": "Copper",
-    "updated_at": "2026-09-18T05:11:29.118268",
+    "updated_at": "2026-09-18T06:43:50.347415",
     "price_14d_ago": 6.59
   },
   "CORN": {
     "price": 19.83,
     "change_pct": -0.6,
     "name": "Teucrium Corn Fund ETV",
-    "updated_at": "2026-09-18T05:11:29.321708",
+    "updated_at": "2026-09-18T06:43:50.559175",
     "price_14d_ago": 19.95
   },
   "CRM": {
     "price": 242.85,
     "change_pct": -5.14,
     "name": "Salesforce, Inc.",
-    "updated_at": "2026-09-18T05:11:29.525873",
+    "updated_at": "2026-09-18T06:43:50.777478",
     "price_14d_ago": 256.0
   },
   "CROWD": {
     "price": 245.7,
     "change_pct": 12.5,
     "name": "CrowdStrike Holdings, Inc.",
-    "updated_at": "2026-09-18T05:11:29.779464",
+    "updated_at": "2026-09-18T06:43:50.980938",
     "price_14d_ago": 218.4
   },
   "DBC": {
     "price": 33.05,
     "change_pct": 7.34,
     "name": "Invesco DB Commodity Index Trac",
-    "updated_at": "2026-09-18T05:11:30.167767",
+    "updated_at": "2026-09-18T06:43:51.409516",
     "price_14d_ago": 30.79
   },
   "DELL": {
     "price": 588.4,
     "change_pct": 28.97,
     "name": "Dell Technologies Inc.",
-    "updated_at": "2026-09-18T05:11:30.406977",
+    "updated_at": "2026-09-18T06:43:51.643919",
     "price_14d_ago": 456.24
   },
   "DIS": {
     "price": 105.35,
     "change_pct": -2.54,
     "name": "Walt Disney Company (The)",
-    "updated_at": "2026-09-18T05:11:30.652296",
+    "updated_at": "2026-09-18T06:43:51.884792",
     "price_14d_ago": 108.1
   },
   "DOCS": {
     "price": 26.57,
     "change_pct": -0.6,
     "name": "Doximity, Inc.",
-    "updated_at": "2026-09-18T05:11:30.879125",
+    "updated_at": "2026-09-18T06:43:52.067663",
     "price_14d_ago": 26.73
   },
   "DVN": {
     "price": 48.72,
     "change_pct": 2.89,
     "name": "Devon Energy Corporation",
-    "updated_at": "2026-09-18T05:11:31.172311",
+    "updated_at": "2026-09-18T06:43:52.320730",
     "price_14d_ago": 47.35
   },
   "EBAY": {
     "price": 112.9,
     "change_pct": 6.89,
     "name": "eBay Inc.",
-    "updated_at": "2026-09-18T05:11:31.400695",
+    "updated_at": "2026-09-18T06:43:52.539794",
     "price_14d_ago": 105.62
   },
   "ETH-USD": {
-    "price": 2511.33,
-    "change_pct": 1.23,
+    "price": 2504.15,
+    "change_pct": 0.94,
     "name": "Ethereum USD",
-    "updated_at": "2026-09-18T05:11:31.581580",
+    "updated_at": "2026-09-18T06:43:52.859633",
     "price_14d_ago": 2480.74
   },
   "F": {
     "price": 13.61,
     "change_pct": -1.95,
     "name": "Ford Motor Company",
-    "updated_at": "2026-09-18T05:11:31.836130",
+    "updated_at": "2026-09-18T06:43:53.116189",
     "price_14d_ago": 13.88
   },
   "FB": {
     "price": 45.55,
     "change_pct": 1.08,
     "name": "ProShares S&P 500 Dynamic Buffe",
-    "updated_at": "2026-09-18T05:11:32.069789",
+    "updated_at": "2026-09-18T06:43:53.325065",
     "price_14d_ago": 45.06
   },
   "FCX": {
     "price": 70.85,
     "change_pct": -7.33,
     "name": "Freeport-McMoRan, Inc.",
-    "updated_at": "2026-09-18T05:11:32.281699",
+    "updated_at": "2026-09-18T06:43:53.547918",
     "price_14d_ago": 76.45
   },
   "FSK": {
     "price": 11.74,
     "change_pct": -4.24,
     "name": "FS KKR Capital Corp.",
-    "updated_at": "2026-09-18T05:11:32.712579",
+    "updated_at": "2026-09-18T06:43:53.960983",
     "price_14d_ago": 12.26
   },
   "GC": {
     "price": 0,
     "change_pct": 0,
     "name": "Gold",
-    "updated_at": "2026-09-18T05:11:32.952188",
+    "updated_at": "2026-09-18T06:43:54.170128",
     "price_14d_ago": null
   },
   "GD": {
     "price": 355.95,
     "change_pct": -6.16,
     "name": "General Dynamics Corporation",
-    "updated_at": "2026-09-18T05:11:33.248996",
+    "updated_at": "2026-09-18T06:43:54.559793",
     "price_14d_ago": 379.32
   },
   "GE": {
     "price": 313.47,
     "change_pct": -8.5,
     "name": "GE Aerospace",
-    "updated_at": "2026-09-18T05:11:33.489653",
+    "updated_at": "2026-09-18T06:43:54.825888",
     "price_14d_ago": 342.58
   },
   "GLD": {
     "price": 398.36,
     "change_pct": -2.58,
     "name": "SPDR Gold Shares",
-    "updated_at": "2026-09-18T05:11:33.699794",
+    "updated_at": "2026-09-18T06:43:55.036798",
     "price_14d_ago": 408.89
   },
   "GME": {
     "price": 22.77,
     "change_pct": 27.42,
     "name": "GameStop Corporation",
-    "updated_at": "2026-09-18T05:11:33.918209",
+    "updated_at": "2026-09-18T06:43:55.231170",
     "price_14d_ago": 17.87
   },
   "GOLD": {
-    "price": 4417.2,
-    "change_pct": -1.43,
+    "price": 4420.3,
+    "change_pct": -1.37,
     "name": "Gold",
-    "updated_at": "2026-09-18T05:11:34.189137",
+    "updated_at": "2026-09-18T06:43:55.621612",
     "price_14d_ago": 4481.5
   },
   "GOOG": {
     "price": 343.68,
     "change_pct": 0.23,
     "name": "Alphabet Inc.",
-    "updated_at": "2026-09-18T05:11:34.401727",
+    "updated_at": "2026-09-18T06:43:55.863428",
     "price_14d_ago": 342.88
   },
   "GOOGL": {
     "price": 347.33,
     "change_pct": 0.21,
     "name": "Alphabet Inc.",
-    "updated_at": "2026-09-18T05:11:34.590792",
+    "updated_at": "2026-09-18T06:43:56.102618",
     "price_14d_ago": 346.59
   },
   "GS": {
     "price": 951.47,
     "change_pct": -7.98,
     "name": "Goldman Sachs Group, Inc. (The)",
-    "updated_at": "2026-09-18T05:11:34.816093",
+    "updated_at": "2026-09-18T06:43:56.335977",
     "price_14d_ago": 1033.99
   },
   "Gold": {
     "price": 46.87,
     "change_pct": 2.9,
     "name": "Gold.com, Inc.",
-    "updated_at": "2026-09-18T05:11:35.043251",
+    "updated_at": "2026-09-18T06:43:56.569746",
     "price_14d_ago": 45.55
   },
   "HFGM": {
     "price": 31.86,
     "change_pct": 1.35,
     "name": "Unlimited HFGM Global Macro ETF",
-    "updated_at": "2026-09-18T05:11:35.223129",
+    "updated_at": "2026-09-18T06:43:56.781196",
     "price_14d_ago": 31.43
   },
   "HG": {
     "price": 35.15,
     "change_pct": -0.57,
     "name": "Hamilton Insurance Group, Ltd.",
-    "updated_at": "2026-09-18T05:11:35.442153",
+    "updated_at": "2026-09-18T06:43:57.016780",
     "price_14d_ago": 35.35
   },
   "IBM": {
     "price": 237.75,
     "change_pct": 0.92,
     "name": "International Business Machines",
-    "updated_at": "2026-09-18T05:11:35.952358",
+    "updated_at": "2026-09-18T06:43:57.517064",
     "price_14d_ago": 235.59
   },
   "IEF": {
     "price": 91.25,
     "change_pct": -1.72,
     "name": "iShares 7-10 Year Treasury Bond",
-    "updated_at": "2026-09-18T05:11:36.210095",
+    "updated_at": "2026-09-18T06:43:57.738239",
     "price_14d_ago": 92.85
   },
   "INDA": {
     "price": 48.01,
     "change_pct": -3.13,
     "name": "Ishares MSCI India ETF",
-    "updated_at": "2026-09-18T05:11:36.445322",
+    "updated_at": "2026-09-18T06:43:57.998958",
     "price_14d_ago": 49.56
   },
   "INFY": {
     "price": 11.07,
     "change_pct": -8.13,
     "name": "Infosys Limited",
-    "updated_at": "2026-09-18T05:11:36.655166",
+    "updated_at": "2026-09-18T06:43:58.313026",
     "price_14d_ago": 12.05
   },
   "INTC": {
     "price": 108.8,
     "change_pct": 21.61,
     "name": "Intel Corporation",
-    "updated_at": "2026-09-18T05:11:36.913609",
+    "updated_at": "2026-09-18T06:43:58.550061",
     "price_14d_ago": 89.47
   },
   "IWD": {
     "price": 252.82,
     "change_pct": -2.13,
     "name": "iShares Russell 1000 Value ETF",
-    "updated_at": "2026-09-18T05:11:37.143264",
+    "updated_at": "2026-09-18T06:43:58.763593",
     "price_14d_ago": 258.33
   },
   "IWF": {
     "price": 122.53,
     "change_pct": -0.18,
     "name": "iShares Russell 1000 Growth Fun",
-    "updated_at": "2026-09-18T05:11:37.377311",
+    "updated_at": "2026-09-18T06:43:58.991928",
     "price_14d_ago": 122.75
   },
   "IWM": {
     "price": 285.43,
     "change_pct": -3.49,
     "name": "iShares Russell 2000 Index Fund",
-    "updated_at": "2026-09-18T05:11:37.585173",
+    "updated_at": "2026-09-18T06:43:59.225798",
     "price_14d_ago": 295.75
   },
   "JNJ": {
     "price": 270.22,
     "change_pct": 0.81,
     "name": "Johnson & Johnson",
-    "updated_at": "2026-09-18T05:11:37.838864",
+    "updated_at": "2026-09-18T06:43:59.513383",
     "price_14d_ago": 268.04
   },
   "JPM": {
     "price": 349.31,
     "change_pct": -2.32,
     "name": "JP Morgan Chase & Co.",
-    "updated_at": "2026-09-18T05:11:38.053171",
+    "updated_at": "2026-09-18T06:43:59.760234",
     "price_14d_ago": 357.62
   },
   "KKR": {
     "price": 98.19,
     "change_pct": -9.65,
     "name": "KKR & Co. Inc.",
-    "updated_at": "2026-09-18T05:11:38.255086",
+    "updated_at": "2026-09-18T06:43:59.952722",
     "price_14d_ago": 108.68
   },
   "LLY": {
     "price": 1152.44,
     "change_pct": -1.89,
     "name": "Eli Lilly and Company",
-    "updated_at": "2026-09-18T05:11:38.545751",
+    "updated_at": "2026-09-18T06:44:00.208801",
     "price_14d_ago": 1174.61
   },
   "LMT": {
     "price": 538.09,
     "change_pct": -4.57,
     "name": "Lockheed Martin Corporation",
-    "updated_at": "2026-09-18T05:11:38.821103",
+    "updated_at": "2026-09-18T06:44:00.473651",
     "price_14d_ago": 563.85
   },
   "LYFT": {
     "price": 15.5,
     "change_pct": -12.43,
     "name": "Lyft, Inc.",
-    "updated_at": "2026-09-18T05:11:39.419624",
+    "updated_at": "2026-09-18T06:44:01.134461",
     "price_14d_ago": 17.7
   },
   "META": {
     "price": 682.31,
     "change_pct": 18.04,
     "name": "Meta Platforms, Inc.",
-    "updated_at": "2026-09-18T05:11:39.648576",
+    "updated_at": "2026-09-18T06:44:01.339802",
     "price_14d_ago": 578.02
   },
   "MGM": {
     "price": 38.31,
     "change_pct": -9.39,
     "name": "MGM Resorts International",
-    "updated_at": "2026-09-18T05:11:39.889421",
+    "updated_at": "2026-09-18T06:44:01.577297",
     "price_14d_ago": 42.28
   },
   "MINE": {
     "price": 2.97,
     "change_pct": -3.57,
     "name": "Mayfair Gold Corp.",
-    "updated_at": "2026-09-18T05:11:40.078879",
+    "updated_at": "2026-09-18T06:44:01.812267",
     "price_14d_ago": 3.08
   },
   "MRK": {
     "price": 147.15,
     "change_pct": -0.81,
     "name": "Merck & Company, Inc.",
-    "updated_at": "2026-09-18T05:11:40.313508",
+    "updated_at": "2026-09-18T06:44:02.093759",
     "price_14d_ago": 148.35
   },
   "MRNA": {
     "price": 158.07,
     "change_pct": 14.55,
     "name": "Moderna, Inc.",
-    "updated_at": "2026-09-18T05:11:40.495165",
+    "updated_at": "2026-09-18T06:44:02.328869",
     "price_14d_ago": 137.99
   },
   "MS": {
     "price": 203.52,
     "change_pct": -5.24,
     "name": "Morgan Stanley",
-    "updated_at": "2026-09-18T05:11:40.739492",
+    "updated_at": "2026-09-18T06:44:02.573135",
     "price_14d_ago": 214.77
   },
   "MSFT": {
     "price": 497.75,
     "change_pct": -3.07,
     "name": "Microsoft Corporation",
-    "updated_at": "2026-09-18T05:11:40.961934",
+    "updated_at": "2026-09-18T06:44:02.774400",
     "price_14d_ago": 513.53
   },
   "MSTR": {
     "price": 132.25,
     "change_pct": 3.88,
     "name": "Strategy Inc",
-    "updated_at": "2026-09-18T05:11:41.188664",
+    "updated_at": "2026-09-18T06:44:03.024186",
     "price_14d_ago": 127.31
   },
   "MU": {
     "price": 977.5,
     "change_pct": 4.79,
     "name": "Micron Technology, Inc.",
-    "updated_at": "2026-09-18T05:11:41.434810",
+    "updated_at": "2026-09-18T06:44:03.295421",
     "price_14d_ago": 932.86
   },
   "NEE": {
     "price": 81.28,
     "change_pct": -0.68,
     "name": "NextEra Energy, Inc.",
-    "updated_at": "2026-09-18T05:11:41.687448",
+    "updated_at": "2026-09-18T06:44:03.563212",
     "price_14d_ago": 81.84
   },
   "NFLX": {
     "price": 75.31,
     "change_pct": -7.84,
     "name": "Netflix, Inc.",
-    "updated_at": "2026-09-18T05:11:41.872491",
+    "updated_at": "2026-09-18T06:44:03.752752",
     "price_14d_ago": 81.72
   },
   "NKE": {
     "price": 36.36,
     "change_pct": -8.18,
     "name": "Nike, Inc.",
-    "updated_at": "2026-09-18T05:11:42.576518",
+    "updated_at": "2026-09-18T06:44:04.473847",
     "price_14d_ago": 39.6
   },
   "NOC": {
     "price": 524.0,
     "change_pct": -3.95,
     "name": "Northrop Grumman Corporation",
-    "updated_at": "2026-09-18T05:11:42.831016",
+    "updated_at": "2026-09-18T06:44:04.752682",
     "price_14d_ago": 545.57
   },
   "NVDA": {
     "price": 219.34,
     "change_pct": 0.82,
     "name": "NVIDIA Corporation",
-    "updated_at": "2026-09-18T05:11:43.035098",
+    "updated_at": "2026-09-18T06:44:04.951642",
     "price_14d_ago": 217.55
   },
   "NVS": {
     "price": 140.92,
     "change_pct": -8.38,
     "name": "Novartis AG",
-    "updated_at": "2026-09-18T05:11:43.466024",
+    "updated_at": "2026-09-18T06:44:05.492733",
     "price_14d_ago": 153.81
   },
   "Nasdaq": {
     "price": 716.92,
     "change_pct": 0.07,
     "name": "Invesco QQQ Trust, Series 1",
-    "updated_at": "2026-09-18T05:11:43.696215",
+    "updated_at": "2026-09-18T06:44:05.697181",
     "price_14d_ago": 716.43
   },
   "OKLO": {
     "price": 39.65,
     "change_pct": -1.22,
     "name": "Oklo Inc.",
-    "updated_at": "2026-09-18T05:11:43.934231",
+    "updated_at": "2026-09-18T06:44:05.900739",
     "price_14d_ago": 40.14
   },
   "ORCL": {
     "price": 150.59,
     "change_pct": -0.17,
     "name": "Oracle Corporation",
-    "updated_at": "2026-09-18T05:11:44.343796",
+    "updated_at": "2026-09-18T06:44:06.372497",
     "price_14d_ago": 150.85
   },
   "PALL": {
     "price": 23.24,
     "change_pct": -9.89,
     "name": "abrdn Physical Palladium Shares",
-    "updated_at": "2026-09-18T05:11:44.575820",
+    "updated_at": "2026-09-18T06:44:06.591304",
     "price_14d_ago": 25.79
   },
   "PANW": {
     "price": 375.06,
     "change_pct": 0.93,
     "name": "Palo Alto Networks, Inc.",
-    "updated_at": "2026-09-18T05:11:44.807636",
+    "updated_at": "2026-09-18T06:44:06.825626",
     "price_14d_ago": 371.59
   },
   "PBR": {
     "price": 20.94,
     "change_pct": 13.01,
     "name": "Petroleo Brasileiro S.A. Petrob",
-    "updated_at": "2026-09-18T05:11:45.029728",
+    "updated_at": "2026-09-18T06:44:07.063830",
     "price_14d_ago": 18.53
   },
   "PFE": {
     "price": 27.64,
     "change_pct": -1.14,
     "name": "Pfizer, Inc.",
-    "updated_at": "2026-09-18T05:11:45.720298",
+    "updated_at": "2026-09-18T06:44:07.589565",
     "price_14d_ago": 27.96
   },
   "PLTM": {
     "price": 17.0,
     "change_pct": -2.69,
     "name": "GraniteShares Platinum Shares E",
-    "updated_at": "2026-09-18T05:11:45.907289",
+    "updated_at": "2026-09-18T06:44:07.828409",
     "price_14d_ago": 17.47
   },
   "PLTR": {
     "price": 176.24,
     "change_pct": -5.39,
     "name": "Palantir Technologies Inc.",
-    "updated_at": "2026-09-18T05:11:46.110515",
+    "updated_at": "2026-09-18T06:44:08.011938",
     "price_14d_ago": 186.29
   },
   "PQT": {
     "price": 0,
     "change_pct": 0,
     "name": "PQT",
-    "updated_at": "2026-09-18T05:11:46.533724",
+    "updated_at": "2026-09-18T06:44:08.411591",
     "price_14d_ago": null
   },
   "PQUS": {
     "price": 28.35,
     "change_pct": -1.0,
     "name": "Pictet AI Enhanced US Equity ET",
-    "updated_at": "2026-09-18T05:11:46.745487",
+    "updated_at": "2026-09-18T06:44:08.625183",
     "price_14d_ago": 28.64
   },
   "PSBD": {
     "price": 10.4,
     "change_pct": 0.78,
     "name": "Palmer Square Capital BDC Inc.",
-    "updated_at": "2026-09-18T05:11:46.953831",
+    "updated_at": "2026-09-18T06:44:08.812145",
     "price_14d_ago": 10.32
   },
   "PYPL": {
     "price": 52.94,
     "change_pct": -1.34,
     "name": "PayPal Holdings, Inc.",
-    "updated_at": "2026-09-18T05:11:47.166385",
+    "updated_at": "2026-09-18T06:44:09.046234",
     "price_14d_ago": 53.66
   },
   "QQQ": {
     "price": 716.92,
     "change_pct": 0.07,
     "name": "Invesco QQQ Trust, Series 1",
-    "updated_at": "2026-09-18T05:11:47.398247",
+    "updated_at": "2026-09-18T06:44:09.253130",
     "price_14d_ago": 716.43
   },
   "QTA": {
     "price": 0,
     "change_pct": 0,
     "name": "QTA",
-    "updated_at": "2026-09-18T05:11:47.637717",
+    "updated_at": "2026-09-18T06:44:09.481352",
     "price_14d_ago": null
   },
   "RBLX": {
     "price": 47.5,
     "change_pct": 23.28,
     "name": "Roblox Corporation",
-    "updated_at": "2026-09-18T05:11:47.824983",
+    "updated_at": "2026-09-18T06:44:09.740350",
     "price_14d_ago": 38.53
   },
   "RKLB": {
     "price": 67.82,
     "change_pct": 5.33,
     "name": "Rocket Lab Corporation",
-    "updated_at": "2026-09-18T05:11:48.014077",
+    "updated_at": "2026-09-18T06:44:09.978549",
     "price_14d_ago": 64.39
   },
   "Russell": {
     "price": 285.43,
     "change_pct": -3.49,
     "name": "iShares Russell 2000 Index Fund",
-    "updated_at": "2026-09-18T05:11:48.265717",
+    "updated_at": "2026-09-18T06:44:10.231959",
     "price_14d_ago": 295.75
   },
   "S&P": {
     "price": 7637.76,
     "change_pct": -0.96,
     "name": "S&P 500",
-    "updated_at": "2026-09-18T05:11:48.493662",
+    "updated_at": "2026-09-18T06:44:10.461801",
     "price_14d_ago": 7711.76
   },
   "S&P 500": {
     "price": 7637.76,
     "change_pct": -0.96,
     "name": "S&P 500",
-    "updated_at": "2026-09-18T05:11:48.720266",
+    "updated_at": "2026-09-18T06:44:10.679050",
     "price_14d_ago": 7711.76
   },
   "SAMSUNG ELECTRONICS": {
     "price": 261000.0,
     "change_pct": 0.0,
     "name": "SamsungElec",
-    "updated_at": "2026-09-18T05:11:48.969893",
+    "updated_at": "2026-09-18T06:44:10.898282",
     "price_14d_ago": 261000.0
   },
   "SAP": {
     "price": 213.66,
     "change_pct": -3.56,
     "name": "SAP  SE",
-    "updated_at": "2026-09-18T05:11:49.192619",
+    "updated_at": "2026-09-18T06:44:11.150693",
     "price_14d_ago": 221.54
   },
   "SF": {
     "price": 75.51,
     "change_pct": -7.11,
     "name": "Stifel Financial Corporation",
-    "updated_at": "2026-09-18T05:11:49.443037",
+    "updated_at": "2026-09-18T06:44:11.380010",
     "price_14d_ago": 81.29
   },
   "SK HYNIX": {
     "price": 1857000.0,
     "change_pct": 9.69,
     "name": "SK hynix",
-    "updated_at": "2026-09-18T05:11:49.689602",
+    "updated_at": "2026-09-18T06:44:11.611455",
     "price_14d_ago": 1693000.0
   },
   "SLB": {
     "price": 52.08,
     "change_pct": -9.16,
     "name": "SLB Limited",
-    "updated_at": "2026-09-18T05:11:49.916150",
+    "updated_at": "2026-09-18T06:44:11.874680",
     "price_14d_ago": 57.33
   },
   "SMH": {
     "price": 560.61,
     "change_pct": 1.36,
     "name": "VanEck Semiconductor ETF",
-    "updated_at": "2026-09-18T05:11:50.116247",
+    "updated_at": "2026-09-18T06:44:12.097834",
     "price_14d_ago": 553.11
   },
   "SMP-500": {
     "price": 7637.76,
     "change_pct": -0.96,
     "name": "S&P 500",
-    "updated_at": "2026-09-18T05:11:50.398626",
+    "updated_at": "2026-09-18T06:44:12.420699",
     "price_14d_ago": 7711.76
   },
   "SMR": {
     "price": 9.04,
     "change_pct": -2.69,
     "name": "NuScale Power Corporation",
-    "updated_at": "2026-09-18T05:11:50.632836",
+    "updated_at": "2026-09-18T06:44:12.657800",
     "price_14d_ago": 9.29
   },
   "SNAP": {
     "price": 5.65,
     "change_pct": 4.05,
     "name": "Snap Inc.",
-    "updated_at": "2026-09-18T05:11:50.860062",
+    "updated_at": "2026-09-18T06:44:12.891651",
     "price_14d_ago": 5.43
   },
   "SNWGF": {
     "price": 11.73,
     "change_pct": -7.86,
     "name": "SNOWLINE GOLD CORP",
-    "updated_at": "2026-09-18T05:11:51.101060",
+    "updated_at": "2026-09-18T06:44:13.124422",
     "price_14d_ago": 12.73
   },
   "SOYB": {
     "price": 27.97,
     "change_pct": 2.83,
     "name": "Teucrium Soybean Fund ETV",
-    "updated_at": "2026-09-18T05:11:51.339249",
+    "updated_at": "2026-09-18T06:44:13.363863",
     "price_14d_ago": 27.2
   },
   "SPCE": {
     "price": 3.11,
     "change_pct": 5.78,
     "name": "Virgin Galactic Holdings, Inc.",
-    "updated_at": "2026-09-18T05:11:51.573505",
+    "updated_at": "2026-09-18T06:44:13.586825",
     "price_14d_ago": 2.94
   },
   "SPX": {
     "price": 7637.76,
     "change_pct": -0.96,
     "name": "S&P 500",
-    "updated_at": "2026-09-18T05:11:52.033652",
+    "updated_at": "2026-09-18T06:44:14.107872",
     "price_14d_ago": 7711.76
   },
   "SPY": {
     "price": 762.6,
     "change_pct": -0.88,
     "name": "State Street SPDR S&P 500 ETF T",
-    "updated_at": "2026-09-18T05:11:52.311396",
+    "updated_at": "2026-09-18T06:44:14.376452",
     "price_14d_ago": 769.35
   },
   "SQQQ": {
     "price": 38.53,
     "change_pct": -0.03,
     "name": "ProShares UltraPro Short QQQ",
-    "updated_at": "2026-09-18T05:11:52.547457",
+    "updated_at": "2026-09-18T06:44:14.619796",
     "price_14d_ago": 38.54
   },
   "SQUARE": {
     "price": 76.47,
     "change_pct": -8.5,
     "name": "Block, Inc.",
-    "updated_at": "2026-09-18T05:11:52.759006",
+    "updated_at": "2026-09-18T06:44:14.848778",
     "price_14d_ago": 83.57
   },
   "Semiconductors": {
     "price": 560.61,
     "change_pct": 1.36,
     "name": "VanEck Semiconductor ETF",
-    "updated_at": "2026-09-18T05:11:53.004154",
+    "updated_at": "2026-09-18T06:44:15.073011",
     "price_14d_ago": 553.11
   },
   "T": {
     "price": 25.39,
     "change_pct": -2.38,
     "name": "AT&T Inc.",
-    "updated_at": "2026-09-18T05:11:53.229322",
+    "updated_at": "2026-09-18T06:44:15.285140",
     "price_14d_ago": 26.01
   },
   "TDOC": {
     "price": 6.28,
     "change_pct": -3.38,
     "name": "Teladoc Health, Inc.",
-    "updated_at": "2026-09-18T05:11:53.454391",
+    "updated_at": "2026-09-18T06:44:15.479321",
     "price_14d_ago": 6.5
   },
   "TIPS": {
     "price": 0.0,
     "change_pct": 0.0,
     "name": "Tianrong Internet Products and ",
-    "updated_at": "2026-09-18T05:11:54.052702",
+    "updated_at": "2026-09-18T06:44:16.118185",
     "price_14d_ago": 0.0
   },
   "TLT": {
     "price": 81.78,
     "change_pct": -1.33,
     "name": "iShares 20+ Year Treasury Bond ",
-    "updated_at": "2026-09-18T05:11:54.290251",
+    "updated_at": "2026-09-18T06:44:16.353003",
     "price_14d_ago": 82.88
   },
   "TSLA": {
     "price": 366.2,
     "change_pct": 5.0,
     "name": "Tesla, Inc.",
-    "updated_at": "2026-09-18T05:11:54.481568",
+    "updated_at": "2026-09-18T06:44:16.602434",
     "price_14d_ago": 348.75
   },
   "TSM": {
     "price": 430.26,
     "change_pct": 3.05,
     "name": "Taiwan Semiconductor Manufactur",
-    "updated_at": "2026-09-18T05:11:54.702925",
+    "updated_at": "2026-09-18T06:44:16.839709",
     "price_14d_ago": 417.52
   },
   "UBER": {
     "price": 70.87,
     "change_pct": -10.09,
     "name": "Uber Technologies, Inc.",
-    "updated_at": "2026-09-18T05:11:55.136398",
+    "updated_at": "2026-09-18T06:44:17.281218",
     "price_14d_ago": 78.82
   },
   "UNG": {
     "price": 10.33,
     "change_pct": 0.0,
     "name": "United States Natural Gas Fund ",
-    "updated_at": "2026-09-18T05:11:55.352435",
+    "updated_at": "2026-09-18T06:44:17.491426",
     "price_14d_ago": 10.33
   },
   "URANIUM": {
     "price": 42.68,
     "change_pct": -6.34,
     "name": "Uranium ETF",
-    "updated_at": "2026-09-18T05:11:55.731647",
+    "updated_at": "2026-09-18T06:44:17.959733",
     "price_14d_ago": 45.57
   },
   "USD": {
     "price": 84.61,
     "change_pct": 2.16,
     "name": "ProShares Ultra Semiconductors",
-    "updated_at": "2026-09-18T05:11:55.985545",
+    "updated_at": "2026-09-18T06:44:18.213902",
     "price_14d_ago": 82.82
   },
   "USDX": {
     "price": 25.61,
     "change_pct": 0.22,
     "name": "SGI Enhanced Core ETF",
-    "updated_at": "2026-09-18T05:11:56.212811",
+    "updated_at": "2026-09-18T06:44:18.468982",
     "price_14d_ago": 25.56
   },
   "USO": {
     "price": 155.31,
     "change_pct": 19.75,
     "name": "United States Oil Fund",
-    "updated_at": "2026-09-18T05:11:56.431554",
+    "updated_at": "2026-09-18T06:44:18.709912",
     "price_14d_ago": 129.7
   },
   "UTHR": {
     "price": 497.27,
     "change_pct": -3.53,
     "name": "United Therapeutics Corporation",
-    "updated_at": "2026-09-18T05:11:56.648128",
+    "updated_at": "2026-09-18T06:44:18.923001",
     "price_14d_ago": 515.46
   },
   "UUU": {
     "price": 4.94,
     "change_pct": -1.2,
     "name": "Universal Safety Products, Inc.",
-    "updated_at": "2026-09-18T05:11:56.884107",
+    "updated_at": "2026-09-18T06:44:19.162010",
     "price_14d_ago": 5.0
   },
   "V": {
     "price": 369.93,
     "change_pct": -3.06,
     "name": "Visa Inc.",
-    "updated_at": "2026-09-18T05:11:57.339752",
+    "updated_at": "2026-09-18T06:44:19.623296",
     "price_14d_ago": 381.6
   },
   "VEEV": {
     "price": 263.75,
     "change_pct": -4.68,
     "name": "Veeva Systems Inc.",
-    "updated_at": "2026-09-18T05:11:57.786616",
+    "updated_at": "2026-09-18T06:44:20.034003",
     "price_14d_ago": 276.69
   },
   "VIX": {
-    "price": 15.34,
-    "change_pct": -6.12,
+    "price": 15.42,
+    "change_pct": -5.63,
     "name": "CBOE Volatility Index",
-    "updated_at": "2026-09-18T05:11:58.394325",
+    "updated_at": "2026-09-18T06:44:20.743482",
     "price_14d_ago": 16.34
   },
   "VLO": {
     "price": 412.53,
     "change_pct": 17.08,
     "name": "Valero Energy Corporation",
-    "updated_at": "2026-09-18T05:11:58.636875",
+    "updated_at": "2026-09-18T06:44:21.023672",
     "price_14d_ago": 352.36
   },
   "VRTX": {
     "price": 516.34,
     "change_pct": -4.68,
     "name": "Vertex Pharmaceuticals Incorpor",
-    "updated_at": "2026-09-18T05:11:58.825351",
+    "updated_at": "2026-09-18T06:44:21.265343",
     "price_14d_ago": 541.69
   },
   "WFC": {
     "price": 86.89,
     "change_pct": 0.23,
     "name": "Wells Fargo & Company",
-    "updated_at": "2026-09-18T05:11:59.088979",
+    "updated_at": "2026-09-18T06:44:21.547361",
     "price_14d_ago": 86.69
   },
   "WIT": {
     "price": 1.68,
     "change_pct": -7.69,
     "name": "Wipro Limited",
-    "updated_at": "2026-09-18T05:11:59.317928",
+    "updated_at": "2026-09-18T06:44:21.820561",
     "price_14d_ago": 1.82
   },
   "WMT": {
     "price": 106.79,
     "change_pct": 3.59,
     "name": "Walmart Inc.",
-    "updated_at": "2026-09-18T05:11:59.625326",
+    "updated_at": "2026-09-18T06:44:22.072270",
     "price_14d_ago": 103.09
   },
   "WTBN": {
     "price": 24.39,
     "change_pct": -1.21,
     "name": "WisdomTree Bianco Total Return ",
-    "updated_at": "2026-09-18T05:11:59.866199",
+    "updated_at": "2026-09-18T06:44:22.283139",
     "price_14d_ago": 24.69
   },
   "WTI": {
-    "price": 96.37,
-    "change_pct": 12.37,
+    "price": 96.08,
+    "change_pct": 12.03,
     "name": "WTI Crude",
-    "updated_at": "2026-09-18T05:12:00.054372",
+    "updated_at": "2026-09-18T06:44:22.542018",
     "price_14d_ago": 85.76
   },
   "WTI CRUDE OIL": {
-    "price": 96.37,
-    "change_pct": 12.37,
+    "price": 96.08,
+    "change_pct": 12.03,
     "name": "WTI Crude",
-    "updated_at": "2026-09-18T05:12:00.287310",
+    "updated_at": "2026-09-18T06:44:22.783182",
     "price_14d_ago": 85.76
   },
   "XAU-USD": {
     "price": 0,
     "change_pct": 0,
     "name": "XAU9999 Meme USD",
-    "updated_at": "2026-09-18T05:12:00.682567",
+    "updated_at": "2026-09-18T06:44:23.178498",
     "price_14d_ago": 0.0
   },
   "XOM": {
     "price": 163.27,
     "change_pct": 4.19,
     "name": "ExxonMobil Holdings Corporation",
-    "updated_at": "2026-09-18T05:12:00.975726",
+    "updated_at": "2026-09-18T06:44:23.436562",
     "price_14d_ago": 156.71
   },
   "ZIM": {
     "price": 30.36,
     "change_pct": 10.64,
     "name": "ZIM Integrated Shipping Service",
-    "updated_at": "2026-09-18T05:12:01.409239",
+    "updated_at": "2026-09-18T06:44:23.857865",
     "price_14d_ago": 27.44
   }
 },
@@ -42823,7 +42823,7 @@ const dashboardData = {
 ],
   podcastGuests: [
   {
-    "id": 69979,
+    "id": 70080,
     "name": "Nick Shirley",
     "slug": "nick-shirley",
     "bio": null,
@@ -42835,7 +42835,7 @@ const dashboardData = {
     "appearance_count": 1
   },
   {
-    "id": 69980,
+    "id": 70081,
     "name": "Brad Gerstner",
     "slug": "brad-gerstner",
     "bio": null,
@@ -42847,7 +42847,7 @@ const dashboardData = {
     "appearance_count": 1
   },
   {
-    "id": 69981,
+    "id": 70082,
     "name": "Meta's Dina Powell McCormick",
     "slug": "metas-dina-powell-mccormick",
     "bio": null,
@@ -42859,7 +42859,7 @@ const dashboardData = {
     "appearance_count": 1
   },
   {
-    "id": 69982,
+    "id": 70083,
     "name": "Underwriting Superintelligence",
     "slug": "underwriting-superintelligence",
     "bio": null,
@@ -42871,7 +42871,7 @@ const dashboardData = {
     "appearance_count": 1
   },
   {
-    "id": 69983,
+    "id": 70084,
     "name": "Hawks Take Flight",
     "slug": "hawks-take-flight",
     "bio": null,
@@ -42883,7 +42883,7 @@ const dashboardData = {
     "appearance_count": 1
   },
   {
-    "id": 69984,
+    "id": 70085,
     "name": "Martine Rothblatt",
     "slug": "martine-rothblatt",
     "bio": null,
@@ -42895,7 +42895,7 @@ const dashboardData = {
     "appearance_count": 1
   },
   {
-    "id": 69985,
+    "id": 70086,
     "name": "Microsoft CEO Satya Nadella",
     "slug": "microsoft-ceo-satya-nadella",
     "bio": null,
@@ -42907,7 +42907,7 @@ const dashboardData = {
     "appearance_count": 1
   },
   {
-    "id": 69986,
+    "id": 70087,
     "name": "Jensen Huang",
     "slug": "jensen-huang",
     "bio": null,
@@ -42919,7 +42919,7 @@ const dashboardData = {
     "appearance_count": 1
   },
   {
-    "id": 69987,
+    "id": 70088,
     "name": "Ask the Mates anything",
     "slug": "ask-the-mates-anything",
     "bio": null,
@@ -42931,7 +42931,7 @@ const dashboardData = {
     "appearance_count": 1
   },
   {
-    "id": 69988,
+    "id": 70089,
     "name": "Matt Barry",
     "slug": "matt-barry",
     "bio": null,
@@ -42943,7 +42943,7 @@ const dashboardData = {
     "appearance_count": 1
   },
   {
-    "id": 69989,
+    "id": 70090,
     "name": "Who Grades the AI Models?",
     "slug": "who-grades-the-ai-models",
     "bio": null,
@@ -42955,7 +42955,7 @@ const dashboardData = {
     "appearance_count": 1
   },
   {
-    "id": 69990,
+    "id": 70091,
     "name": "Your AI Doctor Is Coming",
     "slug": "your-ai-doctor-is-coming",
     "bio": null,
@@ -42967,7 +42967,7 @@ const dashboardData = {
     "appearance_count": 1
   },
   {
-    "id": 69991,
+    "id": 70092,
     "name": "Fei Fei Li",
     "slug": "fei-fei-li",
     "bio": null,
@@ -42979,7 +42979,7 @@ const dashboardData = {
     "appearance_count": 1
   },
   {
-    "id": 69992,
+    "id": 70093,
     "name": "Financial strategist Jared Dillian",
     "slug": "financial-strategist-jared-dillian",
     "bio": null,
@@ -42991,7 +42991,7 @@ const dashboardData = {
     "appearance_count": 1
   },
   {
-    "id": 69993,
+    "id": 70094,
     "name": "Daniel Litt",
     "slug": "daniel-litt",
     "bio": null,
@@ -43003,7 +43003,7 @@ const dashboardData = {
     "appearance_count": 1
   },
   {
-    "id": 69994,
+    "id": 70095,
     "name": "Gavin Baker",
     "slug": "gavin-baker",
     "bio": null,
@@ -43015,7 +43015,7 @@ const dashboardData = {
     "appearance_count": 1
   },
   {
-    "id": 69995,
+    "id": 70096,
     "name": "Sam Altman",
     "slug": "sam-altman",
     "bio": null,
@@ -43027,7 +43027,7 @@ const dashboardData = {
     "appearance_count": 1
   },
   {
-    "id": 69996,
+    "id": 70097,
     "name": "Time to Reduce Equity Risk",
     "slug": "time-to-reduce-equity-risk",
     "bio": null,
@@ -43039,7 +43039,7 @@ const dashboardData = {
     "appearance_count": 1
   },
   {
-    "id": 69997,
+    "id": 70098,
     "name": "Eric Weinstein",
     "slug": "eric-weinstein",
     "bio": null,
@@ -43051,7 +43051,7 @@ const dashboardData = {
     "appearance_count": 1
   },
   {
-    "id": 69998,
+    "id": 70099,
     "name": "Michael Kratsios",
     "slug": "michael-kratsios",
     "bio": null,
@@ -43311,7 +43311,7 @@ const dashboardData = {
     "last_podcast_name": "All-In with Chamath, Jason, Sacks & Friedberg",
     "last_episode_date": "2026-09-17",
     "mention_score": 1,
-    "mention_score_decayed": 1,
+    "mention_score_decayed": 0.98,
     "last_main_idea": "Investing in preventive healthcare and AI infrastructure presents significant opportunities, but requires careful monitoring of revenue growth and market conditions.",
     "last_proof_cite": "All-In with Chamath, Jason, Sacks & Friedberg \u2022 2026-09-17 \u2022 Brad Gerstner: No AI Bubble, Semis Eat the Nasdaq & AI's Take Off Problem",
     "last_proof_snippet": "Our favorite fifth-besty in the world, the one the only Brad Kershner contributor Brad has had unbelievable career starting five companies so he's got a very different mentality than your sort of classic hedge fund guy. He's an amazingly su",
@@ -45193,7 +45193,7 @@ const dashboardData = {
     "last_podcast_name": "The a16z Show",
     "last_episode_date": "2026-08-28",
     "mention_score": 1,
-    "mention_score_decayed": 0.63,
+    "mention_score_decayed": 0.62,
     "last_main_idea": "The next major bottleneck in AI is not the model itself, but the underlying infrastructure that supports it, presenting a significant investment opportunity in companies that can innovate and scale to meet these new demands.",
     "last_proof_cite": "The a16z Show \u2022 2026-08-28 \u2022 The Infrastructure Behind the Machine Age",
     "last_proof_snippet": "We have a whole new technology that's most important technology ever and you need a whole new infrastructure Now I'm going to even be talking about the infrastructure We're talking about the subverse and the storage and the network here goe",
@@ -45257,7 +45257,7 @@ const dashboardData = {
     "last_podcast_name": "The a16z Show",
     "last_episode_date": "2026-08-28",
     "mention_score": 1,
-    "mention_score_decayed": 0.63,
+    "mention_score_decayed": 0.62,
     "last_main_idea": "The next major bottleneck in AI is not the model itself, but the underlying infrastructure that supports it, presenting a significant investment opportunity in companies that can innovate and scale to meet these new demands.",
     "last_proof_cite": "The a16z Show \u2022 2026-08-28 \u2022 The Infrastructure Behind the Machine Age",
     "last_proof_snippet": "We have a whole new technology that's most important technology ever and you need a whole new infrastructure Now I'm going to even be talking about the infrastructure We're talking about the subverse and the storage and the network here goe",
@@ -45567,7 +45567,7 @@ const dashboardData = {
     "last_podcast_name": "All-In with Chamath, Jason, Sacks & Friedberg",
     "last_episode_date": "2026-08-26",
     "mention_score": 1,
-    "mention_score_decayed": 0.62,
+    "mention_score_decayed": 0.6,
     "last_main_idea": "Investing in cutting-edge scientific research and exploration could lead to paradigm-shifting discoveries with significant impact on various industries.",
     "last_proof_cite": "All-In with Chamath, Jason, Sacks & Friedberg \u2022 2026-08-26 \u2022 Eric Weinstein: The State of American Science, Breakthrough Coverups, and the Danger of Physics",
     "last_proof_snippet": "We have become a f***ing nation when it comes to science. You were called a friend scientist and keep saying, friend, yeah. I totally disagree with the narrative of the field. I want to blow a giant pole in civil rights act. The stagnation",
@@ -49380,7 +49380,7 @@ const dashboardData = {
     "last_podcast_name": "The a16z Show",
     "last_episode_date": "2026-07-23",
     "mention_score": 1,
-    "mention_score_decayed": 0.28,
+    "mention_score_decayed": 0.27,
     "last_main_idea": "Industrial AI represents a substantial opportunity to transform physical industries through automation and AI, creating significant value beyond traditional software solutions.",
     "last_proof_cite": "The a16z Show \u2022 2026-07-23 \u2022 Building the Physical AI Stack | Travis Kalanick on TBPN",
     "last_proof_snippet": "Travis Kelenick joins TVPN to discuss why he's betting his next company on industrial AI. He shares his vision behind atoms, explains how autonomy is transforming industries like mining and food production, and discusses why bringing AI int",
