@@ -12,7 +12,7 @@
         "NVDA"
       ],
       "sentiment": "neutral",
-      "display_on_main": 1,
+      "display_on_main": 0,
       "display_order": 0,
       "added_date": "2026-09-17",
       "archived_date": null,
@@ -75,6 +75,25 @@
       "archived_date": null,
       "archived_reason": null,
       "podcast_episode_id": 490
+    },
+    {
+      "id": 507,
+      "title": "Meta's Dina Powell McCormick: The Case for Data Centers, Backlash, AI Job Boom & Meta's Future",
+      "source_type": "podcast",
+      "source_name": "All-In with Chamath, Jason, Sacks & Friedberg",
+      "source_date": "2026-09-17",
+      "summary": "In this episode, the hosts discuss Meta's significant investments in data centers in Louisiana and their transformative economic impact on local communities. The increase in sales tax revenues has directly benefited education funding and teacher salaries, showcasing the potential of tech investments to revitalize struggling areas. Additionally, Meta's workforce development initiatives, such as America's Workforce Academy, aim to address the skills gap in the labor market, ensuring a steady supply of trained workers for high-demand jobs in the tech sector.",
+      "key_takeaway": "Investing in tech companies that prioritize community engagement and workforce development can yield sustainable returns and mitigate risks associated with public sentiment.",
+      "tickers_mentioned": [
+        "NVDA"
+      ],
+      "sentiment": "bearish",
+      "display_on_main": 1,
+      "display_order": 0,
+      "added_date": "2026-09-17",
+      "archived_date": null,
+      "archived_reason": null,
+      "podcast_episode_id": 492
     },
     {
       "id": 492,
@@ -10958,20 +10977,20 @@
     {
       "id": 126,
       "term": "Data Center Nimbyism",
-      "description": "Local opposition to data center construction due to power, water, and land use concerns, increasingly constraining AI infrastructure expansion.",
+      "description": "The phenomenon where local communities oppose the establishment of data centers due to concerns about environmental and economic impacts.",
       "first_detected_date": "2026-04-20",
-      "last_mentioned_date": "2026-09-04",
-      "mention_count": 5,
+      "last_mentioned_date": "2026-09-17",
+      "mention_count": 6,
       "source_podcasts": null,
       "status": "active",
-      "investment_implications": "Creates geographic moats for existing data center clusters and advantages regions with permissive zoning and excess power capacity.",
+      "investment_implications": "Understanding community opposition can help investors gauge the risks associated with tech investments in certain areas.",
       "display_on_main": 0,
       "archived_date": null,
       "archived_reason": null,
       "first_detected_episode_id": null,
       "first_detected_speaker": null,
-      "last_mentioned_episode_id": 457,
-      "last_mentioned_speaker": "Chamath Palihapitiya, Jason Calacanis (hosts)"
+      "last_mentioned_episode_id": 492,
+      "last_mentioned_speaker": "Dina Palma-Cormick"
     },
     {
       "id": 118,

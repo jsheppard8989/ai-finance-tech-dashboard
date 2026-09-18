@@ -1,5 +1,21 @@
 [
   {
+    "id": 492,
+    "podcast_name": "All-In with Chamath, Jason, Sacks & Friedberg",
+    "episode_title": "Meta's Dina Powell McCormick: The Case for Data Centers, Backlash, AI Job Boom & Meta's Future",
+    "episode_date": "2026-09-17",
+    "summary": "In this episode, the hosts discuss Meta's significant investments in data centers in Louisiana and their transformative economic impact on local communities. The increase in sales tax revenues has directly benefited education funding and teacher salaries, showcasing the potential of tech investments to revitalize struggling areas. Additionally, Meta's workforce development initiatives, such as America's Workforce Academy, aim to address the skills gap in the labor market, ensuring a steady supply of trained workers for high-demand jobs in the tech sector.",
+    "key_takeaways": [
+      "Meta's data center investments have led to a 260% increase in local sales tax revenues, benefiting education.",
+      "America's Workforce Academy has trained thousands, achieving a 90% job retention rate post-training.",
+      "Proactive community engagement is essential for tech companies to mitigate opposition and gain support.",
+      "Meta's new policy limiting app usage for minors reflects a shift towards greater corporate responsibility.",
+      "The democratization of AI is seen as a pathway to societal stability and economic opportunity."
+    ],
+    "investment_thesis": "Investing in tech companies that prioritize community engagement and workforce development can yield sustainable returns and mitigate risks associated with public sentiment.",
+    "key_tickers": null
+  },
+  {
     "id": 491,
     "podcast_name": "Dwarkesh Podcast",
     "episode_title": "Noam Brown \u2013 Agent swarms, alignment, & recursive self-improvement",
