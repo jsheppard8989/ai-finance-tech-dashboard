@@ -171,6 +171,10 @@ def main():
     for required in ['QQQ', 'BTC']:
         if required not in tickers:
             tickers.append(required)
+    # Ensure Portfolio tickers are included (Healthcare Abundance basket)
+    for portfolio_ticker in ['HIMS', 'GDRX', 'TEM', 'GH', 'ABT']:
+        if portfolio_ticker not in tickers:
+            tickers.append(portfolio_ticker)
     print(f"\nFound {len(tickers)} tickers")
     
     # Load existing prices

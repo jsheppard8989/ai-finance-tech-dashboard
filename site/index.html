@@ -2127,6 +2127,17 @@
           </a>
         </div>
 
+        <!-- Portfolio Section -->
+        <div class="card" style="margin-top: 1rem; background: rgba(123, 44, 191, 0.08); border: 1px solid rgba(123, 44, 191, 0.25);">
+          <div style="display: flex; justify-content: space-between; align-items: flex-start; margin-bottom: 0.5rem;">
+            <h2 style="font-size: 1.1rem; margin: 0;">💊 Portfolio</h2>
+            <span style="font-size: 0.65rem; font-weight: 600; padding: 0.2rem 0.5rem; background: rgba(123, 44, 191, 0.2); color: #a78bfa; border-radius: 4px;">RESEARCH</span>
+          </div>
+          <div id="portfolio-container">
+            <!-- Filled by loadPortfolio() -->
+          </div>
+        </div>
+
         <!-- The Overton Window: emerging terms from the feed -->
         <div class="card" style="margin-top: 1rem;">
           <h2>The Overton Window</h2>
@@ -2271,7 +2282,7 @@
   </div>
 
   <!-- Load dashboard data from pipeline (if available) -->
-  <script src="./data/data.js?v=1789731904"></script>
+  <script src="./data/data.js?v=1789742417"></script>
   <script src="./js/common.js"></script>
   
   <script>
@@ -2281,6 +2292,100 @@
       var v = Number(dashboardData.schemaVersion || 0);
       return isNaN(v) ? 0 : v;
     }
+    // Load Portfolio baskets from dashboardData.portfolio
+    async function loadPortfolio() {
+      const container = document.getElementById('portfolio-container');
+      if (!container) return;
+
+      const portfolio = (typeof dashboardData !== 'undefined' && dashboardData.portfolio) ? dashboardData.portfolio : null;
+      if (!portfolio || !portfolio.baskets || portfolio.baskets.length === 0) {
+        container.innerHTML = '<p style="color: #6b7280; font-size: 0.8rem;">Portfolio data loading...</p>';
+        return;
+      }
+
+      function esc(s) {
+        if (s == null || s === '') return '';
+        return String(s).replace(/</g, '&lt;').replace(/>/g, '&gt;');
+      }
+
+      function formatChange(val) {
+        const sign = val >= 0 ? '+' : '';
+        const color = val >= 0 ? '#22c55e' : '#ef4444';
+        return `<span style="color: ${color}; font-weight: 600;">${sign}${val.toFixed(2)}%</span>`;
+      }
+
+      let html = '';
+      for (const basket of portfolio.baskets) {
+        const title = esc(basket.title);
+        const subtitle = esc(basket.subtitle);
+        const asOfLabel = esc(basket.as_of_label);
+        const basketChange = basket.basket_change_pct || 0;
+        const basketIndex = basket.basket_index_value || 100;
+        const disclaimer = esc(basket.disclaimer);
+
+        html += `
+          <div class="portfolio-basket" style="margin-bottom: 1rem;">
+            <div style="display: flex; justify-content: space-between; align-items: center; margin-bottom: 0.5rem;">
+              <h3 style="font-size: 1rem; color: #00d4ff; margin: 0;">${title}</h3>
+              <span style="font-size: 0.85rem; font-weight: 600;">${formatChange(basketChange)}</span>
+            </div>
+            <p style="color: #8892b0; font-size: 0.75rem; margin-bottom: 0.5rem;">${subtitle}</p>
+            <p style="color: #6b7280; font-size: 0.65rem; margin-bottom: 0.75rem;">As of: ${asOfLabel}</p>
+            
+            <div style="display: grid; grid-template-columns: repeat(auto-fit, minmax(140px, 1fr)); gap: 0.5rem; margin-bottom: 0.75rem;">
+        `;
+
+        for (const name of (basket.names || [])) {
+          const ticker = esc(name.ticker);
+          const companyName = esc(name.name);
+          const role = esc(name.role);
+          const price = name.current_price || name.inception_price || 0;
+          const change = name.change_pct || 0;
+          const notional = name.notional || 1000;
+
+          html += `
+            <div class="portfolio-name" style="background: rgba(255,255,255,0.03); padding: 0.5rem; border-radius: 6px; border: 1px solid rgba(255,255,255,0.08);">
+              <div style="display: flex; justify-content: space-between; align-items: center; margin-bottom: 0.25rem;">
+                <span style="font-weight: 600; color: #00d4ff; font-size: 0.85rem;" onclick="showChart('${ticker}')" title="View ${ticker} chart" class="clickable-ticker">${ticker}</span>
+                <span style="font-size: 0.7rem;">${formatChange(change)}</span>
+              </div>
+              <div style="font-size: 0.7rem; color: #a8b2d1; margin-bottom: 0.15rem;">${companyName}</div>
+              <div style="font-size: 0.65rem; color: #6b7280;">${role}</div>
+              <div style="font-size: 0.65rem; color: #8892b0; margin-top: 0.25rem;">$${price.toFixed(2)} · $${notional.toLocaleString()}</div>
+            </div>
+          `;
+        }
+
+        html += `</div>`;
+
+        // Basket total summary
+        html += `
+          <div style="border-top: 1px solid rgba(255,255,255,0.1); padding-top: 0.5rem; margin-top: 0.5rem;">
+            <div style="display: flex; justify-content: space-between; font-size: 0.75rem;">
+              <span style="color: #8892b0;">$5,000 basket</span>
+              <span style="color: #a8b2d1;"><strong>Index:</strong> <span style="color: #00d4ff; font-weight: 600;">${basketIndex.toFixed(1)}</span></span>
+            </div>
+          </div>
+        `;
+
+        // Disclaimer
+        html += `
+          <div style="font-size: 0.6rem; color: #6b7280; margin-top: 0.5rem; font-style: italic;">${disclaimer}</div>
+        </div>
+        `;
+      }
+
+      container.innerHTML = html;
+
+      // Add click handler style
+      const style = document.createElement('style');
+      style.textContent = '.clickable-ticker { cursor: pointer; } .clickable-ticker:hover { text-decoration: underline; }';
+      if (!document.querySelector('style[data-portfolio]')) {
+        style.setAttribute('data-portfolio', 'true');
+        document.head.appendChild(style);
+      }
+    }
+
     // Load Overton Window from mainContent.overton (display_on_main = 1 only)
     // Now with novelty-aware ranking: newer/specific terms rank higher than saturated ones.
     // Established tier (AGI, Autonomy, etc.) shown separately in collapsible section.
@@ -2570,6 +2675,7 @@
       loadOvertonWindow();
       loadNicheSources();
       loadMarketWidgets();
+      loadPortfolio();
     });
 
     // Load curated X/niche sources (Fed plumbing, macro, biotech)
