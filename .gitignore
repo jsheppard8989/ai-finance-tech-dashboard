@@ -81,6 +81,8 @@ site/data/
 !site/data/featured_overton.json
 !site/data/curated_overton.json
 !site/data/curated_sources.json
+# Exception: portfolio cards (static config, not pipeline-generated)
+!site/data/portfolio_cards.json
 
 # AI Bench Press generated audio/cache
 ai-bench-press/audio/seg_*.mp3

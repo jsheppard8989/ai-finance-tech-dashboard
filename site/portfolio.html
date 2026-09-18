@@ -1,0 +1,627 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Portfolio | AI, Finance, Tech: Scarcity & Abundance</title>
+  <style>
+    * { margin: 0; padding: 0; box-sizing: border-box; }
+    body {
+      font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif;
+      background: linear-gradient(135deg, #1a1a2e 0%, #16213e 50%, #0f3460 100%);
+      min-height: 100vh;
+      color: #e8e8e8;
+      line-height: 1.6;
+      padding: 2rem;
+    }
+    .container { max-width: 1000px; margin: 0 auto; }
+    .back-link { 
+      color: #00d4ff; 
+      text-decoration: none; 
+      display: inline-flex; 
+      align-items: center; 
+      gap: 0.5rem; 
+      margin-bottom: 2rem; 
+      font-size: 0.9rem; 
+    }
+    .back-link:hover { text-decoration: underline; }
+    
+    h1 { 
+      font-size: 2.2rem; 
+      margin-bottom: 0.5rem; 
+      background: linear-gradient(135deg, #00d4ff 0%, #7b2cbf 100%); 
+      -webkit-background-clip: text; 
+      -webkit-text-fill-color: transparent;
+      background-clip: text;
+    }
+    .subtitle { color: #8892b0; margin-bottom: 0.5rem; font-size: 1rem; }
+    .page-description {
+      color: #6b7280;
+      font-size: 0.85rem;
+      margin-bottom: 2rem;
+      max-width: 800px;
+      line-height: 1.7;
+    }
+
+    /* Portfolio Card */
+    .portfolio-card {
+      background: rgba(255, 255, 255, 0.03);
+      border: 1px solid rgba(255, 255, 255, 0.1);
+      border-radius: 12px;
+      padding: 1.5rem;
+      margin-bottom: 1.5rem;
+      position: relative;
+      overflow: hidden;
+    }
+    .portfolio-card::before {
+      content: '';
+      position: absolute;
+      top: 0;
+      left: 0;
+      right: 0;
+      height: 3px;
+      background: linear-gradient(90deg, #10b981, #00d4ff, #7b2cbf);
+    }
+
+    /* Card Header */
+    .card-header {
+      display: flex;
+      justify-content: space-between;
+      align-items: flex-start;
+      gap: 1rem;
+      margin-bottom: 1rem;
+      flex-wrap: wrap;
+    }
+    .card-title-group {
+      flex: 1;
+      min-width: 200px;
+    }
+    .card-title {
+      font-size: 1.4rem;
+      font-weight: 600;
+      color: #e8e8e8;
+      margin-bottom: 0.25rem;
+    }
+    .card-subtitle {
+      color: #8892b0;
+      font-size: 0.9rem;
+      font-style: italic;
+    }
+    .card-timestamp {
+      background: rgba(0, 212, 255, 0.1);
+      border: 1px solid rgba(0, 212, 255, 0.3);
+      padding: 0.5rem 1rem;
+      border-radius: 8px;
+      text-align: right;
+    }
+    .card-timestamp-label {
+      font-size: 0.7rem;
+      color: #8892b0;
+      text-transform: uppercase;
+      letter-spacing: 0.05em;
+    }
+    .card-timestamp-value {
+      font-size: 0.9rem;
+      color: #00d4ff;
+      font-weight: 600;
+    }
+
+    /* Basket Summary */
+    .basket-summary {
+      display: flex;
+      gap: 1.5rem;
+      margin-bottom: 1.5rem;
+      flex-wrap: wrap;
+    }
+    .summary-box {
+      background: rgba(255, 255, 255, 0.03);
+      border: 1px solid rgba(255, 255, 255, 0.1);
+      padding: 1rem 1.5rem;
+      border-radius: 8px;
+      text-align: center;
+      min-width: 140px;
+    }
+    .summary-box.highlight {
+      background: rgba(16, 185, 129, 0.08);
+      border-color: rgba(16, 185, 129, 0.3);
+    }
+    .summary-label {
+      font-size: 0.7rem;
+      color: #8892b0;
+      text-transform: uppercase;
+      letter-spacing: 0.05em;
+      margin-bottom: 0.25rem;
+    }
+    .summary-value {
+      font-size: 1.5rem;
+      font-weight: 700;
+      color: #e8e8e8;
+    }
+    .summary-box.highlight .summary-value {
+      color: #10b981;
+    }
+    .summary-change {
+      font-size: 0.85rem;
+      margin-top: 0.25rem;
+    }
+    .summary-change.positive { color: #10b981; }
+    .summary-change.negative { color: #ef4444; }
+    .summary-change.neutral { color: #8892b0; }
+
+    /* Holdings Table */
+    .holdings-section {
+      margin-bottom: 1.5rem;
+    }
+    .section-title {
+      font-size: 0.8rem;
+      color: #00d4ff;
+      text-transform: uppercase;
+      letter-spacing: 0.05em;
+      margin-bottom: 0.75rem;
+      font-weight: 600;
+    }
+    .holdings-table {
+      width: 100%;
+      border-collapse: collapse;
+      font-size: 0.9rem;
+    }
+    .holdings-table th {
+      text-align: left;
+      padding: 0.75rem;
+      border-bottom: 1px solid rgba(255, 255, 255, 0.1);
+      color: #8892b0;
+      font-weight: 600;
+      font-size: 0.75rem;
+      text-transform: uppercase;
+      letter-spacing: 0.05em;
+    }
+    .holdings-table th.right { text-align: right; }
+    .holdings-table td {
+      padding: 0.75rem;
+      border-bottom: 1px solid rgba(255, 255, 255, 0.05);
+      vertical-align: middle;
+    }
+    .holdings-table td.right { text-align: right; }
+    .holdings-table tr:hover {
+      background: rgba(255, 255, 255, 0.02);
+    }
+    .ticker-cell {
+      display: flex;
+      align-items: center;
+      gap: 0.75rem;
+    }
+    .ticker-symbol {
+      font-weight: 700;
+      color: #00d4ff;
+      font-size: 1rem;
+    }
+    .ticker-name {
+      color: #a8b2d1;
+      font-size: 0.8rem;
+    }
+    .ticker-role {
+      color: #6b7280;
+      font-size: 0.75rem;
+      font-style: italic;
+    }
+    .price-cell {
+      font-family: 'SF Mono', Monaco, 'Cascadia Code', monospace;
+      color: #e8e8e8;
+    }
+    .price-inception {
+      color: #6b7280;
+      font-size: 0.75rem;
+    }
+    .change-positive { color: #10b981; }
+    .change-negative { color: #ef4444; }
+    .change-neutral { color: #8892b0; }
+
+    /* Chart Container */
+    .chart-section {
+      margin-bottom: 1.5rem;
+    }
+    .chart-container {
+      background: rgba(0, 0, 0, 0.2);
+      border: 1px solid rgba(255, 255, 255, 0.08);
+      border-radius: 8px;
+      padding: 1.5rem;
+      min-height: 200px;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+    }
+    .chart-placeholder {
+      text-align: center;
+      color: #6b7280;
+    }
+    .chart-placeholder-icon {
+      font-size: 2.5rem;
+      margin-bottom: 0.75rem;
+    }
+    .chart-placeholder-text {
+      font-size: 0.9rem;
+    }
+    .chart-placeholder-subtext {
+      font-size: 0.75rem;
+      margin-top: 0.5rem;
+      color: #4b5563;
+    }
+
+    /* Index Bar (single point) */
+    .index-bar-container {
+      display: flex;
+      align-items: center;
+      gap: 1rem;
+      padding: 1rem;
+    }
+    .index-bar-label {
+      font-size: 0.85rem;
+      color: #8892b0;
+      min-width: 120px;
+    }
+    .index-bar-track {
+      flex: 1;
+      height: 24px;
+      background: rgba(255, 255, 255, 0.05);
+      border-radius: 4px;
+      position: relative;
+      overflow: hidden;
+    }
+    .index-bar-fill {
+      height: 100%;
+      background: linear-gradient(90deg, #10b981, #00d4ff);
+      border-radius: 4px;
+      transition: width 0.5s ease;
+      min-width: 2px;
+    }
+    .index-bar-value {
+      min-width: 60px;
+      text-align: right;
+      font-weight: 700;
+      font-size: 1.1rem;
+    }
+
+    /* Thesis Section */
+    .thesis-section {
+      margin-bottom: 1.5rem;
+    }
+    .thesis-content {
+      background: rgba(123, 44, 191, 0.05);
+      border-left: 3px solid rgba(123, 44, 191, 0.5);
+      padding: 1.25rem 1.5rem;
+      border-radius: 0 8px 8px 0;
+      color: #a8b2d1;
+      font-size: 0.9rem;
+      line-height: 1.8;
+      max-height: 400px;
+      overflow-y: auto;
+    }
+    .thesis-content p {
+      margin-bottom: 1rem;
+    }
+    .thesis-content p:last-child {
+      margin-bottom: 0;
+    }
+    .thesis-toggle {
+      background: rgba(123, 44, 191, 0.1);
+      border: 1px solid rgba(123, 44, 191, 0.3);
+      color: #c084fc;
+      padding: 0.5rem 1rem;
+      border-radius: 6px;
+      cursor: pointer;
+      font-size: 0.85rem;
+      margin-top: 0.75rem;
+      transition: all 0.2s;
+    }
+    .thesis-toggle:hover {
+      background: rgba(123, 44, 191, 0.2);
+    }
+    .thesis-expanded .thesis-content {
+      max-height: none;
+    }
+
+    /* Disclaimer */
+    .disclaimer {
+      background: rgba(0, 0, 0, 0.2);
+      border: 1px solid rgba(255, 255, 255, 0.1);
+      border-radius: 8px;
+      padding: 0.75rem 1rem;
+      margin-top: 1.5rem;
+    }
+    .disclaimer p {
+      color: #8892b0;
+      font-size: 0.75rem;
+      line-height: 1.5;
+      margin: 0;
+    }
+
+    /* Footer */
+    footer {
+      margin-top: 3rem;
+      padding: 1.5rem;
+      text-align: center;
+      border-top: 1px solid rgba(255, 255, 255, 0.08);
+    }
+    footer a {
+      color: #00d4ff;
+      text-decoration: none;
+      margin: 0 0.75rem;
+      font-size: 0.85rem;
+    }
+    footer a:hover {
+      text-decoration: underline;
+    }
+    .credit {
+      color: #8892b0;
+      font-size: 0.8rem;
+      margin-bottom: 0.5rem;
+    }
+    .subtext {
+      color: #6b7280;
+      font-size: 0.75rem;
+    }
+
+    /* Empty state */
+    .empty-state {
+      text-align: center;
+      padding: 4rem 2rem;
+      color: #6b7280;
+    }
+    .empty-state-icon {
+      font-size: 3rem;
+      margin-bottom: 1rem;
+    }
+
+    /* Responsive */
+    @media (max-width: 768px) {
+      body { padding: 1rem; }
+      .card-header { flex-direction: column; }
+      .card-timestamp { text-align: left; }
+      .basket-summary { flex-direction: column; gap: 0.75rem; }
+      .summary-box { min-width: unset; }
+      .holdings-table { font-size: 0.8rem; }
+      .holdings-table th, .holdings-table td { padding: 0.5rem; }
+      .ticker-name, .ticker-role { display: none; }
+    }
+  </style>
+</head>
+<body>
+  <div class="container">
+    <a href="index.html" class="back-link">← Back to Dashboard</a>
+    
+    <h1>Portfolio</h1>
+    <p class="subtitle">Call performance sleeves — timestamped research baskets with live mark-to-market.</p>
+    <p class="page-description">
+      Each card is a dated research expression with fixed shares at inception. 
+      Prices update daily via the same fetch as the rest of the site. 
+      Not advice — a scorecard for checking whether a thesis is working.
+    </p>
+
+    <div id="portfolioCards">
+      <div class="empty-state">
+        <div class="empty-state-icon">📊</div>
+        <div>Loading portfolio data...</div>
+      </div>
+    </div>
+
+    <footer>
+      <div class="credit">Jared Sheppard</div>
+      <div class="subtext">Personal research board · Not financial advice</div>
+      <div class="subtext" style="margin-top: 0.5rem;">
+        <a href="archive.html">Archive</a> · 
+        <a href="debait.html">Long & Short</a> · 
+        <a href="index.html">Home</a> · 
+        <a href="portfolio.html" style="color: #c084fc;">Portfolio</a> · 
+        <a href="trap-map.html">Trap Map</a> · 
+        <a href="pipeline-health.html">Data Status</a>
+      </div>
+    </footer>
+  </div>
+
+  <script>
+    function escapeHtml(str) {
+      if (!str) return '';
+      const div = document.createElement('div');
+      div.textContent = String(str);
+      return div.innerHTML;
+    }
+
+    function formatCurrency(val) {
+      if (val == null || isNaN(val)) return '—';
+      return '$' + val.toLocaleString('en-US', { minimumFractionDigits: 2, maximumFractionDigits: 2 });
+    }
+
+    function formatChange(pct) {
+      if (pct == null || isNaN(pct)) return { text: '—', cls: 'neutral' };
+      const sign = pct >= 0 ? '+' : '';
+      const cls = pct > 0 ? 'positive' : pct < 0 ? 'negative' : 'neutral';
+      return { text: sign + pct.toFixed(2) + '%', cls: cls };
+    }
+
+    function markdownToParagraphs(md) {
+      if (!md) return '';
+      const paras = md.split(/\n\n+/).filter(p => p.trim());
+      return paras.map(p => '<p>' + escapeHtml(p.trim()) + '</p>').join('');
+    }
+
+    async function loadPortfolioCards() {
+      const container = document.getElementById('portfolioCards');
+      
+      try {
+        const [cardsResp, pricesResp] = await Promise.all([
+          fetch('./data/portfolio_cards.json', { cache: 'no-cache' }),
+          fetch('./price_data.json', { cache: 'no-cache' })
+        ]);
+        
+        if (!cardsResp.ok) throw new Error('Failed to load portfolio_cards.json');
+        
+        const cardsData = await cardsResp.json();
+        const pricesData = pricesResp.ok ? await pricesResp.json() : {};
+        const cards = cardsData.cards || [];
+        
+        if (cards.length === 0) {
+          container.innerHTML = `
+            <div class="empty-state">
+              <div class="empty-state-icon">📋</div>
+              <div>No portfolio cards configured yet.</div>
+            </div>
+          `;
+          return;
+        }
+
+        container.innerHTML = cards.map(card => buildPortfolioCard(card, pricesData)).join('');
+        
+      } catch (error) {
+        console.error('Error loading portfolio:', error);
+        container.innerHTML = `
+          <div class="empty-state">
+            <div class="empty-state-icon">⚠️</div>
+            <div>Error loading portfolio data.</div>
+            <div style="font-size: 0.75rem; margin-top: 0.5rem; color: #f44336;">${escapeHtml(error.message)}</div>
+          </div>
+        `;
+      }
+    }
+
+    function buildPortfolioCard(card, pricesData) {
+      const names = card.names || [];
+      
+      let basketCurrentValue = 0;
+      let basketInceptionValue = card.basket_notional_usd || 5000;
+      let hasLiveData = false;
+      
+      const holdingsRows = names.map(h => {
+        const livePrice = pricesData[h.ticker]?.price;
+        const currentPrice = livePrice != null ? livePrice : h.inception_price;
+        const currentValue = h.inception_shares * currentPrice;
+        const changePct = ((currentPrice - h.inception_price) / h.inception_price) * 100;
+        
+        basketCurrentValue += currentValue;
+        if (livePrice != null) hasLiveData = true;
+        
+        const changeInfo = formatChange(changePct);
+        
+        return `
+          <tr>
+            <td>
+              <div class="ticker-cell">
+                <div>
+                  <div class="ticker-symbol">${escapeHtml(h.ticker)}</div>
+                  <div class="ticker-name">${escapeHtml(h.name)}</div>
+                  <div class="ticker-role">${escapeHtml(h.role)}</div>
+                </div>
+              </div>
+            </td>
+            <td class="right price-cell">
+              ${formatCurrency(currentPrice)}
+              <div class="price-inception">@ ${formatCurrency(h.inception_price)}</div>
+            </td>
+            <td class="right">${h.inception_shares.toFixed(4)}</td>
+            <td class="right price-cell">${formatCurrency(currentValue)}</td>
+            <td class="right change-${changeInfo.cls}">${changeInfo.text}</td>
+          </tr>
+        `;
+      }).join('');
+      
+      const basketChangePct = ((basketCurrentValue - basketInceptionValue) / basketInceptionValue) * 100;
+      const basketChange = formatChange(basketChangePct);
+      const indexValue = 100 * (basketCurrentValue / basketInceptionValue);
+      const indexBarWidth = Math.min(Math.max((indexValue / 150) * 100, 5), 100);
+      
+      const thesisHtml = markdownToParagraphs(card.thesis_markdown);
+      
+      return `
+        <div class="portfolio-card" id="${escapeHtml(card.id)}">
+          <div class="card-header">
+            <div class="card-title-group">
+              <div class="card-title">${escapeHtml(card.title)}</div>
+              <div class="card-subtitle">${escapeHtml(card.subtitle)}</div>
+            </div>
+            <div class="card-timestamp">
+              <div class="card-timestamp-label">Inception</div>
+              <div class="card-timestamp-value">${escapeHtml(card.inception?.label || card.inception?.date)}</div>
+            </div>
+          </div>
+
+          <div class="basket-summary">
+            <div class="summary-box">
+              <div class="summary-label">Inception Notional</div>
+              <div class="summary-value">${formatCurrency(basketInceptionValue)}</div>
+            </div>
+            <div class="summary-box highlight">
+              <div class="summary-label">Current Value</div>
+              <div class="summary-value">${formatCurrency(basketCurrentValue)}</div>
+              <div class="summary-change ${basketChange.cls}">${basketChange.text}</div>
+            </div>
+            <div class="summary-box">
+              <div class="summary-label">Index (100 = inception)</div>
+              <div class="summary-value">${indexValue.toFixed(2)}</div>
+            </div>
+            <div class="summary-box">
+              <div class="summary-label">Names</div>
+              <div class="summary-value">${names.length}</div>
+            </div>
+          </div>
+
+          <div class="chart-section">
+            <div class="section-title">Basket Performance Index</div>
+            <div class="chart-container">
+              <div class="index-bar-container" style="width: 100%;">
+                <div class="index-bar-label">Healthcare Abundance</div>
+                <div class="index-bar-track">
+                  <div class="index-bar-fill" style="width: ${indexBarWidth}%;"></div>
+                </div>
+                <div class="index-bar-value ${basketChange.cls}">${indexValue.toFixed(1)}</div>
+              </div>
+            </div>
+            <div style="text-align: center; margin-top: 0.5rem; font-size: 0.75rem; color: #6b7280;">
+              ${hasLiveData ? 'Live prices · ' : 'Inception prices · '}Updates daily with site refresh
+            </div>
+          </div>
+
+          <div class="holdings-section">
+            <div class="section-title">Holdings (Equal-Weight $1,000 Each)</div>
+            <table class="holdings-table">
+              <thead>
+                <tr>
+                  <th>Name</th>
+                  <th class="right">Price</th>
+                  <th class="right">Shares</th>
+                  <th class="right">Value</th>
+                  <th class="right">Change</th>
+                </tr>
+              </thead>
+              <tbody>
+                ${holdingsRows}
+              </tbody>
+            </table>
+          </div>
+
+          <div class="thesis-section" id="thesis-${escapeHtml(card.id)}">
+            <div class="section-title">Thesis</div>
+            <div class="thesis-content">
+              ${thesisHtml}
+            </div>
+            <button class="thesis-toggle" onclick="toggleThesis('${escapeHtml(card.id)}')">
+              Expand / Collapse
+            </button>
+          </div>
+
+          <div class="disclaimer">
+            <p><strong>Disclaimer:</strong> ${escapeHtml(card.disclaimer)}</p>
+          </div>
+        </div>
+      `;
+    }
+
+    function toggleThesis(cardId) {
+      const section = document.getElementById('thesis-' + cardId);
+      if (section) {
+        section.classList.toggle('thesis-expanded');
+      }
+    }
+
+    document.addEventListener('DOMContentLoaded', loadPortfolioCards);
+  </script>
+</body>
+</html>
