@@ -1,5 +1,21 @@
 [
   {
+    "id": 495,
+    "podcast_name": "All-In with Chamath, Jason, Sacks & Friedberg",
+    "episode_title": "Jared Isaacman: A New Era for NASA and American Space Exploration",
+    "episode_date": "2026-09-18",
+    "summary": "The podcast discusses NASA's renewed focus on lunar exploration and the establishment of a sustainable presence on the Moon, with the Artemis 3 mission planned for 2028. The agency's shift towards utilizing nuclear power for deep space missions and the integration of robotics and autonomous systems are highlighted as key advancements. The competitive landscape with China and Russia in space exploration is also examined, emphasizing the geopolitical implications and potential investment opportunities in the aerospace sector.",
+    "key_takeaways": [
+      "Investors should monitor NASA's Artemis program for potential aerospace investment opportunities.",
+      "The planned use of nuclear power for deep space missions could create new markets for nuclear technology firms.",
+      "The competition with China and Russia in space exploration may influence U.S. space policy and funding.",
+      "Robotics and AI technologies are becoming critical for NASA's missions, presenting investment opportunities in those sectors.",
+      "The concept of a lunar economy could lead to growth for companies focused on lunar resource extraction and manufacturing."
+    ],
+    "investment_thesis": "Investing in companies involved in aerospace, nuclear technology, and robotics could yield significant returns as NASA advances its lunar and deep space missions.",
+    "key_tickers": null
+  },
+  {
     "id": 494,
     "podcast_name": "All-In with Chamath, Jason, Sacks & Friedberg",
     "episode_title": "Nick Shirley: Exposing Government Fraud, Suing California & Taking on the Media",

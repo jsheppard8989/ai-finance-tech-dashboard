@@ -145,18 +145,18 @@
     "_fetch_url": "https://www.cftc.gov/dea/futures/financial_lf.htm",
     "_api_alternative": "Quandl CFTC dataset (may need key)",
     "_fetch_instructions": "CFTC releases COT every Friday at 3:30pm ET for positions as of prior Tuesday.",
-    "last_updated": "2026-09-18T06:44:41.258875",
-    "report_date": "2026-09-08",
+    "last_updated": "2026-09-18T15:07:31.841697",
+    "report_date": "2026-09-15",
     "prior_report_date": "2026-09-08",
     "rates_positioning": {
       "10y_note": {
         "label": "10-Year T-Note Futures",
         "contract": "TY",
         "asset_manager_net": null,
-        "leveraged_funds_net": -1938754,
+        "leveraged_funds_net": -1868126,
         "prior_week_net": -1938754,
         "dealer_net": null,
-        "change_1w": 0,
+        "change_1w": 70628,
         "signal": null,
         "percentile_1y": null
       },
@@ -164,10 +164,10 @@
         "label": "2-Year T-Note Futures",
         "contract": "TU",
         "asset_manager_net": null,
-        "leveraged_funds_net": -1290479,
+        "leveraged_funds_net": -1294575,
         "prior_week_net": -1290479,
         "dealer_net": null,
-        "change_1w": 0,
+        "change_1w": -4096,
         "signal": null,
         "percentile_1y": null
       },
@@ -175,10 +175,10 @@
         "label": "30-Year T-Bond Futures",
         "contract": "US",
         "asset_manager_net": null,
-        "leveraged_funds_net": -276965,
+        "leveraged_funds_net": -211735,
         "prior_week_net": -276965,
         "dealer_net": null,
-        "change_1w": 0,
+        "change_1w": 65230,
         "signal": null,
         "percentile_1y": null
       }
@@ -188,10 +188,10 @@
         "label": "CME Bitcoin Futures",
         "contract": "BTC",
         "asset_manager_net": null,
-        "leveraged_funds_net": -7892,
+        "leveraged_funds_net": -6354,
         "prior_week_net": -7892,
         "dealer_net": null,
-        "change_1w": 0,
+        "change_1w": 1538,
         "signal": null,
         "percentile_1y": null
       }
@@ -201,10 +201,10 @@
         "label": "CME E-mini Nasdaq-100",
         "contract": "NQ",
         "asset_manager_net": null,
-        "leveraged_funds_net": -36884,
+        "leveraged_funds_net": -13052,
         "prior_week_net": -36884,
         "dealer_net": null,
-        "change_1w": 0,
+        "change_1w": 23832,
         "signal": null,
         "percentile_1y": null
       }
