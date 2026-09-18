@@ -1,7 +1,7 @@
 {
-  "generated_at": "2026-09-18T06:44:58.545755",
-  "last_updated": "2026-09-18T06:44:58.545755",
-  "last_pipeline_run": "2026-09-18T06:44:58.545755",
+  "generated_at": "2026-09-18T15:07:58.715867",
+  "last_updated": "2026-09-18T15:07:58.715867",
+  "last_pipeline_run": "2026-09-18T15:07:58.715867",
   "main_page": {
     "overton": 13,
     "insights": 8,
@@ -9,23 +9,42 @@
   },
   "counts": {
     "ticker_mentions": 224,
-    "podcast_episodes": 467,
+    "podcast_episodes": 468,
     "newsletters": 7,
     "daily_scores": 161,
     "overton_terms_total": 135,
-    "latest_insights_total": 481,
+    "latest_insights_total": 482,
     "today_mentions": {},
-    "podcasts_analyzed": 0
+    "podcasts_analyzed": 1
   },
   "step_results": {
-    "downloaded": 0,
-    "transcribed": 0,
-    "analyzed": 0,
-    "insight_created": 0,
-    "published": 0,
-    "total": 0
+    "downloaded": 1,
+    "transcribed": 1,
+    "analyzed": 1,
+    "insight_created": 1,
+    "published": 1,
+    "total": 1
   },
-  "episodes": [],
+  "episodes": [
+    {
+      "id": "665f827a-937f-42e3-a4a5-6f2d6c7e50fd",
+      "podcast": "All-In with Chamath, Jason, Sacks & Friedberg",
+      "title": "Jared Isaacman: A New Era for NASA and American Space Exploration",
+      "published": "2026-09-18",
+      "rss_guid": "665f827a-937f-42e3-a4a5-6f2d6c7e50fd",
+      "stages": {
+        "downloaded": true,
+        "transcribed": true,
+        "analyzed": true,
+        "insight_created": true,
+        "published": true
+      },
+      "stage_reasons": {},
+      "first_blocker": null,
+      "remediation_by_stage": {},
+      "status": "complete"
+    }
+  ],
   "available_from_rss": [],
   "stale_episodes": [],
   "stale_threshold_days": 2,
