@@ -1,6 +1,6 @@
 {
-  "_comment": "Home page summary of Trap Map. Regenerate from trap_map.json when a trap datapoint is stamped. Script hook: scripts/regenerate_trap_home.py or pipeline/generate_trap_home.sh",
-  "_generated_at": "2026-09-18T16:30:00Z",
+  "_comment": "Home page summary of Trap Map. Regenerate from trap_map.json when a trap datapoint is stamped. Script hook: pipeline/regenerate_trap_home.py",
+  "_generated_at": "2026-09-18T21:31:25Z",
   "_source": "data/trap_map.json",
   "last_monitored": [
     {
@@ -24,19 +24,19 @@
   ],
   "upcoming_watches": [
     {
-      "trap_id": "buyback-confession-captive-duration",
-      "date_label": "Nov 4 2026",
-      "what": "Treasury QRA buyback sizes"
+      "trap_id": "arkg-hold-goalposts",
+      "date_label": "TWST ~Nov FY26 report; TEM\u2013PSNL late Q4'26\u2013early'27; NTLA acceptance expected 2H 2026",
+      "what": "TWST Q4 FY26 adj. EBITDA print / TEM\u2013PSNL close update / NTLA BLA acceptance window"
     },
     {
       "trap_id": "trap-1-power-interconnect",
-      "date_label": "Nov 2026",
-      "what": "PJM Retail BTMG filing / FERC §206"
+      "date_label": "Sep 16 2026 CLLSCO workshop; Nov 2026 intended Retail BTMG filing; \u00a7206 on/before 16 Nov 2026",
+      "what": "Sep 16 CLLSCO posted draft OATT 34.2 Retail BTMG redline (50 MW site cap; transition to Dec 18 2028)"
     },
     {
-      "trap_id": "arkg-hold-goalposts",
-      "date_label": "Nov FY26",
-      "what": "TWST Q4 adj. EBITDA / TEM–PSNL close"
+      "trap_id": "buyback-confession-captive-duration",
+      "date_label": "Nov 4 2026 refunding",
+      "what": "Nov 4 2026 Quarterly Refunding buyback sizes. Sep 9 10Y + Sep 10 30Y STAMPED strong; Sep 10 buyback "
     }
   ]
 }
