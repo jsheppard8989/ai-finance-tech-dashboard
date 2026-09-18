@@ -1,6 +1,18 @@
 [
   {
-    "id": 69778,
+    "id": 69878,
+    "name": "Nick Shirley",
+    "slug": "nick-shirley",
+    "bio": null,
+    "known_for": null,
+    "last_main_idea": "Investors should approach large infrastructure projects with caution, focusing on management practices, cost management, and the political landscape that may affect project viability.",
+    "last_episode_title": "Nick Shirley: Exposing Government Fraud, Suing California & Taking on the Media",
+    "last_podcast_name": "All-In with Chamath, Jason, Sacks & Friedberg",
+    "last_episode_date": "2026-09-18",
+    "appearance_count": 1
+  },
+  {
+    "id": 69879,
     "name": "Brad Gerstner",
     "slug": "brad-gerstner",
     "bio": null,
@@ -12,7 +24,7 @@
     "appearance_count": 1
   },
   {
-    "id": 69779,
+    "id": 69880,
     "name": "Meta's Dina Powell McCormick",
     "slug": "metas-dina-powell-mccormick",
     "bio": null,
@@ -24,7 +36,7 @@
     "appearance_count": 1
   },
   {
-    "id": 69780,
+    "id": 69881,
     "name": "Underwriting Superintelligence",
     "slug": "underwriting-superintelligence",
     "bio": null,
@@ -36,7 +48,7 @@
     "appearance_count": 1
   },
   {
-    "id": 69781,
+    "id": 69882,
     "name": "Hawks Take Flight",
     "slug": "hawks-take-flight",
     "bio": null,
@@ -48,7 +60,7 @@
     "appearance_count": 1
   },
   {
-    "id": 69782,
+    "id": 69883,
     "name": "Martine Rothblatt",
     "slug": "martine-rothblatt",
     "bio": null,
@@ -60,7 +72,7 @@
     "appearance_count": 1
   },
   {
-    "id": 69783,
+    "id": 69884,
     "name": "Microsoft CEO Satya Nadella",
     "slug": "microsoft-ceo-satya-nadella",
     "bio": null,
@@ -72,7 +84,7 @@
     "appearance_count": 1
   },
   {
-    "id": 69784,
+    "id": 69885,
     "name": "Jensen Huang",
     "slug": "jensen-huang",
     "bio": null,
@@ -84,7 +96,7 @@
     "appearance_count": 1
   },
   {
-    "id": 69785,
+    "id": 69886,
     "name": "Ask the Mates anything",
     "slug": "ask-the-mates-anything",
     "bio": null,
@@ -96,7 +108,7 @@
     "appearance_count": 1
   },
   {
-    "id": 69786,
+    "id": 69887,
     "name": "Matt Barry",
     "slug": "matt-barry",
     "bio": null,
@@ -108,7 +120,7 @@
     "appearance_count": 1
   },
   {
-    "id": 69787,
+    "id": 69888,
     "name": "Who Grades the AI Models?",
     "slug": "who-grades-the-ai-models",
     "bio": null,
@@ -120,7 +132,7 @@
     "appearance_count": 1
   },
   {
-    "id": 69788,
+    "id": 69889,
     "name": "Your AI Doctor Is Coming",
     "slug": "your-ai-doctor-is-coming",
     "bio": null,
@@ -132,7 +144,7 @@
     "appearance_count": 1
   },
   {
-    "id": 69789,
+    "id": 69890,
     "name": "Fei Fei Li",
     "slug": "fei-fei-li",
     "bio": null,
@@ -144,7 +156,7 @@
     "appearance_count": 1
   },
   {
-    "id": 69790,
+    "id": 69891,
     "name": "Financial strategist Jared Dillian",
     "slug": "financial-strategist-jared-dillian",
     "bio": null,
@@ -156,7 +168,7 @@
     "appearance_count": 1
   },
   {
-    "id": 69791,
+    "id": 69892,
     "name": "Daniel Litt",
     "slug": "daniel-litt",
     "bio": null,
@@ -168,7 +180,7 @@
     "appearance_count": 1
   },
   {
-    "id": 69792,
+    "id": 69893,
     "name": "Gavin Baker",
     "slug": "gavin-baker",
     "bio": null,
@@ -180,7 +192,7 @@
     "appearance_count": 1
   },
   {
-    "id": 69793,
+    "id": 69894,
     "name": "Sam Altman",
     "slug": "sam-altman",
     "bio": null,
@@ -192,7 +204,7 @@
     "appearance_count": 1
   },
   {
-    "id": 69794,
+    "id": 69895,
     "name": "Time to Reduce Equity Risk",
     "slug": "time-to-reduce-equity-risk",
     "bio": null,
@@ -204,7 +216,7 @@
     "appearance_count": 1
   },
   {
-    "id": 69795,
+    "id": 69896,
     "name": "Eric Weinstein",
     "slug": "eric-weinstein",
     "bio": null,
@@ -216,7 +228,7 @@
     "appearance_count": 1
   },
   {
-    "id": 69796,
+    "id": 69897,
     "name": "Michael Kratsios",
     "slug": "michael-kratsios",
     "bio": null,
@@ -228,7 +240,7 @@
     "appearance_count": 1
   },
   {
-    "id": 69797,
+    "id": 69898,
     "name": "Emad Mostaque",
     "slug": "emad-mostaque",
     "bio": null,
@@ -240,7 +252,7 @@
     "appearance_count": 3
   },
   {
-    "id": 69798,
+    "id": 69899,
     "name": "Angela Strange and Gabriel Vasquez",
     "slug": "angela-strange-and-gabriel-vasquez",
     "bio": null,
@@ -252,7 +264,7 @@
     "appearance_count": 1
   },
   {
-    "id": 69799,
+    "id": 69900,
     "name": "Why Bessent Blinked",
     "slug": "why-bessent-blinked",
     "bio": null,
@@ -264,7 +276,7 @@
     "appearance_count": 1
   },
   {
-    "id": 69800,
+    "id": 69901,
     "name": "Travis Kalanick",
     "slug": "travis-kalanick",
     "bio": null,
@@ -276,7 +288,7 @@
     "appearance_count": 1
   },
   {
-    "id": 69801,
+    "id": 69902,
     "name": "Rahm Emanuel",
     "slug": "rahm-emanuel",
     "bio": null,
@@ -288,7 +300,7 @@
     "appearance_count": 1
   },
   {
-    "id": 69802,
+    "id": 69903,
     "name": "Milton Berg",
     "slug": "milton-berg",
     "bio": "Milton Berg is a veteran technical analyst and CEO of Milton Berg Advisors, specializing in market turning-point analysis for institutional investors.",
@@ -300,7 +312,7 @@
     "appearance_count": 1
   },
   {
-    "id": 69803,
+    "id": 69904,
     "name": "How Open",
     "slug": "how-open",
     "bio": null,
@@ -312,7 +324,7 @@
     "appearance_count": 1
   },
   {
-    "id": 69804,
+    "id": 69905,
     "name": "Saronic Founders",
     "slug": "saronic-founders",
     "bio": null,
@@ -324,7 +336,7 @@
     "appearance_count": 1
   },
   {
-    "id": 69805,
+    "id": 69906,
     "name": "OpenAI's Joshua Achiam",
     "slug": "openais-joshua-achiam",
     "bio": null,
@@ -336,7 +348,7 @@
     "appearance_count": 1
   },
   {
-    "id": 69806,
+    "id": 69907,
     "name": "Marc Andreessen and Chris Dixon",
     "slug": "marc-andreessen-and-chris-dixon",
     "bio": null,
@@ -345,18 +357,6 @@
     "last_episode_title": "Marc Andreessen and Chris Dixon: What\u2019s at Stake in Crypto Regulation",
     "last_podcast_name": "The a16z Show",
     "last_episode_date": "2026-08-01",
-    "appearance_count": 1
-  },
-  {
-    "id": 69807,
-    "name": "AI for America's Small Businesses",
-    "slug": "ai-for-americas-small-businesses",
-    "bio": null,
-    "known_for": null,
-    "last_main_idea": "AI has the potential to automate administrative tasks in healthcare practices, creating significant value for small businesses and changing the landscape of enterprise software.",
-    "last_episode_title": "AI for America's Small Businesses | Lassie",
-    "last_podcast_name": "The a16z Show",
-    "last_episode_date": "2026-07-30",
     "appearance_count": 1
   }
 ]
