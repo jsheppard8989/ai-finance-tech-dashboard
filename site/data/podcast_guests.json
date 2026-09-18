@@ -1,6 +1,6 @@
 [
   {
-    "id": 69679,
+    "id": 69778,
     "name": "Brad Gerstner",
     "slug": "brad-gerstner",
     "bio": null,
@@ -12,7 +12,19 @@
     "appearance_count": 1
   },
   {
-    "id": 69680,
+    "id": 69779,
+    "name": "Meta's Dina Powell McCormick",
+    "slug": "metas-dina-powell-mccormick",
+    "bio": null,
+    "known_for": null,
+    "last_main_idea": "Investing in tech companies that prioritize community engagement and workforce development can yield sustainable returns and mitigate risks associated with public sentiment.",
+    "last_episode_title": "Meta's Dina Powell McCormick: The Case for Data Centers, Backlash, AI Job Boom & Meta's Future",
+    "last_podcast_name": "All-In with Chamath, Jason, Sacks & Friedberg",
+    "last_episode_date": "2026-09-17",
+    "appearance_count": 1
+  },
+  {
+    "id": 69780,
     "name": "Underwriting Superintelligence",
     "slug": "underwriting-superintelligence",
     "bio": null,
@@ -24,7 +36,7 @@
     "appearance_count": 1
   },
   {
-    "id": 69681,
+    "id": 69781,
     "name": "Hawks Take Flight",
     "slug": "hawks-take-flight",
     "bio": null,
@@ -36,7 +48,7 @@
     "appearance_count": 1
   },
   {
-    "id": 69682,
+    "id": 69782,
     "name": "Martine Rothblatt",
     "slug": "martine-rothblatt",
     "bio": null,
@@ -48,7 +60,7 @@
     "appearance_count": 1
   },
   {
-    "id": 69683,
+    "id": 69783,
     "name": "Microsoft CEO Satya Nadella",
     "slug": "microsoft-ceo-satya-nadella",
     "bio": null,
@@ -60,7 +72,7 @@
     "appearance_count": 1
   },
   {
-    "id": 69684,
+    "id": 69784,
     "name": "Jensen Huang",
     "slug": "jensen-huang",
     "bio": null,
@@ -72,7 +84,7 @@
     "appearance_count": 1
   },
   {
-    "id": 69685,
+    "id": 69785,
     "name": "Ask the Mates anything",
     "slug": "ask-the-mates-anything",
     "bio": null,
@@ -84,7 +96,7 @@
     "appearance_count": 1
   },
   {
-    "id": 69686,
+    "id": 69786,
     "name": "Matt Barry",
     "slug": "matt-barry",
     "bio": null,
@@ -96,7 +108,7 @@
     "appearance_count": 1
   },
   {
-    "id": 69687,
+    "id": 69787,
     "name": "Who Grades the AI Models?",
     "slug": "who-grades-the-ai-models",
     "bio": null,
@@ -108,7 +120,7 @@
     "appearance_count": 1
   },
   {
-    "id": 69688,
+    "id": 69788,
     "name": "Your AI Doctor Is Coming",
     "slug": "your-ai-doctor-is-coming",
     "bio": null,
@@ -120,7 +132,7 @@
     "appearance_count": 1
   },
   {
-    "id": 69689,
+    "id": 69789,
     "name": "Fei Fei Li",
     "slug": "fei-fei-li",
     "bio": null,
@@ -132,7 +144,7 @@
     "appearance_count": 1
   },
   {
-    "id": 69690,
+    "id": 69790,
     "name": "Financial strategist Jared Dillian",
     "slug": "financial-strategist-jared-dillian",
     "bio": null,
@@ -144,7 +156,7 @@
     "appearance_count": 1
   },
   {
-    "id": 69691,
+    "id": 69791,
     "name": "Daniel Litt",
     "slug": "daniel-litt",
     "bio": null,
@@ -156,7 +168,7 @@
     "appearance_count": 1
   },
   {
-    "id": 69692,
+    "id": 69792,
     "name": "Gavin Baker",
     "slug": "gavin-baker",
     "bio": null,
@@ -168,7 +180,7 @@
     "appearance_count": 1
   },
   {
-    "id": 69693,
+    "id": 69793,
     "name": "Sam Altman",
     "slug": "sam-altman",
     "bio": null,
@@ -180,7 +192,7 @@
     "appearance_count": 1
   },
   {
-    "id": 69694,
+    "id": 69794,
     "name": "Time to Reduce Equity Risk",
     "slug": "time-to-reduce-equity-risk",
     "bio": null,
@@ -192,7 +204,7 @@
     "appearance_count": 1
   },
   {
-    "id": 69695,
+    "id": 69795,
     "name": "Eric Weinstein",
     "slug": "eric-weinstein",
     "bio": null,
@@ -204,7 +216,7 @@
     "appearance_count": 1
   },
   {
-    "id": 69696,
+    "id": 69796,
     "name": "Michael Kratsios",
     "slug": "michael-kratsios",
     "bio": null,
@@ -216,7 +228,7 @@
     "appearance_count": 1
   },
   {
-    "id": 69697,
+    "id": 69797,
     "name": "Emad Mostaque",
     "slug": "emad-mostaque",
     "bio": null,
@@ -228,7 +240,7 @@
     "appearance_count": 3
   },
   {
-    "id": 69698,
+    "id": 69798,
     "name": "Angela Strange and Gabriel Vasquez",
     "slug": "angela-strange-and-gabriel-vasquez",
     "bio": null,
@@ -240,7 +252,7 @@
     "appearance_count": 1
   },
   {
-    "id": 69699,
+    "id": 69799,
     "name": "Why Bessent Blinked",
     "slug": "why-bessent-blinked",
     "bio": null,
@@ -252,7 +264,7 @@
     "appearance_count": 1
   },
   {
-    "id": 69700,
+    "id": 69800,
     "name": "Travis Kalanick",
     "slug": "travis-kalanick",
     "bio": null,
@@ -264,7 +276,7 @@
     "appearance_count": 1
   },
   {
-    "id": 69701,
+    "id": 69801,
     "name": "Rahm Emanuel",
     "slug": "rahm-emanuel",
     "bio": null,
@@ -276,7 +288,7 @@
     "appearance_count": 1
   },
   {
-    "id": 69702,
+    "id": 69802,
     "name": "Milton Berg",
     "slug": "milton-berg",
     "bio": "Milton Berg is a veteran technical analyst and CEO of Milton Berg Advisors, specializing in market turning-point analysis for institutional investors.",
@@ -288,7 +300,7 @@
     "appearance_count": 1
   },
   {
-    "id": 69703,
+    "id": 69803,
     "name": "How Open",
     "slug": "how-open",
     "bio": null,
@@ -300,7 +312,7 @@
     "appearance_count": 1
   },
   {
-    "id": 69704,
+    "id": 69804,
     "name": "Saronic Founders",
     "slug": "saronic-founders",
     "bio": null,
@@ -312,7 +324,7 @@
     "appearance_count": 1
   },
   {
-    "id": 69705,
+    "id": 69805,
     "name": "OpenAI's Joshua Achiam",
     "slug": "openais-joshua-achiam",
     "bio": null,
@@ -324,7 +336,7 @@
     "appearance_count": 1
   },
   {
-    "id": 69706,
+    "id": 69806,
     "name": "Marc Andreessen and Chris Dixon",
     "slug": "marc-andreessen-and-chris-dixon",
     "bio": null,
@@ -336,7 +348,7 @@
     "appearance_count": 1
   },
   {
-    "id": 69707,
+    "id": 69807,
     "name": "AI for America's Small Businesses",
     "slug": "ai-for-americas-small-businesses",
     "bio": null,
@@ -345,18 +357,6 @@
     "last_episode_title": "AI for America's Small Businesses | Lassie",
     "last_podcast_name": "The a16z Show",
     "last_episode_date": "2026-07-30",
-    "appearance_count": 1
-  },
-  {
-    "id": 69708,
-    "name": "Luke Gromen",
-    "slug": "luke-gromen",
-    "bio": null,
-    "known_for": null,
-    "last_main_idea": "The bond market is facing significant challenges due to supply and demand imbalances, fiscal pressures, and aging populations, making gold an attractive store of value in the current economic climate.",
-    "last_episode_title": "Luke Gromen: Yield Curve Control is the Only Way to Stop a Global Bond Crisis",
-    "last_podcast_name": "Monetary Matters with Jack Farley",
-    "last_episode_date": "2026-07-28",
     "appearance_count": 1
   }
 ]
