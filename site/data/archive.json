@@ -1,6 +1,25 @@
 {
   "insights": [
     {
+      "id": 508,
+      "title": "Nick Shirley: Exposing Government Fraud, Suing California & Taking on the Media",
+      "source_type": "podcast",
+      "source_name": "All-In with Chamath, Jason, Sacks & Friedberg",
+      "source_date": "2026-09-18",
+      "summary": "The podcast discusses the California High Speed Rail project, which has seen its costs escalate from an initial estimate of $33 billion to a staggering $236 billion. This increase raises concerns about fiscal responsibility and the feasibility of large-scale infrastructure projects. The conversation highlights issues of mismanagement, lack of commitment from the state, and the economic viability of alternatives, urging investors to be cautious about similar infrastructure investments.",
+      "key_takeaway": "Investors should approach large infrastructure projects with caution, focusing on management practices, cost management, and the political landscape that may affect project viability.",
+      "tickers_mentioned": [
+        "NVDA"
+      ],
+      "sentiment": "neutral",
+      "display_on_main": 1,
+      "display_order": 0,
+      "added_date": "2026-09-17",
+      "archived_date": null,
+      "archived_reason": null,
+      "podcast_episode_id": 494
+    },
+    {
       "id": 503,
       "title": "Brad Gerstner: No AI Bubble, Semis Eat the Nasdaq & AI's Take Off Problem",
       "source_type": "podcast",
@@ -31,7 +50,7 @@
         "NVDA"
       ],
       "sentiment": "bullish",
-      "display_on_main": 1,
+      "display_on_main": 0,
       "display_order": 0,
       "added_date": "2026-09-17",
       "archived_date": null,
@@ -50,7 +69,7 @@
         "NVDA"
       ],
       "sentiment": "bearish",
-      "display_on_main": 1,
+      "display_on_main": 0,
       "display_order": 0,
       "added_date": "2026-09-17",
       "archived_date": null,
@@ -94,6 +113,25 @@
       "archived_date": null,
       "archived_reason": null,
       "podcast_episode_id": 492
+    },
+    {
+      "id": 509,
+      "title": "Frontier Labs Want to Slow Down, OpenAI Delays Its 2026 IPO, Anthropic Flags 5 Bioweapon Cases | EP #291",
+      "source_type": "podcast",
+      "source_name": "Moonshots with Peter Diamandis",
+      "source_date": "2026-09-17",
+      "summary": "In this episode, Dario Amadeh, CEO of Anthropic, emphasizes the urgent need for a slowdown in AI development to ensure safety measures can keep pace with advancements. The discussion highlights the potential formation of a 'safety cartel' among leading AI labs, which could impact competition and innovation in the sector. Additionally, insights from MIT's report on AI in education raise concerns about cognitive decline among students, while benchmarks indicate AI's growing capabilities in business management.",
+      "key_takeaway": "The evolving landscape of AI safety and regulation presents both challenges and opportunities for investors, particularly in sectors impacted by AI integration and educational reforms.",
+      "tickers_mentioned": [
+        "NVDA"
+      ],
+      "sentiment": "neutral",
+      "display_on_main": 1,
+      "display_order": 0,
+      "added_date": "2026-09-17",
+      "archived_date": null,
+      "archived_reason": null,
+      "podcast_episode_id": 493
     },
     {
       "id": 492,
@@ -10134,7 +10172,7 @@
       "description": "Artificial Super Intelligence, referring to AI systems that surpass human intelligence in every field.",
       "first_detected_date": "2026-06-29",
       "last_mentioned_date": "2026-09-17",
-      "mention_count": 23,
+      "mention_count": 24,
       "source_podcasts": null,
       "status": "active",
       "investment_implications": "ASI represents a potential paradigm shift in technology and could disrupt various industries.",
@@ -10143,8 +10181,8 @@
       "archived_reason": null,
       "first_detected_episode_id": 319,
       "first_detected_speaker": "Peter Diamandis (hosts)",
-      "last_mentioned_episode_id": 491,
-      "last_mentioned_speaker": "Dwarkesh Patel (hosts)"
+      "last_mentioned_episode_id": 493,
+      "last_mentioned_speaker": "Dario Amadeh"
     },
     {
       "id": 135,
@@ -10692,7 +10730,7 @@
       "description": "A hypothetical point in the future at which technological growth becomes uncontrollable and irreversible, leading to unforeseeable changes in human civilization.",
       "first_detected_date": "2026-05-15",
       "last_mentioned_date": "2026-09-17",
-      "mention_count": 70,
+      "mention_count": 71,
       "source_podcasts": null,
       "status": "active",
       "investment_implications": "Investors should consider the potential for rapid technological change and its impact on various sectors, including AI, when making long-term investment decisions.",
@@ -10701,8 +10739,8 @@
       "archived_reason": null,
       "first_detected_episode_id": 221,
       "first_detected_speaker": null,
-      "last_mentioned_episode_id": 491,
-      "last_mentioned_speaker": "Dwarkesh Patel (hosts)"
+      "last_mentioned_episode_id": 493,
+      "last_mentioned_speaker": "Dario Amadeh"
     },
     {
       "id": 97,
@@ -10818,7 +10856,7 @@
       "description": "AGI refers to Artificial General Intelligence, a type of AI that can understand, learn, and apply intelligence across a wide range of tasks, similar to human cognitive abilities.",
       "first_detected_date": "2026-05-07",
       "last_mentioned_date": "2026-09-17",
-      "mention_count": 99,
+      "mention_count": 100,
       "source_podcasts": null,
       "status": "active",
       "investment_implications": "Investors should focus on companies developing AGI technologies as they are likely to drive significant industry transformations.",
@@ -10827,8 +10865,8 @@
       "archived_reason": null,
       "first_detected_episode_id": 204,
       "first_detected_speaker": "Demis Hassabis",
-      "last_mentioned_episode_id": 490,
-      "last_mentioned_speaker": "Harley Bassman"
+      "last_mentioned_episode_id": 493,
+      "last_mentioned_speaker": "Dario Amadeh"
     },
     {
       "id": 162,
@@ -11916,7 +11954,7 @@
       "description": "Autonomous AI systems capable of collaborating in large swarms to solve complex problems, exemplified by the use of 10,000 agents to tackle the Navier-Stokes millennium prize problem.",
       "first_detected_date": "2026-02-28",
       "last_mentioned_date": "2026-09-17",
-      "mention_count": 94,
+      "mention_count": 95,
       "source_podcasts": null,
       "status": "active",
       "investment_implications": "Agentic swarms represent the next compute demand layer beyond chatbots, driving infrastructure needs and opening enterprise automation markets.",
@@ -11925,8 +11963,8 @@
       "archived_reason": null,
       "first_detected_episode_id": 31,
       "first_detected_speaker": null,
-      "last_mentioned_episode_id": 491,
-      "last_mentioned_speaker": "Dwarkesh Patel (hosts)"
+      "last_mentioned_episode_id": 493,
+      "last_mentioned_speaker": "Dario Amadeh"
     },
     {
       "id": 38,

@@ -1,5 +1,37 @@
 [
   {
+    "id": 494,
+    "podcast_name": "All-In with Chamath, Jason, Sacks & Friedberg",
+    "episode_title": "Nick Shirley: Exposing Government Fraud, Suing California & Taking on the Media",
+    "episode_date": "2026-09-18",
+    "summary": "The podcast discusses the California High Speed Rail project, which has seen its costs escalate from an initial estimate of $33 billion to a staggering $236 billion. This increase raises concerns about fiscal responsibility and the feasibility of large-scale infrastructure projects. The conversation highlights issues of mismanagement, lack of commitment from the state, and the economic viability of alternatives, urging investors to be cautious about similar infrastructure investments.",
+    "key_takeaways": [
+      "The California High Speed Rail project's costs have ballooned, indicating severe fiscal mismanagement.",
+      "One-third of the project's budget has been consumed by change order delays, raising concerns about contractor efficiency.",
+      "The lack of train procurement suggests a governmental lack of commitment to project completion.",
+      "Subsidizing flights between major cities is more economically viable than completing the high-speed rail project.",
+      "Political dynamics in California complicate accountability and reform efforts, impacting infrastructure investments."
+    ],
+    "investment_thesis": "Investors should approach large infrastructure projects with caution, focusing on management practices, cost management, and the political landscape that may affect project viability.",
+    "key_tickers": null
+  },
+  {
+    "id": 493,
+    "podcast_name": "Moonshots with Peter Diamandis",
+    "episode_title": "Frontier Labs Want to Slow Down, OpenAI Delays Its 2026 IPO, Anthropic Flags 5 Bioweapon Cases | EP #291",
+    "episode_date": "2026-09-17",
+    "summary": "In this episode, Dario Amadeh, CEO of Anthropic, emphasizes the urgent need for a slowdown in AI development to ensure safety measures can keep pace with advancements. The discussion highlights the potential formation of a 'safety cartel' among leading AI labs, which could impact competition and innovation in the sector. Additionally, insights from MIT's report on AI in education raise concerns about cognitive decline among students, while benchmarks indicate AI's growing capabilities in business management.",
+    "key_takeaways": [
+      "Investors should closely monitor regulatory developments in AI safety and governance.",
+      "The potential emergence of a safety cartel among AI companies could stifle competition.",
+      "Educational institutions may need to reform curricula to address cognitive decline linked to technology.",
+      "AI's ability to manage businesses effectively suggests opportunities for integration into operations.",
+      "Declining academic performance highlights the need for innovative teaching methods."
+    ],
+    "investment_thesis": "The evolving landscape of AI safety and regulation presents both challenges and opportunities for investors, particularly in sectors impacted by AI integration and educational reforms.",
+    "key_tickers": null
+  },
+  {
     "id": 492,
     "podcast_name": "All-In with Chamath, Jason, Sacks & Friedberg",
     "episode_title": "Meta's Dina Powell McCormick: The Case for Data Centers, Backlash, AI Job Boom & Meta's Future",
