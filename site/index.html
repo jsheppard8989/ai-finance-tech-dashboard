@@ -1991,15 +1991,17 @@
         <span id="last-updated-meta"> · <span style="color: #a8b2d1;">Ticker cards show ~2-week % change where available</span> · <a href="pipeline-health.html" style="color: #00d4ff;">Data Status</a></span>
       </p>
       <!-- Desktop: absolute positioned badges; Mobile: inline via CSS override -->
-      <div class="header-qqq-badge" style="position: absolute; bottom: 1rem; left: 2rem; display: flex; gap: 1rem;">
+      <div class="header-qqq-badge" style="position: absolute; bottom: 1rem; left: 2rem; display: flex; flex-direction: column; align-items: flex-start; gap: 0.15rem;">
         <span class="title-ticker" onclick="showChart('QQQ')" title="View QQQ 2-week chart">
           QQQ <span id="qqq-price" class="ticker-price"></span> <span id="qqq-change" class="ticker-change"></span>
         </span>
+        <span id="qqq-as-of" style="color: #6b7280; font-size: 0.55rem;"></span>
       </div>
-      <div class="header-btc-badge" style="position: absolute; bottom: 1rem; right: 2rem; display: flex; gap: 1rem;">
+      <div class="header-btc-badge" style="position: absolute; bottom: 1rem; right: 2rem; display: flex; flex-direction: column; align-items: flex-end; gap: 0.15rem;">
         <span class="title-ticker btc" onclick="showChart('BTC')" title="View Bitcoin 2-week chart">
           <span id="btc-change" class="ticker-change"></span> <span id="btc-price" class="ticker-price"></span> ₿
         </span>
+        <span id="btc-as-of" style="color: #6b7280; font-size: 0.55rem;"></span>
       </div>
     </header>
 
@@ -2039,6 +2041,8 @@
           <span style="color: #a8b2d1;">Coming soon — awaiting live data</span>
         </div>
         <div id="curve-shape-line" style="color: #9ca3af; font-size: 0.72rem; margin-top: 0.3rem;"></div>
+        <div id="curve-trend-line" style="color: #a8b2d1; font-size: 0.68rem; margin-top: 0.25rem; line-height: 1.4;"></div>
+        <div id="curve-as-of" style="color: #6b7280; font-size: 0.62rem; margin-top: 0.25rem;"></div>
         <details class="plumbing-expand" id="curve-expand">
           <summary>What this means</summary>
           <div class="expand-content">
@@ -2089,6 +2093,7 @@
             <span id="compute-forward-period">As of: —</span>
           </div>
         </div>
+        <div id="compute-forward-watch" style="color: #a8b2d1; font-size: 0.68rem; margin-top: 0.35rem; line-height: 1.4;"></div>
         <details class="plumbing-expand">
           <summary>What this means</summary>
           <div class="expand-content">
@@ -2788,8 +2793,11 @@
         // Update Curve widget with steep/flat logic and MOVE explanation
         const curveEl = document.getElementById('curve-widget');
         const curveShapeEl = document.getElementById('curve-shape-line');
+        const curveTrendEl = document.getElementById('curve-trend-line');
+        const curveAsOfEl = document.getElementById('curve-as-of');
         if (curveEl && data.curve_data) {
           const spreads = data.curve_data.spreads || {};
+          const levels = data.curve_data.levels || {};
           const s2s10s = spreads['2s10s'];
           const s10s30s = spreads['10s30s'];
           const move = data.curve_data.move_index;
@@ -2830,6 +2838,60 @@
                 shapeText = 'Curve flat (2s10s at 0)';
               }
               curveShapeEl.innerHTML = shapeText;
+            }
+            
+            // Trend line: plain-English summary of recent moves
+            if (curveTrendEl) {
+              let trendParts = [];
+              
+              // 1-day yield changes
+              const y2 = levels['2y'];
+              const y10 = levels['10y'];
+              const y30 = levels['30y'];
+              let yieldMoves = [];
+              if (y2 && y2.change_1d_bps != null) yieldMoves.push('2Y ' + (y2.change_1d_bps >= 0 ? '+' : '') + y2.change_1d_bps + 'bp');
+              if (y10 && y10.change_1d_bps != null) yieldMoves.push('10Y ' + (y10.change_1d_bps >= 0 ? '+' : '') + y10.change_1d_bps + 'bp');
+              if (y30 && y30.change_1d_bps != null) yieldMoves.push('30Y ' + (y30.change_1d_bps >= 0 ? '+' : '') + y30.change_1d_bps + 'bp');
+              if (yieldMoves.length > 0) {
+                trendParts.push('Yields ' + yieldMoves.join(', ') + ' on the day');
+              }
+              
+              // Spread signals
+              let spreadNotes = [];
+              if (s2s10s && s2s10s.signal) {
+                const sig = s2s10s.signal;
+                if (sig === 'steepening') spreadNotes.push('2s10s steepening');
+                else if (sig === 'flattening') spreadNotes.push('2s10s flattening');
+                else if (sig === 'inverted') spreadNotes.push('2s10s inverted');
+              }
+              if (s10s30s && s10s30s.signal) {
+                const sig = s10s30s.signal;
+                if (sig === 'steepening') spreadNotes.push('10s30s steepening');
+                else if (sig === 'flattening') spreadNotes.push('10s30s flattening');
+              }
+              if (spreadNotes.length > 0) {
+                trendParts.push(spreadNotes.join('; '));
+              }
+              
+              // MOVE signal
+              if (move && move.signal) {
+                const msig = move.signal;
+                if (msig === 'low_vol') trendParts.push('MOVE low (calm rates)');
+                else if (msig === 'elevated') trendParts.push('MOVE elevated (uncertainty)');
+                else if (msig === 'high') trendParts.push('MOVE high (stress)');
+              }
+              
+              curveTrendEl.innerHTML = trendParts.length > 0 ? trendParts.join('. ') + '.' : '';
+            }
+            
+            // As-of date
+            if (curveAsOfEl) {
+              const asOfDate = data.curve_data.as_of_date;
+              if (asOfDate) {
+                const d = new Date(asOfDate + 'T12:00:00');
+                const formatted = d.toLocaleDateString('en-US', { month: 'short', day: 'numeric', year: 'numeric' });
+                curveAsOfEl.textContent = 'As of ' + formatted;
+              }
             }
           } else {
             curveEl.innerHTML = '<span style="color: #a8b2d1;">Coming soon — awaiting live data</span>';
@@ -3009,6 +3071,50 @@
               '<span>As of: ' + (h100.period || '—') + ' (surveyed, lags current)</span>' +
             '</div>' +
             staleIndicator;
+          
+          // Build contracts-to-watch blurb
+          const watchEl = document.getElementById('compute-forward-watch');
+          if (watchEl) {
+            let watchParts = [];
+            
+            // B200 if present
+            const b200 = cf.b200;
+            if (b200 && b200.composite_index && b200.composite_index.display) {
+              watchParts.push('B200 (' + b200.period + '): ' + b200.composite_index.display);
+            }
+            
+            // On-demand sold out status
+            if (h100.on_demand && h100.on_demand.type === 'sold_out') {
+              watchParts.push('H100 on-demand sold out');
+            }
+            
+            // Next survey period to watch
+            const historySummary = cf.history_summary;
+            if (historySummary && historySummary.newest_period) {
+              const nextPeriod = getNextPeriod(historySummary.newest_period);
+              if (nextPeriod) {
+                watchParts.push('Next SemiAnalysis print: ' + nextPeriod);
+              }
+            }
+            
+            if (watchParts.length > 0) {
+              watchEl.innerHTML = '📌 <strong>Watch:</strong> ' + watchParts.join(' · ');
+            }
+          }
+          
+          // Helper: estimate next survey period (e.g., "Apr 2026" -> "May 2026")
+          function getNextPeriod(period) {
+            if (!period) return null;
+            const months = ['Jan', 'Feb', 'Mar', 'Apr', 'May', 'Jun', 'Jul', 'Aug', 'Sep', 'Oct', 'Nov', 'Dec'];
+            const parts = period.split(' ');
+            if (parts.length !== 2) return null;
+            const monthIdx = months.indexOf(parts[0]);
+            const year = parseInt(parts[1], 10);
+            if (monthIdx < 0 || isNaN(year)) return null;
+            const nextMonth = (monthIdx + 1) % 12;
+            const nextYear = monthIdx === 11 ? year + 1 : year;
+            return months[nextMonth] + ' ' + nextYear;
+          }
         }
 
       } catch (e) {
@@ -3570,16 +3676,31 @@
 
     // Update title tickers with price data
     function updateTitleTickers() {
-      // QQQ: symbol price change
+      // Helper: format updated_at as short CT time (e.g., "6:43 AM CT")
+      function formatAsOfTime(isoStr) {
+        if (!isoStr) return '';
+        try {
+          const d = new Date(isoStr);
+          if (isNaN(d.getTime())) return '';
+          return d.toLocaleTimeString('en-US', { hour: 'numeric', minute: '2-digit', timeZone: 'America/Chicago' }) + ' CT';
+        } catch (e) { return ''; }
+      }
+
+      // QQQ: symbol price change + as-of
       if (priceData['QQQ']) {
         const qqq = priceData['QQQ'];
         document.getElementById('qqq-price').textContent = `$${qqq.price.toFixed(2)}`;
         const changeEl = document.getElementById('qqq-change');
         changeEl.textContent = `${qqq.change_pct >= 0 ? '+' : ''}${qqq.change_pct.toFixed(1)}%`;
         changeEl.className = 'ticker-change ' + (qqq.change_pct >= 0 ? 'positive' : 'negative');
+        const qqqAsOfEl = document.getElementById('qqq-as-of');
+        if (qqqAsOfEl && qqq.updated_at) {
+          const asOf = formatAsOfTime(qqq.updated_at);
+          qqqAsOfEl.textContent = asOf ? 'as of ' + asOf : '';
+        }
       }
 
-      // BTC: change price symbol (check both BTC and BTC-USD keys)
+      // BTC: change price symbol (check both BTC and BTC-USD keys) + as-of
       const btcKey = priceData['BTC'] ? 'BTC' : 'BTC-USD';
       if (priceData[btcKey]) {
         const btc = priceData[btcKey];
@@ -3587,6 +3708,11 @@
         const changeEl = document.getElementById('btc-change');
         changeEl.textContent = `${btc.change_pct >= 0 ? '+' : ''}${btc.change_pct.toFixed(1)}%`;
         changeEl.className = 'ticker-change ' + (btc.change_pct >= 0 ? 'positive' : 'negative');
+        const btcAsOfEl = document.getElementById('btc-as-of');
+        if (btcAsOfEl && btc.updated_at) {
+          const asOf = formatAsOfTime(btc.updated_at);
+          btcAsOfEl.textContent = asOf ? 'as of ' + asOf : '';
+        }
       }
     }
 
