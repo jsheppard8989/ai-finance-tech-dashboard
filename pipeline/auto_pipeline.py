@@ -1217,6 +1217,7 @@ def main():
             )
 
         run_script("Fetch Prices", "fetch_prices.py", timeout=120)
+        run_script("Fetch Portfolio Prices", "fetch_portfolio_prices.py", timeout=120)
         run_script("Fetch GPU Index", "fetch_gpu_index.py", timeout=60)
         run_script("Fetch Curve Data", "fetch_curve.py", timeout=120)
         run_script("Fetch COT Positioning", "fetch_cot.py", timeout=120)

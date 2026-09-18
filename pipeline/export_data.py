@@ -1040,6 +1040,17 @@ def generate_website_js():
             price_snapshot = {}
     price_json = json.dumps(price_snapshot, indent=2)
     
+    # Portfolio baskets (Healthcare Abundance, etc.)
+    portfolio_data: dict = {}
+    portfolio_path = site_dir / "portfolio.json"
+    if portfolio_path.is_file():
+        try:
+            portfolio_data = json.loads(portfolio_path.read_text(encoding="utf-8"))
+            portfolio_data.pop("_metadata", None)
+        except Exception:
+            portfolio_data = {}
+    portfolio_json = json.dumps(portfolio_data, indent=2)
+    
     # Generate data.js that the HTML can load
     # Pre-serialize to avoid f-string issues
     archive_json = json.dumps(archive, indent=2)
@@ -1066,7 +1077,8 @@ const dashboardData = {{
   deepDives: {deepdives_json},
   suggestedTerms: {suggested_json},
   podcastGuests: {podcast_guests_json},
-  pundits: {pundits_json}
+  pundits: {pundits_json},
+  portfolio: {portfolio_json}
 }};
 
 // Export for use in other scripts
