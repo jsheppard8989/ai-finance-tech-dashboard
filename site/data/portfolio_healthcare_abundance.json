@@ -1,0 +1,76 @@
+{
+  "id": "healthcare-abundance-five",
+  "title": "Healthcare Abundance",
+  "subtitle": "Consumerization of Precision Medicine — interface layer after discovery",
+  "blurb": "Owns the interface between patient and healthcare system—diagnosis, access, fulfillment, and adherence—where value migrates as therapies become abundant.",
+  "section": "Portfolio",
+  "as_of": "2026-09-18T09:30:00-05:00",
+  "as_of_label": "Sep 18, 2026 ~9:30 AM CT",
+  "notional_each_usd": 1000,
+  "names": [
+    {
+      "ticker": "HIMS",
+      "name": "Hims & Hers",
+      "role": "Owns the consumer relationship",
+      "price": 28.09,
+      "shares": 35.5999,
+      "notional": 1000,
+      "price_note": "Sep 18 quote",
+      "current_price": null,
+      "last_updated": null
+    },
+    {
+      "ticker": "GDRX",
+      "name": "GoodRx",
+      "role": "Access / friction removal",
+      "price": 3.33,
+      "shares": 300.3003,
+      "notional": 1000,
+      "price_note": "Sep 18 quote",
+      "current_price": null,
+      "last_updated": null
+    },
+    {
+      "ticker": "TEM",
+      "name": "Tempus AI",
+      "role": "Diagnose and fit with data",
+      "price": 77.97,
+      "shares": 12.8254,
+      "notional": 1000,
+      "price_note": "Sep 18 quote",
+      "current_price": null,
+      "last_updated": null
+    },
+    {
+      "ticker": "GH",
+      "name": "Guardant Health",
+      "role": "Find and monitor the right patient",
+      "price": 183.10,
+      "shares": 5.4615,
+      "notional": 1000,
+      "price_note": "last daily through Sep 17",
+      "current_price": null,
+      "last_updated": null
+    },
+    {
+      "ticker": "ABT",
+      "name": "Abbott",
+      "role": "Continuous consumer measurement",
+      "price": 102.20,
+      "shares": 9.7847,
+      "notional": 1000,
+      "price_note": "Sep 17 close",
+      "current_price": null,
+      "last_updated": null
+    }
+  ],
+  "basket_notional_usd": 5000,
+  "refresh": {
+    "_comment": "Daily refresh for the five names only — same plumbing cadence as Curve/COT widgets. Recompute shares only at inception; mark-to-market after.",
+    "tickers": ["HIMS", "GDRX", "TEM", "GH", "ABT"],
+    "cadence": "daily",
+    "last_refresh": null,
+    "todo_for_tony": "Wire up daily price fetch via Yahoo Finance or preferred API. Update current_price and last_updated for each name. Do NOT recalculate shares — inception shares are fixed. Compute P&L from (current_price × shares) vs inception notional."
+  },
+  "disclaimer": "Research sleeve / scorecard, not advice. No IRA sizing language beyond the $1,000 equal-weight illustration."
+}

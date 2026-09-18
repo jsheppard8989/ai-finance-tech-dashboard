@@ -81,6 +81,9 @@ site/data/
 !site/data/featured_overton.json
 !site/data/curated_overton.json
 !site/data/curated_sources.json
+# Exception: Portfolio cards (curated research sleeves)
+!site/data/portfolio_healthcare_abundance.json
+!site/data/portfolio_healthcare_abundance_thesis.md
 
 # AI Bench Press generated audio/cache
 ai-bench-press/audio/seg_*.mp3

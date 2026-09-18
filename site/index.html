@@ -209,6 +209,216 @@
       border-radius: 2px;
     }
 
+    /* Portfolio Section */
+    .portfolio-section {
+      margin: 1rem 0 1.5rem;
+    }
+    .portfolio-card {
+      background: rgba(16, 185, 129, 0.08);
+      border: 1px solid rgba(16, 185, 129, 0.25);
+      border-radius: 12px;
+      padding: 1.25rem;
+    }
+    .portfolio-card h3 {
+      color: #10b981;
+      font-size: 1.15rem;
+      margin: 0 0 0.25rem;
+      display: flex;
+      align-items: center;
+      gap: 0.5rem;
+    }
+    .portfolio-card .portfolio-subtitle {
+      color: #8892b0;
+      font-size: 0.85rem;
+      margin-bottom: 0.5rem;
+    }
+    .portfolio-card .portfolio-blurb {
+      color: #a8b2d1;
+      font-size: 0.88rem;
+      line-height: 1.5;
+      margin-bottom: 0.75rem;
+      border-left: 3px solid rgba(16, 185, 129, 0.4);
+      padding-left: 0.75rem;
+    }
+    .portfolio-card .portfolio-as-of {
+      font-size: 0.72rem;
+      color: #6b7280;
+      margin-bottom: 0.75rem;
+    }
+    .portfolio-legs {
+      display: grid;
+      grid-template-columns: repeat(auto-fit, minmax(180px, 1fr));
+      gap: 0.5rem;
+      margin-bottom: 0.75rem;
+    }
+    .portfolio-leg {
+      background: rgba(255, 255, 255, 0.04);
+      border: 1px solid rgba(255, 255, 255, 0.08);
+      border-radius: 8px;
+      padding: 0.6rem 0.75rem;
+    }
+    .portfolio-leg .leg-header {
+      display: flex;
+      justify-content: space-between;
+      align-items: baseline;
+      margin-bottom: 0.25rem;
+    }
+    .portfolio-leg .leg-ticker {
+      font-weight: 700;
+      color: #10b981;
+      font-size: 0.95rem;
+    }
+    .portfolio-leg .leg-name {
+      font-size: 0.72rem;
+      color: #6b7280;
+    }
+    .portfolio-leg .leg-role {
+      font-size: 0.75rem;
+      color: #a8b2d1;
+      font-style: italic;
+      margin-bottom: 0.35rem;
+      line-height: 1.35;
+    }
+    .portfolio-leg .leg-details {
+      display: flex;
+      flex-wrap: wrap;
+      gap: 0.5rem;
+      font-size: 0.72rem;
+      color: #8892b0;
+    }
+    .portfolio-leg .leg-details span {
+      display: flex;
+      flex-direction: column;
+    }
+    .portfolio-leg .leg-details .detail-label {
+      font-size: 0.6rem;
+      color: #6b7280;
+      text-transform: uppercase;
+      letter-spacing: 0.03em;
+    }
+    .portfolio-leg .leg-details .detail-value {
+      color: #a8b2d1;
+      font-weight: 500;
+    }
+    .portfolio-leg .leg-pnl {
+      margin-top: 0.35rem;
+      padding-top: 0.35rem;
+      border-top: 1px solid rgba(255, 255, 255, 0.06);
+      font-size: 0.75rem;
+    }
+    .portfolio-leg .leg-pnl .pnl-positive {
+      color: #10b981;
+    }
+    .portfolio-leg .leg-pnl .pnl-negative {
+      color: #ef4444;
+    }
+    .portfolio-leg .leg-pnl .pnl-neutral {
+      color: #6b7280;
+    }
+    .portfolio-basket {
+      display: flex;
+      flex-wrap: wrap;
+      justify-content: space-between;
+      align-items: center;
+      gap: 0.75rem;
+      padding: 0.75rem;
+      background: rgba(16, 185, 129, 0.1);
+      border-radius: 8px;
+      margin-bottom: 0.75rem;
+    }
+    .portfolio-basket .basket-total {
+      font-size: 0.9rem;
+      color: #e8e8e8;
+    }
+    .portfolio-basket .basket-total strong {
+      color: #10b981;
+    }
+    .portfolio-basket .basket-pnl {
+      font-size: 0.88rem;
+      font-weight: 600;
+    }
+    .portfolio-basket .basket-pnl.positive {
+      color: #10b981;
+    }
+    .portfolio-basket .basket-pnl.negative {
+      color: #ef4444;
+    }
+    .portfolio-basket .basket-pnl.neutral {
+      color: #6b7280;
+    }
+    .portfolio-actions {
+      display: flex;
+      flex-wrap: wrap;
+      gap: 0.5rem;
+      align-items: center;
+    }
+    .portfolio-actions button {
+      padding: 0.5rem 1rem;
+      font-size: 0.8rem;
+      background: rgba(16, 185, 129, 0.15);
+      border: 1px solid rgba(16, 185, 129, 0.3);
+      border-radius: 6px;
+      color: #10b981;
+      cursor: pointer;
+      transition: all 0.2s;
+    }
+    .portfolio-actions button:hover {
+      background: rgba(16, 185, 129, 0.25);
+      border-color: rgba(16, 185, 129, 0.5);
+    }
+    .portfolio-disclaimer {
+      font-size: 0.7rem;
+      color: #6b7280;
+      margin-top: 0.5rem;
+      font-style: italic;
+    }
+
+    /* Portfolio Thesis Modal */
+    .thesis-modal {
+      display: none;
+      position: fixed;
+      top: 0;
+      left: 0;
+      right: 0;
+      bottom: 0;
+      background: rgba(0, 0, 0, 0.85);
+      z-index: 1000;
+      overflow-y: auto;
+      padding: 2rem;
+    }
+    .thesis-modal.active {
+      display: block;
+    }
+    .thesis-container {
+      max-width: 800px;
+      margin: 0 auto;
+      background: rgba(26, 26, 46, 0.98);
+      border: 1px solid rgba(16, 185, 129, 0.3);
+      border-radius: 12px;
+      padding: 2rem;
+    }
+    .thesis-header {
+      display: flex;
+      justify-content: space-between;
+      align-items: flex-start;
+      margin-bottom: 1.5rem;
+      padding-bottom: 1rem;
+      border-bottom: 1px solid rgba(255, 255, 255, 0.1);
+    }
+    .thesis-header h3 {
+      color: #10b981;
+      font-size: 1.3rem;
+      margin: 0;
+    }
+    .thesis-content {
+      color: #e8e8e8;
+      font-size: 0.95rem;
+      line-height: 1.8;
+    }
+    .thesis-content p {
+      margin-bottom: 1.25rem;
+    }
+
     /* Overton Window – unified cards (definitions + emerging terms, same structure) */
     .overton-window-item {
       background: rgba(123, 44, 191, 0.1);
@@ -1981,6 +2191,7 @@
       <a href="archive.html">Archive</a>
       <a href="debait.html" id="home-debate-listen">Long &amp; Short</a>
       <a href="trap-map.html">Trap Map</a>
+      <a href="#portfolio-section">Portfolio</a>
       <a href="pipeline-health.html">Data Status</a>
     </nav>
     <header style="position: relative;">
@@ -2101,6 +2312,18 @@
       </div>
     </div>
 
+    <!-- Portfolio Section -->
+    <div id="portfolio-section" class="portfolio-section">
+      <h2 style="font-size: 1.2rem; color: #10b981; margin-bottom: 0.75rem; display: flex; align-items: center; gap: 0.5rem;">
+        <span style="display: inline-block; width: 4px; height: 24px; background: linear-gradient(180deg, #10b981, #059669); border-radius: 2px;"></span>
+        Portfolio
+      </h2>
+      <p style="color: #8892b0; font-size: 0.85rem; margin-bottom: 1rem;">Research sleeves with timestamped inception — mark-to-market scorecards, not advice.</p>
+      <div id="portfolio-cards-container">
+        <!-- Portfolio cards loaded dynamically -->
+      </div>
+    </div>
+
     <div class="grid">
       <!-- Left Column - Trap Map + Overton Window -->
       <div class="left-col">
@@ -2204,6 +2427,7 @@
         <a href="debait.html" id="home-debate-listen" style="color: #00d4ff; text-decoration: none;">Long &amp; Short</a> · 
         <a href="index.html" style="color: #00d4ff; text-decoration: none;">Home</a> · 
         <a href="trap-map.html" style="color: #00d4ff; text-decoration: none;">Trap Map</a> · 
+        <a href="#portfolio-section" style="color: #10b981; text-decoration: none;">Portfolio</a> · 
         <a href="pipeline-health.html" style="color: #00d4ff; text-decoration: none;">Data Status</a>
       </div>
     </footer>
@@ -2570,6 +2794,7 @@
       loadOvertonWindow();
       loadNicheSources();
       loadMarketWidgets();
+      loadPortfolio();
     });
 
     // Load curated X/niche sources (Fed plumbing, macro, biotech)
@@ -2907,6 +3132,198 @@
 
       } catch (e) {
         console.warn('Could not load market_data.json:', e);
+      }
+    }
+
+    // Load Portfolio cards (Healthcare Abundance, etc.)
+    // Daily refresh: same cadence as Curve/COT widgets. Update current_price for each name; do NOT recalculate shares after inception.
+    async function loadPortfolio() {
+      const container = document.getElementById('portfolio-cards-container');
+      if (!container) return;
+
+      try {
+        const resp = await fetch('./data/portfolio_healthcare_abundance.json', { cache: 'no-cache' });
+        if (!resp.ok) {
+          container.innerHTML = '<p style="color: #6b7280; font-size: 0.8rem;">Portfolio data loading...</p>';
+          return;
+        }
+        const portfolio = await resp.json();
+
+        function esc(s) { return s == null ? '' : String(s).replace(/</g, '&lt;').replace(/>/g, '&gt;'); }
+        
+        function formatCurrency(val) {
+          if (val == null) return '—';
+          return '$' + Number(val).toLocaleString('en-US', { minimumFractionDigits: 2, maximumFractionDigits: 2 });
+        }
+        
+        function formatPercent(val) {
+          if (val == null) return '—';
+          const sign = val >= 0 ? '+' : '';
+          return sign + val.toFixed(2) + '%';
+        }
+        
+        function formatPnL(val) {
+          if (val == null) return '—';
+          const sign = val >= 0 ? '+' : '';
+          return sign + '$' + Math.abs(val).toLocaleString('en-US', { minimumFractionDigits: 2, maximumFractionDigits: 2 });
+        }
+
+        function getPnLClass(val) {
+          if (val == null) return 'pnl-neutral';
+          if (val > 0) return 'pnl-positive';
+          if (val < 0) return 'pnl-negative';
+          return 'pnl-neutral';
+        }
+
+        // Build legs HTML
+        let legsHtml = '';
+        let totalCurrentValue = 0;
+        let hasLiveData = false;
+
+        (portfolio.names || []).forEach(function(leg) {
+          const currentPrice = leg.current_price;
+          const inceptionPrice = leg.price;
+          const shares = leg.shares;
+          const inceptionNotional = leg.notional;
+          
+          let currentValue = null;
+          let pnlDollar = null;
+          let pnlPercent = null;
+          
+          if (currentPrice != null && shares != null) {
+            hasLiveData = true;
+            currentValue = currentPrice * shares;
+            totalCurrentValue += currentValue;
+            pnlDollar = currentValue - inceptionNotional;
+            pnlPercent = ((currentPrice - inceptionPrice) / inceptionPrice) * 100;
+          } else {
+            totalCurrentValue += inceptionNotional;
+          }
+
+          const pnlClass = getPnLClass(pnlDollar);
+          const priceDisplay = currentPrice != null ? formatCurrency(currentPrice) : formatCurrency(inceptionPrice);
+          const priceLabel = currentPrice != null ? 'Current' : 'Inception';
+          
+          legsHtml += 
+            '<div class="portfolio-leg">' +
+              '<div class="leg-header">' +
+                '<span class="leg-ticker">' + esc(leg.ticker) + '</span>' +
+                '<span class="leg-name">' + esc(leg.name) + '</span>' +
+              '</div>' +
+              '<div class="leg-role">' + esc(leg.role) + '</div>' +
+              '<div class="leg-details">' +
+                '<span><span class="detail-label">' + priceLabel + '</span><span class="detail-value">' + priceDisplay + '</span></span>' +
+                '<span><span class="detail-label">Shares</span><span class="detail-value">' + shares.toFixed(4) + '</span></span>' +
+                '<span><span class="detail-label">Notional</span><span class="detail-value">' + formatCurrency(inceptionNotional) + '</span></span>' +
+              '</div>' +
+              (pnlDollar != null ? 
+                '<div class="leg-pnl"><span class="' + pnlClass + '">' + formatPnL(pnlDollar) + ' (' + formatPercent(pnlPercent) + ')</span></div>' 
+                : '<div class="leg-pnl"><span class="pnl-neutral">Awaiting live mark</span></div>') +
+            '</div>';
+        });
+
+        // Basket totals
+        const basketInception = portfolio.basket_notional_usd || 5000;
+        let basketPnlDollar = null;
+        let basketPnlPercent = null;
+        if (hasLiveData) {
+          basketPnlDollar = totalCurrentValue - basketInception;
+          basketPnlPercent = ((totalCurrentValue - basketInception) / basketInception) * 100;
+        }
+        const basketPnlClass = basketPnlDollar != null ? (basketPnlDollar > 0 ? 'positive' : basketPnlDollar < 0 ? 'negative' : 'neutral') : 'neutral';
+
+        const basketHtml = 
+          '<div class="portfolio-basket">' +
+            '<div class="basket-total">Basket: <strong>' + formatCurrency(basketInception) + '</strong> inception' + 
+              (hasLiveData ? ' → <strong>' + formatCurrency(totalCurrentValue) + '</strong> current' : '') + 
+            '</div>' +
+            '<div class="basket-pnl ' + basketPnlClass + '">' +
+              (basketPnlDollar != null ? formatPnL(basketPnlDollar) + ' (' + formatPercent(basketPnlPercent) + ')' : 'Awaiting live marks') +
+            '</div>' +
+          '</div>';
+
+        // Build full card HTML
+        const cardHtml = 
+          '<div class="portfolio-card" data-portfolio-id="' + esc(portfolio.id) + '">' +
+            '<h3>💊 ' + esc(portfolio.title) + '</h3>' +
+            '<div class="portfolio-subtitle">' + esc(portfolio.subtitle) + '</div>' +
+            '<div class="portfolio-blurb">' + esc(portfolio.blurb) + '</div>' +
+            '<div class="portfolio-as-of">As of: ' + esc(portfolio.as_of_label) + (portfolio.refresh && portfolio.refresh.last_refresh ? ' · Last refresh: ' + portfolio.refresh.last_refresh : '') + '</div>' +
+            '<div class="portfolio-legs">' + legsHtml + '</div>' +
+            basketHtml +
+            '<div class="portfolio-actions">' +
+              '<button onclick="openThesisModal(\'' + esc(portfolio.id) + '\')">Read Full Thesis</button>' +
+            '</div>' +
+            '<div class="portfolio-disclaimer">' + esc(portfolio.disclaimer) + '</div>' +
+          '</div>';
+
+        container.innerHTML = cardHtml;
+
+      } catch (e) {
+        console.warn('Could not load portfolio data:', e);
+        container.innerHTML = '<p style="color: #6b7280; font-size: 0.8rem;">Portfolio unavailable.</p>';
+      }
+    }
+
+    // Thesis modal management
+    let portfolioThesisCache = {};
+
+    async function openThesisModal(portfolioId) {
+      let thesisModal = document.getElementById('thesisModal');
+      if (!thesisModal) {
+        // Create thesis modal if it doesn't exist
+        thesisModal = document.createElement('div');
+        thesisModal.id = 'thesisModal';
+        thesisModal.className = 'thesis-modal';
+        thesisModal.innerHTML = 
+          '<div class="thesis-container">' +
+            '<div class="thesis-header">' +
+              '<h3 id="thesisTitle">Thesis</h3>' +
+              '<button class="close-btn" onclick="closeThesisModal()">✕ Close</button>' +
+            '</div>' +
+            '<div id="thesisContent" class="thesis-content"></div>' +
+          '</div>';
+        thesisModal.onclick = function(e) {
+          if (e.target === thesisModal) closeThesisModal();
+        };
+        document.body.appendChild(thesisModal);
+      }
+
+      const titleEl = document.getElementById('thesisTitle');
+      const contentEl = document.getElementById('thesisContent');
+
+      // Load thesis markdown
+      if (!portfolioThesisCache[portfolioId]) {
+        try {
+          const resp = await fetch('./data/portfolio_healthcare_abundance_thesis.md', { cache: 'no-cache' });
+          if (resp.ok) {
+            portfolioThesisCache[portfolioId] = await resp.text();
+          } else {
+            portfolioThesisCache[portfolioId] = 'Thesis not available.';
+          }
+        } catch (e) {
+          portfolioThesisCache[portfolioId] = 'Could not load thesis.';
+        }
+      }
+
+      const thesisText = portfolioThesisCache[portfolioId];
+      
+      // Simple markdown-to-HTML: split paragraphs
+      const paragraphs = thesisText.split(/\n\n+/).map(function(p) {
+        return '<p>' + p.replace(/</g, '&lt;').replace(/>/g, '&gt;') + '</p>';
+      }).join('');
+
+      titleEl.textContent = 'Healthcare Abundance: Full Thesis';
+      contentEl.innerHTML = paragraphs;
+      thesisModal.classList.add('active');
+      document.body.style.overflow = 'hidden';
+    }
+
+    function closeThesisModal() {
+      const thesisModal = document.getElementById('thesisModal');
+      if (thesisModal) {
+        thesisModal.classList.remove('active');
+        document.body.style.overflow = '';
       }
     }
 
