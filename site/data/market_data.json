@@ -86,13 +86,16 @@
     "_primary_source": "Treasury.gov",
     "_source_url": "https://home.treasury.gov/resource-center/data-chart-center/interest-rates/TextView?type=daily_treasury_yield_curve",
     "_fred_status": "unavailable (optional)",
-    "last_updated": "2026-09-18T06:44:40.877638",
+    "last_updated": "2026-09-18T16:42:32.015060",
     "as_of_date": "2026-09-17",
+    "prior_as_of_date": null,
     "spreads": {
       "2s10s": {
         "label": "2s10s Spread",
         "description": "10Y minus 2Y Treasury yield. Classic recession indicator. Negative = inverted curve.",
         "value_bps": 27.0,
+        "prior_bps": null,
+        "change_bps": null,
         "signal": "normal",
         "source": "Treasury.gov (computed)",
         "calculation": "10Y - 2Y from Treasury daily curve"
@@ -101,6 +104,8 @@
         "label": "10s30s Spread (NOB proxy)",
         "description": "30Y minus 10Y Treasury yield. Reflects long-end term premium and duration demand.",
         "value_bps": 35.0,
+        "prior_bps": null,
+        "change_bps": null,
         "signal": "normal",
         "source": "Treasury.gov (computed)",
         "calculation": "30Y - 10Y from Treasury daily curve"
@@ -128,7 +133,8 @@
       "label": "MOVE Index",
       "description": "Treasury implied volatility index. High readings = bond market stress/uncertainty.",
       "value": 76.22,
-      "change_1d": 0.0,
+      "prior_value": null,
+      "change_1d": null,
       "signal": "low_vol",
       "yahoo_symbol": "^MOVE",
       "source": "Yahoo Finance",

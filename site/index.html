@@ -2282,7 +2282,7 @@
   </div>
 
   <!-- Load dashboard data from pipeline (if available) -->
-  <script src="./data/data.js?v=1789742743"></script>
+  <script src="./data/data.js?v=1789749771"></script>
   <script src="./js/common.js"></script>
   
   <script>
@@ -2785,7 +2785,7 @@
           }
         }
 
-        // Update Curve widget with steep/flat logic and MOVE explanation
+        // Update Curve widget with steep/flat logic, MOVE explanation, and change indicators
         const curveEl = document.getElementById('curve-widget');
         const curveShapeEl = document.getElementById('curve-shape-line');
         if (curveEl && data.curve_data) {
@@ -2793,19 +2793,33 @@
           const s2s10s = spreads['2s10s'];
           const s10s30s = spreads['10s30s'];
           const move = data.curve_data.move_index;
+          const asOfDate = data.curve_data.as_of_date;
 
           const v2s10sBps = s2s10s && s2s10s.value_bps != null ? s2s10s.value_bps : null;
           const v10s30sBps = s10s30s && s10s30s.value_bps != null ? s10s30s.value_bps : null;
           const vMoveVal = move && move.value != null ? move.value : null;
           
+          // Change values (Δ vs prior snapshot)
+          const c2s10s = s2s10s && s2s10s.change_bps != null ? s2s10s.change_bps : null;
+          const c10s30s = s10s30s && s10s30s.change_bps != null ? s10s30s.change_bps : null;
+          const cMove = move && move.change_1d != null ? move.change_1d : null;
+          
+          // Helper to format change with color
+          function formatBpsChange(change) {
+            if (change === null || change === undefined) return '';
+            const color = change > 0 ? '#10b981' : change < 0 ? '#ef4444' : '#6b7280';
+            const sign = change > 0 ? '+' : '';
+            return ' <span style="font-size: 0.65rem; color: ' + color + ';">(Δ ' + sign + change + ')</span>';
+          }
+          
           // Check if we have any live data
           if (v2s10sBps != null || v10s30sBps != null || vMoveVal != null) {
             let parts = [];
             if (v2s10sBps != null) {
-              parts.push('<span style="color: #a8b2d1;"><strong>2s10s:</strong> <span class="plumbing-num">' + v2s10sBps + 'bp</span></span>');
+              parts.push('<span style="color: #a8b2d1;"><strong>2s10s:</strong> <span class="plumbing-num">' + v2s10sBps + 'bp</span>' + formatBpsChange(c2s10s) + '</span>');
             }
             if (v10s30sBps != null) {
-              parts.push('<span style="color: #a8b2d1;"><strong>10s30s:</strong> <span class="plumbing-num">' + v10s30sBps + 'bp</span></span>');
+              parts.push('<span style="color: #a8b2d1;"><strong>10s30s:</strong> <span class="plumbing-num">' + v10s30sBps + 'bp</span>' + formatBpsChange(c10s30s) + '</span>');
             }
             if (vMoveVal != null) {
               // MOVE level interpretation
@@ -2815,9 +2829,29 @@
               else if (vMoveVal < 120) { moveLabel = 'normal'; moveColor = '#9ca3af'; }
               else if (vMoveVal < 150) { moveLabel = 'elevated'; moveColor = '#f59e0b'; }
               else { moveLabel = 'high'; moveColor = '#ef4444'; }
-              parts.push('<span style="color: #a8b2d1;"><strong>MOVE:</strong> <span class="plumbing-num" style="color: ' + moveColor + ';">' + vMoveVal + '</span> <span style="font-size: 0.68rem; color: ' + moveColor + ';">(' + moveLabel + ')</span></span>');
+              // Format MOVE change
+              let moveChangeStr = '';
+              if (cMove !== null) {
+                const mcColor = cMove > 0 ? '#ef4444' : cMove < 0 ? '#10b981' : '#6b7280';
+                const mcSign = cMove > 0 ? '+' : '';
+                moveChangeStr = ' <span style="font-size: 0.65rem; color: ' + mcColor + ';">(Δ ' + mcSign + cMove + ')</span>';
+              }
+              parts.push('<span style="color: #a8b2d1;"><strong>MOVE:</strong> <span class="plumbing-num" style="color: ' + moveColor + ';">' + vMoveVal + '</span> <span style="font-size: 0.68rem; color: ' + moveColor + ';">(' + moveLabel + ')</span>' + moveChangeStr + '</span>');
             }
-            curveEl.innerHTML = parts.join('');
+            
+            // Add as-of date line
+            let asOfHtml = '';
+            if (asOfDate) {
+              try {
+                const d = new Date(asOfDate + 'T00:00:00');
+                const months = ['Jan', 'Feb', 'Mar', 'Apr', 'May', 'Jun', 'Jul', 'Aug', 'Sep', 'Oct', 'Nov', 'Dec'];
+                const formatted = months[d.getMonth()] + ' ' + d.getDate();
+                asOfHtml = '<div style="margin-top: 0.25rem; color: #6b7280; font-size: 0.65rem;">As of ' + formatted + '</div>';
+              } catch (e) {
+                asOfHtml = '<div style="margin-top: 0.25rem; color: #6b7280; font-size: 0.65rem;">As of ' + asOfDate + '</div>';
+              }
+            }
+            curveEl.innerHTML = parts.join('') + asOfHtml;
             
             // Curve shape line: steepener/flattener based on 2s10s
             if (curveShapeEl && v2s10sBps != null) {
@@ -2998,6 +3032,28 @@
             '</div>';
           }
           
+          // Build upcoming survey blurb from history_summary
+          let upcomingBlurb = '';
+          const histSummary = cf.history_summary;
+          if (histSummary && histSummary.newest_period) {
+            const newestPeriod = histSummary.newest_period;
+            // Parse period to estimate next survey window (e.g., "Apr 2026" -> "May 2026")
+            const periodMatch = newestPeriod.match(/^(\w+)\s+(\d{4})$/);
+            if (periodMatch) {
+              const monthNames = ['Jan', 'Feb', 'Mar', 'Apr', 'May', 'Jun', 'Jul', 'Aug', 'Sep', 'Oct', 'Nov', 'Dec'];
+              const monthIdx = monthNames.indexOf(periodMatch[1]);
+              const year = parseInt(periodMatch[2]);
+              if (monthIdx >= 0) {
+                const nextMonthIdx = (monthIdx + 1) % 12;
+                const nextYear = monthIdx === 11 ? year + 1 : year;
+                const nextPeriod = monthNames[nextMonthIdx] + ' ' + nextYear;
+                upcomingBlurb = '<div style="margin-top: 0.35rem; color: #8892b0; font-size: 0.65rem; font-style: italic;">' +
+                  '📅 Next survey window: ' + nextPeriod + ' (free data typically lags 2-3mo)' +
+                '</div>';
+              }
+            }
+          }
+          
           // Build the widget content - use plumbing-num for key values
           computeEl.innerHTML = 
             '<div style="display: flex; gap: 0.75rem; flex-wrap: wrap;">' +
@@ -3008,6 +3064,7 @@
             '<div style="margin-top: 0.25rem; color: #9ca3af; font-size: 0.65rem;">' +
               '<span>As of: ' + (h100.period || '—') + ' (surveyed, lags current)</span>' +
             '</div>' +
+            upcomingBlurb +
             staleIndicator;
         }
 

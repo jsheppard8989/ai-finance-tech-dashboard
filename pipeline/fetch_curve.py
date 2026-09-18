@@ -25,9 +25,10 @@ from datetime import datetime, timedelta
 from pathlib import Path
 from typing import Optional, Dict, Any, List, Tuple
 
-from workspace_paths import SITE_DATA_DIR
+from workspace_paths import SITE_DATA_DIR, STATE_DIR
 
 MARKET_DATA_FILE = SITE_DATA_DIR / "market_data.json"
+CURVE_PRIOR_FILE = STATE_DIR / "curve_prior.json"
 
 # Treasury.gov daily yield curve XML endpoint (no API key required)
 TREASURY_XML_URL = "https://home.treasury.gov/resource-center/data-chart-center/interest-rates/pages/xml"
@@ -380,6 +381,8 @@ def fetch_and_build_curve_data() -> Tuple[Optional[Dict[str, Any]], str]:
     - PRIMARY: Treasury.gov daily yield curve (levels + computed spreads)
     - OPTIONAL: FRED enrichment (validation data when available)
     - MOVE: Yahoo Finance ^MOVE
+    
+    Also computes changes vs prior snapshot for spreads and MOVE.
     """
     errors = []
     
@@ -400,6 +403,25 @@ def fetch_and_build_curve_data() -> Tuple[Optional[Dict[str, Any]], str]:
     if not treasury_data:
         return None, "; ".join(errors)
     
+    # 4. Load prior snapshot for change computation
+    prior_data = load_prior_curve()
+    prior_spreads = prior_data.get('spreads', {})
+    prior_move = prior_data.get('move_value')
+    prior_as_of = prior_data.get('as_of_date')
+    
+    current_as_of = treasury_data.get('date')
+    is_new_date = current_as_of and current_as_of != prior_as_of
+    
+    # Get current spread values
+    v2s10s = treasury_data['spreads'].get('2s10s', {}).get('value_bps')
+    v10s30s = treasury_data['spreads'].get('10s30s', {}).get('value_bps')
+    v_move = move_data.get('value') if move_data else None
+    
+    # Compute changes vs prior snapshot
+    change_2s10s = compute_spread_change(v2s10s, prior_spreads.get('2s10s_bps')) if is_new_date or prior_as_of else None
+    change_10s30s = compute_spread_change(v10s30s, prior_spreads.get('10s30s_bps')) if is_new_date or prior_as_of else None
+    change_move = round(v_move - prior_move, 2) if (v_move is not None and prior_move is not None and (is_new_date or prior_as_of)) else None
+    
     # Build the curve_data structure matching market_data.json schema
     curve_data = {
         '_comment': 'Yield curve spreads and volatility. PRIMARY source: Treasury.gov daily yield curve. MOVE: Yahoo Finance.',
@@ -407,13 +429,16 @@ def fetch_and_build_curve_data() -> Tuple[Optional[Dict[str, Any]], str]:
         '_source_url': TREASURY_SOURCE_URL,
         '_fred_status': 'available' if fred_data else 'unavailable (optional)',
         'last_updated': datetime.now().isoformat(),
-        'as_of_date': treasury_data.get('date'),
+        'as_of_date': current_as_of,
+        'prior_as_of_date': prior_as_of,
         
         'spreads': {
             '2s10s': {
                 'label': '2s10s Spread',
                 'description': '10Y minus 2Y Treasury yield. Classic recession indicator. Negative = inverted curve.',
-                'value_bps': treasury_data['spreads'].get('2s10s', {}).get('value_bps'),
+                'value_bps': v2s10s,
+                'prior_bps': prior_spreads.get('2s10s_bps'),
+                'change_bps': change_2s10s,
                 'signal': treasury_data['spreads'].get('2s10s', {}).get('signal'),
                 'source': 'Treasury.gov (computed)',
                 'calculation': '10Y - 2Y from Treasury daily curve',
@@ -421,7 +446,9 @@ def fetch_and_build_curve_data() -> Tuple[Optional[Dict[str, Any]], str]:
             '10s30s': {
                 'label': '10s30s Spread (NOB proxy)',
                 'description': '30Y minus 10Y Treasury yield. Reflects long-end term premium and duration demand.',
-                'value_bps': treasury_data['spreads'].get('10s30s', {}).get('value_bps'),
+                'value_bps': v10s30s,
+                'prior_bps': prior_spreads.get('10s30s_bps'),
+                'change_bps': change_10s30s,
                 'signal': treasury_data['spreads'].get('10s30s', {}).get('signal'),
                 'source': 'Treasury.gov (computed)',
                 'calculation': '30Y - 10Y from Treasury daily curve',
@@ -450,8 +477,9 @@ def fetch_and_build_curve_data() -> Tuple[Optional[Dict[str, Any]], str]:
             '_comment': 'MOVE Index - bond market VIX. Source: Yahoo Finance ^MOVE.',
             'label': 'MOVE Index',
             'description': 'Treasury implied volatility index. High readings = bond market stress/uncertainty.',
-            'value': move_data.get('value') if move_data else None,
-            'change_1d': move_data.get('change_1d') if move_data else None,
+            'value': v_move,
+            'prior_value': prior_move,
+            'change_1d': change_move,
             'signal': move_data.get('signal') if move_data else None,
             'yahoo_symbol': YAHOO_MOVE_SYMBOL,
             'source': 'Yahoo Finance',
@@ -465,6 +493,12 @@ def fetch_and_build_curve_data() -> Tuple[Optional[Dict[str, Any]], str]:
             'status': 'available',
             'T10Y2Y': fred_data.get('T10Y2Y'),
         }
+    
+    # Save current as prior for next fetch (when date advances or first run)
+    if is_new_date and current_as_of:
+        save_prior_curve(current_as_of, curve_data['spreads'], v_move)
+    elif not prior_as_of and current_as_of:
+        save_prior_curve(current_as_of, curve_data['spreads'], v_move)
     
     return curve_data, ""
 
@@ -491,6 +525,52 @@ def validate_curve_data(data: Dict[str, Any]) -> Tuple[bool, str]:
         return False, "10Y yield level is missing"
     
     return True, ""
+
+
+def load_prior_curve() -> Dict[str, Any]:
+    """
+    Load prior curve snapshot from state file.
+    Returns dict with as_of_date and prior values for spreads/MOVE.
+    """
+    if not CURVE_PRIOR_FILE.exists():
+        return {}
+    try:
+        with open(CURVE_PRIOR_FILE, 'r') as f:
+            return json.load(f)
+    except Exception as e:
+        print(f"  ⚠ Could not load prior curve: {e}")
+        return {}
+
+
+def save_prior_curve(as_of_date: str, spreads: Dict[str, Any], move_value: Optional[float]) -> bool:
+    """
+    Save current curve snapshot as prior for next fetch's delta computation.
+    """
+    try:
+        STATE_DIR.mkdir(parents=True, exist_ok=True)
+        data = {
+            "as_of_date": as_of_date,
+            "saved_at": datetime.now().isoformat(),
+            "spreads": {
+                "2s10s_bps": spreads.get('2s10s', {}).get('value_bps'),
+                "10s30s_bps": spreads.get('10s30s', {}).get('value_bps'),
+            },
+            "move_value": move_value,
+        }
+        with open(CURVE_PRIOR_FILE, 'w') as f:
+            json.dump(data, f, indent=2)
+        print(f"  ✓ Saved prior curve snapshot for {as_of_date}")
+        return True
+    except Exception as e:
+        print(f"  ⚠ Could not save prior curve: {e}")
+        return False
+
+
+def compute_spread_change(current: Optional[float], prior: Optional[float]) -> Optional[float]:
+    """Compute change in bps if both values available."""
+    if current is None or prior is None:
+        return None
+    return round(current - prior, 1)
 
 
 def mark_curve_data_stale(error_reason: str) -> bool:
