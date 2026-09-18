@@ -1,7 +1,7 @@
 {
-  "generated_at": "2026-09-17T23:55:36.360988",
-  "last_updated": "2026-09-17T23:55:36.360988",
-  "last_pipeline_run": "2026-09-17T23:55:36.360988",
+  "generated_at": "2026-09-18T05:12:35.191851",
+  "last_updated": "2026-09-18T05:12:35.191851",
+  "last_pipeline_run": "2026-09-18T05:12:35.191851",
   "main_page": {
     "overton": 13,
     "insights": 8,
@@ -15,54 +15,17 @@
     "overton_terms_total": 135,
     "latest_insights_total": 481,
     "today_mentions": {},
-    "podcasts_analyzed": 7
+    "podcasts_analyzed": 0
   },
   "step_results": {
-    "downloaded": 2,
-    "transcribed": 2,
-    "analyzed": 2,
-    "insight_created": 2,
-    "published": 2,
-    "total": 2
+    "downloaded": 0,
+    "transcribed": 0,
+    "analyzed": 0,
+    "insight_created": 0,
+    "published": 0,
+    "total": 0
   },
-  "episodes": [
-    {
-      "id": "73b015e2-b2b6-11f1-846c-afa7a74bbd4c",
-      "podcast": "Moonshots with Peter Diamandis",
-      "title": "Frontier Labs Want to Slow Down, OpenAI Delays Its 2026 IPO, Anthropic Flags 5 Bioweapon Cases | EP #291",
-      "published": "2026-09-17",
-      "rss_guid": "73b015e2-b2b6-11f1-846c-afa7a74bbd4c",
-      "stages": {
-        "downloaded": true,
-        "transcribed": true,
-        "analyzed": true,
-        "insight_created": true,
-        "published": true
-      },
-      "stage_reasons": {},
-      "first_blocker": null,
-      "remediation_by_stage": {},
-      "status": "complete"
-    },
-    {
-      "id": "5014b8b5-272a-4169-83d3-5b0ebf8c30c0",
-      "podcast": "All-In with Chamath, Jason, Sacks & Friedberg",
-      "title": "Nick Shirley: Exposing Government Fraud, Suing California & Taking on the Media",
-      "published": "2026-09-18",
-      "rss_guid": "5014b8b5-272a-4169-83d3-5b0ebf8c30c0",
-      "stages": {
-        "downloaded": true,
-        "transcribed": true,
-        "analyzed": true,
-        "insight_created": true,
-        "published": true
-      },
-      "stage_reasons": {},
-      "first_blocker": null,
-      "remediation_by_stage": {},
-      "status": "complete"
-    }
-  ],
+  "episodes": [],
   "available_from_rss": [],
   "stale_episodes": [],
   "stale_threshold_days": 2,
