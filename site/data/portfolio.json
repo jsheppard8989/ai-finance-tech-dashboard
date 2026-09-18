@@ -1,0 +1,81 @@
+{
+  "_metadata": {
+    "schema_version": 1,
+    "note": "Inception shares fixed; daily marks update current_* only.",
+    "last_updated": "2026-09-18T09:30:00-05:00"
+  },
+  "baskets": [
+    {
+      "id": "healthcare-abundance-five",
+      "title": "Healthcare Abundance",
+      "subtitle": "Consumerization of Precision Medicine \u2014 interface layer after discovery",
+      "as_of": "2026-09-18T09:30:00-05:00",
+      "as_of_label": "Sep 18, 2026 ~9:30 AM CT",
+      "notional_each_usd": 1000,
+      "basket_notional_usd": 5000,
+      "basket_current_value": 5000.0,
+      "basket_change_pct": 0.0,
+      "index_start": 100,
+      "basket_index_value": 100.0,
+      "names": [
+        {
+          "ticker": "HIMS",
+          "name": "Hims & Hers",
+          "role": "Owns the consumer relationship",
+          "inception_price": 28.09,
+          "shares": 35.5999,
+          "notional": 1000,
+          "current_price": 28.09,
+          "current_value": 1000.0,
+          "change_pct": 0.0
+        },
+        {
+          "ticker": "GDRX",
+          "name": "GoodRx",
+          "role": "Access / friction removal",
+          "inception_price": 3.33,
+          "shares": 300.3003,
+          "notional": 1000,
+          "current_price": 3.33,
+          "current_value": 1000.0,
+          "change_pct": 0.0
+        },
+        {
+          "ticker": "TEM",
+          "name": "Tempus AI",
+          "role": "Diagnose and fit with data",
+          "inception_price": 77.97,
+          "shares": 12.8254,
+          "notional": 1000,
+          "current_price": 77.97,
+          "current_value": 1000.0,
+          "change_pct": 0.0
+        },
+        {
+          "ticker": "GH",
+          "name": "Guardant Health",
+          "role": "Find and monitor the right patient",
+          "inception_price": 183.1,
+          "shares": 5.4615,
+          "notional": 1000,
+          "current_price": 183.1,
+          "current_value": 1000.0,
+          "change_pct": 0.0
+        },
+        {
+          "ticker": "ABT",
+          "name": "Abbott",
+          "role": "Continuous consumer measurement",
+          "inception_price": 102.2,
+          "shares": 9.7847,
+          "notional": 1000,
+          "current_price": 102.2,
+          "current_value": 1000.0,
+          "change_pct": 0.0
+        }
+      ],
+      "disclaimer": "Research sleeve / scorecard, not advice. $1,000 equal-weight illustration only.",
+      "last_updated": "2026-09-18T09:30:00-05:00"
+    }
+  ]
+}
