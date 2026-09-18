@@ -1291,6 +1291,108 @@
       box-shadow: 0 4px 20px rgba(0, 0, 0, 0.5);
     }
 
+    /* Thesis Modal (Healthcare Abundance) */
+    .thesis-modal {
+      display: none;
+      position: fixed;
+      top: 0;
+      left: 0;
+      width: 100%;
+      height: 100%;
+      background: rgba(0, 0, 0, 0.92);
+      z-index: 1003;
+      justify-content: center;
+      align-items: flex-start;
+      padding: 2rem;
+      overflow-y: auto;
+    }
+    .thesis-modal.active {
+      display: flex;
+    }
+    .thesis-container {
+      background: rgba(26, 26, 46, 0.98);
+      border-radius: 16px;
+      padding: 2rem;
+      width: 100%;
+      max-width: 800px;
+      margin: 2rem auto;
+      border: 1px solid rgba(123, 44, 191, 0.3);
+      box-shadow: 0 20px 60px rgba(0, 0, 0, 0.6);
+    }
+    .thesis-header {
+      display: flex;
+      justify-content: space-between;
+      align-items: flex-start;
+      margin-bottom: 1.5rem;
+      padding-bottom: 1rem;
+      border-bottom: 1px solid rgba(255, 255, 255, 0.1);
+    }
+    .thesis-title {
+      font-size: 1.5rem;
+      font-weight: 700;
+      color: #00d4ff;
+      margin: 0;
+    }
+    .thesis-subtitle {
+      font-size: 0.9rem;
+      color: #a78bfa;
+      margin-top: 0.25rem;
+    }
+    .thesis-content {
+      color: #e8e8e8;
+      line-height: 1.8;
+      font-size: 0.95rem;
+    }
+    .thesis-content p {
+      margin-bottom: 1.25rem;
+    }
+    .thesis-content p:last-child {
+      margin-bottom: 0;
+    }
+    .thesis-closer {
+      margin-top: 2rem;
+      padding-top: 1.5rem;
+      border-top: 1px solid rgba(255, 255, 255, 0.1);
+      font-style: italic;
+      color: #a8b2d1;
+    }
+    .thesis-disclaimer {
+      margin-top: 1.5rem;
+      padding: 1rem;
+      background: rgba(0, 0, 0, 0.3);
+      border-radius: 8px;
+      border: 1px solid rgba(255, 255, 255, 0.1);
+    }
+    .thesis-disclaimer p {
+      color: #8892b0;
+      font-size: 0.75rem;
+      line-height: 1.5;
+      margin: 0;
+    }
+    .portfolio-card-clickable {
+      cursor: pointer;
+      transition: all 0.2s ease;
+    }
+    .portfolio-card-clickable:hover {
+      border-color: rgba(123, 44, 191, 0.5);
+      background: rgba(123, 44, 191, 0.12);
+    }
+    @media (max-width: 768px) {
+      .thesis-modal {
+        padding: 1rem;
+      }
+      .thesis-container {
+        padding: 1.25rem;
+        margin: 1rem auto;
+      }
+      .thesis-title {
+        font-size: 1.25rem;
+      }
+      .thesis-content {
+        font-size: 0.9rem;
+      }
+    }
+
     /* Podcast Summary Modal */
     .podcast-modal {
       display: none;
@@ -2102,39 +2204,21 @@
     </div>
 
     <div class="grid">
-      <!-- Left Column - Trap Map + Overton Window -->
+      <!-- Left Column - Portfolio + Overton Window -->
       <div class="left-col">
-        <!-- Trap Map callout -->
-        <div class="card">
-          <h2 style="font-size: 1.3rem;">Trap Map</h2>
-          <p style="color: #8892b0; margin-bottom: 1rem; font-size: 0.85rem;">Research theses under falsifiable tests — who gets paid first, what print decides, when to relegate. Not a tip sheet.</p>
-          <a href="trap-map.html" style="display: inline-flex; align-items: center; gap: 0.5rem; padding: 0.75rem 1.25rem; background: rgba(0, 212, 255, 0.1); border: 1px solid rgba(0, 212, 255, 0.3); border-radius: 8px; color: #00d4ff; text-decoration: none; font-size: 0.9rem; transition: all 0.2s;">
-            <span>View Trap Map</span>
-            <span style="font-size: 1.1rem;">→</span>
-          </a>
-        </div>
-
-        <!-- Current Research: Buyback thesis card -->
-        <div class="card" style="margin-top: 1rem; background: rgba(0, 212, 255, 0.05); border: 1px solid rgba(0, 212, 255, 0.2);">
-          <div style="display: flex; justify-content: space-between; align-items: flex-start; margin-bottom: 0.5rem;">
-            <h2 style="font-size: 1.1rem; margin: 0;">Buyback as confession</h2>
-            <span style="font-size: 0.7rem; font-weight: 600; padding: 0.2rem 0.5rem; background: rgba(255, 193, 7, 0.2); color: #ffc107; border-radius: 4px;">WATCH</span>
-          </div>
-          <p style="color: #a8b2d1; font-size: 0.8rem; margin-bottom: 0.5rem;">Captive duration — who warehouses the long end while coupon supply continues.</p>
-          <p style="color: #8892b0; font-size: 0.75rem; margin-bottom: 0.75rem;">Sep 9 10Y + Sep 10 30Y STAMPED strong private sponsorship (COSMETIC lean). Next checkpoint: <strong style="color: #e8e8e8;">Nov 4 QRA</strong> buyback maxes.</p>
-          <a href="trap-map.html#buyback-confession-captive-duration" style="display: inline-flex; align-items: center; gap: 0.4rem; padding: 0.5rem 0.9rem; background: rgba(0, 212, 255, 0.1); border: 1px solid rgba(0, 212, 255, 0.25); border-radius: 6px; color: #00d4ff; text-decoration: none; font-size: 0.8rem;">
-            <span>Full thesis →</span>
-          </a>
-        </div>
-
-        <!-- Portfolio Section -->
-        <div class="card" style="margin-top: 1rem; background: rgba(123, 44, 191, 0.08); border: 1px solid rgba(123, 44, 191, 0.25);">
+        <!-- Portfolio Section (click to view thesis) -->
+        <div class="card portfolio-card-clickable" id="portfolio-card" style="background: rgba(123, 44, 191, 0.08); border: 1px solid rgba(123, 44, 191, 0.25);" onclick="openThesisModal()">
           <div style="display: flex; justify-content: space-between; align-items: flex-start; margin-bottom: 0.5rem;">
             <h2 style="font-size: 1.1rem; margin: 0;">💊 Portfolio</h2>
             <span style="font-size: 0.65rem; font-weight: 600; padding: 0.2rem 0.5rem; background: rgba(123, 44, 191, 0.2); color: #a78bfa; border-radius: 4px;">RESEARCH</span>
           </div>
-          <div id="portfolio-container">
+          <div id="portfolio-container" onclick="event.stopPropagation()">
             <!-- Filled by loadPortfolio() -->
+          </div>
+          <div style="margin-top: 0.75rem; padding-top: 0.75rem; border-top: 1px solid rgba(255,255,255,0.08);">
+            <span style="color: #a78bfa; font-size: 0.8rem; display: inline-flex; align-items: center; gap: 0.4rem;">
+              <span>Read thesis →</span>
+            </span>
           </div>
         </div>
 
@@ -2163,8 +2247,34 @@
 
       </div>
 
-      <!-- Right Column - Contact + Podcast Pundits + Niche Sources -->
+      <!-- Right Column - Trap Map + Contact + Podcast Pundits + Niche Sources -->
       <div class="right-col">
+        <!-- Trap Map summary strip -->
+        <div class="card" style="margin-bottom: 1rem; background: rgba(0, 212, 255, 0.05); border: 1px solid rgba(0, 212, 255, 0.2);">
+          <h2 style="font-size: 1.1rem; margin-bottom: 0.5rem;">🗺️ Trap Map</h2>
+          <p style="color: #8892b0; font-size: 0.75rem; margin-bottom: 0.75rem;">Research theses with falsifiable tests — who collects rent first, what print decides.</p>
+          
+          <!-- Last 3 traps monitored -->
+          <div style="margin-bottom: 0.75rem;">
+            <div style="font-size: 0.7rem; font-weight: 600; color: #00d4ff; text-transform: uppercase; letter-spacing: 0.03em; margin-bottom: 0.4rem;">Recently monitored</div>
+            <div id="trap-monitored-list">
+              <p style="color: #6b7280; font-size: 0.7rem;">Loading...</p>
+            </div>
+          </div>
+          
+          <!-- Next 3 upcoming watches -->
+          <div style="margin-bottom: 0.75rem; padding-top: 0.5rem; border-top: 1px solid rgba(255,255,255,0.08);">
+            <div style="font-size: 0.7rem; font-weight: 600; color: #fbbf24; text-transform: uppercase; letter-spacing: 0.03em; margin-bottom: 0.4rem;">Upcoming watches</div>
+            <div id="trap-upcoming-list">
+              <p style="color: #6b7280; font-size: 0.7rem;">Loading...</p>
+            </div>
+          </div>
+          
+          <a href="trap-map.html" style="display: inline-flex; align-items: center; gap: 0.4rem; padding: 0.5rem 0.9rem; background: rgba(0, 212, 255, 0.1); border: 1px solid rgba(0, 212, 255, 0.25); border-radius: 6px; color: #00d4ff; text-decoration: none; font-size: 0.8rem;">
+            <span>View full Trap Map →</span>
+          </a>
+        </div>
+
         <!-- Simplified Contact Card -->
         <div class="card contact-card" style="margin-bottom: 1rem; padding: 0.75rem;" data-fallback-email="">
           <h2 style="font-size: 1rem; margin-bottom: 0.5rem;">📬 Get in touch</h2>
@@ -2229,6 +2339,56 @@
       </div>
       <div id="chart-image-container">
         <img id="chartImage" src="" alt="Stock Chart">
+      </div>
+    </div>
+  </div>
+
+  <!-- Thesis Modal (Healthcare Abundance) -->
+  <div id="thesisModal" class="thesis-modal" onclick="if(event.target===this)closeThesisModal()">
+    <div class="thesis-container">
+      <div class="thesis-header">
+        <div>
+          <h2 class="thesis-title">Healthcare Abundance</h2>
+          <p class="thesis-subtitle">Consumerization of Precision Medicine</p>
+        </div>
+        <button class="close-btn" onclick="closeThesisModal()">✕ Close</button>
+      </div>
+      <div class="thesis-content">
+        <p>The scarce thing in medicine is moving. For a long time the hard problem was inventing a treatment that worked, then forcing it through a slow and expensive system. AI and genomics are making new therapies more common and cheaper to discover. When that happens, "another molecule" stops being the bottleneck. The hard problem becomes finding the right person, diagnosing them early, choosing the treatment that fits, delivering it conveniently, and keeping them on it. That is the interface between a human and the healthcare system. This note is about who owns that interface — not necessarily who owns the drug.</p>
+
+        <p>The consumerization of precision medicine is where 3 forces meet. First, more therapies exist, so abundance replaces scarcity at the discovery step. Second, people start managing health as a habit — testing, monitoring, refilling — instead of showing up only when they are already sick. Third, digital rails make care something you can buy like a consumer service: a relationship, a subscription, a same-day fill, a wearable that talks back. The winner does not have to manufacture the breakthrough. They may own the last mile of trust, data, and fulfillment.</p>
+
+        <p>This is the next layer after genomics and discovery investing. Discovery asks whether we will invent more. This thesis asks who captures value when therapies are plentiful and consumers actually show up. Both can win in a growing pie. They are sequential, not substitutes. If AI is going to help grow us out of fiscal pressure — including Medicare and Medicaid — the public needs a win they can feel: more cures, lower cost of care.</p>
+
+        <p><strong>Three engines decide who captures the rent.</strong></p>
+
+        <p>The first is unit economics at the patient, not the visit. The right score is revenue per patient times retention times conditions per patient. Visits are activity; that product is franchise value. A company that owns the consumer relationship can add a second and third condition without paying again to acquire the person. AI inside the clinician–patient loop makes that expansion cheaper: better intake, better routing, better adherence nudges.</p>
+
+        <p>The second engine is friction removal and transaction monetization. Someone has to make the filled prescription cheaper, clearer, and easier to complete. Price comparison, manufacturer-direct programs, coupons, and fulfillment do not diagnose — they clear the path between "the right therapy exists" and "the patient actually got it." When the menu of therapies explodes, the transaction layer gets more valuable, not less. One business owns the patient. Another owns the transaction. Different P&Ls, same flywheel.</p>
+
+        <p>The third engine is the loop: measure, understand, act, measure again. If hundreds of therapies exist, you need continuous signal — who needs which one, when, and whether it is working. Labs, wearables, and consumer diagnostics turn the body into a feed. That feed lets an interface company personalize, retain, and expand conditions per patient. Without the loop, abundance is noise. With the loop, abundance becomes a habit.</p>
+
+        <p><strong>Here is how those engines map onto five parts of the value chain.</strong></p>
+
+        <p>The consumer relationship sells ongoing care rather than a single formulation: subscription access, clinician time, an assortment of approved therapies, and a product that widens across conditions. The ideal is simple: each person stays longer, spends more over time, and brings more of their health needs into the same relationship. If that happens, this is the prototype of the whole thesis. If people come for one campaign and leave, the interface story fails here first.</p>
+
+        <p>Friction removal and the transaction sit between "a therapy exists" and "a person got it filled at a price they will accept." This business monetizes the access path, not the diagnosis. As therapy menus grow, comparison, manufacturer programs, and fulfillment become infrastructure. It wins when more people finish getting the medicine they need, at a price they will pay, through this path. It loses when the big pharmacies, middlemen, or drugmakers build that same easy path themselves and cut it out.</p>
+
+        <p>Diagnose-and-fit at scale combines tests, longitudinal clinical data, and AI so the right treatment gets matched to the right person — and gets better as volume grows. It is picks-and-shovels for finding and fitting the patient, not the consumer brand. The contribution is decision quality: fewer wrong starts, faster right starts, evidence that compounds with each new case.</p>
+
+        <p>Find-and-monitor early matters most where early detection changes outcomes. Liquid biopsy and related monitoring find, select, and then watch whether disease is returning or responding. Medicine becomes a feedback system instead of a one-time event — the clinical version of measure, understand, act, measure again.</p>
+
+        <p>Continuous consumer measurement takes a clinical sensor into everyday life — continuous glucose and adjacent metabolic feeds as a habit, not only as a disease label. Without that feed, the other pieces guess; with it, relationship, access, and diagnose-and-fit can personalize and retain.</p>
+
+        <p>Upstream discovery tools, trial infrastructure, and wholesale distribution still matter. They are durable — and they are not this expression of the idea. The bottleneck has moved to interface, access, fit, find-and-monitor, and continuous measurement.</p>
+
+        <div class="thesis-closer">
+          <p>This is how I chose to bet on the abundant health future ahead for us all. It is not a recommendation to buy, sell, or trade.</p>
+        </div>
+
+        <div class="thesis-disclaimer">
+          <p><strong>Disclaimer:</strong> This note is for informational and educational purposes only. It is not investment advice, a solicitation, or a recommendation to buy, sell, or hold any security. Investing involves risk, including the possible loss of principal. Past performance is not indicative of future results. Do your own research and, if needed, consult a qualified advisor.</p>
+        </div>
       </div>
     </div>
   </div>
@@ -2676,6 +2836,7 @@
       loadNicheSources();
       loadMarketWidgets();
       loadPortfolio();
+      loadTrapMapHome();
     });
 
     // Load curated X/niche sources (Fed plumbing, macro, biotech)
@@ -3212,6 +3373,99 @@
         closeChart();
       }
     });
+
+    // Thesis Modal (Healthcare Abundance)
+    function openThesisModal() {
+      var modal = document.getElementById('thesisModal');
+      if (modal) {
+        modal.classList.add('active');
+        document.body.style.overflow = 'hidden';
+      }
+    }
+
+    function closeThesisModal() {
+      var modal = document.getElementById('thesisModal');
+      if (modal) {
+        modal.classList.remove('active');
+        document.body.style.overflow = '';
+      }
+    }
+
+    // Close thesis modal on Escape key
+    document.addEventListener('keydown', function(e) {
+      if (e.key === 'Escape') {
+        closeThesisModal();
+        closeChart();
+      }
+    });
+
+    // Trap Map Home Summary - loads trap_map_home.json for the right-column summary strip
+    async function loadTrapMapHome() {
+      const monitoredEl = document.getElementById('trap-monitored-list');
+      const upcomingEl = document.getElementById('trap-upcoming-list');
+      if (!monitoredEl || !upcomingEl) return;
+
+      function esc(s) {
+        if (s == null || s === '') return '';
+        return String(s).replace(/</g, '&lt;').replace(/>/g, '&gt;');
+      }
+
+      function statusColor(status) {
+        const s = (status || '').toUpperCase();
+        if (s === 'WATCH') return '#fbbf24';
+        if (s === 'HOLD') return '#3b82f6';
+        if (s === 'POUNCE') return '#10b981';
+        if (s === 'RELEGATE') return '#6b7280';
+        return '#8892b0';
+      }
+
+      try {
+        const resp = await fetch('./data/trap_map_home.json', { cache: 'no-cache' });
+        if (!resp.ok) throw new Error('trap_map_home.json not found');
+        const data = await resp.json();
+
+        // Render last monitored (up to 3)
+        const monitored = data.last_monitored || [];
+        if (monitored.length === 0) {
+          monitoredEl.innerHTML = '<p style="color: #6b7280; font-size: 0.7rem;">No recent traps.</p>';
+        } else {
+          let html = '';
+          monitored.slice(0, 3).forEach(function(t) {
+            const color = statusColor(t.status);
+            html += '<div style="display: flex; justify-content: space-between; align-items: center; padding: 0.25rem 0; border-bottom: 1px solid rgba(255,255,255,0.04);">';
+            html += '<a href="trap-map.html#' + esc(t.id) + '" style="color: #e8e8e8; text-decoration: none; font-size: 0.75rem; flex: 1; min-width: 0; overflow: hidden; text-overflow: ellipsis; white-space: nowrap;">' + esc(t.short_title) + '</a>';
+            html += '<div style="display: flex; align-items: center; gap: 0.4rem; flex-shrink: 0;">';
+            html += '<span style="font-size: 0.6rem; font-weight: 600; color: ' + color + '; padding: 0.1rem 0.35rem; background: rgba(255,255,255,0.05); border-radius: 3px;">' + esc(t.status) + '</span>';
+            if (t.updated_at) {
+              html += '<span style="font-size: 0.6rem; color: #6b7280;">' + esc(t.updated_at) + '</span>';
+            }
+            html += '</div></div>';
+          });
+          monitoredEl.innerHTML = html;
+        }
+
+        // Render upcoming watches (up to 3)
+        const upcoming = data.upcoming_watches || [];
+        if (upcoming.length === 0) {
+          upcomingEl.innerHTML = '<p style="color: #6b7280; font-size: 0.7rem;">No upcoming watches.</p>';
+        } else {
+          let html = '';
+          upcoming.slice(0, 3).forEach(function(w) {
+            html += '<div style="padding: 0.25rem 0; border-bottom: 1px solid rgba(255,255,255,0.04);">';
+            html += '<div style="display: flex; align-items: center; gap: 0.4rem;">';
+            html += '<span style="font-size: 0.65rem; font-weight: 600; color: #fbbf24; background: rgba(251,191,36,0.1); padding: 0.1rem 0.35rem; border-radius: 3px;">' + esc(w.date_label) + '</span>';
+            html += '<a href="trap-map.html#' + esc(w.trap_id) + '" style="color: #a8b2d1; text-decoration: none; font-size: 0.7rem; overflow: hidden; text-overflow: ellipsis; white-space: nowrap;">' + esc(w.what) + '</a>';
+            html += '</div></div>';
+          });
+          upcomingEl.innerHTML = html;
+        }
+
+      } catch (err) {
+        console.warn('Trap map home load error:', err);
+        monitoredEl.innerHTML = '<p style="color: #6b7280; font-size: 0.7rem;">—</p>';
+        upcomingEl.innerHTML = '<p style="color: #6b7280; font-size: 0.7rem;">—</p>';
+      }
+    }
 
     // Podcast Summary Data - Loaded from database export or embedded
     let podcastSummaries = {};

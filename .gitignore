@@ -82,6 +82,7 @@ site/data/
 !site/data/curated_overton.json
 !site/data/portfolio.json
 !site/data/curated_sources.json
+!site/data/trap_map_home.json
 
 # AI Bench Press generated audio/cache
 ai-bench-press/audio/seg_*.mp3

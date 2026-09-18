@@ -1,0 +1,42 @@
+{
+  "_comment": "Home page summary of Trap Map. Regenerate from trap_map.json when a trap datapoint is stamped. Script hook: scripts/regenerate_trap_home.py or pipeline/generate_trap_home.sh",
+  "_generated_at": "2026-09-18T16:30:00Z",
+  "_source": "data/trap_map.json",
+  "last_monitored": [
+    {
+      "id": "trap-1-power-interconnect",
+      "short_title": "Power + DC interconnect",
+      "status": "WATCH",
+      "updated_at": "2026-09-14"
+    },
+    {
+      "id": "buyback-confession-captive-duration",
+      "short_title": "Buyback / captive duration",
+      "status": "WATCH",
+      "updated_at": "2026-09-10"
+    },
+    {
+      "id": "asts-secondary-watch",
+      "short_title": "AST SpaceMobile",
+      "status": "WATCH",
+      "updated_at": "2026-09-09"
+    }
+  ],
+  "upcoming_watches": [
+    {
+      "trap_id": "buyback-confession-captive-duration",
+      "date_label": "Nov 4 2026",
+      "what": "Treasury QRA buyback sizes"
+    },
+    {
+      "trap_id": "trap-1-power-interconnect",
+      "date_label": "Nov 2026",
+      "what": "PJM Retail BTMG filing / FERC §206"
+    },
+    {
+      "trap_id": "arkg-hold-goalposts",
+      "date_label": "Nov FY26",
+      "what": "TWST Q4 adj. EBITDA / TEM–PSNL close"
+    }
+  ]
+}
