@@ -3,7 +3,7 @@
 Fetch current prices for portfolio basket tickers and update portfolio.json.
 
 Marks positions to market WITHOUT recomputing inception shares.
-Tickers: HIMS, GDRX, TEM, GH, ABT + comparators QQQ, BTC
+Tickers: HIMS, GDRX, TEM, GH, ABT (five-name sleeve only)
 """
 
 import json
@@ -16,18 +16,12 @@ from workspace_paths import SITE_DATA_DIR
 PORTFOLIO_FILE = SITE_DATA_DIR / "portfolio.json"
 
 PORTFOLIO_TICKERS = ["HIMS", "GDRX", "TEM", "GH", "ABT"]
-COMPARATOR_TICKERS = ["QQQ", "BTC-USD"]
-
-YAHOO_SYMBOL_MAP = {
-    "BTC": "BTC-USD",
-}
 
 
 def fetch_yahoo_price(ticker: str) -> float | None:
     """Fetch current price from Yahoo Finance."""
-    symbol = YAHOO_SYMBOL_MAP.get(ticker, ticker)
     try:
-        url = f"https://query1.finance.yahoo.com/v8/finance/chart/{symbol}?interval=1d&range=1d"
+        url = f"https://query1.finance.yahoo.com/v8/finance/chart/{ticker}?interval=1d&range=1d"
         req = urllib.request.Request(url, headers={
             'User-Agent': 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36'
         })
@@ -44,38 +38,6 @@ def fetch_yahoo_price(ticker: str) -> float | None:
     except Exception as e:
         print(f"    Error fetching {ticker}: {e}")
         return None
-
-
-def fetch_yahoo_history(ticker: str, days: int = 30) -> list[dict]:
-    """Fetch price history for chart data."""
-    symbol = YAHOO_SYMBOL_MAP.get(ticker, ticker)
-    try:
-        url = f"https://query1.finance.yahoo.com/v8/finance/chart/{symbol}?interval=1d&range={days}d"
-        req = urllib.request.Request(url, headers={
-            'User-Agent': 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36'
-        })
-        with urllib.request.urlopen(req, timeout=15) as response:
-            data = json.loads(response.read())
-        
-        if not data.get('chart', {}).get('result'):
-            return []
-        
-        result = data['chart']['result'][0]
-        timestamps = result.get('timestamp', [])
-        closes = result.get('indicators', {}).get('quote', [{}])[0].get('close', [])
-        
-        history = []
-        for ts, close in zip(timestamps, closes):
-            if close is not None:
-                dt = datetime.fromtimestamp(ts)
-                history.append({
-                    "date": dt.strftime("%Y-%m-%d"),
-                    "price": round(float(close), 2)
-                })
-        return history
-    except Exception as e:
-        print(f"    Error fetching history for {ticker}: {e}")
-        return []
 
 
 def update_portfolio():
@@ -128,35 +90,6 @@ def update_portfolio():
         basket["basket_index_value"] = round(
             (basket_current_value / basket_notional) * basket.get("index_start", 100), 2
         )
-        
-        comparators = basket.get("comparators", {})
-        for comp_name, comp_data in comparators.items():
-            ticker = "BTC-USD" if comp_name == "BTC" else comp_name
-            print(f"  Fetching comparator {comp_name}...", end=" ")
-            
-            price = fetch_yahoo_price(ticker)
-            if price is not None:
-                comp_data["current_price"] = price
-                inception_price = comp_data.get("inception_price", price)
-                
-                if comp_name == "BTC":
-                    coins = comp_data.get("coins", 0)
-                    current_value = round(coins * price, 2)
-                else:
-                    shares = comp_data.get("shares", 0)
-                    current_value = round(shares * price, 2)
-                
-                comp_data["current_value"] = current_value
-                notional = comp_data.get("equal_notional_usd", 5000)
-                change_pct = ((current_value - notional) / notional * 100) if notional else 0
-                comp_data["change_pct"] = round(change_pct, 2)
-                comp_data["index_value"] = round(
-                    (current_value / notional) * basket.get("index_start", 100), 2
-                )
-                
-                print(f"${price:.2f} ({change_pct:+.2f}%)")
-            else:
-                print("Failed - using cached")
         
         basket["last_updated"] = datetime.now().isoformat()
     

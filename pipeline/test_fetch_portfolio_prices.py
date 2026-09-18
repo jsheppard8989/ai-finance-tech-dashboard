@@ -6,7 +6,7 @@ Tests:
 - Portfolio JSON structure validation
 - Price fetch mechanics (mocked)
 - Mark-to-market calculations (inception shares preserved)
-- Comparator index computation
+- Basket index computation
 """
 
 import sys
@@ -59,17 +59,6 @@ SAMPLE_PORTFOLIO = {
             "basket_notional_usd": 2000,
             "basket_current_value": 2000,
             "basket_change_pct": 0.0,
-            "comparators": {
-                "QQQ": {
-                    "inception_price": 716.74,
-                    "equal_notional_usd": 5000,
-                    "shares": 6.976,
-                    "current_price": 716.74,
-                    "current_value": 5000,
-                    "change_pct": 0.0,
-                    "index_value": 100
-                }
-            },
             "index_start": 100,
             "basket_index_value": 100,
             "disclaimer": "Test disclaimer",
@@ -94,7 +83,7 @@ class TestPortfolioStructure:
     def test_basket_has_required_fields(self):
         """Each basket should have required fields."""
         basket = SAMPLE_PORTFOLIO["baskets"][0]
-        required = ["id", "title", "names", "basket_notional_usd", "comparators", "index_start"]
+        required = ["id", "title", "names", "basket_notional_usd", "index_start"]
         for field in required:
             assert field in basket, f"Missing field: {field}"
             
@@ -105,12 +94,10 @@ class TestPortfolioStructure:
         for field in required:
             assert field in name, f"Missing field: {field}"
             
-    def test_comparator_has_required_fields(self):
-        """Each comparator should have required fields."""
-        comp = SAMPLE_PORTFOLIO["baskets"][0]["comparators"]["QQQ"]
-        required = ["inception_price", "equal_notional_usd", "shares"]
-        for field in required:
-            assert field in comp, f"Missing field: {field}"
+    def test_no_comparators_in_basket(self):
+        """Basket should NOT have comparators (removed per spec)."""
+        basket = SAMPLE_PORTFOLIO["baskets"][0]
+        assert "comparators" not in basket
 
 
 class TestMarkToMarket:
@@ -144,39 +131,13 @@ class TestMarkToMarket:
         index_start = 100
         expected = (current / notional) * index_start
         assert expected == 105.0
-
-
-class TestComparatorCalculations:
-    """Test comparator value and index calculations."""
-    
-    def test_qqq_value_calculation(self):
-        """QQQ value = shares * current_price."""
-        shares = 6.976
-        price = 720.00
-        expected = round(shares * price, 2)
-        assert expected == 5022.72
         
-    def test_btc_value_calculation(self):
-        """BTC value = coins * current_price."""
-        coins = 0.064103
-        price = 80000
-        expected = round(coins * price, 2)
-        assert expected == 5128.24
-        
-    def test_comparator_change_pct(self):
-        """Comparator change % = (current_value - notional) / notional * 100."""
+    def test_basket_change_pct_calculation(self):
+        """Basket change % = (current - notional) / notional * 100."""
         notional = 5000
-        current = 5250
+        current = 4850
         change = ((current - notional) / notional) * 100
-        assert change == 5.0
-        
-    def test_comparator_index_value(self):
-        """Comparator index = (current_value / notional) * index_start."""
-        notional = 5000
-        current = 5250
-        index_start = 100
-        expected = (current / notional) * index_start
-        assert expected == 105.0
+        assert change == -3.0
 
 
 class TestPriceFetch:
@@ -263,6 +224,30 @@ class TestPortfolioUpdate:
                 assert name["current_price"] == 30.00
             finally:
                 fetch_portfolio_prices.PORTFOLIO_FILE = original_file
+                
+    def test_update_computes_basket_totals(self):
+        """Update should compute basket total value and change."""
+        with tempfile.TemporaryDirectory() as tmpdir:
+            tmppath = Path(tmpdir) / "portfolio.json"
+            tmppath.write_text(json.dumps(SAMPLE_PORTFOLIO))
+            
+            import fetch_portfolio_prices
+            original_file = fetch_portfolio_prices.PORTFOLIO_FILE
+            fetch_portfolio_prices.PORTFOLIO_FILE = tmppath
+            
+            try:
+                with patch('fetch_portfolio_prices.fetch_yahoo_price') as mock_fetch:
+                    mock_fetch.return_value = 30.00
+                    update_portfolio()
+                    
+                updated = json.loads(tmppath.read_text())
+                basket = updated["baskets"][0]
+                
+                assert "basket_current_value" in basket
+                assert "basket_change_pct" in basket
+                assert "basket_index_value" in basket
+            finally:
+                fetch_portfolio_prices.PORTFOLIO_FILE = original_file
 
 
 def run_tests():
@@ -272,7 +257,6 @@ def run_tests():
     test_classes = [
         TestPortfolioStructure,
         TestMarkToMarket,
-        TestComparatorCalculations,
         TestPriceFetch,
         TestPortfolioUpdate,
     ]
