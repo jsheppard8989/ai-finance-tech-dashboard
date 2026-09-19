@@ -1,5 +1,66 @@
 [
   {
+    "id": 305,
+    "name": "Josh Elman",
+    "slug": "josh-elman",
+    "bio": "Josh Elman is a prominent venture capitalist with a focus on consumer technology and artificial intelligence. He is known for his insights into consumer engagement, particularly in how products can capture and maintain user attention in a crowded digital landscape. Elman emphasizes the importance of creating products that excel at a single function before expanding their capabilities.",
+    "known_for": "Josh Elman provides critical insights into building lasting consumer products in the AI era, making him a key figure for investors and tech enthusiasts.",
+    "net_worth_usd": null,
+    "net_worth_source": "",
+    "net_worth_updated_at": null,
+    "voice_tone": "Analytical and insightful",
+    "voice_style": "Direct and focused on practical implications",
+    "voice_delivery_notes": "Paced with emphasis on key insights",
+    "voice_profile_updated_at": "2026-09-19 11:57:31",
+    "last_seen": "2026-09-19 11:57:31",
+    "last_episode_title": "What Makes a Consumer AI Product Stick? | Josh Elman",
+    "last_podcast_name": "The a16z Show",
+    "last_episode_date": "2026-09-19",
+    "mention_score": 2,
+    "mention_score_decayed": 2,
+    "last_main_idea": "Investing in companies that develop personal AI solutions and interactive consumer experiences presents significant growth opportunities in the evolving digital landscape.",
+    "last_proof_cite": "The a16z Show \u2022 2026-09-19 \u2022 What Makes a Consumer AI Product Stick? | Josh Elman",
+    "last_proof_snippet": "It's never been easier to get consumers attention. What's harder, I think, is getting me not just to try something, but to actually stick. It has to be such a good product doing that one thing really well out of the box that I either stop d",
+    "supporting_takeaway": "Trust is essential for AI applications handling personal data, influencing user adoption.",
+    "grokipedia_url": null,
+    "grokipedia_fetched_at": "2026-09-19T06:57:36.826038",
+    "pundit_profile": {
+      "source": "llm",
+      "source_model": "openai:gpt-4o-mini",
+      "source_url": "",
+      "page_title": "Josh Elman",
+      "fetched_at": "2026-09-19T11:57:36.825677+00:00",
+      "cliff_notes": "Josh Elman has established himself as a leading voice in the intersection of technology and consumer behavior. With a career that spans several high-profile roles in major tech companies, including Twitter and LinkedIn, he has developed a keen understanding of what drives user engagement. His work as a venture capitalist at A16Z allows him to influence the next generation of consumer technology startups. Elman's insights are particularly relevant as the tech landscape evolves with AI, where user retention and trust become increasingly crucial. His emphasis on creating products that deliver clear value and become habitual for users positions him as a thought leader in the industry.",
+      "derived": {
+        "current_role": "Partner at A16Z",
+        "former_positions": "Product Lead at Twitter; VP of Product at LinkedIn; Partner at Greylock Partners",
+        "education": "B.A. in Symbolic Systems from Stanford University"
+      },
+      "infobox": {
+        "Born": "",
+        "Nationality": ""
+      },
+      "lead_paragraphs": [
+        "Josh Elman has established himself as a leading voice in the intersection of technology and consumer behavior. With a career that spans several high-profile roles in major tech companies, including Twitter and LinkedIn, he has developed a keen understanding of what drives user engagement. His work as a venture capitalist at A16Z allows him to influence the next generation of consumer technology startups.",
+        "Elman's insights are particularly relevant as the tech landscape evolves with AI, where user retention and trust become increasingly crucial. His emphasis on creating products that deliver clear value and become habitual for users positions him as a thought leader in the industry."
+      ],
+      "sections": [
+        {
+          "heading": "Consumer Engagement Strategies",
+          "body": "Elman discusses the importance of capturing consumer attention and the challenges of maintaining it in a saturated market. He emphasizes that products must provide immediate value to encourage user retention."
+        },
+        {
+          "heading": "AI and Product Development",
+          "body": "He explores how artificial intelligence is reshaping consumer products and the necessity for these products to integrate seamlessly into users' lives, becoming indispensable tools."
+        },
+        {
+          "heading": "Building Trust in Technology",
+          "body": "Elman highlights the growing importance of trust as AI technologies become more integrated into daily life, suggesting that companies must prioritize transparency and reliability."
+        }
+      ]
+    }
+  },
+  {
     "id": 267,
     "name": "Bill Gurley",
     "slug": "bill-gurley",
@@ -422,7 +483,7 @@
     "last_podcast_name": "All-In with Chamath, Jason, Sacks & Friedberg",
     "last_episode_date": "2026-09-17",
     "mention_score": 1,
-    "mention_score_decayed": 0.98,
+    "mention_score_decayed": 0.95,
     "last_main_idea": "Investing in preventive healthcare and AI infrastructure presents significant opportunities, but requires careful monitoring of revenue growth and market conditions.",
     "last_proof_cite": "All-In with Chamath, Jason, Sacks & Friedberg \u2022 2026-09-17 \u2022 Brad Gerstner: No AI Bubble, Semis Eat the Nasdaq & AI's Take Off Problem",
     "last_proof_snippet": "Our favorite fifth-besty in the world, the one the only Brad Kershner contributor Brad has had unbelievable career starting five companies so he's got a very different mentality than your sort of classic hedge fund guy. He's an amazingly su",
@@ -1586,7 +1647,7 @@
     "last_podcast_name": "The a16z Show",
     "last_episode_date": "2026-09-07",
     "mention_score": 1,
-    "mention_score_decayed": 0.78,
+    "mention_score_decayed": 0.76,
     "last_main_idea": "The AI infrastructure landscape may undergo significant decentralization as algorithmic breakthroughs reduce dependence on hyperscaler-scale compute, creating investment opportunities in edge computing, specialized AI chips, and open-source ecosystem enablers while potentially compressing returns for pure scale-based incumbents.",
     "last_proof_cite": "The a16z Show \u2022 2026-09-07 \u2022 Can Open Source Keep AI Power From Concentrating?",
     "last_proof_snippet": "AI is becoming more powerful, but the resources needed to build it are increasingly concentrated. Does it have to stay that way? MTS host Sophia Dew heads to the open source AI summit in San Francisco. To ask researchers and founders across",
@@ -1978,7 +2039,7 @@
     "last_podcast_name": "The a16z Show",
     "last_episode_date": "2026-09-01",
     "mention_score": 1,
-    "mention_score_decayed": 0.68,
+    "mention_score_decayed": 0.66,
     "last_main_idea": "Invest in technologies and educational initiatives that enhance human intuition and critical thinking in mathematics, focusing on AI tools that augment human understanding rather than replace it, while also supporting frameworks for quality control in AI-driven research.",
     "last_proof_cite": "The a16z Show \u2022 2026-09-01 \u2022 Daniel Litt: The Mathematician's Guide to AI",
     "last_proof_snippet": "The goal of mathematics is not to produce mathematics papers. It's to produce some kind of understanding. Maybe some of that understanding resides in model weights. To me, that's like pretty unsatisfied. Comparing and profit with open AI. D",
@@ -2005,7 +2066,7 @@
     "last_podcast_name": "The a16z Show",
     "last_episode_date": "2026-08-29",
     "mention_score": 1,
-    "mention_score_decayed": 0.63,
+    "mention_score_decayed": 0.62,
     "last_main_idea": "Investors should prioritize oversight and governance frameworks in AI development processes and support initiatives that promote independent oversight of AI development and deployment.",
     "last_proof_cite": "The a16z Show \u2022 2026-08-29 \u2022 Why 1,200 AI Agents Started Working Together | Ryan Greenblatt",
     "last_proof_snippet": "What happens when you give more than 1,000 AI agents the ability to communicate with each other? They start organizing. Ryan Greenblatt, Chief Scientist at Redwood Research, joins Theo Jaffee on MTS to unpack a new investigation into the Op",
@@ -2304,7 +2365,7 @@
     "last_podcast_name": "The a16z Show",
     "last_episode_date": "2026-08-28",
     "mention_score": 1,
-    "mention_score_decayed": 0.62,
+    "mention_score_decayed": 0.6,
     "last_main_idea": "The next major bottleneck in AI is not the model itself, but the underlying infrastructure that supports it, presenting a significant investment opportunity in companies that can innovate and scale to meet these new demands.",
     "last_proof_cite": "The a16z Show \u2022 2026-08-28 \u2022 The Infrastructure Behind the Machine Age",
     "last_proof_snippet": "We have a whole new technology that's most important technology ever and you need a whole new infrastructure Now I'm going to even be talking about the infrastructure We're talking about the subverse and the storage and the network here goe",
@@ -2368,7 +2429,7 @@
     "last_podcast_name": "The a16z Show",
     "last_episode_date": "2026-08-28",
     "mention_score": 1,
-    "mention_score_decayed": 0.62,
+    "mention_score_decayed": 0.6,
     "last_main_idea": "The next major bottleneck in AI is not the model itself, but the underlying infrastructure that supports it, presenting a significant investment opportunity in companies that can innovate and scale to meet these new demands.",
     "last_proof_cite": "The a16z Show \u2022 2026-08-28 \u2022 The Infrastructure Behind the Machine Age",
     "last_proof_snippet": "We have a whole new technology that's most important technology ever and you need a whole new infrastructure Now I'm going to even be talking about the infrastructure We're talking about the subverse and the storage and the network here goe",
@@ -2678,7 +2739,7 @@
     "last_podcast_name": "All-In with Chamath, Jason, Sacks & Friedberg",
     "last_episode_date": "2026-08-26",
     "mention_score": 1,
-    "mention_score_decayed": 0.6,
+    "mention_score_decayed": 0.59,
     "last_main_idea": "Investing in cutting-edge scientific research and exploration could lead to paradigm-shifting discoveries with significant impact on various industries.",
     "last_proof_cite": "All-In with Chamath, Jason, Sacks & Friedberg \u2022 2026-08-26 \u2022 Eric Weinstein: The State of American Science, Breakthrough Coverups, and the Danger of Physics",
     "last_proof_snippet": "We have become a f***ing nation when it comes to science. You were called a friend scientist and keep saying, friend, yeah. I totally disagree with the narrative of the field. I want to blow a giant pole in civil rights act. The stagnation",
@@ -2929,7 +2990,7 @@
     "last_podcast_name": "The a16z Show",
     "last_episode_date": "2026-08-26",
     "mention_score": 1,
-    "mention_score_decayed": 0.59,
+    "mention_score_decayed": 0.57,
     "last_main_idea": "Invest in the application layer of AI where significant value can be captured, and consider the emerging consumer AI space for new opportunities.",
     "last_proof_cite": "The a16z Show \u2022 2026-08-26 \u2022 The State of AI: Macro, Apps, and Consumer",
     "last_proof_snippet": "For the last few years, the biggest question in the AI was which model would win. The next phase may be less about the models, and more about what gets built on top of them. In this episode, Jen Costa sits down with Anish Acharya, to unpack w",
@@ -6551,7 +6612,7 @@
     "last_podcast_name": "Latent Space: The AI Engineer Podcast",
     "last_episode_date": "2026-07-23",
     "mention_score": 1,
-    "mention_score_decayed": 0.27,
+    "mention_score_decayed": 0.26,
     "last_main_idea": "Investing in AI development, particularly in the democratization of AI and the scaling of language models, can lead to significant innovation and competitive advantage.",
     "last_proof_cite": "Latent Space: The AI Engineer Podcast \u2022 2026-07-23 \u2022 Inside the Model Factory \u2014 Eiso Kant, Poolside AI",
     "last_proof_snippet": "All right, we're here in the studio. If I was a countryman, we'll fight together with people. Welcome. Thanks, thank you, guys. It's good to be here. Yeah, fresh on the plane. You texted me, you're like, hey, I'm on my way to SF. I was like",
@@ -8680,70 +8741,6 @@
     "net_worth": "$809.0M"
   },
   {
-    "id": 305,
-    "name": "Josh Elman",
-    "slug": "josh-elman",
-    "bio": "Josh Elman is a venture capitalist at a16z, focusing on product and growth strategies in consumer tech. He has held leadership roles at Twitter, Facebook, LinkedIn, and Apple, where he led product marketing for AI efforts.",
-    "known_for": "His expertise in product development and growth strategies in the consumer tech sector, and his contributions to major tech companies.",
-    "net_worth_usd": null,
-    "net_worth_source": "",
-    "net_worth_updated_at": null,
-    "voice_tone": "Inquisitive and insightful.",
-    "voice_style": "Analytical and solution-oriented.",
-    "voice_delivery_notes": "Paced with emphasis on key points.",
-    "voice_profile_updated_at": "2026-06-23 18:36:32",
-    "last_seen": "2026-06-23 18:36:32",
-    "last_episode_title": "What\u2019s Next for Consumer AI? | Josh Elman Joins a16z",
-    "last_podcast_name": "The a16z Show",
-    "last_episode_date": "2026-06-23",
-    "mention_score": 1,
-    "mention_score_decayed": 0.13,
-    "last_main_idea": "Invest in startups leveraging AI to enhance personal experiences, focusing on user retention and creator partnerships for organic growth.",
-    "last_proof_cite": "The a16z Show \u2022 2026-06-23 \u2022 What\u2019s Next for Consumer AI? | Josh Elman Joins a16z",
-    "last_proof_snippet": "Right now AI has been so much about productivity, job replacement, work replacement and I think we have a moment to shift that, which is how does these new tools help you get more out of your own day and your own life and the things you wan",
-    "supporting_takeaway": "Storytelling is crucial in product marketing, especially in consumer tech.",
-    "grokipedia_url": null,
-    "grokipedia_fetched_at": "2026-06-23T13:36:49.452754",
-    "pundit_profile": {
-      "source": "llm",
-      "source_model": "moonshot:moonshot-v1-8k",
-      "source_url": "",
-      "page_title": "Josh Elman",
-      "fetched_at": "2026-06-23T18:36:49.452602+00:00",
-      "cliff_notes": "Josh Elman has had a significant career in the tech industry, focusing on product and growth strategies. He began his career at LinkedIn, where he was a product manager. He then moved to Twitter, where he was a product leader, and later to Facebook, where he held a similar role. Elman's expertise in product development and growth led him to Apple, where he was responsible for product marketing for AI initiatives. Currently, he is a venture capitalist at a16z, where he continues to influence the consumer tech industry with his insights and investments.",
-      "derived": {
-        "current_role": "Venture Capitalist at a16z",
-        "former_positions": "Product Leader at Twitter; Product Leader at Facebook; Product Leader at LinkedIn; Product Marketing Leader for AI at Apple"
-      },
-      "infobox": {
-        "Born": "",
-        "Nationality": ""
-      },
-      "lead_paragraphs": [
-        "Josh Elman has had a significant career in the tech industry, focusing on product and growth strategies. He began his career at LinkedIn, where he was a product manager. He then moved to Twitter, where he was a product leader, and later to Facebook, where he held a similar role. Elman's expertise in product development and growth led him to Apple, where he was responsible for product marketing for AI initiatives.",
-        "Currently, he is a venture capitalist at a16z, where he continues to influence the consumer tech industry with his insights and investments."
-      ],
-      "sections": [
-        {
-          "heading": "Product Development",
-          "body": "Josh Elman has been instrumental in the product development of major tech companies, including LinkedIn, Twitter, and Facebook, where he held leadership roles in product management and strategy."
-        },
-        {
-          "heading": "Growth Strategies",
-          "body": "Elman is known for his expertise in growth strategies, which he has applied at various tech companies to drive user engagement and expansion."
-        },
-        {
-          "heading": "AI and Product Marketing",
-          "body": "At Apple, Elman led the product marketing for AI efforts, showcasing his ability to communicate the value of advanced technologies to consumers."
-        },
-        {
-          "heading": "Venture Capital",
-          "body": "As a venture capitalist at a16z, Elman uses his deep understanding of consumer tech to identify and support promising startups in the industry."
-        }
-      ]
-    }
-  },
-  {
     "id": 303,
     "name": "Grace One",
     "slug": "grace-one",
@@ -9437,7 +9434,7 @@
     "last_podcast_name": "Latent Space: The AI Engineer Podcast",
     "last_episode_date": "2026-06-03",
     "mention_score": 1,
-    "mention_score_decayed": 0.12,
+    "mention_score_decayed": 0.11,
     "last_main_idea": "Invest in Axiom Math for its pioneering role in verified AI for mathematics, which has the potential to drive innovation and efficiency in problem-solving across various fields.",
     "last_proof_cite": "Latent Space: The AI Engineer Podcast \u2022 2026-06-03 \u2022 \ud83d\udd2cScaling Past Informal AI - Carina Hong, Axiom Math",
     "last_proof_snippet": "But it's for the first time now I think verified AI is to open up collaboration. Either it's human AI collaboration. Well, before a blueprint like that's human human collaboration. And Lin was a grounding, was a verification formal language",
@@ -9564,7 +9561,7 @@
     "last_podcast_name": "The Jack Mallers Show",
     "last_episode_date": "2026-06-16",
     "mention_score": 2,
-    "mention_score_decayed": 0.23,
+    "mention_score_decayed": 0.22,
     "last_main_idea": "Investors should monitor Bitcoin as a leading market indicator and scrutinize the capital structures of Bitcoin treasury companies for potential risks and rewards, while maintaining a long-term perspective.",
     "last_proof_cite": "The Jack Mallers Show \u2022 2026-06-16 \u2022 15 Questions: The Strait, Strategy, mNAV, Dilution, & My Boots",
     "last_proof_snippet": "Yo, welcome back to another episode of the Jack Mallors Show. I'm your host Jack, and you're listening to mail bag Monday, ladies and gentlemen. Oh, there's my resources tab, my AI tool. All right, let's get back to slide one. You were list",

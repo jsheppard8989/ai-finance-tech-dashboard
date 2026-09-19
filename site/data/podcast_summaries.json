@@ -1,5 +1,23 @@
 [
   {
+    "id": 498,
+    "podcast_name": "The a16z Show",
+    "episode_title": "What Makes a Consumer AI Product Stick? | Josh Elman",
+    "episode_date": "2026-09-19",
+    "summary": "The podcast discusses the evolving landscape of consumer products, emphasizing the importance of habit formation and trust in AI applications. It highlights the emergence of personal AI agents and live shopping platforms as key trends reshaping consumer engagement. The insights suggest that companies focusing on enhancing real-world interactions and developing clear value propositions will thrive in the competitive market.",
+    "key_takeaways": [
+      "Successful consumer products excel at one specific function, leading to habitual use.",
+      "Trust is essential for AI applications handling personal data, influencing user adoption.",
+      "Post-COVID, consumers prefer AI tools that enhance real-world engagement.",
+      "Personal AI agents are emerging to manage daily tasks and improve well-being.",
+      "Live shopping platforms are redefining consumer experiences through interactivity.",
+      "Micro dramas and interactive storytelling are poised to transform entertainment.",
+      "Consumers are increasingly willing to pay for digital products, necessitating flexible monetization strategies."
+    ],
+    "investment_thesis": "Investing in companies that develop personal AI solutions and interactive consumer experiences presents significant growth opportunities in the evolving digital landscape.",
+    "key_tickers": null
+  },
+  {
     "id": 497,
     "podcast_name": "All-In with Chamath, Jason, Sacks & Friedberg",
     "episode_title": "Bill Gurley: Searching for Feynman",
