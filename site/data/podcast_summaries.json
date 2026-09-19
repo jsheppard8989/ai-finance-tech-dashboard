@@ -1,5 +1,37 @@
 [
   {
+    "id": 497,
+    "podcast_name": "All-In with Chamath, Jason, Sacks & Friedberg",
+    "episode_title": "Bill Gurley: Searching for Feynman",
+    "episode_date": "2026-09-19",
+    "summary": "In this episode, Bill Gurley emphasizes the need for thorough investigations into catastrophic failures, particularly focusing on the COVID-19 pandemic. He critiques the lack of accountability and transparency in the response to the pandemic, advocating for a structured investigative framework known as CAPA to prevent future failures. The discussion highlights the economic and human costs of COVID-19, urging stakeholders to support independent investigations and foster a culture of inquiry in scientific research.",
+    "key_takeaways": [
+      "Implement the CAPA framework to systematically address failures and enhance accountability.",
+      "Push for independent investigations in public health crises to ensure transparency.",
+      "Critically evaluate the motivations of key figures in scientific discussions to avoid biases.",
+      "Support independent researchers investigating the origins of COVID-19.",
+      "Encourage a culture of inquiry that values transparency and accountability in scientific research."
+    ],
+    "investment_thesis": "Investors should focus on companies and organizations that prioritize transparency and accountability in public health, as these will be better positioned to navigate future crises.",
+    "key_tickers": null
+  },
+  {
+    "id": 496,
+    "podcast_name": "The a16z Show",
+    "episode_title": "Databricks CEO on AI Pacing, Cyber Risk, and the Enterprise",
+    "episode_date": "2026-09-18",
+    "summary": "In this episode of The a16z Show, the discussion revolves around the critical role of context in AI adoption within organizations. Databricks highlights the necessity of building a comprehensive organizational ontology to enhance AI effectiveness and productivity. The podcast also addresses the urgent need for automated cybersecurity solutions in response to the rapid evolution of AI-driven cyber threats, as well as the shift from frontier models to generalized language models (GLMs) for cost efficiency in enterprise applications.",
+    "key_takeaways": [
+      "Invest in building a comprehensive organizational ontology to enhance AI effectiveness.",
+      "Automate cybersecurity processes to keep pace with AI-driven threats and reduce response times.",
+      "Transition from frontier models to generalized language models to optimize costs and resource allocation.",
+      "Monitor and evaluate the performance of AI tools regularly to ensure they are delivering value and not just incurring costs.",
+      "Foster a culture of experimentation with AI tools while implementing cost controls to avoid token maxing."
+    ],
+    "investment_thesis": "Investors should focus on companies that are integrating AI effectively through organizational ontologies and those automating cybersecurity processes to mitigate risks.",
+    "key_tickers": null
+  },
+  {
     "id": 495,
     "podcast_name": "All-In with Chamath, Jason, Sacks & Friedberg",
     "episode_title": "Jared Isaacman: A New Era for NASA and American Space Exploration",
