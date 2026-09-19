@@ -39,6 +39,25 @@
       "podcast_episode_id": 498
     },
     {
+      "id": 514,
+      "title": "Why The 30-Year Treasury Lost Its Biggest Buyers | David Busch on Why High Yields Are Attractive Right Now",
+      "source_type": "podcast",
+      "source_name": "Monetary Matters with Jack Farley",
+      "source_date": "2026-09-19",
+      "summary": "In this episode, Jack Farley discusses the implications of rising Treasury yields on equity valuations and the evolving role of bonds in investment portfolios. The conversation highlights the impact of AI adoption on earnings growth, the risks associated with the private credit market, and the energy demands of AI infrastructure. Investors are encouraged to reassess their strategies in light of these market dynamics, particularly focusing on sectors that leverage AI technology and the diversification benefits of Treasuries.",
+      "key_takeaway": "Investors should focus on sectors benefiting from AI adoption and consider increasing allocations to Treasuries for portfolio stability.",
+      "tickers_mentioned": [
+        "NVDA"
+      ],
+      "sentiment": "neutral",
+      "display_on_main": 1,
+      "display_order": 0,
+      "added_date": "2026-09-19",
+      "archived_date": null,
+      "archived_reason": null,
+      "podcast_episode_id": 499
+    },
+    {
       "id": 508,
       "title": "Nick Shirley: Exposing Government Fraud, Suing California & Taking on the Media",
       "source_type": "podcast",
@@ -69,7 +88,7 @@
         "NVDA"
       ],
       "sentiment": "neutral",
-      "display_on_main": 1,
+      "display_on_main": 0,
       "display_order": 0,
       "added_date": "2026-09-18",
       "archived_date": null,
@@ -10319,8 +10338,8 @@
       "term": "Hyperscalers",
       "description": "Massive cloud computing providers (Amazon, Google, Microsoft, Meta) whose data center power demands are reshaping electricity markets and enabling new energy infrastructure financing.",
       "first_detected_date": "2026-06-19",
-      "last_mentioned_date": "2026-09-17",
-      "mention_count": 36,
+      "last_mentioned_date": "2026-09-19",
+      "mention_count": 37,
       "source_podcasts": null,
       "status": "active",
       "investment_implications": "Their 20-year PPAs are the demand anchor making previously uneconomic nuclear projects bankable; track PPA announcements as leading indicators for nuclear buildout.",
@@ -10329,8 +10348,8 @@
       "archived_reason": null,
       "first_detected_episode_id": 302,
       "first_detected_speaker": "Chamath Palihapitiya, Jason Calacanis (hosts)",
-      "last_mentioned_episode_id": 490,
-      "last_mentioned_speaker": "Harley Bassman"
+      "last_mentioned_episode_id": 499,
+      "last_mentioned_speaker": "David Bush"
     },
     {
       "id": 256,
@@ -11091,20 +11110,20 @@
     {
       "id": 126,
       "term": "Data Center Nimbyism",
-      "description": "The phenomenon where local communities oppose the establishment of data centers due to concerns about environmental and economic impacts.",
+      "description": "The resistance from local communities against the establishment of data centers due to concerns over energy consumption and environmental impact.",
       "first_detected_date": "2026-04-20",
-      "last_mentioned_date": "2026-09-17",
-      "mention_count": 6,
+      "last_mentioned_date": "2026-09-19",
+      "mention_count": 7,
       "source_podcasts": null,
       "status": "active",
-      "investment_implications": "Understanding community opposition can help investors gauge the risks associated with tech investments in certain areas.",
+      "investment_implications": "Understanding local opposition to data centers can inform investment decisions in energy and tech sectors.",
       "display_on_main": 0,
       "archived_date": null,
       "archived_reason": null,
       "first_detected_episode_id": null,
       "first_detected_speaker": null,
-      "last_mentioned_episode_id": 492,
-      "last_mentioned_speaker": "Dina Palma-Cormick"
+      "last_mentioned_episode_id": 499,
+      "last_mentioned_speaker": "David Bush"
     },
     {
       "id": 118,
@@ -11757,20 +11776,20 @@
     {
       "id": 57,
       "term": "AI Infrastructure",
-      "description": "The physical and cloud compute layer, particularly GPUs, that serves as the foundational revenue-generating substrate for modern AI workloads.",
+      "description": "The foundational technology and systems that support the development and deployment of artificial intelligence applications.",
       "first_detected_date": "2026-03-17",
-      "last_mentioned_date": "2026-09-17",
-      "mention_count": 36,
+      "last_mentioned_date": "2026-09-19",
+      "mention_count": 37,
       "source_podcasts": null,
       "status": "active",
-      "investment_implications": "As GPUs become fungible, durable, revenue-generating assets, AI infrastructure shifts from pure capex drain to yield-producing real estate-like investments.",
+      "investment_implications": "Investing in companies that provide AI infrastructure can lead to stable earnings growth as demand increases.",
       "display_on_main": 0,
       "archived_date": null,
       "archived_reason": null,
       "first_detected_episode_id": 71,
       "first_detected_speaker": null,
-      "last_mentioned_episode_id": 488,
-      "last_mentioned_speaker": "Brad Gershner"
+      "last_mentioned_episode_id": 499,
+      "last_mentioned_speaker": "David Bush"
     },
     {
       "id": 26,
@@ -12029,8 +12048,8 @@
       "term": "AI Agents",
       "description": "Autonomous AI systems capable of collaborating in large swarms to solve complex problems, exemplified by the use of 10,000 agents to tackle the Navier-Stokes millennium prize problem.",
       "first_detected_date": "2026-02-28",
-      "last_mentioned_date": "2026-09-17",
-      "mention_count": 95,
+      "last_mentioned_date": "2026-09-19",
+      "mention_count": 96,
       "source_podcasts": null,
       "status": "active",
       "investment_implications": "Agentic swarms represent the next compute demand layer beyond chatbots, driving infrastructure needs and opening enterprise automation markets.",
@@ -12039,8 +12058,8 @@
       "archived_reason": null,
       "first_detected_episode_id": 31,
       "first_detected_speaker": null,
-      "last_mentioned_episode_id": 493,
-      "last_mentioned_speaker": "Dario Amadeh"
+      "last_mentioned_episode_id": 499,
+      "last_mentioned_speaker": "David Bush"
     },
     {
       "id": 38,

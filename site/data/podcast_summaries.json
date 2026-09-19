@@ -1,5 +1,21 @@
 [
   {
+    "id": 499,
+    "podcast_name": "Monetary Matters with Jack Farley",
+    "episode_title": "Why The 30-Year Treasury Lost Its Biggest Buyers | David Busch on Why High Yields Are Attractive Right Now",
+    "episode_date": "2026-09-19",
+    "summary": "In this episode, Jack Farley discusses the implications of rising Treasury yields on equity valuations and the evolving role of bonds in investment portfolios. The conversation highlights the impact of AI adoption on earnings growth, the risks associated with the private credit market, and the energy demands of AI infrastructure. Investors are encouraged to reassess their strategies in light of these market dynamics, particularly focusing on sectors that leverage AI technology and the diversification benefits of Treasuries.",
+    "key_takeaways": [
+      "Rising Treasury yields compress equity risk premiums, necessitating a reassessment of equity valuations.",
+      "Companies involved in AI infrastructure are expected to sustain stable earnings growth despite rising borrowing costs.",
+      "The private credit market presents liquidity and credit risks that require careful navigation and due diligence.",
+      "Higher yields make Treasuries more attractive for portfolio diversification, particularly in the 3-7 year range.",
+      "The energy demands of AI infrastructure necessitate a diverse energy strategy, including traditional and renewable sources."
+    ],
+    "investment_thesis": "Investors should focus on sectors benefiting from AI adoption and consider increasing allocations to Treasuries for portfolio stability.",
+    "key_tickers": null
+  },
+  {
     "id": 498,
     "podcast_name": "The a16z Show",
     "episode_title": "What Makes a Consumer AI Product Stick? | Josh Elman",
