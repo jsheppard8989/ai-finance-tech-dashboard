@@ -86,13 +86,13 @@
     "_primary_source": "Treasury.gov",
     "_source_url": "https://home.treasury.gov/resource-center/data-chart-center/interest-rates/TextView?type=daily_treasury_yield_curve",
     "_fred_status": "unavailable (optional)",
-    "last_updated": "2026-09-18T06:44:40.877638",
-    "as_of_date": "2026-09-17",
+    "last_updated": "2026-09-18T22:37:47.081676",
+    "as_of_date": "2026-09-18",
     "spreads": {
       "2s10s": {
         "label": "2s10s Spread",
         "description": "10Y minus 2Y Treasury yield. Classic recession indicator. Negative = inverted curve.",
-        "value_bps": 27.0,
+        "value_bps": 25.0,
         "signal": "normal",
         "source": "Treasury.gov (computed)",
         "calculation": "10Y - 2Y from Treasury daily curve"
@@ -100,7 +100,7 @@
       "10s30s": {
         "label": "10s30s Spread (NOB proxy)",
         "description": "30Y minus 10Y Treasury yield. Reflects long-end term premium and duration demand.",
-        "value_bps": 35.0,
+        "value_bps": 33.0,
         "signal": "normal",
         "source": "Treasury.gov (computed)",
         "calculation": "30Y - 10Y from Treasury daily curve"
@@ -108,18 +108,18 @@
     },
     "levels": {
       "2y": {
-        "value": 4.67,
-        "change_1d_bps": -7.0,
+        "value": 4.76,
+        "change_1d_bps": 9.0,
         "source": "Treasury.gov"
       },
       "10y": {
-        "value": 4.94,
-        "change_1d_bps": -7.0,
+        "value": 5.01,
+        "change_1d_bps": 7.0,
         "source": "Treasury.gov"
       },
       "30y": {
-        "value": 5.29,
-        "change_1d_bps": -6.0,
+        "value": 5.34,
+        "change_1d_bps": 5.0,
         "source": "Treasury.gov"
       }
     },
@@ -127,9 +127,9 @@
       "_comment": "MOVE Index - bond market VIX. Source: Yahoo Finance ^MOVE.",
       "label": "MOVE Index",
       "description": "Treasury implied volatility index. High readings = bond market stress/uncertainty.",
-      "value": 76.22,
+      "value": 80.64,
       "change_1d": 0.0,
-      "signal": "low_vol",
+      "signal": "normal",
       "yahoo_symbol": "^MOVE",
       "source": "Yahoo Finance",
       "thresholds": {
@@ -145,18 +145,18 @@
     "_fetch_url": "https://www.cftc.gov/dea/futures/financial_lf.htm",
     "_api_alternative": "Quandl CFTC dataset (may need key)",
     "_fetch_instructions": "CFTC releases COT every Friday at 3:30pm ET for positions as of prior Tuesday.",
-    "last_updated": "2026-09-18T15:07:31.841697",
+    "last_updated": "2026-09-18T22:37:47.600355",
     "report_date": "2026-09-15",
-    "prior_report_date": "2026-09-08",
+    "prior_report_date": "2026-09-15",
     "rates_positioning": {
       "10y_note": {
         "label": "10-Year T-Note Futures",
         "contract": "TY",
         "asset_manager_net": null,
         "leveraged_funds_net": -1868126,
-        "prior_week_net": -1938754,
+        "prior_week_net": -1868126,
         "dealer_net": null,
-        "change_1w": 70628,
+        "change_1w": 0,
         "signal": null,
         "percentile_1y": null
       },
@@ -165,9 +165,9 @@
         "contract": "TU",
         "asset_manager_net": null,
         "leveraged_funds_net": -1294575,
-        "prior_week_net": -1290479,
+        "prior_week_net": -1294575,
         "dealer_net": null,
-        "change_1w": -4096,
+        "change_1w": 0,
         "signal": null,
         "percentile_1y": null
       },
@@ -176,9 +176,9 @@
         "contract": "US",
         "asset_manager_net": null,
         "leveraged_funds_net": -211735,
-        "prior_week_net": -276965,
+        "prior_week_net": -211735,
         "dealer_net": null,
-        "change_1w": 65230,
+        "change_1w": 0,
         "signal": null,
         "percentile_1y": null
       }
@@ -189,9 +189,9 @@
         "contract": "BTC",
         "asset_manager_net": null,
         "leveraged_funds_net": -6354,
-        "prior_week_net": -7892,
+        "prior_week_net": -6354,
         "dealer_net": null,
-        "change_1w": 1538,
+        "change_1w": 0,
         "signal": null,
         "percentile_1y": null
       }
@@ -202,9 +202,9 @@
         "contract": "NQ",
         "asset_manager_net": null,
         "leveraged_funds_net": -13052,
-        "prior_week_net": -36884,
+        "prior_week_net": -13052,
         "dealer_net": null,
-        "change_1w": 23832,
+        "change_1w": 0,
         "signal": null,
         "percentile_1y": null
       }
@@ -234,7 +234,7 @@
     "_source_url": "https://gpu-index.semianalysis.com/",
     "_data_type": "surveyed_index",
     "_staleness_note": "Free public data lags several months behind current date. Display the as-of period prominently.",
-    "last_fetched": "2026-09-18T06:44:24.569309",
+    "last_fetched": "2026-09-18T22:37:30.983669",
     "h100": {
       "period": "Apr 2026",
       "composite_index": {
