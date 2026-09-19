@@ -2,7 +2,7 @@
   "_metadata": {
     "schema_version": 1,
     "note": "Inception shares fixed; daily marks update current_* only.",
-    "last_updated": "2026-09-18T09:44:32.903940"
+    "last_updated": "2026-09-18T22:37:30.475821"
   },
   "baskets": [
     {
@@ -13,10 +13,10 @@
       "as_of_label": "Sep 18, 2026 ~9:30 AM CT",
       "notional_each_usd": 1000,
       "basket_notional_usd": 5000,
-      "basket_current_value": 4969.57,
-      "basket_change_pct": -0.61,
+      "basket_current_value": 4993.48,
+      "basket_change_pct": -0.13,
       "index_start": 100,
-      "basket_index_value": 99.39,
+      "basket_index_value": 99.87,
       "names": [
         {
           "ticker": "HIMS",
@@ -25,9 +25,9 @@
           "inception_price": 28.09,
           "shares": 35.5999,
           "notional": 1000,
-          "current_price": 27.98,
-          "current_value": 996.09,
-          "change_pct": -0.39
+          "current_price": 27.99,
+          "current_value": 996.44,
+          "change_pct": -0.36
         },
         {
           "ticker": "GDRX",
@@ -36,9 +36,9 @@
           "inception_price": 3.33,
           "shares": 300.3003,
           "notional": 1000,
-          "current_price": 3.33,
-          "current_value": 1000.0,
-          "change_pct": 0.0
+          "current_price": 3.38,
+          "current_value": 1015.02,
+          "change_pct": 1.5
         },
         {
           "ticker": "TEM",
@@ -47,9 +47,9 @@
           "inception_price": 77.97,
           "shares": 12.8254,
           "notional": 1000,
-          "current_price": 77.99,
-          "current_value": 1000.25,
-          "change_pct": 0.03
+          "current_price": 77.84,
+          "current_value": 998.33,
+          "change_pct": -0.17
         },
         {
           "ticker": "GH",
@@ -58,9 +58,9 @@
           "inception_price": 183.1,
           "shares": 5.4615,
           "notional": 1000,
-          "current_price": 177.5,
-          "current_value": 969.42,
-          "change_pct": -3.06
+          "current_price": 179.38,
+          "current_value": 979.68,
+          "change_pct": -2.03
         },
         {
           "ticker": "ABT",
@@ -69,13 +69,13 @@
           "inception_price": 102.2,
           "shares": 9.7847,
           "notional": 1000,
-          "current_price": 102.59,
-          "current_value": 1003.81,
-          "change_pct": 0.38
+          "current_price": 102.61,
+          "current_value": 1004.01,
+          "change_pct": 0.4
         }
       ],
       "disclaimer": "Research sleeve / scorecard, not advice. $1,000 equal-weight illustration only.",
-      "last_updated": "2026-09-18T09:44:32.903931"
+      "last_updated": "2026-09-18T22:37:30.475803"
     }
   ]
 }
