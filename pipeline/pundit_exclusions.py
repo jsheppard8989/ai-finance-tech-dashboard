@@ -6,6 +6,13 @@ Keep site/debait.html EXCLUDE in sync (see comment there).
 
 NOTE: ASR variants are handled via canonicalization in person_name_safety.py.
       is_excluded_pundit_name() canonicalizes first, so "Dave Blenden" → "Dave Blundin" → excluded.
+
+Culture one-off episode gating:
+  a16z and other podcasts occasionally produce culture/entertainment episodes that aren't
+  AI/finance relevant. These should be skipped by default. Use is_culture_oneoff_episode()
+  to gate ingest. If unsure, ask Jared via Ditka. Do not auto-publish culture one-offs.
+
+  Scrubbed 2026-09-20: Nas, Grandmaster Caz, Steve Stoute hip-hop pioneers episode (Ditka: Jared).
 """
 
 from __future__ import annotations
@@ -39,6 +46,26 @@ EXCLUDED_PUNDIT_NAMES: FrozenSet[str] = frozenset(
         "AWG",
         # Bad extractions
         "E-Modemustock",
+        # Culture one-off guests (scrubbed 2026-09-20 — hip-hop pioneers episode)
+        "Grandmaster Caz",
+        "Steve Stoute",
+        "Steve Stout",  # ASR variant
+    }
+)
+
+
+# Title keywords that indicate a culture one-off episode (non-AI/finance)
+# These episodes should be skipped by default. Ask Jared via Ditka if unsure.
+CULTURE_ONEOFF_KEYWORDS: FrozenSet[str] = frozenset(
+    {
+        "hip-hop",
+        "hip hop",
+        "hiphop",
+        "paid in full",
+        "pioneers their due",
+        "grandmaster caz",
+        "music pioneers",
+        "culture one-off",
     }
 )
 
@@ -59,6 +86,7 @@ EXCLUDED_DEBATER_NAMES: FrozenSet[str] = frozenset(
 
 _EXCLUDED_LOWER: FrozenSet[str] = frozenset(x.lower() for x in EXCLUDED_PUNDIT_NAMES)
 _EXCLUDED_DEBATER_LOWER: FrozenSet[str] = frozenset(x.lower() for x in EXCLUDED_DEBATER_NAMES)
+_CULTURE_KEYWORDS_LOWER: FrozenSet[str] = frozenset(x.lower() for x in CULTURE_ONEOFF_KEYWORDS)
 
 
 def is_excluded_pundit_name(name: str) -> bool:
@@ -90,3 +118,20 @@ def is_excluded_debater_name(name: str) -> bool:
     canonical = canonicalize_person_name(n)
     low = canonical.lower()
     return low in _EXCLUDED_LOWER or low in _EXCLUDED_DEBATER_LOWER
+
+
+def is_culture_oneoff_episode(title: str) -> bool:
+    """
+    True if episode title contains culture one-off keywords (hip-hop, etc.).
+    
+    These episodes are NOT AI/finance relevant and should be skipped by default.
+    If unsure, ask Jared via Ditka. Do not auto-publish culture one-offs.
+    
+    Returns:
+        True if episode should be skipped (culture one-off detected)
+        False if episode appears to be AI/finance relevant
+    """
+    t = (title or "").lower()
+    if not t:
+        return False
+    return any(kw in t for kw in _CULTURE_KEYWORDS_LOWER)
