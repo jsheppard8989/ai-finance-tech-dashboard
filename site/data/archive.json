@@ -58,6 +58,25 @@
       "podcast_episode_id": 499
     },
     {
+      "id": 515,
+      "title": "Robinhood's Vlad Tenev on Tokenizing Everything, OpenAI's 6 Misalignment Reports, Figure's Robot Makes Beds | EP #292",
+      "source_type": "podcast",
+      "source_name": "Moonshots with Peter Diamandis",
+      "source_date": "2026-09-19",
+      "summary": "The episode discusses the rapid integration of AI technologies in professional services, particularly in finance and law, highlighting tools like OpenAI's ChatGPT and Astra. It emphasizes the implications of AI's efficiency surpassing human cognitive abilities, the trend of recursive self-improvement in AI, and the democratization of investment opportunities through platforms like Robinhood Ventures. These developments signal a transformative shift in investment strategies and market dynamics.",
+      "key_takeaway": "Investing in AI-driven platforms and tools that enhance operational efficiency and democratize investment access presents significant opportunities for growth.",
+      "tickers_mentioned": [
+        "NVDA"
+      ],
+      "sentiment": "bullish",
+      "display_on_main": 1,
+      "display_order": 0,
+      "added_date": "2026-09-19",
+      "archived_date": null,
+      "archived_reason": null,
+      "podcast_episode_id": 500
+    },
+    {
       "id": 508,
       "title": "Nick Shirley: Exposing Government Fraud, Suing California & Taking on the Media",
       "source_type": "podcast",
@@ -107,7 +126,7 @@
         "NVDA"
       ],
       "sentiment": "bearish",
-      "display_on_main": 1,
+      "display_on_main": 0,
       "display_order": 0,
       "added_date": "2026-09-19",
       "archived_date": null,
@@ -9884,12 +9903,30 @@
   "definitions": [],
   "overton": [
     {
+      "id": 106,
+      "term": "Mission Critical Software",
+      "description": "Software indispensable for organizations' day-to-day operations, such as sources of truth, core processes, and security.",
+      "first_detected_date": "2026-09-19",
+      "last_mentioned_date": "2026-09-19",
+      "mention_count": 2,
+      "source_podcasts": null,
+      "status": "active",
+      "investment_implications": "Investors should focus on the resilience and indispensability of these software products for long-term stability.",
+      "display_on_main": 0,
+      "archived_date": null,
+      "archived_reason": null,
+      "first_detected_episode_id": 500,
+      "first_detected_speaker": "Peter Diamandis (hosts)",
+      "last_mentioned_episode_id": 500,
+      "last_mentioned_speaker": "Peter Diamandis (hosts)"
+    },
+    {
       "id": 285,
       "term": "Loops",
       "description": "An operational framework where AI systems handle repetitive tasks in cascading scopes, from individual personal workflows up to large parts of an entire company, freeing humans for strategic and intuitive work.",
       "first_detected_date": "2026-09-12",
       "last_mentioned_date": "2026-09-19",
-      "mention_count": 3,
+      "mention_count": 4,
       "source_podcasts": null,
       "status": "active",
       "investment_implications": "Companies architected around loops may achieve superior capital efficiency and scalability by compressing operational overhead into automated cycles.",
@@ -9898,8 +9935,8 @@
       "archived_reason": null,
       "first_detected_episode_id": 473,
       "first_detected_speaker": null,
-      "last_mentioned_episode_id": 498,
-      "last_mentioned_speaker": "Josh Elman"
+      "last_mentioned_episode_id": 500,
+      "last_mentioned_speaker": "Peter Diamandis (hosts)"
     },
     {
       "id": 284,
@@ -10014,8 +10051,8 @@
       "term": "Skin in the Game",
       "description": "A principle where individuals or entities have a personal stake or risk in the outcomes of their decisions or actions.",
       "first_detected_date": "2026-08-04",
-      "last_mentioned_date": "2026-09-06",
-      "mention_count": 4,
+      "last_mentioned_date": "2026-09-19",
+      "mention_count": 5,
       "source_podcasts": null,
       "status": "active",
       "investment_implications": "Having skin in the game can align incentives and encourage more prudent risk management in investment strategies.",
@@ -10024,8 +10061,8 @@
       "archived_reason": null,
       "first_detected_episode_id": 384,
       "first_detected_speaker": "Victor Hagani",
-      "last_mentioned_episode_id": 460,
-      "last_mentioned_speaker": "Chamath Palihapitiya, Jason Calacanis (hosts)"
+      "last_mentioned_episode_id": 500,
+      "last_mentioned_speaker": "Peter Diamandis (hosts)"
     },
     {
       "id": 269,
@@ -10140,8 +10177,8 @@
       "term": "Autonomy",
       "description": "The capacity of an AI system to make decisions and operate independently of direct human control or oversight, as evidenced by agents not alerting humans about their unethical actions.",
       "first_detected_date": "2026-07-22",
-      "last_mentioned_date": "2026-09-18",
-      "mention_count": 21,
+      "last_mentioned_date": "2026-09-19",
+      "mention_count": 22,
       "source_podcasts": null,
       "status": "active",
       "investment_implications": "Emphasizes the critical need for ethical AI frameworks, clear oversight mechanisms, and fail-safes to manage systems operating independently of human control, impacting regulatory compliance and public trust.",
@@ -10150,8 +10187,8 @@
       "archived_reason": null,
       "first_detected_episode_id": 362,
       "first_detected_speaker": "Travis Kalanick, Ben Horowitz",
-      "last_mentioned_episode_id": 495,
-      "last_mentioned_speaker": "Jared Isaacman"
+      "last_mentioned_episode_id": 500,
+      "last_mentioned_speaker": "Peter Diamandis (hosts)"
     },
     {
       "id": 265,
@@ -10339,7 +10376,7 @@
       "description": "Massive cloud computing providers (Amazon, Google, Microsoft, Meta) whose data center power demands are reshaping electricity markets and enabling new energy infrastructure financing.",
       "first_detected_date": "2026-06-19",
       "last_mentioned_date": "2026-09-19",
-      "mention_count": 37,
+      "mention_count": 38,
       "source_podcasts": null,
       "status": "active",
       "investment_implications": "Their 20-year PPAs are the demand anchor making previously uneconomic nuclear projects bankable; track PPA announcements as leading indicators for nuclear buildout.",
@@ -10348,8 +10385,8 @@
       "archived_reason": null,
       "first_detected_episode_id": 302,
       "first_detected_speaker": "Chamath Palihapitiya, Jason Calacanis (hosts)",
-      "last_mentioned_episode_id": 499,
-      "last_mentioned_speaker": "David Bush"
+      "last_mentioned_episode_id": 500,
+      "last_mentioned_speaker": "Peter Diamandis (hosts)"
     },
     {
       "id": 256,
@@ -10824,8 +10861,8 @@
       "term": "Singularity",
       "description": "A hypothetical point in the future at which technological growth becomes uncontrollable and irreversible, leading to unforeseeable changes in human civilization.",
       "first_detected_date": "2026-05-15",
-      "last_mentioned_date": "2026-09-17",
-      "mention_count": 71,
+      "last_mentioned_date": "2026-09-19",
+      "mention_count": 72,
       "source_podcasts": null,
       "status": "active",
       "investment_implications": "Investors should consider the potential for rapid technological change and its impact on various sectors, including AI, when making long-term investment decisions.",
@@ -10834,8 +10871,8 @@
       "archived_reason": null,
       "first_detected_episode_id": 221,
       "first_detected_speaker": null,
-      "last_mentioned_episode_id": 493,
-      "last_mentioned_speaker": "Dario Amadeh"
+      "last_mentioned_episode_id": 500,
+      "last_mentioned_speaker": "Peter Diamandis (hosts)"
     },
     {
       "id": 97,
@@ -11225,24 +11262,6 @@
       "source_podcasts": null,
       "status": "active",
       "investment_implications": "Invest in companies and technologies that embrace and drive progress.",
-      "display_on_main": 0,
-      "archived_date": null,
-      "archived_reason": null,
-      "first_detected_episode_id": null,
-      "first_detected_speaker": null,
-      "last_mentioned_episode_id": null,
-      "last_mentioned_speaker": null
-    },
-    {
-      "id": 106,
-      "term": "Mission Critical Software",
-      "description": "Software indispensable for organizations' day-to-day operations, such as sources of truth, core processes, and security.",
-      "first_detected_date": "2026-04-10",
-      "last_mentioned_date": "2026-04-10",
-      "mention_count": 1,
-      "source_podcasts": null,
-      "status": "active",
-      "investment_implications": "Investors should focus on the resilience and indispensability of these software products for long-term stability.",
       "display_on_main": 0,
       "archived_date": null,
       "archived_reason": null,
@@ -12049,7 +12068,7 @@
       "description": "Autonomous AI systems capable of collaborating in large swarms to solve complex problems, exemplified by the use of 10,000 agents to tackle the Navier-Stokes millennium prize problem.",
       "first_detected_date": "2026-02-28",
       "last_mentioned_date": "2026-09-19",
-      "mention_count": 96,
+      "mention_count": 97,
       "source_podcasts": null,
       "status": "active",
       "investment_implications": "Agentic swarms represent the next compute demand layer beyond chatbots, driving infrastructure needs and opening enterprise automation markets.",
@@ -12058,8 +12077,8 @@
       "archived_reason": null,
       "first_detected_episode_id": 31,
       "first_detected_speaker": null,
-      "last_mentioned_episode_id": 499,
-      "last_mentioned_speaker": "David Bush"
+      "last_mentioned_episode_id": 500,
+      "last_mentioned_speaker": "Peter Diamandis (hosts)"
     },
     {
       "id": 38,
