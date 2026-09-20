@@ -1,265 +1,188 @@
 #!/usr/bin/env python3
 """
-Fetch GPU rental pricing data from SemiAnalysis GPU Index.
+Fetch GPU rental pricing data from SemiAnalysis GPU Index public API.
 
-Source: https://gpu-index.semianalysis.com/
-Data type: Surveyed index (monthly survey of 100+ neoclouds and buyers, validated against transactions)
+Source: https://gpu-index.semianalysis.com/api/public-data
+Data type: Daily spot-contract composite index + periodic contract ranges
 
-This fetcher extracts:
-- H100 1-year contract rental price (the forward commitment signal)
-- Historical trend of that series
-- On-demand/spot state (including "Sold Out" as a first-class value)
-- Period/as-of date for staleness awareness
-
-The free public data LAGS by several months. This is intentional and must be displayed.
+This fetcher extracts from the JSON API:
+- H100 daily Spot-Contract Composite from `index` (PRIMARY metric, e.g., $3.29)
+- H100 1-year contract range from `contract` (SECONDARY, e.g., $2.40-3.20)
+- B200 daily composite from `index` (Watch line)
+- On-demand sold-out periods from `contract.soldOutPeriods`
+- Daily index date + latest contract period for as-of awareness
 
 TREND CALCULATION:
-The trend compares the latest period to the immediately previous period (period-over-period).
-This is a deliberate choice: the SemiAnalysis history uses varying period lengths (half-years
-and quarters in 2023-2024, monthly from mid-2025 onward), so a fixed "N-month" lookback would
-be misleading. Period-over-period is always honest because the comparison period is stored
-and displayed alongside the percentage. The UI must show "vs [comparison_period]" so readers
-know exactly what's being compared.
+For the daily index, trend compares latest day vs 7 days prior (week-over-week).
+For contract ranges, trend compares latest period vs prior period (period-over-period).
+Longer-term trend anchors ~30 days back for daily, ~6 periods back for contract.
 
-All numeric values are rounded at the data boundary (2 decimal places for prices/midpoints,
+All numeric values are rounded at the data boundary (2 decimal places for prices,
 1 decimal place for percentages) to prevent floating point noise from reaching the page.
 """
 
 import json
-import re
 import urllib.request
-from datetime import datetime
+from datetime import datetime, timedelta
 from pathlib import Path
 from typing import Optional, Dict, Any, List
 
 from workspace_paths import SITE_DATA_DIR
 
 MARKET_DATA_FILE = SITE_DATA_DIR / "market_data.json"
+API_URL = "https://gpu-index.semianalysis.com/api/public-data"
 SOURCE_URL = "https://gpu-index.semianalysis.com/"
 
 
-def fetch_gpu_index_page() -> Optional[str]:
-    """Fetch the SemiAnalysis GPU index page HTML."""
+def fetch_public_data() -> Optional[Dict[str, Any]]:
+    """Fetch JSON from the SemiAnalysis public-data API."""
     try:
         req = urllib.request.Request(
-            SOURCE_URL,
+            API_URL,
             headers={
-                'User-Agent': 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36'
+                'User-Agent': 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36',
+                'Accept': 'application/json'
             }
         )
         with urllib.request.urlopen(req, timeout=30) as response:
-            return response.read().decode('utf-8')
+            return json.loads(response.read().decode('utf-8'))
     except Exception as e:
-        print(f"  ✗ Failed to fetch GPU index page: {e}")
+        print(f"  ✗ Failed to fetch public-data API: {e}")
         return None
 
 
-def parse_table_rows(html: str, table_index: int) -> List[List[str]]:
-    """
-    Parse an HTML table by index and return rows as lists of cell text.
-    Simple regex-based parser for server-rendered HTML tables.
-    """
-    table_pattern = r'<table[^>]*>(.*?)</table>'
-    tables = re.findall(table_pattern, html, re.DOTALL | re.IGNORECASE)
-    
-    if table_index >= len(tables):
-        return []
-    
-    table_html = tables[table_index]
-    rows = []
-    
-    row_pattern = r'<tr[^>]*>(.*?)</tr>'
-    cell_pattern = r'<t[hd][^>]*>(.*?)</t[hd]>'
-    
-    for row_match in re.finditer(row_pattern, table_html, re.DOTALL | re.IGNORECASE):
-        row_html = row_match.group(1)
-        cells = []
-        for cell_match in re.finditer(cell_pattern, row_html, re.DOTALL | re.IGNORECASE):
-            cell_text = cell_match.group(1)
-            cell_text = re.sub(r'<[^>]+>', '', cell_text)
-            cell_text = cell_text.strip()
-            cell_text = cell_text.replace('\n', ' ').replace('\r', '')
-            cell_text = re.sub(r'\s+', ' ', cell_text)
-            cells.append(cell_text)
-        if cells:
-            rows.append(cells)
-    
-    return rows
+def parse_date(date_str: str) -> Optional[datetime]:
+    """Parse API date string like 'Sun, 20 Sep 2026 00:00:00 GMT'."""
+    try:
+        return datetime.strptime(date_str, '%a, %d %b %Y %H:%M:%S GMT')
+    except (ValueError, TypeError):
+        return None
 
 
-def normalize_price_value(raw: str) -> Dict[str, Any]:
+def format_date_short(dt: datetime) -> str:
+    """Format datetime as 'Sep 20, 2026'."""
+    return dt.strftime('%b %d, %Y')
+
+
+def normalize_price_value(raw: Any) -> Dict[str, Any]:
     """
-    Normalize a price cell value into structured data.
-    Handles: "$2.10-2.70", "$2.82", "Sold Out", "✕ Sold Out", "—", empty.
-    Returns dict with 'display', 'type', and optionally 'low'/'high' for ranges.
+    Normalize a price value into structured data.
+    Handles: [low, high] ranges, single floats, None.
     """
-    if not raw or raw.strip() in ('', '—', '–', '-'):
+    if raw is None:
         return {'display': '—', 'type': 'unavailable'}
     
-    text = raw.strip()
-    
-    if 'sold out' in text.lower():
-        return {'display': 'Sold Out', 'type': 'sold_out'}
-    
-    range_match = re.match(r'\$?([\d.]+)\s*[-–]\s*\$?([\d.]+)', text)
-    if range_match:
-        low = float(range_match.group(1))
-        high = float(range_match.group(2))
+    if isinstance(raw, list) and len(raw) == 2:
+        low, high = round(raw[0], 2), round(raw[1], 2)
         return {
             'display': f'${low:.2f}-{high:.2f}',
             'type': 'range',
-            'low': round(low, 2),
-            'high': round(high, 2),
+            'low': low,
+            'high': high,
             'midpoint': round((low + high) / 2, 2)
         }
     
-    single_match = re.match(r'\$?([\d.]+)', text)
-    if single_match:
-        value = float(single_match.group(1))
+    if isinstance(raw, (int, float)):
+        value = round(float(raw), 2)
         return {
             'display': f'${value:.2f}',
             'type': 'single',
             'value': value
         }
     
-    return {'display': text, 'type': 'unknown'}
+    return {'display': str(raw), 'type': 'unknown'}
 
 
-def parse_current_market_table(rows: List[List[str]]) -> Dict[str, Any]:
+def compute_daily_trend(index_data: List[Dict], sku: str = 'h100') -> Dict[str, Any]:
     """
-    Parse the "Current Market Pricing" table.
-    Returns dict keyed by SKU (e.g., 'H100') with period and pricing data.
-    """
-    if len(rows) < 2:
-        return {}
+    Compute trend for daily index data.
     
-    header = rows[0]
-    
-    col_map = {}
-    for i, col in enumerate(header):
-        col_lower = col.lower().strip()
-        if 'sku' in col_lower:
-            col_map['sku'] = i
-        elif 'period' in col_lower:
-            col_map['period'] = i
-        elif 'composite' in col_lower or 'spot-contract' in col_lower:
-            col_map['composite'] = i
-        elif 'on-demand' in col_lower:
-            col_map['on_demand'] = i
-        elif '1y' in col_lower:
-            col_map['1y'] = i
-    
-    results = {}
-    for row in rows[1:]:
-        if len(row) < 2:
-            continue
-        
-        sku = row[col_map.get('sku', 0)].strip().upper() if 'sku' in col_map else ''
-        if not sku:
-            continue
-        
-        entry = {'sku': sku}
-        
-        if 'period' in col_map and len(row) > col_map['period']:
-            entry['period'] = row[col_map['period']].strip()
-        
-        if 'composite' in col_map and len(row) > col_map['composite']:
-            entry['composite'] = normalize_price_value(row[col_map['composite']])
-        
-        if 'on_demand' in col_map and len(row) > col_map['on_demand']:
-            entry['on_demand'] = normalize_price_value(row[col_map['on_demand']])
-        
-        if '1y' in col_map and len(row) > col_map['1y']:
-            entry['1y_contract'] = normalize_price_value(row[col_map['1y']])
-        
-        results[sku] = entry
-    
-    return results
-
-
-def parse_history_table(rows: List[List[str]]) -> List[Dict[str, Any]]:
-    """
-    Parse the "Detailed Pricing History" table.
-    Returns list of dicts with period and pricing data, oldest first.
-    """
-    if len(rows) < 2:
-        return []
-    
-    header = rows[0]
-    
-    col_map = {}
-    for i, col in enumerate(header):
-        col_lower = col.lower().strip()
-        if 'period' in col_lower:
-            col_map['period'] = i
-        elif 'composite' in col_lower or 'spot-contract' in col_lower:
-            col_map['composite'] = i
-        elif 'on-demand' in col_lower:
-            col_map['on_demand'] = i
-        elif '1y' in col_lower:
-            col_map['1y'] = i
-    
-    history = []
-    for row in rows[1:]:
-        if len(row) < 2:
-            continue
-        
-        period = row[col_map.get('period', 0)].strip() if 'period' in col_map else ''
-        if not period:
-            continue
-        
-        entry = {'period': period}
-        
-        if 'composite' in col_map and len(row) > col_map['composite']:
-            entry['composite'] = normalize_price_value(row[col_map['composite']])
-        
-        if 'on_demand' in col_map and len(row) > col_map['on_demand']:
-            entry['on_demand'] = normalize_price_value(row[col_map['on_demand']])
-        
-        if '1y' in col_map and len(row) > col_map['1y']:
-            entry['1y_contract'] = normalize_price_value(row[col_map['1y']])
-        
-        history.append(entry)
-    
-    return history
-
-
-def compute_trend(history: List[Dict[str, Any]], field: str = '1y_contract') -> Dict[str, Any]:
-    """
-    Compute trend for a price series using dual-horizon comparison.
-    
-    Returns TWO comparisons:
-    1. Short-term: Latest period vs immediately previous period (period-over-period)
-    2. Long-term: Latest period vs anchor ~6 rows back (or earliest valid if <7 points)
-    
-    ANCHOR SELECTION RULE (deterministic, documented):
-    - If history has ≥7 valid data points: use index -7 (6 row intervals back from latest)
-    - Otherwise: use index 0 (earliest available point)
-    
-    IMPORTANT: The history contains non-monthly rows (1H 2023, 2H 2023, Q1 2024, etc.)
-    so row count does NOT equal calendar months. The `row_intervals` field explicitly
-    counts the number of valid data rows between anchor and latest, not elapsed time.
-    
-    ZERO/INVALID ANCHOR HANDLING:
-    If an anchor value is zero or negative, the percentage cannot be computed validly.
-    In this case, the long_term comparison is omitted entirely (fail-closed).
-    
-    All numeric values are rounded to prevent floating point noise from reaching the page.
+    Returns dual-horizon comparison:
+    1. Short-term: latest vs 7 days prior (week-over-week)
+    2. Long-term: latest vs ~30 days prior
     """
     valid_points = []
-    for h in history:
-        if field not in h:
-            continue
-        price_data = h[field]
-        if price_data['type'] in ('range', 'single'):
-            if price_data['type'] == 'range':
-                value = round(price_data['midpoint'], 2)
-            else:
-                value = round(price_data['value'], 2)
+    for entry in index_data:
+        value = entry.get(sku)
+        date = parse_date(entry.get('date', ''))
+        if value is not None and date is not None:
             valid_points.append({
-                'period': h['period'],
-                'value': value,
-                'display': price_data['display']
+                'date': date,
+                'value': round(value, 2)
+            })
+    
+    valid_points.sort(key=lambda x: x['date'])
+    
+    if len(valid_points) < 2:
+        return {'insufficient_data': True, 'data_points': len(valid_points)}
+    
+    latest = valid_points[-1]
+    
+    def find_closest_to_days_ago(target_days: int):
+        target_date = latest['date'] - timedelta(days=target_days)
+        closest = None
+        closest_diff = float('inf')
+        for point in valid_points[:-1]:
+            diff = abs((point['date'] - target_date).days)
+            if diff < closest_diff:
+                closest = point
+                closest_diff = diff
+        return closest, closest_diff
+    
+    week_ago, week_diff = find_closest_to_days_ago(7)
+    
+    if week_ago is None or week_ago['value'] <= 0:
+        return {'insufficient_data': True, 'data_points': len(valid_points),
+                'reason': 'no valid week-ago comparison point'}
+    
+    short_pct = round(((latest['value'] - week_ago['value']) / week_ago['value']) * 100, 1)
+    
+    result = {
+        'data_points': len(valid_points),
+        'latest_value': latest['value'],
+        'latest_date': format_date_short(latest['date']),
+        'short_term': {
+            'change_pct': short_pct,
+            'comparison_date': format_date_short(week_ago['date']),
+            'comparison_value': week_ago['value'],
+            'days_back': (latest['date'] - week_ago['date']).days
+        }
+    }
+    
+    month_ago, month_diff = find_closest_to_days_ago(30)
+    if month_ago and month_ago != week_ago and month_ago['value'] > 0:
+        long_pct = round(((latest['value'] - month_ago['value']) / month_ago['value']) * 100, 1)
+        result['long_term'] = {
+            'change_pct': long_pct,
+            'anchor_date': format_date_short(month_ago['date']),
+            'anchor_value': month_ago['value'],
+            'days_back': (latest['date'] - month_ago['date']).days
+        }
+    
+    result['change_pct'] = short_pct
+    result['comparison_date'] = result['short_term']['comparison_date']
+    
+    return result
+
+
+def compute_contract_trend(contract_data: List[Dict]) -> Dict[str, Any]:
+    """
+    Compute trend for contract range data (1-year commitment prices).
+    Uses midpoint of ranges for comparison.
+    """
+    valid_points = []
+    for entry in contract_data:
+        one_y = entry.get('1y')
+        period = entry.get('period', '')
+        if one_y and isinstance(one_y, list) and len(one_y) == 2:
+            low, high = one_y
+            midpoint = round((low + high) / 2, 2)
+            valid_points.append({
+                'period': period,
+                'value': midpoint,
+                'low': round(low, 2),
+                'high': round(high, 2),
+                'display': f'${low:.2f}-{high:.2f}'
             })
     
     if len(valid_points) < 2:
@@ -268,14 +191,11 @@ def compute_trend(history: List[Dict[str, Any]], field: str = '1y_contract') -> 
     latest = valid_points[-1]
     previous = valid_points[-2]
     
-    # Short-term: period-over-period comparison
-    # Guard against zero/negative previous value (fail-closed: no percentage)
     if previous['value'] <= 0:
-        return {'insufficient_data': True, 'data_points': len(valid_points), 
+        return {'insufficient_data': True, 'data_points': len(valid_points),
                 'reason': 'previous period value is zero or negative'}
     
-    short_pct = ((latest['value'] - previous['value']) / previous['value']) * 100
-    short_pct = round(short_pct, 1)
+    short_pct = round(((latest['value'] - previous['value']) / previous['value']) * 100, 1)
     
     result = {
         'data_points': len(valid_points),
@@ -290,8 +210,6 @@ def compute_trend(history: List[Dict[str, Any]], field: str = '1y_contract') -> 
         }
     }
     
-    # Long-term: anchor selection per documented rule
-    # Prefer index -7 (6 row intervals back) if ≥7 points; otherwise earliest (index 0)
     if len(valid_points) >= 7:
         anchor_index = -7
     else:
@@ -299,19 +217,10 @@ def compute_trend(history: List[Dict[str, Any]], field: str = '1y_contract') -> 
     
     anchor = valid_points[anchor_index]
     
-    # Only include long_term if:
-    # 1. Anchor differs from short_term comparison (i.e., at least 3 points)
-    # 2. Anchor value is positive (fail-closed: no invalid percentages)
     if anchor['period'] != previous['period'] and anchor['value'] > 0:
-        long_pct = ((latest['value'] - anchor['value']) / anchor['value']) * 100
-        long_pct = round(long_pct, 1)
-        
-        # row_intervals: number of rows between anchor and latest (not calendar time)
-        # For index -7 with 18 points: latest is index 17, anchor is index 11, intervals = 6
-        # This is explicitly row-based because history has varying period lengths
-        # (1H 2023, Q1 2024, monthly from mid-2025, etc.)
+        long_pct = round(((latest['value'] - anchor['value']) / anchor['value']) * 100, 1)
         if anchor_index < 0:
-            row_intervals = abs(anchor_index) - 1  # -7 means 6 intervals to latest
+            row_intervals = abs(anchor_index) - 1
         else:
             row_intervals = len(valid_points) - 1 - anchor_index
         
@@ -323,8 +232,6 @@ def compute_trend(history: List[Dict[str, Any]], field: str = '1y_contract') -> 
             'row_intervals': row_intervals
         }
     
-    # Legacy compatibility: keep 'change_pct' at top level but deprecate it
-    # The UI should migrate to using short_term/long_term objects
     result['change_pct'] = short_pct
     result['comparison_period'] = previous['period']
     result['comparison_value'] = previous['value']
@@ -333,142 +240,160 @@ def compute_trend(history: List[Dict[str, Any]], field: str = '1y_contract') -> 
     return result
 
 
-def validate_parsed_result(result: Dict[str, Any]) -> tuple[bool, str]:
+def extract_h100_contract(api_data: Dict) -> Optional[Dict]:
+    """Extract H100 contract data from API response."""
+    contracts = api_data.get('contract', [])
+    for contract in contracts:
+        if contract.get('sku', '').upper() == 'H100':
+            return contract
+    return None
+
+
+def validate_parsed_result(result: Dict[str, Any]) -> tuple:
     """
     Validate that a parsed result has all required fields with valid data.
     Returns (is_valid, error_reason).
-    
-    Required for a valid result:
-    - h100.period must not be 'unknown' or empty
-    - h100.1y_contract must have a valid type (range or single), not unavailable
-    - h100.trend must have short_term data (not insufficient_data)
-    
-    This prevents partial/malformed parses from overwriting previously good data.
     """
     if not result:
         return False, "result is None"
     
     h100 = result.get('h100', {})
     
-    # Check period
-    period = h100.get('period', '')
-    if not period or period == 'unknown':
-        return False, "H100 period is missing or unknown"
+    daily_date = h100.get('daily_date', '')
+    if not daily_date:
+        return False, "H100 daily_date is missing"
     
-    # Check 1y_contract has valid pricing data
-    contract = h100.get('1y_contract', {})
-    contract_type = contract.get('type', '')
-    if contract_type not in ('range', 'single'):
-        return False, f"H100 1y_contract type is '{contract_type}', expected range or single"
+    composite = h100.get('composite_index', {})
+    if composite.get('type') not in ('single',):
+        return False, f"H100 composite_index type is '{composite.get('type')}', expected single"
     
-    # Check trend has valid short_term data
-    trend = h100.get('trend', {})
-    if trend.get('insufficient_data'):
-        return False, f"H100 trend has insufficient data: {trend.get('reason', 'unknown reason')}"
-    if not trend.get('short_term'):
-        return False, "H100 trend missing short_term comparison"
+    daily_trend = h100.get('daily_trend', {})
+    if daily_trend.get('insufficient_data'):
+        return False, f"H100 daily_trend has insufficient data: {daily_trend.get('reason', 'unknown')}"
     
     return True, ""
 
 
-def fetch_and_parse() -> tuple[Optional[Dict[str, Any]], str]:
+def fetch_and_parse() -> tuple:
     """
     Main fetch and parse function.
     Returns (structured_data, error_reason) tuple.
-    
-    On success: (data_dict, "")
-    On failure: (None, "reason for failure")
-    
-    The error_reason is used to mark existing data as stale with context.
     """
-    print("Fetching SemiAnalysis GPU Index...")
+    print("Fetching SemiAnalysis GPU Index public API...")
+    print(f"  URL: {API_URL}")
     
-    html = fetch_gpu_index_page()
-    if not html:
-        return None, "Network error: failed to fetch page"
+    api_data = fetch_public_data()
+    if not api_data:
+        return None, "Network error: failed to fetch API"
     
-    current_table_rows = parse_table_rows(html, 0)
-    history_table_rows = parse_table_rows(html, 1)
+    if api_data.get('status') != 'ok':
+        return None, f"API error: status={api_data.get('status', 'unknown')}"
     
-    if not current_table_rows:
-        return None, "Parse error: current market pricing table not found"
-    if not history_table_rows:
-        return None, "Parse error: pricing history table not found"
+    index_data = api_data.get('index', [])
+    if not index_data:
+        return None, "Parse error: no index data in API response"
     
-    current_data = parse_current_market_table(current_table_rows)
-    history_data = parse_history_table(history_table_rows)
+    h100_contract = extract_h100_contract(api_data)
+    if not h100_contract:
+        return None, "Parse error: H100 contract data not found"
     
-    if not current_data:
-        return None, "Parse error: could not extract current market data from table"
-    if not history_data:
-        return None, "Parse error: could not extract history data from table"
+    contract_data = h100_contract.get('data', [])
+    sold_out_periods = h100_contract.get('soldOutPeriods', {}).get('onDemand', [])
     
-    h100_current = current_data.get('H100', {})
-    if not h100_current:
-        return None, "Parse error: H100 row not found in current market table"
+    latest_index = index_data[-1] if index_data else {}
+    latest_h100_daily = latest_index.get('h100')
+    latest_b200_daily = latest_index.get('b200')
+    latest_date = parse_date(latest_index.get('date', ''))
     
-    h100_trend = compute_trend(history_data, '1y_contract')
+    if latest_h100_daily is None or latest_date is None:
+        return None, "Parse error: latest H100 daily value not found"
     
-    latest_on_demand = None
-    for h in reversed(history_data):
-        if 'on_demand' in h and h['on_demand']['type'] != 'unavailable':
-            latest_on_demand = h['on_demand'].copy()
-            latest_on_demand['period'] = h['period']
-            break
+    daily_trend = compute_daily_trend(index_data, 'h100')
+    contract_trend = compute_contract_trend(contract_data)
+    
+    latest_contract = contract_data[-1] if contract_data else {}
+    latest_contract_period = latest_contract.get('period', 'unknown')
+    latest_1y = latest_contract.get('1y')
+    latest_on_demand = latest_contract.get('onDemand')
+    
+    on_demand_status = {'display': '—', 'type': 'unavailable'}
+    if latest_contract_period in sold_out_periods:
+        on_demand_status = {'display': 'Sold Out', 'type': 'sold_out', 'period': latest_contract_period}
+    elif latest_on_demand:
+        on_demand_status = normalize_price_value(latest_on_demand)
+        on_demand_status['period'] = latest_contract_period
+    
+    history_summary_recent = []
+    for entry in contract_data[-5:]:
+        period = entry.get('period', '')
+        one_y = entry.get('1y')
+        od = entry.get('onDemand')
+        
+        one_y_display = normalize_price_value(one_y).get('display', '—')
+        if period in sold_out_periods:
+            od_display = 'Sold Out'
+        else:
+            od_display = normalize_price_value(od).get('display', '—')
+        
+        history_summary_recent.append({
+            'period': period,
+            '1y_contract': one_y_display,
+            'on_demand': od_display
+        })
     
     result = {
-        '_comment': 'GPU rental pricing index from SemiAnalysis. This is SURVEYED data from monthly surveys of 100+ neoclouds/buyers, validated against transactions. NOT a live market price.',
+        '_comment': 'GPU rental pricing from SemiAnalysis public API. Daily spot-contract composite + periodic contract ranges.',
         '_source_url': SOURCE_URL,
-        '_data_type': 'surveyed_index',
-        '_staleness_note': 'Free public data lags several months behind current date. Display the as-of period prominently.',
+        '_api_url': API_URL,
+        '_data_type': 'api_index',
         'last_fetched': datetime.now().isoformat(),
         
         'h100': {
-            'period': h100_current.get('period', 'unknown'),
-            'composite_index': h100_current.get('composite', {'display': '—', 'type': 'unavailable'}),
-            '1y_contract': h100_current.get('1y_contract', {'display': '—', 'type': 'unavailable'}),
-            'on_demand': latest_on_demand or {'display': '—', 'type': 'unavailable'},
-            'trend': h100_trend
+            'daily_date': format_date_short(latest_date),
+            'daily_date_iso': latest_date.strftime('%Y-%m-%d'),
+            'composite_index': normalize_price_value(latest_h100_daily),
+            'contract_period': latest_contract_period,
+            '1y_contract': normalize_price_value(latest_1y),
+            'on_demand': on_demand_status,
+            'sold_out_periods': sold_out_periods,
+            'daily_trend': daily_trend,
+            'contract_trend': contract_trend,
+            'trend': contract_trend,
+            'period': latest_contract_period
         },
         
         'b200': {
-            'period': current_data.get('B200', {}).get('period', 'unknown'),
-            'composite_index': current_data.get('B200', {}).get('composite', {'display': '—', 'type': 'unavailable'})
+            'daily_date': format_date_short(latest_date),
+            'composite_index': normalize_price_value(latest_b200_daily)
         },
         
         'history_summary': {
-            'oldest_period': history_data[0]['period'] if history_data else None,
-            'newest_period': history_data[-1]['period'] if history_data else None,
-            'total_periods': len(history_data),
-            'recent_5': [
-                {
-                    'period': h['period'],
-                    '1y_contract': h.get('1y_contract', {}).get('display', '—'),
-                    'on_demand': h.get('on_demand', {}).get('display', '—')
-                }
-                for h in history_data[-5:]
-            ] if history_data else []
+            'oldest_period': contract_data[0]['period'] if contract_data else None,
+            'newest_period': latest_contract_period,
+            'newest_daily': format_date_short(latest_date),
+            'total_daily_points': len(index_data),
+            'total_contract_periods': len(contract_data),
+            'recent_5': history_summary_recent
         }
     }
     
-    # Validate the result before accepting it
     is_valid, error_reason = validate_parsed_result(result)
     if not is_valid:
         return None, f"Validation error: {error_reason}"
     
-    print(f"  ✓ Parsed H100 data for period: {result['h100']['period']}")
-    print(f"    1Y Contract: {result['h100']['1y_contract']['display']}")
+    print(f"  ✓ Fetched H100 data:")
+    print(f"    Daily Composite: {result['h100']['composite_index']['display']} (as of {result['h100']['daily_date']})")
+    print(f"    1Y Contract: {result['h100']['1y_contract']['display']} ({result['h100']['contract_period']})")
     print(f"    On-Demand: {result['h100']['on_demand']['display']}")
-    trend = result['h100']['trend']
-    if trend.get('short_term'):
-        short = trend['short_term']
-        long_str = ""
-        if trend.get('long_term'):
-            lt = trend['long_term']
-            long_str = f", {lt['change_pct']:+.1f}% since {lt['anchor_period']}"
-        print(f"    Trend: {short['change_pct']:+.1f}% vs {short['comparison_period']}{long_str}")
-    else:
-        print(f"    Trend: insufficient data ({trend.get('data_points', 0)} points)")
+    
+    dt = result['h100']['daily_trend']
+    if dt.get('short_term'):
+        short = dt['short_term']
+        trend_str = f"{short['change_pct']:+.1f}% vs {short['comparison_date']}"
+        if dt.get('long_term'):
+            lt = dt['long_term']
+            trend_str += f" · {lt['change_pct']:+.1f}% vs {lt['anchor_date']}"
+        print(f"    Daily Trend: {trend_str}")
     
     return result, ""
 
@@ -476,15 +401,8 @@ def fetch_and_parse() -> tuple[Optional[Dict[str, Any]], str]:
 def _rollup_data_status(market_data: Dict[str, Any]) -> str:
     """
     Compute top-level _data_status from individual data_fetch_status values.
-    
-    Returns:
-        'live'    - All automated sections are live
-        'partial' - Some sections are live, others stale or stub
-        'stale'   - All automated sections are stale
-        'stub'    - No sections have live data yet
     """
     status = market_data.get('data_fetch_status', {})
-    # Key automated sections (treasury_calendar is manual/stub for now)
     auto_sections = ['curve_data', 'cftc_cot', 'compute_forward']
     
     live_count = 0
@@ -534,7 +452,6 @@ def mark_data_stale(error_reason: str) -> bool:
         if 'data_fetch_status' in market_data:
             market_data['data_fetch_status']['compute_forward'] = 'stale'
         
-        # Roll up _data_status based on individual section statuses
         market_data['_data_status'] = _rollup_data_status(market_data)
         
         with open(MARKET_DATA_FILE, 'w') as f:
@@ -557,12 +474,18 @@ def update_market_data(gpu_data: Dict[str, Any]) -> bool:
         else:
             market_data = {}
         
+        if '_stale' in gpu_data:
+            del gpu_data['_stale']
+        if '_stale_since' in gpu_data:
+            del gpu_data['_stale_since']
+        if '_stale_reason' in gpu_data:
+            del gpu_data['_stale_reason']
+        
         market_data['compute_forward'] = gpu_data
         
         if 'data_fetch_status' in market_data:
             market_data['data_fetch_status']['compute_forward'] = 'live'
         
-        # Roll up _data_status based on individual section statuses
         market_data['_data_status'] = _rollup_data_status(market_data)
         market_data['_updated'] = datetime.now().strftime('%Y-%m-%d')
         
@@ -579,8 +502,8 @@ def update_market_data(gpu_data: Dict[str, Any]) -> bool:
 
 def main():
     print("=" * 60)
-    print("Fetch SemiAnalysis GPU Rental Pricing Index")
-    print(f"Source: {SOURCE_URL}")
+    print("Fetch SemiAnalysis GPU Rental Pricing Index (API)")
+    print(f"Source: {API_URL}")
     print(f"Started: {datetime.now()}")
     print("=" * 60)
     
@@ -593,23 +516,22 @@ def main():
         print("\n" + "=" * 60)
         print("SUMMARY")
         print("=" * 60)
+        print(f"H100 Daily Composite: {data['h100']['composite_index']['display']}")
+        print(f"As-of Daily: {data['h100']['daily_date']}")
         print(f"H100 1Y Contract: {data['h100']['1y_contract']['display']}")
-        print(f"As-of Period: {data['h100']['period']}")
-        trend = data['h100']['trend']
-        if trend.get('short_term'):
-            short = trend['short_term']
-            trend_str = f"{short['change_pct']:+.1f}% vs {short['comparison_period']}"
-            if trend.get('long_term'):
-                lt = trend['long_term']
-                trend_str += f" · {lt['change_pct']:+.1f}% since {lt['anchor_period']}"
-            print(f"Trend: {trend_str}")
-        else:
-            print(f"Trend: insufficient data")
+        print(f"As-of Contract: {data['h100']['contract_period']}")
+        dt = data['h100']['daily_trend']
+        if dt.get('short_term'):
+            short = dt['short_term']
+            trend_str = f"{short['change_pct']:+.1f}% vs {short['comparison_date']}"
+            if dt.get('long_term'):
+                lt = dt['long_term']
+                trend_str += f" · {lt['change_pct']:+.1f}% vs {lt['anchor_date']}"
+            print(f"Daily Trend: {trend_str}")
         print(f"On-Demand Status: {data['h100']['on_demand']['display']}")
+        if data['h100'].get('sold_out_periods'):
+            print(f"Sold-Out Periods: {', '.join(data['h100']['sold_out_periods'])}")
     else:
-        # Fetch/parse/validation failed - mark existing data as stale but don't overwrite it
-        # This is fail-closed behavior: the widget shows last known good data
-        # with staleness indicator rather than fabricated or missing values
         mark_data_stale(error_reason or "Unknown error during fetch/parse")
         print(f"\n✗ Failed to fetch GPU index data: {error_reason}")
         print("  (existing data preserved, marked stale)")
