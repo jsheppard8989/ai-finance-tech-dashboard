@@ -230,90 +230,145 @@
     "compute_forward": "live"
   },
   "compute_forward": {
-    "_comment": "GPU rental pricing index from SemiAnalysis. This is SURVEYED data from monthly surveys of 100+ neoclouds/buyers, validated against transactions. NOT a live market price.",
+    "_comment": "GPU rental pricing from SemiAnalysis public API. Daily spot-contract composite + periodic contract ranges.",
     "_source_url": "https://gpu-index.semianalysis.com/",
-    "_data_type": "surveyed_index",
-    "_staleness_note": "Free public data lags several months behind current date. Display the as-of period prominently.",
-    "last_fetched": "2026-09-20T07:15:35.575322",
+    "_api_url": "https://gpu-index.semianalysis.com/api/public-data",
+    "_data_type": "api_index",
+    "last_fetched": "2026-09-20T14:17:37.158082",
     "h100": {
-      "period": "Apr 2026",
+      "daily_date": "Sep 20, 2026",
+      "daily_date_iso": "2026-09-20",
       "composite_index": {
-        "display": "$2.82",
+        "display": "$3.29",
         "type": "single",
-        "value": 2.82
+        "value": 3.29
       },
+      "contract_period": "Aug 2026",
       "1y_contract": {
-        "display": "$2.10-2.70",
+        "display": "$2.40-3.20",
         "type": "range",
-        "low": 2.1,
-        "high": 2.7,
-        "midpoint": 2.4
+        "low": 2.4,
+        "high": 3.2,
+        "midpoint": 2.8
       },
       "on_demand": {
         "display": "Sold Out",
         "type": "sold_out",
-        "period": "Apr 2026"
+        "period": "Aug 2026"
       },
-      "trend": {
-        "data_points": 18,
-        "latest_value": 2.4,
-        "latest_display": "$2.10-2.70",
-        "latest_period": "Apr 2026",
+      "sold_out_periods": [
+        "Feb 2026",
+        "Mar 2026",
+        "Apr 2026",
+        "June 2026",
+        "July 2026",
+        "Aug 2026"
+      ],
+      "daily_trend": {
+        "data_points": 1075,
+        "latest_value": 3.29,
+        "latest_date": "Sep 20, 2026",
         "short_term": {
-          "change_pct": 2.1,
-          "comparison_period": "Mar 2026",
-          "comparison_value": 2.35,
-          "comparison_display": "$2.00-2.70"
+          "change_pct": 0.9,
+          "comparison_date": "Sep 13, 2026",
+          "comparison_value": 3.26,
+          "days_back": 7
         },
         "long_term": {
-          "change_pct": 41.2,
-          "anchor_period": "Oct 2025",
-          "anchor_value": 1.7,
-          "anchor_display": "$1.45-1.95",
+          "change_pct": 2.8,
+          "anchor_date": "Aug 21, 2026",
+          "anchor_value": 3.2,
+          "days_back": 30
+        },
+        "change_pct": 0.9,
+        "comparison_date": "Sep 13, 2026"
+      },
+      "contract_trend": {
+        "data_points": 21,
+        "latest_value": 2.8,
+        "latest_display": "$2.40-3.20",
+        "latest_period": "Aug 2026",
+        "short_term": {
+          "change_pct": 0.0,
+          "comparison_period": "July 2026",
+          "comparison_value": 2.8,
+          "comparison_display": "$2.40-3.20"
+        },
+        "long_term": {
+          "change_pct": 53.0,
+          "anchor_period": "Jan 2026",
+          "anchor_value": 1.83,
+          "anchor_display": "$1.59-2.08",
           "row_intervals": 6
         },
-        "change_pct": 2.1,
-        "comparison_period": "Mar 2026",
-        "comparison_value": 2.35,
-        "comparison_display": "$2.00-2.70"
-      }
+        "change_pct": 0.0,
+        "comparison_period": "July 2026",
+        "comparison_value": 2.8,
+        "comparison_display": "$2.40-3.20"
+      },
+      "trend": {
+        "data_points": 21,
+        "latest_value": 2.8,
+        "latest_display": "$2.40-3.20",
+        "latest_period": "Aug 2026",
+        "short_term": {
+          "change_pct": 0.0,
+          "comparison_period": "July 2026",
+          "comparison_value": 2.8,
+          "comparison_display": "$2.40-3.20"
+        },
+        "long_term": {
+          "change_pct": 53.0,
+          "anchor_period": "Jan 2026",
+          "anchor_value": 1.83,
+          "anchor_display": "$1.59-2.08",
+          "row_intervals": 6
+        },
+        "change_pct": 0.0,
+        "comparison_period": "July 2026",
+        "comparison_value": 2.8,
+        "comparison_display": "$2.40-3.20"
+      },
+      "period": "Aug 2026"
     },
     "b200": {
-      "period": "Apr 2026",
+      "daily_date": "Sep 20, 2026",
       "composite_index": {
-        "display": "$3.68",
+        "display": "$5.63",
         "type": "single",
-        "value": 3.68
+        "value": 5.63
       }
     },
     "history_summary": {
       "oldest_period": "1H 2023",
-      "newest_period": "Apr 2026",
-      "total_periods": 18,
+      "newest_period": "Aug 2026",
+      "newest_daily": "Sep 20, 2026",
+      "total_daily_points": 1196,
+      "total_contract_periods": 22,
       "recent_5": [
         {
-          "period": "Dec 2025",
-          "1y_contract": "$1.45-2.00",
-          "on_demand": "$2.20-3.00"
-        },
-        {
-          "period": "Jan 2026",
-          "1y_contract": "$1.50-2.05",
-          "on_demand": "$2.20-3.00"
-        },
-        {
-          "period": "Feb 2026",
-          "1y_contract": "$1.80-2.35",
-          "on_demand": "Sold Out"
-        },
-        {
-          "period": "Mar 2026",
-          "1y_contract": "$2.00-2.70",
-          "on_demand": "Sold Out"
-        },
-        {
           "period": "Apr 2026",
-          "1y_contract": "$2.10-2.70",
+          "1y_contract": "\u2014",
+          "on_demand": "Sold Out"
+        },
+        {
+          "period": "May 2026",
+          "1y_contract": "$2.30-3.00",
+          "on_demand": "$3.85-3.85"
+        },
+        {
+          "period": "June 2026",
+          "1y_contract": "$2.20-3.00",
+          "on_demand": "Sold Out"
+        },
+        {
+          "period": "July 2026",
+          "1y_contract": "$2.40-3.20",
+          "on_demand": "Sold Out"
+        },
+        {
+          "period": "Aug 2026",
+          "1y_contract": "$2.40-3.20",
           "on_demand": "Sold Out"
         }
       ]

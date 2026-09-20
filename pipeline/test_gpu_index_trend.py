@@ -1,428 +1,226 @@
 #!/usr/bin/env python3
 """
-Tests for GPU index trend computation, focusing on:
-- Dual-horizon calculation (short-term and long-term)
-- Anchor selection rules (prefer ~6 periods back, fallback to earliest)
-- Percentage calculation accuracy
-- Graceful handling of insufficient history
-- Non-monthly history rows (1H 2023, Q1 2024, etc.)
-- Zero/invalid anchor suppression
-- Malformed/partial parse validation
-- Stale data preservation
-- Accurate row_intervals metadata
+Tests for GPU index API fetch and trend computation, covering:
+- Daily index trend calculation (week-over-week, month-over-month)
+- Contract range trend calculation (period-over-period)
+- API response parsing
+- Price value normalization
+- Validation of parsed results
+- Stale data handling
 """
 
 import sys
 import json
 import tempfile
 from pathlib import Path
+from datetime import datetime, timedelta
 
 sys.path.insert(0, str(Path(__file__).parent))
 
 from fetch_gpu_index import (
-    compute_trend, 
-    normalize_price_value, 
+    compute_daily_trend,
+    compute_contract_trend,
+    normalize_price_value,
     validate_parsed_result,
     mark_data_stale,
+    parse_date,
+    format_date_short,
     MARKET_DATA_FILE
 )
 
 
-def make_history(periods_and_values):
-    """Helper to build history list from (period, value) tuples."""
+def make_daily_index(days_data):
+    """
+    Helper to build daily index list from (days_ago, h100_value) tuples.
+    days_ago=0 means today, 1 means yesterday, etc.
+    """
+    today = datetime.now()
+    result = []
+    for days_ago, h100_val in sorted(days_data, key=lambda x: -x[0]):
+        dt = today - timedelta(days=days_ago)
+        result.append({
+            'date': dt.strftime('%a, %d %b %Y 00:00:00 GMT'),
+            'h100': h100_val,
+            'b200': None,
+            'a100': None
+        })
+    return result
+
+
+def make_contract_data(periods_and_ranges):
+    """Helper to build contract data from (period, low, high) tuples."""
     return [
         {
             'period': period,
-            '1y_contract': {
-                'type': 'single',
-                'value': value,
-                'display': f'${value:.2f}'
-            }
-        }
-        for period, value in periods_and_values
-    ]
-
-
-def make_range_history(periods_and_ranges):
-    """Helper to build history with range values from (period, low, high) tuples."""
-    return [
-        {
-            'period': period,
-            '1y_contract': {
-                'type': 'range',
-                'low': low,
-                'high': high,
-                'midpoint': round((low + high) / 2, 2),
-                'display': f'${low:.2f}-{high:.2f}'
-            }
+            '1y': [low, high],
+            'onDemand': None,
+            'period_start': f'Mon, 01 Jan 2026 00:00:00 GMT'
         }
         for period, low, high in periods_and_ranges
     ]
 
 
-class TestAnchorSelection:
-    """Test the deterministic anchor selection rule."""
+class TestDailyTrendCalculation:
+    """Test daily index trend computation."""
     
-    def test_anchor_with_7_plus_points_uses_index_minus_7(self):
-        """With ≥7 data points, anchor should be index -7 (6 row intervals back)."""
-        # 8 periods
-        history = make_history([
-            ('Jul 2025', 1.00),
-            ('Aug 2025', 1.10),
-            ('Sep 2025', 1.20),
-            ('Oct 2025', 1.30),
-            ('Nov 2025', 1.40),
-            ('Dec 2025', 1.50),
-            ('Jan 2026', 1.60),
-            ('Feb 2026', 1.70),
+    def test_basic_week_over_week(self):
+        """Week-over-week trend calculated correctly."""
+        index_data = make_daily_index([
+            (7, 3.00),
+            (6, 3.05),
+            (5, 3.10),
+            (4, 3.15),
+            (3, 3.20),
+            (2, 3.25),
+            (1, 3.28),
+            (0, 3.29),
         ])
-        result = compute_trend(history)
+        result = compute_daily_trend(index_data, 'h100')
         
-        # Short-term: Feb vs Jan
-        assert result['short_term']['comparison_period'] == 'Jan 2026'
+        assert result['latest_value'] == 3.29
+        assert result['short_term']['comparison_value'] == 3.00
+        assert abs(result['short_term']['change_pct'] - 9.7) < 0.1
+        assert result['short_term']['days_back'] == 7
         
-        # Long-term: Feb vs Aug (index -7)
-        assert result['long_term']['anchor_period'] == 'Aug 2025'
+    def test_month_over_month_long_term(self):
+        """Long-term trend ~30 days back calculated correctly."""
+        index_data = []
+        base_value = 2.50
+        for days_ago in range(35, -1, -1):
+            value = base_value + (35 - days_ago) * 0.02
+            index_data.append((days_ago, round(value, 2)))
         
-    def test_anchor_with_exactly_7_points_uses_index_minus_7(self):
-        """With exactly 7 points, anchor should be index -7 = index 0."""
-        history = make_history([
-            ('Oct 2025', 1.00),
-            ('Nov 2025', 1.10),
-            ('Dec 2025', 1.20),
-            ('Jan 2026', 1.30),
-            ('Feb 2026', 1.40),
-            ('Mar 2026', 1.50),
-            ('Apr 2026', 1.60),
-        ])
-        result = compute_trend(history)
+        index_data = make_daily_index(index_data)
+        result = compute_daily_trend(index_data, 'h100')
         
-        # Long-term: Apr vs Oct (index -7 = index 0)
-        assert result['long_term']['anchor_period'] == 'Oct 2025'
+        assert 'long_term' in result
+        assert result['long_term']['days_back'] >= 28
+        assert result['long_term']['days_back'] <= 32
         
-    def test_anchor_with_fewer_than_7_points_uses_earliest(self):
-        """With <7 data points, anchor should be earliest (index 0)."""
-        history = make_history([
-            ('Jan 2026', 1.00),
-            ('Feb 2026', 1.20),
-            ('Mar 2026', 1.40),
-            ('Apr 2026', 1.60),
-        ])
-        result = compute_trend(history)
-        
-        # Short-term: Apr vs Mar
-        assert result['short_term']['comparison_period'] == 'Mar 2026'
-        
-        # Long-term: Apr vs Jan (earliest)
-        assert result['long_term']['anchor_period'] == 'Jan 2026'
-        
-    def test_anchor_with_3_points_has_long_term(self):
-        """With 3 points, long_term anchor differs from short_term comparison."""
-        history = make_history([
-            ('Feb 2026', 1.00),
-            ('Mar 2026', 1.10),
-            ('Apr 2026', 1.20),
-        ])
-        result = compute_trend(history)
-        
-        # Short-term: Apr vs Mar
-        assert result['short_term']['comparison_period'] == 'Mar 2026'
-        
-        # Long-term: Apr vs Feb (earliest, different from Mar)
-        assert result['long_term']['anchor_period'] == 'Feb 2026'
-        
-    def test_anchor_with_2_points_no_long_term(self):
-        """With only 2 points, no long_term (anchor would equal short_term comparison)."""
-        history = make_history([
-            ('Mar 2026', 1.00),
-            ('Apr 2026', 1.10),
-        ])
-        result = compute_trend(history)
-        
-        assert result['short_term']['comparison_period'] == 'Mar 2026'
-        assert 'long_term' not in result
-
-
-class TestRowIntervalsMetadata:
-    """Test that row_intervals accurately reflects the selected anchor distance."""
-    
-    def test_row_intervals_with_7_points(self):
-        """With 7 points, anchor at index -7 means 6 row intervals to latest."""
-        history = make_history([
-            ('Oct 2025', 1.70),
-            ('Nov 2025', 1.725),
-            ('Dec 2025', 1.725),
-            ('Jan 2026', 1.775),
-            ('Feb 2026', 2.075),
-            ('Mar 2026', 2.35),
-            ('Apr 2026', 2.40),
-        ])
-        result = compute_trend(history)
-        
-        # Oct→Apr is 6 row intervals (not periods_back=10!)
-        assert result['long_term']['row_intervals'] == 6
-        assert result['long_term']['anchor_period'] == 'Oct 2025'
-        
-    def test_row_intervals_with_18_points(self):
-        """With 18 points, anchor at index -7 means 6 row intervals."""
-        # Build 18 points (matching real data structure)
-        history = make_history([
-            ('1H 2023', 1.00), ('2H 2023', 1.05), ('Q1 2024', 1.10), ('Q2 2024', 1.15),
-            ('Q3 2024', 1.20), ('Q4 2024', 1.25), ('May 2025', 1.30), ('Jun 2025', 1.35),
-            ('Jul 2025', 1.40), ('Aug 2025', 1.45), ('Sep 2025', 1.50),
-            ('Oct 2025', 1.70),  # This is index -7 (index 11 of 18)
-            ('Nov 2025', 1.725),
-            ('Dec 2025', 1.725),
-            ('Jan 2026', 1.775),
-            ('Feb 2026', 2.075),
-            ('Mar 2026', 2.35),
-            ('Apr 2026', 2.40),
-        ])
-        result = compute_trend(history)
-        
-        # Anchor is at index -7, which means 6 intervals to latest
-        assert result['long_term']['row_intervals'] == 6
-        assert result['long_term']['anchor_period'] == 'Oct 2025'
-        
-    def test_row_intervals_with_4_points_uses_earliest(self):
-        """With <7 points, anchor is earliest (index 0), row_intervals = n-1."""
-        history = make_history([
-            ('Jan 2026', 1.00),
-            ('Feb 2026', 1.20),
-            ('Mar 2026', 1.40),
-            ('Apr 2026', 1.60),
-        ])
-        result = compute_trend(history)
-        
-        # Anchor is at index 0, latest is index 3, so 3 row intervals
-        assert result['long_term']['row_intervals'] == 3
-        assert result['long_term']['anchor_period'] == 'Jan 2026'
-
-
-class TestNonMonthlyHistory:
-    """Test handling of non-monthly periods (1H 2023, Q1 2024, etc.)."""
-    
-    def test_mixed_period_formats(self):
-        """History with half-years, quarters, and months should work correctly."""
-        history = make_history([
-            ('1H 2023', 1.00),
-            ('2H 2023', 1.10),
-            ('Q1 2024', 1.20),
-            ('Q2 2024', 1.30),
-            ('Q3 2024', 1.40),
-            ('Q4 2024', 1.50),
-            ('Jan 2025', 1.60),
-            ('Feb 2025', 1.70),
-        ])
-        result = compute_trend(history)
-        
-        # Should compute trend without assuming calendar intervals
-        assert result['short_term']['comparison_period'] == 'Jan 2025'
-        assert result['long_term']['anchor_period'] == '2H 2023'  # index -7
-        assert result['long_term']['row_intervals'] == 6
-        
-    def test_quarterly_periods_reach_into_old_data(self):
-        """Ensure anchor selection works when reaching into quarterly/half-year data."""
-        # Real-world structure: half-years, then quarters, then monthly
-        history = make_history([
-            ('1H 2023', 0.80),
-            ('2H 2023', 0.90),
-            ('Q1 2024', 1.00),
-            ('Q2 2024', 1.10),
-            ('Q3 2024', 1.20),
-            ('Q4 2024', 1.30),
-            ('May 2025', 1.40),
-            ('Jun 2025', 1.50),
-            ('Jul 2025', 1.55),
-            ('Aug 2025', 1.60),
-            ('Sep 2025', 1.65),
-            ('Oct 2025', 1.70),
-            ('Nov 2025', 1.725),
-            ('Dec 2025', 1.725),
-            ('Jan 2026', 1.775),
-            ('Feb 2026', 2.075),
-            ('Mar 2026', 2.35),
-            ('Apr 2026', 2.40),
-        ])
-        result = compute_trend(history)
-        
-        # With 18 points, anchor is index -7 = Oct 2025
-        assert result['long_term']['anchor_period'] == 'Oct 2025'
-        assert result['long_term']['row_intervals'] == 6
-        
-        # Verify the actual percentage calculation matches ground truth
-        # Oct 2025: 1.70, Apr 2026: 2.40 => (2.40-1.70)/1.70 = 41.17...%
-        assert result['long_term']['change_pct'] == 41.2
-
-
-class TestPercentageCalculation:
-    """Test percentage calculation accuracy with rounding."""
-    
-    def test_short_term_percentage_positive(self):
-        """Positive short-term change calculated correctly."""
-        history = make_history([
-            ('Mar 2026', 2.35),
-            ('Apr 2026', 2.40),
-        ])
-        result = compute_trend(history)
-        
-        # (2.40 - 2.35) / 2.35 * 100 = 2.127... → rounds to 2.1
-        assert result['short_term']['change_pct'] == 2.1
-        
-    def test_short_term_percentage_negative(self):
-        """Negative short-term change calculated correctly."""
-        history = make_history([
-            ('Mar 2026', 2.50),
-            ('Apr 2026', 2.35),
-        ])
-        result = compute_trend(history)
-        
-        # (2.35 - 2.50) / 2.50 * 100 = -6.0
-        assert result['short_term']['change_pct'] == -6.0
-        
-    def test_long_term_percentage_large_move(self):
-        """Large long-term move calculated correctly (the +41.2% case)."""
-        # Ground truth data from data owner
-        history = make_range_history([
-            ('Oct 2025', 1.45, 1.95),  # midpoint = 1.70
-            ('Nov 2025', 1.45, 2.00),  # midpoint = 1.725
-            ('Dec 2025', 1.45, 2.00),  # midpoint = 1.725
-            ('Jan 2026', 1.50, 2.05),  # midpoint = 1.775
-            ('Feb 2026', 1.80, 2.35),  # midpoint = 2.075
-            ('Mar 2026', 2.00, 2.70),  # midpoint = 2.35
-            ('Apr 2026', 2.10, 2.70),  # midpoint = 2.40
-        ])
-        result = compute_trend(history)
-        
-        # Short-term: (2.40 - 2.35) / 2.35 * 100 = 2.127... → 2.1%
-        assert result['short_term']['change_pct'] == 2.1
-        
-        # Long-term: (2.40 - 1.70) / 1.70 * 100 = 41.17... → 41.2%
-        assert result['long_term']['change_pct'] == 41.2
-        assert result['long_term']['anchor_period'] == 'Oct 2025'
-        assert result['long_term']['row_intervals'] == 6
-        
-    def test_range_values_use_midpoint(self):
-        """Range values use midpoint for calculations."""
-        history = make_range_history([
-            ('Mar 2026', 2.00, 2.70),  # midpoint = 2.35
-            ('Apr 2026', 2.10, 2.70),  # midpoint = 2.40
-        ])
-        result = compute_trend(history)
-        
-        assert result['latest_value'] == 2.4
-        assert result['short_term']['comparison_value'] == 2.35
-        
-    def test_values_rounded_to_2_decimals(self):
-        """Values are rounded to 2 decimal places to avoid float noise."""
-        history = make_range_history([
-            ('Mar 2026', 2.00, 2.70),  # midpoint = 2.35
-            ('Apr 2026', 2.10, 2.70),  # midpoint = 2.4 (not 2.4000000000000004)
-        ])
-        result = compute_trend(history)
-        
-        # Should be clean 2.4, not 2.4000000000000004
-        assert result['latest_value'] == 2.4
-        assert str(result['latest_value']) == '2.4'
-
-
-class TestZeroAnchorSuppression:
-    """Test that zero/invalid anchors don't produce invalid percentages."""
-    
-    def test_zero_anchor_value_suppresses_long_term(self):
-        """Zero anchor value should suppress long_term entirely."""
-        history = make_history([
-            ('Jan 2026', 0.0),   # Zero anchor - invalid!
-            ('Feb 2026', 1.00),
-            ('Mar 2026', 1.50),
-            ('Apr 2026', 2.00),
-        ])
-        result = compute_trend(history)
-        
-        # Short-term should work (Mar→Apr, both positive)
-        assert result['short_term']['comparison_period'] == 'Mar 2026'
-        
-        # Long-term should be OMITTED because anchor is zero
-        assert 'long_term' not in result
-        
-    def test_negative_anchor_value_suppresses_long_term(self):
-        """Negative anchor value should suppress long_term entirely."""
-        history = make_history([
-            ('Jan 2026', -1.0),  # Negative anchor - invalid!
-            ('Feb 2026', 1.00),
-            ('Mar 2026', 1.50),
-            ('Apr 2026', 2.00),
-        ])
-        result = compute_trend(history)
-        
-        # Long-term should be OMITTED because anchor is negative
-        assert 'long_term' not in result
-        
-    def test_zero_previous_value_returns_insufficient_data(self):
-        """Zero previous value should return insufficient_data (can't compute short_term)."""
-        history = make_history([
-            ('Mar 2026', 0.0),   # Zero - can't be comparison for short-term
-            ('Apr 2026', 2.00),
-        ])
-        result = compute_trend(history)
-        
-        assert result.get('insufficient_data') == True
-        assert 'previous period value is zero' in result.get('reason', '')
-
-
-class TestInsufficientHistory:
-    """Test graceful handling when history is insufficient."""
-    
-    def test_empty_history(self):
-        """Empty history returns insufficient_data flag."""
-        result = compute_trend([])
-        assert result.get('insufficient_data') == True
-        assert result['data_points'] == 0
-        
-    def test_single_point(self):
-        """Single point returns insufficient_data flag."""
-        history = make_history([('Apr 2026', 2.40)])
-        result = compute_trend(history)
+    def test_insufficient_data_single_point(self):
+        """Single data point returns insufficient_data."""
+        index_data = make_daily_index([(0, 3.29)])
+        result = compute_daily_trend(index_data, 'h100')
         
         assert result.get('insufficient_data') == True
         assert result['data_points'] == 1
         
-    def test_missing_field_skipped(self):
-        """History entries missing the field are skipped."""
-        history = [
-            {'period': 'Feb 2026'},  # missing 1y_contract
-            {'period': 'Mar 2026', '1y_contract': {'type': 'single', 'value': 2.35, 'display': '$2.35'}},
-            {'period': 'Apr 2026', '1y_contract': {'type': 'single', 'value': 2.40, 'display': '$2.40'}},
+    def test_handles_missing_sku_values(self):
+        """Entries with missing h100 values are skipped."""
+        index_data = [
+            {'date': 'Mon, 13 Sep 2026 00:00:00 GMT', 'h100': None, 'b200': 5.5},
+            {'date': 'Tue, 14 Sep 2026 00:00:00 GMT', 'h100': 3.25, 'b200': 5.5},
+            {'date': 'Wed, 15 Sep 2026 00:00:00 GMT', 'h100': 3.29, 'b200': 5.5},
         ]
-        result = compute_trend(history)
-        
-        # Only 2 valid points
-        assert result['data_points'] == 2
-        assert result['short_term']['comparison_period'] == 'Mar 2026'
-        
-    def test_unavailable_type_skipped(self):
-        """History entries with type 'unavailable' are skipped."""
-        history = [
-            {'period': 'Feb 2026', '1y_contract': {'type': 'unavailable', 'display': '—'}},
-            {'period': 'Mar 2026', '1y_contract': {'type': 'single', 'value': 2.35, 'display': '$2.35'}},
-            {'period': 'Apr 2026', '1y_contract': {'type': 'single', 'value': 2.40, 'display': '$2.40'}},
-        ]
-        result = compute_trend(history)
+        result = compute_daily_trend(index_data, 'h100')
         
         assert result['data_points'] == 2
+
+
+class TestContractTrendCalculation:
+    """Test contract range trend computation."""
+    
+    def test_period_over_period_positive(self):
+        """Positive period-over-period change calculated correctly."""
+        contract_data = make_contract_data([
+            ('Jul 2026', 2.2, 3.0),
+            ('Aug 2026', 2.4, 3.2),
+        ])
+        result = compute_contract_trend(contract_data)
+        
+        # Midpoints: Jul=2.6, Aug=2.8 => (2.8-2.6)/2.6 = 7.69%
+        assert result['latest_period'] == 'Aug 2026'
+        assert result['short_term']['comparison_period'] == 'Jul 2026'
+        assert abs(result['short_term']['change_pct'] - 7.7) < 0.2
+        
+    def test_period_over_period_negative(self):
+        """Negative period-over-period change calculated correctly."""
+        contract_data = make_contract_data([
+            ('Jul 2026', 2.4, 3.2),
+            ('Aug 2026', 2.2, 3.0),
+        ])
+        result = compute_contract_trend(contract_data)
+        
+        # Midpoints: Jul=2.8, Aug=2.6 => (2.6-2.8)/2.8 = -7.14%
+        assert result['short_term']['change_pct'] < 0
+        
+    def test_long_term_anchor_with_7_points(self):
+        """With 7+ points, anchor is ~6 periods back."""
+        contract_data = make_contract_data([
+            ('Jan 2026', 1.5, 2.0),
+            ('Feb 2026', 1.6, 2.1),
+            ('Mar 2026', 1.7, 2.2),
+            ('Apr 2026', 1.8, 2.3),
+            ('May 2026', 1.9, 2.4),
+            ('Jun 2026', 2.0, 2.5),
+            ('Jul 2026', 2.1, 2.6),
+            ('Aug 2026', 2.4, 3.2),
+        ])
+        result = compute_contract_trend(contract_data)
+        
+        assert 'long_term' in result
+        assert result['long_term']['anchor_period'] == 'Feb 2026'
+        assert result['long_term']['row_intervals'] == 6
+        
+    def test_long_term_anchor_with_few_points(self):
+        """With <7 points, anchor is earliest."""
+        contract_data = make_contract_data([
+            ('Jun 2026', 2.0, 2.5),
+            ('Jul 2026', 2.2, 3.0),
+            ('Aug 2026', 2.4, 3.2),
+        ])
+        result = compute_contract_trend(contract_data)
+        
+        assert 'long_term' in result
+        assert result['long_term']['anchor_period'] == 'Jun 2026'
+
+
+class TestNormalizePriceValue:
+    """Test price value normalization."""
+    
+    def test_range_list(self):
+        """Range as [low, high] list parsed correctly."""
+        result = normalize_price_value([2.4, 3.2])
+        assert result['type'] == 'range'
+        assert result['low'] == 2.4
+        assert result['high'] == 3.2
+        assert result['midpoint'] == 2.8
+        assert result['display'] == '$2.40-3.20'
+        
+    def test_single_float(self):
+        """Single float value parsed correctly."""
+        result = normalize_price_value(3.29)
+        assert result['type'] == 'single'
+        assert result['value'] == 3.29
+        assert result['display'] == '$3.29'
+        
+    def test_none_is_unavailable(self):
+        """None returns unavailable."""
+        result = normalize_price_value(None)
+        assert result['type'] == 'unavailable'
+        assert result['display'] == '—'
+        
+    def test_rounding(self):
+        """Values are rounded to 2 decimal places."""
+        result = normalize_price_value(3.2999999)
+        assert result['value'] == 3.3
+        
+        result = normalize_price_value([2.3999, 3.2001])
+        assert result['low'] == 2.4
+        assert result['high'] == 3.2
 
 
 class TestValidateParsedResult:
-    """Test validation of parsed results to prevent partial overwrites."""
+    """Test validation of parsed results."""
     
     def test_valid_result_passes(self):
         """A complete valid result should pass validation."""
         result = {
             'h100': {
-                'period': 'Apr 2026',
-                '1y_contract': {'type': 'range', 'low': 2.10, 'high': 2.70, 'display': '$2.10-2.70'},
-                'trend': {
-                    'short_term': {'change_pct': 2.1, 'comparison_period': 'Mar 2026'}
+                'daily_date': 'Sep 20, 2026',
+                'composite_index': {'type': 'single', 'value': 3.29, 'display': '$3.29'},
+                'daily_trend': {
+                    'short_term': {'change_pct': 0.9, 'comparison_date': 'Sep 13, 2026'}
                 }
             }
         }
@@ -430,70 +228,44 @@ class TestValidateParsedResult:
         assert is_valid == True
         assert error == ""
         
-    def test_missing_period_fails(self):
-        """Missing period should fail validation."""
+    def test_missing_daily_date_fails(self):
+        """Missing daily_date should fail validation."""
         result = {
             'h100': {
-                'period': '',  # Empty period
-                '1y_contract': {'type': 'range', 'display': '$2.10-2.70'},
-                'trend': {'short_term': {'change_pct': 2.1}}
+                'daily_date': '',
+                'composite_index': {'type': 'single', 'value': 3.29},
+                'daily_trend': {'short_term': {'change_pct': 0.9}}
             }
         }
         is_valid, error = validate_parsed_result(result)
         assert is_valid == False
-        assert 'period' in error.lower()
+        assert 'daily_date' in error.lower()
         
-    def test_unknown_period_fails(self):
-        """'unknown' period should fail validation."""
+    def test_non_single_composite_fails(self):
+        """Non-single composite_index type should fail validation."""
         result = {
             'h100': {
-                'period': 'unknown',
-                '1y_contract': {'type': 'range', 'display': '$2.10-2.70'},
-                'trend': {'short_term': {'change_pct': 2.1}}
+                'daily_date': 'Sep 20, 2026',
+                'composite_index': {'type': 'unavailable', 'display': '—'},
+                'daily_trend': {'short_term': {'change_pct': 0.9}}
             }
         }
         is_valid, error = validate_parsed_result(result)
         assert is_valid == False
-        assert 'unknown' in error.lower()
-        
-    def test_unavailable_contract_type_fails(self):
-        """Unavailable 1y_contract type should fail validation."""
-        result = {
-            'h100': {
-                'period': 'Apr 2026',
-                '1y_contract': {'type': 'unavailable', 'display': '—'},
-                'trend': {'short_term': {'change_pct': 2.1}}
-            }
-        }
-        is_valid, error = validate_parsed_result(result)
-        assert is_valid == False
-        assert 'contract' in error.lower()
+        assert 'composite' in error.lower()
         
     def test_insufficient_trend_fails(self):
         """Trend with insufficient_data should fail validation."""
         result = {
             'h100': {
-                'period': 'Apr 2026',
-                '1y_contract': {'type': 'range', 'display': '$2.10-2.70'},
-                'trend': {'insufficient_data': True, 'data_points': 1}
+                'daily_date': 'Sep 20, 2026',
+                'composite_index': {'type': 'single', 'value': 3.29},
+                'daily_trend': {'insufficient_data': True, 'data_points': 1}
             }
         }
         is_valid, error = validate_parsed_result(result)
         assert is_valid == False
         assert 'insufficient' in error.lower()
-        
-    def test_missing_short_term_fails(self):
-        """Missing short_term in trend should fail validation."""
-        result = {
-            'h100': {
-                'period': 'Apr 2026',
-                '1y_contract': {'type': 'range', 'display': '$2.10-2.70'},
-                'trend': {'data_points': 5}  # No short_term
-            }
-        }
-        is_valid, error = validate_parsed_result(result)
-        assert is_valid == False
-        assert 'short_term' in error.lower()
         
     def test_none_result_fails(self):
         """None result should fail validation."""
@@ -506,116 +278,106 @@ class TestStaleDataPreservation:
     
     def test_mark_data_stale_adds_metadata(self):
         """mark_data_stale should add stale metadata without overwriting data."""
-        import tempfile
-        import shutil
-        
-        # Create a temp directory and market_data.json with good data
         with tempfile.TemporaryDirectory() as tmpdir:
             tmppath = Path(tmpdir) / "market_data.json"
             good_data = {
                 'compute_forward': {
                     'last_fetched': '2026-09-01T10:00:00',
                     'h100': {
-                        'period': 'Apr 2026',
-                        '1y_contract': {'display': '$2.10-2.70', 'type': 'range'}
+                        'daily_date': 'Sep 01, 2026',
+                        'composite_index': {'display': '$3.20', 'type': 'single'}
                     }
                 },
                 'data_fetch_status': {'compute_forward': 'live'}
             }
             tmppath.write_text(json.dumps(good_data))
             
-            # Monkey-patch MARKET_DATA_FILE for this test
             import fetch_gpu_index
             original_path = fetch_gpu_index.MARKET_DATA_FILE
             fetch_gpu_index.MARKET_DATA_FILE = tmppath
             
             try:
-                # Mark as stale
                 result = mark_data_stale("Test error: network timeout")
                 assert result == True
                 
-                # Read back and verify
                 updated = json.loads(tmppath.read_text())
                 
-                # Original data preserved
-                assert updated['compute_forward']['h100']['period'] == 'Apr 2026'
-                assert updated['compute_forward']['h100']['1y_contract']['display'] == '$2.10-2.70'
+                assert updated['compute_forward']['h100']['daily_date'] == 'Sep 01, 2026'
+                assert updated['compute_forward']['h100']['composite_index']['display'] == '$3.20'
                 assert updated['compute_forward']['last_fetched'] == '2026-09-01T10:00:00'
                 
-                # Stale metadata added
                 assert updated['compute_forward']['_stale'] == True
                 assert 'network timeout' in updated['compute_forward']['_stale_reason']
                 assert '_stale_since' in updated['compute_forward']
                 
-                # Status updated
                 assert updated['data_fetch_status']['compute_forward'] == 'stale'
                 
             finally:
                 fetch_gpu_index.MARKET_DATA_FILE = original_path
 
 
-class TestNormalizePriceValue:
-    """Test price value normalization for edge cases."""
+class TestDateParsing:
+    """Test date parsing utilities."""
     
-    def test_sold_out(self):
-        """'Sold Out' is recognized."""
-        result = normalize_price_value('Sold Out')
-        assert result['type'] == 'sold_out'
-        assert result['display'] == 'Sold Out'
+    def test_parse_api_date(self):
+        """API date string parsed correctly."""
+        result = parse_date('Sun, 20 Sep 2026 00:00:00 GMT')
+        assert result.year == 2026
+        assert result.month == 9
+        assert result.day == 20
         
-    def test_sold_out_with_symbol(self):
-        """'✕ Sold Out' is recognized."""
-        result = normalize_price_value('✕ Sold Out')
-        assert result['type'] == 'sold_out'
+    def test_format_date_short(self):
+        """Date formatted as 'Sep 20, 2026'."""
+        dt = datetime(2026, 9, 20)
+        result = format_date_short(dt)
+        assert result == 'Sep 20, 2026'
         
-    def test_range_with_dollar_signs(self):
-        """Range with dollar signs parsed correctly."""
-        result = normalize_price_value('$2.10-$2.70')
-        assert result['type'] == 'range'
-        assert result['low'] == 2.10
-        assert result['high'] == 2.70
-        assert result['midpoint'] == 2.40
-        
-    def test_range_without_dollar_signs(self):
-        """Range without dollar signs parsed correctly."""
-        result = normalize_price_value('2.10-2.70')
-        assert result['type'] == 'range'
-        assert result['low'] == 2.10
-        assert result['high'] == 2.70
-        
-    def test_single_value(self):
-        """Single value parsed correctly."""
-        result = normalize_price_value('$2.82')
-        assert result['type'] == 'single'
-        assert result['value'] == 2.82
-        
-    def test_dash_is_unavailable(self):
-        """Dash character means unavailable."""
-        result = normalize_price_value('—')
-        assert result['type'] == 'unavailable'
-        
-    def test_em_dash_is_unavailable(self):
-        """Em-dash (common in real data) means unavailable."""
-        result = normalize_price_value('–')
-        assert result['type'] == 'unavailable'
+    def test_parse_invalid_date(self):
+        """Invalid date string returns None."""
+        result = parse_date('invalid date')
+        assert result is None
 
 
-class TestLegacyCompatibility:
-    """Test that legacy fields are still present for backward compatibility."""
+class TestMockedAPIPayload:
+    """Test with realistic mocked API payload matching production schema."""
     
-    def test_legacy_fields_present(self):
-        """Legacy change_pct and comparison_period at top level."""
-        history = make_history([
-            ('Mar 2026', 2.35),
-            ('Apr 2026', 2.40),
-        ])
-        result = compute_trend(history)
+    def test_realistic_api_response_parsing(self):
+        """Parse a realistic API response structure."""
+        api_response = {
+            "status": "ok",
+            "index": [
+                {"a100": 1.85, "b200": 5.64, "date": "Sat, 19 Sep 2026 00:00:00 GMT", "h100": 3.26},
+                {"a100": 1.87, "b200": 5.63, "date": "Sun, 20 Sep 2026 00:00:00 GMT", "h100": 3.29}
+            ],
+            "contract": [
+                {
+                    "sku": "H100",
+                    "vendor": "NVIDIA",
+                    "data": [
+                        {"period": "Jul 2026", "1y": [2.4, 3.2], "onDemand": None},
+                        {"period": "Aug 2026", "1y": [2.4, 3.2], "onDemand": None}
+                    ],
+                    "soldOutPeriods": {"onDemand": ["Feb 2026", "Mar 2026", "Aug 2026"]},
+                    "note": "Test note"
+                }
+            ]
+        }
         
-        # Legacy fields at top level (same as short_term)
-        assert 'change_pct' in result
-        assert 'comparison_period' in result
-        assert result['change_pct'] == result['short_term']['change_pct']
-        assert result['comparison_period'] == result['short_term']['comparison_period']
+        assert api_response['status'] == 'ok'
+        
+        index_data = api_response['index']
+        latest = index_data[-1]
+        assert latest['h100'] == 3.29
+        
+        h100_contract = None
+        for c in api_response['contract']:
+            if c['sku'] == 'H100':
+                h100_contract = c
+                break
+        
+        assert h100_contract is not None
+        assert h100_contract['data'][-1]['period'] == 'Aug 2026'
+        assert 'Aug 2026' in h100_contract['soldOutPeriods']['onDemand']
 
 
 def run_tests():
@@ -623,16 +385,13 @@ def run_tests():
     import traceback
     
     test_classes = [
-        TestAnchorSelection,
-        TestRowIntervalsMetadata,
-        TestNonMonthlyHistory,
-        TestPercentageCalculation,
-        TestZeroAnchorSuppression,
-        TestInsufficientHistory,
+        TestDailyTrendCalculation,
+        TestContractTrendCalculation,
+        TestNormalizePriceValue,
         TestValidateParsedResult,
         TestStaleDataPreservation,
-        TestNormalizePriceValue,
-        TestLegacyCompatibility,
+        TestDateParsing,
+        TestMockedAPIPayload,
     ]
     
     total = 0

@@ -2184,7 +2184,7 @@
       <!-- Compute Forward -->
       <div class="card" style="padding: 0.75rem; margin-bottom: 0;">
         <h3 style="font-size: 0.9rem; color: #00d4ff; margin-bottom: 0.25rem;">🖥️ Compute Forward</h3>
-        <p style="color: #9ca3af; font-size: 0.68rem; line-height: 1.35; margin-bottom: 0.5rem;">Surveyed GPU rental forward (not a live exchange). As-of period matters — free data lags.</p>
+        <p style="color: #9ca3af; font-size: 0.68rem; line-height: 1.35; margin-bottom: 0.5rem;">GPU rental index (daily composite + contract ranges). Not a live exchange — surveyed/modeled data.</p>
         <div id="compute-forward-widget" style="font-size: 0.75rem;">
           <div style="display: flex; gap: 0.75rem; flex-wrap: wrap;">
             <span style="color: #a8b2d1;"><strong>1Y:</strong> —</span>
@@ -3153,7 +3153,7 @@
           cotEl.innerHTML = html;
         }
 
-        // Update Compute Forward widget (GPU rental pricing - surveyed index)
+        // Update Compute Forward widget (GPU rental pricing from SemiAnalysis public API)
         const computeEl = document.getElementById('compute-forward-widget');
         if (computeEl && data.compute_forward && data.compute_forward.h100) {
           const cf = data.compute_forward;
@@ -3163,8 +3163,13 @@
           const isStale = cf._stale === true;
           const staleReason = cf._stale_reason || 'fetch failed';
           
-          // 1Y contract price
+          // PRIMARY: Daily Spot-Contract Composite (from index API)
+          const vComposite = h100.composite_index && h100.composite_index.display ? h100.composite_index.display : '—';
+          const dailyDate = h100.daily_date || '—';
+          
+          // SECONDARY: 1Y contract range (from contract API)
           const v1y = h100['1y_contract'] && h100['1y_contract'].display ? h100['1y_contract'].display : '—';
+          const contractPeriod = h100.contract_period || h100.period || '—';
           
           // On-demand/spot status - surface "Sold Out" as the scarcity signal it is
           let vSpot = '—';
@@ -3176,28 +3181,48 @@
             }
           }
           
-          // Trend: dual-horizon display with labeled percentages
-          // Shows both short-term (vs prior period) and long-term (vs ~6mo anchor) when available
-          // No subjective labels like "stable" - let the numbers speak
+          // Trend: prefer daily_trend (week-over-week), fallback to contract_trend (period-over-period)
           let vTrend = '—';
-          if (h100.trend && h100.trend.short_term) {
-            const shortPct = h100.trend.short_term.change_pct;
-            const shortPeriod = h100.trend.short_term.comparison_period || '?';
+          const dailyTrend = h100.daily_trend;
+          const contractTrend = h100.contract_trend || h100.trend;
+          
+          if (dailyTrend && dailyTrend.short_term) {
+            // Daily trend: week-over-week
+            const shortPct = dailyTrend.short_term.change_pct;
+            const shortDate = dailyTrend.short_term.comparison_date || '?';
             const shortSign = shortPct >= 0 ? '+' : '';
             
-            // Color based on long-term trend if available, otherwise short-term
-            const longTerm = h100.trend.long_term;
+            const longTerm = dailyTrend.long_term;
             const colorPct = longTerm ? longTerm.change_pct : shortPct;
-            let color = '#9ca3af'; // neutral gray
-            if (colorPct > 10) color = '#ef4444';       // strong up = red (cost rising)
-            else if (colorPct > 3) color = '#f59e0b';   // moderate up = amber
-            else if (colorPct < -10) color = '#10b981'; // strong down = green (cost falling)
-            else if (colorPct < -3) color = '#22c55e';  // moderate down = light green
+            let color = '#9ca3af';
+            if (colorPct > 10) color = '#ef4444';
+            else if (colorPct > 3) color = '#f59e0b';
+            else if (colorPct < -10) color = '#10b981';
+            else if (colorPct < -3) color = '#22c55e';
             
-            // Build trend string: short-term always shown
+            let trendParts = [shortSign + shortPct + '% vs ' + shortDate];
+            if (longTerm && longTerm.anchor_date && longTerm.anchor_value > 0) {
+              const longSign = longTerm.change_pct >= 0 ? '+' : '';
+              trendParts.push(longSign + longTerm.change_pct + '% vs ' + longTerm.anchor_date);
+            }
+            
+            const trendText = trendParts.join(' · ');
+            vTrend = '<span style="color: ' + color + ';" title="' + trendText + '">' + trendText + '</span>';
+          } else if (contractTrend && contractTrend.short_term) {
+            // Contract trend fallback: period-over-period
+            const shortPct = contractTrend.short_term.change_pct;
+            const shortPeriod = contractTrend.short_term.comparison_period || '?';
+            const shortSign = shortPct >= 0 ? '+' : '';
+            
+            const longTerm = contractTrend.long_term;
+            const colorPct = longTerm ? longTerm.change_pct : shortPct;
+            let color = '#9ca3af';
+            if (colorPct > 10) color = '#ef4444';
+            else if (colorPct > 3) color = '#f59e0b';
+            else if (colorPct < -10) color = '#10b981';
+            else if (colorPct < -3) color = '#22c55e';
+            
             let trendParts = [shortSign + shortPct + '% vs ' + shortPeriod];
-            
-            // Add long-term if available and meaningful (anchor must have valid value)
             if (longTerm && longTerm.anchor_period && longTerm.anchor_value > 0) {
               const longSign = longTerm.change_pct >= 0 ? '+' : '';
               trendParts.push(longSign + longTerm.change_pct + '% since ' + longTerm.anchor_period);
@@ -3205,12 +3230,6 @@
             
             const trendText = trendParts.join(' · ');
             vTrend = '<span style="color: ' + color + ';" title="' + trendText + '">' + trendText + '</span>';
-          } else if (h100.trend && h100.trend.change_pct !== undefined) {
-            // Legacy fallback for old data format
-            const pct = h100.trend.change_pct;
-            const vsPeriod = h100.trend.comparison_period || '?';
-            const pctSign = pct >= 0 ? '+' : '';
-            vTrend = '<span style="color: #9ca3af;">' + pctSign + pct + '% vs ' + vsPeriod + '</span>';
           }
           
           // Build stale indicator if data is stale
@@ -3221,15 +3240,18 @@
             '</div>';
           }
           
-          // Build the widget content - use plumbing-num for key values
+          // Build the widget content - daily composite is PRIMARY
           computeEl.innerHTML = 
             '<div style="display: flex; gap: 0.75rem; flex-wrap: wrap;">' +
+              '<span style="color: #a8b2d1;"><strong>H100:</strong> <span class="plumbing-num" style="color: #00d4ff;">' + vComposite + '</span></span>' +
               '<span style="color: #a8b2d1;"><strong>1Y:</strong> <span class="plumbing-num">' + v1y + '</span></span>' +
               '<span style="color: #a8b2d1;"><strong>Spot:</strong> ' + vSpot + '</span>' +
+            '</div>' +
+            '<div style="margin-top: 0.2rem; display: flex; gap: 0.75rem; flex-wrap: wrap;">' +
               '<span style="color: #a8b2d1;"><strong>Trend:</strong> ' + vTrend + '</span>' +
             '</div>' +
             '<div style="margin-top: 0.25rem; color: #9ca3af; font-size: 0.65rem;">' +
-              '<span>As of: ' + (h100.period || '—') + ' (surveyed, lags current)</span>' +
+              '<span>Daily as-of: ' + dailyDate + ' · Contract as-of: ' + contractPeriod + '</span>' +
             '</div>' +
             staleIndicator;
           
@@ -3238,43 +3260,29 @@
           if (watchEl) {
             let watchParts = [];
             
-            // B200 if present
+            // B200 daily if present (from index API)
             const b200 = cf.b200;
-            if (b200 && b200.composite_index && b200.composite_index.display) {
-              watchParts.push('B200 (' + b200.period + '): ' + b200.composite_index.display);
+            if (b200 && b200.composite_index && b200.composite_index.display && b200.composite_index.display !== '—') {
+              const b200Date = b200.daily_date || '';
+              watchParts.push('B200: ' + b200.composite_index.display + (b200Date ? ' (' + b200Date + ')' : ''));
             }
             
-            // On-demand sold out status
+            // On-demand sold out status with affected periods
             if (h100.on_demand && h100.on_demand.type === 'sold_out') {
-              watchParts.push('H100 on-demand sold out');
-            }
-            
-            // Next survey period to watch
-            const historySummary = cf.history_summary;
-            if (historySummary && historySummary.newest_period) {
-              const nextPeriod = getNextPeriod(historySummary.newest_period);
-              if (nextPeriod) {
-                watchParts.push('Next SemiAnalysis print: ' + nextPeriod);
+              const soldOutPeriods = h100.sold_out_periods;
+              if (soldOutPeriods && soldOutPeriods.length > 0) {
+                const recentSoldOut = soldOutPeriods.slice(-3).join(', ');
+                watchParts.push('H100 on-demand sold out (' + recentSoldOut + ')');
+              } else {
+                watchParts.push('H100 on-demand sold out');
               }
             }
             
             if (watchParts.length > 0) {
               watchEl.innerHTML = '📌 <strong>Watch:</strong> ' + watchParts.join(' · ');
+            } else {
+              watchEl.innerHTML = '';
             }
-          }
-          
-          // Helper: estimate next survey period (e.g., "Apr 2026" -> "May 2026")
-          function getNextPeriod(period) {
-            if (!period) return null;
-            const months = ['Jan', 'Feb', 'Mar', 'Apr', 'May', 'Jun', 'Jul', 'Aug', 'Sep', 'Oct', 'Nov', 'Dec'];
-            const parts = period.split(' ');
-            if (parts.length !== 2) return null;
-            const monthIdx = months.indexOf(parts[0]);
-            const year = parseInt(parts[1], 10);
-            if (monthIdx < 0 || isNaN(year)) return null;
-            const nextMonth = (monthIdx + 1) % 12;
-            const nextYear = monthIdx === 11 ? year + 1 : year;
-            return months[nextMonth] + ' ' + nextYear;
           }
         }
 
