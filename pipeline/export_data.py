@@ -371,7 +371,7 @@ def _export_pipeline_state(site_dir: Path):
                 insights_by_episode_id[int(pid)] = int(rr["c"] or 0)
 
             # Deep dive counts by episode id — used to identify off-main overflow
-            # (episodes that have insight + deep dive but just didn't make the main-8)
+            # (episodes that have insight + deep dive but just didn't make the main-10)
             cur_dd = conn.execute(
                 """
                 SELECT li.podcast_episode_id, COUNT(ddc.id) as c
@@ -669,7 +669,7 @@ def _export_pipeline_state(site_dir: Path):
 
         # After decoupling added_to_site from display_on_main:
         # Episodes with insight + deep dive have added_to_site=1 (published=True, status=complete)
-        # regardless of whether they're on the main-8 carousel. True pipeline debt (status!=complete)
+        # regardless of whether they're on the main-10 carousel. True pipeline debt (status!=complete)
         # means missing insight OR missing deep dive - escalate those to stale list.
 
         if status != "complete" and age_days is not None and age_days >= stale_threshold_days:
@@ -819,7 +819,7 @@ def _export_pipeline_state(site_dir: Path):
             # - Age >= stale_threshold_days
             # - Missing insight OR missing deep dive (true pipeline debt)
             # NOTE: episodes with insight + deep dive but added_to_site=0 are "off-main
-            # overflow" (lost the main-8 race) — NOT pipeline debt, so excluded here.
+            # overflow" (lost the main-10 race) — NOT pipeline debt, so excluded here.
             cur = conn.execute(
                 """
                 SELECT 

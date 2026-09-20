@@ -353,7 +353,7 @@ def _load_main_insight_pins() -> list[int]:
     return out
 
 
-def sync_main_insights_with_deepdives(max_on_main: int = 8) -> int:
+def sync_main_insights_with_deepdives(max_on_main: int = 10) -> int:
     """Turn on main-page display only for insights that already have Deep Dive content.
 
     Clears display_on_main for all non-archived rows, then enables up to ``max_on_main``

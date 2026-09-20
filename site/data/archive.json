@@ -1,6 +1,23 @@
 {
   "insights": [
     {
+      "id": 516,
+      "title": "Nas, Grandmaster Caz, Steve Stoute & Ben Horowitz on Paying Hip-Hop\u2019s Pioneers Their Due",
+      "source_type": "podcast",
+      "source_name": "The a16z Show",
+      "source_date": "2026-09-20",
+      "summary": "The Paid in Full Foundation is making significant strides in recognizing and financially supporting hip-hop pioneers who have historically been overlooked. By combining financial aid with cultural recognition, the foundation addresses both the economic and emotional needs of artists, fostering a sense of community and respect. The establishment of awards like the Quincy Jones Award highlights the foundation's commitment to correcting historical oversights and building goodwill within the hip-hop community.",
+      "key_takeaway": "Supporting organizations that blend financial aid with cultural recognition presents a unique investment opportunity in the creative arts sector.",
+      "tickers_mentioned": [],
+      "sentiment": "bullish",
+      "display_on_main": 0,
+      "display_order": 0,
+      "added_date": "2026-09-20",
+      "archived_date": null,
+      "archived_reason": null,
+      "podcast_episode_id": 501
+    },
+    {
       "id": 511,
       "title": "Bill Gurley: Searching for Feynman",
       "source_type": "podcast",
@@ -12,7 +29,7 @@
         "NVDA"
       ],
       "sentiment": "neutral",
-      "display_on_main": 0,
+      "display_on_main": 1,
       "display_order": 0,
       "added_date": "2026-09-19",
       "archived_date": null,
@@ -88,7 +105,7 @@
         "NVDA"
       ],
       "sentiment": "neutral",
-      "display_on_main": 0,
+      "display_on_main": 1,
       "display_order": 0,
       "added_date": "2026-09-17",
       "archived_date": null,
@@ -107,7 +124,7 @@
         "NVDA"
       ],
       "sentiment": "neutral",
-      "display_on_main": 0,
+      "display_on_main": 1,
       "display_order": 0,
       "added_date": "2026-09-18",
       "archived_date": null,
@@ -126,7 +143,7 @@
         "NVDA"
       ],
       "sentiment": "bearish",
-      "display_on_main": 0,
+      "display_on_main": 1,
       "display_order": 0,
       "added_date": "2026-09-19",
       "archived_date": null,
@@ -145,7 +162,7 @@
         "NVDA"
       ],
       "sentiment": "neutral",
-      "display_on_main": 0,
+      "display_on_main": 1,
       "display_order": 0,
       "added_date": "2026-09-17",
       "archived_date": null,
@@ -164,7 +181,7 @@
         "NVDA"
       ],
       "sentiment": "bullish",
-      "display_on_main": 0,
+      "display_on_main": 1,
       "display_order": 0,
       "added_date": "2026-09-17",
       "archived_date": null,
@@ -183,7 +200,7 @@
         "NVDA"
       ],
       "sentiment": "bearish",
-      "display_on_main": 0,
+      "display_on_main": 1,
       "display_order": 0,
       "added_date": "2026-09-17",
       "archived_date": null,
@@ -833,7 +850,7 @@
         "NVDA"
       ],
       "sentiment": "bullish",
-      "display_on_main": 1,
+      "display_on_main": 0,
       "display_order": 0,
       "added_date": "2026-09-04",
       "archived_date": null,
@@ -853,7 +870,7 @@
         "MSFT"
       ],
       "sentiment": "bearish",
-      "display_on_main": 1,
+      "display_on_main": 0,
       "display_order": 0,
       "added_date": "2026-09-05",
       "archived_date": null,
@@ -891,7 +908,7 @@
         "NVDA"
       ],
       "sentiment": "bullish",
-      "display_on_main": 1,
+      "display_on_main": 0,
       "display_order": 0,
       "added_date": "2026-09-04",
       "archived_date": null,
@@ -987,7 +1004,7 @@
         "NVDA"
       ],
       "sentiment": "neutral",
-      "display_on_main": 1,
+      "display_on_main": 0,
       "display_order": 0,
       "added_date": "2026-09-01",
       "archived_date": null,
