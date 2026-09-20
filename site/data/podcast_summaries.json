@@ -1,5 +1,21 @@
 [
   {
+    "id": 500,
+    "podcast_name": "Moonshots with Peter Diamandis",
+    "episode_title": "Robinhood's Vlad Tenev on Tokenizing Everything, OpenAI's 6 Misalignment Reports, Figure's Robot Makes Beds | EP #292",
+    "episode_date": "2026-09-19",
+    "summary": "The episode discusses the rapid integration of AI technologies in professional services, particularly in finance and law, highlighting tools like OpenAI's ChatGPT and Astra. It emphasizes the implications of AI's efficiency surpassing human cognitive abilities, the trend of recursive self-improvement in AI, and the democratization of investment opportunities through platforms like Robinhood Ventures. These developments signal a transformative shift in investment strategies and market dynamics.",
+    "key_takeaways": [
+      "AI tools are enhancing efficiency in financial and legal services, reducing costs and improving service delivery.",
+      "The trend of recursive self-improvement in AI indicates a future where AI systems autonomously enhance their capabilities.",
+      "AI models are now more efficient thinkers than humans on a per watt basis, impacting economic structures and labor dynamics.",
+      "Robinhood Ventures is democratizing access to private markets, broadening investment opportunities for retail investors.",
+      "Investors should prepare for significant shifts in resource allocation and labor markets due to AI advancements."
+    ],
+    "investment_thesis": "Investing in AI-driven platforms and tools that enhance operational efficiency and democratize investment access presents significant opportunities for growth.",
+    "key_tickers": null
+  },
+  {
     "id": 499,
     "podcast_name": "Monetary Matters with Jack Farley",
     "episode_title": "Why The 30-Year Treasury Lost Its Biggest Buyers | David Busch on Why High Yields Are Attractive Right Now",
