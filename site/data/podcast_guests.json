@@ -1,6 +1,18 @@
 [
   {
-    "id": 71310,
+    "id": 71413,
+    "name": "Outlook on 5 Key Commodities",
+    "slug": "outlook-on-5-key-commodities",
+    "bio": null,
+    "known_for": null,
+    "last_main_idea": "Investors should increase allocations to gold and copper while considering uranium for long-term growth, and reduce exposure to oil and fertilizers.",
+    "last_episode_title": "Outlook on 5 Key Commodities: Metals Bull Market is Just Getting Started (Gold, Copper, & Uranium) | J\u00e9r\u00e9mie Boyer | Aurelion",
+    "last_podcast_name": "Monetary Matters with Jack Farley",
+    "last_episode_date": "2026-09-20",
+    "appearance_count": 1
+  },
+  {
+    "id": 71414,
     "name": "Bill Gurley",
     "slug": "bill-gurley",
     "bio": null,
@@ -12,7 +24,7 @@
     "appearance_count": 1
   },
   {
-    "id": 71311,
+    "id": 71415,
     "name": "Nick Shirley",
     "slug": "nick-shirley",
     "bio": null,
@@ -24,7 +36,7 @@
     "appearance_count": 1
   },
   {
-    "id": 71312,
+    "id": 71416,
     "name": "Jared Isaacman",
     "slug": "jared-isaacman",
     "bio": null,
@@ -36,7 +48,7 @@
     "appearance_count": 1
   },
   {
-    "id": 71313,
+    "id": 71417,
     "name": "Brad Gerstner",
     "slug": "brad-gerstner",
     "bio": null,
@@ -48,7 +60,7 @@
     "appearance_count": 1
   },
   {
-    "id": 71314,
+    "id": 71418,
     "name": "Meta's Dina Powell McCormick",
     "slug": "metas-dina-powell-mccormick",
     "bio": null,
@@ -60,7 +72,7 @@
     "appearance_count": 1
   },
   {
-    "id": 71315,
+    "id": 71419,
     "name": "Underwriting Superintelligence",
     "slug": "underwriting-superintelligence",
     "bio": null,
@@ -72,7 +84,7 @@
     "appearance_count": 1
   },
   {
-    "id": 71316,
+    "id": 71420,
     "name": "Hawks Take Flight",
     "slug": "hawks-take-flight",
     "bio": null,
@@ -84,7 +96,7 @@
     "appearance_count": 1
   },
   {
-    "id": 71317,
+    "id": 71421,
     "name": "Martine Rothblatt",
     "slug": "martine-rothblatt",
     "bio": null,
@@ -96,7 +108,7 @@
     "appearance_count": 1
   },
   {
-    "id": 71318,
+    "id": 71422,
     "name": "Microsoft CEO Satya Nadella",
     "slug": "microsoft-ceo-satya-nadella",
     "bio": null,
@@ -108,7 +120,7 @@
     "appearance_count": 1
   },
   {
-    "id": 71319,
+    "id": 71423,
     "name": "Jensen Huang",
     "slug": "jensen-huang",
     "bio": null,
@@ -120,7 +132,7 @@
     "appearance_count": 1
   },
   {
-    "id": 71320,
+    "id": 71424,
     "name": "Ask the Mates anything",
     "slug": "ask-the-mates-anything",
     "bio": null,
@@ -132,7 +144,7 @@
     "appearance_count": 1
   },
   {
-    "id": 71321,
+    "id": 71425,
     "name": "Matt Barry",
     "slug": "matt-barry",
     "bio": null,
@@ -144,7 +156,7 @@
     "appearance_count": 1
   },
   {
-    "id": 71322,
+    "id": 71426,
     "name": "Who Grades the AI Models?",
     "slug": "who-grades-the-ai-models",
     "bio": null,
@@ -156,7 +168,7 @@
     "appearance_count": 1
   },
   {
-    "id": 71323,
+    "id": 71427,
     "name": "Your AI Doctor Is Coming",
     "slug": "your-ai-doctor-is-coming",
     "bio": null,
@@ -168,7 +180,7 @@
     "appearance_count": 1
   },
   {
-    "id": 71324,
+    "id": 71428,
     "name": "Fei Fei Li",
     "slug": "fei-fei-li",
     "bio": null,
@@ -180,7 +192,7 @@
     "appearance_count": 1
   },
   {
-    "id": 71325,
+    "id": 71429,
     "name": "Financial strategist Jared Dillian",
     "slug": "financial-strategist-jared-dillian",
     "bio": null,
@@ -192,7 +204,7 @@
     "appearance_count": 1
   },
   {
-    "id": 71326,
+    "id": 71430,
     "name": "Daniel Litt",
     "slug": "daniel-litt",
     "bio": null,
@@ -204,7 +216,7 @@
     "appearance_count": 1
   },
   {
-    "id": 71327,
+    "id": 71431,
     "name": "Gavin Baker",
     "slug": "gavin-baker",
     "bio": null,
@@ -216,7 +228,7 @@
     "appearance_count": 1
   },
   {
-    "id": 71328,
+    "id": 71432,
     "name": "Sam Altman",
     "slug": "sam-altman",
     "bio": null,
@@ -228,7 +240,7 @@
     "appearance_count": 1
   },
   {
-    "id": 71329,
+    "id": 71433,
     "name": "Time to Reduce Equity Risk",
     "slug": "time-to-reduce-equity-risk",
     "bio": null,
@@ -240,7 +252,7 @@
     "appearance_count": 1
   },
   {
-    "id": 71330,
+    "id": 71434,
     "name": "Eric Weinstein",
     "slug": "eric-weinstein",
     "bio": null,
@@ -252,7 +264,7 @@
     "appearance_count": 1
   },
   {
-    "id": 71331,
+    "id": 71435,
     "name": "Michael Kratsios",
     "slug": "michael-kratsios",
     "bio": null,
@@ -264,7 +276,7 @@
     "appearance_count": 1
   },
   {
-    "id": 71332,
+    "id": 71436,
     "name": "Emad Mostaque",
     "slug": "emad-mostaque",
     "bio": null,
@@ -276,7 +288,7 @@
     "appearance_count": 3
   },
   {
-    "id": 71333,
+    "id": 71437,
     "name": "Angela Strange and Gabriel Vasquez",
     "slug": "angela-strange-and-gabriel-vasquez",
     "bio": null,
@@ -288,7 +300,7 @@
     "appearance_count": 1
   },
   {
-    "id": 71334,
+    "id": 71438,
     "name": "Why Bessent Blinked",
     "slug": "why-bessent-blinked",
     "bio": null,
@@ -300,7 +312,7 @@
     "appearance_count": 1
   },
   {
-    "id": 71335,
+    "id": 71439,
     "name": "Travis Kalanick",
     "slug": "travis-kalanick",
     "bio": null,
@@ -312,7 +324,7 @@
     "appearance_count": 1
   },
   {
-    "id": 71336,
+    "id": 71440,
     "name": "Rahm Emanuel",
     "slug": "rahm-emanuel",
     "bio": null,
@@ -324,7 +336,7 @@
     "appearance_count": 1
   },
   {
-    "id": 71337,
+    "id": 71441,
     "name": "Milton Berg",
     "slug": "milton-berg",
     "bio": "Milton Berg is a veteran technical analyst and CEO of Milton Berg Advisors, specializing in market turning-point analysis for institutional investors.",
@@ -336,7 +348,7 @@
     "appearance_count": 1
   },
   {
-    "id": 71338,
+    "id": 71442,
     "name": "How Open",
     "slug": "how-open",
     "bio": null,
@@ -345,18 +357,6 @@
     "last_episode_title": "How Open-Source AI Became Critical Infrastructure",
     "last_podcast_name": "The a16z Show",
     "last_episode_date": "2026-08-06",
-    "appearance_count": 1
-  },
-  {
-    "id": 71339,
-    "name": "Saronic Founders",
-    "slug": "saronic-founders",
-    "bio": null,
-    "known_for": null,
-    "last_main_idea": "Investment in autonomous defense technologies is crucial for maintaining a competitive edge and can lead to significant advancements in military capabilities.",
-    "last_episode_title": "Saronic Founders: Autonomous Warships, China's 230X Advantage & Swarms of Robot Ships",
-    "last_podcast_name": "All-In with Chamath, Jason, Sacks & Friedberg",
-    "last_episode_date": "2026-08-05",
     "appearance_count": 1
   }
 ]

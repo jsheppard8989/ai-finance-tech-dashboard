@@ -18,6 +18,29 @@
       "podcast_episode_id": 501
     },
     {
+      "id": 517,
+      "title": "Outlook on 5 Key Commodities: Metals Bull Market is Just Getting Started (Gold, Copper, & Uranium) | J\u00e9r\u00e9mie Boyer | Aurelion",
+      "source_type": "podcast",
+      "source_name": "Monetary Matters with Jack Farley",
+      "source_date": "2026-09-20",
+      "summary": "In this episode, the discussion centers around the bullish outlook for gold, driven by increased central bank purchases and significant inflows into gold ETFs. The conversation also highlights the rising demand for copper due to AI and data center construction, alongside a long-term bullish perspective on uranium as countries ramp up nuclear energy initiatives. Conversely, there is a bearish sentiment towards oil and fertilizers due to oversupply and geopolitical uncertainties, prompting a reevaluation of investment strategies in these sectors.",
+      "key_takeaway": "Investors should increase allocations to gold and copper while considering uranium for long-term growth, and reduce exposure to oil and fertilizers.",
+      "tickers_mentioned": [
+        "GOLD",
+        "COPPER",
+        "URANIUM",
+        "OIL",
+        "FERTILIZERS"
+      ],
+      "sentiment": "bullish",
+      "display_on_main": 0,
+      "display_order": 0,
+      "added_date": "2026-09-20",
+      "archived_date": null,
+      "archived_reason": null,
+      "podcast_episode_id": 502
+    },
+    {
       "id": 511,
       "title": "Bill Gurley: Searching for Feynman",
       "source_type": "podcast",
@@ -10428,8 +10451,8 @@
       "term": "Electrification",
       "description": "The process of converting systems or industries to use electricity as the primary power source.",
       "first_detected_date": "2026-06-18",
-      "last_mentioned_date": "2026-09-17",
-      "mention_count": 6,
+      "last_mentioned_date": "2026-09-20",
+      "mention_count": 7,
       "source_podcasts": null,
       "status": "active",
       "investment_implications": "Investors should focus on companies involved in the electrification of the grid and power generation, as demand for electricity is projected to increase.",
@@ -10438,8 +10461,8 @@
       "archived_reason": null,
       "first_detected_episode_id": 297,
       "first_detected_speaker": "Chris Seminoch",
-      "last_mentioned_episode_id": 490,
-      "last_mentioned_speaker": "Harley Bassman"
+      "last_mentioned_episode_id": 502,
+      "last_mentioned_speaker": "Jeremy Boyet"
     },
     {
       "id": 258,
