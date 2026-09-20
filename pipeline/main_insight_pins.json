@@ -1,15 +1,28 @@
 {
-  "description": "Insight IDs forced onto the main Latest Insights list (max 8 total). Pins consume slots first; remaining slots fill by source_date DESC among insights that have deep_dive_content. Used by sync_main_insights_with_deepdives.",
+  "description": "Insight IDs forced onto the main Latest Insights list (max 10 total). Pins consume slots first; remaining slots fill by source_date DESC among insights that have deep_dive_content. Used by sync_main_insights_with_deepdives.",
   "pinned_insight_ids": [
-    465,
-    468,
-    472,
-    466
+    511,
+    513,
+    514,
+    515,
+    508,
+    510,
+    512,
+    503,
+    504,
+    505
   ],
   "notes": [
-    "465 = Dwarkesh / Ajeya Cotra (episode 450) \u2014 G summary pin",
-    "468 = Macro Voices #548 / Carly Anderson (episode 453) \u2014 G summary pin",
-    "472 = All-In GPT-6 / Sep 4 \u2014 Ditka newest needs_export clear",
-    "466 = a16z Fei Fei Li / Sep 4 \u2014 Ditka newest needs_export clear"
+    "Top 10 newest eligible by episode release date (skip culture one-offs like hip-hop #516)",
+    "511 = All-In / Bill Gurley: Searching for Feynman (2026-09-19)",
+    "513 = a16z / Josh Elman: Consumer AI Products (2026-09-19)",
+    "514 = Monetary Matters / David Busch: 30-Year Treasury (2026-09-19)",
+    "515 = Moonshots / Vlad Tenev: Tokenizing Everything (2026-09-19)",
+    "508 = All-In / Nick Shirley: Government Fraud (2026-09-18)",
+    "510 = All-In / Jared Isaacman: NASA Space Era (2026-09-18)",
+    "512 = a16z / Databricks CEO: AI Pacing (2026-09-18)",
+    "503 = All-In / Brad Gerstner: No AI Bubble (2026-09-17)",
+    "504 = a16z / AI Video Control (2026-09-17)",
+    "505 = Dwarkesh / Noam Brown: Agent swarms (2026-09-17)"
   ]
 }

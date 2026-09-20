@@ -10,7 +10,7 @@
       "key_takeaway": "Supporting organizations that blend financial aid with cultural recognition presents a unique investment opportunity in the creative arts sector.",
       "tickers_mentioned": [],
       "sentiment": "bullish",
-      "display_on_main": 1,
+      "display_on_main": 0,
       "display_order": 0,
       "added_date": "2026-09-20",
       "archived_date": null,
@@ -29,7 +29,7 @@
         "NVDA"
       ],
       "sentiment": "neutral",
-      "display_on_main": 0,
+      "display_on_main": 1,
       "display_order": 0,
       "added_date": "2026-09-19",
       "archived_date": null,
@@ -105,7 +105,7 @@
         "NVDA"
       ],
       "sentiment": "neutral",
-      "display_on_main": 0,
+      "display_on_main": 1,
       "display_order": 0,
       "added_date": "2026-09-17",
       "archived_date": null,
@@ -124,7 +124,7 @@
         "NVDA"
       ],
       "sentiment": "neutral",
-      "display_on_main": 0,
+      "display_on_main": 1,
       "display_order": 0,
       "added_date": "2026-09-18",
       "archived_date": null,
@@ -143,7 +143,7 @@
         "NVDA"
       ],
       "sentiment": "bearish",
-      "display_on_main": 0,
+      "display_on_main": 1,
       "display_order": 0,
       "added_date": "2026-09-19",
       "archived_date": null,
@@ -162,7 +162,7 @@
         "NVDA"
       ],
       "sentiment": "neutral",
-      "display_on_main": 0,
+      "display_on_main": 1,
       "display_order": 0,
       "added_date": "2026-09-17",
       "archived_date": null,
@@ -181,7 +181,7 @@
         "NVDA"
       ],
       "sentiment": "bullish",
-      "display_on_main": 0,
+      "display_on_main": 1,
       "display_order": 0,
       "added_date": "2026-09-17",
       "archived_date": null,
@@ -200,7 +200,7 @@
         "NVDA"
       ],
       "sentiment": "bearish",
-      "display_on_main": 0,
+      "display_on_main": 1,
       "display_order": 0,
       "added_date": "2026-09-17",
       "archived_date": null,
@@ -850,7 +850,7 @@
         "NVDA"
       ],
       "sentiment": "bullish",
-      "display_on_main": 1,
+      "display_on_main": 0,
       "display_order": 0,
       "added_date": "2026-09-04",
       "archived_date": null,
@@ -870,7 +870,7 @@
         "MSFT"
       ],
       "sentiment": "bearish",
-      "display_on_main": 1,
+      "display_on_main": 0,
       "display_order": 0,
       "added_date": "2026-09-05",
       "archived_date": null,
@@ -908,7 +908,7 @@
         "NVDA"
       ],
       "sentiment": "bullish",
-      "display_on_main": 1,
+      "display_on_main": 0,
       "display_order": 0,
       "added_date": "2026-09-04",
       "archived_date": null,
@@ -1004,7 +1004,7 @@
         "NVDA"
       ],
       "sentiment": "neutral",
-      "display_on_main": 1,
+      "display_on_main": 0,
       "display_order": 0,
       "added_date": "2026-09-01",
       "archived_date": null,
