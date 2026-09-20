@@ -1,19 +1,19 @@
 {
   "_comment": "Home page summary of Trap Map. Regenerate from trap_map.json when a trap datapoint is stamped. Script hook: pipeline/regenerate_trap_home.py",
-  "_generated_at": "2026-09-20T17:33:25Z",
+  "_generated_at": "2026-09-20T19:05:26Z",
   "_source": "data/trap_map.json",
   "last_monitored": [
+    {
+      "id": "buyback-confession-captive-duration",
+      "short_title": "Buyback / captive duration",
+      "status": "WATCH",
+      "updated_at": "2026-09-20"
+    },
     {
       "id": "trap-1-power-interconnect",
       "short_title": "Power + DC interconnect",
       "status": "WATCH",
       "updated_at": "2026-09-14"
-    },
-    {
-      "id": "buyback-confession-captive-duration",
-      "short_title": "Cleared, no relief",
-      "status": "WATCH",
-      "updated_at": "2026-09-20"
     },
     {
       "id": "asts-secondary-watch",

@@ -1,5 +1,43 @@
 [
   {
+    "id": 502,
+    "podcast_name": "Monetary Matters with Jack Farley",
+    "episode_title": "Outlook on 5 Key Commodities: Metals Bull Market is Just Getting Started (Gold, Copper, & Uranium) | J\u00e9r\u00e9mie Boyer | Aurelion",
+    "episode_date": "2026-09-20",
+    "summary": "In this episode, the discussion centers around the bullish outlook for gold, driven by increased central bank purchases and significant inflows into gold ETFs. The conversation also highlights the rising demand for copper due to AI and data center construction, alongside a long-term bullish perspective on uranium as countries ramp up nuclear energy initiatives. Conversely, there is a bearish sentiment towards oil and fertilizers due to oversupply and geopolitical uncertainties, prompting a reevaluation of investment strategies in these sectors.",
+    "key_takeaways": [
+      "Gold has decoupled from oil prices, indicating a potential for price increases as central banks, especially in China, increase purchases.",
+      "Copper demand is projected to surge, driven by AI and data center needs, with a price target of $7 per pound.",
+      "Uranium is expected to see increased demand as countries commit to building new nuclear reactors, presenting long-term investment opportunities.",
+      "A bearish outlook on oil and fertilizers suggests investors should reduce exposure in these areas.",
+      "Smaller copper producers with strong fundamentals may offer better investment opportunities than larger companies."
+    ],
+    "investment_thesis": "Investors should increase allocations to gold and copper while considering uranium for long-term growth, and reduce exposure to oil and fertilizers.",
+    "key_tickers": [
+      "GOLD",
+      "COPPER",
+      "URANIUM",
+      "OIL",
+      "FERTILIZERS"
+    ]
+  },
+  {
+    "id": 501,
+    "podcast_name": "The a16z Show",
+    "episode_title": "Nas, Grandmaster Caz, Steve Stoute & Ben Horowitz on Paying Hip-Hop\u2019s Pioneers Their Due",
+    "episode_date": "2026-09-20",
+    "summary": "The Paid in Full Foundation is making significant strides in recognizing and financially supporting hip-hop pioneers who have historically been overlooked. By combining financial aid with cultural recognition, the foundation addresses both the economic and emotional needs of artists, fostering a sense of community and respect. The establishment of awards like the Quincy Jones Award highlights the foundation's commitment to correcting historical oversights and building goodwill within the hip-hop community.",
+    "key_takeaways": [
+      "Invest in initiatives that provide both financial aid and cultural recognition to maximize impact.",
+      "Transparency and relationship-building are essential for overcoming skepticism from artists.",
+      "Cultivating a culture of care within organizations enhances community engagement and effectiveness.",
+      "Establishing awards can help rectify past oversights and foster goodwill in communities.",
+      "Highlighting personal success stories can enhance credibility and attract more support for initiatives."
+    ],
+    "investment_thesis": "Supporting organizations that blend financial aid with cultural recognition presents a unique investment opportunity in the creative arts sector.",
+    "key_tickers": null
+  },
+  {
     "id": 500,
     "podcast_name": "Moonshots with Peter Diamandis",
     "episode_title": "Robinhood's Vlad Tenev on Tokenizing Everything, OpenAI's 6 Misalignment Reports, Figure's Robot Makes Beds | EP #292",
