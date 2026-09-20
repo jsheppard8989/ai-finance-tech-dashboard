@@ -25,26 +25,7 @@
     "published": 1,
     "total": 1
   },
-  "episodes": [
-    {
-      "id": "6f1d0668-af88-4f33-abb8-e5ffbc3bfc09",
-      "podcast": "The a16z Show",
-      "title": "Nas, Grandmaster Caz, Steve Stoute & Ben Horowitz on Paying Hip-Hop\u2019s Pioneers Their Due",
-      "published": "2026-09-20",
-      "rss_guid": "6f1d0668-af88-4f33-abb8-e5ffbc3bfc09",
-      "stages": {
-        "downloaded": true,
-        "transcribed": true,
-        "analyzed": true,
-        "insight_created": true,
-        "published": true
-      },
-      "stage_reasons": {},
-      "first_blocker": null,
-      "remediation_by_stage": {},
-      "status": "complete"
-    }
-  ],
+  "episodes": [],
   "available_from_rss": [],
   "stale_episodes": [],
   "stale_threshold_days": 2,

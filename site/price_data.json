@@ -98,17 +98,17 @@
     "price_14d_ago": 42.87
   },
   "BTC": {
-    "price": 80451.0,
-    "change_pct": 1.69,
+    "price": 80528.98,
+    "change_pct": 1.79,
     "name": "Bitcoin USD",
-    "updated_at": "2026-09-20T07:14:59.108099",
+    "updated_at": "2026-09-20T09:34:58.431560",
     "price_14d_ago": 79115.85
   },
   "BTC-USD": {
-    "price": 80451.0,
-    "change_pct": 1.69,
+    "price": 80528.98,
+    "change_pct": 1.79,
     "name": "Bitcoin USD",
-    "updated_at": "2026-09-20T07:14:59.314855",
+    "updated_at": "2026-09-20T09:34:58.624232",
     "price_14d_ago": 79115.85
   },
   "BX": {
@@ -640,7 +640,7 @@
     "price": 721.45,
     "change_pct": 0.65,
     "name": "Invesco QQQ Trust, Series 1",
-    "updated_at": "2026-09-20T07:15:19.226745",
+    "updated_at": "2026-09-20T09:34:58.250676",
     "price_14d_ago": 716.76
   },
   "QTA": {
@@ -1004,39 +1004,39 @@
     "price": 27.99,
     "change_pct": -5.38,
     "name": "Hims & Hers Health, Inc.",
-    "updated_at": "2026-09-20T07:15:33.200196",
+    "updated_at": "2026-09-20T09:34:58.818746",
     "price_14d_ago": 29.58
   },
   "GDRX": {
     "price": 3.38,
     "change_pct": -3.15,
     "name": "GoodRx Holdings, Inc.",
-    "updated_at": "2026-09-20T07:15:33.401833",
+    "updated_at": "2026-09-20T09:34:59.010625",
     "price_14d_ago": 3.49
   },
   "TEM": {
     "price": 77.84,
     "change_pct": 23.46,
     "name": "Tempus AI, Inc.",
-    "updated_at": "2026-09-20T07:15:33.611711",
+    "updated_at": "2026-09-20T09:34:59.210926",
     "price_14d_ago": 63.05
   },
   "GH": {
     "price": 179.38,
     "change_pct": 12.8,
     "name": "Guardant Health, Inc.",
-    "updated_at": "2026-09-20T07:15:33.817292",
+    "updated_at": "2026-09-20T09:34:59.402028",
     "price_14d_ago": 159.02
   },
   "ABT": {
     "price": 102.61,
     "change_pct": -7.02,
     "name": "Abbott Laboratories",
-    "updated_at": "2026-09-20T07:15:34.039465",
+    "updated_at": "2026-09-20T09:34:59.660259",
     "price_14d_ago": 110.36
   },
   "_metadata": {
-    "last_updated": "2026-09-20T07:15:34.039504",
+    "last_updated": "2026-09-20T09:34:59.660299",
     "count": 148
   }
 }

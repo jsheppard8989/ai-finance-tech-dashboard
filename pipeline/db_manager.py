@@ -27,13 +27,13 @@ RESONANCE_LOG_SCALE = 25.0  # multiplier for log output to get 0-100 range
 
 
 def _sort_pundits_for_site(pundits: List[Dict]) -> List[Dict]:
-    """Most recent appearance first; frequency breaks recency ties."""
+    """Sort by Presence (mention_score_decayed) descending, then recency as tiebreaker."""
     ordered = sorted(
         pundits,
         key=lambda p: ((p.get("name") or "").casefold(), p.get("id") or 0),
     )
-    ordered.sort(key=lambda p: p.get("mention_score") or 0, reverse=True)
     ordered.sort(key=lambda p: str(p.get("last_seen") or ""), reverse=True)
+    ordered.sort(key=lambda p: p.get("mention_score_decayed") or 0, reverse=True)
     return ordered
 
 
@@ -1010,7 +1010,7 @@ class DashboardDB:
                 INNER JOIN deep_dive_content ddc ON ddc.insight_id = li.id
                 LEFT JOIN podcast_episodes pe ON li.podcast_episode_id = pe.id
                 WHERE li.display_on_main = 1
-                ORDER BY li.display_order, li.source_date DESC
+                ORDER BY pe.episode_date DESC, li.source_date DESC
                 LIMIT 10
             """)
             rows = [dict(row) for row in cursor.fetchall()]
