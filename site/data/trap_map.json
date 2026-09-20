@@ -23,7 +23,7 @@
       "RELEGATE": "Demoted on the map"
     }
   },
-  "as_of": "2026-09-14",
+  "as_of": "2026-09-20",
   "traps": [
     {
       "id": "trap-1-power-interconnect",
@@ -92,7 +92,8 @@
     },
     {
       "id": "buyback-confession-captive-duration",
-      "title": "Buyback as confession — captive duration",
+      "title": "Cleared, no relief",
+      "prior_label": "Buyback as confession",
       "validation_status": "WATCH",
       "status_note": "Sep 9 10Y + Sep 10 30Y both STAMPED strong private sponsorship (COSMETIC lean); Sep 10 $6bn 10–20Y buyback accepted $5.187bn / offered $10.489bn (86.5% of max). validation_status remains WATCH — JG.",
       "who_collects_rent": "Whoever is forced or structurally bid to warehouse long-end duration (banks/pensions under repression; issuer as standing long-end bid via enlarged buybacks) while coupon supply continues.",
@@ -110,7 +111,7 @@
         "Treasury SB0607 — long-end buybacks ≥$4bn through Nov 4 2026",
         "FRED CMT series / Treasury refunding documents (Nov 4 2026)"
       ],
-      "updated_at": "2026-09-10"
+      "updated_at": "2026-09-20"
     }
   ]
 }
