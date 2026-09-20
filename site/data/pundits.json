@@ -1,5 +1,116 @@
 [
   {
+    "id": 470,
+    "name": "Grandmaster Caz",
+    "slug": "grandmaster-caz",
+    "bio": "Grandmaster Caz is a legendary hip-hop artist and one of the pioneers of the genre. He has made significant contributions to hip-hop culture and music, influencing generations of artists. His passion for the art form continues to drive him as he advocates for recognition of the genre's founders and their impact on music and culture.",
+    "known_for": "Grandmaster Caz is celebrated for his foundational role in hip-hop, shaping the genre's evolution and cultural significance.",
+    "net_worth_usd": null,
+    "net_worth_source": "",
+    "net_worth_updated_at": null,
+    "voice_tone": "Reflective and heartfelt",
+    "voice_style": "Shares personal stories to illustrate points.",
+    "voice_delivery_notes": "Delivery is emotive, with pauses for effect.",
+    "voice_profile_updated_at": "2026-09-20 12:14:30",
+    "last_seen": "2026-09-20 12:14:30",
+    "last_episode_title": "Nas, Grandmaster Caz, Steve Stoute & Ben Horowitz on Paying Hip-Hop\u2019s Pioneers Their Due",
+    "last_podcast_name": "The a16z Show",
+    "last_episode_date": "2026-09-20",
+    "mention_score": 1,
+    "mention_score_decayed": 1,
+    "last_main_idea": "Supporting organizations that blend financial aid with cultural recognition presents a unique investment opportunity in the creative arts sector.",
+    "last_proof_cite": "The a16z Show \u2022 2026-09-20 \u2022 Nas, Grandmaster Caz, Steve Stoute & Ben Horowitz on Paying Hip-Hop\u2019s Pioneers Their Due",
+    "last_proof_snippet": "I think in life it's impossible to do anything great if you start with what's possible. You have to start with what's right. Hip-hop is not that big. Like the guys who made the art form are not that many. And so why can't we honor them? ack",
+    "supporting_takeaway": "Transparency and relationship-building are essential for overcoming skepticism from artists.",
+    "grokipedia_url": null,
+    "grokipedia_fetched_at": "2026-09-20T07:14:43.959709",
+    "pundit_profile": {
+      "source": "llm",
+      "source_model": "openai:gpt-4o-mini",
+      "source_url": "",
+      "page_title": "Grandmaster Caz",
+      "fetched_at": "2026-09-20T12:14:43.959549+00:00",
+      "cliff_notes": "Grandmaster Caz, born Curtis Fisher, emerged as a key figure in the early days of hip-hop during the 1970s. As a member of the legendary Cold Crush Brothers, he helped define the art of rapping and DJing, contributing to the genre's foundational sound. His work has influenced countless artists and has been pivotal in the development of hip-hop culture. Caz's advocacy for the recognition of hip-hop pioneers highlights the ongoing struggle for acknowledgment and financial reward within the industry. He emphasizes the importance of honoring those who laid the groundwork for the genre, ensuring that their contributions are celebrated and remembered. Through his continued involvement in music and culture, Grandmaster Caz remains a vital voice in the hip-hop community, inspiring new generations while advocating for the legacy of the genre.",
+      "derived": {},
+      "infobox": {
+        "Born": "",
+        "Nationality": ""
+      },
+      "lead_paragraphs": [
+        "Grandmaster Caz, born Curtis Fisher, emerged as a key figure in the early days of hip-hop during the 1970s. As a member of the legendary Cold Crush Brothers, he helped define the art of rapping and DJing, contributing to the genre's foundational sound. His work has influenced countless artists and has been pivotal in the development of hip-hop culture.",
+        "Caz's advocacy for the recognition of hip-hop pioneers highlights the ongoing struggle for acknowledgment and financial reward within the industry. He emphasizes the importance of honoring those who laid the groundwork for the genre, ensuring that their contributions are celebrated and remembered. Through his continued involvement in music and culture, Grandmaster Caz remains a vital voice in the hip-hop community, inspiring new generations while advocating for the legacy of the genre."
+      ],
+      "sections": [
+        {
+          "heading": "Pioneering Hip-Hop",
+          "body": "Grandmaster Caz played a crucial role in the formation of hip-hop as a genre, influencing its sound and style through his innovative rapping and DJing."
+        },
+        {
+          "heading": "Cultural Advocacy",
+          "body": "He actively advocates for the recognition of hip-hop pioneers, stressing the importance of honoring those who contributed to the genre's creation and evolution."
+        },
+        {
+          "heading": "Legacy and Influence",
+          "body": "Caz's work has inspired countless artists, and his efforts to celebrate the history of hip-hop ensure that its roots are acknowledged in contemporary culture."
+        }
+      ]
+    }
+  },
+  {
+    "id": 469,
+    "name": "Steve Stout",
+    "slug": "steve-stout",
+    "bio": "Steve Stout is a prominent advocate in the hip-hop community, known for his efforts to recognize and celebrate the contributions of hip-hop pioneers. He is a key figure behind the Paid in Full Foundation, which aims to honor those who have shaped the genre. Stout emphasizes the importance of acknowledging the artists who built hip-hop, advocating for their recognition and financial rewards.",
+    "known_for": "Steve Stout is dedicated to advocating for the recognition of hip-hop pioneers, highlighting their significant yet often overlooked contributions to music and culture.",
+    "net_worth_usd": null,
+    "net_worth_source": "",
+    "net_worth_updated_at": null,
+    "voice_tone": "Passionate and engaging",
+    "voice_style": "Emphasizes the importance of community and recognition.",
+    "voice_delivery_notes": "Pacing is steady with moments of emphasis on key points.",
+    "voice_profile_updated_at": "2026-09-20 12:14:30",
+    "last_seen": "2026-09-20 12:14:30",
+    "last_episode_title": "Nas, Grandmaster Caz, Steve Stoute & Ben Horowitz on Paying Hip-Hop\u2019s Pioneers Their Due",
+    "last_podcast_name": "The a16z Show",
+    "last_episode_date": "2026-09-20",
+    "mention_score": 1,
+    "mention_score_decayed": 1,
+    "last_main_idea": "Supporting organizations that blend financial aid with cultural recognition presents a unique investment opportunity in the creative arts sector.",
+    "last_proof_cite": "The a16z Show \u2022 2026-09-20 \u2022 Nas, Grandmaster Caz, Steve Stoute & Ben Horowitz on Paying Hip-Hop\u2019s Pioneers Their Due",
+    "last_proof_snippet": "I think in life it's impossible to do anything great if you start with what's possible. You have to start with what's right. Hip-hop is not that big. Like the guys who made the art form are not that many. And so why can't we honor them? ack",
+    "supporting_takeaway": "Transparency and relationship-building are essential for overcoming skepticism from artists.",
+    "grokipedia_url": null,
+    "grokipedia_fetched_at": "2026-09-20T07:14:39.498354",
+    "pundit_profile": {
+      "source": "llm",
+      "source_model": "openai:gpt-4o-mini",
+      "source_url": "",
+      "page_title": "Steve Stout",
+      "fetched_at": "2026-09-20T12:14:39.498212+00:00",
+      "cliff_notes": "Steve Stout has emerged as a significant voice in the hip-hop community, focusing on the recognition of its foundational artists. His work with the Paid in Full Foundation underscores his commitment to honoring those who have contributed to the genre's evolution. Stout's advocacy is rooted in a belief that the pioneers of hip-hop deserve acknowledgment and financial support, as many have not received the recognition they merit despite their influence on music, fashion, and culture. By bringing attention to these artists, Stout aims to reshape the narrative around hip-hop and ensure that its history is celebrated and preserved.",
+      "derived": {},
+      "infobox": {},
+      "lead_paragraphs": [
+        "Steve Stout has emerged as a significant voice in the hip-hop community, focusing on the recognition of its foundational artists. His work with the Paid in Full Foundation underscores his commitment to honoring those who have contributed to the genre's evolution. Stout's advocacy is rooted in a belief that the pioneers of hip-hop deserve acknowledgment and financial support, as many have not received the recognition they merit despite their influence on music, fashion, and culture.",
+        "By bringing attention to these artists, Stout aims to reshape the narrative around hip-hop and ensure that its history is celebrated and preserved."
+      ],
+      "sections": [
+        {
+          "heading": "Advocacy for Hip-Hop Pioneers",
+          "body": "Stout champions the cause of hip-hop pioneers, arguing that their contributions have been undervalued. He believes that recognizing these artists is essential for the integrity of the genre."
+        },
+        {
+          "heading": "Paid in Full Foundation",
+          "body": "As a key advocate for the Paid in Full Foundation, Stout works to honor and support the artists who laid the groundwork for hip-hop, ensuring their legacy is acknowledged."
+        },
+        {
+          "heading": "Cultural Impact of Hip-Hop",
+          "body": "Stout highlights the transformative power of hip-hop on music, fashion, and language, advocating for a broader understanding of its cultural significance."
+        }
+      ]
+    }
+  },
+  {
     "id": 468,
     "name": "David Bush",
     "slug": "david-bush",
@@ -73,7 +184,7 @@
     "last_podcast_name": "The a16z Show",
     "last_episode_date": "2026-09-19",
     "mention_score": 2,
-    "mention_score_decayed": 2,
+    "mention_score_decayed": 1.95,
     "last_main_idea": "Investing in companies that develop personal AI solutions and interactive consumer experiences presents significant growth opportunities in the evolving digital landscape.",
     "last_proof_cite": "The a16z Show \u2022 2026-09-19 \u2022 What Makes a Consumer AI Product Stick? | Josh Elman",
     "last_proof_snippet": "It's never been easier to get consumers attention. What's harder, I think, is getting me not just to try something, but to actually stick. It has to be such a good product doing that one thing really well out of the box that I either stop d",
@@ -483,7 +594,7 @@
     "last_podcast_name": "The a16z Show",
     "last_episode_date": "2026-09-17",
     "mention_score": 1,
-    "mention_score_decayed": 0.95,
+    "mention_score_decayed": 0.93,
     "last_main_idea": "Investing in companies that develop real-time generative video technologies and AI solutions for Hollywood presents significant growth opportunities.",
     "last_proof_cite": "The a16z Show \u2022 2026-09-17 \u2022 The Next Frontier of AI Video Is Control",
     "last_proof_snippet": "Generative media is along with the coding agent market. What we call is token market fit. Everyone's waiting for a large consumer moment in AI. I believe H3 Max makes it possible. We're surprised by the speed up and the gain you could get f",
@@ -1633,7 +1744,7 @@
     "last_podcast_name": "The a16z Show",
     "last_episode_date": "2026-09-08",
     "mention_score": 1,
-    "mention_score_decayed": 0.78,
+    "mention_score_decayed": 0.76,
     "last_main_idea": "AI capabilities are expanding from applied tasks to foundational scientific discovery, creating asymmetric opportunities in companies building advanced reasoning systems and the infrastructure supporting scientific AI, while traditional R&D-intensive industries face disruption or amplification depending on adoption speed.",
     "last_proof_cite": "The a16z Show \u2022 2026-09-08 \u2022 OpenAI Researchers on the Future of Mathematical Reasoning",
     "last_proof_snippet": "Often, it's a practicing mouth-efficient, you have an idea, and then you kind of think it might work, then you try for a few hours if you reach, and at some point, you give up. Whereas for GPT, like, okay, I keep informing you to do this, l",
@@ -1703,7 +1814,7 @@
     "last_podcast_name": "The a16z Show",
     "last_episode_date": "2026-09-07",
     "mention_score": 1,
-    "mention_score_decayed": 0.76,
+    "mention_score_decayed": 0.74,
     "last_main_idea": "The AI infrastructure landscape may undergo significant decentralization as algorithmic breakthroughs reduce dependence on hyperscaler-scale compute, creating investment opportunities in edge computing, specialized AI chips, and open-source ecosystem enablers while potentially compressing returns for pure scale-based incumbents.",
     "last_proof_cite": "The a16z Show \u2022 2026-09-07 \u2022 Can Open Source Keep AI Power From Concentrating?",
     "last_proof_snippet": "AI is becoming more powerful, but the resources needed to build it are increasingly concentrated. Does it have to stay that way? MTS host Sophia Dew heads to the open source AI summit in San Francisco. To ask researchers and founders across",
@@ -2095,7 +2206,7 @@
     "last_podcast_name": "The a16z Show",
     "last_episode_date": "2026-09-01",
     "mention_score": 1,
-    "mention_score_decayed": 0.66,
+    "mention_score_decayed": 0.64,
     "last_main_idea": "Invest in technologies and educational initiatives that enhance human intuition and critical thinking in mathematics, focusing on AI tools that augment human understanding rather than replace it, while also supporting frameworks for quality control in AI-driven research.",
     "last_proof_cite": "The a16z Show \u2022 2026-09-01 \u2022 Daniel Litt: The Mathematician's Guide to AI",
     "last_proof_snippet": "The goal of mathematics is not to produce mathematics papers. It's to produce some kind of understanding. Maybe some of that understanding resides in model weights. To me, that's like pretty unsatisfied. Comparing and profit with open AI. D",
@@ -2122,7 +2233,7 @@
     "last_podcast_name": "The a16z Show",
     "last_episode_date": "2026-08-29",
     "mention_score": 1,
-    "mention_score_decayed": 0.62,
+    "mention_score_decayed": 0.6,
     "last_main_idea": "Investors should prioritize oversight and governance frameworks in AI development processes and support initiatives that promote independent oversight of AI development and deployment.",
     "last_proof_cite": "The a16z Show \u2022 2026-08-29 \u2022 Why 1,200 AI Agents Started Working Together | Ryan Greenblatt",
     "last_proof_snippet": "What happens when you give more than 1,000 AI agents the ability to communicate with each other? They start organizing. Ryan Greenblatt, Chief Scientist at Redwood Research, joins Theo Jaffee on MTS to unpack a new investigation into the Op",
@@ -2421,7 +2532,7 @@
     "last_podcast_name": "The a16z Show",
     "last_episode_date": "2026-08-28",
     "mention_score": 1,
-    "mention_score_decayed": 0.6,
+    "mention_score_decayed": 0.59,
     "last_main_idea": "The next major bottleneck in AI is not the model itself, but the underlying infrastructure that supports it, presenting a significant investment opportunity in companies that can innovate and scale to meet these new demands.",
     "last_proof_cite": "The a16z Show \u2022 2026-08-28 \u2022 The Infrastructure Behind the Machine Age",
     "last_proof_snippet": "We have a whole new technology that's most important technology ever and you need a whole new infrastructure Now I'm going to even be talking about the infrastructure We're talking about the subverse and the storage and the network here goe",
@@ -2485,7 +2596,7 @@
     "last_podcast_name": "The a16z Show",
     "last_episode_date": "2026-08-28",
     "mention_score": 1,
-    "mention_score_decayed": 0.6,
+    "mention_score_decayed": 0.59,
     "last_main_idea": "The next major bottleneck in AI is not the model itself, but the underlying infrastructure that supports it, presenting a significant investment opportunity in companies that can innovate and scale to meet these new demands.",
     "last_proof_cite": "The a16z Show \u2022 2026-08-28 \u2022 The Infrastructure Behind the Machine Age",
     "last_proof_snippet": "We have a whole new technology that's most important technology ever and you need a whole new infrastructure Now I'm going to even be talking about the infrastructure We're talking about the subverse and the storage and the network here goe",
@@ -2607,7 +2718,7 @@
     "last_podcast_name": "The a16z Show",
     "last_episode_date": "2026-08-27",
     "mention_score": 3,
-    "mention_score_decayed": 1.76,
+    "mention_score_decayed": 1.72,
     "last_main_idea": "Cursor's investment thesis revolves around its ability to leverage AI advancements to create a competitive edge in the coding market, focusing on the interface between humans and AI models rather than competing directly with other AI models.",
     "last_proof_cite": "The a16z Show \u2022 2026-08-27 \u2022 Inside Cursor: The Anatomy of a Generational Startup",
     "last_proof_snippet": "We don't need to compete with anthropic and open AI on models right now. The interface between the human and the model is the key thing. If you looked at the competitive landscape, it was almost silly. I asked Michael, I was like, what do y",
@@ -2668,7 +2779,7 @@
     "last_podcast_name": "The a16z Show",
     "last_episode_date": "2026-08-27",
     "mention_score": 1,
-    "mention_score_decayed": 0.59,
+    "mention_score_decayed": 0.57,
     "last_main_idea": "Cursor's investment thesis revolves around its ability to leverage AI advancements to create a competitive edge in the coding market, focusing on the interface between humans and AI models rather than competing directly with other AI models.",
     "last_proof_cite": "The a16z Show \u2022 2026-08-27 \u2022 Inside Cursor: The Anatomy of a Generational Startup",
     "last_proof_snippet": "We don't need to compete with anthropic and open AI on models right now. The interface between the human and the model is the key thing. If you looked at the competitive landscape, it was almost silly. I asked Michael, I was like, what do y",
@@ -2731,7 +2842,7 @@
     "last_podcast_name": "The a16z Show",
     "last_episode_date": "2026-08-27",
     "mention_score": 1,
-    "mention_score_decayed": 0.59,
+    "mention_score_decayed": 0.57,
     "last_main_idea": "Cursor's investment thesis revolves around its ability to leverage AI advancements to create a competitive edge in the coding market, focusing on the interface between humans and AI models rather than competing directly with other AI models.",
     "last_proof_cite": "The a16z Show \u2022 2026-08-27 \u2022 Inside Cursor: The Anatomy of a Generational Startup",
     "last_proof_snippet": "We don't need to compete with anthropic and open AI on models right now. The interface between the human and the model is the key thing. If you looked at the competitive landscape, it was almost silly. I asked Michael, I was like, what do y",
@@ -3046,7 +3157,7 @@
     "last_podcast_name": "The a16z Show",
     "last_episode_date": "2026-08-26",
     "mention_score": 1,
-    "mention_score_decayed": 0.57,
+    "mention_score_decayed": 0.56,
     "last_main_idea": "Invest in the application layer of AI where significant value can be captured, and consider the emerging consumer AI space for new opportunities.",
     "last_proof_cite": "The a16z Show \u2022 2026-08-26 \u2022 The State of AI: Macro, Apps, and Consumer",
     "last_proof_snippet": "For the last few years, the biggest question in the AI was which model would win. The next phase may be less about the models, and more about what gets built on top of them. In this episode, Jen Costa sits down with Anish Acharya, to unpack w",
@@ -6608,7 +6719,7 @@
     "last_podcast_name": "The a16z Show",
     "last_episode_date": "2026-07-23",
     "mention_score": 1,
-    "mention_score_decayed": 0.27,
+    "mention_score_decayed": 0.26,
     "last_main_idea": "Industrial AI represents a substantial opportunity to transform physical industries through automation and AI, creating significant value beyond traditional software solutions.",
     "last_proof_cite": "The a16z Show \u2022 2026-07-23 \u2022 Building the Physical AI Stack | Travis Kalanick on TBPN",
     "last_proof_snippet": "Travis Kelenick joins TVPN to discuss why he's betting his next company on industrial AI. He shares his vision behind atoms, explains how autonomy is transforming industries like mining and food production, and discusses why bringing AI int",
