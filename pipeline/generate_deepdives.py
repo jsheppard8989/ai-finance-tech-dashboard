@@ -368,6 +368,77 @@ def _episode_evidence_text(ev_raw: Any) -> str:
     return str(ev_raw or "").strip()
 
 
+QUARTER_TO_MONTH = {"Q1": 3, "Q2": 6, "Q3": 9, "Q4": 12}
+CATALYST_QUARTER_YEAR_RE = re.compile(r"\b(Q[1-4])\s*(20\d{2})\b", re.IGNORECASE)
+CATALYST_H_YEAR_RE = re.compile(r"\b(H[12])\s*(20\d{2})\b", re.IGNORECASE)
+CATALYST_YEAR_PREFIX_RE = re.compile(r"^\s*(\d{4}):")
+CATALYST_LATE_YEAR_RE = re.compile(r"\b(Late|End of|end-of-year)\s+(20\d{2})\b", re.IGNORECASE)
+CATALYST_MID_YEAR_RE = re.compile(r"\bmid[- ]?(20\d{2})\b", re.IGNORECASE)
+CATALYST_EARLY_YEAR_RE = re.compile(r"\b(early|beginning of)\s+(20\d{2})\b", re.IGNORECASE)
+
+
+def _extract_catalyst_target_date(catalyst: str) -> Optional[Tuple[int, int]]:
+    """Extract (year, month) from a catalyst string. Returns None if no date found."""
+    qy = CATALYST_QUARTER_YEAR_RE.search(catalyst)
+    if qy:
+        quarter = qy.group(1).upper()
+        year = int(qy.group(2))
+        return (year, QUARTER_TO_MONTH[quarter])
+
+    hy = CATALYST_H_YEAR_RE.search(catalyst)
+    if hy:
+        half = hy.group(1).upper()
+        year = int(hy.group(2))
+        return (year, 6 if half == "H1" else 12)
+
+    standalone_year = CATALYST_YEAR_PREFIX_RE.match(catalyst)
+    if standalone_year:
+        return (int(standalone_year.group(1)), 12)
+
+    late_year = CATALYST_LATE_YEAR_RE.search(catalyst)
+    if late_year:
+        return (int(late_year.group(2)), 12)
+
+    mid_year = CATALYST_MID_YEAR_RE.search(catalyst)
+    if mid_year:
+        return (int(mid_year.group(1)), 6)
+
+    early_year = CATALYST_EARLY_YEAR_RE.search(catalyst)
+    if early_year:
+        return (int(early_year.group(2)), 3)
+
+    return None
+
+
+def filter_stale_catalysts(catalysts: List[str], episode_date: Optional[str]) -> List[str]:
+    """Remove catalyst items whose target date is clearly before the episode date."""
+    if not episode_date or not catalysts:
+        return catalysts
+
+    try:
+        ep_year = int(episode_date[:4])
+        ep_month = int(episode_date[5:7])
+    except (ValueError, IndexError):
+        return catalysts
+
+    def is_stale(catalyst: str) -> bool:
+        target = _extract_catalyst_target_date(catalyst)
+        if not target:
+            return False
+        target_year, target_month = target
+        if target_year < ep_year:
+            return True
+        if target_year == ep_year and target_month < ep_month:
+            return True
+        return False
+
+    clean = [c for c in catalysts if not is_stale(c)]
+    removed = len(catalysts) - len(clean)
+    if removed > 0:
+        print(f"    ⚠ Filtered {removed} stale catalyst(s) with dates before episode date", flush=True)
+    return clean
+
+
 def overview_vs_card_overlap(summary: str, key_takeaway: str, overview: str) -> float:
     """Similarity between whats_new/overview and the insight card."""
     return evidence_vs_card_overlap(summary, key_takeaway, overview)
@@ -900,7 +971,7 @@ def generate_missing_deepdives(insight_ids: list = None) -> Tuple[int, int, int]
         cursor = conn.execute(
             f"""
             SELECT li.id, li.title, li.source_type, li.podcast_episode_id,
-                   li.summary, li.key_takeaway
+                   li.summary, li.key_takeaway, li.source_date
             FROM latest_insights li
             LEFT JOIN deep_dive_content ddc ON li.id = ddc.insight_id
             WHERE li.id IN ({placeholders}) AND ddc.id IS NULL
@@ -911,7 +982,7 @@ def generate_missing_deepdives(insight_ids: list = None) -> Tuple[int, int, int]
         cursor = conn.execute(
             f"""
             SELECT li.id, li.title, li.source_type, li.podcast_episode_id,
-                   li.summary, li.key_takeaway
+                   li.summary, li.key_takeaway, li.source_date
             FROM latest_insights li
             LEFT JOIN deep_dive_content ddc ON li.id = ddc.insight_id
             WHERE ddc.id IS NULL
@@ -944,6 +1015,7 @@ def generate_missing_deepdives(insight_ids: list = None) -> Tuple[int, int, int]
         episode_id = row['podcast_episode_id']
         insight_summary = row["summary"] or ""
         key_takeaway = row["key_takeaway"] or ""
+        source_date = row["source_date"] or ""
 
         print(f"[{insight_id}] {title[:60]}", flush=True)
 
@@ -972,6 +1044,9 @@ def generate_missing_deepdives(insight_ids: list = None) -> Tuple[int, int, int]
             if status == "blocked":
                 quarantined += 1
             continue
+
+        if "catalysts" in content and content["catalysts"]:
+            content["catalysts"] = filter_stale_catalysts(content["catalysts"], source_date)
 
         if store_deep_dive(insight_id, episode_id, content):
             mark_deep_dive_failure_resolved(conn, insight_id)
