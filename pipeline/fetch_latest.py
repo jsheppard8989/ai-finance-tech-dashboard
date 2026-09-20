@@ -34,7 +34,7 @@ from workspace_paths import (
 from podcast_feeds_util import load_active_feeds, load_on_hold_feeds
 # Hard stop: do not download anything older than Feb 2026
 from cutoff_date import is_before_cutoff
-# Gate culture one-offs (hip-hop, etc.) — skip by default, ask Jared via Ditka if unsure
+# Gate culture one-offs (hip-hop, etc.) — hard skip, only AI/finance episodes go through
 from pundit_exclusions import is_culture_oneoff_episode
 
 LOG_FILE = PIPELINE_DIR / "state" / "fetch_log.json"
@@ -107,7 +107,7 @@ def fetch_latest_episode(feed_url, max_age_days=14, max_items_scan=25):
 
             # Gate: skip culture one-off episodes (hip-hop, etc.) — not AI/finance relevant
             if is_culture_oneoff_episode(title):
-                print(f"  ⏭ Skipping '{title[:50]}' — culture one-off (ask Jared via Ditka if should publish)")
+                print(f"  ⏭ Skipping '{title[:50]}' — culture one-off (hard skip, not AI/finance)")
                 continue
 
             # Parse published date

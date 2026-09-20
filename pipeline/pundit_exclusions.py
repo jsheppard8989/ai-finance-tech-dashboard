@@ -9,10 +9,10 @@ NOTE: ASR variants are handled via canonicalization in person_name_safety.py.
 
 Culture one-off episode gating:
   a16z and other podcasts occasionally produce culture/entertainment episodes that aren't
-  AI/finance relevant. These should be skipped by default. Use is_culture_oneoff_episode()
-  to gate ingest. If unsure, ask Jared via Ditka. Do not auto-publish culture one-offs.
+  AI/finance relevant. These are HARD SKIP — do not ingest, do not ask. Only AI/finance
+  episodes go through. Use is_culture_oneoff_episode() to gate ingest.
 
-  Scrubbed 2026-09-20: Nas, Grandmaster Caz, Steve Stoute hip-hop pioneers episode (Ditka: Jared).
+  Scrubbed 2026-09-20: Nas, Grandmaster Caz, Steve Stoute hip-hop pioneers episode (Jared via Ditka).
 """
 
 from __future__ import annotations
@@ -55,7 +55,7 @@ EXCLUDED_PUNDIT_NAMES: FrozenSet[str] = frozenset(
 
 
 # Title keywords that indicate a culture one-off episode (non-AI/finance)
-# These episodes should be skipped by default. Ask Jared via Ditka if unsure.
+# These episodes are HARD SKIP — do not ingest, do not ask. Only AI/finance episodes go through.
 CULTURE_ONEOFF_KEYWORDS: FrozenSet[str] = frozenset(
     {
         "hip-hop",
@@ -124,8 +124,8 @@ def is_culture_oneoff_episode(title: str) -> bool:
     """
     True if episode title contains culture one-off keywords (hip-hop, etc.).
     
-    These episodes are NOT AI/finance relevant and should be skipped by default.
-    If unsure, ask Jared via Ditka. Do not auto-publish culture one-offs.
+    These episodes are NOT AI/finance relevant — HARD SKIP, do not ingest.
+    Only AI/finance-relevant episodes should go through the pipeline.
     
     Returns:
         True if episode should be skipped (culture one-off detected)
