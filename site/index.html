@@ -3322,15 +3322,8 @@
         return;
       }
 
-      // Main page: cap to 20 after backend ordering by recency, then appearance count.
-      // Force-include pundits that match trap links (so strangers see Gromen/Pernas chips).
-      const top20 = items.slice(0, 20);
-      const top20Slugs = new Set(top20.map(function(p) { return (p.slug || p.name || '').toLowerCase(); }));
-      const trapLinked = items.filter(function(p) {
-        const slug = (p.slug || p.name || '').toLowerCase();
-        return !top20Slugs.has(slug) && punditMatchesTrapLink(p);
-      });
-      items = top20.concat(trapLinked).slice(0, 24);
+      // Main page: cap to 12 pundits, sorted by Presence (mention_score_decayed) from backend.
+      items = items.slice(0, 12);
 
       container.innerHTML = items.map(function(item) {
         var name = (item.name || 'Guest').replace(/</g, '&lt;').replace(/>/g, '&gt;');
@@ -3650,8 +3643,8 @@
       if (typeof dashboardData !== 'undefined' && dashboardData.mainContent && dashboardData.mainContent.insights) {
         insights = dashboardData.mainContent.insights.filter(i => i.display_on_main === 1);
         insights.sort((a, b) => {
-          const dateA = parseSiteDateForSort(a.source_date || a.added_date);
-          const dateB = parseSiteDateForSort(b.source_date || b.added_date);
+          const dateA = parseSiteDateForSort(a.episode_release_date || a.source_date || a.added_date);
+          const dateB = parseSiteDateForSort(b.episode_release_date || b.source_date || b.added_date);
           return dateB - dateA;
         });
         insights = insights.slice(0, 12);
