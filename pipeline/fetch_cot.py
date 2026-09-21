@@ -582,20 +582,33 @@ def load_prior_nets() -> Dict[str, Any]:
         return {}
 
 
-def save_prior_nets(report_date: str, nets: Dict[str, int]) -> bool:
+def save_prior_nets(
+    report_date: str,
+    nets: Dict[str, int],
+    prior_report_date: Optional[str] = None,
+    prior_nets: Optional[Dict[str, int]] = None,
+) -> bool:
     """
-    Save current week's nets as prior for next week's delta computation.
+    Persist current week's nets plus optional distinct prior-week snapshot.
+
+    Schema keeps two weeks so same-week re-fetches can still show a real
+    prior_week_net / change_1w instead of cloning current → fake Δ=0.
     """
     try:
         STATE_DIR.mkdir(parents=True, exist_ok=True)
         data = {
             "report_date": report_date,
             "saved_at": datetime.now().isoformat(),
-            "nets": nets
+            "nets": nets,
+            "prior_report_date": prior_report_date,
+            "prior_nets": prior_nets or {},
         }
         with open(COT_PRIOR_NETS_FILE, 'w') as f:
             json.dump(data, f, indent=2)
-        print(f"  ✓ Saved prior nets for {report_date}")
+        if prior_report_date:
+            print(f"  ✓ Saved nets for {report_date} (prior week {prior_report_date})")
+        else:
+            print(f"  ✓ Saved nets for {report_date}")
         return True
     except Exception as e:
         print(f"  ⚠ Could not save prior nets: {e}")
@@ -609,33 +622,72 @@ def compute_change_1w(current_net: Optional[int], prior_net: Optional[int]) -> O
     return current_net - prior_net
 
 
+def _resolve_comparison_prior(
+    report_date: Optional[str], prior_data: Dict[str, Any]
+) -> Tuple[Optional[str], Dict[str, int], bool]:
+    """
+    Decide which stored nets are the distinct prior week for delta display.
+
+    Returns (compare_prior_date, compare_prior_nets, advancing_week).
+
+    - New week (stored report_date != current): stored nets ARE the prior week.
+    - Same-week re-fetch: use nested prior_report_date/prior_nets if distinct.
+    - Never compare current nets to themselves (that produced fake change_1w=0).
+    """
+    stored_date = prior_data.get("report_date")
+    stored_nets = prior_data.get("nets") or {}
+    hist_prior_date = prior_data.get("prior_report_date")
+    hist_prior_nets = prior_data.get("prior_nets") or {}
+
+    if report_date and stored_date and stored_date != report_date:
+        return stored_date, stored_nets, True
+
+    if report_date and stored_date and stored_date == report_date:
+        if hist_prior_date and hist_prior_date != report_date:
+            return hist_prior_date, hist_prior_nets, False
+        return None, {}, False
+
+    # No usable prior snapshot yet
+    return None, {}, bool(report_date and not stored_date)
+
+
 def build_cot_result(parsed_data: Dict[str, Dict[str, Any]], report_date: Optional[str]) -> Dict[str, Any]:
     """
     Build the structured COT result for market_data.json.
-    
-    Computes change_1w by comparing current nets to prior week's stored nets.
-    When report_date advances, saves current nets as prior for next week.
+
+    Computes change_1w only when a distinct prior-week snapshot exists.
+    Same-week re-fetch keeps last-known prior nets (two-week state) instead of
+    cloning current → fake Δ=0.
     """
     prior_data = load_prior_nets()
-    prior_nets = prior_data.get("nets", {})
-    prior_report_date = prior_data.get("report_date")
-    
-    is_new_week = report_date and report_date != prior_report_date
+    stored_date = prior_data.get("report_date")
+    stored_nets = prior_data.get("nets") or {}
+
+    compare_prior_date, compare_prior_nets, advancing_week = _resolve_comparison_prior(
+        report_date, prior_data
+    )
+    has_distinct_prior = bool(
+        compare_prior_date and report_date and compare_prior_date != report_date
+    )
     current_nets = {}
-    
+
     def build_contract_entry(contract_id: str, label: str, contract_code: str) -> Dict[str, Any]:
         data = parsed_data.get(contract_id, {})
-        
+
         lev_net = data.get('leveraged_funds_net')
         am_net = data.get('asset_manager_net')
         dealer_net = data.get('dealer_net')
-        
+
         if lev_net is not None:
             current_nets[contract_id] = lev_net
-        
-        prior_net = prior_nets.get(contract_id)
-        change_1w = compute_change_1w(lev_net, prior_net) if is_new_week or prior_report_date else None
-        
+
+        prior_net = compare_prior_nets.get(contract_id) if has_distinct_prior else None
+        # Only emit a numeric delta when prior week is a distinct report_date.
+        # Same-week self-compare must not yield change_1w=0.
+        change_1w = (
+            compute_change_1w(lev_net, prior_net) if has_distinct_prior else None
+        )
+
         return {
             "label": label,
             "contract": contract_code,
@@ -647,7 +699,7 @@ def build_cot_result(parsed_data: Dict[str, Dict[str, Any]], report_date: Option
             "signal": None,
             "percentile_1y": None
         }
-    
+
     result = {
         "_comment": "CFTC Commitment of Traders positioning data. Source: cftc.gov weekly reports.",
         "_fetch_url": "https://www.cftc.gov/dea/futures/financial_lf.htm",
@@ -655,7 +707,7 @@ def build_cot_result(parsed_data: Dict[str, Dict[str, Any]], report_date: Option
         "_fetch_instructions": "CFTC releases COT every Friday at 3:30pm ET for positions as of prior Tuesday.",
         "last_updated": datetime.now().isoformat(),
         "report_date": report_date,
-        "prior_report_date": prior_report_date,
+        "prior_report_date": compare_prior_date if has_distinct_prior else None,
         "rates_positioning": {
             "10y_note": build_contract_entry("10y_note", "10-Year T-Note Futures", "TY"),
             "2y_note": build_contract_entry("2y_note", "2-Year T-Note Futures", "TU"),
@@ -674,10 +726,25 @@ def build_cot_result(parsed_data: Dict[str, Dict[str, Any]], report_date: Option
             "crowded_trades": []
         }
     }
-    
-    if is_new_week and current_nets and report_date:
-        save_prior_nets(report_date, current_nets)
-    
+
+    if report_date and current_nets:
+        if advancing_week:
+            # Shift: former current becomes nested prior; write new current.
+            save_prior_nets(
+                report_date,
+                current_nets,
+                prior_report_date=stored_date,
+                prior_nets=stored_nets,
+            )
+        else:
+            # Same week: refresh current nets, preserve distinct prior snapshot.
+            save_prior_nets(
+                report_date,
+                current_nets,
+                prior_report_date=compare_prior_date if has_distinct_prior else None,
+                prior_nets=compare_prior_nets if has_distinct_prior else {},
+            )
+
     return result
 
 
@@ -857,13 +924,173 @@ def _print_result_summary(result: Dict[str, Any]) -> None:
                 print(f"    {contract_data['label']}: {display}{change_str}")
 
 
+
+FINFUT_HISTORY_ZIP_URL = "https://www.cftc.gov/files/dea/history/fut_fin_txt_{year}.zip"
+
+# Prefer these market-name needles when multiple contracts match a pattern
+# (e.g. BITCOIN vs MICRO BITCOIN; NASDAQ-100 CONSOLIDATED vs NASDAQ MINI).
+PREFERRED_MARKET_NEEDLES = {
+    "10y_note": "UST 10Y NOTE",
+    "2y_note": "UST 2Y NOTE",
+    "30y_bond": "UST BOND - CHICAGO BOARD OF TRADE",
+    "cme_btc": "BITCOIN - CHICAGO MERCANTILE EXCHANGE",
+    "cme_nq": "NASDAQ-100 CONSOLIDATED",
+}
+
+
+def parse_finfut_nets_for_date(txt_data: str, as_of_date: str) -> Dict[str, int]:
+    """
+    Parse Lev_Money net positions for a single Report_Date_as_YYYY-MM-DD
+    from CFTC FinFutYY / financial futures CSV text.
+    """
+    import csv
+    import io
+
+    if not txt_data or not as_of_date:
+        return {}
+
+    reader = csv.DictReader(io.StringIO(txt_data))
+    # contract_id -> (preference_rank, net)  lower rank = better
+    best: Dict[str, Tuple[int, int]] = {}
+
+    for row in reader:
+        # DictReader keys may retain quotes depending on dialect
+        def cell(*names):
+            for n in names:
+                if n in row:
+                    return (row[n] or "").strip().strip('"')
+                for rk, rv in row.items():
+                    if rk.strip().strip('"') == n:
+                        return (rv or "").strip().strip('"')
+            return ""
+
+        date = cell("Report_Date_as_YYYY-MM-DD")
+        if date != as_of_date:
+            continue
+        market = cell("Market_and_Exchange_Names").upper()
+        if not market:
+            continue
+
+        matched = None
+        for contract_id, patterns in CONTRACT_PATTERNS.items():
+            for pattern in patterns:
+                if pattern.upper() in market:
+                    matched = contract_id
+                    break
+            if matched:
+                break
+        if not matched:
+            continue
+
+        try:
+            lev_long = int(cell("Lev_Money_Positions_Long_All").replace(",", ""))
+            lev_short = int(cell("Lev_Money_Positions_Short_All").replace(",", ""))
+        except (ValueError, TypeError):
+            continue
+        net = lev_long - lev_short
+
+        preferred = PREFERRED_MARKET_NEEDLES.get(matched, "").upper()
+        rank = 0 if preferred and preferred in market else 1
+        # Reject MICRO / ULTRA when a preferred classic contract exists later
+        if matched == "30y_bond" and "ULTRA" in market:
+            rank = 2
+        if matched == "cme_btc" and "MICRO" in market:
+            rank = 2
+        if matched == "cme_nq" and "MICRO" in market:
+            rank = 2
+        if matched == "cme_nq" and "CONSOLIDATED" not in market and "NASDAQ MINI" in market:
+            rank = 1
+
+        prev = best.get(matched)
+        if prev is None or rank < prev[0]:
+            best[matched] = (rank, net)
+
+    return {cid: net for cid, (_rank, net) in best.items()}
+
+
+def fetch_finfut_history_txt(year: Optional[int] = None) -> Optional[str]:
+    """Download CFTC FinFutYY historical zip for a calendar year and return TXT."""
+    import io
+    import zipfile
+
+    if year is None:
+        year = datetime.now().year
+    url = FINFUT_HISTORY_ZIP_URL.format(year=year)
+    headers = _make_request_headers()
+    try:
+        print(f"  Trying FinFut history {year}...")
+        req = urllib.request.Request(url, headers=headers)
+        with urllib.request.urlopen(req, timeout=90) as response:
+            content = response.read()
+        with zipfile.ZipFile(io.BytesIO(content)) as zf:
+            for fname in zf.namelist():
+                if fname.endswith('.txt'):
+                    text = zf.read(fname).decode('utf-8', errors='replace')
+                    print(f"  ✓ Fetched FinFut history {year} ({len(text)} bytes)")
+                    return text
+        print(f"  ✗ FinFut history zip had no .txt")
+    except Exception as e:
+        print(f"  ✗ FinFut history {year} failed: {e}")
+    return None
+
+
+def backfill_prior_nets(as_of_date: str) -> bool:
+    """
+    Seed cot_prior_nets.json from CFTC FinFut historical for as_of_date.
+    Used when prior state was overwritten by a same-week self-save.
+    """
+    try:
+        year = int(as_of_date[:4])
+    except (TypeError, ValueError):
+        print(f"  ✗ Invalid as_of_date: {as_of_date}")
+        return False
+
+    txt = fetch_finfut_history_txt(year)
+    if not txt:
+        return False
+
+    nets = parse_finfut_nets_for_date(txt, as_of_date)
+    if not nets:
+        print(f"  ✗ No FinFut nets found for {as_of_date}")
+        return False
+
+    ok = save_prior_nets(as_of_date, nets, prior_report_date=None, prior_nets={})
+    if ok:
+        for cid, net in sorted(nets.items()):
+            print(f"    {cid}: {net}")
+    return ok
+
+
 def main():
+    import argparse
+
+    parser = argparse.ArgumentParser(description="Fetch CFTC COT positioning")
+    parser.add_argument(
+        "--backfill-prior",
+        metavar="YYYY-MM-DD",
+        help="Seed prior nets from FinFut history for this as-of date, then exit",
+    )
+    parser.add_argument(
+        "--backfill-prior-then-fetch",
+        metavar="YYYY-MM-DD",
+        help="Seed prior nets from FinFut history, then fetch current week",
+    )
+    args, _unknown = parser.parse_known_args()
+
     print("=" * 60)
     print("Fetch CFTC Commitment of Traders (COT) Positioning")
     print(f"Source: {CFTC_FIN_LF_PAGE}")
     print(f"Started: {datetime.now()}")
     print("=" * 60)
-    
+
+    if args.backfill_prior:
+        ok = backfill_prior_nets(args.backfill_prior)
+        return 0 if ok else 1
+
+    if args.backfill_prior_then_fetch:
+        if not backfill_prior_nets(args.backfill_prior_then_fetch):
+            return 1
+
     data, error_reason = fetch_and_parse()
     
     if data:
