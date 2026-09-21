@@ -3910,20 +3910,46 @@
 
     async function loadPriceData() {
       priceData = {};
+      function hasUsableMark(entry) {
+        return !!(entry && typeof entry === 'object'
+          && typeof entry.price === 'number' && isFinite(entry.price)
+          && typeof entry.change_pct === 'number' && isFinite(entry.change_pct));
+      }
+      function hasUsableQQQ() {
+        return hasUsableMark(priceData['QQQ']);
+      }
+      function hasUsableBTC() {
+        return hasUsableMark(priceData['BTC']) || hasUsableMark(priceData['BTC-USD']);
+      }
       try {
         if (typeof dashboardData !== 'undefined' && dashboardData.priceSnapshot && typeof dashboardData.priceSnapshot === 'object') {
           priceData = Object.assign({}, dashboardData.priceSnapshot);
           delete priceData._metadata;
           if (DEBUG_SITE) console.log('Loaded price data from dashboardData.priceSnapshot:', Object.keys(priceData).length);
-          updateTitleTickers();
-          return;
         }
-        if (DEBUG_SITE) {
-          const response = await fetch('./price_data.json?v=' + Date.now());
-          if (response.ok) {
-            priceData = await response.json();
-            delete priceData._metadata;
-            if (DEBUG_SITE) console.log('Loaded price data from price_data.json:', Object.keys(priceData).length);
+        // Prefer good embedded marks; only fetch price_data.json for missing QQQ/BTC.
+        if (!hasUsableQQQ() || !hasUsableBTC()) {
+          try {
+            const response = await fetch('./price_data.json', { cache: 'no-cache' });
+            if (response.ok) {
+              const fallback = await response.json();
+              if (fallback && typeof fallback === 'object') {
+                delete fallback._metadata;
+                if (!hasUsableQQQ() && hasUsableMark(fallback['QQQ'])) {
+                  priceData['QQQ'] = fallback['QQQ'];
+                }
+                if (!hasUsableBTC()) {
+                  if (hasUsableMark(fallback['BTC'])) {
+                    priceData['BTC'] = fallback['BTC'];
+                  } else if (hasUsableMark(fallback['BTC-USD'])) {
+                    priceData['BTC-USD'] = fallback['BTC-USD'];
+                  }
+                }
+                if (DEBUG_SITE) console.log('Filled missing banner marks from price_data.json');
+              }
+            }
+          } catch (fallbackErr) {
+            if (DEBUG_SITE) console.log('price_data.json fallback failed:', fallbackErr);
           }
         }
       } catch (error) {
