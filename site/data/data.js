@@ -3,8 +3,8 @@
 
 const dashboardData = {
   schemaVersion: 2,
-  generatedAt: "2026-09-20T23:53:52.994067",
-  chartsVersion: "2026-09-20T23:53:45.849517",
+  generatedAt: "2026-09-21T05:10:05.676319",
+  chartsVersion: "2026-09-21T05:09:58.386441",
   priceSnapshot: {},
   // tickerScores: Alpha/Atrophy UI retired in PR #98; Trap Map replaced it.
   tickerScores: [],
@@ -12752,8 +12752,8 @@ const dashboardData = {
       "first_detected_speaker": "",
       "last_mentioned_episode_id": 498,
       "last_mentioned_speaker": "Josh Elman",
-      "novelty_score": 2.6661,
-      "overton_score": 2.6661,
+      "novelty_score": 2.6412,
+      "overton_score": 2.6412,
       "resonance_pct": 83,
       "is_established": false,
       "first_detected_podcast": "The a16z Show",
@@ -12780,8 +12780,8 @@ const dashboardData = {
       "first_detected_speaker": "",
       "last_mentioned_episode_id": 491,
       "last_mentioned_speaker": "Dwarkesh Patel (hosts)",
-      "novelty_score": 2.5592,
-      "overton_score": 2.5592,
+      "novelty_score": 2.5354,
+      "overton_score": 2.5354,
       "resonance_pct": 82,
       "is_established": false,
       "first_detected_podcast": "The a16z Show",
@@ -12808,8 +12808,8 @@ const dashboardData = {
       "first_detected_speaker": "Chamath Palihapitiya, Jason Calacanis (hosts)",
       "last_mentioned_episode_id": 500,
       "last_mentioned_speaker": "Peter Diamandis (hosts)",
-      "novelty_score": 2.3365,
-      "overton_score": 2.3365,
+      "novelty_score": 2.3141,
+      "overton_score": 2.3141,
       "resonance_pct": 80,
       "is_established": false,
       "first_detected_podcast": "All-In with Chamath, Jason, Sacks & Friedberg",
@@ -12836,8 +12836,8 @@ const dashboardData = {
       "first_detected_speaker": "Victor Hagani",
       "last_mentioned_episode_id": 500,
       "last_mentioned_speaker": "Peter Diamandis (hosts)",
-      "novelty_score": 2.0731,
-      "overton_score": 2.0731,
+      "novelty_score": 2.0527,
+      "overton_score": 2.0527,
       "resonance_pct": 77,
       "is_established": false,
       "first_detected_podcast": "Monetary Matters with Jack Farley",
@@ -12864,8 +12864,8 @@ const dashboardData = {
       "first_detected_speaker": "Michael Kratsios",
       "last_mentioned_episode_id": 463,
       "last_mentioned_speaker": "Astra Research Team",
-      "novelty_score": 2.0073,
-      "overton_score": 2.0073,
+      "novelty_score": 1.9885,
+      "overton_score": 1.9885,
       "resonance_pct": 76,
       "is_established": false,
       "first_detected_podcast": "Moonshots with Peter Diamandis",
@@ -12892,8 +12892,8 @@ const dashboardData = {
       "first_detected_speaker": "Mark Andrewson, Chris Dixon",
       "last_mentioned_episode_id": 454,
       "last_mentioned_speaker": "Luke Groman",
-      "novelty_score": 1.9418,
-      "overton_score": 1.9418,
+      "novelty_score": 1.9239,
+      "overton_score": 1.9239,
       "resonance_pct": 75,
       "is_established": false,
       "first_detected_podcast": "The a16z Show",
@@ -12920,8 +12920,8 @@ const dashboardData = {
       "first_detected_speaker": "Peter Diamandis",
       "last_mentioned_episode_id": 478,
       "last_mentioned_speaker": "Martin Rothblatt",
-      "novelty_score": 1.9214,
-      "overton_score": 1.9214,
+      "novelty_score": 1.9026,
+      "overton_score": 1.9026,
       "resonance_pct": 75,
       "is_established": false,
       "first_detected_podcast": "Moonshots with Peter Diamandis",
@@ -12948,8 +12948,8 @@ const dashboardData = {
       "first_detected_speaker": "",
       "last_mentioned_episode_id": 475,
       "last_mentioned_speaker": "Peter Diamandis (hosts)",
-      "novelty_score": 1.8467,
-      "overton_score": 1.8467,
+      "novelty_score": 1.8286,
+      "overton_score": 1.8286,
       "resonance_pct": 74,
       "is_established": false,
       "first_detected_podcast": "Moonshots with Peter Diamandis",
@@ -12976,9 +12976,9 @@ const dashboardData = {
       "first_detected_speaker": "Chris Seminoch",
       "last_mentioned_episode_id": 502,
       "last_mentioned_speaker": "Jeremy Boyet",
-      "novelty_score": 1.6605,
-      "overton_score": 1.6605,
-      "resonance_pct": 72,
+      "novelty_score": 1.6432,
+      "overton_score": 1.6432,
+      "resonance_pct": 71,
       "is_established": false,
       "first_detected_podcast": "Monetary Matters with Jack Farley",
       "first_detected_episode_title": "The US Manufacturing and Electrification Megatrends Are Here and They\u2019re Way More Than AI | Chris Semenuk",
@@ -13004,8 +13004,8 @@ const dashboardData = {
       "first_detected_speaker": "",
       "last_mentioned_episode_id": 474,
       "last_mentioned_speaker": "Justin Johnson",
-      "novelty_score": 1.6395,
-      "overton_score": 1.6395,
+      "novelty_score": 1.623,
+      "overton_score": 1.623,
       "resonance_pct": 71,
       "is_established": false,
       "first_detected_podcast": "The a16z Show",
@@ -13032,8 +13032,8 @@ const dashboardData = {
       "first_detected_speaker": "Jack Farley (hosts)",
       "last_mentioned_episode_id": 462,
       "last_mentioned_speaker": "Lukasz Kaiser",
-      "novelty_score": 1.5516,
-      "overton_score": 1.5516,
+      "novelty_score": 1.5363,
+      "overton_score": 1.5363,
       "resonance_pct": 70,
       "is_established": false,
       "first_detected_podcast": "Monetary Matters with Jack Farley",
@@ -13060,8 +13060,8 @@ const dashboardData = {
       "first_detected_speaker": "",
       "last_mentioned_episode_id": 450,
       "last_mentioned_speaker": "Philip, Ali",
-      "novelty_score": 1.485,
-      "overton_score": 1.485,
+      "novelty_score": 1.4707,
+      "overton_score": 1.4707,
       "resonance_pct": 69,
       "is_established": false,
       "first_detected_podcast": "Moonshots with Peter Diamandis",
@@ -13088,8 +13088,8 @@ const dashboardData = {
       "first_detected_speaker": "",
       "last_mentioned_episode_id": 377,
       "last_mentioned_speaker": "Jesse Zang, Ashwin Srinivas",
-      "novelty_score": 1.4152,
-      "overton_score": 1.4152,
+      "novelty_score": 1.4029,
+      "overton_score": 1.4029,
       "resonance_pct": 68,
       "is_established": false,
       "first_detected_podcast": "Moonshots with Peter Diamandis",
@@ -13118,9 +13118,9 @@ const dashboardData = {
       "first_detected_speaker": "Demis Hassabis",
       "last_mentioned_episode_id": 493,
       "last_mentioned_speaker": "Dario Amadeh",
-      "novelty_score": 0.5435,
-      "overton_score": 0.5435,
-      "resonance_pct": 47,
+      "novelty_score": 0.5351,
+      "overton_score": 0.5351,
+      "resonance_pct": 46,
       "is_established": true,
       "first_detected_podcast": "Moonshots with Peter Diamandis",
       "first_detected_episode_title": "Demis Hassabis on AGI, Robots Scale Production, and Elon\u2019s $1T Mars-Shot Comp | EP #253",
@@ -13146,8 +13146,8 @@ const dashboardData = {
       "first_detected_speaker": "Travis Kalanick, Ben Horowitz",
       "last_mentioned_episode_id": 500,
       "last_mentioned_speaker": "Peter Diamandis (hosts)",
-      "novelty_score": 0.645,
-      "overton_score": 0.645,
+      "novelty_score": 0.6356,
+      "overton_score": 0.6356,
       "resonance_pct": 50,
       "is_established": true,
       "first_detected_podcast": "The a16z Show",
@@ -13174,8 +13174,8 @@ const dashboardData = {
       "first_detected_speaker": "Leakwet Ahamed",
       "last_mentioned_episode_id": 485,
       "last_mentioned_speaker": "Martin Rothblatt",
-      "novelty_score": 0.5279,
-      "overton_score": 0.5279,
+      "novelty_score": 0.5198,
+      "overton_score": 0.5198,
       "resonance_pct": 46,
       "is_established": true,
       "first_detected_podcast": "Monetary Matters with Jack Farley",
@@ -13202,9 +13202,9 @@ const dashboardData = {
       "first_detected_speaker": "",
       "last_mentioned_episode_id": 498,
       "last_mentioned_speaker": "Josh Elman",
-      "novelty_score": 0.4988,
-      "overton_score": 0.4988,
-      "resonance_pct": 45,
+      "novelty_score": 0.4905,
+      "overton_score": 0.4905,
+      "resonance_pct": 44,
       "is_established": true,
       "first_detected_podcast": "The a16z Show",
       "first_detected_episode_title": "The New Rules of Media | Marc Andreessen & Ben Horowitz",
@@ -42372,7 +42372,7 @@ const dashboardData = {
 ],
   podcastGuests: [
   {
-    "id": 71621,
+    "id": 71725,
     "name": "Outlook on 5 Key Commodities",
     "slug": "outlook-on-5-key-commodities",
     "bio": null,
@@ -42384,7 +42384,7 @@ const dashboardData = {
     "appearance_count": 1
   },
   {
-    "id": 71622,
+    "id": 71726,
     "name": "Bill Gurley",
     "slug": "bill-gurley",
     "bio": null,
@@ -42396,7 +42396,7 @@ const dashboardData = {
     "appearance_count": 1
   },
   {
-    "id": 71623,
+    "id": 71727,
     "name": "Nick Shirley",
     "slug": "nick-shirley",
     "bio": null,
@@ -42408,7 +42408,7 @@ const dashboardData = {
     "appearance_count": 1
   },
   {
-    "id": 71624,
+    "id": 71728,
     "name": "Jared Isaacman",
     "slug": "jared-isaacman",
     "bio": null,
@@ -42420,7 +42420,7 @@ const dashboardData = {
     "appearance_count": 1
   },
   {
-    "id": 71625,
+    "id": 71729,
     "name": "Brad Gerstner",
     "slug": "brad-gerstner",
     "bio": null,
@@ -42432,7 +42432,7 @@ const dashboardData = {
     "appearance_count": 1
   },
   {
-    "id": 71626,
+    "id": 71730,
     "name": "Meta's Dina Powell McCormick",
     "slug": "metas-dina-powell-mccormick",
     "bio": null,
@@ -42444,7 +42444,7 @@ const dashboardData = {
     "appearance_count": 1
   },
   {
-    "id": 71627,
+    "id": 71731,
     "name": "Underwriting Superintelligence",
     "slug": "underwriting-superintelligence",
     "bio": null,
@@ -42456,7 +42456,7 @@ const dashboardData = {
     "appearance_count": 1
   },
   {
-    "id": 71628,
+    "id": 71732,
     "name": "Hawks Take Flight",
     "slug": "hawks-take-flight",
     "bio": null,
@@ -42468,7 +42468,7 @@ const dashboardData = {
     "appearance_count": 1
   },
   {
-    "id": 71629,
+    "id": 71733,
     "name": "Martine Rothblatt",
     "slug": "martine-rothblatt",
     "bio": null,
@@ -42480,7 +42480,7 @@ const dashboardData = {
     "appearance_count": 1
   },
   {
-    "id": 71630,
+    "id": 71734,
     "name": "Microsoft CEO Satya Nadella",
     "slug": "microsoft-ceo-satya-nadella",
     "bio": null,
@@ -42492,7 +42492,7 @@ const dashboardData = {
     "appearance_count": 1
   },
   {
-    "id": 71631,
+    "id": 71735,
     "name": "Jensen Huang",
     "slug": "jensen-huang",
     "bio": null,
@@ -42504,7 +42504,7 @@ const dashboardData = {
     "appearance_count": 1
   },
   {
-    "id": 71632,
+    "id": 71736,
     "name": "Ask the Mates anything",
     "slug": "ask-the-mates-anything",
     "bio": null,
@@ -42516,7 +42516,7 @@ const dashboardData = {
     "appearance_count": 1
   },
   {
-    "id": 71633,
+    "id": 71737,
     "name": "Matt Barry",
     "slug": "matt-barry",
     "bio": null,
@@ -42528,7 +42528,7 @@ const dashboardData = {
     "appearance_count": 1
   },
   {
-    "id": 71634,
+    "id": 71738,
     "name": "Who Grades the AI Models?",
     "slug": "who-grades-the-ai-models",
     "bio": null,
@@ -42540,7 +42540,7 @@ const dashboardData = {
     "appearance_count": 1
   },
   {
-    "id": 71635,
+    "id": 71739,
     "name": "Your AI Doctor Is Coming",
     "slug": "your-ai-doctor-is-coming",
     "bio": null,
@@ -42552,7 +42552,7 @@ const dashboardData = {
     "appearance_count": 1
   },
   {
-    "id": 71636,
+    "id": 71740,
     "name": "Fei Fei Li",
     "slug": "fei-fei-li",
     "bio": null,
@@ -42564,7 +42564,7 @@ const dashboardData = {
     "appearance_count": 1
   },
   {
-    "id": 71637,
+    "id": 71741,
     "name": "Financial strategist Jared Dillian",
     "slug": "financial-strategist-jared-dillian",
     "bio": null,
@@ -42576,7 +42576,7 @@ const dashboardData = {
     "appearance_count": 1
   },
   {
-    "id": 71638,
+    "id": 71742,
     "name": "Daniel Litt",
     "slug": "daniel-litt",
     "bio": null,
@@ -42588,7 +42588,7 @@ const dashboardData = {
     "appearance_count": 1
   },
   {
-    "id": 71639,
+    "id": 71743,
     "name": "Gavin Baker",
     "slug": "gavin-baker",
     "bio": null,
@@ -42600,7 +42600,7 @@ const dashboardData = {
     "appearance_count": 1
   },
   {
-    "id": 71640,
+    "id": 71744,
     "name": "Sam Altman",
     "slug": "sam-altman",
     "bio": null,
@@ -45881,7 +45881,7 @@ const dashboardData = {
     "last_podcast_name": "Moonshots with Peter Diamandis",
     "last_episode_date": "2026-08-27",
     "mention_score": 1,
-    "mention_score_decayed": 0.59,
+    "mention_score_decayed": 0.57,
     "last_main_idea": "Investment in AI and autonomous vehicle sectors should consider the shift towards more gradual AI integration and the potential for cost-effective Chinese AI models to disrupt the market.",
     "last_proof_cite": "Moonshots with Peter Diamandis \u2022 2026-08-27 \u2022 Sam Altman: Singularity Slow-Down, Emad Runs 18 Grokbots, Waymo Slashes Hardware 83% | EP #283",
     "last_proof_snippet": "Sam Altman went on video this week to tell the world that he was wrong about the impact of advancing AI. We've all been too ambitious on time on it's even with this incredible technology. He now believes it will be something slower, more lik",
@@ -47380,7 +47380,7 @@ const dashboardData = {
     "last_podcast_name": "Moonshots with Peter Diamandis",
     "last_episode_date": "2026-08-11",
     "mention_score": 1,
-    "mention_score_decayed": 0.41,
+    "mention_score_decayed": 0.4,
     "last_main_idea": "Invest in companies and technologies that are at the forefront of AI and compute power, as these are poised to become the driving forces behind future enterprise success.",
     "last_proof_cite": "Moonshots with Peter Diamandis \u2022 2026-08-11 \u2022 Sergey Brin Retakes Gemini, 4 Labs Lose Containment, Compute Trades at NYSE w/ Kush Bavaria | EP #278",
     "last_proof_snippet": "Sergei Bren is back taking personal control of Gemini. I think we can expect Gemini to make more releases in an accelerated pace with less safety constraints. Google has lost the frontier race and so they can't compete. Those who can't comp",
@@ -47440,7 +47440,7 @@ const dashboardData = {
     "last_podcast_name": "Latent Space: The AI Engineer Podcast",
     "last_episode_date": "2026-08-11",
     "mention_score": 1,
-    "mention_score_decayed": 0.41,
+    "mention_score_decayed": 0.4,
     "last_main_idea": "Investing in AI-driven protein design companies like Try Discovery could offer significant returns as these platforms have the potential to disrupt traditional drug discovery, making it more efficient and cost-effective.",
     "last_proof_cite": "Latent Space: The AI Engineer Podcast \u2022 2026-08-11 \u2022 \ud83d\udd2cThe BioAI Phase Shift - Matthew McPartlon & Neil Patil, Chai Discovery",
     "last_proof_snippet": "It looks a lot less like a, you know, a chat GPT and a lot more like a autodesk or solid works or a figma, you know, if you've used those things where you can kind of load up your molecule, there's this almost like photo shop S click design",
@@ -47499,7 +47499,7 @@ const dashboardData = {
     "last_podcast_name": "Latent Space: The AI Engineer Podcast",
     "last_episode_date": "2026-08-11",
     "mention_score": 1,
-    "mention_score_decayed": 0.41,
+    "mention_score_decayed": 0.4,
     "last_main_idea": "Investing in AI-driven protein design companies like Try Discovery could offer significant returns as these platforms have the potential to disrupt traditional drug discovery, making it more efficient and cost-effective.",
     "last_proof_cite": "Latent Space: The AI Engineer Podcast \u2022 2026-08-11 \u2022 \ud83d\udd2cThe BioAI Phase Shift - Matthew McPartlon & Neil Patil, Chai Discovery",
     "last_proof_snippet": "It looks a lot less like a, you know, a chat GPT and a lot more like a autodesk or solid works or a figma, you know, if you've used those things where you can kind of load up your molecule, there's this almost like photo shop S click design",
@@ -48953,6 +48953,65 @@ const dashboardData = {
     }
   },
   {
+    "id": 98,
+    "name": "Rory Johnston",
+    "slug": "rory-johnston",
+    "bio": "Rory Johnston is an expert on energy markets and geopolitical risks. He is known for his analysis of the Hormuz crisis and its implications for global oil flows. Johnston's insights are highly valued by professional finance, high-net worth individuals, family offices, and other sophisticated investors.",
+    "known_for": "Analysis of the Hormuz crisis and its implications for global oil flows.",
+    "net_worth_usd": null,
+    "net_worth_source": "",
+    "net_worth_updated_at": "2026-03-28T22:05:57.557236",
+    "voice_tone": "Informative and insightful",
+    "voice_style": "Direct and focused on market dynamics",
+    "voice_delivery_notes": "Paced with emphasis on key market indicators",
+    "voice_profile_updated_at": "2026-03-29 09:09:13",
+    "last_seen": "2026-05-14 18:46:46",
+    "last_episode_title": "MacroVoices #532 Mike Green: Record Mechanical Flows",
+    "last_podcast_name": "Macro Voices",
+    "last_episode_date": "2026-05-14",
+    "mention_score": 6,
+    "mention_score_decayed": 0.3,
+    "last_main_idea": "Investors should prepare for potential volatility as economic indicators begin to reflect the impacts of energy prices and passive investment flows.",
+    "last_proof_cite": "Macro Voices \u2022 2026-05-14 \u2022 MacroVoices #532 Mike Green: Record Mechanical Flows",
+    "last_proof_snippet": "This is Macrovoisers, the Free Weekly Financial Podcast, targeting professional finance, high-net worth individuals, family offices, and other sophisticated investors. Macrovoisers is all about the brightest minds in the world of finance an",
+    "supporting_takeaway": "The ongoing Hormuz crisis is expected to create significant economic dislocation, particularly affecting energy supply.",
+    "grokipedia_url": null,
+    "grokipedia_fetched_at": "2026-05-14T13:47:11.847729",
+    "pundit_profile": {
+      "source": "llm",
+      "source_model": "moonshot:moonshot-v1-8k",
+      "source_url": "",
+      "page_title": "Rory Johnston",
+      "fetched_at": "2026-05-14T18:47:11.847405+00:00",
+      "cliff_notes": "Rory Johnston is an expert in energy markets and geopolitical risks, with a particular focus on the Hormuz crisis and its impact on global oil flows. His expertise is sought after by a range of financial professionals, including high-net worth individuals, family offices, and sophisticated investors. Johnston's analysis is featured on platforms like Macrovoisers, a financial podcast that targets these audiences. His insights into the Hormuz crisis and its potential to cripple the global economy are particularly valued, as they help investors navigate the complex and volatile world of finance and macroeconomics.",
+      "derived": {
+        "current_role": "Expert on energy markets and geopolitical risks; specific role not mentioned."
+      },
+      "infobox": {
+        "Born": "",
+        "Nationality": ""
+      },
+      "lead_paragraphs": [
+        "Rory Johnston is an expert in energy markets and geopolitical risks, with a particular focus on the Hormuz crisis and its impact on global oil flows. His expertise is sought after by a range of financial professionals, including high-net worth individuals, family offices, and sophisticated investors. Johnston's analysis is featured on platforms like Macrovoisers, a financial podcast that targets these audiences.",
+        "His insights into the Hormuz crisis and its potential to cripple the global economy are particularly valued, as they help investors navigate the complex and volatile world of finance and macroeconomics."
+      ],
+      "sections": [
+        {
+          "heading": "Hormuz Crisis",
+          "body": "Rory Johnston is known for his analysis of the Hormuz crisis and its implications for global oil flows. He has provided insights into how this geopolitical event could potentially cripple the global economy."
+        },
+        {
+          "heading": "Energy Markets",
+          "body": "Johnston is an expert on energy markets, offering valuable insights into the complex dynamics of oil and gas markets. His analysis helps investors understand the impact of geopolitical events on these markets."
+        },
+        {
+          "heading": "Geopolitical Risks",
+          "body": "As an expert on geopolitical risks, Johnston provides valuable perspectives on how global events can affect financial markets. His analysis of the Hormuz crisis is a prime example of this expertise."
+        }
+      ]
+    }
+  },
+  {
     "id": 364,
     "name": "Justin Jo",
     "slug": "justin-jo",
@@ -48970,7 +49029,7 @@ const dashboardData = {
     "last_podcast_name": "The a16z Show",
     "last_episode_date": "2026-07-29",
     "mention_score": 1,
-    "mention_score_decayed": 0.3,
+    "mention_score_decayed": 0.29,
     "last_main_idea": "Investing in AI-native entertainment presents an opportunity to capitalize on the shift towards generative media and the democratization of content creation.",
     "last_proof_cite": "The a16z Show \u2022 2026-07-29 \u2022 AI Micro Dramas, Generative Media, and the Future of Creativity",
     "last_proof_snippet": "I think folks would be surprised by how many TV shows and movies today already have some element of AI being used. I spend a lot of time with studio execs and Amazon and Netflix have already both announced programs for fully-AI-generated an",
@@ -49030,7 +49089,7 @@ const dashboardData = {
     "last_podcast_name": "All-In with Chamath, Jason, Sacks & Friedberg",
     "last_episode_date": "2026-07-28",
     "mention_score": 1,
-    "mention_score_decayed": 0.3,
+    "mention_score_decayed": 0.29,
     "last_main_idea": "Investing in robotics and AI companies that are successfully transitioning from research to real-world applications could offer significant growth potential as these technologies become more integrated into various industries.",
     "last_proof_cite": "All-In with Chamath, Jason, Sacks & Friedberg \u2022 2026-07-28 \u2022 The $1/Hour Worker: Four Robotics CEOs on Humanoids at Home, China's Threat, and the End of Dangerous Jobs",
     "last_proof_snippet": "Hey everybody, it's your boy Jake Al, I'm here in Paris, France at a conference called Makina, basically AI in the real world. Pardon my robot. Thanks for tuning in, and let's get started. Apple ovens started with an $8 domain and no VC fun",
@@ -49089,7 +49148,7 @@ const dashboardData = {
     "last_podcast_name": "All-In with Chamath, Jason, Sacks & Friedberg",
     "last_episode_date": "2026-07-28",
     "mention_score": 1,
-    "mention_score_decayed": 0.3,
+    "mention_score_decayed": 0.29,
     "last_main_idea": "Investing in robotics and AI companies that are successfully transitioning from research to real-world applications could offer significant growth potential as these technologies become more integrated into various industries.",
     "last_proof_cite": "All-In with Chamath, Jason, Sacks & Friedberg \u2022 2026-07-28 \u2022 The $1/Hour Worker: Four Robotics CEOs on Humanoids at Home, China's Threat, and the End of Dangerous Jobs",
     "last_proof_snippet": "Hey everybody, it's your boy Jake Al, I'm here in Paris, France at a conference called Makina, basically AI in the real world. Pardon my robot. Thanks for tuning in, and let's get started. Apple ovens started with an $8 domain and no VC fun",
@@ -49148,7 +49207,7 @@ const dashboardData = {
     "last_podcast_name": "Monetary Matters with Jack Farley",
     "last_episode_date": "2026-07-29",
     "mention_score": 1,
-    "mention_score_decayed": 0.3,
+    "mention_score_decayed": 0.29,
     "last_main_idea": "The Federal Reserve's credibility is at stake, and market reactions to economic data and Fed policy suggest a potential shift in expectations for inflation and interest rates, impacting bond yields and stock market performance.",
     "last_proof_cite": "Monetary Matters with Jack Farley \u2022 2026-07-29 \u2022 Mum\u2019s The Word: Kathryn Rooney Vera on Fed\u2019s Second Meeting under Kevin Warsh, Plus Earnings Breakdown (Live Replay)",
     "last_proof_snippet": "Wow. All right. We are here. We are joined by Katherine Rooney Vera, who's the chief market strategist at Stone X Groups. A lot of views on board markets, everything in macro. We mean we can get to to currencies and bonds. Katherine had a v",
@@ -49189,65 +49248,6 @@ const dashboardData = {
       ]
     },
     "net_worth": "$26.7M"
-  },
-  {
-    "id": 98,
-    "name": "Rory Johnston",
-    "slug": "rory-johnston",
-    "bio": "Rory Johnston is an expert on energy markets and geopolitical risks. He is known for his analysis of the Hormuz crisis and its implications for global oil flows. Johnston's insights are highly valued by professional finance, high-net worth individuals, family offices, and other sophisticated investors.",
-    "known_for": "Analysis of the Hormuz crisis and its implications for global oil flows.",
-    "net_worth_usd": null,
-    "net_worth_source": "",
-    "net_worth_updated_at": "2026-03-28T22:05:57.557236",
-    "voice_tone": "Informative and insightful",
-    "voice_style": "Direct and focused on market dynamics",
-    "voice_delivery_notes": "Paced with emphasis on key market indicators",
-    "voice_profile_updated_at": "2026-03-29 09:09:13",
-    "last_seen": "2026-05-14 18:46:46",
-    "last_episode_title": "MacroVoices #532 Mike Green: Record Mechanical Flows",
-    "last_podcast_name": "Macro Voices",
-    "last_episode_date": "2026-05-14",
-    "mention_score": 6,
-    "mention_score_decayed": 0.3,
-    "last_main_idea": "Investors should prepare for potential volatility as economic indicators begin to reflect the impacts of energy prices and passive investment flows.",
-    "last_proof_cite": "Macro Voices \u2022 2026-05-14 \u2022 MacroVoices #532 Mike Green: Record Mechanical Flows",
-    "last_proof_snippet": "This is Macrovoisers, the Free Weekly Financial Podcast, targeting professional finance, high-net worth individuals, family offices, and other sophisticated investors. Macrovoisers is all about the brightest minds in the world of finance an",
-    "supporting_takeaway": "The ongoing Hormuz crisis is expected to create significant economic dislocation, particularly affecting energy supply.",
-    "grokipedia_url": null,
-    "grokipedia_fetched_at": "2026-05-14T13:47:11.847729",
-    "pundit_profile": {
-      "source": "llm",
-      "source_model": "moonshot:moonshot-v1-8k",
-      "source_url": "",
-      "page_title": "Rory Johnston",
-      "fetched_at": "2026-05-14T18:47:11.847405+00:00",
-      "cliff_notes": "Rory Johnston is an expert in energy markets and geopolitical risks, with a particular focus on the Hormuz crisis and its impact on global oil flows. His expertise is sought after by a range of financial professionals, including high-net worth individuals, family offices, and sophisticated investors. Johnston's analysis is featured on platforms like Macrovoisers, a financial podcast that targets these audiences. His insights into the Hormuz crisis and its potential to cripple the global economy are particularly valued, as they help investors navigate the complex and volatile world of finance and macroeconomics.",
-      "derived": {
-        "current_role": "Expert on energy markets and geopolitical risks; specific role not mentioned."
-      },
-      "infobox": {
-        "Born": "",
-        "Nationality": ""
-      },
-      "lead_paragraphs": [
-        "Rory Johnston is an expert in energy markets and geopolitical risks, with a particular focus on the Hormuz crisis and its impact on global oil flows. His expertise is sought after by a range of financial professionals, including high-net worth individuals, family offices, and sophisticated investors. Johnston's analysis is featured on platforms like Macrovoisers, a financial podcast that targets these audiences.",
-        "His insights into the Hormuz crisis and its potential to cripple the global economy are particularly valued, as they help investors navigate the complex and volatile world of finance and macroeconomics."
-      ],
-      "sections": [
-        {
-          "heading": "Hormuz Crisis",
-          "body": "Rory Johnston is known for his analysis of the Hormuz crisis and its implications for global oil flows. He has provided insights into how this geopolitical event could potentially cripple the global economy."
-        },
-        {
-          "heading": "Energy Markets",
-          "body": "Johnston is an expert on energy markets, offering valuable insights into the complex dynamics of oil and gas markets. His analysis helps investors understand the impact of geopolitical events on these markets."
-        },
-        {
-          "heading": "Geopolitical Risks",
-          "body": "As an expert on geopolitical risks, Johnston provides valuable perspectives on how global events can affect financial markets. His analysis of the Hormuz crisis is a prime example of this expertise."
-        }
-      ]
-    }
   },
   {
     "id": 358,
@@ -50189,72 +50189,6 @@ const dashboardData = {
     "net_worth": "$7.00B"
   },
   {
-    "id": 335,
-    "name": "Pat Gelsinger",
-    "slug": "pat-gelsinger",
-    "bio": "Pat Gelsinger is a renowned technology executive known for his leadership at Intel and VMware. He served as Intel's 8th CEO and played a significant role in the tech industry's evolution.",
-    "known_for": "His leadership at Intel during a critical period of competition and his insights into the tech industry.",
-    "net_worth_usd": 120000000.0,
-    "net_worth_source": "https://thedacian.com/pat-gelsinger-net-worth/",
-    "net_worth_updated_at": "2026-07-16T05:02:47.534425",
-    "voice_tone": "Reflective and insightful.",
-    "voice_style": "Factual and experienced.",
-    "voice_delivery_notes": "Speaks with a measured pace, emphasizing key points about Intel's history and future.",
-    "voice_profile_updated_at": "2026-07-16 10:01:16",
-    "last_seen": "2026-07-16 10:01:16",
-    "last_episode_title": "Former Intel CEO on What Went Wrong, What's Next + Lovable CEO on the Real Promise of Vibe Coding",
-    "last_podcast_name": "All-In with Chamath, Jason, Sacks & Friedberg",
-    "last_episode_date": "2026-07-15",
-    "mention_score": 1,
-    "mention_score_decayed": 0.22,
-    "last_main_idea": "Investing in companies with strong technical leadership and a focus on future-proofing through R&D can yield significant long-term returns.",
-    "last_proof_cite": "All-In with Chamath, Jason, Sacks & Friedberg \u2022 2026-07-15 \u2022 Former Intel CEO on What Went Wrong, What's Next + Lovable CEO on the Real Promise of Vibe Coding",
-    "last_proof_snippet": "spent a long time in Intel, and only 34 years, 34 years, probably one of the greatest American companies ever, and then, absolutely went off the rails and got absolutely demolished by Nvidia, TSMC, and I guess Apple to a certain extent. So",
-    "supporting_takeaway": "Technical decisions in tech companies should be driven by technologists, not just business leaders.",
-    "grokipedia_url": null,
-    "grokipedia_fetched_at": "2026-07-16T05:02:45.973996",
-    "pundit_profile": {
-      "source": "llm",
-      "source_model": "moonshot:moonshot-v1-8k",
-      "source_url": "",
-      "page_title": "Pat Gelsinger",
-      "fetched_at": "2026-07-16T10:02:45.973649+00:00",
-      "cliff_notes": "Pat Gelsinger has had a long and influential career in the technology sector. Starting at Intel in 1979, he held various technical and leadership roles, eventually becoming the company's Chief Technology Officer. His tenure at Intel spanned over three decades, during which he contributed to the development and execution of many of Intel's technology strategies. After leaving Intel, Gelsinger became the CEO of VMware, where he led the company through significant growth and innovation. In 2021, he returned to Intel as its 8th CEO, taking on the challenge of revitalizing the company amidst intense competition from Nvidia, TSMC, and Apple. His leadership and insights into the tech industry have made him a key figure in the evolution of technology and its impact on the global market.",
-      "derived": {
-        "current_role": "CEO of Intel",
-        "former_positions": "CEO of VMware; Senior Vice President and General Manager of Intel's Digital Enterprise Group; Chief Technology Officer at Intel",
-        "education": "B.S. in Electrical Engineering from Lincoln Technical Institute; M.S. in Electrical Engineering from Stanford University"
-      },
-      "infobox": {
-        "Born": "1962",
-        "Nationality": "American"
-      },
-      "lead_paragraphs": [
-        "Pat Gelsinger has had a long and influential career in the technology sector. Starting at Intel in 1979, he held various technical and leadership roles, eventually becoming the company's Chief Technology Officer. His tenure at Intel spanned over three decades, during which he contributed to the development and execution of many of Intel's technology strategies.",
-        "After leaving Intel, Gelsinger became the CEO of VMware, where he led the company through significant growth and innovation. In 2021, he returned to Intel as its 8th CEO, taking on the challenge of revitalizing the company amidst intense competition from Nvidia, TSMC, and Apple. His leadership and insights into the tech industry have made him a key figure in the evolution of technology and its impact on the global market."
-      ],
-      "sections": [
-        {
-          "heading": "Leadership at Intel",
-          "body": "Pat Gelsinger served as Intel's 8th CEO, taking on the role during a period of intense competition and significant challenges for the company."
-        },
-        {
-          "heading": "VMware CEO",
-          "body": "As CEO of VMware, Gelsinger led the company to substantial growth and innovation, expanding its reach in the virtualization and cloud computing markets."
-        },
-        {
-          "heading": "Technology Strategy",
-          "body": "Throughout his career, Gelsinger has been instrumental in shaping technology strategies, both at Intel and VMware, impacting the direction of the tech industry."
-        },
-        {
-          "heading": "Industry Competition",
-          "body": "Gelsinger's leadership at Intel coincided with the company's struggle to maintain its market position against competitors like Nvidia, TSMC, and Apple."
-        }
-      ]
-    },
-    "net_worth": "$120.0M"
-  },
-  {
     "id": 42,
     "name": "Jack Mallers",
     "slug": "jack-mallers",
@@ -50313,6 +50247,72 @@ const dashboardData = {
       ]
     },
     "net_worth": "$50.0M"
+  },
+  {
+    "id": 335,
+    "name": "Pat Gelsinger",
+    "slug": "pat-gelsinger",
+    "bio": "Pat Gelsinger is a renowned technology executive known for his leadership at Intel and VMware. He served as Intel's 8th CEO and played a significant role in the tech industry's evolution.",
+    "known_for": "His leadership at Intel during a critical period of competition and his insights into the tech industry.",
+    "net_worth_usd": 120000000.0,
+    "net_worth_source": "https://thedacian.com/pat-gelsinger-net-worth/",
+    "net_worth_updated_at": "2026-07-16T05:02:47.534425",
+    "voice_tone": "Reflective and insightful.",
+    "voice_style": "Factual and experienced.",
+    "voice_delivery_notes": "Speaks with a measured pace, emphasizing key points about Intel's history and future.",
+    "voice_profile_updated_at": "2026-07-16 10:01:16",
+    "last_seen": "2026-07-16 10:01:16",
+    "last_episode_title": "Former Intel CEO on What Went Wrong, What's Next + Lovable CEO on the Real Promise of Vibe Coding",
+    "last_podcast_name": "All-In with Chamath, Jason, Sacks & Friedberg",
+    "last_episode_date": "2026-07-15",
+    "mention_score": 1,
+    "mention_score_decayed": 0.21,
+    "last_main_idea": "Investing in companies with strong technical leadership and a focus on future-proofing through R&D can yield significant long-term returns.",
+    "last_proof_cite": "All-In with Chamath, Jason, Sacks & Friedberg \u2022 2026-07-15 \u2022 Former Intel CEO on What Went Wrong, What's Next + Lovable CEO on the Real Promise of Vibe Coding",
+    "last_proof_snippet": "spent a long time in Intel, and only 34 years, 34 years, probably one of the greatest American companies ever, and then, absolutely went off the rails and got absolutely demolished by Nvidia, TSMC, and I guess Apple to a certain extent. So",
+    "supporting_takeaway": "Technical decisions in tech companies should be driven by technologists, not just business leaders.",
+    "grokipedia_url": null,
+    "grokipedia_fetched_at": "2026-07-16T05:02:45.973996",
+    "pundit_profile": {
+      "source": "llm",
+      "source_model": "moonshot:moonshot-v1-8k",
+      "source_url": "",
+      "page_title": "Pat Gelsinger",
+      "fetched_at": "2026-07-16T10:02:45.973649+00:00",
+      "cliff_notes": "Pat Gelsinger has had a long and influential career in the technology sector. Starting at Intel in 1979, he held various technical and leadership roles, eventually becoming the company's Chief Technology Officer. His tenure at Intel spanned over three decades, during which he contributed to the development and execution of many of Intel's technology strategies. After leaving Intel, Gelsinger became the CEO of VMware, where he led the company through significant growth and innovation. In 2021, he returned to Intel as its 8th CEO, taking on the challenge of revitalizing the company amidst intense competition from Nvidia, TSMC, and Apple. His leadership and insights into the tech industry have made him a key figure in the evolution of technology and its impact on the global market.",
+      "derived": {
+        "current_role": "CEO of Intel",
+        "former_positions": "CEO of VMware; Senior Vice President and General Manager of Intel's Digital Enterprise Group; Chief Technology Officer at Intel",
+        "education": "B.S. in Electrical Engineering from Lincoln Technical Institute; M.S. in Electrical Engineering from Stanford University"
+      },
+      "infobox": {
+        "Born": "1962",
+        "Nationality": "American"
+      },
+      "lead_paragraphs": [
+        "Pat Gelsinger has had a long and influential career in the technology sector. Starting at Intel in 1979, he held various technical and leadership roles, eventually becoming the company's Chief Technology Officer. His tenure at Intel spanned over three decades, during which he contributed to the development and execution of many of Intel's technology strategies.",
+        "After leaving Intel, Gelsinger became the CEO of VMware, where he led the company through significant growth and innovation. In 2021, he returned to Intel as its 8th CEO, taking on the challenge of revitalizing the company amidst intense competition from Nvidia, TSMC, and Apple. His leadership and insights into the tech industry have made him a key figure in the evolution of technology and its impact on the global market."
+      ],
+      "sections": [
+        {
+          "heading": "Leadership at Intel",
+          "body": "Pat Gelsinger served as Intel's 8th CEO, taking on the role during a period of intense competition and significant challenges for the company."
+        },
+        {
+          "heading": "VMware CEO",
+          "body": "As CEO of VMware, Gelsinger led the company to substantial growth and innovation, expanding its reach in the virtualization and cloud computing markets."
+        },
+        {
+          "heading": "Technology Strategy",
+          "body": "Throughout his career, Gelsinger has been instrumental in shaping technology strategies, both at Intel and VMware, impacting the direction of the tech industry."
+        },
+        {
+          "heading": "Industry Competition",
+          "body": "Gelsinger's leadership at Intel coincided with the company's struggle to maintain its market position against competitors like Nvidia, TSMC, and Apple."
+        }
+      ]
+    },
+    "net_worth": "$120.0M"
   },
   {
     "id": 332,
@@ -56669,66 +56669,6 @@ const dashboardData = {
     "pundit_profile": null
   },
   {
-    "id": 97,
-    "name": "Simon White",
-    "slug": "simon-white",
-    "bio": "Bloomberg Macro strategist",
-    "known_for": "Analysis on secular inflation and macroeconomic trends",
-    "net_worth_usd": 112000000.0,
-    "net_worth_source": "https://www.gurufocus.com/insider/44/william-s-simon",
-    "net_worth_updated_at": "2026-03-20T22:08:35.505085",
-    "voice_tone": "Matter-of-fact and analytical",
-    "voice_style": "Factual and data-driven, with a focus on historical parallels",
-    "voice_delivery_notes": "Clear and concise, with a steady pace",
-    "voice_profile_updated_at": "2026-03-29 09:09:13",
-    "last_seen": "2026-03-29 09:09:13",
-    "last_episode_title": "MacroVoices-2026-03-19-Simon-White",
-    "last_podcast_name": "MacroVoices",
-    "last_episode_date": "2026-03-19",
-    "mention_score": 2,
-    "mention_score_decayed": 0.04,
-    "last_main_idea": "The Iran conflict could lead to a renewed inflation cycle, affecting commodities and energy markets, with potential second-order effects that markets may currently be underpricing.",
-    "last_proof_cite": "MacroVoices \u2022 2026-03-19 \u2022 MacroVoices-2026-03-19-Simon-White",
-    "last_proof_snippet": "Simon White suggests that markets may be underpricing the second-order effects of the Iran conflict.",
-    "supporting_takeaway": "Simon White suggests that markets may be underpricing the second-order effects of the Iran conflict.",
-    "grokipedia_url": null,
-    "grokipedia_fetched_at": "2026-03-20T04:35:48.845381",
-    "pundit_profile": {
-      "source": "llm",
-      "source_model": "moonshot:moonshot-v1-8k",
-      "source_url": "",
-      "page_title": "Simon White",
-      "fetched_at": "2026-03-20T09:35:48.845223+00:00",
-      "cliff_notes": "Simon White is recognized for his deep understanding of macroeconomic trends and their influence on global financial markets. As a Bloomberg Macro strategist, he provides critical analysis and forecasts that help investors navigate market volatility. His expertise is sought after in professional finance circles, particularly among high-net-worth individuals, family offices, and sophisticated investors. White's contributions to the Macrovoisers podcast further highlight his thought leadership in the field, where he discusses pressing issues such as secular inflation and its potential effects on economic outlooks.",
-      "derived": {
-        "current_role": "Bloomberg Macro strategist"
-      },
-      "infobox": {
-        "Born": "",
-        "Nationality": ""
-      },
-      "lead_paragraphs": [
-        "Simon White is recognized for his deep understanding of macroeconomic trends and their influence on global financial markets. As a Bloomberg Macro strategist, he provides critical analysis and forecasts that help investors navigate market volatility. His expertise is sought after in professional finance circles, particularly among high-net-worth individuals, family offices, and sophisticated investors.",
-        "White's contributions to the Macrovoisers podcast further highlight his thought leadership in the field, where he discusses pressing issues such as secular inflation and its potential effects on economic outlooks."
-      ],
-      "sections": [
-        {
-          "heading": "Market Analysis",
-          "body": "Simon White is known for his detailed market analysis, providing insights into how macroeconomic trends can affect investment strategies."
-        },
-        {
-          "heading": "Secular Inflation",
-          "body": "In his discussions, White often addresses secular inflation, explaining its potential impact on long-term economic growth and market performance."
-        },
-        {
-          "heading": "Financial Market Trends",
-          "body": "White's expertise extends to identifying and interpreting trends within the financial markets, offering valuable perspectives to investors."
-        }
-      ]
-    },
-    "net_worth": "$112.0M"
-  },
-  {
     "id": 207,
     "name": "Matthew Bloomfield",
     "slug": "matthew-bloomfield",
@@ -57854,6 +57794,66 @@ const dashboardData = {
       ]
     },
     "net_worth": "$103.0M"
+  },
+  {
+    "id": 97,
+    "name": "Simon White",
+    "slug": "simon-white",
+    "bio": "Bloomberg Macro strategist",
+    "known_for": "Analysis on secular inflation and macroeconomic trends",
+    "net_worth_usd": 112000000.0,
+    "net_worth_source": "https://www.gurufocus.com/insider/44/william-s-simon",
+    "net_worth_updated_at": "2026-03-20T22:08:35.505085",
+    "voice_tone": "Matter-of-fact and analytical",
+    "voice_style": "Factual and data-driven, with a focus on historical parallels",
+    "voice_delivery_notes": "Clear and concise, with a steady pace",
+    "voice_profile_updated_at": "2026-03-29 09:09:13",
+    "last_seen": "2026-03-29 09:09:13",
+    "last_episode_title": "MacroVoices-2026-03-19-Simon-White",
+    "last_podcast_name": "MacroVoices",
+    "last_episode_date": "2026-03-19",
+    "mention_score": 2,
+    "mention_score_decayed": 0.03,
+    "last_main_idea": "The Iran conflict could lead to a renewed inflation cycle, affecting commodities and energy markets, with potential second-order effects that markets may currently be underpricing.",
+    "last_proof_cite": "MacroVoices \u2022 2026-03-19 \u2022 MacroVoices-2026-03-19-Simon-White",
+    "last_proof_snippet": "Simon White suggests that markets may be underpricing the second-order effects of the Iran conflict.",
+    "supporting_takeaway": "Simon White suggests that markets may be underpricing the second-order effects of the Iran conflict.",
+    "grokipedia_url": null,
+    "grokipedia_fetched_at": "2026-03-20T04:35:48.845381",
+    "pundit_profile": {
+      "source": "llm",
+      "source_model": "moonshot:moonshot-v1-8k",
+      "source_url": "",
+      "page_title": "Simon White",
+      "fetched_at": "2026-03-20T09:35:48.845223+00:00",
+      "cliff_notes": "Simon White is recognized for his deep understanding of macroeconomic trends and their influence on global financial markets. As a Bloomberg Macro strategist, he provides critical analysis and forecasts that help investors navigate market volatility. His expertise is sought after in professional finance circles, particularly among high-net-worth individuals, family offices, and sophisticated investors. White's contributions to the Macrovoisers podcast further highlight his thought leadership in the field, where he discusses pressing issues such as secular inflation and its potential effects on economic outlooks.",
+      "derived": {
+        "current_role": "Bloomberg Macro strategist"
+      },
+      "infobox": {
+        "Born": "",
+        "Nationality": ""
+      },
+      "lead_paragraphs": [
+        "Simon White is recognized for his deep understanding of macroeconomic trends and their influence on global financial markets. As a Bloomberg Macro strategist, he provides critical analysis and forecasts that help investors navigate market volatility. His expertise is sought after in professional finance circles, particularly among high-net-worth individuals, family offices, and sophisticated investors.",
+        "White's contributions to the Macrovoisers podcast further highlight his thought leadership in the field, where he discusses pressing issues such as secular inflation and its potential effects on economic outlooks."
+      ],
+      "sections": [
+        {
+          "heading": "Market Analysis",
+          "body": "Simon White is known for his detailed market analysis, providing insights into how macroeconomic trends can affect investment strategies."
+        },
+        {
+          "heading": "Secular Inflation",
+          "body": "In his discussions, White often addresses secular inflation, explaining its potential impact on long-term economic growth and market performance."
+        },
+        {
+          "heading": "Financial Market Trends",
+          "body": "White's expertise extends to identifying and interpreting trends within the financial markets, offering valuable perspectives to investors."
+        }
+      ]
+    },
+    "net_worth": "$112.0M"
   },
   {
     "id": 128,
@@ -60802,7 +60802,7 @@ const dashboardData = {
     "last_podcast_name": "Monetary Matters with Jack Farley",
     "last_episode_date": "2026-03-22",
     "mention_score": 1,
-    "mention_score_decayed": 0.02,
+    "mention_score_decayed": 0.01,
     "last_main_idea": "The disruption in fertilizer supply due to geopolitical tensions presents an opportunity in agricultural commodities, particularly corn, which is heavily impacted by rising input costs and could see price support from tightened supply.",
     "last_proof_cite": "Monetary Matters with Jack Farley \u2022 2026-03-22 \u2022 Monetary Matters with Jack Farley: Impact of Iran War on Fertilizer Prices and Agriculture",
     "last_proof_snippet": "Despite the price surge, U.S. nitrogen fertilizers are still some of the cheapest in the world, creating an arbitrage opportunity.",
@@ -60860,7 +60860,7 @@ const dashboardData = {
     "last_podcast_name": "All-In with Chamath, Jason, Sacks & Friedberg",
     "last_episode_date": "2026-03-23",
     "mention_score": 1,
-    "mention_score_decayed": 0.02,
+    "mention_score_decayed": 0.01,
     "last_main_idea": "Invest in innovation and infrastructure to create a smarter grid and incentivize clean energy adoption, while avoiding over-regulation that leads to unintended economic and environmental consequences.",
     "last_proof_cite": "All-In with Chamath, Jason, Sacks & Friedberg \u2022 2026-03-23 \u2022 California's Spending Woes and the Governor's Race",
     "last_proof_snippet": "High-speed rail project has spent $14 billion without delivering a product, highlighting a lack of accountability in state government.",
@@ -61876,7 +61876,7 @@ const dashboardData = {
         }
       ],
       "disclaimer": "Research sleeve / scorecard, not advice. $1,000 equal-weight illustration only.",
-      "last_updated": "2026-09-20T23:53:19.710597"
+      "last_updated": "2026-09-21T05:09:33.140161"
     }
   ]
 }

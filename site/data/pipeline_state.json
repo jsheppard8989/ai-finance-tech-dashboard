@@ -1,7 +1,7 @@
 {
-  "generated_at": "2026-09-20T23:53:48.849403",
-  "last_updated": "2026-09-20T23:53:48.849403",
-  "last_pipeline_run": "2026-09-20T23:53:48.849403",
+  "generated_at": "2026-09-21T05:10:01.427686",
+  "last_updated": "2026-09-21T05:10:01.427686",
+  "last_pipeline_run": "2026-09-21T05:10:01.427686",
   "main_page": {
     "overton": 13,
     "insights": 10,
@@ -15,36 +15,17 @@
     "overton_terms_total": 135,
     "latest_insights_total": 490,
     "today_mentions": {},
-    "podcasts_analyzed": 3
+    "podcasts_analyzed": 0
   },
   "step_results": {
-    "downloaded": 1,
-    "transcribed": 1,
-    "analyzed": 1,
-    "insight_created": 1,
-    "published": 1,
-    "total": 1
+    "downloaded": 0,
+    "transcribed": 0,
+    "analyzed": 0,
+    "insight_created": 0,
+    "published": 0,
+    "total": 0
   },
-  "episodes": [
-    {
-      "id": "a2a542d5-2feb-441a-a523-910e16c2d193",
-      "podcast": "All-In with Chamath, Jason, Sacks & Friedberg",
-      "title": "Adam Foroughi, Applovin CEO: Surviving a 92% Drawdown, Ads as ML 1.0 & the $50B Game Ad Market",
-      "published": "2026-09-20",
-      "rss_guid": "a2a542d5-2feb-441a-a523-910e16c2d193",
-      "stages": {
-        "downloaded": true,
-        "transcribed": true,
-        "analyzed": true,
-        "insight_created": true,
-        "published": true
-      },
-      "stage_reasons": {},
-      "first_blocker": null,
-      "remediation_by_stage": {},
-      "status": "complete"
-    }
-  ],
+  "episodes": [],
   "available_from_rss": [],
   "stale_episodes": [],
   "stale_threshold_days": 2,
