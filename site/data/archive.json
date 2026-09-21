@@ -41,6 +41,25 @@
       "podcast_episode_id": 502
     },
     {
+      "id": 518,
+      "title": "Adam Foroughi, Applovin CEO: Surviving a 92% Drawdown, Ads as ML 1.0 & the $50B Game Ad Market",
+      "source_type": "podcast",
+      "source_name": "All-In with Chamath, Jason, Sacks & Friedberg",
+      "source_date": "2026-09-20",
+      "summary": "The podcast discusses the burgeoning mobile gaming advertising market, highlighting Apple 11's significant growth and innovative strategies. With a focus on AI-driven advertising, the episode emphasizes the importance of adapting to privacy regulations while maintaining ad relevance. Apple 11's stock buyback strategy is also noted as a key factor in restoring investor confidence amidst market skepticism.",
+      "key_takeaway": "Investors should consider companies like Apple 11 that leverage AI in advertising and engage in stock buybacks as indicators of strong management and growth potential.",
+      "tickers_mentioned": [
+        "AAPL"
+      ],
+      "sentiment": "bullish",
+      "display_on_main": 0,
+      "display_order": 0,
+      "added_date": "2026-09-20",
+      "archived_date": null,
+      "archived_reason": null,
+      "podcast_episode_id": 503
+    },
+    {
       "id": 511,
       "title": "Bill Gurley: Searching for Feynman",
       "source_type": "podcast",
