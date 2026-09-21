@@ -13899,13 +13899,7 @@ const dashboardData = {
       "Precious metals investors may argue that gold and silver are still attractive as a hedge against inflation and economic uncertainty, despite Berg's bearish stance.",
       "Bitcoin investors may argue that the digital asset is still in its early stages of adoption and has significant growth potential, despite the uncertain direction suggested by Berg's analysis."
     ],
-    "catalysts": [
-      "The one-year anniversary of the April 2025 buy signals (April 2026) could serve as a catalyst for market trends, as investors evaluate the performance of the indices.",
-      "Economic data releases, such as GDP growth, inflation, and employment figures, could impact market sentiment and influence the direction of the indices.",
-      "Central bank policy decisions, such as interest rate changes or quantitative easing measures, could influence the direction of the market and precious metals prices.",
-      "Geopolitical events, such as trade disputes or regional conflicts, could impact market sentiment and influence the direction of the indices and precious metals prices.",
-      "Technological advancements or regulatory changes in the digital asset space could impact the direction of Bitcoin prices."
-    ],
+    "catalysts": ["Economic data releases, such as GDP growth, inflation, and employment figures, could impact market sentiment and influence the direction of the indices.", "Central bank policy decisions, such as interest rate changes or quantitative easing measures, could influence the direction of the market and precious metals prices.", "Geopolitical events, such as trade disputes or regional conflicts, could impact market sentiment and influence the direction of the indices and precious metals prices.", "Technological advancements or regulatory changes in the digital asset space could impact the direction of Bitcoin prices."],
     "related_insights": null,
     "audio_timestamp_start": null,
     "audio_timestamp_end": null,
@@ -39254,10 +39248,7 @@ const dashboardData = {
     "positioning_guidance": "",
     "risk_factors": [],
     "contrarian_signals": [],
-    "catalysts": [
-      "Q4 2023 earnings reports from major AI companies to gauge the financial performance of AI applications.",
-      "AI conference in 2024 where new consumer AI products are expected to be launched."
-    ],
+    "catalysts": ["AI conference in 2024 where new consumer AI products are expected to be launched."],
     "related_insights": null,
     "audio_timestamp_start": null,
     "audio_timestamp_end": null,
@@ -39614,10 +39605,7 @@ const dashboardData = {
     "positioning_guidance": "",
     "risk_factors": [],
     "contrarian_signals": [],
-    "catalysts": [
-      "2025: Expected commercialization of sodium ion battery technology and its impact on energy storage costs.",
-      "2030: The U.S. grid's actual capacity addition and its ability to meet the projected shortfall in energy demand for AI."
-    ],
+    "catalysts": ["2030: The U.S. grid's actual capacity addition and its ability to meet the projected shortfall in energy demand for AI."],
     "related_insights": null,
     "audio_timestamp_start": null,
     "audio_timestamp_end": null,
@@ -39655,10 +39643,7 @@ const dashboardData = {
     "positioning_guidance": "",
     "risk_factors": [],
     "contrarian_signals": [],
-    "catalysts": [
-      "Regulatory announcements regarding AI model testing standards (Q2 2024)",
-      "Major AGI-related technology showcases or breakthroughs from competitors (Late 2024)"
-    ],
+    "catalysts": [],
     "related_insights": null,
     "audio_timestamp_start": null,
     "audio_timestamp_end": null,
@@ -39813,10 +39798,7 @@ const dashboardData = {
     "positioning_guidance": "",
     "risk_factors": [],
     "contrarian_signals": [],
-    "catalysts": [
-      "Q2 2024: Release of industry reports on the adoption rates and effectiveness of AI in security practices.",
-      "H2 2024: Major security conferences where the latest trends and challenges in AI-driven security are discussed."
-    ],
+    "catalysts": [],
     "related_insights": null,
     "audio_timestamp_start": null,
     "audio_timestamp_end": null,
@@ -40012,10 +39994,7 @@ const dashboardData = {
     "positioning_guidance": "",
     "risk_factors": [],
     "contrarian_signals": [],
-    "catalysts": [
-      "Q2 2024 earnings report from Nvidia, which could provide insights into the company's competitive position and supply chain resilience.",
-      "Launch dates and performance benchmarks of OpenAI's Jalapeno chip, which will be crucial in assessing its impact on the AI chip market."
-    ],
+    "catalysts": ["Launch dates and performance benchmarks of OpenAI's Jalapeno chip, which will be crucial in assessing its impact on the AI chip market."],
     "related_insights": null,
     "audio_timestamp_start": null,
     "audio_timestamp_end": null,
@@ -40282,9 +40261,7 @@ const dashboardData = {
     "positioning_guidance": "",
     "risk_factors": [],
     "contrarian_signals": [],
-    "catalysts": [
-      "Review advancements in AI hardware architectures by Q2 2024 that could enhance computational efficiency for applications similar to Atlas."
-    ],
+    "catalysts": [],
     "related_insights": null,
     "audio_timestamp_start": null,
     "audio_timestamp_end": null,
@@ -40981,9 +40958,7 @@ const dashboardData = {
     "positioning_guidance": "",
     "risk_factors": [],
     "contrarian_signals": [],
-    "catalysts": [
-      "Monitor AI capability reports due by Q2 2024 for signs of progress or slowdown in real-world applications."
-    ],
+    "catalysts": [],
     "related_insights": null,
     "audio_timestamp_start": null,
     "audio_timestamp_end": null,
@@ -41015,10 +40990,7 @@ const dashboardData = {
     "positioning_guidance": "",
     "risk_factors": [],
     "contrarian_signals": [],
-    "catalysts": [
-      "Monitor USDA reports and forecasts on grain reserves in Q2 2024.",
-      "Assess developments in state-level agricultural policy regarding farm subsidies by mid-2024."
-    ],
+    "catalysts": [],
     "related_insights": null,
     "audio_timestamp_start": null,
     "audio_timestamp_end": null,
@@ -41698,10 +41670,7 @@ const dashboardData = {
     "positioning_guidance": "",
     "risk_factors": [],
     "contrarian_signals": [],
-    "catalysts": [
-      "Anthropic's revenue reports due by Q4 2023 to verify growth trajectory.",
-      "New regulatory frameworks for AI expected in Q1 2024."
-    ],
+    "catalysts": [],
     "related_insights": null,
     "audio_timestamp_start": null,
     "audio_timestamp_end": null,
@@ -41815,9 +41784,7 @@ const dashboardData = {
     "positioning_guidance": "",
     "risk_factors": [],
     "contrarian_signals": [],
-    "catalysts": [
-      "Release of the next Fed meeting minutes to gauge shifts in policy sentiment \u2014 expected December 2023."
-    ],
+    "catalysts": [],
     "related_insights": null,
     "audio_timestamp_start": null,
     "audio_timestamp_end": null,
@@ -41929,9 +41896,7 @@ const dashboardData = {
     "positioning_guidance": "",
     "risk_factors": [],
     "contrarian_signals": [],
-    "catalysts": [
-      "Regulatory announcements regarding AI safety protocols expected by Q3 2024."
-    ],
+    "catalysts": [],
     "related_insights": null,
     "audio_timestamp_start": null,
     "audio_timestamp_end": null,
@@ -41968,10 +41933,7 @@ const dashboardData = {
     "positioning_guidance": "",
     "risk_factors": [],
     "contrarian_signals": [],
-    "catalysts": [
-      "NASA's Artemis 3 launch scheduled for 2028",
-      "Established partnerships with private aerospace companies in 2024"
-    ],
+    "catalysts": ["NASA's Artemis 3 launch scheduled for 2028"],
     "related_insights": null,
     "audio_timestamp_start": null,
     "audio_timestamp_end": null,
@@ -42084,9 +42046,7 @@ const dashboardData = {
     "positioning_guidance": "",
     "risk_factors": [],
     "contrarian_signals": [],
-    "catalysts": [
-      "2024: Potential new regulations affecting data privacy for AI applications."
-    ],
+    "catalysts": [],
     "related_insights": null,
     "audio_timestamp_start": null,
     "audio_timestamp_end": null,
@@ -42162,10 +42122,7 @@ const dashboardData = {
     "positioning_guidance": "",
     "risk_factors": [],
     "contrarian_signals": [],
-    "catalysts": [
-      "2025: Assess regulatory impacts on AI tools in professional services following potential backlash.",
-      "2024: Review the adoption rates of AI tools within financial firms to gauge market sentiment and acceptance."
-    ],
+    "catalysts": [],
     "related_insights": null,
     "audio_timestamp_start": null,
     "audio_timestamp_end": null,
@@ -42195,9 +42152,7 @@ const dashboardData = {
     "positioning_guidance": "",
     "risk_factors": [],
     "contrarian_signals": [],
-    "catalysts": [
-      "Monitor for the announcement of new partnerships with educational institutions focused on hip-hop history by Q3 2024."
-    ],
+    "catalysts": [],
     "related_insights": null,
     "audio_timestamp_start": null,
     "audio_timestamp_end": null,
