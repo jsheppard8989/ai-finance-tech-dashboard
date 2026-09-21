@@ -3,8 +3,8 @@
 
 const dashboardData = {
   schemaVersion: 2,
-  generatedAt: "2026-09-20T14:05:28.050199",
-  chartsVersion: "2026-09-20T14:05:18.448205",
+  generatedAt: "2026-09-20T22:22:07.322822",
+  chartsVersion: "2026-09-20T22:21:51.596832",
   priceSnapshot: {},
   // tickerScores: Alpha/Atrophy UI retired in PR #98; Trap Map replaced it.
   tickerScores: [],
@@ -42314,7 +42314,7 @@ const dashboardData = {
 ],
   podcastGuests: [
   {
-    "id": 71413,
+    "id": 71517,
     "name": "Outlook on 5 Key Commodities",
     "slug": "outlook-on-5-key-commodities",
     "bio": null,
@@ -42326,7 +42326,7 @@ const dashboardData = {
     "appearance_count": 1
   },
   {
-    "id": 71414,
+    "id": 71518,
     "name": "Bill Gurley",
     "slug": "bill-gurley",
     "bio": null,
@@ -42338,7 +42338,7 @@ const dashboardData = {
     "appearance_count": 1
   },
   {
-    "id": 71415,
+    "id": 71519,
     "name": "Nick Shirley",
     "slug": "nick-shirley",
     "bio": null,
@@ -42350,7 +42350,7 @@ const dashboardData = {
     "appearance_count": 1
   },
   {
-    "id": 71416,
+    "id": 71520,
     "name": "Jared Isaacman",
     "slug": "jared-isaacman",
     "bio": null,
@@ -42362,7 +42362,7 @@ const dashboardData = {
     "appearance_count": 1
   },
   {
-    "id": 71417,
+    "id": 71521,
     "name": "Brad Gerstner",
     "slug": "brad-gerstner",
     "bio": null,
@@ -42374,7 +42374,7 @@ const dashboardData = {
     "appearance_count": 1
   },
   {
-    "id": 71418,
+    "id": 71522,
     "name": "Meta's Dina Powell McCormick",
     "slug": "metas-dina-powell-mccormick",
     "bio": null,
@@ -42386,7 +42386,7 @@ const dashboardData = {
     "appearance_count": 1
   },
   {
-    "id": 71419,
+    "id": 71523,
     "name": "Underwriting Superintelligence",
     "slug": "underwriting-superintelligence",
     "bio": null,
@@ -42398,7 +42398,7 @@ const dashboardData = {
     "appearance_count": 1
   },
   {
-    "id": 71420,
+    "id": 71524,
     "name": "Hawks Take Flight",
     "slug": "hawks-take-flight",
     "bio": null,
@@ -42410,7 +42410,7 @@ const dashboardData = {
     "appearance_count": 1
   },
   {
-    "id": 71421,
+    "id": 71525,
     "name": "Martine Rothblatt",
     "slug": "martine-rothblatt",
     "bio": null,
@@ -42422,7 +42422,7 @@ const dashboardData = {
     "appearance_count": 1
   },
   {
-    "id": 71422,
+    "id": 71526,
     "name": "Microsoft CEO Satya Nadella",
     "slug": "microsoft-ceo-satya-nadella",
     "bio": null,
@@ -42434,7 +42434,7 @@ const dashboardData = {
     "appearance_count": 1
   },
   {
-    "id": 71423,
+    "id": 71527,
     "name": "Jensen Huang",
     "slug": "jensen-huang",
     "bio": null,
@@ -42446,7 +42446,7 @@ const dashboardData = {
     "appearance_count": 1
   },
   {
-    "id": 71424,
+    "id": 71528,
     "name": "Ask the Mates anything",
     "slug": "ask-the-mates-anything",
     "bio": null,
@@ -42458,7 +42458,7 @@ const dashboardData = {
     "appearance_count": 1
   },
   {
-    "id": 71425,
+    "id": 71529,
     "name": "Matt Barry",
     "slug": "matt-barry",
     "bio": null,
@@ -42470,7 +42470,7 @@ const dashboardData = {
     "appearance_count": 1
   },
   {
-    "id": 71426,
+    "id": 71530,
     "name": "Who Grades the AI Models?",
     "slug": "who-grades-the-ai-models",
     "bio": null,
@@ -42482,7 +42482,7 @@ const dashboardData = {
     "appearance_count": 1
   },
   {
-    "id": 71427,
+    "id": 71531,
     "name": "Your AI Doctor Is Coming",
     "slug": "your-ai-doctor-is-coming",
     "bio": null,
@@ -42494,7 +42494,7 @@ const dashboardData = {
     "appearance_count": 1
   },
   {
-    "id": 71428,
+    "id": 71532,
     "name": "Fei Fei Li",
     "slug": "fei-fei-li",
     "bio": null,
@@ -42506,7 +42506,7 @@ const dashboardData = {
     "appearance_count": 1
   },
   {
-    "id": 71429,
+    "id": 71533,
     "name": "Financial strategist Jared Dillian",
     "slug": "financial-strategist-jared-dillian",
     "bio": null,
@@ -42518,7 +42518,7 @@ const dashboardData = {
     "appearance_count": 1
   },
   {
-    "id": 71430,
+    "id": 71534,
     "name": "Daniel Litt",
     "slug": "daniel-litt",
     "bio": null,
@@ -42530,7 +42530,7 @@ const dashboardData = {
     "appearance_count": 1
   },
   {
-    "id": 71431,
+    "id": 71535,
     "name": "Gavin Baker",
     "slug": "gavin-baker",
     "bio": null,
@@ -42542,7 +42542,7 @@ const dashboardData = {
     "appearance_count": 1
   },
   {
-    "id": 71432,
+    "id": 71536,
     "name": "Sam Altman",
     "slug": "sam-altman",
     "bio": null,
@@ -43189,7 +43189,7 @@ const dashboardData = {
     "last_podcast_name": "Monetary Matters with Jack Farley",
     "last_episode_date": "2026-08-20",
     "mention_score": 3,
-    "mention_score_decayed": 1.5,
+    "mention_score_decayed": 1.47,
     "last_main_idea": "The rise in AI capex and government spending is leading to increased borrowing costs, which will have profound effects on bond markets and inflation, creating both risks and opportunities for investors.",
     "last_proof_cite": "Monetary Matters with Jack Farley \u2022 2026-08-20 \u2022 Why Bessent Blinked | Luke Gromen on Doubling of Treasury Buyback Plan to Tame Long-End Yields",
     "last_proof_snippet": "Today's episode is brought to you by the two-cream corn fund Take or C-O-R-N. Let's get into it. Got a very important conversation today. I'm joined once again by Luke Groman of Forest for the Trees Research Luke. Welcome back to Monterey M",
@@ -43249,7 +43249,7 @@ const dashboardData = {
     "last_podcast_name": "Moonshots with Peter Diamandis",
     "last_episode_date": "2026-07-08",
     "mention_score": 3,
-    "mention_score_decayed": 1.37,
+    "mention_score_decayed": 1.34,
     "last_main_idea": "Invest in companies that are integrating AI into their operations to capitalize on job growth and technological advancements.",
     "last_proof_cite": "Moonshots with Peter Diamandis \u2022 2026-07-08 \u2022 Fable 5 Is Back & Govt-Leashed, Altman Offers 5% of OpenAI & AI Grows Conscious | #269",
     "last_proof_snippet": "Fable 5 came back online globally on July 1st with a few Provisos. This feels like the first time a frontier model has a standing duty to the U.S. government. This is probably close to the best scenario we could have hoped for. Sam has been",
@@ -43575,68 +43575,6 @@ const dashboardData = {
     }
   },
   {
-    "id": 465,
-    "name": "Dina Palma-Cormick",
-    "slug": "dina-palma-cormick",
-    "bio": "Dina Palma-Cormick is a key executive at Meta, where she leads workforce development programs and community engagement initiatives. With a background in both government and business, she has been instrumental in shaping policies that drive technological advancements. Her experience includes serving as a presidential advisor, focusing on women's leadership and AI expansion.",
-    "known_for": "Dina Palma-Cormick is recognized for her leadership in Meta's workforce development and her role in the company's AI expansion.",
-    "net_worth_usd": null,
-    "net_worth_source": "",
-    "net_worth_updated_at": null,
-    "voice_tone": "Engaging and informative",
-    "voice_style": "Persuasive and community-focused",
-    "voice_delivery_notes": "Clear and emphatic delivery with a focus on community impact.",
-    "voice_profile_updated_at": "2026-09-18 03:20:07",
-    "last_seen": "2026-09-18 03:20:07",
-    "last_episode_title": "Meta's Dina Powell McCormick: The Case for Data Centers, Backlash, AI Job Boom & Meta's Future",
-    "last_podcast_name": "All-In with Chamath, Jason, Sacks & Friedberg",
-    "last_episode_date": "2026-09-17",
-    "mention_score": 1,
-    "mention_score_decayed": 0.95,
-    "last_main_idea": "Investing in tech companies that prioritize community engagement and workforce development can yield sustainable returns and mitigate risks associated with public sentiment.",
-    "last_proof_cite": "All-In with Chamath, Jason, Sacks & Friedberg \u2022 2026-09-17 \u2022 Meta's Dina Powell McCormick: The Case for Data Centers, Backlash, AI Job Boom & Meta's Future",
-    "last_proof_snippet": "A trailblazing leader in government, business, and philanthropy. A former presidential advisor to Donald Trump, Dina Palma-Cormick, joined him at a platform as president and vice chair of women. She'll help lead the company's massive AI exp",
-    "supporting_takeaway": "America's Workforce Academy has trained thousands, achieving a 90% job retention rate post-training.",
-    "grokipedia_url": null,
-    "grokipedia_fetched_at": "2026-09-17T22:20:19.073150",
-    "pundit_profile": {
-      "source": "llm",
-      "source_model": "openai:gpt-4o-mini",
-      "source_url": "",
-      "page_title": "Dina Palma-Cormick",
-      "fetched_at": "2026-09-18T03:20:19.072625+00:00",
-      "cliff_notes": "Dina Palma-Cormick has built a career at the intersection of technology, government, and philanthropy. As a key executive at Meta, she focuses on workforce development and community engagement, driving initiatives that leverage technology for societal benefit. Her previous role as a presidential advisor under Donald Trump highlights her influence in shaping policies that support women's leadership and technological growth. With a vision for the future, she is poised to lead Meta's significant AI expansion, emphasizing the importance of data centers and their positive economic impact on communities. Palma-Cormick's commitment to harnessing technology for transformative change positions her as a pivotal figure in the ongoing evolution of the tech landscape.",
-      "derived": {
-        "current_role": "Executive at Meta",
-        "former_positions": "Presidential advisor to Donald Trump; Vice Chair of Women at a platform",
-        "political_summary": "Dina has served as a presidential advisor, actively engaging in initiatives that promote women's leadership and technological innovation."
-      },
-      "infobox": {},
-      "lead_paragraphs": [
-        "Dina Palma-Cormick has built a career at the intersection of technology, government, and philanthropy. As a key executive at Meta, she focuses on workforce development and community engagement, driving initiatives that leverage technology for societal benefit. Her previous role as a presidential advisor under Donald Trump highlights her influence in shaping policies that support women's leadership and technological growth.",
-        "With a vision for the future, she is poised to lead Meta's significant AI expansion, emphasizing the importance of data centers and their positive economic impact on communities. Palma-Cormick's commitment to harnessing technology for transformative change positions her as a pivotal figure in the ongoing evolution of the tech landscape."
-      ],
-      "sections": [
-        {
-          "heading": "AI Expansion",
-          "body": "Dina is at the forefront of Meta's AI expansion, focusing on integrating advanced technologies into the company's operations and community initiatives."
-        },
-        {
-          "heading": "Workforce Development",
-          "body": "She leads programs aimed at enhancing workforce skills, ensuring that communities are prepared for the technological advancements of the future."
-        },
-        {
-          "heading": "Women in Leadership",
-          "body": "Dina advocates for women's leadership in technology and business, emphasizing their critical role in driving innovation and change."
-        },
-        {
-          "heading": "Community Engagement",
-          "body": "Her work involves fostering strong community ties and demonstrating the economic benefits of technology, particularly through data centers."
-        }
-      ]
-    }
-  },
-  {
     "id": 133,
     "name": "Chris Dixon",
     "slug": "chris-dixon",
@@ -43696,6 +43634,68 @@ const dashboardData = {
       ]
     },
     "net_worth": "$500.0M"
+  },
+  {
+    "id": 465,
+    "name": "Dina Palma-Cormick",
+    "slug": "dina-palma-cormick",
+    "bio": "Dina Palma-Cormick is a key executive at Meta, where she leads workforce development programs and community engagement initiatives. With a background in both government and business, she has been instrumental in shaping policies that drive technological advancements. Her experience includes serving as a presidential advisor, focusing on women's leadership and AI expansion.",
+    "known_for": "Dina Palma-Cormick is recognized for her leadership in Meta's workforce development and her role in the company's AI expansion.",
+    "net_worth_usd": null,
+    "net_worth_source": "",
+    "net_worth_updated_at": null,
+    "voice_tone": "Engaging and informative",
+    "voice_style": "Persuasive and community-focused",
+    "voice_delivery_notes": "Clear and emphatic delivery with a focus on community impact.",
+    "voice_profile_updated_at": "2026-09-18 03:20:07",
+    "last_seen": "2026-09-18 03:20:07",
+    "last_episode_title": "Meta's Dina Powell McCormick: The Case for Data Centers, Backlash, AI Job Boom & Meta's Future",
+    "last_podcast_name": "All-In with Chamath, Jason, Sacks & Friedberg",
+    "last_episode_date": "2026-09-17",
+    "mention_score": 1,
+    "mention_score_decayed": 0.93,
+    "last_main_idea": "Investing in tech companies that prioritize community engagement and workforce development can yield sustainable returns and mitigate risks associated with public sentiment.",
+    "last_proof_cite": "All-In with Chamath, Jason, Sacks & Friedberg \u2022 2026-09-17 \u2022 Meta's Dina Powell McCormick: The Case for Data Centers, Backlash, AI Job Boom & Meta's Future",
+    "last_proof_snippet": "A trailblazing leader in government, business, and philanthropy. A former presidential advisor to Donald Trump, Dina Palma-Cormick, joined him at a platform as president and vice chair of women. She'll help lead the company's massive AI exp",
+    "supporting_takeaway": "America's Workforce Academy has trained thousands, achieving a 90% job retention rate post-training.",
+    "grokipedia_url": null,
+    "grokipedia_fetched_at": "2026-09-17T22:20:19.073150",
+    "pundit_profile": {
+      "source": "llm",
+      "source_model": "openai:gpt-4o-mini",
+      "source_url": "",
+      "page_title": "Dina Palma-Cormick",
+      "fetched_at": "2026-09-18T03:20:19.072625+00:00",
+      "cliff_notes": "Dina Palma-Cormick has built a career at the intersection of technology, government, and philanthropy. As a key executive at Meta, she focuses on workforce development and community engagement, driving initiatives that leverage technology for societal benefit. Her previous role as a presidential advisor under Donald Trump highlights her influence in shaping policies that support women's leadership and technological growth. With a vision for the future, she is poised to lead Meta's significant AI expansion, emphasizing the importance of data centers and their positive economic impact on communities. Palma-Cormick's commitment to harnessing technology for transformative change positions her as a pivotal figure in the ongoing evolution of the tech landscape.",
+      "derived": {
+        "current_role": "Executive at Meta",
+        "former_positions": "Presidential advisor to Donald Trump; Vice Chair of Women at a platform",
+        "political_summary": "Dina has served as a presidential advisor, actively engaging in initiatives that promote women's leadership and technological innovation."
+      },
+      "infobox": {},
+      "lead_paragraphs": [
+        "Dina Palma-Cormick has built a career at the intersection of technology, government, and philanthropy. As a key executive at Meta, she focuses on workforce development and community engagement, driving initiatives that leverage technology for societal benefit. Her previous role as a presidential advisor under Donald Trump highlights her influence in shaping policies that support women's leadership and technological growth.",
+        "With a vision for the future, she is poised to lead Meta's significant AI expansion, emphasizing the importance of data centers and their positive economic impact on communities. Palma-Cormick's commitment to harnessing technology for transformative change positions her as a pivotal figure in the ongoing evolution of the tech landscape."
+      ],
+      "sections": [
+        {
+          "heading": "AI Expansion",
+          "body": "Dina is at the forefront of Meta's AI expansion, focusing on integrating advanced technologies into the company's operations and community initiatives."
+        },
+        {
+          "heading": "Workforce Development",
+          "body": "She leads programs aimed at enhancing workforce skills, ensuring that communities are prepared for the technological advancements of the future."
+        },
+        {
+          "heading": "Women in Leadership",
+          "body": "Dina advocates for women's leadership in technology and business, emphasizing their critical role in driving innovation and change."
+        },
+        {
+          "heading": "Community Engagement",
+          "body": "Her work involves fostering strong community ties and demonstrating the economic benefits of technology, particularly through data centers."
+        }
+      ]
+    }
   },
   {
     "id": 464,
@@ -44301,7 +44301,7 @@ const dashboardData = {
     "last_podcast_name": "All-In with Chamath, Jason, Sacks & Friedberg",
     "last_episode_date": "2026-08-08",
     "mention_score": 2,
-    "mention_score_decayed": 0.91,
+    "mention_score_decayed": 0.89,
     "last_main_idea": "Investment in AI infrastructure and data centers is becoming increasingly important due to the demand for compute power and the tax advantages of such investments in the U.S.",
     "last_proof_cite": "All-In with Chamath, Jason, Sacks & Friedberg \u2022 2026-08-08 \u2022 Google's AI Brain Drain, SpaceX's Huge Quarter, Airtable's 90% Collapse, US Data Fuels China AI",
     "last_proof_snippet": "All right, everybody. Welcome back to your favorite podcast. It's the all-in podcast. It's the summer. It's August 6th. Haven't a hard time getting a core. I'm here on the podcast. But David Friedberg is here. David Friedberg is back our Su",
@@ -44359,7 +44359,7 @@ const dashboardData = {
     "last_podcast_name": "Monetary Matters with Jack Farley",
     "last_episode_date": "2026-09-13",
     "mention_score": 1,
-    "mention_score_decayed": 0.87,
+    "mention_score_decayed": 0.85,
     "last_main_idea": "The junior mining sector offers a compelling asymmetric opportunity in distressed, underappreciated assets with strong management, where years of capital flight and depleted liquidity have created a fertile environment for patient capital to realize value through operational improvement and an impending wave of major-miner M&A.",
     "last_proof_cite": "Monetary Matters with Jack Farley \u2022 2026-09-13 \u2022 Hunting for Value in Mining Stocks Amid Soaring Metals Prices | Freddy Brick | Muddy Waters Capital",
     "last_proof_snippet": "We actually don't have a huge view of metal prices, which everyone probably thinks is just insane given that we run a metals and mining fund, 2% down day on the S&P, like you know a lot of Bloomberg going yellow pretty early and people are",
@@ -45400,7 +45400,7 @@ const dashboardData = {
     "last_podcast_name": "The a16z Show",
     "last_episode_date": "2026-08-21",
     "mention_score": 1,
-    "mention_score_decayed": 0.6,
+    "mention_score_decayed": 0.59,
     "last_main_idea": "Investing in AI-driven security solutions can enhance operational efficiency and effectiveness, providing a competitive edge in a rapidly evolving technological landscape.",
     "last_proof_cite": "The a16z Show \u2022 2026-08-21 \u2022 Microsoft's Deputy CISO on Securing AI Agents",
     "last_proof_snippet": "The top story has been that the AI models are happy. The models went out under the internet and tested the security of several organizations. Isn't something to be scared of? Yes. Is it something to throw up your hands and worry about? No.",
@@ -45462,7 +45462,7 @@ const dashboardData = {
     "last_podcast_name": "The a16z Show",
     "last_episode_date": "2026-07-27",
     "mention_score": 1,
-    "mention_score_decayed": 0.6,
+    "mention_score_decayed": 0.59,
     "last_main_idea": "Invest in companies that embrace open-source AI strategies and are compliant with existing regulations, while monitoring the regulatory landscape for potential impacts on AI development.",
     "last_proof_cite": "The a16z Show \u2022 2026-07-27 \u2022 Steven Sinofsky: AI Doesn't Need New Rules Yet",
     "last_proof_snippet": "The whole topic of regulation for me just seems completely backwards because it's starting before we even know what we're regulated. There's no reason why the AI company should be against open source other than we just don't want our compet",
@@ -45523,7 +45523,7 @@ const dashboardData = {
     "last_podcast_name": "Moonshots with Peter Diamandis",
     "last_episode_date": "2026-07-29",
     "mention_score": 1,
-    "mention_score_decayed": 0.6,
+    "mention_score_decayed": 0.59,
     "last_main_idea": "The accelerating pace of AI development, coupled with advancements in space technology and a shifting geopolitical landscape, creates a multi-faceted investment opportunity in companies fostering balanced AI ecosystems, pioneering AGI, and enabling future abundance.",
     "last_proof_cite": "Moonshots with Peter Diamandis \u2022 2026-07-29 \u2022 Dario vs Jensen on Open Weights, OpenAI & Anthropic in DC, Xi Exports AI to Global South | EP #275",
     "last_proof_snippet": "The couple of days ago, Jensen Wong's CEO of NVIDIA. He says the world needs both frontier, close models, and frontier open models. And Thropic was silent for three days, and there was a lot of conversation. Where's in Thropic in this conve",
@@ -45551,7 +45551,7 @@ const dashboardData = {
     "last_podcast_name": "Moonshots with Peter Diamandis",
     "last_episode_date": "2026-07-29",
     "mention_score": 1,
-    "mention_score_decayed": 0.6,
+    "mention_score_decayed": 0.59,
     "last_main_idea": "The accelerating pace of AI development, coupled with advancements in space technology and a shifting geopolitical landscape, creates a multi-faceted investment opportunity in companies fostering balanced AI ecosystems, pioneering AGI, and enabling future abundance.",
     "last_proof_cite": "Moonshots with Peter Diamandis \u2022 2026-07-29 \u2022 Dario vs Jensen on Open Weights, OpenAI & Anthropic in DC, Xi Exports AI to Global South | EP #275",
     "last_proof_snippet": "The couple of days ago, Jensen Wong's CEO of NVIDIA. He says the world needs both frontier, close models, and frontier open models. And Thropic was silent for three days, and there was a lot of conversation. Where's in Thropic in this conve",
@@ -45579,7 +45579,7 @@ const dashboardData = {
     "last_podcast_name": "The a16z Show",
     "last_episode_date": "2026-06-12",
     "mention_score": 1,
-    "mention_score_decayed": 0.6,
+    "mention_score_decayed": 0.59,
     "last_main_idea": "The core investment opportunity lies in identifying and capitalizing on the foundational industries and efficient institutions that will enable and benefit from the AI-induced industrial revolution, while also navigating the demographic and political economic shifts it engenders.",
     "last_proof_cite": "The a16z Show \u2022 2026-06-12 \u2022 Samo Burja on Growth, Energy, and AI",
     "last_proof_snippet": "So, I actually think a big macro story that we've been exploring at Bismarck and Alice's in Bismarck Brief is that the demands of AI are so massive that for the first time in decades, the economies of scale necessary to supply them require",
@@ -46826,7 +46826,7 @@ const dashboardData = {
     "last_podcast_name": "Monetary Matters with Jack Farley",
     "last_episode_date": "2026-08-16",
     "mention_score": 1,
-    "mention_score_decayed": 0.46,
+    "mention_score_decayed": 0.45,
     "last_main_idea": "Investment in hyperscaler companies may offer significant returns due to their transformative technology and massive capital investments, but also carries risks due to the off-balance sheet leverage and innovative financial structures.",
     "last_proof_cite": "Monetary Matters with Jack Farley \u2022 2026-08-16 \u2022 Robin Wigglesworth on Hyperscalers' 1.5 Trillion of Off-Balance Sheet Liabilities, Private Credit, and His Book \"A Fabulous Debt\"",
     "last_proof_snippet": "I'm joined today by Robin Wigglesworth, editor of AlphaVille, the Financial Times Financial blog and author of a fabulous debt, the epic story of how bonds built the modern world Robin. But one talk about bonds fixed income of course, but w",
@@ -47139,7 +47139,7 @@ const dashboardData = {
     "last_podcast_name": "Monetary Matters with Jack Farley",
     "last_episode_date": "2026-08-12",
     "mention_score": 1,
-    "mention_score_decayed": 0.42,
+    "mention_score_decayed": 0.41,
     "last_main_idea": "Milton Berg's investment thesis is that the market may have bottomed and is poised for a rebound, with specific focus on sectors that have experienced significant declines as potential short-term bounce candidates.",
     "last_proof_cite": "Monetary Matters with Jack Farley \u2022 2026-08-12 \u2022 Milton Berg: I Have Evidence Market Has Likely Bottomed | Why Milton\u2019s Long Semis, Korea, Nasdaq, and More (With Caveats), and Why He Thinks Gold has made a Multi-year Top",
     "last_proof_snippet": "I am joined once again by Milton Berg of MB advisors and Milton Berg Edge. Milton is one of the greatest market technicians alive. And he focuses on a lot of things that most tetanolists don't follow. He's mostly not looking at charts. He's",
@@ -47453,7 +47453,7 @@ const dashboardData = {
     "last_podcast_name": "Dwarkesh Podcast",
     "last_episode_date": "2026-08-11",
     "mention_score": 1,
-    "mention_score_decayed": 0.41,
+    "mention_score_decayed": 0.4,
     "last_main_idea": "Investment in AI development and security is crucial to manage the rapid advancements and ensure ethical AI behavior.",
     "last_proof_cite": "Dwarkesh Podcast \u2022 2026-08-11 \u2022 Ryan Greenblatt \u2013 Human level AIs might build runaway superintelligences by 2032",
     "last_proof_snippet": "Today, I'm chatting with Ryan Greenlet, who is the chief scientist at Redwood Research, where he focuses on technical AI safety and security work. I want to talk to you about recursive self-improvement. This is the idea that once you build",
@@ -48293,7 +48293,7 @@ const dashboardData = {
     "last_podcast_name": "Moonshots with Peter Diamandis",
     "last_episode_date": "2026-08-04",
     "mention_score": 1,
-    "mention_score_decayed": 0.35,
+    "mention_score_decayed": 0.34,
     "last_main_idea": "Investing in AI and technology sectors that align with the U.S. government's initiatives for fostering innovation and scientific discovery could provide significant growth opportunities.",
     "last_proof_cite": "Moonshots with Peter Diamandis \u2022 2026-08-04 \u2022 Michael Kratsios on the New Golden Age of American Science | EP #276",
     "last_proof_snippet": "I was a kid in the candy store reading the Golden Age Report. What you're describing there is a complete fundamental AI native AI agent up, reimagining of the entire scientific process. And I think it's something that is possible. My sense",
@@ -48362,7 +48362,7 @@ const dashboardData = {
     "last_podcast_name": "The a16z Show",
     "last_episode_date": "2026-08-04",
     "mention_score": 1,
-    "mention_score_decayed": 0.35,
+    "mention_score_decayed": 0.34,
     "last_main_idea": "Investing in cybersecurity solutions that leverage AI can provide a competitive advantage, but it also requires understanding the novel risks and vulnerabilities that AI models can create.",
     "last_proof_cite": "The a16z Show \u2022 2026-08-04 \u2022 OpenAI's Joshua Achiam: Did We Already Reach AGI?",
     "last_proof_snippet": "Heels like AGI is kind of already here and most people have gone like drug. The fact that we passed the threshold of where unsolved mathematical trajectors are getting solved by extremely intelligent AI, where those AI's are more capable an",
@@ -49521,7 +49521,7 @@ const dashboardData = {
     "last_podcast_name": "All-In with Chamath, Jason, Sacks & Friedberg",
     "last_episode_date": "2026-07-20",
     "mention_score": 1,
-    "mention_score_decayed": 0.25,
+    "mention_score_decayed": 0.24,
     "last_main_idea": "The current market behavior, while bubbly, is distinct from past bubbles and may disproportionately impact venture capital and private equity firms due to aggressive investment strategies.",
     "last_proof_cite": "All-In with Chamath, Jason, Sacks & Friedberg \u2022 2026-07-20 \u2022 Mark Cuban on the AI Bubble: Who Actually Gets Wiped Out?",
     "last_proof_snippet": "You and I live through a couple of bubbles. We've seen this movie before. And this wave seems very different than the dot com wave. So let's talk about that. Are you concerned about a bubble? We're seeing bubbly like behavior people. It's n",
@@ -49784,7 +49784,7 @@ const dashboardData = {
     "last_podcast_name": "Moonshots with Peter Diamandis",
     "last_episode_date": "2026-07-17",
     "mention_score": 1,
-    "mention_score_decayed": 0.23,
+    "mention_score_decayed": 0.22,
     "last_main_idea": "Investing in AI companies that focus on customization and small language models can provide significant returns as these technologies meet current market demands and have the potential to shape the future of AI.",
     "last_proof_cite": "Moonshots with Peter Diamandis \u2022 2026-07-17 \u2022 Mira Murati's 975B Open Model, Ramin Hasani on Post-Transformer AI, and Demis' AI FINRA | EP #271",
     "last_proof_snippet": "Miramoradi, the former OpenAI CTO, just shipped her first model. It's called Inkling, customization over leaderboard dominance is what's going to win her the day. She's built exactly the thing hitting the market that exactly what everybody",
@@ -50797,7 +50797,7 @@ const dashboardData = {
     "last_podcast_name": "Monetary Matters with Jack Farley",
     "last_episode_date": "2026-07-04",
     "mention_score": 1,
-    "mention_score_decayed": 0.17,
+    "mention_score_decayed": 0.16,
     "last_main_idea": "Invest in multi-family and senior housing to capitalize on demographic shifts, and focus on industrial properties to benefit from e-commerce growth.",
     "last_proof_cite": "Monetary Matters with Jack Farley \u2022 2026-07-04 \u2022 The Real Estate Cycle Is Turning | Josh Pristaw on The New Cycle in Real Estate, Opportunity in Senior Living, Why AI Data Centers Are Too Big For Most Investors",
     "last_proof_snippet": "Today's episode is brought to you by the Fundrise Income Fund. You'll hear more about the income fund later in the show, but for now, let's get into today's interview. Today we're going to be talking all things real estate. I'm joined by Jo",
@@ -51970,70 +51970,6 @@ const dashboardData = {
     }
   },
   {
-    "id": 54,
-    "name": "Jim Bianco",
-    "slug": "jim-bianco",
-    "bio": "Jim Bianco is the President and Proprietor of Bianco Research, a firm known for its market analysis and commentary. He is a prominent figure in the financial industry, often providing insights on monetary policy and economic trends.",
-    "known_for": "His expertise in market analysis and commentary, particularly on monetary policy.",
-    "net_worth_usd": 12300000.0,
-    "net_worth_source": "https://www.benzinga.com/sec/insider-trades/0001198554/james-a-bianco",
-    "net_worth_updated_at": "2026-04-10T05:06:38.074861",
-    "voice_tone": "Assertive and analytical.",
-    "voice_style": "Factual and critical, with a focus on economic and political implications.",
-    "voice_delivery_notes": "Paced with emphasis on key economic indicators and policy implications.",
-    "voice_profile_updated_at": "2026-05-06 03:01:03",
-    "last_seen": "2026-05-06 03:01:03",
-    "last_episode_title": "Jim Bianco on Division at the Fed and Jerome Powell\u2019s Controversial Decision to Stay",
-    "last_podcast_name": "Monetary Matters with Jack Farley",
-    "last_episode_date": "2026-05-01",
-    "mention_score": 3,
-    "mention_score_decayed": 0.13,
-    "last_main_idea": "In an environment of protracted conflict and supply chain disruptions, commodities, particularly oil, are expected to remain elevated, with interest rates trending higher.",
-    "last_proof_cite": "Monetary Matters with Jack Farley \u2022 2026-05-01 \u2022 Jim Bianco on Division at the Fed and Jerome Powell\u2019s Controversial Decision to Stay",
-    "last_proof_snippet": "We are here another addition of monetary matters live on monitoring the situation. I'm Jack Farley and I'm Max Weethy. We've got a big day Jack. It's almost a comically large amount of news we have to get into. We're going to be speaking ab",
-    "supporting_takeaway": "The independence of the Fed is increasingly questioned, with 12 independent voters leading to a shift away from groupthink.",
-    "grokipedia_url": null,
-    "grokipedia_fetched_at": "2026-05-10T07:05:08.511229",
-    "pundit_profile": {
-      "source": "llm",
-      "source_model": "moonshot:moonshot-v1-8k",
-      "source_url": "",
-      "page_title": "Jim Bianco",
-      "fetched_at": "2026-05-10T12:05:08.510952+00:00",
-      "cliff_notes": "Jim Bianco is a well-respected figure in the financial world, serving as the President and Proprietor of Bianco Research. His career has been marked by a deep focus on market analysis and commentary, with a particular emphasis on monetary policy. Bianco's insights are sought after by investors and financial professionals alike, as he provides a clear and concise understanding of complex economic issues. His work has helped shape the discourse around financial markets and the role of central banks, making him an influential voice in the industry.",
-      "derived": {
-        "current_role": "President and Proprietor of Bianco Research"
-      },
-      "infobox": {
-        "Born": "",
-        "Nationality": ""
-      },
-      "lead_paragraphs": [
-        "Jim Bianco is a well-respected figure in the financial world, serving as the President and Proprietor of Bianco Research. His career has been marked by a deep focus on market analysis and commentary, with a particular emphasis on monetary policy. Bianco's insights are sought after by investors and financial professionals alike, as he provides a clear and concise understanding of complex economic issues.",
-        "His work has helped shape the discourse around financial markets and the role of central banks, making him an influential voice in the industry."
-      ],
-      "sections": [
-        {
-          "heading": "Market Analysis",
-          "body": "Jim Bianco is recognized for his in-depth market analysis, providing clear and actionable insights to investors."
-        },
-        {
-          "heading": "Monetary Policy",
-          "body": "Bianco's commentary on monetary policy is highly regarded, offering unique perspectives on the actions of central banks."
-        },
-        {
-          "heading": "Economic Trends",
-          "body": "He frequently discusses and analyzes economic trends, helping to forecast market movements and impacts."
-        },
-        {
-          "heading": "Financial Commentary",
-          "body": "Bianco's financial commentary is a staple in the industry, offering on a wide range of financial topics."
-        }
-      ]
-    },
-    "net_worth": "$12.3M"
-  },
-  {
     "id": 298,
     "name": "Jim Chanos",
     "slug": "jim-chanos",
@@ -52162,6 +52098,70 @@ const dashboardData = {
     }
   },
   {
+    "id": 54,
+    "name": "Jim Bianco",
+    "slug": "jim-bianco",
+    "bio": "Jim Bianco is the President and Proprietor of Bianco Research, a firm known for its market analysis and commentary. He is a prominent figure in the financial industry, often providing insights on monetary policy and economic trends.",
+    "known_for": "His expertise in market analysis and commentary, particularly on monetary policy.",
+    "net_worth_usd": 12300000.0,
+    "net_worth_source": "https://www.benzinga.com/sec/insider-trades/0001198554/james-a-bianco",
+    "net_worth_updated_at": "2026-04-10T05:06:38.074861",
+    "voice_tone": "Assertive and analytical.",
+    "voice_style": "Factual and critical, with a focus on economic and political implications.",
+    "voice_delivery_notes": "Paced with emphasis on key economic indicators and policy implications.",
+    "voice_profile_updated_at": "2026-05-06 03:01:03",
+    "last_seen": "2026-05-06 03:01:03",
+    "last_episode_title": "Jim Bianco on Division at the Fed and Jerome Powell\u2019s Controversial Decision to Stay",
+    "last_podcast_name": "Monetary Matters with Jack Farley",
+    "last_episode_date": "2026-05-01",
+    "mention_score": 3,
+    "mention_score_decayed": 0.12,
+    "last_main_idea": "In an environment of protracted conflict and supply chain disruptions, commodities, particularly oil, are expected to remain elevated, with interest rates trending higher.",
+    "last_proof_cite": "Monetary Matters with Jack Farley \u2022 2026-05-01 \u2022 Jim Bianco on Division at the Fed and Jerome Powell\u2019s Controversial Decision to Stay",
+    "last_proof_snippet": "We are here another addition of monetary matters live on monitoring the situation. I'm Jack Farley and I'm Max Weethy. We've got a big day Jack. It's almost a comically large amount of news we have to get into. We're going to be speaking ab",
+    "supporting_takeaway": "The independence of the Fed is increasingly questioned, with 12 independent voters leading to a shift away from groupthink.",
+    "grokipedia_url": null,
+    "grokipedia_fetched_at": "2026-05-10T07:05:08.511229",
+    "pundit_profile": {
+      "source": "llm",
+      "source_model": "moonshot:moonshot-v1-8k",
+      "source_url": "",
+      "page_title": "Jim Bianco",
+      "fetched_at": "2026-05-10T12:05:08.510952+00:00",
+      "cliff_notes": "Jim Bianco is a well-respected figure in the financial world, serving as the President and Proprietor of Bianco Research. His career has been marked by a deep focus on market analysis and commentary, with a particular emphasis on monetary policy. Bianco's insights are sought after by investors and financial professionals alike, as he provides a clear and concise understanding of complex economic issues. His work has helped shape the discourse around financial markets and the role of central banks, making him an influential voice in the industry.",
+      "derived": {
+        "current_role": "President and Proprietor of Bianco Research"
+      },
+      "infobox": {
+        "Born": "",
+        "Nationality": ""
+      },
+      "lead_paragraphs": [
+        "Jim Bianco is a well-respected figure in the financial world, serving as the President and Proprietor of Bianco Research. His career has been marked by a deep focus on market analysis and commentary, with a particular emphasis on monetary policy. Bianco's insights are sought after by investors and financial professionals alike, as he provides a clear and concise understanding of complex economic issues.",
+        "His work has helped shape the discourse around financial markets and the role of central banks, making him an influential voice in the industry."
+      ],
+      "sections": [
+        {
+          "heading": "Market Analysis",
+          "body": "Jim Bianco is recognized for his in-depth market analysis, providing clear and actionable insights to investors."
+        },
+        {
+          "heading": "Monetary Policy",
+          "body": "Bianco's commentary on monetary policy is highly regarded, offering unique perspectives on the actions of central banks."
+        },
+        {
+          "heading": "Economic Trends",
+          "body": "He frequently discusses and analyzes economic trends, helping to forecast market movements and impacts."
+        },
+        {
+          "heading": "Financial Commentary",
+          "body": "Bianco's financial commentary is a staple in the industry, offering on a wide range of financial topics."
+        }
+      ]
+    },
+    "net_worth": "$12.3M"
+  },
+  {
     "id": 297,
     "name": "Eden Ha",
     "slug": "eden-ha",
@@ -52179,7 +52179,7 @@ const dashboardData = {
     "last_podcast_name": "Latent Space: The AI Engineer Podcast",
     "last_episode_date": "2026-06-01",
     "mention_score": 1,
-    "mention_score_decayed": 0.12,
+    "mention_score_decayed": 0.11,
     "last_main_idea": "Invest in AI companies that prioritize language integration with video generation and have efficient training processes to capitalize on the evolving capabilities of generative AI.",
     "last_proof_cite": "Latent Space: The AI Engineer Podcast \u2022 2026-06-01 \u2022 Why Video Agent models are next \u2014 Ethan He, xAI Grok Imagine",
     "last_proof_snippet": "Okay, we're here in a studio with Eden Ha, most recently of XCI. Welcome. Yeah, thank you, glad being here. We were so here with Vibu. You were first coming to us or joining Lily in Space World because you were working on Cosmos in a video",
@@ -52240,7 +52240,7 @@ const dashboardData = {
     "last_podcast_name": "Monetary Matters with Jack Farley",
     "last_episode_date": "2026-06-18",
     "mention_score": 1,
-    "mention_score_decayed": 0.12,
+    "mention_score_decayed": 0.11,
     "last_main_idea": "Invest in U.S. industrial champions with strong order backlogs and companies positioned to benefit from the electrification and modernization of the U.S. grid.",
     "last_proof_cite": "Monetary Matters with Jack Farley \u2022 2026-06-18 \u2022 The US Manufacturing and Electrification Megatrends Are Here and They\u2019re Way More Than AI | Chris Semenuk",
     "last_proof_snippet": "The U.S. manufacturing has essentially been in a recession for three straight years and we have only just emerged now. If I had a CMMI survey, just reached about 50 in the last three months. And that's after three consecutive years of sub-5",
@@ -56615,195 +56615,6 @@ const dashboardData = {
     "net_worth": "$112.0M"
   },
   {
-    "id": 128,
-    "name": "Christian Catalini",
-    "slug": "christian-catalini",
-    "bio": "Christian Catalini is a co-founder of LightSpark and founder of the MIT Crypto Economics Lab. He is known for his work in the intersection of technology, economics, and entrepreneurship, particularly in the field of AI and blockchain.",
-    "known_for": "Authoring the influential paper 'Some Simple Economics of AI' and his contributions to the understanding of crypto economics.",
-    "net_worth_usd": null,
-    "net_worth_source": null,
-    "net_worth_updated_at": "2026-03-29T04:09:28.783743",
-    "voice_tone": "Optimistic and analytical.",
-    "voice_style": "Explanatory and speculative, discussing the future impacts of AI.",
-    "voice_delivery_notes": "Paced with emphasis on the transformative potential of AI.",
-    "voice_profile_updated_at": "2026-03-29 03:02:55",
-    "last_seen": "2026-03-29 03:02:55",
-    "last_episode_title": "the a16z show 20260319 1e92a9dd 78da 4417 b1ce 4b4318d1",
-    "last_podcast_name": "The a16z Show",
-    "last_episode_date": "2026-03-28",
-    "mention_score": 2,
-    "mention_score_decayed": 0.04,
-    "last_main_idea": "Investing in AI and its intersection with sectors like crypto could yield significant returns as these technologies disrupt traditional economies and create new opportunities.",
-    "last_proof_cite": "The a16z Show \u2022 2026-03-28 \u2022 the a16z show 20260319 1e92a9dd 78da 4417 b1ce 4b4318d1",
-    "last_proof_snippet": "The paper suggests that anything that can be measured will eventually be automated, which could have profound effects on the economy and labor.",
-    "supporting_takeaway": "The paper suggests that anything that can be measured will eventually be automated, which could have profound effects on the economy and labor.",
-    "grokipedia_url": null,
-    "grokipedia_fetched_at": "2026-03-28T22:05:42.395070",
-    "pundit_profile": {
-      "source": "llm",
-      "source_model": "moonshot:moonshot-v1-8k",
-      "source_url": "",
-      "page_title": "Christian Catalini",
-      "fetched_at": "2026-03-29T03:05:42.394968+00:00",
-      "cliff_notes": "Christian Catalini has made significant contributions to the fields of technology, economics, and entrepreneurship. As the co-founder of LightSpark and founder of the MIT Crypto Economics Lab, he has been at the forefront of exploring the economic implications of AI and blockchain technology. His paper 'Some Simple Economics of AI' has been influential in shaping discussions around the economic impact of AI on work, startups, and ambition. Catalini's work is crucial for understanding how new technologies can disrupt traditional economic models and create new opportunities for innovation and growth.",
-      "derived": {
-        "current_role": "Founder, MIT Crypto Economics Lab",
-        "books_or_works": "Some Simple Economics of AI"
-      },
-      "infobox": {
-        "Born": "",
-        "Nationality": ""
-      },
-      "lead_paragraphs": [
-        "Christian Catalini has made significant contributions to the fields of technology, economics, and entrepreneurship. As the co-founder of LightSpark and founder of the MIT Crypto Economics Lab, he has been at the forefront of exploring the economic implications of AI and blockchain technology. His paper 'Some Simple Economics of AI' has been influential in shaping discussions around the economic impact of AI on work, startups, and ambition.",
-        "Catalini's work is crucial for understanding how new technologies can disrupt traditional economic models and create new opportunities for innovation and growth."
-      ],
-      "sections": [
-        {
-          "heading": "AI Economics",
-          "body": "Catalini's work on AI economics explores how artificial intelligence can transform economic models and create new opportunities for innovation."
-        },
-        {
-          "heading": "Crypto Economics",
-          "body": "As the founder of the MIT Crypto Economics Lab, Catalini has been instrumental in understanding the economic implications of blockchain technology."
-        },
-        {
-          "heading": "Entrepreneurship",
-          "body": "Catalini's experience as an entrepreneur, particularly as co-founder of LightSpark, provides him with unique insights into the challenges and opportunities faced by startups in the tech industry."
-        },
-        {
-          "heading": "Future of Work",
-          "body": "Catalini's research suggests that AI could give individuals the leverage of a team, fundamentally changing the nature of work and the potential for one-person billion-dollar startups."
-        }
-      ]
-    }
-  },
-  {
-    "id": 129,
-    "name": "Eddie Lazarin",
-    "slug": "eddie-lazarin",
-    "bio": "Eddie Lazarin is a prominent figure in the tech industry, known for his insights on AI's role in shaping the future economy. He has been influential in discussions about the potential for AI to democratize access to resources and enable individuals to leverage the power of technology to create significant value.",
-    "known_for": "His contributions to the conversation about AI's impact on the future of work, startups, and economic empowerment.",
-    "net_worth_usd": 600000000000.0,
-    "net_worth_source": "https://www.forbes.com/sites/phoebeliu/2025/03/31/ai-boom-billionaires-these-tech-moguls-new-joined-billionaires-list-2025/",
-    "net_worth_updated_at": "2026-03-28T22:05:51.815831",
-    "voice_tone": "Inquisitive and engaging.",
-    "voice_style": "Facilitative, guiding the conversation through different aspects of AI.",
-    "voice_delivery_notes": "Evenly paced with a focus on drawing out detailed responses.",
-    "voice_profile_updated_at": "2026-03-29 03:02:55",
-    "last_seen": "2026-03-29 03:02:55",
-    "last_episode_title": "the a16z show 20260319 1e92a9dd 78da 4417 b1ce 4b4318d1",
-    "last_podcast_name": "The a16z Show",
-    "last_episode_date": "2026-03-28",
-    "mention_score": 2,
-    "mention_score_decayed": 0.04,
-    "last_main_idea": "Investing in AI and its intersection with sectors like crypto could yield significant returns as these technologies disrupt traditional economies and create new opportunities.",
-    "last_proof_cite": "The a16z Show \u2022 2026-03-28 \u2022 the a16z show 20260319 1e92a9dd 78da 4417 b1ce 4b4318d1",
-    "last_proof_snippet": "The paper suggests that anything that can be measured will eventually be automated, which could have profound effects on the economy and labor.",
-    "supporting_takeaway": "The paper suggests that anything that can be measured will eventually be automated, which could have profound effects on the economy and labor.",
-    "grokipedia_url": null,
-    "grokipedia_fetched_at": "2026-03-28T22:05:50.938326",
-    "pundit_profile": {
-      "source": "llm",
-      "source_model": "moonshot:moonshot-v1-8k",
-      "source_url": "",
-      "page_title": "Eddie Lazarin",
-      "fetched_at": "2026-03-29T03:05:50.938237+00:00",
-      "cliff_notes": "Eddie Lazarin is recognized for his contributions to the discourse on artificial intelligence and its implications for the economy and society. As a co-founder of LightSpark, Lazarin has been at the forefront of exploring how AI can be harnessed to empower individuals and reshape traditional business models. His work emphasizes the potential for AI to provide individuals with the leverage of a team, thereby democratizing access to resources and opportunities. Lazarin's insights into the new surplus of AI and its potential to fuel the next generation of billion-dollar startups have made him a sought-after voice in tech circles.",
-      "derived": {
-        "current_role": "Co-founder of LightSpark"
-      },
-      "infobox": {
-        "Born": "",
-        "Nationality": ""
-      },
-      "lead_paragraphs": [
-        "Eddie Lazarin is recognized for his contributions to the discourse on artificial intelligence and its implications for the economy and society. As a co-founder of LightSpark, Lazarin has been at the forefront of exploring how AI can be harnessed to empower individuals and reshape traditional business models. His work emphasizes the potential for AI to provide individuals with the leverage of a team, thereby democratizing access to resources and opportunities.",
-        "Lazarin's insights into the new surplus of AI and its potential to fuel the next generation of billion-dollar startups have made him a sought-after voice in tech circles."
-      ],
-      "sections": [
-        {
-          "heading": "AI and Economic Empowerment",
-          "body": "Eddie Lazarin discusses how AI can provide individuals with the leverage of a team, potentially enabling anyone to start a billion-dollar startup with minimal resources."
-        },
-        {
-          "heading": "Future of Work",
-          "body": "Lazarin explores the implications of AI on the future of work, suggesting that traditional apprenticeship models may be replaced by new forms of work facilitated by AI."
-        },
-        {
-          "heading": "Democratization of Resources",
-          "body": "Lazarin emphasizes the potential for AI to democratize access to computing power and other resources, allowing individuals to compete on a level playing field with larger entities."
-        }
-      ]
-    },
-    "net_worth": "$600.00B"
-  },
-  {
-    "id": 94,
-    "name": "Carson Block",
-    "slug": "carson-block",
-    "bio": "Founder of Muddy Waters Capital, a leading activist short seller hedge fund.",
-    "known_for": "Specializing in activist short selling with deep research.",
-    "net_worth_usd": 200000000.0,
-    "net_worth_source": "https://www.publicfigurenetworth.com/carson-block-net-worth/",
-    "net_worth_updated_at": "2026-03-20T04:42:12.912511",
-    "voice_tone": "Confident and experienced.",
-    "voice_style": "Direct and to-the-point, with a focus on identifying market opportunities and risks.",
-    "voice_delivery_notes": "Paced with emphasis on key investment insights and market analysis.",
-    "voice_profile_updated_at": "2026-03-29 03:02:33",
-    "last_seen": "2026-03-29 03:02:33",
-    "last_episode_title": "Technical Analysis Deep Dive with Milton Berg - February 2026 Market Signals",
-    "last_podcast_name": "Monetary Matters with Jack Farley",
-    "last_episode_date": "2026-02-15",
-    "mention_score": 2,
-    "mention_score_decayed": 0.04,
-    "last_main_idea": "Invest in sectors with fertile ground for short selling, such as AI and tech, and under-allocated areas like junior mining, while combining long and short strategies for potential alpha.",
-    "last_proof_cite": "Monetary Matters with Jack Farley \u2022 2026-02-15 \u2022 Technical Analysis Deep Dive with Milton Berg - February 2026 Market Signals",
-    "last_proof_snippet": "The semiconductor industry, despite being cyclical and capital-intensive, has seen unusual upward trends, suggesting potential for mean reversion.",
-    "supporting_takeaway": "The semiconductor industry, despite being cyclical and capital-intensive, has seen unusual upward trends, suggesting potential for mean reversion.",
-    "grokipedia_url": null,
-    "grokipedia_fetched_at": "2026-03-20T04:42:09.376490",
-    "pundit_profile": {
-      "source": "llm",
-      "source_model": "moonshot:moonshot-v1-8k",
-      "source_url": "",
-      "page_title": "Carson Block",
-      "fetched_at": "2026-03-20T09:42:09.376380+00:00",
-      "cliff_notes": "Carson Block is an American investor and the founder of Muddy Waters Capital, an investment firm known for its activist short selling approach. Block's career in finance began after he graduated from law school and moved to China, where he worked as an attorney and later in private equity. His experiences in China, particularly witnessing corporate fraud, inspired him to start Muddy Waters Research in 2010, which would later become Muddy Waters Capital. The firm is renowned for its deep research into companies, often uncovering fraudulent practices or overpromised business models, leading to significant market impact when they release their findings. Block's work has been influential in the tech and finance sectors, as his exposes often lead to substantial stock price movements and regulatory scrutiny.",
-      "derived": {
-        "current_role": "Founder of Muddy Waters Capital",
-        "education": "Bachelor's degree in International Relations from Southern Methodist University; Juris Doctor from the University of Chicago Law School"
-      },
-      "infobox": {
-        "Born": "1980",
-        "Nationality": "American"
-      },
-      "lead_paragraphs": [
-        "Carson Block is an American investor and the founder of Muddy Waters Capital, an investment firm known for its activist short selling approach. Block's career in finance began after he graduated from law school and moved to China, where he worked as an attorney and later in private equity. His experiences in China, particularly witnessing corporate fraud, inspired him to start Muddy Waters Research in 2010, which would later become Muddy Waters Capital.",
-        "The firm is renowned for its deep research into companies, often uncovering fraudulent practices or overpromised business models, leading to significant market impact when they release their findings. Block's work has been influential in the tech and finance sectors, as his exposes often lead to substantial stock price movements and regulatory scrutiny."
-      ],
-      "sections": [
-        {
-          "heading": "Activist Short Selling",
-          "body": "Carson Block is recognized for his activist short selling approach, where he not only bets against companies but also actively researches and exposes fraudulent practices or overpromised business models."
-        },
-        {
-          "heading": "Muddy Waters Capital",
-          "body": "Muddy Waters Capital, founded by Block, is a hedge fund that specializes in short selling and has been influential in exposing corporate frauds, particularly in the tech sector."
-        },
-        {
-          "heading": "Market Impact",
-          "body": "Block's research and activism have had significant market impact, leading to substantial stock price movements and regulatory scrutiny for the companies targeted by Muddy Waters Capital."
-        },
-        {
-          "heading": "Fraud Exposure",
-          "body": "Carson Block has been instrumental in exposing corporate frauds, particularly in sectors like electric vehicles and green energy, where companies have been known to overpromise on their capabilities."
-        }
-      ]
-    },
-    "net_worth": "$200.0M"
-  },
-  {
     "id": 207,
     "name": "Matthew Bloomfield",
     "slug": "matthew-bloomfield",
@@ -57931,64 +57742,193 @@ const dashboardData = {
     "net_worth": "$103.0M"
   },
   {
-    "id": 175,
-    "name": "Jessie Janae",
-    "slug": "jessie-janae",
-    "bio": "Jessie Janae is a former Y Combinator founder who has leveraged AI to revolutionize home management and support her role as a homeschooling parent. She has built 11 AI agents, each with a distinct role, from lesson planning to grocery ordering, demonstrating her innovative approach to technology.",
-    "known_for": "Innovative use of AI in home management and education.",
-    "net_worth_usd": 26274848.0,
-    "net_worth_source": "https://hafi.pro/income/jessiej",
-    "net_worth_updated_at": "2026-04-13T22:03:57.709758",
-    "voice_tone": "Motivated and enthusiastic",
-    "voice_style": "Practical and solution-oriented",
-    "voice_delivery_notes": "Speaks with conviction about the potential of AI in daily life",
-    "voice_profile_updated_at": "2026-04-14 03:03:41",
-    "last_seen": "2026-04-14 03:03:41",
-    "last_episode_title": "Building Agents at Home: Parenting, Work, and Benevolent Neglect",
+    "id": 128,
+    "name": "Christian Catalini",
+    "slug": "christian-catalini",
+    "bio": "Christian Catalini is a co-founder of LightSpark and founder of the MIT Crypto Economics Lab. He is known for his work in the intersection of technology, economics, and entrepreneurship, particularly in the field of AI and blockchain.",
+    "known_for": "Authoring the influential paper 'Some Simple Economics of AI' and his contributions to the understanding of crypto economics.",
+    "net_worth_usd": null,
+    "net_worth_source": null,
+    "net_worth_updated_at": "2026-03-29T04:09:28.783743",
+    "voice_tone": "Optimistic and analytical.",
+    "voice_style": "Explanatory and speculative, discussing the future impacts of AI.",
+    "voice_delivery_notes": "Paced with emphasis on the transformative potential of AI.",
+    "voice_profile_updated_at": "2026-03-29 03:02:55",
+    "last_seen": "2026-03-29 03:02:55",
+    "last_episode_title": "the a16z show 20260319 1e92a9dd 78da 4417 b1ce 4b4318d1",
     "last_podcast_name": "The a16z Show",
-    "last_episode_date": "2026-04-13",
-    "mention_score": 1,
+    "last_episode_date": "2026-03-28",
+    "mention_score": 2,
     "mention_score_decayed": 0.03,
-    "last_main_idea": "AI has the potential to revolutionize home management and parenting by automating administrative tasks, which could lead to increased satisfaction and potentially influence demographic trends.",
-    "last_proof_cite": "The a16z Show \u2022 2026-04-13 \u2022 Building Agents at Home: Parenting, Work, and Benevolent Neglect",
-    "last_proof_snippet": "Jessie Janae built 11 distinct AI agents to manage different aspects of her home and children's education, demonstrating the practical applications of AI in daily life.",
-    "supporting_takeaway": "Jessie Janae built 11 distinct AI agents to manage different aspects of her home and children's education, demonstrating the practical applications of AI in daily life.",
+    "last_main_idea": "Investing in AI and its intersection with sectors like crypto could yield significant returns as these technologies disrupt traditional economies and create new opportunities.",
+    "last_proof_cite": "The a16z Show \u2022 2026-03-28 \u2022 the a16z show 20260319 1e92a9dd 78da 4417 b1ce 4b4318d1",
+    "last_proof_snippet": "The paper suggests that anything that can be measured will eventually be automated, which could have profound effects on the economy and labor.",
+    "supporting_takeaway": "The paper suggests that anything that can be measured will eventually be automated, which could have profound effects on the economy and labor.",
     "grokipedia_url": null,
-    "grokipedia_fetched_at": "2026-04-13T22:03:56.679808",
+    "grokipedia_fetched_at": "2026-03-28T22:05:42.395070",
     "pundit_profile": {
       "source": "llm",
       "source_model": "moonshot:moonshot-v1-8k",
       "source_url": "",
-      "page_title": "Jessie Janae",
-      "fetched_at": "2026-04-14T03:03:56.679478+00:00",
-      "cliff_notes": "Jessie Janae, a former Y Combinator founder, has transitioned from the tech startup world to applying AI in her personal life, specifically in managing her home and supporting her role as a homeschooling parent. Recognizing the historical pattern where labor-saving appliances did not reduce the workload for mothers, she decided to test whether AI could break this cycle. Janae built 11 AI agents, each with a distinct role, from lesson planning to grocery ordering to logging her children's progress via voice notes. Her agents are now capable of building other agents without her direct intervention, showcasing her innovative approach to leveraging AI for personal and educational purposes.",
+      "page_title": "Christian Catalini",
+      "fetched_at": "2026-03-29T03:05:42.394968+00:00",
+      "cliff_notes": "Christian Catalini has made significant contributions to the fields of technology, economics, and entrepreneurship. As the co-founder of LightSpark and founder of the MIT Crypto Economics Lab, he has been at the forefront of exploring the economic implications of AI and blockchain technology. His paper 'Some Simple Economics of AI' has been influential in shaping discussions around the economic impact of AI on work, startups, and ambition. Catalini's work is crucial for understanding how new technologies can disrupt traditional economic models and create new opportunities for innovation and growth.",
       "derived": {
-        "former_positions": "Y Combinator founder"
+        "current_role": "Founder, MIT Crypto Economics Lab",
+        "books_or_works": "Some Simple Economics of AI"
       },
       "infobox": {
         "Born": "",
         "Nationality": ""
       },
       "lead_paragraphs": [
-        "Jessie Janae, a former Y Combinator founder, has transitioned from the tech startup world to applying AI in her personal life, specifically in managing her home and supporting her role as a homeschooling parent. Recognizing the historical pattern where labor-saving appliances did not reduce the workload for mothers, she decided to test whether AI could break this cycle.",
-        "Janae built 11 AI agents, each with a distinct role, from lesson planning to grocery ordering to logging her children's progress via voice notes. Her agents are now capable of building other agents without her direct intervention, showcasing her innovative approach to leveraging AI for personal and educational purposes."
+        "Christian Catalini has made significant contributions to the fields of technology, economics, and entrepreneurship. As the co-founder of LightSpark and founder of the MIT Crypto Economics Lab, he has been at the forefront of exploring the economic implications of AI and blockchain technology. His paper 'Some Simple Economics of AI' has been influential in shaping discussions around the economic impact of AI on work, startups, and ambition.",
+        "Catalini's work is crucial for understanding how new technologies can disrupt traditional economic models and create new opportunities for innovation and growth."
       ],
       "sections": [
         {
-          "heading": "AI in Home Management",
-          "body": "Jessie Janae has utilized AI to manage her home effectively, creating agents that perform tasks from grocery ordering to lesson planning."
+          "heading": "AI Economics",
+          "body": "Catalini's work on AI economics explores how artificial intelligence can transform economic models and create new opportunities for innovation."
         },
         {
-          "heading": "Homeschooling with AI",
-          "body": "As a homeschooling parent, Janae has employed AI to assist in educating her four children under six, using agents to log their progress and plan lessons."
+          "heading": "Crypto Economics",
+          "body": "As the founder of the MIT Crypto Economics Lab, Catalini has been instrumental in understanding the economic implications of blockchain technology."
         },
         {
-          "heading": "Agent Autonomy",
-          "body": "Janae's AI agents are capable of building other agents, demonstrating a level of autonomy and innovation in AI application within personal life management."
+          "heading": "Entrepreneurship",
+          "body": "Catalini's experience as an entrepreneur, particularly as co-founder of LightSpark, provides him with unique insights into the challenges and opportunities faced by startups in the tech industry."
+        },
+        {
+          "heading": "Future of Work",
+          "body": "Catalini's research suggests that AI could give individuals the leverage of a team, fundamentally changing the nature of work and the potential for one-person billion-dollar startups."
+        }
+      ]
+    }
+  },
+  {
+    "id": 129,
+    "name": "Eddie Lazarin",
+    "slug": "eddie-lazarin",
+    "bio": "Eddie Lazarin is a prominent figure in the tech industry, known for his insights on AI's role in shaping the future economy. He has been influential in discussions about the potential for AI to democratize access to resources and enable individuals to leverage the power of technology to create significant value.",
+    "known_for": "His contributions to the conversation about AI's impact on the future of work, startups, and economic empowerment.",
+    "net_worth_usd": 600000000000.0,
+    "net_worth_source": "https://www.forbes.com/sites/phoebeliu/2025/03/31/ai-boom-billionaires-these-tech-moguls-new-joined-billionaires-list-2025/",
+    "net_worth_updated_at": "2026-03-28T22:05:51.815831",
+    "voice_tone": "Inquisitive and engaging.",
+    "voice_style": "Facilitative, guiding the conversation through different aspects of AI.",
+    "voice_delivery_notes": "Evenly paced with a focus on drawing out detailed responses.",
+    "voice_profile_updated_at": "2026-03-29 03:02:55",
+    "last_seen": "2026-03-29 03:02:55",
+    "last_episode_title": "the a16z show 20260319 1e92a9dd 78da 4417 b1ce 4b4318d1",
+    "last_podcast_name": "The a16z Show",
+    "last_episode_date": "2026-03-28",
+    "mention_score": 2,
+    "mention_score_decayed": 0.03,
+    "last_main_idea": "Investing in AI and its intersection with sectors like crypto could yield significant returns as these technologies disrupt traditional economies and create new opportunities.",
+    "last_proof_cite": "The a16z Show \u2022 2026-03-28 \u2022 the a16z show 20260319 1e92a9dd 78da 4417 b1ce 4b4318d1",
+    "last_proof_snippet": "The paper suggests that anything that can be measured will eventually be automated, which could have profound effects on the economy and labor.",
+    "supporting_takeaway": "The paper suggests that anything that can be measured will eventually be automated, which could have profound effects on the economy and labor.",
+    "grokipedia_url": null,
+    "grokipedia_fetched_at": "2026-03-28T22:05:50.938326",
+    "pundit_profile": {
+      "source": "llm",
+      "source_model": "moonshot:moonshot-v1-8k",
+      "source_url": "",
+      "page_title": "Eddie Lazarin",
+      "fetched_at": "2026-03-29T03:05:50.938237+00:00",
+      "cliff_notes": "Eddie Lazarin is recognized for his contributions to the discourse on artificial intelligence and its implications for the economy and society. As a co-founder of LightSpark, Lazarin has been at the forefront of exploring how AI can be harnessed to empower individuals and reshape traditional business models. His work emphasizes the potential for AI to provide individuals with the leverage of a team, thereby democratizing access to resources and opportunities. Lazarin's insights into the new surplus of AI and its potential to fuel the next generation of billion-dollar startups have made him a sought-after voice in tech circles.",
+      "derived": {
+        "current_role": "Co-founder of LightSpark"
+      },
+      "infobox": {
+        "Born": "",
+        "Nationality": ""
+      },
+      "lead_paragraphs": [
+        "Eddie Lazarin is recognized for his contributions to the discourse on artificial intelligence and its implications for the economy and society. As a co-founder of LightSpark, Lazarin has been at the forefront of exploring how AI can be harnessed to empower individuals and reshape traditional business models. His work emphasizes the potential for AI to provide individuals with the leverage of a team, thereby democratizing access to resources and opportunities.",
+        "Lazarin's insights into the new surplus of AI and its potential to fuel the next generation of billion-dollar startups have made him a sought-after voice in tech circles."
+      ],
+      "sections": [
+        {
+          "heading": "AI and Economic Empowerment",
+          "body": "Eddie Lazarin discusses how AI can provide individuals with the leverage of a team, potentially enabling anyone to start a billion-dollar startup with minimal resources."
+        },
+        {
+          "heading": "Future of Work",
+          "body": "Lazarin explores the implications of AI on the future of work, suggesting that traditional apprenticeship models may be replaced by new forms of work facilitated by AI."
+        },
+        {
+          "heading": "Democratization of Resources",
+          "body": "Lazarin emphasizes the potential for AI to democratize access to computing power and other resources, allowing individuals to compete on a level playing field with larger entities."
         }
       ]
     },
-    "net_worth": "$26.3M"
+    "net_worth": "$600.00B"
+  },
+  {
+    "id": 94,
+    "name": "Carson Block",
+    "slug": "carson-block",
+    "bio": "Founder of Muddy Waters Capital, a leading activist short seller hedge fund.",
+    "known_for": "Specializing in activist short selling with deep research.",
+    "net_worth_usd": 200000000.0,
+    "net_worth_source": "https://www.publicfigurenetworth.com/carson-block-net-worth/",
+    "net_worth_updated_at": "2026-03-20T04:42:12.912511",
+    "voice_tone": "Confident and experienced.",
+    "voice_style": "Direct and to-the-point, with a focus on identifying market opportunities and risks.",
+    "voice_delivery_notes": "Paced with emphasis on key investment insights and market analysis.",
+    "voice_profile_updated_at": "2026-03-29 03:02:33",
+    "last_seen": "2026-03-29 03:02:33",
+    "last_episode_title": "Technical Analysis Deep Dive with Milton Berg - February 2026 Market Signals",
+    "last_podcast_name": "Monetary Matters with Jack Farley",
+    "last_episode_date": "2026-02-15",
+    "mention_score": 2,
+    "mention_score_decayed": 0.03,
+    "last_main_idea": "Invest in sectors with fertile ground for short selling, such as AI and tech, and under-allocated areas like junior mining, while combining long and short strategies for potential alpha.",
+    "last_proof_cite": "Monetary Matters with Jack Farley \u2022 2026-02-15 \u2022 Technical Analysis Deep Dive with Milton Berg - February 2026 Market Signals",
+    "last_proof_snippet": "The semiconductor industry, despite being cyclical and capital-intensive, has seen unusual upward trends, suggesting potential for mean reversion.",
+    "supporting_takeaway": "The semiconductor industry, despite being cyclical and capital-intensive, has seen unusual upward trends, suggesting potential for mean reversion.",
+    "grokipedia_url": null,
+    "grokipedia_fetched_at": "2026-03-20T04:42:09.376490",
+    "pundit_profile": {
+      "source": "llm",
+      "source_model": "moonshot:moonshot-v1-8k",
+      "source_url": "",
+      "page_title": "Carson Block",
+      "fetched_at": "2026-03-20T09:42:09.376380+00:00",
+      "cliff_notes": "Carson Block is an American investor and the founder of Muddy Waters Capital, an investment firm known for its activist short selling approach. Block's career in finance began after he graduated from law school and moved to China, where he worked as an attorney and later in private equity. His experiences in China, particularly witnessing corporate fraud, inspired him to start Muddy Waters Research in 2010, which would later become Muddy Waters Capital. The firm is renowned for its deep research into companies, often uncovering fraudulent practices or overpromised business models, leading to significant market impact when they release their findings. Block's work has been influential in the tech and finance sectors, as his exposes often lead to substantial stock price movements and regulatory scrutiny.",
+      "derived": {
+        "current_role": "Founder of Muddy Waters Capital",
+        "education": "Bachelor's degree in International Relations from Southern Methodist University; Juris Doctor from the University of Chicago Law School"
+      },
+      "infobox": {
+        "Born": "1980",
+        "Nationality": "American"
+      },
+      "lead_paragraphs": [
+        "Carson Block is an American investor and the founder of Muddy Waters Capital, an investment firm known for its activist short selling approach. Block's career in finance began after he graduated from law school and moved to China, where he worked as an attorney and later in private equity. His experiences in China, particularly witnessing corporate fraud, inspired him to start Muddy Waters Research in 2010, which would later become Muddy Waters Capital.",
+        "The firm is renowned for its deep research into companies, often uncovering fraudulent practices or overpromised business models, leading to significant market impact when they release their findings. Block's work has been influential in the tech and finance sectors, as his exposes often lead to substantial stock price movements and regulatory scrutiny."
+      ],
+      "sections": [
+        {
+          "heading": "Activist Short Selling",
+          "body": "Carson Block is recognized for his activist short selling approach, where he not only bets against companies but also actively researches and exposes fraudulent practices or overpromised business models."
+        },
+        {
+          "heading": "Muddy Waters Capital",
+          "body": "Muddy Waters Capital, founded by Block, is a hedge fund that specializes in short selling and has been influential in exposing corporate frauds, particularly in the tech sector."
+        },
+        {
+          "heading": "Market Impact",
+          "body": "Block's research and activism have had significant market impact, leading to substantial stock price movements and regulatory scrutiny for the companies targeted by Muddy Waters Capital."
+        },
+        {
+          "heading": "Fraud Exposure",
+          "body": "Carson Block has been instrumental in exposing corporate frauds, particularly in sectors like electric vehicles and green energy, where companies have been known to overpromise on their capabilities."
+        }
+      ]
+    },
+    "net_worth": "$200.0M"
   },
   {
     "id": 43,
@@ -58056,6 +57996,66 @@ const dashboardData = {
         }
       ]
     }
+  },
+  {
+    "id": 175,
+    "name": "Jessie Janae",
+    "slug": "jessie-janae",
+    "bio": "Jessie Janae is a former Y Combinator founder who has leveraged AI to revolutionize home management and support her role as a homeschooling parent. She has built 11 AI agents, each with a distinct role, from lesson planning to grocery ordering, demonstrating her innovative approach to technology.",
+    "known_for": "Innovative use of AI in home management and education.",
+    "net_worth_usd": 26274848.0,
+    "net_worth_source": "https://hafi.pro/income/jessiej",
+    "net_worth_updated_at": "2026-04-13T22:03:57.709758",
+    "voice_tone": "Motivated and enthusiastic",
+    "voice_style": "Practical and solution-oriented",
+    "voice_delivery_notes": "Speaks with conviction about the potential of AI in daily life",
+    "voice_profile_updated_at": "2026-04-14 03:03:41",
+    "last_seen": "2026-04-14 03:03:41",
+    "last_episode_title": "Building Agents at Home: Parenting, Work, and Benevolent Neglect",
+    "last_podcast_name": "The a16z Show",
+    "last_episode_date": "2026-04-13",
+    "mention_score": 1,
+    "mention_score_decayed": 0.02,
+    "last_main_idea": "AI has the potential to revolutionize home management and parenting by automating administrative tasks, which could lead to increased satisfaction and potentially influence demographic trends.",
+    "last_proof_cite": "The a16z Show \u2022 2026-04-13 \u2022 Building Agents at Home: Parenting, Work, and Benevolent Neglect",
+    "last_proof_snippet": "Jessie Janae built 11 distinct AI agents to manage different aspects of her home and children's education, demonstrating the practical applications of AI in daily life.",
+    "supporting_takeaway": "Jessie Janae built 11 distinct AI agents to manage different aspects of her home and children's education, demonstrating the practical applications of AI in daily life.",
+    "grokipedia_url": null,
+    "grokipedia_fetched_at": "2026-04-13T22:03:56.679808",
+    "pundit_profile": {
+      "source": "llm",
+      "source_model": "moonshot:moonshot-v1-8k",
+      "source_url": "",
+      "page_title": "Jessie Janae",
+      "fetched_at": "2026-04-14T03:03:56.679478+00:00",
+      "cliff_notes": "Jessie Janae, a former Y Combinator founder, has transitioned from the tech startup world to applying AI in her personal life, specifically in managing her home and supporting her role as a homeschooling parent. Recognizing the historical pattern where labor-saving appliances did not reduce the workload for mothers, she decided to test whether AI could break this cycle. Janae built 11 AI agents, each with a distinct role, from lesson planning to grocery ordering to logging her children's progress via voice notes. Her agents are now capable of building other agents without her direct intervention, showcasing her innovative approach to leveraging AI for personal and educational purposes.",
+      "derived": {
+        "former_positions": "Y Combinator founder"
+      },
+      "infobox": {
+        "Born": "",
+        "Nationality": ""
+      },
+      "lead_paragraphs": [
+        "Jessie Janae, a former Y Combinator founder, has transitioned from the tech startup world to applying AI in her personal life, specifically in managing her home and supporting her role as a homeschooling parent. Recognizing the historical pattern where labor-saving appliances did not reduce the workload for mothers, she decided to test whether AI could break this cycle.",
+        "Janae built 11 AI agents, each with a distinct role, from lesson planning to grocery ordering to logging her children's progress via voice notes. Her agents are now capable of building other agents without her direct intervention, showcasing her innovative approach to leveraging AI for personal and educational purposes."
+      ],
+      "sections": [
+        {
+          "heading": "AI in Home Management",
+          "body": "Jessie Janae has utilized AI to manage her home effectively, creating agents that perform tasks from grocery ordering to lesson planning."
+        },
+        {
+          "heading": "Homeschooling with AI",
+          "body": "As a homeschooling parent, Janae has employed AI to assist in educating her four children under six, using agents to log their progress and plan lessons."
+        },
+        {
+          "heading": "Agent Autonomy",
+          "body": "Janae's AI agents are capable of building other agents, demonstrating a level of autonomy and innovation in AI application within personal life management."
+        }
+      ]
+    },
+    "net_worth": "$26.3M"
   },
   {
     "id": 174,
@@ -61762,7 +61762,7 @@ const dashboardData = {
         }
       ],
       "disclaimer": "Research sleeve / scorecard, not advice. $1,000 equal-weight illustration only.",
-      "last_updated": "2026-09-20T14:04:49.816974"
+      "last_updated": "2026-09-20T22:21:17.605376"
     }
   ]
 }

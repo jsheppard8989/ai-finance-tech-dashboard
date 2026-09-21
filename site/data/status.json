@@ -1,5 +1,5 @@
 {
-  "last_pipeline_run": "2026-09-20T14:05:22.773829",
+  "last_pipeline_run": "2026-09-20T22:21:59.276653",
   "last_steps": {
     "podcasts_analyzed": 2,
     "overton_terms": 135,
@@ -17,8 +17,6 @@
     "daily_scores": 166,
     "overton_terms_total": 135,
     "latest_insights_total": 489,
-    "today_mentions": {
-      "podcast": 5
-    }
+    "today_mentions": {}
   }
 }
