@@ -3695,7 +3695,7 @@
         
         html += '<div class="insight-item" onclick="toggleInsight(this)">';
         html += '<div class="source">' + sourceLine + '</div>';
-        html += '<div class="text"><strong>' + insight.title + ':</strong> ' + insight.summary + ' <span style="color:' + sentimentColor + ';">→ ' + (insight.key_takeaway || '') + '</span></div>';
+        html += '<div class="text"><strong>' + insight.title + ':</strong> ' + insight.summary + '</div>';
         html += '<div class="insight-expanded"><div style="font-size: 0.85rem; color: #a8b2d1; display: flex; justify-content: space-between; align-items: flex-end; gap: 0.5rem;">';
         html += '<span><strong>Key Tickers:</strong> ' + tickerDisplay + '</span>' + deepDiveBtn;
         html += '</div></div></div>';
