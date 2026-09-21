@@ -3104,7 +3104,7 @@
             return '<span style="color: ' + color + ';">' + display + '</span>';
           }
           
-          // Build contract display: current (Δ change)
+          // Build contract display: current (Δ change). Null change → em dash (never fake Δ 0).
           function buildContractDisplay(entry, label) {
             if (!entry) return '<span style="color: #6b7280;">Coming soon</span>';
             const net = entry.leveraged_funds_net;
@@ -3119,6 +3119,9 @@
             const changeDisplay = formatChange(change);
             if (changeDisplay) {
               html += ' <span style="font-size: 0.65rem;">(Δ ' + changeDisplay + ')</span>';
+            } else {
+              // Missing prior week (or same-week with no distinct prior): honest em dash
+              html += ' <span style="font-size: 0.65rem; color: #6b7280;">(Δ —)</span>';
             }
             return html;
           }

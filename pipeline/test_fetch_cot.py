@@ -25,6 +25,7 @@ from fetch_cot import (
     compute_change_1w,
     load_prior_nets,
     save_prior_nets,
+    parse_finfut_nets_for_date,
     CONTRACT_PATTERNS,
     MARKET_DATA_FILE,
     COT_PRIOR_NETS_FILE,
@@ -365,6 +366,144 @@ class TestPriorNetsPersistence:
             fetch_cot.COT_PRIOR_NETS_FILE = original_path
 
 
+
+class TestSameWeekRefetchNoFakeZero:
+    """Same-week re-fetch must not yield change_1w=0 from identical prior."""
+
+    def test_same_week_without_hist_prior_yields_null_change(self):
+        """Legacy self-saved prior (same report_date) → change_1w None, not 0."""
+        import fetch_cot
+        original_path = fetch_cot.COT_PRIOR_NETS_FILE
+
+        with tempfile.TemporaryDirectory() as tmpdir:
+            tmppath = Path(tmpdir) / "cot_prior_nets.json"
+            fetch_cot.COT_PRIOR_NETS_FILE = tmppath
+            try:
+                # Simulate bug state: prior file holds THIS week's nets only
+                save_prior_nets('2026-09-15', {
+                    '10y_note': -1868126,
+                    'cme_btc': -6354,
+                    'cme_nq': -13052,
+                })
+                parsed = {
+                    '10y_note': {'leveraged_funds_net': -1868126},
+                    'cme_btc': {'leveraged_funds_net': -6354},
+                    'cme_nq': {'leveraged_funds_net': -13052},
+                }
+                result = build_cot_result(parsed, '2026-09-15')
+
+                ty = result['rates_positioning']['10y_note']
+                btc = result['btc_positioning']['cme_btc']
+                nq = result['equity_positioning']['cme_nq']
+
+                assert ty['change_1w'] is None, f"expected None, got {ty['change_1w']}"
+                assert btc['change_1w'] is None
+                assert nq['change_1w'] is None
+                assert ty['prior_week_net'] is None
+                assert result['prior_report_date'] is None
+                # Must NOT be the fake-zero pattern
+                assert ty['change_1w'] != 0
+            finally:
+                fetch_cot.COT_PRIOR_NETS_FILE = original_path
+
+    def test_same_week_with_hist_prior_keeps_real_delta(self):
+        """Two-week state: same-week re-fetch still shows Sep 8 → Sep 15 delta."""
+        import fetch_cot
+        original_path = fetch_cot.COT_PRIOR_NETS_FILE
+
+        with tempfile.TemporaryDirectory() as tmpdir:
+            tmppath = Path(tmpdir) / "cot_prior_nets.json"
+            fetch_cot.COT_PRIOR_NETS_FILE = tmppath
+            try:
+                save_prior_nets(
+                    '2026-09-15',
+                    {
+                        '10y_note': -1868126,
+                        'cme_btc': -6354,
+                        'cme_nq': -13052,
+                    },
+                    prior_report_date='2026-09-08',
+                    prior_nets={
+                        '10y_note': -1938754,
+                        'cme_btc': -7892,
+                        'cme_nq': -36884,
+                    },
+                )
+                parsed = {
+                    '10y_note': {'leveraged_funds_net': -1868126},
+                    'cme_btc': {'leveraged_funds_net': -6354},
+                    'cme_nq': {'leveraged_funds_net': -13052},
+                }
+                result = build_cot_result(parsed, '2026-09-15')
+
+                assert result['prior_report_date'] == '2026-09-08'
+                ty = result['rates_positioning']['10y_note']
+                btc = result['btc_positioning']['cme_btc']
+                nq = result['equity_positioning']['cme_nq']
+                assert ty['prior_week_net'] == -1938754
+                assert ty['change_1w'] == (-1868126) - (-1938754)  # +70628
+                assert btc['change_1w'] == (-6354) - (-7892)  # +1538
+                assert nq['change_1w'] == (-13052) - (-36884)  # +23832
+                assert ty['change_1w'] != 0
+            finally:
+                fetch_cot.COT_PRIOR_NETS_FILE = original_path
+
+    def test_new_week_advances_and_computes_delta(self):
+        """When report_date advances, delta uses previous stored week."""
+        import fetch_cot
+        original_path = fetch_cot.COT_PRIOR_NETS_FILE
+
+        with tempfile.TemporaryDirectory() as tmpdir:
+            tmppath = Path(tmpdir) / "cot_prior_nets.json"
+            fetch_cot.COT_PRIOR_NETS_FILE = tmppath
+            try:
+                save_prior_nets('2026-09-08', {
+                    '10y_note': -1938754,
+                    'cme_btc': -7892,
+                    'cme_nq': -36884,
+                })
+                parsed = {
+                    '10y_note': {'leveraged_funds_net': -1868126},
+                    'cme_btc': {'leveraged_funds_net': -6354},
+                    'cme_nq': {'leveraged_funds_net': -13052},
+                }
+                result = build_cot_result(parsed, '2026-09-15')
+
+                assert result['prior_report_date'] == '2026-09-08'
+                assert result['rates_positioning']['10y_note']['change_1w'] == 70628
+
+                # State now has two-week history
+                loaded = load_prior_nets()
+                assert loaded['report_date'] == '2026-09-15'
+                assert loaded['prior_report_date'] == '2026-09-08'
+                assert loaded['prior_nets']['10y_note'] == -1938754
+            finally:
+                fetch_cot.COT_PRIOR_NETS_FILE = original_path
+
+
+class TestParseFinfutNetsForDate:
+    """Historical FinFutYY parser prefers classic contracts over MICRO/ULTRA."""
+
+    SAMPLE = (
+        "Market_and_Exchange_Names,Report_Date_as_YYYY-MM-DD,"
+        "Lev_Money_Positions_Long_All,Lev_Money_Positions_Short_All\n"
+        '"UST 10Y NOTE - CHICAGO BOARD OF TRADE",2026-09-08,391836,2330590\n'
+        '"BITCOIN - CHICAGO MERCANTILE EXCHANGE",2026-09-08,5146,13038\n'
+        '"MICRO BITCOIN - CHICAGO MERCANTILE EXCHANGE",2026-09-08,19259,24665\n'
+        '"NASDAQ-100 CONSOLIDATED - CHICAGO MERCANTILE EXCHANGE",2026-09-08,42041,78925\n'
+        '"NASDAQ MINI - CHICAGO MERCANTILE EXCHANGE",2026-09-08,47674,79546\n'
+        '"UST BOND - CHICAGO BOARD OF TRADE",2026-09-08,133029,409994\n'
+        '"ULTRA UST BOND - CHICAGO BOARD OF TRADE",2026-09-08,86352,950623\n'
+    )
+
+    def test_prefers_classic_contracts(self):
+        nets = parse_finfut_nets_for_date(self.SAMPLE, '2026-09-08')
+        assert nets['10y_note'] == 391836 - 2330590
+        assert nets['cme_btc'] == 5146 - 13038  # not MICRO
+        assert nets['cme_nq'] == 42041 - 78925  # CONSOLIDATED
+        assert nets['30y_bond'] == 133029 - 409994  # not ULTRA
+
+
 class TestFormatNetDisplay:
     """Test formatting of net positions for display."""
     
@@ -551,6 +690,8 @@ def run_tests():
         TestBuildCotResult,
         TestChange1wComputation,
         TestPriorNetsPersistence,
+        TestSameWeekRefetchNoFakeZero,
+        TestParseFinfutNetsForDate,
         TestFormatNetDisplay,
         TestStaleDataPreservation,
         TestFailClosedBehavior,
