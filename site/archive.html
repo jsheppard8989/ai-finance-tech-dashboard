@@ -161,7 +161,7 @@
       container.innerHTML = insights.map(item => `
         <div class="insight-item">
           <div class="source">${item.source_name} • ${formatDate(item.source_date)}</div>
-          <div class="text"><strong>${item.title}:</strong> ${item.key_takeaway || item.summary}</div>
+          <div class="text"><strong>${item.title}:</strong> ${item.summary || ''}</div>
           <button class="action-btn" onclick='openDeepDive(${JSON.stringify(item.title)}, ${JSON.stringify(item.source_name)}, ${JSON.stringify(item.source_date)})'>🔍 Deep Dive</button>
         </div>
       `).join('');
