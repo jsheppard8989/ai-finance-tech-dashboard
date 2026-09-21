@@ -83,7 +83,42 @@ def validate_site_bundle(site_data: Path) -> tuple[bool, str]:
     if not pundits_path.is_file():
         return False, f"Missing {pundits_path}"
 
-    return True, "Bundle OK (data.js + status.json + pundits.json)"
+    # Banner contract: data.js priceSnapshot must include QQQ + BTC (or BTC-USD)
+    try:
+        js = text
+        marker = "priceSnapshot:"
+        idx = js.find(marker)
+        if idx < 0:
+            return False, "data.js missing priceSnapshot"
+        brace = js.find("{", idx)
+        depth = 0
+        end = None
+        for i, c in enumerate(js[brace:], brace):
+            if c == "{":
+                depth += 1
+            elif c == "}":
+                depth -= 1
+                if depth == 0:
+                    end = i + 1
+                    break
+        if end is None:
+            return False, "data.js priceSnapshot braces unbalanced"
+        snap = json.loads(js[brace:end])
+    except Exception as e:
+        return False, f"data.js priceSnapshot unreadable: {e}"
+    qqq = snap.get("QQQ") if isinstance(snap, dict) else None
+    btc = (snap.get("BTC") or snap.get("BTC-USD")) if isinstance(snap, dict) else None
+    def _price_ok(entry) -> bool:
+        return isinstance(entry, dict) and entry.get("price") is not None
+    if not _price_ok(qqq) or not _price_ok(btc):
+        return False, (
+            "priceSnapshot missing QQQ and/or BTC — refuse publish "
+            f"(QQQ={'ok' if _price_ok(qqq) else 'MISSING'}, "
+            f"BTC={'ok' if _price_ok(btc) else 'MISSING'}). "
+            "Run fetch_prices.py before export."
+        )
+
+    return True, "Bundle OK (data.js + status.json + pundits.json + QQQ/BTC)"
 
 
 def run_export() -> None:

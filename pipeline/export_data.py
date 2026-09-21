@@ -1044,16 +1044,73 @@ def generate_website_js():
     # (replaced by Trap Map). tickerScores in data.js is now an empty array with a comment.
 
     # Intraday prices for header tickers (same file fetch_prices.py writes; keeps index on one bundle)
+    # Fail-closed: never embed {} / missing QQQ|BTC — keep prior data.js snapshot or refuse empty publish.
     price_snapshot: dict = {}
     price_path = SITE_ROOT / "price_data.json"
+    price_load_err: str | None = None
     if price_path.is_file():
         try:
-            raw_prices = json.loads(price_path.read_text(encoding="utf-8"))
+            raw_text = price_path.read_text(encoding="utf-8")
+            if "<<<<<<<" in raw_text or "=======" in raw_text or ">>>>>>>" in raw_text:
+                raise ValueError("price_data.json has unresolved git conflict markers")
+            raw_prices = json.loads(raw_text)
             if isinstance(raw_prices, dict):
                 price_snapshot = dict(raw_prices)
                 price_snapshot.pop("_metadata", None)
-        except Exception:
+        except Exception as e:
+            price_load_err = str(e)
             price_snapshot = {}
+            print(f"  ⚠ price_data.json unusable ({e}); will try prior data.js priceSnapshot")
+
+    def _snapshot_has_banner(snap: dict) -> bool:
+        if not isinstance(snap, dict) or not snap:
+            return False
+        qqq = snap.get("QQQ")
+        btc = snap.get("BTC") or snap.get("BTC-USD")
+        def _ok(entry) -> bool:
+            return isinstance(entry, dict) and entry.get("price") is not None
+        return _ok(qqq) and _ok(btc)
+
+    if not _snapshot_has_banner(price_snapshot):
+        prev_path = site_dir / "data.js"
+        prev_snap: dict = {}
+        if prev_path.is_file():
+            try:
+                prev_text = prev_path.read_text(encoding="utf-8")
+                marker = "priceSnapshot:"
+                idx = prev_text.find(marker)
+                if idx >= 0:
+                    brace = prev_text.find("{", idx)
+                    depth = 0
+                    end = None
+                    for i, c in enumerate(prev_text[brace:], brace):
+                        if c == "{":
+                            depth += 1
+                        elif c == "}":
+                            depth -= 1
+                            if depth == 0:
+                                end = i + 1
+                                break
+                    if end is not None:
+                        prev_snap = json.loads(prev_text[brace:end])
+            except Exception as e:
+                print(f"  ⚠ Could not recover prior priceSnapshot from data.js: {e}")
+        if _snapshot_has_banner(prev_snap):
+            print(
+                "  ⚠ New priceSnapshot missing QQQ/BTC"
+                + (f" ({price_load_err})" if price_load_err else "")
+                + f"; keeping prior data.js snapshot ({len(prev_snap)} tickers)"
+            )
+            price_snapshot = prev_snap
+        else:
+            raise RuntimeError(
+                "Refuse to write data.js: priceSnapshot missing QQQ and/or BTC "
+                "(price_data.json empty/corrupt and no usable prior snapshot). "
+                "Run fetch_prices.py, then retry export."
+            )
+    else:
+        print(f"  ✓ priceSnapshot ready ({len(price_snapshot)} tickers, QQQ+BTC present)")
+
     price_json = json.dumps(price_snapshot, indent=2)
     
     # Portfolio baskets (Healthcare Abundance, etc.)

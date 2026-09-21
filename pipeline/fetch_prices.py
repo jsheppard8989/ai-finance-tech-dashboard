@@ -177,14 +177,25 @@ def main():
             tickers.append(portfolio_ticker)
     print(f"\nFound {len(tickers)} tickers")
     
-    # Load existing prices
+    # Load existing prices (tolerate corrupt / conflict-marker files — rewrite clean)
     existing = {}
     if PRICE_FILE.exists():
-        with open(PRICE_FILE, 'r') as f:
-            existing = json.load(f)
+        try:
+            raw = PRICE_FILE.read_text(encoding='utf-8')
+            if '<<<<<<<' in raw or '>>>>>>>' in raw:
+                raise ValueError('unresolved git conflict markers')
+            existing = json.loads(raw)
+            if not isinstance(existing, dict):
+                existing = {}
+        except Exception as e:
+            print(f"  Warning: existing {PRICE_FILE.name} unusable ({e}); starting fresh")
+            existing = {}
     
-    # Fetch new prices
-    new_prices = {}
+    # Fetch new prices; seed with prior cache so a thin ticker list (empty DB) cannot wipe the file
+    new_prices = {
+        k: v for k, v in existing.items()
+        if not str(k).startswith('_') and isinstance(v, dict)
+    }
     for ticker in tickers:
         print(f"  Fetching {ticker}...", end=' ')
         data = fetch_price_data(ticker)
@@ -193,16 +204,16 @@ def main():
             print(f"${data['price']:.2f} ({data['change_pct']:+.2f}%)")
         else:
             # Keep existing if available
-            if ticker in existing and not ticker.startswith('_'):
+            if ticker in existing and not str(ticker).startswith('_'):
                 new_prices[ticker] = existing[ticker]
                 print(f"Using cached: ${existing[ticker]['price']:.2f}")
             else:
                 print("Failed")
-    
+
     # Add metadata
     new_prices['_metadata'] = {
         'last_updated': datetime.now().isoformat(),
-        'count': len([k for k in new_prices.keys() if not k.startswith('_')])
+        'count': len([k for k in new_prices.keys() if not str(k).startswith('_')])
     }
     
     # Save
