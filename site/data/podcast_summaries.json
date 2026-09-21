@@ -1,5 +1,23 @@
 [
   {
+    "id": 503,
+    "podcast_name": "All-In with Chamath, Jason, Sacks & Friedberg",
+    "episode_title": "Adam Foroughi, Applovin CEO: Surviving a 92% Drawdown, Ads as ML 1.0 & the $50B Game Ad Market",
+    "episode_date": "2026-09-20",
+    "summary": "The podcast discusses the burgeoning mobile gaming advertising market, highlighting Apple 11's significant growth and innovative strategies. With a focus on AI-driven advertising, the episode emphasizes the importance of adapting to privacy regulations while maintaining ad relevance. Apple 11's stock buyback strategy is also noted as a key factor in restoring investor confidence amidst market skepticism.",
+    "key_takeaways": [
+      "The mobile gaming advertising market is projected to reach $50 billion annually, presenting substantial growth opportunities.",
+      "Apple 11 has achieved a remarkable 60% year-over-year growth in ad spend on its platform.",
+      "The transition to AI-driven advertising models enhances ad effectiveness and user engagement.",
+      "Apple 11's stock buyback program is a strategic move to stabilize stock prices and signal management confidence.",
+      "Navigating investor relations by focusing on internal growth rather than external communication can be beneficial during downturns."
+    ],
+    "investment_thesis": "Investors should consider companies like Apple 11 that leverage AI in advertising and engage in stock buybacks as indicators of strong management and growth potential.",
+    "key_tickers": [
+      "AAPL"
+    ]
+  },
+  {
     "id": 502,
     "podcast_name": "Monetary Matters with Jack Farley",
     "episode_title": "Outlook on 5 Key Commodities: Metals Bull Market is Just Getting Started (Gold, Copper, & Uranium) | J\u00e9r\u00e9mie Boyer | Aurelion",
