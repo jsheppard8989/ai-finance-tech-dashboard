@@ -1,6 +1,6 @@
 {
   "_comment": "First-class market data objects for the idea radar. Treasury auctions, curve snapshots, and positioning data.",
-  "_updated": "2026-09-21",
+  "_updated": "2026-09-22",
   "_data_status": "live",
   "schema_version": 1,
   "treasury_calendar": {
@@ -86,7 +86,7 @@
     "_primary_source": "Treasury.gov",
     "_source_url": "https://home.treasury.gov/resource-center/data-chart-center/interest-rates/TextView?type=daily_treasury_yield_curve",
     "_fred_status": "unavailable (optional)",
-    "last_updated": "2026-09-21T22:32:43.568021",
+    "last_updated": "2026-09-22T13:45:12.765902",
     "as_of_date": "2026-09-21",
     "spreads": {
       "2s10s": {
@@ -145,18 +145,18 @@
     "_fetch_url": "https://www.cftc.gov/dea/futures/financial_lf.htm",
     "_api_alternative": "Quandl CFTC dataset (may need key)",
     "_fetch_instructions": "CFTC releases COT every Friday at 3:30pm ET for positions as of prior Tuesday.",
-    "last_updated": "2026-09-21T22:32:44.093953",
+    "last_updated": "2026-09-22T13:45:13.118876",
     "report_date": "2026-09-15",
-    "prior_report_date": "2026-09-08",
+    "prior_report_date": null,
     "rates_positioning": {
       "10y_note": {
         "label": "10-Year T-Note Futures",
         "contract": "TY",
         "asset_manager_net": null,
         "leveraged_funds_net": -1868126,
-        "prior_week_net": -1938754,
+        "prior_week_net": null,
         "dealer_net": null,
-        "change_1w": 70628,
+        "change_1w": null,
         "signal": null,
         "percentile_1y": null
       },
@@ -165,9 +165,9 @@
         "contract": "TU",
         "asset_manager_net": null,
         "leveraged_funds_net": -1294575,
-        "prior_week_net": -1290479,
+        "prior_week_net": null,
         "dealer_net": null,
-        "change_1w": -4096,
+        "change_1w": null,
         "signal": null,
         "percentile_1y": null
       },
@@ -176,9 +176,9 @@
         "contract": "US",
         "asset_manager_net": null,
         "leveraged_funds_net": -211735,
-        "prior_week_net": -276965,
+        "prior_week_net": null,
         "dealer_net": null,
-        "change_1w": 65230,
+        "change_1w": null,
         "signal": null,
         "percentile_1y": null
       }
@@ -189,9 +189,9 @@
         "contract": "BTC",
         "asset_manager_net": null,
         "leveraged_funds_net": -6354,
-        "prior_week_net": -7892,
+        "prior_week_net": null,
         "dealer_net": null,
-        "change_1w": 1538,
+        "change_1w": null,
         "signal": null,
         "percentile_1y": null
       }
@@ -202,9 +202,9 @@
         "contract": "NQ",
         "asset_manager_net": null,
         "leveraged_funds_net": -13052,
-        "prior_week_net": -36884,
+        "prior_week_net": null,
         "dealer_net": null,
-        "change_1w": 23832,
+        "change_1w": null,
         "signal": null,
         "percentile_1y": null
       }
@@ -234,14 +234,14 @@
     "_source_url": "https://gpu-index.semianalysis.com/",
     "_api_url": "https://gpu-index.semianalysis.com/api/public-data",
     "_data_type": "api_index",
-    "last_fetched": "2026-09-21T22:32:27.079985",
+    "last_fetched": "2026-09-22T13:44:56.400182",
     "h100": {
       "daily_date": "Sep 22, 2026",
       "daily_date_iso": "2026-09-22",
       "composite_index": {
-        "display": "$3.28",
+        "display": "$3.29",
         "type": "single",
-        "value": 3.28
+        "value": 3.29
       },
       "contract_period": "Aug 2026",
       "1y_contract": {
@@ -266,21 +266,21 @@
       ],
       "daily_trend": {
         "data_points": 1077,
-        "latest_value": 3.28,
+        "latest_value": 3.29,
         "latest_date": "Sep 22, 2026",
         "short_term": {
-          "change_pct": 0.6,
+          "change_pct": 0.9,
           "comparison_date": "Sep 15, 2026",
           "comparison_value": 3.26,
           "days_back": 7
         },
         "long_term": {
-          "change_pct": 2.2,
+          "change_pct": 2.5,
           "anchor_date": "Aug 23, 2026",
           "anchor_value": 3.21,
           "days_back": 30
         },
-        "change_pct": 0.6,
+        "change_pct": 0.9,
         "comparison_date": "Sep 15, 2026"
       },
       "contract_trend": {

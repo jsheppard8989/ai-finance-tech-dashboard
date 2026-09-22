@@ -1,5 +1,21 @@
 [
   {
+    "id": 508,
+    "podcast_name": "The a16z Show",
+    "episode_title": "Why a16z is Building a New School for the AI Era | Ben Horowitz",
+    "episode_date": "2026-09-22",
+    "summary": "The podcast discusses the transformative vision of The Horowitz and Injuries in Academy, which aims to reshape education to meet the demands of an AI-driven job market. By focusing on project-based learning, interpersonal skills, and a for-profit model, the Academy seeks to provide students with practical skills and a supportive learning environment. The strategic location in San Francisco enhances networking opportunities, positioning graduates for success in a rapidly evolving landscape.",
+    "key_takeaways": [
+      "Invest in educational ventures that prioritize project-based learning and real-world applications.",
+      "Look for platforms that enhance interpersonal skills and collaboration among students.",
+      "Evaluate for-profit educational models that align with market demands and student outcomes.",
+      "Support initiatives that foster curiosity-driven learning through practical projects.",
+      "Consider educational programs that leverage local industry connections to enrich student experiences."
+    ],
+    "investment_thesis": "The Academy represents a compelling investment opportunity in the education sector by aligning with the needs of the AI era and focusing on practical, hands-on learning experiences.",
+    "key_tickers": null
+  },
+  {
     "id": 507,
     "podcast_name": "All-In with Chamath, Jason, Sacks & Friedberg",
     "episode_title": "Blake Scholl: Why Plane Speed Stalled, Supersonic Commercial Flight, & Revolutionizing the Engine",
