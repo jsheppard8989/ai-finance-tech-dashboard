@@ -1,5 +1,37 @@
 [
   {
+    "id": 506,
+    "podcast_name": "All-In with Chamath, Jason, Sacks & Friedberg",
+    "episode_title": "Naveen Rao: 4D Computing, AI's Energy Wall & Beating Biology",
+    "episode_date": "2026-09-21",
+    "summary": "The podcast discusses the urgent need for energy-efficient AI solutions as current models consume vast amounts of power, with estimates suggesting Google's AI services alone require 12 gigawatts. Naveen Rau's company, Unconventional AI, aims to address this crisis by developing a new computing architecture that integrates memory and compute, targeting a 1,000x increase in power efficiency within 3.5 years. The conversation highlights the potential for exponential growth in the AI market, projected to reach a trillion dollars by 2030, if energy costs can be significantly reduced.",
+    "key_takeaways": [
+      "Invest in companies focused on developing energy-efficient AI hardware solutions.",
+      "Monitor advancements in computing architectures that integrate memory and compute functions.",
+      "Evaluate startups that demonstrate rapid prototyping capabilities as potential high-reward investments.",
+      "Consider the implications of Jevons Paradox when assessing the future growth of AI markets.",
+      "The human brain's efficiency serves as a benchmark for AI hardware development."
+    ],
+    "investment_thesis": "Investors should prioritize companies innovating in energy-efficient AI technologies, as the demand for AI services grows and energy consumption becomes a critical issue.",
+    "key_tickers": null
+  },
+  {
+    "id": 505,
+    "podcast_name": "Latent Space: The AI Engineer Podcast",
+    "episode_title": "Jev: System One models for Prod, not God \u2014 with Diogo Almeida, CEO, TypeSafe AI",
+    "episode_date": "2026-09-21",
+    "summary": "In this episode, Diogo discusses the launch of Jev, a new class of AI models designed for software integration, emphasizing the pivotal role of developers in the AI ecosystem. He argues that the integration of AI into software development is set to drive an economic revolution, highlighting the need for more efficient AI models that prioritize cost-effectiveness and reliability. The conversation also addresses the limitations of current AI models and advocates for a modular approach to problem-solving in AI development.",
+    "key_takeaways": [
+      "Investors should focus on companies that prioritize developer engagement and create tools that enhance productivity.",
+      "The emergence of system one models like Jev could disrupt traditional AI paradigms, making them a potential investment opportunity.",
+      "AI advancements are expected to create new markets and economic opportunities, warranting investor attention.",
+      "Caution is advised regarding the capabilities of current AI models, particularly in multi-hop reasoning.",
+      "A modular approach to AI development can lead to more effective solutions and should be encouraged."
+    ],
+    "investment_thesis": "Investing in companies that develop system one AI models and prioritize developer engagement could yield significant returns as the AI-driven economic revolution unfolds.",
+    "key_tickers": null
+  },
+  {
     "id": 504,
     "podcast_name": "The a16z Show",
     "episode_title": "AI Safety Language Is Destroying the Debate | Steven Sinofsky",
