@@ -20,6 +20,25 @@
       "podcast_episode_id": 507
     },
     {
+      "id": 523,
+      "title": "Why a16z is Building a New School for the AI Era | Ben Horowitz",
+      "source_type": "podcast",
+      "source_name": "The a16z Show",
+      "source_date": "2026-09-22",
+      "summary": "The podcast discusses the transformative vision of The Horowitz and Injuries in Academy, which aims to reshape education to meet the demands of an AI-driven job market. By focusing on project-based learning, interpersonal skills, and a for-profit model, the Academy seeks to provide students with practical skills and a supportive learning environment. The strategic location in San Francisco enhances networking opportunities, positioning graduates for success in a rapidly evolving landscape.",
+      "key_takeaway": "The Academy represents a compelling investment opportunity in the education sector by aligning with the needs of the AI era and focusing on practical, hands-on learning experiences.",
+      "tickers_mentioned": [
+        "NVDA"
+      ],
+      "sentiment": "bullish",
+      "display_on_main": 0,
+      "display_order": 0,
+      "added_date": "2026-09-22",
+      "archived_date": null,
+      "archived_reason": null,
+      "podcast_episode_id": 508
+    },
+    {
       "id": 519,
       "title": "AI Safety Language Is Destroying the Debate | Steven Sinofsky",
       "source_type": "podcast",

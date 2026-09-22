@@ -209,7 +209,7 @@
     "last_podcast_name": "The a16z Show",
     "last_episode_date": "2026-09-05",
     "mention_score": 3,
-    "mention_score_decayed": 2.07,
+    "mention_score_decayed": 2.03,
     "last_main_idea": "The winning AI infrastructure investments will be in open-weights-enabling platforms and model-agnostic orchestration layers, as enterprise adoption shifts from single-model dependence to intelligent routing across specialized models.",
     "last_proof_cite": "The a16z Show \u2022 2026-09-05 \u2022 Aaron Levie on Why Open AI Wins",
     "last_proof_snippet": "Openweight AI is often framed as a threat to frontier labs. Aaron Levy thinks that kits the economics backwards. The box co-founder and CEO joins the OJFI and Sofia Puccini on MTS to discuss why open models could make the AI ecosystem more",
@@ -391,7 +391,7 @@
     "last_podcast_name": "All-In with Chamath, Jason, Sacks & Friedberg",
     "last_episode_date": "2026-09-18",
     "mention_score": 2,
-    "mention_score_decayed": 1.87,
+    "mention_score_decayed": 1.82,
     "last_main_idea": "Investing in companies involved in aerospace, nuclear technology, and robotics could yield significant returns as NASA advances its lunar and deep space missions.",
     "last_proof_cite": "All-In with Chamath, Jason, Sacks & Friedberg \u2022 2026-09-18 \u2022 Jared Isaacman: A New Era for NASA and American Space Exploration",
     "last_proof_snippet": "Ignition sequenced star. It's good to have an abeater and astronaut in charge. The new NASA Administrator. NASA's still hot. Human climate will not be contained to planet Earth indefinitely. In the next giant leap capabilities that's nuclea",
@@ -433,71 +433,6 @@
       ]
     },
     "net_worth": "$1.40B"
-  },
-  {
-    "id": 74,
-    "name": "Travis Kalanick",
-    "slug": "travis-kalanick",
-    "bio": "Entrepreneur and co-founder of Uber, currently working on a new venture focused on industrial AI.",
-    "known_for": "His role in the founding and growth of Uber, and now his new venture in industrial AI.",
-    "net_worth_usd": 3600000000.0,
-    "net_worth_source": "https://finance.yahoo.com/news/uber-founder-travis-kalanick-becomes-201906670.html",
-    "net_worth_updated_at": "2026-03-19T15:49:00.323498",
-    "voice_tone": "Confident and assertive",
-    "voice_style": "Direct and solution-oriented",
-    "voice_delivery_notes": "Paced with emphasis on key points",
-    "voice_profile_updated_at": "2026-08-14 18:36:52",
-    "last_seen": "2026-08-14 18:36:52",
-    "last_episode_title": "Ben Horowitz and Travis Kalanick on Building Again",
-    "last_podcast_name": "The a16z Show",
-    "last_episode_date": "2026-08-14",
-    "mention_score": 4,
-    "mention_score_decayed": 1.66,
-    "last_main_idea": "Invest in industries that are ripe for automation and AI integration, as industrial AI could revolutionize multiple trillion-dollar industries.",
-    "last_proof_cite": "The a16z Show \u2022 2026-08-14 \u2022 Ben Horowitz and Travis Kalanick on Building Again",
-    "last_proof_snippet": "Hey Travis is back, but I've actually been working for eight years, I just haven't been talking about it. We're competing for the next industrial revolution. People said, are you pissed off about Uber? Does that grind you when you fall in l",
-    "supporting_takeaway": "Fostering a culture of open debate and pushing for the best ideas can lead to superior outcomes in business.",
-    "grokipedia_url": null,
-    "grokipedia_fetched_at": "2026-07-22T23:37:24.531678",
-    "pundit_profile": {
-      "source": "llm",
-      "source_model": "moonshot:moonshot-v1-8k",
-      "source_url": "",
-      "page_title": "Travis Kalanick",
-      "fetched_at": "2026-07-23T04:37:24.531563+00:00",
-      "cliff_notes": "Travis Kalanick is an American entrepreneur who has made a significant impact on the tech industry with his innovative and disruptive business models. He co-founded Uber, a ride-sharing company that revolutionized urban transportation and challenged traditional taxi services. After leaving Uber, Kalanick founded CloudKitchens, a company that acquires and leases commercial kitchen spaces to food delivery businesses. His aggressive business tactics and relentless focus on growth have earned him both admiration and criticism. Despite facing lawsuits and controversies, Kalanick remains a prominent figure in the tech world, known for his ability to create companies that transform entire sectors.",
-      "derived": {
-        "former_positions": "Co-founder and CEO of Uber; CEO of CloudKitchens",
-        "education": "Bachelor's degree in Computer Engineering from the University of California, Los Angeles (UCLA)"
-      },
-      "infobox": {
-        "Born": "1976",
-        "Nationality": "American"
-      },
-      "lead_paragraphs": [
-        "Travis Kalanick is an American entrepreneur who has made a significant impact on the tech industry with his innovative and disruptive business models. He co-founded Uber, a ride-sharing company that revolutionized urban transportation and challenged traditional taxi services. After leaving Uber, Kalanick founded CloudKitchens, a company that acquires and leases commercial kitchen spaces to food delivery businesses.",
-        "His aggressive business tactics and relentless focus on growth have earned him both admiration and criticism. Despite facing lawsuits and controversies, Kalanick remains a prominent figure in the tech world, known for his ability to create companies that transform entire sectors."
-      ],
-      "sections": [
-        {
-          "heading": "Uber Co-Founder",
-          "body": "Travis Kalanick co-founded Uber in 2009, which went on to become a global ride-sharing giant and disrupt the traditional taxi industry."
-        },
-        {
-          "heading": "CloudKitchens Founder",
-          "body": "Kalanick founded CloudKitchens, a company that provides commercial kitchen spaces for food delivery businesses, aiming to revolutionize the food delivery industry."
-        },
-        {
-          "heading": "Controversies",
-          "body": "Throughout his career, Kalanick has faced various controversies and lawsuits, including those related to Uber's aggressive business tactics and workplace culture."
-        },
-        {
-          "heading": "Innovation and Disruption",
-          "body": "Kalanick is known for his ability to create innovative business models that disrupt traditional industries, as evidenced by Uber and CloudKitchens."
-        }
-      ]
-    },
-    "net_worth": "$3.60B"
   },
   {
     "id": 78,
@@ -615,6 +550,71 @@
         }
       ]
     }
+  },
+  {
+    "id": 74,
+    "name": "Travis Kalanick",
+    "slug": "travis-kalanick",
+    "bio": "Entrepreneur and co-founder of Uber, currently working on a new venture focused on industrial AI.",
+    "known_for": "His role in the founding and growth of Uber, and now his new venture in industrial AI.",
+    "net_worth_usd": 3600000000.0,
+    "net_worth_source": "https://finance.yahoo.com/news/uber-founder-travis-kalanick-becomes-201906670.html",
+    "net_worth_updated_at": "2026-03-19T15:49:00.323498",
+    "voice_tone": "Confident and assertive",
+    "voice_style": "Direct and solution-oriented",
+    "voice_delivery_notes": "Paced with emphasis on key points",
+    "voice_profile_updated_at": "2026-08-14 18:36:52",
+    "last_seen": "2026-08-14 18:36:52",
+    "last_episode_title": "Ben Horowitz and Travis Kalanick on Building Again",
+    "last_podcast_name": "The a16z Show",
+    "last_episode_date": "2026-08-14",
+    "mention_score": 4,
+    "mention_score_decayed": 1.62,
+    "last_main_idea": "Invest in industries that are ripe for automation and AI integration, as industrial AI could revolutionize multiple trillion-dollar industries.",
+    "last_proof_cite": "The a16z Show \u2022 2026-08-14 \u2022 Ben Horowitz and Travis Kalanick on Building Again",
+    "last_proof_snippet": "Hey Travis is back, but I've actually been working for eight years, I just haven't been talking about it. We're competing for the next industrial revolution. People said, are you pissed off about Uber? Does that grind you when you fall in l",
+    "supporting_takeaway": "Fostering a culture of open debate and pushing for the best ideas can lead to superior outcomes in business.",
+    "grokipedia_url": null,
+    "grokipedia_fetched_at": "2026-07-22T23:37:24.531678",
+    "pundit_profile": {
+      "source": "llm",
+      "source_model": "moonshot:moonshot-v1-8k",
+      "source_url": "",
+      "page_title": "Travis Kalanick",
+      "fetched_at": "2026-07-23T04:37:24.531563+00:00",
+      "cliff_notes": "Travis Kalanick is an American entrepreneur who has made a significant impact on the tech industry with his innovative and disruptive business models. He co-founded Uber, a ride-sharing company that revolutionized urban transportation and challenged traditional taxi services. After leaving Uber, Kalanick founded CloudKitchens, a company that acquires and leases commercial kitchen spaces to food delivery businesses. His aggressive business tactics and relentless focus on growth have earned him both admiration and criticism. Despite facing lawsuits and controversies, Kalanick remains a prominent figure in the tech world, known for his ability to create companies that transform entire sectors.",
+      "derived": {
+        "former_positions": "Co-founder and CEO of Uber; CEO of CloudKitchens",
+        "education": "Bachelor's degree in Computer Engineering from the University of California, Los Angeles (UCLA)"
+      },
+      "infobox": {
+        "Born": "1976",
+        "Nationality": "American"
+      },
+      "lead_paragraphs": [
+        "Travis Kalanick is an American entrepreneur who has made a significant impact on the tech industry with his innovative and disruptive business models. He co-founded Uber, a ride-sharing company that revolutionized urban transportation and challenged traditional taxi services. After leaving Uber, Kalanick founded CloudKitchens, a company that acquires and leases commercial kitchen spaces to food delivery businesses.",
+        "His aggressive business tactics and relentless focus on growth have earned him both admiration and criticism. Despite facing lawsuits and controversies, Kalanick remains a prominent figure in the tech world, known for his ability to create companies that transform entire sectors."
+      ],
+      "sections": [
+        {
+          "heading": "Uber Co-Founder",
+          "body": "Travis Kalanick co-founded Uber in 2009, which went on to become a global ride-sharing giant and disrupt the traditional taxi industry."
+        },
+        {
+          "heading": "CloudKitchens Founder",
+          "body": "Kalanick founded CloudKitchens, a company that provides commercial kitchen spaces for food delivery businesses, aiming to revolutionize the food delivery industry."
+        },
+        {
+          "heading": "Controversies",
+          "body": "Throughout his career, Kalanick has faced various controversies and lawsuits, including those related to Uber's aggressive business tactics and workplace culture."
+        },
+        {
+          "heading": "Innovation and Disruption",
+          "body": "Kalanick is known for his ability to create innovative business models that disrupt traditional industries, as evidenced by Uber and CloudKitchens."
+        }
+      ]
+    },
+    "net_worth": "$3.60B"
   },
   {
     "id": 148,
@@ -1194,67 +1194,6 @@
     }
   },
   {
-    "id": 133,
-    "name": "Chris Dixon",
-    "slug": "chris-dixon",
-    "bio": "Chris Dixon is a general partner at a16z, a venture capital firm. He is known for his extensive writing and thought leadership on blockchain technology and its potential to disrupt traditional financial systems.",
-    "known_for": "His insights into blockchain technology and its implications for finance and security.",
-    "net_worth_usd": 500000000.0,
-    "net_worth_source": "https://blockchainreporter.net/net-worth/chris-dixon/",
-    "net_worth_updated_at": "2026-03-28T22:05:07.528099",
-    "voice_tone": "Educative and visionary",
-    "voice_style": "Explains blockchain's potential in a simple, relatable manner",
-    "voice_delivery_notes": "Clear and concise, with a focus on the future implications of blockchain",
-    "voice_profile_updated_at": "2026-08-01 18:36:59",
-    "last_seen": "2026-08-01 18:36:59",
-    "last_episode_title": "Marc Andreessen and Chris Dixon: What\u2019s at Stake in Crypto Regulation",
-    "last_podcast_name": "The a16z Show",
-    "last_episode_date": "2026-08-01",
-    "mention_score": 3,
-    "mention_score_decayed": 0.92,
-    "last_main_idea": "Regulatory clarity through acts like the Clarity Act is essential for the next phase of blockchain adoption and could unlock significant investment opportunities in stablecoins and tokenized assets.",
-    "last_proof_cite": "The a16z Show \u2022 2026-08-01 \u2022 Marc Andreessen and Chris Dixon: What\u2019s at Stake in Crypto Regulation",
-    "last_proof_snippet": "Stable coins are tokenized stocks or dollars on blockchain. Rivals the size of the Visa network. Trillings the dollar is transacted. If you have a dollar of that stable coin, there is a dollar sitting in the bank. And that's why the Clarity",
-    "supporting_takeaway": "The Clarity Act is crucial for providing regulatory clarity and could shape the future of financial infrastructure.",
-    "grokipedia_url": null,
-    "grokipedia_fetched_at": "2026-08-01T13:38:13.301865",
-    "pundit_profile": {
-      "source": "llm",
-      "source_model": "moonshot:moonshot-v1-8k",
-      "source_url": "",
-      "page_title": "Chris Dixon",
-      "fetched_at": "2026-08-01T18:38:13.301526+00:00",
-      "cliff_notes": "Chris Dixon is a prominent figure in the technology and venture capital industry, particularly known for his expertise in blockchain technology. As a general partner at a16z, he has been instrumental in shaping the firm's investment strategy in the blockchain space. Dixon's writings have been influential in understanding the potential of blockchain to disrupt traditional financial systems and the broader implications for security and regulation. His perspectives on the Clarity Act and its potential impact on the blockchain industry highlight his deep understanding of the intersection between technology, finance, and policy.",
-      "derived": {
-        "current_role": "General Partner at a16z",
-        "books_or_works": "Blockchain book"
-      },
-      "infobox": {
-        "Born": "",
-        "Nationality": ""
-      },
-      "lead_paragraphs": [
-        "Chris Dixon is a prominent figure in the technology and venture capital industry, particularly known for his expertise in blockchain technology. As a general partner at a16z, he has been instrumental in shaping the firm's investment strategy in the blockchain space. Dixon's writings have been influential in understanding the potential of blockchain to disrupt traditional financial systems and the broader implications for security and regulation.",
-        "His perspectives on the Clarity Act and its potential impact on the blockchain industry highlight his deep understanding of the intersection between technology, finance, and policy."
-      ],
-      "sections": [
-        {
-          "heading": "Blockchain Expertise",
-          "body": "Chris Dixon is recognized for his in-depth knowledge of blockchain technology and its potential to revolutionize finance and other industries."
-        },
-        {
-          "heading": "Venture Capital",
-          "body": "As a general partner at a16z, Dixon plays a key role in identifying and investing in innovative startups, particularly those in the blockchain space."
-        },
-        {
-          "heading": "Regulatory Insights",
-          "body": "Dixon has been vocal about the need for clear and thoughtful regulation of blockchain technology, as evidenced by his commentary on the Clarity Act and its implications for the industry."
-        }
-      ]
-    },
-    "net_worth": "$500.0M"
-  },
-  {
     "id": 466,
     "name": "Dario Amadeh",
     "slug": "dario-amadeh",
@@ -1426,6 +1365,67 @@
         }
       ]
     }
+  },
+  {
+    "id": 133,
+    "name": "Chris Dixon",
+    "slug": "chris-dixon",
+    "bio": "Chris Dixon is a general partner at a16z, a venture capital firm. He is known for his extensive writing and thought leadership on blockchain technology and its potential to disrupt traditional financial systems.",
+    "known_for": "His insights into blockchain technology and its implications for finance and security.",
+    "net_worth_usd": 500000000.0,
+    "net_worth_source": "https://blockchainreporter.net/net-worth/chris-dixon/",
+    "net_worth_updated_at": "2026-03-28T22:05:07.528099",
+    "voice_tone": "Educative and visionary",
+    "voice_style": "Explains blockchain's potential in a simple, relatable manner",
+    "voice_delivery_notes": "Clear and concise, with a focus on the future implications of blockchain",
+    "voice_profile_updated_at": "2026-08-01 18:36:59",
+    "last_seen": "2026-08-01 18:36:59",
+    "last_episode_title": "Marc Andreessen and Chris Dixon: What\u2019s at Stake in Crypto Regulation",
+    "last_podcast_name": "The a16z Show",
+    "last_episode_date": "2026-08-01",
+    "mention_score": 3,
+    "mention_score_decayed": 0.9,
+    "last_main_idea": "Regulatory clarity through acts like the Clarity Act is essential for the next phase of blockchain adoption and could unlock significant investment opportunities in stablecoins and tokenized assets.",
+    "last_proof_cite": "The a16z Show \u2022 2026-08-01 \u2022 Marc Andreessen and Chris Dixon: What\u2019s at Stake in Crypto Regulation",
+    "last_proof_snippet": "Stable coins are tokenized stocks or dollars on blockchain. Rivals the size of the Visa network. Trillings the dollar is transacted. If you have a dollar of that stable coin, there is a dollar sitting in the bank. And that's why the Clarity",
+    "supporting_takeaway": "The Clarity Act is crucial for providing regulatory clarity and could shape the future of financial infrastructure.",
+    "grokipedia_url": null,
+    "grokipedia_fetched_at": "2026-08-01T13:38:13.301865",
+    "pundit_profile": {
+      "source": "llm",
+      "source_model": "moonshot:moonshot-v1-8k",
+      "source_url": "",
+      "page_title": "Chris Dixon",
+      "fetched_at": "2026-08-01T18:38:13.301526+00:00",
+      "cliff_notes": "Chris Dixon is a prominent figure in the technology and venture capital industry, particularly known for his expertise in blockchain technology. As a general partner at a16z, he has been instrumental in shaping the firm's investment strategy in the blockchain space. Dixon's writings have been influential in understanding the potential of blockchain to disrupt traditional financial systems and the broader implications for security and regulation. His perspectives on the Clarity Act and its potential impact on the blockchain industry highlight his deep understanding of the intersection between technology, finance, and policy.",
+      "derived": {
+        "current_role": "General Partner at a16z",
+        "books_or_works": "Blockchain book"
+      },
+      "infobox": {
+        "Born": "",
+        "Nationality": ""
+      },
+      "lead_paragraphs": [
+        "Chris Dixon is a prominent figure in the technology and venture capital industry, particularly known for his expertise in blockchain technology. As a general partner at a16z, he has been instrumental in shaping the firm's investment strategy in the blockchain space. Dixon's writings have been influential in understanding the potential of blockchain to disrupt traditional financial systems and the broader implications for security and regulation.",
+        "His perspectives on the Clarity Act and its potential impact on the blockchain industry highlight his deep understanding of the intersection between technology, finance, and policy."
+      ],
+      "sections": [
+        {
+          "heading": "Blockchain Expertise",
+          "body": "Chris Dixon is recognized for his in-depth knowledge of blockchain technology and its potential to revolutionize finance and other industries."
+        },
+        {
+          "heading": "Venture Capital",
+          "body": "As a general partner at a16z, Dixon plays a key role in identifying and investing in innovative startups, particularly those in the blockchain space."
+        },
+        {
+          "heading": "Regulatory Insights",
+          "body": "Dixon has been vocal about the need for clear and thoughtful regulation of blockchain technology, as evidenced by his commentary on the Clarity Act and its implications for the industry."
+        }
+      ]
+    },
+    "net_worth": "$500.0M"
   },
   {
     "id": 462,
@@ -3693,7 +3693,7 @@
     "last_podcast_name": "Monetary Matters with Jack Farley",
     "last_episode_date": "2026-08-26",
     "mention_score": 1,
-    "mention_score_decayed": 0.55,
+    "mention_score_decayed": 0.54,
     "last_main_idea": "Warren Pies suggests that despite the current macro risks, the AI sector remains a key area for investment, with all roads leading back to AI trades.",
     "last_proof_cite": "Monetary Matters with Jack Farley \u2022 2026-08-26 \u2022 Time to Reduce Equity Risk: Why Underappreciated Macro Risks Could Derail the Bull Market | Warren Pies",
     "last_proof_snippet": "If I knew with certainly the Fed was going to hike in September, I'd be underweight stocks right now. It's not that I would say I'm straight up bearish here. I just think the risks are too excited. We highlighted the window from August 15th",
@@ -3757,7 +3757,7 @@
     "last_podcast_name": "Latent Space: The AI Engineer Podcast",
     "last_episode_date": "2026-08-26",
     "mention_score": 1,
-    "mention_score_decayed": 0.55,
+    "mention_score_decayed": 0.54,
     "last_main_idea": "Investing in AI technology that enhances weather and climate modeling can lead to significant advancements in forecasting accuracy and speed, potentially revolutionizing the field and creating new investment opportunities in AI applications for science.",
     "last_proof_cite": "Latent Space: The AI Engineer Podcast \u2022 2026-08-26 \u2022 \ud83d\udd2c\u201cWe have foundation models for language, not for physics\u201d \u2014 Anima Anandkumar, Bren Professor of Computing",
     "last_proof_snippet": "So we, you know, set out looking for interesting examples and one of them was like weather modeling because the weather data is open source and so given that the data was there we were like, okay, let's just go try it. Right. And that's the",
@@ -4197,7 +4197,7 @@
     "last_podcast_name": "Monetary Matters with Jack Farley",
     "last_episode_date": "2026-08-18",
     "mention_score": 1,
-    "mention_score_decayed": 0.46,
+    "mention_score_decayed": 0.45,
     "last_main_idea": "AUA Private Equity Partners focuses on operational improvements in family-run businesses within the food, beverage, pet wellness, and co-manufacturing sectors, targeting a $1.3 to $1.4 trillion market opportunity.",
     "last_proof_cite": "Monetary Matters with Jack Farley \u2022 2026-08-18 \u2022 Ex-Goya COO on the $1.4 Trillion Family Business Opportunity in Three Consumer Sectors | Andy Unanue",
     "last_proof_snippet": "Our economy is driven by family run businesses, 70 plus percent of the GDP is generated through family run businesses. Then the food beverage pack wellness sector, it's a 1.3, 1.4 trillion dollar market opportunity. So it's a big market. I'",
@@ -6045,7 +6045,7 @@
     "last_podcast_name": "Monetary Matters with Jack Farley",
     "last_episode_date": "2026-08-04",
     "mention_score": 1,
-    "mention_score_decayed": 0.33,
+    "mention_score_decayed": 0.32,
     "last_main_idea": "The S&P 500's performance over the next two years will be largely determined by the behavior of extrapolators and corporate equity activity, rather than fundamental earnings growth.",
     "last_proof_cite": "Monetary Matters with Jack Farley \u2022 2026-08-04 \u2022 Victor Haghani on Death of Random Walk, and Passive, Buybacks, and LTCM",
     "last_proof_snippet": "So I feel like we can talk about LTCM. We can talk about, I mean, let's not do that. That's so boring. I mean, everybody's sick of LTCM. Yeah. What do you think the real lessons are? You know, I think the biggest lessons are about personal",
@@ -6169,7 +6169,7 @@
     "last_podcast_name": "The a16z Show",
     "last_episode_date": "2026-08-01",
     "mention_score": 1,
-    "mention_score_decayed": 0.31,
+    "mention_score_decayed": 0.3,
     "last_main_idea": "Regulatory clarity through acts like the Clarity Act is essential for the next phase of blockchain adoption and could unlock significant investment opportunities in stablecoins and tokenized assets.",
     "last_proof_cite": "The a16z Show \u2022 2026-08-01 \u2022 Marc Andreessen and Chris Dixon: What\u2019s at Stake in Crypto Regulation",
     "last_proof_snippet": "Stable coins are tokenized stocks or dollars on blockchain. Rivals the size of the Visa network. Trillings the dollar is transacted. If you have a dollar of that stable coin, there is a dollar sitting in the bank. And that's why the Clarity",
@@ -6210,130 +6210,6 @@
       ]
     },
     "net_worth": "$1.90B"
-  },
-  {
-    "id": 368,
-    "name": "Ashwin Srinivas",
-    "slug": "ashwin-srinivas",
-    "bio": "Ashwin Srinivas is a tech entrepreneur known for his work in AI and enterprise software. As co-founder of Decagon, he has focused on driving the productization and deployment of AI within large enterprises. His recent discussions revolve around the role of AI in business processes and the future of AI in enterprise software.",
-    "known_for": "Driving the productization and deployment of AI within large enterprises.",
-    "net_worth_usd": 32299999.999999996,
-    "net_worth_source": "https://www.analyticsinsight.net/business/aravind-srinivas-net-worth-startup-success-investment-highlights-career",
-    "net_worth_updated_at": "2026-07-31T13:40:29.337202",
-    "voice_tone": "Confident and knowledgeable",
-    "voice_style": "Factual and persuasive",
-    "voice_delivery_notes": "Clear and concise with a focus on the benefits of productized AI",
-    "voice_profile_updated_at": "2026-07-31 18:39:09",
-    "last_seen": "2026-07-31 18:39:09",
-    "last_episode_title": "How Enterprise AI Really Gets Deployed",
-    "last_podcast_name": "The a16z Show",
-    "last_episode_date": "2026-07-31",
-    "mention_score": 1,
-    "mention_score_decayed": 0.3,
-    "last_main_idea": "Investing in AI-driven enterprise software that leverages open source models can lead to better control, performance, and scalability, creating a competitive advantage in the market.",
-    "last_proof_cite": "The a16z Show \u2022 2026-07-31 \u2022 How Enterprise AI Really Gets Deployed",
-    "last_proof_snippet": "And AI agents should just be the funder of your business and every interaction, whether it's like reactive or proactive with a customer, should be handled by AI. This narrative dominated the first half of 2026, which is that anthropic open",
-    "supporting_takeaway": "Anthropic and OpenAI dominated the AI narrative in 2026, but their models may not always be the best fit for enterprise needs.",
-    "grokipedia_url": null,
-    "grokipedia_fetched_at": "2026-07-31T13:40:28.203701",
-    "pundit_profile": {
-      "source": "llm",
-      "source_model": "moonshot:moonshot-v1-8k",
-      "source_url": "",
-      "page_title": "Ashwin Srinivas",
-      "fetched_at": "2026-07-31T18:40:28.203551+00:00",
-      "cliff_notes": "Ashwin Srinivas is recognized for his contributions to the field of AI, particularly in the context of enterprise software. As the co-founder of Decagon, Srinivas has been at the forefront of integrating AI into business processes, aiming to enhance efficiency and effectiveness. His work underscores the importance of AI not just as a tool for customer support, but as a fundamental component of business operations. Srinivas envisions a future where AI agents are integral to every interaction within a business, whether reactive or proactive. His insights into the limitations of current AI models and the necessity for more controlled, task-specific AI solutions have positioned him as a thought leader in the industry.",
-      "derived": {
-        "current_role": "Co-founder of Decagon"
-      },
-      "infobox": {
-        "Born": "",
-        "Nationality": ""
-      },
-      "lead_paragraphs": [
-        "Ashwin Srinivas is recognized for his contributions to the field of AI, particularly in the context of enterprise software. As the co-founder of Decagon, Srinivas has been at the forefront of integrating AI into business processes, aiming to enhance efficiency and effectiveness. His work underscores the importance of AI not just as a tool for customer support, but as a fundamental component of business operations.",
-        "Srinivas envisions a future where AI agents are integral to every interaction within a business, whether reactive or proactive. His insights into the limitations of current AI models and the necessity for more controlled, task-specific AI solutions have positioned him as a thought leader in the industry."
-      ],
-      "sections": [
-        {
-          "heading": "AI in Enterprise",
-          "body": "Ashwin Srinivas is a proponent of using AI to streamline business processes within large enterprises, advocating for a more integrated approach to AI deployment."
-        },
-        {
-          "heading": "Future of AI",
-          "body": "Srinivas discusses the potential of AI to revolutionize business operations, even in the advent of AGI, suggesting that Decagon's role will be to provide AI that follows business processes effectively."
-        },
-        {
-          "heading": "Open Source AI",
-          "body": "He highlights the importance of open source in AI development, noting that for specific tasks, open source models can outperform larger, more established AI systems."
-        }
-      ]
-    },
-    "net_worth": "$32.3M"
-  },
-  {
-    "id": 367,
-    "name": "Jesse Zang",
-    "slug": "jesse-zang",
-    "bio": "Jesse Zang is the co-founder of Decagon, a company that specializes in AI-driven enterprise software. He is known for shifting Decagon's AI stack to open source models, which has resulted in better performance and control. Zang believes in the significance of AI in every interaction within a business and has been a proponent of using AI to handle customer support and business processes.",
-    "known_for": "Shifting Decagon's AI stack to open source models for enhanced performance and control.",
-    "net_worth_usd": 1500000000.0,
-    "net_worth_source": "https://founderspedia.com/jesse-zhang/",
-    "net_worth_updated_at": "2026-07-31T13:40:20.036553",
-    "voice_tone": "Confident and knowledgeable",
-    "voice_style": "Factual and persuasive",
-    "voice_delivery_notes": "Clear and concise with a focus on the benefits of open source AI models",
-    "voice_profile_updated_at": "2026-07-31 18:39:09",
-    "last_seen": "2026-07-31 18:39:09",
-    "last_episode_title": "How Enterprise AI Really Gets Deployed",
-    "last_podcast_name": "The a16z Show",
-    "last_episode_date": "2026-07-31",
-    "mention_score": 1,
-    "mention_score_decayed": 0.3,
-    "last_main_idea": "Investing in AI-driven enterprise software that leverages open source models can lead to better control, performance, and scalability, creating a competitive advantage in the market.",
-    "last_proof_cite": "The a16z Show \u2022 2026-07-31 \u2022 How Enterprise AI Really Gets Deployed",
-    "last_proof_snippet": "And AI agents should just be the funder of your business and every interaction, whether it's like reactive or proactive with a customer, should be handled by AI. This narrative dominated the first half of 2026, which is that anthropic open",
-    "supporting_takeaway": "Anthropic and OpenAI dominated the AI narrative in 2026, but their models may not always be the best fit for enterprise needs.",
-    "grokipedia_url": null,
-    "grokipedia_fetched_at": "2026-07-31T13:40:19.193357",
-    "pundit_profile": {
-      "source": "llm",
-      "source_model": "moonshot:moonshot-v1-8k",
-      "source_url": "",
-      "page_title": "Jesse Zang",
-      "fetched_at": "2026-07-31T18:40:19.193203+00:00",
-      "cliff_notes": "Jesse Zang is recognized for his work in the field of artificial intelligence, particularly in the context of enterprise software. As the co-founder of Decagon, Zang has been instrumental in the company's shift towards utilizing open source AI models, which has led to improved performance and control over their AI systems. His vision for AI's role in business extends beyond simple customer support, advocating for AI to manage and optimize business processes effectively. Zang's contributions to the field have been significant, as he promotes the idea that even with the advent of advanced general AI, there will still be a need for specialized software like Decagon's to manage and execute complex tasks.",
-      "derived": {
-        "current_role": "Co-founder of Decagon"
-      },
-      "infobox": {
-        "Born": "",
-        "Nationality": ""
-      },
-      "lead_paragraphs": [
-        "Jesse Zang is recognized for his work in the field of artificial intelligence, particularly in the context of enterprise software. As the co-founder of Decagon, Zang has been instrumental in the company's shift towards utilizing open source AI models, which has led to improved performance and control over their AI systems.",
-        "His vision for AI's role in business extends beyond simple customer support, advocating for AI to manage and optimize business processes effectively. Zang's contributions to the field have been significant, as he promotes the idea that even with the advent of advanced general AI, there will still be a need for specialized software like Decagon's to manage and execute complex tasks."
-      ],
-      "sections": [
-        {
-          "heading": "AI in Enterprise Software",
-          "body": "Jesse Zang has been a key figure in the integration of AI within enterprise software, emphasizing the importance of open source models for better control and performance."
-        },
-        {
-          "heading": "Open Source AI Models",
-          "body": "Zang is known for advocating the use of open source AI models at Decagon, which has led to superior performance in specific tasks compared to large proprietary models."
-        },
-        {
-          "heading": "AI and Business Processes",
-          "body": "Believing in the potential of AI to revolutionize business processes, Zang has positioned Decagon to create AI agents that can efficiently manage and execute complex business."
-        },
-        {
-          "heading": "Future of AI",
-          "body": "Jesse Zang contemplates the future of AI, suggesting that even with the development of advanced general AI, there will be a continued need for specialized software to handle specific business tasks."
-        }
-      ]
-    },
-    "net_worth": "$1.50B"
   },
   {
     "id": 98,
@@ -6393,6 +6269,130 @@
         }
       ]
     }
+  },
+  {
+    "id": 368,
+    "name": "Ashwin Srinivas",
+    "slug": "ashwin-srinivas",
+    "bio": "Ashwin Srinivas is a tech entrepreneur known for his work in AI and enterprise software. As co-founder of Decagon, he has focused on driving the productization and deployment of AI within large enterprises. His recent discussions revolve around the role of AI in business processes and the future of AI in enterprise software.",
+    "known_for": "Driving the productization and deployment of AI within large enterprises.",
+    "net_worth_usd": 32299999.999999996,
+    "net_worth_source": "https://www.analyticsinsight.net/business/aravind-srinivas-net-worth-startup-success-investment-highlights-career",
+    "net_worth_updated_at": "2026-07-31T13:40:29.337202",
+    "voice_tone": "Confident and knowledgeable",
+    "voice_style": "Factual and persuasive",
+    "voice_delivery_notes": "Clear and concise with a focus on the benefits of productized AI",
+    "voice_profile_updated_at": "2026-07-31 18:39:09",
+    "last_seen": "2026-07-31 18:39:09",
+    "last_episode_title": "How Enterprise AI Really Gets Deployed",
+    "last_podcast_name": "The a16z Show",
+    "last_episode_date": "2026-07-31",
+    "mention_score": 1,
+    "mention_score_decayed": 0.29,
+    "last_main_idea": "Investing in AI-driven enterprise software that leverages open source models can lead to better control, performance, and scalability, creating a competitive advantage in the market.",
+    "last_proof_cite": "The a16z Show \u2022 2026-07-31 \u2022 How Enterprise AI Really Gets Deployed",
+    "last_proof_snippet": "And AI agents should just be the funder of your business and every interaction, whether it's like reactive or proactive with a customer, should be handled by AI. This narrative dominated the first half of 2026, which is that anthropic open",
+    "supporting_takeaway": "Anthropic and OpenAI dominated the AI narrative in 2026, but their models may not always be the best fit for enterprise needs.",
+    "grokipedia_url": null,
+    "grokipedia_fetched_at": "2026-07-31T13:40:28.203701",
+    "pundit_profile": {
+      "source": "llm",
+      "source_model": "moonshot:moonshot-v1-8k",
+      "source_url": "",
+      "page_title": "Ashwin Srinivas",
+      "fetched_at": "2026-07-31T18:40:28.203551+00:00",
+      "cliff_notes": "Ashwin Srinivas is recognized for his contributions to the field of AI, particularly in the context of enterprise software. As the co-founder of Decagon, Srinivas has been at the forefront of integrating AI into business processes, aiming to enhance efficiency and effectiveness. His work underscores the importance of AI not just as a tool for customer support, but as a fundamental component of business operations. Srinivas envisions a future where AI agents are integral to every interaction within a business, whether reactive or proactive. His insights into the limitations of current AI models and the necessity for more controlled, task-specific AI solutions have positioned him as a thought leader in the industry.",
+      "derived": {
+        "current_role": "Co-founder of Decagon"
+      },
+      "infobox": {
+        "Born": "",
+        "Nationality": ""
+      },
+      "lead_paragraphs": [
+        "Ashwin Srinivas is recognized for his contributions to the field of AI, particularly in the context of enterprise software. As the co-founder of Decagon, Srinivas has been at the forefront of integrating AI into business processes, aiming to enhance efficiency and effectiveness. His work underscores the importance of AI not just as a tool for customer support, but as a fundamental component of business operations.",
+        "Srinivas envisions a future where AI agents are integral to every interaction within a business, whether reactive or proactive. His insights into the limitations of current AI models and the necessity for more controlled, task-specific AI solutions have positioned him as a thought leader in the industry."
+      ],
+      "sections": [
+        {
+          "heading": "AI in Enterprise",
+          "body": "Ashwin Srinivas is a proponent of using AI to streamline business processes within large enterprises, advocating for a more integrated approach to AI deployment."
+        },
+        {
+          "heading": "Future of AI",
+          "body": "Srinivas discusses the potential of AI to revolutionize business operations, even in the advent of AGI, suggesting that Decagon's role will be to provide AI that follows business processes effectively."
+        },
+        {
+          "heading": "Open Source AI",
+          "body": "He highlights the importance of open source in AI development, noting that for specific tasks, open source models can outperform larger, more established AI systems."
+        }
+      ]
+    },
+    "net_worth": "$32.3M"
+  },
+  {
+    "id": 367,
+    "name": "Jesse Zang",
+    "slug": "jesse-zang",
+    "bio": "Jesse Zang is the co-founder of Decagon, a company that specializes in AI-driven enterprise software. He is known for shifting Decagon's AI stack to open source models, which has resulted in better performance and control. Zang believes in the significance of AI in every interaction within a business and has been a proponent of using AI to handle customer support and business processes.",
+    "known_for": "Shifting Decagon's AI stack to open source models for enhanced performance and control.",
+    "net_worth_usd": 1500000000.0,
+    "net_worth_source": "https://founderspedia.com/jesse-zhang/",
+    "net_worth_updated_at": "2026-07-31T13:40:20.036553",
+    "voice_tone": "Confident and knowledgeable",
+    "voice_style": "Factual and persuasive",
+    "voice_delivery_notes": "Clear and concise with a focus on the benefits of open source AI models",
+    "voice_profile_updated_at": "2026-07-31 18:39:09",
+    "last_seen": "2026-07-31 18:39:09",
+    "last_episode_title": "How Enterprise AI Really Gets Deployed",
+    "last_podcast_name": "The a16z Show",
+    "last_episode_date": "2026-07-31",
+    "mention_score": 1,
+    "mention_score_decayed": 0.29,
+    "last_main_idea": "Investing in AI-driven enterprise software that leverages open source models can lead to better control, performance, and scalability, creating a competitive advantage in the market.",
+    "last_proof_cite": "The a16z Show \u2022 2026-07-31 \u2022 How Enterprise AI Really Gets Deployed",
+    "last_proof_snippet": "And AI agents should just be the funder of your business and every interaction, whether it's like reactive or proactive with a customer, should be handled by AI. This narrative dominated the first half of 2026, which is that anthropic open",
+    "supporting_takeaway": "Anthropic and OpenAI dominated the AI narrative in 2026, but their models may not always be the best fit for enterprise needs.",
+    "grokipedia_url": null,
+    "grokipedia_fetched_at": "2026-07-31T13:40:19.193357",
+    "pundit_profile": {
+      "source": "llm",
+      "source_model": "moonshot:moonshot-v1-8k",
+      "source_url": "",
+      "page_title": "Jesse Zang",
+      "fetched_at": "2026-07-31T18:40:19.193203+00:00",
+      "cliff_notes": "Jesse Zang is recognized for his work in the field of artificial intelligence, particularly in the context of enterprise software. As the co-founder of Decagon, Zang has been instrumental in the company's shift towards utilizing open source AI models, which has led to improved performance and control over their AI systems. His vision for AI's role in business extends beyond simple customer support, advocating for AI to manage and optimize business processes effectively. Zang's contributions to the field have been significant, as he promotes the idea that even with the advent of advanced general AI, there will still be a need for specialized software like Decagon's to manage and execute complex tasks.",
+      "derived": {
+        "current_role": "Co-founder of Decagon"
+      },
+      "infobox": {
+        "Born": "",
+        "Nationality": ""
+      },
+      "lead_paragraphs": [
+        "Jesse Zang is recognized for his work in the field of artificial intelligence, particularly in the context of enterprise software. As the co-founder of Decagon, Zang has been instrumental in the company's shift towards utilizing open source AI models, which has led to improved performance and control over their AI systems.",
+        "His vision for AI's role in business extends beyond simple customer support, advocating for AI to manage and optimize business processes effectively. Zang's contributions to the field have been significant, as he promotes the idea that even with the advent of advanced general AI, there will still be a need for specialized software like Decagon's to manage and execute complex tasks."
+      ],
+      "sections": [
+        {
+          "heading": "AI in Enterprise Software",
+          "body": "Jesse Zang has been a key figure in the integration of AI within enterprise software, emphasizing the importance of open source models for better control and performance."
+        },
+        {
+          "heading": "Open Source AI Models",
+          "body": "Zang is known for advocating the use of open source AI models at Decagon, which has led to superior performance in specific tasks compared to large proprietary models."
+        },
+        {
+          "heading": "AI and Business Processes",
+          "body": "Believing in the potential of AI to revolutionize business processes, Zang has positioned Decagon to create AI agents that can efficiently manage and execute complex business."
+        },
+        {
+          "heading": "Future of AI",
+          "body": "Jesse Zang contemplates the future of AI, suggesting that even with the development of advanced general AI, there will be a continued need for specialized software to handle specific business tasks."
+        }
+      ]
+    },
+    "net_worth": "$1.50B"
   },
   {
     "id": 366,
@@ -6768,7 +6768,7 @@
     "last_podcast_name": "Monetary Matters with Jack Farley",
     "last_episode_date": "2026-07-26",
     "mention_score": 1,
-    "mention_score_decayed": 0.27,
+    "mention_score_decayed": 0.26,
     "last_main_idea": "Contrary to popular belief, private credit and corporate debt are sustainable, and the real risk lies in government debt levels, which could lead to increased market volatility if not addressed.",
     "last_proof_cite": "Monetary Matters with Jack Farley \u2022 2026-07-26 \u2022 Debt Service Coverage in Private Markets Is Improving, Actually | Nicholas Brooks",
     "last_proof_snippet": "Over the past year, there's been some very bad press on private credit, including on this channel where recent guest Nick Nemitz said that he thinks it's almost inevitable that the next financial crisis will be caused by private credit. Tod",
@@ -7207,7 +7207,7 @@
     "last_podcast_name": "The a16z Show",
     "last_episode_date": "2026-07-21",
     "mention_score": 1,
-    "mention_score_decayed": 0.24,
+    "mention_score_decayed": 0.23,
     "last_main_idea": "Investing in physical AI and autonomous systems could lead to significant returns as these technologies transform the physical economy and unlock new productivity gains.",
     "last_proof_cite": "The a16z Show \u2022 2026-07-21 \u2022 Why Physical AI Is the Next Frontier | Applied Intuition",
     "last_proof_snippet": "Our mission is to put intelligence on a billion machines, and that we think that can have a profound impact on society. Applied intuition is a physical attack company. We put intelligence on machines. Cars, trucks, tanks, drones. It's a phy",
@@ -7967,7 +7967,7 @@
     "last_podcast_name": "Dwarkesh Podcast",
     "last_episode_date": "2026-07-10",
     "mention_score": 1,
-    "mention_score_decayed": 0.19,
+    "mention_score_decayed": 0.18,
     "last_main_idea": "While this episode does not present a direct investment thesis, it provides foundational knowledge about the principles of physics that could influence investment decisions in technology and space sectors.",
     "last_proof_cite": "Dwarkesh Podcast \u2022 2026-07-10 \u2022 Adam Brown \u2013 Einstein's happiest thought: General Relativity from scratch",
     "last_proof_snippet": "I'm back with Adam Brown. You currently need blue shift at Google DeepMine, which is cracking science and reasoning. In a previous life, Adam was a prolific physicist taught at Stanford and did research and everything from cosmology to stri",
@@ -10988,7 +10988,7 @@
     "last_podcast_name": "Monetary Matters with Jack Farley",
     "last_episode_date": "2026-06-07",
     "mention_score": 1,
-    "mention_score_decayed": 0.09,
+    "mention_score_decayed": 0.08,
     "last_main_idea": "Investors should be prepared for significant price volatility in the oil market due to geopolitical tensions and supply chain disruptions, with a focus on monitoring inventory levels and hedging strategies.",
     "last_proof_cite": "Monetary Matters with Jack Farley \u2022 2026-06-07 \u2022 \u201cSleepwalking into Crisis\u201d: Why The Oil Market Hasn\u2019t Imploded Yet | Kpler\u2019s Matt Smith",
     "last_proof_snippet": "Today's episode is brought to you by the two-cream corn fund, ticker CORN. Let's get into it. Got a very important conversation today. I'm joined by Matt Smith, director of research at Kepler, which is a research platform focused on commodi",
@@ -12082,7 +12082,7 @@
     "last_podcast_name": "The a16z Show",
     "last_episode_date": "2026-05-19",
     "mention_score": 1,
-    "mention_score_decayed": 0.06,
+    "mention_score_decayed": 0.05,
     "last_main_idea": "The core investment opportunity lies in companies that enhance production capabilities and efficiency in the defense sector, leveraging modern manufacturing techniques and integrating commercial markets.",
     "last_proof_cite": "The a16z Show \u2022 2026-05-19 \u2022 Rebuilding The American Shipyard",
     "last_proof_snippet": "There's a real generational opportunity to build what this country needs for the next hundred years and we need more founders, we need more builders and we need more folks in government pushing for change. It's really frustrating, how much",
@@ -12145,7 +12145,7 @@
     "last_podcast_name": "The a16z Show",
     "last_episode_date": "2026-05-19",
     "mention_score": 1,
-    "mention_score_decayed": 0.06,
+    "mention_score_decayed": 0.05,
     "last_main_idea": "The core investment opportunity lies in companies that enhance production capabilities and efficiency in the defense sector, leveraging modern manufacturing techniques and integrating commercial markets.",
     "last_proof_cite": "The a16z Show \u2022 2026-05-19 \u2022 Rebuilding The American Shipyard",
     "last_proof_snippet": "There's a real generational opportunity to build what this country needs for the next hundred years and we need more founders, we need more builders and we need more folks in government pushing for change. It's really frustrating, how much",
