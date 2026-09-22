@@ -20,6 +20,44 @@
       "podcast_episode_id": 504
     },
     {
+      "id": 520,
+      "title": "Naveen Rao: 4D Computing, AI's Energy Wall & Beating Biology",
+      "source_type": "podcast",
+      "source_name": "All-In with Chamath, Jason, Sacks & Friedberg",
+      "source_date": "2026-09-21",
+      "summary": "The podcast discusses the urgent need for energy-efficient AI solutions as current models consume vast amounts of power, with estimates suggesting Google's AI services alone require 12 gigawatts. Naveen Rau's company, Unconventional AI, aims to address this crisis by developing a new computing architecture that integrates memory and compute, targeting a 1,000x increase in power efficiency within 3.5 years. The conversation highlights the potential for exponential growth in the AI market, projected to reach a trillion dollars by 2030, if energy costs can be significantly reduced.",
+      "key_takeaway": "Investors should prioritize companies innovating in energy-efficient AI technologies, as the demand for AI services grows and energy consumption becomes a critical issue.",
+      "tickers_mentioned": [
+        "NVDA"
+      ],
+      "sentiment": "bullish",
+      "display_on_main": 0,
+      "display_order": 0,
+      "added_date": "2026-09-22",
+      "archived_date": null,
+      "archived_reason": null,
+      "podcast_episode_id": 506
+    },
+    {
+      "id": 521,
+      "title": "Jev: System One models for Prod, not God \u2014 with Diogo Almeida, CEO, TypeSafe AI",
+      "source_type": "podcast",
+      "source_name": "Latent Space: The AI Engineer Podcast",
+      "source_date": "2026-09-21",
+      "summary": "In this episode, Diogo discusses the launch of Jev, a new class of AI models designed for software integration, emphasizing the pivotal role of developers in the AI ecosystem. He argues that the integration of AI into software development is set to drive an economic revolution, highlighting the need for more efficient AI models that prioritize cost-effectiveness and reliability. The conversation also addresses the limitations of current AI models and advocates for a modular approach to problem-solving in AI development.",
+      "key_takeaway": "Investing in companies that develop system one AI models and prioritize developer engagement could yield significant returns as the AI-driven economic revolution unfolds.",
+      "tickers_mentioned": [
+        "NVDA"
+      ],
+      "sentiment": "neutral",
+      "display_on_main": 0,
+      "display_order": 0,
+      "added_date": "2026-09-22",
+      "archived_date": null,
+      "archived_reason": null,
+      "podcast_episode_id": 505
+    },
+    {
       "id": 516,
       "title": "Nas, Grandmaster Caz, Steve Stoute & Ben Horowitz on Paying Hip-Hop\u2019s Pioneers Their Due",
       "source_type": "podcast",
@@ -10291,8 +10329,8 @@
       "term": "Quantization",
       "description": "The process of reducing the precision of the numbers used to represent a mathematical element, such as an AI model, to enable more efficient storage and computation.",
       "first_detected_date": "2026-07-19",
-      "last_mentioned_date": "2026-09-01",
-      "mention_count": 4,
+      "last_mentioned_date": "2026-09-21",
+      "mention_count": 5,
       "source_podcasts": null,
       "status": "active",
       "investment_implications": "Quantization is crucial for making AI models more accessible and deployable across various devices, potentially leading to new investment opportunities in AI deployment and optimization.",
@@ -10301,8 +10339,8 @@
       "archived_reason": null,
       "first_detected_episode_id": 356,
       "first_detected_speaker": "Alex Wees, Sly Miss Mail, E-Modemoo",
-      "last_mentioned_episode_id": 450,
-      "last_mentioned_speaker": "Philip, Ali"
+      "last_mentioned_episode_id": 505,
+      "last_mentioned_speaker": "Diogo"
     },
     {
       "id": 259,
@@ -10705,8 +10743,8 @@
       "term": "SaaS Apocalypse",
       "description": "A term used to describe the significant sell-off in software as a service (SaaS) stocks due to AI disruption.",
       "first_detected_date": "2026-06-03",
-      "last_mentioned_date": "2026-09-16",
-      "mention_count": 14,
+      "last_mentioned_date": "2026-09-21",
+      "mention_count": 15,
       "source_podcasts": null,
       "status": "active",
       "investment_implications": "This presents an opportunity for investors to find undervalued SaaS companies that can emerge stronger post-disruption.",
@@ -10715,8 +10753,8 @@
       "archived_reason": null,
       "first_detected_episode_id": 257,
       "first_detected_speaker": null,
-      "last_mentioned_episode_id": 479,
-      "last_mentioned_speaker": "Keith Perez"
+      "last_mentioned_episode_id": 505,
+      "last_mentioned_speaker": "Diogo"
     },
     {
       "id": 275,
@@ -10811,20 +10849,20 @@
     {
       "id": 11,
       "term": "Jevon's Paradox",
-      "description": "The phenomenon where technological progress that increases the efficiency of a resource can lead to an increase in the rate of consumption of that resource, rather than a decrease.",
+      "description": "The theory that as technological improvements increase the efficiency of resource use, the overall consumption of that resource may increase.",
       "first_detected_date": "2026-05-30",
-      "last_mentioned_date": "2026-07-31",
-      "mention_count": 11,
+      "last_mentioned_date": "2026-09-21",
+      "mention_count": 13,
       "source_podcasts": null,
       "status": "active",
-      "investment_implications": "In the context of AI, Jevon's Paradox suggests that as AI becomes more efficient, the demand for AI services may increase, leading to more job creation rather than job displacement.",
+      "investment_implications": "Understanding this paradox is crucial for predicting market expansion in AI as efficiency improves.",
       "display_on_main": 1,
       "archived_date": null,
       "archived_reason": null,
       "first_detected_episode_id": 249,
       "first_detected_speaker": null,
-      "last_mentioned_episode_id": 377,
-      "last_mentioned_speaker": "Jesse Zang, Ashwin Srinivas"
+      "last_mentioned_episode_id": 506,
+      "last_mentioned_speaker": "Naveen Rau"
     },
     {
       "id": 100,
@@ -11065,8 +11103,8 @@
       "term": "AGI",
       "description": "AGI refers to Artificial General Intelligence, a type of AI that can understand, learn, and apply intelligence across a wide range of tasks, similar to human cognitive abilities.",
       "first_detected_date": "2026-05-07",
-      "last_mentioned_date": "2026-09-17",
-      "mention_count": 100,
+      "last_mentioned_date": "2026-09-21",
+      "mention_count": 101,
       "source_podcasts": null,
       "status": "active",
       "investment_implications": "Investors should focus on companies developing AGI technologies as they are likely to drive significant industry transformations.",
@@ -11075,8 +11113,8 @@
       "archived_reason": null,
       "first_detected_episode_id": 204,
       "first_detected_speaker": "Demis Hassabis",
-      "last_mentioned_episode_id": 493,
-      "last_mentioned_speaker": "Dario Amadeh"
+      "last_mentioned_episode_id": 505,
+      "last_mentioned_speaker": "Diogo"
     },
     {
       "id": 162,
