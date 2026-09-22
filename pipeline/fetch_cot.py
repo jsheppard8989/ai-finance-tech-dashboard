@@ -30,6 +30,8 @@ from typing import Optional, Dict, Any, List, Tuple
 from workspace_paths import SITE_DATA_DIR, STATE_DIR
 
 MARKET_DATA_FILE = SITE_DATA_DIR / "market_data.json"
+
+from market_data_io import load_market_data, save_market_data  # fail-closed I/O
 COT_PRIOR_NETS_FILE = STATE_DIR / "cot_prior_nets.json"
 
 # CFTC Disaggregated Futures-Only report for financial futures
@@ -790,33 +792,36 @@ def _rollup_data_status(market_data: Dict[str, Any]) -> str:
 def mark_cot_stale(error_reason: str) -> bool:
     """
     Mark existing cftc_cot data as stale without overwriting it.
-    Fail-closed: preserve last known good data.
+    Fail-closed: preserve last known good data; repair conflict markers if needed.
     """
     try:
         if not MARKET_DATA_FILE.exists():
             print(f"  ⚠ No existing market_data.json to mark stale")
             return False
-        
-        with open(MARKET_DATA_FILE, 'r') as f:
-            market_data = json.load(f)
-        
+
+        market_data, load_note = load_market_data(MARKET_DATA_FILE, repair=True)
+        if not market_data:
+            print(f"  ⚠ No usable market_data to mark stale ({load_note})")
+            return False
+
         if 'cftc_cot' in market_data:
             market_data['cftc_cot']['_stale'] = True
             market_data['cftc_cot']['_stale_since'] = datetime.now().isoformat()
             market_data['cftc_cot']['_stale_reason'] = error_reason
-        
+
         if 'data_fetch_status' in market_data:
             market_data['data_fetch_status']['cftc_cot'] = 'stale'
-        
-        # Roll up _data_status based on individual section statuses
+
         market_data['_data_status'] = _rollup_data_status(market_data)
-        
-        with open(MARKET_DATA_FILE, 'w') as f:
-            json.dump(market_data, f, indent=2)
-        
+
+        ok_save, save_msg = save_market_data(market_data, MARKET_DATA_FILE)
+        if not ok_save:
+            print(f"  ✗ Failed to mark data stale: {save_msg}")
+            return False
+
         print(f"  ⚠ Marked cftc_cot as stale: {error_reason}")
         return True
-        
+
     except Exception as e:
         print(f"  ✗ Failed to mark data stale: {e}")
         return False
@@ -825,10 +830,10 @@ def mark_cot_stale(error_reason: str) -> bool:
 def update_market_data(cot_data: Dict[str, Any]) -> bool:
     """Update market_data.json with the new COT data."""
     try:
-        if MARKET_DATA_FILE.exists():
-            with open(MARKET_DATA_FILE, 'r') as f:
-                market_data = json.load(f)
-        else:
+        market_data, load_note = load_market_data(MARKET_DATA_FILE, repair=True)
+        if load_note != "ok":
+            print(f"  ⚠ market_data load: {load_note}")
+        if not isinstance(market_data, dict):
             market_data = {}
         
         if '_stale' in cot_data:
@@ -847,9 +852,10 @@ def update_market_data(cot_data: Dict[str, Any]) -> bool:
         market_data['_data_status'] = _rollup_data_status(market_data)
         market_data['_updated'] = datetime.now().strftime('%Y-%m-%d')
         
-        with open(MARKET_DATA_FILE, 'w') as f:
-            json.dump(market_data, f, indent=2)
-        
+        ok_save, save_msg = save_market_data(market_data, MARKET_DATA_FILE)
+        if not ok_save:
+            print(f"  ✗ Refused to write market_data.json: {save_msg}")
+            return False
         print(f"  ✓ Updated {MARKET_DATA_FILE}")
         return True
         

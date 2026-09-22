@@ -29,6 +29,8 @@ from workspace_paths import SITE_DATA_DIR
 
 MARKET_DATA_FILE = SITE_DATA_DIR / "market_data.json"
 
+from market_data_io import load_market_data, save_market_data  # fail-closed I/O
+
 # Treasury.gov daily yield curve XML endpoint (no API key required)
 TREASURY_XML_URL = "https://home.treasury.gov/resource-center/data-chart-center/interest-rates/pages/xml"
 TREASURY_SOURCE_URL = "https://home.treasury.gov/resource-center/data-chart-center/interest-rates/TextView?type=daily_treasury_yield_curve"
@@ -496,33 +498,36 @@ def validate_curve_data(data: Dict[str, Any]) -> Tuple[bool, str]:
 def mark_curve_data_stale(error_reason: str) -> bool:
     """
     Mark existing curve_data as stale without overwriting it.
-    Preserves last-known-good values.
+    Preserves last-known-good values. Fail-closed on conflicted/invalid JSON.
     """
     try:
         if not MARKET_DATA_FILE.exists():
             print(f"  ⚠ No existing market_data.json to mark stale")
             return False
-        
-        with open(MARKET_DATA_FILE, 'r') as f:
-            market_data = json.load(f)
-        
+
+        market_data, load_note = load_market_data(MARKET_DATA_FILE, repair=True)
+        if not market_data:
+            print(f"  ⚠ No usable market_data to mark stale ({load_note})")
+            return False
+
         if 'curve_data' in market_data:
             market_data['curve_data']['_stale'] = True
             market_data['curve_data']['_stale_since'] = datetime.now().isoformat()
             market_data['curve_data']['_stale_reason'] = error_reason
-        
+
         if 'data_fetch_status' in market_data:
             market_data['data_fetch_status']['curve_data'] = 'stale'
-        
-        # Roll up _data_status based on individual section statuses
+
         market_data['_data_status'] = _rollup_data_status(market_data)
-        
-        with open(MARKET_DATA_FILE, 'w') as f:
-            json.dump(market_data, f, indent=2)
-        
+
+        ok_save, save_msg = save_market_data(market_data, MARKET_DATA_FILE)
+        if not ok_save:
+            print(f"  ✗ Failed to mark data stale: {save_msg}")
+            return False
+
         print(f"  ⚠ Marked curve_data as stale: {error_reason}")
         return True
-        
+
     except Exception as e:
         print(f"  ✗ Failed to mark data stale: {e}")
         return False
@@ -570,10 +575,10 @@ def _rollup_data_status(market_data: Dict[str, Any]) -> str:
 def update_market_data(curve_data: Dict[str, Any]) -> bool:
     """Update market_data.json with the new curve data."""
     try:
-        if MARKET_DATA_FILE.exists():
-            with open(MARKET_DATA_FILE, 'r') as f:
-                market_data = json.load(f)
-        else:
+        market_data, load_note = load_market_data(MARKET_DATA_FILE, repair=True)
+        if load_note != "ok":
+            print(f"  ⚠ market_data load: {load_note}")
+        if not isinstance(market_data, dict):
             market_data = {}
         
         # Remove stale flags if present
@@ -605,9 +610,10 @@ def update_market_data(curve_data: Dict[str, Any]) -> bool:
         market_data['_data_status'] = _rollup_data_status(market_data)
         market_data['_updated'] = datetime.now().strftime('%Y-%m-%d')
         
-        with open(MARKET_DATA_FILE, 'w') as f:
-            json.dump(market_data, f, indent=2)
-        
+        ok_save, save_msg = save_market_data(market_data, MARKET_DATA_FILE)
+        if not ok_save:
+            print(f"  ✗ Refused to write market_data.json: {save_msg}")
+            return False
         print(f"  ✓ Updated {MARKET_DATA_FILE}")
         return True
         

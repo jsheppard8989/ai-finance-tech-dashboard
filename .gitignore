@@ -91,3 +91,7 @@ ai-bench-press/__pycache__/
 
 # Encrypted prompt log — never commit decrypted plaintext
 prompts/jared_prompts.plain.txt
+
+# Fail-closed backup written by market_data_io (never commit)
+site/data/market_data.json.last_good
+

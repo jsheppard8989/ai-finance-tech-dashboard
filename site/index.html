@@ -2447,15 +2447,7 @@
   </div>
 
   <!-- Load dashboard data from pipeline (if available) -->
-<<<<<<< Updated upstream
   <script src="./data/data.js?v=1790078084"></script>
-=======
-<<<<<<< Updated upstream
-  <script src="./data/data.js?v=1790078084"></script>
-=======
-  <script src="./data/data.js?v=1790078084"></script>
->>>>>>> Stashed changes
->>>>>>> Stashed changes
   <script src="./js/common.js"></script>
   
   <script>
@@ -2908,7 +2900,7 @@
     async function loadMarketWidgets() {
       try {
         const resp = await fetch('./data/market_data.json', { cache: 'no-cache' });
-        if (!resp.ok) return;
+        if (!resp.ok) throw new Error('HTTP ' + resp.status);
         const data = await resp.json();
 
         // Update Treasury widget
@@ -3299,6 +3291,15 @@
 
       } catch (e) {
         console.warn('Could not load market_data.json:', e);
+        // Honest unavailable state — never leave silent "Coming soon" after parse/network failure
+        const unavailable =
+          '<span style="color: #f59e0b;">Unavailable — check Data Status</span>';
+        const hint =
+          '<div style="color: #6b7280; font-size: 0.65rem; margin-top: 0.2rem;">market_data.json stale/unavailable</div>';
+        ['treasury-widget', 'curve-widget', 'cot-widget', 'compute-forward-widget'].forEach(function(id) {
+          const el = document.getElementById(id);
+          if (el) el.innerHTML = unavailable + hint;
+        });
       }
     }
 

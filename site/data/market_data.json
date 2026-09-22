@@ -145,11 +145,7 @@
     "_fetch_url": "https://www.cftc.gov/dea/futures/financial_lf.htm",
     "_api_alternative": "Quandl CFTC dataset (may need key)",
     "_fetch_instructions": "CFTC releases COT every Friday at 3:30pm ET for positions as of prior Tuesday.",
-<<<<<<< Updated upstream
-    "last_updated": "2026-09-21T16:16:14.869283",
-=======
     "last_updated": "2026-09-21T22:32:44.093953",
->>>>>>> Stashed changes
     "report_date": "2026-09-15",
     "prior_report_date": "2026-09-08",
     "rates_positioning": {
