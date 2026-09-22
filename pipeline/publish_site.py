@@ -118,7 +118,17 @@ def validate_site_bundle(site_data: Path) -> tuple[bool, str]:
             "Run fetch_prices.py before export."
         )
 
-    return True, "Bundle OK (data.js + status.json + pundits.json + QQQ/BTC)"
+    # Fail-closed: conflict markers or invalid Pages JSON/JS/HTML must never ship
+    try:
+        from market_data_io import scan_site_for_conflict_or_bad_json
+        from workspace_paths import SITE_DIR
+        ok_scan, scan_msg = scan_site_for_conflict_or_bad_json(SITE_DIR)
+        if not ok_scan:
+            return False, scan_msg
+    except Exception as e:
+        return False, f"site conflict/JSON scan failed: {e}"
+
+    return True, "Bundle OK (data.js + status.json + pundits.json + QQQ/BTC + no conflict markers)"
 
 
 def run_export() -> None:

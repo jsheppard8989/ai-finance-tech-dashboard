@@ -30,6 +30,8 @@ from typing import Optional, Dict, Any, List
 from workspace_paths import SITE_DATA_DIR
 
 MARKET_DATA_FILE = SITE_DATA_DIR / "market_data.json"
+
+from market_data_io import load_market_data, save_market_data  # fail-closed I/O
 API_URL = "https://gpu-index.semianalysis.com/api/public-data"
 SOURCE_URL = "https://gpu-index.semianalysis.com/"
 
@@ -435,31 +437,36 @@ def mark_data_stale(error_reason: str) -> bool:
     Mark existing compute_forward data as stale without overwriting it.
     Called on fetch failure so the widget shows the last known good data
     with a staleness indicator rather than fabricated or missing values.
+    Fail-closed on conflicted/invalid JSON.
     """
     try:
         if not MARKET_DATA_FILE.exists():
             print(f"  ⚠ No existing market_data.json to mark stale")
             return False
-        
-        with open(MARKET_DATA_FILE, 'r') as f:
-            market_data = json.load(f)
-        
+
+        market_data, load_note = load_market_data(MARKET_DATA_FILE, repair=True)
+        if not market_data:
+            print(f"  ⚠ No usable market_data to mark stale ({load_note})")
+            return False
+
         if 'compute_forward' in market_data:
             market_data['compute_forward']['_stale'] = True
             market_data['compute_forward']['_stale_since'] = datetime.now().isoformat()
             market_data['compute_forward']['_stale_reason'] = error_reason
-        
+
         if 'data_fetch_status' in market_data:
             market_data['data_fetch_status']['compute_forward'] = 'stale'
-        
+
         market_data['_data_status'] = _rollup_data_status(market_data)
-        
-        with open(MARKET_DATA_FILE, 'w') as f:
-            json.dump(market_data, f, indent=2)
-        
+
+        ok_save, save_msg = save_market_data(market_data, MARKET_DATA_FILE)
+        if not ok_save:
+            print(f"  ✗ Failed to mark data stale: {save_msg}")
+            return False
+
         print(f"  ⚠ Marked compute_forward as stale: {error_reason}")
         return True
-        
+
     except Exception as e:
         print(f"  ✗ Failed to mark data stale: {e}")
         return False
@@ -468,10 +475,10 @@ def mark_data_stale(error_reason: str) -> bool:
 def update_market_data(gpu_data: Dict[str, Any]) -> bool:
     """Update market_data.json with the new GPU index data."""
     try:
-        if MARKET_DATA_FILE.exists():
-            with open(MARKET_DATA_FILE, 'r') as f:
-                market_data = json.load(f)
-        else:
+        market_data, load_note = load_market_data(MARKET_DATA_FILE, repair=True)
+        if load_note != "ok":
+            print(f"  ⚠ market_data load: {load_note}")
+        if not isinstance(market_data, dict):
             market_data = {}
         
         if '_stale' in gpu_data:
@@ -489,9 +496,10 @@ def update_market_data(gpu_data: Dict[str, Any]) -> bool:
         market_data['_data_status'] = _rollup_data_status(market_data)
         market_data['_updated'] = datetime.now().strftime('%Y-%m-%d')
         
-        with open(MARKET_DATA_FILE, 'w') as f:
-            json.dump(market_data, f, indent=2)
-        
+        ok_save, save_msg = save_market_data(market_data, MARKET_DATA_FILE)
+        if not ok_save:
+            print(f"  ✗ Refused to write market_data.json: {save_msg}")
+            return False
         print(f"  ✓ Updated {MARKET_DATA_FILE}")
         return True
         
