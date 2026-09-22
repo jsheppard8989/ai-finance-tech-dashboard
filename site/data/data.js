@@ -3,1043 +3,1043 @@
 
 const dashboardData = {
   schemaVersion: 2,
-  generatedAt: "2026-09-21T14:15:16.328962",
-  chartsVersion: "2026-09-21T14:15:00.951984",
+  generatedAt: "2026-09-21T22:33:17.101410",
+  chartsVersion: "2026-09-21T22:33:01.274761",
   priceSnapshot: {
   "AAPL": {
-    "price": 338.79,
-    "change_pct": 4.2,
+    "price": 338.98,
+    "change_pct": 4.26,
     "name": "Apple Inc.",
-    "updated_at": "2026-09-21T14:13:42.298293",
+    "updated_at": "2026-09-21T22:31:42.179689",
     "price_14d_ago": 325.13
   },
   "AEP": {
-    "price": 120.14,
-    "change_pct": -2.3,
+    "price": 120.03,
+    "change_pct": -2.38,
     "name": "American Electric Power Company",
-    "updated_at": "2026-09-21T14:13:42.620913",
+    "updated_at": "2026-09-21T22:31:42.437279",
     "price_14d_ago": 122.96
   },
   "AMD": {
-    "price": 612.41,
-    "change_pct": 33.25,
+    "price": 615.52,
+    "change_pct": 33.92,
     "name": "Advanced Micro Devices, Inc.",
-    "updated_at": "2026-09-21T14:13:42.839223",
+    "updated_at": "2026-09-21T22:31:42.654781",
     "price_14d_ago": 459.61
   },
   "AMGN": {
-    "price": 392.15,
-    "change_pct": -10.49,
+    "price": 393.16,
+    "change_pct": -10.26,
     "name": "Amgen Inc.",
-    "updated_at": "2026-09-21T14:13:43.097722",
+    "updated_at": "2026-09-21T22:31:42.912914",
     "price_14d_ago": 438.12
   },
   "AMZN": {
-    "price": 259.25,
-    "change_pct": 1.7,
+    "price": 258.45,
+    "change_pct": 1.38,
     "name": "Amazon.com, Inc.",
-    "updated_at": "2026-09-21T14:13:43.339979",
+    "updated_at": "2026-09-21T22:31:43.136665",
     "price_14d_ago": 254.92
   },
   "APO": {
-    "price": 128.43,
-    "change_pct": -2.48,
+    "price": 127.91,
+    "change_pct": -2.87,
     "name": "Apollo Global Management, Inc. ",
-    "updated_at": "2026-09-21T14:13:43.612746",
+    "updated_at": "2026-09-21T22:31:43.332377",
     "price_14d_ago": 131.69
   },
   "APTV": {
-    "price": 43.87,
-    "change_pct": -2.2,
+    "price": 43.57,
+    "change_pct": -2.85,
     "name": "Aptiv PLC",
-    "updated_at": "2026-09-21T14:13:43.864023",
+    "updated_at": "2026-09-21T22:31:43.569316",
     "price_14d_ago": 44.85
   },
   "AVGO": {
-    "price": 363.17,
-    "change_pct": -1.76,
+    "price": 362.66,
+    "change_pct": -1.9,
     "name": "Broadcom Inc.",
-    "updated_at": "2026-09-21T14:13:44.162596",
+    "updated_at": "2026-09-21T22:31:43.827575",
     "price_14d_ago": 369.68
   },
   "BA": {
-    "price": 200.8,
-    "change_pct": -2.36,
+    "price": 201.15,
+    "change_pct": -2.19,
     "name": "Boeing Company (The)",
-    "updated_at": "2026-09-21T14:13:44.666795",
+    "updated_at": "2026-09-21T22:31:44.247569",
     "price_14d_ago": 205.66
   },
   "BABA": {
-    "price": 115.78,
-    "change_pct": 2.59,
+    "price": 115.75,
+    "change_pct": 2.57,
     "name": "Alibaba Group Holding Limited",
-    "updated_at": "2026-09-21T14:13:44.892574",
+    "updated_at": "2026-09-21T22:31:44.460302",
     "price_14d_ago": 112.85
   },
   "BAC": {
-    "price": 58.23,
-    "change_pct": -6.07,
+    "price": 57.96,
+    "change_pct": -6.5,
     "name": "Bank of America Corporation",
-    "updated_at": "2026-09-21T14:13:45.145965",
+    "updated_at": "2026-09-21T22:31:44.686491",
     "price_14d_ago": 61.99
   },
   "BAM": {
-    "price": 46.37,
-    "change_pct": -6.63,
+    "price": 46.22,
+    "change_pct": -6.93,
     "name": "Brookfield Asset Management Inc",
-    "updated_at": "2026-09-21T14:13:45.336703",
+    "updated_at": "2026-09-21T22:31:44.903338",
     "price_14d_ago": 49.66
   },
   "BIDU": {
-    "price": 92.46,
-    "change_pct": -2.53,
+    "price": 92.21,
+    "change_pct": -2.79,
     "name": "Baidu, Inc.",
-    "updated_at": "2026-09-21T14:13:45.900081",
+    "updated_at": "2026-09-21T22:31:45.376418",
     "price_14d_ago": 94.86
   },
   "BP": {
-    "price": 43.37,
-    "change_pct": -2.47,
+    "price": 43.16,
+    "change_pct": -2.95,
     "name": "BP p.l.c.",
-    "updated_at": "2026-09-21T14:13:46.426596",
+    "updated_at": "2026-09-21T22:31:45.873232",
     "price_14d_ago": 44.47
   },
   "BTC": {
-    "price": 86037.03,
-    "change_pct": 9.69,
+    "price": 85459.49,
+    "change_pct": 9.2,
     "name": "Bitcoin USD",
-    "updated_at": "2026-09-21T14:13:46.649902",
-    "price_14d_ago": 78438.58
+    "updated_at": "2026-09-21T22:31:46.068818",
+    "price_14d_ago": 78259.52
   },
   "BTC-USD": {
-    "price": 86036.36,
-    "change_pct": 9.69,
+    "price": 85459.49,
+    "change_pct": 9.2,
     "name": "Bitcoin USD",
-    "updated_at": "2026-09-21T14:13:46.880695",
-    "price_14d_ago": 78438.58
+    "updated_at": "2026-09-21T22:31:46.317670",
+    "price_14d_ago": 78259.52
   },
   "BX": {
-    "price": 126.73,
-    "change_pct": -7.27,
+    "price": 126.41,
+    "change_pct": -7.5,
     "name": "Blackstone Inc.",
-    "updated_at": "2026-09-21T14:13:47.091352",
+    "updated_at": "2026-09-21T22:31:46.575659",
     "price_14d_ago": 136.66
   },
   "BYD": {
-    "price": 72.38,
-    "change_pct": -5.26,
+    "price": 72.58,
+    "change_pct": -4.99,
     "name": "Boyd Gaming Corporation",
-    "updated_at": "2026-09-21T14:13:47.307342",
+    "updated_at": "2026-09-21T22:31:46.811559",
     "price_14d_ago": 76.39
   },
   "CAT": {
-    "price": 818.74,
-    "change_pct": 5.08,
+    "price": 816.5,
+    "change_pct": 4.79,
     "name": "Caterpillar, Inc.",
-    "updated_at": "2026-09-21T14:13:47.778443",
+    "updated_at": "2026-09-21T22:31:47.300395",
     "price_14d_ago": 779.16
   },
   "CCJ": {
-    "price": 93.65,
-    "change_pct": -2.71,
+    "price": 93.23,
+    "change_pct": -3.15,
     "name": "Cameco Corporation",
-    "updated_at": "2026-09-21T14:13:48.008459",
+    "updated_at": "2026-09-21T22:31:47.551634",
     "price_14d_ago": 96.26
   },
   "CEG": {
-    "price": 264.09,
-    "change_pct": -5.79,
+    "price": 262.11,
+    "change_pct": -6.49,
     "name": "Constellation Energy Corporatio",
-    "updated_at": "2026-09-21T14:13:48.228208",
+    "updated_at": "2026-09-21T22:31:47.815830",
     "price_14d_ago": 280.31
   },
   "COIN": {
-    "price": 201.77,
-    "change_pct": 14.11,
+    "price": 201.05,
+    "change_pct": 13.7,
     "name": "Coinbase Global, Inc.",
-    "updated_at": "2026-09-21T14:13:48.457943",
+    "updated_at": "2026-09-21T22:31:48.033838",
     "price_14d_ago": 176.82
   },
   "COPPER": {
-    "price": 6.77,
-    "change_pct": 4.12,
+    "price": 6.82,
+    "change_pct": 4.94,
     "name": "Copper",
-    "updated_at": "2026-09-21T14:13:48.726856",
-    "price_14d_ago": 6.51
+    "updated_at": "2026-09-21T22:31:48.226062",
+    "price_14d_ago": 6.5
   },
   "CORN": {
-    "price": 20.23,
-    "change_pct": -0.27,
+    "price": 20.27,
+    "change_pct": -0.1,
     "name": "Teucrium Corn Fund ETV",
-    "updated_at": "2026-09-21T14:13:48.948368",
+    "updated_at": "2026-09-21T22:31:48.454600",
     "price_14d_ago": 20.29
   },
   "CRM": {
-    "price": 237.68,
-    "change_pct": -7.92,
+    "price": 236.42,
+    "change_pct": -8.4,
     "name": "Salesforce, Inc.",
-    "updated_at": "2026-09-21T14:13:49.165171",
+    "updated_at": "2026-09-21T22:31:48.693810",
     "price_14d_ago": 258.11
   },
   "CROWD": {
-    "price": 249.69,
-    "change_pct": 16.1,
+    "price": 249.35,
+    "change_pct": 15.94,
     "name": "CrowdStrike Holdings, Inc.",
-    "updated_at": "2026-09-21T14:13:49.354786",
+    "updated_at": "2026-09-21T22:31:48.938526",
     "price_14d_ago": 215.07
   },
   "DBC": {
-    "price": 32.66,
-    "change_pct": 2.27,
+    "price": 32.58,
+    "change_pct": 2.04,
     "name": "Invesco DB Commodity Index Trac",
-    "updated_at": "2026-09-21T14:13:49.857173",
+    "updated_at": "2026-09-21T22:31:49.415805",
     "price_14d_ago": 31.93
   },
   "DELL": {
-    "price": 579.54,
-    "change_pct": 36.36,
+    "price": 575.31,
+    "change_pct": 35.37,
     "name": "Dell Technologies Inc.",
-    "updated_at": "2026-09-21T14:13:50.054624",
+    "updated_at": "2026-09-21T22:31:49.644028",
     "price_14d_ago": 425.0
   },
   "DIS": {
-    "price": 104.44,
-    "change_pct": -1.68,
+    "price": 104.23,
+    "change_pct": -1.87,
     "name": "Walt Disney Company (The)",
-    "updated_at": "2026-09-21T14:13:50.335998",
+    "updated_at": "2026-09-21T22:31:49.928463",
     "price_14d_ago": 106.22
   },
   "DOCS": {
-    "price": 26.58,
-    "change_pct": 0.87,
+    "price": 26.84,
+    "change_pct": 1.86,
     "name": "Doximity, Inc.",
-    "updated_at": "2026-09-21T14:13:50.556646",
+    "updated_at": "2026-09-21T22:31:50.167367",
     "price_14d_ago": 26.35
   },
   "DVN": {
-    "price": 47.61,
-    "change_pct": -2.94,
+    "price": 47.59,
+    "change_pct": -2.98,
     "name": "Devon Energy Corporation",
-    "updated_at": "2026-09-21T14:13:50.786078",
+    "updated_at": "2026-09-21T22:31:50.429417",
     "price_14d_ago": 49.05
   },
   "EBAY": {
-    "price": 109.42,
-    "change_pct": 4.22,
+    "price": 108.3,
+    "change_pct": 3.16,
     "name": "eBay Inc.",
-    "updated_at": "2026-09-21T14:13:50.987730",
+    "updated_at": "2026-09-21T22:31:50.678479",
     "price_14d_ago": 104.98
   },
   "ETH-USD": {
-    "price": 2760.04,
-    "change_pct": 11.07,
+    "price": 2734.59,
+    "change_pct": 10.85,
     "name": "Ethereum USD",
-    "updated_at": "2026-09-21T14:13:51.201974",
-    "price_14d_ago": 2484.94
+    "updated_at": "2026-09-21T22:31:50.908625",
+    "price_14d_ago": 2466.91
   },
   "F": {
-    "price": 13.21,
-    "change_pct": -4.59,
+    "price": 13.17,
+    "change_pct": -4.84,
     "name": "Ford Motor Company",
-    "updated_at": "2026-09-21T14:13:51.483108",
+    "updated_at": "2026-09-21T22:31:51.190392",
     "price_14d_ago": 13.84
   },
   "FB": {
-    "price": 45.75,
-    "change_pct": 1.68,
+    "price": 45.7,
+    "change_pct": 1.56,
     "name": "ProShares S&P 500 Dynamic Buffe",
-    "updated_at": "2026-09-21T14:13:51.704173",
+    "updated_at": "2026-09-21T22:31:51.412071",
     "price_14d_ago": 44.99
   },
   "FCX": {
-    "price": 72.12,
-    "change_pct": -0.48,
+    "price": 72.16,
+    "change_pct": -0.43,
     "name": "Freeport-McMoRan, Inc.",
-    "updated_at": "2026-09-21T14:13:51.960241",
+    "updated_at": "2026-09-21T22:31:51.664900",
     "price_14d_ago": 72.47
   },
   "FSK": {
-    "price": 11.48,
-    "change_pct": -6.4,
+    "price": 11.43,
+    "change_pct": -6.85,
     "name": "FS KKR Capital Corp.",
-    "updated_at": "2026-09-21T14:13:52.643338",
+    "updated_at": "2026-09-21T22:31:52.315939",
     "price_14d_ago": 12.27
   },
   "GC": {
     "price": 0,
     "change_pct": 0,
     "name": "Gold",
-    "updated_at": "2026-09-21T14:13:52.935565",
+    "updated_at": "2026-09-21T22:31:52.513965",
     "price_14d_ago": null
   },
   "GD": {
-    "price": 354.42,
-    "change_pct": -4.06,
+    "price": 353.9,
+    "change_pct": -4.2,
     "name": "General Dynamics Corporation",
-    "updated_at": "2026-09-21T14:13:53.208391",
+    "updated_at": "2026-09-21T22:31:52.791958",
     "price_14d_ago": 369.41
   },
   "GE": {
-    "price": 320.63,
-    "change_pct": -3.16,
+    "price": 319.01,
+    "change_pct": -3.65,
     "name": "GE Aerospace",
-    "updated_at": "2026-09-21T14:13:53.463312",
+    "updated_at": "2026-09-21T22:31:53.109504",
     "price_14d_ago": 331.09
   },
   "GLD": {
-    "price": 398.44,
-    "change_pct": 0.43,
+    "price": 398.38,
+    "change_pct": 0.41,
     "name": "SPDR Gold Shares",
-    "updated_at": "2026-09-21T14:13:53.674732",
+    "updated_at": "2026-09-21T22:31:53.339830",
     "price_14d_ago": 396.75
   },
   "GME": {
-    "price": 22.87,
-    "change_pct": 21.59,
+    "price": 22.76,
+    "change_pct": 21.0,
     "name": "GameStop Corporation",
-    "updated_at": "2026-09-21T14:13:53.909334",
+    "updated_at": "2026-09-21T22:31:53.569046",
     "price_14d_ago": 18.81
   },
   "GOLD": {
-    "price": 4381.3,
-    "change_pct": -0.34,
+    "price": 4381.8,
+    "change_pct": -0.74,
     "name": "Gold",
-    "updated_at": "2026-09-21T14:13:54.132983",
-    "price_14d_ago": 4396.4
+    "updated_at": "2026-09-21T22:31:53.760729",
+    "price_14d_ago": 4414.6
   },
   "GOOG": {
-    "price": 351.46,
-    "change_pct": 5.85,
+    "price": 350.87,
+    "change_pct": 5.67,
     "name": "Alphabet Inc.",
-    "updated_at": "2026-09-21T14:13:54.375707",
+    "updated_at": "2026-09-21T22:31:54.008482",
     "price_14d_ago": 332.03
   },
   "GOOGL": {
-    "price": 355.36,
-    "change_pct": 6.07,
+    "price": 354.97,
+    "change_pct": 5.95,
     "name": "Alphabet Inc.",
-    "updated_at": "2026-09-21T14:13:54.578754",
+    "updated_at": "2026-09-21T22:31:54.250951",
     "price_14d_ago": 335.02
   },
   "GS": {
-    "price": 959.12,
-    "change_pct": -4.33,
+    "price": 959.39,
+    "change_pct": -4.31,
     "name": "Goldman Sachs Group, Inc. (The)",
-    "updated_at": "2026-09-21T14:13:54.823281",
+    "updated_at": "2026-09-21T22:31:54.560572",
     "price_14d_ago": 1002.56
   },
   "Gold": {
-    "price": 43.77,
-    "change_pct": 1.41,
+    "price": 43.8,
+    "change_pct": 1.48,
     "name": "Gold.com, Inc.",
-    "updated_at": "2026-09-21T14:13:55.051982",
+    "updated_at": "2026-09-21T22:31:54.770163",
     "price_14d_ago": 43.16
   },
   "HFGM": {
-    "price": 32.22,
-    "change_pct": 1.81,
+    "price": 32.12,
+    "change_pct": 1.49,
     "name": "Unlimited HFGM Global Macro ETF",
-    "updated_at": "2026-09-21T14:13:55.311616",
+    "updated_at": "2026-09-21T22:31:55.005180",
     "price_14d_ago": 31.65
   },
   "HG": {
-    "price": 34.21,
-    "change_pct": -2.4,
+    "price": 33.87,
+    "change_pct": -3.37,
     "name": "Hamilton Insurance Group, Ltd.",
-    "updated_at": "2026-09-21T14:13:55.527630",
+    "updated_at": "2026-09-21T22:31:55.226312",
     "price_14d_ago": 35.05
   },
   "IBM": {
-    "price": 230.49,
-    "change_pct": -0.4,
+    "price": 231.93,
+    "change_pct": 0.23,
     "name": "International Business Machines",
-    "updated_at": "2026-09-21T14:13:56.046605",
+    "updated_at": "2026-09-21T22:31:55.728528",
     "price_14d_ago": 231.4
   },
   "IEF": {
-    "price": 91.09,
-    "change_pct": -1.09,
+    "price": 91.15,
+    "change_pct": -1.03,
     "name": "iShares 7-10 Year Treasury Bond",
-    "updated_at": "2026-09-21T14:13:56.317396",
+    "updated_at": "2026-09-21T22:31:56.002314",
     "price_14d_ago": 92.1
   },
   "INDA": {
-    "price": 48.52,
-    "change_pct": -2.13,
+    "price": 48.5,
+    "change_pct": -2.18,
     "name": "Ishares MSCI India ETF",
-    "updated_at": "2026-09-21T14:13:56.548718",
+    "updated_at": "2026-09-21T22:31:56.222565",
     "price_14d_ago": 49.58
   },
   "INFY": {
-    "price": 10.93,
-    "change_pct": -8.96,
+    "price": 10.89,
+    "change_pct": -9.25,
     "name": "Infosys Limited",
-    "updated_at": "2026-09-21T14:13:56.783718",
+    "updated_at": "2026-09-21T22:31:56.479741",
     "price_14d_ago": 12.0
   },
   "INTC": {
-    "price": 121.31,
-    "change_pct": 36.35,
+    "price": 121.78,
+    "change_pct": 36.88,
     "name": "Intel Corporation",
-    "updated_at": "2026-09-21T14:13:57.009219",
+    "updated_at": "2026-09-21T22:31:56.720764",
     "price_14d_ago": 88.97
   },
   "IWD": {
-    "price": 253.91,
-    "change_pct": -0.8,
+    "price": 253.45,
+    "change_pct": -0.98,
     "name": "iShares Russell 1000 Value ETF",
-    "updated_at": "2026-09-21T14:13:57.338896",
+    "updated_at": "2026-09-21T22:31:56.986654",
     "price_14d_ago": 255.95
   },
   "IWF": {
-    "price": 126.31,
-    "change_pct": 4.2,
+    "price": 126.25,
+    "change_pct": 4.16,
     "name": "iShares Russell 1000 Growth Fun",
-    "updated_at": "2026-09-21T14:13:57.583424",
+    "updated_at": "2026-09-21T22:31:57.227718",
     "price_14d_ago": 121.21
   },
   "IWM": {
-    "price": 286.21,
-    "change_pct": -1.5,
+    "price": 285.58,
+    "change_pct": -1.72,
     "name": "iShares Russell 2000 Index Fund",
-    "updated_at": "2026-09-21T14:13:57.823664",
+    "updated_at": "2026-09-21T22:31:57.464313",
     "price_14d_ago": 290.57
   },
   "JNJ": {
-    "price": 270.83,
-    "change_pct": -0.13,
+    "price": 269.47,
+    "change_pct": -0.63,
     "name": "Johnson & Johnson",
-    "updated_at": "2026-09-21T14:13:58.076865",
+    "updated_at": "2026-09-21T22:31:57.724186",
     "price_14d_ago": 271.19
   },
   "JPM": {
-    "price": 352.14,
-    "change_pct": -0.79,
+    "price": 352.04,
+    "change_pct": -0.82,
     "name": "JP Morgan Chase & Co.",
-    "updated_at": "2026-09-21T14:13:58.349399",
+    "updated_at": "2026-09-21T22:31:57.982327",
     "price_14d_ago": 354.95
   },
   "KKR": {
-    "price": 100.97,
-    "change_pct": -5.11,
+    "price": 100.83,
+    "change_pct": -5.24,
     "name": "KKR & Co. Inc.",
-    "updated_at": "2026-09-21T14:13:58.580490",
+    "updated_at": "2026-09-21T22:31:58.237917",
     "price_14d_ago": 106.41
   },
   "LLY": {
-    "price": 1163.61,
-    "change_pct": 0.31,
+    "price": 1164.89,
+    "change_pct": 0.42,
     "name": "Eli Lilly and Company",
-    "updated_at": "2026-09-21T14:13:58.834835",
+    "updated_at": "2026-09-21T22:31:58.469939",
     "price_14d_ago": 1160.0
   },
   "LMT": {
-    "price": 534.57,
-    "change_pct": -1.82,
+    "price": 535.4,
+    "change_pct": -1.67,
     "name": "Lockheed Martin Corporation",
-    "updated_at": "2026-09-21T14:13:59.134628",
+    "updated_at": "2026-09-21T22:31:58.781656",
     "price_14d_ago": 544.5
   },
   "LYFT": {
-    "price": 15.29,
-    "change_pct": -8.83,
+    "price": 15.27,
+    "change_pct": -8.94,
     "name": "Lyft, Inc.",
-    "updated_at": "2026-09-21T14:13:59.814270",
+    "updated_at": "2026-09-21T22:31:59.489281",
     "price_14d_ago": 16.77
   },
   "META": {
-    "price": 744.55,
-    "change_pct": 28.69,
+    "price": 741.25,
+    "change_pct": 28.12,
     "name": "Meta Platforms, Inc.",
-    "updated_at": "2026-09-21T14:14:00.056085",
+    "updated_at": "2026-09-21T22:31:59.763722",
     "price_14d_ago": 578.54
   },
   "MGM": {
-    "price": 38.62,
-    "change_pct": -5.29,
+    "price": 38.73,
+    "change_pct": -5.0,
     "name": "MGM Resorts International",
-    "updated_at": "2026-09-21T14:14:00.298177",
+    "updated_at": "2026-09-21T22:31:59.976825",
     "price_14d_ago": 40.77
   },
   "MINE": {
-    "price": 2.88,
-    "change_pct": -6.8,
+    "price": 2.93,
+    "change_pct": -5.18,
     "name": "Mayfair Gold Corp.",
-    "updated_at": "2026-09-21T14:14:00.533734",
+    "updated_at": "2026-09-21T22:32:00.220902",
     "price_14d_ago": 3.09
   },
   "MRK": {
-    "price": 150.2,
-    "change_pct": 0.23,
+    "price": 149.5,
+    "change_pct": -0.24,
     "name": "Merck & Company, Inc.",
-    "updated_at": "2026-09-21T14:14:00.799811",
+    "updated_at": "2026-09-21T22:32:00.487036",
     "price_14d_ago": 149.86
   },
   "MRNA": {
-    "price": 174.1,
-    "change_pct": 12.86,
+    "price": 172.94,
+    "change_pct": 12.1,
     "name": "Moderna, Inc.",
-    "updated_at": "2026-09-21T14:14:01.048663",
+    "updated_at": "2026-09-21T22:32:00.677824",
     "price_14d_ago": 154.27
   },
   "MS": {
-    "price": 206.57,
-    "change_pct": -2.12,
+    "price": 206.12,
+    "change_pct": -2.33,
     "name": "Morgan Stanley",
-    "updated_at": "2026-09-21T14:14:01.341218",
+    "updated_at": "2026-09-21T22:32:00.904345",
     "price_14d_ago": 211.04
   },
   "MSFT": {
-    "price": 499.51,
-    "change_pct": -0.3,
+    "price": 501.61,
+    "change_pct": 0.12,
     "name": "Microsoft Corporation",
-    "updated_at": "2026-09-21T14:14:01.678668",
+    "updated_at": "2026-09-21T22:32:01.176279",
     "price_14d_ago": 501.02
   },
   "MSTR": {
-    "price": 166.68,
-    "change_pct": 33.47,
+    "price": 168.5,
+    "change_pct": 34.93,
     "name": "Strategy Inc",
-    "updated_at": "2026-09-21T14:14:01.868808",
+    "updated_at": "2026-09-21T22:32:01.409999",
     "price_14d_ago": 124.88
   },
   "MU": {
-    "price": 1046.88,
-    "change_pct": 12.15,
+    "price": 1043.96,
+    "change_pct": 11.84,
     "name": "Micron Technology, Inc.",
-    "updated_at": "2026-09-21T14:14:02.121492",
+    "updated_at": "2026-09-21T22:32:01.655987",
     "price_14d_ago": 933.44
   },
   "NEE": {
-    "price": 79.75,
-    "change_pct": -3.83,
+    "price": 79.63,
+    "change_pct": -3.98,
     "name": "NextEra Energy, Inc.",
-    "updated_at": "2026-09-21T14:14:02.399481",
+    "updated_at": "2026-09-21T22:32:01.917569",
     "price_14d_ago": 82.93
   },
   "NFLX": {
-    "price": 73.62,
-    "change_pct": -8.9,
+    "price": 73.36,
+    "change_pct": -9.22,
     "name": "Netflix, Inc.",
-    "updated_at": "2026-09-21T14:14:02.581207",
+    "updated_at": "2026-09-21T22:32:02.127650",
     "price_14d_ago": 80.81
   },
   "NKE": {
-    "price": 36.12,
-    "change_pct": -5.23,
+    "price": 36.1,
+    "change_pct": -5.3,
     "name": "Nike, Inc.",
-    "updated_at": "2026-09-21T14:14:03.298464",
+    "updated_at": "2026-09-21T22:32:02.841231",
     "price_14d_ago": 38.12
   },
   "NOC": {
-    "price": 525.51,
-    "change_pct": -1.39,
+    "price": 526.66,
+    "change_pct": -1.17,
     "name": "Northrop Grumman Corporation",
-    "updated_at": "2026-09-21T14:14:03.523057",
+    "updated_at": "2026-09-21T22:32:03.090215",
     "price_14d_ago": 532.91
   },
   "NVDA": {
-    "price": 227.47,
-    "change_pct": 4.61,
+    "price": 227.38,
+    "change_pct": 4.57,
     "name": "NVIDIA Corporation",
-    "updated_at": "2026-09-21T14:14:03.779069",
+    "updated_at": "2026-09-21T22:32:03.328636",
     "price_14d_ago": 217.44
   },
   "NVS": {
-    "price": 141.61,
-    "change_pct": -12.18,
+    "price": 140.98,
+    "change_pct": -12.57,
     "name": "Novartis AG",
-    "updated_at": "2026-09-21T14:14:04.474667",
+    "updated_at": "2026-09-21T22:32:03.829221",
     "price_14d_ago": 161.25
   },
   "Nasdaq": {
-    "price": 741.59,
-    "change_pct": 4.8,
+    "price": 741.47,
+    "change_pct": 4.78,
     "name": "Invesco QQQ Trust, Series 1",
-    "updated_at": "2026-09-21T14:14:04.679206",
+    "updated_at": "2026-09-21T22:32:04.065207",
     "price_14d_ago": 707.64
   },
   "OKLO": {
-    "price": 40.39,
-    "change_pct": 4.83,
+    "price": 40.18,
+    "change_pct": 4.28,
     "name": "Oklo Inc.",
-    "updated_at": "2026-09-21T14:14:05.258098",
+    "updated_at": "2026-09-21T22:32:04.593816",
     "price_14d_ago": 38.53
   },
   "ORCL": {
-    "price": 148.6,
-    "change_pct": 5.15,
+    "price": 148.56,
+    "change_pct": 5.12,
     "name": "Oracle Corporation",
-    "updated_at": "2026-09-21T14:14:05.670560",
+    "updated_at": "2026-09-21T22:32:05.073529",
     "price_14d_ago": 141.32
   },
   "PALL": {
-    "price": 23.7,
-    "change_pct": 0.08,
+    "price": 23.73,
+    "change_pct": 0.21,
     "name": "abrdn Physical Palladium Shares",
-    "updated_at": "2026-09-21T14:14:05.866351",
+    "updated_at": "2026-09-21T22:32:05.292881",
     "price_14d_ago": 23.68
   },
   "PANW": {
-    "price": 371.3,
-    "change_pct": 2.54,
+    "price": 371.76,
+    "change_pct": 2.67,
     "name": "Palo Alto Networks, Inc.",
-    "updated_at": "2026-09-21T14:14:06.191930",
+    "updated_at": "2026-09-21T22:32:05.489433",
     "price_14d_ago": 362.09
   },
   "PBR": {
-    "price": 20.71,
-    "change_pct": 1.89,
+    "price": 20.63,
+    "change_pct": 1.48,
     "name": "Petroleo Brasileiro S.A. Petrob",
-    "updated_at": "2026-09-21T14:14:06.534969",
+    "updated_at": "2026-09-21T22:32:05.745603",
     "price_14d_ago": 20.33
   },
   "PFE": {
-    "price": 27.86,
-    "change_pct": -2.42,
+    "price": 27.74,
+    "change_pct": -2.84,
     "name": "Pfizer, Inc.",
-    "updated_at": "2026-09-21T14:14:07.063401",
+    "updated_at": "2026-09-21T22:32:06.291268",
     "price_14d_ago": 28.55
   },
   "PLTM": {
-    "price": 17.29,
-    "change_pct": 3.29,
+    "price": 17.31,
+    "change_pct": 3.41,
     "name": "GraniteShares Platinum Shares E",
-    "updated_at": "2026-09-21T14:14:07.265404",
+    "updated_at": "2026-09-21T22:32:06.508707",
     "price_14d_ago": 16.74
   },
   "PLTR": {
-    "price": 181.57,
-    "change_pct": 0.92,
+    "price": 183.09,
+    "change_pct": 1.76,
     "name": "Palantir Technologies Inc.",
-    "updated_at": "2026-09-21T14:14:07.471960",
+    "updated_at": "2026-09-21T22:32:06.754004",
     "price_14d_ago": 179.92
   },
   "PQT": {
     "price": 0,
     "change_pct": 0,
     "name": "PQT",
-    "updated_at": "2026-09-21T14:14:07.945000",
+    "updated_at": "2026-09-21T22:32:07.301567",
     "price_14d_ago": null
   },
   "PQUS": {
-    "price": 28.86,
-    "change_pct": 2.01,
+    "price": 28.89,
+    "change_pct": 2.1,
     "name": "Pictet AI Enhanced US Equity ET",
-    "updated_at": "2026-09-21T14:14:08.160991",
+    "updated_at": "2026-09-21T22:32:07.500483",
     "price_14d_ago": 28.29
   },
   "PSBD": {
-    "price": 10.37,
-    "change_pct": 0.48,
+    "price": 10.38,
+    "change_pct": 0.58,
     "name": "Palmer Square Capital BDC Inc.",
-    "updated_at": "2026-09-21T14:14:08.384403",
+    "updated_at": "2026-09-21T22:32:07.708550",
     "price_14d_ago": 10.32
   },
   "PYPL": {
-    "price": 52.77,
-    "change_pct": 0.71,
+    "price": 52.62,
+    "change_pct": 0.42,
     "name": "PayPal Holdings, Inc.",
-    "updated_at": "2026-09-21T14:14:08.627726",
+    "updated_at": "2026-09-21T22:32:07.933745",
     "price_14d_ago": 52.4
   },
   "QQQ": {
-    "price": 741.6,
-    "change_pct": 4.8,
+    "price": 741.47,
+    "change_pct": 4.78,
     "name": "Invesco QQQ Trust, Series 1",
-    "updated_at": "2026-09-21T14:14:08.912332",
+    "updated_at": "2026-09-21T22:32:08.166728",
     "price_14d_ago": 707.64
   },
   "QTA": {
     "price": 0,
     "change_pct": 0,
     "name": "QTA",
-    "updated_at": "2026-09-21T14:14:09.153672",
+    "updated_at": "2026-09-21T22:32:08.424192",
     "price_14d_ago": null
   },
   "RBLX": {
-    "price": 51.02,
-    "change_pct": 25.46,
+    "price": 51.25,
+    "change_pct": 26.01,
     "name": "Roblox Corporation",
-    "updated_at": "2026-09-21T14:14:09.409773",
+    "updated_at": "2026-09-21T22:32:08.630802",
     "price_14d_ago": 40.67
   },
   "RKLB": {
-    "price": 69.05,
-    "change_pct": 10.4,
+    "price": 69.89,
+    "change_pct": 11.75,
     "name": "Rocket Lab Corporation",
-    "updated_at": "2026-09-21T14:14:09.628475",
+    "updated_at": "2026-09-21T22:32:08.868991",
     "price_14d_ago": 62.54
   },
   "Russell": {
-    "price": 286.21,
-    "change_pct": -1.5,
+    "price": 285.58,
+    "change_pct": -1.72,
     "name": "iShares Russell 2000 Index Fund",
-    "updated_at": "2026-09-21T14:14:09.922786",
+    "updated_at": "2026-09-21T22:32:09.108237",
     "price_14d_ago": 290.57
   },
   "S&P": {
-    "price": 7774.6,
-    "change_pct": 1.88,
+    "price": 7764.7,
+    "change_pct": 1.75,
     "name": "S&P 500",
-    "updated_at": "2026-09-21T14:14:10.123033",
+    "updated_at": "2026-09-21T22:32:09.324358",
     "price_14d_ago": 7631.47
   },
   "S&P 500": {
-    "price": 7774.61,
-    "change_pct": 1.88,
+    "price": 7764.7,
+    "change_pct": 1.75,
     "name": "S&P 500",
-    "updated_at": "2026-09-21T14:14:10.364941",
+    "updated_at": "2026-09-21T22:32:09.542060",
     "price_14d_ago": 7631.47
   },
   "SAMSUNG ELECTRONICS": {
-    "price": 274000.0,
-    "change_pct": 9.38,
+    "price": 281000.0,
+    "change_pct": 12.4,
     "name": "SamsungElec",
-    "updated_at": "2026-09-21T14:14:10.606947",
-    "price_14d_ago": 250500.0
+    "updated_at": "2026-09-21T22:32:09.789534",
+    "price_14d_ago": 250000.0
   },
   "SAP": {
-    "price": 209.34,
-    "change_pct": -1.27,
+    "price": 209.22,
+    "change_pct": -1.33,
     "name": "SAP  SE",
-    "updated_at": "2026-09-21T14:14:10.818279",
+    "updated_at": "2026-09-21T22:32:10.044605",
     "price_14d_ago": 212.04
   },
   "SF": {
-    "price": 76.01,
-    "change_pct": -3.59,
+    "price": 75.72,
+    "change_pct": -3.96,
     "name": "Stifel Financial Corporation",
-    "updated_at": "2026-09-21T14:14:11.090695",
+    "updated_at": "2026-09-21T22:32:10.302415",
     "price_14d_ago": 78.84
   },
   "SK HYNIX": {
-    "price": 1868000.0,
-    "change_pct": 15.81,
+    "price": 1917000.0,
+    "change_pct": 20.11,
     "name": "SK hynix",
-    "updated_at": "2026-09-21T14:14:11.342305",
-    "price_14d_ago": 1613000.0
+    "updated_at": "2026-09-21T22:32:10.528303",
+    "price_14d_ago": 1596000.0
   },
   "SLB": {
-    "price": 52.2,
-    "change_pct": -8.65,
+    "price": 51.76,
+    "change_pct": -9.43,
     "name": "SLB Limited",
-    "updated_at": "2026-09-21T14:14:11.669604",
+    "updated_at": "2026-09-21T22:32:10.825484",
     "price_14d_ago": 57.15
   },
   "SMH": {
-    "price": 596.25,
-    "change_pct": 9.36,
+    "price": 596.03,
+    "change_pct": 9.32,
     "name": "VanEck Semiconductor ETF",
-    "updated_at": "2026-09-21T14:14:11.932487",
+    "updated_at": "2026-09-21T22:32:11.064910",
     "price_14d_ago": 545.22
   },
   "SMP-500": {
-    "price": 7774.55,
-    "change_pct": 1.87,
+    "price": 7764.7,
+    "change_pct": 1.75,
     "name": "S&P 500",
-    "updated_at": "2026-09-21T14:14:12.123368",
+    "updated_at": "2026-09-21T22:32:11.287715",
     "price_14d_ago": 7631.47
   },
   "SMR": {
-    "price": 8.85,
-    "change_pct": -3.91,
+    "price": 8.79,
+    "change_pct": -4.56,
     "name": "NuScale Power Corporation",
-    "updated_at": "2026-09-21T14:14:12.334218",
+    "updated_at": "2026-09-21T22:32:11.502736",
     "price_14d_ago": 9.21
   },
   "SNAP": {
-    "price": 5.74,
-    "change_pct": 7.2,
+    "price": 5.7,
+    "change_pct": 6.54,
     "name": "Snap Inc.",
-    "updated_at": "2026-09-21T14:14:12.554169",
+    "updated_at": "2026-09-21T22:32:11.726870",
     "price_14d_ago": 5.35
   },
   "SNWGF": {
-    "price": 12.08,
-    "change_pct": 2.03,
+    "price": 12.11,
+    "change_pct": 2.28,
     "name": "SNOWLINE GOLD CORP",
-    "updated_at": "2026-09-21T14:14:12.808322",
+    "updated_at": "2026-09-21T22:32:11.981422",
     "price_14d_ago": 11.84
   },
   "SOYB": {
-    "price": 28.11,
-    "change_pct": 1.19,
+    "price": 28.12,
+    "change_pct": 1.22,
     "name": "Teucrium Soybean Fund ETV",
-    "updated_at": "2026-09-21T14:14:13.063182",
+    "updated_at": "2026-09-21T22:32:12.290229",
     "price_14d_ago": 27.78
   },
   "SPCE": {
-    "price": 3.27,
-    "change_pct": 12.2,
+    "price": 3.31,
+    "change_pct": 13.75,
     "name": "Virgin Galactic Holdings, Inc.",
-    "updated_at": "2026-09-21T14:14:13.251275",
+    "updated_at": "2026-09-21T22:32:12.534956",
     "price_14d_ago": 2.91
   },
   "SPX": {
-    "price": 7774.36,
-    "change_pct": 1.87,
+    "price": 7764.7,
+    "change_pct": 1.75,
     "name": "S&P 500",
-    "updated_at": "2026-09-21T14:14:13.697792",
+    "updated_at": "2026-09-21T22:32:13.010734",
     "price_14d_ago": 7631.47
   },
   "SPY": {
-    "price": 774.38,
-    "change_pct": 1.65,
+    "price": 773.5,
+    "change_pct": 1.54,
     "name": "State Street SPDR S&P 500 ETF T",
-    "updated_at": "2026-09-21T14:14:13.978348",
+    "updated_at": "2026-09-21T22:32:13.235436",
     "price_14d_ago": 761.78
   },
   "SQQQ": {
-    "price": 34.58,
-    "change_pct": -13.5,
+    "price": 34.6,
+    "change_pct": -13.44,
     "name": "ProShares UltraPro Short QQQ",
-    "updated_at": "2026-09-21T14:14:14.219074",
+    "updated_at": "2026-09-21T22:32:13.477582",
     "price_14d_ago": 39.97
   },
   "SQUARE": {
-    "price": 78.09,
-    "change_pct": 0.27,
+    "price": 77.91,
+    "change_pct": 0.04,
     "name": "Block, Inc.",
-    "updated_at": "2026-09-21T14:14:14.444913",
+    "updated_at": "2026-09-21T22:32:13.723928",
     "price_14d_ago": 77.88
   },
   "Semiconductors": {
-    "price": 596.28,
-    "change_pct": 9.37,
+    "price": 596.03,
+    "change_pct": 9.32,
     "name": "VanEck Semiconductor ETF",
-    "updated_at": "2026-09-21T14:14:14.683947",
+    "updated_at": "2026-09-21T22:32:13.972645",
     "price_14d_ago": 545.22
   },
   "T": {
-    "price": 25.54,
-    "change_pct": -1.77,
+    "price": 25.45,
+    "change_pct": -2.12,
     "name": "AT&T Inc.",
-    "updated_at": "2026-09-21T14:14:14.951916",
+    "updated_at": "2026-09-21T22:32:14.206956",
     "price_14d_ago": 26.0
   },
   "TDOC": {
-    "price": 6.25,
-    "change_pct": -0.16,
+    "price": 6.27,
+    "change_pct": 0.16,
     "name": "Teladoc Health, Inc.",
-    "updated_at": "2026-09-21T14:14:15.267961",
+    "updated_at": "2026-09-21T22:32:14.438479",
     "price_14d_ago": 6.26
   },
   "TIPS": {
     "price": 0.0,
     "change_pct": 100.0,
     "name": "Tianrong Internet Products and ",
-    "updated_at": "2026-09-21T14:14:15.965020",
+    "updated_at": "2026-09-21T22:32:15.088114",
     "price_14d_ago": 0.0
   },
   "TLT": {
-    "price": 81.74,
-    "change_pct": -0.16,
+    "price": 81.8,
+    "change_pct": -0.09,
     "name": "iShares 20+ Year Treasury Bond ",
-    "updated_at": "2026-09-21T14:14:16.211619",
+    "updated_at": "2026-09-21T22:32:15.366401",
     "price_14d_ago": 81.87
   },
   "TSLA": {
-    "price": 375.51,
-    "change_pct": 5.45,
+    "price": 375.3,
+    "change_pct": 5.39,
     "name": "Tesla, Inc.",
-    "updated_at": "2026-09-21T14:14:16.492645",
+    "updated_at": "2026-09-21T22:32:15.561912",
     "price_14d_ago": 356.09
   },
   "TSM": {
-    "price": 444.81,
-    "change_pct": 7.44,
+    "price": 445.14,
+    "change_pct": 7.52,
     "name": "Taiwan Semiconductor Manufactur",
-    "updated_at": "2026-09-21T14:14:16.726978",
+    "updated_at": "2026-09-21T22:32:15.835810",
     "price_14d_ago": 414.0
   },
   "UBER": {
-    "price": 71.01,
-    "change_pct": -5.62,
+    "price": 70.84,
+    "change_pct": -5.85,
     "name": "Uber Technologies, Inc.",
-    "updated_at": "2026-09-21T14:14:17.263677",
+    "updated_at": "2026-09-21T22:32:16.323724",
     "price_14d_ago": 75.24
   },
   "UNG": {
-    "price": 10.27,
-    "change_pct": -2.98,
+    "price": 10.26,
+    "change_pct": -3.02,
     "name": "United States Natural Gas Fund ",
-    "updated_at": "2026-09-21T14:14:17.460649",
+    "updated_at": "2026-09-21T22:32:16.539376",
     "price_14d_ago": 10.58
   },
   "URANIUM": {
-    "price": 43.08,
-    "change_pct": -1.96,
+    "price": 42.98,
+    "change_pct": -2.18,
     "name": "Uranium ETF",
-    "updated_at": "2026-09-21T14:14:17.870690",
+    "updated_at": "2026-09-21T22:32:17.050638",
     "price_14d_ago": 43.94
   },
   "USD": {
-    "price": 94.89,
-    "change_pct": 16.01,
+    "price": 94.8,
+    "change_pct": 15.91,
     "name": "ProShares Ultra Semiconductors",
-    "updated_at": "2026-09-21T14:14:18.231383",
+    "updated_at": "2026-09-21T22:32:17.438874",
     "price_14d_ago": 81.79
   },
   "USDX": {
-    "price": 25.61,
-    "change_pct": 0.38,
+    "price": 25.58,
+    "change_pct": 0.25,
     "name": "SGI Enhanced Core ETF",
-    "updated_at": "2026-09-21T14:14:18.428453",
+    "updated_at": "2026-09-21T22:32:17.672981",
     "price_14d_ago": 25.51
   },
   "USO": {
-    "price": 148.62,
-    "change_pct": 5.41,
+    "price": 148.16,
+    "change_pct": 5.08,
     "name": "United States Oil Fund",
-    "updated_at": "2026-09-21T14:14:18.624441",
+    "updated_at": "2026-09-21T22:32:17.891945",
     "price_14d_ago": 141.0
   },
   "UTHR": {
-    "price": 493.13,
+    "price": 493.1,
     "change_pct": -3.82,
     "name": "United Therapeutics Corporation",
-    "updated_at": "2026-09-21T14:14:18.814150",
+    "updated_at": "2026-09-21T22:32:18.111109",
     "price_14d_ago": 512.7
   },
   "UUU": {
-    "price": 5.0,
-    "change_pct": -6.89,
+    "price": 4.91,
+    "change_pct": -8.57,
     "name": "Universal Safety Products, Inc.",
-    "updated_at": "2026-09-21T14:14:19.014321",
+    "updated_at": "2026-09-21T22:32:18.384996",
     "price_14d_ago": 5.37
   },
   "V": {
-    "price": 369.49,
-    "change_pct": -0.85,
+    "price": 369.95,
+    "change_pct": -0.73,
     "name": "Visa Inc.",
-    "updated_at": "2026-09-21T14:14:19.516639",
+    "updated_at": "2026-09-21T22:32:18.952094",
     "price_14d_ago": 372.67
   },
   "VEEV": {
-    "price": 260.32,
-    "change_pct": -6.77,
+    "price": 261.31,
+    "change_pct": -6.42,
     "name": "Veeva Systems Inc.",
-    "updated_at": "2026-09-21T14:14:19.971823",
+    "updated_at": "2026-09-21T22:32:19.407429",
     "price_14d_ago": 279.23
   },
   "VIX": {
-    "price": 15.03,
-    "change_pct": -1.12,
+    "price": 14.87,
+    "change_pct": -2.17,
     "name": "CBOE Volatility Index",
-    "updated_at": "2026-09-21T14:14:20.720074",
+    "updated_at": "2026-09-21T22:32:20.108309",
     "price_14d_ago": 15.2
   },
   "VLO": {
-    "price": 398.24,
-    "change_pct": 10.01,
+    "price": 393.27,
+    "change_pct": 8.64,
     "name": "Valero Energy Corporation",
-    "updated_at": "2026-09-21T14:14:20.990206",
+    "updated_at": "2026-09-21T22:32:20.379904",
     "price_14d_ago": 361.99
   },
   "VRTX": {
-    "price": 511.98,
-    "change_pct": -6.51,
+    "price": 510.72,
+    "change_pct": -6.74,
     "name": "Vertex Pharmaceuticals Incorpor",
-    "updated_at": "2026-09-21T14:14:21.206705",
+    "updated_at": "2026-09-21T22:32:20.604982",
     "price_14d_ago": 547.65
   },
   "WFC": {
-    "price": 86.67,
-    "change_pct": -0.43,
+    "price": 86.54,
+    "change_pct": -0.57,
     "name": "Wells Fargo & Company",
-    "updated_at": "2026-09-21T14:14:21.467669",
+    "updated_at": "2026-09-21T22:32:20.871835",
     "price_14d_ago": 87.04
   },
   "WIT": {
     "price": 1.67,
     "change_pct": -8.74,
     "name": "Wipro Limited",
-    "updated_at": "2026-09-21T14:14:21.734400",
+    "updated_at": "2026-09-21T22:32:21.086972",
     "price_14d_ago": 1.83
   },
   "WMT": {
-    "price": 107.51,
-    "change_pct": 1.5,
+    "price": 107.44,
+    "change_pct": 1.44,
     "name": "Walmart Inc.",
-    "updated_at": "2026-09-21T14:14:21.976619",
+    "updated_at": "2026-09-21T22:32:21.398695",
     "price_14d_ago": 105.92
   },
   "WTBN": {
-    "price": 24.43,
-    "change_pct": -0.59,
+    "price": 24.45,
+    "change_pct": -0.53,
     "name": "WisdomTree Bianco Total Return ",
-    "updated_at": "2026-09-21T14:14:22.197840",
+    "updated_at": "2026-09-21T22:32:21.646308",
     "price_14d_ago": 24.58
   },
   "WTI": {
-    "price": 92.51,
-    "change_pct": 2.54,
+    "price": 93.14,
+    "change_pct": 2.34,
     "name": "WTI Crude",
-    "updated_at": "2026-09-21T14:14:22.432355",
-    "price_14d_ago": 90.22
+    "updated_at": "2026-09-21T22:32:21.890613",
+    "price_14d_ago": 91.01
   },
   "WTI CRUDE OIL": {
-    "price": 92.51,
-    "change_pct": 2.54,
+    "price": 93.14,
+    "change_pct": 2.34,
     "name": "WTI Crude",
-    "updated_at": "2026-09-21T14:14:22.654970",
-    "price_14d_ago": 90.22
+    "updated_at": "2026-09-21T22:32:22.099717",
+    "price_14d_ago": 91.01
   },
   "XAU-USD": {
     "price": 0,
     "change_pct": 0,
     "name": "XAU9999 Meme USD",
-    "updated_at": "2026-09-21T14:14:23.119556",
+    "updated_at": "2026-09-21T22:32:22.561655",
     "price_14d_ago": 0.0
   },
   "XOM": {
-    "price": 159.47,
-    "change_pct": -3.09,
+    "price": 158.3,
+    "change_pct": -3.8,
     "name": "ExxonMobil Holdings Corporation",
-    "updated_at": "2026-09-21T14:14:23.527437",
+    "updated_at": "2026-09-21T22:32:22.883030",
     "price_14d_ago": 164.55
   },
   "ZIM": {
-    "price": 30.33,
-    "change_pct": 12.29,
+    "price": 30.46,
+    "change_pct": 12.77,
     "name": "ZIM Integrated Shipping Service",
-    "updated_at": "2026-09-21T14:14:24.022159",
+    "updated_at": "2026-09-21T22:32:23.322632",
     "price_14d_ago": 27.01
   },
   "HIMS": {
-    "price": 29.1,
-    "change_pct": 2.32,
+    "price": 29.35,
+    "change_pct": 3.2,
     "name": "Hims & Hers Health, Inc.",
-    "updated_at": "2026-09-21T14:14:24.813486",
+    "updated_at": "2026-09-21T22:32:23.741600",
     "price_14d_ago": 28.44
   },
   "GDRX": {
     "price": 3.39,
     "change_pct": -2.02,
     "name": "GoodRx Holdings, Inc.",
-    "updated_at": "2026-09-21T14:14:25.052425",
+    "updated_at": "2026-09-21T22:32:23.990268",
     "price_14d_ago": 3.46
   },
   "TEM": {
     "price": 78.03,
     "change_pct": 25.31,
     "name": "Tempus AI, Inc.",
-    "updated_at": "2026-09-21T14:14:25.273729",
+    "updated_at": "2026-09-21T22:32:24.242948",
     "price_14d_ago": 62.27
   },
   "GH": {
-    "price": 173.86,
+    "price": 173.87,
     "change_pct": 5.75,
     "name": "Guardant Health, Inc.",
-    "updated_at": "2026-09-21T14:14:25.461050",
+    "updated_at": "2026-09-21T22:32:24.482066",
     "price_14d_ago": 164.41
   },
   "ABT": {
-    "price": 103.13,
-    "change_pct": -5.32,
+    "price": 102.98,
+    "change_pct": -5.46,
     "name": "Abbott Laboratories",
-    "updated_at": "2026-09-21T14:14:25.717932",
+    "updated_at": "2026-09-21T22:32:24.775609",
     "price_14d_ago": 108.93
   }
 },
@@ -1047,6 +1047,25 @@ const dashboardData = {
   tickerScores: [],
   archive: {
   "insights": [
+    {
+      "id": 519,
+      "title": "AI Safety Language Is Destroying the Debate | Steven Sinofsky",
+      "source_type": "podcast",
+      "source_name": "The a16z Show",
+      "source_date": "2026-09-21",
+      "summary": "The podcast discusses critical issues surrounding AI safety and governance, emphasizing the need for clearer terminology and better telemetry in AI systems. It highlights the historical context of software failures to advocate for proactive measures in AI development and regulatory frameworks. The conversation also addresses legislative misunderstandings of AI technology, urging stakeholders to engage with lawmakers for informed regulations.",
+      "key_takeaway": "Investing in companies that prioritize clear communication, robust telemetry, and operational security in AI development presents a significant opportunity as the industry matures.",
+      "tickers_mentioned": [
+        "NVDA"
+      ],
+      "sentiment": "bullish",
+      "display_on_main": 0,
+      "display_order": 0,
+      "added_date": "2026-09-21",
+      "archived_date": null,
+      "archived_reason": null,
+      "podcast_episode_id": 504
+    },
     {
       "id": 516,
       "title": "Nas, Grandmaster Caz, Steve Stoute & Ben Horowitz on Paying Hip-Hop\u2019s Pioneers Their Due",
@@ -13173,8 +13192,8 @@ const dashboardData = {
       "term": "AI Agents",
       "description": "Autonomous AI systems capable of collaborating in large swarms to solve complex problems, exemplified by the use of 10,000 agents to tackle the Navier-Stokes millennium prize problem.",
       "first_detected_date": "2026-02-28",
-      "last_mentioned_date": "2026-09-19",
-      "mention_count": 97,
+      "last_mentioned_date": "2026-09-21",
+      "mention_count": 98,
       "source_podcasts": null,
       "status": "active",
       "investment_implications": "Agentic swarms represent the next compute demand layer beyond chatbots, driving infrastructure needs and opening enterprise automation markets.",
@@ -13183,8 +13202,8 @@ const dashboardData = {
       "archived_reason": null,
       "first_detected_episode_id": 31,
       "first_detected_speaker": null,
-      "last_mentioned_episode_id": 500,
-      "last_mentioned_speaker": "Peter Diamandis (hosts)"
+      "last_mentioned_episode_id": 504,
+      "last_mentioned_speaker": "Steven Sinoffski"
     },
     {
       "id": 38,
@@ -43355,9 +43374,69 @@ const dashboardData = {
     "key_tickers": [
       "AAPL"
     ]
+  },
+  "519": {
+    "id": 508,
+    "insight_id": 519,
+    "podcast_episode_id": 504,
+    "overview": "Current AI governance lacks a set framework akin to established industries like aviation, which could hinder progress. The podcast notes that major software failures in the past led to the creation of stringent regulations, while AI remains largely unregulated despite its risks. Additionally, the rapid pace of AI development, with investments growing at an annual rate of nearly 40%, underscores the urgent need for robust oversight mechanisms that can adapt to this fast-evolving technology landscape.",
+    "key_takeaways_detailed": [],
+    "investment_thesis": "If the insights regarding the need for clearer terminology and better telemetry in AI hold true, investors can expect that companies prioritizing these areas will see rising valuations and demand. Over the next 1-3 years, effective engagement with legislation will likely reward those firms that proactively address governance. Conversely, failure to adapt could lead to decreased funding and market viability for companies lagging in these aspects.",
+    "ticker_analysis": {
+      "NVDA": {
+        "rationale": "NVIDIA stands out as a leading entity in AI infrastructure, positioning itself strategically to benefit from increased regulatory focus on AI safety.",
+        "positioning": "",
+        "risk": ""
+      }
+    },
+    "positioning_guidance": "",
+    "risk_factors": [],
+    "contrarian_signals": [],
+    "catalysts": [],
+    "related_insights": null,
+    "audio_timestamp_start": null,
+    "audio_timestamp_end": null,
+    "transcript_excerpt": null,
+    "created_at": "2026-09-21T22:31:41.054177",
+    "updated_at": "2026-09-22 03:31:41",
+    "episode_evidence": "- \"They need to treat it like that and they need to talk about it like that.\" - Steven Sinofsky\n- \"What you say in this line, it puts all these characteristics on AI that it was thinking of doing something.\" - Steven Sinofsky",
+    "falsification_tracks": [
+      "Emergence of significant AI failures that attract public and regulatory attention, leading to swift legislative action.",
+      "A marked reduction in venture capital funding for AI companies that lack transparency or robust telemetry systems.",
+      "Broad consensus among AI professionals that the current terminology used in the industry remains effective and does not hinder regulation."
+    ],
+    "schema_version": 2,
+    "insight_title": "AI Safety Language Is Destroying the Debate | Steven Sinofsky",
+    "source_name": "The a16z Show",
+    "source_date": "2026-09-21",
+    "key_tickers": []
   }
 },
   suggestedTerms: [
+  {
+    "id": 729,
+    "term": "Operational Security",
+    "definition": "The measures taken to protect the integrity and reliability of AI systems during development.",
+    "investment_implications": "Prioritizing operational security can enhance public trust and reduce regulatory risks.",
+    "source_type": "auto_extracted",
+    "mention_count": 1,
+    "source_diversity": 1,
+    "relevance_score": 50,
+    "submitted_date": "2026-09-22 03:31:12",
+    "priority_score": 80
+  },
+  {
+    "id": 730,
+    "term": "Telemetry in AI",
+    "definition": "Tools and systems that provide data on the performance and behavior of AI models.",
+    "investment_implications": "Investing in companies that develop robust telemetry can improve AI reliability and safety.",
+    "source_type": "auto_extracted",
+    "mention_count": 1,
+    "source_diversity": 1,
+    "relevance_score": 50,
+    "submitted_date": "2026-09-22 03:31:12",
+    "priority_score": 80
+  },
   {
     "id": 728,
     "term": "AI-driven Advertising",
@@ -43381,35 +43460,11 @@ const dashboardData = {
     "relevance_score": 50,
     "submitted_date": "2026-09-20 19:04:28",
     "priority_score": 80
-  },
-  {
-    "id": 727,
-    "term": "Uranium's Long-Term Potential",
-    "definition": "The anticipated growth in uranium demand as countries commit to building new nuclear reactors.",
-    "investment_implications": "Investing in uranium producers may yield high returns as demand increases.",
-    "source_type": "auto_extracted",
-    "mention_count": 1,
-    "source_diversity": 1,
-    "relevance_score": 50,
-    "submitted_date": "2026-09-20 19:04:28",
-    "priority_score": 80
-  },
-  {
-    "id": 723,
-    "term": "Cultural Recognition",
-    "definition": "The acknowledgment and celebration of contributions made by individuals or groups within a cultural context.",
-    "investment_implications": "Investing in cultural recognition initiatives can enhance community ties and support for underserved artists.",
-    "source_type": "auto_extracted",
-    "mention_count": 1,
-    "source_diversity": 1,
-    "relevance_score": 50,
-    "submitted_date": "2026-09-20 12:14:30",
-    "priority_score": 80
   }
 ],
   podcastGuests: [
   {
-    "id": 72037,
+    "id": 72141,
     "name": "Outlook on 5 Key Commodities",
     "slug": "outlook-on-5-key-commodities",
     "bio": null,
@@ -43421,7 +43476,7 @@ const dashboardData = {
     "appearance_count": 1
   },
   {
-    "id": 72038,
+    "id": 72142,
     "name": "Bill Gurley",
     "slug": "bill-gurley",
     "bio": null,
@@ -43433,7 +43488,7 @@ const dashboardData = {
     "appearance_count": 1
   },
   {
-    "id": 72039,
+    "id": 72143,
     "name": "Nick Shirley",
     "slug": "nick-shirley",
     "bio": null,
@@ -43445,7 +43500,7 @@ const dashboardData = {
     "appearance_count": 1
   },
   {
-    "id": 72040,
+    "id": 72144,
     "name": "Jared Isaacman",
     "slug": "jared-isaacman",
     "bio": null,
@@ -43457,7 +43512,7 @@ const dashboardData = {
     "appearance_count": 1
   },
   {
-    "id": 72041,
+    "id": 72145,
     "name": "Brad Gerstner",
     "slug": "brad-gerstner",
     "bio": null,
@@ -43469,7 +43524,7 @@ const dashboardData = {
     "appearance_count": 1
   },
   {
-    "id": 72042,
+    "id": 72146,
     "name": "Meta's Dina Powell McCormick",
     "slug": "metas-dina-powell-mccormick",
     "bio": null,
@@ -43481,7 +43536,7 @@ const dashboardData = {
     "appearance_count": 1
   },
   {
-    "id": 72043,
+    "id": 72147,
     "name": "Underwriting Superintelligence",
     "slug": "underwriting-superintelligence",
     "bio": null,
@@ -43493,7 +43548,7 @@ const dashboardData = {
     "appearance_count": 1
   },
   {
-    "id": 72044,
+    "id": 72148,
     "name": "Hawks Take Flight",
     "slug": "hawks-take-flight",
     "bio": null,
@@ -43505,7 +43560,7 @@ const dashboardData = {
     "appearance_count": 1
   },
   {
-    "id": 72045,
+    "id": 72149,
     "name": "Martine Rothblatt",
     "slug": "martine-rothblatt",
     "bio": null,
@@ -43517,7 +43572,7 @@ const dashboardData = {
     "appearance_count": 1
   },
   {
-    "id": 72046,
+    "id": 72150,
     "name": "Microsoft CEO Satya Nadella",
     "slug": "microsoft-ceo-satya-nadella",
     "bio": null,
@@ -43529,7 +43584,7 @@ const dashboardData = {
     "appearance_count": 1
   },
   {
-    "id": 72047,
+    "id": 72151,
     "name": "Jensen Huang",
     "slug": "jensen-huang",
     "bio": null,
@@ -43541,7 +43596,7 @@ const dashboardData = {
     "appearance_count": 1
   },
   {
-    "id": 72048,
+    "id": 72152,
     "name": "Ask the Mates anything",
     "slug": "ask-the-mates-anything",
     "bio": null,
@@ -43553,7 +43608,7 @@ const dashboardData = {
     "appearance_count": 1
   },
   {
-    "id": 72049,
+    "id": 72153,
     "name": "Matt Barry",
     "slug": "matt-barry",
     "bio": null,
@@ -43565,7 +43620,7 @@ const dashboardData = {
     "appearance_count": 1
   },
   {
-    "id": 72050,
+    "id": 72154,
     "name": "Who Grades the AI Models?",
     "slug": "who-grades-the-ai-models",
     "bio": null,
@@ -43577,7 +43632,7 @@ const dashboardData = {
     "appearance_count": 1
   },
   {
-    "id": 72051,
+    "id": 72155,
     "name": "Your AI Doctor Is Coming",
     "slug": "your-ai-doctor-is-coming",
     "bio": null,
@@ -43589,7 +43644,7 @@ const dashboardData = {
     "appearance_count": 1
   },
   {
-    "id": 72052,
+    "id": 72156,
     "name": "Fei Fei Li",
     "slug": "fei-fei-li",
     "bio": null,
@@ -43601,7 +43656,7 @@ const dashboardData = {
     "appearance_count": 1
   },
   {
-    "id": 72053,
+    "id": 72157,
     "name": "Financial strategist Jared Dillian",
     "slug": "financial-strategist-jared-dillian",
     "bio": null,
@@ -43613,7 +43668,7 @@ const dashboardData = {
     "appearance_count": 1
   },
   {
-    "id": 72054,
+    "id": 72158,
     "name": "Daniel Litt",
     "slug": "daniel-litt",
     "bio": null,
@@ -43625,7 +43680,7 @@ const dashboardData = {
     "appearance_count": 1
   },
   {
-    "id": 72055,
+    "id": 72159,
     "name": "Gavin Baker",
     "slug": "gavin-baker",
     "bio": null,
@@ -43637,7 +43692,7 @@ const dashboardData = {
     "appearance_count": 1
   },
   {
-    "id": 72056,
+    "id": 72160,
     "name": "Sam Altman",
     "slug": "sam-altman",
     "bio": null,
@@ -43901,6 +43956,67 @@ const dashboardData = {
       ]
     },
     "net_worth": "$107.9M"
+  },
+  {
+    "id": 431,
+    "name": "Steven Sinoffski",
+    "slug": "steven-sinoffski",
+    "bio": "An expert in software development and AI safety.",
+    "known_for": "Insights on AI governance and operational security.",
+    "net_worth_usd": 483000000.0,
+    "net_worth_source": "https://www.benzinga.com/sec/insider-trades/0001193118/steven-j-sinofsky",
+    "net_worth_updated_at": "2026-08-28T15:53:23.205970",
+    "voice_tone": "Analytical and assertive",
+    "voice_style": "Direct and informative, emphasizing historical context.",
+    "voice_delivery_notes": "Pacing is steady with emphasis on key points.",
+    "voice_profile_updated_at": "2026-09-22 03:31:12",
+    "last_seen": "2026-09-22 03:31:12",
+    "last_episode_title": "AI Safety Language Is Destroying the Debate | Steven Sinofsky",
+    "last_podcast_name": "The a16z Show",
+    "last_episode_date": "2026-09-21",
+    "mention_score": 2,
+    "mention_score_decayed": 2,
+    "last_main_idea": "Investing in companies that prioritize clear communication, robust telemetry, and operational security in AI development presents a significant opportunity as the industry matures.",
+    "last_proof_cite": "The a16z Show \u2022 2026-09-21 \u2022 AI Safety Language Is Destroying the Debate | Steven Sinofsky",
+    "last_proof_snippet": "The AI people are making it impossible for anybody to understand what they've done it. And they're using words like, well, the AI failed to be aligned. Okay, what does that mean? What it means is there was a bug in the software. When word a",
+    "supporting_takeaway": "Current AI systems lack robust telemetry and debugging tools, increasing the risk of undetected failures.",
+    "grokipedia_url": null,
+    "grokipedia_fetched_at": "2026-08-28T15:53:22.199575",
+    "pundit_profile": {
+      "source": "llm",
+      "source_model": "moonshot:moonshot-v1-8k",
+      "source_url": "",
+      "page_title": "Steven Sinoffski",
+      "fetched_at": "2026-08-28T20:53:22.198795+00:00",
+      "cliff_notes": "Steven Sinofsky has had a long and illustrious career in the technology sector. He is best known for his leadership at Microsoft, where he played a pivotal role in shaping the company's direction and strategy. Sinofsky has also been a vocal advocate for open source models in AI development, arguing that they are crucial for fostering innovation and competition in the tech industry. His insights on AI regulation have been influential, as he cautions against premature regulation that could stifle progress. Sinofsky's experience and perspectives make him a valuable resource for understanding the complex interplay between technology, innovation, and policy.",
+      "derived": {
+        "former_positions": "Microsoft Leader",
+        "books_or_works": "Hardcore Software"
+      },
+      "infobox": {
+        "Born": "",
+        "Nationality": ""
+      },
+      "lead_paragraphs": [
+        "Steven Sinofsky has had a long and illustrious career in the technology sector. He is best known for his leadership at Microsoft, where he played a pivotal role in shaping the company's direction and strategy. Sinofsky has also been a vocal advocate for open source models in AI development, arguing that they are crucial for fostering innovation and competition in the tech industry.",
+        "His insights on AI regulation have been influential, as he cautions against premature regulation that could stifle progress. Sinofsky's experience and perspectives make him a valuable resource for understanding the complex interplay between technology, innovation, and policy."
+      ],
+      "sections": [
+        {
+          "heading": "AI Regulation",
+          "body": "Steven Sinofsky is known for his views on AI regulation, arguing that it is moving too fast and could stifle innovation. He believes that regulation should be cautious and based on a clear understanding of the technology's potential."
+        },
+        {
+          "heading": "Open Source Models",
+          "body": "Sinofsky is a strong advocate for open source models in AI development. He argues that these models foster competition and innovation, and that companies should not be against them simply to avoid competition."
+        },
+        {
+          "heading": "Technological Innovation",
+          "body": "Throughout his career, Sinofsky has been at the forefront of technological innovation. His insights on the development and regulation of AI are informed by his extensive experience in the tech industry."
+        }
+      ]
+    },
+    "net_worth": "$483.0M"
   },
   {
     "id": 305,
@@ -44284,7 +44400,7 @@ const dashboardData = {
     "last_podcast_name": "Monetary Matters with Jack Farley",
     "last_episode_date": "2026-08-20",
     "mention_score": 3,
-    "mention_score_decayed": 1.47,
+    "mention_score_decayed": 1.43,
     "last_main_idea": "The rise in AI capex and government spending is leading to increased borrowing costs, which will have profound effects on bond markets and inflation, creating both risks and opportunities for investors.",
     "last_proof_cite": "Monetary Matters with Jack Farley \u2022 2026-08-20 \u2022 Why Bessent Blinked | Luke Gromen on Doubling of Treasury Buyback Plan to Tame Long-End Yields",
     "last_proof_snippet": "Today's episode is brought to you by the two-cream corn fund Take or C-O-R-N. Let's get into it. Got a very important conversation today. I'm joined once again by Luke Groman of Forest for the Trees Research Luke. Welcome back to Monterey M",
@@ -44344,7 +44460,7 @@ const dashboardData = {
     "last_podcast_name": "Moonshots with Peter Diamandis",
     "last_episode_date": "2026-07-08",
     "mention_score": 3,
-    "mention_score_decayed": 1.34,
+    "mention_score_decayed": 1.31,
     "last_main_idea": "Invest in companies that are integrating AI into their operations to capitalize on job growth and technological advancements.",
     "last_proof_cite": "Moonshots with Peter Diamandis \u2022 2026-07-08 \u2022 Fable 5 Is Back & Govt-Leashed, Altman Offers 5% of OpenAI & AI Grows Conscious | #269",
     "last_proof_snippet": "Fable 5 came back online globally on July 1st with a few Provisos. This feels like the first time a frontier model has a standing duty to the U.S. government. This is probably close to the best scenario we could have hoped for. Sam has been",
@@ -44404,7 +44520,7 @@ const dashboardData = {
     "last_podcast_name": "Dwarkesh Podcast",
     "last_episode_date": "2026-08-25",
     "mention_score": 2,
-    "mention_score_decayed": 1.1,
+    "mention_score_decayed": 1.07,
     "last_main_idea": "Investment in AI infrastructure and labs is set to grow exponentially, leading to significant capital allocation shifts and potential market disruptions.",
     "last_proof_cite": "Dwarkesh Podcast \u2022 2026-08-25 \u2022 Dylan Patel \u2013 Anthropic & OpenAI will have most of the world\u2019s compute by 2028",
     "last_proof_snippet": "Okay, I'm back with Dylan Patel, Founder of SemiAnalysis, our version of Family, Thanksgiving dinner is a regular early podcast, but you're not actually related. I won't tell the people here. We'll destroy the myth. Walk me, basically w",
@@ -44726,68 +44842,6 @@ const dashboardData = {
     }
   },
   {
-    "id": 465,
-    "name": "Dina Palma-Cormick",
-    "slug": "dina-palma-cormick",
-    "bio": "Dina Palma-Cormick is a key executive at Meta, where she leads workforce development programs and community engagement initiatives. With a background in both government and business, she has been instrumental in shaping policies that drive technological advancements. Her experience includes serving as a presidential advisor, focusing on women's leadership and AI expansion.",
-    "known_for": "Dina Palma-Cormick is recognized for her leadership in Meta's workforce development and her role in the company's AI expansion.",
-    "net_worth_usd": null,
-    "net_worth_source": "",
-    "net_worth_updated_at": null,
-    "voice_tone": "Engaging and informative",
-    "voice_style": "Persuasive and community-focused",
-    "voice_delivery_notes": "Clear and emphatic delivery with a focus on community impact.",
-    "voice_profile_updated_at": "2026-09-18 03:20:07",
-    "last_seen": "2026-09-18 03:20:07",
-    "last_episode_title": "Meta's Dina Powell McCormick: The Case for Data Centers, Backlash, AI Job Boom & Meta's Future",
-    "last_podcast_name": "All-In with Chamath, Jason, Sacks & Friedberg",
-    "last_episode_date": "2026-09-17",
-    "mention_score": 1,
-    "mention_score_decayed": 0.93,
-    "last_main_idea": "Investing in tech companies that prioritize community engagement and workforce development can yield sustainable returns and mitigate risks associated with public sentiment.",
-    "last_proof_cite": "All-In with Chamath, Jason, Sacks & Friedberg \u2022 2026-09-17 \u2022 Meta's Dina Powell McCormick: The Case for Data Centers, Backlash, AI Job Boom & Meta's Future",
-    "last_proof_snippet": "A trailblazing leader in government, business, and philanthropy. A former presidential advisor to Donald Trump, Dina Palma-Cormick, joined him at a platform as president and vice chair of women. She'll help lead the company's massive AI exp",
-    "supporting_takeaway": "America's Workforce Academy has trained thousands, achieving a 90% job retention rate post-training.",
-    "grokipedia_url": null,
-    "grokipedia_fetched_at": "2026-09-17T22:20:19.073150",
-    "pundit_profile": {
-      "source": "llm",
-      "source_model": "openai:gpt-4o-mini",
-      "source_url": "",
-      "page_title": "Dina Palma-Cormick",
-      "fetched_at": "2026-09-18T03:20:19.072625+00:00",
-      "cliff_notes": "Dina Palma-Cormick has built a career at the intersection of technology, government, and philanthropy. As a key executive at Meta, she focuses on workforce development and community engagement, driving initiatives that leverage technology for societal benefit. Her previous role as a presidential advisor under Donald Trump highlights her influence in shaping policies that support women's leadership and technological growth. With a vision for the future, she is poised to lead Meta's significant AI expansion, emphasizing the importance of data centers and their positive economic impact on communities. Palma-Cormick's commitment to harnessing technology for transformative change positions her as a pivotal figure in the ongoing evolution of the tech landscape.",
-      "derived": {
-        "current_role": "Executive at Meta",
-        "former_positions": "Presidential advisor to Donald Trump; Vice Chair of Women at a platform",
-        "political_summary": "Dina has served as a presidential advisor, actively engaging in initiatives that promote women's leadership and technological innovation."
-      },
-      "infobox": {},
-      "lead_paragraphs": [
-        "Dina Palma-Cormick has built a career at the intersection of technology, government, and philanthropy. As a key executive at Meta, she focuses on workforce development and community engagement, driving initiatives that leverage technology for societal benefit. Her previous role as a presidential advisor under Donald Trump highlights her influence in shaping policies that support women's leadership and technological growth.",
-        "With a vision for the future, she is poised to lead Meta's significant AI expansion, emphasizing the importance of data centers and their positive economic impact on communities. Palma-Cormick's commitment to harnessing technology for transformative change positions her as a pivotal figure in the ongoing evolution of the tech landscape."
-      ],
-      "sections": [
-        {
-          "heading": "AI Expansion",
-          "body": "Dina is at the forefront of Meta's AI expansion, focusing on integrating advanced technologies into the company's operations and community initiatives."
-        },
-        {
-          "heading": "Workforce Development",
-          "body": "She leads programs aimed at enhancing workforce skills, ensuring that communities are prepared for the technological advancements of the future."
-        },
-        {
-          "heading": "Women in Leadership",
-          "body": "Dina advocates for women's leadership in technology and business, emphasizing their critical role in driving innovation and change."
-        },
-        {
-          "heading": "Community Engagement",
-          "body": "Her work involves fostering strong community ties and demonstrating the economic benefits of technology, particularly through data centers."
-        }
-      ]
-    }
-  },
-  {
     "id": 133,
     "name": "Chris Dixon",
     "slug": "chris-dixon",
@@ -44847,6 +44901,68 @@ const dashboardData = {
       ]
     },
     "net_worth": "$500.0M"
+  },
+  {
+    "id": 465,
+    "name": "Dina Palma-Cormick",
+    "slug": "dina-palma-cormick",
+    "bio": "Dina Palma-Cormick is a key executive at Meta, where she leads workforce development programs and community engagement initiatives. With a background in both government and business, she has been instrumental in shaping policies that drive technological advancements. Her experience includes serving as a presidential advisor, focusing on women's leadership and AI expansion.",
+    "known_for": "Dina Palma-Cormick is recognized for her leadership in Meta's workforce development and her role in the company's AI expansion.",
+    "net_worth_usd": null,
+    "net_worth_source": "",
+    "net_worth_updated_at": null,
+    "voice_tone": "Engaging and informative",
+    "voice_style": "Persuasive and community-focused",
+    "voice_delivery_notes": "Clear and emphatic delivery with a focus on community impact.",
+    "voice_profile_updated_at": "2026-09-18 03:20:07",
+    "last_seen": "2026-09-18 03:20:07",
+    "last_episode_title": "Meta's Dina Powell McCormick: The Case for Data Centers, Backlash, AI Job Boom & Meta's Future",
+    "last_podcast_name": "All-In with Chamath, Jason, Sacks & Friedberg",
+    "last_episode_date": "2026-09-17",
+    "mention_score": 1,
+    "mention_score_decayed": 0.91,
+    "last_main_idea": "Investing in tech companies that prioritize community engagement and workforce development can yield sustainable returns and mitigate risks associated with public sentiment.",
+    "last_proof_cite": "All-In with Chamath, Jason, Sacks & Friedberg \u2022 2026-09-17 \u2022 Meta's Dina Powell McCormick: The Case for Data Centers, Backlash, AI Job Boom & Meta's Future",
+    "last_proof_snippet": "A trailblazing leader in government, business, and philanthropy. A former presidential advisor to Donald Trump, Dina Palma-Cormick, joined him at a platform as president and vice chair of women. She'll help lead the company's massive AI exp",
+    "supporting_takeaway": "America's Workforce Academy has trained thousands, achieving a 90% job retention rate post-training.",
+    "grokipedia_url": null,
+    "grokipedia_fetched_at": "2026-09-17T22:20:19.073150",
+    "pundit_profile": {
+      "source": "llm",
+      "source_model": "openai:gpt-4o-mini",
+      "source_url": "",
+      "page_title": "Dina Palma-Cormick",
+      "fetched_at": "2026-09-18T03:20:19.072625+00:00",
+      "cliff_notes": "Dina Palma-Cormick has built a career at the intersection of technology, government, and philanthropy. As a key executive at Meta, she focuses on workforce development and community engagement, driving initiatives that leverage technology for societal benefit. Her previous role as a presidential advisor under Donald Trump highlights her influence in shaping policies that support women's leadership and technological growth. With a vision for the future, she is poised to lead Meta's significant AI expansion, emphasizing the importance of data centers and their positive economic impact on communities. Palma-Cormick's commitment to harnessing technology for transformative change positions her as a pivotal figure in the ongoing evolution of the tech landscape.",
+      "derived": {
+        "current_role": "Executive at Meta",
+        "former_positions": "Presidential advisor to Donald Trump; Vice Chair of Women at a platform",
+        "political_summary": "Dina has served as a presidential advisor, actively engaging in initiatives that promote women's leadership and technological innovation."
+      },
+      "infobox": {},
+      "lead_paragraphs": [
+        "Dina Palma-Cormick has built a career at the intersection of technology, government, and philanthropy. As a key executive at Meta, she focuses on workforce development and community engagement, driving initiatives that leverage technology for societal benefit. Her previous role as a presidential advisor under Donald Trump highlights her influence in shaping policies that support women's leadership and technological growth.",
+        "With a vision for the future, she is poised to lead Meta's significant AI expansion, emphasizing the importance of data centers and their positive economic impact on communities. Palma-Cormick's commitment to harnessing technology for transformative change positions her as a pivotal figure in the ongoing evolution of the tech landscape."
+      ],
+      "sections": [
+        {
+          "heading": "AI Expansion",
+          "body": "Dina is at the forefront of Meta's AI expansion, focusing on integrating advanced technologies into the company's operations and community initiatives."
+        },
+        {
+          "heading": "Workforce Development",
+          "body": "She leads programs aimed at enhancing workforce skills, ensuring that communities are prepared for the technological advancements of the future."
+        },
+        {
+          "heading": "Women in Leadership",
+          "body": "Dina advocates for women's leadership in technology and business, emphasizing their critical role in driving innovation and change."
+        },
+        {
+          "heading": "Community Engagement",
+          "body": "Her work involves fostering strong community ties and demonstrating the economic benefits of technology, particularly through data centers."
+        }
+      ]
+    }
   },
   {
     "id": 464,
@@ -45452,7 +45568,7 @@ const dashboardData = {
     "last_podcast_name": "All-In with Chamath, Jason, Sacks & Friedberg",
     "last_episode_date": "2026-08-08",
     "mention_score": 2,
-    "mention_score_decayed": 0.89,
+    "mention_score_decayed": 0.87,
     "last_main_idea": "Investment in AI infrastructure and data centers is becoming increasingly important due to the demand for compute power and the tax advantages of such investments in the U.S.",
     "last_proof_cite": "All-In with Chamath, Jason, Sacks & Friedberg \u2022 2026-08-08 \u2022 Google's AI Brain Drain, SpaceX's Huge Quarter, Airtable's 90% Collapse, US Data Fuels China AI",
     "last_proof_snippet": "All right, everybody. Welcome back to your favorite podcast. It's the all-in podcast. It's the summer. It's August 6th. Haven't a hard time getting a core. I'm here on the podcast. But David Friedberg is here. David Friedberg is back our Su",
@@ -45510,7 +45626,7 @@ const dashboardData = {
     "last_podcast_name": "Monetary Matters with Jack Farley",
     "last_episode_date": "2026-09-13",
     "mention_score": 1,
-    "mention_score_decayed": 0.85,
+    "mention_score_decayed": 0.83,
     "last_main_idea": "The junior mining sector offers a compelling asymmetric opportunity in distressed, underappreciated assets with strong management, where years of capital flight and depleted liquidity have created a fertile environment for patient capital to realize value through operational improvement and an impending wave of major-miner M&A.",
     "last_proof_cite": "Monetary Matters with Jack Farley \u2022 2026-09-13 \u2022 Hunting for Value in Mining Stocks Amid Soaring Metals Prices | Freddy Brick | Muddy Waters Capital",
     "last_proof_snippet": "We actually don't have a huge view of metal prices, which everyone probably thinks is just insane given that we run a metals and mining fund, 2% down day on the S&P, like you know a lot of Bloomberg going yellow pretty early and people are",
@@ -46551,7 +46667,7 @@ const dashboardData = {
     "last_podcast_name": "The a16z Show",
     "last_episode_date": "2026-08-21",
     "mention_score": 1,
-    "mention_score_decayed": 0.59,
+    "mention_score_decayed": 0.57,
     "last_main_idea": "Investing in AI-driven security solutions can enhance operational efficiency and effectiveness, providing a competitive edge in a rapidly evolving technological landscape.",
     "last_proof_cite": "The a16z Show \u2022 2026-08-21 \u2022 Microsoft's Deputy CISO on Securing AI Agents",
     "last_proof_snippet": "The top story has been that the AI models are happy. The models went out under the internet and tested the security of several organizations. Isn't something to be scared of? Yes. Is it something to throw up your hands and worry about? No.",
@@ -46596,67 +46712,6 @@ const dashboardData = {
     "net_worth": "$1.30B"
   },
   {
-    "id": 431,
-    "name": "Steven Sinoffski",
-    "slug": "steven-sinoffski",
-    "bio": "Steven Sinofsky is a renowned technology executive with a deep understanding of the industry. He has held significant positions in leading tech companies and is known for his insights on AI regulation and innovation. Sinofsky is also the author of 'Hardcore Software' and has been a long-time leader at Microsoft.",
-    "known_for": "His expertise in AI regulation and innovation, and his views on the importance of open source models in technology development.",
-    "net_worth_usd": 483000000.0,
-    "net_worth_source": "https://www.benzinga.com/sec/insider-trades/0001193118/steven-j-sinofsky",
-    "net_worth_updated_at": "2026-08-28T15:53:23.205970",
-    "voice_tone": "Calm and measured",
-    "voice_style": "Factual and analytical",
-    "voice_delivery_notes": "Speaks with a steady pace, emphasizing key points",
-    "voice_profile_updated_at": "2026-08-28 20:53:08",
-    "last_seen": "2026-08-28 20:53:08",
-    "last_episode_title": "Steven Sinofsky: AI Doesn't Need New Rules Yet",
-    "last_podcast_name": "The a16z Show",
-    "last_episode_date": "2026-07-27",
-    "mention_score": 1,
-    "mention_score_decayed": 0.59,
-    "last_main_idea": "Invest in companies that embrace open-source AI strategies and are compliant with existing regulations, while monitoring the regulatory landscape for potential impacts on AI development.",
-    "last_proof_cite": "The a16z Show \u2022 2026-07-27 \u2022 Steven Sinofsky: AI Doesn't Need New Rules Yet",
-    "last_proof_snippet": "The whole topic of regulation for me just seems completely backwards because it's starting before we even know what we're regulated. There's no reason why the AI company should be against open source other than we just don't want our compet",
-    "supporting_takeaway": "Open-source models in AI are crucial for fostering innovation and competition.",
-    "grokipedia_url": null,
-    "grokipedia_fetched_at": "2026-08-28T15:53:22.199575",
-    "pundit_profile": {
-      "source": "llm",
-      "source_model": "moonshot:moonshot-v1-8k",
-      "source_url": "",
-      "page_title": "Steven Sinoffski",
-      "fetched_at": "2026-08-28T20:53:22.198795+00:00",
-      "cliff_notes": "Steven Sinofsky has had a long and illustrious career in the technology sector. He is best known for his leadership at Microsoft, where he played a pivotal role in shaping the company's direction and strategy. Sinofsky has also been a vocal advocate for open source models in AI development, arguing that they are crucial for fostering innovation and competition in the tech industry. His insights on AI regulation have been influential, as he cautions against premature regulation that could stifle progress. Sinofsky's experience and perspectives make him a valuable resource for understanding the complex interplay between technology, innovation, and policy.",
-      "derived": {
-        "former_positions": "Microsoft Leader",
-        "books_or_works": "Hardcore Software"
-      },
-      "infobox": {
-        "Born": "",
-        "Nationality": ""
-      },
-      "lead_paragraphs": [
-        "Steven Sinofsky has had a long and illustrious career in the technology sector. He is best known for his leadership at Microsoft, where he played a pivotal role in shaping the company's direction and strategy. Sinofsky has also been a vocal advocate for open source models in AI development, arguing that they are crucial for fostering innovation and competition in the tech industry.",
-        "His insights on AI regulation have been influential, as he cautions against premature regulation that could stifle progress. Sinofsky's experience and perspectives make him a valuable resource for understanding the complex interplay between technology, innovation, and policy."
-      ],
-      "sections": [
-        {
-          "heading": "AI Regulation",
-          "body": "Steven Sinofsky is known for his views on AI regulation, arguing that it is moving too fast and could stifle innovation. He believes that regulation should be cautious and based on a clear understanding of the technology's potential."
-        },
-        {
-          "heading": "Open Source Models",
-          "body": "Sinofsky is a strong advocate for open source models in AI development. He argues that these models foster competition and innovation, and that companies should not be against them simply to avoid competition."
-        },
-        {
-          "heading": "Technological Innovation",
-          "body": "Throughout his career, Sinofsky has been at the forefront of technological innovation. His insights on the development and regulation of AI are informed by his extensive experience in the tech industry."
-        }
-      ]
-    },
-    "net_worth": "$483.0M"
-  },
-  {
     "id": 430,
     "name": "Dario Amodei",
     "slug": "dario-amodei",
@@ -46674,7 +46729,7 @@ const dashboardData = {
     "last_podcast_name": "Moonshots with Peter Diamandis",
     "last_episode_date": "2026-07-29",
     "mention_score": 1,
-    "mention_score_decayed": 0.59,
+    "mention_score_decayed": 0.57,
     "last_main_idea": "The accelerating pace of AI development, coupled with advancements in space technology and a shifting geopolitical landscape, creates a multi-faceted investment opportunity in companies fostering balanced AI ecosystems, pioneering AGI, and enabling future abundance.",
     "last_proof_cite": "Moonshots with Peter Diamandis \u2022 2026-07-29 \u2022 Dario vs Jensen on Open Weights, OpenAI & Anthropic in DC, Xi Exports AI to Global South | EP #275",
     "last_proof_snippet": "The couple of days ago, Jensen Wong's CEO of NVIDIA. He says the world needs both frontier, close models, and frontier open models. And Thropic was silent for three days, and there was a lot of conversation. Where's in Thropic in this conve",
@@ -46702,7 +46757,7 @@ const dashboardData = {
     "last_podcast_name": "Moonshots with Peter Diamandis",
     "last_episode_date": "2026-07-29",
     "mention_score": 1,
-    "mention_score_decayed": 0.59,
+    "mention_score_decayed": 0.57,
     "last_main_idea": "The accelerating pace of AI development, coupled with advancements in space technology and a shifting geopolitical landscape, creates a multi-faceted investment opportunity in companies fostering balanced AI ecosystems, pioneering AGI, and enabling future abundance.",
     "last_proof_cite": "Moonshots with Peter Diamandis \u2022 2026-07-29 \u2022 Dario vs Jensen on Open Weights, OpenAI & Anthropic in DC, Xi Exports AI to Global South | EP #275",
     "last_proof_snippet": "The couple of days ago, Jensen Wong's CEO of NVIDIA. He says the world needs both frontier, close models, and frontier open models. And Thropic was silent for three days, and there was a lot of conversation. Where's in Thropic in this conve",
@@ -46730,7 +46785,7 @@ const dashboardData = {
     "last_podcast_name": "The a16z Show",
     "last_episode_date": "2026-06-12",
     "mention_score": 1,
-    "mention_score_decayed": 0.59,
+    "mention_score_decayed": 0.57,
     "last_main_idea": "The core investment opportunity lies in identifying and capitalizing on the foundational industries and efficient institutions that will enable and benefit from the AI-induced industrial revolution, while also navigating the demographic and political economic shifts it engenders.",
     "last_proof_cite": "The a16z Show \u2022 2026-06-12 \u2022 Samo Burja on Growth, Energy, and AI",
     "last_proof_snippet": "So, I actually think a big macro story that we've been exploring at Bismarck and Alice's in Bismarck Brief is that the demands of AI are so massive that for the first time in decades, the economies of scale necessary to supply them require",
@@ -47977,7 +48032,7 @@ const dashboardData = {
     "last_podcast_name": "Monetary Matters with Jack Farley",
     "last_episode_date": "2026-08-16",
     "mention_score": 1,
-    "mention_score_decayed": 0.45,
+    "mention_score_decayed": 0.44,
     "last_main_idea": "Investment in hyperscaler companies may offer significant returns due to their transformative technology and massive capital investments, but also carries risks due to the off-balance sheet leverage and innovative financial structures.",
     "last_proof_cite": "Monetary Matters with Jack Farley \u2022 2026-08-16 \u2022 Robin Wigglesworth on Hyperscalers' 1.5 Trillion of Off-Balance Sheet Liabilities, Private Credit, and His Book \"A Fabulous Debt\"",
     "last_proof_snippet": "I'm joined today by Robin Wigglesworth, editor of AlphaVille, the Financial Times Financial blog and author of a fabulous debt, the epic story of how bonds built the modern world Robin. But one talk about bonds fixed income of course, but w",
@@ -48290,7 +48345,7 @@ const dashboardData = {
     "last_podcast_name": "Monetary Matters with Jack Farley",
     "last_episode_date": "2026-08-12",
     "mention_score": 1,
-    "mention_score_decayed": 0.41,
+    "mention_score_decayed": 0.4,
     "last_main_idea": "Milton Berg's investment thesis is that the market may have bottomed and is poised for a rebound, with specific focus on sectors that have experienced significant declines as potential short-term bounce candidates.",
     "last_proof_cite": "Monetary Matters with Jack Farley \u2022 2026-08-12 \u2022 Milton Berg: I Have Evidence Market Has Likely Bottomed | Why Milton\u2019s Long Semis, Korea, Nasdaq, and More (With Caveats), and Why He Thinks Gold has made a Multi-year Top",
     "last_proof_snippet": "I am joined once again by Milton Berg of MB advisors and Milton Berg Edge. Milton is one of the greatest market technicians alive. And he focuses on a lot of things that most tetanolists don't follow. He's mostly not looking at charts. He's",
@@ -48604,7 +48659,7 @@ const dashboardData = {
     "last_podcast_name": "Dwarkesh Podcast",
     "last_episode_date": "2026-08-11",
     "mention_score": 1,
-    "mention_score_decayed": 0.4,
+    "mention_score_decayed": 0.39,
     "last_main_idea": "Investment in AI development and security is crucial to manage the rapid advancements and ensure ethical AI behavior.",
     "last_proof_cite": "Dwarkesh Podcast \u2022 2026-08-11 \u2022 Ryan Greenblatt \u2013 Human level AIs might build runaway superintelligences by 2032",
     "last_proof_snippet": "Today, I'm chatting with Ryan Greenlet, who is the chief scientist at Redwood Research, where he focuses on technical AI safety and security work. I want to talk to you about recursive self-improvement. This is the idea that once you build",
@@ -49444,7 +49499,7 @@ const dashboardData = {
     "last_podcast_name": "Moonshots with Peter Diamandis",
     "last_episode_date": "2026-08-04",
     "mention_score": 1,
-    "mention_score_decayed": 0.34,
+    "mention_score_decayed": 0.33,
     "last_main_idea": "Investing in AI and technology sectors that align with the U.S. government's initiatives for fostering innovation and scientific discovery could provide significant growth opportunities.",
     "last_proof_cite": "Moonshots with Peter Diamandis \u2022 2026-08-04 \u2022 Michael Kratsios on the New Golden Age of American Science | EP #276",
     "last_proof_snippet": "I was a kid in the candy store reading the Golden Age Report. What you're describing there is a complete fundamental AI native AI agent up, reimagining of the entire scientific process. And I think it's something that is possible. My sense",
@@ -49513,7 +49568,7 @@ const dashboardData = {
     "last_podcast_name": "The a16z Show",
     "last_episode_date": "2026-08-04",
     "mention_score": 1,
-    "mention_score_decayed": 0.34,
+    "mention_score_decayed": 0.33,
     "last_main_idea": "Investing in cybersecurity solutions that leverage AI can provide a competitive advantage, but it also requires understanding the novel risks and vulnerabilities that AI models can create.",
     "last_proof_cite": "The a16z Show \u2022 2026-08-04 \u2022 OpenAI's Joshua Achiam: Did We Already Reach AGI?",
     "last_proof_snippet": "Heels like AGI is kind of already here and most people have gone like drug. The fact that we passed the threshold of where unsolved mathematical trajectors are getting solved by extremely intelligent AI, where those AI's are more capable an",
@@ -50807,7 +50862,7 @@ const dashboardData = {
     "last_podcast_name": "The a16z Show",
     "last_episode_date": "2026-07-20",
     "mention_score": 1,
-    "mention_score_decayed": 0.24,
+    "mention_score_decayed": 0.23,
     "last_main_idea": "Invest in open source AI platforms and local AI models to capitalize on the growing demand for privacy-preserving, cost-efficient AI solutions and the potential shift towards model routing.",
     "last_proof_cite": "The a16z Show \u2022 2026-07-20 \u2022 Hugging Face's CEO on Open Source AI, Model Routing, and the Future of Competition",
     "last_proof_snippet": "I think this relation is a very common practice that everyone is using. It's something that everyone uses, but that is not the main reason for success. Like if you suck, you suck without this relation. It's hard for me to say, like, oh, poo",
@@ -52063,72 +52118,6 @@ const dashboardData = {
     "net_worth": "$70.00B"
   },
   {
-    "id": 171,
-    "name": "Steven Sinofsky",
-    "slug": "steven-sinofsky",
-    "bio": "Steven Sinofsky is a former Microsoft executive and industry expert on personal computing and software development. Over nearly three decades at Microsoft, he helped shape products that define the PC era, including Windows, Office, and Surface. Sinofsky has witnessed one of the technology industry's longest-running rivalries, Microsoft and Apple, and continues to provide insights on the evolution of personal computing.",
-    "known_for": "His tenure at Microsoft and insights on the evolution of personal computing.",
-    "net_worth_usd": 300000000.0,
-    "net_worth_source": "https://www.gurufocus.com/insider/3984/steven-j-sinofsky",
-    "net_worth_updated_at": "2026-04-10T22:06:00.230554",
-    "voice_tone": "Reflective and insightful",
-    "voice_style": "Analytical and comparative",
-    "voice_delivery_notes": "Paced with emphasis on key historical moments and technological differences",
-    "voice_profile_updated_at": "2026-04-11 03:05:18",
-    "last_seen": "2026-06-03 03:02:03",
-    "last_episode_title": "Steven Sinofsky on Apple at 50, Microsoft, and the Future of Computing",
-    "last_podcast_name": "The a16z Show",
-    "last_episode_date": "2026-06-02",
-    "mention_score": 2,
-    "mention_score_decayed": 0.16,
-    "last_main_idea": "Investment in AI-native computing hardware and software development will be pivotal as personal computing transitions towards AI optimization, with Nvidia and Apple leading the charge.",
-    "last_proof_cite": "The a16z Show \u2022 2026-06-02 \u2022 Steven Sinofsky on Apple at 50, Microsoft, and the Future of Computing",
-    "last_proof_snippet": "Having lived through like a half dozen component church things, you just sort of wait them out and you jump, let some local max, your local men determine the future. This will all correct itself, in short order. This world where you're all",
-    "supporting_takeaway": "The shift to local processing could reduce costs associated with cloud-based AI services and democratize AI tool access.",
-    "grokipedia_url": null,
-    "grokipedia_fetched_at": "2026-06-02T22:02:42.225895",
-    "pundit_profile": {
-      "source": "llm",
-      "source_model": "moonshot:moonshot-v1-8k",
-      "source_url": "",
-      "page_title": "Steven Sinofsky",
-      "fetched_at": "2026-06-03T03:02:42.225549+00:00",
-      "cliff_notes": "Steven Sinofsky is best known for his nearly three-decade tenure at Microsoft, where he played a pivotal role in shaping some of the most defining products of the personal computing era, including Windows, Office, and Surface. As President of the Windows Division, Sinofsky was instrumental in guiding the development and marketing of the Windows operating system, which remains the backbone of the PC industry. His tenure also saw him navigate the intense rivalry between Microsoft and Apple, providing him with a unique perspective on product design, platforms, hardware, and software. Since leaving Microsoft, Sinofsky has continued to offer valuable insights into the future of computing, particularly in areas such as AI and resource constraints. His front-row seat to the personal computing revolution has made him a sought-after commentator and thought leader in the tech industry.",
-      "derived": {
-        "former_positions": "President of the Windows Division at Microsoft; Senior Vice President at Microsoft",
-        "education": "Bachelor of Science in Computer Science and Engineering from the University of Illinois at Urbana-Champaign"
-      },
-      "infobox": {
-        "Born": "1965",
-        "Nationality": "American"
-      },
-      "lead_paragraphs": [
-        "Steven Sinofsky is best known for his nearly three-decade tenure at Microsoft, where he played a pivotal role in shaping some of the most defining products of the personal computing era, including Windows, Office, and Surface. As President of the Windows Division, Sinofsky was instrumental in guiding the development and marketing of the Windows operating system, which remains the backbone of the PC industry.",
-        "His tenure also saw him navigate the intense rivalry between Microsoft and Apple, providing him with a unique perspective on product design, platforms, hardware, and software. Since leaving Microsoft, Sinofsky has continued to offer valuable insights into the future of computing, particularly in areas such as AI and resource constraints.",
-        "His front-row seat to the personal computing revolution has made him a sought-after commentator and thought leader in the tech industry."
-      ],
-      "sections": [
-        {
-          "heading": "Microsoft Tenure",
-          "body": "Steven Sinofsky spent nearly three decades at Microsoft, where he held various leadership roles, including President of the Windows Division and Senior Vice President. He was instrumental in shaping products like Windows, Office, and Surface, which have defined the personal computing era."
-        },
-        {
-          "heading": "Windows Development",
-          "body": "As President of the Windows Division, Sinofsky played a crucial role in the development and marketing of the Windows operating system. His leadership helped guide the product through numerous iterations, ensuring its continued relevance in the face of evolving competition and market demands."
-        },
-        {
-          "heading": "Microsoft vs. Apple",
-          "body": "Sinofsky's tenure at Microsoft coincided with one of the technology industry's longest-running rivalries: Microsoft vs. Apple. His unique perspective on product design, platforms, hardware, and software has provided valuable insights into the dynamics of this intense competition."
-        },
-        {
-          "heading": "Future of Computing",
-          "body": "Since leaving Microsoft, Steven Sinofsky has continued to offer insights into the future of computing, particularly in areas such as AI and resource constraints. He believes that AI presents an opportunity to change the dynamic of personal computing, making it more forward-looking and less reliant on backward compatibility."
-        }
-      ]
-    },
-    "net_worth": "$300.0M"
-  },
-  {
     "id": 319,
     "name": "Marcus Villik",
     "slug": "marcus-villik",
@@ -52499,6 +52488,72 @@ const dashboardData = {
         }
       ]
     }
+  },
+  {
+    "id": 171,
+    "name": "Steven Sinofsky",
+    "slug": "steven-sinofsky",
+    "bio": "Steven Sinofsky is a former Microsoft executive and industry expert on personal computing and software development. Over nearly three decades at Microsoft, he helped shape products that define the PC era, including Windows, Office, and Surface. Sinofsky has witnessed one of the technology industry's longest-running rivalries, Microsoft and Apple, and continues to provide insights on the evolution of personal computing.",
+    "known_for": "His tenure at Microsoft and insights on the evolution of personal computing.",
+    "net_worth_usd": 300000000.0,
+    "net_worth_source": "https://www.gurufocus.com/insider/3984/steven-j-sinofsky",
+    "net_worth_updated_at": "2026-04-10T22:06:00.230554",
+    "voice_tone": "Reflective and insightful",
+    "voice_style": "Analytical and comparative",
+    "voice_delivery_notes": "Paced with emphasis on key historical moments and technological differences",
+    "voice_profile_updated_at": "2026-04-11 03:05:18",
+    "last_seen": "2026-06-03 03:02:03",
+    "last_episode_title": "Steven Sinofsky on Apple at 50, Microsoft, and the Future of Computing",
+    "last_podcast_name": "The a16z Show",
+    "last_episode_date": "2026-06-02",
+    "mention_score": 2,
+    "mention_score_decayed": 0.15,
+    "last_main_idea": "Investment in AI-native computing hardware and software development will be pivotal as personal computing transitions towards AI optimization, with Nvidia and Apple leading the charge.",
+    "last_proof_cite": "The a16z Show \u2022 2026-06-02 \u2022 Steven Sinofsky on Apple at 50, Microsoft, and the Future of Computing",
+    "last_proof_snippet": "Having lived through like a half dozen component church things, you just sort of wait them out and you jump, let some local max, your local men determine the future. This will all correct itself, in short order. This world where you're all",
+    "supporting_takeaway": "The shift to local processing could reduce costs associated with cloud-based AI services and democratize AI tool access.",
+    "grokipedia_url": null,
+    "grokipedia_fetched_at": "2026-06-02T22:02:42.225895",
+    "pundit_profile": {
+      "source": "llm",
+      "source_model": "moonshot:moonshot-v1-8k",
+      "source_url": "",
+      "page_title": "Steven Sinofsky",
+      "fetched_at": "2026-06-03T03:02:42.225549+00:00",
+      "cliff_notes": "Steven Sinofsky is best known for his nearly three-decade tenure at Microsoft, where he played a pivotal role in shaping some of the most defining products of the personal computing era, including Windows, Office, and Surface. As President of the Windows Division, Sinofsky was instrumental in guiding the development and marketing of the Windows operating system, which remains the backbone of the PC industry. His tenure also saw him navigate the intense rivalry between Microsoft and Apple, providing him with a unique perspective on product design, platforms, hardware, and software. Since leaving Microsoft, Sinofsky has continued to offer valuable insights into the future of computing, particularly in areas such as AI and resource constraints. His front-row seat to the personal computing revolution has made him a sought-after commentator and thought leader in the tech industry.",
+      "derived": {
+        "former_positions": "President of the Windows Division at Microsoft; Senior Vice President at Microsoft",
+        "education": "Bachelor of Science in Computer Science and Engineering from the University of Illinois at Urbana-Champaign"
+      },
+      "infobox": {
+        "Born": "1965",
+        "Nationality": "American"
+      },
+      "lead_paragraphs": [
+        "Steven Sinofsky is best known for his nearly three-decade tenure at Microsoft, where he played a pivotal role in shaping some of the most defining products of the personal computing era, including Windows, Office, and Surface. As President of the Windows Division, Sinofsky was instrumental in guiding the development and marketing of the Windows operating system, which remains the backbone of the PC industry.",
+        "His tenure also saw him navigate the intense rivalry between Microsoft and Apple, providing him with a unique perspective on product design, platforms, hardware, and software. Since leaving Microsoft, Sinofsky has continued to offer valuable insights into the future of computing, particularly in areas such as AI and resource constraints.",
+        "His front-row seat to the personal computing revolution has made him a sought-after commentator and thought leader in the tech industry."
+      ],
+      "sections": [
+        {
+          "heading": "Microsoft Tenure",
+          "body": "Steven Sinofsky spent nearly three decades at Microsoft, where he held various leadership roles, including President of the Windows Division and Senior Vice President. He was instrumental in shaping products like Windows, Office, and Surface, which have defined the personal computing era."
+        },
+        {
+          "heading": "Windows Development",
+          "body": "As President of the Windows Division, Sinofsky played a crucial role in the development and marketing of the Windows operating system. His leadership helped guide the product through numerous iterations, ensuring its continued relevance in the face of evolving competition and market demands."
+        },
+        {
+          "heading": "Microsoft vs. Apple",
+          "body": "Sinofsky's tenure at Microsoft coincided with one of the technology industry's longest-running rivalries: Microsoft vs. Apple. His unique perspective on product design, platforms, hardware, and software has provided valuable insights into the dynamics of this intense competition."
+        },
+        {
+          "heading": "Future of Computing",
+          "body": "Since leaving Microsoft, Steven Sinofsky has continued to offer insights into the future of computing, particularly in areas such as AI and resource constraints. He believes that AI presents an opportunity to change the dynamic of personal computing, making it more forward-looking and less reliant on backward compatibility."
+        }
+      ]
+    },
+    "net_worth": "$300.0M"
   },
   {
     "id": 73,
@@ -54584,7 +54639,7 @@ const dashboardData = {
     "last_podcast_name": "Monetary Matters with Jack Farley",
     "last_episode_date": "2026-06-06",
     "mention_score": 1,
-    "mention_score_decayed": 0.09,
+    "mention_score_decayed": 0.08,
     "last_main_idea": "Investors should focus on undervalued companies in Asia, particularly in South Korea and Southeast Asia, due to favorable valuations and growth prospects.",
     "last_proof_cite": "Monetary Matters with Jack Farley \u2022 2026-06-06 \u2022 The AI Chip Bubble: Why South Korea & Taiwan Are In the Danger Zone | Michael Fritzell | Asian Century Stocks",
     "last_proof_snippet": "South Korea, I do think it is a bubble, because the estimates for profits, for Eski Heinigs and Samsung electronics, we're now talking 200 billion US dollars in that profit estimates for 2028. And that will make them the most profitable com",
@@ -57614,6 +57669,33 @@ const dashboardData = {
     "net_worth": "$45.0M"
   },
   {
+    "id": 55,
+    "name": "Dr. Onus Alhajji",
+    "slug": "dr-onus-alhajji",
+    "bio": "Expert commentator on energy markets and geopolitical conflicts.",
+    "known_for": "Analysis of the impact of geopolitical events on oil markets.",
+    "net_worth_usd": null,
+    "net_worth_source": null,
+    "net_worth_updated_at": null,
+    "voice_tone": null,
+    "voice_style": null,
+    "voice_delivery_notes": null,
+    "voice_profile_updated_at": null,
+    "last_seen": "2026-04-03 10:04:02",
+    "last_episode_title": "MacroVoices #526 Matt Barrie: Pay To PrAI",
+    "last_podcast_name": "MacroVoices",
+    "last_episode_date": "2026-04-02",
+    "mention_score": 2,
+    "mention_score_decayed": 0.04,
+    "last_main_idea": "Invest in sectors less affected by AI disruption and monitor geopolitical events for opportunities in private credit markets.",
+    "last_proof_cite": "MacroVoices \u2022 2026-04-02 \u2022 MacroVoices #526 Matt Barrie: Pay To PrAI",
+    "last_proof_snippet": "AI's impact on private credit markets could lead to a market dislocation similar to the 2000.com bust.",
+    "supporting_takeaway": "AI's impact on private credit markets could lead to a market dislocation similar to the 2000.com bust.",
+    "grokipedia_url": null,
+    "grokipedia_fetched_at": null,
+    "pundit_profile": null
+  },
+  {
     "id": 210,
     "name": "Patrick Collison",
     "slug": "patrick-collison",
@@ -57631,7 +57713,7 @@ const dashboardData = {
     "last_podcast_name": "The a16z Show",
     "last_episode_date": "2026-04-28",
     "mention_score": 1,
-    "mention_score_decayed": 0.04,
+    "mention_score_decayed": 0.03,
     "last_main_idea": "The future of commerce will be driven by platforms that can handle massive transaction volumes, necessitating advancements in blockchain technology and a shift in software economics towards bespoke, real-time solutions.",
     "last_proof_cite": "The a16z Show \u2022 2026-04-28 \u2022 John and Patrick Collison on Stripe's Growth, Agent Commerce, and the Future of Software",
     "last_proof_snippet": "The 2025 cohort of businesses on Stripe is larger and performing better on a per business basis than any prior cohort.",
@@ -57677,33 +57759,6 @@ const dashboardData = {
       ]
     },
     "net_worth": "$10.10B"
-  },
-  {
-    "id": 55,
-    "name": "Dr. Onus Alhajji",
-    "slug": "dr-onus-alhajji",
-    "bio": "Expert commentator on energy markets and geopolitical conflicts.",
-    "known_for": "Analysis of the impact of geopolitical events on oil markets.",
-    "net_worth_usd": null,
-    "net_worth_source": null,
-    "net_worth_updated_at": null,
-    "voice_tone": null,
-    "voice_style": null,
-    "voice_delivery_notes": null,
-    "voice_profile_updated_at": null,
-    "last_seen": "2026-04-03 10:04:02",
-    "last_episode_title": "MacroVoices #526 Matt Barrie: Pay To PrAI",
-    "last_podcast_name": "MacroVoices",
-    "last_episode_date": "2026-04-02",
-    "mention_score": 2,
-    "mention_score_decayed": 0.04,
-    "last_main_idea": "Invest in sectors less affected by AI disruption and monitor geopolitical events for opportunities in private credit markets.",
-    "last_proof_cite": "MacroVoices \u2022 2026-04-02 \u2022 MacroVoices #526 Matt Barrie: Pay To PrAI",
-    "last_proof_snippet": "AI's impact on private credit markets could lead to a market dislocation similar to the 2000.com bust.",
-    "supporting_takeaway": "AI's impact on private credit markets could lead to a market dislocation similar to the 2000.com bust.",
-    "grokipedia_url": null,
-    "grokipedia_fetched_at": null,
-    "pundit_profile": null
   },
   {
     "id": 207,
@@ -62851,10 +62906,10 @@ const dashboardData = {
       "as_of_label": "Sep 18, 2026 ~9:30 AM CT",
       "notional_each_usd": 1000,
       "basket_notional_usd": 5000,
-      "basket_current_value": 5013.64,
-      "basket_change_pct": 0.27,
+      "basket_current_value": 5020.87,
+      "basket_change_pct": 0.42,
       "index_start": 100,
-      "basket_index_value": 100.27,
+      "basket_index_value": 100.42,
       "names": [
         {
           "ticker": "HIMS",
@@ -62863,9 +62918,9 @@ const dashboardData = {
           "inception_price": 28.09,
           "shares": 35.5999,
           "notional": 1000,
-          "current_price": 29.1,
-          "current_value": 1035.96,
-          "change_pct": 3.6
+          "current_price": 29.35,
+          "current_value": 1044.86,
+          "change_pct": 4.49
         },
         {
           "ticker": "GDRX",
@@ -62885,9 +62940,9 @@ const dashboardData = {
           "inception_price": 77.97,
           "shares": 12.8254,
           "notional": 1000,
-          "current_price": 78.05,
-          "current_value": 1001.02,
-          "change_pct": 0.1
+          "current_price": 78.03,
+          "current_value": 1000.77,
+          "change_pct": 0.08
         },
         {
           "ticker": "GH",
@@ -62896,9 +62951,9 @@ const dashboardData = {
           "inception_price": 183.1,
           "shares": 5.4615,
           "notional": 1000,
-          "current_price": 173.86,
-          "current_value": 949.54,
-          "change_pct": -5.05
+          "current_price": 173.87,
+          "current_value": 949.59,
+          "change_pct": -5.04
         },
         {
           "ticker": "ABT",
@@ -62907,13 +62962,13 @@ const dashboardData = {
           "inception_price": 102.2,
           "shares": 9.7847,
           "notional": 1000,
-          "current_price": 103.13,
-          "current_value": 1009.1,
-          "change_pct": 0.91
+          "current_price": 102.98,
+          "current_value": 1007.63,
+          "change_pct": 0.76
         }
       ],
       "disclaimer": "Research sleeve / scorecard, not advice. $1,000 equal-weight illustration only.",
-      "last_updated": "2026-09-21T14:14:27.197798"
+      "last_updated": "2026-09-21T22:32:26.249136"
     }
   ]
 }
