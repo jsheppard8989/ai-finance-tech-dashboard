@@ -1,6 +1,25 @@
 {
   "insights": [
     {
+      "id": 519,
+      "title": "AI Safety Language Is Destroying the Debate | Steven Sinofsky",
+      "source_type": "podcast",
+      "source_name": "The a16z Show",
+      "source_date": "2026-09-21",
+      "summary": "The podcast discusses critical issues surrounding AI safety and governance, emphasizing the need for clearer terminology and better telemetry in AI systems. It highlights the historical context of software failures to advocate for proactive measures in AI development and regulatory frameworks. The conversation also addresses legislative misunderstandings of AI technology, urging stakeholders to engage with lawmakers for informed regulations.",
+      "key_takeaway": "Investing in companies that prioritize clear communication, robust telemetry, and operational security in AI development presents a significant opportunity as the industry matures.",
+      "tickers_mentioned": [
+        "NVDA"
+      ],
+      "sentiment": "bullish",
+      "display_on_main": 0,
+      "display_order": 0,
+      "added_date": "2026-09-21",
+      "archived_date": null,
+      "archived_reason": null,
+      "podcast_episode_id": 504
+    },
+    {
       "id": 516,
       "title": "Nas, Grandmaster Caz, Steve Stoute & Ben Horowitz on Paying Hip-Hop\u2019s Pioneers Their Due",
       "source_type": "podcast",
@@ -12126,8 +12145,8 @@
       "term": "AI Agents",
       "description": "Autonomous AI systems capable of collaborating in large swarms to solve complex problems, exemplified by the use of 10,000 agents to tackle the Navier-Stokes millennium prize problem.",
       "first_detected_date": "2026-02-28",
-      "last_mentioned_date": "2026-09-19",
-      "mention_count": 97,
+      "last_mentioned_date": "2026-09-21",
+      "mention_count": 98,
       "source_podcasts": null,
       "status": "active",
       "investment_implications": "Agentic swarms represent the next compute demand layer beyond chatbots, driving infrastructure needs and opening enterprise automation markets.",
@@ -12136,8 +12155,8 @@
       "archived_reason": null,
       "first_detected_episode_id": 31,
       "first_detected_speaker": null,
-      "last_mentioned_episode_id": 500,
-      "last_mentioned_speaker": "Peter Diamandis (hosts)"
+      "last_mentioned_episode_id": 504,
+      "last_mentioned_speaker": "Steven Sinoffski"
     },
     {
       "id": 38,
