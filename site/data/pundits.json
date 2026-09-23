@@ -694,7 +694,7 @@
     "last_podcast_name": "Monetary Matters with Jack Farley",
     "last_episode_date": "2026-08-20",
     "mention_score": 3,
-    "mention_score_decayed": 1.43,
+    "mention_score_decayed": 1.4,
     "last_main_idea": "The rise in AI capex and government spending is leading to increased borrowing costs, which will have profound effects on bond markets and inflation, creating both risks and opportunities for investors.",
     "last_proof_cite": "Monetary Matters with Jack Farley \u2022 2026-08-20 \u2022 Why Bessent Blinked | Luke Gromen on Doubling of Treasury Buyback Plan to Tame Long-End Yields",
     "last_proof_snippet": "Today's episode is brought to you by the two-cream corn fund Take or C-O-R-N. Let's get into it. Got a very important conversation today. I'm joined once again by Luke Groman of Forest for the Trees Research Luke. Welcome back to Monterey M",
@@ -754,7 +754,7 @@
     "last_podcast_name": "Moonshots with Peter Diamandis",
     "last_episode_date": "2026-07-08",
     "mention_score": 3,
-    "mention_score_decayed": 1.31,
+    "mention_score_decayed": 1.28,
     "last_main_idea": "Invest in companies that are integrating AI into their operations to capitalize on job growth and technological advancements.",
     "last_proof_cite": "Moonshots with Peter Diamandis \u2022 2026-07-08 \u2022 Fable 5 Is Back & Govt-Leashed, Altman Offers 5% of OpenAI & AI Grows Conscious | #269",
     "last_proof_snippet": "Fable 5 came back online globally on July 1st with a few Provisos. This feels like the first time a frontier model has a standing duty to the U.S. government. This is probably close to the best scenario we could have hoped for. Sam has been",
@@ -1045,7 +1045,7 @@
     "last_podcast_name": "Monetary Matters with Jack Farley",
     "last_episode_date": "2026-09-20",
     "mention_score": 1,
-    "mention_score_decayed": 0.98,
+    "mention_score_decayed": 0.95,
     "last_main_idea": "Investors should increase allocations to gold and copper while considering uranium for long-term growth, and reduce exposure to oil and fertilizers.",
     "last_proof_cite": "Monetary Matters with Jack Farley \u2022 2026-09-20 \u2022 Outlook on 5 Key Commodities: Metals Bull Market is Just Getting Started (Gold, Copper, & Uranium) | J\u00e9r\u00e9mie Boyer | Aurelion",
     "last_proof_snippet": "We're pretty much bullish on goal. I think they coupled from all price. This is what maybe the confirmation we were reading for to become bullish again on goal. As we saw since maybe August and so far, September, there's been a huge spike i",
@@ -1099,7 +1099,7 @@
     "last_podcast_name": "Monetary Matters with Jack Farley",
     "last_episode_date": "2026-09-19",
     "mention_score": 1,
-    "mention_score_decayed": 0.95,
+    "mention_score_decayed": 0.93,
     "last_main_idea": "Investors should focus on sectors benefiting from AI adoption and consider increasing allocations to Treasuries for portfolio stability.",
     "last_proof_cite": "Monetary Matters with Jack Farley \u2022 2026-09-19 \u2022 Why The 30-Year Treasury Lost Its Biggest Buyers | David Busch on Why High Yields Are Attractive Right Now",
     "last_proof_snippet": "Today, I'm joined by David Bush, Chief Investment Officer of Trajan Wealth, David. Welcome to the monetary matters. Jack, thank you so much for having me. It's truly a pleasure to join you. And as I said in our communication back and forth",
@@ -1313,60 +1313,6 @@
     }
   },
   {
-    "id": 464,
-    "name": "Harley Bassman",
-    "slug": "harley-bassman",
-    "bio": "Harley Bassman is a financial expert recognized for his deep insights into fixed income markets and economic trends. He is known for his innovative approach to market dynamics and monetary policy, earning him the nickname 'Convexity Maven.' His expertise has made him a sought-after commentator in the finance community.",
-    "known_for": "Harley Bassman is renowned for inventing the Move Index, a key tool for understanding market volatility in fixed income.",
-    "net_worth_usd": null,
-    "net_worth_source": "",
-    "net_worth_updated_at": null,
-    "voice_tone": "Analytical and assertive",
-    "voice_style": "Direct and informative, providing clear insights.",
-    "voice_delivery_notes": "Pacing is steady with emphasis on key points.",
-    "voice_profile_updated_at": "2026-09-17 19:01:38",
-    "last_seen": "2026-09-17 19:01:38",
-    "last_episode_title": "MacroVoices #550 Harley Bassman: In FED We Trust",
-    "last_podcast_name": "Macro Voices",
-    "last_episode_date": "2026-09-17",
-    "mention_score": 1,
-    "mention_score_decayed": 0.91,
-    "last_main_idea": "Investors should focus on adapting their strategies to the evolving trust dynamics in the Fed, the implications of rising corporate profits, and the risks associated with housing affordability and non-bank lending.",
-    "last_proof_cite": "Macro Voices \u2022 2026-09-17 \u2022 MacroVoices #550 Harley Bassman: In FED We Trust",
-    "last_proof_snippet": "What's going on in my view is we have a lack of trust in the government. In a lot of our institutions, and maybe about the Fed, which really important here is the Fed needs to go and regain the trust of the market. That was Harley Basman, t",
-    "supporting_takeaway": "Corporate profits as a percentage of GDP have doubled, indicating a disconnect with public sentiment.",
-    "grokipedia_url": null,
-    "grokipedia_fetched_at": "2026-09-17T14:02:02.949413",
-    "pundit_profile": {
-      "source": "llm",
-      "source_model": "openai:gpt-4o-mini",
-      "source_url": "",
-      "page_title": "Harley Bassman",
-      "fetched_at": "2026-09-17T19:02:02.948863+00:00",
-      "cliff_notes": "Harley Bassman has established himself as a leading voice in the analysis of fixed income markets. His career has been marked by a focus on understanding and interpreting economic trends, particularly in relation to monetary policy and market trust. As the inventor of the Move Index, he has provided investors with a valuable tool for gauging market volatility, which has become essential in today's financial landscape. His insights are frequently sought after in various media, where he discusses the implications of Federal Reserve policies and broader economic conditions. Bassman's ability to distill complex financial concepts into actionable insights has made him a respected figure among both professional finance practitioners and sophisticated private investors.",
-      "derived": {},
-      "infobox": {},
-      "lead_paragraphs": [
-        "Harley Bassman has established himself as a leading voice in the analysis of fixed income markets. His career has been marked by a focus on understanding and interpreting economic trends, particularly in relation to monetary policy and market trust. As the inventor of the Move Index, he has provided investors with a valuable tool for gauging market volatility, which has become essential in today's financial landscape.",
-        "His insights are frequently sought after in various media, where he discusses the implications of Federal Reserve policies and broader economic conditions. Bassman's ability to distill complex financial concepts into actionable insights has made him a respected figure among both professional finance practitioners and sophisticated private investors."
-      ],
-      "sections": [
-        {
-          "heading": "Fixed Income Markets",
-          "body": "Bassman offers expert analysis on the dynamics of fixed income markets, providing insights into trends and investment strategies."
-        },
-        {
-          "heading": "Monetary Policy",
-          "body": "He discusses the implications of monetary policy decisions by the Federal Reserve and their impact on market confidence and investor behavior."
-        },
-        {
-          "heading": "Market Volatility",
-          "body": "As the creator of the Move Index, Bassman provides a framework for understanding market volatility, helping investors navigate uncertain environments."
-        }
-      ]
-    }
-  },
-  {
     "id": 133,
     "name": "Chris Dixon",
     "slug": "chris-dixon",
@@ -1426,6 +1372,60 @@
       ]
     },
     "net_worth": "$500.0M"
+  },
+  {
+    "id": 464,
+    "name": "Harley Bassman",
+    "slug": "harley-bassman",
+    "bio": "Harley Bassman is a financial expert recognized for his deep insights into fixed income markets and economic trends. He is known for his innovative approach to market dynamics and monetary policy, earning him the nickname 'Convexity Maven.' His expertise has made him a sought-after commentator in the finance community.",
+    "known_for": "Harley Bassman is renowned for inventing the Move Index, a key tool for understanding market volatility in fixed income.",
+    "net_worth_usd": null,
+    "net_worth_source": "",
+    "net_worth_updated_at": null,
+    "voice_tone": "Analytical and assertive",
+    "voice_style": "Direct and informative, providing clear insights.",
+    "voice_delivery_notes": "Pacing is steady with emphasis on key points.",
+    "voice_profile_updated_at": "2026-09-17 19:01:38",
+    "last_seen": "2026-09-17 19:01:38",
+    "last_episode_title": "MacroVoices #550 Harley Bassman: In FED We Trust",
+    "last_podcast_name": "Macro Voices",
+    "last_episode_date": "2026-09-17",
+    "mention_score": 1,
+    "mention_score_decayed": 0.89,
+    "last_main_idea": "Investors should focus on adapting their strategies to the evolving trust dynamics in the Fed, the implications of rising corporate profits, and the risks associated with housing affordability and non-bank lending.",
+    "last_proof_cite": "Macro Voices \u2022 2026-09-17 \u2022 MacroVoices #550 Harley Bassman: In FED We Trust",
+    "last_proof_snippet": "What's going on in my view is we have a lack of trust in the government. In a lot of our institutions, and maybe about the Fed, which really important here is the Fed needs to go and regain the trust of the market. That was Harley Basman, t",
+    "supporting_takeaway": "Corporate profits as a percentage of GDP have doubled, indicating a disconnect with public sentiment.",
+    "grokipedia_url": null,
+    "grokipedia_fetched_at": "2026-09-17T14:02:02.949413",
+    "pundit_profile": {
+      "source": "llm",
+      "source_model": "openai:gpt-4o-mini",
+      "source_url": "",
+      "page_title": "Harley Bassman",
+      "fetched_at": "2026-09-17T19:02:02.948863+00:00",
+      "cliff_notes": "Harley Bassman has established himself as a leading voice in the analysis of fixed income markets. His career has been marked by a focus on understanding and interpreting economic trends, particularly in relation to monetary policy and market trust. As the inventor of the Move Index, he has provided investors with a valuable tool for gauging market volatility, which has become essential in today's financial landscape. His insights are frequently sought after in various media, where he discusses the implications of Federal Reserve policies and broader economic conditions. Bassman's ability to distill complex financial concepts into actionable insights has made him a respected figure among both professional finance practitioners and sophisticated private investors.",
+      "derived": {},
+      "infobox": {},
+      "lead_paragraphs": [
+        "Harley Bassman has established himself as a leading voice in the analysis of fixed income markets. His career has been marked by a focus on understanding and interpreting economic trends, particularly in relation to monetary policy and market trust. As the inventor of the Move Index, he has provided investors with a valuable tool for gauging market volatility, which has become essential in today's financial landscape.",
+        "His insights are frequently sought after in various media, where he discusses the implications of Federal Reserve policies and broader economic conditions. Bassman's ability to distill complex financial concepts into actionable insights has made him a respected figure among both professional finance practitioners and sophisticated private investors."
+      ],
+      "sections": [
+        {
+          "heading": "Fixed Income Markets",
+          "body": "Bassman offers expert analysis on the dynamics of fixed income markets, providing insights into trends and investment strategies."
+        },
+        {
+          "heading": "Monetary Policy",
+          "body": "He discusses the implications of monetary policy decisions by the Federal Reserve and their impact on market confidence and investor behavior."
+        },
+        {
+          "heading": "Market Volatility",
+          "body": "As the creator of the Move Index, Bassman provides a framework for understanding market volatility, helping investors navigate uncertain environments."
+        }
+      ]
+    }
   },
   {
     "id": 462,
@@ -1977,7 +1977,7 @@
     "last_podcast_name": "All-In with Chamath, Jason, Sacks & Friedberg",
     "last_episode_date": "2026-08-08",
     "mention_score": 2,
-    "mention_score_decayed": 0.87,
+    "mention_score_decayed": 0.85,
     "last_main_idea": "Investment in AI infrastructure and data centers is becoming increasingly important due to the demand for compute power and the tax advantages of such investments in the U.S.",
     "last_proof_cite": "All-In with Chamath, Jason, Sacks & Friedberg \u2022 2026-08-08 \u2022 Google's AI Brain Drain, SpaceX's Huge Quarter, Airtable's 90% Collapse, US Data Fuels China AI",
     "last_proof_snippet": "All right, everybody. Welcome back to your favorite podcast. It's the all-in podcast. It's the summer. It's August 6th. Haven't a hard time getting a core. I'm here on the podcast. But David Friedberg is here. David Friedberg is back our Su",
@@ -2035,7 +2035,7 @@
     "last_podcast_name": "Monetary Matters with Jack Farley",
     "last_episode_date": "2026-09-13",
     "mention_score": 1,
-    "mention_score_decayed": 0.83,
+    "mention_score_decayed": 0.81,
     "last_main_idea": "The junior mining sector offers a compelling asymmetric opportunity in distressed, underappreciated assets with strong management, where years of capital flight and depleted liquidity have created a fertile environment for patient capital to realize value through operational improvement and an impending wave of major-miner M&A.",
     "last_proof_cite": "Monetary Matters with Jack Farley \u2022 2026-09-13 \u2022 Hunting for Value in Mining Stocks Amid Soaring Metals Prices | Freddy Brick | Muddy Waters Capital",
     "last_proof_snippet": "We actually don't have a huge view of metal prices, which everyone probably thinks is just insane given that we run a metals and mining fund, 2% down day on the S&P, like you know a lot of Bloomberg going yellow pretty early and people are",
@@ -3076,7 +3076,7 @@
     "last_podcast_name": "The a16z Show",
     "last_episode_date": "2026-08-21",
     "mention_score": 1,
-    "mention_score_decayed": 0.57,
+    "mention_score_decayed": 0.56,
     "last_main_idea": "Investing in AI-driven security solutions can enhance operational efficiency and effectiveness, providing a competitive edge in a rapidly evolving technological landscape.",
     "last_proof_cite": "The a16z Show \u2022 2026-08-21 \u2022 Microsoft's Deputy CISO on Securing AI Agents",
     "last_proof_snippet": "The top story has been that the AI models are happy. The models went out under the internet and tested the security of several organizations. Isn't something to be scared of? Yes. Is it something to throw up your hands and worry about? No.",
@@ -3138,7 +3138,7 @@
     "last_podcast_name": "Moonshots with Peter Diamandis",
     "last_episode_date": "2026-07-29",
     "mention_score": 1,
-    "mention_score_decayed": 0.57,
+    "mention_score_decayed": 0.56,
     "last_main_idea": "The accelerating pace of AI development, coupled with advancements in space technology and a shifting geopolitical landscape, creates a multi-faceted investment opportunity in companies fostering balanced AI ecosystems, pioneering AGI, and enabling future abundance.",
     "last_proof_cite": "Moonshots with Peter Diamandis \u2022 2026-07-29 \u2022 Dario vs Jensen on Open Weights, OpenAI & Anthropic in DC, Xi Exports AI to Global South | EP #275",
     "last_proof_snippet": "The couple of days ago, Jensen Wong's CEO of NVIDIA. He says the world needs both frontier, close models, and frontier open models. And Thropic was silent for three days, and there was a lot of conversation. Where's in Thropic in this conve",
@@ -3166,7 +3166,7 @@
     "last_podcast_name": "Moonshots with Peter Diamandis",
     "last_episode_date": "2026-07-29",
     "mention_score": 1,
-    "mention_score_decayed": 0.57,
+    "mention_score_decayed": 0.56,
     "last_main_idea": "The accelerating pace of AI development, coupled with advancements in space technology and a shifting geopolitical landscape, creates a multi-faceted investment opportunity in companies fostering balanced AI ecosystems, pioneering AGI, and enabling future abundance.",
     "last_proof_cite": "Moonshots with Peter Diamandis \u2022 2026-07-29 \u2022 Dario vs Jensen on Open Weights, OpenAI & Anthropic in DC, Xi Exports AI to Global South | EP #275",
     "last_proof_snippet": "The couple of days ago, Jensen Wong's CEO of NVIDIA. He says the world needs both frontier, close models, and frontier open models. And Thropic was silent for three days, and there was a lot of conversation. Where's in Thropic in this conve",
@@ -3194,7 +3194,7 @@
     "last_podcast_name": "The a16z Show",
     "last_episode_date": "2026-06-12",
     "mention_score": 1,
-    "mention_score_decayed": 0.57,
+    "mention_score_decayed": 0.56,
     "last_main_idea": "The core investment opportunity lies in identifying and capitalizing on the foundational industries and efficient institutions that will enable and benefit from the AI-induced industrial revolution, while also navigating the demographic and political economic shifts it engenders.",
     "last_proof_cite": "The a16z Show \u2022 2026-06-12 \u2022 Samo Burja on Growth, Energy, and AI",
     "last_proof_snippet": "So, I actually think a big macro story that we've been exploring at Bismarck and Alice's in Bismarck Brief is that the demands of AI are so massive that for the first time in decades, the economies of scale necessary to supply them require",
@@ -4441,7 +4441,7 @@
     "last_podcast_name": "Monetary Matters with Jack Farley",
     "last_episode_date": "2026-08-16",
     "mention_score": 1,
-    "mention_score_decayed": 0.44,
+    "mention_score_decayed": 0.43,
     "last_main_idea": "Investment in hyperscaler companies may offer significant returns due to their transformative technology and massive capital investments, but also carries risks due to the off-balance sheet leverage and innovative financial structures.",
     "last_proof_cite": "Monetary Matters with Jack Farley \u2022 2026-08-16 \u2022 Robin Wigglesworth on Hyperscalers' 1.5 Trillion of Off-Balance Sheet Liabilities, Private Credit, and His Book \"A Fabulous Debt\"",
     "last_proof_snippet": "I'm joined today by Robin Wigglesworth, editor of AlphaVille, the Financial Times Financial blog and author of a fabulous debt, the epic story of how bonds built the modern world Robin. But one talk about bonds fixed income of course, but w",
@@ -4754,7 +4754,7 @@
     "last_podcast_name": "Monetary Matters with Jack Farley",
     "last_episode_date": "2026-08-12",
     "mention_score": 1,
-    "mention_score_decayed": 0.4,
+    "mention_score_decayed": 0.39,
     "last_main_idea": "Milton Berg's investment thesis is that the market may have bottomed and is poised for a rebound, with specific focus on sectors that have experienced significant declines as potential short-term bounce candidates.",
     "last_proof_cite": "Monetary Matters with Jack Farley \u2022 2026-08-12 \u2022 Milton Berg: I Have Evidence Market Has Likely Bottomed | Why Milton\u2019s Long Semis, Korea, Nasdaq, and More (With Caveats), and Why He Thinks Gold has made a Multi-year Top",
     "last_proof_snippet": "I am joined once again by Milton Berg of MB advisors and Milton Berg Edge. Milton is one of the greatest market technicians alive. And he focuses on a lot of things that most tetanolists don't follow. He's mostly not looking at charts. He's",
@@ -5068,7 +5068,7 @@
     "last_podcast_name": "Dwarkesh Podcast",
     "last_episode_date": "2026-08-11",
     "mention_score": 1,
-    "mention_score_decayed": 0.39,
+    "mention_score_decayed": 0.38,
     "last_main_idea": "Investment in AI development and security is crucial to manage the rapid advancements and ensure ethical AI behavior.",
     "last_proof_cite": "Dwarkesh Podcast \u2022 2026-08-11 \u2022 Ryan Greenblatt \u2013 Human level AIs might build runaway superintelligences by 2032",
     "last_proof_snippet": "Today, I'm chatting with Ryan Greenlet, who is the chief scientist at Redwood Research, where he focuses on technical AI safety and security work. I want to talk to you about recursive self-improvement. This is the idea that once you build",
@@ -5908,7 +5908,7 @@
     "last_podcast_name": "Moonshots with Peter Diamandis",
     "last_episode_date": "2026-08-04",
     "mention_score": 1,
-    "mention_score_decayed": 0.33,
+    "mention_score_decayed": 0.32,
     "last_main_idea": "Investing in AI and technology sectors that align with the U.S. government's initiatives for fostering innovation and scientific discovery could provide significant growth opportunities.",
     "last_proof_cite": "Moonshots with Peter Diamandis \u2022 2026-08-04 \u2022 Michael Kratsios on the New Golden Age of American Science | EP #276",
     "last_proof_snippet": "I was a kid in the candy store reading the Golden Age Report. What you're describing there is a complete fundamental AI native AI agent up, reimagining of the entire scientific process. And I think it's something that is possible. My sense",
@@ -5977,7 +5977,7 @@
     "last_podcast_name": "The a16z Show",
     "last_episode_date": "2026-08-04",
     "mention_score": 1,
-    "mention_score_decayed": 0.33,
+    "mention_score_decayed": 0.32,
     "last_main_idea": "Investing in cybersecurity solutions that leverage AI can provide a competitive advantage, but it also requires understanding the novel risks and vulnerabilities that AI models can create.",
     "last_proof_cite": "The a16z Show \u2022 2026-08-04 \u2022 OpenAI's Joshua Achiam: Did We Already Reach AGI?",
     "last_proof_snippet": "Heels like AGI is kind of already here and most people have gone like drug. The fact that we passed the threshold of where unsolved mathematical trajectors are getting solved by extremely intelligent AI, where those AI's are more capable an",
@@ -6210,65 +6210,6 @@
       ]
     },
     "net_worth": "$1.90B"
-  },
-  {
-    "id": 98,
-    "name": "Rory Johnston",
-    "slug": "rory-johnston",
-    "bio": "Rory Johnston is an expert on energy markets and geopolitical risks. He is known for his analysis of the Hormuz crisis and its implications for global oil flows. Johnston's insights are highly valued by professional finance, high-net worth individuals, family offices, and other sophisticated investors.",
-    "known_for": "Analysis of the Hormuz crisis and its implications for global oil flows.",
-    "net_worth_usd": null,
-    "net_worth_source": "",
-    "net_worth_updated_at": "2026-03-28T22:05:57.557236",
-    "voice_tone": "Informative and insightful",
-    "voice_style": "Direct and focused on market dynamics",
-    "voice_delivery_notes": "Paced with emphasis on key market indicators",
-    "voice_profile_updated_at": "2026-03-29 09:09:13",
-    "last_seen": "2026-05-14 18:46:46",
-    "last_episode_title": "MacroVoices #532 Mike Green: Record Mechanical Flows",
-    "last_podcast_name": "Macro Voices",
-    "last_episode_date": "2026-05-14",
-    "mention_score": 6,
-    "mention_score_decayed": 0.3,
-    "last_main_idea": "Investors should prepare for potential volatility as economic indicators begin to reflect the impacts of energy prices and passive investment flows.",
-    "last_proof_cite": "Macro Voices \u2022 2026-05-14 \u2022 MacroVoices #532 Mike Green: Record Mechanical Flows",
-    "last_proof_snippet": "This is Macrovoisers, the Free Weekly Financial Podcast, targeting professional finance, high-net worth individuals, family offices, and other sophisticated investors. Macrovoisers is all about the brightest minds in the world of finance an",
-    "supporting_takeaway": "The ongoing Hormuz crisis is expected to create significant economic dislocation, particularly affecting energy supply.",
-    "grokipedia_url": null,
-    "grokipedia_fetched_at": "2026-05-14T13:47:11.847729",
-    "pundit_profile": {
-      "source": "llm",
-      "source_model": "moonshot:moonshot-v1-8k",
-      "source_url": "",
-      "page_title": "Rory Johnston",
-      "fetched_at": "2026-05-14T18:47:11.847405+00:00",
-      "cliff_notes": "Rory Johnston is an expert in energy markets and geopolitical risks, with a particular focus on the Hormuz crisis and its impact on global oil flows. His expertise is sought after by a range of financial professionals, including high-net worth individuals, family offices, and sophisticated investors. Johnston's analysis is featured on platforms like Macrovoisers, a financial podcast that targets these audiences. His insights into the Hormuz crisis and its potential to cripple the global economy are particularly valued, as they help investors navigate the complex and volatile world of finance and macroeconomics.",
-      "derived": {
-        "current_role": "Expert on energy markets and geopolitical risks; specific role not mentioned."
-      },
-      "infobox": {
-        "Born": "",
-        "Nationality": ""
-      },
-      "lead_paragraphs": [
-        "Rory Johnston is an expert in energy markets and geopolitical risks, with a particular focus on the Hormuz crisis and its impact on global oil flows. His expertise is sought after by a range of financial professionals, including high-net worth individuals, family offices, and sophisticated investors. Johnston's analysis is featured on platforms like Macrovoisers, a financial podcast that targets these audiences.",
-        "His insights into the Hormuz crisis and its potential to cripple the global economy are particularly valued, as they help investors navigate the complex and volatile world of finance and macroeconomics."
-      ],
-      "sections": [
-        {
-          "heading": "Hormuz Crisis",
-          "body": "Rory Johnston is known for his analysis of the Hormuz crisis and its implications for global oil flows. He has provided insights into how this geopolitical event could potentially cripple the global economy."
-        },
-        {
-          "heading": "Energy Markets",
-          "body": "Johnston is an expert on energy markets, offering valuable insights into the complex dynamics of oil and gas markets. His analysis helps investors understand the impact of geopolitical events on these markets."
-        },
-        {
-          "heading": "Geopolitical Risks",
-          "body": "As an expert on geopolitical risks, Johnston provides valuable perspectives on how global events can affect financial markets. His analysis of the Hormuz crisis is a prime example of this expertise."
-        }
-      ]
-    }
   },
   {
     "id": 368,
@@ -6751,6 +6692,65 @@
     "net_worth": "$26.7M"
   },
   {
+    "id": 98,
+    "name": "Rory Johnston",
+    "slug": "rory-johnston",
+    "bio": "Rory Johnston is an expert on energy markets and geopolitical risks. He is known for his analysis of the Hormuz crisis and its implications for global oil flows. Johnston's insights are highly valued by professional finance, high-net worth individuals, family offices, and other sophisticated investors.",
+    "known_for": "Analysis of the Hormuz crisis and its implications for global oil flows.",
+    "net_worth_usd": null,
+    "net_worth_source": "",
+    "net_worth_updated_at": "2026-03-28T22:05:57.557236",
+    "voice_tone": "Informative and insightful",
+    "voice_style": "Direct and focused on market dynamics",
+    "voice_delivery_notes": "Paced with emphasis on key market indicators",
+    "voice_profile_updated_at": "2026-03-29 09:09:13",
+    "last_seen": "2026-05-14 18:46:46",
+    "last_episode_title": "MacroVoices #532 Mike Green: Record Mechanical Flows",
+    "last_podcast_name": "Macro Voices",
+    "last_episode_date": "2026-05-14",
+    "mention_score": 6,
+    "mention_score_decayed": 0.29,
+    "last_main_idea": "Investors should prepare for potential volatility as economic indicators begin to reflect the impacts of energy prices and passive investment flows.",
+    "last_proof_cite": "Macro Voices \u2022 2026-05-14 \u2022 MacroVoices #532 Mike Green: Record Mechanical Flows",
+    "last_proof_snippet": "This is Macrovoisers, the Free Weekly Financial Podcast, targeting professional finance, high-net worth individuals, family offices, and other sophisticated investors. Macrovoisers is all about the brightest minds in the world of finance an",
+    "supporting_takeaway": "The ongoing Hormuz crisis is expected to create significant economic dislocation, particularly affecting energy supply.",
+    "grokipedia_url": null,
+    "grokipedia_fetched_at": "2026-05-14T13:47:11.847729",
+    "pundit_profile": {
+      "source": "llm",
+      "source_model": "moonshot:moonshot-v1-8k",
+      "source_url": "",
+      "page_title": "Rory Johnston",
+      "fetched_at": "2026-05-14T18:47:11.847405+00:00",
+      "cliff_notes": "Rory Johnston is an expert in energy markets and geopolitical risks, with a particular focus on the Hormuz crisis and its impact on global oil flows. His expertise is sought after by a range of financial professionals, including high-net worth individuals, family offices, and sophisticated investors. Johnston's analysis is featured on platforms like Macrovoisers, a financial podcast that targets these audiences. His insights into the Hormuz crisis and its potential to cripple the global economy are particularly valued, as they help investors navigate the complex and volatile world of finance and macroeconomics.",
+      "derived": {
+        "current_role": "Expert on energy markets and geopolitical risks; specific role not mentioned."
+      },
+      "infobox": {
+        "Born": "",
+        "Nationality": ""
+      },
+      "lead_paragraphs": [
+        "Rory Johnston is an expert in energy markets and geopolitical risks, with a particular focus on the Hormuz crisis and its impact on global oil flows. His expertise is sought after by a range of financial professionals, including high-net worth individuals, family offices, and sophisticated investors. Johnston's analysis is featured on platforms like Macrovoisers, a financial podcast that targets these audiences.",
+        "His insights into the Hormuz crisis and its potential to cripple the global economy are particularly valued, as they help investors navigate the complex and volatile world of finance and macroeconomics."
+      ],
+      "sections": [
+        {
+          "heading": "Hormuz Crisis",
+          "body": "Rory Johnston is known for his analysis of the Hormuz crisis and its implications for global oil flows. He has provided insights into how this geopolitical event could potentially cripple the global economy."
+        },
+        {
+          "heading": "Energy Markets",
+          "body": "Johnston is an expert on energy markets, offering valuable insights into the complex dynamics of oil and gas markets. His analysis helps investors understand the impact of geopolitical events on these markets."
+        },
+        {
+          "heading": "Geopolitical Risks",
+          "body": "As an expert on geopolitical risks, Johnston provides valuable perspectives on how global events can affect financial markets. His analysis of the Hormuz crisis is a prime example of this expertise."
+        }
+      ]
+    }
+  },
+  {
     "id": 358,
     "name": "Nick Brooks",
     "slug": "nick-brooks",
@@ -7136,7 +7136,7 @@
     "last_podcast_name": "All-In with Chamath, Jason, Sacks & Friedberg",
     "last_episode_date": "2026-07-20",
     "mention_score": 1,
-    "mention_score_decayed": 0.24,
+    "mention_score_decayed": 0.23,
     "last_main_idea": "The current market behavior, while bubbly, is distinct from past bubbles and may disproportionately impact venture capital and private equity firms due to aggressive investment strategies.",
     "last_proof_cite": "All-In with Chamath, Jason, Sacks & Friedberg \u2022 2026-07-20 \u2022 Mark Cuban on the AI Bubble: Who Actually Gets Wiped Out?",
     "last_proof_snippet": "You and I live through a couple of bubbles. We've seen this movie before. And this wave seems very different than the dot com wave. So let's talk about that. Are you concerned about a bubble? We're seeing bubbly like behavior people. It's n",
@@ -7399,7 +7399,7 @@
     "last_podcast_name": "Moonshots with Peter Diamandis",
     "last_episode_date": "2026-07-17",
     "mention_score": 1,
-    "mention_score_decayed": 0.22,
+    "mention_score_decayed": 0.21,
     "last_main_idea": "Investing in AI companies that focus on customization and small language models can provide significant returns as these technologies meet current market demands and have the potential to shape the future of AI.",
     "last_proof_cite": "Moonshots with Peter Diamandis \u2022 2026-07-17 \u2022 Mira Murati's 975B Open Model, Ramin Hasani on Post-Transformer AI, and Demis' AI FINRA | EP #271",
     "last_proof_snippet": "Miramoradi, the former OpenAI CTO, just shipped her first model. It's called Inkling, customization over leaderboard dominance is what's going to win her the day. She's built exactly the thing hitting the market that exactly what everybody",
@@ -11627,63 +11627,6 @@
     "net_worth": "$577.0M"
   },
   {
-    "id": 264,
-    "name": "Robin Hansen",
-    "slug": "robin-hansen",
-    "bio": "Robin Hansen is an economist and advocate for prediction markets, recognized for his research on information aggregation. He has argued that speculative markets are unmatched mechanisms for aggregating information and advising decisions for individuals and organizations.",
-    "known_for": "His advocacy for prediction markets as effective tools for information aggregation and decision-making.",
-    "net_worth_usd": null,
-    "net_worth_source": "",
-    "net_worth_updated_at": null,
-    "voice_tone": "Informed and persuasive",
-    "voice_style": "Factual and analytical, with a focus on the potential benefits and challenges of prediction markets.",
-    "voice_delivery_notes": "Clear and deliberate, with emphasis on key points regarding the value and risks of prediction markets.",
-    "voice_profile_updated_at": "2026-05-27 03:01:30",
-    "last_seen": "2026-05-27 03:01:30",
-    "last_episode_title": "Robin Hanson on Prediction Markets, Gambling, and the Future of Forecasting",
-    "last_podcast_name": "The a16z Show",
-    "last_episode_date": "2026-05-26",
-    "mention_score": 1,
-    "mention_score_decayed": 0.07,
-    "last_main_idea": "Invest in companies developing prediction market platforms, focusing on those with strong legal compliance strategies and potential for cultural acceptance.",
-    "last_proof_cite": "The a16z Show \u2022 2026-05-26 \u2022 Robin Hanson on Prediction Markets, Gambling, and the Future of Forecasting",
-    "last_proof_snippet": "Well, so, start at the beginning. The basic vision is that speculative markets are shown to be a unmatched mechanism for aggregating information and telling us about stuff. And initially, most people who come to this area think about, let's",
-    "supporting_takeaway": "Regulatory risks, such as Minnesota's ban on prediction markets, pose significant challenges to their growth and acceptance.",
-    "grokipedia_url": null,
-    "grokipedia_fetched_at": "2026-05-26T22:01:39.945377",
-    "pundit_profile": {
-      "source": "llm",
-      "source_model": "moonshot:moonshot-v1-8k",
-      "source_url": "",
-      "page_title": "Robin Hansen",
-      "fetched_at": "2026-05-27T03:01:39.945043+00:00",
-      "cliff_notes": "Robin Hansen is an economist with a focus on the use of prediction markets for information aggregation. He has spent decades advocating for the use of these markets, arguing that they provide valuable insights into various aspects of business and policy. Hansen's work emphasizes the potential of prediction markets to advise on significant decisions, such as the impact of a CEO's tenure on a company's value. His research and advocacy have been influential in demonstrating the utility of prediction markets beyond just public conversation topics, extending into areas like business strategy and organizational decision-making.",
-      "derived": {},
-      "infobox": {
-        "Born": "",
-        "Nationality": ""
-      },
-      "lead_paragraphs": [
-        "Robin Hansen is an economist with a focus on the use of prediction markets for information aggregation. He has spent decades advocating for the use of these markets, arguing that they provide valuable insights into various aspects of business and policy. Hansen's work emphasizes the potential of prediction markets to advise on significant decisions, such as the impact of a CEO's tenure on a company's value.",
-        "His research and advocacy have been influential in demonstrating the utility of prediction markets beyond just public conversation topics, extending into areas like business strategy and organizational decision-making."
-      ],
-      "sections": [
-        {
-          "heading": "Prediction Markets",
-          "body": "Robin Hansen is known for his research and advocacy on the effectiveness of prediction markets in aggregating information. He believes these markets provide unmatched insights into various topics, from public policy to business strategy."
-        },
-        {
-          "heading": "Information Aggregation",
-          "body": "Hansen's work emphasizes the importance of information aggregation in decision-making processes. He argues that prediction markets are a powerful tool for individuals and organizations to make informed decisions based on aggregated speculative information."
-        },
-        {
-          "heading": "Business Strategy",
-          "body": "Hansen suggests that prediction markets can advise on significant business decisions, such as the impact of a CEO's tenure on a company's value, by providing conditional stock market scenarios that reflect different outcomes."
-        }
-      ]
-    }
-  },
-  {
     "id": 209,
     "name": "David Sinclair",
     "slug": "david-sinclair",
@@ -11749,6 +11692,63 @@
       ]
     },
     "net_worth": "$25.0M"
+  },
+  {
+    "id": 264,
+    "name": "Robin Hansen",
+    "slug": "robin-hansen",
+    "bio": "Robin Hansen is an economist and advocate for prediction markets, recognized for his research on information aggregation. He has argued that speculative markets are unmatched mechanisms for aggregating information and advising decisions for individuals and organizations.",
+    "known_for": "His advocacy for prediction markets as effective tools for information aggregation and decision-making.",
+    "net_worth_usd": null,
+    "net_worth_source": "",
+    "net_worth_updated_at": null,
+    "voice_tone": "Informed and persuasive",
+    "voice_style": "Factual and analytical, with a focus on the potential benefits and challenges of prediction markets.",
+    "voice_delivery_notes": "Clear and deliberate, with emphasis on key points regarding the value and risks of prediction markets.",
+    "voice_profile_updated_at": "2026-05-27 03:01:30",
+    "last_seen": "2026-05-27 03:01:30",
+    "last_episode_title": "Robin Hanson on Prediction Markets, Gambling, and the Future of Forecasting",
+    "last_podcast_name": "The a16z Show",
+    "last_episode_date": "2026-05-26",
+    "mention_score": 1,
+    "mention_score_decayed": 0.06,
+    "last_main_idea": "Invest in companies developing prediction market platforms, focusing on those with strong legal compliance strategies and potential for cultural acceptance.",
+    "last_proof_cite": "The a16z Show \u2022 2026-05-26 \u2022 Robin Hanson on Prediction Markets, Gambling, and the Future of Forecasting",
+    "last_proof_snippet": "Well, so, start at the beginning. The basic vision is that speculative markets are shown to be a unmatched mechanism for aggregating information and telling us about stuff. And initially, most people who come to this area think about, let's",
+    "supporting_takeaway": "Regulatory risks, such as Minnesota's ban on prediction markets, pose significant challenges to their growth and acceptance.",
+    "grokipedia_url": null,
+    "grokipedia_fetched_at": "2026-05-26T22:01:39.945377",
+    "pundit_profile": {
+      "source": "llm",
+      "source_model": "moonshot:moonshot-v1-8k",
+      "source_url": "",
+      "page_title": "Robin Hansen",
+      "fetched_at": "2026-05-27T03:01:39.945043+00:00",
+      "cliff_notes": "Robin Hansen is an economist with a focus on the use of prediction markets for information aggregation. He has spent decades advocating for the use of these markets, arguing that they provide valuable insights into various aspects of business and policy. Hansen's work emphasizes the potential of prediction markets to advise on significant decisions, such as the impact of a CEO's tenure on a company's value. His research and advocacy have been influential in demonstrating the utility of prediction markets beyond just public conversation topics, extending into areas like business strategy and organizational decision-making.",
+      "derived": {},
+      "infobox": {
+        "Born": "",
+        "Nationality": ""
+      },
+      "lead_paragraphs": [
+        "Robin Hansen is an economist with a focus on the use of prediction markets for information aggregation. He has spent decades advocating for the use of these markets, arguing that they provide valuable insights into various aspects of business and policy. Hansen's work emphasizes the potential of prediction markets to advise on significant decisions, such as the impact of a CEO's tenure on a company's value.",
+        "His research and advocacy have been influential in demonstrating the utility of prediction markets beyond just public conversation topics, extending into areas like business strategy and organizational decision-making."
+      ],
+      "sections": [
+        {
+          "heading": "Prediction Markets",
+          "body": "Robin Hansen is known for his research and advocacy on the effectiveness of prediction markets in aggregating information. He believes these markets provide unmatched insights into various topics, from public policy to business strategy."
+        },
+        {
+          "heading": "Information Aggregation",
+          "body": "Hansen's work emphasizes the importance of information aggregation in decision-making processes. He argues that prediction markets are a powerful tool for individuals and organizations to make informed decisions based on aggregated speculative information."
+        },
+        {
+          "heading": "Business Strategy",
+          "body": "Hansen suggests that prediction markets can advise on significant business decisions, such as the impact of a CEO's tenure on a company's value, by providing conditional stock market scenarios that reflect different outcomes."
+        }
+      ]
+    }
   },
   {
     "id": 263,
@@ -12897,7 +12897,7 @@
     "last_podcast_name": "Monetary Matters with Jack Farley",
     "last_episode_date": "2026-05-10",
     "mention_score": 1,
-    "mention_score_decayed": 0.05,
+    "mention_score_decayed": 0.04,
     "last_main_idea": "Pictay Asset Management's investment thesis is to use interpretable machine learning techniques to outperform benchmarks while maintaining index-like risk characteristics.",
     "last_proof_cite": "Monetary Matters with Jack Farley \u2022 2026-05-10 \u2022 Why Generative AI Still Can\u2019t Trade | David Wright on How Quant Alpha Actually Is Done With Machine Learning, Decision Trees, and Gradient Boosting",
     "last_proof_snippet": "Very pleased today to be joined by David Wright, co-head of Pictay asset management's quantitative investments franchise, which manages over $30 billion in their quant group. This includes most recently two ETFs they launched PQ&T, their Pi",
@@ -14015,6 +14015,33 @@
     "net_worth": "$28.00B"
   },
   {
+    "id": 55,
+    "name": "Dr. Onus Alhajji",
+    "slug": "dr-onus-alhajji",
+    "bio": "Expert commentator on energy markets and geopolitical conflicts.",
+    "known_for": "Analysis of the impact of geopolitical events on oil markets.",
+    "net_worth_usd": null,
+    "net_worth_source": null,
+    "net_worth_updated_at": null,
+    "voice_tone": null,
+    "voice_style": null,
+    "voice_delivery_notes": null,
+    "voice_profile_updated_at": null,
+    "last_seen": "2026-04-03 10:04:02",
+    "last_episode_title": "MacroVoices #526 Matt Barrie: Pay To PrAI",
+    "last_podcast_name": "MacroVoices",
+    "last_episode_date": "2026-04-02",
+    "mention_score": 2,
+    "mention_score_decayed": 0.04,
+    "last_main_idea": "Invest in sectors less affected by AI disruption and monitor geopolitical events for opportunities in private credit markets.",
+    "last_proof_cite": "MacroVoices \u2022 2026-04-02 \u2022 MacroVoices #526 Matt Barrie: Pay To PrAI",
+    "last_proof_snippet": "AI's impact on private credit markets could lead to a market dislocation similar to the 2000.com bust.",
+    "supporting_takeaway": "AI's impact on private credit markets could lead to a market dislocation similar to the 2000.com bust.",
+    "grokipedia_url": null,
+    "grokipedia_fetched_at": null,
+    "pundit_profile": null
+  },
+  {
     "id": 213,
     "name": "Kremio Rekuei",
     "slug": "kremio-rekuei",
@@ -14032,7 +14059,7 @@
     "last_podcast_name": "The a16z Show",
     "last_episode_date": "2026-04-29",
     "mention_score": 1,
-    "mention_score_decayed": 0.04,
+    "mention_score_decayed": 0.03,
     "last_main_idea": "Investment in the biotech sector may need to consider the geographic shift towards China for innovation and efficiency in drug development.",
     "last_proof_cite": "The a16z Show \u2022 2026-04-29 \u2022 The Shift in Global Drug Development",
     "last_proof_snippet": "China's clinical trial system has rapidly expanded, with reforms that streamline the approval process.",
@@ -14076,33 +14103,6 @@
       ]
     },
     "net_worth": "$45.0M"
-  },
-  {
-    "id": 55,
-    "name": "Dr. Onus Alhajji",
-    "slug": "dr-onus-alhajji",
-    "bio": "Expert commentator on energy markets and geopolitical conflicts.",
-    "known_for": "Analysis of the impact of geopolitical events on oil markets.",
-    "net_worth_usd": null,
-    "net_worth_source": null,
-    "net_worth_updated_at": null,
-    "voice_tone": null,
-    "voice_style": null,
-    "voice_delivery_notes": null,
-    "voice_profile_updated_at": null,
-    "last_seen": "2026-04-03 10:04:02",
-    "last_episode_title": "MacroVoices #526 Matt Barrie: Pay To PrAI",
-    "last_podcast_name": "MacroVoices",
-    "last_episode_date": "2026-04-02",
-    "mention_score": 2,
-    "mention_score_decayed": 0.04,
-    "last_main_idea": "Invest in sectors less affected by AI disruption and monitor geopolitical events for opportunities in private credit markets.",
-    "last_proof_cite": "MacroVoices \u2022 2026-04-02 \u2022 MacroVoices #526 Matt Barrie: Pay To PrAI",
-    "last_proof_snippet": "AI's impact on private credit markets could lead to a market dislocation similar to the 2000.com bust.",
-    "supporting_takeaway": "AI's impact on private credit markets could lead to a market dislocation similar to the 2000.com bust.",
-    "grokipedia_url": null,
-    "grokipedia_fetched_at": null,
-    "pundit_profile": null
   },
   {
     "id": 210,
