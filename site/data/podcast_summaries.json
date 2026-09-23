@@ -1,5 +1,21 @@
 [
   {
+    "id": 512,
+    "podcast_name": "The a16z Show",
+    "episode_title": "Amjad Masad on Rethinking College for the AI Era",
+    "episode_date": "2026-09-23",
+    "summary": "The podcast emphasizes the need for a transformative approach to education that prioritizes curiosity-driven learning and project-based methodologies. It highlights the potential of young innovators to challenge societal norms and drive change, advocating for educational frameworks that foster trust and collaboration. Additionally, the role of AI in reshaping organizational structures is discussed, suggesting a future where companies operate with greater autonomy and efficiency.",
+    "key_takeaways": [
+      "Invest in educational startups that promote flexible, curiosity-driven learning models.",
+      "Support initiatives that empower young entrepreneurs to explore unconventional ideas.",
+      "Focus on educational platforms that facilitate project-based learning experiences.",
+      "Create environments that foster trust and collaboration among students and entrepreneurs.",
+      "Look for investment opportunities in companies leveraging AI to streamline operations."
+    ],
+    "investment_thesis": "There is a significant investment opportunity in educational technologies and platforms that encourage innovative learning approaches and integrate AI into organizational operations.",
+    "key_tickers": null
+  },
+  {
     "id": 511,
     "podcast_name": "All-In with Chamath, Jason, Sacks & Friedberg",
     "episode_title": "Steve Hilton & Spencer Pratt: Fixing California, Cheaper Gas, Ballot Fraud & CA Republicans",
