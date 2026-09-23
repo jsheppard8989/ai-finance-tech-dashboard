@@ -1,5 +1,21 @@
 [
   {
+    "id": 509,
+    "podcast_name": "Latent Space: The AI Engineer Podcast",
+    "episode_title": "\ud83d\udd2c An Oscar, Two Asteroids, and the Algorithm in Your sklearn: John Platt on AI for Science",
+    "episode_date": "2026-09-22",
+    "summary": "In this episode, John Platt discusses the transformative role of AI in scientific research, particularly through the framework of 'scoreable tasks' that optimize problem-solving. The conversation highlights the importance of tools like Era in streamlining model development while emphasizing the necessity of human intuition in guiding AI applications. Additionally, the podcast explores AI's potential in enhancing climate resilience and the future of quantum computing, presenting significant investment opportunities in these sectors.",
+    "key_takeaways": [
+      "Adopt the 'scoreable tasks' framework to leverage AI in scientific research effectively.",
+      "Utilize AI tools like Era to enhance productivity and focus on complex scientific questions.",
+      "Maintain human oversight in AI-driven research to ensure accuracy and rigor.",
+      "Invest in AI-driven monitoring systems for climate resilience to mitigate disaster impacts.",
+      "Stay updated on advancements in quantum computing for potential applications in various fields."
+    ],
+    "investment_thesis": "Investing in AI tools and climate resilience technologies presents a significant opportunity for enhancing scientific research and addressing global challenges.",
+    "key_tickers": null
+  },
+  {
     "id": 508,
     "podcast_name": "The a16z Show",
     "episode_title": "Why a16z is Building a New School for the AI Era | Ben Horowitz",

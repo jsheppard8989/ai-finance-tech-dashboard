@@ -1,6 +1,6 @@
 [
   {
-    "id": 72672,
+    "id": 72779,
     "name": "Blake Scholl",
     "slug": "blake-scholl",
     "bio": null,
@@ -12,7 +12,19 @@
     "appearance_count": 1
   },
   {
-    "id": 72673,
+    "id": 72780,
+    "name": "John Platt",
+    "slug": "john-platt",
+    "bio": null,
+    "known_for": null,
+    "last_main_idea": "Investing in AI tools and climate resilience technologies presents a significant opportunity for enhancing scientific research and addressing global challenges.",
+    "last_episode_title": "\ud83d\udd2c An Oscar, Two Asteroids, and the Algorithm in Your sklearn: John Platt on AI for Science",
+    "last_podcast_name": "Latent Space: The AI Engineer Podcast",
+    "last_episode_date": "2026-09-22",
+    "appearance_count": 1
+  },
+  {
+    "id": 72781,
     "name": "Diogo Almeida",
     "slug": "diogo-almeida",
     "bio": null,
@@ -24,7 +36,7 @@
     "appearance_count": 1
   },
   {
-    "id": 72674,
+    "id": 72782,
     "name": "Naveen Rao",
     "slug": "naveen-rao",
     "bio": null,
@@ -36,7 +48,7 @@
     "appearance_count": 1
   },
   {
-    "id": 72675,
+    "id": 72783,
     "name": "Outlook on 5 Key Commodities",
     "slug": "outlook-on-5-key-commodities",
     "bio": null,
@@ -48,7 +60,7 @@
     "appearance_count": 1
   },
   {
-    "id": 72676,
+    "id": 72784,
     "name": "Bill Gurley",
     "slug": "bill-gurley",
     "bio": null,
@@ -60,7 +72,7 @@
     "appearance_count": 1
   },
   {
-    "id": 72677,
+    "id": 72785,
     "name": "Nick Shirley",
     "slug": "nick-shirley",
     "bio": null,
@@ -72,7 +84,7 @@
     "appearance_count": 1
   },
   {
-    "id": 72678,
+    "id": 72786,
     "name": "Jared Isaacman",
     "slug": "jared-isaacman",
     "bio": null,
@@ -84,7 +96,7 @@
     "appearance_count": 1
   },
   {
-    "id": 72679,
+    "id": 72787,
     "name": "Brad Gerstner",
     "slug": "brad-gerstner",
     "bio": null,
@@ -96,7 +108,7 @@
     "appearance_count": 1
   },
   {
-    "id": 72680,
+    "id": 72788,
     "name": "Meta's Dina Powell McCormick",
     "slug": "metas-dina-powell-mccormick",
     "bio": null,
@@ -108,7 +120,7 @@
     "appearance_count": 1
   },
   {
-    "id": 72681,
+    "id": 72789,
     "name": "Underwriting Superintelligence",
     "slug": "underwriting-superintelligence",
     "bio": null,
@@ -120,7 +132,7 @@
     "appearance_count": 1
   },
   {
-    "id": 72682,
+    "id": 72790,
     "name": "Hawks Take Flight",
     "slug": "hawks-take-flight",
     "bio": null,
@@ -132,7 +144,7 @@
     "appearance_count": 1
   },
   {
-    "id": 72683,
+    "id": 72791,
     "name": "Martine Rothblatt",
     "slug": "martine-rothblatt",
     "bio": null,
@@ -144,7 +156,7 @@
     "appearance_count": 1
   },
   {
-    "id": 72684,
+    "id": 72792,
     "name": "Microsoft CEO Satya Nadella",
     "slug": "microsoft-ceo-satya-nadella",
     "bio": null,
@@ -156,7 +168,7 @@
     "appearance_count": 1
   },
   {
-    "id": 72685,
+    "id": 72793,
     "name": "Jensen Huang",
     "slug": "jensen-huang",
     "bio": null,
@@ -168,7 +180,7 @@
     "appearance_count": 1
   },
   {
-    "id": 72686,
+    "id": 72794,
     "name": "Ask the Mates anything",
     "slug": "ask-the-mates-anything",
     "bio": null,
@@ -180,7 +192,7 @@
     "appearance_count": 1
   },
   {
-    "id": 72687,
+    "id": 72795,
     "name": "Matt Barry",
     "slug": "matt-barry",
     "bio": null,
@@ -192,7 +204,7 @@
     "appearance_count": 1
   },
   {
-    "id": 72688,
+    "id": 72796,
     "name": "Who Grades the AI Models?",
     "slug": "who-grades-the-ai-models",
     "bio": null,
@@ -204,7 +216,7 @@
     "appearance_count": 1
   },
   {
-    "id": 72689,
+    "id": 72797,
     "name": "Your AI Doctor Is Coming",
     "slug": "your-ai-doctor-is-coming",
     "bio": null,
@@ -216,7 +228,7 @@
     "appearance_count": 1
   },
   {
-    "id": 72690,
+    "id": 72798,
     "name": "Fei Fei Li",
     "slug": "fei-fei-li",
     "bio": null,
@@ -228,7 +240,7 @@
     "appearance_count": 1
   },
   {
-    "id": 72691,
+    "id": 72799,
     "name": "Financial strategist Jared Dillian",
     "slug": "financial-strategist-jared-dillian",
     "bio": null,
@@ -240,7 +252,7 @@
     "appearance_count": 1
   },
   {
-    "id": 72692,
+    "id": 72800,
     "name": "Daniel Litt",
     "slug": "daniel-litt",
     "bio": null,
@@ -252,7 +264,7 @@
     "appearance_count": 1
   },
   {
-    "id": 72693,
+    "id": 72801,
     "name": "Gavin Baker",
     "slug": "gavin-baker",
     "bio": null,
@@ -264,7 +276,7 @@
     "appearance_count": 1
   },
   {
-    "id": 72694,
+    "id": 72802,
     "name": "Sam Altman",
     "slug": "sam-altman",
     "bio": null,
@@ -276,7 +288,7 @@
     "appearance_count": 1
   },
   {
-    "id": 72695,
+    "id": 72803,
     "name": "Time to Reduce Equity Risk",
     "slug": "time-to-reduce-equity-risk",
     "bio": null,
@@ -288,7 +300,7 @@
     "appearance_count": 1
   },
   {
-    "id": 72696,
+    "id": 72804,
     "name": "Eric Weinstein",
     "slug": "eric-weinstein",
     "bio": null,
@@ -300,7 +312,7 @@
     "appearance_count": 1
   },
   {
-    "id": 72697,
+    "id": 72805,
     "name": "Michael Kratsios",
     "slug": "michael-kratsios",
     "bio": null,
@@ -312,7 +324,7 @@
     "appearance_count": 1
   },
   {
-    "id": 72698,
+    "id": 72806,
     "name": "Emad Mostaque",
     "slug": "emad-mostaque",
     "bio": null,
@@ -324,7 +336,7 @@
     "appearance_count": 3
   },
   {
-    "id": 72699,
+    "id": 72807,
     "name": "Angela Strange and Gabriel Vasquez",
     "slug": "angela-strange-and-gabriel-vasquez",
     "bio": null,
@@ -336,7 +348,7 @@
     "appearance_count": 1
   },
   {
-    "id": 72700,
+    "id": 72808,
     "name": "Why Bessent Blinked",
     "slug": "why-bessent-blinked",
     "bio": null,
@@ -345,18 +357,6 @@
     "last_episode_title": "Why Bessent Blinked | Luke Gromen on Doubling of Treasury Buyback Plan to Tame Long-End Yields",
     "last_podcast_name": "Monetary Matters with Jack Farley",
     "last_episode_date": "2026-08-20",
-    "appearance_count": 1
-  },
-  {
-    "id": 72701,
-    "name": "Travis Kalanick",
-    "slug": "travis-kalanick",
-    "bio": null,
-    "known_for": null,
-    "last_main_idea": "Invest in industries that are ripe for automation and AI integration, as industrial AI could revolutionize multiple trillion-dollar industries.",
-    "last_episode_title": "Ben Horowitz and Travis Kalanick on Building Again",
-    "last_podcast_name": "The a16z Show",
-    "last_episode_date": "2026-08-14",
     "appearance_count": 1
   }
 ]
