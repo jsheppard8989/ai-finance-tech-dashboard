@@ -1,6 +1,6 @@
 {
-  "_comment": "Terms hidden from the home Overton pipeline list (Jared yes 2026-09-22). Curated seeds in curated_overton.json still pin above this list. Do not hand-edit data.js — this file is the durable demote switch.",
-  "_updated": "2026-09-22",
+  "_comment": "Terms hidden from the home Overton pipeline list (Jared yes 2026-09-22; + Project-Based Learning / Curiosity-Driven Learning 2026-09-23). Curated seeds in curated_overton.json still pin above this list. Do not hand-edit data.js — this file is the durable demote switch.",
+  "_updated": "2026-09-23",
   "demote": [
     {
       "term": "Taste",
@@ -17,6 +17,14 @@
     {
       "term": "AI takeover",
       "reason": "Null source_podcasts; no speakers; speculative glossary filler"
+    },
+    {
+      "term": "Project-Based Learning",
+      "reason": "Null source_podcasts; a16z Academy/Masad education glossary — not an economy-reframing Overton term (Jared yes 2026-09-23)"
+    },
+    {
+      "term": "Curiosity-Driven Learning",
+      "reason": "Null source_podcasts; a16z Academy/Masad education glossary — not an economy-reframing Overton term (Jared yes 2026-09-23)"
     }
   ]
 }
