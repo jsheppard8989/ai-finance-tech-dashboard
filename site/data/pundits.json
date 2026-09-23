@@ -150,7 +150,7 @@
     "last_podcast_name": "All-In with Chamath, Jason, Sacks & Friedberg",
     "last_episode_date": "2026-09-19",
     "mention_score": 3,
-    "mention_score_decayed": 2.8,
+    "mention_score_decayed": 2.74,
     "last_main_idea": "Investors should focus on companies and organizations that prioritize transparency and accountability in public health, as these will be better positioned to navigate future crises.",
     "last_proof_cite": "All-In with Chamath, Jason, Sacks & Friedberg \u2022 2026-09-19 \u2022 Bill Gurley: Searching for Feynman",
     "last_proof_snippet": "Silicon Valley, Royalty, Legendary Investor, Bill Gerley. Track records incredible. The legend who backed Uber and Zillow, who's lived through every major text cycle for over 25 years. You're not just a commentator, right? You've been an op",
@@ -857,6 +857,67 @@
     "net_worth": "$3.70B"
   },
   {
+    "id": 477,
+    "name": "Steve Hilton",
+    "slug": "steve-hilton",
+    "bio": "Steve Hilton is a political commentator and entrepreneur recognized for his insights into California's political landscape. He has been an advocate for political reform and accountability in the state, often addressing issues such as taxation and governance. Hilton's unique perspective as a British Republican adds a distinctive voice to the political discourse in California.",
+    "known_for": "Steve Hilton is known for advocating political reform and accountability in California, making him a notable figure for investors and tech listeners interested in the state's governance.",
+    "net_worth_usd": null,
+    "net_worth_source": "",
+    "net_worth_updated_at": null,
+    "voice_tone": "Assertive and passionate.",
+    "voice_style": "Direct and engaging, with a focus on practical solutions.",
+    "voice_delivery_notes": "Pacing is steady with emphasis on key points.",
+    "voice_profile_updated_at": "2026-09-23 10:37:33",
+    "last_seen": "2026-09-23 10:37:33",
+    "last_episode_title": "Steve Hilton & Spencer Pratt: Fixing California, Cheaper Gas, Ballot Fraud & CA Republicans",
+    "last_podcast_name": "All-In with Chamath, Jason, Sacks & Friedberg",
+    "last_episode_date": "2026-09-23",
+    "mention_score": 1,
+    "mention_score_decayed": 1,
+    "last_main_idea": "Investors should closely monitor California's regulatory changes and voter sentiment as indicators of potential market shifts and investment opportunities.",
+    "last_proof_cite": "All-In with Chamath, Jason, Sacks & Friedberg \u2022 2026-09-23 \u2022 Steve Hilton & Spencer Pratt: Fixing California, Cheaper Gas, Ballot Fraud & CA Republicans",
+    "last_proof_snippet": "A candidate for the governor of California who is extremely unique in a number of ways. First of all, he's a Republican, and second, he's a Brit. Welcome to the program to Steve Colton. It's a joke. We wanted these Democrats doing. We alrea",
+    "supporting_takeaway": "A significant shift in voter sentiment may lead to unexpected electoral outcomes in California.",
+    "grokipedia_url": null,
+    "grokipedia_fetched_at": "2026-09-23T05:37:42.490056",
+    "pundit_profile": {
+      "source": "llm",
+      "source_model": "openai:gpt-4o-mini",
+      "source_url": "",
+      "page_title": "Steve Hilton",
+      "fetched_at": "2026-09-23T10:37:42.489553+00:00",
+      "cliff_notes": "Steve Hilton's career spans technology and political commentary, with a focus on California's governance. As a tech entrepreneur in Silicon Valley, he gained insights into innovation and business that inform his political views. Hilton's advocacy for political reform stems from his belief in the need for accountability and effective governance in California, a state he views as pivotal to the nation's future. His unique background as a British Republican positions him as a distinctive voice in American politics, particularly in discussions surrounding taxation and state policies. Through his commentary, Hilton engages with a broad audience, emphasizing the importance of civic engagement and reform in addressing the challenges facing California today.",
+      "derived": {
+        "former_positions": "Tech entrepreneur in Silicon Valley; Political commentator",
+        "political_affiliation": "Republican",
+        "political_summary": "Steve Hilton has been actively involved in California politics, advocating for reforms and accountability. His commentary often focuses on the implications of state governance on both local and national levels."
+      },
+      "infobox": {
+        "Born": "",
+        "Nationality": "British"
+      },
+      "lead_paragraphs": [
+        "Steve Hilton's career spans technology and political commentary, with a focus on California's governance. As a tech entrepreneur in Silicon Valley, he gained insights into innovation and business that inform his political views. Hilton's advocacy for political reform stems from his belief in the need for accountability and effective governance in California, a state he views as pivotal to the nation's future.",
+        "His unique background as a British Republican positions him as a distinctive voice in American politics, particularly in discussions surrounding taxation and state policies. Through his commentary, Hilton engages with a broad audience, emphasizing the importance of civic engagement and reform in addressing the challenges facing California today."
+      ],
+      "sections": [
+        {
+          "heading": "Political Reform Advocacy",
+          "body": "Hilton emphasizes the need for political reform in California, arguing that accountability and transparency are essential for effective governance. His critiques often focus on the state's high taxation and budgetary issues."
+        },
+        {
+          "heading": "Tech Background",
+          "body": "With experience as a tech entrepreneur in Silicon Valley, Hilton brings a unique perspective to political discussions, particularly regarding innovation and economic policy. His background informs his views on how technology can drive change in governance."
+        },
+        {
+          "heading": "California's Importance",
+          "body": "Hilton frequently highlights California's significance not just as a state but as a critical player in the national and global landscape. He argues that the state's policies have far-reaching implications for the rest of the country."
+        }
+      ]
+    }
+  },
+  {
     "id": 475,
     "name": "John Platt",
     "slug": "john-platt",
@@ -989,7 +1050,7 @@
     "last_podcast_name": "All-In with Chamath, Jason, Sacks & Friedberg",
     "last_episode_date": "2026-09-21",
     "mention_score": 1,
-    "mention_score_decayed": 1,
+    "mention_score_decayed": 0.98,
     "last_main_idea": "Investors should prioritize companies innovating in energy-efficient AI technologies, as the demand for AI services grows and energy consumption becomes a critical issue.",
     "last_proof_cite": "All-In with Chamath, Jason, Sacks & Friedberg \u2022 2026-09-21 \u2022 Naveen Rao: 4D Computing, AI's Energy Wall & Beating Biology",
     "last_proof_snippet": "Naveen Rau, co-founder and CEO of Unconventional AI, which is an AI chip startup, best willing for building and selling to deep tech companies. Naveen is kind of definitely outlier, founder. When I came there, we had about 20 million dollar",
@@ -1045,7 +1106,7 @@
     "last_podcast_name": "All-In with Chamath, Jason, Sacks & Friedberg",
     "last_episode_date": "2026-09-20",
     "mention_score": 1,
-    "mention_score_decayed": 0.98,
+    "mention_score_decayed": 0.95,
     "last_main_idea": "Investors should consider companies like Apple 11 that leverage AI in advertising and engage in stock buybacks as indicators of strong management and growth potential.",
     "last_proof_cite": "All-In with Chamath, Jason, Sacks & Friedberg \u2022 2026-09-20 \u2022 Adam Foroughi, Applovin CEO: Surviving a 92% Drawdown, Ads as ML 1.0 & the $50B Game Ad Market",
     "last_proof_snippet": "Adam is probably the best founder and known as EverHurt of there's an earth platform hiding inside 100,000 mobile games and is quietly out-before-ing Facebook ads for e-commerce brands of all those thousand plus IPOs the number one most val",
@@ -1211,7 +1272,7 @@
     "last_podcast_name": "The a16z Show",
     "last_episode_date": "2026-09-18",
     "mention_score": 1,
-    "mention_score_decayed": 0.93,
+    "mention_score_decayed": 0.91,
     "last_main_idea": "Investors should focus on companies that are integrating AI effectively through organizational ontologies and those automating cybersecurity processes to mitigate risks.",
     "last_proof_cite": "The a16z Show \u2022 2026-09-18 \u2022 Databricks CEO on AI Pacing, Cyber Risk, and the Enterprise",
     "last_proof_snippet": "As a business leader, there's a tragedy of the comments. If you want to stop, if you want to go slower, why don't you go slower? Like I'm competing, I want to win. There's almost two camps. There's one camp which believes that this actually",
@@ -1245,63 +1306,6 @@
         {
           "heading": "Balancing Speed and Caution",
           "body": "Goodsey explores the tension between the desire for rapid technological advancement and the necessity of ensuring that organizations can manage the risks associated with such speed."
-        }
-      ]
-    }
-  },
-  {
-    "id": 466,
-    "name": "Dario Amadeh",
-    "slug": "dario-amadeh",
-    "bio": "Dario Amadeh is the CEO of Anthropic, a prominent organization focused on AI safety and research. He is known for advocating responsible AI development and implementing safety measures in the rapidly evolving field of artificial intelligence. His work emphasizes the importance of ethical considerations in technology.",
-    "known_for": "Dario Amadeh is recognized for his leadership in AI safety and his commitment to responsible AI development.",
-    "net_worth_usd": null,
-    "net_worth_source": "",
-    "net_worth_updated_at": null,
-    "voice_tone": "Cautious and reflective",
-    "voice_style": "Analytical and persuasive",
-    "voice_delivery_notes": "Measured pacing with emphasis on key safety concerns.",
-    "voice_profile_updated_at": "2026-09-18 04:53:48",
-    "last_seen": "2026-09-18 04:53:48",
-    "last_episode_title": "Frontier Labs Want to Slow Down, OpenAI Delays Its 2026 IPO, Anthropic Flags 5 Bioweapon Cases | EP #291",
-    "last_podcast_name": "Moonshots with Peter Diamandis",
-    "last_episode_date": "2026-09-17",
-    "mention_score": 1,
-    "mention_score_decayed": 0.91,
-    "last_main_idea": "The evolving landscape of AI safety and regulation presents both challenges and opportunities for investors, particularly in sectors impacted by AI integration and educational reforms.",
-    "last_proof_cite": "Moonshots with Peter Diamandis \u2022 2026-09-17 \u2022 Frontier Labs Want to Slow Down, OpenAI Delays Its 2026 IPO, Anthropic Flags 5 Bioweapon Cases | EP #291",
-    "last_proof_snippet": "Daria Amade, CEO of Enthropic, published a 3,800-word essay titled We Must Pace the Frontier. Three hours later, Sam Elan said, you're right. Monday, President Trump called it a hoax and China called it a cold war trick. Nothing less than a",
-    "supporting_takeaway": "The potential emergence of a safety cartel among AI companies could stifle competition.",
-    "grokipedia_url": null,
-    "grokipedia_fetched_at": "2026-09-17T23:54:12.886346",
-    "pundit_profile": {
-      "source": "llm",
-      "source_model": "openai:gpt-4o-mini",
-      "source_url": "",
-      "page_title": "Dario Amadeh",
-      "fetched_at": "2026-09-18T04:54:12.885990+00:00",
-      "cliff_notes": "Dario Amadeh has emerged as a significant figure in the field of artificial intelligence, particularly in the realm of safety and ethical development. As the CEO of Anthropic, he leads initiatives aimed at addressing the potential risks associated with AI technologies. His recent publications highlight the urgent need for regulation and responsible practices in AI development, positioning him as a thought leader in discussions about the future of technology. Amadeh's advocacy for safety measures reflects a growing recognition of the implications of AI on society, making his insights valuable for investors and tech enthusiasts alike.",
-      "derived": {
-        "current_role": "CEO of Anthropic",
-        "books_or_works": "We Must Pace the Frontier; Threat Intelligence Report"
-      },
-      "infobox": {},
-      "lead_paragraphs": [
-        "Dario Amadeh has emerged as a significant figure in the field of artificial intelligence, particularly in the realm of safety and ethical development. As the CEO of Anthropic, he leads initiatives aimed at addressing the potential risks associated with AI technologies. His recent publications highlight the urgent need for regulation and responsible practices in AI development, positioning him as a thought leader in discussions about the future of technology.",
-        "Amadeh's advocacy for safety measures reflects a growing recognition of the implications of AI on society, making his insights valuable for investors and tech enthusiasts alike."
-      ],
-      "sections": [
-        {
-          "heading": "AI Safety Advocacy",
-          "body": "Dario Amadeh is a prominent advocate for AI safety, emphasizing the need for responsible development practices to mitigate risks associated with artificial intelligence."
-        },
-        {
-          "heading": "Leadership at Anthropic",
-          "body": "As CEO of Anthropic, Amadeh drives the organization's mission to prioritize safety and ethical considerations in AI research and deployment."
-        },
-        {
-          "heading": "Publications on AI Regulation",
-          "body": "His recent essays and reports, including 'We Must Pace the Frontier' and the 'Threat Intelligence Report,' address the critical need for AI regulation and the potential dangers of unchecked technological advancement."
         }
       ]
     }
@@ -1366,6 +1370,63 @@
       ]
     },
     "net_worth": "$500.0M"
+  },
+  {
+    "id": 466,
+    "name": "Dario Amadeh",
+    "slug": "dario-amadeh",
+    "bio": "Dario Amadeh is the CEO of Anthropic, a prominent organization focused on AI safety and research. He is known for advocating responsible AI development and implementing safety measures in the rapidly evolving field of artificial intelligence. His work emphasizes the importance of ethical considerations in technology.",
+    "known_for": "Dario Amadeh is recognized for his leadership in AI safety and his commitment to responsible AI development.",
+    "net_worth_usd": null,
+    "net_worth_source": "",
+    "net_worth_updated_at": null,
+    "voice_tone": "Cautious and reflective",
+    "voice_style": "Analytical and persuasive",
+    "voice_delivery_notes": "Measured pacing with emphasis on key safety concerns.",
+    "voice_profile_updated_at": "2026-09-18 04:53:48",
+    "last_seen": "2026-09-18 04:53:48",
+    "last_episode_title": "Frontier Labs Want to Slow Down, OpenAI Delays Its 2026 IPO, Anthropic Flags 5 Bioweapon Cases | EP #291",
+    "last_podcast_name": "Moonshots with Peter Diamandis",
+    "last_episode_date": "2026-09-17",
+    "mention_score": 1,
+    "mention_score_decayed": 0.89,
+    "last_main_idea": "The evolving landscape of AI safety and regulation presents both challenges and opportunities for investors, particularly in sectors impacted by AI integration and educational reforms.",
+    "last_proof_cite": "Moonshots with Peter Diamandis \u2022 2026-09-17 \u2022 Frontier Labs Want to Slow Down, OpenAI Delays Its 2026 IPO, Anthropic Flags 5 Bioweapon Cases | EP #291",
+    "last_proof_snippet": "Daria Amade, CEO of Enthropic, published a 3,800-word essay titled We Must Pace the Frontier. Three hours later, Sam Elan said, you're right. Monday, President Trump called it a hoax and China called it a cold war trick. Nothing less than a",
+    "supporting_takeaway": "The potential emergence of a safety cartel among AI companies could stifle competition.",
+    "grokipedia_url": null,
+    "grokipedia_fetched_at": "2026-09-17T23:54:12.886346",
+    "pundit_profile": {
+      "source": "llm",
+      "source_model": "openai:gpt-4o-mini",
+      "source_url": "",
+      "page_title": "Dario Amadeh",
+      "fetched_at": "2026-09-18T04:54:12.885990+00:00",
+      "cliff_notes": "Dario Amadeh has emerged as a significant figure in the field of artificial intelligence, particularly in the realm of safety and ethical development. As the CEO of Anthropic, he leads initiatives aimed at addressing the potential risks associated with AI technologies. His recent publications highlight the urgent need for regulation and responsible practices in AI development, positioning him as a thought leader in discussions about the future of technology. Amadeh's advocacy for safety measures reflects a growing recognition of the implications of AI on society, making his insights valuable for investors and tech enthusiasts alike.",
+      "derived": {
+        "current_role": "CEO of Anthropic",
+        "books_or_works": "We Must Pace the Frontier; Threat Intelligence Report"
+      },
+      "infobox": {},
+      "lead_paragraphs": [
+        "Dario Amadeh has emerged as a significant figure in the field of artificial intelligence, particularly in the realm of safety and ethical development. As the CEO of Anthropic, he leads initiatives aimed at addressing the potential risks associated with AI technologies. His recent publications highlight the urgent need for regulation and responsible practices in AI development, positioning him as a thought leader in discussions about the future of technology.",
+        "Amadeh's advocacy for safety measures reflects a growing recognition of the implications of AI on society, making his insights valuable for investors and tech enthusiasts alike."
+      ],
+      "sections": [
+        {
+          "heading": "AI Safety Advocacy",
+          "body": "Dario Amadeh is a prominent advocate for AI safety, emphasizing the need for responsible development practices to mitigate risks associated with artificial intelligence."
+        },
+        {
+          "heading": "Leadership at Anthropic",
+          "body": "As CEO of Anthropic, Amadeh drives the organization's mission to prioritize safety and ethical considerations in AI research and deployment."
+        },
+        {
+          "heading": "Publications on AI Regulation",
+          "body": "His recent essays and reports, including 'We Must Pace the Frontier' and the 'Threat Intelligence Report,' address the critical need for AI regulation and the potential dangers of unchecked technological advancement."
+        }
+      ]
+    }
   },
   {
     "id": 465,
@@ -1557,7 +1618,7 @@
     "last_podcast_name": "All-In with Chamath, Jason, Sacks & Friedberg",
     "last_episode_date": "2026-09-17",
     "mention_score": 1,
-    "mention_score_decayed": 0.89,
+    "mention_score_decayed": 0.87,
     "last_main_idea": "Investing in preventive healthcare and AI infrastructure presents significant opportunities, but requires careful monitoring of revenue growth and market conditions.",
     "last_proof_cite": "All-In with Chamath, Jason, Sacks & Friedberg \u2022 2026-09-17 \u2022 Brad Gerstner: No AI Bubble, Semis Eat the Nasdaq & AI's Take Off Problem",
     "last_proof_snippet": "Our favorite fifth-besty in the world, the one the only Brad Kershner contributor Brad has had unbelievable career starting five companies so he's got a very different mentality than your sort of classic hedge fund guy. He's an amazingly su",
@@ -2158,7 +2219,7 @@
     "last_podcast_name": "Moonshots with Peter Diamandis",
     "last_episode_date": "2026-08-13",
     "mention_score": 2,
-    "mention_score_decayed": 0.81,
+    "mention_score_decayed": 0.79,
     "last_main_idea": "Invest in AI and exponential technologies that are redefining industries and creating new opportunities for growth and innovation.",
     "last_proof_cite": "Moonshots with Peter Diamandis \u2022 2026-08-13 \u2022 Bernie Demands the Labs Stop, Wall Street Turns GPUs Into Bonds, Grok 4.7 Takes #1 with Emad Mostaque | EP #279",
     "last_proof_snippet": "Bernie Sanders sent a formal letter to the CEOs of Anthropic Meta and OpenAI AI capabilities have reached a critical threshold. Paul's AI development, the Council of the Baguards, too late, right? Nvidia just announced a partnership that r",
@@ -3438,7 +3499,7 @@
     "last_podcast_name": "Moonshots with Peter Diamandis",
     "last_episode_date": "2026-08-27",
     "mention_score": 1,
-    "mention_score_decayed": 0.56,
+    "mention_score_decayed": 0.55,
     "last_main_idea": "Investment in AI and autonomous vehicle sectors should consider the shift towards more gradual AI integration and the potential for cost-effective Chinese AI models to disrupt the market.",
     "last_proof_cite": "Moonshots with Peter Diamandis \u2022 2026-08-27 \u2022 Sam Altman: Singularity Slow-Down, Emad Runs 18 Grokbots, Waymo Slashes Hardware 83% | EP #283",
     "last_proof_snippet": "Sam Altman went on video this week to tell the world that he was wrong about the impact of advancing AI. We've all been too ambitious on time on it's even with this incredible technology. He now believes it will be something slower, more lik",
@@ -3623,7 +3684,7 @@
     "last_podcast_name": "All-In with Chamath, Jason, Sacks & Friedberg",
     "last_episode_date": "2026-08-26",
     "mention_score": 1,
-    "mention_score_decayed": 0.55,
+    "mention_score_decayed": 0.54,
     "last_main_idea": "Investing in cutting-edge scientific research and exploration could lead to paradigm-shifting discoveries with significant impact on various industries.",
     "last_proof_cite": "All-In with Chamath, Jason, Sacks & Friedberg \u2022 2026-08-26 \u2022 Eric Weinstein: The State of American Science, Breakthrough Coverups, and the Danger of Physics",
     "last_proof_snippet": "We have become a f***ing nation when it comes to science. You were called a friend scientist and keep saying, friend, yeah. I totally disagree with the narrative of the field. I want to blow a giant pole in civil rights act. The stagnation",
@@ -3934,7 +3995,7 @@
     "last_podcast_name": "All-In with Chamath, Jason, Sacks & Friedberg",
     "last_episode_date": "2026-08-24",
     "mention_score": 1,
-    "mention_score_decayed": 0.52,
+    "mention_score_decayed": 0.51,
     "last_main_idea": "Investing in the U.S. science and technology ecosystem can lead to significant returns, as the administration aims to empower young scientists and create an environment for groundbreaking discoveries.",
     "last_proof_cite": "All-In with Chamath, Jason, Sacks & Friedberg \u2022 2026-08-24 \u2022 Michael Kratsios: Trump's Science Agenda, Anti-Science Claims, Fauci's Damage, DEI & China",
     "last_proof_snippet": "Is this administration anti-science? We want to essentially double the scientific output of the United States. Did we lose it? Or did it lead to moments where you have like Fauci? That's great question. Are we in this moment this populous m",
@@ -4189,7 +4250,7 @@
     "last_podcast_name": "Moonshots with Peter Diamandis",
     "last_episode_date": "2026-08-18",
     "mention_score": 1,
-    "mention_score_decayed": 0.46,
+    "mention_score_decayed": 0.45,
     "last_main_idea": "Investment in AI technology should consider the broader geopolitical landscape and the potential for international cooperation and market creation, as proposed by the 'AI Marshall Plan'.",
     "last_proof_cite": "Moonshots with Peter Diamandis \u2022 2026-08-18 \u2022 China\u2019s Endgame: ASI Timelines, US-China Relations, and the $1.7T AI Bubble With Alvin Graylin | #281",
     "last_proof_snippet": "There seems to be prevailing a view around the campuses that ASI has, you know, five to 10 years out, maybe even 20 years. And so I really curious what the prevailing view is in China. They are not behaving like they believe ASI is around t",
@@ -4437,7 +4498,7 @@
     "last_podcast_name": "Monetary Matters with Jack Farley",
     "last_episode_date": "2026-07-22",
     "mention_score": 1,
-    "mention_score_decayed": 0.44,
+    "mention_score_decayed": 0.43,
     "last_main_idea": "The current speculative nature of the treasuries market and the potential for a significant rise in interest rates present both risks and opportunities for investors.",
     "last_proof_cite": "Monetary Matters with Jack Farley \u2022 2026-07-22 \u2022 Interest Rates to 10%: Why the Treasury Market is the Real Speculative Bubble (Not AI) | Russell Clark",
     "last_proof_snippet": "If I look at people 40 and under those in the 20 and 30s, their number one problem is they kind of forward housing. If you want to get housing back to some more reasonable levels, you need to have wages rising about 7% a year. So, doubling",
@@ -4740,7 +4801,7 @@
     "last_podcast_name": "All-In with Chamath, Jason, Sacks & Friedberg",
     "last_episode_date": "2026-08-13",
     "mention_score": 1,
-    "mention_score_decayed": 0.4,
+    "mention_score_decayed": 0.39,
     "last_main_idea": "Ron Emmanuel's investment thesis revolves around the need for progressive policies and effective government execution, which he believes are crucial for America's economic and social stability.",
     "last_proof_cite": "All-In with Chamath, Jason, Sacks & Friedberg \u2022 2026-08-13 \u2022 Rahm Emanuel: Trump's Foreign Policy, China, Europe's Decline, Immigration & DSA vs Democrats",
     "last_proof_snippet": "All right, everybody. We are super pleased to have Ron Emmanuel. Join us for the all and interview today. He was a senior advisor of Bill Clinton, last president, resigned over zero national debt. And he was a Bahamas chief of staff, mayor",
@@ -4937,7 +4998,7 @@
     "last_podcast_name": "Moonshots with Peter Diamandis",
     "last_episode_date": "2026-08-11",
     "mention_score": 1,
-    "mention_score_decayed": 0.39,
+    "mention_score_decayed": 0.38,
     "last_main_idea": "Invest in companies and technologies that are at the forefront of AI and compute power, as these are poised to become the driving forces behind future enterprise success.",
     "last_proof_cite": "Moonshots with Peter Diamandis \u2022 2026-08-11 \u2022 Sergey Brin Retakes Gemini, 4 Labs Lose Containment, Compute Trades at NYSE w/ Kush Bavaria | EP #278",
     "last_proof_snippet": "Sergei Bren is back taking personal control of Gemini. I think we can expect Gemini to make more releases in an accelerated pace with less safety constraints. Google has lost the frontier race and so they can't compete. Those who can't comp",
@@ -4997,7 +5058,7 @@
     "last_podcast_name": "Latent Space: The AI Engineer Podcast",
     "last_episode_date": "2026-08-11",
     "mention_score": 1,
-    "mention_score_decayed": 0.39,
+    "mention_score_decayed": 0.38,
     "last_main_idea": "Investing in AI-driven protein design companies like Try Discovery could offer significant returns as these platforms have the potential to disrupt traditional drug discovery, making it more efficient and cost-effective.",
     "last_proof_cite": "Latent Space: The AI Engineer Podcast \u2022 2026-08-11 \u2022 \ud83d\udd2cThe BioAI Phase Shift - Matthew McPartlon & Neil Patil, Chai Discovery",
     "last_proof_snippet": "It looks a lot less like a, you know, a chat GPT and a lot more like a autodesk or solid works or a figma, you know, if you've used those things where you can kind of load up your molecule, there's this almost like photo shop S click design",
@@ -5056,7 +5117,7 @@
     "last_podcast_name": "Latent Space: The AI Engineer Podcast",
     "last_episode_date": "2026-08-11",
     "mention_score": 1,
-    "mention_score_decayed": 0.39,
+    "mention_score_decayed": 0.38,
     "last_main_idea": "Investing in AI-driven protein design companies like Try Discovery could offer significant returns as these platforms have the potential to disrupt traditional drug discovery, making it more efficient and cost-effective.",
     "last_proof_cite": "Latent Space: The AI Engineer Podcast \u2022 2026-08-11 \u2022 \ud83d\udd2cThe BioAI Phase Shift - Matthew McPartlon & Neil Patil, Chai Discovery",
     "last_proof_snippet": "It looks a lot less like a, you know, a chat GPT and a lot more like a autodesk or solid works or a figma, you know, if you've used those things where you can kind of load up your molecule, there's this almost like photo shop S click design",
@@ -5224,70 +5285,6 @@
       ]
     },
     "net_worth": "$30.00B"
-  },
-  {
-    "id": 259,
-    "name": "Andrew Feldman",
-    "slug": "andrew-feldman",
-    "bio": "Andrew Feldman is the CEO and co-founder of Cerebras, a company at the forefront of AI and chip technology. He has been instrumental in leading the development of AI chips and data center infrastructure, contributing significantly to the buildout of AI on a global scale.",
-    "known_for": "Pioneering the development of AI chips and data center infrastructure for advanced AI applications.",
-    "net_worth_usd": 19800000.0,
-    "net_worth_source": "https://www.benzinga.com/sec/insider-trades/0002039573/Andrew-D.-Feldman",
-    "net_worth_updated_at": "2026-05-22T00:00:37.809262",
-    "voice_tone": "Informed and enthusiastic about the future of AI.",
-    "voice_style": "Explanatory and visionary, outlining the scale and impact of AI development.",
-    "voice_delivery_notes": "Speaks with a mix of excitement and caution, highlighting the magnitude of the AI buildout.",
-    "voice_profile_updated_at": "2026-07-10 04:35:59",
-    "last_seen": "2026-07-10 04:35:59",
-    "last_episode_title": "Open Source Wins, AGI Is Here, and Scorsese's AI Toolkit with CEOs of Cerebras & Black Forest Labs",
-    "last_podcast_name": "All-In with Chamath, Jason, Sacks & Friedberg",
-    "last_episode_date": "2026-07-10",
-    "mention_score": 2,
-    "mention_score_decayed": 0.36,
-    "last_main_idea": "Investing in AI infrastructure and data center companies could yield significant returns as the demand for AI continues to grow exponentially.",
-    "last_proof_cite": "All-In with Chamath, Jason, Sacks & Friedberg \u2022 2026-07-10 \u2022 Open Source Wins, AGI Is Here, and Scorsese's AI Toolkit with CEOs of Cerebras & Black Forest Labs",
-    "last_proof_snippet": "We are in the race for super intelligence and Andrew Feldman is back and obviously CEO and founders Ceribres doing in friendships pioneered the space, had a successful IPO. We've talked about this a couple of times, we got to see each other",
-    "supporting_takeaway": "Companies like Google, Microsoft, and AWS are aggressively expanding their data center capacities to meet demand.",
-    "grokipedia_url": null,
-    "grokipedia_fetched_at": "2026-07-09T23:36:14.887399",
-    "pundit_profile": {
-      "source": "llm",
-      "source_model": "moonshot:moonshot-v1-8k",
-      "source_url": "",
-      "page_title": "Andrew Feldman",
-      "fetched_at": "2026-07-10T04:36:14.887061+00:00",
-      "cliff_notes": "Andrew Feldman is recognized for his leadership in the field of AI and chip technology as the CEO and co-founder of Cerebras Systems. His career has been marked by significant contributions to the development of AI chips and the infrastructure of data centers, which are critical components in the rapidly expanding field of artificial intelligence. Feldman's work at Cerebras has been pivotal in the buildout of AI, a field that is often compared to monumental historical efforts due to its scale and impact. His leadership has helped position Cerebras as a key player in the race for super intelligence, with the company's AI chips being a central part of this technological revolution.",
-      "derived": {
-        "current_role": "CEO and co-founder of Cerebras"
-      },
-      "infobox": {
-        "Born": "",
-        "Nationality": ""
-      },
-      "lead_paragraphs": [
-        "Andrew Feldman is recognized for his leadership in the field of AI and chip technology as the CEO and co-founder of Cerebras Systems. His career has been marked by significant contributions to the development of AI chips and the infrastructure of data centers, which are critical components in the rapidly expanding field of artificial intelligence.",
-        "Feldman's work at Cerebras has been pivotal in the buildout of AI, a field that is often compared to monumental historical efforts due to its scale and impact. His leadership has helped position Cerebras as a key player in the race for super intelligence, with the company's AI chips being a central part of this technological revolution."
-      ],
-      "sections": [
-        {
-          "heading": "AI Chip Development",
-          "body": "Andrew Feldman has been at the helm of Cerebras, leading the development of advanced AI chips that are designed to handle the complex computations required for artificial intelligence applications."
-        },
-        {
-          "heading": "Data Center Infrastructure",
-          "body": "Under Feldman's leadership, Cerebras has focused on creating data center infrastructure that can support the massive computational demands of AI, enabling more efficient and powerful AI systems."
-        },
-        {
-          "heading": "Global AI Buildout",
-          "body": "Feldman's work is part of a global effort to build out AI capabilities, which is being compared to historical feats like the construction of the Great Wall of China or the pyramids in terms of scale and mobilization of resources."
-        },
-        {
-          "heading": "IPO and Growth",
-          "body": "Cerebras, with Feldman as CEO, has experienced significant growth, including a successful IPO, which has further established the company as a major player in the AI technology sector."
-        }
-      ]
-    },
-    "net_worth": "$19.8M"
   },
   {
     "id": 390,
@@ -5588,6 +5585,70 @@
     }
   },
   {
+    "id": 259,
+    "name": "Andrew Feldman",
+    "slug": "andrew-feldman",
+    "bio": "Andrew Feldman is the CEO and co-founder of Cerebras, a company at the forefront of AI and chip technology. He has been instrumental in leading the development of AI chips and data center infrastructure, contributing significantly to the buildout of AI on a global scale.",
+    "known_for": "Pioneering the development of AI chips and data center infrastructure for advanced AI applications.",
+    "net_worth_usd": 19800000.0,
+    "net_worth_source": "https://www.benzinga.com/sec/insider-trades/0002039573/Andrew-D.-Feldman",
+    "net_worth_updated_at": "2026-05-22T00:00:37.809262",
+    "voice_tone": "Informed and enthusiastic about the future of AI.",
+    "voice_style": "Explanatory and visionary, outlining the scale and impact of AI development.",
+    "voice_delivery_notes": "Speaks with a mix of excitement and caution, highlighting the magnitude of the AI buildout.",
+    "voice_profile_updated_at": "2026-07-10 04:35:59",
+    "last_seen": "2026-07-10 04:35:59",
+    "last_episode_title": "Open Source Wins, AGI Is Here, and Scorsese's AI Toolkit with CEOs of Cerebras & Black Forest Labs",
+    "last_podcast_name": "All-In with Chamath, Jason, Sacks & Friedberg",
+    "last_episode_date": "2026-07-10",
+    "mention_score": 2,
+    "mention_score_decayed": 0.35,
+    "last_main_idea": "Investing in AI infrastructure and data center companies could yield significant returns as the demand for AI continues to grow exponentially.",
+    "last_proof_cite": "All-In with Chamath, Jason, Sacks & Friedberg \u2022 2026-07-10 \u2022 Open Source Wins, AGI Is Here, and Scorsese's AI Toolkit with CEOs of Cerebras & Black Forest Labs",
+    "last_proof_snippet": "We are in the race for super intelligence and Andrew Feldman is back and obviously CEO and founders Ceribres doing in friendships pioneered the space, had a successful IPO. We've talked about this a couple of times, we got to see each other",
+    "supporting_takeaway": "Companies like Google, Microsoft, and AWS are aggressively expanding their data center capacities to meet demand.",
+    "grokipedia_url": null,
+    "grokipedia_fetched_at": "2026-07-09T23:36:14.887399",
+    "pundit_profile": {
+      "source": "llm",
+      "source_model": "moonshot:moonshot-v1-8k",
+      "source_url": "",
+      "page_title": "Andrew Feldman",
+      "fetched_at": "2026-07-10T04:36:14.887061+00:00",
+      "cliff_notes": "Andrew Feldman is recognized for his leadership in the field of AI and chip technology as the CEO and co-founder of Cerebras Systems. His career has been marked by significant contributions to the development of AI chips and the infrastructure of data centers, which are critical components in the rapidly expanding field of artificial intelligence. Feldman's work at Cerebras has been pivotal in the buildout of AI, a field that is often compared to monumental historical efforts due to its scale and impact. His leadership has helped position Cerebras as a key player in the race for super intelligence, with the company's AI chips being a central part of this technological revolution.",
+      "derived": {
+        "current_role": "CEO and co-founder of Cerebras"
+      },
+      "infobox": {
+        "Born": "",
+        "Nationality": ""
+      },
+      "lead_paragraphs": [
+        "Andrew Feldman is recognized for his leadership in the field of AI and chip technology as the CEO and co-founder of Cerebras Systems. His career has been marked by significant contributions to the development of AI chips and the infrastructure of data centers, which are critical components in the rapidly expanding field of artificial intelligence.",
+        "Feldman's work at Cerebras has been pivotal in the buildout of AI, a field that is often compared to monumental historical efforts due to its scale and impact. His leadership has helped position Cerebras as a key player in the race for super intelligence, with the company's AI chips being a central part of this technological revolution."
+      ],
+      "sections": [
+        {
+          "heading": "AI Chip Development",
+          "body": "Andrew Feldman has been at the helm of Cerebras, leading the development of advanced AI chips that are designed to handle the complex computations required for artificial intelligence applications."
+        },
+        {
+          "heading": "Data Center Infrastructure",
+          "body": "Under Feldman's leadership, Cerebras has focused on creating data center infrastructure that can support the massive computational demands of AI, enabling more efficient and powerful AI systems."
+        },
+        {
+          "heading": "Global AI Buildout",
+          "body": "Feldman's work is part of a global effort to build out AI capabilities, which is being compared to historical feats like the construction of the Great Wall of China or the pyramids in terms of scale and mobilization of resources."
+        },
+        {
+          "heading": "IPO and Growth",
+          "body": "Cerebras, with Feldman as CEO, has experienced significant growth, including a successful IPO, which has further established the company as a major player in the AI technology sector."
+        }
+      ]
+    },
+    "net_worth": "$19.8M"
+  },
+  {
     "id": 384,
     "name": "Simon Mow",
     "slug": "simon-mow",
@@ -5665,7 +5726,7 @@
     "last_podcast_name": "All-In with Chamath, Jason, Sacks & Friedberg",
     "last_episode_date": "2026-08-05",
     "mention_score": 1,
-    "mention_score_decayed": 0.34,
+    "mention_score_decayed": 0.33,
     "last_main_idea": "Investment in autonomous defense technologies is crucial for maintaining a competitive edge and can lead to significant advancements in military capabilities.",
     "last_proof_cite": "All-In with Chamath, Jason, Sacks & Friedberg \u2022 2026-08-05 \u2022 Saronic Founders: Autonomous Warships, China's 230X Advantage & Swarms of Robot Ships",
     "last_proof_snippet": "All right, everybody, welcome back to the all in interview series. I am thrilled. Really thrilled because Ceranic is a defense company that has been doing amazing work. And we are so lucky to have the co-founders here on the program. Welcom",
@@ -5724,7 +5785,7 @@
     "last_podcast_name": "All-In with Chamath, Jason, Sacks & Friedberg",
     "last_episode_date": "2026-08-05",
     "mention_score": 1,
-    "mention_score_decayed": 0.34,
+    "mention_score_decayed": 0.33,
     "last_main_idea": "Investment in autonomous defense technologies is crucial for maintaining a competitive edge and can lead to significant advancements in military capabilities.",
     "last_proof_cite": "All-In with Chamath, Jason, Sacks & Friedberg \u2022 2026-08-05 \u2022 Saronic Founders: Autonomous Warships, China's 230X Advantage & Swarms of Robot Ships",
     "last_proof_snippet": "All right, everybody, welcome back to the all in interview series. I am thrilled. Really thrilled because Ceranic is a defense company that has been doing amazing work. And we are so lucky to have the co-founders here on the program. Welcom",
@@ -6510,6 +6571,65 @@
     }
   },
   {
+    "id": 98,
+    "name": "Rory Johnston",
+    "slug": "rory-johnston",
+    "bio": "Rory Johnston is an expert on energy markets and geopolitical risks. He is known for his analysis of the Hormuz crisis and its implications for global oil flows. Johnston's insights are highly valued by professional finance, high-net worth individuals, family offices, and other sophisticated investors.",
+    "known_for": "Analysis of the Hormuz crisis and its implications for global oil flows.",
+    "net_worth_usd": null,
+    "net_worth_source": "",
+    "net_worth_updated_at": "2026-03-28T22:05:57.557236",
+    "voice_tone": "Informative and insightful",
+    "voice_style": "Direct and focused on market dynamics",
+    "voice_delivery_notes": "Paced with emphasis on key market indicators",
+    "voice_profile_updated_at": "2026-03-29 09:09:13",
+    "last_seen": "2026-05-14 18:46:46",
+    "last_episode_title": "MacroVoices #532 Mike Green: Record Mechanical Flows",
+    "last_podcast_name": "Macro Voices",
+    "last_episode_date": "2026-05-14",
+    "mention_score": 6,
+    "mention_score_decayed": 0.29,
+    "last_main_idea": "Investors should prepare for potential volatility as economic indicators begin to reflect the impacts of energy prices and passive investment flows.",
+    "last_proof_cite": "Macro Voices \u2022 2026-05-14 \u2022 MacroVoices #532 Mike Green: Record Mechanical Flows",
+    "last_proof_snippet": "This is Macrovoisers, the Free Weekly Financial Podcast, targeting professional finance, high-net worth individuals, family offices, and other sophisticated investors. Macrovoisers is all about the brightest minds in the world of finance an",
+    "supporting_takeaway": "The ongoing Hormuz crisis is expected to create significant economic dislocation, particularly affecting energy supply.",
+    "grokipedia_url": null,
+    "grokipedia_fetched_at": "2026-05-14T13:47:11.847729",
+    "pundit_profile": {
+      "source": "llm",
+      "source_model": "moonshot:moonshot-v1-8k",
+      "source_url": "",
+      "page_title": "Rory Johnston",
+      "fetched_at": "2026-05-14T18:47:11.847405+00:00",
+      "cliff_notes": "Rory Johnston is an expert in energy markets and geopolitical risks, with a particular focus on the Hormuz crisis and its impact on global oil flows. His expertise is sought after by a range of financial professionals, including high-net worth individuals, family offices, and sophisticated investors. Johnston's analysis is featured on platforms like Macrovoisers, a financial podcast that targets these audiences. His insights into the Hormuz crisis and its potential to cripple the global economy are particularly valued, as they help investors navigate the complex and volatile world of finance and macroeconomics.",
+      "derived": {
+        "current_role": "Expert on energy markets and geopolitical risks; specific role not mentioned."
+      },
+      "infobox": {
+        "Born": "",
+        "Nationality": ""
+      },
+      "lead_paragraphs": [
+        "Rory Johnston is an expert in energy markets and geopolitical risks, with a particular focus on the Hormuz crisis and its impact on global oil flows. His expertise is sought after by a range of financial professionals, including high-net worth individuals, family offices, and sophisticated investors. Johnston's analysis is featured on platforms like Macrovoisers, a financial podcast that targets these audiences.",
+        "His insights into the Hormuz crisis and its potential to cripple the global economy are particularly valued, as they help investors navigate the complex and volatile world of finance and macroeconomics."
+      ],
+      "sections": [
+        {
+          "heading": "Hormuz Crisis",
+          "body": "Rory Johnston is known for his analysis of the Hormuz crisis and its implications for global oil flows. He has provided insights into how this geopolitical event could potentially cripple the global economy."
+        },
+        {
+          "heading": "Energy Markets",
+          "body": "Johnston is an expert on energy markets, offering valuable insights into the complex dynamics of oil and gas markets. His analysis helps investors understand the impact of geopolitical events on these markets."
+        },
+        {
+          "heading": "Geopolitical Risks",
+          "body": "As an expert on geopolitical risks, Johnston provides valuable perspectives on how global events can affect financial markets. His analysis of the Hormuz crisis is a prime example of this expertise."
+        }
+      ]
+    }
+  },
+  {
     "id": 364,
     "name": "Justin Jo",
     "slug": "justin-jo",
@@ -6527,7 +6647,7 @@
     "last_podcast_name": "The a16z Show",
     "last_episode_date": "2026-07-29",
     "mention_score": 1,
-    "mention_score_decayed": 0.29,
+    "mention_score_decayed": 0.28,
     "last_main_idea": "Investing in AI-native entertainment presents an opportunity to capitalize on the shift towards generative media and the democratization of content creation.",
     "last_proof_cite": "The a16z Show \u2022 2026-07-29 \u2022 AI Micro Dramas, Generative Media, and the Future of Creativity",
     "last_proof_snippet": "I think folks would be surprised by how many TV shows and movies today already have some element of AI being used. I spend a lot of time with studio execs and Amazon and Netflix have already both announced programs for fully-AI-generated an",
@@ -6587,7 +6707,7 @@
     "last_podcast_name": "All-In with Chamath, Jason, Sacks & Friedberg",
     "last_episode_date": "2026-07-28",
     "mention_score": 1,
-    "mention_score_decayed": 0.29,
+    "mention_score_decayed": 0.28,
     "last_main_idea": "Investing in robotics and AI companies that are successfully transitioning from research to real-world applications could offer significant growth potential as these technologies become more integrated into various industries.",
     "last_proof_cite": "All-In with Chamath, Jason, Sacks & Friedberg \u2022 2026-07-28 \u2022 The $1/Hour Worker: Four Robotics CEOs on Humanoids at Home, China's Threat, and the End of Dangerous Jobs",
     "last_proof_snippet": "Hey everybody, it's your boy Jake Al, I'm here in Paris, France at a conference called Makina, basically AI in the real world. Pardon my robot. Thanks for tuning in, and let's get started. Apple ovens started with an $8 domain and no VC fun",
@@ -6646,7 +6766,7 @@
     "last_podcast_name": "All-In with Chamath, Jason, Sacks & Friedberg",
     "last_episode_date": "2026-07-28",
     "mention_score": 1,
-    "mention_score_decayed": 0.29,
+    "mention_score_decayed": 0.28,
     "last_main_idea": "Investing in robotics and AI companies that are successfully transitioning from research to real-world applications could offer significant growth potential as these technologies become more integrated into various industries.",
     "last_proof_cite": "All-In with Chamath, Jason, Sacks & Friedberg \u2022 2026-07-28 \u2022 The $1/Hour Worker: Four Robotics CEOs on Humanoids at Home, China's Threat, and the End of Dangerous Jobs",
     "last_proof_snippet": "Hey everybody, it's your boy Jake Al, I'm here in Paris, France at a conference called Makina, basically AI in the real world. Pardon my robot. Thanks for tuning in, and let's get started. Apple ovens started with an $8 domain and no VC fun",
@@ -6705,7 +6825,7 @@
     "last_podcast_name": "Monetary Matters with Jack Farley",
     "last_episode_date": "2026-07-29",
     "mention_score": 1,
-    "mention_score_decayed": 0.29,
+    "mention_score_decayed": 0.28,
     "last_main_idea": "The Federal Reserve's credibility is at stake, and market reactions to economic data and Fed policy suggest a potential shift in expectations for inflation and interest rates, impacting bond yields and stock market performance.",
     "last_proof_cite": "Monetary Matters with Jack Farley \u2022 2026-07-29 \u2022 Mum\u2019s The Word: Kathryn Rooney Vera on Fed\u2019s Second Meeting under Kevin Warsh, Plus Earnings Breakdown (Live Replay)",
     "last_proof_snippet": "Wow. All right. We are here. We are joined by Katherine Rooney Vera, who's the chief market strategist at Stone X Groups. A lot of views on board markets, everything in macro. We mean we can get to to currencies and bonds. Katherine had a v",
@@ -6746,65 +6866,6 @@
       ]
     },
     "net_worth": "$26.7M"
-  },
-  {
-    "id": 98,
-    "name": "Rory Johnston",
-    "slug": "rory-johnston",
-    "bio": "Rory Johnston is an expert on energy markets and geopolitical risks. He is known for his analysis of the Hormuz crisis and its implications for global oil flows. Johnston's insights are highly valued by professional finance, high-net worth individuals, family offices, and other sophisticated investors.",
-    "known_for": "Analysis of the Hormuz crisis and its implications for global oil flows.",
-    "net_worth_usd": null,
-    "net_worth_source": "",
-    "net_worth_updated_at": "2026-03-28T22:05:57.557236",
-    "voice_tone": "Informative and insightful",
-    "voice_style": "Direct and focused on market dynamics",
-    "voice_delivery_notes": "Paced with emphasis on key market indicators",
-    "voice_profile_updated_at": "2026-03-29 09:09:13",
-    "last_seen": "2026-05-14 18:46:46",
-    "last_episode_title": "MacroVoices #532 Mike Green: Record Mechanical Flows",
-    "last_podcast_name": "Macro Voices",
-    "last_episode_date": "2026-05-14",
-    "mention_score": 6,
-    "mention_score_decayed": 0.29,
-    "last_main_idea": "Investors should prepare for potential volatility as economic indicators begin to reflect the impacts of energy prices and passive investment flows.",
-    "last_proof_cite": "Macro Voices \u2022 2026-05-14 \u2022 MacroVoices #532 Mike Green: Record Mechanical Flows",
-    "last_proof_snippet": "This is Macrovoisers, the Free Weekly Financial Podcast, targeting professional finance, high-net worth individuals, family offices, and other sophisticated investors. Macrovoisers is all about the brightest minds in the world of finance an",
-    "supporting_takeaway": "The ongoing Hormuz crisis is expected to create significant economic dislocation, particularly affecting energy supply.",
-    "grokipedia_url": null,
-    "grokipedia_fetched_at": "2026-05-14T13:47:11.847729",
-    "pundit_profile": {
-      "source": "llm",
-      "source_model": "moonshot:moonshot-v1-8k",
-      "source_url": "",
-      "page_title": "Rory Johnston",
-      "fetched_at": "2026-05-14T18:47:11.847405+00:00",
-      "cliff_notes": "Rory Johnston is an expert in energy markets and geopolitical risks, with a particular focus on the Hormuz crisis and its impact on global oil flows. His expertise is sought after by a range of financial professionals, including high-net worth individuals, family offices, and sophisticated investors. Johnston's analysis is featured on platforms like Macrovoisers, a financial podcast that targets these audiences. His insights into the Hormuz crisis and its potential to cripple the global economy are particularly valued, as they help investors navigate the complex and volatile world of finance and macroeconomics.",
-      "derived": {
-        "current_role": "Expert on energy markets and geopolitical risks; specific role not mentioned."
-      },
-      "infobox": {
-        "Born": "",
-        "Nationality": ""
-      },
-      "lead_paragraphs": [
-        "Rory Johnston is an expert in energy markets and geopolitical risks, with a particular focus on the Hormuz crisis and its impact on global oil flows. His expertise is sought after by a range of financial professionals, including high-net worth individuals, family offices, and sophisticated investors. Johnston's analysis is featured on platforms like Macrovoisers, a financial podcast that targets these audiences.",
-        "His insights into the Hormuz crisis and its potential to cripple the global economy are particularly valued, as they help investors navigate the complex and volatile world of finance and macroeconomics."
-      ],
-      "sections": [
-        {
-          "heading": "Hormuz Crisis",
-          "body": "Rory Johnston is known for his analysis of the Hormuz crisis and its implications for global oil flows. He has provided insights into how this geopolitical event could potentially cripple the global economy."
-        },
-        {
-          "heading": "Energy Markets",
-          "body": "Johnston is an expert on energy markets, offering valuable insights into the complex dynamics of oil and gas markets. His analysis helps investors understand the impact of geopolitical events on these markets."
-        },
-        {
-          "heading": "Geopolitical Risks",
-          "body": "As an expert on geopolitical risks, Johnston provides valuable perspectives on how global events can affect financial markets. His analysis of the Hormuz crisis is a prime example of this expertise."
-        }
-      ]
-    }
   },
   {
     "id": 358,
@@ -6888,7 +6949,7 @@
     "last_podcast_name": "Moonshots with Peter Diamandis",
     "last_episode_date": "2026-07-24",
     "mention_score": 1,
-    "mention_score_decayed": 0.26,
+    "mention_score_decayed": 0.25,
     "last_main_idea": "Investing in AI is about more than just technology; it's an investment in the future of innovation, human potential, and the ability to solve complex problems.",
     "last_proof_cite": "Moonshots with Peter Diamandis \u2022 2026-07-24 \u2022 The Hugging Face Breach, Moonshot AI Valued at $20B, and Living to 1,759 Years Old | EP #273",
     "last_proof_snippet": "Pugging face, the leading open platform for sharing testing and deploying AI models, it got breached by an autonomous agent when the hugging face security team tried to analyze the attack, using either anthropic or open AI, both models refu",
@@ -6948,7 +7009,7 @@
     "last_podcast_name": "Moonshots with Peter Diamandis",
     "last_episode_date": "2026-07-24",
     "mention_score": 1,
-    "mention_score_decayed": 0.26,
+    "mention_score_decayed": 0.25,
     "last_main_idea": "Investing in AI is about more than just technology; it's an investment in the future of innovation, human potential, and the ability to solve complex problems.",
     "last_proof_cite": "Moonshots with Peter Diamandis \u2022 2026-07-24 \u2022 The Hugging Face Breach, Moonshot AI Valued at $20B, and Living to 1,759 Years Old | EP #273",
     "last_proof_snippet": "Pugging face, the leading open platform for sharing testing and deploying AI models, it got breached by an autonomous agent when the hugging face security team tried to analyze the attack, using either anthropic or open AI, both models refu",
@@ -7746,72 +7807,6 @@
     "net_worth": "$7.00B"
   },
   {
-    "id": 335,
-    "name": "Pat Gelsinger",
-    "slug": "pat-gelsinger",
-    "bio": "Pat Gelsinger is a renowned technology executive known for his leadership at Intel and VMware. He served as Intel's 8th CEO and played a significant role in the tech industry's evolution.",
-    "known_for": "His leadership at Intel during a critical period of competition and his insights into the tech industry.",
-    "net_worth_usd": 120000000.0,
-    "net_worth_source": "https://thedacian.com/pat-gelsinger-net-worth/",
-    "net_worth_updated_at": "2026-07-16T05:02:47.534425",
-    "voice_tone": "Reflective and insightful.",
-    "voice_style": "Factual and experienced.",
-    "voice_delivery_notes": "Speaks with a measured pace, emphasizing key points about Intel's history and future.",
-    "voice_profile_updated_at": "2026-07-16 10:01:16",
-    "last_seen": "2026-07-16 10:01:16",
-    "last_episode_title": "Former Intel CEO on What Went Wrong, What's Next + Lovable CEO on the Real Promise of Vibe Coding",
-    "last_podcast_name": "All-In with Chamath, Jason, Sacks & Friedberg",
-    "last_episode_date": "2026-07-15",
-    "mention_score": 1,
-    "mention_score_decayed": 0.21,
-    "last_main_idea": "Investing in companies with strong technical leadership and a focus on future-proofing through R&D can yield significant long-term returns.",
-    "last_proof_cite": "All-In with Chamath, Jason, Sacks & Friedberg \u2022 2026-07-15 \u2022 Former Intel CEO on What Went Wrong, What's Next + Lovable CEO on the Real Promise of Vibe Coding",
-    "last_proof_snippet": "spent a long time in Intel, and only 34 years, 34 years, probably one of the greatest American companies ever, and then, absolutely went off the rails and got absolutely demolished by Nvidia, TSMC, and I guess Apple to a certain extent. So",
-    "supporting_takeaway": "Technical decisions in tech companies should be driven by technologists, not just business leaders.",
-    "grokipedia_url": null,
-    "grokipedia_fetched_at": "2026-07-16T05:02:45.973996",
-    "pundit_profile": {
-      "source": "llm",
-      "source_model": "moonshot:moonshot-v1-8k",
-      "source_url": "",
-      "page_title": "Pat Gelsinger",
-      "fetched_at": "2026-07-16T10:02:45.973649+00:00",
-      "cliff_notes": "Pat Gelsinger has had a long and influential career in the technology sector. Starting at Intel in 1979, he held various technical and leadership roles, eventually becoming the company's Chief Technology Officer. His tenure at Intel spanned over three decades, during which he contributed to the development and execution of many of Intel's technology strategies. After leaving Intel, Gelsinger became the CEO of VMware, where he led the company through significant growth and innovation. In 2021, he returned to Intel as its 8th CEO, taking on the challenge of revitalizing the company amidst intense competition from Nvidia, TSMC, and Apple. His leadership and insights into the tech industry have made him a key figure in the evolution of technology and its impact on the global market.",
-      "derived": {
-        "current_role": "CEO of Intel",
-        "former_positions": "CEO of VMware; Senior Vice President and General Manager of Intel's Digital Enterprise Group; Chief Technology Officer at Intel",
-        "education": "B.S. in Electrical Engineering from Lincoln Technical Institute; M.S. in Electrical Engineering from Stanford University"
-      },
-      "infobox": {
-        "Born": "1962",
-        "Nationality": "American"
-      },
-      "lead_paragraphs": [
-        "Pat Gelsinger has had a long and influential career in the technology sector. Starting at Intel in 1979, he held various technical and leadership roles, eventually becoming the company's Chief Technology Officer. His tenure at Intel spanned over three decades, during which he contributed to the development and execution of many of Intel's technology strategies.",
-        "After leaving Intel, Gelsinger became the CEO of VMware, where he led the company through significant growth and innovation. In 2021, he returned to Intel as its 8th CEO, taking on the challenge of revitalizing the company amidst intense competition from Nvidia, TSMC, and Apple. His leadership and insights into the tech industry have made him a key figure in the evolution of technology and its impact on the global market."
-      ],
-      "sections": [
-        {
-          "heading": "Leadership at Intel",
-          "body": "Pat Gelsinger served as Intel's 8th CEO, taking on the role during a period of intense competition and significant challenges for the company."
-        },
-        {
-          "heading": "VMware CEO",
-          "body": "As CEO of VMware, Gelsinger led the company to substantial growth and innovation, expanding its reach in the virtualization and cloud computing markets."
-        },
-        {
-          "heading": "Technology Strategy",
-          "body": "Throughout his career, Gelsinger has been instrumental in shaping technology strategies, both at Intel and VMware, impacting the direction of the tech industry."
-        },
-        {
-          "heading": "Industry Competition",
-          "body": "Gelsinger's leadership at Intel coincided with the company's struggle to maintain its market position against competitors like Nvidia, TSMC, and Apple."
-        }
-      ]
-    },
-    "net_worth": "$120.0M"
-  },
-  {
     "id": 42,
     "name": "Jack Mallers",
     "slug": "jack-mallers",
@@ -7870,6 +7865,72 @@
       ]
     },
     "net_worth": "$50.0M"
+  },
+  {
+    "id": 335,
+    "name": "Pat Gelsinger",
+    "slug": "pat-gelsinger",
+    "bio": "Pat Gelsinger is a renowned technology executive known for his leadership at Intel and VMware. He served as Intel's 8th CEO and played a significant role in the tech industry's evolution.",
+    "known_for": "His leadership at Intel during a critical period of competition and his insights into the tech industry.",
+    "net_worth_usd": 120000000.0,
+    "net_worth_source": "https://thedacian.com/pat-gelsinger-net-worth/",
+    "net_worth_updated_at": "2026-07-16T05:02:47.534425",
+    "voice_tone": "Reflective and insightful.",
+    "voice_style": "Factual and experienced.",
+    "voice_delivery_notes": "Speaks with a measured pace, emphasizing key points about Intel's history and future.",
+    "voice_profile_updated_at": "2026-07-16 10:01:16",
+    "last_seen": "2026-07-16 10:01:16",
+    "last_episode_title": "Former Intel CEO on What Went Wrong, What's Next + Lovable CEO on the Real Promise of Vibe Coding",
+    "last_podcast_name": "All-In with Chamath, Jason, Sacks & Friedberg",
+    "last_episode_date": "2026-07-15",
+    "mention_score": 1,
+    "mention_score_decayed": 0.2,
+    "last_main_idea": "Investing in companies with strong technical leadership and a focus on future-proofing through R&D can yield significant long-term returns.",
+    "last_proof_cite": "All-In with Chamath, Jason, Sacks & Friedberg \u2022 2026-07-15 \u2022 Former Intel CEO on What Went Wrong, What's Next + Lovable CEO on the Real Promise of Vibe Coding",
+    "last_proof_snippet": "spent a long time in Intel, and only 34 years, 34 years, probably one of the greatest American companies ever, and then, absolutely went off the rails and got absolutely demolished by Nvidia, TSMC, and I guess Apple to a certain extent. So",
+    "supporting_takeaway": "Technical decisions in tech companies should be driven by technologists, not just business leaders.",
+    "grokipedia_url": null,
+    "grokipedia_fetched_at": "2026-07-16T05:02:45.973996",
+    "pundit_profile": {
+      "source": "llm",
+      "source_model": "moonshot:moonshot-v1-8k",
+      "source_url": "",
+      "page_title": "Pat Gelsinger",
+      "fetched_at": "2026-07-16T10:02:45.973649+00:00",
+      "cliff_notes": "Pat Gelsinger has had a long and influential career in the technology sector. Starting at Intel in 1979, he held various technical and leadership roles, eventually becoming the company's Chief Technology Officer. His tenure at Intel spanned over three decades, during which he contributed to the development and execution of many of Intel's technology strategies. After leaving Intel, Gelsinger became the CEO of VMware, where he led the company through significant growth and innovation. In 2021, he returned to Intel as its 8th CEO, taking on the challenge of revitalizing the company amidst intense competition from Nvidia, TSMC, and Apple. His leadership and insights into the tech industry have made him a key figure in the evolution of technology and its impact on the global market.",
+      "derived": {
+        "current_role": "CEO of Intel",
+        "former_positions": "CEO of VMware; Senior Vice President and General Manager of Intel's Digital Enterprise Group; Chief Technology Officer at Intel",
+        "education": "B.S. in Electrical Engineering from Lincoln Technical Institute; M.S. in Electrical Engineering from Stanford University"
+      },
+      "infobox": {
+        "Born": "1962",
+        "Nationality": "American"
+      },
+      "lead_paragraphs": [
+        "Pat Gelsinger has had a long and influential career in the technology sector. Starting at Intel in 1979, he held various technical and leadership roles, eventually becoming the company's Chief Technology Officer. His tenure at Intel spanned over three decades, during which he contributed to the development and execution of many of Intel's technology strategies.",
+        "After leaving Intel, Gelsinger became the CEO of VMware, where he led the company through significant growth and innovation. In 2021, he returned to Intel as its 8th CEO, taking on the challenge of revitalizing the company amidst intense competition from Nvidia, TSMC, and Apple. His leadership and insights into the tech industry have made him a key figure in the evolution of technology and its impact on the global market."
+      ],
+      "sections": [
+        {
+          "heading": "Leadership at Intel",
+          "body": "Pat Gelsinger served as Intel's 8th CEO, taking on the role during a period of intense competition and significant challenges for the company."
+        },
+        {
+          "heading": "VMware CEO",
+          "body": "As CEO of VMware, Gelsinger led the company to substantial growth and innovation, expanding its reach in the virtualization and cloud computing markets."
+        },
+        {
+          "heading": "Technology Strategy",
+          "body": "Throughout his career, Gelsinger has been instrumental in shaping technology strategies, both at Intel and VMware, impacting the direction of the tech industry."
+        },
+        {
+          "heading": "Industry Competition",
+          "body": "Gelsinger's leadership at Intel coincided with the company's struggle to maintain its market position against competitors like Nvidia, TSMC, and Apple."
+        }
+      ]
+    },
+    "net_worth": "$120.0M"
   },
   {
     "id": 332,
@@ -9347,7 +9408,7 @@
     "last_podcast_name": "All-In with Chamath, Jason, Sacks & Friedberg",
     "last_episode_date": "2026-06-23",
     "mention_score": 1,
-    "mention_score_decayed": 0.13,
+    "mention_score_decayed": 0.12,
     "last_main_idea": "Ryan Cohen's investment strategy at GameStop focuses on operational efficiency, cost optimization, and leveraging the growing collectibles market to drive profitability and shareholder value.",
     "last_proof_cite": "All-In with Chamath, Jason, Sacks & Friedberg \u2022 2026-06-23 \u2022 GameStop CEO Ryan Cohen's $56B Plan to Take Over eBay",
     "last_proof_snippet": "Everyone hates GameStop and it seems like everyone in the media basically wants us to fail and wants them to succeed and you've got a board that's making hundreds of thousands of dollars a year and they don't buy stock with their own money.",
@@ -10216,7 +10277,7 @@
     "last_podcast_name": "BG2Pod with Brad Gerstner and Bill Gurley",
     "last_episode_date": "2026-06-11",
     "mention_score": 1,
-    "mention_score_decayed": 0.11,
+    "mention_score_decayed": 0.1,
     "last_main_idea": "SpaceX's unique position in the AI compute market and its rapid deployment capabilities make it a compelling long-term investment, with potential for significant revenue growth through Starlink and AI advancements.",
     "last_proof_cite": "BG2Pod with Brad Gerstner and Bill Gurley \u2022 2026-06-11 \u2022 The SpaceX IPO, Fable 5, AI Capex Update & Market Check w/ Gavin Baker, Andrew Fox & Clark Tang | BG2",
     "last_proof_snippet": "I think we're all pretty AI-pilled, and if you're AI-pilled, that means we've got to build a lot more compute than the world thinks, and that these models are going to be a lot more valuable than people think. You combine that with their co",
@@ -10382,71 +10443,6 @@
       ]
     },
     "net_worth": "$461.0M"
-  },
-  {
-    "id": 121,
-    "name": "Lynn Alden",
-    "slug": "lynn-alden",
-    "bio": "Lynn Alden is an expert in macroeconomic trends and investment analysis, known for her insights on AI's impact on the economy and investment opportunities. She has been featured in various interviews and discussions, providing her perspective on the implications of AI on the global economy.",
-    "known_for": "Her expertise in the intersection of AI and its economic consequences, as well as her analysis of investment opportunities arising from these trends.",
-    "net_worth_usd": 4600000.0,
-    "net_worth_source": "https://moolahtimes.com/lyn-alden/",
-    "net_worth_updated_at": "2026-03-26T14:15:42.441919",
-    "voice_tone": "Matter-of-fact and informative.",
-    "voice_style": "Analytical and future-oriented.",
-    "voice_delivery_notes": "Clear and concise with a focus on data and trends.",
-    "voice_profile_updated_at": "2026-05-14 10:03:34",
-    "last_seen": "2026-05-14 10:03:34",
-    "last_episode_title": "Lyn Alden on Macro Consequences of AI and The Stolgard Incident  (Monitoring The Situation Replay)",
-    "last_podcast_name": "Monetary Matters with Jack Farley",
-    "last_episode_date": "2026-05-13",
-    "mention_score": 2,
-    "mention_score_decayed": 0.1,
-    "last_main_idea": "Invest in sectors poised for growth due to AI adoption, particularly semiconductors and stablecoins, while being cautious about the cyclical nature of capex investments in hyperscaler companies.",
-    "last_proof_cite": "Monetary Matters with Jack Farley \u2022 2026-05-13 \u2022 Lyn Alden on Macro Consequences of AI and The Stolgard Incident  (Monitoring The Situation Replay)",
-    "last_proof_snippet": "Today's episode is brought to you by the unlimited hfgm global macro ETF ticker hfgm. Later in the show, you'll hear more about hfgm currently the number one morning star rated fund sits its inception in the US macro trading category. Let's",
-    "supporting_takeaway": "Monitor the capex cycles of hyperscalers and consider the potential for lower returns when investing in tech stocks.",
-    "grokipedia_url": null,
-    "grokipedia_fetched_at": "2026-05-14T05:04:02.188608",
-    "pundit_profile": {
-      "source": "llm",
-      "source_model": "moonshot:moonshot-v1-8k",
-      "source_url": "",
-      "page_title": "Lynn Alden",
-      "fetched_at": "2026-05-14T10:04:02.188404+00:00",
-      "cliff_notes": "Lynn Alden has established herself as a prominent voice in the analysis of macroeconomic trends and their implications on investment opportunities. Her work focuses on understanding the impact of AI on the global economy, a theme she has explored in depth through interviews, discussions, and her book, The Stolgaard Incident. Alden's insights are sought after by investors and tech enthusiasts alike, as she provides a unique perspective on how AI can reshape economic landscapes and create new investment avenues. Her contributions to the field have made her a respected figure in the realm of economic analysis and AI's influence on it.",
-      "derived": {
-        "current_role": "Expert in Macroeconomic Trends and Investment Analysis",
-        "books_or_works": "The Stolgaard Incident (a science fiction thriller exploring the macroeconomic consequences of AI)"
-      },
-      "infobox": {
-        "Born": "",
-        "Nationality": ""
-      },
-      "lead_paragraphs": [
-        "Lynn Alden has established herself as a prominent voice in the analysis of macroeconomic trends and their implications on investment opportunities. Her work focuses on understanding the impact of AI on the global economy, a theme she has explored in depth through interviews, discussions, and her book, The Stolgaard Incident.",
-        "Alden's insights are sought after by investors and tech enthusiasts alike, as she provides a unique perspective on how AI can reshape economic landscapes and create new investment avenues. Her contributions to the field have made her a respected figure in the realm of economic analysis and AI's influence on it."
-      ],
-      "sections": [
-        {
-          "heading": "AI's Economic Impact",
-          "body": "Lynn Alden has been vocal about the potential economic consequences of AI, discussing both the positive and negative impacts it could have on various sectors of the economy."
-        },
-        {
-          "heading": "Investment Opportunities",
-          "body": "Alden's analysis often highlights emerging investment opportunities that arise from the advancements in AI technology and its integration into different industries."
-        },
-        {
-          "heading": "Macroeconomic Trends",
-          "body": "She has a deep understanding of macroeconomic trends and how they are influenced by technological advancements, particularly in the field of AI."
-        },
-        {
-          "heading": "Public Discussions",
-          "body": "Lynn Alden frequently participates in public discussions and interviews, sharing her insights on the intersection of AI and economics with a broader audience."
-        }
-      ]
-    },
-    "net_worth": "$4.6M"
   },
   {
     "id": 287,
@@ -11025,6 +11021,71 @@
         }
       ]
     }
+  },
+  {
+    "id": 121,
+    "name": "Lynn Alden",
+    "slug": "lynn-alden",
+    "bio": "Lynn Alden is an expert in macroeconomic trends and investment analysis, known for her insights on AI's impact on the economy and investment opportunities. She has been featured in various interviews and discussions, providing her perspective on the implications of AI on the global economy.",
+    "known_for": "Her expertise in the intersection of AI and its economic consequences, as well as her analysis of investment opportunities arising from these trends.",
+    "net_worth_usd": 4600000.0,
+    "net_worth_source": "https://moolahtimes.com/lyn-alden/",
+    "net_worth_updated_at": "2026-03-26T14:15:42.441919",
+    "voice_tone": "Matter-of-fact and informative.",
+    "voice_style": "Analytical and future-oriented.",
+    "voice_delivery_notes": "Clear and concise with a focus on data and trends.",
+    "voice_profile_updated_at": "2026-05-14 10:03:34",
+    "last_seen": "2026-05-14 10:03:34",
+    "last_episode_title": "Lyn Alden on Macro Consequences of AI and The Stolgard Incident  (Monitoring The Situation Replay)",
+    "last_podcast_name": "Monetary Matters with Jack Farley",
+    "last_episode_date": "2026-05-13",
+    "mention_score": 2,
+    "mention_score_decayed": 0.09,
+    "last_main_idea": "Invest in sectors poised for growth due to AI adoption, particularly semiconductors and stablecoins, while being cautious about the cyclical nature of capex investments in hyperscaler companies.",
+    "last_proof_cite": "Monetary Matters with Jack Farley \u2022 2026-05-13 \u2022 Lyn Alden on Macro Consequences of AI and The Stolgard Incident  (Monitoring The Situation Replay)",
+    "last_proof_snippet": "Today's episode is brought to you by the unlimited hfgm global macro ETF ticker hfgm. Later in the show, you'll hear more about hfgm currently the number one morning star rated fund sits its inception in the US macro trading category. Let's",
+    "supporting_takeaway": "Monitor the capex cycles of hyperscalers and consider the potential for lower returns when investing in tech stocks.",
+    "grokipedia_url": null,
+    "grokipedia_fetched_at": "2026-05-14T05:04:02.188608",
+    "pundit_profile": {
+      "source": "llm",
+      "source_model": "moonshot:moonshot-v1-8k",
+      "source_url": "",
+      "page_title": "Lynn Alden",
+      "fetched_at": "2026-05-14T10:04:02.188404+00:00",
+      "cliff_notes": "Lynn Alden has established herself as a prominent voice in the analysis of macroeconomic trends and their implications on investment opportunities. Her work focuses on understanding the impact of AI on the global economy, a theme she has explored in depth through interviews, discussions, and her book, The Stolgaard Incident. Alden's insights are sought after by investors and tech enthusiasts alike, as she provides a unique perspective on how AI can reshape economic landscapes and create new investment avenues. Her contributions to the field have made her a respected figure in the realm of economic analysis and AI's influence on it.",
+      "derived": {
+        "current_role": "Expert in Macroeconomic Trends and Investment Analysis",
+        "books_or_works": "The Stolgaard Incident (a science fiction thriller exploring the macroeconomic consequences of AI)"
+      },
+      "infobox": {
+        "Born": "",
+        "Nationality": ""
+      },
+      "lead_paragraphs": [
+        "Lynn Alden has established herself as a prominent voice in the analysis of macroeconomic trends and their implications on investment opportunities. Her work focuses on understanding the impact of AI on the global economy, a theme she has explored in depth through interviews, discussions, and her book, The Stolgaard Incident.",
+        "Alden's insights are sought after by investors and tech enthusiasts alike, as she provides a unique perspective on how AI can reshape economic landscapes and create new investment avenues. Her contributions to the field have made her a respected figure in the realm of economic analysis and AI's influence on it."
+      ],
+      "sections": [
+        {
+          "heading": "AI's Economic Impact",
+          "body": "Lynn Alden has been vocal about the potential economic consequences of AI, discussing both the positive and negative impacts it could have on various sectors of the economy."
+        },
+        {
+          "heading": "Investment Opportunities",
+          "body": "Alden's analysis often highlights emerging investment opportunities that arise from the advancements in AI technology and its integration into different industries."
+        },
+        {
+          "heading": "Macroeconomic Trends",
+          "body": "She has a deep understanding of macroeconomic trends and how they are influenced by technological advancements, particularly in the field of AI."
+        },
+        {
+          "heading": "Public Discussions",
+          "body": "Lynn Alden frequently participates in public discussions and interviews, sharing her insights on the intersection of AI and economics with a broader audience."
+        }
+      ]
+    },
+    "net_worth": "$4.6M"
   },
   {
     "id": 278,
@@ -12892,7 +12953,7 @@
     "last_podcast_name": "All-In with Chamath, Jason, Sacks & Friedberg",
     "last_episode_date": "2026-05-10",
     "mention_score": 1,
-    "mention_score_decayed": 0.05,
+    "mention_score_decayed": 0.04,
     "last_main_idea": "Invest in initiatives that promote transparency in local governance, support independent filmmakers, and advocate for education reform to drive economic revitalization and improve public services in Los Angeles.",
     "last_proof_cite": "All-In with Chamath, Jason, Sacks & Friedberg \u2022 2026-05-10 \u2022 Spencer Pratt on Fixing LA: Wildfires, Homelessness, Corruption & the Fight to Take It Back",
     "last_proof_snippet": "Spencer Pratt, welcome to the All In Podcast. Thank you for having me. You had an unbelievable debate performance the other night. I have so many friends that were texting and people obviously were tweeting about it. Let's start with that.",
@@ -13884,6 +13945,33 @@
     "net_worth": "$7.0M"
   },
   {
+    "id": 55,
+    "name": "Dr. Onus Alhajji",
+    "slug": "dr-onus-alhajji",
+    "bio": "Expert commentator on energy markets and geopolitical conflicts.",
+    "known_for": "Analysis of the impact of geopolitical events on oil markets.",
+    "net_worth_usd": null,
+    "net_worth_source": null,
+    "net_worth_updated_at": null,
+    "voice_tone": null,
+    "voice_style": null,
+    "voice_delivery_notes": null,
+    "voice_profile_updated_at": null,
+    "last_seen": "2026-04-03 10:04:02",
+    "last_episode_title": "MacroVoices #526 Matt Barrie: Pay To PrAI",
+    "last_podcast_name": "MacroVoices",
+    "last_episode_date": "2026-04-02",
+    "mention_score": 2,
+    "mention_score_decayed": 0.04,
+    "last_main_idea": "Invest in sectors less affected by AI disruption and monitor geopolitical events for opportunities in private credit markets.",
+    "last_proof_cite": "MacroVoices \u2022 2026-04-02 \u2022 MacroVoices #526 Matt Barrie: Pay To PrAI",
+    "last_proof_snippet": "AI's impact on private credit markets could lead to a market dislocation similar to the 2000.com bust.",
+    "supporting_takeaway": "AI's impact on private credit markets could lead to a market dislocation similar to the 2000.com bust.",
+    "grokipedia_url": null,
+    "grokipedia_fetched_at": null,
+    "pundit_profile": null
+  },
+  {
     "id": 217,
     "name": "Steve Helden",
     "slug": "steve-helden",
@@ -13901,7 +13989,7 @@
     "last_podcast_name": "All-In with Chamath, Jason, Sacks & Friedberg",
     "last_episode_date": "2026-04-29",
     "mention_score": 1,
-    "mention_score_decayed": 0.04,
+    "mention_score_decayed": 0.03,
     "last_main_idea": "Steve Helden's candidacy represents a potential shift in California's political landscape towards policies that promote economic freedom and reduced regulatory burdens, which could have implications for businesses and investors in the state.",
     "last_proof_cite": "All-In with Chamath, Jason, Sacks & Friedberg \u2022 2026-04-29 \u2022 CA Governor Candidate Steve Hilton on Why California is Destroying Itself & How a Republican Can Win",
     "last_proof_snippet": "Helden's background as a child of Hungarian refugees and his work experience in various industries shape his policy views.",
@@ -13963,7 +14051,7 @@
     "last_podcast_name": "Dwarkesh Podcast",
     "last_episode_date": "2026-04-29",
     "mention_score": 1,
-    "mention_score_decayed": 0.04,
+    "mention_score_decayed": 0.03,
     "last_main_idea": "Investing in companies that optimize AI model architecture and training can lead to significant performance improvements and cost savings.",
     "last_proof_cite": "Dwarkesh Podcast \u2022 2026-04-29 \u2022 Reiner Pope \u2013 The math behind how LLMs are trained and served",
     "last_proof_snippet": "Batch size significantly impacts latency and cost in AI systems.",
@@ -14023,7 +14111,7 @@
     "last_podcast_name": "Monetary Matters with Jack Farley",
     "last_episode_date": "2026-04-29",
     "mention_score": 1,
-    "mention_score_decayed": 0.04,
+    "mention_score_decayed": 0.03,
     "last_main_idea": "Investing in AI CapEx is currently the main focus, with co-investments in hedge funds providing a successful strategy for capturing high returns.",
     "last_proof_cite": "Monetary Matters with Jack Farley \u2022 2026-04-29 \u2022 From Soros to Old Farm: How to Identify the Market\u2019s Top Thematic Risk-Takers | Kieran Cavanna | Old Farm Partners",
     "last_proof_snippet": "Co-investing with hedge funds is a successful strategy Kavanaugh learned from Scott Beston at Soros Fund Management.",
@@ -14069,33 +14157,6 @@
       ]
     },
     "net_worth": "$28.00B"
-  },
-  {
-    "id": 55,
-    "name": "Dr. Onus Alhajji",
-    "slug": "dr-onus-alhajji",
-    "bio": "Expert commentator on energy markets and geopolitical conflicts.",
-    "known_for": "Analysis of the impact of geopolitical events on oil markets.",
-    "net_worth_usd": null,
-    "net_worth_source": null,
-    "net_worth_updated_at": null,
-    "voice_tone": null,
-    "voice_style": null,
-    "voice_delivery_notes": null,
-    "voice_profile_updated_at": null,
-    "last_seen": "2026-04-03 10:04:02",
-    "last_episode_title": "MacroVoices #526 Matt Barrie: Pay To PrAI",
-    "last_podcast_name": "MacroVoices",
-    "last_episode_date": "2026-04-02",
-    "mention_score": 2,
-    "mention_score_decayed": 0.04,
-    "last_main_idea": "Invest in sectors less affected by AI disruption and monitor geopolitical events for opportunities in private credit markets.",
-    "last_proof_cite": "MacroVoices \u2022 2026-04-02 \u2022 MacroVoices #526 Matt Barrie: Pay To PrAI",
-    "last_proof_snippet": "AI's impact on private credit markets could lead to a market dislocation similar to the 2000.com bust.",
-    "supporting_takeaway": "AI's impact on private credit markets could lead to a market dislocation similar to the 2000.com bust.",
-    "grokipedia_url": null,
-    "grokipedia_fetched_at": null,
-    "pundit_profile": null
   },
   {
     "id": 213,
@@ -15170,66 +15231,6 @@
     "net_worth": "$300.0M"
   },
   {
-    "id": 182,
-    "name": "Hano Lustig",
-    "slug": "hano-lustig",
-    "bio": "Hano Lustig is the Masuhua Financial Group Professor of Finance at Stanford University. He is known for his research on financial repression and its impact on economies, particularly in advanced economies.",
-    "known_for": "His work on financial repression and its impact on economies, especially in advanced economies.",
-    "net_worth_usd": null,
-    "net_worth_source": "",
-    "net_worth_updated_at": null,
-    "voice_tone": "Informed and analytical.",
-    "voice_style": "Lustig presents a historical and economic perspective on financial repression.",
-    "voice_delivery_notes": "Speak with a measured pace, emphasizing key historical examples and current implications.",
-    "voice_profile_updated_at": "2026-04-16 10:05:21",
-    "last_seen": "2026-04-16 10:05:21",
-    "last_episode_title": "Financial Repression, Pt. 1  | Professor Hanno Lustig on Hidden Taxes, Fiscal Sustainability, and Japan\u2019s Debt Puzzle",
-    "last_podcast_name": "Monetary Matters with Jack Farley",
-    "last_episode_date": "2026-04-15",
-    "mention_score": 1,
-    "mention_score_decayed": 0.03,
-    "last_main_idea": "Investing in HFGM global macro ETF, which is highly rated by Morningstar, may offer exposure to macroeconomic trends and government policies affecting financial markets.",
-    "last_proof_cite": "Monetary Matters with Jack Farley \u2022 2026-04-15 \u2022 Financial Repression, Pt. 1  | Professor Hanno Lustig on Hidden Taxes, Fiscal Sustainability, and Japan\u2019s Debt Puzzle",
-    "last_proof_snippet": "Historically, financial repression has been used during wartime to keep bond yields artificially low.",
-    "supporting_takeaway": "Historically, financial repression has been used during wartime to keep bond yields artificially low.",
-    "grokipedia_url": null,
-    "grokipedia_fetched_at": "2026-04-16T05:06:10.468903",
-    "pundit_profile": {
-      "source": "llm",
-      "source_model": "moonshot:moonshot-v1-8k",
-      "source_url": "",
-      "page_title": "Hano Lustig",
-      "fetched_at": "2026-04-16T10:06:10.468631+00:00",
-      "cliff_notes": "Hano Lustig is a distinguished academic in the field of finance, currently holding the position of Masuhua Financial Group Professor of Finance at Stanford University. His research focuses on financial repression, a tool used by governments to fund themselves by ensuring their funding costs are below market rates. Lustig's work has shed light on the wide array of interventions that fall under financial repression, not just in developing economies but also in advanced economies. His insights into the topic are crucial for understanding fiscal sustainability and the implications of government policies on economic growth and stability.",
-      "derived": {
-        "current_role": "Masuhua Financial Group Professor of Finance at Stanford University",
-        "teaching_summary": "Professor of Finance at Stanford University"
-      },
-      "infobox": {
-        "Born": "",
-        "Nationality": ""
-      },
-      "lead_paragraphs": [
-        "Hano Lustig is a distinguished academic in the field of finance, currently holding the position of Masuhua Financial Group Professor of Finance at Stanford University. His research focuses on financial repression, a tool used by governments to fund themselves by ensuring their funding costs are below market rates. Lustig's work has shed light on the wide array of interventions that fall under financial repression, not just in developing economies but also in advanced economies.",
-        "His insights into the topic are crucial for understanding fiscal sustainability and the implications of government policies on economic growth and stability."
-      ],
-      "sections": [
-        {
-          "heading": "Financial Repression",
-          "body": "Hano Lustig is known for his research on financial repression, a tool used by governments to fund themselves by ensuring their funding costs are below market rates. His work covers a wide array of interventions and has been applied to both developing and advanced economies."
-        },
-        {
-          "heading": "Economic Impact",
-          "body": "Lustig's research delves into the impact of financial repression on economies, highlighting the consequences of government interventions on economic growth and stability. His work provides valuable insights for policymakers and investors alike."
-        },
-        {
-          "heading": "Advanced Economies",
-          "body": "A significant part of Lustig's work focuses on the use of financial repression in advanced economies. He argues that these interventions are not limited to developing nations but are also prevalent in more developed economic systems."
-        }
-      ]
-    }
-  },
-  {
     "id": 97,
     "name": "Simon White",
     "slug": "simon-white",
@@ -15477,6 +15478,66 @@
       ]
     },
     "net_worth": "$200.0M"
+  },
+  {
+    "id": 182,
+    "name": "Hano Lustig",
+    "slug": "hano-lustig",
+    "bio": "Hano Lustig is the Masuhua Financial Group Professor of Finance at Stanford University. He is known for his research on financial repression and its impact on economies, particularly in advanced economies.",
+    "known_for": "His work on financial repression and its impact on economies, especially in advanced economies.",
+    "net_worth_usd": null,
+    "net_worth_source": "",
+    "net_worth_updated_at": null,
+    "voice_tone": "Informed and analytical.",
+    "voice_style": "Lustig presents a historical and economic perspective on financial repression.",
+    "voice_delivery_notes": "Speak with a measured pace, emphasizing key historical examples and current implications.",
+    "voice_profile_updated_at": "2026-04-16 10:05:21",
+    "last_seen": "2026-04-16 10:05:21",
+    "last_episode_title": "Financial Repression, Pt. 1  | Professor Hanno Lustig on Hidden Taxes, Fiscal Sustainability, and Japan\u2019s Debt Puzzle",
+    "last_podcast_name": "Monetary Matters with Jack Farley",
+    "last_episode_date": "2026-04-15",
+    "mention_score": 1,
+    "mention_score_decayed": 0.02,
+    "last_main_idea": "Investing in HFGM global macro ETF, which is highly rated by Morningstar, may offer exposure to macroeconomic trends and government policies affecting financial markets.",
+    "last_proof_cite": "Monetary Matters with Jack Farley \u2022 2026-04-15 \u2022 Financial Repression, Pt. 1  | Professor Hanno Lustig on Hidden Taxes, Fiscal Sustainability, and Japan\u2019s Debt Puzzle",
+    "last_proof_snippet": "Historically, financial repression has been used during wartime to keep bond yields artificially low.",
+    "supporting_takeaway": "Historically, financial repression has been used during wartime to keep bond yields artificially low.",
+    "grokipedia_url": null,
+    "grokipedia_fetched_at": "2026-04-16T05:06:10.468903",
+    "pundit_profile": {
+      "source": "llm",
+      "source_model": "moonshot:moonshot-v1-8k",
+      "source_url": "",
+      "page_title": "Hano Lustig",
+      "fetched_at": "2026-04-16T10:06:10.468631+00:00",
+      "cliff_notes": "Hano Lustig is a distinguished academic in the field of finance, currently holding the position of Masuhua Financial Group Professor of Finance at Stanford University. His research focuses on financial repression, a tool used by governments to fund themselves by ensuring their funding costs are below market rates. Lustig's work has shed light on the wide array of interventions that fall under financial repression, not just in developing economies but also in advanced economies. His insights into the topic are crucial for understanding fiscal sustainability and the implications of government policies on economic growth and stability.",
+      "derived": {
+        "current_role": "Masuhua Financial Group Professor of Finance at Stanford University",
+        "teaching_summary": "Professor of Finance at Stanford University"
+      },
+      "infobox": {
+        "Born": "",
+        "Nationality": ""
+      },
+      "lead_paragraphs": [
+        "Hano Lustig is a distinguished academic in the field of finance, currently holding the position of Masuhua Financial Group Professor of Finance at Stanford University. His research focuses on financial repression, a tool used by governments to fund themselves by ensuring their funding costs are below market rates. Lustig's work has shed light on the wide array of interventions that fall under financial repression, not just in developing economies but also in advanced economies.",
+        "His insights into the topic are crucial for understanding fiscal sustainability and the implications of government policies on economic growth and stability."
+      ],
+      "sections": [
+        {
+          "heading": "Financial Repression",
+          "body": "Hano Lustig is known for his research on financial repression, a tool used by governments to fund themselves by ensuring their funding costs are below market rates. His work covers a wide array of interventions and has been applied to both developing and advanced economies."
+        },
+        {
+          "heading": "Economic Impact",
+          "body": "Lustig's research delves into the impact of financial repression on economies, highlighting the consequences of government interventions on economic growth and stability. His work provides valuable insights for policymakers and investors alike."
+        },
+        {
+          "heading": "Advanced Economies",
+          "body": "A significant part of Lustig's work focuses on the use of financial repression in advanced economies. He argues that these interventions are not limited to developing nations but are also prevalent in more developed economic systems."
+        }
+      ]
+    }
   },
   {
     "id": 179,
@@ -17899,198 +17960,6 @@
     "net_worth": "$300.0M"
   },
   {
-    "id": 110,
-    "name": "Adam Warmouth",
-    "slug": "adam-warmouth",
-    "bio": "Adam Warmouth is the Founder and CEO of Chariot Defense, a company that specializes in developing next-generation power systems for military operations. His focus is on creating innovative power solutions that enhance the capabilities of soldiers on the battlefield, especially in the context of an increasingly electronic warfare environment.",
-    "known_for": "Developing tactical power solutions for the modern battlefield, enhancing soldier capabilities and stealth.",
-    "net_worth_usd": 1200000000.0,
-    "net_worth_source": "https://explore.st-aug.edu/exp/adam-22s-net-worth-shocked-the-business-world-the-untold-secrets-behind-his-billionairestyle-wealth",
-    "net_worth_updated_at": "2026-03-25T04:10:45.707150",
-    "voice_tone": "Informed and solution-focused",
-    "voice_style": "Practical and results-oriented",
-    "voice_delivery_notes": "Clear and concise with a focus on the impact of their solutions",
-    "voice_profile_updated_at": "2026-03-25 09:10:12",
-    "last_seen": "2026-03-25 09:10:12",
-    "last_episode_title": "The Tactical Power Layer for Modern Warfare",
-    "last_podcast_name": "The a16z Show",
-    "last_episode_date": "2026-03-24",
-    "mention_score": 1,
-    "mention_score_decayed": 0.02,
-    "last_main_idea": "Investing in companies that can provide innovative power solutions for the modern, electronic battlefield can offer significant opportunities as military forces worldwide seek to upgrade their capabilities.",
-    "last_proof_cite": "The a16z Show \u2022 2026-03-24 \u2022 The Tactical Power Layer for Modern Warfare",
-    "last_proof_snippet": "Current power solutions like diesel generators are inefficient and create a tactical signature, making them a liability.",
-    "supporting_takeaway": "Current power solutions like diesel generators are inefficient and create a tactical signature, making them a liability.",
-    "grokipedia_url": null,
-    "grokipedia_fetched_at": "2026-03-25T04:10:43.350646",
-    "pundit_profile": {
-      "source": "llm",
-      "source_model": "moonshot:moonshot-v1-8k",
-      "source_url": "",
-      "page_title": "Adam Warmouth",
-      "fetched_at": "2026-03-25T09:10:43.350416+00:00",
-      "cliff_notes": "Adam Warmouth is recognized for his work in the field of military power solutions, particularly as the founder and CEO of Chariot Defense. His company is at the forefront of developing next-generation power systems designed to support soldiers in the field, focusing on the increasing electronic demands of modern warfare. Warmouth's innovations aim to provide soldiers with the necessary power to operate advanced equipment without compromising their position or safety. His work is crucial in addressing the power gap in military operations, ensuring that soldiers have the tools they need to succeed in a technologically advanced battlefield.",
-      "derived": {
-        "current_role": "Founder and CEO of Chariot Defense"
-      },
-      "infobox": {
-        "Born": "",
-        "Nationality": ""
-      },
-      "lead_paragraphs": [
-        "Adam Warmouth is recognized for his work in the field of military power solutions, particularly as the founder and CEO of Chariot Defense. His company is at the forefront of developing next-generation power systems designed to support soldiers in the field, focusing on the increasing electronic demands of modern warfare.",
-        "Warmouth's innovations aim to provide soldiers with the necessary power to operate advanced equipment without compromising their position or safety. His work is crucial in addressing the power gap in military operations, ensuring that soldiers have the tools they need to succeed in a technologically advanced battlefield."
-      ],
-      "sections": [
-        {
-          "heading": "Innovative Power Solutions",
-          "body": "Adam Warmouth is dedicated to creating power solutions that are both efficient and effective for military use, focusing on reducing the tactical signature and increasing the stealth capabilities of soldiers in the field."
-        },
-        {
-          "heading": "Electronic Battlefield",
-          "body": "Warmouth's work is crucial in the shift towards an electronic battlefield, where the demand for power is increasing and the need for stealth is paramount. His solutions aim to support soldiers with the power they need without compromising their safety."
-        },
-        {
-          "heading": "Tactical Power Layer",
-          "body": "Chariot Defense, under Warmouth's leadership, is building a tactical power layer that supports robotic workers in the field. This layer is designed to provide the necessary power for active operations while maintaining a low tactical signature."
-        }
-      ]
-    },
-    "net_worth": "$1.20B"
-  },
-  {
-    "id": 111,
-    "name": "Alex Miller",
-    "slug": "alex-miller",
-    "bio": "Alex Miller is the Chief Technology Officer (CTO) of the US Army, where he is instrumental in driving the adoption of new technologies in military operations. His focus is on enhancing soldier capabilities and efficiency through technological innovation, with a particular emphasis on power management and electronic battlefield strategies.",
-    "known_for": "Pioneering the integration of advanced technology to modernize military operations and improve soldier effectiveness.",
-    "net_worth_usd": 12000000.0,
-    "net_worth_source": "https://www.urbansplatter.com/2025/04/alex-miller-net-worth/",
-    "net_worth_updated_at": "2026-03-31T20:09:43.596580",
-    "voice_tone": "Authoritative and strategic",
-    "voice_style": "Direct and focused on outcomes",
-    "voice_delivery_notes": "Confident and assertive, emphasizing the need for change",
-    "voice_profile_updated_at": "2026-03-25 09:10:12",
-    "last_seen": "2026-03-25 09:10:12",
-    "last_episode_title": "The Tactical Power Layer for Modern Warfare",
-    "last_podcast_name": "The a16z Show",
-    "last_episode_date": "2026-03-24",
-    "mention_score": 1,
-    "mention_score_decayed": 0.02,
-    "last_main_idea": "Investing in companies that can provide innovative power solutions for the modern, electronic battlefield can offer significant opportunities as military forces worldwide seek to upgrade their capabilities.",
-    "last_proof_cite": "The a16z Show \u2022 2026-03-24 \u2022 The Tactical Power Layer for Modern Warfare",
-    "last_proof_snippet": "Current power solutions like diesel generators are inefficient and create a tactical signature, making them a liability.",
-    "supporting_takeaway": "Current power solutions like diesel generators are inefficient and create a tactical signature, making them a liability.",
-    "grokipedia_url": null,
-    "grokipedia_fetched_at": "2026-03-25T04:10:59.120340",
-    "pundit_profile": {
-      "source": "llm",
-      "source_model": "moonshot:moonshot-v1-8k",
-      "source_url": "",
-      "page_title": "Alex Miller",
-      "fetched_at": "2026-03-25T09:10:59.120234+00:00",
-      "cliff_notes": "Alex Miller serves as the Chief Technology Officer for the US Army, a role that places him at the forefront of military technological advancement. His career has been marked by a commitment to leveraging cutting-edge technology to enhance the capabilities of soldiers in the field. Miller's work is particularly focused on the development and implementation of power solutions that can support the increasing electronic demands of modern warfare. His efforts aim to reduce the tactical signature of military operations, thereby decreasing the risk of detection and targeting by adversaries. Miller's contributions are significant in shaping the future of military technology, emphasizing stealth, efficiency, and the empowerment of individual soldiers through technological advancements.",
-      "derived": {
-        "current_role": "CTO of the US Army"
-      },
-      "infobox": {
-        "Born": "",
-        "Nationality": "American"
-      },
-      "lead_paragraphs": [
-        "Alex Miller serves as the Chief Technology Officer for the US Army, a role that places him at the forefront of military technological advancement. His career has been marked by a commitment to leveraging cutting-edge technology to enhance the capabilities of soldiers in the field. Miller's work is particularly focused on the development and implementation of power solutions that can support the increasing electronic demands of modern warfare.",
-        "His efforts aim to reduce the tactical signature of military operations, thereby decreasing the risk of detection and targeting by adversaries. Miller's contributions are significant in shaping the future of military technology, emphasizing stealth, efficiency, and the empowerment of individual soldiers through technological advancements."
-      ],
-      "sections": [
-        {
-          "heading": "Military Technology",
-          "body": "Alex Miller is dedicated to the advancement of military technology, focusing on how it can be used to improve soldier performance and safety."
-        },
-        {
-          "heading": "Power Management",
-          "body": "Miller emphasizes the importance of power management in military operations, working to create solutions that provide the necessary power without compromising operational secrecy."
-        },
-        {
-          "heading": "Electronic Battlefield",
-          "body": "He is a proponent of moving towards an electronic battlefield, where technology plays a central role in strategic operations and tactical advantages."
-        },
-        {
-          "heading": "Soldier Empowerment",
-          "body": "A key aspect of Miller's work is the empowerment of soldiers through technology, ensuring they have the tools they need to operate effectively in various conditions."
-        }
-      ]
-    },
-    "net_worth": "$12.0M"
-  },
-  {
-    "id": 109,
-    "name": "Eric Schmidt",
-    "slug": "eric-schmidt",
-    "bio": "Eric Schmidt is a prominent figure in the technology industry, known for his leadership at Google and contributions to the tech sector. He served as CEO of Google and later as Chairman of Alphabet Inc., guiding the company through significant growth and innovation.",
-    "known_for": "His influential leadership at Google and shaping the direction of Alphabet Inc., impacting the global tech landscape.",
-    "net_worth_usd": 12900000000.0,
-    "net_worth_source": "https://www.wikidata.org/wiki/Q92747",
-    "net_worth_updated_at": "2026-03-25T04:11:28.701167",
-    "voice_tone": "Inquisitive and experienced.",
-    "voice_style": "Analytical with a focus on the big picture.",
-    "voice_delivery_notes": "Speaks with authority and a measured pace.",
-    "voice_profile_updated_at": "2026-03-25 09:07:25",
-    "last_seen": "2026-03-25 09:07:25",
-    "last_episode_title": "The Future of AI and its Impact on Society and Investment",
-    "last_podcast_name": "Moonshots with Peter Diamandis",
-    "last_episode_date": "2026-03-24",
-    "mention_score": 1,
-    "mention_score_decayed": 0.02,
-    "last_main_idea": "Invest in AI and robotics sectors as they are poised for significant growth and disruption, with a focus on companies that align with human values and contribute to abundance.",
-    "last_proof_cite": "Moonshots with Peter Diamandis \u2022 2026-03-24 \u2022 The Future of AI and its Impact on Society and Investment",
-    "last_proof_snippet": "Recursive self-improvement in AI is not yet realized, but its potential is both exciting and terrifying.",
-    "supporting_takeaway": "Recursive self-improvement in AI is not yet realized, but its potential is both exciting and terrifying.",
-    "grokipedia_url": null,
-    "grokipedia_fetched_at": "2026-03-25T04:11:26.668471",
-    "pundit_profile": {
-      "source": "llm",
-      "source_model": "moonshot:moonshot-v1-8k",
-      "source_url": "",
-      "page_title": "Eric Schmidt",
-      "fetched_at": "2026-03-25T09:11:26.668361+00:00",
-      "cliff_notes": "Eric Schmidt began his career in technology, moving through various roles before becoming the CEO of Novell. He later joined Google as its CEO, where he played a pivotal role in the company's rapid growth and expansion. Under his leadership, Google became a dominant force in the tech industry. After stepping down as CEO, Schmidt served as the Executive Chairman of Google, and later as Chairman of Alphabet Inc., the parent company of Google. He has also held a board seat at Apple Inc. and has been involved in various philanthropic endeavors. His insights into technology and its impact on society are highly regarded, and he continues to influence the tech world through his advisory roles and public commentary.",
-      "derived": {
-        "former_positions": "CEO of Google; Chairman of Alphabet Inc.; Board member of Apple Inc.; CEO of Novell",
-        "boards": "Alphabet Inc.; Apple Inc.",
-        "education": "Bachelor's degree in Electrical Engineering and Computer Science from Princeton University; Master's degree and Ph.D. in Computer Science from the University of California, Berkeley",
-        "books_or_works": "The New Digital Age: Reshaping the Future of People, Nations and Business (co-authored with Jared Cohen)",
-        "teaching_summary": "Guest lectures at Stanford University"
-      },
-      "infobox": {
-        "Born": "1955",
-        "Nationality": "American"
-      },
-      "lead_paragraphs": [
-        "Eric Schmidt began his career in technology, moving through various roles before becoming the CEO of Novell. He later joined Google as its CEO, where he played a pivotal role in the company's rapid growth and expansion. Under his leadership, Google became a dominant force in the tech industry. After stepping down as CEO, Schmidt served as the Executive Chairman of Google, and later as Chairman of Alphabet Inc., the parent company of Google.",
-        "He has also held a board seat at Apple Inc. and has been involved in various philanthropic endeavors. His insights into technology and its impact on society are highly regarded, and he continues to influence the tech world through his advisory roles and public commentary."
-      ],
-      "sections": [
-        {
-          "heading": "Leadership at Google",
-          "body": "Eric Schmidt served as the CEO of Google from 2001 to 2011, overseeing the company's transformation into a global technology giant."
-        },
-        {
-          "heading": "Chairman of Alphabet Inc.",
-          "body": "Schmidt took on the role of Executive Chairman at Google following his tenure as CEO, and later became Chairman of Alphabet Inc., the parent company of Google."
-        },
-        {
-          "heading": "Contributions to Tech",
-          "body": "His leadership and strategic vision have been instrumental in shaping Google's technological advancements and its impact on the industry."
-        },
-        {
-          "heading": "Global Competition",
-          "body": "Schmidt has expressed concerns about global competition, particularly with China, and the importance of maintaining a competitive edge in key technological sectors."
-        }
-      ]
-    },
-    "net_worth": "$12.90B"
-  },
-  {
     "id": 43,
     "name": "Olivia Moore",
     "slug": "olivia-moore",
@@ -18156,6 +18025,198 @@
         }
       ]
     }
+  },
+  {
+    "id": 110,
+    "name": "Adam Warmouth",
+    "slug": "adam-warmouth",
+    "bio": "Adam Warmouth is the Founder and CEO of Chariot Defense, a company that specializes in developing next-generation power systems for military operations. His focus is on creating innovative power solutions that enhance the capabilities of soldiers on the battlefield, especially in the context of an increasingly electronic warfare environment.",
+    "known_for": "Developing tactical power solutions for the modern battlefield, enhancing soldier capabilities and stealth.",
+    "net_worth_usd": 1200000000.0,
+    "net_worth_source": "https://explore.st-aug.edu/exp/adam-22s-net-worth-shocked-the-business-world-the-untold-secrets-behind-his-billionairestyle-wealth",
+    "net_worth_updated_at": "2026-03-25T04:10:45.707150",
+    "voice_tone": "Informed and solution-focused",
+    "voice_style": "Practical and results-oriented",
+    "voice_delivery_notes": "Clear and concise with a focus on the impact of their solutions",
+    "voice_profile_updated_at": "2026-03-25 09:10:12",
+    "last_seen": "2026-03-25 09:10:12",
+    "last_episode_title": "The Tactical Power Layer for Modern Warfare",
+    "last_podcast_name": "The a16z Show",
+    "last_episode_date": "2026-03-24",
+    "mention_score": 1,
+    "mention_score_decayed": 0.01,
+    "last_main_idea": "Investing in companies that can provide innovative power solutions for the modern, electronic battlefield can offer significant opportunities as military forces worldwide seek to upgrade their capabilities.",
+    "last_proof_cite": "The a16z Show \u2022 2026-03-24 \u2022 The Tactical Power Layer for Modern Warfare",
+    "last_proof_snippet": "Current power solutions like diesel generators are inefficient and create a tactical signature, making them a liability.",
+    "supporting_takeaway": "Current power solutions like diesel generators are inefficient and create a tactical signature, making them a liability.",
+    "grokipedia_url": null,
+    "grokipedia_fetched_at": "2026-03-25T04:10:43.350646",
+    "pundit_profile": {
+      "source": "llm",
+      "source_model": "moonshot:moonshot-v1-8k",
+      "source_url": "",
+      "page_title": "Adam Warmouth",
+      "fetched_at": "2026-03-25T09:10:43.350416+00:00",
+      "cliff_notes": "Adam Warmouth is recognized for his work in the field of military power solutions, particularly as the founder and CEO of Chariot Defense. His company is at the forefront of developing next-generation power systems designed to support soldiers in the field, focusing on the increasing electronic demands of modern warfare. Warmouth's innovations aim to provide soldiers with the necessary power to operate advanced equipment without compromising their position or safety. His work is crucial in addressing the power gap in military operations, ensuring that soldiers have the tools they need to succeed in a technologically advanced battlefield.",
+      "derived": {
+        "current_role": "Founder and CEO of Chariot Defense"
+      },
+      "infobox": {
+        "Born": "",
+        "Nationality": ""
+      },
+      "lead_paragraphs": [
+        "Adam Warmouth is recognized for his work in the field of military power solutions, particularly as the founder and CEO of Chariot Defense. His company is at the forefront of developing next-generation power systems designed to support soldiers in the field, focusing on the increasing electronic demands of modern warfare.",
+        "Warmouth's innovations aim to provide soldiers with the necessary power to operate advanced equipment without compromising their position or safety. His work is crucial in addressing the power gap in military operations, ensuring that soldiers have the tools they need to succeed in a technologically advanced battlefield."
+      ],
+      "sections": [
+        {
+          "heading": "Innovative Power Solutions",
+          "body": "Adam Warmouth is dedicated to creating power solutions that are both efficient and effective for military use, focusing on reducing the tactical signature and increasing the stealth capabilities of soldiers in the field."
+        },
+        {
+          "heading": "Electronic Battlefield",
+          "body": "Warmouth's work is crucial in the shift towards an electronic battlefield, where the demand for power is increasing and the need for stealth is paramount. His solutions aim to support soldiers with the power they need without compromising their safety."
+        },
+        {
+          "heading": "Tactical Power Layer",
+          "body": "Chariot Defense, under Warmouth's leadership, is building a tactical power layer that supports robotic workers in the field. This layer is designed to provide the necessary power for active operations while maintaining a low tactical signature."
+        }
+      ]
+    },
+    "net_worth": "$1.20B"
+  },
+  {
+    "id": 111,
+    "name": "Alex Miller",
+    "slug": "alex-miller",
+    "bio": "Alex Miller is the Chief Technology Officer (CTO) of the US Army, where he is instrumental in driving the adoption of new technologies in military operations. His focus is on enhancing soldier capabilities and efficiency through technological innovation, with a particular emphasis on power management and electronic battlefield strategies.",
+    "known_for": "Pioneering the integration of advanced technology to modernize military operations and improve soldier effectiveness.",
+    "net_worth_usd": 12000000.0,
+    "net_worth_source": "https://www.urbansplatter.com/2025/04/alex-miller-net-worth/",
+    "net_worth_updated_at": "2026-03-31T20:09:43.596580",
+    "voice_tone": "Authoritative and strategic",
+    "voice_style": "Direct and focused on outcomes",
+    "voice_delivery_notes": "Confident and assertive, emphasizing the need for change",
+    "voice_profile_updated_at": "2026-03-25 09:10:12",
+    "last_seen": "2026-03-25 09:10:12",
+    "last_episode_title": "The Tactical Power Layer for Modern Warfare",
+    "last_podcast_name": "The a16z Show",
+    "last_episode_date": "2026-03-24",
+    "mention_score": 1,
+    "mention_score_decayed": 0.01,
+    "last_main_idea": "Investing in companies that can provide innovative power solutions for the modern, electronic battlefield can offer significant opportunities as military forces worldwide seek to upgrade their capabilities.",
+    "last_proof_cite": "The a16z Show \u2022 2026-03-24 \u2022 The Tactical Power Layer for Modern Warfare",
+    "last_proof_snippet": "Current power solutions like diesel generators are inefficient and create a tactical signature, making them a liability.",
+    "supporting_takeaway": "Current power solutions like diesel generators are inefficient and create a tactical signature, making them a liability.",
+    "grokipedia_url": null,
+    "grokipedia_fetched_at": "2026-03-25T04:10:59.120340",
+    "pundit_profile": {
+      "source": "llm",
+      "source_model": "moonshot:moonshot-v1-8k",
+      "source_url": "",
+      "page_title": "Alex Miller",
+      "fetched_at": "2026-03-25T09:10:59.120234+00:00",
+      "cliff_notes": "Alex Miller serves as the Chief Technology Officer for the US Army, a role that places him at the forefront of military technological advancement. His career has been marked by a commitment to leveraging cutting-edge technology to enhance the capabilities of soldiers in the field. Miller's work is particularly focused on the development and implementation of power solutions that can support the increasing electronic demands of modern warfare. His efforts aim to reduce the tactical signature of military operations, thereby decreasing the risk of detection and targeting by adversaries. Miller's contributions are significant in shaping the future of military technology, emphasizing stealth, efficiency, and the empowerment of individual soldiers through technological advancements.",
+      "derived": {
+        "current_role": "CTO of the US Army"
+      },
+      "infobox": {
+        "Born": "",
+        "Nationality": "American"
+      },
+      "lead_paragraphs": [
+        "Alex Miller serves as the Chief Technology Officer for the US Army, a role that places him at the forefront of military technological advancement. His career has been marked by a commitment to leveraging cutting-edge technology to enhance the capabilities of soldiers in the field. Miller's work is particularly focused on the development and implementation of power solutions that can support the increasing electronic demands of modern warfare.",
+        "His efforts aim to reduce the tactical signature of military operations, thereby decreasing the risk of detection and targeting by adversaries. Miller's contributions are significant in shaping the future of military technology, emphasizing stealth, efficiency, and the empowerment of individual soldiers through technological advancements."
+      ],
+      "sections": [
+        {
+          "heading": "Military Technology",
+          "body": "Alex Miller is dedicated to the advancement of military technology, focusing on how it can be used to improve soldier performance and safety."
+        },
+        {
+          "heading": "Power Management",
+          "body": "Miller emphasizes the importance of power management in military operations, working to create solutions that provide the necessary power without compromising operational secrecy."
+        },
+        {
+          "heading": "Electronic Battlefield",
+          "body": "He is a proponent of moving towards an electronic battlefield, where technology plays a central role in strategic operations and tactical advantages."
+        },
+        {
+          "heading": "Soldier Empowerment",
+          "body": "A key aspect of Miller's work is the empowerment of soldiers through technology, ensuring they have the tools they need to operate effectively in various conditions."
+        }
+      ]
+    },
+    "net_worth": "$12.0M"
+  },
+  {
+    "id": 109,
+    "name": "Eric Schmidt",
+    "slug": "eric-schmidt",
+    "bio": "Eric Schmidt is a prominent figure in the technology industry, known for his leadership at Google and contributions to the tech sector. He served as CEO of Google and later as Chairman of Alphabet Inc., guiding the company through significant growth and innovation.",
+    "known_for": "His influential leadership at Google and shaping the direction of Alphabet Inc., impacting the global tech landscape.",
+    "net_worth_usd": 12900000000.0,
+    "net_worth_source": "https://www.wikidata.org/wiki/Q92747",
+    "net_worth_updated_at": "2026-03-25T04:11:28.701167",
+    "voice_tone": "Inquisitive and experienced.",
+    "voice_style": "Analytical with a focus on the big picture.",
+    "voice_delivery_notes": "Speaks with authority and a measured pace.",
+    "voice_profile_updated_at": "2026-03-25 09:07:25",
+    "last_seen": "2026-03-25 09:07:25",
+    "last_episode_title": "The Future of AI and its Impact on Society and Investment",
+    "last_podcast_name": "Moonshots with Peter Diamandis",
+    "last_episode_date": "2026-03-24",
+    "mention_score": 1,
+    "mention_score_decayed": 0.01,
+    "last_main_idea": "Invest in AI and robotics sectors as they are poised for significant growth and disruption, with a focus on companies that align with human values and contribute to abundance.",
+    "last_proof_cite": "Moonshots with Peter Diamandis \u2022 2026-03-24 \u2022 The Future of AI and its Impact on Society and Investment",
+    "last_proof_snippet": "Recursive self-improvement in AI is not yet realized, but its potential is both exciting and terrifying.",
+    "supporting_takeaway": "Recursive self-improvement in AI is not yet realized, but its potential is both exciting and terrifying.",
+    "grokipedia_url": null,
+    "grokipedia_fetched_at": "2026-03-25T04:11:26.668471",
+    "pundit_profile": {
+      "source": "llm",
+      "source_model": "moonshot:moonshot-v1-8k",
+      "source_url": "",
+      "page_title": "Eric Schmidt",
+      "fetched_at": "2026-03-25T09:11:26.668361+00:00",
+      "cliff_notes": "Eric Schmidt began his career in technology, moving through various roles before becoming the CEO of Novell. He later joined Google as its CEO, where he played a pivotal role in the company's rapid growth and expansion. Under his leadership, Google became a dominant force in the tech industry. After stepping down as CEO, Schmidt served as the Executive Chairman of Google, and later as Chairman of Alphabet Inc., the parent company of Google. He has also held a board seat at Apple Inc. and has been involved in various philanthropic endeavors. His insights into technology and its impact on society are highly regarded, and he continues to influence the tech world through his advisory roles and public commentary.",
+      "derived": {
+        "former_positions": "CEO of Google; Chairman of Alphabet Inc.; Board member of Apple Inc.; CEO of Novell",
+        "boards": "Alphabet Inc.; Apple Inc.",
+        "education": "Bachelor's degree in Electrical Engineering and Computer Science from Princeton University; Master's degree and Ph.D. in Computer Science from the University of California, Berkeley",
+        "books_or_works": "The New Digital Age: Reshaping the Future of People, Nations and Business (co-authored with Jared Cohen)",
+        "teaching_summary": "Guest lectures at Stanford University"
+      },
+      "infobox": {
+        "Born": "1955",
+        "Nationality": "American"
+      },
+      "lead_paragraphs": [
+        "Eric Schmidt began his career in technology, moving through various roles before becoming the CEO of Novell. He later joined Google as its CEO, where he played a pivotal role in the company's rapid growth and expansion. Under his leadership, Google became a dominant force in the tech industry. After stepping down as CEO, Schmidt served as the Executive Chairman of Google, and later as Chairman of Alphabet Inc., the parent company of Google.",
+        "He has also held a board seat at Apple Inc. and has been involved in various philanthropic endeavors. His insights into technology and its impact on society are highly regarded, and he continues to influence the tech world through his advisory roles and public commentary."
+      ],
+      "sections": [
+        {
+          "heading": "Leadership at Google",
+          "body": "Eric Schmidt served as the CEO of Google from 2001 to 2011, overseeing the company's transformation into a global technology giant."
+        },
+        {
+          "heading": "Chairman of Alphabet Inc.",
+          "body": "Schmidt took on the role of Executive Chairman at Google following his tenure as CEO, and later became Chairman of Alphabet Inc., the parent company of Google."
+        },
+        {
+          "heading": "Contributions to Tech",
+          "body": "His leadership and strategic vision have been instrumental in shaping Google's technological advancements and its impact on the industry."
+        },
+        {
+          "heading": "Global Competition",
+          "body": "Schmidt has expressed concerns about global competition, particularly with China, and the importance of maintaining a competitive edge in key technological sectors."
+        }
+      ]
+    },
+    "net_worth": "$12.90B"
   },
   {
     "id": 108,

@@ -1,6 +1,18 @@
 [
   {
-    "id": 72779,
+    "id": 72887,
+    "name": "Steve Hilton & Spencer Pratt",
+    "slug": "steve-hilton--spencer-pratt",
+    "bio": null,
+    "known_for": null,
+    "last_main_idea": "Investors should closely monitor California's regulatory changes and voter sentiment as indicators of potential market shifts and investment opportunities.",
+    "last_episode_title": "Steve Hilton & Spencer Pratt: Fixing California, Cheaper Gas, Ballot Fraud & CA Republicans",
+    "last_podcast_name": "All-In with Chamath, Jason, Sacks & Friedberg",
+    "last_episode_date": "2026-09-23",
+    "appearance_count": 1
+  },
+  {
+    "id": 72888,
     "name": "Blake Scholl",
     "slug": "blake-scholl",
     "bio": null,
@@ -12,7 +24,7 @@
     "appearance_count": 1
   },
   {
-    "id": 72780,
+    "id": 72889,
     "name": "John Platt",
     "slug": "john-platt",
     "bio": null,
@@ -24,7 +36,7 @@
     "appearance_count": 1
   },
   {
-    "id": 72781,
+    "id": 72890,
     "name": "Diogo Almeida",
     "slug": "diogo-almeida",
     "bio": null,
@@ -36,7 +48,7 @@
     "appearance_count": 1
   },
   {
-    "id": 72782,
+    "id": 72891,
     "name": "Naveen Rao",
     "slug": "naveen-rao",
     "bio": null,
@@ -48,7 +60,7 @@
     "appearance_count": 1
   },
   {
-    "id": 72783,
+    "id": 72892,
     "name": "Outlook on 5 Key Commodities",
     "slug": "outlook-on-5-key-commodities",
     "bio": null,
@@ -60,7 +72,7 @@
     "appearance_count": 1
   },
   {
-    "id": 72784,
+    "id": 72893,
     "name": "Bill Gurley",
     "slug": "bill-gurley",
     "bio": null,
@@ -72,7 +84,7 @@
     "appearance_count": 1
   },
   {
-    "id": 72785,
+    "id": 72894,
     "name": "Nick Shirley",
     "slug": "nick-shirley",
     "bio": null,
@@ -84,7 +96,7 @@
     "appearance_count": 1
   },
   {
-    "id": 72786,
+    "id": 72895,
     "name": "Jared Isaacman",
     "slug": "jared-isaacman",
     "bio": null,
@@ -96,7 +108,7 @@
     "appearance_count": 1
   },
   {
-    "id": 72787,
+    "id": 72896,
     "name": "Brad Gerstner",
     "slug": "brad-gerstner",
     "bio": null,
@@ -108,7 +120,7 @@
     "appearance_count": 1
   },
   {
-    "id": 72788,
+    "id": 72897,
     "name": "Meta's Dina Powell McCormick",
     "slug": "metas-dina-powell-mccormick",
     "bio": null,
@@ -120,7 +132,7 @@
     "appearance_count": 1
   },
   {
-    "id": 72789,
+    "id": 72898,
     "name": "Underwriting Superintelligence",
     "slug": "underwriting-superintelligence",
     "bio": null,
@@ -132,7 +144,7 @@
     "appearance_count": 1
   },
   {
-    "id": 72790,
+    "id": 72899,
     "name": "Hawks Take Flight",
     "slug": "hawks-take-flight",
     "bio": null,
@@ -144,7 +156,7 @@
     "appearance_count": 1
   },
   {
-    "id": 72791,
+    "id": 72900,
     "name": "Martine Rothblatt",
     "slug": "martine-rothblatt",
     "bio": null,
@@ -156,7 +168,7 @@
     "appearance_count": 1
   },
   {
-    "id": 72792,
+    "id": 72901,
     "name": "Microsoft CEO Satya Nadella",
     "slug": "microsoft-ceo-satya-nadella",
     "bio": null,
@@ -168,7 +180,7 @@
     "appearance_count": 1
   },
   {
-    "id": 72793,
+    "id": 72902,
     "name": "Jensen Huang",
     "slug": "jensen-huang",
     "bio": null,
@@ -180,7 +192,7 @@
     "appearance_count": 1
   },
   {
-    "id": 72794,
+    "id": 72903,
     "name": "Ask the Mates anything",
     "slug": "ask-the-mates-anything",
     "bio": null,
@@ -192,7 +204,7 @@
     "appearance_count": 1
   },
   {
-    "id": 72795,
+    "id": 72904,
     "name": "Matt Barry",
     "slug": "matt-barry",
     "bio": null,
@@ -204,7 +216,7 @@
     "appearance_count": 1
   },
   {
-    "id": 72796,
+    "id": 72905,
     "name": "Who Grades the AI Models?",
     "slug": "who-grades-the-ai-models",
     "bio": null,
@@ -216,7 +228,7 @@
     "appearance_count": 1
   },
   {
-    "id": 72797,
+    "id": 72906,
     "name": "Your AI Doctor Is Coming",
     "slug": "your-ai-doctor-is-coming",
     "bio": null,
@@ -228,7 +240,7 @@
     "appearance_count": 1
   },
   {
-    "id": 72798,
+    "id": 72907,
     "name": "Fei Fei Li",
     "slug": "fei-fei-li",
     "bio": null,
@@ -240,7 +252,7 @@
     "appearance_count": 1
   },
   {
-    "id": 72799,
+    "id": 72908,
     "name": "Financial strategist Jared Dillian",
     "slug": "financial-strategist-jared-dillian",
     "bio": null,
@@ -252,7 +264,7 @@
     "appearance_count": 1
   },
   {
-    "id": 72800,
+    "id": 72909,
     "name": "Daniel Litt",
     "slug": "daniel-litt",
     "bio": null,
@@ -264,7 +276,7 @@
     "appearance_count": 1
   },
   {
-    "id": 72801,
+    "id": 72910,
     "name": "Gavin Baker",
     "slug": "gavin-baker",
     "bio": null,
@@ -276,7 +288,7 @@
     "appearance_count": 1
   },
   {
-    "id": 72802,
+    "id": 72911,
     "name": "Sam Altman",
     "slug": "sam-altman",
     "bio": null,
@@ -288,7 +300,7 @@
     "appearance_count": 1
   },
   {
-    "id": 72803,
+    "id": 72912,
     "name": "Time to Reduce Equity Risk",
     "slug": "time-to-reduce-equity-risk",
     "bio": null,
@@ -300,7 +312,7 @@
     "appearance_count": 1
   },
   {
-    "id": 72804,
+    "id": 72913,
     "name": "Eric Weinstein",
     "slug": "eric-weinstein",
     "bio": null,
@@ -312,7 +324,7 @@
     "appearance_count": 1
   },
   {
-    "id": 72805,
+    "id": 72914,
     "name": "Michael Kratsios",
     "slug": "michael-kratsios",
     "bio": null,
@@ -324,7 +336,7 @@
     "appearance_count": 1
   },
   {
-    "id": 72806,
+    "id": 72915,
     "name": "Emad Mostaque",
     "slug": "emad-mostaque",
     "bio": null,
@@ -336,7 +348,7 @@
     "appearance_count": 3
   },
   {
-    "id": 72807,
+    "id": 72916,
     "name": "Angela Strange and Gabriel Vasquez",
     "slug": "angela-strange-and-gabriel-vasquez",
     "bio": null,
@@ -344,18 +356,6 @@
     "last_main_idea": "Investing in borderless founders offers access to a global talent pool, customer base, and distribution networks, which can lead to the creation of successful global companies.",
     "last_episode_title": "How Global Networks Are Reshaping Startup Success",
     "last_podcast_name": "The a16z Show",
-    "last_episode_date": "2026-08-20",
-    "appearance_count": 1
-  },
-  {
-    "id": 72808,
-    "name": "Why Bessent Blinked",
-    "slug": "why-bessent-blinked",
-    "bio": null,
-    "known_for": null,
-    "last_main_idea": "The rise in AI capex and government spending is leading to increased borrowing costs, which will have profound effects on bond markets and inflation, creating both risks and opportunities for investors.",
-    "last_episode_title": "Why Bessent Blinked | Luke Gromen on Doubling of Treasury Buyback Plan to Tame Long-End Yields",
-    "last_podcast_name": "Monetary Matters with Jack Farley",
     "last_episode_date": "2026-08-20",
     "appearance_count": 1
   }
