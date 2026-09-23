@@ -64,8 +64,10 @@
     /* Status-specific stat boxes */
     .stat-box.watch .stat-number { color: #fbbf24; }
     .stat-box.hold .stat-number { color: #3b82f6; }
-    .stat-box.pounce .stat-number { color: #10b981; }
-    .stat-box.relegate .stat-number { color: #6b7280; }
+    .stat-box.pounce .stat-number,
+    .stat-box.act .stat-number { color: #10b981; }
+    .stat-box.relegate .stat-number,
+    .stat-box.drop .stat-number { color: #6b7280; }
 
     /* Trap cards grid */
     .trap-grid {
@@ -147,12 +149,14 @@
       border: 1px solid rgba(59, 130, 246, 0.4);
       color: #3b82f6;
     }
-    .status-badge.pounce {
+    .status-badge.pounce,
+    .status-badge.act {
       background: rgba(16, 185, 129, 0.15);
       border: 1px solid rgba(16, 185, 129, 0.4);
       color: #10b981;
     }
-    .status-badge.relegate {
+    .status-badge.relegate,
+    .status-badge.drop {
       background: rgba(107, 114, 128, 0.15);
       border: 1px solid rgba(107, 114, 128, 0.4);
       color: #6b7280;
@@ -264,16 +268,54 @@
       color: #9ca3af;
     }
 
-    /* Relegate-if section */
-    .relegate-section {
+    /* Drop-if / relegate-if section (legacy class alias kept) */
+    .relegate-section,
+    .drop-section {
       background: rgba(239, 68, 68, 0.06);
       border: 1px solid rgba(239, 68, 68, 0.2);
       border-radius: 8px;
       padding: 0.75rem 1rem;
       margin-bottom: 1rem;
     }
-    .relegate-section .trap-section-label {
+    .relegate-section .trap-section-label,
+    .drop-section .trap-section-label {
       color: #f87171;
+    }
+    .outlook-badge {
+      font-size: 0.65rem;
+      font-weight: 600;
+      padding: 0.25rem 0.55rem;
+      border-radius: 6px;
+      white-space: nowrap;
+      letter-spacing: 0.03em;
+    }
+    .outlook-badge.positive {
+      background: rgba(16, 185, 129, 0.12);
+      border: 1px solid rgba(16, 185, 129, 0.35);
+      color: #34d399;
+    }
+    .outlook-badge.negative {
+      background: rgba(239, 68, 68, 0.12);
+      border: 1px solid rgba(239, 68, 68, 0.35);
+      color: #f87171;
+    }
+    .trap-header-meta {
+      display: flex;
+      flex-direction: column;
+      align-items: flex-end;
+      gap: 0.35rem;
+      flex-shrink: 0;
+    }
+    .trap-action-row {
+      display: flex;
+      flex-wrap: wrap;
+      align-items: center;
+      gap: 0.5rem;
+      margin-bottom: 0.75rem;
+    }
+    .trap-expression {
+      font-size: 0.8rem;
+      color: #a8b2d1;
     }
 
     /* Sources */
@@ -372,7 +414,7 @@
     <a href="index.html" class="back-link">← Back to Dashboard</a>
     
     <h1>Trap Map</h1>
-    <p class="subtitle">Research theses under falsifiable tests — who gets paid first, what print decides, when to relegate.</p>
+    <p class="subtitle">Research theses under falsifiable tests — who gets paid first, what print decides, when to Drop.</p>
     <p class="page-description">
       Hunt list of checkable research objects. Not tips, scores, holdings, or position size. Each card tracks a thesis 
       with a stranger-checkable decisive test and named prints that move the map.
@@ -382,9 +424,9 @@
     <div class="status-legend" style="background: rgba(255,255,255,0.02); border: 1px solid rgba(255,255,255,0.08); border-radius: 8px; padding: 0.75rem 1rem; margin-bottom: 1.5rem; font-size: 0.8rem;">
       <div style="display: flex; flex-wrap: wrap; gap: 1rem; color: #8892b0;">
         <span><strong style="color: #fbbf24;">WATCH</strong> = live thesis, next named print is the gate</span>
-        <span><strong style="color: #3b82f6;">HOLD</strong> = goalposts set (thesis language, not a portfolio hold)</span>
-        <span><strong style="color: #10b981;">POUNCE</strong> = print flipped the map for investigation (not a buy call)</span>
-        <span><strong style="color: #6b7280;">RELEGATE</strong> = demoted on the map</span>
+        <span><strong style="color: #10b981;">ACT</strong> = print flipped the map for investigation (not a buy call)</span>
+        <span><strong style="color: #6b7280;">DROP</strong> = demoted on the map</span>
+        <span><strong style="color: #3b82f6;">HOLD</strong> = legacy goalposts (thesis language only; kept where ARKG still uses it)</span>
       </div>
     </div>
 
@@ -392,8 +434,8 @@
       <div class="stat-box"><div class="stat-number" id="totalCount">0</div><div class="stat-label">Total Traps</div></div>
       <div class="stat-box watch"><div class="stat-number" id="watchCount">0</div><div class="stat-label">Watch</div></div>
       <div class="stat-box hold"><div class="stat-number" id="holdCount">0</div><div class="stat-label">Hold</div></div>
-      <div class="stat-box pounce"><div class="stat-number" id="pounceCount">0</div><div class="stat-label">Pounce</div></div>
-      <div class="stat-box relegate"><div class="stat-number" id="relegateCount">0</div><div class="stat-label">Relegate</div></div>
+      <div class="stat-box act"><div class="stat-number" id="actCount">0</div><div class="stat-label">Act</div></div>
+      <div class="stat-box drop"><div class="stat-number" id="dropCount">0</div><div class="stat-label">Drop</div></div>
     </div>
 
     <div class="trap-grid" id="trapGrid">
@@ -447,14 +489,34 @@
       const s = (status || '').toUpperCase();
       if (s === 'WATCH') return 'watch';
       if (s === 'HOLD') return 'hold';
-      if (s === 'POUNCE') return 'pounce';
-      if (s === 'RELEGATE') return 'relegate';
+      if (s === 'ACT' || s === 'POUNCE') return 'act';
+      if (s === 'DROP' || s === 'RELEGATE') return 'drop';
       return 'watch';
+    }
+
+    function getStatusLabel(status) {
+      const s = (status || 'WATCH').toUpperCase();
+      if (s === 'POUNCE') return 'ACT';
+      if (s === 'RELEGATE') return 'DROP';
+      return s;
+    }
+
+    function formatOutlook(outlook) {
+      if (!outlook) return '';
+      const raw = String(outlook).trim();
+      const lower = raw.toLowerCase();
+      if (lower === 'positive' || lower === 'outlook positive') return { label: 'Outlook Positive', cls: 'positive' };
+      if (lower === 'negative' || lower === 'outlook negative') return { label: 'Outlook Negative', cls: 'negative' };
+      // Already phrased or other direction string
+      if (/^outlook\s+/i.test(raw)) return { label: raw, cls: /neg/i.test(raw) ? 'negative' : (/pos/i.test(raw) ? 'positive' : '') };
+      return { label: 'Outlook ' + raw.charAt(0).toUpperCase() + raw.slice(1), cls: /neg/i.test(raw) ? 'negative' : (/pos/i.test(raw) ? 'positive' : '') };
     }
 
     function buildTrapCard(trap) {
       const statusClass = getStatusClass(trap.validation_status);
-      const statusLabel = (trap.validation_status || 'WATCH').toUpperCase();
+      const statusLabel = getStatusLabel(trap.validation_status);
+      const outlookInfo = formatOutlook(trap.outlook);
+      const dropIfText = trap.drop_if || trap.relegate_if || '';
 
       let nextDatapointHtml = '';
       if (trap.next_datapoint && trap.next_datapoint.label) {
@@ -495,8 +557,17 @@
         <div class="trap-card" id="${escapeHtml(trap.id)}" data-status="${statusClass}">
           <div class="trap-header">
             <div class="trap-title">${escapeHtml(trap.title)}</div>
-            <span class="status-badge ${statusClass}">${statusLabel}</span>
+            <div class="trap-header-meta">
+              <span class="status-badge ${statusClass}">${statusLabel}</span>
+              ${outlookInfo ? `<span class="outlook-badge ${outlookInfo.cls}">${escapeHtml(outlookInfo.label)}</span>` : ''}
+            </div>
           </div>
+
+          ${(trap.expression) ? `
+            <div class="trap-action-row">
+              <span class="trap-expression">${escapeHtml(trap.expression)}</span>
+            </div>
+          ` : ''}
 
           ${trap.status_note ? `
             <div style="font-size: 0.75rem; color: #3b82f6; font-style: italic; margin-bottom: 0.75rem; padding: 0.5rem 0.75rem; background: rgba(59, 130, 246, 0.08); border-radius: 6px;">
@@ -531,10 +602,10 @@
 
           ${nextDatapointHtml}
 
-          ${trap.relegate_if ? `
-            <div class="relegate-section">
-              <div class="trap-section-label">Relegate If</div>
-              <div class="trap-section-content">${escapeHtml(trap.relegate_if)}</div>
+          ${dropIfText ? `
+            <div class="drop-section relegate-section">
+              <div class="trap-section-label">Drop If</div>
+              <div class="trap-section-content">${escapeHtml(dropIfText)}</div>
             </div>
           ` : ''}
 
@@ -546,20 +617,20 @@
     }
 
     function updateStats(traps) {
-      const counts = { total: 0, watch: 0, hold: 0, pounce: 0, relegate: 0 };
+      const counts = { total: 0, watch: 0, hold: 0, act: 0, drop: 0 };
       traps.forEach(trap => {
         counts.total++;
         const s = (trap.validation_status || 'WATCH').toUpperCase();
         if (s === 'WATCH') counts.watch++;
         else if (s === 'HOLD') counts.hold++;
-        else if (s === 'POUNCE') counts.pounce++;
-        else if (s === 'RELEGATE') counts.relegate++;
+        else if (s === 'ACT' || s === 'POUNCE') counts.act++;
+        else if (s === 'DROP' || s === 'RELEGATE') counts.drop++;
       });
       document.getElementById('totalCount').textContent = counts.total;
       document.getElementById('watchCount').textContent = counts.watch;
       document.getElementById('holdCount').textContent = counts.hold;
-      document.getElementById('pounceCount').textContent = counts.pounce;
-      document.getElementById('relegateCount').textContent = counts.relegate;
+      document.getElementById('actCount').textContent = counts.act;
+      document.getElementById('dropCount').textContent = counts.drop;
     }
 
     async function loadTrapMap() {
