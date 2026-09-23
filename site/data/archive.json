@@ -18,6 +18,25 @@
       "podcast_episode_id": 511
     },
     {
+      "id": 527,
+      "title": "Amjad Masad on Rethinking College for the AI Era",
+      "source_type": "podcast",
+      "source_name": "The a16z Show",
+      "source_date": "2026-09-23",
+      "summary": "The podcast emphasizes the need for a transformative approach to education that prioritizes curiosity-driven learning and project-based methodologies. It highlights the potential of young innovators to challenge societal norms and drive change, advocating for educational frameworks that foster trust and collaboration. Additionally, the role of AI in reshaping organizational structures is discussed, suggesting a future where companies operate with greater autonomy and efficiency.",
+      "key_takeaway": "There is a significant investment opportunity in educational technologies and platforms that encourage innovative learning approaches and integrate AI into organizational operations.",
+      "tickers_mentioned": [
+        "NVDA"
+      ],
+      "sentiment": "bullish",
+      "display_on_main": 0,
+      "display_order": 0,
+      "added_date": "2026-09-23",
+      "archived_date": null,
+      "archived_reason": null,
+      "podcast_episode_id": 512
+    },
+    {
       "id": 522,
       "title": "Blake Scholl: Why Plane Speed Stalled, Supersonic Commercial Flight, & Revolutionizing the Engine",
       "source_type": "podcast",
@@ -10112,6 +10131,42 @@
   "definitions": [],
   "overton": [
     {
+      "id": 286,
+      "term": "Project-Based Learning",
+      "description": "An educational approach where students learn by engaging in real-world projects rather than traditional lectures.",
+      "first_detected_date": "2026-09-22",
+      "last_mentioned_date": "2026-09-23",
+      "mention_count": 2,
+      "source_podcasts": null,
+      "status": "active",
+      "investment_implications": "Investing in platforms that facilitate this learning method can enhance student employability and innovation.",
+      "display_on_main": 0,
+      "archived_date": null,
+      "archived_reason": null,
+      "first_detected_episode_id": 508,
+      "first_detected_speaker": "Ben Horowitz",
+      "last_mentioned_episode_id": 512,
+      "last_mentioned_speaker": "Amjag Masad"
+    },
+    {
+      "id": 287,
+      "term": "Curiosity-Driven Learning",
+      "description": "An educational philosophy that encourages students to explore their interests and learn through inquiry rather than a fixed curriculum.",
+      "first_detected_date": "2026-09-22",
+      "last_mentioned_date": "2026-09-23",
+      "mention_count": 2,
+      "source_podcasts": null,
+      "status": "active",
+      "investment_implications": "Supporting educational startups that embody this philosophy can lead to a new generation of innovative thinkers.",
+      "display_on_main": 0,
+      "archived_date": null,
+      "archived_reason": null,
+      "first_detected_episode_id": 508,
+      "first_detected_speaker": "Ben Horowitz",
+      "last_mentioned_episode_id": 512,
+      "last_mentioned_speaker": "Amjag Masad"
+    },
+    {
       "id": 106,
       "term": "Mission Critical Software",
       "description": "Software indispensable for organizations' day-to-day operations, such as sources of truth, core processes, and security.",
@@ -10386,8 +10441,8 @@
       "term": "Autonomy",
       "description": "The capacity of an AI system to make decisions and operate independently of direct human control or oversight, as evidenced by agents not alerting humans about their unethical actions.",
       "first_detected_date": "2026-07-22",
-      "last_mentioned_date": "2026-09-19",
-      "mention_count": 22,
+      "last_mentioned_date": "2026-09-23",
+      "mention_count": 23,
       "source_podcasts": null,
       "status": "active",
       "investment_implications": "Emphasizes the critical need for ethical AI frameworks, clear oversight mechanisms, and fail-safes to manage systems operating independently of human control, impacting regulatory compliance and public trust.",
@@ -10396,8 +10451,8 @@
       "archived_reason": null,
       "first_detected_episode_id": 362,
       "first_detected_speaker": "Travis Kalanick, Ben Horowitz",
-      "last_mentioned_episode_id": 500,
-      "last_mentioned_speaker": "Peter Diamandis (hosts)"
+      "last_mentioned_episode_id": 512,
+      "last_mentioned_speaker": "Amjag Masad"
     },
     {
       "id": 265,
@@ -12274,20 +12329,20 @@
     {
       "id": 114,
       "term": "AI Agents",
-      "description": "Autonomous AI systems capable of collaborating in large swarms to solve complex problems, exemplified by the use of 10,000 agents to tackle the Navier-Stokes millennium prize problem.",
+      "description": "Autonomous systems that can perform tasks and make decisions within organizations, potentially reducing bureaucratic overhead.",
       "first_detected_date": "2026-02-28",
-      "last_mentioned_date": "2026-09-22",
-      "mention_count": 99,
+      "last_mentioned_date": "2026-09-23",
+      "mention_count": 100,
       "source_podcasts": null,
       "status": "active",
-      "investment_implications": "Agentic swarms represent the next compute demand layer beyond chatbots, driving infrastructure needs and opening enterprise automation markets.",
+      "investment_implications": "Companies leveraging AI agents may achieve greater operational efficiency and innovation.",
       "display_on_main": 0,
       "archived_date": null,
       "archived_reason": null,
       "first_detected_episode_id": 31,
       "first_detected_speaker": null,
-      "last_mentioned_episode_id": 510,
-      "last_mentioned_speaker": "Peter Diamandis"
+      "last_mentioned_episode_id": 512,
+      "last_mentioned_speaker": "Amjag Masad"
     },
     {
       "id": 38,
