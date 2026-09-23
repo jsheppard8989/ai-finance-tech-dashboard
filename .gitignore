@@ -80,6 +80,7 @@ site/data/
 # Exception: curated Overton files (bypasses pipeline)
 !site/data/featured_overton.json
 !site/data/curated_overton.json
+!site/data/overton_demote.json
 !site/data/portfolio.json
 !site/data/curated_sources.json
 !site/data/trap_map_home.json

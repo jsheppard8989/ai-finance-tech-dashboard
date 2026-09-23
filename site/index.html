@@ -2787,8 +2787,26 @@
         console.warn('Could not load curated_overton.json:', e);
       }
 
+      // Durable demote list (Jared 2026-09-22): hide null-source glossary cards from home Overton.
+      let demoteSet = new Set();
+      try {
+        const demoteResp = await fetch('./data/overton_demote.json', { cache: 'no-cache' });
+        if (demoteResp.ok) {
+          const demoteData = await demoteResp.json();
+          (demoteData.demote || []).forEach(function(d) {
+            const t = (d && d.term) ? String(d.term).trim().toLowerCase() : '';
+            if (t) demoteSet.add(t);
+          });
+        }
+      } catch (e) {
+        console.warn('Could not load overton_demote.json:', e);
+      }
+
       // Sort new ideas by novelty score (already sorted in backend, but re-sort for safety)
-      const rows = overton.slice().sort(function(a, b) {
+      const rows = overton.slice().filter(function(o) {
+        const t = (o && o.term) ? String(o.term).trim().toLowerCase() : '';
+        return !t || !demoteSet.has(t);
+      }).sort(function(a, b) {
         var sa = (typeof a.novelty_score === 'number') ? a.novelty_score : (parseFloat(a.overton_score) || 0);
         var sb = (typeof b.novelty_score === 'number') ? b.novelty_score : (parseFloat(b.overton_score) || 0);
         if (sb !== sa) return sb - sa;

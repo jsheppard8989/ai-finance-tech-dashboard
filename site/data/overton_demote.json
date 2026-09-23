@@ -1,0 +1,22 @@
+{
+  "_comment": "Terms hidden from the home Overton pipeline list (Jared yes 2026-09-22). Curated seeds in curated_overton.json still pin above this list. Do not hand-edit data.js — this file is the durable demote switch.",
+  "_updated": "2026-09-22",
+  "demote": [
+    {
+      "term": "Taste",
+      "reason": "Null source_podcasts; first speaker ASR garbage (Ruby J. To Low)"
+    },
+    {
+      "term": "Dyson Swarm",
+      "reason": "Null source_podcasts; glossary filler crowding radar"
+    },
+    {
+      "term": "Hyperscalers",
+      "reason": "Null source_podcasts; glossary filler crowding radar"
+    },
+    {
+      "term": "AI takeover",
+      "reason": "Null source_podcasts; no speakers; speculative glossary filler"
+    }
+  ]
+}
