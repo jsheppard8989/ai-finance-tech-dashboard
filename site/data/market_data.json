@@ -86,7 +86,7 @@
     "_primary_source": "Treasury.gov",
     "_source_url": "https://home.treasury.gov/resource-center/data-chart-center/interest-rates/TextView?type=daily_treasury_yield_curve",
     "_fred_status": "unavailable (optional)",
-    "last_updated": "2026-09-23T12:30:45.916237",
+    "last_updated": "2026-09-23T14:04:16.273218",
     "as_of_date": "2026-09-22",
     "spreads": {
       "2s10s": {
@@ -145,7 +145,7 @@
     "_fetch_url": "https://www.cftc.gov/dea/futures/financial_lf.htm",
     "_api_alternative": "Quandl CFTC dataset (may need key)",
     "_fetch_instructions": "CFTC releases COT every Friday at 3:30pm ET for positions as of prior Tuesday.",
-    "last_updated": "2026-09-23T12:30:46.450367",
+    "last_updated": "2026-09-23T14:04:16.708601",
     "report_date": "2026-09-15",
     "prior_report_date": null,
     "rates_positioning": {
@@ -234,7 +234,7 @@
     "_source_url": "https://gpu-index.semianalysis.com/",
     "_api_url": "https://gpu-index.semianalysis.com/api/public-data",
     "_data_type": "api_index",
-    "last_fetched": "2026-09-23T12:30:29.774659",
+    "last_fetched": "2026-09-23T14:04:00.223344",
     "h100": {
       "daily_date": "Sep 23, 2026",
       "daily_date_iso": "2026-09-23",
