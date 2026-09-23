@@ -1,11 +1,20 @@
 {
   "_comment": "Home page summary of Trap Map. Regenerate from trap_map.json when a trap datapoint is stamped. Script hook: pipeline/regenerate_trap_home.py",
+<<<<<<< Updated upstream
   "_generated_at": "2026-09-23T14:30:45Z",
   "_source": "data/trap_map.json",
   "last_monitored": [
     {
       "id": "trap-1-power-interconnect",
       "short_title": "Power + DC interconnect",
+=======
+  "_generated_at": "2026-09-23T17:31:16Z",
+  "_source": "data/trap_map.json",
+  "last_monitored": [
+    {
+      "id": "iren-ai-cloud-residual",
+      "short_title": "IREN \u2014 AI Cloud landlord vs...",
+>>>>>>> Stashed changes
       "status": "WATCH",
       "updated_at": "2026-09-23"
     },
@@ -19,7 +28,11 @@
       "id": "iren-ai-cloud-residual",
       "short_title": "IREN \u2014 AI Cloud landlord vs...",
       "status": "WATCH",
+<<<<<<< Updated upstream
       "updated_at": "2026-09-23"
+=======
+      "updated_at": "2026-09-14"
+>>>>>>> Stashed changes
     }
   ],
   "upcoming_watches": [
