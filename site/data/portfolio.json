@@ -2,7 +2,7 @@
   "_metadata": {
     "schema_version": 1,
     "note": "Inception shares fixed; daily marks update current_* only.",
-    "last_updated": "2026-09-23T12:30:29.179765"
+    "last_updated": "2026-09-23T14:03:59.696086"
   },
   "baskets": [
     {
@@ -13,10 +13,10 @@
       "as_of_label": "Sep 18, 2026 ~9:30 AM CT",
       "notional_each_usd": 1000,
       "basket_notional_usd": 5000,
-      "basket_current_value": 5002.75,
-      "basket_change_pct": 0.06,
+      "basket_current_value": 4988.13,
+      "basket_change_pct": -0.24,
       "index_start": 100,
-      "basket_index_value": 100.06,
+      "basket_index_value": 99.76,
       "names": [
         {
           "ticker": "HIMS",
@@ -25,9 +25,9 @@
           "inception_price": 28.09,
           "shares": 35.5999,
           "notional": 1000,
-          "current_price": 28.97,
-          "current_value": 1031.33,
-          "change_pct": 3.13
+          "current_price": 28.91,
+          "current_value": 1029.19,
+          "change_pct": 2.92
         },
         {
           "ticker": "GDRX",
@@ -47,9 +47,9 @@
           "inception_price": 77.97,
           "shares": 12.8254,
           "notional": 1000,
-          "current_price": 76.5,
-          "current_value": 981.14,
-          "change_pct": -1.89
+          "current_price": 76.17,
+          "current_value": 976.91,
+          "change_pct": -2.31
         },
         {
           "ticker": "GH",
@@ -58,9 +58,9 @@
           "inception_price": 183.1,
           "shares": 5.4615,
           "notional": 1000,
-          "current_price": 176.96,
-          "current_value": 966.47,
-          "change_pct": -3.35
+          "current_price": 176.47,
+          "current_value": 963.79,
+          "change_pct": -3.62
         },
         {
           "ticker": "ABT",
@@ -69,13 +69,13 @@
           "inception_price": 102.2,
           "shares": 9.7847,
           "notional": 1000,
-          "current_price": 104.02,
-          "current_value": 1017.8,
-          "change_pct": 1.78
+          "current_price": 103.45,
+          "current_value": 1012.23,
+          "change_pct": 1.22
         }
       ],
       "disclaimer": "Research sleeve / scorecard, not advice. $1,000 equal-weight illustration only.",
-      "last_updated": "2026-09-23T12:30:29.179749"
+      "last_updated": "2026-09-23T14:03:59.696073"
     }
   ]
 }
