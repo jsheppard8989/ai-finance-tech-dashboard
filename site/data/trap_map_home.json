@@ -4,6 +4,12 @@
   "_source": "data/trap_map.json",
   "last_monitored": [
     {
+      "id": "iren-ai-cloud-residual",
+      "short_title": "IREN — AI Cloud landlord vs...",
+      "status": "WATCH",
+      "updated_at": "2026-09-22"
+    },
+    {
       "id": "buyback-confession-captive-duration",
       "short_title": "Buyback / captive duration",
       "status": "WATCH",
@@ -25,12 +31,12 @@
   "upcoming_watches": [
     {
       "trap_id": "arkg-hold-goalposts",
-      "date_label": "TWST ~Nov FY26 report; TEM\u2013PSNL late Q4'26\u2013early'27; NTLA acceptance expected 2H 2026",
-      "what": "TWST Q4 FY26 adj. EBITDA print / TEM\u2013PSNL close update / NTLA BLA acceptance window"
+      "date_label": "TWST ~Nov FY26 report; TEM–PSNL late Q4'26–early'27; NTLA acceptance expected 2H 2026",
+      "what": "TWST Q4 FY26 adj. EBITDA print / TEM–PSNL close update / NTLA BLA acceptance window"
     },
     {
       "trap_id": "trap-1-power-interconnect",
-      "date_label": "Sep 16 2026 CLLSCO workshop; Nov 2026 intended Retail BTMG filing; \u00a7206 on/before 16 Nov 2026",
+      "date_label": "Sep 16 2026 CLLSCO workshop; Nov 2026 intended Retail BTMG filing; §206 on/before 16 Nov 2026",
       "what": "Sep 16 CLLSCO posted draft OATT 34.2 Retail BTMG redline (50 MW site cap; transition to Dec 18 2028)"
     },
     {
