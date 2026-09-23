@@ -4,57 +4,80 @@
   "_field_definitions": {
     "id": "Stable slug identifier for the trap",
     "title": "Short headline for the card",
-    "validation_status": "WATCH = live thesis, next named print is the gate; HOLD = goalposts set (thesis language, not a portfolio hold); POUNCE = print flipped the map for investigation (not a buy call); RELEGATE = demoted on the map",
+    "validation_status": "WATCH = live thesis, next named print is the gate; ACT = print flipped the map for investigation (not a buy call); DROP = demoted on the map; HOLD = legacy goalposts (thesis language, not a portfolio hold \u2014 kept where ARKG still uses it)",
     "who_collects_rent": "Entity/mechanism that captures economic rent first",
     "leftover": "Who gets the residual after rent-collectors clear",
     "decisive_test": "Single stranger-checkable test that validates or falsifies the thesis",
     "next_datapoint": "Optional: { label, expected_date } for tracking upcoming prints",
-    "relegate_if": "Conditions under which the thesis should be relegated",
+    "relegate_if": "Legacy mirror of drop_if (kept for backward compatibility)",
     "sources": "Array of primary source labels (URLs added when available)",
-    "updated_at": "ISO date of last update"
+    "updated_at": "ISO date of last update",
+    "drop_if": "Conditions under which the thesis should be Dropped (public field)",
+    "outlook": "Optional direction near status: Positive or Negative"
   },
   "public_rules": {
-    "status_vocab": ["WATCH", "HOLD", "POUNCE", "RELEGATE"],
-    "forbidden": ["kill", "kill-shot", "holdings", "position size", "powder", "IRA", "buy", "sell", "Vote", "Debait tip"],
+    "status_vocab": [
+      "WATCH",
+      "ACT",
+      "DROP"
+    ],
+    "forbidden": [
+      "kill",
+      "kill-shot",
+      "holdings",
+      "position size",
+      "powder",
+      "IRA",
+      "buy",
+      "sell",
+      "Vote",
+      "Debait tip"
+    ],
     "status_legend": {
-      "WATCH": "Live thesis — next named print is the gate",
-      "HOLD": "Goalposts set (thesis language, not a portfolio hold)",
-      "POUNCE": "Print flipped the map for investigation (not a buy call)",
-      "RELEGATE": "Demoted on the map"
+      "WATCH": "Live thesis \u2014 next named print is the gate",
+      "ACT": "Print flipped the map for investigation (not a buy call)",
+      "DROP": "Demoted on the map",
+      "HOLD": "Legacy goalposts (thesis language, not a portfolio hold)"
+    },
+    "legacy_status_vocab": {
+      "HOLD": "Legacy goalposts \u2014 still used by ARKG card; thesis language only, not a portfolio hold",
+      "POUNCE": "Superseded by ACT",
+      "RELEGATE": "Superseded by DROP"
     }
   },
-  "as_of": "2026-09-20",
+  "as_of": "2026-09-22",
   "traps": [
     {
       "id": "trap-1-power-interconnect",
       "title": "Power + interconnect into data centers",
       "validation_status": "WATCH",
-      "status_note": "Draft only — PJM draft Tariff language subject to change; Draft Retail BTMG language for November 2026 filing. Exact: 50 MW single electrical site cap beginning Dec 18 2025; transition thru Dec 18 2028 for Retail BTMG used as of Dec 18 2025. Soften/miss vs this draft = early-narrow; filed TEXT = POUNCE candidate for JG. STEO WEAKEN remains in sources history.",
-      "who_collects_rent": "Regulated T&D / FERC transmission owners / mandatory CIAC or DCT collateral / firm capacity or RBP offtake — not uncured queue MW or GPU narrative.",
+      "status_note": "Draft only \u2014 PJM draft Tariff language subject to change; Draft Retail BTMG language for November 2026 filing. Exact: 50 MW single electrical site cap beginning Dec 18 2025; transition thru Dec 18 2028 for Retail BTMG used as of Dec 18 2025. Soften/miss vs this draft = early-narrow; filed TEXT = ACT candidate for JG. STEO WEAKEN remains in sources history.",
+      "who_collects_rent": "Regulated T&D / FERC transmission owners / mandatory CIAC or DCT collateral / firm capacity or RBP offtake \u2014 not uncured queue MW or GPU narrative.",
       "leftover": "Hyperscaler or colo equity priced as if watts and interconnect are free; miners without firm PPA or curtailable tariff edge.",
-      "decisive_test": "Next named print that re-prices who clears the gate: Dominion CIAC tariff text (PUR-2026-00131, ~late Oct 2026), peer DCT asks→binding MW, new PJM IMM/BRA DC-load revenue attribution, or FERC §206 large-load tariff text (≤16 Nov 2026).",
+      "decisive_test": "Next named print that re-prices who clears the gate: Dominion CIAC tariff text (PUR-2026-00131, ~late Oct 2026), peer DCT asks\u2192binding MW, new PJM IMM/BRA DC-load revenue attribution, or FERC \u00a7206 large-load tariff text (\u226416 Nov 2026).",
       "next_datapoint": {
-        "label": "Sep 16 CLLSCO posted draft OATT 34.2 Retail BTMG redline (50 MW site cap; transition to Dec 18 2028) for Nov 2026 filing — workshop draft only, not filed §205. Next check: live Sep 16 workshop record / phrase delta vs this draft; Nov filing clock ≤16 Nov 2026.",
-        "expected_date": "Sep 16 2026 CLLSCO workshop; Nov 2026 intended Retail BTMG filing; §206 on/before 16 Nov 2026"
+        "label": "Sep 16 CLLSCO posted draft OATT 34.2 Retail BTMG redline (50 MW site cap; transition to Dec 18 2028) for Nov 2026 filing \u2014 workshop draft only, not filed \u00a7205. Next check: live Sep 16 workshop record / phrase delta vs this draft; Nov filing clock \u226416 Nov 2026.",
+        "expected_date": "Sep 16 2026 CLLSCO workshop; Nov 2026 intended Retail BTMG filing; \u00a7206 on/before 16 Nov 2026"
       },
       "relegate_if": "Sustained PJM BRA collapse without load-forecast cuts or firm-capacity flood; Batch Zero / DCT / CIAC watered so speculative queue MW energize without collateral; transformer/GSU lead times mean-revert under ~12 months with no price spike.",
       "sources": [
-        "PJM CLLSCO Sep 16 2026 draft OATT 34.2 Retail BTMG redline (50 MW site cap; transition to Dec 18 2028) — https://www.pjm.com/-/media/DotCom/committees-groups/workshops/cllsco/2026/20260916/20260916-item-02---oatt-342-revisions---redline.pdf",
-        "PJM CLLSCO Sep 16 2026 workshop agenda — https://www.pjm.com/-/media/DotCom/committees-groups/workshops/cllsco/2026/20260916/20260916-agenda.pdf",
-        "PJM CLLSCO Feb 10 2026 prior BTMG tariff baseline — https://www.pjm.com/-/media/DotCom/committees-groups/workshops/cllsco/2026/20260210/20260210-item-01---2-btmg-tariff-sections---redline.pdf",
-        "PJM CLLSCO workshop page — https://www.pjm.com/committees-and-groups/workshops/cllsco",
-        "Monitoring Analytics 2025 SOM Vol.1 (filed/posted 3.12.2026) — existing+forecast DC load raised PJM BRA revenues 2025/26–2027/28 by combined $23,100,955,341",
-        "EIA STEO Aug 2026 (completed Aug 6 / Aug 11 print) — TX 2027 load growth cut 14%→6% after Aug 3 TX DC pause; Tables 7a/7b",
-        "EIA Sep STEO 2026-09-09 — WSC 2027 sales 829→790 (−4.7%); WSC commercial 286.8→263.2; U.S. commercial 1609→1584 (sensor WEAKEN; WATCH unchanged)",
+        "PJM CLLSCO Sep 16 2026 draft OATT 34.2 Retail BTMG redline (50 MW site cap; transition to Dec 18 2028) \u2014 https://www.pjm.com/-/media/DotCom/committees-groups/workshops/cllsco/2026/20260916/20260916-item-02---oatt-342-revisions---redline.pdf",
+        "PJM CLLSCO Sep 16 2026 workshop agenda \u2014 https://www.pjm.com/-/media/DotCom/committees-groups/workshops/cllsco/2026/20260916/20260916-agenda.pdf",
+        "PJM CLLSCO Feb 10 2026 prior BTMG tariff baseline \u2014 https://www.pjm.com/-/media/DotCom/committees-groups/workshops/cllsco/2026/20260210/20260210-item-01---2-btmg-tariff-sections---redline.pdf",
+        "PJM CLLSCO workshop page \u2014 https://www.pjm.com/committees-and-groups/workshops/cllsco",
+        "Monitoring Analytics 2025 SOM Vol.1 (filed/posted 3.12.2026) \u2014 existing+forecast DC load raised PJM BRA revenues 2025/26\u20132027/28 by combined $23,100,955,341",
+        "EIA STEO Aug 2026 (completed Aug 6 / Aug 11 print) \u2014 TX 2027 load growth cut 14%\u21926% after Aug 3 TX DC pause; Tables 7a/7b",
+        "EIA Sep STEO 2026-09-09 \u2014 WSC 2027 sales 829\u2192790 (\u22124.7%); WSC commercial 286.8\u2192263.2; U.S. commercial 1609\u21921584 (sensor WEAKEN; WATCH unchanged)",
         "VA SCC PUR-2026-00056 / PUR-2026-00131 (Dominion CIAC / DCT track)",
-        "FERC EL26-67 et al.; ER26-3380 (PJM large-load / §206 track, order sought by 29 Sep 2026)",
-        "ERCOT Batch Zero / PUCT materials — last named Batch Zero/firm ESA/IA print M-A080326-04 (3 Sep 2026) as of 2026-09-08 watch"
+        "FERC EL26-67 et al.; ER26-3380 (PJM large-load / \u00a7206 track, order sought by 29 Sep 2026)",
+        "ERCOT Batch Zero / PUCT materials \u2014 last named Batch Zero/firm ESA/IA print M-A080326-04 (3 Sep 2026) as of 2026-09-08 watch"
       ],
-      "updated_at": "2026-09-14"
+      "updated_at": "2026-09-14",
+      "drop_if": "Sustained PJM BRA collapse without load-forecast cuts or firm-capacity flood; Batch Zero / DCT / CIAC watered so speculative queue MW energize without collateral; transformer/GSU lead times mean-revert under ~12 months with no price spike."
     },
     {
       "id": "asts-secondary-watch",
-      "title": "AST SpaceMobile — path-to-profit vs CapEx identity",
+      "title": "AST SpaceMobile \u2014 path-to-profit vs CapEx identity",
       "validation_status": "WATCH",
       "who_collects_rent": "Gateway / government milestone revenue and the CapEx + convert stack that funds constellation build.",
       "leftover": "Equity priced as if commercial direct-to-device service is already clearing CapEx multiples.",
@@ -63,39 +86,41 @@
         "label": "Next intervening 8-K / IR launch or schedule print; then Q1 2027 10-Q constellation disclosure vs Jul 15 2026 8-K ~45 BlueBirds early 2027",
         "expected_date": "Ongoing IR/8-K; decisive window = Q1 2027 10-Q filing"
       },
-      "relegate_if": "Q1 2027 10-Q does not disclose ~45 BlueBirds in orbit against the Jul 15 2026 8-K target — or a new 8-K officially slips the constellation schedule without a replacement checkable date.",
+      "relegate_if": "Q1 2027 10-Q does not disclose ~45 BlueBirds in orbit against the Jul 15 2026 8-K target \u2014 or a new 8-K officially slips the constellation schedule without a replacement checkable date.",
       "sources": [
         "ASTS 8-K 2026-07-15 (accession 0001493152-26-033365)",
         "ASTS 10-Q / Ex. 99.1 filed 2026-08-10"
       ],
-      "updated_at": "2026-09-09"
+      "updated_at": "2026-09-09",
+      "drop_if": "Q1 2027 10-Q does not disclose ~45 BlueBirds in orbit against the Jul 15 2026 8-K target \u2014 or a new 8-K officially slips the constellation schedule without a replacement checkable date."
     },
     {
       "id": "arkg-hold-goalposts",
-      "title": "ARK Genomic Revolution — theme basket vs first-money prints",
+      "title": "ARK Genomic Revolution \u2014 theme basket vs first-money prints",
       "validation_status": "HOLD",
       "status_note": "HOLD = thesis goalposts set, not a portfolio hold. This card tracks validation criteria for the genomic-innovation theme, not a position.",
       "who_collects_rent": "Platform tools (ILMN/TXG/TWST), reimbursed diagnostics (NTRA/GH/TEM), therapeutic cash (LLY / Vertex-led CASGEVY; CRSP as residual partner).",
       "leftover": "Active mid/small genomic ETF sleeve after platform/dx/therapy cash + fee drag + clinical optionality overlap.",
-      "decisive_test": "≥2 goalpost prints decide thesis upgrade vs relegate pressure — never a tip: TWST Q4 adj. EBITDA path; TEM–PSNL close track; NTRA/GH guides; gene-edit path (CASGEVY uptake or NTLA BLA acceptance); opposite cluster for relegate pressure.",
+      "decisive_test": "\u22652 goalpost prints decide thesis upgrade vs Drop pressure \u2014 never a tip: TWST Q4 adj. EBITDA path; TEM\u2013PSNL close track; NTRA/GH guides; gene-edit path (CASGEVY uptake or NTLA BLA acceptance); opposite cluster for Drop pressure.",
       "next_datapoint": {
-        "label": "TWST Q4 FY26 adj. EBITDA print / TEM–PSNL close update / NTLA BLA acceptance window",
-        "expected_date": "TWST ~Nov FY26 report; TEM–PSNL late Q4'26–early'27; NTLA acceptance expected 2H 2026"
+        "label": "TWST Q4 FY26 adj. EBITDA print / TEM\u2013PSNL close update / NTLA BLA acceptance window",
+        "expected_date": "TWST ~Nov FY26 report; TEM\u2013PSNL late Q4'26\u2013early'27; NTLA acceptance expected 2H 2026"
       },
-      "relegate_if": "≥2 of: TWST ops miss on Q4 adj. EBITDA; TEM–PSNL deal break; TXG/ILMN guide cuts while top weights; dilution cascade across clinical sleeve; sustained fund outflows into weakness.",
+      "relegate_if": "\u22652 of: TWST ops miss on Q4 adj. EBITDA; TEM\u2013PSNL deal break; TXG/ILMN guide cuts while top weights; dilution cascade across clinical sleeve; sustained fund outflows into weakness.",
       "sources": [
         "ARK published weight CSV (public disclosure)",
         "Company IR / 10-Q for TWST, TEM, CRSP, NTLA, BEAM",
         "ETFDB/Morningstar AUM-flow prints (dated)"
       ],
-      "updated_at": "2026-09-09"
+      "updated_at": "2026-09-09",
+      "drop_if": "\u22652 of: TWST ops miss on Q4 adj. EBITDA; TEM\u2013PSNL deal break; TXG/ILMN guide cuts while top weights; dilution cascade across clinical sleeve; sustained fund outflows into weakness."
     },
     {
       "id": "buyback-confession-captive-duration",
       "title": "Cleared, no relief",
       "prior_label": "Buyback as confession",
       "validation_status": "WATCH",
-      "status_note": "Sep 9 10Y + Sep 10 30Y both STAMPED strong private sponsorship (COSMETIC lean); Sep 10 $6bn 10–20Y buyback accepted $5.187bn / offered $10.489bn (86.5% of max). validation_status remains WATCH — JG.",
+      "status_note": "Sep 9 10Y + Sep 10 30Y both STAMPED strong private sponsorship (COSMETIC lean); Sep 10 $6bn 10\u201320Y buyback accepted $5.187bn / offered $10.489bn (86.5% of max). validation_status remains WATCH \u2014 JG.",
       "who_collects_rent": "Whoever is forced or structurally bid to warehouse long-end duration (banks/pensions under repression; issuer as standing long-end bid via enlarged buybacks) while coupon supply continues.",
       "leftover": "Narratives that treat buybacks as one-off 'support' while private sponsorship of the long end remains thin.",
       "decisive_test": "Sep 9 10Y STAMPED (PASS); Sep 10 30Y STAMPED (PASS); Sep 10 $6bn buyback op: $5.187bn accepted / $10.489bn offered (86.5% of max; 23/40 issues); Nov 4 QRA buyback maxes.",
@@ -105,13 +130,14 @@
       },
       "relegate_if": "Strong private auction sponsorship makes buybacks cosmetic; or Nov 4 refunding cuts buyback sizes so the structural state-bid claim dies.",
       "sources": [
-        "Treasury 10Y auction 2026-09-09 — BTC 2.71; high 4.834%; indirects ~79.2% (PASS — private bid intact)",
-        "Treasury 30Y reopen 2026-09-10 CUSIP 912810UW6 — $22bn; high 5.308%; BTC 2.61; indirects 79.5%; dealers 2.2%; median 5.250% (PASS — private bid intact at elevated clear)",
-        "Treasury buyback 2026-09-10 10Y–20Y — max $6.000bn; offered $10.489bn; accepted $5.187bn (86.5% of max); 23/40 issues (BBR_20260910174000)",
-        "Treasury SB0607 — long-end buybacks ≥$4bn through Nov 4 2026",
+        "Treasury 10Y auction 2026-09-09 \u2014 BTC 2.71; high 4.834%; indirects ~79.2% (PASS \u2014 private bid intact)",
+        "Treasury 30Y reopen 2026-09-10 CUSIP 912810UW6 \u2014 $22bn; high 5.308%; BTC 2.61; indirects 79.5%; dealers 2.2%; median 5.250% (PASS \u2014 private bid intact at elevated clear)",
+        "Treasury buyback 2026-09-10 10Y\u201320Y \u2014 max $6.000bn; offered $10.489bn; accepted $5.187bn (86.5% of max); 23/40 issues (BBR_20260910174000)",
+        "Treasury SB0607 \u2014 long-end buybacks \u2265$4bn through Nov 4 2026",
         "FRED CMT series / Treasury refunding documents (Nov 4 2026)"
       ],
-      "updated_at": "2026-09-20"
+      "updated_at": "2026-09-20",
+      "drop_if": "Strong private auction sponsorship makes buybacks cosmetic; or Nov 4 refunding cuts buyback sizes so the structural state-bid claim dies."
     }
   ]
 }

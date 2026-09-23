@@ -3563,9 +3563,16 @@
         const s = (status || '').toUpperCase();
         if (s === 'WATCH') return '#fbbf24';
         if (s === 'HOLD') return '#3b82f6';
-        if (s === 'POUNCE') return '#10b981';
-        if (s === 'RELEGATE') return '#6b7280';
+        if (s === 'ACT' || s === 'POUNCE') return '#10b981';
+        if (s === 'DROP' || s === 'RELEGATE') return '#6b7280';
         return '#8892b0';
+      }
+
+      function statusLabel(status) {
+        const s = (status || '').toUpperCase();
+        if (s === 'POUNCE') return 'ACT';
+        if (s === 'RELEGATE') return 'DROP';
+        return s;
       }
 
       try {
@@ -3584,7 +3591,7 @@
             html += '<div style="display: flex; justify-content: space-between; align-items: center; padding: 0.25rem 0; border-bottom: 1px solid rgba(255,255,255,0.04);">';
             html += '<a href="trap-map.html#' + esc(t.id) + '" style="color: #e8e8e8; text-decoration: none; font-size: 0.75rem; flex: 1; min-width: 0; overflow: hidden; text-overflow: ellipsis; white-space: nowrap;">' + esc(t.short_title) + '</a>';
             html += '<div style="display: flex; align-items: center; gap: 0.4rem; flex-shrink: 0;">';
-            html += '<span style="font-size: 0.6rem; font-weight: 600; color: ' + color + '; padding: 0.1rem 0.35rem; background: rgba(255,255,255,0.05); border-radius: 3px;">' + esc(t.status) + '</span>';
+            html += '<span style="font-size: 0.6rem; font-weight: 600; color: ' + color + '; padding: 0.1rem 0.35rem; background: rgba(255,255,255,0.05); border-radius: 3px;">' + esc(statusLabel(t.status)) + '</span>';
             if (t.updated_at) {
               html += '<span style="font-size: 0.6rem; color: #6b7280;">' + esc(t.updated_at) + '</span>';
             }
