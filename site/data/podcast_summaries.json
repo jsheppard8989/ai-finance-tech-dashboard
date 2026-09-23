@@ -1,5 +1,38 @@
 [
   {
+    "id": 511,
+    "podcast_name": "All-In with Chamath, Jason, Sacks & Friedberg",
+    "episode_title": "Steve Hilton & Spencer Pratt: Fixing California, Cheaper Gas, Ballot Fraud & CA Republicans",
+    "episode_date": "2026-09-23",
+    "summary": "The podcast discusses the significant challenges facing California, including high poverty and unemployment rates, a burdensome regulatory environment, and a severe affordability crisis in housing. There is a notable shift in voter sentiment, with many traditional Democrats expressing support for Republican candidates, indicating a potential for political change. The conversation emphasizes the importance of grassroots movements and the potential for independent candidates to disrupt the established political order.",
+    "key_takeaways": [
+      "California's regulatory burden, with over 420,000 regulations, is a major hindrance to business growth.",
+      "A significant shift in voter sentiment may lead to unexpected electoral outcomes in California.",
+      "The disparity between median home prices and salaries indicates a severe affordability crisis that could impact social stability.",
+      "The entrenched political machine in California is characterized by corruption and a lack of accountability.",
+      "Grassroots movements are gaining traction and could significantly influence the upcoming election."
+    ],
+    "investment_thesis": "Investors should closely monitor California's regulatory changes and voter sentiment as indicators of potential market shifts and investment opportunities.",
+    "key_tickers": null
+  },
+  {
+    "id": 510,
+    "podcast_name": "Moonshots with Peter Diamandis",
+    "episode_title": "Ask the Mates Anything Round #2 | MOONSHOTS AMA  #293",
+    "episode_date": "2026-09-22",
+    "summary": "The podcast discusses the critical need for transparency and oversight in AI development, emphasizing that AI policing AI could be a viable solution. It highlights the importance of transforming educational models to prioritize critical thinking and adaptability in response to the rapid advancements in AI technology. The conversation also touches on the societal changes that AI may bring, including job displacement, and the necessity for proactive planning and governance to navigate these challenges effectively.",
+    "key_takeaways": [
+      "Invest in AI oversight technologies to ensure safety and alignment with human values.",
+      "Develop educational programs that focus on critical thinking and adaptability.",
+      "Use data-driven narratives to communicate the benefits of AI to stakeholders.",
+      "Create and promote micro media platforms to highlight positive AI developments.",
+      "Implement fine-tuning processes for AI models to enhance user interactions.",
+      "Monitor geopolitical developments to inform AI investment strategies."
+    ],
+    "investment_thesis": "The core investment opportunity lies in developing technologies and frameworks that ensure AI safety and governance while transforming education to equip individuals for an AI-driven future.",
+    "key_tickers": null
+  },
+  {
     "id": 509,
     "podcast_name": "Latent Space: The AI Engineer Podcast",
     "episode_title": "\ud83d\udd2c An Oscar, Two Asteroids, and the Algorithm in Your sklearn: John Platt on AI for Science",
