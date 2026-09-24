@@ -86,13 +86,13 @@
     "_primary_source": "Treasury.gov",
     "_source_url": "https://home.treasury.gov/resource-center/data-chart-center/interest-rates/TextView?type=daily_treasury_yield_curve",
     "_fred_status": "unavailable (optional)",
-    "last_updated": "2026-09-23T14:04:16.273218",
-    "as_of_date": "2026-09-22",
+    "last_updated": "2026-09-23T22:21:39.249764",
+    "as_of_date": "2026-09-23",
     "spreads": {
       "2s10s": {
         "label": "2s10s Spread",
         "description": "10Y minus 2Y Treasury yield. Classic recession indicator. Negative = inverted curve.",
-        "value_bps": 25.0,
+        "value_bps": 26.0,
         "signal": "normal",
         "source": "Treasury.gov (computed)",
         "calculation": "10Y - 2Y from Treasury daily curve"
@@ -100,7 +100,7 @@
       "10s30s": {
         "label": "10s30s Spread (NOB proxy)",
         "description": "30Y minus 10Y Treasury yield. Reflects long-end term premium and duration demand.",
-        "value_bps": 33.0,
+        "value_bps": 29.0,
         "signal": "normal",
         "source": "Treasury.gov (computed)",
         "calculation": "30Y - 10Y from Treasury daily curve"
@@ -108,18 +108,18 @@
     },
     "levels": {
       "2y": {
-        "value": 4.71,
-        "change_1d_bps": -5.0,
+        "value": 4.85,
+        "change_1d_bps": 14.0,
         "source": "Treasury.gov"
       },
       "10y": {
-        "value": 4.96,
-        "change_1d_bps": 0.0,
+        "value": 5.11,
+        "change_1d_bps": 15.0,
         "source": "Treasury.gov"
       },
       "30y": {
-        "value": 5.29,
-        "change_1d_bps": 0.0,
+        "value": 5.4,
+        "change_1d_bps": 11.0,
         "source": "Treasury.gov"
       }
     },
@@ -127,9 +127,9 @@
       "_comment": "MOVE Index - bond market VIX. Source: Yahoo Finance ^MOVE.",
       "label": "MOVE Index",
       "description": "Treasury implied volatility index. High readings = bond market stress/uncertainty.",
-      "value": 78.56,
+      "value": 95.45,
       "change_1d": 0.0,
-      "signal": "low_vol",
+      "signal": "normal",
       "yahoo_symbol": "^MOVE",
       "source": "Yahoo Finance",
       "thresholds": {
@@ -145,7 +145,7 @@
     "_fetch_url": "https://www.cftc.gov/dea/futures/financial_lf.htm",
     "_api_alternative": "Quandl CFTC dataset (may need key)",
     "_fetch_instructions": "CFTC releases COT every Friday at 3:30pm ET for positions as of prior Tuesday.",
-    "last_updated": "2026-09-23T14:04:16.708601",
+    "last_updated": "2026-09-23T22:21:39.808337",
     "report_date": "2026-09-15",
     "prior_report_date": null,
     "rates_positioning": {
@@ -234,14 +234,14 @@
     "_source_url": "https://gpu-index.semianalysis.com/",
     "_api_url": "https://gpu-index.semianalysis.com/api/public-data",
     "_data_type": "api_index",
-    "last_fetched": "2026-09-23T14:04:00.223344",
+    "last_fetched": "2026-09-23T22:21:22.907877",
     "h100": {
-      "daily_date": "Sep 23, 2026",
-      "daily_date_iso": "2026-09-23",
+      "daily_date": "Sep 24, 2026",
+      "daily_date_iso": "2026-09-24",
       "composite_index": {
-        "display": "$3.29",
+        "display": "$3.26",
         "type": "single",
-        "value": 3.29
+        "value": 3.26
       },
       "contract_period": "Aug 2026",
       "1y_contract": {
@@ -265,23 +265,23 @@
         "Aug 2026"
       ],
       "daily_trend": {
-        "data_points": 1078,
-        "latest_value": 3.29,
-        "latest_date": "Sep 23, 2026",
+        "data_points": 1079,
+        "latest_value": 3.26,
+        "latest_date": "Sep 24, 2026",
         "short_term": {
-          "change_pct": 0.9,
-          "comparison_date": "Sep 16, 2026",
-          "comparison_value": 3.26,
+          "change_pct": -0.3,
+          "comparison_date": "Sep 17, 2026",
+          "comparison_value": 3.27,
           "days_back": 7
         },
         "long_term": {
-          "change_pct": 2.5,
-          "anchor_date": "Aug 24, 2026",
+          "change_pct": 1.6,
+          "anchor_date": "Aug 25, 2026",
           "anchor_value": 3.21,
           "days_back": 30
         },
-        "change_pct": 0.9,
-        "comparison_date": "Sep 16, 2026"
+        "change_pct": -0.3,
+        "comparison_date": "Sep 17, 2026"
       },
       "contract_trend": {
         "data_points": 21,
@@ -332,18 +332,18 @@
       "period": "Aug 2026"
     },
     "b200": {
-      "daily_date": "Sep 23, 2026",
+      "daily_date": "Sep 24, 2026",
       "composite_index": {
-        "display": "$5.76",
+        "display": "$5.79",
         "type": "single",
-        "value": 5.76
+        "value": 5.79
       }
     },
     "history_summary": {
       "oldest_period": "1H 2023",
       "newest_period": "Aug 2026",
-      "newest_daily": "Sep 23, 2026",
-      "total_daily_points": 1199,
+      "newest_daily": "Sep 24, 2026",
+      "total_daily_points": 1200,
       "total_contract_periods": 22,
       "recent_5": [
         {
