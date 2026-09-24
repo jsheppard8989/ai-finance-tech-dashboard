@@ -120,13 +120,13 @@
       "title": "Cleared, no relief",
       "prior_label": "Buyback as confession",
       "validation_status": "WATCH",
-      "status_note": "Sep 23 5Y $70bn AFTER soft: HY 5.033%, BTC 2.21, indirects 54.3%, PD 15.8%, tail 8.3 bp (softest BTC + fattest tail vs Jun–Aug 5Y strip). Official CMT next day 10y 5.11% / 30y 5.40% (+15/+11 bp vs 9/22). Soft belly cover at elevated clear is not long-end relief — still Watch into Nov 4 QRA. Sep 22 2Y AFTER No change at elevated clear (HY 4.787 / BTC 2.63). Sep 24 7Y AFTER pending.",
+      "status_note": "Sep 24 7Y $44bn AFTER mild soft: HY 5.085%, BTC 2.42, indirects 57.2%, Direct 30.3%, PD 12.5%, tail 6.6 bp (softest BTC + weakest indirects vs Jul–Aug 7Y strip). Coupon-week strip complete: 2Y No change / 5Y Hurts / 7Y Hurts (mild). Soft belly cover at elevated clear is not long-end relief — still Watch into Nov 4 QRA. Sep 23 5Y AFTER Hurts (HY 5.033 / BTC 2.21 / tail 8.3 bp); CMT 9/23 10y 5.11% / 30y 5.40%. Sep 22 2Y No change (HY 4.787 / BTC 2.63).",
       "who_collects_rent": "Whoever is forced or structurally bid to warehouse long-end duration (banks/pensions under repression; issuer as standing long-end bid via enlarged buybacks) while coupon supply continues.",
       "leftover": "Narratives that treat buybacks as one-off 'support' while private sponsorship of the long end remains thin.",
-      "decisive_test": "Sep 9 10Y STAMPED (PASS); Sep 10 30Y STAMPED (PASS); Sep 10 $6bn buyback op: $5.187bn accepted / $10.489bn offered (86.5% of max; 23/40 issues); Sep 22 2Y AFTER No change (HY 4.787 / BTC 2.63); Sep 23 5Y AFTER Hurts (HY 5.033 / BTC 2.21 / tail 8.3 bp); Nov 4 QRA buyback maxes.",
+      "decisive_test": "Sep 9 10Y STAMPED (PASS); Sep 10 30Y STAMPED (PASS); Sep 10 $6bn buyback op: $5.187bn accepted / $10.489bn offered (86.5% of max; 23/40 issues); Sep 22 2Y AFTER No change (HY 4.787 / BTC 2.63); Sep 23 5Y AFTER Hurts (HY 5.033 / BTC 2.21 / tail 8.3 bp); Sep 24 7Y AFTER Hurts (mild) (HY 5.085 / BTC 2.42 / tail 6.6 bp); Nov 4 QRA buyback maxes.",
       "next_datapoint": {
-        "label": "Sep 24 7Y $44bn AFTER when printed; Sep 30 Aug PCE (shared settle with 2s/5s/7s); Nov 4 2026 QRA buyback sizes. Belly so far: 2Y Sep 22 No change (HY 4.787 / BTC 2.63); 5Y Sep 23 Hurts (HY 5.033 / BTC 2.21 / tail 8.3 bp); CMT 9/23 10y 5.11 / 30y 5.40.",
-        "expected_date": "7Y AFTER 2026-09-24; Aug PCE 2026-09-30; Nov 4 2026 refunding"
+        "label": "Sep 30 Aug PCE (shared settle with 2s/5s/7s); Nov 4 2026 QRA buyback sizes. Belly week: 2Y Sep 22 No change (HY 4.787 / BTC 2.63); 5Y Sep 23 Hurts (HY 5.033 / BTC 2.21 / tail 8.3 bp); 7Y Sep 24 Hurts mild (HY 5.085 / BTC 2.42 / tail 6.6 bp); CMT 9/23 10y 5.11 / 30y 5.40.",
+        "expected_date": "Aug PCE 2026-09-30; Nov 4 2026 refunding"
       },
       "relegate_if": "Strong private auction sponsorship makes buybacks cosmetic; or Nov 4 refunding cuts buyback sizes so the structural state-bid claim dies.",
       "sources": [
@@ -137,7 +137,8 @@
         "FRED CMT series / Treasury refunding documents (Nov 4 2026)",
         "Treasury 2Y auction 2026-09-22 CUSIP 91282CRP8 — $69bn; HY 4.787%; BTC 2.63; indirects 57.8%; PD 13.2%; tail 4.9 bp — https://www.treasurydirect.gov/instit/annceresult/press/preanre/2026/R_20260922_2.pdf",
         "Treasury 5Y auction 2026-09-23 CUSIP 91282CRN3 — $70bn; HY 5.033%; BTC 2.21; indirects 54.3%; PD 15.8%; tail 8.3 bp (softest BTC + fattest tail vs Jun–Aug strip) — https://www.treasurydirect.gov/instit/annceresult/press/preanre/2026/R_20260923_3.pdf",
-        "Treasury daily CMT par curve 2026-09-23 — 2y 4.85%; 5y 4.99%; 10y 5.11%; 20y 5.45%; 30y 5.40%; 2s10s +26 bp; 10s30s +29 bp — https://home.treasury.gov/resource-center/data-chart-center/interest-rates/TextView?type=daily_treasury_yield_curve&field_tdr_date_value_month=202609"
+        "Treasury daily CMT par curve 2026-09-23 — 2y 4.85%; 5y 4.99%; 10y 5.11%; 20y 5.45%; 30y 5.40%; 2s10s +26 bp; 10s30s +29 bp — https://home.treasury.gov/resource-center/data-chart-center/interest-rates/TextView?type=daily_treasury_yield_curve&field_tdr_date_value_month=202609",
+        "Treasury 7Y auction 2026-09-24 CUSIP 91282CRM5 — $44bn; HY 5.085%; BTC 2.42; indirects 57.2%; Direct 30.3%; PD 12.5%; tail 6.6 bp (softest BTC + weakest indirects vs Jul–Aug 7Y strip) — https://www.treasurydirect.gov/instit/annceresult/press/preanre/2026/R_20260924_3.pdf"
       ],
       "updated_at": "2026-09-24",
       "drop_if": "Strong private auction sponsorship makes buybacks cosmetic; or Nov 4 refunding cuts buyback sizes so the structural state-bid claim dies.",

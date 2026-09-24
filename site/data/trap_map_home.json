@@ -1,10 +1,6 @@
 {
   "_comment": "Home page summary of Trap Map. Regenerate from trap_map.json when a trap datapoint is stamped. Script hook: pipeline/regenerate_trap_home.py",
-<<<<<<< Updated upstream
-  "_generated_at": "2026-09-24T13:38:43Z",
-=======
-  "_generated_at": "2026-09-24T17:23:18Z",
->>>>>>> Stashed changes
+  "_generated_at": "2026-09-24T19:07:25Z",
   "_source": "data/trap_map.json",
   "last_monitored": [
     {
@@ -39,8 +35,8 @@
     },
     {
       "trap_id": "buyback-confession-captive-duration",
-      "date_label": "7Y AFTER 2026-09-24; Aug PCE 2026-09-30; Nov 4 2026 refunding",
-      "what": "Sep 24 7Y $44bn AFTER when printed; Sep 30 Aug PCE (shared settle with 2s/5s/7s); Nov 4 2026 QRA buy"
+      "date_label": "Aug PCE 2026-09-30; Nov 4 2026 refunding",
+      "what": "Sep 30 Aug PCE (shared settle with 2s/5s/7s); Nov 4 2026 QRA buyback sizes. Belly week: 2Y Sep 22 No"
     }
   ]
 }
