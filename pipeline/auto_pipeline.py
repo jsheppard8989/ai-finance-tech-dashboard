@@ -959,6 +959,21 @@ def git_push(commit_msg: str, pathspecs=None) -> bool:
                     priority=1,
                 )
                 return False
+            # Autostash can re-poison site JSON/HTML with conflict markers after rebase.
+            # Fail closed before we stage/push — same gate as publish_site.
+            try:
+                from market_data_io import scan_site_for_conflict_or_bad_json
+                ok_scan, scan_msg = scan_site_for_conflict_or_bad_json(WORKSPACE / "site")
+            except Exception as e:
+                ok_scan, scan_msg = False, f"site conflict/JSON scan failed: {e}"
+            if not ok_scan:
+                print(f"✗ Post-pull site scan failed: {scan_msg}")
+                send_notification(
+                    "Pipeline: blocked push — conflict markers or bad JSON in site/",
+                    scan_msg[:900],
+                    priority=1,
+                )
+                return False
 
         status_cmd = ["git", "status", "--porcelain"]
         if pathspecs:
@@ -1014,6 +1029,19 @@ def git_push(commit_msg: str, pathspecs=None) -> bool:
                         timeout=180,
                     )
                     if r3.returncode == 0:
+                        try:
+                            from market_data_io import scan_site_for_conflict_or_bad_json
+                            ok_scan, scan_msg = scan_site_for_conflict_or_bad_json(WORKSPACE / "site")
+                        except Exception as e:
+                            ok_scan, scan_msg = False, f"site conflict/JSON scan failed: {e}"
+                        if not ok_scan:
+                            print(f"✗ Post-retry-pull site scan failed: {scan_msg}")
+                            send_notification(
+                                "Pipeline: blocked push after retry — conflict markers or bad JSON in site/",
+                                scan_msg[:900],
+                                priority=1,
+                            )
+                            return False
                         push_result = _do_push()
             if push_result.returncode != 0:
                 err = (push_result.stderr or push_result.stdout or str(push_result)).strip()
