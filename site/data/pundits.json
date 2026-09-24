@@ -391,7 +391,7 @@
     "last_podcast_name": "All-In with Chamath, Jason, Sacks & Friedberg",
     "last_episode_date": "2026-09-18",
     "mention_score": 2,
-    "mention_score_decayed": 1.78,
+    "mention_score_decayed": 1.74,
     "last_main_idea": "Investing in companies involved in aerospace, nuclear technology, and robotics could yield significant returns as NASA advances its lunar and deep space missions.",
     "last_proof_cite": "All-In with Chamath, Jason, Sacks & Friedberg \u2022 2026-09-18 \u2022 Jared Isaacman: A New Era for NASA and American Space Exploration",
     "last_proof_snippet": "Ignition sequenced star. It's good to have an abeater and astronaut in charge. The new NASA Administrator. NASA's still hot. Human climate will not be contained to planet Earth indefinitely. In the next giant leap capabilities that's nuclea",
@@ -433,71 +433,6 @@
       ]
     },
     "net_worth": "$1.40B"
-  },
-  {
-    "id": 74,
-    "name": "Travis Kalanick",
-    "slug": "travis-kalanick",
-    "bio": "Entrepreneur and co-founder of Uber, currently working on a new venture focused on industrial AI.",
-    "known_for": "His role in the founding and growth of Uber, and now his new venture in industrial AI.",
-    "net_worth_usd": 3600000000.0,
-    "net_worth_source": "https://finance.yahoo.com/news/uber-founder-travis-kalanick-becomes-201906670.html",
-    "net_worth_updated_at": "2026-03-19T15:49:00.323498",
-    "voice_tone": "Confident and assertive",
-    "voice_style": "Direct and solution-oriented",
-    "voice_delivery_notes": "Paced with emphasis on key points",
-    "voice_profile_updated_at": "2026-08-14 18:36:52",
-    "last_seen": "2026-08-14 18:36:52",
-    "last_episode_title": "Ben Horowitz and Travis Kalanick on Building Again",
-    "last_podcast_name": "The a16z Show",
-    "last_episode_date": "2026-08-14",
-    "mention_score": 4,
-    "mention_score_decayed": 1.59,
-    "last_main_idea": "Invest in industries that are ripe for automation and AI integration, as industrial AI could revolutionize multiple trillion-dollar industries.",
-    "last_proof_cite": "The a16z Show \u2022 2026-08-14 \u2022 Ben Horowitz and Travis Kalanick on Building Again",
-    "last_proof_snippet": "Hey Travis is back, but I've actually been working for eight years, I just haven't been talking about it. We're competing for the next industrial revolution. People said, are you pissed off about Uber? Does that grind you when you fall in l",
-    "supporting_takeaway": "Fostering a culture of open debate and pushing for the best ideas can lead to superior outcomes in business.",
-    "grokipedia_url": null,
-    "grokipedia_fetched_at": "2026-07-22T23:37:24.531678",
-    "pundit_profile": {
-      "source": "llm",
-      "source_model": "moonshot:moonshot-v1-8k",
-      "source_url": "",
-      "page_title": "Travis Kalanick",
-      "fetched_at": "2026-07-23T04:37:24.531563+00:00",
-      "cliff_notes": "Travis Kalanick is an American entrepreneur who has made a significant impact on the tech industry with his innovative and disruptive business models. He co-founded Uber, a ride-sharing company that revolutionized urban transportation and challenged traditional taxi services. After leaving Uber, Kalanick founded CloudKitchens, a company that acquires and leases commercial kitchen spaces to food delivery businesses. His aggressive business tactics and relentless focus on growth have earned him both admiration and criticism. Despite facing lawsuits and controversies, Kalanick remains a prominent figure in the tech world, known for his ability to create companies that transform entire sectors.",
-      "derived": {
-        "former_positions": "Co-founder and CEO of Uber; CEO of CloudKitchens",
-        "education": "Bachelor's degree in Computer Engineering from the University of California, Los Angeles (UCLA)"
-      },
-      "infobox": {
-        "Born": "1976",
-        "Nationality": "American"
-      },
-      "lead_paragraphs": [
-        "Travis Kalanick is an American entrepreneur who has made a significant impact on the tech industry with his innovative and disruptive business models. He co-founded Uber, a ride-sharing company that revolutionized urban transportation and challenged traditional taxi services. After leaving Uber, Kalanick founded CloudKitchens, a company that acquires and leases commercial kitchen spaces to food delivery businesses.",
-        "His aggressive business tactics and relentless focus on growth have earned him both admiration and criticism. Despite facing lawsuits and controversies, Kalanick remains a prominent figure in the tech world, known for his ability to create companies that transform entire sectors."
-      ],
-      "sections": [
-        {
-          "heading": "Uber Co-Founder",
-          "body": "Travis Kalanick co-founded Uber in 2009, which went on to become a global ride-sharing giant and disrupt the traditional taxi industry."
-        },
-        {
-          "heading": "CloudKitchens Founder",
-          "body": "Kalanick founded CloudKitchens, a company that provides commercial kitchen spaces for food delivery businesses, aiming to revolutionize the food delivery industry."
-        },
-        {
-          "heading": "Controversies",
-          "body": "Throughout his career, Kalanick has faced various controversies and lawsuits, including those related to Uber's aggressive business tactics and workplace culture."
-        },
-        {
-          "heading": "Innovation and Disruption",
-          "body": "Kalanick is known for his ability to create innovative business models that disrupt traditional industries, as evidenced by Uber and CloudKitchens."
-        }
-      ]
-    },
-    "net_worth": "$3.60B"
   },
   {
     "id": 78,
@@ -615,6 +550,71 @@
         }
       ]
     }
+  },
+  {
+    "id": 74,
+    "name": "Travis Kalanick",
+    "slug": "travis-kalanick",
+    "bio": "Entrepreneur and co-founder of Uber, currently working on a new venture focused on industrial AI.",
+    "known_for": "His role in the founding and growth of Uber, and now his new venture in industrial AI.",
+    "net_worth_usd": 3600000000.0,
+    "net_worth_source": "https://finance.yahoo.com/news/uber-founder-travis-kalanick-becomes-201906670.html",
+    "net_worth_updated_at": "2026-03-19T15:49:00.323498",
+    "voice_tone": "Confident and assertive",
+    "voice_style": "Direct and solution-oriented",
+    "voice_delivery_notes": "Paced with emphasis on key points",
+    "voice_profile_updated_at": "2026-08-14 18:36:52",
+    "last_seen": "2026-08-14 18:36:52",
+    "last_episode_title": "Ben Horowitz and Travis Kalanick on Building Again",
+    "last_podcast_name": "The a16z Show",
+    "last_episode_date": "2026-08-14",
+    "mention_score": 4,
+    "mention_score_decayed": 1.55,
+    "last_main_idea": "Invest in industries that are ripe for automation and AI integration, as industrial AI could revolutionize multiple trillion-dollar industries.",
+    "last_proof_cite": "The a16z Show \u2022 2026-08-14 \u2022 Ben Horowitz and Travis Kalanick on Building Again",
+    "last_proof_snippet": "Hey Travis is back, but I've actually been working for eight years, I just haven't been talking about it. We're competing for the next industrial revolution. People said, are you pissed off about Uber? Does that grind you when you fall in l",
+    "supporting_takeaway": "Fostering a culture of open debate and pushing for the best ideas can lead to superior outcomes in business.",
+    "grokipedia_url": null,
+    "grokipedia_fetched_at": "2026-07-22T23:37:24.531678",
+    "pundit_profile": {
+      "source": "llm",
+      "source_model": "moonshot:moonshot-v1-8k",
+      "source_url": "",
+      "page_title": "Travis Kalanick",
+      "fetched_at": "2026-07-23T04:37:24.531563+00:00",
+      "cliff_notes": "Travis Kalanick is an American entrepreneur who has made a significant impact on the tech industry with his innovative and disruptive business models. He co-founded Uber, a ride-sharing company that revolutionized urban transportation and challenged traditional taxi services. After leaving Uber, Kalanick founded CloudKitchens, a company that acquires and leases commercial kitchen spaces to food delivery businesses. His aggressive business tactics and relentless focus on growth have earned him both admiration and criticism. Despite facing lawsuits and controversies, Kalanick remains a prominent figure in the tech world, known for his ability to create companies that transform entire sectors.",
+      "derived": {
+        "former_positions": "Co-founder and CEO of Uber; CEO of CloudKitchens",
+        "education": "Bachelor's degree in Computer Engineering from the University of California, Los Angeles (UCLA)"
+      },
+      "infobox": {
+        "Born": "1976",
+        "Nationality": "American"
+      },
+      "lead_paragraphs": [
+        "Travis Kalanick is an American entrepreneur who has made a significant impact on the tech industry with his innovative and disruptive business models. He co-founded Uber, a ride-sharing company that revolutionized urban transportation and challenged traditional taxi services. After leaving Uber, Kalanick founded CloudKitchens, a company that acquires and leases commercial kitchen spaces to food delivery businesses.",
+        "His aggressive business tactics and relentless focus on growth have earned him both admiration and criticism. Despite facing lawsuits and controversies, Kalanick remains a prominent figure in the tech world, known for his ability to create companies that transform entire sectors."
+      ],
+      "sections": [
+        {
+          "heading": "Uber Co-Founder",
+          "body": "Travis Kalanick co-founded Uber in 2009, which went on to become a global ride-sharing giant and disrupt the traditional taxi industry."
+        },
+        {
+          "heading": "CloudKitchens Founder",
+          "body": "Kalanick founded CloudKitchens, a company that provides commercial kitchen spaces for food delivery businesses, aiming to revolutionize the food delivery industry."
+        },
+        {
+          "heading": "Controversies",
+          "body": "Throughout his career, Kalanick has faced various controversies and lawsuits, including those related to Uber's aggressive business tactics and workplace culture."
+        },
+        {
+          "heading": "Innovation and Disruption",
+          "body": "Kalanick is known for his ability to create innovative business models that disrupt traditional industries, as evidenced by Uber and CloudKitchens."
+        }
+      ]
+    },
+    "net_worth": "$3.60B"
   },
   {
     "id": 148,
@@ -1331,7 +1331,7 @@
     "last_podcast_name": "Monetary Matters with Jack Farley",
     "last_episode_date": "2026-09-20",
     "mention_score": 1,
-    "mention_score_decayed": 0.93,
+    "mention_score_decayed": 0.91,
     "last_main_idea": "Investors should increase allocations to gold and copper while considering uranium for long-term growth, and reduce exposure to oil and fertilizers.",
     "last_proof_cite": "Monetary Matters with Jack Farley \u2022 2026-09-20 \u2022 Outlook on 5 Key Commodities: Metals Bull Market is Just Getting Started (Gold, Copper, & Uranium) | J\u00e9r\u00e9mie Boyer | Aurelion",
     "last_proof_snippet": "We're pretty much bullish on goal. I think they coupled from all price. This is what maybe the confirmation we were reading for to become bullish again on goal. As we saw since maybe August and so far, September, there's been a huge spike i",
@@ -1385,7 +1385,7 @@
     "last_podcast_name": "Monetary Matters with Jack Farley",
     "last_episode_date": "2026-09-19",
     "mention_score": 1,
-    "mention_score_decayed": 0.91,
+    "mention_score_decayed": 0.89,
     "last_main_idea": "Investors should focus on sectors benefiting from AI adoption and consider increasing allocations to Treasuries for portfolio stability.",
     "last_proof_cite": "Monetary Matters with Jack Farley \u2022 2026-09-19 \u2022 Why The 30-Year Treasury Lost Its Biggest Buyers | David Busch on Why High Yields Are Attractive Right Now",
     "last_proof_snippet": "Today, I'm joined by David Bush, Chief Investment Officer of Trajan Wealth, David. Welcome to the monetary matters. Jack, thank you so much for having me. It's truly a pleasure to join you. And as I said in our communication back and forth",
@@ -1478,67 +1478,6 @@
         }
       ]
     }
-  },
-  {
-    "id": 133,
-    "name": "Chris Dixon",
-    "slug": "chris-dixon",
-    "bio": "Chris Dixon is a general partner at a16z, a venture capital firm. He is known for his extensive writing and thought leadership on blockchain technology and its potential to disrupt traditional financial systems.",
-    "known_for": "His insights into blockchain technology and its implications for finance and security.",
-    "net_worth_usd": 500000000.0,
-    "net_worth_source": "https://blockchainreporter.net/net-worth/chris-dixon/",
-    "net_worth_updated_at": "2026-03-28T22:05:07.528099",
-    "voice_tone": "Educative and visionary",
-    "voice_style": "Explains blockchain's potential in a simple, relatable manner",
-    "voice_delivery_notes": "Clear and concise, with a focus on the future implications of blockchain",
-    "voice_profile_updated_at": "2026-08-01 18:36:59",
-    "last_seen": "2026-08-01 18:36:59",
-    "last_episode_title": "Marc Andreessen and Chris Dixon: What\u2019s at Stake in Crypto Regulation",
-    "last_podcast_name": "The a16z Show",
-    "last_episode_date": "2026-08-01",
-    "mention_score": 3,
-    "mention_score_decayed": 0.88,
-    "last_main_idea": "Regulatory clarity through acts like the Clarity Act is essential for the next phase of blockchain adoption and could unlock significant investment opportunities in stablecoins and tokenized assets.",
-    "last_proof_cite": "The a16z Show \u2022 2026-08-01 \u2022 Marc Andreessen and Chris Dixon: What\u2019s at Stake in Crypto Regulation",
-    "last_proof_snippet": "Stable coins are tokenized stocks or dollars on blockchain. Rivals the size of the Visa network. Trillings the dollar is transacted. If you have a dollar of that stable coin, there is a dollar sitting in the bank. And that's why the Clarity",
-    "supporting_takeaway": "The Clarity Act is crucial for providing regulatory clarity and could shape the future of financial infrastructure.",
-    "grokipedia_url": null,
-    "grokipedia_fetched_at": "2026-08-01T13:38:13.301865",
-    "pundit_profile": {
-      "source": "llm",
-      "source_model": "moonshot:moonshot-v1-8k",
-      "source_url": "",
-      "page_title": "Chris Dixon",
-      "fetched_at": "2026-08-01T18:38:13.301526+00:00",
-      "cliff_notes": "Chris Dixon is a prominent figure in the technology and venture capital industry, particularly known for his expertise in blockchain technology. As a general partner at a16z, he has been instrumental in shaping the firm's investment strategy in the blockchain space. Dixon's writings have been influential in understanding the potential of blockchain to disrupt traditional financial systems and the broader implications for security and regulation. His perspectives on the Clarity Act and its potential impact on the blockchain industry highlight his deep understanding of the intersection between technology, finance, and policy.",
-      "derived": {
-        "current_role": "General Partner at a16z",
-        "books_or_works": "Blockchain book"
-      },
-      "infobox": {
-        "Born": "",
-        "Nationality": ""
-      },
-      "lead_paragraphs": [
-        "Chris Dixon is a prominent figure in the technology and venture capital industry, particularly known for his expertise in blockchain technology. As a general partner at a16z, he has been instrumental in shaping the firm's investment strategy in the blockchain space. Dixon's writings have been influential in understanding the potential of blockchain to disrupt traditional financial systems and the broader implications for security and regulation.",
-        "His perspectives on the Clarity Act and its potential impact on the blockchain industry highlight his deep understanding of the intersection between technology, finance, and policy."
-      ],
-      "sections": [
-        {
-          "heading": "Blockchain Expertise",
-          "body": "Chris Dixon is recognized for his in-depth knowledge of blockchain technology and its potential to revolutionize finance and other industries."
-        },
-        {
-          "heading": "Venture Capital",
-          "body": "As a general partner at a16z, Dixon plays a key role in identifying and investing in innovative startups, particularly those in the blockchain space."
-        },
-        {
-          "heading": "Regulatory Insights",
-          "body": "Dixon has been vocal about the need for clear and thoughtful regulation of blockchain technology, as evidenced by his commentary on the Clarity Act and its implications for the industry."
-        }
-      ]
-    },
-    "net_worth": "$500.0M"
   },
   {
     "id": 466,
@@ -1660,6 +1599,67 @@
     }
   },
   {
+    "id": 133,
+    "name": "Chris Dixon",
+    "slug": "chris-dixon",
+    "bio": "Chris Dixon is a general partner at a16z, a venture capital firm. He is known for his extensive writing and thought leadership on blockchain technology and its potential to disrupt traditional financial systems.",
+    "known_for": "His insights into blockchain technology and its implications for finance and security.",
+    "net_worth_usd": 500000000.0,
+    "net_worth_source": "https://blockchainreporter.net/net-worth/chris-dixon/",
+    "net_worth_updated_at": "2026-03-28T22:05:07.528099",
+    "voice_tone": "Educative and visionary",
+    "voice_style": "Explains blockchain's potential in a simple, relatable manner",
+    "voice_delivery_notes": "Clear and concise, with a focus on the future implications of blockchain",
+    "voice_profile_updated_at": "2026-08-01 18:36:59",
+    "last_seen": "2026-08-01 18:36:59",
+    "last_episode_title": "Marc Andreessen and Chris Dixon: What\u2019s at Stake in Crypto Regulation",
+    "last_podcast_name": "The a16z Show",
+    "last_episode_date": "2026-08-01",
+    "mention_score": 3,
+    "mention_score_decayed": 0.86,
+    "last_main_idea": "Regulatory clarity through acts like the Clarity Act is essential for the next phase of blockchain adoption and could unlock significant investment opportunities in stablecoins and tokenized assets.",
+    "last_proof_cite": "The a16z Show \u2022 2026-08-01 \u2022 Marc Andreessen and Chris Dixon: What\u2019s at Stake in Crypto Regulation",
+    "last_proof_snippet": "Stable coins are tokenized stocks or dollars on blockchain. Rivals the size of the Visa network. Trillings the dollar is transacted. If you have a dollar of that stable coin, there is a dollar sitting in the bank. And that's why the Clarity",
+    "supporting_takeaway": "The Clarity Act is crucial for providing regulatory clarity and could shape the future of financial infrastructure.",
+    "grokipedia_url": null,
+    "grokipedia_fetched_at": "2026-08-01T13:38:13.301865",
+    "pundit_profile": {
+      "source": "llm",
+      "source_model": "moonshot:moonshot-v1-8k",
+      "source_url": "",
+      "page_title": "Chris Dixon",
+      "fetched_at": "2026-08-01T18:38:13.301526+00:00",
+      "cliff_notes": "Chris Dixon is a prominent figure in the technology and venture capital industry, particularly known for his expertise in blockchain technology. As a general partner at a16z, he has been instrumental in shaping the firm's investment strategy in the blockchain space. Dixon's writings have been influential in understanding the potential of blockchain to disrupt traditional financial systems and the broader implications for security and regulation. His perspectives on the Clarity Act and its potential impact on the blockchain industry highlight his deep understanding of the intersection between technology, finance, and policy.",
+      "derived": {
+        "current_role": "General Partner at a16z",
+        "books_or_works": "Blockchain book"
+      },
+      "infobox": {
+        "Born": "",
+        "Nationality": ""
+      },
+      "lead_paragraphs": [
+        "Chris Dixon is a prominent figure in the technology and venture capital industry, particularly known for his expertise in blockchain technology. As a general partner at a16z, he has been instrumental in shaping the firm's investment strategy in the blockchain space. Dixon's writings have been influential in understanding the potential of blockchain to disrupt traditional financial systems and the broader implications for security and regulation.",
+        "His perspectives on the Clarity Act and its potential impact on the blockchain industry highlight his deep understanding of the intersection between technology, finance, and policy."
+      ],
+      "sections": [
+        {
+          "heading": "Blockchain Expertise",
+          "body": "Chris Dixon is recognized for his in-depth knowledge of blockchain technology and its potential to revolutionize finance and other industries."
+        },
+        {
+          "heading": "Venture Capital",
+          "body": "As a general partner at a16z, Dixon plays a key role in identifying and investing in innovative startups, particularly those in the blockchain space."
+        },
+        {
+          "heading": "Regulatory Insights",
+          "body": "Dixon has been vocal about the need for clear and thoughtful regulation of blockchain technology, as evidenced by his commentary on the Clarity Act and its implications for the industry."
+        }
+      ]
+    },
+    "net_worth": "$500.0M"
+  },
+  {
     "id": 464,
     "name": "Harley Bassman",
     "slug": "harley-bassman",
@@ -1677,7 +1677,7 @@
     "last_podcast_name": "Macro Voices",
     "last_episode_date": "2026-09-17",
     "mention_score": 1,
-    "mention_score_decayed": 0.87,
+    "mention_score_decayed": 0.85,
     "last_main_idea": "Investors should focus on adapting their strategies to the evolving trust dynamics in the Fed, the implications of rising corporate profits, and the risks associated with housing affordability and non-bank lending.",
     "last_proof_cite": "Macro Voices \u2022 2026-09-17 \u2022 MacroVoices #550 Harley Bassman: In FED We Trust",
     "last_proof_snippet": "What's going on in my view is we have a lack of trust in the government. In a lot of our institutions, and maybe about the Fed, which really important here is the Fed needs to go and regain the trust of the market. That was Harley Basman, t",
@@ -3979,7 +3979,7 @@
     "last_podcast_name": "Monetary Matters with Jack Farley",
     "last_episode_date": "2026-08-26",
     "mention_score": 1,
-    "mention_score_decayed": 0.52,
+    "mention_score_decayed": 0.51,
     "last_main_idea": "Warren Pies suggests that despite the current macro risks, the AI sector remains a key area for investment, with all roads leading back to AI trades.",
     "last_proof_cite": "Monetary Matters with Jack Farley \u2022 2026-08-26 \u2022 Time to Reduce Equity Risk: Why Underappreciated Macro Risks Could Derail the Bull Market | Warren Pies",
     "last_proof_snippet": "If I knew with certainly the Fed was going to hike in September, I'd be underweight stocks right now. It's not that I would say I'm straight up bearish here. I just think the risks are too excited. We highlighted the window from August 15th",
@@ -4043,7 +4043,7 @@
     "last_podcast_name": "Latent Space: The AI Engineer Podcast",
     "last_episode_date": "2026-08-26",
     "mention_score": 1,
-    "mention_score_decayed": 0.52,
+    "mention_score_decayed": 0.51,
     "last_main_idea": "Investing in AI technology that enhances weather and climate modeling can lead to significant advancements in forecasting accuracy and speed, potentially revolutionizing the field and creating new investment opportunities in AI applications for science.",
     "last_proof_cite": "Latent Space: The AI Engineer Podcast \u2022 2026-08-26 \u2022 \ud83d\udd2c\u201cWe have foundation models for language, not for physics\u201d \u2014 Anima Anandkumar, Bren Professor of Computing",
     "last_proof_snippet": "So we, you know, set out looking for interesting examples and one of them was like weather modeling because the weather data is open source and so given that the data was there we were like, okay, let's just go try it. Right. And that's the",
@@ -4483,7 +4483,7 @@
     "last_podcast_name": "Monetary Matters with Jack Farley",
     "last_episode_date": "2026-08-18",
     "mention_score": 1,
-    "mention_score_decayed": 0.44,
+    "mention_score_decayed": 0.43,
     "last_main_idea": "AUA Private Equity Partners focuses on operational improvements in family-run businesses within the food, beverage, pet wellness, and co-manufacturing sectors, targeting a $1.3 to $1.4 trillion market opportunity.",
     "last_proof_cite": "Monetary Matters with Jack Farley \u2022 2026-08-18 \u2022 Ex-Goya COO on the $1.4 Trillion Family Business Opportunity in Three Consumer Sectors | Andy Unanue",
     "last_proof_snippet": "Our economy is driven by family run businesses, 70 plus percent of the GDP is generated through family run businesses. Then the food beverage pack wellness sector, it's a 1.3, 1.4 trillion dollar market opportunity. So it's a big market. I'",
@@ -6515,7 +6515,7 @@
     "last_podcast_name": "The a16z Show",
     "last_episode_date": "2026-07-31",
     "mention_score": 1,
-    "mention_score_decayed": 0.29,
+    "mention_score_decayed": 0.28,
     "last_main_idea": "Investing in AI-driven enterprise software that leverages open source models can lead to better control, performance, and scalability, creating a competitive advantage in the market.",
     "last_proof_cite": "The a16z Show \u2022 2026-07-31 \u2022 How Enterprise AI Really Gets Deployed",
     "last_proof_snippet": "And AI agents should just be the funder of your business and every interaction, whether it's like reactive or proactive with a customer, should be handled by AI. This narrative dominated the first half of 2026, which is that anthropic open",
@@ -6575,7 +6575,7 @@
     "last_podcast_name": "The a16z Show",
     "last_episode_date": "2026-07-31",
     "mention_score": 1,
-    "mention_score_decayed": 0.29,
+    "mention_score_decayed": 0.28,
     "last_main_idea": "Investing in AI-driven enterprise software that leverages open source models can lead to better control, performance, and scalability, creating a competitive advantage in the market.",
     "last_proof_cite": "The a16z Show \u2022 2026-07-31 \u2022 How Enterprise AI Really Gets Deployed",
     "last_proof_snippet": "And AI agents should just be the funder of your business and every interaction, whether it's like reactive or proactive with a customer, should be handled by AI. This narrative dominated the first half of 2026, which is that anthropic open",
@@ -7054,7 +7054,7 @@
     "last_podcast_name": "Monetary Matters with Jack Farley",
     "last_episode_date": "2026-07-26",
     "mention_score": 1,
-    "mention_score_decayed": 0.26,
+    "mention_score_decayed": 0.25,
     "last_main_idea": "Contrary to popular belief, private credit and corporate debt are sustainable, and the real risk lies in government debt levels, which could lead to increased market volatility if not addressed.",
     "last_proof_cite": "Monetary Matters with Jack Farley \u2022 2026-07-26 \u2022 Debt Service Coverage in Private Markets Is Improving, Actually | Nicholas Brooks",
     "last_proof_snippet": "Over the past year, there's been some very bad press on private credit, including on this channel where recent guest Nick Nemitz said that he thinks it's almost inevitable that the next financial crisis will be caused by private credit. Tod",
@@ -7493,7 +7493,7 @@
     "last_podcast_name": "The a16z Show",
     "last_episode_date": "2026-07-21",
     "mention_score": 1,
-    "mention_score_decayed": 0.23,
+    "mention_score_decayed": 0.22,
     "last_main_idea": "Investing in physical AI and autonomous systems could lead to significant returns as these technologies transform the physical economy and unlock new productivity gains.",
     "last_proof_cite": "The a16z Show \u2022 2026-07-21 \u2022 Why Physical AI Is the Next Frontier | Applied Intuition",
     "last_proof_snippet": "Our mission is to put intelligence on a billion machines, and that we think that can have a profound impact on society. Applied intuition is a physical attack company. We put intelligence on machines. Cars, trucks, tanks, drones. It's a phy",
@@ -8253,7 +8253,7 @@
     "last_podcast_name": "Dwarkesh Podcast",
     "last_episode_date": "2026-07-10",
     "mention_score": 1,
-    "mention_score_decayed": 0.18,
+    "mention_score_decayed": 0.17,
     "last_main_idea": "While this episode does not present a direct investment thesis, it provides foundational knowledge about the principles of physics that could influence investment decisions in technology and space sectors.",
     "last_proof_cite": "Dwarkesh Podcast \u2022 2026-07-10 \u2022 Adam Brown \u2013 Einstein's happiest thought: General Relativity from scratch",
     "last_proof_snippet": "I'm back with Adam Brown. You currently need blue shift at Google DeepMine, which is cracking science and reasoning. In a previous life, Adam was a prolific physicist taught at Stanford and did research and everything from cosmology to stri",
@@ -9251,67 +9251,6 @@
     }
   },
   {
-    "id": 73,
-    "name": "Sam Altman",
-    "slug": "sam-altman",
-    "bio": "Sam Altman is a prominent figure in the AI community, known for his leadership at OpenAI and his evolving views on AI's impact on jobs and the future of work. He has been influential in shaping discussions around the ethical and societal implications of AI advancements.",
-    "known_for": "His leadership at OpenAI and his revised views on AI's impact on jobs and the future of work.",
-    "net_worth_usd": 2100000000.0,
-    "net_worth_source": "https://en.wikipedia.org/wiki/Sam_Altman",
-    "net_worth_updated_at": "2026-03-19T15:49:02.565192",
-    "voice_tone": "",
-    "voice_style": "",
-    "voice_delivery_notes": "",
-    "voice_profile_updated_at": null,
-    "last_seen": "2026-05-30 18:36:25",
-    "last_episode_title": "Pope Leo vs. AI, GPT 5.5 Beats Claude, and Sam Altman Walks Back Job Apocalypse | EP #259",
-    "last_podcast_name": "Moonshots with Peter Diamandis",
-    "last_episode_date": "2026-05-30",
-    "mention_score": 2,
-    "mention_score_decayed": 0.14,
-    "last_main_idea": "Invest in AI and space exploration companies that demonstrate rapid innovation and adaptability, as these sectors are poised for significant growth and disruption.",
-    "last_proof_cite": "Moonshots with Peter Diamandis \u2022 2026-05-30 \u2022 Pope Leo vs. AI, GPT 5.5 Beats Claude, and Sam Altman Walks Back Job Apocalypse | EP #259",
-    "last_proof_snippet": "Pope Leo the 14th warns of AI risks and just dropped a 42,000-word in cyclical on AI. The Vatican has seemingly staked out the first major religion position against AI personhood. This is the first technology that forces us to define humani",
-    "supporting_takeaway": "Reassess AI investment strategies based on evolving job market narratives.",
-    "grokipedia_url": null,
-    "grokipedia_fetched_at": "2026-05-30T13:36:34.383434",
-    "pundit_profile": {
-      "source": "llm",
-      "source_model": "moonshot:moonshot-v1-8k",
-      "source_url": "",
-      "page_title": "Sam Altman",
-      "fetched_at": "2026-05-30T18:36:34.383095+00:00",
-      "cliff_notes": "Sam Altman is an American entrepreneur and investor who has made significant contributions to the field of artificial intelligence. He is best known for his role as the President of OpenAI, a research and deployment company that aims to develop artificial general intelligence in a way that benefits humanity as a whole. Altman has been vocal about the potential risks and benefits of AI, and his views have evolved over time. Initially cautioning about the potential for mass white-collar displacement, he has since revised his stance, acknowledging that the job apocalypse some predicted may not materialize. His work at OpenAI and his public discourse have made him a key figure in the ongoing conversation about the future of AI and its impact on society.",
-      "derived": {
-        "current_role": "President of OpenAI",
-        "education": "Stanford University; dropout"
-      },
-      "infobox": {
-        "Born": "1985",
-        "Nationality": "American"
-      },
-      "lead_paragraphs": [
-        "Sam Altman is an American entrepreneur and investor who has made significant contributions to the field of artificial intelligence. He is best known for his role as the President of OpenAI, a research and deployment company that aims to develop artificial general intelligence in a way that benefits humanity as a whole. Altman has been vocal about the potential risks and benefits of AI, and his views have evolved over time.",
-        "Initially cautioning about the potential for mass white-collar displacement, he has since revised his stance, acknowledging that the job apocalypse some predicted may not materialize. His work at OpenAI and his public discourse have made him a key figure in the ongoing conversation about the future of AI and its impact on society."
-      ],
-      "sections": [
-        {
-          "heading": "Leadership at OpenAI",
-          "body": "Sam Altman serves as the President of OpenAI, where he leads the development and deployment of artificial general intelligence with a focus on ensuring its benefits are widely distributed."
-        },
-        {
-          "heading": "Views on AI and Jobs",
-          "body": "Initially warning about the potential for AI to displace white-collar jobs, Altman has since revised his views, suggesting that the so-called job apocalypse may not occur as predicted."
-        },
-        {
-          "heading": "Influence in AI Community",
-          "body": "Altman's leadership and public statements have made him a prominent voice in the AI community, influencing discussions on the ethical and societal implications of AI advancements."
-        }
-      ]
-    },
-    "net_worth": "$2.10B"
-  },
-  {
     "id": 310,
     "name": "Will Marshall",
     "slug": "will-marshall",
@@ -9374,6 +9313,67 @@
       ]
     },
     "net_worth": "$87.0M"
+  },
+  {
+    "id": 73,
+    "name": "Sam Altman",
+    "slug": "sam-altman",
+    "bio": "Sam Altman is a prominent figure in the AI community, known for his leadership at OpenAI and his evolving views on AI's impact on jobs and the future of work. He has been influential in shaping discussions around the ethical and societal implications of AI advancements.",
+    "known_for": "His leadership at OpenAI and his revised views on AI's impact on jobs and the future of work.",
+    "net_worth_usd": 2100000000.0,
+    "net_worth_source": "https://en.wikipedia.org/wiki/Sam_Altman",
+    "net_worth_updated_at": "2026-03-19T15:49:02.565192",
+    "voice_tone": "",
+    "voice_style": "",
+    "voice_delivery_notes": "",
+    "voice_profile_updated_at": null,
+    "last_seen": "2026-05-30 18:36:25",
+    "last_episode_title": "Pope Leo vs. AI, GPT 5.5 Beats Claude, and Sam Altman Walks Back Job Apocalypse | EP #259",
+    "last_podcast_name": "Moonshots with Peter Diamandis",
+    "last_episode_date": "2026-05-30",
+    "mention_score": 2,
+    "mention_score_decayed": 0.13,
+    "last_main_idea": "Invest in AI and space exploration companies that demonstrate rapid innovation and adaptability, as these sectors are poised for significant growth and disruption.",
+    "last_proof_cite": "Moonshots with Peter Diamandis \u2022 2026-05-30 \u2022 Pope Leo vs. AI, GPT 5.5 Beats Claude, and Sam Altman Walks Back Job Apocalypse | EP #259",
+    "last_proof_snippet": "Pope Leo the 14th warns of AI risks and just dropped a 42,000-word in cyclical on AI. The Vatican has seemingly staked out the first major religion position against AI personhood. This is the first technology that forces us to define humani",
+    "supporting_takeaway": "Reassess AI investment strategies based on evolving job market narratives.",
+    "grokipedia_url": null,
+    "grokipedia_fetched_at": "2026-05-30T13:36:34.383434",
+    "pundit_profile": {
+      "source": "llm",
+      "source_model": "moonshot:moonshot-v1-8k",
+      "source_url": "",
+      "page_title": "Sam Altman",
+      "fetched_at": "2026-05-30T18:36:34.383095+00:00",
+      "cliff_notes": "Sam Altman is an American entrepreneur and investor who has made significant contributions to the field of artificial intelligence. He is best known for his role as the President of OpenAI, a research and deployment company that aims to develop artificial general intelligence in a way that benefits humanity as a whole. Altman has been vocal about the potential risks and benefits of AI, and his views have evolved over time. Initially cautioning about the potential for mass white-collar displacement, he has since revised his stance, acknowledging that the job apocalypse some predicted may not materialize. His work at OpenAI and his public discourse have made him a key figure in the ongoing conversation about the future of AI and its impact on society.",
+      "derived": {
+        "current_role": "President of OpenAI",
+        "education": "Stanford University; dropout"
+      },
+      "infobox": {
+        "Born": "1985",
+        "Nationality": "American"
+      },
+      "lead_paragraphs": [
+        "Sam Altman is an American entrepreneur and investor who has made significant contributions to the field of artificial intelligence. He is best known for his role as the President of OpenAI, a research and deployment company that aims to develop artificial general intelligence in a way that benefits humanity as a whole. Altman has been vocal about the potential risks and benefits of AI, and his views have evolved over time.",
+        "Initially cautioning about the potential for mass white-collar displacement, he has since revised his stance, acknowledging that the job apocalypse some predicted may not materialize. His work at OpenAI and his public discourse have made him a key figure in the ongoing conversation about the future of AI and its impact on society."
+      ],
+      "sections": [
+        {
+          "heading": "Leadership at OpenAI",
+          "body": "Sam Altman serves as the President of OpenAI, where he leads the development and deployment of artificial general intelligence with a focus on ensuring its benefits are widely distributed."
+        },
+        {
+          "heading": "Views on AI and Jobs",
+          "body": "Initially warning about the potential for AI to displace white-collar jobs, Altman has since revised his views, suggesting that the so-called job apocalypse may not occur as predicted."
+        },
+        {
+          "heading": "Influence in AI Community",
+          "body": "Altman's leadership and public statements have made him a prominent voice in the AI community, influencing discussions on the ethical and societal implications of AI advancements."
+        }
+      ]
+    },
+    "net_worth": "$2.10B"
   },
   {
     "id": 309,
@@ -10998,71 +10998,6 @@
     "net_worth": "$50.0M"
   },
   {
-    "id": 281,
-    "name": "Bill Maris",
-    "slug": "bill-maris",
-    "bio": "Bill Maris is the founder of Section 32, a venture capital fund focused on AI and selective investments. Prior to this, he was the founder and CEO of Google Ventures and Google's Vice President of Special Projects, where he incubated projects like Waymo and Google X.",
-    "known_for": "Advocating for the use of AI in venture capital and making selective investments in transformative technologies.",
-    "net_worth_usd": 1300000000.0,
-    "net_worth_source": "https://www.zenithmaps.com/2557840/unveiling-the-billionaire-bill-maris039/",
-    "net_worth_updated_at": "2026-06-09T13:37:49.429597",
-    "voice_tone": "Confident and knowledgeable.",
-    "voice_style": "Factual and data-driven.",
-    "voice_delivery_notes": "Clear and assertive, with a focus on the transformative potential of AI.",
-    "voice_profile_updated_at": "2026-06-09 18:37:34",
-    "last_seen": "2026-06-09 18:37:34",
-    "last_episode_title": "Bill Maris: How Google Could Crush AI Competitors, Why Small Funds Win, and AI's Atari Stage",
-    "last_podcast_name": "All-In with Chamath, Jason, Sacks & Friedberg",
-    "last_episode_date": "2026-06-09",
-    "mention_score": 1,
-    "mention_score_decayed": 0.09,
-    "last_main_idea": "Invest in smaller, more focused venture capital funds that leverage AI for portfolio construction and consider early-stage investments in foundational AI technologies for long-term gains.",
-    "last_proof_cite": "All-In with Chamath, Jason, Sacks & Friedberg \u2022 2026-06-09 \u2022 Bill Maris: How Google Could Crush AI Competitors, Why Small Funds Win, and AI's Atari Stage",
-    "last_proof_snippet": "After saying he was out, now Bill Maris is returning to the investing world. The founding CEO of Google Ventures has raised $150 million for his new fund, called Section 32. With a smaller fund, I have the advantage to be very selective in",
-    "supporting_takeaway": "AI-driven portfolio construction and investment strategies can provide a competitive edge in venture capital.",
-    "grokipedia_url": null,
-    "grokipedia_fetched_at": "2026-06-09T13:37:48.302408",
-    "pundit_profile": {
-      "source": "llm",
-      "source_model": "moonshot:moonshot-v1-8k",
-      "source_url": "",
-      "page_title": "Bill Maris",
-      "fetched_at": "2026-06-09T18:37:48.302178+00:00",
-      "cliff_notes": "Bill Maris began his career in technology by founding a web hosting and data center company. He later joined Google, where he played a pivotal role in the establishment and leadership of Google Ventures, which became a significant force in venture capital. As the Vice President of Special Projects at Google, Maris was instrumental in the incubation of several high-profile projects, including Waymo, Google X, Calico, and others. His focus on AI and its potential to revolutionize industries led him to found Section 32, a venture capital fund that selectively invests in companies poised to make a significant impact with the advent of AI technology.",
-      "derived": {
-        "current_role": "Founder of Section 32",
-        "former_positions": "Founder and CEO of Google Ventures; Vice President of Special Projects at Google"
-      },
-      "infobox": {
-        "Born": "",
-        "Nationality": ""
-      },
-      "lead_paragraphs": [
-        "Bill Maris began his career in technology by founding a web hosting and data center company. He later joined Google, where he played a pivotal role in the establishment and leadership of Google Ventures, which became a significant force in venture capital. As the Vice President of Special Projects at Google, Maris was instrumental in the incubation of several high-profile projects, including Waymo, Google X, Calico, and others.",
-        "His focus on AI and its potential to revolutionize industries led him to found Section 32, a venture capital fund that selectively invests in companies poised to make a significant impact with the advent of AI technology."
-      ],
-      "sections": [
-        {
-          "heading": "Venture Capital and AI",
-          "body": "Bill Maris is known for his advocacy of using AI in venture capital, aiming to make selective investments in companies that can bring about significant changes with the help of AI technology."
-        },
-        {
-          "heading": "Google Ventures",
-          "body": "As the founder and CEO of Google Ventures, Maris helped shape the venture capital arm of Google, investing in a wide range of startups and playing a role in the development of many successful companies."
-        },
-        {
-          "heading": "Incubation of Major Projects",
-          "body": "In his role as Google's Vice President of Special Projects, Maris was responsible for incubating projects like Waymo, Google X, and Calico, which have gone on to become influential in their respective fields."
-        },
-        {
-          "heading": "Section 32",
-          "body": "Maris founded Section 32, a venture capital fund that focuses on investing in companies that are at the forefront of AI and other transformative technologies, aiming for financial returns and significant societal impact."
-        }
-      ]
-    },
-    "net_worth": "$1.30B"
-  },
-  {
     "id": 121,
     "name": "Lynn Alden",
     "slug": "lynn-alden",
@@ -11126,6 +11061,71 @@
       ]
     },
     "net_worth": "$4.6M"
+  },
+  {
+    "id": 281,
+    "name": "Bill Maris",
+    "slug": "bill-maris",
+    "bio": "Bill Maris is the founder of Section 32, a venture capital fund focused on AI and selective investments. Prior to this, he was the founder and CEO of Google Ventures and Google's Vice President of Special Projects, where he incubated projects like Waymo and Google X.",
+    "known_for": "Advocating for the use of AI in venture capital and making selective investments in transformative technologies.",
+    "net_worth_usd": 1300000000.0,
+    "net_worth_source": "https://www.zenithmaps.com/2557840/unveiling-the-billionaire-bill-maris039/",
+    "net_worth_updated_at": "2026-06-09T13:37:49.429597",
+    "voice_tone": "Confident and knowledgeable.",
+    "voice_style": "Factual and data-driven.",
+    "voice_delivery_notes": "Clear and assertive, with a focus on the transformative potential of AI.",
+    "voice_profile_updated_at": "2026-06-09 18:37:34",
+    "last_seen": "2026-06-09 18:37:34",
+    "last_episode_title": "Bill Maris: How Google Could Crush AI Competitors, Why Small Funds Win, and AI's Atari Stage",
+    "last_podcast_name": "All-In with Chamath, Jason, Sacks & Friedberg",
+    "last_episode_date": "2026-06-09",
+    "mention_score": 1,
+    "mention_score_decayed": 0.08,
+    "last_main_idea": "Invest in smaller, more focused venture capital funds that leverage AI for portfolio construction and consider early-stage investments in foundational AI technologies for long-term gains.",
+    "last_proof_cite": "All-In with Chamath, Jason, Sacks & Friedberg \u2022 2026-06-09 \u2022 Bill Maris: How Google Could Crush AI Competitors, Why Small Funds Win, and AI's Atari Stage",
+    "last_proof_snippet": "After saying he was out, now Bill Maris is returning to the investing world. The founding CEO of Google Ventures has raised $150 million for his new fund, called Section 32. With a smaller fund, I have the advantage to be very selective in",
+    "supporting_takeaway": "AI-driven portfolio construction and investment strategies can provide a competitive edge in venture capital.",
+    "grokipedia_url": null,
+    "grokipedia_fetched_at": "2026-06-09T13:37:48.302408",
+    "pundit_profile": {
+      "source": "llm",
+      "source_model": "moonshot:moonshot-v1-8k",
+      "source_url": "",
+      "page_title": "Bill Maris",
+      "fetched_at": "2026-06-09T18:37:48.302178+00:00",
+      "cliff_notes": "Bill Maris began his career in technology by founding a web hosting and data center company. He later joined Google, where he played a pivotal role in the establishment and leadership of Google Ventures, which became a significant force in venture capital. As the Vice President of Special Projects at Google, Maris was instrumental in the incubation of several high-profile projects, including Waymo, Google X, Calico, and others. His focus on AI and its potential to revolutionize industries led him to found Section 32, a venture capital fund that selectively invests in companies poised to make a significant impact with the advent of AI technology.",
+      "derived": {
+        "current_role": "Founder of Section 32",
+        "former_positions": "Founder and CEO of Google Ventures; Vice President of Special Projects at Google"
+      },
+      "infobox": {
+        "Born": "",
+        "Nationality": ""
+      },
+      "lead_paragraphs": [
+        "Bill Maris began his career in technology by founding a web hosting and data center company. He later joined Google, where he played a pivotal role in the establishment and leadership of Google Ventures, which became a significant force in venture capital. As the Vice President of Special Projects at Google, Maris was instrumental in the incubation of several high-profile projects, including Waymo, Google X, Calico, and others.",
+        "His focus on AI and its potential to revolutionize industries led him to found Section 32, a venture capital fund that selectively invests in companies poised to make a significant impact with the advent of AI technology."
+      ],
+      "sections": [
+        {
+          "heading": "Venture Capital and AI",
+          "body": "Bill Maris is known for his advocacy of using AI in venture capital, aiming to make selective investments in companies that can bring about significant changes with the help of AI technology."
+        },
+        {
+          "heading": "Google Ventures",
+          "body": "As the founder and CEO of Google Ventures, Maris helped shape the venture capital arm of Google, investing in a wide range of startups and playing a role in the development of many successful companies."
+        },
+        {
+          "heading": "Incubation of Major Projects",
+          "body": "In his role as Google's Vice President of Special Projects, Maris was responsible for incubating projects like Waymo, Google X, and Calico, which have gone on to become influential in their respective fields."
+        },
+        {
+          "heading": "Section 32",
+          "body": "Maris founded Section 32, a venture capital fund that focuses on investing in companies that are at the forefront of AI and other transformative technologies, aiming for financial returns and significant societal impact."
+        }
+      ]
+    },
+    "net_worth": "$1.30B"
   },
   {
     "id": 280,
@@ -11680,7 +11680,7 @@
     "last_podcast_name": "All-In with Chamath, Jason, Sacks & Friedberg",
     "last_episode_date": "2026-06-03",
     "mention_score": 1,
-    "mention_score_decayed": 0.08,
+    "mention_score_decayed": 0.07,
     "last_main_idea": "Invest in long-term, durable business quality and undervalued companies with strong fundamentals, particularly in the AI sector.",
     "last_proof_cite": "All-In with Chamath, Jason, Sacks & Friedberg \u2022 2026-06-03 \u2022 Bill Ackman: Investment Strategy, What the Market is Missing, How AI Breaks Businesses",
     "last_proof_snippet": "One of the most provocative and interesting investors in the country. A legendary activist investor. Pershing square CEO and founder Bill Acling. Taking a short position and going public with it is a pretty serious business. Interestingly,",
@@ -12245,7 +12245,7 @@
     "last_podcast_name": "Macro Voices",
     "last_episode_date": "2026-05-21",
     "mention_score": 1,
-    "mention_score_decayed": 0.06,
+    "mention_score_decayed": 0.05,
     "last_main_idea": "Investors should prepare for potential oil price volatility and consider hedging strategies, while also looking for investment opportunities in companies improving inventory efficiency and energy infrastructure projects.",
     "last_proof_cite": "Macro Voices \u2022 2026-05-21 \u2022 MacroVoices #533 Morgan Downey: The Return of Oil 101",
     "last_proof_snippet": "This is Macrovoisers, the Free Weekly Financial Podcast, targeting professional finance, high-net worth individuals, family offices, and other sophisticated investors. Macrovoisers is all about the brightest minds in the world of finance an",
@@ -12304,7 +12304,7 @@
     "last_podcast_name": "The a16z Show",
     "last_episode_date": "2026-05-21",
     "mention_score": 1,
-    "mention_score_decayed": 0.06,
+    "mention_score_decayed": 0.05,
     "last_main_idea": "Invest in products that demonstrate strong product market fit through high user satisfaction and retention, particularly those employing game design principles and targeting the pro-sumur demographic with a premium pricing strategy.",
     "last_proof_cite": "The a16z Show \u2022 2026-05-21 \u2022 How Superhuman Took Over Silicon Valley Email",
     "last_proof_snippet": "Convincing people of things is possibly the hardest thing we have to do as factors, right? And there are so many different audiences, there's investors, there's future co-founders, there's your earliest users, there's the press, there's the",
@@ -13058,7 +13058,7 @@
     "last_podcast_name": "Monetary Matters with Jack Farley",
     "last_episode_date": "2026-05-12",
     "mention_score": 1,
-    "mention_score_decayed": 0.05,
+    "mention_score_decayed": 0.04,
     "last_main_idea": "Invest in private credit funds that capitalize on the retreat of banks from riskier, smaller loans due to regulatory pressures, and consider preferred equity structures for upside potential with downside protection.",
     "last_proof_cite": "Monetary Matters with Jack Farley \u2022 2026-05-12 \u2022 Lending Where the Banks Won\u2019t Go: What\u2019s Fueling Europe\u2019s Growing Real Estate Private Credit Market?",
     "last_proof_snippet": "The dominant media narrative at the moment is direct lending and private credit, a virtually synonymous, but that is obviously not how the industry is structured, but what is definitely true is that direct lending has taken the vast majorit",
