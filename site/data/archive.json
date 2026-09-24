@@ -29,7 +29,7 @@
         "NVDA"
       ],
       "sentiment": "bullish",
-      "display_on_main": 0,
+      "display_on_main": 1,
       "display_order": 0,
       "added_date": "2026-09-23",
       "archived_date": null,
@@ -48,7 +48,7 @@
         "NVDA"
       ],
       "sentiment": "neutral",
-      "display_on_main": 0,
+      "display_on_main": 1,
       "display_order": 0,
       "added_date": "2026-09-23",
       "archived_date": null,
@@ -67,7 +67,7 @@
         "NVDA"
       ],
       "sentiment": "bullish",
-      "display_on_main": 0,
+      "display_on_main": 1,
       "display_order": 0,
       "added_date": "2026-09-23",
       "archived_date": null,
@@ -86,7 +86,7 @@
         "NVDA"
       ],
       "sentiment": "neutral",
-      "display_on_main": 0,
+      "display_on_main": 1,
       "display_order": 0,
       "added_date": "2026-09-23",
       "archived_date": null,
@@ -105,7 +105,7 @@
         "NVDA"
       ],
       "sentiment": "bullish",
-      "display_on_main": 0,
+      "display_on_main": 1,
       "display_order": 0,
       "added_date": "2026-09-22",
       "archived_date": null,
@@ -124,7 +124,7 @@
         "NVDA"
       ],
       "sentiment": "bullish",
-      "display_on_main": 0,
+      "display_on_main": 1,
       "display_order": 0,
       "added_date": "2026-09-22",
       "archived_date": null,
@@ -143,7 +143,7 @@
         "NVDA"
       ],
       "sentiment": "bullish",
-      "display_on_main": 0,
+      "display_on_main": 1,
       "display_order": 0,
       "added_date": "2026-09-22",
       "archived_date": null,
@@ -162,7 +162,7 @@
         "NVDA"
       ],
       "sentiment": "bullish",
-      "display_on_main": 0,
+      "display_on_main": 1,
       "display_order": 0,
       "added_date": "2026-09-23",
       "archived_date": null,
@@ -200,7 +200,7 @@
         "NVDA"
       ],
       "sentiment": "bullish",
-      "display_on_main": 0,
+      "display_on_main": 1,
       "display_order": 0,
       "added_date": "2026-09-22",
       "archived_date": null,
@@ -219,7 +219,7 @@
         "NVDA"
       ],
       "sentiment": "neutral",
-      "display_on_main": 0,
+      "display_on_main": 1,
       "display_order": 0,
       "added_date": "2026-09-22",
       "archived_date": null,
@@ -297,7 +297,7 @@
         "NVDA"
       ],
       "sentiment": "neutral",
-      "display_on_main": 1,
+      "display_on_main": 0,
       "display_order": 0,
       "added_date": "2026-09-19",
       "archived_date": null,
@@ -316,7 +316,7 @@
         "NVDA"
       ],
       "sentiment": "bullish",
-      "display_on_main": 1,
+      "display_on_main": 0,
       "display_order": 0,
       "added_date": "2026-09-19",
       "archived_date": null,
@@ -335,7 +335,7 @@
         "NVDA"
       ],
       "sentiment": "neutral",
-      "display_on_main": 1,
+      "display_on_main": 0,
       "display_order": 0,
       "added_date": "2026-09-19",
       "archived_date": null,
@@ -354,7 +354,7 @@
         "NVDA"
       ],
       "sentiment": "bullish",
-      "display_on_main": 1,
+      "display_on_main": 0,
       "display_order": 0,
       "added_date": "2026-09-19",
       "archived_date": null,
@@ -373,7 +373,7 @@
         "NVDA"
       ],
       "sentiment": "neutral",
-      "display_on_main": 1,
+      "display_on_main": 0,
       "display_order": 0,
       "added_date": "2026-09-17",
       "archived_date": null,
@@ -392,7 +392,7 @@
         "NVDA"
       ],
       "sentiment": "neutral",
-      "display_on_main": 1,
+      "display_on_main": 0,
       "display_order": 0,
       "added_date": "2026-09-18",
       "archived_date": null,
@@ -411,7 +411,7 @@
         "NVDA"
       ],
       "sentiment": "bearish",
-      "display_on_main": 1,
+      "display_on_main": 0,
       "display_order": 0,
       "added_date": "2026-09-19",
       "archived_date": null,
@@ -430,7 +430,7 @@
         "NVDA"
       ],
       "sentiment": "neutral",
-      "display_on_main": 1,
+      "display_on_main": 0,
       "display_order": 0,
       "added_date": "2026-09-17",
       "archived_date": null,
@@ -449,7 +449,7 @@
         "NVDA"
       ],
       "sentiment": "bullish",
-      "display_on_main": 1,
+      "display_on_main": 0,
       "display_order": 0,
       "added_date": "2026-09-17",
       "archived_date": null,
@@ -468,7 +468,7 @@
         "NVDA"
       ],
       "sentiment": "bearish",
-      "display_on_main": 1,
+      "display_on_main": 0,
       "display_order": 0,
       "added_date": "2026-09-17",
       "archived_date": null,
