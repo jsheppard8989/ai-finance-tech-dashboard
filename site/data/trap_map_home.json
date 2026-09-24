@@ -1,17 +1,17 @@
 {
   "_comment": "Home page summary of Trap Map. Regenerate from trap_map.json when a trap datapoint is stamped. Script hook: pipeline/regenerate_trap_home.py",
-  "_generated_at": "2026-09-24T11:43:28Z",
+  "_generated_at": "2026-09-24T13:38:43Z",
   "_source": "data/trap_map.json",
   "last_monitored": [
     {
-      "id": "trap-1-power-interconnect",
-      "short_title": "Power + DC interconnect",
-      "status": "WATCH",
-      "updated_at": "2026-09-23"
-    },
-    {
       "id": "buyback-confession-captive-duration",
       "short_title": "Buyback / captive duration",
+      "status": "WATCH",
+      "updated_at": "2026-09-24"
+    },
+    {
+      "id": "trap-1-power-interconnect",
+      "short_title": "Power + DC interconnect",
       "status": "WATCH",
       "updated_at": "2026-09-23"
     },
@@ -34,9 +34,9 @@
       "what": "Sep 16 CLLSCO posted draft OATT 34.2 Retail BTMG redline (50 MW site cap; transition to Dec 18 2028)"
     },
     {
-      "trap_id": "iren-ai-cloud-residual",
-      "date_label": "Horizon window = calendar Q4 2026 (check by early Jan 2027); Q1 FY27 10-Q after quarter ended 2026-09-30 (IR date UNKNOWN as of 2026-09-22); Expression ongoing",
-      "what": "Any Horizon 2\u20134 acceptance 8-K; IR-confirmed Q1 FY27 earnings date then that 10-Q; intervening ATM/c"
+      "trap_id": "buyback-confession-captive-duration",
+      "date_label": "7Y AFTER 2026-09-24; Aug PCE 2026-09-30; Nov 4 2026 refunding",
+      "what": "Sep 24 7Y $44bn AFTER when printed; Sep 30 Aug PCE (shared settle with 2s/5s/7s); Nov 4 2026 QRA buy"
     }
   ]
 }

@@ -120,13 +120,13 @@
       "title": "Cleared, no relief",
       "prior_label": "Buyback as confession",
       "validation_status": "WATCH",
-      "status_note": "",
+      "status_note": "Sep 23 5Y $70bn AFTER soft: HY 5.033%, BTC 2.21, indirects 54.3%, PD 15.8%, tail 8.3 bp (softest BTC + fattest tail vs Jun–Aug 5Y strip). Official CMT next day 10y 5.11% / 30y 5.40% (+15/+11 bp vs 9/22). Soft belly cover at elevated clear is not long-end relief — still Watch into Nov 4 QRA. Sep 22 2Y AFTER No change at elevated clear (HY 4.787 / BTC 2.63). Sep 24 7Y AFTER pending.",
       "who_collects_rent": "Whoever is forced or structurally bid to warehouse long-end duration (banks/pensions under repression; issuer as standing long-end bid via enlarged buybacks) while coupon supply continues.",
       "leftover": "Narratives that treat buybacks as one-off 'support' while private sponsorship of the long end remains thin.",
-      "decisive_test": "Sep 9 10Y STAMPED (PASS); Sep 10 30Y STAMPED (PASS); Sep 10 $6bn buyback op: $5.187bn accepted / $10.489bn offered (86.5% of max; 23/40 issues); Nov 4 QRA buyback maxes.",
+      "decisive_test": "Sep 9 10Y STAMPED (PASS); Sep 10 30Y STAMPED (PASS); Sep 10 $6bn buyback op: $5.187bn accepted / $10.489bn offered (86.5% of max; 23/40 issues); Sep 22 2Y AFTER No change (HY 4.787 / BTC 2.63); Sep 23 5Y AFTER Hurts (HY 5.033 / BTC 2.21 / tail 8.3 bp); Nov 4 QRA buyback maxes.",
       "next_datapoint": {
-        "label": "Nov 4 2026 Quarterly Refunding buyback sizes. Sep 9 10Y + Sep 10 30Y STAMPED strong; Sep 10 buyback $5.187bn/$6bn max accepted ($10.489bn offered).",
-        "expected_date": "Nov 4 2026 refunding"
+        "label": "Sep 24 7Y $44bn AFTER when printed; Sep 30 Aug PCE (shared settle with 2s/5s/7s); Nov 4 2026 QRA buyback sizes. Belly so far: 2Y Sep 22 No change (HY 4.787 / BTC 2.63); 5Y Sep 23 Hurts (HY 5.033 / BTC 2.21 / tail 8.3 bp); CMT 9/23 10y 5.11 / 30y 5.40.",
+        "expected_date": "7Y AFTER 2026-09-24; Aug PCE 2026-09-30; Nov 4 2026 refunding"
       },
       "relegate_if": "Strong private auction sponsorship makes buybacks cosmetic; or Nov 4 refunding cuts buyback sizes so the structural state-bid claim dies.",
       "sources": [
@@ -134,9 +134,12 @@
         "Treasury 30Y reopen 2026-09-10 CUSIP 912810UW6 — $22bn; high 5.308%; BTC 2.61; indirects 79.5%; dealers 2.2%; median 5.250% (PASS — private bid intact at elevated clear)",
         "Treasury buyback 2026-09-10 10Y–20Y — max $6.000bn; offered $10.489bn; accepted $5.187bn (86.5% of max); 23/40 issues (BBR_20260910174000)",
         "Treasury SB0607 — long-end buybacks ≥$4bn through Nov 4 2026",
-        "FRED CMT series / Treasury refunding documents (Nov 4 2026)"
+        "FRED CMT series / Treasury refunding documents (Nov 4 2026)",
+        "Treasury 2Y auction 2026-09-22 CUSIP 91282CRP8 — $69bn; HY 4.787%; BTC 2.63; indirects 57.8%; PD 13.2%; tail 4.9 bp — https://www.treasurydirect.gov/instit/annceresult/press/preanre/2026/R_20260922_2.pdf",
+        "Treasury 5Y auction 2026-09-23 CUSIP 91282CRN3 — $70bn; HY 5.033%; BTC 2.21; indirects 54.3%; PD 15.8%; tail 8.3 bp (softest BTC + fattest tail vs Jun–Aug strip) — https://www.treasurydirect.gov/instit/annceresult/press/preanre/2026/R_20260923_3.pdf",
+        "Treasury daily CMT par curve 2026-09-23 — 2y 4.85%; 5y 4.99%; 10y 5.11%; 20y 5.45%; 30y 5.40%; 2s10s +26 bp; 10s30s +29 bp — https://home.treasury.gov/resource-center/data-chart-center/interest-rates/TextView?type=daily_treasury_yield_curve&field_tdr_date_value_month=202609"
       ],
-      "updated_at": "2026-09-23",
+      "updated_at": "2026-09-24",
       "drop_if": "Strong private auction sponsorship makes buybacks cosmetic; or Nov 4 refunding cuts buyback sizes so the structural state-bid claim dies.",
       "outlook_note": "Duration sponsorship is the price of warehousing coupons when clearance is not relief. Machine-time and tokenization can raise calm-period velocity of wealth; they do not turn stress into money, and they do not free captive absorbers from the long-end cost of capital."
     },
