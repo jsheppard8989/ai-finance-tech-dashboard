@@ -113,25 +113,95 @@ def _looks_like_person_name(term: str) -> bool:
     )
 
 
+# Explicit company/product names that are not Overton idea-radar terms.
+# Keep lowercase. Jared yes 2026-09-24 (Bending Spoon) — extend as needed.
+_COMPANY_OR_PRODUCT_DENYLIST = {
+    "bending spoon",
+    "bending spoons",
+}
+
+_COMPANY_SUFFIXES = (
+    "inc",
+    "inc.",
+    "llc",
+    "l.l.c.",
+    "ltd",
+    "ltd.",
+    "corp",
+    "corp.",
+    "corporation",
+    "company",
+    "co.",
+    "gmbh",
+    "ag",
+    "plc",
+    "plc.",
+    "s.p.a.",
+    "spa",
+    "nv",
+    "sa",
+    "s.a.",
+)
+
+
+def _looks_like_company_or_product(term: str) -> bool:
+    """
+    Hard filter: company/product names must not land in Overton via auto-curate.
+    Complements overton_demote.json (client hide) with a pipeline reject.
+    """
+    if not term:
+        return False
+    raw = str(term).strip()
+    key = " ".join(raw.lower().split())
+    if key in _COMPANY_OR_PRODUCT_DENYLIST:
+        return True
+    parts = raw.split()
+    if len(parts) >= 2:
+        last = parts[-1].rstrip(",.").lower()
+        if last in _COMPANY_SUFFIXES:
+            return True
+    return False
+
+
+def _reject_suggested_term(db, term_data, reason: str, label: str) -> bool:
+    """Mark a suggested term rejected; return False for promote callers."""
+    term = term_data.get("term", "")
+    with db._get_connection() as conn:
+        conn.execute(
+            """
+            UPDATE suggested_terms
+            SET status = 'rejected',
+                reviewed_at = CURRENT_TIMESTAMP,
+                review_notes = ?
+            WHERE id = ?
+            """,
+            (reason, term_data["id"]),
+        )
+    print(f"  ⏭️  SKIPPED ({label}): '{term}'")
+    return False
+
+
 def auto_promote_term(db, term_data):
     """Promote a term to Definitions and to Overton Window (overton_terms)."""
     term = term_data.get('term', '')
 
     # Hard rule: do not promote personal names into Definitions/Overton.
     if _looks_like_person_name(term):
-        with db._get_connection() as conn:
-            conn.execute(
-                """
-                UPDATE suggested_terms
-                SET status = 'rejected',
-                    reviewed_at = CURRENT_TIMESTAMP,
-                    review_notes = 'Rejected: looks like a personal name (excluded from Overton Window)'
-                WHERE id = ?
-                """,
-                (term_data['id'],),
-            )
-        print(f"  ⏭️  SKIPPED (person name): '{term}'")
-        return False
+        return _reject_suggested_term(
+            db,
+            term_data,
+            "Rejected: looks like a personal name (excluded from Overton Window)",
+            "person name",
+        )
+
+    # Hard rule: do not promote company/product names into Definitions/Overton.
+    if _looks_like_company_or_product(term):
+        return _reject_suggested_term(
+            db,
+            term_data,
+            "Rejected: looks like a company/product name (excluded from Overton Window)",
+            "company/product",
+        )
 
     with db._get_connection() as conn:
         # Check if already in definitions
@@ -342,6 +412,16 @@ def main():
     skipped = 0
     
     for term in pending_terms:
+        if _looks_like_company_or_product(term.get("term", "")):
+            _reject_suggested_term(
+                db,
+                term,
+                "Rejected: looks like a company/product name (excluded from Overton Window)",
+                "company/product",
+            )
+            skipped += 1
+            continue
+
         if not meets_recurrence_gate(term):
             skipped += 1
             print(
