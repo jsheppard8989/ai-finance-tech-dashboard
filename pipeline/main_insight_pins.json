@@ -1,28 +1,28 @@
 {
   "description": "Insight IDs forced onto the main Latest Insights list (max 10 total). Pins consume slots first; remaining slots fill by source_date DESC among insights that have deep_dive_content. Used by sync_main_insights_with_deepdives.",
   "pinned_insight_ids": [
-    511,
-    513,
-    514,
-    515,
-    508,
-    510,
-    512,
-    503,
-    504,
-    505
+    530,
+    529,
+    528,
+    527,
+    526,
+    524,
+    523,
+    522,
+    521,
+    520
   ],
   "notes": [
-    "Top 10 newest eligible by episode release date (skip culture one-offs like hip-hop #516)",
-    "511 = All-In / Bill Gurley: Searching for Feynman (2026-09-19)",
-    "513 = a16z / Josh Elman: Consumer AI Products (2026-09-19)",
-    "514 = Monetary Matters / David Busch: 30-Year Treasury (2026-09-19)",
-    "515 = Moonshots / Vlad Tenev: Tokenizing Everything (2026-09-19)",
-    "508 = All-In / Nick Shirley: Government Fraud (2026-09-18)",
-    "510 = All-In / Jared Isaacman: NASA Space Era (2026-09-18)",
-    "512 = a16z / Databricks CEO: AI Pacing (2026-09-18)",
-    "503 = All-In / Brad Gerstner: No AI Bubble (2026-09-17)",
-    "504 = a16z / AI Video Control (2026-09-17)",
-    "505 = Dwarkesh / Noam Brown: Agent swarms (2026-09-17)"
+    "Top 10 newest eligible by episode release date (skip #516 a16z hip-hop culture; #525 Hilton/Pratt CA politics)",
+    "530 = 2026-09-23 All-In / Luca Ferrari, Bending Spoons CEO",
+    "529 = 2026-09-23 Latent Space / Bio-security AI arms race \u2014 Eric Nguyen (Radical Numerics)",
+    "528 = 2026-09-23 Monetary Matters / Eric Wallerstein \u2014 energy shock + rate hikes bear risk",
+    "527 = 2026-09-23 a16z / Amjad Masad rethinking college for AI",
+    "526 = 2026-09-22 Moonshots AMA #293",
+    "524 = 2026-09-22 Latent Space / John Platt \u2014 AI for science",
+    "523 = 2026-09-22 a16z / Ben Horowitz new school for AI era",
+    "522 = 2026-09-22 All-In / Blake Scholl Boom \u2014 plane speed",
+    "521 = 2026-09-21 Latent Space / Jev\u2013Diogo Almeida TypeSafe",
+    "520 = 2026-09-21 All-In / Naveen Rao 4D computing + energy wall"
   ]
 }
