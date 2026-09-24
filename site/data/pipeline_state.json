@@ -1,7 +1,7 @@
 {
-  "generated_at": "2026-09-23T23:54:47.679296",
-  "last_updated": "2026-09-23T23:54:47.679296",
-  "last_pipeline_run": "2026-09-23T23:54:47.679296",
+  "generated_at": "2026-09-24T05:11:37.530890",
+  "last_updated": "2026-09-24T05:11:37.530890",
+  "last_pipeline_run": "2026-09-24T05:11:37.530890",
   "main_page": {
     "overton": 13,
     "insights": 10,
@@ -15,54 +15,17 @@
     "overton_terms_total": 137,
     "latest_insights_total": 502,
     "today_mentions": {},
-    "podcasts_analyzed": 6
+    "podcasts_analyzed": 0
   },
   "step_results": {
-    "downloaded": 2,
-    "transcribed": 2,
-    "analyzed": 2,
-    "insight_created": 2,
-    "published": 2,
-    "total": 2
+    "downloaded": 0,
+    "transcribed": 0,
+    "analyzed": 0,
+    "insight_created": 0,
+    "published": 0,
+    "total": 0
   },
-  "episodes": [
-    {
-      "id": "cbcb6353-9937-4c25-9f83-93e1f096d3e6",
-      "podcast": "All-In with Chamath, Jason, Sacks & Friedberg",
-      "title": "Luca Ferrari, Bending Spoons CEO: The $40K Origin Story, Buying Product-Market Fit & Why Private Equity Can't Compete",
-      "published": "2026-09-23",
-      "rss_guid": "cbcb6353-9937-4c25-9f83-93e1f096d3e6",
-      "stages": {
-        "downloaded": true,
-        "transcribed": true,
-        "analyzed": true,
-        "insight_created": true,
-        "published": true
-      },
-      "stage_reasons": {},
-      "first_blocker": null,
-      "remediation_by_stage": {},
-      "status": "complete"
-    },
-    {
-      "id": "substack:post:216723291",
-      "podcast": "Latent Space: The AI Engineer Podcast",
-      "title": "\ud83d\udd2cBio-security is an AI Arms Race - Eric Nguyen (CEO, Radical Numerics)",
-      "published": "2026-09-23",
-      "rss_guid": "substack:post:216723291",
-      "stages": {
-        "downloaded": true,
-        "transcribed": true,
-        "analyzed": true,
-        "insight_created": true,
-        "published": true
-      },
-      "stage_reasons": {},
-      "first_blocker": null,
-      "remediation_by_stage": {},
-      "status": "complete"
-    }
-  ],
+  "episodes": [],
   "available_from_rss": [],
   "stale_episodes": [],
   "stale_threshold_days": 2,

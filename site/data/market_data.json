@@ -1,6 +1,6 @@
 {
   "_comment": "First-class market data objects for the idea radar. Treasury auctions, curve snapshots, and positioning data.",
-  "_updated": "2026-09-23",
+  "_updated": "2026-09-24",
   "_data_status": "live",
   "schema_version": 1,
   "treasury_calendar": {
@@ -86,7 +86,7 @@
     "_primary_source": "Treasury.gov",
     "_source_url": "https://home.treasury.gov/resource-center/data-chart-center/interest-rates/TextView?type=daily_treasury_yield_curve",
     "_fred_status": "unavailable (optional)",
-    "last_updated": "2026-09-23T23:54:36.402580",
+    "last_updated": "2026-09-24T05:11:26.053795",
     "as_of_date": "2026-09-23",
     "spreads": {
       "2s10s": {
@@ -145,7 +145,7 @@
     "_fetch_url": "https://www.cftc.gov/dea/futures/financial_lf.htm",
     "_api_alternative": "Quandl CFTC dataset (may need key)",
     "_fetch_instructions": "CFTC releases COT every Friday at 3:30pm ET for positions as of prior Tuesday.",
-    "last_updated": "2026-09-23T23:54:36.722347",
+    "last_updated": "2026-09-24T05:11:26.392226",
     "report_date": "2026-09-15",
     "prior_report_date": null,
     "rates_positioning": {
@@ -234,7 +234,7 @@
     "_source_url": "https://gpu-index.semianalysis.com/",
     "_api_url": "https://gpu-index.semianalysis.com/api/public-data",
     "_data_type": "api_index",
-    "last_fetched": "2026-09-23T23:54:20.188742",
+    "last_fetched": "2026-09-24T05:11:10.161855",
     "h100": {
       "daily_date": "Sep 24, 2026",
       "daily_date_iso": "2026-09-24",
@@ -334,9 +334,9 @@
     "b200": {
       "daily_date": "Sep 24, 2026",
       "composite_index": {
-        "display": "$5.79",
+        "display": "$5.80",
         "type": "single",
-        "value": 5.79
+        "value": 5.8
       }
     },
     "history_summary": {

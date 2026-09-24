@@ -3,1043 +3,1043 @@
 
 const dashboardData = {
   schemaVersion: 2,
-  generatedAt: "2026-09-23T23:54:51.948068",
-  chartsVersion: "2026-09-23T23:54:44.478965",
+  generatedAt: "2026-09-24T05:11:41.914289",
+  chartsVersion: "2026-09-24T05:11:34.325517",
   priceSnapshot: {
   "AAPL": {
     "price": 337.02,
     "change_pct": 2.68,
     "name": "Apple Inc.",
-    "updated_at": "2026-09-23T23:53:47.228021",
+    "updated_at": "2026-09-24T05:10:36.526237",
     "price_14d_ago": 328.21
   },
   "AEP": {
     "price": 118.4,
     "change_pct": -5.06,
     "name": "American Electric Power Company",
-    "updated_at": "2026-09-23T23:53:47.442367",
+    "updated_at": "2026-09-24T05:10:36.736007",
     "price_14d_ago": 124.71
   },
   "AMD": {
     "price": 614.61,
     "change_pct": 34.74,
     "name": "Advanced Micro Devices, Inc.",
-    "updated_at": "2026-09-23T23:53:47.609357",
+    "updated_at": "2026-09-24T05:10:36.911119",
     "price_14d_ago": 456.16
   },
   "AMGN": {
     "price": 406.09,
     "change_pct": -8.56,
     "name": "Amgen Inc.",
-    "updated_at": "2026-09-23T23:53:47.790163",
+    "updated_at": "2026-09-24T05:10:37.171251",
     "price_14d_ago": 444.12
   },
   "AMZN": {
     "price": 249.27,
     "change_pct": -3.72,
     "name": "Amazon.com, Inc.",
-    "updated_at": "2026-09-23T23:53:48.026467",
+    "updated_at": "2026-09-24T05:10:37.336377",
     "price_14d_ago": 258.9
   },
   "APO": {
     "price": 124.36,
     "change_pct": -7.53,
     "name": "Apollo Global Management, Inc. ",
-    "updated_at": "2026-09-23T23:53:48.213608",
+    "updated_at": "2026-09-24T05:10:37.520599",
     "price_14d_ago": 134.49
   },
   "APTV": {
     "price": 45.17,
     "change_pct": -2.92,
     "name": "Aptiv PLC",
-    "updated_at": "2026-09-23T23:53:48.388431",
+    "updated_at": "2026-09-24T05:10:37.689288",
     "price_14d_ago": 46.53
   },
   "AVGO": {
     "price": 354.99,
     "change_pct": -0.61,
     "name": "Broadcom Inc.",
-    "updated_at": "2026-09-23T23:53:48.577376",
+    "updated_at": "2026-09-24T05:10:37.877366",
     "price_14d_ago": 357.16
   },
   "BA": {
     "price": 199.93,
     "change_pct": -5.03,
     "name": "Boeing Company (The)",
-    "updated_at": "2026-09-23T23:53:48.963742",
+    "updated_at": "2026-09-24T05:10:38.272390",
     "price_14d_ago": 210.51
   },
   "BABA": {
     "price": 110.8,
     "change_pct": -0.9,
     "name": "Alibaba Group Holding Limited",
-    "updated_at": "2026-09-23T23:53:49.139806",
+    "updated_at": "2026-09-24T05:10:38.443928",
     "price_14d_ago": 111.81
   },
   "BAC": {
     "price": 56.0,
     "change_pct": -11.17,
     "name": "Bank of America Corporation",
-    "updated_at": "2026-09-23T23:53:49.339864",
+    "updated_at": "2026-09-24T05:10:38.641855",
     "price_14d_ago": 63.04
   },
   "BAM": {
     "price": 45.26,
     "change_pct": -10.0,
     "name": "Brookfield Asset Management Inc",
-    "updated_at": "2026-09-23T23:53:49.507208",
+    "updated_at": "2026-09-24T05:10:38.822113",
     "price_14d_ago": 50.29
   },
   "BIDU": {
     "price": 89.78,
     "change_pct": -6.07,
     "name": "Baidu, Inc.",
-    "updated_at": "2026-09-23T23:53:49.843131",
+    "updated_at": "2026-09-24T05:10:39.156719",
     "price_14d_ago": 95.58
   },
   "BP": {
     "price": 44.49,
     "change_pct": 2.09,
     "name": "BP p.l.c.",
-    "updated_at": "2026-09-23T23:53:50.230435",
+    "updated_at": "2026-09-24T05:10:39.546200",
     "price_14d_ago": 43.58
   },
   "BTC": {
-    "price": 83859.76,
-    "change_pct": 8.66,
+    "price": 83295.93,
+    "change_pct": 7.93,
     "name": "Bitcoin USD",
-    "updated_at": "2026-09-23T23:53:50.392715",
+    "updated_at": "2026-09-24T05:10:39.710021",
     "price_14d_ago": 77173.8
   },
   "BTC-USD": {
-    "price": 83859.76,
-    "change_pct": 8.66,
+    "price": 83295.93,
+    "change_pct": 7.93,
     "name": "Bitcoin USD",
-    "updated_at": "2026-09-23T23:53:50.551167",
+    "updated_at": "2026-09-24T05:10:39.877095",
     "price_14d_ago": 77173.8
   },
   "BX": {
     "price": 119.27,
     "change_pct": -13.37,
     "name": "Blackstone Inc.",
-    "updated_at": "2026-09-23T23:53:50.728700",
+    "updated_at": "2026-09-24T05:10:40.064336",
     "price_14d_ago": 137.68
   },
   "BYD": {
     "price": 71.74,
     "change_pct": -7.78,
     "name": "Boyd Gaming Corporation",
-    "updated_at": "2026-09-23T23:53:50.916848",
+    "updated_at": "2026-09-24T05:10:40.257010",
     "price_14d_ago": 77.79
   },
   "CAT": {
     "price": 812.02,
     "change_pct": 1.48,
     "name": "Caterpillar, Inc.",
-    "updated_at": "2026-09-23T23:53:51.310971",
+    "updated_at": "2026-09-24T05:10:40.634318",
     "price_14d_ago": 800.14
   },
   "CCJ": {
     "price": 90.8,
     "change_pct": -9.76,
     "name": "Cameco Corporation",
-    "updated_at": "2026-09-23T23:53:51.514768",
+    "updated_at": "2026-09-24T05:10:40.821287",
     "price_14d_ago": 100.62
   },
   "CEG": {
     "price": 263.88,
     "change_pct": -7.43,
     "name": "Constellation Energy Corporatio",
-    "updated_at": "2026-09-23T23:53:51.681476",
+    "updated_at": "2026-09-24T05:10:40.988276",
     "price_14d_ago": 285.05
   },
   "COIN": {
     "price": 198.13,
     "change_pct": 2.82,
     "name": "Coinbase Global, Inc.",
-    "updated_at": "2026-09-23T23:53:51.849321",
+    "updated_at": "2026-09-24T05:10:41.154830",
     "price_14d_ago": 192.7
   },
   "COPPER": {
-    "price": 6.76,
-    "change_pct": 2.45,
+    "price": 6.75,
+    "change_pct": 2.3,
     "name": "Copper",
-    "updated_at": "2026-09-23T23:53:52.034844",
+    "updated_at": "2026-09-24T05:10:41.318221",
     "price_14d_ago": 6.6
   },
   "CORN": {
     "price": 19.76,
     "change_pct": -2.03,
     "name": "Teucrium Corn Fund ETV",
-    "updated_at": "2026-09-23T23:53:52.199968",
+    "updated_at": "2026-09-24T05:10:41.484252",
     "price_14d_ago": 20.17
   },
   "CRM": {
     "price": 237.58,
     "change_pct": -10.15,
     "name": "Salesforce, Inc.",
-    "updated_at": "2026-09-23T23:53:52.408138",
+    "updated_at": "2026-09-24T05:10:41.660582",
     "price_14d_ago": 264.43
   },
   "CROWD": {
     "price": 262.49,
     "change_pct": 22.11,
     "name": "CrowdStrike Holdings, Inc.",
-    "updated_at": "2026-09-23T23:53:52.569722",
+    "updated_at": "2026-09-24T05:10:41.823024",
     "price_14d_ago": 214.97
   },
   "DBC": {
     "price": 32.88,
     "change_pct": 2.88,
     "name": "Invesco DB Commodity Index Trac",
-    "updated_at": "2026-09-23T23:53:52.904752",
+    "updated_at": "2026-09-24T05:10:42.172073",
     "price_14d_ago": 31.96
   },
   "DELL": {
     "price": 549.83,
     "change_pct": 6.48,
     "name": "Dell Technologies Inc.",
-    "updated_at": "2026-09-23T23:53:53.081025",
+    "updated_at": "2026-09-24T05:10:42.345262",
     "price_14d_ago": 516.39
   },
   "DIS": {
     "price": 103.46,
     "change_pct": -3.45,
     "name": "Walt Disney Company (The)",
-    "updated_at": "2026-09-23T23:53:53.310947",
+    "updated_at": "2026-09-24T05:10:42.562525",
     "price_14d_ago": 107.16
   },
   "DOCS": {
     "price": 26.57,
     "change_pct": -1.96,
     "name": "Doximity, Inc.",
-    "updated_at": "2026-09-23T23:53:53.464765",
+    "updated_at": "2026-09-24T05:10:42.727286",
     "price_14d_ago": 27.1
   },
   "DVN": {
     "price": 48.04,
     "change_pct": -1.54,
     "name": "Devon Energy Corporation",
-    "updated_at": "2026-09-23T23:53:53.651936",
+    "updated_at": "2026-09-24T05:10:42.923820",
     "price_14d_ago": 48.79
   },
   "EBAY": {
     "price": 109.09,
     "change_pct": 3.05,
     "name": "eBay Inc.",
-    "updated_at": "2026-09-23T23:53:53.816989",
+    "updated_at": "2026-09-24T05:10:43.097582",
     "price_14d_ago": 105.86
   },
   "ETH-USD": {
-    "price": 2677.58,
-    "change_pct": 6.48,
+    "price": 2640.66,
+    "change_pct": 5.01,
     "name": "Ethereum USD",
-    "updated_at": "2026-09-23T23:53:53.981856",
+    "updated_at": "2026-09-24T05:10:43.259867",
     "price_14d_ago": 2514.73
   },
   "F": {
     "price": 12.94,
     "change_pct": -10.2,
     "name": "Ford Motor Company",
-    "updated_at": "2026-09-23T23:53:54.188812",
+    "updated_at": "2026-09-24T05:10:43.527546",
     "price_14d_ago": 14.41
   },
   "FB": {
     "price": 45.61,
     "change_pct": 0.62,
     "name": "ProShares S&P 500 Dynamic Buffe",
-    "updated_at": "2026-09-23T23:53:54.350118",
+    "updated_at": "2026-09-24T05:10:43.690928",
     "price_14d_ago": 45.33
   },
   "FCX": {
     "price": 72.58,
     "change_pct": 0.03,
     "name": "Freeport-McMoRan, Inc.",
-    "updated_at": "2026-09-23T23:53:54.537950",
+    "updated_at": "2026-09-24T05:10:43.882316",
     "price_14d_ago": 72.56
   },
   "FSK": {
     "price": 11.17,
     "change_pct": -9.41,
     "name": "FS KKR Capital Corp.",
-    "updated_at": "2026-09-23T23:53:55.031970",
+    "updated_at": "2026-09-24T05:10:44.380135",
     "price_14d_ago": 12.33
   },
   "GC": {
     "price": 0,
     "change_pct": 0,
     "name": "Gold",
-    "updated_at": "2026-09-23T23:53:55.191148",
+    "updated_at": "2026-09-24T05:10:44.546975",
     "price_14d_ago": null
   },
   "GD": {
     "price": 343.33,
     "change_pct": -6.16,
     "name": "General Dynamics Corporation",
-    "updated_at": "2026-09-23T23:53:55.396984",
+    "updated_at": "2026-09-24T05:10:44.760262",
     "price_14d_ago": 365.87
   },
   "GE": {
     "price": 319.8,
     "change_pct": -4.1,
     "name": "GE Aerospace",
-    "updated_at": "2026-09-23T23:53:55.609158",
+    "updated_at": "2026-09-24T05:10:44.982446",
     "price_14d_ago": 333.48
   },
   "GLD": {
     "price": 392.88,
     "change_pct": -4.23,
     "name": "SPDR Gold Shares",
-    "updated_at": "2026-09-23T23:53:55.767146",
+    "updated_at": "2026-09-24T05:10:45.146616",
     "price_14d_ago": 410.22
   },
   "GME": {
     "price": 24.2,
     "change_pct": 25.85,
     "name": "GameStop Corporation",
-    "updated_at": "2026-09-23T23:53:56.000742",
+    "updated_at": "2026-09-24T05:10:45.326748",
     "price_14d_ago": 19.23
   },
   "GOLD": {
-    "price": 4321.6,
-    "change_pct": -3.46,
+    "price": 4291.8,
+    "change_pct": -4.13,
     "name": "Gold",
-    "updated_at": "2026-09-23T23:53:56.157076",
+    "updated_at": "2026-09-24T05:10:45.553618",
     "price_14d_ago": 4476.6
   },
   "GOOG": {
     "price": 334.98,
     "change_pct": -1.21,
     "name": "Alphabet Inc.",
-    "updated_at": "2026-09-23T23:53:56.314485",
+    "updated_at": "2026-09-24T05:10:45.717653",
     "price_14d_ago": 339.08
   },
   "GOOGL": {
     "price": 337.83,
     "change_pct": -1.36,
     "name": "Alphabet Inc.",
-    "updated_at": "2026-09-23T23:53:56.476934",
+    "updated_at": "2026-09-24T05:10:45.883937",
     "price_14d_ago": 342.48
   },
   "GS": {
     "price": 936.36,
     "change_pct": -9.79,
     "name": "Goldman Sachs Group, Inc. (The)",
-    "updated_at": "2026-09-23T23:53:56.652701",
+    "updated_at": "2026-09-24T05:10:46.069176",
     "price_14d_ago": 1037.93
   },
   "Gold": {
     "price": 43.48,
     "change_pct": 4.82,
     "name": "Gold.com, Inc.",
-    "updated_at": "2026-09-23T23:53:56.821330",
+    "updated_at": "2026-09-24T05:10:46.243386",
     "price_14d_ago": 41.48
   },
   "HFGM": {
     "price": 31.91,
     "change_pct": 1.03,
     "name": "Unlimited HFGM Global Macro ETF",
-    "updated_at": "2026-09-23T23:53:56.982884",
+    "updated_at": "2026-09-24T05:10:46.411742",
     "price_14d_ago": 31.58
   },
   "HG": {
     "price": 33.47,
     "change_pct": -7.31,
     "name": "Hamilton Insurance Group, Ltd.",
-    "updated_at": "2026-09-23T23:53:57.136786",
+    "updated_at": "2026-09-24T05:10:46.573274",
     "price_14d_ago": 36.11
   },
   "IBM": {
     "price": 232.76,
     "change_pct": -0.83,
     "name": "International Business Machines",
-    "updated_at": "2026-09-23T23:53:57.496108",
+    "updated_at": "2026-09-24T05:10:46.963339",
     "price_14d_ago": 234.71
   },
   "IEF": {
     "price": 90.19,
     "change_pct": -2.26,
     "name": "iShares 7-10 Year Treasury Bond",
-    "updated_at": "2026-09-23T23:53:57.672293",
+    "updated_at": "2026-09-24T05:10:47.158435",
     "price_14d_ago": 92.28
   },
   "INDA": {
     "price": 48.05,
     "change_pct": -3.75,
     "name": "Ishares MSCI India ETF",
-    "updated_at": "2026-09-23T23:53:57.844018",
+    "updated_at": "2026-09-24T05:10:47.413317",
     "price_14d_ago": 49.92
   },
   "INFY": {
     "price": 10.75,
     "change_pct": -11.08,
     "name": "Infosys Limited",
-    "updated_at": "2026-09-23T23:53:58.030970",
+    "updated_at": "2026-09-24T05:10:47.600366",
     "price_14d_ago": 12.09
   },
   "INTC": {
     "price": 122.6,
     "change_pct": 33.74,
     "name": "Intel Corporation",
-    "updated_at": "2026-09-23T23:53:58.221707",
+    "updated_at": "2026-09-24T05:10:47.793280",
     "price_14d_ago": 91.67
   },
   "IWD": {
     "price": 251.42,
     "change_pct": -3.07,
     "name": "iShares Russell 1000 Value ETF",
-    "updated_at": "2026-09-23T23:53:58.418419",
+    "updated_at": "2026-09-24T05:10:47.989308",
     "price_14d_ago": 259.38
   },
   "IWF": {
     "price": 125.39,
     "change_pct": 1.59,
     "name": "iShares Russell 1000 Growth Fun",
-    "updated_at": "2026-09-23T23:53:58.606315",
+    "updated_at": "2026-09-24T05:10:48.174118",
     "price_14d_ago": 123.43
   },
   "IWM": {
     "price": 281.92,
     "change_pct": -4.5,
     "name": "iShares Russell 2000 Index Fund",
-    "updated_at": "2026-09-23T23:53:58.788685",
+    "updated_at": "2026-09-24T05:10:48.371182",
     "price_14d_ago": 295.19
   },
   "JNJ": {
     "price": 269.17,
     "change_pct": -3.33,
     "name": "Johnson & Johnson",
-    "updated_at": "2026-09-23T23:53:59.005878",
+    "updated_at": "2026-09-24T05:10:48.601662",
     "price_14d_ago": 278.43
   },
   "JPM": {
     "price": 337.53,
     "change_pct": -6.78,
     "name": "JP Morgan Chase & Co.",
-    "updated_at": "2026-09-23T23:53:59.215648",
+    "updated_at": "2026-09-24T05:10:48.801555",
     "price_14d_ago": 362.06
   },
   "KKR": {
     "price": 97.21,
     "change_pct": -11.43,
     "name": "KKR & Co. Inc.",
-    "updated_at": "2026-09-23T23:53:59.395929",
+    "updated_at": "2026-09-24T05:10:48.979841",
     "price_14d_ago": 109.76
   },
   "LLY": {
     "price": 1150.99,
     "change_pct": -0.74,
     "name": "Eli Lilly and Company",
-    "updated_at": "2026-09-23T23:53:59.602161",
+    "updated_at": "2026-09-24T05:10:49.185078",
     "price_14d_ago": 1159.6
   },
   "LMT": {
     "price": 524.68,
     "change_pct": -1.55,
     "name": "Lockheed Martin Corporation",
-    "updated_at": "2026-09-23T23:53:59.831042",
+    "updated_at": "2026-09-24T05:10:49.467441",
     "price_14d_ago": 532.95
   },
   "LYFT": {
     "price": 14.77,
     "change_pct": -14.53,
     "name": "Lyft, Inc.",
-    "updated_at": "2026-09-23T23:54:00.328666",
+    "updated_at": "2026-09-24T05:10:49.952278",
     "price_14d_ago": 17.28
   },
   "META": {
     "price": 744.1,
     "change_pct": 21.85,
     "name": "Meta Platforms, Inc.",
-    "updated_at": "2026-09-23T23:54:00.508247",
+    "updated_at": "2026-09-24T05:10:50.217782",
     "price_14d_ago": 610.68
   },
   "MGM": {
     "price": 37.85,
     "change_pct": -7.97,
     "name": "MGM Resorts International",
-    "updated_at": "2026-09-23T23:54:00.692100",
+    "updated_at": "2026-09-24T05:10:50.407336",
     "price_14d_ago": 41.13
   },
   "MINE": {
     "price": 2.84,
     "change_pct": -12.88,
     "name": "Mayfair Gold Corp.",
-    "updated_at": "2026-09-23T23:54:00.861561",
+    "updated_at": "2026-09-24T05:10:50.570543",
     "price_14d_ago": 3.26
   },
   "MRK": {
     "price": 148.08,
     "change_pct": -2.8,
     "name": "Merck & Company, Inc.",
-    "updated_at": "2026-09-23T23:54:01.081339",
+    "updated_at": "2026-09-24T05:10:50.784694",
     "price_14d_ago": 152.34
   },
   "MRNA": {
     "price": 182.11,
     "change_pct": 22.33,
     "name": "Moderna, Inc.",
-    "updated_at": "2026-09-23T23:54:01.251187",
+    "updated_at": "2026-09-24T05:10:50.949843",
     "price_14d_ago": 148.87
   },
   "MS": {
     "price": 198.39,
     "change_pct": -8.64,
     "name": "Morgan Stanley",
-    "updated_at": "2026-09-23T23:54:01.444299",
+    "updated_at": "2026-09-24T05:10:51.154636",
     "price_14d_ago": 217.15
   },
   "MSFT": {
     "price": 500.59,
     "change_pct": -1.87,
     "name": "Microsoft Corporation",
-    "updated_at": "2026-09-23T23:54:01.641079",
+    "updated_at": "2026-09-24T05:10:51.343144",
     "price_14d_ago": 510.12
   },
   "MSTR": {
     "price": 162.2,
     "change_pct": 12.0,
     "name": "Strategy Inc",
-    "updated_at": "2026-09-23T23:54:01.809417",
+    "updated_at": "2026-09-24T05:10:51.511531",
     "price_14d_ago": 144.82
   },
   "MU": {
     "price": 1071.88,
     "change_pct": 11.87,
     "name": "Micron Technology, Inc.",
-    "updated_at": "2026-09-23T23:54:02.006925",
+    "updated_at": "2026-09-24T05:10:51.703177",
     "price_14d_ago": 958.16
   },
   "NEE": {
     "price": 77.02,
     "change_pct": -8.37,
     "name": "NextEra Energy, Inc.",
-    "updated_at": "2026-09-23T23:54:02.226347",
+    "updated_at": "2026-09-24T05:10:51.909028",
     "price_14d_ago": 84.06
   },
   "NFLX": {
     "price": 71.36,
     "change_pct": -13.68,
     "name": "Netflix, Inc.",
-    "updated_at": "2026-09-23T23:54:02.390467",
+    "updated_at": "2026-09-24T05:10:52.073951",
     "price_14d_ago": 82.67
   },
   "NKE": {
     "price": 36.05,
     "change_pct": -7.02,
     "name": "Nike, Inc.",
-    "updated_at": "2026-09-23T23:54:02.917378",
+    "updated_at": "2026-09-24T05:10:52.575684",
     "price_14d_ago": 38.77
   },
   "NOC": {
     "price": 514.42,
     "change_pct": -2.62,
     "name": "Northrop Grumman Corporation",
-    "updated_at": "2026-09-23T23:54:03.113817",
+    "updated_at": "2026-09-24T05:10:52.773345",
     "price_14d_ago": 528.24
   },
   "NVDA": {
     "price": 225.51,
     "change_pct": -1.29,
     "name": "NVIDIA Corporation",
-    "updated_at": "2026-09-23T23:54:03.291702",
+    "updated_at": "2026-09-24T05:10:52.949383",
     "price_14d_ago": 228.45
   },
   "NVS": {
     "price": 142.71,
     "change_pct": -12.5,
     "name": "Novartis AG",
-    "updated_at": "2026-09-23T23:54:03.637669",
+    "updated_at": "2026-09-24T05:10:53.291984",
     "price_14d_ago": 163.09
   },
   "Nasdaq": {
     "price": 741.21,
     "change_pct": 3.28,
     "name": "Invesco QQQ Trust, Series 1",
-    "updated_at": "2026-09-23T23:54:03.838300",
+    "updated_at": "2026-09-24T05:10:53.479728",
     "price_14d_ago": 717.67
   },
   "OKLO": {
     "price": 38.82,
     "change_pct": -2.56,
     "name": "Oklo Inc.",
-    "updated_at": "2026-09-23T23:54:04.173990",
+    "updated_at": "2026-09-24T05:10:53.864349",
     "price_14d_ago": 39.84
   },
   "ORCL": {
     "price": 144.56,
     "change_pct": -6.15,
     "name": "Oracle Corporation",
-    "updated_at": "2026-09-23T23:54:04.513721",
+    "updated_at": "2026-09-24T05:10:54.200484",
     "price_14d_ago": 154.04
   },
   "PALL": {
     "price": 22.95,
     "change_pct": -11.01,
     "name": "abrdn Physical Palladium Shares",
-    "updated_at": "2026-09-23T23:54:04.681272",
+    "updated_at": "2026-09-24T05:10:54.359734",
     "price_14d_ago": 25.79
   },
   "PANW": {
     "price": 393.3,
     "change_pct": 18.49,
     "name": "Palo Alto Networks, Inc.",
-    "updated_at": "2026-09-23T23:54:04.847755",
+    "updated_at": "2026-09-24T05:10:54.522194",
     "price_14d_ago": 331.94
   },
   "PBR": {
     "price": 21.14,
     "change_pct": 3.07,
     "name": "Petroleo Brasileiro S.A. Petrob",
-    "updated_at": "2026-09-23T23:54:05.030283",
+    "updated_at": "2026-09-24T05:10:54.704580",
     "price_14d_ago": 20.51
   },
   "PFE": {
     "price": 28.18,
     "change_pct": -2.19,
     "name": "Pfizer, Inc.",
-    "updated_at": "2026-09-23T23:54:05.405616",
+    "updated_at": "2026-09-24T05:10:55.177361",
     "price_14d_ago": 28.81
   },
   "PLTM": {
     "price": 16.79,
     "change_pct": -3.84,
     "name": "GraniteShares Platinum Shares E",
-    "updated_at": "2026-09-23T23:54:05.571433",
+    "updated_at": "2026-09-24T05:10:55.341762",
     "price_14d_ago": 17.46
   },
   "PLTR": {
     "price": 191.79,
     "change_pct": 5.07,
     "name": "Palantir Technologies Inc.",
-    "updated_at": "2026-09-23T23:54:05.736089",
+    "updated_at": "2026-09-24T05:10:55.500924",
     "price_14d_ago": 182.53
   },
   "PQT": {
     "price": 0,
     "change_pct": 0,
     "name": "PQT",
-    "updated_at": "2026-09-23T23:54:06.073478",
+    "updated_at": "2026-09-24T05:10:55.817693",
     "price_14d_ago": null
   },
   "PQUS": {
     "price": 28.67,
     "change_pct": -0.14,
     "name": "Pictet AI Enhanced US Equity ET",
-    "updated_at": "2026-09-23T23:54:06.241866",
+    "updated_at": "2026-09-24T05:10:55.977698",
     "price_14d_ago": 28.71
   },
   "PSBD": {
     "price": 10.37,
     "change_pct": 0.1,
     "name": "Palmer Square Capital BDC Inc.",
-    "updated_at": "2026-09-23T23:54:06.411930",
+    "updated_at": "2026-09-24T05:10:56.147855",
     "price_14d_ago": 10.36
   },
   "PYPL": {
     "price": 52.51,
     "change_pct": -7.59,
     "name": "PayPal Holdings, Inc.",
-    "updated_at": "2026-09-23T23:54:06.577596",
+    "updated_at": "2026-09-24T05:10:56.306538",
     "price_14d_ago": 56.82
   },
   "QQQ": {
     "price": 741.21,
     "change_pct": 3.28,
     "name": "Invesco QQQ Trust, Series 1",
-    "updated_at": "2026-09-23T23:54:06.770809",
+    "updated_at": "2026-09-24T05:10:56.483261",
     "price_14d_ago": 717.67
   },
   "QTA": {
     "price": 0,
     "change_pct": 0,
     "name": "QTA",
-    "updated_at": "2026-09-23T23:54:06.940215",
+    "updated_at": "2026-09-24T05:10:56.644524",
     "price_14d_ago": null
   },
   "RBLX": {
     "price": 48.99,
     "change_pct": 18.02,
     "name": "Roblox Corporation",
-    "updated_at": "2026-09-23T23:54:07.103215",
+    "updated_at": "2026-09-24T05:10:56.805754",
     "price_14d_ago": 41.51
   },
   "RKLB": {
     "price": 70.31,
     "change_pct": 10.19,
     "name": "Rocket Lab Corporation",
-    "updated_at": "2026-09-23T23:54:07.267310",
+    "updated_at": "2026-09-24T05:10:56.972070",
     "price_14d_ago": 63.81
   },
   "Russell": {
     "price": 281.92,
     "change_pct": -4.5,
     "name": "iShares Russell 2000 Index Fund",
-    "updated_at": "2026-09-23T23:54:07.449743",
+    "updated_at": "2026-09-24T05:10:57.151607",
     "price_14d_ago": 295.19
   },
   "S&P": {
     "price": 7706.03,
     "change_pct": -0.54,
     "name": "S&P 500",
-    "updated_at": "2026-09-23T23:54:07.613943",
+    "updated_at": "2026-09-24T05:10:57.322547",
     "price_14d_ago": 7747.71
   },
   "S&P 500": {
     "price": 7706.03,
     "change_pct": -0.54,
     "name": "S&P 500",
-    "updated_at": "2026-09-23T23:54:07.784298",
+    "updated_at": "2026-09-24T05:10:57.487939",
     "price_14d_ago": 7747.71
   },
   "SAMSUNG ELECTRONICS": {
     "price": 285500.0,
     "change_pct": 11.74,
     "name": "SamsungElec",
-    "updated_at": "2026-09-23T23:54:07.972965",
+    "updated_at": "2026-09-24T05:10:57.669363",
     "price_14d_ago": 255500.0
   },
   "SAP": {
     "price": 210.62,
     "change_pct": -2.95,
     "name": "SAP  SE",
-    "updated_at": "2026-09-23T23:54:08.164862",
+    "updated_at": "2026-09-24T05:10:57.857279",
     "price_14d_ago": 217.03
   },
   "SF": {
     "price": 71.93,
     "change_pct": -12.58,
     "name": "Stifel Financial Corporation",
-    "updated_at": "2026-09-23T23:54:08.353950",
+    "updated_at": "2026-09-24T05:10:58.054152",
     "price_14d_ago": 82.28
   },
   "SK HYNIX": {
     "price": 1862000.0,
     "change_pct": 13.05,
     "name": "SK hynix",
-    "updated_at": "2026-09-23T23:54:08.547914",
+    "updated_at": "2026-09-24T05:10:58.249562",
     "price_14d_ago": 1647000.0
   },
   "SLB": {
     "price": 51.87,
     "change_pct": -9.65,
     "name": "SLB Limited",
-    "updated_at": "2026-09-23T23:54:08.757509",
+    "updated_at": "2026-09-24T05:10:58.447187",
     "price_14d_ago": 57.41
   },
   "SMH": {
     "price": 601.41,
     "change_pct": 8.83,
     "name": "VanEck Semiconductor ETF",
-    "updated_at": "2026-09-23T23:54:08.936205",
+    "updated_at": "2026-09-24T05:10:58.615253",
     "price_14d_ago": 552.6
   },
   "SMP-500": {
     "price": 7706.03,
     "change_pct": -0.54,
     "name": "S&P 500",
-    "updated_at": "2026-09-23T23:54:09.099338",
+    "updated_at": "2026-09-24T05:10:58.777939",
     "price_14d_ago": 7747.71
   },
   "SMR": {
     "price": 8.68,
     "change_pct": -10.97,
     "name": "NuScale Power Corporation",
-    "updated_at": "2026-09-23T23:54:09.265158",
+    "updated_at": "2026-09-24T05:10:58.941287",
     "price_14d_ago": 9.75
   },
   "SNAP": {
     "price": 5.29,
     "change_pct": -7.19,
     "name": "Snap Inc.",
-    "updated_at": "2026-09-23T23:54:09.432921",
+    "updated_at": "2026-09-24T05:10:59.108359",
     "price_14d_ago": 5.7
   },
   "SNWGF": {
     "price": 11.68,
     "change_pct": -8.18,
     "name": "SNOWLINE GOLD CORP",
-    "updated_at": "2026-09-23T23:54:09.605537",
+    "updated_at": "2026-09-24T05:10:59.284883",
     "price_14d_ago": 12.72
   },
   "SOYB": {
     "price": 27.99,
     "change_pct": 0.72,
     "name": "Teucrium Soybean Fund ETV",
-    "updated_at": "2026-09-23T23:54:09.772451",
+    "updated_at": "2026-09-24T05:10:59.449634",
     "price_14d_ago": 27.79
   },
   "SPCE": {
     "price": 3.12,
     "change_pct": 5.41,
     "name": "Virgin Galactic Holdings, Inc.",
-    "updated_at": "2026-09-23T23:54:09.942181",
+    "updated_at": "2026-09-24T05:10:59.633579",
     "price_14d_ago": 2.96
   },
   "SPX": {
     "price": 7706.03,
     "change_pct": -0.54,
     "name": "S&P 500",
-    "updated_at": "2026-09-23T23:54:10.276709",
+    "updated_at": "2026-09-24T05:10:59.963460",
     "price_14d_ago": 7747.71
   },
   "SPY": {
     "price": 767.81,
     "change_pct": -0.69,
     "name": "State Street SPDR S&P 500 ETF T",
-    "updated_at": "2026-09-23T23:54:10.474118",
+    "updated_at": "2026-09-24T05:11:00.160573",
     "price_14d_ago": 773.17
   },
   "SQQQ": {
     "price": 34.14,
     "change_pct": -10.95,
     "name": "ProShares UltraPro Short QQQ",
-    "updated_at": "2026-09-23T23:54:10.668761",
+    "updated_at": "2026-09-24T05:11:00.335861",
     "price_14d_ago": 38.34
   },
   "SQUARE": {
     "price": 74.68,
     "change_pct": -10.42,
     "name": "Block, Inc.",
-    "updated_at": "2026-09-23T23:54:10.833527",
+    "updated_at": "2026-09-24T05:11:00.571800",
     "price_14d_ago": 83.37
   },
   "Semiconductors": {
     "price": 601.41,
     "change_pct": 8.83,
     "name": "VanEck Semiconductor ETF",
-    "updated_at": "2026-09-23T23:54:11.019249",
+    "updated_at": "2026-09-24T05:11:00.754979",
     "price_14d_ago": 552.6
   },
   "T": {
     "price": 25.3,
     "change_pct": -3.4,
     "name": "AT&T Inc.",
-    "updated_at": "2026-09-23T23:54:11.214841",
+    "updated_at": "2026-09-24T05:11:00.957477",
     "price_14d_ago": 26.19
   },
   "TDOC": {
     "price": 6.13,
     "change_pct": -5.26,
     "name": "Teladoc Health, Inc.",
-    "updated_at": "2026-09-23T23:54:11.386135",
+    "updated_at": "2026-09-24T05:11:01.154106",
     "price_14d_ago": 6.47
   },
   "TIPS": {
     "price": 0.0,
     "change_pct": -50.0,
     "name": "Tianrong Internet Products and ",
-    "updated_at": "2026-09-23T23:54:11.885445",
+    "updated_at": "2026-09-24T05:11:01.652059",
     "price_14d_ago": 0.0
   },
   "TLT": {
     "price": 80.46,
     "change_pct": -1.96,
     "name": "iShares 20+ Year Treasury Bond ",
-    "updated_at": "2026-09-23T23:54:12.071929",
+    "updated_at": "2026-09-24T05:11:01.843253",
     "price_14d_ago": 82.07
   },
   "TSLA": {
     "price": 380.12,
     "change_pct": 1.0,
     "name": "Tesla, Inc.",
-    "updated_at": "2026-09-23T23:54:12.236516",
+    "updated_at": "2026-09-24T05:11:02.010854",
     "price_14d_ago": 376.37
   },
   "TSM": {
     "price": 446.57,
     "change_pct": 7.09,
     "name": "Taiwan Semiconductor Manufactur",
-    "updated_at": "2026-09-23T23:54:12.419306",
+    "updated_at": "2026-09-24T05:11:02.196652",
     "price_14d_ago": 417.01
   },
   "UBER": {
     "price": 69.42,
     "change_pct": -8.61,
     "name": "Uber Technologies, Inc.",
-    "updated_at": "2026-09-23T23:54:12.753965",
+    "updated_at": "2026-09-24T05:11:02.537403",
     "price_14d_ago": 75.96
   },
   "UNG": {
     "price": 10.87,
     "change_pct": 3.62,
     "name": "United States Natural Gas Fund ",
-    "updated_at": "2026-09-23T23:54:12.927217",
+    "updated_at": "2026-09-24T05:11:02.771741",
     "price_14d_ago": 10.49
   },
   "URANIUM": {
     "price": 41.99,
     "change_pct": -8.12,
     "name": "Uranium ETF",
-    "updated_at": "2026-09-23T23:54:13.275108",
+    "updated_at": "2026-09-24T05:11:03.113870",
     "price_14d_ago": 45.7
   },
   "USD": {
     "price": 94.69,
     "change_pct": 11.18,
     "name": "ProShares Ultra Semiconductors",
-    "updated_at": "2026-09-23T23:54:13.474110",
+    "updated_at": "2026-09-24T05:11:03.318159",
     "price_14d_ago": 85.17
   },
   "USDX": {
     "price": 25.58,
     "change_pct": 0.15,
     "name": "SGI Enhanced Core ETF",
-    "updated_at": "2026-09-23T23:54:13.637788",
+    "updated_at": "2026-09-24T05:11:03.494830",
     "price_14d_ago": 25.54
   },
   "USO": {
     "price": 148.83,
     "change_pct": 4.74,
     "name": "United States Oil Fund",
-    "updated_at": "2026-09-23T23:54:13.798270",
+    "updated_at": "2026-09-24T05:11:03.661332",
     "price_14d_ago": 142.09
   },
   "UTHR": {
     "price": 489.42,
     "change_pct": -0.17,
     "name": "United Therapeutics Corporation",
-    "updated_at": "2026-09-23T23:54:13.962503",
+    "updated_at": "2026-09-24T05:11:03.830211",
     "price_14d_ago": 490.24
   },
   "UUU": {
     "price": 5.05,
     "change_pct": -6.13,
     "name": "Universal Safety Products, Inc.",
-    "updated_at": "2026-09-23T23:54:14.129600",
+    "updated_at": "2026-09-24T05:11:03.996026",
     "price_14d_ago": 5.38
   },
   "V": {
     "price": 361.52,
     "change_pct": -4.55,
     "name": "Visa Inc.",
-    "updated_at": "2026-09-23T23:54:14.474006",
+    "updated_at": "2026-09-24T05:11:04.496617",
     "price_14d_ago": 378.75
   },
   "VEEV": {
     "price": 270.75,
     "change_pct": -4.79,
     "name": "Veeva Systems Inc.",
-    "updated_at": "2026-09-23T23:54:14.798246",
+    "updated_at": "2026-09-24T05:11:04.829089",
     "price_14d_ago": 284.38
   },
   "VIX": {
-    "price": 15.18,
-    "change_pct": 4.47,
+    "price": 16.4,
+    "change_pct": 7.19,
     "name": "CBOE Volatility Index",
-    "updated_at": "2026-09-23T23:54:15.424443",
-    "price_14d_ago": 14.53
+    "updated_at": "2026-09-24T05:11:05.321079",
+    "price_14d_ago": 15.3
   },
   "VLO": {
     "price": 375.84,
     "change_pct": 1.39,
     "name": "Valero Energy Corporation",
-    "updated_at": "2026-09-23T23:54:15.631333",
+    "updated_at": "2026-09-24T05:11:05.524060",
     "price_14d_ago": 370.69
   },
   "VRTX": {
     "price": 516.34,
     "change_pct": -7.46,
     "name": "Vertex Pharmaceuticals Incorpor",
-    "updated_at": "2026-09-23T23:54:15.802655",
+    "updated_at": "2026-09-24T05:11:05.689079",
     "price_14d_ago": 557.96
   },
   "WFC": {
     "price": 81.9,
     "change_pct": -8.17,
     "name": "Wells Fargo & Company",
-    "updated_at": "2026-09-23T23:54:16.024115",
+    "updated_at": "2026-09-24T05:11:05.904147",
     "price_14d_ago": 89.19
   },
   "WIT": {
     "price": 1.69,
     "change_pct": -6.11,
     "name": "Wipro Limited",
-    "updated_at": "2026-09-23T23:54:16.210727",
+    "updated_at": "2026-09-24T05:11:06.093242",
     "price_14d_ago": 1.8
   },
   "WMT": {
     "price": 110.53,
     "change_pct": 1.95,
     "name": "Walmart Inc.",
-    "updated_at": "2026-09-23T23:54:16.430569",
+    "updated_at": "2026-09-24T05:11:06.361158",
     "price_14d_ago": 108.42
   },
   "WTBN": {
     "price": 24.23,
     "change_pct": -1.71,
     "name": "WisdomTree Bianco Total Return ",
-    "updated_at": "2026-09-23T23:54:16.603730",
+    "updated_at": "2026-09-24T05:11:06.527547",
     "price_14d_ago": 24.65
   },
   "WTI": {
-    "price": 91.43,
-    "change_pct": -0.05,
+    "price": 93.75,
+    "change_pct": 2.48,
     "name": "WTI Crude",
-    "updated_at": "2026-09-23T23:54:16.763879",
+    "updated_at": "2026-09-24T05:11:06.692811",
     "price_14d_ago": 91.48
   },
   "WTI CRUDE OIL": {
-    "price": 91.43,
-    "change_pct": -0.05,
+    "price": 93.75,
+    "change_pct": 2.48,
     "name": "WTI Crude",
-    "updated_at": "2026-09-23T23:54:16.926480",
+    "updated_at": "2026-09-24T05:11:06.861519",
     "price_14d_ago": 91.48
   },
   "XAU-USD": {
     "price": 0,
     "change_pct": 0,
     "name": "XAU9999 Meme USD",
-    "updated_at": "2026-09-23T23:54:17.258712",
+    "updated_at": "2026-09-24T05:11:07.188978",
     "price_14d_ago": 0.0
   },
   "XOM": {
     "price": 161.23,
     "change_pct": -0.6,
     "name": "ExxonMobil Holdings Corporation",
-    "updated_at": "2026-09-23T23:54:17.495518",
+    "updated_at": "2026-09-24T05:11:07.409536",
     "price_14d_ago": 162.21
   },
   "ZIM": {
     "price": 30.09,
     "change_pct": 9.06,
     "name": "ZIM Integrated Shipping Service",
-    "updated_at": "2026-09-23T23:54:17.824510",
+    "updated_at": "2026-09-24T05:11:07.740992",
     "price_14d_ago": 27.59
   },
   "HIMS": {
     "price": 28.39,
     "change_pct": 2.05,
     "name": "Hims & Hers Health, Inc.",
-    "updated_at": "2026-09-23T23:54:18.147848",
+    "updated_at": "2026-09-24T05:11:08.067344",
     "price_14d_ago": 27.82
   },
   "GDRX": {
     "price": 3.32,
     "change_pct": -5.95,
     "name": "GoodRx Holdings, Inc.",
-    "updated_at": "2026-09-23T23:54:18.317725",
+    "updated_at": "2026-09-24T05:11:08.233763",
     "price_14d_ago": 3.53
   },
   "TEM": {
     "price": 76.59,
     "change_pct": 18.45,
     "name": "Tempus AI, Inc.",
-    "updated_at": "2026-09-23T23:54:18.488172",
+    "updated_at": "2026-09-24T05:11:08.396736",
     "price_14d_ago": 64.66
   },
   "GH": {
     "price": 176.31,
     "change_pct": 9.48,
     "name": "Guardant Health, Inc.",
-    "updated_at": "2026-09-23T23:54:18.652193",
+    "updated_at": "2026-09-24T05:11:08.560854",
     "price_14d_ago": 161.04
   },
   "ABT": {
     "price": 103.49,
     "change_pct": -4.87,
     "name": "Abbott Laboratories",
-    "updated_at": "2026-09-23T23:54:18.855891",
+    "updated_at": "2026-09-24T05:11:08.757631",
     "price_14d_ago": 108.79
   }
 },
@@ -14051,8 +14051,8 @@ const dashboardData = {
       "first_detected_speaker": "",
       "last_mentioned_episode_id": 515,
       "last_mentioned_speaker": "Eric Gwyn",
-      "novelty_score": 2.6835,
-      "overton_score": 2.6835,
+      "novelty_score": 2.6584,
+      "overton_score": 2.6584,
       "resonance_pct": 83,
       "is_established": false,
       "first_detected_podcast": "The a16z Show",
@@ -14079,8 +14079,8 @@ const dashboardData = {
       "first_detected_speaker": "",
       "last_mentioned_episode_id": 491,
       "last_mentioned_speaker": "Dwarkesh Patel (hosts)",
-      "novelty_score": 2.4884,
-      "overton_score": 2.4884,
+      "novelty_score": 2.4654,
+      "overton_score": 2.4654,
       "resonance_pct": 81,
       "is_established": false,
       "first_detected_podcast": "The a16z Show",
@@ -14107,8 +14107,8 @@ const dashboardData = {
       "first_detected_speaker": "Chamath Palihapitiya, Jason Calacanis (hosts)",
       "last_mentioned_episode_id": 500,
       "last_mentioned_speaker": "Peter Diamandis (hosts)",
-      "novelty_score": 2.2702,
-      "overton_score": 2.2702,
+      "novelty_score": 2.2486,
+      "overton_score": 2.2486,
       "resonance_pct": 79,
       "is_established": false,
       "first_detected_podcast": "All-In with Chamath, Jason, Sacks & Friedberg",
@@ -14135,8 +14135,8 @@ const dashboardData = {
       "first_detected_speaker": "Victor Hagani",
       "last_mentioned_episode_id": 500,
       "last_mentioned_speaker": "Peter Diamandis (hosts)",
-      "novelty_score": 2.0128,
-      "overton_score": 2.0128,
+      "novelty_score": 1.9932,
+      "overton_score": 1.9932,
       "resonance_pct": 76,
       "is_established": false,
       "first_detected_podcast": "Monetary Matters with Jack Farley",
@@ -14163,9 +14163,9 @@ const dashboardData = {
       "first_detected_speaker": "Michael Kratsios",
       "last_mentioned_episode_id": 463,
       "last_mentioned_speaker": "Astra Research Team",
-      "novelty_score": 1.9514,
-      "overton_score": 1.9514,
-      "resonance_pct": 76,
+      "novelty_score": 1.9332,
+      "overton_score": 1.9332,
+      "resonance_pct": 75,
       "is_established": false,
       "first_detected_podcast": "Moonshots with Peter Diamandis",
       "first_detected_episode_title": "Michael Kratsios on the New Golden Age of American Science | EP #276",
@@ -14191,8 +14191,8 @@ const dashboardData = {
       "first_detected_speaker": "Mark Andrewson, Chris Dixon",
       "last_mentioned_episode_id": 454,
       "last_mentioned_speaker": "Luke Groman",
-      "novelty_score": 1.8886,
-      "overton_score": 1.8886,
+      "novelty_score": 1.8712,
+      "overton_score": 1.8712,
       "resonance_pct": 75,
       "is_established": false,
       "first_detected_podcast": "The a16z Show",
@@ -14219,8 +14219,8 @@ const dashboardData = {
       "first_detected_speaker": "Peter Diamandis",
       "last_mentioned_episode_id": 478,
       "last_mentioned_speaker": "Martin Rothblatt",
-      "novelty_score": 1.8657,
-      "overton_score": 1.8657,
+      "novelty_score": 1.8476,
+      "overton_score": 1.8476,
       "resonance_pct": 74,
       "is_established": false,
       "first_detected_podcast": "Moonshots with Peter Diamandis",
@@ -14247,8 +14247,8 @@ const dashboardData = {
       "first_detected_speaker": "",
       "last_mentioned_episode_id": 505,
       "last_mentioned_speaker": "",
-      "novelty_score": 1.8241,
-      "overton_score": 1.8241,
+      "novelty_score": 1.8058,
+      "overton_score": 1.8058,
       "resonance_pct": 74,
       "is_established": false,
       "first_detected_podcast": "Moonshots with Peter Diamandis",
@@ -14275,9 +14275,9 @@ const dashboardData = {
       "first_detected_speaker": "",
       "last_mentioned_episode_id": 475,
       "last_mentioned_speaker": "Peter Diamandis (hosts)",
-      "novelty_score": 1.7932,
-      "overton_score": 1.7932,
-      "resonance_pct": 74,
+      "novelty_score": 1.7759,
+      "overton_score": 1.7759,
+      "resonance_pct": 73,
       "is_established": false,
       "first_detected_podcast": "Moonshots with Peter Diamandis",
       "first_detected_episode_title": "SpaceX\u2019 $75B+ Historic IPO, GPT 5.5 Outperforms Polymarket, and AI Solves 80 yr old math problem | EP #257",
@@ -14303,8 +14303,8 @@ const dashboardData = {
       "first_detected_speaker": "",
       "last_mentioned_episode_id": 506,
       "last_mentioned_speaker": "Naveen Rau",
-      "novelty_score": 1.6339,
-      "overton_score": 1.6339,
+      "novelty_score": 1.617,
+      "overton_score": 1.617,
       "resonance_pct": 71,
       "is_established": false,
       "first_detected_podcast": "Moonshots with Peter Diamandis",
@@ -14331,8 +14331,8 @@ const dashboardData = {
       "first_detected_speaker": "Chris Seminoch",
       "last_mentioned_episode_id": 502,
       "last_mentioned_speaker": "Jeremy Boyet",
-      "novelty_score": 1.6094,
-      "overton_score": 1.6094,
+      "novelty_score": 1.5928,
+      "overton_score": 1.5928,
       "resonance_pct": 71,
       "is_established": false,
       "first_detected_podcast": "Monetary Matters with Jack Farley",
@@ -14359,9 +14359,9 @@ const dashboardData = {
       "first_detected_speaker": "",
       "last_mentioned_episode_id": 474,
       "last_mentioned_speaker": "Justin Johnson",
-      "novelty_score": 1.5908,
-      "overton_score": 1.5908,
-      "resonance_pct": 71,
+      "novelty_score": 1.575,
+      "overton_score": 1.575,
+      "resonance_pct": 70,
       "is_established": false,
       "first_detected_podcast": "The a16z Show",
       "first_detected_episode_title": "Fei-Fei Li on Spatial Intelligence and Robotics",
@@ -14387,8 +14387,8 @@ const dashboardData = {
       "first_detected_speaker": "Jack Farley (hosts)",
       "last_mentioned_episode_id": 462,
       "last_mentioned_speaker": "Lukasz Kaiser",
-      "novelty_score": 1.5064,
-      "overton_score": 1.5064,
+      "novelty_score": 1.4917,
+      "overton_score": 1.4917,
       "resonance_pct": 69,
       "is_established": false,
       "first_detected_podcast": "Monetary Matters with Jack Farley",
@@ -14417,9 +14417,9 @@ const dashboardData = {
       "first_detected_speaker": "Demis Hassabis",
       "last_mentioned_episode_id": 505,
       "last_mentioned_speaker": "",
-      "novelty_score": 0.5445,
-      "overton_score": 0.5445,
-      "resonance_pct": 47,
+      "novelty_score": 0.5359,
+      "overton_score": 0.5359,
+      "resonance_pct": 46,
       "is_established": true,
       "first_detected_podcast": "Moonshots with Peter Diamandis",
       "first_detected_episode_title": "Demis Hassabis on AGI, Robots Scale Production, and Elon\u2019s $1T Mars-Shot Comp | EP #253",
@@ -14445,8 +14445,8 @@ const dashboardData = {
       "first_detected_speaker": "Travis Kalanick, Ben Horowitz",
       "last_mentioned_episode_id": 512,
       "last_mentioned_speaker": "Amjag Masad",
-      "novelty_score": 0.6472,
-      "overton_score": 0.6472,
+      "novelty_score": 0.6377,
+      "overton_score": 0.6377,
       "resonance_pct": 50,
       "is_established": true,
       "first_detected_podcast": "The a16z Show",
@@ -14473,8 +14473,8 @@ const dashboardData = {
       "first_detected_speaker": "Leakwet Ahamed",
       "last_mentioned_episode_id": 513,
       "last_mentioned_speaker": "Jack Farley (hosts)",
-      "novelty_score": 0.5593,
-      "overton_score": 0.5593,
+      "novelty_score": 0.5504,
+      "overton_score": 0.5504,
       "resonance_pct": 47,
       "is_established": true,
       "first_detected_podcast": "Monetary Matters with Jack Farley",
@@ -14501,9 +14501,9 @@ const dashboardData = {
       "first_detected_speaker": "",
       "last_mentioned_episode_id": 498,
       "last_mentioned_speaker": "Josh Elman",
-      "novelty_score": 0.4745,
-      "overton_score": 0.4745,
-      "resonance_pct": 44,
+      "novelty_score": 0.4667,
+      "overton_score": 0.4667,
+      "resonance_pct": 43,
       "is_established": true,
       "first_detected_podcast": "The a16z Show",
       "first_detected_episode_title": "The New Rules of Media | Marc Andreessen & Ben Horowitz",
@@ -44074,11 +44074,11 @@ const dashboardData = {
     "definition": null,
     "investment_implications": null,
     "source_type": "auto_extracted",
-    "mention_count": 2,
-    "source_diversity": 1,
-    "relevance_score": 30,
+    "mention_count": 3,
+    "source_diversity": 2,
+    "relevance_score": 35,
     "submitted_date": "2026-09-24 04:54:44",
-    "priority_score": 70
+    "priority_score": 105
   },
   {
     "id": 757,
@@ -44119,7 +44119,7 @@ const dashboardData = {
 ],
   podcastGuests: [
   {
-    "id": 73432,
+    "id": 73541,
     "name": "Steve Hilton & Spencer Pratt",
     "slug": "steve-hilton--spencer-pratt",
     "bio": null,
@@ -44131,7 +44131,7 @@ const dashboardData = {
     "appearance_count": 1
   },
   {
-    "id": 73433,
+    "id": 73542,
     "name": "Blake Scholl",
     "slug": "blake-scholl",
     "bio": null,
@@ -44143,7 +44143,7 @@ const dashboardData = {
     "appearance_count": 1
   },
   {
-    "id": 73434,
+    "id": 73543,
     "name": "John Platt",
     "slug": "john-platt",
     "bio": null,
@@ -44155,7 +44155,7 @@ const dashboardData = {
     "appearance_count": 1
   },
   {
-    "id": 73435,
+    "id": 73544,
     "name": "Diogo Almeida",
     "slug": "diogo-almeida",
     "bio": null,
@@ -44167,7 +44167,7 @@ const dashboardData = {
     "appearance_count": 1
   },
   {
-    "id": 73436,
+    "id": 73545,
     "name": "Naveen Rao",
     "slug": "naveen-rao",
     "bio": null,
@@ -44179,7 +44179,7 @@ const dashboardData = {
     "appearance_count": 1
   },
   {
-    "id": 73437,
+    "id": 73546,
     "name": "Outlook on 5 Key Commodities",
     "slug": "outlook-on-5-key-commodities",
     "bio": null,
@@ -44191,7 +44191,7 @@ const dashboardData = {
     "appearance_count": 1
   },
   {
-    "id": 73438,
+    "id": 73547,
     "name": "Bill Gurley",
     "slug": "bill-gurley",
     "bio": null,
@@ -44203,7 +44203,7 @@ const dashboardData = {
     "appearance_count": 1
   },
   {
-    "id": 73439,
+    "id": 73548,
     "name": "Nick Shirley",
     "slug": "nick-shirley",
     "bio": null,
@@ -44215,7 +44215,7 @@ const dashboardData = {
     "appearance_count": 1
   },
   {
-    "id": 73440,
+    "id": 73549,
     "name": "Jared Isaacman",
     "slug": "jared-isaacman",
     "bio": null,
@@ -44227,7 +44227,7 @@ const dashboardData = {
     "appearance_count": 1
   },
   {
-    "id": 73441,
+    "id": 73550,
     "name": "Brad Gerstner",
     "slug": "brad-gerstner",
     "bio": null,
@@ -44239,7 +44239,7 @@ const dashboardData = {
     "appearance_count": 1
   },
   {
-    "id": 73442,
+    "id": 73551,
     "name": "Meta's Dina Powell McCormick",
     "slug": "metas-dina-powell-mccormick",
     "bio": null,
@@ -44251,7 +44251,7 @@ const dashboardData = {
     "appearance_count": 1
   },
   {
-    "id": 73443,
+    "id": 73552,
     "name": "Underwriting Superintelligence",
     "slug": "underwriting-superintelligence",
     "bio": null,
@@ -44263,7 +44263,7 @@ const dashboardData = {
     "appearance_count": 1
   },
   {
-    "id": 73444,
+    "id": 73553,
     "name": "Hawks Take Flight",
     "slug": "hawks-take-flight",
     "bio": null,
@@ -44275,7 +44275,7 @@ const dashboardData = {
     "appearance_count": 1
   },
   {
-    "id": 73445,
+    "id": 73554,
     "name": "Martine Rothblatt",
     "slug": "martine-rothblatt",
     "bio": null,
@@ -44287,7 +44287,7 @@ const dashboardData = {
     "appearance_count": 1
   },
   {
-    "id": 73446,
+    "id": 73555,
     "name": "Microsoft CEO Satya Nadella",
     "slug": "microsoft-ceo-satya-nadella",
     "bio": null,
@@ -44299,7 +44299,7 @@ const dashboardData = {
     "appearance_count": 1
   },
   {
-    "id": 73447,
+    "id": 73556,
     "name": "Jensen Huang",
     "slug": "jensen-huang",
     "bio": null,
@@ -44311,7 +44311,7 @@ const dashboardData = {
     "appearance_count": 1
   },
   {
-    "id": 73448,
+    "id": 73557,
     "name": "Ask the Mates anything",
     "slug": "ask-the-mates-anything",
     "bio": null,
@@ -44323,7 +44323,7 @@ const dashboardData = {
     "appearance_count": 1
   },
   {
-    "id": 73449,
+    "id": 73558,
     "name": "Matt Barry",
     "slug": "matt-barry",
     "bio": null,
@@ -44335,7 +44335,7 @@ const dashboardData = {
     "appearance_count": 1
   },
   {
-    "id": 73450,
+    "id": 73559,
     "name": "Who Grades the AI Models?",
     "slug": "who-grades-the-ai-models",
     "bio": null,
@@ -44347,7 +44347,7 @@ const dashboardData = {
     "appearance_count": 1
   },
   {
-    "id": 73451,
+    "id": 73560,
     "name": "Your AI Doctor Is Coming",
     "slug": "your-ai-doctor-is-coming",
     "bio": null,
@@ -48029,7 +48029,7 @@ const dashboardData = {
     "last_podcast_name": "Moonshots with Peter Diamandis",
     "last_episode_date": "2026-08-27",
     "mention_score": 1,
-    "mention_score_decayed": 0.55,
+    "mention_score_decayed": 0.54,
     "last_main_idea": "Investment in AI and autonomous vehicle sectors should consider the shift towards more gradual AI integration and the potential for cost-effective Chinese AI models to disrupt the market.",
     "last_proof_cite": "Moonshots with Peter Diamandis \u2022 2026-08-27 \u2022 Sam Altman: Singularity Slow-Down, Emad Runs 18 Grokbots, Waymo Slashes Hardware 83% | EP #283",
     "last_proof_snippet": "Sam Altman went on video this week to tell the world that he was wrong about the impact of advancing AI. We've all been too ambitious on time on it's even with this incredible technology. He now believes it will be something slower, more lik",
@@ -49528,7 +49528,7 @@ const dashboardData = {
     "last_podcast_name": "Moonshots with Peter Diamandis",
     "last_episode_date": "2026-08-11",
     "mention_score": 1,
-    "mention_score_decayed": 0.38,
+    "mention_score_decayed": 0.37,
     "last_main_idea": "Invest in companies and technologies that are at the forefront of AI and compute power, as these are poised to become the driving forces behind future enterprise success.",
     "last_proof_cite": "Moonshots with Peter Diamandis \u2022 2026-08-11 \u2022 Sergey Brin Retakes Gemini, 4 Labs Lose Containment, Compute Trades at NYSE w/ Kush Bavaria | EP #278",
     "last_proof_snippet": "Sergei Bren is back taking personal control of Gemini. I think we can expect Gemini to make more releases in an accelerated pace with less safety constraints. Google has lost the frontier race and so they can't compete. Those who can't comp",
@@ -49588,7 +49588,7 @@ const dashboardData = {
     "last_podcast_name": "Latent Space: The AI Engineer Podcast",
     "last_episode_date": "2026-08-11",
     "mention_score": 1,
-    "mention_score_decayed": 0.38,
+    "mention_score_decayed": 0.37,
     "last_main_idea": "Investing in AI-driven protein design companies like Try Discovery could offer significant returns as these platforms have the potential to disrupt traditional drug discovery, making it more efficient and cost-effective.",
     "last_proof_cite": "Latent Space: The AI Engineer Podcast \u2022 2026-08-11 \u2022 \ud83d\udd2cThe BioAI Phase Shift - Matthew McPartlon & Neil Patil, Chai Discovery",
     "last_proof_snippet": "It looks a lot less like a, you know, a chat GPT and a lot more like a autodesk or solid works or a figma, you know, if you've used those things where you can kind of load up your molecule, there's this almost like photo shop S click design",
@@ -49647,7 +49647,7 @@ const dashboardData = {
     "last_podcast_name": "Latent Space: The AI Engineer Podcast",
     "last_episode_date": "2026-08-11",
     "mention_score": 1,
-    "mention_score_decayed": 0.38,
+    "mention_score_decayed": 0.37,
     "last_main_idea": "Investing in AI-driven protein design companies like Try Discovery could offer significant returns as these platforms have the potential to disrupt traditional drug discovery, making it more efficient and cost-effective.",
     "last_proof_cite": "Latent Space: The AI Engineer Podcast \u2022 2026-08-11 \u2022 \ud83d\udd2cThe BioAI Phase Shift - Matthew McPartlon & Neil Patil, Chai Discovery",
     "last_proof_snippet": "It looks a lot less like a, you know, a chat GPT and a lot more like a autodesk or solid works or a figma, you know, if you've used those things where you can kind of load up your molecule, there's this almost like photo shop S click design",
@@ -51101,6 +51101,65 @@ const dashboardData = {
     }
   },
   {
+    "id": 98,
+    "name": "Rory Johnston",
+    "slug": "rory-johnston",
+    "bio": "Rory Johnston is an expert on energy markets and geopolitical risks. He is known for his analysis of the Hormuz crisis and its implications for global oil flows. Johnston's insights are highly valued by professional finance, high-net worth individuals, family offices, and other sophisticated investors.",
+    "known_for": "Analysis of the Hormuz crisis and its implications for global oil flows.",
+    "net_worth_usd": null,
+    "net_worth_source": "",
+    "net_worth_updated_at": "2026-03-28T22:05:57.557236",
+    "voice_tone": "Informative and insightful",
+    "voice_style": "Direct and focused on market dynamics",
+    "voice_delivery_notes": "Paced with emphasis on key market indicators",
+    "voice_profile_updated_at": "2026-03-29 09:09:13",
+    "last_seen": "2026-05-14 18:46:46",
+    "last_episode_title": "MacroVoices #532 Mike Green: Record Mechanical Flows",
+    "last_podcast_name": "Macro Voices",
+    "last_episode_date": "2026-05-14",
+    "mention_score": 6,
+    "mention_score_decayed": 0.28,
+    "last_main_idea": "Investors should prepare for potential volatility as economic indicators begin to reflect the impacts of energy prices and passive investment flows.",
+    "last_proof_cite": "Macro Voices \u2022 2026-05-14 \u2022 MacroVoices #532 Mike Green: Record Mechanical Flows",
+    "last_proof_snippet": "This is Macrovoisers, the Free Weekly Financial Podcast, targeting professional finance, high-net worth individuals, family offices, and other sophisticated investors. Macrovoisers is all about the brightest minds in the world of finance an",
+    "supporting_takeaway": "The ongoing Hormuz crisis is expected to create significant economic dislocation, particularly affecting energy supply.",
+    "grokipedia_url": null,
+    "grokipedia_fetched_at": "2026-05-14T13:47:11.847729",
+    "pundit_profile": {
+      "source": "llm",
+      "source_model": "moonshot:moonshot-v1-8k",
+      "source_url": "",
+      "page_title": "Rory Johnston",
+      "fetched_at": "2026-05-14T18:47:11.847405+00:00",
+      "cliff_notes": "Rory Johnston is an expert in energy markets and geopolitical risks, with a particular focus on the Hormuz crisis and its impact on global oil flows. His expertise is sought after by a range of financial professionals, including high-net worth individuals, family offices, and sophisticated investors. Johnston's analysis is featured on platforms like Macrovoisers, a financial podcast that targets these audiences. His insights into the Hormuz crisis and its potential to cripple the global economy are particularly valued, as they help investors navigate the complex and volatile world of finance and macroeconomics.",
+      "derived": {
+        "current_role": "Expert on energy markets and geopolitical risks; specific role not mentioned."
+      },
+      "infobox": {
+        "Born": "",
+        "Nationality": ""
+      },
+      "lead_paragraphs": [
+        "Rory Johnston is an expert in energy markets and geopolitical risks, with a particular focus on the Hormuz crisis and its impact on global oil flows. His expertise is sought after by a range of financial professionals, including high-net worth individuals, family offices, and sophisticated investors. Johnston's analysis is featured on platforms like Macrovoisers, a financial podcast that targets these audiences.",
+        "His insights into the Hormuz crisis and its potential to cripple the global economy are particularly valued, as they help investors navigate the complex and volatile world of finance and macroeconomics."
+      ],
+      "sections": [
+        {
+          "heading": "Hormuz Crisis",
+          "body": "Rory Johnston is known for his analysis of the Hormuz crisis and its implications for global oil flows. He has provided insights into how this geopolitical event could potentially cripple the global economy."
+        },
+        {
+          "heading": "Energy Markets",
+          "body": "Johnston is an expert on energy markets, offering valuable insights into the complex dynamics of oil and gas markets. His analysis helps investors understand the impact of geopolitical events on these markets."
+        },
+        {
+          "heading": "Geopolitical Risks",
+          "body": "As an expert on geopolitical risks, Johnston provides valuable perspectives on how global events can affect financial markets. His analysis of the Hormuz crisis is a prime example of this expertise."
+        }
+      ]
+    }
+  },
+  {
     "id": 364,
     "name": "Justin Jo",
     "slug": "justin-jo",
@@ -51118,7 +51177,7 @@ const dashboardData = {
     "last_podcast_name": "The a16z Show",
     "last_episode_date": "2026-07-29",
     "mention_score": 1,
-    "mention_score_decayed": 0.28,
+    "mention_score_decayed": 0.27,
     "last_main_idea": "Investing in AI-native entertainment presents an opportunity to capitalize on the shift towards generative media and the democratization of content creation.",
     "last_proof_cite": "The a16z Show \u2022 2026-07-29 \u2022 AI Micro Dramas, Generative Media, and the Future of Creativity",
     "last_proof_snippet": "I think folks would be surprised by how many TV shows and movies today already have some element of AI being used. I spend a lot of time with studio execs and Amazon and Netflix have already both announced programs for fully-AI-generated an",
@@ -51178,7 +51237,7 @@ const dashboardData = {
     "last_podcast_name": "All-In with Chamath, Jason, Sacks & Friedberg",
     "last_episode_date": "2026-07-28",
     "mention_score": 1,
-    "mention_score_decayed": 0.28,
+    "mention_score_decayed": 0.27,
     "last_main_idea": "Investing in robotics and AI companies that are successfully transitioning from research to real-world applications could offer significant growth potential as these technologies become more integrated into various industries.",
     "last_proof_cite": "All-In with Chamath, Jason, Sacks & Friedberg \u2022 2026-07-28 \u2022 The $1/Hour Worker: Four Robotics CEOs on Humanoids at Home, China's Threat, and the End of Dangerous Jobs",
     "last_proof_snippet": "Hey everybody, it's your boy Jake Al, I'm here in Paris, France at a conference called Makina, basically AI in the real world. Pardon my robot. Thanks for tuning in, and let's get started. Apple ovens started with an $8 domain and no VC fun",
@@ -51237,7 +51296,7 @@ const dashboardData = {
     "last_podcast_name": "All-In with Chamath, Jason, Sacks & Friedberg",
     "last_episode_date": "2026-07-28",
     "mention_score": 1,
-    "mention_score_decayed": 0.28,
+    "mention_score_decayed": 0.27,
     "last_main_idea": "Investing in robotics and AI companies that are successfully transitioning from research to real-world applications could offer significant growth potential as these technologies become more integrated into various industries.",
     "last_proof_cite": "All-In with Chamath, Jason, Sacks & Friedberg \u2022 2026-07-28 \u2022 The $1/Hour Worker: Four Robotics CEOs on Humanoids at Home, China's Threat, and the End of Dangerous Jobs",
     "last_proof_snippet": "Hey everybody, it's your boy Jake Al, I'm here in Paris, France at a conference called Makina, basically AI in the real world. Pardon my robot. Thanks for tuning in, and let's get started. Apple ovens started with an $8 domain and no VC fun",
@@ -51296,7 +51355,7 @@ const dashboardData = {
     "last_podcast_name": "Monetary Matters with Jack Farley",
     "last_episode_date": "2026-07-29",
     "mention_score": 1,
-    "mention_score_decayed": 0.28,
+    "mention_score_decayed": 0.27,
     "last_main_idea": "The Federal Reserve's credibility is at stake, and market reactions to economic data and Fed policy suggest a potential shift in expectations for inflation and interest rates, impacting bond yields and stock market performance.",
     "last_proof_cite": "Monetary Matters with Jack Farley \u2022 2026-07-29 \u2022 Mum\u2019s The Word: Kathryn Rooney Vera on Fed\u2019s Second Meeting under Kevin Warsh, Plus Earnings Breakdown (Live Replay)",
     "last_proof_snippet": "Wow. All right. We are here. We are joined by Katherine Rooney Vera, who's the chief market strategist at Stone X Groups. A lot of views on board markets, everything in macro. We mean we can get to to currencies and bonds. Katherine had a v",
@@ -51337,65 +51396,6 @@ const dashboardData = {
       ]
     },
     "net_worth": "$26.7M"
-  },
-  {
-    "id": 98,
-    "name": "Rory Johnston",
-    "slug": "rory-johnston",
-    "bio": "Rory Johnston is an expert on energy markets and geopolitical risks. He is known for his analysis of the Hormuz crisis and its implications for global oil flows. Johnston's insights are highly valued by professional finance, high-net worth individuals, family offices, and other sophisticated investors.",
-    "known_for": "Analysis of the Hormuz crisis and its implications for global oil flows.",
-    "net_worth_usd": null,
-    "net_worth_source": "",
-    "net_worth_updated_at": "2026-03-28T22:05:57.557236",
-    "voice_tone": "Informative and insightful",
-    "voice_style": "Direct and focused on market dynamics",
-    "voice_delivery_notes": "Paced with emphasis on key market indicators",
-    "voice_profile_updated_at": "2026-03-29 09:09:13",
-    "last_seen": "2026-05-14 18:46:46",
-    "last_episode_title": "MacroVoices #532 Mike Green: Record Mechanical Flows",
-    "last_podcast_name": "Macro Voices",
-    "last_episode_date": "2026-05-14",
-    "mention_score": 6,
-    "mention_score_decayed": 0.28,
-    "last_main_idea": "Investors should prepare for potential volatility as economic indicators begin to reflect the impacts of energy prices and passive investment flows.",
-    "last_proof_cite": "Macro Voices \u2022 2026-05-14 \u2022 MacroVoices #532 Mike Green: Record Mechanical Flows",
-    "last_proof_snippet": "This is Macrovoisers, the Free Weekly Financial Podcast, targeting professional finance, high-net worth individuals, family offices, and other sophisticated investors. Macrovoisers is all about the brightest minds in the world of finance an",
-    "supporting_takeaway": "The ongoing Hormuz crisis is expected to create significant economic dislocation, particularly affecting energy supply.",
-    "grokipedia_url": null,
-    "grokipedia_fetched_at": "2026-05-14T13:47:11.847729",
-    "pundit_profile": {
-      "source": "llm",
-      "source_model": "moonshot:moonshot-v1-8k",
-      "source_url": "",
-      "page_title": "Rory Johnston",
-      "fetched_at": "2026-05-14T18:47:11.847405+00:00",
-      "cliff_notes": "Rory Johnston is an expert in energy markets and geopolitical risks, with a particular focus on the Hormuz crisis and its impact on global oil flows. His expertise is sought after by a range of financial professionals, including high-net worth individuals, family offices, and sophisticated investors. Johnston's analysis is featured on platforms like Macrovoisers, a financial podcast that targets these audiences. His insights into the Hormuz crisis and its potential to cripple the global economy are particularly valued, as they help investors navigate the complex and volatile world of finance and macroeconomics.",
-      "derived": {
-        "current_role": "Expert on energy markets and geopolitical risks; specific role not mentioned."
-      },
-      "infobox": {
-        "Born": "",
-        "Nationality": ""
-      },
-      "lead_paragraphs": [
-        "Rory Johnston is an expert in energy markets and geopolitical risks, with a particular focus on the Hormuz crisis and its impact on global oil flows. His expertise is sought after by a range of financial professionals, including high-net worth individuals, family offices, and sophisticated investors. Johnston's analysis is featured on platforms like Macrovoisers, a financial podcast that targets these audiences.",
-        "His insights into the Hormuz crisis and its potential to cripple the global economy are particularly valued, as they help investors navigate the complex and volatile world of finance and macroeconomics."
-      ],
-      "sections": [
-        {
-          "heading": "Hormuz Crisis",
-          "body": "Rory Johnston is known for his analysis of the Hormuz crisis and its implications for global oil flows. He has provided insights into how this geopolitical event could potentially cripple the global economy."
-        },
-        {
-          "heading": "Energy Markets",
-          "body": "Johnston is an expert on energy markets, offering valuable insights into the complex dynamics of oil and gas markets. His analysis helps investors understand the impact of geopolitical events on these markets."
-        },
-        {
-          "heading": "Geopolitical Risks",
-          "body": "As an expert on geopolitical risks, Johnston provides valuable perspectives on how global events can affect financial markets. His analysis of the Hormuz crisis is a prime example of this expertise."
-        }
-      ]
-    }
   },
   {
     "id": 358,
@@ -58411,6 +58411,33 @@ const dashboardData = {
     }
   },
   {
+    "id": 55,
+    "name": "Dr. Onus Alhajji",
+    "slug": "dr-onus-alhajji",
+    "bio": "Expert commentator on energy markets and geopolitical conflicts.",
+    "known_for": "Analysis of the impact of geopolitical events on oil markets.",
+    "net_worth_usd": null,
+    "net_worth_source": null,
+    "net_worth_updated_at": null,
+    "voice_tone": null,
+    "voice_style": null,
+    "voice_delivery_notes": null,
+    "voice_profile_updated_at": null,
+    "last_seen": "2026-04-03 10:04:02",
+    "last_episode_title": "MacroVoices #526 Matt Barrie: Pay To PrAI",
+    "last_podcast_name": "MacroVoices",
+    "last_episode_date": "2026-04-02",
+    "mention_score": 2,
+    "mention_score_decayed": 0.04,
+    "last_main_idea": "Invest in sectors less affected by AI disruption and monitor geopolitical events for opportunities in private credit markets.",
+    "last_proof_cite": "MacroVoices \u2022 2026-04-02 \u2022 MacroVoices #526 Matt Barrie: Pay To PrAI",
+    "last_proof_snippet": "AI's impact on private credit markets could lead to a market dislocation similar to the 2000.com bust.",
+    "supporting_takeaway": "AI's impact on private credit markets could lead to a market dislocation similar to the 2000.com bust.",
+    "grokipedia_url": null,
+    "grokipedia_fetched_at": null,
+    "pundit_profile": null
+  },
+  {
     "id": 220,
     "name": "Moes Cassam",
     "slug": "moes-cassam",
@@ -58428,7 +58455,7 @@ const dashboardData = {
     "last_podcast_name": "Monetary Matters with Jack Farley",
     "last_episode_date": "2026-04-30",
     "mention_score": 1,
-    "mention_score_decayed": 0.04,
+    "mention_score_decayed": 0.03,
     "last_main_idea": "Investors should look for opportunities in chaos, focusing on sectors with significant potential for growth and capital movement, such as SpaceX's IPO and the de-scheduling of cannabis.",
     "last_proof_cite": "Monetary Matters with Jack Farley \u2022 2026-04-30 \u2022 SpaceX IPO: Why This Hedge Fund Manager is Fading the Hype | Moez Kassam",
     "last_proof_snippet": "SpaceX's IPO could be one of the largest in history, with potential for significant capital movement.",
@@ -58473,33 +58500,6 @@ const dashboardData = {
       ]
     },
     "net_worth": "$7.0M"
-  },
-  {
-    "id": 55,
-    "name": "Dr. Onus Alhajji",
-    "slug": "dr-onus-alhajji",
-    "bio": "Expert commentator on energy markets and geopolitical conflicts.",
-    "known_for": "Analysis of the impact of geopolitical events on oil markets.",
-    "net_worth_usd": null,
-    "net_worth_source": null,
-    "net_worth_updated_at": null,
-    "voice_tone": null,
-    "voice_style": null,
-    "voice_delivery_notes": null,
-    "voice_profile_updated_at": null,
-    "last_seen": "2026-04-03 10:04:02",
-    "last_episode_title": "MacroVoices #526 Matt Barrie: Pay To PrAI",
-    "last_podcast_name": "MacroVoices",
-    "last_episode_date": "2026-04-02",
-    "mention_score": 2,
-    "mention_score_decayed": 0.04,
-    "last_main_idea": "Invest in sectors less affected by AI disruption and monitor geopolitical events for opportunities in private credit markets.",
-    "last_proof_cite": "MacroVoices \u2022 2026-04-02 \u2022 MacroVoices #526 Matt Barrie: Pay To PrAI",
-    "last_proof_snippet": "AI's impact on private credit markets could lead to a market dislocation similar to the 2000.com bust.",
-    "supporting_takeaway": "AI's impact on private credit markets could lead to a market dislocation similar to the 2000.com bust.",
-    "grokipedia_url": null,
-    "grokipedia_fetched_at": null,
-    "pundit_profile": null
   },
   {
     "id": 217,
@@ -62311,185 +62311,6 @@ const dashboardData = {
     "net_worth": "$5.0M"
   },
   {
-    "id": 114,
-    "name": "Chris Power",
-    "slug": "chris-power",
-    "bio": "Chris Power is the founder and CEO of Hadrian, a company that specializes in advanced manufacturing for submarines. He is known for leading the development of a 2.25 million square foot advanced manufacturing facility for submarine programs, which is crucial for the United States Navy's submarine fleet modernization.",
-    "known_for": "Developing advanced manufacturing capabilities for the U.S. Navy's submarine programs.",
-    "net_worth_usd": 220000000.0,
-    "net_worth_source": "https://www.businessoffamily.net/chris-powers",
-    "net_worth_updated_at": "2026-03-26T04:21:15.715437",
-    "voice_tone": "Confident and solution-oriented",
-    "voice_style": "Factual and forward-looking",
-    "voice_delivery_notes": "Clear and assertive with a focus on the future of manufacturing",
-    "voice_profile_updated_at": "2026-03-26 09:20:15",
-    "last_seen": "2026-03-26 09:20:15",
-    "last_episode_title": "Submarine Manufacturing and Advanced Factories",
-    "last_podcast_name": "The a16z Show",
-    "last_episode_date": "2026-03-25",
-    "mention_score": 1,
-    "mention_score_decayed": 0.02,
-    "last_main_idea": "Investing in advanced manufacturing and workforce development for submarine production could lead to increased efficiency and meet the growing demand for naval capabilities.",
-    "last_proof_cite": "The a16z Show \u2022 2026-03-25 \u2022 Submarine Manufacturing and Advanced Factories",
-    "last_proof_snippet": "The end of the Cold War led to a collapse in submarine production, resulting in a significant skills gap.",
-    "supporting_takeaway": "The end of the Cold War led to a collapse in submarine production, resulting in a significant skills gap.",
-    "grokipedia_url": null,
-    "grokipedia_fetched_at": "2026-03-26T04:20:54.928623",
-    "pundit_profile": {
-      "source": "llm",
-      "source_model": "moonshot:moonshot-v1-8k",
-      "source_url": "",
-      "page_title": "Chris Power",
-      "fetched_at": "2026-03-26T09:20:54.928394+00:00",
-      "cliff_notes": "Chris Power is recognized for his work in the field of advanced manufacturing, particularly in the context of submarine production. As the CEO of Hadrian, he has been instrumental in the development of a large-scale manufacturing facility aimed at enhancing the capabilities of the U.S. Navy's submarine fleet. His efforts are focused on increasing productivity and efficiency in submarine manufacturing, which is critical for national defense and maintaining strategic advantages. Power's work bridges the gap between traditional manufacturing and modern technology, emphasizing the importance of advanced factories in achieving the necessary productivity uplift. His leadership in this field is significant for investors and tech listeners due to the implications for national security, economic growth, and the future of manufacturing.",
-      "derived": {
-        "current_role": "Founder and CEO of Hadrian"
-      },
-      "infobox": {
-        "Born": "",
-        "Nationality": "American"
-      },
-      "lead_paragraphs": [
-        "Chris Power is recognized for his work in the field of advanced manufacturing, particularly in the context of submarine production. As the CEO of Hadrian, he has been instrumental in the development of a large-scale manufacturing facility aimed at enhancing the capabilities of the U.S. Navy's submarine fleet. His efforts are focused on increasing productivity and efficiency in submarine manufacturing, which is critical for national defense and maintaining strategic advantages.",
-        "Power's work bridges the gap between traditional manufacturing and modern technology, emphasizing the importance of advanced factories in achieving the necessary productivity uplift. His leadership in this field is significant for investors and tech listeners due to the implications for national security, economic growth, and the future of manufacturing."
-      ],
-      "sections": [
-        {
-          "heading": "Submarine Manufacturing",
-          "body": "Chris Power is leading the charge in advanced manufacturing for submarines, which is pivotal for the U.S. Navy's fleet modernization and maintaining strategic advantages at sea."
-        },
-        {
-          "heading": "Productivity and Efficiency",
-          "body": "Power emphasizes the need for a productivity uplift in submarine manufacturing, advocating for the fusion of workforce training and software to achieve higher production rates and meet the Navy's growing demands."
-        },
-        {
-          "heading": "Advanced Factories",
-          "body": "The development of Hadrian's 2.25 million square foot facility showcases Power's commitment to creating advanced factories that can significantly increase the production capacity for submarines, which is essential for national defense."
-        }
-      ]
-    },
-    "net_worth": "$220.0M"
-  },
-  {
-    "id": 115,
-    "name": "Robert Goucher",
-    "slug": "robert-goucher",
-    "bio": "Vice-Admiral Robert Goucher is responsible for overseeing the strategic and operational aspects of submarine production for the United States Navy. He is known for his expertise in maintaining the stealth capabilities and strategic deterrence provided by the Navy's submarine fleet.",
-    "known_for": "Leading the U.S. Navy's submarine production efforts and addressing the challenges of modernizing the fleet.",
-    "net_worth_usd": null,
-    "net_worth_source": "",
-    "net_worth_updated_at": null,
-    "voice_tone": "Authoritative and pragmatic",
-    "voice_style": "Strategic and solution-focused",
-    "voice_delivery_notes": "Deliberate with an emphasis on the importance of the mission",
-    "voice_profile_updated_at": "2026-03-26 09:20:15",
-    "last_seen": "2026-03-26 09:20:15",
-    "last_episode_title": "Submarine Manufacturing and Advanced Factories",
-    "last_podcast_name": "The a16z Show",
-    "last_episode_date": "2026-03-25",
-    "mention_score": 1,
-    "mention_score_decayed": 0.02,
-    "last_main_idea": "Investing in advanced manufacturing and workforce development for submarine production could lead to increased efficiency and meet the growing demand for naval capabilities.",
-    "last_proof_cite": "The a16z Show \u2022 2026-03-25 \u2022 Submarine Manufacturing and Advanced Factories",
-    "last_proof_snippet": "The end of the Cold War led to a collapse in submarine production, resulting in a significant skills gap.",
-    "supporting_takeaway": "The end of the Cold War led to a collapse in submarine production, resulting in a significant skills gap.",
-    "grokipedia_url": null,
-    "grokipedia_fetched_at": "2026-03-26T04:21:24.879895",
-    "pundit_profile": {
-      "source": "llm",
-      "source_model": "moonshot:moonshot-v1-8k",
-      "source_url": "",
-      "page_title": "Robert Goucher",
-      "fetched_at": "2026-03-26T09:21:24.879791+00:00",
-      "cliff_notes": "Vice-Admiral Robert Goucher has had a distinguished career in the United States Navy, with a focus on submarine production. His role involves overseeing the strategic and operational aspects of submarine production, ensuring the Navy maintains its stealth and access capabilities. Goucher has been at the forefront of efforts to modernize the Navy's fleet, addressing the challenges posed by the end of the Cold War and the subsequent collapse in submarine production. He has emphasized the importance of combining a new workforce, American software, steel, and spirit to achieve a productivity uplift in submarine manufacturing. His leadership is crucial in ensuring the United States maintains its strategic deterrence and peace through strength.",
-      "derived": {
-        "current_role": "Vice-Admiral in charge of all submarine production for the United States Navy"
-      },
-      "infobox": {
-        "Born": "",
-        "Nationality": "American"
-      },
-      "lead_paragraphs": [
-        "Vice-Admiral Robert Goucher has had a distinguished career in the United States Navy, with a focus on submarine production. His role involves overseeing the strategic and operational aspects of submarine production, ensuring the Navy maintains its stealth and access capabilities. Goucher has been at the forefront of efforts to modernize the Navy's fleet, addressing the challenges posed by the end of the Cold War and the subsequent collapse in submarine production.",
-        "He has emphasized the importance of combining a new workforce, American software, steel, and spirit to achieve a productivity uplift in submarine manufacturing. His leadership is crucial in ensuring the United States maintains its strategic deterrence and peace through strength."
-      ],
-      "sections": [
-        {
-          "heading": "Submarine Production",
-          "body": "Vice-Admiral Robert Goucher is responsible for overseeing the strategic and operational aspects of submarine production for the United States Navy, ensuring the fleet's stealth and access capabilities are maintained."
-        },
-        {
-          "heading": "Modernizing the Fleet",
-          "body": "Goucher has been at the forefront of efforts to modernize the Navy's submarine fleet, addressing the challenges posed by the end of the Cold War and the subsequent collapse in submarine production."
-        },
-        {
-          "heading": "Productivity Uplift",
-          "body": "Emphasizing the importance of combining a new workforce, American software, steel, and spirit, Goucher is focused on achieving a productivity uplift in submarine manufacturing to meet the Navy's increased capacity needs."
-        }
-      ]
-    }
-  },
-  {
-    "id": 113,
-    "name": "Brian Johnson",
-    "slug": "brian-johnson",
-    "bio": "Brian Johnson is a longevity enthusiast and experimenter with psychedelics for health and longevity. He has dedicated his work to exploring scientific evidence for interventions that promote health and longevity.",
-    "known_for": "His work in exploring scientific evidence for interventions that promote health and longevity, particularly through the use of psychedelics.",
-    "net_worth_usd": 300000000.0,
-    "net_worth_source": "https://joinhampton.com/blog/the-300-million-exit-thats-funding-humanitys-future-with-bryan-johnson",
-    "net_worth_updated_at": "2026-03-31T20:09:42.531381",
-    "voice_tone": "Calm and reflective, with a sense of awe and profundity.",
-    "voice_style": "Johnson speaks with a narrative style, sharing personal experiences and drawing on scientific evidence.",
-    "voice_delivery_notes": "Pacing is thoughtful, with emphasis on the transformative aspects of his psychedelic experiences.",
-    "voice_profile_updated_at": "2026-03-26 09:17:24",
-    "last_seen": "2026-03-26 09:17:24",
-    "last_episode_title": "Exploring Psychedelics for Longevity and Personal Growth",
-    "last_podcast_name": "All-In with Chamath, Jason, Sacks & Friedberg",
-    "last_episode_date": "2026-03-26",
-    "mention_score": 1,
-    "mention_score_decayed": 0.02,
-    "last_main_idea": "Investment in psychedelics for longevity and personal growth is based on the potential for these substances to induce significant changes in consciousness and promote personal rejuvenation.",
-    "last_proof_cite": "All-In with Chamath, Jason, Sacks & Friedberg \u2022 2026-03-26 \u2022 Exploring Psychedelics for Longevity and Personal Growth",
-    "last_proof_snippet": "Johnson's experience with 5-MEO-DMT was profound, leading to a significant personal reset and a renewed sense of purpose.",
-    "supporting_takeaway": "Johnson's experience with 5-MEO-DMT was profound, leading to a significant personal reset and a renewed sense of purpose.",
-    "grokipedia_url": null,
-    "grokipedia_fetched_at": "2026-03-26T04:22:22.498838",
-    "pundit_profile": {
-      "source": "llm",
-      "source_model": "moonshot:moonshot-v1-8k",
-      "source_url": "",
-      "page_title": "Brian Johnson",
-      "fetched_at": "2026-03-26T09:22:22.498676+00:00",
-      "cliff_notes": "Brian Johnson is a longevity enthusiast and experimenter with psychedelics for health and longevity. He has dedicated his work to exploring scientific evidence for interventions that promote health and longevity. Johnson started his project five years ago with the approach of going through all the scientific evidence ever published on health and longevity to find the interventions with the best evidence for effect size. His work has led him to experiment with psychedelics, such as MEO DMT, as part of his longevity experiments. Johnson's work is of interest to investors and tech listeners due to its potential implications for health and longevity in the tech industry.",
-      "derived": {
-        "current_role": "Longevity Enthusiast"
-      },
-      "infobox": {
-        "Born": "",
-        "Nationality": ""
-      },
-      "lead_paragraphs": [
-        "Brian Johnson is a longevity enthusiast and experimenter with psychedelics for health and longevity. He has dedicated his work to exploring scientific evidence for interventions that promote health and longevity. Johnson started his project five years ago with the approach of going through all the scientific evidence ever published on health and longevity to find the interventions with the best evidence for effect size.",
-        "His work has led him to experiment with psychedelics, such as MEO DMT, as part of his longevity experiments. Johnson's work is of interest to investors and tech listeners due to its potential implications for health and longevity in the tech industry."
-      ],
-      "sections": [
-        {
-          "heading": "Longevity Experiments",
-          "body": "Brian Johnson has been conducting longevity experiments, including the use of psychedelics like MEO DMT, to explore interventions that promote health and longevity."
-        },
-        {
-          "heading": "Scientific Evidence",
-          "body": "Johnson's approach to longevity involves going through all the scientific evidence ever published on health and longevity to find the interventions with the best evidence for effect size."
-        },
-        {
-          "heading": "Psychedelics for Health",
-          "body": "Johnson has experimented with psychedelics, such as MEO DMT, as part of his longevity experiments, exploring their potential benefits for health and longevity."
-        }
-      ]
-    },
-    "net_worth": "$300.0M"
-  },
-  {
     "id": 43,
     "name": "Olivia Moore",
     "slug": "olivia-moore",
@@ -62555,6 +62376,185 @@ const dashboardData = {
         }
       ]
     }
+  },
+  {
+    "id": 114,
+    "name": "Chris Power",
+    "slug": "chris-power",
+    "bio": "Chris Power is the founder and CEO of Hadrian, a company that specializes in advanced manufacturing for submarines. He is known for leading the development of a 2.25 million square foot advanced manufacturing facility for submarine programs, which is crucial for the United States Navy's submarine fleet modernization.",
+    "known_for": "Developing advanced manufacturing capabilities for the U.S. Navy's submarine programs.",
+    "net_worth_usd": 220000000.0,
+    "net_worth_source": "https://www.businessoffamily.net/chris-powers",
+    "net_worth_updated_at": "2026-03-26T04:21:15.715437",
+    "voice_tone": "Confident and solution-oriented",
+    "voice_style": "Factual and forward-looking",
+    "voice_delivery_notes": "Clear and assertive with a focus on the future of manufacturing",
+    "voice_profile_updated_at": "2026-03-26 09:20:15",
+    "last_seen": "2026-03-26 09:20:15",
+    "last_episode_title": "Submarine Manufacturing and Advanced Factories",
+    "last_podcast_name": "The a16z Show",
+    "last_episode_date": "2026-03-25",
+    "mention_score": 1,
+    "mention_score_decayed": 0.01,
+    "last_main_idea": "Investing in advanced manufacturing and workforce development for submarine production could lead to increased efficiency and meet the growing demand for naval capabilities.",
+    "last_proof_cite": "The a16z Show \u2022 2026-03-25 \u2022 Submarine Manufacturing and Advanced Factories",
+    "last_proof_snippet": "The end of the Cold War led to a collapse in submarine production, resulting in a significant skills gap.",
+    "supporting_takeaway": "The end of the Cold War led to a collapse in submarine production, resulting in a significant skills gap.",
+    "grokipedia_url": null,
+    "grokipedia_fetched_at": "2026-03-26T04:20:54.928623",
+    "pundit_profile": {
+      "source": "llm",
+      "source_model": "moonshot:moonshot-v1-8k",
+      "source_url": "",
+      "page_title": "Chris Power",
+      "fetched_at": "2026-03-26T09:20:54.928394+00:00",
+      "cliff_notes": "Chris Power is recognized for his work in the field of advanced manufacturing, particularly in the context of submarine production. As the CEO of Hadrian, he has been instrumental in the development of a large-scale manufacturing facility aimed at enhancing the capabilities of the U.S. Navy's submarine fleet. His efforts are focused on increasing productivity and efficiency in submarine manufacturing, which is critical for national defense and maintaining strategic advantages. Power's work bridges the gap between traditional manufacturing and modern technology, emphasizing the importance of advanced factories in achieving the necessary productivity uplift. His leadership in this field is significant for investors and tech listeners due to the implications for national security, economic growth, and the future of manufacturing.",
+      "derived": {
+        "current_role": "Founder and CEO of Hadrian"
+      },
+      "infobox": {
+        "Born": "",
+        "Nationality": "American"
+      },
+      "lead_paragraphs": [
+        "Chris Power is recognized for his work in the field of advanced manufacturing, particularly in the context of submarine production. As the CEO of Hadrian, he has been instrumental in the development of a large-scale manufacturing facility aimed at enhancing the capabilities of the U.S. Navy's submarine fleet. His efforts are focused on increasing productivity and efficiency in submarine manufacturing, which is critical for national defense and maintaining strategic advantages.",
+        "Power's work bridges the gap between traditional manufacturing and modern technology, emphasizing the importance of advanced factories in achieving the necessary productivity uplift. His leadership in this field is significant for investors and tech listeners due to the implications for national security, economic growth, and the future of manufacturing."
+      ],
+      "sections": [
+        {
+          "heading": "Submarine Manufacturing",
+          "body": "Chris Power is leading the charge in advanced manufacturing for submarines, which is pivotal for the U.S. Navy's fleet modernization and maintaining strategic advantages at sea."
+        },
+        {
+          "heading": "Productivity and Efficiency",
+          "body": "Power emphasizes the need for a productivity uplift in submarine manufacturing, advocating for the fusion of workforce training and software to achieve higher production rates and meet the Navy's growing demands."
+        },
+        {
+          "heading": "Advanced Factories",
+          "body": "The development of Hadrian's 2.25 million square foot facility showcases Power's commitment to creating advanced factories that can significantly increase the production capacity for submarines, which is essential for national defense."
+        }
+      ]
+    },
+    "net_worth": "$220.0M"
+  },
+  {
+    "id": 115,
+    "name": "Robert Goucher",
+    "slug": "robert-goucher",
+    "bio": "Vice-Admiral Robert Goucher is responsible for overseeing the strategic and operational aspects of submarine production for the United States Navy. He is known for his expertise in maintaining the stealth capabilities and strategic deterrence provided by the Navy's submarine fleet.",
+    "known_for": "Leading the U.S. Navy's submarine production efforts and addressing the challenges of modernizing the fleet.",
+    "net_worth_usd": null,
+    "net_worth_source": "",
+    "net_worth_updated_at": null,
+    "voice_tone": "Authoritative and pragmatic",
+    "voice_style": "Strategic and solution-focused",
+    "voice_delivery_notes": "Deliberate with an emphasis on the importance of the mission",
+    "voice_profile_updated_at": "2026-03-26 09:20:15",
+    "last_seen": "2026-03-26 09:20:15",
+    "last_episode_title": "Submarine Manufacturing and Advanced Factories",
+    "last_podcast_name": "The a16z Show",
+    "last_episode_date": "2026-03-25",
+    "mention_score": 1,
+    "mention_score_decayed": 0.01,
+    "last_main_idea": "Investing in advanced manufacturing and workforce development for submarine production could lead to increased efficiency and meet the growing demand for naval capabilities.",
+    "last_proof_cite": "The a16z Show \u2022 2026-03-25 \u2022 Submarine Manufacturing and Advanced Factories",
+    "last_proof_snippet": "The end of the Cold War led to a collapse in submarine production, resulting in a significant skills gap.",
+    "supporting_takeaway": "The end of the Cold War led to a collapse in submarine production, resulting in a significant skills gap.",
+    "grokipedia_url": null,
+    "grokipedia_fetched_at": "2026-03-26T04:21:24.879895",
+    "pundit_profile": {
+      "source": "llm",
+      "source_model": "moonshot:moonshot-v1-8k",
+      "source_url": "",
+      "page_title": "Robert Goucher",
+      "fetched_at": "2026-03-26T09:21:24.879791+00:00",
+      "cliff_notes": "Vice-Admiral Robert Goucher has had a distinguished career in the United States Navy, with a focus on submarine production. His role involves overseeing the strategic and operational aspects of submarine production, ensuring the Navy maintains its stealth and access capabilities. Goucher has been at the forefront of efforts to modernize the Navy's fleet, addressing the challenges posed by the end of the Cold War and the subsequent collapse in submarine production. He has emphasized the importance of combining a new workforce, American software, steel, and spirit to achieve a productivity uplift in submarine manufacturing. His leadership is crucial in ensuring the United States maintains its strategic deterrence and peace through strength.",
+      "derived": {
+        "current_role": "Vice-Admiral in charge of all submarine production for the United States Navy"
+      },
+      "infobox": {
+        "Born": "",
+        "Nationality": "American"
+      },
+      "lead_paragraphs": [
+        "Vice-Admiral Robert Goucher has had a distinguished career in the United States Navy, with a focus on submarine production. His role involves overseeing the strategic and operational aspects of submarine production, ensuring the Navy maintains its stealth and access capabilities. Goucher has been at the forefront of efforts to modernize the Navy's fleet, addressing the challenges posed by the end of the Cold War and the subsequent collapse in submarine production.",
+        "He has emphasized the importance of combining a new workforce, American software, steel, and spirit to achieve a productivity uplift in submarine manufacturing. His leadership is crucial in ensuring the United States maintains its strategic deterrence and peace through strength."
+      ],
+      "sections": [
+        {
+          "heading": "Submarine Production",
+          "body": "Vice-Admiral Robert Goucher is responsible for overseeing the strategic and operational aspects of submarine production for the United States Navy, ensuring the fleet's stealth and access capabilities are maintained."
+        },
+        {
+          "heading": "Modernizing the Fleet",
+          "body": "Goucher has been at the forefront of efforts to modernize the Navy's submarine fleet, addressing the challenges posed by the end of the Cold War and the subsequent collapse in submarine production."
+        },
+        {
+          "heading": "Productivity Uplift",
+          "body": "Emphasizing the importance of combining a new workforce, American software, steel, and spirit, Goucher is focused on achieving a productivity uplift in submarine manufacturing to meet the Navy's increased capacity needs."
+        }
+      ]
+    }
+  },
+  {
+    "id": 113,
+    "name": "Brian Johnson",
+    "slug": "brian-johnson",
+    "bio": "Brian Johnson is a longevity enthusiast and experimenter with psychedelics for health and longevity. He has dedicated his work to exploring scientific evidence for interventions that promote health and longevity.",
+    "known_for": "His work in exploring scientific evidence for interventions that promote health and longevity, particularly through the use of psychedelics.",
+    "net_worth_usd": 300000000.0,
+    "net_worth_source": "https://joinhampton.com/blog/the-300-million-exit-thats-funding-humanitys-future-with-bryan-johnson",
+    "net_worth_updated_at": "2026-03-31T20:09:42.531381",
+    "voice_tone": "Calm and reflective, with a sense of awe and profundity.",
+    "voice_style": "Johnson speaks with a narrative style, sharing personal experiences and drawing on scientific evidence.",
+    "voice_delivery_notes": "Pacing is thoughtful, with emphasis on the transformative aspects of his psychedelic experiences.",
+    "voice_profile_updated_at": "2026-03-26 09:17:24",
+    "last_seen": "2026-03-26 09:17:24",
+    "last_episode_title": "Exploring Psychedelics for Longevity and Personal Growth",
+    "last_podcast_name": "All-In with Chamath, Jason, Sacks & Friedberg",
+    "last_episode_date": "2026-03-26",
+    "mention_score": 1,
+    "mention_score_decayed": 0.01,
+    "last_main_idea": "Investment in psychedelics for longevity and personal growth is based on the potential for these substances to induce significant changes in consciousness and promote personal rejuvenation.",
+    "last_proof_cite": "All-In with Chamath, Jason, Sacks & Friedberg \u2022 2026-03-26 \u2022 Exploring Psychedelics for Longevity and Personal Growth",
+    "last_proof_snippet": "Johnson's experience with 5-MEO-DMT was profound, leading to a significant personal reset and a renewed sense of purpose.",
+    "supporting_takeaway": "Johnson's experience with 5-MEO-DMT was profound, leading to a significant personal reset and a renewed sense of purpose.",
+    "grokipedia_url": null,
+    "grokipedia_fetched_at": "2026-03-26T04:22:22.498838",
+    "pundit_profile": {
+      "source": "llm",
+      "source_model": "moonshot:moonshot-v1-8k",
+      "source_url": "",
+      "page_title": "Brian Johnson",
+      "fetched_at": "2026-03-26T09:22:22.498676+00:00",
+      "cliff_notes": "Brian Johnson is a longevity enthusiast and experimenter with psychedelics for health and longevity. He has dedicated his work to exploring scientific evidence for interventions that promote health and longevity. Johnson started his project five years ago with the approach of going through all the scientific evidence ever published on health and longevity to find the interventions with the best evidence for effect size. His work has led him to experiment with psychedelics, such as MEO DMT, as part of his longevity experiments. Johnson's work is of interest to investors and tech listeners due to its potential implications for health and longevity in the tech industry.",
+      "derived": {
+        "current_role": "Longevity Enthusiast"
+      },
+      "infobox": {
+        "Born": "",
+        "Nationality": ""
+      },
+      "lead_paragraphs": [
+        "Brian Johnson is a longevity enthusiast and experimenter with psychedelics for health and longevity. He has dedicated his work to exploring scientific evidence for interventions that promote health and longevity. Johnson started his project five years ago with the approach of going through all the scientific evidence ever published on health and longevity to find the interventions with the best evidence for effect size.",
+        "His work has led him to experiment with psychedelics, such as MEO DMT, as part of his longevity experiments. Johnson's work is of interest to investors and tech listeners due to its potential implications for health and longevity in the tech industry."
+      ],
+      "sections": [
+        {
+          "heading": "Longevity Experiments",
+          "body": "Brian Johnson has been conducting longevity experiments, including the use of psychedelics like MEO DMT, to explore interventions that promote health and longevity."
+        },
+        {
+          "heading": "Scientific Evidence",
+          "body": "Johnson's approach to longevity involves going through all the scientific evidence ever published on health and longevity to find the interventions with the best evidence for effect size."
+        },
+        {
+          "heading": "Psychedelics for Health",
+          "body": "Johnson has experimented with psychedelics, such as MEO DMT, as part of his longevity experiments, exploring their potential benefits for health and longevity."
+        }
+      ]
+    },
+    "net_worth": "$300.0M"
   },
   {
     "id": 110,
@@ -64024,7 +64024,7 @@ const dashboardData = {
         }
       ],
       "disclaimer": "Research sleeve / scorecard, not advice. $1,000 equal-weight illustration only.",
-      "last_updated": "2026-09-23T23:54:19.845541"
+      "last_updated": "2026-09-24T05:11:09.758132"
     }
   ]
 }
