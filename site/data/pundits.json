@@ -3668,7 +3668,7 @@
     "last_podcast_name": "Moonshots with Peter Diamandis",
     "last_episode_date": "2026-08-27",
     "mention_score": 1,
-    "mention_score_decayed": 0.55,
+    "mention_score_decayed": 0.54,
     "last_main_idea": "Investment in AI and autonomous vehicle sectors should consider the shift towards more gradual AI integration and the potential for cost-effective Chinese AI models to disrupt the market.",
     "last_proof_cite": "Moonshots with Peter Diamandis \u2022 2026-08-27 \u2022 Sam Altman: Singularity Slow-Down, Emad Runs 18 Grokbots, Waymo Slashes Hardware 83% | EP #283",
     "last_proof_snippet": "Sam Altman went on video this week to tell the world that he was wrong about the impact of advancing AI. We've all been too ambitious on time on it's even with this incredible technology. He now believes it will be something slower, more lik",
@@ -5167,7 +5167,7 @@
     "last_podcast_name": "Moonshots with Peter Diamandis",
     "last_episode_date": "2026-08-11",
     "mention_score": 1,
-    "mention_score_decayed": 0.38,
+    "mention_score_decayed": 0.37,
     "last_main_idea": "Invest in companies and technologies that are at the forefront of AI and compute power, as these are poised to become the driving forces behind future enterprise success.",
     "last_proof_cite": "Moonshots with Peter Diamandis \u2022 2026-08-11 \u2022 Sergey Brin Retakes Gemini, 4 Labs Lose Containment, Compute Trades at NYSE w/ Kush Bavaria | EP #278",
     "last_proof_snippet": "Sergei Bren is back taking personal control of Gemini. I think we can expect Gemini to make more releases in an accelerated pace with less safety constraints. Google has lost the frontier race and so they can't compete. Those who can't comp",
@@ -5227,7 +5227,7 @@
     "last_podcast_name": "Latent Space: The AI Engineer Podcast",
     "last_episode_date": "2026-08-11",
     "mention_score": 1,
-    "mention_score_decayed": 0.38,
+    "mention_score_decayed": 0.37,
     "last_main_idea": "Investing in AI-driven protein design companies like Try Discovery could offer significant returns as these platforms have the potential to disrupt traditional drug discovery, making it more efficient and cost-effective.",
     "last_proof_cite": "Latent Space: The AI Engineer Podcast \u2022 2026-08-11 \u2022 \ud83d\udd2cThe BioAI Phase Shift - Matthew McPartlon & Neil Patil, Chai Discovery",
     "last_proof_snippet": "It looks a lot less like a, you know, a chat GPT and a lot more like a autodesk or solid works or a figma, you know, if you've used those things where you can kind of load up your molecule, there's this almost like photo shop S click design",
@@ -5286,7 +5286,7 @@
     "last_podcast_name": "Latent Space: The AI Engineer Podcast",
     "last_episode_date": "2026-08-11",
     "mention_score": 1,
-    "mention_score_decayed": 0.38,
+    "mention_score_decayed": 0.37,
     "last_main_idea": "Investing in AI-driven protein design companies like Try Discovery could offer significant returns as these platforms have the potential to disrupt traditional drug discovery, making it more efficient and cost-effective.",
     "last_proof_cite": "Latent Space: The AI Engineer Podcast \u2022 2026-08-11 \u2022 \ud83d\udd2cThe BioAI Phase Shift - Matthew McPartlon & Neil Patil, Chai Discovery",
     "last_proof_snippet": "It looks a lot less like a, you know, a chat GPT and a lot more like a autodesk or solid works or a figma, you know, if you've used those things where you can kind of load up your molecule, there's this almost like photo shop S click design",
@@ -6740,6 +6740,65 @@
     }
   },
   {
+    "id": 98,
+    "name": "Rory Johnston",
+    "slug": "rory-johnston",
+    "bio": "Rory Johnston is an expert on energy markets and geopolitical risks. He is known for his analysis of the Hormuz crisis and its implications for global oil flows. Johnston's insights are highly valued by professional finance, high-net worth individuals, family offices, and other sophisticated investors.",
+    "known_for": "Analysis of the Hormuz crisis and its implications for global oil flows.",
+    "net_worth_usd": null,
+    "net_worth_source": "",
+    "net_worth_updated_at": "2026-03-28T22:05:57.557236",
+    "voice_tone": "Informative and insightful",
+    "voice_style": "Direct and focused on market dynamics",
+    "voice_delivery_notes": "Paced with emphasis on key market indicators",
+    "voice_profile_updated_at": "2026-03-29 09:09:13",
+    "last_seen": "2026-05-14 18:46:46",
+    "last_episode_title": "MacroVoices #532 Mike Green: Record Mechanical Flows",
+    "last_podcast_name": "Macro Voices",
+    "last_episode_date": "2026-05-14",
+    "mention_score": 6,
+    "mention_score_decayed": 0.28,
+    "last_main_idea": "Investors should prepare for potential volatility as economic indicators begin to reflect the impacts of energy prices and passive investment flows.",
+    "last_proof_cite": "Macro Voices \u2022 2026-05-14 \u2022 MacroVoices #532 Mike Green: Record Mechanical Flows",
+    "last_proof_snippet": "This is Macrovoisers, the Free Weekly Financial Podcast, targeting professional finance, high-net worth individuals, family offices, and other sophisticated investors. Macrovoisers is all about the brightest minds in the world of finance an",
+    "supporting_takeaway": "The ongoing Hormuz crisis is expected to create significant economic dislocation, particularly affecting energy supply.",
+    "grokipedia_url": null,
+    "grokipedia_fetched_at": "2026-05-14T13:47:11.847729",
+    "pundit_profile": {
+      "source": "llm",
+      "source_model": "moonshot:moonshot-v1-8k",
+      "source_url": "",
+      "page_title": "Rory Johnston",
+      "fetched_at": "2026-05-14T18:47:11.847405+00:00",
+      "cliff_notes": "Rory Johnston is an expert in energy markets and geopolitical risks, with a particular focus on the Hormuz crisis and its impact on global oil flows. His expertise is sought after by a range of financial professionals, including high-net worth individuals, family offices, and sophisticated investors. Johnston's analysis is featured on platforms like Macrovoisers, a financial podcast that targets these audiences. His insights into the Hormuz crisis and its potential to cripple the global economy are particularly valued, as they help investors navigate the complex and volatile world of finance and macroeconomics.",
+      "derived": {
+        "current_role": "Expert on energy markets and geopolitical risks; specific role not mentioned."
+      },
+      "infobox": {
+        "Born": "",
+        "Nationality": ""
+      },
+      "lead_paragraphs": [
+        "Rory Johnston is an expert in energy markets and geopolitical risks, with a particular focus on the Hormuz crisis and its impact on global oil flows. His expertise is sought after by a range of financial professionals, including high-net worth individuals, family offices, and sophisticated investors. Johnston's analysis is featured on platforms like Macrovoisers, a financial podcast that targets these audiences.",
+        "His insights into the Hormuz crisis and its potential to cripple the global economy are particularly valued, as they help investors navigate the complex and volatile world of finance and macroeconomics."
+      ],
+      "sections": [
+        {
+          "heading": "Hormuz Crisis",
+          "body": "Rory Johnston is known for his analysis of the Hormuz crisis and its implications for global oil flows. He has provided insights into how this geopolitical event could potentially cripple the global economy."
+        },
+        {
+          "heading": "Energy Markets",
+          "body": "Johnston is an expert on energy markets, offering valuable insights into the complex dynamics of oil and gas markets. His analysis helps investors understand the impact of geopolitical events on these markets."
+        },
+        {
+          "heading": "Geopolitical Risks",
+          "body": "As an expert on geopolitical risks, Johnston provides valuable perspectives on how global events can affect financial markets. His analysis of the Hormuz crisis is a prime example of this expertise."
+        }
+      ]
+    }
+  },
+  {
     "id": 364,
     "name": "Justin Jo",
     "slug": "justin-jo",
@@ -6757,7 +6816,7 @@
     "last_podcast_name": "The a16z Show",
     "last_episode_date": "2026-07-29",
     "mention_score": 1,
-    "mention_score_decayed": 0.28,
+    "mention_score_decayed": 0.27,
     "last_main_idea": "Investing in AI-native entertainment presents an opportunity to capitalize on the shift towards generative media and the democratization of content creation.",
     "last_proof_cite": "The a16z Show \u2022 2026-07-29 \u2022 AI Micro Dramas, Generative Media, and the Future of Creativity",
     "last_proof_snippet": "I think folks would be surprised by how many TV shows and movies today already have some element of AI being used. I spend a lot of time with studio execs and Amazon and Netflix have already both announced programs for fully-AI-generated an",
@@ -6817,7 +6876,7 @@
     "last_podcast_name": "All-In with Chamath, Jason, Sacks & Friedberg",
     "last_episode_date": "2026-07-28",
     "mention_score": 1,
-    "mention_score_decayed": 0.28,
+    "mention_score_decayed": 0.27,
     "last_main_idea": "Investing in robotics and AI companies that are successfully transitioning from research to real-world applications could offer significant growth potential as these technologies become more integrated into various industries.",
     "last_proof_cite": "All-In with Chamath, Jason, Sacks & Friedberg \u2022 2026-07-28 \u2022 The $1/Hour Worker: Four Robotics CEOs on Humanoids at Home, China's Threat, and the End of Dangerous Jobs",
     "last_proof_snippet": "Hey everybody, it's your boy Jake Al, I'm here in Paris, France at a conference called Makina, basically AI in the real world. Pardon my robot. Thanks for tuning in, and let's get started. Apple ovens started with an $8 domain and no VC fun",
@@ -6876,7 +6935,7 @@
     "last_podcast_name": "All-In with Chamath, Jason, Sacks & Friedberg",
     "last_episode_date": "2026-07-28",
     "mention_score": 1,
-    "mention_score_decayed": 0.28,
+    "mention_score_decayed": 0.27,
     "last_main_idea": "Investing in robotics and AI companies that are successfully transitioning from research to real-world applications could offer significant growth potential as these technologies become more integrated into various industries.",
     "last_proof_cite": "All-In with Chamath, Jason, Sacks & Friedberg \u2022 2026-07-28 \u2022 The $1/Hour Worker: Four Robotics CEOs on Humanoids at Home, China's Threat, and the End of Dangerous Jobs",
     "last_proof_snippet": "Hey everybody, it's your boy Jake Al, I'm here in Paris, France at a conference called Makina, basically AI in the real world. Pardon my robot. Thanks for tuning in, and let's get started. Apple ovens started with an $8 domain and no VC fun",
@@ -6935,7 +6994,7 @@
     "last_podcast_name": "Monetary Matters with Jack Farley",
     "last_episode_date": "2026-07-29",
     "mention_score": 1,
-    "mention_score_decayed": 0.28,
+    "mention_score_decayed": 0.27,
     "last_main_idea": "The Federal Reserve's credibility is at stake, and market reactions to economic data and Fed policy suggest a potential shift in expectations for inflation and interest rates, impacting bond yields and stock market performance.",
     "last_proof_cite": "Monetary Matters with Jack Farley \u2022 2026-07-29 \u2022 Mum\u2019s The Word: Kathryn Rooney Vera on Fed\u2019s Second Meeting under Kevin Warsh, Plus Earnings Breakdown (Live Replay)",
     "last_proof_snippet": "Wow. All right. We are here. We are joined by Katherine Rooney Vera, who's the chief market strategist at Stone X Groups. A lot of views on board markets, everything in macro. We mean we can get to to currencies and bonds. Katherine had a v",
@@ -6976,65 +7035,6 @@
       ]
     },
     "net_worth": "$26.7M"
-  },
-  {
-    "id": 98,
-    "name": "Rory Johnston",
-    "slug": "rory-johnston",
-    "bio": "Rory Johnston is an expert on energy markets and geopolitical risks. He is known for his analysis of the Hormuz crisis and its implications for global oil flows. Johnston's insights are highly valued by professional finance, high-net worth individuals, family offices, and other sophisticated investors.",
-    "known_for": "Analysis of the Hormuz crisis and its implications for global oil flows.",
-    "net_worth_usd": null,
-    "net_worth_source": "",
-    "net_worth_updated_at": "2026-03-28T22:05:57.557236",
-    "voice_tone": "Informative and insightful",
-    "voice_style": "Direct and focused on market dynamics",
-    "voice_delivery_notes": "Paced with emphasis on key market indicators",
-    "voice_profile_updated_at": "2026-03-29 09:09:13",
-    "last_seen": "2026-05-14 18:46:46",
-    "last_episode_title": "MacroVoices #532 Mike Green: Record Mechanical Flows",
-    "last_podcast_name": "Macro Voices",
-    "last_episode_date": "2026-05-14",
-    "mention_score": 6,
-    "mention_score_decayed": 0.28,
-    "last_main_idea": "Investors should prepare for potential volatility as economic indicators begin to reflect the impacts of energy prices and passive investment flows.",
-    "last_proof_cite": "Macro Voices \u2022 2026-05-14 \u2022 MacroVoices #532 Mike Green: Record Mechanical Flows",
-    "last_proof_snippet": "This is Macrovoisers, the Free Weekly Financial Podcast, targeting professional finance, high-net worth individuals, family offices, and other sophisticated investors. Macrovoisers is all about the brightest minds in the world of finance an",
-    "supporting_takeaway": "The ongoing Hormuz crisis is expected to create significant economic dislocation, particularly affecting energy supply.",
-    "grokipedia_url": null,
-    "grokipedia_fetched_at": "2026-05-14T13:47:11.847729",
-    "pundit_profile": {
-      "source": "llm",
-      "source_model": "moonshot:moonshot-v1-8k",
-      "source_url": "",
-      "page_title": "Rory Johnston",
-      "fetched_at": "2026-05-14T18:47:11.847405+00:00",
-      "cliff_notes": "Rory Johnston is an expert in energy markets and geopolitical risks, with a particular focus on the Hormuz crisis and its impact on global oil flows. His expertise is sought after by a range of financial professionals, including high-net worth individuals, family offices, and sophisticated investors. Johnston's analysis is featured on platforms like Macrovoisers, a financial podcast that targets these audiences. His insights into the Hormuz crisis and its potential to cripple the global economy are particularly valued, as they help investors navigate the complex and volatile world of finance and macroeconomics.",
-      "derived": {
-        "current_role": "Expert on energy markets and geopolitical risks; specific role not mentioned."
-      },
-      "infobox": {
-        "Born": "",
-        "Nationality": ""
-      },
-      "lead_paragraphs": [
-        "Rory Johnston is an expert in energy markets and geopolitical risks, with a particular focus on the Hormuz crisis and its impact on global oil flows. His expertise is sought after by a range of financial professionals, including high-net worth individuals, family offices, and sophisticated investors. Johnston's analysis is featured on platforms like Macrovoisers, a financial podcast that targets these audiences.",
-        "His insights into the Hormuz crisis and its potential to cripple the global economy are particularly valued, as they help investors navigate the complex and volatile world of finance and macroeconomics."
-      ],
-      "sections": [
-        {
-          "heading": "Hormuz Crisis",
-          "body": "Rory Johnston is known for his analysis of the Hormuz crisis and its implications for global oil flows. He has provided insights into how this geopolitical event could potentially cripple the global economy."
-        },
-        {
-          "heading": "Energy Markets",
-          "body": "Johnston is an expert on energy markets, offering valuable insights into the complex dynamics of oil and gas markets. His analysis helps investors understand the impact of geopolitical events on these markets."
-        },
-        {
-          "heading": "Geopolitical Risks",
-          "body": "As an expert on geopolitical risks, Johnston provides valuable perspectives on how global events can affect financial markets. His analysis of the Hormuz crisis is a prime example of this expertise."
-        }
-      ]
-    }
   },
   {
     "id": 358,
@@ -14050,6 +14050,33 @@
     }
   },
   {
+    "id": 55,
+    "name": "Dr. Onus Alhajji",
+    "slug": "dr-onus-alhajji",
+    "bio": "Expert commentator on energy markets and geopolitical conflicts.",
+    "known_for": "Analysis of the impact of geopolitical events on oil markets.",
+    "net_worth_usd": null,
+    "net_worth_source": null,
+    "net_worth_updated_at": null,
+    "voice_tone": null,
+    "voice_style": null,
+    "voice_delivery_notes": null,
+    "voice_profile_updated_at": null,
+    "last_seen": "2026-04-03 10:04:02",
+    "last_episode_title": "MacroVoices #526 Matt Barrie: Pay To PrAI",
+    "last_podcast_name": "MacroVoices",
+    "last_episode_date": "2026-04-02",
+    "mention_score": 2,
+    "mention_score_decayed": 0.04,
+    "last_main_idea": "Invest in sectors less affected by AI disruption and monitor geopolitical events for opportunities in private credit markets.",
+    "last_proof_cite": "MacroVoices \u2022 2026-04-02 \u2022 MacroVoices #526 Matt Barrie: Pay To PrAI",
+    "last_proof_snippet": "AI's impact on private credit markets could lead to a market dislocation similar to the 2000.com bust.",
+    "supporting_takeaway": "AI's impact on private credit markets could lead to a market dislocation similar to the 2000.com bust.",
+    "grokipedia_url": null,
+    "grokipedia_fetched_at": null,
+    "pundit_profile": null
+  },
+  {
     "id": 220,
     "name": "Moes Cassam",
     "slug": "moes-cassam",
@@ -14067,7 +14094,7 @@
     "last_podcast_name": "Monetary Matters with Jack Farley",
     "last_episode_date": "2026-04-30",
     "mention_score": 1,
-    "mention_score_decayed": 0.04,
+    "mention_score_decayed": 0.03,
     "last_main_idea": "Investors should look for opportunities in chaos, focusing on sectors with significant potential for growth and capital movement, such as SpaceX's IPO and the de-scheduling of cannabis.",
     "last_proof_cite": "Monetary Matters with Jack Farley \u2022 2026-04-30 \u2022 SpaceX IPO: Why This Hedge Fund Manager is Fading the Hype | Moez Kassam",
     "last_proof_snippet": "SpaceX's IPO could be one of the largest in history, with potential for significant capital movement.",
@@ -14112,33 +14139,6 @@
       ]
     },
     "net_worth": "$7.0M"
-  },
-  {
-    "id": 55,
-    "name": "Dr. Onus Alhajji",
-    "slug": "dr-onus-alhajji",
-    "bio": "Expert commentator on energy markets and geopolitical conflicts.",
-    "known_for": "Analysis of the impact of geopolitical events on oil markets.",
-    "net_worth_usd": null,
-    "net_worth_source": null,
-    "net_worth_updated_at": null,
-    "voice_tone": null,
-    "voice_style": null,
-    "voice_delivery_notes": null,
-    "voice_profile_updated_at": null,
-    "last_seen": "2026-04-03 10:04:02",
-    "last_episode_title": "MacroVoices #526 Matt Barrie: Pay To PrAI",
-    "last_podcast_name": "MacroVoices",
-    "last_episode_date": "2026-04-02",
-    "mention_score": 2,
-    "mention_score_decayed": 0.04,
-    "last_main_idea": "Invest in sectors less affected by AI disruption and monitor geopolitical events for opportunities in private credit markets.",
-    "last_proof_cite": "MacroVoices \u2022 2026-04-02 \u2022 MacroVoices #526 Matt Barrie: Pay To PrAI",
-    "last_proof_snippet": "AI's impact on private credit markets could lead to a market dislocation similar to the 2000.com bust.",
-    "supporting_takeaway": "AI's impact on private credit markets could lead to a market dislocation similar to the 2000.com bust.",
-    "grokipedia_url": null,
-    "grokipedia_fetched_at": null,
-    "pundit_profile": null
   },
   {
     "id": 217,
@@ -17950,185 +17950,6 @@
     "net_worth": "$5.0M"
   },
   {
-    "id": 114,
-    "name": "Chris Power",
-    "slug": "chris-power",
-    "bio": "Chris Power is the founder and CEO of Hadrian, a company that specializes in advanced manufacturing for submarines. He is known for leading the development of a 2.25 million square foot advanced manufacturing facility for submarine programs, which is crucial for the United States Navy's submarine fleet modernization.",
-    "known_for": "Developing advanced manufacturing capabilities for the U.S. Navy's submarine programs.",
-    "net_worth_usd": 220000000.0,
-    "net_worth_source": "https://www.businessoffamily.net/chris-powers",
-    "net_worth_updated_at": "2026-03-26T04:21:15.715437",
-    "voice_tone": "Confident and solution-oriented",
-    "voice_style": "Factual and forward-looking",
-    "voice_delivery_notes": "Clear and assertive with a focus on the future of manufacturing",
-    "voice_profile_updated_at": "2026-03-26 09:20:15",
-    "last_seen": "2026-03-26 09:20:15",
-    "last_episode_title": "Submarine Manufacturing and Advanced Factories",
-    "last_podcast_name": "The a16z Show",
-    "last_episode_date": "2026-03-25",
-    "mention_score": 1,
-    "mention_score_decayed": 0.02,
-    "last_main_idea": "Investing in advanced manufacturing and workforce development for submarine production could lead to increased efficiency and meet the growing demand for naval capabilities.",
-    "last_proof_cite": "The a16z Show \u2022 2026-03-25 \u2022 Submarine Manufacturing and Advanced Factories",
-    "last_proof_snippet": "The end of the Cold War led to a collapse in submarine production, resulting in a significant skills gap.",
-    "supporting_takeaway": "The end of the Cold War led to a collapse in submarine production, resulting in a significant skills gap.",
-    "grokipedia_url": null,
-    "grokipedia_fetched_at": "2026-03-26T04:20:54.928623",
-    "pundit_profile": {
-      "source": "llm",
-      "source_model": "moonshot:moonshot-v1-8k",
-      "source_url": "",
-      "page_title": "Chris Power",
-      "fetched_at": "2026-03-26T09:20:54.928394+00:00",
-      "cliff_notes": "Chris Power is recognized for his work in the field of advanced manufacturing, particularly in the context of submarine production. As the CEO of Hadrian, he has been instrumental in the development of a large-scale manufacturing facility aimed at enhancing the capabilities of the U.S. Navy's submarine fleet. His efforts are focused on increasing productivity and efficiency in submarine manufacturing, which is critical for national defense and maintaining strategic advantages. Power's work bridges the gap between traditional manufacturing and modern technology, emphasizing the importance of advanced factories in achieving the necessary productivity uplift. His leadership in this field is significant for investors and tech listeners due to the implications for national security, economic growth, and the future of manufacturing.",
-      "derived": {
-        "current_role": "Founder and CEO of Hadrian"
-      },
-      "infobox": {
-        "Born": "",
-        "Nationality": "American"
-      },
-      "lead_paragraphs": [
-        "Chris Power is recognized for his work in the field of advanced manufacturing, particularly in the context of submarine production. As the CEO of Hadrian, he has been instrumental in the development of a large-scale manufacturing facility aimed at enhancing the capabilities of the U.S. Navy's submarine fleet. His efforts are focused on increasing productivity and efficiency in submarine manufacturing, which is critical for national defense and maintaining strategic advantages.",
-        "Power's work bridges the gap between traditional manufacturing and modern technology, emphasizing the importance of advanced factories in achieving the necessary productivity uplift. His leadership in this field is significant for investors and tech listeners due to the implications for national security, economic growth, and the future of manufacturing."
-      ],
-      "sections": [
-        {
-          "heading": "Submarine Manufacturing",
-          "body": "Chris Power is leading the charge in advanced manufacturing for submarines, which is pivotal for the U.S. Navy's fleet modernization and maintaining strategic advantages at sea."
-        },
-        {
-          "heading": "Productivity and Efficiency",
-          "body": "Power emphasizes the need for a productivity uplift in submarine manufacturing, advocating for the fusion of workforce training and software to achieve higher production rates and meet the Navy's growing demands."
-        },
-        {
-          "heading": "Advanced Factories",
-          "body": "The development of Hadrian's 2.25 million square foot facility showcases Power's commitment to creating advanced factories that can significantly increase the production capacity for submarines, which is essential for national defense."
-        }
-      ]
-    },
-    "net_worth": "$220.0M"
-  },
-  {
-    "id": 115,
-    "name": "Robert Goucher",
-    "slug": "robert-goucher",
-    "bio": "Vice-Admiral Robert Goucher is responsible for overseeing the strategic and operational aspects of submarine production for the United States Navy. He is known for his expertise in maintaining the stealth capabilities and strategic deterrence provided by the Navy's submarine fleet.",
-    "known_for": "Leading the U.S. Navy's submarine production efforts and addressing the challenges of modernizing the fleet.",
-    "net_worth_usd": null,
-    "net_worth_source": "",
-    "net_worth_updated_at": null,
-    "voice_tone": "Authoritative and pragmatic",
-    "voice_style": "Strategic and solution-focused",
-    "voice_delivery_notes": "Deliberate with an emphasis on the importance of the mission",
-    "voice_profile_updated_at": "2026-03-26 09:20:15",
-    "last_seen": "2026-03-26 09:20:15",
-    "last_episode_title": "Submarine Manufacturing and Advanced Factories",
-    "last_podcast_name": "The a16z Show",
-    "last_episode_date": "2026-03-25",
-    "mention_score": 1,
-    "mention_score_decayed": 0.02,
-    "last_main_idea": "Investing in advanced manufacturing and workforce development for submarine production could lead to increased efficiency and meet the growing demand for naval capabilities.",
-    "last_proof_cite": "The a16z Show \u2022 2026-03-25 \u2022 Submarine Manufacturing and Advanced Factories",
-    "last_proof_snippet": "The end of the Cold War led to a collapse in submarine production, resulting in a significant skills gap.",
-    "supporting_takeaway": "The end of the Cold War led to a collapse in submarine production, resulting in a significant skills gap.",
-    "grokipedia_url": null,
-    "grokipedia_fetched_at": "2026-03-26T04:21:24.879895",
-    "pundit_profile": {
-      "source": "llm",
-      "source_model": "moonshot:moonshot-v1-8k",
-      "source_url": "",
-      "page_title": "Robert Goucher",
-      "fetched_at": "2026-03-26T09:21:24.879791+00:00",
-      "cliff_notes": "Vice-Admiral Robert Goucher has had a distinguished career in the United States Navy, with a focus on submarine production. His role involves overseeing the strategic and operational aspects of submarine production, ensuring the Navy maintains its stealth and access capabilities. Goucher has been at the forefront of efforts to modernize the Navy's fleet, addressing the challenges posed by the end of the Cold War and the subsequent collapse in submarine production. He has emphasized the importance of combining a new workforce, American software, steel, and spirit to achieve a productivity uplift in submarine manufacturing. His leadership is crucial in ensuring the United States maintains its strategic deterrence and peace through strength.",
-      "derived": {
-        "current_role": "Vice-Admiral in charge of all submarine production for the United States Navy"
-      },
-      "infobox": {
-        "Born": "",
-        "Nationality": "American"
-      },
-      "lead_paragraphs": [
-        "Vice-Admiral Robert Goucher has had a distinguished career in the United States Navy, with a focus on submarine production. His role involves overseeing the strategic and operational aspects of submarine production, ensuring the Navy maintains its stealth and access capabilities. Goucher has been at the forefront of efforts to modernize the Navy's fleet, addressing the challenges posed by the end of the Cold War and the subsequent collapse in submarine production.",
-        "He has emphasized the importance of combining a new workforce, American software, steel, and spirit to achieve a productivity uplift in submarine manufacturing. His leadership is crucial in ensuring the United States maintains its strategic deterrence and peace through strength."
-      ],
-      "sections": [
-        {
-          "heading": "Submarine Production",
-          "body": "Vice-Admiral Robert Goucher is responsible for overseeing the strategic and operational aspects of submarine production for the United States Navy, ensuring the fleet's stealth and access capabilities are maintained."
-        },
-        {
-          "heading": "Modernizing the Fleet",
-          "body": "Goucher has been at the forefront of efforts to modernize the Navy's submarine fleet, addressing the challenges posed by the end of the Cold War and the subsequent collapse in submarine production."
-        },
-        {
-          "heading": "Productivity Uplift",
-          "body": "Emphasizing the importance of combining a new workforce, American software, steel, and spirit, Goucher is focused on achieving a productivity uplift in submarine manufacturing to meet the Navy's increased capacity needs."
-        }
-      ]
-    }
-  },
-  {
-    "id": 113,
-    "name": "Brian Johnson",
-    "slug": "brian-johnson",
-    "bio": "Brian Johnson is a longevity enthusiast and experimenter with psychedelics for health and longevity. He has dedicated his work to exploring scientific evidence for interventions that promote health and longevity.",
-    "known_for": "His work in exploring scientific evidence for interventions that promote health and longevity, particularly through the use of psychedelics.",
-    "net_worth_usd": 300000000.0,
-    "net_worth_source": "https://joinhampton.com/blog/the-300-million-exit-thats-funding-humanitys-future-with-bryan-johnson",
-    "net_worth_updated_at": "2026-03-31T20:09:42.531381",
-    "voice_tone": "Calm and reflective, with a sense of awe and profundity.",
-    "voice_style": "Johnson speaks with a narrative style, sharing personal experiences and drawing on scientific evidence.",
-    "voice_delivery_notes": "Pacing is thoughtful, with emphasis on the transformative aspects of his psychedelic experiences.",
-    "voice_profile_updated_at": "2026-03-26 09:17:24",
-    "last_seen": "2026-03-26 09:17:24",
-    "last_episode_title": "Exploring Psychedelics for Longevity and Personal Growth",
-    "last_podcast_name": "All-In with Chamath, Jason, Sacks & Friedberg",
-    "last_episode_date": "2026-03-26",
-    "mention_score": 1,
-    "mention_score_decayed": 0.02,
-    "last_main_idea": "Investment in psychedelics for longevity and personal growth is based on the potential for these substances to induce significant changes in consciousness and promote personal rejuvenation.",
-    "last_proof_cite": "All-In with Chamath, Jason, Sacks & Friedberg \u2022 2026-03-26 \u2022 Exploring Psychedelics for Longevity and Personal Growth",
-    "last_proof_snippet": "Johnson's experience with 5-MEO-DMT was profound, leading to a significant personal reset and a renewed sense of purpose.",
-    "supporting_takeaway": "Johnson's experience with 5-MEO-DMT was profound, leading to a significant personal reset and a renewed sense of purpose.",
-    "grokipedia_url": null,
-    "grokipedia_fetched_at": "2026-03-26T04:22:22.498838",
-    "pundit_profile": {
-      "source": "llm",
-      "source_model": "moonshot:moonshot-v1-8k",
-      "source_url": "",
-      "page_title": "Brian Johnson",
-      "fetched_at": "2026-03-26T09:22:22.498676+00:00",
-      "cliff_notes": "Brian Johnson is a longevity enthusiast and experimenter with psychedelics for health and longevity. He has dedicated his work to exploring scientific evidence for interventions that promote health and longevity. Johnson started his project five years ago with the approach of going through all the scientific evidence ever published on health and longevity to find the interventions with the best evidence for effect size. His work has led him to experiment with psychedelics, such as MEO DMT, as part of his longevity experiments. Johnson's work is of interest to investors and tech listeners due to its potential implications for health and longevity in the tech industry.",
-      "derived": {
-        "current_role": "Longevity Enthusiast"
-      },
-      "infobox": {
-        "Born": "",
-        "Nationality": ""
-      },
-      "lead_paragraphs": [
-        "Brian Johnson is a longevity enthusiast and experimenter with psychedelics for health and longevity. He has dedicated his work to exploring scientific evidence for interventions that promote health and longevity. Johnson started his project five years ago with the approach of going through all the scientific evidence ever published on health and longevity to find the interventions with the best evidence for effect size.",
-        "His work has led him to experiment with psychedelics, such as MEO DMT, as part of his longevity experiments. Johnson's work is of interest to investors and tech listeners due to its potential implications for health and longevity in the tech industry."
-      ],
-      "sections": [
-        {
-          "heading": "Longevity Experiments",
-          "body": "Brian Johnson has been conducting longevity experiments, including the use of psychedelics like MEO DMT, to explore interventions that promote health and longevity."
-        },
-        {
-          "heading": "Scientific Evidence",
-          "body": "Johnson's approach to longevity involves going through all the scientific evidence ever published on health and longevity to find the interventions with the best evidence for effect size."
-        },
-        {
-          "heading": "Psychedelics for Health",
-          "body": "Johnson has experimented with psychedelics, such as MEO DMT, as part of his longevity experiments, exploring their potential benefits for health and longevity."
-        }
-      ]
-    },
-    "net_worth": "$300.0M"
-  },
-  {
     "id": 43,
     "name": "Olivia Moore",
     "slug": "olivia-moore",
@@ -18194,6 +18015,185 @@
         }
       ]
     }
+  },
+  {
+    "id": 114,
+    "name": "Chris Power",
+    "slug": "chris-power",
+    "bio": "Chris Power is the founder and CEO of Hadrian, a company that specializes in advanced manufacturing for submarines. He is known for leading the development of a 2.25 million square foot advanced manufacturing facility for submarine programs, which is crucial for the United States Navy's submarine fleet modernization.",
+    "known_for": "Developing advanced manufacturing capabilities for the U.S. Navy's submarine programs.",
+    "net_worth_usd": 220000000.0,
+    "net_worth_source": "https://www.businessoffamily.net/chris-powers",
+    "net_worth_updated_at": "2026-03-26T04:21:15.715437",
+    "voice_tone": "Confident and solution-oriented",
+    "voice_style": "Factual and forward-looking",
+    "voice_delivery_notes": "Clear and assertive with a focus on the future of manufacturing",
+    "voice_profile_updated_at": "2026-03-26 09:20:15",
+    "last_seen": "2026-03-26 09:20:15",
+    "last_episode_title": "Submarine Manufacturing and Advanced Factories",
+    "last_podcast_name": "The a16z Show",
+    "last_episode_date": "2026-03-25",
+    "mention_score": 1,
+    "mention_score_decayed": 0.01,
+    "last_main_idea": "Investing in advanced manufacturing and workforce development for submarine production could lead to increased efficiency and meet the growing demand for naval capabilities.",
+    "last_proof_cite": "The a16z Show \u2022 2026-03-25 \u2022 Submarine Manufacturing and Advanced Factories",
+    "last_proof_snippet": "The end of the Cold War led to a collapse in submarine production, resulting in a significant skills gap.",
+    "supporting_takeaway": "The end of the Cold War led to a collapse in submarine production, resulting in a significant skills gap.",
+    "grokipedia_url": null,
+    "grokipedia_fetched_at": "2026-03-26T04:20:54.928623",
+    "pundit_profile": {
+      "source": "llm",
+      "source_model": "moonshot:moonshot-v1-8k",
+      "source_url": "",
+      "page_title": "Chris Power",
+      "fetched_at": "2026-03-26T09:20:54.928394+00:00",
+      "cliff_notes": "Chris Power is recognized for his work in the field of advanced manufacturing, particularly in the context of submarine production. As the CEO of Hadrian, he has been instrumental in the development of a large-scale manufacturing facility aimed at enhancing the capabilities of the U.S. Navy's submarine fleet. His efforts are focused on increasing productivity and efficiency in submarine manufacturing, which is critical for national defense and maintaining strategic advantages. Power's work bridges the gap between traditional manufacturing and modern technology, emphasizing the importance of advanced factories in achieving the necessary productivity uplift. His leadership in this field is significant for investors and tech listeners due to the implications for national security, economic growth, and the future of manufacturing.",
+      "derived": {
+        "current_role": "Founder and CEO of Hadrian"
+      },
+      "infobox": {
+        "Born": "",
+        "Nationality": "American"
+      },
+      "lead_paragraphs": [
+        "Chris Power is recognized for his work in the field of advanced manufacturing, particularly in the context of submarine production. As the CEO of Hadrian, he has been instrumental in the development of a large-scale manufacturing facility aimed at enhancing the capabilities of the U.S. Navy's submarine fleet. His efforts are focused on increasing productivity and efficiency in submarine manufacturing, which is critical for national defense and maintaining strategic advantages.",
+        "Power's work bridges the gap between traditional manufacturing and modern technology, emphasizing the importance of advanced factories in achieving the necessary productivity uplift. His leadership in this field is significant for investors and tech listeners due to the implications for national security, economic growth, and the future of manufacturing."
+      ],
+      "sections": [
+        {
+          "heading": "Submarine Manufacturing",
+          "body": "Chris Power is leading the charge in advanced manufacturing for submarines, which is pivotal for the U.S. Navy's fleet modernization and maintaining strategic advantages at sea."
+        },
+        {
+          "heading": "Productivity and Efficiency",
+          "body": "Power emphasizes the need for a productivity uplift in submarine manufacturing, advocating for the fusion of workforce training and software to achieve higher production rates and meet the Navy's growing demands."
+        },
+        {
+          "heading": "Advanced Factories",
+          "body": "The development of Hadrian's 2.25 million square foot facility showcases Power's commitment to creating advanced factories that can significantly increase the production capacity for submarines, which is essential for national defense."
+        }
+      ]
+    },
+    "net_worth": "$220.0M"
+  },
+  {
+    "id": 115,
+    "name": "Robert Goucher",
+    "slug": "robert-goucher",
+    "bio": "Vice-Admiral Robert Goucher is responsible for overseeing the strategic and operational aspects of submarine production for the United States Navy. He is known for his expertise in maintaining the stealth capabilities and strategic deterrence provided by the Navy's submarine fleet.",
+    "known_for": "Leading the U.S. Navy's submarine production efforts and addressing the challenges of modernizing the fleet.",
+    "net_worth_usd": null,
+    "net_worth_source": "",
+    "net_worth_updated_at": null,
+    "voice_tone": "Authoritative and pragmatic",
+    "voice_style": "Strategic and solution-focused",
+    "voice_delivery_notes": "Deliberate with an emphasis on the importance of the mission",
+    "voice_profile_updated_at": "2026-03-26 09:20:15",
+    "last_seen": "2026-03-26 09:20:15",
+    "last_episode_title": "Submarine Manufacturing and Advanced Factories",
+    "last_podcast_name": "The a16z Show",
+    "last_episode_date": "2026-03-25",
+    "mention_score": 1,
+    "mention_score_decayed": 0.01,
+    "last_main_idea": "Investing in advanced manufacturing and workforce development for submarine production could lead to increased efficiency and meet the growing demand for naval capabilities.",
+    "last_proof_cite": "The a16z Show \u2022 2026-03-25 \u2022 Submarine Manufacturing and Advanced Factories",
+    "last_proof_snippet": "The end of the Cold War led to a collapse in submarine production, resulting in a significant skills gap.",
+    "supporting_takeaway": "The end of the Cold War led to a collapse in submarine production, resulting in a significant skills gap.",
+    "grokipedia_url": null,
+    "grokipedia_fetched_at": "2026-03-26T04:21:24.879895",
+    "pundit_profile": {
+      "source": "llm",
+      "source_model": "moonshot:moonshot-v1-8k",
+      "source_url": "",
+      "page_title": "Robert Goucher",
+      "fetched_at": "2026-03-26T09:21:24.879791+00:00",
+      "cliff_notes": "Vice-Admiral Robert Goucher has had a distinguished career in the United States Navy, with a focus on submarine production. His role involves overseeing the strategic and operational aspects of submarine production, ensuring the Navy maintains its stealth and access capabilities. Goucher has been at the forefront of efforts to modernize the Navy's fleet, addressing the challenges posed by the end of the Cold War and the subsequent collapse in submarine production. He has emphasized the importance of combining a new workforce, American software, steel, and spirit to achieve a productivity uplift in submarine manufacturing. His leadership is crucial in ensuring the United States maintains its strategic deterrence and peace through strength.",
+      "derived": {
+        "current_role": "Vice-Admiral in charge of all submarine production for the United States Navy"
+      },
+      "infobox": {
+        "Born": "",
+        "Nationality": "American"
+      },
+      "lead_paragraphs": [
+        "Vice-Admiral Robert Goucher has had a distinguished career in the United States Navy, with a focus on submarine production. His role involves overseeing the strategic and operational aspects of submarine production, ensuring the Navy maintains its stealth and access capabilities. Goucher has been at the forefront of efforts to modernize the Navy's fleet, addressing the challenges posed by the end of the Cold War and the subsequent collapse in submarine production.",
+        "He has emphasized the importance of combining a new workforce, American software, steel, and spirit to achieve a productivity uplift in submarine manufacturing. His leadership is crucial in ensuring the United States maintains its strategic deterrence and peace through strength."
+      ],
+      "sections": [
+        {
+          "heading": "Submarine Production",
+          "body": "Vice-Admiral Robert Goucher is responsible for overseeing the strategic and operational aspects of submarine production for the United States Navy, ensuring the fleet's stealth and access capabilities are maintained."
+        },
+        {
+          "heading": "Modernizing the Fleet",
+          "body": "Goucher has been at the forefront of efforts to modernize the Navy's submarine fleet, addressing the challenges posed by the end of the Cold War and the subsequent collapse in submarine production."
+        },
+        {
+          "heading": "Productivity Uplift",
+          "body": "Emphasizing the importance of combining a new workforce, American software, steel, and spirit, Goucher is focused on achieving a productivity uplift in submarine manufacturing to meet the Navy's increased capacity needs."
+        }
+      ]
+    }
+  },
+  {
+    "id": 113,
+    "name": "Brian Johnson",
+    "slug": "brian-johnson",
+    "bio": "Brian Johnson is a longevity enthusiast and experimenter with psychedelics for health and longevity. He has dedicated his work to exploring scientific evidence for interventions that promote health and longevity.",
+    "known_for": "His work in exploring scientific evidence for interventions that promote health and longevity, particularly through the use of psychedelics.",
+    "net_worth_usd": 300000000.0,
+    "net_worth_source": "https://joinhampton.com/blog/the-300-million-exit-thats-funding-humanitys-future-with-bryan-johnson",
+    "net_worth_updated_at": "2026-03-31T20:09:42.531381",
+    "voice_tone": "Calm and reflective, with a sense of awe and profundity.",
+    "voice_style": "Johnson speaks with a narrative style, sharing personal experiences and drawing on scientific evidence.",
+    "voice_delivery_notes": "Pacing is thoughtful, with emphasis on the transformative aspects of his psychedelic experiences.",
+    "voice_profile_updated_at": "2026-03-26 09:17:24",
+    "last_seen": "2026-03-26 09:17:24",
+    "last_episode_title": "Exploring Psychedelics for Longevity and Personal Growth",
+    "last_podcast_name": "All-In with Chamath, Jason, Sacks & Friedberg",
+    "last_episode_date": "2026-03-26",
+    "mention_score": 1,
+    "mention_score_decayed": 0.01,
+    "last_main_idea": "Investment in psychedelics for longevity and personal growth is based on the potential for these substances to induce significant changes in consciousness and promote personal rejuvenation.",
+    "last_proof_cite": "All-In with Chamath, Jason, Sacks & Friedberg \u2022 2026-03-26 \u2022 Exploring Psychedelics for Longevity and Personal Growth",
+    "last_proof_snippet": "Johnson's experience with 5-MEO-DMT was profound, leading to a significant personal reset and a renewed sense of purpose.",
+    "supporting_takeaway": "Johnson's experience with 5-MEO-DMT was profound, leading to a significant personal reset and a renewed sense of purpose.",
+    "grokipedia_url": null,
+    "grokipedia_fetched_at": "2026-03-26T04:22:22.498838",
+    "pundit_profile": {
+      "source": "llm",
+      "source_model": "moonshot:moonshot-v1-8k",
+      "source_url": "",
+      "page_title": "Brian Johnson",
+      "fetched_at": "2026-03-26T09:22:22.498676+00:00",
+      "cliff_notes": "Brian Johnson is a longevity enthusiast and experimenter with psychedelics for health and longevity. He has dedicated his work to exploring scientific evidence for interventions that promote health and longevity. Johnson started his project five years ago with the approach of going through all the scientific evidence ever published on health and longevity to find the interventions with the best evidence for effect size. His work has led him to experiment with psychedelics, such as MEO DMT, as part of his longevity experiments. Johnson's work is of interest to investors and tech listeners due to its potential implications for health and longevity in the tech industry.",
+      "derived": {
+        "current_role": "Longevity Enthusiast"
+      },
+      "infobox": {
+        "Born": "",
+        "Nationality": ""
+      },
+      "lead_paragraphs": [
+        "Brian Johnson is a longevity enthusiast and experimenter with psychedelics for health and longevity. He has dedicated his work to exploring scientific evidence for interventions that promote health and longevity. Johnson started his project five years ago with the approach of going through all the scientific evidence ever published on health and longevity to find the interventions with the best evidence for effect size.",
+        "His work has led him to experiment with psychedelics, such as MEO DMT, as part of his longevity experiments. Johnson's work is of interest to investors and tech listeners due to its potential implications for health and longevity in the tech industry."
+      ],
+      "sections": [
+        {
+          "heading": "Longevity Experiments",
+          "body": "Brian Johnson has been conducting longevity experiments, including the use of psychedelics like MEO DMT, to explore interventions that promote health and longevity."
+        },
+        {
+          "heading": "Scientific Evidence",
+          "body": "Johnson's approach to longevity involves going through all the scientific evidence ever published on health and longevity to find the interventions with the best evidence for effect size."
+        },
+        {
+          "heading": "Psychedelics for Health",
+          "body": "Johnson has experimented with psychedelics, such as MEO DMT, as part of his longevity experiments, exploring their potential benefits for health and longevity."
+        }
+      ]
+    },
+    "net_worth": "$300.0M"
   },
   {
     "id": 110,
