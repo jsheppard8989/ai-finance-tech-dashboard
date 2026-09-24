@@ -1,6 +1,10 @@
 {
   "_comment": "Home page summary of Trap Map. Regenerate from trap_map.json when a trap datapoint is stamped. Script hook: pipeline/regenerate_trap_home.py",
+<<<<<<< Updated upstream
   "_generated_at": "2026-09-24T19:07:25Z",
+=======
+  "_generated_at": "2026-09-24T19:16:08Z",
+>>>>>>> Stashed changes
   "_source": "data/trap_map.json",
   "last_monitored": [
     {
