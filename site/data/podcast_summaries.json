@@ -1,5 +1,37 @@
 [
   {
+    "id": 515,
+    "podcast_name": "Latent Space: The AI Engineer Podcast",
+    "episode_title": "\ud83d\udd2cBio-security is an AI Arms Race - Eric Nguyen (CEO, Radical Numerics)",
+    "episode_date": "2026-09-23",
+    "summary": "This episode of 'Latent Space: The AI Engineer Podcast' delves into the advancements in genomic language models (GLMs) and their transformative impact on synthetic biology. The discussion emphasizes the dual mandate of developing innovative design capabilities while ensuring robust biosecurity measures to prevent misuse of AI technologies. Key insights include the potential of generative models like EVO to create functional genomes and the importance of understanding non-coding DNA regions in predicting disease-causing mutations.",
+    "key_takeaways": [
+      "Invest in companies that develop both design and defense capabilities in synthetic biology.",
+      "Monitor advancements in generative models like EVO and Omni for breakthroughs in drug development.",
+      "Focus on firms leveraging AI to analyze non-coding DNA regions for disease prediction.",
+      "Support initiatives that enhance biosecurity measures in synthetic biology.",
+      "Encourage collaboration between AI researchers and biologists to address ethical concerns."
+    ],
+    "investment_thesis": "The core investment opportunity lies in companies that balance innovation in synthetic biology with ethical biosecurity measures, particularly those utilizing AI for genomic analysis.",
+    "key_tickers": null
+  },
+  {
+    "id": 514,
+    "podcast_name": "All-In with Chamath, Jason, Sacks & Friedberg",
+    "episode_title": "Luca Ferrari, Bending Spoons CEO: The $40K Origin Story, Buying Product-Market Fit & Why Private Equity Can't Compete",
+    "episode_date": "2026-09-23",
+    "summary": "In this episode, the hosts discuss Bending Spoon's transformative journey from a failed AI startup to a thriving tech company with $1 billion in revenue. The company employs a strategic acquisition model that focuses on enhancing underperforming apps through proprietary technology and operational efficiencies. With a conservative leverage strategy and a strong emphasis on talent acquisition, Bending Spoon is well-positioned to capitalize on market opportunities, especially in a rising interest rate environment.",
+    "key_takeaways": [
+      "Bending Spoon's unique acquisition model allows for rapid scaling and value creation by enhancing underperforming apps.",
+      "The company maintains a conservative leverage ratio of approximately 2.5 times, managing financial risk effectively.",
+      "Focusing on predictable earnings reduces investment risk and enhances cash flow projections.",
+      "Bending Spoon's rigorous talent acquisition process attracts top talent, crucial for innovation and performance.",
+      "The integration of acquired companies into a centralized operational framework enhances efficiency and reduces costs."
+    ],
+    "investment_thesis": "Investors should consider companies with strategic acquisition models and strong operational efficiencies, particularly those that can thrive in rising interest rate environments.",
+    "key_tickers": null
+  },
+  {
     "id": 513,
     "podcast_name": "Monetary Matters with Jack Farley",
     "episode_title": "Energy Shock and Rate Hikes Could Cause a 2022 Style Bear Market | Eric Wallerstein | Clocktower Group",
