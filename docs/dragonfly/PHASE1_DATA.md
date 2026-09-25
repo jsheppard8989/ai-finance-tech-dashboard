@@ -42,6 +42,98 @@ Every Dragonfly network fetch (bars, chains, watchlist quotes) calls
 
 ## Watchlist — `dragonfly/build_watchlist.py` → `dragonfly/watchlist.json`
 
+### Universe: top 5 Nasdaq-100 names by market cap per sector (`dragonfly/ndx_universe.py`)
+
+- **Constituents and market cap:** the Nasdaq-100 list on api.nasdaq.com
+  (`/api/quote/list-type/nasdaq100`, field `marketCap`).
+- **Sector:** the Nasdaq stock screener on api.nasdaq.com
+  (`/api/screener/stocks`, field `sector`). This is the same download the
+  security-type lookup already uses.
+  - The Nasdaq-100 list's own `sector` field is blank for every row, so it
+    can't be used.
+  - The screener `sector` is Nasdaq's sector label, the same value the quote
+    page shows as "Sector". Its labels are ICB industry names, but it is
+    Nasdaq's own mapping: api.nasdaq.com exposes no separate ICB code. For
+    example, TSLA is "Industrials" and AMZN, WMT and COST are "Consumer
+    Discretionary".
+  - Sectors seen on 2026-09-25: Technology (45), Consumer Discretionary (17),
+    Industrials (14), Health Care (9), Telecommunications (5), Consumer
+    Staples (5), Utilities (4), Energy (1), Basic Materials (1).
+- **Share classes are collapsed to one per company before ranking**, so the
+  ranking counts companies, not tickers.
+  - Issuer: the explicit `ISSUER_ALIASES` map (Alphabet, Fox, News Corp);
+    otherwise the company name with the class and security-type suffix
+    removed. For example, "Alphabet Inc. Class A Common Stock" and "Alphabet
+    Inc. Class C Capital Stock" both become "alphabet inc".
+  - Kept class: `PREFERRED_SHARE_CLASS` if present (Alphabet → GOOGL, always).
+    Otherwise the higher market cap, with ties broken by ticker.
+  - The company's market cap is the kept class's figure. Classes aren't
+    summed, because Nasdaq's per-class figure already approximates the whole
+    company (GOOGL 4.21T, GOOG 4.18T).
+  - Dropped classes are excluded as `duplicate_share_class`, recorded in
+    `universe.json` (`excluded`, `duplicate_share_classes`) and in the
+    watchlist `excluded` with the class that was kept.
+  - On 2026-09-25 this drops GOOG only: 101 NDX tickers → 100 companies.
+- **Ranking:** market cap descending within each sector, ties broken by
+  ticker. The top 5 companies per sector are taken; a sector with fewer than
+  5 contributes what it has.
+- **Fail closed:** a constituent with a missing sector or a missing or
+  non-positive market cap is excluded from ranking (`sector_missing` /
+  `market_cap_missing`). The reason is recorded in `universe.json` and in
+  the watchlist's `universe.ranking_excluded`.
+- **Weekly refresh:** the ranked membership is persisted to
+  `dragonfly/universe.json` with an `as_of_date`.
+  - It is reused until it is 7 or more days old, or until you pass
+    `--refresh-universe`.
+  - A missing, corrupt, future-dated, or different-N file also forces a
+    refresh.
+  - Daily builds re-run only the gates and quotes, so they can't reshuffle
+    membership.
+  - A failed refresh aborts the build. A stale membership is never silently
+    reused.
+- **No backfill:** the gates below run on the top-5 members only. A member
+  that fails any gate (depositary receipt, unknown type, bars unavailable,
+  price, ADV, no usable mid/last) leaves its slot empty; the #6 name in that
+  sector is never pulled in. Every excluded member is recorded in
+  `excluded` with its reason, sector, rank and market cap. The per-sector
+  view in `sectors` shows each slot as `admitted` or `excluded` with its
+  reason.
+- The S&P 500 pool is gone. `--cap` (default 200) is kept only as a
+  harmless upper bound; the universe is at most 5 names per sector.
+
+### Pinned names — `dragonfly/universe_config.json` (`universe_pinned`)
+
+- **Approved by Jared on 2026-09-25:** META, ORCL, MSTR, AVGO, MRVL, NBIS,
+  IREN, ASTS, TWST, TEM, NTLA.
+- **Added on top of the top-5 rule.** The list is a separate committed,
+  hand-edited file.
+  - The weekly refresh only writes `universe.json`. It never writes this
+    file, and pinned names are never stored in the ranked membership, so a
+    refresh can't drop or overwrite them.
+  - A missing or malformed config aborts the build; pinned names are never
+    silently dropped.
+- **Pinned is not admitted.** Every pinned name passes every gate:
+  - security type (the #267 ADR/DR and type logic; ETFs and funds such as
+    ARKG or TLT resolve to `not_common_stock` via Nasdaq's ETF quote-info
+    probe);
+  - price ≥ $10 and ADV ≥ $25M;
+  - the modeled-mid spread rule, including `no_usable_mid_or_last`.
+  - A pinned name that fails is recorded in `excluded` with its reason and
+    `origin: ["pinned"]`.
+- **Pinned names need not be NDX members.** Sector and market cap come from
+  the Nasdaq screener, the same download as the type lookup. If they can't be
+  determined, the name is excluded as `security_type_unknown` (fail closed).
+- **De-duplication:** a pinned name that is already a top-5 member appears
+  once, with `origin: ["ndx_top5", "pinned"]`. Top-5-only names carry
+  `["ndx_top5"]`, and pinned-only names carry `["pinned"]` with
+  `sector_rank: null`.
+- **No sector slots:** pinned names don't use or displace sector slots. The
+  `sectors` view still shows only the top-5 slots, and the no-backfill rule
+  still applies to them. The `pinned` view lists every pinned name with its
+  status.
+
+### Gates (unchanged)
+
 - **US listed common stock only.** Before any Yahoo call, each candidate's
   security type is resolved from Nasdaq's descriptor: the screener's security
   name (one call for all US listings), then the per-symbol quote-info
@@ -52,19 +144,48 @@ Every Dragonfly network fetch (bars, chains, watchlist quotes) calls
   common. Excluded, never admitted: `depositary_receipt` (ADR/ADS/NY registry
   shares), `not_common_stock` (preferred, units, etc.), and
   `security_type_unknown` when the type cannot be determined (fail closed).
-  Excluded names never reach the bars or spread steps, so the next names by
-  ADV backfill. The list may be shorter than 200; the gates stay exact.
+  Excluded names never reach the bars or spread steps. Their slots stay
+  empty (no backfill).
 
-- Candidates: S&P 500 (Wikipedia constituents table, carries GICS sector) ∪
-  Nasdaq-100 (Nasdaq's own list at `api.nasdaq.com`; Wikipedia no longer
-  carries that table).
 - Gates are the existing universe gates, called through
   `risk_math.universe_reasons` (not re-typed): price ≥ $10, 20-day ADV ≥ $25M,
   spread ≤ max($0.05, 0.15% of mid).
-- Price and ADV run on every candidate (from `bars.py`). Survivors are ranked by
-  ADV, descending.
-- **Spread gate on the ADV-ranked shortlist only.** Yahoo bid/ask is fetched in
-  rank order, in small batches, until `cap` (200) names pass.
+- Price and ADV run on every universe member (from `bars.py`). Survivors are
+  ordered by ADV, descending (the `rank` field).
+- **Quotes:** Yahoo bid/ask/last is fetched for each surviving member.
+  (`beyond_cap` can only occur if `--cap` is set below the universe size.)
+- **Paper quote model (default, `--spread-mode modeled`, PAPER ONLY; Jared,
+  2026-09-25).** Each name's quote is resolved by `risk_math.resolve_quote`:
+  1. Yahoo bid/ask passes the spread gate as-is → real quote,
+     `spread_source: "yahoo"`.
+  2. Crossed, zero, missing, or gate-fail → mid = (bid+ask)/2, modeled
+     bid/ask = mid ∓ $0.025, `spread_source: "modeled_mid_0.05"`,
+     `provisional: true`.
+  3. Sanity guard: if that mid is more than the gate width
+     (`stock_spread_limit(last)` = max($0.05, 0.15% of last)) away from
+     Yahoo's last trade, or bid/ask give no usable mid (missing/zero on either
+     side), last trade is the mid: `spread_source: "modeled_last_0.05"`,
+     `mid_source: "last_trade"`, provisional.
+  4. No usable mid and no usable last trade → excluded
+     (`no_usable_mid_or_last`). Fail closed. A mid with no last trade to check
+     it against is admitted as `mid_source: "quote_mid_unverified"`.
+  - The price gate (on the resolved mid) and the ADV gate stay exact. Thin
+    names still fall out on ADV. Modeled names are admitted on price/ADV; the
+    spread gate is satisfied by the modeled $0.05 spread for paper purposes.
+  - The modeled $0.05 is **not** re-checked against the 0.15% width. It would
+    pass anyway: the gate is max($0.05, 0.15%·mid), so $0.05 is always legal.
+    For low-priced names it is wider than 0.15% (0.5% at $10) and overstates
+    friction for liquid names priced under $33.33.
+  - Per name: `bid`/`ask`/`mid`/`spread` (as resolved), `spread_source`,
+    `mid_source`, `provisional`, raw `yahoo_bid`/`yahoo_ask`/`last_trade`.
+    `quote_fallbacks` records why each modeled name fell back.
+  - `not_spread_checked` and `spread_unavailable` no longer occur in modeled
+    mode.
+  - **Live:** any card using a `modeled_*` spread source is rejected
+    (`structural_blocks(..., spread_source=...)` → `provisional_source_live`,
+    and `sources_provisional` treats a modeled source as provisional).
+- **Strict mode (`--spread-mode exact`)**, the previous behavior: only names
+  whose Yahoo bid/ask passes the gate are admitted.
   - A name that is **never spread-checked** because the cap filled first is
     **excluded** (`not_spread_checked`). It is never admitted to the watchlist
     or the scan.
@@ -81,10 +202,46 @@ Every Dragonfly network fetch (bars, chains, watchlist quotes) calls
 Yahoo's `bid`/`ask` for many Nasdaq-listed names is not an NBBO. On
 2026-09-25 intraday, AAPL showed 336.96 × 341.98 (size 2 × 4), MSFT 498.20 ×
 518.97, AMZN 236.40 × 261.65, while NYSE names (JPM, XOM, BAC, KO) showed
-penny-wide quotes with real size. Some quotes were crossed. The spread gate
-fails closed on these, so the watchlist is gate-correct but **skewed away from
-Nasdaq-listed mega-caps**. Fixing this needs a better quote source; it must not
-be fixed by softening the gate.
+penny-wide quotes with real size. Some quotes were crossed. In strict mode the
+spread gate fails closed on these, so the list is **skewed away from
+Nasdaq-listed mega-caps**. The paper quote model above admits them on a modeled
+$0.05 spread (provisional, paper only, live-blocked). A real fix for live still
+needs a better quote source; it must not be fixed by softening the gate.
+
+## Paper fills — `risk_math.paper_buy_fill` / `paper_sell_fill` / `paper_entry_fill`
+
+- Buys fill at mid + $0.025 (rounded up to the cent), sells at mid − $0.025
+  (rounded down). Mid is the resolved quote mid; for a buy-stop entry it
+  defaults to the trigger. Labeled `fill_type: hypothetical`.
+- The max-fill rule is unchanged: a buy fill above `max_fill` = trigger × 1.0015
+  invalidates the card. Because $0.025 > 0.15% of prices under $16.67, a paper
+  entry at the trigger on a name under $16.67 always exceeds `max_fill` and is
+  invalidated (e.g. trigger $12.00 → fill $12.03 > max $12.02).
+
+### Halt / stale-quote refusal — `risk_math.paper_fill` (the paper fill step)
+
+- `paper_fill(side, mid, quote_time=..., now=..., halted=None, trigger=None)`
+  refuses the fill (`filled: false`) with block reasons:
+  - `halted`: only an explicit `halted=True` blocks. Yahoo has no reliable
+    per-name halt flag: `info["tradeable"]` is False even for AAPL, and
+    `marketState` is market-wide (PRE / REGULAR / POST / CLOSED). So
+    `yahoo_quote_full` returns `halted: None` (unknown), and an unknown halt
+    is never treated as a halt. A future halt feed (for example Nasdaq
+    Trader's trade-halt list) can pass `halted=True`.
+  - `quote_stale`: the quote timestamp is Yahoo's `regularMarketTime` (epoch
+    seconds of the last regular-session trade), carried as `quote_time` on
+    each watchlist row.
+    - A missing, unparseable or naive timestamp always blocks.
+    - During the regular session (Mon–Fri 09:30–16:00 ET), a timestamp older
+      than 15 minutes, or more than 1 minute in the future, blocks. The
+      15-minute threshold is the plan's staleness rule (§4: "If marks are
+      older than 15 minutes during the regular session, the governor rejects
+      new risk (fail closed)").
+    - Exchange holidays aren't modeled; on a holiday the timestamp goes
+      stale and the fill is refused anyway.
+  - `max_fill_exceeded`: the unchanged max-fill-through-trigger rule for
+    buys.
+- Paper only; no agent-facing or live path calls it.
 
 ## Bars — `dragonfly/bars.py`
 
@@ -121,7 +278,20 @@ be fixed by softening the gate.
 - `python3 dragonfly/test_phase1_data.py` — offline (fakes only): bars math,
   incremental cache, chain fail-closed, watchlist selection including the
   never-checked / failed-quote exclusions.
+- `python3 dragonfly/test_phase1_modeled.py` — offline: `resolve_quote`
+  vectors (yahoo-pass, crossed, zero, missing, gate-fail, mid-vs-last swap,
+  no-mid-no-last exclusion), paper buy/sell fills and the max-fill interaction,
+  live-reject / paper-pass for both modeled sources, modeled selection, and
+  the halt / stale-quote refusal in `paper_fill`.
+- `python3 dragonfly/test_phase1_universe.py` — offline: share-class collapse
+  (GOOGL kept over GOOG), pinned names (survive a refresh, de-dupe with
+  both origins, ETF / price / ADV / no-quote / unknown-sector exclusions,
+  no sector slots used), the ETF type probe, top-5 per sector,
+  a sector with fewer than 5 members, a missing sector or market cap (fail
+  closed, with the reason recorded), no backfill when an ADR, price, ADV,
+  bars or quote failure is in the top 5, and the weekly refresh and
+  staleness logic (a daily build doesn't reshuffle membership).
 - `python3 dragonfly/test_phase1_guards.py` — offline: lock guard (live /
   dead / unreadable PID, bounded wait), daemon windows and override, guarded
   fetchers, chains shortlist cap, security-type resolution and ADR exclusion
-  with backfill, cache-first bars.
+  (selector-level; the universe itself never backfills), cache-first bars.

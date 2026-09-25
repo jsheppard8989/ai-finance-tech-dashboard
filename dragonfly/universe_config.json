@@ -1,0 +1,18 @@
+{
+ "schema": "dragonfly.universe_config/1",
+ "universe_pinned": [
+  "META",
+  "ORCL",
+  "MSTR",
+  "AVGO",
+  "MRVL",
+  "NBIS",
+  "IREN",
+  "ASTS",
+  "TWST",
+  "TEM",
+  "NTLA"
+ ],
+ "approved_by": "Jared, 2026-09-25",
+ "note": "Pinned names are added ON TOP of the NDX top-5-per-sector rule. Hand-edited only; the weekly universe refresh never reads-and-writes this file. Pinned is not admitted: every pinned name must pass every universe gate. Pinned names do not use sector slots and never displace top-5 members."
+}
