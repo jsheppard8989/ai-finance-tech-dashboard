@@ -2,7 +2,7 @@
   "schema_version": "1.0.0",
   "trade_id": "DF-2026-0001",
   "book": "paper",
-  "drafted_at": "2026-09-25T08:14:00-05:00",
+  "drafted_at": "2026-09-25T08:13:00-05:00",
   "ticker": "XYZ",
   "setup": "catalyst_breakout",
   "direction": "long",
@@ -16,18 +16,33 @@
     "earnings_in_window": false
   },
   "why_now": "Primary catalyst plus a breakout through 84.20 on 2.4x relative volume, within 1 ATR of the level.",
-  "entry": { "trigger": "buy_stop", "price": 84.5 },
+  "entry": {
+    "trigger": "buy_stop",
+    "price": 84.5
+  },
   "stop": 80.75,
-  "targets": [{ "price": 91.0, "fraction": 1 }],
+  "targets": [
+    {
+      "price": 91.0,
+      "fraction": 1
+    }
+  ],
   "time_stop": {
     "max_calendar_days": 7,
     "entry_session_date": "2026-09-25",
     "exit_session_date": "2026-10-02"
   },
-  "invalidation": ["stop_hit", "level_lost", "time_stop", "catalyst_retracted"],
+  "invalidation": [
+    "stop_hit",
+    "level_lost",
+    "time_stop",
+    "catalyst_retracted"
+  ],
   "invalidation_level": 80.75,
   "evidence": {
-    "news": ["https://example.com/xyz-supply-agreement"],
+    "news": [
+      "https://example.com/xyz-supply-agreement"
+    ],
     "sec": [],
     "x": [],
     "relative_volume": 2.4,
@@ -42,7 +57,7 @@
     "spread_source": "yahoo",
     "sector": "Industrials",
     "reference_level": 84.2,
-    "provisional": true,
+    "signal_session": "2026-09-24",
     "source": "handoff prep (yahoo via yfinance)",
     "as_of": "2026-09-24T15:30:00-05:00"
   }

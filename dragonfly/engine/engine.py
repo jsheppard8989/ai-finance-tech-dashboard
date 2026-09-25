@@ -1,8 +1,24 @@
 """The pre-open engine pass and polling loop.
 
-One session per day. Drafts first seen at or before the cutoff are sized once
-and frozen; drafts first seen after it are carded `late` and never sized.
-DONE is written once the cutoff has passed and every on-time draft has a card.
+One NYSE session per day (dragonfly/market_calendar.py; holidays and weekends
+are a no-op). One engine pass per trade, no version-2 cards:
+
+- The Architect writes inbox/<date>/<trade_id>.draft.json; the Red Team then
+  writes inbox/<date>/<trade_id>.redteam.json against it.
+- A draft is sized only once its red team file is valid, and only if that file
+  was first seen valid by a pass scheduled at or before the 08:20 cutoff.
+  Otherwise, after the cutoff, it gets a `late_redteam` card, unsized.
+- warning_count is derived by the engine from the seven flags (plus a
+  Mac-measured gap_history) and passed to caps()/size_*(). Red team keys that
+  try to block or size are stripped and logged; hard blocks are the engine's.
+- A book marked before the previous session's close blocks every draft
+  (`book_stale`) and sizes nothing.
+- Every measurement (price, ATR, ADV, relative volume, sector, spread) and every
+  setup gate is recomputed on the Mac from the bars cache / prep file.
+  Mismatch, unavailable, or a failed gate is a structural block on the card.
+
+DONE is written after the cutoff once every draft has a card (sized,
+rejected, or late).
 """
 
 from __future__ import annotations
@@ -15,7 +31,8 @@ from datetime import date, datetime, timedelta
 from pathlib import Path
 from typing import Callable, Dict, List, Optional, Tuple
 
-from dragonfly.engine import core
+from dragonfly import market_calendar as mc
+from dragonfly.engine import core, measure
 from dragonfly.engine.core import (
     DRAFT_SUFFIX,
     OUTCOME_LATE,
@@ -55,6 +72,8 @@ class Engine:
         poll_seconds: int = core.DEFAULT_POLL_SECONDS,
         now_fn: Callable[[], datetime] = core.now_ct,
         sleep_fn: Callable[[float], None] = time.sleep,
+        bars_dir: Optional[Path] = None,
+        watchlist_path: Optional[Path] = None,
     ):
         self.repo_path = Path(repo_path)
         self.session_date = session_date
@@ -67,6 +86,8 @@ class Engine:
         self.poll_seconds = max(1, int(poll_seconds))
         self.now_fn = now_fn
         self.sleep_fn = sleep_fn
+        self.bars_dir = Path(bars_dir) if bars_dir else measure.default_bars_dir()
+        self.watchlist_path = Path(watchlist_path) if watchlist_path else core.ROOT / "dragonfly" / "watchlist.json"
         self.git: Optional[PrivateRepo] = PrivateRepo(self.repo_path, sleep=sleep_fn) if (pull or push) else None
         ds = session_date.isoformat()
         self.inbox_rel = f"inbox/{ds}"
@@ -114,7 +135,16 @@ class Engine:
     def run_pass(self, tick: Optional[datetime] = None) -> dict:
         tick = (tick or self.now_fn()).astimezone(core.tz()).replace(microsecond=0)
         result = {"tick": iso(tick), "written": [], "pending": [], "frozen_changed": [], "done": None,
-                  "pulled": False, "pushed": False}
+                  "pulled": False, "pushed": False, "not_session": False}
+        try:
+            session = mc.is_session(self.session_date)
+        except mc.CalendarNotCovered as exc:
+            raise EngineError(str(exc)) from exc
+        if not session:
+            log.info("%s is not an NYSE session (%s); engine idle", self.session_date,
+                     mc.holiday_name(self.session_date) or "weekend")
+            result["not_session"] = True
+            return result
         if self.git is not None:
             if self.push:
                 # Anything a crashed earlier pass wrote but did not commit goes first.
@@ -123,11 +153,16 @@ class Engine:
                 result["pulled"] = self.git.sync()
 
         st = self._load_state()
+        st.setdefault("redteam", {})
         drafts: List[Tuple[str, bytes]] = []
         if self.inbox_dir.is_dir():
             for path in sorted(self.inbox_dir.glob(f"*{DRAFT_SUFFIX}")):
                 if path.is_file():
                     drafts.append((path.name, path.read_bytes()))
+            for path in sorted(self.inbox_dir.glob(f"*{core.REDTEAM_SUFFIX}")):
+                if path.is_file() and path.name not in st["redteam"]:
+                    st["redteam"][path.name] = {"first_seen_at": iso(tick), "first_valid_at": None}
+                    log.info("red team file first seen: %s/%s at %s", self.inbox_rel, path.name, iso(tick))
         for name, data in drafts:
             if name not in st["drafts"]:
                 st["drafts"][name] = {"first_seen_at": iso(tick), "sha256": core.sha256_bytes(data), "logged_sha": []}
@@ -137,92 +172,26 @@ class Engine:
         existing = self.load_cards()
         by_file = {c["engine"]["draft_file"]: k for k, c in existing.items() if isinstance(c.get("engine"), dict)}
         ordered = sorted(drafts, key=lambda d: (st["drafts"][d[0]]["first_seen_at"], d[0]))
-
-        book = None
-        ctx = None
-        prep = None
-        window_closed = tick > self.clock.end
-        may_size_without_regime = self.clock.past_cutoff(tick) or self.finalize
+        env: Dict[str, object] = {}
+        final = self.clock.past_cutoff(tick) or self.finalize
 
         for name, data in ordered:
             rec = st["drafts"][name]
             sha = core.sha256_bytes(data)
             draft_file = f"{self.inbox_rel}/{name}"
             if draft_file in by_file:
-                card = existing[by_file[draft_file]]
-                if sha != card["engine"]["draft_sha256"] and sha not in rec["logged_sha"]:
+                key = by_file[draft_file]
+                if sha != existing[key]["engine"]["draft_sha256"] and sha not in rec["logged_sha"]:
                     log.warning("card %s is frozen; draft %s changed after carding (sha %s); ignored",
-                                by_file[draft_file], draft_file, sha[:12])
+                                key, draft_file, sha[:12])
                     rec["logged_sha"].append(sha)
-                    result["frozen_changed"].append(by_file[draft_file])
+                    result["frozen_changed"].append(key)
                 continue
-
-            first_seen = parse_iso(rec["first_seen_at"])
-            late = self.clock.is_late(first_seen)
-            try:
-                draft = json.loads(data.decode("utf-8"))
-            except (UnicodeDecodeError, ValueError):
-                draft = None
-            trade_id, id_reasons = core.draft_identity(name, draft)
-
-            if book is None:
-                book = core.load_book(self.book_path)
-                regime, regime_rel, problems = core.load_regime(self.repo_path, self.session_date)
-                for p in problems:
-                    log.warning("regime snapshot problem: %s", p)
-                ctx = core.risk_context(book, regime, regime_rel)
-                prep, prep_rel = core.load_prep_measurements(self.repo_path, self.session_date)
-
-            common = dict(session_date=self.session_date, draft_file=draft_file, draft_sha=sha,
-                          first_seen=first_seen, clock=self.clock)
-            stem = name[: -len(DRAFT_SUFFIX)]
-            key: Optional[str] = trade_id
-            card: Optional[dict] = None
-
-            if trade_id is not None and trade_id in existing:
-                key = f"{UNIDENTIFIED_DIR}/{stem}"
-                card = core.reject_record(trade_id=None, ticker=(draft or {}).get("ticker") if isinstance(draft, dict) else None,
-                                          reasons=["duplicate_trade_id", f"trade_id {trade_id} already carded"],
-                                          now=self.now_fn(), book_name=book["book"], ctx=ctx, late=late, **common)
-            elif draft is None or not isinstance(draft, dict):
-                key = trade_id or f"{UNIDENTIFIED_DIR}/{stem}"
-                card = core.reject_record(trade_id=trade_id, ticker=None, reasons=["draft_not_json_object"],
-                                          now=self.now_fn(), book_name=book["book"], ctx=ctx, late=late, **common)
-            else:
-                presized = [reason for field, reason in core.PRESIZED_REASONS if field in draft]
-                stripped = {k: v for k, v in draft.items() if k not in dict(core.PRESIZED_REASONS)}
-                if isinstance(stripped.get("entry"), dict) and "max_fill" in stripped["entry"]:
-                    presized.append("draft_carries_max_fill")
-                    stripped["entry"] = {k: v for k, v in stripped["entry"].items() if k != "max_fill"}
-                errs = core.schema_errors("trade_draft.schema.json", stripped)
-                if trade_id is None:
-                    key = f"{UNIDENTIFIED_DIR}/{stem}"
-                    card = core.reject_record(trade_id=None, ticker=draft.get("ticker"),
-                                              reasons=presized + ["trade_id_missing"] + [f"draft_schema_invalid: {e}" for e in errs],
-                                              now=self.now_fn(), book_name=book["book"], ctx=ctx, late=late, **common)
-                elif errs:
-                    card = core.reject_record(trade_id=trade_id, ticker=draft.get("ticker"),
-                                              reasons=presized + id_reasons + [f"draft_schema_invalid: {e}" for e in errs],
-                                              now=self.now_fn(), book_name=book["book"], ctx=ctx, late=late, **common)
-                elif late:
-                    card = core.build_card(draft=stripped, outcome_hint=OUTCOME_LATE, extra_reasons=[],
-                                           now=self.now_fn(), book=book, ctx=ctx, measurements=None, **common)
-                else:
-                    pre = presized + id_reasons + core.extra_validation(stripped, self.session_date, book)
-                    if window_closed and not pre:
-                        pre = ["engine_window_closed"]
-                    if not pre and ctx["regime"] is None and not may_size_without_regime:
-                        log.info("draft %s waiting for today's regime snapshot (cutoff %s)", draft_file, iso(self.clock.cutoff))
-                        result["pending"].append(trade_id)
-                        continue
-                    measurements = None if pre else core.resolve_measurements(stripped, prep, prep_rel)
-                    sized_cards = [c for c in existing.values()
-                                   if c.get("engine", {}).get("outcome") == OUTCOME_SIZED and "sizing" in c]
-                    live_book = core.with_pending(book, sized_cards)
-                    card = core.build_card(draft=stripped, outcome_hint=None, extra_reasons=pre,
-                                           now=self.now_fn(), book=live_book, ctx=ctx, measurements=measurements, **common)
-
-            card = self._fail_closed(card, key, trade_id, draft, book, ctx, late, common)
+            outcome = self._card_one(name, data, sha, rec, st, tick, final, existing, env, result)
+            if outcome is None:
+                continue
+            key, card = outcome
+            card = self._fail_closed(card, key, env["ctx"])
             path = self._card_path(key)
             if path.exists():  # never rewrite a frozen card
                 log.warning("card %s already exists on disk; not rewriting", key)
@@ -247,16 +216,150 @@ class Engine:
             result["pushed"] = True
         return result
 
-    def _fail_closed(self, card, key, trade_id, draft, book, ctx, late, common) -> dict:
+    def _env(self, env: Dict[str, object]) -> Dict[str, object]:
+        """Per-pass inputs, loaded once and only when a draft needs a card."""
+        if not env:
+            book = core.load_book(self.book_path)
+            regime, regime_rel, problems = core.load_regime(self.repo_path, self.session_date)
+            for p in problems:
+                log.warning("regime snapshot problem: %s", p)
+            prep, prep_rel = measure.load_prep(self.repo_path, self.session_date)
+            env.update(book=book, ctx=core.risk_context(book, regime, regime_rel),
+                       freshness=core.book_freshness(book, self.session_date),
+                       prep=prep, prep_rel=prep_rel, watchlist=measure.load_watchlist(self.watchlist_path))
+            if not env["freshness"]["fresh"]:
+                log.error("book_stale: book marked %s, must be at or after %s; nothing will be sized",
+                          env["freshness"].get("book_as_of"), env["freshness"].get("required_at_or_after"))
+        return env
+
+    def _redteam(self, trade_id: str, draft_sha: str, st: dict, tick: datetime):
+        """(redteam or None, info, problems). Records first_valid_at in local state."""
+        name = f"{trade_id}{core.REDTEAM_SUFFIX}"
+        path = self.inbox_dir / name
+        if not path.is_file():
+            return None, None, ["redteam_missing"]
+        data = path.read_bytes()
+        rt, problems = core.parse_redteam(data, trade_id, draft_sha)
+        rec = st["redteam"].setdefault(name, {"first_seen_at": iso(tick), "first_valid_at": None})
+        info = {"file": f"{self.inbox_rel}/{name}", "sha256": core.sha256_bytes(data),
+                "first_seen_at": rec["first_seen_at"], "first_valid_at": rec.get("first_valid_at")}
+        if rt is None:
+            if rec.get("logged_invalid") != info["sha256"]:
+                log.warning("red team file %s invalid: %s", info["file"], problems)
+                rec["logged_invalid"] = info["sha256"]
+            return None, info, problems
+        if rec.get("first_valid_at") is None:
+            rec["first_valid_at"] = iso(tick)
+            info["first_valid_at"] = rec["first_valid_at"]
+        if rt["ignored_fields"] and rec.get("logged_ignored") != info["sha256"]:
+            log.warning("red team file %s tried to set %s; ignored (red team never blocks or sizes)",
+                        info["file"], rt["ignored_fields"])
+            rec["logged_ignored"] = info["sha256"]
+        if rt["warning_count_claim_ignored"]:
+            log.warning("red team file %s claims warning_count %s; engine derived %d from the flags",
+                        info["file"], rt["warning_count_claimed"], rt["warning_count"])
+        info.update(warning_count=rt["warning_count"], warnings=rt["warnings"], as_of=rt["as_of"],
+                    ignored_fields=rt["ignored_fields"], warning_count_claimed=rt["warning_count_claimed"],
+                    warning_count_source="derived_from_flags")
+        return rt, info, []
+
+    def _card_one(self, name, data, sha, rec, st, tick, final, existing, envd, result):
+        """Decide one uncarded draft. Returns (key, card), or None to wait."""
+        first_seen = parse_iso(rec["first_seen_at"])
+        late_draft = self.clock.is_late(first_seen)
+        draft_file = f"{self.inbox_rel}/{name}"
+        try:
+            draft = json.loads(data.decode("utf-8"))
+        except (UnicodeDecodeError, ValueError):
+            draft = None
+        trade_id, id_reasons = core.draft_identity(name, draft)
+        env = self._env(envd)
+        book, ctx = env["book"], env["ctx"]
+        now = self.now_fn()
+        common = dict(session_date=self.session_date, draft_file=draft_file, draft_sha=sha,
+                      first_seen=first_seen, clock=self.clock)
+        stem = name[: -len(DRAFT_SUFFIX)]
+        ticker = draft.get("ticker") if isinstance(draft, dict) else None
+
+        if trade_id is not None and trade_id in existing:
+            return f"{UNIDENTIFIED_DIR}/{stem}", core.reject_record(
+                trade_id=None, ticker=ticker, reasons=["duplicate_trade_id", f"trade_id {trade_id} already carded"],
+                now=now, book_name=book["book"], ctx=ctx, late=late_draft, **common)
+        if not isinstance(draft, dict):
+            return (trade_id or f"{UNIDENTIFIED_DIR}/{stem}"), core.reject_record(
+                trade_id=trade_id, ticker=None, reasons=["draft_not_json_object"],
+                now=now, book_name=book["book"], ctx=ctx, late=late_draft, **common)
+
+        presized = [reason for field, reason in core.PRESIZED_REASONS if field in draft]
+        stripped = {k: v for k, v in draft.items() if k not in dict(core.PRESIZED_REASONS)}
+        if isinstance(stripped.get("entry"), dict) and "max_fill" in stripped["entry"]:
+            presized.append("draft_carries_max_fill")
+            stripped["entry"] = {k: v for k, v in stripped["entry"].items() if k != "max_fill"}
+        errs = core.schema_errors("trade_draft.schema.json", stripped)
+        if trade_id is None:
+            return f"{UNIDENTIFIED_DIR}/{stem}", core.reject_record(
+                trade_id=None, ticker=ticker,
+                reasons=presized + ["trade_id_missing"] + [f"draft_schema_invalid: {e}" for e in errs],
+                now=now, book_name=book["book"], ctx=ctx, late=late_draft, **common)
+        if errs:
+            return trade_id, core.reject_record(
+                trade_id=trade_id, ticker=ticker,
+                reasons=presized + id_reasons + [f"draft_schema_invalid: {e}" for e in errs],
+                now=now, book_name=book["book"], ctx=ctx, late=late_draft, **common)
+
+        card_kw = dict(draft=stripped, now=now, book=book, ctx=ctx, **common)
+        rt, rt_info, rt_problems = self._redteam(trade_id, sha, st, tick)
+        if late_draft:
+            return trade_id, core.build_card(kind=core.KIND_LATE, reasons=["late_draft"], redteam=rt,
+                                             redteam_info=rt_info, **card_kw)
+        pre = presized + id_reasons + core.extra_validation(stripped, self.session_date, book)
+        if pre:
+            return trade_id, core.build_card(kind=core.KIND_REJECT, reasons=pre, redteam=rt,
+                                             redteam_info=rt_info, **card_kw)
+        if not env["freshness"]["fresh"]:
+            return trade_id, core.build_card(kind=core.KIND_REJECT, reasons=["book_stale"], redteam=rt,
+                                             redteam_info=rt_info, extra_inputs={"book_freshness": env["freshness"]},
+                                             **card_kw)
+        # Red team gate: size only with a valid red team file seen by the cutoff pass.
+        rt_on_time = rt is not None and not self.clock.is_late(parse_iso(rt_info["first_valid_at"]))
+        if not rt_on_time:
+            if rt is None and not final:
+                log.info("draft %s waiting for its red team file (%s)", draft_file, ", ".join(rt_problems))
+                result["pending"].append(trade_id)
+                return None
+            codes = ["late_redteam"] + [p for p in rt_problems if p != "redteam_missing"][:3]
+            return trade_id, core.build_card(kind=core.KIND_LATE, reasons=codes, redteam=None,
+                                             redteam_info=rt_info, **card_kw)
+        if tick > self.clock.end:
+            return trade_id, core.build_card(kind=core.KIND_REJECT, reasons=["engine_window_closed"], redteam=rt,
+                                             redteam_info=rt_info, **card_kw)
+        if ctx["regime"] is None and not final:
+            log.info("draft %s waiting for today's regime snapshot (cutoff %s)", draft_file, iso(self.clock.cutoff))
+            result["pending"].append(trade_id)
+            return None
+        mac = measure.resolve(stripped, self.session_date, bars_dir=self.bars_dir, prep=env["prep"],
+                              prep_rel=env["prep_rel"], watchlist=env["watchlist"])
+        sized_cards = [c for c in existing.values()
+                       if c.get("engine", {}).get("outcome") == OUTCOME_SIZED and "sizing" in c]
+        live_book = core.with_pending(book, sized_cards)
+        card_kw["book"] = live_book
+        return trade_id, core.build_card(kind=core.KIND_GOVERNOR, reasons=[], redteam=rt, redteam_info=rt_info,
+                                         mac=mac, **card_kw)
+
+    def _fail_closed(self, card: dict, key: str, ctx: dict) -> dict:
+        """Every card is validated before writing. A failure is never written as sized."""
         errs = core.card_errors(card)
         if not errs:
             return card
         log.error("card %s failed its schema; writing a reject record instead: %s", key, errs)
+        eng = card.get("engine") or {}
         record = core.reject_record(
-            trade_id=trade_id if trade_id and not str(key).startswith(UNIDENTIFIED_DIR) else None,
-            ticker=draft.get("ticker") if isinstance(draft, dict) else None,
+            trade_id=card.get("trade_id") if not str(key).startswith(UNIDENTIFIED_DIR) else None,
+            ticker=card.get("ticker"),
             reasons=["card_schema_invalid"] + [f"card_schema_invalid: {e}" for e in errs],
-            now=self.now_fn(), book_name=book["book"], ctx=ctx, late=late, **common,
+            session_date=self.session_date, draft_file=eng["draft_file"], draft_sha=eng["draft_sha256"],
+            first_seen=parse_iso(eng["first_seen_at"]), clock=self.clock, now=self.now_fn(),
+            book_name=eng.get("book", "paper"), ctx=ctx, late=eng.get("outcome") == OUTCOME_LATE,
         )
         errs2 = core.card_errors(record)
         if errs2:
@@ -358,7 +461,18 @@ class Engine:
         return nxt
 
     def run_loop(self) -> int:
-        """Poll from start to end. Exit 0 only if DONE exists when the loop ends."""
+        """Poll from start to end. Exit 0 only if DONE exists when the loop ends.
+
+        On an NYSE holiday (or weekend) the engine idles: no pass, no DONE, exit 0.
+        """
+        try:
+            if not mc.is_session(self.session_date):
+                log.info("%s is not an NYSE session (%s); engine not run", self.session_date,
+                         mc.holiday_name(self.session_date) or "weekend")
+                return 0
+        except mc.CalendarNotCovered as exc:
+            log.error("%s", exc)
+            return 2
         now = self.now_fn()
         if now < self.clock.start:
             wait = (self.clock.start - now).total_seconds()

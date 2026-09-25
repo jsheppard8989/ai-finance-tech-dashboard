@@ -7,7 +7,7 @@ after that and Jared's approval.
 | File | Purpose |
 | --- | --- |
 | `com.dragonfly.engine.plist.template` | LaunchAgent: 08:08 CT Mon–Fri, runs the wrapper. `RunAtLoad` false. |
-| `run_engine.sh.template` | Wrapper: weekday + 08:00–08:24 guard, then `/usr/bin/python3 -m dragonfly.engine run`. |
+| `run_engine.sh.template` | Wrapper: weekday + 08:00–08:24 guard, then `/usr/bin/python3 -m dragonfly.engine run` (the engine itself idles, exit 0, on NYSE holidays). |
 
 Placeholders: `__REPO__` (the Mac checkout of this repo), `__HOME__`.
 Installed copies belong under `dragonfly/state/live/ops/` (gitignored), logs

@@ -16,6 +16,7 @@ from decimal import Decimal
 from pathlib import Path
 from typing import Any, Dict, List, Mapping, Optional, Sequence, Tuple
 
+from dragonfly import market_calendar as mc
 from dragonfly import risk_math as rm
 from dragonfly.engine import ENGINE_VERSION
 
@@ -309,52 +310,83 @@ def risk_context(book: Mapping, regime: Optional[Mapping], regime_path: Optional
     }
 
 
-# ------------------------------------------------------------------ measurements
+# ------------------------------------------------------------------ book freshness
 
-def load_prep_measurements(repo: Path, session_date: date) -> Tuple[Dict[str, dict], Optional[str]]:
-    """Optional Mac prep file handoff/<date>/measurements.json.
+def book_freshness(book: Mapping, session_date: date) -> dict:
+    """Pre-open rule: the book must be marked at or after the previous session's close.
 
-    Accepts {"names": {"XYZ": {...}}} or {"names": [{"ticker": "XYZ", ...}]}.
-    Missing file: empty map (the draft's own measurements are used).
+    Previous session and its close (15:00 CT, 12:00 CT on NYSE early closes) come
+    from dragonfly/market_calendar.py. Stale or undeterminable fails closed.
     """
-    rel = f"handoff/{session_date.isoformat()}/measurements.json"
-    path = repo / rel
-    if not path.exists():
-        return {}, None
     try:
-        doc = json.loads(path.read_text(encoding="utf-8"))
-    except (OSError, ValueError) as exc:
-        raise EngineError(f"{rel} unreadable: {exc}") from exc
-    names = doc.get("names") if isinstance(doc, dict) else None
-    out: Dict[str, dict] = {}
-    if isinstance(names, dict):
-        for k, v in names.items():
-            if isinstance(v, dict):
-                out[str(k).upper()] = v
-    elif isinstance(names, list):
-        for v in names:
-            if isinstance(v, dict) and v.get("ticker"):
-                out[str(v["ticker"]).upper()] = v
-    return out, rel
+        close = mc.previous_close(session_date)
+    except mc.CalendarNotCovered as exc:
+        return {"fresh": False, "reason": "book_stale", "detail": str(exc), "required_at_or_after": None}
+    marked = parse_iso(book["as_of"])
+    return {"fresh": marked >= close, "reason": None if marked >= close else "book_stale",
+            "book_as_of": iso(marked), "required_at_or_after": iso(close)}
 
 
-PREP_FIELDS = ("price", "atr", "adv_dollars", "spread", "spread_source", "provisional", "sector", "source", "as_of")
-_PREP_ALIASES = {"adv_dollars": ("adv_dollars", "adv20_dollars")}
+# ------------------------------------------------------------------ red team
+
+REDTEAM_SUFFIX = ".redteam.json"
+WARNING_FLAGS = (
+    "crowded_options",
+    "sector_lagging",
+    "wide_spread_but_legal",
+    "contradictory_filing",
+    "valuation_extreme",
+    "gap_history",
+    "event_just_outside_window",
+)
+# Keys a red team file may not use to block or size. Stripped, recorded, logged.
+REDTEAM_FORBIDDEN_KEYS = ("hard_blocks", "blocks", "block", "decision", "veto", "sizing", "size", "units",
+                          "risk_decision", "max_fill", "status", "approve", "approved", "reasons")
 
 
-def resolve_measurements(draft: Mapping, prep: Mapping[str, dict], prep_rel: Optional[str]) -> dict:
-    m = dict(draft["measurements"])
-    used = "draft"
-    row = prep.get(draft["ticker"].upper())
-    if row:
-        used = prep_rel or "prep"
-        for field in PREP_FIELDS:
-            for alias in _PREP_ALIASES.get(field, (field,)):
-                if alias in row:
-                    m[field] = row[alias]
-                    break
-    m["measurements_source"] = used
-    return m
+def parse_redteam(data: bytes, trade_id: str, draft_sha: str) -> Tuple[Optional[dict], List[str]]:
+    """Validate a red team file for one draft. Returns (redteam, problems).
+
+    warning_count is DERIVED by the engine from the seven flags. A file's own
+    warning_count, if present and different, is ignored (recorded).
+    """
+    try:
+        obj = json.loads(data.decode("utf-8"))
+    except (UnicodeDecodeError, ValueError):
+        return None, ["redteam_not_json"]
+    if not isinstance(obj, dict):
+        return None, ["redteam_not_json_object"]
+    ignored = [k for k in REDTEAM_FORBIDDEN_KEYS if k in obj]
+    stripped = {k: v for k, v in obj.items() if k not in REDTEAM_FORBIDDEN_KEYS}
+    problems = [f"redteam_schema_invalid: {e}" for e in schema_errors("trade_redteam.schema.json", stripped)]
+    if problems:
+        return None, problems
+    if stripped["trade_id"] != trade_id:
+        return None, ["redteam_trade_id_mismatch"]
+    if stripped.get("draft_sha256") and stripped["draft_sha256"] != draft_sha:
+        return None, ["redteam_reviews_other_draft_version"]
+    warnings = [f for f in WARNING_FLAGS if stripped["flags"][f] is True]
+    claimed = stripped.get("warning_count")
+    return {
+        "trade_id": trade_id,
+        "as_of": stripped["as_of"],
+        "warnings": warnings,
+        "warning_count": len(warnings),
+        "warning_count_claimed": claimed,
+        "warning_count_claim_ignored": claimed is not None and claimed != len(warnings),
+        "narrative": stripped["narrative"],
+        "ignored_fields": ignored,
+    }, []
+
+
+def red_team_section(redteam: Optional[Mapping], hard_blocks: Sequence[str], note: str) -> dict:
+    """Card red_team block. Hard blocks are the ENGINE's; red team supplies flags + narrative."""
+    blocks = list(dict.fromkeys(hard_blocks))
+    if redteam:
+        return {"decision": "block" if blocks else "pass", "hard_blocks": blocks,
+                "warnings": list(redteam["warnings"]), "narrative": redteam["narrative"]}
+    return {"decision": "block" if blocks else "pass", "hard_blocks": blocks, "warnings": [],
+            "narrative": note}
 
 
 # ------------------------------------------------------------------ drafts
@@ -380,15 +412,24 @@ def _supports_kwarg(fn, name: str) -> bool:
 
 
 def structural_inputs(draft: Mapping, m: Mapping, book: Mapping, ctx: Mapping) -> dict:
-    atr = rm.D(m["atr"])
+    """structural_blocks() kwargs from Mac-recomputed measurements `m`.
+
+    Contract (Ditka, 2026-09-25): extension and stop-distance ATR are measured
+    on the underlying. Stock: extension = (trigger - reference_level) / ATR,
+    stop distance = (max_buy_fill(trigger) - stop) / ATR. Options: extension =
+    (underlying previous close - reference_level) / ATR, stop distance =
+    (underlying previous close - option.underlying_stop) / ATR. ATR is the
+    Mac's Wilder ATR(14) at the previous session.
+    """
+    atr_ = rm.D(m["atr"])
     level = rm.D(m["reference_level"])
     if draft["instrument"] == "stock":
         ref = rm.D(draft["entry"]["price"])
-        stop_distance = (rm.max_buy_fill(draft["entry"]["price"]) - rm.D(draft["stop"])) / atr
+        stop_distance = (rm.max_buy_fill(draft["entry"]["price"]) - rm.D(draft["stop"])) / atr_
     else:
         ref = rm.D(m["price"])
-        stop_distance = (ref - rm.D(draft["option"]["underlying_stop"])) / atr
-    extension = max(Decimal("0"), (ref - level) / atr)
+        stop_distance = (ref - rm.D(draft["option"]["underlying_stop"])) / atr_
+    extension = max(Decimal("0"), (ref - level) / atr_)
     sector = str(m["sector"]).strip().lower()
     positions = book["positions"]
     kwargs = dict(
@@ -416,7 +457,12 @@ def structural_inputs(draft: Mapping, m: Mapping, book: Mapping, ctx: Mapping) -
 
 
 def extra_validation(draft: Mapping, session_date: date, book: Mapping) -> List[str]:
-    """Draft checks the governor does not do. Any hit rejects the draft."""
+    """Draft checks the governor does not do. Any hit rejects the draft (never sized).
+
+    Time stop: entry_session_date must be an NYSE session on or after the
+    session date, and exit_session_date must equal
+    risk_math.time_stop_session(entry, NYSE sessions) from the static calendar.
+    """
     reasons: List[str] = []
     if draft.get("book") and draft["book"] != book["book"]:
         reasons.append("book_mismatch")
@@ -426,11 +472,14 @@ def extra_validation(draft: Mapping, session_date: date, book: Mapping) -> List[
     try:
         entry_d = date.fromisoformat(ts["entry_session_date"])
         exit_d = date.fromisoformat(ts["exit_session_date"])
+        sessions = mc.sessions_between(entry_d, entry_d + timedelta(days=7))
+        expected = rm.time_stop_session(entry_d, sessions)
+        if entry_d < session_date or not mc.is_session(entry_d) or exit_d != expected:
+            reasons.append("time_stop_invalid")
+    except mc.CalendarNotCovered:
+        reasons.extend(["time_stop_invalid", "calendar_not_covered"])
     except ValueError:
         reasons.append("time_stop_invalid")
-    else:
-        if entry_d < session_date or not (entry_d < exit_d <= entry_d + timedelta(days=7)) or exit_d.weekday() >= 5:
-            reasons.append("time_stop_invalid")
     if "time_stop" not in draft["invalidation"] or "stop_hit" not in draft["invalidation"]:
         reasons.append("invalidation_not_machine_checkable")
     return reasons
@@ -453,9 +502,9 @@ def _sizing_block(size: Mapping, book: Mapping) -> dict:
     }
 
 
-def zero_sizing(instrument: str, book: Mapping, ctx: Mapping) -> dict:
+def zero_sizing(instrument: str, book: Mapping, ctx: Mapping, warning_count: int = 0) -> dict:
     """Governor-shaped empty size: caps populated, zero units. Never a model's numbers."""
-    limit = rm.caps(book["equity"], ctx["risk_mode"], 0)
+    limit = rm.caps(book["equity"], ctx["risk_mode"], warning_count)
     size = {
         "units": 0,
         "planned_loss": Decimal("0"),
@@ -470,53 +519,29 @@ def zero_sizing(instrument: str, book: Mapping, ctx: Mapping) -> dict:
     return _sizing_block(size, book)
 
 
-def run_governor(draft: Mapping, m: Mapping, book: Mapping, ctx: Mapping) -> dict:
-    """structural_blocks, then size_stock / size_option on max_buy_fill."""
+def size_trade(draft: Mapping, m: Mapping, book: Mapping, ctx: Mapping, warning_count: int) -> Tuple[dict, dict]:
+    """size_stock / size_option on max_buy_fill with the red team's warning_count."""
     max_fill = rm.max_buy_fill(draft["entry"]["price"])
-    s_kwargs = structural_inputs(draft, m, book, ctx)
-    blocks = rm.structural_blocks(**s_kwargs)
-    inputs = {
-        "structural": {k: (str(v) if isinstance(v, Decimal) else v) for k, v in s_kwargs.items()},
-        "max_fill": str(max_fill),
-    }
-    if blocks:
-        return {"blocked": True, "reasons": blocks, "size": None, "max_fill": max_fill, "inputs": inputs}
     if draft["instrument"] == "stock":
         kwargs = dict(
-            equity=book["equity"],
-            entry=max_fill,
-            stop=rm.D(draft["stop"]),
-            target=rm.D(draft["targets"][0]["price"]),
-            atr=rm.D(m["atr"]),
-            price=rm.D(m["price"]),
-            adv_dollars=rm.D(m["adv_dollars"]),
-            spread=None if m.get("spread") is None else rm.D(m["spread"]),
-            open_heat=book["open_heat"],
-            buying_power=book["buying_power"],
-            gross_long=book["gross_long"],
-            risk_mode=ctx["risk_mode"],
-            warning_count=0,
+            equity=book["equity"], entry=max_fill, stop=rm.D(draft["stop"]),
+            target=rm.D(draft["targets"][0]["price"]), atr=rm.D(m["atr"]), price=rm.D(m["price"]),
+            adv_dollars=rm.D(m["adv_dollars"]), spread=None if m.get("spread") is None else rm.D(m["spread"]),
+            open_heat=book["open_heat"], buying_power=book["buying_power"], gross_long=book["gross_long"],
+            risk_mode=ctx["risk_mode"], warning_count=warning_count,
         )
         size = rm.size_stock(**kwargs)
     else:
         opt = draft["option"]
         kwargs = dict(
-            equity=book["equity"],
-            debit=max_fill,
-            stop_premium=rm.D(draft["stop"]),
-            target_premium=rm.D(draft["targets"][0]["price"]),
-            open_heat=book["open_heat"],
-            buying_power=book["buying_power"],
-            risk_mode=ctx["risk_mode"],
-            warning_count=0,
-            open_interest=int(opt["open_interest"]),
-            volume=int(opt["volume"]),
-            bid=rm.D(opt["bid"]),
-            ask=rm.D(opt["ask"]),
+            equity=book["equity"], debit=max_fill, stop_premium=rm.D(draft["stop"]),
+            target_premium=rm.D(draft["targets"][0]["price"]), open_heat=book["open_heat"],
+            buying_power=book["buying_power"], risk_mode=ctx["risk_mode"], warning_count=warning_count,
+            open_interest=int(opt["open_interest"]), volume=int(opt["volume"]),
+            bid=rm.D(opt["bid"]), ask=rm.D(opt["ask"]),
         )
         size = rm.size_option(**kwargs)
-    inputs["sizing"] = {k: (str(v) if isinstance(v, Decimal) else v) for k, v in kwargs.items()}
-    return {"blocked": False, "reasons": list(size["reasons"]), "size": size, "max_fill": max_fill, "inputs": inputs}
+    return size, {k: (str(v) if isinstance(v, Decimal) else v) for k, v in kwargs.items()}
 
 
 def _engine_block(*, outcome: str, reasons: Sequence[str], session_date: date, draft_file: str,
@@ -570,87 +595,106 @@ def _card_shell(draft: Mapping, max_fill: Decimal, now: datetime) -> dict:
     }
 
 
-RED_TEAM_PENDING = {
-    "decision": "pending",
-    "hard_blocks": [],
-    "warnings": [],
-    "narrative": "Red team pending (08:18-08:25 CT). The engine froze this card before red team review; "
-    "warnings recorded later do not change this card's size.",
-}
+KIND_LATE = "late"
+KIND_REJECT = "reject"        # rejected before the governor; never sized
+KIND_GOVERNOR = "governor"    # engine blocks + structural_blocks + sizing
 
 
-def build_card(*, draft: Mapping, outcome_hint: Optional[str], extra_reasons: Sequence[str],
-               session_date: date, draft_file: str, draft_sha: str, first_seen: datetime,
-               clock: SessionClock, now: datetime, book: Mapping, ctx: Mapping, measurements: Optional[Mapping]) -> dict:
-    """Card for a draft that passed trade_draft.schema.json.
+def build_card(*, draft: Mapping, kind: str, reasons: Sequence[str], session_date: date, draft_file: str,
+               draft_sha: str, first_seen: datetime, clock: SessionClock, now: datetime, book: Mapping,
+               ctx: Mapping, redteam: Optional[Mapping] = None, redteam_info: Optional[Mapping] = None,
+               mac: Optional[Mapping] = None, extra_inputs: Optional[Mapping] = None) -> dict:
+    """Card for a draft that passed trade_draft.schema.json. One pass per trade; no v2.
 
-    outcome_hint "late": not sized, risk_decision null.
-    extra_reasons non-empty: rejected before the governor (pre-sized, bad
-    time stop, ...), never sized. Otherwise the governor decides.
+    kind late:     not sized, risk_decision null (reasons late_draft / late_redteam).
+    kind reject:   rejected before the governor (pre-sized, bad time stop,
+                   book_stale, window closed, ...), never sized.
+    kind governor: engine blocks (measurement, setup gates, signal) plus
+                   structural_blocks(); if none, size_stock/size_option with
+                   the red team's warning_count.
     """
     max_fill = rm.max_buy_fill(draft["entry"]["price"])
     card = _card_shell(draft, max_fill, now)
+    engine_warnings: List[str] = []
+    gap = ((mac or {}).get("details") or {}).get("gap_history") or {}
+    if redteam and gap.get("flag") and "gap_history" not in redteam["warnings"]:
+        # the Mac measured gap_history; the red team missed it. Add, never remove.
+        redteam = dict(redteam, warnings=list(redteam["warnings"]) + ["gap_history"])
+        redteam["warning_count"] = len(redteam["warnings"])
+        engine_warnings.append("gap_history")
+    warning_count = int(redteam["warning_count"]) if redteam else 0
     inputs: Dict[str, Any] = {
-        "sector": (measurements or draft["measurements"]).get("sector"),
+        "sector": (mac or {}).get("values", {}).get("sector") or draft["measurements"].get("sector"),
         "book_as_of": book.get("as_of"),
         "risk_context": {k: ctx[k] for k in ("risk_mode", "entries_allowed", "reasons", "regime")},
-        "measurements": {k: v for k, v in (measurements or {}).items()},
+        "redteam": dict(redteam_info or {}),
+        "warning_count": warning_count,
+        "warnings_added_by_engine": engine_warnings,
         "market_data_network_calls": 0,
     }
+    if extra_inputs:
+        inputs.update(extra_inputs)
     if draft.get("option"):
         inputs["option"] = dict(draft["option"])
+    if mac is not None:
+        inputs["measurements"] = {"values": mac["values"], "details": mac["details"],
+                                  "draft": dict(draft["measurements"])}
     common = dict(session_date=session_date, draft_file=draft_file, draft_sha=draft_sha,
                   first_seen=first_seen, cutoff=clock.cutoff, carded_at=now, book=book)
 
-    if outcome_hint == OUTCOME_LATE:
+    def rejected(status: str, codes: List[str], hard: List[str], sizing: dict) -> dict:
+        card["status"] = status
+        card["sizing"] = sizing
+        card["red_team"] = red_team_section(redteam, hard, "No red team review on file: engine rejected the draft.")
+        card["risk_decision"] = {"decision": "REJECTED", "reasons": codes,
+                                 "risk_mode": ctx["risk_mode"], "entries_allowed": ctx["entries_allowed"]}
+        card["engine"] = _engine_block(outcome=OUTCOME_REJECTED, reasons=codes, inputs=inputs, **common)
+        return card
+
+    if kind == KIND_LATE:
+        codes = list(dict.fromkeys(reasons)) or ["late_draft"]
         card["status"] = "blocked"
-        card["sizing"] = zero_sizing(draft["instrument"], book, ctx)
-        card["red_team"] = {"decision": "block", "hard_blocks": ["late_draft"], "warnings": [],
-                            "narrative": "Draft first seen after the cutoff. Not sized. No post-open pass."}
+        card["sizing"] = zero_sizing(draft["instrument"], book, ctx, warning_count)
+        card["red_team"] = red_team_section(redteam, codes, "Red team file not seen by the 08:20 cutoff pass. Not sized.")
         card["risk_decision"] = None
-        card["engine"] = _engine_block(outcome=OUTCOME_LATE, reasons=["late_draft"], inputs=inputs, **common)
+        card["engine"] = _engine_block(outcome=OUTCOME_LATE, reasons=codes, inputs=inputs, **common)
         return card
 
-    if extra_reasons:
-        reasons = list(dict.fromkeys(extra_reasons))
-        card["status"] = "blocked"
-        card["sizing"] = zero_sizing(draft["instrument"], book, ctx)
-        card["red_team"] = {"decision": "block", "hard_blocks": reasons, "warnings": [],
-                            "narrative": "Engine rejected the draft before sizing."}
-        card["risk_decision"] = {"decision": "REJECTED", "reasons": reasons,
-                                 "risk_mode": ctx["risk_mode"], "entries_allowed": ctx["entries_allowed"]}
-        card["engine"] = _engine_block(outcome=OUTCOME_REJECTED, reasons=reasons, inputs=inputs, **common)
-        return card
+    if kind == KIND_REJECT:
+        codes = list(dict.fromkeys(reasons))
+        return rejected("blocked", codes, codes, zero_sizing(draft["instrument"], book, ctx, warning_count))
 
-    gov = run_governor(draft, measurements, book, ctx)
-    inputs["governor"] = gov["inputs"]
+    # governor
     mode_reasons = [] if ctx["entries_allowed"] else list(ctx["reasons"])
-    if gov["blocked"]:
-        reasons = list(dict.fromkeys(gov["reasons"] + mode_reasons))
-        card["status"] = "blocked"
-        card["sizing"] = zero_sizing(draft["instrument"], book, ctx)
-        card["red_team"] = {"decision": "block", "hard_blocks": list(gov["reasons"]), "warnings": [],
-                            "narrative": "Engine hard block (structural_blocks)."}
-        card["risk_decision"] = {"decision": "REJECTED", "reasons": reasons,
-                                 "risk_mode": ctx["risk_mode"], "entries_allowed": ctx["entries_allowed"]}
-        card["engine"] = _engine_block(outcome=OUTCOME_REJECTED, reasons=reasons, inputs=inputs, **common)
-        return card
+    engine_blocks = list(reasons) + list((mac or {}).get("blocks", []))
+    values = (mac or {}).get("values", {})
+    structural: List[str] = []
+    if "atr" in values and values.get("sector") is not None and "price" in values:
+        s_kwargs = structural_inputs(draft, values, book, ctx)
+        structural = rm.structural_blocks(**s_kwargs)
+        inputs["structural"] = {k: (str(v) if isinstance(v, Decimal) else v) for k, v in s_kwargs.items()}
+    hard = list(dict.fromkeys(engine_blocks + structural))
+    if hard:
+        codes = list(dict.fromkeys(hard + mode_reasons))
+        return rejected("blocked", codes, hard, zero_sizing(draft["instrument"], book, ctx, warning_count))
 
-    size = gov["size"]
+    size, size_inputs = size_trade(draft, values, book, ctx, warning_count)
+    inputs["sizing"] = size_inputs
+    inputs["warnings_tightened"] = bool(size.get("warnings_tightened"))
     card["sizing"] = _sizing_block(size, book)
     if size["approved"] and int(size["units"]) >= 1:
         card["status"] = "pending_human"
-        card["red_team"] = dict(RED_TEAM_PENDING)
+        card["red_team"] = red_team_section(redteam, [], "")
         card["risk_decision"] = {"decision": "APPROVED", "reasons": [],
                                  "risk_mode": ctx["risk_mode"], "entries_allowed": ctx["entries_allowed"]}
         card["engine"] = _engine_block(outcome=OUTCOME_SIZED, reasons=[], inputs=inputs, **common)
         return card
-    reasons = list(dict.fromkeys(list(size["reasons"]) + mode_reasons)) or ["size_zero"]
+    codes = list(dict.fromkeys(list(size["reasons"]) + mode_reasons)) or ["size_zero"]
     card["status"] = "risk_rejected"
-    card["red_team"] = dict(RED_TEAM_PENDING)
-    card["risk_decision"] = {"decision": "REJECTED", "reasons": reasons,
+    card["red_team"] = red_team_section(redteam, [], "")
+    card["risk_decision"] = {"decision": "REJECTED", "reasons": codes,
                              "risk_mode": ctx["risk_mode"], "entries_allowed": ctx["entries_allowed"]}
-    card["engine"] = _engine_block(outcome=OUTCOME_REJECTED, reasons=reasons, inputs=inputs, **common)
+    card["engine"] = _engine_block(outcome=OUTCOME_REJECTED, reasons=codes, inputs=inputs, **common)
     return card
 
 

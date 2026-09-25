@@ -1,7 +1,8 @@
 """CLI: python3 -m dragonfly.engine {run,ready} ...
 
-  run    Poll inbox/<date>/*.draft.json from 08:08 to 08:24 CT (60 s), card
-         each draft, write DONE after the 08:20 cutoff. --once for one pass.
+  run    Poll inbox/<date>/ from 08:08 to 08:24 CT (60 s). Size each draft once
+         its <trade_id>.redteam.json lands (cutoff 08:20), card every draft,
+         write DONE after the cutoff. --once for one pass.
   ready  Write handoff/<date>/READY (LAST step of the 08:05 pre-open job).
 
 The private repo checkout: --repo, else $DRAGONFLY_PRIVATE_DIR, else
@@ -76,6 +77,8 @@ def build_parser() -> argparse.ArgumentParser:
     run.add_argument("--poll-seconds", type=int, default=core.DEFAULT_POLL_SECONDS)
     run.add_argument("--book", type=Path, default=None, help="book state JSON (default: state/live/book.json)")
     run.add_argument("--state-dir", type=Path, default=None, help="engine local state dir (default: state/live)")
+    run.add_argument("--bars-dir", type=Path, default=None, help="bars cache dir (default: state/live/cache/bars; read-only)")
+    run.add_argument("--watchlist", type=Path, default=None, help="watchlist.json for sector/spread fallback (read-only)")
     run.add_argument("--no-pull", action="store_true", help="do not ls-remote/pull")
     run.add_argument("--no-push", action="store_true", help="write files only; no commit, no push")
     run.add_argument("--now", default=None, help="pretend the clock reads this (ISO with offset) at launch; dry runs")
@@ -112,7 +115,7 @@ def main(argv: Optional[Sequence[str]] = None) -> int:
         engine = Engine(
             repo, session_date, clock=clock, book_path=args.book, state_dir=args.state_dir,
             pull=not args.no_pull, push=not args.no_push, finalize=args.finalize,
-            poll_seconds=args.poll_seconds, now_fn=now_fn,
+            poll_seconds=args.poll_seconds, now_fn=now_fn, bars_dir=args.bars_dir, watchlist_path=args.watchlist,
         )
         if args.once:
             result = engine.run_pass()

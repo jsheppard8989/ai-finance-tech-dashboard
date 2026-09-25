@@ -4,7 +4,7 @@
 # after Ditka's dry run and Jared's approval. See docs/dragonfly/ENGINE.md.
 #
 # Runs the Dragonfly pre-open engine loop (08:08-08:24 CT, 60 s polls,
-# 08:20 draft cutoff, DONE by 08:24). The engine does no market-data fetches,
+# 08:20 red-team cutoff, DONE by 08:24). The engine does no market-data fetches,
 # so it does not call the pipeline-lock / daemon-window guards.
 set -euo pipefail
 
@@ -14,6 +14,8 @@ export TZ="America/Chicago"
 export PATH="/usr/bin:/bin:/usr/sbin:/sbin:/opt/homebrew/bin:/usr/local/bin"
 
 # Weekdays only (launchd already schedules Mon-Fri; this guards manual runs).
+# NYSE holidays are handled by the engine itself (dragonfly/market_calendar.py):
+# on a non-session day it logs and exits 0 without writing anything.
 if [ "$(date +%u)" -gt 5 ]; then
   echo "$(date '+%FT%T%z') weekend; engine not run"
   exit 0

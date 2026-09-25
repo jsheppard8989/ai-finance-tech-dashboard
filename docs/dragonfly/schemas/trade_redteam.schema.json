@@ -1,0 +1,111 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "$id": "https://scarcity.local/dragonfly/trade_redteam.schema.json",
+  "title": "Dragonfly 7 Red Team review of one draft",
+  "description": "Written by the Red Team to inbox/YYYY-MM-DD/<trade_id>.redteam.json against the draft, before the engine sizes it. The seven warning flags plus the case against the trade. warning_count is DERIVED by the engine from the flags; a file's own warning_count is optional and ignored if it disagrees. Red Team never sets hard blocks or sizing: keys such as hard_blocks, decision, sizing, units or risk_decision are stripped, logged, and have no effect. The engine sizes a draft only after a valid file is seen, and only if that happens by the 08:20 CT pass.",
+  "type": "object",
+  "additionalProperties": false,
+  "required": [
+    "schema_version",
+    "trade_id",
+    "as_of",
+    "flags",
+    "narrative"
+  ],
+  "properties": {
+    "schema_version": {
+      "const": "1.0.0"
+    },
+    "trade_id": {
+      "type": "string",
+      "pattern": "^DF-[0-9]{4}-[0-9]{4}$"
+    },
+    "as_of": {
+      "type": "string",
+      "format": "date-time"
+    },
+    "draft_sha256": {
+      "type": "string",
+      "pattern": "^[0-9a-f]{64}$",
+      "description": "Optional. sha256 of the draft file reviewed. If present and the draft has changed, the review is stale and ignored."
+    },
+    "flags": {
+      "type": "object",
+      "additionalProperties": false,
+      "required": [
+        "crowded_options",
+        "sector_lagging",
+        "wide_spread_but_legal",
+        "contradictory_filing",
+        "valuation_extreme",
+        "gap_history",
+        "event_just_outside_window"
+      ],
+      "properties": {
+        "crowded_options": {
+          "type": "boolean"
+        },
+        "sector_lagging": {
+          "type": "boolean"
+        },
+        "wide_spread_but_legal": {
+          "type": "boolean"
+        },
+        "contradictory_filing": {
+          "type": "boolean"
+        },
+        "valuation_extreme": {
+          "type": "boolean"
+        },
+        "gap_history": {
+          "type": "boolean"
+        },
+        "event_just_outside_window": {
+          "type": "boolean"
+        }
+      }
+    },
+    "flag_evidence": {
+      "type": "object",
+      "additionalProperties": false,
+      "description": "Optional evidence per raised flag (valuation_extreme needs a cited number; gap_history: gap in the last 60 sessions > 1.5x the planned stop distance).",
+      "properties": {
+        "crowded_options": {
+          "type": "string"
+        },
+        "sector_lagging": {
+          "type": "string"
+        },
+        "wide_spread_but_legal": {
+          "type": "string"
+        },
+        "contradictory_filing": {
+          "type": "string"
+        },
+        "valuation_extreme": {
+          "type": "string"
+        },
+        "gap_history": {
+          "type": "string"
+        },
+        "event_just_outside_window": {
+          "type": "string"
+        }
+      }
+    },
+    "narrative": {
+      "type": "string",
+      "minLength": 1,
+      "description": "The written case against the trade, including qualitative concerns the engine cannot measure."
+    },
+    "warning_count": {
+      "type": "integer",
+      "minimum": 0,
+      "maximum": 7,
+      "description": "Optional; ignored. The engine derives it from flags."
+    },
+    "reviewer": {
+      "type": "string"
+    }
+  }
+}

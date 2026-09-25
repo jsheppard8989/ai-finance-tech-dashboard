@@ -123,7 +123,7 @@
       "additionalProperties": false,
       "required": ["decision", "hard_blocks", "warnings", "narrative"],
       "properties": {
-        "decision": { "enum": ["pass", "block", "pending"] },
+        "decision": { "enum": ["pass", "block"] },
         "hard_blocks": { "type": "array", "items": { "type": "string" } },
         "warnings": {
           "type": "array",
