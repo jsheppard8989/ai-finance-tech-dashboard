@@ -208,6 +208,75 @@ def rank_by_sector(members: List[Mapping], per_sector: int = PER_SECTOR) -> dict
     }
 
 
+# ------------------------------------------------------------ pinned names
+CONFIG_SCHEMA = "dragonfly.universe_config/1"
+ORIGIN_TOP5 = "ndx_top5"
+ORIGIN_PINNED = "pinned"
+
+
+def load_pinned(path: Path) -> List[str]:
+    """Pinned tickers from the committed config (dragonfly/universe_config.json).
+    Read-only: nothing in the refresh path writes this file. A missing or
+    malformed config raises, so pinned names are never silently dropped."""
+    doc = json.loads(Path(path).read_text(encoding="utf-8"))
+    if not isinstance(doc, Mapping) or doc.get("schema") != CONFIG_SCHEMA:
+        raise ValueError(f"universe config {path}: bad schema")
+    raw = doc.get("universe_pinned")
+    if not isinstance(raw, list):
+        raise ValueError(f"universe config {path}: universe_pinned must be a list")
+    out: List[str] = []
+    for t in raw:
+        sym = norm_symbol(t)
+        if not sym or not sym.replace("-", "").isalnum():
+            raise ValueError(f"universe config {path}: bad ticker {t!r}")
+        if sym not in out:
+            out.append(sym)
+    return out
+
+
+def resolve_pinned(pinned: List[str], screener_payload: Optional[Mapping]) -> List[dict]:
+    """Sector, market cap and name for pinned tickers from the Nasdaq screener
+    (the same download as the security-type lookup). Missing values stay None;
+    the gate step excludes such names (fail closed). Pinned names need not be
+    NDX members."""
+    rows = (((screener_payload or {}).get("data") or {}).get("rows")) or []
+    by = {norm_symbol(r.get("symbol")): r for r in rows}
+    out = []
+    for t in pinned:
+        r = by.get(t) or {}
+        out.append(
+            {
+                "ticker": t,
+                "name": r.get("name"),
+                "sector": (r.get("sector") or "").strip() or None,
+                "market_cap": parse_market_cap(r.get("marketCap")),
+                "sector_rank": None,
+                "origin": [ORIGIN_PINNED],
+            }
+        )
+    return out
+
+
+def merge_pinned(top5_members: List[Mapping], pinned_members: List[Mapping]) -> List[dict]:
+    """Top-5 members (origin ndx_top5) plus pinned names (origin pinned). A
+    pinned name already in the top 5 appears once with both origins. Pinned
+    names never use or displace a sector slot."""
+    merged: List[dict] = []
+    index: Dict[str, dict] = {}
+    for m in top5_members:
+        row = dict(m, origin=[ORIGIN_TOP5])
+        merged.append(row)
+        index[row["ticker"]] = row
+    for p in pinned_members:
+        if p["ticker"] in index:
+            index[p["ticker"]]["origin"] = [ORIGIN_TOP5, ORIGIN_PINNED]
+        else:
+            row = dict(p, origin=[ORIGIN_PINNED])
+            merged.append(row)
+            index[row["ticker"]] = row
+    return merged
+
+
 def _as_of_date(doc: Mapping) -> Optional[date]:
     try:
         return date.fromisoformat(str(doc.get("as_of_date")))

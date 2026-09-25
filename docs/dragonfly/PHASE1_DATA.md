@@ -101,6 +101,37 @@ Every Dragonfly network fetch (bars, chains, watchlist quotes) calls
 - The S&P 500 pool is gone. `--cap` (default 200) is kept only as a
   harmless upper bound; the universe is at most 5 names per sector.
 
+### Pinned names — `dragonfly/universe_config.json` (`universe_pinned`)
+
+- **Approved by Jared on 2026-09-25:** META, ORCL, MSTR, AVGO, MRVL, NBIS,
+  IREN, ASTS, TWST, TEM, NTLA.
+- **Added on top of the top-5 rule.** The list is a separate committed,
+  hand-edited file.
+  - The weekly refresh only writes `universe.json`. It never writes this
+    file, and pinned names are never stored in the ranked membership, so a
+    refresh can't drop or overwrite them.
+  - A missing or malformed config aborts the build; pinned names are never
+    silently dropped.
+- **Pinned is not admitted.** Every pinned name passes every gate:
+  - security type (the #267 ADR/DR and type logic; ETFs and funds such as
+    ARKG or TLT resolve to `not_common_stock` via Nasdaq's ETF quote-info
+    probe);
+  - price ≥ $10 and ADV ≥ $25M;
+  - the modeled-mid spread rule, including `no_usable_mid_or_last`.
+  - A pinned name that fails is recorded in `excluded` with its reason and
+    `origin: ["pinned"]`.
+- **Pinned names need not be NDX members.** Sector and market cap come from
+  the Nasdaq screener, the same download as the type lookup. If they can't be
+  determined, the name is excluded as `security_type_unknown` (fail closed).
+- **De-duplication:** a pinned name that is already a top-5 member appears
+  once, with `origin: ["ndx_top5", "pinned"]`. Top-5-only names carry
+  `["ndx_top5"]`, and pinned-only names carry `["pinned"]` with
+  `sector_rank: null`.
+- **No sector slots:** pinned names don't use or displace sector slots. The
+  `sectors` view still shows only the top-5 slots, and the no-backfill rule
+  still applies to them. The `pinned` view lists every pinned name with its
+  status.
+
 ### Gates (unchanged)
 
 - **US listed common stock only.** Before any Yahoo call, each candidate's
@@ -253,7 +284,9 @@ needs a better quote source; it must not be fixed by softening the gate.
   live-reject / paper-pass for both modeled sources, modeled selection, and
   the halt / stale-quote refusal in `paper_fill`.
 - `python3 dragonfly/test_phase1_universe.py` — offline: share-class collapse
-  (GOOGL kept over GOOG, META enters Tech), top-5 per sector,
+  (GOOGL kept over GOOG), pinned names (survive a refresh, de-dupe with
+  both origins, ETF / price / ADV / no-quote / unknown-sector exclusions,
+  no sector slots used), the ETF type probe, top-5 per sector,
   a sector with fewer than 5 members, a missing sector or market cap (fail
   closed, with the reason recorded), no backfill when an ADR, price, ADV,
   bars or quote failure is in the top 5, and the weekly refresh and

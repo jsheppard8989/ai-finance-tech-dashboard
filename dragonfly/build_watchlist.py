@@ -3,7 +3,10 @@
 Universe (dragonfly/ndx_universe.py): the 5 largest Nasdaq-100 companies by
 market cap in each sector (Nasdaq-100 list `marketCap` + Nasdaq screener
 `sector`, both from api.nasdaq.com), share classes collapsed to one per
-company first (Alphabet keeps GOOGL; dropped: duplicate_share_class). Membership is persisted in dragonfly/universe.json
+company first (Alphabet keeps GOOGL; dropped: duplicate_share_class).
+Plus PINNED names from dragonfly/universe_config.json (hand-edited, never
+touched by the refresh): added on top, gated like everyone else, no sector
+slot used, never displacing a top-5 member. Membership is persisted in dragonfly/universe.json
 and refreshed WEEKLY: reused until it is 7 or more days old, or on
 --refresh-universe. A daily build re-runs only the gates and quotes, so it
 cannot reshuffle membership. The S&P 500 pool is gone.
@@ -92,6 +95,7 @@ from dragonfly.risk_math import (  # noqa: E402
 ROOT = Path(__file__).resolve().parents[1]
 DEFAULT_OUT = ROOT / "dragonfly" / "watchlist.json"
 DEFAULT_UNIVERSE = ROOT / "dragonfly" / "universe.json"
+DEFAULT_UNIVERSE_CONFIG = ROOT / "dragonfly" / "universe_config.json"  # pinned names (hand-edited)
 # Harmless upper bound only: the universe is at most 5 names per NDX sector.
 DEFAULT_CAP = 200
 # Security type ("US listed common stock"): Nasdaq's security descriptor.
@@ -102,6 +106,7 @@ DEFAULT_CAP = 200
 # Unknown after that -> excluded (security_type_unknown). Fail closed.
 SCREENER_URL = ndx_universe.SCREENER_URL
 QUOTE_INFO_URL = "https://api.nasdaq.com/api/quote/{symbol}/info?assetclass=stocks"
+ETF_INFO_URL = "https://api.nasdaq.com/api/quote/{symbol}/info?assetclass=etf"
 # Belt-and-braces denylist of US-traded depositary receipts. Tightening only:
 # a name here is excluded even if a feed calls it common stock.
 KNOWN_DEPOSITARY_RECEIPTS = {
@@ -199,6 +204,18 @@ def fetch_security_types(
                 cls = classify_security(stock_type)
                 desc = f"{desc or ''} [stockType: {stock_type}]".strip()
                 src = "nasdaq_quote_info"
+        if cls is None and not desc:
+            # Not a listed stock on Nasdaq's feeds: probe the ETF asset class.
+            # An ETF/fund resolves to not_common_stock (tightening only; an
+            # unknown name is excluded either way).
+            try:
+                etf = get_json(ETF_INFO_URL.format(symbol=_nasdaq_symbol(t))).get("data") or {}
+            except Exception:
+                etf = {}
+            if etf.get("symbol"):
+                cls = "not_common_stock"
+                desc = f"{etf.get('companyName') or t} [assetclass: etf]"
+                src = "nasdaq_quote_info_etf"
         if t in KNOWN_DEPOSITARY_RECEIPTS:
             cls = "depositary_receipt"
             desc = desc or KNOWN_DEPOSITARY_RECEIPTS[t]
@@ -524,17 +541,33 @@ def run_gates(
     bar_workers: int = 8,
     quote_workers: int = 6,
     rows_fn: Callable = None,
+    pinned: Optional[Sequence[Mapping]] = None,
 ) -> dict:
-    """Gates on the persisted top-N-per-sector members ONLY. No backfill: a
-    member that fails any gate leaves its slot empty, and nothing below the
-    top N in a sector is ever considered. Every excluded member is recorded."""
+    """Gates on the persisted top-N-per-sector members plus the pinned names.
+
+    No backfill: a top-N member that fails any gate leaves its slot empty, and
+    nothing below the top N in a sector is ever considered. Pinned names
+    (ndx_universe.resolve_pinned) are added on top: they pass the same gates,
+    never use a sector slot, and never displace a top-N member. A pinned name
+    already in the top N appears once with origin [ndx_top5, pinned]. A pinned
+    name whose sector or market cap cannot be determined is excluded as
+    security_type_unknown (fail closed). Every excluded name is recorded with
+    its origin."""
     rows_fn = rows_fn or (lambda c: gather_rows(c, workers=bar_workers))
-    members = [dict(m) for m in universe.get("members") or []]
+    top5 = [dict(m) for m in universe.get("members") or []]
+    members = ndx_universe.merge_pinned(top5, list(pinned or []))
     by_ticker = {m["ticker"]: m for m in members}
-    eligible, type_excluded = apply_security_types(members, types)
+    typed, type_excluded = apply_security_types(members, types)
+    pinned_unknown: Dict[str, str] = {}
+    eligible = []
+    for m in typed:
+        if ndx_universe.ORIGIN_TOP5 not in m["origin"] and (not m.get("sector") or m.get("market_cap") is None):
+            pinned_unknown[m["ticker"]] = "security_type_unknown"
+        else:
+            eligible.append(m)
     rows, bar_errors = rows_fn(eligible)
     result = select_watchlist(rows, quote_fn, cap=cap, workers=quote_workers, spread_mode=spread_mode)
-    for extra in (bar_errors, type_excluded):
+    for extra in (bar_errors, type_excluded, pinned_unknown):
         result["excluded"].update(extra)
         for reason in extra.values():
             result["excluded_summary"][reason] = result["excluded_summary"].get(reason, 0) + 1
@@ -544,21 +577,39 @@ def run_gates(
         n["sector"] = m.get("sector")
         n["sector_rank"] = m.get("sector_rank")
         n["market_cap"] = m.get("market_cap")
+        n["origin"] = list(m.get("origin") or [])
     admitted = {n["ticker"]: n for n in result["names"]}
     sectors: Dict[str, List[dict]] = {}
     for sector, slots in (universe.get("sectors") or {}).items():
         sectors[sector] = []
         for m in slots:
             n = admitted.get(m["ticker"])
-            entry = {"ticker": m["ticker"], "sector_rank": m["sector_rank"], "market_cap": m.get("market_cap")}
+            entry = {
+                "ticker": m["ticker"],
+                "sector_rank": m["sector_rank"],
+                "market_cap": m.get("market_cap"),
+                "origin": list(by_ticker[m["ticker"]]["origin"]),
+            }
             if n:
                 entry.update(status="admitted", spread_source=n.get("spread_source"), mid_source=n.get("mid_source"))
             else:
                 entry.update(status="excluded", reason=result["excluded"].get(m["ticker"], "unknown"))
             sectors[sector].append(entry)
+    pinned_view = []
+    for m in members:
+        if ndx_universe.ORIGIN_PINNED not in m["origin"]:
+            continue
+        n = admitted.get(m["ticker"])
+        entry = {"ticker": m["ticker"], "sector": m.get("sector"), "market_cap": m.get("market_cap"), "origin": list(m["origin"])}
+        if n:
+            entry.update(status="admitted", spread_source=n.get("spread_source"), mid_source=n.get("mid_source"))
+        else:
+            entry.update(status="excluded", reason=result["excluded"].get(m["ticker"], "unknown"))
+        pinned_view.append(entry)
     excluded_members = {
         t: {
             "reason": r,
+            "origin": list((by_ticker.get(t) or {}).get("origin") or []),
             "sector": (by_ticker.get(t) or {}).get("sector"),
             "sector_rank": (by_ticker.get(t) or {}).get("sector_rank"),
             "market_cap": (by_ticker.get(t) or {}).get("market_cap"),
@@ -566,26 +617,37 @@ def run_gates(
         for t, r in sorted(result["excluded"].items())
     }
     for t, kept in (universe.get("duplicate_share_classes") or {}).items():
+        if t in excluded_members or t in admitted:
+            continue  # e.g. a pinned class that was gated on its own
         km = by_ticker.get(kept) or {}
         excluded_members[t] = {
             "reason": "duplicate_share_class",
+            "origin": [ndx_universe.ORIGIN_TOP5],
             "kept": kept,
             "sector": km.get("sector"),
             "sector_rank": None,
             "market_cap": None,
         }
     excluded_members = dict(sorted(excluded_members.items()))
+    top5_admitted = sum(1 for n in result["names"] if ndx_universe.ORIGIN_TOP5 in n["origin"])
+    pinned_members = [m for m in members if ndx_universe.ORIGIN_PINNED in m["origin"]]
     result["sectors"] = sectors
+    result["pinned"] = pinned_view
     result["excluded_members"] = excluded_members
     result["type_excluded"] = type_excluded
     result["bar_errors"] = bar_errors
     result["funnel"] = {
-        "universe_members": len(members),
-        "security_type_excluded": len(type_excluded),
+        "universe_members": len(top5),
+        "pinned": len(pinned_members),
+        "pinned_also_top5": sum(1 for m in pinned_members if ndx_universe.ORIGIN_TOP5 in m["origin"]),
+        "names_gated": len(members),
+        "security_type_excluded": len(type_excluded) + len(pinned_unknown),
         "common_stock": len(eligible),
         "bars_unavailable": len(bar_errors),
         **{k: v for k, v in result["funnel"].items() if k != "candidates"},
-        "empty_slots": len(members) - len(result["names"]),
+        "admitted_top5": top5_admitted,
+        "admitted_pinned_only": len(result["names"]) - top5_admitted,
+        "empty_slots": len(top5) - top5_admitted,
     }
     return result
 
@@ -617,18 +679,32 @@ def build(
     quote_workers: int,
     spread_mode: str = "modeled",
     refresh_universe: bool = False,
+    config_path: Path = DEFAULT_UNIVERSE_CONFIG,
 ) -> dict:
+    pinned_tickers = ndx_universe.load_pinned(config_path)  # before any fetch; malformed config aborts
     guards.preflight()  # refuse inside daemon windows; bounded wait on the pipeline lock
     t0 = time.perf_counter()
     get_json = _memo_get_json()  # one screener download serves sector + type lookups
     now = guards._now_ct()
     universe = ndx_universe.get_universe(universe_path, get_json, now, refresh=refresh_universe)
-    tickers = [m["ticker"] for m in universe["members"]]
+    try:
+        screener = get_json(SCREENER_URL)
+    except Exception:
+        screener = None  # pinned sector/cap unknown -> excluded (fail closed)
+    pinned = ndx_universe.resolve_pinned(pinned_tickers, screener)
+    tickers = list(dict.fromkeys([m["ticker"] for m in universe["members"]] + pinned_tickers))
     types = fetch_security_types(tickers, get_json=get_json)
     t1 = time.perf_counter()
     quote_fn = yahoo_quote_full if spread_mode == "modeled" else yahoo_quote
     result = run_gates(
-        universe, types, quote_fn, spread_mode=spread_mode, cap=cap, bar_workers=bar_workers, quote_workers=quote_workers
+        universe,
+        types,
+        quote_fn,
+        spread_mode=spread_mode,
+        cap=cap,
+        bar_workers=bar_workers,
+        quote_workers=quote_workers,
+        pinned=pinned,
     )
     t2 = time.perf_counter()
     type_excluded = result["type_excluded"]
@@ -638,7 +714,17 @@ def build(
         "source": "yahoo",
         "provisional": True,
         "universe": {
-            "definition": f"top {universe['per_sector']} Nasdaq-100 names by market cap in each sector; no backfill",
+            "definition": (
+                f"top {universe['per_sector']} Nasdaq-100 companies by market cap in each sector (no backfill), "
+                "plus the pinned names from the universe config; every name passes every gate"
+            ),
+            "pinned_config": _display_path(config_path),
+            "pinned": pinned_tickers,
+            "pinned_rule": (
+                "added on top of the top-5 rule; not admitted unless every gate passes; no sector slot used; "
+                "never displaces a top-5 member; already-top-5 names carry origin [ndx_top5, pinned]; sector / "
+                "market cap from the Nasdaq screener, else security_type_unknown"
+            ),
             "file": _display_path(universe_path),
             "as_of": universe["as_of"],
             "as_of_date": universe["as_of_date"],
@@ -696,6 +782,7 @@ def build(
         "excluded_summary": result["excluded_summary"],
         "timing_seconds": {"universe_and_types": round(t1 - t0, 2), "bars_and_quotes": round(t2 - t1, 2)},
         "sectors": result["sectors"],
+        "pinned": result["pinned"],
         "names": result["names"],
         "quote_fallbacks": result.get("fallbacks", {}),
         "excluded": result["excluded_members"],
@@ -709,6 +796,7 @@ def main(argv: Sequence[str]) -> int:
     ap.add_argument("--cap", type=int, default=DEFAULT_CAP, help="harmless upper bound (universe is <= 5 per sector)")
     ap.add_argument("--out", type=Path, default=DEFAULT_OUT)
     ap.add_argument("--universe-file", type=Path, default=DEFAULT_UNIVERSE)
+    ap.add_argument("--universe-config", type=Path, default=DEFAULT_UNIVERSE_CONFIG, help="pinned names config")
     ap.add_argument(
         "--refresh-universe",
         action="store_true",
@@ -735,6 +823,7 @@ def main(argv: Sequence[str]) -> int:
             args.quote_workers,
             args.spread_mode,
             args.refresh_universe,
+            args.universe_config,
         )
     except guards.GuardBlocked as exc:
         print(json.dumps({"blocked": exc.reason, "detail": exc.detail}))
