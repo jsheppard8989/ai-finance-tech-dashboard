@@ -1,0 +1,49 @@
+#!/bin/bash
+# TEMPLATE ONLY. Not installed. Install target (gitignored):
+#   __REPO__/dragonfly/state/live/ops/run_preopen.sh
+# after Ditka's explicit go and Jared's approval. See docs/dragonfly/ENGINE.md.
+#
+# Runs the Dragonfly pre-open job (08:05 CT): prep check, book_stale check, pre-market quotes -> quotes.json + book.json, then READY last. A wake after 08:15 does not run it (the engine window starts 08:08; a late READY would squeeze the agents).
+#
+# Runs from the Dragonfly RUN CLONE (__REPO__ = ~/projects/dragonfly-run), never
+# from the pipeline checkout ~/projects/ai-finance-tech-dashboard (its daemon
+# autostashes and pulls that tree). The run clone is fast-forwarded to
+# origin/main first; a non-ff state aborts the job.
+set -euo pipefail
+
+REPO="${DRAGONFLY_REPO:-__REPO__}"
+export DRAGONFLY_PRIVATE_DIR="${DRAGONFLY_PRIVATE_DIR:-__HOME__/projects/dragonfly-private}"
+export DRAGONFLY_PIPELINE_LOCK="${DRAGONFLY_PIPELINE_LOCK:-__HOME__/projects/ai-finance-tech-dashboard/pipeline/state/auto_pipeline.lock:__HOME__/projects/ai-finance-tech-dashboard/pipeline/auto_pipeline.lock}"
+export TZ="America/Chicago"
+export PATH="/usr/bin:/bin:/usr/sbin:/sbin:/opt/homebrew/bin:/usr/local/bin"
+stamp() { date '+%FT%T%z'; }
+
+case "$(cd "$REPO" && pwd -P)" in
+  */ai-finance-tech-dashboard)
+    echo "$(stamp) refusing: $REPO is the pipeline checkout; use the run clone (~/projects/dragonfly-run)"
+    exit 2 ;;
+esac
+
+# Weekdays only (launchd already schedules Mon-Fri; this guards manual runs).
+# NYSE holidays: the job itself decides from dragonfly/market_calendar.py.
+if [ "$(date +%u)" -gt 5 ]; then
+  echo "$(stamp) weekend; preopen not run"
+  exit 0
+fi
+
+# Wake guard: launchd runs a missed calendar job when the Mac wakes. Refuse
+# outside the sane window. Override for a manual run: DRAGONFLY_JOB_ANYTIME=1
+# (the load guards in dragonfly/guards.py still refuse daemon windows).
+now_hm=$((10#$(date +%H%M)))
+if [ "${DRAGONFLY_JOB_ANYTIME:-0}" != "1" ] && { [ "$now_hm" -lt 800 ] || [ "$now_hm" -gt 815 ]; }; then
+  echo "$(stamp) outside 08:00-08:15 CT; preopen not run"
+  exit 0
+fi
+
+mkdir -p "$REPO/dragonfly/state/live/logs"
+cd "$REPO"
+if ! git pull --ff-only --quiet origin main; then
+  echo "$(stamp) run clone $REPO could not fast-forward to origin/main; preopen not run"
+  exit 2
+fi
+exec /usr/bin/python3 -m dragonfly.jobs preopen --repo "$DRAGONFLY_PRIVATE_DIR" "$@"
