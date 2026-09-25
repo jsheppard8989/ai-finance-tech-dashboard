@@ -158,7 +158,7 @@ Long call, long put, or debit spread. Example: $2.50 debit, planned exit if prem
 
 ### What the governor will not do
 
-It will not round a budget up through a cap. It will not approve a trade with reward/risk under 1.5. It will not approve a stop closer than 0.4 ATR or farther than 2.0 ATR. It will not approve a stock entry more than 1.0 ATR past the breakout level. It will not approve stock when an earnings print still sits inside the hold window.
+It will not round a budget up through a cap. It will not approve a trade with reward/risk under 1.5. It will not approve a stop closer than 0.4 ATR or farther than 2.0 ATR. It will not approve a stock entry more than 1.0 ATR past the breakout level. It will not approve stock when an earnings print still sits inside the hold window. It will not approve a card on the live book whose data is provisional or of unknown provenance (`provisional_source_live` from `structural_blocks(book="live", provisional_data=...)`). Phase 1 data is Yahoo via yfinance and is stamped provisional, so it can drive paper cards only.
 
 ## 6. Universe, instruments, setups
 
@@ -173,6 +173,8 @@ US listed common stock.
 - Options, when used: open interest ≥ 100, volume ≥ 50, bid > 0, and (ask − bid) / mid ≤ 10%.
 
 Phase 1 may scan a smaller liquid watchlist if a full universe feed is not wired yet. The gates stay. A shorter list is allowed. A softer gate is not.
+
+The Phase 1 watchlist is `dragonfly/watchlist.json`, built by `dragonfly/build_watchlist.py` with these gates via `risk_math.universe_reasons`. A name whose spread was never measured, or whose bid/ask could not be fetched, is excluded, never admitted. See `docs/dragonfly/PHASE1_DATA.md`.
 
 ### Instruments
 
