@@ -1,10 +1,25 @@
 {
  "schema": "dragonfly.watchlist/2",
- "as_of": "2026-09-25T15:15:58-05:00",
+ "as_of": "2026-09-25T15:22:15-05:00",
  "source": "yahoo",
  "provisional": true,
  "universe": {
-  "definition": "top 5 Nasdaq-100 names by market cap in each sector; no backfill",
+  "definition": "top 5 Nasdaq-100 companies by market cap in each sector (no backfill), plus the pinned names from the universe config; every name passes every gate",
+  "pinned_config": "dragonfly/universe_config.json",
+  "pinned": [
+   "META",
+   "ORCL",
+   "MSTR",
+   "AVGO",
+   "MRVL",
+   "NBIS",
+   "IREN",
+   "ASTS",
+   "TWST",
+   "TEM",
+   "NTLA"
+  ],
+  "pinned_rule": "added on top of the top-5 rule; not admitted unless every gate passes; no sector slot used; never displaces a top-5 member; already-top-5 names carry origin [ndx_top5, pinned]; sector / market cap from the Nasdaq screener, else security_type_unknown",
   "file": "dragonfly/universe.json",
   "as_of": "2026-09-25T15:15:13-05:00",
   "as_of_date": "2026-09-25",
@@ -50,24 +65,29 @@
  "security_type_exclusions": {},
  "funnel": {
   "universe_members": 36,
+  "pinned": 11,
+  "pinned_also_top5": 0,
+  "names_gated": 47,
   "security_type_excluded": 0,
-  "common_stock": 36,
+  "common_stock": 47,
   "bars_unavailable": 0,
-  "passed_price_adv": 36,
-  "quoted": 36,
-  "admitted": 36,
+  "passed_price_adv": 47,
+  "quoted": 47,
+  "admitted": 47,
   "admitted_by_spread_source": {
-   "modeled_last_0.05": 32,
-   "modeled_mid_0.05": 4
+   "modeled_last_0.05": 41,
+   "modeled_mid_0.05": 6
   },
-  "mid_from_last_trade": 32,
+  "mid_from_last_trade": 41,
   "mid_unverified": 0,
+  "admitted_top5": 36,
+  "admitted_pinned_only": 11,
   "empty_slots": 0
  },
  "excluded_summary": {},
  "timing_seconds": {
-  "universe_and_types": 5.62,
-  "bars_and_quotes": 4.87
+  "universe_and_types": 3.77,
+  "bars_and_quotes": 6.66
  },
  "sectors": {
   "Basic Materials": [
@@ -75,6 +95,9 @@
     "ticker": "LIN",
     "sector_rank": 1,
     "market_cap": 216609968792.0,
+    "origin": [
+     "ndx_top5"
+    ],
     "status": "admitted",
     "spread_source": "modeled_last_0.05",
     "mid_source": "last_trade"
@@ -85,6 +108,9 @@
     "ticker": "AMZN",
     "sector_rank": 1,
     "market_cap": 2693018909521.0,
+    "origin": [
+     "ndx_top5"
+    ],
     "status": "admitted",
     "spread_source": "modeled_last_0.05",
     "mid_source": "last_trade"
@@ -93,6 +119,9 @@
     "ticker": "WMT",
     "sector_rank": 2,
     "market_cap": 856685919103.0,
+    "origin": [
+     "ndx_top5"
+    ],
     "status": "admitted",
     "spread_source": "modeled_last_0.05",
     "mid_source": "last_trade"
@@ -101,6 +130,9 @@
     "ticker": "COST",
     "sector_rank": 3,
     "market_cap": 409226718573.0,
+    "origin": [
+     "ndx_top5"
+    ],
     "status": "admitted",
     "spread_source": "modeled_last_0.05",
     "mid_source": "last_trade"
@@ -109,6 +141,9 @@
     "ticker": "NFLX",
     "sector_rank": 4,
     "market_cap": 296243488249.0,
+    "origin": [
+     "ndx_top5"
+    ],
     "status": "admitted",
     "spread_source": "modeled_last_0.05",
     "mid_source": "last_trade"
@@ -117,6 +152,9 @@
     "ticker": "BKNG",
     "sector_rank": 5,
     "market_cap": 123188832975.0,
+    "origin": [
+     "ndx_top5"
+    ],
     "status": "admitted",
     "spread_source": "modeled_last_0.05",
     "mid_source": "last_trade"
@@ -127,6 +165,9 @@
     "ticker": "PEP",
     "sector_rank": 1,
     "market_cap": 175566001106.0,
+    "origin": [
+     "ndx_top5"
+    ],
     "status": "admitted",
     "spread_source": "modeled_last_0.05",
     "mid_source": "last_trade"
@@ -135,6 +176,9 @@
     "ticker": "MNST",
     "sector_rank": 2,
     "market_cap": 126682209019.0,
+    "origin": [
+     "ndx_top5"
+    ],
     "status": "admitted",
     "spread_source": "modeled_last_0.05",
     "mid_source": "last_trade"
@@ -143,6 +187,9 @@
     "ticker": "MDLZ",
     "sector_rank": 3,
     "market_cap": 76897560434.0,
+    "origin": [
+     "ndx_top5"
+    ],
     "status": "admitted",
     "spread_source": "modeled_last_0.05",
     "mid_source": "last_trade"
@@ -151,6 +198,9 @@
     "ticker": "CCEP",
     "sector_rank": 4,
     "market_cap": 46183632909.0,
+    "origin": [
+     "ndx_top5"
+    ],
     "status": "admitted",
     "spread_source": "modeled_last_0.05",
     "mid_source": "last_trade"
@@ -159,6 +209,9 @@
     "ticker": "KDP",
     "sector_rank": 5,
     "market_cap": 43478391914.0,
+    "origin": [
+     "ndx_top5"
+    ],
     "status": "admitted",
     "spread_source": "modeled_last_0.05",
     "mid_source": "last_trade"
@@ -169,6 +222,9 @@
     "ticker": "FANG",
     "sector_rank": 1,
     "market_cap": 52272145975.0,
+    "origin": [
+     "ndx_top5"
+    ],
     "status": "admitted",
     "spread_source": "modeled_last_0.05",
     "mid_source": "last_trade"
@@ -179,6 +235,9 @@
     "ticker": "AMGN",
     "sector_rank": 1,
     "market_cap": 224151435593.0,
+    "origin": [
+     "ndx_top5"
+    ],
     "status": "admitted",
     "spread_source": "modeled_last_0.05",
     "mid_source": "last_trade"
@@ -187,6 +246,9 @@
     "ticker": "GILD",
     "sector_rank": 2,
     "market_cap": 187146431544.0,
+    "origin": [
+     "ndx_top5"
+    ],
     "status": "admitted",
     "spread_source": "modeled_last_0.05",
     "mid_source": "last_trade"
@@ -195,6 +257,9 @@
     "ticker": "ISRG",
     "sector_rank": 3,
     "market_cap": 143141195437.0,
+    "origin": [
+     "ndx_top5"
+    ],
     "status": "admitted",
     "spread_source": "modeled_last_0.05",
     "mid_source": "last_trade"
@@ -203,6 +268,9 @@
     "ticker": "VRTX",
     "sector_rank": 4,
     "market_cap": 133368603600.0,
+    "origin": [
+     "ndx_top5"
+    ],
     "status": "admitted",
     "spread_source": "modeled_last_0.05",
     "mid_source": "last_trade"
@@ -211,6 +279,9 @@
     "ticker": "REGN",
     "sector_rank": 5,
     "market_cap": 81132648744.0,
+    "origin": [
+     "ndx_top5"
+    ],
     "status": "admitted",
     "spread_source": "modeled_last_0.05",
     "mid_source": "last_trade"
@@ -221,6 +292,9 @@
     "ticker": "TSLA",
     "sector_rank": 1,
     "market_cap": 1469666080781.0,
+    "origin": [
+     "ndx_top5"
+    ],
     "status": "admitted",
     "spread_source": "modeled_last_0.05",
     "mid_source": "last_trade"
@@ -229,6 +303,9 @@
     "ticker": "CSX",
     "sector_rank": 2,
     "market_cap": 86658776617.0,
+    "origin": [
+     "ndx_top5"
+    ],
     "status": "admitted",
     "spread_source": "modeled_mid_0.05",
     "mid_source": "quote_mid"
@@ -237,6 +314,9 @@
     "ticker": "CTAS",
     "sector_rank": 3,
     "market_cap": 79867396891.0,
+    "origin": [
+     "ndx_top5"
+    ],
     "status": "admitted",
     "spread_source": "modeled_last_0.05",
     "mid_source": "last_trade"
@@ -245,6 +325,9 @@
     "ticker": "HON",
     "sector_rank": 4,
     "market_cap": 67467019929.0,
+    "origin": [
+     "ndx_top5"
+    ],
     "status": "admitted",
     "spread_source": "modeled_last_0.05",
     "mid_source": "last_trade"
@@ -253,6 +336,9 @@
     "ticker": "TER",
     "sector_rank": 5,
     "market_cap": 62283027985.0,
+    "origin": [
+     "ndx_top5"
+    ],
     "status": "admitted",
     "spread_source": "modeled_last_0.05",
     "mid_source": "last_trade"
@@ -263,6 +349,9 @@
     "ticker": "NVDA",
     "sector_rank": 1,
     "market_cap": 5424187000000.0,
+    "origin": [
+     "ndx_top5"
+    ],
     "status": "admitted",
     "spread_source": "modeled_last_0.05",
     "mid_source": "last_trade"
@@ -271,6 +360,9 @@
     "ticker": "AAPL",
     "sector_rank": 2,
     "market_cap": 4976177554600.0,
+    "origin": [
+     "ndx_top5"
+    ],
     "status": "admitted",
     "spread_source": "modeled_mid_0.05",
     "mid_source": "quote_mid"
@@ -279,6 +371,9 @@
     "ticker": "GOOGL",
     "sector_rank": 3,
     "market_cap": 4205530100000.0,
+    "origin": [
+     "ndx_top5"
+    ],
     "status": "admitted",
     "spread_source": "modeled_last_0.05",
     "mid_source": "last_trade"
@@ -287,6 +382,9 @@
     "ticker": "MSFT",
     "sector_rank": 4,
     "market_cap": 3832843816089.0,
+    "origin": [
+     "ndx_top5"
+    ],
     "status": "admitted",
     "spread_source": "modeled_last_0.05",
     "mid_source": "last_trade"
@@ -295,6 +393,9 @@
     "ticker": "SPCX",
     "sector_rank": 5,
     "market_cap": 2018007119205.0,
+    "origin": [
+     "ndx_top5"
+    ],
     "status": "admitted",
     "spread_source": "modeled_last_0.05",
     "mid_source": "last_trade"
@@ -305,6 +406,9 @@
     "ticker": "CSCO",
     "sector_rank": 1,
     "market_cap": 420674019349.0,
+    "origin": [
+     "ndx_top5"
+    ],
     "status": "admitted",
     "spread_source": "modeled_last_0.05",
     "mid_source": "last_trade"
@@ -313,6 +417,9 @@
     "ticker": "TMUS",
     "sector_rank": 2,
     "market_cap": 177452064939.0,
+    "origin": [
+     "ndx_top5"
+    ],
     "status": "admitted",
     "spread_source": "modeled_mid_0.05",
     "mid_source": "quote_mid"
@@ -321,6 +428,9 @@
     "ticker": "LITE",
     "sector_rank": 3,
     "market_cap": 84466005000.0,
+    "origin": [
+     "ndx_top5"
+    ],
     "status": "admitted",
     "spread_source": "modeled_last_0.05",
     "mid_source": "last_trade"
@@ -329,6 +439,9 @@
     "ticker": "CMCSA",
     "sector_rank": 4,
     "market_cap": 77750627314.0,
+    "origin": [
+     "ndx_top5"
+    ],
     "status": "admitted",
     "spread_source": "modeled_last_0.05",
     "mid_source": "last_trade"
@@ -337,6 +450,9 @@
     "ticker": "WBD",
     "sector_rank": 5,
     "market_cap": 77480304270.0,
+    "origin": [
+     "ndx_top5"
+    ],
     "status": "admitted",
     "spread_source": "modeled_mid_0.05",
     "mid_source": "quote_mid"
@@ -347,6 +463,9 @@
     "ticker": "CEG",
     "sector_rank": 1,
     "market_cap": 93278503669.0,
+    "origin": [
+     "ndx_top5"
+    ],
     "status": "admitted",
     "spread_source": "modeled_last_0.05",
     "mid_source": "last_trade"
@@ -355,6 +474,9 @@
     "ticker": "AEP",
     "sector_rank": 2,
     "market_cap": 64429426609.0,
+    "origin": [
+     "ndx_top5"
+    ],
     "status": "admitted",
     "spread_source": "modeled_last_0.05",
     "mid_source": "last_trade"
@@ -363,6 +485,9 @@
     "ticker": "XEL",
     "sector_rank": 3,
     "market_cap": 43599474559.0,
+    "origin": [
+     "ndx_top5"
+    ],
     "status": "admitted",
     "spread_source": "modeled_last_0.05",
     "mid_source": "last_trade"
@@ -371,12 +496,138 @@
     "ticker": "EXC",
     "sector_rank": 4,
     "market_cap": 41641125029.0,
+    "origin": [
+     "ndx_top5"
+    ],
     "status": "admitted",
     "spread_source": "modeled_last_0.05",
     "mid_source": "last_trade"
    }
   ]
  },
+ "pinned": [
+  {
+   "ticker": "META",
+   "sector": "Technology",
+   "market_cap": 1980915365498.0,
+   "origin": [
+    "pinned"
+   ],
+   "status": "admitted",
+   "spread_source": "modeled_mid_0.05",
+   "mid_source": "quote_mid"
+  },
+  {
+   "ticker": "ORCL",
+   "sector": "Technology",
+   "market_cap": 421932121440.0,
+   "origin": [
+    "pinned"
+   ],
+   "status": "admitted",
+   "spread_source": "modeled_mid_0.05",
+   "mid_source": "quote_mid"
+  },
+  {
+   "ticker": "MSTR",
+   "sector": "Technology",
+   "market_cap": 62094723619.0,
+   "origin": [
+    "pinned"
+   ],
+   "status": "admitted",
+   "spread_source": "modeled_last_0.05",
+   "mid_source": "last_trade"
+  },
+  {
+   "ticker": "AVGO",
+   "sector": "Technology",
+   "market_cap": 1672488959501.0,
+   "origin": [
+    "pinned"
+   ],
+   "status": "admitted",
+   "spread_source": "modeled_last_0.05",
+   "mid_source": "last_trade"
+  },
+  {
+   "ticker": "MRVL",
+   "sector": "Technology",
+   "market_cap": 227073255000.0,
+   "origin": [
+    "pinned"
+   ],
+   "status": "admitted",
+   "spread_source": "modeled_last_0.05",
+   "mid_source": "last_trade"
+  },
+  {
+   "ticker": "NBIS",
+   "sector": "Technology",
+   "market_cap": 66191308479.0,
+   "origin": [
+    "pinned"
+   ],
+   "status": "admitted",
+   "spread_source": "modeled_last_0.05",
+   "mid_source": "last_trade"
+  },
+  {
+   "ticker": "IREN",
+   "sector": "Finance",
+   "market_cap": 18185806605.0,
+   "origin": [
+    "pinned"
+   ],
+   "status": "admitted",
+   "spread_source": "modeled_last_0.05",
+   "mid_source": "last_trade"
+  },
+  {
+   "ticker": "ASTS",
+   "sector": "Consumer Discretionary",
+   "market_cap": 23762567184.0,
+   "origin": [
+    "pinned"
+   ],
+   "status": "admitted",
+   "spread_source": "modeled_last_0.05",
+   "mid_source": "last_trade"
+  },
+  {
+   "ticker": "TWST",
+   "sector": "Health Care",
+   "market_cap": 12201405051.0,
+   "origin": [
+    "pinned"
+   ],
+   "status": "admitted",
+   "spread_source": "modeled_last_0.05",
+   "mid_source": "last_trade"
+  },
+  {
+   "ticker": "TEM",
+   "sector": "Technology",
+   "market_cap": 14931178187.0,
+   "origin": [
+    "pinned"
+   ],
+   "status": "admitted",
+   "spread_source": "modeled_last_0.05",
+   "mid_source": "last_trade"
+  },
+  {
+   "ticker": "NTLA",
+   "sector": "Health Care",
+   "market_cap": 1703940587.0,
+   "origin": [
+    "pinned"
+   ],
+   "status": "admitted",
+   "spread_source": "modeled_last_0.05",
+   "mid_source": "last_trade"
+  }
+ ],
  "names": [
   {
    "ticker": "NVDA",
@@ -399,11 +650,40 @@
    "quote_time": 1790366400,
    "market_state": "POST",
    "sector_rank": 1,
-   "market_cap": 5424187000000.0
+   "market_cap": 5424187000000.0,
+   "origin": [
+    "ndx_top5"
+   ]
+  },
+  {
+   "ticker": "META",
+   "rank": 2,
+   "sector": "Technology",
+   "security_type": "Meta Platforms Inc. Class A Common Stock",
+   "price": 751.6599731445312,
+   "adv20_dollars": 15514828904.19,
+   "bid": 751.805,
+   "ask": 751.855,
+   "mid": 751.83,
+   "spread": 0.05,
+   "spread_limit": 1.127745,
+   "spread_source": "modeled_mid_0.05",
+   "mid_source": "quote_mid",
+   "provisional": true,
+   "yahoo_bid": 753.27,
+   "yahoo_ask": 750.39,
+   "last_trade": 751.66,
+   "quote_time": 1790366401,
+   "market_state": "POST",
+   "sector_rank": null,
+   "market_cap": 1980915365498.0,
+   "origin": [
+    "pinned"
+   ]
   },
   {
    "ticker": "TSLA",
-   "rank": 2,
+   "rank": 3,
    "sector": "Industrials",
    "security_type": "Tesla Inc. Common Stock",
    "price": 372.1099853515625,
@@ -422,11 +702,14 @@
    "quote_time": 1790366400,
    "market_state": "POST",
    "sector_rank": 1,
-   "market_cap": 1469666080781.0
+   "market_cap": 1469666080781.0,
+   "origin": [
+    "ndx_top5"
+   ]
   },
   {
    "ticker": "AAPL",
-   "rank": 3,
+   "rank": 4,
    "sector": "Technology",
    "security_type": "Apple Inc. Common Stock",
    "price": 341.07000732421875,
@@ -445,11 +728,14 @@
    "quote_time": 1790366401,
    "market_state": "POST",
    "sector_rank": 2,
-   "market_cap": 4976177554600.0
+   "market_cap": 4976177554600.0,
+   "origin": [
+    "ndx_top5"
+   ]
   },
   {
    "ticker": "SPCX",
-   "rank": 4,
+   "rank": 5,
    "sector": "Technology",
    "security_type": "Space Exploration Technologies Corp. Class A Common Stock",
    "price": 148.67999267578125,
@@ -468,11 +754,14 @@
    "quote_time": 1790366400,
    "market_state": "POST",
    "sector_rank": 5,
-   "market_cap": 2018007119205.0
+   "market_cap": 2018007119205.0,
+   "origin": [
+    "ndx_top5"
+   ]
   },
   {
    "ticker": "MSFT",
-   "rank": 5,
+   "rank": 6,
    "sector": "Technology",
    "security_type": "Microsoft Corporation Common Stock",
    "price": 516.1699829101562,
@@ -491,11 +780,40 @@
    "quote_time": 1790366401,
    "market_state": "POST",
    "sector_rank": 4,
-   "market_cap": 3832843816089.0
+   "market_cap": 3832843816089.0,
+   "origin": [
+    "ndx_top5"
+   ]
+  },
+  {
+   "ticker": "AVGO",
+   "rank": 7,
+   "sector": "Technology",
+   "security_type": "Broadcom Inc. Common Stock",
+   "price": 352.80999755859375,
+   "adv20_dollars": 9781352016.99,
+   "bid": 352.785,
+   "ask": 352.835,
+   "mid": 352.81,
+   "spread": 0.05,
+   "spread_limit": 0.529215,
+   "spread_source": "modeled_last_0.05",
+   "mid_source": "last_trade",
+   "provisional": true,
+   "yahoo_bid": 353.06,
+   "yahoo_ask": 358.0,
+   "last_trade": 352.81,
+   "quote_time": 1790366401,
+   "market_state": "POST",
+   "sector_rank": null,
+   "market_cap": 1672488959501.0,
+   "origin": [
+    "pinned"
+   ]
   },
   {
    "ticker": "GOOGL",
-   "rank": 6,
+   "rank": 8,
    "sector": "Technology",
    "security_type": "Alphabet Inc. Class A Common Stock",
    "price": 343.9200134277344,
@@ -514,11 +832,14 @@
    "quote_time": 1790366401,
    "market_state": "POST",
    "sector_rank": 3,
-   "market_cap": 4205530100000.0
+   "market_cap": 4205530100000.0,
+   "origin": [
+    "ndx_top5"
+   ]
   },
   {
    "ticker": "AMZN",
-   "rank": 7,
+   "rank": 9,
    "sector": "Consumer Discretionary",
    "security_type": "Amazon.com Inc. Common Stock",
    "price": 249.6699981689453,
@@ -537,11 +858,66 @@
    "quote_time": 1790366401,
    "market_state": "POST",
    "sector_rank": 1,
-   "market_cap": 2693018909521.0
+   "market_cap": 2693018909521.0,
+   "origin": [
+    "ndx_top5"
+   ]
+  },
+  {
+   "ticker": "ORCL",
+   "rank": 10,
+   "sector": "Technology",
+   "security_type": "Oracle Corporation Common Stock",
+   "price": 137.10000610351562,
+   "adv20_dollars": 4946983529.79,
+   "bid": 137.185,
+   "ask": 137.235,
+   "mid": 137.21,
+   "spread": 0.05,
+   "spread_limit": 0.205815,
+   "spread_source": "modeled_mid_0.05",
+   "mid_source": "quote_mid",
+   "provisional": true,
+   "yahoo_bid": 137.07,
+   "yahoo_ask": 137.35,
+   "last_trade": 137.1,
+   "quote_time": 1790366654,
+   "market_state": "POST",
+   "sector_rank": null,
+   "market_cap": 421932121440.0,
+   "origin": [
+    "pinned"
+   ]
+  },
+  {
+   "ticker": "MRVL",
+   "rank": 11,
+   "sector": "Technology",
+   "security_type": "Marvell Technology Inc. Common Stock",
+   "price": 261.93499755859375,
+   "adv20_dollars": 4625886821.38,
+   "bid": 261.91,
+   "ask": 261.96,
+   "mid": 261.935,
+   "spread": 0.05,
+   "spread_limit": 0.3929025,
+   "spread_source": "modeled_last_0.05",
+   "mid_source": "last_trade",
+   "provisional": true,
+   "yahoo_bid": 250.46,
+   "yahoo_ask": 276.89,
+   "last_trade": 261.935,
+   "quote_time": 1790366401,
+   "market_state": "POST",
+   "sector_rank": null,
+   "market_cap": 227073255000.0,
+   "origin": [
+    "pinned"
+   ]
   },
   {
    "ticker": "LITE",
-   "rank": 8,
+   "rank": 12,
    "sector": "Telecommunications",
    "security_type": "Lumentum Holdings Inc. Common Stock",
    "price": 941.6500244140625,
@@ -560,11 +936,66 @@
    "quote_time": 1790366401,
    "market_state": "POST",
    "sector_rank": 3,
-   "market_cap": 84466005000.0
+   "market_cap": 84466005000.0,
+   "origin": [
+    "ndx_top5"
+   ]
+  },
+  {
+   "ticker": "MSTR",
+   "rank": 13,
+   "sector": "Technology",
+   "security_type": "Strategy Inc Common Stock Class A",
+   "price": 158.61000061035156,
+   "adv20_dollars": 3552558439.95,
+   "bid": 158.585,
+   "ask": 158.635,
+   "mid": 158.61,
+   "spread": 0.05,
+   "spread_limit": 0.237915,
+   "spread_source": "modeled_last_0.05",
+   "mid_source": "last_trade",
+   "provisional": true,
+   "yahoo_bid": 146.96,
+   "yahoo_ask": 171.65,
+   "last_trade": 158.61,
+   "quote_time": 1790366401,
+   "market_state": "POST",
+   "sector_rank": null,
+   "market_cap": 62094723619.0,
+   "origin": [
+    "pinned"
+   ]
+  },
+  {
+   "ticker": "NBIS",
+   "rank": 14,
+   "sector": "Technology",
+   "security_type": "Nebius Group N.V. Class A Ordinary Shares",
+   "price": 237.3300018310547,
+   "adv20_dollars": 3395824220.06,
+   "bid": 237.305,
+   "ask": 237.355,
+   "mid": 237.33,
+   "spread": 0.05,
+   "spread_limit": 0.355995,
+   "spread_source": "modeled_last_0.05",
+   "mid_source": "last_trade",
+   "provisional": true,
+   "yahoo_bid": 235.0,
+   "yahoo_ask": 270.68,
+   "last_trade": 237.33,
+   "quote_time": 1790366400,
+   "market_state": "POST",
+   "sector_rank": null,
+   "market_cap": 66191308479.0,
+   "origin": [
+    "pinned"
+   ]
   },
   {
    "ticker": "NFLX",
-   "rank": 9,
+   "rank": 15,
    "sector": "Consumer Discretionary",
    "security_type": "Netflix Inc. Common Stock",
    "price": 71.1449966430664,
@@ -583,11 +1014,14 @@
    "quote_time": 1790366400,
    "market_state": "POST",
    "sector_rank": 4,
-   "market_cap": 296243488249.0
+   "market_cap": 296243488249.0,
+   "origin": [
+    "ndx_top5"
+   ]
   },
   {
    "ticker": "WMT",
-   "rank": 10,
+   "rank": 16,
    "sector": "Consumer Discretionary",
    "security_type": "Walmart Inc. Common Stock",
    "price": 107.9800033569336,
@@ -606,11 +1040,14 @@
    "quote_time": 1790366401,
    "market_state": "POST",
    "sector_rank": 2,
-   "market_cap": 856685919103.0
+   "market_cap": 856685919103.0,
+   "origin": [
+    "ndx_top5"
+   ]
   },
   {
    "ticker": "COST",
-   "rank": 11,
+   "rank": 17,
    "sector": "Consumer Discretionary",
    "security_type": "Costco Wholesale Corporation Common Stock",
    "price": 922.7650146484375,
@@ -629,11 +1066,14 @@
    "quote_time": 1790366401,
    "market_state": "POST",
    "sector_rank": 3,
-   "market_cap": 409226718573.0
+   "market_cap": 409226718573.0,
+   "origin": [
+    "ndx_top5"
+   ]
   },
   {
    "ticker": "CSCO",
-   "rank": 12,
+   "rank": 18,
    "sector": "Telecommunications",
    "security_type": "Cisco Systems Inc. Common Stock (DE)",
    "price": 106.69999694824219,
@@ -652,11 +1092,40 @@
    "quote_time": 1790366400,
    "market_state": "POST",
    "sector_rank": 1,
-   "market_cap": 420674019349.0
+   "market_cap": 420674019349.0,
+   "origin": [
+    "ndx_top5"
+   ]
+  },
+  {
+   "ticker": "IREN",
+   "rank": 19,
+   "sector": "Finance",
+   "security_type": "IREN Limited Ordinary Shares",
+   "price": 44.125,
+   "adv20_dollars": 1707304636.88,
+   "bid": 44.1,
+   "ask": 44.15,
+   "mid": 44.125,
+   "spread": 0.05,
+   "spread_limit": 0.0661875,
+   "spread_source": "modeled_last_0.05",
+   "mid_source": "last_trade",
+   "provisional": true,
+   "yahoo_bid": 46.85,
+   "yahoo_ask": 48.81,
+   "last_trade": 44.125,
+   "quote_time": 1790366401,
+   "market_state": "POST",
+   "sector_rank": null,
+   "market_cap": 18185806605.0,
+   "origin": [
+    "pinned"
+   ]
   },
   {
    "ticker": "BKNG",
-   "rank": 13,
+   "rank": 20,
    "sector": "Consumer Discretionary",
    "security_type": "Booking Holdings Inc. Common Stock",
    "price": 163.9499969482422,
@@ -675,11 +1144,14 @@
    "quote_time": 1790366401,
    "market_state": "POST",
    "sector_rank": 5,
-   "market_cap": 123188832975.0
+   "market_cap": 123188832975.0,
+   "origin": [
+    "ndx_top5"
+   ]
   },
   {
    "ticker": "AMGN",
-   "rank": 14,
+   "rank": 21,
    "sector": "Health Care",
    "security_type": "Amgen Inc. Common Stock",
    "price": 414.6099853515625,
@@ -698,11 +1170,14 @@
    "quote_time": 1790366401,
    "market_state": "POST",
    "sector_rank": 1,
-   "market_cap": 224151435593.0
+   "market_cap": 224151435593.0,
+   "origin": [
+    "ndx_top5"
+   ]
   },
   {
    "ticker": "WBD",
-   "rank": 15,
+   "rank": 22,
    "sector": "Telecommunications",
    "security_type": "Warner Bros. Discovery Inc. Series A Common Stock ",
    "price": 30.860000610351562,
@@ -721,11 +1196,14 @@
    "quote_time": 1790366400,
    "market_state": "POST",
    "sector_rank": 5,
-   "market_cap": 77480304270.0
+   "market_cap": 77480304270.0,
+   "origin": [
+    "ndx_top5"
+   ]
   },
   {
    "ticker": "PEP",
-   "rank": 16,
+   "rank": 23,
    "sector": "Consumer Staples",
    "security_type": "PepsiCo Inc. Common Stock",
    "price": 128.6300048828125,
@@ -744,11 +1222,14 @@
    "quote_time": 1790366400,
    "market_state": "POST",
    "sector_rank": 1,
-   "market_cap": 175566001106.0
+   "market_cap": 175566001106.0,
+   "origin": [
+    "ndx_top5"
+   ]
   },
   {
    "ticker": "LIN",
-   "rank": 17,
+   "rank": 24,
    "sector": "Basic Materials",
    "security_type": "Linde plc Ordinary Shares",
    "price": 469.8900146484375,
@@ -767,11 +1248,14 @@
    "quote_time": 1790366400,
    "market_state": "POST",
    "sector_rank": 1,
-   "market_cap": 216609968792.0
+   "market_cap": 216609968792.0,
+   "origin": [
+    "ndx_top5"
+   ]
   },
   {
    "ticker": "ISRG",
-   "rank": 18,
+   "rank": 25,
    "sector": "Health Care",
    "security_type": "Intuitive Surgical Inc. Common Stock",
    "price": 405.17999267578125,
@@ -790,11 +1274,14 @@
    "quote_time": 1790366401,
    "market_state": "POST",
    "sector_rank": 3,
-   "market_cap": 143141195437.0
+   "market_cap": 143141195437.0,
+   "origin": [
+    "ndx_top5"
+   ]
   },
   {
    "ticker": "TER",
-   "rank": 19,
+   "rank": 26,
    "sector": "Industrials",
    "security_type": "Teradyne Inc. Common Stock",
    "price": 398.3800048828125,
@@ -813,11 +1300,14 @@
    "quote_time": 1790366400,
    "market_state": "POST",
    "sector_rank": 5,
-   "market_cap": 62283027985.0
+   "market_cap": 62283027985.0,
+   "origin": [
+    "ndx_top5"
+   ]
   },
   {
    "ticker": "TMUS",
-   "rank": 20,
+   "rank": 27,
    "sector": "Telecommunications",
    "security_type": "T-Mobile US Inc. Common Stock",
    "price": 165.42999267578125,
@@ -836,11 +1326,14 @@
    "quote_time": 1790366400,
    "market_state": "POST",
    "sector_rank": 2,
-   "market_cap": 177452064939.0
+   "market_cap": 177452064939.0,
+   "origin": [
+    "ndx_top5"
+   ]
   },
   {
    "ticker": "GILD",
-   "rank": 21,
+   "rank": 28,
    "sector": "Health Care",
    "security_type": "Gilead Sciences Inc. Common Stock",
    "price": 150.92999267578125,
@@ -859,11 +1352,14 @@
    "quote_time": 1790366401,
    "market_state": "POST",
    "sector_rank": 2,
-   "market_cap": 187146431544.0
+   "market_cap": 187146431544.0,
+   "origin": [
+    "ndx_top5"
+   ]
   },
   {
    "ticker": "CEG",
-   "rank": 22,
+   "rank": 29,
    "sector": "Utilities",
    "security_type": "Constellation Energy Corporation Common Stock ",
    "price": 263.2699890136719,
@@ -882,11 +1378,14 @@
    "quote_time": 1790366401,
    "market_state": "POST",
    "sector_rank": 1,
-   "market_cap": 93278503669.0
+   "market_cap": 93278503669.0,
+   "origin": [
+    "ndx_top5"
+   ]
   },
   {
    "ticker": "CMCSA",
-   "rank": 23,
+   "rank": 30,
    "sector": "Telecommunications",
    "security_type": "Comcast Corporation Class A Common Stock",
    "price": 21.90999984741211,
@@ -905,11 +1404,14 @@
    "quote_time": 1790366401,
    "market_state": "POST",
    "sector_rank": 4,
-   "market_cap": 77750627314.0
+   "market_cap": 77750627314.0,
+   "origin": [
+    "ndx_top5"
+   ]
   },
   {
    "ticker": "HON",
-   "rank": 24,
+   "rank": 31,
    "sector": "Industrials",
    "security_type": "Honeywell International Inc. Common Stock",
    "price": 212.5500030517578,
@@ -928,11 +1430,14 @@
    "quote_time": 1790366401,
    "market_state": "POST",
    "sector_rank": 4,
-   "market_cap": 67467019929.0
+   "market_cap": 67467019929.0,
+   "origin": [
+    "ndx_top5"
+   ]
   },
   {
    "ticker": "FANG",
-   "rank": 25,
+   "rank": 32,
    "sector": "Energy",
    "security_type": "Diamondback Energy Inc. Common Stock",
    "price": 186.6699981689453,
@@ -951,11 +1456,40 @@
    "quote_time": 1790366401,
    "market_state": "POST",
    "sector_rank": 1,
-   "market_cap": 52272145975.0
+   "market_cap": 52272145975.0,
+   "origin": [
+    "ndx_top5"
+   ]
+  },
+  {
+   "ticker": "ASTS",
+   "rank": 33,
+   "sector": "Consumer Discretionary",
+   "security_type": "AST SpaceMobile Inc. Class A Common Stock",
+   "price": 61.810001373291016,
+   "adv20_dollars": 599242542.35,
+   "bid": 61.785,
+   "ask": 61.835,
+   "mid": 61.81,
+   "spread": 0.05,
+   "spread_limit": 0.092715,
+   "spread_source": "modeled_last_0.05",
+   "mid_source": "last_trade",
+   "provisional": true,
+   "yahoo_bid": 58.0,
+   "yahoo_ask": 66.06,
+   "last_trade": 61.81,
+   "quote_time": 1790366401,
+   "market_state": "POST",
+   "sector_rank": null,
+   "market_cap": 23762567184.0,
+   "origin": [
+    "pinned"
+   ]
   },
   {
    "ticker": "REGN",
-   "rank": 26,
+   "rank": 34,
    "sector": "Health Care",
    "security_type": "Regeneron Pharmaceuticals Inc. Common Stock",
    "price": 788.0399780273438,
@@ -974,11 +1508,14 @@
    "quote_time": 1790366400,
    "market_state": "POST",
    "sector_rank": 5,
-   "market_cap": 81132648744.0
+   "market_cap": 81132648744.0,
+   "origin": [
+    "ndx_top5"
+   ]
   },
   {
    "ticker": "VRTX",
-   "rank": 27,
+   "rank": 35,
    "sector": "Health Care",
    "security_type": "Vertex Pharmaceuticals Incorporated Common Stock",
    "price": 526.1900024414062,
@@ -997,11 +1534,14 @@
    "quote_time": 1790366400,
    "market_state": "POST",
    "sector_rank": 4,
-   "market_cap": 133368603600.0
+   "market_cap": 133368603600.0,
+   "origin": [
+    "ndx_top5"
+   ]
   },
   {
    "ticker": "CSX",
-   "rank": 28,
+   "rank": 36,
    "sector": "Industrials",
    "security_type": "CSX Corporation Common Stock",
    "price": 46.779998779296875,
@@ -1020,11 +1560,40 @@
    "quote_time": 1790366401,
    "market_state": "POST",
    "sector_rank": 2,
-   "market_cap": 86658776617.0
+   "market_cap": 86658776617.0,
+   "origin": [
+    "ndx_top5"
+   ]
+  },
+  {
+   "ticker": "TEM",
+   "rank": 37,
+   "sector": "Technology",
+   "security_type": "Tempus AI Inc. Class A Common Stock",
+   "price": 85.01000213623047,
+   "adv20_dollars": 502318292.0,
+   "bid": 84.985,
+   "ask": 85.035,
+   "mid": 85.01,
+   "spread": 0.05,
+   "spread_limit": 0.127515,
+   "spread_source": "modeled_last_0.05",
+   "mid_source": "last_trade",
+   "provisional": true,
+   "yahoo_bid": 78.1,
+   "yahoo_ask": 90.45,
+   "last_trade": 85.01,
+   "quote_time": 1790366400,
+   "market_state": "POST",
+   "sector_rank": null,
+   "market_cap": 14931178187.0,
+   "origin": [
+    "pinned"
+   ]
   },
   {
    "ticker": "MDLZ",
-   "rank": 29,
+   "rank": 38,
    "sector": "Consumer Staples",
    "security_type": "Mondelez International Inc. Class A Common Stock",
    "price": 60.25,
@@ -1043,11 +1612,14 @@
    "quote_time": 1790366401,
    "market_state": "POST",
    "sector_rank": 3,
-   "market_cap": 76897560434.0
+   "market_cap": 76897560434.0,
+   "origin": [
+    "ndx_top5"
+   ]
   },
   {
    "ticker": "AEP",
-   "rank": 30,
+   "rank": 39,
    "sector": "Utilities",
    "security_type": "American Electric Power Company Inc. Common Stock",
    "price": 118.3499984741211,
@@ -1066,11 +1638,14 @@
    "quote_time": 1790366401,
    "market_state": "POST",
    "sector_rank": 2,
-   "market_cap": 64429426609.0
+   "market_cap": 64429426609.0,
+   "origin": [
+    "ndx_top5"
+   ]
   },
   {
    "ticker": "XEL",
-   "rank": 31,
+   "rank": 40,
    "sector": "Utilities",
    "security_type": "Xcel Energy Inc. Common Stock",
    "price": 69.80000305175781,
@@ -1089,11 +1664,14 @@
    "quote_time": 1790366400,
    "market_state": "POST",
    "sector_rank": 3,
-   "market_cap": 43599474559.0
+   "market_cap": 43599474559.0,
+   "origin": [
+    "ndx_top5"
+   ]
   },
   {
    "ticker": "MNST",
-   "rank": 32,
+   "rank": 41,
    "sector": "Consumer Staples",
    "security_type": "Monster Beverage Corporation [stockType: Common Stock]",
    "price": 43.11000061035156,
@@ -1112,11 +1690,14 @@
    "quote_time": 1790366401,
    "market_state": "POST",
    "sector_rank": 2,
-   "market_cap": 126682209019.0
+   "market_cap": 126682209019.0,
+   "origin": [
+    "ndx_top5"
+   ]
   },
   {
    "ticker": "CTAS",
-   "rank": 33,
+   "rank": 42,
    "sector": "Industrials",
    "security_type": "Cintas Corporation Common Stock",
    "price": 199.91000366210938,
@@ -1135,11 +1716,14 @@
    "quote_time": 1790366401,
    "market_state": "POST",
    "sector_rank": 3,
-   "market_cap": 79867396891.0
+   "market_cap": 79867396891.0,
+   "origin": [
+    "ndx_top5"
+   ]
   },
   {
    "ticker": "EXC",
-   "rank": 34,
+   "rank": 43,
    "sector": "Utilities",
    "security_type": "Exelon Corporation Common Stock",
    "price": 40.34000015258789,
@@ -1158,11 +1742,14 @@
    "quote_time": 1790366401,
    "market_state": "POST",
    "sector_rank": 4,
-   "market_cap": 41641125029.0
+   "market_cap": 41641125029.0,
+   "origin": [
+    "ndx_top5"
+   ]
   },
   {
    "ticker": "KDP",
-   "rank": 35,
+   "rank": 44,
    "sector": "Consumer Staples",
    "security_type": "Keurig Dr Pepper Inc. Common Stock",
    "price": 31.950000762939453,
@@ -1181,11 +1768,40 @@
    "quote_time": 1790366401,
    "market_state": "POST",
    "sector_rank": 5,
-   "market_cap": 43478391914.0
+   "market_cap": 43478391914.0,
+   "origin": [
+    "ndx_top5"
+   ]
+  },
+  {
+   "ticker": "TWST",
+   "rank": 45,
+   "sector": "Health Care",
+   "security_type": "Twist Bioscience Corporation Common Stock",
+   "price": 182.8300018310547,
+   "adv20_dollars": 296217384.21,
+   "bid": 182.805,
+   "ask": 182.855,
+   "mid": 182.83,
+   "spread": 0.05,
+   "spread_limit": 0.274245,
+   "spread_source": "modeled_last_0.05",
+   "mid_source": "last_trade",
+   "provisional": true,
+   "yahoo_bid": 131.76,
+   "yahoo_ask": 229.63,
+   "last_trade": 182.83,
+   "quote_time": 1790366400,
+   "market_state": "POST",
+   "sector_rank": null,
+   "market_cap": 12201405051.0,
+   "origin": [
+    "pinned"
+   ]
   },
   {
    "ticker": "CCEP",
-   "rank": 36,
+   "rank": 46,
    "sector": "Consumer Staples",
    "security_type": "Coca-Cola Europacific Partners plc Ordinary Shares",
    "price": 101.7300033569336,
@@ -1204,7 +1820,36 @@
    "quote_time": 1790366401,
    "market_state": "POST",
    "sector_rank": 4,
-   "market_cap": 46183632909.0
+   "market_cap": 46183632909.0,
+   "origin": [
+    "ndx_top5"
+   ]
+  },
+  {
+   "ticker": "NTLA",
+   "rank": 47,
+   "sector": "Health Care",
+   "security_type": "Intellia Therapeutics Inc. Common Stock",
+   "price": 11.75,
+   "adv20_dollars": 48516498.89,
+   "bid": 11.725,
+   "ask": 11.775,
+   "mid": 11.75,
+   "spread": 0.05,
+   "spread_limit": 0.05,
+   "spread_source": "modeled_last_0.05",
+   "mid_source": "last_trade",
+   "provisional": true,
+   "yahoo_bid": 8.2,
+   "yahoo_ask": 13.92,
+   "last_trade": 11.75,
+   "quote_time": 1790366400,
+   "market_state": "POST",
+   "sector_rank": null,
+   "market_cap": 1703940587.0,
+   "origin": [
+    "pinned"
+   ]
   }
  ],
  "quote_fallbacks": {
@@ -1212,6 +1857,8 @@
   "AEP": "quote_fails_spread_gate+mid_far_from_last",
   "AMGN": "quote_fails_spread_gate+mid_far_from_last",
   "AMZN": "quote_fails_spread_gate+mid_far_from_last",
+  "ASTS": "quote_fails_spread_gate+mid_far_from_last",
+  "AVGO": "quote_fails_spread_gate+mid_far_from_last",
   "BKNG": "quote_fails_spread_gate+mid_far_from_last",
   "CCEP": "quote_fails_spread_gate+mid_far_from_last",
   "CEG": "quote_crossed+mid_far_from_last",
@@ -1225,21 +1872,30 @@
   "GILD": "quote_fails_spread_gate+mid_far_from_last",
   "GOOGL": "quote_fails_spread_gate+mid_far_from_last",
   "HON": "quote_fails_spread_gate+mid_far_from_last",
+  "IREN": "quote_fails_spread_gate+mid_far_from_last",
   "ISRG": "quote_fails_spread_gate+mid_far_from_last",
   "KDP": "quote_fails_spread_gate+mid_far_from_last",
   "LIN": "quote_fails_spread_gate+mid_far_from_last",
   "LITE": "quote_fails_spread_gate+mid_far_from_last",
   "MDLZ": "quote_fails_spread_gate+mid_far_from_last",
+  "META": "quote_crossed",
   "MNST": "quote_fails_spread_gate+mid_far_from_last",
+  "MRVL": "quote_fails_spread_gate+mid_far_from_last",
   "MSFT": "quote_fails_spread_gate+mid_far_from_last",
+  "MSTR": "quote_fails_spread_gate+mid_far_from_last",
+  "NBIS": "quote_fails_spread_gate+mid_far_from_last",
   "NFLX": "quote_fails_spread_gate+mid_far_from_last",
+  "NTLA": "quote_fails_spread_gate+mid_far_from_last",
   "NVDA": "quote_fails_spread_gate+mid_far_from_last",
+  "ORCL": "quote_fails_spread_gate",
   "PEP": "quote_fails_spread_gate+mid_far_from_last",
   "REGN": "quote_fails_spread_gate+mid_far_from_last",
   "SPCX": "quote_fails_spread_gate+mid_far_from_last",
+  "TEM": "quote_fails_spread_gate+mid_far_from_last",
   "TER": "quote_fails_spread_gate+mid_far_from_last",
   "TMUS": "quote_fails_spread_gate",
   "TSLA": "quote_fails_spread_gate+mid_far_from_last",
+  "TWST": "quote_fails_spread_gate+mid_far_from_last",
   "VRTX": "quote_crossed+mid_far_from_last",
   "WBD": "quote_fails_spread_gate",
   "WMT": "quote_fails_spread_gate+mid_far_from_last",
@@ -1248,6 +1904,9 @@
  "excluded": {
   "GOOG": {
    "reason": "duplicate_share_class",
+   "origin": [
+    "ndx_top5"
+   ],
    "kept": "GOOGL",
    "sector": "Technology",
    "sector_rank": null,
