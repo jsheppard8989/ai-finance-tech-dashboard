@@ -1,0 +1,454 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "$id": "https://scarcity.local/dragonfly/trade_draft.schema.json",
+  "title": "Dragonfly 7 Trade Draft (Architect to engine)",
+  "description": "What the Trade Architect writes to inbox/YYYY-MM-DD/<trade_id>.draft.json. A trade card minus everything the engine owns: no sizing, no risk_decision, no entry.max_fill, no status, no red_team (the Red Team writes <trade_id>.redteam.json separately), no human_decision, no watcher, no engine timestamps. Drafts that carry sizing, risk_decision or entry.max_fill are rejected as pre-sized. The engine recomputes every measurement on the Mac and blocks on a mismatch. See docs/dragonfly/ENGINE.md. The engine strips (and records) keys this schema does not define instead of rejecting the draft; sizing, risk_decision and entry.max_fill are rejected.",
+  "type": "object",
+  "additionalProperties": false,
+  "required": [
+    "schema_version",
+    "trade_id",
+    "ticker",
+    "setup",
+    "direction",
+    "instrument",
+    "catalyst",
+    "why_now",
+    "entry",
+    "stop",
+    "targets",
+    "time_stop",
+    "invalidation",
+    "invalidation_level",
+    "evidence",
+    "measurements"
+  ],
+  "properties": {
+    "schema_version": {
+      "const": "1.0.0"
+    },
+    "trade_id": {
+      "type": "string",
+      "pattern": "^DF-[0-9]{4}-[0-9]{4}$"
+    },
+    "book": {
+      "enum": [
+        "paper",
+        "live"
+      ],
+      "description": "Optional. Must match the engine's book when present."
+    },
+    "drafted_at": {
+      "type": "string",
+      "format": "date-time"
+    },
+    "ticker": {
+      "type": "string",
+      "pattern": "^[A-Z][A-Z0-9.\\-]{0,9}$"
+    },
+    "setup": {
+      "enum": [
+        "catalyst_breakout",
+        "momentum_pullback",
+        "failed_breakdown",
+        "compression_expansion"
+      ]
+    },
+    "direction": {
+      "const": "long"
+    },
+    "instrument": {
+      "enum": [
+        "stock",
+        "call",
+        "put",
+        "debit_spread"
+      ]
+    },
+    "catalyst": {
+      "type": "object",
+      "additionalProperties": false,
+      "required": [
+        "quality",
+        "summary",
+        "source_url",
+        "source_type",
+        "observed_at",
+        "earnings_in_window"
+      ],
+      "properties": {
+        "quality": {
+          "enum": [
+            "primary",
+            "secondary",
+            "absent"
+          ]
+        },
+        "summary": {
+          "type": "string"
+        },
+        "source_url": {
+          "type": "string",
+          "description": "Source URL (or a filing accession). Empty string allowed when filing_accession is given."
+        },
+        "source_type": {
+          "enum": [
+            "sec",
+            "earnings",
+            "news",
+            "company",
+            "analyst",
+            "x",
+            "none"
+          ]
+        },
+        "observed_at": {
+          "oneOf": [
+            {
+              "type": "null"
+            },
+            {
+              "type": "string",
+              "format": "date-time"
+            }
+          ]
+        },
+        "earnings_in_window": {
+          "type": "boolean"
+        },
+        "filing_accession": {
+          "type": "string",
+          "description": "SEC filing accession (e.g. 0001193125-26-123456). Alternative to source_url (plan section 6)."
+        }
+      }
+    },
+    "why_now": {
+      "type": "string",
+      "minLength": 1
+    },
+    "entry": {
+      "type": "object",
+      "additionalProperties": false,
+      "required": [
+        "trigger",
+        "price"
+      ],
+      "properties": {
+        "trigger": {
+          "enum": [
+            "buy_stop",
+            "buy_limit",
+            "market_on_close_above"
+          ]
+        },
+        "price": {
+          "type": "number",
+          "exclusiveMinimum": 0,
+          "description": "Stock: the trigger price. Options: the debit per share (premium)."
+        }
+      }
+    },
+    "stop": {
+      "type": "number",
+      "exclusiveMinimum": 0,
+      "description": "Stock: stop price. Options: planned premium stop."
+    },
+    "targets": {
+      "type": "array",
+      "minItems": 1,
+      "maxItems": 1,
+      "items": {
+        "type": "object",
+        "additionalProperties": false,
+        "required": [
+          "price",
+          "fraction"
+        ],
+        "properties": {
+          "price": {
+            "type": "number",
+            "exclusiveMinimum": 0
+          },
+          "fraction": {
+            "const": 1
+          }
+        }
+      }
+    },
+    "time_stop": {
+      "type": "object",
+      "additionalProperties": false,
+      "required": [
+        "max_calendar_days",
+        "entry_session_date",
+        "exit_session_date"
+      ],
+      "properties": {
+        "max_calendar_days": {
+          "const": 7
+        },
+        "entry_session_date": {
+          "type": "string",
+          "format": "date"
+        },
+        "exit_session_date": {
+          "type": "string",
+          "format": "date"
+        }
+      }
+    },
+    "invalidation": {
+      "type": "array",
+      "minItems": 2,
+      "uniqueItems": true,
+      "items": {
+        "enum": [
+          "stop_hit",
+          "level_lost",
+          "time_stop",
+          "catalyst_retracted"
+        ]
+      }
+    },
+    "invalidation_level": {
+      "type": "number",
+      "exclusiveMinimum": 0
+    },
+    "evidence": {
+      "type": "object",
+      "additionalProperties": false,
+      "required": [
+        "news",
+        "sec",
+        "x",
+        "relative_volume",
+        "options_note",
+        "price_action"
+      ],
+      "properties": {
+        "news": {
+          "type": "array",
+          "items": {
+            "type": "string"
+          }
+        },
+        "sec": {
+          "type": "array",
+          "items": {
+            "type": "string"
+          }
+        },
+        "x": {
+          "type": "array",
+          "items": {
+            "type": "string"
+          }
+        },
+        "relative_volume": {
+          "type": "number",
+          "minimum": 0,
+          "description": "Signal-session relative volume (volume / prior 20-session mean). Tolerance 5%."
+        },
+        "options_note": {
+          "type": "string"
+        },
+        "price_action": {
+          "type": "string",
+          "minLength": 1
+        }
+      }
+    },
+    "measurements": {
+      "description": "The Architect's measurements. The engine never uses them for a decision: it recomputes each from the Mac's bars cache (or handoff/YYYY-MM-DD/measurements.json). A stated price, atr, adv_dollars, spread or sector outside tolerance is measurement_mismatch; an omitted one is simply not compared. signal_session is required; reference_level is required for catalyst_breakout and failed_breakdown; base_level for momentum_pullback.",
+      "type": "object",
+      "additionalProperties": false,
+      "required": [
+        "signal_session"
+      ],
+      "properties": {
+        "price": {
+          "type": "number",
+          "exclusiveMinimum": 0,
+          "description": "Underlying close of the previous NYSE session (tolerance 0.5%)."
+        },
+        "atr": {
+          "type": "number",
+          "exclusiveMinimum": 0,
+          "description": "Wilder ATR(14) of the underlying at the previous session (tolerance 5%)."
+        },
+        "adv_dollars": {
+          "type": "number",
+          "minimum": 0,
+          "description": "20-day average dollar volume at the previous session (tolerance 5%)."
+        },
+        "spread": {
+          "oneOf": [
+            {
+              "type": "null"
+            },
+            {
+              "type": "number",
+              "minimum": 0
+            }
+          ],
+          "description": "Stock bid/ask spread in dollars (tolerance $0.01; stock only). null = not observed."
+        },
+        "spread_source": {
+          "type": "string"
+        },
+        "sector": {
+          "type": "string",
+          "minLength": 1
+        },
+        "reference_level": {
+          "type": "number",
+          "exclusiveMinimum": 0,
+          "description": "The setup's named level. catalyst_breakout: the breakout level (required; the 1.0 ATR entry and extension limits use it). failed_breakdown: the reclaimed support (required). momentum_pullback / compression_expansion: optional and informational (no extension block for these setups)."
+        },
+        "provisional": {
+          "type": "boolean",
+          "description": "Ignored by the engine. Provenance comes from the Mac's own sources."
+        },
+        "source": {
+          "type": "string"
+        },
+        "as_of": {
+          "type": "string",
+          "format": "date-time"
+        },
+        "signal_session": {
+          "type": "string",
+          "format": "date",
+          "description": "The setup's signal bar: breakout, pullback, reversal or expansion session. Must be a session in the Mac's bars through the previous session. Age is recorded, not limited."
+        },
+        "base_level": {
+          "type": "number",
+          "exclusiveMinimum": 0,
+          "description": "momentum_pullback only (required there): the prior breakout base the pullback must not close back through."
+        }
+      }
+    },
+    "option": {
+      "description": "Required when instrument is call, put or debit_spread. Quote fields are for the position as a whole (net for a spread; min open interest and volume across legs).",
+      "type": "object",
+      "additionalProperties": false,
+      "required": [
+        "contract",
+        "expiration",
+        "bid",
+        "ask",
+        "open_interest",
+        "volume",
+        "underlying_stop"
+      ],
+      "properties": {
+        "contract": {
+          "type": "string",
+          "minLength": 1
+        },
+        "expiration": {
+          "type": "string",
+          "format": "date"
+        },
+        "bid": {
+          "type": "number",
+          "minimum": 0
+        },
+        "ask": {
+          "type": "number",
+          "minimum": 0
+        },
+        "open_interest": {
+          "type": "integer",
+          "minimum": 0
+        },
+        "volume": {
+          "type": "integer",
+          "minimum": 0
+        },
+        "underlying_stop": {
+          "type": "number",
+          "exclusiveMinimum": 0,
+          "description": "Underlying price that invalidates the thesis; used for the stop-distance ATR block."
+        },
+        "legs": {
+          "type": "array",
+          "items": {
+            "type": "string"
+          }
+        }
+      }
+    },
+    "notes": {
+      "type": "string"
+    }
+  },
+  "allOf": [
+    {
+      "if": {
+        "properties": {
+          "instrument": {
+            "enum": [
+              "call",
+              "put",
+              "debit_spread"
+            ]
+          }
+        },
+        "required": [
+          "instrument"
+        ]
+      },
+      "then": {
+        "required": [
+          "option"
+        ]
+      }
+    },
+    {
+      "if": {
+        "properties": {
+          "setup": {
+            "const": "momentum_pullback"
+          }
+        },
+        "required": [
+          "setup"
+        ]
+      },
+      "then": {
+        "properties": {
+          "measurements": {
+            "required": [
+              "base_level"
+            ]
+          }
+        }
+      }
+    },
+    {
+      "if": {
+        "required": [
+          "setup"
+        ],
+        "properties": {
+          "setup": {
+            "enum": [
+              "catalyst_breakout",
+              "failed_breakdown"
+            ]
+          }
+        }
+      },
+      "then": {
+        "properties": {
+          "measurements": {
+            "required": [
+              "reference_level"
+            ]
+          }
+        }
+      }
+    }
+  ]
+}

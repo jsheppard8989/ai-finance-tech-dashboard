@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!--
+  TEMPLATE ONLY. Not installed, not loaded. Do not copy into ~/Library/LaunchAgents
+  until Ditka's dry run passes and Jared approves the schedule (docs/dragonfly/ENGINE.md).
+
+  Dragonfly pre-open engine: starts 08:08 CT Monday-Friday. The engine polls every
+  60 s and exits on its own after the 08:24 pass (DONE written by then).
+  Placeholders: __REPO__ = the Mac checkout of ai-finance-tech-dashboard,
+  __HOME__ = the user's home directory. The Mac clock must be on America/Chicago.
+-->
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+  <key>Label</key>
+  <string>com.dragonfly.engine</string>
+  <key>ProgramArguments</key>
+  <array>
+    <string>/bin/bash</string>
+    <string>__REPO__/dragonfly/state/live/ops/run_engine.sh</string>
+  </array>
+  <key>WorkingDirectory</key>
+  <string>__REPO__</string>
+  <key>StartCalendarInterval</key>
+  <array>
+    <dict><key>Weekday</key><integer>1</integer><key>Hour</key><integer>8</integer><key>Minute</key><integer>8</integer></dict>
+    <dict><key>Weekday</key><integer>2</integer><key>Hour</key><integer>8</integer><key>Minute</key><integer>8</integer></dict>
+    <dict><key>Weekday</key><integer>3</integer><key>Hour</key><integer>8</integer><key>Minute</key><integer>8</integer></dict>
+    <dict><key>Weekday</key><integer>4</integer><key>Hour</key><integer>8</integer><key>Minute</key><integer>8</integer></dict>
+    <dict><key>Weekday</key><integer>5</integer><key>Hour</key><integer>8</integer><key>Minute</key><integer>8</integer></dict>
+  </array>
+  <key>RunAtLoad</key>
+  <false/>
+  <key>ExitTimeOut</key>
+  <integer>30</integer>
+  <key>StandardOutPath</key>
+  <string>__REPO__/dragonfly/state/live/logs/engine.out.log</string>
+  <key>StandardErrorPath</key>
+  <string>__REPO__/dragonfly/state/live/logs/engine.err.log</string>
+  <key>EnvironmentVariables</key>
+  <dict>
+    <key>TZ</key>
+    <string>America/Chicago</string>
+    <key>DRAGONFLY_PRIVATE_DIR</key>
+    <string>__HOME__/projects/dragonfly-private</string>
+  </dict>
+</dict>
+</plist>

@@ -1,0 +1,51 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "$id": "https://scarcity.local/dragonfly/engine_reject_record.schema.json",
+  "title": "Dragonfly 7 engine reject record (draft too broken to card)",
+  "description": "Written by the pre-open engine in place of a trade card when a draft is structurally invalid (not JSON, fails trade_draft.schema.json, or has no usable trade_id), or when a built card fails trade_card.schema.json. Never sized. Lives at handoff/YYYY-MM-DD/cards/<trade_id>.json, or cards/unidentified/<draft-stem>.json when no trade_id can be derived.",
+  "type": "object",
+  "additionalProperties": false,
+  "required": ["schema_version", "record", "trade_id", "status", "risk_decision", "engine"],
+  "properties": {
+    "schema_version": { "const": "1.0.0" },
+    "record": { "const": "engine_reject" },
+    "trade_id": { "oneOf": [{ "type": "null" }, { "type": "string", "pattern": "^DF-[0-9]{4}-[0-9]{4}$" }] },
+    "ticker": { "oneOf": [{ "type": "null" }, { "type": "string" }] },
+    "status": { "const": "blocked" },
+    "risk_decision": {
+      "description": "null only for a late draft (outcome late): the governor never ran.",
+      "oneOf": [
+        { "type": "null" },
+        {
+          "type": "object",
+          "additionalProperties": false,
+          "required": ["decision", "reasons", "risk_mode", "entries_allowed"],
+          "properties": {
+            "decision": { "const": "REJECTED" },
+            "reasons": { "type": "array", "minItems": 1, "items": { "type": "string" } },
+            "risk_mode": { "enum": ["normal", "cautious", "stand_down"] },
+            "entries_allowed": { "type": "boolean" }
+          }
+        }
+      ]
+    },
+    "engine": {
+      "type": "object",
+      "additionalProperties": false,
+      "required": ["engine_version", "outcome", "reasons", "session_date", "draft_file", "draft_sha256", "first_seen_at", "cutoff", "carded_at", "book", "inputs"],
+      "properties": {
+        "engine_version": { "type": "string", "minLength": 1 },
+        "outcome": { "enum": ["rejected", "late"] },
+        "reasons": { "type": "array", "minItems": 1, "items": { "type": "string" } },
+        "session_date": { "type": "string", "format": "date" },
+        "draft_file": { "type": "string", "minLength": 1 },
+        "draft_sha256": { "type": "string", "pattern": "^[0-9a-f]{64}$" },
+        "first_seen_at": { "type": "string", "format": "date-time" },
+        "cutoff": { "type": "string", "format": "date-time" },
+        "carded_at": { "type": "string", "format": "date-time" },
+        "book": { "enum": ["paper", "live"] },
+        "inputs": { "type": "object" }
+      }
+    }
+  }
+}

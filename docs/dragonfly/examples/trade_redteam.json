@@ -1,0 +1,16 @@
+{
+  "schema_version": "1.0.0",
+  "trade_id": "DF-2026-0001",
+  "as_of": "2026-09-25T08:16:00-05:00",
+  "flags": {
+    "crowded_options": false,
+    "sector_lagging": false,
+    "wide_spread_but_legal": false,
+    "contradictory_filing": false,
+    "valuation_extreme": false,
+    "gap_history": false,
+    "event_just_outside_window": false
+  },
+  "narrative": "Single-customer concentration is noted. It is not one of the seven warning flags.",
+  "reviewer": "red_team"
+}

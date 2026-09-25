@@ -1,0 +1,41 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "$id": "https://scarcity.local/dragonfly/engine_done.schema.json",
+  "title": "Dragonfly 7 engine DONE marker",
+  "description": "handoff/YYYY-MM-DD/cards/DONE. Written once the draft cutoff has passed and every draft first seen at or before it has a card (or earlier with --finalize). Rewritten, with revision + 1, only if a late card lands afterwards.",
+  "type": "object",
+  "additionalProperties": false,
+  "required": ["schema_version", "marker", "session_date", "as_of", "cutoff", "finalized_by", "revision", "counts", "trade_ids", "unidentified", "withdrawn"],
+  "properties": {
+    "schema_version": { "const": "1.0.0" },
+    "marker": { "const": "DONE" },
+    "session_date": { "type": "string", "format": "date" },
+    "as_of": { "type": "string", "format": "date-time" },
+    "cutoff": { "type": "string", "format": "date-time" },
+    "finalized_by": { "enum": ["cutoff", "flag"] },
+    "revision": { "type": "integer", "minimum": 1 },
+    "counts": {
+      "type": "object",
+      "additionalProperties": false,
+      "required": ["drafts", "sized", "rejected", "late"],
+      "properties": {
+        "drafts": { "type": "integer", "minimum": 0 },
+        "sized": { "type": "integer", "minimum": 0 },
+        "rejected": { "type": "integer", "minimum": 0 },
+        "late": { "type": "integer", "minimum": 0 }
+      }
+    },
+    "trade_ids": {
+      "type": "object",
+      "additionalProperties": false,
+      "required": ["sized", "rejected", "late"],
+      "properties": {
+        "sized": { "type": "array", "items": { "type": "string" } },
+        "rejected": { "type": "array", "items": { "type": "string" } },
+        "late": { "type": "array", "items": { "type": "string" } }
+      }
+    },
+    "unidentified": { "type": "array", "items": { "type": "string" }, "description": "Draft files with no usable trade_id (counted in rejected)." },
+    "withdrawn": { "type": "array", "items": { "type": "string" }, "description": "Draft files seen before the cutoff that disappeared before they were carded (not counted)." }
+  }
+}

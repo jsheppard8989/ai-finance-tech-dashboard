@@ -190,7 +190,8 @@
       ]
     },
     "created_at": { "type": "string", "format": "date-time" },
-    "frozen_at": { "oneOf": [{ "type": "null" }, { "type": "string", "format": "date-time" }] }
+    "frozen_at": { "oneOf": [{ "type": "null" }, { "type": "string", "format": "date-time" }] },
+    "engine": { "$ref": "#/$defs/engine" }
   },
   "allOf": [
     {
@@ -206,6 +207,37 @@
     }
   ],
   "$defs": {
+    "engine": {
+      "description": "Written by the pre-open engine (dragonfly/engine). Optional so hand-built and example cards still validate. See docs/dragonfly/ENGINE.md.",
+      "type": "object",
+      "additionalProperties": false,
+      "required": [
+        "engine_version",
+        "outcome",
+        "reasons",
+        "session_date",
+        "draft_file",
+        "draft_sha256",
+        "first_seen_at",
+        "cutoff",
+        "carded_at",
+        "book",
+        "inputs"
+      ],
+      "properties": {
+        "engine_version": { "type": "string", "minLength": 1 },
+        "outcome": { "enum": ["sized", "rejected", "late"] },
+        "reasons": { "type": "array", "items": { "type": "string" } },
+        "session_date": { "type": "string", "format": "date" },
+        "draft_file": { "type": "string", "minLength": 1 },
+        "draft_sha256": { "type": "string", "pattern": "^[0-9a-f]{64}$" },
+        "first_seen_at": { "type": "string", "format": "date-time" },
+        "cutoff": { "type": "string", "format": "date-time" },
+        "carded_at": { "type": "string", "format": "date-time" },
+        "book": { "enum": ["paper", "live"] },
+        "inputs": { "type": "object" }
+      }
+    },
     "catalyst": {
       "type": "object",
       "additionalProperties": false,
@@ -221,6 +253,7 @@
         "quality": { "enum": ["primary", "secondary", "absent"] },
         "summary": { "type": "string" },
         "source_url": { "type": "string" },
+        "filing_accession": { "type": "string", "description": "SEC filing accession; alternative to source_url (plan section 6)." },
         "source_type": {
           "enum": ["sec", "earnings", "news", "company", "analyst", "x", "none"]
         },
