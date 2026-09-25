@@ -1,7 +1,8 @@
 # Dragonfly 7 — pre-open engine, READY and DONE
 
-Private. Paper book. Code: `dragonfly/engine/`, `dragonfly/market_calendar.py`,
-`dragonfly/setup_gates.py`. Tests: `python3 dragonfly/test_engine.py`
+Private. Paper book. Code: `dragonfly/engine/`, `dragonfly/jobs/` (prep and
+pre-open), `dragonfly/market_calendar.py`, `dragonfly/setup_gates.py`. Tests:
+`python3 dragonfly/test_engine.py` and `python3 dragonfly/test_jobs.py`
 (offline). Python 3.9 compatible (the Mac runs `/usr/bin/python3` 3.9.6); needs
 `jsonschema` (`dragonfly/requirements.txt`). Without it the engine refuses to
 write anything.
@@ -21,8 +22,8 @@ recomputed from files already on the Mac.
 
 | CT | Step | Writes |
 | --- | --- | --- |
-| 15:00+ prior session | Mac prep (built separately): marks the book **after the close**, refreshes the bars cache, prep data | `state/live/book.json`, `state/live/cache/bars/`, `handoff/<date>/…` |
-| 08:05 | Pre-open job (built separately). **Last step:** `python3 -m dragonfly.engine ready` | `handoff/<date>/READY` by ~08:07 |
+| 15:30 prior session | **Prep job** (`python3 -m dragonfly.jobs prep`): watchlist, bars cache, measurements for the next session; marks a flat book **after the close** | `state/live/cache/bars/`, `state/live/book.json` (flat only), `handoff/<next session>/prep.json`, `measurements.json` |
+| 08:05 | **Pre-open job** (`python3 -m dragonfly.jobs preopen`): requires the prep, checks `book_stale`, pre-market quotes. **Last step:** READY (`write_ready`) | `handoff/<date>/quotes.json`, `book.json`, then `READY` by ~08:07 |
 | 08:07–08:11 | Market Read (box) | `inbox/<date>/regime_snapshot.json` |
 | 08:11–08:15 | Trade Architect (box) | `inbox/<date>/<trade_id>.draft.json` |
 | 08:13–08:20 | Red Team (box), rolling, one file per draft; **cutoff 08:20** | `inbox/<date>/<trade_id>.redteam.json` |
@@ -39,7 +40,8 @@ guards (`dragonfly/guards.py`). A held pipeline lock does not block it (tested).
 ```
 dragonfly-private/
   handoff/2026-09-28/
-    manifest.json, measurements.json, ...   Mac prep (before READY)
+    prep.json, measurements.json            15:30 prep job (prior session)
+    quotes.json, book.json                  08:05 pre-open job
     READY                                   last file of the 08:05 job
     cards/
       DF-2026-0001.json                     one frozen card per trade_id
@@ -49,8 +51,11 @@ dragonfly-private/
     regime_snapshot.json                    Market Read (regime_snapshot.schema.json)
     DF-2026-0001.draft.json                 Architect (trade_draft.schema.json)
     DF-2026-0001.redteam.json               Red Team (trade_redteam.schema.json)
-Mac, gitignored:
+Mac, gitignored (in the run clone ~/projects/dragonfly-run):
   dragonfly/state/live/book.json            live book (engine_book.schema.json)
+  dragonfly/state/live/universe.json        prep's working copy of the NDX membership
+  dragonfly/state/live/watchlist.json       prep's watchlist build (snapshot goes into prep.json)
+  dragonfly/state/live/cache/quotes/<date>.json  pre-open quote cache (10 min)
   dragonfly/state/live/cache/bars/<T>.json  bars cache (#266), read-only here
   dragonfly/state/live/engine/<date>.json   engine's first-seen times (drafts, red team files)
 ```
@@ -534,14 +539,112 @@ Schema `engine_book.schema.json`, example `examples/engine_book.json`. Required:
 `equity`, `cash` (buying power, no margin), `positions` (trade_id, ticker,
 sector, setup, instrument, heat, notional), `day_pnl_pct`, `week_pnl_pct`,
 `drawdown_pct`, `consecutive_full_losses`. A missing breaker input is an
-error, never a zero. The engine only reads it.
+error, never a zero. The engine only reads it. The prep job re-stamps a flat book's
+`as_of` after the close (see Prep job); nothing else writes it in Phase 1.
+Path: the run clone's `dragonfly/state/live/book.json`, or `--book` /
+`$DRAGONFLY_BOOK` (jobs) / `--book` / `$DRAGONFLY_STATE_DIR` (engine).
 
 ## Launchd (templates only)
 
-`dragonfly/ops/com.dragonfly.engine.plist.template` (08:08 Mon–Fri, not at
-load) and `dragonfly/ops/run_engine.sh.template` (weekday and 08:00–08:24
-guard, because launchd runs a missed job on wake). The engine itself idles on
-NYSE holidays. Nothing is installed or loaded.
+| Template | Schedule | Wrapper wake guard |
+| --- | --- | --- |
+| `com.dragonfly.prep.plist.template` + `run_prep.sh.template` | 15:30 Mon–Fri | 15:25–18:00 CT |
+| `com.dragonfly.preopen.plist.template` + `run_preopen.sh.template` | 08:05 Mon–Fri | 08:00–08:15 CT |
+| `com.dragonfly.engine.plist.template` + `run_engine.sh.template` | 08:08 Mon–Fri | 08:00–08:24 CT |
+
+None runs at load. The guards exist because launchd runs a missed calendar
+job when the Mac wakes. The prep and pre-open wrappers refuse to run from the
+pipeline checkout, `cd` into the run clone and `git pull --ff-only origin
+main` first (a non-ff state aborts). NYSE holidays are decided by the jobs
+themselves. **Nothing is installed or loaded**; Ditka gives an explicit go
+before anything loads.
+
+## Where the jobs run on the Mac — the run clone
+
+Dragonfly never runs from the pipeline checkout
+`~/projects/ai-finance-tech-dashboard`: the site daemon autostashes and pulls
+that tree. The jobs and the engine run from a **separate clone**:
+
+| Path | What |
+| --- | --- |
+| `~/projects/dragonfly-run` | clone of ai-finance-tech-dashboard (`main`); wrappers `git pull --ff-only` at job start. `__REPO__` in the templates |
+| `~/projects/dragonfly-run/dragonfly/state/live/book.json` | live book (gitignored). Override: `--book` or `$DRAGONFLY_BOOK`; state dir: `$DRAGONFLY_STATE_DIR` |
+| `~/projects/dragonfly-run/dragonfly/state/live/cache/bars/` | bars cache the prep refreshes and the engine reads |
+| `~/projects/dragonfly-private` | clone of the private repo (`$DRAGONFLY_PRIVATE_DIR`); pushes with the Mac's own git credentials (osxkeychain) |
+
+The run clone stays clean (every job output is gitignored state or goes to
+dragonfly-private), so the ff-only pull never conflicts. The load guards
+still read the pipeline's lock files in the pipeline checkout
+(`$DRAGONFLY_PIPELINE_LOCK`, set by the templates); they never write there.
+
+## Prep job — `python3 -m dragonfly.jobs prep` (15:30 CT)
+
+1. Target session: `--date`, else `market_calendar.next_session(today)`
+   (Friday preps Monday; the day before a holiday preps the next session). A
+   non-session `--date` is refused. The previous session must have closed.
+2. Load guards (`guards.preflight`, real clock): no daemon window, bounded
+   wait on the pipeline lock. 15:30 is outside every window. One prep at a
+   time (job lock `state/live/jobs/prep.lock`).
+3. Pull dragonfly-private. Refuses if `<root>/<date>/READY` already exists.
+4. Watchlist through the existing gates (`build_watchlist.build`, modeled
+   mid). Universe membership is re-fetched only when 7+ days old. Works on
+   `state/live/universe.json` / `state/live/watchlist.json`.
+5. Bars cache for each admitted name, refetched if the cache predates the
+   previous close + 5 min or lacks the previous session's bar.
+6. `measurements.json` (the engine's contract, `measure.load_prep`):
+   `{"schema": "dragonfly.prep_measurements/1", "session_date", "previous_session",
+   "as_of", "names": [row, ...]}`. Each row: `ticker`, `sector`, `spread`,
+   `spread_source`, `provisional` (true), `bars` (last 130 bars through the
+   previous session), plus `price`, `atr`, `adv_dollars`, `relative_volume`,
+   `bar_date` from `setup_gates.core_measurements` (informational; the engine
+   recomputes), `mid`, `mid_source`, `bid`, `ask`, `quote_time`, `origin`,
+   `market_cap`, `sector_rank`. A name that cannot be measured carries
+   `unavailable`; none measurable fails the job.
+7. `prep.json`: `session_date`, `previous_session`, `previous_close`,
+   `as_of`, `tickers` (admitted), `measurement_problems`, and the watchlist
+   snapshot (funnel, gates, universe, excluded, per-name summary).
+8. Commit both files and push.
+9. Book mark (real runs only, never with dry-run roots): a **flat** book
+   (no positions) is re-stamped `as_of` = now, numbers unchanged
+   (equity = cash; nothing to price). A book with open positions is **not**
+   marked (Phase 1 has no fill ledger), so the next pre-open fails
+   `book_stale` until it is marked by hand.
+
+## Pre-open job — `python3 -m dragonfly.jobs preopen` (08:05 CT)
+
+1. Session: `--date`, else today. Non-session day: log, exit 0. A `--date`
+   that is not today needs `--now`.
+2. Load guards (real clock) and job lock; pull dragonfly-private.
+3. Requires `<root>/<date>/prep.json` and `measurements.json`, committed and
+   for this `session_date`. Missing: **PREP MISSING**, exit 2, no READY.
+4. Loads and validates the book (`engine_book.schema.json`) and applies the
+   `book_stale` rule. Stale, missing or invalid: exit 2, no READY.
+5. Pre-market quotes for the prep's admitted tickers only, cache first
+   (`state/live/cache/quotes/<date>[.<root>].json`, reused for 10 min), one
+   guarded yfinance info call per name. The last trade is the freshest of the
+   pre-market, regular and post-market prints; the quote is resolved with
+   `risk_math.resolve_quote` (Yahoo bid/ask if it passes the gate, else the
+   modeled $0.05 mid; paper only). Zero usable quotes: exit 2, no READY.
+6. Writes `quotes.json` (`dragonfly.preopen_quotes/1`: per name `bid`, `ask`,
+   `mid`, `spread`, `spread_source`, `mid_source`, `last_trade`,
+   `last_source`, `quote_time`, `previous_close`, `gap_pct`, `usable`) and
+   `book.json` (`dragonfly.book_snapshot/1`: `freshness`, `summary`, and the
+   full book), commits and pushes them, then calls `write_ready()` as the
+   **last** step.
+
+Market Read: this document names no Mac-side input for Market Read beyond
+the handoff files. `quotes.json` carries a best-effort `market_context`
+block (SPY, QQQ, ^VIX); it is not a contract input and never blocks READY.
+
+```
+python3 -m dragonfly.jobs {prep,preopen} [--date D] [--now ISO] [--dry-run-roots]
+    [--repo PATH] [--book PATH] [--state-dir PATH] [--no-pull] [--no-push] [-v]
+    [--no-mark-book]   (prep only)
+```
+
+`--now` moves the job's session clock (dates, `as_of`); the load guards
+always use the real wall clock. Exit codes: 0 ok (also a non-session day),
+2 failure. Tests: `python3 dragonfly/test_jobs.py` (offline).
 
 ## Dry run (Ditka, before any schedule)
 
@@ -561,9 +664,14 @@ simulated session: a book marked after Friday's 15:00 CT close is fresh for
 2026-09-28.
 
 ```bash
-cd ~/projects/ai-finance-tech-dashboard
-export DRAGONFLY_PRIVATE_DIR=~/projects/dragonfly-private   # or a scratch clone
-# READY for the dry-run handoff (after committing handoff-dryrun/2026-09-28/*)
+cd ~/projects/dragonfly-run          # the run clone, never the pipeline checkout
+export DRAGONFLY_PRIVATE_DIR=~/projects/dragonfly-private
+export DRAGONFLY_PIPELINE_LOCK="$HOME/projects/ai-finance-tech-dashboard/pipeline/state/auto_pipeline.lock:$HOME/projects/ai-finance-tech-dashboard/pipeline/auto_pipeline.lock"
+# prep (Friday's close) and pre-open (READY last) into handoff-dryrun/2026-09-28/
+/usr/bin/python3 -m dragonfly.jobs prep --date 2026-09-28 --dry-run-roots
+/usr/bin/python3 -m dragonfly.jobs preopen --date 2026-09-28 --dry-run-roots \
+  --now 2026-09-28T08:05:00-05:00
+# (READY alone, if the handoff files were committed some other way:)
 /usr/bin/python3 -m dragonfly.engine ready --dry-run-roots --date 2026-09-28 \
   --now 2026-09-28T08:06:30-05:00
 # the engine loop on a simulated Monday morning, separate local state
@@ -575,7 +683,7 @@ export DRAGONFLY_PRIVATE_DIR=~/projects/dragonfly-private   # or a scratch clone
 Single passes (no waiting) against a scratch clone, writing locally only:
 
 ```bash
-git clone <dragonfly-private> /tmp/df-dry && cd ~/projects/ai-finance-tech-dashboard
+git clone <dragonfly-private> /tmp/df-dry && cd ~/projects/dragonfly-run
 /usr/bin/python3 dragonfly/test_engine.py
 /usr/bin/python3 -m dragonfly.engine run --once --no-push --dry-run-roots --repo /tmp/df-dry \
   --date 2026-09-28 --state-dir /tmp/df-dry-state --bars-dir dragonfly/state/live/cache/bars \
