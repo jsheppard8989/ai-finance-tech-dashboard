@@ -8,7 +8,10 @@ volume (ADV), and relative volume are computed from the cache, never typed.
 Every payload is stamped source="yahoo", provisional=True. The governor
 blocks provisional data from live approval (risk_math.structural_blocks).
 
-Python 3.9 compatible. Run: python3 dragonfly/bars.py AAPL MSFT NVDA
+Guarded by dragonfly/guards.py (pipeline lock + daemon windows). Cache-first:
+the CLI skips the network for caches younger than DRAGONFLY_BARS_MAX_AGE_MINUTES (30).
+
+Python 3.9 compatible. Run: python3 dragonfly/bars.py AAPL MSFT NVDA [--allow-daemon-window]
 """
 
 from __future__ import annotations
@@ -21,6 +24,11 @@ from datetime import date, datetime, timedelta
 from pathlib import Path
 from typing import Callable, List, Mapping, Optional, Sequence
 
+if __package__ in (None, ""):
+    sys.path.insert(0, str(Path(__file__).resolve().parents[1]))
+
+from dragonfly import guards  # noqa: E402
+
 ROOT = Path(__file__).resolve().parents[1]
 SOURCE = "yahoo"
 ATR_PERIOD = 14
@@ -29,6 +37,9 @@ FULL_PERIOD = "1y"
 # If a re-fetched completed bar's close moved more than this, Yahoo re-adjusted
 # history (split or dividend). Refetch the full window instead of merging.
 ADJUSTMENT_TOLERANCE = 0.005
+# Cache-first: CLI / builder skip the network when the cache is younger than this.
+ENV_MAX_AGE = "DRAGONFLY_BARS_MAX_AGE_MINUTES"
+DEFAULT_MAX_AGE_MINUTES = 30
 
 Bar = dict  # {"date": "YYYY-MM-DD", "open", "high", "low", "close", "volume"}
 Fetcher = Callable[..., List[Bar]]
@@ -79,7 +90,12 @@ def frame_to_bars(frame) -> List[Bar]:
 
 
 def yahoo_history(ticker: str, start: Optional[date] = None, period: Optional[str] = None) -> List[Bar]:
-    """Exactly one yfinance history call. Split/dividend adjusted daily bars."""
+    """Exactly one yfinance history call. Split/dividend adjusted daily bars.
+
+    Guarded: refuses while the site pipeline holds its lock or inside a
+    daemon window (dragonfly.guards).
+    """
+    guards.before_fetch()
     import yfinance as yf  # lazy: tests never import it
 
     tk = yf.Ticker(ticker)
@@ -134,7 +150,27 @@ def merge_bars(cached: Sequence[Bar], fresh: Sequence[Bar]) -> List[Bar]:
     return kept + sorted(fresh, key=lambda b: b["date"])
 
 
-def refresh(ticker: str, fetcher: Optional[Fetcher] = None, full_period: str = FULL_PERIOD) -> dict:
+def default_max_age_minutes() -> float:
+    return float(os.environ.get(ENV_MAX_AGE, DEFAULT_MAX_AGE_MINUTES))
+
+
+def cache_age_minutes(payload: Mapping, now: Optional[datetime] = None) -> Optional[float]:
+    try:
+        fetched = datetime.fromisoformat(str(payload.get("fetched_at")))
+    except (TypeError, ValueError):
+        return None
+    now = now or datetime.now().astimezone()
+    if fetched.tzinfo is None:
+        fetched = fetched.astimezone()
+    return (now - fetched).total_seconds() / 60.0
+
+
+def refresh(
+    ticker: str,
+    fetcher: Optional[Fetcher] = None,
+    full_period: str = FULL_PERIOD,
+    max_age_minutes: Optional[float] = None,
+) -> dict:
     """Return the cached payload for `ticker`, fetching only what is missing.
 
     With a cache: re-fetch from the second-to-last cached session (one call).
@@ -145,10 +181,16 @@ def refresh(ticker: str, fetcher: Optional[Fetcher] = None, full_period: str = F
     fetch = fetcher or yahoo_history
     ticker = ticker.upper()
     cached = load_cache(ticker)
+    if cached and max_age_minutes is not None:
+        age = cache_age_minutes(cached)
+        if age is not None and 0 <= age < max_age_minutes:
+            return dict(cached, last_fetch_mode="cache")  # cache-first: no network
     if cached and len(cached["bars"]) >= 2:
         anchor = cached["bars"][-2]
         try:
             fresh = fetch(ticker, start=date.fromisoformat(anchor["date"]))
+        except guards.GuardBlocked:
+            raise
         except Exception as exc:  # network/provider failure
             raise BarsUnavailable(ticker, "fetch_failed", str(exc)) from exc
         if fresh:
@@ -163,6 +205,8 @@ def refresh(ticker: str, fetcher: Optional[Fetcher] = None, full_period: str = F
             return cached  # nothing new; keep the cache as-is
     try:
         bars = fetch(ticker, period=full_period)
+    except guards.GuardBlocked:
+        raise
     except Exception as exc:
         raise BarsUnavailable(ticker, "fetch_failed", str(exc)) from exc
     if not bars:
@@ -266,8 +310,13 @@ def metrics(bars: Sequence[Mapping], partial_last: bool = False) -> dict:
     }
 
 
-def ticker_metrics(ticker: str, fetcher: Optional[Fetcher] = None, now_ny: Optional[datetime] = None) -> dict:
-    payload = refresh(ticker, fetcher=fetcher)
+def ticker_metrics(
+    ticker: str,
+    fetcher: Optional[Fetcher] = None,
+    now_ny: Optional[datetime] = None,
+    max_age_minutes: Optional[float] = None,
+) -> dict:
+    payload = refresh(ticker, fetcher=fetcher, max_age_minutes=max_age_minutes)
     bars = payload["bars"]
     out = metrics(bars, partial_last=last_bar_partial(bars, now_ny))
     out["ticker"] = payload["ticker"]
@@ -276,13 +325,23 @@ def ticker_metrics(ticker: str, fetcher: Optional[Fetcher] = None, now_ny: Optio
 
 
 def main(argv: Sequence[str]) -> int:
+    if "--allow-daemon-window" in argv:
+        os.environ[guards.ENV_ALLOW_WINDOW] = "1"
     tickers = [t for t in argv if not t.startswith("-")] or ["AAPL", "MSFT", "NVDA"]
+    try:
+        guards.preflight()
+    except guards.GuardBlocked as exc:
+        print(json.dumps({"blocked": exc.reason, "detail": exc.detail}))
+        return 2
     results = []
     total_start = time.perf_counter()
     for t in tickers:
         start = time.perf_counter()
         try:
-            m = ticker_metrics(t)
+            m = ticker_metrics(t, max_age_minutes=default_max_age_minutes())
+        except guards.GuardBlocked as exc:
+            print(json.dumps({"blocked": exc.reason, "detail": exc.detail, "partial_results": results}))
+            return 2
         except BarsUnavailable as exc:
             m = {"ticker": t, "unavailable": exc.reason, "detail": exc.detail}
         m["seconds"] = round(time.perf_counter() - start, 3)
