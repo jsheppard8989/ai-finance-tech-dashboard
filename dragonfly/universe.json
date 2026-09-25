@@ -1,0 +1,553 @@
+{
+ "schema": "dragonfly.ndx_universe/1",
+ "as_of": "2026-09-25T15:00:37-05:00",
+ "as_of_date": "2026-09-25",
+ "refresh": "weekly: reused until 7 or more days old, or --refresh-universe",
+ "sources": {
+  "constituents_market_cap": "https://api.nasdaq.com/api/quote/list-type/nasdaq100",
+  "sector": "https://api.nasdaq.com/api/screener/stocks?tableonly=true&download=true"
+ },
+ "sector_field": "api.nasdaq.com screener `sector` (Nasdaq's sector label, ICB-style industry names; the Nasdaq-100 list's own `sector` field is blank)",
+ "market_cap_field": "api.nasdaq.com Nasdaq-100 list `marketCap`",
+ "rank_key": "market_cap desc within sector (ties by ticker)",
+ "per_sector": 5,
+ "sectors": {
+  "Basic Materials": [
+   {
+    "ticker": "LIN",
+    "name": "Linde plc Ordinary Shares",
+    "sector": "Basic Materials",
+    "sector_rank": 1,
+    "market_cap": 216577700181.0
+   }
+  ],
+  "Consumer Discretionary": [
+   {
+    "ticker": "AMZN",
+    "name": "Amazon.com, Inc. Common Stock",
+    "sector": "Consumer Discretionary",
+    "sector_rank": 1,
+    "market_cap": 2693018909521.0
+   },
+   {
+    "ticker": "WMT",
+    "name": "Walmart Inc. Common Stock",
+    "sector": "Consumer Discretionary",
+    "sector_rank": 2,
+    "market_cap": 856685919103.0
+   },
+   {
+    "ticker": "COST",
+    "name": "Costco Wholesale Corporation Common Stock",
+    "sector": "Consumer Discretionary",
+    "sector_rank": 3,
+    "market_cap": 409226718573.0
+   },
+   {
+    "ticker": "NFLX",
+    "name": "Netflix, Inc. Common Stock",
+    "sector": "Consumer Discretionary",
+    "sector_rank": 4,
+    "market_cap": 296243488249.0
+   },
+   {
+    "ticker": "BKNG",
+    "name": "Booking Holdings Inc. Common Stock",
+    "sector": "Consumer Discretionary",
+    "sector_rank": 5,
+    "market_cap": 118274804505.0
+   }
+  ],
+  "Consumer Staples": [
+   {
+    "ticker": "PEP",
+    "name": "PepsiCo, Inc. Common Stock",
+    "sector": "Consumer Staples",
+    "sector_rank": 1,
+    "market_cap": 175566001106.0
+   },
+   {
+    "ticker": "MNST",
+    "name": "Monster Beverage Corporation",
+    "sector": "Consumer Staples",
+    "sector_rank": 2,
+    "market_cap": 126682209019.0
+   },
+   {
+    "ticker": "MDLZ",
+    "name": "Mondelez International, Inc. Class A Common Stock",
+    "sector": "Consumer Staples",
+    "sector_rank": 3,
+    "market_cap": 77676108349.0
+   },
+   {
+    "ticker": "CCEP",
+    "name": "Coca-Cola Europacific Partners plc Ordinary Shares",
+    "sector": "Consumer Staples",
+    "sector_rank": 4,
+    "market_cap": 45538977854.0
+   },
+   {
+    "ticker": "KDP",
+    "name": "Keurig Dr Pepper Inc. Common Stock",
+    "sector": "Consumer Staples",
+    "sector_rank": 5,
+    "market_cap": 43478391914.0
+   }
+  ],
+  "Energy": [
+   {
+    "ticker": "FANG",
+    "name": "Diamondback Energy, Inc. Common Stock",
+    "sector": "Energy",
+    "sector_rank": 1,
+    "market_cap": 52927402961.0
+   }
+  ],
+  "Health Care": [
+   {
+    "ticker": "AMGN",
+    "name": "Amgen Inc. Common Stock",
+    "sector": "Health Care",
+    "sector_rank": 1,
+    "market_cap": 224151435593.0
+   },
+   {
+    "ticker": "GILD",
+    "name": "Gilead Sciences, Inc. Common Stock",
+    "sector": "Health Care",
+    "sector_rank": 2,
+    "market_cap": 185608887152.0
+   },
+   {
+    "ticker": "ISRG",
+    "name": "Intuitive Surgical, Inc. Common Stock",
+    "sector": "Health Care",
+    "sector_rank": 3,
+    "market_cap": 143141195437.0
+   },
+   {
+    "ticker": "VRTX",
+    "name": "Vertex Pharmaceuticals Incorporated Common Stock",
+    "sector": "Health Care",
+    "sector_rank": 4,
+    "market_cap": 133368603600.0
+   },
+   {
+    "ticker": "REGN",
+    "name": "Regeneron Pharmaceuticals, Inc. Common Stock",
+    "sector": "Health Care",
+    "sector_rank": 5,
+    "market_cap": 81132648744.0
+   }
+  ],
+  "Industrials": [
+   {
+    "ticker": "TSLA",
+    "name": "Tesla, Inc. Common Stock",
+    "sector": "Industrials",
+    "sector_rank": 1,
+    "market_cap": 1469666080781.0
+   },
+   {
+    "ticker": "CSX",
+    "name": "CSX Corporation Common Stock",
+    "sector": "Industrials",
+    "sector_rank": 2,
+    "market_cap": 86973697353.0
+   },
+   {
+    "ticker": "CTAS",
+    "name": "Cintas Corporation Common Stock",
+    "sector": "Industrials",
+    "sector_rank": 3,
+    "market_cap": 78976474501.0
+   },
+   {
+    "ticker": "HON",
+    "name": "Honeywell International Inc. Common Stock",
+    "sector": "Industrials",
+    "sector_rank": 4,
+    "market_cap": 67365599126.0
+   },
+   {
+    "ticker": "TER",
+    "name": "Teradyne, Inc. Common Stock",
+    "sector": "Industrials",
+    "sector_rank": 5,
+    "market_cap": 62283027985.0
+   }
+  ],
+  "Technology": [
+   {
+    "ticker": "NVDA",
+    "name": "NVIDIA Corporation Common Stock",
+    "sector": "Technology",
+    "sector_rank": 1,
+    "market_cap": 5422018000000.0
+   },
+   {
+    "ticker": "AAPL",
+    "name": "Apple Inc. Common Stock",
+    "sector": "Technology",
+    "sector_rank": 2,
+    "market_cap": 4977636972600.0
+   },
+   {
+    "ticker": "GOOGL",
+    "name": "Alphabet Inc. Class A Common Stock",
+    "sector": "Technology",
+    "sector_rank": 3,
+    "market_cap": 4206141600000.0
+   },
+   {
+    "ticker": "GOOG",
+    "name": "Alphabet Inc. Class C Capital Stock",
+    "sector": "Technology",
+    "sector_rank": 4,
+    "market_cap": 4171408400000.0
+   },
+   {
+    "ticker": "MSFT",
+    "name": "Microsoft Corporation Common Stock",
+    "sector": "Technology",
+    "sector_rank": 5,
+    "market_cap": 3832398283360.0
+   }
+  ],
+  "Telecommunications": [
+   {
+    "ticker": "CSCO",
+    "name": "Cisco Systems, Inc. Common Stock (DE)",
+    "sector": "Telecommunications",
+    "sector_rank": 1,
+    "market_cap": 420595167612.0
+   },
+   {
+    "ticker": "TMUS",
+    "name": "T-Mobile US, Inc. Common Stock",
+    "sector": "Telecommunications",
+    "sector_rank": 2,
+    "market_cap": 177366251210.0
+   },
+   {
+    "ticker": "LITE",
+    "name": "Lumentum Holdings Inc. Common Stock",
+    "sector": "Telecommunications",
+    "sector_rank": 3,
+    "market_cap": 84466005000.0
+   },
+   {
+    "ticker": "CMCSA",
+    "name": "Comcast Corporation Class A Common Stock",
+    "sector": "Telecommunications",
+    "sector_rank": 4,
+    "market_cap": 78531327360.0
+   },
+   {
+    "ticker": "WBD",
+    "name": "Warner Bros. Discovery, Inc. Series A Common Stock ",
+    "sector": "Telecommunications",
+    "sector_rank": 5,
+    "market_cap": 77480304270.0
+   }
+  ],
+  "Utilities": [
+   {
+    "ticker": "CEG",
+    "name": "Constellation Energy Corporation Common Stock ",
+    "sector": "Utilities",
+    "sector_rank": 1,
+    "market_cap": 93292675964.0
+   },
+   {
+    "ticker": "AEP",
+    "name": "American Electric Power Company, Inc. Common Stock",
+    "sector": "Utilities",
+    "sector_rank": 2,
+    "market_cap": 64440314556.0
+   },
+   {
+    "ticker": "XEL",
+    "name": "Xcel Energy Inc. Common Stock",
+    "sector": "Utilities",
+    "sector_rank": 3,
+    "market_cap": 43449562325.0
+   },
+   {
+    "ticker": "EXC",
+    "name": "Exelon Corporation Common Stock",
+    "sector": "Utilities",
+    "sector_rank": 4,
+    "market_cap": 41496609473.0
+   }
+  ]
+ },
+ "sector_sizes": {
+  "Basic Materials": 1,
+  "Consumer Discretionary": 17,
+  "Consumer Staples": 5,
+  "Energy": 1,
+  "Health Care": 9,
+  "Industrials": 14,
+  "Technology": 45,
+  "Telecommunications": 5,
+  "Utilities": 4
+ },
+ "members": [
+  {
+   "ticker": "LIN",
+   "name": "Linde plc Ordinary Shares",
+   "sector": "Basic Materials",
+   "sector_rank": 1,
+   "market_cap": 216577700181.0
+  },
+  {
+   "ticker": "AMZN",
+   "name": "Amazon.com, Inc. Common Stock",
+   "sector": "Consumer Discretionary",
+   "sector_rank": 1,
+   "market_cap": 2693018909521.0
+  },
+  {
+   "ticker": "WMT",
+   "name": "Walmart Inc. Common Stock",
+   "sector": "Consumer Discretionary",
+   "sector_rank": 2,
+   "market_cap": 856685919103.0
+  },
+  {
+   "ticker": "COST",
+   "name": "Costco Wholesale Corporation Common Stock",
+   "sector": "Consumer Discretionary",
+   "sector_rank": 3,
+   "market_cap": 409226718573.0
+  },
+  {
+   "ticker": "NFLX",
+   "name": "Netflix, Inc. Common Stock",
+   "sector": "Consumer Discretionary",
+   "sector_rank": 4,
+   "market_cap": 296243488249.0
+  },
+  {
+   "ticker": "BKNG",
+   "name": "Booking Holdings Inc. Common Stock",
+   "sector": "Consumer Discretionary",
+   "sector_rank": 5,
+   "market_cap": 118274804505.0
+  },
+  {
+   "ticker": "PEP",
+   "name": "PepsiCo, Inc. Common Stock",
+   "sector": "Consumer Staples",
+   "sector_rank": 1,
+   "market_cap": 175566001106.0
+  },
+  {
+   "ticker": "MNST",
+   "name": "Monster Beverage Corporation",
+   "sector": "Consumer Staples",
+   "sector_rank": 2,
+   "market_cap": 126682209019.0
+  },
+  {
+   "ticker": "MDLZ",
+   "name": "Mondelez International, Inc. Class A Common Stock",
+   "sector": "Consumer Staples",
+   "sector_rank": 3,
+   "market_cap": 77676108349.0
+  },
+  {
+   "ticker": "CCEP",
+   "name": "Coca-Cola Europacific Partners plc Ordinary Shares",
+   "sector": "Consumer Staples",
+   "sector_rank": 4,
+   "market_cap": 45538977854.0
+  },
+  {
+   "ticker": "KDP",
+   "name": "Keurig Dr Pepper Inc. Common Stock",
+   "sector": "Consumer Staples",
+   "sector_rank": 5,
+   "market_cap": 43478391914.0
+  },
+  {
+   "ticker": "FANG",
+   "name": "Diamondback Energy, Inc. Common Stock",
+   "sector": "Energy",
+   "sector_rank": 1,
+   "market_cap": 52927402961.0
+  },
+  {
+   "ticker": "AMGN",
+   "name": "Amgen Inc. Common Stock",
+   "sector": "Health Care",
+   "sector_rank": 1,
+   "market_cap": 224151435593.0
+  },
+  {
+   "ticker": "GILD",
+   "name": "Gilead Sciences, Inc. Common Stock",
+   "sector": "Health Care",
+   "sector_rank": 2,
+   "market_cap": 185608887152.0
+  },
+  {
+   "ticker": "ISRG",
+   "name": "Intuitive Surgical, Inc. Common Stock",
+   "sector": "Health Care",
+   "sector_rank": 3,
+   "market_cap": 143141195437.0
+  },
+  {
+   "ticker": "VRTX",
+   "name": "Vertex Pharmaceuticals Incorporated Common Stock",
+   "sector": "Health Care",
+   "sector_rank": 4,
+   "market_cap": 133368603600.0
+  },
+  {
+   "ticker": "REGN",
+   "name": "Regeneron Pharmaceuticals, Inc. Common Stock",
+   "sector": "Health Care",
+   "sector_rank": 5,
+   "market_cap": 81132648744.0
+  },
+  {
+   "ticker": "TSLA",
+   "name": "Tesla, Inc. Common Stock",
+   "sector": "Industrials",
+   "sector_rank": 1,
+   "market_cap": 1469666080781.0
+  },
+  {
+   "ticker": "CSX",
+   "name": "CSX Corporation Common Stock",
+   "sector": "Industrials",
+   "sector_rank": 2,
+   "market_cap": 86973697353.0
+  },
+  {
+   "ticker": "CTAS",
+   "name": "Cintas Corporation Common Stock",
+   "sector": "Industrials",
+   "sector_rank": 3,
+   "market_cap": 78976474501.0
+  },
+  {
+   "ticker": "HON",
+   "name": "Honeywell International Inc. Common Stock",
+   "sector": "Industrials",
+   "sector_rank": 4,
+   "market_cap": 67365599126.0
+  },
+  {
+   "ticker": "TER",
+   "name": "Teradyne, Inc. Common Stock",
+   "sector": "Industrials",
+   "sector_rank": 5,
+   "market_cap": 62283027985.0
+  },
+  {
+   "ticker": "NVDA",
+   "name": "NVIDIA Corporation Common Stock",
+   "sector": "Technology",
+   "sector_rank": 1,
+   "market_cap": 5422018000000.0
+  },
+  {
+   "ticker": "AAPL",
+   "name": "Apple Inc. Common Stock",
+   "sector": "Technology",
+   "sector_rank": 2,
+   "market_cap": 4977636972600.0
+  },
+  {
+   "ticker": "GOOGL",
+   "name": "Alphabet Inc. Class A Common Stock",
+   "sector": "Technology",
+   "sector_rank": 3,
+   "market_cap": 4206141600000.0
+  },
+  {
+   "ticker": "GOOG",
+   "name": "Alphabet Inc. Class C Capital Stock",
+   "sector": "Technology",
+   "sector_rank": 4,
+   "market_cap": 4171408400000.0
+  },
+  {
+   "ticker": "MSFT",
+   "name": "Microsoft Corporation Common Stock",
+   "sector": "Technology",
+   "sector_rank": 5,
+   "market_cap": 3832398283360.0
+  },
+  {
+   "ticker": "CSCO",
+   "name": "Cisco Systems, Inc. Common Stock (DE)",
+   "sector": "Telecommunications",
+   "sector_rank": 1,
+   "market_cap": 420595167612.0
+  },
+  {
+   "ticker": "TMUS",
+   "name": "T-Mobile US, Inc. Common Stock",
+   "sector": "Telecommunications",
+   "sector_rank": 2,
+   "market_cap": 177366251210.0
+  },
+  {
+   "ticker": "LITE",
+   "name": "Lumentum Holdings Inc. Common Stock",
+   "sector": "Telecommunications",
+   "sector_rank": 3,
+   "market_cap": 84466005000.0
+  },
+  {
+   "ticker": "CMCSA",
+   "name": "Comcast Corporation Class A Common Stock",
+   "sector": "Telecommunications",
+   "sector_rank": 4,
+   "market_cap": 78531327360.0
+  },
+  {
+   "ticker": "WBD",
+   "name": "Warner Bros. Discovery, Inc. Series A Common Stock ",
+   "sector": "Telecommunications",
+   "sector_rank": 5,
+   "market_cap": 77480304270.0
+  },
+  {
+   "ticker": "CEG",
+   "name": "Constellation Energy Corporation Common Stock ",
+   "sector": "Utilities",
+   "sector_rank": 1,
+   "market_cap": 93292675964.0
+  },
+  {
+   "ticker": "AEP",
+   "name": "American Electric Power Company, Inc. Common Stock",
+   "sector": "Utilities",
+   "sector_rank": 2,
+   "market_cap": 64440314556.0
+  },
+  {
+   "ticker": "XEL",
+   "name": "Xcel Energy Inc. Common Stock",
+   "sector": "Utilities",
+   "sector_rank": 3,
+   "market_cap": 43449562325.0
+  },
+  {
+   "ticker": "EXC",
+   "name": "Exelon Corporation Common Stock",
+   "sector": "Utilities",
+   "sector_rank": 4,
+   "market_cap": 41496609473.0
+  }
+ ],
+ "excluded": {},
+ "constituents": 101
+}
