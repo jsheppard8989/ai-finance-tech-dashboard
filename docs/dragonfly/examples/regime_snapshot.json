@@ -1,0 +1,13 @@
+{
+  "session_date": "2026-09-25",
+  "trend": "up",
+  "risk_appetite": "neutral",
+  "volatility": "normal",
+  "persistence": "persistent",
+  "evidence": [
+    "SPY is above a rising 20-day average.",
+    "20-day realized volatility is inside its 6-month middle band.",
+    "Advancers led decliners on the prior session."
+  ],
+  "derived_risk_mode": "normal"
+}

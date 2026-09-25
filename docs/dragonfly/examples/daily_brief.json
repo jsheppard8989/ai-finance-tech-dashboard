@@ -1,0 +1,29 @@
+{
+  "session_date": "2026-09-25",
+  "generated_at": "2026-09-25T08:55:00-05:00",
+  "regime": {
+    "trend": "range",
+    "risk_appetite": "neutral",
+    "volatility": "normal",
+    "persistence": "mixed"
+  },
+  "risk_mode": "cautious",
+  "entries_allowed": true,
+  "block_reasons": [],
+  "funnel": {
+    "universe": 4120,
+    "unusual": 180,
+    "deep_dives": 15,
+    "setup_passes": 6,
+    "catalyst_passes": 2,
+    "architected": 1,
+    "red_team_passes": 0,
+    "risk_passes": 0
+  },
+  "recommendation": "NO_TRADE",
+  "pending_trade_ids": [],
+  "open_positions": 0,
+  "heat_dollars": 0,
+  "heat_cap": 1000,
+  "note": "Tape is mixed and range-bound. The one drafted card was blocked. No trade is a complete session."
+}

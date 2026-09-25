@@ -1,0 +1,83 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "$id": "https://scarcity.local/dragonfly/journal_entry.schema.json",
+  "title": "Dragonfly 7 Journal Entry",
+  "type": "object",
+  "additionalProperties": false,
+  "required": [
+    "schema_version",
+    "trade_id",
+    "version",
+    "ticker",
+    "setup",
+    "instrument",
+    "entry_price",
+    "stop",
+    "target",
+    "exit_price",
+    "exit_reason",
+    "initial_risk",
+    "net_pnl",
+    "r_multiple",
+    "mae_r",
+    "mfe_r",
+    "hold_sessions",
+    "regime_at_entry",
+    "fill_type",
+    "mistake",
+    "would_repeat",
+    "why_entered",
+    "what_happened",
+    "what_was_right",
+    "what_was_wrong",
+    "lesson"
+  ],
+  "properties": {
+    "schema_version": { "const": "1.0.0" },
+    "trade_id": { "type": "string", "pattern": "^DF-[0-9]{4}-[0-9]{4}$" },
+    "version": { "type": "integer", "minimum": 1 },
+    "ticker": { "type": "string" },
+    "setup": {
+      "enum": [
+        "catalyst_breakout",
+        "momentum_pullback",
+        "failed_breakdown",
+        "compression_expansion"
+      ]
+    },
+    "instrument": { "enum": ["stock", "call", "put", "debit_spread"] },
+    "entry_price": { "type": "number", "exclusiveMinimum": 0 },
+    "stop": { "type": "number", "exclusiveMinimum": 0 },
+    "target": { "type": "number", "exclusiveMinimum": 0 },
+    "exit_price": { "type": "number" },
+    "exit_reason": { "enum": ["stop", "target", "time", "invalidation", "human_tighten"] },
+    "initial_risk": { "type": "number", "exclusiveMinimum": 0 },
+    "net_pnl": { "type": "number" },
+    "r_multiple": { "type": "number" },
+    "mae_r": { "type": "number" },
+    "mfe_r": { "type": "number" },
+    "hold_sessions": { "type": "integer", "minimum": 0, "maximum": 7 },
+    "regime_at_entry": { "enum": ["normal", "cautious", "stand_down"] },
+    "fill_type": { "enum": ["hypothetical", "live"] },
+    "mistake": {
+      "enum": [
+        "none",
+        "chased",
+        "late",
+        "early_exit",
+        "stop_too_tight",
+        "ignored_red_team",
+        "size_error",
+        "catalyst_wrong",
+        "regime_conflict",
+        "time_stop_missed"
+      ]
+    },
+    "would_repeat": { "enum": ["yes", "no", "only_if"] },
+    "why_entered": { "type": "string", "minLength": 1 },
+    "what_happened": { "type": "string", "minLength": 1 },
+    "what_was_right": { "type": "string", "minLength": 1 },
+    "what_was_wrong": { "type": "string", "minLength": 1 },
+    "lesson": { "type": "string", "minLength": 1 }
+  }
+}

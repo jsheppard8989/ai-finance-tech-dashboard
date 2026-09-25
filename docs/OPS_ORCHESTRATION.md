@@ -8,7 +8,7 @@
 |--------|------|-------|
 | **Tony B** (Grok Bot shipping) | Owns Pages/workflows/protection/merge discipline | Must be in the loop for any merge to `main` or Pages-facing `site/` ship |
 | **G(ai)ndolf** | Website/content admin | Draft PRs and investigation OK; ping Tony B before ship |
-| **Ditka89** | Chief of Staff | Accountable for ops orchestration; weekday CoS pulse |
+| **Ditka89** | Chief of Staff | Accountable for ops orchestration; weekday CoS pulse. Implements Dragonfly 7 from `docs/dragonfly/DRAGONFLY_7_OPERATING_PLAN.md` |
 | **Jared** | Human gates | Debate script approval, credentials, final authority |
 
 ## Cursor Ops Shipping Freeze
@@ -19,6 +19,10 @@
 - Cursor investigation/research: ✅ allowed
 - Cursor merge to `main`: ❌ blocked until Tony B reviews
 - Cursor `site/` deploy: ❌ blocked until Tony B reviews
+
+## Dragonfly 7
+
+The private trading book is specified in `docs/dragonfly/DRAGONFLY_7_OPERATING_PLAN.md`. Ditka89 implements it. Jared approves every trade and any go-live. The book does not replace the public research site. Live positions stay in `dragonfly/state/live/` and out of git. A Pages-facing cockpit still needs Tony B.
 
 ## Compute Location
 

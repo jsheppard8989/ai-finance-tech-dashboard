@@ -96,3 +96,7 @@ prompts/jared_prompts.plain.txt
 # Fail-closed backup written by market_data_io (never commit)
 site/data/market_data.json.last_good
 
+# Dragonfly live book. Schemas, examples, and risk math are committed.
+# Positions, fills, and account identifiers are not.
+dragonfly/state/live/
+
