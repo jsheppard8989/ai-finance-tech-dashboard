@@ -21,7 +21,10 @@ from dragonfly.risk_math import (  # noqa: E402
     regime_to_mode,
     size_option,
     size_stock,
+    sources_provisional,
+    stock_spread_limit,
     structural_blocks,
+    universe_reasons,
     time_stop_session,
     weekly_scoreboard,
 )
@@ -275,6 +278,37 @@ def main() -> None:
     assert normal_caps["planned_cap"] == Decimal("1000.00")
     assert normal_caps["name_heat_cap"] == Decimal("1000.00")
     assert normal_caps["book_heat_cap"] == Decimal("2000.00")
+
+    # Provenance block (Phase 1 data is Yahoo via yfinance, stamped provisional).
+    # Provisional + live is rejected. Provisional + paper is allowed. Unknown
+    # provenance counts as provisional. Tightening only: defaults stay paper.
+    assert "provisional_source_live" in blocks(book="live", provisional_data=True)
+    assert blocks(book="paper", provisional_data=True) == []
+    assert "provisional_source_live" in blocks(book="live")
+    assert blocks(book="live", provisional_data=False) == []
+    assert "unknown_book" in blocks(book="margin")
+    yahoo = [{"source": "yahoo", "provisional": True}]
+    assert sources_provisional(yahoo) is True
+    assert sources_provisional([{"source": "yahoo"}]) is True
+    assert sources_provisional([]) is True
+    assert sources_provisional(None) is True
+    assert sources_provisional([{"source": "vendor", "provisional": False}]) is False
+    assert sources_provisional([{"source": "vendor", "provisional": False}] + yahoo) is True
+    live_yahoo = blocks(book="live", provisional_data=sources_provisional(yahoo))
+    assert "provisional_source_live" in live_yahoo
+
+    # Universe gates are single-sourced; size_stock uses the same helper.
+    assert stock_spread_limit(Decimal("20")) == Decimal("0.05")
+    assert stock_spread_limit(Decimal("100")) == Decimal("0.1500")
+    assert universe_reasons(Decimal("100"), Decimal("30000000"), Decimal("0.15")) == []
+    assert universe_reasons(Decimal("100"), Decimal("30000000"), Decimal("0.16")) == ["spread_too_wide"]
+    assert universe_reasons(Decimal("100"), Decimal("30000000"), None) == ["spread_unavailable"]
+    assert universe_reasons(Decimal("9.99"), Decimal("24999999"), Decimal("0.01")) == [
+        "price_below_minimum",
+        "adv_below_minimum",
+    ]
+    assert "spread_unavailable" in stock(spread=None)["reasons"]
+    assert stock(spread=None)["approved"] is False
 
     _validate_examples()
     print("dragonfly risk math: all vectors passed")

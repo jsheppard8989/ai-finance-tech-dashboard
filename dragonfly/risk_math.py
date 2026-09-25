@@ -46,6 +46,14 @@ OPTION_MULTIPLIER = 100
 MAX_OPTION_SPREAD_PCT = Decimal("0.10")
 MIN_OPTION_OPEN_INTEREST = 100
 MIN_OPTION_VOLUME = 50
+# Universe stock spread gate: spread <= the wider of $0.05 and 0.15% of price.
+MAX_STOCK_SPREAD_ABS = Decimal("0.05")
+MAX_STOCK_SPREAD_PCT = Decimal("0.0015")
+
+# Books. Phase 1 is paper. A live card must say so explicitly (book="live").
+PAPER = "paper"
+LIVE = "live"
+BOOKS = (PAPER, LIVE)
 
 # Planning haircut used only to translate the design hypothesis into a weekly
 # rate. It is not a fill model. Live expectancy uses measured net R.
@@ -109,6 +117,45 @@ def _floor_units(budget: Decimal, unit_risk: Decimal) -> int:
     if unit_risk <= 0 or budget <= 0:
         return 0
     return int((budget / unit_risk).to_integral_value(rounding=ROUND_FLOOR))
+
+
+def stock_spread_limit(price) -> Decimal:
+    """Widest legal stock spread at this price: max($0.05, 0.15% of price)."""
+    return max(MAX_STOCK_SPREAD_ABS, MAX_STOCK_SPREAD_PCT * D(price))
+
+
+def universe_reasons(price, adv_dollars, spread) -> list[str]:
+    """Stock universe gates from the operating plan, in the governor's order.
+
+    `spread` of None means the bid/ask was not observed. That fails closed as
+    `spread_unavailable`; an unmeasured name never passes the spread gate.
+    """
+    reasons = []
+    if price is None or D(price) < MIN_PRICE:
+        reasons.append("price_below_minimum")
+    if adv_dollars is None or D(adv_dollars) < MIN_ADV_DOLLARS:
+        reasons.append("adv_below_minimum")
+    if spread is None:
+        reasons.append("spread_unavailable")
+    elif price is None or D(spread) > stock_spread_limit(price):
+        reasons.append("spread_too_wide")
+    return reasons
+
+
+def sources_provisional(sources: Optional[Iterable[Mapping]]) -> bool:
+    """True unless every data source is explicitly stamped provisional=False.
+
+    No sources, a source without a `provisional` flag, or any source stamped
+    provisional (for example Yahoo via yfinance) counts as provisional.
+    """
+    if not sources:
+        return True
+    seen = False
+    for source in sources:
+        seen = True
+        if not isinstance(source, Mapping) or source.get("provisional") is not False:
+            return True
+    return not seen
 
 
 def tighter_mode(current: str, proposed: str) -> str:
@@ -278,9 +325,20 @@ def structural_blocks(
     risk_mode: str,
     extension_atr,
     stop_distance_atr,
+    book: str = PAPER,
+    provisional_data: Optional[bool] = None,
 ) -> list[str]:
-    """Deterministic hard blocks. A language model cannot clear these."""
+    """Deterministic hard blocks. A language model cannot clear these.
+
+    Provenance: a card on the live book is blocked unless its data is known
+    to be non-provisional (`provisional_data is False`). Unknown provenance
+    (None) counts as provisional. Paper cards may use provisional data.
+    """
     reasons = []
+    if book not in BOOKS:
+        reasons.append("unknown_book")
+    elif book == LIVE and provisional_data is not False:
+        reasons.append("provisional_source_live")
     if not fields_complete:
         reasons.append("missing_field")
     if setup not in SETUPS:
@@ -351,12 +409,7 @@ def size_stock(
     distance = entry - stop
     reward = target - entry
 
-    if price < MIN_PRICE:
-        reasons.append("price_below_minimum")
-    if D(adv_dollars) < MIN_ADV_DOLLARS:
-        reasons.append("adv_below_minimum")
-    if D(spread) > max(Decimal("0.05"), Decimal("0.0015") * price):
-        reasons.append("spread_too_wide")
+    reasons.extend(universe_reasons(price, adv_dollars, spread))
     if distance <= 0:
         reasons.append("stop_not_below_entry")
     if atr <= 0:
