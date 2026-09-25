@@ -11,7 +11,7 @@ rounding choice cannot push heat through a ceiling.
 
 from __future__ import annotations
 
-from datetime import date, timedelta
+from datetime import date, datetime, time, timedelta, timezone
 from decimal import Decimal, ROUND_CEILING, ROUND_FLOOR, ROUND_HALF_UP
 from typing import Iterable, Mapping, Optional, Sequence
 
@@ -264,10 +264,98 @@ def paper_sell_fill(mid) -> Decimal:
     return (D(mid) - MODELED_HALF_SPREAD).quantize(CENT, rounding=ROUND_FLOOR)
 
 
+# Quote freshness for paper fills. Plan section 4: "If marks are older than 15
+# minutes during the regular session, the governor rejects new risk (fail
+# closed)." The same 15-minute rule applies to the quote a paper fill uses.
+QUOTE_MAX_AGE = timedelta(minutes=15)
+QUOTE_FUTURE_SKEW = timedelta(minutes=1)
+REGULAR_SESSION_ET = (time(9, 30), time(16, 0))
+_ET = None
+
+
+def _et():
+    global _ET
+    if _ET is None:
+        from zoneinfo import ZoneInfo
+
+        _ET = ZoneInfo("America/New_York")
+    return _ET
+
+
+def in_regular_session(now: datetime) -> bool:
+    """Mon-Fri 09:30-16:00 ET. Exchange holidays are not known here; on a
+    holiday the quote timestamp goes stale and the fill is refused anyway."""
+    et = now.astimezone(_et())
+    return et.weekday() < 5 and REGULAR_SESSION_ET[0] <= et.time() < REGULAR_SESSION_ET[1]
+
+
+def _quote_datetime(quote_time) -> Optional[datetime]:
+    if quote_time is None or isinstance(quote_time, bool):
+        return None
+    if isinstance(quote_time, datetime):
+        return quote_time if quote_time.tzinfo else None  # naive timestamps are not trusted
+    try:
+        ts = float(quote_time)
+    except (TypeError, ValueError):
+        return None
+    if ts != ts or ts <= 0:
+        return None
+    return datetime.fromtimestamp(ts, tz=timezone.utc)
+
+
+def quote_blocks(quote_time, now: datetime, halted: Optional[bool] = None, max_age: timedelta = QUOTE_MAX_AGE) -> list:
+    """Block reasons for a paper fill on this quote. PAPER fill step only.
+
+    - `halted`: only an explicit True blocks. Unknown (None) is not a halt;
+      no halt is fabricated.
+    - `quote_stale`: missing / unparseable / naive timestamp always blocks;
+      during the regular session a timestamp older than `max_age` (15 min) or
+      more than a minute in the future blocks.
+    """
+    reasons = []
+    if halted is True:
+        reasons.append("halted")
+    qt = _quote_datetime(quote_time)
+    if qt is None:
+        reasons.append("quote_stale")
+    elif in_regular_session(now):
+        age = now - qt
+        if age > max_age or age < -QUOTE_FUTURE_SKEW:
+            reasons.append("quote_stale")
+    return reasons
+
+
+def paper_fill(
+    side: str,
+    mid,
+    *,
+    quote_time,
+    now: datetime,
+    halted: Optional[bool] = None,
+    trigger=None,
+) -> dict:
+    """The paper fill step. Refuses (filled False, `blocks`) when the name is
+    halted or its quote is stale; otherwise fills at mid +/- $0.025. A buy
+    with a trigger keeps the max-fill-through-trigger rule (`max_fill_exceeded`)."""
+    if side not in ("buy", "sell"):
+        raise ValueError(f"unknown side {side!r}")
+    blocks = quote_blocks(quote_time, now, halted)
+    if blocks:
+        return {"filled": False, "blocks": blocks, "fill": None, "fill_type": "hypothetical"}
+    fill = paper_buy_fill(mid) if side == "buy" else paper_sell_fill(mid)
+    out = {"filled": True, "blocks": [], "fill": fill, "fill_type": "hypothetical"}
+    if side == "buy" and trigger is not None:
+        out["max_fill"] = max_buy_fill(trigger)
+        if not fill_acceptable(trigger, fill):
+            out.update(filled=False, blocks=["max_fill_exceeded"])
+    return out
+
+
 def paper_entry_fill(trigger, mid=None) -> dict:
-    """Paper buy-stop entry: fill at (mid at trigger time, default the trigger)
-    + $0.025. The existing rule is unchanged: a fill above max_buy_fill(trigger)
-    invalidates the card."""
+    """Paper buy-stop entry price math: fill at (mid at trigger time, default
+    the trigger) + $0.025. The existing rule is unchanged: a fill above
+    max_buy_fill(trigger) invalidates the card. Price math only; the fill step
+    with the halt / stale-quote refusal is `paper_fill`."""
     fill = paper_buy_fill(trigger if mid is None else mid)
     return {
         "fill": fill,

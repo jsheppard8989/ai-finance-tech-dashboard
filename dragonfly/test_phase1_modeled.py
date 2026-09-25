@@ -12,7 +12,9 @@ import os
 import shutil
 import sys
 import tempfile
+from datetime import datetime, timedelta, timezone
 from decimal import Decimal
+from zoneinfo import ZoneInfo
 from pathlib import Path
 
 sys.path.insert(0, str(Path(__file__).resolve().parents[1]))
@@ -28,8 +30,12 @@ from dragonfly.build_watchlist import _quote_parts, select_watchlist, yahoo_quot
 from dragonfly.risk_math import (  # noqa: E402
     MODELED_SPREAD,
     paper_buy_fill,
+    QUOTE_MAX_AGE,
+    in_regular_session,
     paper_entry_fill,
+    paper_fill,
     paper_sell_fill,
+    quote_blocks,
     resolve_quote,
     structural_blocks,
 )
@@ -127,6 +133,54 @@ def test_fills() -> None:
     check(not paper_entry_fill(D("16.66"))["acceptable"], "under 16.67 at-trigger paper entry exceeds max_fill")
 
 
+ET = ZoneInfo("America/New_York")
+CT = ZoneInfo("America/Chicago")
+
+
+def test_halt_and_stale() -> None:
+    check(QUOTE_MAX_AGE == timedelta(minutes=15), "plan's 15-minute staleness rule")
+    rth = datetime(2026, 9, 25, 11, 0, tzinfo=ET)  # Friday 11:00 ET
+    check(in_regular_session(rth), "11:00 ET Friday is regular session")
+    check(in_regular_session(datetime(2026, 9, 25, 9, 30, tzinfo=ET)), "09:30 ET open inclusive")
+    check(not in_regular_session(datetime(2026, 9, 25, 16, 0, tzinfo=ET)), "16:00 ET close exclusive")
+    check(not in_regular_session(datetime(2026, 9, 26, 11, 0, tzinfo=ET)), "Saturday not regular")
+    check(in_regular_session(datetime(2026, 9, 25, 10, 0, tzinfo=CT)), "10:00 CT = 11:00 ET")
+    fresh = (rth - timedelta(minutes=2)).timestamp()
+    edge = (rth - timedelta(minutes=15)).timestamp()
+    old = (rth - timedelta(minutes=15, seconds=1)).timestamp()
+    check(quote_blocks(fresh, rth) == [], "fresh quote ok")
+    check(quote_blocks(edge, rth) == [], "exactly 15 min ok")
+    check(quote_blocks(old, rth) == ["quote_stale"], "older than 15 min during RTH -> stale")
+    check(quote_blocks(None, rth) == ["quote_stale"], "missing timestamp -> stale")
+    check(quote_blocks("junk", rth) == ["quote_stale"] and quote_blocks(0, rth) == ["quote_stale"], "unparseable/zero -> stale")
+    check(quote_blocks(datetime(2026, 9, 25, 10, 58), rth) == ["quote_stale"], "naive datetime not trusted")
+    check(quote_blocks(rth - timedelta(minutes=1), rth) == [], "aware datetime accepted")
+    check(quote_blocks((rth + timedelta(minutes=5)).timestamp(), rth) == ["quote_stale"], "future timestamp -> stale")
+    check(quote_blocks(fresh, rth, halted=True) == ["halted"], "explicit halt blocks")
+    check(quote_blocks(old, rth, halted=True) == ["halted", "quote_stale"], "halt + stale both reported")
+    check(quote_blocks(fresh, rth, halted=None) == [] and quote_blocks(fresh, rth, halted=False) == [], "unknown halt is not a halt")
+    after = datetime(2026, 9, 25, 16, 30, tzinfo=ET)
+    check(quote_blocks((after - timedelta(hours=2)).timestamp(), after) == [], "age rule applies only in RTH")
+    check(quote_blocks(None, after) == ["quote_stale"], "missing timestamp blocks outside RTH too")
+
+    b = paper_fill("buy", D("84.50"), quote_time=fresh, now=rth, trigger=D("84.50"))
+    check(b["filled"] and b["fill"] == D("84.53") and b["max_fill"] == D("84.63"), "fresh buy fills at mid + 0.025")
+    s_ = paper_fill("sell", D("84.50"), quote_time=fresh, now=rth)
+    check(s_["filled"] and s_["fill"] == D("84.47"), "fresh sell fills at mid - 0.025")
+    h = paper_fill("buy", D("84.50"), quote_time=fresh, now=rth, halted=True, trigger=D("84.50"))
+    check(not h["filled"] and h["blocks"] == ["halted"] and h["fill"] is None, "halted refuses the fill")
+    st = paper_fill("sell", D("84.50"), quote_time=old, now=rth)
+    check(not st["filled"] and st["blocks"] == ["quote_stale"], "stale refuses the fill (sells too)")
+    mx = paper_fill("buy", D("84.61"), quote_time=fresh, now=rth, trigger=D("84.50"))
+    check(not mx["filled"] and mx["blocks"] == ["max_fill_exceeded"] and mx["fill"] == D("84.64"), "max-fill rule unchanged")
+    try:
+        paper_fill("short", D("1"), quote_time=fresh, now=rth)
+    except ValueError:
+        check(True, "unknown side rejected")
+    else:
+        check(False, "unknown side rejected")
+
+
 def test_governor() -> None:
     base = dict(
         setup="catalyst_breakout",
@@ -157,7 +211,7 @@ def _row(t, adv, price=100.0):
 
 def test_selection() -> None:
     quotes = {
-        "AAA": {"bid": 100.00, "ask": 100.05, "last": 100.02},  # yahoo pass
+        "AAA": {"bid": 100.00, "ask": 100.05, "last": 100.02, "quote_time": 1790366401, "market_state": "REGULAR"},  # yahoo pass
         "BBB": {"bid": 101.00, "ask": 100.00, "last": 100.50},  # crossed -> modeled_mid
         "CCC": {"bid": 0, "ask": 0, "last": 55.00},  # zero -> modeled_last
         "DDD": None,  # fetch failed -> excluded
@@ -203,6 +257,8 @@ def test_selection() -> None:
     check(by["EEE"]["spread_source"] == "modeled_mid_0.05" and abs(by["EEE"]["spread"] - 0.05) < 1e-9, "EEE gate fail")
     check(by["FFF"]["mid"] == 184.0 and by["FFF"]["spread_source"] == "modeled_last_0.05", "FFF sanity swap")
     check(by["III"]["spread_source"] == "yahoo", "tuple quote")
+    check(by["AAA"]["quote_time"] == 1790366401 and by["AAA"]["market_state"] == "REGULAR", "row carries quote time / market state")
+    check(by["III"]["quote_time"] is None, "tuple quote has no timestamp")
     check(all(n["provisional"] is True for n in res["names"]), "all admitted provisional")
     check(ex["DDD"] == "no_usable_mid_or_last", "fetch fail excluded, fail closed")
     check(ex["GGG"] == "no_usable_mid_or_last", "no mid no last excluded")
@@ -282,6 +338,7 @@ def test_full_quote_fetcher_guarded() -> None:
 def main() -> None:
     test_resolve_quote()
     test_fills()
+    test_halt_and_stale()
     test_governor()
     test_selection()
     test_full_quote_fetcher_guarded()

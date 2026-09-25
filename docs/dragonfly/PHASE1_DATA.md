@@ -59,10 +59,24 @@ Every Dragonfly network fetch (bars, chains, watchlist quotes) calls
   - Sectors seen on 2026-09-25: Technology (45), Consumer Discretionary (17),
     Industrials (14), Health Care (9), Telecommunications (5), Consumer
     Staples (5), Utilities (4), Energy (1), Basic Materials (1).
+- **Share classes are collapsed to one per company before ranking**, so the
+  ranking counts companies, not tickers.
+  - Issuer: the explicit `ISSUER_ALIASES` map (Alphabet, Fox, News Corp);
+    otherwise the company name with the class and security-type suffix
+    removed. For example, "Alphabet Inc. Class A Common Stock" and "Alphabet
+    Inc. Class C Capital Stock" both become "alphabet inc".
+  - Kept class: `PREFERRED_SHARE_CLASS` if present (Alphabet → GOOGL, always).
+    Otherwise the higher market cap, with ties broken by ticker.
+  - The company's market cap is the kept class's figure. Classes aren't
+    summed, because Nasdaq's per-class figure already approximates the whole
+    company (GOOGL 4.21T, GOOG 4.18T).
+  - Dropped classes are excluded as `duplicate_share_class`, recorded in
+    `universe.json` (`excluded`, `duplicate_share_classes`) and in the
+    watchlist `excluded` with the class that was kept.
+  - On 2026-09-25 this drops GOOG only: 101 NDX tickers → 100 companies.
 - **Ranking:** market cap descending within each sector, ties broken by
-  ticker. The top 5 per sector are taken; a sector with fewer than 5 members
-  contributes what it has. Dual share classes are separate NDX constituents
-  and are ranked separately (GOOGL and GOOG can both take a slot).
+  ticker. The top 5 companies per sector are taken; a sector with fewer than
+  5 contributes what it has.
 - **Fail closed:** a constituent with a missing sector or a missing or
   non-positive market cap is excluded from ranking (`sector_missing` /
   `market_cap_missing`). The reason is recorded in `universe.json` and in
@@ -173,6 +187,31 @@ needs a better quote source; it must not be fixed by softening the gate.
   entry at the trigger on a name under $16.67 always exceeds `max_fill` and is
   invalidated (e.g. trigger $12.00 → fill $12.03 > max $12.02).
 
+### Halt / stale-quote refusal — `risk_math.paper_fill` (the paper fill step)
+
+- `paper_fill(side, mid, quote_time=..., now=..., halted=None, trigger=None)`
+  refuses the fill (`filled: false`) with block reasons:
+  - `halted`: only an explicit `halted=True` blocks. Yahoo has no reliable
+    per-name halt flag: `info["tradeable"]` is False even for AAPL, and
+    `marketState` is market-wide (PRE / REGULAR / POST / CLOSED). So
+    `yahoo_quote_full` returns `halted: None` (unknown), and an unknown halt
+    is never treated as a halt. A future halt feed (for example Nasdaq
+    Trader's trade-halt list) can pass `halted=True`.
+  - `quote_stale`: the quote timestamp is Yahoo's `regularMarketTime` (epoch
+    seconds of the last regular-session trade), carried as `quote_time` on
+    each watchlist row.
+    - A missing, unparseable or naive timestamp always blocks.
+    - During the regular session (Mon–Fri 09:30–16:00 ET), a timestamp older
+      than 15 minutes, or more than 1 minute in the future, blocks. The
+      15-minute threshold is the plan's staleness rule (§4: "If marks are
+      older than 15 minutes during the regular session, the governor rejects
+      new risk (fail closed)").
+    - Exchange holidays aren't modeled; on a holiday the timestamp goes
+      stale and the fill is refused anyway.
+  - `max_fill_exceeded`: the unchanged max-fill-through-trigger rule for
+    buys.
+- Paper only; no agent-facing or live path calls it.
+
 ## Bars — `dragonfly/bars.py`
 
 - One `Ticker.history` call per name (auto-adjusted daily bars), cached as JSON
@@ -211,8 +250,10 @@ needs a better quote source; it must not be fixed by softening the gate.
 - `python3 dragonfly/test_phase1_modeled.py` — offline: `resolve_quote`
   vectors (yahoo-pass, crossed, zero, missing, gate-fail, mid-vs-last swap,
   no-mid-no-last exclusion), paper buy/sell fills and the max-fill interaction,
-  live-reject / paper-pass for both modeled sources, modeled selection.
-- `python3 dragonfly/test_phase1_universe.py` — offline: top-5 per sector,
+  live-reject / paper-pass for both modeled sources, modeled selection, and
+  the halt / stale-quote refusal in `paper_fill`.
+- `python3 dragonfly/test_phase1_universe.py` — offline: share-class collapse
+  (GOOGL kept over GOOG, META enters Tech), top-5 per sector,
   a sector with fewer than 5 members, a missing sector or market cap (fail
   closed, with the reason recorded), no backfill when an ADR, price, ADV,
   bars or quote failure is in the top 5, and the weekly refresh and

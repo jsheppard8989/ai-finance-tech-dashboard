@@ -113,13 +113,13 @@ def test_parse_and_rank():
 
     r = nu.rank_by_sector(members)
     tech = [m["ticker"] for m in r["sectors"]["Technology"]]
-    check(tech == ["NVDA", "AAPL", "GOOGL", "GOOG", "MSFT"], f"tech top 5 by cap {tech}")
+    check(tech == ["NVDA", "AAPL", "GOOGL", "MSFT", "SPCX"], f"tech top 5 companies by cap {tech}")
     check([m["sector_rank"] for m in r["sectors"]["Technology"]] == [1, 2, 3, 4, 5], "sector ranks")
-    check("SPCX" not in tech and "META" not in tech, "#6/#7 not members")
+    check("GOOG" not in tech and "META" not in tech, "dropped class / #6 company not members")
     check([m["ticker"] for m in r["sectors"]["Energy"]] == ["FANG"], "1-member sector contributes 1")
     check([m["ticker"] for m in r["sectors"]["Utilities"]] == ["CEG", "AEP", "XEL"], "3-member sector contributes 3")
-    check(r["sector_sizes"]["Utilities"] == 3 and r["sector_sizes"]["Technology"] == 7, "sizes count ranked names only")
-    check(r["excluded"] == {"NOCAP": "market_cap_missing", "NOSEC": "sector_missing", "ZEROCAP": "market_cap_missing"}, f"fail closed {r['excluded']}")
+    check(r["sector_sizes"]["Utilities"] == 3 and r["sector_sizes"]["Technology"] == 6, "sizes count ranked names only")
+    check(r["excluded"] == {"GOOG": "duplicate_share_class", "NOCAP": "market_cap_missing", "NOSEC": "sector_missing", "ZEROCAP": "market_cap_missing"}, f"fail closed {r['excluded']}")
     check(all(m["ticker"] not in r["excluded"] for m in r["members"]), "excluded names never members")
     check(len(r["members"]) == 5 + 5 + 1 + 3 + 5, "members = sum of per-sector slots")
     tie = nu.rank_by_sector([
@@ -164,7 +164,7 @@ def test_no_backfill():
         quoted.append(t)
         if t == "WMT":
             return {"bid": None, "ask": None, "last": None}  # no usable mid / last
-        if t == "GOOG":
+        if t == "SPCX":
             return {"bid": 0, "ask": 0, "last": 250.0}  # modeled around last
         return {"bid": 99.99, "ask": 100.01, "last": 100.0}
 
@@ -178,18 +178,19 @@ def test_no_backfill():
     check(ex["XEL"]["reason"] == "price_below_minimum", "price gate exact")
     check(ex["AEP"]["reason"] == "adv_below_minimum", "ADV gate exact")
     check("BKNG" not in names and "BKNG" not in ex and "BKNG" not in quoted, "#6 in Discretionary never pulled in (no backfill)")
-    check("SPCX" not in names and "META" not in names and "SPCX" not in quoted, "#6/#7 in Tech never considered")
-    check(names == {"NVDA", "AAPL", "GOOGL", "GOOG", "MSFT", "AMZN", "FANG", "CEG"} | {f"FILL{i}" for i in range(75, 80)}, f"admitted {sorted(names)}")
+    check("META" not in names and "META" not in quoted and "GOOG" not in quoted, "#6 company / dropped class in Tech never considered")
+    check(names == {"NVDA", "AAPL", "GOOGL", "MSFT", "SPCX", "AMZN", "FANG", "CEG"} | {f"FILL{i}" for i in range(75, 80)}, f"admitted {sorted(names)}")
     disc = res["sectors"]["Consumer Discretionary"]
     check([e["ticker"] for e in disc] == ["AMZN", "WMT", "PDD", "COST", "NFLX"], "sector view keeps the 5 slots")
     check([e["status"] for e in disc] == ["admitted", "excluded", "excluded", "excluded", "excluded"], "empty slots stay empty")
     check(disc[2]["reason"] == "depositary_receipt", "slot reason recorded")
     by = {n["ticker"]: n for n in res["names"]}
-    check(by["GOOG"]["spread_source"] == "modeled_last_0.05" and by["GOOG"]["mid"] == 250.0, "modeled fallback inside universe")
+    check(by["SPCX"]["spread_source"] == "modeled_last_0.05" and by["SPCX"]["mid"] == 250.0, "modeled fallback inside universe")
     check(by["NVDA"]["sector"] == "Technology" and by["NVDA"]["sector_rank"] == 1 and by["NVDA"]["market_cap"] == 5.4e12, "name carries sector/rank/cap")
     f = res["funnel"]
     check(f["universe_members"] == 19 and f["admitted"] == 13 and f["empty_slots"] == 6, f"funnel {f}")
-    check(len(res["names"]) + len(ex) == len(universe["members"]), "every member admitted or excluded with a reason")
+    check(ex["GOOG"] == {"reason": "duplicate_share_class", "kept": "GOOGL", "sector": "Technology", "sector_rank": None, "market_cap": None}, "dropped class recorded in watchlist exclusions")
+    check(len(res["names"]) + len(ex) == len(universe["members"]) + 1, "every member admitted or excluded with a reason (+1 dropped class)")
 
 
 def test_weekly_refresh():
@@ -256,8 +257,57 @@ def test_missing_sector_or_cap_fail_closed():
     check(u2["excluded"].get("GONE") == "market_cap_missing", "null cap excluded")
 
 
+def test_share_class_collapse():
+    key = nu.issuer_key
+    check(key("GOOG", "Alphabet Inc. Class C Capital Stock") == key("GOOGL", "Alphabet Inc. Class A Common Stock"), "alphabet same issuer")
+    check(key("AAA", "Fox Corporation Class A Common Stock") == key("BBB", "Fox Corporation Class B Common Stock") == "fox corporation", "name-based: class suffix ignored")
+    check(key("HONA", "Honeywell Aerospace Inc. Common Stock ") != key("HON", "Honeywell International Inc. Common Stock"), "different companies not merged")
+    check(key("MSTR", "Strategy Inc Common Stock Class A") == "strategy inc", "trailing class suffix")
+    check(key("SHOP", "Shopify Inc. Class A Subordinate Voting Shares") == "shopify inc", "subordinate voting suffix")
+    check(key("ZZZ", None) == "ticker:ZZZ" and key("ZZZ", "  ") == "ticker:ZZZ", "no name -> ticker is its own issuer")
+
+    # GOOGL kept even when GOOG shows the higher market cap (explicit preference).
+    members = [
+        {"ticker": "GOOG", "name": "Alphabet Inc. Class C Capital Stock", "sector": "Technology", "market_cap": 5e12},
+        {"ticker": "GOOGL", "name": "Alphabet Inc. Class A Common Stock", "sector": "Technology", "market_cap": 4e12},
+        {"ticker": "FOXB", "name": "Fox Corporation Class B Common Stock", "sector": "Telecommunications", "market_cap": 2e10},
+        {"ticker": "FOXQ", "name": "Fox Corporation Class A Common Stock", "sector": "Telecommunications", "market_cap": 3e10},
+        {"ticker": "TIE2", "name": "Tie Co Class B Common Stock", "sector": "Energy", "market_cap": 1e10},
+        {"ticker": "TIE1", "name": "Tie Co Class A Common Stock", "sector": "Energy", "market_cap": 1e10},
+        {"ticker": "META", "name": "Meta Platforms, Inc. Class A Common Stock", "sector": "Technology", "market_cap": 1.9e12},
+    ]
+    c = nu.collapse_share_classes(members)
+    kept = {m["ticker"] for m in c["kept"]}
+    check(kept == {"GOOGL", "FOXQ", "TIE1", "META"}, f"one class per company {sorted(kept)}")
+    check(c["dropped"] == {"FOXB": "FOXQ", "GOOG": "GOOGL", "TIE2": "TIE1"}, f"dropped -> kept {c['dropped']}")
+    g = next(m for m in c["kept"] if m["ticker"] == "GOOGL")
+    check(g["share_classes"] == ["GOOGL", "GOOG"] and g["issuer"] == "alphabet inc", "kept row lists its classes")
+    check(g["market_cap"] == 4e12, "company cap = kept class figure (not summed)")
+
+    # Ranking counts companies: with Alphabet collapsed, META takes a Tech slot.
+    rows = [
+        ("NVDA", "Technology", "5,400,000,000,000"),
+        ("AAPL", "Technology", "4,965,888,657,700"),
+        ("GOOGL", "Technology", "4,208,343,000,000"),
+        ("GOOG", "Technology", "4,176,178,100,000"),
+        ("MSFT", "Technology", "3,840,000,000,000"),
+        ("META", "Technology", "1,915,000,000,000"),
+        ("AVGO", "Technology", "1,500,000,000,000"),
+    ] + [(f"FILL{i}", "Industrials", f"{i},000,000,000") for i in range(1, 90)]
+    ndx, scr = feed(rows)
+    ndx["data"]["data"]["rows"][2]["companyName"] = "Alphabet Inc. Class A Common Stock"
+    ndx["data"]["data"]["rows"][3]["companyName"] = "Alphabet Inc. Class C Capital Stock"
+    r = nu.rank_by_sector(nu.parse_members(ndx, scr))
+    tech = [m["ticker"] for m in r["sectors"]["Technology"]]
+    check(tech == ["NVDA", "AAPL", "GOOGL", "MSFT", "META"], f"META in after collapse {tech}")
+    check(r["excluded"]["GOOG"] == "duplicate_share_class" and r["duplicate_share_classes"] == {"GOOG": "GOOGL"}, "GOOG recorded")
+    check(r["companies"] == r["constituents"] - 1, "companies = constituents - dropped classes")
+    check(nu.SCHEMA.endswith("/2") and nu.is_stale({"schema": "dragonfly.ndx_universe/1", "per_sector": 5, "members": [{"ticker": "X"}], "as_of_date": "2026-09-25"}, datetime(2026, 9, 25).date()), "pre-collapse universe file forces a refresh")
+
+
 def main():
     test_parse_and_rank()
+    test_share_class_collapse()
     test_no_backfill()
     test_weekly_refresh()
     test_missing_sector_or_cap_fail_closed()

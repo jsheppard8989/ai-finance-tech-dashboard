@@ -1,8 +1,9 @@
 """Build dragonfly/watchlist.json: the Phase 1 watchlist.
 
-Universe (dragonfly/ndx_universe.py): the 5 largest Nasdaq-100 names by market
-cap in each sector (Nasdaq-100 list `marketCap` + Nasdaq screener `sector`,
-both from api.nasdaq.com). Membership is persisted in dragonfly/universe.json
+Universe (dragonfly/ndx_universe.py): the 5 largest Nasdaq-100 companies by
+market cap in each sector (Nasdaq-100 list `marketCap` + Nasdaq screener
+`sector`, both from api.nasdaq.com), share classes collapsed to one per
+company first (Alphabet keeps GOOGL; dropped: duplicate_share_class). Membership is persisted in dragonfly/universe.json
 and refreshed WEEKLY: reused until it is 7 or more days old, or on
 --refresh-universe. A daily build re-runs only the gates and quotes, so it
 cannot reshuffle membership. The S&P 500 pool is gone.
@@ -245,7 +246,18 @@ def yahoo_quote_full(ticker: str) -> Dict[str, Optional[float]]:
     last = info.get("regularMarketPrice")
     if last is None:
         last = info.get("currentPrice")
-    return {"bid": info.get("bid"), "ask": info.get("ask"), "last": last}
+    return {
+        "bid": info.get("bid"),
+        "ask": info.get("ask"),
+        "last": last,
+        # Epoch seconds of the last regular-session trade; the paper-fill
+        # staleness check (risk_math.quote_blocks) uses it.
+        "quote_time": info.get("regularMarketTime"),
+        "market_state": info.get("marketState"),
+        # Yahoo has no reliable per-name halt flag (`tradeable` is False even
+        # for AAPL), so halt status is unknown here, never fabricated.
+        "halted": None,
+    }
 
 
 def _quote_parts(q) -> Tuple[Optional[float], Optional[float], Optional[float]]:
@@ -438,6 +450,8 @@ def _select_modeled(rows, quote_fn, cap, batch, workers) -> dict:
                     "yahoo_bid": _float_or_none(bid),
                     "yahoo_ask": _float_or_none(ask),
                     "last_trade": _float_or_none(last),
+                    "quote_time": q.get("quote_time") if isinstance(q, Mapping) else None,
+                    "market_state": q.get("market_state") if isinstance(q, Mapping) else None,
                 }
             )
     for r in shortlist[i:]:
@@ -551,6 +565,16 @@ def run_gates(
         }
         for t, r in sorted(result["excluded"].items())
     }
+    for t, kept in (universe.get("duplicate_share_classes") or {}).items():
+        km = by_ticker.get(kept) or {}
+        excluded_members[t] = {
+            "reason": "duplicate_share_class",
+            "kept": kept,
+            "sector": km.get("sector"),
+            "sector_rank": None,
+            "market_cap": None,
+        }
+    excluded_members = dict(sorted(excluded_members.items()))
     result["sectors"] = sectors
     result["excluded_members"] = excluded_members
     result["type_excluded"] = type_excluded
@@ -625,6 +649,8 @@ def build(
             "market_cap_field": universe.get("market_cap_field"),
             "sector_sizes": universe.get("sector_sizes"),
             "ranking_excluded": universe.get("excluded"),
+            "duplicate_share_classes": universe.get("duplicate_share_classes"),
+            "share_class_rule": universe.get("share_class_rule"),
         },
         "cap": cap,
         "cap_note": "harmless upper bound; the universe is at most 5 names per sector",

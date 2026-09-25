@@ -12,6 +12,16 @@ Sources (api.nasdaq.com, the same host the security-type lookup uses):
     (Technology, Telecommunications, Consumer Discretionary, ...) but it is
     Nasdaq's own mapping: api.nasdaq.com exposes no separate ICB code.
 
+Share classes: collapsed to ONE per company before ranking (companies are
+ranked, not tickers). Issuer = explicit ISSUER_ALIASES map, else the company
+name with the class / security-type suffix removed ("Alphabet Inc. Class A
+Common Stock" and "Alphabet Inc. Class C Capital Stock" -> "alphabet inc").
+Within an issuer the kept class is the explicit PREFERRED_SHARE_CLASS if
+present (Alphabet -> GOOGL), else the higher market cap, ties by ticker. The
+company's market cap is the kept class's figure (Nasdaq's per-class figure
+already approximates the whole company, so classes are not summed). Dropped
+classes are excluded with reason duplicate_share_class.
+
 Ranking: market cap descending within each sector (ties by ticker), top 5 per
 sector; a sector with fewer than 5 members contributes what it has. A
 constituent with a missing/blank sector or an unparseable/non-positive market
@@ -28,13 +38,14 @@ Python 3.9 compatible.
 from __future__ import annotations
 
 import json
+import re
 from datetime import date, datetime
 from pathlib import Path
 from typing import Callable, Dict, List, Mapping, Optional
 
 NDX_URL = "https://api.nasdaq.com/api/quote/list-type/nasdaq100"
 SCREENER_URL = "https://api.nasdaq.com/api/screener/stocks?tableonly=true&download=true"
-SCHEMA = "dragonfly.ndx_universe/1"
+SCHEMA = "dragonfly.ndx_universe/2"  # /2: share classes collapsed
 PER_SECTOR = 5
 MAX_AGE_DAYS = 7
 SECTOR_FIELD = (
@@ -43,6 +54,67 @@ SECTOR_FIELD = (
 )
 MARKET_CAP_FIELD = "api.nasdaq.com Nasdaq-100 list `marketCap`"
 MIN_CONSTITUENTS = 90
+
+# Explicit issuer map (belt and braces over name matching) and class preference.
+ISSUER_ALIASES = {
+    "GOOGL": "alphabet inc",
+    "GOOG": "alphabet inc",
+    "FOXA": "fox corporation",
+    "FOX": "fox corporation",
+    "NWSA": "news corporation",
+    "NWS": "news corporation",
+}
+# Issuer -> the class that is always kept when present (voting / more liquid line).
+PREFERRED_SHARE_CLASS = {
+    "alphabet inc": "GOOGL",
+}
+SHARE_CLASS_RULE = (
+    "one class per company: issuer = ISSUER_ALIASES, else company name minus class/security-type suffix; "
+    "keep PREFERRED_SHARE_CLASS if present (Alphabet -> GOOGL), else higher market cap, ties by ticker; "
+    "company market cap = kept class's figure; dropped classes -> duplicate_share_class"
+)
+_CLASS_RE = re.compile(r"\b(class|series)\s+[a-z0-9]{1,3}\b", re.I)
+_SECURITY_SUFFIX_RE = re.compile(
+    r"\b(common stock|capital stock|ordinary shares?|subordinate voting shares?|voting shares?|"
+    r"common shares?|american depositary shares?|depositary shares?|shares of beneficial interest)\b",
+    re.I,
+)
+
+
+def issuer_key(ticker: str, name: Optional[str]) -> str:
+    """Issuer identity for share-class collapse; falls back to the ticker."""
+    alias = ISSUER_ALIASES.get(ticker)
+    if alias:
+        return alias
+    if not name or not str(name).strip():
+        return f"ticker:{ticker}"
+    n = _CLASS_RE.sub(" ", str(name))
+    n = _SECURITY_SUFFIX_RE.sub(" ", n)
+    n = re.sub(r"[^a-z0-9 ]+", " ", n.lower())
+    n = " ".join(n.split())
+    return n or f"ticker:{ticker}"
+
+
+def collapse_share_classes(members: List[Mapping]) -> dict:
+    """Keep one share class per issuer. Members must have a valid market cap."""
+    groups: Dict[str, List[Mapping]] = {}
+    for m in members:
+        groups.setdefault(issuer_key(m["ticker"], m.get("name")), []).append(m)
+    kept: List[dict] = []
+    dropped: Dict[str, str] = {}
+    for key, group in groups.items():
+        tickers = {g["ticker"] for g in group}
+        pref = PREFERRED_SHARE_CLASS.get(key)
+        if pref in tickers:
+            winner = next(g for g in group if g["ticker"] == pref)
+        else:
+            winner = sorted(group, key=lambda g: (-parse_market_cap(g["market_cap"]), g["ticker"]))[0]
+        classes = sorted(tickers, key=lambda t: (t != winner["ticker"], t))
+        kept.append(dict(winner, issuer=key, share_classes=classes))
+        for g in group:
+            if g["ticker"] != winner["ticker"]:
+                dropped[g["ticker"]] = winner["ticker"]
+    return {"kept": kept, "dropped": dict(sorted(dropped.items()))}
 
 
 def norm_symbol(sym) -> str:
@@ -92,14 +164,20 @@ def parse_members(ndx_payload: Mapping, screener_payload: Mapping) -> List[dict]
 def rank_by_sector(members: List[Mapping], per_sector: int = PER_SECTOR) -> dict:
     """Top `per_sector` by market cap in each sector. Pure."""
     excluded: Dict[str, str] = {}
-    groups: Dict[str, List[Mapping]] = {}
+    valid: List[Mapping] = []
     for m in members:
         if not m.get("sector"):
             excluded[m["ticker"]] = "sector_missing"
         elif parse_market_cap(m.get("market_cap")) is None:
             excluded[m["ticker"]] = "market_cap_missing"
         else:
-            groups.setdefault(m["sector"], []).append(m)
+            valid.append(m)
+    collapsed = collapse_share_classes(valid)
+    for t in collapsed["dropped"]:
+        excluded[t] = "duplicate_share_class"
+    groups: Dict[str, List[Mapping]] = {}
+    for m in collapsed["kept"]:
+        groups.setdefault(m["sector"], []).append(m)
     sectors: Dict[str, List[dict]] = {}
     sizes: Dict[str, int] = {}
     for sector in sorted(groups):
@@ -112,6 +190,8 @@ def rank_by_sector(members: List[Mapping], per_sector: int = PER_SECTOR) -> dict
                 "sector": sector,
                 "sector_rank": i + 1,
                 "market_cap": parse_market_cap(m["market_cap"]),
+                "issuer": m.get("issuer"),
+                "share_classes": m.get("share_classes"),
             }
             for i, m in enumerate(ranked[:per_sector])
         ]
@@ -121,7 +201,10 @@ def rank_by_sector(members: List[Mapping], per_sector: int = PER_SECTOR) -> dict
         "sector_sizes": sizes,
         "members": [m for s in sectors.values() for m in s],
         "excluded": dict(sorted(excluded.items())),
+        "duplicate_share_classes": collapsed["dropped"],
+        "share_class_rule": SHARE_CLASS_RULE,
         "constituents": len(members),
+        "companies": len(collapsed["kept"]),
     }
 
 
