@@ -86,7 +86,7 @@
     "_primary_source": "Treasury.gov",
     "_source_url": "https://home.treasury.gov/resource-center/data-chart-center/interest-rates/TextView?type=daily_treasury_yield_curve",
     "_fred_status": "unavailable (optional)",
-    "last_updated": "2026-09-25T12:56:53.795395",
+    "last_updated": "2026-09-25T14:29:38.116956",
     "as_of_date": "2026-09-24",
     "spreads": {
       "2s10s": {
@@ -145,18 +145,18 @@
     "_fetch_url": "https://www.cftc.gov/dea/futures/financial_lf.htm",
     "_api_alternative": "Quandl CFTC dataset (may need key)",
     "_fetch_instructions": "CFTC releases COT every Friday at 3:30pm ET for positions as of prior Tuesday.",
-    "last_updated": "2026-09-25T12:56:54.302131",
-    "report_date": "2026-09-15",
-    "prior_report_date": null,
+    "last_updated": "2026-09-25T14:29:38.587527",
+    "report_date": "2026-09-22",
+    "prior_report_date": "2026-09-15",
     "rates_positioning": {
       "10y_note": {
         "label": "10-Year T-Note Futures",
         "contract": "TY",
         "asset_manager_net": null,
-        "leveraged_funds_net": -1868126,
-        "prior_week_net": null,
+        "leveraged_funds_net": -1926947,
+        "prior_week_net": -1868126,
         "dealer_net": null,
-        "change_1w": null,
+        "change_1w": -58821,
         "signal": null,
         "percentile_1y": null
       },
@@ -164,10 +164,10 @@
         "label": "2-Year T-Note Futures",
         "contract": "TU",
         "asset_manager_net": null,
-        "leveraged_funds_net": -1294575,
-        "prior_week_net": null,
+        "leveraged_funds_net": -1350740,
+        "prior_week_net": -1294575,
         "dealer_net": null,
-        "change_1w": null,
+        "change_1w": -56165,
         "signal": null,
         "percentile_1y": null
       },
@@ -175,10 +175,10 @@
         "label": "30-Year T-Bond Futures",
         "contract": "US",
         "asset_manager_net": null,
-        "leveraged_funds_net": -211735,
-        "prior_week_net": null,
+        "leveraged_funds_net": -162052,
+        "prior_week_net": -211735,
         "dealer_net": null,
-        "change_1w": null,
+        "change_1w": 49683,
         "signal": null,
         "percentile_1y": null
       }
@@ -188,10 +188,10 @@
         "label": "CME Bitcoin Futures",
         "contract": "BTC",
         "asset_manager_net": null,
-        "leveraged_funds_net": -6354,
-        "prior_week_net": null,
+        "leveraged_funds_net": -7953,
+        "prior_week_net": -6354,
         "dealer_net": null,
-        "change_1w": null,
+        "change_1w": -1599,
         "signal": null,
         "percentile_1y": null
       }
@@ -201,10 +201,10 @@
         "label": "CME E-mini Nasdaq-100",
         "contract": "NQ",
         "asset_manager_net": null,
-        "leveraged_funds_net": -13052,
-        "prior_week_net": null,
+        "leveraged_funds_net": -35670,
+        "prior_week_net": -13052,
         "dealer_net": null,
-        "change_1w": null,
+        "change_1w": -22618,
         "signal": null,
         "percentile_1y": null
       }
@@ -234,7 +234,7 @@
     "_source_url": "https://gpu-index.semianalysis.com/",
     "_api_url": "https://gpu-index.semianalysis.com/api/public-data",
     "_data_type": "api_index",
-    "last_fetched": "2026-09-25T12:56:37.135890",
+    "last_fetched": "2026-09-25T14:29:21.844774",
     "h100": {
       "daily_date": "Sep 25, 2026",
       "daily_date_iso": "2026-09-25",
