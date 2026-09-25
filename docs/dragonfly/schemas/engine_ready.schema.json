@@ -1,0 +1,29 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "$id": "https://scarcity.local/dragonfly/engine_ready.schema.json",
+  "title": "Dragonfly 7 pre-open READY marker",
+  "description": "handoff/YYYY-MM-DD/READY. The LAST thing the 08:05 CT pre-open job writes, after every other handoff file is committed. Lists what was present.",
+  "type": "object",
+  "additionalProperties": false,
+  "required": ["schema_version", "marker", "session_date", "as_of", "files"],
+  "properties": {
+    "schema_version": { "const": "1.0.0" },
+    "marker": { "const": "READY" },
+    "session_date": { "type": "string", "format": "date" },
+    "as_of": { "type": "string", "format": "date-time" },
+    "files": {
+      "type": "array",
+      "minItems": 1,
+      "items": {
+        "type": "object",
+        "additionalProperties": false,
+        "required": ["path", "bytes", "sha256"],
+        "properties": {
+          "path": { "type": "string", "minLength": 1 },
+          "bytes": { "type": "integer", "minimum": 0 },
+          "sha256": { "type": "string", "pattern": "^[0-9a-f]{64}$" }
+        }
+      }
+    }
+  }
+}

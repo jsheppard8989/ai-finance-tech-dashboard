@@ -1,0 +1,37 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "$id": "https://scarcity.local/dragonfly/engine_book.schema.json",
+  "title": "Dragonfly 7 book state read by the pre-open engine",
+  "description": "dragonfly/state/live/book.json on the Mac (gitignored; engine of record). Marked by the 15:30 CT prep. The engine reads it and never writes it. Every circuit-breaker input is required: a missing one is an error, not a zero.",
+  "type": "object",
+  "additionalProperties": true,
+  "required": ["book", "as_of", "equity", "cash", "positions", "day_pnl_pct", "week_pnl_pct", "drawdown_pct", "consecutive_full_losses"],
+  "properties": {
+    "book": { "enum": ["paper", "live"] },
+    "as_of": { "type": "string", "format": "date-time" },
+    "equity": { "type": "number", "exclusiveMinimum": 0 },
+    "cash": { "type": "number", "minimum": 0, "description": "Buying power is cash. No margin." },
+    "open_heat": { "type": "number", "minimum": 0, "description": "Optional. The engine uses the larger of this and the sum of positions[].heat." },
+    "gross_long": { "type": "number", "minimum": 0, "description": "Optional. The engine uses the larger of this and the sum of stock positions[].notional." },
+    "day_pnl_pct": { "type": "number", "description": "Fraction, e.g. -0.004 for -0.4%." },
+    "week_pnl_pct": { "type": "number" },
+    "drawdown_pct": { "type": "number", "minimum": 0 },
+    "consecutive_full_losses": { "type": "integer", "minimum": 0 },
+    "positions": {
+      "type": "array",
+      "items": {
+        "type": "object",
+        "required": ["trade_id", "ticker", "sector", "setup", "instrument", "heat"],
+        "properties": {
+          "trade_id": { "type": "string" },
+          "ticker": { "type": "string" },
+          "sector": { "type": "string" },
+          "setup": { "type": "string" },
+          "instrument": { "type": "string" },
+          "heat": { "type": "number", "minimum": 0 },
+          "notional": { "type": "number", "minimum": 0 }
+        }
+      }
+    }
+  }
+}

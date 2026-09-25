@@ -1,0 +1,13 @@
+{
+  "book": "paper",
+  "as_of": "2026-09-24T15:30:00-05:00",
+  "equity": 100000,
+  "cash": 100000,
+  "open_heat": 0,
+  "gross_long": 0,
+  "day_pnl_pct": 0,
+  "week_pnl_pct": 0,
+  "drawdown_pct": 0,
+  "consecutive_full_losses": 0,
+  "positions": []
+}

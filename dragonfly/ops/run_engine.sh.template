@@ -1,0 +1,33 @@
+#!/bin/bash
+# TEMPLATE ONLY. Not installed. Install target (gitignored):
+#   __REPO__/dragonfly/state/live/ops/run_engine.sh
+# after Ditka's dry run and Jared's approval. See docs/dragonfly/ENGINE.md.
+#
+# Runs the Dragonfly pre-open engine loop (08:08-08:24 CT, 60 s polls,
+# 08:20 draft cutoff, DONE by 08:24). The engine does no market-data fetches,
+# so it does not call the pipeline-lock / daemon-window guards.
+set -euo pipefail
+
+REPO="${DRAGONFLY_REPO:-__REPO__}"
+export DRAGONFLY_PRIVATE_DIR="${DRAGONFLY_PRIVATE_DIR:-__HOME__/projects/dragonfly-private}"
+export TZ="America/Chicago"
+export PATH="/usr/bin:/bin:/usr/sbin:/sbin:/opt/homebrew/bin:/usr/local/bin"
+
+# Weekdays only (launchd already schedules Mon-Fri; this guards manual runs).
+if [ "$(date +%u)" -gt 5 ]; then
+  echo "$(date '+%FT%T%z') weekend; engine not run"
+  exit 0
+fi
+
+# launchd runs a missed calendar job when the Mac wakes. There is no post-open
+# pass, so a wake after 08:24 does not start a loop. (Override for a manual
+# closing pass: DRAGONFLY_ENGINE_ANYTIME=1.)
+now_hm=$((10#$(date +%H%M)))
+if [ "${DRAGONFLY_ENGINE_ANYTIME:-0}" != "1" ] && { [ "$now_hm" -lt 800 ] || [ "$now_hm" -gt 824 ]; }; then
+  echo "$(date '+%FT%T%z') outside 08:00-08:24 CT; engine not run"
+  exit 0
+fi
+
+mkdir -p "$REPO/dragonfly/state/live/logs"
+cd "$REPO"
+exec /usr/bin/python3 -m dragonfly.engine run --repo "$DRAGONFLY_PRIVATE_DIR" "$@"

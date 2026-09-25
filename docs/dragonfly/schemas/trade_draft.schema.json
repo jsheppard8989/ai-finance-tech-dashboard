@@ -1,0 +1,155 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "$id": "https://scarcity.local/dragonfly/trade_draft.schema.json",
+  "title": "Dragonfly 7 Trade Draft (Architect to engine)",
+  "description": "What the Trade Architect writes to inbox/YYYY-MM-DD/<trade_id>.draft.json. A trade card minus everything the engine owns: no sizing, no risk_decision, no entry.max_fill, no status, no red_team, no human_decision, no watcher, no timestamps the engine sets. Drafts that carry sizing, risk_decision or entry.max_fill are rejected as pre-sized. See docs/dragonfly/ENGINE.md.",
+  "type": "object",
+  "additionalProperties": false,
+  "required": [
+    "schema_version",
+    "trade_id",
+    "ticker",
+    "setup",
+    "direction",
+    "instrument",
+    "catalyst",
+    "why_now",
+    "entry",
+    "stop",
+    "targets",
+    "time_stop",
+    "invalidation",
+    "invalidation_level",
+    "evidence",
+    "measurements"
+  ],
+  "properties": {
+    "schema_version": { "const": "1.0.0" },
+    "trade_id": { "type": "string", "pattern": "^DF-[0-9]{4}-[0-9]{4}$" },
+    "book": { "enum": ["paper", "live"], "description": "Optional. Must match the engine's book when present." },
+    "drafted_at": { "type": "string", "format": "date-time" },
+    "ticker": { "type": "string", "pattern": "^[A-Z][A-Z0-9.\\-]{0,9}$" },
+    "setup": {
+      "enum": ["catalyst_breakout", "momentum_pullback", "failed_breakdown", "compression_expansion"]
+    },
+    "direction": { "const": "long" },
+    "instrument": { "enum": ["stock", "call", "put", "debit_spread"] },
+    "catalyst": {
+      "type": "object",
+      "additionalProperties": false,
+      "required": ["quality", "summary", "source_url", "source_type", "observed_at", "earnings_in_window"],
+      "properties": {
+        "quality": { "enum": ["primary", "secondary", "absent"] },
+        "summary": { "type": "string" },
+        "source_url": { "type": "string" },
+        "source_type": { "enum": ["sec", "earnings", "news", "company", "analyst", "x", "none"] },
+        "observed_at": { "oneOf": [{ "type": "null" }, { "type": "string", "format": "date-time" }] },
+        "earnings_in_window": { "type": "boolean" }
+      }
+    },
+    "why_now": { "type": "string", "minLength": 1 },
+    "entry": {
+      "type": "object",
+      "additionalProperties": false,
+      "required": ["trigger", "price"],
+      "properties": {
+        "trigger": { "enum": ["buy_stop", "buy_limit", "market_on_close_above"] },
+        "price": {
+          "type": "number",
+          "exclusiveMinimum": 0,
+          "description": "Stock: the trigger price. Options: the debit per share (premium)."
+        }
+      }
+    },
+    "stop": {
+      "type": "number",
+      "exclusiveMinimum": 0,
+      "description": "Stock: stop price. Options: planned premium stop."
+    },
+    "targets": {
+      "type": "array",
+      "minItems": 1,
+      "maxItems": 1,
+      "items": {
+        "type": "object",
+        "additionalProperties": false,
+        "required": ["price", "fraction"],
+        "properties": {
+          "price": { "type": "number", "exclusiveMinimum": 0 },
+          "fraction": { "const": 1 }
+        }
+      }
+    },
+    "time_stop": {
+      "type": "object",
+      "additionalProperties": false,
+      "required": ["max_calendar_days", "entry_session_date", "exit_session_date"],
+      "properties": {
+        "max_calendar_days": { "const": 7 },
+        "entry_session_date": { "type": "string", "format": "date" },
+        "exit_session_date": { "type": "string", "format": "date" }
+      }
+    },
+    "invalidation": {
+      "type": "array",
+      "minItems": 2,
+      "uniqueItems": true,
+      "items": { "enum": ["stop_hit", "level_lost", "time_stop", "catalyst_retracted"] }
+    },
+    "invalidation_level": { "type": "number", "exclusiveMinimum": 0 },
+    "evidence": {
+      "type": "object",
+      "additionalProperties": false,
+      "required": ["news", "sec", "x", "relative_volume", "options_note", "price_action"],
+      "properties": {
+        "news": { "type": "array", "items": { "type": "string" } },
+        "sec": { "type": "array", "items": { "type": "string" } },
+        "x": { "type": "array", "items": { "type": "string" } },
+        "relative_volume": { "type": "number", "minimum": 0 },
+        "options_note": { "type": "string" },
+        "price_action": { "type": "string", "minLength": 1 }
+      }
+    },
+    "measurements": {
+      "description": "Governor inputs copied from the Mac prep data. When handoff/YYYY-MM-DD/measurements.json carries the ticker, the engine uses those values instead and records the source. The engine never fetches market data.",
+      "type": "object",
+      "additionalProperties": false,
+      "required": ["price", "atr", "adv_dollars", "spread", "sector", "reference_level"],
+      "properties": {
+        "price": { "type": "number", "exclusiveMinimum": 0, "description": "Underlying reference price (last trade or mid)." },
+        "atr": { "type": "number", "exclusiveMinimum": 0, "description": "Wilder ATR(14) of the underlying." },
+        "adv_dollars": { "type": "number", "minimum": 0, "description": "20-day average dollar volume." },
+        "spread": { "oneOf": [{ "type": "null" }, { "type": "number", "minimum": 0 }], "description": "Stock bid/ask spread in dollars. null = not observed (fails closed)." },
+        "spread_source": { "type": "string" },
+        "sector": { "type": "string", "minLength": 1 },
+        "reference_level": { "type": "number", "exclusiveMinimum": 0, "description": "The setup's named level (breakout level, reclaimed support, swing base). Extension is measured from it in ATR." },
+        "provisional": { "type": "boolean", "description": "False only when every source is known non-provisional. Missing counts as provisional." },
+        "source": { "type": "string" },
+        "as_of": { "type": "string", "format": "date-time" }
+      }
+    },
+    "option": {
+      "description": "Required when instrument is call, put or debit_spread. Quote fields are for the position as a whole (net for a spread; min open interest and volume across legs).",
+      "type": "object",
+      "additionalProperties": false,
+      "required": ["contract", "expiration", "bid", "ask", "open_interest", "volume", "underlying_stop"],
+      "properties": {
+        "contract": { "type": "string", "minLength": 1 },
+        "expiration": { "type": "string", "format": "date" },
+        "bid": { "type": "number", "minimum": 0 },
+        "ask": { "type": "number", "minimum": 0 },
+        "open_interest": { "type": "integer", "minimum": 0 },
+        "volume": { "type": "integer", "minimum": 0 },
+        "underlying_stop": { "type": "number", "exclusiveMinimum": 0, "description": "Underlying price that invalidates the thesis; used for the stop-distance ATR block." },
+        "legs": { "type": "array", "items": { "type": "string" } }
+      }
+    },
+    "notes": { "type": "string" }
+  },
+  "allOf": [
+    {
+      "if": { "properties": { "instrument": { "enum": ["call", "put", "debit_spread"] } }, "required": ["instrument"] },
+      "then": { "required": ["option"] }
+    }
+  ]
+}
