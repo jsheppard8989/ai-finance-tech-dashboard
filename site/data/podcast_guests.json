@@ -1,6 +1,30 @@
 [
   {
-    "id": 73759,
+    "id": 73868,
+    "name": "Eddie Lazaran",
+    "slug": "eddie-lazaran",
+    "bio": null,
+    "known_for": null,
+    "last_main_idea": "The core investment opportunity lies in supporting AI companies that prioritize accountability, transparency, and societal benefits, as these factors will drive long-term value and trust in the sector.",
+    "last_episode_title": "The Case Against an AI Pause | Eddy Lazzarin",
+    "last_podcast_name": "The a16z Show",
+    "last_episode_date": "2026-09-24",
+    "appearance_count": 1
+  },
+  {
+    "id": 73869,
+    "name": "Michael Every",
+    "slug": "michael-every",
+    "bio": null,
+    "known_for": null,
+    "last_main_idea": "Investors should prepare for potential volatility in oil prices and consider the implications of a stronger U.S. dollar on their portfolios.",
+    "last_episode_title": "MacroVoices #551 Michael Every: Decoding The Global Geopolitical Puzzle",
+    "last_podcast_name": "Macro Voices",
+    "last_episode_date": "2026-09-24",
+    "appearance_count": 1
+  },
+  {
+    "id": 73870,
     "name": "Steve Hilton & Spencer Pratt",
     "slug": "steve-hilton--spencer-pratt",
     "bio": null,
@@ -12,7 +36,7 @@
     "appearance_count": 1
   },
   {
-    "id": 73760,
+    "id": 73871,
     "name": "Blake Scholl",
     "slug": "blake-scholl",
     "bio": null,
@@ -24,7 +48,7 @@
     "appearance_count": 1
   },
   {
-    "id": 73761,
+    "id": 73872,
     "name": "John Platt",
     "slug": "john-platt",
     "bio": null,
@@ -36,7 +60,7 @@
     "appearance_count": 1
   },
   {
-    "id": 73762,
+    "id": 73873,
     "name": "Diogo Almeida",
     "slug": "diogo-almeida",
     "bio": null,
@@ -48,7 +72,7 @@
     "appearance_count": 1
   },
   {
-    "id": 73763,
+    "id": 73874,
     "name": "Naveen Rao",
     "slug": "naveen-rao",
     "bio": null,
@@ -60,7 +84,7 @@
     "appearance_count": 1
   },
   {
-    "id": 73764,
+    "id": 73875,
     "name": "Outlook on 5 Key Commodities",
     "slug": "outlook-on-5-key-commodities",
     "bio": null,
@@ -72,7 +96,7 @@
     "appearance_count": 1
   },
   {
-    "id": 73765,
+    "id": 73876,
     "name": "Bill Gurley",
     "slug": "bill-gurley",
     "bio": null,
@@ -84,7 +108,7 @@
     "appearance_count": 1
   },
   {
-    "id": 73766,
+    "id": 73877,
     "name": "Nick Shirley",
     "slug": "nick-shirley",
     "bio": null,
@@ -96,7 +120,7 @@
     "appearance_count": 1
   },
   {
-    "id": 73767,
+    "id": 73878,
     "name": "Jared Isaacman",
     "slug": "jared-isaacman",
     "bio": null,
@@ -108,7 +132,7 @@
     "appearance_count": 1
   },
   {
-    "id": 73768,
+    "id": 73879,
     "name": "Brad Gerstner",
     "slug": "brad-gerstner",
     "bio": null,
@@ -120,7 +144,7 @@
     "appearance_count": 1
   },
   {
-    "id": 73769,
+    "id": 73880,
     "name": "Meta's Dina Powell McCormick",
     "slug": "metas-dina-powell-mccormick",
     "bio": null,
@@ -132,7 +156,7 @@
     "appearance_count": 1
   },
   {
-    "id": 73770,
+    "id": 73881,
     "name": "Underwriting Superintelligence",
     "slug": "underwriting-superintelligence",
     "bio": null,
@@ -144,7 +168,7 @@
     "appearance_count": 1
   },
   {
-    "id": 73771,
+    "id": 73882,
     "name": "Hawks Take Flight",
     "slug": "hawks-take-flight",
     "bio": null,
@@ -156,7 +180,7 @@
     "appearance_count": 1
   },
   {
-    "id": 73772,
+    "id": 73883,
     "name": "Martine Rothblatt",
     "slug": "martine-rothblatt",
     "bio": null,
@@ -168,7 +192,7 @@
     "appearance_count": 1
   },
   {
-    "id": 73773,
+    "id": 73884,
     "name": "Microsoft CEO Satya Nadella",
     "slug": "microsoft-ceo-satya-nadella",
     "bio": null,
@@ -180,7 +204,7 @@
     "appearance_count": 1
   },
   {
-    "id": 73774,
+    "id": 73885,
     "name": "Jensen Huang",
     "slug": "jensen-huang",
     "bio": null,
@@ -192,7 +216,7 @@
     "appearance_count": 1
   },
   {
-    "id": 73775,
+    "id": 73886,
     "name": "Ask the Mates anything",
     "slug": "ask-the-mates-anything",
     "bio": null,
@@ -204,7 +228,7 @@
     "appearance_count": 1
   },
   {
-    "id": 73776,
+    "id": 73887,
     "name": "Matt Barry",
     "slug": "matt-barry",
     "bio": null,
@@ -216,7 +240,7 @@
     "appearance_count": 1
   },
   {
-    "id": 73777,
+    "id": 73888,
     "name": "Who Grades the AI Models?",
     "slug": "who-grades-the-ai-models",
     "bio": null,
@@ -228,7 +252,7 @@
     "appearance_count": 1
   },
   {
-    "id": 73778,
+    "id": 73889,
     "name": "Your AI Doctor Is Coming",
     "slug": "your-ai-doctor-is-coming",
     "bio": null,
@@ -240,7 +264,7 @@
     "appearance_count": 1
   },
   {
-    "id": 73779,
+    "id": 73890,
     "name": "Fei Fei Li",
     "slug": "fei-fei-li",
     "bio": null,
@@ -252,7 +276,7 @@
     "appearance_count": 1
   },
   {
-    "id": 73780,
+    "id": 73891,
     "name": "Financial strategist Jared Dillian",
     "slug": "financial-strategist-jared-dillian",
     "bio": null,
@@ -264,7 +288,7 @@
     "appearance_count": 1
   },
   {
-    "id": 73781,
+    "id": 73892,
     "name": "Daniel Litt",
     "slug": "daniel-litt",
     "bio": null,
@@ -276,7 +300,7 @@
     "appearance_count": 1
   },
   {
-    "id": 73782,
+    "id": 73893,
     "name": "Gavin Baker",
     "slug": "gavin-baker",
     "bio": null,
@@ -288,7 +312,7 @@
     "appearance_count": 1
   },
   {
-    "id": 73783,
+    "id": 73894,
     "name": "Sam Altman",
     "slug": "sam-altman",
     "bio": null,
@@ -300,7 +324,7 @@
     "appearance_count": 1
   },
   {
-    "id": 73784,
+    "id": 73895,
     "name": "Time to Reduce Equity Risk",
     "slug": "time-to-reduce-equity-risk",
     "bio": null,
@@ -312,7 +336,7 @@
     "appearance_count": 1
   },
   {
-    "id": 73785,
+    "id": 73896,
     "name": "Eric Weinstein",
     "slug": "eric-weinstein",
     "bio": null,
@@ -324,7 +348,7 @@
     "appearance_count": 1
   },
   {
-    "id": 73786,
+    "id": 73897,
     "name": "Michael Kratsios",
     "slug": "michael-kratsios",
     "bio": null,
@@ -333,30 +357,6 @@
     "last_episode_title": "Michael Kratsios: Trump's Science Agenda, Anti-Science Claims, Fauci's Damage, DEI & China",
     "last_podcast_name": "All-In with Chamath, Jason, Sacks & Friedberg",
     "last_episode_date": "2026-08-24",
-    "appearance_count": 1
-  },
-  {
-    "id": 73787,
-    "name": "Emad Mostaque",
-    "slug": "emad-mostaque",
-    "bio": null,
-    "known_for": null,
-    "last_main_idea": "Invest in AI and exponential technologies that are driving the accelerating singularity, with a focus on companies that prioritize safety and ethical considerations.",
-    "last_episode_title": "OpenAI Pauses Frontier Training, Elon's 100X Prediction Lands, Robot Beats Usain Bolt with Emad Mostaque | EP#282",
-    "last_podcast_name": "Moonshots with Peter Diamandis",
-    "last_episode_date": "2026-08-21",
-    "appearance_count": 3
-  },
-  {
-    "id": 73788,
-    "name": "Angela Strange and Gabriel Vasquez",
-    "slug": "angela-strange-and-gabriel-vasquez",
-    "bio": null,
-    "known_for": null,
-    "last_main_idea": "Investing in borderless founders offers access to a global talent pool, customer base, and distribution networks, which can lead to the creation of successful global companies.",
-    "last_episode_title": "How Global Networks Are Reshaping Startup Success",
-    "last_podcast_name": "The a16z Show",
-    "last_episode_date": "2026-08-20",
     "appearance_count": 1
   }
 ]

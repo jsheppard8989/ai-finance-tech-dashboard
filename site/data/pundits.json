@@ -133,6 +133,63 @@
     "net_worth": "$270.10B"
   },
   {
+    "id": 122,
+    "name": "Michael Every",
+    "slug": "michael-every",
+    "bio": "Michael Every is a prominent economist recognized for his insights into global macroeconomic trends and their implications for financial markets. He specializes in analyzing geopolitical events and their impact on economic conditions, making him a valuable resource for investors navigating complex market dynamics.",
+    "known_for": "Michael Every is known for his predictions on geopolitical impacts on financial markets, providing critical insights for investors.",
+    "net_worth_usd": 70000000000.0,
+    "net_worth_source": "https://www.celebritynetworth.com/richest-politicians/michael-bloomberg-net-worth/",
+    "net_worth_updated_at": "2026-03-31T20:09:40.488239",
+    "voice_tone": "Analytical and cautious",
+    "voice_style": "Direct and evidence-based",
+    "voice_delivery_notes": "Measured pacing with emphasis on key risks",
+    "voice_profile_updated_at": "2026-09-25 03:32:43",
+    "last_seen": "2026-09-25 03:32:43",
+    "last_episode_title": "MacroVoices #551 Michael Every: Decoding The Global Geopolitical Puzzle",
+    "last_podcast_name": "Macro Voices",
+    "last_episode_date": "2026-09-24",
+    "mention_score": 3,
+    "mention_score_decayed": 3,
+    "last_main_idea": "Investors should prepare for potential volatility in oil prices and consider the implications of a stronger U.S. dollar on their portfolios.",
+    "last_proof_cite": "Macro Voices \u2022 2026-09-24 \u2022 MacroVoices #551 Michael Every: Decoding The Global Geopolitical Puzzle",
+    "last_proof_snippet": "The joke at the moment is if you're an interest rate trader on FX trader, the moment you have to be an oil trader. You've got to look at that to understand what bond yields are going to do. That was Michael Every. I'm Eric Townsend. This is",
+    "supporting_takeaway": "The U.S. dollar's strength may tighten financial conditions, affecting global trade and risk assets.",
+    "grokipedia_url": null,
+    "grokipedia_fetched_at": "2026-09-24T22:33:16.208954",
+    "pundit_profile": {
+      "source": "llm",
+      "source_model": "openai:gpt-4o-mini",
+      "source_url": "",
+      "page_title": "Michael Every",
+      "fetched_at": "2026-09-25T03:33:16.208721+00:00",
+      "cliff_notes": "Michael Every has established himself as a key figure in the field of economics, particularly focusing on the intersection of geopolitics and financial markets. His career has been marked by a deep understanding of how global events influence economic trends, making his analyses particularly relevant for investors. Every's work often involves dissecting complex geopolitical situations, such as conflicts in the Middle East and Eastern Europe, and translating these into actionable insights for market participants. His ability to connect the dots between seemingly disparate events allows investors to better anticipate market movements and adjust their strategies accordingly. As a global strategist at Rabobank, Every continues to contribute to the discourse on macroeconomic trends, helping to shape the understanding of how geopolitical factors can sway financial markets.",
+      "derived": {
+        "current_role": "Global Strategist in Economics and Markets at Rabobank"
+      },
+      "infobox": {},
+      "lead_paragraphs": [
+        "Michael Every has established himself as a key figure in the field of economics, particularly focusing on the intersection of geopolitics and financial markets. His career has been marked by a deep understanding of how global events influence economic trends, making his analyses particularly relevant for investors. Every's work often involves dissecting complex geopolitical situations, such as conflicts in the Middle East and Eastern Europe, and translating these into actionable insights for market participants.",
+        "His ability to connect the dots between seemingly disparate events allows investors to better anticipate market movements and adjust their strategies accordingly. As a global strategist at Rabobank, Every continues to contribute to the discourse on macroeconomic trends, helping to shape the understanding of how geopolitical factors can sway financial markets."
+      ],
+      "sections": [
+        {
+          "heading": "Geopolitical Analysis",
+          "body": "Every provides in-depth analysis of geopolitical events, such as conflicts and trade disputes, and their potential impacts on global markets. His insights help investors navigate uncertainty and make informed decisions."
+        },
+        {
+          "heading": "Interest Rates and FX Trading",
+          "body": "He discusses the interconnectedness of interest rates and foreign exchange trading, emphasizing the need for traders to adapt to changing market conditions influenced by geopolitical developments."
+        },
+        {
+          "heading": "Market Predictions",
+          "body": "Every is known for his accurate predictions regarding market trends, particularly in relation to oil prices and bond yields, which are critical for investors looking to optimize their portfolios."
+        }
+      ]
+    },
+    "net_worth": "$70.00B"
+  },
+  {
     "id": 267,
     "name": "Bill Gurley",
     "slug": "bill-gurley",
@@ -269,7 +326,7 @@
     "last_podcast_name": "The a16z Show",
     "last_episode_date": "2026-09-21",
     "mention_score": 2,
-    "mention_score_decayed": 1.91,
+    "mention_score_decayed": 1.87,
     "last_main_idea": "Investing in companies that prioritize clear communication, robust telemetry, and operational security in AI development presents a significant opportunity as the industry matures.",
     "last_proof_cite": "The a16z Show \u2022 2026-09-21 \u2022 AI Safety Language Is Destroying the Debate | Steven Sinofsky",
     "last_proof_snippet": "The AI people are making it impossible for anybody to understand what they've done it. And they're using words like, well, the AI failed to be aligned. Okay, what does that mean? What it means is there was a bug in the software. When word a",
@@ -694,7 +751,7 @@
     "last_podcast_name": "Monetary Matters with Jack Farley",
     "last_episode_date": "2026-08-20",
     "mention_score": 3,
-    "mention_score_decayed": 1.37,
+    "mention_score_decayed": 1.34,
     "last_main_idea": "The rise in AI capex and government spending is leading to increased borrowing costs, which will have profound effects on bond markets and inflation, creating both risks and opportunities for investors.",
     "last_proof_cite": "Monetary Matters with Jack Farley \u2022 2026-08-20 \u2022 Why Bessent Blinked | Luke Gromen on Doubling of Treasury Buyback Plan to Tame Long-End Yields",
     "last_proof_snippet": "Today's episode is brought to you by the two-cream corn fund Take or C-O-R-N. Let's get into it. Got a very important conversation today. I'm joined once again by Luke Groman of Forest for the Trees Research Luke. Welcome back to Monterey M",
@@ -754,7 +811,7 @@
     "last_podcast_name": "Moonshots with Peter Diamandis",
     "last_episode_date": "2026-07-08",
     "mention_score": 3,
-    "mention_score_decayed": 1.25,
+    "mention_score_decayed": 1.22,
     "last_main_idea": "Invest in companies that are integrating AI into their operations to capitalize on job growth and technological advancements.",
     "last_proof_cite": "Moonshots with Peter Diamandis \u2022 2026-07-08 \u2022 Fable 5 Is Back & Govt-Leashed, Altman Offers 5% of OpenAI & AI Grows Conscious | #269",
     "last_proof_snippet": "Fable 5 came back online globally on July 1st with a few Provisos. This feels like the first time a frontier model has a standing duty to the U.S. government. This is probably close to the best scenario we could have hoped for. Sam has been",
@@ -797,64 +854,124 @@
     "net_worth": "$14.00B"
   },
   {
-    "id": 333,
-    "name": "Dylan Patel",
-    "slug": "dylan-patel",
-    "bio": "Dylan Patel is the founder of SemiAnalysis, a firm specializing in AI infrastructure and compute market analysis. He is recognized for his insights into the future of AI and its impact on the global economy, particularly focusing on the growth of AI infrastructure and its contribution to GDP.",
-    "known_for": "His expertise in AI infrastructure and its role in shaping the global economy.",
-    "net_worth_usd": 3700000000.0,
-    "net_worth_source": "https://substack.com/home/post/p-153458455",
-    "net_worth_updated_at": "2026-07-15T12:06:20.503583",
-    "voice_tone": "Confident and knowledgeable",
-    "voice_style": "Factual and data-driven",
-    "voice_delivery_notes": "Clear and concise, with a focus on key statistics and trends",
-    "voice_profile_updated_at": "2026-08-26 03:28:15",
-    "last_seen": "2026-08-26 03:28:15",
-    "last_episode_title": "Dylan Patel \u2013 Anthropic & OpenAI will have most of the world\u2019s compute by 2028",
-    "last_podcast_name": "Dwarkesh Podcast",
-    "last_episode_date": "2026-08-25",
-    "mention_score": 2,
-    "mention_score_decayed": 1.02,
-    "last_main_idea": "Investment in AI infrastructure and labs is set to grow exponentially, leading to significant capital allocation shifts and potential market disruptions.",
-    "last_proof_cite": "Dwarkesh Podcast \u2022 2026-08-25 \u2022 Dylan Patel \u2013 Anthropic & OpenAI will have most of the world\u2019s compute by 2028",
-    "last_proof_snippet": "Okay, I'm back with Dylan Patel, Founder of SemiAnalysis, our version of Family, Thanksgiving dinner is a regular early podcast, but you're not actually related. I won't tell the people here. We'll destroy the myth. Walk me, basically w",
-    "supporting_takeaway": "Labs like OpenAI and Anthropic are expected to spend trillions of dollars annually by the end of the decade.",
+    "id": 482,
+    "name": "Henry Peabody",
+    "slug": "henry-peabody",
+    "bio": "Henry Peabody is a financial analyst with a focus on credit markets and macroeconomic trends. He serves as a senior investment strategist at GMO, where he provides insights into the dynamics of credit markets and interest rate policies. His expertise includes analyzing the Federal Reserve's mandates and their impact on the economy.",
+    "known_for": "Henry Peabody offers critical insights on credit market dynamics and the implications of interest rate policies for investors.",
+    "net_worth_usd": null,
+    "net_worth_source": "",
+    "net_worth_updated_at": null,
+    "voice_tone": "Analytical and informative",
+    "voice_style": "Direct and data-driven",
+    "voice_delivery_notes": "Measured pacing with emphasis on key insights",
+    "voice_profile_updated_at": "2026-09-25 03:33:01",
+    "last_seen": "2026-09-25 03:33:01",
+    "last_episode_title": "Why the Fed May Have to Hike Far Higher Than Expected | Henry Peabody on the Fed\u2019s Triple Mandate and Uneven Transmission of Monetary Policy",
+    "last_podcast_name": "Monetary Matters with Jack Farley",
+    "last_episode_date": "2026-09-24",
+    "mention_score": 1,
+    "mention_score_decayed": 1,
+    "last_main_idea": "Investors should focus on high-quality credit assets and consider diversifying into non-US dollar assets to enhance returns while managing risks in a high-rate environment.",
+    "last_proof_cite": "Monetary Matters with Jack Farley \u2022 2026-09-24 \u2022 Why the Fed May Have to Hike Far Higher Than Expected | Henry Peabody on the Fed\u2019s Triple Mandate and Uneven Transmission of Monetary Policy",
+    "last_proof_snippet": "Got a very important conversation today. We are speaking to Henry Peabody, senior investment strategist at GMO, Henry Welcome to Monetary Matters. Jack, thanks so much for having me. I'm really looking forward to the conversation. I know yo",
+    "supporting_takeaway": "The Federal Reserve may maintain higher interest rates longer to manage inflation, impacting borrowing costs and economic growth.",
     "grokipedia_url": null,
-    "grokipedia_fetched_at": "2026-08-25T22:28:51.037076",
+    "grokipedia_fetched_at": "2026-09-24T22:33:06.582469",
     "pundit_profile": {
       "source": "llm",
-      "source_model": "moonshot:moonshot-v1-8k",
+      "source_model": "openai:gpt-4o-mini",
       "source_url": "",
-      "page_title": "Dylan Patel",
-      "fetched_at": "2026-08-26T03:28:51.036737+00:00",
-      "cliff_notes": "Dylan Patel is a prominent figure in the field of AI infrastructure and compute market analysis. As the founder of SemiAnalysis, he has dedicated his career to understanding and forecasting the trends and developments within the AI sector. Patel's work is particularly focused on how advancements in AI infrastructure are influencing economic growth, with a keen eye on the allocation of capital expenditures in the industry. His insights are sought after for their ability to predict the trajectory of the global economy in relation to the advancements in AI technology. Patel's contributions to the discourse on AI's economic impact have made him a respected voice in both the tech and finance sectors.",
+      "page_title": "Henry Peabody",
+      "fetched_at": "2026-09-25T03:33:06.581954+00:00",
+      "cliff_notes": "Henry Peabody has established himself as a prominent financial analyst specializing in the intricacies of credit markets and macroeconomic trends. His role as a senior investment strategist at GMO positions him at the forefront of analyzing the Federal Reserve's policies and their broader implications for the economy. Peabody's work emphasizes the evolving nature of credit transmission mechanisms and the impact of private credit on market dynamics. His insights are particularly valuable for investors seeking to navigate the complexities of interest rate policies and their effects on capital markets.",
       "derived": {
-        "current_role": "Founder of SemiAnalysis"
+        "current_role": "Senior Investment Strategist at GMO"
       },
-      "infobox": {
-        "Born": "",
-        "Nationality": ""
-      },
+      "infobox": {},
       "lead_paragraphs": [
-        "Dylan Patel is a prominent figure in the field of AI infrastructure and compute market analysis. As the founder of SemiAnalysis, he has dedicated his career to understanding and forecasting the trends and developments within the AI sector. Patel's work is particularly focused on how advancements in AI infrastructure are influencing economic growth, with a keen eye on the allocation of capital expenditures in the industry.",
-        "His insights are sought after for their ability to predict the trajectory of the global economy in relation to the advancements in AI technology. Patel's contributions to the discourse on AI's economic impact have made him a respected voice in both the tech and finance sectors."
+        "Henry Peabody has established himself as a prominent financial analyst specializing in the intricacies of credit markets and macroeconomic trends. His role as a senior investment strategist at GMO positions him at the forefront of analyzing the Federal Reserve's policies and their broader implications for the economy. Peabody's work emphasizes the evolving nature of credit transmission mechanisms and the impact of private credit on market dynamics.",
+        "His insights are particularly valuable for investors seeking to navigate the complexities of interest rate policies and their effects on capital markets."
       ],
       "sections": [
         {
-          "heading": "AI Infrastructure Growth",
-          "body": "Dylan Patel has been instrumental in analyzing the growth of AI infrastructure, highlighting its significant contribution to GDP and the economy."
+          "heading": "Federal Reserve Mandates",
+          "body": "Peabody discusses the Federal Reserve's dual mandates of stable inflation and full employment, while also exploring the evolving third mandate related to credit transmission across the economy."
         },
         {
-          "heading": "Compute Market Analysis",
-          "body": "Patel's expertise lies in the analysis of the compute market, where he forecasts the allocation of capital expenditures and their impact on economic growth."
+          "heading": "Credit Market Dynamics",
+          "body": "He analyzes how changes in capital markets and the rise of private credit have altered the landscape of credit availability and its implications for economic stability."
         },
         {
-          "heading": "Economic Impact of AI",
-          "body": "He provides valuable insights into how AI advancements are shaping the global economy, focusing on the role of AI infrastructure in driving economic progress."
+          "heading": "Interest Rate Policies",
+          "body": "Peabody provides insights into how interest rate policies influence credit markets and the broader economy, helping investors understand potential risks and opportunities."
         }
       ]
-    },
-    "net_worth": "$3.70B"
+    }
+  },
+  {
+    "id": 481,
+    "name": "Eddie Lazaran",
+    "slug": "eddie-lazaran",
+    "bio": "Eddie Lazaran is an expert in AI accountability and innovation, advocating for market-driven approaches to AI safety. He emphasizes the importance of considering the potential for abundance alongside the risks associated with AI development. As a general partner at A16Z Crypto, he engages in discussions about the intersection of technology, safety, and societal impact.",
+    "known_for": "Eddie Lazaran is recognized for his advocacy of market-driven solutions to AI safety challenges.",
+    "net_worth_usd": null,
+    "net_worth_source": "",
+    "net_worth_updated_at": null,
+    "voice_tone": "Analytical and persuasive.",
+    "voice_style": "Lazaran presents logical arguments supported by evidence.",
+    "voice_delivery_notes": "Pacing is steady with emphasis on key points.",
+    "voice_profile_updated_at": "2026-09-25 03:32:16",
+    "last_seen": "2026-09-25 03:32:16",
+    "last_episode_title": "The Case Against an AI Pause | Eddy Lazzarin",
+    "last_podcast_name": "The a16z Show",
+    "last_episode_date": "2026-09-24",
+    "mention_score": 1,
+    "mention_score_decayed": 1,
+    "last_main_idea": "The core investment opportunity lies in supporting AI companies that prioritize accountability, transparency, and societal benefits, as these factors will drive long-term value and trust in the sector.",
+    "last_proof_cite": "The a16z Show \u2022 2026-09-24 \u2022 The Case Against an AI Pause | Eddy Lazzarin",
+    "last_proof_snippet": "The AI debate increasingly asks us to consider the probability of doom. Eddie Lazaran thinks we should also be asking about the probability of abundance. In this episode, A16Z Crypto-General Partner Eddie Lazaran joins Theo-Jaffe on MTS to",
+    "supporting_takeaway": "Understanding cybersecurity as a primary concern can inform better risk management strategies for AI investments.",
+    "grokipedia_url": null,
+    "grokipedia_fetched_at": "2026-09-24T22:33:20.761569",
+    "pundit_profile": {
+      "source": "llm",
+      "source_model": "openai:gpt-4o-mini",
+      "source_url": "",
+      "page_title": "Eddie Lazaran",
+      "fetched_at": "2026-09-25T03:33:20.761290+00:00",
+      "cliff_notes": "Eddie Lazaran has established himself as a significant figure in the discourse surrounding artificial intelligence, particularly in the context of safety and accountability. His work focuses on the balance between innovation and risk management, advocating for a perspective that prioritizes market incentives and technical controls to ensure the safe development of AI technologies. Lazaran's insights challenge prevailing narratives that often emphasize the dangers of AI, instead promoting a vision of technological progress that can lead to societal benefits. His role at A16Z Crypto positions him at the forefront of discussions about the future of AI and its implications for various sectors, making him a key voice in the ongoing debates about the responsible development of advanced technologies.",
+      "derived": {
+        "current_role": "General Partner at A16Z Crypto"
+      },
+      "infobox": {},
+      "lead_paragraphs": [
+        "Eddie Lazaran has established himself as a significant figure in the discourse surrounding artificial intelligence, particularly in the context of safety and accountability. His work focuses on the balance between innovation and risk management, advocating for a perspective that prioritizes market incentives and technical controls to ensure the safe development of AI technologies.",
+        "Lazaran's insights challenge prevailing narratives that often emphasize the dangers of AI, instead promoting a vision of technological progress that can lead to societal benefits. His role at A16Z Crypto positions him at the forefront of discussions about the future of AI and its implications for various sectors, making him a key voice in the ongoing debates about the responsible development of advanced technologies."
+      ],
+      "sections": [
+        {
+          "heading": "AI Safety and Accountability",
+          "body": "Eddie Lazaran discusses the importance of accountability in AI development, advocating for frameworks that ensure responsible innovation while addressing potential risks."
+        },
+        {
+          "heading": "Market-Driven Approaches",
+          "body": "He promotes the idea that market incentives can play a crucial role in enhancing AI safety, suggesting that economic factors can drive better practices in technology development."
+        },
+        {
+          "heading": "Cybersecurity and Control",
+          "body": "Lazaran views many current AI incidents as issues of cybersecurity and control, rather than indicators of superintelligence, urging a reevaluation of how these technologies are perceived."
+        },
+        {
+          "heading": "Independent AI Evaluators",
+          "body": "He advocates for the establishment of independent evaluators to assess AI systems, ensuring that they meet safety and ethical standards before widespread deployment."
+        },
+        {
+          "heading": "Effective Altruism",
+          "body": "Lazaran engages with the principles of effective altruism, exploring how they can inform the development and regulation of AI technologies for the greater good."
+        }
+      ]
+    }
   },
   {
     "id": 480,
@@ -970,6 +1087,66 @@
         }
       ]
     }
+  },
+  {
+    "id": 333,
+    "name": "Dylan Patel",
+    "slug": "dylan-patel",
+    "bio": "Dylan Patel is the founder of SemiAnalysis, a firm specializing in AI infrastructure and compute market analysis. He is recognized for his insights into the future of AI and its impact on the global economy, particularly focusing on the growth of AI infrastructure and its contribution to GDP.",
+    "known_for": "His expertise in AI infrastructure and its role in shaping the global economy.",
+    "net_worth_usd": 3700000000.0,
+    "net_worth_source": "https://substack.com/home/post/p-153458455",
+    "net_worth_updated_at": "2026-07-15T12:06:20.503583",
+    "voice_tone": "Confident and knowledgeable",
+    "voice_style": "Factual and data-driven",
+    "voice_delivery_notes": "Clear and concise, with a focus on key statistics and trends",
+    "voice_profile_updated_at": "2026-08-26 03:28:15",
+    "last_seen": "2026-08-26 03:28:15",
+    "last_episode_title": "Dylan Patel \u2013 Anthropic & OpenAI will have most of the world\u2019s compute by 2028",
+    "last_podcast_name": "Dwarkesh Podcast",
+    "last_episode_date": "2026-08-25",
+    "mention_score": 2,
+    "mention_score_decayed": 1.0,
+    "last_main_idea": "Investment in AI infrastructure and labs is set to grow exponentially, leading to significant capital allocation shifts and potential market disruptions.",
+    "last_proof_cite": "Dwarkesh Podcast \u2022 2026-08-25 \u2022 Dylan Patel \u2013 Anthropic & OpenAI will have most of the world\u2019s compute by 2028",
+    "last_proof_snippet": "Okay, I'm back with Dylan Patel, Founder of SemiAnalysis, our version of Family, Thanksgiving dinner is a regular early podcast, but you're not actually related. I won't tell the people here. We'll destroy the myth. Walk me, basically w",
+    "supporting_takeaway": "Labs like OpenAI and Anthropic are expected to spend trillions of dollars annually by the end of the decade.",
+    "grokipedia_url": null,
+    "grokipedia_fetched_at": "2026-08-25T22:28:51.037076",
+    "pundit_profile": {
+      "source": "llm",
+      "source_model": "moonshot:moonshot-v1-8k",
+      "source_url": "",
+      "page_title": "Dylan Patel",
+      "fetched_at": "2026-08-26T03:28:51.036737+00:00",
+      "cliff_notes": "Dylan Patel is a prominent figure in the field of AI infrastructure and compute market analysis. As the founder of SemiAnalysis, he has dedicated his career to understanding and forecasting the trends and developments within the AI sector. Patel's work is particularly focused on how advancements in AI infrastructure are influencing economic growth, with a keen eye on the allocation of capital expenditures in the industry. His insights are sought after for their ability to predict the trajectory of the global economy in relation to the advancements in AI technology. Patel's contributions to the discourse on AI's economic impact have made him a respected voice in both the tech and finance sectors.",
+      "derived": {
+        "current_role": "Founder of SemiAnalysis"
+      },
+      "infobox": {
+        "Born": "",
+        "Nationality": ""
+      },
+      "lead_paragraphs": [
+        "Dylan Patel is a prominent figure in the field of AI infrastructure and compute market analysis. As the founder of SemiAnalysis, he has dedicated his career to understanding and forecasting the trends and developments within the AI sector. Patel's work is particularly focused on how advancements in AI infrastructure are influencing economic growth, with a keen eye on the allocation of capital expenditures in the industry.",
+        "His insights are sought after for their ability to predict the trajectory of the global economy in relation to the advancements in AI technology. Patel's contributions to the discourse on AI's economic impact have made him a respected voice in both the tech and finance sectors."
+      ],
+      "sections": [
+        {
+          "heading": "AI Infrastructure Growth",
+          "body": "Dylan Patel has been instrumental in analyzing the growth of AI infrastructure, highlighting its significant contribution to GDP and the economy."
+        },
+        {
+          "heading": "Compute Market Analysis",
+          "body": "Patel's expertise lies in the analysis of the compute market, where he forecasts the allocation of capital expenditures and their impact on economic growth."
+        },
+        {
+          "heading": "Economic Impact of AI",
+          "body": "He provides valuable insights into how AI advancements are shaping the global economy, focusing on the role of AI infrastructure in driving economic progress."
+        }
+      ]
+    },
+    "net_worth": "$3.70B"
   },
   {
     "id": 478,
@@ -1537,68 +1714,6 @@
     }
   },
   {
-    "id": 465,
-    "name": "Dina Palma-Cormick",
-    "slug": "dina-palma-cormick",
-    "bio": "Dina Palma-Cormick is a key executive at Meta, where she leads workforce development programs and community engagement initiatives. With a background in both government and business, she has been instrumental in shaping policies that drive technological advancements. Her experience includes serving as a presidential advisor, focusing on women's leadership and AI expansion.",
-    "known_for": "Dina Palma-Cormick is recognized for her leadership in Meta's workforce development and her role in the company's AI expansion.",
-    "net_worth_usd": null,
-    "net_worth_source": "",
-    "net_worth_updated_at": null,
-    "voice_tone": "Engaging and informative",
-    "voice_style": "Persuasive and community-focused",
-    "voice_delivery_notes": "Clear and emphatic delivery with a focus on community impact.",
-    "voice_profile_updated_at": "2026-09-18 03:20:07",
-    "last_seen": "2026-09-18 03:20:07",
-    "last_episode_title": "Meta's Dina Powell McCormick: The Case for Data Centers, Backlash, AI Job Boom & Meta's Future",
-    "last_podcast_name": "All-In with Chamath, Jason, Sacks & Friedberg",
-    "last_episode_date": "2026-09-17",
-    "mention_score": 1,
-    "mention_score_decayed": 0.87,
-    "last_main_idea": "Investing in tech companies that prioritize community engagement and workforce development can yield sustainable returns and mitigate risks associated with public sentiment.",
-    "last_proof_cite": "All-In with Chamath, Jason, Sacks & Friedberg \u2022 2026-09-17 \u2022 Meta's Dina Powell McCormick: The Case for Data Centers, Backlash, AI Job Boom & Meta's Future",
-    "last_proof_snippet": "A trailblazing leader in government, business, and philanthropy. A former presidential advisor to Donald Trump, Dina Palma-Cormick, joined him at a platform as president and vice chair of women. She'll help lead the company's massive AI exp",
-    "supporting_takeaway": "America's Workforce Academy has trained thousands, achieving a 90% job retention rate post-training.",
-    "grokipedia_url": null,
-    "grokipedia_fetched_at": "2026-09-17T22:20:19.073150",
-    "pundit_profile": {
-      "source": "llm",
-      "source_model": "openai:gpt-4o-mini",
-      "source_url": "",
-      "page_title": "Dina Palma-Cormick",
-      "fetched_at": "2026-09-18T03:20:19.072625+00:00",
-      "cliff_notes": "Dina Palma-Cormick has built a career at the intersection of technology, government, and philanthropy. As a key executive at Meta, she focuses on workforce development and community engagement, driving initiatives that leverage technology for societal benefit. Her previous role as a presidential advisor under Donald Trump highlights her influence in shaping policies that support women's leadership and technological growth. With a vision for the future, she is poised to lead Meta's significant AI expansion, emphasizing the importance of data centers and their positive economic impact on communities. Palma-Cormick's commitment to harnessing technology for transformative change positions her as a pivotal figure in the ongoing evolution of the tech landscape.",
-      "derived": {
-        "current_role": "Executive at Meta",
-        "former_positions": "Presidential advisor to Donald Trump; Vice Chair of Women at a platform",
-        "political_summary": "Dina has served as a presidential advisor, actively engaging in initiatives that promote women's leadership and technological innovation."
-      },
-      "infobox": {},
-      "lead_paragraphs": [
-        "Dina Palma-Cormick has built a career at the intersection of technology, government, and philanthropy. As a key executive at Meta, she focuses on workforce development and community engagement, driving initiatives that leverage technology for societal benefit. Her previous role as a presidential advisor under Donald Trump highlights her influence in shaping policies that support women's leadership and technological growth.",
-        "With a vision for the future, she is poised to lead Meta's significant AI expansion, emphasizing the importance of data centers and their positive economic impact on communities. Palma-Cormick's commitment to harnessing technology for transformative change positions her as a pivotal figure in the ongoing evolution of the tech landscape."
-      ],
-      "sections": [
-        {
-          "heading": "AI Expansion",
-          "body": "Dina is at the forefront of Meta's AI expansion, focusing on integrating advanced technologies into the company's operations and community initiatives."
-        },
-        {
-          "heading": "Workforce Development",
-          "body": "She leads programs aimed at enhancing workforce skills, ensuring that communities are prepared for the technological advancements of the future."
-        },
-        {
-          "heading": "Women in Leadership",
-          "body": "Dina advocates for women's leadership in technology and business, emphasizing their critical role in driving innovation and change."
-        },
-        {
-          "heading": "Community Engagement",
-          "body": "Her work involves fostering strong community ties and demonstrating the economic benefits of technology, particularly through data centers."
-        }
-      ]
-    }
-  },
-  {
     "id": 133,
     "name": "Chris Dixon",
     "slug": "chris-dixon",
@@ -1658,6 +1773,68 @@
       ]
     },
     "net_worth": "$500.0M"
+  },
+  {
+    "id": 465,
+    "name": "Dina Palma-Cormick",
+    "slug": "dina-palma-cormick",
+    "bio": "Dina Palma-Cormick is a key executive at Meta, where she leads workforce development programs and community engagement initiatives. With a background in both government and business, she has been instrumental in shaping policies that drive technological advancements. Her experience includes serving as a presidential advisor, focusing on women's leadership and AI expansion.",
+    "known_for": "Dina Palma-Cormick is recognized for her leadership in Meta's workforce development and her role in the company's AI expansion.",
+    "net_worth_usd": null,
+    "net_worth_source": "",
+    "net_worth_updated_at": null,
+    "voice_tone": "Engaging and informative",
+    "voice_style": "Persuasive and community-focused",
+    "voice_delivery_notes": "Clear and emphatic delivery with a focus on community impact.",
+    "voice_profile_updated_at": "2026-09-18 03:20:07",
+    "last_seen": "2026-09-18 03:20:07",
+    "last_episode_title": "Meta's Dina Powell McCormick: The Case for Data Centers, Backlash, AI Job Boom & Meta's Future",
+    "last_podcast_name": "All-In with Chamath, Jason, Sacks & Friedberg",
+    "last_episode_date": "2026-09-17",
+    "mention_score": 1,
+    "mention_score_decayed": 0.85,
+    "last_main_idea": "Investing in tech companies that prioritize community engagement and workforce development can yield sustainable returns and mitigate risks associated with public sentiment.",
+    "last_proof_cite": "All-In with Chamath, Jason, Sacks & Friedberg \u2022 2026-09-17 \u2022 Meta's Dina Powell McCormick: The Case for Data Centers, Backlash, AI Job Boom & Meta's Future",
+    "last_proof_snippet": "A trailblazing leader in government, business, and philanthropy. A former presidential advisor to Donald Trump, Dina Palma-Cormick, joined him at a platform as president and vice chair of women. She'll help lead the company's massive AI exp",
+    "supporting_takeaway": "America's Workforce Academy has trained thousands, achieving a 90% job retention rate post-training.",
+    "grokipedia_url": null,
+    "grokipedia_fetched_at": "2026-09-17T22:20:19.073150",
+    "pundit_profile": {
+      "source": "llm",
+      "source_model": "openai:gpt-4o-mini",
+      "source_url": "",
+      "page_title": "Dina Palma-Cormick",
+      "fetched_at": "2026-09-18T03:20:19.072625+00:00",
+      "cliff_notes": "Dina Palma-Cormick has built a career at the intersection of technology, government, and philanthropy. As a key executive at Meta, she focuses on workforce development and community engagement, driving initiatives that leverage technology for societal benefit. Her previous role as a presidential advisor under Donald Trump highlights her influence in shaping policies that support women's leadership and technological growth. With a vision for the future, she is poised to lead Meta's significant AI expansion, emphasizing the importance of data centers and their positive economic impact on communities. Palma-Cormick's commitment to harnessing technology for transformative change positions her as a pivotal figure in the ongoing evolution of the tech landscape.",
+      "derived": {
+        "current_role": "Executive at Meta",
+        "former_positions": "Presidential advisor to Donald Trump; Vice Chair of Women at a platform",
+        "political_summary": "Dina has served as a presidential advisor, actively engaging in initiatives that promote women's leadership and technological innovation."
+      },
+      "infobox": {},
+      "lead_paragraphs": [
+        "Dina Palma-Cormick has built a career at the intersection of technology, government, and philanthropy. As a key executive at Meta, she focuses on workforce development and community engagement, driving initiatives that leverage technology for societal benefit. Her previous role as a presidential advisor under Donald Trump highlights her influence in shaping policies that support women's leadership and technological growth.",
+        "With a vision for the future, she is poised to lead Meta's significant AI expansion, emphasizing the importance of data centers and their positive economic impact on communities. Palma-Cormick's commitment to harnessing technology for transformative change positions her as a pivotal figure in the ongoing evolution of the tech landscape."
+      ],
+      "sections": [
+        {
+          "heading": "AI Expansion",
+          "body": "Dina is at the forefront of Meta's AI expansion, focusing on integrating advanced technologies into the company's operations and community initiatives."
+        },
+        {
+          "heading": "Workforce Development",
+          "body": "She leads programs aimed at enhancing workforce skills, ensuring that communities are prepared for the technological advancements of the future."
+        },
+        {
+          "heading": "Women in Leadership",
+          "body": "Dina advocates for women's leadership in technology and business, emphasizing their critical role in driving innovation and change."
+        },
+        {
+          "heading": "Community Engagement",
+          "body": "Her work involves fostering strong community ties and demonstrating the economic benefits of technology, particularly through data centers."
+        }
+      ]
+    }
   },
   {
     "id": 464,
@@ -2263,7 +2440,7 @@
     "last_podcast_name": "All-In with Chamath, Jason, Sacks & Friedberg",
     "last_episode_date": "2026-08-08",
     "mention_score": 2,
-    "mention_score_decayed": 0.83,
+    "mention_score_decayed": 0.81,
     "last_main_idea": "Investment in AI infrastructure and data centers is becoming increasingly important due to the demand for compute power and the tax advantages of such investments in the U.S.",
     "last_proof_cite": "All-In with Chamath, Jason, Sacks & Friedberg \u2022 2026-08-08 \u2022 Google's AI Brain Drain, SpaceX's Huge Quarter, Airtable's 90% Collapse, US Data Fuels China AI",
     "last_proof_snippet": "All right, everybody. Welcome back to your favorite podcast. It's the all-in podcast. It's the summer. It's August 6th. Haven't a hard time getting a core. I'm here on the podcast. But David Friedberg is here. David Friedberg is back our Su",
@@ -3362,7 +3539,7 @@
     "last_podcast_name": "The a16z Show",
     "last_episode_date": "2026-08-21",
     "mention_score": 1,
-    "mention_score_decayed": 0.55,
+    "mention_score_decayed": 0.54,
     "last_main_idea": "Investing in AI-driven security solutions can enhance operational efficiency and effectiveness, providing a competitive edge in a rapidly evolving technological landscape.",
     "last_proof_cite": "The a16z Show \u2022 2026-08-21 \u2022 Microsoft's Deputy CISO on Securing AI Agents",
     "last_proof_snippet": "The top story has been that the AI models are happy. The models went out under the internet and tested the security of several organizations. Isn't something to be scared of? Yes. Is it something to throw up your hands and worry about? No.",
@@ -3424,7 +3601,7 @@
     "last_podcast_name": "Moonshots with Peter Diamandis",
     "last_episode_date": "2026-07-29",
     "mention_score": 1,
-    "mention_score_decayed": 0.55,
+    "mention_score_decayed": 0.54,
     "last_main_idea": "The accelerating pace of AI development, coupled with advancements in space technology and a shifting geopolitical landscape, creates a multi-faceted investment opportunity in companies fostering balanced AI ecosystems, pioneering AGI, and enabling future abundance.",
     "last_proof_cite": "Moonshots with Peter Diamandis \u2022 2026-07-29 \u2022 Dario vs Jensen on Open Weights, OpenAI & Anthropic in DC, Xi Exports AI to Global South | EP #275",
     "last_proof_snippet": "The couple of days ago, Jensen Wong's CEO of NVIDIA. He says the world needs both frontier, close models, and frontier open models. And Thropic was silent for three days, and there was a lot of conversation. Where's in Thropic in this conve",
@@ -3452,7 +3629,7 @@
     "last_podcast_name": "Moonshots with Peter Diamandis",
     "last_episode_date": "2026-07-29",
     "mention_score": 1,
-    "mention_score_decayed": 0.55,
+    "mention_score_decayed": 0.54,
     "last_main_idea": "The accelerating pace of AI development, coupled with advancements in space technology and a shifting geopolitical landscape, creates a multi-faceted investment opportunity in companies fostering balanced AI ecosystems, pioneering AGI, and enabling future abundance.",
     "last_proof_cite": "Moonshots with Peter Diamandis \u2022 2026-07-29 \u2022 Dario vs Jensen on Open Weights, OpenAI & Anthropic in DC, Xi Exports AI to Global South | EP #275",
     "last_proof_snippet": "The couple of days ago, Jensen Wong's CEO of NVIDIA. He says the world needs both frontier, close models, and frontier open models. And Thropic was silent for three days, and there was a lot of conversation. Where's in Thropic in this conve",
@@ -3480,7 +3657,7 @@
     "last_podcast_name": "The a16z Show",
     "last_episode_date": "2026-06-12",
     "mention_score": 1,
-    "mention_score_decayed": 0.55,
+    "mention_score_decayed": 0.54,
     "last_main_idea": "The core investment opportunity lies in identifying and capitalizing on the foundational industries and efficient institutions that will enable and benefit from the AI-induced industrial revolution, while also navigating the demographic and political economic shifts it engenders.",
     "last_proof_cite": "The a16z Show \u2022 2026-06-12 \u2022 Samo Burja on Growth, Energy, and AI",
     "last_proof_snippet": "So, I actually think a big macro story that we've been exploring at Bismarck and Alice's in Bismarck Brief is that the demands of AI are so massive that for the first time in decades, the economies of scale necessary to supply them require",
@@ -4727,7 +4904,7 @@
     "last_podcast_name": "Monetary Matters with Jack Farley",
     "last_episode_date": "2026-08-16",
     "mention_score": 1,
-    "mention_score_decayed": 0.42,
+    "mention_score_decayed": 0.41,
     "last_main_idea": "Investment in hyperscaler companies may offer significant returns due to their transformative technology and massive capital investments, but also carries risks due to the off-balance sheet leverage and innovative financial structures.",
     "last_proof_cite": "Monetary Matters with Jack Farley \u2022 2026-08-16 \u2022 Robin Wigglesworth on Hyperscalers' 1.5 Trillion of Off-Balance Sheet Liabilities, Private Credit, and His Book \"A Fabulous Debt\"",
     "last_proof_snippet": "I'm joined today by Robin Wigglesworth, editor of AlphaVille, the Financial Times Financial blog and author of a fabulous debt, the epic story of how bonds built the modern world Robin. But one talk about bonds fixed income of course, but w",
@@ -5040,7 +5217,7 @@
     "last_podcast_name": "Monetary Matters with Jack Farley",
     "last_episode_date": "2026-08-12",
     "mention_score": 1,
-    "mention_score_decayed": 0.38,
+    "mention_score_decayed": 0.37,
     "last_main_idea": "Milton Berg's investment thesis is that the market may have bottomed and is poised for a rebound, with specific focus on sectors that have experienced significant declines as potential short-term bounce candidates.",
     "last_proof_cite": "Monetary Matters with Jack Farley \u2022 2026-08-12 \u2022 Milton Berg: I Have Evidence Market Has Likely Bottomed | Why Milton\u2019s Long Semis, Korea, Nasdaq, and More (With Caveats), and Why He Thinks Gold has made a Multi-year Top",
     "last_proof_snippet": "I am joined once again by Milton Berg of MB advisors and Milton Berg Edge. Milton is one of the greatest market technicians alive. And he focuses on a lot of things that most tetanolists don't follow. He's mostly not looking at charts. He's",
@@ -5354,7 +5531,7 @@
     "last_podcast_name": "Dwarkesh Podcast",
     "last_episode_date": "2026-08-11",
     "mention_score": 1,
-    "mention_score_decayed": 0.37,
+    "mention_score_decayed": 0.36,
     "last_main_idea": "Investment in AI development and security is crucial to manage the rapid advancements and ensure ethical AI behavior.",
     "last_proof_cite": "Dwarkesh Podcast \u2022 2026-08-11 \u2022 Ryan Greenblatt \u2013 Human level AIs might build runaway superintelligences by 2032",
     "last_proof_snippet": "Today, I'm chatting with Ryan Greenlet, who is the chief scientist at Redwood Research, where he focuses on technical AI safety and security work. I want to talk to you about recursive self-improvement. This is the idea that once you build",
@@ -7422,7 +7599,7 @@
     "last_podcast_name": "All-In with Chamath, Jason, Sacks & Friedberg",
     "last_episode_date": "2026-07-20",
     "mention_score": 1,
-    "mention_score_decayed": 0.23,
+    "mention_score_decayed": 0.22,
     "last_main_idea": "The current market behavior, while bubbly, is distinct from past bubbles and may disproportionately impact venture capital and private equity firms due to aggressive investment strategies.",
     "last_proof_cite": "All-In with Chamath, Jason, Sacks & Friedberg \u2022 2026-07-20 \u2022 Mark Cuban on the AI Bubble: Who Actually Gets Wiped Out?",
     "last_proof_snippet": "You and I live through a couple of bubbles. We've seen this movie before. And this wave seems very different than the dot com wave. So let's talk about that. Are you concerned about a bubble? We're seeing bubbly like behavior people. It's n",
@@ -7685,7 +7862,7 @@
     "last_podcast_name": "Moonshots with Peter Diamandis",
     "last_episode_date": "2026-07-17",
     "mention_score": 1,
-    "mention_score_decayed": 0.21,
+    "mention_score_decayed": 0.2,
     "last_main_idea": "Investing in AI companies that focus on customization and small language models can provide significant returns as these technologies meet current market demands and have the potential to shape the future of AI.",
     "last_proof_cite": "Moonshots with Peter Diamandis \u2022 2026-07-17 \u2022 Mira Murati's 975B Open Model, Ramin Hasani on Post-Transformer AI, and Demis' AI FINRA | EP #271",
     "last_proof_snippet": "Miramoradi, the former OpenAI CTO, just shipped her first model. It's called Inkling, customization over leaderboard dominance is what's going to win her the day. She's built exactly the thing hitting the market that exactly what everybody",
@@ -8741,144 +8918,6 @@
     "net_worth": "$12.0M"
   },
   {
-    "id": 122,
-    "name": "Michael Every",
-    "slug": "michael-every",
-    "bio": "Michael Every is a renowned financial analyst with a focus on global markets and economic policies. He is recognized for his insightful commentary on geopolitical issues and their impact on financial markets. Every's expertise is sought after by professional finance, high-net worth individuals, and sophisticated investors.",
-    "known_for": "His incisive analysis on the intersection of geopolitics, inflation, and market trends.",
-    "net_worth_usd": 70000000000.0,
-    "net_worth_source": "https://www.celebritynetworth.com/richest-politicians/michael-bloomberg-net-worth/",
-    "net_worth_updated_at": "2026-03-31T20:09:40.488239",
-    "voice_tone": "Authoritative and insightful",
-    "voice_style": "Factual and analytical",
-    "voice_delivery_notes": "Clear and deliberate pace with emphasis on key economic indicators",
-    "voice_profile_updated_at": "2026-06-04 18:37:25",
-    "last_seen": "2026-06-04 18:37:26",
-    "last_episode_title": "MacroVoices #535 Michael Every: NAFTA and NAPTHA \u2013 Warcraft & Fartcraft",
-    "last_podcast_name": "Macro Voices",
-    "last_episode_date": "2026-06-04",
-    "mention_score": 2,
-    "mention_score_decayed": 0.15,
-    "last_main_idea": "Invest in sectors that are likely to benefit from a shift towards economic statecraft and prepare for market volatility due to geopolitical tensions.",
-    "last_proof_cite": "Macro Voices \u2022 2026-06-04 \u2022 MacroVoices #535 Michael Every: NAFTA and NAPTHA \u2013 Warcraft & Fartcraft",
-    "last_proof_snippet": "This is Macrovoisers, the Free Weekly Financial Podcast, targeting professional finance, high-net worth individuals, family offices, and other sophisticated investors. Macrovoisers is all about the brightest minds in the world of finance an",
-    "supporting_takeaway": "Consider investing in infrastructure and industrial sectors due to a shift towards economic statecraft.",
-    "grokipedia_url": null,
-    "grokipedia_fetched_at": "2026-06-04T13:38:40.048685",
-    "pundit_profile": {
-      "source": "llm",
-      "source_model": "moonshot:moonshot-v1-8k",
-      "source_url": "",
-      "page_title": "Michael Every",
-      "fetched_at": "2026-06-04T18:38:40.048477+00:00",
-      "cliff_notes": "Michael Every has carved out a niche as a financial analyst with a particular focus on the intricacies of global markets and their relationship with economic policies. His career has been marked by a deep dive into geopolitical events and their financial repercussions, making him a go-to source for understanding complex market dynamics. Every's commentary is valued for its clarity and ability to distill complex economic and political scenarios into actionable insights for investors. His work has been influential in shaping investment strategies amidst global uncertainties, particularly in the realms of inflation, trade, and geopolitical tensions.",
-      "derived": {
-        "current_role": "Robobank Strategist"
-      },
-      "infobox": {
-        "Born": "",
-        "Nationality": ""
-      },
-      "lead_paragraphs": [
-        "Michael Every has carved out a niche as a financial analyst with a particular focus on the intricacies of global markets and their relationship with economic policies. His career has been marked by a deep dive into geopolitical events and their financial repercussions, making him a go-to source for understanding complex market dynamics.",
-        "Every's commentary is valued for its clarity and ability to distill complex economic and political scenarios into actionable insights for investors. His work has been influential in shaping investment strategies amidst global uncertainties, particularly in the realms of inflation, trade, and geopolitical tensions."
-      ],
-      "sections": [
-        {
-          "heading": "Geopolitical Impact on Markets",
-          "body": "Every is known for his analysis on how geopolitical events, such as the U.S. blockade of Iran, affect global markets and inflation."
-        },
-        {
-          "heading": "Economic Statecraft",
-          "body": "His work often encompasses the strategic use of economic tools by nations to achieve foreign policy goals."
-        },
-        {
-          "heading": "Inflation Outlook",
-          "body": "Every provides detailed insights into the inflationary trends and their implications for global economies."
-        },
-        {
-          "heading": "China's Role in Global Economy",
-          "body": "He frequently discusses China's economic policies and their impact on international trade and markets."
-        },
-        {
-          "heading": "President Trump's Economic Policies",
-          "body": "Every has commented on the economic policies of President Trump, including the potential lifting of the Iran blockade."
-        },
-        {
-          "heading": "Statecraft Ambitions",
-          "body": "His analysis includes the examination of statecraft ambitions through the lens of economic and financial strategies."
-        }
-      ]
-    },
-    "net_worth": "$70.00B"
-  },
-  {
-    "id": 171,
-    "name": "Steven Sinofsky",
-    "slug": "steven-sinofsky",
-    "bio": "Steven Sinofsky is a former Microsoft executive and industry expert on personal computing and software development. Over nearly three decades at Microsoft, he helped shape products that define the PC era, including Windows, Office, and Surface. Sinofsky has witnessed one of the technology industry's longest-running rivalries, Microsoft and Apple, and continues to provide insights on the evolution of personal computing.",
-    "known_for": "His tenure at Microsoft and insights on the evolution of personal computing.",
-    "net_worth_usd": 300000000.0,
-    "net_worth_source": "https://www.gurufocus.com/insider/3984/steven-j-sinofsky",
-    "net_worth_updated_at": "2026-04-10T22:06:00.230554",
-    "voice_tone": "Reflective and insightful",
-    "voice_style": "Analytical and comparative",
-    "voice_delivery_notes": "Paced with emphasis on key historical moments and technological differences",
-    "voice_profile_updated_at": "2026-04-11 03:05:18",
-    "last_seen": "2026-06-03 03:02:03",
-    "last_episode_title": "Steven Sinofsky on Apple at 50, Microsoft, and the Future of Computing",
-    "last_podcast_name": "The a16z Show",
-    "last_episode_date": "2026-06-02",
-    "mention_score": 2,
-    "mention_score_decayed": 0.15,
-    "last_main_idea": "Investment in AI-native computing hardware and software development will be pivotal as personal computing transitions towards AI optimization, with Nvidia and Apple leading the charge.",
-    "last_proof_cite": "The a16z Show \u2022 2026-06-02 \u2022 Steven Sinofsky on Apple at 50, Microsoft, and the Future of Computing",
-    "last_proof_snippet": "Having lived through like a half dozen component church things, you just sort of wait them out and you jump, let some local max, your local men determine the future. This will all correct itself, in short order. This world where you're all",
-    "supporting_takeaway": "The shift to local processing could reduce costs associated with cloud-based AI services and democratize AI tool access.",
-    "grokipedia_url": null,
-    "grokipedia_fetched_at": "2026-06-02T22:02:42.225895",
-    "pundit_profile": {
-      "source": "llm",
-      "source_model": "moonshot:moonshot-v1-8k",
-      "source_url": "",
-      "page_title": "Steven Sinofsky",
-      "fetched_at": "2026-06-03T03:02:42.225549+00:00",
-      "cliff_notes": "Steven Sinofsky is best known for his nearly three-decade tenure at Microsoft, where he played a pivotal role in shaping some of the most defining products of the personal computing era, including Windows, Office, and Surface. As President of the Windows Division, Sinofsky was instrumental in guiding the development and marketing of the Windows operating system, which remains the backbone of the PC industry. His tenure also saw him navigate the intense rivalry between Microsoft and Apple, providing him with a unique perspective on product design, platforms, hardware, and software. Since leaving Microsoft, Sinofsky has continued to offer valuable insights into the future of computing, particularly in areas such as AI and resource constraints. His front-row seat to the personal computing revolution has made him a sought-after commentator and thought leader in the tech industry.",
-      "derived": {
-        "former_positions": "President of the Windows Division at Microsoft; Senior Vice President at Microsoft",
-        "education": "Bachelor of Science in Computer Science and Engineering from the University of Illinois at Urbana-Champaign"
-      },
-      "infobox": {
-        "Born": "1965",
-        "Nationality": "American"
-      },
-      "lead_paragraphs": [
-        "Steven Sinofsky is best known for his nearly three-decade tenure at Microsoft, where he played a pivotal role in shaping some of the most defining products of the personal computing era, including Windows, Office, and Surface. As President of the Windows Division, Sinofsky was instrumental in guiding the development and marketing of the Windows operating system, which remains the backbone of the PC industry.",
-        "His tenure also saw him navigate the intense rivalry between Microsoft and Apple, providing him with a unique perspective on product design, platforms, hardware, and software. Since leaving Microsoft, Sinofsky has continued to offer valuable insights into the future of computing, particularly in areas such as AI and resource constraints.",
-        "His front-row seat to the personal computing revolution has made him a sought-after commentator and thought leader in the tech industry."
-      ],
-      "sections": [
-        {
-          "heading": "Microsoft Tenure",
-          "body": "Steven Sinofsky spent nearly three decades at Microsoft, where he held various leadership roles, including President of the Windows Division and Senior Vice President. He was instrumental in shaping products like Windows, Office, and Surface, which have defined the personal computing era."
-        },
-        {
-          "heading": "Windows Development",
-          "body": "As President of the Windows Division, Sinofsky played a crucial role in the development and marketing of the Windows operating system. His leadership helped guide the product through numerous iterations, ensuring its continued relevance in the face of evolving competition and market demands."
-        },
-        {
-          "heading": "Microsoft vs. Apple",
-          "body": "Sinofsky's tenure at Microsoft coincided with one of the technology industry's longest-running rivalries: Microsoft vs. Apple. His unique perspective on product design, platforms, hardware, and software has provided valuable insights into the dynamics of this intense competition."
-        },
-        {
-          "heading": "Future of Computing",
-          "body": "Since leaving Microsoft, Steven Sinofsky has continued to offer insights into the future of computing, particularly in areas such as AI and resource constraints. He believes that AI presents an opportunity to change the dynamic of personal computing, making it more forward-looking and less reliant on backward compatibility."
-        }
-      ]
-    },
-    "net_worth": "$300.0M"
-  },
-  {
     "id": 319,
     "name": "Marcus Villik",
     "slug": "marcus-villik",
@@ -9249,6 +9288,72 @@
         }
       ]
     }
+  },
+  {
+    "id": 171,
+    "name": "Steven Sinofsky",
+    "slug": "steven-sinofsky",
+    "bio": "Steven Sinofsky is a former Microsoft executive and industry expert on personal computing and software development. Over nearly three decades at Microsoft, he helped shape products that define the PC era, including Windows, Office, and Surface. Sinofsky has witnessed one of the technology industry's longest-running rivalries, Microsoft and Apple, and continues to provide insights on the evolution of personal computing.",
+    "known_for": "His tenure at Microsoft and insights on the evolution of personal computing.",
+    "net_worth_usd": 300000000.0,
+    "net_worth_source": "https://www.gurufocus.com/insider/3984/steven-j-sinofsky",
+    "net_worth_updated_at": "2026-04-10T22:06:00.230554",
+    "voice_tone": "Reflective and insightful",
+    "voice_style": "Analytical and comparative",
+    "voice_delivery_notes": "Paced with emphasis on key historical moments and technological differences",
+    "voice_profile_updated_at": "2026-04-11 03:05:18",
+    "last_seen": "2026-06-03 03:02:03",
+    "last_episode_title": "Steven Sinofsky on Apple at 50, Microsoft, and the Future of Computing",
+    "last_podcast_name": "The a16z Show",
+    "last_episode_date": "2026-06-02",
+    "mention_score": 2,
+    "mention_score_decayed": 0.14,
+    "last_main_idea": "Investment in AI-native computing hardware and software development will be pivotal as personal computing transitions towards AI optimization, with Nvidia and Apple leading the charge.",
+    "last_proof_cite": "The a16z Show \u2022 2026-06-02 \u2022 Steven Sinofsky on Apple at 50, Microsoft, and the Future of Computing",
+    "last_proof_snippet": "Having lived through like a half dozen component church things, you just sort of wait them out and you jump, let some local max, your local men determine the future. This will all correct itself, in short order. This world where you're all",
+    "supporting_takeaway": "The shift to local processing could reduce costs associated with cloud-based AI services and democratize AI tool access.",
+    "grokipedia_url": null,
+    "grokipedia_fetched_at": "2026-06-02T22:02:42.225895",
+    "pundit_profile": {
+      "source": "llm",
+      "source_model": "moonshot:moonshot-v1-8k",
+      "source_url": "",
+      "page_title": "Steven Sinofsky",
+      "fetched_at": "2026-06-03T03:02:42.225549+00:00",
+      "cliff_notes": "Steven Sinofsky is best known for his nearly three-decade tenure at Microsoft, where he played a pivotal role in shaping some of the most defining products of the personal computing era, including Windows, Office, and Surface. As President of the Windows Division, Sinofsky was instrumental in guiding the development and marketing of the Windows operating system, which remains the backbone of the PC industry. His tenure also saw him navigate the intense rivalry between Microsoft and Apple, providing him with a unique perspective on product design, platforms, hardware, and software. Since leaving Microsoft, Sinofsky has continued to offer valuable insights into the future of computing, particularly in areas such as AI and resource constraints. His front-row seat to the personal computing revolution has made him a sought-after commentator and thought leader in the tech industry.",
+      "derived": {
+        "former_positions": "President of the Windows Division at Microsoft; Senior Vice President at Microsoft",
+        "education": "Bachelor of Science in Computer Science and Engineering from the University of Illinois at Urbana-Champaign"
+      },
+      "infobox": {
+        "Born": "1965",
+        "Nationality": "American"
+      },
+      "lead_paragraphs": [
+        "Steven Sinofsky is best known for his nearly three-decade tenure at Microsoft, where he played a pivotal role in shaping some of the most defining products of the personal computing era, including Windows, Office, and Surface. As President of the Windows Division, Sinofsky was instrumental in guiding the development and marketing of the Windows operating system, which remains the backbone of the PC industry.",
+        "His tenure also saw him navigate the intense rivalry between Microsoft and Apple, providing him with a unique perspective on product design, platforms, hardware, and software. Since leaving Microsoft, Sinofsky has continued to offer valuable insights into the future of computing, particularly in areas such as AI and resource constraints.",
+        "His front-row seat to the personal computing revolution has made him a sought-after commentator and thought leader in the tech industry."
+      ],
+      "sections": [
+        {
+          "heading": "Microsoft Tenure",
+          "body": "Steven Sinofsky spent nearly three decades at Microsoft, where he held various leadership roles, including President of the Windows Division and Senior Vice President. He was instrumental in shaping products like Windows, Office, and Surface, which have defined the personal computing era."
+        },
+        {
+          "heading": "Windows Development",
+          "body": "As President of the Windows Division, Sinofsky played a crucial role in the development and marketing of the Windows operating system. His leadership helped guide the product through numerous iterations, ensuring its continued relevance in the face of evolving competition and market demands."
+        },
+        {
+          "heading": "Microsoft vs. Apple",
+          "body": "Sinofsky's tenure at Microsoft coincided with one of the technology industry's longest-running rivalries: Microsoft vs. Apple. His unique perspective on product design, platforms, hardware, and software has provided valuable insights into the dynamics of this intense competition."
+        },
+        {
+          "heading": "Future of Computing",
+          "body": "Since leaving Microsoft, Steven Sinofsky has continued to offer insights into the future of computing, particularly in areas such as AI and resource constraints. He believes that AI presents an opportunity to change the dynamic of personal computing, making it more forward-looking and less reliant on backward compatibility."
+        }
+      ]
+    },
+    "net_worth": "$300.0M"
   },
   {
     "id": 310,
@@ -9812,70 +9917,6 @@
     "net_worth": "$800.0M"
   },
   {
-    "id": 54,
-    "name": "Jim Bianco",
-    "slug": "jim-bianco",
-    "bio": "Jim Bianco is the President and Proprietor of Bianco Research, a firm known for its market analysis and commentary. He is a prominent figure in the financial industry, often providing insights on monetary policy and economic trends.",
-    "known_for": "His expertise in market analysis and commentary, particularly on monetary policy.",
-    "net_worth_usd": 12300000.0,
-    "net_worth_source": "https://www.benzinga.com/sec/insider-trades/0001198554/james-a-bianco",
-    "net_worth_updated_at": "2026-04-10T05:06:38.074861",
-    "voice_tone": "Assertive and analytical.",
-    "voice_style": "Factual and critical, with a focus on economic and political implications.",
-    "voice_delivery_notes": "Paced with emphasis on key economic indicators and policy implications.",
-    "voice_profile_updated_at": "2026-05-06 03:01:03",
-    "last_seen": "2026-05-06 03:01:03",
-    "last_episode_title": "Jim Bianco on Division at the Fed and Jerome Powell\u2019s Controversial Decision to Stay",
-    "last_podcast_name": "Monetary Matters with Jack Farley",
-    "last_episode_date": "2026-05-01",
-    "mention_score": 3,
-    "mention_score_decayed": 0.12,
-    "last_main_idea": "In an environment of protracted conflict and supply chain disruptions, commodities, particularly oil, are expected to remain elevated, with interest rates trending higher.",
-    "last_proof_cite": "Monetary Matters with Jack Farley \u2022 2026-05-01 \u2022 Jim Bianco on Division at the Fed and Jerome Powell\u2019s Controversial Decision to Stay",
-    "last_proof_snippet": "We are here another addition of monetary matters live on monitoring the situation. I'm Jack Farley and I'm Max Weethy. We've got a big day Jack. It's almost a comically large amount of news we have to get into. We're going to be speaking ab",
-    "supporting_takeaway": "The independence of the Fed is increasingly questioned, with 12 independent voters leading to a shift away from groupthink.",
-    "grokipedia_url": null,
-    "grokipedia_fetched_at": "2026-05-10T07:05:08.511229",
-    "pundit_profile": {
-      "source": "llm",
-      "source_model": "moonshot:moonshot-v1-8k",
-      "source_url": "",
-      "page_title": "Jim Bianco",
-      "fetched_at": "2026-05-10T12:05:08.510952+00:00",
-      "cliff_notes": "Jim Bianco is a well-respected figure in the financial world, serving as the President and Proprietor of Bianco Research. His career has been marked by a deep focus on market analysis and commentary, with a particular emphasis on monetary policy. Bianco's insights are sought after by investors and financial professionals alike, as he provides a clear and concise understanding of complex economic issues. His work has helped shape the discourse around financial markets and the role of central banks, making him an influential voice in the industry.",
-      "derived": {
-        "current_role": "President and Proprietor of Bianco Research"
-      },
-      "infobox": {
-        "Born": "",
-        "Nationality": ""
-      },
-      "lead_paragraphs": [
-        "Jim Bianco is a well-respected figure in the financial world, serving as the President and Proprietor of Bianco Research. His career has been marked by a deep focus on market analysis and commentary, with a particular emphasis on monetary policy. Bianco's insights are sought after by investors and financial professionals alike, as he provides a clear and concise understanding of complex economic issues.",
-        "His work has helped shape the discourse around financial markets and the role of central banks, making him an influential voice in the industry."
-      ],
-      "sections": [
-        {
-          "heading": "Market Analysis",
-          "body": "Jim Bianco is recognized for his in-depth market analysis, providing clear and actionable insights to investors."
-        },
-        {
-          "heading": "Monetary Policy",
-          "body": "Bianco's commentary on monetary policy is highly regarded, offering unique perspectives on the actions of central banks."
-        },
-        {
-          "heading": "Economic Trends",
-          "body": "He frequently discusses and analyzes economic trends, helping to forecast market movements and impacts."
-        },
-        {
-          "heading": "Financial Commentary",
-          "body": "Bianco's financial commentary is a staple in the industry, offering on a wide range of financial topics."
-        }
-      ]
-    },
-    "net_worth": "$12.3M"
-  },
-  {
     "id": 300,
     "name": "Ed Zitron",
     "slug": "ed-zitron",
@@ -10063,6 +10104,70 @@
     }
   },
   {
+    "id": 54,
+    "name": "Jim Bianco",
+    "slug": "jim-bianco",
+    "bio": "Jim Bianco is the President and Proprietor of Bianco Research, a firm known for its market analysis and commentary. He is a prominent figure in the financial industry, often providing insights on monetary policy and economic trends.",
+    "known_for": "His expertise in market analysis and commentary, particularly on monetary policy.",
+    "net_worth_usd": 12300000.0,
+    "net_worth_source": "https://www.benzinga.com/sec/insider-trades/0001198554/james-a-bianco",
+    "net_worth_updated_at": "2026-04-10T05:06:38.074861",
+    "voice_tone": "Assertive and analytical.",
+    "voice_style": "Factual and critical, with a focus on economic and political implications.",
+    "voice_delivery_notes": "Paced with emphasis on key economic indicators and policy implications.",
+    "voice_profile_updated_at": "2026-05-06 03:01:03",
+    "last_seen": "2026-05-06 03:01:03",
+    "last_episode_title": "Jim Bianco on Division at the Fed and Jerome Powell\u2019s Controversial Decision to Stay",
+    "last_podcast_name": "Monetary Matters with Jack Farley",
+    "last_episode_date": "2026-05-01",
+    "mention_score": 3,
+    "mention_score_decayed": 0.11,
+    "last_main_idea": "In an environment of protracted conflict and supply chain disruptions, commodities, particularly oil, are expected to remain elevated, with interest rates trending higher.",
+    "last_proof_cite": "Monetary Matters with Jack Farley \u2022 2026-05-01 \u2022 Jim Bianco on Division at the Fed and Jerome Powell\u2019s Controversial Decision to Stay",
+    "last_proof_snippet": "We are here another addition of monetary matters live on monitoring the situation. I'm Jack Farley and I'm Max Weethy. We've got a big day Jack. It's almost a comically large amount of news we have to get into. We're going to be speaking ab",
+    "supporting_takeaway": "The independence of the Fed is increasingly questioned, with 12 independent voters leading to a shift away from groupthink.",
+    "grokipedia_url": null,
+    "grokipedia_fetched_at": "2026-05-10T07:05:08.511229",
+    "pundit_profile": {
+      "source": "llm",
+      "source_model": "moonshot:moonshot-v1-8k",
+      "source_url": "",
+      "page_title": "Jim Bianco",
+      "fetched_at": "2026-05-10T12:05:08.510952+00:00",
+      "cliff_notes": "Jim Bianco is a well-respected figure in the financial world, serving as the President and Proprietor of Bianco Research. His career has been marked by a deep focus on market analysis and commentary, with a particular emphasis on monetary policy. Bianco's insights are sought after by investors and financial professionals alike, as he provides a clear and concise understanding of complex economic issues. His work has helped shape the discourse around financial markets and the role of central banks, making him an influential voice in the industry.",
+      "derived": {
+        "current_role": "President and Proprietor of Bianco Research"
+      },
+      "infobox": {
+        "Born": "",
+        "Nationality": ""
+      },
+      "lead_paragraphs": [
+        "Jim Bianco is a well-respected figure in the financial world, serving as the President and Proprietor of Bianco Research. His career has been marked by a deep focus on market analysis and commentary, with a particular emphasis on monetary policy. Bianco's insights are sought after by investors and financial professionals alike, as he provides a clear and concise understanding of complex economic issues.",
+        "His work has helped shape the discourse around financial markets and the role of central banks, making him an influential voice in the industry."
+      ],
+      "sections": [
+        {
+          "heading": "Market Analysis",
+          "body": "Jim Bianco is recognized for his in-depth market analysis, providing clear and actionable insights to investors."
+        },
+        {
+          "heading": "Monetary Policy",
+          "body": "Bianco's commentary on monetary policy is highly regarded, offering unique perspectives on the actions of central banks."
+        },
+        {
+          "heading": "Economic Trends",
+          "body": "He frequently discusses and analyzes economic trends, helping to forecast market movements and impacts."
+        },
+        {
+          "heading": "Financial Commentary",
+          "body": "Bianco's financial commentary is a staple in the industry, offering on a wide range of financial topics."
+        }
+      ]
+    },
+    "net_worth": "$12.3M"
+  },
+  {
     "id": 297,
     "name": "Eden Ha",
     "slug": "eden-ha",
@@ -10080,7 +10185,7 @@
     "last_podcast_name": "Latent Space: The AI Engineer Podcast",
     "last_episode_date": "2026-06-01",
     "mention_score": 1,
-    "mention_score_decayed": 0.11,
+    "mention_score_decayed": 0.1,
     "last_main_idea": "Invest in AI companies that prioritize language integration with video generation and have efficient training processes to capitalize on the evolving capabilities of generative AI.",
     "last_proof_cite": "Latent Space: The AI Engineer Podcast \u2022 2026-06-01 \u2022 Why Video Agent models are next \u2014 Ethan He, xAI Grok Imagine",
     "last_proof_snippet": "Okay, we're here in a studio with Eden Ha, most recently of XCI. Welcome. Yeah, thank you, glad being here. We were so here with Vibu. You were first coming to us or joining Lily in Space World because you were working on Cosmos in a video",
@@ -10141,7 +10246,7 @@
     "last_podcast_name": "Monetary Matters with Jack Farley",
     "last_episode_date": "2026-06-18",
     "mention_score": 1,
-    "mention_score_decayed": 0.11,
+    "mention_score_decayed": 0.1,
     "last_main_idea": "Invest in U.S. industrial champions with strong order backlogs and companies positioned to benefit from the electrification and modernization of the U.S. grid.",
     "last_proof_cite": "Monetary Matters with Jack Farley \u2022 2026-06-18 \u2022 The US Manufacturing and Electrification Megatrends Are Here and They\u2019re Way More Than AI | Chris Semenuk",
     "last_proof_snippet": "The U.S. manufacturing has essentially been in a recession for three straight years and we have only just emerged now. If I had a CMMI survey, just reached about 50 in the last three months. And that's after three consecutive years of sub-5",
