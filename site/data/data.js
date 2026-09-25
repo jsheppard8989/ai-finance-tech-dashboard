@@ -3,1043 +3,1043 @@
 
 const dashboardData = {
   schemaVersion: 2,
-  generatedAt: "2026-09-24T15:23:21.949877",
-  chartsVersion: "2026-09-24T14:15:52.829535",
+  generatedAt: "2026-09-24T22:35:14.404364",
+  chartsVersion: "2026-09-24T22:34:58.234940",
   priceSnapshot: {
   "AAPL": {
-    "price": 337.51,
-    "change_pct": 5.48,
+    "price": 335.92,
+    "change_pct": 4.98,
     "name": "Apple Inc.",
-    "updated_at": "2026-09-24T14:14:36.716301",
+    "updated_at": "2026-09-24T22:33:48.870574",
     "price_14d_ago": 319.97
   },
   "AEP": {
-    "price": 117.84,
-    "change_pct": -5.35,
+    "price": 117.57,
+    "change_pct": -5.57,
     "name": "American Electric Power Company",
-    "updated_at": "2026-09-24T14:14:36.965615",
+    "updated_at": "2026-09-24T22:33:49.100179",
     "price_14d_ago": 124.5
   },
   "AMD": {
-    "price": 623.71,
-    "change_pct": 30.6,
+    "price": 629.26,
+    "change_pct": 31.76,
     "name": "Advanced Micro Devices, Inc.",
-    "updated_at": "2026-09-24T14:14:37.154456",
+    "updated_at": "2026-09-24T22:33:49.274483",
     "price_14d_ago": 477.57
   },
   "AMGN": {
-    "price": 406.96,
-    "change_pct": -6.92,
+    "price": 406.04,
+    "change_pct": -7.13,
     "name": "Amgen Inc.",
-    "updated_at": "2026-09-24T14:14:37.340013",
+    "updated_at": "2026-09-24T22:33:49.470926",
     "price_14d_ago": 437.23
   },
   "AMZN": {
-    "price": 249.75,
-    "change_pct": -3.39,
+    "price": 249.38,
+    "change_pct": -3.53,
     "name": "Amazon.com, Inc.",
-    "updated_at": "2026-09-24T14:14:37.522100",
+    "updated_at": "2026-09-24T22:33:49.646907",
     "price_14d_ago": 258.51
   },
   "APO": {
-    "price": 119.45,
-    "change_pct": -10.64,
+    "price": 120.69,
+    "change_pct": -9.71,
     "name": "Apollo Global Management, Inc. ",
-    "updated_at": "2026-09-24T14:14:37.727296",
+    "updated_at": "2026-09-24T22:33:49.832859",
     "price_14d_ago": 133.67
   },
   "APTV": {
-    "price": 43.5,
-    "change_pct": -9.28,
+    "price": 43.58,
+    "change_pct": -9.11,
     "name": "Aptiv PLC",
-    "updated_at": "2026-09-24T14:14:37.905477",
+    "updated_at": "2026-09-24T22:33:50.010197",
     "price_14d_ago": 47.95
   },
   "AVGO": {
-    "price": 349.1,
-    "change_pct": -2.46,
+    "price": 350.36,
+    "change_pct": -2.11,
     "name": "Broadcom Inc.",
-    "updated_at": "2026-09-24T14:14:38.088052",
+    "updated_at": "2026-09-24T22:33:50.207089",
     "price_14d_ago": 357.9
   },
   "BA": {
-    "price": 196.61,
-    "change_pct": -7.37,
+    "price": 196.8,
+    "change_pct": -7.28,
     "name": "Boeing Company (The)",
-    "updated_at": "2026-09-24T14:14:38.474225",
+    "updated_at": "2026-09-24T22:33:50.597809",
     "price_14d_ago": 212.25
   },
   "BABA": {
-    "price": 111.28,
-    "change_pct": -1.73,
+    "price": 110.63,
+    "change_pct": -2.3,
     "name": "Alibaba Group Holding Limited",
-    "updated_at": "2026-09-24T14:14:38.726665",
+    "updated_at": "2026-09-24T22:33:50.847729",
     "price_14d_ago": 113.24
   },
   "BAC": {
-    "price": 56.12,
-    "change_pct": -10.47,
+    "price": 56.03,
+    "change_pct": -10.61,
     "name": "Bank of America Corporation",
-    "updated_at": "2026-09-24T14:14:38.944262",
+    "updated_at": "2026-09-24T22:33:51.055138",
     "price_14d_ago": 62.68
   },
   "BAM": {
-    "price": 44.26,
-    "change_pct": -12.54,
+    "price": 44.58,
+    "change_pct": -11.9,
     "name": "Brookfield Asset Management Inc",
-    "updated_at": "2026-09-24T14:14:39.140380",
+    "updated_at": "2026-09-24T22:33:51.325454",
     "price_14d_ago": 50.6
   },
   "BIDU": {
-    "price": 88.14,
-    "change_pct": -11.39,
+    "price": 88.08,
+    "change_pct": -11.45,
     "name": "Baidu, Inc.",
-    "updated_at": "2026-09-24T14:14:39.499587",
+    "updated_at": "2026-09-24T22:33:51.673493",
     "price_14d_ago": 99.47
   },
   "BP": {
-    "price": 44.48,
-    "change_pct": 1.54,
+    "price": 44.41,
+    "change_pct": 1.37,
     "name": "BP p.l.c.",
-    "updated_at": "2026-09-24T14:14:39.906248",
+    "updated_at": "2026-09-24T22:33:52.066873",
     "price_14d_ago": 43.81
   },
   "BTC": {
-    "price": 84605.32,
-    "change_pct": 9.63,
+    "price": 84182.75,
+    "change_pct": 8.95,
     "name": "Bitcoin USD",
-    "updated_at": "2026-09-24T14:14:40.101019",
-    "price_14d_ago": 77173.8
+    "updated_at": "2026-09-24T22:33:52.240134",
+    "price_14d_ago": 77270.47
   },
   "BTC-USD": {
-    "price": 84605.32,
-    "change_pct": 9.63,
+    "price": 84182.75,
+    "change_pct": 8.95,
     "name": "Bitcoin USD",
-    "updated_at": "2026-09-24T14:14:40.283344",
-    "price_14d_ago": 77173.8
+    "updated_at": "2026-09-24T22:33:52.410961",
+    "price_14d_ago": 77270.47
   },
   "BX": {
-    "price": 116.86,
-    "change_pct": -14.17,
+    "price": 117.21,
+    "change_pct": -13.91,
     "name": "Blackstone Inc.",
-    "updated_at": "2026-09-24T14:14:40.473950",
+    "updated_at": "2026-09-24T22:33:52.607979",
     "price_14d_ago": 136.15
   },
   "BYD": {
-    "price": 71.63,
-    "change_pct": -8.19,
+    "price": 71.84,
+    "change_pct": -7.92,
     "name": "Boyd Gaming Corporation",
-    "updated_at": "2026-09-24T14:14:40.682572",
+    "updated_at": "2026-09-24T22:33:52.801438",
     "price_14d_ago": 78.02
   },
   "CAT": {
-    "price": 803.21,
-    "change_pct": -1.32,
+    "price": 805.25,
+    "change_pct": -1.07,
     "name": "Caterpillar, Inc.",
-    "updated_at": "2026-09-24T14:14:41.115751",
+    "updated_at": "2026-09-24T22:33:53.188905",
     "price_14d_ago": 813.94
   },
   "CCJ": {
-    "price": 88.19,
-    "change_pct": -12.46,
+    "price": 88.12,
+    "change_pct": -12.53,
     "name": "Cameco Corporation",
-    "updated_at": "2026-09-24T14:14:41.322110",
+    "updated_at": "2026-09-24T22:33:53.391118",
     "price_14d_ago": 100.74
   },
   "CEG": {
-    "price": 261.41,
-    "change_pct": -12.56,
+    "price": 261.62,
+    "change_pct": -12.49,
     "name": "Constellation Energy Corporatio",
-    "updated_at": "2026-09-24T14:14:41.506571",
+    "updated_at": "2026-09-24T22:33:53.568930",
     "price_14d_ago": 298.96
   },
   "COIN": {
-    "price": 199.09,
-    "change_pct": 7.82,
+    "price": 199.21,
+    "change_pct": 7.89,
     "name": "Coinbase Global, Inc.",
-    "updated_at": "2026-09-24T14:14:41.686508",
+    "updated_at": "2026-09-24T22:33:53.746852",
     "price_14d_ago": 184.64
   },
   "COPPER": {
-    "price": 6.78,
-    "change_pct": 2.83,
+    "price": 6.75,
+    "change_pct": 0.19,
     "name": "Copper",
-    "updated_at": "2026-09-24T14:14:41.943096",
-    "price_14d_ago": 6.6
+    "updated_at": "2026-09-24T22:33:53.922396",
+    "price_14d_ago": 6.74
   },
   "CORN": {
     "price": 19.68,
-    "change_pct": -1.95,
+    "change_pct": -1.94,
     "name": "Teucrium Corn Fund ETV",
-    "updated_at": "2026-09-24T14:14:42.119574",
+    "updated_at": "2026-09-24T22:33:54.101762",
     "price_14d_ago": 20.07
   },
   "CRM": {
-    "price": 239.92,
-    "change_pct": -7.45,
+    "price": 238.22,
+    "change_pct": -8.1,
     "name": "Salesforce, Inc.",
-    "updated_at": "2026-09-24T14:14:42.309112",
+    "updated_at": "2026-09-24T22:33:54.279766",
     "price_14d_ago": 259.23
   },
   "CROWD": {
-    "price": 262.7,
-    "change_pct": 23.28,
+    "price": 259.67,
+    "change_pct": 21.85,
     "name": "CrowdStrike Holdings, Inc.",
-    "updated_at": "2026-09-24T14:14:42.487350",
+    "updated_at": "2026-09-24T22:33:54.454876",
     "price_14d_ago": 213.1
   },
   "DBC": {
-    "price": 33.14,
-    "change_pct": 3.89,
+    "price": 33.18,
+    "change_pct": 4.01,
     "name": "Invesco DB Commodity Index Trac",
-    "updated_at": "2026-09-24T14:14:42.851559",
+    "updated_at": "2026-09-24T22:33:54.821070",
     "price_14d_ago": 31.9
   },
   "DELL": {
-    "price": 544.79,
-    "change_pct": 3.94,
+    "price": 536.02,
+    "change_pct": 2.27,
     "name": "Dell Technologies Inc.",
-    "updated_at": "2026-09-24T14:14:43.030002",
+    "updated_at": "2026-09-24T22:33:55.009008",
     "price_14d_ago": 524.14
   },
   "DIS": {
-    "price": 105.12,
-    "change_pct": -0.18,
+    "price": 105.56,
+    "change_pct": 0.24,
     "name": "Walt Disney Company (The)",
-    "updated_at": "2026-09-24T14:14:43.347126",
+    "updated_at": "2026-09-24T22:33:55.246180",
     "price_14d_ago": 105.31
   },
   "DOCS": {
-    "price": 26.27,
-    "change_pct": -0.28,
+    "price": 26.04,
+    "change_pct": -1.18,
     "name": "Doximity, Inc.",
-    "updated_at": "2026-09-24T14:14:43.608365",
+    "updated_at": "2026-09-24T22:33:55.424765",
     "price_14d_ago": 26.35
   },
   "DVN": {
-    "price": 48.71,
-    "change_pct": 1.35,
+    "price": 48.9,
+    "change_pct": 1.75,
     "name": "Devon Energy Corporation",
-    "updated_at": "2026-09-24T14:14:43.818453",
+    "updated_at": "2026-09-24T22:33:55.632986",
     "price_14d_ago": 48.06
   },
   "EBAY": {
-    "price": 108.0,
-    "change_pct": 4.43,
+    "price": 107.83,
+    "change_pct": 4.27,
     "name": "eBay Inc.",
-    "updated_at": "2026-09-24T14:14:44.018221",
+    "updated_at": "2026-09-24T22:33:55.808210",
     "price_14d_ago": 103.41
   },
   "ETH-USD": {
-    "price": 2690.42,
-    "change_pct": 6.99,
+    "price": 2676.21,
+    "change_pct": 5.95,
     "name": "Ethereum USD",
-    "updated_at": "2026-09-24T14:14:44.195381",
-    "price_14d_ago": 2514.73
+    "updated_at": "2026-09-24T22:33:55.985247",
+    "price_14d_ago": 2525.94
   },
   "F": {
-    "price": 12.68,
-    "change_pct": -13.3,
+    "price": 12.6,
+    "change_pct": -13.82,
     "name": "Ford Motor Company",
-    "updated_at": "2026-09-24T14:14:44.427664",
+    "updated_at": "2026-09-24T22:33:56.207617",
     "price_14d_ago": 14.62
   },
   "FB": {
-    "price": 45.61,
-    "change_pct": 0.8,
+    "price": 45.52,
+    "change_pct": 0.6,
     "name": "ProShares S&P 500 Dynamic Buffe",
-    "updated_at": "2026-09-24T14:14:44.605841",
+    "updated_at": "2026-09-24T22:33:56.383429",
     "price_14d_ago": 45.25
   },
   "FCX": {
-    "price": 71.91,
-    "change_pct": -1.13,
+    "price": 72.08,
+    "change_pct": -0.89,
     "name": "Freeport-McMoRan, Inc.",
-    "updated_at": "2026-09-24T14:14:44.887426",
+    "updated_at": "2026-09-24T22:33:56.581955",
     "price_14d_ago": 72.73
   },
   "FSK": {
-    "price": 11.16,
-    "change_pct": -10.25,
+    "price": 11.17,
+    "change_pct": -10.21,
     "name": "FS KKR Capital Corp.",
-    "updated_at": "2026-09-24T14:14:45.496563",
+    "updated_at": "2026-09-24T22:33:57.123411",
     "price_14d_ago": 12.44
   },
   "GC": {
     "price": 0,
     "change_pct": 0,
     "name": "Gold",
-    "updated_at": "2026-09-24T14:14:45.677717",
+    "updated_at": "2026-09-24T22:33:57.301588",
     "price_14d_ago": null
   },
   "GD": {
-    "price": 339.67,
-    "change_pct": -5.49,
+    "price": 336.29,
+    "change_pct": -6.43,
     "name": "General Dynamics Corporation",
-    "updated_at": "2026-09-24T14:14:45.980217",
+    "updated_at": "2026-09-24T22:33:57.521145",
     "price_14d_ago": 359.39
   },
   "GE": {
-    "price": 320.55,
-    "change_pct": -4.92,
+    "price": 319.78,
+    "change_pct": -5.14,
     "name": "GE Aerospace",
-    "updated_at": "2026-09-24T14:14:46.236296",
+    "updated_at": "2026-09-24T22:33:57.733302",
     "price_14d_ago": 337.12
   },
   "GLD": {
-    "price": 391.18,
-    "change_pct": -3.83,
+    "price": 391.69,
+    "change_pct": -3.71,
     "name": "SPDR Gold Shares",
-    "updated_at": "2026-09-24T14:14:46.475875",
+    "updated_at": "2026-09-24T22:33:57.908095",
     "price_14d_ago": 406.77
   },
   "GME": {
-    "price": 24.94,
-    "change_pct": 30.17,
+    "price": 25.02,
+    "change_pct": 30.58,
     "name": "GameStop Corporation",
-    "updated_at": "2026-09-24T14:14:46.669606",
+    "updated_at": "2026-09-24T22:33:58.100194",
     "price_14d_ago": 19.16
   },
   "GOLD": {
-    "price": 4303.2,
-    "change_pct": -3.87,
+    "price": 4319.1,
+    "change_pct": -2.7,
     "name": "Gold",
-    "updated_at": "2026-09-24T14:14:46.889374",
-    "price_14d_ago": 4476.6
+    "updated_at": "2026-09-24T22:33:58.287128",
+    "price_14d_ago": 4439.0
   },
   "GOOG": {
-    "price": 337.62,
-    "change_pct": 0.69,
+    "price": 339.01,
+    "change_pct": 1.1,
     "name": "Alphabet Inc.",
-    "updated_at": "2026-09-24T14:14:47.143201",
+    "updated_at": "2026-09-24T22:33:58.461632",
     "price_14d_ago": 335.31
   },
   "GOOGL": {
-    "price": 341.51,
-    "change_pct": 0.9,
+    "price": 342.36,
+    "change_pct": 1.15,
     "name": "Alphabet Inc.",
-    "updated_at": "2026-09-24T14:14:47.324057",
+    "updated_at": "2026-09-24T22:33:58.643921",
     "price_14d_ago": 338.46
   },
   "GS": {
-    "price": 918.11,
-    "change_pct": -11.6,
+    "price": 923.29,
+    "change_pct": -11.1,
     "name": "Goldman Sachs Group, Inc. (The)",
-    "updated_at": "2026-09-24T14:14:47.512213",
+    "updated_at": "2026-09-24T22:33:58.837002",
     "price_14d_ago": 1038.61
   },
   "Gold": {
-    "price": 43.55,
-    "change_pct": -5.59,
+    "price": 43.48,
+    "change_pct": -5.74,
     "name": "Gold.com, Inc.",
-    "updated_at": "2026-09-24T14:14:47.695323",
+    "updated_at": "2026-09-24T22:33:59.025723",
     "price_14d_ago": 46.13
   },
   "HFGM": {
-    "price": 31.97,
-    "change_pct": 0.64,
+    "price": 32.18,
+    "change_pct": 1.31,
     "name": "Unlimited HFGM Global Macro ETF",
-    "updated_at": "2026-09-24T14:14:47.874737",
+    "updated_at": "2026-09-24T22:33:59.209118",
     "price_14d_ago": 31.77
   },
   "HG": {
-    "price": 33.58,
-    "change_pct": -5.69,
+    "price": 33.43,
+    "change_pct": -6.1,
     "name": "Hamilton Insurance Group, Ltd.",
-    "updated_at": "2026-09-24T14:14:48.071497",
+    "updated_at": "2026-09-24T22:33:59.389757",
     "price_14d_ago": 35.6
   },
   "IBM": {
-    "price": 227.31,
-    "change_pct": -3.22,
+    "price": 227.06,
+    "change_pct": -3.33,
     "name": "International Business Machines",
-    "updated_at": "2026-09-24T14:14:48.476319",
+    "updated_at": "2026-09-24T22:33:59.806108",
     "price_14d_ago": 234.89
   },
   "IEF": {
-    "price": 89.78,
-    "change_pct": -2.68,
+    "price": 89.69,
+    "change_pct": -2.78,
     "name": "iShares 7-10 Year Treasury Bond",
-    "updated_at": "2026-09-24T14:14:48.685641",
+    "updated_at": "2026-09-24T22:34:00.007057",
     "price_14d_ago": 92.25
   },
   "INDA": {
-    "price": 47.53,
-    "change_pct": -4.76,
+    "price": 47.56,
+    "change_pct": -4.71,
     "name": "Ishares MSCI India ETF",
-    "updated_at": "2026-09-24T14:14:48.875965",
+    "updated_at": "2026-09-24T22:34:00.185990",
     "price_14d_ago": 49.91
   },
   "INFY": {
-    "price": 10.52,
-    "change_pct": -10.13,
+    "price": 10.5,
+    "change_pct": -10.26,
     "name": "Infosys Limited",
-    "updated_at": "2026-09-24T14:14:49.077718",
+    "updated_at": "2026-09-24T22:34:00.382723",
     "price_14d_ago": 11.7
   },
   "INTC": {
-    "price": 126.27,
-    "change_pct": 31.81,
+    "price": 127.39,
+    "change_pct": 32.97,
     "name": "Intel Corporation",
-    "updated_at": "2026-09-24T14:14:49.289478",
+    "updated_at": "2026-09-24T22:34:00.589135",
     "price_14d_ago": 95.8
   },
   "IWD": {
-    "price": 251.02,
-    "change_pct": -2.57,
+    "price": 250.76,
+    "change_pct": -2.67,
     "name": "iShares Russell 1000 Value ETF",
-    "updated_at": "2026-09-24T14:14:49.503835",
+    "updated_at": "2026-09-24T22:34:00.787940",
     "price_14d_ago": 257.63
   },
   "IWF": {
-    "price": 125.47,
-    "change_pct": 1.67,
+    "price": 125.62,
+    "change_pct": 1.79,
     "name": "iShares Russell 1000 Growth Fun",
-    "updated_at": "2026-09-24T14:14:49.722657",
+    "updated_at": "2026-09-24T22:34:00.976244",
     "price_14d_ago": 123.41
   },
   "IWM": {
-    "price": 281.32,
-    "change_pct": -4.96,
+    "price": 281.66,
+    "change_pct": -4.85,
     "name": "iShares Russell 2000 Index Fund",
-    "updated_at": "2026-09-24T14:14:49.913157",
+    "updated_at": "2026-09-24T22:34:01.174886",
     "price_14d_ago": 296.01
   },
   "JNJ": {
-    "price": 271.86,
-    "change_pct": -1.22,
+    "price": 270.68,
+    "change_pct": -1.65,
     "name": "Johnson & Johnson",
-    "updated_at": "2026-09-24T14:14:50.129557",
+    "updated_at": "2026-09-24T22:34:01.387609",
     "price_14d_ago": 275.23
   },
   "JPM": {
-    "price": 337.49,
-    "change_pct": -5.9,
+    "price": 338.56,
+    "change_pct": -5.6,
     "name": "JP Morgan Chase & Co.",
-    "updated_at": "2026-09-24T14:14:50.399466",
+    "updated_at": "2026-09-24T22:34:01.612071",
     "price_14d_ago": 358.64
   },
   "KKR": {
-    "price": 95.23,
-    "change_pct": -11.6,
+    "price": 95.64,
+    "change_pct": -11.22,
     "name": "KKR & Co. Inc.",
-    "updated_at": "2026-09-24T14:14:50.591920",
+    "updated_at": "2026-09-24T22:34:01.800329",
     "price_14d_ago": 107.73
   },
   "LLY": {
-    "price": 1188.13,
-    "change_pct": 3.37,
+    "price": 1181.89,
+    "change_pct": 2.83,
     "name": "Eli Lilly and Company",
-    "updated_at": "2026-09-24T14:14:50.878344",
+    "updated_at": "2026-09-24T22:34:02.108803",
     "price_14d_ago": 1149.36
   },
   "LMT": {
-    "price": 526.27,
-    "change_pct": 0.19,
+    "price": 523.7,
+    "change_pct": -0.3,
     "name": "Lockheed Martin Corporation",
-    "updated_at": "2026-09-24T14:14:51.128890",
+    "updated_at": "2026-09-24T22:34:02.328129",
     "price_14d_ago": 525.28
   },
   "LYFT": {
-    "price": 14.69,
-    "change_pct": -12.14,
+    "price": 14.75,
+    "change_pct": -11.78,
     "name": "Lyft, Inc.",
-    "updated_at": "2026-09-24T14:14:51.667641",
+    "updated_at": "2026-09-24T22:34:02.858480",
     "price_14d_ago": 16.72
   },
   "META": {
-    "price": 777.75,
-    "change_pct": 26.1,
+    "price": 777.59,
+    "change_pct": 26.07,
     "name": "Meta Platforms, Inc.",
-    "updated_at": "2026-09-24T14:14:51.875038",
+    "updated_at": "2026-09-24T22:34:03.063983",
     "price_14d_ago": 616.77
   },
   "MGM": {
-    "price": 33.81,
-    "change_pct": -17.98,
+    "price": 33.69,
+    "change_pct": -18.27,
     "name": "MGM Resorts International",
-    "updated_at": "2026-09-24T14:14:52.058214",
+    "updated_at": "2026-09-24T22:34:03.268144",
     "price_14d_ago": 41.22
   },
   "MINE": {
-    "price": 2.69,
-    "change_pct": -14.33,
+    "price": 2.74,
+    "change_pct": -12.74,
     "name": "Mayfair Gold Corp.",
-    "updated_at": "2026-09-24T14:14:52.305857",
+    "updated_at": "2026-09-24T22:34:03.451052",
     "price_14d_ago": 3.14
   },
   "MRK": {
-    "price": 148.83,
-    "change_pct": -1.0,
+    "price": 147.98,
+    "change_pct": -1.56,
     "name": "Merck & Company, Inc.",
-    "updated_at": "2026-09-24T14:14:52.549270",
+    "updated_at": "2026-09-24T22:34:03.752261",
     "price_14d_ago": 150.33
   },
   "MRNA": {
-    "price": 192.69,
-    "change_pct": 32.39,
+    "price": 194.82,
+    "change_pct": 33.85,
     "name": "Moderna, Inc.",
-    "updated_at": "2026-09-24T14:14:52.796286",
+    "updated_at": "2026-09-24T22:34:03.997149",
     "price_14d_ago": 145.55
   },
   "MS": {
-    "price": 195.86,
-    "change_pct": -10.04,
+    "price": 196.32,
+    "change_pct": -9.83,
     "name": "Morgan Stanley",
-    "updated_at": "2026-09-24T14:14:52.991177",
+    "updated_at": "2026-09-24T22:34:04.191763",
     "price_14d_ago": 217.72
   },
   "MSFT": {
-    "price": 497.48,
-    "change_pct": -0.44,
+    "price": 497.93,
+    "change_pct": -0.35,
     "name": "Microsoft Corporation",
-    "updated_at": "2026-09-24T14:14:53.196925",
+    "updated_at": "2026-09-24T22:34:04.380896",
     "price_14d_ago": 499.7
   },
   "MSTR": {
-    "price": 162.82,
-    "change_pct": 14.02,
+    "price": 161.61,
+    "change_pct": 13.17,
     "name": "Strategy Inc",
-    "updated_at": "2026-09-24T14:14:53.369746",
+    "updated_at": "2026-09-24T22:34:04.552349",
     "price_14d_ago": 142.8
   },
   "MU": {
-    "price": 1071.29,
-    "change_pct": 5.38,
+    "price": 1080.53,
+    "change_pct": 6.29,
     "name": "Micron Technology, Inc.",
-    "updated_at": "2026-09-24T14:14:53.581392",
+    "updated_at": "2026-09-24T22:34:04.751097",
     "price_14d_ago": 1016.59
   },
   "NEE": {
-    "price": 75.91,
-    "change_pct": -9.01,
+    "price": 75.62,
+    "change_pct": -9.36,
     "name": "NextEra Energy, Inc.",
-    "updated_at": "2026-09-24T14:14:53.833164",
+    "updated_at": "2026-09-24T22:34:04.979540",
     "price_14d_ago": 83.43
   },
   "NFLX": {
-    "price": 71.81,
-    "change_pct": -8.24,
+    "price": 71.72,
+    "change_pct": -8.35,
     "name": "Netflix, Inc.",
-    "updated_at": "2026-09-24T14:14:54.007167",
+    "updated_at": "2026-09-24T22:34:05.153991",
     "price_14d_ago": 78.25
   },
   "NKE": {
-    "price": 35.67,
-    "change_pct": -7.1,
+    "price": 35.99,
+    "change_pct": -6.28,
     "name": "Nike, Inc.",
-    "updated_at": "2026-09-24T14:14:54.687691",
+    "updated_at": "2026-09-24T22:34:05.725734",
     "price_14d_ago": 38.4
   },
   "NOC": {
-    "price": 512.36,
-    "change_pct": -0.51,
+    "price": 508.98,
+    "change_pct": -1.17,
     "name": "Northrop Grumman Corporation",
-    "updated_at": "2026-09-24T14:14:54.903180",
+    "updated_at": "2026-09-24T22:34:05.937482",
     "price_14d_ago": 514.98
   },
   "NVDA": {
-    "price": 223.74,
-    "change_pct": -2.88,
+    "price": 224.58,
+    "change_pct": -2.51,
     "name": "NVIDIA Corporation",
-    "updated_at": "2026-09-24T14:14:55.087761",
+    "updated_at": "2026-09-24T22:34:06.122328",
     "price_14d_ago": 230.36
   },
   "NVS": {
-    "price": 143.32,
-    "change_pct": -10.42,
+    "price": 143.57,
+    "change_pct": -10.26,
     "name": "Novartis AG",
-    "updated_at": "2026-09-24T14:14:55.522280",
+    "updated_at": "2026-09-24T22:34:06.522650",
     "price_14d_ago": 159.99
   },
   "Nasdaq": {
-    "price": 740.3,
-    "change_pct": 2.97,
+    "price": 741.1,
+    "change_pct": 3.08,
     "name": "Invesco QQQ Trust, Series 1",
-    "updated_at": "2026-09-24T14:14:55.726306",
+    "updated_at": "2026-09-24T22:34:06.715512",
     "price_14d_ago": 718.96
   },
   "OKLO": {
-    "price": 38.18,
-    "change_pct": -7.49,
+    "price": 38.29,
+    "change_pct": -7.22,
     "name": "Oklo Inc.",
-    "updated_at": "2026-09-24T14:14:56.132192",
+    "updated_at": "2026-09-24T22:34:07.140752",
     "price_14d_ago": 41.27
   },
   "ORCL": {
-    "price": 139.75,
-    "change_pct": -11.99,
+    "price": 139.54,
+    "change_pct": -12.12,
     "name": "Oracle Corporation",
-    "updated_at": "2026-09-24T14:14:56.633250",
+    "updated_at": "2026-09-24T22:34:07.526737",
     "price_14d_ago": 158.78
   },
   "PALL": {
-    "price": 22.98,
-    "change_pct": -9.23,
+    "price": 23.0,
+    "change_pct": -9.13,
     "name": "abrdn Physical Palladium Shares",
-    "updated_at": "2026-09-24T14:14:56.891327",
+    "updated_at": "2026-09-24T22:34:07.703965",
     "price_14d_ago": 25.31
   },
   "PANW": {
-    "price": 392.81,
-    "change_pct": 17.87,
+    "price": 389.92,
+    "change_pct": 17.0,
     "name": "Palo Alto Networks, Inc.",
-    "updated_at": "2026-09-24T14:14:57.068130",
+    "updated_at": "2026-09-24T22:34:07.878905",
     "price_14d_ago": 333.26
   },
   "PBR": {
-    "price": 20.98,
-    "change_pct": 4.25,
+    "price": 20.84,
+    "change_pct": 3.58,
     "name": "Petroleo Brasileiro S.A. Petrob",
-    "updated_at": "2026-09-24T14:14:57.251476",
+    "updated_at": "2026-09-24T22:34:08.073610",
     "price_14d_ago": 20.12
   },
   "PFE": {
-    "price": 28.42,
-    "change_pct": -0.11,
+    "price": 28.41,
+    "change_pct": -0.14,
     "name": "Pfizer, Inc.",
-    "updated_at": "2026-09-24T14:14:57.661078",
+    "updated_at": "2026-09-24T22:34:08.476211",
     "price_14d_ago": 28.45
   },
   "PLTM": {
-    "price": 16.8,
-    "change_pct": -3.78,
+    "price": 16.86,
+    "change_pct": -3.44,
     "name": "GraniteShares Platinum Shares E",
-    "updated_at": "2026-09-24T14:14:57.835638",
+    "updated_at": "2026-09-24T22:34:08.648100",
     "price_14d_ago": 17.46
   },
   "PLTR": {
-    "price": 192.18,
-    "change_pct": 10.24,
+    "price": 192.59,
+    "change_pct": 10.47,
     "name": "Palantir Technologies Inc.",
-    "updated_at": "2026-09-24T14:14:58.018764",
+    "updated_at": "2026-09-24T22:34:08.823384",
     "price_14d_ago": 174.33
   },
   "PQT": {
     "price": 0,
     "change_pct": 0,
     "name": "PQT",
-    "updated_at": "2026-09-24T14:14:58.403230",
+    "updated_at": "2026-09-24T22:34:09.165344",
     "price_14d_ago": null
   },
   "PQUS": {
-    "price": 28.67,
-    "change_pct": 0.28,
+    "price": 28.88,
+    "change_pct": 1.01,
     "name": "Pictet AI Enhanced US Equity ET",
-    "updated_at": "2026-09-24T14:14:58.587539",
+    "updated_at": "2026-09-24T22:34:09.340484",
     "price_14d_ago": 28.59
   },
   "PSBD": {
-    "price": 10.27,
-    "change_pct": -0.82,
+    "price": 10.3,
+    "change_pct": -0.48,
     "name": "Palmer Square Capital BDC Inc.",
-    "updated_at": "2026-09-24T14:14:58.830050",
+    "updated_at": "2026-09-24T22:34:09.524435",
     "price_14d_ago": 10.35
   },
   "PYPL": {
-    "price": 52.21,
-    "change_pct": -5.0,
+    "price": 52.6,
+    "change_pct": -4.29,
     "name": "PayPal Holdings, Inc.",
-    "updated_at": "2026-09-24T14:14:59.086277",
+    "updated_at": "2026-09-24T22:34:09.703156",
     "price_14d_ago": 54.96
   },
   "QQQ": {
-    "price": 740.28,
-    "change_pct": 2.97,
+    "price": 741.1,
+    "change_pct": 3.08,
     "name": "Invesco QQQ Trust, Series 1",
-    "updated_at": "2026-09-24T14:14:59.285871",
+    "updated_at": "2026-09-24T22:34:09.902127",
     "price_14d_ago": 718.96
   },
   "QTA": {
     "price": 0,
     "change_pct": 0,
     "name": "QTA",
-    "updated_at": "2026-09-24T14:14:59.479081",
+    "updated_at": "2026-09-24T22:34:10.080521",
     "price_14d_ago": null
   },
   "RBLX": {
-    "price": 48.09,
-    "change_pct": 11.04,
+    "price": 48.83,
+    "change_pct": 12.75,
     "name": "Roblox Corporation",
-    "updated_at": "2026-09-24T14:14:59.659157",
+    "updated_at": "2026-09-24T22:34:10.269884",
     "price_14d_ago": 43.31
   },
   "RKLB": {
-    "price": 73.33,
-    "change_pct": 14.12,
+    "price": 73.61,
+    "change_pct": 14.55,
     "name": "Rocket Lab Corporation",
-    "updated_at": "2026-09-24T14:14:59.927540",
+    "updated_at": "2026-09-24T22:34:10.445895",
     "price_14d_ago": 64.26
   },
   "Russell": {
-    "price": 281.27,
-    "change_pct": -4.98,
+    "price": 281.66,
+    "change_pct": -4.85,
     "name": "iShares Russell 2000 Index Fund",
-    "updated_at": "2026-09-24T14:15:00.178887",
+    "updated_at": "2026-09-24T22:34:10.646186",
     "price_14d_ago": 296.01
   },
   "S&P": {
-    "price": 7703.35,
-    "change_pct": -0.2,
+    "price": 7704.13,
+    "change_pct": -0.19,
     "name": "S&P 500",
-    "updated_at": "2026-09-24T14:15:00.412268",
+    "updated_at": "2026-09-24T22:34:10.830488",
     "price_14d_ago": 7718.6
   },
   "S&P 500": {
-    "price": 7703.35,
-    "change_pct": -0.2,
+    "price": 7704.13,
+    "change_pct": -0.19,
     "name": "S&P 500",
-    "updated_at": "2026-09-24T14:15:00.671145",
+    "updated_at": "2026-09-24T22:34:11.005035",
     "price_14d_ago": 7718.6
   },
   "SAMSUNG ELECTRONICS": {
     "price": 285500.0,
     "change_pct": 11.74,
     "name": "SamsungElec",
-    "updated_at": "2026-09-24T14:15:00.953613",
+    "updated_at": "2026-09-24T22:34:11.192205",
     "price_14d_ago": 255500.0
   },
   "SAP": {
-    "price": 209.19,
-    "change_pct": -2.75,
+    "price": 209.11,
+    "change_pct": -2.79,
     "name": "SAP  SE",
-    "updated_at": "2026-09-24T14:15:01.263631",
+    "updated_at": "2026-09-24T22:34:11.385787",
     "price_14d_ago": 215.11
   },
   "SF": {
-    "price": 69.78,
-    "change_pct": -14.38,
+    "price": 69.91,
+    "change_pct": -14.21,
     "name": "Stifel Financial Corporation",
-    "updated_at": "2026-09-24T14:15:01.508236",
+    "updated_at": "2026-09-24T22:34:11.584146",
     "price_14d_ago": 81.49
   },
   "SK HYNIX": {
     "price": 1862000.0,
     "change_pct": 13.05,
     "name": "SK hynix",
-    "updated_at": "2026-09-24T14:15:01.724314",
+    "updated_at": "2026-09-24T22:34:11.787447",
     "price_14d_ago": 1647000.0
   },
   "SLB": {
-    "price": 51.64,
-    "change_pct": -10.21,
+    "price": 51.43,
+    "change_pct": -10.57,
     "name": "SLB Limited",
-    "updated_at": "2026-09-24T14:15:01.992925",
+    "updated_at": "2026-09-24T22:34:12.015407",
     "price_14d_ago": 57.51
   },
   "SMH": {
-    "price": 598.57,
-    "change_pct": 5.57,
+    "price": 600.52,
+    "change_pct": 5.91,
     "name": "VanEck Semiconductor ETF",
-    "updated_at": "2026-09-24T14:15:02.192279",
+    "updated_at": "2026-09-24T22:34:12.207412",
     "price_14d_ago": 567.01
   },
   "SMP-500": {
-    "price": 7703.68,
+    "price": 7704.13,
     "change_pct": -0.19,
     "name": "S&P 500",
-    "updated_at": "2026-09-24T14:15:02.377166",
+    "updated_at": "2026-09-24T22:34:12.385798",
     "price_14d_ago": 7718.6
   },
   "SMR": {
-    "price": 8.46,
-    "change_pct": -12.84,
+    "price": 8.47,
+    "change_pct": -12.68,
     "name": "NuScale Power Corporation",
-    "updated_at": "2026-09-24T14:15:02.553368",
+    "updated_at": "2026-09-24T22:34:12.634961",
     "price_14d_ago": 9.7
   },
   "SNAP": {
-    "price": 5.32,
-    "change_pct": -2.83,
+    "price": 5.43,
+    "change_pct": -0.73,
     "name": "Snap Inc.",
-    "updated_at": "2026-09-24T14:15:02.737322",
+    "updated_at": "2026-09-24T22:34:12.812791",
     "price_14d_ago": 5.47
   },
   "SNWGF": {
-    "price": 11.67,
-    "change_pct": -8.83,
+    "price": 11.7,
+    "change_pct": -8.62,
     "name": "SNOWLINE GOLD CORP",
-    "updated_at": "2026-09-24T14:15:02.946839",
+    "updated_at": "2026-09-24T22:34:13.004663",
     "price_14d_ago": 12.8
   },
   "SOYB": {
-    "price": 27.89,
-    "change_pct": 0.87,
+    "price": 27.92,
+    "change_pct": 0.98,
     "name": "Teucrium Soybean Fund ETV",
-    "updated_at": "2026-09-24T14:15:03.213920",
+    "updated_at": "2026-09-24T22:34:13.175184",
     "price_14d_ago": 27.65
   },
   "SPCE": {
-    "price": 3.17,
-    "change_pct": 4.11,
+    "price": 3.2,
+    "change_pct": 5.26,
     "name": "Virgin Galactic Holdings, Inc.",
-    "updated_at": "2026-09-24T14:15:03.390401",
+    "updated_at": "2026-09-24T22:34:13.340969",
     "price_14d_ago": 3.04
   },
   "SPX": {
-    "price": 7703.83,
+    "price": 7704.13,
     "change_pct": -0.19,
     "name": "S&P 500",
-    "updated_at": "2026-09-24T14:15:03.747729",
+    "updated_at": "2026-09-24T22:34:13.766289",
     "price_14d_ago": 7718.6
   },
   "SPY": {
-    "price": 767.34,
-    "change_pct": -0.37,
+    "price": 767.18,
+    "change_pct": -0.39,
     "name": "State Street SPDR S&P 500 ETF T",
-    "updated_at": "2026-09-24T14:15:03.962460",
+    "updated_at": "2026-09-24T22:34:13.965555",
     "price_14d_ago": 770.19
   },
   "SQQQ": {
-    "price": 34.27,
-    "change_pct": -10.24,
+    "price": 34.18,
+    "change_pct": -10.48,
     "name": "ProShares UltraPro Short QQQ",
-    "updated_at": "2026-09-24T14:15:04.198476",
+    "updated_at": "2026-09-24T22:34:14.142802",
     "price_14d_ago": 38.18
   },
   "SQUARE": {
-    "price": 76.42,
-    "change_pct": -7.65,
+    "price": 76.74,
+    "change_pct": -7.27,
     "name": "Block, Inc.",
-    "updated_at": "2026-09-24T14:15:04.379627",
+    "updated_at": "2026-09-24T22:34:14.319325",
     "price_14d_ago": 82.76
   },
   "Semiconductors": {
-    "price": 598.54,
-    "change_pct": 5.56,
+    "price": 600.52,
+    "change_pct": 5.91,
     "name": "VanEck Semiconductor ETF",
-    "updated_at": "2026-09-24T14:15:04.585182",
+    "updated_at": "2026-09-24T22:34:14.515089",
     "price_14d_ago": 567.01
   },
   "T": {
-    "price": 25.57,
-    "change_pct": -0.43,
+    "price": 25.45,
+    "change_pct": -0.9,
     "name": "AT&T Inc.",
-    "updated_at": "2026-09-24T14:15:04.852844",
+    "updated_at": "2026-09-24T22:34:14.799159",
     "price_14d_ago": 25.68
   },
   "TDOC": {
-    "price": 6.12,
-    "change_pct": -2.47,
+    "price": 6.14,
+    "change_pct": -2.23,
     "name": "Teladoc Health, Inc.",
-    "updated_at": "2026-09-24T14:15:05.364945",
+    "updated_at": "2026-09-24T22:34:14.997441",
     "price_14d_ago": 6.28
   },
   "TIPS": {
     "price": 0.0,
     "change_pct": 0.0,
     "name": "Tianrong Internet Products and ",
-    "updated_at": "2026-09-24T14:15:05.968387",
+    "updated_at": "2026-09-24T22:34:15.611334",
     "price_14d_ago": 0.0
   },
   "TLT": {
-    "price": 79.52,
-    "change_pct": -3.28,
+    "price": 79.42,
+    "change_pct": -3.39,
     "name": "iShares 20+ Year Treasury Bond ",
-    "updated_at": "2026-09-24T14:15:06.177116",
+    "updated_at": "2026-09-24T22:34:15.812183",
     "price_14d_ago": 82.21
   },
   "TSLA": {
-    "price": 378.52,
-    "change_pct": 6.9,
+    "price": 377.94,
+    "change_pct": 6.74,
     "name": "Tesla, Inc.",
-    "updated_at": "2026-09-24T14:15:06.366397",
+    "updated_at": "2026-09-24T22:34:15.993239",
     "price_14d_ago": 354.08
   },
   "TSM": {
-    "price": 449.48,
-    "change_pct": 4.79,
+    "price": 451.15,
+    "change_pct": 5.19,
     "name": "Taiwan Semiconductor Manufactur",
-    "updated_at": "2026-09-24T14:15:06.567012",
+    "updated_at": "2026-09-24T22:34:16.192583",
     "price_14d_ago": 428.91
   },
   "UBER": {
-    "price": 69.27,
-    "change_pct": -8.57,
+    "price": 69.22,
+    "change_pct": -8.63,
     "name": "Uber Technologies, Inc.",
-    "updated_at": "2026-09-24T14:15:06.935510",
+    "updated_at": "2026-09-24T22:34:16.545722",
     "price_14d_ago": 75.76
   },
   "UNG": {
-    "price": 11.63,
-    "change_pct": 10.12,
+    "price": 11.55,
+    "change_pct": 9.37,
     "name": "United States Natural Gas Fund ",
-    "updated_at": "2026-09-24T14:15:07.123440",
+    "updated_at": "2026-09-24T22:34:16.732940",
     "price_14d_ago": 10.56
   },
   "URANIUM": {
-    "price": 40.88,
-    "change_pct": -11.24,
+    "price": 40.86,
+    "change_pct": -11.29,
     "name": "Uranium ETF",
-    "updated_at": "2026-09-24T14:15:07.560124",
+    "updated_at": "2026-09-24T22:34:17.098675",
     "price_14d_ago": 46.06
   },
   "USD": {
-    "price": 93.94,
-    "change_pct": 5.79,
+    "price": 94.58,
+    "change_pct": 6.51,
     "name": "ProShares Ultra Semiconductors",
-    "updated_at": "2026-09-24T14:15:07.800910",
+    "updated_at": "2026-09-24T22:34:17.333316",
     "price_14d_ago": 88.8
   },
   "USDX": {
-    "price": 25.58,
-    "change_pct": 0.3,
+    "price": 25.59,
+    "change_pct": 0.34,
     "name": "SGI Enhanced Core ETF",
-    "updated_at": "2026-09-24T14:15:07.994824",
+    "updated_at": "2026-09-24T22:34:17.509646",
     "price_14d_ago": 25.5
   },
   "USO": {
-    "price": 153.3,
-    "change_pct": 7.99,
+    "price": 153.09,
+    "change_pct": 7.84,
     "name": "United States Oil Fund",
-    "updated_at": "2026-09-24T14:15:08.170366",
+    "updated_at": "2026-09-24T22:34:17.694355",
     "price_14d_ago": 141.96
   },
   "UTHR": {
-    "price": 470.58,
-    "change_pct": -3.49,
+    "price": 472.21,
+    "change_pct": -3.16,
     "name": "United Therapeutics Corporation",
-    "updated_at": "2026-09-24T14:15:08.410921",
+    "updated_at": "2026-09-24T22:34:17.868562",
     "price_14d_ago": 487.61
   },
   "UUU": {
-    "price": 5.08,
-    "change_pct": -3.79,
+    "price": 5.07,
+    "change_pct": -3.98,
     "name": "Universal Safety Products, Inc.",
-    "updated_at": "2026-09-24T14:15:08.581400",
+    "updated_at": "2026-09-24T22:34:18.051748",
     "price_14d_ago": 5.28
   },
   "V": {
-    "price": 366.86,
-    "change_pct": -2.19,
+    "price": 367.98,
+    "change_pct": -1.89,
     "name": "Visa Inc.",
-    "updated_at": "2026-09-24T14:15:08.940701",
+    "updated_at": "2026-09-24T22:34:18.427842",
     "price_14d_ago": 375.07
   },
   "VEEV": {
-    "price": 274.57,
-    "change_pct": -0.19,
+    "price": 274.84,
+    "change_pct": -0.09,
     "name": "Veeva Systems Inc.",
-    "updated_at": "2026-09-24T14:15:09.295615",
+    "updated_at": "2026-09-24T22:34:18.779173",
     "price_14d_ago": 275.09
   },
   "VIX": {
-    "price": 15.45,
-    "change_pct": 0.98,
+    "price": 15.67,
+    "change_pct": 2.42,
     "name": "CBOE Volatility Index",
-    "updated_at": "2026-09-24T14:15:09.925722",
+    "updated_at": "2026-09-24T22:34:19.316068",
     "price_14d_ago": 15.3
   },
   "VLO": {
-    "price": 386.78,
-    "change_pct": 4.33,
+    "price": 382.86,
+    "change_pct": 3.27,
     "name": "Valero Energy Corporation",
-    "updated_at": "2026-09-24T14:15:10.151575",
+    "updated_at": "2026-09-24T22:34:19.520055",
     "price_14d_ago": 370.72
   },
   "VRTX": {
-    "price": 522.61,
-    "change_pct": -4.3,
+    "price": 522.38,
+    "change_pct": -4.35,
     "name": "Vertex Pharmaceuticals Incorpor",
-    "updated_at": "2026-09-24T14:15:10.343796",
+    "updated_at": "2026-09-24T22:34:19.696459",
     "price_14d_ago": 546.12
   },
   "WFC": {
-    "price": 82.28,
-    "change_pct": -8.55,
+    "price": 82.18,
+    "change_pct": -8.66,
     "name": "Wells Fargo & Company",
-    "updated_at": "2026-09-24T14:15:10.582146",
+    "updated_at": "2026-09-24T22:34:19.903205",
     "price_14d_ago": 89.97
   },
   "WIT": {
-    "price": 1.66,
-    "change_pct": -8.56,
+    "price": 1.64,
+    "change_pct": -9.39,
     "name": "Wipro Limited",
-    "updated_at": "2026-09-24T14:15:10.790935",
+    "updated_at": "2026-09-24T22:34:20.090573",
     "price_14d_ago": 1.81
   },
   "WMT": {
-    "price": 108.31,
-    "change_pct": 1.09,
+    "price": 107.59,
+    "change_pct": 0.42,
     "name": "Walmart Inc.",
-    "updated_at": "2026-09-24T14:15:11.070932",
+    "updated_at": "2026-09-24T22:34:20.298182",
     "price_14d_ago": 107.14
   },
   "WTBN": {
-    "price": 24.12,
-    "change_pct": -2.23,
+    "price": 24.11,
+    "change_pct": -2.27,
     "name": "WisdomTree Bianco Total Return ",
-    "updated_at": "2026-09-24T14:15:11.256002",
+    "updated_at": "2026-09-24T22:34:20.471277",
     "price_14d_ago": 24.67
   },
   "WTI": {
-    "price": 94.92,
-    "change_pct": 3.76,
+    "price": 92.9,
+    "change_pct": -0.14,
     "name": "WTI Crude",
-    "updated_at": "2026-09-24T14:15:11.424424",
-    "price_14d_ago": 91.48
+    "updated_at": "2026-09-24T22:34:20.640370",
+    "price_14d_ago": 93.03
   },
   "WTI CRUDE OIL": {
-    "price": 94.92,
-    "change_pct": 3.76,
+    "price": 92.9,
+    "change_pct": -0.14,
     "name": "WTI Crude",
-    "updated_at": "2026-09-24T14:15:11.604621",
-    "price_14d_ago": 91.48
+    "updated_at": "2026-09-24T22:34:20.820629",
+    "price_14d_ago": 93.03
   },
   "XAU-USD": {
     "price": 0,
     "change_pct": 0,
     "name": "XAU9999 Meme USD",
-    "updated_at": "2026-09-24T14:15:11.970732",
+    "updated_at": "2026-09-24T22:34:21.225153",
     "price_14d_ago": 0.0
   },
   "XOM": {
-    "price": 162.11,
-    "change_pct": 1.66,
+    "price": 162.14,
+    "change_pct": 1.67,
     "name": "ExxonMobil Holdings Corporation",
-    "updated_at": "2026-09-24T14:15:12.186205",
+    "updated_at": "2026-09-24T22:34:21.444079",
     "price_14d_ago": 159.47
   },
   "ZIM": {
-    "price": 29.56,
-    "change_pct": 3.43,
+    "price": 29.38,
+    "change_pct": 2.8,
     "name": "ZIM Integrated Shipping Service",
-    "updated_at": "2026-09-24T14:15:12.621336",
+    "updated_at": "2026-09-24T22:34:21.819122",
     "price_14d_ago": 28.58
   },
   "HIMS": {
-    "price": 29.18,
-    "change_pct": 5.32,
+    "price": 29.28,
+    "change_pct": 5.67,
     "name": "Hims & Hers Health, Inc.",
-    "updated_at": "2026-09-24T14:15:13.192765",
+    "updated_at": "2026-09-24T22:34:22.178975",
     "price_14d_ago": 27.71
   },
   "GDRX": {
-    "price": 3.33,
-    "change_pct": -4.17,
+    "price": 3.36,
+    "change_pct": -3.45,
     "name": "GoodRx Holdings, Inc.",
-    "updated_at": "2026-09-24T14:15:13.386203",
+    "updated_at": "2026-09-24T22:34:22.357550",
     "price_14d_ago": 3.48
   },
   "TEM": {
-    "price": 80.73,
-    "change_pct": 24.93,
+    "price": 82.24,
+    "change_pct": 27.27,
     "name": "Tempus AI, Inc.",
-    "updated_at": "2026-09-24T14:15:13.572551",
+    "updated_at": "2026-09-24T22:34:22.557768",
     "price_14d_ago": 64.62
   },
   "GH": {
-    "price": 175.65,
-    "change_pct": 8.82,
+    "price": 176.45,
+    "change_pct": 9.32,
     "name": "Guardant Health, Inc.",
-    "updated_at": "2026-09-24T14:15:13.791560",
+    "updated_at": "2026-09-24T22:34:22.823142",
     "price_14d_ago": 161.41
   },
   "ABT": {
-    "price": 101.53,
-    "change_pct": -6.27,
+    "price": 101.07,
+    "change_pct": -6.7,
     "name": "Abbott Laboratories",
-    "updated_at": "2026-09-24T14:15:14.047458",
+    "updated_at": "2026-09-24T22:34:23.048233",
     "price_14d_ago": 108.33
   }
 },
@@ -1047,6 +1047,66 @@ const dashboardData = {
   tickerScores: [],
   archive: {
   "insights": [
+    {
+      "id": 531,
+      "title": "Why the Fed May Have to Hike Far Higher Than Expected | Henry Peabody on the Fed\u2019s Triple Mandate and Uneven Transmission of Monetary Policy",
+      "source_type": "podcast",
+      "source_name": "Monetary Matters with Jack Farley",
+      "source_date": "2026-09-24",
+      "summary": "In this episode of 'Monetary Matters', Jack Farley discusses the evolving dynamics of the credit market, particularly the bifurcation between high-quality and lower-quality borrowers. The Federal Reserve's potential for maintaining higher interest rates for an extended period is highlighted, alongside the implications of AI-driven credit demand and the attractiveness of non-US dollar assets in emerging markets. The conversation emphasizes the need for investors to navigate these complexities with a focus on transparency and risk management.",
+      "key_takeaway": "Investors should focus on high-quality credit assets and consider diversifying into non-US dollar assets to enhance returns while managing risks in a high-rate environment.",
+      "tickers_mentioned": [
+        "NVDA"
+      ],
+      "sentiment": "neutral",
+      "display_on_main": 0,
+      "display_order": 0,
+      "added_date": "2026-09-24",
+      "archived_date": null,
+      "archived_reason": null,
+      "podcast_episode_id": 518
+    },
+    {
+      "id": 532,
+      "title": "MacroVoices #551 Michael Every: Decoding The Global Geopolitical Puzzle",
+      "source_type": "podcast",
+      "source_name": "Macro Voices",
+      "source_date": "2026-09-24",
+      "summary": "In this episode of Macro Voices, Michael Every discusses the potential for escalating geopolitical tensions in the Middle East, particularly involving Iran, which could lead to significant disruptions in oil supply and rising prices. The strengthening U.S. dollar, driven by rising interest rates, poses risks to global trade and financial conditions. The bond market is also experiencing volatility, with rising yields impacting equities, while market strength remains concentrated in a few mega-cap stocks, indicating broader market fragility.",
+      "key_takeaway": "Investors should prepare for potential volatility in oil prices and consider the implications of a stronger U.S. dollar on their portfolios.",
+      "tickers_mentioned": [
+        "USD",
+        "GOLD",
+        "COPPER",
+        "URANIUM"
+      ],
+      "sentiment": "bearish",
+      "display_on_main": 0,
+      "display_order": 0,
+      "added_date": "2026-09-24",
+      "archived_date": null,
+      "archived_reason": null,
+      "podcast_episode_id": 517
+    },
+    {
+      "id": 533,
+      "title": "The Case Against an AI Pause | Eddy Lazzarin",
+      "source_type": "podcast",
+      "source_name": "The a16z Show",
+      "source_date": "2026-09-24",
+      "summary": "In this episode of The a16z Show, Eddie Lazaran discusses the importance of shifting the narrative around AI from a focus on doom to one that emphasizes abundance and innovation. He argues that current AI incidents are primarily due to cybersecurity failures rather than superintelligence risks, and advocates for market-driven accountability mechanisms rather than new regulations. Lazaran believes that as AI capabilities improve, so will the systems for accountability, which could lead to the emergence of reputation systems for AI models, ultimately fostering trust and transparency in the sector.",
+      "key_takeaway": "The core investment opportunity lies in supporting AI companies that prioritize accountability, transparency, and societal benefits, as these factors will drive long-term value and trust in the sector.",
+      "tickers_mentioned": [
+        "NVDA"
+      ],
+      "sentiment": "bullish",
+      "display_on_main": 0,
+      "display_order": 0,
+      "added_date": "2026-09-24",
+      "archived_date": null,
+      "archived_reason": null,
+      "podcast_episode_id": 516
+    },
     {
       "id": 525,
       "title": "Steve Hilton & Spencer Pratt: Fixing California, Cheaper Gas, Ballot Fraud & CA Republicans",
@@ -11365,8 +11425,8 @@ const dashboardData = {
       "term": "Simulation",
       "description": "The use of models and computer programs to represent and analyze real or imagined systems or situations.",
       "first_detected_date": "2026-08-21",
-      "last_mentioned_date": "2026-09-22",
-      "mention_count": 17,
+      "last_mentioned_date": "2026-09-24",
+      "mention_count": 18,
       "source_podcasts": null,
       "status": "active",
       "investment_implications": "Simulation technology can provide significant insights for decision-making, making investments in this area potentially valuable.",
@@ -11375,8 +11435,8 @@ const dashboardData = {
       "archived_reason": null,
       "first_detected_episode_id": 420,
       "first_detected_speaker": "June",
-      "last_mentioned_episode_id": 509,
-      "last_mentioned_speaker": "John Platt"
+      "last_mentioned_episode_id": 516,
+      "last_mentioned_speaker": "Eddie Lazaran"
     },
     {
       "id": 272,
@@ -11473,8 +11533,8 @@ const dashboardData = {
       "term": "Stablecoins",
       "description": "A type of digital currency that is designed to have a stable value, typically pegged to a reserve of assets like fiat currencies or precious metals.",
       "first_detected_date": "2026-08-01",
-      "last_mentioned_date": "2026-09-03",
-      "mention_count": 5,
+      "last_mentioned_date": "2026-09-24",
+      "mention_count": 6,
       "source_podcasts": null,
       "status": "active",
       "investment_implications": "The potential shift to stablecoins as a store of value could disrupt traditional financial markets and affect inflation.",
@@ -11483,16 +11543,16 @@ const dashboardData = {
       "archived_reason": null,
       "first_detected_episode_id": 379,
       "first_detected_speaker": "Mark Andrewson, Chris Dixon",
-      "last_mentioned_episode_id": 454,
-      "last_mentioned_speaker": "Luke Groman"
+      "last_mentioned_episode_id": 517,
+      "last_mentioned_speaker": "Michael Every"
     },
     {
       "id": 276,
       "term": "Yield Curve Control",
       "description": "A monetary policy strategy where a central bank attempts to influence the shape of the yield curve by targeting specific interest rates along the curve.",
       "first_detected_date": "2026-07-28",
-      "last_mentioned_date": "2026-08-20",
-      "mention_count": 2,
+      "last_mentioned_date": "2026-09-24",
+      "mention_count": 3,
       "source_podcasts": null,
       "status": "active",
       "investment_implications": "The discussion suggests that the Treasury Secretary's actions may be a form of yield curve control, which could have significant implications for bond market investors.",
@@ -11501,8 +11561,8 @@ const dashboardData = {
       "archived_reason": null,
       "first_detected_episode_id": 371,
       "first_detected_speaker": "Luke Groman",
-      "last_mentioned_episode_id": 417,
-      "last_mentioned_speaker": "Luke Groman"
+      "last_mentioned_episode_id": 518,
+      "last_mentioned_speaker": "Henry Peabody"
     },
     {
       "id": 277,
@@ -11743,8 +11803,8 @@ const dashboardData = {
       "term": "Hyperscalers",
       "description": "Massive cloud computing providers (Amazon, Google, Microsoft, Meta) whose data center power demands are reshaping electricity markets and enabling new energy infrastructure financing.",
       "first_detected_date": "2026-06-19",
-      "last_mentioned_date": "2026-09-19",
-      "mention_count": 38,
+      "last_mentioned_date": "2026-09-24",
+      "mention_count": 39,
       "source_podcasts": null,
       "status": "active",
       "investment_implications": "Their 20-year PPAs are the demand anchor making previously uneconomic nuclear projects bankable; track PPA announcements as leading indicators for nuclear buildout.",
@@ -11753,8 +11813,8 @@ const dashboardData = {
       "archived_reason": null,
       "first_detected_episode_id": 302,
       "first_detected_speaker": "Chamath Palihapitiya, Jason Calacanis (hosts)",
-      "last_mentioned_episode_id": 500,
-      "last_mentioned_speaker": "Peter Diamandis (hosts)"
+      "last_mentioned_episode_id": 518,
+      "last_mentioned_speaker": "Henry Peabody"
     },
     {
       "id": 256,
@@ -14095,8 +14155,8 @@ const dashboardData = {
       "term": "Hyperscalers",
       "description": "Massive cloud computing providers (Amazon, Google, Microsoft, Meta) whose data center power demands are reshaping electricity markets and enabling new energy infrastructure financing.",
       "first_detected_date": "2026-06-19",
-      "last_mentioned_date": "2026-09-19",
-      "mention_count": 38,
+      "last_mentioned_date": "2026-09-24",
+      "mention_count": 39,
       "source_podcasts": null,
       "status": "active",
       "investment_implications": "Their 20-year PPAs are the demand anchor making previously uneconomic nuclear projects bankable; track PPA announcements as leading indicators for nuclear buildout.",
@@ -14105,18 +14165,46 @@ const dashboardData = {
       "archived_reason": null,
       "first_detected_episode_id": 302,
       "first_detected_speaker": "Chamath Palihapitiya, Jason Calacanis (hosts)",
-      "last_mentioned_episode_id": 500,
-      "last_mentioned_speaker": "Peter Diamandis (hosts)",
-      "novelty_score": 2.2486,
-      "overton_score": 2.2486,
+      "last_mentioned_episode_id": 518,
+      "last_mentioned_speaker": "Henry Peabody",
+      "novelty_score": 2.2917,
+      "overton_score": 2.2917,
       "resonance_pct": 79,
       "is_established": false,
       "first_detected_podcast": "All-In with Chamath, Jason, Sacks & Friedberg",
       "first_detected_episode_title": "World's First Trillionaire, Anthropic Fable Banned, The New Oligarchs, Iran Peace Deal",
       "first_detected_episode_date": "2026-06-19",
-      "last_mentioned_podcast": "Moonshots with Peter Diamandis",
-      "last_mentioned_episode_title": "Robinhood's Vlad Tenev on Tokenizing Everything, OpenAI's 6 Misalignment Reports, Figure's Robot Makes Beds | EP #292",
-      "last_mentioned_episode_date": "2026-09-19"
+      "last_mentioned_podcast": "Monetary Matters with Jack Farley",
+      "last_mentioned_episode_title": "Why the Fed May Have to Hike Far Higher Than Expected | Henry Peabody on the Fed\u2019s Triple Mandate and Uneven Transmission of Monetary Policy",
+      "last_mentioned_episode_date": "2026-09-24"
+    },
+    {
+      "id": 267,
+      "term": "Stablecoins",
+      "description": "A type of digital currency that is designed to have a stable value, typically pegged to a reserve of assets like fiat currencies or precious metals.",
+      "first_detected_date": "2026-08-01",
+      "last_mentioned_date": "2026-09-24",
+      "mention_count": 6,
+      "source_podcasts": null,
+      "status": "active",
+      "investment_implications": "The potential shift to stablecoins as a store of value could disrupt traditional financial markets and affect inflation.",
+      "display_on_main": 1,
+      "archived_date": null,
+      "archived_reason": null,
+      "first_detected_episode_id": 379,
+      "first_detected_speaker": "Mark Andrewson, Chris Dixon",
+      "last_mentioned_episode_id": 517,
+      "last_mentioned_speaker": "Michael Every",
+      "novelty_score": 2.0749,
+      "overton_score": 2.0749,
+      "resonance_pct": 77,
+      "is_established": false,
+      "first_detected_podcast": "The a16z Show",
+      "first_detected_episode_title": "Marc Andreessen and Chris Dixon: What\u2019s at Stake in Crypto Regulation",
+      "first_detected_episode_date": "2026-08-01",
+      "last_mentioned_podcast": "Macro Voices",
+      "last_mentioned_episode_title": "MacroVoices #551 Michael Every: Decoding The Global Geopolitical Puzzle",
+      "last_mentioned_episode_date": "2026-09-24"
     },
     {
       "id": 268,
@@ -14173,34 +14261,6 @@ const dashboardData = {
       "last_mentioned_podcast": "The a16z Show",
       "last_mentioned_episode_title": "OpenAI Researchers on the Future of Mathematical Reasoning",
       "last_mentioned_episode_date": "2026-09-08"
-    },
-    {
-      "id": 267,
-      "term": "Stablecoins",
-      "description": "A type of digital currency that is designed to have a stable value, typically pegged to a reserve of assets like fiat currencies or precious metals.",
-      "first_detected_date": "2026-08-01",
-      "last_mentioned_date": "2026-09-03",
-      "mention_count": 5,
-      "source_podcasts": null,
-      "status": "active",
-      "investment_implications": "The potential shift to stablecoins as a store of value could disrupt traditional financial markets and affect inflation.",
-      "display_on_main": 1,
-      "archived_date": null,
-      "archived_reason": null,
-      "first_detected_episode_id": 379,
-      "first_detected_speaker": "Mark Andrewson, Chris Dixon",
-      "last_mentioned_episode_id": 454,
-      "last_mentioned_speaker": "Luke Groman",
-      "novelty_score": 1.8712,
-      "overton_score": 1.8712,
-      "resonance_pct": 75,
-      "is_established": false,
-      "first_detected_podcast": "The a16z Show",
-      "first_detected_episode_title": "Marc Andreessen and Chris Dixon: What\u2019s at Stake in Crypto Regulation",
-      "first_detected_episode_date": "2026-08-01",
-      "last_mentioned_podcast": "The a16z Show",
-      "last_mentioned_episode_title": "The $100B Niches Hiding Inside Payments",
-      "last_mentioned_episode_date": "2026-09-03"
     },
     {
       "id": 234,
@@ -44065,61 +44125,203 @@ const dashboardData = {
     "source_name": "All-In with Chamath, Jason, Sacks & Friedberg",
     "source_date": "2026-09-23",
     "key_tickers": []
+  },
+  "531": {
+    "id": 520,
+    "insight_id": 531,
+    "podcast_episode_id": 518,
+    "overview": "The current credit landscape is characterized not only by the bifurcation in borrower quality but also by a pivot in investor sentiment towards credit risk. Specifically, investor preference is shifting towards asset-backed securities (ABS) that are perceived as less sensitive to economic downturns. As companies brace for tighter lending conditions, smaller businesses may find it increasingly difficult to access credit. The impact of rising interest rates on operational costs will lead to a reevaluation of capital expenditure priorities across sectors, particularly those reliant on external financing for growth initiatives.",
+    "key_takeaways_detailed": [],
+    "investment_thesis": "If high-quality credit assets continue to outperform and non-US dollar investments thrive, allocators should consider increasing exposure to these categories in the short to medium term. This trend would be supported by stable or rising yields in higher-quality credits and sustained interest in emerging market assets. A change in Fed policy signaling lower rates or a surge in defaults among high-quality borrowers would prompt a reassessment of these strategies.",
+    "ticker_analysis": {
+      "NVDA": {
+        "rationale": "NVIDIA represents a clear investment in the AI sector, which is driving credit demand and shaping investment trends.",
+        "positioning": "",
+        "risk": ""
+      }
+    },
+    "positioning_guidance": "",
+    "risk_factors": [],
+    "contrarian_signals": [],
+    "catalysts": [],
+    "related_insights": null,
+    "audio_timestamp_start": null,
+    "audio_timestamp_end": null,
+    "transcript_excerpt": null,
+    "created_at": "2026-09-24T22:33:36.565050",
+    "updated_at": "2026-09-25 03:33:36",
+    "episode_evidence": "- \"The risk is that policy probably stays higher for longer until we see cracks start to form.\" - Henry Peabody\n- \"The setup for non-US assets, particularly on the EM side, is really a starting point of low currency valuations combined with high real rates.\" - Henry Peabody",
+    "falsification_tracks": [
+      "A significant decrease in triple C credit yields below 10%, indicating improved credit access for lower-quality borrowers.",
+      "Federal Reserve signals a pivot towards lower interest rates earlier than anticipated, reflecting a change in economic outlook.",
+      "Major defaults in higher-quality credit markets that prompt an overall tightening of credit conditions across all borrower categories.",
+      "Emerging market currencies rise significantly, reducing the attractiveness of non-US dollar assets.",
+      "Dramatic growth or profitability in sectors unrelated to AI, which results in a diminished concentration of credit risk in AI-related industries."
+    ],
+    "schema_version": 2,
+    "insight_title": "Why the Fed May Have to Hike Far Higher Than Expected | Henry Peabody on the Fed\u2019s Triple Mandate and Uneven Transmission of Monetary Policy",
+    "source_name": "Monetary Matters with Jack Farley",
+    "source_date": "2026-09-24",
+    "key_tickers": []
+  },
+  "532": {
+    "id": 521,
+    "insight_id": 532,
+    "podcast_episode_id": 517,
+    "overview": "The current geopolitical tensions in the Middle East, particularly surrounding Iran, have the potential to create cascading effects on global markets. As the situation deteriorates, analysts propose that not only could oil prices spike, but broader commodities may experience volatility as supply routes become threatened. Concurrently, the recent bullish positioning in commodities, especially in oil and copper, could face headwinds if global economic growth falters, precipitating a shift in market sentiment. Additionally, should the U.S. further optimize its shale production, this might offset some oil price volatility, though logistical and operational challenges persist amid escalating tensions.",
+    "key_takeaways_detailed": [],
+    "investment_thesis": "If the geopolitical tensions escalate as predicted, we could see increased volatility in oil and broader commodity prices, suggesting that allocators may want to consider energy-focused strategies and possibly alternative energy investments in the coming months for capital preservation. Conversely, if the U.S. dollar continues its strength, this could impact international revenues for U.S.-based multinationals negatively. Data from upcoming CPI reports and geopolitical developments will be critical to watch for signals of potential shifts.",
+    "ticker_analysis": {
+      "NVDA": {
+        "rationale": "For those seeking growth amidst volatility, NVIDIA represents a clean expression of demand for tech amidst broader market uncertainty, especially with its AI-related prospects.",
+        "positioning": "",
+        "risk": ""
+      }
+    },
+    "positioning_guidance": "",
+    "risk_factors": [],
+    "contrarian_signals": [],
+    "catalysts": [],
+    "related_insights": null,
+    "audio_timestamp_start": null,
+    "audio_timestamp_end": null,
+    "transcript_excerpt": null,
+    "created_at": "2026-09-24T22:33:42.146950",
+    "updated_at": "2026-09-25 03:33:42",
+    "episode_evidence": "Unless we are now pricing for peace in our time... you are just hoping if you're going to try and start to price in the fact that everything is going to get better.\nThe 10-year treasury yield has ripped back about 5%... the highest we've seen since 2007.",
+    "falsification_tracks": [
+      "A significant easing of tensions in the Middle East, leading to stabilizing oil prices.",
+      "A sustained decline in U.S. Treasury yields, suggesting reduced inflation expectations or economic slowdown.",
+      "A diversification of market strength beyond mega-cap stocks, indicating a healthier overall market breadth.",
+      "Stronger than expected economic data, leading to a depreciation of the U.S. dollar and reduced buying pressure on safe-haven assets.",
+      "A shift in investor sentiment that leads to a sustained increase in gold prices, countering the bearish outlook."
+    ],
+    "schema_version": 2,
+    "insight_title": "MacroVoices #551 Michael Every: Decoding The Global Geopolitical Puzzle",
+    "source_name": "Macro Voices",
+    "source_date": "2026-09-24",
+    "key_tickers": [
+      "USD",
+      "GOLD",
+      "COPPER",
+      "URANIUM"
+    ]
+  },
+  "533": {
+    "id": 522,
+    "insight_id": 533,
+    "podcast_episode_id": 516,
+    "overview": "Lazaran highlights the role of existing cybersecurity frameworks as a first line of defense against AI-related incidents, suggesting that these frameworks can evolve alongside AI technology. He notes that the growing intensity and frequency of AI incidents could motivate companies to implement more robust cybersecurity measures as they recognize their potential financial liabilities. The concept of liability shifts is potentially significant, as more companies could face lawsuits linked to AI misuse or malfunction, pressuring them to adopt best practices in safety and transparency proactively.",
+    "key_takeaways_detailed": [],
+    "investment_thesis": "If Lazaran's thesis holds true, allocators may find significant opportunities in AI firms that integrate strong accountability practices into their operations over the next 12 to 18 months. Companies that can demonstrate effective cybersecurity protocols and commitment to transparency may see enhanced valuations, while those failing to adapt could struggle under public scrutiny. The market's response to evolving safety narratives will provide insight into the viability of investments in this sector.",
+    "ticker_analysis": {
+      "NVDA": {
+        "rationale": "NVIDIA is a key player in the AI space, providing the foundational hardware and software that drives AI development, making it a direct beneficiary of increased innovation and accountability focus.",
+        "positioning": "",
+        "risk": ""
+      }
+    },
+    "positioning_guidance": "",
+    "risk_factors": [],
+    "contrarian_signals": [],
+    "catalysts": [],
+    "related_insights": null,
+    "audio_timestamp_start": null,
+    "audio_timestamp_end": null,
+    "transcript_excerpt": null,
+    "created_at": "2026-09-24T22:33:47.806227",
+    "updated_at": "2026-09-25 03:33:47",
+    "episode_evidence": "- \"We need the laws and means to control them.\"\n- \"There will be people who do very bad things.\"",
+    "falsification_tracks": [
+      "A notable increase in high-profile AI incidents linked to malicious uses that outstrip improvements in cybersecurity measures, leading to severe market repercussions.",
+      "Regulatory bodies introducing stringent regulations that halt workflows in AI companies, significantly diminishing innovation and investments.",
+      "Emergence of negative public perception or backlash against AI technologies that outweighs their demonstrated societal benefits, causing a decline in consumer trust.",
+      "A shift in expert consensus where leading voices in AI safety advocate for immediate pauses or strict regulations, disagreeing with Lazaran's market-driven accountability perspective."
+    ],
+    "schema_version": 2,
+    "insight_title": "The Case Against an AI Pause | Eddy Lazzarin",
+    "source_name": "The a16z Show",
+    "source_date": "2026-09-24",
+    "key_tickers": []
   }
 },
   suggestedTerms: [
   {
-    "id": 757,
-    "term": "Dual Mandate for AI in Biology",
-    "definition": "The necessity for AI models in biology to focus on both innovative design and defensive measures against misuse.",
-    "investment_implications": "Investors should prioritize companies that address both innovation and biosecurity.",
+    "id": 766,
+    "term": "Bifurcated Credit Market",
+    "definition": "A credit market that is divided, where high-quality borrowers have easy access to credit while lower-quality borrowers face restrictions.",
+    "investment_implications": "This trend suggests a focus on high-quality credit investments to mitigate risks associated with lower-quality assets.",
     "source_type": "auto_extracted",
     "mention_count": 1,
     "source_diversity": 1,
     "relevance_score": 50,
-    "submitted_date": "2026-09-24 04:53:17",
+    "submitted_date": "2026-09-25 03:33:01",
     "priority_score": 80
   },
   {
-    "id": 758,
-    "term": "Generative Models and Functional Genomes",
-    "definition": "The capability of AI models to create functional genomes from scratch, opening new avenues in synthetic biology.",
-    "investment_implications": "Companies developing generative models may gain significant advantages in biotechnology.",
+    "id": 767,
+    "term": "Higher Rates for Longer",
+    "definition": "The potential for the Federal Reserve to maintain elevated interest rates for an extended period to control inflation.",
+    "investment_implications": "Investors should prepare for increased borrowing costs and adjust their portfolios accordingly.",
     "source_type": "auto_extracted",
     "mention_count": 1,
     "source_diversity": 1,
     "relevance_score": 50,
-    "submitted_date": "2026-09-24 04:53:17",
+    "submitted_date": "2026-09-25 03:33:01",
     "priority_score": 80
   },
   {
-    "id": 759,
-    "term": "Importance of Non-Coding Regions",
-    "definition": "The focus on non-coding DNA regions where many disease-causing mutations occur, which are often overlooked.",
-    "investment_implications": "Investors should look for firms that analyze these regions for better disease prediction.",
+    "id": 768,
+    "term": "AI and Credit Demand",
+    "definition": "The growing demand for credit driven by investments in artificial intelligence, particularly among large corporations.",
+    "investment_implications": "Investors need to assess the sustainability of AI-driven growth and its impact on credit risk.",
     "source_type": "auto_extracted",
     "mention_count": 1,
     "source_diversity": 1,
     "relevance_score": 50,
-    "submitted_date": "2026-09-24 04:53:17",
+    "submitted_date": "2026-09-25 03:33:01",
     "priority_score": 80
   },
   {
-    "id": 760,
-    "term": "Biosecurity and AI",
-    "definition": "The urgent need for biosecurity measures in response to the potential misuse of AI in synthetic biology.",
-    "investment_implications": "Companies prioritizing biosecurity in their missions may be better positioned in the market.",
+    "id": 769,
+    "term": "Non-US Dollar Assets",
+    "definition": "Assets denominated in currencies other than the US dollar, particularly in emerging markets, which are seen as attractive due to favorable valuations.",
+    "investment_implications": "Diversifying into non-US dollar assets can enhance returns and reduce risk in a portfolio.",
     "source_type": "auto_extracted",
     "mention_count": 1,
     "source_diversity": 1,
     "relevance_score": 50,
-    "submitted_date": "2026-09-24 04:53:17",
+    "submitted_date": "2026-09-25 03:33:01",
     "priority_score": 80
   }
 ],
   podcastGuests: [
   {
-    "id": 73759,
+    "id": 73868,
+    "name": "Eddie Lazaran",
+    "slug": "eddie-lazaran",
+    "bio": null,
+    "known_for": null,
+    "last_main_idea": "The core investment opportunity lies in supporting AI companies that prioritize accountability, transparency, and societal benefits, as these factors will drive long-term value and trust in the sector.",
+    "last_episode_title": "The Case Against an AI Pause | Eddy Lazzarin",
+    "last_podcast_name": "The a16z Show",
+    "last_episode_date": "2026-09-24",
+    "appearance_count": 1
+  },
+  {
+    "id": 73869,
+    "name": "Michael Every",
+    "slug": "michael-every",
+    "bio": null,
+    "known_for": null,
+    "last_main_idea": "Investors should prepare for potential volatility in oil prices and consider the implications of a stronger U.S. dollar on their portfolios.",
+    "last_episode_title": "MacroVoices #551 Michael Every: Decoding The Global Geopolitical Puzzle",
+    "last_podcast_name": "Macro Voices",
+    "last_episode_date": "2026-09-24",
+    "appearance_count": 1
+  },
+  {
+    "id": 73870,
     "name": "Steve Hilton & Spencer Pratt",
     "slug": "steve-hilton--spencer-pratt",
     "bio": null,
@@ -44131,7 +44333,7 @@ const dashboardData = {
     "appearance_count": 1
   },
   {
-    "id": 73760,
+    "id": 73871,
     "name": "Blake Scholl",
     "slug": "blake-scholl",
     "bio": null,
@@ -44143,7 +44345,7 @@ const dashboardData = {
     "appearance_count": 1
   },
   {
-    "id": 73761,
+    "id": 73872,
     "name": "John Platt",
     "slug": "john-platt",
     "bio": null,
@@ -44155,7 +44357,7 @@ const dashboardData = {
     "appearance_count": 1
   },
   {
-    "id": 73762,
+    "id": 73873,
     "name": "Diogo Almeida",
     "slug": "diogo-almeida",
     "bio": null,
@@ -44167,7 +44369,7 @@ const dashboardData = {
     "appearance_count": 1
   },
   {
-    "id": 73763,
+    "id": 73874,
     "name": "Naveen Rao",
     "slug": "naveen-rao",
     "bio": null,
@@ -44179,7 +44381,7 @@ const dashboardData = {
     "appearance_count": 1
   },
   {
-    "id": 73764,
+    "id": 73875,
     "name": "Outlook on 5 Key Commodities",
     "slug": "outlook-on-5-key-commodities",
     "bio": null,
@@ -44191,7 +44393,7 @@ const dashboardData = {
     "appearance_count": 1
   },
   {
-    "id": 73765,
+    "id": 73876,
     "name": "Bill Gurley",
     "slug": "bill-gurley",
     "bio": null,
@@ -44203,7 +44405,7 @@ const dashboardData = {
     "appearance_count": 1
   },
   {
-    "id": 73766,
+    "id": 73877,
     "name": "Nick Shirley",
     "slug": "nick-shirley",
     "bio": null,
@@ -44215,7 +44417,7 @@ const dashboardData = {
     "appearance_count": 1
   },
   {
-    "id": 73767,
+    "id": 73878,
     "name": "Jared Isaacman",
     "slug": "jared-isaacman",
     "bio": null,
@@ -44227,7 +44429,7 @@ const dashboardData = {
     "appearance_count": 1
   },
   {
-    "id": 73768,
+    "id": 73879,
     "name": "Brad Gerstner",
     "slug": "brad-gerstner",
     "bio": null,
@@ -44239,7 +44441,7 @@ const dashboardData = {
     "appearance_count": 1
   },
   {
-    "id": 73769,
+    "id": 73880,
     "name": "Meta's Dina Powell McCormick",
     "slug": "metas-dina-powell-mccormick",
     "bio": null,
@@ -44251,7 +44453,7 @@ const dashboardData = {
     "appearance_count": 1
   },
   {
-    "id": 73770,
+    "id": 73881,
     "name": "Underwriting Superintelligence",
     "slug": "underwriting-superintelligence",
     "bio": null,
@@ -44263,7 +44465,7 @@ const dashboardData = {
     "appearance_count": 1
   },
   {
-    "id": 73771,
+    "id": 73882,
     "name": "Hawks Take Flight",
     "slug": "hawks-take-flight",
     "bio": null,
@@ -44275,7 +44477,7 @@ const dashboardData = {
     "appearance_count": 1
   },
   {
-    "id": 73772,
+    "id": 73883,
     "name": "Martine Rothblatt",
     "slug": "martine-rothblatt",
     "bio": null,
@@ -44287,7 +44489,7 @@ const dashboardData = {
     "appearance_count": 1
   },
   {
-    "id": 73773,
+    "id": 73884,
     "name": "Microsoft CEO Satya Nadella",
     "slug": "microsoft-ceo-satya-nadella",
     "bio": null,
@@ -44299,7 +44501,7 @@ const dashboardData = {
     "appearance_count": 1
   },
   {
-    "id": 73774,
+    "id": 73885,
     "name": "Jensen Huang",
     "slug": "jensen-huang",
     "bio": null,
@@ -44311,7 +44513,7 @@ const dashboardData = {
     "appearance_count": 1
   },
   {
-    "id": 73775,
+    "id": 73886,
     "name": "Ask the Mates anything",
     "slug": "ask-the-mates-anything",
     "bio": null,
@@ -44323,7 +44525,7 @@ const dashboardData = {
     "appearance_count": 1
   },
   {
-    "id": 73776,
+    "id": 73887,
     "name": "Matt Barry",
     "slug": "matt-barry",
     "bio": null,
@@ -44332,30 +44534,6 @@ const dashboardData = {
     "last_episode_title": "MacroVoices #549 Matt Barrie: AI-gent Provocateur",
     "last_podcast_name": "Macro Voices",
     "last_episode_date": "2026-09-10",
-    "appearance_count": 1
-  },
-  {
-    "id": 73777,
-    "name": "Who Grades the AI Models?",
-    "slug": "who-grades-the-ai-models",
-    "bio": null,
-    "known_for": null,
-    "last_main_idea": "Independent benchmarking and third-party model evaluation are becoming critical infrastructure as enterprise AI token spend rapidly outpaces traditional labor costs, creating opportunities in validation services and internal ROI optimization platforms while mitigating risks from benchmark gaming.",
-    "last_episode_title": "Who Grades the AI Models? | Ben Horowitz & Rayan Krishnan",
-    "last_podcast_name": "The a16z Show",
-    "last_episode_date": "2026-09-09",
-    "appearance_count": 1
-  },
-  {
-    "id": 73778,
-    "name": "Your AI Doctor Is Coming",
-    "slug": "your-ai-doctor-is-coming",
-    "bio": null,
-    "known_for": null,
-    "last_main_idea": "Healthcare is entering a renaissance where AI-native companies, consumer-driven cash-pay models, and alternative payment structures will capture significant value from a historically tech-laggard industry now primed for disruption by post-pandemic digital adoption and patient demand for transparency.",
-    "last_episode_title": "Your AI Doctor Is Coming | Julie Yoo",
-    "last_podcast_name": "The a16z Show",
-    "last_episode_date": "2026-09-06",
     "appearance_count": 1
   }
 ],
@@ -44494,6 +44672,63 @@ const dashboardData = {
     "net_worth": "$270.10B"
   },
   {
+    "id": 122,
+    "name": "Michael Every",
+    "slug": "michael-every",
+    "bio": "Michael Every is a prominent economist recognized for his insights into global macroeconomic trends and their implications for financial markets. He specializes in analyzing geopolitical events and their impact on economic conditions, making him a valuable resource for investors navigating complex market dynamics.",
+    "known_for": "Michael Every is known for his predictions on geopolitical impacts on financial markets, providing critical insights for investors.",
+    "net_worth_usd": 70000000000.0,
+    "net_worth_source": "https://www.celebritynetworth.com/richest-politicians/michael-bloomberg-net-worth/",
+    "net_worth_updated_at": "2026-03-31T20:09:40.488239",
+    "voice_tone": "Analytical and cautious",
+    "voice_style": "Direct and evidence-based",
+    "voice_delivery_notes": "Measured pacing with emphasis on key risks",
+    "voice_profile_updated_at": "2026-09-25 03:32:43",
+    "last_seen": "2026-09-25 03:32:43",
+    "last_episode_title": "MacroVoices #551 Michael Every: Decoding The Global Geopolitical Puzzle",
+    "last_podcast_name": "Macro Voices",
+    "last_episode_date": "2026-09-24",
+    "mention_score": 3,
+    "mention_score_decayed": 3,
+    "last_main_idea": "Investors should prepare for potential volatility in oil prices and consider the implications of a stronger U.S. dollar on their portfolios.",
+    "last_proof_cite": "Macro Voices \u2022 2026-09-24 \u2022 MacroVoices #551 Michael Every: Decoding The Global Geopolitical Puzzle",
+    "last_proof_snippet": "The joke at the moment is if you're an interest rate trader on FX trader, the moment you have to be an oil trader. You've got to look at that to understand what bond yields are going to do. That was Michael Every. I'm Eric Townsend. This is",
+    "supporting_takeaway": "The U.S. dollar's strength may tighten financial conditions, affecting global trade and risk assets.",
+    "grokipedia_url": null,
+    "grokipedia_fetched_at": "2026-09-24T22:33:16.208954",
+    "pundit_profile": {
+      "source": "llm",
+      "source_model": "openai:gpt-4o-mini",
+      "source_url": "",
+      "page_title": "Michael Every",
+      "fetched_at": "2026-09-25T03:33:16.208721+00:00",
+      "cliff_notes": "Michael Every has established himself as a key figure in the field of economics, particularly focusing on the intersection of geopolitics and financial markets. His career has been marked by a deep understanding of how global events influence economic trends, making his analyses particularly relevant for investors. Every's work often involves dissecting complex geopolitical situations, such as conflicts in the Middle East and Eastern Europe, and translating these into actionable insights for market participants. His ability to connect the dots between seemingly disparate events allows investors to better anticipate market movements and adjust their strategies accordingly. As a global strategist at Rabobank, Every continues to contribute to the discourse on macroeconomic trends, helping to shape the understanding of how geopolitical factors can sway financial markets.",
+      "derived": {
+        "current_role": "Global Strategist in Economics and Markets at Rabobank"
+      },
+      "infobox": {},
+      "lead_paragraphs": [
+        "Michael Every has established himself as a key figure in the field of economics, particularly focusing on the intersection of geopolitics and financial markets. His career has been marked by a deep understanding of how global events influence economic trends, making his analyses particularly relevant for investors. Every's work often involves dissecting complex geopolitical situations, such as conflicts in the Middle East and Eastern Europe, and translating these into actionable insights for market participants.",
+        "His ability to connect the dots between seemingly disparate events allows investors to better anticipate market movements and adjust their strategies accordingly. As a global strategist at Rabobank, Every continues to contribute to the discourse on macroeconomic trends, helping to shape the understanding of how geopolitical factors can sway financial markets."
+      ],
+      "sections": [
+        {
+          "heading": "Geopolitical Analysis",
+          "body": "Every provides in-depth analysis of geopolitical events, such as conflicts and trade disputes, and their potential impacts on global markets. His insights help investors navigate uncertainty and make informed decisions."
+        },
+        {
+          "heading": "Interest Rates and FX Trading",
+          "body": "He discusses the interconnectedness of interest rates and foreign exchange trading, emphasizing the need for traders to adapt to changing market conditions influenced by geopolitical developments."
+        },
+        {
+          "heading": "Market Predictions",
+          "body": "Every is known for his accurate predictions regarding market trends, particularly in relation to oil prices and bond yields, which are critical for investors looking to optimize their portfolios."
+        }
+      ]
+    },
+    "net_worth": "$70.00B"
+  },
+  {
     "id": 267,
     "name": "Bill Gurley",
     "slug": "bill-gurley",
@@ -44630,7 +44865,7 @@ const dashboardData = {
     "last_podcast_name": "The a16z Show",
     "last_episode_date": "2026-09-21",
     "mention_score": 2,
-    "mention_score_decayed": 1.91,
+    "mention_score_decayed": 1.87,
     "last_main_idea": "Investing in companies that prioritize clear communication, robust telemetry, and operational security in AI development presents a significant opportunity as the industry matures.",
     "last_proof_cite": "The a16z Show \u2022 2026-09-21 \u2022 AI Safety Language Is Destroying the Debate | Steven Sinofsky",
     "last_proof_snippet": "The AI people are making it impossible for anybody to understand what they've done it. And they're using words like, well, the AI failed to be aligned. Okay, what does that mean? What it means is there was a bug in the software. When word a",
@@ -45055,7 +45290,7 @@ const dashboardData = {
     "last_podcast_name": "Monetary Matters with Jack Farley",
     "last_episode_date": "2026-08-20",
     "mention_score": 3,
-    "mention_score_decayed": 1.37,
+    "mention_score_decayed": 1.34,
     "last_main_idea": "The rise in AI capex and government spending is leading to increased borrowing costs, which will have profound effects on bond markets and inflation, creating both risks and opportunities for investors.",
     "last_proof_cite": "Monetary Matters with Jack Farley \u2022 2026-08-20 \u2022 Why Bessent Blinked | Luke Gromen on Doubling of Treasury Buyback Plan to Tame Long-End Yields",
     "last_proof_snippet": "Today's episode is brought to you by the two-cream corn fund Take or C-O-R-N. Let's get into it. Got a very important conversation today. I'm joined once again by Luke Groman of Forest for the Trees Research Luke. Welcome back to Monterey M",
@@ -45115,7 +45350,7 @@ const dashboardData = {
     "last_podcast_name": "Moonshots with Peter Diamandis",
     "last_episode_date": "2026-07-08",
     "mention_score": 3,
-    "mention_score_decayed": 1.25,
+    "mention_score_decayed": 1.22,
     "last_main_idea": "Invest in companies that are integrating AI into their operations to capitalize on job growth and technological advancements.",
     "last_proof_cite": "Moonshots with Peter Diamandis \u2022 2026-07-08 \u2022 Fable 5 Is Back & Govt-Leashed, Altman Offers 5% of OpenAI & AI Grows Conscious | #269",
     "last_proof_snippet": "Fable 5 came back online globally on July 1st with a few Provisos. This feels like the first time a frontier model has a standing duty to the U.S. government. This is probably close to the best scenario we could have hoped for. Sam has been",
@@ -45158,64 +45393,124 @@ const dashboardData = {
     "net_worth": "$14.00B"
   },
   {
-    "id": 333,
-    "name": "Dylan Patel",
-    "slug": "dylan-patel",
-    "bio": "Dylan Patel is the founder of SemiAnalysis, a firm specializing in AI infrastructure and compute market analysis. He is recognized for his insights into the future of AI and its impact on the global economy, particularly focusing on the growth of AI infrastructure and its contribution to GDP.",
-    "known_for": "His expertise in AI infrastructure and its role in shaping the global economy.",
-    "net_worth_usd": 3700000000.0,
-    "net_worth_source": "https://substack.com/home/post/p-153458455",
-    "net_worth_updated_at": "2026-07-15T12:06:20.503583",
-    "voice_tone": "Confident and knowledgeable",
-    "voice_style": "Factual and data-driven",
-    "voice_delivery_notes": "Clear and concise, with a focus on key statistics and trends",
-    "voice_profile_updated_at": "2026-08-26 03:28:15",
-    "last_seen": "2026-08-26 03:28:15",
-    "last_episode_title": "Dylan Patel \u2013 Anthropic & OpenAI will have most of the world\u2019s compute by 2028",
-    "last_podcast_name": "Dwarkesh Podcast",
-    "last_episode_date": "2026-08-25",
-    "mention_score": 2,
-    "mention_score_decayed": 1.02,
-    "last_main_idea": "Investment in AI infrastructure and labs is set to grow exponentially, leading to significant capital allocation shifts and potential market disruptions.",
-    "last_proof_cite": "Dwarkesh Podcast \u2022 2026-08-25 \u2022 Dylan Patel \u2013 Anthropic & OpenAI will have most of the world\u2019s compute by 2028",
-    "last_proof_snippet": "Okay, I'm back with Dylan Patel, Founder of SemiAnalysis, our version of Family, Thanksgiving dinner is a regular early podcast, but you're not actually related. I won't tell the people here. We'll destroy the myth. Walk me, basically w",
-    "supporting_takeaway": "Labs like OpenAI and Anthropic are expected to spend trillions of dollars annually by the end of the decade.",
+    "id": 482,
+    "name": "Henry Peabody",
+    "slug": "henry-peabody",
+    "bio": "Henry Peabody is a financial analyst with a focus on credit markets and macroeconomic trends. He serves as a senior investment strategist at GMO, where he provides insights into the dynamics of credit markets and interest rate policies. His expertise includes analyzing the Federal Reserve's mandates and their impact on the economy.",
+    "known_for": "Henry Peabody offers critical insights on credit market dynamics and the implications of interest rate policies for investors.",
+    "net_worth_usd": null,
+    "net_worth_source": "",
+    "net_worth_updated_at": null,
+    "voice_tone": "Analytical and informative",
+    "voice_style": "Direct and data-driven",
+    "voice_delivery_notes": "Measured pacing with emphasis on key insights",
+    "voice_profile_updated_at": "2026-09-25 03:33:01",
+    "last_seen": "2026-09-25 03:33:01",
+    "last_episode_title": "Why the Fed May Have to Hike Far Higher Than Expected | Henry Peabody on the Fed\u2019s Triple Mandate and Uneven Transmission of Monetary Policy",
+    "last_podcast_name": "Monetary Matters with Jack Farley",
+    "last_episode_date": "2026-09-24",
+    "mention_score": 1,
+    "mention_score_decayed": 1,
+    "last_main_idea": "Investors should focus on high-quality credit assets and consider diversifying into non-US dollar assets to enhance returns while managing risks in a high-rate environment.",
+    "last_proof_cite": "Monetary Matters with Jack Farley \u2022 2026-09-24 \u2022 Why the Fed May Have to Hike Far Higher Than Expected | Henry Peabody on the Fed\u2019s Triple Mandate and Uneven Transmission of Monetary Policy",
+    "last_proof_snippet": "Got a very important conversation today. We are speaking to Henry Peabody, senior investment strategist at GMO, Henry Welcome to Monetary Matters. Jack, thanks so much for having me. I'm really looking forward to the conversation. I know yo",
+    "supporting_takeaway": "The Federal Reserve may maintain higher interest rates longer to manage inflation, impacting borrowing costs and economic growth.",
     "grokipedia_url": null,
-    "grokipedia_fetched_at": "2026-08-25T22:28:51.037076",
+    "grokipedia_fetched_at": "2026-09-24T22:33:06.582469",
     "pundit_profile": {
       "source": "llm",
-      "source_model": "moonshot:moonshot-v1-8k",
+      "source_model": "openai:gpt-4o-mini",
       "source_url": "",
-      "page_title": "Dylan Patel",
-      "fetched_at": "2026-08-26T03:28:51.036737+00:00",
-      "cliff_notes": "Dylan Patel is a prominent figure in the field of AI infrastructure and compute market analysis. As the founder of SemiAnalysis, he has dedicated his career to understanding and forecasting the trends and developments within the AI sector. Patel's work is particularly focused on how advancements in AI infrastructure are influencing economic growth, with a keen eye on the allocation of capital expenditures in the industry. His insights are sought after for their ability to predict the trajectory of the global economy in relation to the advancements in AI technology. Patel's contributions to the discourse on AI's economic impact have made him a respected voice in both the tech and finance sectors.",
+      "page_title": "Henry Peabody",
+      "fetched_at": "2026-09-25T03:33:06.581954+00:00",
+      "cliff_notes": "Henry Peabody has established himself as a prominent financial analyst specializing in the intricacies of credit markets and macroeconomic trends. His role as a senior investment strategist at GMO positions him at the forefront of analyzing the Federal Reserve's policies and their broader implications for the economy. Peabody's work emphasizes the evolving nature of credit transmission mechanisms and the impact of private credit on market dynamics. His insights are particularly valuable for investors seeking to navigate the complexities of interest rate policies and their effects on capital markets.",
       "derived": {
-        "current_role": "Founder of SemiAnalysis"
+        "current_role": "Senior Investment Strategist at GMO"
       },
-      "infobox": {
-        "Born": "",
-        "Nationality": ""
-      },
+      "infobox": {},
       "lead_paragraphs": [
-        "Dylan Patel is a prominent figure in the field of AI infrastructure and compute market analysis. As the founder of SemiAnalysis, he has dedicated his career to understanding and forecasting the trends and developments within the AI sector. Patel's work is particularly focused on how advancements in AI infrastructure are influencing economic growth, with a keen eye on the allocation of capital expenditures in the industry.",
-        "His insights are sought after for their ability to predict the trajectory of the global economy in relation to the advancements in AI technology. Patel's contributions to the discourse on AI's economic impact have made him a respected voice in both the tech and finance sectors."
+        "Henry Peabody has established himself as a prominent financial analyst specializing in the intricacies of credit markets and macroeconomic trends. His role as a senior investment strategist at GMO positions him at the forefront of analyzing the Federal Reserve's policies and their broader implications for the economy. Peabody's work emphasizes the evolving nature of credit transmission mechanisms and the impact of private credit on market dynamics.",
+        "His insights are particularly valuable for investors seeking to navigate the complexities of interest rate policies and their effects on capital markets."
       ],
       "sections": [
         {
-          "heading": "AI Infrastructure Growth",
-          "body": "Dylan Patel has been instrumental in analyzing the growth of AI infrastructure, highlighting its significant contribution to GDP and the economy."
+          "heading": "Federal Reserve Mandates",
+          "body": "Peabody discusses the Federal Reserve's dual mandates of stable inflation and full employment, while also exploring the evolving third mandate related to credit transmission across the economy."
         },
         {
-          "heading": "Compute Market Analysis",
-          "body": "Patel's expertise lies in the analysis of the compute market, where he forecasts the allocation of capital expenditures and their impact on economic growth."
+          "heading": "Credit Market Dynamics",
+          "body": "He analyzes how changes in capital markets and the rise of private credit have altered the landscape of credit availability and its implications for economic stability."
         },
         {
-          "heading": "Economic Impact of AI",
-          "body": "He provides valuable insights into how AI advancements are shaping the global economy, focusing on the role of AI infrastructure in driving economic progress."
+          "heading": "Interest Rate Policies",
+          "body": "Peabody provides insights into how interest rate policies influence credit markets and the broader economy, helping investors understand potential risks and opportunities."
         }
       ]
-    },
-    "net_worth": "$3.70B"
+    }
+  },
+  {
+    "id": 481,
+    "name": "Eddie Lazaran",
+    "slug": "eddie-lazaran",
+    "bio": "Eddie Lazaran is an expert in AI accountability and innovation, advocating for market-driven approaches to AI safety. He emphasizes the importance of considering the potential for abundance alongside the risks associated with AI development. As a general partner at A16Z Crypto, he engages in discussions about the intersection of technology, safety, and societal impact.",
+    "known_for": "Eddie Lazaran is recognized for his advocacy of market-driven solutions to AI safety challenges.",
+    "net_worth_usd": null,
+    "net_worth_source": "",
+    "net_worth_updated_at": null,
+    "voice_tone": "Analytical and persuasive.",
+    "voice_style": "Lazaran presents logical arguments supported by evidence.",
+    "voice_delivery_notes": "Pacing is steady with emphasis on key points.",
+    "voice_profile_updated_at": "2026-09-25 03:32:16",
+    "last_seen": "2026-09-25 03:32:16",
+    "last_episode_title": "The Case Against an AI Pause | Eddy Lazzarin",
+    "last_podcast_name": "The a16z Show",
+    "last_episode_date": "2026-09-24",
+    "mention_score": 1,
+    "mention_score_decayed": 1,
+    "last_main_idea": "The core investment opportunity lies in supporting AI companies that prioritize accountability, transparency, and societal benefits, as these factors will drive long-term value and trust in the sector.",
+    "last_proof_cite": "The a16z Show \u2022 2026-09-24 \u2022 The Case Against an AI Pause | Eddy Lazzarin",
+    "last_proof_snippet": "The AI debate increasingly asks us to consider the probability of doom. Eddie Lazaran thinks we should also be asking about the probability of abundance. In this episode, A16Z Crypto-General Partner Eddie Lazaran joins Theo-Jaffe on MTS to",
+    "supporting_takeaway": "Understanding cybersecurity as a primary concern can inform better risk management strategies for AI investments.",
+    "grokipedia_url": null,
+    "grokipedia_fetched_at": "2026-09-24T22:33:20.761569",
+    "pundit_profile": {
+      "source": "llm",
+      "source_model": "openai:gpt-4o-mini",
+      "source_url": "",
+      "page_title": "Eddie Lazaran",
+      "fetched_at": "2026-09-25T03:33:20.761290+00:00",
+      "cliff_notes": "Eddie Lazaran has established himself as a significant figure in the discourse surrounding artificial intelligence, particularly in the context of safety and accountability. His work focuses on the balance between innovation and risk management, advocating for a perspective that prioritizes market incentives and technical controls to ensure the safe development of AI technologies. Lazaran's insights challenge prevailing narratives that often emphasize the dangers of AI, instead promoting a vision of technological progress that can lead to societal benefits. His role at A16Z Crypto positions him at the forefront of discussions about the future of AI and its implications for various sectors, making him a key voice in the ongoing debates about the responsible development of advanced technologies.",
+      "derived": {
+        "current_role": "General Partner at A16Z Crypto"
+      },
+      "infobox": {},
+      "lead_paragraphs": [
+        "Eddie Lazaran has established himself as a significant figure in the discourse surrounding artificial intelligence, particularly in the context of safety and accountability. His work focuses on the balance between innovation and risk management, advocating for a perspective that prioritizes market incentives and technical controls to ensure the safe development of AI technologies.",
+        "Lazaran's insights challenge prevailing narratives that often emphasize the dangers of AI, instead promoting a vision of technological progress that can lead to societal benefits. His role at A16Z Crypto positions him at the forefront of discussions about the future of AI and its implications for various sectors, making him a key voice in the ongoing debates about the responsible development of advanced technologies."
+      ],
+      "sections": [
+        {
+          "heading": "AI Safety and Accountability",
+          "body": "Eddie Lazaran discusses the importance of accountability in AI development, advocating for frameworks that ensure responsible innovation while addressing potential risks."
+        },
+        {
+          "heading": "Market-Driven Approaches",
+          "body": "He promotes the idea that market incentives can play a crucial role in enhancing AI safety, suggesting that economic factors can drive better practices in technology development."
+        },
+        {
+          "heading": "Cybersecurity and Control",
+          "body": "Lazaran views many current AI incidents as issues of cybersecurity and control, rather than indicators of superintelligence, urging a reevaluation of how these technologies are perceived."
+        },
+        {
+          "heading": "Independent AI Evaluators",
+          "body": "He advocates for the establishment of independent evaluators to assess AI systems, ensuring that they meet safety and ethical standards before widespread deployment."
+        },
+        {
+          "heading": "Effective Altruism",
+          "body": "Lazaran engages with the principles of effective altruism, exploring how they can inform the development and regulation of AI technologies for the greater good."
+        }
+      ]
+    }
   },
   {
     "id": 480,
@@ -45331,6 +45626,66 @@ const dashboardData = {
         }
       ]
     }
+  },
+  {
+    "id": 333,
+    "name": "Dylan Patel",
+    "slug": "dylan-patel",
+    "bio": "Dylan Patel is the founder of SemiAnalysis, a firm specializing in AI infrastructure and compute market analysis. He is recognized for his insights into the future of AI and its impact on the global economy, particularly focusing on the growth of AI infrastructure and its contribution to GDP.",
+    "known_for": "His expertise in AI infrastructure and its role in shaping the global economy.",
+    "net_worth_usd": 3700000000.0,
+    "net_worth_source": "https://substack.com/home/post/p-153458455",
+    "net_worth_updated_at": "2026-07-15T12:06:20.503583",
+    "voice_tone": "Confident and knowledgeable",
+    "voice_style": "Factual and data-driven",
+    "voice_delivery_notes": "Clear and concise, with a focus on key statistics and trends",
+    "voice_profile_updated_at": "2026-08-26 03:28:15",
+    "last_seen": "2026-08-26 03:28:15",
+    "last_episode_title": "Dylan Patel \u2013 Anthropic & OpenAI will have most of the world\u2019s compute by 2028",
+    "last_podcast_name": "Dwarkesh Podcast",
+    "last_episode_date": "2026-08-25",
+    "mention_score": 2,
+    "mention_score_decayed": 1.0,
+    "last_main_idea": "Investment in AI infrastructure and labs is set to grow exponentially, leading to significant capital allocation shifts and potential market disruptions.",
+    "last_proof_cite": "Dwarkesh Podcast \u2022 2026-08-25 \u2022 Dylan Patel \u2013 Anthropic & OpenAI will have most of the world\u2019s compute by 2028",
+    "last_proof_snippet": "Okay, I'm back with Dylan Patel, Founder of SemiAnalysis, our version of Family, Thanksgiving dinner is a regular early podcast, but you're not actually related. I won't tell the people here. We'll destroy the myth. Walk me, basically w",
+    "supporting_takeaway": "Labs like OpenAI and Anthropic are expected to spend trillions of dollars annually by the end of the decade.",
+    "grokipedia_url": null,
+    "grokipedia_fetched_at": "2026-08-25T22:28:51.037076",
+    "pundit_profile": {
+      "source": "llm",
+      "source_model": "moonshot:moonshot-v1-8k",
+      "source_url": "",
+      "page_title": "Dylan Patel",
+      "fetched_at": "2026-08-26T03:28:51.036737+00:00",
+      "cliff_notes": "Dylan Patel is a prominent figure in the field of AI infrastructure and compute market analysis. As the founder of SemiAnalysis, he has dedicated his career to understanding and forecasting the trends and developments within the AI sector. Patel's work is particularly focused on how advancements in AI infrastructure are influencing economic growth, with a keen eye on the allocation of capital expenditures in the industry. His insights are sought after for their ability to predict the trajectory of the global economy in relation to the advancements in AI technology. Patel's contributions to the discourse on AI's economic impact have made him a respected voice in both the tech and finance sectors.",
+      "derived": {
+        "current_role": "Founder of SemiAnalysis"
+      },
+      "infobox": {
+        "Born": "",
+        "Nationality": ""
+      },
+      "lead_paragraphs": [
+        "Dylan Patel is a prominent figure in the field of AI infrastructure and compute market analysis. As the founder of SemiAnalysis, he has dedicated his career to understanding and forecasting the trends and developments within the AI sector. Patel's work is particularly focused on how advancements in AI infrastructure are influencing economic growth, with a keen eye on the allocation of capital expenditures in the industry.",
+        "His insights are sought after for their ability to predict the trajectory of the global economy in relation to the advancements in AI technology. Patel's contributions to the discourse on AI's economic impact have made him a respected voice in both the tech and finance sectors."
+      ],
+      "sections": [
+        {
+          "heading": "AI Infrastructure Growth",
+          "body": "Dylan Patel has been instrumental in analyzing the growth of AI infrastructure, highlighting its significant contribution to GDP and the economy."
+        },
+        {
+          "heading": "Compute Market Analysis",
+          "body": "Patel's expertise lies in the analysis of the compute market, where he forecasts the allocation of capital expenditures and their impact on economic growth."
+        },
+        {
+          "heading": "Economic Impact of AI",
+          "body": "He provides valuable insights into how AI advancements are shaping the global economy, focusing on the role of AI infrastructure in driving economic progress."
+        }
+      ]
+    },
+    "net_worth": "$3.70B"
   },
   {
     "id": 478,
@@ -45898,68 +46253,6 @@ const dashboardData = {
     }
   },
   {
-    "id": 465,
-    "name": "Dina Palma-Cormick",
-    "slug": "dina-palma-cormick",
-    "bio": "Dina Palma-Cormick is a key executive at Meta, where she leads workforce development programs and community engagement initiatives. With a background in both government and business, she has been instrumental in shaping policies that drive technological advancements. Her experience includes serving as a presidential advisor, focusing on women's leadership and AI expansion.",
-    "known_for": "Dina Palma-Cormick is recognized for her leadership in Meta's workforce development and her role in the company's AI expansion.",
-    "net_worth_usd": null,
-    "net_worth_source": "",
-    "net_worth_updated_at": null,
-    "voice_tone": "Engaging and informative",
-    "voice_style": "Persuasive and community-focused",
-    "voice_delivery_notes": "Clear and emphatic delivery with a focus on community impact.",
-    "voice_profile_updated_at": "2026-09-18 03:20:07",
-    "last_seen": "2026-09-18 03:20:07",
-    "last_episode_title": "Meta's Dina Powell McCormick: The Case for Data Centers, Backlash, AI Job Boom & Meta's Future",
-    "last_podcast_name": "All-In with Chamath, Jason, Sacks & Friedberg",
-    "last_episode_date": "2026-09-17",
-    "mention_score": 1,
-    "mention_score_decayed": 0.87,
-    "last_main_idea": "Investing in tech companies that prioritize community engagement and workforce development can yield sustainable returns and mitigate risks associated with public sentiment.",
-    "last_proof_cite": "All-In with Chamath, Jason, Sacks & Friedberg \u2022 2026-09-17 \u2022 Meta's Dina Powell McCormick: The Case for Data Centers, Backlash, AI Job Boom & Meta's Future",
-    "last_proof_snippet": "A trailblazing leader in government, business, and philanthropy. A former presidential advisor to Donald Trump, Dina Palma-Cormick, joined him at a platform as president and vice chair of women. She'll help lead the company's massive AI exp",
-    "supporting_takeaway": "America's Workforce Academy has trained thousands, achieving a 90% job retention rate post-training.",
-    "grokipedia_url": null,
-    "grokipedia_fetched_at": "2026-09-17T22:20:19.073150",
-    "pundit_profile": {
-      "source": "llm",
-      "source_model": "openai:gpt-4o-mini",
-      "source_url": "",
-      "page_title": "Dina Palma-Cormick",
-      "fetched_at": "2026-09-18T03:20:19.072625+00:00",
-      "cliff_notes": "Dina Palma-Cormick has built a career at the intersection of technology, government, and philanthropy. As a key executive at Meta, she focuses on workforce development and community engagement, driving initiatives that leverage technology for societal benefit. Her previous role as a presidential advisor under Donald Trump highlights her influence in shaping policies that support women's leadership and technological growth. With a vision for the future, she is poised to lead Meta's significant AI expansion, emphasizing the importance of data centers and their positive economic impact on communities. Palma-Cormick's commitment to harnessing technology for transformative change positions her as a pivotal figure in the ongoing evolution of the tech landscape.",
-      "derived": {
-        "current_role": "Executive at Meta",
-        "former_positions": "Presidential advisor to Donald Trump; Vice Chair of Women at a platform",
-        "political_summary": "Dina has served as a presidential advisor, actively engaging in initiatives that promote women's leadership and technological innovation."
-      },
-      "infobox": {},
-      "lead_paragraphs": [
-        "Dina Palma-Cormick has built a career at the intersection of technology, government, and philanthropy. As a key executive at Meta, she focuses on workforce development and community engagement, driving initiatives that leverage technology for societal benefit. Her previous role as a presidential advisor under Donald Trump highlights her influence in shaping policies that support women's leadership and technological growth.",
-        "With a vision for the future, she is poised to lead Meta's significant AI expansion, emphasizing the importance of data centers and their positive economic impact on communities. Palma-Cormick's commitment to harnessing technology for transformative change positions her as a pivotal figure in the ongoing evolution of the tech landscape."
-      ],
-      "sections": [
-        {
-          "heading": "AI Expansion",
-          "body": "Dina is at the forefront of Meta's AI expansion, focusing on integrating advanced technologies into the company's operations and community initiatives."
-        },
-        {
-          "heading": "Workforce Development",
-          "body": "She leads programs aimed at enhancing workforce skills, ensuring that communities are prepared for the technological advancements of the future."
-        },
-        {
-          "heading": "Women in Leadership",
-          "body": "Dina advocates for women's leadership in technology and business, emphasizing their critical role in driving innovation and change."
-        },
-        {
-          "heading": "Community Engagement",
-          "body": "Her work involves fostering strong community ties and demonstrating the economic benefits of technology, particularly through data centers."
-        }
-      ]
-    }
-  },
-  {
     "id": 133,
     "name": "Chris Dixon",
     "slug": "chris-dixon",
@@ -46019,6 +46312,68 @@ const dashboardData = {
       ]
     },
     "net_worth": "$500.0M"
+  },
+  {
+    "id": 465,
+    "name": "Dina Palma-Cormick",
+    "slug": "dina-palma-cormick",
+    "bio": "Dina Palma-Cormick is a key executive at Meta, where she leads workforce development programs and community engagement initiatives. With a background in both government and business, she has been instrumental in shaping policies that drive technological advancements. Her experience includes serving as a presidential advisor, focusing on women's leadership and AI expansion.",
+    "known_for": "Dina Palma-Cormick is recognized for her leadership in Meta's workforce development and her role in the company's AI expansion.",
+    "net_worth_usd": null,
+    "net_worth_source": "",
+    "net_worth_updated_at": null,
+    "voice_tone": "Engaging and informative",
+    "voice_style": "Persuasive and community-focused",
+    "voice_delivery_notes": "Clear and emphatic delivery with a focus on community impact.",
+    "voice_profile_updated_at": "2026-09-18 03:20:07",
+    "last_seen": "2026-09-18 03:20:07",
+    "last_episode_title": "Meta's Dina Powell McCormick: The Case for Data Centers, Backlash, AI Job Boom & Meta's Future",
+    "last_podcast_name": "All-In with Chamath, Jason, Sacks & Friedberg",
+    "last_episode_date": "2026-09-17",
+    "mention_score": 1,
+    "mention_score_decayed": 0.85,
+    "last_main_idea": "Investing in tech companies that prioritize community engagement and workforce development can yield sustainable returns and mitigate risks associated with public sentiment.",
+    "last_proof_cite": "All-In with Chamath, Jason, Sacks & Friedberg \u2022 2026-09-17 \u2022 Meta's Dina Powell McCormick: The Case for Data Centers, Backlash, AI Job Boom & Meta's Future",
+    "last_proof_snippet": "A trailblazing leader in government, business, and philanthropy. A former presidential advisor to Donald Trump, Dina Palma-Cormick, joined him at a platform as president and vice chair of women. She'll help lead the company's massive AI exp",
+    "supporting_takeaway": "America's Workforce Academy has trained thousands, achieving a 90% job retention rate post-training.",
+    "grokipedia_url": null,
+    "grokipedia_fetched_at": "2026-09-17T22:20:19.073150",
+    "pundit_profile": {
+      "source": "llm",
+      "source_model": "openai:gpt-4o-mini",
+      "source_url": "",
+      "page_title": "Dina Palma-Cormick",
+      "fetched_at": "2026-09-18T03:20:19.072625+00:00",
+      "cliff_notes": "Dina Palma-Cormick has built a career at the intersection of technology, government, and philanthropy. As a key executive at Meta, she focuses on workforce development and community engagement, driving initiatives that leverage technology for societal benefit. Her previous role as a presidential advisor under Donald Trump highlights her influence in shaping policies that support women's leadership and technological growth. With a vision for the future, she is poised to lead Meta's significant AI expansion, emphasizing the importance of data centers and their positive economic impact on communities. Palma-Cormick's commitment to harnessing technology for transformative change positions her as a pivotal figure in the ongoing evolution of the tech landscape.",
+      "derived": {
+        "current_role": "Executive at Meta",
+        "former_positions": "Presidential advisor to Donald Trump; Vice Chair of Women at a platform",
+        "political_summary": "Dina has served as a presidential advisor, actively engaging in initiatives that promote women's leadership and technological innovation."
+      },
+      "infobox": {},
+      "lead_paragraphs": [
+        "Dina Palma-Cormick has built a career at the intersection of technology, government, and philanthropy. As a key executive at Meta, she focuses on workforce development and community engagement, driving initiatives that leverage technology for societal benefit. Her previous role as a presidential advisor under Donald Trump highlights her influence in shaping policies that support women's leadership and technological growth.",
+        "With a vision for the future, she is poised to lead Meta's significant AI expansion, emphasizing the importance of data centers and their positive economic impact on communities. Palma-Cormick's commitment to harnessing technology for transformative change positions her as a pivotal figure in the ongoing evolution of the tech landscape."
+      ],
+      "sections": [
+        {
+          "heading": "AI Expansion",
+          "body": "Dina is at the forefront of Meta's AI expansion, focusing on integrating advanced technologies into the company's operations and community initiatives."
+        },
+        {
+          "heading": "Workforce Development",
+          "body": "She leads programs aimed at enhancing workforce skills, ensuring that communities are prepared for the technological advancements of the future."
+        },
+        {
+          "heading": "Women in Leadership",
+          "body": "Dina advocates for women's leadership in technology and business, emphasizing their critical role in driving innovation and change."
+        },
+        {
+          "heading": "Community Engagement",
+          "body": "Her work involves fostering strong community ties and demonstrating the economic benefits of technology, particularly through data centers."
+        }
+      ]
+    }
   },
   {
     "id": 464,
@@ -46624,7 +46979,7 @@ const dashboardData = {
     "last_podcast_name": "All-In with Chamath, Jason, Sacks & Friedberg",
     "last_episode_date": "2026-08-08",
     "mention_score": 2,
-    "mention_score_decayed": 0.83,
+    "mention_score_decayed": 0.81,
     "last_main_idea": "Investment in AI infrastructure and data centers is becoming increasingly important due to the demand for compute power and the tax advantages of such investments in the U.S.",
     "last_proof_cite": "All-In with Chamath, Jason, Sacks & Friedberg \u2022 2026-08-08 \u2022 Google's AI Brain Drain, SpaceX's Huge Quarter, Airtable's 90% Collapse, US Data Fuels China AI",
     "last_proof_snippet": "All right, everybody. Welcome back to your favorite podcast. It's the all-in podcast. It's the summer. It's August 6th. Haven't a hard time getting a core. I'm here on the podcast. But David Friedberg is here. David Friedberg is back our Su",
@@ -47723,7 +48078,7 @@ const dashboardData = {
     "last_podcast_name": "The a16z Show",
     "last_episode_date": "2026-08-21",
     "mention_score": 1,
-    "mention_score_decayed": 0.55,
+    "mention_score_decayed": 0.54,
     "last_main_idea": "Investing in AI-driven security solutions can enhance operational efficiency and effectiveness, providing a competitive edge in a rapidly evolving technological landscape.",
     "last_proof_cite": "The a16z Show \u2022 2026-08-21 \u2022 Microsoft's Deputy CISO on Securing AI Agents",
     "last_proof_snippet": "The top story has been that the AI models are happy. The models went out under the internet and tested the security of several organizations. Isn't something to be scared of? Yes. Is it something to throw up your hands and worry about? No.",
@@ -47785,7 +48140,7 @@ const dashboardData = {
     "last_podcast_name": "Moonshots with Peter Diamandis",
     "last_episode_date": "2026-07-29",
     "mention_score": 1,
-    "mention_score_decayed": 0.55,
+    "mention_score_decayed": 0.54,
     "last_main_idea": "The accelerating pace of AI development, coupled with advancements in space technology and a shifting geopolitical landscape, creates a multi-faceted investment opportunity in companies fostering balanced AI ecosystems, pioneering AGI, and enabling future abundance.",
     "last_proof_cite": "Moonshots with Peter Diamandis \u2022 2026-07-29 \u2022 Dario vs Jensen on Open Weights, OpenAI & Anthropic in DC, Xi Exports AI to Global South | EP #275",
     "last_proof_snippet": "The couple of days ago, Jensen Wong's CEO of NVIDIA. He says the world needs both frontier, close models, and frontier open models. And Thropic was silent for three days, and there was a lot of conversation. Where's in Thropic in this conve",
@@ -47813,7 +48168,7 @@ const dashboardData = {
     "last_podcast_name": "Moonshots with Peter Diamandis",
     "last_episode_date": "2026-07-29",
     "mention_score": 1,
-    "mention_score_decayed": 0.55,
+    "mention_score_decayed": 0.54,
     "last_main_idea": "The accelerating pace of AI development, coupled with advancements in space technology and a shifting geopolitical landscape, creates a multi-faceted investment opportunity in companies fostering balanced AI ecosystems, pioneering AGI, and enabling future abundance.",
     "last_proof_cite": "Moonshots with Peter Diamandis \u2022 2026-07-29 \u2022 Dario vs Jensen on Open Weights, OpenAI & Anthropic in DC, Xi Exports AI to Global South | EP #275",
     "last_proof_snippet": "The couple of days ago, Jensen Wong's CEO of NVIDIA. He says the world needs both frontier, close models, and frontier open models. And Thropic was silent for three days, and there was a lot of conversation. Where's in Thropic in this conve",
@@ -47841,7 +48196,7 @@ const dashboardData = {
     "last_podcast_name": "The a16z Show",
     "last_episode_date": "2026-06-12",
     "mention_score": 1,
-    "mention_score_decayed": 0.55,
+    "mention_score_decayed": 0.54,
     "last_main_idea": "The core investment opportunity lies in identifying and capitalizing on the foundational industries and efficient institutions that will enable and benefit from the AI-induced industrial revolution, while also navigating the demographic and political economic shifts it engenders.",
     "last_proof_cite": "The a16z Show \u2022 2026-06-12 \u2022 Samo Burja on Growth, Energy, and AI",
     "last_proof_snippet": "So, I actually think a big macro story that we've been exploring at Bismarck and Alice's in Bismarck Brief is that the demands of AI are so massive that for the first time in decades, the economies of scale necessary to supply them require",
@@ -49088,7 +49443,7 @@ const dashboardData = {
     "last_podcast_name": "Monetary Matters with Jack Farley",
     "last_episode_date": "2026-08-16",
     "mention_score": 1,
-    "mention_score_decayed": 0.42,
+    "mention_score_decayed": 0.41,
     "last_main_idea": "Investment in hyperscaler companies may offer significant returns due to their transformative technology and massive capital investments, but also carries risks due to the off-balance sheet leverage and innovative financial structures.",
     "last_proof_cite": "Monetary Matters with Jack Farley \u2022 2026-08-16 \u2022 Robin Wigglesworth on Hyperscalers' 1.5 Trillion of Off-Balance Sheet Liabilities, Private Credit, and His Book \"A Fabulous Debt\"",
     "last_proof_snippet": "I'm joined today by Robin Wigglesworth, editor of AlphaVille, the Financial Times Financial blog and author of a fabulous debt, the epic story of how bonds built the modern world Robin. But one talk about bonds fixed income of course, but w",
@@ -49401,7 +49756,7 @@ const dashboardData = {
     "last_podcast_name": "Monetary Matters with Jack Farley",
     "last_episode_date": "2026-08-12",
     "mention_score": 1,
-    "mention_score_decayed": 0.38,
+    "mention_score_decayed": 0.37,
     "last_main_idea": "Milton Berg's investment thesis is that the market may have bottomed and is poised for a rebound, with specific focus on sectors that have experienced significant declines as potential short-term bounce candidates.",
     "last_proof_cite": "Monetary Matters with Jack Farley \u2022 2026-08-12 \u2022 Milton Berg: I Have Evidence Market Has Likely Bottomed | Why Milton\u2019s Long Semis, Korea, Nasdaq, and More (With Caveats), and Why He Thinks Gold has made a Multi-year Top",
     "last_proof_snippet": "I am joined once again by Milton Berg of MB advisors and Milton Berg Edge. Milton is one of the greatest market technicians alive. And he focuses on a lot of things that most tetanolists don't follow. He's mostly not looking at charts. He's",
@@ -49715,7 +50070,7 @@ const dashboardData = {
     "last_podcast_name": "Dwarkesh Podcast",
     "last_episode_date": "2026-08-11",
     "mention_score": 1,
-    "mention_score_decayed": 0.37,
+    "mention_score_decayed": 0.36,
     "last_main_idea": "Investment in AI development and security is crucial to manage the rapid advancements and ensure ethical AI behavior.",
     "last_proof_cite": "Dwarkesh Podcast \u2022 2026-08-11 \u2022 Ryan Greenblatt \u2013 Human level AIs might build runaway superintelligences by 2032",
     "last_proof_snippet": "Today, I'm chatting with Ryan Greenlet, who is the chief scientist at Redwood Research, where he focuses on technical AI safety and security work. I want to talk to you about recursive self-improvement. This is the idea that once you build",
@@ -51783,7 +52138,7 @@ const dashboardData = {
     "last_podcast_name": "All-In with Chamath, Jason, Sacks & Friedberg",
     "last_episode_date": "2026-07-20",
     "mention_score": 1,
-    "mention_score_decayed": 0.23,
+    "mention_score_decayed": 0.22,
     "last_main_idea": "The current market behavior, while bubbly, is distinct from past bubbles and may disproportionately impact venture capital and private equity firms due to aggressive investment strategies.",
     "last_proof_cite": "All-In with Chamath, Jason, Sacks & Friedberg \u2022 2026-07-20 \u2022 Mark Cuban on the AI Bubble: Who Actually Gets Wiped Out?",
     "last_proof_snippet": "You and I live through a couple of bubbles. We've seen this movie before. And this wave seems very different than the dot com wave. So let's talk about that. Are you concerned about a bubble? We're seeing bubbly like behavior people. It's n",
@@ -52046,7 +52401,7 @@ const dashboardData = {
     "last_podcast_name": "Moonshots with Peter Diamandis",
     "last_episode_date": "2026-07-17",
     "mention_score": 1,
-    "mention_score_decayed": 0.21,
+    "mention_score_decayed": 0.2,
     "last_main_idea": "Investing in AI companies that focus on customization and small language models can provide significant returns as these technologies meet current market demands and have the potential to shape the future of AI.",
     "last_proof_cite": "Moonshots with Peter Diamandis \u2022 2026-07-17 \u2022 Mira Murati's 975B Open Model, Ramin Hasani on Post-Transformer AI, and Demis' AI FINRA | EP #271",
     "last_proof_snippet": "Miramoradi, the former OpenAI CTO, just shipped her first model. It's called Inkling, customization over leaderboard dominance is what's going to win her the day. She's built exactly the thing hitting the market that exactly what everybody",
@@ -53102,144 +53457,6 @@ const dashboardData = {
     "net_worth": "$12.0M"
   },
   {
-    "id": 122,
-    "name": "Michael Every",
-    "slug": "michael-every",
-    "bio": "Michael Every is a renowned financial analyst with a focus on global markets and economic policies. He is recognized for his insightful commentary on geopolitical issues and their impact on financial markets. Every's expertise is sought after by professional finance, high-net worth individuals, and sophisticated investors.",
-    "known_for": "His incisive analysis on the intersection of geopolitics, inflation, and market trends.",
-    "net_worth_usd": 70000000000.0,
-    "net_worth_source": "https://www.celebritynetworth.com/richest-politicians/michael-bloomberg-net-worth/",
-    "net_worth_updated_at": "2026-03-31T20:09:40.488239",
-    "voice_tone": "Authoritative and insightful",
-    "voice_style": "Factual and analytical",
-    "voice_delivery_notes": "Clear and deliberate pace with emphasis on key economic indicators",
-    "voice_profile_updated_at": "2026-06-04 18:37:25",
-    "last_seen": "2026-06-04 18:37:26",
-    "last_episode_title": "MacroVoices #535 Michael Every: NAFTA and NAPTHA \u2013 Warcraft & Fartcraft",
-    "last_podcast_name": "Macro Voices",
-    "last_episode_date": "2026-06-04",
-    "mention_score": 2,
-    "mention_score_decayed": 0.15,
-    "last_main_idea": "Invest in sectors that are likely to benefit from a shift towards economic statecraft and prepare for market volatility due to geopolitical tensions.",
-    "last_proof_cite": "Macro Voices \u2022 2026-06-04 \u2022 MacroVoices #535 Michael Every: NAFTA and NAPTHA \u2013 Warcraft & Fartcraft",
-    "last_proof_snippet": "This is Macrovoisers, the Free Weekly Financial Podcast, targeting professional finance, high-net worth individuals, family offices, and other sophisticated investors. Macrovoisers is all about the brightest minds in the world of finance an",
-    "supporting_takeaway": "Consider investing in infrastructure and industrial sectors due to a shift towards economic statecraft.",
-    "grokipedia_url": null,
-    "grokipedia_fetched_at": "2026-06-04T13:38:40.048685",
-    "pundit_profile": {
-      "source": "llm",
-      "source_model": "moonshot:moonshot-v1-8k",
-      "source_url": "",
-      "page_title": "Michael Every",
-      "fetched_at": "2026-06-04T18:38:40.048477+00:00",
-      "cliff_notes": "Michael Every has carved out a niche as a financial analyst with a particular focus on the intricacies of global markets and their relationship with economic policies. His career has been marked by a deep dive into geopolitical events and their financial repercussions, making him a go-to source for understanding complex market dynamics. Every's commentary is valued for its clarity and ability to distill complex economic and political scenarios into actionable insights for investors. His work has been influential in shaping investment strategies amidst global uncertainties, particularly in the realms of inflation, trade, and geopolitical tensions.",
-      "derived": {
-        "current_role": "Robobank Strategist"
-      },
-      "infobox": {
-        "Born": "",
-        "Nationality": ""
-      },
-      "lead_paragraphs": [
-        "Michael Every has carved out a niche as a financial analyst with a particular focus on the intricacies of global markets and their relationship with economic policies. His career has been marked by a deep dive into geopolitical events and their financial repercussions, making him a go-to source for understanding complex market dynamics.",
-        "Every's commentary is valued for its clarity and ability to distill complex economic and political scenarios into actionable insights for investors. His work has been influential in shaping investment strategies amidst global uncertainties, particularly in the realms of inflation, trade, and geopolitical tensions."
-      ],
-      "sections": [
-        {
-          "heading": "Geopolitical Impact on Markets",
-          "body": "Every is known for his analysis on how geopolitical events, such as the U.S. blockade of Iran, affect global markets and inflation."
-        },
-        {
-          "heading": "Economic Statecraft",
-          "body": "His work often encompasses the strategic use of economic tools by nations to achieve foreign policy goals."
-        },
-        {
-          "heading": "Inflation Outlook",
-          "body": "Every provides detailed insights into the inflationary trends and their implications for global economies."
-        },
-        {
-          "heading": "China's Role in Global Economy",
-          "body": "He frequently discusses China's economic policies and their impact on international trade and markets."
-        },
-        {
-          "heading": "President Trump's Economic Policies",
-          "body": "Every has commented on the economic policies of President Trump, including the potential lifting of the Iran blockade."
-        },
-        {
-          "heading": "Statecraft Ambitions",
-          "body": "His analysis includes the examination of statecraft ambitions through the lens of economic and financial strategies."
-        }
-      ]
-    },
-    "net_worth": "$70.00B"
-  },
-  {
-    "id": 171,
-    "name": "Steven Sinofsky",
-    "slug": "steven-sinofsky",
-    "bio": "Steven Sinofsky is a former Microsoft executive and industry expert on personal computing and software development. Over nearly three decades at Microsoft, he helped shape products that define the PC era, including Windows, Office, and Surface. Sinofsky has witnessed one of the technology industry's longest-running rivalries, Microsoft and Apple, and continues to provide insights on the evolution of personal computing.",
-    "known_for": "His tenure at Microsoft and insights on the evolution of personal computing.",
-    "net_worth_usd": 300000000.0,
-    "net_worth_source": "https://www.gurufocus.com/insider/3984/steven-j-sinofsky",
-    "net_worth_updated_at": "2026-04-10T22:06:00.230554",
-    "voice_tone": "Reflective and insightful",
-    "voice_style": "Analytical and comparative",
-    "voice_delivery_notes": "Paced with emphasis on key historical moments and technological differences",
-    "voice_profile_updated_at": "2026-04-11 03:05:18",
-    "last_seen": "2026-06-03 03:02:03",
-    "last_episode_title": "Steven Sinofsky on Apple at 50, Microsoft, and the Future of Computing",
-    "last_podcast_name": "The a16z Show",
-    "last_episode_date": "2026-06-02",
-    "mention_score": 2,
-    "mention_score_decayed": 0.15,
-    "last_main_idea": "Investment in AI-native computing hardware and software development will be pivotal as personal computing transitions towards AI optimization, with Nvidia and Apple leading the charge.",
-    "last_proof_cite": "The a16z Show \u2022 2026-06-02 \u2022 Steven Sinofsky on Apple at 50, Microsoft, and the Future of Computing",
-    "last_proof_snippet": "Having lived through like a half dozen component church things, you just sort of wait them out and you jump, let some local max, your local men determine the future. This will all correct itself, in short order. This world where you're all",
-    "supporting_takeaway": "The shift to local processing could reduce costs associated with cloud-based AI services and democratize AI tool access.",
-    "grokipedia_url": null,
-    "grokipedia_fetched_at": "2026-06-02T22:02:42.225895",
-    "pundit_profile": {
-      "source": "llm",
-      "source_model": "moonshot:moonshot-v1-8k",
-      "source_url": "",
-      "page_title": "Steven Sinofsky",
-      "fetched_at": "2026-06-03T03:02:42.225549+00:00",
-      "cliff_notes": "Steven Sinofsky is best known for his nearly three-decade tenure at Microsoft, where he played a pivotal role in shaping some of the most defining products of the personal computing era, including Windows, Office, and Surface. As President of the Windows Division, Sinofsky was instrumental in guiding the development and marketing of the Windows operating system, which remains the backbone of the PC industry. His tenure also saw him navigate the intense rivalry between Microsoft and Apple, providing him with a unique perspective on product design, platforms, hardware, and software. Since leaving Microsoft, Sinofsky has continued to offer valuable insights into the future of computing, particularly in areas such as AI and resource constraints. His front-row seat to the personal computing revolution has made him a sought-after commentator and thought leader in the tech industry.",
-      "derived": {
-        "former_positions": "President of the Windows Division at Microsoft; Senior Vice President at Microsoft",
-        "education": "Bachelor of Science in Computer Science and Engineering from the University of Illinois at Urbana-Champaign"
-      },
-      "infobox": {
-        "Born": "1965",
-        "Nationality": "American"
-      },
-      "lead_paragraphs": [
-        "Steven Sinofsky is best known for his nearly three-decade tenure at Microsoft, where he played a pivotal role in shaping some of the most defining products of the personal computing era, including Windows, Office, and Surface. As President of the Windows Division, Sinofsky was instrumental in guiding the development and marketing of the Windows operating system, which remains the backbone of the PC industry.",
-        "His tenure also saw him navigate the intense rivalry between Microsoft and Apple, providing him with a unique perspective on product design, platforms, hardware, and software. Since leaving Microsoft, Sinofsky has continued to offer valuable insights into the future of computing, particularly in areas such as AI and resource constraints.",
-        "His front-row seat to the personal computing revolution has made him a sought-after commentator and thought leader in the tech industry."
-      ],
-      "sections": [
-        {
-          "heading": "Microsoft Tenure",
-          "body": "Steven Sinofsky spent nearly three decades at Microsoft, where he held various leadership roles, including President of the Windows Division and Senior Vice President. He was instrumental in shaping products like Windows, Office, and Surface, which have defined the personal computing era."
-        },
-        {
-          "heading": "Windows Development",
-          "body": "As President of the Windows Division, Sinofsky played a crucial role in the development and marketing of the Windows operating system. His leadership helped guide the product through numerous iterations, ensuring its continued relevance in the face of evolving competition and market demands."
-        },
-        {
-          "heading": "Microsoft vs. Apple",
-          "body": "Sinofsky's tenure at Microsoft coincided with one of the technology industry's longest-running rivalries: Microsoft vs. Apple. His unique perspective on product design, platforms, hardware, and software has provided valuable insights into the dynamics of this intense competition."
-        },
-        {
-          "heading": "Future of Computing",
-          "body": "Since leaving Microsoft, Steven Sinofsky has continued to offer insights into the future of computing, particularly in areas such as AI and resource constraints. He believes that AI presents an opportunity to change the dynamic of personal computing, making it more forward-looking and less reliant on backward compatibility."
-        }
-      ]
-    },
-    "net_worth": "$300.0M"
-  },
-  {
     "id": 319,
     "name": "Marcus Villik",
     "slug": "marcus-villik",
@@ -53610,6 +53827,72 @@ const dashboardData = {
         }
       ]
     }
+  },
+  {
+    "id": 171,
+    "name": "Steven Sinofsky",
+    "slug": "steven-sinofsky",
+    "bio": "Steven Sinofsky is a former Microsoft executive and industry expert on personal computing and software development. Over nearly three decades at Microsoft, he helped shape products that define the PC era, including Windows, Office, and Surface. Sinofsky has witnessed one of the technology industry's longest-running rivalries, Microsoft and Apple, and continues to provide insights on the evolution of personal computing.",
+    "known_for": "His tenure at Microsoft and insights on the evolution of personal computing.",
+    "net_worth_usd": 300000000.0,
+    "net_worth_source": "https://www.gurufocus.com/insider/3984/steven-j-sinofsky",
+    "net_worth_updated_at": "2026-04-10T22:06:00.230554",
+    "voice_tone": "Reflective and insightful",
+    "voice_style": "Analytical and comparative",
+    "voice_delivery_notes": "Paced with emphasis on key historical moments and technological differences",
+    "voice_profile_updated_at": "2026-04-11 03:05:18",
+    "last_seen": "2026-06-03 03:02:03",
+    "last_episode_title": "Steven Sinofsky on Apple at 50, Microsoft, and the Future of Computing",
+    "last_podcast_name": "The a16z Show",
+    "last_episode_date": "2026-06-02",
+    "mention_score": 2,
+    "mention_score_decayed": 0.14,
+    "last_main_idea": "Investment in AI-native computing hardware and software development will be pivotal as personal computing transitions towards AI optimization, with Nvidia and Apple leading the charge.",
+    "last_proof_cite": "The a16z Show \u2022 2026-06-02 \u2022 Steven Sinofsky on Apple at 50, Microsoft, and the Future of Computing",
+    "last_proof_snippet": "Having lived through like a half dozen component church things, you just sort of wait them out and you jump, let some local max, your local men determine the future. This will all correct itself, in short order. This world where you're all",
+    "supporting_takeaway": "The shift to local processing could reduce costs associated with cloud-based AI services and democratize AI tool access.",
+    "grokipedia_url": null,
+    "grokipedia_fetched_at": "2026-06-02T22:02:42.225895",
+    "pundit_profile": {
+      "source": "llm",
+      "source_model": "moonshot:moonshot-v1-8k",
+      "source_url": "",
+      "page_title": "Steven Sinofsky",
+      "fetched_at": "2026-06-03T03:02:42.225549+00:00",
+      "cliff_notes": "Steven Sinofsky is best known for his nearly three-decade tenure at Microsoft, where he played a pivotal role in shaping some of the most defining products of the personal computing era, including Windows, Office, and Surface. As President of the Windows Division, Sinofsky was instrumental in guiding the development and marketing of the Windows operating system, which remains the backbone of the PC industry. His tenure also saw him navigate the intense rivalry between Microsoft and Apple, providing him with a unique perspective on product design, platforms, hardware, and software. Since leaving Microsoft, Sinofsky has continued to offer valuable insights into the future of computing, particularly in areas such as AI and resource constraints. His front-row seat to the personal computing revolution has made him a sought-after commentator and thought leader in the tech industry.",
+      "derived": {
+        "former_positions": "President of the Windows Division at Microsoft; Senior Vice President at Microsoft",
+        "education": "Bachelor of Science in Computer Science and Engineering from the University of Illinois at Urbana-Champaign"
+      },
+      "infobox": {
+        "Born": "1965",
+        "Nationality": "American"
+      },
+      "lead_paragraphs": [
+        "Steven Sinofsky is best known for his nearly three-decade tenure at Microsoft, where he played a pivotal role in shaping some of the most defining products of the personal computing era, including Windows, Office, and Surface. As President of the Windows Division, Sinofsky was instrumental in guiding the development and marketing of the Windows operating system, which remains the backbone of the PC industry.",
+        "His tenure also saw him navigate the intense rivalry between Microsoft and Apple, providing him with a unique perspective on product design, platforms, hardware, and software. Since leaving Microsoft, Sinofsky has continued to offer valuable insights into the future of computing, particularly in areas such as AI and resource constraints.",
+        "His front-row seat to the personal computing revolution has made him a sought-after commentator and thought leader in the tech industry."
+      ],
+      "sections": [
+        {
+          "heading": "Microsoft Tenure",
+          "body": "Steven Sinofsky spent nearly three decades at Microsoft, where he held various leadership roles, including President of the Windows Division and Senior Vice President. He was instrumental in shaping products like Windows, Office, and Surface, which have defined the personal computing era."
+        },
+        {
+          "heading": "Windows Development",
+          "body": "As President of the Windows Division, Sinofsky played a crucial role in the development and marketing of the Windows operating system. His leadership helped guide the product through numerous iterations, ensuring its continued relevance in the face of evolving competition and market demands."
+        },
+        {
+          "heading": "Microsoft vs. Apple",
+          "body": "Sinofsky's tenure at Microsoft coincided with one of the technology industry's longest-running rivalries: Microsoft vs. Apple. His unique perspective on product design, platforms, hardware, and software has provided valuable insights into the dynamics of this intense competition."
+        },
+        {
+          "heading": "Future of Computing",
+          "body": "Since leaving Microsoft, Steven Sinofsky has continued to offer insights into the future of computing, particularly in areas such as AI and resource constraints. He believes that AI presents an opportunity to change the dynamic of personal computing, making it more forward-looking and less reliant on backward compatibility."
+        }
+      ]
+    },
+    "net_worth": "$300.0M"
   },
   {
     "id": 310,
@@ -54173,70 +54456,6 @@ const dashboardData = {
     "net_worth": "$800.0M"
   },
   {
-    "id": 54,
-    "name": "Jim Bianco",
-    "slug": "jim-bianco",
-    "bio": "Jim Bianco is the President and Proprietor of Bianco Research, a firm known for its market analysis and commentary. He is a prominent figure in the financial industry, often providing insights on monetary policy and economic trends.",
-    "known_for": "His expertise in market analysis and commentary, particularly on monetary policy.",
-    "net_worth_usd": 12300000.0,
-    "net_worth_source": "https://www.benzinga.com/sec/insider-trades/0001198554/james-a-bianco",
-    "net_worth_updated_at": "2026-04-10T05:06:38.074861",
-    "voice_tone": "Assertive and analytical.",
-    "voice_style": "Factual and critical, with a focus on economic and political implications.",
-    "voice_delivery_notes": "Paced with emphasis on key economic indicators and policy implications.",
-    "voice_profile_updated_at": "2026-05-06 03:01:03",
-    "last_seen": "2026-05-06 03:01:03",
-    "last_episode_title": "Jim Bianco on Division at the Fed and Jerome Powell\u2019s Controversial Decision to Stay",
-    "last_podcast_name": "Monetary Matters with Jack Farley",
-    "last_episode_date": "2026-05-01",
-    "mention_score": 3,
-    "mention_score_decayed": 0.12,
-    "last_main_idea": "In an environment of protracted conflict and supply chain disruptions, commodities, particularly oil, are expected to remain elevated, with interest rates trending higher.",
-    "last_proof_cite": "Monetary Matters with Jack Farley \u2022 2026-05-01 \u2022 Jim Bianco on Division at the Fed and Jerome Powell\u2019s Controversial Decision to Stay",
-    "last_proof_snippet": "We are here another addition of monetary matters live on monitoring the situation. I'm Jack Farley and I'm Max Weethy. We've got a big day Jack. It's almost a comically large amount of news we have to get into. We're going to be speaking ab",
-    "supporting_takeaway": "The independence of the Fed is increasingly questioned, with 12 independent voters leading to a shift away from groupthink.",
-    "grokipedia_url": null,
-    "grokipedia_fetched_at": "2026-05-10T07:05:08.511229",
-    "pundit_profile": {
-      "source": "llm",
-      "source_model": "moonshot:moonshot-v1-8k",
-      "source_url": "",
-      "page_title": "Jim Bianco",
-      "fetched_at": "2026-05-10T12:05:08.510952+00:00",
-      "cliff_notes": "Jim Bianco is a well-respected figure in the financial world, serving as the President and Proprietor of Bianco Research. His career has been marked by a deep focus on market analysis and commentary, with a particular emphasis on monetary policy. Bianco's insights are sought after by investors and financial professionals alike, as he provides a clear and concise understanding of complex economic issues. His work has helped shape the discourse around financial markets and the role of central banks, making him an influential voice in the industry.",
-      "derived": {
-        "current_role": "President and Proprietor of Bianco Research"
-      },
-      "infobox": {
-        "Born": "",
-        "Nationality": ""
-      },
-      "lead_paragraphs": [
-        "Jim Bianco is a well-respected figure in the financial world, serving as the President and Proprietor of Bianco Research. His career has been marked by a deep focus on market analysis and commentary, with a particular emphasis on monetary policy. Bianco's insights are sought after by investors and financial professionals alike, as he provides a clear and concise understanding of complex economic issues.",
-        "His work has helped shape the discourse around financial markets and the role of central banks, making him an influential voice in the industry."
-      ],
-      "sections": [
-        {
-          "heading": "Market Analysis",
-          "body": "Jim Bianco is recognized for his in-depth market analysis, providing clear and actionable insights to investors."
-        },
-        {
-          "heading": "Monetary Policy",
-          "body": "Bianco's commentary on monetary policy is highly regarded, offering unique perspectives on the actions of central banks."
-        },
-        {
-          "heading": "Economic Trends",
-          "body": "He frequently discusses and analyzes economic trends, helping to forecast market movements and impacts."
-        },
-        {
-          "heading": "Financial Commentary",
-          "body": "Bianco's financial commentary is a staple in the industry, offering on a wide range of financial topics."
-        }
-      ]
-    },
-    "net_worth": "$12.3M"
-  },
-  {
     "id": 300,
     "name": "Ed Zitron",
     "slug": "ed-zitron",
@@ -54424,6 +54643,70 @@ const dashboardData = {
     }
   },
   {
+    "id": 54,
+    "name": "Jim Bianco",
+    "slug": "jim-bianco",
+    "bio": "Jim Bianco is the President and Proprietor of Bianco Research, a firm known for its market analysis and commentary. He is a prominent figure in the financial industry, often providing insights on monetary policy and economic trends.",
+    "known_for": "His expertise in market analysis and commentary, particularly on monetary policy.",
+    "net_worth_usd": 12300000.0,
+    "net_worth_source": "https://www.benzinga.com/sec/insider-trades/0001198554/james-a-bianco",
+    "net_worth_updated_at": "2026-04-10T05:06:38.074861",
+    "voice_tone": "Assertive and analytical.",
+    "voice_style": "Factual and critical, with a focus on economic and political implications.",
+    "voice_delivery_notes": "Paced with emphasis on key economic indicators and policy implications.",
+    "voice_profile_updated_at": "2026-05-06 03:01:03",
+    "last_seen": "2026-05-06 03:01:03",
+    "last_episode_title": "Jim Bianco on Division at the Fed and Jerome Powell\u2019s Controversial Decision to Stay",
+    "last_podcast_name": "Monetary Matters with Jack Farley",
+    "last_episode_date": "2026-05-01",
+    "mention_score": 3,
+    "mention_score_decayed": 0.11,
+    "last_main_idea": "In an environment of protracted conflict and supply chain disruptions, commodities, particularly oil, are expected to remain elevated, with interest rates trending higher.",
+    "last_proof_cite": "Monetary Matters with Jack Farley \u2022 2026-05-01 \u2022 Jim Bianco on Division at the Fed and Jerome Powell\u2019s Controversial Decision to Stay",
+    "last_proof_snippet": "We are here another addition of monetary matters live on monitoring the situation. I'm Jack Farley and I'm Max Weethy. We've got a big day Jack. It's almost a comically large amount of news we have to get into. We're going to be speaking ab",
+    "supporting_takeaway": "The independence of the Fed is increasingly questioned, with 12 independent voters leading to a shift away from groupthink.",
+    "grokipedia_url": null,
+    "grokipedia_fetched_at": "2026-05-10T07:05:08.511229",
+    "pundit_profile": {
+      "source": "llm",
+      "source_model": "moonshot:moonshot-v1-8k",
+      "source_url": "",
+      "page_title": "Jim Bianco",
+      "fetched_at": "2026-05-10T12:05:08.510952+00:00",
+      "cliff_notes": "Jim Bianco is a well-respected figure in the financial world, serving as the President and Proprietor of Bianco Research. His career has been marked by a deep focus on market analysis and commentary, with a particular emphasis on monetary policy. Bianco's insights are sought after by investors and financial professionals alike, as he provides a clear and concise understanding of complex economic issues. His work has helped shape the discourse around financial markets and the role of central banks, making him an influential voice in the industry.",
+      "derived": {
+        "current_role": "President and Proprietor of Bianco Research"
+      },
+      "infobox": {
+        "Born": "",
+        "Nationality": ""
+      },
+      "lead_paragraphs": [
+        "Jim Bianco is a well-respected figure in the financial world, serving as the President and Proprietor of Bianco Research. His career has been marked by a deep focus on market analysis and commentary, with a particular emphasis on monetary policy. Bianco's insights are sought after by investors and financial professionals alike, as he provides a clear and concise understanding of complex economic issues.",
+        "His work has helped shape the discourse around financial markets and the role of central banks, making him an influential voice in the industry."
+      ],
+      "sections": [
+        {
+          "heading": "Market Analysis",
+          "body": "Jim Bianco is recognized for his in-depth market analysis, providing clear and actionable insights to investors."
+        },
+        {
+          "heading": "Monetary Policy",
+          "body": "Bianco's commentary on monetary policy is highly regarded, offering unique perspectives on the actions of central banks."
+        },
+        {
+          "heading": "Economic Trends",
+          "body": "He frequently discusses and analyzes economic trends, helping to forecast market movements and impacts."
+        },
+        {
+          "heading": "Financial Commentary",
+          "body": "Bianco's financial commentary is a staple in the industry, offering on a wide range of financial topics."
+        }
+      ]
+    },
+    "net_worth": "$12.3M"
+  },
+  {
     "id": 297,
     "name": "Eden Ha",
     "slug": "eden-ha",
@@ -54441,7 +54724,7 @@ const dashboardData = {
     "last_podcast_name": "Latent Space: The AI Engineer Podcast",
     "last_episode_date": "2026-06-01",
     "mention_score": 1,
-    "mention_score_decayed": 0.11,
+    "mention_score_decayed": 0.1,
     "last_main_idea": "Invest in AI companies that prioritize language integration with video generation and have efficient training processes to capitalize on the evolving capabilities of generative AI.",
     "last_proof_cite": "Latent Space: The AI Engineer Podcast \u2022 2026-06-01 \u2022 Why Video Agent models are next \u2014 Ethan He, xAI Grok Imagine",
     "last_proof_snippet": "Okay, we're here in a studio with Eden Ha, most recently of XCI. Welcome. Yeah, thank you, glad being here. We were so here with Vibu. You were first coming to us or joining Lily in Space World because you were working on Cosmos in a video",
@@ -54502,7 +54785,7 @@ const dashboardData = {
     "last_podcast_name": "Monetary Matters with Jack Farley",
     "last_episode_date": "2026-06-18",
     "mention_score": 1,
-    "mention_score_decayed": 0.11,
+    "mention_score_decayed": 0.1,
     "last_main_idea": "Invest in U.S. industrial champions with strong order backlogs and companies positioned to benefit from the electrification and modernization of the U.S. grid.",
     "last_proof_cite": "Monetary Matters with Jack Farley \u2022 2026-06-18 \u2022 The US Manufacturing and Electrification Megatrends Are Here and They\u2019re Way More Than AI | Chris Semenuk",
     "last_proof_snippet": "The U.S. manufacturing has essentially been in a recession for three straight years and we have only just emerged now. If I had a CMMI survey, just reached about 50 in the last three months. And that's after three consecutive years of sub-5",
@@ -63962,10 +64245,10 @@ const dashboardData = {
       "as_of_label": "Sep 18, 2026 ~9:30 AM CT",
       "notional_each_usd": 1000,
       "basket_notional_usd": 5000,
-      "basket_current_value": 5026.95,
-      "basket_change_pct": 0.54,
+      "basket_current_value": 5058.76,
+      "basket_change_pct": 1.18,
       "index_start": 100,
-      "basket_index_value": 100.54,
+      "basket_index_value": 101.18,
       "names": [
         {
           "ticker": "HIMS",
@@ -63974,9 +64257,9 @@ const dashboardData = {
           "inception_price": 28.09,
           "shares": 35.5999,
           "notional": 1000,
-          "current_price": 29.18,
-          "current_value": 1038.81,
-          "change_pct": 3.88
+          "current_price": 29.28,
+          "current_value": 1042.37,
+          "change_pct": 4.24
         },
         {
           "ticker": "GDRX",
@@ -63985,9 +64268,9 @@ const dashboardData = {
           "inception_price": 3.33,
           "shares": 300.3003,
           "notional": 1000,
-          "current_price": 3.33,
-          "current_value": 1000.0,
-          "change_pct": 0.0
+          "current_price": 3.36,
+          "current_value": 1009.01,
+          "change_pct": 0.9
         },
         {
           "ticker": "TEM",
@@ -63996,9 +64279,9 @@ const dashboardData = {
           "inception_price": 77.97,
           "shares": 12.8254,
           "notional": 1000,
-          "current_price": 80.73,
-          "current_value": 1035.39,
-          "change_pct": 3.54
+          "current_price": 82.24,
+          "current_value": 1054.76,
+          "change_pct": 5.48
         },
         {
           "ticker": "GH",
@@ -64007,9 +64290,9 @@ const dashboardData = {
           "inception_price": 183.1,
           "shares": 5.4615,
           "notional": 1000,
-          "current_price": 175.65,
-          "current_value": 959.31,
-          "change_pct": -4.07
+          "current_price": 176.45,
+          "current_value": 963.68,
+          "change_pct": -3.63
         },
         {
           "ticker": "ABT",
@@ -64018,13 +64301,13 @@ const dashboardData = {
           "inception_price": 102.2,
           "shares": 9.7847,
           "notional": 1000,
-          "current_price": 101.53,
-          "current_value": 993.44,
-          "change_pct": -0.66
+          "current_price": 101.07,
+          "current_value": 988.94,
+          "change_pct": -1.11
         }
       ],
       "disclaimer": "Research sleeve / scorecard, not advice. $1,000 equal-weight illustration only.",
-      "last_updated": "2026-09-24T14:15:15.297320"
+      "last_updated": "2026-09-24T22:34:24.330861"
     }
   ]
 }

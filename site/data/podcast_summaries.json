@@ -1,5 +1,58 @@
 [
   {
+    "id": 518,
+    "podcast_name": "Monetary Matters with Jack Farley",
+    "episode_title": "Why the Fed May Have to Hike Far Higher Than Expected | Henry Peabody on the Fed\u2019s Triple Mandate and Uneven Transmission of Monetary Policy",
+    "episode_date": "2026-09-24",
+    "summary": "In this episode of 'Monetary Matters', Jack Farley discusses the evolving dynamics of the credit market, particularly the bifurcation between high-quality and lower-quality borrowers. The Federal Reserve's potential for maintaining higher interest rates for an extended period is highlighted, alongside the implications of AI-driven credit demand and the attractiveness of non-US dollar assets in emerging markets. The conversation emphasizes the need for investors to navigate these complexities with a focus on transparency and risk management.",
+    "key_takeaways": [
+      "The credit market is increasingly bifurcated, favoring high-quality borrowers while lower-quality borrowers face tighter conditions.",
+      "The Federal Reserve may maintain higher interest rates longer to manage inflation, impacting borrowing costs and economic growth.",
+      "AI-related investments are driving credit demand, but this trend carries risks of concentration in vulnerable sectors.",
+      "Investors should seek greater transparency in credit markets to identify hidden risks and vulnerabilities.",
+      "Non-US dollar assets, especially in emerging markets, present attractive investment opportunities due to favorable valuations."
+    ],
+    "investment_thesis": "Investors should focus on high-quality credit assets and consider diversifying into non-US dollar assets to enhance returns while managing risks in a high-rate environment.",
+    "key_tickers": null
+  },
+  {
+    "id": 517,
+    "podcast_name": "Macro Voices",
+    "episode_title": "MacroVoices #551 Michael Every: Decoding The Global Geopolitical Puzzle",
+    "episode_date": "2026-09-24",
+    "summary": "In this episode of Macro Voices, Michael Every discusses the potential for escalating geopolitical tensions in the Middle East, particularly involving Iran, which could lead to significant disruptions in oil supply and rising prices. The strengthening U.S. dollar, driven by rising interest rates, poses risks to global trade and financial conditions. The bond market is also experiencing volatility, with rising yields impacting equities, while market strength remains concentrated in a few mega-cap stocks, indicating broader market fragility.",
+    "key_takeaways": [
+      "Geopolitical tensions in the Middle East could lead to spikes in oil prices, impacting inflation and economic growth.",
+      "The U.S. dollar's strength may tighten financial conditions, affecting global trade and risk assets.",
+      "Rising bond yields indicate changing expectations for interest rates, which could increase borrowing costs and affect equities.",
+      "Concentration of market strength in mega-cap stocks suggests potential fragility in the overall market.",
+      "Gold's outlook is uncertain due to macro headwinds, while copper shows resilience amid strong demand."
+    ],
+    "investment_thesis": "Investors should prepare for potential volatility in oil prices and consider the implications of a stronger U.S. dollar on their portfolios.",
+    "key_tickers": [
+      "USD",
+      "GOLD",
+      "COPPER",
+      "URANIUM"
+    ]
+  },
+  {
+    "id": 516,
+    "podcast_name": "The a16z Show",
+    "episode_title": "The Case Against an AI Pause | Eddy Lazzarin",
+    "episode_date": "2026-09-24",
+    "summary": "In this episode of The a16z Show, Eddie Lazaran discusses the importance of shifting the narrative around AI from a focus on doom to one that emphasizes abundance and innovation. He argues that current AI incidents are primarily due to cybersecurity failures rather than superintelligence risks, and advocates for market-driven accountability mechanisms rather than new regulations. Lazaran believes that as AI capabilities improve, so will the systems for accountability, which could lead to the emergence of reputation systems for AI models, ultimately fostering trust and transparency in the sector.",
+    "key_takeaways": [
+      "Investors should prioritize AI technologies that focus on creating societal benefits and innovation.",
+      "Understanding cybersecurity as a primary concern can inform better risk management strategies for AI investments.",
+      "Clear accountability frameworks are essential for managing risks and enhancing trust in AI technologies.",
+      "A market-driven approach to AI accountability can foster innovation while ensuring safety.",
+      "Monitoring the development of reputation systems for AI models is crucial for informed investment decisions."
+    ],
+    "investment_thesis": "The core investment opportunity lies in supporting AI companies that prioritize accountability, transparency, and societal benefits, as these factors will drive long-term value and trust in the sector.",
+    "key_tickers": null
+  },
+  {
     "id": 515,
     "podcast_name": "Latent Space: The AI Engineer Podcast",
     "episode_title": "\ud83d\udd2cBio-security is an AI Arms Race - Eric Nguyen (CEO, Radical Numerics)",
