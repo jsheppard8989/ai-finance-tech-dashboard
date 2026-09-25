@@ -86,7 +86,7 @@
     "_primary_source": "Treasury.gov",
     "_source_url": "https://home.treasury.gov/resource-center/data-chart-center/interest-rates/TextView?type=daily_treasury_yield_curve",
     "_fred_status": "unavailable (optional)",
-    "last_updated": "2026-09-25T06:54:13.547185",
+    "last_updated": "2026-09-25T10:48:14.508480",
     "as_of_date": "2026-09-24",
     "spreads": {
       "2s10s": {
@@ -145,7 +145,7 @@
     "_fetch_url": "https://www.cftc.gov/dea/futures/financial_lf.htm",
     "_api_alternative": "Quandl CFTC dataset (may need key)",
     "_fetch_instructions": "CFTC releases COT every Friday at 3:30pm ET for positions as of prior Tuesday.",
-    "last_updated": "2026-09-25T06:54:13.854539",
+    "last_updated": "2026-09-25T10:48:14.950662",
     "report_date": "2026-09-15",
     "prior_report_date": null,
     "rates_positioning": {
@@ -234,14 +234,14 @@
     "_source_url": "https://gpu-index.semianalysis.com/",
     "_api_url": "https://gpu-index.semianalysis.com/api/public-data",
     "_data_type": "api_index",
-    "last_fetched": "2026-09-25T06:53:57.594823",
+    "last_fetched": "2026-09-25T10:47:58.241674",
     "h100": {
       "daily_date": "Sep 25, 2026",
       "daily_date_iso": "2026-09-25",
       "composite_index": {
-        "display": "$3.26",
+        "display": "$3.27",
         "type": "single",
-        "value": 3.26
+        "value": 3.27
       },
       "contract_period": "Aug 2026",
       "1y_contract": {
@@ -266,21 +266,21 @@
       ],
       "daily_trend": {
         "data_points": 1080,
-        "latest_value": 3.26,
+        "latest_value": 3.27,
         "latest_date": "Sep 25, 2026",
         "short_term": {
-          "change_pct": -0.3,
+          "change_pct": 0.0,
           "comparison_date": "Sep 18, 2026",
           "comparison_value": 3.27,
           "days_back": 7
         },
         "long_term": {
-          "change_pct": 1.6,
+          "change_pct": 1.9,
           "anchor_date": "Aug 26, 2026",
           "anchor_value": 3.21,
           "days_back": 30
         },
-        "change_pct": -0.3,
+        "change_pct": 0.0,
         "comparison_date": "Sep 18, 2026"
       },
       "contract_trend": {
