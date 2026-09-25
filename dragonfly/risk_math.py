@@ -12,7 +12,7 @@ rounding choice cannot push heat through a ceiling.
 from __future__ import annotations
 
 from datetime import date, timedelta
-from decimal import Decimal, ROUND_FLOOR, ROUND_HALF_UP
+from decimal import Decimal, ROUND_CEILING, ROUND_FLOOR, ROUND_HALF_UP
 from typing import Iterable, Mapping, Optional, Sequence
 
 CENT = Decimal("0.01")
@@ -49,6 +49,15 @@ MIN_OPTION_VOLUME = 50
 # Universe stock spread gate: spread <= the wider of $0.05 and 0.15% of price.
 MAX_STOCK_SPREAD_ABS = Decimal("0.05")
 MAX_STOCK_SPREAD_PCT = Decimal("0.0015")
+
+# Paper quote model (Jared, 2026-09-25): when Yahoo's bid/ask is unusable or
+# fails the spread gate, model a flat $0.05 spread around a mid. PAPER ONLY.
+MODELED_SPREAD = Decimal("0.05")
+MODELED_HALF_SPREAD = Decimal("0.025")
+SPREAD_SOURCE_YAHOO = "yahoo"
+SPREAD_SOURCE_MODELED_MID = "modeled_mid_0.05"
+SPREAD_SOURCE_MODELED_LAST = "modeled_last_0.05"
+MODELED_SPREAD_SOURCES = (SPREAD_SOURCE_MODELED_MID, SPREAD_SOURCE_MODELED_LAST)
 
 # Books. Phase 1 is paper. A live card must say so explicitly (book="live").
 PAPER = "paper"
@@ -142,11 +151,16 @@ def universe_reasons(price, adv_dollars, spread) -> list[str]:
     return reasons
 
 
+def is_modeled_spread(spread_source: Optional[str]) -> bool:
+    return isinstance(spread_source, str) and spread_source.startswith("modeled")
+
+
 def sources_provisional(sources: Optional[Iterable[Mapping]]) -> bool:
     """True unless every data source is explicitly stamped provisional=False.
 
-    No sources, a source without a `provisional` flag, or any source stamped
-    provisional (for example Yahoo via yfinance) counts as provisional.
+    No sources, a source without a `provisional` flag, any source stamped
+    provisional (for example Yahoo via yfinance), or any source whose
+    `spread_source` is modeled counts as provisional.
     """
     if not sources:
         return True
@@ -155,7 +169,112 @@ def sources_provisional(sources: Optional[Iterable[Mapping]]) -> bool:
         seen = True
         if not isinstance(source, Mapping) or source.get("provisional") is not False:
             return True
+        if is_modeled_spread(source.get("spread_source")):
+            return True
     return not seen
+
+
+def _positive(value) -> Optional[Decimal]:
+    if value is None:
+        return None
+    try:
+        d = D(value)
+    except Exception:
+        return None
+    if d != d or d <= 0:  # NaN or non-positive
+        return None
+    return d
+
+
+def resolve_quote(bid, ask, last) -> dict:
+    """Paper quote resolution. Yahoo quote if it passes the spread gate as-is;
+    otherwise a modeled $0.05 spread around a mid. PAPER ONLY.
+
+    1. bid > 0, ask > 0, not crossed, ask - bid <= stock_spread_limit(mid):
+       real quote, spread_source "yahoo".
+    2. Otherwise, if bid and ask are both positive: mid = (bid + ask) / 2
+       (crossed quotes included). If a last trade exists and |mid - last| is
+       more than the gate width at that price (stock_spread_limit(last)), the
+       mid is not trusted and last trade becomes the mid.
+    3. If bid/ask give no usable mid, last trade is the mid.
+    4. No usable mid and no usable last trade: not usable (fail closed).
+
+    Modeled quotes are mid -/+ $0.025, spread_source "modeled_mid_0.05" or
+    "modeled_last_0.05", provisional True. The modeled spread is not re-checked
+    against the 0.15% width (Jared's flat $0.05); the $0.05 floor of the gate
+    means it would pass anyway.
+    """
+    b, a, last_d = _positive(bid), _positive(ask), _positive(last)
+    base = {"yahoo_bid": bid, "yahoo_ask": ask, "last_trade": last, "provisional": True}
+    if b is not None and a is not None and a >= b:
+        mid = (b + a) / 2
+        spread = a - b
+        if spread <= stock_spread_limit(mid):
+            return {
+                **base,
+                "usable": True,
+                "bid": b,
+                "ask": a,
+                "mid": mid,
+                "spread": spread,
+                "spread_source": SPREAD_SOURCE_YAHOO,
+                "mid_source": "quote_mid",
+                "fallback_reason": None,
+            }
+    if b is None or a is None:
+        why = "quote_missing_or_zero"
+    elif a < b:
+        why = "quote_crossed"
+    else:
+        why = "quote_fails_spread_gate"
+    quote_mid = (b + a) / 2 if b is not None and a is not None else None
+    mid = None
+    mid_source = None
+    if quote_mid is not None:
+        if last_d is not None and abs(quote_mid - last_d) > stock_spread_limit(last_d):
+            mid, mid_source = last_d, "last_trade"
+            why += "+mid_far_from_last"
+        else:
+            mid, mid_source = quote_mid, ("quote_mid" if last_d is not None else "quote_mid_unverified")
+    elif last_d is not None:
+        mid, mid_source = last_d, "last_trade"
+    if mid is None:
+        return {**base, "usable": False, "reason": "no_usable_mid_or_last", "fallback_reason": why}
+    source = SPREAD_SOURCE_MODELED_LAST if mid_source == "last_trade" else SPREAD_SOURCE_MODELED_MID
+    return {
+        **base,
+        "usable": True,
+        "bid": mid - MODELED_HALF_SPREAD,
+        "ask": mid + MODELED_HALF_SPREAD,
+        "mid": mid,
+        "spread": MODELED_SPREAD,
+        "spread_source": source,
+        "mid_source": mid_source,
+        "fallback_reason": why,
+    }
+
+
+def paper_buy_fill(mid) -> Decimal:
+    """Paper buy fills at mid + $0.025, rounded up to the cent (adverse)."""
+    return (D(mid) + MODELED_HALF_SPREAD).quantize(CENT, rounding=ROUND_CEILING)
+
+
+def paper_sell_fill(mid) -> Decimal:
+    """Paper sell fills at mid - $0.025, rounded down to the cent (adverse)."""
+    return (D(mid) - MODELED_HALF_SPREAD).quantize(CENT, rounding=ROUND_FLOOR)
+
+
+def paper_entry_fill(trigger, mid=None) -> dict:
+    """Paper buy-stop entry: fill at (mid at trigger time, default the trigger)
+    + $0.025. The existing rule is unchanged: a fill above max_buy_fill(trigger)
+    invalidates the card."""
+    fill = paper_buy_fill(trigger if mid is None else mid)
+    return {
+        "fill": fill,
+        "max_fill": max_buy_fill(trigger),
+        "acceptable": fill_acceptable(trigger, fill),
+        "fill_type": "hypothetical",
+    }
 
 
 def tighter_mode(current: str, proposed: str) -> str:
@@ -327,17 +446,19 @@ def structural_blocks(
     stop_distance_atr,
     book: str = PAPER,
     provisional_data: Optional[bool] = None,
+    spread_source: Optional[str] = None,
 ) -> list[str]:
     """Deterministic hard blocks. A language model cannot clear these.
 
     Provenance: a card on the live book is blocked unless its data is known
     to be non-provisional (`provisional_data is False`). Unknown provenance
-    (None) counts as provisional. Paper cards may use provisional data.
+    (None) counts as provisional. A modeled spread (`spread_source`
+    modeled_*) is provisional too. Paper cards may use provisional data.
     """
     reasons = []
     if book not in BOOKS:
         reasons.append("unknown_book")
-    elif book == LIVE and provisional_data is not False:
+    elif book == LIVE and (provisional_data is not False or is_modeled_spread(spread_source)):
         reasons.append("provisional_source_live")
     if not fields_complete:
         reasons.append("missing_field")

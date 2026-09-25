@@ -63,8 +63,41 @@ Every Dragonfly network fetch (bars, chains, watchlist quotes) calls
   spread ≤ max($0.05, 0.15% of mid).
 - Price and ADV run on every candidate (from `bars.py`). Survivors are ranked by
   ADV, descending.
-- **Spread gate on the ADV-ranked shortlist only.** Yahoo bid/ask is fetched in
-  rank order, in small batches, until `cap` (200) names pass.
+- **Quotes on the ADV-ranked shortlist only.** Yahoo bid/ask/last is fetched in
+  rank order, in small batches, until `cap` (200) names are admitted. Names
+  ranked below the cutoff are `beyond_cap` (excluded).
+- **Paper quote model (default, `--spread-mode modeled`, PAPER ONLY; Jared,
+  2026-09-25).** Each name's quote is resolved by `risk_math.resolve_quote`:
+  1. Yahoo bid/ask passes the spread gate as-is → real quote,
+     `spread_source: "yahoo"`.
+  2. Crossed, zero, missing, or gate-fail → mid = (bid+ask)/2, modeled
+     bid/ask = mid ∓ $0.025, `spread_source: "modeled_mid_0.05"`,
+     `provisional: true`.
+  3. Sanity guard: if that mid is more than the gate width
+     (`stock_spread_limit(last)` = max($0.05, 0.15% of last)) away from
+     Yahoo's last trade, or bid/ask give no usable mid (missing/zero on either
+     side), last trade is the mid: `spread_source: "modeled_last_0.05"`,
+     `mid_source: "last_trade"`, provisional.
+  4. No usable mid and no usable last trade → excluded
+     (`no_usable_mid_or_last`). Fail closed. A mid with no last trade to check
+     it against is admitted as `mid_source: "quote_mid_unverified"`.
+  - The price gate (on the resolved mid) and the ADV gate stay exact. Thin
+    names still fall out on ADV. Modeled names are admitted on price/ADV; the
+    spread gate is satisfied by the modeled $0.05 spread for paper purposes.
+  - The modeled $0.05 is **not** re-checked against the 0.15% width. It would
+    pass anyway: the gate is max($0.05, 0.15%·mid), so $0.05 is always legal.
+    For low-priced names it is wider than 0.15% (0.5% at $10) and overstates
+    friction for liquid names priced under $33.33.
+  - Per name: `bid`/`ask`/`mid`/`spread` (as resolved), `spread_source`,
+    `mid_source`, `provisional`, raw `yahoo_bid`/`yahoo_ask`/`last_trade`.
+    `quote_fallbacks` records why each modeled name fell back.
+  - `not_spread_checked` and `spread_unavailable` no longer occur in modeled
+    mode.
+  - **Live:** any card using a `modeled_*` spread source is rejected
+    (`structural_blocks(..., spread_source=...)` → `provisional_source_live`,
+    and `sources_provisional` treats a modeled source as provisional).
+- **Strict mode (`--spread-mode exact`)**, the previous behavior: only names
+  whose Yahoo bid/ask passes the gate are admitted.
   - A name that is **never spread-checked** because the cap filled first is
     **excluded** (`not_spread_checked`). It is never admitted to the watchlist
     or the scan.
@@ -81,10 +114,21 @@ Every Dragonfly network fetch (bars, chains, watchlist quotes) calls
 Yahoo's `bid`/`ask` for many Nasdaq-listed names is not an NBBO. On
 2026-09-25 intraday, AAPL showed 336.96 × 341.98 (size 2 × 4), MSFT 498.20 ×
 518.97, AMZN 236.40 × 261.65, while NYSE names (JPM, XOM, BAC, KO) showed
-penny-wide quotes with real size. Some quotes were crossed. The spread gate
-fails closed on these, so the watchlist is gate-correct but **skewed away from
-Nasdaq-listed mega-caps**. Fixing this needs a better quote source; it must not
-be fixed by softening the gate.
+penny-wide quotes with real size. Some quotes were crossed. In strict mode the
+spread gate fails closed on these, so the list is **skewed away from
+Nasdaq-listed mega-caps**. The paper quote model above admits them on a modeled
+$0.05 spread (provisional, paper only, live-blocked). A real fix for live still
+needs a better quote source; it must not be fixed by softening the gate.
+
+## Paper fills — `risk_math.paper_buy_fill` / `paper_sell_fill` / `paper_entry_fill`
+
+- Buys fill at mid + $0.025 (rounded up to the cent), sells at mid − $0.025
+  (rounded down). Mid is the resolved quote mid; for a buy-stop entry it
+  defaults to the trigger. Labeled `fill_type: hypothetical`.
+- The max-fill rule is unchanged: a buy fill above `max_fill` = trigger × 1.0015
+  invalidates the card. Because $0.025 > 0.15% of prices under $16.67, a paper
+  entry at the trigger on a name under $16.67 always exceeds `max_fill` and is
+  invalidated (e.g. trigger $12.00 → fill $12.03 > max $12.02).
 
 ## Bars — `dragonfly/bars.py`
 
@@ -121,6 +165,10 @@ be fixed by softening the gate.
 - `python3 dragonfly/test_phase1_data.py` — offline (fakes only): bars math,
   incremental cache, chain fail-closed, watchlist selection including the
   never-checked / failed-quote exclusions.
+- `python3 dragonfly/test_phase1_modeled.py` — offline: `resolve_quote`
+  vectors (yahoo-pass, crossed, zero, missing, gate-fail, mid-vs-last swap,
+  no-mid-no-last exclusion), paper buy/sell fills and the max-fill interaction,
+  live-reject / paper-pass for both modeled sources, modeled selection.
 - `python3 dragonfly/test_phase1_guards.py` — offline: lock guard (live /
   dead / unreadable PID, bounded wait), daemon windows and override, guarded
   fetchers, chains shortlist cap, security-type resolution and ADR exclusion

@@ -17,6 +17,9 @@ from dragonfly.risk_math import (  # noqa: E402
     fill_acceptable,
     max_buy_fill,
     money,
+    paper_buy_fill,
+    paper_entry_fill,
+    paper_sell_fill,
     r_multiple,
     regime_to_mode,
     size_option,
@@ -235,6 +238,26 @@ def main() -> None:
     assert paper_fill == Decimal("84.54")
     assert fill_acceptable(Decimal("84.50"), paper_fill) is True
 
+    # Paper fills at mid +/- the modeled half spread ($0.025), adverse cent
+    # rounding. The max-fill-through-trigger rule is unchanged.
+    assert paper_buy_fill(Decimal("84.50")) == Decimal("84.53")
+    assert paper_sell_fill(Decimal("84.50")) == Decimal("84.47")
+    assert paper_buy_fill(Decimal("10.005")) == Decimal("10.03")
+    assert paper_sell_fill(Decimal("10.005")) == Decimal("9.98")
+    assert paper_buy_fill(Decimal("100.00")) - paper_sell_fill(Decimal("100.00")) == Decimal("0.06")
+    entry = paper_entry_fill(Decimal("84.50"))
+    assert entry["fill"] == Decimal("84.53") and entry["max_fill"] == Decimal("84.63")
+    assert entry["acceptable"] is True
+    through = paper_entry_fill(Decimal("84.50"), mid=Decimal("84.605"))
+    assert through["fill"] == Decimal("84.63") and through["acceptable"] is True
+    beyond = paper_entry_fill(Decimal("84.50"), mid=Decimal("84.61"))
+    assert beyond["fill"] == Decimal("84.64") and beyond["acceptable"] is False
+    # Low-priced trigger: $0.025 half spread exceeds the 15 bp max-fill band,
+    # so a paper entry exactly at the trigger is invalidated (flagged in docs).
+    low = paper_entry_fill(Decimal("12.00"))
+    assert low["fill"] == Decimal("12.03") and low["max_fill"] == Decimal("12.02")
+    assert low["acceptable"] is False
+
     sessions = [
         date(2026, 9, 25),
         date(2026, 9, 28),
@@ -296,6 +319,22 @@ def main() -> None:
     assert sources_provisional([{"source": "vendor", "provisional": False}] + yahoo) is True
     live_yahoo = blocks(book="live", provisional_data=sources_provisional(yahoo))
     assert "provisional_source_live" in live_yahoo
+
+    # Modeled spread (paper quote model) is provisional: any live card using a
+    # modeled_* spread source is rejected even if the data flag says final;
+    # paper passes. A real Yahoo spread does not add a block by itself.
+    for modeled in ("modeled_mid_0.05", "modeled_last_0.05"):
+        assert "provisional_source_live" in blocks(book="live", provisional_data=False, spread_source=modeled)
+        assert "provisional_source_live" in blocks(book="live", provisional_data=True, spread_source=modeled)
+        assert blocks(book="paper", provisional_data=True, spread_source=modeled) == []
+        assert blocks(book="paper", provisional_data=False, spread_source=modeled) == []
+        vendor_modeled = [{"source": "vendor", "provisional": False, "spread_source": modeled}]
+        assert sources_provisional(vendor_modeled) is True
+        assert "provisional_source_live" in blocks(
+            book="live", provisional_data=sources_provisional(vendor_modeled)
+        )
+    assert blocks(book="live", provisional_data=False, spread_source="yahoo") == []
+    assert sources_provisional([{"source": "vendor", "provisional": False, "spread_source": "yahoo"}]) is False
 
     # Universe gates are single-sourced; size_stock uses the same helper.
     assert stock_spread_limit(Decimal("20")) == Decimal("0.05")
