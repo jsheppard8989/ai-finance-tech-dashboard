@@ -20,6 +20,25 @@
       "podcast_episode_id": 519
     },
     {
+      "id": 535,
+      "title": "The Reputation Graph of Silicon Valley | Introducing Cosign",
+      "source_type": "podcast",
+      "source_name": "The a16z Show",
+      "source_date": "2026-09-25",
+      "summary": "In this episode of The a16z Show, the discussion centers around Co-sign, a new platform designed to enhance professional reputation through endorsements. The hosts and guests highlight the importance of social capital in talent discovery, emphasizing that endorsements can significantly improve visibility and credibility in a competitive job market. By addressing the inefficiencies of existing platforms, Co-sign aims to democratize access to opportunities and streamline the hiring and investment processes.",
+      "key_takeaway": "Investing in platforms like Co-sign that leverage endorsements and social capital can yield significant returns as they address inefficiencies in talent discovery and professional networking.",
+      "tickers_mentioned": [
+        "NVDA"
+      ],
+      "sentiment": "neutral",
+      "display_on_main": 0,
+      "display_order": 0,
+      "added_date": "2026-09-25",
+      "archived_date": null,
+      "archived_reason": null,
+      "podcast_episode_id": 520
+    },
+    {
       "id": 531,
       "title": "Why the Fed May Have to Hike Far Higher Than Expected | Henry Peabody on the Fed\u2019s Triple Mandate and Uneven Transmission of Monetary Policy",
       "source_type": "podcast",
