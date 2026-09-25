@@ -2,7 +2,7 @@
   "$schema": "https://json-schema.org/draft/2020-12/schema",
   "$id": "https://scarcity.local/dragonfly/trade_draft.schema.json",
   "title": "Dragonfly 7 Trade Draft (Architect to engine)",
-  "description": "What the Trade Architect writes to inbox/YYYY-MM-DD/<trade_id>.draft.json. A trade card minus everything the engine owns: no sizing, no risk_decision, no entry.max_fill, no status, no red_team (the Red Team writes <trade_id>.redteam.json separately), no human_decision, no watcher, no engine timestamps. Drafts that carry sizing, risk_decision or entry.max_fill are rejected as pre-sized. The engine recomputes every measurement on the Mac and blocks on a mismatch. See docs/dragonfly/ENGINE.md.",
+  "description": "What the Trade Architect writes to inbox/YYYY-MM-DD/<trade_id>.draft.json. A trade card minus everything the engine owns: no sizing, no risk_decision, no entry.max_fill, no status, no red_team (the Red Team writes <trade_id>.redteam.json separately), no human_decision, no watcher, no engine timestamps. Drafts that carry sizing, risk_decision or entry.max_fill are rejected as pre-sized. The engine recomputes every measurement on the Mac and blocks on a mismatch. See docs/dragonfly/ENGINE.md. The engine strips (and records) keys this schema does not define instead of rejecting the draft; sizing, risk_decision and entry.max_fill are rejected.",
   "type": "object",
   "additionalProperties": false,
   "required": [
@@ -88,7 +88,8 @@
           "type": "string"
         },
         "source_url": {
-          "type": "string"
+          "type": "string",
+          "description": "Source URL (or a filing accession). Empty string allowed when filing_accession is given."
         },
         "source_type": {
           "enum": [
@@ -114,6 +115,10 @@
         },
         "earnings_in_window": {
           "type": "boolean"
+        },
+        "filing_accession": {
+          "type": "string",
+          "description": "SEC filing accession (e.g. 0001193125-26-123456). Alternative to source_url (plan section 6)."
         }
       }
     },
@@ -254,16 +259,10 @@
       }
     },
     "measurements": {
-      "description": "The Architect's measurements. The engine never uses them for a decision: it recomputes each from the Mac's bars cache (or handoff/YYYY-MM-DD/measurements.json) and blocks with measurement_mismatch when a value is outside tolerance, or measurement_unavailable when the Mac cannot compute it.",
+      "description": "The Architect's measurements. The engine never uses them for a decision: it recomputes each from the Mac's bars cache (or handoff/YYYY-MM-DD/measurements.json). A stated price, atr, adv_dollars, spread or sector outside tolerance is measurement_mismatch; an omitted one is simply not compared. signal_session is required; reference_level is required for catalyst_breakout and failed_breakdown; base_level for momentum_pullback.",
       "type": "object",
       "additionalProperties": false,
       "required": [
-        "price",
-        "atr",
-        "adv_dollars",
-        "spread",
-        "sector",
-        "reference_level",
         "signal_session"
       ],
       "properties": {
@@ -304,7 +303,7 @@
         "reference_level": {
           "type": "number",
           "exclusiveMinimum": 0,
-          "description": "The setup's named level. catalyst_breakout: the breakout level. momentum_pullback: the continuation pivot the trigger clears. failed_breakdown: the reclaimed support. compression_expansion: the compression range high. Extension = (entry reference - level) / ATR."
+          "description": "The setup's named level. catalyst_breakout: the breakout level (required; the 1.0 ATR entry and extension limits use it). failed_breakdown: the reclaimed support (required). momentum_pullback / compression_expansion: optional and informational (no extension block for these setups)."
         },
         "provisional": {
           "type": "boolean",
@@ -320,7 +319,7 @@
         "signal_session": {
           "type": "string",
           "format": "date",
-          "description": "The setup's signal bar: breakout, pullback, reversal or expansion session. One of the last 5 NYSE sessions before the session date."
+          "description": "The setup's signal bar: breakout, pullback, reversal or expansion session. Must be a session in the Mac's bars through the previous session. Age is recorded, not limited."
         },
         "base_level": {
           "type": "number",
@@ -422,6 +421,30 @@
           "measurements": {
             "required": [
               "base_level"
+            ]
+          }
+        }
+      }
+    },
+    {
+      "if": {
+        "required": [
+          "setup"
+        ],
+        "properties": {
+          "setup": {
+            "enum": [
+              "catalyst_breakout",
+              "failed_breakdown"
+            ]
+          }
+        }
+      },
+      "then": {
+        "properties": {
+          "measurements": {
+            "required": [
+              "reference_level"
             ]
           }
         }

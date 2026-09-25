@@ -30,8 +30,9 @@ def _is_ours(status_line: str, rel_dir: str) -> bool:
     return path == f"{rel_dir}/{READY_NAME}" or path.startswith(f"{rel_dir}/cards/")
 
 
-def ready_document(repo_path: Path, session_date: date, now: datetime) -> dict:
-    rel_dir = f"handoff/{session_date.isoformat()}"
+def ready_document(repo_path: Path, session_date: date, now: datetime,
+                   handoff_root: str = core.DEFAULT_HANDOFF_ROOT) -> dict:
+    rel_dir = f"{handoff_root}/{session_date.isoformat()}"
     base = Path(repo_path) / rel_dir
     files = []
     for path in sorted(p for p in base.rglob("*") if p.is_file()):
@@ -50,9 +51,10 @@ def ready_document(repo_path: Path, session_date: date, now: datetime) -> dict:
 
 
 def write_ready(repo_path: Path, session_date: date, now: Optional[datetime] = None,
-                pull: bool = True, push: bool = True) -> dict:
+                pull: bool = True, push: bool = True, handoff_root: str = core.DEFAULT_HANDOFF_ROOT) -> dict:
+    """READY in <handoff_root>/<date>/ (handoff/ by default; handoff-dryrun/ for a dry run)."""
     repo = PrivateRepo(Path(repo_path))
-    rel_dir = f"handoff/{session_date.isoformat()}"
+    rel_dir = f"{handoff_root}/{session_date.isoformat()}"
     base = Path(repo_path) / rel_dir
     if not base.is_dir():
         raise EngineError(f"{rel_dir}/ does not exist; nothing to mark READY")
@@ -64,7 +66,7 @@ def write_ready(repo_path: Path, session_date: date, now: Optional[datetime] = N
         )
     if pull:
         repo.sync()
-    doc = ready_document(Path(repo_path), session_date, now or core.now_ct())
+    doc = ready_document(Path(repo_path), session_date, now or core.now_ct(), handoff_root)
     if not doc["files"]:
         raise EngineError(f"READY refused: {rel_dir}/ has no files")
     errs = core.schema_errors("engine_ready.schema.json", doc)

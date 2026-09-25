@@ -25,7 +25,7 @@ from dragonfly import risk_math as rm
 from dragonfly import setup_gates as sg
 from dragonfly.engine.core import EngineError
 
-SIGNAL_MAX_AGE_SESSIONS = 5  # signal session must be one of the last 5 sessions before the session date
+SIGNAL_NOTE_AGE_SESSIONS = 5  # an older signal session is recorded as a note, never blocked
 
 
 def default_bars_dir() -> Path:
@@ -34,9 +34,9 @@ def default_bars_dir() -> Path:
     return state_dir() / "cache" / "bars"
 
 
-def load_prep(repo: Path, session_date: date):
-    """handoff/<date>/measurements.json -> ({TICKER: row}, relpath or None)."""
-    rel = f"handoff/{session_date.isoformat()}/measurements.json"
+def load_prep(repo: Path, session_date: date, handoff_root: str = "handoff"):
+    """<handoff root>/<date>/measurements.json -> ({TICKER: row}, relpath or None)."""
+    rel = f"{handoff_root}/{session_date.isoformat()}/measurements.json"
     path = Path(repo) / rel
     if not path.exists():
         return {}, None
@@ -88,13 +88,14 @@ def _load_bars(ticker: str, bars_dir: Path, prep_row: Optional[Mapping]):
 
 
 def resolve(draft: Mapping, session_date: date, *, bars_dir: Path, prep: Mapping[str, dict],
-            prep_rel: Optional[str], watchlist: Mapping[str, dict]) -> Dict[str, Any]:
+            prep_rel: Optional[str], watchlist: Mapping[str, dict], now=None) -> Dict[str, Any]:
     """Recompute, compare, and run the setup gates. Returns a result dict:
 
     values       Mac numbers used for the governor (price, atr, adv_dollars, spread, sector, ...)
     blocks       structural block codes (measurement_unavailable, measurement_mismatch,
-                 signal_session_stale, setup gate codes)
-    details      what was computed, sources, mismatches, gate measurements
+                 setup gate codes, catalyst record codes)
+    details      what was computed, sources, mismatches, gate measurements, and
+                 non-blocking `notes` (recorded, never a block)
     """
     ticker = draft["ticker"].upper()
     dm = draft["measurements"]
@@ -104,15 +105,18 @@ def resolve(draft: Mapping, session_date: date, *, bars_dir: Path, prep: Mapping
     blocks: List[str] = []
     unavailable: List[str] = []
     mismatches: List[dict] = []
-    details: Dict[str, Any] = {"sources": {}, "unavailable": unavailable, "mismatches": mismatches}
-    values: Dict[str, Any] = {"reference_level": dm["reference_level"], "base_level": dm.get("base_level")}
+    notes: List[dict] = []
+    details: Dict[str, Any] = {"sources": {}, "unavailable": unavailable, "mismatches": mismatches, "notes": notes}
+    values: Dict[str, Any] = {"reference_level": dm.get("reference_level"), "base_level": dm.get("base_level")}
 
-    # ---- signal session (engine rule)
+    # ---- signal session: the bar must be in the Mac's bars (else unavailable).
+    # Its age is recorded, not blocked (no age limit in the plan).
     prev = mc.previous_session(session_date)
-    recent = [d.isoformat() for d in mc.previous_sessions(session_date, SIGNAL_MAX_AGE_SESSIONS)]
+    recent = [d.isoformat() for d in mc.previous_sessions(session_date, SIGNAL_NOTE_AGE_SESSIONS)]
     signal_day = dm["signal_session"]
     if signal_day not in recent:
-        blocks.append("signal_session_stale")
+        notes.append({"note": "signal_session_old", "signal_session": signal_day,
+                      "detail": f"older than the last {SIGNAL_NOTE_AGE_SESSIONS} sessions (recorded only)"})
     details["previous_session"] = prev.isoformat()
 
     # ---- bars
@@ -162,17 +166,22 @@ def resolve(draft: Mapping, session_date: date, *, bars_dir: Path, prep: Mapping
     # non-provisional. Bars are Yahoo (provisional). The draft's claim is ignored.
     values["provisional"] = not (bars_src == "prep_bars" and prep_row.get("provisional") is False)
 
-    # ---- compare with the draft
+    # ---- compare with the draft's measurements block (only fields the draft states)
     if not unavailable:
-        pairs = [("price", dm["price"], values["price"]), ("atr", dm["atr"], values["atr"]),
-                 ("adv_dollars", dm["adv_dollars"], values["adv_dollars"]),
-                 ("relative_volume", draft["evidence"]["relative_volume"], values["relative_volume"]),
-                 ("sector", dm["sector"], values["sector"])]
-        if instrument == "stock":
-            pairs.append(("spread", dm["spread"], values["spread"]))
-        for field, dv, mv in pairs:
+        fields = ["price", "atr", "adv_dollars", "sector"] + (["spread"] if instrument == "stock" else [])
+        for field in fields:
+            if field not in dm:
+                continue
+            dv, mv = dm[field], values[field]
+            if dv is None and field == "spread":
+                continue   # draft did not observe a spread; the Mac's value is used
             if not sg.within(field, dv, mv):
                 mismatches.append({"field": field, "draft": dv, "mac": mv, "tolerance": sg.TOLERANCES[field]})
+        # evidence.relative_volume is outside the measurements block: recorded, not blocked.
+        rv_claim = (draft.get("evidence") or {}).get("relative_volume")
+        if rv_claim is not None and not sg.within("relative_volume", rv_claim, values["relative_volume"]):
+            notes.append({"note": "evidence_relative_volume_differs", "draft": rv_claim,
+                          "mac": values["relative_volume"], "tolerance": sg.TOLERANCES["relative_volume"]})
     if unavailable:
         blocks.append("measurement_unavailable")
     if mismatches:
@@ -184,8 +193,9 @@ def resolve(draft: Mapping, session_date: date, *, bars_dir: Path, prep: Mapping
         stop_underlying = float(draft["stop"]) if instrument == "stock" else float(draft["option"]["underlying_stop"])
         try:
             gate_blocks, gate_detail = sg.evaluate(
-                draft["setup"], signal, entry_ref=entry_ref, level=dm["reference_level"],
-                atr_now=values["atr"], stop_underlying=stop_underlying, base_level=dm.get("base_level"))
+                draft["setup"], signal, entry_ref=entry_ref, level=dm.get("reference_level"),
+                atr_now=values["atr"], stop_underlying=stop_underlying, base_level=dm.get("base_level"),
+                instrument=instrument)
             blocks.extend(gate_blocks)
             details["gates"] = gate_detail
         except sg.MeasurementUnavailable as exc:
@@ -193,7 +203,7 @@ def resolve(draft: Mapping, session_date: date, *, bars_dir: Path, prep: Mapping
             if "measurement_unavailable" not in blocks:
                 blocks.append("measurement_unavailable")
     # ---- catalyst record (dated, sourced; primary within the last 5 sessions)
-    cat_blocks, cat_detail = sg.catalyst_checks(draft["catalyst"], session_date)
+    cat_blocks, cat_detail = sg.catalyst_checks(draft["catalyst"], session_date, now=now)
     blocks.extend(cat_blocks)
     details["catalyst"] = cat_detail
 

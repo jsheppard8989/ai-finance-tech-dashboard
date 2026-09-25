@@ -239,9 +239,47 @@ def with_pending(book: Mapping, approved_cards: Sequence[Mapping]) -> dict:
     return out
 
 
+# ------------------------------------------------------------------ roots
+
+DEFAULT_HANDOFF_ROOT = "handoff"
+DEFAULT_INBOX_ROOT = "inbox"
+DRYRUN_HANDOFF_ROOT = "handoff-dryrun"
+DRYRUN_INBOX_ROOT = "inbox-dryrun"
+_ROOT_RE = re.compile(r"^[A-Za-z0-9][A-Za-z0-9._-]*$")
+
+
+def resolve_roots(handoff: Optional[str] = None, inbox: Optional[str] = None, dry_run: bool = False,
+                  env: Optional[Mapping[str, str]] = None) -> Tuple[str, str]:
+    """(handoff_root, inbox_root) folder names inside dragonfly-private.
+
+    Precedence: --dry-run-roots (handoff-dryrun / inbox-dryrun; cannot be
+    combined with explicit roots) > --handoff-root / --inbox-root >
+    $DRAGONFLY_HANDOFF_ROOT / $DRAGONFLY_INBOX_ROOT > handoff / inbox.
+    Roots are single folder names, and they come in pairs: either both are the
+    defaults or neither is, so a dry run can never write cards into the real
+    handoff/ from a dry-run inbox (or the reverse).
+    """
+    env = os.environ if env is None else env
+    if dry_run:
+        if handoff or inbox:
+            raise EngineError("--dry-run-roots cannot be combined with --handoff-root/--inbox-root")
+        return DRYRUN_HANDOFF_ROOT, DRYRUN_INBOX_ROOT
+    h = handoff or env.get("DRAGONFLY_HANDOFF_ROOT") or DEFAULT_HANDOFF_ROOT
+    i = inbox or env.get("DRAGONFLY_INBOX_ROOT") or DEFAULT_INBOX_ROOT
+    for name in (h, i):
+        if not _ROOT_RE.match(name) or name in (".", ".."):
+            raise EngineError(f"root {name!r} must be a single folder name (letters, digits, . _ -)")
+    if h == i:
+        raise EngineError(f"handoff and inbox roots must differ (both {h!r})")
+    if (h == DEFAULT_HANDOFF_ROOT) != (i == DEFAULT_INBOX_ROOT):
+        raise EngineError(f"roots must be paired: both default (handoff, inbox) or both custom; got {h!r}, {i!r}")
+    return h, i
+
+
 # ------------------------------------------------------------------ regime
 
-def load_regime(repo: Path, session_date: date) -> Tuple[Optional[dict], Optional[str], List[str]]:
+def load_regime(repo: Path, session_date: date, inbox_root: str = DEFAULT_INBOX_ROOT,
+                handoff_root: str = DEFAULT_HANDOFF_ROOT) -> Tuple[Optional[dict], Optional[str], List[str]]:
     """Regime snapshot for the day: inbox first (Market Read), then handoff.
 
     Returns (snapshot, relative_path, problems). The mode is recomputed with
@@ -249,7 +287,7 @@ def load_regime(repo: Path, session_date: date) -> Tuple[Optional[dict], Optiona
     """
     problems: List[str] = []
     ds = session_date.isoformat()
-    for rel in (f"inbox/{ds}/regime_snapshot.json", f"handoff/{ds}/regime_snapshot.json"):
+    for rel in (f"{inbox_root}/{ds}/regime_snapshot.json", f"{handoff_root}/{ds}/regime_snapshot.json"):
         path = repo / rel
         if not path.exists():
             continue
@@ -400,8 +438,39 @@ def draft_identity(filename: str, draft: Any) -> Tuple[Optional[str], List[str]]
     if isinstance(draft, dict) and isinstance(draft.get("trade_id"), str) and TRADE_ID_RE.match(draft["trade_id"]):
         body_id = draft["trade_id"]
     if body_id and stem_id and body_id != stem_id:
-        reasons.append("trade_id_filename_mismatch")
+        reasons.append("trade_id_filename_differs")   # a recorded note; the body's trade_id wins
     return body_id or stem_id, reasons
+
+
+def strip_unknown_draft_keys(draft: Mapping) -> Tuple[dict, List[str]]:
+    """Drop keys trade_draft.schema.json does not define (at any object level
+    whose schema sets additionalProperties false). Returns (clean, dropped paths).
+
+    The schema is the Architect's contract; the engine is lenient about extra
+    keys because they cannot affect sizing (Jared, 2026-09-25: no rejects
+    beyond the plan). Engine-owned keys (status, red_team, ...) are dropped
+    here too; pre-sizing keys are rejected before this runs.
+    """
+    schema = json.loads((SCHEMA_DIR / "trade_draft.schema.json").read_text(encoding="utf-8"))
+    dropped: List[str] = []
+
+    def walk(node: Any, sch: Any, path: str) -> Any:
+        if isinstance(node, dict) and isinstance(sch, Mapping) and "properties" in sch:
+            props = sch["properties"]
+            out = {}
+            for k, v in node.items():
+                if k in props:
+                    out[k] = walk(v, props[k], f"{path}.{k}")
+                elif sch.get("additionalProperties") is False:
+                    dropped.append(f"{path}.{k}")
+                else:
+                    out[k] = v
+            return out
+        if isinstance(node, list) and isinstance(sch, Mapping) and isinstance(sch.get("items"), Mapping):
+            return [walk(v, sch["items"], f"{path}[{i}]") for i, v in enumerate(node)]
+        return node
+
+    return walk(dict(draft), schema, "$"), dropped
 
 
 def _supports_kwarg(fn, name: str) -> bool:
@@ -422,14 +491,15 @@ def structural_inputs(draft: Mapping, m: Mapping, book: Mapping, ctx: Mapping) -
     Mac's Wilder ATR(14) at the previous session.
     """
     atr_ = rm.D(m["atr"])
-    level = rm.D(m["reference_level"])
+    level = rm.D(m["reference_level"]) if m.get("reference_level") is not None else None
     if draft["instrument"] == "stock":
         ref = rm.D(draft["entry"]["price"])
         stop_distance = (rm.max_buy_fill(draft["entry"]["price"]) - rm.D(draft["stop"])) / atr_
     else:
         ref = rm.D(m["price"])
         stop_distance = (ref - rm.D(draft["option"]["underlying_stop"])) / atr_
-    extension = max(Decimal("0"), (ref - level) / atr_)
+    # No level named (optional outside catalyst_breakout / failed_breakdown): extension 0.
+    extension = Decimal("0") if level is None else max(Decimal("0"), (ref - level) / atr_)
     sector = str(m["sector"]).strip().lower()
     positions = book["positions"]
     kwargs = dict(
@@ -456,33 +526,52 @@ def structural_inputs(draft: Mapping, m: Mapping, book: Mapping, ctx: Mapping) -
     return kwargs
 
 
-def extra_validation(draft: Mapping, session_date: date, book: Mapping) -> List[str]:
-    """Draft checks the governor does not do. Any hit rejects the draft (never sized).
+def extra_validation(draft: Mapping, session_date: date, book: Mapping) -> Tuple[List[str], List[dict], Optional[dict]]:
+    """Draft checks the governor does not do. Returns (blocks, notes, time_stop).
 
-    Time stop: entry_session_date must be an NYSE session on or after the
-    session date, and exit_session_date must equal
-    risk_math.time_stop_session(entry, NYSE sessions) from the static calendar.
+    Blocks (never sized): book_mismatch (draft names the other book),
+    invalidation_not_machine_checkable (plan section 7: stop_hit and time_stop
+    are mandatory), calendar_not_covered, time_stop_invalid (dates unparsable).
+
+    Time stop (plan section 8): the card's dates are the engine's. Entry =
+    the first NYSE session on or after max(draft entry date, session date);
+    exit = risk_math.time_stop_session(entry, NYSE sessions). A draft that
+    stated other dates is corrected on the card and noted, never blocked.
     """
-    reasons: List[str] = []
+    blocks: List[str] = []
+    notes: List[dict] = []
     if draft.get("book") and draft["book"] != book["book"]:
-        reasons.append("book_mismatch")
+        blocks.append("book_mismatch")
     if draft["trade_id"][3:7] != f"{session_date.year:04d}":
-        reasons.append("trade_id_year_mismatch")
-    ts = draft["time_stop"]
-    try:
-        entry_d = date.fromisoformat(ts["entry_session_date"])
-        exit_d = date.fromisoformat(ts["exit_session_date"])
-        sessions = mc.sessions_between(entry_d, entry_d + timedelta(days=7))
-        expected = rm.time_stop_session(entry_d, sessions)
-        if entry_d < session_date or not mc.is_session(entry_d) or exit_d != expected:
-            reasons.append("time_stop_invalid")
-    except mc.CalendarNotCovered:
-        reasons.extend(["time_stop_invalid", "calendar_not_covered"])
-    except ValueError:
-        reasons.append("time_stop_invalid")
+        notes.append({"note": "trade_id_year_differs", "trade_id": draft["trade_id"],
+                      "session_year": session_date.year})
     if "time_stop" not in draft["invalidation"] or "stop_hit" not in draft["invalidation"]:
-        reasons.append("invalidation_not_machine_checkable")
-    return reasons
+        blocks.append("invalidation_not_machine_checkable")
+    ts = dict(draft["time_stop"])
+    fixed: Optional[dict] = None
+    try:
+        stated_entry = date.fromisoformat(ts["entry_session_date"])
+        stated_exit = date.fromisoformat(ts["exit_session_date"])
+    except (ValueError, TypeError):
+        blocks.append("time_stop_invalid")
+        return blocks, notes, None
+    try:
+        entry_d = max(stated_entry, session_date)
+        if not mc.is_session(entry_d):
+            entry_d = mc.next_session(entry_d)
+        sessions = mc.sessions_between(entry_d, entry_d + timedelta(days=int(ts["max_calendar_days"])))
+        exit_d = rm.time_stop_session(entry_d, sessions)
+    except mc.CalendarNotCovered:
+        blocks.append("calendar_not_covered")
+        return blocks, notes, None
+    fixed = dict(ts, entry_session_date=entry_d.isoformat(), exit_session_date=exit_d.isoformat())
+    if (stated_entry, stated_exit) != (entry_d, exit_d):
+        notes.append({"note": "time_stop_corrected",
+                      "draft": {"entry_session_date": ts["entry_session_date"],
+                                "exit_session_date": ts["exit_session_date"]},
+                      "card": {"entry_session_date": fixed["entry_session_date"],
+                               "exit_session_date": fixed["exit_session_date"]}})
+    return blocks, notes, fixed
 
 
 def _sizing_block(size: Mapping, book: Mapping) -> dict:
@@ -595,6 +684,9 @@ def _card_shell(draft: Mapping, max_fill: Decimal, now: datetime) -> dict:
     }
 
 
+# Setups the governor's `extended` block applies to (plan sections 5 and 6A).
+EXTENDED_SETUPS = ("catalyst_breakout",)
+
 KIND_LATE = "late"
 KIND_REJECT = "reject"        # rejected before the governor; never sized
 KIND_GOVERNOR = "governor"    # engine blocks + structural_blocks + sizing
@@ -603,7 +695,8 @@ KIND_GOVERNOR = "governor"    # engine blocks + structural_blocks + sizing
 def build_card(*, draft: Mapping, kind: str, reasons: Sequence[str], session_date: date, draft_file: str,
                draft_sha: str, first_seen: datetime, clock: SessionClock, now: datetime, book: Mapping,
                ctx: Mapping, redteam: Optional[Mapping] = None, redteam_info: Optional[Mapping] = None,
-               mac: Optional[Mapping] = None, extra_inputs: Optional[Mapping] = None) -> dict:
+               mac: Optional[Mapping] = None, extra_inputs: Optional[Mapping] = None,
+               notes: Optional[Sequence[Mapping]] = None, time_stop: Optional[Mapping] = None) -> dict:
     """Card for a draft that passed trade_draft.schema.json. One pass per trade; no v2.
 
     kind late:     not sized, risk_decision null (reasons late_draft / late_redteam).
@@ -615,6 +708,14 @@ def build_card(*, draft: Mapping, kind: str, reasons: Sequence[str], session_dat
     """
     max_fill = rm.max_buy_fill(draft["entry"]["price"])
     card = _card_shell(draft, max_fill, now)
+    all_notes: List[dict] = [dict(n) for n in (notes or [])]
+    if time_stop is not None:
+        card["time_stop"] = dict(time_stop)   # engine-computed (plan section 8)
+    mac_values = (mac or {}).get("values") or {}
+    if mac_values.get("relative_volume") is not None:
+        # The card's evidence carries the measurement that was gated: the Mac's.
+        card["evidence"]["relative_volume"] = round(float(mac_values["relative_volume"]), 4)
+    all_notes.extend(((mac or {}).get("details") or {}).get("notes") or [])
     engine_warnings: List[str] = []
     gap = ((mac or {}).get("details") or {}).get("gap_history") or {}
     if redteam and gap.get("flag") and "gap_history" not in redteam["warnings"]:
@@ -630,6 +731,7 @@ def build_card(*, draft: Mapping, kind: str, reasons: Sequence[str], session_dat
         "redteam": dict(redteam_info or {}),
         "warning_count": warning_count,
         "warnings_added_by_engine": engine_warnings,
+        "notes": all_notes,
         "market_data_network_calls": 0,
     }
     if extra_inputs:
@@ -673,6 +775,14 @@ def build_card(*, draft: Mapping, kind: str, reasons: Sequence[str], session_dat
         s_kwargs = structural_inputs(draft, values, book, ctx)
         structural = rm.structural_blocks(**s_kwargs)
         inputs["structural"] = {k: (str(v) if isinstance(v, Decimal) else v) for k, v in s_kwargs.items()}
+        if draft["setup"] not in EXTENDED_SETUPS and "extended" in structural:
+            # Plan sections 5 and 6A: the 1.0 ATR extension limit is a breakout
+            # rule. risk_math applies it to every setup, so the engine drops it
+            # for the other three and records that it did (Ditka, 2026-09-25).
+            structural = [c for c in structural if c != "extended"]
+            all_notes.append({"note": "extended_not_applied", "setup": draft["setup"],
+                              "extension_atr": str(s_kwargs["extension_atr"]),
+                              "detail": "risk_math extended is a catalyst_breakout rule (plan 5, 6A)"})
     hard = list(dict.fromkeys(engine_blocks + structural))
     if hard:
         codes = list(dict.fromkeys(hard + mode_reasons))

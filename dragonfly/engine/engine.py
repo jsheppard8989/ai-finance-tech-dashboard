@@ -74,6 +74,8 @@ class Engine:
         sleep_fn: Callable[[float], None] = time.sleep,
         bars_dir: Optional[Path] = None,
         watchlist_path: Optional[Path] = None,
+        handoff_root: str = core.DEFAULT_HANDOFF_ROOT,
+        inbox_root: str = core.DEFAULT_INBOX_ROOT,
     ):
         self.repo_path = Path(repo_path)
         self.session_date = session_date
@@ -90,12 +92,16 @@ class Engine:
         self.watchlist_path = Path(watchlist_path) if watchlist_path else core.ROOT / "dragonfly" / "watchlist.json"
         self.git: Optional[PrivateRepo] = PrivateRepo(self.repo_path, sleep=sleep_fn) if (pull or push) else None
         ds = session_date.isoformat()
-        self.inbox_rel = f"inbox/{ds}"
-        self.cards_rel = f"handoff/{ds}/cards"
+        self.handoff_root, self.inbox_root = core.resolve_roots(handoff_root, inbox_root, env={})
+        self.inbox_rel = f"{self.inbox_root}/{ds}"
+        self.cards_rel = f"{self.handoff_root}/{ds}/cards"
         self.inbox_dir = self.repo_path / self.inbox_rel
         self.cards_dir = self.repo_path / self.cards_rel
         self.done_path = self.cards_dir / DONE_NAME
-        self.state_path = self.state_root / "engine" / f"{ds}.json"
+        # Separate local state per root pair, so a dry run for a date never
+        # leaks first-seen times into the real run for that date.
+        suffix = "" if self.handoff_root == core.DEFAULT_HANDOFF_ROOT else f".{self.handoff_root}"
+        self.state_path = self.state_root / "engine" / f"{ds}{suffix}.json"
 
     # ------------------------------------------------------------ local state
     def _load_state(self) -> dict:
@@ -220,10 +226,10 @@ class Engine:
         """Per-pass inputs, loaded once and only when a draft needs a card."""
         if not env:
             book = core.load_book(self.book_path)
-            regime, regime_rel, problems = core.load_regime(self.repo_path, self.session_date)
+            regime, regime_rel, problems = core.load_regime(self.repo_path, self.session_date, self.inbox_root, self.handoff_root)
             for p in problems:
                 log.warning("regime snapshot problem: %s", p)
-            prep, prep_rel = measure.load_prep(self.repo_path, self.session_date)
+            prep, prep_rel = measure.load_prep(self.repo_path, self.session_date, self.handoff_root)
             env.update(book=book, ctx=core.risk_context(book, regime, regime_rel),
                        freshness=core.book_freshness(book, self.session_date),
                        prep=prep, prep_rel=prep_rel, watchlist=measure.load_watchlist(self.watchlist_path))
@@ -295,6 +301,9 @@ class Engine:
         if isinstance(stripped.get("entry"), dict) and "max_fill" in stripped["entry"]:
             presized.append("draft_carries_max_fill")
             stripped["entry"] = {k: v for k, v in stripped["entry"].items() if k != "max_fill"}
+        # Lenient on keys the schema does not know (incl. engine-owned ones like
+        # status or red_team): stripped and recorded, never a reject.
+        stripped, ignored_keys = core.strip_unknown_draft_keys(stripped)
         errs = core.schema_errors("trade_draft.schema.json", stripped)
         if trade_id is None:
             return f"{UNIDENTIFIED_DIR}/{stem}", core.reject_record(
@@ -304,15 +313,19 @@ class Engine:
         if errs:
             return trade_id, core.reject_record(
                 trade_id=trade_id, ticker=ticker,
-                reasons=presized + id_reasons + [f"draft_schema_invalid: {e}" for e in errs],
+                reasons=presized + [f"draft_schema_invalid: {e}" for e in errs],
                 now=now, book_name=book["book"], ctx=ctx, late=late_draft, **common)
 
-        card_kw = dict(draft=stripped, now=now, book=book, ctx=ctx, **common)
+        ev_blocks, notes, fixed_ts = core.extra_validation(stripped, self.session_date, book)
+        notes = [{"note": r, "detail": "trade_id from the draft body"} for r in id_reasons] + notes
+        if ignored_keys:
+            notes.append({"note": "draft_keys_ignored", "keys": ignored_keys})
+        card_kw = dict(draft=stripped, now=now, book=book, ctx=ctx, notes=notes, time_stop=fixed_ts, **common)
         rt, rt_info, rt_problems = self._redteam(trade_id, sha, st, tick)
         if late_draft:
             return trade_id, core.build_card(kind=core.KIND_LATE, reasons=["late_draft"], redteam=rt,
                                              redteam_info=rt_info, **card_kw)
-        pre = presized + id_reasons + core.extra_validation(stripped, self.session_date, book)
+        pre = presized + ev_blocks
         if pre:
             return trade_id, core.build_card(kind=core.KIND_REJECT, reasons=pre, redteam=rt,
                                              redteam_info=rt_info, **card_kw)
@@ -338,7 +351,7 @@ class Engine:
             result["pending"].append(trade_id)
             return None
         mac = measure.resolve(stripped, self.session_date, bars_dir=self.bars_dir, prep=env["prep"],
-                              prep_rel=env["prep_rel"], watchlist=env["watchlist"])
+                              prep_rel=env["prep_rel"], watchlist=env["watchlist"], now=now)
         sized_cards = [c for c in existing.values()
                        if c.get("engine", {}).get("outcome") == OUTCOME_SIZED and "sizing" in c]
         live_book = core.with_pending(book, sized_cards)

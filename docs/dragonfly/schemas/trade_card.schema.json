@@ -253,6 +253,7 @@
         "quality": { "enum": ["primary", "secondary", "absent"] },
         "summary": { "type": "string" },
         "source_url": { "type": "string" },
+        "filing_accession": { "type": "string", "description": "SEC filing accession; alternative to source_url (plan section 6)." },
         "source_type": {
           "enum": ["sec", "earnings", "news", "company", "analyst", "x", "none"]
         },

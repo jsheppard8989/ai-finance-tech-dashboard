@@ -133,8 +133,9 @@ FLAGS_NONE = {f: False for f in core.WARNING_FLAGS}
 class World:
     """Fresh fake dragonfly-private (bare remote + mac clone + agent clone), book and bars cache."""
 
-    def __init__(self, name, book=None, session=D):
+    def __init__(self, name, book=None, session=D, handoff_root="handoff", inbox_root="inbox"):
         self.session = session
+        self.handoff_root, self.inbox_root = handoff_root, inbox_root
         self.ds = session.isoformat()
         self.base = Path(_TMP) / name
         self.remote = self.base / "remote.git"
@@ -195,24 +196,24 @@ class World:
         if prep:
             self.prep[ticker] = {"ticker": ticker, "sector": sector, "spread": spread, "spread_source": "yahoo",
                                  "provisional": True}
-            self.agent_push(f"handoff/{self.ds}/measurements.json", {"as_of": "x", "names": list(self.prep.values())},
+            self.agent_push(f"{self.handoff_root}/{self.ds}/measurements.json", {"as_of": "x", "names": list(self.prep.values())},
                             message="prep")
 
     def push_draft(self, draft, name=None, raw=None):
         name = name or f"{draft['trade_id']}.draft.json"
-        self.agent_push(f"inbox/{self.ds}/{name}", draft, raw=raw, message=f"draft {name}")
+        self.agent_push(f"{self.inbox_root}/{self.ds}/{name}", draft, raw=raw, message=f"draft {name}")
 
     def push_redteam(self, trade_id, flags=None, raw=None, **extra):
         rt = {"schema_version": "1.0.0", "trade_id": trade_id, "as_of": ct(8, 14, day=self.session).isoformat(),
               "flags": dict(FLAGS_NONE, **(flags or {})), "narrative": "Case against the trade."}
         rt.update(extra)
-        self.agent_push(f"inbox/{self.ds}/{trade_id}.redteam.json", rt, raw=raw, message=f"redteam {trade_id}")
+        self.agent_push(f"{self.inbox_root}/{self.ds}/{trade_id}.redteam.json", rt, raw=raw, message=f"redteam {trade_id}")
 
     def push_regime(self, **over):
         snap = json.loads((EXAMPLES / "regime_snapshot.json").read_text())
         snap["session_date"] = self.ds
         snap.update(over)
-        self.agent_push(f"inbox/{self.ds}/regime_snapshot.json", snap, message="regime")
+        self.agent_push(f"{self.inbox_root}/{self.ds}/regime_snapshot.json", snap, message="regime")
 
     def trade(self, n, ticker="XYZ", setup="catalyst_breakout", sector=None, bars=None, redteam=True, flags=None,
               **over):
@@ -229,6 +230,8 @@ class World:
 
     def engine(self, **kw):
         kw.setdefault("clock", SessionClock(self.session))
+        kw.setdefault("handoff_root", self.handoff_root)
+        kw.setdefault("inbox_root", self.inbox_root)
         return Engine(self.mac, self.session, book_path=self.book_path, state_dir=self.state,
                       now_fn=lambda: self.now, sleep_fn=lambda s: None, bars_dir=self.bars_dir,
                       watchlist_path=self.watchlist, **kw)
@@ -242,11 +245,11 @@ class World:
         return [line for line in out.splitlines() if line]
 
     def card(self, key):
-        raw = self.remote_file(f"handoff/{self.ds}/cards/{key}.json")
+        raw = self.remote_file(f"{self.handoff_root}/{self.ds}/cards/{key}.json")
         return json.loads(raw) if raw else None
 
     def done(self):
-        raw = self.remote_file(f"handoff/{self.ds}/cards/DONE")
+        raw = self.remote_file(f"{self.handoff_root}/{self.ds}/cards/DONE")
         return json.loads(raw) if raw else None
 
 
@@ -317,13 +320,26 @@ def test_calendar():
     book = json.loads((EXAMPLES / "engine_book.json").read_text())
     good = make_draft(1, "XYZ", "catalyst_breakout", fx.breakout(date(2026, 6, 11)), "S", session=date(2026, 6, 12))
     check(good["time_stop"]["exit_session_date"] == "2026-06-18", "fixture uses the calendar")
-    check(core.extra_validation(good, date(2026, 6, 12), book) == [], "exit 6/18 valid")
+    blocks, notes, ts = core.extra_validation(good, date(2026, 6, 12), book)
+    check(blocks == [] and notes == [] and ts["exit_session_date"] == "2026-06-18", "exit 6/18 valid, no note")
+    # plan section 8 dates are the engine's: a wrong exit is corrected and noted, never blocked
     bad = copy.deepcopy(good)
     bad["time_stop"]["exit_session_date"] = "2026-06-19"
-    check("time_stop_invalid" in core.extra_validation(bad, date(2026, 6, 12), book), "exit on Juneteenth invalid")
+    blocks, notes, ts = core.extra_validation(bad, date(2026, 6, 12), book)
+    check(blocks == [] and ts["exit_session_date"] == "2026-06-18" and notes[0]["note"] == "time_stop_corrected",
+          f"exit on Juneteenth corrected to 6/18: {notes}")
     hol = copy.deepcopy(good)
     hol["time_stop"]["entry_session_date"] = "2026-06-19"
-    check("time_stop_invalid" in core.extra_validation(hol, date(2026, 6, 12), book), "entry on a holiday invalid")
+    blocks, notes, ts = core.extra_validation(hol, date(2026, 6, 12), book)
+    check(blocks == [] and ts["entry_session_date"] == "2026-06-22" and ts["exit_session_date"] == "2026-06-29",
+          f"entry on a holiday moves to the next session: {ts}")
+    early = copy.deepcopy(good)
+    early["time_stop"]["entry_session_date"] = "2026-06-01"
+    blocks, notes, ts = core.extra_validation(early, date(2026, 6, 12), book)
+    check(blocks == [] and ts["entry_session_date"] == "2026-06-12", f"entry before the session date -> session date: {ts}")
+    junk = copy.deepcopy(good)
+    junk["time_stop"]["entry_session_date"] = "not-a-date"
+    check(core.extra_validation(junk, date(2026, 6, 12), book)[0] == ["time_stop_invalid"], "unparsable date blocks")
     try:
         mc.is_session(date(2029, 1, 2))
     except mc.CalendarNotCovered:
@@ -358,39 +374,47 @@ def test_setup_gates_unit():
     check(_gate("catalyst_breakout", fx.breakout(E)) == [], "breakout passes")
     check(_gate("catalyst_breakout", fx.breakout(E, rvol=1.7)) == ["breakout_rvol_low"], "rvol 1.7 < 1.8 blocks")
     check(_gate("catalyst_breakout", fx.breakout(E, rvol=1.8)) == [], "rvol exactly 1.8 passes")
-    check(_gate("catalyst_breakout", fx.breakout(E), level=84.4, entry_ref=84.5) == ["breakout_not_confirmed"],
-          "close below the level: not confirmed")
+    check(_gate("catalyst_breakout", fx.breakout(E), level=85.0, entry_ref=85.1) == ["breakout_not_confirmed"],
+          "breakout session never traded above the level: not confirmed")
+    check(_gate("catalyst_breakout", fx.breakout(E), level=84.4, entry_ref=84.5) == [],
+          "close below the level but the high cleared it: confirmed (permissive reading)")
     check(_gate("catalyst_breakout", fx.breakout(E), entry_ref=88.5) == ["breakout_entry_far"], "entry > 1.0 ATR from level")
     # B. momentum_pullback
     check(_gate("momentum_pullback", fx.pullback(E)) == [], "pullback passes")
     check("pullback_no_momentum" in _gate("momentum_pullback", fx.pullback(E, momentum=False, pull_closes=(84.8, 84.7, 84.6)),
                                           base_level=80.0), "no 8% return and no rising trend")
-    check(_gate("momentum_pullback", fx.pullback(E, pull_closes=(90.6, 90.5, 90.4))) == ["pullback_depth_out_of_range"],
-          "too shallow (< 0.4 ATR)")
+    check(_gate("momentum_pullback", fx.pullback(E, pull_closes=(90.9, 90.85, 90.8), pull_half_range=0.1))
+          == ["pullback_depth_out_of_range"], "too shallow (< 0.4 ATR by close and by low)")
     check(_gate("momentum_pullback", fx.pullback(E, pull_closes=(88.0, 87.0, 86.5))) == ["pullback_depth_out_of_range"],
           "too deep (> 1.5 ATR)")
     check(_gate("momentum_pullback", fx.pullback(E), base_level=89.2) == ["pullback_broke_base"], "closed through the base")
     check(_gate("momentum_pullback", fx.pullback(E, pull_volume=2.5e6)) == ["pullback_volume_not_lower"],
           "pullback volume not below impulse")
-    check(_gate("momentum_pullback", fx.pullback(E, formed=False)) == ["pullback_not_formed"], "swing high is the signal bar")
+    check(_gate("momentum_pullback", fx.pullback(E, formed=False)) == ["pullback_not_formed"], "no swing high before the signal bar")
     # C. failed_breakdown
     check(_gate("failed_breakdown", fx.failed_breakdown(E)) == [], "failed breakdown passes")
     check(_gate("failed_breakdown", fx.failed_breakdown(E, window_low=79.6, reversal_low=79.6)) == ["breakdown_not_found"],
           "support never broken")
     check(_gate("failed_breakdown", fx.failed_breakdown(E, reversal_close=79.4)) == ["reclaim_not_confirmed"], "no reclaim")
+    check(_gate("failed_breakdown", fx.failed_breakdown(E, reversal_close=79.5)) == [], "close exactly at support reclaims")
     check(_gate("failed_breakdown", fx.failed_breakdown(E, reversal_volume=2.9e6)) == ["reversal_rvol_low"], "rvol < 1.5")
     check(_gate("failed_breakdown", fx.failed_breakdown(E), stop_underlying=79.3) == ["stop_not_below_reversal_bar"],
           "stop above the reversal low")
     # D. compression_expansion
     check(_gate("compression_expansion", fx.compression(E)) == [], "compression passes")
-    check("no_compression" in _gate("compression_expansion", fx.compression(E, tight_half=3.0, exp_low=76.0, exp_high=86.0,
-                                                                          exp_close=85.0), stop_underlying=76.5),
-          "no lowest-quartile range")
-    check(_gate("compression_expansion", fx.compression(E, exp_low=80.6, exp_high=82.6)) == ["expansion_range_small"],
-          "expansion range <= 1.5x")
+    check("no_compression" in _gate("compression_expansion", fx.compression(E, tight_half=4.0), stop_underlying=70.0),
+          "recent range is the widest: no lowest-quartile range")
+    check("no_compression" not in _gate("compression_expansion", fx.compression(E, tight_half=3.0), stop_underlying=70.0),
+          "a flat range tied with every value counts as lowest quartile (ties favour compression)")
+    check(_gate("compression_expansion", fx.compression(E, exp_low=81.0, exp_high=82.3, exp_close=82.2))
+          == ["expansion_range_small"], "expansion true range <= 1.5x the prior average range")
+    check(_gate("compression_expansion", fx.compression(E, exp_low=80.6, exp_high=82.6)) == [],
+          "expansion range counts the gap from the prior close (true range)")
     check(_gate("compression_expansion", fx.compression(E, exp_volume=2.0e6)) == ["expansion_rvol_low"], "expansion rvol < 1.5")
     check(_gate("compression_expansion", fx.compression(E, exp_close=79.9, exp_low=78.9, exp_high=81.9),
-                stop_underlying=78.0) == ["expansion_not_up"], "expansion down")
+                stop_underlying=78.0) == ["expansion_direction_mismatch"], "down expansion on a long stock")
+    check(_gate("compression_expansion", fx.compression(E, exp_close=79.9, exp_low=77.3, exp_high=80.2),
+                stop_underlying=83.0, instrument="put") == [], "down expansion with a put follows the expansion")
     check(_gate("compression_expansion", fx.compression(E), stop_underlying=79.5) == ["stop_not_outside_compression"],
           "stop inside the compression range")
     # every gate code is exercised above
@@ -1065,16 +1089,25 @@ def test_gap_history_mac_measured():
 def test_catalyst_record():
     ex = json.loads((EXAMPLES / "trade_draft.json").read_text())["catalyst"]
     cat = lambda **o: dict(ex, **o)  # noqa: E731
-    cc = lambda c: sg.catalyst_checks(c, D)[0]  # noqa: E731
-    # D = Mon 2026-09-28; the 5 sessions before it start Mon 2026-09-21
+    now = ct(8, 15)
+    cc = lambda c: sg.catalyst_checks(c, D, now=now)[0]  # noqa: E731
+    # D = Mon 2026-09-28. Last five sessions: Mon 9/21 .. Fri 9/25; window opens at the close of Fri 9/18.
     check(cc(cat(observed_at="2026-09-21T09:00:00-05:00")) == [], "primary 5 sessions back passes")
-    check(cc(cat(observed_at="2026-09-18T15:00:00-05:00")) == ["catalyst_stale"], "primary 6 sessions back is stale")
+    check(cc(cat(observed_at="2026-09-18T15:30:00-05:00")) == [], "after the 6th session's close counts toward the 5th")
+    check(cc(cat(observed_at="2026-09-18T14:59:00-05:00")) == ["catalyst_stale"], "during the 6th session back is stale")
     check(cc(cat(observed_at="2026-09-28T07:30:00-05:00")) == [], "primary this morning passes")
-    check(cc(cat(observed_at="2026-09-29T07:30:00-05:00")) == ["catalyst_date_invalid"], "future-dated catalyst blocks")
-    check(cc(cat(observed_at=None)) == ["catalyst_unsourced"], "undated primary blocks")
-    check(cc(cat(source_url=" ")) == ["catalyst_unsourced"], "no source URL blocks")
-    check(cc(cat(source_type="none")) == ["catalyst_unsourced"], "source_type none blocks")
+    check(cc(cat(observed_at="2026-09-28T08:19:00-05:00")) == [], "4 minutes ahead of the engine clock: skew allowed")
+    check(cc(cat(observed_at="2026-09-28T09:00:00-05:00")) == ["catalyst_date_invalid"], "later today: future-dated blocks")
+    check(cc(cat(observed_at="2026-09-29T07:30:00-05:00")) == ["catalyst_date_invalid"], "tomorrow: future-dated blocks")
+    check(cc(cat(observed_at=None)) == ["catalyst_undated"], "undated primary blocks")
+    check(cc(cat(source_url=" ")) == ["catalyst_unsourced"], "no source URL and no accession blocks")
+    check(cc(cat(source_url="", filing_accession="0001193125-26-123456")) == [], "filing accession instead of a URL passes")
+    check(cc(cat(source_url="0001193125-26-123456", source_type="sec")) == [], "accession given as the source passes")
+    check(sg.catalyst_checks(cat(source_url="", filing_accession="0001193125-26-123456"), D, now=now)[1]["source_is_accession"],
+          "accession recognised")
+    check(cc(cat(source_type="none")) == [], "source_type none is not a plan rule: no block")
     check(cc(cat(quality="secondary", observed_at="2026-08-01T09:00:00-05:00")) == [], "secondary has no recency rule")
+    check(cc(cat(quality="secondary", source_url="")) == ["catalyst_unsourced"], "secondary still needs a source")
     check(cc(cat(quality="absent", source_url="", source_type="none", observed_at=None)) == [], "absent is not checked here")
     check(cc(cat(observed_at="2026-09-21T13:30:00Z")) == [], "UTC timestamps are converted to CT")
     # through the engine: a stale primary is a structural block on the card
@@ -1086,7 +1119,8 @@ def test_catalyst_record():
     c = w.card("DF-2026-0001")
     check(c["status"] == "blocked" and "catalyst_stale" in c["red_team"]["hard_blocks"] and c["sizing"]["units"] == 0,
           f"stale primary catalyst blocks: {reasons(c)}")
-    check(c["engine"]["inputs"]["measurements"]["details"]["catalyst"]["primary_window_start"] == "2026-09-21",
+    check(c["engine"]["inputs"]["measurements"]["details"]["catalyst"]["primary_window_start"]
+          == "2026-09-18T15:00:00-05:00",
           "catalyst detail recorded")
     all_remote_cards_valid(w)
 
@@ -1103,11 +1137,204 @@ def test_signal_age_and_calendar_coverage():
     w.now = ct(8, 16)
     w.engine().run_pass()
     c1, c2, c3 = (w.card(f"DF-2026-{n:04d}") for n in (1, 2, 3))
-    check("signal_session_stale" in reasons(c1) and c1["sizing"]["units"] == 0, f"signal 6 sessions old blocks: {reasons(c1)}")
-    check("signal_session_stale" not in reasons(c2), f"signal 5 sessions old is inside the window: {reasons(c2)}")
+    n1 = c1["engine"]["inputs"]["notes"]
+    check("signal_session_stale" not in reasons(c1) and any(n["note"] == "signal_session_old" for n in n1),
+          f"a 6-session-old signal is a recorded note, not a block (the gates judge that bar): {reasons(c1)} {n1}")
+    check(not any(n["note"] == "signal_session_old" for n in c2["engine"]["inputs"]["notes"]),
+          "5 sessions old: no note")
     check("calendar_not_covered" in reasons(c3) and c3["status"] == "blocked",
           f"dates outside the calendar tables fail closed: {reasons(c3)}")
     all_remote_cards_valid(w)
+
+
+def test_extended_breakout_only():
+    """Ditka (c): the 1.0 ATR extension block is a catalyst_breakout rule (plan 5, 6A)."""
+    w = World("extended")
+    w.push_regime()
+    w.book_path.write_text(json.dumps(dict(json.loads(w.book_path.read_text()), equity=1000000, cash=1000000)))
+    w.trade(1, ticker="PUL", setup="momentum_pullback", measurements={"reference_level": 84.0})
+    w.trade(2, ticker="FBD", setup="failed_breakdown", entry={"trigger": "buy_stop", "price": 82.0},
+            targets=[{"price": 87.5, "fraction": 1}])
+    w.trade(3, ticker="CMP", setup="compression_expansion", measurements={"reference_level": 78.0})
+    w.trade(4, ticker="BRK", setup="catalyst_breakout", measurements={"reference_level": 80.0})
+    w.now = ct(8, 16)
+    w.engine().run_pass()
+    for n, setup in ((1, "momentum_pullback"), (2, "failed_breakdown"), (3, "compression_expansion")):
+        c = w.card(f"DF-2026-{n:04d}")
+        ext = float(c["engine"]["inputs"]["structural"]["extension_atr"])
+        notes = [x["note"] for x in c["engine"]["inputs"]["notes"]]
+        check(ext > 1.0 and c["engine"]["outcome"] == "sized" and "extended" not in reasons(c)
+              and "extended_not_applied" in notes,
+              f"{setup} {ext:.2f} ATR from its level is NOT blocked by extended: {reasons(c)} {notes}")
+    c4 = w.card("DF-2026-0004")
+    ext4 = float(c4["engine"]["inputs"]["structural"]["extension_atr"])
+    check(ext4 > 1.0 and c4["status"] == "blocked" and "extended" in c4["red_team"]["hard_blocks"]
+          and "breakout_entry_far" in c4["red_team"]["hard_blocks"],
+          f"catalyst_breakout {ext4:.2f} ATR past its level is still blocked: {reasons(c4)}")
+    all_remote_cards_valid(w)
+
+
+def test_plan_audit_leniency():
+    """Jared (2026-09-25): no blocks beyond the plan. These are recorded notes, not rejects."""
+    w = World("lenient")
+    w.push_regime()
+    w.book_path.write_text(json.dumps(dict(json.loads(w.book_path.read_text()), equity=1000000, cash=1000000)))
+    bars = fx.breakout(PREV)
+    # 1. unknown and engine-owned keys: stripped and recorded
+    w.name("UNK", bars, "Sector1")
+    d1 = make_draft(1, "UNK", "catalyst_breakout", bars, "Sector1")
+    d1.update(status="approved", red_team={"decision": "pass"}, architect_mood="bullish")
+    d1["measurements"]["extra_field"] = 1
+    d1["catalyst"]["confidence"] = "high"
+    w.push_draft(d1)
+    w.push_redteam("DF-2026-0001")
+    # 2. file name differs from the body's trade_id: the body wins
+    fb = fx.failed_breakdown(PREV)
+    w.name("FNM", fb, "Sector2")
+    w.push_draft(make_draft(2, "FNM", "failed_breakdown", fb, "Sector2"), name="DF-2026-0099.draft.json")
+    w.push_redteam("DF-2026-0002")
+    # 3. trade_id year differs from the session year
+    pb = fx.pullback(PREV)
+    w.name("YR", pb, "Sector3")
+    d3 = make_draft(3, "YR", "momentum_pullback", pb, "Sector3")
+    d3["trade_id"] = "DF-2025-0003"
+    w.push_draft(d3)
+    w.push_redteam("DF-2025-0003")
+    # 4. wrong time stop exit + evidence.relative_volume off + no draft price/atr/adv/sector/spread
+    w.name("TSX", bars, "Sector4")
+    d4 = make_draft(4, "TSX", "catalyst_breakout", bars, "Sector4")
+    d4["time_stop"]["exit_session_date"] = "2026-10-06"
+    d4["evidence"]["relative_volume"] = 9.9
+    for k in ("price", "atr", "adv_dollars", "sector", "spread"):
+        del d4["measurements"][k]
+    w.push_draft(d4)
+    w.push_redteam("DF-2026-0004")
+    # 5. compression_expansion without a reference_level (optional outside A and C)
+    w.trade(5, ticker="NRL", setup="compression_expansion", sector="Sector5")
+    d5 = json.loads(w.remote_file(f"inbox/{DS}/DF-2026-0005.draft.json"))
+    del d5["measurements"]["reference_level"]
+    w.push_draft(d5)
+    w.now = ct(8, 16)
+    w.engine().run_pass()
+
+    def notes(c):
+        return {x["note"]: x for x in c["engine"]["inputs"]["notes"]}
+
+    c1 = w.card("DF-2026-0001")
+    n1 = notes(c1)
+    check(c1["engine"]["outcome"] == "sized" and set(n1["draft_keys_ignored"]["keys"]) == {
+        "$.status", "$.red_team", "$.architect_mood", "$.measurements.extra_field", "$.catalyst.confidence"},
+          f"unknown keys ignored and recorded, card sized: {reasons(c1)} {n1}")
+    check(c1["status"] == "pending_human" and c1["red_team"]["decision"] == "pass", "draft's status/red_team never copied")
+    c2 = w.card("DF-2026-0002")
+    check(c2 and c2["engine"]["outcome"] == "sized" and "trade_id_filename_differs" in notes(c2)
+          and w.card("DF-2026-0099") is None, "file name differs: carded under the body's trade_id, noted")
+    c3 = w.card("DF-2025-0003")
+    check(c3 and c3["engine"]["outcome"] == "sized" and "trade_id_year_differs" in notes(c3),
+          f"trade_id year differs: noted, not blocked: {c3 and reasons(c3)}")
+    c4 = w.card("DF-2026-0004")
+    n4 = notes(c4)
+    check(c4["engine"]["outcome"] == "sized" and c4["time_stop"]["exit_session_date"] == "2026-10-05"
+          and n4["time_stop_corrected"]["draft"]["exit_session_date"] == "2026-10-06",
+          f"time stop exit corrected on the card (plan 8), not blocked: {c4['time_stop']} {reasons(c4)}")
+    check("evidence_relative_volume_differs" in n4 and c4["evidence"]["relative_volume"] == 2.4
+          and c4["engine"]["inputs"]["measurements"]["details"]["mismatches"] == [],
+          f"evidence rvol off: noted, card carries the Mac's 2.4, no mismatch block: {c4['evidence']}")
+    c5 = w.card("DF-2026-0005")
+    # (5th card in one book may hit book heat: size_zero is fine, a block is not)
+    check(c5["red_team"]["hard_blocks"] == [] and c5["engine"]["inputs"]["structural"]["extension_atr"] == "0.0000",
+          f"compression without a reference_level has no block (extension 0): {reasons(c5)}")
+    all_remote_cards_valid(w)
+
+
+def test_breakout_requires_reference_level():
+    w = World("reflevel")
+    w.push_regime()
+    w.trade(1, ticker="NOL")
+    d = json.loads(w.remote_file(f"inbox/{DS}/DF-2026-0001.draft.json"))
+    del d["measurements"]["reference_level"]
+    w.push_draft(d)
+    w.now = ct(8, 16)
+    w.engine().run_pass()
+    c = w.card("DF-2026-0001")
+    check(c["record"] == "engine_reject" and any("reference_level" in r for r in reasons(c)),
+          f"catalyst_breakout without its level fails the draft schema: {reasons(c)}")
+
+
+def test_dry_run_roots():
+    """Dry-run roots (handoff-dryrun/, inbox-dryrun/) never write into handoff/ or inbox/."""
+    # root resolution
+    check(core.resolve_roots(env={}) == ("handoff", "inbox"), "default roots")
+    check(core.resolve_roots(dry_run=True, env={}) == ("handoff-dryrun", "inbox-dryrun"), "--dry-run-roots")
+    check(core.resolve_roots(env={"DRAGONFLY_HANDOFF_ROOT": "h2", "DRAGONFLY_INBOX_ROOT": "i2"}) == ("h2", "i2"),
+          "env roots")
+    check(core.resolve_roots("h3", "i3", env={"DRAGONFLY_HANDOFF_ROOT": "h2", "DRAGONFLY_INBOX_ROOT": "i2"})
+          == ("h3", "i3"), "flags beat env")
+    for kwargs, label in (({"handoff": "handoff-dryrun", "env": {}}, "unpaired roots refused"),
+                          ({"handoff": "../handoff", "inbox": "x", "env": {}}, "path traversal refused"),
+                          ({"handoff": "same", "inbox": "same", "env": {}}, "identical roots refused"),
+                          ({"handoff": "a", "dry_run": True, "env": {}}, "--dry-run-roots + explicit root refused")):
+        try:
+            core.resolve_roots(**kwargs)
+        except EngineError:
+            check(True, label)
+        else:
+            check(False, label)
+
+    w = World("dryroots", handoff_root="handoff-dryrun", inbox_root="inbox-dryrun")
+    w.push_regime()
+    w.trade(1)
+    w.trade(2, ticker="LTE", sector="Energy", redteam=False)
+    # a real-inbox draft for the same date must be ignored by the dry run
+    real = make_draft(9, "REAL", "catalyst_breakout", fx.breakout(PREV), "Utilities")
+    w.agent_push(f"inbox/{DS}/DF-2026-0009.draft.json", real)
+    eng = w.engine()
+    w.now = ct(8, 16)
+    eng.run_pass()
+    w.now = ct(8, 21)
+    res = eng.run_pass()
+    check(w.card("DF-2026-0001")["engine"]["outcome"] == "sized" and w.card("DF-2026-0002")["engine"]["outcome"] == "late",
+          "dry run cards land in handoff-dryrun/")
+    check(res["done"] and w.done()["counts"]["drafts"] == 2, "DONE in handoff-dryrun/, real inbox draft not counted")
+    check(w.card("DF-2026-0001")["engine"]["draft_file"].startswith(f"inbox-dryrun/{DS}/"), "card cites the dry-run inbox")
+    real_files = lambda root: [x for x in w.remote_ls(root) if not x.endswith(".gitkeep")]  # noqa: E731
+    check(real_files("handoff") == [], f"nothing written under handoff/: {real_files('handoff')}")
+    check(real_files("inbox") == [f"inbox/{DS}/DF-2026-0009.draft.json"], "inbox/ untouched (only the agent's file)")
+    local = [x for x in (w.mac / "handoff").rglob("*") if x.is_file() and x.name != ".gitkeep"]
+    check(local == [], f"no local files under handoff/: {local}")
+    check((w.state / "engine" / f"{DS}.handoff-dryrun.json").exists() and not (w.state / "engine" / f"{DS}.json").exists(),
+          "separate local engine state for the dry run")
+
+    # READY marker with dry-run roots
+    w.agent_push(f"handoff-dryrun/{DS}/manifest.json", {"as_of": "x"})
+    git(w.mac, "pull", "--quiet", "--rebase", "origin", "main")
+    doc = write_ready(w.mac, D, now=ct(8, 6), handoff_root="handoff-dryrun")
+    check(json.loads(w.remote_file(f"handoff-dryrun/{DS}/READY")) == doc and w.remote_file(f"handoff/{DS}/READY") is None,
+          "READY written to handoff-dryrun/ only")
+
+    # CLI: --dry-run-roots + simulated clock for a date that is not today
+    w3 = World("dryroots-cli", handoff_root="handoff-dryrun", inbox_root="inbox-dryrun")
+    w3.push_regime()
+    w3.trade(1)
+    common = ["run", "--once", "--dry-run-roots", "--repo", str(w3.mac), "--date", DS, "--book", str(w3.book_path),
+              "--state-dir", str(w3.state), "--bars-dir", str(w3.bars_dir), "--watchlist", str(w3.watchlist)]
+    rc, out = _quiet_cli(common + ["--now", ct(8, 15).isoformat()])
+    rc2, out2 = _quiet_cli(common + ["--now", ct(8, 21).isoformat()])
+    check(rc == 0 and json.loads(out)["written"] == ["DF-2026-0001"] and json.loads(out2)["done"] is True,
+          f"CLI dry run sizes at simulated 08:15 and finishes at 08:21: {out} {out2}")
+    check(w3.card("DF-2026-0001")["engine"]["outcome"] == "sized"
+          and [x for x in w3.remote_ls("handoff") if not x.endswith(".gitkeep")] == [],
+          "CLI dry run pushed to handoff-dryrun/ only")
+    rc3, out3 = _quiet_cli(["ready", "--dry-run-roots", "--repo", str(w3.mac), "--date", DS, "--now", ct(8, 6).isoformat(),
+                            "--no-push"])
+    check(rc3 == 0 and json.loads(out3)["ready"] == f"handoff-dryrun/{DS}/READY"
+          and (w3.mac / f"handoff-dryrun/{DS}/READY").exists() and not (w3.mac / f"handoff/{DS}").exists(),
+          f"CLI ready honours --dry-run-roots: {out3}")
+    rc4, _ = _quiet_cli(["run", "--dry-run-roots", "--repo", str(w3.mac), "--date", "2027-03-01", "--no-push",
+                         "--book", str(w3.book_path), "--state-dir", str(w3.state)])
+    check(rc4 == 2, "a loop for a date that is not today refuses without --now")
+    rc5, _ = _quiet_cli(["run", "--once", "--dry-run-roots", "--handoff-root", "x", "--repo", str(w3.mac), "--date", DS])
+    check(rc5 == 2, "CLI refuses --dry-run-roots with an explicit root")
 
 
 def main():
@@ -1122,6 +1349,9 @@ def main():
         test_late_redteam_and_done_mixed,
         test_rejections,
         test_setup_gates_engine,
+        test_extended_breakout_only,
+        test_plan_audit_leniency,
+        test_breakout_requires_reference_level,
         test_catalyst_record,
         test_signal_age_and_calendar_coverage,
         test_measurements,
@@ -1137,6 +1367,7 @@ def main():
         test_loop_timeline,
         test_ready_marker,
         test_cli_once,
+        test_dry_run_roots,
         test_guards_and_network,
         test_ops_templates,
     ]

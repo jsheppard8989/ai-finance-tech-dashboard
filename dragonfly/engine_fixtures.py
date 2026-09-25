@@ -30,7 +30,7 @@ def breakout(end: date, rvol: float = 2.4, last_close: float = 84.3) -> List[Dic
 
 
 def pullback(end: date, pull_closes=(89.6, 89.3, 89.0), pull_volume: float = 1.0e6,
-             momentum: bool = True, formed: bool = True) -> List[Dict]:
+             momentum: bool = True, formed: bool = True, pull_half_range: float = 0.5) -> List[Dict]:
     n_pull = len(pull_closes) if formed else 0
     days = _dates(end, 95 + n_pull)
     bars = []
@@ -38,10 +38,10 @@ def pullback(end: date, pull_closes=(89.6, 89.3, 89.0), pull_volume: float = 1.0
     for i in range(75):
         bars.append(_bar(days[i], base, base + 1, base - 1, 1.5e6))
     for j in range(20):
-        c = base + 1 + j if momentum else base + (0.05 * (j % 2))
+        c = base + 1 + j if momentum else base - 0.05 * j   # no momentum: a slow drift down
         bars.append(_bar(days[75 + j], c, c + 1, c - 1, 2.0e6))
     for k, c in enumerate(pull_closes[:n_pull]):
-        bars.append(_bar(days[95 + k], c, c + 0.5, c - 0.5, pull_volume))
+        bars.append(_bar(days[95 + k], c, c + pull_half_range, c - pull_half_range, pull_volume))
     return bars
 
 
