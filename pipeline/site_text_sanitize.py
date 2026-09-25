@@ -119,17 +119,104 @@ def sanitize_public_text(obj: Any) -> Any:
     Full sanitization pipeline for public site text:
     1. Strip CJK/fullwidth characters
     2. Apply conservative ASR corrections for proper nouns
-    
+    3. Drop generic reader-advice sentences ("Investors should…") from card claim fields
+
     Use this function for all text destined for public display.
     """
+    return _sanitize_strings(clean_reader_advice(obj))
+
+
+def _sanitize_strings(obj: Any) -> Any:
     if isinstance(obj, str):
         text = _CJK_RE.sub("", obj)
         text = correct_asr_errors(text)
         return text
     if isinstance(obj, dict):
-        return {k: sanitize_public_text(v) for k, v in obj.items()}
+        return {k: _sanitize_strings(v) for k, v in obj.items()}
     if isinstance(obj, list):
-        return [sanitize_public_text(x) for x in obj]
+        return [_sanitize_strings(x) for x in obj]
     if isinstance(obj, tuple):
-        return tuple(sanitize_public_text(x) for x in obj)
+        return tuple(_sanitize_strings(x) for x in obj)
+    return obj
+
+
+# ---------------------------------------------------------------------------
+# Reader-advice backstop (Sep 2026). Card-level fields must state a claim, not
+# tell the reader what to do. The prompts ask for this; this is the safety net
+# so a generic "Investors should…" sentence never reaches the public site.
+# ---------------------------------------------------------------------------
+
+_READER_ADVICE_RE = re.compile(
+    r"^\s*(?:"
+    # "Investors should…", "Healthcare investors need to…", "Policymakers and investors must…"
+    r"(?:[\w-]+\s+){0,3}(?:investors?|listeners|viewers|traders|allocators|readers)\s+"
+    r"(?:should|must|need\s+to|needs\s+to|are\s+advised|may\s+want\s+to|might\s+want\s+to|"
+    r"would\s+do\s+well|ought\s+to|are\s+encouraged|can\s+consider|could\s+consider)"
+    r"|(?:it\s+is|it's)\s+(?:crucial|important|essential|critical|wise|advisable)\s+for\s+investors"
+    # Bare imperatives aimed at the reader
+    r"|(?:consider|invest\s+in|focus\s+on|prioritize|monitor|watch\s+for|keep\s+an\s+eye)\b"
+    r")",
+    re.IGNORECASE,
+)
+
+_SENTENCE_SPLIT_RE = re.compile(r"(?<=[.!?])\s+(?=[A-Z0-9\"'(])")
+
+# Fields that render as a one-line claim on cards, pop-ups, and pundit rows.
+READER_ADVICE_FIELDS = frozenset(
+    {"key_takeaway", "investment_thesis", "last_main_idea", "main_idea", "supporting_takeaway"}
+)
+# Fields that are lists of short claim bullets.
+READER_ADVICE_LIST_FIELDS = frozenset({"key_takeaways"})
+
+
+_ADVICE_VERB = (
+    r"(?:investors?|listeners|traders|allocators)\s+"
+    r"(?:should|must|need\s+to|needs\s+to|are\s+advised|may\s+want\s+to|might\s+want\s+to|ought\s+to)\b"
+)
+# "<claim>; investors should…" or "<claim>, and investors should…": keep the claim, cut the advice.
+_ADVICE_TAIL_RE = re.compile(r"\s*(?:;|,\s*and|,\s*so|—|--)\s+" + _ADVICE_VERB + r".*$", re.IGNORECASE)
+# Advice anywhere else in the sentence ("If X holds, investors should…"): drop the sentence.
+_ADVICE_ANYWHERE_RE = re.compile(r"\b" + _ADVICE_VERB, re.IGNORECASE)
+
+
+def is_reader_advice(sentence: str) -> bool:
+    return bool(sentence and (_READER_ADVICE_RE.match(sentence) or _ADVICE_ANYWHERE_RE.search(sentence)))
+
+
+def _clean_sentence(sentence: str) -> str:
+    if _READER_ADVICE_RE.match(sentence):
+        return ""
+    cut = _ADVICE_TAIL_RE.sub("", sentence).rstrip(" ,;")
+    if cut != sentence.rstrip(" ,;"):
+        cut = cut if cut.endswith((".", "!", "?")) else cut + "."
+        return "" if _ADVICE_ANYWHERE_RE.search(cut) else cut
+    return "" if _ADVICE_ANYWHERE_RE.search(sentence) else sentence
+
+
+def strip_reader_advice(text: str) -> str:
+    """Drop sentences (or trailing clauses) that address the reader with generic advice. Returns '' if nothing is left."""
+    if not isinstance(text, str) or not text.strip():
+        return text if isinstance(text, str) else ""
+    parts = _SENTENCE_SPLIT_RE.split(text.strip())
+    kept = [c for c in (_clean_sentence(p) for p in parts) if c]
+    return " ".join(kept).strip()
+
+
+def clean_reader_advice(obj: Any) -> Any:
+    """Recursively apply strip_reader_advice to card-level claim fields only."""
+    if isinstance(obj, dict):
+        out = {}
+        for k, v in obj.items():
+            if k in READER_ADVICE_FIELDS and isinstance(v, str):
+                out[k] = strip_reader_advice(v)
+            elif k in READER_ADVICE_LIST_FIELDS and isinstance(v, list):
+                cleaned = [strip_reader_advice(x) if isinstance(x, str) else clean_reader_advice(x) for x in v]
+                out[k] = [x for x in cleaned if not (isinstance(x, str) and not x)]
+            else:
+                out[k] = clean_reader_advice(v)
+        return out
+    if isinstance(obj, list):
+        return [clean_reader_advice(x) for x in obj]
+    if isinstance(obj, tuple):
+        return tuple(clean_reader_advice(x) for x in obj)
     return obj

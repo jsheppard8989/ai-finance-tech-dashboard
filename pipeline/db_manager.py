@@ -767,12 +767,15 @@ class DashboardDB:
                         takeaways = []
                 if not isinstance(takeaways, list):
                     takeaways = []
-                if thesis:
-                    p['last_main_idea'] = thesis[:500]
-                elif takeaways:
-                    p['last_main_idea'] = (takeaways[0] or '')[:500]
-                else:
-                    p['last_main_idea'] = None
+                from site_text_sanitize import strip_reader_advice
+                idea = strip_reader_advice(thesis)
+                if not idea:
+                    for _b in takeaways:
+                        _b = strip_reader_advice(_b) if isinstance(_b, str) else ''
+                        if _b:
+                            idea = _b
+                            break
+                p['last_main_idea'] = idea[:500] if idea else None
 
                 supporting_takeaway = None
                 if len(takeaways) > 1:

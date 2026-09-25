@@ -3652,10 +3652,10 @@
       ).join('');
       
       return `
-        <div style="margin-bottom: 1.5rem;">
+        ${insight.key_takeaway && !/^\s*(?:[\w-]+\s+){0,3}investors?\s+(?:should|must|need to|may want to)\b/i.test(insight.key_takeaway) ? `<div style="margin-bottom: 1.5rem;">
           <h4 style="color: #00d4ff; margin-bottom: 0.75rem; font-size: 1.1rem;">🎯 Key Takeaway</h4>
           <p style="color: #e8e8e8; line-height: 1.6; font-size: 1rem;">${insight.key_takeaway}</p>
-        </div>
+        </div>` : ''}
         <div style="margin-bottom: 1.5rem;">
           <h4 style="color: #00d4ff; margin-bottom: 0.75rem; font-size: 1.1rem;">📝 Summary</h4>
           <p style="color: #a8b2d1; line-height: 1.6;">${insight.summary}</p>
