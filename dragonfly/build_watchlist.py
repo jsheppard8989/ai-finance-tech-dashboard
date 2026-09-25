@@ -6,7 +6,11 @@ dragonfly/risk_math.py via `universe_reasons` (not re-typed here):
   price >= $10, 20-day ADV >= $25M, spread <= max($0.05, 0.15% of price).
 
 Order of work:
-  1. Bars for every candidate (dragonfly/bars.py; one history call per name,
+  0. Security type: only US listed common stock. Depositary receipts (ADRs,
+     ADSs, NY registry shares) are excluded (depositary_receipt); a name whose
+     type cannot be determined is excluded (security_type_unknown). Excluded
+     names never reach the bars/spread steps, so later names by ADV backfill.
+  1. Bars for every remaining candidate (dragonfly/bars.py; one history call per name,
      cached). Price and 20-day ADV gates run on every candidate.
   2. Survivors are ranked by ADV, descending.
   3. Spread gate (Yahoo bid/ask) runs down that ranked shortlist, in rank
@@ -20,7 +24,12 @@ Order of work:
 Output is stamped source="yahoo", provisional=True, with an as_of and the gate
 parameters. The scanner must read only `names` from this file.
 
-Python 3.9 compatible. Run (market hours, so bid/ask is live):
+Guarded by dragonfly/guards.py: refuses inside the pipeline daemon windows
+(05:00-07:59, 12:00-14:59, 22:00-23:59 CT) unless --allow-daemon-window, and
+waits a bounded time then aborts while the site pipeline lock is held. A guard
+stop mid-run aborts the build and writes nothing. Bars are cache-first.
+
+Python 3.9 compatible. Run (market hours, outside daemon windows):
   python3 dragonfly/build_watchlist.py [--cap 200] [--out dragonfly/watchlist.json]
 """
 
@@ -28,6 +37,8 @@ from __future__ import annotations
 
 import argparse
 import json
+import os
+import re
 import sys
 import time
 import urllib.request
@@ -42,6 +53,7 @@ if __package__ in (None, ""):
     sys.path.insert(0, str(Path(__file__).resolve().parents[1]))
 
 from dragonfly import bars as bars_mod  # noqa: E402
+from dragonfly import guards  # noqa: E402
 from dragonfly.risk_math import (  # noqa: E402
     MAX_STOCK_SPREAD_ABS,
     MAX_STOCK_SPREAD_PCT,
@@ -61,6 +73,42 @@ SOURCES = {
     # Nasdaq-100: Nasdaq's own index list (Wikipedia no longer carries the table).
     "ndx100": "https://api.nasdaq.com/api/quote/list-type/nasdaq100",
 }
+# Security type ("US listed common stock"): Nasdaq's security descriptor.
+# 1) One screener call covering all US listings (name ends with the security
+#    type, e.g. "Apple Inc. Common Stock", "PDD Holdings Inc. American
+#    Depositary Shares"). 2) For names whose descriptor is blank there, the
+#    per-symbol Nasdaq quote info `stockType`. 3) Explicit denylist below.
+# Unknown after that -> excluded (security_type_unknown). Fail closed.
+SCREENER_URL = "https://api.nasdaq.com/api/screener/stocks?tableonly=true&download=true"
+QUOTE_INFO_URL = "https://api.nasdaq.com/api/quote/{symbol}/info?assetclass=stocks"
+# Belt-and-braces denylist of US-traded depositary receipts. Tightening only:
+# a name here is excluded even if a feed calls it common stock.
+KNOWN_DEPOSITARY_RECEIPTS = {
+    "ARM": "Arm Holdings plc ADS",
+    "ASML": "ASML Holding N.V. New York Registry Shares",
+    "BABA": "Alibaba Group ADS",
+    "BHP": "BHP Group ADS",
+    "BIDU": "Baidu ADS",
+    "BP": "BP p.l.c. ADS",
+    "HSBC": "HSBC Holdings ADS",
+    "JD": "JD.com ADS",
+    "NTES": "NetEase ADS",
+    "NVO": "Novo Nordisk ADS",
+    "PDD": "PDD Holdings ADS",
+    "RIO": "Rio Tinto ADS",
+    "SAP": "SAP SE ADS",
+    "SHEL": "Shell plc ADS",
+    "SONY": "Sony Group ADS",
+    "TCOM": "Trip.com ADS",
+    "TM": "Toyota Motor ADS",
+    "TSM": "Taiwan Semiconductor ADS",
+    "UL": "Unilever PLC ADS",
+}
+_DR_RE = re.compile(r"depositary|\bADRs?\b|\bADSs?\b|\bGDRs?\b|registry shares", re.I)
+_NOT_COMMON_RE = re.compile(r"preferred|warrants?\b|\bunits?\b|\brights?\b|notes?\b|debentures?|beneficial interest|limited partnership|\bETF\b|\bfund\b", re.I)
+_COMMON_TRUST_RE = re.compile(r"common shares? of beneficial interest", re.I)
+_COMMON_RE = re.compile(r"common stock|common shares?|ordinary shares?|voting shares?|capital stock", re.I)
+
 UA = "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120 Safari/537.36"
 
 Quote = Tuple[Optional[float], Optional[float]]  # (bid, ask)
@@ -191,9 +239,94 @@ def fetch_candidates() -> Tuple[List[Dict[str, Optional[str]]], Dict[str, int]]:
     return sorted(merged.values(), key=lambda r: r["ticker"]), counts
 
 
+# ------------------------------------------------------------ security type
+
+def classify_security(descriptor: Optional[str]) -> Optional[str]:
+    """common | depositary_receipt | not_common_stock | None (unknown)."""
+    if not descriptor or not str(descriptor).strip():
+        return None
+    d = str(descriptor)
+    if _DR_RE.search(d):
+        return "depositary_receipt"
+    if _COMMON_TRUST_RE.search(d):
+        return "common"  # e.g. REIT "Common Shares of Beneficial Interest"
+    if _NOT_COMMON_RE.search(d):
+        return "not_common_stock"
+    if _COMMON_RE.search(d):
+        return "common"
+    return None
+
+
+def _nasdaq_symbol(ticker: str) -> str:
+    return ticker.replace("-", ".")
+
+
+def _get_json(url: str) -> Mapping:
+    return json.loads(_get(url, "application/json"))
+
+
+def fetch_security_types(
+    tickers: Sequence[str],
+    get_json: Callable[[str], Mapping] = None,
+) -> Dict[str, Dict[str, Optional[str]]]:
+    """ticker -> {"class", "descriptor", "source"}; class None means unknown."""
+    get_json = get_json or _get_json
+    out: Dict[str, Dict[str, Optional[str]]] = {}
+    try:
+        rows = ((get_json(SCREENER_URL).get("data") or {}).get("rows")) or []
+    except Exception:
+        rows = []
+    screener = {}
+    for r in rows:
+        sym = str(r.get("symbol") or "").strip().upper().replace("/", "-").replace(".", "-")
+        if sym:
+            screener[sym] = r.get("name")
+    for t in tickers:
+        desc = screener.get(t)
+        cls = classify_security(desc)
+        src = "nasdaq_screener" if desc else None
+        if cls is None:
+            try:
+                data = get_json(QUOTE_INFO_URL.format(symbol=_nasdaq_symbol(t))).get("data") or {}
+                stock_type = data.get("stockType")
+            except Exception:
+                stock_type = None
+            if stock_type:
+                cls = classify_security(stock_type)
+                desc = f"{desc or ''} [stockType: {stock_type}]".strip()
+                src = "nasdaq_quote_info"
+        if t in KNOWN_DEPOSITARY_RECEIPTS:
+            cls = "depositary_receipt"
+            desc = desc or KNOWN_DEPOSITARY_RECEIPTS[t]
+            src = (src + "+denylist") if src else "denylist"
+        out[t] = {"class": cls, "descriptor": desc, "source": src}
+    return out
+
+
+def apply_security_types(
+    candidates: Sequence[Mapping],
+    types: Mapping[str, Mapping],
+) -> Tuple[List[dict], Dict[str, str]]:
+    """Keep only names positively typed as common stock. Everything else is excluded:
+    depositary_receipt, not_common_stock, or security_type_unknown (fail closed)."""
+    eligible: List[dict] = []
+    excluded: Dict[str, str] = {}
+    for c in candidates:
+        info = types.get(c["ticker"]) or {}
+        cls = info.get("class")
+        if cls == "common":
+            eligible.append(dict(c, security_type=info.get("descriptor")))
+        elif cls in ("depositary_receipt", "not_common_stock"):
+            excluded[c["ticker"]] = cls
+        else:
+            excluded[c["ticker"]] = "security_type_unknown"
+    return eligible, excluded
+
+
 # ------------------------------------------------------------ quotes
 
 def yahoo_quote(ticker: str) -> Quote:
+    guards.before_fetch()  # pipeline lock + daemon window
     import yfinance as yf  # lazy
 
     info = yf.Ticker(ticker).info or {}
@@ -249,6 +382,8 @@ def select_watchlist(
         def _safe(t: str) -> Optional[Quote]:
             try:
                 return quote_fn(t)
+            except guards.GuardBlocked:
+                raise  # abort the build; never turn a guard stop into exclusions
             except Exception:
                 return None
 
@@ -272,6 +407,7 @@ def select_watchlist(
                     "ticker": r["ticker"],
                     "rank": len(admitted) + 1,
                     "sector": r.get("sector"),
+                    "security_type": r.get("security_type"),
                     "price": r.get("price"),
                     "adv20_dollars": r.get("adv20_dollars"),
                     "bid": float(q[0]),
@@ -308,8 +444,14 @@ def gather_rows(
 ) -> Tuple[List[dict], Dict[str, str]]:
     def one(c: Mapping) -> dict:
         try:
-            m = bars_mod.ticker_metrics(c["ticker"], fetcher=fetcher)
-            return {"ticker": c["ticker"], "sector": c.get("sector"), "price": m["last_price"], "adv20_dollars": m["adv20_dollars"]}
+            m = bars_mod.ticker_metrics(c["ticker"], fetcher=fetcher, max_age_minutes=bars_mod.default_max_age_minutes())
+            return {
+                "ticker": c["ticker"],
+                "sector": c.get("sector"),
+                "security_type": c.get("security_type"),
+                "price": m["last_price"],
+                "adv20_dollars": m["adv20_dollars"],
+            }
         except bars_mod.BarsUnavailable as exc:
             return {"ticker": c["ticker"], "sector": c.get("sector"), "error": exc.reason}
 
@@ -321,21 +463,32 @@ def gather_rows(
 
 
 def build(cap: int, out: Path, candidates_file: Optional[Path], bar_workers: int, quote_workers: int) -> dict:
+    guards.preflight()  # refuse inside daemon windows; bounded wait on the pipeline lock
     t0 = time.perf_counter()
     if candidates_file:
         candidates = json.loads(candidates_file.read_text())
         counts = {"file": len(candidates), "union": len(candidates)}
     else:
         candidates, counts = fetch_candidates()
+    types = fetch_security_types([c["ticker"] for c in candidates])
+    eligible, type_excluded = apply_security_types(candidates, types)
     t1 = time.perf_counter()
-    rows, bar_errors = gather_rows(candidates, workers=bar_workers)
+    rows, bar_errors = gather_rows(eligible, workers=bar_workers)
     t2 = time.perf_counter()
     result = select_watchlist(rows, yahoo_quote, cap=cap, workers=quote_workers)
     t3 = time.perf_counter()
-    result["excluded"].update(bar_errors)
-    for k in bar_errors:
-        result["excluded_summary"]["bars_unavailable"] = result["excluded_summary"].get("bars_unavailable", 0) + 1
+    for extra in (bar_errors, type_excluded):
+        result["excluded"].update(extra)
+        for reason in extra.values():
+            result["excluded_summary"][reason] = result["excluded_summary"].get(reason, 0) + 1
+    result["excluded_summary"] = dict(sorted(result["excluded_summary"].items()))
     result["funnel"]["bars_unavailable"] = len(bar_errors)
+    result["funnel"] = {
+        "candidates": len(candidates),
+        "security_type_excluded": len(type_excluded),
+        "common_stock": len(eligible),
+        **{k: v for k, v in result["funnel"].items() if k != "candidates"},
+    }
     doc = {
         "schema": "dragonfly.watchlist/1",
         "as_of": datetime.now().astimezone().isoformat(timespec="seconds"),
@@ -355,6 +508,15 @@ def build(cap: int, out: Path, candidates_file: Optional[Path], bar_workers: int
                 "bid/ask (spread_unavailable) are excluded, never admitted."
             ),
             "not_halted": "not checked directly; a halted name has no live bid/ask and fails spread_unavailable",
+            "security_type": (
+                "US listed common stock only (incl. ordinary / subordinate-voting shares of directly listed "
+                "foreign issuers). Depositary receipts excluded (depositary_receipt); preferred/units/etc. "
+                "excluded (not_common_stock); undeterminable type excluded (security_type_unknown). "
+                "Source: Nasdaq screener descriptor -> Nasdaq quote-info stockType -> explicit denylist."
+            ),
+        },
+        "security_type_exclusions": {
+            t: {"reason": type_excluded[t], **(types.get(t) or {})} for t in sorted(type_excluded)
         },
         "candidate_sources": {**SOURCES, "counts": counts} if not candidates_file else {"file": str(candidates_file), "counts": counts},
         "funnel": result["funnel"],
@@ -378,8 +540,16 @@ def main(argv: Sequence[str]) -> int:
     ap.add_argument("--candidates-file", type=Path, default=None)
     ap.add_argument("--bar-workers", type=int, default=8)
     ap.add_argument("--quote-workers", type=int, default=6)
+    ap.add_argument("--allow-daemon-window", action="store_true", help="explicit override of the daemon-window guard")
     args = ap.parse_args(argv)
-    doc = build(args.cap, args.out, args.candidates_file, args.bar_workers, args.quote_workers)
+    if args.allow_daemon_window:
+        os.environ[guards.ENV_ALLOW_WINDOW] = "1"
+    try:
+        doc = build(args.cap, args.out, args.candidates_file, args.bar_workers, args.quote_workers)
+    except guards.GuardBlocked as exc:
+        print(json.dumps({"blocked": exc.reason, "detail": exc.detail}))
+        print("watchlist NOT written")
+        return 2
     print(json.dumps({k: doc[k] for k in ("as_of", "funnel", "excluded_summary", "timing_seconds")}, indent=1))
     print(f"wrote {args.out} ({len(doc['names'])} names)")
     return 0 if doc["names"] else 1

@@ -174,7 +174,7 @@ US listed common stock.
 
 Phase 1 may scan a smaller liquid watchlist if a full universe feed is not wired yet. The gates stay. A shorter list is allowed. A softer gate is not.
 
-The Phase 1 watchlist is `dragonfly/watchlist.json`, built by `dragonfly/build_watchlist.py` with these gates via `risk_math.universe_reasons`. A name whose spread was never measured, or whose bid/ask could not be fetched, is excluded, never admitted. See `docs/dragonfly/PHASE1_DATA.md`.
+The Phase 1 watchlist is `dragonfly/watchlist.json`, built by `dragonfly/build_watchlist.py` with these gates via `risk_math.universe_reasons`. A name whose spread was never measured, or whose bid/ask could not be fetched, is excluded, never admitted. Depositary receipts (ADRs, ADSs) are not common stock and are excluded, as is any name whose security type cannot be determined. See `docs/dragonfly/PHASE1_DATA.md`.
 
 ### Instruments
 
