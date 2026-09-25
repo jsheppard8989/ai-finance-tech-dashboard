@@ -1,12 +1,12 @@
 {
  "schema": "dragonfly.watchlist/2",
- "as_of": "2026-09-25T15:10:33-05:00",
+ "as_of": "2026-09-25T15:15:58-05:00",
  "source": "yahoo",
  "provisional": true,
  "universe": {
   "definition": "top 5 Nasdaq-100 names by market cap in each sector; no backfill",
   "file": "dragonfly/universe.json",
-  "as_of": "2026-09-25T15:00:37-05:00",
+  "as_of": "2026-09-25T15:15:13-05:00",
   "as_of_date": "2026-09-25",
   "reused": true,
   "age_days": 0,
@@ -20,11 +20,17 @@
    "Energy": 1,
    "Health Care": 9,
    "Industrials": 14,
-   "Technology": 45,
+   "Technology": 44,
    "Telecommunications": 5,
    "Utilities": 4
   },
-  "ranking_excluded": {}
+  "ranking_excluded": {
+   "GOOG": "duplicate_share_class"
+  },
+  "duplicate_share_classes": {
+   "GOOG": "GOOGL"
+  },
+  "share_class_rule": "one class per company: issuer = ISSUER_ALIASES, else company name minus class/security-type suffix; keep PREFERRED_SHARE_CLASS if present (Alphabet -> GOOGL), else higher market cap, ties by ticker; company market cap = kept class's figure; dropped classes -> duplicate_share_class"
  },
  "cap": 200,
  "cap_note": "harmless upper bound; the universe is at most 5 names per sector",
@@ -60,15 +66,15 @@
  },
  "excluded_summary": {},
  "timing_seconds": {
-  "universe_and_types": 5.64,
-  "bars_and_quotes": 4.22
+  "universe_and_types": 5.62,
+  "bars_and_quotes": 4.87
  },
  "sectors": {
   "Basic Materials": [
    {
     "ticker": "LIN",
     "sector_rank": 1,
-    "market_cap": 216577700181.0,
+    "market_cap": 216609968792.0,
     "status": "admitted",
     "spread_source": "modeled_last_0.05",
     "mid_source": "last_trade"
@@ -110,7 +116,7 @@
    {
     "ticker": "BKNG",
     "sector_rank": 5,
-    "market_cap": 118274804505.0,
+    "market_cap": 123188832975.0,
     "status": "admitted",
     "spread_source": "modeled_last_0.05",
     "mid_source": "last_trade"
@@ -136,7 +142,7 @@
    {
     "ticker": "MDLZ",
     "sector_rank": 3,
-    "market_cap": 77676108349.0,
+    "market_cap": 76897560434.0,
     "status": "admitted",
     "spread_source": "modeled_last_0.05",
     "mid_source": "last_trade"
@@ -144,7 +150,7 @@
    {
     "ticker": "CCEP",
     "sector_rank": 4,
-    "market_cap": 45538977854.0,
+    "market_cap": 46183632909.0,
     "status": "admitted",
     "spread_source": "modeled_last_0.05",
     "mid_source": "last_trade"
@@ -162,7 +168,7 @@
    {
     "ticker": "FANG",
     "sector_rank": 1,
-    "market_cap": 52927402961.0,
+    "market_cap": 52272145975.0,
     "status": "admitted",
     "spread_source": "modeled_last_0.05",
     "mid_source": "last_trade"
@@ -180,7 +186,7 @@
    {
     "ticker": "GILD",
     "sector_rank": 2,
-    "market_cap": 185608887152.0,
+    "market_cap": 187146431544.0,
     "status": "admitted",
     "spread_source": "modeled_last_0.05",
     "mid_source": "last_trade"
@@ -222,7 +228,7 @@
    {
     "ticker": "CSX",
     "sector_rank": 2,
-    "market_cap": 86973697353.0,
+    "market_cap": 86658776617.0,
     "status": "admitted",
     "spread_source": "modeled_mid_0.05",
     "mid_source": "quote_mid"
@@ -230,7 +236,7 @@
    {
     "ticker": "CTAS",
     "sector_rank": 3,
-    "market_cap": 78976474501.0,
+    "market_cap": 79867396891.0,
     "status": "admitted",
     "spread_source": "modeled_last_0.05",
     "mid_source": "last_trade"
@@ -238,7 +244,7 @@
    {
     "ticker": "HON",
     "sector_rank": 4,
-    "market_cap": 67365599126.0,
+    "market_cap": 67467019929.0,
     "status": "admitted",
     "spread_source": "modeled_last_0.05",
     "mid_source": "last_trade"
@@ -256,7 +262,7 @@
    {
     "ticker": "NVDA",
     "sector_rank": 1,
-    "market_cap": 5422018000000.0,
+    "market_cap": 5424187000000.0,
     "status": "admitted",
     "spread_source": "modeled_last_0.05",
     "mid_source": "last_trade"
@@ -264,7 +270,7 @@
    {
     "ticker": "AAPL",
     "sector_rank": 2,
-    "market_cap": 4977636972600.0,
+    "market_cap": 4976177554600.0,
     "status": "admitted",
     "spread_source": "modeled_mid_0.05",
     "mid_source": "quote_mid"
@@ -272,23 +278,23 @@
    {
     "ticker": "GOOGL",
     "sector_rank": 3,
-    "market_cap": 4206141600000.0,
-    "status": "admitted",
-    "spread_source": "modeled_last_0.05",
-    "mid_source": "last_trade"
-   },
-   {
-    "ticker": "GOOG",
-    "sector_rank": 4,
-    "market_cap": 4171408400000.0,
+    "market_cap": 4205530100000.0,
     "status": "admitted",
     "spread_source": "modeled_last_0.05",
     "mid_source": "last_trade"
    },
    {
     "ticker": "MSFT",
+    "sector_rank": 4,
+    "market_cap": 3832843816089.0,
+    "status": "admitted",
+    "spread_source": "modeled_last_0.05",
+    "mid_source": "last_trade"
+   },
+   {
+    "ticker": "SPCX",
     "sector_rank": 5,
-    "market_cap": 3832398283360.0,
+    "market_cap": 2018007119205.0,
     "status": "admitted",
     "spread_source": "modeled_last_0.05",
     "mid_source": "last_trade"
@@ -298,7 +304,7 @@
    {
     "ticker": "CSCO",
     "sector_rank": 1,
-    "market_cap": 420595167612.0,
+    "market_cap": 420674019349.0,
     "status": "admitted",
     "spread_source": "modeled_last_0.05",
     "mid_source": "last_trade"
@@ -306,7 +312,7 @@
    {
     "ticker": "TMUS",
     "sector_rank": 2,
-    "market_cap": 177366251210.0,
+    "market_cap": 177452064939.0,
     "status": "admitted",
     "spread_source": "modeled_mid_0.05",
     "mid_source": "quote_mid"
@@ -322,7 +328,7 @@
    {
     "ticker": "CMCSA",
     "sector_rank": 4,
-    "market_cap": 78531327360.0,
+    "market_cap": 77750627314.0,
     "status": "admitted",
     "spread_source": "modeled_last_0.05",
     "mid_source": "last_trade"
@@ -340,7 +346,7 @@
    {
     "ticker": "CEG",
     "sector_rank": 1,
-    "market_cap": 93292675964.0,
+    "market_cap": 93278503669.0,
     "status": "admitted",
     "spread_source": "modeled_last_0.05",
     "mid_source": "last_trade"
@@ -348,7 +354,7 @@
    {
     "ticker": "AEP",
     "sector_rank": 2,
-    "market_cap": 64440314556.0,
+    "market_cap": 64429426609.0,
     "status": "admitted",
     "spread_source": "modeled_last_0.05",
     "mid_source": "last_trade"
@@ -356,7 +362,7 @@
    {
     "ticker": "XEL",
     "sector_rank": 3,
-    "market_cap": 43449562325.0,
+    "market_cap": 43599474559.0,
     "status": "admitted",
     "spread_source": "modeled_last_0.05",
     "mid_source": "last_trade"
@@ -364,7 +370,7 @@
    {
     "ticker": "EXC",
     "sector_rank": 4,
-    "market_cap": 41496609473.0,
+    "market_cap": 41641125029.0,
     "status": "admitted",
     "spread_source": "modeled_last_0.05",
     "mid_source": "last_trade"
@@ -378,7 +384,7 @@
    "sector": "Technology",
    "security_type": "NVIDIA Corporation Common Stock",
    "price": 225.07000732421875,
-   "adv20_dollars": 25657261534.59,
+   "adv20_dollars": 25696755412.78,
    "bid": 225.045,
    "ask": 225.095,
    "mid": 225.07,
@@ -390,8 +396,10 @@
    "yahoo_bid": 213.79,
    "yahoo_ask": 227.99,
    "last_trade": 225.07,
+   "quote_time": 1790366400,
+   "market_state": "POST",
    "sector_rank": 1,
-   "market_cap": 5422018000000.0
+   "market_cap": 5424187000000.0
   },
   {
    "ticker": "TSLA",
@@ -399,7 +407,7 @@
    "sector": "Industrials",
    "security_type": "Tesla Inc. Common Stock",
    "price": 372.1099853515625,
-   "adv20_dollars": 14467461777.3,
+   "adv20_dollars": 14477597346.29,
    "bid": 372.085,
    "ask": 372.135,
    "mid": 372.11,
@@ -411,6 +419,8 @@
    "yahoo_bid": 371.16,
    "yahoo_ask": 374.27,
    "last_trade": 372.11,
+   "quote_time": 1790366400,
+   "market_state": "POST",
    "sector_rank": 1,
    "market_cap": 1469666080781.0
   },
@@ -420,7 +430,7 @@
    "sector": "Technology",
    "security_type": "Apple Inc. Common Stock",
    "price": 341.07000732421875,
-   "adv20_dollars": 14070232605.5,
+   "adv20_dollars": 14097248880.15,
    "bid": 341.23,
    "ask": 341.28,
    "mid": 341.255,
@@ -432,16 +442,41 @@
    "yahoo_bid": 340.03,
    "yahoo_ask": 342.48,
    "last_trade": 341.07,
+   "quote_time": 1790366401,
+   "market_state": "POST",
    "sector_rank": 2,
-   "market_cap": 4977636972600.0
+   "market_cap": 4976177554600.0
+  },
+  {
+   "ticker": "SPCX",
+   "rank": 4,
+   "sector": "Technology",
+   "security_type": "Space Exploration Technologies Corp. Class A Common Stock",
+   "price": 148.67999267578125,
+   "adv20_dollars": 13407065650.55,
+   "bid": 148.655,
+   "ask": 148.705,
+   "mid": 148.68,
+   "spread": 0.05,
+   "spread_limit": 0.22302,
+   "spread_source": "modeled_last_0.05",
+   "mid_source": "last_trade",
+   "provisional": true,
+   "yahoo_bid": 148.01,
+   "yahoo_ask": 149.93,
+   "last_trade": 148.68,
+   "quote_time": 1790366400,
+   "market_state": "POST",
+   "sector_rank": 5,
+   "market_cap": 2018007119205.0
   },
   {
    "ticker": "MSFT",
-   "rank": 4,
+   "rank": 5,
    "sector": "Technology",
    "security_type": "Microsoft Corporation Common Stock",
    "price": 516.1699829101562,
-   "adv20_dollars": 10909300355.63,
+   "adv20_dollars": 10930319287.69,
    "bid": 516.145,
    "ask": 516.195,
    "mid": 516.17,
@@ -453,16 +488,18 @@
    "yahoo_bid": 515.02,
    "yahoo_ask": 519.38,
    "last_trade": 516.17,
-   "sector_rank": 5,
-   "market_cap": 3832398283360.0
+   "quote_time": 1790366401,
+   "market_state": "POST",
+   "sector_rank": 4,
+   "market_cap": 3832843816089.0
   },
   {
    "ticker": "GOOGL",
-   "rank": 5,
+   "rank": 6,
    "sector": "Technology",
    "security_type": "Alphabet Inc. Class A Common Stock",
    "price": 343.9200134277344,
-   "adv20_dollars": 9181135337.65,
+   "adv20_dollars": 9204294257.91,
    "bid": 343.895,
    "ask": 343.945,
    "mid": 343.92,
@@ -474,16 +511,18 @@
    "yahoo_bid": 344.16,
    "yahoo_ask": 349.98,
    "last_trade": 343.92,
+   "quote_time": 1790366401,
+   "market_state": "POST",
    "sector_rank": 3,
-   "market_cap": 4206141600000.0
+   "market_cap": 4205530100000.0
   },
   {
    "ticker": "AMZN",
-   "rank": 6,
+   "rank": 7,
    "sector": "Consumer Discretionary",
    "security_type": "Amazon.com Inc. Common Stock",
    "price": 249.6699981689453,
-   "adv20_dollars": 8964366788.72,
+   "adv20_dollars": 8978107576.81,
    "bid": 249.645,
    "ask": 249.695,
    "mid": 249.67,
@@ -495,29 +534,10 @@
    "yahoo_bid": 249.87,
    "yahoo_ask": 250.9,
    "last_trade": 249.67,
+   "quote_time": 1790366401,
+   "market_state": "POST",
    "sector_rank": 1,
    "market_cap": 2693018909521.0
-  },
-  {
-   "ticker": "GOOG",
-   "rank": 7,
-   "sector": "Technology",
-   "security_type": "Alphabet Inc. Class C Capital Stock",
-   "price": 341.0799865722656,
-   "adv20_dollars": 5931970840.63,
-   "bid": 341.055,
-   "ask": 341.105,
-   "mid": 341.08,
-   "spread": 0.05,
-   "spread_limit": 0.51162,
-   "spread_source": "modeled_last_0.05",
-   "mid_source": "last_trade",
-   "provisional": true,
-   "yahoo_bid": 350.05,
-   "yahoo_ask": 340.95,
-   "last_trade": 341.08,
-   "sector_rank": 4,
-   "market_cap": 4171408400000.0
   },
   {
    "ticker": "LITE",
@@ -525,7 +545,7 @@
    "sector": "Telecommunications",
    "security_type": "Lumentum Holdings Inc. Common Stock",
    "price": 941.6500244140625,
-   "adv20_dollars": 4022251608.8,
+   "adv20_dollars": 4023634610.19,
    "bid": 941.625,
    "ask": 941.675,
    "mid": 941.65,
@@ -537,6 +557,8 @@
    "yahoo_bid": 928.81,
    "yahoo_ask": 932.0,
    "last_trade": 941.65,
+   "quote_time": 1790366401,
+   "market_state": "POST",
    "sector_rank": 3,
    "market_cap": 84466005000.0
   },
@@ -546,7 +568,7 @@
    "sector": "Consumer Discretionary",
    "security_type": "Netflix Inc. Common Stock",
    "price": 71.1449966430664,
-   "adv20_dollars": 2457182692.22,
+   "adv20_dollars": 2459963454.89,
    "bid": 71.12,
    "ask": 71.17,
    "mid": 71.145,
@@ -558,6 +580,8 @@
    "yahoo_bid": 71.29,
    "yahoo_ask": 75.12,
    "last_trade": 71.145,
+   "quote_time": 1790366400,
+   "market_state": "POST",
    "sector_rank": 4,
    "market_cap": 296243488249.0
   },
@@ -567,7 +591,7 @@
    "sector": "Consumer Discretionary",
    "security_type": "Walmart Inc. Common Stock",
    "price": 107.9800033569336,
-   "adv20_dollars": 2415092942.05,
+   "adv20_dollars": 2426301282.6,
    "bid": 107.955,
    "ask": 108.005,
    "mid": 107.98,
@@ -579,6 +603,8 @@
    "yahoo_bid": 101.23,
    "yahoo_ask": 112.03,
    "last_trade": 107.98,
+   "quote_time": 1790366401,
+   "market_state": "POST",
    "sector_rank": 2,
    "market_cap": 856685919103.0
   },
@@ -588,7 +614,7 @@
    "sector": "Consumer Discretionary",
    "security_type": "Costco Wholesale Corporation Common Stock",
    "price": 922.7650146484375,
-   "adv20_dollars": 2111087473.2,
+   "adv20_dollars": 2115090889.21,
    "bid": 922.74,
    "ask": 922.79,
    "mid": 922.765,
@@ -600,6 +626,8 @@
    "yahoo_bid": 918.56,
    "yahoo_ask": 909.85,
    "last_trade": 922.765,
+   "quote_time": 1790366401,
+   "market_state": "POST",
    "sector_rank": 3,
    "market_cap": 409226718573.0
   },
@@ -609,7 +637,7 @@
    "sector": "Telecommunications",
    "security_type": "Cisco Systems Inc. Common Stock (DE)",
    "price": 106.69999694824219,
-   "adv20_dollars": 1932820934.63,
+   "adv20_dollars": 1949310368.16,
    "bid": 106.675,
    "ask": 106.725,
    "mid": 106.7,
@@ -621,8 +649,10 @@
    "yahoo_bid": 101.53,
    "yahoo_ask": 112.35,
    "last_trade": 106.7,
+   "quote_time": 1790366400,
+   "market_state": "POST",
    "sector_rank": 1,
-   "market_cap": 420595167612.0
+   "market_cap": 420674019349.0
   },
   {
    "ticker": "BKNG",
@@ -630,7 +660,7 @@
    "sector": "Consumer Discretionary",
    "security_type": "Booking Holdings Inc. Common Stock",
    "price": 163.9499969482422,
-   "adv20_dollars": 1473513629.11,
+   "adv20_dollars": 1476947627.38,
    "bid": 163.925,
    "ask": 163.975,
    "mid": 163.95,
@@ -642,8 +672,10 @@
    "yahoo_bid": 156.6,
    "yahoo_ask": 225.0,
    "last_trade": 163.95,
+   "quote_time": 1790366401,
+   "market_state": "POST",
    "sector_rank": 5,
-   "market_cap": 118274804505.0
+   "market_cap": 123188832975.0
   },
   {
    "ticker": "AMGN",
@@ -651,7 +683,7 @@
    "sector": "Health Care",
    "security_type": "Amgen Inc. Common Stock",
    "price": 414.6099853515625,
-   "adv20_dollars": 1216403907.66,
+   "adv20_dollars": 1217592117.68,
    "bid": 414.585,
    "ask": 414.635,
    "mid": 414.61,
@@ -663,6 +695,8 @@
    "yahoo_bid": 404.95,
    "yahoo_ask": 410.05,
    "last_trade": 414.61,
+   "quote_time": 1790366401,
+   "market_state": "POST",
    "sector_rank": 1,
    "market_cap": 224151435593.0
   },
@@ -672,7 +706,7 @@
    "sector": "Telecommunications",
    "security_type": "Warner Bros. Discovery Inc. Series A Common Stock ",
    "price": 30.860000610351562,
-   "adv20_dollars": 1209545172.29,
+   "adv20_dollars": 1209835419.85,
    "bid": 30.83,
    "ask": 30.88,
    "mid": 30.855,
@@ -684,6 +718,8 @@
    "yahoo_bid": 30.82,
    "yahoo_ask": 30.89,
    "last_trade": 30.86,
+   "quote_time": 1790366400,
+   "market_state": "POST",
    "sector_rank": 5,
    "market_cap": 77480304270.0
   },
@@ -693,7 +729,7 @@
    "sector": "Consumer Staples",
    "security_type": "PepsiCo Inc. Common Stock",
    "price": 128.6300048828125,
-   "adv20_dollars": 1198981236.06,
+   "adv20_dollars": 1200309553.1,
    "bid": 128.605,
    "ask": 128.655,
    "mid": 128.63,
@@ -705,6 +741,8 @@
    "yahoo_bid": 125.0,
    "yahoo_ask": 134.4,
    "last_trade": 128.63,
+   "quote_time": 1790366400,
+   "market_state": "POST",
    "sector_rank": 1,
    "market_cap": 175566001106.0
   },
@@ -714,7 +752,7 @@
    "sector": "Basic Materials",
    "security_type": "Linde plc Ordinary Shares",
    "price": 469.8900146484375,
-   "adv20_dollars": 921736049.54,
+   "adv20_dollars": 923512750.67,
    "bid": 469.865,
    "ask": 469.915,
    "mid": 469.89,
@@ -726,8 +764,10 @@
    "yahoo_bid": 463.97,
    "yahoo_ask": 469.91,
    "last_trade": 469.89,
+   "quote_time": 1790366400,
+   "market_state": "POST",
    "sector_rank": 1,
-   "market_cap": 216577700181.0
+   "market_cap": 216609968792.0
   },
   {
    "ticker": "ISRG",
@@ -735,7 +775,7 @@
    "sector": "Health Care",
    "security_type": "Intuitive Surgical Inc. Common Stock",
    "price": 405.17999267578125,
-   "adv20_dollars": 911963405.07,
+   "adv20_dollars": 912672024.36,
    "bid": 405.155,
    "ask": 405.205,
    "mid": 405.18,
@@ -747,6 +787,8 @@
    "yahoo_bid": 350.0,
    "yahoo_ask": 408.0,
    "last_trade": 405.18,
+   "quote_time": 1790366401,
+   "market_state": "POST",
    "sector_rank": 3,
    "market_cap": 143141195437.0
   },
@@ -756,7 +798,7 @@
    "sector": "Industrials",
    "security_type": "Teradyne Inc. Common Stock",
    "price": 398.3800048828125,
-   "adv20_dollars": 903881881.91,
+   "adv20_dollars": 904425969.4,
    "bid": 398.355,
    "ask": 398.405,
    "mid": 398.38,
@@ -768,6 +810,8 @@
    "yahoo_bid": 332.83,
    "yahoo_ask": 399.78,
    "last_trade": 398.38,
+   "quote_time": 1790366400,
+   "market_state": "POST",
    "sector_rank": 5,
    "market_cap": 62283027985.0
   },
@@ -777,7 +821,7 @@
    "sector": "Telecommunications",
    "security_type": "T-Mobile US Inc. Common Stock",
    "price": 165.42999267578125,
-   "adv20_dollars": 892977001.61,
+   "adv20_dollars": 893399832.4,
    "bid": 165.31,
    "ask": 165.36,
    "mid": 165.335,
@@ -789,8 +833,10 @@
    "yahoo_bid": 155.83,
    "yahoo_ask": 174.84,
    "last_trade": 165.43,
+   "quote_time": 1790366400,
+   "market_state": "POST",
    "sector_rank": 2,
-   "market_cap": 177366251210.0
+   "market_cap": 177452064939.0
   },
   {
    "ticker": "GILD",
@@ -798,7 +844,7 @@
    "sector": "Health Care",
    "security_type": "Gilead Sciences Inc. Common Stock",
    "price": 150.92999267578125,
-   "adv20_dollars": 874458193.14,
+   "adv20_dollars": 875462451.12,
    "bid": 150.905,
    "ask": 150.955,
    "mid": 150.93,
@@ -810,8 +856,10 @@
    "yahoo_bid": 150.96,
    "yahoo_ask": 158.71,
    "last_trade": 150.93,
+   "quote_time": 1790366401,
+   "market_state": "POST",
    "sector_rank": 2,
-   "market_cap": 185608887152.0
+   "market_cap": 187146431544.0
   },
   {
    "ticker": "CEG",
@@ -819,7 +867,7 @@
    "sector": "Utilities",
    "security_type": "Constellation Energy Corporation Common Stock ",
    "price": 263.2699890136719,
-   "adv20_dollars": 784665783.56,
+   "adv20_dollars": 785073667.75,
    "bid": 263.245,
    "ask": 263.295,
    "mid": 263.27,
@@ -831,8 +879,10 @@
    "yahoo_bid": 265.31,
    "yahoo_ask": 265.0,
    "last_trade": 263.27,
+   "quote_time": 1790366401,
+   "market_state": "POST",
    "sector_rank": 1,
-   "market_cap": 93292675964.0
+   "market_cap": 93278503669.0
   },
   {
    "ticker": "CMCSA",
@@ -840,7 +890,7 @@
    "sector": "Telecommunications",
    "security_type": "Comcast Corporation Class A Common Stock",
    "price": 21.90999984741211,
-   "adv20_dollars": 731458598.27,
+   "adv20_dollars": 735539336.84,
    "bid": 21.885,
    "ask": 21.935,
    "mid": 21.91,
@@ -852,8 +902,10 @@
    "yahoo_bid": 21.88,
    "yahoo_ask": 22.89,
    "last_trade": 21.91,
+   "quote_time": 1790366401,
+   "market_state": "POST",
    "sector_rank": 4,
-   "market_cap": 78531327360.0
+   "market_cap": 77750627314.0
   },
   {
    "ticker": "HON",
@@ -861,7 +913,7 @@
    "sector": "Industrials",
    "security_type": "Honeywell International Inc. Common Stock",
    "price": 212.5500030517578,
-   "adv20_dollars": 664881078.34,
+   "adv20_dollars": 665227332.92,
    "bid": 212.525,
    "ask": 212.575,
    "mid": 212.55,
@@ -873,8 +925,10 @@
    "yahoo_bid": 200.16,
    "yahoo_ask": 223.65,
    "last_trade": 212.55,
+   "quote_time": 1790366401,
+   "market_state": "POST",
    "sector_rank": 4,
-   "market_cap": 67365599126.0
+   "market_cap": 67467019929.0
   },
   {
    "ticker": "FANG",
@@ -882,7 +936,7 @@
    "sector": "Energy",
    "security_type": "Diamondback Energy Inc. Common Stock",
    "price": 186.6699981689453,
-   "adv20_dollars": 659116656.84,
+   "adv20_dollars": 659973593.47,
    "bid": 186.645,
    "ask": 186.695,
    "mid": 186.67,
@@ -894,8 +948,10 @@
    "yahoo_bid": 175.51,
    "yahoo_ask": 186.64,
    "last_trade": 186.67,
+   "quote_time": 1790366401,
+   "market_state": "POST",
    "sector_rank": 1,
-   "market_cap": 52927402961.0
+   "market_cap": 52272145975.0
   },
   {
    "ticker": "REGN",
@@ -903,7 +959,7 @@
    "sector": "Health Care",
    "security_type": "Regeneron Pharmaceuticals Inc. Common Stock",
    "price": 788.0399780273438,
-   "adv20_dollars": 555143174.76,
+   "adv20_dollars": 555556383.52,
    "bid": 788.015,
    "ask": 788.065,
    "mid": 788.04,
@@ -915,6 +971,8 @@
    "yahoo_bid": 803.58,
    "yahoo_ask": 856.0,
    "last_trade": 788.04,
+   "quote_time": 1790366400,
+   "market_state": "POST",
    "sector_rank": 5,
    "market_cap": 81132648744.0
   },
@@ -924,7 +982,7 @@
    "sector": "Health Care",
    "security_type": "Vertex Pharmaceuticals Incorporated Common Stock",
    "price": 526.1900024414062,
-   "adv20_dollars": 545731705.69,
+   "adv20_dollars": 546249476.65,
    "bid": 526.165,
    "ask": 526.215,
    "mid": 526.19,
@@ -936,6 +994,8 @@
    "yahoo_bid": 512.17,
    "yahoo_ask": 506.35,
    "last_trade": 526.19,
+   "quote_time": 1790366400,
+   "market_state": "POST",
    "sector_rank": 4,
    "market_cap": 133368603600.0
   },
@@ -945,7 +1005,7 @@
    "sector": "Industrials",
    "security_type": "CSX Corporation Common Stock",
    "price": 46.779998779296875,
-   "adv20_dollars": 519817743.31,
+   "adv20_dollars": 520324050.25,
    "bid": 46.735,
    "ask": 46.785,
    "mid": 46.76,
@@ -957,8 +1017,10 @@
    "yahoo_bid": 44.17,
    "yahoo_ask": 49.35,
    "last_trade": 46.78,
+   "quote_time": 1790366401,
+   "market_state": "POST",
    "sector_rank": 2,
-   "market_cap": 86973697353.0
+   "market_cap": 86658776617.0
   },
   {
    "ticker": "MDLZ",
@@ -966,7 +1028,7 @@
    "sector": "Consumer Staples",
    "security_type": "Mondelez International Inc. Class A Common Stock",
    "price": 60.25,
-   "adv20_dollars": 494416586.05,
+   "adv20_dollars": 494710937.43,
    "bid": 60.225,
    "ask": 60.275,
    "mid": 60.25,
@@ -978,8 +1040,10 @@
    "yahoo_bid": 57.37,
    "yahoo_ask": 64.21,
    "last_trade": 60.25,
+   "quote_time": 1790366401,
+   "market_state": "POST",
    "sector_rank": 3,
-   "market_cap": 77676108349.0
+   "market_cap": 76897560434.0
   },
   {
    "ticker": "AEP",
@@ -987,7 +1051,7 @@
    "sector": "Utilities",
    "security_type": "American Electric Power Company Inc. Common Stock",
    "price": 118.3499984741211,
-   "adv20_dollars": 477450386.61,
+   "adv20_dollars": 483694005.87,
    "bid": 118.325,
    "ask": 118.375,
    "mid": 118.35,
@@ -999,8 +1063,10 @@
    "yahoo_bid": 111.15,
    "yahoo_ask": 122.61,
    "last_trade": 118.35,
+   "quote_time": 1790366401,
+   "market_state": "POST",
    "sector_rank": 2,
-   "market_cap": 64440314556.0
+   "market_cap": 64429426609.0
   },
   {
    "ticker": "XEL",
@@ -1008,7 +1074,7 @@
    "sector": "Utilities",
    "security_type": "Xcel Energy Inc. Common Stock",
    "price": 69.80000305175781,
-   "adv20_dollars": 444451420.05,
+   "adv20_dollars": 444799638.31,
    "bid": 69.775,
    "ask": 69.825,
    "mid": 69.8,
@@ -1020,8 +1086,10 @@
    "yahoo_bid": 65.94,
    "yahoo_ask": 72.28,
    "last_trade": 69.8,
+   "quote_time": 1790366400,
+   "market_state": "POST",
    "sector_rank": 3,
-   "market_cap": 43449562325.0
+   "market_cap": 43599474559.0
   },
   {
    "ticker": "MNST",
@@ -1029,7 +1097,7 @@
    "sector": "Consumer Staples",
    "security_type": "Monster Beverage Corporation [stockType: Common Stock]",
    "price": 43.11000061035156,
-   "adv20_dollars": 426966209.36,
+   "adv20_dollars": 427605269.85,
    "bid": 43.085,
    "ask": 43.135,
    "mid": 43.11,
@@ -1041,6 +1109,8 @@
    "yahoo_bid": 40.17,
    "yahoo_ask": 45.04,
    "last_trade": 43.11,
+   "quote_time": 1790366401,
+   "market_state": "POST",
    "sector_rank": 2,
    "market_cap": 126682209019.0
   },
@@ -1050,7 +1120,7 @@
    "sector": "Industrials",
    "security_type": "Cintas Corporation Common Stock",
    "price": 199.91000366210938,
-   "adv20_dollars": 409842932.11,
+   "adv20_dollars": 410255386.43,
    "bid": 199.885,
    "ask": 199.935,
    "mid": 199.91,
@@ -1062,8 +1132,10 @@
    "yahoo_bid": 183.93,
    "yahoo_ask": 215.11,
    "last_trade": 199.91,
+   "quote_time": 1790366401,
+   "market_state": "POST",
    "sector_rank": 3,
-   "market_cap": 78976474501.0
+   "market_cap": 79867396891.0
   },
   {
    "ticker": "EXC",
@@ -1071,7 +1143,7 @@
    "sector": "Utilities",
    "security_type": "Exelon Corporation Common Stock",
    "price": 40.34000015258789,
-   "adv20_dollars": 329296230.06,
+   "adv20_dollars": 329629789.42,
    "bid": 40.315,
    "ask": 40.365,
    "mid": 40.34,
@@ -1083,8 +1155,10 @@
    "yahoo_bid": 38.0,
    "yahoo_ask": 42.16,
    "last_trade": 40.34,
+   "quote_time": 1790366401,
+   "market_state": "POST",
    "sector_rank": 4,
-   "market_cap": 41496609473.0
+   "market_cap": 41641125029.0
   },
   {
    "ticker": "KDP",
@@ -1092,7 +1166,7 @@
    "sector": "Consumer Staples",
    "security_type": "Keurig Dr Pepper Inc. Common Stock",
    "price": 31.950000762939453,
-   "adv20_dollars": 318975330.39,
+   "adv20_dollars": 319584364.5,
    "bid": 31.925,
    "ask": 31.975,
    "mid": 31.95,
@@ -1104,6 +1178,8 @@
    "yahoo_bid": 30.88,
    "yahoo_ask": 32.45,
    "last_trade": 31.95,
+   "quote_time": 1790366401,
+   "market_state": "POST",
    "sector_rank": 5,
    "market_cap": 43478391914.0
   },
@@ -1113,7 +1189,7 @@
    "sector": "Consumer Staples",
    "security_type": "Coca-Cola Europacific Partners plc Ordinary Shares",
    "price": 101.7300033569336,
-   "adv20_dollars": 183789970.1,
+   "adv20_dollars": 183931868.2,
    "bid": 101.705,
    "ask": 101.755,
    "mid": 101.73,
@@ -1125,8 +1201,10 @@
    "yahoo_bid": 86.11,
    "yahoo_ask": 116.48,
    "last_trade": 101.73,
+   "quote_time": 1790366401,
+   "market_state": "POST",
    "sector_rank": 4,
-   "market_cap": 45538977854.0
+   "market_cap": 46183632909.0
   }
  ],
  "quote_fallbacks": {
@@ -1145,7 +1223,6 @@
   "EXC": "quote_fails_spread_gate+mid_far_from_last",
   "FANG": "quote_fails_spread_gate+mid_far_from_last",
   "GILD": "quote_fails_spread_gate+mid_far_from_last",
-  "GOOG": "quote_crossed+mid_far_from_last",
   "GOOGL": "quote_fails_spread_gate+mid_far_from_last",
   "HON": "quote_fails_spread_gate+mid_far_from_last",
   "ISRG": "quote_fails_spread_gate+mid_far_from_last",
@@ -1159,6 +1236,7 @@
   "NVDA": "quote_fails_spread_gate+mid_far_from_last",
   "PEP": "quote_fails_spread_gate+mid_far_from_last",
   "REGN": "quote_fails_spread_gate+mid_far_from_last",
+  "SPCX": "quote_fails_spread_gate+mid_far_from_last",
   "TER": "quote_fails_spread_gate+mid_far_from_last",
   "TMUS": "quote_fails_spread_gate",
   "TSLA": "quote_fails_spread_gate+mid_far_from_last",
@@ -1167,5 +1245,13 @@
   "WMT": "quote_fails_spread_gate+mid_far_from_last",
   "XEL": "quote_fails_spread_gate+mid_far_from_last"
  },
- "excluded": {}
+ "excluded": {
+  "GOOG": {
+   "reason": "duplicate_share_class",
+   "kept": "GOOGL",
+   "sector": "Technology",
+   "sector_rank": null,
+   "market_cap": null
+  }
+ }
 }
