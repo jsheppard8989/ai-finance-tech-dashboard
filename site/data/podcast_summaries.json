@@ -1,5 +1,21 @@
 [
   {
+    "id": 519,
+    "podcast_name": "Latent Space: The AI Engineer Podcast",
+    "episode_title": "Runway\u2019s WorldPrompt and the Engineering of Real-Time Worlds",
+    "episode_date": "2026-09-25",
+    "summary": "The podcast discusses Runway's significant advancements in generative models, transitioning from image to video generation, and highlights the importance of real-time video capabilities for enhancing creative workflows. The company is also exploring the integration of world models for robotics and fostering an open-source initiative to advance research in AI, indicating a collaborative approach to innovation in the sector.",
+    "key_takeaways": [
+      "Runway's generative models are evolving, positioning the company as a leader in the creative media space.",
+      "Real-time video generation capabilities are set to enhance productivity for creatives, allowing for rapid iteration.",
+      "The development of world models for robotics can streamline training processes and reduce reliance on physical data.",
+      "Runway's open-source initiatives are expected to accelerate innovation and establish industry standards in AI.",
+      "The growing acceptance of AI tools among creatives presents new investment opportunities in the AI-driven creative sector."
+    ],
+    "investment_thesis": "Investors should consider Runway's advancements in generative media and robotics as key opportunities for capital allocation in the evolving landscape of creative technologies.",
+    "key_tickers": null
+  },
+  {
     "id": 518,
     "podcast_name": "Monetary Matters with Jack Farley",
     "episode_title": "Why the Fed May Have to Hike Far Higher Than Expected | Henry Peabody on the Fed\u2019s Triple Mandate and Uneven Transmission of Monetary Policy",
