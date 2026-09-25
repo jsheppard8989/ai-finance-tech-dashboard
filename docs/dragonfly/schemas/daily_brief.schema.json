@@ -1,0 +1,70 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "$id": "https://scarcity.local/dragonfly/daily_brief.schema.json",
+  "title": "Dragonfly 7 Daily Brief",
+  "type": "object",
+  "additionalProperties": false,
+  "required": [
+    "session_date",
+    "generated_at",
+    "regime",
+    "risk_mode",
+    "entries_allowed",
+    "block_reasons",
+    "funnel",
+    "recommendation",
+    "pending_trade_ids",
+    "open_positions",
+    "heat_dollars",
+    "heat_cap",
+    "note"
+  ],
+  "properties": {
+    "session_date": { "type": "string", "format": "date" },
+    "generated_at": { "type": "string", "format": "date-time" },
+    "regime": {
+      "type": "object",
+      "additionalProperties": false,
+      "required": ["trend", "risk_appetite", "volatility", "persistence"],
+      "properties": {
+        "trend": { "enum": ["up", "down", "range"] },
+        "risk_appetite": { "enum": ["risk_on", "neutral", "risk_off"] },
+        "volatility": { "enum": ["low", "normal", "high"] },
+        "persistence": { "enum": ["persistent", "mixed", "mean_reverting"] }
+      }
+    },
+    "risk_mode": { "enum": ["normal", "cautious", "stand_down"] },
+    "entries_allowed": { "type": "boolean" },
+    "block_reasons": { "type": "array", "items": { "type": "string" } },
+    "funnel": {
+      "type": "object",
+      "additionalProperties": false,
+      "required": [
+        "universe",
+        "unusual",
+        "deep_dives",
+        "setup_passes",
+        "catalyst_passes",
+        "architected",
+        "red_team_passes",
+        "risk_passes"
+      ],
+      "properties": {
+        "universe": { "type": "integer", "minimum": 0 },
+        "unusual": { "type": "integer", "minimum": 0 },
+        "deep_dives": { "type": "integer", "minimum": 0, "maximum": 15 },
+        "setup_passes": { "type": "integer", "minimum": 0 },
+        "catalyst_passes": { "type": "integer", "minimum": 0 },
+        "architected": { "type": "integer", "minimum": 0 },
+        "red_team_passes": { "type": "integer", "minimum": 0 },
+        "risk_passes": { "type": "integer", "minimum": 0 }
+      }
+    },
+    "recommendation": { "enum": ["NO_TRADE", "REVIEW"] },
+    "pending_trade_ids": { "type": "array", "items": { "type": "string" } },
+    "open_positions": { "type": "integer", "minimum": 0 },
+    "heat_dollars": { "type": "number", "minimum": 0 },
+    "heat_cap": { "type": "number", "minimum": 0 },
+    "note": { "type": "string", "minLength": 1 }
+  }
+}

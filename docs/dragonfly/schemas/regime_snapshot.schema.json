@@ -1,0 +1,29 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "$id": "https://scarcity.local/dragonfly/regime_snapshot.schema.json",
+  "title": "Dragonfly 7 Regime Snapshot",
+  "type": "object",
+  "additionalProperties": false,
+  "required": [
+    "session_date",
+    "trend",
+    "risk_appetite",
+    "volatility",
+    "persistence",
+    "evidence",
+    "derived_risk_mode"
+  ],
+  "properties": {
+    "session_date": { "type": "string", "format": "date" },
+    "trend": { "enum": ["up", "down", "range"] },
+    "risk_appetite": { "enum": ["risk_on", "neutral", "risk_off"] },
+    "volatility": { "enum": ["low", "normal", "high"] },
+    "persistence": { "enum": ["persistent", "mixed", "mean_reverting"] },
+    "evidence": {
+      "type": "array",
+      "minItems": 1,
+      "items": { "type": "string", "minLength": 1 }
+    },
+    "derived_risk_mode": { "enum": ["normal", "cautious", "stand_down"] }
+  }
+}

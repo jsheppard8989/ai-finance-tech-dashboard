@@ -1,0 +1,14 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "$id": "https://scarcity.local/dragonfly/risk_decision.schema.json",
+  "title": "Dragonfly 7 Risk Decision",
+  "type": "object",
+  "additionalProperties": false,
+  "required": ["decision", "reasons", "risk_mode", "entries_allowed"],
+  "properties": {
+    "decision": { "enum": ["APPROVED", "REJECTED"] },
+    "reasons": { "type": "array", "items": { "type": "string" } },
+    "risk_mode": { "enum": ["normal", "cautious", "stand_down"] },
+    "entries_allowed": { "type": "boolean" }
+  }
+}
