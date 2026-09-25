@@ -1,5 +1,21 @@
 [
   {
+    "id": 520,
+    "podcast_name": "The a16z Show",
+    "episode_title": "The Reputation Graph of Silicon Valley | Introducing Cosign",
+    "episode_date": "2026-09-25",
+    "summary": "In this episode of The a16z Show, the discussion centers around Co-sign, a new platform designed to enhance professional reputation through endorsements. The hosts and guests highlight the importance of social capital in talent discovery, emphasizing that endorsements can significantly improve visibility and credibility in a competitive job market. By addressing the inefficiencies of existing platforms, Co-sign aims to democratize access to opportunities and streamline the hiring and investment processes.",
+    "key_takeaways": [
+      "Endorsements are crucial signals that can elevate professional reputation and open doors to opportunities.",
+      "Reducing information asymmetry in talent discovery can lead to better hiring decisions and investment choices.",
+      "Social capital plays a vital role in professional advancement, and engaging in co-signing can enhance one's own network.",
+      "Co-sign aims to redefine professional networking by making reputation more visible and actionable.",
+      "Understanding granular relationships in professional networks can lead to more informed hiring and investment decisions."
+    ],
+    "investment_thesis": "Investing in platforms like Co-sign that leverage endorsements and social capital can yield significant returns as they address inefficiencies in talent discovery and professional networking.",
+    "key_tickers": null
+  },
+  {
     "id": 519,
     "podcast_name": "Latent Space: The AI Engineer Podcast",
     "episode_title": "Runway\u2019s WorldPrompt and the Engineering of Real-Time Worlds",
