@@ -9,10 +9,12 @@
       "debater_b": "Victor Hagani",
       "expires_rule": "Resolves Friday 12:00 PM CST 2026-09-25",
       "resolves_iso": "2026-09-25",
-      "resolution_status": "pending",
-      "resolution_notes": "",
+      "resolution_status": "no",
+      "resolution_notes": "Negative. The S&P 500 never closed above 8,000 inside the window. The highest close from the Aug 14, 2026 debate Friday through Thu Sep 24 was 7,785.76 (Aug 14); the Sep 24 close was 7,704.13. The window ended Fri Sep 25 at 12:00 PM CT, before that day's close. Official daily closes from FRED series SP500.",
       "archived_at": "2026-08-21T13:49:56.370258",
-      "audio_href": "./audio/archive/debate_2026-08-14.mp3"
+      "audio_href": "./audio/archive/debate_2026-08-14.mp3",
+      "resolution_source": "https://fred.stlouisfed.org/series/SP500",
+      "resolved_at": "2026-09-25T12:00:00-05:00"
     },
     {
       "friday_iso": "2026-07-24",
