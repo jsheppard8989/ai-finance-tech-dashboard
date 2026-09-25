@@ -23,8 +23,6 @@ os.environ["DRAGONFLY_STATE_DIR"] = _TMP
 from dragonfly import bars  # noqa: E402
 from dragonfly import chains  # noqa: E402
 from dragonfly.build_watchlist import (  # noqa: E402
-    parse_constituents,
-    parse_nasdaq_list,
     select_watchlist,
     spread_from_quote,
 )
@@ -293,24 +291,11 @@ def test_watchlist_selection():
     check(spread_from_quote((10.2, 10.1)) == (None, None), "crossed quote unusable")
 
 
-def test_constituent_parsers():
-    html = "<table class='wikitable sortable' id='constituents'><tr><th>Symbol</th><th>Security</th><th>GICS Sector</th></tr>"
-    html += "".join(f"<tr><td>T{i}</td><td>Co {i}</td><td>Energy</td></tr>" for i in range(60))
-    html += "<tr><td>BRK.B</td><td>Berkshire</td><td>Financials</td></tr></table>"
-    rows = parse_constituents(html)
-    check(len(rows) == 61 and rows[-1] == {"ticker": "BRK-B", "name": "Berkshire", "sector": "Financials"}, "S&P table parse + dot->dash")
-    check(raises(lambda: parse_constituents("<table class='wikitable'><tr><th>Year</th></tr></table>"), ValueError), "missing table raises")
-    payload = {"data": {"data": {"rows": [{"symbol": f"N{i}", "companyName": "x", "sector": ""} for i in range(100)]}}}
-    check(len(parse_nasdaq_list(payload)) == 100, "nasdaq list parse")
-    check(raises(lambda: parse_nasdaq_list({"data": {"data": {"rows": []}}}), ValueError), "short nasdaq list raises")
-
-
 def main():
     test_bars_math()
     test_bars_cache()
     test_chains()
     test_watchlist_selection()
-    test_constituent_parsers()
     print(f"dragonfly phase1 data: all {CHECKS} checks passed (offline)")
 
 

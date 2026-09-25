@@ -42,6 +42,53 @@ Every Dragonfly network fetch (bars, chains, watchlist quotes) calls
 
 ## Watchlist — `dragonfly/build_watchlist.py` → `dragonfly/watchlist.json`
 
+### Universe: top 5 Nasdaq-100 names by market cap per sector (`dragonfly/ndx_universe.py`)
+
+- **Constituents and market cap:** the Nasdaq-100 list on api.nasdaq.com
+  (`/api/quote/list-type/nasdaq100`, field `marketCap`).
+- **Sector:** the Nasdaq stock screener on api.nasdaq.com
+  (`/api/screener/stocks`, field `sector`). This is the same download the
+  security-type lookup already uses.
+  - The Nasdaq-100 list's own `sector` field is blank for every row, so it
+    can't be used.
+  - The screener `sector` is Nasdaq's sector label, the same value the quote
+    page shows as "Sector". Its labels are ICB industry names, but it is
+    Nasdaq's own mapping: api.nasdaq.com exposes no separate ICB code. For
+    example, TSLA is "Industrials" and AMZN, WMT and COST are "Consumer
+    Discretionary".
+  - Sectors seen on 2026-09-25: Technology (45), Consumer Discretionary (17),
+    Industrials (14), Health Care (9), Telecommunications (5), Consumer
+    Staples (5), Utilities (4), Energy (1), Basic Materials (1).
+- **Ranking:** market cap descending within each sector, ties broken by
+  ticker. The top 5 per sector are taken; a sector with fewer than 5 members
+  contributes what it has. Dual share classes are separate NDX constituents
+  and are ranked separately (GOOGL and GOOG can both take a slot).
+- **Fail closed:** a constituent with a missing sector or a missing or
+  non-positive market cap is excluded from ranking (`sector_missing` /
+  `market_cap_missing`). The reason is recorded in `universe.json` and in
+  the watchlist's `universe.ranking_excluded`.
+- **Weekly refresh:** the ranked membership is persisted to
+  `dragonfly/universe.json` with an `as_of_date`.
+  - It is reused until it is 7 or more days old, or until you pass
+    `--refresh-universe`.
+  - A missing, corrupt, future-dated, or different-N file also forces a
+    refresh.
+  - Daily builds re-run only the gates and quotes, so they can't reshuffle
+    membership.
+  - A failed refresh aborts the build. A stale membership is never silently
+    reused.
+- **No backfill:** the gates below run on the top-5 members only. A member
+  that fails any gate (depositary receipt, unknown type, bars unavailable,
+  price, ADV, no usable mid/last) leaves its slot empty; the #6 name in that
+  sector is never pulled in. Every excluded member is recorded in
+  `excluded` with its reason, sector, rank and market cap. The per-sector
+  view in `sectors` shows each slot as `admitted` or `excluded` with its
+  reason.
+- The S&P 500 pool is gone. `--cap` (default 200) is kept only as a
+  harmless upper bound; the universe is at most 5 names per sector.
+
+### Gates (unchanged)
+
 - **US listed common stock only.** Before any Yahoo call, each candidate's
   security type is resolved from Nasdaq's descriptor: the screener's security
   name (one call for all US listings), then the per-symbol quote-info
@@ -52,20 +99,16 @@ Every Dragonfly network fetch (bars, chains, watchlist quotes) calls
   common. Excluded, never admitted: `depositary_receipt` (ADR/ADS/NY registry
   shares), `not_common_stock` (preferred, units, etc.), and
   `security_type_unknown` when the type cannot be determined (fail closed).
-  Excluded names never reach the bars or spread steps, so the next names by
-  ADV backfill. The list may be shorter than 200; the gates stay exact.
+  Excluded names never reach the bars or spread steps. Their slots stay
+  empty (no backfill).
 
-- Candidates: S&P 500 (Wikipedia constituents table, carries GICS sector) ∪
-  Nasdaq-100 (Nasdaq's own list at `api.nasdaq.com`; Wikipedia no longer
-  carries that table).
 - Gates are the existing universe gates, called through
   `risk_math.universe_reasons` (not re-typed): price ≥ $10, 20-day ADV ≥ $25M,
   spread ≤ max($0.05, 0.15% of mid).
-- Price and ADV run on every candidate (from `bars.py`). Survivors are ranked by
-  ADV, descending.
-- **Quotes on the ADV-ranked shortlist only.** Yahoo bid/ask/last is fetched in
-  rank order, in small batches, until `cap` (200) names are admitted. Names
-  ranked below the cutoff are `beyond_cap` (excluded).
+- Price and ADV run on every universe member (from `bars.py`). Survivors are
+  ordered by ADV, descending (the `rank` field).
+- **Quotes:** Yahoo bid/ask/last is fetched for each surviving member.
+  (`beyond_cap` can only occur if `--cap` is set below the universe size.)
 - **Paper quote model (default, `--spread-mode modeled`, PAPER ONLY; Jared,
   2026-09-25).** Each name's quote is resolved by `risk_math.resolve_quote`:
   1. Yahoo bid/ask passes the spread gate as-is → real quote,
@@ -169,7 +212,12 @@ needs a better quote source; it must not be fixed by softening the gate.
   vectors (yahoo-pass, crossed, zero, missing, gate-fail, mid-vs-last swap,
   no-mid-no-last exclusion), paper buy/sell fills and the max-fill interaction,
   live-reject / paper-pass for both modeled sources, modeled selection.
+- `python3 dragonfly/test_phase1_universe.py` — offline: top-5 per sector,
+  a sector with fewer than 5 members, a missing sector or market cap (fail
+  closed, with the reason recorded), no backfill when an ADR, price, ADV,
+  bars or quote failure is in the top 5, and the weekly refresh and
+  staleness logic (a daily build doesn't reshuffle membership).
 - `python3 dragonfly/test_phase1_guards.py` — offline: lock guard (live /
   dead / unreadable PID, bounded wait), daemon windows and override, guarded
   fetchers, chains shortlist cap, security-type resolution and ADR exclusion
-  with backfill, cache-first bars.
+  (selector-level; the universe itself never backfills), cache-first bars.

@@ -1,20 +1,29 @@
-"""Build dragonfly/watchlist.json: the Phase 1 liquid watchlist (cap 200).
+"""Build dragonfly/watchlist.json: the Phase 1 watchlist.
 
-Candidates: S&P 500 + Nasdaq-100 constituents (Wikipedia tables, fetched at
-build time; or --candidates-file). Gates are the EXISTING universe gates from
-dragonfly/risk_math.py via `universe_reasons` (not re-typed here):
+Universe (dragonfly/ndx_universe.py): the 5 largest Nasdaq-100 names by market
+cap in each sector (Nasdaq-100 list `marketCap` + Nasdaq screener `sector`,
+both from api.nasdaq.com). Membership is persisted in dragonfly/universe.json
+and refreshed WEEKLY: reused until it is 7 or more days old, or on
+--refresh-universe. A daily build re-runs only the gates and quotes, so it
+cannot reshuffle membership. The S&P 500 pool is gone.
+
+NO BACKFILL. Gates run on the top-5 members only. A member that fails any gate
+leaves its slot empty; the #6 name in a sector is never pulled in. Every
+excluded member is recorded with its reason.
+
+Gates are the EXISTING universe gates from dragonfly/risk_math.py via
+`universe_reasons` (not re-typed here):
   price >= $10, 20-day ADV >= $25M, spread <= max($0.05, 0.15% of price).
 
 Order of work:
   0. Security type: only US listed common stock. Depositary receipts (ADRs,
      ADSs, NY registry shares) are excluded (depositary_receipt); a name whose
-     type cannot be determined is excluded (security_type_unknown). Excluded
-     names never reach the bars/spread steps, so later names by ADV backfill.
-  1. Bars for every remaining candidate (dragonfly/bars.py; one history call per name,
-     cached). Price and 20-day ADV gates run on every candidate.
-  2. Survivors are ranked by ADV, descending.
-  3. Quotes (Yahoo bid/ask/last) run down that ranked shortlist, in rank
-     order, until `cap` names are admitted. Two modes (--spread-mode):
+     type cannot be determined is excluded (security_type_unknown).
+  1. Bars for every remaining member (dragonfly/bars.py; one history call per
+     name, cached). Price and 20-day ADV gates.
+  2. Survivors are ordered by ADV, descending (the `rank` field).
+  3. Quotes (Yahoo bid/ask/last) for each survivor. `--cap` is only a harmless
+     upper bound now. Two modes (--spread-mode):
      modeled (default, PAPER ONLY, Jared 2026-09-25):
        - Yahoo bid/ask that passes the spread gate as-is -> used
          (spread_source "yahoo");
@@ -25,8 +34,7 @@ Order of work:
          mid_source "last_trade", provisional);
        - no usable mid and no usable last trade -> excluded
          (no_usable_mid_or_last). Fail closed.
-       Price gate (on the resolved mid) and ADV gate stay exact. Names ranked
-       below the cap -> beyond_cap.
+       Price gate (on the resolved mid) and ADV gate stay exact.
      exact (the strict gate, as before):
        - a name whose bid/ask fetch fails or is unusable -> excluded
          (spread_unavailable);
@@ -43,7 +51,7 @@ waits a bounded time then aborts while the site pipeline lock is held. A guard
 stop mid-run aborts the build and writes nothing. Bars are cache-first.
 
 Python 3.9 compatible. Run (market hours, outside daemon windows):
-  python3 dragonfly/build_watchlist.py [--cap 200] [--out dragonfly/watchlist.json]
+  python3 dragonfly/build_watchlist.py [--refresh-universe] [--spread-mode modeled|exact]
 """
 
 from __future__ import annotations
@@ -58,7 +66,6 @@ import urllib.request
 from concurrent.futures import ThreadPoolExecutor
 from datetime import datetime
 from decimal import Decimal
-from html.parser import HTMLParser
 from pathlib import Path
 from typing import Callable, Dict, List, Mapping, Optional, Sequence, Tuple
 
@@ -67,6 +74,7 @@ if __package__ in (None, ""):
 
 from dragonfly import bars as bars_mod  # noqa: E402
 from dragonfly import guards  # noqa: E402
+from dragonfly import ndx_universe  # noqa: E402
 from dragonfly.risk_math import (  # noqa: E402
     MAX_STOCK_SPREAD_ABS,
     MAX_STOCK_SPREAD_PCT,
@@ -82,20 +90,16 @@ from dragonfly.risk_math import (  # noqa: E402
 
 ROOT = Path(__file__).resolve().parents[1]
 DEFAULT_OUT = ROOT / "dragonfly" / "watchlist.json"
+DEFAULT_UNIVERSE = ROOT / "dragonfly" / "universe.json"
+# Harmless upper bound only: the universe is at most 5 names per NDX sector.
 DEFAULT_CAP = 200
-SOURCES = {
-    # S&P 500: Wikipedia constituents table (has GICS sector).
-    "sp500": "https://en.wikipedia.org/wiki/List_of_S%26P_500_companies",
-    # Nasdaq-100: Nasdaq's own index list (Wikipedia no longer carries the table).
-    "ndx100": "https://api.nasdaq.com/api/quote/list-type/nasdaq100",
-}
 # Security type ("US listed common stock"): Nasdaq's security descriptor.
 # 1) One screener call covering all US listings (name ends with the security
 #    type, e.g. "Apple Inc. Common Stock", "PDD Holdings Inc. American
 #    Depositary Shares"). 2) For names whose descriptor is blank there, the
 #    per-symbol Nasdaq quote info `stockType`. 3) Explicit denylist below.
 # Unknown after that -> excluded (security_type_unknown). Fail closed.
-SCREENER_URL = "https://api.nasdaq.com/api/screener/stocks?tableonly=true&download=true"
+SCREENER_URL = ndx_universe.SCREENER_URL
 QUOTE_INFO_URL = "https://api.nasdaq.com/api/quote/{symbol}/info?assetclass=stocks"
 # Belt-and-braces denylist of US-traded depositary receipts. Tightening only:
 # a name here is excluded even if a feed calls it common stock.
@@ -130,129 +134,12 @@ UA = "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML,
 Quote = Tuple[Optional[float], Optional[float]]  # (bid, ask)
 
 
-# ------------------------------------------------------------ constituents
-
-class _TableParser(HTMLParser):
-    """Collect the rows of every top-level `wikitable` on the page."""
-
-    def __init__(self) -> None:
-        super().__init__()
-        self.depth = 0
-        self.tables: List[Tuple[Optional[str], List[List[str]]]] = []
-        self._rows: Optional[List[List[str]]] = None
-        self._row: Optional[List[str]] = None
-        self._cell: Optional[List[str]] = None
-
-    def handle_starttag(self, tag, attrs):
-        a = dict(attrs)
-        if tag == "table":
-            if self.depth == 0 and "wikitable" in (a.get("class") or ""):
-                self.depth = 1
-                self._rows = []
-                self.tables.append((a.get("id"), self._rows))
-            elif self.depth:
-                self.depth += 1
-        elif self.depth == 1 and tag == "tr":
-            self._row = []
-        elif self.depth == 1 and tag in ("td", "th") and self._row is not None:
-            self._cell = []
-
-    def handle_endtag(self, tag):
-        if not self.depth:
-            return
-        if tag == "table":
-            self.depth -= 1
-            if self.depth == 0:
-                self._rows = None
-        elif self.depth == 1 and tag in ("td", "th") and self._cell is not None and self._row is not None:
-            self._row.append(" ".join("".join(self._cell).split()))
-            self._cell = None
-        elif self.depth == 1 and tag == "tr" and self._row is not None:
-            if self._row and self._rows is not None:
-                self._rows.append(self._row)
-            self._row = None
-
-    def handle_data(self, data):
-        if self._cell is not None:
-            self._cell.append(data)
-
-
-_SYMBOL_HEADERS = ("symbol", "ticker")
-
-
-def _pick_table(tables) -> List[List[str]]:
-    """Prefer id="constituents"; else the largest wikitable with a Symbol/Ticker header."""
-    for tid, rows in tables:
-        if tid == "constituents" and rows:
-            return rows
-    best: List[List[str]] = []
-    for _tid, rows in tables:
-        if rows and any(h.lower() in _SYMBOL_HEADERS for h in rows[0]) and len(rows) > len(best):
-            best = rows
-    return best
-
-
-def parse_constituents(html: str) -> List[Dict[str, Optional[str]]]:
-    p = _TableParser()
-    p.feed(html)
-    rows = _pick_table(p.tables)
-    if len(rows) < 51:
-        raise ValueError("constituents table not found")
-    header = [h.lower() for h in rows[0]]
-    sym_idx = next(i for i, h in enumerate(header) if h in _SYMBOL_HEADERS)
-    sec_idx = next((i for i, h in enumerate(header) if h in ("gics sector", "icb industry")), None)
-    name_idx = next((i for i, h in enumerate(header) if h in ("security", "company")), None)
-    out = []
-    for row in rows[1:]:
-        if len(row) != len(header):
-            continue
-        sym = row[sym_idx].strip().upper().replace(".", "-")
-        if not sym or not sym.replace("-", "").isalnum():
-            continue
-        out.append(
-            {
-                "ticker": sym,
-                "name": row[name_idx] if name_idx is not None else None,
-                "sector": row[sec_idx] if sec_idx is not None else None,
-            }
-        )
-    return out
-
-
-def parse_nasdaq_list(payload: Mapping) -> List[Dict[str, Optional[str]]]:
-    rows = ((payload.get("data") or {}).get("data") or {}).get("rows") or []
-    out = []
-    for r in rows:
-        sym = str(r.get("symbol") or "").strip().upper().replace(".", "-").replace("/", "-")
-        if sym and sym.replace("-", "").isalnum():
-            out.append({"ticker": sym, "name": r.get("companyName"), "sector": r.get("sector") or None})
-    if len(out) < 90:
-        raise ValueError(f"nasdaq-100 list too short ({len(out)})")
-    return out
-
+# ------------------------------------------------------------ http
 
 def _get(url: str, accept: str) -> bytes:
     req = urllib.request.Request(url, headers={"User-Agent": UA, "Accept": accept})
     with urllib.request.urlopen(req, timeout=30) as resp:
         return resp.read()
-
-
-def fetch_candidates() -> Tuple[List[Dict[str, Optional[str]]], Dict[str, int]]:
-    """Union of S&P 500 and Nasdaq-100. Raises if either source fails."""
-    lists = {
-        "sp500": parse_constituents(_get(SOURCES["sp500"], "text/html").decode("utf-8", "replace")),
-        "ndx100": parse_nasdaq_list(json.loads(_get(SOURCES["ndx100"], "application/json"))),
-    }
-    merged: Dict[str, Dict[str, Optional[str]]] = {}
-    counts: Dict[str, int] = {}
-    for key, rows in lists.items():
-        counts[key] = len(rows)
-        for r in rows:
-            prior = merged.get(r["ticker"])
-            if prior is None or (not prior.get("sector") and r.get("sector")):
-                merged[r["ticker"]] = r
-    counts["union"] = len(merged)
-    return sorted(merged.values(), key=lambda r: r["ticker"]), counts
 
 
 # ------------------------------------------------------------ security type
@@ -614,48 +501,134 @@ def gather_rows(
     return rows, errors
 
 
-def build(
-    cap: int,
-    out: Path,
-    candidates_file: Optional[Path],
-    bar_workers: int,
-    quote_workers: int,
+def run_gates(
+    universe: Mapping,
+    types: Mapping[str, Mapping],
+    quote_fn: Callable,
     spread_mode: str = "modeled",
+    cap: int = DEFAULT_CAP,
+    bar_workers: int = 8,
+    quote_workers: int = 6,
+    rows_fn: Callable = None,
 ) -> dict:
-    guards.preflight()  # refuse inside daemon windows; bounded wait on the pipeline lock
-    t0 = time.perf_counter()
-    if candidates_file:
-        candidates = json.loads(candidates_file.read_text())
-        counts = {"file": len(candidates), "union": len(candidates)}
-    else:
-        candidates, counts = fetch_candidates()
-    types = fetch_security_types([c["ticker"] for c in candidates])
-    eligible, type_excluded = apply_security_types(candidates, types)
-    t1 = time.perf_counter()
-    rows, bar_errors = gather_rows(eligible, workers=bar_workers)
-    t2 = time.perf_counter()
-    quote_fn = yahoo_quote_full if spread_mode == "modeled" else yahoo_quote
+    """Gates on the persisted top-N-per-sector members ONLY. No backfill: a
+    member that fails any gate leaves its slot empty, and nothing below the
+    top N in a sector is ever considered. Every excluded member is recorded."""
+    rows_fn = rows_fn or (lambda c: gather_rows(c, workers=bar_workers))
+    members = [dict(m) for m in universe.get("members") or []]
+    by_ticker = {m["ticker"]: m for m in members}
+    eligible, type_excluded = apply_security_types(members, types)
+    rows, bar_errors = rows_fn(eligible)
     result = select_watchlist(rows, quote_fn, cap=cap, workers=quote_workers, spread_mode=spread_mode)
-    t3 = time.perf_counter()
     for extra in (bar_errors, type_excluded):
         result["excluded"].update(extra)
         for reason in extra.values():
             result["excluded_summary"][reason] = result["excluded_summary"].get(reason, 0) + 1
     result["excluded_summary"] = dict(sorted(result["excluded_summary"].items()))
-    result["funnel"]["bars_unavailable"] = len(bar_errors)
+    for n in result["names"]:
+        m = by_ticker.get(n["ticker"]) or {}
+        n["sector"] = m.get("sector")
+        n["sector_rank"] = m.get("sector_rank")
+        n["market_cap"] = m.get("market_cap")
+    admitted = {n["ticker"]: n for n in result["names"]}
+    sectors: Dict[str, List[dict]] = {}
+    for sector, slots in (universe.get("sectors") or {}).items():
+        sectors[sector] = []
+        for m in slots:
+            n = admitted.get(m["ticker"])
+            entry = {"ticker": m["ticker"], "sector_rank": m["sector_rank"], "market_cap": m.get("market_cap")}
+            if n:
+                entry.update(status="admitted", spread_source=n.get("spread_source"), mid_source=n.get("mid_source"))
+            else:
+                entry.update(status="excluded", reason=result["excluded"].get(m["ticker"], "unknown"))
+            sectors[sector].append(entry)
+    excluded_members = {
+        t: {
+            "reason": r,
+            "sector": (by_ticker.get(t) or {}).get("sector"),
+            "sector_rank": (by_ticker.get(t) or {}).get("sector_rank"),
+            "market_cap": (by_ticker.get(t) or {}).get("market_cap"),
+        }
+        for t, r in sorted(result["excluded"].items())
+    }
+    result["sectors"] = sectors
+    result["excluded_members"] = excluded_members
+    result["type_excluded"] = type_excluded
+    result["bar_errors"] = bar_errors
     result["funnel"] = {
-        "candidates": len(candidates),
+        "universe_members": len(members),
         "security_type_excluded": len(type_excluded),
         "common_stock": len(eligible),
+        "bars_unavailable": len(bar_errors),
         **{k: v for k, v in result["funnel"].items() if k != "candidates"},
+        "empty_slots": len(members) - len(result["names"]),
     }
+    return result
+
+
+def _display_path(path: Path) -> str:
+    rp = Path(path).resolve()
+    try:
+        return str(rp.relative_to(ROOT))
+    except ValueError:
+        return str(rp)
+
+
+def _memo_get_json():
+    cache: Dict[str, Mapping] = {}
+
+    def get(url: str) -> Mapping:
+        if url not in cache:
+            cache[url] = _get_json(url)
+        return cache[url]
+
+    return get
+
+
+def build(
+    cap: int,
+    out: Path,
+    universe_path: Path,
+    bar_workers: int,
+    quote_workers: int,
+    spread_mode: str = "modeled",
+    refresh_universe: bool = False,
+) -> dict:
+    guards.preflight()  # refuse inside daemon windows; bounded wait on the pipeline lock
+    t0 = time.perf_counter()
+    get_json = _memo_get_json()  # one screener download serves sector + type lookups
+    now = guards._now_ct()
+    universe = ndx_universe.get_universe(universe_path, get_json, now, refresh=refresh_universe)
+    tickers = [m["ticker"] for m in universe["members"]]
+    types = fetch_security_types(tickers, get_json=get_json)
+    t1 = time.perf_counter()
+    quote_fn = yahoo_quote_full if spread_mode == "modeled" else yahoo_quote
+    result = run_gates(
+        universe, types, quote_fn, spread_mode=spread_mode, cap=cap, bar_workers=bar_workers, quote_workers=quote_workers
+    )
+    t2 = time.perf_counter()
+    type_excluded = result["type_excluded"]
     doc = {
-        "schema": "dragonfly.watchlist/1",
+        "schema": "dragonfly.watchlist/2",
         "as_of": datetime.now().astimezone().isoformat(timespec="seconds"),
         "source": "yahoo",
         "provisional": True,
+        "universe": {
+            "definition": f"top {universe['per_sector']} Nasdaq-100 names by market cap in each sector; no backfill",
+            "file": _display_path(universe_path),
+            "as_of": universe["as_of"],
+            "as_of_date": universe["as_of_date"],
+            "reused": universe["reused"],
+            "age_days": universe["age_days"],
+            "refresh": universe.get("refresh"),
+            "sector_field": universe.get("sector_field"),
+            "market_cap_field": universe.get("market_cap_field"),
+            "sector_sizes": universe.get("sector_sizes"),
+            "ranking_excluded": universe.get("excluded"),
+        },
         "cap": cap,
-        "rank_key": "adv20_dollars desc",
+        "cap_note": "harmless upper bound; the universe is at most 5 names per sector",
+        "rank_key": "adv20_dollars desc among admitted names (sector/sector_rank/market_cap carried per name)",
         "spread_mode": "modeled_mid_0.05 (paper only)" if spread_mode == "modeled" else "exact",
         "gates": {
             "min_price": str(MIN_PRICE),
@@ -663,20 +636,19 @@ def build(
             "adv_window_sessions": bars_mod.ADV_WINDOW,
             "max_spread": f"max({MAX_STOCK_SPREAD_ABS}, {MAX_STOCK_SPREAD_PCT} * mid)",
             "gate_source": "dragonfly.risk_math.universe_reasons",
+            "no_backfill": "a top-5 member that fails any gate leaves its slot empty; lower-ranked names are never pulled in",
             "spread_check": (
-                "Yahoo bid/ask on the ADV-ranked shortlist, in rank order, until the cap fills. "
-                "Names never spread-checked (not_spread_checked) or with a failed/unusable "
-                "bid/ask (spread_unavailable) are excluded, never admitted."
+                "Yahoo bid/ask for each universe member. Names with a failed/unusable bid/ask "
+                "(spread_unavailable) are excluded, never admitted."
             )
             if spread_mode == "exact"
             else (
-                "PAPER ONLY (Jared 2026-09-25). Yahoo bid/ask on the ADV-ranked shortlist, in rank order, "
-                "until the cap fills. A quote that passes the spread gate as-is is used (spread_source yahoo). "
-                "Otherwise a modeled $0.05 spread around the quote mid (modeled_mid_0.05), or around the last "
-                "trade when bid/ask give no usable mid or the mid is more than the gate width from last "
-                "(modeled_last_0.05). Excluded only with no usable mid and no usable last trade "
-                "(no_usable_mid_or_last). Names ranked below the cap: beyond_cap. Modeled names are "
-                "provisional and blocked from live approval (provisional_source_live)."
+                "PAPER ONLY (Jared 2026-09-25). Yahoo bid/ask/last for each universe member. A quote that "
+                "passes the spread gate as-is is used (spread_source yahoo). Otherwise a modeled $0.05 spread "
+                "around the quote mid (modeled_mid_0.05), or around the last trade when bid/ask give no usable "
+                "mid or the mid is more than the gate width from last (modeled_last_0.05). Excluded only with "
+                "no usable mid and no usable last trade (no_usable_mid_or_last). Modeled names are provisional "
+                "and blocked from live approval (provisional_source_live)."
             ),
             "not_halted": (
                 "not checked directly; a halted name has no live bid/ask and fails spread_unavailable"
@@ -694,17 +666,13 @@ def build(
         "security_type_exclusions": {
             t: {"reason": type_excluded[t], **(types.get(t) or {})} for t in sorted(type_excluded)
         },
-        "candidate_sources": {**SOURCES, "counts": counts} if not candidates_file else {"file": str(candidates_file), "counts": counts},
         "funnel": result["funnel"],
         "excluded_summary": result["excluded_summary"],
-        "timing_seconds": {
-            "candidates": round(t1 - t0, 2),
-            "bars": round(t2 - t1, 2),
-            "spread_quotes": round(t3 - t2, 2),
-        },
+        "timing_seconds": {"universe_and_types": round(t1 - t0, 2), "bars_and_quotes": round(t2 - t1, 2)},
+        "sectors": result["sectors"],
         "names": result["names"],
         "quote_fallbacks": result.get("fallbacks", {}),
-        "excluded": dict(sorted(result["excluded"].items())),
+        "excluded": result["excluded_members"],
     }
     out.write_text(json.dumps(doc, indent=1) + "\n", encoding="utf-8")
     return doc
@@ -712,9 +680,14 @@ def build(
 
 def main(argv: Sequence[str]) -> int:
     ap = argparse.ArgumentParser(description=__doc__.splitlines()[0])
-    ap.add_argument("--cap", type=int, default=DEFAULT_CAP)
+    ap.add_argument("--cap", type=int, default=DEFAULT_CAP, help="harmless upper bound (universe is <= 5 per sector)")
     ap.add_argument("--out", type=Path, default=DEFAULT_OUT)
-    ap.add_argument("--candidates-file", type=Path, default=None)
+    ap.add_argument("--universe-file", type=Path, default=DEFAULT_UNIVERSE)
+    ap.add_argument(
+        "--refresh-universe",
+        action="store_true",
+        help="re-fetch and re-rank NDX membership now (otherwise reused until 7+ days old)",
+    )
     ap.add_argument("--bar-workers", type=int, default=8)
     ap.add_argument("--quote-workers", type=int, default=6)
     ap.add_argument("--allow-daemon-window", action="store_true", help="explicit override of the daemon-window guard")
@@ -728,12 +701,22 @@ def main(argv: Sequence[str]) -> int:
     if args.allow_daemon_window:
         os.environ[guards.ENV_ALLOW_WINDOW] = "1"
     try:
-        doc = build(args.cap, args.out, args.candidates_file, args.bar_workers, args.quote_workers, args.spread_mode)
+        doc = build(
+            args.cap,
+            args.out,
+            args.universe_file,
+            args.bar_workers,
+            args.quote_workers,
+            args.spread_mode,
+            args.refresh_universe,
+        )
     except guards.GuardBlocked as exc:
         print(json.dumps({"blocked": exc.reason, "detail": exc.detail}))
         print("watchlist NOT written")
         return 2
     print(json.dumps({k: doc[k] for k in ("as_of", "funnel", "excluded_summary", "timing_seconds")}, indent=1))
+    u = doc["universe"]
+    print(f"universe as_of {u['as_of_date']} ({'reused' if u['reused'] else 'refreshed'}, age {u['age_days']}d)")
     print(f"wrote {args.out} ({len(doc['names'])} names)")
     return 0 if doc["names"] else 1
 
