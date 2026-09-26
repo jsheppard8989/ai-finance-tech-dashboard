@@ -1,5 +1,21 @@
 [
   {
+    "id": 523,
+    "podcast_name": "The a16z Show",
+    "episode_title": "Aaron Levie, Steven Sinofsky & Martin Casado: How Do You Secure a World of AI Agents?",
+    "episode_date": "2026-09-26",
+    "summary": "The episode discusses the critical balance between regulating AI and fostering innovation. Speakers emphasize the importance of security and governance in AI development, the shift towards probabilistic programming, and the decentralization of AI innovation from traditional labs to application-level developments. The conversation also highlights the need for robust access control as AI systems grow in complexity.",
+    "key_takeaways": [
+      "A speaker claims that regulating AI too early may prevent understanding of its risks and capabilities, leading to ineffective solutions.",
+      "Another speaker argues that AI labs must implement high standards of security and governance to ensure trust and facilitate adoption.",
+      "It is noted that the integration of probabilistic programming into AI systems allows for more nuanced decision-making based on likelihood rather than binary outcomes.",
+      "The discussion reveals that significant AI innovation is increasingly occurring outside traditional research labs, particularly in application development.",
+      "A claim is made that as AI systems become more complex, there is a growing need for detailed access controls to manage interactions with sensitive data."
+    ],
+    "investment_thesis": "Regulating AI too early may hinder innovation and the development of effective safety measures.",
+    "key_tickers": null
+  },
+  {
     "id": 522,
     "podcast_name": "All-In with Chamath, Jason, Sacks & Friedberg",
     "episode_title": "Anthropic IPO at Risk, Meta's Muse Pop, Token Prices Fall, Open Source Gains Share, Alignment Fails",
