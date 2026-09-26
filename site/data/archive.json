@@ -1,6 +1,25 @@
 {
   "insights": [
     {
+      "id": 536,
+      "title": "Anthropic IPO at Risk, Meta's Muse Pop, Token Prices Fall, Open Source Gains Share, Alignment Fails",
+      "source_type": "podcast",
+      "source_name": "All-In with Chamath, Jason, Sacks & Friedberg",
+      "source_date": "2026-09-26",
+      "summary": "The podcast delves into the critical responsibility that companies developing AI technologies must embrace, emphasizing the importance of accountability and product safety. It discusses the competitive dynamics between open-source and proprietary AI models, highlighting the potential for open-source solutions to democratize access and disrupt established players. Ethical considerations surrounding AI alignment and the political ramifications of regulation are also examined, underscoring the need for transparency in AI development to mitigate societal risks.",
+      "key_takeaway": "Investing in companies that prioritize ethical AI development and leverage open-source models presents a significant opportunity in the evolving AI landscape.",
+      "tickers_mentioned": [
+        "NVDA"
+      ],
+      "sentiment": "neutral",
+      "display_on_main": 0,
+      "display_order": 0,
+      "added_date": "2026-09-25",
+      "archived_date": null,
+      "archived_reason": null,
+      "podcast_episode_id": 522
+    },
+    {
       "id": 534,
       "title": "Runway\u2019s WorldPrompt and the Engineering of Real-Time Worlds",
       "source_type": "podcast",
@@ -37,6 +56,25 @@
       "archived_date": null,
       "archived_reason": null,
       "podcast_episode_id": 520
+    },
+    {
+      "id": 537,
+      "title": "OpenRouter: from Seed to Stripe \u2014 with OpenRouter\u2019s Alex Atallah & AMP\u2019s Anjney Midha",
+      "source_type": "podcast",
+      "source_name": "Latent Space: The AI Engineer Podcast",
+      "source_date": "2026-09-25",
+      "summary": "The podcast discusses the emergence of OpenRouter as a neutral marketplace for AI models, highlighting the significant cost reductions in model training and deployment. With the rise of specialized AI models and the importance of user experience, the conversation emphasizes the evolving landscape of AI applications and the need for robust security measures in AI transactions. These insights present a compelling case for investors to explore opportunities in AI marketplaces and low-cost model training solutions.",
+      "key_takeaway": "Investors should focus on AI model marketplaces and low-cost training solutions as key areas for growth and innovation in the AI sector.",
+      "tickers_mentioned": [
+        "NVDA"
+      ],
+      "sentiment": "bullish",
+      "display_on_main": 0,
+      "display_order": 0,
+      "added_date": "2026-09-25",
+      "archived_date": null,
+      "archived_reason": null,
+      "podcast_episode_id": 521
     },
     {
       "id": 531,
@@ -10340,6 +10378,24 @@
       "last_mentioned_speaker": "Peter Diamandis (hosts)"
     },
     {
+      "id": 289,
+      "term": "Personal AI Agents",
+      "description": "Tools designed to assist users in managing daily tasks and enhancing personal well-being through automation and personalized recommendations.",
+      "first_detected_date": "2026-09-19",
+      "last_mentioned_date": "2026-09-26",
+      "mention_count": 2,
+      "source_podcasts": null,
+      "status": "active",
+      "investment_implications": "Investing in personal AI solutions can capitalize on the growing demand for user-centric technology.",
+      "display_on_main": 0,
+      "archived_date": null,
+      "archived_reason": null,
+      "first_detected_episode_id": 498,
+      "first_detected_speaker": "Josh Elman",
+      "last_mentioned_episode_id": 522,
+      "last_mentioned_speaker": "Chamath Palihapitiya, Jason Calacanis (hosts)"
+    },
+    {
       "id": 288,
       "term": "Real-Time Video Generation",
       "description": "The capability to generate video content instantly, allowing for immediate feedback and iteration in creative processes.",
@@ -10416,8 +10472,8 @@
       "term": "e-values",
       "description": "A measure of the value of technology, particularly in the context of AI and healthcare, which is used to assess the pricing and usefulness of different models and technologies.",
       "first_detected_date": "2026-08-24",
-      "last_mentioned_date": "2026-09-17",
-      "mention_count": 7,
+      "last_mentioned_date": "2026-09-25",
+      "mention_count": 8,
       "source_podcasts": null,
       "status": "active",
       "investment_implications": "Understanding e-values is crucial for investors to differentiate between valuable and valueless technology in the AI market.",
@@ -10426,7 +10482,7 @@
       "archived_reason": null,
       "first_detected_episode_id": 421,
       "first_detected_speaker": "NG ZDN",
-      "last_mentioned_episode_id": 491,
+      "last_mentioned_episode_id": 521,
       "last_mentioned_speaker": "Dwarkesh Patel (hosts)"
     },
     {
@@ -10956,8 +11012,8 @@
       "term": "K-shaped recovery",
       "description": "An economic recovery where wealth concentration increases, benefiting the wealthy while leaving the bottom half of the population behind.",
       "first_detected_date": "2026-06-10",
-      "last_mentioned_date": "2026-07-11",
-      "mention_count": 2,
+      "last_mentioned_date": "2026-09-26",
+      "mention_count": 3,
       "source_podcasts": null,
       "status": "active",
       "investment_implications": "Investors should consider the impact of wealth disparity on consumer spending and economic growth.",
@@ -10966,7 +11022,7 @@
       "archived_reason": null,
       "first_detected_episode_id": 279,
       "first_detected_speaker": "Chamath Palihapitiya, Jason Calacanis (hosts)",
-      "last_mentioned_episode_id": 342,
+      "last_mentioned_episode_id": 522,
       "last_mentioned_speaker": "Chamath Palihapitiya, Jason Calacanis (hosts)"
     },
     {
@@ -11424,8 +11480,8 @@
       "term": "AGI",
       "description": "AGI refers to Artificial General Intelligence, a type of AI that can understand, learn, and apply intelligence across a wide range of tasks, similar to human cognitive abilities.",
       "first_detected_date": "2026-05-07",
-      "last_mentioned_date": "2026-09-21",
-      "mention_count": 101,
+      "last_mentioned_date": "2026-09-25",
+      "mention_count": 102,
       "source_podcasts": null,
       "status": "active",
       "investment_implications": "Investors should focus on companies developing AGI technologies as they are likely to drive significant industry transformations.",
@@ -11434,7 +11490,7 @@
       "archived_reason": null,
       "first_detected_episode_id": 204,
       "first_detected_speaker": "Demis Hassabis",
-      "last_mentioned_episode_id": 505,
+      "last_mentioned_episode_id": 521,
       "last_mentioned_speaker": "Diogo"
     },
     {
@@ -11926,20 +11982,20 @@
     {
       "id": 78,
       "term": "Open-Source AI Models",
-      "description": "Collaborative frameworks that allow researchers and developers to share and improve AI technologies collectively.",
+      "description": "AI models that are freely available for use and modification, promoting accessibility and competition in the AI space.",
       "first_detected_date": "2026-03-29",
-      "last_mentioned_date": "2026-09-25",
-      "mention_count": 26,
+      "last_mentioned_date": "2026-09-26",
+      "mention_count": 27,
       "source_podcasts": null,
       "status": "active",
-      "investment_implications": "This matters for capital allocation as it fosters innovation and reduces barriers to entry in the AI sector.",
+      "investment_implications": "The rise of open-source models could disrupt established proprietary players, presenting new investment opportunities.",
       "display_on_main": 0,
       "archived_date": null,
       "archived_reason": null,
       "first_detected_episode_id": null,
       "first_detected_speaker": null,
-      "last_mentioned_episode_id": 519,
-      "last_mentioned_speaker": "Host Name (hosts)"
+      "last_mentioned_episode_id": 522,
+      "last_mentioned_speaker": "Chamath Palihapitiya, Jason Calacanis (hosts)"
     },
     {
       "id": 79,
@@ -12504,8 +12560,8 @@
       "term": "AI Agents",
       "description": "Autonomous systems that can perform tasks and make decisions within organizations, potentially reducing bureaucratic overhead.",
       "first_detected_date": "2026-02-28",
-      "last_mentioned_date": "2026-09-23",
-      "mention_count": 100,
+      "last_mentioned_date": "2026-09-26",
+      "mention_count": 102,
       "source_podcasts": null,
       "status": "active",
       "investment_implications": "Companies leveraging AI agents may achieve greater operational efficiency and innovation.",
@@ -12514,8 +12570,8 @@
       "archived_reason": null,
       "first_detected_episode_id": 31,
       "first_detected_speaker": null,
-      "last_mentioned_episode_id": 512,
-      "last_mentioned_speaker": "Amjag Masad"
+      "last_mentioned_episode_id": 522,
+      "last_mentioned_speaker": "Chamath Palihapitiya, Jason Calacanis (hosts)"
     },
     {
       "id": 38,
