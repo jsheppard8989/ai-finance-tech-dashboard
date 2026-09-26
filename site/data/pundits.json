@@ -448,7 +448,7 @@
     "last_podcast_name": "All-In with Chamath, Jason, Sacks & Friedberg",
     "last_episode_date": "2026-09-18",
     "mention_score": 2,
-    "mention_score_decayed": 1.7,
+    "mention_score_decayed": 1.66,
     "last_main_idea": "Investing in companies involved in aerospace, nuclear technology, and robotics could yield significant returns as NASA advances its lunar and deep space missions.",
     "last_proof_cite": "All-In with Chamath, Jason, Sacks & Friedberg \u2022 2026-09-18 \u2022 Jared Isaacman: A New Era for NASA and American Space Exploration",
     "last_proof_snippet": "Ignition sequenced star. It's good to have an abeater and astronaut in charge. The new NASA Administrator. NASA's still hot. Human climate will not be contained to planet Earth indefinitely. In the next giant leap capabilities that's nuclea",
@@ -490,71 +490,6 @@
       ]
     },
     "net_worth": "$1.40B"
-  },
-  {
-    "id": 74,
-    "name": "Travis Kalanick",
-    "slug": "travis-kalanick",
-    "bio": "Entrepreneur and co-founder of Uber, currently working on a new venture focused on industrial AI.",
-    "known_for": "His role in the founding and growth of Uber, and now his new venture in industrial AI.",
-    "net_worth_usd": 3600000000.0,
-    "net_worth_source": "https://finance.yahoo.com/news/uber-founder-travis-kalanick-becomes-201906670.html",
-    "net_worth_updated_at": "2026-03-19T15:49:00.323498",
-    "voice_tone": "Confident and assertive",
-    "voice_style": "Direct and solution-oriented",
-    "voice_delivery_notes": "Paced with emphasis on key points",
-    "voice_profile_updated_at": "2026-08-14 18:36:52",
-    "last_seen": "2026-08-14 18:36:52",
-    "last_episode_title": "Ben Horowitz and Travis Kalanick on Building Again",
-    "last_podcast_name": "The a16z Show",
-    "last_episode_date": "2026-08-14",
-    "mention_score": 4,
-    "mention_score_decayed": 1.52,
-    "last_main_idea": "Industrial AI has the potential to revolutionize major industries, akin to the second industrial revolution.",
-    "last_proof_cite": "The a16z Show \u2022 2026-08-14 \u2022 Ben Horowitz and Travis Kalanick on Building Again",
-    "last_proof_snippet": "Hey Travis is back, but I've actually been working for eight years, I just haven't been talking about it. We're competing for the next industrial revolution. People said, are you pissed off about Uber? Does that grind you when you fall in l",
-    "supporting_takeaway": "Fostering a culture of open debate and pushing for the best ideas can lead to superior outcomes in business.",
-    "grokipedia_url": null,
-    "grokipedia_fetched_at": "2026-07-22T23:37:24.531678",
-    "pundit_profile": {
-      "source": "llm",
-      "source_model": "moonshot:moonshot-v1-8k",
-      "source_url": "",
-      "page_title": "Travis Kalanick",
-      "fetched_at": "2026-07-23T04:37:24.531563+00:00",
-      "cliff_notes": "Travis Kalanick is an American entrepreneur who has made a significant impact on the tech industry with his innovative and disruptive business models. He co-founded Uber, a ride-sharing company that revolutionized urban transportation and challenged traditional taxi services. After leaving Uber, Kalanick founded CloudKitchens, a company that acquires and leases commercial kitchen spaces to food delivery businesses. His aggressive business tactics and relentless focus on growth have earned him both admiration and criticism. Despite facing lawsuits and controversies, Kalanick remains a prominent figure in the tech world, known for his ability to create companies that transform entire sectors.",
-      "derived": {
-        "former_positions": "Co-founder and CEO of Uber; CEO of CloudKitchens",
-        "education": "Bachelor's degree in Computer Engineering from the University of California, Los Angeles (UCLA)"
-      },
-      "infobox": {
-        "Born": "1976",
-        "Nationality": "American"
-      },
-      "lead_paragraphs": [
-        "Travis Kalanick is an American entrepreneur who has made a significant impact on the tech industry with his innovative and disruptive business models. He co-founded Uber, a ride-sharing company that revolutionized urban transportation and challenged traditional taxi services. After leaving Uber, Kalanick founded CloudKitchens, a company that acquires and leases commercial kitchen spaces to food delivery businesses.",
-        "His aggressive business tactics and relentless focus on growth have earned him both admiration and criticism. Despite facing lawsuits and controversies, Kalanick remains a prominent figure in the tech world, known for his ability to create companies that transform entire sectors."
-      ],
-      "sections": [
-        {
-          "heading": "Uber Co-Founder",
-          "body": "Travis Kalanick co-founded Uber in 2009, which went on to become a global ride-sharing giant and disrupt the traditional taxi industry."
-        },
-        {
-          "heading": "CloudKitchens Founder",
-          "body": "Kalanick founded CloudKitchens, a company that provides commercial kitchen spaces for food delivery businesses, aiming to revolutionize the food delivery industry."
-        },
-        {
-          "heading": "Controversies",
-          "body": "Throughout his career, Kalanick has faced various controversies and lawsuits, including those related to Uber's aggressive business tactics and workplace culture."
-        },
-        {
-          "heading": "Innovation and Disruption",
-          "body": "Kalanick is known for his ability to create innovative business models that disrupt traditional industries, as evidenced by Uber and CloudKitchens."
-        }
-      ]
-    },
-    "net_worth": "$3.60B"
   },
   {
     "id": 78,
@@ -672,6 +607,71 @@
         }
       ]
     }
+  },
+  {
+    "id": 74,
+    "name": "Travis Kalanick",
+    "slug": "travis-kalanick",
+    "bio": "Entrepreneur and co-founder of Uber, currently working on a new venture focused on industrial AI.",
+    "known_for": "His role in the founding and growth of Uber, and now his new venture in industrial AI.",
+    "net_worth_usd": 3600000000.0,
+    "net_worth_source": "https://finance.yahoo.com/news/uber-founder-travis-kalanick-becomes-201906670.html",
+    "net_worth_updated_at": "2026-03-19T15:49:00.323498",
+    "voice_tone": "Confident and assertive",
+    "voice_style": "Direct and solution-oriented",
+    "voice_delivery_notes": "Paced with emphasis on key points",
+    "voice_profile_updated_at": "2026-08-14 18:36:52",
+    "last_seen": "2026-08-14 18:36:52",
+    "last_episode_title": "Ben Horowitz and Travis Kalanick on Building Again",
+    "last_podcast_name": "The a16z Show",
+    "last_episode_date": "2026-08-14",
+    "mention_score": 4,
+    "mention_score_decayed": 1.48,
+    "last_main_idea": "Industrial AI has the potential to revolutionize major industries, akin to the second industrial revolution.",
+    "last_proof_cite": "The a16z Show \u2022 2026-08-14 \u2022 Ben Horowitz and Travis Kalanick on Building Again",
+    "last_proof_snippet": "Hey Travis is back, but I've actually been working for eight years, I just haven't been talking about it. We're competing for the next industrial revolution. People said, are you pissed off about Uber? Does that grind you when you fall in l",
+    "supporting_takeaway": "Fostering a culture of open debate and pushing for the best ideas can lead to superior outcomes in business.",
+    "grokipedia_url": null,
+    "grokipedia_fetched_at": "2026-07-22T23:37:24.531678",
+    "pundit_profile": {
+      "source": "llm",
+      "source_model": "moonshot:moonshot-v1-8k",
+      "source_url": "",
+      "page_title": "Travis Kalanick",
+      "fetched_at": "2026-07-23T04:37:24.531563+00:00",
+      "cliff_notes": "Travis Kalanick is an American entrepreneur who has made a significant impact on the tech industry with his innovative and disruptive business models. He co-founded Uber, a ride-sharing company that revolutionized urban transportation and challenged traditional taxi services. After leaving Uber, Kalanick founded CloudKitchens, a company that acquires and leases commercial kitchen spaces to food delivery businesses. His aggressive business tactics and relentless focus on growth have earned him both admiration and criticism. Despite facing lawsuits and controversies, Kalanick remains a prominent figure in the tech world, known for his ability to create companies that transform entire sectors.",
+      "derived": {
+        "former_positions": "Co-founder and CEO of Uber; CEO of CloudKitchens",
+        "education": "Bachelor's degree in Computer Engineering from the University of California, Los Angeles (UCLA)"
+      },
+      "infobox": {
+        "Born": "1976",
+        "Nationality": "American"
+      },
+      "lead_paragraphs": [
+        "Travis Kalanick is an American entrepreneur who has made a significant impact on the tech industry with his innovative and disruptive business models. He co-founded Uber, a ride-sharing company that revolutionized urban transportation and challenged traditional taxi services. After leaving Uber, Kalanick founded CloudKitchens, a company that acquires and leases commercial kitchen spaces to food delivery businesses.",
+        "His aggressive business tactics and relentless focus on growth have earned him both admiration and criticism. Despite facing lawsuits and controversies, Kalanick remains a prominent figure in the tech world, known for his ability to create companies that transform entire sectors."
+      ],
+      "sections": [
+        {
+          "heading": "Uber Co-Founder",
+          "body": "Travis Kalanick co-founded Uber in 2009, which went on to become a global ride-sharing giant and disrupt the traditional taxi industry."
+        },
+        {
+          "heading": "CloudKitchens Founder",
+          "body": "Kalanick founded CloudKitchens, a company that provides commercial kitchen spaces for food delivery businesses, aiming to revolutionize the food delivery industry."
+        },
+        {
+          "heading": "Controversies",
+          "body": "Throughout his career, Kalanick has faced various controversies and lawsuits, including those related to Uber's aggressive business tactics and workplace culture."
+        },
+        {
+          "heading": "Innovation and Disruption",
+          "body": "Kalanick is known for his ability to create innovative business models that disrupt traditional industries, as evidenced by Uber and CloudKitchens."
+        }
+      ]
+    },
+    "net_worth": "$3.60B"
   },
   {
     "id": 148,
@@ -1562,7 +1562,7 @@
     "last_podcast_name": "Monetary Matters with Jack Farley",
     "last_episode_date": "2026-09-19",
     "mention_score": 1,
-    "mention_score_decayed": 0.87,
+    "mention_score_decayed": 0.85,
     "last_main_idea": "Rising Treasury yields compress equity risk premiums, necessitating a reassessment of equity valuations.",
     "last_proof_cite": "Monetary Matters with Jack Farley \u2022 2026-09-19 \u2022 Why The 30-Year Treasury Lost Its Biggest Buyers | David Busch on Why High Yields Are Attractive Right Now",
     "last_proof_snippet": "Today, I'm joined by David Bush, Chief Investment Officer of Trajan Wealth, David. Welcome to the monetary matters. Jack, thank you so much for having me. It's truly a pleasure to join you. And as I said in our communication back and forth",
@@ -1655,67 +1655,6 @@
         }
       ]
     }
-  },
-  {
-    "id": 133,
-    "name": "Chris Dixon",
-    "slug": "chris-dixon",
-    "bio": "Chris Dixon is a general partner at a16z, a venture capital firm. He is known for his extensive writing and thought leadership on blockchain technology and its potential to disrupt traditional financial systems.",
-    "known_for": "His insights into blockchain technology and its implications for finance and security.",
-    "net_worth_usd": 500000000.0,
-    "net_worth_source": "https://blockchainreporter.net/net-worth/chris-dixon/",
-    "net_worth_updated_at": "2026-03-28T22:05:07.528099",
-    "voice_tone": "Educative and visionary",
-    "voice_style": "Explains blockchain's potential in a simple, relatable manner",
-    "voice_delivery_notes": "Clear and concise, with a focus on the future implications of blockchain",
-    "voice_profile_updated_at": "2026-08-01 18:36:59",
-    "last_seen": "2026-08-01 18:36:59",
-    "last_episode_title": "Marc Andreessen and Chris Dixon: What\u2019s at Stake in Crypto Regulation",
-    "last_podcast_name": "The a16z Show",
-    "last_episode_date": "2026-08-01",
-    "mention_score": 3,
-    "mention_score_decayed": 0.84,
-    "last_main_idea": "Regulatory clarity through acts like the Clarity Act is essential for the next phase of blockchain adoption and could unlock significant investment opportunities in stablecoins and tokenized assets.",
-    "last_proof_cite": "The a16z Show \u2022 2026-08-01 \u2022 Marc Andreessen and Chris Dixon: What\u2019s at Stake in Crypto Regulation",
-    "last_proof_snippet": "Stable coins are tokenized stocks or dollars on blockchain. Rivals the size of the Visa network. Trillings the dollar is transacted. If you have a dollar of that stable coin, there is a dollar sitting in the bank. And that's why the Clarity",
-    "supporting_takeaway": "The Clarity Act is crucial for providing regulatory clarity and could shape the future of financial infrastructure.",
-    "grokipedia_url": null,
-    "grokipedia_fetched_at": "2026-08-01T13:38:13.301865",
-    "pundit_profile": {
-      "source": "llm",
-      "source_model": "moonshot:moonshot-v1-8k",
-      "source_url": "",
-      "page_title": "Chris Dixon",
-      "fetched_at": "2026-08-01T18:38:13.301526+00:00",
-      "cliff_notes": "Chris Dixon is a prominent figure in the technology and venture capital industry, particularly known for his expertise in blockchain technology. As a general partner at a16z, he has been instrumental in shaping the firm's investment strategy in the blockchain space. Dixon's writings have been influential in understanding the potential of blockchain to disrupt traditional financial systems and the broader implications for security and regulation. His perspectives on the Clarity Act and its potential impact on the blockchain industry highlight his deep understanding of the intersection between technology, finance, and policy.",
-      "derived": {
-        "current_role": "General Partner at a16z",
-        "books_or_works": "Blockchain book"
-      },
-      "infobox": {
-        "Born": "",
-        "Nationality": ""
-      },
-      "lead_paragraphs": [
-        "Chris Dixon is a prominent figure in the technology and venture capital industry, particularly known for his expertise in blockchain technology. As a general partner at a16z, he has been instrumental in shaping the firm's investment strategy in the blockchain space. Dixon's writings have been influential in understanding the potential of blockchain to disrupt traditional financial systems and the broader implications for security and regulation.",
-        "His perspectives on the Clarity Act and its potential impact on the blockchain industry highlight his deep understanding of the intersection between technology, finance, and policy."
-      ],
-      "sections": [
-        {
-          "heading": "Blockchain Expertise",
-          "body": "Chris Dixon is recognized for his in-depth knowledge of blockchain technology and its potential to revolutionize finance and other industries."
-        },
-        {
-          "heading": "Venture Capital",
-          "body": "As a general partner at a16z, Dixon plays a key role in identifying and investing in innovative startups, particularly those in the blockchain space."
-        },
-        {
-          "heading": "Regulatory Insights",
-          "body": "Dixon has been vocal about the need for clear and thoughtful regulation of blockchain technology, as evidenced by his commentary on the Clarity Act and its implications for the industry."
-        }
-      ]
-    },
-    "net_worth": "$500.0M"
   },
   {
     "id": 466,
@@ -1889,6 +1828,67 @@
         }
       ]
     }
+  },
+  {
+    "id": 133,
+    "name": "Chris Dixon",
+    "slug": "chris-dixon",
+    "bio": "Chris Dixon is a general partner at a16z, a venture capital firm. He is known for his extensive writing and thought leadership on blockchain technology and its potential to disrupt traditional financial systems.",
+    "known_for": "His insights into blockchain technology and its implications for finance and security.",
+    "net_worth_usd": 500000000.0,
+    "net_worth_source": "https://blockchainreporter.net/net-worth/chris-dixon/",
+    "net_worth_updated_at": "2026-03-28T22:05:07.528099",
+    "voice_tone": "Educative and visionary",
+    "voice_style": "Explains blockchain's potential in a simple, relatable manner",
+    "voice_delivery_notes": "Clear and concise, with a focus on the future implications of blockchain",
+    "voice_profile_updated_at": "2026-08-01 18:36:59",
+    "last_seen": "2026-08-01 18:36:59",
+    "last_episode_title": "Marc Andreessen and Chris Dixon: What\u2019s at Stake in Crypto Regulation",
+    "last_podcast_name": "The a16z Show",
+    "last_episode_date": "2026-08-01",
+    "mention_score": 3,
+    "mention_score_decayed": 0.82,
+    "last_main_idea": "Regulatory clarity through acts like the Clarity Act is essential for the next phase of blockchain adoption and could unlock significant investment opportunities in stablecoins and tokenized assets.",
+    "last_proof_cite": "The a16z Show \u2022 2026-08-01 \u2022 Marc Andreessen and Chris Dixon: What\u2019s at Stake in Crypto Regulation",
+    "last_proof_snippet": "Stable coins are tokenized stocks or dollars on blockchain. Rivals the size of the Visa network. Trillings the dollar is transacted. If you have a dollar of that stable coin, there is a dollar sitting in the bank. And that's why the Clarity",
+    "supporting_takeaway": "The Clarity Act is crucial for providing regulatory clarity and could shape the future of financial infrastructure.",
+    "grokipedia_url": null,
+    "grokipedia_fetched_at": "2026-08-01T13:38:13.301865",
+    "pundit_profile": {
+      "source": "llm",
+      "source_model": "moonshot:moonshot-v1-8k",
+      "source_url": "",
+      "page_title": "Chris Dixon",
+      "fetched_at": "2026-08-01T18:38:13.301526+00:00",
+      "cliff_notes": "Chris Dixon is a prominent figure in the technology and venture capital industry, particularly known for his expertise in blockchain technology. As a general partner at a16z, he has been instrumental in shaping the firm's investment strategy in the blockchain space. Dixon's writings have been influential in understanding the potential of blockchain to disrupt traditional financial systems and the broader implications for security and regulation. His perspectives on the Clarity Act and its potential impact on the blockchain industry highlight his deep understanding of the intersection between technology, finance, and policy.",
+      "derived": {
+        "current_role": "General Partner at a16z",
+        "books_or_works": "Blockchain book"
+      },
+      "infobox": {
+        "Born": "",
+        "Nationality": ""
+      },
+      "lead_paragraphs": [
+        "Chris Dixon is a prominent figure in the technology and venture capital industry, particularly known for his expertise in blockchain technology. As a general partner at a16z, he has been instrumental in shaping the firm's investment strategy in the blockchain space. Dixon's writings have been influential in understanding the potential of blockchain to disrupt traditional financial systems and the broader implications for security and regulation.",
+        "His perspectives on the Clarity Act and its potential impact on the blockchain industry highlight his deep understanding of the intersection between technology, finance, and policy."
+      ],
+      "sections": [
+        {
+          "heading": "Blockchain Expertise",
+          "body": "Chris Dixon is recognized for his in-depth knowledge of blockchain technology and its potential to revolutionize finance and other industries."
+        },
+        {
+          "heading": "Venture Capital",
+          "body": "As a general partner at a16z, Dixon plays a key role in identifying and investing in innovative startups, particularly those in the blockchain space."
+        },
+        {
+          "heading": "Regulatory Insights",
+          "body": "Dixon has been vocal about the need for clear and thoughtful regulation of blockchain technology, as evidenced by his commentary on the Clarity Act and its implications for the industry."
+        }
+      ]
+    },
+    "net_worth": "$500.0M"
   },
   {
     "id": 462,
@@ -4156,7 +4156,7 @@
     "last_podcast_name": "Monetary Matters with Jack Farley",
     "last_episode_date": "2026-08-26",
     "mention_score": 1,
-    "mention_score_decayed": 0.5,
+    "mention_score_decayed": 0.49,
     "last_main_idea": "Warren Pies suggests that despite the current macro risks, the AI sector remains a key area for investment, with all roads leading back to AI trades.",
     "last_proof_cite": "Monetary Matters with Jack Farley \u2022 2026-08-26 \u2022 Time to Reduce Equity Risk: Why Underappreciated Macro Risks Could Derail the Bull Market | Warren Pies",
     "last_proof_snippet": "If I knew with certainly the Fed was going to hike in September, I'd be underweight stocks right now. It's not that I would say I'm straight up bearish here. I just think the risks are too excited. We highlighted the window from August 15th",
@@ -4220,7 +4220,7 @@
     "last_podcast_name": "Latent Space: The AI Engineer Podcast",
     "last_episode_date": "2026-08-26",
     "mention_score": 1,
-    "mention_score_decayed": 0.5,
+    "mention_score_decayed": 0.49,
     "last_main_idea": "Investing in AI technology that enhances weather and climate modeling can lead to significant advancements in forecasting accuracy and speed, potentially revolutionizing the field and creating new investment opportunities in AI applications for science.",
     "last_proof_cite": "Latent Space: The AI Engineer Podcast \u2022 2026-08-26 \u2022 \ud83d\udd2c\u201cWe have foundation models for language, not for physics\u201d \u2014 Anima Anandkumar, Bren Professor of Computing",
     "last_proof_snippet": "So we, you know, set out looking for interesting examples and one of them was like weather modeling because the weather data is open source and so given that the data was there we were like, okay, let's just go try it. Right. And that's the",
@@ -4660,7 +4660,7 @@
     "last_podcast_name": "Monetary Matters with Jack Farley",
     "last_episode_date": "2026-08-18",
     "mention_score": 1,
-    "mention_score_decayed": 0.42,
+    "mention_score_decayed": 0.41,
     "last_main_idea": "AUA Private Equity Partners focuses on operational improvements in family-run businesses within the food, beverage, pet wellness, and co-manufacturing sectors, targeting a $1.3 to $1.4 trillion market opportunity.",
     "last_proof_cite": "Monetary Matters with Jack Farley \u2022 2026-08-18 \u2022 Ex-Goya COO on the $1.4 Trillion Family Business Opportunity in Three Consumer Sectors | Andy Unanue",
     "last_proof_snippet": "Our economy is driven by family run businesses, 70 plus percent of the GDP is generated through family run businesses. Then the food beverage pack wellness sector, it's a 1.3, 1.4 trillion dollar market opportunity. So it's a big market. I'",
@@ -6508,7 +6508,7 @@
     "last_podcast_name": "Monetary Matters with Jack Farley",
     "last_episode_date": "2026-08-04",
     "mention_score": 1,
-    "mention_score_decayed": 0.3,
+    "mention_score_decayed": 0.29,
     "last_main_idea": "The S&P 500's performance over the next two years will be largely determined by the behavior of extrapolators and corporate equity activity, rather than fundamental earnings growth.",
     "last_proof_cite": "Monetary Matters with Jack Farley \u2022 2026-08-04 \u2022 Victor Haghani on Death of Random Walk, and Passive, Buybacks, and LTCM",
     "last_proof_snippet": "So I feel like we can talk about LTCM. We can talk about, I mean, let's not do that. That's so boring. I mean, everybody's sick of LTCM. Yeah. What do you think the real lessons are? You know, I think the biggest lessons are about personal",
@@ -6632,7 +6632,7 @@
     "last_podcast_name": "The a16z Show",
     "last_episode_date": "2026-08-01",
     "mention_score": 1,
-    "mention_score_decayed": 0.28,
+    "mention_score_decayed": 0.27,
     "last_main_idea": "Regulatory clarity through acts like the Clarity Act is essential for the next phase of blockchain adoption and could unlock significant investment opportunities in stablecoins and tokenized assets.",
     "last_proof_cite": "The a16z Show \u2022 2026-08-01 \u2022 Marc Andreessen and Chris Dixon: What\u2019s at Stake in Crypto Regulation",
     "last_proof_snippet": "Stable coins are tokenized stocks or dollars on blockchain. Rivals the size of the Visa network. Trillings the dollar is transacted. If you have a dollar of that stable coin, there is a dollar sitting in the bank. And that's why the Clarity",
@@ -7670,7 +7670,7 @@
     "last_podcast_name": "The a16z Show",
     "last_episode_date": "2026-07-21",
     "mention_score": 1,
-    "mention_score_decayed": 0.22,
+    "mention_score_decayed": 0.21,
     "last_main_idea": "Investing in physical AI and autonomous systems could lead to significant returns as these technologies transform the physical economy and unlock new productivity gains.",
     "last_proof_cite": "The a16z Show \u2022 2026-07-21 \u2022 Why Physical AI Is the Next Frontier | Applied Intuition",
     "last_proof_snippet": "Our mission is to put intelligence on a billion machines, and that we think that can have a profound impact on society. Applied intuition is a physical attack company. We put intelligence on machines. Cars, trucks, tanks, drones. It's a phy",
@@ -8430,7 +8430,7 @@
     "last_podcast_name": "Dwarkesh Podcast",
     "last_episode_date": "2026-07-10",
     "mention_score": 1,
-    "mention_score_decayed": 0.17,
+    "mention_score_decayed": 0.16,
     "last_main_idea": "While this episode does not present a direct investment thesis, it provides foundational knowledge about the principles of physics that could influence investment decisions in technology and space sectors.",
     "last_proof_cite": "Dwarkesh Podcast \u2022 2026-07-10 \u2022 Adam Brown \u2013 Einstein's happiest thought: General Relativity from scratch",
     "last_proof_snippet": "I'm back with Adam Brown. You currently need blue shift at Google DeepMine, which is cracking science and reasoning. In a previous life, Adam was a prolific physicist taught at Stanford and did research and everything from cosmology to stri",
@@ -8981,127 +8981,6 @@
     }
   },
   {
-    "id": 316,
-    "name": "Evan Feinberg",
-    "slug": "evan-feinberg",
-    "bio": "Evan Feinberg is the co-founder and CEO of Genesis Molecular AI, a company that specializes in leveraging artificial intelligence for drug discovery. He has been a key figure in the development of the Pearl model, which is used for high-resolution drug discovery. Feinberg's work is at the forefront of AI research in the pharmaceutical industry.",
-    "known_for": "Developing the Pearl model for high-resolution drug discovery and pioneering the use of diffusion models in protein structure prediction.",
-    "net_worth_usd": null,
-    "net_worth_source": "",
-    "net_worth_updated_at": null,
-    "voice_tone": "Confident and visionary.",
-    "voice_style": "Factual and solution-oriented.",
-    "voice_delivery_notes": "Clear and concise with a focus on the transformative potential of AI in drug discovery.",
-    "voice_profile_updated_at": "2026-07-01 18:38:33",
-    "last_seen": "2026-07-01 18:38:33",
-    "last_episode_title": "\ud83d\udd2c The Coolest Diffusion Research Isn't in LLMs \u2014 Evan Feinberg & Sergey Edunov, Genesis Molecular AI",
-    "last_podcast_name": "Latent Space: The AI Engineer Podcast",
-    "last_episode_date": "2026-07-01",
-    "mention_score": 1,
-    "mention_score_decayed": 0.14,
-    "last_main_idea": "Investing in AI-driven drug discovery companies like Genesis Molecular AI can offer significant returns due to the potential for increased efficiency and accuracy in drug development processes.",
-    "last_proof_cite": "Latent Space: The AI Engineer Podcast \u2022 2026-07-01 \u2022 \ud83d\udd2c The Coolest Diffusion Research Isn't in LLMs \u2014 Evan Feinberg & Sergey Edunov, Genesis Molecular AI",
-    "last_proof_snippet": "I remember very clearly in like 2017, 2018, talking about guns and how generative adversarial networks and how they're clearly the future of image generation, obviously. They didn't work over very well for proteins or protein-like systems a",
-    "supporting_takeaway": "Seek partnerships between AI firms and pharmaceutical companies that facilitate rapid feedback loops in drug development.",
-    "grokipedia_url": null,
-    "grokipedia_fetched_at": "2026-07-01T13:38:45.940645",
-    "pundit_profile": {
-      "source": "llm",
-      "source_model": "moonshot:moonshot-v1-8k",
-      "source_url": "",
-      "page_title": "Evan Feinberg",
-      "fetched_at": "2026-07-01T18:38:45.940291+00:00",
-      "cliff_notes": "Evan Feinberg is a prominent figure in the field of artificial intelligence, particularly in the application of AI to drug discovery. As the co-founder and CEO of Genesis Molecular AI, he has been instrumental in developing the Pearl model, which is used for high-resolution drug discovery. Feinberg's work has been pivotal in advancing the use of AI in pharmaceuticals, with a focus on generative adversarial networks and diffusion models. His insights have been influential in recognizing the potential of diffusion as a more useful primitive for protein structure prediction, a field where some of the most innovative diffusion research is currently happening. Feinberg's contributions to the intersection of AI and drug discovery have made him a significant player in the industry.",
-      "derived": {
-        "current_role": "Co-founder and CEO of Genesis Molecular AI"
-      },
-      "infobox": {
-        "Born": "",
-        "Nationality": ""
-      },
-      "lead_paragraphs": [
-        "Evan Feinberg is a prominent figure in the field of artificial intelligence, particularly in the application of AI to drug discovery. As the co-founder and CEO of Genesis Molecular AI, he has been instrumental in developing the Pearl model, which is used for high-resolution drug discovery. Feinberg's work has been pivotal in advancing the use of AI in pharmaceuticals, with a focus on generative adversarial networks and diffusion models.",
-        "His insights have been influential in recognizing the potential of diffusion as a more useful primitive for protein structure prediction, a field where some of the most innovative diffusion research is currently happening. Feinberg's contributions to the intersection of AI and drug discovery have made him a significant player in the industry."
-      ],
-      "sections": [
-        {
-          "heading": "AI in Drug Discovery",
-          "body": "Evan Feinberg has been a leader in the application of AI to drug discovery, particularly through the development of the Pearl model which enables high-resolution drug discovery."
-        },
-        {
-          "heading": "Diffusion Models",
-          "body": "Feinberg recognized the limitations of generative adversarial networks in protein systems and shifted focus to diffusion models, which have proven more effective for protein structure prediction."
-        },
-        {
-          "heading": "Innovation in Pharmaceutical Industry",
-          "body": "His work at Genesis Molecular AI has positioned the company at the forefront of AI-driven drug discovery, contributing to the advancement of the pharmaceutical industry."
-        }
-      ]
-    }
-  },
-  {
-    "id": 317,
-    "name": "Sergey Yuternoff",
-    "slug": "sergey-yuternoff",
-    "bio": "Sergey Yuternoff is a computational biologist and the Chief Science Officer at Genesis Molecular AI. He has contributed significantly to the development and application of the Pearl model, a generative model used in protein structure prediction. With a background in physics, Yuternoff has transitioned from software engineering to leading pre-training efforts in AI for molecular biology.",
-    "known_for": "His work in advancing the Pearl model and its application in protein structure prediction, which is pivotal for drug discovery and molecular biology.",
-    "net_worth_usd": 600000000.0,
-    "net_worth_source": "https://coingape.com/education/sergey-nazarov/",
-    "net_worth_updated_at": "2026-07-01T13:38:57.308639",
-    "voice_tone": "Knowledgeable and analytical.",
-    "voice_style": "Technical and detailed.",
-    "voice_delivery_notes": "Explains complex concepts with precision and clarity.",
-    "voice_profile_updated_at": "2026-07-01 18:38:33",
-    "last_seen": "2026-07-01 18:38:33",
-    "last_episode_title": "\ud83d\udd2c The Coolest Diffusion Research Isn't in LLMs \u2014 Evan Feinberg & Sergey Edunov, Genesis Molecular AI",
-    "last_podcast_name": "Latent Space: The AI Engineer Podcast",
-    "last_episode_date": "2026-07-01",
-    "mention_score": 1,
-    "mention_score_decayed": 0.14,
-    "last_main_idea": "Investing in AI-driven drug discovery companies like Genesis Molecular AI can offer significant returns due to the potential for increased efficiency and accuracy in drug development processes.",
-    "last_proof_cite": "Latent Space: The AI Engineer Podcast \u2022 2026-07-01 \u2022 \ud83d\udd2c The Coolest Diffusion Research Isn't in LLMs \u2014 Evan Feinberg & Sergey Edunov, Genesis Molecular AI",
-    "last_proof_snippet": "I remember very clearly in like 2017, 2018, talking about guns and how generative adversarial networks and how they're clearly the future of image generation, obviously. They didn't work over very well for proteins or protein-like systems a",
-    "supporting_takeaway": "Seek partnerships between AI firms and pharmaceutical companies that facilitate rapid feedback loops in drug development.",
-    "grokipedia_url": null,
-    "grokipedia_fetched_at": "2026-07-01T13:38:56.323455",
-    "pundit_profile": {
-      "source": "llm",
-      "source_model": "moonshot:moonshot-v1-8k",
-      "source_url": "",
-      "page_title": "Sergey Yuternoff",
-      "fetched_at": "2026-07-01T18:38:56.323308+00:00",
-      "cliff_notes": "Sergey Yuternoff began his career in physics but transitioned into software engineering post-graduation. His expertise in computational biology led him to contribute to the development of the Pearl model, a generative model instrumental in protein structure prediction. Yuternoff's work is significant in the field of AI for science, particularly in the area of molecular biology, where his leadership in pre-training efforts like Lama II and Lama III has been influential. As the Chief Science Officer at Genesis Molecular AI, he continues to push the boundaries of AI applications in molecular research.",
-      "derived": {
-        "current_role": "Chief Science Officer at Genesis Molecular AI",
-        "former_positions": "Lama II and Lama III pre-training lead",
-        "education": "Physics"
-      },
-      "infobox": {
-        "Born": "",
-        "Nationality": ""
-      },
-      "lead_paragraphs": [
-        "Sergey Yuternoff began his career in physics but transitioned into software engineering post-graduation. His expertise in computational biology led him to contribute to the development of the Pearl model, a generative model instrumental in protein structure prediction. Yuternoff's work is significant in the field of AI for science, particularly in the area of molecular biology, where his leadership in pre-training efforts like Lama II and Lama III has been influential.",
-        "As the Chief Science Officer at Genesis Molecular AI, he continues to push the boundaries of AI applications in molecular research."
-      ],
-      "sections": [
-        {
-          "heading": "Protein Structure Prediction",
-          "body": "Sergey Yuternoff has been instrumental in the advancement of the Pearl model, which is used for protein structure prediction. This work is crucial for understanding protein functions and has significant implications for drug discovery."
-        },
-        {
-          "heading": "AI in Molecular Biology",
-          "body": "Yuturnoff's leadership in AI for molecular biology has been pivotal, particularly in the development and application of generative models like the Pearl model, which are now being used to predict protein structures with high accuracy."
-        },
-        {
-          "heading": "Generative Adversarial Networks",
-          "body": "In the past, Yuternoff discussed the limitations of generative adversarial networks for proteins and protein-like systems, advocating for the use of diffusion as a more effective primitive for the field."
-        }
-      ]
-    },
-    "net_worth": "$600.0M"
-  },
-  {
     "id": 171,
     "name": "Steven Sinofsky",
     "slug": "steven-sinofsky",
@@ -9166,6 +9045,127 @@
       ]
     },
     "net_worth": "$300.0M"
+  },
+  {
+    "id": 316,
+    "name": "Evan Feinberg",
+    "slug": "evan-feinberg",
+    "bio": "Evan Feinberg is the co-founder and CEO of Genesis Molecular AI, a company that specializes in leveraging artificial intelligence for drug discovery. He has been a key figure in the development of the Pearl model, which is used for high-resolution drug discovery. Feinberg's work is at the forefront of AI research in the pharmaceutical industry.",
+    "known_for": "Developing the Pearl model for high-resolution drug discovery and pioneering the use of diffusion models in protein structure prediction.",
+    "net_worth_usd": null,
+    "net_worth_source": "",
+    "net_worth_updated_at": null,
+    "voice_tone": "Confident and visionary.",
+    "voice_style": "Factual and solution-oriented.",
+    "voice_delivery_notes": "Clear and concise with a focus on the transformative potential of AI in drug discovery.",
+    "voice_profile_updated_at": "2026-07-01 18:38:33",
+    "last_seen": "2026-07-01 18:38:33",
+    "last_episode_title": "\ud83d\udd2c The Coolest Diffusion Research Isn't in LLMs \u2014 Evan Feinberg & Sergey Edunov, Genesis Molecular AI",
+    "last_podcast_name": "Latent Space: The AI Engineer Podcast",
+    "last_episode_date": "2026-07-01",
+    "mention_score": 1,
+    "mention_score_decayed": 0.13,
+    "last_main_idea": "Investing in AI-driven drug discovery companies like Genesis Molecular AI can offer significant returns due to the potential for increased efficiency and accuracy in drug development processes.",
+    "last_proof_cite": "Latent Space: The AI Engineer Podcast \u2022 2026-07-01 \u2022 \ud83d\udd2c The Coolest Diffusion Research Isn't in LLMs \u2014 Evan Feinberg & Sergey Edunov, Genesis Molecular AI",
+    "last_proof_snippet": "I remember very clearly in like 2017, 2018, talking about guns and how generative adversarial networks and how they're clearly the future of image generation, obviously. They didn't work over very well for proteins or protein-like systems a",
+    "supporting_takeaway": "Seek partnerships between AI firms and pharmaceutical companies that facilitate rapid feedback loops in drug development.",
+    "grokipedia_url": null,
+    "grokipedia_fetched_at": "2026-07-01T13:38:45.940645",
+    "pundit_profile": {
+      "source": "llm",
+      "source_model": "moonshot:moonshot-v1-8k",
+      "source_url": "",
+      "page_title": "Evan Feinberg",
+      "fetched_at": "2026-07-01T18:38:45.940291+00:00",
+      "cliff_notes": "Evan Feinberg is a prominent figure in the field of artificial intelligence, particularly in the application of AI to drug discovery. As the co-founder and CEO of Genesis Molecular AI, he has been instrumental in developing the Pearl model, which is used for high-resolution drug discovery. Feinberg's work has been pivotal in advancing the use of AI in pharmaceuticals, with a focus on generative adversarial networks and diffusion models. His insights have been influential in recognizing the potential of diffusion as a more useful primitive for protein structure prediction, a field where some of the most innovative diffusion research is currently happening. Feinberg's contributions to the intersection of AI and drug discovery have made him a significant player in the industry.",
+      "derived": {
+        "current_role": "Co-founder and CEO of Genesis Molecular AI"
+      },
+      "infobox": {
+        "Born": "",
+        "Nationality": ""
+      },
+      "lead_paragraphs": [
+        "Evan Feinberg is a prominent figure in the field of artificial intelligence, particularly in the application of AI to drug discovery. As the co-founder and CEO of Genesis Molecular AI, he has been instrumental in developing the Pearl model, which is used for high-resolution drug discovery. Feinberg's work has been pivotal in advancing the use of AI in pharmaceuticals, with a focus on generative adversarial networks and diffusion models.",
+        "His insights have been influential in recognizing the potential of diffusion as a more useful primitive for protein structure prediction, a field where some of the most innovative diffusion research is currently happening. Feinberg's contributions to the intersection of AI and drug discovery have made him a significant player in the industry."
+      ],
+      "sections": [
+        {
+          "heading": "AI in Drug Discovery",
+          "body": "Evan Feinberg has been a leader in the application of AI to drug discovery, particularly through the development of the Pearl model which enables high-resolution drug discovery."
+        },
+        {
+          "heading": "Diffusion Models",
+          "body": "Feinberg recognized the limitations of generative adversarial networks in protein systems and shifted focus to diffusion models, which have proven more effective for protein structure prediction."
+        },
+        {
+          "heading": "Innovation in Pharmaceutical Industry",
+          "body": "His work at Genesis Molecular AI has positioned the company at the forefront of AI-driven drug discovery, contributing to the advancement of the pharmaceutical industry."
+        }
+      ]
+    }
+  },
+  {
+    "id": 317,
+    "name": "Sergey Yuternoff",
+    "slug": "sergey-yuternoff",
+    "bio": "Sergey Yuternoff is a computational biologist and the Chief Science Officer at Genesis Molecular AI. He has contributed significantly to the development and application of the Pearl model, a generative model used in protein structure prediction. With a background in physics, Yuternoff has transitioned from software engineering to leading pre-training efforts in AI for molecular biology.",
+    "known_for": "His work in advancing the Pearl model and its application in protein structure prediction, which is pivotal for drug discovery and molecular biology.",
+    "net_worth_usd": 600000000.0,
+    "net_worth_source": "https://coingape.com/education/sergey-nazarov/",
+    "net_worth_updated_at": "2026-07-01T13:38:57.308639",
+    "voice_tone": "Knowledgeable and analytical.",
+    "voice_style": "Technical and detailed.",
+    "voice_delivery_notes": "Explains complex concepts with precision and clarity.",
+    "voice_profile_updated_at": "2026-07-01 18:38:33",
+    "last_seen": "2026-07-01 18:38:33",
+    "last_episode_title": "\ud83d\udd2c The Coolest Diffusion Research Isn't in LLMs \u2014 Evan Feinberg & Sergey Edunov, Genesis Molecular AI",
+    "last_podcast_name": "Latent Space: The AI Engineer Podcast",
+    "last_episode_date": "2026-07-01",
+    "mention_score": 1,
+    "mention_score_decayed": 0.13,
+    "last_main_idea": "Investing in AI-driven drug discovery companies like Genesis Molecular AI can offer significant returns due to the potential for increased efficiency and accuracy in drug development processes.",
+    "last_proof_cite": "Latent Space: The AI Engineer Podcast \u2022 2026-07-01 \u2022 \ud83d\udd2c The Coolest Diffusion Research Isn't in LLMs \u2014 Evan Feinberg & Sergey Edunov, Genesis Molecular AI",
+    "last_proof_snippet": "I remember very clearly in like 2017, 2018, talking about guns and how generative adversarial networks and how they're clearly the future of image generation, obviously. They didn't work over very well for proteins or protein-like systems a",
+    "supporting_takeaway": "Seek partnerships between AI firms and pharmaceutical companies that facilitate rapid feedback loops in drug development.",
+    "grokipedia_url": null,
+    "grokipedia_fetched_at": "2026-07-01T13:38:56.323455",
+    "pundit_profile": {
+      "source": "llm",
+      "source_model": "moonshot:moonshot-v1-8k",
+      "source_url": "",
+      "page_title": "Sergey Yuternoff",
+      "fetched_at": "2026-07-01T18:38:56.323308+00:00",
+      "cliff_notes": "Sergey Yuternoff began his career in physics but transitioned into software engineering post-graduation. His expertise in computational biology led him to contribute to the development of the Pearl model, a generative model instrumental in protein structure prediction. Yuternoff's work is significant in the field of AI for science, particularly in the area of molecular biology, where his leadership in pre-training efforts like Lama II and Lama III has been influential. As the Chief Science Officer at Genesis Molecular AI, he continues to push the boundaries of AI applications in molecular research.",
+      "derived": {
+        "current_role": "Chief Science Officer at Genesis Molecular AI",
+        "former_positions": "Lama II and Lama III pre-training lead",
+        "education": "Physics"
+      },
+      "infobox": {
+        "Born": "",
+        "Nationality": ""
+      },
+      "lead_paragraphs": [
+        "Sergey Yuternoff began his career in physics but transitioned into software engineering post-graduation. His expertise in computational biology led him to contribute to the development of the Pearl model, a generative model instrumental in protein structure prediction. Yuternoff's work is significant in the field of AI for science, particularly in the area of molecular biology, where his leadership in pre-training efforts like Lama II and Lama III has been influential.",
+        "As the Chief Science Officer at Genesis Molecular AI, he continues to push the boundaries of AI applications in molecular research."
+      ],
+      "sections": [
+        {
+          "heading": "Protein Structure Prediction",
+          "body": "Sergey Yuternoff has been instrumental in the advancement of the Pearl model, which is used for protein structure prediction. This work is crucial for understanding protein functions and has significant implications for drug discovery."
+        },
+        {
+          "heading": "AI in Molecular Biology",
+          "body": "Yuturnoff's leadership in AI for molecular biology has been pivotal, particularly in the development and application of generative models like the Pearl model, which are now being used to predict protein structures with high accuracy."
+        },
+        {
+          "heading": "Generative Adversarial Networks",
+          "body": "In the past, Yuternoff discussed the limitations of generative adversarial networks for proteins and protein-like systems, advocating for the use of diffusion as a more effective primitive for the field."
+        }
+      ]
+    },
+    "net_worth": "$600.0M"
   },
   {
     "id": 315,
@@ -10657,131 +10657,6 @@
     }
   },
   {
-    "id": 287,
-    "name": "Brian Armstrong",
-    "slug": "brian-armstrong",
-    "bio": "Brian Armstrong is a prominent figure in the cryptocurrency industry, known for co-founding Coinbase, one of the largest cryptocurrency exchanges in the world. He has been instrumental in driving innovation in cryptocurrency and blockchain technology, shaping the future of digital currencies.",
-    "known_for": "Driving innovation in cryptocurrency and blockchain technology, co-founding Coinbase.",
-    "net_worth_usd": 12900000000.0,
-    "net_worth_source": "https://www.wikidata.org/wiki/Q64705310",
-    "net_worth_updated_at": "2026-06-11T13:43:06.255887",
-    "voice_tone": "",
-    "voice_style": "",
-    "voice_delivery_notes": "",
-    "voice_profile_updated_at": null,
-    "last_seen": "2026-06-11 18:42:57",
-    "last_episode_title": "Brian Armstrong on Bitcoin, Anthropic Drops Fable 5 & Mythos 5, NewLimit's $435M Age-Reversal | EP #264",
-    "last_podcast_name": "Moonshots with Peter Diamandis",
-    "last_episode_date": "2026-06-11",
-    "mention_score": 1,
-    "mention_score_decayed": 0.09,
-    "last_main_idea": "Explore investment in companies integrating AI and cryptocurrency, particularly those serving AI agents as customers.",
-    "last_proof_cite": "Moonshots with Peter Diamandis \u2022 2026-06-11 \u2022 Brian Armstrong on Bitcoin, Anthropic Drops Fable 5 & Mythos 5, NewLimit's $435M Age-Reversal | EP #264",
-    "last_proof_snippet": "City Bank projects a Bitcoin price reaching as much as 189,000 by the end of 2026. Bitcoin is the new digital gold. I think it's going to be a key part of our economy going forward into the future. I remember it was supposed to be counter-s",
-    "supporting_takeaway": "",
-    "grokipedia_url": null,
-    "grokipedia_fetched_at": "2026-06-11T13:43:05.843914",
-    "pundit_profile": {
-      "source": "llm",
-      "source_model": "moonshot:moonshot-v1-8k",
-      "source_url": "",
-      "page_title": "Brian Armstrong",
-      "fetched_at": "2026-06-11T18:43:05.843582+00:00",
-      "cliff_notes": "Brian Armstrong is a technology entrepreneur and the co-founder and CEO of Coinbase, a leading global cryptocurrency exchange. Armstrong's journey in the tech industry began with his studies in Electrical Engineering and Computer Science at Rice University. His interest in technology and innovation led him to co-found Coinbase in 2012, which has since grown to become one of the largest and most trusted platforms for buying, selling, and managing digital currencies. Armstrong's leadership at Coinbase has been pivotal in the mainstream adoption of cryptocurrencies, and his influence extends to shaping the future of blockchain technology and its integration into the global financial system.",
-      "derived": {
-        "current_role": "CEO at Coinbase",
-        "education": "BS in Electrical Engineering and Computer Science from Rice University"
-      },
-      "infobox": {
-        "Born": "1983",
-        "Nationality": "American"
-      },
-      "lead_paragraphs": [
-        "Brian Armstrong is a technology entrepreneur and the co-founder and CEO of Coinbase, a leading global cryptocurrency exchange. Armstrong's journey in the tech industry began with his studies in Electrical Engineering and Computer Science at Rice University. His interest in technology and innovation led him to co-found Coinbase in 2012, which has since grown to become one of the largest and most trusted platforms for buying, selling, and managing digital currencies.",
-        "Armstrong's leadership at Coinbase has been pivotal in the mainstream adoption of cryptocurrencies, and his influence extends to shaping the future of blockchain technology and its integration into the global financial system."
-      ],
-      "sections": [
-        {
-          "heading": "Cryptocurrency Exchange",
-          "body": "Brian Armstrong co-founded Coinbase in 2012, which has become one of the largest cryptocurrency exchanges globally, facilitating the buying, selling, and management of digital currencies."
-        },
-        {
-          "heading": "Blockchain Innovation",
-          "body": "Armstrong has been a driving force in the innovation of blockchain technology, pushing for its integration into the mainstream financial system and advocating for its potential to revolutionize various industries."
-        },
-        {
-          "heading": "Regulatory Advocacy",
-          "body": "As a leader in the cryptocurrency space, Armstrong has been involved in advocating for clear and fair regulations that protect consumers while fostering innovation in the blockchain and cryptocurrency sectors."
-        }
-      ]
-    },
-    "net_worth": "$12.90B"
-  },
-  {
-    "id": 286,
-    "name": "Larry MacDonald",
-    "slug": "larry-macdonald",
-    "bio": "Larry MacDonald is an expert in market analysis and investment strategies, known for his insights on market dynamics and sector rotations. He is a best-selling author and the founder of the Bear Traps Report, a financial newsletter that provides analysis and investment advice.",
-    "known_for": "His expertise in market analysis and investment strategies, particularly his insights on market dynamics and sector rotations.",
-    "net_worth_usd": null,
-    "net_worth_source": "",
-    "net_worth_updated_at": null,
-    "voice_tone": "Matter-of-fact and insightful.",
-    "voice_style": "Direct and analytical, with a focus on evidence from market data.",
-    "voice_delivery_notes": "Clear and concise, with emphasis on key market figures and predictions.",
-    "voice_profile_updated_at": "2026-06-11 18:42:08",
-    "last_seen": "2026-06-11 18:42:08",
-    "last_episode_title": "MacroVoices #536 Larry Mcdonald: The Migration is Upon us",
-    "last_podcast_name": "Macro Voices",
-    "last_episode_date": "2026-06-11",
-    "mention_score": 1,
-    "mention_score_decayed": 0.09,
-    "last_main_idea": "The market may be entering a new inflation shock regime, leading to a rotation from financial assets to hard assets, with the healthcare sector presenting an under-owned opportunity.",
-    "last_proof_cite": "Macro Voices \u2022 2026-06-11 \u2022 MacroVoices #536 Larry Mcdonald: The Migration is Upon us",
-    "last_proof_snippet": "This is Macrovoisers, the Free Weekly Financial Podcast, targeting professional finance, high-net worth individuals, family offices, and other sophisticated investors. Macrovoisers is all about the brightest minds in the world of finance an",
-    "supporting_takeaway": "Major IPOs, including SpaceX and Google, represent a combined capital raise of approximately $250 billion, which could lead to significant selling pressure on existing stocks.",
-    "grokipedia_url": null,
-    "grokipedia_fetched_at": "2026-06-11T13:43:23.356023",
-    "pundit_profile": {
-      "source": "llm",
-      "source_model": "moonshot:moonshot-v1-8k",
-      "source_url": "",
-      "page_title": "Larry MacDonald",
-      "fetched_at": "2026-06-11T18:43:23.355870+00:00",
-      "cliff_notes": "Larry MacDonald is a renowned expert in market analysis and investment strategies. He is best known for his insights on market dynamics and sector rotations, which have made him a sought-after commentator in the world of finance. MacDonald is the founder of the Bear Traps Report, a financial newsletter that provides analysis and investment advice to its subscribers. His expertise has led him to be featured as a guest on financial podcasts such as Macrovoisers, where he discusses current market trends and opportunities. MacDonald's career has been marked by his ability to provide clear and concise analysis of complex financial issues, making him a respected voice in the industry.",
-      "derived": {
-        "current_role": "Founder, Bear Traps Report",
-        "books_or_works": "Bear Traps Report"
-      },
-      "infobox": {
-        "Born": "",
-        "Nationality": ""
-      },
-      "lead_paragraphs": [
-        "Larry MacDonald is a renowned expert in market analysis and investment strategies. He is best known for his insights on market dynamics and sector rotations, which have made him a sought-after commentator in the world of finance. MacDonald is the founder of the Bear Traps Report, a financial newsletter that provides analysis and investment advice to its subscribers.",
-        "His expertise has led him to be featured as a guest on financial podcasts such as Macrovoisers, where he discusses current market trends and opportunities. MacDonald's career has been marked by his ability to provide clear and concise analysis of complex financial issues, making him a respected voice in the industry."
-      ],
-      "sections": [
-        {
-          "heading": "Market Dynamics",
-          "body": "Larry MacDonald is known for his insights on market dynamics, providing analysis on how various factors influence market movements and trends."
-        },
-        {
-          "heading": "Sector Rotations",
-          "body": "MacDonald's expertise in sector rotations allows him to identify shifts in market focus and predict where opportunities may arise for investors."
-        },
-        {
-          "heading": "Investment Strategies",
-          "body": "As the founder of the Bear Traps Report, MacDonald offers investment strategies and advice to help investors navigate the complex financial landscape."
-        },
-        {
-          "heading": "Financial Analysis",
-          "body": "MacDonald's background in financial analysis has made him a respected voice in the industry, with his insights often sought after by professional finance and high-net worth individuals."
-        }
-      ]
-    }
-  },
-  {
     "id": 164,
     "name": "Vitalik Buterin",
     "slug": "vitalik-buterin",
@@ -10907,6 +10782,131 @@
       ]
     },
     "net_worth": "$4.6M"
+  },
+  {
+    "id": 287,
+    "name": "Brian Armstrong",
+    "slug": "brian-armstrong",
+    "bio": "Brian Armstrong is a prominent figure in the cryptocurrency industry, known for co-founding Coinbase, one of the largest cryptocurrency exchanges in the world. He has been instrumental in driving innovation in cryptocurrency and blockchain technology, shaping the future of digital currencies.",
+    "known_for": "Driving innovation in cryptocurrency and blockchain technology, co-founding Coinbase.",
+    "net_worth_usd": 12900000000.0,
+    "net_worth_source": "https://www.wikidata.org/wiki/Q64705310",
+    "net_worth_updated_at": "2026-06-11T13:43:06.255887",
+    "voice_tone": "",
+    "voice_style": "",
+    "voice_delivery_notes": "",
+    "voice_profile_updated_at": null,
+    "last_seen": "2026-06-11 18:42:57",
+    "last_episode_title": "Brian Armstrong on Bitcoin, Anthropic Drops Fable 5 & Mythos 5, NewLimit's $435M Age-Reversal | EP #264",
+    "last_podcast_name": "Moonshots with Peter Diamandis",
+    "last_episode_date": "2026-06-11",
+    "mention_score": 1,
+    "mention_score_decayed": 0.08,
+    "last_main_idea": "Explore investment in companies integrating AI and cryptocurrency, particularly those serving AI agents as customers.",
+    "last_proof_cite": "Moonshots with Peter Diamandis \u2022 2026-06-11 \u2022 Brian Armstrong on Bitcoin, Anthropic Drops Fable 5 & Mythos 5, NewLimit's $435M Age-Reversal | EP #264",
+    "last_proof_snippet": "City Bank projects a Bitcoin price reaching as much as 189,000 by the end of 2026. Bitcoin is the new digital gold. I think it's going to be a key part of our economy going forward into the future. I remember it was supposed to be counter-s",
+    "supporting_takeaway": "",
+    "grokipedia_url": null,
+    "grokipedia_fetched_at": "2026-06-11T13:43:05.843914",
+    "pundit_profile": {
+      "source": "llm",
+      "source_model": "moonshot:moonshot-v1-8k",
+      "source_url": "",
+      "page_title": "Brian Armstrong",
+      "fetched_at": "2026-06-11T18:43:05.843582+00:00",
+      "cliff_notes": "Brian Armstrong is a technology entrepreneur and the co-founder and CEO of Coinbase, a leading global cryptocurrency exchange. Armstrong's journey in the tech industry began with his studies in Electrical Engineering and Computer Science at Rice University. His interest in technology and innovation led him to co-found Coinbase in 2012, which has since grown to become one of the largest and most trusted platforms for buying, selling, and managing digital currencies. Armstrong's leadership at Coinbase has been pivotal in the mainstream adoption of cryptocurrencies, and his influence extends to shaping the future of blockchain technology and its integration into the global financial system.",
+      "derived": {
+        "current_role": "CEO at Coinbase",
+        "education": "BS in Electrical Engineering and Computer Science from Rice University"
+      },
+      "infobox": {
+        "Born": "1983",
+        "Nationality": "American"
+      },
+      "lead_paragraphs": [
+        "Brian Armstrong is a technology entrepreneur and the co-founder and CEO of Coinbase, a leading global cryptocurrency exchange. Armstrong's journey in the tech industry began with his studies in Electrical Engineering and Computer Science at Rice University. His interest in technology and innovation led him to co-found Coinbase in 2012, which has since grown to become one of the largest and most trusted platforms for buying, selling, and managing digital currencies.",
+        "Armstrong's leadership at Coinbase has been pivotal in the mainstream adoption of cryptocurrencies, and his influence extends to shaping the future of blockchain technology and its integration into the global financial system."
+      ],
+      "sections": [
+        {
+          "heading": "Cryptocurrency Exchange",
+          "body": "Brian Armstrong co-founded Coinbase in 2012, which has become one of the largest cryptocurrency exchanges globally, facilitating the buying, selling, and management of digital currencies."
+        },
+        {
+          "heading": "Blockchain Innovation",
+          "body": "Armstrong has been a driving force in the innovation of blockchain technology, pushing for its integration into the mainstream financial system and advocating for its potential to revolutionize various industries."
+        },
+        {
+          "heading": "Regulatory Advocacy",
+          "body": "As a leader in the cryptocurrency space, Armstrong has been involved in advocating for clear and fair regulations that protect consumers while fostering innovation in the blockchain and cryptocurrency sectors."
+        }
+      ]
+    },
+    "net_worth": "$12.90B"
+  },
+  {
+    "id": 286,
+    "name": "Larry MacDonald",
+    "slug": "larry-macdonald",
+    "bio": "Larry MacDonald is an expert in market analysis and investment strategies, known for his insights on market dynamics and sector rotations. He is a best-selling author and the founder of the Bear Traps Report, a financial newsletter that provides analysis and investment advice.",
+    "known_for": "His expertise in market analysis and investment strategies, particularly his insights on market dynamics and sector rotations.",
+    "net_worth_usd": null,
+    "net_worth_source": "",
+    "net_worth_updated_at": null,
+    "voice_tone": "Matter-of-fact and insightful.",
+    "voice_style": "Direct and analytical, with a focus on evidence from market data.",
+    "voice_delivery_notes": "Clear and concise, with emphasis on key market figures and predictions.",
+    "voice_profile_updated_at": "2026-06-11 18:42:08",
+    "last_seen": "2026-06-11 18:42:08",
+    "last_episode_title": "MacroVoices #536 Larry Mcdonald: The Migration is Upon us",
+    "last_podcast_name": "Macro Voices",
+    "last_episode_date": "2026-06-11",
+    "mention_score": 1,
+    "mention_score_decayed": 0.08,
+    "last_main_idea": "The market may be entering a new inflation shock regime, leading to a rotation from financial assets to hard assets, with the healthcare sector presenting an under-owned opportunity.",
+    "last_proof_cite": "Macro Voices \u2022 2026-06-11 \u2022 MacroVoices #536 Larry Mcdonald: The Migration is Upon us",
+    "last_proof_snippet": "This is Macrovoisers, the Free Weekly Financial Podcast, targeting professional finance, high-net worth individuals, family offices, and other sophisticated investors. Macrovoisers is all about the brightest minds in the world of finance an",
+    "supporting_takeaway": "Major IPOs, including SpaceX and Google, represent a combined capital raise of approximately $250 billion, which could lead to significant selling pressure on existing stocks.",
+    "grokipedia_url": null,
+    "grokipedia_fetched_at": "2026-06-11T13:43:23.356023",
+    "pundit_profile": {
+      "source": "llm",
+      "source_model": "moonshot:moonshot-v1-8k",
+      "source_url": "",
+      "page_title": "Larry MacDonald",
+      "fetched_at": "2026-06-11T18:43:23.355870+00:00",
+      "cliff_notes": "Larry MacDonald is a renowned expert in market analysis and investment strategies. He is best known for his insights on market dynamics and sector rotations, which have made him a sought-after commentator in the world of finance. MacDonald is the founder of the Bear Traps Report, a financial newsletter that provides analysis and investment advice to its subscribers. His expertise has led him to be featured as a guest on financial podcasts such as Macrovoisers, where he discusses current market trends and opportunities. MacDonald's career has been marked by his ability to provide clear and concise analysis of complex financial issues, making him a respected voice in the industry.",
+      "derived": {
+        "current_role": "Founder, Bear Traps Report",
+        "books_or_works": "Bear Traps Report"
+      },
+      "infobox": {
+        "Born": "",
+        "Nationality": ""
+      },
+      "lead_paragraphs": [
+        "Larry MacDonald is a renowned expert in market analysis and investment strategies. He is best known for his insights on market dynamics and sector rotations, which have made him a sought-after commentator in the world of finance. MacDonald is the founder of the Bear Traps Report, a financial newsletter that provides analysis and investment advice to its subscribers.",
+        "His expertise has led him to be featured as a guest on financial podcasts such as Macrovoisers, where he discusses current market trends and opportunities. MacDonald's career has been marked by his ability to provide clear and concise analysis of complex financial issues, making him a respected voice in the industry."
+      ],
+      "sections": [
+        {
+          "heading": "Market Dynamics",
+          "body": "Larry MacDonald is known for his insights on market dynamics, providing analysis on how various factors influence market movements and trends."
+        },
+        {
+          "heading": "Sector Rotations",
+          "body": "MacDonald's expertise in sector rotations allows him to identify shifts in market focus and predict where opportunities may arise for investors."
+        },
+        {
+          "heading": "Investment Strategies",
+          "body": "As the founder of the Bear Traps Report, MacDonald offers investment strategies and advice to help investors navigate the complex financial landscape."
+        },
+        {
+          "heading": "Financial Analysis",
+          "body": "MacDonald's background in financial analysis has made him a respected voice in the industry, with his insights often sought after by professional finance and high-net worth individuals."
+        }
+      ]
+    }
   },
   {
     "id": 284,
@@ -12847,7 +12847,7 @@
     "last_podcast_name": "Macro Voices",
     "last_episode_date": "2026-05-14",
     "mention_score": 1,
-    "mention_score_decayed": 0.05,
+    "mention_score_decayed": 0.04,
     "last_main_idea": "Passive investment flows are dictating market behavior, potentially masking underlying economic weaknesses.",
     "last_proof_cite": "Macro Voices \u2022 2026-05-14 \u2022 MacroVoices #532 Mike Green: Record Mechanical Flows",
     "last_proof_snippet": "This is Macrovoisers, the Free Weekly Financial Podcast, targeting professional finance, high-net worth individuals, family offices, and other sophisticated investors. Macrovoisers is all about the brightest minds in the world of finance an",
@@ -17557,129 +17557,6 @@
     "net_worth": "$1.20B"
   },
   {
-    "id": 127,
-    "name": "Rupert Mitchell",
-    "slug": "rupert-mitchell",
-    "bio": "Rupert Mitchell is an accomplished banker, investor, and analyst with a background in the Ottawa Mobile industry. He is the founder of Blind Squirrel Macro, where he is known for his research and insights on macroeconomic trends.",
-    "known_for": "His research and insights on macroeconomic trends, particularly in the context of market valuations and the business cycle.",
-    "net_worth_usd": 19500000000.0,
-    "net_worth_source": "https://artistnetworth.org/richest-businessman/ceo/rupert-murdoch-net-worth/",
-    "net_worth_updated_at": "2026-03-31T22:01:54.804516",
-    "voice_tone": "",
-    "voice_style": "",
-    "voice_delivery_notes": "",
-    "voice_profile_updated_at": null,
-    "last_seen": "2026-03-28 18:30:57",
-    "last_episode_title": "Stock Market on Shaky Foundations | Blind Squirrel Macro\u2019s Rupert Mitchell on IPO Supply, Oil, and Private Credit",
-    "last_podcast_name": "Monetary Matters with Jack Farley",
-    "last_episode_date": "2026-03-18",
-    "mention_score": 1,
-    "mention_score_decayed": 0.02,
-    "last_main_idea": "The current bull market is built on shaky foundations, and a shift towards a more cautious stance with a focus on security software and data lake control is advised.",
-    "last_proof_cite": "Monetary Matters with Jack Farley \u2022 2026-03-18 \u2022 Stock Market on Shaky Foundations | Blind Squirrel Macro\u2019s Rupert Mitchell on IPO Supply, Oil, and Private Credit",
-    "last_proof_snippet": "Rupert Mitchell is worried about the business cycle ending and the crumbling pillars of buybacks, 401Ks, M&A, and de-equitization.",
-    "supporting_takeaway": "Rupert Mitchell is worried about the business cycle ending and the crumbling pillars of buybacks, 401Ks, M&A, and de-equitization.",
-    "grokipedia_url": null,
-    "grokipedia_fetched_at": "2026-03-31T20:09:25.315808",
-    "pundit_profile": {
-      "source": "llm",
-      "source_model": "moonshot:moonshot-v1-8k",
-      "source_url": "",
-      "page_title": "Rupert Mitchell",
-      "fetched_at": "2026-04-01T01:09:25.315513+00:00",
-      "cliff_notes": "Rupert Mitchell has had a diverse career in finance, starting in the Ottawa Mobile industry and later transitioning into banking and investment. His expertise in macroeconomic trends has led him to found Blind Squirrel Macro, where he provides research and insights that are highly valued by investors and analysts. Mitchell's work focuses on understanding the broader economic landscape and its implications for market behavior, making him a sought-after voice in discussions about the business cycle and market valuations.",
-      "derived": {
-        "current_role": "Founder of Blind Squirrel Macro"
-      },
-      "infobox": {
-        "Born": "",
-        "Nationality": ""
-      },
-      "lead_paragraphs": [
-        "Rupert Mitchell has had a diverse career in finance, starting in the Ottawa Mobile industry and later transitioning into banking and investment. His expertise in macroeconomic trends has led him to found Blind Squirrel Macro, where he provides research and insights that are highly valued by investors and analysts. Mitchell's work focuses on understanding the broader economic landscape and its implications for market behavior, making him a sought-after voice in discussions about the business cycle and market valuations."
-      ],
-      "sections": [
-        {
-          "heading": "Market Valuations",
-          "body": "Rupert Mitchell has expressed concerns about current market valuations, suggesting that they may be built on unstable foundations such as buybacks, 401K contributions, and mergers and acquisitions."
-        },
-        {
-          "heading": "Business Cycle",
-          "body": "Mitchell has been vocal about his worries regarding the business cycle, indicating that he felt a slowdown in consumer activity even before recent geopolitical events, and he is concerned about the potential end of the cycle."
-        },
-        {
-          "heading": "Supply at Concept Type Valuation",
-          "body": "Rupert Mitchell has pointed out the upcoming supply of companies like SpaceX, OpenAI, and Thropic entering the market at high valuations, which could impact the stability of the current market structure."
-        }
-      ]
-    },
-    "net_worth": "$19.50B"
-  },
-  {
-    "id": 126,
-    "name": "Ada Palmer",
-    "slug": "ada-palmer",
-    "bio": "Ada Palmer is a Renaissance historian, novelist, and composer based at the University of Chicago. She is known for her book 'Inventing the Renaissance,' which explores the economic and cultural factors of the period.",
-    "known_for": "Authoring 'Inventing the Renaissance' and her expertise in the economic and cultural aspects of the Renaissance period.",
-    "net_worth_usd": null,
-    "net_worth_source": "",
-    "net_worth_updated_at": null,
-    "voice_tone": "Informed and analytical",
-    "voice_style": "Detailed and historical narrative",
-    "voice_delivery_notes": "Pacing is steady with emphasis on key historical points",
-    "voice_profile_updated_at": "2026-03-28 18:25:51",
-    "last_seen": "2026-03-28 18:25:51",
-    "last_episode_title": "Inventing the Renaissance: Economic and Technological Insights",
-    "last_podcast_name": "Dwarkesh Podcast",
-    "last_episode_date": "2026-03-06",
-    "mention_score": 1,
-    "mention_score_decayed": 0.02,
-    "last_main_idea": "The historical insights from the Italian Renaissance period suggest that technological advancements, such as the printing press, can have a profound impact on society and information distribution, which parallels modern tech revolutions and their investment implications.",
-    "last_proof_cite": "Dwarkesh Podcast \u2022 2026-03-06 \u2022 Inventing the Renaissance: Economic and Technological Insights",
-    "last_proof_snippet": "The ability to sustain local governance was linked to the quality of agricultural land, which allowed wealthier towns to establish republics.",
-    "supporting_takeaway": "The ability to sustain local governance was linked to the quality of agricultural land, which allowed wealthier towns to establish republics.",
-    "grokipedia_url": null,
-    "grokipedia_fetched_at": "2026-03-31T20:09:36.658693",
-    "pundit_profile": {
-      "source": "llm",
-      "source_model": "moonshot:moonshot-v1-8k",
-      "source_url": "",
-      "page_title": "Ada Palmer",
-      "fetched_at": "2026-04-01T01:09:36.658555+00:00",
-      "cliff_notes": "Ada Palmer is a Renaissance historian, novelist, and composer who has made significant contributions to the understanding of the economic and cultural factors of the Renaissance period. Based at the University of Chicago, Palmer's work has been influential in shaping the discourse around the Italian city republics and their role in the development of modern Europe. Her book 'Inventing the Renaissance' has been particularly impactful, providing a comprehensive analysis of the period and its lasting effects on Western civilization. Through her research and writing, Palmer has become a respected voice in the field of Renaissance studies, offering valuable insights into the historical context that has shaped the modern world.",
-      "derived": {
-        "current_role": "Historian, Novelist, Composer at the University of Chicago",
-        "books_or_works": "Inventing the Renaissance"
-      },
-      "infobox": {
-        "Born": "",
-        "Nationality": ""
-      },
-      "lead_paragraphs": [
-        "Ada Palmer is a Renaissance historian, novelist, and composer who has made significant contributions to the understanding of the economic and cultural factors of the Renaissance period. Based at the University of Chicago, Palmer's work has been influential in shaping the discourse around the Italian city republics and their role in the development of modern Europe.",
-        "Her book 'Inventing the Renaissance' has been particularly impactful, providing a comprehensive analysis of the period and its lasting effects on Western civilization. Through her research and writing, Palmer has become a respected voice in the field of Renaissance studies, offering valuable insights into the historical context that has shaped the modern world."
-      ],
-      "sections": [
-        {
-          "heading": "Renaissance Historian",
-          "body": "Ada Palmer is a renowned historian specializing in the Renaissance period, focusing on the economic and cultural factors that shaped the era."
-        },
-        {
-          "heading": "Author of 'Inventing the Renaissance'",
-          "body": "Palmer's book 'Inventing the Renaissance' is a significant contribution to historical literature, providing a detailed exploration of the period's complexities and its impact on modern society."
-        },
-        {
-          "heading": "Composer and Novelist",
-          "body": "In addition to her historical work, Palmer is also a composer and novelist, showcasing her diverse talents and contributions to the arts and academia."
-        },
-        {
-          "heading": "University of Chicago",
-          "body": "Based at the University of Chicago, Palmer continues to teach and research, sharing her expertise with students and the academic community."
-        }
-      ]
-    }
-  },
-  {
     "id": 43,
     "name": "Olivia Moore",
     "slug": "olivia-moore",
@@ -17742,6 +17619,129 @@
         {
           "heading": "AI Risks and Benefits",
           "body": "She highlights the concerns around AI, with 57% of American voters saying the risks of AI outweigh the benefits, indicating a need for careful consideration and management of AI's impact on society."
+        }
+      ]
+    }
+  },
+  {
+    "id": 127,
+    "name": "Rupert Mitchell",
+    "slug": "rupert-mitchell",
+    "bio": "Rupert Mitchell is an accomplished banker, investor, and analyst with a background in the Ottawa Mobile industry. He is the founder of Blind Squirrel Macro, where he is known for his research and insights on macroeconomic trends.",
+    "known_for": "His research and insights on macroeconomic trends, particularly in the context of market valuations and the business cycle.",
+    "net_worth_usd": 19500000000.0,
+    "net_worth_source": "https://artistnetworth.org/richest-businessman/ceo/rupert-murdoch-net-worth/",
+    "net_worth_updated_at": "2026-03-31T22:01:54.804516",
+    "voice_tone": "",
+    "voice_style": "",
+    "voice_delivery_notes": "",
+    "voice_profile_updated_at": null,
+    "last_seen": "2026-03-28 18:30:57",
+    "last_episode_title": "Stock Market on Shaky Foundations | Blind Squirrel Macro\u2019s Rupert Mitchell on IPO Supply, Oil, and Private Credit",
+    "last_podcast_name": "Monetary Matters with Jack Farley",
+    "last_episode_date": "2026-03-18",
+    "mention_score": 1,
+    "mention_score_decayed": 0.01,
+    "last_main_idea": "The current bull market is built on shaky foundations, and a shift towards a more cautious stance with a focus on security software and data lake control is advised.",
+    "last_proof_cite": "Monetary Matters with Jack Farley \u2022 2026-03-18 \u2022 Stock Market on Shaky Foundations | Blind Squirrel Macro\u2019s Rupert Mitchell on IPO Supply, Oil, and Private Credit",
+    "last_proof_snippet": "Rupert Mitchell is worried about the business cycle ending and the crumbling pillars of buybacks, 401Ks, M&A, and de-equitization.",
+    "supporting_takeaway": "Rupert Mitchell is worried about the business cycle ending and the crumbling pillars of buybacks, 401Ks, M&A, and de-equitization.",
+    "grokipedia_url": null,
+    "grokipedia_fetched_at": "2026-03-31T20:09:25.315808",
+    "pundit_profile": {
+      "source": "llm",
+      "source_model": "moonshot:moonshot-v1-8k",
+      "source_url": "",
+      "page_title": "Rupert Mitchell",
+      "fetched_at": "2026-04-01T01:09:25.315513+00:00",
+      "cliff_notes": "Rupert Mitchell has had a diverse career in finance, starting in the Ottawa Mobile industry and later transitioning into banking and investment. His expertise in macroeconomic trends has led him to found Blind Squirrel Macro, where he provides research and insights that are highly valued by investors and analysts. Mitchell's work focuses on understanding the broader economic landscape and its implications for market behavior, making him a sought-after voice in discussions about the business cycle and market valuations.",
+      "derived": {
+        "current_role": "Founder of Blind Squirrel Macro"
+      },
+      "infobox": {
+        "Born": "",
+        "Nationality": ""
+      },
+      "lead_paragraphs": [
+        "Rupert Mitchell has had a diverse career in finance, starting in the Ottawa Mobile industry and later transitioning into banking and investment. His expertise in macroeconomic trends has led him to found Blind Squirrel Macro, where he provides research and insights that are highly valued by investors and analysts. Mitchell's work focuses on understanding the broader economic landscape and its implications for market behavior, making him a sought-after voice in discussions about the business cycle and market valuations."
+      ],
+      "sections": [
+        {
+          "heading": "Market Valuations",
+          "body": "Rupert Mitchell has expressed concerns about current market valuations, suggesting that they may be built on unstable foundations such as buybacks, 401K contributions, and mergers and acquisitions."
+        },
+        {
+          "heading": "Business Cycle",
+          "body": "Mitchell has been vocal about his worries regarding the business cycle, indicating that he felt a slowdown in consumer activity even before recent geopolitical events, and he is concerned about the potential end of the cycle."
+        },
+        {
+          "heading": "Supply at Concept Type Valuation",
+          "body": "Rupert Mitchell has pointed out the upcoming supply of companies like SpaceX, OpenAI, and Thropic entering the market at high valuations, which could impact the stability of the current market structure."
+        }
+      ]
+    },
+    "net_worth": "$19.50B"
+  },
+  {
+    "id": 126,
+    "name": "Ada Palmer",
+    "slug": "ada-palmer",
+    "bio": "Ada Palmer is a Renaissance historian, novelist, and composer based at the University of Chicago. She is known for her book 'Inventing the Renaissance,' which explores the economic and cultural factors of the period.",
+    "known_for": "Authoring 'Inventing the Renaissance' and her expertise in the economic and cultural aspects of the Renaissance period.",
+    "net_worth_usd": null,
+    "net_worth_source": "",
+    "net_worth_updated_at": null,
+    "voice_tone": "Informed and analytical",
+    "voice_style": "Detailed and historical narrative",
+    "voice_delivery_notes": "Pacing is steady with emphasis on key historical points",
+    "voice_profile_updated_at": "2026-03-28 18:25:51",
+    "last_seen": "2026-03-28 18:25:51",
+    "last_episode_title": "Inventing the Renaissance: Economic and Technological Insights",
+    "last_podcast_name": "Dwarkesh Podcast",
+    "last_episode_date": "2026-03-06",
+    "mention_score": 1,
+    "mention_score_decayed": 0.01,
+    "last_main_idea": "The historical insights from the Italian Renaissance period suggest that technological advancements, such as the printing press, can have a profound impact on society and information distribution, which parallels modern tech revolutions and their investment implications.",
+    "last_proof_cite": "Dwarkesh Podcast \u2022 2026-03-06 \u2022 Inventing the Renaissance: Economic and Technological Insights",
+    "last_proof_snippet": "The ability to sustain local governance was linked to the quality of agricultural land, which allowed wealthier towns to establish republics.",
+    "supporting_takeaway": "The ability to sustain local governance was linked to the quality of agricultural land, which allowed wealthier towns to establish republics.",
+    "grokipedia_url": null,
+    "grokipedia_fetched_at": "2026-03-31T20:09:36.658693",
+    "pundit_profile": {
+      "source": "llm",
+      "source_model": "moonshot:moonshot-v1-8k",
+      "source_url": "",
+      "page_title": "Ada Palmer",
+      "fetched_at": "2026-04-01T01:09:36.658555+00:00",
+      "cliff_notes": "Ada Palmer is a Renaissance historian, novelist, and composer who has made significant contributions to the understanding of the economic and cultural factors of the Renaissance period. Based at the University of Chicago, Palmer's work has been influential in shaping the discourse around the Italian city republics and their role in the development of modern Europe. Her book 'Inventing the Renaissance' has been particularly impactful, providing a comprehensive analysis of the period and its lasting effects on Western civilization. Through her research and writing, Palmer has become a respected voice in the field of Renaissance studies, offering valuable insights into the historical context that has shaped the modern world.",
+      "derived": {
+        "current_role": "Historian, Novelist, Composer at the University of Chicago",
+        "books_or_works": "Inventing the Renaissance"
+      },
+      "infobox": {
+        "Born": "",
+        "Nationality": ""
+      },
+      "lead_paragraphs": [
+        "Ada Palmer is a Renaissance historian, novelist, and composer who has made significant contributions to the understanding of the economic and cultural factors of the Renaissance period. Based at the University of Chicago, Palmer's work has been influential in shaping the discourse around the Italian city republics and their role in the development of modern Europe.",
+        "Her book 'Inventing the Renaissance' has been particularly impactful, providing a comprehensive analysis of the period and its lasting effects on Western civilization. Through her research and writing, Palmer has become a respected voice in the field of Renaissance studies, offering valuable insights into the historical context that has shaped the modern world."
+      ],
+      "sections": [
+        {
+          "heading": "Renaissance Historian",
+          "body": "Ada Palmer is a renowned historian specializing in the Renaissance period, focusing on the economic and cultural factors that shaped the era."
+        },
+        {
+          "heading": "Author of 'Inventing the Renaissance'",
+          "body": "Palmer's book 'Inventing the Renaissance' is a significant contribution to historical literature, providing a detailed exploration of the period's complexities and its impact on modern society."
+        },
+        {
+          "heading": "Composer and Novelist",
+          "body": "In addition to her historical work, Palmer is also a composer and novelist, showcasing her diverse talents and contributions to the arts and academia."
+        },
+        {
+          "heading": "University of Chicago",
+          "body": "Based at the University of Chicago, Palmer continues to teach and research, sharing her expertise with students and the academic community."
         }
       ]
     }
