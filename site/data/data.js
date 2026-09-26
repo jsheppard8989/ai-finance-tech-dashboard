@@ -3,1043 +3,1043 @@
 
 const dashboardData = {
   schemaVersion: 2,
-  generatedAt: "2026-09-26T12:27:28.919283",
-  chartsVersion: "2026-09-26T12:27:17.554535",
+  generatedAt: "2026-09-26T13:59:33.544022",
+  chartsVersion: "2026-09-26T13:59:22.461863",
   priceSnapshot: {
   "AAPL": {
     "price": 341.07,
     "change_pct": 7.86,
     "name": "Apple Inc.",
-    "updated_at": "2026-09-26T12:26:14.366606",
+    "updated_at": "2026-09-26T13:58:17.595655",
     "price_14d_ago": 316.22
   },
   "AEP": {
     "price": 118.35,
     "change_pct": -5.64,
     "name": "American Electric Power Company",
-    "updated_at": "2026-09-26T12:26:14.611397",
+    "updated_at": "2026-09-26T13:58:17.809307",
     "price_14d_ago": 125.42
   },
   "AMD": {
     "price": 630.63,
     "change_pct": 24.69,
     "name": "Advanced Micro Devices, Inc.",
-    "updated_at": "2026-09-26T12:26:14.777363",
+    "updated_at": "2026-09-26T13:58:17.975063",
     "price_14d_ago": 505.74
   },
   "AMGN": {
     "price": 414.61,
     "change_pct": 5.45,
     "name": "Amgen Inc.",
-    "updated_at": "2026-09-26T12:26:14.955854",
+    "updated_at": "2026-09-26T13:58:18.158139",
     "price_14d_ago": 393.17
   },
   "AMZN": {
     "price": 249.67,
     "change_pct": -2.84,
     "name": "Amazon.com, Inc.",
-    "updated_at": "2026-09-26T12:26:15.183771",
+    "updated_at": "2026-09-26T13:58:18.328856",
     "price_14d_ago": 256.97
   },
   "APO": {
     "price": 121.69,
     "change_pct": -7.68,
     "name": "Apollo Global Management, Inc. ",
-    "updated_at": "2026-09-26T12:26:15.365091",
+    "updated_at": "2026-09-26T13:58:18.513846",
     "price_14d_ago": 131.81
   },
   "APTV": {
     "price": 44.79,
     "change_pct": -2.06,
     "name": "Aptiv PLC",
-    "updated_at": "2026-09-26T12:26:15.540084",
+    "updated_at": "2026-09-26T13:58:18.690711",
     "price_14d_ago": 45.73
   },
   "AVGO": {
     "price": 352.81,
     "change_pct": -4.27,
     "name": "Broadcom Inc.",
-    "updated_at": "2026-09-26T12:26:15.728822",
+    "updated_at": "2026-09-26T13:58:18.894750",
     "price_14d_ago": 368.56
   },
   "BA": {
     "price": 198.07,
     "change_pct": -6.01,
     "name": "Boeing Company (The)",
-    "updated_at": "2026-09-26T12:26:16.112167",
+    "updated_at": "2026-09-26T13:58:19.287751",
     "price_14d_ago": 210.73
   },
   "BABA": {
     "price": 109.74,
     "change_pct": -2.59,
     "name": "Alibaba Group Holding Limited",
-    "updated_at": "2026-09-26T12:26:16.276360",
+    "updated_at": "2026-09-26T13:58:19.463771",
     "price_14d_ago": 112.66
   },
   "BAC": {
     "price": 56.7,
     "change_pct": -9.12,
     "name": "Bank of America Corporation",
-    "updated_at": "2026-09-26T12:26:16.466206",
+    "updated_at": "2026-09-26T13:58:19.663194",
     "price_14d_ago": 62.39
   },
   "BAM": {
     "price": 44.59,
     "change_pct": -8.76,
     "name": "Brookfield Asset Management Inc",
-    "updated_at": "2026-09-26T12:26:16.642693",
+    "updated_at": "2026-09-26T13:58:19.833543",
     "price_14d_ago": 48.87
   },
   "BIDU": {
     "price": 87.33,
     "change_pct": -5.64,
     "name": "Baidu, Inc.",
-    "updated_at": "2026-09-26T12:26:16.968824",
+    "updated_at": "2026-09-26T13:58:20.174161",
     "price_14d_ago": 92.55
   },
   "BP": {
     "price": 44.15,
     "change_pct": -1.63,
     "name": "BP p.l.c.",
-    "updated_at": "2026-09-26T12:26:17.368169",
+    "updated_at": "2026-09-26T13:58:20.546253",
     "price_14d_ago": 44.88
   },
   "BTC": {
-    "price": 84063.89,
-    "change_pct": 9.4,
+    "price": 83994.2,
+    "change_pct": 9.31,
     "name": "Bitcoin USD",
-    "updated_at": "2026-09-26T12:26:17.559611",
+    "updated_at": "2026-09-26T13:58:20.804655",
     "price_14d_ago": 76838.16
   },
   "BTC-USD": {
-    "price": 84063.89,
-    "change_pct": 9.4,
+    "price": 83994.2,
+    "change_pct": 9.31,
     "name": "Bitcoin USD",
-    "updated_at": "2026-09-26T12:26:17.734792",
+    "updated_at": "2026-09-26T13:58:20.971898",
     "price_14d_ago": 76838.16
   },
   "BX": {
     "price": 118.42,
     "change_pct": -11.61,
     "name": "Blackstone Inc.",
-    "updated_at": "2026-09-26T12:26:17.931475",
+    "updated_at": "2026-09-26T13:58:21.170708",
     "price_14d_ago": 133.97
   },
   "BYD": {
     "price": 71.23,
     "change_pct": -6.91,
     "name": "Boyd Gaming Corporation",
-    "updated_at": "2026-09-26T12:26:18.128403",
+    "updated_at": "2026-09-26T13:58:21.356237",
     "price_14d_ago": 76.52
   },
   "CAT": {
     "price": 821.58,
     "change_pct": -0.11,
     "name": "Caterpillar, Inc.",
-    "updated_at": "2026-09-26T12:26:18.597527",
+    "updated_at": "2026-09-26T13:58:21.734477",
     "price_14d_ago": 822.48
   },
   "CCJ": {
     "price": 88.07,
     "change_pct": -13.63,
     "name": "Cameco Corporation",
-    "updated_at": "2026-09-26T12:26:18.794526",
+    "updated_at": "2026-09-26T13:58:21.925266",
     "price_14d_ago": 101.97
   },
   "CEG": {
     "price": 263.27,
     "change_pct": -11.96,
     "name": "Constellation Energy Corporatio",
-    "updated_at": "2026-09-26T12:26:18.967469",
+    "updated_at": "2026-09-26T13:58:22.104148",
     "price_14d_ago": 299.05
   },
   "COIN": {
     "price": 195.11,
     "change_pct": 9.04,
     "name": "Coinbase Global, Inc.",
-    "updated_at": "2026-09-26T12:26:19.132839",
+    "updated_at": "2026-09-26T13:58:22.287820",
     "price_14d_ago": 178.94
   },
   "COPPER": {
     "price": 6.77,
     "change_pct": 0.4,
     "name": "Copper",
-    "updated_at": "2026-09-26T12:26:19.298673",
+    "updated_at": "2026-09-26T13:58:22.465817",
     "price_14d_ago": 6.74
   },
   "CORN": {
     "price": 19.73,
     "change_pct": -1.2,
     "name": "Teucrium Corn Fund ETV",
-    "updated_at": "2026-09-26T12:26:19.544943",
+    "updated_at": "2026-09-26T13:58:22.635559",
     "price_14d_ago": 19.97
   },
   "CRM": {
     "price": 234.02,
     "change_pct": -6.06,
     "name": "Salesforce, Inc.",
-    "updated_at": "2026-09-26T12:26:19.713726",
+    "updated_at": "2026-09-26T13:58:22.808127",
     "price_14d_ago": 249.12
   },
   "CROWD": {
     "price": 252.13,
     "change_pct": 20.05,
     "name": "CrowdStrike Holdings, Inc.",
-    "updated_at": "2026-09-26T12:26:19.881040",
+    "updated_at": "2026-09-26T13:58:22.979428",
     "price_14d_ago": 210.02
   },
   "DBC": {
     "price": 32.62,
     "change_pct": 0.68,
     "name": "Invesco DB Commodity Index Trac",
-    "updated_at": "2026-09-26T12:26:20.225916",
+    "updated_at": "2026-09-26T13:58:23.347029",
     "price_14d_ago": 32.4
   },
   "DELL": {
     "price": 562.89,
     "change_pct": 5.43,
     "name": "Dell Technologies Inc.",
-    "updated_at": "2026-09-26T12:26:20.412852",
+    "updated_at": "2026-09-26T13:58:23.589511",
     "price_14d_ago": 533.88
   },
   "DIS": {
     "price": 106.15,
     "change_pct": 1.04,
     "name": "Walt Disney Company (The)",
-    "updated_at": "2026-09-26T12:26:20.625971",
+    "updated_at": "2026-09-26T13:58:23.812854",
     "price_14d_ago": 105.06
   },
   "DOCS": {
     "price": 26.35,
     "change_pct": 7.9,
     "name": "Doximity, Inc.",
-    "updated_at": "2026-09-26T12:26:20.797754",
+    "updated_at": "2026-09-26T13:58:23.988509",
     "price_14d_ago": 24.42
   },
   "DVN": {
     "price": 47.05,
     "change_pct": -2.79,
     "name": "Devon Energy Corporation",
-    "updated_at": "2026-09-26T12:26:20.994472",
+    "updated_at": "2026-09-26T13:58:24.188989",
     "price_14d_ago": 48.4
   },
   "EBAY": {
     "price": 107.9,
     "change_pct": 3.16,
     "name": "eBay Inc.",
-    "updated_at": "2026-09-26T12:26:21.175793",
+    "updated_at": "2026-09-26T13:58:24.366202",
     "price_14d_ago": 104.59
   },
   "ETH-USD": {
-    "price": 2688.66,
-    "change_pct": 8.54,
+    "price": 2684.4,
+    "change_pct": 8.37,
     "name": "Ethereum USD",
-    "updated_at": "2026-09-26T12:26:21.349109",
+    "updated_at": "2026-09-26T13:58:24.532334",
     "price_14d_ago": 2477.02
   },
   "F": {
     "price": 12.71,
     "change_pct": -9.21,
     "name": "Ford Motor Company",
-    "updated_at": "2026-09-26T12:26:21.565844",
+    "updated_at": "2026-09-26T13:58:24.752187",
     "price_14d_ago": 14.0
   },
   "FB": {
     "price": 45.61,
     "change_pct": 0.91,
     "name": "ProShares S&P 500 Dynamic Buffe",
-    "updated_at": "2026-09-26T12:26:21.733276",
+    "updated_at": "2026-09-26T13:58:24.926048",
     "price_14d_ago": 45.2
   },
   "FCX": {
     "price": 72.31,
     "change_pct": -5.63,
     "name": "Freeport-McMoRan, Inc.",
-    "updated_at": "2026-09-26T12:26:21.922185",
+    "updated_at": "2026-09-26T13:58:25.122808",
     "price_14d_ago": 76.62
   },
   "FSK": {
     "price": 11.25,
     "change_pct": -7.64,
     "name": "FS KKR Capital Corp.",
-    "updated_at": "2026-09-26T12:26:22.449017",
+    "updated_at": "2026-09-26T13:58:25.658604",
     "price_14d_ago": 12.18
   },
   "GC": {
     "price": 0,
     "change_pct": 0,
     "name": "Gold",
-    "updated_at": "2026-09-26T12:26:22.616958",
+    "updated_at": "2026-09-26T13:58:25.839767",
     "price_14d_ago": null
   },
   "GD": {
     "price": 336.72,
     "change_pct": -5.57,
     "name": "General Dynamics Corporation",
-    "updated_at": "2026-09-26T12:26:22.836778",
+    "updated_at": "2026-09-26T13:58:26.064086",
     "price_14d_ago": 356.58
   },
   "GE": {
     "price": 327.09,
     "change_pct": -2.33,
     "name": "GE Aerospace",
-    "updated_at": "2026-09-26T12:26:23.072354",
+    "updated_at": "2026-09-26T13:58:26.299327",
     "price_14d_ago": 334.91
   },
   "GLD": {
     "price": 393.41,
     "change_pct": -1.58,
     "name": "SPDR Gold Shares",
-    "updated_at": "2026-09-26T12:26:23.243391",
+    "updated_at": "2026-09-26T13:58:26.468170",
     "price_14d_ago": 399.72
   },
   "GME": {
     "price": 23.39,
     "change_pct": 23.82,
     "name": "GameStop Corporation",
-    "updated_at": "2026-09-26T12:26:23.411586",
+    "updated_at": "2026-09-26T13:58:26.650352",
     "price_14d_ago": 18.89
   },
   "GOLD": {
     "price": 4321.2,
     "change_pct": -2.65,
     "name": "Gold",
-    "updated_at": "2026-09-26T12:26:23.637605",
+    "updated_at": "2026-09-26T13:58:26.821121",
     "price_14d_ago": 4439.0
   },
   "GOOG": {
     "price": 341.08,
     "change_pct": 1.7,
     "name": "Alphabet Inc.",
-    "updated_at": "2026-09-26T12:26:23.817012",
+    "updated_at": "2026-09-26T13:58:26.995567",
     "price_14d_ago": 335.38
   },
   "GOOGL": {
     "price": 343.92,
     "change_pct": 1.64,
     "name": "Alphabet Inc.",
-    "updated_at": "2026-09-26T12:26:23.986168",
+    "updated_at": "2026-09-26T13:58:27.171653",
     "price_14d_ago": 338.36
   },
   "GS": {
     "price": 935.45,
     "change_pct": -9.75,
     "name": "Goldman Sachs Group, Inc. (The)",
-    "updated_at": "2026-09-26T12:26:24.182946",
+    "updated_at": "2026-09-26T13:58:27.366139",
     "price_14d_ago": 1036.53
   },
   "Gold": {
     "price": 43.95,
     "change_pct": -7.42,
     "name": "Gold.com, Inc.",
-    "updated_at": "2026-09-26T12:26:24.361574",
+    "updated_at": "2026-09-26T13:58:27.540233",
     "price_14d_ago": 47.47
   },
   "HFGM": {
     "price": 32.03,
     "change_pct": 1.13,
     "name": "Unlimited HFGM Global Macro ETF",
-    "updated_at": "2026-09-26T12:26:24.534161",
+    "updated_at": "2026-09-26T13:58:27.788563",
     "price_14d_ago": 31.68
   },
   "HG": {
     "price": 33.29,
     "change_pct": -4.53,
     "name": "Hamilton Insurance Group, Ltd.",
-    "updated_at": "2026-09-26T12:26:24.708809",
+    "updated_at": "2026-09-26T13:58:27.967411",
     "price_14d_ago": 34.87
   },
   "IBM": {
     "price": 225.51,
     "change_pct": -2.84,
     "name": "International Business Machines",
-    "updated_at": "2026-09-26T12:26:25.113752",
+    "updated_at": "2026-09-26T13:58:28.346767",
     "price_14d_ago": 232.09
   },
   "IEF": {
     "price": 90.0,
     "change_pct": -2.34,
     "name": "iShares 7-10 Year Treasury Bond",
-    "updated_at": "2026-09-26T12:26:25.298161",
+    "updated_at": "2026-09-26T13:58:28.601003",
     "price_14d_ago": 92.16
   },
   "INDA": {
     "price": 47.86,
     "change_pct": -2.51,
     "name": "Ishares MSCI India ETF",
-    "updated_at": "2026-09-26T12:26:25.540284",
+    "updated_at": "2026-09-26T13:58:28.784080",
     "price_14d_ago": 49.09
   },
   "INFY": {
     "price": 10.5,
     "change_pct": -5.66,
     "name": "Infosys Limited",
-    "updated_at": "2026-09-26T12:26:25.754286",
+    "updated_at": "2026-09-26T13:58:28.974535",
     "price_14d_ago": 11.13
   },
   "INTC": {
     "price": 123.0,
     "change_pct": 17.74,
     "name": "Intel Corporation",
-    "updated_at": "2026-09-26T12:26:25.964127",
+    "updated_at": "2026-09-26T13:58:29.170560",
     "price_14d_ago": 104.47
   },
   "IWD": {
     "price": 251.93,
     "change_pct": -1.41,
     "name": "iShares Russell 1000 Value ETF",
-    "updated_at": "2026-09-26T12:26:26.154691",
+    "updated_at": "2026-09-26T13:58:29.360731",
     "price_14d_ago": 255.53
   },
   "IWF": {
     "price": 126.25,
     "change_pct": 2.63,
     "name": "iShares Russell 1000 Growth Fun",
-    "updated_at": "2026-09-26T12:26:26.341115",
+    "updated_at": "2026-09-26T13:58:29.553933",
     "price_14d_ago": 123.02
   },
   "IWM": {
     "price": 281.97,
     "change_pct": -4.31,
     "name": "iShares Russell 2000 Index Fund",
-    "updated_at": "2026-09-26T12:26:26.528224",
+    "updated_at": "2026-09-26T13:58:29.787227",
     "price_14d_ago": 294.67
   },
   "JNJ": {
     "price": 271.22,
     "change_pct": 0.78,
     "name": "Johnson & Johnson",
-    "updated_at": "2026-09-26T12:26:26.745280",
+    "updated_at": "2026-09-26T13:58:30.003384",
     "price_14d_ago": 269.12
   },
   "JPM": {
     "price": 343.06,
     "change_pct": -2.96,
     "name": "JP Morgan Chase & Co.",
-    "updated_at": "2026-09-26T12:26:26.948112",
+    "updated_at": "2026-09-26T13:58:30.207816",
     "price_14d_ago": 353.51
   },
   "KKR": {
     "price": 96.67,
     "change_pct": -8.57,
     "name": "KKR & Co. Inc.",
-    "updated_at": "2026-09-26T12:26:27.127227",
+    "updated_at": "2026-09-26T13:58:30.397299",
     "price_14d_ago": 105.73
   },
   "LLY": {
     "price": 1183.46,
     "change_pct": 5.3,
     "name": "Eli Lilly and Company",
-    "updated_at": "2026-09-26T12:26:27.332174",
+    "updated_at": "2026-09-26T13:58:30.621484",
     "price_14d_ago": 1123.91
   },
   "LMT": {
     "price": 519.56,
     "change_pct": -3.09,
     "name": "Lockheed Martin Corporation",
-    "updated_at": "2026-09-26T12:26:27.580814",
+    "updated_at": "2026-09-26T13:58:30.847546",
     "price_14d_ago": 536.15
   },
   "LYFT": {
     "price": 14.87,
     "change_pct": -8.47,
     "name": "Lyft, Inc.",
-    "updated_at": "2026-09-26T12:26:28.089654",
+    "updated_at": "2026-09-26T13:58:31.352885",
     "price_14d_ago": 16.24
   },
   "META": {
     "price": 751.66,
     "change_pct": 22.52,
     "name": "Meta Platforms, Inc.",
-    "updated_at": "2026-09-26T12:26:28.272839",
+    "updated_at": "2026-09-26T13:58:31.537348",
     "price_14d_ago": 613.48
   },
   "MGM": {
     "price": 32.58,
     "change_pct": -20.03,
     "name": "MGM Resorts International",
-    "updated_at": "2026-09-26T12:26:28.460758",
+    "updated_at": "2026-09-26T13:58:31.744447",
     "price_14d_ago": 40.74
   },
   "MINE": {
     "price": 2.74,
     "change_pct": -15.95,
     "name": "Mayfair Gold Corp.",
-    "updated_at": "2026-09-26T12:26:28.625582",
+    "updated_at": "2026-09-26T13:58:31.979439",
     "price_14d_ago": 3.26
   },
   "MRK": {
     "price": 148.78,
     "change_pct": 0.22,
     "name": "Merck & Company, Inc.",
-    "updated_at": "2026-09-26T12:26:28.838569",
+    "updated_at": "2026-09-26T13:58:32.207550",
     "price_14d_ago": 148.46
   },
   "MRNA": {
     "price": 198.88,
     "change_pct": 41.72,
     "name": "Moderna, Inc.",
-    "updated_at": "2026-09-26T12:26:29.082994",
+    "updated_at": "2026-09-26T13:58:32.376840",
     "price_14d_ago": 140.33
   },
   "MS": {
     "price": 196.31,
     "change_pct": -9.22,
     "name": "Morgan Stanley",
-    "updated_at": "2026-09-26T12:26:29.279978",
+    "updated_at": "2026-09-26T13:58:32.569913",
     "price_14d_ago": 216.24
   },
   "MSFT": {
     "price": 516.17,
     "change_pct": 4.5,
     "name": "Microsoft Corporation",
-    "updated_at": "2026-09-26T12:26:29.466289",
+    "updated_at": "2026-09-26T13:58:32.760571",
     "price_14d_ago": 493.95
   },
   "MSTR": {
     "price": 158.61,
     "change_pct": 16.18,
     "name": "Strategy Inc",
-    "updated_at": "2026-09-26T12:26:29.629060",
+    "updated_at": "2026-09-26T13:58:32.930384",
     "price_14d_ago": 136.52
   },
   "MU": {
     "price": 1082.28,
     "change_pct": 8.2,
     "name": "Micron Technology, Inc.",
-    "updated_at": "2026-09-26T12:26:29.820970",
+    "updated_at": "2026-09-26T13:58:33.127794",
     "price_14d_ago": 1000.26
   },
   "NEE": {
     "price": 76.08,
     "change_pct": -9.24,
     "name": "NextEra Energy, Inc.",
-    "updated_at": "2026-09-26T12:26:30.038910",
+    "updated_at": "2026-09-26T13:58:33.341356",
     "price_14d_ago": 83.83
   },
   "NFLX": {
     "price": 71.14,
     "change_pct": -7.33,
     "name": "Netflix, Inc.",
-    "updated_at": "2026-09-26T12:26:30.284028",
+    "updated_at": "2026-09-26T13:58:33.511742",
     "price_14d_ago": 76.77
   },
   "NKE": {
     "price": 35.75,
     "change_pct": -6.17,
     "name": "Nike, Inc.",
-    "updated_at": "2026-09-26T12:26:30.829186",
+    "updated_at": "2026-09-26T13:58:34.042789",
     "price_14d_ago": 38.1
   },
   "NOC": {
     "price": 510.52,
     "change_pct": -1.55,
     "name": "Northrop Grumman Corporation",
-    "updated_at": "2026-09-26T12:26:31.043714",
+    "updated_at": "2026-09-26T13:58:34.245725",
     "price_14d_ago": 518.58
   },
   "NVDA": {
     "price": 225.07,
     "change_pct": -0.29,
     "name": "NVIDIA Corporation",
-    "updated_at": "2026-09-26T12:26:31.218665",
+    "updated_at": "2026-09-26T13:58:34.424217",
     "price_14d_ago": 225.73
   },
   "NVS": {
     "price": 145.46,
     "change_pct": 5.64,
     "name": "Novartis AG",
-    "updated_at": "2026-09-26T12:26:31.573273",
+    "updated_at": "2026-09-26T13:58:34.785973",
     "price_14d_ago": 137.7
   },
   "Nasdaq": {
     "price": 744.5,
     "change_pct": 3.64,
     "name": "Invesco QQQ Trust, Series 1",
-    "updated_at": "2026-09-26T12:26:31.754083",
+    "updated_at": "2026-09-26T13:58:34.975336",
     "price_14d_ago": 718.36
   },
   "OKLO": {
     "price": 38.04,
     "change_pct": -12.17,
     "name": "Oklo Inc.",
-    "updated_at": "2026-09-26T12:26:32.149171",
+    "updated_at": "2026-09-26T13:58:35.317691",
     "price_14d_ago": 43.31
   },
   "ORCL": {
     "price": 137.1,
     "change_pct": -15.64,
     "name": "Oracle Corporation",
-    "updated_at": "2026-09-26T12:26:32.504250",
+    "updated_at": "2026-09-26T13:58:35.669369",
     "price_14d_ago": 162.52
   },
   "PALL": {
     "price": 22.98,
     "change_pct": -5.94,
     "name": "abrdn Physical Palladium Shares",
-    "updated_at": "2026-09-26T12:26:32.668811",
+    "updated_at": "2026-09-26T13:58:35.839399",
     "price_14d_ago": 24.43
   },
   "PANW": {
     "price": 374.74,
     "change_pct": 11.21,
     "name": "Palo Alto Networks, Inc.",
-    "updated_at": "2026-09-26T12:26:32.843062",
+    "updated_at": "2026-09-26T13:58:36.008397",
     "price_14d_ago": 336.98
   },
   "PBR": {
     "price": 20.37,
     "change_pct": -2.21,
     "name": "Petroleo Brasileiro S.A. Petrob",
-    "updated_at": "2026-09-26T12:26:33.103368",
+    "updated_at": "2026-09-26T13:58:36.199551",
     "price_14d_ago": 20.83
   },
   "PFE": {
     "price": 28.67,
     "change_pct": 3.17,
     "name": "Pfizer, Inc.",
-    "updated_at": "2026-09-26T12:26:33.479019",
+    "updated_at": "2026-09-26T13:58:36.571639",
     "price_14d_ago": 27.79
   },
   "PLTM": {
     "price": 17.04,
     "change_pct": -2.35,
     "name": "GraniteShares Platinum Shares E",
-    "updated_at": "2026-09-26T12:26:33.645046",
+    "updated_at": "2026-09-26T13:58:36.740332",
     "price_14d_ago": 17.45
   },
   "PLTR": {
     "price": 189.67,
     "change_pct": 11.37,
     "name": "Palantir Technologies Inc.",
-    "updated_at": "2026-09-26T12:26:33.826172",
+    "updated_at": "2026-09-26T13:58:36.916771",
     "price_14d_ago": 170.3
   },
   "PQT": {
     "price": 0,
     "change_pct": 0,
     "name": "PQT",
-    "updated_at": "2026-09-26T12:26:34.190401",
+    "updated_at": "2026-09-26T13:58:37.326576",
     "price_14d_ago": null
   },
   "PQUS": {
     "price": 28.77,
     "change_pct": 1.27,
     "name": "Pictet AI Enhanced US Equity ET",
-    "updated_at": "2026-09-26T12:26:34.359808",
+    "updated_at": "2026-09-26T13:58:37.498062",
     "price_14d_ago": 28.41
   },
   "PSBD": {
     "price": 9.83,
     "change_pct": -4.19,
     "name": "Palmer Square Capital BDC Inc.",
-    "updated_at": "2026-09-26T12:26:34.537350",
+    "updated_at": "2026-09-26T13:58:37.665277",
     "price_14d_ago": 10.26
   },
   "PYPL": {
     "price": 55.04,
     "change_pct": 3.5,
     "name": "PayPal Holdings, Inc.",
-    "updated_at": "2026-09-26T12:26:34.703486",
+    "updated_at": "2026-09-26T13:58:37.838635",
     "price_14d_ago": 53.18
   },
   "QQQ": {
     "price": 744.5,
     "change_pct": 3.64,
     "name": "Invesco QQQ Trust, Series 1",
-    "updated_at": "2026-09-26T12:26:34.966787",
+    "updated_at": "2026-09-26T13:58:38.023898",
     "price_14d_ago": 718.36
   },
   "QTA": {
     "price": 0,
     "change_pct": 0,
     "name": "QTA",
-    "updated_at": "2026-09-26T12:26:35.144796",
+    "updated_at": "2026-09-26T13:58:38.205010",
     "price_14d_ago": null
   },
   "RBLX": {
     "price": 46.44,
     "change_pct": 3.61,
     "name": "Roblox Corporation",
-    "updated_at": "2026-09-26T12:26:35.311975",
+    "updated_at": "2026-09-26T13:58:38.388309",
     "price_14d_ago": 44.82
   },
   "RKLB": {
     "price": 73.95,
     "change_pct": 12.27,
     "name": "Rocket Lab Corporation",
-    "updated_at": "2026-09-26T12:26:35.486873",
+    "updated_at": "2026-09-26T13:58:38.555608",
     "price_14d_ago": 65.87
   },
   "Russell": {
     "price": 281.97,
     "change_pct": -4.31,
     "name": "iShares Russell 2000 Index Fund",
-    "updated_at": "2026-09-26T12:26:35.668587",
+    "updated_at": "2026-09-26T13:58:38.743005",
     "price_14d_ago": 294.67
   },
   "S&P": {
     "price": 7743.41,
     "change_pct": 0.91,
     "name": "S&P 500",
-    "updated_at": "2026-09-26T12:26:35.907812",
+    "updated_at": "2026-09-26T13:58:38.912950",
     "price_14d_ago": 7673.52
   },
   "S&P 500": {
     "price": 7743.41,
     "change_pct": 0.91,
     "name": "S&P 500",
-    "updated_at": "2026-09-26T12:26:36.142739",
+    "updated_at": "2026-09-26T13:58:39.082455",
     "price_14d_ago": 7673.52
   },
   "SAMSUNG ELECTRONICS": {
     "price": 285500.0,
     "change_pct": 11.74,
     "name": "SamsungElec",
-    "updated_at": "2026-09-26T12:26:36.329034",
+    "updated_at": "2026-09-26T13:58:39.267520",
     "price_14d_ago": 255500.0
   },
   "SAP": {
     "price": 210.68,
     "change_pct": -0.38,
     "name": "SAP  SE",
-    "updated_at": "2026-09-26T12:26:36.524744",
+    "updated_at": "2026-09-26T13:58:39.457751",
     "price_14d_ago": 211.49
   },
   "SF": {
     "price": 70.35,
     "change_pct": -12.89,
     "name": "Stifel Financial Corporation",
-    "updated_at": "2026-09-26T12:26:36.729091",
+    "updated_at": "2026-09-26T13:58:39.648480",
     "price_14d_ago": 80.76
   },
   "SK HYNIX": {
     "price": 1862000.0,
     "change_pct": 13.05,
     "name": "SK hynix",
-    "updated_at": "2026-09-26T12:26:36.914878",
+    "updated_at": "2026-09-26T13:58:39.836421",
     "price_14d_ago": 1647000.0
   },
   "SLB": {
     "price": 51.54,
     "change_pct": -9.74,
     "name": "SLB Limited",
-    "updated_at": "2026-09-26T12:26:37.125846",
+    "updated_at": "2026-09-26T13:58:40.136776",
     "price_14d_ago": 57.1
   },
   "SMH": {
     "price": 606.56,
     "change_pct": 5.72,
     "name": "VanEck Semiconductor ETF",
-    "updated_at": "2026-09-26T12:26:37.299852",
+    "updated_at": "2026-09-26T13:58:40.335523",
     "price_14d_ago": 573.73
   },
   "SMP-500": {
     "price": 7743.41,
     "change_pct": 0.91,
     "name": "S&P 500",
-    "updated_at": "2026-09-26T12:26:37.460326",
+    "updated_at": "2026-09-26T13:58:40.505681",
     "price_14d_ago": 7673.52
   },
   "SMR": {
     "price": 8.42,
     "change_pct": -24.69,
     "name": "NuScale Power Corporation",
-    "updated_at": "2026-09-26T12:26:37.634169",
+    "updated_at": "2026-09-26T13:58:40.672697",
     "price_14d_ago": 11.18
   },
   "SNAP": {
     "price": 5.42,
     "change_pct": -0.18,
     "name": "Snap Inc.",
-    "updated_at": "2026-09-26T12:26:37.803569",
+    "updated_at": "2026-09-26T13:58:40.842371",
     "price_14d_ago": 5.43
   },
   "SNWGF": {
     "price": 12.38,
     "change_pct": -2.98,
     "name": "SNOWLINE GOLD CORP",
-    "updated_at": "2026-09-26T12:26:37.981112",
+    "updated_at": "2026-09-26T13:58:41.024644",
     "price_14d_ago": 12.76
   },
   "SOYB": {
     "price": 27.72,
     "change_pct": -0.36,
     "name": "Teucrium Soybean Fund ETV",
-    "updated_at": "2026-09-26T12:26:38.149643",
+    "updated_at": "2026-09-26T13:58:41.268127",
     "price_14d_ago": 27.82
   },
   "SPCE": {
     "price": 3.19,
     "change_pct": 1.92,
     "name": "Virgin Galactic Holdings, Inc.",
-    "updated_at": "2026-09-26T12:26:38.317108",
+    "updated_at": "2026-09-26T13:58:41.445235",
     "price_14d_ago": 3.13
   },
   "SPX": {
     "price": 7743.41,
     "change_pct": 0.91,
     "name": "S&P 500",
-    "updated_at": "2026-09-26T12:26:38.646378",
+    "updated_at": "2026-09-26T13:58:41.846016",
     "price_14d_ago": 7673.52
   },
   "SPY": {
     "price": 771.35,
     "change_pct": 0.7,
     "name": "State Street SPDR S&P 500 ETF T",
-    "updated_at": "2026-09-26T12:26:38.850410",
+    "updated_at": "2026-09-26T13:58:42.038601",
     "price_14d_ago": 765.96
   },
   "SQQQ": {
     "price": 33.75,
     "change_pct": -11.9,
     "name": "ProShares UltraPro Short QQQ",
-    "updated_at": "2026-09-26T12:26:39.028881",
+    "updated_at": "2026-09-26T13:58:42.214293",
     "price_14d_ago": 38.31
   },
   "SQUARE": {
     "price": 76.42,
     "change_pct": -4.59,
     "name": "Block, Inc.",
-    "updated_at": "2026-09-26T12:26:39.197293",
+    "updated_at": "2026-09-26T13:58:42.381711",
     "price_14d_ago": 80.1
   },
   "Semiconductors": {
     "price": 606.56,
     "change_pct": 5.72,
     "name": "VanEck Semiconductor ETF",
-    "updated_at": "2026-09-26T12:26:39.395144",
+    "updated_at": "2026-09-26T13:58:42.565543",
     "price_14d_ago": 573.73
   },
   "T": {
     "price": 25.38,
     "change_pct": -0.86,
     "name": "AT&T Inc.",
-    "updated_at": "2026-09-26T12:26:39.591604",
+    "updated_at": "2026-09-26T13:58:42.766369",
     "price_14d_ago": 25.6
   },
   "TDOC": {
     "price": 6.09,
     "change_pct": -2.72,
     "name": "Teladoc Health, Inc.",
-    "updated_at": "2026-09-26T12:26:39.770330",
+    "updated_at": "2026-09-26T13:58:42.941291",
     "price_14d_ago": 6.26
   },
   "TIPS": {
     "price": 0.0,
     "change_pct": 0.0,
     "name": "Tianrong Internet Products and ",
-    "updated_at": "2026-09-26T12:26:40.330726",
+    "updated_at": "2026-09-26T13:58:43.522316",
     "price_14d_ago": 0.0
   },
   "TLT": {
     "price": 79.32,
     "change_pct": -3.5,
     "name": "iShares 20+ Year Treasury Bond ",
-    "updated_at": "2026-09-26T12:26:40.579699",
+    "updated_at": "2026-09-26T13:58:43.716415",
     "price_14d_ago": 82.2
   },
   "TSLA": {
     "price": 372.11,
     "change_pct": 1.07,
     "name": "Tesla, Inc.",
-    "updated_at": "2026-09-26T12:26:40.749201",
+    "updated_at": "2026-09-26T13:58:43.889503",
     "price_14d_ago": 368.16
   },
   "TSM": {
     "price": 450.61,
     "change_pct": 2.64,
     "name": "Taiwan Semiconductor Manufactur",
-    "updated_at": "2026-09-26T12:26:40.947294",
+    "updated_at": "2026-09-26T13:58:44.075157",
     "price_14d_ago": 439.0
   },
   "UBER": {
     "price": 69.62,
     "change_pct": -4.8,
     "name": "Uber Technologies, Inc.",
-    "updated_at": "2026-09-26T12:26:41.346994",
+    "updated_at": "2026-09-26T13:58:44.418003",
     "price_14d_ago": 73.13
   },
   "UNG": {
     "price": 11.13,
     "change_pct": 6.41,
     "name": "United States Natural Gas Fund ",
-    "updated_at": "2026-09-26T12:26:41.524327",
+    "updated_at": "2026-09-26T13:58:44.589960",
     "price_14d_ago": 10.46
   },
   "URANIUM": {
     "price": 40.91,
     "change_pct": -13.87,
     "name": "Uranium ETF",
-    "updated_at": "2026-09-26T12:26:41.871844",
+    "updated_at": "2026-09-26T13:58:44.942468",
     "price_14d_ago": 47.5
   },
   "USD": {
     "price": 95.52,
     "change_pct": 6.49,
     "name": "ProShares Ultra Semiconductors",
-    "updated_at": "2026-09-26T12:26:42.084542",
+    "updated_at": "2026-09-26T13:58:45.155228",
     "price_14d_ago": 89.7
   },
   "USDX": {
     "price": 25.67,
     "change_pct": 0.67,
     "name": "SGI Enhanced Core ETF",
-    "updated_at": "2026-09-26T12:26:42.253326",
+    "updated_at": "2026-09-26T13:58:45.391670",
     "price_14d_ago": 25.5
   },
   "USO": {
     "price": 148.33,
     "change_pct": 1.58,
     "name": "United States Oil Fund",
-    "updated_at": "2026-09-26T12:26:42.421143",
+    "updated_at": "2026-09-26T13:58:45.574403",
     "price_14d_ago": 146.03
   },
   "UTHR": {
     "price": 475.45,
     "change_pct": -4.52,
     "name": "United Therapeutics Corporation",
-    "updated_at": "2026-09-26T12:26:42.588926",
+    "updated_at": "2026-09-26T13:58:45.741044",
     "price_14d_ago": 497.97
   },
   "UUU": {
     "price": 5.11,
     "change_pct": -7.93,
     "name": "Universal Safety Products, Inc.",
-    "updated_at": "2026-09-26T12:26:42.758391",
+    "updated_at": "2026-09-26T13:58:45.934480",
     "price_14d_ago": 5.55
   },
   "V": {
     "price": 367.38,
     "change_pct": -0.34,
     "name": "Visa Inc.",
-    "updated_at": "2026-09-26T12:26:43.121807",
+    "updated_at": "2026-09-26T13:58:46.288777",
     "price_14d_ago": 368.64
   },
   "VEEV": {
     "price": 280.68,
     "change_pct": 5.98,
     "name": "Veeva Systems Inc.",
-    "updated_at": "2026-09-26T12:26:43.460198",
+    "updated_at": "2026-09-26T13:58:46.704840",
     "price_14d_ago": 264.84
   },
   "VIX": {
     "price": 14.87,
     "change_pct": -5.41,
     "name": "CBOE Volatility Index",
-    "updated_at": "2026-09-26T12:26:43.953720",
+    "updated_at": "2026-09-26T13:58:47.269778",
     "price_14d_ago": 15.72
   },
   "VLO": {
     "price": 387.18,
     "change_pct": 1.13,
     "name": "Valero Energy Corporation",
-    "updated_at": "2026-09-26T12:26:44.169362",
+    "updated_at": "2026-09-26T13:58:47.474988",
     "price_14d_ago": 382.85
   },
   "VRTX": {
     "price": 526.19,
     "change_pct": -0.51,
     "name": "Vertex Pharmaceuticals Incorpor",
-    "updated_at": "2026-09-26T12:26:44.338717",
+    "updated_at": "2026-09-26T13:58:47.643085",
     "price_14d_ago": 528.9
   },
   "WFC": {
     "price": 82.97,
     "change_pct": -5.67,
     "name": "Wells Fargo & Company",
-    "updated_at": "2026-09-26T12:26:44.553481",
+    "updated_at": "2026-09-26T13:58:47.941323",
     "price_14d_ago": 87.96
   },
   "WIT": {
     "price": 1.65,
     "change_pct": -4.62,
     "name": "Wipro Limited",
-    "updated_at": "2026-09-26T12:26:44.750662",
+    "updated_at": "2026-09-26T13:58:48.124314",
     "price_14d_ago": 1.73
   },
   "WMT": {
     "price": 107.98,
     "change_pct": 1.82,
     "name": "Walmart Inc.",
-    "updated_at": "2026-09-26T12:26:44.970982",
+    "updated_at": "2026-09-26T13:58:48.338593",
     "price_14d_ago": 106.05
   },
   "WTBN": {
     "price": 24.09,
     "change_pct": -2.27,
     "name": "WisdomTree Bianco Total Return ",
-    "updated_at": "2026-09-26T12:26:45.140301",
+    "updated_at": "2026-09-26T13:58:48.507130",
     "price_14d_ago": 24.66
   },
   "WTI": {
     "price": 92.41,
     "change_pct": -0.67,
     "name": "WTI Crude",
-    "updated_at": "2026-09-26T12:26:45.306214",
+    "updated_at": "2026-09-26T13:58:48.671483",
     "price_14d_ago": 93.03
   },
   "WTI CRUDE OIL": {
     "price": 92.41,
     "change_pct": -0.67,
     "name": "WTI Crude",
-    "updated_at": "2026-09-26T12:26:45.477119",
+    "updated_at": "2026-09-26T13:58:48.840776",
     "price_14d_ago": 93.03
   },
   "XAU-USD": {
     "price": 0,
     "change_pct": 0,
     "name": "XAU9999 Meme USD",
-    "updated_at": "2026-09-26T12:26:45.877169",
+    "updated_at": "2026-09-26T13:58:49.242351",
     "price_14d_ago": 0.0
   },
   "XOM": {
     "price": 160.59,
     "change_pct": -0.04,
     "name": "ExxonMobil Holdings Corporation",
-    "updated_at": "2026-09-26T12:26:46.090469",
+    "updated_at": "2026-09-26T13:58:49.467681",
     "price_14d_ago": 160.66
   },
   "ZIM": {
     "price": 29.19,
     "change_pct": -2.96,
     "name": "ZIM Integrated Shipping Service",
-    "updated_at": "2026-09-26T12:26:46.439137",
+    "updated_at": "2026-09-26T13:58:49.809375",
     "price_14d_ago": 30.08
   },
   "HIMS": {
     "price": 29.42,
     "change_pct": 4.44,
     "name": "Hims & Hers Health, Inc.",
-    "updated_at": "2026-09-26T12:26:46.772313",
+    "updated_at": "2026-09-26T13:58:50.156334",
     "price_14d_ago": 28.17
   },
   "GDRX": {
     "price": 3.35,
     "change_pct": -4.83,
     "name": "GoodRx Holdings, Inc.",
-    "updated_at": "2026-09-26T12:26:46.938665",
+    "updated_at": "2026-09-26T13:58:50.336276",
     "price_14d_ago": 3.52
   },
   "TEM": {
     "price": 85.01,
     "change_pct": 32.23,
     "name": "Tempus AI, Inc.",
-    "updated_at": "2026-09-26T12:26:47.174111",
+    "updated_at": "2026-09-26T13:58:50.500371",
     "price_14d_ago": 64.29
   },
   "GH": {
     "price": 177.25,
     "change_pct": 10.11,
     "name": "Guardant Health, Inc.",
-    "updated_at": "2026-09-26T12:26:47.344580",
+    "updated_at": "2026-09-26T13:58:50.668422",
     "price_14d_ago": 160.98
   },
   "ABT": {
     "price": 101.29,
     "change_pct": -4.01,
     "name": "Abbott Laboratories",
-    "updated_at": "2026-09-26T12:26:47.555598",
+    "updated_at": "2026-09-26T13:58:50.860110",
     "price_14d_ago": 105.52
   }
 },
@@ -44613,7 +44613,7 @@ const dashboardData = {
 ],
   podcastGuests: [
   {
-    "id": 74978,
+    "id": 75089,
     "name": "Eddie Lazaran",
     "slug": "eddie-lazaran",
     "bio": null,
@@ -44625,7 +44625,7 @@ const dashboardData = {
     "appearance_count": 1
   },
   {
-    "id": 74979,
+    "id": 75090,
     "name": "Michael Every",
     "slug": "michael-every",
     "bio": null,
@@ -44637,7 +44637,7 @@ const dashboardData = {
     "appearance_count": 1
   },
   {
-    "id": 74980,
+    "id": 75091,
     "name": "Steve Hilton & Spencer Pratt",
     "slug": "steve-hilton--spencer-pratt",
     "bio": null,
@@ -44649,7 +44649,7 @@ const dashboardData = {
     "appearance_count": 1
   },
   {
-    "id": 74981,
+    "id": 75092,
     "name": "Blake Scholl",
     "slug": "blake-scholl",
     "bio": null,
@@ -44661,7 +44661,7 @@ const dashboardData = {
     "appearance_count": 1
   },
   {
-    "id": 74982,
+    "id": 75093,
     "name": "John Platt",
     "slug": "john-platt",
     "bio": null,
@@ -44673,7 +44673,7 @@ const dashboardData = {
     "appearance_count": 1
   },
   {
-    "id": 74983,
+    "id": 75094,
     "name": "Diogo Almeida",
     "slug": "diogo-almeida",
     "bio": null,
@@ -44685,7 +44685,7 @@ const dashboardData = {
     "appearance_count": 1
   },
   {
-    "id": 74984,
+    "id": 75095,
     "name": "Naveen Rao",
     "slug": "naveen-rao",
     "bio": null,
@@ -44697,7 +44697,7 @@ const dashboardData = {
     "appearance_count": 1
   },
   {
-    "id": 74985,
+    "id": 75096,
     "name": "Outlook on 5 Key Commodities",
     "slug": "outlook-on-5-key-commodities",
     "bio": null,
@@ -44709,7 +44709,7 @@ const dashboardData = {
     "appearance_count": 1
   },
   {
-    "id": 74986,
+    "id": 75097,
     "name": "Bill Gurley",
     "slug": "bill-gurley",
     "bio": null,
@@ -44721,7 +44721,7 @@ const dashboardData = {
     "appearance_count": 1
   },
   {
-    "id": 74987,
+    "id": 75098,
     "name": "Nick Shirley",
     "slug": "nick-shirley",
     "bio": null,
@@ -44733,7 +44733,7 @@ const dashboardData = {
     "appearance_count": 1
   },
   {
-    "id": 74988,
+    "id": 75099,
     "name": "Jared Isaacman",
     "slug": "jared-isaacman",
     "bio": null,
@@ -44745,7 +44745,7 @@ const dashboardData = {
     "appearance_count": 1
   },
   {
-    "id": 74989,
+    "id": 75100,
     "name": "Brad Gerstner",
     "slug": "brad-gerstner",
     "bio": null,
@@ -44757,7 +44757,7 @@ const dashboardData = {
     "appearance_count": 1
   },
   {
-    "id": 74990,
+    "id": 75101,
     "name": "Meta's Dina Powell McCormick",
     "slug": "metas-dina-powell-mccormick",
     "bio": null,
@@ -44769,7 +44769,7 @@ const dashboardData = {
     "appearance_count": 1
   },
   {
-    "id": 74991,
+    "id": 75102,
     "name": "Underwriting Superintelligence",
     "slug": "underwriting-superintelligence",
     "bio": null,
@@ -44781,7 +44781,7 @@ const dashboardData = {
     "appearance_count": 1
   },
   {
-    "id": 74992,
+    "id": 75103,
     "name": "Hawks Take Flight",
     "slug": "hawks-take-flight",
     "bio": null,
@@ -44793,7 +44793,7 @@ const dashboardData = {
     "appearance_count": 1
   },
   {
-    "id": 74993,
+    "id": 75104,
     "name": "Martine Rothblatt",
     "slug": "martine-rothblatt",
     "bio": null,
@@ -44805,7 +44805,7 @@ const dashboardData = {
     "appearance_count": 1
   },
   {
-    "id": 74994,
+    "id": 75105,
     "name": "Microsoft CEO Satya Nadella",
     "slug": "microsoft-ceo-satya-nadella",
     "bio": null,
@@ -44817,7 +44817,7 @@ const dashboardData = {
     "appearance_count": 1
   },
   {
-    "id": 74995,
+    "id": 75106,
     "name": "Jensen Huang",
     "slug": "jensen-huang",
     "bio": null,
@@ -44829,7 +44829,7 @@ const dashboardData = {
     "appearance_count": 1
   },
   {
-    "id": 74996,
+    "id": 75107,
     "name": "Ask the Mates anything",
     "slug": "ask-the-mates-anything",
     "bio": null,
@@ -44841,7 +44841,7 @@ const dashboardData = {
     "appearance_count": 1
   },
   {
-    "id": 74997,
+    "id": 75108,
     "name": "Matt Barry",
     "slug": "matt-barry",
     "bio": null,
@@ -45303,7 +45303,7 @@ const dashboardData = {
     "last_podcast_name": "All-In with Chamath, Jason, Sacks & Friedberg",
     "last_episode_date": "2026-09-18",
     "mention_score": 2,
-    "mention_score_decayed": 1.7,
+    "mention_score_decayed": 1.66,
     "last_main_idea": "Investing in companies involved in aerospace, nuclear technology, and robotics could yield significant returns as NASA advances its lunar and deep space missions.",
     "last_proof_cite": "All-In with Chamath, Jason, Sacks & Friedberg \u2022 2026-09-18 \u2022 Jared Isaacman: A New Era for NASA and American Space Exploration",
     "last_proof_snippet": "Ignition sequenced star. It's good to have an abeater and astronaut in charge. The new NASA Administrator. NASA's still hot. Human climate will not be contained to planet Earth indefinitely. In the next giant leap capabilities that's nuclea",
@@ -45345,71 +45345,6 @@ const dashboardData = {
       ]
     },
     "net_worth": "$1.40B"
-  },
-  {
-    "id": 74,
-    "name": "Travis Kalanick",
-    "slug": "travis-kalanick",
-    "bio": "Entrepreneur and co-founder of Uber, currently working on a new venture focused on industrial AI.",
-    "known_for": "His role in the founding and growth of Uber, and now his new venture in industrial AI.",
-    "net_worth_usd": 3600000000.0,
-    "net_worth_source": "https://finance.yahoo.com/news/uber-founder-travis-kalanick-becomes-201906670.html",
-    "net_worth_updated_at": "2026-03-19T15:49:00.323498",
-    "voice_tone": "Confident and assertive",
-    "voice_style": "Direct and solution-oriented",
-    "voice_delivery_notes": "Paced with emphasis on key points",
-    "voice_profile_updated_at": "2026-08-14 18:36:52",
-    "last_seen": "2026-08-14 18:36:52",
-    "last_episode_title": "Ben Horowitz and Travis Kalanick on Building Again",
-    "last_podcast_name": "The a16z Show",
-    "last_episode_date": "2026-08-14",
-    "mention_score": 4,
-    "mention_score_decayed": 1.52,
-    "last_main_idea": "Industrial AI has the potential to revolutionize major industries, akin to the second industrial revolution.",
-    "last_proof_cite": "The a16z Show \u2022 2026-08-14 \u2022 Ben Horowitz and Travis Kalanick on Building Again",
-    "last_proof_snippet": "Hey Travis is back, but I've actually been working for eight years, I just haven't been talking about it. We're competing for the next industrial revolution. People said, are you pissed off about Uber? Does that grind you when you fall in l",
-    "supporting_takeaway": "Fostering a culture of open debate and pushing for the best ideas can lead to superior outcomes in business.",
-    "grokipedia_url": null,
-    "grokipedia_fetched_at": "2026-07-22T23:37:24.531678",
-    "pundit_profile": {
-      "source": "llm",
-      "source_model": "moonshot:moonshot-v1-8k",
-      "source_url": "",
-      "page_title": "Travis Kalanick",
-      "fetched_at": "2026-07-23T04:37:24.531563+00:00",
-      "cliff_notes": "Travis Kalanick is an American entrepreneur who has made a significant impact on the tech industry with his innovative and disruptive business models. He co-founded Uber, a ride-sharing company that revolutionized urban transportation and challenged traditional taxi services. After leaving Uber, Kalanick founded CloudKitchens, a company that acquires and leases commercial kitchen spaces to food delivery businesses. His aggressive business tactics and relentless focus on growth have earned him both admiration and criticism. Despite facing lawsuits and controversies, Kalanick remains a prominent figure in the tech world, known for his ability to create companies that transform entire sectors.",
-      "derived": {
-        "former_positions": "Co-founder and CEO of Uber; CEO of CloudKitchens",
-        "education": "Bachelor's degree in Computer Engineering from the University of California, Los Angeles (UCLA)"
-      },
-      "infobox": {
-        "Born": "1976",
-        "Nationality": "American"
-      },
-      "lead_paragraphs": [
-        "Travis Kalanick is an American entrepreneur who has made a significant impact on the tech industry with his innovative and disruptive business models. He co-founded Uber, a ride-sharing company that revolutionized urban transportation and challenged traditional taxi services. After leaving Uber, Kalanick founded CloudKitchens, a company that acquires and leases commercial kitchen spaces to food delivery businesses.",
-        "His aggressive business tactics and relentless focus on growth have earned him both admiration and criticism. Despite facing lawsuits and controversies, Kalanick remains a prominent figure in the tech world, known for his ability to create companies that transform entire sectors."
-      ],
-      "sections": [
-        {
-          "heading": "Uber Co-Founder",
-          "body": "Travis Kalanick co-founded Uber in 2009, which went on to become a global ride-sharing giant and disrupt the traditional taxi industry."
-        },
-        {
-          "heading": "CloudKitchens Founder",
-          "body": "Kalanick founded CloudKitchens, a company that provides commercial kitchen spaces for food delivery businesses, aiming to revolutionize the food delivery industry."
-        },
-        {
-          "heading": "Controversies",
-          "body": "Throughout his career, Kalanick has faced various controversies and lawsuits, including those related to Uber's aggressive business tactics and workplace culture."
-        },
-        {
-          "heading": "Innovation and Disruption",
-          "body": "Kalanick is known for his ability to create innovative business models that disrupt traditional industries, as evidenced by Uber and CloudKitchens."
-        }
-      ]
-    },
-    "net_worth": "$3.60B"
   },
   {
     "id": 78,
@@ -45527,6 +45462,71 @@ const dashboardData = {
         }
       ]
     }
+  },
+  {
+    "id": 74,
+    "name": "Travis Kalanick",
+    "slug": "travis-kalanick",
+    "bio": "Entrepreneur and co-founder of Uber, currently working on a new venture focused on industrial AI.",
+    "known_for": "His role in the founding and growth of Uber, and now his new venture in industrial AI.",
+    "net_worth_usd": 3600000000.0,
+    "net_worth_source": "https://finance.yahoo.com/news/uber-founder-travis-kalanick-becomes-201906670.html",
+    "net_worth_updated_at": "2026-03-19T15:49:00.323498",
+    "voice_tone": "Confident and assertive",
+    "voice_style": "Direct and solution-oriented",
+    "voice_delivery_notes": "Paced with emphasis on key points",
+    "voice_profile_updated_at": "2026-08-14 18:36:52",
+    "last_seen": "2026-08-14 18:36:52",
+    "last_episode_title": "Ben Horowitz and Travis Kalanick on Building Again",
+    "last_podcast_name": "The a16z Show",
+    "last_episode_date": "2026-08-14",
+    "mention_score": 4,
+    "mention_score_decayed": 1.48,
+    "last_main_idea": "Industrial AI has the potential to revolutionize major industries, akin to the second industrial revolution.",
+    "last_proof_cite": "The a16z Show \u2022 2026-08-14 \u2022 Ben Horowitz and Travis Kalanick on Building Again",
+    "last_proof_snippet": "Hey Travis is back, but I've actually been working for eight years, I just haven't been talking about it. We're competing for the next industrial revolution. People said, are you pissed off about Uber? Does that grind you when you fall in l",
+    "supporting_takeaway": "Fostering a culture of open debate and pushing for the best ideas can lead to superior outcomes in business.",
+    "grokipedia_url": null,
+    "grokipedia_fetched_at": "2026-07-22T23:37:24.531678",
+    "pundit_profile": {
+      "source": "llm",
+      "source_model": "moonshot:moonshot-v1-8k",
+      "source_url": "",
+      "page_title": "Travis Kalanick",
+      "fetched_at": "2026-07-23T04:37:24.531563+00:00",
+      "cliff_notes": "Travis Kalanick is an American entrepreneur who has made a significant impact on the tech industry with his innovative and disruptive business models. He co-founded Uber, a ride-sharing company that revolutionized urban transportation and challenged traditional taxi services. After leaving Uber, Kalanick founded CloudKitchens, a company that acquires and leases commercial kitchen spaces to food delivery businesses. His aggressive business tactics and relentless focus on growth have earned him both admiration and criticism. Despite facing lawsuits and controversies, Kalanick remains a prominent figure in the tech world, known for his ability to create companies that transform entire sectors.",
+      "derived": {
+        "former_positions": "Co-founder and CEO of Uber; CEO of CloudKitchens",
+        "education": "Bachelor's degree in Computer Engineering from the University of California, Los Angeles (UCLA)"
+      },
+      "infobox": {
+        "Born": "1976",
+        "Nationality": "American"
+      },
+      "lead_paragraphs": [
+        "Travis Kalanick is an American entrepreneur who has made a significant impact on the tech industry with his innovative and disruptive business models. He co-founded Uber, a ride-sharing company that revolutionized urban transportation and challenged traditional taxi services. After leaving Uber, Kalanick founded CloudKitchens, a company that acquires and leases commercial kitchen spaces to food delivery businesses.",
+        "His aggressive business tactics and relentless focus on growth have earned him both admiration and criticism. Despite facing lawsuits and controversies, Kalanick remains a prominent figure in the tech world, known for his ability to create companies that transform entire sectors."
+      ],
+      "sections": [
+        {
+          "heading": "Uber Co-Founder",
+          "body": "Travis Kalanick co-founded Uber in 2009, which went on to become a global ride-sharing giant and disrupt the traditional taxi industry."
+        },
+        {
+          "heading": "CloudKitchens Founder",
+          "body": "Kalanick founded CloudKitchens, a company that provides commercial kitchen spaces for food delivery businesses, aiming to revolutionize the food delivery industry."
+        },
+        {
+          "heading": "Controversies",
+          "body": "Throughout his career, Kalanick has faced various controversies and lawsuits, including those related to Uber's aggressive business tactics and workplace culture."
+        },
+        {
+          "heading": "Innovation and Disruption",
+          "body": "Kalanick is known for his ability to create innovative business models that disrupt traditional industries, as evidenced by Uber and CloudKitchens."
+        }
+      ]
+    },
+    "net_worth": "$3.60B"
   },
   {
     "id": 148,
@@ -46417,7 +46417,7 @@ const dashboardData = {
     "last_podcast_name": "Monetary Matters with Jack Farley",
     "last_episode_date": "2026-09-19",
     "mention_score": 1,
-    "mention_score_decayed": 0.87,
+    "mention_score_decayed": 0.85,
     "last_main_idea": "Rising Treasury yields compress equity risk premiums, necessitating a reassessment of equity valuations.",
     "last_proof_cite": "Monetary Matters with Jack Farley \u2022 2026-09-19 \u2022 Why The 30-Year Treasury Lost Its Biggest Buyers | David Busch on Why High Yields Are Attractive Right Now",
     "last_proof_snippet": "Today, I'm joined by David Bush, Chief Investment Officer of Trajan Wealth, David. Welcome to the monetary matters. Jack, thank you so much for having me. It's truly a pleasure to join you. And as I said in our communication back and forth",
@@ -46510,67 +46510,6 @@ const dashboardData = {
         }
       ]
     }
-  },
-  {
-    "id": 133,
-    "name": "Chris Dixon",
-    "slug": "chris-dixon",
-    "bio": "Chris Dixon is a general partner at a16z, a venture capital firm. He is known for his extensive writing and thought leadership on blockchain technology and its potential to disrupt traditional financial systems.",
-    "known_for": "His insights into blockchain technology and its implications for finance and security.",
-    "net_worth_usd": 500000000.0,
-    "net_worth_source": "https://blockchainreporter.net/net-worth/chris-dixon/",
-    "net_worth_updated_at": "2026-03-28T22:05:07.528099",
-    "voice_tone": "Educative and visionary",
-    "voice_style": "Explains blockchain's potential in a simple, relatable manner",
-    "voice_delivery_notes": "Clear and concise, with a focus on the future implications of blockchain",
-    "voice_profile_updated_at": "2026-08-01 18:36:59",
-    "last_seen": "2026-08-01 18:36:59",
-    "last_episode_title": "Marc Andreessen and Chris Dixon: What\u2019s at Stake in Crypto Regulation",
-    "last_podcast_name": "The a16z Show",
-    "last_episode_date": "2026-08-01",
-    "mention_score": 3,
-    "mention_score_decayed": 0.84,
-    "last_main_idea": "Regulatory clarity through acts like the Clarity Act is essential for the next phase of blockchain adoption and could unlock significant investment opportunities in stablecoins and tokenized assets.",
-    "last_proof_cite": "The a16z Show \u2022 2026-08-01 \u2022 Marc Andreessen and Chris Dixon: What\u2019s at Stake in Crypto Regulation",
-    "last_proof_snippet": "Stable coins are tokenized stocks or dollars on blockchain. Rivals the size of the Visa network. Trillings the dollar is transacted. If you have a dollar of that stable coin, there is a dollar sitting in the bank. And that's why the Clarity",
-    "supporting_takeaway": "The Clarity Act is crucial for providing regulatory clarity and could shape the future of financial infrastructure.",
-    "grokipedia_url": null,
-    "grokipedia_fetched_at": "2026-08-01T13:38:13.301865",
-    "pundit_profile": {
-      "source": "llm",
-      "source_model": "moonshot:moonshot-v1-8k",
-      "source_url": "",
-      "page_title": "Chris Dixon",
-      "fetched_at": "2026-08-01T18:38:13.301526+00:00",
-      "cliff_notes": "Chris Dixon is a prominent figure in the technology and venture capital industry, particularly known for his expertise in blockchain technology. As a general partner at a16z, he has been instrumental in shaping the firm's investment strategy in the blockchain space. Dixon's writings have been influential in understanding the potential of blockchain to disrupt traditional financial systems and the broader implications for security and regulation. His perspectives on the Clarity Act and its potential impact on the blockchain industry highlight his deep understanding of the intersection between technology, finance, and policy.",
-      "derived": {
-        "current_role": "General Partner at a16z",
-        "books_or_works": "Blockchain book"
-      },
-      "infobox": {
-        "Born": "",
-        "Nationality": ""
-      },
-      "lead_paragraphs": [
-        "Chris Dixon is a prominent figure in the technology and venture capital industry, particularly known for his expertise in blockchain technology. As a general partner at a16z, he has been instrumental in shaping the firm's investment strategy in the blockchain space. Dixon's writings have been influential in understanding the potential of blockchain to disrupt traditional financial systems and the broader implications for security and regulation.",
-        "His perspectives on the Clarity Act and its potential impact on the blockchain industry highlight his deep understanding of the intersection between technology, finance, and policy."
-      ],
-      "sections": [
-        {
-          "heading": "Blockchain Expertise",
-          "body": "Chris Dixon is recognized for his in-depth knowledge of blockchain technology and its potential to revolutionize finance and other industries."
-        },
-        {
-          "heading": "Venture Capital",
-          "body": "As a general partner at a16z, Dixon plays a key role in identifying and investing in innovative startups, particularly those in the blockchain space."
-        },
-        {
-          "heading": "Regulatory Insights",
-          "body": "Dixon has been vocal about the need for clear and thoughtful regulation of blockchain technology, as evidenced by his commentary on the Clarity Act and its implications for the industry."
-        }
-      ]
-    },
-    "net_worth": "$500.0M"
   },
   {
     "id": 466,
@@ -46744,6 +46683,67 @@ const dashboardData = {
         }
       ]
     }
+  },
+  {
+    "id": 133,
+    "name": "Chris Dixon",
+    "slug": "chris-dixon",
+    "bio": "Chris Dixon is a general partner at a16z, a venture capital firm. He is known for his extensive writing and thought leadership on blockchain technology and its potential to disrupt traditional financial systems.",
+    "known_for": "His insights into blockchain technology and its implications for finance and security.",
+    "net_worth_usd": 500000000.0,
+    "net_worth_source": "https://blockchainreporter.net/net-worth/chris-dixon/",
+    "net_worth_updated_at": "2026-03-28T22:05:07.528099",
+    "voice_tone": "Educative and visionary",
+    "voice_style": "Explains blockchain's potential in a simple, relatable manner",
+    "voice_delivery_notes": "Clear and concise, with a focus on the future implications of blockchain",
+    "voice_profile_updated_at": "2026-08-01 18:36:59",
+    "last_seen": "2026-08-01 18:36:59",
+    "last_episode_title": "Marc Andreessen and Chris Dixon: What\u2019s at Stake in Crypto Regulation",
+    "last_podcast_name": "The a16z Show",
+    "last_episode_date": "2026-08-01",
+    "mention_score": 3,
+    "mention_score_decayed": 0.82,
+    "last_main_idea": "Regulatory clarity through acts like the Clarity Act is essential for the next phase of blockchain adoption and could unlock significant investment opportunities in stablecoins and tokenized assets.",
+    "last_proof_cite": "The a16z Show \u2022 2026-08-01 \u2022 Marc Andreessen and Chris Dixon: What\u2019s at Stake in Crypto Regulation",
+    "last_proof_snippet": "Stable coins are tokenized stocks or dollars on blockchain. Rivals the size of the Visa network. Trillings the dollar is transacted. If you have a dollar of that stable coin, there is a dollar sitting in the bank. And that's why the Clarity",
+    "supporting_takeaway": "The Clarity Act is crucial for providing regulatory clarity and could shape the future of financial infrastructure.",
+    "grokipedia_url": null,
+    "grokipedia_fetched_at": "2026-08-01T13:38:13.301865",
+    "pundit_profile": {
+      "source": "llm",
+      "source_model": "moonshot:moonshot-v1-8k",
+      "source_url": "",
+      "page_title": "Chris Dixon",
+      "fetched_at": "2026-08-01T18:38:13.301526+00:00",
+      "cliff_notes": "Chris Dixon is a prominent figure in the technology and venture capital industry, particularly known for his expertise in blockchain technology. As a general partner at a16z, he has been instrumental in shaping the firm's investment strategy in the blockchain space. Dixon's writings have been influential in understanding the potential of blockchain to disrupt traditional financial systems and the broader implications for security and regulation. His perspectives on the Clarity Act and its potential impact on the blockchain industry highlight his deep understanding of the intersection between technology, finance, and policy.",
+      "derived": {
+        "current_role": "General Partner at a16z",
+        "books_or_works": "Blockchain book"
+      },
+      "infobox": {
+        "Born": "",
+        "Nationality": ""
+      },
+      "lead_paragraphs": [
+        "Chris Dixon is a prominent figure in the technology and venture capital industry, particularly known for his expertise in blockchain technology. As a general partner at a16z, he has been instrumental in shaping the firm's investment strategy in the blockchain space. Dixon's writings have been influential in understanding the potential of blockchain to disrupt traditional financial systems and the broader implications for security and regulation.",
+        "His perspectives on the Clarity Act and its potential impact on the blockchain industry highlight his deep understanding of the intersection between technology, finance, and policy."
+      ],
+      "sections": [
+        {
+          "heading": "Blockchain Expertise",
+          "body": "Chris Dixon is recognized for his in-depth knowledge of blockchain technology and its potential to revolutionize finance and other industries."
+        },
+        {
+          "heading": "Venture Capital",
+          "body": "As a general partner at a16z, Dixon plays a key role in identifying and investing in innovative startups, particularly those in the blockchain space."
+        },
+        {
+          "heading": "Regulatory Insights",
+          "body": "Dixon has been vocal about the need for clear and thoughtful regulation of blockchain technology, as evidenced by his commentary on the Clarity Act and its implications for the industry."
+        }
+      ]
+    },
+    "net_worth": "$500.0M"
   },
   {
     "id": 462,
@@ -49011,7 +49011,7 @@ const dashboardData = {
     "last_podcast_name": "Monetary Matters with Jack Farley",
     "last_episode_date": "2026-08-26",
     "mention_score": 1,
-    "mention_score_decayed": 0.5,
+    "mention_score_decayed": 0.49,
     "last_main_idea": "Warren Pies suggests that despite the current macro risks, the AI sector remains a key area for investment, with all roads leading back to AI trades.",
     "last_proof_cite": "Monetary Matters with Jack Farley \u2022 2026-08-26 \u2022 Time to Reduce Equity Risk: Why Underappreciated Macro Risks Could Derail the Bull Market | Warren Pies",
     "last_proof_snippet": "If I knew with certainly the Fed was going to hike in September, I'd be underweight stocks right now. It's not that I would say I'm straight up bearish here. I just think the risks are too excited. We highlighted the window from August 15th",
@@ -49075,7 +49075,7 @@ const dashboardData = {
     "last_podcast_name": "Latent Space: The AI Engineer Podcast",
     "last_episode_date": "2026-08-26",
     "mention_score": 1,
-    "mention_score_decayed": 0.5,
+    "mention_score_decayed": 0.49,
     "last_main_idea": "Investing in AI technology that enhances weather and climate modeling can lead to significant advancements in forecasting accuracy and speed, potentially revolutionizing the field and creating new investment opportunities in AI applications for science.",
     "last_proof_cite": "Latent Space: The AI Engineer Podcast \u2022 2026-08-26 \u2022 \ud83d\udd2c\u201cWe have foundation models for language, not for physics\u201d \u2014 Anima Anandkumar, Bren Professor of Computing",
     "last_proof_snippet": "So we, you know, set out looking for interesting examples and one of them was like weather modeling because the weather data is open source and so given that the data was there we were like, okay, let's just go try it. Right. And that's the",
@@ -49515,7 +49515,7 @@ const dashboardData = {
     "last_podcast_name": "Monetary Matters with Jack Farley",
     "last_episode_date": "2026-08-18",
     "mention_score": 1,
-    "mention_score_decayed": 0.42,
+    "mention_score_decayed": 0.41,
     "last_main_idea": "AUA Private Equity Partners focuses on operational improvements in family-run businesses within the food, beverage, pet wellness, and co-manufacturing sectors, targeting a $1.3 to $1.4 trillion market opportunity.",
     "last_proof_cite": "Monetary Matters with Jack Farley \u2022 2026-08-18 \u2022 Ex-Goya COO on the $1.4 Trillion Family Business Opportunity in Three Consumer Sectors | Andy Unanue",
     "last_proof_snippet": "Our economy is driven by family run businesses, 70 plus percent of the GDP is generated through family run businesses. Then the food beverage pack wellness sector, it's a 1.3, 1.4 trillion dollar market opportunity. So it's a big market. I'",
@@ -51363,7 +51363,7 @@ const dashboardData = {
     "last_podcast_name": "Monetary Matters with Jack Farley",
     "last_episode_date": "2026-08-04",
     "mention_score": 1,
-    "mention_score_decayed": 0.3,
+    "mention_score_decayed": 0.29,
     "last_main_idea": "The S&P 500's performance over the next two years will be largely determined by the behavior of extrapolators and corporate equity activity, rather than fundamental earnings growth.",
     "last_proof_cite": "Monetary Matters with Jack Farley \u2022 2026-08-04 \u2022 Victor Haghani on Death of Random Walk, and Passive, Buybacks, and LTCM",
     "last_proof_snippet": "So I feel like we can talk about LTCM. We can talk about, I mean, let's not do that. That's so boring. I mean, everybody's sick of LTCM. Yeah. What do you think the real lessons are? You know, I think the biggest lessons are about personal",
@@ -51487,7 +51487,7 @@ const dashboardData = {
     "last_podcast_name": "The a16z Show",
     "last_episode_date": "2026-08-01",
     "mention_score": 1,
-    "mention_score_decayed": 0.28,
+    "mention_score_decayed": 0.27,
     "last_main_idea": "Regulatory clarity through acts like the Clarity Act is essential for the next phase of blockchain adoption and could unlock significant investment opportunities in stablecoins and tokenized assets.",
     "last_proof_cite": "The a16z Show \u2022 2026-08-01 \u2022 Marc Andreessen and Chris Dixon: What\u2019s at Stake in Crypto Regulation",
     "last_proof_snippet": "Stable coins are tokenized stocks or dollars on blockchain. Rivals the size of the Visa network. Trillings the dollar is transacted. If you have a dollar of that stable coin, there is a dollar sitting in the bank. And that's why the Clarity",
@@ -52525,7 +52525,7 @@ const dashboardData = {
     "last_podcast_name": "The a16z Show",
     "last_episode_date": "2026-07-21",
     "mention_score": 1,
-    "mention_score_decayed": 0.22,
+    "mention_score_decayed": 0.21,
     "last_main_idea": "Investing in physical AI and autonomous systems could lead to significant returns as these technologies transform the physical economy and unlock new productivity gains.",
     "last_proof_cite": "The a16z Show \u2022 2026-07-21 \u2022 Why Physical AI Is the Next Frontier | Applied Intuition",
     "last_proof_snippet": "Our mission is to put intelligence on a billion machines, and that we think that can have a profound impact on society. Applied intuition is a physical attack company. We put intelligence on machines. Cars, trucks, tanks, drones. It's a phy",
@@ -53285,7 +53285,7 @@ const dashboardData = {
     "last_podcast_name": "Dwarkesh Podcast",
     "last_episode_date": "2026-07-10",
     "mention_score": 1,
-    "mention_score_decayed": 0.17,
+    "mention_score_decayed": 0.16,
     "last_main_idea": "While this episode does not present a direct investment thesis, it provides foundational knowledge about the principles of physics that could influence investment decisions in technology and space sectors.",
     "last_proof_cite": "Dwarkesh Podcast \u2022 2026-07-10 \u2022 Adam Brown \u2013 Einstein's happiest thought: General Relativity from scratch",
     "last_proof_snippet": "I'm back with Adam Brown. You currently need blue shift at Google DeepMine, which is cracking science and reasoning. In a previous life, Adam was a prolific physicist taught at Stanford and did research and everything from cosmology to stri",
@@ -53836,127 +53836,6 @@ const dashboardData = {
     }
   },
   {
-    "id": 316,
-    "name": "Evan Feinberg",
-    "slug": "evan-feinberg",
-    "bio": "Evan Feinberg is the co-founder and CEO of Genesis Molecular AI, a company that specializes in leveraging artificial intelligence for drug discovery. He has been a key figure in the development of the Pearl model, which is used for high-resolution drug discovery. Feinberg's work is at the forefront of AI research in the pharmaceutical industry.",
-    "known_for": "Developing the Pearl model for high-resolution drug discovery and pioneering the use of diffusion models in protein structure prediction.",
-    "net_worth_usd": null,
-    "net_worth_source": "",
-    "net_worth_updated_at": null,
-    "voice_tone": "Confident and visionary.",
-    "voice_style": "Factual and solution-oriented.",
-    "voice_delivery_notes": "Clear and concise with a focus on the transformative potential of AI in drug discovery.",
-    "voice_profile_updated_at": "2026-07-01 18:38:33",
-    "last_seen": "2026-07-01 18:38:33",
-    "last_episode_title": "\ud83d\udd2c The Coolest Diffusion Research Isn't in LLMs \u2014 Evan Feinberg & Sergey Edunov, Genesis Molecular AI",
-    "last_podcast_name": "Latent Space: The AI Engineer Podcast",
-    "last_episode_date": "2026-07-01",
-    "mention_score": 1,
-    "mention_score_decayed": 0.14,
-    "last_main_idea": "Investing in AI-driven drug discovery companies like Genesis Molecular AI can offer significant returns due to the potential for increased efficiency and accuracy in drug development processes.",
-    "last_proof_cite": "Latent Space: The AI Engineer Podcast \u2022 2026-07-01 \u2022 \ud83d\udd2c The Coolest Diffusion Research Isn't in LLMs \u2014 Evan Feinberg & Sergey Edunov, Genesis Molecular AI",
-    "last_proof_snippet": "I remember very clearly in like 2017, 2018, talking about guns and how generative adversarial networks and how they're clearly the future of image generation, obviously. They didn't work over very well for proteins or protein-like systems a",
-    "supporting_takeaway": "Seek partnerships between AI firms and pharmaceutical companies that facilitate rapid feedback loops in drug development.",
-    "grokipedia_url": null,
-    "grokipedia_fetched_at": "2026-07-01T13:38:45.940645",
-    "pundit_profile": {
-      "source": "llm",
-      "source_model": "moonshot:moonshot-v1-8k",
-      "source_url": "",
-      "page_title": "Evan Feinberg",
-      "fetched_at": "2026-07-01T18:38:45.940291+00:00",
-      "cliff_notes": "Evan Feinberg is a prominent figure in the field of artificial intelligence, particularly in the application of AI to drug discovery. As the co-founder and CEO of Genesis Molecular AI, he has been instrumental in developing the Pearl model, which is used for high-resolution drug discovery. Feinberg's work has been pivotal in advancing the use of AI in pharmaceuticals, with a focus on generative adversarial networks and diffusion models. His insights have been influential in recognizing the potential of diffusion as a more useful primitive for protein structure prediction, a field where some of the most innovative diffusion research is currently happening. Feinberg's contributions to the intersection of AI and drug discovery have made him a significant player in the industry.",
-      "derived": {
-        "current_role": "Co-founder and CEO of Genesis Molecular AI"
-      },
-      "infobox": {
-        "Born": "",
-        "Nationality": ""
-      },
-      "lead_paragraphs": [
-        "Evan Feinberg is a prominent figure in the field of artificial intelligence, particularly in the application of AI to drug discovery. As the co-founder and CEO of Genesis Molecular AI, he has been instrumental in developing the Pearl model, which is used for high-resolution drug discovery. Feinberg's work has been pivotal in advancing the use of AI in pharmaceuticals, with a focus on generative adversarial networks and diffusion models.",
-        "His insights have been influential in recognizing the potential of diffusion as a more useful primitive for protein structure prediction, a field where some of the most innovative diffusion research is currently happening. Feinberg's contributions to the intersection of AI and drug discovery have made him a significant player in the industry."
-      ],
-      "sections": [
-        {
-          "heading": "AI in Drug Discovery",
-          "body": "Evan Feinberg has been a leader in the application of AI to drug discovery, particularly through the development of the Pearl model which enables high-resolution drug discovery."
-        },
-        {
-          "heading": "Diffusion Models",
-          "body": "Feinberg recognized the limitations of generative adversarial networks in protein systems and shifted focus to diffusion models, which have proven more effective for protein structure prediction."
-        },
-        {
-          "heading": "Innovation in Pharmaceutical Industry",
-          "body": "His work at Genesis Molecular AI has positioned the company at the forefront of AI-driven drug discovery, contributing to the advancement of the pharmaceutical industry."
-        }
-      ]
-    }
-  },
-  {
-    "id": 317,
-    "name": "Sergey Yuternoff",
-    "slug": "sergey-yuternoff",
-    "bio": "Sergey Yuternoff is a computational biologist and the Chief Science Officer at Genesis Molecular AI. He has contributed significantly to the development and application of the Pearl model, a generative model used in protein structure prediction. With a background in physics, Yuternoff has transitioned from software engineering to leading pre-training efforts in AI for molecular biology.",
-    "known_for": "His work in advancing the Pearl model and its application in protein structure prediction, which is pivotal for drug discovery and molecular biology.",
-    "net_worth_usd": 600000000.0,
-    "net_worth_source": "https://coingape.com/education/sergey-nazarov/",
-    "net_worth_updated_at": "2026-07-01T13:38:57.308639",
-    "voice_tone": "Knowledgeable and analytical.",
-    "voice_style": "Technical and detailed.",
-    "voice_delivery_notes": "Explains complex concepts with precision and clarity.",
-    "voice_profile_updated_at": "2026-07-01 18:38:33",
-    "last_seen": "2026-07-01 18:38:33",
-    "last_episode_title": "\ud83d\udd2c The Coolest Diffusion Research Isn't in LLMs \u2014 Evan Feinberg & Sergey Edunov, Genesis Molecular AI",
-    "last_podcast_name": "Latent Space: The AI Engineer Podcast",
-    "last_episode_date": "2026-07-01",
-    "mention_score": 1,
-    "mention_score_decayed": 0.14,
-    "last_main_idea": "Investing in AI-driven drug discovery companies like Genesis Molecular AI can offer significant returns due to the potential for increased efficiency and accuracy in drug development processes.",
-    "last_proof_cite": "Latent Space: The AI Engineer Podcast \u2022 2026-07-01 \u2022 \ud83d\udd2c The Coolest Diffusion Research Isn't in LLMs \u2014 Evan Feinberg & Sergey Edunov, Genesis Molecular AI",
-    "last_proof_snippet": "I remember very clearly in like 2017, 2018, talking about guns and how generative adversarial networks and how they're clearly the future of image generation, obviously. They didn't work over very well for proteins or protein-like systems a",
-    "supporting_takeaway": "Seek partnerships between AI firms and pharmaceutical companies that facilitate rapid feedback loops in drug development.",
-    "grokipedia_url": null,
-    "grokipedia_fetched_at": "2026-07-01T13:38:56.323455",
-    "pundit_profile": {
-      "source": "llm",
-      "source_model": "moonshot:moonshot-v1-8k",
-      "source_url": "",
-      "page_title": "Sergey Yuternoff",
-      "fetched_at": "2026-07-01T18:38:56.323308+00:00",
-      "cliff_notes": "Sergey Yuternoff began his career in physics but transitioned into software engineering post-graduation. His expertise in computational biology led him to contribute to the development of the Pearl model, a generative model instrumental in protein structure prediction. Yuternoff's work is significant in the field of AI for science, particularly in the area of molecular biology, where his leadership in pre-training efforts like Lama II and Lama III has been influential. As the Chief Science Officer at Genesis Molecular AI, he continues to push the boundaries of AI applications in molecular research.",
-      "derived": {
-        "current_role": "Chief Science Officer at Genesis Molecular AI",
-        "former_positions": "Lama II and Lama III pre-training lead",
-        "education": "Physics"
-      },
-      "infobox": {
-        "Born": "",
-        "Nationality": ""
-      },
-      "lead_paragraphs": [
-        "Sergey Yuternoff began his career in physics but transitioned into software engineering post-graduation. His expertise in computational biology led him to contribute to the development of the Pearl model, a generative model instrumental in protein structure prediction. Yuternoff's work is significant in the field of AI for science, particularly in the area of molecular biology, where his leadership in pre-training efforts like Lama II and Lama III has been influential.",
-        "As the Chief Science Officer at Genesis Molecular AI, he continues to push the boundaries of AI applications in molecular research."
-      ],
-      "sections": [
-        {
-          "heading": "Protein Structure Prediction",
-          "body": "Sergey Yuternoff has been instrumental in the advancement of the Pearl model, which is used for protein structure prediction. This work is crucial for understanding protein functions and has significant implications for drug discovery."
-        },
-        {
-          "heading": "AI in Molecular Biology",
-          "body": "Yuturnoff's leadership in AI for molecular biology has been pivotal, particularly in the development and application of generative models like the Pearl model, which are now being used to predict protein structures with high accuracy."
-        },
-        {
-          "heading": "Generative Adversarial Networks",
-          "body": "In the past, Yuternoff discussed the limitations of generative adversarial networks for proteins and protein-like systems, advocating for the use of diffusion as a more effective primitive for the field."
-        }
-      ]
-    },
-    "net_worth": "$600.0M"
-  },
-  {
     "id": 171,
     "name": "Steven Sinofsky",
     "slug": "steven-sinofsky",
@@ -54021,6 +53900,127 @@ const dashboardData = {
       ]
     },
     "net_worth": "$300.0M"
+  },
+  {
+    "id": 316,
+    "name": "Evan Feinberg",
+    "slug": "evan-feinberg",
+    "bio": "Evan Feinberg is the co-founder and CEO of Genesis Molecular AI, a company that specializes in leveraging artificial intelligence for drug discovery. He has been a key figure in the development of the Pearl model, which is used for high-resolution drug discovery. Feinberg's work is at the forefront of AI research in the pharmaceutical industry.",
+    "known_for": "Developing the Pearl model for high-resolution drug discovery and pioneering the use of diffusion models in protein structure prediction.",
+    "net_worth_usd": null,
+    "net_worth_source": "",
+    "net_worth_updated_at": null,
+    "voice_tone": "Confident and visionary.",
+    "voice_style": "Factual and solution-oriented.",
+    "voice_delivery_notes": "Clear and concise with a focus on the transformative potential of AI in drug discovery.",
+    "voice_profile_updated_at": "2026-07-01 18:38:33",
+    "last_seen": "2026-07-01 18:38:33",
+    "last_episode_title": "\ud83d\udd2c The Coolest Diffusion Research Isn't in LLMs \u2014 Evan Feinberg & Sergey Edunov, Genesis Molecular AI",
+    "last_podcast_name": "Latent Space: The AI Engineer Podcast",
+    "last_episode_date": "2026-07-01",
+    "mention_score": 1,
+    "mention_score_decayed": 0.13,
+    "last_main_idea": "Investing in AI-driven drug discovery companies like Genesis Molecular AI can offer significant returns due to the potential for increased efficiency and accuracy in drug development processes.",
+    "last_proof_cite": "Latent Space: The AI Engineer Podcast \u2022 2026-07-01 \u2022 \ud83d\udd2c The Coolest Diffusion Research Isn't in LLMs \u2014 Evan Feinberg & Sergey Edunov, Genesis Molecular AI",
+    "last_proof_snippet": "I remember very clearly in like 2017, 2018, talking about guns and how generative adversarial networks and how they're clearly the future of image generation, obviously. They didn't work over very well for proteins or protein-like systems a",
+    "supporting_takeaway": "Seek partnerships between AI firms and pharmaceutical companies that facilitate rapid feedback loops in drug development.",
+    "grokipedia_url": null,
+    "grokipedia_fetched_at": "2026-07-01T13:38:45.940645",
+    "pundit_profile": {
+      "source": "llm",
+      "source_model": "moonshot:moonshot-v1-8k",
+      "source_url": "",
+      "page_title": "Evan Feinberg",
+      "fetched_at": "2026-07-01T18:38:45.940291+00:00",
+      "cliff_notes": "Evan Feinberg is a prominent figure in the field of artificial intelligence, particularly in the application of AI to drug discovery. As the co-founder and CEO of Genesis Molecular AI, he has been instrumental in developing the Pearl model, which is used for high-resolution drug discovery. Feinberg's work has been pivotal in advancing the use of AI in pharmaceuticals, with a focus on generative adversarial networks and diffusion models. His insights have been influential in recognizing the potential of diffusion as a more useful primitive for protein structure prediction, a field where some of the most innovative diffusion research is currently happening. Feinberg's contributions to the intersection of AI and drug discovery have made him a significant player in the industry.",
+      "derived": {
+        "current_role": "Co-founder and CEO of Genesis Molecular AI"
+      },
+      "infobox": {
+        "Born": "",
+        "Nationality": ""
+      },
+      "lead_paragraphs": [
+        "Evan Feinberg is a prominent figure in the field of artificial intelligence, particularly in the application of AI to drug discovery. As the co-founder and CEO of Genesis Molecular AI, he has been instrumental in developing the Pearl model, which is used for high-resolution drug discovery. Feinberg's work has been pivotal in advancing the use of AI in pharmaceuticals, with a focus on generative adversarial networks and diffusion models.",
+        "His insights have been influential in recognizing the potential of diffusion as a more useful primitive for protein structure prediction, a field where some of the most innovative diffusion research is currently happening. Feinberg's contributions to the intersection of AI and drug discovery have made him a significant player in the industry."
+      ],
+      "sections": [
+        {
+          "heading": "AI in Drug Discovery",
+          "body": "Evan Feinberg has been a leader in the application of AI to drug discovery, particularly through the development of the Pearl model which enables high-resolution drug discovery."
+        },
+        {
+          "heading": "Diffusion Models",
+          "body": "Feinberg recognized the limitations of generative adversarial networks in protein systems and shifted focus to diffusion models, which have proven more effective for protein structure prediction."
+        },
+        {
+          "heading": "Innovation in Pharmaceutical Industry",
+          "body": "His work at Genesis Molecular AI has positioned the company at the forefront of AI-driven drug discovery, contributing to the advancement of the pharmaceutical industry."
+        }
+      ]
+    }
+  },
+  {
+    "id": 317,
+    "name": "Sergey Yuternoff",
+    "slug": "sergey-yuternoff",
+    "bio": "Sergey Yuternoff is a computational biologist and the Chief Science Officer at Genesis Molecular AI. He has contributed significantly to the development and application of the Pearl model, a generative model used in protein structure prediction. With a background in physics, Yuternoff has transitioned from software engineering to leading pre-training efforts in AI for molecular biology.",
+    "known_for": "His work in advancing the Pearl model and its application in protein structure prediction, which is pivotal for drug discovery and molecular biology.",
+    "net_worth_usd": 600000000.0,
+    "net_worth_source": "https://coingape.com/education/sergey-nazarov/",
+    "net_worth_updated_at": "2026-07-01T13:38:57.308639",
+    "voice_tone": "Knowledgeable and analytical.",
+    "voice_style": "Technical and detailed.",
+    "voice_delivery_notes": "Explains complex concepts with precision and clarity.",
+    "voice_profile_updated_at": "2026-07-01 18:38:33",
+    "last_seen": "2026-07-01 18:38:33",
+    "last_episode_title": "\ud83d\udd2c The Coolest Diffusion Research Isn't in LLMs \u2014 Evan Feinberg & Sergey Edunov, Genesis Molecular AI",
+    "last_podcast_name": "Latent Space: The AI Engineer Podcast",
+    "last_episode_date": "2026-07-01",
+    "mention_score": 1,
+    "mention_score_decayed": 0.13,
+    "last_main_idea": "Investing in AI-driven drug discovery companies like Genesis Molecular AI can offer significant returns due to the potential for increased efficiency and accuracy in drug development processes.",
+    "last_proof_cite": "Latent Space: The AI Engineer Podcast \u2022 2026-07-01 \u2022 \ud83d\udd2c The Coolest Diffusion Research Isn't in LLMs \u2014 Evan Feinberg & Sergey Edunov, Genesis Molecular AI",
+    "last_proof_snippet": "I remember very clearly in like 2017, 2018, talking about guns and how generative adversarial networks and how they're clearly the future of image generation, obviously. They didn't work over very well for proteins or protein-like systems a",
+    "supporting_takeaway": "Seek partnerships between AI firms and pharmaceutical companies that facilitate rapid feedback loops in drug development.",
+    "grokipedia_url": null,
+    "grokipedia_fetched_at": "2026-07-01T13:38:56.323455",
+    "pundit_profile": {
+      "source": "llm",
+      "source_model": "moonshot:moonshot-v1-8k",
+      "source_url": "",
+      "page_title": "Sergey Yuternoff",
+      "fetched_at": "2026-07-01T18:38:56.323308+00:00",
+      "cliff_notes": "Sergey Yuternoff began his career in physics but transitioned into software engineering post-graduation. His expertise in computational biology led him to contribute to the development of the Pearl model, a generative model instrumental in protein structure prediction. Yuternoff's work is significant in the field of AI for science, particularly in the area of molecular biology, where his leadership in pre-training efforts like Lama II and Lama III has been influential. As the Chief Science Officer at Genesis Molecular AI, he continues to push the boundaries of AI applications in molecular research.",
+      "derived": {
+        "current_role": "Chief Science Officer at Genesis Molecular AI",
+        "former_positions": "Lama II and Lama III pre-training lead",
+        "education": "Physics"
+      },
+      "infobox": {
+        "Born": "",
+        "Nationality": ""
+      },
+      "lead_paragraphs": [
+        "Sergey Yuternoff began his career in physics but transitioned into software engineering post-graduation. His expertise in computational biology led him to contribute to the development of the Pearl model, a generative model instrumental in protein structure prediction. Yuternoff's work is significant in the field of AI for science, particularly in the area of molecular biology, where his leadership in pre-training efforts like Lama II and Lama III has been influential.",
+        "As the Chief Science Officer at Genesis Molecular AI, he continues to push the boundaries of AI applications in molecular research."
+      ],
+      "sections": [
+        {
+          "heading": "Protein Structure Prediction",
+          "body": "Sergey Yuternoff has been instrumental in the advancement of the Pearl model, which is used for protein structure prediction. This work is crucial for understanding protein functions and has significant implications for drug discovery."
+        },
+        {
+          "heading": "AI in Molecular Biology",
+          "body": "Yuturnoff's leadership in AI for molecular biology has been pivotal, particularly in the development and application of generative models like the Pearl model, which are now being used to predict protein structures with high accuracy."
+        },
+        {
+          "heading": "Generative Adversarial Networks",
+          "body": "In the past, Yuternoff discussed the limitations of generative adversarial networks for proteins and protein-like systems, advocating for the use of diffusion as a more effective primitive for the field."
+        }
+      ]
+    },
+    "net_worth": "$600.0M"
   },
   {
     "id": 315,
@@ -55512,131 +55512,6 @@ const dashboardData = {
     }
   },
   {
-    "id": 287,
-    "name": "Brian Armstrong",
-    "slug": "brian-armstrong",
-    "bio": "Brian Armstrong is a prominent figure in the cryptocurrency industry, known for co-founding Coinbase, one of the largest cryptocurrency exchanges in the world. He has been instrumental in driving innovation in cryptocurrency and blockchain technology, shaping the future of digital currencies.",
-    "known_for": "Driving innovation in cryptocurrency and blockchain technology, co-founding Coinbase.",
-    "net_worth_usd": 12900000000.0,
-    "net_worth_source": "https://www.wikidata.org/wiki/Q64705310",
-    "net_worth_updated_at": "2026-06-11T13:43:06.255887",
-    "voice_tone": "",
-    "voice_style": "",
-    "voice_delivery_notes": "",
-    "voice_profile_updated_at": null,
-    "last_seen": "2026-06-11 18:42:57",
-    "last_episode_title": "Brian Armstrong on Bitcoin, Anthropic Drops Fable 5 & Mythos 5, NewLimit's $435M Age-Reversal | EP #264",
-    "last_podcast_name": "Moonshots with Peter Diamandis",
-    "last_episode_date": "2026-06-11",
-    "mention_score": 1,
-    "mention_score_decayed": 0.09,
-    "last_main_idea": "Explore investment in companies integrating AI and cryptocurrency, particularly those serving AI agents as customers.",
-    "last_proof_cite": "Moonshots with Peter Diamandis \u2022 2026-06-11 \u2022 Brian Armstrong on Bitcoin, Anthropic Drops Fable 5 & Mythos 5, NewLimit's $435M Age-Reversal | EP #264",
-    "last_proof_snippet": "City Bank projects a Bitcoin price reaching as much as 189,000 by the end of 2026. Bitcoin is the new digital gold. I think it's going to be a key part of our economy going forward into the future. I remember it was supposed to be counter-s",
-    "supporting_takeaway": "",
-    "grokipedia_url": null,
-    "grokipedia_fetched_at": "2026-06-11T13:43:05.843914",
-    "pundit_profile": {
-      "source": "llm",
-      "source_model": "moonshot:moonshot-v1-8k",
-      "source_url": "",
-      "page_title": "Brian Armstrong",
-      "fetched_at": "2026-06-11T18:43:05.843582+00:00",
-      "cliff_notes": "Brian Armstrong is a technology entrepreneur and the co-founder and CEO of Coinbase, a leading global cryptocurrency exchange. Armstrong's journey in the tech industry began with his studies in Electrical Engineering and Computer Science at Rice University. His interest in technology and innovation led him to co-found Coinbase in 2012, which has since grown to become one of the largest and most trusted platforms for buying, selling, and managing digital currencies. Armstrong's leadership at Coinbase has been pivotal in the mainstream adoption of cryptocurrencies, and his influence extends to shaping the future of blockchain technology and its integration into the global financial system.",
-      "derived": {
-        "current_role": "CEO at Coinbase",
-        "education": "BS in Electrical Engineering and Computer Science from Rice University"
-      },
-      "infobox": {
-        "Born": "1983",
-        "Nationality": "American"
-      },
-      "lead_paragraphs": [
-        "Brian Armstrong is a technology entrepreneur and the co-founder and CEO of Coinbase, a leading global cryptocurrency exchange. Armstrong's journey in the tech industry began with his studies in Electrical Engineering and Computer Science at Rice University. His interest in technology and innovation led him to co-found Coinbase in 2012, which has since grown to become one of the largest and most trusted platforms for buying, selling, and managing digital currencies.",
-        "Armstrong's leadership at Coinbase has been pivotal in the mainstream adoption of cryptocurrencies, and his influence extends to shaping the future of blockchain technology and its integration into the global financial system."
-      ],
-      "sections": [
-        {
-          "heading": "Cryptocurrency Exchange",
-          "body": "Brian Armstrong co-founded Coinbase in 2012, which has become one of the largest cryptocurrency exchanges globally, facilitating the buying, selling, and management of digital currencies."
-        },
-        {
-          "heading": "Blockchain Innovation",
-          "body": "Armstrong has been a driving force in the innovation of blockchain technology, pushing for its integration into the mainstream financial system and advocating for its potential to revolutionize various industries."
-        },
-        {
-          "heading": "Regulatory Advocacy",
-          "body": "As a leader in the cryptocurrency space, Armstrong has been involved in advocating for clear and fair regulations that protect consumers while fostering innovation in the blockchain and cryptocurrency sectors."
-        }
-      ]
-    },
-    "net_worth": "$12.90B"
-  },
-  {
-    "id": 286,
-    "name": "Larry MacDonald",
-    "slug": "larry-macdonald",
-    "bio": "Larry MacDonald is an expert in market analysis and investment strategies, known for his insights on market dynamics and sector rotations. He is a best-selling author and the founder of the Bear Traps Report, a financial newsletter that provides analysis and investment advice.",
-    "known_for": "His expertise in market analysis and investment strategies, particularly his insights on market dynamics and sector rotations.",
-    "net_worth_usd": null,
-    "net_worth_source": "",
-    "net_worth_updated_at": null,
-    "voice_tone": "Matter-of-fact and insightful.",
-    "voice_style": "Direct and analytical, with a focus on evidence from market data.",
-    "voice_delivery_notes": "Clear and concise, with emphasis on key market figures and predictions.",
-    "voice_profile_updated_at": "2026-06-11 18:42:08",
-    "last_seen": "2026-06-11 18:42:08",
-    "last_episode_title": "MacroVoices #536 Larry Mcdonald: The Migration is Upon us",
-    "last_podcast_name": "Macro Voices",
-    "last_episode_date": "2026-06-11",
-    "mention_score": 1,
-    "mention_score_decayed": 0.09,
-    "last_main_idea": "The market may be entering a new inflation shock regime, leading to a rotation from financial assets to hard assets, with the healthcare sector presenting an under-owned opportunity.",
-    "last_proof_cite": "Macro Voices \u2022 2026-06-11 \u2022 MacroVoices #536 Larry Mcdonald: The Migration is Upon us",
-    "last_proof_snippet": "This is Macrovoisers, the Free Weekly Financial Podcast, targeting professional finance, high-net worth individuals, family offices, and other sophisticated investors. Macrovoisers is all about the brightest minds in the world of finance an",
-    "supporting_takeaway": "Major IPOs, including SpaceX and Google, represent a combined capital raise of approximately $250 billion, which could lead to significant selling pressure on existing stocks.",
-    "grokipedia_url": null,
-    "grokipedia_fetched_at": "2026-06-11T13:43:23.356023",
-    "pundit_profile": {
-      "source": "llm",
-      "source_model": "moonshot:moonshot-v1-8k",
-      "source_url": "",
-      "page_title": "Larry MacDonald",
-      "fetched_at": "2026-06-11T18:43:23.355870+00:00",
-      "cliff_notes": "Larry MacDonald is a renowned expert in market analysis and investment strategies. He is best known for his insights on market dynamics and sector rotations, which have made him a sought-after commentator in the world of finance. MacDonald is the founder of the Bear Traps Report, a financial newsletter that provides analysis and investment advice to its subscribers. His expertise has led him to be featured as a guest on financial podcasts such as Macrovoisers, where he discusses current market trends and opportunities. MacDonald's career has been marked by his ability to provide clear and concise analysis of complex financial issues, making him a respected voice in the industry.",
-      "derived": {
-        "current_role": "Founder, Bear Traps Report",
-        "books_or_works": "Bear Traps Report"
-      },
-      "infobox": {
-        "Born": "",
-        "Nationality": ""
-      },
-      "lead_paragraphs": [
-        "Larry MacDonald is a renowned expert in market analysis and investment strategies. He is best known for his insights on market dynamics and sector rotations, which have made him a sought-after commentator in the world of finance. MacDonald is the founder of the Bear Traps Report, a financial newsletter that provides analysis and investment advice to its subscribers.",
-        "His expertise has led him to be featured as a guest on financial podcasts such as Macrovoisers, where he discusses current market trends and opportunities. MacDonald's career has been marked by his ability to provide clear and concise analysis of complex financial issues, making him a respected voice in the industry."
-      ],
-      "sections": [
-        {
-          "heading": "Market Dynamics",
-          "body": "Larry MacDonald is known for his insights on market dynamics, providing analysis on how various factors influence market movements and trends."
-        },
-        {
-          "heading": "Sector Rotations",
-          "body": "MacDonald's expertise in sector rotations allows him to identify shifts in market focus and predict where opportunities may arise for investors."
-        },
-        {
-          "heading": "Investment Strategies",
-          "body": "As the founder of the Bear Traps Report, MacDonald offers investment strategies and advice to help investors navigate the complex financial landscape."
-        },
-        {
-          "heading": "Financial Analysis",
-          "body": "MacDonald's background in financial analysis has made him a respected voice in the industry, with his insights often sought after by professional finance and high-net worth individuals."
-        }
-      ]
-    }
-  },
-  {
     "id": 164,
     "name": "Vitalik Buterin",
     "slug": "vitalik-buterin",
@@ -55762,6 +55637,131 @@ const dashboardData = {
       ]
     },
     "net_worth": "$4.6M"
+  },
+  {
+    "id": 287,
+    "name": "Brian Armstrong",
+    "slug": "brian-armstrong",
+    "bio": "Brian Armstrong is a prominent figure in the cryptocurrency industry, known for co-founding Coinbase, one of the largest cryptocurrency exchanges in the world. He has been instrumental in driving innovation in cryptocurrency and blockchain technology, shaping the future of digital currencies.",
+    "known_for": "Driving innovation in cryptocurrency and blockchain technology, co-founding Coinbase.",
+    "net_worth_usd": 12900000000.0,
+    "net_worth_source": "https://www.wikidata.org/wiki/Q64705310",
+    "net_worth_updated_at": "2026-06-11T13:43:06.255887",
+    "voice_tone": "",
+    "voice_style": "",
+    "voice_delivery_notes": "",
+    "voice_profile_updated_at": null,
+    "last_seen": "2026-06-11 18:42:57",
+    "last_episode_title": "Brian Armstrong on Bitcoin, Anthropic Drops Fable 5 & Mythos 5, NewLimit's $435M Age-Reversal | EP #264",
+    "last_podcast_name": "Moonshots with Peter Diamandis",
+    "last_episode_date": "2026-06-11",
+    "mention_score": 1,
+    "mention_score_decayed": 0.08,
+    "last_main_idea": "Explore investment in companies integrating AI and cryptocurrency, particularly those serving AI agents as customers.",
+    "last_proof_cite": "Moonshots with Peter Diamandis \u2022 2026-06-11 \u2022 Brian Armstrong on Bitcoin, Anthropic Drops Fable 5 & Mythos 5, NewLimit's $435M Age-Reversal | EP #264",
+    "last_proof_snippet": "City Bank projects a Bitcoin price reaching as much as 189,000 by the end of 2026. Bitcoin is the new digital gold. I think it's going to be a key part of our economy going forward into the future. I remember it was supposed to be counter-s",
+    "supporting_takeaway": "",
+    "grokipedia_url": null,
+    "grokipedia_fetched_at": "2026-06-11T13:43:05.843914",
+    "pundit_profile": {
+      "source": "llm",
+      "source_model": "moonshot:moonshot-v1-8k",
+      "source_url": "",
+      "page_title": "Brian Armstrong",
+      "fetched_at": "2026-06-11T18:43:05.843582+00:00",
+      "cliff_notes": "Brian Armstrong is a technology entrepreneur and the co-founder and CEO of Coinbase, a leading global cryptocurrency exchange. Armstrong's journey in the tech industry began with his studies in Electrical Engineering and Computer Science at Rice University. His interest in technology and innovation led him to co-found Coinbase in 2012, which has since grown to become one of the largest and most trusted platforms for buying, selling, and managing digital currencies. Armstrong's leadership at Coinbase has been pivotal in the mainstream adoption of cryptocurrencies, and his influence extends to shaping the future of blockchain technology and its integration into the global financial system.",
+      "derived": {
+        "current_role": "CEO at Coinbase",
+        "education": "BS in Electrical Engineering and Computer Science from Rice University"
+      },
+      "infobox": {
+        "Born": "1983",
+        "Nationality": "American"
+      },
+      "lead_paragraphs": [
+        "Brian Armstrong is a technology entrepreneur and the co-founder and CEO of Coinbase, a leading global cryptocurrency exchange. Armstrong's journey in the tech industry began with his studies in Electrical Engineering and Computer Science at Rice University. His interest in technology and innovation led him to co-found Coinbase in 2012, which has since grown to become one of the largest and most trusted platforms for buying, selling, and managing digital currencies.",
+        "Armstrong's leadership at Coinbase has been pivotal in the mainstream adoption of cryptocurrencies, and his influence extends to shaping the future of blockchain technology and its integration into the global financial system."
+      ],
+      "sections": [
+        {
+          "heading": "Cryptocurrency Exchange",
+          "body": "Brian Armstrong co-founded Coinbase in 2012, which has become one of the largest cryptocurrency exchanges globally, facilitating the buying, selling, and management of digital currencies."
+        },
+        {
+          "heading": "Blockchain Innovation",
+          "body": "Armstrong has been a driving force in the innovation of blockchain technology, pushing for its integration into the mainstream financial system and advocating for its potential to revolutionize various industries."
+        },
+        {
+          "heading": "Regulatory Advocacy",
+          "body": "As a leader in the cryptocurrency space, Armstrong has been involved in advocating for clear and fair regulations that protect consumers while fostering innovation in the blockchain and cryptocurrency sectors."
+        }
+      ]
+    },
+    "net_worth": "$12.90B"
+  },
+  {
+    "id": 286,
+    "name": "Larry MacDonald",
+    "slug": "larry-macdonald",
+    "bio": "Larry MacDonald is an expert in market analysis and investment strategies, known for his insights on market dynamics and sector rotations. He is a best-selling author and the founder of the Bear Traps Report, a financial newsletter that provides analysis and investment advice.",
+    "known_for": "His expertise in market analysis and investment strategies, particularly his insights on market dynamics and sector rotations.",
+    "net_worth_usd": null,
+    "net_worth_source": "",
+    "net_worth_updated_at": null,
+    "voice_tone": "Matter-of-fact and insightful.",
+    "voice_style": "Direct and analytical, with a focus on evidence from market data.",
+    "voice_delivery_notes": "Clear and concise, with emphasis on key market figures and predictions.",
+    "voice_profile_updated_at": "2026-06-11 18:42:08",
+    "last_seen": "2026-06-11 18:42:08",
+    "last_episode_title": "MacroVoices #536 Larry Mcdonald: The Migration is Upon us",
+    "last_podcast_name": "Macro Voices",
+    "last_episode_date": "2026-06-11",
+    "mention_score": 1,
+    "mention_score_decayed": 0.08,
+    "last_main_idea": "The market may be entering a new inflation shock regime, leading to a rotation from financial assets to hard assets, with the healthcare sector presenting an under-owned opportunity.",
+    "last_proof_cite": "Macro Voices \u2022 2026-06-11 \u2022 MacroVoices #536 Larry Mcdonald: The Migration is Upon us",
+    "last_proof_snippet": "This is Macrovoisers, the Free Weekly Financial Podcast, targeting professional finance, high-net worth individuals, family offices, and other sophisticated investors. Macrovoisers is all about the brightest minds in the world of finance an",
+    "supporting_takeaway": "Major IPOs, including SpaceX and Google, represent a combined capital raise of approximately $250 billion, which could lead to significant selling pressure on existing stocks.",
+    "grokipedia_url": null,
+    "grokipedia_fetched_at": "2026-06-11T13:43:23.356023",
+    "pundit_profile": {
+      "source": "llm",
+      "source_model": "moonshot:moonshot-v1-8k",
+      "source_url": "",
+      "page_title": "Larry MacDonald",
+      "fetched_at": "2026-06-11T18:43:23.355870+00:00",
+      "cliff_notes": "Larry MacDonald is a renowned expert in market analysis and investment strategies. He is best known for his insights on market dynamics and sector rotations, which have made him a sought-after commentator in the world of finance. MacDonald is the founder of the Bear Traps Report, a financial newsletter that provides analysis and investment advice to its subscribers. His expertise has led him to be featured as a guest on financial podcasts such as Macrovoisers, where he discusses current market trends and opportunities. MacDonald's career has been marked by his ability to provide clear and concise analysis of complex financial issues, making him a respected voice in the industry.",
+      "derived": {
+        "current_role": "Founder, Bear Traps Report",
+        "books_or_works": "Bear Traps Report"
+      },
+      "infobox": {
+        "Born": "",
+        "Nationality": ""
+      },
+      "lead_paragraphs": [
+        "Larry MacDonald is a renowned expert in market analysis and investment strategies. He is best known for his insights on market dynamics and sector rotations, which have made him a sought-after commentator in the world of finance. MacDonald is the founder of the Bear Traps Report, a financial newsletter that provides analysis and investment advice to its subscribers.",
+        "His expertise has led him to be featured as a guest on financial podcasts such as Macrovoisers, where he discusses current market trends and opportunities. MacDonald's career has been marked by his ability to provide clear and concise analysis of complex financial issues, making him a respected voice in the industry."
+      ],
+      "sections": [
+        {
+          "heading": "Market Dynamics",
+          "body": "Larry MacDonald is known for his insights on market dynamics, providing analysis on how various factors influence market movements and trends."
+        },
+        {
+          "heading": "Sector Rotations",
+          "body": "MacDonald's expertise in sector rotations allows him to identify shifts in market focus and predict where opportunities may arise for investors."
+        },
+        {
+          "heading": "Investment Strategies",
+          "body": "As the founder of the Bear Traps Report, MacDonald offers investment strategies and advice to help investors navigate the complex financial landscape."
+        },
+        {
+          "heading": "Financial Analysis",
+          "body": "MacDonald's background in financial analysis has made him a respected voice in the industry, with his insights often sought after by professional finance and high-net worth individuals."
+        }
+      ]
+    }
   },
   {
     "id": 284,
@@ -57702,7 +57702,7 @@ const dashboardData = {
     "last_podcast_name": "Macro Voices",
     "last_episode_date": "2026-05-14",
     "mention_score": 1,
-    "mention_score_decayed": 0.05,
+    "mention_score_decayed": 0.04,
     "last_main_idea": "Passive investment flows are dictating market behavior, potentially masking underlying economic weaknesses.",
     "last_proof_cite": "Macro Voices \u2022 2026-05-14 \u2022 MacroVoices #532 Mike Green: Record Mechanical Flows",
     "last_proof_snippet": "This is Macrovoisers, the Free Weekly Financial Podcast, targeting professional finance, high-net worth individuals, family offices, and other sophisticated investors. Macrovoisers is all about the brightest minds in the world of finance an",
@@ -62412,129 +62412,6 @@ const dashboardData = {
     "net_worth": "$1.20B"
   },
   {
-    "id": 127,
-    "name": "Rupert Mitchell",
-    "slug": "rupert-mitchell",
-    "bio": "Rupert Mitchell is an accomplished banker, investor, and analyst with a background in the Ottawa Mobile industry. He is the founder of Blind Squirrel Macro, where he is known for his research and insights on macroeconomic trends.",
-    "known_for": "His research and insights on macroeconomic trends, particularly in the context of market valuations and the business cycle.",
-    "net_worth_usd": 19500000000.0,
-    "net_worth_source": "https://artistnetworth.org/richest-businessman/ceo/rupert-murdoch-net-worth/",
-    "net_worth_updated_at": "2026-03-31T22:01:54.804516",
-    "voice_tone": "",
-    "voice_style": "",
-    "voice_delivery_notes": "",
-    "voice_profile_updated_at": null,
-    "last_seen": "2026-03-28 18:30:57",
-    "last_episode_title": "Stock Market on Shaky Foundations | Blind Squirrel Macro\u2019s Rupert Mitchell on IPO Supply, Oil, and Private Credit",
-    "last_podcast_name": "Monetary Matters with Jack Farley",
-    "last_episode_date": "2026-03-18",
-    "mention_score": 1,
-    "mention_score_decayed": 0.02,
-    "last_main_idea": "The current bull market is built on shaky foundations, and a shift towards a more cautious stance with a focus on security software and data lake control is advised.",
-    "last_proof_cite": "Monetary Matters with Jack Farley \u2022 2026-03-18 \u2022 Stock Market on Shaky Foundations | Blind Squirrel Macro\u2019s Rupert Mitchell on IPO Supply, Oil, and Private Credit",
-    "last_proof_snippet": "Rupert Mitchell is worried about the business cycle ending and the crumbling pillars of buybacks, 401Ks, M&A, and de-equitization.",
-    "supporting_takeaway": "Rupert Mitchell is worried about the business cycle ending and the crumbling pillars of buybacks, 401Ks, M&A, and de-equitization.",
-    "grokipedia_url": null,
-    "grokipedia_fetched_at": "2026-03-31T20:09:25.315808",
-    "pundit_profile": {
-      "source": "llm",
-      "source_model": "moonshot:moonshot-v1-8k",
-      "source_url": "",
-      "page_title": "Rupert Mitchell",
-      "fetched_at": "2026-04-01T01:09:25.315513+00:00",
-      "cliff_notes": "Rupert Mitchell has had a diverse career in finance, starting in the Ottawa Mobile industry and later transitioning into banking and investment. His expertise in macroeconomic trends has led him to found Blind Squirrel Macro, where he provides research and insights that are highly valued by investors and analysts. Mitchell's work focuses on understanding the broader economic landscape and its implications for market behavior, making him a sought-after voice in discussions about the business cycle and market valuations.",
-      "derived": {
-        "current_role": "Founder of Blind Squirrel Macro"
-      },
-      "infobox": {
-        "Born": "",
-        "Nationality": ""
-      },
-      "lead_paragraphs": [
-        "Rupert Mitchell has had a diverse career in finance, starting in the Ottawa Mobile industry and later transitioning into banking and investment. His expertise in macroeconomic trends has led him to found Blind Squirrel Macro, where he provides research and insights that are highly valued by investors and analysts. Mitchell's work focuses on understanding the broader economic landscape and its implications for market behavior, making him a sought-after voice in discussions about the business cycle and market valuations."
-      ],
-      "sections": [
-        {
-          "heading": "Market Valuations",
-          "body": "Rupert Mitchell has expressed concerns about current market valuations, suggesting that they may be built on unstable foundations such as buybacks, 401K contributions, and mergers and acquisitions."
-        },
-        {
-          "heading": "Business Cycle",
-          "body": "Mitchell has been vocal about his worries regarding the business cycle, indicating that he felt a slowdown in consumer activity even before recent geopolitical events, and he is concerned about the potential end of the cycle."
-        },
-        {
-          "heading": "Supply at Concept Type Valuation",
-          "body": "Rupert Mitchell has pointed out the upcoming supply of companies like SpaceX, OpenAI, and Thropic entering the market at high valuations, which could impact the stability of the current market structure."
-        }
-      ]
-    },
-    "net_worth": "$19.50B"
-  },
-  {
-    "id": 126,
-    "name": "Ada Palmer",
-    "slug": "ada-palmer",
-    "bio": "Ada Palmer is a Renaissance historian, novelist, and composer based at the University of Chicago. She is known for her book 'Inventing the Renaissance,' which explores the economic and cultural factors of the period.",
-    "known_for": "Authoring 'Inventing the Renaissance' and her expertise in the economic and cultural aspects of the Renaissance period.",
-    "net_worth_usd": null,
-    "net_worth_source": "",
-    "net_worth_updated_at": null,
-    "voice_tone": "Informed and analytical",
-    "voice_style": "Detailed and historical narrative",
-    "voice_delivery_notes": "Pacing is steady with emphasis on key historical points",
-    "voice_profile_updated_at": "2026-03-28 18:25:51",
-    "last_seen": "2026-03-28 18:25:51",
-    "last_episode_title": "Inventing the Renaissance: Economic and Technological Insights",
-    "last_podcast_name": "Dwarkesh Podcast",
-    "last_episode_date": "2026-03-06",
-    "mention_score": 1,
-    "mention_score_decayed": 0.02,
-    "last_main_idea": "The historical insights from the Italian Renaissance period suggest that technological advancements, such as the printing press, can have a profound impact on society and information distribution, which parallels modern tech revolutions and their investment implications.",
-    "last_proof_cite": "Dwarkesh Podcast \u2022 2026-03-06 \u2022 Inventing the Renaissance: Economic and Technological Insights",
-    "last_proof_snippet": "The ability to sustain local governance was linked to the quality of agricultural land, which allowed wealthier towns to establish republics.",
-    "supporting_takeaway": "The ability to sustain local governance was linked to the quality of agricultural land, which allowed wealthier towns to establish republics.",
-    "grokipedia_url": null,
-    "grokipedia_fetched_at": "2026-03-31T20:09:36.658693",
-    "pundit_profile": {
-      "source": "llm",
-      "source_model": "moonshot:moonshot-v1-8k",
-      "source_url": "",
-      "page_title": "Ada Palmer",
-      "fetched_at": "2026-04-01T01:09:36.658555+00:00",
-      "cliff_notes": "Ada Palmer is a Renaissance historian, novelist, and composer who has made significant contributions to the understanding of the economic and cultural factors of the Renaissance period. Based at the University of Chicago, Palmer's work has been influential in shaping the discourse around the Italian city republics and their role in the development of modern Europe. Her book 'Inventing the Renaissance' has been particularly impactful, providing a comprehensive analysis of the period and its lasting effects on Western civilization. Through her research and writing, Palmer has become a respected voice in the field of Renaissance studies, offering valuable insights into the historical context that has shaped the modern world.",
-      "derived": {
-        "current_role": "Historian, Novelist, Composer at the University of Chicago",
-        "books_or_works": "Inventing the Renaissance"
-      },
-      "infobox": {
-        "Born": "",
-        "Nationality": ""
-      },
-      "lead_paragraphs": [
-        "Ada Palmer is a Renaissance historian, novelist, and composer who has made significant contributions to the understanding of the economic and cultural factors of the Renaissance period. Based at the University of Chicago, Palmer's work has been influential in shaping the discourse around the Italian city republics and their role in the development of modern Europe.",
-        "Her book 'Inventing the Renaissance' has been particularly impactful, providing a comprehensive analysis of the period and its lasting effects on Western civilization. Through her research and writing, Palmer has become a respected voice in the field of Renaissance studies, offering valuable insights into the historical context that has shaped the modern world."
-      ],
-      "sections": [
-        {
-          "heading": "Renaissance Historian",
-          "body": "Ada Palmer is a renowned historian specializing in the Renaissance period, focusing on the economic and cultural factors that shaped the era."
-        },
-        {
-          "heading": "Author of 'Inventing the Renaissance'",
-          "body": "Palmer's book 'Inventing the Renaissance' is a significant contribution to historical literature, providing a detailed exploration of the period's complexities and its impact on modern society."
-        },
-        {
-          "heading": "Composer and Novelist",
-          "body": "In addition to her historical work, Palmer is also a composer and novelist, showcasing her diverse talents and contributions to the arts and academia."
-        },
-        {
-          "heading": "University of Chicago",
-          "body": "Based at the University of Chicago, Palmer continues to teach and research, sharing her expertise with students and the academic community."
-        }
-      ]
-    }
-  },
-  {
     "id": 43,
     "name": "Olivia Moore",
     "slug": "olivia-moore",
@@ -62597,6 +62474,129 @@ const dashboardData = {
         {
           "heading": "AI Risks and Benefits",
           "body": "She highlights the concerns around AI, with 57% of American voters saying the risks of AI outweigh the benefits, indicating a need for careful consideration and management of AI's impact on society."
+        }
+      ]
+    }
+  },
+  {
+    "id": 127,
+    "name": "Rupert Mitchell",
+    "slug": "rupert-mitchell",
+    "bio": "Rupert Mitchell is an accomplished banker, investor, and analyst with a background in the Ottawa Mobile industry. He is the founder of Blind Squirrel Macro, where he is known for his research and insights on macroeconomic trends.",
+    "known_for": "His research and insights on macroeconomic trends, particularly in the context of market valuations and the business cycle.",
+    "net_worth_usd": 19500000000.0,
+    "net_worth_source": "https://artistnetworth.org/richest-businessman/ceo/rupert-murdoch-net-worth/",
+    "net_worth_updated_at": "2026-03-31T22:01:54.804516",
+    "voice_tone": "",
+    "voice_style": "",
+    "voice_delivery_notes": "",
+    "voice_profile_updated_at": null,
+    "last_seen": "2026-03-28 18:30:57",
+    "last_episode_title": "Stock Market on Shaky Foundations | Blind Squirrel Macro\u2019s Rupert Mitchell on IPO Supply, Oil, and Private Credit",
+    "last_podcast_name": "Monetary Matters with Jack Farley",
+    "last_episode_date": "2026-03-18",
+    "mention_score": 1,
+    "mention_score_decayed": 0.01,
+    "last_main_idea": "The current bull market is built on shaky foundations, and a shift towards a more cautious stance with a focus on security software and data lake control is advised.",
+    "last_proof_cite": "Monetary Matters with Jack Farley \u2022 2026-03-18 \u2022 Stock Market on Shaky Foundations | Blind Squirrel Macro\u2019s Rupert Mitchell on IPO Supply, Oil, and Private Credit",
+    "last_proof_snippet": "Rupert Mitchell is worried about the business cycle ending and the crumbling pillars of buybacks, 401Ks, M&A, and de-equitization.",
+    "supporting_takeaway": "Rupert Mitchell is worried about the business cycle ending and the crumbling pillars of buybacks, 401Ks, M&A, and de-equitization.",
+    "grokipedia_url": null,
+    "grokipedia_fetched_at": "2026-03-31T20:09:25.315808",
+    "pundit_profile": {
+      "source": "llm",
+      "source_model": "moonshot:moonshot-v1-8k",
+      "source_url": "",
+      "page_title": "Rupert Mitchell",
+      "fetched_at": "2026-04-01T01:09:25.315513+00:00",
+      "cliff_notes": "Rupert Mitchell has had a diverse career in finance, starting in the Ottawa Mobile industry and later transitioning into banking and investment. His expertise in macroeconomic trends has led him to found Blind Squirrel Macro, where he provides research and insights that are highly valued by investors and analysts. Mitchell's work focuses on understanding the broader economic landscape and its implications for market behavior, making him a sought-after voice in discussions about the business cycle and market valuations.",
+      "derived": {
+        "current_role": "Founder of Blind Squirrel Macro"
+      },
+      "infobox": {
+        "Born": "",
+        "Nationality": ""
+      },
+      "lead_paragraphs": [
+        "Rupert Mitchell has had a diverse career in finance, starting in the Ottawa Mobile industry and later transitioning into banking and investment. His expertise in macroeconomic trends has led him to found Blind Squirrel Macro, where he provides research and insights that are highly valued by investors and analysts. Mitchell's work focuses on understanding the broader economic landscape and its implications for market behavior, making him a sought-after voice in discussions about the business cycle and market valuations."
+      ],
+      "sections": [
+        {
+          "heading": "Market Valuations",
+          "body": "Rupert Mitchell has expressed concerns about current market valuations, suggesting that they may be built on unstable foundations such as buybacks, 401K contributions, and mergers and acquisitions."
+        },
+        {
+          "heading": "Business Cycle",
+          "body": "Mitchell has been vocal about his worries regarding the business cycle, indicating that he felt a slowdown in consumer activity even before recent geopolitical events, and he is concerned about the potential end of the cycle."
+        },
+        {
+          "heading": "Supply at Concept Type Valuation",
+          "body": "Rupert Mitchell has pointed out the upcoming supply of companies like SpaceX, OpenAI, and Thropic entering the market at high valuations, which could impact the stability of the current market structure."
+        }
+      ]
+    },
+    "net_worth": "$19.50B"
+  },
+  {
+    "id": 126,
+    "name": "Ada Palmer",
+    "slug": "ada-palmer",
+    "bio": "Ada Palmer is a Renaissance historian, novelist, and composer based at the University of Chicago. She is known for her book 'Inventing the Renaissance,' which explores the economic and cultural factors of the period.",
+    "known_for": "Authoring 'Inventing the Renaissance' and her expertise in the economic and cultural aspects of the Renaissance period.",
+    "net_worth_usd": null,
+    "net_worth_source": "",
+    "net_worth_updated_at": null,
+    "voice_tone": "Informed and analytical",
+    "voice_style": "Detailed and historical narrative",
+    "voice_delivery_notes": "Pacing is steady with emphasis on key historical points",
+    "voice_profile_updated_at": "2026-03-28 18:25:51",
+    "last_seen": "2026-03-28 18:25:51",
+    "last_episode_title": "Inventing the Renaissance: Economic and Technological Insights",
+    "last_podcast_name": "Dwarkesh Podcast",
+    "last_episode_date": "2026-03-06",
+    "mention_score": 1,
+    "mention_score_decayed": 0.01,
+    "last_main_idea": "The historical insights from the Italian Renaissance period suggest that technological advancements, such as the printing press, can have a profound impact on society and information distribution, which parallels modern tech revolutions and their investment implications.",
+    "last_proof_cite": "Dwarkesh Podcast \u2022 2026-03-06 \u2022 Inventing the Renaissance: Economic and Technological Insights",
+    "last_proof_snippet": "The ability to sustain local governance was linked to the quality of agricultural land, which allowed wealthier towns to establish republics.",
+    "supporting_takeaway": "The ability to sustain local governance was linked to the quality of agricultural land, which allowed wealthier towns to establish republics.",
+    "grokipedia_url": null,
+    "grokipedia_fetched_at": "2026-03-31T20:09:36.658693",
+    "pundit_profile": {
+      "source": "llm",
+      "source_model": "moonshot:moonshot-v1-8k",
+      "source_url": "",
+      "page_title": "Ada Palmer",
+      "fetched_at": "2026-04-01T01:09:36.658555+00:00",
+      "cliff_notes": "Ada Palmer is a Renaissance historian, novelist, and composer who has made significant contributions to the understanding of the economic and cultural factors of the Renaissance period. Based at the University of Chicago, Palmer's work has been influential in shaping the discourse around the Italian city republics and their role in the development of modern Europe. Her book 'Inventing the Renaissance' has been particularly impactful, providing a comprehensive analysis of the period and its lasting effects on Western civilization. Through her research and writing, Palmer has become a respected voice in the field of Renaissance studies, offering valuable insights into the historical context that has shaped the modern world.",
+      "derived": {
+        "current_role": "Historian, Novelist, Composer at the University of Chicago",
+        "books_or_works": "Inventing the Renaissance"
+      },
+      "infobox": {
+        "Born": "",
+        "Nationality": ""
+      },
+      "lead_paragraphs": [
+        "Ada Palmer is a Renaissance historian, novelist, and composer who has made significant contributions to the understanding of the economic and cultural factors of the Renaissance period. Based at the University of Chicago, Palmer's work has been influential in shaping the discourse around the Italian city republics and their role in the development of modern Europe.",
+        "Her book 'Inventing the Renaissance' has been particularly impactful, providing a comprehensive analysis of the period and its lasting effects on Western civilization. Through her research and writing, Palmer has become a respected voice in the field of Renaissance studies, offering valuable insights into the historical context that has shaped the modern world."
+      ],
+      "sections": [
+        {
+          "heading": "Renaissance Historian",
+          "body": "Ada Palmer is a renowned historian specializing in the Renaissance period, focusing on the economic and cultural factors that shaped the era."
+        },
+        {
+          "heading": "Author of 'Inventing the Renaissance'",
+          "body": "Palmer's book 'Inventing the Renaissance' is a significant contribution to historical literature, providing a detailed exploration of the period's complexities and its impact on modern society."
+        },
+        {
+          "heading": "Composer and Novelist",
+          "body": "In addition to her historical work, Palmer is also a composer and novelist, showcasing her diverse talents and contributions to the arts and academia."
+        },
+        {
+          "heading": "University of Chicago",
+          "body": "Based at the University of Chicago, Palmer continues to teach and research, sharing her expertise with students and the academic community."
         }
       ]
     }
@@ -64623,7 +64623,7 @@ const dashboardData = {
         }
       ],
       "disclaimer": "Research sleeve / scorecard, not advice. $1,000 equal-weight illustration only.",
-      "last_updated": "2026-09-26T12:26:48.711472"
+      "last_updated": "2026-09-26T13:58:51.940853"
     }
   ]
 }
