@@ -20,6 +20,25 @@
       "podcast_episode_id": 522
     },
     {
+      "id": 538,
+      "title": "Aaron Levie, Steven Sinofsky & Martin Casado: How Do You Secure a World of AI Agents?",
+      "source_type": "podcast",
+      "source_name": "The a16z Show",
+      "source_date": "2026-09-26",
+      "summary": "The episode discusses the critical balance between regulating AI and fostering innovation. Speakers emphasize the importance of security and governance in AI development, the shift towards probabilistic programming, and the decentralization of AI innovation from traditional labs to application-level developments. The conversation also highlights the need for robust access control as AI systems grow in complexity.",
+      "key_takeaway": "Regulating AI too early may hinder innovation and the development of effective safety measures.",
+      "tickers_mentioned": [
+        "NVDA"
+      ],
+      "sentiment": "neutral",
+      "display_on_main": 0,
+      "display_order": 0,
+      "added_date": "2026-09-26",
+      "archived_date": null,
+      "archived_reason": null,
+      "podcast_episode_id": 523
+    },
+    {
       "id": 534,
       "title": "Runway\u2019s WorldPrompt and the Engineering of Real-Time Worlds",
       "source_type": "podcast",
@@ -10418,8 +10437,8 @@
       "term": "Loops",
       "description": "An operational framework where AI systems handle repetitive tasks in cascading scopes, from individual personal workflows up to large parts of an entire company, freeing humans for strategic and intuitive work.",
       "first_detected_date": "2026-09-12",
-      "last_mentioned_date": "2026-09-25",
-      "mention_count": 6,
+      "last_mentioned_date": "2026-09-26",
+      "mention_count": 7,
       "source_podcasts": null,
       "status": "active",
       "investment_implications": "Companies architected around loops may achieve superior capital efficiency and scalability by compressing operational overhead into automated cycles.",
@@ -10428,7 +10447,7 @@
       "archived_reason": null,
       "first_detected_episode_id": 473,
       "first_detected_speaker": null,
-      "last_mentioned_episode_id": 519,
+      "last_mentioned_episode_id": 523,
       "last_mentioned_speaker": "Peter Diamandis"
     },
     {
@@ -10490,8 +10509,8 @@
       "term": "Simulation",
       "description": "The use of models and computer programs to represent and analyze real or imagined systems or situations.",
       "first_detected_date": "2026-08-21",
-      "last_mentioned_date": "2026-09-25",
-      "mention_count": 19,
+      "last_mentioned_date": "2026-09-26",
+      "mention_count": 20,
       "source_podcasts": null,
       "status": "active",
       "investment_implications": "Simulation technology can provide significant insights for decision-making, making investments in this area potentially valuable.",
@@ -10500,7 +10519,7 @@
       "archived_reason": null,
       "first_detected_episode_id": 420,
       "first_detected_speaker": "June",
-      "last_mentioned_episode_id": 519,
+      "last_mentioned_episode_id": 523,
       "last_mentioned_speaker": "Eddie Lazaran"
     },
     {

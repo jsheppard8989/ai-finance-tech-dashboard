@@ -1,7 +1,7 @@
 {
-  "last_pipeline_run": "2026-09-26T05:37:53.370376",
+  "last_pipeline_run": "2026-09-26T07:10:21.959790",
   "last_steps": {
-    "podcasts_analyzed": 0,
+    "podcasts_analyzed": 1,
     "overton_terms": 139,
     "pundits": 326
   },
@@ -12,11 +12,11 @@
   },
   "counts": {
     "ticker_mentions": 230,
-    "podcast_episodes": 495,
+    "podcast_episodes": 496,
     "newsletters": 7,
     "daily_scores": 167,
     "overton_terms_total": 139,
-    "latest_insights_total": 509,
+    "latest_insights_total": 510,
     "today_mentions": {}
   }
 }
