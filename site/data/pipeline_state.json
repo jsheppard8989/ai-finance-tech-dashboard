@@ -1,7 +1,7 @@
 {
-  "generated_at": "2026-09-26T07:10:21.965012",
-  "last_updated": "2026-09-26T07:10:21.965012",
-  "last_pipeline_run": "2026-09-26T07:10:21.965012",
+  "generated_at": "2026-09-26T12:27:22.806995",
+  "last_updated": "2026-09-26T12:27:22.806995",
+  "last_pipeline_run": "2026-09-26T12:27:22.806995",
   "main_page": {
     "overton": 13,
     "insights": 10,
@@ -18,32 +18,14 @@
     "podcasts_analyzed": 1
   },
   "step_results": {
-    "downloaded": 2,
-    "transcribed": 2,
-    "analyzed": 1,
-    "insight_created": 1,
-    "published": 1,
-    "total": 2
+    "downloaded": 1,
+    "transcribed": 1,
+    "analyzed": 0,
+    "insight_created": 0,
+    "published": 0,
+    "total": 1
   },
   "episodes": [
-    {
-      "id": "38112b09-8b96-41b6-8d9e-b8fb3f25061d",
-      "podcast": "The a16z Show",
-      "title": "Aaron Levie, Steven Sinofsky & Martin Casado: How Do You Secure a World of AI Agents?",
-      "published": "2026-09-26",
-      "rss_guid": "38112b09-8b96-41b6-8d9e-b8fb3f25061d",
-      "stages": {
-        "downloaded": true,
-        "transcribed": true,
-        "analyzed": true,
-        "insight_created": true,
-        "published": true
-      },
-      "stage_reasons": {},
-      "first_blocker": null,
-      "remediation_by_stage": {},
-      "status": "complete"
-    },
     {
       "id": "macrovoices.podbean.com/7cbb9d32-5bbe-3706-bce8-756c4d8128cf",
       "podcast": "Macro Voices",
