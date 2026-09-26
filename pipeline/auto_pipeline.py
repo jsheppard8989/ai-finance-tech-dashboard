@@ -24,6 +24,7 @@ from datetime import datetime, timedelta
 sys.path.insert(0, str(Path(__file__).parent))
 
 from db_manager import get_db, DailyScore
+from site_text_sanitize import strip_reader_advice
 from datetime import date
 from workspace_paths import PIPELINE_DIR, SITE_DIR, STATE_DIR, WORKSPACE_ROOT as WORKSPACE
 
@@ -509,6 +510,18 @@ def promote_episodes_to_insights() -> int:
                 key_takeaway = takeaways[0] if takeaways else ''
             except Exception:
                 key_takeaway = ''
+        # Backstop: drop generic reader advice; fall back to the first clean bullet
+        key_takeaway = strip_reader_advice(key_takeaway or '')
+        if not key_takeaway and ep['key_takeaways']:
+            try:
+                _tk = json.loads(ep['key_takeaways']) if isinstance(ep['key_takeaways'], str) else ep['key_takeaways']
+                for _b in (_tk or []):
+                    _b = strip_reader_advice(_b or '') if isinstance(_b, str) else ''
+                    if _b:
+                        key_takeaway = _b
+                        break
+            except Exception:
+                pass
         key_takeaway = (key_takeaway or '')[:500]
 
         # Derive tickers_mentioned from key_tickers JSON
@@ -676,7 +689,7 @@ Content:
 Return JSON with:
 - "title": punchy 8-12 word insight title (no clickbait, investment-focused)
 - "summary": 2-3 sentence summary of key investment implications
-- "key_takeaway": single most important actionable insight for investors
+- "key_takeaway": ONE sentence, under 40 words, stating the newsletter's single most important specific claim. Include at least one checkable detail (a number, date, named company or ticker, or the mechanism). State what the author claims; never tell the reader what to do. Never use "Investors should", "Investors need to", "Consider", "Invest in", "Focus on", or "Monitor". Use only facts from the newsletter; never invent numbers. BAD: "Investors should watch rising yields." GOOD shape: "[Author] says [specific claim with a number, date, or named company], because [mechanism]."
 - "tickers": list of relevant ticker symbols mentioned
 - "sentiment": "bullish", "bearish", or "neutral"
 """
@@ -701,7 +714,7 @@ Return JSON with:
 
                 insight_title = result.get('title', insight_title)[:200]
                 summary = result.get('summary', summary)[:2000]
-                key_takeaway = result.get('key_takeaway', '')[:500]
+                key_takeaway = strip_reader_advice(result.get('key_takeaway', '') or '')[:500]
                 tickers_mentioned = json.dumps(result.get('tickers', []))
                 sentiment = result.get('sentiment', 'neutral')
             except Exception as e:
