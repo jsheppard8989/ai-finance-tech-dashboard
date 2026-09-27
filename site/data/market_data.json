@@ -86,7 +86,7 @@
     "_primary_source": "Treasury.gov",
     "_source_url": "https://home.treasury.gov/resource-center/data-chart-center/interest-rates/TextView?type=daily_treasury_yield_curve",
     "_fred_status": "unavailable (optional)",
-    "last_updated": "2026-09-26T13:59:10.182149",
+    "last_updated": "2026-09-26T22:17:14.049079",
     "as_of_date": "2026-09-25",
     "spreads": {
       "2s10s": {
@@ -145,7 +145,7 @@
     "_fetch_url": "https://www.cftc.gov/dea/futures/financial_lf.htm",
     "_api_alternative": "Quandl CFTC dataset (may need key)",
     "_fetch_instructions": "CFTC releases COT every Friday at 3:30pm ET for positions as of prior Tuesday.",
-    "last_updated": "2026-09-26T13:59:10.579831",
+    "last_updated": "2026-09-26T22:17:14.457056",
     "report_date": "2026-09-22",
     "prior_report_date": "2026-09-15",
     "rates_positioning": {
@@ -234,14 +234,14 @@
     "_source_url": "https://gpu-index.semianalysis.com/",
     "_api_url": "https://gpu-index.semianalysis.com/api/public-data",
     "_data_type": "api_index",
-    "last_fetched": "2026-09-26T13:58:53.880993",
+    "last_fetched": "2026-09-26T22:16:57.910777",
     "h100": {
-      "daily_date": "Sep 26, 2026",
-      "daily_date_iso": "2026-09-26",
+      "daily_date": "Sep 27, 2026",
+      "daily_date_iso": "2026-09-27",
       "composite_index": {
-        "display": "$3.28",
+        "display": "$3.27",
         "type": "single",
-        "value": 3.28
+        "value": 3.27
       },
       "contract_period": "Aug 2026",
       "1y_contract": {
@@ -265,23 +265,23 @@
         "Aug 2026"
       ],
       "daily_trend": {
-        "data_points": 1081,
-        "latest_value": 3.28,
-        "latest_date": "Sep 26, 2026",
+        "data_points": 1082,
+        "latest_value": 3.27,
+        "latest_date": "Sep 27, 2026",
         "short_term": {
-          "change_pct": 0.6,
-          "comparison_date": "Sep 19, 2026",
-          "comparison_value": 3.26,
+          "change_pct": -0.6,
+          "comparison_date": "Sep 20, 2026",
+          "comparison_value": 3.29,
           "days_back": 7
         },
         "long_term": {
-          "change_pct": 2.2,
-          "anchor_date": "Aug 27, 2026",
-          "anchor_value": 3.21,
+          "change_pct": 1.6,
+          "anchor_date": "Aug 28, 2026",
+          "anchor_value": 3.22,
           "days_back": 30
         },
-        "change_pct": 0.6,
-        "comparison_date": "Sep 19, 2026"
+        "change_pct": -0.6,
+        "comparison_date": "Sep 20, 2026"
       },
       "contract_trend": {
         "data_points": 21,
@@ -332,7 +332,7 @@
       "period": "Aug 2026"
     },
     "b200": {
-      "daily_date": "Sep 26, 2026",
+      "daily_date": "Sep 27, 2026",
       "composite_index": {
         "display": "$5.79",
         "type": "single",
@@ -342,8 +342,8 @@
     "history_summary": {
       "oldest_period": "1H 2023",
       "newest_period": "Aug 2026",
-      "newest_daily": "Sep 26, 2026",
-      "total_daily_points": 1202,
+      "newest_daily": "Sep 27, 2026",
+      "total_daily_points": 1203,
       "total_contract_periods": 22,
       "recent_5": [
         {

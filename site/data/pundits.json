@@ -751,7 +751,7 @@
     "last_podcast_name": "Monetary Matters with Jack Farley",
     "last_episode_date": "2026-08-20",
     "mention_score": 3,
-    "mention_score_decayed": 1.31,
+    "mention_score_decayed": 1.28,
     "last_main_idea": "The rise in AI capex and government spending is leading to increased borrowing costs, which will have profound effects on bond markets and inflation, creating both risks and opportunities for investors.",
     "last_proof_cite": "Monetary Matters with Jack Farley \u2022 2026-08-20 \u2022 Why Bessent Blinked | Luke Gromen on Doubling of Treasury Buyback Plan to Tame Long-End Yields",
     "last_proof_snippet": "Today's episode is brought to you by the two-cream corn fund Take or C-O-R-N. Let's get into it. Got a very important conversation today. I'm joined once again by Luke Groman of Forest for the Trees Research Luke. Welcome back to Monterey M",
@@ -811,7 +811,7 @@
     "last_podcast_name": "Moonshots with Peter Diamandis",
     "last_episode_date": "2026-07-08",
     "mention_score": 3,
-    "mention_score_decayed": 1.19,
+    "mention_score_decayed": 1.16,
     "last_main_idea": "Governments are imposing safety measures on AI models, setting a precedent for future regulations.",
     "last_proof_cite": "Moonshots with Peter Diamandis \u2022 2026-07-08 \u2022 Fable 5 Is Back & Govt-Leashed, Altman Offers 5% of OpenAI & AI Grows Conscious | #269",
     "last_proof_snippet": "Fable 5 came back online globally on July 1st with a few Provisos. This feels like the first time a frontier model has a standing duty to the U.S. government. This is probably close to the best scenario we could have hoped for. Sam has been",
@@ -1508,7 +1508,7 @@
     "last_podcast_name": "Monetary Matters with Jack Farley",
     "last_episode_date": "2026-09-20",
     "mention_score": 1,
-    "mention_score_decayed": 0.89,
+    "mention_score_decayed": 0.87,
     "last_main_idea": "Gold has decoupled from oil prices, indicating a potential for price increases as central banks, especially in China, increase purchases.",
     "last_proof_cite": "Monetary Matters with Jack Farley \u2022 2026-09-20 \u2022 Outlook on 5 Key Commodities: Metals Bull Market is Just Getting Started (Gold, Copper, & Uranium) | J\u00e9r\u00e9mie Boyer | Aurelion",
     "last_proof_snippet": "We're pretty much bullish on goal. I think they coupled from all price. This is what maybe the confirmation we were reading for to become bullish again on goal. As we saw since maybe August and so far, September, there's been a huge spike i",
@@ -1776,60 +1776,6 @@
     }
   },
   {
-    "id": 464,
-    "name": "Harley Bassman",
-    "slug": "harley-bassman",
-    "bio": "Harley Bassman is a financial expert recognized for his deep insights into fixed income markets and economic trends. He is known for his innovative approach to market dynamics and monetary policy, earning him the nickname 'Convexity Maven.' His expertise has made him a sought-after commentator in the finance community.",
-    "known_for": "Harley Bassman is renowned for inventing the Move Index, a key tool for understanding market volatility in fixed income.",
-    "net_worth_usd": null,
-    "net_worth_source": "",
-    "net_worth_updated_at": null,
-    "voice_tone": "Analytical and assertive",
-    "voice_style": "Direct and informative, providing clear insights.",
-    "voice_delivery_notes": "Pacing is steady with emphasis on key points.",
-    "voice_profile_updated_at": "2026-09-17 19:01:38",
-    "last_seen": "2026-09-17 19:01:38",
-    "last_episode_title": "MacroVoices #550 Harley Bassman: In FED We Trust",
-    "last_podcast_name": "Macro Voices",
-    "last_episode_date": "2026-09-17",
-    "mention_score": 1,
-    "mention_score_decayed": 0.83,
-    "last_main_idea": "The Federal Reserve's credibility is eroding, leading to increased market volatility.",
-    "last_proof_cite": "Macro Voices \u2022 2026-09-17 \u2022 MacroVoices #550 Harley Bassman: In FED We Trust",
-    "last_proof_snippet": "What's going on in my view is we have a lack of trust in the government. In a lot of our institutions, and maybe about the Fed, which really important here is the Fed needs to go and regain the trust of the market. That was Harley Basman, t",
-    "supporting_takeaway": "Corporate profits as a percentage of GDP have doubled, indicating a disconnect with public sentiment.",
-    "grokipedia_url": null,
-    "grokipedia_fetched_at": "2026-09-17T14:02:02.949413",
-    "pundit_profile": {
-      "source": "llm",
-      "source_model": "openai:gpt-4o-mini",
-      "source_url": "",
-      "page_title": "Harley Bassman",
-      "fetched_at": "2026-09-17T19:02:02.948863+00:00",
-      "cliff_notes": "Harley Bassman has established himself as a leading voice in the analysis of fixed income markets. His career has been marked by a focus on understanding and interpreting economic trends, particularly in relation to monetary policy and market trust. As the inventor of the Move Index, he has provided investors with a valuable tool for gauging market volatility, which has become essential in today's financial landscape. His insights are frequently sought after in various media, where he discusses the implications of Federal Reserve policies and broader economic conditions. Bassman's ability to distill complex financial concepts into actionable insights has made him a respected figure among both professional finance practitioners and sophisticated private investors.",
-      "derived": {},
-      "infobox": {},
-      "lead_paragraphs": [
-        "Harley Bassman has established himself as a leading voice in the analysis of fixed income markets. His career has been marked by a focus on understanding and interpreting economic trends, particularly in relation to monetary policy and market trust. As the inventor of the Move Index, he has provided investors with a valuable tool for gauging market volatility, which has become essential in today's financial landscape.",
-        "His insights are frequently sought after in various media, where he discusses the implications of Federal Reserve policies and broader economic conditions. Bassman's ability to distill complex financial concepts into actionable insights has made him a respected figure among both professional finance practitioners and sophisticated private investors."
-      ],
-      "sections": [
-        {
-          "heading": "Fixed Income Markets",
-          "body": "Bassman offers expert analysis on the dynamics of fixed income markets, providing insights into trends and investment strategies."
-        },
-        {
-          "heading": "Monetary Policy",
-          "body": "He discusses the implications of monetary policy decisions by the Federal Reserve and their impact on market confidence and investor behavior."
-        },
-        {
-          "heading": "Market Volatility",
-          "body": "As the creator of the Move Index, Bassman provides a framework for understanding market volatility, helping investors navigate uncertain environments."
-        }
-      ]
-    }
-  },
-  {
     "id": 133,
     "name": "Chris Dixon",
     "slug": "chris-dixon",
@@ -1889,6 +1835,60 @@
       ]
     },
     "net_worth": "$500.0M"
+  },
+  {
+    "id": 464,
+    "name": "Harley Bassman",
+    "slug": "harley-bassman",
+    "bio": "Harley Bassman is a financial expert recognized for his deep insights into fixed income markets and economic trends. He is known for his innovative approach to market dynamics and monetary policy, earning him the nickname 'Convexity Maven.' His expertise has made him a sought-after commentator in the finance community.",
+    "known_for": "Harley Bassman is renowned for inventing the Move Index, a key tool for understanding market volatility in fixed income.",
+    "net_worth_usd": null,
+    "net_worth_source": "",
+    "net_worth_updated_at": null,
+    "voice_tone": "Analytical and assertive",
+    "voice_style": "Direct and informative, providing clear insights.",
+    "voice_delivery_notes": "Pacing is steady with emphasis on key points.",
+    "voice_profile_updated_at": "2026-09-17 19:01:38",
+    "last_seen": "2026-09-17 19:01:38",
+    "last_episode_title": "MacroVoices #550 Harley Bassman: In FED We Trust",
+    "last_podcast_name": "Macro Voices",
+    "last_episode_date": "2026-09-17",
+    "mention_score": 1,
+    "mention_score_decayed": 0.81,
+    "last_main_idea": "The Federal Reserve's credibility is eroding, leading to increased market volatility.",
+    "last_proof_cite": "Macro Voices \u2022 2026-09-17 \u2022 MacroVoices #550 Harley Bassman: In FED We Trust",
+    "last_proof_snippet": "What's going on in my view is we have a lack of trust in the government. In a lot of our institutions, and maybe about the Fed, which really important here is the Fed needs to go and regain the trust of the market. That was Harley Basman, t",
+    "supporting_takeaway": "Corporate profits as a percentage of GDP have doubled, indicating a disconnect with public sentiment.",
+    "grokipedia_url": null,
+    "grokipedia_fetched_at": "2026-09-17T14:02:02.949413",
+    "pundit_profile": {
+      "source": "llm",
+      "source_model": "openai:gpt-4o-mini",
+      "source_url": "",
+      "page_title": "Harley Bassman",
+      "fetched_at": "2026-09-17T19:02:02.948863+00:00",
+      "cliff_notes": "Harley Bassman has established himself as a leading voice in the analysis of fixed income markets. His career has been marked by a focus on understanding and interpreting economic trends, particularly in relation to monetary policy and market trust. As the inventor of the Move Index, he has provided investors with a valuable tool for gauging market volatility, which has become essential in today's financial landscape. His insights are frequently sought after in various media, where he discusses the implications of Federal Reserve policies and broader economic conditions. Bassman's ability to distill complex financial concepts into actionable insights has made him a respected figure among both professional finance practitioners and sophisticated private investors.",
+      "derived": {},
+      "infobox": {},
+      "lead_paragraphs": [
+        "Harley Bassman has established himself as a leading voice in the analysis of fixed income markets. His career has been marked by a focus on understanding and interpreting economic trends, particularly in relation to monetary policy and market trust. As the inventor of the Move Index, he has provided investors with a valuable tool for gauging market volatility, which has become essential in today's financial landscape.",
+        "His insights are frequently sought after in various media, where he discusses the implications of Federal Reserve policies and broader economic conditions. Bassman's ability to distill complex financial concepts into actionable insights has made him a respected figure among both professional finance practitioners and sophisticated private investors."
+      ],
+      "sections": [
+        {
+          "heading": "Fixed Income Markets",
+          "body": "Bassman offers expert analysis on the dynamics of fixed income markets, providing insights into trends and investment strategies."
+        },
+        {
+          "heading": "Monetary Policy",
+          "body": "He discusses the implications of monetary policy decisions by the Federal Reserve and their impact on market confidence and investor behavior."
+        },
+        {
+          "heading": "Market Volatility",
+          "body": "As the creator of the Move Index, Bassman provides a framework for understanding market volatility, helping investors navigate uncertain environments."
+        }
+      ]
+    }
   },
   {
     "id": 462,
@@ -2440,7 +2440,7 @@
     "last_podcast_name": "All-In with Chamath, Jason, Sacks & Friedberg",
     "last_episode_date": "2026-08-08",
     "mention_score": 2,
-    "mention_score_decayed": 0.79,
+    "mention_score_decayed": 0.78,
     "last_main_idea": "Investment in AI infrastructure and data centers is becoming increasingly important due to the demand for compute power and the tax advantages of such investments in the U.S.",
     "last_proof_cite": "All-In with Chamath, Jason, Sacks & Friedberg \u2022 2026-08-08 \u2022 Google's AI Brain Drain, SpaceX's Huge Quarter, Airtable's 90% Collapse, US Data Fuels China AI",
     "last_proof_snippet": "All right, everybody. Welcome back to your favorite podcast. It's the all-in podcast. It's the summer. It's August 6th. Haven't a hard time getting a core. I'm here on the podcast. But David Friedberg is here. David Friedberg is back our Su",
@@ -2498,7 +2498,7 @@
     "last_podcast_name": "Monetary Matters with Jack Farley",
     "last_episode_date": "2026-09-13",
     "mention_score": 1,
-    "mention_score_decayed": 0.76,
+    "mention_score_decayed": 0.74,
     "last_main_idea": "The junior mining sector offers a compelling asymmetric opportunity in distressed, underappreciated assets with strong management, where years of capital flight and depleted liquidity have created a fertile environment for patient capital to realize value through operational improvement and an impending wave of major-miner M&A.",
     "last_proof_cite": "Monetary Matters with Jack Farley \u2022 2026-09-13 \u2022 Hunting for Value in Mining Stocks Amid Soaring Metals Prices | Freddy Brick | Muddy Waters Capital",
     "last_proof_snippet": "We actually don't have a huge view of metal prices, which everyone probably thinks is just insane given that we run a metals and mining fund, 2% down day on the S&P, like you know a lot of Bloomberg going yellow pretty early and people are",
@@ -3539,7 +3539,7 @@
     "last_podcast_name": "The a16z Show",
     "last_episode_date": "2026-08-21",
     "mention_score": 1,
-    "mention_score_decayed": 0.52,
+    "mention_score_decayed": 0.51,
     "last_main_idea": "Investing in AI-driven security solutions can enhance operational efficiency and effectiveness, providing a competitive edge in a rapidly evolving technological landscape.",
     "last_proof_cite": "The a16z Show \u2022 2026-08-21 \u2022 Microsoft's Deputy CISO on Securing AI Agents",
     "last_proof_snippet": "The top story has been that the AI models are happy. The models went out under the internet and tested the security of several organizations. Isn't something to be scared of? Yes. Is it something to throw up your hands and worry about? No.",
@@ -3601,7 +3601,7 @@
     "last_podcast_name": "Moonshots with Peter Diamandis",
     "last_episode_date": "2026-07-29",
     "mention_score": 1,
-    "mention_score_decayed": 0.52,
+    "mention_score_decayed": 0.51,
     "last_main_idea": "The accelerating pace of AI development, coupled with advancements in space technology and a shifting geopolitical landscape, creates a multi-faceted investment opportunity in companies fostering balanced AI ecosystems, pioneering AGI, and enabling future abundance.",
     "last_proof_cite": "Moonshots with Peter Diamandis \u2022 2026-07-29 \u2022 Dario vs Jensen on Open Weights, OpenAI & Anthropic in DC, Xi Exports AI to Global South | EP #275",
     "last_proof_snippet": "The couple of days ago, Jensen Wong's CEO of NVIDIA. He says the world needs both frontier, close models, and frontier open models. And Thropic was silent for three days, and there was a lot of conversation. Where's in Thropic in this conve",
@@ -3629,7 +3629,7 @@
     "last_podcast_name": "Moonshots with Peter Diamandis",
     "last_episode_date": "2026-07-29",
     "mention_score": 1,
-    "mention_score_decayed": 0.52,
+    "mention_score_decayed": 0.51,
     "last_main_idea": "The accelerating pace of AI development, coupled with advancements in space technology and a shifting geopolitical landscape, creates a multi-faceted investment opportunity in companies fostering balanced AI ecosystems, pioneering AGI, and enabling future abundance.",
     "last_proof_cite": "Moonshots with Peter Diamandis \u2022 2026-07-29 \u2022 Dario vs Jensen on Open Weights, OpenAI & Anthropic in DC, Xi Exports AI to Global South | EP #275",
     "last_proof_snippet": "The couple of days ago, Jensen Wong's CEO of NVIDIA. He says the world needs both frontier, close models, and frontier open models. And Thropic was silent for three days, and there was a lot of conversation. Where's in Thropic in this conve",
@@ -3657,7 +3657,7 @@
     "last_podcast_name": "The a16z Show",
     "last_episode_date": "2026-06-12",
     "mention_score": 1,
-    "mention_score_decayed": 0.52,
+    "mention_score_decayed": 0.51,
     "last_main_idea": "The core investment opportunity lies in identifying and capitalizing on the foundational industries and efficient institutions that will enable and benefit from the AI-induced industrial revolution, while also navigating the demographic and political economic shifts it engenders.",
     "last_proof_cite": "The a16z Show \u2022 2026-06-12 \u2022 Samo Burja on Growth, Energy, and AI",
     "last_proof_snippet": "So, I actually think a big macro story that we've been exploring at Bismarck and Alice's in Bismarck Brief is that the demands of AI are so massive that for the first time in decades, the economies of scale necessary to supply them require",
@@ -4904,7 +4904,7 @@
     "last_podcast_name": "Monetary Matters with Jack Farley",
     "last_episode_date": "2026-08-16",
     "mention_score": 1,
-    "mention_score_decayed": 0.4,
+    "mention_score_decayed": 0.39,
     "last_main_idea": "Investment in hyperscaler companies may offer significant returns due to their transformative technology and massive capital investments, but also carries risks due to the off-balance sheet leverage and innovative financial structures.",
     "last_proof_cite": "Monetary Matters with Jack Farley \u2022 2026-08-16 \u2022 Robin Wigglesworth on Hyperscalers' 1.5 Trillion of Off-Balance Sheet Liabilities, Private Credit, and His Book \"A Fabulous Debt\"",
     "last_proof_snippet": "I'm joined today by Robin Wigglesworth, editor of AlphaVille, the Financial Times Financial blog and author of a fabulous debt, the epic story of how bonds built the modern world Robin. But one talk about bonds fixed income of course, but w",
@@ -5217,7 +5217,7 @@
     "last_podcast_name": "Monetary Matters with Jack Farley",
     "last_episode_date": "2026-08-12",
     "mention_score": 1,
-    "mention_score_decayed": 0.36,
+    "mention_score_decayed": 0.35,
     "last_main_idea": "Milton Berg's investment thesis is that the market may have bottomed and is poised for a rebound, with specific focus on sectors that have experienced significant declines as potential short-term bounce candidates.",
     "last_proof_cite": "Monetary Matters with Jack Farley \u2022 2026-08-12 \u2022 Milton Berg: I Have Evidence Market Has Likely Bottomed | Why Milton\u2019s Long Semis, Korea, Nasdaq, and More (With Caveats), and Why He Thinks Gold has made a Multi-year Top",
     "last_proof_snippet": "I am joined once again by Milton Berg of MB advisors and Milton Berg Edge. Milton is one of the greatest market technicians alive. And he focuses on a lot of things that most tetanolists don't follow. He's mostly not looking at charts. He's",
@@ -6371,7 +6371,7 @@
     "last_podcast_name": "Moonshots with Peter Diamandis",
     "last_episode_date": "2026-08-04",
     "mention_score": 1,
-    "mention_score_decayed": 0.3,
+    "mention_score_decayed": 0.29,
     "last_main_idea": "Investing in AI and technology sectors that align with the U.S. government's initiatives for fostering innovation and scientific discovery could provide significant growth opportunities.",
     "last_proof_cite": "Moonshots with Peter Diamandis \u2022 2026-08-04 \u2022 Michael Kratsios on the New Golden Age of American Science | EP #276",
     "last_proof_snippet": "I was a kid in the candy store reading the Golden Age Report. What you're describing there is a complete fundamental AI native AI agent up, reimagining of the entire scientific process. And I think it's something that is possible. My sense",
@@ -6440,7 +6440,7 @@
     "last_podcast_name": "The a16z Show",
     "last_episode_date": "2026-08-04",
     "mention_score": 1,
-    "mention_score_decayed": 0.3,
+    "mention_score_decayed": 0.29,
     "last_main_idea": "Investing in cybersecurity solutions that leverage AI can provide a competitive advantage, but it also requires understanding the novel risks and vulnerabilities that AI models can create.",
     "last_proof_cite": "The a16z Show \u2022 2026-08-04 \u2022 OpenAI's Joshua Achiam: Did We Already Reach AGI?",
     "last_proof_snippet": "Heels like AGI is kind of already here and most people have gone like drug. The fact that we passed the threshold of where unsolved mathematical trajectors are getting solved by extremely intelligent AI, where those AI's are more capable an",
@@ -7599,7 +7599,7 @@
     "last_podcast_name": "All-In with Chamath, Jason, Sacks & Friedberg",
     "last_episode_date": "2026-07-20",
     "mention_score": 1,
-    "mention_score_decayed": 0.22,
+    "mention_score_decayed": 0.21,
     "last_main_idea": "The current market behavior, while bubbly, is distinct from past bubbles and may disproportionately impact venture capital and private equity firms due to aggressive investment strategies.",
     "last_proof_cite": "All-In with Chamath, Jason, Sacks & Friedberg \u2022 2026-07-20 \u2022 Mark Cuban on the AI Bubble: Who Actually Gets Wiped Out?",
     "last_proof_snippet": "You and I live through a couple of bubbles. We've seen this movie before. And this wave seems very different than the dot com wave. So let's talk about that. Are you concerned about a bubble? We're seeing bubbly like behavior people. It's n",
@@ -7862,7 +7862,7 @@
     "last_podcast_name": "Moonshots with Peter Diamandis",
     "last_episode_date": "2026-07-17",
     "mention_score": 1,
-    "mention_score_decayed": 0.2,
+    "mention_score_decayed": 0.19,
     "last_main_idea": "Investing in AI companies that focus on customization and small language models can provide significant returns as these technologies meet current market demands and have the potential to shape the future of AI.",
     "last_proof_cite": "Moonshots with Peter Diamandis \u2022 2026-07-17 \u2022 Mira Murati's 975B Open Model, Ramin Hasani on Post-Transformer AI, and Demis' AI FINRA | EP #271",
     "last_proof_snippet": "Miramoradi, the former OpenAI CTO, just shipped her first model. It's called Inkling, customization over leaderboard dominance is what's going to win her the day. She's built exactly the thing hitting the market that exactly what everybody",
@@ -8875,7 +8875,7 @@
     "last_podcast_name": "Monetary Matters with Jack Farley",
     "last_episode_date": "2026-07-04",
     "mention_score": 1,
-    "mention_score_decayed": 0.15,
+    "mention_score_decayed": 0.14,
     "last_main_idea": "Clarion Partners manages over $70 billion in real estate assets, with a significant portion in industrial logistics.",
     "last_proof_cite": "Monetary Matters with Jack Farley \u2022 2026-07-04 \u2022 The Real Estate Cycle Is Turning | Josh Pristaw on The New Cycle in Real Estate, Opportunity in Senior Living, Why AI Data Centers Are Too Big For Most Investors",
     "last_proof_snippet": "Today's episode is brought to you by the Fundrise Income Fund. You'll hear more about the income fund later in the show, but for now, let's get into today's interview. Today we're going to be talking all things real estate. I'm joined by Jo",
@@ -13975,7 +13975,7 @@
     "last_podcast_name": "The a16z Show",
     "last_episode_date": "2026-05-01",
     "mention_score": 1,
-    "mention_score_decayed": 0.04,
+    "mention_score_decayed": 0.03,
     "last_main_idea": "Live streaming and communal experiences are on the rise due to the human element being difficult to replicate.",
     "last_proof_cite": "The a16z Show \u2022 2026-05-01 \u2022 Balaji and Taylor Lorenz on AI and Media",
     "last_proof_snippet": "I think the media guys think the tech guys start it, the tech guys think the media guys think the tech guys start it by economically disrupting them? I think this is why we're seeing such a resurgence in live streaming and interesting in th",
@@ -14038,7 +14038,7 @@
     "last_podcast_name": "The a16z Show",
     "last_episode_date": "2026-05-01",
     "mention_score": 1,
-    "mention_score_decayed": 0.04,
+    "mention_score_decayed": 0.03,
     "last_main_idea": "Live streaming and communal experiences are on the rise due to the human element being difficult to replicate.",
     "last_proof_cite": "The a16z Show \u2022 2026-05-01 \u2022 Balaji and Taylor Lorenz on AI and Media",
     "last_proof_snippet": "I think the media guys think the tech guys start it, the tech guys think the media guys think the tech guys start it by economically disrupting them? I think this is why we're seeing such a resurgence in live streaming and interesting in th",
@@ -14109,7 +14109,7 @@
     "last_podcast_name": "Monetary Matters with Jack Farley",
     "last_episode_date": "2026-05-01",
     "mention_score": 1,
-    "mention_score_decayed": 0.04,
+    "mention_score_decayed": 0.03,
     "last_main_idea": "New economy stocks are less predictable using traditional fundamental analysis due to high levels of intangible assets.",
     "last_proof_cite": "Monetary Matters with Jack Farley \u2022 2026-05-01 \u2022 Why Fundamentals Fail the New Economy | Jacob Pozharny on \u201cSentiment\u201d Analysis\u2019 Role in New Economy Stocks",
     "last_proof_snippet": "Today's episode is brought to you by the unlimited hfgm global macro ETF ticker hfgm. Later in the show you'll hear more about hfgm currently the number one morning star rated funds its inception in the U.S. macro trading category. Let's ge",
@@ -15285,70 +15285,6 @@
     "net_worth": "$5.00B"
   },
   {
-    "id": 189,
-    "name": "Dmitry Dugov",
-    "slug": "dmitry-dugov",
-    "bio": "Dmitry Dugov is the Co-CEO of Wemo, a company that has been leading the autonomous vehicle industry by providing over 500,000 fully autonomous rides each week. He joined Google's self-driving car project in 2009 as one of its first engineers, contributing significantly to the field of autonomous driving technology.",
-    "known_for": "Leading Wemo to provide over 500,000 fully autonomous rides each week.",
-    "net_worth_usd": null,
-    "net_worth_source": "",
-    "net_worth_updated_at": null,
-    "voice_tone": "Confident and knowledgeable",
-    "voice_style": "Factual and forward-looking",
-    "voice_delivery_notes": "Clear and measured pace, with emphasis on key milestones and technological advancements",
-    "voice_profile_updated_at": "2026-04-20 03:05:00",
-    "last_seen": "2026-04-20 03:05:00",
-    "last_episode_title": "From Models to Mobility: Building Waymo with Dmitri Dolgov",
-    "last_podcast_name": "The a16z Show",
-    "last_episode_date": "2026-04-17",
-    "mention_score": 1,
-    "mention_score_decayed": 0.03,
-    "last_main_idea": "Investing in autonomous driving technologies offers significant potential as the industry moves from research to real-world deployment, with a focus on companies that understand the physical and social aspects of driving.",
-    "last_proof_cite": "The a16z Show \u2022 2026-04-17 \u2022 From Models to Mobility: Building Waymo with Dmitri Dolgov",
-    "last_proof_snippet": "The autonomous driving industry has moved from scientific research to accelerated global scaling and deployment.",
-    "supporting_takeaway": "The autonomous driving industry has moved from scientific research to accelerated global scaling and deployment.",
-    "grokipedia_url": null,
-    "grokipedia_fetched_at": "2026-04-19T22:05:22.013432",
-    "pundit_profile": {
-      "source": "llm",
-      "source_model": "moonshot:moonshot-v1-8k",
-      "source_url": "",
-      "page_title": "Dmitry Dugov",
-      "fetched_at": "2026-04-20T03:05:22.013196+00:00",
-      "cliff_notes": "Dmitry Dugov began his career in the autonomous vehicle industry by joining Google's self-driving car project in 2009 as one of its first engineers. His work contributed to the foundational development of autonomous driving technology. Later, Dugov became the Co-CEO of Wemo, where he played a pivotal role in scaling the company's operations to provide over 500,000 fully autonomous rides each week across multiple cities. His leadership has been instrumental in transitioning the company from long-term research to real-world scale, emphasizing the importance of understanding the social aspects of driving and the properties of being a good driver in the development of autonomous systems.",
-      "derived": {
-        "current_role": "Co-CEO of Wemo",
-        "former_positions": "Engineer at Google's self-driving car project"
-      },
-      "infobox": {
-        "Born": "",
-        "Nationality": ""
-      },
-      "lead_paragraphs": [
-        "Dmitry Dugov began his career in the autonomous vehicle industry by joining Google's self-driving car project in 2009 as one of its first engineers. His work contributed to the foundational development of autonomous driving technology. Later, Dugov became the Co-CEO of Wemo, where he played a pivotal role in scaling the company's operations to provide over 500,000 fully autonomous rides each week across multiple cities.",
-        "His leadership has been instrumental in transitioning the company from long-term research to real-world scale, emphasizing the importance of understanding the social aspects of driving and the properties of being a good driver in the development of autonomous systems."
-      ],
-      "sections": [
-        {
-          "heading": "Autonomous Vehicle Pioneer",
-          "body": "Dmitry Dugov was one of the initial engineers in Google's self-driving car project, contributing to the early stages of autonomous vehicle technology."
-        },
-        {
-          "heading": "Scaling Autonomous Rides",
-          "body": "As Co-CEO of Wemo, Dugov has overseen the scaling of the company's operations to provide over 500,000 fully autonomous rides per week, a significant milestone in the industry."
-        },
-        {
-          "heading": "Transition from Research to Real-World",
-          "body": "Dmitry Dugov has been instrumental in shifting Wemo's focus from scientific research to the accelerated global deployment of autonomous driving technology."
-        },
-        {
-          "heading": "Social Aspects of Driving",
-          "body": "Dugov emphasizes the importance of understanding the social aspects of driving and what it means to be a good driver in the development of autonomous systems."
-        }
-      ]
-    }
-  },
-  {
     "id": 55,
     "name": "Dr. Onus Alhajji",
     "slug": "dr-onus-alhajji",
@@ -15623,6 +15559,70 @@
       ]
     },
     "net_worth": "$200.0M"
+  },
+  {
+    "id": 189,
+    "name": "Dmitry Dugov",
+    "slug": "dmitry-dugov",
+    "bio": "Dmitry Dugov is the Co-CEO of Wemo, a company that has been leading the autonomous vehicle industry by providing over 500,000 fully autonomous rides each week. He joined Google's self-driving car project in 2009 as one of its first engineers, contributing significantly to the field of autonomous driving technology.",
+    "known_for": "Leading Wemo to provide over 500,000 fully autonomous rides each week.",
+    "net_worth_usd": null,
+    "net_worth_source": "",
+    "net_worth_updated_at": null,
+    "voice_tone": "Confident and knowledgeable",
+    "voice_style": "Factual and forward-looking",
+    "voice_delivery_notes": "Clear and measured pace, with emphasis on key milestones and technological advancements",
+    "voice_profile_updated_at": "2026-04-20 03:05:00",
+    "last_seen": "2026-04-20 03:05:00",
+    "last_episode_title": "From Models to Mobility: Building Waymo with Dmitri Dolgov",
+    "last_podcast_name": "The a16z Show",
+    "last_episode_date": "2026-04-17",
+    "mention_score": 1,
+    "mention_score_decayed": 0.02,
+    "last_main_idea": "Investing in autonomous driving technologies offers significant potential as the industry moves from research to real-world deployment, with a focus on companies that understand the physical and social aspects of driving.",
+    "last_proof_cite": "The a16z Show \u2022 2026-04-17 \u2022 From Models to Mobility: Building Waymo with Dmitri Dolgov",
+    "last_proof_snippet": "The autonomous driving industry has moved from scientific research to accelerated global scaling and deployment.",
+    "supporting_takeaway": "The autonomous driving industry has moved from scientific research to accelerated global scaling and deployment.",
+    "grokipedia_url": null,
+    "grokipedia_fetched_at": "2026-04-19T22:05:22.013432",
+    "pundit_profile": {
+      "source": "llm",
+      "source_model": "moonshot:moonshot-v1-8k",
+      "source_url": "",
+      "page_title": "Dmitry Dugov",
+      "fetched_at": "2026-04-20T03:05:22.013196+00:00",
+      "cliff_notes": "Dmitry Dugov began his career in the autonomous vehicle industry by joining Google's self-driving car project in 2009 as one of its first engineers. His work contributed to the foundational development of autonomous driving technology. Later, Dugov became the Co-CEO of Wemo, where he played a pivotal role in scaling the company's operations to provide over 500,000 fully autonomous rides each week across multiple cities. His leadership has been instrumental in transitioning the company from long-term research to real-world scale, emphasizing the importance of understanding the social aspects of driving and the properties of being a good driver in the development of autonomous systems.",
+      "derived": {
+        "current_role": "Co-CEO of Wemo",
+        "former_positions": "Engineer at Google's self-driving car project"
+      },
+      "infobox": {
+        "Born": "",
+        "Nationality": ""
+      },
+      "lead_paragraphs": [
+        "Dmitry Dugov began his career in the autonomous vehicle industry by joining Google's self-driving car project in 2009 as one of its first engineers. His work contributed to the foundational development of autonomous driving technology. Later, Dugov became the Co-CEO of Wemo, where he played a pivotal role in scaling the company's operations to provide over 500,000 fully autonomous rides each week across multiple cities.",
+        "His leadership has been instrumental in transitioning the company from long-term research to real-world scale, emphasizing the importance of understanding the social aspects of driving and the properties of being a good driver in the development of autonomous systems."
+      ],
+      "sections": [
+        {
+          "heading": "Autonomous Vehicle Pioneer",
+          "body": "Dmitry Dugov was one of the initial engineers in Google's self-driving car project, contributing to the early stages of autonomous vehicle technology."
+        },
+        {
+          "heading": "Scaling Autonomous Rides",
+          "body": "As Co-CEO of Wemo, Dugov has overseen the scaling of the company's operations to provide over 500,000 fully autonomous rides per week, a significant milestone in the industry."
+        },
+        {
+          "heading": "Transition from Research to Real-World",
+          "body": "Dmitry Dugov has been instrumental in shifting Wemo's focus from scientific research to the accelerated global deployment of autonomous driving technology."
+        },
+        {
+          "heading": "Social Aspects of Driving",
+          "body": "Dugov emphasizes the importance of understanding the social aspects of driving and what it means to be a good driver in the development of autonomous systems."
+        }
+      ]
+    }
   },
   {
     "id": 186,
@@ -17500,63 +17500,6 @@
     "net_worth": "$2.00B"
   },
   {
-    "id": 132,
-    "name": "David Freiberg",
-    "slug": "david-freiberg",
-    "bio": "David Freiberg is a guest with a background in science, known for his insights on the impact of technological advancements on various industries. He has been a contributor to discussions on technological disruption and its implications for society and the economy.",
-    "known_for": "His expertise in understanding how technology shapes industry trends and his contributions to public discourse on technological disruption.",
-    "net_worth_usd": 1200000000.0,
-    "net_worth_source": "https://coinpaper.com/6251/david-friedberg-net-worth-insights-into-his-financial-success",
-    "net_worth_updated_at": "2026-03-28T22:05:34.408854",
-    "voice_tone": "Casual and engaging",
-    "voice_style": "Anecdotal with a focus on real-world examples",
-    "voice_delivery_notes": "Speaks with a relaxed pace, emphasizing key points with a slight increase in volume",
-    "voice_profile_updated_at": "2026-03-29 03:04:03",
-    "last_seen": "2026-03-29 03:04:03",
-    "last_episode_title": "Anthropic's Generational Run, OpenAI Panics, AI Moats, Meta Loses Lawsuits",
-    "last_podcast_name": "All-In with Chamath, Jason, Sacks & Friedberg",
-    "last_episode_date": "2026-03-27",
-    "mention_score": 1,
-    "mention_score_decayed": 0.02,
-    "last_main_idea": "The hosts discuss the significant growth of SaaS and its impact on the market.",
-    "last_proof_cite": "All-In with Chamath, Jason, Sacks & Friedberg \u2022 2026-03-27 \u2022 Anthropic's Generational Run, OpenAI Panics, AI Moats, Meta Loses Lawsuits",
-    "last_proof_snippet": "Innovation is seen as a key driver in the current competitive landscape, particularly in the context of the US-China race in scientific research and technology.",
-    "supporting_takeaway": "Innovation is seen as a key driver in the current competitive landscape, particularly in the context of the US-China race in scientific research and technology.",
-    "grokipedia_url": null,
-    "grokipedia_fetched_at": "2026-03-28T22:05:33.382582",
-    "pundit_profile": {
-      "source": "llm",
-      "source_model": "moonshot:moonshot-v1-8k",
-      "source_url": "",
-      "page_title": "David Freiberg",
-      "fetched_at": "2026-03-29T03:05:33.382494+00:00",
-      "cliff_notes": "David Freiberg is recognized for his contributions to the dialogue on technology's influence on various sectors. His background in science provides a solid foundation for his analysis of technological disruption. Freiberg's insights are particularly valuable as they help investors and industry leaders understand the potential shifts and opportunities created by rapid technological advancements. His work is significant in the context of policy-making and strategic planning, as it offers a perspective on how to navigate and leverage the changes brought about by new technologies.",
-      "derived": {},
-      "infobox": {
-        "Nationality": ""
-      },
-      "lead_paragraphs": [
-        "David Freiberg is recognized for his contributions to the dialogue on technology's influence on various sectors. His background in science provides a solid foundation for his analysis of technological disruption. Freiberg's insights are particularly valuable as they help investors and industry leaders understand the potential shifts and opportunities created by rapid technological advancements.",
-        "His work is significant in the context of policy-making and strategic planning, as it offers a perspective on how to navigate and leverage the changes brought about by new technologies."
-      ],
-      "sections": [
-        {
-          "heading": "Technological Impact",
-          "body": "Freiberg discusses the profound effects of technology on different industries, emphasizing how it can disrupt traditional business models and create new opportunities."
-        },
-        {
-          "heading": "Industry Trends",
-          "body": "He provides analysis on emerging industry trends influenced by technological advancements, helping businesses anticipate and adapt to changes."
-        },
-        {
-          "heading": "Public Discourse",
-          "body": "Freiberg's participation in public discourse on technology's role in society ensures that a variety of perspectives are considered in shaping policy and business strategies."
-        }
-      ]
-    },
-    "net_worth": "$1.20B"
-  },
-  {
     "id": 43,
     "name": "Olivia Moore",
     "slug": "olivia-moore",
@@ -17622,6 +17565,63 @@
         }
       ]
     }
+  },
+  {
+    "id": 132,
+    "name": "David Freiberg",
+    "slug": "david-freiberg",
+    "bio": "David Freiberg is a guest with a background in science, known for his insights on the impact of technological advancements on various industries. He has been a contributor to discussions on technological disruption and its implications for society and the economy.",
+    "known_for": "His expertise in understanding how technology shapes industry trends and his contributions to public discourse on technological disruption.",
+    "net_worth_usd": 1200000000.0,
+    "net_worth_source": "https://coinpaper.com/6251/david-friedberg-net-worth-insights-into-his-financial-success",
+    "net_worth_updated_at": "2026-03-28T22:05:34.408854",
+    "voice_tone": "Casual and engaging",
+    "voice_style": "Anecdotal with a focus on real-world examples",
+    "voice_delivery_notes": "Speaks with a relaxed pace, emphasizing key points with a slight increase in volume",
+    "voice_profile_updated_at": "2026-03-29 03:04:03",
+    "last_seen": "2026-03-29 03:04:03",
+    "last_episode_title": "Anthropic's Generational Run, OpenAI Panics, AI Moats, Meta Loses Lawsuits",
+    "last_podcast_name": "All-In with Chamath, Jason, Sacks & Friedberg",
+    "last_episode_date": "2026-03-27",
+    "mention_score": 1,
+    "mention_score_decayed": 0.01,
+    "last_main_idea": "The hosts discuss the significant growth of SaaS and its impact on the market.",
+    "last_proof_cite": "All-In with Chamath, Jason, Sacks & Friedberg \u2022 2026-03-27 \u2022 Anthropic's Generational Run, OpenAI Panics, AI Moats, Meta Loses Lawsuits",
+    "last_proof_snippet": "Innovation is seen as a key driver in the current competitive landscape, particularly in the context of the US-China race in scientific research and technology.",
+    "supporting_takeaway": "Innovation is seen as a key driver in the current competitive landscape, particularly in the context of the US-China race in scientific research and technology.",
+    "grokipedia_url": null,
+    "grokipedia_fetched_at": "2026-03-28T22:05:33.382582",
+    "pundit_profile": {
+      "source": "llm",
+      "source_model": "moonshot:moonshot-v1-8k",
+      "source_url": "",
+      "page_title": "David Freiberg",
+      "fetched_at": "2026-03-29T03:05:33.382494+00:00",
+      "cliff_notes": "David Freiberg is recognized for his contributions to the dialogue on technology's influence on various sectors. His background in science provides a solid foundation for his analysis of technological disruption. Freiberg's insights are particularly valuable as they help investors and industry leaders understand the potential shifts and opportunities created by rapid technological advancements. His work is significant in the context of policy-making and strategic planning, as it offers a perspective on how to navigate and leverage the changes brought about by new technologies.",
+      "derived": {},
+      "infobox": {
+        "Nationality": ""
+      },
+      "lead_paragraphs": [
+        "David Freiberg is recognized for his contributions to the dialogue on technology's influence on various sectors. His background in science provides a solid foundation for his analysis of technological disruption. Freiberg's insights are particularly valuable as they help investors and industry leaders understand the potential shifts and opportunities created by rapid technological advancements.",
+        "His work is significant in the context of policy-making and strategic planning, as it offers a perspective on how to navigate and leverage the changes brought about by new technologies."
+      ],
+      "sections": [
+        {
+          "heading": "Technological Impact",
+          "body": "Freiberg discusses the profound effects of technology on different industries, emphasizing how it can disrupt traditional business models and create new opportunities."
+        },
+        {
+          "heading": "Industry Trends",
+          "body": "He provides analysis on emerging industry trends influenced by technological advancements, helping businesses anticipate and adapt to changes."
+        },
+        {
+          "heading": "Public Discourse",
+          "body": "Freiberg's participation in public discourse on technology's role in society ensures that a variety of perspectives are considered in shaping policy and business strategies."
+        }
+      ]
+    },
+    "net_worth": "$1.20B"
   },
   {
     "id": 127,
