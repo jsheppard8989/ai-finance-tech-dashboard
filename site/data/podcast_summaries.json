@@ -1,5 +1,21 @@
 [
   {
+    "id": 524,
+    "podcast_name": "The a16z Show",
+    "episode_title": "Building a Team at AI Speed | Harvey\u2019s Maggie Landers",
+    "episode_date": "2026-09-27",
+    "summary": "The episode discusses Harvey's remarkable growth, with its valuation skyrocketing from $3 billion to $11 billion in just over a year, reflecting strong market confidence. It highlights the company's culture of experimentation, leadership accessibility, and a values-driven hiring process, all contributing to its rapid scaling and global expansion strategy.",
+    "key_takeaways": [
+      "Harvey's valuation increased from $3 billion in February 2025 to $11 billion by March 2026, indicating rapid growth and investor confidence.",
+      "Harvey promotes a culture of experimentation where employees are encouraged to fail fast and learn quickly, leading to faster product development.",
+      "Founders Winston and Gabe maintain high accessibility, engaging directly with employees to foster a collaborative atmosphere.",
+      "Harvey's hiring process includes a values interview focused on simplicity and a commitment to ongoing progress, ensuring alignment with company culture.",
+      "The company is expanding globally with new offices in key markets, enhancing customer service through local legal expertise."
+    ],
+    "investment_thesis": "Harvey's valuation surged from $3 billion to $11 billion in just over a year, signaling strong market confidence and growth potential.",
+    "key_tickers": null
+  },
+  {
     "id": 523,
     "podcast_name": "The a16z Show",
     "episode_title": "Aaron Levie, Steven Sinofsky & Martin Casado: How Do You Secure a World of AI Agents?",
