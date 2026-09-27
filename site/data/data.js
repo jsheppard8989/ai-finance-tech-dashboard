@@ -3,1043 +3,1043 @@
 
 const dashboardData = {
   schemaVersion: 2,
-  generatedAt: "2026-09-26T13:59:33.544022",
-  chartsVersion: "2026-09-26T13:59:22.461863",
+  generatedAt: "2026-09-26T22:17:42.434386",
+  chartsVersion: "2026-09-26T22:17:31.496676",
   priceSnapshot: {
   "AAPL": {
     "price": 341.07,
     "change_pct": 7.86,
     "name": "Apple Inc.",
-    "updated_at": "2026-09-26T13:58:17.595655",
+    "updated_at": "2026-09-26T22:16:23.972602",
     "price_14d_ago": 316.22
   },
   "AEP": {
     "price": 118.35,
     "change_pct": -5.64,
     "name": "American Electric Power Company",
-    "updated_at": "2026-09-26T13:58:17.809307",
+    "updated_at": "2026-09-26T22:16:24.194109",
     "price_14d_ago": 125.42
   },
   "AMD": {
     "price": 630.63,
     "change_pct": 24.69,
     "name": "Advanced Micro Devices, Inc.",
-    "updated_at": "2026-09-26T13:58:17.975063",
+    "updated_at": "2026-09-26T22:16:24.358482",
     "price_14d_ago": 505.74
   },
   "AMGN": {
     "price": 414.61,
     "change_pct": 5.45,
     "name": "Amgen Inc.",
-    "updated_at": "2026-09-26T13:58:18.158139",
+    "updated_at": "2026-09-26T22:16:24.547269",
     "price_14d_ago": 393.17
   },
   "AMZN": {
     "price": 249.67,
     "change_pct": -2.84,
     "name": "Amazon.com, Inc.",
-    "updated_at": "2026-09-26T13:58:18.328856",
+    "updated_at": "2026-09-26T22:16:24.779654",
     "price_14d_ago": 256.97
   },
   "APO": {
     "price": 121.69,
     "change_pct": -7.68,
     "name": "Apollo Global Management, Inc. ",
-    "updated_at": "2026-09-26T13:58:18.513846",
+    "updated_at": "2026-09-26T22:16:24.959685",
     "price_14d_ago": 131.81
   },
   "APTV": {
     "price": 44.79,
     "change_pct": -2.06,
     "name": "Aptiv PLC",
-    "updated_at": "2026-09-26T13:58:18.690711",
+    "updated_at": "2026-09-26T22:16:25.179201",
     "price_14d_ago": 45.73
   },
   "AVGO": {
     "price": 352.81,
     "change_pct": -4.27,
     "name": "Broadcom Inc.",
-    "updated_at": "2026-09-26T13:58:18.894750",
+    "updated_at": "2026-09-26T22:16:25.387035",
     "price_14d_ago": 368.56
   },
   "BA": {
     "price": 198.07,
     "change_pct": -6.01,
     "name": "Boeing Company (The)",
-    "updated_at": "2026-09-26T13:58:19.287751",
+    "updated_at": "2026-09-26T22:16:25.773847",
     "price_14d_ago": 210.73
   },
   "BABA": {
     "price": 109.74,
     "change_pct": -2.59,
     "name": "Alibaba Group Holding Limited",
-    "updated_at": "2026-09-26T13:58:19.463771",
+    "updated_at": "2026-09-26T22:16:25.943722",
     "price_14d_ago": 112.66
   },
   "BAC": {
     "price": 56.7,
     "change_pct": -9.12,
     "name": "Bank of America Corporation",
-    "updated_at": "2026-09-26T13:58:19.663194",
+    "updated_at": "2026-09-26T22:16:26.146385",
     "price_14d_ago": 62.39
   },
   "BAM": {
     "price": 44.59,
     "change_pct": -8.76,
     "name": "Brookfield Asset Management Inc",
-    "updated_at": "2026-09-26T13:58:19.833543",
+    "updated_at": "2026-09-26T22:16:26.313000",
     "price_14d_ago": 48.87
   },
   "BIDU": {
     "price": 87.33,
     "change_pct": -5.64,
     "name": "Baidu, Inc.",
-    "updated_at": "2026-09-26T13:58:20.174161",
+    "updated_at": "2026-09-26T22:16:26.659175",
     "price_14d_ago": 92.55
   },
   "BP": {
     "price": 44.15,
     "change_pct": -1.63,
     "name": "BP p.l.c.",
-    "updated_at": "2026-09-26T13:58:20.546253",
+    "updated_at": "2026-09-26T22:16:27.033696",
     "price_14d_ago": 44.88
   },
   "BTC": {
-    "price": 83994.2,
-    "change_pct": 9.31,
+    "price": 84437.77,
+    "change_pct": 8.03,
     "name": "Bitcoin USD",
-    "updated_at": "2026-09-26T13:58:20.804655",
-    "price_14d_ago": 76838.16
+    "updated_at": "2026-09-26T22:16:27.199791",
+    "price_14d_ago": 78163.38
   },
   "BTC-USD": {
-    "price": 83994.2,
-    "change_pct": 9.31,
+    "price": 84437.77,
+    "change_pct": 8.03,
     "name": "Bitcoin USD",
-    "updated_at": "2026-09-26T13:58:20.971898",
-    "price_14d_ago": 76838.16
+    "updated_at": "2026-09-26T22:16:27.370064",
+    "price_14d_ago": 78163.38
   },
   "BX": {
     "price": 118.42,
     "change_pct": -11.61,
     "name": "Blackstone Inc.",
-    "updated_at": "2026-09-26T13:58:21.170708",
+    "updated_at": "2026-09-26T22:16:27.552688",
     "price_14d_ago": 133.97
   },
   "BYD": {
     "price": 71.23,
     "change_pct": -6.91,
     "name": "Boyd Gaming Corporation",
-    "updated_at": "2026-09-26T13:58:21.356237",
+    "updated_at": "2026-09-26T22:16:27.731155",
     "price_14d_ago": 76.52
   },
   "CAT": {
     "price": 821.58,
     "change_pct": -0.11,
     "name": "Caterpillar, Inc.",
-    "updated_at": "2026-09-26T13:58:21.734477",
+    "updated_at": "2026-09-26T22:16:28.107552",
     "price_14d_ago": 822.48
   },
   "CCJ": {
     "price": 88.07,
     "change_pct": -13.63,
     "name": "Cameco Corporation",
-    "updated_at": "2026-09-26T13:58:21.925266",
+    "updated_at": "2026-09-26T22:16:28.302730",
     "price_14d_ago": 101.97
   },
   "CEG": {
     "price": 263.27,
     "change_pct": -11.96,
     "name": "Constellation Energy Corporatio",
-    "updated_at": "2026-09-26T13:58:22.104148",
+    "updated_at": "2026-09-26T22:16:28.489910",
     "price_14d_ago": 299.05
   },
   "COIN": {
     "price": 195.11,
     "change_pct": 9.04,
     "name": "Coinbase Global, Inc.",
-    "updated_at": "2026-09-26T13:58:22.287820",
+    "updated_at": "2026-09-26T22:16:28.657065",
     "price_14d_ago": 178.94
   },
   "COPPER": {
     "price": 6.77,
     "change_pct": 0.4,
     "name": "Copper",
-    "updated_at": "2026-09-26T13:58:22.465817",
+    "updated_at": "2026-09-26T22:16:28.821835",
     "price_14d_ago": 6.74
   },
   "CORN": {
     "price": 19.73,
     "change_pct": -1.2,
     "name": "Teucrium Corn Fund ETV",
-    "updated_at": "2026-09-26T13:58:22.635559",
+    "updated_at": "2026-09-26T22:16:28.989351",
     "price_14d_ago": 19.97
   },
   "CRM": {
     "price": 234.02,
     "change_pct": -6.06,
     "name": "Salesforce, Inc.",
-    "updated_at": "2026-09-26T13:58:22.808127",
+    "updated_at": "2026-09-26T22:16:29.165127",
     "price_14d_ago": 249.12
   },
   "CROWD": {
     "price": 252.13,
     "change_pct": 20.05,
     "name": "CrowdStrike Holdings, Inc.",
-    "updated_at": "2026-09-26T13:58:22.979428",
+    "updated_at": "2026-09-26T22:16:29.330503",
     "price_14d_ago": 210.02
   },
   "DBC": {
     "price": 32.62,
     "change_pct": 0.68,
     "name": "Invesco DB Commodity Index Trac",
-    "updated_at": "2026-09-26T13:58:23.347029",
+    "updated_at": "2026-09-26T22:16:29.679117",
     "price_14d_ago": 32.4
   },
   "DELL": {
     "price": 562.89,
     "change_pct": 5.43,
     "name": "Dell Technologies Inc.",
-    "updated_at": "2026-09-26T13:58:23.589511",
+    "updated_at": "2026-09-26T22:16:29.853746",
     "price_14d_ago": 533.88
   },
   "DIS": {
     "price": 106.15,
     "change_pct": 1.04,
     "name": "Walt Disney Company (The)",
-    "updated_at": "2026-09-26T13:58:23.812854",
+    "updated_at": "2026-09-26T22:16:30.068664",
     "price_14d_ago": 105.06
   },
   "DOCS": {
     "price": 26.35,
     "change_pct": 7.9,
     "name": "Doximity, Inc.",
-    "updated_at": "2026-09-26T13:58:23.988509",
+    "updated_at": "2026-09-26T22:16:30.238575",
     "price_14d_ago": 24.42
   },
   "DVN": {
     "price": 47.05,
     "change_pct": -2.79,
     "name": "Devon Energy Corporation",
-    "updated_at": "2026-09-26T13:58:24.188989",
+    "updated_at": "2026-09-26T22:16:30.441290",
     "price_14d_ago": 48.4
   },
   "EBAY": {
     "price": 107.9,
     "change_pct": 3.16,
     "name": "eBay Inc.",
-    "updated_at": "2026-09-26T13:58:24.366202",
+    "updated_at": "2026-09-26T22:16:30.616855",
     "price_14d_ago": 104.59
   },
   "ETH-USD": {
-    "price": 2684.4,
-    "change_pct": 8.37,
+    "price": 2698.26,
+    "change_pct": 7.31,
     "name": "Ethereum USD",
-    "updated_at": "2026-09-26T13:58:24.532334",
-    "price_14d_ago": 2477.02
+    "updated_at": "2026-09-26T22:16:30.786123",
+    "price_14d_ago": 2514.41
   },
   "F": {
     "price": 12.71,
     "change_pct": -9.21,
     "name": "Ford Motor Company",
-    "updated_at": "2026-09-26T13:58:24.752187",
+    "updated_at": "2026-09-26T22:16:30.998136",
     "price_14d_ago": 14.0
   },
   "FB": {
     "price": 45.61,
     "change_pct": 0.91,
     "name": "ProShares S&P 500 Dynamic Buffe",
-    "updated_at": "2026-09-26T13:58:24.926048",
+    "updated_at": "2026-09-26T22:16:31.163837",
     "price_14d_ago": 45.2
   },
   "FCX": {
     "price": 72.31,
     "change_pct": -5.63,
     "name": "Freeport-McMoRan, Inc.",
-    "updated_at": "2026-09-26T13:58:25.122808",
+    "updated_at": "2026-09-26T22:16:31.354976",
     "price_14d_ago": 76.62
   },
   "FSK": {
     "price": 11.25,
     "change_pct": -7.64,
     "name": "FS KKR Capital Corp.",
-    "updated_at": "2026-09-26T13:58:25.658604",
+    "updated_at": "2026-09-26T22:16:31.867590",
     "price_14d_ago": 12.18
   },
   "GC": {
     "price": 0,
     "change_pct": 0,
     "name": "Gold",
-    "updated_at": "2026-09-26T13:58:25.839767",
+    "updated_at": "2026-09-26T22:16:32.033236",
     "price_14d_ago": null
   },
   "GD": {
     "price": 336.72,
     "change_pct": -5.57,
     "name": "General Dynamics Corporation",
-    "updated_at": "2026-09-26T13:58:26.064086",
+    "updated_at": "2026-09-26T22:16:32.251688",
     "price_14d_ago": 356.58
   },
   "GE": {
     "price": 327.09,
     "change_pct": -2.33,
     "name": "GE Aerospace",
-    "updated_at": "2026-09-26T13:58:26.299327",
+    "updated_at": "2026-09-26T22:16:32.519222",
     "price_14d_ago": 334.91
   },
   "GLD": {
     "price": 393.41,
     "change_pct": -1.58,
     "name": "SPDR Gold Shares",
-    "updated_at": "2026-09-26T13:58:26.468170",
+    "updated_at": "2026-09-26T22:16:32.689948",
     "price_14d_ago": 399.72
   },
   "GME": {
     "price": 23.39,
     "change_pct": 23.82,
     "name": "GameStop Corporation",
-    "updated_at": "2026-09-26T13:58:26.650352",
+    "updated_at": "2026-09-26T22:16:32.866184",
     "price_14d_ago": 18.89
   },
   "GOLD": {
     "price": 4321.2,
     "change_pct": -2.65,
     "name": "Gold",
-    "updated_at": "2026-09-26T13:58:26.821121",
+    "updated_at": "2026-09-26T22:16:33.032722",
     "price_14d_ago": 4439.0
   },
   "GOOG": {
     "price": 341.08,
     "change_pct": 1.7,
     "name": "Alphabet Inc.",
-    "updated_at": "2026-09-26T13:58:26.995567",
+    "updated_at": "2026-09-26T22:16:33.204120",
     "price_14d_ago": 335.38
   },
   "GOOGL": {
     "price": 343.92,
     "change_pct": 1.64,
     "name": "Alphabet Inc.",
-    "updated_at": "2026-09-26T13:58:27.171653",
+    "updated_at": "2026-09-26T22:16:33.374777",
     "price_14d_ago": 338.36
   },
   "GS": {
     "price": 935.45,
     "change_pct": -9.75,
     "name": "Goldman Sachs Group, Inc. (The)",
-    "updated_at": "2026-09-26T13:58:27.366139",
+    "updated_at": "2026-09-26T22:16:33.587361",
     "price_14d_ago": 1036.53
   },
   "Gold": {
     "price": 43.95,
     "change_pct": -7.42,
     "name": "Gold.com, Inc.",
-    "updated_at": "2026-09-26T13:58:27.540233",
+    "updated_at": "2026-09-26T22:16:33.762548",
     "price_14d_ago": 47.47
   },
   "HFGM": {
     "price": 32.03,
     "change_pct": 1.13,
     "name": "Unlimited HFGM Global Macro ETF",
-    "updated_at": "2026-09-26T13:58:27.788563",
+    "updated_at": "2026-09-26T22:16:33.924776",
     "price_14d_ago": 31.68
   },
   "HG": {
     "price": 33.29,
     "change_pct": -4.53,
     "name": "Hamilton Insurance Group, Ltd.",
-    "updated_at": "2026-09-26T13:58:27.967411",
+    "updated_at": "2026-09-26T22:16:34.085009",
     "price_14d_ago": 34.87
   },
   "IBM": {
     "price": 225.51,
     "change_pct": -2.84,
     "name": "International Business Machines",
-    "updated_at": "2026-09-26T13:58:28.346767",
+    "updated_at": "2026-09-26T22:16:34.471457",
     "price_14d_ago": 232.09
   },
   "IEF": {
     "price": 90.0,
     "change_pct": -2.34,
     "name": "iShares 7-10 Year Treasury Bond",
-    "updated_at": "2026-09-26T13:58:28.601003",
+    "updated_at": "2026-09-26T22:16:34.659738",
     "price_14d_ago": 92.16
   },
   "INDA": {
     "price": 47.86,
     "change_pct": -2.51,
     "name": "Ishares MSCI India ETF",
-    "updated_at": "2026-09-26T13:58:28.784080",
+    "updated_at": "2026-09-26T22:16:34.836268",
     "price_14d_ago": 49.09
   },
   "INFY": {
     "price": 10.5,
     "change_pct": -5.66,
     "name": "Infosys Limited",
-    "updated_at": "2026-09-26T13:58:28.974535",
+    "updated_at": "2026-09-26T22:16:35.021096",
     "price_14d_ago": 11.13
   },
   "INTC": {
     "price": 123.0,
     "change_pct": 17.74,
     "name": "Intel Corporation",
-    "updated_at": "2026-09-26T13:58:29.170560",
+    "updated_at": "2026-09-26T22:16:35.225399",
     "price_14d_ago": 104.47
   },
   "IWD": {
     "price": 251.93,
     "change_pct": -1.41,
     "name": "iShares Russell 1000 Value ETF",
-    "updated_at": "2026-09-26T13:58:29.360731",
+    "updated_at": "2026-09-26T22:16:35.409912",
     "price_14d_ago": 255.53
   },
   "IWF": {
     "price": 126.25,
     "change_pct": 2.63,
     "name": "iShares Russell 1000 Growth Fun",
-    "updated_at": "2026-09-26T13:58:29.553933",
+    "updated_at": "2026-09-26T22:16:35.608615",
     "price_14d_ago": 123.02
   },
   "IWM": {
     "price": 281.97,
     "change_pct": -4.31,
     "name": "iShares Russell 2000 Index Fund",
-    "updated_at": "2026-09-26T13:58:29.787227",
+    "updated_at": "2026-09-26T22:16:35.793863",
     "price_14d_ago": 294.67
   },
   "JNJ": {
     "price": 271.22,
     "change_pct": 0.78,
     "name": "Johnson & Johnson",
-    "updated_at": "2026-09-26T13:58:30.003384",
+    "updated_at": "2026-09-26T22:16:36.016698",
     "price_14d_ago": 269.12
   },
   "JPM": {
     "price": 343.06,
     "change_pct": -2.96,
     "name": "JP Morgan Chase & Co.",
-    "updated_at": "2026-09-26T13:58:30.207816",
+    "updated_at": "2026-09-26T22:16:36.216624",
     "price_14d_ago": 353.51
   },
   "KKR": {
     "price": 96.67,
     "change_pct": -8.57,
     "name": "KKR & Co. Inc.",
-    "updated_at": "2026-09-26T13:58:30.397299",
+    "updated_at": "2026-09-26T22:16:36.394161",
     "price_14d_ago": 105.73
   },
   "LLY": {
     "price": 1183.46,
     "change_pct": 5.3,
     "name": "Eli Lilly and Company",
-    "updated_at": "2026-09-26T13:58:30.621484",
+    "updated_at": "2026-09-26T22:16:36.609899",
     "price_14d_ago": 1123.91
   },
   "LMT": {
     "price": 519.56,
     "change_pct": -3.09,
     "name": "Lockheed Martin Corporation",
-    "updated_at": "2026-09-26T13:58:30.847546",
+    "updated_at": "2026-09-26T22:16:36.823865",
     "price_14d_ago": 536.15
   },
   "LYFT": {
     "price": 14.87,
     "change_pct": -8.47,
     "name": "Lyft, Inc.",
-    "updated_at": "2026-09-26T13:58:31.352885",
+    "updated_at": "2026-09-26T22:16:37.378395",
     "price_14d_ago": 16.24
   },
   "META": {
     "price": 751.66,
     "change_pct": 22.52,
     "name": "Meta Platforms, Inc.",
-    "updated_at": "2026-09-26T13:58:31.537348",
+    "updated_at": "2026-09-26T22:16:37.560882",
     "price_14d_ago": 613.48
   },
   "MGM": {
     "price": 32.58,
     "change_pct": -20.03,
     "name": "MGM Resorts International",
-    "updated_at": "2026-09-26T13:58:31.744447",
+    "updated_at": "2026-09-26T22:16:37.743012",
     "price_14d_ago": 40.74
   },
   "MINE": {
     "price": 2.74,
     "change_pct": -15.95,
     "name": "Mayfair Gold Corp.",
-    "updated_at": "2026-09-26T13:58:31.979439",
+    "updated_at": "2026-09-26T22:16:37.925134",
     "price_14d_ago": 3.26
   },
   "MRK": {
     "price": 148.78,
     "change_pct": 0.22,
     "name": "Merck & Company, Inc.",
-    "updated_at": "2026-09-26T13:58:32.207550",
+    "updated_at": "2026-09-26T22:16:38.147125",
     "price_14d_ago": 148.46
   },
   "MRNA": {
     "price": 198.88,
     "change_pct": 41.72,
     "name": "Moderna, Inc.",
-    "updated_at": "2026-09-26T13:58:32.376840",
+    "updated_at": "2026-09-26T22:16:38.321500",
     "price_14d_ago": 140.33
   },
   "MS": {
     "price": 196.31,
     "change_pct": -9.22,
     "name": "Morgan Stanley",
-    "updated_at": "2026-09-26T13:58:32.569913",
+    "updated_at": "2026-09-26T22:16:38.521769",
     "price_14d_ago": 216.24
   },
   "MSFT": {
     "price": 516.17,
     "change_pct": 4.5,
     "name": "Microsoft Corporation",
-    "updated_at": "2026-09-26T13:58:32.760571",
+    "updated_at": "2026-09-26T22:16:38.776399",
     "price_14d_ago": 493.95
   },
   "MSTR": {
     "price": 158.61,
     "change_pct": 16.18,
     "name": "Strategy Inc",
-    "updated_at": "2026-09-26T13:58:32.930384",
+    "updated_at": "2026-09-26T22:16:38.948473",
     "price_14d_ago": 136.52
   },
   "MU": {
     "price": 1082.28,
     "change_pct": 8.2,
     "name": "Micron Technology, Inc.",
-    "updated_at": "2026-09-26T13:58:33.127794",
+    "updated_at": "2026-09-26T22:16:39.143945",
     "price_14d_ago": 1000.26
   },
   "NEE": {
     "price": 76.08,
     "change_pct": -9.24,
     "name": "NextEra Energy, Inc.",
-    "updated_at": "2026-09-26T13:58:33.341356",
+    "updated_at": "2026-09-26T22:16:39.352949",
     "price_14d_ago": 83.83
   },
   "NFLX": {
     "price": 71.14,
     "change_pct": -7.33,
     "name": "Netflix, Inc.",
-    "updated_at": "2026-09-26T13:58:33.511742",
+    "updated_at": "2026-09-26T22:16:39.673659",
     "price_14d_ago": 76.77
   },
   "NKE": {
     "price": 35.75,
     "change_pct": -6.17,
     "name": "Nike, Inc.",
-    "updated_at": "2026-09-26T13:58:34.042789",
+    "updated_at": "2026-09-26T22:16:40.216140",
     "price_14d_ago": 38.1
   },
   "NOC": {
     "price": 510.52,
     "change_pct": -1.55,
     "name": "Northrop Grumman Corporation",
-    "updated_at": "2026-09-26T13:58:34.245725",
+    "updated_at": "2026-09-26T22:16:40.465300",
     "price_14d_ago": 518.58
   },
   "NVDA": {
     "price": 225.07,
     "change_pct": -0.29,
     "name": "NVIDIA Corporation",
-    "updated_at": "2026-09-26T13:58:34.424217",
+    "updated_at": "2026-09-26T22:16:40.644373",
     "price_14d_ago": 225.73
   },
   "NVS": {
     "price": 145.46,
     "change_pct": 5.64,
     "name": "Novartis AG",
-    "updated_at": "2026-09-26T13:58:34.785973",
+    "updated_at": "2026-09-26T22:16:40.995777",
     "price_14d_ago": 137.7
   },
   "Nasdaq": {
     "price": 744.5,
     "change_pct": 3.64,
     "name": "Invesco QQQ Trust, Series 1",
-    "updated_at": "2026-09-26T13:58:34.975336",
+    "updated_at": "2026-09-26T22:16:41.200932",
     "price_14d_ago": 718.36
   },
   "OKLO": {
     "price": 38.04,
     "change_pct": -12.17,
     "name": "Oklo Inc.",
-    "updated_at": "2026-09-26T13:58:35.317691",
+    "updated_at": "2026-09-26T22:16:41.545945",
     "price_14d_ago": 43.31
   },
   "ORCL": {
     "price": 137.1,
     "change_pct": -15.64,
     "name": "Oracle Corporation",
-    "updated_at": "2026-09-26T13:58:35.669369",
+    "updated_at": "2026-09-26T22:16:41.888731",
     "price_14d_ago": 162.52
   },
   "PALL": {
     "price": 22.98,
     "change_pct": -5.94,
     "name": "abrdn Physical Palladium Shares",
-    "updated_at": "2026-09-26T13:58:35.839399",
+    "updated_at": "2026-09-26T22:16:42.052875",
     "price_14d_ago": 24.43
   },
   "PANW": {
     "price": 374.74,
     "change_pct": 11.21,
     "name": "Palo Alto Networks, Inc.",
-    "updated_at": "2026-09-26T13:58:36.008397",
+    "updated_at": "2026-09-26T22:16:42.223081",
     "price_14d_ago": 336.98
   },
   "PBR": {
     "price": 20.37,
     "change_pct": -2.21,
     "name": "Petroleo Brasileiro S.A. Petrob",
-    "updated_at": "2026-09-26T13:58:36.199551",
+    "updated_at": "2026-09-26T22:16:42.412044",
     "price_14d_ago": 20.83
   },
   "PFE": {
     "price": 28.67,
     "change_pct": 3.17,
     "name": "Pfizer, Inc.",
-    "updated_at": "2026-09-26T13:58:36.571639",
+    "updated_at": "2026-09-26T22:16:42.793591",
     "price_14d_ago": 27.79
   },
   "PLTM": {
     "price": 17.04,
     "change_pct": -2.35,
     "name": "GraniteShares Platinum Shares E",
-    "updated_at": "2026-09-26T13:58:36.740332",
+    "updated_at": "2026-09-26T22:16:42.958031",
     "price_14d_ago": 17.45
   },
   "PLTR": {
     "price": 189.67,
     "change_pct": 11.37,
     "name": "Palantir Technologies Inc.",
-    "updated_at": "2026-09-26T13:58:36.916771",
+    "updated_at": "2026-09-26T22:16:43.124360",
     "price_14d_ago": 170.3
   },
   "PQT": {
     "price": 0,
     "change_pct": 0,
     "name": "PQT",
-    "updated_at": "2026-09-26T13:58:37.326576",
+    "updated_at": "2026-09-26T22:16:43.462639",
     "price_14d_ago": null
   },
   "PQUS": {
     "price": 28.77,
     "change_pct": 1.27,
     "name": "Pictet AI Enhanced US Equity ET",
-    "updated_at": "2026-09-26T13:58:37.498062",
+    "updated_at": "2026-09-26T22:16:43.627858",
     "price_14d_ago": 28.41
   },
   "PSBD": {
     "price": 9.83,
     "change_pct": -4.19,
     "name": "Palmer Square Capital BDC Inc.",
-    "updated_at": "2026-09-26T13:58:37.665277",
+    "updated_at": "2026-09-26T22:16:43.793128",
     "price_14d_ago": 10.26
   },
   "PYPL": {
     "price": 55.04,
     "change_pct": 3.5,
     "name": "PayPal Holdings, Inc.",
-    "updated_at": "2026-09-26T13:58:37.838635",
+    "updated_at": "2026-09-26T22:16:43.961163",
     "price_14d_ago": 53.18
   },
   "QQQ": {
     "price": 744.5,
     "change_pct": 3.64,
     "name": "Invesco QQQ Trust, Series 1",
-    "updated_at": "2026-09-26T13:58:38.023898",
+    "updated_at": "2026-09-26T22:16:44.150440",
     "price_14d_ago": 718.36
   },
   "QTA": {
     "price": 0,
     "change_pct": 0,
     "name": "QTA",
-    "updated_at": "2026-09-26T13:58:38.205010",
+    "updated_at": "2026-09-26T22:16:44.319763",
     "price_14d_ago": null
   },
   "RBLX": {
     "price": 46.44,
     "change_pct": 3.61,
     "name": "Roblox Corporation",
-    "updated_at": "2026-09-26T13:58:38.388309",
+    "updated_at": "2026-09-26T22:16:44.488297",
     "price_14d_ago": 44.82
   },
   "RKLB": {
     "price": 73.95,
     "change_pct": 12.27,
     "name": "Rocket Lab Corporation",
-    "updated_at": "2026-09-26T13:58:38.555608",
+    "updated_at": "2026-09-26T22:16:44.654705",
     "price_14d_ago": 65.87
   },
   "Russell": {
     "price": 281.97,
     "change_pct": -4.31,
     "name": "iShares Russell 2000 Index Fund",
-    "updated_at": "2026-09-26T13:58:38.743005",
+    "updated_at": "2026-09-26T22:16:44.841743",
     "price_14d_ago": 294.67
   },
   "S&P": {
     "price": 7743.41,
     "change_pct": 0.91,
     "name": "S&P 500",
-    "updated_at": "2026-09-26T13:58:38.912950",
+    "updated_at": "2026-09-26T22:16:45.008545",
     "price_14d_ago": 7673.52
   },
   "S&P 500": {
     "price": 7743.41,
     "change_pct": 0.91,
     "name": "S&P 500",
-    "updated_at": "2026-09-26T13:58:39.082455",
+    "updated_at": "2026-09-26T22:16:45.173564",
     "price_14d_ago": 7673.52
   },
   "SAMSUNG ELECTRONICS": {
     "price": 285500.0,
     "change_pct": 11.74,
     "name": "SamsungElec",
-    "updated_at": "2026-09-26T13:58:39.267520",
+    "updated_at": "2026-09-26T22:16:45.356785",
     "price_14d_ago": 255500.0
   },
   "SAP": {
     "price": 210.68,
     "change_pct": -0.38,
     "name": "SAP  SE",
-    "updated_at": "2026-09-26T13:58:39.457751",
+    "updated_at": "2026-09-26T22:16:45.543211",
     "price_14d_ago": 211.49
   },
   "SF": {
     "price": 70.35,
     "change_pct": -12.89,
     "name": "Stifel Financial Corporation",
-    "updated_at": "2026-09-26T13:58:39.648480",
+    "updated_at": "2026-09-26T22:16:45.748747",
     "price_14d_ago": 80.76
   },
   "SK HYNIX": {
     "price": 1862000.0,
     "change_pct": 13.05,
     "name": "SK hynix",
-    "updated_at": "2026-09-26T13:58:39.836421",
+    "updated_at": "2026-09-26T22:16:45.938513",
     "price_14d_ago": 1647000.0
   },
   "SLB": {
     "price": 51.54,
     "change_pct": -9.74,
     "name": "SLB Limited",
-    "updated_at": "2026-09-26T13:58:40.136776",
+    "updated_at": "2026-09-26T22:16:46.138561",
     "price_14d_ago": 57.1
   },
   "SMH": {
     "price": 606.56,
     "change_pct": 5.72,
     "name": "VanEck Semiconductor ETF",
-    "updated_at": "2026-09-26T13:58:40.335523",
+    "updated_at": "2026-09-26T22:16:46.315055",
     "price_14d_ago": 573.73
   },
   "SMP-500": {
     "price": 7743.41,
     "change_pct": 0.91,
     "name": "S&P 500",
-    "updated_at": "2026-09-26T13:58:40.505681",
+    "updated_at": "2026-09-26T22:16:46.478907",
     "price_14d_ago": 7673.52
   },
   "SMR": {
     "price": 8.42,
     "change_pct": -24.69,
     "name": "NuScale Power Corporation",
-    "updated_at": "2026-09-26T13:58:40.672697",
+    "updated_at": "2026-09-26T22:16:46.648965",
     "price_14d_ago": 11.18
   },
   "SNAP": {
     "price": 5.42,
     "change_pct": -0.18,
     "name": "Snap Inc.",
-    "updated_at": "2026-09-26T13:58:40.842371",
+    "updated_at": "2026-09-26T22:16:46.811587",
     "price_14d_ago": 5.43
   },
   "SNWGF": {
     "price": 12.38,
     "change_pct": -2.98,
     "name": "SNOWLINE GOLD CORP",
-    "updated_at": "2026-09-26T13:58:41.024644",
+    "updated_at": "2026-09-26T22:16:46.995057",
     "price_14d_ago": 12.76
   },
   "SOYB": {
     "price": 27.72,
     "change_pct": -0.36,
     "name": "Teucrium Soybean Fund ETV",
-    "updated_at": "2026-09-26T13:58:41.268127",
+    "updated_at": "2026-09-26T22:16:47.159834",
     "price_14d_ago": 27.82
   },
   "SPCE": {
     "price": 3.19,
     "change_pct": 1.92,
     "name": "Virgin Galactic Holdings, Inc.",
-    "updated_at": "2026-09-26T13:58:41.445235",
+    "updated_at": "2026-09-26T22:16:47.331104",
     "price_14d_ago": 3.13
   },
   "SPX": {
     "price": 7743.41,
     "change_pct": 0.91,
     "name": "S&P 500",
-    "updated_at": "2026-09-26T13:58:41.846016",
+    "updated_at": "2026-09-26T22:16:47.664715",
     "price_14d_ago": 7673.52
   },
   "SPY": {
     "price": 771.35,
     "change_pct": 0.7,
     "name": "State Street SPDR S&P 500 ETF T",
-    "updated_at": "2026-09-26T13:58:42.038601",
+    "updated_at": "2026-09-26T22:16:47.859877",
     "price_14d_ago": 765.96
   },
   "SQQQ": {
     "price": 33.75,
     "change_pct": -11.9,
     "name": "ProShares UltraPro Short QQQ",
-    "updated_at": "2026-09-26T13:58:42.214293",
+    "updated_at": "2026-09-26T22:16:48.034550",
     "price_14d_ago": 38.31
   },
   "SQUARE": {
     "price": 76.42,
     "change_pct": -4.59,
     "name": "Block, Inc.",
-    "updated_at": "2026-09-26T13:58:42.381711",
+    "updated_at": "2026-09-26T22:16:48.197655",
     "price_14d_ago": 80.1
   },
   "Semiconductors": {
     "price": 606.56,
     "change_pct": 5.72,
     "name": "VanEck Semiconductor ETF",
-    "updated_at": "2026-09-26T13:58:42.565543",
+    "updated_at": "2026-09-26T22:16:48.374250",
     "price_14d_ago": 573.73
   },
   "T": {
     "price": 25.38,
     "change_pct": -0.86,
     "name": "AT&T Inc.",
-    "updated_at": "2026-09-26T13:58:42.766369",
+    "updated_at": "2026-09-26T22:16:48.571316",
     "price_14d_ago": 25.6
   },
   "TDOC": {
     "price": 6.09,
     "change_pct": -2.72,
     "name": "Teladoc Health, Inc.",
-    "updated_at": "2026-09-26T13:58:42.941291",
+    "updated_at": "2026-09-26T22:16:48.750210",
     "price_14d_ago": 6.26
   },
   "TIPS": {
     "price": 0.0,
     "change_pct": 0.0,
     "name": "Tianrong Internet Products and ",
-    "updated_at": "2026-09-26T13:58:43.522316",
+    "updated_at": "2026-09-26T22:16:49.253484",
     "price_14d_ago": 0.0
   },
   "TLT": {
     "price": 79.32,
     "change_pct": -3.5,
     "name": "iShares 20+ Year Treasury Bond ",
-    "updated_at": "2026-09-26T13:58:43.716415",
+    "updated_at": "2026-09-26T22:16:49.445074",
     "price_14d_ago": 82.2
   },
   "TSLA": {
     "price": 372.11,
     "change_pct": 1.07,
     "name": "Tesla, Inc.",
-    "updated_at": "2026-09-26T13:58:43.889503",
+    "updated_at": "2026-09-26T22:16:49.612853",
     "price_14d_ago": 368.16
   },
   "TSM": {
     "price": 450.61,
     "change_pct": 2.64,
     "name": "Taiwan Semiconductor Manufactur",
-    "updated_at": "2026-09-26T13:58:44.075157",
+    "updated_at": "2026-09-26T22:16:49.794970",
     "price_14d_ago": 439.0
   },
   "UBER": {
     "price": 69.62,
     "change_pct": -4.8,
     "name": "Uber Technologies, Inc.",
-    "updated_at": "2026-09-26T13:58:44.418003",
+    "updated_at": "2026-09-26T22:16:50.125871",
     "price_14d_ago": 73.13
   },
   "UNG": {
     "price": 11.13,
     "change_pct": 6.41,
     "name": "United States Natural Gas Fund ",
-    "updated_at": "2026-09-26T13:58:44.589960",
+    "updated_at": "2026-09-26T22:16:50.293523",
     "price_14d_ago": 10.46
   },
   "URANIUM": {
     "price": 40.91,
     "change_pct": -13.87,
     "name": "Uranium ETF",
-    "updated_at": "2026-09-26T13:58:44.942468",
+    "updated_at": "2026-09-26T22:16:50.634079",
     "price_14d_ago": 47.5
   },
   "USD": {
     "price": 95.52,
     "change_pct": 6.49,
     "name": "ProShares Ultra Semiconductors",
-    "updated_at": "2026-09-26T13:58:45.155228",
+    "updated_at": "2026-09-26T22:16:50.853009",
     "price_14d_ago": 89.7
   },
   "USDX": {
     "price": 25.67,
     "change_pct": 0.67,
     "name": "SGI Enhanced Core ETF",
-    "updated_at": "2026-09-26T13:58:45.391670",
+    "updated_at": "2026-09-26T22:16:51.022467",
     "price_14d_ago": 25.5
   },
   "USO": {
     "price": 148.33,
     "change_pct": 1.58,
     "name": "United States Oil Fund",
-    "updated_at": "2026-09-26T13:58:45.574403",
+    "updated_at": "2026-09-26T22:16:51.200685",
     "price_14d_ago": 146.03
   },
   "UTHR": {
     "price": 475.45,
     "change_pct": -4.52,
     "name": "United Therapeutics Corporation",
-    "updated_at": "2026-09-26T13:58:45.741044",
+    "updated_at": "2026-09-26T22:16:51.367515",
     "price_14d_ago": 497.97
   },
   "UUU": {
     "price": 5.11,
     "change_pct": -7.93,
     "name": "Universal Safety Products, Inc.",
-    "updated_at": "2026-09-26T13:58:45.934480",
+    "updated_at": "2026-09-26T22:16:51.535355",
     "price_14d_ago": 5.55
   },
   "V": {
     "price": 367.38,
     "change_pct": -0.34,
     "name": "Visa Inc.",
-    "updated_at": "2026-09-26T13:58:46.288777",
+    "updated_at": "2026-09-26T22:16:51.877488",
     "price_14d_ago": 368.64
   },
   "VEEV": {
     "price": 280.68,
     "change_pct": 5.98,
     "name": "Veeva Systems Inc.",
-    "updated_at": "2026-09-26T13:58:46.704840",
+    "updated_at": "2026-09-26T22:16:52.275381",
     "price_14d_ago": 264.84
   },
   "VIX": {
     "price": 14.87,
     "change_pct": -5.41,
     "name": "CBOE Volatility Index",
-    "updated_at": "2026-09-26T13:58:47.269778",
+    "updated_at": "2026-09-26T22:16:52.772548",
     "price_14d_ago": 15.72
   },
   "VLO": {
     "price": 387.18,
     "change_pct": 1.13,
     "name": "Valero Energy Corporation",
-    "updated_at": "2026-09-26T13:58:47.474988",
+    "updated_at": "2026-09-26T22:16:52.969662",
     "price_14d_ago": 382.85
   },
   "VRTX": {
     "price": 526.19,
     "change_pct": -0.51,
     "name": "Vertex Pharmaceuticals Incorpor",
-    "updated_at": "2026-09-26T13:58:47.643085",
+    "updated_at": "2026-09-26T22:16:53.151930",
     "price_14d_ago": 528.9
   },
   "WFC": {
     "price": 82.97,
     "change_pct": -5.67,
     "name": "Wells Fargo & Company",
-    "updated_at": "2026-09-26T13:58:47.941323",
+    "updated_at": "2026-09-26T22:16:53.359204",
     "price_14d_ago": 87.96
   },
   "WIT": {
     "price": 1.65,
     "change_pct": -4.62,
     "name": "Wipro Limited",
-    "updated_at": "2026-09-26T13:58:48.124314",
+    "updated_at": "2026-09-26T22:16:53.545321",
     "price_14d_ago": 1.73
   },
   "WMT": {
     "price": 107.98,
     "change_pct": 1.82,
     "name": "Walmart Inc.",
-    "updated_at": "2026-09-26T13:58:48.338593",
+    "updated_at": "2026-09-26T22:16:53.814570",
     "price_14d_ago": 106.05
   },
   "WTBN": {
     "price": 24.09,
     "change_pct": -2.27,
     "name": "WisdomTree Bianco Total Return ",
-    "updated_at": "2026-09-26T13:58:48.507130",
+    "updated_at": "2026-09-26T22:16:53.985307",
     "price_14d_ago": 24.66
   },
   "WTI": {
     "price": 92.41,
     "change_pct": -0.67,
     "name": "WTI Crude",
-    "updated_at": "2026-09-26T13:58:48.671483",
+    "updated_at": "2026-09-26T22:16:54.152000",
     "price_14d_ago": 93.03
   },
   "WTI CRUDE OIL": {
     "price": 92.41,
     "change_pct": -0.67,
     "name": "WTI Crude",
-    "updated_at": "2026-09-26T13:58:48.840776",
+    "updated_at": "2026-09-26T22:16:54.319388",
     "price_14d_ago": 93.03
   },
   "XAU-USD": {
     "price": 0,
     "change_pct": 0,
     "name": "XAU9999 Meme USD",
-    "updated_at": "2026-09-26T13:58:49.242351",
+    "updated_at": "2026-09-26T22:16:54.652734",
     "price_14d_ago": 0.0
   },
   "XOM": {
     "price": 160.59,
     "change_pct": -0.04,
     "name": "ExxonMobil Holdings Corporation",
-    "updated_at": "2026-09-26T13:58:49.467681",
+    "updated_at": "2026-09-26T22:16:54.893360",
     "price_14d_ago": 160.66
   },
   "ZIM": {
     "price": 29.19,
     "change_pct": -2.96,
     "name": "ZIM Integrated Shipping Service",
-    "updated_at": "2026-09-26T13:58:49.809375",
+    "updated_at": "2026-09-26T22:16:55.229373",
     "price_14d_ago": 30.08
   },
   "HIMS": {
     "price": 29.42,
     "change_pct": 4.44,
     "name": "Hims & Hers Health, Inc.",
-    "updated_at": "2026-09-26T13:58:50.156334",
+    "updated_at": "2026-09-26T22:16:55.561247",
     "price_14d_ago": 28.17
   },
   "GDRX": {
     "price": 3.35,
     "change_pct": -4.83,
     "name": "GoodRx Holdings, Inc.",
-    "updated_at": "2026-09-26T13:58:50.336276",
+    "updated_at": "2026-09-26T22:16:55.735166",
     "price_14d_ago": 3.52
   },
   "TEM": {
     "price": 85.01,
     "change_pct": 32.23,
     "name": "Tempus AI, Inc.",
-    "updated_at": "2026-09-26T13:58:50.500371",
+    "updated_at": "2026-09-26T22:16:55.902286",
     "price_14d_ago": 64.29
   },
   "GH": {
     "price": 177.25,
     "change_pct": 10.11,
     "name": "Guardant Health, Inc.",
-    "updated_at": "2026-09-26T13:58:50.668422",
+    "updated_at": "2026-09-26T22:16:56.068034",
     "price_14d_ago": 160.98
   },
   "ABT": {
     "price": 101.29,
     "change_pct": -4.01,
     "name": "Abbott Laboratories",
-    "updated_at": "2026-09-26T13:58:50.860110",
+    "updated_at": "2026-09-26T22:16:56.334757",
     "price_14d_ago": 105.52
   }
 },
@@ -44613,7 +44613,7 @@ const dashboardData = {
 ],
   podcastGuests: [
   {
-    "id": 75089,
+    "id": 75200,
     "name": "Eddie Lazaran",
     "slug": "eddie-lazaran",
     "bio": null,
@@ -44625,7 +44625,7 @@ const dashboardData = {
     "appearance_count": 1
   },
   {
-    "id": 75090,
+    "id": 75201,
     "name": "Michael Every",
     "slug": "michael-every",
     "bio": null,
@@ -44637,7 +44637,7 @@ const dashboardData = {
     "appearance_count": 1
   },
   {
-    "id": 75091,
+    "id": 75202,
     "name": "Steve Hilton & Spencer Pratt",
     "slug": "steve-hilton--spencer-pratt",
     "bio": null,
@@ -44649,7 +44649,7 @@ const dashboardData = {
     "appearance_count": 1
   },
   {
-    "id": 75092,
+    "id": 75203,
     "name": "Blake Scholl",
     "slug": "blake-scholl",
     "bio": null,
@@ -44661,7 +44661,7 @@ const dashboardData = {
     "appearance_count": 1
   },
   {
-    "id": 75093,
+    "id": 75204,
     "name": "John Platt",
     "slug": "john-platt",
     "bio": null,
@@ -44673,7 +44673,7 @@ const dashboardData = {
     "appearance_count": 1
   },
   {
-    "id": 75094,
+    "id": 75205,
     "name": "Diogo Almeida",
     "slug": "diogo-almeida",
     "bio": null,
@@ -44685,7 +44685,7 @@ const dashboardData = {
     "appearance_count": 1
   },
   {
-    "id": 75095,
+    "id": 75206,
     "name": "Naveen Rao",
     "slug": "naveen-rao",
     "bio": null,
@@ -44697,7 +44697,7 @@ const dashboardData = {
     "appearance_count": 1
   },
   {
-    "id": 75096,
+    "id": 75207,
     "name": "Outlook on 5 Key Commodities",
     "slug": "outlook-on-5-key-commodities",
     "bio": null,
@@ -44709,7 +44709,7 @@ const dashboardData = {
     "appearance_count": 1
   },
   {
-    "id": 75097,
+    "id": 75208,
     "name": "Bill Gurley",
     "slug": "bill-gurley",
     "bio": null,
@@ -44721,7 +44721,7 @@ const dashboardData = {
     "appearance_count": 1
   },
   {
-    "id": 75098,
+    "id": 75209,
     "name": "Nick Shirley",
     "slug": "nick-shirley",
     "bio": null,
@@ -44733,7 +44733,7 @@ const dashboardData = {
     "appearance_count": 1
   },
   {
-    "id": 75099,
+    "id": 75210,
     "name": "Jared Isaacman",
     "slug": "jared-isaacman",
     "bio": null,
@@ -44745,7 +44745,7 @@ const dashboardData = {
     "appearance_count": 1
   },
   {
-    "id": 75100,
+    "id": 75211,
     "name": "Brad Gerstner",
     "slug": "brad-gerstner",
     "bio": null,
@@ -44757,7 +44757,7 @@ const dashboardData = {
     "appearance_count": 1
   },
   {
-    "id": 75101,
+    "id": 75212,
     "name": "Meta's Dina Powell McCormick",
     "slug": "metas-dina-powell-mccormick",
     "bio": null,
@@ -44769,7 +44769,7 @@ const dashboardData = {
     "appearance_count": 1
   },
   {
-    "id": 75102,
+    "id": 75213,
     "name": "Underwriting Superintelligence",
     "slug": "underwriting-superintelligence",
     "bio": null,
@@ -44781,7 +44781,7 @@ const dashboardData = {
     "appearance_count": 1
   },
   {
-    "id": 75103,
+    "id": 75214,
     "name": "Hawks Take Flight",
     "slug": "hawks-take-flight",
     "bio": null,
@@ -44793,7 +44793,7 @@ const dashboardData = {
     "appearance_count": 1
   },
   {
-    "id": 75104,
+    "id": 75215,
     "name": "Martine Rothblatt",
     "slug": "martine-rothblatt",
     "bio": null,
@@ -44805,7 +44805,7 @@ const dashboardData = {
     "appearance_count": 1
   },
   {
-    "id": 75105,
+    "id": 75216,
     "name": "Microsoft CEO Satya Nadella",
     "slug": "microsoft-ceo-satya-nadella",
     "bio": null,
@@ -44817,7 +44817,7 @@ const dashboardData = {
     "appearance_count": 1
   },
   {
-    "id": 75106,
+    "id": 75217,
     "name": "Jensen Huang",
     "slug": "jensen-huang",
     "bio": null,
@@ -44829,7 +44829,7 @@ const dashboardData = {
     "appearance_count": 1
   },
   {
-    "id": 75107,
+    "id": 75218,
     "name": "Ask the Mates anything",
     "slug": "ask-the-mates-anything",
     "bio": null,
@@ -44841,7 +44841,7 @@ const dashboardData = {
     "appearance_count": 1
   },
   {
-    "id": 75108,
+    "id": 75219,
     "name": "Matt Barry",
     "slug": "matt-barry",
     "bio": null,
@@ -45606,7 +45606,7 @@ const dashboardData = {
     "last_podcast_name": "Monetary Matters with Jack Farley",
     "last_episode_date": "2026-08-20",
     "mention_score": 3,
-    "mention_score_decayed": 1.31,
+    "mention_score_decayed": 1.28,
     "last_main_idea": "The rise in AI capex and government spending is leading to increased borrowing costs, which will have profound effects on bond markets and inflation, creating both risks and opportunities for investors.",
     "last_proof_cite": "Monetary Matters with Jack Farley \u2022 2026-08-20 \u2022 Why Bessent Blinked | Luke Gromen on Doubling of Treasury Buyback Plan to Tame Long-End Yields",
     "last_proof_snippet": "Today's episode is brought to you by the two-cream corn fund Take or C-O-R-N. Let's get into it. Got a very important conversation today. I'm joined once again by Luke Groman of Forest for the Trees Research Luke. Welcome back to Monterey M",
@@ -45666,7 +45666,7 @@ const dashboardData = {
     "last_podcast_name": "Moonshots with Peter Diamandis",
     "last_episode_date": "2026-07-08",
     "mention_score": 3,
-    "mention_score_decayed": 1.19,
+    "mention_score_decayed": 1.16,
     "last_main_idea": "Governments are imposing safety measures on AI models, setting a precedent for future regulations.",
     "last_proof_cite": "Moonshots with Peter Diamandis \u2022 2026-07-08 \u2022 Fable 5 Is Back & Govt-Leashed, Altman Offers 5% of OpenAI & AI Grows Conscious | #269",
     "last_proof_snippet": "Fable 5 came back online globally on July 1st with a few Provisos. This feels like the first time a frontier model has a standing duty to the U.S. government. This is probably close to the best scenario we could have hoped for. Sam has been",
@@ -46363,7 +46363,7 @@ const dashboardData = {
     "last_podcast_name": "Monetary Matters with Jack Farley",
     "last_episode_date": "2026-09-20",
     "mention_score": 1,
-    "mention_score_decayed": 0.89,
+    "mention_score_decayed": 0.87,
     "last_main_idea": "Gold has decoupled from oil prices, indicating a potential for price increases as central banks, especially in China, increase purchases.",
     "last_proof_cite": "Monetary Matters with Jack Farley \u2022 2026-09-20 \u2022 Outlook on 5 Key Commodities: Metals Bull Market is Just Getting Started (Gold, Copper, & Uranium) | J\u00e9r\u00e9mie Boyer | Aurelion",
     "last_proof_snippet": "We're pretty much bullish on goal. I think they coupled from all price. This is what maybe the confirmation we were reading for to become bullish again on goal. As we saw since maybe August and so far, September, there's been a huge spike i",
@@ -46631,60 +46631,6 @@ const dashboardData = {
     }
   },
   {
-    "id": 464,
-    "name": "Harley Bassman",
-    "slug": "harley-bassman",
-    "bio": "Harley Bassman is a financial expert recognized for his deep insights into fixed income markets and economic trends. He is known for his innovative approach to market dynamics and monetary policy, earning him the nickname 'Convexity Maven.' His expertise has made him a sought-after commentator in the finance community.",
-    "known_for": "Harley Bassman is renowned for inventing the Move Index, a key tool for understanding market volatility in fixed income.",
-    "net_worth_usd": null,
-    "net_worth_source": "",
-    "net_worth_updated_at": null,
-    "voice_tone": "Analytical and assertive",
-    "voice_style": "Direct and informative, providing clear insights.",
-    "voice_delivery_notes": "Pacing is steady with emphasis on key points.",
-    "voice_profile_updated_at": "2026-09-17 19:01:38",
-    "last_seen": "2026-09-17 19:01:38",
-    "last_episode_title": "MacroVoices #550 Harley Bassman: In FED We Trust",
-    "last_podcast_name": "Macro Voices",
-    "last_episode_date": "2026-09-17",
-    "mention_score": 1,
-    "mention_score_decayed": 0.83,
-    "last_main_idea": "The Federal Reserve's credibility is eroding, leading to increased market volatility.",
-    "last_proof_cite": "Macro Voices \u2022 2026-09-17 \u2022 MacroVoices #550 Harley Bassman: In FED We Trust",
-    "last_proof_snippet": "What's going on in my view is we have a lack of trust in the government. In a lot of our institutions, and maybe about the Fed, which really important here is the Fed needs to go and regain the trust of the market. That was Harley Basman, t",
-    "supporting_takeaway": "Corporate profits as a percentage of GDP have doubled, indicating a disconnect with public sentiment.",
-    "grokipedia_url": null,
-    "grokipedia_fetched_at": "2026-09-17T14:02:02.949413",
-    "pundit_profile": {
-      "source": "llm",
-      "source_model": "openai:gpt-4o-mini",
-      "source_url": "",
-      "page_title": "Harley Bassman",
-      "fetched_at": "2026-09-17T19:02:02.948863+00:00",
-      "cliff_notes": "Harley Bassman has established himself as a leading voice in the analysis of fixed income markets. His career has been marked by a focus on understanding and interpreting economic trends, particularly in relation to monetary policy and market trust. As the inventor of the Move Index, he has provided investors with a valuable tool for gauging market volatility, which has become essential in today's financial landscape. His insights are frequently sought after in various media, where he discusses the implications of Federal Reserve policies and broader economic conditions. Bassman's ability to distill complex financial concepts into actionable insights has made him a respected figure among both professional finance practitioners and sophisticated private investors.",
-      "derived": {},
-      "infobox": {},
-      "lead_paragraphs": [
-        "Harley Bassman has established himself as a leading voice in the analysis of fixed income markets. His career has been marked by a focus on understanding and interpreting economic trends, particularly in relation to monetary policy and market trust. As the inventor of the Move Index, he has provided investors with a valuable tool for gauging market volatility, which has become essential in today's financial landscape.",
-        "His insights are frequently sought after in various media, where he discusses the implications of Federal Reserve policies and broader economic conditions. Bassman's ability to distill complex financial concepts into actionable insights has made him a respected figure among both professional finance practitioners and sophisticated private investors."
-      ],
-      "sections": [
-        {
-          "heading": "Fixed Income Markets",
-          "body": "Bassman offers expert analysis on the dynamics of fixed income markets, providing insights into trends and investment strategies."
-        },
-        {
-          "heading": "Monetary Policy",
-          "body": "He discusses the implications of monetary policy decisions by the Federal Reserve and their impact on market confidence and investor behavior."
-        },
-        {
-          "heading": "Market Volatility",
-          "body": "As the creator of the Move Index, Bassman provides a framework for understanding market volatility, helping investors navigate uncertain environments."
-        }
-      ]
-    }
-  },
-  {
     "id": 133,
     "name": "Chris Dixon",
     "slug": "chris-dixon",
@@ -46744,6 +46690,60 @@ const dashboardData = {
       ]
     },
     "net_worth": "$500.0M"
+  },
+  {
+    "id": 464,
+    "name": "Harley Bassman",
+    "slug": "harley-bassman",
+    "bio": "Harley Bassman is a financial expert recognized for his deep insights into fixed income markets and economic trends. He is known for his innovative approach to market dynamics and monetary policy, earning him the nickname 'Convexity Maven.' His expertise has made him a sought-after commentator in the finance community.",
+    "known_for": "Harley Bassman is renowned for inventing the Move Index, a key tool for understanding market volatility in fixed income.",
+    "net_worth_usd": null,
+    "net_worth_source": "",
+    "net_worth_updated_at": null,
+    "voice_tone": "Analytical and assertive",
+    "voice_style": "Direct and informative, providing clear insights.",
+    "voice_delivery_notes": "Pacing is steady with emphasis on key points.",
+    "voice_profile_updated_at": "2026-09-17 19:01:38",
+    "last_seen": "2026-09-17 19:01:38",
+    "last_episode_title": "MacroVoices #550 Harley Bassman: In FED We Trust",
+    "last_podcast_name": "Macro Voices",
+    "last_episode_date": "2026-09-17",
+    "mention_score": 1,
+    "mention_score_decayed": 0.81,
+    "last_main_idea": "The Federal Reserve's credibility is eroding, leading to increased market volatility.",
+    "last_proof_cite": "Macro Voices \u2022 2026-09-17 \u2022 MacroVoices #550 Harley Bassman: In FED We Trust",
+    "last_proof_snippet": "What's going on in my view is we have a lack of trust in the government. In a lot of our institutions, and maybe about the Fed, which really important here is the Fed needs to go and regain the trust of the market. That was Harley Basman, t",
+    "supporting_takeaway": "Corporate profits as a percentage of GDP have doubled, indicating a disconnect with public sentiment.",
+    "grokipedia_url": null,
+    "grokipedia_fetched_at": "2026-09-17T14:02:02.949413",
+    "pundit_profile": {
+      "source": "llm",
+      "source_model": "openai:gpt-4o-mini",
+      "source_url": "",
+      "page_title": "Harley Bassman",
+      "fetched_at": "2026-09-17T19:02:02.948863+00:00",
+      "cliff_notes": "Harley Bassman has established himself as a leading voice in the analysis of fixed income markets. His career has been marked by a focus on understanding and interpreting economic trends, particularly in relation to monetary policy and market trust. As the inventor of the Move Index, he has provided investors with a valuable tool for gauging market volatility, which has become essential in today's financial landscape. His insights are frequently sought after in various media, where he discusses the implications of Federal Reserve policies and broader economic conditions. Bassman's ability to distill complex financial concepts into actionable insights has made him a respected figure among both professional finance practitioners and sophisticated private investors.",
+      "derived": {},
+      "infobox": {},
+      "lead_paragraphs": [
+        "Harley Bassman has established himself as a leading voice in the analysis of fixed income markets. His career has been marked by a focus on understanding and interpreting economic trends, particularly in relation to monetary policy and market trust. As the inventor of the Move Index, he has provided investors with a valuable tool for gauging market volatility, which has become essential in today's financial landscape.",
+        "His insights are frequently sought after in various media, where he discusses the implications of Federal Reserve policies and broader economic conditions. Bassman's ability to distill complex financial concepts into actionable insights has made him a respected figure among both professional finance practitioners and sophisticated private investors."
+      ],
+      "sections": [
+        {
+          "heading": "Fixed Income Markets",
+          "body": "Bassman offers expert analysis on the dynamics of fixed income markets, providing insights into trends and investment strategies."
+        },
+        {
+          "heading": "Monetary Policy",
+          "body": "He discusses the implications of monetary policy decisions by the Federal Reserve and their impact on market confidence and investor behavior."
+        },
+        {
+          "heading": "Market Volatility",
+          "body": "As the creator of the Move Index, Bassman provides a framework for understanding market volatility, helping investors navigate uncertain environments."
+        }
+      ]
+    }
   },
   {
     "id": 462,
@@ -47295,7 +47295,7 @@ const dashboardData = {
     "last_podcast_name": "All-In with Chamath, Jason, Sacks & Friedberg",
     "last_episode_date": "2026-08-08",
     "mention_score": 2,
-    "mention_score_decayed": 0.79,
+    "mention_score_decayed": 0.78,
     "last_main_idea": "Investment in AI infrastructure and data centers is becoming increasingly important due to the demand for compute power and the tax advantages of such investments in the U.S.",
     "last_proof_cite": "All-In with Chamath, Jason, Sacks & Friedberg \u2022 2026-08-08 \u2022 Google's AI Brain Drain, SpaceX's Huge Quarter, Airtable's 90% Collapse, US Data Fuels China AI",
     "last_proof_snippet": "All right, everybody. Welcome back to your favorite podcast. It's the all-in podcast. It's the summer. It's August 6th. Haven't a hard time getting a core. I'm here on the podcast. But David Friedberg is here. David Friedberg is back our Su",
@@ -47353,7 +47353,7 @@ const dashboardData = {
     "last_podcast_name": "Monetary Matters with Jack Farley",
     "last_episode_date": "2026-09-13",
     "mention_score": 1,
-    "mention_score_decayed": 0.76,
+    "mention_score_decayed": 0.74,
     "last_main_idea": "The junior mining sector offers a compelling asymmetric opportunity in distressed, underappreciated assets with strong management, where years of capital flight and depleted liquidity have created a fertile environment for patient capital to realize value through operational improvement and an impending wave of major-miner M&A.",
     "last_proof_cite": "Monetary Matters with Jack Farley \u2022 2026-09-13 \u2022 Hunting for Value in Mining Stocks Amid Soaring Metals Prices | Freddy Brick | Muddy Waters Capital",
     "last_proof_snippet": "We actually don't have a huge view of metal prices, which everyone probably thinks is just insane given that we run a metals and mining fund, 2% down day on the S&P, like you know a lot of Bloomberg going yellow pretty early and people are",
@@ -48394,7 +48394,7 @@ const dashboardData = {
     "last_podcast_name": "The a16z Show",
     "last_episode_date": "2026-08-21",
     "mention_score": 1,
-    "mention_score_decayed": 0.52,
+    "mention_score_decayed": 0.51,
     "last_main_idea": "Investing in AI-driven security solutions can enhance operational efficiency and effectiveness, providing a competitive edge in a rapidly evolving technological landscape.",
     "last_proof_cite": "The a16z Show \u2022 2026-08-21 \u2022 Microsoft's Deputy CISO on Securing AI Agents",
     "last_proof_snippet": "The top story has been that the AI models are happy. The models went out under the internet and tested the security of several organizations. Isn't something to be scared of? Yes. Is it something to throw up your hands and worry about? No.",
@@ -48456,7 +48456,7 @@ const dashboardData = {
     "last_podcast_name": "Moonshots with Peter Diamandis",
     "last_episode_date": "2026-07-29",
     "mention_score": 1,
-    "mention_score_decayed": 0.52,
+    "mention_score_decayed": 0.51,
     "last_main_idea": "The accelerating pace of AI development, coupled with advancements in space technology and a shifting geopolitical landscape, creates a multi-faceted investment opportunity in companies fostering balanced AI ecosystems, pioneering AGI, and enabling future abundance.",
     "last_proof_cite": "Moonshots with Peter Diamandis \u2022 2026-07-29 \u2022 Dario vs Jensen on Open Weights, OpenAI & Anthropic in DC, Xi Exports AI to Global South | EP #275",
     "last_proof_snippet": "The couple of days ago, Jensen Wong's CEO of NVIDIA. He says the world needs both frontier, close models, and frontier open models. And Thropic was silent for three days, and there was a lot of conversation. Where's in Thropic in this conve",
@@ -48484,7 +48484,7 @@ const dashboardData = {
     "last_podcast_name": "Moonshots with Peter Diamandis",
     "last_episode_date": "2026-07-29",
     "mention_score": 1,
-    "mention_score_decayed": 0.52,
+    "mention_score_decayed": 0.51,
     "last_main_idea": "The accelerating pace of AI development, coupled with advancements in space technology and a shifting geopolitical landscape, creates a multi-faceted investment opportunity in companies fostering balanced AI ecosystems, pioneering AGI, and enabling future abundance.",
     "last_proof_cite": "Moonshots with Peter Diamandis \u2022 2026-07-29 \u2022 Dario vs Jensen on Open Weights, OpenAI & Anthropic in DC, Xi Exports AI to Global South | EP #275",
     "last_proof_snippet": "The couple of days ago, Jensen Wong's CEO of NVIDIA. He says the world needs both frontier, close models, and frontier open models. And Thropic was silent for three days, and there was a lot of conversation. Where's in Thropic in this conve",
@@ -48512,7 +48512,7 @@ const dashboardData = {
     "last_podcast_name": "The a16z Show",
     "last_episode_date": "2026-06-12",
     "mention_score": 1,
-    "mention_score_decayed": 0.52,
+    "mention_score_decayed": 0.51,
     "last_main_idea": "The core investment opportunity lies in identifying and capitalizing on the foundational industries and efficient institutions that will enable and benefit from the AI-induced industrial revolution, while also navigating the demographic and political economic shifts it engenders.",
     "last_proof_cite": "The a16z Show \u2022 2026-06-12 \u2022 Samo Burja on Growth, Energy, and AI",
     "last_proof_snippet": "So, I actually think a big macro story that we've been exploring at Bismarck and Alice's in Bismarck Brief is that the demands of AI are so massive that for the first time in decades, the economies of scale necessary to supply them require",
@@ -49759,7 +49759,7 @@ const dashboardData = {
     "last_podcast_name": "Monetary Matters with Jack Farley",
     "last_episode_date": "2026-08-16",
     "mention_score": 1,
-    "mention_score_decayed": 0.4,
+    "mention_score_decayed": 0.39,
     "last_main_idea": "Investment in hyperscaler companies may offer significant returns due to their transformative technology and massive capital investments, but also carries risks due to the off-balance sheet leverage and innovative financial structures.",
     "last_proof_cite": "Monetary Matters with Jack Farley \u2022 2026-08-16 \u2022 Robin Wigglesworth on Hyperscalers' 1.5 Trillion of Off-Balance Sheet Liabilities, Private Credit, and His Book \"A Fabulous Debt\"",
     "last_proof_snippet": "I'm joined today by Robin Wigglesworth, editor of AlphaVille, the Financial Times Financial blog and author of a fabulous debt, the epic story of how bonds built the modern world Robin. But one talk about bonds fixed income of course, but w",
@@ -50072,7 +50072,7 @@ const dashboardData = {
     "last_podcast_name": "Monetary Matters with Jack Farley",
     "last_episode_date": "2026-08-12",
     "mention_score": 1,
-    "mention_score_decayed": 0.36,
+    "mention_score_decayed": 0.35,
     "last_main_idea": "Milton Berg's investment thesis is that the market may have bottomed and is poised for a rebound, with specific focus on sectors that have experienced significant declines as potential short-term bounce candidates.",
     "last_proof_cite": "Monetary Matters with Jack Farley \u2022 2026-08-12 \u2022 Milton Berg: I Have Evidence Market Has Likely Bottomed | Why Milton\u2019s Long Semis, Korea, Nasdaq, and More (With Caveats), and Why He Thinks Gold has made a Multi-year Top",
     "last_proof_snippet": "I am joined once again by Milton Berg of MB advisors and Milton Berg Edge. Milton is one of the greatest market technicians alive. And he focuses on a lot of things that most tetanolists don't follow. He's mostly not looking at charts. He's",
@@ -51226,7 +51226,7 @@ const dashboardData = {
     "last_podcast_name": "Moonshots with Peter Diamandis",
     "last_episode_date": "2026-08-04",
     "mention_score": 1,
-    "mention_score_decayed": 0.3,
+    "mention_score_decayed": 0.29,
     "last_main_idea": "Investing in AI and technology sectors that align with the U.S. government's initiatives for fostering innovation and scientific discovery could provide significant growth opportunities.",
     "last_proof_cite": "Moonshots with Peter Diamandis \u2022 2026-08-04 \u2022 Michael Kratsios on the New Golden Age of American Science | EP #276",
     "last_proof_snippet": "I was a kid in the candy store reading the Golden Age Report. What you're describing there is a complete fundamental AI native AI agent up, reimagining of the entire scientific process. And I think it's something that is possible. My sense",
@@ -51295,7 +51295,7 @@ const dashboardData = {
     "last_podcast_name": "The a16z Show",
     "last_episode_date": "2026-08-04",
     "mention_score": 1,
-    "mention_score_decayed": 0.3,
+    "mention_score_decayed": 0.29,
     "last_main_idea": "Investing in cybersecurity solutions that leverage AI can provide a competitive advantage, but it also requires understanding the novel risks and vulnerabilities that AI models can create.",
     "last_proof_cite": "The a16z Show \u2022 2026-08-04 \u2022 OpenAI's Joshua Achiam: Did We Already Reach AGI?",
     "last_proof_snippet": "Heels like AGI is kind of already here and most people have gone like drug. The fact that we passed the threshold of where unsolved mathematical trajectors are getting solved by extremely intelligent AI, where those AI's are more capable an",
@@ -52454,7 +52454,7 @@ const dashboardData = {
     "last_podcast_name": "All-In with Chamath, Jason, Sacks & Friedberg",
     "last_episode_date": "2026-07-20",
     "mention_score": 1,
-    "mention_score_decayed": 0.22,
+    "mention_score_decayed": 0.21,
     "last_main_idea": "The current market behavior, while bubbly, is distinct from past bubbles and may disproportionately impact venture capital and private equity firms due to aggressive investment strategies.",
     "last_proof_cite": "All-In with Chamath, Jason, Sacks & Friedberg \u2022 2026-07-20 \u2022 Mark Cuban on the AI Bubble: Who Actually Gets Wiped Out?",
     "last_proof_snippet": "You and I live through a couple of bubbles. We've seen this movie before. And this wave seems very different than the dot com wave. So let's talk about that. Are you concerned about a bubble? We're seeing bubbly like behavior people. It's n",
@@ -52717,7 +52717,7 @@ const dashboardData = {
     "last_podcast_name": "Moonshots with Peter Diamandis",
     "last_episode_date": "2026-07-17",
     "mention_score": 1,
-    "mention_score_decayed": 0.2,
+    "mention_score_decayed": 0.19,
     "last_main_idea": "Investing in AI companies that focus on customization and small language models can provide significant returns as these technologies meet current market demands and have the potential to shape the future of AI.",
     "last_proof_cite": "Moonshots with Peter Diamandis \u2022 2026-07-17 \u2022 Mira Murati's 975B Open Model, Ramin Hasani on Post-Transformer AI, and Demis' AI FINRA | EP #271",
     "last_proof_snippet": "Miramoradi, the former OpenAI CTO, just shipped her first model. It's called Inkling, customization over leaderboard dominance is what's going to win her the day. She's built exactly the thing hitting the market that exactly what everybody",
@@ -53730,7 +53730,7 @@ const dashboardData = {
     "last_podcast_name": "Monetary Matters with Jack Farley",
     "last_episode_date": "2026-07-04",
     "mention_score": 1,
-    "mention_score_decayed": 0.15,
+    "mention_score_decayed": 0.14,
     "last_main_idea": "Clarion Partners manages over $70 billion in real estate assets, with a significant portion in industrial logistics.",
     "last_proof_cite": "Monetary Matters with Jack Farley \u2022 2026-07-04 \u2022 The Real Estate Cycle Is Turning | Josh Pristaw on The New Cycle in Real Estate, Opportunity in Senior Living, Why AI Data Centers Are Too Big For Most Investors",
     "last_proof_snippet": "Today's episode is brought to you by the Fundrise Income Fund. You'll hear more about the income fund later in the show, but for now, let's get into today's interview. Today we're going to be talking all things real estate. I'm joined by Jo",
@@ -58830,7 +58830,7 @@ const dashboardData = {
     "last_podcast_name": "The a16z Show",
     "last_episode_date": "2026-05-01",
     "mention_score": 1,
-    "mention_score_decayed": 0.04,
+    "mention_score_decayed": 0.03,
     "last_main_idea": "Live streaming and communal experiences are on the rise due to the human element being difficult to replicate.",
     "last_proof_cite": "The a16z Show \u2022 2026-05-01 \u2022 Balaji and Taylor Lorenz on AI and Media",
     "last_proof_snippet": "I think the media guys think the tech guys start it, the tech guys think the media guys think the tech guys start it by economically disrupting them? I think this is why we're seeing such a resurgence in live streaming and interesting in th",
@@ -58893,7 +58893,7 @@ const dashboardData = {
     "last_podcast_name": "The a16z Show",
     "last_episode_date": "2026-05-01",
     "mention_score": 1,
-    "mention_score_decayed": 0.04,
+    "mention_score_decayed": 0.03,
     "last_main_idea": "Live streaming and communal experiences are on the rise due to the human element being difficult to replicate.",
     "last_proof_cite": "The a16z Show \u2022 2026-05-01 \u2022 Balaji and Taylor Lorenz on AI and Media",
     "last_proof_snippet": "I think the media guys think the tech guys start it, the tech guys think the media guys think the tech guys start it by economically disrupting them? I think this is why we're seeing such a resurgence in live streaming and interesting in th",
@@ -58964,7 +58964,7 @@ const dashboardData = {
     "last_podcast_name": "Monetary Matters with Jack Farley",
     "last_episode_date": "2026-05-01",
     "mention_score": 1,
-    "mention_score_decayed": 0.04,
+    "mention_score_decayed": 0.03,
     "last_main_idea": "New economy stocks are less predictable using traditional fundamental analysis due to high levels of intangible assets.",
     "last_proof_cite": "Monetary Matters with Jack Farley \u2022 2026-05-01 \u2022 Why Fundamentals Fail the New Economy | Jacob Pozharny on \u201cSentiment\u201d Analysis\u2019 Role in New Economy Stocks",
     "last_proof_snippet": "Today's episode is brought to you by the unlimited hfgm global macro ETF ticker hfgm. Later in the show you'll hear more about hfgm currently the number one morning star rated funds its inception in the U.S. macro trading category. Let's ge",
@@ -60140,70 +60140,6 @@ const dashboardData = {
     "net_worth": "$5.00B"
   },
   {
-    "id": 189,
-    "name": "Dmitry Dugov",
-    "slug": "dmitry-dugov",
-    "bio": "Dmitry Dugov is the Co-CEO of Wemo, a company that has been leading the autonomous vehicle industry by providing over 500,000 fully autonomous rides each week. He joined Google's self-driving car project in 2009 as one of its first engineers, contributing significantly to the field of autonomous driving technology.",
-    "known_for": "Leading Wemo to provide over 500,000 fully autonomous rides each week.",
-    "net_worth_usd": null,
-    "net_worth_source": "",
-    "net_worth_updated_at": null,
-    "voice_tone": "Confident and knowledgeable",
-    "voice_style": "Factual and forward-looking",
-    "voice_delivery_notes": "Clear and measured pace, with emphasis on key milestones and technological advancements",
-    "voice_profile_updated_at": "2026-04-20 03:05:00",
-    "last_seen": "2026-04-20 03:05:00",
-    "last_episode_title": "From Models to Mobility: Building Waymo with Dmitri Dolgov",
-    "last_podcast_name": "The a16z Show",
-    "last_episode_date": "2026-04-17",
-    "mention_score": 1,
-    "mention_score_decayed": 0.03,
-    "last_main_idea": "Investing in autonomous driving technologies offers significant potential as the industry moves from research to real-world deployment, with a focus on companies that understand the physical and social aspects of driving.",
-    "last_proof_cite": "The a16z Show \u2022 2026-04-17 \u2022 From Models to Mobility: Building Waymo with Dmitri Dolgov",
-    "last_proof_snippet": "The autonomous driving industry has moved from scientific research to accelerated global scaling and deployment.",
-    "supporting_takeaway": "The autonomous driving industry has moved from scientific research to accelerated global scaling and deployment.",
-    "grokipedia_url": null,
-    "grokipedia_fetched_at": "2026-04-19T22:05:22.013432",
-    "pundit_profile": {
-      "source": "llm",
-      "source_model": "moonshot:moonshot-v1-8k",
-      "source_url": "",
-      "page_title": "Dmitry Dugov",
-      "fetched_at": "2026-04-20T03:05:22.013196+00:00",
-      "cliff_notes": "Dmitry Dugov began his career in the autonomous vehicle industry by joining Google's self-driving car project in 2009 as one of its first engineers. His work contributed to the foundational development of autonomous driving technology. Later, Dugov became the Co-CEO of Wemo, where he played a pivotal role in scaling the company's operations to provide over 500,000 fully autonomous rides each week across multiple cities. His leadership has been instrumental in transitioning the company from long-term research to real-world scale, emphasizing the importance of understanding the social aspects of driving and the properties of being a good driver in the development of autonomous systems.",
-      "derived": {
-        "current_role": "Co-CEO of Wemo",
-        "former_positions": "Engineer at Google's self-driving car project"
-      },
-      "infobox": {
-        "Born": "",
-        "Nationality": ""
-      },
-      "lead_paragraphs": [
-        "Dmitry Dugov began his career in the autonomous vehicle industry by joining Google's self-driving car project in 2009 as one of its first engineers. His work contributed to the foundational development of autonomous driving technology. Later, Dugov became the Co-CEO of Wemo, where he played a pivotal role in scaling the company's operations to provide over 500,000 fully autonomous rides each week across multiple cities.",
-        "His leadership has been instrumental in transitioning the company from long-term research to real-world scale, emphasizing the importance of understanding the social aspects of driving and the properties of being a good driver in the development of autonomous systems."
-      ],
-      "sections": [
-        {
-          "heading": "Autonomous Vehicle Pioneer",
-          "body": "Dmitry Dugov was one of the initial engineers in Google's self-driving car project, contributing to the early stages of autonomous vehicle technology."
-        },
-        {
-          "heading": "Scaling Autonomous Rides",
-          "body": "As Co-CEO of Wemo, Dugov has overseen the scaling of the company's operations to provide over 500,000 fully autonomous rides per week, a significant milestone in the industry."
-        },
-        {
-          "heading": "Transition from Research to Real-World",
-          "body": "Dmitry Dugov has been instrumental in shifting Wemo's focus from scientific research to the accelerated global deployment of autonomous driving technology."
-        },
-        {
-          "heading": "Social Aspects of Driving",
-          "body": "Dugov emphasizes the importance of understanding the social aspects of driving and what it means to be a good driver in the development of autonomous systems."
-        }
-      ]
-    }
-  },
-  {
     "id": 55,
     "name": "Dr. Onus Alhajji",
     "slug": "dr-onus-alhajji",
@@ -60478,6 +60414,70 @@ const dashboardData = {
       ]
     },
     "net_worth": "$200.0M"
+  },
+  {
+    "id": 189,
+    "name": "Dmitry Dugov",
+    "slug": "dmitry-dugov",
+    "bio": "Dmitry Dugov is the Co-CEO of Wemo, a company that has been leading the autonomous vehicle industry by providing over 500,000 fully autonomous rides each week. He joined Google's self-driving car project in 2009 as one of its first engineers, contributing significantly to the field of autonomous driving technology.",
+    "known_for": "Leading Wemo to provide over 500,000 fully autonomous rides each week.",
+    "net_worth_usd": null,
+    "net_worth_source": "",
+    "net_worth_updated_at": null,
+    "voice_tone": "Confident and knowledgeable",
+    "voice_style": "Factual and forward-looking",
+    "voice_delivery_notes": "Clear and measured pace, with emphasis on key milestones and technological advancements",
+    "voice_profile_updated_at": "2026-04-20 03:05:00",
+    "last_seen": "2026-04-20 03:05:00",
+    "last_episode_title": "From Models to Mobility: Building Waymo with Dmitri Dolgov",
+    "last_podcast_name": "The a16z Show",
+    "last_episode_date": "2026-04-17",
+    "mention_score": 1,
+    "mention_score_decayed": 0.02,
+    "last_main_idea": "Investing in autonomous driving technologies offers significant potential as the industry moves from research to real-world deployment, with a focus on companies that understand the physical and social aspects of driving.",
+    "last_proof_cite": "The a16z Show \u2022 2026-04-17 \u2022 From Models to Mobility: Building Waymo with Dmitri Dolgov",
+    "last_proof_snippet": "The autonomous driving industry has moved from scientific research to accelerated global scaling and deployment.",
+    "supporting_takeaway": "The autonomous driving industry has moved from scientific research to accelerated global scaling and deployment.",
+    "grokipedia_url": null,
+    "grokipedia_fetched_at": "2026-04-19T22:05:22.013432",
+    "pundit_profile": {
+      "source": "llm",
+      "source_model": "moonshot:moonshot-v1-8k",
+      "source_url": "",
+      "page_title": "Dmitry Dugov",
+      "fetched_at": "2026-04-20T03:05:22.013196+00:00",
+      "cliff_notes": "Dmitry Dugov began his career in the autonomous vehicle industry by joining Google's self-driving car project in 2009 as one of its first engineers. His work contributed to the foundational development of autonomous driving technology. Later, Dugov became the Co-CEO of Wemo, where he played a pivotal role in scaling the company's operations to provide over 500,000 fully autonomous rides each week across multiple cities. His leadership has been instrumental in transitioning the company from long-term research to real-world scale, emphasizing the importance of understanding the social aspects of driving and the properties of being a good driver in the development of autonomous systems.",
+      "derived": {
+        "current_role": "Co-CEO of Wemo",
+        "former_positions": "Engineer at Google's self-driving car project"
+      },
+      "infobox": {
+        "Born": "",
+        "Nationality": ""
+      },
+      "lead_paragraphs": [
+        "Dmitry Dugov began his career in the autonomous vehicle industry by joining Google's self-driving car project in 2009 as one of its first engineers. His work contributed to the foundational development of autonomous driving technology. Later, Dugov became the Co-CEO of Wemo, where he played a pivotal role in scaling the company's operations to provide over 500,000 fully autonomous rides each week across multiple cities.",
+        "His leadership has been instrumental in transitioning the company from long-term research to real-world scale, emphasizing the importance of understanding the social aspects of driving and the properties of being a good driver in the development of autonomous systems."
+      ],
+      "sections": [
+        {
+          "heading": "Autonomous Vehicle Pioneer",
+          "body": "Dmitry Dugov was one of the initial engineers in Google's self-driving car project, contributing to the early stages of autonomous vehicle technology."
+        },
+        {
+          "heading": "Scaling Autonomous Rides",
+          "body": "As Co-CEO of Wemo, Dugov has overseen the scaling of the company's operations to provide over 500,000 fully autonomous rides per week, a significant milestone in the industry."
+        },
+        {
+          "heading": "Transition from Research to Real-World",
+          "body": "Dmitry Dugov has been instrumental in shifting Wemo's focus from scientific research to the accelerated global deployment of autonomous driving technology."
+        },
+        {
+          "heading": "Social Aspects of Driving",
+          "body": "Dugov emphasizes the importance of understanding the social aspects of driving and what it means to be a good driver in the development of autonomous systems."
+        }
+      ]
+    }
   },
   {
     "id": 186,
@@ -62355,63 +62355,6 @@ const dashboardData = {
     "net_worth": "$2.00B"
   },
   {
-    "id": 132,
-    "name": "David Freiberg",
-    "slug": "david-freiberg",
-    "bio": "David Freiberg is a guest with a background in science, known for his insights on the impact of technological advancements on various industries. He has been a contributor to discussions on technological disruption and its implications for society and the economy.",
-    "known_for": "His expertise in understanding how technology shapes industry trends and his contributions to public discourse on technological disruption.",
-    "net_worth_usd": 1200000000.0,
-    "net_worth_source": "https://coinpaper.com/6251/david-friedberg-net-worth-insights-into-his-financial-success",
-    "net_worth_updated_at": "2026-03-28T22:05:34.408854",
-    "voice_tone": "Casual and engaging",
-    "voice_style": "Anecdotal with a focus on real-world examples",
-    "voice_delivery_notes": "Speaks with a relaxed pace, emphasizing key points with a slight increase in volume",
-    "voice_profile_updated_at": "2026-03-29 03:04:03",
-    "last_seen": "2026-03-29 03:04:03",
-    "last_episode_title": "Anthropic's Generational Run, OpenAI Panics, AI Moats, Meta Loses Lawsuits",
-    "last_podcast_name": "All-In with Chamath, Jason, Sacks & Friedberg",
-    "last_episode_date": "2026-03-27",
-    "mention_score": 1,
-    "mention_score_decayed": 0.02,
-    "last_main_idea": "The hosts discuss the significant growth of SaaS and its impact on the market.",
-    "last_proof_cite": "All-In with Chamath, Jason, Sacks & Friedberg \u2022 2026-03-27 \u2022 Anthropic's Generational Run, OpenAI Panics, AI Moats, Meta Loses Lawsuits",
-    "last_proof_snippet": "Innovation is seen as a key driver in the current competitive landscape, particularly in the context of the US-China race in scientific research and technology.",
-    "supporting_takeaway": "Innovation is seen as a key driver in the current competitive landscape, particularly in the context of the US-China race in scientific research and technology.",
-    "grokipedia_url": null,
-    "grokipedia_fetched_at": "2026-03-28T22:05:33.382582",
-    "pundit_profile": {
-      "source": "llm",
-      "source_model": "moonshot:moonshot-v1-8k",
-      "source_url": "",
-      "page_title": "David Freiberg",
-      "fetched_at": "2026-03-29T03:05:33.382494+00:00",
-      "cliff_notes": "David Freiberg is recognized for his contributions to the dialogue on technology's influence on various sectors. His background in science provides a solid foundation for his analysis of technological disruption. Freiberg's insights are particularly valuable as they help investors and industry leaders understand the potential shifts and opportunities created by rapid technological advancements. His work is significant in the context of policy-making and strategic planning, as it offers a perspective on how to navigate and leverage the changes brought about by new technologies.",
-      "derived": {},
-      "infobox": {
-        "Nationality": ""
-      },
-      "lead_paragraphs": [
-        "David Freiberg is recognized for his contributions to the dialogue on technology's influence on various sectors. His background in science provides a solid foundation for his analysis of technological disruption. Freiberg's insights are particularly valuable as they help investors and industry leaders understand the potential shifts and opportunities created by rapid technological advancements.",
-        "His work is significant in the context of policy-making and strategic planning, as it offers a perspective on how to navigate and leverage the changes brought about by new technologies."
-      ],
-      "sections": [
-        {
-          "heading": "Technological Impact",
-          "body": "Freiberg discusses the profound effects of technology on different industries, emphasizing how it can disrupt traditional business models and create new opportunities."
-        },
-        {
-          "heading": "Industry Trends",
-          "body": "He provides analysis on emerging industry trends influenced by technological advancements, helping businesses anticipate and adapt to changes."
-        },
-        {
-          "heading": "Public Discourse",
-          "body": "Freiberg's participation in public discourse on technology's role in society ensures that a variety of perspectives are considered in shaping policy and business strategies."
-        }
-      ]
-    },
-    "net_worth": "$1.20B"
-  },
-  {
     "id": 43,
     "name": "Olivia Moore",
     "slug": "olivia-moore",
@@ -62477,6 +62420,63 @@ const dashboardData = {
         }
       ]
     }
+  },
+  {
+    "id": 132,
+    "name": "David Freiberg",
+    "slug": "david-freiberg",
+    "bio": "David Freiberg is a guest with a background in science, known for his insights on the impact of technological advancements on various industries. He has been a contributor to discussions on technological disruption and its implications for society and the economy.",
+    "known_for": "His expertise in understanding how technology shapes industry trends and his contributions to public discourse on technological disruption.",
+    "net_worth_usd": 1200000000.0,
+    "net_worth_source": "https://coinpaper.com/6251/david-friedberg-net-worth-insights-into-his-financial-success",
+    "net_worth_updated_at": "2026-03-28T22:05:34.408854",
+    "voice_tone": "Casual and engaging",
+    "voice_style": "Anecdotal with a focus on real-world examples",
+    "voice_delivery_notes": "Speaks with a relaxed pace, emphasizing key points with a slight increase in volume",
+    "voice_profile_updated_at": "2026-03-29 03:04:03",
+    "last_seen": "2026-03-29 03:04:03",
+    "last_episode_title": "Anthropic's Generational Run, OpenAI Panics, AI Moats, Meta Loses Lawsuits",
+    "last_podcast_name": "All-In with Chamath, Jason, Sacks & Friedberg",
+    "last_episode_date": "2026-03-27",
+    "mention_score": 1,
+    "mention_score_decayed": 0.01,
+    "last_main_idea": "The hosts discuss the significant growth of SaaS and its impact on the market.",
+    "last_proof_cite": "All-In with Chamath, Jason, Sacks & Friedberg \u2022 2026-03-27 \u2022 Anthropic's Generational Run, OpenAI Panics, AI Moats, Meta Loses Lawsuits",
+    "last_proof_snippet": "Innovation is seen as a key driver in the current competitive landscape, particularly in the context of the US-China race in scientific research and technology.",
+    "supporting_takeaway": "Innovation is seen as a key driver in the current competitive landscape, particularly in the context of the US-China race in scientific research and technology.",
+    "grokipedia_url": null,
+    "grokipedia_fetched_at": "2026-03-28T22:05:33.382582",
+    "pundit_profile": {
+      "source": "llm",
+      "source_model": "moonshot:moonshot-v1-8k",
+      "source_url": "",
+      "page_title": "David Freiberg",
+      "fetched_at": "2026-03-29T03:05:33.382494+00:00",
+      "cliff_notes": "David Freiberg is recognized for his contributions to the dialogue on technology's influence on various sectors. His background in science provides a solid foundation for his analysis of technological disruption. Freiberg's insights are particularly valuable as they help investors and industry leaders understand the potential shifts and opportunities created by rapid technological advancements. His work is significant in the context of policy-making and strategic planning, as it offers a perspective on how to navigate and leverage the changes brought about by new technologies.",
+      "derived": {},
+      "infobox": {
+        "Nationality": ""
+      },
+      "lead_paragraphs": [
+        "David Freiberg is recognized for his contributions to the dialogue on technology's influence on various sectors. His background in science provides a solid foundation for his analysis of technological disruption. Freiberg's insights are particularly valuable as they help investors and industry leaders understand the potential shifts and opportunities created by rapid technological advancements.",
+        "His work is significant in the context of policy-making and strategic planning, as it offers a perspective on how to navigate and leverage the changes brought about by new technologies."
+      ],
+      "sections": [
+        {
+          "heading": "Technological Impact",
+          "body": "Freiberg discusses the profound effects of technology on different industries, emphasizing how it can disrupt traditional business models and create new opportunities."
+        },
+        {
+          "heading": "Industry Trends",
+          "body": "He provides analysis on emerging industry trends influenced by technological advancements, helping businesses anticipate and adapt to changes."
+        },
+        {
+          "heading": "Public Discourse",
+          "body": "Freiberg's participation in public discourse on technology's role in society ensures that a variety of perspectives are considered in shaping policy and business strategies."
+        }
+      ]
+    },
+    "net_worth": "$1.20B"
   },
   {
     "id": 127,
@@ -64623,7 +64623,7 @@ const dashboardData = {
         }
       ],
       "disclaimer": "Research sleeve / scorecard, not advice. $1,000 equal-weight illustration only.",
-      "last_updated": "2026-09-26T13:58:51.940853"
+      "last_updated": "2026-09-26T22:16:57.407043"
     }
   ]
 }
