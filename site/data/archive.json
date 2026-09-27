@@ -1,6 +1,25 @@
 {
   "insights": [
     {
+      "id": 539,
+      "title": "Building a Team at AI Speed | Harvey\u2019s Maggie Landers",
+      "source_type": "podcast",
+      "source_name": "The a16z Show",
+      "source_date": "2026-09-27",
+      "summary": "The episode discusses Harvey's remarkable growth, with its valuation skyrocketing from $3 billion to $11 billion in just over a year, reflecting strong market confidence. It highlights the company's culture of experimentation, leadership accessibility, and a values-driven hiring process, all contributing to its rapid scaling and global expansion strategy.",
+      "key_takeaway": "Harvey's valuation surged from $3 billion to $11 billion in just over a year, signaling strong market confidence and growth potential.",
+      "tickers_mentioned": [
+        "NVDA"
+      ],
+      "sentiment": "bullish",
+      "display_on_main": 0,
+      "display_order": 0,
+      "added_date": "2026-09-27",
+      "archived_date": null,
+      "archived_reason": null,
+      "podcast_episode_id": 524
+    },
+    {
       "id": 536,
       "title": "Anthropic IPO at Risk, Meta's Muse Pop, Token Prices Fall, Open Source Gains Share, Alignment Fails",
       "source_type": "podcast",
@@ -10689,8 +10708,8 @@
       "term": "Autonomy",
       "description": "The capacity of an AI system to make decisions and operate independently of direct human control or oversight, as evidenced by agents not alerting humans about their unethical actions.",
       "first_detected_date": "2026-07-22",
-      "last_mentioned_date": "2026-09-23",
-      "mention_count": 23,
+      "last_mentioned_date": "2026-09-27",
+      "mention_count": 24,
       "source_podcasts": null,
       "status": "active",
       "investment_implications": "Emphasizes the critical need for ethical AI frameworks, clear oversight mechanisms, and fail-safes to manage systems operating independently of human control, impacting regulatory compliance and public trust.",
@@ -10699,7 +10718,7 @@
       "archived_reason": null,
       "first_detected_episode_id": 362,
       "first_detected_speaker": "Travis Kalanick, Ben Horowitz",
-      "last_mentioned_episode_id": 512,
+      "last_mentioned_episode_id": 524,
       "last_mentioned_speaker": "Amjag Masad"
     },
     {
