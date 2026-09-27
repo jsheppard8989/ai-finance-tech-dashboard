@@ -1,5 +1,43 @@
 [
   {
+    "id": 526,
+    "podcast_name": "Moonshots with Peter Diamandis",
+    "episode_title": "Why Jensen and Zuck think the doomers are wrong (plus AI get\u2019s a rebrand)  | #294 MOONSHOTS Live",
+    "episode_date": "2026-09-27",
+    "summary": "The podcast discusses the dual nature of AI as both a risk and an opportunity, emphasizing the importance of competition in driving innovation. Key developments include Meta's successful launch of Metham Use and advancements in AI capabilities demonstrated by Anthropic's Claude 5.5, which could revolutionize various sectors, particularly in health and robotics.",
+    "key_takeaways": [
+      "Peter Diamandis argues that the danger from AI primarily stems from human misuse, emphasizing the need for ethical frameworks in AI companies.",
+      "Diamandis claims that forming an AI safety cartel would hinder progress, as competition among AI labs is essential for innovation.",
+      "Diamandis predicts that the emergence of superintelligence could lead to a shift from traditional nation-states to new governance structures, such as city-states.",
+      "Meta's Metham Use app achieved 2.8 million downloads shortly after launch, indicating strong consumer interest in AI-driven solutions.",
+      "Diamandis highlights that general-purpose AI, as shown in the 'driving bench' experiment, can outperform specialized models in robotics.",
+      "Anthropic's Claude 5.5 autonomously discovered a previously unknown enzyme, showcasing AI's potential to revolutionize biological research.",
+      "The rapid release of AI models suggests a shift in the bottleneck from model development to compute and energy resources."
+    ],
+    "investment_thesis": "Peter Diamandis claims that Meta's Metham Use app, with 2.8 million downloads, signifies strong consumer demand for AI-driven solutions, potentially disrupting traditional tech markets.",
+    "key_tickers": [
+      "META"
+    ]
+  },
+  {
+    "id": 525,
+    "podcast_name": "Monetary Matters with Jack Farley",
+    "episode_title": "The Private Credit Boom is Over: Redemption Requests Exceed Liquidity | James Elbaor | Marlton LLC",
+    "episode_date": "2026-09-27",
+    "summary": "The podcast discusses the decline of the private credit market, highlighting the lack of new capital inflows and increasing redemption pressures. It also addresses the anticipated merger activity in the BDC and private credit space, the impact of AI on SaaS companies, and the valuation discrepancies in public BDCs, suggesting a shift towards permanent capital structures for better long-term investment outcomes.",
+    "key_takeaways": [
+      "Jack Farley states that the private credit market is experiencing a downturn, with 'no new money, no new capital flowing into that strategy right now.'",
+      "James Elbauer explains that gating in private credit funds has resulted in redemption requests exceeding available liquidity, indicating potential fund instability.",
+      "James Elbauer anticipates significant merger activity within the BDC and private credit space, suggesting that 'a lot of merger activity' is expected in the next fiscal year.",
+      "James Elbauer argues that the rapid advancement of AI is materially disrupting SaaS companies, which could lead to increased defaults in the private credit market.",
+      "James Elbauer notes that public BDCs are trading at significant discounts to NAV, with liquidity costs around 60-65 cents on the dollar.",
+      "James Elbauer claims that permanent capital structures are becoming more attractive as they allow for long-term investments without redemption pressures.",
+      "James Elbauer emphasizes that understanding the gating mechanism is crucial for navigating liquidity expectations in private credit funds."
+    ],
+    "investment_thesis": "James Elbauer predicts significant merger activity in the BDC and private credit space starting next fiscal year, which may stabilize valuations in a distressed market.",
+    "key_tickers": null
+  },
+  {
     "id": 524,
     "podcast_name": "The a16z Show",
     "episode_title": "Building a Team at AI Speed | Harvey\u2019s Maggie Landers",
