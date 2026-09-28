@@ -1,7 +1,7 @@
 {
-  "generated_at": "2026-09-27T14:15:19.288228",
-  "last_updated": "2026-09-27T14:15:19.288228",
-  "last_pipeline_run": "2026-09-27T14:15:19.288228",
+  "generated_at": "2026-09-27T22:32:30.145404",
+  "last_updated": "2026-09-27T22:32:30.145404",
+  "last_pipeline_run": "2026-09-27T22:32:30.145404",
   "main_page": {
     "overton": 13,
     "insights": 10,
@@ -14,56 +14,18 @@
     "daily_scores": 168,
     "overton_terms_total": 140,
     "latest_insights_total": 513,
-    "today_mentions": {
-      "podcast": 1
-    },
+    "today_mentions": {},
     "podcasts_analyzed": 3
   },
   "step_results": {
-    "downloaded": 3,
-    "transcribed": 3,
-    "analyzed": 2,
-    "insight_created": 2,
-    "published": 2,
-    "total": 3
+    "downloaded": 1,
+    "transcribed": 1,
+    "analyzed": 0,
+    "insight_created": 0,
+    "published": 0,
+    "total": 1
   },
   "episodes": [
-    {
-      "id": "3465cd2a-b9f3-11f1-af0b-f3e876079719",
-      "podcast": "Moonshots with Peter Diamandis",
-      "title": "Why Jensen and Zuck think the doomers are wrong (plus AI get\u2019s a rebrand)  | #294 MOONSHOTS Live",
-      "published": "2026-09-27",
-      "rss_guid": "3465cd2a-b9f3-11f1-af0b-f3e876079719",
-      "stages": {
-        "downloaded": true,
-        "transcribed": true,
-        "analyzed": true,
-        "insight_created": true,
-        "published": true
-      },
-      "stage_reasons": {},
-      "first_blocker": null,
-      "remediation_by_stage": {},
-      "status": "complete"
-    },
-    {
-      "id": "dcb9cb92-ba7b-11f1-a458-e718842ef232",
-      "podcast": "Monetary Matters with Jack Farley",
-      "title": "The Private Credit Boom is Over: Redemption Requests Exceed Liquidity | James Elbaor | Marlton LLC",
-      "published": "2026-09-27",
-      "rss_guid": "dcb9cb92-ba7b-11f1-a458-e718842ef232",
-      "stages": {
-        "downloaded": true,
-        "transcribed": true,
-        "analyzed": true,
-        "insight_created": true,
-        "published": true
-      },
-      "stage_reasons": {},
-      "first_blocker": null,
-      "remediation_by_stage": {},
-      "status": "complete"
-    },
     {
       "id": "macrovoices.podbean.com/7cbb9d32-5bbe-3706-bce8-756c4d8128cf",
       "podcast": "Macro Voices",
