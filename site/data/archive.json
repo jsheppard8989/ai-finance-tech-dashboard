@@ -1,6 +1,25 @@
 {
   "insights": [
     {
+      "id": 542,
+      "title": "AI Can Write Code. Why Isn\u2019t Software Better?",
+      "source_type": "podcast",
+      "source_name": "The a16z Show",
+      "source_date": "2026-09-28",
+      "summary": "In this episode, Diego Almeida discusses the transformative potential of AI in enhancing software capabilities beyond mere automation. He emphasizes the importance of reliability in AI systems and predicts a resurgence in the SaaS market as AI integration becomes more prevalent. Almeida also highlights the concept of probabilistic programming as a key innovation that could redefine software interactions with AI, ultimately leading to improved user experiences and operational efficiencies.",
+      "key_takeaway": "Diego Almeida predicts that SaaS will be one of the largest winners of the AI integration trend.",
+      "tickers_mentioned": [
+        "NVDA"
+      ],
+      "sentiment": "neutral",
+      "display_on_main": 0,
+      "display_order": 0,
+      "added_date": "2026-09-28",
+      "archived_date": null,
+      "archived_reason": null,
+      "podcast_episode_id": 527
+    },
+    {
       "id": 539,
       "title": "Building a Team at AI Speed | Harvey\u2019s Maggie Landers",
       "source_type": "podcast",
@@ -10512,8 +10531,8 @@
       "term": "Loops",
       "description": "An operational framework where AI systems handle repetitive tasks in cascading scopes, from individual personal workflows up to large parts of an entire company, freeing humans for strategic and intuitive work.",
       "first_detected_date": "2026-09-12",
-      "last_mentioned_date": "2026-09-26",
-      "mention_count": 7,
+      "last_mentioned_date": "2026-09-28",
+      "mention_count": 8,
       "source_podcasts": null,
       "status": "active",
       "investment_implications": "Companies architected around loops may achieve superior capital efficiency and scalability by compressing operational overhead into automated cycles.",
@@ -10522,8 +10541,8 @@
       "archived_reason": null,
       "first_detected_episode_id": 473,
       "first_detected_speaker": null,
-      "last_mentioned_episode_id": 523,
-      "last_mentioned_speaker": "Peter Diamandis"
+      "last_mentioned_episode_id": 527,
+      "last_mentioned_speaker": "Diego Almeida"
     },
     {
       "id": 284,
@@ -11212,20 +11231,20 @@
     {
       "id": 128,
       "term": "SaaS Apocalypse",
-      "description": "The rapid advancement of AI is significantly disrupting SaaS companies, which are major borrowers in the private credit market.",
+      "description": "A term describing the decline in the SaaS market, which Almeida predicts will reverse due to AI integration.",
       "first_detected_date": "2026-06-03",
-      "last_mentioned_date": "2026-09-27",
-      "mention_count": 16,
+      "last_mentioned_date": "2026-09-28",
+      "mention_count": 17,
       "source_podcasts": null,
       "status": "active",
-      "investment_implications": "Increased defaults in the SaaS sector could adversely affect the performance of private credit funds.",
+      "investment_implications": "The resurgence of SaaS value through AI could create significant investment opportunities.",
       "display_on_main": 0,
       "archived_date": null,
       "archived_reason": null,
       "first_detected_episode_id": 257,
       "first_detected_speaker": null,
-      "last_mentioned_episode_id": 525,
-      "last_mentioned_speaker": "James Elbauer"
+      "last_mentioned_episode_id": 527,
+      "last_mentioned_speaker": "Diego Almeida"
     },
     {
       "id": 275,
@@ -11574,8 +11593,8 @@
       "term": "AGI",
       "description": "AGI refers to Artificial General Intelligence, a type of AI that can understand, learn, and apply intelligence across a wide range of tasks, similar to human cognitive abilities.",
       "first_detected_date": "2026-05-07",
-      "last_mentioned_date": "2026-09-27",
-      "mention_count": 103,
+      "last_mentioned_date": "2026-09-28",
+      "mention_count": 104,
       "source_podcasts": null,
       "status": "active",
       "investment_implications": "Investors should focus on companies developing AGI technologies as they are likely to drive significant industry transformations.",
@@ -11584,8 +11603,8 @@
       "archived_reason": null,
       "first_detected_episode_id": 204,
       "first_detected_speaker": "Demis Hassabis",
-      "last_mentioned_episode_id": 526,
-      "last_mentioned_speaker": "Peter Diamandis (hosts)"
+      "last_mentioned_episode_id": 527,
+      "last_mentioned_speaker": "Diego Almeida"
     },
     {
       "id": 162,

@@ -1,7 +1,7 @@
 {
   "_comment": "First-class market data objects for the idea radar. Treasury auctions, curve snapshots, and positioning data.",
   "_updated": "2026-09-28",
-  "_data_status": "live",
+  "_data_status": "partial",
   "schema_version": 1,
   "treasury_calendar": {
     "_comment": "Treasury refunding and auction calendar. Source: treasury.gov. Tony: set up fetch from https://home.treasury.gov/resource-center/data-chart-center/quarterly-refunding",
@@ -138,14 +138,17 @@
         "elevated": 120,
         "high": 150
       }
-    }
+    },
+    "_stale": true,
+    "_stale_since": "2026-09-28T06:53:33.398058",
+    "_stale_reason": "Treasury.gov: Network error: failed to fetch Treasury.gov XML"
   },
   "cftc_cot": {
     "_comment": "CFTC Commitment of Traders positioning data. Source: cftc.gov weekly reports.",
     "_fetch_url": "https://www.cftc.gov/dea/futures/financial_lf.htm",
     "_api_alternative": "Quandl CFTC dataset (may need key)",
     "_fetch_instructions": "CFTC releases COT every Friday at 3:30pm ET for positions as of prior Tuesday.",
-    "last_updated": "2026-09-28T05:19:29.851737",
+    "last_updated": "2026-09-28T06:53:33.693080",
     "report_date": "2026-09-22",
     "prior_report_date": "2026-09-15",
     "rates_positioning": {
@@ -219,7 +222,7 @@
   "data_fetch_status": {
     "_comment": "Track what data is live vs stubbed",
     "treasury_calendar": "stub",
-    "curve_data": "live",
+    "curve_data": "stale",
     "cftc_cot": "live",
     "follow_up_for_tony": [
       "Labor Day 2026-09-07: manually replaced stale Sep 5\u20137 stub auctions with TreasuryDirect Sep 8\u201310 coupon week (3Y/10Y/30Y).",
@@ -234,7 +237,7 @@
     "_source_url": "https://gpu-index.semianalysis.com/",
     "_api_url": "https://gpu-index.semianalysis.com/api/public-data",
     "_data_type": "api_index",
-    "last_fetched": "2026-09-28T05:19:13.185537",
+    "last_fetched": "2026-09-28T06:52:47.624919",
     "h100": {
       "daily_date": "Sep 28, 2026",
       "daily_date_iso": "2026-09-28",
