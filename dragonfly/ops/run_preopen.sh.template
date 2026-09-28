@@ -3,7 +3,7 @@
 #   __REPO__/dragonfly/state/live/ops/run_preopen.sh
 # after Ditka's explicit go and Jared's approval. See docs/dragonfly/ENGINE.md.
 #
-# Runs the Dragonfly pre-open job (08:05 CT): prep check, book_stale check, pre-market quotes -> quotes.json + book.json, then READY last. A wake after 08:15 does not run it (the engine window starts 08:08; a late READY would squeeze the agents).
+# Runs the Dragonfly pre-open job (08:05 CT): prep check, book_stale check, pre-market quotes -> quotes.json + book.json, then READY last. A wake after 08:19 does not run it (the red-team cutoff is 08:20).
 #
 # Runs from the Dragonfly RUN CLONE (__REPO__ = ~/projects/dragonfly-run), never
 # from the pipeline checkout ~/projects/ai-finance-tech-dashboard (its daemon
@@ -35,8 +35,8 @@ fi
 # outside the sane window. Override for a manual run: DRAGONFLY_JOB_ANYTIME=1
 # (the load guards in dragonfly/guards.py still refuse daemon windows).
 now_hm=$((10#$(date +%H%M)))
-if [ "${DRAGONFLY_JOB_ANYTIME:-0}" != "1" ] && { [ "$now_hm" -lt 800 ] || [ "$now_hm" -gt 815 ]; }; then
-  echo "$(stamp) outside 08:00-08:15 CT; preopen not run"
+if [ "${DRAGONFLY_JOB_ANYTIME:-0}" != "1" ] && { [ "$now_hm" -lt 800 ] || [ "$now_hm" -gt 819 ]; }; then
+  echo "$(stamp) outside 08:00-08:19 CT; preopen not run"
   exit 0
 fi
 

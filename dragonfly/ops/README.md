@@ -31,3 +31,10 @@ Installed copies belong under `__REPO__/dragonfly/state/live/ops/`
 (gitignored), logs under `__REPO__/dragonfly/state/live/logs/`. The
 templates set `DRAGONFLY_PIPELINE_LOCK` to the pipeline's two lock files so
 the load guards still see a running pipeline (read only).
+
+## Box (agent routines, no launchd): `box/`
+
+`box/box.env` (paths, python, guard config for the shared Linux box) and
+`box/run_job.sh prep|preopen|watchdog [args]`. `preopen --launch-engine`
+starts the engine detached after READY and pushes ENGINE_EXIT when it ends.
+See docs/dragonfly/ENGINE.md, "Box hosting".

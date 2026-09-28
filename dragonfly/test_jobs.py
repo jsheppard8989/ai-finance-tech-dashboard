@@ -484,6 +484,123 @@ def test_ops_templates():
         check(r.returncode == 0, f"{job}: wrapper parses ({r.stderr})")
 
 
+def test_guard_config():
+    from dragonfly import guards as g
+
+    old = {k: os.environ.get(k) for k in ("DRAGONFLY_DAEMON_WINDOWS", "DRAGONFLY_PIPELINE_LOCK", "DRAGONFLY_PIPELINE_ROOT")}
+    try:
+        for k in old:
+            os.environ.pop(k, None)
+        check(g.daemon_window(ct(PREV, 6, 0)) is not None and g.daemon_window(ct(PREV, 8, 5)) is None, "Mac default windows")
+        check(g.lock_paths()[0] == Path.home() / "projects" / "ai-finance-tech-dashboard" / "pipeline" / "state" /
+              "auto_pipeline.lock", "default lock under ~ (no hardcoded user)")
+        check("/Users/jaredsheppard" not in (ROOT / "dragonfly" / "guards.py").read_text().split('"""', 2)[2],
+              "no hardcoded Mac user path in guards code")
+        os.environ["DRAGONFLY_DAEMON_WINDOWS"] = "none"
+        check(all(g.daemon_window(ct(PREV, h, 0)) is None for h in range(24)), "windows off (box)")
+        os.environ["DRAGONFLY_DAEMON_WINDOWS"] = "09:00-09:30, 21:00-21:59"
+        check(g.daemon_window(ct(PREV, 9, 15)) == "09:00-09:30 CT" and g.daemon_window(ct(PREV, 6, 0)) is None,
+              "custom windows")
+        os.environ["DRAGONFLY_DAEMON_WINDOWS"] = "nonsense"
+        check(raises(lambda: g.daemon_window(ct(PREV, 9, 0)), exc=ValueError), "bad windows fail loudly")
+        os.environ["DRAGONFLY_DAEMON_WINDOWS"] = "none"
+        os.environ["DRAGONFLY_PIPELINE_ROOT"] = "/workspace/x"
+        check(g.lock_paths()[0] == Path("/workspace/x/pipeline/state/auto_pipeline.lock"), "pipeline root from env")
+        os.environ["DRAGONFLY_PIPELINE_LOCK"] = "none"
+        check(g.lock_paths() == [] and g.pipeline_busy() is None, "lock check off")
+    finally:
+        for k, v in old.items():
+            if v is None:
+                os.environ.pop(k, None)
+            else:
+                os.environ[k] = v
+
+
+def test_preopen_launches_engine():
+    from dragonfly.jobs import engine_runner as er
+
+    w = World("launch")
+    w.prep(root="handoff-boxtest")
+    calls = []
+
+    def spy(repo, session, handoff_root, inbox_root, **kw):
+        calls.append((set(w.remote_files(f"handoff-boxtest/{DS}")), handoff_root, inbox_root, kw))
+        return {"runner_pid": 4242, "log": "/tmp/x.log"}
+
+    out = w.preopen(root="handoff-boxtest", at=ct(D, 8, 3), launch_engine=True, launch_fn=spy)
+    check(len(calls) == 1 and f"handoff-boxtest/{DS}/READY" in calls[0][0], "engine launched only after READY is pushed")
+    check(calls[0][1:3] == ("handoff-boxtest", "inbox-boxtest"), "paired roots passed to the engine")
+    check(calls[0][3]["now_iso"] == core.iso(ct(D, 8, 3)) and calls[0][3]["book"] == w.book_path, "simulated clock + book")
+    check(out["engine"]["launched"] is True and out["engine"]["runner_pid"] == 4242, "result carries the pid")
+    w2 = World("launch-late")
+    w2.prep()
+    out = w2.preopen(at=ct(D, 8, 30), launch_engine=True, launch_fn=lambda *a, **k: calls.append("late"))
+    check(out["engine"] == {"launched": False, "reason": "past_window_end"} and calls[-1] != "late",
+          "no engine launch after the window end (READY still written)")
+    argv = er.engine_argv("/py", Path("/r"), D, "handoff-boxtest", "inbox-boxtest", Path("/b.json"), None,
+                          "2026-09-28T08:03:00-05:00")
+    check(argv[:4] == ["/py", "-m", "dragonfly.engine", "run"] and "--now" in argv and "--inbox-root" in argv,
+          "engine argv")
+
+
+def test_detached_spawn_and_engine_exit():
+    from dragonfly.jobs import engine_runner as er
+    import time as _t
+
+    marker = Path(_TMP) / "detached.txt"
+    log = Path(_TMP) / "detached.log"
+    pid = er.spawn_detached([sys.executable, "-c",
+                             f"import os; print('hello'); open({str(marker)!r}, 'w').write(str(os.getsid(0)))"],
+                            log, Path(_TMP))
+    for _ in range(100):
+        if marker.exists() and marker.read_text():
+            break
+        _t.sleep(0.05)
+    check(pid > 0 and marker.exists() and int(marker.read_text()) != os.getsid(0), "grandchild runs in a new session")
+    check("hello" in log.read_text(), "stdout goes to the log")
+    # runner: engine exits 3 -> ENGINE_EXIT pushed with the code, no DONE, log tail
+    w = World("exit")
+    elog = w.state / "logs" / "e.log"
+    elog.parent.mkdir(parents=True)
+    elog.write_text("line1\nboom\n")
+    rc = er.run(w.mac, D, "handoff-boxtest", w.state, elog, [sys.executable, "-c", "raise SystemExit(3)"])
+    doc = w.remote_json(f"handoff-boxtest/{DS}/ENGINE_EXIT")
+    check(rc == 3 and doc["exit_code"] == 3 and doc["done_present"] is False and "boom" in doc["log_tail"],
+          "ENGINE_EXIT pushed with exit code, DONE flag and log tail")
+    info = json.loads(er.runner_file(w.state, D, "handoff-boxtest").read_text())
+    check(info["runner_pid"] == os.getpid() and info["engine_pid"] > 0, "runner pid file")
+
+
+def test_watchdog():
+    from dragonfly.jobs import engine_runner as er
+
+    w = World("dog")
+    out = er.watchdog(w.mac, D, "handoff-boxtest", w.state, ct(D, 8, 15))
+    check(out["status"] == "pending", "before the deadline: pending")
+    out = er.watchdog(w.mac, D, "handoff-boxtest", w.state, ct(D, 8, 28))
+    check(out["status"] == "alert" and out["pushed"] == "pushed" and
+          f"handoff-boxtest/{DS}/ENGINE_WATCHDOG" in w.remote_files(), "no DONE after 08:27: alert pushed")
+    rf = er.runner_file(w.state, D, "handoff")
+    rf.parent.mkdir(parents=True, exist_ok=True)
+    rf.write_text(json.dumps({"runner_pid": 999999, "log": "/nonexistent"}))
+    out = er.watchdog(w.mac, D, "handoff", w.state, ct(D, 8, 10), push=False)
+    check(out["status"] == "alert" and "runner died" in out["problem"], "dead runner without ENGINE_EXIT: alert")
+    done = w.mac / "handoff" / DS / "cards" / "DONE"
+    done.parent.mkdir(parents=True)
+    done.write_text("{}")
+    check(er.watchdog(w.mac, D, "handoff", w.state, ct(D, 8, 40), pull=False)["status"] == "ok", "DONE: ok")
+
+
+def test_box_ops():
+    box = ROOT / "dragonfly" / "ops" / "box"
+    env = (box / "box.env").read_text()
+    check("DRAGONFLY_DAEMON_WINDOWS" in env and "none" in env and "DRAGONFLY_STATE_DIR" in env, "box env")
+    sh = (box / "run_job.sh").read_text()
+    check("-m dragonfly.jobs" in sh and "pull --ff-only" in sh and "launchctl" not in sh, "box launcher")
+    r = subprocess.run(["bash", "-n", str(box / "run_job.sh")], capture_output=True, text=True)
+    check(r.returncode == 0, f"box launcher parses ({r.stderr})")
+
+
 def main():
     tests = [
         test_next_session,
@@ -498,6 +615,11 @@ def main():
         test_preopen_calendar_and_clock,
         test_cli,
         test_ops_templates,
+        test_guard_config,
+        test_preopen_launches_engine,
+        test_detached_spawn_and_engine_exit,
+        test_watchdog,
+        test_box_ops,
     ]
     for t in tests:
         t()

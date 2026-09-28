@@ -611,6 +611,48 @@ dragonfly-private), so the ff-only pull never conflicts. The load guards
 still read the pipeline's lock files in the pipeline checkout
 (`$DRAGONFLY_PIPELINE_LOCK`, set by the templates); they never write there.
 
+## Box hosting — `dragonfly/ops/box/` (agent routines, no launchd)
+
+Jared, 2026-09-28: Dragonfly runs from the shared Linux box. Layout
+(`dragonfly/ops/box/box.env`, all env-overridable):
+
+| Path | What |
+| --- | --- |
+| `/workspace/dragonfly-box/run` | checkout of this repo (`DRAGONFLY_RUN`) |
+| `/workspace/dragonfly-box/dragonfly-private` | clone of the private repo (`DRAGONFLY_PRIVATE_DIR`), pushed with the box's gh credential helper |
+| `/workspace/dragonfly-box/state` | `DRAGONFLY_STATE_DIR`: `book.json`, bars/quote caches, engine state, `logs/engine-<date>[.<root>].log`, cockpit |
+| `/workspace/dragonfly-p1/venv/bin/python` | `DRAGONFLY_PYTHON` (py3.13, jsonschema, yfinance) |
+
+Routines call `dragonfly/ops/box/run_job.sh`:
+`prep` (15:30), `preopen --launch-engine` (08:05), `watchdog` (~08:28).
+The launcher sources `box.env`, fast-forwards the run checkout and execs the
+job. On the box the Mac daemon windows are off (`DRAGONFLY_DAEMON_WINDOWS=none`)
+and the lock guard reads `DRAGONFLY_PIPELINE_ROOT` (`/workspace/ai-finance-tech-dashboard`).
+
+Load-guard configuration (`dragonfly/guards.py`): `DRAGONFLY_PIPELINE_ROOT`
+(default `~/projects/ai-finance-tech-dashboard`), `DRAGONFLY_PIPELINE_LOCK`
+(paths, or `none`), `DRAGONFLY_DAEMON_WINDOWS` (`HH:MM-HH:MM,...` or `none`;
+default the Mac windows 05:00–07:59, 12:00–14:59, 22:00–23:59).
+
+**Engine launch.** `preopen --launch-engine` starts the engine after READY
+is pushed, outside the job lock, with a double fork + `setsid` (stdin
+`/dev/null`, output appended to the state log), so it survives the routine's
+shell. The detached process is a runner (`dragonfly/jobs/engine_runner.py`)
+that runs `python -m dragonfly.engine run` (same roots, book, watchlist; with
+`--now`, the job's shifted clock at launch) and records its pids in
+`state/engine/runner-<date>[.<root>].json`. It is not launched past the 08:24
+window end. Routine lateness: a late pre-open simply starts the engine late;
+the engine's own clock handles the window and cutoff.
+
+**ENGINE_EXIT.** When the engine exits for any reason, the runner writes
+`<root>/<date>/ENGINE_EXIT` (exit code, start/end, `done_present`, pids, last 40
+log lines) and commits + pushes it (`PrivateRepo`).
+
+**Watchdog.** `python -m dragonfly.jobs watchdog [--date D] [--now ISO]`:
+`ok` once `cards/DONE` exists; `pending` before 08:27 (window end + 3 min);
+`alert` (pushes `<root>/<date>/ENGINE_WATCHDOG`, exit 1) when DONE is missing
+after 08:27, or when the runner died without ENGINE_EXIT.
+
 ## Prep job — `python3 -m dragonfly.jobs prep` (15:30 CT)
 
 1. Target session: `--date`, else `market_calendar.next_session(today)`

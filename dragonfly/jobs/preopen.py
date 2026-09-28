@@ -209,6 +209,10 @@ def run_preopen(
     quote_fn: Optional[Callable[[str], dict]] = None,
     ready_fn: Optional[Callable] = None,
     real_now: Callable[[], datetime] = core.now_ct,
+    inbox_root: Optional[str] = None,
+    launch_engine: bool = False,
+    launch_fn: Optional[Callable] = None,
+    watchlist: Optional[Path] = None,
 ) -> dict:
     from dragonfly import guards
     from dragonfly.engine.markers import write_ready
@@ -314,6 +318,25 @@ def run_preopen(
         ready = (ready_fn or write_ready)(Path(repo_path), session, now=now_fn(), pull=pull, push=push,
                                           handoff_root=handoff_root)
         log.info("READY %s/READY written (%d files)", rel_dir, len(ready["files"]))
-        return {"session_date": ds, "handoff": rel_dir, "usable": usable, "names": len(rows),
-                "ready": f"{rel_dir}/READY", "ready_files": [f["path"] for f in ready["files"]],
-                "ready_as_of": ready["as_of"], "pushed_at_real": core.iso(real_now())}
+        result = {"session_date": ds, "handoff": rel_dir, "usable": usable, "names": len(rows),
+                  "ready": f"{rel_dir}/READY", "ready_files": [f["path"] for f in ready["files"]],
+                  "ready_as_of": ready["as_of"], "pushed_at_real": core.iso(real_now())}
+    # ---- after READY (and outside the job lock): start the engine, fully detached
+    if launch_engine:
+        from dragonfly.jobs import engine_runner
+
+        clock = core.SessionClock(session)
+        at = now_fn()
+        if at > clock.end:
+            log.error("engine NOT launched: %s is past the window end %s", core.iso(at), core.iso(clock.end))
+            result["engine"] = {"launched": False, "reason": "past_window_end"}
+            return result
+        if inbox_root is None:
+            inbox_root = (core.DEFAULT_INBOX_ROOT if handoff_root == core.DEFAULT_HANDOFF_ROOT
+                          else handoff_root.replace("handoff", "inbox", 1))
+        info = (launch_fn or engine_runner.launch_engine)(
+            Path(repo_path), session, handoff_root, inbox_root, now_iso=core.iso(at) if simulated else None,
+            state=state, book=book_path, watchlist=watchlist or (state / "watchlist.json"))
+        log.info("engine launched detached: runner pid %s, log %s", info.get("runner_pid"), info.get("log"))
+        result["engine"] = dict(info, launched=True)
+    return result
