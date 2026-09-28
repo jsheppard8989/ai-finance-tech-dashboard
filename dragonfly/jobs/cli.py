@@ -5,6 +5,11 @@
   preopen  08:05 CT: prep check, book check, pre-market quotes ->
            quotes.json + book.json, then READY (last); --launch-engine then
            starts the engine loop detached (ENGINE_EXIT pushed when it ends)
+  session  box, ONE command ~07:10-07:45 CT: returns in seconds; a detached
+           chain runs prep, preopen --launch-engine, then the watchdog at
+           08:27 (dragonfly/jobs/session.py). Refused if this date/root was
+           already fired, has a live runner, or has ENGINE_STARTED.
+  session-stop / session-status: kill / inspect a box session
   watchdog after 08:27 CT: alert (ENGINE_WATCHDOG pushed, exit 1) if cards/DONE
            is missing, or the runner died without ENGINE_EXIT
 
@@ -49,13 +54,24 @@ def build_parser() -> argparse.ArgumentParser:
             p.add_argument("--launch-engine", action="store_true",
                            help="after READY, start the engine loop fully detached (double fork + setsid); "
                                 "ENGINE_EXIT is pushed when it ends")
+    for name in ("session", "session-chain", "session-stop", "session-status"):
+        p = sub.add_parser(name)
+        p.add_argument("--repo", type=Path, default=None)
+        p.add_argument("--date", default=None, help="session date YYYY-MM-DD (default today, CT)")
+        p.add_argument("--state-dir", type=Path, default=None)
+        p.add_argument("-v", "--verbose", action="store_true")
+        if name in ("session", "session-chain"):
+            p.add_argument("--sim-start", default=None,
+                           help="shifted clock: the simulated time at the fire, ISO with offset (smoke tests)")
+        if name == "session-chain":
+            p.add_argument("--fired-at", required=True)
     return ap
 
 
 def _roots(args):
     """handoff-dryrun/inbox-dryrun with --dry-run-roots; else the engine's env pair
     rule ($DRAGONFLY_HANDOFF_ROOT / $DRAGONFLY_INBOX_ROOT), else handoff/inbox."""
-    return core.resolve_roots(None, None, args.dry_run_roots)
+    return core.resolve_roots(None, None, getattr(args, "dry_run_roots", False))
 
 
 def main(argv: Optional[Sequence[str]] = None) -> int:
@@ -69,6 +85,8 @@ def main(argv: Optional[Sequence[str]] = None) -> int:
         if root != core.DEFAULT_HANDOFF_ROOT:
             log.info("handoff root: %s/ (not handoff/)", root)
         repo = args.repo or common.default_repo()
+        if args.cmd.startswith("session"):
+            return _session(args, repo, root, inbox_root)
         book = args.book or common.default_book_path()
         now_fn = common.now_fn(args.now)
         if args.cmd == "prep":
@@ -101,6 +119,29 @@ def main(argv: Optional[Sequence[str]] = None) -> int:
     except core.EngineError as exc:
         log.error("%s", exc)
         return 2
+
+
+def _session(args, repo, root, inbox_root) -> int:
+    from datetime import date as _date
+
+    from dragonfly.jobs import session
+
+    state = args.state_dir or core.state_dir()
+    day = _date.fromisoformat(args.date) if args.date else core.now_ct().date()
+    if args.cmd == "session":
+        try:
+            out = session.fire(repo, day, root, inbox_root, state, sim_start=args.sim_start)
+        except session.SessionRefused as exc:
+            print(core.dumps({"session_date": day.isoformat(), "handoff_root": root, "refused": str(exc)}), end="")
+            return 3
+    elif args.cmd == "session-chain":
+        return session.run_chain(repo, day, state, args.fired_at, sim_start=args.sim_start)
+    elif args.cmd == "session-stop":
+        out = session.stop(day, root, state)
+    else:
+        out = session.status(repo, day, root, state)
+    print(core.dumps(out), end="")
+    return 0
 
 
 if __name__ == "__main__":

@@ -13,7 +13,7 @@ import os
 import shutil
 import sys
 import tempfile
-from datetime import datetime, timedelta
+from datetime import date, datetime, timedelta
 from pathlib import Path
 
 sys.path.insert(0, str(Path(__file__).resolve().parents[1]))
@@ -31,6 +31,10 @@ from dragonfly.build_watchlist import (  # noqa: E402
     fetch_security_types,
     run_gates,
 )
+
+# The ranking-mechanics fixtures below use Nasdaq's raw screener labels; the
+# GICS relabel (dragonfly/gics.py) is exercised in test_gics_sectors.
+nu.GICS_ENABLED = False
 
 CHECKS = 0
 
@@ -103,6 +107,43 @@ def fake_get_json(rows=FEED, counter=None, sector_override=None):
         raise AssertionError(url)
 
     return get
+
+
+def test_gics_sectors():
+    from dragonfly import gics
+
+    nu.GICS_ENABLED = True
+    try:
+        ndx, scr = feed()
+        by = {m["ticker"]: m for m in nu.parse_members(ndx, scr)}
+        check(by["COST"]["sector"] == "Consumer Staples" and by["WMT"]["sector"] == "Consumer Staples",
+              "COST / WMT are Consumer Staples")
+        check(by["COST"]["screener_sector"] == "Consumer Discretionary" and by["COST"]["sector_source"] == "gics_map",
+              "raw screener label kept, source recorded")
+        check(by["GOOGL"]["sector"] == "Communication Services" and by["META"]["sector"] == "Communication Services"
+              and by["NFLX"]["sector"] == "Communication Services", "interactive media / entertainment -> Comm Services")
+        check(by["NVDA"]["sector"] == "Information Technology" and by["AMZN"]["sector"] == "Consumer Discretionary",
+              "IT / Discretionary")
+        check(by["FILL3"]["sector"] == "Industrials" and by["FILL3"]["sector_source"] == "screener", "unmapped keeps label")
+        check(by["NOCAP"]["sector"] == "Information Technology" and by["NOCAP"]["sector_source"] == "icb_label",
+              "ICB label renamed to its GICS name")
+        check(by["NOSEC"]["sector"] is None, "blank sector still fails closed")
+        check(set(gics.GICS_BY_TICKER.values()) <= set(gics.GICS_SECTORS), "map uses only the 11 GICS sectors")
+        doc = nu.fetch_and_rank(fake_get_json(), datetime(2026, 9, 28, 18, 0))
+        check(doc["sector_scheme"] == "GICS", "universe doc stamped GICS")
+        staples = [m["ticker"] for m in doc["sectors"]["Consumer Staples"]]
+        check(staples == ["WMT", "COST"], f"staples ranked by cap {staples}")
+        check("Technology" not in doc["sectors"], "no ICB 'Technology' bucket left")
+        old = dict(doc)
+        old.pop("sector_scheme")
+        check(nu.is_stale(old, date(2026, 9, 28)) and not nu.is_stale(doc, date(2026, 9, 28)),
+              "an ICB-labelled universe is stale (re-ranked under GICS)")
+        pinned = nu.resolve_pinned(["IREN", "ASTS"], screener_payload([
+            {"symbol": "IREN", "name": "IREN", "sector": "Finance", "marketCap": "1"},
+            {"symbol": "ASTS", "name": "ASTS", "sector": "Consumer Discretionary", "marketCap": "1"}]))
+        check([p["sector"] for p in pinned] == ["Information Technology", "Communication Services"], "pinned GICS")
+    finally:
+        nu.GICS_ENABLED = False
 
 
 def test_parse_and_rank():
@@ -428,6 +469,7 @@ def test_etf_type_probe():
 
 def main():
     test_parse_and_rank()
+    test_gics_sectors()
     test_share_class_collapse()
     test_no_backfill()
     test_weekly_refresh()

@@ -244,7 +244,13 @@ class Engine:
         if self.git is not None and self.push and (result["written"] or done):
             self._touch_heartbeat(tick)
             msg = self._commit_message(result["written"], done)
-            self.git.commit_and_push([self.cards_rel], msg, push=True)
+            paths = [self.cards_rel]
+            if done and self.inbox_dir.is_dir():
+                # Audit trail: the DONE commit carries the inbox for this date and
+                # root (drafts, red team, market read, regime), so agents need no git.
+                paths.append(self.inbox_rel)
+                msg += f"; inbox {self.inbox_rel}"
+            self.git.commit_and_push(paths, msg, push=True)
             result["pushed"] = True
         elif self.git is not None and self.push and self.git.ahead():
             self.git.push()
@@ -429,7 +435,7 @@ class Engine:
             and not self.clock.is_late(parse_iso(rec["first_seen_at"]))
         )
         trade_ids = {k: [x for x in v if not x.startswith(UNIDENTIFIED_DIR + "/")] for k, v in ids.items()}
-        return {
+        doc = {
             "schema_version": "1.0.0",
             "marker": "DONE",
             "session_date": self.session_date.isoformat(),
@@ -450,6 +456,24 @@ class Engine:
                               for n, r in sorted(st.get("skipped", {}).items())
                               if (self.inbox_dir / n).exists()],
         }
+        quotes = self._quote_counts()
+        if quotes is not None:
+            doc["quotes"] = quotes
+        return doc
+
+    def _quote_counts(self) -> Optional[dict]:
+        """Real vs modeled quote counts for the report: the pre-open's quotes.json
+        (counts.quotes), else prep.json (quotes). Informational; never blocks DONE."""
+        handoff_dir = self.cards_dir.parent
+        for name, pick in (("quotes.json", lambda d: (d.get("counts") or {}).get("quotes")),
+                           ("prep.json", lambda d: d.get("quotes"))):
+            try:
+                got = pick(json.loads((handoff_dir / name).read_text(encoding="utf-8")))
+            except (OSError, ValueError, AttributeError):
+                continue
+            if isinstance(got, dict):
+                return dict(got, source=f"{self.handoff_root}/{self.session_date.isoformat()}/{name}")
+        return None
 
     def _maybe_done(self, tick, st, existing, drafts, pending) -> Optional[dict]:
         if not (self.clock.past_cutoff(tick) or self.finalize):

@@ -653,6 +653,35 @@ log lines) and commits + pushes it (`PrivateRepo`).
 `alert` (pushes `<root>/<date>/ENGINE_WATCHDOG`, exit 1) when DONE is missing
 after 08:27, or when the runner died without ENGINE_EXIT.
 
+### One-shot session (Ditka 2026-09-28): `run_job.sh session`
+
+One command, fired any time ~07:10-07:45 CT on the session day, returns in
+seconds; a detached chain (double fork + setsid, `dragonfly/jobs/session.py`)
+runs prep (skipped if prep.json exists), `preopen --launch-engine`, then the
+watchdog at the window end + 3 min (08:27). Pre-open runs early on the box on
+purpose: box.env sets `DRAGONFLY_DAEMON_WINDOWS=none` and pre-open has no
+earliest-time rule, so ENGINE_STARTED is pushed about a minute after the fire,
+while the engine still sleeps until 08:08 and cards until the 08:20 cutoff.
+
+```
+cd /workspace/dragonfly-box/run && env -i HOME=$HOME PATH=$PATH \
+  DRAGONFLY_HANDOFF_ROOT=handoff-practice DRAGONFLY_INBOX_ROOT=inbox-practice \
+  bash dragonfly/ops/box/run_job.sh session --date 2026-09-29
+```
+
+Refused (exit 3) when the date/root already has a session marker
+(`state/engine/session-<date>.<root>.json`, O_EXCL), a live runner, or an
+ENGINE_STARTED locally or on origin; the live `handoff/` root is refused.
+`session-status` shows pids and markers; `session-stop` kills the chain, the
+runner (SIGKILL, so no ENGINE_EXIT) and the engine. `--sim-start ISO` runs the
+same chain on a shifted clock (smokes).
+
+DONE now commits the inbox for its date/root in the same commit (agents need
+no git) and copies the pre-open quote mix (`quotes`: real_spread, modeled,
+by_quote_source, chart_fallback_names). Quotes: Yahoo quote, then the
+api.nasdaq.com quote (real bid/ask, same spread gate, `spread_source nasdaq`),
+then the chart's last price (`modeled_last_0.05`).
+
 ## Prep job — `python3 -m dragonfly.jobs prep` (15:30 CT)
 
 1. Target session: `--date`, else `market_calendar.next_session(today)`

@@ -407,6 +407,64 @@ def test_chart_fallback() -> None:
     check(res["excluded"]["DEAD"] == "no_usable_mid_or_last", "chart failure excluded as no_usable_mid_or_last")
 
 
+def test_nasdaq_quote_chain() -> None:
+    """Yahoo quote -> Nasdaq quote -> chart last. Nasdaq bid/ask is real if it passes the gate."""
+    from dragonfly import build_watchlist as bw
+
+    # shape captured from api.nasdaq.com/api/quote/COST/info?assetclass=stocks, 2026-09-28 17:53 CT (after hours)
+    payload = {"data": {"symbol": "COST", "primaryData": {
+        "lastSalePrice": "$921.85", "lastTradeTimestamp": "Sep 28, 2026 6:53 PM ET", "isRealTime": True,
+        "bidPrice": "$921.31", "askPrice": "$922.00", "bidSize": "2", "askSize": "10"},
+        "secondaryData": {"lastSalePrice": "$922.92", "lastTradeTimestamp": "Closed at Sep 28, 2026 4:00 PM ET",
+                          "bidPrice": "", "askPrice": ""}, "marketStatus": "After-Hours"}}
+    q = bw.parse_nasdaq_quote(payload)
+    check(q["bid"] == 921.31 and q["ask"] == 922.00 and q["last"] == 921.85, f"nasdaq bid/ask/last parsed {q}")
+    check(q["previous_close"] == 922.92 and q["market_state"] == "After-Hours", "prior close + status")
+    check(q["quote_time"] == datetime(2026, 9, 28, 17, 53, tzinfo=ZoneInfo("America/Chicago")).timestamp(),
+          "ET timestamp -> epoch")
+    check(bw.parse_nasdaq_quote({"data": None})["last"] is None, "null data -> empty quote")
+    check(bw.parse_nasdaq_quote({"data": {"primaryData": {"lastSalePrice": "$1,096.50", "bidPrice": "N/A"}}})["last"]
+          == 1096.5 and bw.parse_nasdaq_quote({"data": {"primaryData": {"bidPrice": "N/A"}}})["bid"] is None,
+          "commas / N/A handled")
+    order = []
+
+    def info(t):
+        order.append("info")
+        raise RuntimeError("HTTP Error 401: Invalid Crumb")
+
+    def nasdaq(t):
+        order.append("nasdaq")
+        return {"bid": 100.00, "ask": 100.04, "last": 100.02, "quote_time": 1.0} if t == "OK" else (
+            {"bid": None, "ask": None, "last": None} if t == "EMPTY" else {"bid": 94.0, "ask": 96.0, "last": 95.0})
+
+    def chart(t):
+        order.append("chart")
+        return 50.0, 2.0
+
+    ok = bw.with_chart_fallback("OK", info, chart, nasdaq)
+    check(order == ["info", "nasdaq"] and ok["quote_source"] == "nasdaq_quote" and "401" in ok["info_error"],
+          "Yahoo 401 -> Nasdaq, chart not called")
+    r = resolve_quote(ok["bid"], ok["ask"], ok["last"])
+    check(bw.spread_label(r, ok["quote_source"]) == "nasdaq" and r["spread"] == Decimal("0.04"), "gate-passing Nasdaq = real")
+    order.clear()
+    em = bw.with_chart_fallback("EMPTY", info, chart, nasdaq)
+    check(order == ["info", "nasdaq", "chart"] and em["quote_source"] == "chart_last_fallback"
+          and em["quote_errors"]["nasdaq_quote"] == "empty_quote", "Nasdaq empty -> chart last")
+    wide = bw.with_chart_fallback("WIDE", info, chart, nasdaq)
+    rw = resolve_quote(wide["bid"], wide["ask"], wide["last"])
+    check(wide["quote_source"] == "nasdaq_quote" and bw.spread_label(rw, "nasdaq_quote") == "modeled_mid_0.05",
+          "wide Nasdaq bid/ask -> modeled (same gate as Yahoo)")
+    order.clear()
+    good = bw.with_chart_fallback("OK", lambda t: {"bid": 10.0, "ask": 10.02, "last": 10.01}, chart, nasdaq)
+    check(good["quote_source"] == "yahoo_info" and order == [], "good Yahoo quote: Nasdaq and chart not called")
+    check(bw.spread_label(resolve_quote(10.0, 10.02, 10.01), "yahoo_info") == "yahoo", "Yahoo label unchanged")
+    res = select_watchlist([_row("OK", 9e9), _row("EMPTY", 8e9)], lambda t: bw.with_chart_fallback(t, info, chart, nasdaq),
+                           cap=5, batch=2, workers=1, spread_mode="modeled")
+    mix = res["quote_mix"]
+    check(mix["real_spread"] == 1 and mix["modeled"] == 1 and mix["real_spread_by_source"]["nasdaq"] == 1
+          and mix["by_quote_source"] == {"chart_last_fallback": 1, "nasdaq_quote": 1}, f"watchlist quote mix {mix}")
+
+
 def main() -> None:
     test_resolve_quote()
     test_fills()
@@ -415,6 +473,7 @@ def main() -> None:
     test_selection()
     test_full_quote_fetcher_guarded()
     test_chart_fallback()
+    test_nasdaq_quote_chain()
     print(f"dragonfly phase1 modeled spread: all {CHECKS} checks passed (offline)")
 
 

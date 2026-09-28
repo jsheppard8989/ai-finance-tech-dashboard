@@ -47,12 +47,12 @@ def _epoch(value) -> Optional[float]:
 
 
 def yahoo_preopen_quote(ticker: str) -> dict:
-    """Guarded quote: the info quote, else (empty, 401 Invalid Crumb, 429) the
-    chart's last price (quote_source chart_last_fallback; risk_math then models
+    """Guarded quote: Yahoo info quote, else (empty, 401 Invalid Crumb, 429) the
+    api.nasdaq.com quote (real bid/ask + last), else the chart's last price (quote_source chart_last_fallback; risk_math then models
     $0.05 around it: modeled_last_0.05, provisional, live-blocked)."""
     from dragonfly import build_watchlist as bw
 
-    return bw.with_chart_fallback(ticker, _yahoo_info_preopen, bw.chart_last)
+    return bw.with_chart_fallback(ticker, _yahoo_info_preopen, bw.chart_last, bw.nasdaq_quote)
 
 
 def _yahoo_info_preopen(ticker: str) -> dict:
@@ -89,7 +89,10 @@ def _iso_epoch(ts) -> Optional[str]:
 
 
 def resolve_row(ticker: str, raw: Mapping, prev_close: Optional[float], now: datetime) -> dict:
+    from dragonfly import build_watchlist as bw
+
     q = rm.resolve_quote(raw.get("bid"), raw.get("ask"), raw.get("last"))
+    q = dict(q, spread_source=bw.spread_label(q, raw.get("quote_source")))
     row = {
         "ticker": ticker,
         "usable": bool(q.get("usable")),
@@ -120,16 +123,12 @@ def resolve_row(ticker: str, raw: Mapping, prev_close: Optional[float], now: dat
 
 
 def quote_mix(rows: List[Mapping]) -> dict:
-    """How many usable quotes were real (Yahoo bid/ask passed the spread gate)
-    vs modeled, and which names fell back to the chart's last price."""
-    use = [r for r in rows if r.get("usable")]
-    chart = sorted(r["ticker"] for r in rows if r.get("quote_source") == "chart_last_fallback")
-    return {
-        "real_spread": sum(1 for r in use if r.get("spread_source") == "yahoo"),
-        "modeled": sum(1 for r in use if r.get("spread_source") != "yahoo"),
-        "chart_fallback": len(chart),
-        "chart_fallback_names": chart,
-    }
+    """How many usable quotes were real (Yahoo or Nasdaq bid/ask passed the
+    spread gate) vs modeled, by quote source, and which names fell back to the
+    chart's last price."""
+    from dragonfly import build_watchlist as bw
+
+    return bw.quote_mix([r for r in rows if r.get("usable")])
 
 
 class QuoteCache:

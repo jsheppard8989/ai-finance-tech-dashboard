@@ -242,15 +242,12 @@ def run_prep(
             rows.append(row)
         if unavailable == len(rows):
             raise JobError(f"no admitted name has usable bars through {prev}; prep not written")
-        chart = sorted(r["ticker"] for r in rows if r.get("quote_source") == "chart_last_fallback")
-        mix = {
-            "real_spread": sum(1 for r in rows if r.get("spread_source") == "yahoo"),
-            "modeled": sum(1 for r in rows if r.get("spread_source") != "yahoo"),
-            "chart_fallback": len(chart),
-            "chart_fallback_names": chart,
-        }
-        log.info("prep %s quotes: %d real spread, %d modeled, %d via chart-last fallback %s",
-                 ds, mix["real_spread"], mix["modeled"], len(chart), chart)
+        from dragonfly import build_watchlist as bw
+
+        mix = bw.quote_mix(rows)
+        chart = mix["chart_fallback_names"]
+        log.info("prep %s quotes: %d real spread, %d modeled; by source %s; chart-last fallback %s",
+                 ds, mix["real_spread"], mix["modeled"], mix["by_quote_source"], chart)
         as_of = core.iso(now)
         measurements = {
             "schema": MEASUREMENTS_SCHEMA,

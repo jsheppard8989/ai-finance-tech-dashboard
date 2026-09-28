@@ -358,8 +358,9 @@ def test_ready_last():
     q = w.remote_json(f"{rel}/quotes.json")
     check({k: v for k, v in q["counts"].items() if k != "quotes"} == {"names": 3, "usable": 3, "cache_hits": 0},
           "quotes for admitted names only")
-    check(q["counts"]["quotes"] == {"real_spread": 3, "modeled": 0, "chart_fallback": 0, "chart_fallback_names": []},
-          "all-real quote mix")
+    qm = q["counts"]["quotes"]
+    check(qm["real_spread"] == 3 and qm["modeled"] == 0 and qm["chart_fallback_names"] == []
+          and qm["by_quote_source"] == {"yahoo_info": 3}, f"all-real quote mix {qm}")
     check(sorted(w.quote_calls) == sorted(list(TICKERS) + list(po.MARKET_CONTEXT)), "admitted names + market context only")
     row = q["names"][0]
     check(row["spread_source"] == "yahoo" and row["mid"] == 85.12 and row["gap_pct"] == round(85.12 / 84.3 - 1, 6),
@@ -420,8 +421,10 @@ def test_chart_fallback_visible():
 
     out = w.prep(build_fn=build_fn)
     fb = sorted(t for t in TICKERS if t != "AAA")
-    check(out["quotes"] == {"real_spread": 1, "modeled": len(TICKERS) - 1, "chart_fallback": len(fb),
-                            "chart_fallback_names": fb}, f"prep result counts real vs modeled {out['quotes']}")
+    sub = lambda d: {k: d[k] for k in ("real_spread", "modeled", "chart_fallback", "chart_fallback_names")}  # noqa: E731
+    check(sub(out["quotes"]) == {"real_spread": 1, "modeled": len(TICKERS) - 1, "chart_fallback": len(fb),
+                                 "chart_fallback_names": fb}, f"prep result counts real vs modeled {out['quotes']}")
+    check(out["quotes"]["by_quote_source"] == {"chart_last_fallback": 2, "yahoo_info": 1}, "prep by quote source")
     prep = w.remote_json(f"handoff/{DS}/prep.json")
     meas = w.remote_json(f"handoff/{DS}/measurements.json")
     check(prep["quotes"]["chart_fallback_names"] == fb and meas["counts"]["quotes"]["real_spread"] == 1,
@@ -443,8 +446,30 @@ def test_chart_fallback_visible():
           and rows["BBB"]["usable"] and rows["BBB"]["provisional"], "preopen 401 -> chart last, modeled_last_0.05")
     check(rows["AAA"]["quote_source"] == "yahoo_info" and rows["AAA"]["spread_source"] == "yahoo", "real quote kept")
     mix = q["counts"]["quotes"]
-    check(mix == {"real_spread": 1, "modeled": 2, "chart_fallback": 2, "chart_fallback_names": ["BBB", "CCC"]},
+    check(sub(mix) == {"real_spread": 1, "modeled": 2, "chart_fallback": 2, "chart_fallback_names": ["BBB", "CCC"]},
           f"quotes.json counts real vs modeled {mix}")
+    # Nasdaq in the chain: Yahoo 401 -> Nasdaq bid/ask (real, spread_source nasdaq); Nasdaq down -> chart last
+    w2 = World("nasdaqq")
+    w2.prep()
+
+    def nasdaq(t):
+        if t == "CCC":
+            raise RuntimeError("nasdaq down")
+        return {"bid": 85.10, "ask": 85.14, "last": 85.12, "last_source": "nasdaq:Pre-Market",
+                "quote_time": ct(w2.session, 8, 4).timestamp(), "market_state": "Pre-Market"}
+
+    crumb = lambda t: (_ for _ in ()).throw(RuntimeError("HTTP Error 401: Invalid Crumb"))  # noqa: E731
+    res2 = w2.preopen(quote_fn=lambda t: bw.with_chart_fallback(t, crumb, chart, nasdaq))
+    q2 = w2.remote_json(f"handoff/{DS}/quotes.json")
+    rows2 = {r["ticker"]: r for r in q2["names"]}
+    check(rows2["AAA"]["quote_source"] == "nasdaq_quote" and rows2["AAA"]["spread_source"] == "nasdaq"
+          and rows2["AAA"]["bid"] == 85.10, "Yahoo 401 -> Nasdaq bid/ask, real spread labelled nasdaq")
+    check(rows2["CCC"]["quote_source"] == "chart_last_fallback" and rows2["CCC"]["spread_source"] == "modeled_last_0.05",
+          "Nasdaq down -> chart last, modeled")
+    m2 = q2["counts"]["quotes"]
+    check(m2["real_spread"] == 2 and m2["modeled"] == 1 and m2["real_spread_by_source"] == {"yahoo": 0, "nasdaq": 2}
+          and m2["by_quote_source"] == {"chart_last_fallback": 1, "nasdaq_quote": 2}, f"nasdaq mix {m2}")
+    check(res2["quotes"] == m2, "result carries the nasdaq mix")
     check(res["quotes"] == mix, "preopen result carries the quote mix")
     check(po.yahoo_preopen_quote is not None and callable(bw.chart_last), "live fetchers wired")
 
@@ -640,12 +665,121 @@ def test_watchdog():
     check(er.watchdog(w.mac, D, "handoff", w.state, ct(D, 8, 40), pull=False)["status"] == "ok", "DONE: ok")
 
 
+def test_session_launcher():
+    """One fire: refuse live root / double fire; chain order prep -> preopen --launch-engine -> watchdog 08:27."""
+    import signal as _signal
+
+    from dragonfly.jobs import engine_runner as er
+    from dragonfly.jobs import session as ss
+
+    w = World("session")
+    st = w.state
+    check(raises(lambda: ss.fire(w.mac, D, "handoff", "inbox", st, spawn=lambda *a: 1), exc=ss.SessionRefused, contains="live handoff/"),
+          "live root refused")
+    spawned = []
+    doc = ss.fire(w.mac, D, "handoff-practice", "inbox-practice", st,
+                  spawn=lambda argv, log, cwd, env: spawned.append((argv, log, env)) or 4242,
+                  real_now=lambda: ct(D, 7, 15))
+    check(doc["chain_pid"] == 4242 and doc["status"] == "running" and doc["fired_at"] == "2026-09-28T07:15:00-05:00",
+          "fire returns the detached chain pid at once")
+    argv, log, env = spawned[0]
+    check(argv[1:4] == ["-m", "dragonfly.jobs", "session-chain"] and env["DRAGONFLY_HANDOFF_ROOT"] == "handoff-practice"
+          and env["DRAGONFLY_INBOX_ROOT"] == "inbox-practice", "chain argv + roots")
+    check(str(log).endswith("session-2026-09-28.handoff-practice.log"), "session log path")
+    check(raises(lambda: ss.fire(w.mac, D, "handoff-practice", "inbox-practice", st, spawn=lambda *a: 1),
+                 exc=ss.SessionRefused, contains="already fired"), "double fire refused (marker)")
+    ss.marker_file(st, D, "handoff-practice").unlink()
+    rf = er.runner_file(st, D, "handoff-practice")
+    rf.parent.mkdir(parents=True, exist_ok=True)
+    rf.write_text(json.dumps({"runner_pid": os.getpid(), "engine_pid": os.getpid()}))
+    check(raises(lambda: ss.fire(w.mac, D, "handoff-practice", "inbox-practice", st, spawn=lambda *a: 1),
+                 exc=ss.SessionRefused, contains="is alive"), "live runner refused")
+    rf.unlink()
+    # ENGINE_STARTED only on origin (pushed from another clone) -> refused
+    other = w.base / "other"
+    git(w.base, "clone", "--quiet", str(w.remote), str(other))
+    World._ident(other)
+    (other / "handoff-practice" / DS / "cards").mkdir(parents=True)
+    (other / "handoff-practice" / DS / "cards" / "ENGINE_STARTED").write_text("{}")
+    git(other, "add", "-A")
+    git(other, "commit", "--quiet", "-m", "started")
+    git(other, "push", "--quiet", "origin", "main")
+    check(ss.engine_started(w.mac, D, "handoff-practice") == "origin", "ENGINE_STARTED seen on origin")
+    check(raises(lambda: ss.fire(w.mac, D, "handoff-practice", "inbox-practice", st, spawn=lambda *a: 1),
+                 exc=ss.SessionRefused, contains="ENGINE_STARTED"), "ENGINE_STARTED refused")
+    check(not ss.marker_file(st, D, "handoff-practice").exists(), "a refused fire leaves no marker")
+
+    # chain, shifted clock: fired 18:00 real = sim 08:03
+    calls, sleeps = [], []
+    clock = {"t": ct(D, 18, 0)}
+
+    class R:
+        returncode = 0
+
+    def run(argv, cwd=None):
+        calls.append(argv[3:])
+        clock["t"] += timedelta(seconds=30)
+        if argv[3] == "preopen":
+            rf.write_text(json.dumps({"runner_pid": 11, "engine_pid": 12}))
+        return R()
+
+    old = os.environ.get("DRAGONFLY_HANDOFF_ROOT"), os.environ.get("DRAGONFLY_INBOX_ROOT")
+    os.environ["DRAGONFLY_HANDOFF_ROOT"], os.environ["DRAGONFLY_INBOX_ROOT"] = "handoff-smoke", "inbox-smoke"
+    try:
+        mf = ss.marker_file(st, D, "handoff-smoke")
+        mf.write_text(json.dumps({"status": "running"}))
+        rf = er.runner_file(st, D, "handoff-smoke")
+        rc = ss.run_chain(w.mac, D, st, "2026-09-28T18:00:00-05:00", sim_start="2026-09-28T08:03:00-05:00",
+                          python="py", run=run, real_now=lambda: clock["t"], sleep=lambda x: sleeps.append(x))
+        check(rc == 0 and [c[0] for c in calls] == ["prep", "preopen", "watchdog"], f"chain order {calls}")
+        check("--now" not in calls[0] and "--launch-engine" in calls[1], "prep on the real clock; preopen launches the engine")
+        check(calls[1][calls[1].index("--now") + 1] == "2026-09-28T08:03:30-05:00", f"preopen on the sim clock {calls[1]}")
+        m = json.loads(mf.read_text())
+        check(m["watchdog_at"] == "2026-09-28T18:24:00-05:00" and m["status"] == "complete" and m["runner_pid"] == 11,
+              f"watchdog armed at sim 08:27 = real 18:24 {m}")
+        check(abs(sleeps[0] - (23 * 60 + 5)) < 1, f"sleep until the watchdog {sleeps}")
+        # real clock: watchdog at 08:27; prep failure stops the chain
+        calls.clear()
+        mf2 = ss.marker_file(st, date(2026, 9, 29), "handoff-smoke")
+        mf2.write_text("{}")
+
+        class Bad:
+            returncode = 2
+
+        rc = ss.run_chain(w.mac, date(2026, 9, 29), st, "2026-09-29T07:15:00-05:00", python="py",
+                          run=lambda argv, cwd=None: calls.append(argv[3:]) or Bad(),
+                          real_now=lambda: ct(date(2026, 9, 29), 7, 15), sleep=lambda x: None)
+        check(rc == 2 and [c[0] for c in calls] == ["prep"] and json.loads(mf2.read_text())["failed_step"] == "prep",
+              "prep failure: no pre-open, no engine")
+    finally:
+        for k, v in zip(("DRAGONFLY_HANDOFF_ROOT", "DRAGONFLY_INBOX_ROOT"), old):
+            if v is None:
+                os.environ.pop(k, None)
+            else:
+                os.environ[k] = v
+
+    # stop: chain group, runner (SIGKILL) and engine all die
+    procs = [subprocess.Popen(["sleep", "60"], start_new_session=True) for _ in range(3)]
+    mf3 = ss.marker_file(st, date(2026, 9, 30), "handoff-stop")
+    mf3.write_text(json.dumps({"chain_pid": procs[0].pid, "status": "engine_launched"}))
+    er.runner_file(st, date(2026, 9, 30), "handoff-stop").write_text(
+        json.dumps({"runner_pid": procs[1].pid, "engine_pid": procs[2].pid}))
+    out = ss.stop(date(2026, 9, 30), "handoff-stop", st)
+    codes = [p.wait(timeout=10) for p in procs]
+    check(out["chain"] == "killed" and out["runner"] == "killed" and out["engine"].startswith("killed"), f"stop {out}")
+    check(codes[1] == -_signal.SIGKILL and codes[0] == -_signal.SIGTERM, f"runner SIGKILLed (no ENGINE_EXIT) {codes}")
+    check(json.loads(mf3.read_text())["status"] == "stopped", "marker says stopped (no re-fire)")
+    stt = ss.status(w.mac, date(2026, 9, 30), "handoff-stop", st, remote=False)
+    check(stt["runner_alive"] is False and stt["engine_alive"] is False, f"status after stop {stt}")
+
+
 def test_box_ops():
     box = ROOT / "dragonfly" / "ops" / "box"
     env = (box / "box.env").read_text()
     check("DRAGONFLY_DAEMON_WINDOWS" in env and "none" in env and "DRAGONFLY_STATE_DIR" in env, "box env")
     sh = (box / "run_job.sh").read_text()
     check("-m dragonfly.jobs" in sh and "pull --ff-only" in sh and "launchctl" not in sh, "box launcher")
+    check("session|session-status|session-stop" in sh, "box launcher knows the one-shot session")
     r = subprocess.run(["bash", "-n", str(box / "run_job.sh")], capture_output=True, text=True)
     check(r.returncode == 0, f"box launcher parses ({r.stderr})")
 
@@ -670,6 +804,7 @@ def main():
         test_detached_spawn_and_engine_exit,
         test_watchdog,
         test_box_ops,
+        test_session_launcher,
     ]
     for t in tests:
         t()

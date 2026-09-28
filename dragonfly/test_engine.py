@@ -751,6 +751,51 @@ def test_frozen_idempotency():
     check(r["written"] == [] and w.done()["counts"]["sized"] == 1, "state loss does not re-card; DONE")
 
 
+def test_done_commits_inbox_and_quotes():
+    """Box agents write the inbox straight into the engine's clone (no git): the
+    DONE commit carries the inbox for that date/root; DONE copies the quote mix."""
+    w = World("inbox-audit")
+    w.push_regime()
+    bars = SETUP_PLANS["catalyst_breakout"][0](mc.previous_session(w.session))
+    w.name("XYZ", bars, "Sector1")
+    mix = {"real_spread": 3, "modeled": 1, "by_quote_source": {"nasdaq_quote": 3, "chart_last_fallback": 1},
+           "chart_fallback": 1, "chart_fallback_names": ["ZZZ"]}
+    w.agent_push(f"handoff/{w.ds}/quotes.json", {"counts": {"names": 4, "usable": 4, "quotes": mix}}, message="quotes")
+    git(w.mac, "pull", "--quiet", "--rebase", "origin", "main")
+    inbox = w.mac / "inbox" / w.ds
+    inbox.mkdir(parents=True, exist_ok=True)
+    d = make_draft(1, "XYZ", "catalyst_breakout", bars, "Sector1", session=w.session)
+    (inbox / "DF-2026-0001.draft.json").write_text(json.dumps(d, indent=1))
+    rt = {"schema_version": "1.0.0", "trade_id": "DF-2026-0001", "as_of": ct(8, 10).isoformat(),
+          "flags": dict(FLAGS_NONE), "narrative": "Case against the trade."}
+    (inbox / "DF-2026-0001.redteam.json").write_text(json.dumps(rt, indent=1))
+    (inbox / "market_read.json").write_text(json.dumps({"session_date": w.ds, "note": "box agent"}))
+    w.now = ct(8, 14)
+    r = w.engine().run_pass()
+    check(r["written"] == ["DF-2026-0001"] and w.card("DF-2026-0001"), "card from an uncommitted inbox draft")
+    on_remote = set(w.remote_ls(f"inbox/{w.ds}"))
+    check(f"inbox/{w.ds}/DF-2026-0001.draft.json" not in on_remote, "card commits do not carry the inbox")
+    w.now = ct(8, 21)
+    w.engine().run_pass()
+    done = w.done()
+    check(done and done["counts"]["sized"] == 1, "DONE written")
+    on_remote = set(w.remote_ls(f"inbox/{w.ds}"))
+    check({f"inbox/{w.ds}/{n}" for n in ("DF-2026-0001.draft.json", "DF-2026-0001.redteam.json", "market_read.json",
+                                          "regime_snapshot.json")} <= on_remote, f"DONE commit carries the inbox {on_remote}")
+    subj = git(w.remote, "log", "-1", "--format=%s", "main").strip()
+    check("DONE r1" in subj and f"inbox inbox/{w.ds}" in subj, f"one commit: DONE + inbox ({subj})")
+    files = git(w.remote, "show", "--name-only", "--format=", "main").split()
+    check(f"handoff/{w.ds}/cards/DONE" in files and f"inbox/{w.ds}/DF-2026-0001.draft.json" in files,
+          "DONE and the inbox land in the same commit")
+    check(done["quotes"] == dict(mix, source=f"handoff/{w.ds}/quotes.json"), f"DONE carries the quote mix {done.get('quotes')}")
+    check(not core.schema_errors("engine_done.schema.json", done), "DONE with quotes is schema-valid")
+    # a DONE with no quotes.json / prep.json stays valid and simply omits the block
+    w2 = World("done-noquotes")
+    w2.now = ct(8, 21)
+    w2.engine().run_pass()
+    check("quotes" not in w2.done(), "no quote files -> no quotes block")
+
+
 def test_done_zero_and_finalize():
     w = World("zero")
     w.now = ct(8, 21)
@@ -1604,6 +1649,7 @@ def main():
         test_book_stale,
         test_holiday_engine,
         test_frozen_idempotency,
+        test_done_commits_inbox_and_quotes,
         test_done_zero_and_finalize,
         test_regime_pending_then_cutoff,
         test_pending_heat_sector_and_option,

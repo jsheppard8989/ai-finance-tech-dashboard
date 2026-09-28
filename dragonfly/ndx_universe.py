@@ -43,7 +43,14 @@ from datetime import date, datetime
 from pathlib import Path
 from typing import Callable, Dict, List, Mapping, Optional
 
+from dragonfly import gics
+
 NDX_URL = "https://api.nasdaq.com/api/quote/list-type/nasdaq100"
+# Sectors are GICS (dragonfly/gics.py), not Nasdaq's ICB-style screener label.
+# Tests of the ranking mechanics on raw labels switch this off.
+GICS_ENABLED = True
+GICS_SECTOR_FIELD = ("GICS sector: dragonfly/gics.py GICS_BY_TICKER, else Nasdaq screener label renamed to its "
+                     "GICS name (ICB_TO_GICS); raw label kept as screener_sector")
 SCREENER_URL = "https://api.nasdaq.com/api/screener/stocks?tableonly=true&download=true"
 SCHEMA = "dragonfly.ndx_universe/2"  # /2: share classes collapsed
 PER_SECTOR = 5
@@ -144,16 +151,20 @@ def parse_members(ndx_payload: Mapping, screener_payload: Mapping) -> List[dict]
         if sym:
             sectors[sym] = (r.get("sector") or "").strip() or None
     out = []
+    use_gics = bool(GICS_ENABLED)
     for r in rows:
         sym = norm_symbol(r.get("symbol"))
         if not sym or not sym.replace("-", "").isalnum():
             continue
+        raw = sectors.get(sym)
+        sector, source = gics.gics_sector(sym, raw) if use_gics else (raw, "screener")
         out.append(
             {
                 "ticker": sym,
                 "name": r.get("companyName"),
                 "market_cap": parse_market_cap(r.get("marketCap")),
-                "sector": sectors.get(sym),
+                "sector": sector,
+                **({"screener_sector": raw, "sector_source": source} if use_gics else {}),
             }
         )
     if len(out) < MIN_CONSTITUENTS:
@@ -192,6 +203,7 @@ def rank_by_sector(members: List[Mapping], per_sector: int = PER_SECTOR) -> dict
                 "market_cap": parse_market_cap(m["market_cap"]),
                 "issuer": m.get("issuer"),
                 "share_classes": m.get("share_classes"),
+                **{k: m[k] for k in ("screener_sector", "sector_source") if k in m},
             }
             for i, m in enumerate(ranked[:per_sector])
         ]
@@ -244,11 +256,14 @@ def resolve_pinned(pinned: List[str], screener_payload: Optional[Mapping]) -> Li
     out = []
     for t in pinned:
         r = by.get(t) or {}
+        raw = (r.get("sector") or "").strip() or None
+        sector, source = gics.gics_sector(t, raw) if GICS_ENABLED else (raw, "screener")
         out.append(
             {
                 "ticker": t,
                 "name": r.get("name"),
-                "sector": (r.get("sector") or "").strip() or None,
+                "sector": sector,
+                **({"screener_sector": raw, "sector_source": source} if GICS_ENABLED else {}),
                 "market_cap": parse_market_cap(r.get("marketCap")),
                 "sector_rank": None,
                 "origin": [ORIGIN_PINNED],
@@ -296,6 +311,8 @@ def is_stale(doc: Optional[Mapping], today: date, max_age_days: int = MAX_AGE_DA
         return True
     if doc.get("per_sector") != per_sector or not isinstance(doc.get("members"), list) or not doc["members"]:
         return True
+    if GICS_ENABLED and doc.get("sector_scheme") != gics.SCHEME:
+        return True  # labelled with Nasdaq's ICB-style sectors: re-rank under GICS
     age = universe_age_days(doc, today)
     return age is None or age < 0 or age >= max_age_days
 
@@ -316,7 +333,8 @@ def fetch_and_rank(get_json: Callable[[str], Mapping], now: datetime, per_sector
         "as_of_date": now.date().isoformat(),
         "refresh": f"weekly: reused until {MAX_AGE_DAYS} or more days old, or --refresh-universe",
         "sources": {"constituents_market_cap": NDX_URL, "sector": SCREENER_URL},
-        "sector_field": SECTOR_FIELD,
+        "sector_field": SECTOR_FIELD if not GICS_ENABLED else GICS_SECTOR_FIELD,
+        **({"sector_scheme": gics.SCHEME} if GICS_ENABLED else {}),
         "market_cap_field": MARKET_CAP_FIELD,
         "rank_key": "market_cap desc within sector (ties by ticker)",
         **ranked,
