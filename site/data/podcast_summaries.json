@@ -101,6 +101,23 @@
     "key_tickers": null
   },
   {
+    "id": 528,
+    "podcast_name": "Macro Voices",
+    "episode_title": "MacroVoices #551 Michael Every: Decoding The Global Geopolitical Puzzle (Part 2)",
+    "episode_date": "2026-09-25",
+    "summary": "The podcast discusses the geopolitical implications of U.S.-Iran relations, highlighting the potential for increased oil prices and market instability due to proposed U.S. diesel export bans. It also examines the escalating U.S.-China rivalry and its impact on global alliances, along with concerns regarding tactical nuclear options and the AI arms race.",
+    "key_takeaways": [
+      "Michael Every discusses that Iran has given the U.S. a one-week ultimatum to lift military blockades, which could lead to disruptions in oil supply.",
+      "Every claims that a proposed 90-day ban on U.S. diesel exports could create international shortages and drive up fuel prices.",
+      "Every notes that Canadian military simulations regarding a potential U.S. invasion indicate a significant shift in Canada's defense posture.",
+      "Every argues that the U.S.-China rivalry is intensifying, likening it to the Soviet U.S. Cold War, which could escalate military tensions in Taiwan and the South China Sea.",
+      "Every highlights that competition in AI technology between the U.S. and China represents a new arms race with significant implications for national security.",
+      "Every raises concerns about the normalization of nuclear warfare due to discussions around tactical nuclear options against Iran."
+    ],
+    "investment_thesis": "Michael Every claims that escalating U.S.-Iran tensions could disrupt oil supply, leading to higher prices in global markets.",
+    "key_tickers": null
+  },
+  {
     "id": 521,
     "podcast_name": "Latent Space: The AI Engineer Podcast",
     "episode_title": "OpenRouter: from Seed to Stripe \u2014 with OpenRouter\u2019s Alex Atallah & AMP\u2019s Anjney Midha",

@@ -3,7 +3,7 @@
 
 const dashboardData = {
   schemaVersion: 2,
-  generatedAt: "2026-09-28T12:11:46.698310",
+  generatedAt: "2026-09-28T12:55:42.136323",
   chartsVersion: "2026-09-28T12:11:30.204757",
   priceSnapshot: {
   "AAPL": {
@@ -1217,6 +1217,25 @@ const dashboardData = {
       "archived_date": null,
       "archived_reason": null,
       "podcast_episode_id": 521
+    },
+    {
+      "id": 543,
+      "title": "MacroVoices #551 Michael Every: Decoding The Global Geopolitical Puzzle (Part 2)",
+      "source_type": "podcast",
+      "source_name": "Macro Voices",
+      "source_date": "2026-09-25",
+      "summary": "The podcast discusses the geopolitical implications of U.S.-Iran relations, highlighting the potential for increased oil prices and market instability due to proposed U.S. diesel export bans. It also examines the escalating U.S.-China rivalry and its impact on global alliances, along with concerns regarding tactical nuclear options and the AI arms race.",
+      "key_takeaway": "Michael Every claims that escalating U.S.-Iran tensions could disrupt oil supply, leading to higher prices in global markets.",
+      "tickers_mentioned": [
+        "NVDA"
+      ],
+      "sentiment": "bullish",
+      "display_on_main": 0,
+      "display_order": 0,
+      "added_date": "2026-09-28",
+      "archived_date": null,
+      "archived_reason": null,
+      "podcast_episode_id": 528
     },
     {
       "id": 531,
@@ -11992,8 +12011,8 @@ const dashboardData = {
       "term": "AI Boom",
       "description": "A period characterized by rapid technological advancement, significant investment, and widespread adoption of artificial intelligence, leading to substantial economic growth and wealth creation.",
       "first_detected_date": "2026-06-29",
-      "last_mentioned_date": "2026-09-23",
-      "mention_count": 14,
+      "last_mentioned_date": "2026-09-25",
+      "mention_count": 15,
       "source_podcasts": null,
       "status": "active",
       "investment_implications": "This era presents unparalleled opportunities for investors to back innovative startups and capitalize on transformative industry shifts.",
@@ -12002,8 +12021,8 @@ const dashboardData = {
       "archived_reason": null,
       "first_detected_episode_id": 320,
       "first_detected_speaker": "Leakwet Ahamed",
-      "last_mentioned_episode_id": 513,
-      "last_mentioned_speaker": "Jack Farley (hosts)"
+      "last_mentioned_episode_id": 528,
+      "last_mentioned_speaker": "Erik Townsend (hosts)"
     },
     {
       "id": 279,
@@ -12224,20 +12243,20 @@ const dashboardData = {
     {
       "id": 59,
       "term": "Strait of Hormuz",
-      "description": "A narrow waterway between Iran and Oman through which a significant portion of the world's oil supply passes.",
+      "description": "A strategic waterway through which a significant portion of the world's oil supply is transported.",
       "first_detected_date": "2026-06-07",
-      "last_mentioned_date": "2026-08-05",
-      "mention_count": 8,
+      "last_mentioned_date": "2026-09-25",
+      "mention_count": 9,
       "source_podcasts": null,
       "status": "active",
-      "investment_implications": "Disruptions in this region can have a substantial impact on global oil prices and related energy investments.",
+      "investment_implications": "Tensions in this region can lead to significant disruptions in global oil supply and price volatility.",
       "display_on_main": 0,
       "archived_date": null,
       "archived_reason": null,
       "first_detected_episode_id": 269,
       "first_detected_speaker": null,
-      "last_mentioned_episode_id": 388,
-      "last_mentioned_speaker": "Dino Ceranic, Vib Altacar"
+      "last_mentioned_episode_id": 528,
+      "last_mentioned_speaker": "Erik Townsend (hosts)"
     },
     {
       "id": 232,
@@ -12640,8 +12659,8 @@ const dashboardData = {
       "term": "AGI",
       "description": "AGI refers to Artificial General Intelligence, a type of AI that can understand, learn, and apply intelligence across a wide range of tasks, similar to human cognitive abilities.",
       "first_detected_date": "2026-05-07",
-      "last_mentioned_date": "2026-09-28",
-      "mention_count": 104,
+      "last_mentioned_date": "2026-09-25",
+      "mention_count": 105,
       "source_podcasts": null,
       "status": "active",
       "investment_implications": "Investors should focus on companies developing AGI technologies as they are likely to drive significant industry transformations.",
@@ -12650,8 +12669,8 @@ const dashboardData = {
       "archived_reason": null,
       "first_detected_episode_id": 204,
       "first_detected_speaker": "Demis Hassabis",
-      "last_mentioned_episode_id": 527,
-      "last_mentioned_speaker": "Diego Almeida"
+      "last_mentioned_episode_id": 528,
+      "last_mentioned_speaker": "Erik Townsend (hosts)"
     },
     {
       "id": 162,
@@ -13450,8 +13469,8 @@ const dashboardData = {
       "term": "AI Infrastructure",
       "description": "The foundational technology and systems that support the development and deployment of artificial intelligence applications.",
       "first_detected_date": "2026-03-17",
-      "last_mentioned_date": "2026-09-19",
-      "mention_count": 37,
+      "last_mentioned_date": "2026-09-25",
+      "mention_count": 38,
       "source_podcasts": null,
       "status": "active",
       "investment_implications": "Investing in companies that provide AI infrastructure can lead to stable earnings growth as demand increases.",
@@ -13460,8 +13479,8 @@ const dashboardData = {
       "archived_reason": null,
       "first_detected_episode_id": 71,
       "first_detected_speaker": null,
-      "last_mentioned_episode_id": 499,
-      "last_mentioned_speaker": "David Bush"
+      "last_mentioned_episode_id": 528,
+      "last_mentioned_speaker": "Erik Townsend (hosts)"
     },
     {
       "id": 26,
@@ -14690,8 +14709,8 @@ const dashboardData = {
       "term": "AGI",
       "description": "AGI refers to Artificial General Intelligence, a type of AI that can understand, learn, and apply intelligence across a wide range of tasks, similar to human cognitive abilities.",
       "first_detected_date": "2026-05-07",
-      "last_mentioned_date": "2026-09-28",
-      "mention_count": 104,
+      "last_mentioned_date": "2026-09-25",
+      "mention_count": 105,
       "source_podcasts": null,
       "status": "active",
       "investment_implications": "Investors should focus on companies developing AGI technologies as they are likely to drive significant industry transformations.",
@@ -14700,18 +14719,18 @@ const dashboardData = {
       "archived_reason": null,
       "first_detected_episode_id": 204,
       "first_detected_speaker": "Demis Hassabis",
-      "last_mentioned_episode_id": 527,
-      "last_mentioned_speaker": "Diego Almeida",
-      "novelty_score": 0.5495,
-      "overton_score": 0.5495,
-      "resonance_pct": 47,
+      "last_mentioned_episode_id": 528,
+      "last_mentioned_speaker": "Erik Townsend (hosts)",
+      "novelty_score": 0.5298,
+      "overton_score": 0.5298,
+      "resonance_pct": 46,
       "is_established": true,
       "first_detected_podcast": "Moonshots with Peter Diamandis",
       "first_detected_episode_title": "Demis Hassabis on AGI, Robots Scale Production, and Elon\u2019s $1T Mars-Shot Comp | EP #253",
       "first_detected_episode_date": "2026-05-07",
-      "last_mentioned_podcast": "The a16z Show",
-      "last_mentioned_episode_title": "AI Can Write Code. Why Isn\u2019t Software Better?",
-      "last_mentioned_episode_date": "2026-09-28"
+      "last_mentioned_podcast": "Macro Voices",
+      "last_mentioned_episode_title": "MacroVoices #551 Michael Every: Decoding The Global Geopolitical Puzzle (Part 2)",
+      "last_mentioned_episode_date": "2026-09-25"
     },
     {
       "id": 264,
@@ -14746,8 +14765,8 @@ const dashboardData = {
       "term": "AI Boom",
       "description": "A period characterized by rapid technological advancement, significant investment, and widespread adoption of artificial intelligence, leading to substantial economic growth and wealth creation.",
       "first_detected_date": "2026-06-29",
-      "last_mentioned_date": "2026-09-23",
-      "mention_count": 14,
+      "last_mentioned_date": "2026-09-25",
+      "mention_count": 15,
       "source_podcasts": null,
       "status": "active",
       "investment_implications": "This era presents unparalleled opportunities for investors to back innovative startups and capitalize on transformative industry shifts.",
@@ -14756,18 +14775,18 @@ const dashboardData = {
       "archived_reason": null,
       "first_detected_episode_id": 320,
       "first_detected_speaker": "Leakwet Ahamed",
-      "last_mentioned_episode_id": 513,
-      "last_mentioned_speaker": "Jack Farley (hosts)",
-      "novelty_score": 0.5168,
-      "overton_score": 0.5168,
-      "resonance_pct": 45,
+      "last_mentioned_episode_id": 528,
+      "last_mentioned_speaker": "Erik Townsend (hosts)",
+      "novelty_score": 0.5336,
+      "overton_score": 0.5336,
+      "resonance_pct": 46,
       "is_established": true,
       "first_detected_podcast": "Monetary Matters with Jack Farley",
       "first_detected_episode_title": "Rothschilds, Railroads, & Ruin | Liaquat Ahamed on \u201c1873\u201d (New Book!)",
       "first_detected_episode_date": "2026-06-29",
-      "last_mentioned_podcast": "Monetary Matters with Jack Farley",
-      "last_mentioned_episode_title": "Energy Shock and Rate Hikes Could Cause a 2022 Style Bear Market | Eric Wallerstein | Clocktower Group",
-      "last_mentioned_episode_date": "2026-09-23"
+      "last_mentioned_podcast": "Macro Voices",
+      "last_mentioned_episode_title": "MacroVoices #551 Michael Every: Decoding The Global Geopolitical Puzzle (Part 2)",
+      "last_mentioned_episode_date": "2026-09-25"
     },
     {
       "id": 256,
@@ -44805,9 +44824,59 @@ const dashboardData = {
     "source_name": "The a16z Show",
     "source_date": "2026-09-28",
     "key_tickers": []
+  },
+  "543": {
+    "id": 532,
+    "insight_id": 543,
+    "podcast_episode_id": 528,
+    "overview": "The complexities of U.S.-Iran relations extend beyond immediate military threats, as evidence shows that increased tensions could provoke reactions from other oil-producing states, potentially forming new alliances that disrupt existing market dynamics. Moreover, a diesel export ban could incentivize European nations to increase their reliance on Middle Eastern oil, leading to a reconfiguration of trade patterns and higher prices due to surging demand from unexpected sources. Specifically, if U.S. diesel supply contracts, markets may face delayed reactions as countries scramble to fulfill energy needs, resulting in abrupt price spikes that can destabilize both local and global economies.",
+    "key_takeaways_detailed": [],
+    "investment_thesis": "If the tensions between the U.S. and Iran lead to significant disruptions in oil supply as suggested, investors may experience notable volatility in global energy markets within a 3-6 month timeframe. In this scenario, energy-related investments such as oil futures and exploration companies could outperform. However, if diplomatic resolutions emerge or energy supplies stabilize, the anticipated price spikes might not materialize.",
+    "ticker_analysis": {
+      "NVDA": {
+        "rationale": "While not directly related to oil, Nvidia's AI technology advancements could support national security initiatives, reflective of the broader competitive landscape of U.S.-China tensions.",
+        "positioning": "",
+        "risk": ""
+      }
+    },
+    "positioning_guidance": "",
+    "risk_factors": [],
+    "contrarian_signals": [],
+    "catalysts": [],
+    "related_insights": null,
+    "audio_timestamp_start": null,
+    "audio_timestamp_end": null,
+    "transcript_excerpt": null,
+    "created_at": "2026-09-28T12:55:29.588546",
+    "updated_at": "2026-09-28 17:55:29",
+    "episode_evidence": "- \"Iran has essentially given the United States a one week ultimatum to either lift the military blockade or they will resume asymmetric escalations.\" - Michael Every\n- \"If you suddenly stop the U.S. exporting diesel, it doesn't just solve one problem. It creates lots of others in equal measure.\" - Michael Every",
+    "falsification_tracks": [
+      "A diplomatic agreement between the U.S. and Iran that significantly eases military tensions.",
+      "No significant disruption in oil supply or pricing in response to Iran's ultimatum.",
+      "An unexpected surge in U.S. diesel production countering export bans and stabilizing international markets.",
+      "Reports indicating Canada is strengthening defense ties with the U.S., reducing fears about military confrontation.",
+      "A slowdown in the U.S.-China rivalry, with both sides engaging in cooperative economic initiatives."
+    ],
+    "schema_version": 2,
+    "insight_title": "MacroVoices #551 Michael Every: Decoding The Global Geopolitical Puzzle (Part 2)",
+    "source_name": "Macro Voices",
+    "source_date": "2026-09-25",
+    "key_tickers": []
   }
 },
   suggestedTerms: [
+  {
+    "id": 783,
+    "term": "AI Arms Race",
+    "definition": "The competition between nations, particularly the U.S. and China, to achieve dominance in artificial intelligence technology.",
+    "investment_implications": "This matters for capital allocation as advancements in AI could redefine national security and economic power.",
+    "source_type": "auto_extracted",
+    "mention_count": 1,
+    "source_diversity": 1,
+    "relevance_score": 50,
+    "submitted_date": "2026-09-28 17:55:21",
+    "priority_score": 80
+  },
   {
     "id": 781,
     "term": "Superintelligence",
@@ -44842,18 +44911,6 @@ const dashboardData = {
     "source_diversity": 1,
     "relevance_score": 50,
     "submitted_date": "2026-09-27 19:13:26",
-    "priority_score": 80
-  },
-  {
-    "id": 777,
-    "term": "AI Accountability",
-    "definition": "The principle that companies must take responsibility for the safety and reliability of their AI products.",
-    "investment_implications": "Companies demonstrating strong accountability in AI development may gain consumer trust and market share.",
-    "source_type": "auto_extracted",
-    "mention_count": 1,
-    "source_diversity": 1,
-    "relevance_score": 50,
-    "submitted_date": "2026-09-26 04:33:52",
     "priority_score": 80
   }
 ],
@@ -45367,7 +45424,7 @@ const dashboardData = {
     "last_podcast_name": "The a16z Show",
     "last_episode_date": "2026-09-05",
     "mention_score": 3,
-    "mention_score_decayed": 1.8,
+    "mention_score_decayed": 1.76,
     "last_main_idea": "The winning AI infrastructure investments will be in open-weights-enabling platforms and model-agnostic orchestration layers, as enterprise adoption shifts from single-model dependence to intelligent routing across specialized models.",
     "last_proof_cite": "The a16z Show \u2022 2026-09-05 \u2022 Aaron Levie on Why Open AI Wins",
     "last_proof_snippet": "Openweight AI is often framed as a threat to frontier labs. Aaron Levy thinks that kits the economics backwards. The box co-founder and CEO joins the OJFI and Sofia Puccini on MTS to discuss why open models could make the AI ecosystem more",
