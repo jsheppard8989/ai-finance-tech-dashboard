@@ -1,5 +1,21 @@
 [
   {
+    "id": 529,
+    "podcast_name": "Moonshots with Peter Diamandis",
+    "episode_title": "Palmer Luckey: Autonomous Weapons Are Ancient and Why Anduril Won't Build Humanoids  | Moonshots Live | EP #295",
+    "episode_date": "2026-09-28",
+    "summary": "In this episode, Palmer Luckey discusses the transformative potential of AI and the decentralization of the defense industry through his company, Androle Industries. He emphasizes the importance of specialization in defense technology and the role of practical experience in organizational leadership, while predicting significant cost reductions across various sectors due to AI advancements.",
+    "key_takeaways": [
+      "Palmer Luckey argues that Androle Industries operates as a product company, allowing for faster innovation and delivery compared to traditional contractors.",
+      "Luckey predicts that AI will significantly lower costs across industries, similar to automation's impact on agriculture.",
+      "He claims that defense technologies will require specialized systems, as generalized solutions may not meet military demands.",
+      "Luckey emphasizes the importance of hands-on experience in building organizations and managing teams for effective leadership.",
+      "He critiques the current state of AI development, suggesting it will not replace the core responsibilities of founders and leaders."
+    ],
+    "investment_thesis": "Palmer Luckey predicts that AI will massively reduce costs in resource extraction and processing, transforming various sectors.",
+    "key_tickers": null
+  },
+  {
     "id": 527,
     "podcast_name": "The a16z Show",
     "episode_title": "AI Can Write Code. Why Isn\u2019t Software Better?",
