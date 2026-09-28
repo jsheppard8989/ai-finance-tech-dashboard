@@ -129,6 +129,7 @@ def measurement_row(name: Mapping, bars: Optional[List[dict]], prev: date, bars_
         "origin": list(name.get("origin") or []),
         "spread": to_float(name.get("spread")),
         "spread_source": name.get("spread_source"),
+        "quote_source": name.get("quote_source"),
         "mid": to_float(name.get("mid")),
         "mid_source": name.get("mid_source"),
         "bid": to_float(name.get("bid")),
@@ -241,6 +242,15 @@ def run_prep(
             rows.append(row)
         if unavailable == len(rows):
             raise JobError(f"no admitted name has usable bars through {prev}; prep not written")
+        chart = sorted(r["ticker"] for r in rows if r.get("quote_source") == "chart_last_fallback")
+        mix = {
+            "real_spread": sum(1 for r in rows if r.get("spread_source") == "yahoo"),
+            "modeled": sum(1 for r in rows if r.get("spread_source") != "yahoo"),
+            "chart_fallback": len(chart),
+            "chart_fallback_names": chart,
+        }
+        log.info("prep %s quotes: %d real spread, %d modeled, %d via chart-last fallback %s",
+                 ds, mix["real_spread"], mix["modeled"], len(chart), chart)
         as_of = core.iso(now)
         measurements = {
             "schema": MEASUREMENTS_SCHEMA,
@@ -252,13 +262,15 @@ def run_prep(
             "contract": ("engine reads sector, spread, spread_source, provisional and bars per row "
                          "(dragonfly/engine/measure.py); price/atr/adv_dollars/relative_volume are "
                          "setup_gates.core_measurements through previous_session, informational"),
-            "counts": {"names": len(rows), "bars_refreshed": refreshed, "unavailable": unavailable},
+            "counts": {"names": len(rows), "bars_refreshed": refreshed, "unavailable": unavailable,
+                       "quotes": mix},
             "names": rows,
         }
         wl_snapshot = {k: v for k, v in wl.items() if k != "names"}
         wl_snapshot["names"] = [
             {k: n.get(k) for k in ("ticker", "rank", "sector", "sector_rank", "market_cap", "origin", "price",
-                                   "adv20_dollars", "mid", "spread", "spread_source", "mid_source", "provisional")}
+                                   "adv20_dollars", "mid", "spread", "spread_source", "mid_source", "quote_source",
+                                   "provisional")}
             for n in names
         ]
         prep = {
@@ -272,6 +284,7 @@ def run_prep(
             "tickers": [n["ticker"] for n in names],
             "measurements_file": MEASUREMENTS_NAME,
             "measurement_problems": {r["ticker"]: r["unavailable"] for r in rows if "unavailable" in r},
+            "quotes": mix,
             "watchlist": wl_snapshot,
         }
         write_json(out_dir / MEASUREMENTS_NAME, measurements)
@@ -287,4 +300,4 @@ def run_prep(
             book = mark_flat_book(Path(book_path) if book_path else core.default_book_path(), real_now(), prev_close)
         log.info("book mark: %s", book)
         return {"session_date": ds, "handoff": rel_dir, "files": paths, "names": len(rows),
-                "bars_refreshed": refreshed, "unavailable": unavailable, "book_mark": book}
+                "bars_refreshed": refreshed, "unavailable": unavailable, "quotes": mix, "book_mark": book}

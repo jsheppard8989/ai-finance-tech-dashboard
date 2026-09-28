@@ -26,12 +26,13 @@ os.environ["DRAGONFLY_PIPELINE_LOCK"] = os.path.join(_TMP, "no-such.lock")
 os.environ["DRAGONFLY_ALLOW_DAEMON_WINDOW"] = "1"
 
 from dragonfly import guards  # noqa: E402
-from dragonfly.build_watchlist import _quote_parts, select_watchlist, yahoo_quote_full  # noqa: E402
+from dragonfly.build_watchlist import _quote_parts, select_watchlist, with_chart_fallback, yahoo_quote_full  # noqa: E402
 from dragonfly.risk_math import (  # noqa: E402
     MODELED_SPREAD,
     paper_buy_fill,
     QUOTE_MAX_AGE,
     in_regular_session,
+    is_modeled_spread,
     paper_entry_fill,
     paper_fill,
     paper_sell_fill,
@@ -347,6 +348,65 @@ def test_full_quote_fetcher_guarded() -> None:
         lock.unlink()
 
 
+def test_chart_fallback() -> None:
+    """Quote lookup empty / 401 / 429 -> the chart's last price, modeled $0.05, visible."""
+    chart_calls = []
+
+    def chart(t):
+        chart_calls.append(t)
+        if t == "DEAD":
+            raise RuntimeError("chart down too")
+        return 50.0, 1790366400.0
+
+    def info(t):
+        if t == "CRUMB":
+            raise RuntimeError("HTTP Error 401: Invalid Crumb")
+        if t == "RATE":
+            raise RuntimeError("429 Too Many Requests")
+        if t in ("EMPTY", "DEAD"):
+            return {"bid": None, "ask": None, "last": None, "quote_time": None}
+        if t == "ZERO":
+            return {"bid": 0, "ask": 0, "last": None}
+        return {"bid": 60.0, "ask": 60.02, "last": 60.01, "quote_time": 1790366401}
+
+    good = with_chart_fallback("GOOD", info, chart)
+    check(good["quote_source"] == "yahoo_info" and good["bid"] == 60.0 and chart_calls == [], "good info quote kept, chart not called")
+    for t in ("CRUMB", "RATE", "EMPTY", "ZERO"):
+        q = with_chart_fallback(t, info, chart)
+        check(q["quote_source"] == "chart_last_fallback" and q["last"] == 50.0 and q["bid"] is None
+              and q["ask"] is None and q["quote_time"] == 1790366400.0 and q["info_error"], f"{t}: chart-last fallback")
+        r = resolve_quote(q["bid"], q["ask"], q["last"])
+        check(r["usable"] and r["spread_source"] == "modeled_last_0.05" and r["provisional"] is True,
+              f"{t}: modeled_last_0.05, provisional")
+        check(is_modeled_spread(r["spread_source"]), f"{t}: fallback quote is modeled (live-blocked)")
+    check("401" in with_chart_fallback("CRUMB", info, chart)["info_error"], "401 error kept for the record")
+    dead = with_chart_fallback("DEAD", info, chart)
+    check(dead["quote_source"] == "none" and dead["last"] is None and dead["chart_error"], "chart failure -> unusable")
+
+    def blocked(t):
+        raise guards.GuardBlocked("lock")
+    for fn, label in ((lambda: with_chart_fallback("X", blocked, chart), "guard stop in info propagates"),
+                      (lambda: with_chart_fallback("EMPTY", info, blocked), "guard stop in chart propagates")):
+        try:
+            fn()
+        except guards.GuardBlocked:
+            check(True, label)
+        else:
+            check(False, label)
+
+    rows = [_row(t, 9e9 - i * 1e8) for i, t in enumerate(("GOOD", "CRUMB", "RATE", "EMPTY", "DEAD"))]
+    res = select_watchlist(rows, lambda t: with_chart_fallback(t, info, chart), cap=10, batch=5, workers=1,
+                           spread_mode="modeled")
+    names = {n["ticker"]: n for n in res["names"]}
+    check(sorted(names) == ["CRUMB", "EMPTY", "GOOD", "RATE"], "fallback names admitted, chart failure excluded")
+    check(res["chart_fallback_names"] == ["CRUMB", "EMPTY", "RATE"], "fallback names listed")
+    check(res["funnel"]["quote_chart_fallback"] == 3, "fallback counted in the funnel")
+    check(names["GOOD"]["quote_source"] == "yahoo_info" and names["GOOD"]["spread_source"] == "yahoo", "real quote tagged")
+    check(all(names[t]["spread_source"] == "modeled_last_0.05" and names[t]["quote_source"] == "chart_last_fallback"
+              for t in ("CRUMB", "RATE", "EMPTY")), "fallback rows tagged modeled_last_0.05 / chart_last_fallback")
+    check(res["excluded"]["DEAD"] == "no_usable_mid_or_last", "chart failure excluded as no_usable_mid_or_last")
+
+
 def main() -> None:
     test_resolve_quote()
     test_fills()
@@ -354,6 +414,7 @@ def main() -> None:
     test_governor()
     test_selection()
     test_full_quote_fetcher_guarded()
+    test_chart_fallback()
     print(f"dragonfly phase1 modeled spread: all {CHECKS} checks passed (offline)")
 
 

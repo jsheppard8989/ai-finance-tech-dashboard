@@ -196,7 +196,7 @@ class World:
         real = real or (mc.session_close(self.prev) + timedelta(minutes=30))
         return pr.run_prep(self.mac, now=real, date_arg=kw.pop("date_arg", self.ds), handoff_root=root,
                            state=self.state, book_path=self.book_path, preflight=_fake_preflight,
-                           build_fn=self.build_fn, load_fn=self.load_fn, refresh_fn=self.refresh_fn,
+                           build_fn=kw.pop("build_fn", self.build_fn), load_fn=self.load_fn, refresh_fn=self.refresh_fn,
                            real_now=lambda: real, **kw)
 
     def preopen(self, root="handoff", at=None, **kw):
@@ -356,7 +356,10 @@ def test_ready_last():
           "READY lists every handoff file")
     check(ready["as_of"] == core.iso(ct(D, 8, 5)), "READY as_of on the job clock")
     q = w.remote_json(f"{rel}/quotes.json")
-    check(q["counts"] == {"names": 3, "usable": 3, "cache_hits": 0}, "quotes for admitted names only")
+    check({k: v for k, v in q["counts"].items() if k != "quotes"} == {"names": 3, "usable": 3, "cache_hits": 0},
+          "quotes for admitted names only")
+    check(q["counts"]["quotes"] == {"real_spread": 3, "modeled": 0, "chart_fallback": 0, "chart_fallback_names": []},
+          "all-real quote mix")
     check(sorted(w.quote_calls) == sorted(list(TICKERS) + list(po.MARKET_CONTEXT)), "admitted names + market context only")
     row = q["names"][0]
     check(row["spread_source"] == "yahoo" and row["mid"] == 85.12 and row["gap_pct"] == round(85.12 / 84.3 - 1, 6),
@@ -398,6 +401,52 @@ def test_quotes_modeled_cache_and_failures():
     check(raises(lambda: w2.preopen(quote_fn=lambda t: (_ for _ in ()).throw(RuntimeError("down"))),
                  contains="no usable pre-market quote"), "all quotes failed")
     check(not any(p.endswith("READY") for p in w2.remote_files()), "no READY without quotes")
+
+
+def test_chart_fallback_visible():
+    """Quote lookup 401/429/empty -> chart last, counted and listed in prep and preopen output."""
+    from dragonfly import build_watchlist as bw
+
+    w = World("chartfb")
+
+    def build_fn(out, universe_path):
+        doc = World.build_fn(w, out, universe_path)
+        for n in doc["names"]:
+            if n["ticker"] == "AAA":
+                n.update(spread_source="yahoo", quote_source="yahoo_info")
+            else:
+                n.update(spread_source="modeled_last_0.05", quote_source="chart_last_fallback")
+        return doc
+
+    out = w.prep(build_fn=build_fn)
+    fb = sorted(t for t in TICKERS if t != "AAA")
+    check(out["quotes"] == {"real_spread": 1, "modeled": len(TICKERS) - 1, "chart_fallback": len(fb),
+                            "chart_fallback_names": fb}, f"prep result counts real vs modeled {out['quotes']}")
+    prep = w.remote_json(f"handoff/{DS}/prep.json")
+    meas = w.remote_json(f"handoff/{DS}/measurements.json")
+    check(prep["quotes"]["chart_fallback_names"] == fb and meas["counts"]["quotes"]["real_spread"] == 1,
+          "prep.json + measurements.json carry the quote mix")
+    check({r["ticker"]: r["quote_source"] for r in meas["names"]}["AAA"] == "yahoo_info", "measurement rows tagged")
+
+    def info(t):
+        if t == "BBB":
+            raise RuntimeError("HTTP Error 401: Invalid Crumb")
+        if t == "CCC":
+            return {"bid": None, "ask": None, "last": None}
+        return w.quote_fn(t)
+
+    chart = lambda t: (85.2, ct(w.session, 8, 3).timestamp())  # noqa: E731
+    res = w.preopen(quote_fn=lambda t: bw.with_chart_fallback(t, info, chart))
+    q = w.remote_json(f"handoff/{DS}/quotes.json")
+    rows = {r["ticker"]: r for r in q["names"]}
+    check(rows["BBB"]["quote_source"] == "chart_last_fallback" and rows["BBB"]["spread_source"] == "modeled_last_0.05"
+          and rows["BBB"]["usable"] and rows["BBB"]["provisional"], "preopen 401 -> chart last, modeled_last_0.05")
+    check(rows["AAA"]["quote_source"] == "yahoo_info" and rows["AAA"]["spread_source"] == "yahoo", "real quote kept")
+    mix = q["counts"]["quotes"]
+    check(mix == {"real_spread": 1, "modeled": 2, "chart_fallback": 2, "chart_fallback_names": ["BBB", "CCC"]},
+          f"quotes.json counts real vs modeled {mix}")
+    check(res["quotes"] == mix, "preopen result carries the quote mix")
+    check(po.yahoo_preopen_quote is not None and callable(bw.chart_last), "live fetchers wired")
 
 
 def test_dry_run_roots():
@@ -611,6 +660,7 @@ def main():
         test_preopen_book_stale,
         test_ready_last,
         test_quotes_modeled_cache_and_failures,
+        test_chart_fallback_visible,
         test_dry_run_roots,
         test_preopen_calendar_and_clock,
         test_cli,

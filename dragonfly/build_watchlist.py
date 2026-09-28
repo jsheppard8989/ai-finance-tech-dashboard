@@ -254,7 +254,7 @@ def yahoo_quote(ticker: str) -> Quote:
     return info.get("bid"), info.get("ask")
 
 
-def yahoo_quote_full(ticker: str) -> Dict[str, Optional[float]]:
+def _yahoo_info_quote(ticker: str) -> Dict[str, Optional[float]]:
     """bid, ask and last trade from one yfinance info call (guarded)."""
     guards.before_fetch()  # pipeline lock + daemon window
     import yfinance as yf  # lazy
@@ -275,6 +275,78 @@ def yahoo_quote_full(ticker: str) -> Dict[str, Optional[float]]:
         # for AAPL), so halt status is unknown here, never fabricated.
         "halted": None,
     }
+
+
+# Quote-lookup fallback (Jared 2026-09-28, PAPER ONLY). Yahoo's quote endpoint
+# (yfinance .info) needs a crumb; when the crumb fetch is rate-limited (429) or
+# rejected (401 Invalid Crumb) .info comes back empty. The chart endpoint still
+# answers, so the chart's last price becomes the last trade with no bid/ask,
+# and risk_math.resolve_quote applies the existing rule: modeled $0.05 spread
+# around the last trade (spread_source modeled_last_0.05, provisional,
+# live-blocked). Every such name is tagged quote_source chart_last_fallback.
+QUOTE_SOURCE_INFO = "yahoo_info"
+QUOTE_SOURCE_CHART = "chart_last_fallback"
+QUOTE_SOURCE_NONE = "none"
+
+
+def _positive_or_none(v) -> Optional[float]:
+    f = _float_or_none(v)
+    return f if f is not None and f > 0 else None
+
+
+def quote_is_empty(q: Optional[Mapping]) -> bool:
+    """No last trade and no two-sided bid/ask: the lookup gave nothing usable."""
+    if not q:
+        return True
+    return _positive_or_none(q.get("last")) is None and (
+        _positive_or_none(q.get("bid")) is None or _positive_or_none(q.get("ask")) is None
+    )
+
+
+def chart_last(ticker: str) -> Tuple[float, float]:
+    """(last price, epoch seconds) from Yahoo's chart endpoint (no crumb needed).
+    1-minute bars incl. extended hours for the latest day; else the last daily close."""
+    guards.before_fetch()
+    import yfinance as yf  # lazy
+
+    tk = yf.Ticker(ticker)
+    for kwargs in ({"period": "1d", "interval": "1m", "prepost": True}, {"period": "5d", "interval": "1d"}):
+        frame = tk.history(auto_adjust=False, actions=False, **kwargs)
+        if frame is not None and len(frame):
+            frame = frame.dropna(subset=["Close"])
+        if frame is not None and len(frame):
+            close = float(frame["Close"].iloc[-1])
+            if close > 0:
+                return close, float(frame.index[-1].timestamp())
+    raise RuntimeError("chart returned no price")
+
+
+def with_chart_fallback(ticker: str, info_quote_fn: Callable, chart_fn: Callable = chart_last) -> dict:
+    """info quote, else (empty / exception such as 401 or 429) the chart's last price."""
+    err = None
+    try:
+        q = info_quote_fn(ticker)
+    except guards.GuardBlocked:
+        raise
+    except Exception as exc:  # 401 Invalid Crumb, 429, network
+        q, err = None, f"{type(exc).__name__}: {str(exc)[:160]}"
+    if not quote_is_empty(q):
+        return dict(q, quote_source=QUOTE_SOURCE_INFO)
+    base = dict(q or {})
+    base["info_error"] = err or "empty_quote"
+    try:
+        last, ts = chart_fn(ticker)
+    except guards.GuardBlocked:
+        raise
+    except Exception as exc:
+        return dict(base, quote_source=QUOTE_SOURCE_NONE, chart_error=f"{type(exc).__name__}: {str(exc)[:160]}")
+    return dict(base, bid=None, ask=None, last=last, quote_time=ts, last_source="chart",
+                quote_source=QUOTE_SOURCE_CHART)
+
+
+def yahoo_quote_full(ticker: str) -> Dict[str, Optional[float]]:
+    """bid, ask and last trade (guarded): the info quote, with the chart-last fallback."""
+    return with_chart_fallback(ticker, _yahoo_info_quote)
 
 
 def _quote_parts(q) -> Tuple[Optional[float], Optional[float], Optional[float]]:
@@ -469,6 +541,7 @@ def _select_modeled(rows, quote_fn, cap, batch, workers) -> dict:
                     "last_trade": _float_or_none(last),
                     "quote_time": q.get("quote_time") if isinstance(q, Mapping) else None,
                     "market_state": q.get("market_state") if isinstance(q, Mapping) else None,
+                    "quote_source": (q.get("quote_source") or QUOTE_SOURCE_INFO) if isinstance(q, Mapping) else QUOTE_SOURCE_INFO,
                 }
             )
     for r in shortlist[i:]:
@@ -492,7 +565,9 @@ def _select_modeled(rows, quote_fn, cap, batch, workers) -> dict:
             "admitted_by_spread_source": dict(sorted(by_source.items())),
             "mid_from_last_trade": sum(1 for n in admitted if n["mid_source"] == "last_trade"),
             "mid_unverified": sum(1 for n in admitted if n["mid_source"] == "quote_mid_unverified"),
+            "quote_chart_fallback": sum(1 for n in admitted if n.get("quote_source") == QUOTE_SOURCE_CHART),
         },
+        "chart_fallback_names": sorted(n["ticker"] for n in admitted if n.get("quote_source") == QUOTE_SOURCE_CHART),
         "excluded_summary": dict(sorted(summary.items())),
     }
 
@@ -785,6 +860,7 @@ def build(
         "pinned": result["pinned"],
         "names": result["names"],
         "quote_fallbacks": result.get("fallbacks", {}),
+        "quote_chart_fallback_names": result.get("chart_fallback_names", []),
         "excluded": result["excluded_members"],
     }
     out.write_text(json.dumps(doc, indent=1) + "\n", encoding="utf-8")

@@ -47,6 +47,15 @@ def _epoch(value) -> Optional[float]:
 
 
 def yahoo_preopen_quote(ticker: str) -> dict:
+    """Guarded quote: the info quote, else (empty, 401 Invalid Crumb, 429) the
+    chart's last price (quote_source chart_last_fallback; risk_math then models
+    $0.05 around it: modeled_last_0.05, provisional, live-blocked)."""
+    from dragonfly import build_watchlist as bw
+
+    return bw.with_chart_fallback(ticker, _yahoo_info_preopen, bw.chart_last)
+
+
+def _yahoo_info_preopen(ticker: str) -> dict:
     """One guarded yfinance info call: bid/ask plus the freshest last trade
     (pre-market, regular or post-market, whichever printed last)."""
     from dragonfly import guards
@@ -95,6 +104,7 @@ def resolve_row(ticker: str, raw: Mapping, prev_close: Optional[float], now: dat
         "yahoo_ask": to_float(raw.get("ask")),
         "last_trade": to_float(raw.get("last")),
         "last_source": raw.get("last_source"),
+        "quote_source": raw.get("quote_source") or "yahoo_info",
         "quote_time": raw.get("quote_time"),
         "quote_time_ct": _iso_epoch(raw.get("quote_time")),
         "market_state": raw.get("market_state"),
@@ -107,6 +117,19 @@ def resolve_row(ticker: str, raw: Mapping, prev_close: Optional[float], now: dat
     if row["mid"] and prev_close:
         row["gap_pct"] = round(row["mid"] / prev_close - 1.0, 6)
     return row
+
+
+def quote_mix(rows: List[Mapping]) -> dict:
+    """How many usable quotes were real (Yahoo bid/ask passed the spread gate)
+    vs modeled, and which names fell back to the chart's last price."""
+    use = [r for r in rows if r.get("usable")]
+    chart = sorted(r["ticker"] for r in rows if r.get("quote_source") == "chart_last_fallback")
+    return {
+        "real_spread": sum(1 for r in use if r.get("spread_source") == "yahoo"),
+        "modeled": sum(1 for r in use if r.get("spread_source") != "yahoo"),
+        "chart_fallback": len(chart),
+        "chart_fallback_names": chart,
+    }
 
 
 class QuoteCache:
@@ -289,7 +312,8 @@ def run_preopen(
             "quote_model": "risk_math.resolve_quote: Yahoo bid/ask if it passes the spread gate, else modeled $0.05 "
                            "around the mid or the freshest last trade (paper only; live-blocked)",
             "last_trade_rule": "freshest of pre-market, regular and post-market prints (last_source)",
-            "counts": {"names": len(rows), "usable": usable, "cache_hits": sum(1 for r in rows if r.get("cache_hit"))},
+            "counts": {"names": len(rows), "usable": usable, "cache_hits": sum(1 for r in rows if r.get("cache_hit")),
+                       "quotes": quote_mix(rows)},
             "names": rows,
             "market_context": {"note": "best effort, not a contract input", "quotes": market},
         }
@@ -319,6 +343,7 @@ def run_preopen(
                                           handoff_root=handoff_root)
         log.info("READY %s/READY written (%d files)", rel_dir, len(ready["files"]))
         result = {"session_date": ds, "handoff": rel_dir, "usable": usable, "names": len(rows),
+                  "quotes": quotes["counts"]["quotes"],
                   "ready": f"{rel_dir}/READY", "ready_files": [f["path"] for f in ready["files"]],
                   "ready_as_of": ready["as_of"], "pushed_at_real": core.iso(real_now())}
     # ---- after READY (and outside the job lock): start the engine, fully detached
