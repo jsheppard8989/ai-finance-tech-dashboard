@@ -552,7 +552,19 @@ so a dry run never leaks first-seen times into the real run for that date. A
 `run` loop for a `--date` that is not today refuses (exit 2) unless `--now`
 is given.
 `--no-push` writes files only (no commit, no push). Exit codes: 0 ok (also a
-non-session day), 1 loop ended without DONE, 2 engine error.
+non-session day), 1 loop ended without DONE, 2 engine error or crash.
+
+**Status markers (run loop).** At launch, before sleeping to 08:08, the loop
+writes and pushes `<handoff-root>/<date>/cards/ENGINE_STARTED` (pid, host,
+engine version, roots, argv, wall clock and engine clock, the window);
+`last_pass_at` in it is refreshed whenever the engine commits cards or DONE
+anyway (no extra commit per poll). On a crash, on a pass that fails (for
+example a push still rejected after the rebase retries), or when the window
+ends without DONE, it writes `cards/ENGINE_ERROR` (stage `crash` / `pass` /
+`no_done`, the error, `error_count`, and the last 40 traceback lines) and
+pushes it best-effort. If that push fails too, the file stays on disk and the
+next successful push carries it; the marker code never raises. `--once` writes
+neither ENGINE_STARTED nor (unless it crashes) ENGINE_ERROR.
 
 ## Book state — `dragonfly/state/live/book.json`
 

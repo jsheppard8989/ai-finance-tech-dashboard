@@ -156,8 +156,12 @@ Every Dragonfly network fetch (bars, chains, watchlist quotes) calls
   (`beyond_cap` can only occur if `--cap` is set below the universe size.)
 - **Paper quote model (default, `--spread-mode modeled`, PAPER ONLY; Jared,
   2026-09-25).** Each name's quote is resolved by `risk_math.resolve_quote`:
-  1. Yahoo bid/ask passes the spread gate as-is → real quote,
-     `spread_source: "yahoo"`.
+  1. Yahoo bid/ask passes the spread gate as-is **and** its mid is within
+     the gate width of Yahoo's last trade (when there is one) → real quote,
+     `spread_source: "yahoo"`. A gate-passing quote whose mid is far from
+     last (QQQ 717.24/717.49 vs last 745.40, dry run #2) is not trusted: it
+     goes to step 3 and last becomes the mid (`fallback_reason:
+     "quote_passes_gate+mid_far_from_last"`).
   2. Crossed, zero, missing, or gate-fail → mid = (bid+ask)/2, modeled
      bid/ask = mid ∓ $0.025, `spread_source: "modeled_mid_0.05"`,
      `provisional: true`.

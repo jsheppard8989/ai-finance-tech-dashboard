@@ -26,12 +26,15 @@ from __future__ import annotations
 import json
 import logging
 import os
+import platform
 import time
+import traceback
 from datetime import date, datetime, timedelta
 from pathlib import Path
 from typing import Callable, Dict, List, Optional, Tuple
 
 from dragonfly import market_calendar as mc
+from dragonfly.engine import ENGINE_VERSION
 from dragonfly.engine import core, measure
 from dragonfly.engine.core import (
     DRAFT_SUFFIX,
@@ -49,6 +52,9 @@ log = logging.getLogger("dragonfly.engine")
 
 UNIDENTIFIED_DIR = "unidentified"
 DONE_NAME = "DONE"
+STARTED_NAME = "ENGINE_STARTED"
+ERROR_NAME = "ENGINE_ERROR"
+TRACEBACK_TAIL_LINES = 40
 
 
 def _atomic_write(path: Path, text: str) -> None:
@@ -98,6 +104,9 @@ class Engine:
         self.inbox_dir = self.repo_path / self.inbox_rel
         self.cards_dir = self.repo_path / self.cards_rel
         self.done_path = self.cards_dir / DONE_NAME
+        self.started_path = self.cards_dir / STARTED_NAME
+        self.error_path = self.cards_dir / ERROR_NAME
+        self._errors = 0
         # Separate local state per root pair, so a dry run for a date never
         # leaks first-seen times into the real run for that date.
         suffix = "" if self.handoff_root == core.DEFAULT_HANDOFF_ROOT else f".{self.handoff_root}"
@@ -233,6 +242,7 @@ class Engine:
         result["done"] = done
 
         if self.git is not None and self.push and (result["written"] or done):
+            self._touch_heartbeat(tick)
             msg = self._commit_message(result["written"], done)
             self.git.commit_and_push([self.cards_rel], msg, push=True)
             result["pushed"] = True
@@ -485,6 +495,85 @@ class Engine:
             parts.append(f"DONE r{done['revision']} (sized {c['sized']}, rejected {c['rejected']}, late {c['late']})")
         return f"engine {self.session_date}: " + "; ".join(parts)
 
+    # ------------------------------------------------------------ status markers
+    def _status_base(self, marker: str) -> dict:
+        return {"marker": marker, "session_date": self.session_date.isoformat(), "engine_version": ENGINE_VERSION,
+                "handoff_root": self.handoff_root, "inbox_root": self.inbox_root, "pid": os.getpid(),
+                "host": platform.node(), "wall_clock": iso(datetime.now().astimezone(core.tz()).replace(microsecond=0)),
+                "engine_clock": iso(self.now_fn().replace(microsecond=0))}
+
+    def _push_status(self, path: Path, message: str) -> bool:
+        """Commit + push one marker. Never raises; returns whether it reached the remote."""
+        if self.git is None or not self.push:
+            return False
+        try:
+            self.git.commit_and_push([self.cards_rel], message, push=True)
+            return True
+        except Exception as exc:  # noqa: BLE001 - a status marker must never crash the engine
+            log.error("could not push %s: %s (left on disk; the next successful push carries it)",
+                      path.name, exc)
+            return False
+
+    def announce_start(self, argv: Optional[List[str]] = None) -> dict:
+        """cards/ENGINE_STARTED, pushed at launch (before the sleep to 08:08).
+
+        last_pass_at is refreshed whenever the engine commits cards or DONE
+        anyway (no extra commits per poll)."""
+        doc = self._status_base(STARTED_NAME)
+        doc.update(started_at=doc["engine_clock"], last_pass_at=None, argv=list(argv or []),
+                   window={"start": iso(self.clock.start), "cutoff": iso(self.clock.cutoff), "end": iso(self.clock.end)})
+        _atomic_write(self.started_path, core.dumps(doc))
+        log.info("%s written for %s (pid %s)", STARTED_NAME, self.session_date, doc["pid"])
+        if self.git is not None and self.push:
+            doc["pushed"] = self._push_status(self.started_path, f"engine {self.session_date}: started (pid {doc['pid']})")
+        return doc
+
+    def _touch_heartbeat(self, tick: datetime) -> None:
+        if not self.started_path.exists():
+            return
+        try:
+            doc = json.loads(self.started_path.read_text(encoding="utf-8"))
+        except (OSError, ValueError):
+            return
+        doc["last_pass_at"] = iso(tick)
+        doc.pop("pushed", None)
+        _atomic_write(self.started_path, core.dumps(doc))
+
+    def report_error(self, stage: str, exc: BaseException, tb: Optional[str] = None) -> dict:
+        """cards/ENGINE_ERROR with the traceback tail; pushed best-effort. Never raises."""
+        self._errors += 1
+        tb = tb if tb is not None else "".join(traceback.format_exception(type(exc), exc, exc.__traceback__))
+        doc = self._status_base(ERROR_NAME)
+        doc.update(stage=stage, error=f"{type(exc).__name__}: {exc}", error_count=self._errors,
+                   traceback_tail=tb.rstrip().splitlines()[-TRACEBACK_TAIL_LINES:])
+        try:
+            _atomic_write(self.error_path, core.dumps(doc))
+        except OSError as werr:
+            log.error("could not write %s: %s", ERROR_NAME, werr)
+            return doc
+        log.error("%s (%s): %s", ERROR_NAME, stage, doc["error"])
+        doc["pushed"] = self._push_status(self.error_path, f"engine {self.session_date}: ENGINE_ERROR ({stage})")
+        return doc
+
+    def run_guarded(self, once: bool = False, argv: Optional[List[str]] = None) -> int:
+        """What the CLI runs: ENGINE_STARTED at launch, ENGINE_ERROR on a crash.
+
+        once: a single pass (no ENGINE_STARTED). Exit codes: loop's 0/1, 2 on
+        an engine error or crash."""
+        try:
+            if once:
+                self.last_result = self.run_pass()
+                return 0
+            self.announce_start(argv)
+            rc = self.run_loop()
+            if rc == 1:
+                self.report_error("no_done", EngineError("window ended without a DONE marker"), tb="")
+            return rc
+        except Exception as exc:  # noqa: BLE001 - crash path: record, push, exit 2
+            log.exception("engine crashed")
+            self.report_error("crash", exc)
+            return 2
+
     # ------------------------------------------------------------ loop
     def next_tick(self, tick: datetime) -> datetime:
         step = timedelta(seconds=self.poll_seconds)
@@ -529,6 +618,8 @@ class Engine:
             except EngineError as exc:
                 failures += 1
                 log.error("pass at %s failed: %s", iso(tick), exc)
+                # e.g. a push that still fails after the rebase retries
+                self.report_error("pass", exc)
             if tick >= self.clock.end:
                 break
             nxt = self.next_tick(tick)

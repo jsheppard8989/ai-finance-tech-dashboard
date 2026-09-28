@@ -107,6 +107,18 @@ def test_resolve_quote() -> None:
     r = resolve_quote(20.30, 20.00, 20.06)  # crossed, mid 20.15, |0.09| > 0.05
     check(r["spread_source"] == "modeled_last_0.05", "low price sanity swap")
 
+    # accepted Yahoo quote is sanity-checked against last too (QQQ, dry run #2)
+    r = resolve_quote(717.24, 717.49, 745.40)  # spread 0.25 passes the gate; mid 717.365 is 28.04 off last
+    check(r["usable"] and r["spread_source"] == "modeled_last_0.05", "QQQ: gate-passing quote far from last -> modeled_last")
+    check(r["mid"] == D("745.4") and r["mid_source"] == "last_trade", "QQQ: last trade becomes the mid")
+    check(r["bid"] == D("745.375") and r["ask"] == D("745.425"), "QQQ: modeled around last")
+    check(r["fallback_reason"] == "quote_passes_gate+mid_far_from_last", "QQQ: reason names the sanity check")
+    check(r["yahoo_bid"] == 717.24 and r["yahoo_ask"] == 717.49, "QQQ: raw Yahoo quote kept for audit")
+    r = resolve_quote(717.24, 717.49, 717.40)  # same quote, last next to mid -> real quote
+    check(r["spread_source"] == "yahoo" and r["mid"] == D("717.365"), "gate-passing quote near last stays yahoo")
+    r = resolve_quote(20.00, 20.05, 20.20)  # mid 20.025, |0.175| > $0.05 floor -> last
+    check(r["spread_source"] == "modeled_last_0.05", "low-price yahoo quote far from last -> last")
+
     # mid usable, no last trade: admitted but unverified (only exclude when both missing)
     r = resolve_quote(99.80, 100.20, None)
     check(r["usable"] and r["spread_source"] == "modeled_mid_0.05", "no last keeps modeled mid")

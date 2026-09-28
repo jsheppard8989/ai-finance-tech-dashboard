@@ -86,7 +86,7 @@ from dragonfly.engine import core  # noqa: E402
 from dragonfly.engine.cli import main as cli_main  # noqa: E402
 from dragonfly.engine.core import SessionClock  # noqa: E402
 from dragonfly.engine.engine import Engine  # noqa: E402
-from dragonfly.engine.gitops import PrivateRepo  # noqa: E402
+from dragonfly.engine.gitops import GitError, PrivateRepo  # noqa: E402
 from dragonfly.engine.markers import write_ready  # noqa: E402
 from dragonfly.engine.core import EngineError  # noqa: E402
 
@@ -1467,6 +1467,86 @@ def test_skipped_files_reported():
     check(any("ZERO drafts" in r.getMessage() and r.levelno == logging.WARNING for r in zrec), "zero-draft DONE warns")
 
 
+def test_started_and_error_markers():
+    """4a: ENGINE_STARTED pushed at launch (heartbeat refreshed on commits); ENGINE_ERROR on crash / push failure."""
+    w = World("status")
+    w.push_regime()
+    w.trade(1)
+    w.now = ct(8, 1)
+    e = Engine(w.mac, D, book_path=w.book_path, state_dir=w.state, now_fn=lambda: w.now,
+               sleep_fn=lambda sec: setattr(w, "now", w.now + timedelta(seconds=sec)), bars_dir=w.bars_dir,
+               watchlist_path=w.watchlist)
+    seen = {}
+    real_loop = e.run_loop
+
+    def loop_spy():
+        seen["started_at_launch"] = w.remote_file(f"handoff/{DS}/cards/ENGINE_STARTED")
+        return real_loop()
+
+    e.run_loop = loop_spy
+    check(e.run_guarded(argv=["run", "--date", DS]) == 0, "guarded loop exits 0")
+    st0 = json.loads(seen["started_at_launch"] or "{}")
+    check(st0.get("marker") == "ENGINE_STARTED" and st0.get("started_at") == ct(8, 1).isoformat()
+          and st0.get("last_pass_at") is None and st0.get("argv") == ["run", "--date", DS]
+          and st0["window"]["cutoff"] == ct(8, 20).isoformat(),
+          f"ENGINE_STARTED on the remote before the first pass (at launch): {st0}")
+    st = json.loads(w.remote_file(f"handoff/{DS}/cards/ENGINE_STARTED"))
+    check(st["last_pass_at"] is not None and core.parse_iso(st["last_pass_at"]) >= ct(8, 20),
+          f"heartbeat refreshed with the DONE commit: {st['last_pass_at']}")
+    check(w.remote_file(f"handoff/{DS}/cards/ENGINE_ERROR") is None, "no ENGINE_ERROR on a clean run")
+    check(w.done()["counts"]["sized"] == 1, "run itself unaffected")
+
+    # crash: pushed ENGINE_ERROR with the traceback tail, exit 2
+    w2 = World("crash")
+    w2.now = ct(8, 10)
+    e2 = w2.engine()
+
+    def boom(tick=None):
+        raise RuntimeError("synthetic crash in a pass")
+
+    e2.run_pass = boom
+    check(e2.run_guarded(argv=[]) == 2, "crash -> exit 2")
+    er = json.loads(w2.remote_file(f"handoff/{DS}/cards/ENGINE_ERROR") or "{}")
+    check(er.get("stage") == "crash" and er.get("error") == "RuntimeError: synthetic crash in a pass"
+          and any("synthetic crash" in ln for ln in er.get("traceback_tail", []))
+          and len(er["traceback_tail"]) <= 40, f"ENGINE_ERROR pushed with traceback tail: {er}")
+    check(w2.remote_file(f"handoff/{DS}/cards/ENGINE_STARTED") is not None, "ENGINE_STARTED pushed before the crash")
+
+    # a pass that fails (e.g. push rejected after retries) inside the loop: ENGINE_ERROR stage 'pass'
+    w3 = World("passfail")
+    w3.now = ct(8, 23, 30)
+    e3 = w3.engine()
+    real = e3.run_pass
+    calls = []
+
+    def flaky(tick=None):
+        calls.append(tick)
+        if len(calls) == 1:
+            raise GitError("git push still rejected after 5 rebases: synthetic")
+        return real(tick)
+
+    e3.run_pass = flaky
+    check(e3.run_guarded() == 0, "loop recovers on the next pass and writes DONE")
+    er3 = json.loads(w3.remote_file(f"handoff/{DS}/cards/ENGINE_ERROR") or "{}")
+    check(er3.get("stage") == "pass" and "push still rejected" in er3.get("error", ""), f"push failure reported: {er3}")
+
+    # push itself failing: ENGINE_ERROR stays on disk, nothing raises
+    w4 = World("nopush")
+    w4.now = ct(8, 10)
+    e4 = w4.engine()
+    git(w4.mac, "remote", "set-url", "origin", str(w4.base / "missing.git"))
+    doc = e4.report_error("pass", GitError("git push failed: synthetic"), tb="Traceback\nGitError: synthetic\n")
+    check(doc["pushed"] is False and (w4.mac / f"handoff/{DS}/cards/ENGINE_ERROR").exists(),
+          "unpushable ENGINE_ERROR left on disk, no exception")
+
+    # --once never writes ENGINE_STARTED
+    w5 = World("oncestatus")
+    w5.push_regime()
+    w5.now = ct(8, 12)
+    check(w5.engine().run_guarded(once=True) == 0 and w5.remote_file(f"handoff/{DS}/cards/ENGINE_STARTED") is None,
+          "--once: no ENGINE_STARTED")
+
+
 def main():
     tests = [
         test_examples_validate,
@@ -1498,6 +1578,7 @@ def main():
         test_fail_closed_schema,
         test_push_retry_and_sync,
         test_loop_timeline,
+        test_started_and_error_markers,
         test_ready_marker,
         test_cli_once,
         test_dry_run_roots,
