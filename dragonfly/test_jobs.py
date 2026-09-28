@@ -737,7 +737,8 @@ def test_session_launcher():
         m = json.loads(mf.read_text())
         check(m["watchdog_at"] == "2026-09-28T18:24:00-05:00" and m["status"] == "complete" and m["runner_pid"] == 11,
               f"watchdog armed at sim 08:27 = real 18:24 {m}")
-        check(abs(sleeps[0] - (23 * 60 + 5)) < 1, f"sleep until the watchdog {sleeps}")
+        check(max(sleeps) <= 15 and len(sleeps) == int((23 * 60 + 5) // 15) + 2,
+              f"sleeps until the watchdog in <=15 s wall-clock chunks ({len(sleeps)})")
         # real clock: watchdog at 08:27; prep failure stops the chain
         calls.clear()
         mf2 = ss.marker_file(st, date(2026, 9, 29), "handoff-smoke")

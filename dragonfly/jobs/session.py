@@ -41,6 +41,7 @@ from dragonfly.engine import core
 from dragonfly.jobs import engine_runner
 
 WATCH_AFTER_END = engine_runner.WATCHDOG_GRACE
+SLEEP_CHUNK = 15.0
 
 
 class SessionRefused(core.EngineError):
@@ -197,11 +198,16 @@ def run_chain(repo: Path, session_date: date, state: Path, fired_at: str, sim_st
         watch_real = fired + (watch_at_sim - core.parse_iso(sim_start))
     else:
         watch_real = watch_at_sim
-    wait = (watch_real - real_now()).total_seconds() + 5
+    deadline = watch_real + timedelta(seconds=5)
+    wait = (deadline - real_now()).total_seconds()
     mark(watchdog_at=core.iso(watch_real.replace(microsecond=0)))
     say(f"watchdog armed for {core.iso(watch_real.replace(microsecond=0))} (sleeping {max(0, int(wait))}s)")
-    if wait > 0:
-        sleep(wait)
+    # wall-clock sleep in 15 s chunks: a suspended box stops monotonic time
+    for _ in range(int(max(0.0, wait) // SLEEP_CHUNK) + 2):
+        remaining = (deadline - real_now()).total_seconds()
+        if remaining <= 0:
+            break
+        sleep(min(remaining, SLEEP_CHUNK))
     rc = job("watchdog")
     mark(status="complete" if rc == 0 else "watchdog_alert", watchdog_exit=rc)
     return 0 if rc == 0 else 1

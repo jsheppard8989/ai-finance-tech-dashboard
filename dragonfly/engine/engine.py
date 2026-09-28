@@ -52,6 +52,7 @@ log = logging.getLogger("dragonfly.engine")
 
 UNIDENTIFIED_DIR = "unidentified"
 DONE_NAME = "DONE"
+SLEEP_CHUNK_SECONDS = 15.0
 STARTED_NAME = "ENGINE_STARTED"
 ERROR_NAME = "ENGINE_ERROR"
 TRACEBACK_TAIL_LINES = 40
@@ -632,6 +633,20 @@ class Engine:
             nxt = self.clock.end
         return nxt
 
+    def _sleep_until(self, target: datetime) -> None:
+        """Sleep until the engine clock reaches `target`, in chunks of at most
+        SLEEP_CHUNK_SECONDS, re-reading the clock between chunks. time.sleep
+        counts monotonic time, which stops while the host is suspended (the
+        shared box pauses when idle: a single 275 s sleep once woke 16 minutes
+        late); chunking means the loop catches up within one chunk of any
+        resume. Bounded, so a frozen test clock cannot spin forever."""
+        wait = (target - self.now_fn()).total_seconds()
+        for _ in range(int(wait // SLEEP_CHUNK_SECONDS) + 2):
+            remaining = (target - self.now_fn()).total_seconds()
+            if remaining <= 0:
+                return
+            self.sleep_fn(min(remaining, SLEEP_CHUNK_SECONDS))
+
     def run_loop(self) -> int:
         """Poll from start to end. Exit 0 only if DONE exists when the loop ends.
 
@@ -649,7 +664,7 @@ class Engine:
         if now < self.clock.start:
             wait = (self.clock.start - now).total_seconds()
             log.info("sleeping %.0fs until window start %s", wait, iso(self.clock.start))
-            self.sleep_fn(wait)
+            self._sleep_until(self.clock.start)
             now = self.now_fn()
         if now > self.clock.end:
             log.warning("started after the window end %s; one closing pass only (no sizing)", iso(self.clock.end))
@@ -666,9 +681,7 @@ class Engine:
             if tick >= self.clock.end:
                 break
             nxt = self.next_tick(tick)
-            delay = (nxt - self.now_fn()).total_seconds()
-            if delay > 0:
-                self.sleep_fn(delay)
+            self._sleep_until(nxt)
             actual = self.now_fn()
             tick = nxt if actual <= nxt + timedelta(seconds=5) else actual.replace(microsecond=0)
         if not self.done_path.exists():

@@ -981,6 +981,24 @@ def test_loop_timeline():
     eng2 = Engine(w2.mac, D, book_path=w2.book_path, state_dir=w2.state, now_fn=lambda: w2.now,
                   sleep_fn=lambda s: setattr(w2, "now", w2.now + timedelta(seconds=s)), bars_dir=w2.bars_dir)
     check(eng2.run_loop() == 0 and w2.done()["counts"]["drafts"] == 0, "zero-draft loop writes DONE")
+    # host suspended mid-sleep: monotonic sleeps lag the wall clock; the loop re-reads it every <=15 s
+    w3 = World("loop-suspend")
+    w3.now = ct(8, 1)
+    chunks = []
+
+    def frozen_then_jump(sec):
+        chunks.append(sec)
+        w3.now += timedelta(seconds=sec)
+        if len(chunks) == 2:
+            w3.now += timedelta(minutes=5)  # the box was paused for 5 minutes during this chunk
+
+    eng3 = Engine(w3.mac, D, book_path=w3.book_path, state_dir=w3.state, now_fn=lambda: w3.now,
+                  sleep_fn=frozen_then_jump, bars_dir=w3.bars_dir)
+    starts = []
+    real3 = eng3.run_pass
+    eng3.run_pass = lambda tick=None: starts.append(tick) or real3(tick)
+    check(eng3.run_loop() == 0 and max(chunks) <= 15, f"sleeps are <=15 s chunks (max {max(chunks)})")
+    check(starts[0] == ct(8, 8), f"window pass at 08:08 despite the pause ({starts[0]})")
 
 
 def test_ready_marker():
