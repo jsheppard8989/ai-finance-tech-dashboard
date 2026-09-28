@@ -479,12 +479,31 @@ class Engine:
                 doc["finalized_by"] = "cutoff"
         _atomic_write(self.done_path, core.dumps(doc))
         log.info("DONE r%d: %s", doc["revision"], doc["counts"])
+        self._regen_cockpit()
         if doc["skipped_files"]:
             log.warning("DONE r%d lists %d SKIPPED inbox file(s): %s", doc["revision"], len(doc["skipped_files"]),
                         doc["skipped_files"])
         if doc["counts"]["drafts"] == 0:
             log.warning("DONE r%d with ZERO drafts carded (inbox %s)", doc["revision"], self.inbox_rel)
         return doc
+
+    def _regen_cockpit(self) -> None:
+        """Rebuild the local cockpit after DONE. Non-fatal by construction: any
+        failure is a WARNING and never changes the engine's exit code or pushes.
+        Off with DRAGONFLY_COCKPIT=0. Output: <state dir>/cockpit.html (or
+        cockpit.<handoff-root>.html for dry-run roots), gitignored."""
+        if os.environ.get("DRAGONFLY_COCKPIT", "1") == "0":
+            return
+        try:
+            from dragonfly import cockpit
+
+            name = "cockpit.html" if self.handoff_root == core.DEFAULT_HANDOFF_ROOT else f"cockpit.{self.handoff_root}.html"
+            out = cockpit.generate(self.state_root / name, state_dir=self.state_root,
+                                   handoff_dir=self.cards_dir.parent, inbox_dir=self.inbox_dir,
+                                   book_path=self.book_path)
+            log.info("cockpit regenerated: %s", out)
+        except Exception as exc:  # noqa: BLE001 - the cockpit must never affect the engine
+            log.warning("cockpit regeneration failed (ignored): %s", exc)
 
     def _commit_message(self, written: List[str], done: Optional[dict]) -> str:
         parts = []

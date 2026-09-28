@@ -729,3 +729,48 @@ git clone <dragonfly-private> /tmp/df-dry && cd ~/projects/dragonfly-run
 The example book (`docs/dragonfly/examples/engine_book.json`) is marked
 2026-09-24 15:30 CT, so on any later session it is `book_stale` by design.
 Copy it and set `as_of` after the last close to see sizing.
+
+## Cockpit (plan §12) — `python3 -m dragonfly.cockpit`
+
+A local, private, static page: `dragonfly/state/live/cockpit.html` (gitignored
+with the rest of `state/live/`). Never under `site/` (the generator refuses),
+never on Pages; stdlib only, inline CSS, one inline SVG chart, no JS and no
+external requests. Views: Book, Today, Trade, Journal, Performance, plus the
+§11 weekly scoreboard (trades, sum of R, expectancy, net $ and %; there is no
+dollars-behind-target field, here or in `weekly_review.schema.json`).
+
+```
+python3 -m dragonfly.cockpit                                  # latest date under ~/projects/dragonfly-private/handoff
+python3 -m dragonfly.cockpit --handoff-root handoff-replay --inbox-root inbox-replay
+python3 -m dragonfly.cockpit --handoff-dir <clone>/handoff/2026-09-28 --inbox-dir <clone>/inbox/2026-09-28 \
+    [--state-dir DIR] [--book FILE] [--out FILE]
+```
+
+Inputs, all optional (a missing or unreadable one renders as an empty state
+and is listed at the top): `state/live/book.json`; journal entries
+(`state/live/journal/*.json` or `journal.jsonl`, journal_entry.schema.json);
+card-shaped trade records (`state/live/trades/*.json`); optional
+`state/live/equity_history.json` (`[{"date","equity"}]`, for month and YTD,
+otherwise a dash); optional `state/live/cache/bars/SPY.json` (SPY beside the
+book, otherwise a dash); the handoff date folder (`cards/`, `DONE`,
+`prep.json`, sibling date folders for version history, and
+`handoff/weekly/<friday>/weekly_review.json` when filed); the inbox date folder
+(drafts, red team files, `market_read.json` or `regime_snapshot.json`, a daily
+brief). Funnel: screened = prep tickers (or brief `universe`), flagged = Market
+Read's top-15 (or brief `unusual`), drafted = inbox drafts, sized / rejected /
+late / skipped files from DONE. `REVIEW` when any card is `pending_human` with
+no human decision, else `NO_TRADE`.
+
+Performance is computed from journal records only (win rate, average winner
+and loser in R and $, expectancy, R histogram, max drawdown of the $100K +
+closed-trade P&L curve, average hold, MAE, MFE; by setup, regime at entry and
+entry weekday). The journal has no date field, so weekday and week membership
+come from the matching card's `time_stop.entry_session_date` ("unknown" when no
+card is on disk). Nothing is estimated.
+
+Hooks: the engine regenerates the cockpit each time it writes or revises DONE
+(`cockpit.html`; `cockpit.<handoff-root>.html` for dry-run roots). It is
+non-fatal: a cockpit failure is a WARNING and never changes the exit code or
+the pushes; `DRAGONFLY_COCKPIT=0` turns it off. There is no evening job yet;
+run the command above after the evening mark, or add it to that job when it
+exists.

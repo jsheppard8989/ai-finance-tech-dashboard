@@ -1547,6 +1547,39 @@ def test_started_and_error_markers():
           "--once: no ENGINE_STARTED")
 
 
+def test_cockpit_hook():
+    """The cockpit is regenerated after DONE; a cockpit failure never touches the engine's result or pushes."""
+    from dragonfly import cockpit
+
+    w = World("cockpithook")
+    w.push_regime()
+    w.trade(1)
+    w.now = ct(8, 21)
+    res = w.engine().run_pass()
+    out = w.state / "cockpit.html"
+    check(res["done"] and out.exists() and "DF-2026-0001" in out.read_text(), "cockpit.html regenerated after DONE")
+    w2 = World("cockpitfail", handoff_root="handoff-dryrun", inbox_root="inbox-dryrun")
+    w2.now = ct(8, 21)
+    real = cockpit.generate
+
+    def boom(*a, **k):
+        raise RuntimeError("synthetic cockpit failure")
+
+    cockpit.generate = boom
+    try:
+        res2, recs = _captured(lambda: w2.engine().run_pass())
+    finally:
+        cockpit.generate = real
+    check(res2["done"] and res2["pushed"] and w2.done() is not None, "DONE written and pushed despite a cockpit crash")
+    check(any("cockpit regeneration failed" in r.getMessage() and r.levelno == logging.WARNING for r in recs),
+          "cockpit failure logged at WARNING")
+    w3 = World("cockpitdry", handoff_root="handoff-dryrun", inbox_root="inbox-dryrun")
+    w3.now = ct(8, 21)
+    w3.engine().run_pass()
+    check((w3.state / "cockpit.handoff-dryrun.html").exists() and not (w3.state / "cockpit.html").exists(),
+          "dry-run roots write cockpit.<root>.html, never the live cockpit.html")
+
+
 def main():
     tests = [
         test_examples_validate,
@@ -1579,6 +1612,7 @@ def main():
         test_push_retry_and_sync,
         test_loop_timeline,
         test_started_and_error_markers,
+        test_cockpit_hook,
         test_ready_marker,
         test_cli_once,
         test_dry_run_roots,
