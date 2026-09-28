@@ -1,5 +1,8 @@
 {
- "schema": "dragonfly.ndx_universe/2",
+ "schema": "dragonfly.universe_approved/1",
+ "approved_by": "Jared, 2026-09-25 (Nasdaq-100 top 5 per Nasdaq screener sector, GOOGL kept over GOOG, SPCX in); frozen 2026-09-28 (Ditka): membership changes are Jared's call",
+ "rule": "This file IS the ndx_top5 membership. Builds never re-rank or refresh it from the screener. Pinned names come from universe_config.json and are added on top (47 names in all on 2026-09-28: 36 here + 11 pinned). Each member's `sector` below is the Nasdaq label it was ranked under; at load time dragonfly/gics.py applies the GICS sector TAG (one-per-sector cap and sector_lagging only). To change membership, edit this file with Jared's approval.",
+ "frozen_from": "dragonfly/universe.json as of 2026-09-25T15:15:13-05:00 (commit 76e43e63)",
  "as_of": "2026-09-25T15:15:13-05:00",
  "as_of_date": "2026-09-25",
  "refresh": "weekly: reused until 7 or more days old, or --refresh-universe",

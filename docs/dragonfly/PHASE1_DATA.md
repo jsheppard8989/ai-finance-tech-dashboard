@@ -59,17 +59,18 @@ Every Dragonfly network fetch (bars, chains, watchlist quotes) calls
   - Sectors seen on 2026-09-25: Technology (45), Consumer Discretionary (17),
     Industrials (14), Health Care (9), Telecommunications (5), Consumer
     Staples (5), Utilities (4), Energy (1), Basic Materials (1).
-  - **GICS since 2026-09-28** (`dragonfly/gics.py`): the universe no longer
-    ranks on Nasdaq's label. Every NDX constituent and pinned name maps to its
-    standard GICS sector (`GICS_BY_TICKER`; COST/WMT Consumer Staples, GOOGL/
-    META/NFLX Communication Services, TSLA Consumer Discretionary, PYPL
-    Financials, ...); an unmapped name gets its label renamed to the GICS name
-    (`ICB_TO_GICS`: Technology -> Information Technology, Telecommunications ->
-    Communication Services, Basic Materials -> Materials), else keeps it. Rows
-    keep `screener_sector` and `sector_source`; the doc says `sector_scheme:
-    GICS`, and a doc without it is stale (re-ranked on the next build). The
-    top-5-per-sector rule and every gate are unchanged; the sector feeds the
-    one-per-sector cap and the red team's sector_lagging flag.
+  - **GICS sector TAGS since 2026-09-28** (`dragonfly/gics.py`): each name's
+    `sector` is its standard GICS sector (`GICS_BY_TICKER`; COST/WMT Consumer
+    Staples, GOOGL/META/NFLX Communication Services, TSLA Consumer
+    Discretionary, ...; unmapped names get `ICB_TO_GICS` renames), with the
+    Nasdaq label kept as `screener_sector`. The tag feeds only the
+    one-per-sector cap and the red team's sector_lagging flag. It NEVER decides
+    membership: ranking stays on Nasdaq's label.
+  - **Frozen membership** (`dragonfly/universe_approved.json`, Ditka/Jared
+    2026-09-28): when present it IS the top-5 membership (the 36 names
+    approved on 2026-09-25; 47 with the 11 pinned). Builds never fetch,
+    refresh or re-rank it, even with --refresh-universe; membership changes are
+    Jared's call and are made by editing that file.
 - **Share classes are collapsed to one per company before ranking**, so the
   ranking counts companies, not tickers.
   - Issuer: the explicit `ISSUER_ALIASES` map (Alphabet, Fox, News Corp);
