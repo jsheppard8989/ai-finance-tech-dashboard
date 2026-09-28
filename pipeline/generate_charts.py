@@ -1,7 +1,8 @@
 #!/usr/bin/env python3
 """
 Fetch stock data from Yahoo Finance and generate candlestick charts.
-Only charts the top 10 tickers by weighted score + QQQ/BTC for title bar.
+Charts the top 10 tickers by weighted score, QQQ/BTC for the title bar,
+and every name in the site portfolio baskets (site/data/portfolio.json).
 """
 
 import yfinance as yf
@@ -13,7 +14,7 @@ import pandas as pd
 import sqlite3
 import json
 
-from workspace_paths import DB_PATH, SITE_CHARTS_DIR as CHARTS_DIR, STATE_DIR
+from workspace_paths import DB_PATH, SITE_CHARTS_DIR as CHARTS_DIR, SITE_DATA_DIR, STATE_DIR
 
 # Config
 CHARTS_DIR.mkdir(exist_ok=True)
@@ -47,6 +48,22 @@ YAHOO_SYMBOL_OVERRIDES = {
 def to_yahoo_symbol(ticker: str) -> str:
     """Translate dashboard ticker labels to Yahoo symbols used by yfinance."""
     return YAHOO_SYMBOL_OVERRIDES.get(ticker, ticker)
+
+
+def get_portfolio_tickers():
+    """Every name in site/data/portfolio.json baskets. The portfolio card links each ticker to its 2-week chart."""
+    try:
+        data = json.loads((SITE_DATA_DIR / "portfolio.json").read_text(encoding="utf-8"))
+    except Exception as e:
+        print(f"Warning: Could not load portfolio.json for charts: {e}")
+        return {}
+    out = {}
+    for basket in data.get("baskets") or []:
+        for n in basket.get("names") or []:
+            t = (n.get("ticker") or "").strip().upper()
+            if t:
+                out[t] = {"name": n.get("name") or t, "yahoo_symbol": to_yahoo_symbol(t), "score": 0, "mentions": 0}
+    return out
 
 
 def get_top_tickers_from_db(limit=10):
@@ -206,6 +223,12 @@ def main():
     for symbol, name in TITLE_BAR_TICKERS.items():
         if symbol not in all_tickers:
             all_tickers[symbol] = {'name': name, 'score': 0, 'mentions': 0}
+    # Portfolio card names (clicking a ticker opens charts/<TICKER>_chart.png)
+    portfolio_tickers = get_portfolio_tickers()
+    for symbol, info in portfolio_tickers.items():
+        all_tickers.setdefault(symbol, info)
+    if portfolio_tickers:
+        print("Portfolio tickers:", list(portfolio_tickers.keys()))
     
     print(f"\n📊 Charting {len(top_tickers)} top tickers + {len(TITLE_BAR_TICKERS)} title bar tickers")
     print("Top tickers:", list(top_tickers.keys()))
