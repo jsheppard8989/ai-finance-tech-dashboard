@@ -1085,6 +1085,19 @@ def test_gap_history_mac_measured():
           "clean bars: no warning added")
     all_remote_cards_valid(w)
 
+    # Red Team AND the Mac both flag gap_history from the same bars: counted once (union).
+    u = World("gapunion")
+    u.push_regime()
+    u.trade(1, ticker="GAP", bars=bars, flags={"gap_history": True})
+    u.now = ct(8, 16)
+    u.engine().run_pass()
+    cu = u.card("DF-2026-0001")
+    ui = cu["engine"]["inputs"]
+    check(cu["red_team"]["warnings"] == ["gap_history"] and ui["warning_count"] == 1
+          and ui["warnings_added_by_engine"] == [] and cu["sizing"]["name_heat_cap"] == 1000
+          and ui["measurements"]["details"]["gap_history"]["flag"] is True,
+          f"gap_history from both counts once (union), normal caps: {cu['red_team']} {ui['warning_count']}")
+
 
 def test_catalyst_record():
     ex = json.loads((EXAMPLES / "trade_draft.json").read_text())["catalyst"]
@@ -1337,6 +1350,123 @@ def test_dry_run_roots():
     check(rc5 == 2, "CLI refuses --dry-run-roots with an explicit root")
 
 
+class _Capture(logging.Handler):
+    def __init__(self):
+        super().__init__(logging.DEBUG)
+        self.records = []
+
+    def emit(self, record):
+        self.records.append(record)
+
+
+def _captured(fn):
+    lg = logging.getLogger("dragonfly.engine")
+    h = _Capture()
+    old = lg.level
+    lg.addHandler(h)
+    lg.setLevel(logging.DEBUG)
+    try:
+        out = fn()
+    finally:
+        lg.removeHandler(h)
+        lg.setLevel(old)
+    return out, h.records
+
+
+def test_inbox_classification_unit():
+    cases = {
+        "DF-2026-0002.json": "draft", "DF-2026-0002.draft.json": "draft", "architect-oops.draft.json": "draft",
+        "DF-2026-0002.redteam.json": "redteam", "market_read.json": "known", "regime_snapshot.json": "known",
+        ".gitkeep": "ignored", "notes.md": "ignored", "DF-2026-0003.txt": "skipped", "df-2026-0004.json": "skipped",
+        "DF-26-4.json": "skipped", "DF-2026-0005.draft.json.tmp": "skipped",
+    }
+    for name, want in cases.items():
+        got = core.classify_inbox_file(name)[0]
+        check(got == want, f"classify {name}: {got} (want {want})")
+    raw = json.dumps({"trade_id": "DF-2026-0009", "ticker": "X", "setup": "catalyst_breakout"}).encode()
+    check(core.classify_inbox_file("architect_output.json", raw)[0] == "skipped", "draft-shaped content under an odd name")
+    check(core.classify_inbox_file("summary.json", b'{"a": 1}')[0] == "ignored", "non-draft json ignored")
+    check(core.draft_stem("DF-2026-0002.json") == "DF-2026-0002" and core.draft_stem("DF-2026-0002.draft.json")
+          == "DF-2026-0002", "trade_id stem from both names")
+
+
+def test_agent_naming_pickup():
+    """Dry run #2: agents wrote DF-YYYY-NNNN.json (no .draft.json) and market_read.json. Both drafts get decisions."""
+    w = World("agentnames", handoff_root="handoff-dryrun2", inbox_root="inbox-dryrun2")
+    snap = json.loads((EXAMPLES / "regime_snapshot.json").read_text())
+    snap["session_date"] = w.ds
+    w.agent_push(f"inbox-dryrun2/{w.ds}/market_read.json",
+                 {"schema": "dragonfly.market_read/x", "session_date": w.ds, "regime": snap, "catalysts": {}},
+                 message="market read")
+    b1 = fx.breakout(PREV)
+    w.name("AAA", b1, "Sector1")
+    w.push_draft(make_draft(2, "AAA", "catalyst_breakout", b1, "Sector1"), name="DF-2026-0002.json")
+    fb = SETUP_PLANS["failed_breakdown"][0](PREV)
+    w.name("BBB", fb, "Sector2")
+    w.push_draft(make_draft(3, "BBB", "failed_breakdown", fb, "Sector2"), name="DF-2026-0003.draft.json")
+    w.push_redteam("DF-2026-0002")
+    w.push_redteam("DF-2026-0003", flags={"valuation_extreme": True, "event_just_outside_window": True})
+    w.now = ct(8, 15)
+    res, recs = _captured(lambda: w.engine().run_pass())
+    check(sorted(res["written"]) == ["DF-2026-0002", "DF-2026-0003"], f"both drafts carded: {res}")
+    c2, c3 = w.card("DF-2026-0002"), w.card("DF-2026-0003")
+    check(c2["engine"]["draft_file"] == f"inbox-dryrun2/{w.ds}/DF-2026-0002.json", "bare DF-*.json name accepted")
+    check(c2["engine"]["inputs"]["risk_context"]["regime"]["path"] == f"inbox-dryrun2/{w.ds}/market_read.json#regime"
+          and c2["risk_decision"]["risk_mode"] == "normal", "regime read from market_read.json's regime object")
+    check(c2["engine"]["outcome"] == "sized" and c3["engine"]["outcome"] == "sized",
+          f"both sized: {reasons(c2)} {reasons(c3)}")
+    check(c3["engine"]["inputs"]["warning_count"] == 2 and c3["sizing"]["name_heat_cap"] == 500,
+          f"two red team flags -> cautious name cap: {c3['sizing']}")
+    check(not [r for r in recs if r.levelno >= logging.WARNING], f"clean inbox, no warnings: {[r.getMessage() for r in recs]}")
+    check(any("market_read.json:known" in r.getMessage() for r in recs), "inbox listing logged, market_read not a draft")
+    w.now = ct(8, 21)
+    w.engine().run_pass()
+    done = w.done()
+    check(done["counts"] == {"drafts": 2, "sized": 2, "rejected": 0, "late": 0} and done["skipped_files"] == [],
+          f"DONE counts both decisions: {done}")
+    check(not core.schema_errors("engine_done.schema.json", done), "DONE schema valid")
+    check(w.remote_ls(f"handoff/{w.ds}") == [] and w.remote_ls(f"inbox/{w.ds}") == [], "real roots untouched")
+    all_remote_cards_valid(w)
+
+
+def test_skipped_files_reported():
+    """Anything that looks like a draft but is not picked up is a WARNING and a DONE skipped_files entry."""
+    w = World("skipped")
+    w.push_regime()
+    w.trade(1)
+    w.agent_push(f"inbox/{DS}/DF-2026-0003.txt", None, raw="{}", message="odd ext")
+    w.agent_push(f"inbox/{DS}/df-2026-0004.json", {"trade_id": "DF-2026-0004"}, message="lowercase")
+    w.agent_push(f"inbox/{DS}/architect_output.json",
+                 {"trade_id": "DF-2026-0005", "ticker": "ZZZ", "setup": "catalyst_breakout"}, message="odd name")
+    w.agent_push(f"inbox/{DS}/notes.md", None, raw="hello", message="notes")
+    w.now = ct(8, 15)
+    res, recs = _captured(lambda: w.engine().run_pass())
+    check(res["written"] == ["DF-2026-0001"], f"only the valid draft carded: {res}")
+    warns = [r.getMessage() for r in recs if r.levelno == logging.WARNING]
+    check(sum("SKIPPED" in m for m in warns) == 3, f"three skip warnings: {warns}")
+    _res2, recs2 = _captured(lambda: w.engine().run_pass())
+    check(not [r for r in recs2 if "looks like a draft" in r.getMessage()], "each skip warned once, not every pass")
+    w.now = ct(8, 21)
+    _res3, recs3 = _captured(lambda: w.engine().run_pass())
+    done = w.done()
+    got = {x["file"]: x["reason"] for x in done["skipped_files"]}
+    check(sorted(got) == [f"inbox/{DS}/DF-2026-0003.txt", f"inbox/{DS}/architect_output.json",
+                          f"inbox/{DS}/df-2026-0004.json"], f"DONE lists skipped files: {got}")
+    check(got[f"inbox/{DS}/DF-2026-0003.txt"] == "not_json_extension"
+          and got[f"inbox/{DS}/df-2026-0004.json"].startswith("unrecognized_draft_name"), "reasons recorded")
+    check(done["counts"]["drafts"] == 1 and not core.schema_errors("engine_done.schema.json", done), "DONE valid")
+    check(any("SKIPPED inbox file" in r.getMessage() and r.levelno == logging.WARNING for r in recs3),
+          "DONE skip summary logged at WARNING")
+
+    z = World("zerodone")
+    z.push_regime()
+    z.agent_push(f"inbox/{DS}/DF-2026-0001.draft.json.tmp", None, raw="{}", message="partial")
+    z.now = ct(8, 21)
+    _r, zrec = _captured(lambda: z.engine().run_pass())
+    check(z.done()["counts"]["drafts"] == 0 and len(z.done()["skipped_files"]) == 1, "zero-draft DONE lists the skip")
+    check(any("ZERO drafts" in r.getMessage() and r.levelno == logging.WARNING for r in zrec), "zero-draft DONE warns")
+
+
 def main():
     tests = [
         test_examples_validate,
@@ -1344,6 +1474,9 @@ def main():
         test_book_freshness_unit,
         test_setup_gates_unit,
         test_sized_card,
+        test_inbox_classification_unit,
+        test_agent_naming_pickup,
+        test_skipped_files_reported,
         test_redteam_gating,
         test_gap_history_mac_measured,
         test_late_redteam_and_done_mixed,

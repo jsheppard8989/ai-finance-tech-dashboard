@@ -161,14 +161,32 @@ class Engine:
         st = self._load_state()
         st.setdefault("redteam", {})
         drafts: List[Tuple[str, bytes]] = []
+        st.setdefault("skipped", {})
+        seen_files: List[str] = []
         if self.inbox_dir.is_dir():
-            for path in sorted(self.inbox_dir.glob(f"*{DRAFT_SUFFIX}")):
-                if path.is_file():
-                    drafts.append((path.name, path.read_bytes()))
-            for path in sorted(self.inbox_dir.glob(f"*{core.REDTEAM_SUFFIX}")):
-                if path.is_file() and path.name not in st["redteam"]:
+            for path in sorted(self.inbox_dir.iterdir()):
+                if not path.is_file():
+                    continue
+                data = path.read_bytes()
+                kind, why = core.classify_inbox_file(path.name, data)
+                seen_files.append(f"{path.name}:{kind}")
+                if kind == "draft":
+                    drafts.append((path.name, data))
+                elif kind == "redteam" and path.name not in st["redteam"]:
                     st["redteam"][path.name] = {"first_seen_at": iso(tick), "first_valid_at": None}
                     log.info("red team file first seen: %s/%s at %s", self.inbox_rel, path.name, iso(tick))
+                elif kind == "skipped":
+                    rec = st["skipped"].get(path.name)
+                    if rec is None or rec.get("sha256") != core.sha256_bytes(data):
+                        log.warning("inbox file %s/%s looks like a draft but is SKIPPED: %s",
+                                    self.inbox_rel, path.name, why)
+                        st["skipped"][path.name] = {"reason": why, "sha256": core.sha256_bytes(data),
+                                                    "first_seen_at": iso(tick)}
+        else:
+            log.warning("inbox folder %s does not exist yet", self.inbox_rel)
+        if seen_files != st.get("last_inbox_listing"):
+            log.info("inbox %s: %s", self.inbox_rel, ", ".join(seen_files) or "(empty)")
+            st["last_inbox_listing"] = seen_files
         for name, data in drafts:
             if name not in st["drafts"]:
                 st["drafts"][name] = {"first_seen_at": iso(tick), "sha256": core.sha256_bytes(data), "logged_sha": []}
@@ -206,7 +224,8 @@ class Engine:
             existing[key] = card
             by_file[draft_file] = key
             result["written"].append(key)
-            log.info("carded %s: %s %s", key, card["engine"]["outcome"], card["engine"]["reasons"])
+            lvl = logging.INFO if card["engine"]["outcome"] == OUTCOME_SIZED else logging.WARNING
+            log.log(lvl, "carded %s: %s %s", key, card["engine"]["outcome"], card["engine"]["reasons"])
 
         self._save_state(st)
 
@@ -284,7 +303,7 @@ class Engine:
         now = self.now_fn()
         common = dict(session_date=self.session_date, draft_file=draft_file, draft_sha=sha,
                       first_seen=first_seen, clock=self.clock)
-        stem = name[: -len(DRAFT_SUFFIX)]
+        stem = core.draft_stem(name)
         ticker = draft.get("ticker") if isinstance(draft, dict) else None
 
         if trade_id is not None and trade_id in existing:
@@ -417,6 +436,9 @@ class Engine:
             "trade_ids": trade_ids,
             "unidentified": unidentified,
             "withdrawn": withdrawn,
+            "skipped_files": [{"file": f"{self.inbox_rel}/{n}", "reason": r["reason"]}
+                              for n, r in sorted(st.get("skipped", {}).items())
+                              if (self.inbox_dir / n).exists()],
         }
 
     def _maybe_done(self, tick, st, existing, drafts, pending) -> Optional[dict]:
@@ -438,7 +460,7 @@ class Engine:
                 prior = json.loads(self.done_path.read_text(encoding="utf-8"))
             except (OSError, ValueError):
                 prior = None
-        core_keys = ("counts", "trade_ids", "unidentified", "withdrawn")
+        core_keys = ("counts", "trade_ids", "unidentified", "withdrawn", "skipped_files")
         if prior and all(prior.get(k) == doc[k] for k in core_keys):
             return None
         if prior:
@@ -447,6 +469,11 @@ class Engine:
                 doc["finalized_by"] = "cutoff"
         _atomic_write(self.done_path, core.dumps(doc))
         log.info("DONE r%d: %s", doc["revision"], doc["counts"])
+        if doc["skipped_files"]:
+            log.warning("DONE r%d lists %d SKIPPED inbox file(s): %s", doc["revision"], len(doc["skipped_files"]),
+                        doc["skipped_files"])
+        if doc["counts"]["drafts"] == 0:
+            log.warning("DONE r%d with ZERO drafts carded (inbox %s)", doc["revision"], self.inbox_rel)
         return doc
 
     def _commit_message(self, written: List[str], done: Optional[dict]) -> str:

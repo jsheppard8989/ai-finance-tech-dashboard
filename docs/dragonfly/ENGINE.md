@@ -48,8 +48,9 @@ dragonfly-private/
       unidentified/<draft-stem>.json        drafts with no usable / a duplicate trade_id
       DONE                                  engine finished for the day
   inbox/2026-09-28/
-    regime_snapshot.json                    Market Read (regime_snapshot.schema.json)
-    DF-2026-0001.draft.json                 Architect (trade_draft.schema.json)
+    regime_snapshot.json                    Market Read (regime_snapshot.schema.json), or
+    market_read.json                        Market Read's full file; its `regime` object is the snapshot
+    DF-2026-0001.draft.json                 Architect (trade_draft.schema.json); DF-2026-0001.json also accepted
     DF-2026-0001.redteam.json               Red Team (trade_redteam.schema.json)
 Mac, gitignored (in the run clone ~/projects/dragonfly-run):
   dragonfly/state/live/book.json            live book (engine_book.schema.json)
@@ -61,6 +62,25 @@ Mac, gitignored (in the run clone ~/projects/dragonfly-run):
 ```
 
 ## Drafts (Architect → engine)
+
+**Inbox file names.** A draft is `<trade_id>.draft.json` **or** a bare
+`<trade_id>.json` with a `DF-YYYY-NNNN` trade_id (what the agents actually
+wrote in dry run #2; see below). Any other `*.draft.json` is carded too (as
+unidentified if it has no usable trade_id). `*.redteam.json` is Red Team;
+`regime_snapshot.json`, `market_read.json` and `brief*.json` are known
+non-drafts and are never mistaken for drafts. Anything else that **looks like
+a draft** (a name starting `DF`/containing `draft`, e.g. `df-2026-0004.json`,
+`DF-2026-0003.txt`, `DF-2026-0005.draft.json.tmp`, or a `.json` whose body has
+draft keys such as `trade_id`/`ticker`/`setup`) is **skipped loudly**: logged at
+WARNING once per file version and listed in DONE `skipped_files` with a
+reason. Every pass that sees a change logs the inbox listing with each file's
+classification, and a DONE with zero drafts is logged at WARNING.
+
+Dry run #2 (2026-09-27) root cause: the engine listed only `*.draft.json`, so
+`DF-2026-0002.json` and `DF-2026-0003.json` were never seen (the red team files
+were), and DONE said drafts 0 with no warning. Market Read also wrote
+`market_read.json` (regime inside) rather than `regime_snapshot.json`, which
+would have stood the day down with `regime_missing`. Both names are accepted now.
 
 Schema: `docs/dragonfly/schemas/trade_draft.schema.json`; example
 `docs/dragonfly/examples/trade_draft.json`. A draft is a trade card minus
@@ -176,7 +196,7 @@ Schema `docs/dragonfly/schemas/trade_redteam.schema.json`; example
 ## What the engine does with a draft
 
 Each pass: `git ls-remote` (cheap); pull with rebase only if the remote ref
-moved; list `inbox/<date>/*.draft.json`; record first-seen times of new drafts
+moved; list and classify every file in `inbox/<date>/` (drafts, red team, known, skipped); record first-seen times of new drafts
 and red team files; card every draft that is ready; commit and push
 `handoff/<date>/cards/` (retrying a non-fast-forward with a rebase, up to 5
 times); then DONE. **One engine pass per trade, no version-2 cards.**
@@ -477,7 +497,7 @@ drafts:
  "finalized_by": "cutoff", "revision": 1,
  "counts": {"drafts": 3, "sized": 1, "rejected": 1, "late": 1},
  "trade_ids": {"sized": ["DF-2026-0001"], "rejected": ["DF-2026-0002"], "late": ["DF-2026-0003"]},
- "unidentified": [], "withdrawn": []}
+ "unidentified": [], "withdrawn": [], "skipped_files": []}
 ```
 
 Never before the cutoff unless `--finalize`. The final 08:24 pass writes it if
@@ -485,7 +505,9 @@ nothing earlier did. If a late draft lands after DONE, the late card is
 written and DONE is rewritten with `revision` + 1; sized and rejected entries
 cannot change after the cutoff. `unidentified` lists draft files carded
 without their own trade_id (counted in `rejected`); `withdrawn` lists on-time
-drafts that vanished before carding (not counted). The loop exits non-zero if
+drafts that vanished before carding (not counted); `skipped_files` lists
+`{"file", "reason"}` for inbox files that look like drafts but were not carded
+(also WARNING-logged). The loop exits non-zero if
 the window ends without DONE.
 
 ## READY — `handoff/<date>/READY`
