@@ -1,5 +1,21 @@
 [
   {
+    "id": 527,
+    "podcast_name": "The a16z Show",
+    "episode_title": "AI Can Write Code. Why Isn\u2019t Software Better?",
+    "episode_date": "2026-09-28",
+    "summary": "In this episode, Diego Almeida discusses the transformative potential of AI in enhancing software capabilities beyond mere automation. He emphasizes the importance of reliability in AI systems and predicts a resurgence in the SaaS market as AI integration becomes more prevalent. Almeida also highlights the concept of probabilistic programming as a key innovation that could redefine software interactions with AI, ultimately leading to improved user experiences and operational efficiencies.",
+    "key_takeaways": [
+      "Diego Almeida argues that AI should enhance software capabilities rather than just automate existing processes, stating, 'I want to expand what software itself can do.'",
+      "Almeida emphasizes that reliability in AI systems is crucial for their adoption, claiming, 'Reliability matters more than impressive demos.'",
+      "Almeida predicts that the integration of AI into SaaS applications will lead to a resurgence in their value, asserting, 'I think SaaS will be one of the largest winners of the whole AI game.'",
+      "Almeida discusses the potential of probabilistic programming to create more intelligent software systems, suggesting it could open up new avenues for software development.",
+      "Almeida notes a significant opportunity in automating basic tasks, questioning, 'If AI is already this smart, where is all the automation?'"
+    ],
+    "investment_thesis": "Diego Almeida predicts that SaaS will be one of the largest winners of the AI integration trend.",
+    "key_tickers": null
+  },
+  {
     "id": 526,
     "podcast_name": "Moonshots with Peter Diamandis",
     "episode_title": "Why Jensen and Zuck think the doomers are wrong (plus AI get\u2019s a rebrand)  | #294 MOONSHOTS Live",

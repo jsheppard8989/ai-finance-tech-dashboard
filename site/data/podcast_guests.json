@@ -1,6 +1,18 @@
 [
   {
-    "id": 75977,
+    "id": 76088,
+    "name": "Diego Almeida",
+    "slug": "diego-almeida",
+    "bio": null,
+    "known_for": null,
+    "last_main_idea": "Diego Almeida predicts that SaaS will be one of the largest winners of the AI integration trend.",
+    "last_episode_title": "AI Can Write Code. Why Isn\u2019t Software Better?",
+    "last_podcast_name": "The a16z Show",
+    "last_episode_date": "2026-09-28",
+    "appearance_count": 1
+  },
+  {
+    "id": 76089,
     "name": "Eddie Lazaran",
     "slug": "eddie-lazaran",
     "bio": null,
@@ -12,7 +24,7 @@
     "appearance_count": 1
   },
   {
-    "id": 75978,
+    "id": 76090,
     "name": "Michael Every",
     "slug": "michael-every",
     "bio": null,
@@ -24,7 +36,7 @@
     "appearance_count": 1
   },
   {
-    "id": 75979,
+    "id": 76091,
     "name": "Steve Hilton & Spencer Pratt",
     "slug": "steve-hilton--spencer-pratt",
     "bio": null,
@@ -36,7 +48,7 @@
     "appearance_count": 1
   },
   {
-    "id": 75980,
+    "id": 76092,
     "name": "Blake Scholl",
     "slug": "blake-scholl",
     "bio": null,
@@ -48,7 +60,7 @@
     "appearance_count": 1
   },
   {
-    "id": 75981,
+    "id": 76093,
     "name": "John Platt",
     "slug": "john-platt",
     "bio": null,
@@ -60,7 +72,7 @@
     "appearance_count": 1
   },
   {
-    "id": 75982,
+    "id": 76094,
     "name": "Diogo Almeida",
     "slug": "diogo-almeida",
     "bio": null,
@@ -72,7 +84,7 @@
     "appearance_count": 1
   },
   {
-    "id": 75983,
+    "id": 76095,
     "name": "Naveen Rao",
     "slug": "naveen-rao",
     "bio": null,
@@ -84,7 +96,7 @@
     "appearance_count": 1
   },
   {
-    "id": 75984,
+    "id": 76096,
     "name": "Outlook on 5 Key Commodities",
     "slug": "outlook-on-5-key-commodities",
     "bio": null,
@@ -96,7 +108,7 @@
     "appearance_count": 1
   },
   {
-    "id": 75985,
+    "id": 76097,
     "name": "Bill Gurley",
     "slug": "bill-gurley",
     "bio": null,
@@ -108,7 +120,7 @@
     "appearance_count": 1
   },
   {
-    "id": 75986,
+    "id": 76098,
     "name": "Nick Shirley",
     "slug": "nick-shirley",
     "bio": null,
@@ -120,7 +132,7 @@
     "appearance_count": 1
   },
   {
-    "id": 75987,
+    "id": 76099,
     "name": "Jared Isaacman",
     "slug": "jared-isaacman",
     "bio": null,
@@ -132,7 +144,7 @@
     "appearance_count": 1
   },
   {
-    "id": 75988,
+    "id": 76100,
     "name": "Brad Gerstner",
     "slug": "brad-gerstner",
     "bio": null,
@@ -144,7 +156,7 @@
     "appearance_count": 1
   },
   {
-    "id": 75989,
+    "id": 76101,
     "name": "Meta's Dina Powell McCormick",
     "slug": "metas-dina-powell-mccormick",
     "bio": null,
@@ -156,7 +168,7 @@
     "appearance_count": 1
   },
   {
-    "id": 75990,
+    "id": 76102,
     "name": "Underwriting Superintelligence",
     "slug": "underwriting-superintelligence",
     "bio": null,
@@ -168,7 +180,7 @@
     "appearance_count": 1
   },
   {
-    "id": 75991,
+    "id": 76103,
     "name": "Hawks Take Flight",
     "slug": "hawks-take-flight",
     "bio": null,
@@ -180,7 +192,7 @@
     "appearance_count": 1
   },
   {
-    "id": 75992,
+    "id": 76104,
     "name": "Martine Rothblatt",
     "slug": "martine-rothblatt",
     "bio": null,
@@ -192,7 +204,7 @@
     "appearance_count": 1
   },
   {
-    "id": 75993,
+    "id": 76105,
     "name": "Microsoft CEO Satya Nadella",
     "slug": "microsoft-ceo-satya-nadella",
     "bio": null,
@@ -204,7 +216,7 @@
     "appearance_count": 1
   },
   {
-    "id": 75994,
+    "id": 76106,
     "name": "Jensen Huang",
     "slug": "jensen-huang",
     "bio": null,
@@ -216,7 +228,7 @@
     "appearance_count": 1
   },
   {
-    "id": 75995,
+    "id": 76107,
     "name": "Ask the Mates anything",
     "slug": "ask-the-mates-anything",
     "bio": null,
@@ -228,7 +240,7 @@
     "appearance_count": 1
   },
   {
-    "id": 75996,
+    "id": 76108,
     "name": "Matt Barry",
     "slug": "matt-barry",
     "bio": null,
@@ -240,7 +252,7 @@
     "appearance_count": 1
   },
   {
-    "id": 75997,
+    "id": 76109,
     "name": "Who Grades the AI Models?",
     "slug": "who-grades-the-ai-models",
     "bio": null,
@@ -252,7 +264,7 @@
     "appearance_count": 1
   },
   {
-    "id": 75998,
+    "id": 76110,
     "name": "Your AI Doctor Is Coming",
     "slug": "your-ai-doctor-is-coming",
     "bio": null,
@@ -264,7 +276,7 @@
     "appearance_count": 1
   },
   {
-    "id": 75999,
+    "id": 76111,
     "name": "Fei Fei Li",
     "slug": "fei-fei-li",
     "bio": null,
@@ -276,7 +288,7 @@
     "appearance_count": 1
   },
   {
-    "id": 76000,
+    "id": 76112,
     "name": "Financial strategist Jared Dillian",
     "slug": "financial-strategist-jared-dillian",
     "bio": null,
@@ -288,7 +300,7 @@
     "appearance_count": 1
   },
   {
-    "id": 76001,
+    "id": 76113,
     "name": "Daniel Litt",
     "slug": "daniel-litt",
     "bio": null,
@@ -300,7 +312,7 @@
     "appearance_count": 1
   },
   {
-    "id": 76002,
+    "id": 76114,
     "name": "Gavin Baker",
     "slug": "gavin-baker",
     "bio": null,
@@ -312,7 +324,7 @@
     "appearance_count": 1
   },
   {
-    "id": 76003,
+    "id": 76115,
     "name": "Sam Altman",
     "slug": "sam-altman",
     "bio": null,
@@ -324,7 +336,7 @@
     "appearance_count": 1
   },
   {
-    "id": 76004,
+    "id": 76116,
     "name": "Time to Reduce Equity Risk",
     "slug": "time-to-reduce-equity-risk",
     "bio": null,
@@ -336,7 +348,7 @@
     "appearance_count": 1
   },
   {
-    "id": 76005,
+    "id": 76117,
     "name": "Eric Weinstein",
     "slug": "eric-weinstein",
     "bio": null,
@@ -345,18 +357,6 @@
     "last_episode_title": "Eric Weinstein: The State of American Science, Breakthrough Coverups, and the Danger of Physics",
     "last_podcast_name": "All-In with Chamath, Jason, Sacks & Friedberg",
     "last_episode_date": "2026-08-26",
-    "appearance_count": 1
-  },
-  {
-    "id": 76006,
-    "name": "Michael Kratsios",
-    "slug": "michael-kratsios",
-    "bio": null,
-    "known_for": null,
-    "last_main_idea": "Investing in the U.S. science and technology ecosystem can lead to significant returns, as the administration aims to empower young scientists and create an environment for groundbreaking discoveries.",
-    "last_episode_title": "Michael Kratsios: Trump's Science Agenda, Anti-Science Claims, Fauci's Damage, DEI & China",
-    "last_podcast_name": "All-In with Chamath, Jason, Sacks & Friedberg",
-    "last_episode_date": "2026-08-24",
     "appearance_count": 1
   }
 ]
