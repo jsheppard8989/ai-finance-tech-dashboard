@@ -457,6 +457,21 @@ def test_nasdaq_quote_chain() -> None:
     order.clear()
     good = bw.with_chart_fallback("OK", lambda t: {"bid": 10.0, "ask": 10.02, "last": 10.01}, chart, nasdaq)
     check(good["quote_source"] == "yahoo_info" and order == [], "good Yahoo quote: Nasdaq and chart not called")
+    # Yahoo answers but with no real spread (after-hours zeros): Nasdaq's real spread wins
+    order.clear()
+    yz = lambda t: {"bid": 0, "ask": 0, "last": 100.01}  # noqa: E731
+    got = bw.with_chart_fallback("OK", yz, chart, nasdaq)
+    check(got["quote_source"] == "nasdaq_quote" and got["bid"] == 100.0 and order == ["nasdaq"]
+          and got["quote_errors"]["yahoo_info"] == "no_real_spread", "Yahoo modeled-only -> Nasdaq real spread wins")
+    # neither has a real spread: Yahoo's (first non-empty) quote is kept and modeled
+    order.clear()
+    got = bw.with_chart_fallback("WIDE", yz, chart, nasdaq)
+    check(got["quote_source"] == "yahoo_info" and got["last"] == 100.01 and order == ["nasdaq"],
+          "no real spread anywhere -> first non-empty (Yahoo), chart not called")
+    order.clear()
+    got = bw.with_chart_fallback("WIDE", info, chart, nasdaq)
+    check(got["quote_source"] == "nasdaq_quote" and "401" in got["info_error"] and order == ["info", "nasdaq"],
+          "Yahoo 401 + wide Nasdaq -> Nasdaq quote, modeled")
     check(bw.spread_label(resolve_quote(10.0, 10.02, 10.01), "yahoo_info") == "yahoo", "Yahoo label unchanged")
     res = select_watchlist([_row("OK", 9e9), _row("EMPTY", 8e9)], lambda t: bw.with_chart_fallback(t, info, chart, nasdaq),
                            cap=5, batch=2, workers=1, spread_mode="modeled")

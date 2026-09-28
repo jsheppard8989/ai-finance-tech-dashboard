@@ -288,7 +288,9 @@ def _yahoo_info_quote(ticker: str) -> Dict[str, Optional[float]]:
 # around the last trade (modeled_last_0.05, provisional, live-blocked).
 # A Nasdaq bid/ask goes through the SAME resolve_quote gate as Yahoo's; when it
 # passes, the row is relabelled spread_source "nasdaq" (a real, observed spread);
-# when it fails, the modeled rules apply unchanged. Every row carries
+# when it fails, the modeled rules apply unchanged. A Yahoo quote that answers
+# but has no gate-passing bid/ask (after-hours zeros) still moves on to Nasdaq;
+# if neither has a real spread, the first non-empty quote is modeled. Every row carries
 # quote_source: yahoo_info | nasdaq_quote | chart_last_fallback | none.
 QUOTE_SOURCE_INFO = "yahoo_info"
 QUOTE_SOURCE_NASDAQ = "nasdaq_quote"
@@ -396,12 +398,26 @@ def _err(exc: BaseException) -> str:
     return f"{type(exc).__name__}: {str(exc)[:160]}"
 
 
+def _real_spread(q: Mapping) -> bool:
+    """The quote's own bid/ask passes resolve_quote's spread gate (a real spread)."""
+    r = resolve_quote(q.get("bid"), q.get("ask"), q.get("last"))
+    return bool(r.get("usable")) and r.get("spread_source") == SPREAD_SOURCE_YAHOO
+
+
 def with_chart_fallback(ticker: str, info_quote_fn: Callable, chart_fn: Callable = chart_last,
                         nasdaq_fn: Optional[Callable] = None) -> dict:
-    """Yahoo info quote, else the Nasdaq quote (when nasdaq_fn is given), else
-    the chart's last price. "Else" = empty or an exception (401, 429, network).
-    Guard stops always propagate."""
+    """Yahoo info quote, then the Nasdaq quote (when nasdaq_fn is given), then
+    the chart's last price.
+
+    A source wins outright when its bid/ask passes the spread gate (a real
+    spread). Otherwise the next source is tried: empty or an exception (401
+    Invalid Crumb, 429, network) always moves on, and so does a quote with no
+    gate-passing bid/ask when a later quote source remains. If no source has a
+    real spread, the first non-empty quote is used (Yahoo before Nasdaq) and
+    resolve_quote models it; with none at all, the chart's last price
+    (modeled_last_0.05). Guard stops always propagate."""
     errors: Dict[str, str] = {}
+    fallback: Optional[Tuple[str, dict]] = None
     base: dict = {}
     for source, fn in ((QUOTE_SOURCE_INFO, info_quote_fn), (QUOTE_SOURCE_NASDAQ, nasdaq_fn)):
         if fn is None:
@@ -412,16 +428,27 @@ def with_chart_fallback(ticker: str, info_quote_fn: Callable, chart_fn: Callable
             raise
         except Exception as exc:  # 401 Invalid Crumb, 429, network
             q, errors[source] = None, _err(exc)
-        if not quote_is_empty(q):
+        if source == QUOTE_SOURCE_INFO:
+            base = dict(q or {})
+        if quote_is_empty(q):
+            errors.setdefault(source, "empty_quote")
+            continue
+        if _real_spread(q):
             out = dict(q, quote_source=source)
             if errors:
                 out["quote_errors"] = dict(errors)
             if QUOTE_SOURCE_INFO in errors:
                 out["info_error"] = errors[QUOTE_SOURCE_INFO]
             return out
-        errors.setdefault(source, "empty_quote")
-        if source == QUOTE_SOURCE_INFO:
-            base = dict(q or {})
+        errors[source] = "no_real_spread"
+        if fallback is None:
+            fallback = (source, dict(q))
+    if fallback is not None:
+        source, q = fallback
+        out = dict(q, quote_source=source, quote_errors=dict(errors))
+        if source != QUOTE_SOURCE_INFO:
+            out["info_error"] = errors.get(QUOTE_SOURCE_INFO)
+        return out
     base["info_error"] = errors.get(QUOTE_SOURCE_INFO, "empty_quote")
     base["quote_errors"] = dict(errors)
     try:
