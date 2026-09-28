@@ -156,6 +156,24 @@ def test_seeded():
     check("valuation_extreme" in page and 'class="pill on">event_just_outside_window' in page, "red team flags shown")
     check("2026-09-25" in page and "candidate" in page, "version history includes the earlier folder's card")
     check("behind" not in page.lower() and "target gap" not in page.lower(), "weekly scoreboard has no target gap")
+    # risk-decision label = the cap actually applied to the card, not the session mode
+    today = page.split('id="today"')[1].split('id="trade"')[0]
+    trade = page.split('id="trade"')[1].split('id="journal"')[0]
+    rows = {t: next(r for r in today.split("<tr>") if f">{t}<" in r) for t in ("META", "COST")}
+    blocks = {t: next(b for b in trade.split('<div class="card">') if f" {t} <small>" in b) for t in ("META", "COST")}
+    for name, parts in (("Today", rows), ("Trade", blocks)):
+        check("APPROVED (cautious, $500 cap)" in parts["COST"] and "(normal" not in parts["COST"],
+              f"{name}: cautious-capped COST reads cautious")
+        check("APPROVED (normal, $1,000 cap)" in parts["META"] and "cautious" not in parts["META"],
+              f"{name}: normal META reads normal")
+    cost = next(c for c in inp["cards"] if c["ticker"] == "COST")
+    check(cockpit.risk_label(cost, "normal") == "APPROVED (cautious, $500 cap)", "cap matched from sizing.name_heat_cap")
+    eng = dict(cost, engine={"inputs": {"warnings_tightened": True}})
+    check(cockpit.risk_label(eng, "normal") == "APPROVED (cautious, $500 cap)", "engine warnings_tightened wins")
+    bare = {k: v for k, v in cost.items() if k not in ("sizing", "engine")}
+    check(cockpit.risk_label(bare, "normal") == "APPROVED (normal, session mode)", "no applied-cap field: session fallback")
+    bare2 = dict(bare, risk_decision={"decision": "REJECTED"})
+    check(cockpit.risk_label(bare2, "cautious") == "REJECTED (cautious, session mode)", "no risk_mode on card: session mode")
     check("weekly_scoreboard() over journal entries entered since 2026-09-28" in page, "weekly block source stated")
 
     wr = json.loads((EXAMPLES / "weekly_review.json").read_text())

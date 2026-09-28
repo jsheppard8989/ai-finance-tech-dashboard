@@ -363,6 +363,41 @@ def today_mode(inp: dict) -> Tuple[Optional[str], str]:
     return None, "no regime"
 
 
+def applied_tier(card: dict, session_mode: Optional[str]) -> Tuple[Optional[str], Optional[float], str]:
+    """(tier, name cap $, source) for the caps this card was actually sized under.
+
+    risk_decision.risk_mode is the SESSION mode; two or more red team warnings
+    pull a normal-mode card to the cautious caps. Source of truth, in order:
+    engine.inputs.warnings_tightened (what the engine applied), else the
+    card's sizing.name_heat_cap matched against caps(equity_at_decision, mode),
+    else the session mode (fallback, labeled as such)."""
+    rd = card.get("risk_decision") or {}
+    mode = rd.get("risk_mode") or session_mode
+    s = card.get("sizing") or {}
+    cap = _f(s.get("name_heat_cap"))
+    tightened = ((card.get("engine") or {}).get("inputs") or {}).get("warnings_tightened")
+    if isinstance(tightened, bool) and mode:
+        return (rm.CAUTIOUS if tightened and mode == rm.NORMAL else mode), cap, "engine warnings_tightened"
+    eq = _f(s.get("equity_at_decision"))
+    if cap is not None and eq:
+        for tier in (rm.NORMAL, rm.CAUTIOUS, rm.STAND_DOWN):
+            try:
+                if abs(float(rm.caps(eq, tier)["name_heat_cap"]) - cap) < 0.005:
+                    return tier, cap, "sizing.name_heat_cap"
+            except ValueError:
+                continue
+    return mode, None, "session mode (card has no applied-cap field)"
+
+
+def risk_label(card: dict, session_mode: Optional[str]) -> str:
+    rd = card.get("risk_decision") or {}
+    tier, cap, src = applied_tier(card, session_mode)
+    decision = rd.get("decision", DASH)
+    if cap is not None and src != "session mode (card has no applied-cap field)":
+        return f"{decision} ({tier or DASH}, {usd(cap).replace('.00', '')} cap)"
+    return f"{decision} ({tier or DASH}, session mode)"
+
+
 def view_book(inp: dict, mode: Optional[str], as_of: date) -> str:
     b = inp["book"]
     if not b:
@@ -449,7 +484,7 @@ def view_today(inp: dict, mode: Optional[str], mode_src: str) -> str:
     for c in pending:
         s = c.get("sizing") or {}
         ent = c.get("entry") or {}
-        rows.append([e(c.get("trade_id")), e(c.get("ticker")), e(c.get("setup")),
+        rows.append([e(c.get("trade_id")), e(c.get("ticker")), e(c.get("setup")), e(risk_label(c, mode)),
                      f'{e(ent.get("trigger"))} {num(_f(ent.get("price")), "{:.2f}")} (max {num(_f(ent.get("max_fill")), "{:.2f}")})',
                      num(_f(c.get("stop")), "{:.2f}"), e(s.get("units")), usd(s.get("planned_loss")),
                      usd(s.get("name_heat_cap")), e(", ".join((c.get("red_team") or {}).get("warnings") or []) or "none")])
@@ -464,12 +499,12 @@ def view_today(inp: dict, mode: Optional[str], mode_src: str) -> str:
                 ("DONE", e(f"r{done.get('revision')} {done.get('as_of')}") if done else "not yet")])
             + f'<div class="funnel">{fun}</div>'
             + "<h3>Cards waiting on Jared</h3>"
-            + table(["Trade", "Ticker", "Setup", "Entry", "Stop", "Units", "Planned loss", "Name cap", "Warnings"],
+            + table(["Trade", "Ticker", "Setup", "Risk decision", "Entry", "Stop", "Units", "Planned loss", "Name cap", "Warnings"],
                     rows, "No cards waiting on Jared.")
             + skipped)
 
 
-def view_trades(inp: dict) -> str:
+def view_trades(inp: dict, mode: Optional[str] = None) -> str:
     cards = inp["cards"]
     if not cards and not inp["trades"]:
         return '<p class="empty">No cards for this session.</p>'
@@ -510,7 +545,7 @@ def view_trades(inp: dict) -> str:
         out.append(
             f'<div class="card"><h3>{e(tid)} {e(c.get("ticker"))} <small>{e(c.get("setup"))} / '
             f'{e(c.get("instrument"))}</small> {pill(str(c.get("status")), str(c.get("status")))}</h3>'
-            + kv([("Outcome", e(eng.get("outcome") or DASH)), ("Risk decision", e(f'{rd.get("decision", DASH)} ({rd.get("risk_mode", DASH)})')),
+            + kv([("Outcome", e(eng.get("outcome") or DASH)), ("Risk decision", e(risk_label(c, mode))),
                   ("Entry", f'{e(ent.get("trigger"))} {num(_f(ent.get("price")), "{:.2f}")} / max {num(_f(ent.get("max_fill")), "{:.2f}")}'),
                   ("Stop", num(_f(c.get("stop")), "{:.2f}")),
                   ("Target", e(", ".join(str(t.get("price")) for t in c.get("targets") or []) or DASH)),
@@ -649,7 +684,7 @@ def render(inp: dict, generated_at: Optional[datetime] = None) -> str:
     sections = [
         ("book", "Book", view_book(inp, mode, as_of)),
         ("today", "Today", view_today(inp, mode, mode_src)),
-        ("trade", "Trade", view_trades(inp)),
+        ("trade", "Trade", view_trades(inp, mode)),
         ("journal", "Journal", view_journal(inp)),
         ("performance", "Performance", view_performance(inp, cards_by_id, as_of)),
         ("weekly", "Weekly scoreboard", weekly_block(inp, cards_by_id, as_of)),
