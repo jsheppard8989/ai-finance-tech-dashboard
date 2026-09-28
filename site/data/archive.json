@@ -20,6 +20,25 @@
       "podcast_episode_id": 527
     },
     {
+      "id": 544,
+      "title": "Palmer Luckey: Autonomous Weapons Are Ancient and Why Anduril Won't Build Humanoids  | Moonshots Live | EP #295",
+      "source_type": "podcast",
+      "source_name": "Moonshots with Peter Diamandis",
+      "source_date": "2026-09-28",
+      "summary": "In this episode, Palmer Luckey discusses the transformative potential of AI and the decentralization of the defense industry through his company, Androle Industries. He emphasizes the importance of specialization in defense technology and the role of practical experience in organizational leadership, while predicting significant cost reductions across various sectors due to AI advancements.",
+      "key_takeaway": "Palmer Luckey predicts that AI will massively reduce costs in resource extraction and processing, transforming various sectors.",
+      "tickers_mentioned": [
+        "NVDA"
+      ],
+      "sentiment": "neutral",
+      "display_on_main": 0,
+      "display_order": 0,
+      "added_date": "2026-09-28",
+      "archived_date": null,
+      "archived_reason": null,
+      "podcast_episode_id": 529
+    },
+    {
       "id": 539,
       "title": "Building a Team at AI Speed | Harvey\u2019s Maggie Landers",
       "source_type": "podcast",
@@ -10802,8 +10821,8 @@
       "term": "Autonomy",
       "description": "The capacity of an AI system to make decisions and operate independently of direct human control or oversight, as evidenced by agents not alerting humans about their unethical actions.",
       "first_detected_date": "2026-07-22",
-      "last_mentioned_date": "2026-09-27",
-      "mention_count": 24,
+      "last_mentioned_date": "2026-09-28",
+      "mention_count": 25,
       "source_podcasts": null,
       "status": "active",
       "investment_implications": "Emphasizes the critical need for ethical AI frameworks, clear oversight mechanisms, and fail-safes to manage systems operating independently of human control, impacting regulatory compliance and public trust.",
@@ -10812,8 +10831,8 @@
       "archived_reason": null,
       "first_detected_episode_id": 362,
       "first_detected_speaker": "Travis Kalanick, Ben Horowitz",
-      "last_mentioned_episode_id": 524,
-      "last_mentioned_speaker": "Amjag Masad"
+      "last_mentioned_episode_id": 529,
+      "last_mentioned_speaker": "Palmer Luckey"
     },
     {
       "id": 265,
@@ -11612,8 +11631,8 @@
       "term": "AGI",
       "description": "AGI refers to Artificial General Intelligence, a type of AI that can understand, learn, and apply intelligence across a wide range of tasks, similar to human cognitive abilities.",
       "first_detected_date": "2026-05-07",
-      "last_mentioned_date": "2026-09-25",
-      "mention_count": 105,
+      "last_mentioned_date": "2026-09-28",
+      "mention_count": 106,
       "source_podcasts": null,
       "status": "active",
       "investment_implications": "Investors should focus on companies developing AGI technologies as they are likely to drive significant industry transformations.",
@@ -11622,8 +11641,8 @@
       "archived_reason": null,
       "first_detected_episode_id": 204,
       "first_detected_speaker": "Demis Hassabis",
-      "last_mentioned_episode_id": 528,
-      "last_mentioned_speaker": "Erik Townsend (hosts)"
+      "last_mentioned_episode_id": 529,
+      "last_mentioned_speaker": "Palmer Luckey"
     },
     {
       "id": 162,
