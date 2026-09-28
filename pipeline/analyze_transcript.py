@@ -633,6 +633,9 @@ def analyze_transcript_with_ai(
                 return any(_has_non_ascii(k) or _has_non_ascii(v) for k, v in obj.items())
             return False
 
+        # Fold common typographic punctuation / accents to ASCII before the strict check
+        # (models intermittently emit smart quotes or em dashes despite the prompt).
+        parsed = _fold_to_ascii(parsed)
         if _has_non_ascii(parsed):
             raise ValueError("AI output contains non-ASCII characters (rejecting).")
 
@@ -641,6 +644,30 @@ def analyze_transcript_with_ai(
     except Exception as e:
         print(f"    ⚠ AI analysis failed: {e}")
         return None
+
+
+_ASCII_FOLD_MAP = {
+    "\u2018": "'", "\u2019": "'", "\u201a": "'", "\u201b": "'",
+    "\u201c": '"', "\u201d": '"', "\u201e": '"', "\u201f": '"',
+    "\u2010": "-", "\u2011": "-", "\u2012": "-", "\u2013": "-", "\u2014": "-", "\u2015": "-",
+    "\u2026": "...", "\u00a0": " ", "\u2009": " ", "\u202f": " ", "\u200b": "",
+}
+
+
+def _fold_to_ascii(obj):
+    """Replace smart quotes/dashes/ellipses and strip accents in all strings (recursive)."""
+    import unicodedata
+    if isinstance(obj, str):
+        if all(ord(ch) < 128 for ch in obj):
+            return obj
+        out = "".join(_ASCII_FOLD_MAP.get(ch, ch) for ch in obj)
+        out = unicodedata.normalize("NFKD", out)
+        return "".join(ch for ch in out if not unicodedata.combining(ch))
+    if isinstance(obj, list):
+        return [_fold_to_ascii(x) for x in obj]
+    if isinstance(obj, dict):
+        return {_fold_to_ascii(k): _fold_to_ascii(v) for k, v in obj.items()}
+    return obj
 
 
 def episode_exists_in_db(
@@ -689,13 +716,19 @@ def episode_exists_in_db(
             conn.close()
             return True
 
-        # 3. Fuzzy title match (first 50 chars)
+        # 3. Fuzzy title match (first 50 chars). A row with a different non-empty rss_guid
+        # is a different episode (e.g. "Part 2" sharing a long title prefix with Part 1).
+        guid_clause = ""
+        guid_param: tuple = ()
+        if (rss_guid or "").strip():
+            guid_clause = " AND (rss_guid IS NULL OR rss_guid = '' OR rss_guid = ?)"
+            guid_param = (rss_guid,)
         row = conn.execute(
             """SELECT id FROM podcast_episodes
                WHERE podcast_name = ?
                AND LOWER(SUBSTR(episode_title, 1, 50)) = LOWER(SUBSTR(?, 1, 50))"""
-            + stem_clause,
-            (podcast_name, episode_title) + stem_param,
+            + stem_clause + guid_clause,
+            (podcast_name, episode_title) + stem_param + guid_param,
         ).fetchone()
         conn.close()
         return row is not None
