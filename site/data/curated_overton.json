@@ -1,6 +1,6 @@
 {
   "_comment": "Curated Overton seeds from niche/plumbing sources (Fed plumbing, macro). These bypass the podcast mention pipeline and are merged at render time into the Overton Window with a 'Curated' badge. Do NOT modify featured_overton.json - that file is for debated theses.",
-  "_updated": "2026-09-17",
+  "_updated": "2026-09-28",
   "_source": "site/data/curated_sources.json overton_seeds.fed_plumbing",
   "schema_version": 1,
   "curated": [
@@ -33,6 +33,22 @@
       },
       "status": "active",
       "display_order": 2
+    },
+    {
+      "id": "curated-private-credit-gating",
+      "term": "Gating mechanism",
+      "description": "A cap on how much investors can pull out of a fund in a given period. When redemption requests run past the cap, the fund holds back money, which shows its assets are harder to sell than its payouts promised.",
+      "first_source": "James Elbaor (Marlton LLC) on Monetary Matters with Jack Farley",
+      "source_type": "podcast",
+      "category": "private_credit",
+      "provenance": {
+        "author": "James Elbaor (Marlton LLC), Monetary Matters with Jack Farley",
+        "source_url": "https://www.youtube.com/@MonetaryMatters",
+        "episode": "The Private Credit Boom is Over: Redemption Requests Exceed Liquidity (2026-09-27)",
+        "note": "Curated seed (Jared yes 2026-09-28). Promoted from the pipeline extract so it pins beside the Fed plumbing seeds."
+      },
+      "status": "active",
+      "display_order": 3
     }
   ]
 }
