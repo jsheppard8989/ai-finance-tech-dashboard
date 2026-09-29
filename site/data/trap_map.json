@@ -45,7 +45,7 @@
       "RELEGATE": "Superseded by DROP"
     }
   },
-  "as_of": "2026-09-22",
+  "as_of": "2026-09-29",
   "traps": [
     {
       "id": "trap-1-power-interconnect",
@@ -120,13 +120,13 @@
       "title": "Cleared, no relief",
       "prior_label": "Buyback as confession",
       "validation_status": "WATCH",
-      "status_note": "Sep 24 7Y $44bn AFTER mild soft: HY 5.085%, BTC 2.42, indirects 57.2%, Direct 30.3%, PD 12.5%, tail 6.6 bp (softest BTC + weakest indirects vs Jul–Aug 7Y strip). Coupon-week strip complete: 2Y No change / 5Y Hurts / 7Y Hurts (mild). Soft belly cover at elevated clear is not long-end relief — still Watch into Nov 4 QRA. Sep 23 5Y AFTER Hurts (HY 5.033 / BTC 2.21 / tail 8.3 bp); CMT 9/23 10y 5.11% / 30y 5.40%. Sep 22 2Y No change (HY 4.787 / BTC 2.63).",
+      "status_note": "Sep 28 official yields: 10-year 5.24% and 30-year 5.56%, with the gap between them at 32 basis points (Sep 23 was 5.11% and 5.40%). Belly week is complete: 2-year No change, 5-year Hurts, 7-year Hurts (mild). The Sep 24 long-end buyback accepted $4.078 billion of a $6 billion cap even though $10.468 billion was offered (12 of 35 issues). A soft belly and an undersized buyback did not pull the long end down. Still Watch. Next prints: August PCE on Sep 30, then the Oct 1 announce for the 3-year and the 10-year reopen, plus a scheduled 10-year to 20-year buyback. The structural gate stays the Nov 4 refunding. Bond-market volatility (MOVE, EODData) closed at 101.8 on Sep 28.",
       "who_collects_rent": "Whoever is forced or structurally bid to warehouse long-end duration (banks/pensions under repression; issuer as standing long-end bid via enlarged buybacks) while coupon supply continues.",
       "leftover": "Narratives that treat buybacks as one-off 'support' while private sponsorship of the long end remains thin.",
-      "decisive_test": "Sep 9 10Y STAMPED (PASS); Sep 10 30Y STAMPED (PASS); Sep 10 $6bn buyback op: $5.187bn accepted / $10.489bn offered (86.5% of max; 23/40 issues); Sep 22 2Y AFTER No change (HY 4.787 / BTC 2.63); Sep 23 5Y AFTER Hurts (HY 5.033 / BTC 2.21 / tail 8.3 bp); Sep 24 7Y AFTER Hurts (mild) (HY 5.085 / BTC 2.42 / tail 6.6 bp); Nov 4 QRA buyback maxes.",
+      "decisive_test": "Sep 9 10Y STAMPED (PASS); Sep 10 30Y STAMPED (PASS); Sep 10 $6bn buyback op: $5.187bn accepted / $10.489bn offered (86.5% of max; 23/40 issues); Sep 22 2Y AFTER No change (HY 4.787 / BTC 2.63); Sep 23 5Y AFTER Hurts (HY 5.033 / BTC 2.21 / tail 8.3 bp); Sep 24 7Y AFTER Hurts (mild) (HY 5.085 / BTC 2.42 / tail 6.6 bp); Nov 4 QRA buyback maxes; Sep 24 long-end buyback $4.078bn accepted of $6bn max with $10.468bn offered (12 of 35 issues); CMT 9/28 10y 5.24% / 30y 5.56%.",
       "next_datapoint": {
-        "label": "Sep 30 Aug PCE (shared settle with 2s/5s/7s); Nov 4 2026 QRA buyback sizes. Belly week: 2Y Sep 22 No change (HY 4.787 / BTC 2.63); 5Y Sep 23 Hurts (HY 5.033 / BTC 2.21 / tail 8.3 bp); 7Y Sep 24 Hurts mild (HY 5.085 / BTC 2.42 / tail 6.6 bp); CMT 9/23 10y 5.11 / 30y 5.40.",
-        "expected_date": "Aug PCE 2026-09-30; Nov 4 2026 refunding"
+        "label": "Sep 30 August PCE; Oct 1 announce for the 3-year (CUSIP 91282CRQ6) and 10-year reopen (91282CRF0) plus a 10-year to 20-year buyback; Oct 6–7 auctions. Structural gate is the Nov 4 refunding. CMT 9/28: 10y 5.24 / 30y 5.56.",
+        "expected_date": "Aug PCE 2026-09-30; announce 2026-10-01; Nov 4 2026 refunding"
       },
       "relegate_if": "Strong private auction sponsorship makes buybacks cosmetic; or Nov 4 refunding cuts buyback sizes so the structural state-bid claim dies.",
       "sources": [
@@ -138,9 +138,12 @@
         "Treasury 2Y auction 2026-09-22 CUSIP 91282CRP8 — $69bn; HY 4.787%; BTC 2.63; indirects 57.8%; PD 13.2%; tail 4.9 bp — https://www.treasurydirect.gov/instit/annceresult/press/preanre/2026/R_20260922_2.pdf",
         "Treasury 5Y auction 2026-09-23 CUSIP 91282CRN3 — $70bn; HY 5.033%; BTC 2.21; indirects 54.3%; PD 15.8%; tail 8.3 bp (softest BTC + fattest tail vs Jun–Aug strip) — https://www.treasurydirect.gov/instit/annceresult/press/preanre/2026/R_20260923_3.pdf",
         "Treasury daily CMT par curve 2026-09-23 — 2y 4.85%; 5y 4.99%; 10y 5.11%; 20y 5.45%; 30y 5.40%; 2s10s +26 bp; 10s30s +29 bp — https://home.treasury.gov/resource-center/data-chart-center/interest-rates/TextView?type=daily_treasury_yield_curve&field_tdr_date_value_month=202609",
-        "Treasury 7Y auction 2026-09-24 CUSIP 91282CRM5 — $44bn; HY 5.085%; BTC 2.42; indirects 57.2%; Direct 30.3%; PD 12.5%; tail 6.6 bp (softest BTC + weakest indirects vs Jul–Aug 7Y strip) — https://www.treasurydirect.gov/instit/annceresult/press/preanre/2026/R_20260924_3.pdf"
+        "Treasury 7Y auction 2026-09-24 CUSIP 91282CRM5 — $44bn; HY 5.085%; BTC 2.42; indirects 57.2%; Direct 30.3%; PD 12.5%; tail 6.6 bp (softest BTC + weakest indirects vs Jul–Aug 7Y strip) — https://www.treasurydirect.gov/instit/annceresult/press/preanre/2026/R_20260924_3.pdf",
+        "Treasury buyback 2026-09-24 long end — max $6.000bn; offered $10.468bn; accepted $4.078bn; 12 of 35 issues; settle Sep 25; maturities Nov 2046–Aug 2056 — https://www.treasurydirect.gov/instit/annceresult/press/preanre/2026/BBR_20260924174000.pdf",
+        "Treasury daily CMT par curve 2026-09-28 — 2y 4.92%; 5y 5.06%; 10y 5.24%; 20y 5.60%; 30y 5.56%; 2s10s +32 bp; 10s30s +32 bp — https://home.treasury.gov/resource-center/data-chart-center/interest-rates/TextView?type=daily_treasury_yield_curve&field_tdr_date_value_month=202609",
+        "EODData INDEX/MOVE close 2026-09-28: 101.8 (Sep 24 close 104.6)"
       ],
-      "updated_at": "2026-09-24",
+      "updated_at": "2026-09-29",
       "drop_if": "Strong private auction sponsorship makes buybacks cosmetic; or Nov 4 refunding cuts buyback sizes so the structural state-bid claim dies.",
       "outlook_note": "Duration sponsorship is the price of warehousing coupons when clearance is not relief. Machine-time and tokenization can raise calm-period velocity of wealth; they do not turn stress into money, and they do not free captive absorbers from the long-end cost of capital."
     },
