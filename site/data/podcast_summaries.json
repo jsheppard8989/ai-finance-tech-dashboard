@@ -1,5 +1,55 @@
 [
   {
+    "id": 531,
+    "podcast_name": "Latent Space: The AI Engineer Podcast",
+    "episode_title": "Claude Code\u2019s Next Era \u2014 Thariq Shihipar, Anthropic",
+    "episode_date": "2026-09-29",
+    "summary": "The podcast discusses the rapid evolution of AI tools, particularly focusing on Cloud Code, which has become the standard coding method for developers within a year. The introduction of tools like Ask You the Question and Cloud Mods enhances user-agent interactions and customization, respectively, while safety mechanisms and project management capabilities are emphasized as critical for responsible AI deployment.",
+    "key_takeaways": [
+      "The evolution of Cloud Code has made it the default coding method for many developers within a year, as noted by the speaker.",
+      "The Ask You the Question tool significantly improves user-agent interactions by clarifying requirements, according to the speaker.",
+      "Artifacts in Cloud Code facilitate persistent data storage and collaboration among agents, enhancing project management capabilities.",
+      "Cloud Mods allow users to customize the Cloud Code harness, improving user experience and productivity, as highlighted by the speaker.",
+      "Probing and classification mechanisms are essential for ensuring AI model safety during inference, according to the discussion.",
+      "Pacing the frontier is necessary for the responsible deployment of AI models to mitigate risks associated with their capabilities, as emphasized by the speaker."
+    ],
+    "investment_thesis": "Cloud Code has become the default coding method for developers, indicating a significant shift in software development practices.",
+    "key_tickers": null
+  },
+  {
+    "id": 532,
+    "podcast_name": "All-In with Chamath, Jason, Sacks & Friedberg",
+    "episode_title": "Daniel Ek: Life After Spotify, Broken Healthcare Incentives, Catching Disease Early & AI's Potential",
+    "episode_date": "2026-09-28",
+    "summary": "The podcast discusses the transition from reactive to preventative healthcare, emphasizing the role of data and AI in improving health outcomes. Daniel Ek, former CEO of Spotify, highlights his new venture Neco, which aims to provide comprehensive health checks and personalized consultations to detect health issues early. The conversation also touches on the economic viability of Neco's model and the structural challenges within the U.S. healthcare system.",
+    "key_takeaways": [
+      "Daniel Ek claims that the U.S. spends 18% of its GDP on healthcare, indicating a significant market for cost-saving innovations.",
+      "Ek argues that Neco's vertically integrated model allows for profitable operations at a $499 price point, demonstrating sustainable business practices.",
+      "Ek states that Neco has conducted over 100,000 health scans, with about 1% of members discovering serious undiagnosed conditions, showcasing the effectiveness of early detection.",
+      "Ek emphasizes the importance of integrating wearables and health data, noting that Neco allows users to import data from Apple Health to enhance patient insights.",
+      "Ek points out that the U.S. healthcare system suffers from misaligned incentives due to insurance models tied to employment, which presents opportunities for innovative solutions."
+    ],
+    "investment_thesis": "Daniel Ek argues that Neco's focus on preventative healthcare through data and AI can significantly reduce costs and improve health outcomes.",
+    "key_tickers": null
+  },
+  {
+    "id": 530,
+    "podcast_name": "Moonshots with Peter Diamandis",
+    "episode_title": "We Gave Away $2,000,000 To 5 AI Builders | MOONSHOTS Live",
+    "episode_date": "2026-09-28",
+    "summary": "The podcast discusses the evolving landscape of entrepreneurship driven by AI, emphasizing the need for individuals to pursue their passions outside traditional employment. Key insights include significant cost reductions in drug development due to AI, the importance of data ecosystems, and emerging market opportunities in mental health and social experiences.",
+    "key_takeaways": [
+      "Peter Diamandis states that the traditional social contract of education leading to stable jobs is outdated, encouraging individuals to pursue their passions.",
+      "Kathy Wood predicts an entrepreneurial explosion driven by AI, allowing individuals to start businesses without traditional employment structures.",
+      "Kathy Wood claims that AI will reduce the cost of drug development from $2.4 billion to $600-700 million and shorten the timeline from 13 years to 8 years or less.",
+      "Logan Kilpatrick notes that the bottleneck in AI development is access to quality data, which is essential for training effective models.",
+      "Palmer Luckey discusses the market opportunity in addressing high divorce rates through innovative oxytocin-based therapies for marriage counseling.",
+      "Mark Pinkus emphasizes the need to reinvent online social experiences to promote healthier interactions and reduce toxic engagement."
+    ],
+    "investment_thesis": "Kathy Wood claims that AI will reduce drug development costs from $2.4 billion to $600-700 million, revolutionizing the pharmaceutical industry.",
+    "key_tickers": null
+  },
+  {
     "id": 529,
     "podcast_name": "Moonshots with Peter Diamandis",
     "episode_title": "Palmer Luckey: Autonomous Weapons Are Ancient and Why Anduril Won't Build Humanoids  | Moonshots Live | EP #295",
