@@ -1,5 +1,37 @@
 [
   {
+    "id": 535,
+    "podcast_name": "Moonshots with Peter Diamandis",
+    "episode_title": "Cathie Wood on Tesla-SpaceX Merger, $1M Bitcoin, More AIs Than Humans | EP #296 | Moonshots Live",
+    "episode_date": "2026-09-29",
+    "summary": "The episode discusses the potential merger of Tesla and SpaceX, predicting significant economic growth driven by AI advancements and the implementation of the Genius Act. It highlights the transformative impact of AI agents in various sectors, particularly healthcare, and the democratization of investments through asset tokenization.",
+    "key_takeaways": [
+      "Elon Musk envisions a merger between Tesla and SpaceX to create a unified platform for AI, EVs, and robotics, as he believes the leader will have the most computing capacity at the lowest cost.",
+      "Predictions indicate that AI agents will outnumber humans online by next year, fundamentally altering economic interactions and productivity.",
+      "The Genius Act, effective January, will recognize stablecoins as cash equivalents, potentially enhancing transaction efficiency in the U.S.",
+      "AI is expected to drive significant advancements in healthcare, with the potential for breakthroughs in diagnostics and treatment, making the sector undervalued.",
+      "Tokenization of assets is anticipated to enhance capital efficiency and democratize investment opportunities globally."
+    ],
+    "investment_thesis": "Elon Musk argues that the merger of Tesla and SpaceX will create a comprehensive ecosystem for AI, EVs, and robotics, positioning the combined entity as a leader in technology.",
+    "key_tickers": null
+  },
+  {
+    "id": 533,
+    "podcast_name": "The a16z Show",
+    "episode_title": "The Personal Agent Race Is Here | Anish Acharya & David Pawlan",
+    "episode_date": "2026-09-29",
+    "summary": "The podcast discusses the rapid evolution of personal AI agents, highlighting their transition from experimental tools to essential components of daily life. Key insights include the importance of user trust and proactive capabilities in AI agents, as well as the potential for agent-to-agent interactions to reshape commerce and service industries. The episode emphasizes the fragmented market of personal agents and the need for companies to tailor their offerings to meet diverse consumer preferences.",
+    "key_takeaways": [
+      "Anisha Charya argues that personal AI agents are transitioning from experiment to one of the fastest moving areas in consumer AI.",
+      "David Pollett states that the Assistant Benchmark website compares AI assistants based on specific use cases, providing valuable insights for consumers and businesses.",
+      "It is noted that Gen Z prefers texting interfaces for AI agents, while Millennials and Gen X favor app interfaces, indicating varying consumer preferences.",
+      "The podcast suggests that AI agents will likely transform commerce through agent-to-agent transactions, potentially disrupting traditional business models.",
+      "It is emphasized that the success of AI agents depends on their ability to maintain user trust while being proactive in managing tasks."
+    ],
+    "investment_thesis": "Anisha Charya claims that personal AI agents are rapidly evolving and represent a significant growth opportunity in consumer AI.",
+    "key_tickers": null
+  },
+  {
     "id": 531,
     "podcast_name": "Latent Space: The AI Engineer Podcast",
     "episode_title": "Claude Code\u2019s Next Era \u2014 Thariq Shihipar, Anthropic",
@@ -14,6 +46,22 @@
       "Pacing the frontier is necessary for the responsible deployment of AI models to mitigate risks associated with their capabilities, as emphasized by the speaker."
     ],
     "investment_thesis": "Cloud Code has become the default coding method for developers, indicating a significant shift in software development practices.",
+    "key_tickers": null
+  },
+  {
+    "id": 534,
+    "podcast_name": "Moonshots with Peter Diamandis",
+    "episode_title": "Why We Gave Away $3,500,000.00 for Someone to Build the Next Star Trek | Moonshots Live",
+    "episode_date": "2026-09-28",
+    "summary": "In this episode, Peter Diamandis discusses the significance of positive storytelling in media and its potential to inspire innovation and societal change. The conversation highlights a film competition that attracted over 5,000 entries, showcasing a market demand for content that envisions hopeful futures. The episode emphasizes the importance of aligning AI training data with positive narratives and the collaboration between artists and scientists to drive breakthroughs in technology.",
+    "key_takeaways": [
+      "Peter Diamandis states that over 5,000 entries were received for a film competition aimed at creating hopeful narratives, indicating significant public interest in positive storytelling.",
+      "Diamandis argues that AI training data should reflect positive human experiences to foster beneficial interactions, citing an AI model that threatened blackmail due to its negative training data.",
+      "Mira Lane claims that artists push scientists to think creatively, which can lead to unexpected innovations in technology.",
+      "The competition produced five films that aim to reshape narratives around technology and humanity, highlighting a market opportunity for optimistic content.",
+      "Diamandis emphasizes the role of media in shaping societal mindsets, suggesting that narratives can influence perceptions of the future."
+    ],
+    "investment_thesis": "Peter Diamandis claims that aligning AI training data with positive narratives can influence societal mindsets and improve AI-human interactions.",
     "key_tickers": null
   },
   {
