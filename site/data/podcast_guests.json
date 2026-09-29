@@ -1,6 +1,6 @@
 [
   {
-    "id": 76312,
+    "id": 76425,
     "name": "Diego Almeida",
     "slug": "diego-almeida",
     "bio": null,
@@ -12,7 +12,7 @@
     "appearance_count": 1
   },
   {
-    "id": 76313,
+    "id": 76426,
     "name": "Palmer Luckey",
     "slug": "palmer-luckey",
     "bio": null,
@@ -24,7 +24,7 @@
     "appearance_count": 1
   },
   {
-    "id": 76314,
+    "id": 76427,
     "name": "Eddie Lazaran",
     "slug": "eddie-lazaran",
     "bio": null,
@@ -36,7 +36,7 @@
     "appearance_count": 1
   },
   {
-    "id": 76315,
+    "id": 76428,
     "name": "Michael Every",
     "slug": "michael-every",
     "bio": null,
@@ -48,7 +48,7 @@
     "appearance_count": 1
   },
   {
-    "id": 76316,
+    "id": 76429,
     "name": "Steve Hilton & Spencer Pratt",
     "slug": "steve-hilton--spencer-pratt",
     "bio": null,
@@ -60,7 +60,7 @@
     "appearance_count": 1
   },
   {
-    "id": 76317,
+    "id": 76430,
     "name": "Blake Scholl",
     "slug": "blake-scholl",
     "bio": null,
@@ -72,7 +72,7 @@
     "appearance_count": 1
   },
   {
-    "id": 76318,
+    "id": 76431,
     "name": "John Platt",
     "slug": "john-platt",
     "bio": null,
@@ -84,7 +84,7 @@
     "appearance_count": 1
   },
   {
-    "id": 76319,
+    "id": 76432,
     "name": "Diogo Almeida",
     "slug": "diogo-almeida",
     "bio": null,
@@ -96,7 +96,7 @@
     "appearance_count": 1
   },
   {
-    "id": 76320,
+    "id": 76433,
     "name": "Naveen Rao",
     "slug": "naveen-rao",
     "bio": null,
@@ -108,7 +108,7 @@
     "appearance_count": 1
   },
   {
-    "id": 76321,
+    "id": 76434,
     "name": "Outlook on 5 Key Commodities",
     "slug": "outlook-on-5-key-commodities",
     "bio": null,
@@ -120,7 +120,7 @@
     "appearance_count": 1
   },
   {
-    "id": 76322,
+    "id": 76435,
     "name": "Bill Gurley",
     "slug": "bill-gurley",
     "bio": null,
@@ -132,7 +132,7 @@
     "appearance_count": 1
   },
   {
-    "id": 76323,
+    "id": 76436,
     "name": "Nick Shirley",
     "slug": "nick-shirley",
     "bio": null,
@@ -144,7 +144,7 @@
     "appearance_count": 1
   },
   {
-    "id": 76324,
+    "id": 76437,
     "name": "Jared Isaacman",
     "slug": "jared-isaacman",
     "bio": null,
@@ -156,7 +156,7 @@
     "appearance_count": 1
   },
   {
-    "id": 76325,
+    "id": 76438,
     "name": "Brad Gerstner",
     "slug": "brad-gerstner",
     "bio": null,
@@ -168,7 +168,7 @@
     "appearance_count": 1
   },
   {
-    "id": 76326,
+    "id": 76439,
     "name": "Meta's Dina Powell McCormick",
     "slug": "metas-dina-powell-mccormick",
     "bio": null,
@@ -180,7 +180,7 @@
     "appearance_count": 1
   },
   {
-    "id": 76327,
+    "id": 76440,
     "name": "Underwriting Superintelligence",
     "slug": "underwriting-superintelligence",
     "bio": null,
@@ -192,7 +192,7 @@
     "appearance_count": 1
   },
   {
-    "id": 76328,
+    "id": 76441,
     "name": "Hawks Take Flight",
     "slug": "hawks-take-flight",
     "bio": null,
@@ -204,7 +204,7 @@
     "appearance_count": 1
   },
   {
-    "id": 76329,
+    "id": 76442,
     "name": "Martine Rothblatt",
     "slug": "martine-rothblatt",
     "bio": null,
@@ -216,7 +216,7 @@
     "appearance_count": 1
   },
   {
-    "id": 76330,
+    "id": 76443,
     "name": "Microsoft CEO Satya Nadella",
     "slug": "microsoft-ceo-satya-nadella",
     "bio": null,
@@ -228,7 +228,7 @@
     "appearance_count": 1
   },
   {
-    "id": 76331,
+    "id": 76444,
     "name": "Jensen Huang",
     "slug": "jensen-huang",
     "bio": null,
@@ -240,7 +240,7 @@
     "appearance_count": 1
   },
   {
-    "id": 76332,
+    "id": 76445,
     "name": "Ask the Mates anything",
     "slug": "ask-the-mates-anything",
     "bio": null,
@@ -252,7 +252,7 @@
     "appearance_count": 1
   },
   {
-    "id": 76333,
+    "id": 76446,
     "name": "Matt Barry",
     "slug": "matt-barry",
     "bio": null,
@@ -264,7 +264,7 @@
     "appearance_count": 1
   },
   {
-    "id": 76334,
+    "id": 76447,
     "name": "Who Grades the AI Models?",
     "slug": "who-grades-the-ai-models",
     "bio": null,
@@ -276,7 +276,7 @@
     "appearance_count": 1
   },
   {
-    "id": 76335,
+    "id": 76448,
     "name": "Your AI Doctor Is Coming",
     "slug": "your-ai-doctor-is-coming",
     "bio": null,
@@ -288,7 +288,7 @@
     "appearance_count": 1
   },
   {
-    "id": 76336,
+    "id": 76449,
     "name": "Fei Fei Li",
     "slug": "fei-fei-li",
     "bio": null,
@@ -300,7 +300,7 @@
     "appearance_count": 1
   },
   {
-    "id": 76337,
+    "id": 76450,
     "name": "Financial strategist Jared Dillian",
     "slug": "financial-strategist-jared-dillian",
     "bio": null,
@@ -312,7 +312,7 @@
     "appearance_count": 1
   },
   {
-    "id": 76338,
+    "id": 76451,
     "name": "Daniel Litt",
     "slug": "daniel-litt",
     "bio": null,
@@ -324,7 +324,7 @@
     "appearance_count": 1
   },
   {
-    "id": 76339,
+    "id": 76452,
     "name": "Gavin Baker",
     "slug": "gavin-baker",
     "bio": null,
@@ -336,7 +336,7 @@
     "appearance_count": 1
   },
   {
-    "id": 76340,
+    "id": 76453,
     "name": "Sam Altman",
     "slug": "sam-altman",
     "bio": null,
@@ -348,7 +348,7 @@
     "appearance_count": 1
   },
   {
-    "id": 76341,
+    "id": 76454,
     "name": "Time to Reduce Equity Risk",
     "slug": "time-to-reduce-equity-risk",
     "bio": null,
