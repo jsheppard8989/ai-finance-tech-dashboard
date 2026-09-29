@@ -1,7 +1,7 @@
 {
  "schema": "dragonfly.universe_approved/1",
- "approved_by": "Jared, 2026-09-25 (Nasdaq-100 top 5 per Nasdaq screener sector, GOOGL kept over GOOG, SPCX in); frozen 2026-09-28 (Ditka): membership changes are Jared's call",
- "rule": "This file IS the ndx_top5 membership. Builds never re-rank or refresh it from the screener. Pinned names come from universe_config.json and are added on top (47 names in all on 2026-09-28: 36 here + 11 pinned). Each member's `sector` below is the Nasdaq label it was ranked under; at load time dragonfly/gics.py applies the GICS sector TAG (one-per-sector cap and sector_lagging only). To change membership, edit this file with Jared's approval.",
+ "approved_by": "Jared, 2026-09-25 (Nasdaq-100 top 5 per Nasdaq screener sector, GOOGL kept over GOOG, SPCX in); frozen 2026-09-28 (Ditka): membership changes are Jared's call; 2026-09-29 (Ditka, for Wednesday): add ADP, BKR, MU, PCAR, SBUX, PYPL; drop nobody; PDD stays out",
+ "rule": "This file IS the ndx_top5 membership. Builds never re-rank or refresh it from the screener. Pinned names come from universe_config.json and are added on top (53 names in all after 2026-09-29: 42 here + 11 pinned). Each member's `sector` below is the Nasdaq label it was ranked under (the six names added 2026-09-29 keep that same Nasdaq label; they were not re-ranked into a top-5 slot, so sector_rank is null). At load time dragonfly/gics.py applies the GICS sector TAG (one-per-sector cap and sector_lagging only). To change membership, edit this file with Jared's approval.",
  "frozen_from": "dragonfly/universe.json as of 2026-09-25T15:15:13-05:00 (commit 76e43e63)",
  "as_of": "2026-09-25T15:15:13-05:00",
  "as_of_date": "2026-09-25",
@@ -82,6 +82,28 @@
     "issuer": "booking holdings inc",
     "share_classes": [
      "BKNG"
+    ]
+   },
+   {
+    "ticker": "BKR",
+    "name": "Baker Hughes Company Class A Common Stock",
+    "sector": "Consumer Discretionary",
+    "sector_rank": null,
+    "market_cap": 55609601457.0,
+    "issuer": "baker hughes company",
+    "share_classes": [
+     "BKR"
+    ]
+   },
+   {
+    "ticker": "SBUX",
+    "name": "Starbucks Corporation Common Stock",
+    "sector": "Consumer Discretionary",
+    "sector_rank": null,
+    "market_cap": 108049200000.0,
+    "issuer": "starbucks corporation",
+    "share_classes": [
+     "SBUX"
     ]
    }
   ],
@@ -267,6 +289,28 @@
     "share_classes": [
      "TER"
     ]
+   },
+   {
+    "ticker": "PCAR",
+    "name": "PACCAR Inc. Common Stock",
+    "sector": "Industrials",
+    "sector_rank": null,
+    "market_cap": 58666005837.0,
+    "issuer": "paccar inc",
+    "share_classes": [
+     "PCAR"
+    ]
+   },
+   {
+    "ticker": "PYPL",
+    "name": "PayPal Holdings, Inc. Common Stock",
+    "sector": "Industrials",
+    "sector_rank": null,
+    "market_cap": 46246214848.0,
+    "issuer": "paypal holdings inc",
+    "share_classes": [
+     "PYPL"
+    ]
    }
   ],
   "Technology": [
@@ -324,6 +368,28 @@
     "issuer": "space exploration technologies corp",
     "share_classes": [
      "SPCX"
+    ]
+   },
+   {
+    "ticker": "ADP",
+    "name": "Automatic Data Processing, Inc. Common Stock",
+    "sector": "Technology",
+    "sector_rank": null,
+    "market_cap": 102975871037.0,
+    "issuer": "automatic data processing inc",
+    "share_classes": [
+     "ADP"
+    ]
+   },
+   {
+    "ticker": "MU",
+    "name": "Micron Technology, Inc. Common Stock",
+    "sector": "Technology",
+    "sector_rank": null,
+    "market_cap": 1205796597665.0,
+    "issuer": "micron technology inc",
+    "share_classes": [
+     "MU"
     ]
    }
   ],
@@ -838,6 +904,72 @@
    "issuer": "exelon corporation",
    "share_classes": [
     "EXC"
+   ]
+  },
+  {
+   "ticker": "ADP",
+   "name": "Automatic Data Processing, Inc. Common Stock",
+   "sector": "Technology",
+   "sector_rank": null,
+   "market_cap": 102975871037.0,
+   "issuer": "automatic data processing inc",
+   "share_classes": [
+    "ADP"
+   ]
+  },
+  {
+   "ticker": "BKR",
+   "name": "Baker Hughes Company Class A Common Stock",
+   "sector": "Consumer Discretionary",
+   "sector_rank": null,
+   "market_cap": 55609601457.0,
+   "issuer": "baker hughes company",
+   "share_classes": [
+    "BKR"
+   ]
+  },
+  {
+   "ticker": "MU",
+   "name": "Micron Technology, Inc. Common Stock",
+   "sector": "Technology",
+   "sector_rank": null,
+   "market_cap": 1205796597665.0,
+   "issuer": "micron technology inc",
+   "share_classes": [
+    "MU"
+   ]
+  },
+  {
+   "ticker": "PCAR",
+   "name": "PACCAR Inc. Common Stock",
+   "sector": "Industrials",
+   "sector_rank": null,
+   "market_cap": 58666005837.0,
+   "issuer": "paccar inc",
+   "share_classes": [
+    "PCAR"
+   ]
+  },
+  {
+   "ticker": "SBUX",
+   "name": "Starbucks Corporation Common Stock",
+   "sector": "Consumer Discretionary",
+   "sector_rank": null,
+   "market_cap": 108049200000.0,
+   "issuer": "starbucks corporation",
+   "share_classes": [
+    "SBUX"
+   ]
+  },
+  {
+   "ticker": "PYPL",
+   "name": "PayPal Holdings, Inc. Common Stock",
+   "sector": "Industrials",
+   "sector_rank": null,
+   "market_cap": 46246214848.0,
+   "issuer": "paypal holdings inc",
+   "share_classes": [
+    "PYPL"
    ]
   }
  ],

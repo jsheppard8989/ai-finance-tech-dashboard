@@ -67,10 +67,11 @@ Every Dragonfly network fetch (bars, chains, watchlist quotes) calls
     one-per-sector cap and the red team's sector_lagging flag. It NEVER decides
     membership: ranking stays on Nasdaq's label.
   - **Frozen membership** (`dragonfly/universe_approved.json`, Ditka/Jared
-    2026-09-28): when present it IS the top-5 membership (the 36 names
-    approved on 2026-09-25; 47 with the 11 pinned). Builds never fetch,
-    refresh or re-rank it, even with --refresh-universe; membership changes are
-    Jared's call and are made by editing that file.
+    2026-09-28): when present it IS the membership. It started as the 36 names
+    approved on 2026-09-25. On 2026-09-29 Jared added ADP, BKR, MU, PCAR, SBUX
+    and PYPL (nobody dropped; PDD stays out). 53 with the 11 pinned. Builds
+    never fetch, refresh or re-rank it, even with --refresh-universe;
+    membership changes are Jared's call and are made by editing that file.
 - **Share classes are collapsed to one per company before ranking**, so the
   ranking counts companies, not tickers.
   - Issuer: the explicit `ISSUER_ALIASES` map (Alphabet, Fox, News Corp);

@@ -160,13 +160,15 @@ def test_gics_sectors():
         (tmp / "bad.json").write_text(json.dumps({"schema": "nope"}))
         check(raises(lambda: nu.get_universe(tmp / "s2.json", fake_get_json(), datetime(2026, 9, 28), approved_path=tmp / "bad.json"),
                      ValueError), "malformed approved file raises (never falls back to a re-rank)")
-        # the committed approved file: the 36 top-5 names Jared approved on 2026-09-25
+        # the committed approved file: the 36 top-5 names from 2026-09-25, plus the
+        # six Jared added 2026-09-29 (ADP BKR MU PCAR SBUX PYPL). PDD stays out.
         real = nu.load_approved(_REAL_APPROVED)
         tick = sorted(m["ticker"] for m in real["members"])
-        check(len(tick) == 36 and {"GOOGL", "SPCX", "CCEP", "CMCSA", "CSCO", "KDP", "LITE", "TER", "WBD"} <= set(tick)
-              and not {"ADP", "BKR", "MU", "PCAR", "PDD", "PYPL", "SBUX", "GOOG"} & set(tick), "committed approved 36")
+        check(len(tick) == 42 and {"GOOGL", "SPCX", "CCEP", "CMCSA", "CSCO", "KDP", "LITE", "TER", "WBD",
+                                    "ADP", "BKR", "MU", "PCAR", "SBUX", "PYPL"} <= set(tick)
+              and not {"PDD", "GOOG"} & set(tick), "committed approved 42")
         pins = nu.load_pinned(Path(__file__).resolve().parent / "universe_config.json")
-        check(len(set(tick) | set(pins)) == 47 and not set(tick) & set(pins), "36 approved + 11 pinned = 47")
+        check(len(set(tick) | set(pins)) == 53 and not set(tick) & set(pins), "42 approved + 11 pinned = 53")
     finally:
         nu.GICS_ENABLED = False
 
