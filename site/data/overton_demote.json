@@ -1,6 +1,6 @@
 {
-  "_comment": "Terms hidden from the home Overton pipeline list (Jared yes 2026-09-22; + Project-Based Learning / Curiosity-Driven Learning 2026-09-23; + Bending Spoon(s) company-name demote 2026-09-24). Curated seeds in curated_overton.json still pin above this list. + Gating Mechanism promoted to curated 2026-09-28. Do not hand-edit data.js — this file is the durable demote switch.",
-  "_updated": "2026-09-28",
+  "_comment": "Terms hidden from the home Overton pipeline list (Jared yes 2026-09-22; + Project-Based Learning / Curiosity-Driven Learning 2026-09-23; + Bending Spoon(s) company-name demote 2026-09-24). Curated seeds in curated_overton.json still pin above this list. + Gating Mechanism promoted to curated 2026-09-28. + e-values, Quantization, Electrification, Skin in the Game, AI Personhood demoted 2026-09-29 (Jared yes). Do not hand-edit data.js — this file is the durable demote switch.",
+  "_updated": "2026-09-29",
   "demote": [
     {
       "term": "Taste",
@@ -37,6 +37,26 @@
     {
       "term": "Gating Mechanism",
       "reason": "Promoted to curated_overton.json (Jared yes 2026-09-28); hide pipeline copy to avoid a duplicate card"
+    },
+    {
+      "term": "e-values",
+      "reason": "Null source_podcasts; glossary card crowding the curated seeds (Jared yes 2026-09-29)"
+    },
+    {
+      "term": "Quantization",
+      "reason": "Null source_podcasts; glossary card crowding the curated seeds (Jared yes 2026-09-29)"
+    },
+    {
+      "term": "Electrification",
+      "reason": "Null source_podcasts; glossary card crowding the curated seeds (Jared yes 2026-09-29)"
+    },
+    {
+      "term": "Skin in the Game",
+      "reason": "Null source_podcasts; glossary card crowding the curated seeds (Jared yes 2026-09-29)"
+    },
+    {
+      "term": "AI Personhood",
+      "reason": "Null source_podcasts; glossary card crowding the curated seeds (Jared yes 2026-09-29)"
     }
   ]
 }
