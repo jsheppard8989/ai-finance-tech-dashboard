@@ -1,13 +1,13 @@
 {
   "_comment": "Home page summary of Trap Map. Regenerate from trap_map.json when a trap datapoint is stamped. Script hook: pipeline/regenerate_trap_home.py",
-  "_generated_at": "2026-09-29T12:08:42Z",
+  "_generated_at": "2026-09-29T13:13:57Z",
   "_source": "data/trap_map.json",
   "last_monitored": [
     {
       "id": "buyback-confession-captive-duration",
       "short_title": "Buyback / captive duration",
       "status": "WATCH",
-      "updated_at": "2026-09-24"
+      "updated_at": "2026-09-29"
     },
     {
       "id": "trap-1-power-interconnect",
@@ -35,8 +35,8 @@
     },
     {
       "trap_id": "buyback-confession-captive-duration",
-      "date_label": "Aug PCE 2026-09-30; Nov 4 2026 refunding",
-      "what": "Sep 30 Aug PCE (shared settle with 2s/5s/7s); Nov 4 2026 QRA buyback sizes. Belly week: 2Y Sep 22 No"
+      "date_label": "Aug PCE 2026-09-30; announce 2026-10-01; Nov 4 2026 refunding",
+      "what": "Sep 30 August PCE; Oct 1 announce for the 3-year (CUSIP 91282CRQ6) and 10-year reopen (91282CRF0) pl"
     }
   ]
 }
