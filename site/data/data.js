@@ -3,8 +3,8 @@
 
 const dashboardData = {
   schemaVersion: 2,
-  generatedAt: "2026-09-30T12:37:03.042174",
-  chartsVersion: "2026-09-30T06:38:55.284816",
+  generatedAt: "2026-09-30T12:44:14.299466",
+  chartsVersion: "2026-09-30T12:41:57.437577",
   priceSnapshot: {
   "AAPL": {
     "price": 329.4,
@@ -1173,8 +1173,8 @@ const dashboardData = {
       "source_type": "podcast",
       "source_name": "The a16z Show",
       "source_date": "2026-09-28",
-      "summary": "Ben Horowitz and Martin Casado interviewed Type-Safe AI founder Diego Almeida about why advanced AI has not yet produced broad automation inside software. Almeida framed the core problem as \"where the fuck is all the automation,\" arguing that Claude Code, Codex, Cursor, and other coding tools mostly make it faster to produce ordinary software rather than expanding what software can do.\n\nAlmeida described Jeff as a new programming primitive that lets developers turn natural language intent into structured decisions, confidence levels, and state-machine outputs that programs can use. He contrasted this with chatbots and agents, which often keep a human in the loop or rely on natural language loops instead of giving software a reliable internal intelligence layer.\n\nThe discussion returned repeatedly to reliability. Almeida argued that the product is not mainly about impressive demos, but about robustness: producing similarly intelligent behavior every time so software can run in the background without paging humans. He said every additional \"nine\" of reliability could unlock new applications, and he distinguished uptime, determinism, robustness, and intelligence as different reliability dimensions.\n\nThe hosts challenged Almeida on whether real-world automation is limited by data distribution and long-tail exceptions, using support workflows such as password resets and uniqueness of help-desk calls as examples. Almeida said he does not fully buy the data argument, pointing to OpenAI trying to automate customer service since 2020 and to Q4 2021 RLHF generalization as evidence that model intelligence has existed for some time, while the industry optimized for human evaluation rather than productive automation.\n\nThe market argument centered on SaaS. Almeida said the \"SaaS Apocalypse\" story from coding agents has panned out poorly because software is not easy to replicate, and he predicted an inverse version in which SaaS companies become major AI beneficiaries by embedding smarter workflows into products they already distribute to large customer bases.",
-      "key_takeaway": "Diego Almeida argues SaaS could see an inverse SaaS Apocalypse because Type-Safe AI's Jeff adds a natural-language-to-state-machine primitive inside existing products, unlike Claude Code or Codex generating ordinary code.",
+      "summary": "Ben Horowitz and Martin Casado interviewed Type-Safe AI founder Diogo Almeida about why advanced AI has not yet produced broad automation inside software. Almeida argued that the core problem is the lack of automation inside software, and that Claude Code, Codex, Cursor, and other coding tools mostly make it faster to produce ordinary software rather than expanding what software can do.\n\nAlmeida described Jev as a new programming primitive that lets developers turn natural language intent into structured decisions, confidence levels, and state-machine outputs that programs can use. He contrasted this with chatbots and agents, which often keep a human in the loop or rely on natural language loops instead of giving software a reliable internal intelligence layer.\n\nThe discussion returned repeatedly to reliability. Almeida argued that the product is not mainly about impressive demos, but about robustness: producing similarly intelligent behavior every time so software can run in the background without paging humans. He said every additional \"nine\" of reliability could unlock new applications, and he distinguished uptime, determinism, robustness, and intelligence as different reliability dimensions.\n\nThe hosts challenged Almeida on whether real-world automation is limited by data distribution and long-tail exceptions, using support workflows such as password resets and uniqueness of help-desk calls as examples. Almeida said he does not fully buy the data argument, pointing to OpenAI trying to automate customer service since 2020 and to Q4 2021 RLHF generalization as evidence that model intelligence has existed for some time, while the industry optimized for human evaluation rather than productive automation.\n\nThe market argument centered on SaaS. Almeida said the \"SaaS Apocalypse\" story from coding agents has panned out poorly because software is not easy to replicate, and he predicted an inverse version in which SaaS companies become major AI beneficiaries by embedding smarter workflows into products they already distribute to large customer bases.",
+      "key_takeaway": "Diogo Almeida argues SaaS could see an inverse SaaS Apocalypse because Type-Safe AI's Jev adds a natural-language-to-state-machine primitive inside existing products, unlike Claude Code or Codex generating ordinary code.",
       "tickers_mentioned": [
         "NVDA"
       ],
@@ -1187,15 +1187,15 @@ const dashboardData = {
       "podcast_episode_id": 527,
       "notable_quotes": [
         {
-          "speaker": "Diego Almeida",
-          "quote": "Where the fuck is all the automation?"
+          "speaker": "Diogo Almeida",
+          "quote": "I want to expand what software itself can do, such that things that should be automatable can then be automatable."
         },
         {
-          "speaker": "Diego Almeida",
+          "speaker": "Diogo Almeida",
           "quote": "What I want instead is smart software."
         },
         {
-          "speaker": "Diego Almeida",
+          "speaker": "Diogo Almeida",
           "quote": "But I think that SaaS will be one of the largest winners of like the whole AI game."
         }
       ]
@@ -15028,8 +15028,8 @@ const dashboardData = {
       "source_type": "podcast",
       "source_name": "The a16z Show",
       "source_date": "2026-09-28",
-      "summary": "Ben Horowitz and Martin Casado interviewed Type-Safe AI founder Diego Almeida about why advanced AI has not yet produced broad automation inside software. Almeida framed the core problem as \"where the fuck is all the automation,\" arguing that Claude Code, Codex, Cursor, and other coding tools mostly make it faster to produce ordinary software rather than expanding what software can do.\n\nAlmeida described Jeff as a new programming primitive that lets developers turn natural language intent into structured decisions, confidence levels, and state-machine outputs that programs can use. He contrasted this with chatbots and agents, which often keep a human in the loop or rely on natural language loops instead of giving software a reliable internal intelligence layer.\n\nThe discussion returned repeatedly to reliability. Almeida argued that the product is not mainly about impressive demos, but about robustness: producing similarly intelligent behavior every time so software can run in the background without paging humans. He said every additional \"nine\" of reliability could unlock new applications, and he distinguished uptime, determinism, robustness, and intelligence as different reliability dimensions.\n\nThe hosts challenged Almeida on whether real-world automation is limited by data distribution and long-tail exceptions, using support workflows such as password resets and uniqueness of help-desk calls as examples. Almeida said he does not fully buy the data argument, pointing to OpenAI trying to automate customer service since 2020 and to Q4 2021 RLHF generalization as evidence that model intelligence has existed for some time, while the industry optimized for human evaluation rather than productive automation.\n\nThe market argument centered on SaaS. Almeida said the \"SaaS Apocalypse\" story from coding agents has panned out poorly because software is not easy to replicate, and he predicted an inverse version in which SaaS companies become major AI beneficiaries by embedding smarter workflows into products they already distribute to large customer bases.",
-      "key_takeaway": "Diego Almeida argues SaaS could see an inverse SaaS Apocalypse because Type-Safe AI's Jeff adds a natural-language-to-state-machine primitive inside existing products, unlike Claude Code or Codex generating ordinary code.",
+      "summary": "Ben Horowitz and Martin Casado interviewed Type-Safe AI founder Diogo Almeida about why advanced AI has not yet produced broad automation inside software. Almeida argued that the core problem is the lack of automation inside software, and that Claude Code, Codex, Cursor, and other coding tools mostly make it faster to produce ordinary software rather than expanding what software can do.\n\nAlmeida described Jev as a new programming primitive that lets developers turn natural language intent into structured decisions, confidence levels, and state-machine outputs that programs can use. He contrasted this with chatbots and agents, which often keep a human in the loop or rely on natural language loops instead of giving software a reliable internal intelligence layer.\n\nThe discussion returned repeatedly to reliability. Almeida argued that the product is not mainly about impressive demos, but about robustness: producing similarly intelligent behavior every time so software can run in the background without paging humans. He said every additional \"nine\" of reliability could unlock new applications, and he distinguished uptime, determinism, robustness, and intelligence as different reliability dimensions.\n\nThe hosts challenged Almeida on whether real-world automation is limited by data distribution and long-tail exceptions, using support workflows such as password resets and uniqueness of help-desk calls as examples. Almeida said he does not fully buy the data argument, pointing to OpenAI trying to automate customer service since 2020 and to Q4 2021 RLHF generalization as evidence that model intelligence has existed for some time, while the industry optimized for human evaluation rather than productive automation.\n\nThe market argument centered on SaaS. Almeida said the \"SaaS Apocalypse\" story from coding agents has panned out poorly because software is not easy to replicate, and he predicted an inverse version in which SaaS companies become major AI beneficiaries by embedding smarter workflows into products they already distribute to large customer bases.",
+      "key_takeaway": "Diogo Almeida argues SaaS could see an inverse SaaS Apocalypse because Type-Safe AI's Jev adds a natural-language-to-state-machine primitive inside existing products, unlike Claude Code or Codex generating ordinary code.",
       "tickers_mentioned": "[\"NVDA\"]",
       "sentiment": "neutral",
       "display_on_main": 1,
@@ -15040,20 +15040,20 @@ const dashboardData = {
       "podcast_episode_id": 527,
       "notable_quotes": [
         {
-          "speaker": "Diego Almeida",
-          "quote": "Where the fuck is all the automation?"
+          "speaker": "Diogo Almeida",
+          "quote": "I want to expand what software itself can do, such that things that should be automatable can then be automatable."
         },
         {
-          "speaker": "Diego Almeida",
+          "speaker": "Diogo Almeida",
           "quote": "What I want instead is smart software."
         },
         {
-          "speaker": "Diego Almeida",
+          "speaker": "Diogo Almeida",
           "quote": "But I think that SaaS will be one of the largest winners of like the whole AI game."
         }
       ],
       "episode_release_date": "2026-09-28",
-      "guest_name": "Diego Almeida",
+      "guest_name": "Diogo Almeida",
       "key_tickers": []
     },
     {
@@ -45979,7 +45979,7 @@ const dashboardData = {
     "transcript_excerpt": null,
     "created_at": "2026-09-30T12:34:13.964141",
     "updated_at": "2026-09-30 17:34:13",
-    "episode_evidence": "Diego Almeida: \"My brand is pragmatism.\"\nDiego Almeida: \"my experience is that they are really good at syntax and really bad of semantics.\"\nDiego Almeida: \"if you don't aim for the guts, right, that's weird.\"",
+    "episode_evidence": "Diogo Almeida: \"My brand is pragmatism.\"\nDiogo Almeida: \"my experience is that they are really good at syntax and really bad of semantics.\"\nDiogo Almeida: \"if you don't aim for the guts, right, that's weird.\"",
     "falsification_tracks": [
       "By year-end 2026, at least five scaled SaaS vendors that publicly launched embedded AI workflows report no measurable reduction in support hours, ops labor, ticket reopen rates, or manual review queues versus pre-launch baselines.",
       "Independent evaluations show natural-language-to-structured-output systems remain below 99% task-level consistency on unchanged inputs with irrelevant perturbations such as UUIDs, reordered fields, or extra whitespace across common business workflows.",
@@ -46236,105 +46236,81 @@ const dashboardData = {
 },
   suggestedTerms: [
   {
-    "id": 796,
-    "term": "AI Adoption",
-    "definition": "The integration of artificial intelligence technologies into business processes, which is currently at an early stage in enterprises.",
-    "investment_implications": "Understanding AI adoption is crucial for identifying companies that will benefit from increased efficiency and productivity.",
+    "id": 802,
+    "term": "where the fuck is all the automation,",
+    "definition": "arguing that Claude Code, Codex, Cursor, and other coding tools mostly make it faster to produce ordinary software rather than expanding what software can do",
+    "investment_implications": null,
     "source_type": "auto_extracted",
     "mention_count": 1,
     "source_diversity": 1,
     "relevance_score": 50,
-    "submitted_date": "2026-09-30 11:37:33",
+    "submitted_date": "2026-09-30 17:41:58",
     "priority_score": 80
   },
   {
-    "id": 797,
-    "term": "Consumer AI Subscriptions",
-    "definition": "Paid subscription services for AI products aimed at consumers, which are currently underpenetrated in the market.",
-    "investment_implications": "The low penetration of consumer AI subscriptions suggests a significant growth opportunity for companies in this space.",
+    "id": 804,
+    "term": "free money",
+    "definition": "rather than traditional productivity, and he adds that financially and bureaucratically burdensome consumer workflows could create large vertical opportunities even if the winning horizontal agent int",
+    "investment_implications": null,
     "source_type": "auto_extracted",
     "mention_count": 1,
     "source_diversity": 1,
     "relevance_score": 50,
-    "submitted_date": "2026-09-30 11:37:33",
+    "submitted_date": "2026-09-30 17:41:58",
     "priority_score": 80
   },
   {
-    "id": 798,
-    "term": "Autonomous Agents",
-    "definition": "AI systems capable of performing tasks independently, which are expected to drive substantial investment growth.",
-    "investment_implications": "The anticipated growth in autonomous agents indicates new avenues for investment in AI and robotics.",
+    "id": 799,
+    "term": "United States",
+    "definition": null,
+    "investment_implications": null,
     "source_type": "auto_extracted",
-    "mention_count": 1,
+    "mention_count": 2,
     "source_diversity": 1,
-    "relevance_score": 50,
-    "submitted_date": "2026-09-30 11:37:33",
-    "priority_score": 80
+    "relevance_score": 30,
+    "submitted_date": "2026-09-30 17:41:58",
+    "priority_score": 70
   },
   {
-    "id": 795,
-    "term": "Tokenization",
-    "definition": "Tokenization is the process of converting physical or digital assets into digital tokens that can be traded on blockchain platforms.",
-    "investment_implications": "Tokenization can democratize access to investments and improve liquidity in financial markets.",
+    "id": 800,
+    "term": "North Korea",
+    "definition": null,
+    "investment_implications": null,
     "source_type": "auto_extracted",
-    "mention_count": 1,
+    "mention_count": 2,
     "source_diversity": 1,
-    "relevance_score": 50,
-    "submitted_date": "2026-09-29 18:58:11",
-    "priority_score": 80
+    "relevance_score": 30,
+    "submitted_date": "2026-09-30 17:41:58",
+    "priority_score": 70
   }
 ],
   podcastGuests: [
   {
-    "id": 77336,
-    "name": "Diego Almeida",
-    "slug": "diego-almeida",
-    "bio": null,
-    "known_for": null,
-    "last_main_idea": "Diego Almeida predicts that SaaS will be one of the largest winners of the AI integration trend.",
-    "last_episode_title": "AI Can Write Code. Why Isn\u2019t Software Better?",
-    "last_podcast_name": "The a16z Show",
-    "last_episode_date": "2026-09-28",
-    "appearance_count": 1
-  },
-  {
-    "id": 77337,
+    "id": 77450,
     "name": "Palmer Luckey",
     "slug": "palmer-luckey",
     "bio": null,
     "known_for": null,
-    "last_main_idea": "Palmer Luckey predicts that AI will massively reduce costs in resource extraction and processing, transforming various sectors.",
+    "last_main_idea": "Palmer Luckey argues Anduril can disrupt defense procurement because it self-funds specialized autonomous products in a market where 80% of major defense acquisition programs went to five companies.",
     "last_episode_title": "Palmer Luckey: Autonomous Weapons Are Ancient and Why Anduril Won't Build Humanoids  | Moonshots Live | EP #295",
     "last_podcast_name": "Moonshots with Peter Diamandis",
     "last_episode_date": "2026-09-28",
     "appearance_count": 1
   },
   {
-    "id": 77338,
+    "id": 77451,
     "name": "Daniel Ek",
     "slug": "daniel-ek",
     "bio": null,
     "known_for": null,
-    "last_main_idea": "Daniel Ek argues that Neco's focus on preventative healthcare through data and AI can significantly reduce costs and improve health outcomes.",
+    "last_main_idea": "Daniel Ek argues Neko Health's $499 vertically integrated scans can shift healthcare from reactive to preventative by combining 53 blood markers, 6,000 skin images, clinician review, and longitudinal AI.",
     "last_episode_title": "Daniel Ek: Life After Spotify, Broken Healthcare Incentives, Catching Disease Early & AI's Potential",
     "last_podcast_name": "All-In with Chamath, Jason, Sacks & Friedberg",
     "last_episode_date": "2026-09-28",
     "appearance_count": 1
   },
   {
-    "id": 77339,
-    "name": "Eddie Lazaran",
-    "slug": "eddie-lazaran",
-    "bio": null,
-    "known_for": null,
-    "last_main_idea": "The core investment opportunity lies in supporting AI companies that prioritize accountability, transparency, and societal benefits, as these factors will drive long-term value and trust in the sector.",
-    "last_episode_title": "The Case Against an AI Pause | Eddy Lazzarin",
-    "last_podcast_name": "The a16z Show",
-    "last_episode_date": "2026-09-24",
-    "appearance_count": 1
-  },
-  {
-    "id": 77340,
+    "id": 77452,
     "name": "Michael Every",
     "slug": "michael-every",
     "bio": null,
@@ -46346,7 +46322,7 @@ const dashboardData = {
     "appearance_count": 1
   },
   {
-    "id": 77341,
+    "id": 77453,
     "name": "Steve Hilton & Spencer Pratt",
     "slug": "steve-hilton--spencer-pratt",
     "bio": null,
@@ -46358,7 +46334,7 @@ const dashboardData = {
     "appearance_count": 1
   },
   {
-    "id": 77342,
+    "id": 77454,
     "name": "Blake Scholl",
     "slug": "blake-scholl",
     "bio": null,
@@ -46370,7 +46346,7 @@ const dashboardData = {
     "appearance_count": 1
   },
   {
-    "id": 77343,
+    "id": 77455,
     "name": "John Platt",
     "slug": "john-platt",
     "bio": null,
@@ -46382,7 +46358,7 @@ const dashboardData = {
     "appearance_count": 1
   },
   {
-    "id": 77344,
+    "id": 77456,
     "name": "Diogo Almeida",
     "slug": "diogo-almeida",
     "bio": null,
@@ -46394,7 +46370,7 @@ const dashboardData = {
     "appearance_count": 1
   },
   {
-    "id": 77345,
+    "id": 77457,
     "name": "Naveen Rao",
     "slug": "naveen-rao",
     "bio": null,
@@ -46406,7 +46382,7 @@ const dashboardData = {
     "appearance_count": 1
   },
   {
-    "id": 77346,
+    "id": 77458,
     "name": "Outlook on 5 Key Commodities",
     "slug": "outlook-on-5-key-commodities",
     "bio": null,
@@ -46418,7 +46394,7 @@ const dashboardData = {
     "appearance_count": 1
   },
   {
-    "id": 77347,
+    "id": 77459,
     "name": "Bill Gurley",
     "slug": "bill-gurley",
     "bio": null,
@@ -46430,7 +46406,7 @@ const dashboardData = {
     "appearance_count": 1
   },
   {
-    "id": 77348,
+    "id": 77460,
     "name": "Nick Shirley",
     "slug": "nick-shirley",
     "bio": null,
@@ -46442,7 +46418,7 @@ const dashboardData = {
     "appearance_count": 1
   },
   {
-    "id": 77349,
+    "id": 77461,
     "name": "Jared Isaacman",
     "slug": "jared-isaacman",
     "bio": null,
@@ -46454,7 +46430,7 @@ const dashboardData = {
     "appearance_count": 1
   },
   {
-    "id": 77350,
+    "id": 77462,
     "name": "Brad Gerstner",
     "slug": "brad-gerstner",
     "bio": null,
@@ -46466,7 +46442,7 @@ const dashboardData = {
     "appearance_count": 1
   },
   {
-    "id": 77351,
+    "id": 77463,
     "name": "Meta's Dina Powell McCormick",
     "slug": "metas-dina-powell-mccormick",
     "bio": null,
@@ -46478,7 +46454,7 @@ const dashboardData = {
     "appearance_count": 1
   },
   {
-    "id": 77352,
+    "id": 77464,
     "name": "Underwriting Superintelligence",
     "slug": "underwriting-superintelligence",
     "bio": null,
@@ -46490,7 +46466,7 @@ const dashboardData = {
     "appearance_count": 1
   },
   {
-    "id": 77353,
+    "id": 77465,
     "name": "Hawks Take Flight",
     "slug": "hawks-take-flight",
     "bio": null,
@@ -46502,7 +46478,7 @@ const dashboardData = {
     "appearance_count": 1
   },
   {
-    "id": 77354,
+    "id": 77466,
     "name": "Martine Rothblatt",
     "slug": "martine-rothblatt",
     "bio": null,
@@ -46514,7 +46490,7 @@ const dashboardData = {
     "appearance_count": 1
   },
   {
-    "id": 77355,
+    "id": 77467,
     "name": "Microsoft CEO Satya Nadella",
     "slug": "microsoft-ceo-satya-nadella",
     "bio": null,
@@ -46523,6 +46499,30 @@ const dashboardData = {
     "last_episode_title": "Satya Nadella on the AI Doomer Slowdown, Microsoft's Master Plan & Who Wins AI",
     "last_podcast_name": "All-In with Chamath, Jason, Sacks & Friedberg",
     "last_episode_date": "2026-09-15",
+    "appearance_count": 1
+  },
+  {
+    "id": 77468,
+    "name": "Jensen Huang",
+    "slug": "jensen-huang",
+    "bio": null,
+    "known_for": null,
+    "last_main_idea": "Investing in AI companies that prioritize safety, leverage open-source models, and demonstrate strong operational capabilities will likely yield significant returns as the sector evolves.",
+    "last_episode_title": "Jensen Huang: The Doomer Hoax, Superintelligence Is Here, and The Future of AI (ft. President Trump)",
+    "last_podcast_name": "All-In with Chamath, Jason, Sacks & Friedberg",
+    "last_episode_date": "2026-09-14",
+    "appearance_count": 1
+  },
+  {
+    "id": 77469,
+    "name": "Ask the Mates anything",
+    "slug": "ask-the-mates-anything",
+    "bio": null,
+    "known_for": null,
+    "last_main_idea": "AI is rapidly becoming the foundational enabling layer across healthcare, neurotechnology, education, and energy, creating a multi-decade opportunity to invest in startups and platforms that replace legacy systems with predictive, personalized, and exponentially scalable solutions.",
+    "last_episode_title": "Ask the Mates anything | MOONSHOTS AMA  #289",
+    "last_podcast_name": "Moonshots with Peter Diamandis",
+    "last_episode_date": "2026-09-13",
     "appearance_count": 1
   }
 ],
@@ -47579,10 +47579,10 @@ const dashboardData = {
     "last_episode_date": "2026-09-28",
     "mention_score": 1,
     "mention_score_decayed": 0.95,
-    "last_main_idea": "Diego Almeida argues SaaS could see an inverse SaaS Apocalypse because Type-Safe AI's Jeff adds a natural-language-to-state-machine primitive inside existing products, unlike Claude Code or Codex generating ordinary code.",
+    "last_main_idea": "Diogo Almeida argues SaaS could see an inverse SaaS Apocalypse because Type-Safe AI's Jev adds a natural-language-to-state-machine primitive inside existing products, unlike Claude Code or Codex generating ordinary code.",
     "last_proof_cite": "The a16z Show \u2022 2026-09-28 \u2022 AI Can Write Code. Why Isn\u2019t Software Better?",
     "last_proof_snippet": "Where the fuck is all the automation? AI is so unbelievably smart, and yet it's so useless at all other stuff. It doesn't matter how much AI cutting agents you use, the software actually isn't getting better. Maybe you're ready to get faste",
-    "supporting_takeaway": "Diego Almeida claims OpenAI has tried to automate customer service since 2020, but basic workflows remain hard to automate because the industry optimized models for human judges and demos rather than background software reliability.",
+    "supporting_takeaway": "Diogo Almeida claims OpenAI has tried to automate customer service since 2020, but basic workflows remain hard to automate because the industry optimized models for human judges and demos rather than background software reliability.",
     "grokipedia_url": null,
     "grokipedia_fetched_at": "2026-09-28T06:51:56.462771",
     "pundit_profile": {
