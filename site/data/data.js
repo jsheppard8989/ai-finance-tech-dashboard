@@ -3,1043 +3,1043 @@
 
 const dashboardData = {
   schemaVersion: 2,
-  generatedAt: "2026-09-29T23:49:03.881987",
-  chartsVersion: "2026-09-29T23:48:53.190953",
+  generatedAt: "2026-09-30T05:06:29.079723",
+  chartsVersion: "2026-09-30T05:06:12.636293",
   priceSnapshot: {
   "AAPL": {
     "price": 329.4,
     "change_pct": 0.87,
     "name": "Apple Inc.",
-    "updated_at": "2026-09-29T23:47:50.654458",
+    "updated_at": "2026-09-30T05:04:58.081572",
     "price_14d_ago": 326.57
   },
   "AEP": {
     "price": 119.3,
     "change_pct": -3.38,
     "name": "American Electric Power Company",
-    "updated_at": "2026-09-29T23:47:50.897802",
+    "updated_at": "2026-09-30T05:04:58.329783",
     "price_14d_ago": 123.47
   },
   "AMD": {
     "price": 607.57,
     "change_pct": 20.65,
     "name": "Advanced Micro Devices, Inc.",
-    "updated_at": "2026-09-29T23:47:51.073811",
+    "updated_at": "2026-09-30T05:04:58.510538",
     "price_14d_ago": 503.6
   },
   "AMGN": {
     "price": 423.64,
     "change_pct": 10.76,
     "name": "Amgen Inc.",
-    "updated_at": "2026-09-29T23:47:51.260155",
+    "updated_at": "2026-09-30T05:04:58.696369",
     "price_14d_ago": 382.47
   },
   "AMZN": {
     "price": 246.67,
     "change_pct": -2.07,
     "name": "Amazon.com, Inc.",
-    "updated_at": "2026-09-29T23:47:51.427076",
+    "updated_at": "2026-09-30T05:04:58.871889",
     "price_14d_ago": 251.89
   },
   "APO": {
     "price": 119.0,
     "change_pct": -6.97,
     "name": "Apollo Global Management, Inc. ",
-    "updated_at": "2026-09-29T23:47:51.599378",
+    "updated_at": "2026-09-30T05:04:59.112097",
     "price_14d_ago": 127.91
   },
   "APTV": {
     "price": 43.37,
     "change_pct": -5.08,
     "name": "Aptiv PLC",
-    "updated_at": "2026-09-29T23:47:51.769146",
+    "updated_at": "2026-09-30T05:04:59.282553",
     "price_14d_ago": 45.69
   },
   "AVGO": {
     "price": 355.1,
     "change_pct": -1.59,
     "name": "Broadcom Inc.",
-    "updated_at": "2026-09-29T23:47:51.966481",
+    "updated_at": "2026-09-30T05:04:59.476531",
     "price_14d_ago": 360.83
   },
   "BA": {
     "price": 187.68,
     "change_pct": -8.36,
     "name": "Boeing Company (The)",
-    "updated_at": "2026-09-29T23:47:52.352089",
+    "updated_at": "2026-09-30T05:04:59.873066",
     "price_14d_ago": 204.8
   },
   "BABA": {
     "price": 107.74,
     "change_pct": -0.76,
     "name": "Alibaba Group Holding Limited",
-    "updated_at": "2026-09-29T23:47:52.519960",
+    "updated_at": "2026-09-30T05:05:00.042725",
     "price_14d_ago": 108.56
   },
   "BAC": {
     "price": 54.96,
     "change_pct": -12.15,
     "name": "Bank of America Corporation",
-    "updated_at": "2026-09-29T23:47:52.763886",
+    "updated_at": "2026-09-30T05:05:00.249067",
     "price_14d_ago": 62.56
   },
   "BAM": {
     "price": 44.97,
     "change_pct": -4.81,
     "name": "Brookfield Asset Management Inc",
-    "updated_at": "2026-09-29T23:47:52.935620",
+    "updated_at": "2026-09-30T05:05:00.426023",
     "price_14d_ago": 47.24
   },
   "BIDU": {
     "price": 86.71,
     "change_pct": -4.28,
     "name": "Baidu, Inc.",
-    "updated_at": "2026-09-29T23:47:53.261895",
+    "updated_at": "2026-09-30T05:05:00.765174",
     "price_14d_ago": 90.59
   },
   "BP": {
     "price": 43.52,
     "change_pct": -5.56,
     "name": "BP p.l.c.",
-    "updated_at": "2026-09-29T23:47:53.663649",
+    "updated_at": "2026-09-30T05:05:01.163993",
     "price_14d_ago": 46.08
   },
   "BTC": {
-    "price": 83261.44,
-    "change_pct": 8.98,
+    "price": 83719.18,
+    "change_pct": 9.57,
     "name": "Bitcoin USD",
-    "updated_at": "2026-09-29T23:47:53.827132",
+    "updated_at": "2026-09-30T05:05:01.334900",
     "price_14d_ago": 76403.77
   },
   "BTC-USD": {
-    "price": 83260.15,
-    "change_pct": 8.97,
+    "price": 83719.18,
+    "change_pct": 9.57,
     "name": "Bitcoin USD",
-    "updated_at": "2026-09-29T23:47:53.992124",
+    "updated_at": "2026-09-30T05:05:01.503888",
     "price_14d_ago": 76403.77
   },
   "BX": {
     "price": 114.0,
     "change_pct": -9.1,
     "name": "Blackstone Inc.",
-    "updated_at": "2026-09-29T23:47:54.169083",
+    "updated_at": "2026-09-30T05:05:01.704484",
     "price_14d_ago": 125.41
   },
   "BYD": {
     "price": 67.08,
     "change_pct": -12.26,
     "name": "Boyd Gaming Corporation",
-    "updated_at": "2026-09-29T23:47:54.367165",
+    "updated_at": "2026-09-30T05:05:01.906379",
     "price_14d_ago": 76.45
   },
   "CAT": {
     "price": 826.64,
     "change_pct": 2.69,
     "name": "Caterpillar, Inc.",
-    "updated_at": "2026-09-29T23:47:54.744879",
+    "updated_at": "2026-09-30T05:05:02.296175",
     "price_14d_ago": 805.0
   },
   "CCJ": {
     "price": 86.88,
     "change_pct": -10.82,
     "name": "Cameco Corporation",
-    "updated_at": "2026-09-29T23:47:54.931570",
+    "updated_at": "2026-09-30T05:05:02.508523",
     "price_14d_ago": 97.42
   },
   "CEG": {
     "price": 264.58,
     "change_pct": -7.48,
     "name": "Constellation Energy Corporatio",
-    "updated_at": "2026-09-29T23:47:55.113503",
+    "updated_at": "2026-09-30T05:05:02.671266",
     "price_14d_ago": 285.97
   },
   "COIN": {
     "price": 190.02,
     "change_pct": 10.3,
     "name": "Coinbase Global, Inc.",
-    "updated_at": "2026-09-29T23:47:55.281295",
+    "updated_at": "2026-09-30T05:05:02.841373",
     "price_14d_ago": 172.28
   },
   "COPPER": {
-    "price": 6.62,
-    "change_pct": 2.34,
+    "price": 6.63,
+    "change_pct": 2.43,
     "name": "Copper",
-    "updated_at": "2026-09-29T23:47:55.443218",
+    "updated_at": "2026-09-30T05:05:03.083492",
     "price_14d_ago": 6.47
   },
   "CORN": {
     "price": 19.5,
     "change_pct": -2.55,
     "name": "Teucrium Corn Fund ETV",
-    "updated_at": "2026-09-29T23:47:55.606007",
+    "updated_at": "2026-09-30T05:05:03.249570",
     "price_14d_ago": 20.01
   },
   "CRM": {
     "price": 225.31,
     "change_pct": -7.28,
     "name": "Salesforce, Inc.",
-    "updated_at": "2026-09-29T23:47:55.772035",
+    "updated_at": "2026-09-30T05:05:03.416382",
     "price_14d_ago": 243.0
   },
   "CROWD": {
     "price": 262.74,
     "change_pct": 25.8,
     "name": "CrowdStrike Holdings, Inc.",
-    "updated_at": "2026-09-29T23:47:55.945244",
+    "updated_at": "2026-09-30T05:05:03.597915",
     "price_14d_ago": 208.86
   },
   "DBC": {
     "price": 32.0,
     "change_pct": -4.82,
     "name": "Invesco DB Commodity Index Trac",
-    "updated_at": "2026-09-29T23:47:56.300138",
+    "updated_at": "2026-09-30T05:05:03.944239",
     "price_14d_ago": 33.62
   },
   "DELL": {
     "price": 539.59,
     "change_pct": 6.51,
     "name": "Dell Technologies Inc.",
-    "updated_at": "2026-09-29T23:47:56.468198",
+    "updated_at": "2026-09-30T05:05:04.118353",
     "price_14d_ago": 506.62
   },
   "DIS": {
     "price": 105.41,
     "change_pct": -0.39,
     "name": "Walt Disney Company (The)",
-    "updated_at": "2026-09-29T23:47:56.712432",
+    "updated_at": "2026-09-30T05:05:04.351401",
     "price_14d_ago": 105.82
   },
   "DOCS": {
     "price": 26.52,
     "change_pct": 7.32,
     "name": "Doximity, Inc.",
-    "updated_at": "2026-09-29T23:47:56.890859",
+    "updated_at": "2026-09-30T05:05:04.526046",
     "price_14d_ago": 24.71
   },
   "DVN": {
     "price": 46.6,
     "change_pct": -6.84,
     "name": "Devon Energy Corporation",
-    "updated_at": "2026-09-29T23:47:57.077853",
+    "updated_at": "2026-09-30T05:05:04.735256",
     "price_14d_ago": 50.02
   },
   "EBAY": {
     "price": 105.21,
     "change_pct": 0.17,
     "name": "eBay Inc.",
-    "updated_at": "2026-09-29T23:47:57.247683",
+    "updated_at": "2026-09-30T05:05:04.919161",
     "price_14d_ago": 105.03
   },
   "ETH-USD": {
-    "price": 2671.5,
-    "change_pct": 9.17,
+    "price": 2688.51,
+    "change_pct": 9.86,
     "name": "Ethereum USD",
-    "updated_at": "2026-09-29T23:47:57.429462",
+    "updated_at": "2026-09-30T05:05:05.091521",
     "price_14d_ago": 2447.11
   },
   "F": {
     "price": 12.3,
     "change_pct": -11.38,
     "name": "Ford Motor Company",
-    "updated_at": "2026-09-29T23:47:57.632704",
+    "updated_at": "2026-09-30T05:05:05.310980",
     "price_14d_ago": 13.88
   },
   "FB": {
     "price": 45.53,
     "change_pct": 0.81,
     "name": "ProShares S&P 500 Dynamic Buffe",
-    "updated_at": "2026-09-29T23:47:57.798715",
+    "updated_at": "2026-09-30T05:05:05.485885",
     "price_14d_ago": 45.16
   },
   "FCX": {
     "price": 70.79,
     "change_pct": -0.59,
     "name": "Freeport-McMoRan, Inc.",
-    "updated_at": "2026-09-29T23:47:57.988766",
+    "updated_at": "2026-09-30T05:05:05.686522",
     "price_14d_ago": 71.21
   },
   "FSK": {
     "price": 11.11,
     "change_pct": -6.56,
     "name": "FS KKR Capital Corp.",
-    "updated_at": "2026-09-29T23:47:58.556893",
+    "updated_at": "2026-09-30T05:05:06.227974",
     "price_14d_ago": 11.89
   },
   "GC": {
     "price": 0,
     "change_pct": 0,
     "name": "Gold",
-    "updated_at": "2026-09-29T23:47:58.730228",
+    "updated_at": "2026-09-30T05:05:06.548097",
     "price_14d_ago": null
   },
   "GD": {
     "price": 332.34,
     "change_pct": -6.18,
     "name": "General Dynamics Corporation",
-    "updated_at": "2026-09-29T23:47:58.933736",
+    "updated_at": "2026-09-30T05:05:06.919381",
     "price_14d_ago": 354.25
   },
   "GE": {
     "price": 317.89,
     "change_pct": -1.93,
     "name": "GE Aerospace",
-    "updated_at": "2026-09-29T23:47:59.177839",
+    "updated_at": "2026-09-30T05:05:07.133488",
     "price_14d_ago": 324.15
   },
   "GLD": {
     "price": 382.89,
     "change_pct": -3.4,
     "name": "SPDR Gold Shares",
-    "updated_at": "2026-09-29T23:47:59.339652",
+    "updated_at": "2026-09-30T05:05:07.305352",
     "price_14d_ago": 396.36
   },
   "GME": {
     "price": 23.76,
     "change_pct": 16.53,
     "name": "GameStop Corporation",
-    "updated_at": "2026-09-29T23:47:59.501004",
+    "updated_at": "2026-09-30T05:05:07.490912",
     "price_14d_ago": 20.39
   },
   "GOLD": {
-    "price": 4213.3,
-    "change_pct": -4.44,
+    "price": 4218.9,
+    "change_pct": -4.31,
     "name": "Gold",
-    "updated_at": "2026-09-29T23:47:59.658461",
+    "updated_at": "2026-09-30T05:05:07.669773",
     "price_14d_ago": 4408.9
   },
   "GOOG": {
     "price": 337.32,
     "change_pct": 2.1,
     "name": "Alphabet Inc.",
-    "updated_at": "2026-09-29T23:47:59.823771",
+    "updated_at": "2026-09-30T05:05:07.853259",
     "price_14d_ago": 330.39
   },
   "GOOGL": {
     "price": 340.92,
     "change_pct": 2.5,
     "name": "Alphabet Inc.",
-    "updated_at": "2026-09-29T23:47:59.984178",
+    "updated_at": "2026-09-30T05:05:08.033958",
     "price_14d_ago": 332.6
   },
   "GS": {
     "price": 916.24,
     "change_pct": -10.15,
     "name": "Goldman Sachs Group, Inc. (The)",
-    "updated_at": "2026-09-29T23:48:00.170675",
+    "updated_at": "2026-09-30T05:05:08.230105",
     "price_14d_ago": 1019.77
   },
   "Gold": {
     "price": 42.88,
     "change_pct": -6.54,
     "name": "Gold.com, Inc.",
-    "updated_at": "2026-09-29T23:48:00.344333",
+    "updated_at": "2026-09-30T05:05:08.421220",
     "price_14d_ago": 45.88
   },
   "HFGM": {
     "price": 31.35,
     "change_pct": -2.14,
     "name": "Unlimited HFGM Global Macro ETF",
-    "updated_at": "2026-09-29T23:48:00.503821",
+    "updated_at": "2026-09-30T05:05:08.616537",
     "price_14d_ago": 32.04
   },
   "HG": {
     "price": 33.35,
     "change_pct": -4.44,
     "name": "Hamilton Insurance Group, Ltd.",
-    "updated_at": "2026-09-29T23:48:00.664876",
+    "updated_at": "2026-09-30T05:05:08.794677",
     "price_14d_ago": 34.9
   },
   "IBM": {
     "price": 219.99,
     "change_pct": -6.0,
     "name": "International Business Machines",
-    "updated_at": "2026-09-29T23:48:01.020761",
+    "updated_at": "2026-09-30T05:05:09.176593",
     "price_14d_ago": 234.02
   },
   "IEF": {
     "price": 89.45,
     "change_pct": -1.9,
     "name": "iShares 7-10 Year Treasury Bond",
-    "updated_at": "2026-09-29T23:48:01.199322",
+    "updated_at": "2026-09-30T05:05:09.380539",
     "price_14d_ago": 91.18
   },
   "INDA": {
     "price": 46.94,
     "change_pct": -2.43,
     "name": "Ishares MSCI India ETF",
-    "updated_at": "2026-09-29T23:48:01.381829",
+    "updated_at": "2026-09-30T05:05:09.571303",
     "price_14d_ago": 48.11
   },
   "INFY": {
     "price": 10.64,
     "change_pct": -2.47,
     "name": "Infosys Limited",
-    "updated_at": "2026-09-29T23:48:01.567665",
+    "updated_at": "2026-09-30T05:05:09.767422",
     "price_14d_ago": 10.91
   },
   "INTC": {
     "price": 115.93,
     "change_pct": 15.56,
     "name": "Intel Corporation",
-    "updated_at": "2026-09-29T23:48:01.748601",
+    "updated_at": "2026-09-30T05:05:09.975142",
     "price_14d_ago": 100.32
   },
   "IWD": {
     "price": 248.98,
     "change_pct": -1.72,
     "name": "iShares Russell 1000 Value ETF",
-    "updated_at": "2026-09-29T23:48:01.929333",
+    "updated_at": "2026-09-30T05:05:10.194362",
     "price_14d_ago": 253.33
   },
   "IWF": {
     "price": 125.3,
     "change_pct": 3.28,
     "name": "iShares Russell 1000 Growth Fun",
-    "updated_at": "2026-09-29T23:48:02.106469",
+    "updated_at": "2026-09-30T05:05:10.388038",
     "price_14d_ago": 121.32
   },
   "IWM": {
     "price": 279.01,
     "change_pct": -3.02,
     "name": "iShares Russell 2000 Index Fund",
-    "updated_at": "2026-09-29T23:48:02.291386",
+    "updated_at": "2026-09-30T05:05:10.589659",
     "price_14d_ago": 287.7
   },
   "JNJ": {
     "price": 267.57,
     "change_pct": 0.46,
     "name": "Johnson & Johnson",
-    "updated_at": "2026-09-29T23:48:02.492766",
+    "updated_at": "2026-09-30T05:05:10.823964",
     "price_14d_ago": 266.35
   },
   "JPM": {
     "price": 334.98,
     "change_pct": -5.26,
     "name": "JP Morgan Chase & Co.",
-    "updated_at": "2026-09-29T23:48:02.754593",
+    "updated_at": "2026-09-30T05:05:11.049609",
     "price_14d_ago": 353.56
   },
   "KKR": {
     "price": 93.18,
     "change_pct": -7.62,
     "name": "KKR & Co. Inc.",
-    "updated_at": "2026-09-29T23:48:02.941082",
+    "updated_at": "2026-09-30T05:05:11.237778",
     "price_14d_ago": 100.87
   },
   "LLY": {
     "price": 1184.63,
     "change_pct": 5.49,
     "name": "Eli Lilly and Company",
-    "updated_at": "2026-09-29T23:48:03.158913",
+    "updated_at": "2026-09-30T05:05:11.464950",
     "price_14d_ago": 1123.0
   },
   "LMT": {
     "price": 512.21,
     "change_pct": -3.38,
     "name": "Lockheed Martin Corporation",
-    "updated_at": "2026-09-29T23:48:03.380850",
+    "updated_at": "2026-09-30T05:05:11.703466",
     "price_14d_ago": 530.12
   },
   "LYFT": {
     "price": 15.07,
     "change_pct": 0.33,
     "name": "Lyft, Inc.",
-    "updated_at": "2026-09-29T23:48:03.860063",
+    "updated_at": "2026-09-30T05:05:12.230421",
     "price_14d_ago": 15.02
   },
   "META": {
     "price": 738.79,
     "change_pct": 14.65,
     "name": "Meta Platforms, Inc.",
-    "updated_at": "2026-09-29T23:48:04.027323",
+    "updated_at": "2026-09-30T05:05:12.453682",
     "price_14d_ago": 644.38
   },
   "MGM": {
     "price": 31.52,
     "change_pct": -22.61,
     "name": "MGM Resorts International",
-    "updated_at": "2026-09-29T23:48:04.213431",
+    "updated_at": "2026-09-30T05:05:12.645253",
     "price_14d_ago": 40.73
   },
   "MINE": {
     "price": 2.68,
     "change_pct": -11.26,
     "name": "Mayfair Gold Corp.",
-    "updated_at": "2026-09-29T23:48:04.382342",
+    "updated_at": "2026-09-30T05:05:12.819359",
     "price_14d_ago": 3.02
   },
   "MRK": {
     "price": 149.28,
     "change_pct": 3.16,
     "name": "Merck & Company, Inc.",
-    "updated_at": "2026-09-29T23:48:04.604889",
+    "updated_at": "2026-09-30T05:05:13.046030",
     "price_14d_ago": 144.71
   },
   "MRNA": {
     "price": 203.46,
     "change_pct": 48.92,
     "name": "Moderna, Inc.",
-    "updated_at": "2026-09-29T23:48:04.771767",
+    "updated_at": "2026-09-30T05:05:13.223765",
     "price_14d_ago": 136.62
   },
   "MS": {
     "price": 192.76,
     "change_pct": -9.36,
     "name": "Morgan Stanley",
-    "updated_at": "2026-09-29T23:48:04.958059",
+    "updated_at": "2026-09-30T05:05:13.430630",
     "price_14d_ago": 212.66
   },
   "MSFT": {
     "price": 508.96,
     "change_pct": 3.35,
     "name": "Microsoft Corporation",
-    "updated_at": "2026-09-29T23:48:05.143301",
+    "updated_at": "2026-09-30T05:05:13.623314",
     "price_14d_ago": 492.44
   },
   "MSTR": {
     "price": 154.67,
     "change_pct": 20.31,
     "name": "Strategy Inc",
-    "updated_at": "2026-09-29T23:48:05.309618",
+    "updated_at": "2026-09-30T05:05:13.798875",
     "price_14d_ago": 128.56
   },
   "MU": {
     "price": 1065.08,
     "change_pct": 8.97,
     "name": "Micron Technology, Inc.",
-    "updated_at": "2026-09-29T23:48:05.520015",
+    "updated_at": "2026-09-30T05:05:14.003857",
     "price_14d_ago": 977.41
   },
   "NEE": {
     "price": 75.89,
     "change_pct": -7.95,
     "name": "NextEra Energy, Inc.",
-    "updated_at": "2026-09-29T23:48:05.740833",
+    "updated_at": "2026-09-30T05:05:14.299019",
     "price_14d_ago": 82.44
   },
   "NFLX": {
     "price": 70.3,
     "change_pct": -7.51,
     "name": "Netflix, Inc.",
-    "updated_at": "2026-09-29T23:48:05.973767",
+    "updated_at": "2026-09-30T05:05:14.474221",
     "price_14d_ago": 76.01
   },
   "NKE": {
     "price": 35.84,
     "change_pct": -2.13,
     "name": "Nike, Inc.",
-    "updated_at": "2026-09-29T23:48:06.510409",
+    "updated_at": "2026-09-30T05:05:15.032268",
     "price_14d_ago": 36.62
   },
   "NOC": {
     "price": 504.61,
     "change_pct": -2.76,
     "name": "Northrop Grumman Corporation",
-    "updated_at": "2026-09-29T23:48:06.716112",
+    "updated_at": "2026-09-30T05:05:15.246236",
     "price_14d_ago": 518.95
   },
   "NVDA": {
     "price": 227.21,
     "change_pct": 4.05,
     "name": "NVIDIA Corporation",
-    "updated_at": "2026-09-29T23:48:06.893386",
+    "updated_at": "2026-09-30T05:05:15.432681",
     "price_14d_ago": 218.36
   },
   "NVS": {
     "price": 145.71,
     "change_pct": 5.99,
     "name": "Novartis AG",
-    "updated_at": "2026-09-29T23:48:07.246013",
+    "updated_at": "2026-09-30T05:05:15.808447",
     "price_14d_ago": 137.48
   },
   "Nasdaq": {
     "price": 737.93,
     "change_pct": 4.13,
     "name": "Invesco QQQ Trust, Series 1",
-    "updated_at": "2026-09-29T23:48:07.437958",
+    "updated_at": "2026-09-30T05:05:15.999286",
     "price_14d_ago": 708.69
   },
   "OKLO": {
     "price": 37.11,
     "change_pct": -6.95,
     "name": "Oklo Inc.",
-    "updated_at": "2026-09-29T23:48:07.770651",
+    "updated_at": "2026-09-30T05:05:16.355614",
     "price_14d_ago": 39.88
   },
   "ORCL": {
     "price": 137.79,
     "change_pct": -9.91,
     "name": "Oracle Corporation",
-    "updated_at": "2026-09-29T23:48:08.113657",
+    "updated_at": "2026-09-30T05:05:16.717400",
     "price_14d_ago": 152.94
   },
   "PALL": {
     "price": 22.14,
     "change_pct": -4.69,
     "name": "abrdn Physical Palladium Shares",
-    "updated_at": "2026-09-29T23:48:08.276187",
+    "updated_at": "2026-09-30T05:05:16.896549",
     "price_14d_ago": 23.23
   },
   "PANW": {
     "price": 388.41,
     "change_pct": 14.75,
     "name": "Palo Alto Networks, Inc.",
-    "updated_at": "2026-09-29T23:48:08.439322",
+    "updated_at": "2026-09-30T05:05:17.074638",
     "price_14d_ago": 338.49
   },
   "PBR": {
     "price": 20.65,
     "change_pct": -3.41,
     "name": "Petroleo Brasileiro S.A. Petrob",
-    "updated_at": "2026-09-29T23:48:08.625874",
+    "updated_at": "2026-09-30T05:05:17.271020",
     "price_14d_ago": 21.38
   },
   "PFE": {
     "price": 28.72,
     "change_pct": 3.87,
     "name": "Pfizer, Inc.",
-    "updated_at": "2026-09-29T23:48:09.005588",
+    "updated_at": "2026-09-30T05:05:17.675905",
     "price_14d_ago": 27.65
   },
   "PLTM": {
     "price": 16.37,
     "change_pct": -4.27,
     "name": "GraniteShares Platinum Shares E",
-    "updated_at": "2026-09-29T23:48:09.234336",
+    "updated_at": "2026-09-30T05:05:17.855957",
     "price_14d_ago": 17.1
   },
   "PLTR": {
     "price": 186.97,
     "change_pct": 12.73,
     "name": "Palantir Technologies Inc.",
-    "updated_at": "2026-09-29T23:48:09.401772",
+    "updated_at": "2026-09-30T05:05:18.032736",
     "price_14d_ago": 165.86
   },
   "PQT": {
     "price": 0,
     "change_pct": 0,
     "name": "PQT",
-    "updated_at": "2026-09-29T23:48:09.734419",
+    "updated_at": "2026-09-30T05:05:18.374799",
     "price_14d_ago": null
   },
   "PQUS": {
     "price": 28.57,
     "change_pct": 1.38,
     "name": "Pictet AI Enhanced US Equity ET",
-    "updated_at": "2026-09-29T23:48:09.902731",
+    "updated_at": "2026-09-30T05:05:18.560718",
     "price_14d_ago": 28.18
   },
   "PSBD": {
     "price": 9.97,
     "change_pct": -2.54,
     "name": "Palmer Square Capital BDC Inc.",
-    "updated_at": "2026-09-29T23:48:10.075445",
+    "updated_at": "2026-09-30T05:05:18.735895",
     "price_14d_ago": 10.23
   },
   "PYPL": {
     "price": 53.89,
     "change_pct": 1.09,
     "name": "PayPal Holdings, Inc.",
-    "updated_at": "2026-09-29T23:48:10.240540",
+    "updated_at": "2026-09-30T05:05:18.923660",
     "price_14d_ago": 53.31
   },
   "QQQ": {
     "price": 737.93,
     "change_pct": 4.13,
     "name": "Invesco QQQ Trust, Series 1",
-    "updated_at": "2026-09-29T23:48:10.436785",
+    "updated_at": "2026-09-30T05:05:19.114918",
     "price_14d_ago": 708.69
   },
   "QTA": {
     "price": 0,
     "change_pct": 0,
     "name": "QTA",
-    "updated_at": "2026-09-29T23:48:10.604326",
+    "updated_at": "2026-09-30T05:05:19.297272",
     "price_14d_ago": null
   },
   "RBLX": {
     "price": 41.18,
     "change_pct": -8.24,
     "name": "Roblox Corporation",
-    "updated_at": "2026-09-29T23:48:10.771761",
+    "updated_at": "2026-09-30T05:05:19.471026",
     "price_14d_ago": 44.88
   },
   "RKLB": {
     "price": 69.7,
     "change_pct": 12.49,
     "name": "Rocket Lab Corporation",
-    "updated_at": "2026-09-29T23:48:10.936697",
+    "updated_at": "2026-09-30T05:05:19.645242",
     "price_14d_ago": 61.96
   },
   "Russell": {
     "price": 279.01,
     "change_pct": -3.02,
     "name": "iShares Russell 2000 Index Fund",
-    "updated_at": "2026-09-29T23:48:11.128208",
+    "updated_at": "2026-09-30T05:05:19.847321",
     "price_14d_ago": 287.7
   },
   "S&P": {
     "price": 7670.84,
     "change_pct": 1.04,
     "name": "S&P 500",
-    "updated_at": "2026-09-29T23:48:11.298952",
+    "updated_at": "2026-09-30T05:05:20.054185",
     "price_14d_ago": 7591.7
   },
   "S&P 500": {
     "price": 7670.84,
     "change_pct": 1.04,
     "name": "S&P 500",
-    "updated_at": "2026-09-29T23:48:11.464292",
+    "updated_at": "2026-09-30T05:05:20.227139",
     "price_14d_ago": 7591.7
   },
   "SAMSUNG ELECTRONICS": {
-    "price": 268750.0,
-    "change_pct": -0.28,
+    "price": 268500.0,
+    "change_pct": -0.37,
     "name": "SamsungElec",
-    "updated_at": "2026-09-29T23:48:11.649710",
+    "updated_at": "2026-09-30T05:05:20.411882",
     "price_14d_ago": 269500.0
   },
   "SAP": {
     "price": 210.85,
     "change_pct": 2.38,
     "name": "SAP  SE",
-    "updated_at": "2026-09-29T23:48:11.851688",
+    "updated_at": "2026-09-30T05:05:20.625771",
     "price_14d_ago": 205.95
   },
   "SF": {
     "price": 69.7,
     "change_pct": -12.54,
     "name": "Stifel Financial Corporation",
-    "updated_at": "2026-09-29T23:48:12.048535",
+    "updated_at": "2026-09-30T05:05:20.838993",
     "price_14d_ago": 79.69
   },
   "SK HYNIX": {
-    "price": 1788000.0,
-    "change_pct": -3.66,
+    "price": 1776000.0,
+    "change_pct": -4.31,
     "name": "SK hynix",
-    "updated_at": "2026-09-29T23:48:12.241087",
+    "updated_at": "2026-09-30T05:05:21.028565",
     "price_14d_ago": 1856000.0
   },
   "SLB": {
     "price": 49.87,
     "change_pct": -10.96,
     "name": "SLB Limited",
-    "updated_at": "2026-09-29T23:48:12.437585",
+    "updated_at": "2026-09-30T05:05:21.260262",
     "price_14d_ago": 56.01
   },
   "SMH": {
     "price": 606.9,
     "change_pct": 8.32,
     "name": "VanEck Semiconductor ETF",
-    "updated_at": "2026-09-29T23:48:12.613482",
+    "updated_at": "2026-09-30T05:05:21.441482",
     "price_14d_ago": 560.28
   },
   "SMP-500": {
     "price": 7670.84,
     "change_pct": 1.04,
     "name": "S&P 500",
-    "updated_at": "2026-09-29T23:48:12.780697",
+    "updated_at": "2026-09-30T05:05:21.612713",
     "price_14d_ago": 7591.7
   },
   "SMR": {
     "price": 7.76,
     "change_pct": -24.0,
     "name": "NuScale Power Corporation",
-    "updated_at": "2026-09-29T23:48:12.943666",
+    "updated_at": "2026-09-30T05:05:21.805511",
     "price_14d_ago": 10.21
   },
   "SNAP": {
     "price": 5.34,
     "change_pct": -3.26,
     "name": "Snap Inc.",
-    "updated_at": "2026-09-29T23:48:13.112616",
+    "updated_at": "2026-09-30T05:05:21.981964",
     "price_14d_ago": 5.52
   },
   "SNWGF": {
     "price": 12.06,
     "change_pct": -0.5,
     "name": "SNOWLINE GOLD CORP",
-    "updated_at": "2026-09-29T23:48:13.287920",
+    "updated_at": "2026-09-30T05:05:22.177829",
     "price_14d_ago": 12.12
   },
   "SOYB": {
     "price": 27.59,
     "change_pct": -1.95,
     "name": "Teucrium Soybean Fund ETV",
-    "updated_at": "2026-09-29T23:48:13.455714",
+    "updated_at": "2026-09-30T05:05:22.352780",
     "price_14d_ago": 28.14
   },
   "SPCE": {
     "price": 3.04,
     "change_pct": 4.47,
     "name": "Virgin Galactic Holdings, Inc.",
-    "updated_at": "2026-09-29T23:48:13.699910",
+    "updated_at": "2026-09-30T05:05:22.528304",
     "price_14d_ago": 2.91
   },
   "SPX": {
     "price": 7670.84,
     "change_pct": 1.04,
     "name": "S&P 500",
-    "updated_at": "2026-09-29T23:48:14.037169",
+    "updated_at": "2026-09-30T05:05:22.877270",
     "price_14d_ago": 7591.7
   },
   "SPY": {
     "price": 764.2,
     "change_pct": 0.84,
     "name": "State Street SPDR S&P 500 ETF T",
-    "updated_at": "2026-09-29T23:48:14.244607",
+    "updated_at": "2026-09-30T05:05:23.084010",
     "price_14d_ago": 757.83
   },
   "SQQQ": {
     "price": 34.66,
     "change_pct": -13.13,
     "name": "ProShares UltraPro Short QQQ",
-    "updated_at": "2026-09-29T23:48:14.421560",
+    "updated_at": "2026-09-30T05:05:23.263105",
     "price_14d_ago": 39.9
   },
   "SQUARE": {
     "price": 74.05,
     "change_pct": -6.35,
     "name": "Block, Inc.",
-    "updated_at": "2026-09-29T23:48:14.589058",
+    "updated_at": "2026-09-30T05:05:23.438577",
     "price_14d_ago": 79.07
   },
   "Semiconductors": {
     "price": 606.9,
     "change_pct": 8.32,
     "name": "VanEck Semiconductor ETF",
-    "updated_at": "2026-09-29T23:48:14.766619",
+    "updated_at": "2026-09-30T05:05:23.621924",
     "price_14d_ago": 560.28
   },
   "T": {
     "price": 24.48,
     "change_pct": -4.19,
     "name": "AT&T Inc.",
-    "updated_at": "2026-09-29T23:48:14.971232",
+    "updated_at": "2026-09-30T05:05:23.839232",
     "price_14d_ago": 25.55
   },
   "TDOC": {
     "price": 5.75,
     "change_pct": -5.58,
     "name": "Teladoc Health, Inc.",
-    "updated_at": "2026-09-29T23:48:15.211074",
+    "updated_at": "2026-09-30T05:05:24.035038",
     "price_14d_ago": 6.09
   },
   "TIPS": {
     "price": 0.0,
     "change_pct": 0.0,
     "name": "Tianrong Internet Products and ",
-    "updated_at": "2026-09-29T23:48:15.707404",
+    "updated_at": "2026-09-30T05:05:24.564432",
     "price_14d_ago": 0.0
   },
   "TLT": {
     "price": 78.23,
     "change_pct": -3.16,
     "name": "iShares 20+ Year Treasury Bond ",
-    "updated_at": "2026-09-29T23:48:15.891814",
+    "updated_at": "2026-09-30T05:05:24.764609",
     "price_14d_ago": 80.78
   },
   "TSLA": {
     "price": 352.84,
     "change_pct": -2.95,
     "name": "Tesla, Inc.",
-    "updated_at": "2026-09-29T23:48:16.057623",
+    "updated_at": "2026-09-30T05:05:24.946751",
     "price_14d_ago": 363.56
   },
   "TSM": {
     "price": 456.94,
     "change_pct": 6.75,
     "name": "Taiwan Semiconductor Manufactur",
-    "updated_at": "2026-09-29T23:48:16.242653",
+    "updated_at": "2026-09-30T05:05:25.150353",
     "price_14d_ago": 428.03
   },
   "UBER": {
     "price": 69.36,
     "change_pct": -4.41,
     "name": "Uber Technologies, Inc.",
-    "updated_at": "2026-09-29T23:48:16.568851",
+    "updated_at": "2026-09-30T05:05:25.508910",
     "price_14d_ago": 72.56
   },
   "UNG": {
     "price": 10.35,
     "change_pct": 1.57,
     "name": "United States Natural Gas Fund ",
-    "updated_at": "2026-09-29T23:48:16.730829",
+    "updated_at": "2026-09-30T05:05:25.684279",
     "price_14d_ago": 10.19
   },
   "URANIUM": {
     "price": 40.04,
     "change_pct": -11.02,
     "name": "Uranium ETF",
-    "updated_at": "2026-09-29T23:48:17.079236",
+    "updated_at": "2026-09-30T05:05:26.046466",
     "price_14d_ago": 45.0
   },
   "USD": {
     "price": 95.55,
     "change_pct": 12.53,
     "name": "ProShares Ultra Semiconductors",
-    "updated_at": "2026-09-29T23:48:17.286196",
+    "updated_at": "2026-09-30T05:05:26.348007",
     "price_14d_ago": 84.91
   },
   "USDX": {
     "price": 25.58,
     "change_pct": 0.31,
     "name": "SGI Enhanced Core ETF",
-    "updated_at": "2026-09-29T23:48:17.466064",
+    "updated_at": "2026-09-30T05:05:26.528392",
     "price_14d_ago": 25.5
   },
   "USO": {
     "price": 143.35,
     "change_pct": -9.49,
     "name": "United States Oil Fund",
-    "updated_at": "2026-09-29T23:48:17.631551",
+    "updated_at": "2026-09-30T05:05:26.704100",
     "price_14d_ago": 158.38
   },
   "UTHR": {
     "price": 481.47,
     "change_pct": -4.44,
     "name": "United Therapeutics Corporation",
-    "updated_at": "2026-09-29T23:48:17.798440",
+    "updated_at": "2026-09-30T05:05:26.876694",
     "price_14d_ago": 503.86
   },
   "UUU": {
     "price": 4.88,
     "change_pct": -7.92,
     "name": "Universal Safety Products, Inc.",
-    "updated_at": "2026-09-29T23:48:17.961178",
+    "updated_at": "2026-09-30T05:05:27.058278",
     "price_14d_ago": 5.3
   },
   "V": {
     "price": 365.88,
     "change_pct": -0.36,
     "name": "Visa Inc.",
-    "updated_at": "2026-09-29T23:48:18.301977",
+    "updated_at": "2026-09-30T05:05:27.483960",
     "price_14d_ago": 367.21
   },
   "VEEV": {
     "price": 278.57,
     "change_pct": 6.74,
     "name": "Veeva Systems Inc.",
-    "updated_at": "2026-09-29T23:48:18.633499",
+    "updated_at": "2026-09-30T05:05:27.833318",
     "price_14d_ago": 260.98
   },
   "VIX": {
-    "price": 16.04,
-    "change_pct": -10.09,
+    "price": 16.03,
+    "change_pct": 1.2,
     "name": "CBOE Volatility Index",
-    "updated_at": "2026-09-29T23:48:19.200836",
-    "price_14d_ago": 17.84
+    "updated_at": "2026-09-30T05:05:28.351188",
+    "price_14d_ago": 15.84
   },
   "VLO": {
     "price": 387.72,
     "change_pct": 0.59,
     "name": "Valero Energy Corporation",
-    "updated_at": "2026-09-29T23:48:19.401851",
+    "updated_at": "2026-09-30T05:05:28.559573",
     "price_14d_ago": 385.43
   },
   "VRTX": {
     "price": 526.73,
     "change_pct": 2.37,
     "name": "Vertex Pharmaceuticals Incorpor",
-    "updated_at": "2026-09-29T23:48:19.566682",
+    "updated_at": "2026-09-30T05:05:28.731986",
     "price_14d_ago": 514.56
   },
   "WFC": {
     "price": 80.48,
     "change_pct": -10.03,
     "name": "Wells Fargo & Company",
-    "updated_at": "2026-09-29T23:48:19.780428",
+    "updated_at": "2026-09-30T05:05:28.947093",
     "price_14d_ago": 89.45
   },
   "WIT": {
     "price": 1.61,
     "change_pct": -3.59,
     "name": "Wipro Limited",
-    "updated_at": "2026-09-29T23:48:19.965404",
+    "updated_at": "2026-09-30T05:05:29.141784",
     "price_14d_ago": 1.67
   },
   "WMT": {
     "price": 106.8,
     "change_pct": 1.01,
     "name": "Walmart Inc.",
-    "updated_at": "2026-09-29T23:48:20.183958",
+    "updated_at": "2026-09-30T05:05:29.350335",
     "price_14d_ago": 105.73
   },
   "WTBN": {
     "price": 23.95,
     "change_pct": -1.88,
     "name": "WisdomTree Bianco Total Return ",
-    "updated_at": "2026-09-29T23:48:20.352628",
+    "updated_at": "2026-09-30T05:05:29.528453",
     "price_14d_ago": 24.41
   },
   "WTI": {
-    "price": 89.61,
-    "change_pct": -10.43,
+    "price": 90.23,
+    "change_pct": -9.82,
     "name": "WTI Crude",
-    "updated_at": "2026-09-29T23:48:20.515762",
+    "updated_at": "2026-09-30T05:05:29.701613",
     "price_14d_ago": 100.05
   },
   "WTI CRUDE OIL": {
-    "price": 89.61,
-    "change_pct": -10.43,
+    "price": 90.23,
+    "change_pct": -9.82,
     "name": "WTI Crude",
-    "updated_at": "2026-09-29T23:48:20.685974",
+    "updated_at": "2026-09-30T05:05:29.876978",
     "price_14d_ago": 100.05
   },
   "XAU-USD": {
     "price": 0,
     "change_pct": 0,
     "name": "XAU9999 Meme USD",
-    "updated_at": "2026-09-29T23:48:21.038056",
+    "updated_at": "2026-09-30T05:05:30.229761",
     "price_14d_ago": 0.0
   },
   "XOM": {
     "price": 161.35,
     "change_pct": -2.35,
     "name": "ExxonMobil Holdings Corporation",
-    "updated_at": "2026-09-29T23:48:21.269304",
+    "updated_at": "2026-09-30T05:05:30.446390",
     "price_14d_ago": 165.23
   },
   "ZIM": {
     "price": 28.75,
     "change_pct": -2.44,
     "name": "ZIM Integrated Shipping Service",
-    "updated_at": "2026-09-29T23:48:21.682135",
+    "updated_at": "2026-09-30T05:05:30.788689",
     "price_14d_ago": 29.47
   },
   "HIMS": {
     "price": 28.7,
     "change_pct": 4.59,
     "name": "Hims & Hers Health, Inc.",
-    "updated_at": "2026-09-29T23:48:22.035565",
+    "updated_at": "2026-09-30T05:05:31.137034",
     "price_14d_ago": 27.44
   },
   "GDRX": {
     "price": 3.23,
     "change_pct": -3.58,
     "name": "GoodRx Holdings, Inc.",
-    "updated_at": "2026-09-29T23:48:22.202721",
+    "updated_at": "2026-09-30T05:05:31.310615",
     "price_14d_ago": 3.35
   },
   "TEM": {
     "price": 82.58,
     "change_pct": 40.59,
     "name": "Tempus AI, Inc.",
-    "updated_at": "2026-09-29T23:48:22.371861",
+    "updated_at": "2026-09-30T05:05:31.490543",
     "price_14d_ago": 58.74
   },
   "GH": {
     "price": 177.73,
     "change_pct": 11.76,
     "name": "Guardant Health, Inc.",
-    "updated_at": "2026-09-29T23:48:22.537627",
+    "updated_at": "2026-09-30T05:05:31.668395",
     "price_14d_ago": 159.03
   },
   "ABT": {
     "price": 100.95,
     "change_pct": -2.33,
     "name": "Abbott Laboratories",
-    "updated_at": "2026-09-29T23:48:22.730543",
+    "updated_at": "2026-09-30T05:05:31.886868",
     "price_14d_ago": 103.36
   }
 },
@@ -14507,8 +14507,8 @@ const dashboardData = {
       "first_detected_speaker": "",
       "last_mentioned_episode_id": 533,
       "last_mentioned_speaker": "Peter Diamandis (hosts)",
-      "novelty_score": 2.682,
-      "overton_score": 2.682,
+      "novelty_score": 2.6569,
+      "overton_score": 2.6569,
       "resonance_pct": 83,
       "is_established": false,
       "first_detected_podcast": "The a16z Show",
@@ -14535,8 +14535,8 @@ const dashboardData = {
       "first_detected_speaker": "",
       "last_mentioned_episode_id": 521,
       "last_mentioned_speaker": "Dwarkesh Patel (hosts)",
-      "novelty_score": 2.4777,
-      "overton_score": 2.4777,
+      "novelty_score": 2.4546,
+      "overton_score": 2.4546,
       "resonance_pct": 81,
       "is_established": false,
       "first_detected_podcast": "The a16z Show",
@@ -14563,8 +14563,8 @@ const dashboardData = {
       "first_detected_speaker": "Chamath Palihapitiya, Jason Calacanis (hosts)",
       "last_mentioned_episode_id": 518,
       "last_mentioned_speaker": "Henry Peabody",
-      "novelty_score": 2.1838,
-      "overton_score": 2.1838,
+      "novelty_score": 2.163,
+      "overton_score": 2.163,
       "resonance_pct": 78,
       "is_established": false,
       "first_detected_podcast": "All-In with Chamath, Jason, Sacks & Friedberg",
@@ -14591,8 +14591,8 @@ const dashboardData = {
       "first_detected_speaker": "Mark Andrewson, Chris Dixon",
       "last_mentioned_episode_id": 535,
       "last_mentioned_speaker": "Peter Diamandis (hosts)",
-      "novelty_score": 2.0814,
-      "overton_score": 2.0814,
+      "novelty_score": 2.0609,
+      "overton_score": 2.0609,
       "resonance_pct": 77,
       "is_established": false,
       "first_detected_podcast": "The a16z Show",
@@ -14619,8 +14619,8 @@ const dashboardData = {
       "first_detected_speaker": "Victor Hagani",
       "last_mentioned_episode_id": 500,
       "last_mentioned_speaker": "Peter Diamandis (hosts)",
-      "novelty_score": 1.8989,
-      "overton_score": 1.8989,
+      "novelty_score": 1.8807,
+      "overton_score": 1.8807,
       "resonance_pct": 75,
       "is_established": false,
       "first_detected_podcast": "Monetary Matters with Jack Farley",
@@ -14647,8 +14647,8 @@ const dashboardData = {
       "first_detected_speaker": "Michael Kratsios",
       "last_mentioned_episode_id": 463,
       "last_mentioned_speaker": "Astra Research Team",
-      "novelty_score": 1.8454,
-      "overton_score": 1.8454,
+      "novelty_score": 1.8285,
+      "overton_score": 1.8285,
       "resonance_pct": 74,
       "is_established": false,
       "first_detected_podcast": "Moonshots with Peter Diamandis",
@@ -14675,8 +14675,8 @@ const dashboardData = {
       "first_detected_speaker": "",
       "last_mentioned_episode_id": 519,
       "last_mentioned_speaker": "",
-      "novelty_score": 1.8186,
-      "overton_score": 1.8186,
+      "novelty_score": 1.8005,
+      "overton_score": 1.8005,
       "resonance_pct": 74,
       "is_established": false,
       "first_detected_podcast": "Moonshots with Peter Diamandis",
@@ -14703,8 +14703,8 @@ const dashboardData = {
       "first_detected_speaker": "Peter Diamandis",
       "last_mentioned_episode_id": 478,
       "last_mentioned_speaker": "Martin Rothblatt",
-      "novelty_score": 1.7604,
-      "overton_score": 1.7604,
+      "novelty_score": 1.7436,
+      "overton_score": 1.7436,
       "resonance_pct": 73,
       "is_established": false,
       "first_detected_podcast": "Moonshots with Peter Diamandis",
@@ -14731,8 +14731,8 @@ const dashboardData = {
       "first_detected_speaker": "",
       "last_mentioned_episode_id": 475,
       "last_mentioned_speaker": "Peter Diamandis (hosts)",
-      "novelty_score": 1.6922,
-      "overton_score": 1.6922,
+      "novelty_score": 1.6761,
+      "overton_score": 1.6761,
       "resonance_pct": 72,
       "is_established": false,
       "first_detected_podcast": "Moonshots with Peter Diamandis",
@@ -14759,8 +14759,8 @@ const dashboardData = {
       "first_detected_speaker": "",
       "last_mentioned_episode_id": 506,
       "last_mentioned_speaker": "Naveen Rau",
-      "novelty_score": 1.5359,
-      "overton_score": 1.5359,
+      "novelty_score": 1.5204,
+      "overton_score": 1.5204,
       "resonance_pct": 70,
       "is_established": false,
       "first_detected_podcast": "Moonshots with Peter Diamandis",
@@ -14787,9 +14787,9 @@ const dashboardData = {
       "first_detected_speaker": "Chris Seminoch",
       "last_mentioned_episode_id": 502,
       "last_mentioned_speaker": "Jeremy Boyet",
-      "novelty_score": 1.5131,
-      "overton_score": 1.5131,
-      "resonance_pct": 70,
+      "novelty_score": 1.4978,
+      "overton_score": 1.4978,
+      "resonance_pct": 69,
       "is_established": false,
       "first_detected_podcast": "Monetary Matters with Jack Farley",
       "first_detected_episode_title": "The US Manufacturing and Electrification Megatrends Are Here and They\u2019re Way More Than AI | Chris Semenuk",
@@ -14815,8 +14815,8 @@ const dashboardData = {
       "first_detected_speaker": "",
       "last_mentioned_episode_id": 474,
       "last_mentioned_speaker": "Justin Johnson",
-      "novelty_score": 1.4989,
-      "overton_score": 1.4989,
+      "novelty_score": 1.4842,
+      "overton_score": 1.4842,
       "resonance_pct": 69,
       "is_established": false,
       "first_detected_podcast": "The a16z Show",
@@ -14843,8 +14843,8 @@ const dashboardData = {
       "first_detected_speaker": "Jack Farley (hosts)",
       "last_mentioned_episode_id": 462,
       "last_mentioned_speaker": "Lukasz Kaiser",
-      "novelty_score": 1.4209,
-      "overton_score": 1.4209,
+      "novelty_score": 1.4072,
+      "overton_score": 1.4072,
       "resonance_pct": 68,
       "is_established": false,
       "first_detected_podcast": "Monetary Matters with Jack Farley",
@@ -14873,9 +14873,9 @@ const dashboardData = {
       "first_detected_speaker": "Demis Hassabis",
       "last_mentioned_episode_id": 531,
       "last_mentioned_speaker": "Palmer Luckey",
-      "novelty_score": 0.5488,
-      "overton_score": 0.5488,
-      "resonance_pct": 47,
+      "novelty_score": 0.54,
+      "overton_score": 0.54,
+      "resonance_pct": 46,
       "is_established": true,
       "first_detected_podcast": "Moonshots with Peter Diamandis",
       "first_detected_episode_title": "Demis Hassabis on AGI, Robots Scale Production, and Elon\u2019s $1T Mars-Shot Comp | EP #253",
@@ -14901,8 +14901,8 @@ const dashboardData = {
       "first_detected_speaker": "Travis Kalanick, Ben Horowitz",
       "last_mentioned_episode_id": 533,
       "last_mentioned_speaker": "Palmer Luckey",
-      "novelty_score": 0.6406,
-      "overton_score": 0.6406,
+      "novelty_score": 0.6311,
+      "overton_score": 0.6311,
       "resonance_pct": 50,
       "is_established": true,
       "first_detected_podcast": "The a16z Show",
@@ -14929,9 +14929,9 @@ const dashboardData = {
       "first_detected_speaker": "Leakwet Ahamed",
       "last_mentioned_episode_id": 528,
       "last_mentioned_speaker": "Erik Townsend (hosts)",
-      "novelty_score": 0.5252,
-      "overton_score": 0.5252,
-      "resonance_pct": 46,
+      "novelty_score": 0.517,
+      "overton_score": 0.517,
+      "resonance_pct": 45,
       "is_established": true,
       "first_detected_podcast": "Monetary Matters with Jack Farley",
       "first_detected_episode_title": "Rothschilds, Railroads, & Ruin | Liaquat Ahamed on \u201c1873\u201d (New Book!)",
@@ -14957,9 +14957,9 @@ const dashboardData = {
       "first_detected_speaker": "",
       "last_mentioned_episode_id": 498,
       "last_mentioned_speaker": "Josh Elman",
-      "novelty_score": 0.43,
-      "overton_score": 0.43,
-      "resonance_pct": 42,
+      "novelty_score": 0.4231,
+      "overton_score": 0.4231,
+      "resonance_pct": 41,
       "is_established": true,
       "first_detected_podcast": "The a16z Show",
       "first_detected_episode_title": "The New Rules of Media | Marc Andreessen & Ben Horowitz",
@@ -45337,7 +45337,7 @@ const dashboardData = {
 ],
   podcastGuests: [
   {
-    "id": 77108,
+    "id": 77222,
     "name": "Diego Almeida",
     "slug": "diego-almeida",
     "bio": null,
@@ -45349,7 +45349,7 @@ const dashboardData = {
     "appearance_count": 1
   },
   {
-    "id": 77109,
+    "id": 77223,
     "name": "Palmer Luckey",
     "slug": "palmer-luckey",
     "bio": null,
@@ -45361,7 +45361,7 @@ const dashboardData = {
     "appearance_count": 1
   },
   {
-    "id": 77110,
+    "id": 77224,
     "name": "Daniel Ek",
     "slug": "daniel-ek",
     "bio": null,
@@ -45373,7 +45373,7 @@ const dashboardData = {
     "appearance_count": 1
   },
   {
-    "id": 77111,
+    "id": 77225,
     "name": "Eddie Lazaran",
     "slug": "eddie-lazaran",
     "bio": null,
@@ -45385,7 +45385,7 @@ const dashboardData = {
     "appearance_count": 1
   },
   {
-    "id": 77112,
+    "id": 77226,
     "name": "Michael Every",
     "slug": "michael-every",
     "bio": null,
@@ -45397,7 +45397,7 @@ const dashboardData = {
     "appearance_count": 1
   },
   {
-    "id": 77113,
+    "id": 77227,
     "name": "Steve Hilton & Spencer Pratt",
     "slug": "steve-hilton--spencer-pratt",
     "bio": null,
@@ -45409,7 +45409,7 @@ const dashboardData = {
     "appearance_count": 1
   },
   {
-    "id": 77114,
+    "id": 77228,
     "name": "Blake Scholl",
     "slug": "blake-scholl",
     "bio": null,
@@ -45421,7 +45421,7 @@ const dashboardData = {
     "appearance_count": 1
   },
   {
-    "id": 77115,
+    "id": 77229,
     "name": "John Platt",
     "slug": "john-platt",
     "bio": null,
@@ -45433,7 +45433,7 @@ const dashboardData = {
     "appearance_count": 1
   },
   {
-    "id": 77116,
+    "id": 77230,
     "name": "Diogo Almeida",
     "slug": "diogo-almeida",
     "bio": null,
@@ -45445,7 +45445,7 @@ const dashboardData = {
     "appearance_count": 1
   },
   {
-    "id": 77117,
+    "id": 77231,
     "name": "Naveen Rao",
     "slug": "naveen-rao",
     "bio": null,
@@ -45457,7 +45457,7 @@ const dashboardData = {
     "appearance_count": 1
   },
   {
-    "id": 77118,
+    "id": 77232,
     "name": "Outlook on 5 Key Commodities",
     "slug": "outlook-on-5-key-commodities",
     "bio": null,
@@ -45469,7 +45469,7 @@ const dashboardData = {
     "appearance_count": 1
   },
   {
-    "id": 77119,
+    "id": 77233,
     "name": "Bill Gurley",
     "slug": "bill-gurley",
     "bio": null,
@@ -45481,7 +45481,7 @@ const dashboardData = {
     "appearance_count": 1
   },
   {
-    "id": 77120,
+    "id": 77234,
     "name": "Nick Shirley",
     "slug": "nick-shirley",
     "bio": null,
@@ -45493,7 +45493,7 @@ const dashboardData = {
     "appearance_count": 1
   },
   {
-    "id": 77121,
+    "id": 77235,
     "name": "Jared Isaacman",
     "slug": "jared-isaacman",
     "bio": null,
@@ -45505,7 +45505,7 @@ const dashboardData = {
     "appearance_count": 1
   },
   {
-    "id": 77122,
+    "id": 77236,
     "name": "Brad Gerstner",
     "slug": "brad-gerstner",
     "bio": null,
@@ -45517,7 +45517,7 @@ const dashboardData = {
     "appearance_count": 1
   },
   {
-    "id": 77123,
+    "id": 77237,
     "name": "Meta's Dina Powell McCormick",
     "slug": "metas-dina-powell-mccormick",
     "bio": null,
@@ -45529,7 +45529,7 @@ const dashboardData = {
     "appearance_count": 1
   },
   {
-    "id": 77124,
+    "id": 77238,
     "name": "Underwriting Superintelligence",
     "slug": "underwriting-superintelligence",
     "bio": null,
@@ -45541,7 +45541,7 @@ const dashboardData = {
     "appearance_count": 1
   },
   {
-    "id": 77125,
+    "id": 77239,
     "name": "Hawks Take Flight",
     "slug": "hawks-take-flight",
     "bio": null,
@@ -45553,7 +45553,7 @@ const dashboardData = {
     "appearance_count": 1
   },
   {
-    "id": 77126,
+    "id": 77240,
     "name": "Martine Rothblatt",
     "slug": "martine-rothblatt",
     "bio": null,
@@ -45565,7 +45565,7 @@ const dashboardData = {
     "appearance_count": 1
   },
   {
-    "id": 77127,
+    "id": 77241,
     "name": "Microsoft CEO Satya Nadella",
     "slug": "microsoft-ceo-satya-nadella",
     "bio": null,
@@ -46844,121 +46844,6 @@ const dashboardData = {
     }
   },
   {
-    "id": 480,
-    "name": "Eric Gwyn",
-    "slug": "eric-gwyn",
-    "bio": "Eric Gwyn is a leading researcher in synthetic biology and AI applications, focusing on genomic language models and biosecurity. He emphasizes the importance of developing defensive capabilities alongside design capabilities in biotechnology. His work aims to bridge the gap between innovation and safety in synthetic biology.",
-    "known_for": "Eric Gwyn is recognized for his pioneering contributions to genomic language models and their applications in biosecurity, making him a key figure in the intersection of AI and synthetic biology.",
-    "net_worth_usd": null,
-    "net_worth_source": "",
-    "net_worth_updated_at": null,
-    "voice_tone": "Informative and assertive",
-    "voice_style": "He presents a balanced view of innovation and ethical considerations.",
-    "voice_delivery_notes": "Pacing is steady with emphasis on key points.",
-    "voice_profile_updated_at": "2026-09-24 04:53:17",
-    "last_seen": "2026-09-24 04:53:17",
-    "last_episode_title": "\ud83d\udd2cBio-security is an AI Arms Race - Eric Nguyen (CEO, Radical Numerics)",
-    "last_podcast_name": "Latent Space: The AI Engineer Podcast",
-    "last_episode_date": "2026-09-23",
-    "mention_score": 1,
-    "mention_score_decayed": 0.89,
-    "last_main_idea": "The core investment opportunity lies in companies that balance innovation in synthetic biology with ethical biosecurity measures, particularly those utilizing AI for genomic analysis.",
-    "last_proof_cite": "Latent Space: The AI Engineer Podcast \u2022 2026-09-23 \u2022 \ud83d\udd2cBio-security is an AI Arms Race - Eric Nguyen (CEO, Radical Numerics)",
-    "last_proof_snippet": "The design side is going to get more people the defensive side needs to try to get ahead. So I think inherently there is this arms-restile dynamic that the defensive side has been far, far lagging. And so what we want to do is bring the def",
-    "supporting_takeaway": "",
-    "grokipedia_url": null,
-    "grokipedia_fetched_at": "2026-09-23T23:53:22.964812",
-    "pundit_profile": {
-      "source": "llm",
-      "source_model": "openai:gpt-4o-mini",
-      "source_url": "",
-      "page_title": "Eric Gwyn",
-      "fetched_at": "2026-09-24T04:53:22.964587+00:00",
-      "cliff_notes": "Eric Gwyn has established himself as a prominent figure in the fields of synthetic biology and artificial intelligence. His research focuses on the development of genomic language models that not only generate biological sequences but also assess their potential pathogenicity. This dual capability is crucial in the context of biosecurity, where understanding and mitigating risks associated with synthetic biology is increasingly important. Gwyn's approach advocates for a proactive stance in safeguarding technological advancements, ensuring that innovations in design are matched by robust defensive measures. His leadership at Article reflects a commitment to responsible innovation, aiming to empower researchers and companies to navigate the complexities of biotechnological advancements responsibly.",
-      "derived": {
-        "current_role": "CEO and Co-founder of Article"
-      },
-      "infobox": {},
-      "lead_paragraphs": [
-        "Eric Gwyn has established himself as a prominent figure in the fields of synthetic biology and artificial intelligence. His research focuses on the development of genomic language models that not only generate biological sequences but also assess their potential pathogenicity. This dual capability is crucial in the context of biosecurity, where understanding and mitigating risks associated with synthetic biology is increasingly important.",
-        "Gwyn's approach advocates for a proactive stance in safeguarding technological advancements, ensuring that innovations in design are matched by robust defensive measures. His leadership at Article reflects a commitment to responsible innovation, aiming to empower researchers and companies to navigate the complexities of biotechnological advancements responsibly."
-      ],
-      "sections": [
-        {
-          "heading": "Genomic Language Models",
-          "body": "Gwyn's work on genomic language models focuses on their ability to generate biological sequences and predict their pathogenic potential, which is vital for biosecurity."
-        },
-        {
-          "heading": "Biosecurity in Synthetic Biology",
-          "body": "He emphasizes the need for enhanced defensive capabilities in synthetic biology, advocating for a balance between innovation and safety."
-        },
-        {
-          "heading": "Dual Mandate Approach",
-          "body": "Gwyn promotes a dual mandate in his research, where design capabilities are developed alongside defensive strategies to ensure responsible use of technology."
-        }
-      ]
-    }
-  },
-  {
-    "id": 479,
-    "name": "Luca Ferrari",
-    "slug": "luca-ferrari",
-    "bio": "Luca Ferrari is a key executive at Bending Spoon, recognized for his strategic vision in technology and operational excellence. Under his leadership, the company has transformed into a billion-dollar entity through innovative acquisitions and a focus on product development. His insights into the tech industry have made him a notable figure among entrepreneurs and investors alike.",
-    "known_for": "Transforming Bending Spoon into a billion-dollar tech company through strategic acquisitions.",
-    "net_worth_usd": null,
-    "net_worth_source": "",
-    "net_worth_updated_at": null,
-    "voice_tone": "Analytical and confident",
-    "voice_style": "Direct and informative, emphasizing strategic insights.",
-    "voice_delivery_notes": "Pacing is steady with emphasis on key points.",
-    "voice_profile_updated_at": "2026-09-24 04:53:03",
-    "last_seen": "2026-09-24 04:53:03",
-    "last_episode_title": "Luca Ferrari, Bending Spoons CEO: The $40K Origin Story, Buying Product-Market Fit & Why Private Equity Can't Compete",
-    "last_podcast_name": "All-In with Chamath, Jason, Sacks & Friedberg",
-    "last_episode_date": "2026-09-23",
-    "mention_score": 1,
-    "mention_score_decayed": 0.89,
-    "last_main_idea": "Bending Spoon's unique acquisition model allows for rapid scaling and value creation by enhancing underperforming apps.",
-    "last_proof_cite": "All-In with Chamath, Jason, Sacks & Friedberg \u2022 2026-09-23 \u2022 Luca Ferrari, Bending Spoons CEO: The $40K Origin Story, Buying Product-Market Fit & Why Private Equity Can't Compete",
-    "last_proof_snippet": "You are the reason that has exactly this year. Stay went from zero to $1 billion in revenue in just ten years. Bending Spoon CTO look a Ferrari. We have never lost a bid before. Well, AOL has a new parent again. Milan-based tech company Ben",
-    "supporting_takeaway": "The company maintains a conservative leverage ratio of approximately 2.5 times, managing financial risk effectively.",
-    "grokipedia_url": null,
-    "grokipedia_fetched_at": "2026-09-23T23:53:27.461971",
-    "pundit_profile": {
-      "source": "llm",
-      "source_model": "openai:gpt-4o-mini",
-      "source_url": "",
-      "page_title": "Luca Ferrari",
-      "fetched_at": "2026-09-24T04:53:27.461823+00:00",
-      "cliff_notes": "Luca Ferrari has played a pivotal role in the growth of Bending Spoon, a Milan-based tech company that has gained significant traction in the app development market. His approach combines a methodical strategy with a focus on innovation, allowing the company to expand its portfolio and enhance its market presence. Ferrari's leadership has been instrumental in the company's ability to revive underperforming apps and develop new products that cater to a vast user base. His vision for building a generational company reflects a commitment to long-term success in the tech industry, making him a respected figure among peers and investors.",
-      "derived": {
-        "current_role": "CTO at Bending Spoon"
-      },
-      "infobox": {
-        "Born": "",
-        "Nationality": "Italian"
-      },
-      "lead_paragraphs": [
-        "Luca Ferrari has played a pivotal role in the growth of Bending Spoon, a Milan-based tech company that has gained significant traction in the app development market. His approach combines a methodical strategy with a focus on innovation, allowing the company to expand its portfolio and enhance its market presence. Ferrari's leadership has been instrumental in the company's ability to revive underperforming apps and develop new products that cater to a vast user base.",
-        "His vision for building a generational company reflects a commitment to long-term success in the tech industry, making him a respected figure among peers and investors."
-      ],
-      "sections": [
-        {
-          "heading": "Strategic Acquisitions",
-          "body": "Luca has led Bending Spoon in acquiring key assets that have bolstered its market position and expanded its capabilities. These acquisitions have been crucial in driving the company's growth trajectory."
-        },
-        {
-          "heading": "Product Innovation",
-          "body": "Under his guidance, Bending Spoon has focused on developing innovative applications that resonate with users. This emphasis on product quality has contributed to the company's impressive revenue growth."
-        },
-        {
-          "heading": "Market Expansion",
-          "body": "Ferrari's strategic initiatives have allowed Bending Spoon to penetrate new markets and reach a broader audience, significantly increasing its user base and revenue."
-        }
-      ]
-    }
-  },
-  {
     "id": 333,
     "name": "Dylan Patel",
     "slug": "dylan-patel",
@@ -47017,6 +46902,121 @@ const dashboardData = {
       ]
     },
     "net_worth": "$3.70B"
+  },
+  {
+    "id": 480,
+    "name": "Eric Gwyn",
+    "slug": "eric-gwyn",
+    "bio": "Eric Gwyn is a leading researcher in synthetic biology and AI applications, focusing on genomic language models and biosecurity. He emphasizes the importance of developing defensive capabilities alongside design capabilities in biotechnology. His work aims to bridge the gap between innovation and safety in synthetic biology.",
+    "known_for": "Eric Gwyn is recognized for his pioneering contributions to genomic language models and their applications in biosecurity, making him a key figure in the intersection of AI and synthetic biology.",
+    "net_worth_usd": null,
+    "net_worth_source": "",
+    "net_worth_updated_at": null,
+    "voice_tone": "Informative and assertive",
+    "voice_style": "He presents a balanced view of innovation and ethical considerations.",
+    "voice_delivery_notes": "Pacing is steady with emphasis on key points.",
+    "voice_profile_updated_at": "2026-09-24 04:53:17",
+    "last_seen": "2026-09-24 04:53:17",
+    "last_episode_title": "\ud83d\udd2cBio-security is an AI Arms Race - Eric Nguyen (CEO, Radical Numerics)",
+    "last_podcast_name": "Latent Space: The AI Engineer Podcast",
+    "last_episode_date": "2026-09-23",
+    "mention_score": 1,
+    "mention_score_decayed": 0.87,
+    "last_main_idea": "The core investment opportunity lies in companies that balance innovation in synthetic biology with ethical biosecurity measures, particularly those utilizing AI for genomic analysis.",
+    "last_proof_cite": "Latent Space: The AI Engineer Podcast \u2022 2026-09-23 \u2022 \ud83d\udd2cBio-security is an AI Arms Race - Eric Nguyen (CEO, Radical Numerics)",
+    "last_proof_snippet": "The design side is going to get more people the defensive side needs to try to get ahead. So I think inherently there is this arms-restile dynamic that the defensive side has been far, far lagging. And so what we want to do is bring the def",
+    "supporting_takeaway": "",
+    "grokipedia_url": null,
+    "grokipedia_fetched_at": "2026-09-23T23:53:22.964812",
+    "pundit_profile": {
+      "source": "llm",
+      "source_model": "openai:gpt-4o-mini",
+      "source_url": "",
+      "page_title": "Eric Gwyn",
+      "fetched_at": "2026-09-24T04:53:22.964587+00:00",
+      "cliff_notes": "Eric Gwyn has established himself as a prominent figure in the fields of synthetic biology and artificial intelligence. His research focuses on the development of genomic language models that not only generate biological sequences but also assess their potential pathogenicity. This dual capability is crucial in the context of biosecurity, where understanding and mitigating risks associated with synthetic biology is increasingly important. Gwyn's approach advocates for a proactive stance in safeguarding technological advancements, ensuring that innovations in design are matched by robust defensive measures. His leadership at Article reflects a commitment to responsible innovation, aiming to empower researchers and companies to navigate the complexities of biotechnological advancements responsibly.",
+      "derived": {
+        "current_role": "CEO and Co-founder of Article"
+      },
+      "infobox": {},
+      "lead_paragraphs": [
+        "Eric Gwyn has established himself as a prominent figure in the fields of synthetic biology and artificial intelligence. His research focuses on the development of genomic language models that not only generate biological sequences but also assess their potential pathogenicity. This dual capability is crucial in the context of biosecurity, where understanding and mitigating risks associated with synthetic biology is increasingly important.",
+        "Gwyn's approach advocates for a proactive stance in safeguarding technological advancements, ensuring that innovations in design are matched by robust defensive measures. His leadership at Article reflects a commitment to responsible innovation, aiming to empower researchers and companies to navigate the complexities of biotechnological advancements responsibly."
+      ],
+      "sections": [
+        {
+          "heading": "Genomic Language Models",
+          "body": "Gwyn's work on genomic language models focuses on their ability to generate biological sequences and predict their pathogenic potential, which is vital for biosecurity."
+        },
+        {
+          "heading": "Biosecurity in Synthetic Biology",
+          "body": "He emphasizes the need for enhanced defensive capabilities in synthetic biology, advocating for a balance between innovation and safety."
+        },
+        {
+          "heading": "Dual Mandate Approach",
+          "body": "Gwyn promotes a dual mandate in his research, where design capabilities are developed alongside defensive strategies to ensure responsible use of technology."
+        }
+      ]
+    }
+  },
+  {
+    "id": 479,
+    "name": "Luca Ferrari",
+    "slug": "luca-ferrari",
+    "bio": "Luca Ferrari is a key executive at Bending Spoon, recognized for his strategic vision in technology and operational excellence. Under his leadership, the company has transformed into a billion-dollar entity through innovative acquisitions and a focus on product development. His insights into the tech industry have made him a notable figure among entrepreneurs and investors alike.",
+    "known_for": "Transforming Bending Spoon into a billion-dollar tech company through strategic acquisitions.",
+    "net_worth_usd": null,
+    "net_worth_source": "",
+    "net_worth_updated_at": null,
+    "voice_tone": "Analytical and confident",
+    "voice_style": "Direct and informative, emphasizing strategic insights.",
+    "voice_delivery_notes": "Pacing is steady with emphasis on key points.",
+    "voice_profile_updated_at": "2026-09-24 04:53:03",
+    "last_seen": "2026-09-24 04:53:03",
+    "last_episode_title": "Luca Ferrari, Bending Spoons CEO: The $40K Origin Story, Buying Product-Market Fit & Why Private Equity Can't Compete",
+    "last_podcast_name": "All-In with Chamath, Jason, Sacks & Friedberg",
+    "last_episode_date": "2026-09-23",
+    "mention_score": 1,
+    "mention_score_decayed": 0.87,
+    "last_main_idea": "Bending Spoon's unique acquisition model allows for rapid scaling and value creation by enhancing underperforming apps.",
+    "last_proof_cite": "All-In with Chamath, Jason, Sacks & Friedberg \u2022 2026-09-23 \u2022 Luca Ferrari, Bending Spoons CEO: The $40K Origin Story, Buying Product-Market Fit & Why Private Equity Can't Compete",
+    "last_proof_snippet": "You are the reason that has exactly this year. Stay went from zero to $1 billion in revenue in just ten years. Bending Spoon CTO look a Ferrari. We have never lost a bid before. Well, AOL has a new parent again. Milan-based tech company Ben",
+    "supporting_takeaway": "The company maintains a conservative leverage ratio of approximately 2.5 times, managing financial risk effectively.",
+    "grokipedia_url": null,
+    "grokipedia_fetched_at": "2026-09-23T23:53:27.461971",
+    "pundit_profile": {
+      "source": "llm",
+      "source_model": "openai:gpt-4o-mini",
+      "source_url": "",
+      "page_title": "Luca Ferrari",
+      "fetched_at": "2026-09-24T04:53:27.461823+00:00",
+      "cliff_notes": "Luca Ferrari has played a pivotal role in the growth of Bending Spoon, a Milan-based tech company that has gained significant traction in the app development market. His approach combines a methodical strategy with a focus on innovation, allowing the company to expand its portfolio and enhance its market presence. Ferrari's leadership has been instrumental in the company's ability to revive underperforming apps and develop new products that cater to a vast user base. His vision for building a generational company reflects a commitment to long-term success in the tech industry, making him a respected figure among peers and investors.",
+      "derived": {
+        "current_role": "CTO at Bending Spoon"
+      },
+      "infobox": {
+        "Born": "",
+        "Nationality": "Italian"
+      },
+      "lead_paragraphs": [
+        "Luca Ferrari has played a pivotal role in the growth of Bending Spoon, a Milan-based tech company that has gained significant traction in the app development market. His approach combines a methodical strategy with a focus on innovation, allowing the company to expand its portfolio and enhance its market presence. Ferrari's leadership has been instrumental in the company's ability to revive underperforming apps and develop new products that cater to a vast user base.",
+        "His vision for building a generational company reflects a commitment to long-term success in the tech industry, making him a respected figure among peers and investors."
+      ],
+      "sections": [
+        {
+          "heading": "Strategic Acquisitions",
+          "body": "Luca has led Bending Spoon in acquiring key assets that have bolstered its market position and expanded its capabilities. These acquisitions have been crucial in driving the company's growth trajectory."
+        },
+        {
+          "heading": "Product Innovation",
+          "body": "Under his guidance, Bending Spoon has focused on developing innovative applications that resonate with users. This emphasis on product quality has contributed to the company's impressive revenue growth."
+        },
+        {
+          "heading": "Market Expansion",
+          "body": "Ferrari's strategic initiatives have allowed Bending Spoon to penetrate new markets and reach a broader audience, significantly increasing its user base and revenue."
+        }
+      ]
+    }
   },
   {
     "id": 478,
@@ -47322,7 +47322,7 @@ const dashboardData = {
     "last_podcast_name": "All-In with Chamath, Jason, Sacks & Friedberg",
     "last_episode_date": "2026-09-20",
     "mention_score": 1,
-    "mention_score_decayed": 0.83,
+    "mention_score_decayed": 0.81,
     "last_main_idea": "The mobile gaming advertising market is projected to reach $50 billion annually, presenting substantial growth opportunities.",
     "last_proof_cite": "All-In with Chamath, Jason, Sacks & Friedberg \u2022 2026-09-20 \u2022 Adam Foroughi, Applovin CEO: Surviving a 92% Drawdown, Ads as ML 1.0 & the $50B Game Ad Market",
     "last_proof_snippet": "Adam is probably the best founder and known as EverHurt of there's an earth platform hiding inside 100,000 mobile games and is quietly out-before-ing Facebook ads for e-commerce brands of all those thousand plus IPOs the number one most val",
@@ -47527,63 +47527,6 @@ const dashboardData = {
     }
   },
   {
-    "id": 466,
-    "name": "Dario Amadeh",
-    "slug": "dario-amadeh",
-    "bio": "Dario Amadeh is the CEO of Anthropic, a prominent organization focused on AI safety and research. He is known for advocating responsible AI development and implementing safety measures in the rapidly evolving field of artificial intelligence. His work emphasizes the importance of ethical considerations in technology.",
-    "known_for": "Dario Amadeh is recognized for his leadership in AI safety and his commitment to responsible AI development.",
-    "net_worth_usd": null,
-    "net_worth_source": "",
-    "net_worth_updated_at": null,
-    "voice_tone": "Cautious and reflective",
-    "voice_style": "Analytical and persuasive",
-    "voice_delivery_notes": "Measured pacing with emphasis on key safety concerns.",
-    "voice_profile_updated_at": "2026-09-18 04:53:48",
-    "last_seen": "2026-09-18 04:53:48",
-    "last_episode_title": "Frontier Labs Want to Slow Down, OpenAI Delays Its 2026 IPO, Anthropic Flags 5 Bioweapon Cases | EP #291",
-    "last_podcast_name": "Moonshots with Peter Diamandis",
-    "last_episode_date": "2026-09-17",
-    "mention_score": 1,
-    "mention_score_decayed": 0.78,
-    "last_main_idea": "The evolving landscape of AI safety and regulation presents both challenges and opportunities for investors, particularly in sectors impacted by AI integration and educational reforms.",
-    "last_proof_cite": "Moonshots with Peter Diamandis \u2022 2026-09-17 \u2022 Frontier Labs Want to Slow Down, OpenAI Delays Its 2026 IPO, Anthropic Flags 5 Bioweapon Cases | EP #291",
-    "last_proof_snippet": "Daria Amade, CEO of Enthropic, published a 3,800-word essay titled We Must Pace the Frontier. Three hours later, Sam Elan said, you're right. Monday, President Trump called it a hoax and China called it a cold war trick. Nothing less than a",
-    "supporting_takeaway": "The potential emergence of a safety cartel among AI companies could stifle competition.",
-    "grokipedia_url": null,
-    "grokipedia_fetched_at": "2026-09-17T23:54:12.886346",
-    "pundit_profile": {
-      "source": "llm",
-      "source_model": "openai:gpt-4o-mini",
-      "source_url": "",
-      "page_title": "Dario Amadeh",
-      "fetched_at": "2026-09-18T04:54:12.885990+00:00",
-      "cliff_notes": "Dario Amadeh has emerged as a significant figure in the field of artificial intelligence, particularly in the realm of safety and ethical development. As the CEO of Anthropic, he leads initiatives aimed at addressing the potential risks associated with AI technologies. His recent publications highlight the urgent need for regulation and responsible practices in AI development, positioning him as a thought leader in discussions about the future of technology. Amadeh's advocacy for safety measures reflects a growing recognition of the implications of AI on society, making his insights valuable for investors and tech enthusiasts alike.",
-      "derived": {
-        "current_role": "CEO of Anthropic",
-        "books_or_works": "We Must Pace the Frontier; Threat Intelligence Report"
-      },
-      "infobox": {},
-      "lead_paragraphs": [
-        "Dario Amadeh has emerged as a significant figure in the field of artificial intelligence, particularly in the realm of safety and ethical development. As the CEO of Anthropic, he leads initiatives aimed at addressing the potential risks associated with AI technologies. His recent publications highlight the urgent need for regulation and responsible practices in AI development, positioning him as a thought leader in discussions about the future of technology.",
-        "Amadeh's advocacy for safety measures reflects a growing recognition of the implications of AI on society, making his insights valuable for investors and tech enthusiasts alike."
-      ],
-      "sections": [
-        {
-          "heading": "AI Safety Advocacy",
-          "body": "Dario Amadeh is a prominent advocate for AI safety, emphasizing the need for responsible development practices to mitigate risks associated with artificial intelligence."
-        },
-        {
-          "heading": "Leadership at Anthropic",
-          "body": "As CEO of Anthropic, Amadeh drives the organization's mission to prioritize safety and ethical considerations in AI research and deployment."
-        },
-        {
-          "heading": "Publications on AI Regulation",
-          "body": "His recent essays and reports, including 'We Must Pace the Frontier' and the 'Threat Intelligence Report,' address the critical need for AI regulation and the potential dangers of unchecked technological advancement."
-        }
-      ]
-    }
-  },
-  {
     "id": 133,
     "name": "Chris Dixon",
     "slug": "chris-dixon",
@@ -47643,6 +47586,63 @@ const dashboardData = {
       ]
     },
     "net_worth": "$500.0M"
+  },
+  {
+    "id": 466,
+    "name": "Dario Amadeh",
+    "slug": "dario-amadeh",
+    "bio": "Dario Amadeh is the CEO of Anthropic, a prominent organization focused on AI safety and research. He is known for advocating responsible AI development and implementing safety measures in the rapidly evolving field of artificial intelligence. His work emphasizes the importance of ethical considerations in technology.",
+    "known_for": "Dario Amadeh is recognized for his leadership in AI safety and his commitment to responsible AI development.",
+    "net_worth_usd": null,
+    "net_worth_source": "",
+    "net_worth_updated_at": null,
+    "voice_tone": "Cautious and reflective",
+    "voice_style": "Analytical and persuasive",
+    "voice_delivery_notes": "Measured pacing with emphasis on key safety concerns.",
+    "voice_profile_updated_at": "2026-09-18 04:53:48",
+    "last_seen": "2026-09-18 04:53:48",
+    "last_episode_title": "Frontier Labs Want to Slow Down, OpenAI Delays Its 2026 IPO, Anthropic Flags 5 Bioweapon Cases | EP #291",
+    "last_podcast_name": "Moonshots with Peter Diamandis",
+    "last_episode_date": "2026-09-17",
+    "mention_score": 1,
+    "mention_score_decayed": 0.76,
+    "last_main_idea": "The evolving landscape of AI safety and regulation presents both challenges and opportunities for investors, particularly in sectors impacted by AI integration and educational reforms.",
+    "last_proof_cite": "Moonshots with Peter Diamandis \u2022 2026-09-17 \u2022 Frontier Labs Want to Slow Down, OpenAI Delays Its 2026 IPO, Anthropic Flags 5 Bioweapon Cases | EP #291",
+    "last_proof_snippet": "Daria Amade, CEO of Enthropic, published a 3,800-word essay titled We Must Pace the Frontier. Three hours later, Sam Elan said, you're right. Monday, President Trump called it a hoax and China called it a cold war trick. Nothing less than a",
+    "supporting_takeaway": "The potential emergence of a safety cartel among AI companies could stifle competition.",
+    "grokipedia_url": null,
+    "grokipedia_fetched_at": "2026-09-17T23:54:12.886346",
+    "pundit_profile": {
+      "source": "llm",
+      "source_model": "openai:gpt-4o-mini",
+      "source_url": "",
+      "page_title": "Dario Amadeh",
+      "fetched_at": "2026-09-18T04:54:12.885990+00:00",
+      "cliff_notes": "Dario Amadeh has emerged as a significant figure in the field of artificial intelligence, particularly in the realm of safety and ethical development. As the CEO of Anthropic, he leads initiatives aimed at addressing the potential risks associated with AI technologies. His recent publications highlight the urgent need for regulation and responsible practices in AI development, positioning him as a thought leader in discussions about the future of technology. Amadeh's advocacy for safety measures reflects a growing recognition of the implications of AI on society, making his insights valuable for investors and tech enthusiasts alike.",
+      "derived": {
+        "current_role": "CEO of Anthropic",
+        "books_or_works": "We Must Pace the Frontier; Threat Intelligence Report"
+      },
+      "infobox": {},
+      "lead_paragraphs": [
+        "Dario Amadeh has emerged as a significant figure in the field of artificial intelligence, particularly in the realm of safety and ethical development. As the CEO of Anthropic, he leads initiatives aimed at addressing the potential risks associated with AI technologies. His recent publications highlight the urgent need for regulation and responsible practices in AI development, positioning him as a thought leader in discussions about the future of technology.",
+        "Amadeh's advocacy for safety measures reflects a growing recognition of the implications of AI on society, making his insights valuable for investors and tech enthusiasts alike."
+      ],
+      "sections": [
+        {
+          "heading": "AI Safety Advocacy",
+          "body": "Dario Amadeh is a prominent advocate for AI safety, emphasizing the need for responsible development practices to mitigate risks associated with artificial intelligence."
+        },
+        {
+          "heading": "Leadership at Anthropic",
+          "body": "As CEO of Anthropic, Amadeh drives the organization's mission to prioritize safety and ethical considerations in AI research and deployment."
+        },
+        {
+          "heading": "Publications on AI Regulation",
+          "body": "His recent essays and reports, including 'We Must Pace the Frontier' and the 'Threat Intelligence Report,' address the critical need for AI regulation and the potential dangers of unchecked technological advancement."
+        }
+      ]
+    }
   },
   {
     "id": 465,
@@ -51214,7 +51214,7 @@ const dashboardData = {
     "last_podcast_name": "Moonshots with Peter Diamandis",
     "last_episode_date": "2026-08-11",
     "mention_score": 1,
-    "mention_score_decayed": 0.33,
+    "mention_score_decayed": 0.32,
     "last_main_idea": "Sergei Bren's return to Gemini may lead to accelerated innovation with less safety constraints.",
     "last_proof_cite": "Moonshots with Peter Diamandis \u2022 2026-08-11 \u2022 Sergey Brin Retakes Gemini, 4 Labs Lose Containment, Compute Trades at NYSE w/ Kush Bavaria | EP #278",
     "last_proof_snippet": "Sergei Bren is back taking personal control of Gemini. I think we can expect Gemini to make more releases in an accelerated pace with less safety constraints. Google has lost the frontier race and so they can't compete. Those who can't comp",
@@ -51274,7 +51274,7 @@ const dashboardData = {
     "last_podcast_name": "Latent Space: The AI Engineer Podcast",
     "last_episode_date": "2026-08-11",
     "mention_score": 1,
-    "mention_score_decayed": 0.33,
+    "mention_score_decayed": 0.32,
     "last_main_idea": "Investing in AI-driven protein design companies like Try Discovery could offer significant returns as these platforms have the potential to disrupt traditional drug discovery, making it more efficient and cost-effective.",
     "last_proof_cite": "Latent Space: The AI Engineer Podcast \u2022 2026-08-11 \u2022 \ud83d\udd2cThe BioAI Phase Shift - Matthew McPartlon & Neil Patil, Chai Discovery",
     "last_proof_snippet": "It looks a lot less like a, you know, a chat GPT and a lot more like a autodesk or solid works or a figma, you know, if you've used those things where you can kind of load up your molecule, there's this almost like photo shop S click design",
@@ -51333,7 +51333,7 @@ const dashboardData = {
     "last_podcast_name": "Latent Space: The AI Engineer Podcast",
     "last_episode_date": "2026-08-11",
     "mention_score": 1,
-    "mention_score_decayed": 0.33,
+    "mention_score_decayed": 0.32,
     "last_main_idea": "Investing in AI-driven protein design companies like Try Discovery could offer significant returns as these platforms have the potential to disrupt traditional drug discovery, making it more efficient and cost-effective.",
     "last_proof_cite": "Latent Space: The AI Engineer Podcast \u2022 2026-08-11 \u2022 \ud83d\udd2cThe BioAI Phase Shift - Matthew McPartlon & Neil Patil, Chai Discovery",
     "last_proof_snippet": "It looks a lot less like a, you know, a chat GPT and a lot more like a autodesk or solid works or a figma, you know, if you've used those things where you can kind of load up your molecule, there's this almost like photo shop S click design",
@@ -54023,72 +54023,6 @@ const dashboardData = {
     "net_worth": "$7.00B"
   },
   {
-    "id": 335,
-    "name": "Pat Gelsinger",
-    "slug": "pat-gelsinger",
-    "bio": "Pat Gelsinger is a renowned technology executive known for his leadership at Intel and VMware. He served as Intel's 8th CEO and played a significant role in the tech industry's evolution.",
-    "known_for": "His leadership at Intel during a critical period of competition and his insights into the tech industry.",
-    "net_worth_usd": 120000000.0,
-    "net_worth_source": "https://thedacian.com/pat-gelsinger-net-worth/",
-    "net_worth_updated_at": "2026-07-16T05:02:47.534425",
-    "voice_tone": "Reflective and insightful.",
-    "voice_style": "Factual and experienced.",
-    "voice_delivery_notes": "Speaks with a measured pace, emphasizing key points about Intel's history and future.",
-    "voice_profile_updated_at": "2026-07-16 10:01:16",
-    "last_seen": "2026-07-16 10:01:16",
-    "last_episode_title": "Former Intel CEO on What Went Wrong, What's Next + Lovable CEO on the Real Promise of Vibe Coding",
-    "last_podcast_name": "All-In with Chamath, Jason, Sacks & Friedberg",
-    "last_episode_date": "2026-07-15",
-    "mention_score": 1,
-    "mention_score_decayed": 0.18,
-    "last_main_idea": "Investing in companies with strong technical leadership and a focus on future-proofing through R&D can yield significant long-term returns.",
-    "last_proof_cite": "All-In with Chamath, Jason, Sacks & Friedberg \u2022 2026-07-15 \u2022 Former Intel CEO on What Went Wrong, What's Next + Lovable CEO on the Real Promise of Vibe Coding",
-    "last_proof_snippet": "spent a long time in Intel, and only 34 years, 34 years, probably one of the greatest American companies ever, and then, absolutely went off the rails and got absolutely demolished by Nvidia, TSMC, and I guess Apple to a certain extent. So",
-    "supporting_takeaway": "Technical decisions in tech companies should be driven by technologists, not just business leaders.",
-    "grokipedia_url": null,
-    "grokipedia_fetched_at": "2026-07-16T05:02:45.973996",
-    "pundit_profile": {
-      "source": "llm",
-      "source_model": "moonshot:moonshot-v1-8k",
-      "source_url": "",
-      "page_title": "Pat Gelsinger",
-      "fetched_at": "2026-07-16T10:02:45.973649+00:00",
-      "cliff_notes": "Pat Gelsinger has had a long and influential career in the technology sector. Starting at Intel in 1979, he held various technical and leadership roles, eventually becoming the company's Chief Technology Officer. His tenure at Intel spanned over three decades, during which he contributed to the development and execution of many of Intel's technology strategies. After leaving Intel, Gelsinger became the CEO of VMware, where he led the company through significant growth and innovation. In 2021, he returned to Intel as its 8th CEO, taking on the challenge of revitalizing the company amidst intense competition from Nvidia, TSMC, and Apple. His leadership and insights into the tech industry have made him a key figure in the evolution of technology and its impact on the global market.",
-      "derived": {
-        "current_role": "CEO of Intel",
-        "former_positions": "CEO of VMware; Senior Vice President and General Manager of Intel's Digital Enterprise Group; Chief Technology Officer at Intel",
-        "education": "B.S. in Electrical Engineering from Lincoln Technical Institute; M.S. in Electrical Engineering from Stanford University"
-      },
-      "infobox": {
-        "Born": "1962",
-        "Nationality": "American"
-      },
-      "lead_paragraphs": [
-        "Pat Gelsinger has had a long and influential career in the technology sector. Starting at Intel in 1979, he held various technical and leadership roles, eventually becoming the company's Chief Technology Officer. His tenure at Intel spanned over three decades, during which he contributed to the development and execution of many of Intel's technology strategies.",
-        "After leaving Intel, Gelsinger became the CEO of VMware, where he led the company through significant growth and innovation. In 2021, he returned to Intel as its 8th CEO, taking on the challenge of revitalizing the company amidst intense competition from Nvidia, TSMC, and Apple. His leadership and insights into the tech industry have made him a key figure in the evolution of technology and its impact on the global market."
-      ],
-      "sections": [
-        {
-          "heading": "Leadership at Intel",
-          "body": "Pat Gelsinger served as Intel's 8th CEO, taking on the role during a period of intense competition and significant challenges for the company."
-        },
-        {
-          "heading": "VMware CEO",
-          "body": "As CEO of VMware, Gelsinger led the company to substantial growth and innovation, expanding its reach in the virtualization and cloud computing markets."
-        },
-        {
-          "heading": "Technology Strategy",
-          "body": "Throughout his career, Gelsinger has been instrumental in shaping technology strategies, both at Intel and VMware, impacting the direction of the tech industry."
-        },
-        {
-          "heading": "Industry Competition",
-          "body": "Gelsinger's leadership at Intel coincided with the company's struggle to maintain its market position against competitors like Nvidia, TSMC, and Apple."
-        }
-      ]
-    },
-    "net_worth": "$120.0M"
-  },
-  {
     "id": 42,
     "name": "Jack Mallers",
     "slug": "jack-mallers",
@@ -54147,6 +54081,72 @@ const dashboardData = {
       ]
     },
     "net_worth": "$50.0M"
+  },
+  {
+    "id": 335,
+    "name": "Pat Gelsinger",
+    "slug": "pat-gelsinger",
+    "bio": "Pat Gelsinger is a renowned technology executive known for his leadership at Intel and VMware. He served as Intel's 8th CEO and played a significant role in the tech industry's evolution.",
+    "known_for": "His leadership at Intel during a critical period of competition and his insights into the tech industry.",
+    "net_worth_usd": 120000000.0,
+    "net_worth_source": "https://thedacian.com/pat-gelsinger-net-worth/",
+    "net_worth_updated_at": "2026-07-16T05:02:47.534425",
+    "voice_tone": "Reflective and insightful.",
+    "voice_style": "Factual and experienced.",
+    "voice_delivery_notes": "Speaks with a measured pace, emphasizing key points about Intel's history and future.",
+    "voice_profile_updated_at": "2026-07-16 10:01:16",
+    "last_seen": "2026-07-16 10:01:16",
+    "last_episode_title": "Former Intel CEO on What Went Wrong, What's Next + Lovable CEO on the Real Promise of Vibe Coding",
+    "last_podcast_name": "All-In with Chamath, Jason, Sacks & Friedberg",
+    "last_episode_date": "2026-07-15",
+    "mention_score": 1,
+    "mention_score_decayed": 0.17,
+    "last_main_idea": "Investing in companies with strong technical leadership and a focus on future-proofing through R&D can yield significant long-term returns.",
+    "last_proof_cite": "All-In with Chamath, Jason, Sacks & Friedberg \u2022 2026-07-15 \u2022 Former Intel CEO on What Went Wrong, What's Next + Lovable CEO on the Real Promise of Vibe Coding",
+    "last_proof_snippet": "spent a long time in Intel, and only 34 years, 34 years, probably one of the greatest American companies ever, and then, absolutely went off the rails and got absolutely demolished by Nvidia, TSMC, and I guess Apple to a certain extent. So",
+    "supporting_takeaway": "Technical decisions in tech companies should be driven by technologists, not just business leaders.",
+    "grokipedia_url": null,
+    "grokipedia_fetched_at": "2026-07-16T05:02:45.973996",
+    "pundit_profile": {
+      "source": "llm",
+      "source_model": "moonshot:moonshot-v1-8k",
+      "source_url": "",
+      "page_title": "Pat Gelsinger",
+      "fetched_at": "2026-07-16T10:02:45.973649+00:00",
+      "cliff_notes": "Pat Gelsinger has had a long and influential career in the technology sector. Starting at Intel in 1979, he held various technical and leadership roles, eventually becoming the company's Chief Technology Officer. His tenure at Intel spanned over three decades, during which he contributed to the development and execution of many of Intel's technology strategies. After leaving Intel, Gelsinger became the CEO of VMware, where he led the company through significant growth and innovation. In 2021, he returned to Intel as its 8th CEO, taking on the challenge of revitalizing the company amidst intense competition from Nvidia, TSMC, and Apple. His leadership and insights into the tech industry have made him a key figure in the evolution of technology and its impact on the global market.",
+      "derived": {
+        "current_role": "CEO of Intel",
+        "former_positions": "CEO of VMware; Senior Vice President and General Manager of Intel's Digital Enterprise Group; Chief Technology Officer at Intel",
+        "education": "B.S. in Electrical Engineering from Lincoln Technical Institute; M.S. in Electrical Engineering from Stanford University"
+      },
+      "infobox": {
+        "Born": "1962",
+        "Nationality": "American"
+      },
+      "lead_paragraphs": [
+        "Pat Gelsinger has had a long and influential career in the technology sector. Starting at Intel in 1979, he held various technical and leadership roles, eventually becoming the company's Chief Technology Officer. His tenure at Intel spanned over three decades, during which he contributed to the development and execution of many of Intel's technology strategies.",
+        "After leaving Intel, Gelsinger became the CEO of VMware, where he led the company through significant growth and innovation. In 2021, he returned to Intel as its 8th CEO, taking on the challenge of revitalizing the company amidst intense competition from Nvidia, TSMC, and Apple. His leadership and insights into the tech industry have made him a key figure in the evolution of technology and its impact on the global market."
+      ],
+      "sections": [
+        {
+          "heading": "Leadership at Intel",
+          "body": "Pat Gelsinger served as Intel's 8th CEO, taking on the role during a period of intense competition and significant challenges for the company."
+        },
+        {
+          "heading": "VMware CEO",
+          "body": "As CEO of VMware, Gelsinger led the company to substantial growth and innovation, expanding its reach in the virtualization and cloud computing markets."
+        },
+        {
+          "heading": "Technology Strategy",
+          "body": "Throughout his career, Gelsinger has been instrumental in shaping technology strategies, both at Intel and VMware, impacting the direction of the tech industry."
+        },
+        {
+          "heading": "Industry Competition",
+          "body": "Gelsinger's leadership at Intel coincided with the company's struggle to maintain its market position against competitors like Nvidia, TSMC, and Apple."
+        }
+      ]
+    },
+    "net_worth": "$120.0M"
   },
   {
     "id": 332,
@@ -63058,257 +63058,6 @@ const dashboardData = {
     "net_worth": "$15.0M"
   },
   {
-    "id": 144,
-    "name": "Dara Khosrowshahi",
-    "slug": "dara-khosrowshahi",
-    "bio": "Dara Khosrowshahi is the current CEO of Uber, having previously served as the CEO of Expedia. He is known for leading the turnaround of Uber's financial performance and focusing the company on autonomous technology.",
-    "known_for": "Leading the turnaround of Uber's financial performance and focusing the company on autonomous technology.",
-    "net_worth_usd": 5000000000.0,
-    "net_worth_source": "https://www.wikidata.org/wiki/Q5221979",
-    "net_worth_updated_at": "2026-04-01T05:04:28.531382",
-    "voice_tone": "Confident and optimistic about the future of autonomous vehicles.",
-    "voice_style": "Direct and solution-oriented, emphasizing the importance of strategic focus and hard work.",
-    "voice_delivery_notes": "Paced with emphasis on key points regarding the future of transportation and the role of technology.",
-    "voice_profile_updated_at": "2026-04-01 10:03:46",
-    "last_seen": "2026-04-01 10:03:46",
-    "last_episode_title": "Uber CEO on Winning the Robotaxi Race, the End of Car Ownership, and Uber\u2019s Next $1 Trillion Bet | Dara Khosrowshahi (Uber CEO) | 243",
-    "last_podcast_name": "Moonshots with Peter Diamandis",
-    "last_episode_date": "2026-03-31",
-    "mention_score": 1,
-    "mention_score_decayed": 0.02,
-    "last_main_idea": "Investment in autonomous vehicle technology is poised to disrupt urban mobility and logistics, with companies like Uber positioned to capitalize on this shift.",
-    "last_proof_cite": "Moonshots with Peter Diamandis \u2022 2026-03-31 \u2022 Uber CEO on Winning the Robotaxi Race, the End of Car Ownership, and Uber\u2019s Next $1 Trillion Bet | Dara Khosrowshahi (Uber CEO) | 243",
-    "last_proof_snippet": "Autonomous vehicles are becoming a reality, with a hybrid model expected to emerge where both human-driven and autonomous vehicles coexist.",
-    "supporting_takeaway": "Autonomous vehicles are becoming a reality, with a hybrid model expected to emerge where both human-driven and autonomous vehicles coexist.",
-    "grokipedia_url": null,
-    "grokipedia_fetched_at": "2026-04-01T05:04:28.065974",
-    "pundit_profile": {
-      "source": "llm",
-      "source_model": "moonshot:moonshot-v1-8k",
-      "source_url": "",
-      "page_title": "Dara Khosrowshahi",
-      "fetched_at": "2026-04-01T10:04:28.065490+00:00",
-      "cliff_notes": "Dara Khosrowshahi has had a significant impact on the tech industry through his leadership roles in major companies. As the CEO of Expedia, he led the company through a period of growth and expansion. His tenure at Uber has been marked by a focus on financial stability and the development of autonomous vehicle technology. Khosrowshahi's leadership has been pivotal in shaping the future of transportation and the tech industry, as he navigates the complexities of integrating autonomous vehicles into urban landscapes.",
-      "derived": {
-        "current_role": "CEO of Uber",
-        "former_positions": "CEO of Expedia"
-      },
-      "infobox": {
-        "Born": "",
-        "Nationality": ""
-      },
-      "lead_paragraphs": [
-        "Dara Khosrowshahi has had a significant impact on the tech industry through his leadership roles in major companies. As the CEO of Expedia, he led the company through a period of growth and expansion. His tenure at Uber has been marked by a focus on financial stability and the development of autonomous vehicle technology.",
-        "Khosrowshahi's leadership has been pivotal in shaping the future of transportation and the tech industry, as he navigates the complexities of integrating autonomous vehicles into urban landscapes."
-      ],
-      "sections": [
-        {
-          "heading": "Uber's Financial Turnaround",
-          "body": "Dara Khosrowshahi is credited with turning around Uber's financial performance, moving the company from significant losses to substantial earnings."
-        },
-        {
-          "heading": "Focus on Autonomous Technology",
-          "body": "Under Khosrowshahi's leadership, Uber has made significant strides in the development and deployment of autonomous vehicle technology, positioning the company as a key player in the future of transportation."
-        },
-        {
-          "heading": "Leadership in the Tech Industry",
-          "body": "Khosrowshahi's experience and leadership in the tech industry have made him a prominent figure, with his decisions and strategies closely watched by investors and tech enthusiasts alike."
-        }
-      ]
-    },
-    "net_worth": "$5.00B"
-  },
-  {
-    "id": 142,
-    "name": "Andrew Beglinow",
-    "slug": "andrew-beglinow",
-    "bio": "Andrew Beglinow is a prominent figure in the electric vehicle and renewable energy sectors. As the founder and CEO of Heron, he leads the company in developing solid-state power electronics. Previously, he served as VP of R&D at Tesla, where he contributed significantly to electric vehicle technology.",
-    "known_for": "His contributions to electric vehicle technology and the development of solid-state power electronics.",
-    "net_worth_usd": 11000000.0,
-    "net_worth_source": "https://www.gurufocus.com/insider/72754/andrew-d-baglino",
-    "net_worth_updated_at": "2026-04-01T05:04:52.643132",
-    "voice_tone": "Analytical and pragmatic",
-    "voice_style": "Focused on practical applications and technical details",
-    "voice_delivery_notes": "Clear and concise with a focus on impact",
-    "voice_profile_updated_at": "2026-04-01 10:03:31",
-    "last_seen": "2026-04-01 10:03:31",
-    "last_episode_title": "How Radiant and Heron Are Rethinking Power Generation and Delivery",
-    "last_podcast_name": "The a16z Show",
-    "last_episode_date": "2026-03-31",
-    "mention_score": 1,
-    "mention_score_decayed": 0.02,
-    "last_main_idea": "Investing in companies that innovate in energy delivery and grid infrastructure can lead to significant returns as the demand for electricity increases and the need for a more efficient and sustainable grid becomes critical.",
-    "last_proof_cite": "The a16z Show \u2022 2026-03-31 \u2022 How Radiant and Heron Are Rethinking Power Generation and Delivery",
-    "last_proof_snippet": "Delivery, not new generation, is the bottleneck in the current energy infrastructure.",
-    "supporting_takeaway": "Delivery, not new generation, is the bottleneck in the current energy infrastructure.",
-    "grokipedia_url": null,
-    "grokipedia_fetched_at": "2026-04-01T05:04:51.620692",
-    "pundit_profile": {
-      "source": "llm",
-      "source_model": "moonshot:moonshot-v1-8k",
-      "source_url": "",
-      "page_title": "Andrew Beglinow",
-      "fetched_at": "2026-04-01T10:04:51.620453+00:00",
-      "cliff_notes": "Andrew Beglinow has had a significant impact on the electric vehicle and renewable energy industries. As the VP of R&D at Tesla, he played a crucial role in advancing electric vehicle technology. His current venture, Heron, focuses on solid-state power electronics, which is a key component in the evolution of energy storage and distribution. Beglinow's work is pivotal in addressing the challenges of energy delivery and the transformation of the power grid, which is essential for sustainable energy and economic growth.",
-      "derived": {
-        "current_role": "Founder and CEO of Heron",
-        "former_positions": "VP of R&D at Tesla"
-      },
-      "infobox": {
-        "Born": "",
-        "Nationality": ""
-      },
-      "lead_paragraphs": [
-        "Andrew Beglinow has had a significant impact on the electric vehicle and renewable energy industries. As the VP of R&D at Tesla, he played a crucial role in advancing electric vehicle technology. His current venture, Heron, focuses on solid-state power electronics, which is a key component in the evolution of energy storage and distribution.",
-        "Beglinow's work is pivotal in addressing the challenges of energy delivery and the transformation of the power grid, which is essential for sustainable energy and economic growth."
-      ],
-      "sections": [
-        {
-          "heading": "Electric Vehicle Technology",
-          "body": "Beglinow's tenure at Tesla saw significant advancements in electric vehicle technology, contributing to the broader adoption of EVs."
-        },
-        {
-          "heading": "Solid-State Power Electronics",
-          "body": "As CEO of Heron, Beglinow is leading the development of solid-state power electronics, which are critical for improving energy storage and distribution efficiency."
-        },
-        {
-          "heading": "Energy Delivery and the Grid",
-          "body": "Beglinow emphasizes the importance of transforming the power grid to handle the growing demand for energy services and to incorporate sustainable energy sources effectively."
-        },
-        {
-          "heading": "Sustainable Energy and Economic Growth",
-          "body": "His work aims to facilitate the use of free and sustainable energy sources, such as sunlight and geothermal energy, to support economic growth and prosperity."
-        }
-      ]
-    },
-    "net_worth": "$11.0M"
-  },
-  {
-    "id": 141,
-    "name": "Doug Burnower",
-    "slug": "doug-burnower",
-    "bio": "Doug Burnower is the Founder and CEO of Radiant, a company that specializes in developing portable nuclear reactors. His work focuses on innovative energy solutions, aiming to address the challenges of energy delivery and sustainability in the modern world.",
-    "known_for": "Pioneering portable nuclear reactors and contributing to the evolution of energy infrastructure.",
-    "net_worth_usd": 243000000000.0,
-    "net_worth_source": "https://www.zippia.com/space-exploration-technologies-careers-39035/executives/",
-    "net_worth_updated_at": "2026-04-01T05:04:39.743774",
-    "voice_tone": "Confident and visionary",
-    "voice_style": "Technical and solution-oriented",
-    "voice_delivery_notes": "Paced with emphasis on innovation",
-    "voice_profile_updated_at": "2026-04-01 10:03:31",
-    "last_seen": "2026-04-01 10:03:31",
-    "last_episode_title": "How Radiant and Heron Are Rethinking Power Generation and Delivery",
-    "last_podcast_name": "The a16z Show",
-    "last_episode_date": "2026-03-31",
-    "mention_score": 1,
-    "mention_score_decayed": 0.02,
-    "last_main_idea": "Investing in companies that innovate in energy delivery and grid infrastructure can lead to significant returns as the demand for electricity increases and the need for a more efficient and sustainable grid becomes critical.",
-    "last_proof_cite": "The a16z Show \u2022 2026-03-31 \u2022 How Radiant and Heron Are Rethinking Power Generation and Delivery",
-    "last_proof_snippet": "Delivery, not new generation, is the bottleneck in the current energy infrastructure.",
-    "supporting_takeaway": "Delivery, not new generation, is the bottleneck in the current energy infrastructure.",
-    "grokipedia_url": null,
-    "grokipedia_fetched_at": "2026-04-01T05:04:38.716099",
-    "pundit_profile": {
-      "source": "llm",
-      "source_model": "moonshot:moonshot-v1-8k",
-      "source_url": "",
-      "page_title": "Doug Burnower",
-      "fetched_at": "2026-04-01T10:04:38.715783+00:00",
-      "cliff_notes": "Doug Burnower is recognized for his innovative work in the energy sector, particularly with his company Radiant, which is focused on portable nuclear reactors. His career has been dedicated to finding solutions to the complex problem of energy delivery and the sustainability of energy sources. Burnower's vision is to transform the way power is generated and distributed, with an emphasis on leveraging free energy sources like sunlight and geothermal heat. His work at SpaceX provided him with valuable experience in advanced technology and engineering, which he now applies to his current role at Radiant. Burnower's contributions to the energy industry are significant, as they aim to address the growing demand for power in a sustainable and efficient manner.",
-      "derived": {
-        "current_role": "Founder and CEO of Radiant",
-        "former_positions": "Prior work at SpaceX"
-      },
-      "infobox": {
-        "Born": "",
-        "Nationality": ""
-      },
-      "lead_paragraphs": [
-        "Doug Burnower is recognized for his innovative work in the energy sector, particularly with his company Radiant, which is focused on portable nuclear reactors. His career has been dedicated to finding solutions to the complex problem of energy delivery and the sustainability of energy sources. Burnower's vision is to transform the way power is generated and distributed, with an emphasis on leveraging free energy sources like sunlight and geothermal heat.",
-        "His work at SpaceX provided him with valuable experience in advanced technology and engineering, which he now applies to his current role at Radiant. Burnower's contributions to the energy industry are significant, as they aim to address the growing demand for power in a sustainable and efficient manner."
-      ],
-      "sections": [
-        {
-          "heading": "Energy Delivery",
-          "body": "Doug Burnower emphasizes the importance of improving energy delivery systems, noting that the current grid infrastructure is outdated and unable to efficiently handle the growing demand for power."
-        },
-        {
-          "heading": "Sustainable Energy",
-          "body": "Burnower's work at Radiant is centered around creating sustainable energy solutions through the development of portable nuclear reactors, which can provide a stable and clean source of energy."
-        },
-        {
-          "heading": "Innovation in Energy",
-          "body": "Doug Burnower is a proponent of using innovative technologies to revolutionize the energy sector, advocating for the use of free energy sources and the transformation of the existing grid infrastructure."
-        }
-      ]
-    },
-    "net_worth": "$243.00B"
-  },
-  {
-    "id": 140,
-    "name": "Geo Voliante",
-    "slug": "geo-voliante",
-    "bio": "Dr. Geo Voliante is a performance coach who has worked with top hedge funds and elite athletes to optimize their performance. His expertise lies in enhancing the mental and physical capabilities of individuals in high-pressure environments.",
-    "known_for": "Enhancing performance for hedge fund managers and elite athletes through coaching.",
-    "net_worth_usd": 15200000000.0,
-    "net_worth_source": "https://www.theladders.com/career-advice/these-are-the-25-highest-paid-hedge-fund-managers",
-    "net_worth_updated_at": "2026-04-01T05:05:19.102305",
-    "voice_tone": "Confident and knowledgeable.",
-    "voice_style": "Analytical and comparative, drawing parallels between hedge fund managers and athletes.",
-    "voice_delivery_notes": "Paced with emphasis on key points about adaptability and performance.",
-    "voice_profile_updated_at": "2026-04-01 10:03:14",
-    "last_seen": "2026-04-01 10:03:14",
-    "last_episode_title": "The Psychology of Market Champions: Inside the Minds of Point 72 & Citadel Portfolio Managers | Dr. Gio Valiante",
-    "last_podcast_name": "Monetary Matters with Jack Farley",
-    "last_episode_date": "2026-03-31",
-    "mention_score": 1,
-    "mention_score_decayed": 0.02,
-    "last_main_idea": "Investing in AI-enhanced ETFs like PQNT and PQUS can provide enhanced equity exposure in the current market environment.",
-    "last_proof_cite": "Monetary Matters with Jack Farley \u2022 2026-03-31 \u2022 The Psychology of Market Champions: Inside the Minds of Point 72 & Citadel Portfolio Managers | Dr. Gio Valiante",
-    "last_proof_snippet": "The impact of regulation and policy on the cost of starting a hedge fund.",
-    "supporting_takeaway": "The impact of regulation and policy on the cost of starting a hedge fund.",
-    "grokipedia_url": null,
-    "grokipedia_fetched_at": "2026-04-01T05:05:18.251968",
-    "pundit_profile": {
-      "source": "llm",
-      "source_model": "moonshot:moonshot-v1-8k",
-      "source_url": "",
-      "page_title": "Geo Voliante",
-      "fetched_at": "2026-04-01T10:05:18.251755+00:00",
-      "cliff_notes": "Dr. Geo Voliante is recognized for his work as a performance coach, assisting both hedge fund managers and elite athletes in optimizing their performance. His career has been dedicated to understanding and improving the mental and physical aspects of high-pressure roles. By working with hedge funds like 0.72 and PGA Tour golfers such as Justin Rose and Jordan Speath, Voliante has demonstrated his ability to adapt his coaching methods to diverse client needs. His insights into the temperaments and operational differences between various hedge fund environments have made him a valuable resource in the financial sector. His continued work with athletes and executives showcases his commitment to enhancing performance across different fields.",
-      "derived": {
-        "current_role": "Performance Coach"
-      },
-      "infobox": {
-        "Born": "",
-        "Nationality": ""
-      },
-      "lead_paragraphs": [
-        "Dr. Geo Voliante is recognized for his work as a performance coach, assisting both hedge fund managers and elite athletes in optimizing their performance. His career has been dedicated to understanding and improving the mental and physical aspects of high-pressure roles. By working with hedge funds like 0.72 and PGA Tour golfers such as Justin Rose and Jordan Speath, Voliante has demonstrated his ability to adapt his coaching methods to diverse client needs.",
-        "His insights into the temperaments and operational differences between various hedge fund environments have made him a valuable resource in the financial sector. His continued work with athletes and executives showcases his commitment to enhancing performance across different fields."
-      ],
-      "sections": [
-        {
-          "heading": "Performance Coaching",
-          "body": "Dr. Geo Voliante specializes in performance coaching, helping individuals in high-stress roles to maximize their potential."
-        },
-        {
-          "heading": "Hedge Fund Collaboration",
-          "body": "Voliante has collaborated with hedge funds, such as 0.72, to improve the performance of their managers through tailored coaching programs."
-        },
-        {
-          "heading": "Athletic Performance",
-          "body": "He has worked with PGA Tour golfers, including Justin Rose and Jordan Speath, to enhance their mental and physical game performance."
-        },
-        {
-          "heading": "Pod Environments",
-          "body": "Voliante has insights into the growth of pod environments within the hedge fund industry and the differences in temperament and operations between various setups."
-        }
-      ]
-    },
-    "net_worth": "$15.20B"
-  },
-  {
     "id": 43,
     "name": "Olivia Moore",
     "slug": "olivia-moore",
@@ -63374,6 +63123,257 @@ const dashboardData = {
         }
       ]
     }
+  },
+  {
+    "id": 144,
+    "name": "Dara Khosrowshahi",
+    "slug": "dara-khosrowshahi",
+    "bio": "Dara Khosrowshahi is the current CEO of Uber, having previously served as the CEO of Expedia. He is known for leading the turnaround of Uber's financial performance and focusing the company on autonomous technology.",
+    "known_for": "Leading the turnaround of Uber's financial performance and focusing the company on autonomous technology.",
+    "net_worth_usd": 5000000000.0,
+    "net_worth_source": "https://www.wikidata.org/wiki/Q5221979",
+    "net_worth_updated_at": "2026-04-01T05:04:28.531382",
+    "voice_tone": "Confident and optimistic about the future of autonomous vehicles.",
+    "voice_style": "Direct and solution-oriented, emphasizing the importance of strategic focus and hard work.",
+    "voice_delivery_notes": "Paced with emphasis on key points regarding the future of transportation and the role of technology.",
+    "voice_profile_updated_at": "2026-04-01 10:03:46",
+    "last_seen": "2026-04-01 10:03:46",
+    "last_episode_title": "Uber CEO on Winning the Robotaxi Race, the End of Car Ownership, and Uber\u2019s Next $1 Trillion Bet | Dara Khosrowshahi (Uber CEO) | 243",
+    "last_podcast_name": "Moonshots with Peter Diamandis",
+    "last_episode_date": "2026-03-31",
+    "mention_score": 1,
+    "mention_score_decayed": 0.01,
+    "last_main_idea": "Investment in autonomous vehicle technology is poised to disrupt urban mobility and logistics, with companies like Uber positioned to capitalize on this shift.",
+    "last_proof_cite": "Moonshots with Peter Diamandis \u2022 2026-03-31 \u2022 Uber CEO on Winning the Robotaxi Race, the End of Car Ownership, and Uber\u2019s Next $1 Trillion Bet | Dara Khosrowshahi (Uber CEO) | 243",
+    "last_proof_snippet": "Autonomous vehicles are becoming a reality, with a hybrid model expected to emerge where both human-driven and autonomous vehicles coexist.",
+    "supporting_takeaway": "Autonomous vehicles are becoming a reality, with a hybrid model expected to emerge where both human-driven and autonomous vehicles coexist.",
+    "grokipedia_url": null,
+    "grokipedia_fetched_at": "2026-04-01T05:04:28.065974",
+    "pundit_profile": {
+      "source": "llm",
+      "source_model": "moonshot:moonshot-v1-8k",
+      "source_url": "",
+      "page_title": "Dara Khosrowshahi",
+      "fetched_at": "2026-04-01T10:04:28.065490+00:00",
+      "cliff_notes": "Dara Khosrowshahi has had a significant impact on the tech industry through his leadership roles in major companies. As the CEO of Expedia, he led the company through a period of growth and expansion. His tenure at Uber has been marked by a focus on financial stability and the development of autonomous vehicle technology. Khosrowshahi's leadership has been pivotal in shaping the future of transportation and the tech industry, as he navigates the complexities of integrating autonomous vehicles into urban landscapes.",
+      "derived": {
+        "current_role": "CEO of Uber",
+        "former_positions": "CEO of Expedia"
+      },
+      "infobox": {
+        "Born": "",
+        "Nationality": ""
+      },
+      "lead_paragraphs": [
+        "Dara Khosrowshahi has had a significant impact on the tech industry through his leadership roles in major companies. As the CEO of Expedia, he led the company through a period of growth and expansion. His tenure at Uber has been marked by a focus on financial stability and the development of autonomous vehicle technology.",
+        "Khosrowshahi's leadership has been pivotal in shaping the future of transportation and the tech industry, as he navigates the complexities of integrating autonomous vehicles into urban landscapes."
+      ],
+      "sections": [
+        {
+          "heading": "Uber's Financial Turnaround",
+          "body": "Dara Khosrowshahi is credited with turning around Uber's financial performance, moving the company from significant losses to substantial earnings."
+        },
+        {
+          "heading": "Focus on Autonomous Technology",
+          "body": "Under Khosrowshahi's leadership, Uber has made significant strides in the development and deployment of autonomous vehicle technology, positioning the company as a key player in the future of transportation."
+        },
+        {
+          "heading": "Leadership in the Tech Industry",
+          "body": "Khosrowshahi's experience and leadership in the tech industry have made him a prominent figure, with his decisions and strategies closely watched by investors and tech enthusiasts alike."
+        }
+      ]
+    },
+    "net_worth": "$5.00B"
+  },
+  {
+    "id": 142,
+    "name": "Andrew Beglinow",
+    "slug": "andrew-beglinow",
+    "bio": "Andrew Beglinow is a prominent figure in the electric vehicle and renewable energy sectors. As the founder and CEO of Heron, he leads the company in developing solid-state power electronics. Previously, he served as VP of R&D at Tesla, where he contributed significantly to electric vehicle technology.",
+    "known_for": "His contributions to electric vehicle technology and the development of solid-state power electronics.",
+    "net_worth_usd": 11000000.0,
+    "net_worth_source": "https://www.gurufocus.com/insider/72754/andrew-d-baglino",
+    "net_worth_updated_at": "2026-04-01T05:04:52.643132",
+    "voice_tone": "Analytical and pragmatic",
+    "voice_style": "Focused on practical applications and technical details",
+    "voice_delivery_notes": "Clear and concise with a focus on impact",
+    "voice_profile_updated_at": "2026-04-01 10:03:31",
+    "last_seen": "2026-04-01 10:03:31",
+    "last_episode_title": "How Radiant and Heron Are Rethinking Power Generation and Delivery",
+    "last_podcast_name": "The a16z Show",
+    "last_episode_date": "2026-03-31",
+    "mention_score": 1,
+    "mention_score_decayed": 0.01,
+    "last_main_idea": "Investing in companies that innovate in energy delivery and grid infrastructure can lead to significant returns as the demand for electricity increases and the need for a more efficient and sustainable grid becomes critical.",
+    "last_proof_cite": "The a16z Show \u2022 2026-03-31 \u2022 How Radiant and Heron Are Rethinking Power Generation and Delivery",
+    "last_proof_snippet": "Delivery, not new generation, is the bottleneck in the current energy infrastructure.",
+    "supporting_takeaway": "Delivery, not new generation, is the bottleneck in the current energy infrastructure.",
+    "grokipedia_url": null,
+    "grokipedia_fetched_at": "2026-04-01T05:04:51.620692",
+    "pundit_profile": {
+      "source": "llm",
+      "source_model": "moonshot:moonshot-v1-8k",
+      "source_url": "",
+      "page_title": "Andrew Beglinow",
+      "fetched_at": "2026-04-01T10:04:51.620453+00:00",
+      "cliff_notes": "Andrew Beglinow has had a significant impact on the electric vehicle and renewable energy industries. As the VP of R&D at Tesla, he played a crucial role in advancing electric vehicle technology. His current venture, Heron, focuses on solid-state power electronics, which is a key component in the evolution of energy storage and distribution. Beglinow's work is pivotal in addressing the challenges of energy delivery and the transformation of the power grid, which is essential for sustainable energy and economic growth.",
+      "derived": {
+        "current_role": "Founder and CEO of Heron",
+        "former_positions": "VP of R&D at Tesla"
+      },
+      "infobox": {
+        "Born": "",
+        "Nationality": ""
+      },
+      "lead_paragraphs": [
+        "Andrew Beglinow has had a significant impact on the electric vehicle and renewable energy industries. As the VP of R&D at Tesla, he played a crucial role in advancing electric vehicle technology. His current venture, Heron, focuses on solid-state power electronics, which is a key component in the evolution of energy storage and distribution.",
+        "Beglinow's work is pivotal in addressing the challenges of energy delivery and the transformation of the power grid, which is essential for sustainable energy and economic growth."
+      ],
+      "sections": [
+        {
+          "heading": "Electric Vehicle Technology",
+          "body": "Beglinow's tenure at Tesla saw significant advancements in electric vehicle technology, contributing to the broader adoption of EVs."
+        },
+        {
+          "heading": "Solid-State Power Electronics",
+          "body": "As CEO of Heron, Beglinow is leading the development of solid-state power electronics, which are critical for improving energy storage and distribution efficiency."
+        },
+        {
+          "heading": "Energy Delivery and the Grid",
+          "body": "Beglinow emphasizes the importance of transforming the power grid to handle the growing demand for energy services and to incorporate sustainable energy sources effectively."
+        },
+        {
+          "heading": "Sustainable Energy and Economic Growth",
+          "body": "His work aims to facilitate the use of free and sustainable energy sources, such as sunlight and geothermal energy, to support economic growth and prosperity."
+        }
+      ]
+    },
+    "net_worth": "$11.0M"
+  },
+  {
+    "id": 141,
+    "name": "Doug Burnower",
+    "slug": "doug-burnower",
+    "bio": "Doug Burnower is the Founder and CEO of Radiant, a company that specializes in developing portable nuclear reactors. His work focuses on innovative energy solutions, aiming to address the challenges of energy delivery and sustainability in the modern world.",
+    "known_for": "Pioneering portable nuclear reactors and contributing to the evolution of energy infrastructure.",
+    "net_worth_usd": 243000000000.0,
+    "net_worth_source": "https://www.zippia.com/space-exploration-technologies-careers-39035/executives/",
+    "net_worth_updated_at": "2026-04-01T05:04:39.743774",
+    "voice_tone": "Confident and visionary",
+    "voice_style": "Technical and solution-oriented",
+    "voice_delivery_notes": "Paced with emphasis on innovation",
+    "voice_profile_updated_at": "2026-04-01 10:03:31",
+    "last_seen": "2026-04-01 10:03:31",
+    "last_episode_title": "How Radiant and Heron Are Rethinking Power Generation and Delivery",
+    "last_podcast_name": "The a16z Show",
+    "last_episode_date": "2026-03-31",
+    "mention_score": 1,
+    "mention_score_decayed": 0.01,
+    "last_main_idea": "Investing in companies that innovate in energy delivery and grid infrastructure can lead to significant returns as the demand for electricity increases and the need for a more efficient and sustainable grid becomes critical.",
+    "last_proof_cite": "The a16z Show \u2022 2026-03-31 \u2022 How Radiant and Heron Are Rethinking Power Generation and Delivery",
+    "last_proof_snippet": "Delivery, not new generation, is the bottleneck in the current energy infrastructure.",
+    "supporting_takeaway": "Delivery, not new generation, is the bottleneck in the current energy infrastructure.",
+    "grokipedia_url": null,
+    "grokipedia_fetched_at": "2026-04-01T05:04:38.716099",
+    "pundit_profile": {
+      "source": "llm",
+      "source_model": "moonshot:moonshot-v1-8k",
+      "source_url": "",
+      "page_title": "Doug Burnower",
+      "fetched_at": "2026-04-01T10:04:38.715783+00:00",
+      "cliff_notes": "Doug Burnower is recognized for his innovative work in the energy sector, particularly with his company Radiant, which is focused on portable nuclear reactors. His career has been dedicated to finding solutions to the complex problem of energy delivery and the sustainability of energy sources. Burnower's vision is to transform the way power is generated and distributed, with an emphasis on leveraging free energy sources like sunlight and geothermal heat. His work at SpaceX provided him with valuable experience in advanced technology and engineering, which he now applies to his current role at Radiant. Burnower's contributions to the energy industry are significant, as they aim to address the growing demand for power in a sustainable and efficient manner.",
+      "derived": {
+        "current_role": "Founder and CEO of Radiant",
+        "former_positions": "Prior work at SpaceX"
+      },
+      "infobox": {
+        "Born": "",
+        "Nationality": ""
+      },
+      "lead_paragraphs": [
+        "Doug Burnower is recognized for his innovative work in the energy sector, particularly with his company Radiant, which is focused on portable nuclear reactors. His career has been dedicated to finding solutions to the complex problem of energy delivery and the sustainability of energy sources. Burnower's vision is to transform the way power is generated and distributed, with an emphasis on leveraging free energy sources like sunlight and geothermal heat.",
+        "His work at SpaceX provided him with valuable experience in advanced technology and engineering, which he now applies to his current role at Radiant. Burnower's contributions to the energy industry are significant, as they aim to address the growing demand for power in a sustainable and efficient manner."
+      ],
+      "sections": [
+        {
+          "heading": "Energy Delivery",
+          "body": "Doug Burnower emphasizes the importance of improving energy delivery systems, noting that the current grid infrastructure is outdated and unable to efficiently handle the growing demand for power."
+        },
+        {
+          "heading": "Sustainable Energy",
+          "body": "Burnower's work at Radiant is centered around creating sustainable energy solutions through the development of portable nuclear reactors, which can provide a stable and clean source of energy."
+        },
+        {
+          "heading": "Innovation in Energy",
+          "body": "Doug Burnower is a proponent of using innovative technologies to revolutionize the energy sector, advocating for the use of free energy sources and the transformation of the existing grid infrastructure."
+        }
+      ]
+    },
+    "net_worth": "$243.00B"
+  },
+  {
+    "id": 140,
+    "name": "Geo Voliante",
+    "slug": "geo-voliante",
+    "bio": "Dr. Geo Voliante is a performance coach who has worked with top hedge funds and elite athletes to optimize their performance. His expertise lies in enhancing the mental and physical capabilities of individuals in high-pressure environments.",
+    "known_for": "Enhancing performance for hedge fund managers and elite athletes through coaching.",
+    "net_worth_usd": 15200000000.0,
+    "net_worth_source": "https://www.theladders.com/career-advice/these-are-the-25-highest-paid-hedge-fund-managers",
+    "net_worth_updated_at": "2026-04-01T05:05:19.102305",
+    "voice_tone": "Confident and knowledgeable.",
+    "voice_style": "Analytical and comparative, drawing parallels between hedge fund managers and athletes.",
+    "voice_delivery_notes": "Paced with emphasis on key points about adaptability and performance.",
+    "voice_profile_updated_at": "2026-04-01 10:03:14",
+    "last_seen": "2026-04-01 10:03:14",
+    "last_episode_title": "The Psychology of Market Champions: Inside the Minds of Point 72 & Citadel Portfolio Managers | Dr. Gio Valiante",
+    "last_podcast_name": "Monetary Matters with Jack Farley",
+    "last_episode_date": "2026-03-31",
+    "mention_score": 1,
+    "mention_score_decayed": 0.01,
+    "last_main_idea": "Investing in AI-enhanced ETFs like PQNT and PQUS can provide enhanced equity exposure in the current market environment.",
+    "last_proof_cite": "Monetary Matters with Jack Farley \u2022 2026-03-31 \u2022 The Psychology of Market Champions: Inside the Minds of Point 72 & Citadel Portfolio Managers | Dr. Gio Valiante",
+    "last_proof_snippet": "The impact of regulation and policy on the cost of starting a hedge fund.",
+    "supporting_takeaway": "The impact of regulation and policy on the cost of starting a hedge fund.",
+    "grokipedia_url": null,
+    "grokipedia_fetched_at": "2026-04-01T05:05:18.251968",
+    "pundit_profile": {
+      "source": "llm",
+      "source_model": "moonshot:moonshot-v1-8k",
+      "source_url": "",
+      "page_title": "Geo Voliante",
+      "fetched_at": "2026-04-01T10:05:18.251755+00:00",
+      "cliff_notes": "Dr. Geo Voliante is recognized for his work as a performance coach, assisting both hedge fund managers and elite athletes in optimizing their performance. His career has been dedicated to understanding and improving the mental and physical aspects of high-pressure roles. By working with hedge funds like 0.72 and PGA Tour golfers such as Justin Rose and Jordan Speath, Voliante has demonstrated his ability to adapt his coaching methods to diverse client needs. His insights into the temperaments and operational differences between various hedge fund environments have made him a valuable resource in the financial sector. His continued work with athletes and executives showcases his commitment to enhancing performance across different fields.",
+      "derived": {
+        "current_role": "Performance Coach"
+      },
+      "infobox": {
+        "Born": "",
+        "Nationality": ""
+      },
+      "lead_paragraphs": [
+        "Dr. Geo Voliante is recognized for his work as a performance coach, assisting both hedge fund managers and elite athletes in optimizing their performance. His career has been dedicated to understanding and improving the mental and physical aspects of high-pressure roles. By working with hedge funds like 0.72 and PGA Tour golfers such as Justin Rose and Jordan Speath, Voliante has demonstrated his ability to adapt his coaching methods to diverse client needs.",
+        "His insights into the temperaments and operational differences between various hedge fund environments have made him a valuable resource in the financial sector. His continued work with athletes and executives showcases his commitment to enhancing performance across different fields."
+      ],
+      "sections": [
+        {
+          "heading": "Performance Coaching",
+          "body": "Dr. Geo Voliante specializes in performance coaching, helping individuals in high-stress roles to maximize their potential."
+        },
+        {
+          "heading": "Hedge Fund Collaboration",
+          "body": "Voliante has collaborated with hedge funds, such as 0.72, to improve the performance of their managers through tailored coaching programs."
+        },
+        {
+          "heading": "Athletic Performance",
+          "body": "He has worked with PGA Tour golfers, including Justin Rose and Jordan Speath, to enhance their mental and physical game performance."
+        },
+        {
+          "heading": "Pod Environments",
+          "body": "Voliante has insights into the growth of pod environments within the hedge fund industry and the differences in temperament and operations between various setups."
+        }
+      ]
+    },
+    "net_worth": "$15.20B"
   },
   {
     "id": 137,
@@ -65638,7 +65638,7 @@ const dashboardData = {
         }
       ],
       "disclaimer": "Research sleeve / scorecard, not advice. $1,000 equal-weight illustration only.",
-      "last_updated": "2026-09-29T23:48:23.738404"
+      "last_updated": "2026-09-30T05:05:33.124483"
     }
   ]
 }
