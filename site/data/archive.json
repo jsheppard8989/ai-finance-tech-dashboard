@@ -34,6 +34,75 @@
       ]
     },
     {
+      "id": 552,
+      "title": "Token Bill Dwarfs CPU Bill | Ben Pouladian on Meta's Muse, Anthropic S1, and Why All Roads Still Lead to NVIDIA",
+      "source_type": "podcast",
+      "source_name": "Monetary Matters with Jack Farley",
+      "source_date": "2026-09-30",
+      "summary": "Jack Farley interviewed Ben Pouladian of BEP Research about the AI infrastructure cycle, with Meta's Muse as the entry point for a broader debate about consumer AI agents. Pouladian argued that Muse is not necessarily a frontier model, but it performs roughly 90% of what average consumers want and could turn Meta's huge installed base into a daily AI user base through Instagram, Facebook, and WhatsApp rather than paid subscriptions.",
+      "key_takeaway": "Ben Pouladian argues NVIDIA stays central because agentic AI economics hinge on cost per token per megawatt, not just cheaper CPUs or GPUs.",
+      "tickers_mentioned": [
+        "NVDA",
+        "META",
+        "AMD",
+        "ARM",
+        "GOOGL",
+        "AMZN"
+      ],
+      "sentiment": "neutral",
+      "display_on_main": 1,
+      "display_order": 0,
+      "added_date": "2026-09-30",
+      "archived_date": null,
+      "archived_reason": null,
+      "podcast_episode_id": 538,
+      "notable_quotes": [
+        {
+          "speaker": "Ben Pouladian",
+          "quote": "the token build dwarfs the CPU build"
+        },
+        {
+          "speaker": "Ben Pouladian",
+          "quote": "the chip is dead long live the factory"
+        },
+        {
+          "speaker": "Ben Pouladian",
+          "quote": "compute equals revenues compute equals revenues"
+        }
+      ]
+    },
+    {
+      "id": 553,
+      "title": "Why We're Living in a Biological Singularity With Ben Lamm | MOONSHOTS Live #297",
+      "source_type": "podcast",
+      "source_name": "Moonshots with Peter Diamandis",
+      "source_date": "2026-09-30",
+      "summary": "Ben Lamm explained why he entered synthetic biology despite having prior companies in gaming, defense, AI, and mobile rather than a formal biology background. He argued that the lack of domain training was an advantage because it let him ask different questions while surrounding himself with specialists such as George Church, whom he described as the father of synthetic biology and the head of genetics at Harvard.",
+      "key_takeaway": "Ben Lamm argues biological AI's near-term value is proprietary comparative-genomics data, because foundation models need millions of genomes and wet-lab validation rather than single-genome inputs.",
+      "tickers_mentioned": [],
+      "sentiment": "neutral",
+      "display_on_main": 1,
+      "display_order": 0,
+      "added_date": "2026-09-30",
+      "archived_date": null,
+      "archived_reason": null,
+      "podcast_episode_id": 537,
+      "notable_quotes": [
+        {
+          "speaker": "Ben Lamm",
+          "quote": "I would make the argument that, you know, the data set that is more valuable than the model."
+        },
+        {
+          "speaker": "Ben Lamm",
+          "quote": "I think that world is less than 10 years off."
+        },
+        {
+          "speaker": "Ben Lamm",
+          "quote": "We are delivering 300 plus at 90 plus percent efficiency consistently."
+        }
+      ]
+    },
+    {
       "id": 545,
       "title": "Claude Code\u2019s Next Era \u2014 Thariq Shihipar, Anthropic",
       "source_type": "podcast",
@@ -406,7 +475,7 @@
         "NVDA"
       ],
       "sentiment": "neutral",
-      "display_on_main": 1,
+      "display_on_main": 0,
       "display_order": 0,
       "added_date": "2026-09-25",
       "archived_date": null,
@@ -551,7 +620,7 @@
         "NVDA"
       ],
       "sentiment": "bullish",
-      "display_on_main": 1,
+      "display_on_main": 0,
       "display_order": 0,
       "added_date": "2026-09-24",
       "archived_date": null,
@@ -11262,6 +11331,24 @@
   "definitions": [],
   "overton": [
     {
+      "id": 292,
+      "term": "Superintelligence",
+      "description": "Superintelligence refers to AI that surpasses human cognitive abilities, potentially reshaping societal structures and governance.",
+      "first_detected_date": "2026-09-27",
+      "last_mentioned_date": "2026-09-30",
+      "mention_count": 2,
+      "source_podcasts": null,
+      "status": "active",
+      "investment_implications": "The rise of superintelligence may lead to new economic models and governance, impacting investment strategies.",
+      "display_on_main": 0,
+      "archived_date": null,
+      "archived_reason": null,
+      "first_detected_episode_id": 526,
+      "first_detected_speaker": "Peter Diamandis (hosts)",
+      "last_mentioned_episode_id": 537,
+      "last_mentioned_speaker": "Ben Lamm"
+    },
+    {
       "id": 286,
       "term": "Project-Based Learning",
       "description": "An educational approach where students learn by engaging in real-world projects rather than traditional lectures.",
@@ -11392,8 +11479,8 @@
       "term": "Loops",
       "description": "An operational framework where AI systems handle repetitive tasks in cascading scopes, from individual personal workflows up to large parts of an entire company, freeing humans for strategic and intuitive work.",
       "first_detected_date": "2026-09-12",
-      "last_mentioned_date": "2026-09-28",
-      "mention_count": 10,
+      "last_mentioned_date": "2026-09-30",
+      "mention_count": 11,
       "source_podcasts": null,
       "status": "active",
       "investment_implications": "Companies architected around loops may achieve superior capital efficiency and scalability by compressing operational overhead into automated cycles.",
@@ -11402,8 +11489,8 @@
       "archived_reason": null,
       "first_detected_episode_id": 473,
       "first_detected_speaker": null,
-      "last_mentioned_episode_id": 532,
-      "last_mentioned_speaker": "Daniel Ek"
+      "last_mentioned_episode_id": 538,
+      "last_mentioned_speaker": "Ben Pouladian"
     },
     {
       "id": 284,
@@ -11464,8 +11551,8 @@
       "term": "Simulation",
       "description": "The use of models and computer programs to represent and analyze real or imagined systems or situations.",
       "first_detected_date": "2026-08-21",
-      "last_mentioned_date": "2026-09-26",
-      "mention_count": 20,
+      "last_mentioned_date": "2026-09-30",
+      "mention_count": 21,
       "source_podcasts": null,
       "status": "active",
       "investment_implications": "Simulation technology can provide significant insights for decision-making, making investments in this area potentially valuable.",
@@ -11474,8 +11561,8 @@
       "archived_reason": null,
       "first_detected_episode_id": 420,
       "first_detected_speaker": "June",
-      "last_mentioned_episode_id": 523,
-      "last_mentioned_speaker": "Eddie Lazaran"
+      "last_mentioned_episode_id": 537,
+      "last_mentioned_speaker": "Ben Lamm"
     },
     {
       "id": 272,
@@ -11750,20 +11837,20 @@
     {
       "id": 260,
       "term": "Virtual Cell Models",
-      "description": "Highly detailed computational models of cells that can simulate biological processes to test scientific hypotheses and drug effects.",
+      "description": "AI-based models that simulate molecules, cells, tissues, organs, or disease processes to accelerate drug discovery and biological research. Pouladian linked this to synthetic molecule libraries, sequencing, wet labs, and AI-driven target discovery.",
       "first_detected_date": "2026-07-09",
-      "last_mentioned_date": "2026-08-29",
-      "mention_count": 4,
+      "last_mentioned_date": "2026-09-30",
+      "mention_count": 5,
       "source_podcasts": null,
       "status": "active",
-      "investment_implications": "Virtual cell models can reduce the cost and time of biological research, allowing for more rapid iteration and risk-taking in drug discovery.",
+      "investment_implications": "The concept supports demand for life-science tools, sequencing, synthetic biology, and computational biology platforms.",
       "display_on_main": 1,
       "archived_date": null,
       "archived_reason": null,
       "first_detected_episode_id": 338,
       "first_detected_speaker": "Mark Zuckerberg, Priscilla Chan",
-      "last_mentioned_episode_id": 444,
-      "last_mentioned_speaker": "Peter Diamandis (hosts)"
+      "last_mentioned_episode_id": 538,
+      "last_mentioned_speaker": "Ben Pouladian"
     },
     {
       "id": 43,
@@ -11806,8 +11893,8 @@
       "term": "AI Boom",
       "description": "A period characterized by rapid technological advancement, significant investment, and widespread adoption of artificial intelligence, leading to substantial economic growth and wealth creation.",
       "first_detected_date": "2026-06-29",
-      "last_mentioned_date": "2026-09-25",
-      "mention_count": 15,
+      "last_mentioned_date": "2026-09-30",
+      "mention_count": 16,
       "source_podcasts": null,
       "status": "active",
       "investment_implications": "This era presents unparalleled opportunities for investors to back innovative startups and capitalize on transformative industry shifts.",
@@ -11816,8 +11903,8 @@
       "archived_reason": null,
       "first_detected_episode_id": 320,
       "first_detected_speaker": "Leakwet Ahamed",
-      "last_mentioned_episode_id": 528,
-      "last_mentioned_speaker": "Erik Townsend (hosts)"
+      "last_mentioned_episode_id": 538,
+      "last_mentioned_speaker": "Ben Pouladian"
     },
     {
       "id": 279,
@@ -11843,7 +11930,7 @@
       "description": "Large cloud service providers that scale their services to meet high demand, significantly impacting the infrastructure market.",
       "first_detected_date": "2026-06-19",
       "last_mentioned_date": "2026-09-30",
-      "mention_count": 40,
+      "mention_count": 41,
       "source_podcasts": null,
       "status": "active",
       "investment_implications": "Hyperscalers' investment trends indicate strong demand for compute resources, presenting opportunities for related suppliers.",
@@ -11852,8 +11939,8 @@
       "archived_reason": null,
       "first_detected_episode_id": 302,
       "first_detected_speaker": "Chamath Palihapitiya, Jason Calacanis (hosts)",
-      "last_mentioned_episode_id": 536,
-      "last_mentioned_speaker": "David George (hosts)"
+      "last_mentioned_episode_id": 538,
+      "last_mentioned_speaker": "Ben Pouladian"
     },
     {
       "id": 256,
@@ -12002,20 +12089,20 @@
     {
       "id": 138,
       "term": "AI CapEx",
-      "description": "Capital expenditures by companies in the artificial intelligence sector, indicating significant investment in AI infrastructure and development.",
+      "description": "The large capital spending cycle for data centers, chips, power, memory, networking, and cloud contracts needed to train and serve AI models. The episode tied Meta, Anthropic, OpenAI, and hyperscaler spending to expected token demand.",
       "first_detected_date": "2026-06-08",
-      "last_mentioned_date": "2026-08-29",
-      "mention_count": 28,
+      "last_mentioned_date": "2026-09-30",
+      "mention_count": 29,
       "source_podcasts": null,
       "status": "active",
-      "investment_implications": "AI CapEx signals the level of commitment and investment in AI technologies, which can be an indicator of future growth and innovation in the sector.",
+      "investment_implications": "AI CapEx drives semiconductor, power, memory, and construction demand but also raises return-on-capital and circular-financing questions.",
       "display_on_main": 0,
       "archived_date": null,
       "archived_reason": null,
       "first_detected_episode_id": 271,
       "first_detected_speaker": null,
-      "last_mentioned_episode_id": 444,
-      "last_mentioned_speaker": "Peter Diamandis (hosts)"
+      "last_mentioned_episode_id": 538,
+      "last_mentioned_speaker": "Ben Pouladian"
     },
     {
       "id": 234,
@@ -12326,20 +12413,20 @@
     {
       "id": 50,
       "term": "Singularity",
-      "description": "A hypothetical point in the future at which technological growth becomes uncontrollable and irreversible, leading to unforeseeable changes in human civilization.",
+      "description": "The episode frames biology as approaching a point where AI, compute, DNA synthesis, multiplex editing, and artificial gestation could allow CAD-like design of organisms. Lamm said this kind of design world is less than 10 years away.",
       "first_detected_date": "2026-05-15",
-      "last_mentioned_date": "2026-09-29",
-      "mention_count": 75,
+      "last_mentioned_date": "2026-09-30",
+      "mention_count": 76,
       "source_podcasts": null,
       "status": "active",
-      "investment_implications": "Investors should consider the potential for rapid technological change and its impact on various sectors, including AI, when making long-term investment decisions.",
+      "investment_implications": "This matters for synthetic biology, lab automation, genomics data infrastructure, and companies building tools that turn biological design into an engineering workflow.",
       "display_on_main": 0,
       "archived_date": null,
       "archived_reason": null,
       "first_detected_episode_id": 221,
       "first_detected_speaker": null,
-      "last_mentioned_episode_id": 535,
-      "last_mentioned_speaker": "Peter Diamandis (hosts)"
+      "last_mentioned_episode_id": 537,
+      "last_mentioned_speaker": "Ben Lamm"
     },
     {
       "id": 97,
@@ -12614,20 +12701,20 @@
     {
       "id": 126,
       "term": "Data Center Nimbyism",
-      "description": "The resistance from local communities against the establishment of data centers due to concerns over energy consumption and environmental impact.",
+      "description": "Local political opposition to building data centers because of power, water, land, and community concerns. Pouladian said some towns that approved data centers later moved toward moratoriums after town-hall pushback.",
       "first_detected_date": "2026-04-20",
-      "last_mentioned_date": "2026-09-19",
-      "mention_count": 7,
+      "last_mentioned_date": "2026-09-30",
+      "mention_count": 8,
       "source_podcasts": null,
       "status": "active",
-      "investment_implications": "Understanding local opposition to data centers can inform investment decisions in energy and tech sectors.",
+      "investment_implications": "Permitting resistance can slow gigawatts of power additions, delay lease starts, and shift data-center builds to friendlier regions or countries.",
       "display_on_main": 0,
       "archived_date": null,
       "archived_reason": null,
       "first_detected_episode_id": null,
       "first_detected_speaker": null,
-      "last_mentioned_episode_id": 499,
-      "last_mentioned_speaker": "David Bush"
+      "last_mentioned_episode_id": 538,
+      "last_mentioned_speaker": "Ben Pouladian"
     },
     {
       "id": 118,
@@ -13244,20 +13331,20 @@
     {
       "id": 55,
       "term": "AI Factory",
-      "description": "A facility or system designed for the production of AI capabilities, including data processing and machine learning models.",
+      "description": "A data center optimized to produce AI tokens as an output, similar to a commodity plant producing oil or refined fuel. Pouladian framed the key metric as cost per token per megawatt.",
       "first_detected_date": "2026-03-17",
-      "last_mentioned_date": "2026-09-14",
-      "mention_count": 6,
+      "last_mentioned_date": "2026-09-30",
+      "mention_count": 7,
       "source_podcasts": null,
       "status": "active",
-      "investment_implications": "The ability to rapidly build and scale AI factories is a competitive advantage in the tech industry.",
+      "investment_implications": "The framework favors full-stack suppliers that can lower token production cost across power, GPUs, networking, software, and security.",
       "display_on_main": 0,
       "archived_date": null,
       "archived_reason": null,
       "first_detected_episode_id": 71,
       "first_detected_speaker": null,
-      "last_mentioned_episode_id": 480,
-      "last_mentioned_speaker": "Jensen Huang"
+      "last_mentioned_episode_id": 538,
+      "last_mentioned_speaker": "Ben Pouladian"
     },
     {
       "id": 57,
@@ -13532,20 +13619,20 @@
     {
       "id": 114,
       "term": "AI Agents",
-      "description": "AI agents are autonomous systems that can perform tasks traditionally done by humans, often with increased efficiency.",
+      "description": "Software systems that use AI models to take actions across tools and repeat steps until a task is completed. In the episode, Muse, Grok Bot, and future Google or Apple assistants were discussed as consumer versions of this idea.",
       "first_detected_date": "2026-02-28",
-      "last_mentioned_date": "2026-09-29",
-      "mention_count": 104,
+      "last_mentioned_date": "2026-09-30",
+      "mention_count": 105,
       "source_podcasts": null,
       "status": "active",
-      "investment_implications": "The rise of AI agents is expected to reshape labor markets and consumer interactions, creating new economic dynamics.",
+      "investment_implications": "Agent usage shifts costs toward token generation, memory, CPUs, security, and data-center capacity.",
       "display_on_main": 0,
       "archived_date": null,
       "archived_reason": null,
       "first_detected_episode_id": 31,
       "first_detected_speaker": null,
-      "last_mentioned_episode_id": 535,
-      "last_mentioned_speaker": "Peter Diamandis (hosts)"
+      "last_mentioned_episode_id": 538,
+      "last_mentioned_speaker": "Ben Pouladian"
     },
     {
       "id": 38,
