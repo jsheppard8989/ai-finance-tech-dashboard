@@ -8,6 +8,8 @@ whisper_queue/ and the worker writes transcripts to whisper_done/. Either wait
 for completion (default) or use --queue-only to enqueue and exit (transcripts
 picked up on next run). Do not set USE_FASTER_WHISPER unless you want in-process
 transcription (can OOM/timeout).
+Shows that publish a full transcript (RSS transcript tag, transcript body, or
+Substack /feed) skip Whisper; every other show stays on the queue.
 """
 
 import os
@@ -149,6 +151,12 @@ def fetch_latest_episode(feed_url, max_age_days=14, max_items_scan=25):
                     print(f"  ⏭ Already have '{title[:50]}' (guid match, ep_id={existing[0]}) — scanning feed for next…")
                     continue
 
+            try:
+                from published_transcript import rss_item_transcript_hints
+                hints = rss_item_transcript_hints(item)
+            except Exception:
+                hints = {'link': '', 'transcript_urls': [], 'rss_html': ''}
+
             return {
                 'podcast': podcast_title,
                 'title': title,
@@ -156,7 +164,10 @@ def fetch_latest_episode(feed_url, max_age_days=14, max_items_scan=25):
                 'published': pub_date_str,
                 'published_date': pub_date_iso,
                 'rss_guid': rss_guid,
-                'feed': feed_url
+                'feed': feed_url,
+                'link': hints.get('link') or '',
+                'transcript_urls': hints.get('transcript_urls') or [],
+                'rss_html': hints.get('rss_html') or '',
             }
 
         return None
@@ -232,10 +243,10 @@ def _safe_filename_stem(s):
     return s or 'ep'
 
 
-def download_episode(episode):
-    """Download the audio file for an episode."""
+def episode_audio_filename(episode):
+    """Stable mp3 name for an episode. Transcript stems use this, with or without a download."""
     audio_url = episode['audio_url']
-    
+
     # Create filename from URL
     if 'megaphone.fm' in audio_url:
         # Extract megaphone ID
@@ -262,6 +273,13 @@ def download_episode(episode):
         pod_slug = _safe_filename_stem(episode.get('podcast', 'podcast'))[:20]
         filename = f"{pod_slug}_{pub}_{unique}.mp3"
     
+    return filename
+
+
+def download_episode(episode):
+    """Download the audio file for an episode."""
+    audio_url = episode['audio_url']
+    filename = episode_audio_filename(episode)
     filepath = AUDIO_DIR / filename
     
     # Skip if already downloaded
@@ -476,6 +494,34 @@ def chunk_audio(audio_path, chunk_secs=1800):
     return chunks if chunks else [audio_path]
 
 
+def _episode_meta(episode):
+    return {
+        'podcast_name': episode.get('podcast', 'Unknown'),
+        'episode_title': episode.get('title', ''),
+        'audio_url': episode.get('audio_url', ''),
+        'feed_url': episode.get('feed', ''),
+        'published': episode.get('published', ''),
+        'published_date': episode.get('published_date', ''),
+        'rss_guid': episode.get('rss_guid', ''),
+    }
+
+
+def write_published_transcript(episode, text):
+    """Save a publisher transcript where Whisper would have written it, and skip the queue."""
+    filename = episode_audio_filename(episode)
+    stem = Path(filename).stem
+    transcript_file = TRANSCRIPT_DIR / f"{stem}.txt"
+    meta_file = TRANSCRIPT_DIR / f"{stem}.meta.json"
+    TRANSCRIPT_DIR.mkdir(parents=True, exist_ok=True)
+    if not transcript_file.exists():
+        transcript_file.write_text(text, encoding='utf-8')
+    if not meta_file.exists():
+        meta = _episode_meta(episode)
+        meta['transcript_source'] = 'published'
+        meta_file.write_text(json.dumps(meta, indent=2))
+    return str(transcript_file)
+
+
 def transcribe_episode(audio_path, episode):
     """Transcribe: use queue+worker (default), or in-process if USE_FASTER_WHISPER=1.
     With USE_QUEUE_ONLY=1 or --queue-only, only enqueue and return None (no wait).
@@ -562,6 +608,24 @@ def main():
             continue
 
         print(f"  📋 Latest: {episode['title'][:60]}...")
+
+        published = None
+        try:
+            from published_transcript import resolve_published_transcript
+            published = resolve_published_transcript(episode)
+        except Exception as e:
+            print(f"  ⚠ Published transcript check failed ({e}); using Whisper")
+        if published:
+            transcript_path = write_published_transcript(episode, published)
+            print(f"  ✓ Published transcript ({len(published):,} chars); skipping Whisper")
+            results.append({
+                'podcast': episode['podcast'],
+                'title': episode['title'],
+                'audio_path': None,
+                'transcript_path': transcript_path,
+                'success': transcript_path is not None
+            })
+            continue
 
         # Download
         audio_path = download_episode(episode)
