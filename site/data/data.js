@@ -46235,18 +46235,7 @@ const dashboardData = {
   }
 },
   suggestedTerms: [
-  {
-    "id": 802,
-    "term": "where the fuck is all the automation,",
-    "definition": "arguing that Claude Code, Codex, Cursor, and other coding tools mostly make it faster to produce ordinary software rather than expanding what software can do",
-    "investment_implications": null,
-    "source_type": "auto_extracted",
-    "mention_count": 1,
-    "source_diversity": 1,
-    "relevance_score": 50,
-    "submitted_date": "2026-09-30 17:41:58",
-    "priority_score": 80
-  },
+  
   {
     "id": 804,
     "term": "free money",
@@ -47562,10 +47551,10 @@ const dashboardData = {
   },
   {
     "id": 485,
-    "name": "Diego Almeida",
-    "slug": "diego-almeida",
-    "bio": "Diego Almeida is the founder of Type-Safe AI, where he focuses on integrating artificial intelligence into software development. He is known for his innovative approach to enhancing the capabilities of software through AI, aiming to create smarter software solutions that can automate complex tasks effectively.",
-    "known_for": "Diego Almeida is recognized for his pioneering work in AI integration within software development, appealing to investors interested in the future of technology.",
+    "name": "Diogo Almeida",
+    "slug": "diogo-almeida",
+    "bio": "Diogo Almeida is the CEO of TypeSafe AI, where he focuses on integrating artificial intelligence into software development. He is known for his innovative approach to enhancing the capabilities of software through AI, aiming to create smarter software solutions that can automate complex tasks effectively.",
+    "known_for": "Diogo Almeida is recognized for his pioneering work in AI integration within software development, appealing to investors interested in the future of technology.",
     "net_worth_usd": null,
     "net_worth_source": "",
     "net_worth_updated_at": null,
@@ -47579,9 +47568,9 @@ const dashboardData = {
     "last_episode_date": "2026-09-28",
     "mention_score": 1,
     "mention_score_decayed": 0.95,
-    "last_main_idea": "Diogo Almeida argues SaaS could see an inverse SaaS Apocalypse because Type-Safe AI's Jev adds a natural-language-to-state-machine primitive inside existing products, unlike Claude Code or Codex generating ordinary code.",
+    "last_main_idea": "Diogo Almeida argues SaaS could see an inverse SaaS Apocalypse because TypeSafe AI's Jev adds a natural-language-to-state-machine primitive inside existing products, unlike Claude Code or Codex generating ordinary code.",
     "last_proof_cite": "The a16z Show \u2022 2026-09-28 \u2022 AI Can Write Code. Why Isn\u2019t Software Better?",
-    "last_proof_snippet": "Where the fuck is all the automation? AI is so unbelievably smart, and yet it's so useless at all other stuff. It doesn't matter how much AI cutting agents you use, the software actually isn't getting better. Maybe you're ready to get faste",
+    "last_proof_snippet": "AI is so unbelievably smart, and yet it's so useless at all other stuff. It doesn't matter how much AI cutting agents you use, the software actually isn't getting better.",
     "supporting_takeaway": "Diogo Almeida claims OpenAI has tried to automate customer service since 2020, but basic workflows remain hard to automate because the industry optimized models for human judges and demos rather than background software reliability.",
     "grokipedia_url": null,
     "grokipedia_fetched_at": "2026-09-28T06:51:56.462771",
@@ -47589,21 +47578,21 @@ const dashboardData = {
       "source": "llm",
       "source_model": "openai:gpt-4o-mini",
       "source_url": "",
-      "page_title": "Diego Almeida",
+      "page_title": "Diogo Almeida",
       "fetched_at": "2026-09-28T11:51:56.462431+00:00",
-      "cliff_notes": "Diego Almeida has emerged as a significant figure in the tech industry, particularly in the realm of artificial intelligence and software development. As the founder of Type-Safe AI, he has dedicated his career to exploring how AI can be effectively integrated into software to enhance its functionality. His vision centers on creating intelligent software that not only automates tasks but also improves overall software quality. Almeida's insights into the limitations of current AI applications, especially in customer service automation, reflect a broader concern about the potential of AI to transform computing. His work challenges conventional approaches and advocates for a future where software itself possesses greater intelligence, thereby unlocking new opportunities in technology.",
+      "cliff_notes": "Diogo Almeida has emerged as a significant figure in the tech industry, particularly in the realm of artificial intelligence and software development. As the CEO of TypeSafe AI, he has dedicated his career to exploring how AI can be effectively integrated into software to enhance its functionality. His vision centers on creating intelligent software that not only automates tasks but also improves overall software quality. Almeida's insights into the limitations of current AI applications, especially in customer service automation, reflect a broader concern about the potential of AI to transform computing. His work challenges conventional approaches and advocates for a future where software itself possesses greater intelligence, thereby unlocking new opportunities in technology.",
       "derived": {
-        "current_role": "Founder at Type-Safe AI"
+        "current_role": "CEO at TypeSafe AI"
       },
       "infobox": {},
       "lead_paragraphs": [
-        "Diego Almeida has emerged as a significant figure in the tech industry, particularly in the realm of artificial intelligence and software development. As the founder of Type-Safe AI, he has dedicated his career to exploring how AI can be effectively integrated into software to enhance its functionality. His vision centers on creating intelligent software that not only automates tasks but also improves overall software quality.",
+        "Diogo Almeida has emerged as a significant figure in the tech industry, particularly in the realm of artificial intelligence and software development. As the CEO of TypeSafe AI, he has dedicated his career to exploring how AI can be effectively integrated into software to enhance its functionality. His vision centers on creating intelligent software that not only automates tasks but also improves overall software quality.",
         "Almeida's insights into the limitations of current AI applications, especially in customer service automation, reflect a broader concern about the potential of AI to transform computing. His work challenges conventional approaches and advocates for a future where software itself possesses greater intelligence, thereby unlocking new opportunities in technology."
       ],
       "sections": [
         {
           "heading": "Innovative AI Integration",
-          "body": "Diego Almeida emphasizes the need for smarter software that can autonomously handle complex tasks, moving beyond traditional automation."
+          "body": "Diogo Almeida emphasizes the need for smarter software that can autonomously handle complex tasks, moving beyond traditional automation."
         },
         {
           "heading": "Critique of Current AI Applications",

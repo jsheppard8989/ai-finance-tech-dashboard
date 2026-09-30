@@ -93,6 +93,17 @@ def _transcript_proof_snippet(transcript_path: Optional[str], max_chars: int = 2
     except Exception:
         return ""
     txt = " ".join(txt.split())
+    # The a16z TypeSafe episode transcript opens on a sentence that is not
+    # rendered. Drop that first sentence, then end on a sentence boundary.
+    if p.name.startswith("the_a16z_show_20260928_d86f541d"):
+        q = txt.find("?")
+        if 0 <= q <= 80:
+            txt = txt[q + 1:].lstrip()
+            cut = txt[:max_chars]
+            boundary = max(cut.rfind("."), cut.rfind("?"), cut.rfind("!"))
+            if boundary >= 40:
+                return cut[:boundary + 1].strip()
+            return cut.strip()
     return txt[:max_chars].strip()
 
 
