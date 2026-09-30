@@ -1,7 +1,7 @@
 """Tests for get_ai_client() provider selection logic.
 
 These tests verify:
-1. Default priority order (Gemini -> OpenAI -> Moonshot) when ANALYZE_BACKEND is not set
+1. Default priority order (OpenAI, then non-Flash Gemini; Moonshot is not called) when ANALYZE_BACKEND is not set
 2. Explicit provider selection via ANALYZE_BACKEND
 3. ProviderKeyMissingError when explicit provider key is missing (no fallback)
 4. Invalid ANALYZE_BACKEND value raises ProviderKeyMissingError
@@ -96,31 +96,32 @@ def test_no_override_no_keys_returns_none():
 
 
 def test_default_priority_gemini_first():
-    """Without ANALYZE_BACKEND, Gemini is tried before OpenAI when both keys exist.
-    
-    This test mocks the client initialization to verify call order.
-    Skipped if google-generativeai is not installed.
-    """
-    if not GEMINI_AVAILABLE:
-        print("  (skipped: google-generativeai not installed)")
+    """Without ANALYZE_BACKEND, OpenAI wins. Moonshot/Kimi is not selected."""
+    if not OPENAI_AVAILABLE:
+        print("  (skipped: openai not installed)")
         return
-        
     from analyze_transcript import get_ai_client
 
-    init_order = []
-
-    def mock_genai_configure(api_key):
-        init_order.append("gemini")
-
-    env = {"GEMINI_API_KEY": "fake-gemini-key", "OPENAI_API_KEY": "fake-openai-key"}
-    
+    env = {
+        "GEMINI_API_KEY": "fake-gemini-key",
+        "OPENAI_API_KEY": "fake-openai-key",
+        "MOONSHOT_API_KEY": "fake-kimi-key",
+        "GEMINI_MODEL": "gemini-2.5-flash",
+    }
     with mock.patch.dict(os.environ, env, clear=True):
-        import google.generativeai as genai
-        with mock.patch.object(genai, 'configure', mock_genai_configure):
-            result = get_ai_client()
-            assert result is not None
-            assert result[0] == "gemini"
-            assert "gemini" in init_order
+        result = get_ai_client()
+        assert result is not None
+        assert result[0] == "openai"
+
+
+def test_default_does_not_call_moonshot():
+    """A Kimi key alone must not become the client."""
+    from analyze_transcript import get_ai_client
+
+    env = {"MOONSHOT_API_KEY": "fake-kimi-key"}
+    with mock.patch.dict(os.environ, env, clear=True):
+        result = get_ai_client()
+        assert result is None
 
 
 def test_explicit_openai_with_key_succeeds():
@@ -190,6 +191,8 @@ if __name__ == "__main__":
     
     test_default_priority_gemini_first()
     print("✓ test_default_priority_gemini_first")
+    test_default_does_not_call_moonshot()
+    print("✓ test_default_does_not_call_moonshot")
     
     test_explicit_openai_with_key_succeeds()
     print("✓ test_explicit_openai_with_key_succeeds")

@@ -2447,7 +2447,7 @@
   </div>
 
   <!-- Load dashboard data from pipeline (if available) -->
-  <script src="./data/data.js?v=1790784834"></script>
+  <script src="./data/data.js?v=1790789823"></script>
   <script src="./js/common.js"></script>
   
   <script>
@@ -3736,7 +3736,7 @@
         
         html += '<div class="insight-item" onclick="toggleInsight(this)">';
         html += '<div class="source">' + sourceLine + '</div>';
-        html += '<div class="text"><strong>' + insight.title + ':</strong> ' + insight.summary + '</div>';
+        html += '<div class="text">' + renderInsightRecapHTML(insight) + '</div>';
         html += '<div class="insight-expanded"><div style="font-size: 0.85rem; color: #a8b2d1; display: flex; justify-content: space-between; align-items: flex-end; gap: 0.5rem;">';
         html += '<span><strong>Key Tickers:</strong> ' + tickerDisplay + '</span>' + deepDiveBtn;
         html += '</div></div></div>';

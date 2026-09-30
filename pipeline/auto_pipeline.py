@@ -459,7 +459,7 @@ def promote_episodes_to_insights() -> int:
         cursor = conn.execute("""
             SELECT pe.id, pe.podcast_name, pe.episode_title, pe.episode_date,
                    pe.summary, pe.key_takeaways, pe.key_tickers, pe.investment_thesis,
-                   pe.transcript_path
+                   pe.transcript_path, pe.notable_quotes
             FROM podcast_episodes pe
             WHERE pe.is_processed = 1
               AND pe.id NOT IN (
@@ -542,18 +542,20 @@ def promote_episodes_to_insights() -> int:
                 INSERT INTO latest_insights
                     (title, source_type, source_name, source_date, summary,
                      key_takeaway, tickers_mentioned, sentiment,
-                     display_on_main, display_order, added_date, podcast_episode_id)
-                VALUES (?, 'podcast', ?, ?, ?, ?, ?, ?, 0, 0, ?, ?)
+                     display_on_main, display_order, added_date, podcast_episode_id,
+                     notable_quotes)
+                VALUES (?, 'podcast', ?, ?, ?, ?, ?, ?, 0, 0, ?, ?, ?)
             """, (
                 ep['episode_title'],
                 ep['podcast_name'],
                 source_date,
-                (ep['summary'] or '')[:2000],
+                (ep['summary'] or '')[:8000],
                 key_takeaway,
                 tickers,
                 sentiment,
                 str(date.today()),
-                ep['id']
+                ep['id'],
+                ep.get('notable_quotes') or None,
             ))
             promoted += 1
             print(

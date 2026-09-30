@@ -34,12 +34,12 @@ from workspace_paths import DB_PATH, INBOX_DIR, TRANSCRIPT_DIR
 
 # Optional Stage A digest (same markdown file used for Insight + Deep Dive)
 def _load_podcast_source_text(transcript_path: Path) -> str:
-    from transcript_digest import load_digest_or_raw
-
-    text, is_digest = load_digest_or_raw(transcript_path)
-    if is_digest and text:
-        print("  ℹ Deep Dive source: using evidence-preserving digest (.digest.md)", flush=True)
-    return text
+    """Raw transcript. Stage A digests are too short to support named quotes."""
+    try:
+        return transcript_path.read_text(encoding="utf-8", errors="ignore")
+    except Exception as exc:
+        print(f"  Could not read transcript {transcript_path}: {exc}", flush=True)
+        return ""
 
 try:
     from openai import OpenAI
@@ -88,7 +88,7 @@ IMPL_VS_WHATS_NEW_OVERLAP_REJECT = 0.35
 MAX_CANNED_PHRASES = 1
 MAX_GENERATION_ATTEMPTS = 4
 MAX_DEEP_DIVE_RETRIES = 3
-SOURCE_SNIPPET_CHARS = 12000
+SOURCE_SNIPPET_CHARS = 100_000  # same window as analyze_transcript / transcript_window.py
 DEEP_DIVE_SCHEMA_VERSION = 2
 
 CANNED_PHRASES = (
@@ -458,6 +458,13 @@ def deep_dive_structural_ok(content: Dict[str, Any]) -> Tuple[bool, str]:
     )
     if quote_like < 2 and quote_first_lines < 2:
         return False, "source_quotes must be quote-first (bullets or quoted lines)"
+    named = re.findall(
+        r"(?:^|\n)\s*[-•]?\s*([A-Z][A-Za-z.'-]+(?:\s+[A-Z][A-Za-z.'-]+)*)\s*:",
+        ev,
+    )
+    named = [n for n in named if n.lower() not in {"host", "guest", "author", "speaker"}]
+    if len(named) < 2:
+        return False, "source_quotes need at least two lines that name the speaker (Full Name: \"quote\")"
     if lines and RECAP_OPENING_RE.match(lines[0]) and quote_like < 1:
         return False, "source_quotes must not open with episode summary prose"
 
@@ -468,6 +475,8 @@ def deep_dive_structural_ok(content: Dict[str, Any]) -> Tuple[bool, str]:
     thesis = str(content.get("investment_thesis") or "").strip()
     if len(thesis) < 40:
         return False, "investment_implication prose too short or missing"
+    if "investors should" in (ev + " " + whats_new + " " + thesis).lower():
+        return False, "contains Investors should"
 
     ft = content.get("falsification_tracks")
     if not isinstance(ft, list) or len(ft) < 2:
@@ -499,7 +508,7 @@ def get_db_connection():
 
 
 def get_ai_clients() -> List[Tuple[str, Any]]:
-    """Return all configured AI clients in priority order for Deep Dive generation."""
+    """Configured clients for Deep Dives. OpenAI first. Moonshot/Kimi is never called."""
     _load_dotenv_for_deepdives()
     clients: List[Tuple[str, Any]] = []
     seen: set[str] = set()
@@ -510,36 +519,8 @@ def get_ai_clients() -> List[Tuple[str, Any]]:
             seen.add(client_type)
 
     if not OPENAI_AVAILABLE:
-        print("  ✗ openai package not installed (pip install openai)", flush=True)
+        print("  openai package not installed (pip install openai)", flush=True)
         return clients
-
-    from workspace_paths import agent_auth_profiles_path
-
-    auth_profiles_path = agent_auth_profiles_path()
-    if auth_profiles_path and auth_profiles_path.exists():
-        try:
-            with open(auth_profiles_path) as f:
-                auth_data = json.load(f)
-            profiles = auth_data.get("profiles", {})
-            if "moonshot:default" in profiles:
-                profile = profiles["moonshot:default"]
-                if profile.get("type") == "api_key":
-                    kimi_key = (profile.get("key") or "").strip()
-                    if kimi_key:
-                        client = OpenAI(api_key=kimi_key, base_url="https://api.moonshot.ai/v1")
-                        print("  Using Moonshot/Kimi API (auth profiles)", flush=True)
-                        _add("moonshot", client)
-        except Exception as e:
-            print(f"  ⚠ Moonshot (profiles) init failed: {e}", flush=True)
-
-    kimi_key = os.environ.get("MOONSHOT_API_KEY", "").strip()
-    if kimi_key:
-        try:
-            client = OpenAI(api_key=kimi_key, base_url="https://api.moonshot.ai/v1")
-            print("  Using Moonshot/Kimi API (MOONSHOT_API_KEY)", flush=True)
-            _add("moonshot", client)
-        except Exception as e:
-            print(f"  ⚠ Moonshot env init failed: {e}", flush=True)
 
     openai_key = os.environ.get("OPENAI_API_KEY", "").strip()
     if openai_key:
@@ -548,23 +529,25 @@ def get_ai_clients() -> List[Tuple[str, Any]]:
             print("  Using OpenAI API", flush=True)
             _add("openai", client)
         except Exception as e:
-            print(f"  ⚠ OpenAI init failed: {e}", flush=True)
+            print(f"  OpenAI init failed: {e}", flush=True)
 
     gemini_key = os.environ.get("GEMINI_API_KEY", "").strip()
     if gemini_key and GEMINI_AVAILABLE:
         try:
-            genai.configure(api_key=gemini_key)
-            print("  Using Gemini API", flush=True)
-            _add("gemini", None)
+            from analyze_transcript import resolve_llm_model
+            gemini_model = resolve_llm_model("gemini")
+            if "flash" in gemini_model.lower():
+                print(f"  Skipping Gemini {gemini_model} (Flash is not used for deep dives).", flush=True)
+            else:
+                genai.configure(api_key=gemini_key)
+                print("  Using Gemini API", flush=True)
+                _add("gemini", None)
         except Exception as e:
-            print(f"  ⚠ Gemini init failed: {e}", flush=True)
+            print(f"  Gemini init failed: {e}", flush=True)
 
+    print("  Moonshot/Kimi skipped (suspended; not called).", flush=True)
     if not clients:
-        print(
-            "  ✗ No AI client: set MOONSHOT_API_KEY, GEMINI_API_KEY, or OPENAI_API_KEY in .env "
-            "(or Moonshot in Cursor auth profiles).",
-            flush=True,
-        )
+        print("  No AI client: set OPENAI_API_KEY.", flush=True)
     return clients
 
 
@@ -633,25 +616,26 @@ def _call_json_model(clients: List[Tuple[str, Any]], prompt: str) -> Tuple[Optio
     from analyze_transcript import resolve_llm_model
     last_error = ""
     content_filter_hit = False
+    from transcript_window import openai_chat_kwargs
     for client_type, client in clients:
         try:
             if client_type == "moonshot":
-                resp = client.chat.completions.create(
-                    model=resolve_llm_model("moonshot"),
-                    messages=[{"role": "user", "content": prompt}],
-                    response_format={"type": "json_object"},
-                    max_tokens=3200,
-                )
-                return json.loads(resp.choices[0].message.content), None
+                print("    Skipping Moonshot/Kimi (not called).", flush=True)
+                continue
 
             if client_type == "openai":
+                model = resolve_llm_model("openai")
+                print(f"    OpenAI model: {model}", flush=True)
                 resp = client.chat.completions.create(
-                    model=resolve_llm_model("openai"),
+                    model=model,
                     messages=[{"role": "user", "content": prompt}],
                     response_format={"type": "json_object"},
-                    max_tokens=3200,
+                    **openai_chat_kwargs(model, 6000),
                 )
-                return json.loads(resp.choices[0].message.content), None
+                raw = resp.choices[0].message.content
+                if not raw or not str(raw).strip():
+                    raise ValueError(f"OpenAI returned empty content (model={model})")
+                return json.loads(raw), None
 
             if client_type == "gemini":
                 import google.generativeai as genai
@@ -683,7 +667,12 @@ def generate_deep_dive_with_ai(
 ) -> Tuple[Optional[dict], Optional[str]]:
     """Generate deep dive content using AI (high-ROI: source evidence + falsifiers + anti-paraphrase)."""
 
-    src = source_content[:SOURCE_SNIPPET_CHARS]
+    from transcript_window import sample_transcript_window
+    src = sample_transcript_window(source_content, SOURCE_SNIPPET_CHARS)
+    print(
+        f"    Deep dive transcript window: {len(src)} chars (limit {SOURCE_SNIPPET_CHARS}, raw {len(source_content or '')})",
+        flush=True,
+    )
     label = "Podcast / transcript" if source_type == "podcast" else "Newsletter / source body"
 
     retry_block = ""
@@ -704,7 +693,7 @@ INSIGHT TITLE: {title}
 Return ONLY valid JSON with these keys:
 
 {{
-  "source_quotes": "Quote-first evidence ONLY. Each line must start with - or a quotation mark or Host:/Guest:/Author:. Include at least TWO short verbatim quotes from the source. NO opening sentence summarizing the episode (forbidden: 'The podcast episode…', 'In this episode…', 'The guest discusses…').",
+  "source_quotes": "Exactly 2 or 3 lines. Each line MUST be: - Full Name: \"verbatim quote from the source\". Use the person's real name (the spelling in the insight title when it names them). Never write Host or Guest when the name is known. Never invent a phonetic misspelling. NO opening sentence summarizing the episode.",
   "whats_new": "ONE paragraph (80–180 words): mechanisms, numbers, disagreements, or second-order effects that are NOT already on the Insight card. Plain language. If a sentence could appear on 50 unrelated podcast Deep Dives, delete it.",
   "falsification_tracks": [
     "3–5 bullets: specific, observable data, events, or market outcomes that would materially REDUCE conviction in the thesis (or flip it). Each bullet must be testable — not vibes."

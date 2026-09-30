@@ -181,3 +181,60 @@ function generateDeepDiveHTML(dd) {
   }
   return sections.join('');
 }
+
+function parseNotableQuotes(raw) {
+  if (!raw) return [];
+  if (typeof raw === 'string') {
+    try { raw = JSON.parse(raw); } catch (e) { return []; }
+  }
+  if (!Array.isArray(raw)) return [];
+  return raw.map(function(q) {
+    if (!q) return null;
+    if (typeof q === 'string') return { speaker: '', quote: q };
+    return { speaker: q.speaker || q.name || '', quote: q.quote || q.text || '' };
+  }).filter(function(q) { return q && q.quote; }).slice(0, 3);
+}
+
+function isInvestorFiller(text) {
+  return /^\s*(?:[\w-]+\s+){0,3}investors?\s+(?:should|must|need to|may want to)\b/i.test(text || '');
+}
+
+/** Headline is the one-sentence thesis. Under it: recap paragraphs and named quotes. */
+function renderInsightRecapHTML(item) {
+  if (!item) return '';
+  var html = '';
+  if (item.title) {
+    html += '<div class="insight-title" style="font-weight:600;color:#e8e8e8;margin-bottom:0.35rem;">' +
+      escapeDeepDiveText(item.title) + '</div>';
+  }
+  var thesis = (item.key_takeaway || '').trim();
+  if (thesis && !isInvestorFiller(thesis)) {
+    html += '<p class="insight-thesis" style="color:#e8e8e8;line-height:1.55;margin:0 0 0.75rem;font-size:1rem;">' +
+      escapeDeepDiveText(thesis) + '</p>';
+  }
+  var summary = item.summary || '';
+  var paras = String(summary).split(/\n\s*\n/).map(function(p) { return p.trim(); }).filter(Boolean);
+  if (!paras.length && String(summary).trim()) paras = [String(summary).trim()];
+  if (paras.length) {
+    html += '<div class="insight-recap">';
+    paras.forEach(function(p) {
+      html += '<p style="color:#c5cde0;line-height:1.65;margin:0 0 0.7rem;font-size:0.92rem;">' +
+        escapeDeepDiveText(p) + '</p>';
+    });
+    html += '</div>';
+  }
+  var quotes = parseNotableQuotes(item.notable_quotes);
+  if (quotes.length) {
+    html += '<div class="insight-quotes" style="margin-top:0.15rem;">';
+    quotes.forEach(function(q) {
+      var who = q.speaker
+        ? '<span style="color:#00d4ff;font-weight:600;">' + escapeDeepDiveText(q.speaker) + ':</span> '
+        : '';
+      html += '<blockquote style="margin:0.4rem 0;padding:0.3rem 0.7rem;border-left:2px solid rgba(0,212,255,0.45);color:#e8e8e8;font-size:0.9rem;line-height:1.5;">' +
+        who + '&ldquo;' + escapeDeepDiveText(q.quote) + '&rdquo;</blockquote>';
+    });
+    html += '</div>';
+  }
+  return html;
+}
+

@@ -64,7 +64,12 @@ def resolve_llm_model(client_kind: str) -> str:
     if client_kind == "moonshot":
         return os.environ.get("DEBATE_LLM_MODEL") or os.environ.get("MOONSHOT_MODEL") or "kimi-k2.6"
     elif client_kind == "openai":
-        return os.environ.get("OPENAI_DEBATE_MODEL") or os.environ.get("OPENAI_MODEL") or "gpt-4o-mini"
+        from transcript_window import OPENAI_ANALYSIS_MODEL
+        return (
+            os.environ.get("OPENAI_DEBATE_MODEL")
+            or os.environ.get("OPENAI_MODEL")
+            or OPENAI_ANALYSIS_MODEL
+        )
     elif client_kind == "gemini":
         return os.environ.get("GEMINI_DEBATE_MODEL") or os.environ.get("GEMINI_MODEL") or "gemini-1.5-flash"
     else:
@@ -123,9 +128,10 @@ def get_ai_client() -> Optional[any]:
     """Get AI client.
     
     Default priority (when ANALYZE_BACKEND is not set):
-      1. Gemini
-      2. OpenAI
-      3. Moonshot/Kimi (via MOONSHOT_API_KEY or Cursor auth profiles)
+      1. OpenAI (gpt-5.5 unless OPENAI_MODEL overrides it; never mini)
+      2. Gemini, only when the configured model is not a Flash model
+    Moonshot/Kimi is suspended and is NOT called on the default path.
+    ANALYZE_BACKEND=moonshot still selects it explicitly (and fails if the key is missing).
     
     Explicit provider selection via ANALYZE_BACKEND env var:
       ANALYZE_BACKEND=openai   -> force OpenAI (requires OPENAI_API_KEY)
@@ -229,25 +235,21 @@ def get_ai_client() -> Optional[any]:
             "Use 'openai', 'gemini', or 'moonshot'."
         )
 
-    # Default priority order when no explicit override is set:
-    # Gemini -> OpenAI -> Moonshot (Moonshot last since it may be suspended/exhausted)
-    client = _init_gemini()
-    if client:
-        return client
-
+    # Default path: paid OpenAI, then a non-Flash Gemini. Never call Moonshot/Kimi
+    # (suspended, 429 insufficient balance). Explicit ANALYZE_BACKEND=moonshot still works.
     client = _init_openai()
     if client:
         return client
 
-    client = _init_moonshot()
-    if client:
-        return client
+    gemini_model = resolve_llm_model("gemini")
+    if "flash" in gemini_model.lower():
+        print(f"  Skipping Gemini model {gemini_model} (Flash is not used for insight recaps).")
+    else:
+        client = _init_gemini()
+        if client:
+            return client
 
-    client = _init_moonshot_env()
-    if client:
-        return client
-
-    print("  ⚠ No AI client: set GEMINI_API_KEY, OPENAI_API_KEY, or MOONSHOT_API_KEY.")
+    print("  No AI client: set OPENAI_API_KEY. Moonshot/Kimi is not called.")
     return None
 
 
@@ -425,6 +427,7 @@ def analyze_transcript_with_ai(
     *,
     content_from_digest: bool = False,
     tracked_terms_glossary: str = "",
+    name_hint: str = "",
 ) -> Dict:
     """Use AI to extract structured data from transcript.
 
@@ -437,22 +440,18 @@ def analyze_transcript_with_ai(
     
     client_type, client = client_info
     
-    # Smart sampling: send beginning + middle + end rather than just truncating top
-    # This gives the AI context from across the full episode, not just the intro
-    # Skip when using Stage A digest (already compressed, evidence-preserving).
-    max_chars = 12000
-    if not content_from_digest and len(transcript_content) > max_chars:
-        chunk = max_chars // 3
-        beginning = transcript_content[:chunk]
-        mid_start = len(transcript_content) // 2 - chunk // 2
-        middle = transcript_content[mid_start:mid_start + chunk]
-        ending = transcript_content[-chunk:]
-        transcript_content = (
-            beginning + "\n\n[...middle of transcript...]\n\n" +
-            middle + "\n\n[...end of transcript...]\n\n" +
-            ending
+    # Feed enough of the raw transcript to recap the episode. Stage A digests
+    # are lossy (often under 8k chars from a mini model); do not use them here.
+    from transcript_window import TRANSCRIPT_WINDOW_CHARS, sample_transcript_window
+    if not content_from_digest:
+        before = len(transcript_content or "")
+        transcript_content = sample_transcript_window(transcript_content, TRANSCRIPT_WINDOW_CHARS)
+        print(
+            f"    Transcript window: {len(transcript_content)} chars "
+            f"(limit {TRANSCRIPT_WINDOW_CHARS}, raw {before})",
+            flush=True,
         )
-    
+
     digest_note = ""
     if content_from_digest:
         digest_note = (
@@ -464,11 +463,21 @@ def analyze_transcript_with_ai(
     if not glossary:
         glossary = "- (none yet — use Title Case for new coined phrases)"
 
+    name_block = ""
+    if (name_hint or "").strip():
+        name_block = (
+            "KNOWN NAMES (spell these exactly when referring to these people or products; "
+            "do not substitute a mishearing):\n"
+            + name_hint.strip()
+            + "\n\n"
+        )
+
     prompt = (
         "You are an expert financial analyst and podcast curator. "
         f"Analyze this podcast transcript from \"{podcast_name}\" and extract structured investment insights.\n\n"
         f"{digest_note}"
-        "IMPORTANT: Write all of the following in English only (summary, key_takeaways, investment_thesis, guest bios, emerging_terms). "
+        f"{name_block}"
+        "IMPORTANT: Write all of the following in English only (summary, key_takeaways, investment_thesis, notable_quotes, guest bios, emerging_terms). "
         "Do not use other languages even if the transcript or topic is in another language.\n\n"
         "CLAIM RULES (apply to investment_thesis and every key_takeaways bullet):\n"
         "- State what a speaker claimed, predicted, or showed. Do not tell the reader what to do.\n"
@@ -485,12 +494,15 @@ def analyze_transcript_with_ai(
         "{\n"
         "  \"episode_title\": \"Full episode title (infer from content or use descriptive title)\",\n"
         "  \"episode_date\": \"YYYY-MM-DD (infer from content, or use today's date if unclear)\",\n"
-        "  \"summary\": \"2-3 paragraph summary of key investment themes and market insights discussed\",\n"
+        "  \"summary\": \"RECAP of 3 to 5 paragraphs separated by a blank line. Cover the actual argument, the numbers and dates, who disagreed, and what was predicted. Not a one-sentence blurb and not advice to the reader.\",\n"
         "  \"key_takeaways\": [\n"
         "    \"5-7 bullets. Each bullet is one sentence stating a specific claim, market call, or argument a speaker made, with who said it when known (see CLAIM RULES)\"\n"
         "  ],\n"
         "  \"key_tickers\": [\"LIST\", \"OF\", \"TICKERS\", \"MENTIONED\"],\n"
-        "  \"investment_thesis\": \"ONE sentence, under 40 words, stating the episode's single most important specific claim (see CLAIM RULES). This is shown to readers as the Key Takeaway.\",\n"
+        "  \"investment_thesis\": \"ONE sentence, under 40 words, stating the episode's single most important specific claim (see CLAIM RULES). This is the headline only, not the recap.\",\n"
+        "  \"notable_quotes\": [\n"
+        "    {\"speaker\": \"Full name of the person who said this (use KNOWN NAMES spellings; never Host or Guest when the name is known)\", \"quote\": \"Verbatim words from the transcript, under 240 characters\"}\n"
+        "  ],\n"
         "  \"guests\": [\n"
         "    {\n"
         "      \"name\": \"Full name of a main guest/interviewee (must be confidently extractable from the intro; at least 2 tokens like First Last). If you are NOT confident, omit this guest entirely (do not use placeholders like 'Guest Expert' or single-token names).\",\n"
@@ -549,6 +561,9 @@ def analyze_transcript_with_ai(
         "If nothing qualifies after these rules, return \"emerging_terms\": [].\n\n"
         "Per episode: at most ONE emerging_terms entry per distinct concept. Do not list synonyms or repeats of the same idea.\n"
         "Return at most 5 emerging_terms entries total (prefer 2-4 strong ones over a long list).\n\n"
+        "NOTABLE QUOTES: Return exactly 2 or 3 notable_quotes. Each quote must be verbatim from the transcript, not a paraphrase. "
+        "Name the speaker with their real full name. If KNOWN NAMES lists a spelling, use that spelling and do not invent a phonetic variant "
+        "(bad: Eddie Lazaran when the title says Eddy Lazzarin; bad: Cloud Code when the title says Claude Code).\n\n"
         "speaker_quote: Required for each entry — the best single line that shows WHY this term matters in this episode "
         "(paraphrase only if verbatim is unavailable; still ASCII).\n\n"
         "Scoring guidelines:\n"
@@ -564,17 +579,23 @@ def analyze_transcript_with_ai(
 
     try:
         if client_type == 'openai':
+            from transcript_window import openai_chat_kwargs
             model = resolve_llm_model('openai')
+            print(f"    OpenAI model: {model}", flush=True)
             response = client.chat.completions.create(
                 model=model,
                 messages=[
                     {"role": "system", "content": "You are a precise financial analyst. Return only valid JSON."},
                     {"role": "user", "content": prompt}
                 ],
-                temperature=llm_temperature('openai', 0.3),
-                max_tokens=4000
+                response_format={"type": "json_object"},
+                **openai_chat_kwargs(model, 16000, llm_temperature('openai', 0.3)),
             )
-            content = response.choices[0].message.content.strip()
+            raw_content = response.choices[0].message.content
+            if not raw_content or not str(raw_content).strip():
+                finish = getattr(response.choices[0], "finish_reason", None)
+                raise ValueError(f"OpenAI returned empty content (model={model}, finish_reason={finish})")
+            content = str(raw_content).strip()
         elif client_type == 'moonshot':
             # Moonshot/Kimi API (OpenAI-compatible).
             # kimi-k2.6 is a reasoning model: reasoning_tokens count against max_tokens.
@@ -813,18 +834,11 @@ def process_transcript_file(transcript_path: Path, client_info, db) -> Optional[
         mark_transcript_processed(transcript_path, -1)  # Mark as processed to avoid re-checking
         return None
     
-    # Optional Stage A: evidence-preserving markdown digest (cheap LLM) for long episodes
+    # Do not swap in the Stage A mini digest. Those files are a few thousand
+    # characters and are why recaps came out thin. The windowed raw transcript
+    # is the analysis source (see TRANSCRIPT_WINDOW_CHARS).
     analysis_source = content
     used_digest = False
-    try:
-        from transcript_digest import ensure_digest_file
-
-        dp = ensure_digest_file(transcript_path, podcast_name, content, force=False)
-        if dp is not None and dp.exists():
-            analysis_source = dp.read_text(encoding="utf-8")
-            used_digest = True
-    except Exception as exc:
-        print(f"    ⚠ transcript_digest skipped: {exc}")
 
     # Analyze with AI (full transcript or Stage A digest)
     from term_alias_util import build_tracked_terms_glossary
@@ -838,6 +852,7 @@ def process_transcript_file(transcript_path: Path, client_info, db) -> Optional[
         podcast_name,
         content_from_digest=used_digest,
         tracked_terms_glossary=glossary,
+        name_hint=(sidecar.get("episode_title") or "").strip(),
     )
     if not analysis:
         print(f"    ✗ AI analysis failed")
@@ -949,7 +964,7 @@ def process_transcript_file(transcript_path: Path, client_info, db) -> Optional[
         episode_title=episode_title,
         episode_date=episode_date,
         transcript_path=str(transcript_path),
-        summary=analysis.get('summary', '')[:2000],
+        summary=analysis.get('summary', '')[:8000],
         key_takeaways=analysis.get('key_takeaways', []),
         key_tickers=key_tickers_structured,
         investment_thesis=analysis.get('investment_thesis', '')[:500],
@@ -958,6 +973,21 @@ def process_transcript_file(transcript_path: Path, client_info, db) -> Optional[
     
     episode_id = db.add_podcast_episode(episode)
     print(f"    ✓ Added episode (ID: {episode_id})")
+    try:
+        import json as _json
+        from transcript_window import normalize_notable_quotes
+        quotes = normalize_notable_quotes(analysis.get("notable_quotes"))
+        if quotes and episode_id:
+            import sqlite3 as _sqlite3
+            _conn = _sqlite3.connect(str(DB_PATH))
+            _conn.execute(
+                "UPDATE podcast_episodes SET notable_quotes=? WHERE id=?",
+                (_json.dumps(quotes), episode_id),
+            )
+            _conn.commit()
+            _conn.close()
+    except Exception as _qe:
+        print(f"    Could not store notable_quotes: {_qe}")
 
     # Ingest guests/hosts into semantic layer (entities + appearances)
     from ingest_ai_analysis import upsert_entity, insert_appearance  # local import to avoid cycles
@@ -1178,5 +1208,18 @@ def process_all_transcripts() -> Dict[str, any]:
 
 
 if __name__ == "__main__":
+    import argparse
+    parser = argparse.ArgumentParser(description="Analyze transcripts")
+    parser.add_argument(
+        "--reanalyze-insight-ids",
+        type=str,
+        default="",
+        help="Comma-separated latest_insights ids to rewrite in place",
+    )
+    args = parser.parse_args()
+    if args.reanalyze_insight_ids.strip():
+        from reanalyze_insights import reanalyze_insight_ids
+        ids = [int(x.strip()) for x in args.reanalyze_insight_ids.split(",") if x.strip()]
+        raise SystemExit(reanalyze_insight_ids(ids))
     result = process_all_transcripts()
     print(f"\nResults: {result}")
