@@ -1,5 +1,48 @@
 [
   {
+    "id": 538,
+    "podcast_name": "Monetary Matters with Jack Farley",
+    "episode_title": "Token Bill Dwarfs CPU Bill | Ben Pouladian on Meta's Muse, Anthropic S1, and Why All Roads Still Lead to NVIDIA",
+    "episode_date": "2026-09-30",
+    "summary": "Jack Farley interviewed Ben Pouladian of BEP Research about the AI infrastructure cycle, with Meta's Muse as the entry point for a broader debate about consumer AI agents. Pouladian argued that Muse is not necessarily a frontier model, but it performs roughly 90% of what average consumers want and could turn Meta's huge installed base into a daily AI user base through Instagram, Facebook, and WhatsApp rather than paid subscriptions.",
+    "key_takeaways": [
+      "Ben Pouladian argues Meta's Muse is a mass-market AI assistant rather than a frontier model, because it connects to products like Instagram and can handle everyday tasks such as DMV appointments, soccer emails, and appointment booking.",
+      "Ben Pouladian claims the token bill can be 20, 40, or even 84 times larger than the CPU bill in agentic AI, because AI agents run repeated loops until a task is completed.",
+      "Ben Pouladian argues NVIDIA remains advantaged in AI infrastructure because token factories must optimize power, GPUs, networking, software, and security together to lower cost per token.",
+      "Ben Pouladian says AMD is squeezed in inference GPUs between NVIDIA's full-stack systems and hyperscaler custom chips such as Google TPUs, Amazon Trainium, Meta MTIA, and Microsoft Maia.",
+      "Ben Pouladian claims ARM's agentic CPU products are expected in late 2026 or early 2027, with Meta and OpenAI signed up as customers, but he doubts CPUs will grow as fast as the market expects.",
+      "Ben Pouladian argues local resistance to data centers could reduce 2027 power additions from SemiAnalysis's 43 gigawatts estimate toward Brad Gerstner's 25 gigawatts scenario, slowing time to first token and lease monetization.",
+      "Ben Pouladian says Anthropic's leaked S1 filing showed more than $500 billion of planned cloud and compute contracts through 2027 and beyond, while OpenAI and Anthropic together could be north of $150 billion in ARR."
+    ],
+    "investment_thesis": "Ben Pouladian argues NVIDIA stays central because agentic AI economics hinge on cost per token per megawatt, not just cheaper CPUs or GPUs.",
+    "key_tickers": [
+      "NVDA",
+      "META",
+      "AMD",
+      "ARM",
+      "GOOGL",
+      "AMZN"
+    ]
+  },
+  {
+    "id": 537,
+    "podcast_name": "Moonshots with Peter Diamandis",
+    "episode_title": "Why We're Living in a Biological Singularity With Ben Lamm | MOONSHOTS Live #297",
+    "episode_date": "2026-09-30",
+    "summary": "Ben Lamm explained why he entered synthetic biology despite having prior companies in gaming, defense, AI, and mobile rather than a formal biology background. He argued that the lack of domain training was an advantage because it let him ask different questions while surrounding himself with specialists such as George Church, whom he described as the father of synthetic biology and the head of genetics at Harvard.",
+    "key_takeaways": [
+      "Peter Diamandis said Colossal Biosciences is worth over $10 billion, and Ben Lamm argued his non-biology background helped him question experts such as George Church about ancient DNA extraction and multiplex editing.",
+      "Ben Lamm claimed AI in biology over the next 3 to 5 years will be most useful for simulation design, literature reconciliation, and experiment selection, while wet labs will still be needed to validate Anthropic-style biological outputs.",
+      "Ben Lamm argued that comparative genomics data is more valuable than the model because thousands or millions of genomes across clades can reveal disease-resistance patterns that a single genome input cannot explain.",
+      "Ben Lamm claimed Colossal was previously celebrating 20 edits, now consistently delivers 300 plus edits at 90 plus percent efficiency, and is testing 1000 edits in one delivery.",
+      "Ben Lamm predicted that within 24 months Colossal will birth mammalian animals fully ex utero from gestation through delivery.",
+      "Ben Lamm claimed Colossal is working on 16 different mammoth lines and ultimately wants tens of thousands of mammoths, while also funding elephant socialization and migratory research.",
+      "Ben Lamm claimed the world could lose half of biodiversity in the next 25 years and said multiple governments need billions of dollars in federal funding to back up species data."
+    ],
+    "investment_thesis": "Ben Lamm argues biological AI's near-term value is proprietary comparative-genomics data, because foundation models need millions of genomes and wet-lab validation rather than single-genome inputs.",
+    "key_tickers": null
+  },
+  {
     "id": 536,
     "podcast_name": "The a16z Show",
     "episode_title": "The $1 Trillion AI Buildout | State of Markets",
@@ -152,7 +195,7 @@
       "Diogo Almeida says reliability means robustness or similar intelligence every time, and he claims every additional nine of reliability enables applications that can run in the background without paging people.",
       "Martin Casado argues the average pull request at a large company is about 10 lines, so coding agents optimize a small coding step while Jev could add new application functionality by mapping natural language to a state machine."
     ],
-    "investment_thesis": "Diogo Almeida argues SaaS could see an inverse SaaS Apocalypse because Type-Safe AI's Jev adds a natural-language-to-state-machine primitive inside existing products, unlike Claude Code or Codex generating ordinary code.",
+    "investment_thesis": "Diogo Almeida argues SaaS could see an inverse SaaS Apocalypse because TypeSafe AI's Jev adds a natural-language-to-state-machine primitive inside existing products, unlike Claude Code or Codex generating ordinary code.",
     "key_tickers": null
   },
   {

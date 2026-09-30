@@ -1,54 +1,42 @@
 [
   {
-    "id": 77336,
-    "name": "Diogo Almeida",
-    "slug": "diogo-almeida-a16z",
+    "id": 77562,
+    "name": "Token Bill Dwarfs CPU Bill",
+    "slug": "token-bill-dwarfs-cpu-bill",
     "bio": null,
     "known_for": null,
-    "last_main_idea": "Diogo Almeida predicts that SaaS will be one of the largest winners of the AI integration trend.",
-    "last_episode_title": "AI Can Write Code. Why Isn\u2019t Software Better?",
-    "last_podcast_name": "The a16z Show",
-    "last_episode_date": "2026-09-28",
+    "last_main_idea": "Ben Pouladian argues NVIDIA stays central because agentic AI economics hinge on cost per token per megawatt, not just cheaper CPUs or GPUs.",
+    "last_episode_title": "Token Bill Dwarfs CPU Bill | Ben Pouladian on Meta's Muse, Anthropic S1, and Why All Roads Still Lead to NVIDIA",
+    "last_podcast_name": "Monetary Matters with Jack Farley",
+    "last_episode_date": "2026-09-30",
     "appearance_count": 1
   },
   {
-    "id": 77337,
+    "id": 77563,
     "name": "Palmer Luckey",
     "slug": "palmer-luckey",
     "bio": null,
     "known_for": null,
-    "last_main_idea": "Palmer Luckey predicts that AI will massively reduce costs in resource extraction and processing, transforming various sectors.",
+    "last_main_idea": "Palmer Luckey argues Anduril can disrupt defense procurement because it self-funds specialized autonomous products in a market where 80% of major defense acquisition programs went to five companies.",
     "last_episode_title": "Palmer Luckey: Autonomous Weapons Are Ancient and Why Anduril Won't Build Humanoids  | Moonshots Live | EP #295",
     "last_podcast_name": "Moonshots with Peter Diamandis",
     "last_episode_date": "2026-09-28",
     "appearance_count": 1
   },
   {
-    "id": 77338,
+    "id": 77564,
     "name": "Daniel Ek",
     "slug": "daniel-ek",
     "bio": null,
     "known_for": null,
-    "last_main_idea": "Daniel Ek argues that Neco's focus on preventative healthcare through data and AI can significantly reduce costs and improve health outcomes.",
+    "last_main_idea": "Daniel Ek argues Neko Health's $499 vertically integrated scans can shift healthcare from reactive to preventative by combining 53 blood markers, 6,000 skin images, clinician review, and longitudinal AI.",
     "last_episode_title": "Daniel Ek: Life After Spotify, Broken Healthcare Incentives, Catching Disease Early & AI's Potential",
     "last_podcast_name": "All-In with Chamath, Jason, Sacks & Friedberg",
     "last_episode_date": "2026-09-28",
     "appearance_count": 1
   },
   {
-    "id": 77339,
-    "name": "Eddie Lazaran",
-    "slug": "eddie-lazaran",
-    "bio": null,
-    "known_for": null,
-    "last_main_idea": "The core investment opportunity lies in supporting AI companies that prioritize accountability, transparency, and societal benefits, as these factors will drive long-term value and trust in the sector.",
-    "last_episode_title": "The Case Against an AI Pause | Eddy Lazzarin",
-    "last_podcast_name": "The a16z Show",
-    "last_episode_date": "2026-09-24",
-    "appearance_count": 1
-  },
-  {
-    "id": 77340,
+    "id": 77565,
     "name": "Michael Every",
     "slug": "michael-every",
     "bio": null,
@@ -60,7 +48,7 @@
     "appearance_count": 1
   },
   {
-    "id": 77341,
+    "id": 77566,
     "name": "Steve Hilton & Spencer Pratt",
     "slug": "steve-hilton--spencer-pratt",
     "bio": null,
@@ -72,7 +60,7 @@
     "appearance_count": 1
   },
   {
-    "id": 77342,
+    "id": 77567,
     "name": "Blake Scholl",
     "slug": "blake-scholl",
     "bio": null,
@@ -84,7 +72,7 @@
     "appearance_count": 1
   },
   {
-    "id": 77343,
+    "id": 77568,
     "name": "John Platt",
     "slug": "john-platt",
     "bio": null,
@@ -96,7 +84,7 @@
     "appearance_count": 1
   },
   {
-    "id": 77344,
+    "id": 77569,
     "name": "Diogo Almeida",
     "slug": "diogo-almeida",
     "bio": null,
@@ -108,7 +96,7 @@
     "appearance_count": 1
   },
   {
-    "id": 77345,
+    "id": 77570,
     "name": "Naveen Rao",
     "slug": "naveen-rao",
     "bio": null,
@@ -120,7 +108,7 @@
     "appearance_count": 1
   },
   {
-    "id": 77346,
+    "id": 77571,
     "name": "Outlook on 5 Key Commodities",
     "slug": "outlook-on-5-key-commodities",
     "bio": null,
@@ -132,7 +120,7 @@
     "appearance_count": 1
   },
   {
-    "id": 77347,
+    "id": 77572,
     "name": "Bill Gurley",
     "slug": "bill-gurley",
     "bio": null,
@@ -144,7 +132,7 @@
     "appearance_count": 1
   },
   {
-    "id": 77348,
+    "id": 77573,
     "name": "Nick Shirley",
     "slug": "nick-shirley",
     "bio": null,
@@ -156,7 +144,7 @@
     "appearance_count": 1
   },
   {
-    "id": 77349,
+    "id": 77574,
     "name": "Jared Isaacman",
     "slug": "jared-isaacman",
     "bio": null,
@@ -168,7 +156,7 @@
     "appearance_count": 1
   },
   {
-    "id": 77350,
+    "id": 77575,
     "name": "Brad Gerstner",
     "slug": "brad-gerstner",
     "bio": null,
@@ -180,7 +168,7 @@
     "appearance_count": 1
   },
   {
-    "id": 77351,
+    "id": 77576,
     "name": "Meta's Dina Powell McCormick",
     "slug": "metas-dina-powell-mccormick",
     "bio": null,
@@ -192,7 +180,7 @@
     "appearance_count": 1
   },
   {
-    "id": 77352,
+    "id": 77577,
     "name": "Underwriting Superintelligence",
     "slug": "underwriting-superintelligence",
     "bio": null,
@@ -204,7 +192,7 @@
     "appearance_count": 1
   },
   {
-    "id": 77353,
+    "id": 77578,
     "name": "Hawks Take Flight",
     "slug": "hawks-take-flight",
     "bio": null,
@@ -216,7 +204,7 @@
     "appearance_count": 1
   },
   {
-    "id": 77354,
+    "id": 77579,
     "name": "Martine Rothblatt",
     "slug": "martine-rothblatt",
     "bio": null,
@@ -228,7 +216,7 @@
     "appearance_count": 1
   },
   {
-    "id": 77355,
+    "id": 77580,
     "name": "Microsoft CEO Satya Nadella",
     "slug": "microsoft-ceo-satya-nadella",
     "bio": null,
@@ -240,7 +228,7 @@
     "appearance_count": 1
   },
   {
-    "id": 77356,
+    "id": 77581,
     "name": "Jensen Huang",
     "slug": "jensen-huang",
     "bio": null,
@@ -252,7 +240,7 @@
     "appearance_count": 1
   },
   {
-    "id": 77357,
+    "id": 77582,
     "name": "Ask the Mates anything",
     "slug": "ask-the-mates-anything",
     "bio": null,
@@ -264,7 +252,7 @@
     "appearance_count": 1
   },
   {
-    "id": 77358,
+    "id": 77583,
     "name": "Matt Barry",
     "slug": "matt-barry",
     "bio": null,
@@ -276,7 +264,7 @@
     "appearance_count": 1
   },
   {
-    "id": 77359,
+    "id": 77584,
     "name": "Who Grades the AI Models?",
     "slug": "who-grades-the-ai-models",
     "bio": null,
@@ -288,7 +276,7 @@
     "appearance_count": 1
   },
   {
-    "id": 77360,
+    "id": 77585,
     "name": "Your AI Doctor Is Coming",
     "slug": "your-ai-doctor-is-coming",
     "bio": null,
@@ -300,7 +288,7 @@
     "appearance_count": 1
   },
   {
-    "id": 77361,
+    "id": 77586,
     "name": "Fei Fei Li",
     "slug": "fei-fei-li",
     "bio": null,
@@ -312,7 +300,7 @@
     "appearance_count": 1
   },
   {
-    "id": 77362,
+    "id": 77587,
     "name": "Financial strategist Jared Dillian",
     "slug": "financial-strategist-jared-dillian",
     "bio": null,
@@ -324,7 +312,7 @@
     "appearance_count": 1
   },
   {
-    "id": 77363,
+    "id": 77588,
     "name": "Daniel Litt",
     "slug": "daniel-litt",
     "bio": null,
@@ -336,7 +324,7 @@
     "appearance_count": 1
   },
   {
-    "id": 77364,
+    "id": 77589,
     "name": "Gavin Baker",
     "slug": "gavin-baker",
     "bio": null,
@@ -348,7 +336,7 @@
     "appearance_count": 1
   },
   {
-    "id": 77365,
+    "id": 77590,
     "name": "Sam Altman",
     "slug": "sam-altman",
     "bio": null,
@@ -357,6 +345,18 @@
     "last_episode_title": "Sam Altman: Singularity Slow-Down, Emad Runs 18 Grokbots, Waymo Slashes Hardware 83% | EP #283",
     "last_podcast_name": "Moonshots with Peter Diamandis",
     "last_episode_date": "2026-08-27",
+    "appearance_count": 1
+  },
+  {
+    "id": 77591,
+    "name": "Time to Reduce Equity Risk",
+    "slug": "time-to-reduce-equity-risk",
+    "bio": null,
+    "known_for": null,
+    "last_main_idea": "Warren Pies suggests that despite the current macro risks, the AI sector remains a key area for investment, with all roads leading back to AI trades.",
+    "last_episode_title": "Time to Reduce Equity Risk: Why Underappreciated Macro Risks Could Derail the Bull Market | Warren Pies",
+    "last_podcast_name": "Monetary Matters with Jack Farley",
+    "last_episode_date": "2026-08-26",
     "appearance_count": 1
   }
 ]
