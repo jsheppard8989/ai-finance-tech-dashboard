@@ -8,8 +8,9 @@ whisper_queue/ and the worker writes transcripts to whisper_done/. Either wait
 for completion (default) or use --queue-only to enqueue and exit (transcripts
 picked up on next run). Do not set USE_FASTER_WHISPER unless you want in-process
 transcription (can OOM/timeout).
-Shows that publish a full transcript (RSS transcript tag, transcript body, or
-Substack /feed) skip Whisper; every other show stays on the queue.
+Shows that publish a full transcript (RSS transcript tag, transcript body,
+Substack /feed, or a Macro Voices PDF pulled via Apify) skip Whisper; every
+other show stays on the queue.
 """
 
 import os

@@ -4,14 +4,19 @@ Accept, in order:
   1. podcast:transcript (or a transcript enclosure) whose body is long enough
   2. RSS description / content:encoded that is the transcript, not show notes
   3. A Substack episode page whose publication RSS (/feed) content:encoded is the transcript
+  4. Macro Voices only: Apify-rendered sitemap loc for the Podbean slug, then the
+     episode page's /guest-content/list-guest-transcripts/{id}-.../file PDF text
 
 Anything shorter, or only chapter notes, returns None so the caller keeps Whisper.
+Macro Voices stays on Whisper when Apify is unset, the page is blocked, or the
+PDF text is not a full dialogue.
 """
 
 from __future__ import annotations
 
 import html
 import json
+import os
 import re
 import urllib.request
 from typing import Callable, Optional
@@ -211,9 +216,132 @@ def _substack_feed_url(episode_link: str) -> Optional[str]:
     return f"{parsed.scheme}://{parsed.netloc}/feed"
 
 
+
+_MACROVOICES_SITEMAP = (
+    "https://www.macrovoices.com/index.php?option=com_jmap&view=sitemap&format=xml"
+)
+_APIFY_WEB_FETCH = (
+    "https://api.apify.com/v2/acts/apify~web-fetch/run-sync-get-dataset-items?timeout=120"
+)
+_PAGE_FOR_SLUG_RE_TMPL = r"https://www\.macrovoices\.com/\d+-{slug}(?![A-Za-z0-9-])"
+_FILE_RE = re.compile(
+    r"(?:https://www\.macrovoices\.com)?/guest-content/list-guest-transcripts/\d+-[A-Za-z0-9-]+/file"
+)
+_ERIK_TURN_RE = re.compile(r"(?i)\berik:")
+
+
+def _is_macrovoices(episode: dict) -> bool:
+    feed = (episode.get("feed") or "").lower()
+    link = (episode.get("link") or "").lower()
+    return "feed.podbean.com/macrovoices/" in feed or "macrovoices.podbean.com/" in link
+
+
+def _podbean_episode_slug(link: str) -> str:
+    match = re.search(r"macrovoices\.podbean\.com/e/([^/?#]+)", link or "", re.I)
+    return match.group(1).strip("/") if match else ""
+
+
+def _apify_web_fetch(url: str, formats: list) -> list:
+    """One Apify web-fetch call. No token, or any error, yields no records."""
+    token = (os.environ.get("APIFY_TOKEN") or os.environ.get("APIFY_API_TOKEN") or "").strip()
+    if not token:
+        return []
+    payload = json.dumps({"url": url, "formats": formats}).encode()
+    req = urllib.request.Request(
+        _APIFY_WEB_FETCH,
+        data=payload,
+        headers={
+            "Content-Type": "application/json",
+            "Authorization": f"Bearer {token}",
+            "User-Agent": _UA,
+        },
+    )
+    with urllib.request.urlopen(req, timeout=150) as response:
+        data = json.loads(response.read().decode("utf-8", "replace"))
+    if isinstance(data, list):
+        return data
+    if isinstance(data, dict) and isinstance(data.get("items"), list):
+        return data["items"]
+    return []
+
+
+def _record_text(items: list) -> str:
+    for item in items or []:
+        if not isinstance(item, dict):
+            continue
+        for key in ("text", "markdown"):
+            val = item.get(key)
+            if isinstance(val, str) and val.strip():
+                return val
+    return ""
+
+
+def _sitemap_page_for_slug(sitemap_text: str, slug: str) -> str:
+    if not slug:
+        return ""
+    pattern = re.compile(_PAGE_FOR_SLUG_RE_TMPL.format(slug=re.escape(slug)), re.I)
+    match = pattern.search(sitemap_text or "")
+    return match.group(0) if match else ""
+
+
+def _transcript_file_url(items: list) -> str:
+    blobs = []
+    for item in items or []:
+        if not isinstance(item, dict):
+            continue
+        for key in ("markdown", "text", "html"):
+            val = item.get(key)
+            if isinstance(val, str):
+                blobs.append(val)
+        links = item.get("links") or []
+        if isinstance(links, list):
+            blobs.extend(str(link) for link in links)
+    match = _FILE_RE.search("\n".join(blobs))
+    if not match:
+        return ""
+    url = match.group(0)
+    if url.startswith("/"):
+        return "https://www.macrovoices.com" + url
+    return url
+
+
+def _accept_macrovoices_pdf(text: str) -> Optional[str]:
+    text = (text or "").strip()
+    if not text or "one moment, please" in text.lower()[:400]:
+        return None
+    if _word_count(text) < _MIN_TRANSCRIPT_WORDS:
+        return None
+    if len(_ERIK_TURN_RE.findall(text)) < 5:
+        return None
+    return text
+
+
+def _macrovoices_transcript(episode: dict, apify_fetch: Callable) -> Optional[str]:
+    """PDF transcript for this show only. None keeps Whisper."""
+    if not _is_macrovoices(episode):
+        return None
+    slug = _podbean_episode_slug(episode.get("link") or "")
+    if not slug:
+        return None
+    try:
+        sitemap_items = apify_fetch(_MACROVOICES_SITEMAP, ["text"])
+        page = _sitemap_page_for_slug(_record_text(sitemap_items), slug)
+        if not page:
+            return None
+        page_items = apify_fetch(page, ["markdown", "links"])
+        file_url = _transcript_file_url(page_items)
+        if not file_url:
+            return None
+        file_items = apify_fetch(file_url, ["text"])
+    except Exception:
+        return None
+    return _accept_macrovoices_pdf(_record_text(file_items))
+
+
 def resolve_published_transcript(
     episode: dict,
     fetch: Callable[[str], bytes] = fetch_url_bytes,
+    apify_fetch: Callable = _apify_web_fetch,
 ) -> Optional[str]:
     """Return full transcript text, or None to keep the Whisper path."""
     for hint in episode.get("transcript_urls") or []:
@@ -234,7 +362,7 @@ def resolve_published_transcript(
 
     feed_url = _substack_feed_url(episode.get("link") or "")
     if not feed_url:
-        return None
+        return _macrovoices_transcript(episode, apify_fetch)
     try:
         feed_xml = fetch(feed_url)
     except Exception:
