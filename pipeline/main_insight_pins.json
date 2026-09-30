@@ -1,28 +1,7 @@
 {
-  "description": "Insight IDs forced onto the main Latest Insights list (max 10 total). Pins consume slots first; remaining slots fill by source_date DESC among insights that have deep_dive_content. Used by sync_main_insights_with_deepdives.",
-  "pinned_insight_ids": [
-    551,
-    548,
-    545,
-    546,
-    544,
-    542,
-    541,
-    539,
-    538,
-    543
-  ],
+  "description": "Not used to fill homepage slots. Latest Insights is the 12 newest analyzed episodes by episode/source date, excluding pipeline/main_insight_skips.json. This list stays empty so a later run cannot restore pins 520-530.",
+  "pinned_insight_ids": [],
   "notes": [
-    "Newest-first confirmed deep dives. Not pinned: 550, 549, 547, 540, 536. Not backfilled: 535, 534, 537. Never pin 516 (hip-hop) or 525 (Hilton/Pratt).",
-    "551 = 2026-09-30 a16z / The $1 Trillion AI Buildout | State of Markets",
-    "548 = 2026-09-29 a16z / The Personal Agent Race Is Here | Anish Acharya & David Pawlan",
-    "545 = 2026-09-29 Latent Space / Claude Code's Next Era — Thariq Shihipar, Anthropic",
-    "546 = 2026-09-28 All-In / Daniel Ek: Life After Spotify",
-    "544 = 2026-09-28 Moonshots / Palmer Luckey: Autonomous Weapons",
-    "542 = 2026-09-28 a16z / AI Can Write Code. Why Isn't Software Better?",
-    "541 = 2026-09-27 Monetary Matters / The Private Credit Boom is Over | James Elbaor",
-    "539 = 2026-09-27 a16z / Building a Team at AI Speed | Harvey's Maggie Landers",
-    "538 = 2026-09-26 a16z / Aaron Levie, Steven Sinofsky & Martin Casado",
-    "543 = 2026-09-25 Macro Voices / Michael Every: Decoding The Global Geopolitical Puzzle (Part 2)"
+    "Do not refill this file to occupy the homepage. Skips live in main_insight_skips.json."
   ]
 }
