@@ -32,6 +32,7 @@ CREATE TABLE podcast_episodes (
     key_takeaways TEXT,  -- JSON array
     key_tickers TEXT,  -- JSON array of mentioned tickers
     investment_thesis TEXT,
+    notable_quotes TEXT,  -- JSON [{speaker, quote}]
     source_breakdown TEXT,  -- JSON with links, timestamps
     relevance_score INTEGER,
     is_processed BOOLEAN DEFAULT 0,
@@ -111,7 +112,8 @@ CREATE TABLE latest_insights (
     source_name TEXT NOT NULL,
     source_date DATE,
     summary TEXT,  -- Brief summary for card
-    key_takeaway TEXT,  -- One-liner
+    key_takeaway TEXT,  -- One-liner headline
+    notable_quotes TEXT,  -- JSON [{speaker, quote}] shown under the recap
     tickers_mentioned TEXT,  -- JSON array
     sentiment TEXT CHECK(sentiment IN ('bullish', 'bearish', 'neutral')),
     display_on_main BOOLEAN DEFAULT 1,

@@ -152,6 +152,14 @@ class DashboardDB:
                 conn.execute("ALTER TABLE podcast_episodes ADD COLUMN rss_guid TEXT")
             except sqlite3.OperationalError:
                 pass
+            for _stmt in (
+                "ALTER TABLE podcast_episodes ADD COLUMN notable_quotes TEXT",
+                "ALTER TABLE latest_insights ADD COLUMN notable_quotes TEXT",
+            ):
+                try:
+                    conn.execute(_stmt)
+                except sqlite3.OperationalError:
+                    pass
 
             suggested_terms_sql = SCHEMA_PATH.parent / "schema_suggested_terms.sql"
             if suggested_terms_sql.exists():
@@ -951,6 +959,12 @@ class DashboardDB:
                         insight['tickers_mentioned'] = json.loads(insight['tickers_mentioned'])
                     except:
                         pass
+                nq = insight.get('notable_quotes')
+                if isinstance(nq, str) and nq.strip():
+                    try:
+                        insight['notable_quotes'] = json.loads(nq)
+                    except Exception:
+                        insight['notable_quotes'] = []
                 archive['insights'].append(insight)
             
             # Legacy definitions are no longer used for the Overton Window.
@@ -1018,6 +1032,14 @@ class DashboardDB:
             """)
             rows = [dict(row) for row in cursor.fetchall()]
             for r in rows:
+                nq = r.get('notable_quotes')
+                if isinstance(nq, str) and nq.strip():
+                    try:
+                        r['notable_quotes'] = json.loads(nq)
+                    except Exception:
+                        r['notable_quotes'] = []
+                elif not isinstance(nq, list):
+                    r['notable_quotes'] = []
                 raw = r.get('key_tickers')
                 if isinstance(raw, str) and raw:
                     try:

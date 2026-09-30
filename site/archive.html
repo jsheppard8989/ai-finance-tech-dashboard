@@ -100,7 +100,7 @@
     </div>
   </div>
 
-  <script src="./data/data.js?v=1790784834"></script>
+  <script src="./data/data.js?v=1790789823"></script>
   <script src="./js/common.js"></script>
   <script>
     // Archive data
@@ -157,7 +157,7 @@
       container.innerHTML = insights.map(item => `
         <div class="insight-item">
           <div class="source">${item.source_name} • ${formatDate(item.source_date)}</div>
-          <div class="text"><strong>${item.title}:</strong> ${item.summary || ''}</div>
+          <div class="text">${renderInsightRecapHTML(item)}</div>
           <button class="action-btn" onclick='openDeepDive(${JSON.stringify(item.title)}, ${JSON.stringify(item.source_name)}, ${JSON.stringify(item.source_date)})'>🔍 Deep Dive</button>
         </div>
       `).join('');

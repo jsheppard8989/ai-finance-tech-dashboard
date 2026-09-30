@@ -3,7 +3,7 @@
 
 const dashboardData = {
   schemaVersion: 2,
-  generatedAt: "2026-09-30T11:13:54.377186",
+  generatedAt: "2026-09-30T12:37:03.042174",
   chartsVersion: "2026-09-30T06:38:55.284816",
   priceSnapshot: {
   "AAPL": {
@@ -1053,8 +1053,8 @@ const dashboardData = {
       "source_type": "podcast",
       "source_name": "The a16z Show",
       "source_date": "2026-09-30",
-      "summary": "The podcast discusses the dominance of U.S. tech companies in global market value and highlights the anticipated $90 trillion in global infrastructure investments by 2040. It emphasizes the early stages of AI adoption in enterprises and the significant growth potential in AI-related sectors, particularly as hyperscalers are projected to spend over $1 trillion annually by 2027.",
-      "key_takeaway": "Hyperscalers are projected to spend over $1 trillion annually on compute infrastructure by 2027, indicating robust market opportunities for suppliers.",
+      "summary": "David George, Sarah Wang, Santiago Rodriguez, and Alex Immerman reviewed 25 charts from a16z's latest State of Markets presentation, arguing that technology has become the central driver of the current investment cycle. They cited high tech equipment, software, and R&D at roughly 55 percent of US capital spending, tech at almost 40 percent of US stock market value, and eight of the top 10 most valuable companies in the world being US tech companies. The team framed the AI buildout as larger than the railroad buildout as a share of GDP and as part of a broader infrastructure wave estimated at $90 trillion globally through 2040.\n\nThe discussion pushed back on the simplest bubble narrative by separating stock performance from valuation expansion. The speakers said that since ChatGPT launched almost four years ago, the market is up about 90 percent, or 17 percent annualized, but stocks are up roughly 20 percent while multiples are down about 20 percent, with the S&P 500 earnings multiple below 20 times. No participant presented a direct disagreement, but the episode repeatedly engaged with the skeptical question of whether AI spending is getting ahead of the economics.\n\nThe central market claim was that hyperscaler AI CapEx is still supply constrained rather than demand constrained. The team cited Alphabet, Amazon, Meta, Microsoft, and Oracle CapEx of about $780 billion in 2026, up from $416 billion in 2025, with expectations for more than $1 trillion annually from 2027. They also pointed to roughly $1.7 trillion of combined cloud backlog at Microsoft, Google, and Amazon, materials shortages in parts of the data center supply chain until 2028, and a likely free cash flow recovery from 2028 as installed GPU and data center capacity begins to produce returns.\n\nInside enterprises, the speakers argued that AI adoption is broad but measurable impact is still very early. They cited live AI deployments at 69 percent of S&P 500 companies, quantifiable impact at 30 percent, and ongoing tracked metrics at only 2 percent. They contrasted that with real case studies, including Chime reducing cost to serve by more than 10 percent per year for four years, Shopify's AI Sidekick increasing the share of merchants reaching five orders within 15 days by 8 percent, and ServiceNow reporting more than $1 billion in AI ACV and a 9x increase in agentic deployments.\n\nLooking ahead, the team predicted further diffusion into consumer agents, robotics, autonomy, AI and biology, and enterprise workflows beyond coding. David George argued that robotics could be larger than current AI application markets but three to five years earlier in development, that autonomous driving networks could expand ride-hailing miles by at least an order of magnitude, and that over the next 10 years the 17 million new cars sold annually in the US will all become autonomous. The episode also argued that private markets are absorbing a growing share of value creation, citing six private companies with about $2.4 trillion of combined value, more than the $1.7 trillion combined market cap of IPOs over the last 10 years excluding SpaceX.",
+      "key_takeaway": "The a16z growth team argues hyperscaler AI CapEx can exceed $1 trillion annually from 2027 because agentic compute demand continues to outstrip supply across chips, power, cooling, and construction.",
       "tickers_mentioned": [
         "NVDA"
       ],
@@ -1064,7 +1064,21 @@ const dashboardData = {
       "added_date": "2026-09-30",
       "archived_date": null,
       "archived_reason": null,
-      "podcast_episode_id": 536
+      "podcast_episode_id": 536,
+      "notable_quotes": [
+        {
+          "speaker": "David George",
+          "quote": "high tech equipment, software, and R&D, now accounts for roughly 55% of US capital spending"
+        },
+        {
+          "speaker": "Santiago Rodriguez",
+          "quote": "Agents are here. They are performing tasks, tasks require multiple steps, which require multiple model calls."
+        },
+        {
+          "speaker": "David George",
+          "quote": "the founder is the asset class at this point."
+        }
+      ]
     },
     {
       "id": 545,
@@ -1072,8 +1086,8 @@ const dashboardData = {
       "source_type": "podcast",
       "source_name": "Latent Space: The AI Engineer Podcast",
       "source_date": "2026-09-29",
-      "summary": "The podcast discusses the rapid evolution of AI tools, particularly focusing on Cloud Code, which has become the standard coding method for developers within a year. The introduction of tools like Ask You the Question and Cloud Mods enhances user-agent interactions and customization, respectively, while safety mechanisms and project management capabilities are emphasized as critical for responsible AI deployment.",
-      "key_takeaway": "Cloud Code has become the default coding method for developers, indicating a significant shift in software development practices.",
+      "summary": "Thariq Shihipar described Anthropic as operating in an unusually fast product cycle, centered on Claude Code, Claude Tag, artifacts, projects, and a coming customization layer called Claude Mods. He said that in less than 12 months, agentic coding moved from something he was trying to persuade startup friends to use into what he called the default way that everyone codes, which reframes the bottleneck from model capability to human skill, prompting, and harness design.\n\nThe core product argument was that Claude Code is evolving from a local CLI into a broader harness with cloud-hosted intelligence, local or remote hands, multiplayer surfaces, artifacts with persistent databases, and eventually customizable execution and UI. Thariq said artifacts could become the main interface into the harness, with shared state such as a Kanban board available to multiple Claude sessions through artifact MCP, while Claude Tag serves as Anthropic's multiplayer product for Slack-based organizational workflows, incidents, legal review, and context sharing.\n\nThe hosts pressed on whether this complexity creates too much surface area, especially around identity, permissions, prompt caching, model routing, and whether users can understand mutable software. Thariq's response was that power users already share workflows, mods, skills, and harness patterns, while Anthropic is adding primitives such as forked subagents, classifiers, hooks, modes, and UI modification so users can automate repeated behaviors like implementation notes, quizzes, next steps, and model routing.\n\nThe final section moved into AI safety and enterprise risk. Thariq discussed Dario Amodei's Pacing the Frontier argument and cited OpenAI exploit-bench incidents involving Artifactory cache folders used as a message board, a German wiki that could be written with GET requests, and /etc/hosts editing to route requests. His claim was not that the current public models are already catastrophic, but that frontier agents are showing novel side effects of goal pursuit, so model labs need hardened sandboxes, probes, classifiers, careful RL environments, and outside evaluators before release.\n\nFor financial analysis, the episode framed agentic software as a market shift with two simultaneous effects: higher software productivity and higher security, governance, and infrastructure requirements. Thariq also contrasted the pre-Claude-Code expectation of paying about $20 per month for AI with users paying around $200 per month once they understood agentic coding value, while predicting that frontier-model intelligence will become cheaper and more abundant over time.",
+      "key_takeaway": "Thariq Shihipar argues Claude Code's market shift took less than 12 months because agentic coding moved from persuasion to default engineering workflow, while security layers now define enterprise adoption.",
       "tickers_mentioned": [
         "NVDA"
       ],
@@ -1083,7 +1097,21 @@ const dashboardData = {
       "added_date": "2026-09-29",
       "archived_date": null,
       "archived_reason": null,
-      "podcast_episode_id": 531
+      "podcast_episode_id": 531,
+      "notable_quotes": [
+        {
+          "speaker": "Thariq Shihipar",
+          "quote": "the default way that everyone codes"
+        },
+        {
+          "speaker": "Thariq Shihipar",
+          "quote": "the agentic stuff scales much better than the like human stuff"
+        },
+        {
+          "speaker": "Thariq Shihipar",
+          "quote": "models are grown not designed"
+        }
+      ]
     },
     {
       "id": 548,
@@ -1091,8 +1119,8 @@ const dashboardData = {
       "source_type": "podcast",
       "source_name": "The a16z Show",
       "source_date": "2026-09-29",
-      "summary": "The podcast discusses the rapid evolution of personal AI agents, highlighting their transition from experimental tools to essential components of daily life. Key insights include the importance of user trust and proactive capabilities in AI agents, as well as the potential for agent-to-agent interactions to reshape commerce and service industries. The episode emphasizes the fragmented market of personal agents and the need for companies to tailor their offerings to meet diverse consumer preferences.",
-      "key_takeaway": "Anisha Charya claims that personal AI agents are rapidly evolving and represent a significant growth opportunity in consumer AI.",
+      "summary": "Anish Acharya and David Pawlan discuss the rapid emergence of personal AI agents as a consumer AI category, framing it as the third major wave after ChatGPT in November 2022 and coding agents such as Claude Code and Codex. Pawlan says the category accelerated sharply in the prior four weeks, with products such as Poke, Instinct, Muse, Grok, Caddy, Ally, and Palli drawing intense attention. He also explains Assistant Bench, his consumer-facing benchmark that tests assistants on one-shot tasks such as booking flights, finding restaurants, and handling email across 16 dimensions; he says the site launched 16 days earlier, drew more than 100,000 visitors, and received outreach from almost every founder in the space.\n\nThe central argument is that the winning personal agent is unlikely to be a visible productivity dashboard that makes people 10% more efficient. Pawlan argues that mass-market consumers care more about invisible life administration and cost savings, such as filing HSA reimbursements from a year of receipts, seeking airline credits when flight prices drop, or connecting a Grok bot to a sprinkler system and weather data to cut a water bill by 50%. Acharya agrees that this may feel like \"free money\" rather than traditional productivity, and he adds that financially and bureaucratically burdensome consumer workflows could create large vertical opportunities even if the winning horizontal agent interface is controlled by a general-purpose platform.\n\nThey do not sharply disagree, but they test different theories about where defensibility will sit. Acharya emphasizes narrow startups, taste, proprietary knowledge, and specialized agents for small but valuable audiences, while Pawlan argues that personality alone is not defensible because it can be configured in memory, but proactivity and trust boundaries may be. Both identify a fine line: an agent that gets a flight credit or drafts an email can delight users, while an agent that makes an irreversible decision without permission can destroy trust. They also discuss interfaces including iMessage, standalone apps, widgets, voice, wearables, audio-only glasses, and the Muse charm, with Pawlan offering a hot take that the charm may be more about real-world data collection for Meta's future metaverse than about winning consumer hardware.\n\nLooking ahead, Acharya and Pawlan predict a major shift from human-to-service interactions toward agent-to-agent interactions. They discuss agent email addresses, agent phone numbers, new security layers, and commerce infrastructure designed for agents rather than human eyeballs. In commerce, Pawlan contrasts Shopify embracing Muse with Amazon blocking Muse, arguing that Shopify benefits when agents democratize purchasing for merchants, while Amazon risks losing ad revenue and impulse shopping when human attention is removed. The episode closes with a broader prediction that agents could reshape restaurant reservations, recommendation systems, supply and demand aggregation, and even a secondary economy in which agents act on behalf of humans to buy, sell, and coordinate services.",
+      "key_takeaway": "David Pawlan argues personal AI agents will compete on proactivity rather than 10% efficiency, citing 122 tracked assistants and cost-saving workflows such as HSA reimbursements, flight credits, and 50% lower water bills.",
       "tickers_mentioned": [
         "NVDA",
         "GOOGL"
@@ -1103,7 +1131,21 @@ const dashboardData = {
       "added_date": "2026-09-29",
       "archived_date": null,
       "archived_reason": null,
-      "podcast_episode_id": 533
+      "podcast_episode_id": 533,
+      "notable_quotes": [
+        {
+          "speaker": "David Pawlan",
+          "quote": "The general population does not care about being 10% more efficient."
+        },
+        {
+          "speaker": "David Pawlan",
+          "quote": "I think there is massive defensibility around productivity."
+        },
+        {
+          "speaker": "Anish Acharya",
+          "quote": "It's not about cost reduction. It's about possibility expansion."
+        }
+      ]
     },
     {
       "id": 550,
@@ -1122,7 +1164,8 @@ const dashboardData = {
       "added_date": "2026-09-29",
       "archived_date": null,
       "archived_reason": null,
-      "podcast_episode_id": 535
+      "podcast_episode_id": 535,
+      "notable_quotes": null
     },
     {
       "id": 542,
@@ -1130,8 +1173,8 @@ const dashboardData = {
       "source_type": "podcast",
       "source_name": "The a16z Show",
       "source_date": "2026-09-28",
-      "summary": "In this episode, Diego Almeida discusses the transformative potential of AI in enhancing software capabilities beyond mere automation. He emphasizes the importance of reliability in AI systems and predicts a resurgence in the SaaS market as AI integration becomes more prevalent. Almeida also highlights the concept of probabilistic programming as a key innovation that could redefine software interactions with AI, ultimately leading to improved user experiences and operational efficiencies.",
-      "key_takeaway": "Diego Almeida predicts that SaaS will be one of the largest winners of the AI integration trend.",
+      "summary": "Ben Horowitz and Martin Casado interviewed Type-Safe AI founder Diego Almeida about why advanced AI has not yet produced broad automation inside software. Almeida framed the core problem as \"where the fuck is all the automation,\" arguing that Claude Code, Codex, Cursor, and other coding tools mostly make it faster to produce ordinary software rather than expanding what software can do.\n\nAlmeida described Jeff as a new programming primitive that lets developers turn natural language intent into structured decisions, confidence levels, and state-machine outputs that programs can use. He contrasted this with chatbots and agents, which often keep a human in the loop or rely on natural language loops instead of giving software a reliable internal intelligence layer.\n\nThe discussion returned repeatedly to reliability. Almeida argued that the product is not mainly about impressive demos, but about robustness: producing similarly intelligent behavior every time so software can run in the background without paging humans. He said every additional \"nine\" of reliability could unlock new applications, and he distinguished uptime, determinism, robustness, and intelligence as different reliability dimensions.\n\nThe hosts challenged Almeida on whether real-world automation is limited by data distribution and long-tail exceptions, using support workflows such as password resets and uniqueness of help-desk calls as examples. Almeida said he does not fully buy the data argument, pointing to OpenAI trying to automate customer service since 2020 and to Q4 2021 RLHF generalization as evidence that model intelligence has existed for some time, while the industry optimized for human evaluation rather than productive automation.\n\nThe market argument centered on SaaS. Almeida said the \"SaaS Apocalypse\" story from coding agents has panned out poorly because software is not easy to replicate, and he predicted an inverse version in which SaaS companies become major AI beneficiaries by embedding smarter workflows into products they already distribute to large customer bases.",
+      "key_takeaway": "Diego Almeida argues SaaS could see an inverse SaaS Apocalypse because Type-Safe AI's Jeff adds a natural-language-to-state-machine primitive inside existing products, unlike Claude Code or Codex generating ordinary code.",
       "tickers_mentioned": [
         "NVDA"
       ],
@@ -1141,7 +1184,21 @@ const dashboardData = {
       "added_date": "2026-09-28",
       "archived_date": null,
       "archived_reason": null,
-      "podcast_episode_id": 527
+      "podcast_episode_id": 527,
+      "notable_quotes": [
+        {
+          "speaker": "Diego Almeida",
+          "quote": "Where the fuck is all the automation?"
+        },
+        {
+          "speaker": "Diego Almeida",
+          "quote": "What I want instead is smart software."
+        },
+        {
+          "speaker": "Diego Almeida",
+          "quote": "But I think that SaaS will be one of the largest winners of like the whole AI game."
+        }
+      ]
     },
     {
       "id": 544,
@@ -1149,8 +1206,8 @@ const dashboardData = {
       "source_type": "podcast",
       "source_name": "Moonshots with Peter Diamandis",
       "source_date": "2026-09-28",
-      "summary": "In this episode, Palmer Luckey discusses the transformative potential of AI and the decentralization of the defense industry through his company, Androle Industries. He emphasizes the importance of specialization in defense technology and the role of practical experience in organizational leadership, while predicting significant cost reductions across various sectors due to AI advancements.",
-      "key_takeaway": "Palmer Luckey predicts that AI will massively reduce costs in resource extraction and processing, transforming various sectors.",
+      "summary": "Peter Diamandis opened the Moonshots Live session by noting that Palmer Luckey and Anduril won the $2 million Wildfire XPRIZE, including $1 million from Lockheed Martin. Luckey said Anduril began building an autonomous firefighting tank in 2017 and finished it in 2019, then argued that wildfire response depends on rapid detection, classification, false-positive rejection, asset matchmaking, and striking the fire before it grows beyond the capability of low-cost tools.\n\nLuckey said he was not focused on funding another race to push AI models forward because that area already has plenty of capital. Instead, he previewed a new $10 million XPRIZE focused on understanding biological intelligence and communicating with wild animals in their own language ten times better than the current state of the art, a project he said could eventually inform more efficient AI.\n\nOn defense AI, Luckey rejected the idea that AI doom from autonomous killing is his main concern, saying he is more worried about evil people using moderately competent AI for evil ends. He argued that military autonomy needs to live forward at the edge rather than in centralized command centers because communications to thousands or tens of thousands of assets can be jammed, intercepted, hacked, or targeted; he also said autonomous weapons have existed for decades in systems such as Aegis, SeaRAM, and Vietnam-era missiles, and conceptually for thousands of years through traps and mines.\n\nLuckey disagreed with the idea that defense robotics will converge into a general-purpose humanoid or category-killer robot. He said defense rewards specialized systems because even a reliable 5% edge over an adversary is worth paying for, and cited Anduril robot submarines designed for 6,000 meter depth and months on the ocean floor as the kind of use case where humanoid convergence makes little sense. He also described Anduril as a product company challenging a defense procurement system in which roughly 80% of major defense acquisition programs recently went to five companies.",
+      "key_takeaway": "Palmer Luckey argues Anduril can disrupt defense procurement because it self-funds specialized autonomous products in a market where 80% of major defense acquisition programs went to five companies.",
       "tickers_mentioned": [
         "NVDA"
       ],
@@ -1160,7 +1217,17 @@ const dashboardData = {
       "added_date": "2026-09-28",
       "archived_date": null,
       "archived_reason": null,
-      "podcast_episode_id": 529
+      "podcast_episode_id": 529,
+      "notable_quotes": [
+        {
+          "speaker": "Palmer Luckey",
+          "quote": "I'm just not worried about AI-duming. I guess I'm not worried about AI doing the killing."
+        },
+        {
+          "speaker": "Palmer Luckey",
+          "quote": "We've had autonomous weapons for a very, very long time. It's just a new set of technology that's making them better."
+        }
+      ]
     },
     {
       "id": 546,
@@ -1168,8 +1235,8 @@ const dashboardData = {
       "source_type": "podcast",
       "source_name": "All-In with Chamath, Jason, Sacks & Friedberg",
       "source_date": "2026-09-28",
-      "summary": "The podcast discusses the transition from reactive to preventative healthcare, emphasizing the role of data and AI in improving health outcomes. Daniel Ek, former CEO of Spotify, highlights his new venture Neco, which aims to provide comprehensive health checks and personalized consultations to detect health issues early. The conversation also touches on the economic viability of Neco's model and the structural challenges within the U.S. healthcare system.",
-      "key_takeaway": "Daniel Ek argues that Neco's focus on preventative healthcare through data and AI can significantly reduce costs and improve health outcomes.",
+      "summary": "Daniel Ek traced Spotify's origin from a 2006 startup idea in Sweden to a public company with more than 700 million active users and over 300 million premium subscribers. He said the music industry was in freefall because of piracy, Sweden had very fast broadband and few legal options, and Spotify won early label support by guaranteeing short-term economics to labels before launching in late 2008, entering the UK, and launching in the US in 2011. He also said Spotify went public in 2018, after which he began doing more investing, but concluded he preferred building companies to sitting on boards or passively watching portfolio companies.\n\nThe main focus was Neko Health, the healthcare company Daniel Ek said he started in 2018 and tested in Sweden before moving into the UK and now the US. Ek argued that the core healthcare problem is that chronic diseases are often preventable if caught early, but the system lacks enough longitudinal, multi-modal data to detect risks before symptoms become acute. He described Neko's $499 one-hour scan as a vertically integrated service that measures 53 blood markers, captures more than 6,000 high-resolution skin images, indexes moles and lesions, reviews heart and circulation markers, and ends with uninterrupted clinician time. He claimed Neko has completed more than 100,000 scans, has published data for three years, and finds serious undiagnosed underlying medical situations in about 1% of members.\n\nDavid Friedberg pressed Ek on what is novel compared with companies such as One Medical and Forward, and the hosts questioned how the model fits into the dysfunctional US healthcare system. Ek answered that the novelty is the combination of proprietary diagnostic infrastructure, AI triage, human clinician review, specialist backup, and longitudinal tracking, such as comparing roughly 950 moles per average member across annual visits. On US healthcare incentives, Ek argued the system was built for infectious disease and acute treatment, while employer-tied insurance creates a mismatch because payback periods for prevention may be 10, 15, or 20 years while an employee may stay only two or three years.\n\nThe discussion then broadened to AI, open-source models, and compute. Ek said he does not have a strong pacing view on AI but wants more emphasis on positive applications, including Spotify's ability to soundtrack moments more intelligently and Neko's ability to monitor skin changes over time. He supported open-source AI models and said Spotify uses both frontier models and fine-tuned internal models for cost, efficiency, and customization reasons. He also raised compute scale as an under-discussed dimension of AI risk and capability, contrasting a system using 100,000 GPUs with an open-source model running on a home PC. Ek predicted Neko would expand beyond New York into Miami, DC, and across the US over the next 12 to 24 months.",
+      "key_takeaway": "Daniel Ek argues Neko Health's $499 vertically integrated scans can shift healthcare from reactive to preventative by combining 53 blood markers, 6,000 skin images, clinician review, and longitudinal AI.",
       "tickers_mentioned": [
         "NVDA"
       ],
@@ -1179,7 +1246,21 @@ const dashboardData = {
       "added_date": "2026-09-29",
       "archived_date": null,
       "archived_reason": null,
-      "podcast_episode_id": 532
+      "podcast_episode_id": 532,
+      "notable_quotes": [
+        {
+          "speaker": "Daniel Ek",
+          "quote": "we have to take healthcare from reactive to preventative health."
+        },
+        {
+          "speaker": "Daniel Ek",
+          "quote": "show me the outcome I'll show you the incentive."
+        },
+        {
+          "speaker": "Daniel Ek",
+          "quote": "I want to see more positive examples of AI"
+        }
+      ]
     },
     {
       "id": 547,
@@ -1198,7 +1279,8 @@ const dashboardData = {
       "added_date": "2026-09-29",
       "archived_date": null,
       "archived_reason": null,
-      "podcast_episode_id": 530
+      "podcast_episode_id": 530,
+      "notable_quotes": null
     },
     {
       "id": 549,
@@ -1217,7 +1299,8 @@ const dashboardData = {
       "added_date": "2026-09-29",
       "archived_date": null,
       "archived_reason": null,
-      "podcast_episode_id": 534
+      "podcast_episode_id": 534,
+      "notable_quotes": null
     },
     {
       "id": 539,
@@ -1225,8 +1308,8 @@ const dashboardData = {
       "source_type": "podcast",
       "source_name": "The a16z Show",
       "source_date": "2026-09-27",
-      "summary": "The episode discusses Harvey's remarkable growth, with its valuation skyrocketing from $3 billion to $11 billion in just over a year, reflecting strong market confidence. It highlights the company's culture of experimentation, leadership accessibility, and a values-driven hiring process, all contributing to its rapid scaling and global expansion strategy.",
-      "key_takeaway": "Harvey's valuation surged from $3 billion to $11 billion in just over a year, signaling strong market confidence and growth potential.",
+      "summary": "Katie Kirsch interviewed Maggie Landers, VP of talent at Harvey, about how the AI legal company is scaling headcount, culture, and customer coverage while trying to keep startup speed. Kirsch framed the company's valuation path as rising from $3 billion in February 2025 to $5 billion in June, $8 billion in October, and $11 billion in March 2026, while Landers said Harvey had just celebrated its fourth birthday and still felt far from the company it aimed to build.\n\nLanders argued that the central operating challenge is scaling without losing pace: she said Harvey added more than 1,000 employees since she joined, expected to reach about 2,000 employees before year-end, and had more than 70% of employees start after January 1 of the current year. She described a culture built around progress over perfection, fast correction after mistakes, and high agency, claiming that employees can do more in one month at Harvey than in one quarter elsewhere.\n\nThe discussion did not feature a disagreement between speakers; Kirsch mostly tested and clarified Landers' claims about culture, hiring, and fit. Landers said Harvey's founders, Winston and Gabe, maintain transparency through AMAs, memos, Slack access, quarterly reflections, and shared board decks, and she tied this openness to employees' ability to make decisions quickly without heavy consensus processes.\n\nLanders predicted continued expansion across functions and geographies, noting more than 400 open roles and plans that previously involved reaching 16 markets in a year. She argued that Harvey's AI legal opportunity differs from model labs or generic customer-support automation because legal transformation requires local legal expertise, security standards, customer proximity, and a heavy go-to-market and post-sale services motion.",
+      "key_takeaway": "Maggie Landers argues Harvey's AI legal opportunity requires a heavy people motion, with over 400 open jobs and plans to reach 16 markets in a year because customers need local legal expertise.",
       "tickers_mentioned": [
         "NVDA"
       ],
@@ -1236,7 +1319,21 @@ const dashboardData = {
       "added_date": "2026-09-27",
       "archived_date": null,
       "archived_reason": null,
-      "podcast_episode_id": 524
+      "podcast_episode_id": 524,
+      "notable_quotes": [
+        {
+          "speaker": "Maggie Landers",
+          "quote": "You're going to do more in a month at Harvey than you would in a quarter somewhere else."
+        },
+        {
+          "speaker": "Maggie Landers",
+          "quote": "we'll likely be about 2000 employees before the end of this calendar year"
+        },
+        {
+          "speaker": "Maggie Landers",
+          "quote": "we don't operate out of fear"
+        }
+      ]
     },
     {
       "id": 540,
@@ -1255,16 +1352,17 @@ const dashboardData = {
       "added_date": "2026-09-27",
       "archived_date": null,
       "archived_reason": null,
-      "podcast_episode_id": 526
+      "podcast_episode_id": 526,
+      "notable_quotes": null
     },
     {
       "id": 541,
       "title": "The Private Credit Boom is Over: Redemption Requests Exceed Liquidity | James Elbaor | Marlton LLC",
       "source_type": "podcast",
-      "source_name": "Monetary Matters with Jack Farley",
+      "source_name": "Other People's Money with Max Wiethe",
       "source_date": "2026-09-27",
-      "summary": "The podcast discusses the decline of the private credit market, highlighting the lack of new capital inflows and increasing redemption pressures. It also addresses the anticipated merger activity in the BDC and private credit space, the impact of AI on SaaS companies, and the valuation discrepancies in public BDCs, suggesting a shift towards permanent capital structures for better long-term investment outcomes.",
-      "key_takeaway": "James Elbauer predicts significant merger activity in the BDC and private credit space starting next fiscal year, which may stabilize valuations in a distressed market.",
+      "summary": "Max Wiethe interviewed James Elbaor of Marlton LLC about private credit redemptions, interval fund gates, public BDC discounts, and the valuation reset across alternative asset managers. Elbaor argued that the private credit boom is over because new capital is no longer flowing into the strategy, while existing vehicles are managing redemption queues that exceed stated quarterly liquidity caps.\n\nElbaor used BCRED, Blackstone's private credit interval fund, as the main bellwether: he described it as an $82 billion vehicle including leverage, with a 5% quarterly gate and redemption requests equal to 10% of shares outstanding, or roughly $8 billion. He said the situation is not necessarily proof that the loans are broadly impaired, but rather that the wrapper promised periodic liquidity on assets that cannot always be liquidated on demand.\n\nMax Wiethe pushed on whether asset managers would have to merge or acquire vehicles only at discounts to NAV, while Elbaor disagreed and cited Mount Logan's purchase of Turn at 110% of NAV and Source Capital's 101% of NAV unsolicited bid as evidence that strategic buyers may pay NAV-plus. Elbaor still argued that the IPO listing window for private credit vehicles has closed, citing a Bluerock vehicle that listed and immediately traded at a 38% discount to NAV.\n\nOn credit quality, Elbaor focused on AI disruption to SaaS companies, saying private credit has estimated SaaS exposure of more than half a trillion dollars and that not every SaaS borrower will survive. He did not endorse the most systemic version of the private credit bear case against banks, instead arguing that the investable expression is more specific to the wrapper, especially public BDCs trading at discounts that imply liquidity costs around 60 to 65 cents on the dollar.\n\nThe discussion broadened to alternative asset manager valuations, where Elbaor contrasted private-credit-heavy managers such as Blackstone, Apollo, KKR, and Blue Owl with Pershing Square's permanent capital model. He said Pershing Square traded around $50 per share, roughly double its IPO, and argued that a true permanent-capital structure creates a valuable annuity-like management fee stream, especially with less than 100 employees and an approximately 80% payout ratio.",
+      "key_takeaway": "James Elbaor argues private credit growth is over and BDC/private credit consolidation should accelerate next fiscal year as redemptions exceed 5% gates and public vehicles trade at large NAV discounts.",
       "tickers_mentioned": [
         "NVDA"
       ],
@@ -1274,7 +1372,21 @@ const dashboardData = {
       "added_date": "2026-09-27",
       "archived_date": null,
       "archived_reason": null,
-      "podcast_episode_id": 525
+      "podcast_episode_id": 525,
+      "notable_quotes": [
+        {
+          "speaker": "James Elbaor",
+          "quote": "The private credit boom is over."
+        },
+        {
+          "speaker": "James Elbaor",
+          "quote": "Gating is doing what it was designed to do."
+        },
+        {
+          "speaker": "James Elbaor",
+          "quote": "There's no new money, no new capital flowing into that strategy right now."
+        }
+      ]
     },
     {
       "id": 536,
@@ -1293,7 +1405,8 @@ const dashboardData = {
       "added_date": "2026-09-25",
       "archived_date": null,
       "archived_reason": null,
-      "podcast_episode_id": 522
+      "podcast_episode_id": 522,
+      "notable_quotes": null
     },
     {
       "id": 538,
@@ -1301,8 +1414,8 @@ const dashboardData = {
       "source_type": "podcast",
       "source_name": "The a16z Show",
       "source_date": "2026-09-26",
-      "summary": "The episode discusses the critical balance between regulating AI and fostering innovation. Speakers emphasize the importance of security and governance in AI development, the shift towards probabilistic programming, and the decentralization of AI innovation from traditional labs to application-level developments. The conversation also highlights the need for robust access control as AI systems grow in complexity.",
-      "key_takeaway": "Regulating AI too early may hinder innovation and the development of effective safety measures.",
+      "summary": "Aaron Levie, Steven Sinofsky, and Martin Casado debated whether frontier AI labs are framing AI safety in a way that helps or hurts the industry. Levie argued that Dario's post on pacing was substantively reasonable because it emphasized security, sandboxing, testing, and governance, but he warned that the same language could be used for regulatory capture or broad slowdowns. Casado agreed that the practical security agenda was sound, but said the surrounding atmosphere was broken because some participants describe a 10% chance of species extinction while proposing governance tools that do not match an extinction-level risk claim.\n\nThe sharpest disagreement centered on regulation. Casado argued that if knowledgeable lab employees truly believe AI creates non-zero marginal extinction risk, the logically consistent answer is nationalization, not vague pacing. Sinofsky argued that once companies invite government regulation, the result is rarely the exact compromise they want, and he predicted that 2028 could become an AI election framed around degrees of regulation rather than a clear pro-AI platform.\n\nThe group compared AI to earlier software and internet security failures. Sinofsky recalled that until roughly 2001 a PC connected to a network could be infected during installation, while the early internet faced viruses, worms, hospital outages, and economic damage. The speakers argued that useful policy historically followed specific failures, such as hacker incidents that informed computer crime law, rather than abstract predictions before the technology's failure modes were observable.\n\nA major investment-relevant theme was that AI agents and agent swarms change enterprise security assumptions. The discussion claimed that internal tools were built around humans doing the right thing 95% to 99% of the time, but 10,000 roaming agents could mistake good and bad tasks, overload internal APIs, and create denial-of-service-like patterns inside networks. That, they argued, implies a new internal layer for authentication, API tracking, granular permissions, and secure-by-design systems.\n\nThe episode closed with a software architecture shift: some important AI innovation may move outside frontier model labs and into application systems built around models. Casado highlighted a model pattern that reads text but returns option choices quickly and cheaply, while Sinofsky connected that pattern to older probabilistic programming research. The speakers framed this as evidence that the center of innovation may be moving from model capabilities alone to the surrounding software stack.",
+      "key_takeaway": "Steven Sinofsky argues AI agents will force a new internal security layer tracking authentications and APIs, because swarms of 10,000 agents can create denial-of-service-like enterprise failures.",
       "tickers_mentioned": [
         "NVDA"
       ],
@@ -1312,7 +1425,21 @@ const dashboardData = {
       "added_date": "2026-09-26",
       "archived_date": null,
       "archived_reason": null,
-      "podcast_episode_id": 523
+      "podcast_episode_id": 523,
+      "notable_quotes": [
+        {
+          "speaker": "Aaron Levie",
+          "quote": "You're not going to have AI diffusion without extremely high quality products that can be trusted by enterprises and that aren't kind of constantly hacking systems."
+        },
+        {
+          "speaker": "Martin Casado",
+          "quote": "The post is very reasonable, but the atmospherics are not, right?"
+        },
+        {
+          "speaker": "Steven Sinofsky",
+          "quote": "The reality of the PC until 2001, yeah, was you could not install a PC, connected to the network without getting infected."
+        }
+      ]
     },
     {
       "id": 534,
@@ -1320,8 +1447,8 @@ const dashboardData = {
       "source_type": "podcast",
       "source_name": "Latent Space: The AI Engineer Podcast",
       "source_date": "2026-09-25",
-      "summary": "The podcast discusses Runway's significant advancements in generative models, transitioning from image to video generation, and highlights the importance of real-time video capabilities for enhancing creative workflows. The company is also exploring the integration of world models for robotics and fostering an open-source initiative to advance research in AI, indicating a collaborative approach to innovation in the sector.",
-      "key_takeaway": "",
+      "summary": "Anastasis Germanidis described Runway's path from early creative AI tooling into real-time world models. He said the original 2018 thesis was that generative models would eventually create most content, so creative tools had to be rethought. The company began by making open-source models such as Pix2Pix easier for artists, then built internal research after realizing image and video generation were not yet production-ready. He cited Runway's green screen segmentation tool, used in Everything Everywhere All at Once, as the company's early post-production anchor before the 2022 diffusion step change.\n\nThe discussion traced Runway's model releases and infrastructure bets. Germanidis said Runway signed deals in mid-2022 for a cluster of 1,100 GPUs while it was a Series B startup because the team believed video scaling laws would hold. Gen 1 launched in January 2023 as a depth-conditioned video-to-video model, while Gen 2 followed roughly two months later as a two-stage text-to-depth-to-video system. After OpenAI released Sora in February 2024, Runway had what he called an existential crisis for a few hours, then scaled model size and training compute by 10x, built model parallelism, and released Gen 3 that summer.\n\nA central debate was whether video prediction can scale into world understanding. Germanidis pushed back on Yan LeCun's distinction between understanding the world and generating cute videos, arguing that generating realistic video requires increasingly accurate simulation of physics, human dynamics, and counterfactual outcomes. He said Runway measures this with benchmarks such as Physics IQ, where first-frame rollouts test solid mechanics, fluids, optics, and intuitive physics. He acknowledged current models can cherry-pick or hide deficiencies, but claimed predictable improvements appear as compute scales.\n\nThe episode also covered real-time models, interface generation, robotics, and open-source strategy. Germanidis said Runway's Character model runs at 24 FPS as a step-distilled autoregressive video model, and he predicted real-time video generation would be the primary mode within about two years because it improves latency and serving cost. He showed an Interface World Model that renders software pixels directly rather than using HTML, CSS, or React, and described robotics work where GWM1, built on Gen 4.5, uses third-person video pretraining plus hundreds of hours of robotic data to simulate manipulation tasks. He also discussed the NVIDIA Cosmos Coalition as an effort to open-source world-model research, benchmarks, infrastructure, and possibly open-weight models, partly because many top video-model leaderboards are dominated by Chinese models.",
+      "key_takeaway": "Anastasis Germanidis argues Runway's 1,100-GPU 2022 bet showed video scaling laws can turn generative video models into real-time world models for interfaces, robotics, and simulation.",
       "tickers_mentioned": [
         "NVDA"
       ],
@@ -1331,7 +1458,17 @@ const dashboardData = {
       "added_date": "2026-09-25",
       "archived_date": null,
       "archived_reason": null,
-      "podcast_episode_id": 519
+      "podcast_episode_id": 519,
+      "notable_quotes": [
+        {
+          "speaker": "Anastasis Germanidis",
+          "quote": "We just have seen no indication that video prediction itself doesn't scale."
+        },
+        {
+          "speaker": "Anastasis Germanidis",
+          "quote": "There is no HTML CSS react that's powering this interface."
+        }
+      ]
     },
     {
       "id": 535,
@@ -1350,7 +1487,8 @@ const dashboardData = {
       "added_date": "2026-09-25",
       "archived_date": null,
       "archived_reason": null,
-      "podcast_episode_id": 520
+      "podcast_episode_id": 520,
+      "notable_quotes": null
     },
     {
       "id": 537,
@@ -1369,7 +1507,8 @@ const dashboardData = {
       "added_date": "2026-09-25",
       "archived_date": null,
       "archived_reason": null,
-      "podcast_episode_id": 521
+      "podcast_episode_id": 521,
+      "notable_quotes": null
     },
     {
       "id": 543,
@@ -1377,8 +1516,8 @@ const dashboardData = {
       "source_type": "podcast",
       "source_name": "Macro Voices",
       "source_date": "2026-09-25",
-      "summary": "The podcast discusses the geopolitical implications of U.S.-Iran relations, highlighting the potential for increased oil prices and market instability due to proposed U.S. diesel export bans. It also examines the escalating U.S.-China rivalry and its impact on global alliances, along with concerns regarding tactical nuclear options and the AI arms race.",
-      "key_takeaway": "Michael Every claims that escalating U.S.-Iran tensions could disrupt oil supply, leading to higher prices in global markets.",
+      "summary": "Erik Townsend and Michael Every framed this overtime episode around a rapid cluster of geopolitical shocks recorded around September 25, 2026. Townsend cited an Axios report, relayed by Ole Hansen of Saxo Bank, that Iran had given the United States a one-week ultimatum to lift a military blockade or face renewed asymmetric escalation; he said WTI crude spiked roughly $3 to $3.50 on the news. Every argued that the development was predictable because Saudi Arabia and the UAE were trying to move more crude through the Strait of Hormuz despite live firing and damaged ships, while Iran could respond by escalating through the Houthis, Bab el Mandeb, the Red Sea, the Indian Ocean, and ship-to-ship transfers off Oman.\n\nThe discussion then moved to a Politico report that President Trump was considering or supporting a 90-day ban on US diesel exports. Townsend noted that Energy Secretary Chris Wright publicly disagreed with the policy despite usually being highly aligned with Trump, saying the markets do not work that way. Every agreed that a blanket diesel export ban could create market chaos because US refining, export routes, crude pricing, insurance, and foreign counterparties are part of a single integrated energy system; however, he argued the policy could evolve into targeted exemptions and a broader form of economic coercion that prioritizes countries closest to the US security agenda.\n\nEvery tied Canada, Europe, Greenland, Russia, Ukraine, Iran, North Korea, Taiwan, the South China Sea, and AI into a single US-China strategic contest. He argued that Mark Carney's disclosure of Canadian war-game planning for a hypothetical US invasion revealed the extreme downside of Canada trying to drift away from the United States, especially because roughly 90% of Canada's population lives near the US border and Canada's high-value goods are deeply integrated with the US economy. He also described China, Russia, Iran, and North Korea as a collaborating bloc, citing Iranian-designed drones used by Russia in Ukraine, rumors of 50,000 additional North Korean personnel for Russia, Chinese statements that Russia cannot lose in Ukraine, and pressure on South Korea and the Philippines.\n\nThe final section focused on AI, capital controls, and the possibility of tactical nuclear escalation. Townsend raised the idea that Chinese open-source AI models could undermine the US AI boom by offering free, air-gapped alternatives that trail US frontier models by only three or four months, while Every replied that Beijing might use such models to damage the US financial model for AI while US national-security actors may ultimately treat AGI as a Manhattan Project asset. Every also argued that governments short of funds for AI infrastructure, defense, energy, and commodity stockpiles are likely to tighten capital mobility through exit taxes, unrealized capital gains taxes, and other controls, and he said tactical nuclear use in Iran or Ukraine is not his forecast but cannot be ruled out if escalation pressures become severe.",
+      "key_takeaway": "Michael Every argues 2026-2028 markets are being repriced around US-China economic statecraft, because diesel, rare earths, AI and energy chokepoints are becoming national-security tools rather than free-market flows.",
       "tickers_mentioned": [
         "NVDA"
       ],
@@ -1388,7 +1527,21 @@ const dashboardData = {
       "added_date": "2026-09-28",
       "archived_date": null,
       "archived_reason": null,
-      "podcast_episode_id": 528
+      "podcast_episode_id": 528,
+      "notable_quotes": [
+        {
+          "speaker": "Michael Every",
+          "quote": "Markets are not necessarily best for national security."
+        },
+        {
+          "speaker": "Michael Every",
+          "quote": "economic coercion is a tool, as old as time."
+        },
+        {
+          "speaker": "Erik Townsend",
+          "quote": "it seems like somebody's trying to disarm the United States of America by tricking them into using up all their weapons and resources and giving them to other people."
+        }
+      ]
     },
     {
       "id": 531,
@@ -1407,7 +1560,8 @@ const dashboardData = {
       "added_date": "2026-09-24",
       "archived_date": null,
       "archived_reason": null,
-      "podcast_episode_id": 518
+      "podcast_episode_id": 518,
+      "notable_quotes": null
     },
     {
       "id": 532,
@@ -1429,7 +1583,8 @@ const dashboardData = {
       "added_date": "2026-09-24",
       "archived_date": null,
       "archived_reason": null,
-      "podcast_episode_id": 517
+      "podcast_episode_id": 517,
+      "notable_quotes": null
     },
     {
       "id": 533,
@@ -1437,8 +1592,8 @@ const dashboardData = {
       "source_type": "podcast",
       "source_name": "The a16z Show",
       "source_date": "2026-09-24",
-      "summary": "In this episode of The a16z Show, Eddie Lazaran discusses the importance of shifting the narrative around AI from a focus on doom to one that emphasizes abundance and innovation. He argues that current AI incidents are primarily due to cybersecurity failures rather than superintelligence risks, and advocates for market-driven accountability mechanisms rather than new regulations. Lazaran believes that as AI capabilities improve, so will the systems for accountability, which could lead to the emergence of reputation systems for AI models, ultimately fostering trust and transparency in the sector.",
-      "key_takeaway": "The core investment opportunity lies in supporting AI companies that prioritize accountability, transparency, and societal benefits, as these factors will drive long-term value and trust in the sector.",
+      "summary": "Eddy Lazzarin, a general partner at A16Z Crypto, argued that the AI debate has become too focused on the probability of doom and not enough on the probability of abundance. He said many recent AI incidents, including the Hugging Face case and gym-hacking examples, are better understood as cybersecurity and control failures rather than early evidence of superintelligence escaping human control. Theo Jaffe pushed back by saying the Hugging Face incident seemed different because AI agents hacked into another company after being told not to.\n\nLazzarin argued that society already manages powerful misaligned entities such as corporations and countries through laws, cryptography, market incentives, reputation, and technical controls rather than through perfect alignment. He said bad or unaligned AI models are inevitable, so the practical response is stronger models, stronger controls, and better accountability for people and companies using models to cause harm. He also argued that existing liability regimes already cover unauthorized access to machines and data, even when neural-network weights are involved.\n\nThe discussion turned to independent AI evaluators, where Lazzarin supported companies inviting experts to improve safety but warned that evaluator networks can look distributed while remaining culturally centralized. He said evaluators drawn from the same social networks and ideological circles could become a subtle mechanism for controlling a critical industry under the pretense of safety. Theo Jaffe agreed that evaluators should come from a broader ecosystem.\n\nOn the political outlook, Lazzarin predicted that within the next year AI discourse would be completely renovated as Silicon Valley rationalist and effective altruist ideas collide with broader political reality. The conversation also referenced Data Republican's map of effective altruism connections and 1,851 quotes, the difficulty of deploying Waymo in cities, and the possibility that AI safety groups could align with broader anti-tech populism.",
+      "key_takeaway": "Eddy Lazzarin argues an AI pause would delay abundance from local cybersecurity models, healthcare tools, and safer travel, because capability gains can produce better metrology, controls, and model accountability.",
       "tickers_mentioned": [
         "NVDA"
       ],
@@ -1448,7 +1603,21 @@ const dashboardData = {
       "added_date": "2026-09-24",
       "archived_date": null,
       "archived_reason": null,
-      "podcast_episode_id": 516
+      "podcast_episode_id": 516,
+      "notable_quotes": [
+        {
+          "speaker": "Eddy Lazzarin",
+          "quote": "All control systems are robust when you have enough intelligence on them."
+        },
+        {
+          "speaker": "Eddy Lazzarin",
+          "quote": "If anybody is going out there and saying, we can end up in a world where there are no bad models. They are lying to you."
+        },
+        {
+          "speaker": "Eddy Lazzarin",
+          "quote": "I think in the next year, I think we will have completely renovated the AI discourse."
+        }
+      ]
     },
     {
       "id": 525,
@@ -1465,7 +1634,8 @@ const dashboardData = {
       "added_date": "2026-09-23",
       "archived_date": null,
       "archived_reason": null,
-      "podcast_episode_id": 511
+      "podcast_episode_id": 511,
+      "notable_quotes": null
     },
     {
       "id": 527,
@@ -1484,7 +1654,8 @@ const dashboardData = {
       "added_date": "2026-09-23",
       "archived_date": null,
       "archived_reason": null,
-      "podcast_episode_id": 512
+      "podcast_episode_id": 512,
+      "notable_quotes": null
     },
     {
       "id": 528,
@@ -1503,7 +1674,8 @@ const dashboardData = {
       "added_date": "2026-09-23",
       "archived_date": null,
       "archived_reason": null,
-      "podcast_episode_id": 513
+      "podcast_episode_id": 513,
+      "notable_quotes": null
     },
     {
       "id": 529,
@@ -1522,7 +1694,8 @@ const dashboardData = {
       "added_date": "2026-09-23",
       "archived_date": null,
       "archived_reason": null,
-      "podcast_episode_id": 515
+      "podcast_episode_id": 515,
+      "notable_quotes": null
     },
     {
       "id": 530,
@@ -1541,7 +1714,8 @@ const dashboardData = {
       "added_date": "2026-09-23",
       "archived_date": null,
       "archived_reason": null,
-      "podcast_episode_id": 514
+      "podcast_episode_id": 514,
+      "notable_quotes": null
     },
     {
       "id": 522,
@@ -1560,7 +1734,8 @@ const dashboardData = {
       "added_date": "2026-09-22",
       "archived_date": null,
       "archived_reason": null,
-      "podcast_episode_id": 507
+      "podcast_episode_id": 507,
+      "notable_quotes": null
     },
     {
       "id": 523,
@@ -1579,7 +1754,8 @@ const dashboardData = {
       "added_date": "2026-09-22",
       "archived_date": null,
       "archived_reason": null,
-      "podcast_episode_id": 508
+      "podcast_episode_id": 508,
+      "notable_quotes": null
     },
     {
       "id": 524,
@@ -1598,7 +1774,8 @@ const dashboardData = {
       "added_date": "2026-09-22",
       "archived_date": null,
       "archived_reason": null,
-      "podcast_episode_id": 509
+      "podcast_episode_id": 509,
+      "notable_quotes": null
     },
     {
       "id": 526,
@@ -1617,7 +1794,8 @@ const dashboardData = {
       "added_date": "2026-09-23",
       "archived_date": null,
       "archived_reason": null,
-      "podcast_episode_id": 510
+      "podcast_episode_id": 510,
+      "notable_quotes": null
     },
     {
       "id": 519,
@@ -1636,7 +1814,8 @@ const dashboardData = {
       "added_date": "2026-09-21",
       "archived_date": null,
       "archived_reason": null,
-      "podcast_episode_id": 504
+      "podcast_episode_id": 504,
+      "notable_quotes": null
     },
     {
       "id": 520,
@@ -1655,7 +1834,8 @@ const dashboardData = {
       "added_date": "2026-09-22",
       "archived_date": null,
       "archived_reason": null,
-      "podcast_episode_id": 506
+      "podcast_episode_id": 506,
+      "notable_quotes": null
     },
     {
       "id": 521,
@@ -1674,7 +1854,8 @@ const dashboardData = {
       "added_date": "2026-09-22",
       "archived_date": null,
       "archived_reason": null,
-      "podcast_episode_id": 505
+      "podcast_episode_id": 505,
+      "notable_quotes": null
     },
     {
       "id": 516,
@@ -1691,7 +1872,8 @@ const dashboardData = {
       "added_date": "2026-09-20",
       "archived_date": null,
       "archived_reason": null,
-      "podcast_episode_id": 501
+      "podcast_episode_id": 501,
+      "notable_quotes": null
     },
     {
       "id": 517,
@@ -1714,7 +1896,8 @@ const dashboardData = {
       "added_date": "2026-09-20",
       "archived_date": null,
       "archived_reason": null,
-      "podcast_episode_id": 502
+      "podcast_episode_id": 502,
+      "notable_quotes": null
     },
     {
       "id": 518,
@@ -1733,7 +1916,8 @@ const dashboardData = {
       "added_date": "2026-09-20",
       "archived_date": null,
       "archived_reason": null,
-      "podcast_episode_id": 503
+      "podcast_episode_id": 503,
+      "notable_quotes": null
     },
     {
       "id": 511,
@@ -1752,7 +1936,8 @@ const dashboardData = {
       "added_date": "2026-09-19",
       "archived_date": null,
       "archived_reason": null,
-      "podcast_episode_id": 497
+      "podcast_episode_id": 497,
+      "notable_quotes": null
     },
     {
       "id": 513,
@@ -1771,7 +1956,8 @@ const dashboardData = {
       "added_date": "2026-09-19",
       "archived_date": null,
       "archived_reason": null,
-      "podcast_episode_id": 498
+      "podcast_episode_id": 498,
+      "notable_quotes": null
     },
     {
       "id": 514,
@@ -1790,7 +1976,8 @@ const dashboardData = {
       "added_date": "2026-09-19",
       "archived_date": null,
       "archived_reason": null,
-      "podcast_episode_id": 499
+      "podcast_episode_id": 499,
+      "notable_quotes": null
     },
     {
       "id": 515,
@@ -1809,7 +1996,8 @@ const dashboardData = {
       "added_date": "2026-09-19",
       "archived_date": null,
       "archived_reason": null,
-      "podcast_episode_id": 500
+      "podcast_episode_id": 500,
+      "notable_quotes": null
     },
     {
       "id": 508,
@@ -1828,7 +2016,8 @@ const dashboardData = {
       "added_date": "2026-09-17",
       "archived_date": null,
       "archived_reason": null,
-      "podcast_episode_id": 494
+      "podcast_episode_id": 494,
+      "notable_quotes": null
     },
     {
       "id": 510,
@@ -1847,7 +2036,8 @@ const dashboardData = {
       "added_date": "2026-09-18",
       "archived_date": null,
       "archived_reason": null,
-      "podcast_episode_id": 495
+      "podcast_episode_id": 495,
+      "notable_quotes": null
     },
     {
       "id": 512,
@@ -1866,7 +2056,8 @@ const dashboardData = {
       "added_date": "2026-09-19",
       "archived_date": null,
       "archived_reason": null,
-      "podcast_episode_id": 496
+      "podcast_episode_id": 496,
+      "notable_quotes": null
     },
     {
       "id": 503,
@@ -1885,7 +2076,8 @@ const dashboardData = {
       "added_date": "2026-09-17",
       "archived_date": null,
       "archived_reason": null,
-      "podcast_episode_id": 488
+      "podcast_episode_id": 488,
+      "notable_quotes": null
     },
     {
       "id": 504,
@@ -1904,7 +2096,8 @@ const dashboardData = {
       "added_date": "2026-09-17",
       "archived_date": null,
       "archived_reason": null,
-      "podcast_episode_id": 489
+      "podcast_episode_id": 489,
+      "notable_quotes": null
     },
     {
       "id": 505,
@@ -1923,7 +2116,8 @@ const dashboardData = {
       "added_date": "2026-09-17",
       "archived_date": null,
       "archived_reason": null,
-      "podcast_episode_id": 491
+      "podcast_episode_id": 491,
+      "notable_quotes": null
     },
     {
       "id": 506,
@@ -1942,7 +2136,8 @@ const dashboardData = {
       "added_date": "2026-09-17",
       "archived_date": null,
       "archived_reason": null,
-      "podcast_episode_id": 490
+      "podcast_episode_id": 490,
+      "notable_quotes": null
     },
     {
       "id": 507,
@@ -1961,7 +2156,8 @@ const dashboardData = {
       "added_date": "2026-09-17",
       "archived_date": null,
       "archived_reason": null,
-      "podcast_episode_id": 492
+      "podcast_episode_id": 492,
+      "notable_quotes": null
     },
     {
       "id": 509,
@@ -1980,7 +2176,8 @@ const dashboardData = {
       "added_date": "2026-09-17",
       "archived_date": null,
       "archived_reason": null,
-      "podcast_episode_id": 493
+      "podcast_episode_id": 493,
+      "notable_quotes": null
     },
     {
       "id": 492,
@@ -1999,7 +2196,8 @@ const dashboardData = {
       "added_date": "2026-09-16",
       "archived_date": null,
       "archived_reason": null,
-      "podcast_episode_id": 479
+      "podcast_episode_id": 479,
+      "notable_quotes": null
     },
     {
       "id": 501,
@@ -2018,7 +2216,8 @@ const dashboardData = {
       "added_date": "2026-09-16",
       "archived_date": null,
       "archived_reason": null,
-      "podcast_episode_id": 486
+      "podcast_episode_id": 486,
+      "notable_quotes": null
     },
     {
       "id": 502,
@@ -2039,7 +2238,8 @@ const dashboardData = {
       "added_date": "2026-09-16",
       "archived_date": null,
       "archived_reason": null,
-      "podcast_episode_id": 487
+      "podcast_episode_id": 487,
+      "notable_quotes": null
     },
     {
       "id": 493,
@@ -2058,7 +2258,8 @@ const dashboardData = {
       "added_date": "2026-09-16",
       "archived_date": null,
       "archived_reason": null,
-      "podcast_episode_id": 485
+      "podcast_episode_id": 485,
+      "notable_quotes": null
     },
     {
       "id": 494,
@@ -2077,7 +2278,8 @@ const dashboardData = {
       "added_date": "2026-09-16",
       "archived_date": null,
       "archived_reason": null,
-      "podcast_episode_id": 484
+      "podcast_episode_id": 484,
+      "notable_quotes": null
     },
     {
       "id": 495,
@@ -2096,7 +2298,8 @@ const dashboardData = {
       "added_date": "2026-09-16",
       "archived_date": null,
       "archived_reason": null,
-      "podcast_episode_id": 483
+      "podcast_episode_id": 483,
+      "notable_quotes": null
     },
     {
       "id": 496,
@@ -2115,7 +2318,8 @@ const dashboardData = {
       "added_date": "2026-09-16",
       "archived_date": null,
       "archived_reason": null,
-      "podcast_episode_id": 482
+      "podcast_episode_id": 482,
+      "notable_quotes": null
     },
     {
       "id": 497,
@@ -2134,7 +2338,8 @@ const dashboardData = {
       "added_date": "2026-09-16",
       "archived_date": null,
       "archived_reason": null,
-      "podcast_episode_id": 478
+      "podcast_episode_id": 478,
+      "notable_quotes": null
     },
     {
       "id": 498,
@@ -2153,7 +2358,8 @@ const dashboardData = {
       "added_date": "2026-09-16",
       "archived_date": null,
       "archived_reason": null,
-      "podcast_episode_id": 481
+      "podcast_episode_id": 481,
+      "notable_quotes": null
     },
     {
       "id": 499,
@@ -2172,7 +2378,8 @@ const dashboardData = {
       "added_date": "2026-09-16",
       "archived_date": null,
       "archived_reason": null,
-      "podcast_episode_id": 480
+      "podcast_episode_id": 480,
+      "notable_quotes": null
     },
     {
       "id": 500,
@@ -2191,7 +2398,8 @@ const dashboardData = {
       "added_date": "2026-09-16",
       "archived_date": null,
       "archived_reason": null,
-      "podcast_episode_id": 477
+      "podcast_episode_id": 477,
+      "notable_quotes": null
     },
     {
       "id": 489,
@@ -2210,7 +2418,8 @@ const dashboardData = {
       "added_date": "2026-09-13",
       "archived_date": null,
       "archived_reason": null,
-      "podcast_episode_id": 474
+      "podcast_episode_id": 474,
+      "notable_quotes": null
     },
     {
       "id": 490,
@@ -2229,7 +2438,8 @@ const dashboardData = {
       "added_date": "2026-09-13",
       "archived_date": null,
       "archived_reason": null,
-      "podcast_episode_id": 476
+      "podcast_episode_id": 476,
+      "notable_quotes": null
     },
     {
       "id": 491,
@@ -2248,7 +2458,8 @@ const dashboardData = {
       "added_date": "2026-09-13",
       "archived_date": null,
       "archived_reason": null,
-      "podcast_episode_id": 475
+      "podcast_episode_id": 475,
+      "notable_quotes": null
     },
     {
       "id": 488,
@@ -2267,7 +2478,8 @@ const dashboardData = {
       "added_date": "2026-09-12",
       "archived_date": null,
       "archived_reason": null,
-      "podcast_episode_id": 473
+      "podcast_episode_id": 473,
+      "notable_quotes": null
     },
     {
       "id": 479,
@@ -2286,7 +2498,8 @@ const dashboardData = {
       "added_date": "2026-09-11",
       "archived_date": null,
       "archived_reason": null,
-      "podcast_episode_id": 464
+      "podcast_episode_id": 464,
+      "notable_quotes": null
     },
     {
       "id": 484,
@@ -2305,7 +2518,8 @@ const dashboardData = {
       "added_date": "2026-09-11",
       "archived_date": null,
       "archived_reason": null,
-      "podcast_episode_id": 470
+      "podcast_episode_id": 470,
+      "notable_quotes": null
     },
     {
       "id": 485,
@@ -2322,7 +2536,8 @@ const dashboardData = {
       "added_date": "2026-09-11",
       "archived_date": null,
       "archived_reason": null,
-      "podcast_episode_id": 469
+      "podcast_episode_id": 469,
+      "notable_quotes": null
     },
     {
       "id": 486,
@@ -2341,7 +2556,8 @@ const dashboardData = {
       "added_date": "2026-09-12",
       "archived_date": null,
       "archived_reason": null,
-      "podcast_episode_id": 472
+      "podcast_episode_id": 472,
+      "notable_quotes": null
     },
     {
       "id": 487,
@@ -2360,7 +2576,8 @@ const dashboardData = {
       "added_date": "2026-09-12",
       "archived_date": null,
       "archived_reason": null,
-      "podcast_episode_id": 471
+      "podcast_episode_id": 471,
+      "notable_quotes": null
     },
     {
       "id": 480,
@@ -2379,7 +2596,8 @@ const dashboardData = {
       "added_date": "2026-09-11",
       "archived_date": null,
       "archived_reason": null,
-      "podcast_episode_id": 467
+      "podcast_episode_id": 467,
+      "notable_quotes": null
     },
     {
       "id": 481,
@@ -2398,7 +2616,8 @@ const dashboardData = {
       "added_date": "2026-09-11",
       "archived_date": null,
       "archived_reason": null,
-      "podcast_episode_id": 466
+      "podcast_episode_id": 466,
+      "notable_quotes": null
     },
     {
       "id": 482,
@@ -2418,7 +2637,8 @@ const dashboardData = {
       "added_date": "2026-09-11",
       "archived_date": null,
       "archived_reason": null,
-      "podcast_episode_id": 468
+      "podcast_episode_id": 468,
+      "notable_quotes": null
     },
     {
       "id": 483,
@@ -2437,7 +2657,8 @@ const dashboardData = {
       "added_date": "2026-09-11",
       "archived_date": null,
       "archived_reason": null,
-      "podcast_episode_id": 465
+      "podcast_episode_id": 465,
+      "notable_quotes": null
     },
     {
       "id": 478,
@@ -2458,7 +2679,8 @@ const dashboardData = {
       "added_date": "2026-09-08",
       "archived_date": null,
       "archived_reason": null,
-      "podcast_episode_id": 463
+      "podcast_episode_id": 463,
+      "notable_quotes": null
     },
     {
       "id": 477,
@@ -2477,7 +2699,8 @@ const dashboardData = {
       "added_date": "2026-09-07",
       "archived_date": null,
       "archived_reason": null,
-      "podcast_episode_id": 462
+      "podcast_episode_id": 462,
+      "notable_quotes": null
     },
     {
       "id": 475,
@@ -2496,7 +2719,8 @@ const dashboardData = {
       "added_date": "2026-09-06",
       "archived_date": null,
       "archived_reason": null,
-      "podcast_episode_id": 460
+      "podcast_episode_id": 460,
+      "notable_quotes": null
     },
     {
       "id": 476,
@@ -2515,7 +2739,8 @@ const dashboardData = {
       "added_date": "2026-09-06",
       "archived_date": null,
       "archived_reason": null,
-      "podcast_episode_id": 461
+      "podcast_episode_id": 461,
+      "notable_quotes": null
     },
     {
       "id": 473,
@@ -2534,7 +2759,8 @@ const dashboardData = {
       "added_date": "2026-09-05",
       "archived_date": null,
       "archived_reason": null,
-      "podcast_episode_id": 458
+      "podcast_episode_id": 458,
+      "notable_quotes": null
     },
     {
       "id": 474,
@@ -2554,7 +2780,8 @@ const dashboardData = {
       "added_date": "2026-09-05",
       "archived_date": null,
       "archived_reason": null,
-      "podcast_episode_id": 459
+      "podcast_episode_id": 459,
+      "notable_quotes": null
     },
     {
       "id": 466,
@@ -2573,7 +2800,8 @@ const dashboardData = {
       "added_date": "2026-09-04",
       "archived_date": null,
       "archived_reason": null,
-      "podcast_episode_id": 452
+      "podcast_episode_id": 452,
+      "notable_quotes": null
     },
     {
       "id": 472,
@@ -2593,7 +2821,8 @@ const dashboardData = {
       "added_date": "2026-09-05",
       "archived_date": null,
       "archived_reason": null,
-      "podcast_episode_id": 457
+      "podcast_episode_id": 457,
+      "notable_quotes": null
     },
     {
       "id": 467,
@@ -2612,7 +2841,8 @@ const dashboardData = {
       "added_date": "2026-09-04",
       "archived_date": null,
       "archived_reason": null,
-      "podcast_episode_id": 454
+      "podcast_episode_id": 454,
+      "notable_quotes": null
     },
     {
       "id": 468,
@@ -2631,7 +2861,8 @@ const dashboardData = {
       "added_date": "2026-09-04",
       "archived_date": null,
       "archived_reason": null,
-      "podcast_episode_id": 453
+      "podcast_episode_id": 453,
+      "notable_quotes": null
     },
     {
       "id": 469,
@@ -2650,7 +2881,8 @@ const dashboardData = {
       "added_date": "2026-09-04",
       "archived_date": null,
       "archived_reason": null,
-      "podcast_episode_id": 451
+      "podcast_episode_id": 451,
+      "notable_quotes": null
     },
     {
       "id": 470,
@@ -2669,7 +2901,8 @@ const dashboardData = {
       "added_date": "2026-09-04",
       "archived_date": null,
       "archived_reason": null,
-      "podcast_episode_id": 456
+      "podcast_episode_id": 456,
+      "notable_quotes": null
     },
     {
       "id": 471,
@@ -2689,7 +2922,8 @@ const dashboardData = {
       "added_date": "2026-09-04",
       "archived_date": null,
       "archived_reason": null,
-      "podcast_episode_id": 455
+      "podcast_episode_id": 455,
+      "notable_quotes": null
     },
     {
       "id": 464,
@@ -2708,7 +2942,8 @@ const dashboardData = {
       "added_date": "2026-09-01",
       "archived_date": null,
       "archived_reason": null,
-      "podcast_episode_id": 449
+      "podcast_episode_id": 449,
+      "notable_quotes": null
     },
     {
       "id": 465,
@@ -2727,7 +2962,8 @@ const dashboardData = {
       "added_date": "2026-09-01",
       "archived_date": null,
       "archived_reason": null,
-      "podcast_episode_id": 450
+      "podcast_episode_id": 450,
+      "notable_quotes": null
     },
     {
       "id": 461,
@@ -2746,7 +2982,8 @@ const dashboardData = {
       "added_date": "2026-08-31",
       "archived_date": null,
       "archived_reason": null,
-      "podcast_episode_id": 447
+      "podcast_episode_id": 447,
+      "notable_quotes": null
     },
     {
       "id": 462,
@@ -2765,7 +3002,8 @@ const dashboardData = {
       "added_date": "2026-08-31",
       "archived_date": null,
       "archived_reason": null,
-      "podcast_episode_id": 446
+      "podcast_episode_id": 446,
+      "notable_quotes": null
     },
     {
       "id": 463,
@@ -2784,7 +3022,8 @@ const dashboardData = {
       "added_date": "2026-08-31",
       "archived_date": null,
       "archived_reason": null,
-      "podcast_episode_id": 448
+      "podcast_episode_id": 448,
+      "notable_quotes": null
     },
     {
       "id": 460,
@@ -2803,7 +3042,8 @@ const dashboardData = {
       "added_date": "2026-08-30",
       "archived_date": null,
       "archived_reason": null,
-      "podcast_episode_id": 445
+      "podcast_episode_id": 445,
+      "notable_quotes": null
     },
     {
       "id": 457,
@@ -2824,7 +3064,8 @@ const dashboardData = {
       "added_date": "2026-08-29",
       "archived_date": null,
       "archived_reason": null,
-      "podcast_episode_id": 442
+      "podcast_episode_id": 442,
+      "notable_quotes": null
     },
     {
       "id": 458,
@@ -2843,7 +3084,8 @@ const dashboardData = {
       "added_date": "2026-08-29",
       "archived_date": null,
       "archived_reason": null,
-      "podcast_episode_id": 443
+      "podcast_episode_id": 443,
+      "notable_quotes": null
     },
     {
       "id": 459,
@@ -2863,7 +3105,8 @@ const dashboardData = {
       "added_date": "2026-08-29",
       "archived_date": null,
       "archived_reason": null,
-      "podcast_episode_id": 444
+      "podcast_episode_id": 444,
+      "notable_quotes": null
     },
     {
       "id": 447,
@@ -2882,7 +3125,8 @@ const dashboardData = {
       "added_date": "2026-08-28",
       "archived_date": null,
       "archived_reason": null,
-      "podcast_episode_id": 432
+      "podcast_episode_id": 432,
+      "notable_quotes": null
     },
     {
       "id": 445,
@@ -2901,7 +3145,8 @@ const dashboardData = {
       "added_date": "2026-08-27",
       "archived_date": null,
       "archived_reason": null,
-      "podcast_episode_id": 430
+      "podcast_episode_id": 430,
+      "notable_quotes": null
     },
     {
       "id": 446,
@@ -2920,7 +3165,8 @@ const dashboardData = {
       "added_date": "2026-08-28",
       "archived_date": null,
       "archived_reason": null,
-      "podcast_episode_id": 431
+      "podcast_episode_id": 431,
+      "notable_quotes": null
     },
     {
       "id": 440,
@@ -2939,7 +3185,8 @@ const dashboardData = {
       "added_date": "2026-08-26",
       "archived_date": null,
       "archived_reason": null,
-      "podcast_episode_id": 425
+      "podcast_episode_id": 425,
+      "notable_quotes": null
     },
     {
       "id": 441,
@@ -2958,7 +3205,8 @@ const dashboardData = {
       "added_date": "2026-08-26",
       "archived_date": null,
       "archived_reason": null,
-      "podcast_episode_id": 427
+      "podcast_episode_id": 427,
+      "notable_quotes": null
     },
     {
       "id": 442,
@@ -2977,7 +3225,8 @@ const dashboardData = {
       "added_date": "2026-08-26",
       "archived_date": null,
       "archived_reason": null,
-      "podcast_episode_id": 426
+      "podcast_episode_id": 426,
+      "notable_quotes": null
     },
     {
       "id": 443,
@@ -2996,7 +3245,8 @@ const dashboardData = {
       "added_date": "2026-08-26",
       "archived_date": null,
       "archived_reason": null,
-      "podcast_episode_id": 428
+      "podcast_episode_id": 428,
+      "notable_quotes": null
     },
     {
       "id": 444,
@@ -3015,7 +3265,8 @@ const dashboardData = {
       "added_date": "2026-08-27",
       "archived_date": null,
       "archived_reason": null,
-      "podcast_episode_id": 429
+      "podcast_episode_id": 429,
+      "notable_quotes": null
     },
     {
       "id": 439,
@@ -3034,7 +3285,8 @@ const dashboardData = {
       "added_date": "2026-08-25",
       "archived_date": null,
       "archived_reason": null,
-      "podcast_episode_id": 424
+      "podcast_episode_id": 424,
+      "notable_quotes": null
     },
     {
       "id": 448,
@@ -3055,7 +3307,8 @@ const dashboardData = {
       "added_date": "2026-08-28",
       "archived_date": null,
       "archived_reason": null,
-      "podcast_episode_id": 435
+      "podcast_episode_id": 435,
+      "notable_quotes": null
     },
     {
       "id": 436,
@@ -3074,7 +3327,8 @@ const dashboardData = {
       "added_date": "2026-08-24",
       "archived_date": null,
       "archived_reason": null,
-      "podcast_episode_id": 421
+      "podcast_episode_id": 421,
+      "notable_quotes": null
     },
     {
       "id": 437,
@@ -3093,7 +3347,8 @@ const dashboardData = {
       "added_date": "2026-08-24",
       "archived_date": null,
       "archived_reason": null,
-      "podcast_episode_id": 422
+      "podcast_episode_id": 422,
+      "notable_quotes": null
     },
     {
       "id": 438,
@@ -3112,7 +3367,8 @@ const dashboardData = {
       "added_date": "2026-08-24",
       "archived_date": null,
       "archived_reason": null,
-      "podcast_episode_id": 423
+      "podcast_episode_id": 423,
+      "notable_quotes": null
     },
     {
       "id": 453,
@@ -3131,7 +3387,8 @@ const dashboardData = {
       "added_date": "2026-08-28",
       "archived_date": null,
       "archived_reason": null,
-      "podcast_episode_id": 439
+      "podcast_episode_id": 439,
+      "notable_quotes": null
     },
     {
       "id": 433,
@@ -3150,7 +3407,8 @@ const dashboardData = {
       "added_date": "2026-08-21",
       "archived_date": null,
       "archived_reason": null,
-      "podcast_episode_id": 418
+      "podcast_episode_id": 418,
+      "notable_quotes": null
     },
     {
       "id": 434,
@@ -3169,7 +3427,8 @@ const dashboardData = {
       "added_date": "2026-08-21",
       "archived_date": null,
       "archived_reason": null,
-      "podcast_episode_id": 419
+      "podcast_episode_id": 419,
+      "notable_quotes": null
     },
     {
       "id": 435,
@@ -3190,7 +3449,8 @@ const dashboardData = {
       "added_date": "2026-08-22",
       "archived_date": null,
       "archived_reason": null,
-      "podcast_episode_id": 420
+      "podcast_episode_id": 420,
+      "notable_quotes": null
     },
     {
       "id": 454,
@@ -3209,7 +3469,8 @@ const dashboardData = {
       "added_date": "2026-08-28",
       "archived_date": null,
       "archived_reason": null,
-      "podcast_episode_id": 441
+      "podcast_episode_id": 441,
+      "notable_quotes": null
     },
     {
       "id": 431,
@@ -3228,7 +3489,8 @@ const dashboardData = {
       "added_date": "2026-08-20",
       "archived_date": null,
       "archived_reason": null,
-      "podcast_episode_id": 416
+      "podcast_episode_id": 416,
+      "notable_quotes": null
     },
     {
       "id": 432,
@@ -3247,7 +3509,8 @@ const dashboardData = {
       "added_date": "2026-08-20",
       "archived_date": null,
       "archived_reason": null,
-      "podcast_episode_id": 417
+      "podcast_episode_id": 417,
+      "notable_quotes": null
     },
     {
       "id": 430,
@@ -3268,7 +3531,8 @@ const dashboardData = {
       "added_date": "2026-08-19",
       "archived_date": null,
       "archived_reason": null,
-      "podcast_episode_id": 415
+      "podcast_episode_id": 415,
+      "notable_quotes": null
     },
     {
       "id": 426,
@@ -3287,7 +3551,8 @@ const dashboardData = {
       "added_date": "2026-08-17",
       "archived_date": null,
       "archived_reason": null,
-      "podcast_episode_id": 411
+      "podcast_episode_id": 411,
+      "notable_quotes": null
     },
     {
       "id": 427,
@@ -3308,7 +3573,8 @@ const dashboardData = {
       "added_date": "2026-08-18",
       "archived_date": null,
       "archived_reason": null,
-      "podcast_episode_id": 412
+      "podcast_episode_id": 412,
+      "notable_quotes": null
     },
     {
       "id": 428,
@@ -3327,7 +3593,8 @@ const dashboardData = {
       "added_date": "2026-08-18",
       "archived_date": null,
       "archived_reason": null,
-      "podcast_episode_id": 413
+      "podcast_episode_id": 413,
+      "notable_quotes": null
     },
     {
       "id": 429,
@@ -3346,7 +3613,8 @@ const dashboardData = {
       "added_date": "2026-08-18",
       "archived_date": null,
       "archived_reason": null,
-      "podcast_episode_id": 414
+      "podcast_episode_id": 414,
+      "notable_quotes": null
     },
     {
       "id": 425,
@@ -3365,7 +3633,8 @@ const dashboardData = {
       "added_date": "2026-08-17",
       "archived_date": null,
       "archived_reason": null,
-      "podcast_episode_id": 410
+      "podcast_episode_id": 410,
+      "notable_quotes": null
     },
     {
       "id": 421,
@@ -3386,7 +3655,8 @@ const dashboardData = {
       "added_date": "2026-08-16",
       "archived_date": null,
       "archived_reason": null,
-      "podcast_episode_id": 407
+      "podcast_episode_id": 407,
+      "notable_quotes": null
     },
     {
       "id": 449,
@@ -3405,7 +3675,8 @@ const dashboardData = {
       "added_date": "2026-08-28",
       "archived_date": null,
       "archived_reason": null,
-      "podcast_episode_id": 434
+      "podcast_episode_id": 434,
+      "notable_quotes": null
     },
     {
       "id": 419,
@@ -3428,7 +3699,8 @@ const dashboardData = {
       "added_date": "2026-08-14",
       "archived_date": null,
       "archived_reason": null,
-      "podcast_episode_id": 404
+      "podcast_episode_id": 404,
+      "notable_quotes": null
     },
     {
       "id": 420,
@@ -3448,7 +3720,8 @@ const dashboardData = {
       "added_date": "2026-08-14",
       "archived_date": null,
       "archived_reason": null,
-      "podcast_episode_id": 405
+      "podcast_episode_id": 405,
+      "notable_quotes": null
     },
     {
       "id": 416,
@@ -3467,7 +3740,8 @@ const dashboardData = {
       "added_date": "2026-08-12",
       "archived_date": null,
       "archived_reason": null,
-      "podcast_episode_id": 401
+      "podcast_episode_id": 401,
+      "notable_quotes": null
     },
     {
       "id": 417,
@@ -3486,7 +3760,8 @@ const dashboardData = {
       "added_date": "2026-08-13",
       "archived_date": null,
       "archived_reason": null,
-      "podcast_episode_id": 402
+      "podcast_episode_id": 402,
+      "notable_quotes": null
     },
     {
       "id": 418,
@@ -3505,7 +3780,8 @@ const dashboardData = {
       "added_date": "2026-08-13",
       "archived_date": null,
       "archived_reason": null,
-      "podcast_episode_id": 403
+      "podcast_episode_id": 403,
+      "notable_quotes": null
     },
     {
       "id": 414,
@@ -3524,7 +3800,8 @@ const dashboardData = {
       "added_date": "2026-08-12",
       "archived_date": null,
       "archived_reason": null,
-      "podcast_episode_id": 399
+      "podcast_episode_id": 399,
+      "notable_quotes": null
     },
     {
       "id": 415,
@@ -3543,7 +3820,8 @@ const dashboardData = {
       "added_date": "2026-08-12",
       "archived_date": null,
       "archived_reason": null,
-      "podcast_episode_id": 400
+      "podcast_episode_id": 400,
+      "notable_quotes": null
     },
     {
       "id": 410,
@@ -3562,7 +3840,8 @@ const dashboardData = {
       "added_date": "2026-08-11",
       "archived_date": null,
       "archived_reason": null,
-      "podcast_episode_id": 395
+      "podcast_episode_id": 395,
+      "notable_quotes": null
     },
     {
       "id": 411,
@@ -3583,7 +3862,8 @@ const dashboardData = {
       "added_date": "2026-08-11",
       "archived_date": null,
       "archived_reason": null,
-      "podcast_episode_id": 396
+      "podcast_episode_id": 396,
+      "notable_quotes": null
     },
     {
       "id": 412,
@@ -3602,7 +3882,8 @@ const dashboardData = {
       "added_date": "2026-08-12",
       "archived_date": null,
       "archived_reason": null,
-      "podcast_episode_id": 398
+      "podcast_episode_id": 398,
+      "notable_quotes": null
     },
     {
       "id": 413,
@@ -3621,7 +3902,8 @@ const dashboardData = {
       "added_date": "2026-08-12",
       "archived_date": null,
       "archived_reason": null,
-      "podcast_episode_id": 397
+      "podcast_episode_id": 397,
+      "notable_quotes": null
     },
     {
       "id": 409,
@@ -3640,7 +3922,8 @@ const dashboardData = {
       "added_date": "2026-08-10",
       "archived_date": null,
       "archived_reason": null,
-      "podcast_episode_id": 394
+      "podcast_episode_id": 394,
+      "notable_quotes": null
     },
     {
       "id": 408,
@@ -3660,7 +3943,8 @@ const dashboardData = {
       "added_date": "2026-08-08",
       "archived_date": null,
       "archived_reason": null,
-      "podcast_episode_id": 393
+      "podcast_episode_id": 393,
+      "notable_quotes": null
     },
     {
       "id": 422,
@@ -3679,7 +3963,8 @@ const dashboardData = {
       "added_date": "2026-08-16",
       "archived_date": null,
       "archived_reason": null,
-      "podcast_episode_id": 406
+      "podcast_episode_id": 406,
+      "notable_quotes": null
     },
     {
       "id": 405,
@@ -3700,7 +3985,8 @@ const dashboardData = {
       "added_date": "2026-08-07",
       "archived_date": null,
       "archived_reason": null,
-      "podcast_episode_id": 390
+      "podcast_episode_id": 390,
+      "notable_quotes": null
     },
     {
       "id": 406,
@@ -3723,7 +4009,8 @@ const dashboardData = {
       "added_date": "2026-08-07",
       "archived_date": null,
       "archived_reason": null,
-      "podcast_episode_id": 391
+      "podcast_episode_id": 391,
+      "notable_quotes": null
     },
     {
       "id": 407,
@@ -3743,7 +4030,8 @@ const dashboardData = {
       "added_date": "2026-08-07",
       "archived_date": null,
       "archived_reason": null,
-      "podcast_episode_id": 392
+      "podcast_episode_id": 392,
+      "notable_quotes": null
     },
     {
       "id": 404,
@@ -3763,7 +4051,8 @@ const dashboardData = {
       "added_date": "2026-08-06",
       "archived_date": null,
       "archived_reason": null,
-      "podcast_episode_id": 389
+      "podcast_episode_id": 389,
+      "notable_quotes": null
     },
     {
       "id": 402,
@@ -3782,7 +4071,8 @@ const dashboardData = {
       "added_date": "2026-08-05",
       "archived_date": null,
       "archived_reason": null,
-      "podcast_episode_id": 387
+      "podcast_episode_id": 387,
+      "notable_quotes": null
     },
     {
       "id": 403,
@@ -3801,7 +4091,8 @@ const dashboardData = {
       "added_date": "2026-08-05",
       "archived_date": null,
       "archived_reason": null,
-      "podcast_episode_id": 388
+      "podcast_episode_id": 388,
+      "notable_quotes": null
     },
     {
       "id": 399,
@@ -3820,7 +4111,8 @@ const dashboardData = {
       "added_date": "2026-08-04",
       "archived_date": null,
       "archived_reason": null,
-      "podcast_episode_id": 384
+      "podcast_episode_id": 384,
+      "notable_quotes": null
     },
     {
       "id": 400,
@@ -3841,7 +4133,8 @@ const dashboardData = {
       "added_date": "2026-08-04",
       "archived_date": null,
       "archived_reason": null,
-      "podcast_episode_id": 386
+      "podcast_episode_id": 386,
+      "notable_quotes": null
     },
     {
       "id": 401,
@@ -3863,7 +4156,8 @@ const dashboardData = {
       "added_date": "2026-08-04",
       "archived_date": null,
       "archived_reason": null,
-      "podcast_episode_id": 385
+      "podcast_episode_id": 385,
+      "notable_quotes": null
     },
     {
       "id": 397,
@@ -3883,7 +4177,8 @@ const dashboardData = {
       "added_date": "2026-08-03",
       "archived_date": null,
       "archived_reason": null,
-      "podcast_episode_id": 382
+      "podcast_episode_id": 382,
+      "notable_quotes": null
     },
     {
       "id": 398,
@@ -3906,7 +4201,8 @@ const dashboardData = {
       "added_date": "2026-08-03",
       "archived_date": null,
       "archived_reason": null,
-      "podcast_episode_id": 383
+      "podcast_episode_id": 383,
+      "notable_quotes": null
     },
     {
       "id": 395,
@@ -3927,7 +4223,8 @@ const dashboardData = {
       "added_date": "2026-08-02",
       "archived_date": null,
       "archived_reason": null,
-      "podcast_episode_id": 380
+      "podcast_episode_id": 380,
+      "notable_quotes": null
     },
     {
       "id": 396,
@@ -3948,7 +4245,8 @@ const dashboardData = {
       "added_date": "2026-08-02",
       "archived_date": null,
       "archived_reason": null,
-      "podcast_episode_id": 381
+      "podcast_episode_id": 381,
+      "notable_quotes": null
     },
     {
       "id": 394,
@@ -3967,7 +4265,8 @@ const dashboardData = {
       "added_date": "2026-08-01",
       "archived_date": null,
       "archived_reason": null,
-      "podcast_episode_id": 379
+      "podcast_episode_id": 379,
+      "notable_quotes": null
     },
     {
       "id": 392,
@@ -3986,7 +4285,8 @@ const dashboardData = {
       "added_date": "2026-07-31",
       "archived_date": null,
       "archived_reason": null,
-      "podcast_episode_id": 377
+      "podcast_episode_id": 377,
+      "notable_quotes": null
     },
     {
       "id": 393,
@@ -4008,7 +4308,8 @@ const dashboardData = {
       "added_date": "2026-07-31",
       "archived_date": null,
       "archived_reason": null,
-      "podcast_episode_id": 378
+      "podcast_episode_id": 378,
+      "notable_quotes": null
     },
     {
       "id": 391,
@@ -4027,7 +4328,8 @@ const dashboardData = {
       "added_date": "2026-07-30",
       "archived_date": null,
       "archived_reason": null,
-      "podcast_episode_id": 376
+      "podcast_episode_id": 376,
+      "notable_quotes": null
     },
     {
       "id": 387,
@@ -4047,7 +4349,8 @@ const dashboardData = {
       "added_date": "2026-07-30",
       "archived_date": null,
       "archived_reason": null,
-      "podcast_episode_id": 372
+      "podcast_episode_id": 372,
+      "notable_quotes": null
     },
     {
       "id": 388,
@@ -4068,7 +4371,8 @@ const dashboardData = {
       "added_date": "2026-07-30",
       "archived_date": null,
       "archived_reason": null,
-      "podcast_episode_id": 375
+      "podcast_episode_id": 375,
+      "notable_quotes": null
     },
     {
       "id": 450,
@@ -4087,7 +4391,8 @@ const dashboardData = {
       "added_date": "2026-08-28",
       "archived_date": null,
       "archived_reason": null,
-      "podcast_episode_id": 436
+      "podcast_episode_id": 436,
+      "notable_quotes": null
     },
     {
       "id": 385,
@@ -4106,7 +4411,8 @@ const dashboardData = {
       "added_date": "2026-07-28",
       "archived_date": null,
       "archived_reason": null,
-      "podcast_episode_id": 370
+      "podcast_episode_id": 370,
+      "notable_quotes": null
     },
     {
       "id": 386,
@@ -4125,7 +4431,8 @@ const dashboardData = {
       "added_date": "2026-07-29",
       "archived_date": null,
       "archived_reason": null,
-      "podcast_episode_id": 371
+      "podcast_episode_id": 371,
+      "notable_quotes": null
     },
     {
       "id": 389,
@@ -4144,7 +4451,8 @@ const dashboardData = {
       "added_date": "2026-07-30",
       "archived_date": null,
       "archived_reason": null,
-      "podcast_episode_id": 374
+      "podcast_episode_id": 374,
+      "notable_quotes": null
     },
     {
       "id": 390,
@@ -4163,7 +4471,8 @@ const dashboardData = {
       "added_date": "2026-07-30",
       "archived_date": null,
       "archived_reason": null,
-      "podcast_episode_id": 373
+      "podcast_episode_id": 373,
+      "notable_quotes": null
     },
     {
       "id": 451,
@@ -4182,7 +4491,8 @@ const dashboardData = {
       "added_date": "2026-08-28",
       "archived_date": null,
       "archived_reason": null,
-      "podcast_episode_id": 437
+      "podcast_episode_id": 437,
+      "notable_quotes": null
     },
     {
       "id": 383,
@@ -4201,7 +4511,8 @@ const dashboardData = {
       "added_date": "2026-07-26",
       "archived_date": null,
       "archived_reason": null,
-      "podcast_episode_id": 369
+      "podcast_episode_id": 369,
+      "notable_quotes": null
     },
     {
       "id": 384,
@@ -4220,7 +4531,8 @@ const dashboardData = {
       "added_date": "2026-07-26",
       "archived_date": null,
       "archived_reason": null,
-      "podcast_episode_id": 368
+      "podcast_episode_id": 368,
+      "notable_quotes": null
     },
     {
       "id": 380,
@@ -4243,7 +4555,8 @@ const dashboardData = {
       "added_date": "2026-07-24",
       "archived_date": null,
       "archived_reason": null,
-      "podcast_episode_id": 365
+      "podcast_episode_id": 365,
+      "notable_quotes": null
     },
     {
       "id": 381,
@@ -4262,7 +4575,8 @@ const dashboardData = {
       "added_date": "2026-07-24",
       "archived_date": null,
       "archived_reason": null,
-      "podcast_episode_id": 366
+      "podcast_episode_id": 366,
+      "notable_quotes": null
     },
     {
       "id": 382,
@@ -4281,7 +4595,8 @@ const dashboardData = {
       "added_date": "2026-07-25",
       "archived_date": null,
       "archived_reason": null,
-      "podcast_episode_id": 367
+      "podcast_episode_id": 367,
+      "notable_quotes": null
     },
     {
       "id": 378,
@@ -4300,7 +4615,8 @@ const dashboardData = {
       "added_date": "2026-07-23",
       "archived_date": null,
       "archived_reason": null,
-      "podcast_episode_id": 363
+      "podcast_episode_id": 363,
+      "notable_quotes": null
     },
     {
       "id": 379,
@@ -4319,7 +4635,8 @@ const dashboardData = {
       "added_date": "2026-07-24",
       "archived_date": null,
       "archived_reason": null,
-      "podcast_episode_id": 364
+      "podcast_episode_id": 364,
+      "notable_quotes": null
     },
     {
       "id": 377,
@@ -4338,7 +4655,8 @@ const dashboardData = {
       "added_date": "2026-07-22",
       "archived_date": null,
       "archived_reason": null,
-      "podcast_episode_id": 362
+      "podcast_episode_id": 362,
+      "notable_quotes": null
     },
     {
       "id": 424,
@@ -4357,7 +4675,8 @@ const dashboardData = {
       "added_date": "2026-08-16",
       "archived_date": null,
       "archived_reason": null,
-      "podcast_episode_id": 409
+      "podcast_episode_id": 409,
+      "notable_quotes": null
     },
     {
       "id": 374,
@@ -4376,7 +4695,8 @@ const dashboardData = {
       "added_date": "2026-07-21",
       "archived_date": null,
       "archived_reason": null,
-      "podcast_episode_id": 359
+      "podcast_episode_id": 359,
+      "notable_quotes": null
     },
     {
       "id": 376,
@@ -4395,7 +4715,8 @@ const dashboardData = {
       "added_date": "2026-07-21",
       "archived_date": null,
       "archived_reason": null,
-      "podcast_episode_id": 361
+      "podcast_episode_id": 361,
+      "notable_quotes": null
     },
     {
       "id": 372,
@@ -4417,7 +4738,8 @@ const dashboardData = {
       "added_date": "2026-07-20",
       "archived_date": null,
       "archived_reason": null,
-      "podcast_episode_id": 357
+      "podcast_episode_id": 357,
+      "notable_quotes": null
     },
     {
       "id": 373,
@@ -4436,7 +4758,8 @@ const dashboardData = {
       "added_date": "2026-07-20",
       "archived_date": null,
       "archived_reason": null,
-      "podcast_episode_id": 358
+      "podcast_episode_id": 358,
+      "notable_quotes": null
     },
     {
       "id": 375,
@@ -4455,7 +4778,8 @@ const dashboardData = {
       "added_date": "2026-07-21",
       "archived_date": null,
       "archived_reason": null,
-      "podcast_episode_id": 360
+      "podcast_episode_id": 360,
+      "notable_quotes": null
     },
     {
       "id": 371,
@@ -4478,7 +4802,8 @@ const dashboardData = {
       "added_date": "2026-07-19",
       "archived_date": null,
       "archived_reason": null,
-      "podcast_episode_id": 356
+      "podcast_episode_id": 356,
+      "notable_quotes": null
     },
     {
       "id": 370,
@@ -4499,7 +4824,8 @@ const dashboardData = {
       "added_date": "2026-07-18",
       "archived_date": null,
       "archived_reason": null,
-      "podcast_episode_id": 355
+      "podcast_episode_id": 355,
+      "notable_quotes": null
     },
     {
       "id": 368,
@@ -4522,7 +4848,8 @@ const dashboardData = {
       "added_date": "2026-07-17",
       "archived_date": null,
       "archived_reason": null,
-      "podcast_episode_id": 353
+      "podcast_episode_id": 353,
+      "notable_quotes": null
     },
     {
       "id": 369,
@@ -4541,7 +4868,8 @@ const dashboardData = {
       "added_date": "2026-07-17",
       "archived_date": null,
       "archived_reason": null,
-      "podcast_episode_id": 354
+      "podcast_episode_id": 354,
+      "notable_quotes": null
     },
     {
       "id": 365,
@@ -4564,7 +4892,8 @@ const dashboardData = {
       "added_date": "2026-07-16",
       "archived_date": null,
       "archived_reason": null,
-      "podcast_episode_id": 350
+      "podcast_episode_id": 350,
+      "notable_quotes": null
     },
     {
       "id": 366,
@@ -4583,7 +4912,8 @@ const dashboardData = {
       "added_date": "2026-07-16",
       "archived_date": null,
       "archived_reason": null,
-      "podcast_episode_id": 352
+      "podcast_episode_id": 352,
+      "notable_quotes": null
     },
     {
       "id": 367,
@@ -4602,7 +4932,8 @@ const dashboardData = {
       "added_date": "2026-07-16",
       "archived_date": null,
       "archived_reason": null,
-      "podcast_episode_id": 351
+      "podcast_episode_id": 351,
+      "notable_quotes": null
     },
     {
       "id": 363,
@@ -4622,7 +4953,8 @@ const dashboardData = {
       "added_date": "2026-07-15",
       "archived_date": null,
       "archived_reason": null,
-      "podcast_episode_id": 348
+      "podcast_episode_id": 348,
+      "notable_quotes": null
     },
     {
       "id": 364,
@@ -4642,7 +4974,8 @@ const dashboardData = {
       "added_date": "2026-07-16",
       "archived_date": null,
       "archived_reason": null,
-      "podcast_episode_id": 349
+      "podcast_episode_id": 349,
+      "notable_quotes": null
     },
     {
       "id": 361,
@@ -4662,7 +4995,8 @@ const dashboardData = {
       "added_date": "2026-07-14",
       "archived_date": null,
       "archived_reason": null,
-      "podcast_episode_id": 346
+      "podcast_episode_id": 346,
+      "notable_quotes": null
     },
     {
       "id": 362,
@@ -4682,7 +5016,8 @@ const dashboardData = {
       "added_date": "2026-07-14",
       "archived_date": null,
       "archived_reason": null,
-      "podcast_episode_id": 347
+      "podcast_episode_id": 347,
+      "notable_quotes": null
     },
     {
       "id": 358,
@@ -4704,7 +5039,8 @@ const dashboardData = {
       "added_date": "2026-07-13",
       "archived_date": null,
       "archived_reason": null,
-      "podcast_episode_id": 343
+      "podcast_episode_id": 343,
+      "notable_quotes": null
     },
     {
       "id": 359,
@@ -4723,7 +5059,8 @@ const dashboardData = {
       "added_date": "2026-07-13",
       "archived_date": null,
       "archived_reason": null,
-      "podcast_episode_id": 344
+      "podcast_episode_id": 344,
+      "notable_quotes": null
     },
     {
       "id": 360,
@@ -4742,7 +5079,8 @@ const dashboardData = {
       "added_date": "2026-07-14",
       "archived_date": null,
       "archived_reason": null,
-      "podcast_episode_id": 345
+      "podcast_episode_id": 345,
+      "notable_quotes": null
     },
     {
       "id": 357,
@@ -4761,7 +5099,8 @@ const dashboardData = {
       "added_date": "2026-07-10",
       "archived_date": null,
       "archived_reason": null,
-      "podcast_episode_id": 342
+      "podcast_episode_id": 342,
+      "notable_quotes": null
     },
     {
       "id": 354,
@@ -4782,7 +5121,8 @@ const dashboardData = {
       "added_date": "2026-07-09",
       "archived_date": null,
       "archived_reason": null,
-      "podcast_episode_id": 339
+      "podcast_episode_id": 339,
+      "notable_quotes": null
     },
     {
       "id": 355,
@@ -4805,7 +5145,8 @@ const dashboardData = {
       "added_date": "2026-07-10",
       "archived_date": null,
       "archived_reason": null,
-      "podcast_episode_id": 340
+      "podcast_episode_id": 340,
+      "notable_quotes": null
     },
     {
       "id": 356,
@@ -4828,7 +5169,8 @@ const dashboardData = {
       "added_date": "2026-07-10",
       "archived_date": null,
       "archived_reason": null,
-      "podcast_episode_id": 341
+      "podcast_episode_id": 341,
+      "notable_quotes": null
     },
     {
       "id": 353,
@@ -4847,7 +5189,8 @@ const dashboardData = {
       "added_date": "2026-07-09",
       "archived_date": null,
       "archived_reason": null,
-      "podcast_episode_id": 338
+      "podcast_episode_id": 338,
+      "notable_quotes": null
     },
     {
       "id": 351,
@@ -4866,7 +5209,8 @@ const dashboardData = {
       "added_date": "2026-07-08",
       "archived_date": null,
       "archived_reason": null,
-      "podcast_episode_id": 336
+      "podcast_episode_id": 336,
+      "notable_quotes": null
     },
     {
       "id": 352,
@@ -4885,7 +5229,8 @@ const dashboardData = {
       "added_date": "2026-07-08",
       "archived_date": null,
       "archived_reason": null,
-      "podcast_episode_id": 337
+      "podcast_episode_id": 337,
+      "notable_quotes": null
     },
     {
       "id": 423,
@@ -4908,7 +5253,8 @@ const dashboardData = {
       "added_date": "2026-08-16",
       "archived_date": null,
       "archived_reason": null,
-      "podcast_episode_id": 408
+      "podcast_episode_id": 408,
+      "notable_quotes": null
     },
     {
       "id": 349,
@@ -4928,7 +5274,8 @@ const dashboardData = {
       "added_date": "2026-07-07",
       "archived_date": null,
       "archived_reason": null,
-      "podcast_episode_id": 334
+      "podcast_episode_id": 334,
+      "notable_quotes": null
     },
     {
       "id": 350,
@@ -4947,7 +5294,8 @@ const dashboardData = {
       "added_date": "2026-07-07",
       "archived_date": null,
       "archived_reason": null,
-      "podcast_episode_id": 335
+      "podcast_episode_id": 335,
+      "notable_quotes": null
     },
     {
       "id": 348,
@@ -4970,7 +5318,8 @@ const dashboardData = {
       "added_date": "2026-07-06",
       "archived_date": null,
       "archived_reason": null,
-      "podcast_episode_id": 333
+      "podcast_episode_id": 333,
+      "notable_quotes": null
     },
     {
       "id": 347,
@@ -4989,7 +5338,8 @@ const dashboardData = {
       "added_date": "2026-07-05",
       "archived_date": null,
       "archived_reason": null,
-      "podcast_episode_id": 332
+      "podcast_episode_id": 332,
+      "notable_quotes": null
     },
     {
       "id": 346,
@@ -5008,7 +5358,8 @@ const dashboardData = {
       "added_date": "2026-07-04",
       "archived_date": null,
       "archived_reason": null,
-      "podcast_episode_id": 331
+      "podcast_episode_id": 331,
+      "notable_quotes": null
     },
     {
       "id": 344,
@@ -5031,7 +5382,8 @@ const dashboardData = {
       "added_date": "2026-07-03",
       "archived_date": null,
       "archived_reason": null,
-      "podcast_episode_id": 329
+      "podcast_episode_id": 329,
+      "notable_quotes": null
     },
     {
       "id": 345,
@@ -5051,7 +5403,8 @@ const dashboardData = {
       "added_date": "2026-07-03",
       "archived_date": null,
       "archived_reason": null,
-      "podcast_episode_id": 330
+      "podcast_episode_id": 330,
+      "notable_quotes": null
     },
     {
       "id": 342,
@@ -5070,7 +5423,8 @@ const dashboardData = {
       "added_date": "2026-07-02",
       "archived_date": null,
       "archived_reason": null,
-      "podcast_episode_id": 327
+      "podcast_episode_id": 327,
+      "notable_quotes": null
     },
     {
       "id": 343,
@@ -5089,7 +5443,8 @@ const dashboardData = {
       "added_date": "2026-07-02",
       "archived_date": null,
       "archived_reason": null,
-      "podcast_episode_id": 328
+      "podcast_episode_id": 328,
+      "notable_quotes": null
     },
     {
       "id": 339,
@@ -5108,7 +5463,8 @@ const dashboardData = {
       "added_date": "2026-07-01",
       "archived_date": null,
       "archived_reason": null,
-      "podcast_episode_id": 324
+      "podcast_episode_id": 324,
+      "notable_quotes": null
     },
     {
       "id": 340,
@@ -5127,7 +5483,8 @@ const dashboardData = {
       "added_date": "2026-07-01",
       "archived_date": null,
       "archived_reason": null,
-      "podcast_episode_id": 325
+      "podcast_episode_id": 325,
+      "notable_quotes": null
     },
     {
       "id": 341,
@@ -5147,7 +5504,8 @@ const dashboardData = {
       "added_date": "2026-07-01",
       "archived_date": null,
       "archived_reason": null,
-      "podcast_episode_id": 326
+      "podcast_episode_id": 326,
+      "notable_quotes": null
     },
     {
       "id": 336,
@@ -5166,7 +5524,8 @@ const dashboardData = {
       "added_date": "2026-06-30",
       "archived_date": null,
       "archived_reason": null,
-      "podcast_episode_id": 321
+      "podcast_episode_id": 321,
+      "notable_quotes": null
     },
     {
       "id": 337,
@@ -5189,7 +5548,8 @@ const dashboardData = {
       "added_date": "2026-06-30",
       "archived_date": null,
       "archived_reason": null,
-      "podcast_episode_id": 322
+      "podcast_episode_id": 322,
+      "notable_quotes": null
     },
     {
       "id": 338,
@@ -5208,7 +5568,8 @@ const dashboardData = {
       "added_date": "2026-06-30",
       "archived_date": null,
       "archived_reason": null,
-      "podcast_episode_id": 323
+      "podcast_episode_id": 323,
+      "notable_quotes": null
     },
     {
       "id": 332,
@@ -5231,7 +5592,8 @@ const dashboardData = {
       "added_date": "2026-06-29",
       "archived_date": null,
       "archived_reason": null,
-      "podcast_episode_id": 317
+      "podcast_episode_id": 317,
+      "notable_quotes": null
     },
     {
       "id": 333,
@@ -5250,7 +5612,8 @@ const dashboardData = {
       "added_date": "2026-06-29",
       "archived_date": null,
       "archived_reason": null,
-      "podcast_episode_id": 318
+      "podcast_episode_id": 318,
+      "notable_quotes": null
     },
     {
       "id": 334,
@@ -5269,7 +5632,8 @@ const dashboardData = {
       "added_date": "2026-06-29",
       "archived_date": null,
       "archived_reason": null,
-      "podcast_episode_id": 320
+      "podcast_episode_id": 320,
+      "notable_quotes": null
     },
     {
       "id": 335,
@@ -5289,7 +5653,8 @@ const dashboardData = {
       "added_date": "2026-06-29",
       "archived_date": null,
       "archived_reason": null,
-      "podcast_episode_id": 319
+      "podcast_episode_id": 319,
+      "notable_quotes": null
     },
     {
       "id": 328,
@@ -5312,7 +5677,8 @@ const dashboardData = {
       "added_date": "2026-06-26",
       "archived_date": null,
       "archived_reason": null,
-      "podcast_episode_id": 313
+      "podcast_episode_id": 313,
+      "notable_quotes": null
     },
     {
       "id": 329,
@@ -5333,7 +5699,8 @@ const dashboardData = {
       "added_date": "2026-06-26",
       "archived_date": null,
       "archived_reason": null,
-      "podcast_episode_id": 315
+      "podcast_episode_id": 315,
+      "notable_quotes": null
     },
     {
       "id": 330,
@@ -5352,7 +5719,8 @@ const dashboardData = {
       "added_date": "2026-06-26",
       "archived_date": null,
       "archived_reason": null,
-      "podcast_episode_id": 314
+      "podcast_episode_id": 314,
+      "notable_quotes": null
     },
     {
       "id": 331,
@@ -5371,7 +5739,8 @@ const dashboardData = {
       "added_date": "2026-06-26",
       "archived_date": null,
       "archived_reason": null,
-      "podcast_episode_id": 316
+      "podcast_episode_id": 316,
+      "notable_quotes": null
     },
     {
       "id": 327,
@@ -5394,7 +5763,8 @@ const dashboardData = {
       "added_date": "2026-06-25",
       "archived_date": null,
       "archived_reason": null,
-      "podcast_episode_id": 312
+      "podcast_episode_id": 312,
+      "notable_quotes": null
     },
     {
       "id": 324,
@@ -5414,7 +5784,8 @@ const dashboardData = {
       "added_date": "2026-06-24",
       "archived_date": null,
       "archived_reason": null,
-      "podcast_episode_id": 309
+      "podcast_episode_id": 309,
+      "notable_quotes": null
     },
     {
       "id": 325,
@@ -5435,7 +5806,8 @@ const dashboardData = {
       "added_date": "2026-06-24",
       "archived_date": null,
       "archived_reason": null,
-      "podcast_episode_id": 311
+      "podcast_episode_id": 311,
+      "notable_quotes": null
     },
     {
       "id": 326,
@@ -5454,7 +5826,8 @@ const dashboardData = {
       "added_date": "2026-06-24",
       "archived_date": null,
       "archived_reason": null,
-      "podcast_episode_id": 310
+      "podcast_episode_id": 310,
+      "notable_quotes": null
     },
     {
       "id": 322,
@@ -5473,7 +5846,8 @@ const dashboardData = {
       "added_date": "2026-06-23",
       "archived_date": null,
       "archived_reason": null,
-      "podcast_episode_id": 307
+      "podcast_episode_id": 307,
+      "notable_quotes": null
     },
     {
       "id": 323,
@@ -5493,7 +5867,8 @@ const dashboardData = {
       "added_date": "2026-06-23",
       "archived_date": null,
       "archived_reason": null,
-      "podcast_episode_id": 308
+      "podcast_episode_id": 308,
+      "notable_quotes": null
     },
     {
       "id": 320,
@@ -5512,7 +5887,8 @@ const dashboardData = {
       "added_date": "2026-06-22",
       "archived_date": null,
       "archived_reason": null,
-      "podcast_episode_id": 306
+      "podcast_episode_id": 306,
+      "notable_quotes": null
     },
     {
       "id": 321,
@@ -5531,7 +5907,8 @@ const dashboardData = {
       "added_date": "2026-06-22",
       "archived_date": null,
       "archived_reason": null,
-      "podcast_episode_id": 305
+      "podcast_episode_id": 305,
+      "notable_quotes": null
     },
     {
       "id": 319,
@@ -5550,7 +5927,8 @@ const dashboardData = {
       "added_date": "2026-06-21",
       "archived_date": null,
       "archived_reason": null,
-      "podcast_episode_id": 304
+      "podcast_episode_id": 304,
+      "notable_quotes": null
     },
     {
       "id": 318,
@@ -5569,7 +5947,8 @@ const dashboardData = {
       "added_date": "2026-06-20",
       "archived_date": null,
       "archived_reason": null,
-      "podcast_episode_id": 303
+      "podcast_episode_id": 303,
+      "notable_quotes": null
     },
     {
       "id": 315,
@@ -5592,7 +5971,8 @@ const dashboardData = {
       "added_date": "2026-06-19",
       "archived_date": null,
       "archived_reason": null,
-      "podcast_episode_id": 301
+      "podcast_episode_id": 301,
+      "notable_quotes": null
     },
     {
       "id": 316,
@@ -5615,7 +5995,8 @@ const dashboardData = {
       "added_date": "2026-06-19",
       "archived_date": null,
       "archived_reason": null,
-      "podcast_episode_id": 300
+      "podcast_episode_id": 300,
+      "notable_quotes": null
     },
     {
       "id": 317,
@@ -5637,7 +6018,8 @@ const dashboardData = {
       "added_date": "2026-06-19",
       "archived_date": null,
       "archived_reason": null,
-      "podcast_episode_id": 302
+      "podcast_episode_id": 302,
+      "notable_quotes": null
     },
     {
       "id": 311,
@@ -5656,7 +6038,8 @@ const dashboardData = {
       "added_date": "2026-06-18",
       "archived_date": null,
       "archived_reason": null,
-      "podcast_episode_id": 296
+      "podcast_episode_id": 296,
+      "notable_quotes": null
     },
     {
       "id": 312,
@@ -5675,7 +6058,8 @@ const dashboardData = {
       "added_date": "2026-06-18",
       "archived_date": null,
       "archived_reason": null,
-      "podcast_episode_id": 299
+      "podcast_episode_id": 299,
+      "notable_quotes": null
     },
     {
       "id": 313,
@@ -5697,7 +6081,8 @@ const dashboardData = {
       "added_date": "2026-06-18",
       "archived_date": null,
       "archived_reason": null,
-      "podcast_episode_id": 297
+      "podcast_episode_id": 297,
+      "notable_quotes": null
     },
     {
       "id": 307,
@@ -5716,7 +6101,8 @@ const dashboardData = {
       "added_date": "2026-06-17",
       "archived_date": null,
       "archived_reason": null,
-      "podcast_episode_id": 292
+      "podcast_episode_id": 292,
+      "notable_quotes": null
     },
     {
       "id": 309,
@@ -5735,7 +6121,8 @@ const dashboardData = {
       "added_date": "2026-06-17",
       "archived_date": null,
       "archived_reason": null,
-      "podcast_episode_id": 294
+      "podcast_episode_id": 294,
+      "notable_quotes": null
     },
     {
       "id": 302,
@@ -5754,7 +6141,8 @@ const dashboardData = {
       "added_date": "2026-06-16",
       "archived_date": null,
       "archived_reason": null,
-      "podcast_episode_id": 287
+      "podcast_episode_id": 287,
+      "notable_quotes": null
     },
     {
       "id": 303,
@@ -5773,7 +6161,8 @@ const dashboardData = {
       "added_date": "2026-06-16",
       "archived_date": null,
       "archived_reason": null,
-      "podcast_episode_id": 288
+      "podcast_episode_id": 288,
+      "notable_quotes": null
     },
     {
       "id": 455,
@@ -5792,7 +6181,8 @@ const dashboardData = {
       "added_date": "2026-08-28",
       "archived_date": null,
       "archived_reason": null,
-      "podcast_episode_id": 440
+      "podcast_episode_id": 440,
+      "notable_quotes": null
     },
     {
       "id": 300,
@@ -5811,7 +6201,8 @@ const dashboardData = {
       "added_date": "2026-06-15",
       "archived_date": null,
       "archived_reason": null,
-      "podcast_episode_id": 285
+      "podcast_episode_id": 285,
+      "notable_quotes": null
     },
     {
       "id": 301,
@@ -5830,7 +6221,8 @@ const dashboardData = {
       "added_date": "2026-06-15",
       "archived_date": null,
       "archived_reason": null,
-      "podcast_episode_id": 286
+      "podcast_episode_id": 286,
+      "notable_quotes": null
     },
     {
       "id": 299,
@@ -5849,7 +6241,8 @@ const dashboardData = {
       "added_date": "2026-06-13",
       "archived_date": null,
       "archived_reason": null,
-      "podcast_episode_id": 284
+      "podcast_episode_id": 284,
+      "notable_quotes": null
     },
     {
       "id": 298,
@@ -5870,7 +6263,8 @@ const dashboardData = {
       "added_date": "2026-06-11",
       "archived_date": null,
       "archived_reason": null,
-      "podcast_episode_id": 283
+      "podcast_episode_id": 283,
+      "notable_quotes": null
     },
     {
       "id": 452,
@@ -5889,7 +6283,8 @@ const dashboardData = {
       "added_date": "2026-08-28",
       "archived_date": null,
       "archived_reason": null,
-      "podcast_episode_id": 433
+      "podcast_episode_id": 433,
+      "notable_quotes": null
     },
     {
       "id": 295,
@@ -5908,7 +6303,8 @@ const dashboardData = {
       "added_date": "2026-06-11",
       "archived_date": null,
       "archived_reason": null,
-      "podcast_episode_id": 280
+      "podcast_episode_id": 280,
+      "notable_quotes": null
     },
     {
       "id": 296,
@@ -5927,7 +6323,8 @@ const dashboardData = {
       "added_date": "2026-06-11",
       "archived_date": null,
       "archived_reason": null,
-      "podcast_episode_id": 282
+      "podcast_episode_id": 282,
+      "notable_quotes": null
     },
     {
       "id": 297,
@@ -5947,7 +6344,8 @@ const dashboardData = {
       "added_date": "2026-06-11",
       "archived_date": null,
       "archived_reason": null,
-      "podcast_episode_id": 281
+      "podcast_episode_id": 281,
+      "notable_quotes": null
     },
     {
       "id": 304,
@@ -5966,7 +6364,8 @@ const dashboardData = {
       "added_date": "2026-06-16",
       "archived_date": null,
       "archived_reason": null,
-      "podcast_episode_id": 290
+      "podcast_episode_id": 290,
+      "notable_quotes": null
     },
     {
       "id": 291,
@@ -5985,7 +6384,8 @@ const dashboardData = {
       "added_date": "2026-06-10",
       "archived_date": null,
       "archived_reason": null,
-      "podcast_episode_id": 276
+      "podcast_episode_id": 276,
+      "notable_quotes": null
     },
     {
       "id": 292,
@@ -6004,7 +6404,8 @@ const dashboardData = {
       "added_date": "2026-06-10",
       "archived_date": null,
       "archived_reason": null,
-      "podcast_episode_id": 277
+      "podcast_episode_id": 277,
+      "notable_quotes": null
     },
     {
       "id": 293,
@@ -6023,7 +6424,8 @@ const dashboardData = {
       "added_date": "2026-06-10",
       "archived_date": null,
       "archived_reason": null,
-      "podcast_episode_id": 278
+      "podcast_episode_id": 278,
+      "notable_quotes": null
     },
     {
       "id": 294,
@@ -6042,7 +6444,8 @@ const dashboardData = {
       "added_date": "2026-06-10",
       "archived_date": null,
       "archived_reason": null,
-      "podcast_episode_id": 279
+      "podcast_episode_id": 279,
+      "notable_quotes": null
     },
     {
       "id": 288,
@@ -6061,7 +6464,8 @@ const dashboardData = {
       "added_date": "2026-06-09",
       "archived_date": null,
       "archived_reason": null,
-      "podcast_episode_id": 274
+      "podcast_episode_id": 274,
+      "notable_quotes": null
     },
     {
       "id": 289,
@@ -6084,7 +6488,8 @@ const dashboardData = {
       "added_date": "2026-06-09",
       "archived_date": null,
       "archived_reason": null,
-      "podcast_episode_id": 273
+      "podcast_episode_id": 273,
+      "notable_quotes": null
     },
     {
       "id": 290,
@@ -6103,7 +6508,8 @@ const dashboardData = {
       "added_date": "2026-06-09",
       "archived_date": null,
       "archived_reason": null,
-      "podcast_episode_id": 275
+      "podcast_episode_id": 275,
+      "notable_quotes": null
     },
     {
       "id": 286,
@@ -6122,7 +6528,8 @@ const dashboardData = {
       "added_date": "2026-06-08",
       "archived_date": null,
       "archived_reason": null,
-      "podcast_episode_id": 271
+      "podcast_episode_id": 271,
+      "notable_quotes": null
     },
     {
       "id": 287,
@@ -6141,7 +6548,8 @@ const dashboardData = {
       "added_date": "2026-06-08",
       "archived_date": null,
       "archived_reason": null,
-      "podcast_episode_id": 272
+      "podcast_episode_id": 272,
+      "notable_quotes": null
     },
     {
       "id": 284,
@@ -6162,7 +6570,8 @@ const dashboardData = {
       "added_date": "2026-06-07",
       "archived_date": null,
       "archived_reason": null,
-      "podcast_episode_id": 269
+      "podcast_episode_id": 269,
+      "notable_quotes": null
     },
     {
       "id": 285,
@@ -6181,7 +6590,8 @@ const dashboardData = {
       "added_date": "2026-06-07",
       "archived_date": null,
       "archived_reason": null,
-      "podcast_episode_id": 270
+      "podcast_episode_id": 270,
+      "notable_quotes": null
     },
     {
       "id": 280,
@@ -6202,7 +6612,8 @@ const dashboardData = {
       "added_date": "2026-06-06",
       "archived_date": null,
       "archived_reason": null,
-      "podcast_episode_id": 267
+      "podcast_episode_id": 267,
+      "notable_quotes": null
     },
     {
       "id": 281,
@@ -6221,7 +6632,8 @@ const dashboardData = {
       "added_date": "2026-06-06",
       "archived_date": null,
       "archived_reason": null,
-      "podcast_episode_id": 266
+      "podcast_episode_id": 266,
+      "notable_quotes": null
     },
     {
       "id": 282,
@@ -6244,7 +6656,8 @@ const dashboardData = {
       "added_date": "2026-06-06",
       "archived_date": null,
       "archived_reason": null,
-      "podcast_episode_id": 265
+      "podcast_episode_id": 265,
+      "notable_quotes": null
     },
     {
       "id": 283,
@@ -6264,7 +6677,8 @@ const dashboardData = {
       "added_date": "2026-06-06",
       "archived_date": null,
       "archived_reason": null,
-      "podcast_episode_id": 268
+      "podcast_episode_id": 268,
+      "notable_quotes": null
     },
     {
       "id": 278,
@@ -6287,7 +6701,8 @@ const dashboardData = {
       "added_date": "2026-06-05",
       "archived_date": null,
       "archived_reason": null,
-      "podcast_episode_id": 263
+      "podcast_episode_id": 263,
+      "notable_quotes": null
     },
     {
       "id": 279,
@@ -6306,7 +6721,8 @@ const dashboardData = {
       "added_date": "2026-06-05",
       "archived_date": null,
       "archived_reason": null,
-      "podcast_episode_id": 264
+      "podcast_episode_id": 264,
+      "notable_quotes": null
     },
     {
       "id": 274,
@@ -6329,7 +6745,8 @@ const dashboardData = {
       "added_date": "2026-06-04",
       "archived_date": null,
       "archived_reason": null,
-      "podcast_episode_id": 259
+      "podcast_episode_id": 259,
+      "notable_quotes": null
     },
     {
       "id": 275,
@@ -6350,7 +6767,8 @@ const dashboardData = {
       "added_date": "2026-06-04",
       "archived_date": null,
       "archived_reason": null,
-      "podcast_episode_id": 261
+      "podcast_episode_id": 261,
+      "notable_quotes": null
     },
     {
       "id": 276,
@@ -6373,7 +6791,8 @@ const dashboardData = {
       "added_date": "2026-06-04",
       "archived_date": null,
       "archived_reason": null,
-      "podcast_episode_id": 260
+      "podcast_episode_id": 260,
+      "notable_quotes": null
     },
     {
       "id": 277,
@@ -6392,7 +6811,8 @@ const dashboardData = {
       "added_date": "2026-06-04",
       "archived_date": null,
       "archived_reason": null,
-      "podcast_episode_id": 262
+      "podcast_episode_id": 262,
+      "notable_quotes": null
     },
     {
       "id": 305,
@@ -6415,7 +6835,8 @@ const dashboardData = {
       "added_date": "2026-06-16",
       "archived_date": null,
       "archived_reason": null,
-      "podcast_episode_id": 289
+      "podcast_episode_id": 289,
+      "notable_quotes": null
     },
     {
       "id": 271,
@@ -6438,7 +6859,8 @@ const dashboardData = {
       "added_date": "2026-06-03",
       "archived_date": null,
       "archived_reason": null,
-      "podcast_episode_id": 256
+      "podcast_episode_id": 256,
+      "notable_quotes": null
     },
     {
       "id": 272,
@@ -6459,7 +6881,8 @@ const dashboardData = {
       "added_date": "2026-06-03",
       "archived_date": null,
       "archived_reason": null,
-      "podcast_episode_id": 257
+      "podcast_episode_id": 257,
+      "notable_quotes": null
     },
     {
       "id": 273,
@@ -6478,7 +6901,8 @@ const dashboardData = {
       "added_date": "2026-06-03",
       "archived_date": null,
       "archived_reason": null,
-      "podcast_episode_id": 258
+      "podcast_episode_id": 258,
+      "notable_quotes": null
     },
     {
       "id": 306,
@@ -6497,7 +6921,8 @@ const dashboardData = {
       "added_date": "2026-06-17",
       "archived_date": null,
       "archived_reason": null,
-      "podcast_episode_id": 291
+      "podcast_episode_id": 291,
+      "notable_quotes": null
     },
     {
       "id": 308,
@@ -6518,7 +6943,8 @@ const dashboardData = {
       "added_date": "2026-06-17",
       "archived_date": null,
       "archived_reason": null,
-      "podcast_episode_id": 293
+      "podcast_episode_id": 293,
+      "notable_quotes": null
     },
     {
       "id": 268,
@@ -6537,7 +6963,8 @@ const dashboardData = {
       "added_date": "2026-06-02",
       "archived_date": null,
       "archived_reason": null,
-      "podcast_episode_id": 253
+      "podcast_episode_id": 253,
+      "notable_quotes": null
     },
     {
       "id": 269,
@@ -6560,7 +6987,8 @@ const dashboardData = {
       "added_date": "2026-06-02",
       "archived_date": null,
       "archived_reason": null,
-      "podcast_episode_id": 254
+      "podcast_episode_id": 254,
+      "notable_quotes": null
     },
     {
       "id": 270,
@@ -6581,7 +7009,8 @@ const dashboardData = {
       "added_date": "2026-06-02",
       "archived_date": null,
       "archived_reason": null,
-      "podcast_episode_id": 255
+      "podcast_episode_id": 255,
+      "notable_quotes": null
     },
     {
       "id": 310,
@@ -6600,7 +7029,8 @@ const dashboardData = {
       "added_date": "2026-06-18",
       "archived_date": null,
       "archived_reason": null,
-      "podcast_episode_id": 295
+      "podcast_episode_id": 295,
+      "notable_quotes": null
     },
     {
       "id": 266,
@@ -6619,7 +7049,8 @@ const dashboardData = {
       "added_date": "2026-06-01",
       "archived_date": null,
       "archived_reason": null,
-      "podcast_episode_id": 251
+      "podcast_episode_id": 251,
+      "notable_quotes": null
     },
     {
       "id": 267,
@@ -6641,7 +7072,8 @@ const dashboardData = {
       "added_date": "2026-06-01",
       "archived_date": null,
       "archived_reason": null,
-      "podcast_episode_id": 252
+      "podcast_episode_id": 252,
+      "notable_quotes": null
     },
     {
       "id": 314,
@@ -6660,7 +7092,8 @@ const dashboardData = {
       "added_date": "2026-06-18",
       "archived_date": null,
       "archived_reason": null,
-      "podcast_episode_id": 298
+      "podcast_episode_id": 298,
+      "notable_quotes": null
     },
     {
       "id": 265,
@@ -6679,7 +7112,8 @@ const dashboardData = {
       "added_date": "2026-05-31",
       "archived_date": null,
       "archived_reason": null,
-      "podcast_episode_id": 250
+      "podcast_episode_id": 250,
+      "notable_quotes": null
     },
     {
       "id": 264,
@@ -6701,7 +7135,8 @@ const dashboardData = {
       "added_date": "2026-05-30",
       "archived_date": null,
       "archived_reason": null,
-      "podcast_episode_id": 249
+      "podcast_episode_id": 249,
+      "notable_quotes": null
     },
     {
       "id": 262,
@@ -6724,7 +7159,8 @@ const dashboardData = {
       "added_date": "2026-05-29",
       "archived_date": null,
       "archived_reason": null,
-      "podcast_episode_id": 247
+      "podcast_episode_id": 247,
+      "notable_quotes": null
     },
     {
       "id": 263,
@@ -6745,7 +7181,8 @@ const dashboardData = {
       "added_date": "2026-05-29",
       "archived_date": null,
       "archived_reason": null,
-      "podcast_episode_id": 248
+      "podcast_episode_id": 248,
+      "notable_quotes": null
     },
     {
       "id": 260,
@@ -6764,7 +7201,8 @@ const dashboardData = {
       "added_date": "2026-05-28",
       "archived_date": null,
       "archived_reason": null,
-      "podcast_episode_id": 245
+      "podcast_episode_id": 245,
+      "notable_quotes": null
     },
     {
       "id": 261,
@@ -6787,7 +7225,8 @@ const dashboardData = {
       "added_date": "2026-05-28",
       "archived_date": null,
       "archived_reason": null,
-      "podcast_episode_id": 246
+      "podcast_episode_id": 246,
+      "notable_quotes": null
     },
     {
       "id": 259,
@@ -6806,7 +7245,8 @@ const dashboardData = {
       "added_date": "2026-05-27",
       "archived_date": null,
       "archived_reason": null,
-      "podcast_episode_id": 244
+      "podcast_episode_id": 244,
+      "notable_quotes": null
     },
     {
       "id": 255,
@@ -6825,7 +7265,8 @@ const dashboardData = {
       "added_date": "2026-05-26",
       "archived_date": null,
       "archived_reason": null,
-      "podcast_episode_id": 240
+      "podcast_episode_id": 240,
+      "notable_quotes": null
     },
     {
       "id": 256,
@@ -6848,7 +7289,8 @@ const dashboardData = {
       "added_date": "2026-05-26",
       "archived_date": null,
       "archived_reason": null,
-      "podcast_episode_id": 242
+      "podcast_episode_id": 242,
+      "notable_quotes": null
     },
     {
       "id": 257,
@@ -6867,7 +7309,8 @@ const dashboardData = {
       "added_date": "2026-05-26",
       "archived_date": null,
       "archived_reason": null,
-      "podcast_episode_id": 241
+      "podcast_episode_id": 241,
+      "notable_quotes": null
     },
     {
       "id": 258,
@@ -6886,7 +7329,8 @@ const dashboardData = {
       "added_date": "2026-05-26",
       "archived_date": null,
       "archived_reason": null,
-      "podcast_episode_id": 243
+      "podcast_episode_id": 243,
+      "notable_quotes": null
     },
     {
       "id": 253,
@@ -6906,7 +7350,8 @@ const dashboardData = {
       "added_date": "2026-05-25",
       "archived_date": null,
       "archived_reason": null,
-      "podcast_episode_id": 238
+      "podcast_episode_id": 238,
+      "notable_quotes": null
     },
     {
       "id": 254,
@@ -6925,7 +7370,8 @@ const dashboardData = {
       "added_date": "2026-05-25",
       "archived_date": null,
       "archived_reason": null,
-      "podcast_episode_id": 239
+      "podcast_episode_id": 239,
+      "notable_quotes": null
     },
     {
       "id": 252,
@@ -6944,7 +7390,8 @@ const dashboardData = {
       "added_date": "2026-05-24",
       "archived_date": null,
       "archived_reason": null,
-      "podcast_episode_id": 237
+      "podcast_episode_id": 237,
+      "notable_quotes": null
     },
     {
       "id": 251,
@@ -6965,7 +7412,8 @@ const dashboardData = {
       "added_date": "2026-05-23",
       "archived_date": null,
       "archived_reason": null,
-      "podcast_episode_id": 236
+      "podcast_episode_id": 236,
+      "notable_quotes": null
     },
     {
       "id": 248,
@@ -6984,7 +7432,8 @@ const dashboardData = {
       "added_date": "2026-05-22",
       "archived_date": null,
       "archived_reason": null,
-      "podcast_episode_id": 233
+      "podcast_episode_id": 233,
+      "notable_quotes": null
     },
     {
       "id": 249,
@@ -7004,7 +7453,8 @@ const dashboardData = {
       "added_date": "2026-05-22",
       "archived_date": null,
       "archived_reason": null,
-      "podcast_episode_id": 234
+      "podcast_episode_id": 234,
+      "notable_quotes": null
     },
     {
       "id": 250,
@@ -7023,7 +7473,8 @@ const dashboardData = {
       "added_date": "2026-05-22",
       "archived_date": null,
       "archived_reason": null,
-      "podcast_episode_id": 235
+      "podcast_episode_id": 235,
+      "notable_quotes": null
     },
     {
       "id": 245,
@@ -7042,7 +7493,8 @@ const dashboardData = {
       "added_date": "2026-05-21",
       "archived_date": null,
       "archived_reason": null,
-      "podcast_episode_id": 230
+      "podcast_episode_id": 230,
+      "notable_quotes": null
     },
     {
       "id": 246,
@@ -7065,7 +7517,8 @@ const dashboardData = {
       "added_date": "2026-05-21",
       "archived_date": null,
       "archived_reason": null,
-      "podcast_episode_id": 231
+      "podcast_episode_id": 231,
+      "notable_quotes": null
     },
     {
       "id": 247,
@@ -7084,7 +7537,8 @@ const dashboardData = {
       "added_date": "2026-05-22",
       "archived_date": null,
       "archived_reason": null,
-      "podcast_episode_id": 232
+      "podcast_episode_id": 232,
+      "notable_quotes": null
     },
     {
       "id": 244,
@@ -7107,7 +7561,8 @@ const dashboardData = {
       "added_date": "2026-05-20",
       "archived_date": null,
       "archived_reason": null,
-      "podcast_episode_id": 229
+      "podcast_episode_id": 229,
+      "notable_quotes": null
     },
     {
       "id": 242,
@@ -7129,7 +7584,8 @@ const dashboardData = {
       "added_date": "2026-05-19",
       "archived_date": null,
       "archived_reason": null,
-      "podcast_episode_id": 227
+      "podcast_episode_id": 227,
+      "notable_quotes": null
     },
     {
       "id": 243,
@@ -7150,7 +7606,8 @@ const dashboardData = {
       "added_date": "2026-05-19",
       "archived_date": null,
       "archived_reason": null,
-      "podcast_episode_id": 228
+      "podcast_episode_id": 228,
+      "notable_quotes": null
     },
     {
       "id": 241,
@@ -7169,7 +7626,8 @@ const dashboardData = {
       "added_date": "2026-05-18",
       "archived_date": null,
       "archived_reason": null,
-      "podcast_episode_id": 226
+      "podcast_episode_id": 226,
+      "notable_quotes": null
     },
     {
       "id": 240,
@@ -7190,7 +7648,8 @@ const dashboardData = {
       "added_date": "2026-05-17",
       "archived_date": null,
       "archived_reason": null,
-      "podcast_episode_id": 225
+      "podcast_episode_id": 225,
+      "notable_quotes": null
     },
     {
       "id": 238,
@@ -7213,7 +7672,8 @@ const dashboardData = {
       "added_date": "2026-05-16",
       "archived_date": null,
       "archived_reason": null,
-      "podcast_episode_id": 224
+      "podcast_episode_id": 224,
+      "notable_quotes": null
     },
     {
       "id": 239,
@@ -7232,7 +7692,8 @@ const dashboardData = {
       "added_date": "2026-05-16",
       "archived_date": null,
       "archived_reason": null,
-      "podcast_episode_id": 223
+      "podcast_episode_id": 223,
+      "notable_quotes": null
     },
     {
       "id": 235,
@@ -7251,7 +7712,8 @@ const dashboardData = {
       "added_date": "2026-05-15",
       "archived_date": null,
       "archived_reason": null,
-      "podcast_episode_id": 220
+      "podcast_episode_id": 220,
+      "notable_quotes": null
     },
     {
       "id": 236,
@@ -7272,7 +7734,8 @@ const dashboardData = {
       "added_date": "2026-05-15",
       "archived_date": null,
       "archived_reason": null,
-      "podcast_episode_id": 221
+      "podcast_episode_id": 221,
+      "notable_quotes": null
     },
     {
       "id": 237,
@@ -7291,7 +7754,8 @@ const dashboardData = {
       "added_date": "2026-05-15",
       "archived_date": null,
       "archived_reason": null,
-      "podcast_episode_id": 222
+      "podcast_episode_id": 222,
+      "notable_quotes": null
     },
     {
       "id": 456,
@@ -7310,7 +7774,8 @@ const dashboardData = {
       "added_date": "2026-08-28",
       "archived_date": null,
       "archived_reason": null,
-      "podcast_episode_id": 438
+      "podcast_episode_id": 438,
+      "notable_quotes": null
     },
     {
       "id": 233,
@@ -7333,7 +7798,8 @@ const dashboardData = {
       "added_date": "2026-05-14",
       "archived_date": null,
       "archived_reason": null,
-      "podcast_episode_id": 218
+      "podcast_episode_id": 218,
+      "notable_quotes": null
     },
     {
       "id": 234,
@@ -7352,7 +7818,8 @@ const dashboardData = {
       "added_date": "2026-05-14",
       "archived_date": null,
       "archived_reason": null,
-      "podcast_episode_id": 219
+      "podcast_episode_id": 219,
+      "notable_quotes": null
     },
     {
       "id": 231,
@@ -7371,7 +7838,8 @@ const dashboardData = {
       "added_date": "2026-05-13",
       "archived_date": null,
       "archived_reason": null,
-      "podcast_episode_id": 216
+      "podcast_episode_id": 216,
+      "notable_quotes": null
     },
     {
       "id": 232,
@@ -7391,7 +7859,8 @@ const dashboardData = {
       "added_date": "2026-05-14",
       "archived_date": null,
       "archived_reason": null,
-      "podcast_episode_id": 217
+      "podcast_episode_id": 217,
+      "notable_quotes": null
     },
     {
       "id": 227,
@@ -7410,7 +7879,8 @@ const dashboardData = {
       "added_date": "2026-05-12",
       "archived_date": null,
       "archived_reason": null,
-      "podcast_episode_id": 212
+      "podcast_episode_id": 212,
+      "notable_quotes": null
     },
     {
       "id": 228,
@@ -7430,7 +7900,8 @@ const dashboardData = {
       "added_date": "2026-05-12",
       "archived_date": null,
       "archived_reason": null,
-      "podcast_episode_id": 213
+      "podcast_episode_id": 213,
+      "notable_quotes": null
     },
     {
       "id": 229,
@@ -7449,7 +7920,8 @@ const dashboardData = {
       "added_date": "2026-05-12",
       "archived_date": null,
       "archived_reason": null,
-      "podcast_episode_id": 214
+      "podcast_episode_id": 214,
+      "notable_quotes": null
     },
     {
       "id": 230,
@@ -7468,7 +7940,8 @@ const dashboardData = {
       "added_date": "2026-05-13",
       "archived_date": null,
       "archived_reason": null,
-      "podcast_episode_id": 215
+      "podcast_episode_id": 215,
+      "notable_quotes": null
     },
     {
       "id": 226,
@@ -7491,7 +7964,8 @@ const dashboardData = {
       "added_date": "2026-05-11",
       "archived_date": null,
       "archived_reason": null,
-      "podcast_episode_id": 211
+      "podcast_episode_id": 211,
+      "notable_quotes": null
     },
     {
       "id": 224,
@@ -7511,7 +7985,8 @@ const dashboardData = {
       "added_date": "2026-05-10",
       "archived_date": null,
       "archived_reason": null,
-      "podcast_episode_id": 209
+      "podcast_episode_id": 209,
+      "notable_quotes": null
     },
     {
       "id": 225,
@@ -7530,7 +8005,8 @@ const dashboardData = {
       "added_date": "2026-05-10",
       "archived_date": null,
       "archived_reason": null,
-      "podcast_episode_id": 210
+      "podcast_episode_id": 210,
+      "notable_quotes": null
     },
     {
       "id": 223,
@@ -7551,7 +8027,8 @@ const dashboardData = {
       "added_date": "2026-05-09",
       "archived_date": null,
       "archived_reason": null,
-      "podcast_episode_id": 208
+      "podcast_episode_id": 208,
+      "notable_quotes": null
     },
     {
       "id": 220,
@@ -7570,7 +8047,8 @@ const dashboardData = {
       "added_date": "2026-05-08",
       "archived_date": null,
       "archived_reason": null,
-      "podcast_episode_id": 206
+      "podcast_episode_id": 206,
+      "notable_quotes": null
     },
     {
       "id": 221,
@@ -7593,7 +8071,8 @@ const dashboardData = {
       "added_date": "2026-05-08",
       "archived_date": null,
       "archived_reason": null,
-      "podcast_episode_id": 205
+      "podcast_episode_id": 205,
+      "notable_quotes": null
     },
     {
       "id": 222,
@@ -7616,7 +8095,8 @@ const dashboardData = {
       "added_date": "2026-05-09",
       "archived_date": null,
       "archived_reason": null,
-      "podcast_episode_id": 207
+      "podcast_episode_id": 207,
+      "notable_quotes": null
     },
     {
       "id": 217,
@@ -7636,7 +8116,8 @@ const dashboardData = {
       "added_date": "2026-05-07",
       "archived_date": null,
       "archived_reason": null,
-      "podcast_episode_id": 202
+      "podcast_episode_id": 202,
+      "notable_quotes": null
     },
     {
       "id": 218,
@@ -7655,7 +8136,8 @@ const dashboardData = {
       "added_date": "2026-05-07",
       "archived_date": null,
       "archived_reason": null,
-      "podcast_episode_id": 203
+      "podcast_episode_id": 203,
+      "notable_quotes": null
     },
     {
       "id": 219,
@@ -7676,7 +8158,8 @@ const dashboardData = {
       "added_date": "2026-05-08",
       "archived_date": null,
       "archived_reason": null,
-      "podcast_episode_id": 204
+      "podcast_episode_id": 204,
+      "notable_quotes": null
     },
     {
       "id": 215,
@@ -7697,7 +8180,8 @@ const dashboardData = {
       "added_date": "2026-05-06",
       "archived_date": null,
       "archived_reason": null,
-      "podcast_episode_id": 200
+      "podcast_episode_id": 200,
+      "notable_quotes": null
     },
     {
       "id": 216,
@@ -7716,7 +8200,8 @@ const dashboardData = {
       "added_date": "2026-05-06",
       "archived_date": null,
       "archived_reason": null,
-      "podcast_episode_id": 201
+      "podcast_episode_id": 201,
+      "notable_quotes": null
     },
     {
       "id": 213,
@@ -7737,7 +8222,8 @@ const dashboardData = {
       "added_date": "2026-05-05",
       "archived_date": null,
       "archived_reason": null,
-      "podcast_episode_id": 199
+      "podcast_episode_id": 199,
+      "notable_quotes": null
     },
     {
       "id": 214,
@@ -7756,7 +8242,8 @@ const dashboardData = {
       "added_date": "2026-05-05",
       "archived_date": null,
       "archived_reason": null,
-      "podcast_episode_id": 198
+      "podcast_episode_id": 198,
+      "notable_quotes": null
     },
     {
       "id": 210,
@@ -7777,7 +8264,8 @@ const dashboardData = {
       "added_date": "2026-05-04",
       "archived_date": null,
       "archived_reason": null,
-      "podcast_episode_id": 196
+      "podcast_episode_id": 196,
+      "notable_quotes": null
     },
     {
       "id": 211,
@@ -7800,7 +8288,8 @@ const dashboardData = {
       "added_date": "2026-05-04",
       "archived_date": null,
       "archived_reason": null,
-      "podcast_episode_id": 195
+      "podcast_episode_id": 195,
+      "notable_quotes": null
     },
     {
       "id": 207,
@@ -7823,7 +8312,8 @@ const dashboardData = {
       "added_date": "2026-05-03",
       "archived_date": null,
       "archived_reason": null,
-      "podcast_episode_id": 193
+      "podcast_episode_id": 193,
+      "notable_quotes": null
     },
     {
       "id": 208,
@@ -7845,7 +8335,8 @@ const dashboardData = {
       "added_date": "2026-05-03",
       "archived_date": null,
       "archived_reason": null,
-      "podcast_episode_id": 192
+      "podcast_episode_id": 192,
+      "notable_quotes": null
     },
     {
       "id": 209,
@@ -7864,7 +8355,8 @@ const dashboardData = {
       "added_date": "2026-05-03",
       "archived_date": null,
       "archived_reason": null,
-      "podcast_episode_id": 191
+      "podcast_episode_id": 191,
+      "notable_quotes": null
     },
     {
       "id": 212,
@@ -7885,7 +8377,8 @@ const dashboardData = {
       "added_date": "2026-05-05",
       "archived_date": null,
       "archived_reason": null,
-      "podcast_episode_id": 197
+      "podcast_episode_id": 197,
+      "notable_quotes": null
     },
     {
       "id": 203,
@@ -7904,7 +8397,8 @@ const dashboardData = {
       "added_date": "2026-04-30",
       "archived_date": null,
       "archived_reason": null,
-      "podcast_episode_id": 188
+      "podcast_episode_id": 188,
+      "notable_quotes": null
     },
     {
       "id": 204,
@@ -7923,7 +8417,8 @@ const dashboardData = {
       "added_date": "2026-05-01",
       "archived_date": null,
       "archived_reason": null,
-      "podcast_episode_id": 190
+      "podcast_episode_id": 190,
+      "notable_quotes": null
     },
     {
       "id": 205,
@@ -7942,7 +8437,8 @@ const dashboardData = {
       "added_date": "2026-05-01",
       "archived_date": null,
       "archived_reason": null,
-      "podcast_episode_id": 189
+      "podcast_episode_id": 189,
+      "notable_quotes": null
     },
     {
       "id": 199,
@@ -7962,7 +8458,8 @@ const dashboardData = {
       "added_date": "2026-04-29",
       "archived_date": "2026-05-04",
       "archived_reason": "Auto-archived: keep 8 most recent on main",
-      "podcast_episode_id": 184
+      "podcast_episode_id": 184,
+      "notable_quotes": null
     },
     {
       "id": 200,
@@ -7983,7 +8480,8 @@ const dashboardData = {
       "added_date": "2026-04-30",
       "archived_date": "2026-05-04",
       "archived_reason": "Auto-archived: keep 8 most recent on main",
-      "podcast_episode_id": 187
+      "podcast_episode_id": 187,
+      "notable_quotes": null
     },
     {
       "id": 201,
@@ -8004,7 +8502,8 @@ const dashboardData = {
       "added_date": "2026-04-30",
       "archived_date": "2026-05-04",
       "archived_reason": "Auto-archived: keep 8 most recent on main",
-      "podcast_episode_id": 186
+      "podcast_episode_id": 186,
+      "notable_quotes": null
     },
     {
       "id": 202,
@@ -8023,7 +8522,8 @@ const dashboardData = {
       "added_date": "2026-04-30",
       "archived_date": null,
       "archived_reason": null,
-      "podcast_episode_id": 185
+      "podcast_episode_id": 185,
+      "notable_quotes": null
     },
     {
       "id": 197,
@@ -8046,7 +8546,8 @@ const dashboardData = {
       "added_date": "2026-04-28",
       "archived_date": "2026-05-01",
       "archived_reason": "Auto-archived: keep 8 most recent on main",
-      "podcast_episode_id": 182
+      "podcast_episode_id": 182,
+      "notable_quotes": null
     },
     {
       "id": 198,
@@ -8069,7 +8570,8 @@ const dashboardData = {
       "added_date": "2026-04-29",
       "archived_date": "2026-05-04",
       "archived_reason": "Auto-archived: keep 8 most recent on main",
-      "podcast_episode_id": 183
+      "podcast_episode_id": 183,
+      "notable_quotes": null
     },
     {
       "id": 195,
@@ -8088,7 +8590,8 @@ const dashboardData = {
       "added_date": "2026-04-28",
       "archived_date": "2026-05-01",
       "archived_reason": "Auto-archived: keep 8 most recent on main",
-      "podcast_episode_id": 181
+      "podcast_episode_id": 181,
+      "notable_quotes": null
     },
     {
       "id": 196,
@@ -8110,7 +8613,8 @@ const dashboardData = {
       "added_date": "2026-04-28",
       "archived_date": "2026-05-01",
       "archived_reason": "Auto-archived: keep 8 most recent on main",
-      "podcast_episode_id": 180
+      "podcast_episode_id": 180,
+      "notable_quotes": null
     },
     {
       "id": 194,
@@ -8129,7 +8633,8 @@ const dashboardData = {
       "added_date": "2026-04-26",
       "archived_date": "2026-04-30",
       "archived_reason": "Auto-archived: keep 8 most recent on main",
-      "podcast_episode_id": 179
+      "podcast_episode_id": 179,
+      "notable_quotes": null
     },
     {
       "id": 192,
@@ -8152,7 +8657,8 @@ const dashboardData = {
       "added_date": "2026-04-25",
       "archived_date": "2026-04-30",
       "archived_reason": "Auto-archived: keep 8 most recent on main",
-      "podcast_episode_id": 178
+      "podcast_episode_id": 178,
+      "notable_quotes": null
     },
     {
       "id": 193,
@@ -8171,7 +8677,8 @@ const dashboardData = {
       "added_date": "2026-04-25",
       "archived_date": "2026-04-30",
       "archived_reason": "Auto-archived: keep 8 most recent on main",
-      "podcast_episode_id": 177
+      "podcast_episode_id": 177,
+      "notable_quotes": null
     },
     {
       "id": 189,
@@ -8190,7 +8697,8 @@ const dashboardData = {
       "added_date": "2026-04-24",
       "archived_date": "2026-04-29",
       "archived_reason": "Auto-archived: keep 8 most recent on main",
-      "podcast_episode_id": 176
+      "podcast_episode_id": 176,
+      "notable_quotes": null
     },
     {
       "id": 190,
@@ -8210,7 +8718,8 @@ const dashboardData = {
       "added_date": "2026-04-24",
       "archived_date": "2026-04-29",
       "archived_reason": "Auto-archived: keep 8 most recent on main",
-      "podcast_episode_id": 175
+      "podcast_episode_id": 175,
+      "notable_quotes": null
     },
     {
       "id": 191,
@@ -8233,7 +8742,8 @@ const dashboardData = {
       "added_date": "2026-04-24",
       "archived_date": "2026-04-30",
       "archived_reason": "Auto-archived: keep 8 most recent on main",
-      "podcast_episode_id": 174
+      "podcast_episode_id": 174,
+      "notable_quotes": null
     },
     {
       "id": 187,
@@ -8256,7 +8766,8 @@ const dashboardData = {
       "added_date": "2026-04-22",
       "archived_date": "2026-04-28",
       "archived_reason": "Auto-archived: keep 8 most recent on main",
-      "podcast_episode_id": 172
+      "podcast_episode_id": 172,
+      "notable_quotes": null
     },
     {
       "id": 185,
@@ -8279,7 +8790,8 @@ const dashboardData = {
       "added_date": "2026-04-21",
       "archived_date": "2026-04-26",
       "archived_reason": "Auto-archived: keep 8 most recent on main",
-      "podcast_episode_id": 170
+      "podcast_episode_id": 170,
+      "notable_quotes": null
     },
     {
       "id": 186,
@@ -8302,7 +8814,8 @@ const dashboardData = {
       "added_date": "2026-04-22",
       "archived_date": "2026-04-28",
       "archived_reason": "Auto-archived: keep 8 most recent on main",
-      "podcast_episode_id": 171
+      "podcast_episode_id": 171,
+      "notable_quotes": null
     },
     {
       "id": 184,
@@ -8323,7 +8836,8 @@ const dashboardData = {
       "added_date": "2026-04-21",
       "archived_date": "2026-04-25",
       "archived_reason": "Auto-archived: keep 8 most recent on main",
-      "podcast_episode_id": 169
+      "podcast_episode_id": 169,
+      "notable_quotes": null
     },
     {
       "id": 180,
@@ -8342,7 +8856,8 @@ const dashboardData = {
       "added_date": "2026-04-20",
       "archived_date": "2026-04-24",
       "archived_reason": "Auto-archived: keep 8 most recent on main",
-      "podcast_episode_id": 167
+      "podcast_episode_id": 167,
+      "notable_quotes": null
     },
     {
       "id": 181,
@@ -8365,7 +8880,8 @@ const dashboardData = {
       "added_date": "2026-04-20",
       "archived_date": "2026-04-25",
       "archived_reason": "Auto-archived: keep 8 most recent on main",
-      "podcast_episode_id": 165
+      "podcast_episode_id": 165,
+      "notable_quotes": null
     },
     {
       "id": 182,
@@ -8386,7 +8902,8 @@ const dashboardData = {
       "added_date": "2026-04-20",
       "archived_date": "2026-04-24",
       "archived_reason": "Auto-archived: keep 8 most recent on main",
-      "podcast_episode_id": 168
+      "podcast_episode_id": 168,
+      "notable_quotes": null
     },
     {
       "id": 188,
@@ -8405,7 +8922,8 @@ const dashboardData = {
       "added_date": "2026-04-23",
       "archived_date": "2026-04-24",
       "archived_reason": "Auto-archived: keep 8 most recent on main",
-      "podcast_episode_id": 173
+      "podcast_episode_id": 173,
+      "notable_quotes": null
     },
     {
       "id": 179,
@@ -8428,7 +8946,8 @@ const dashboardData = {
       "added_date": "2026-04-19",
       "archived_date": "2026-04-23",
       "archived_reason": "Auto-archived: keep 8 most recent on main",
-      "podcast_episode_id": 164
+      "podcast_episode_id": 164,
+      "notable_quotes": null
     },
     {
       "id": 183,
@@ -8449,7 +8968,8 @@ const dashboardData = {
       "added_date": "2026-04-20",
       "archived_date": "2026-04-24",
       "archived_reason": "Auto-archived: keep 8 most recent on main",
-      "podcast_episode_id": 166
+      "podcast_episode_id": 166,
+      "notable_quotes": null
     },
     {
       "id": 176,
@@ -8472,7 +8992,8 @@ const dashboardData = {
       "added_date": "2026-04-16",
       "archived_date": "2026-04-22",
       "archived_reason": "Auto-archived: keep 8 most recent on main",
-      "podcast_episode_id": 162
+      "podcast_episode_id": 162,
+      "notable_quotes": null
     },
     {
       "id": 178,
@@ -8493,7 +9014,8 @@ const dashboardData = {
       "added_date": "2026-04-17",
       "archived_date": "2026-04-22",
       "archived_reason": "Auto-archived: keep 8 most recent on main",
-      "podcast_episode_id": 163
+      "podcast_episode_id": 163,
+      "notable_quotes": null
     },
     {
       "id": 171,
@@ -8514,7 +9036,8 @@ const dashboardData = {
       "added_date": "2026-04-15",
       "archived_date": "2026-04-20",
       "archived_reason": "Auto-archived: keep 8 most recent on main",
-      "podcast_episode_id": 158
+      "podcast_episode_id": 158,
+      "notable_quotes": null
     },
     {
       "id": 174,
@@ -8533,7 +9056,8 @@ const dashboardData = {
       "added_date": "2026-04-16",
       "archived_date": "2026-04-20",
       "archived_reason": "Auto-archived: keep 8 most recent on main",
-      "podcast_episode_id": 160
+      "podcast_episode_id": 160,
+      "notable_quotes": null
     },
     {
       "id": 175,
@@ -8552,7 +9076,8 @@ const dashboardData = {
       "added_date": "2026-04-16",
       "archived_date": "2026-04-21",
       "archived_reason": "Auto-archived: keep 8 most recent on main",
-      "podcast_episode_id": 159
+      "podcast_episode_id": 159,
+      "notable_quotes": null
     },
     {
       "id": 169,
@@ -8573,7 +9098,8 @@ const dashboardData = {
       "added_date": "2026-04-14",
       "archived_date": "2026-04-17",
       "archived_reason": "Auto-archived: keep 8 most recent on main",
-      "podcast_episode_id": 154
+      "podcast_episode_id": 154,
+      "notable_quotes": null
     },
     {
       "id": 170,
@@ -8592,7 +9118,8 @@ const dashboardData = {
       "added_date": "2026-04-15",
       "archived_date": "2026-04-20",
       "archived_reason": "Auto-archived: keep 8 most recent on main",
-      "podcast_episode_id": 155
+      "podcast_episode_id": 155,
+      "notable_quotes": null
     },
     {
       "id": 172,
@@ -8614,7 +9141,8 @@ const dashboardData = {
       "added_date": "2026-04-15",
       "archived_date": "2026-04-20",
       "archived_reason": "Auto-archived: keep 8 most recent on main",
-      "podcast_episode_id": 157
+      "podcast_episode_id": 157,
+      "notable_quotes": null
     },
     {
       "id": 173,
@@ -8637,7 +9165,8 @@ const dashboardData = {
       "added_date": "2026-04-15",
       "archived_date": "2026-04-20",
       "archived_reason": "Auto-archived: keep 8 most recent on main",
-      "podcast_episode_id": 156
+      "podcast_episode_id": 156,
+      "notable_quotes": null
     },
     {
       "id": 168,
@@ -8660,7 +9189,8 @@ const dashboardData = {
       "added_date": "2026-04-13",
       "archived_date": "2026-04-17",
       "archived_reason": "Auto-archived: keep 8 most recent on main",
-      "podcast_episode_id": 153
+      "podcast_episode_id": 153,
+      "notable_quotes": null
     },
     {
       "id": 167,
@@ -8683,7 +9213,8 @@ const dashboardData = {
       "added_date": "2026-04-12",
       "archived_date": "2026-04-16",
       "archived_reason": "Auto-archived: keep 8 most recent on main",
-      "podcast_episode_id": 152
+      "podcast_episode_id": 152,
+      "notable_quotes": null
     },
     {
       "id": 165,
@@ -8703,7 +9234,8 @@ const dashboardData = {
       "added_date": "2026-04-10",
       "archived_date": "2026-04-16",
       "archived_reason": "Auto-archived: keep 8 most recent on main",
-      "podcast_episode_id": 150
+      "podcast_episode_id": 150,
+      "notable_quotes": null
     },
     {
       "id": 166,
@@ -8726,7 +9258,8 @@ const dashboardData = {
       "added_date": "2026-04-11",
       "archived_date": "2026-04-16",
       "archived_reason": "Auto-archived: keep 8 most recent on main",
-      "podcast_episode_id": 151
+      "podcast_episode_id": 151,
+      "notable_quotes": null
     },
     {
       "id": 161,
@@ -8749,7 +9282,8 @@ const dashboardData = {
       "added_date": "2026-04-09",
       "archived_date": "2026-04-15",
       "archived_reason": "Auto-archived: keep 8 most recent on main",
-      "podcast_episode_id": 146
+      "podcast_episode_id": 146,
+      "notable_quotes": null
     },
     {
       "id": 163,
@@ -8770,7 +9304,8 @@ const dashboardData = {
       "added_date": "2026-04-10",
       "archived_date": "2026-04-16",
       "archived_reason": "Auto-archived: keep 8 most recent on main",
-      "podcast_episode_id": 149
+      "podcast_episode_id": 149,
+      "notable_quotes": null
     },
     {
       "id": 164,
@@ -8794,7 +9329,8 @@ const dashboardData = {
       "added_date": "2026-04-10",
       "archived_date": "2026-04-16",
       "archived_reason": "Auto-archived: keep 8 most recent on main",
-      "podcast_episode_id": 148
+      "podcast_episode_id": 148,
+      "notable_quotes": null
     },
     {
       "id": 160,
@@ -8816,7 +9352,8 @@ const dashboardData = {
       "added_date": "2026-04-09",
       "archived_date": "2026-04-14",
       "archived_reason": "Auto-archived: keep 8 most recent on main",
-      "podcast_episode_id": 145
+      "podcast_episode_id": 145,
+      "notable_quotes": null
     },
     {
       "id": 162,
@@ -8838,7 +9375,8 @@ const dashboardData = {
       "added_date": "2026-04-09",
       "archived_date": "2026-04-15",
       "archived_reason": "Auto-archived: keep 8 most recent on main",
-      "podcast_episode_id": 147
+      "podcast_episode_id": 147,
+      "notable_quotes": null
     },
     {
       "id": 177,
@@ -8859,7 +9397,8 @@ const dashboardData = {
       "added_date": "2026-04-16",
       "archived_date": "2026-04-17",
       "archived_reason": "Auto-archived: keep 8 most recent on main",
-      "podcast_episode_id": 161
+      "podcast_episode_id": 161,
+      "notable_quotes": null
     },
     {
       "id": 155,
@@ -8882,7 +9421,8 @@ const dashboardData = {
       "added_date": "2026-04-07",
       "archived_date": "2026-04-10",
       "archived_reason": "Auto-archived: keep 8 most recent on main",
-      "podcast_episode_id": 141
+      "podcast_episode_id": 141,
+      "notable_quotes": null
     },
     {
       "id": 156,
@@ -8904,7 +9444,8 @@ const dashboardData = {
       "added_date": "2026-04-07",
       "archived_date": "2026-04-10",
       "archived_reason": "Auto-archived: keep 8 most recent on main",
-      "podcast_episode_id": 140
+      "podcast_episode_id": 140,
+      "notable_quotes": null
     },
     {
       "id": 157,
@@ -8927,7 +9468,8 @@ const dashboardData = {
       "added_date": "2026-04-08",
       "archived_date": "2026-04-11",
       "archived_reason": "Auto-archived: keep 8 most recent on main",
-      "podcast_episode_id": 144
+      "podcast_episode_id": 144,
+      "notable_quotes": null
     },
     {
       "id": 158,
@@ -8947,7 +9489,8 @@ const dashboardData = {
       "added_date": "2026-04-08",
       "archived_date": "2026-04-11",
       "archived_reason": "Auto-archived: keep 8 most recent on main",
-      "podcast_episode_id": 143
+      "podcast_episode_id": 143,
+      "notable_quotes": null
     },
     {
       "id": 159,
@@ -8969,7 +9512,8 @@ const dashboardData = {
       "added_date": "2026-04-08",
       "archived_date": "2026-04-12",
       "archived_reason": "Auto-archived: keep 8 most recent on main",
-      "podcast_episode_id": 142
+      "podcast_episode_id": 142,
+      "notable_quotes": null
     },
     {
       "id": 153,
@@ -8992,7 +9536,8 @@ const dashboardData = {
       "added_date": "2026-04-07",
       "archived_date": "2026-04-10",
       "archived_reason": "Auto-archived: keep 8 most recent on main",
-      "podcast_episode_id": 139
+      "podcast_episode_id": 139,
+      "notable_quotes": null
     },
     {
       "id": 154,
@@ -9011,7 +9556,8 @@ const dashboardData = {
       "added_date": "2026-04-07",
       "archived_date": "2026-04-10",
       "archived_reason": "Auto-archived: keep 8 most recent on main",
-      "podcast_episode_id": 138
+      "podcast_episode_id": 138,
+      "notable_quotes": null
     },
     {
       "id": 152,
@@ -9030,7 +9576,8 @@ const dashboardData = {
       "added_date": "2026-04-04",
       "archived_date": "2026-04-09",
       "archived_reason": "Auto-archived: keep 8 most recent on main",
-      "podcast_episode_id": 137
+      "podcast_episode_id": 137,
+      "notable_quotes": null
     },
     {
       "id": 150,
@@ -9050,7 +9597,8 @@ const dashboardData = {
       "added_date": "2026-04-04",
       "archived_date": "2026-04-08",
       "archived_reason": "Auto-archived: keep 8 most recent on main",
-      "podcast_episode_id": 136
+      "podcast_episode_id": 136,
+      "notable_quotes": null
     },
     {
       "id": 151,
@@ -9073,7 +9621,8 @@ const dashboardData = {
       "added_date": "2026-04-04",
       "archived_date": "2026-04-08",
       "archived_reason": "Auto-archived: keep 8 most recent on main",
-      "podcast_episode_id": 135
+      "podcast_episode_id": 135,
+      "notable_quotes": null
     },
     {
       "id": 147,
@@ -9096,7 +9645,8 @@ const dashboardData = {
       "added_date": "2026-04-03",
       "archived_date": "2026-04-08",
       "archived_reason": "Auto-archived: keep 8 most recent on main",
-      "podcast_episode_id": 134
+      "podcast_episode_id": 134,
+      "notable_quotes": null
     },
     {
       "id": 148,
@@ -9115,7 +9665,8 @@ const dashboardData = {
       "added_date": "2026-04-03",
       "archived_date": "2026-04-08",
       "archived_reason": "Auto-archived: keep 8 most recent on main",
-      "podcast_episode_id": 133
+      "podcast_episode_id": 133,
+      "notable_quotes": null
     },
     {
       "id": 149,
@@ -9138,7 +9689,8 @@ const dashboardData = {
       "added_date": "2026-04-03",
       "archived_date": "2026-04-08",
       "archived_reason": "Auto-archived: keep 8 most recent on main",
-      "podcast_episode_id": 132
+      "podcast_episode_id": 132,
+      "notable_quotes": null
     },
     {
       "id": 145,
@@ -9157,7 +9709,8 @@ const dashboardData = {
       "added_date": "2026-04-01",
       "archived_date": "2026-04-07",
       "archived_reason": "Auto-archived: keep 8 most recent on main",
-      "podcast_episode_id": 130
+      "podcast_episode_id": 130,
+      "notable_quotes": null
     },
     {
       "id": 146,
@@ -9177,7 +9730,8 @@ const dashboardData = {
       "added_date": "2026-04-01",
       "archived_date": "2026-04-07",
       "archived_reason": "Auto-archived: keep 8 most recent on main",
-      "podcast_episode_id": 131
+      "podcast_episode_id": 131,
+      "notable_quotes": null
     },
     {
       "id": 141,
@@ -9199,7 +9753,8 @@ const dashboardData = {
       "added_date": "2026-04-01",
       "archived_date": "2026-04-03",
       "archived_reason": "Auto-archived: keep 8 most recent on main",
-      "podcast_episode_id": 129
+      "podcast_episode_id": 129,
+      "notable_quotes": null
     },
     {
       "id": 142,
@@ -9218,7 +9773,8 @@ const dashboardData = {
       "added_date": "2026-04-01",
       "archived_date": "2026-04-04",
       "archived_reason": "Auto-archived: keep 8 most recent on main",
-      "podcast_episode_id": 128
+      "podcast_episode_id": 128,
+      "notable_quotes": null
     },
     {
       "id": 143,
@@ -9241,7 +9797,8 @@ const dashboardData = {
       "added_date": "2026-04-01",
       "archived_date": "2026-04-04",
       "archived_reason": "Auto-archived: keep 8 most recent on main",
-      "podcast_episode_id": 127
+      "podcast_episode_id": 127,
+      "notable_quotes": null
     },
     {
       "id": 144,
@@ -9261,7 +9818,8 @@ const dashboardData = {
       "added_date": "2026-04-01",
       "archived_date": "2026-04-05",
       "archived_reason": "Auto-archived: keep 8 most recent on main",
-      "podcast_episode_id": 126
+      "podcast_episode_id": 126,
+      "notable_quotes": null
     },
     {
       "id": 140,
@@ -9284,7 +9842,8 @@ const dashboardData = {
       "added_date": "2026-03-31",
       "archived_date": "2026-04-03",
       "archived_reason": "Auto-archived: keep 8 most recent on main",
-      "podcast_episode_id": 123
+      "podcast_episode_id": 123,
+      "notable_quotes": null
     },
     {
       "id": 139,
@@ -9304,7 +9863,8 @@ const dashboardData = {
       "added_date": "2026-03-30",
       "archived_date": "2026-04-03",
       "archived_reason": "Auto-archived: keep 8 most recent on main",
-      "podcast_episode_id": 122
+      "podcast_episode_id": 122,
+      "notable_quotes": null
     },
     {
       "id": 128,
@@ -9323,7 +9883,8 @@ const dashboardData = {
       "added_date": "2026-03-28",
       "archived_date": "2026-04-01",
       "archived_reason": "Auto-archived: keep 8 most recent on main",
-      "podcast_episode_id": 119
+      "podcast_episode_id": 119,
+      "notable_quotes": null
     },
     {
       "id": 129,
@@ -9346,7 +9907,8 @@ const dashboardData = {
       "added_date": "2026-03-28",
       "archived_date": "2026-04-01",
       "archived_reason": "Auto-archived: keep 8 most recent on main",
-      "podcast_episode_id": 118
+      "podcast_episode_id": 118,
+      "notable_quotes": null
     },
     {
       "id": 130,
@@ -9365,7 +9927,8 @@ const dashboardData = {
       "added_date": "2026-03-28",
       "archived_date": "2026-04-01",
       "archived_reason": "Auto-archived: keep 8 most recent on main",
-      "podcast_episode_id": 116
+      "podcast_episode_id": 116,
+      "notable_quotes": null
     },
     {
       "id": 131,
@@ -9388,7 +9951,8 @@ const dashboardData = {
       "added_date": "2026-03-28",
       "archived_date": "2026-04-02",
       "archived_reason": "Auto-archived: keep 8 most recent on main",
-      "podcast_episode_id": 115
+      "podcast_episode_id": 115,
+      "notable_quotes": null
     },
     {
       "id": 125,
@@ -9407,7 +9971,8 @@ const dashboardData = {
       "added_date": "2026-03-28",
       "archived_date": "2026-03-30",
       "archived_reason": "Auto-archived: keep 8 most recent on main",
-      "podcast_episode_id": 109
+      "podcast_episode_id": 109,
+      "notable_quotes": null
     },
     {
       "id": 126,
@@ -9427,7 +9992,8 @@ const dashboardData = {
       "added_date": "2026-03-28",
       "archived_date": "2026-03-31",
       "archived_reason": "Auto-archived: keep 8 most recent on main",
-      "podcast_episode_id": 108
+      "podcast_episode_id": 108,
+      "notable_quotes": null
     },
     {
       "id": 132,
@@ -9449,7 +10015,8 @@ const dashboardData = {
       "added_date": "2026-03-28",
       "archived_date": "2026-04-01",
       "archived_reason": "Auto-archived: keep 8 most recent on main",
-      "podcast_episode_id": 117
+      "podcast_episode_id": 117,
+      "notable_quotes": null
     },
     {
       "id": 120,
@@ -9471,7 +10038,8 @@ const dashboardData = {
       "added_date": "2026-03-26",
       "archived_date": "2026-03-29",
       "archived_reason": "Auto-archived: keep 8 most recent on main",
-      "podcast_episode_id": 103
+      "podcast_episode_id": 103,
+      "notable_quotes": null
     },
     {
       "id": 123,
@@ -9494,7 +10062,8 @@ const dashboardData = {
       "added_date": "2026-03-26",
       "archived_date": "2026-03-29",
       "archived_reason": "Auto-archived: keep 8 most recent on main",
-      "podcast_episode_id": 106
+      "podcast_episode_id": 106,
+      "notable_quotes": null
     },
     {
       "id": 124,
@@ -9515,7 +10084,8 @@ const dashboardData = {
       "added_date": "2026-03-26",
       "archived_date": "2026-03-29",
       "archived_reason": "Auto-archived: keep 8 most recent on main",
-      "podcast_episode_id": 107
+      "podcast_episode_id": 107,
+      "notable_quotes": null
     },
     {
       "id": 121,
@@ -9538,7 +10108,8 @@ const dashboardData = {
       "added_date": "2026-03-26",
       "archived_date": "2026-03-29",
       "archived_reason": "Auto-archived: keep 8 most recent on main",
-      "podcast_episode_id": 104
+      "podcast_episode_id": 104,
+      "notable_quotes": null
     },
     {
       "id": 122,
@@ -9558,7 +10129,8 @@ const dashboardData = {
       "added_date": "2026-03-26",
       "archived_date": "2026-03-29",
       "archived_reason": "Auto-archived: keep 8 most recent on main",
-      "podcast_episode_id": 105
+      "podcast_episode_id": 105,
+      "notable_quotes": null
     },
     {
       "id": 117,
@@ -9580,7 +10152,8 @@ const dashboardData = {
       "added_date": "2026-03-24",
       "archived_date": "2026-03-28",
       "archived_reason": "Auto-archived: keep 8 most recent on main",
-      "podcast_episode_id": 100
+      "podcast_episode_id": 100,
+      "notable_quotes": null
     },
     {
       "id": 118,
@@ -9603,7 +10176,8 @@ const dashboardData = {
       "added_date": "2026-03-25",
       "archived_date": "2026-03-28",
       "archived_reason": "Auto-archived: keep 8 most recent on main",
-      "podcast_episode_id": 102
+      "podcast_episode_id": 102,
+      "notable_quotes": null
     },
     {
       "id": 119,
@@ -9622,7 +10196,8 @@ const dashboardData = {
       "added_date": "2026-03-25",
       "archived_date": "2026-03-29",
       "archived_reason": "Auto-archived: keep 8 most recent on main",
-      "podcast_episode_id": 101
+      "podcast_episode_id": 101,
+      "notable_quotes": null
     },
     {
       "id": 112,
@@ -9645,7 +10220,8 @@ const dashboardData = {
       "added_date": "2026-03-23",
       "archived_date": "2026-03-26",
       "archived_reason": "Auto-archived: keep 8 most recent on main",
-      "podcast_episode_id": 95
+      "podcast_episode_id": 95,
+      "notable_quotes": null
     },
     {
       "id": 114,
@@ -9667,7 +10243,8 @@ const dashboardData = {
       "added_date": "2026-03-24",
       "archived_date": "2026-03-26",
       "archived_reason": "Auto-archived: keep 8 most recent on main",
-      "podcast_episode_id": 99
+      "podcast_episode_id": 99,
+      "notable_quotes": null
     },
     {
       "id": 115,
@@ -9686,7 +10263,8 @@ const dashboardData = {
       "added_date": "2026-03-24",
       "archived_date": "2026-03-26",
       "archived_reason": "Auto-archived: keep 8 most recent on main",
-      "podcast_episode_id": 98
+      "podcast_episode_id": 98,
+      "notable_quotes": null
     },
     {
       "id": 116,
@@ -9705,7 +10283,8 @@ const dashboardData = {
       "added_date": "2026-03-24",
       "archived_date": "2026-03-26",
       "archived_reason": "Auto-archived: keep 8 most recent on main",
-      "podcast_episode_id": 97
+      "podcast_episode_id": 97,
+      "notable_quotes": null
     },
     {
       "id": 113,
@@ -9724,7 +10303,8 @@ const dashboardData = {
       "added_date": "2026-03-23",
       "archived_date": "2026-03-26",
       "archived_reason": "Auto-archived: keep 8 most recent on main",
-      "podcast_episode_id": 96
+      "podcast_episode_id": 96,
+      "notable_quotes": null
     },
     {
       "id": 110,
@@ -9747,7 +10327,8 @@ const dashboardData = {
       "added_date": "2026-03-21",
       "archived_date": "2026-03-25",
       "archived_reason": "Auto-archived: keep 8 most recent on main",
-      "podcast_episode_id": 94
+      "podcast_episode_id": 94,
+      "notable_quotes": null
     },
     {
       "id": 111,
@@ -9766,7 +10347,8 @@ const dashboardData = {
       "added_date": "2026-03-21",
       "archived_date": "2026-03-25",
       "archived_reason": "Auto-archived: keep 8 most recent on main",
-      "podcast_episode_id": 93
+      "podcast_episode_id": 93,
+      "notable_quotes": null
     },
     {
       "id": 93,
@@ -9785,7 +10367,8 @@ const dashboardData = {
       "added_date": "2026-03-18",
       "archived_date": "2026-03-24",
       "archived_reason": "Auto-archived: keep 8 most recent on main",
-      "podcast_episode_id": 76
+      "podcast_episode_id": 76,
+      "notable_quotes": null
     },
     {
       "id": 105,
@@ -9805,7 +10388,8 @@ const dashboardData = {
       "added_date": "2026-03-20",
       "archived_date": "2026-03-24",
       "archived_reason": "Auto-archived: keep 8 most recent on main",
-      "podcast_episode_id": 91
+      "podcast_episode_id": 91,
+      "notable_quotes": null
     },
     {
       "id": 106,
@@ -9824,7 +10408,8 @@ const dashboardData = {
       "added_date": "2026-03-20",
       "archived_date": "2026-03-24",
       "archived_reason": "Auto-archived: keep 8 most recent on main",
-      "podcast_episode_id": 90
+      "podcast_episode_id": 90,
+      "notable_quotes": null
     },
     {
       "id": 107,
@@ -9847,7 +10432,8 @@ const dashboardData = {
       "added_date": "2026-03-20",
       "archived_date": "2026-03-24",
       "archived_reason": "Auto-archived: keep 8 most recent on main",
-      "podcast_episode_id": 89
+      "podcast_episode_id": 89,
+      "notable_quotes": null
     },
     {
       "id": 133,
@@ -9870,7 +10456,8 @@ const dashboardData = {
       "added_date": "2026-03-28",
       "archived_date": "2026-03-29",
       "archived_reason": "Auto-archived: keep 8 most recent on main",
-      "podcast_episode_id": 112
+      "podcast_episode_id": 112,
+      "notable_quotes": null
     },
     {
       "id": 138,
@@ -9890,7 +10477,8 @@ const dashboardData = {
       "added_date": "2026-03-29",
       "archived_date": "2026-03-29",
       "archived_reason": "Auto-archived: keep 8 most recent on main",
-      "podcast_episode_id": 121
+      "podcast_episode_id": 121,
+      "notable_quotes": null
     },
     {
       "id": 94,
@@ -9912,7 +10500,8 @@ const dashboardData = {
       "added_date": "2026-03-18",
       "archived_date": "2026-03-23",
       "archived_reason": "Auto-archived: keep 8 most recent on main",
-      "podcast_episode_id": 78
+      "podcast_episode_id": 78,
+      "notable_quotes": null
     },
     {
       "id": 95,
@@ -9935,7 +10524,8 @@ const dashboardData = {
       "added_date": "2026-03-18",
       "archived_date": "2026-03-23",
       "archived_reason": "Auto-archived: keep 8 most recent on main",
-      "podcast_episode_id": 77
+      "podcast_episode_id": 77,
+      "notable_quotes": null
     },
     {
       "id": 134,
@@ -9956,7 +10546,8 @@ const dashboardData = {
       "added_date": "2026-03-28",
       "archived_date": "2026-03-29",
       "archived_reason": "Auto-archived: keep 8 most recent on main",
-      "podcast_episode_id": 111
+      "podcast_episode_id": 111,
+      "notable_quotes": null
     },
     {
       "id": 88,
@@ -9977,7 +10568,8 @@ const dashboardData = {
       "added_date": "2026-03-17",
       "archived_date": "2026-03-19",
       "archived_reason": "Auto-archived: keep 8 most recent on main",
-      "podcast_episode_id": 71
+      "podcast_episode_id": 71,
+      "notable_quotes": null
     },
     {
       "id": 89,
@@ -9999,7 +10591,8 @@ const dashboardData = {
       "added_date": "2026-03-17",
       "archived_date": "2026-03-20",
       "archived_reason": "Auto-archived: keep 8 most recent on main",
-      "podcast_episode_id": 72
+      "podcast_episode_id": 72,
+      "notable_quotes": null
     },
     {
       "id": 90,
@@ -10021,7 +10614,8 @@ const dashboardData = {
       "added_date": "2026-03-17",
       "archived_date": "2026-03-20",
       "archived_reason": "Auto-archived: keep 8 most recent on main",
-      "podcast_episode_id": 73
+      "podcast_episode_id": 73,
+      "notable_quotes": null
     },
     {
       "id": 91,
@@ -10040,7 +10634,8 @@ const dashboardData = {
       "added_date": "2026-03-17",
       "archived_date": "2026-03-21",
       "archived_reason": "Auto-archived: keep 8 most recent on main",
-      "podcast_episode_id": 74
+      "podcast_episode_id": 74,
+      "notable_quotes": null
     },
     {
       "id": 92,
@@ -10059,7 +10654,8 @@ const dashboardData = {
       "added_date": "2026-03-17",
       "archived_date": "2026-03-21",
       "archived_reason": "Auto-archived: keep 8 most recent on main",
-      "podcast_episode_id": 75
+      "podcast_episode_id": 75,
+      "notable_quotes": null
     },
     {
       "id": 109,
@@ -10082,7 +10678,8 @@ const dashboardData = {
       "added_date": "2026-03-20",
       "archived_date": "2026-03-21",
       "archived_reason": "Auto-archived: keep 8 most recent on main",
-      "podcast_episode_id": 92
+      "podcast_episode_id": 92,
+      "notable_quotes": null
     },
     {
       "id": 84,
@@ -10105,7 +10702,8 @@ const dashboardData = {
       "added_date": "2026-03-16",
       "archived_date": "2026-03-19",
       "archived_reason": "Auto-archived: keep 8 most recent on main",
-      "podcast_episode_id": 67
+      "podcast_episode_id": 67,
+      "notable_quotes": null
     },
     {
       "id": 82,
@@ -10125,7 +10723,8 @@ const dashboardData = {
       "added_date": "2026-03-16",
       "archived_date": "2026-03-17",
       "archived_reason": "Auto-archived: keep 8 most recent on main",
-      "podcast_episode_id": 66
+      "podcast_episode_id": 66,
+      "notable_quotes": null
     },
     {
       "id": 83,
@@ -10146,7 +10745,8 @@ const dashboardData = {
       "added_date": "2026-03-16",
       "archived_date": "2026-03-19",
       "archived_reason": "Auto-archived: keep 8 most recent on main",
-      "podcast_episode_id": 65
+      "podcast_episode_id": 65,
+      "notable_quotes": null
     },
     {
       "id": 135,
@@ -10169,7 +10769,8 @@ const dashboardData = {
       "added_date": "2026-03-28",
       "archived_date": "2026-03-29",
       "archived_reason": "Auto-archived: keep 8 most recent on main",
-      "podcast_episode_id": 114
+      "podcast_episode_id": 114,
+      "notable_quotes": null
     },
     {
       "id": 78,
@@ -10193,7 +10794,8 @@ const dashboardData = {
       "added_date": "2026-03-13",
       "archived_date": "2026-03-17",
       "archived_reason": "Auto-archived: keep 8 most recent on main",
-      "podcast_episode_id": 63
+      "podcast_episode_id": 63,
+      "notable_quotes": null
     },
     {
       "id": 79,
@@ -10216,7 +10818,8 @@ const dashboardData = {
       "added_date": "2026-03-13",
       "archived_date": "2026-03-17",
       "archived_reason": "Auto-archived: keep 8 most recent on main",
-      "podcast_episode_id": 62
+      "podcast_episode_id": 62,
+      "notable_quotes": null
     },
     {
       "id": 80,
@@ -10239,7 +10842,8 @@ const dashboardData = {
       "added_date": "2026-03-13",
       "archived_date": "2026-03-17",
       "archived_reason": "Auto-archived: keep 8 most recent on main",
-      "podcast_episode_id": 61
+      "podcast_episode_id": 61,
+      "notable_quotes": null
     },
     {
       "id": 81,
@@ -10261,7 +10865,8 @@ const dashboardData = {
       "added_date": "2026-03-14",
       "archived_date": "2026-03-17",
       "archived_reason": "Auto-archived: keep 8 most recent on main",
-      "podcast_episode_id": 64
+      "podcast_episode_id": 64,
+      "notable_quotes": null
     },
     {
       "id": 75,
@@ -10285,7 +10890,8 @@ const dashboardData = {
       "added_date": "2026-03-12",
       "archived_date": "2026-03-16",
       "archived_reason": "Auto-archived: keep 8 most recent on main",
-      "podcast_episode_id": 59
+      "podcast_episode_id": 59,
+      "notable_quotes": null
     },
     {
       "id": 76,
@@ -10304,7 +10910,8 @@ const dashboardData = {
       "added_date": "2026-03-12",
       "archived_date": "2026-03-17",
       "archived_reason": "Auto-archived: keep 8 most recent on main",
-      "podcast_episode_id": 58
+      "podcast_episode_id": 58,
+      "notable_quotes": null
     },
     {
       "id": 72,
@@ -10327,7 +10934,8 @@ const dashboardData = {
       "added_date": "2026-03-11",
       "archived_date": "2026-03-14",
       "archived_reason": "Auto-archived: keep 8 most recent on main",
-      "podcast_episode_id": 55
+      "podcast_episode_id": 55,
+      "notable_quotes": null
     },
     {
       "id": 73,
@@ -10349,7 +10957,8 @@ const dashboardData = {
       "added_date": "2026-03-12",
       "archived_date": "2026-03-14",
       "archived_reason": "Auto-archived: keep 8 most recent on main",
-      "podcast_episode_id": 57
+      "podcast_episode_id": 57,
+      "notable_quotes": null
     },
     {
       "id": 74,
@@ -10372,7 +10981,8 @@ const dashboardData = {
       "added_date": "2026-03-12",
       "archived_date": "2026-03-16",
       "archived_reason": "Auto-archived: keep 8 most recent on main",
-      "podcast_episode_id": 56
+      "podcast_episode_id": 56,
+      "notable_quotes": null
     },
     {
       "id": 77,
@@ -10394,7 +11004,8 @@ const dashboardData = {
       "added_date": "2026-03-13",
       "archived_date": "2026-03-16",
       "archived_reason": "Auto-archived: keep 8 most recent on main",
-      "podcast_episode_id": 60
+      "podcast_episode_id": 60,
+      "notable_quotes": null
     },
     {
       "id": 67,
@@ -10416,7 +11027,8 @@ const dashboardData = {
       "added_date": "2026-03-10",
       "archived_date": "2026-03-14",
       "archived_reason": "Auto-archived: keep 8 most recent on main",
-      "podcast_episode_id": 52
+      "podcast_episode_id": 52,
+      "notable_quotes": null
     },
     {
       "id": 68,
@@ -10435,7 +11047,8 @@ const dashboardData = {
       "added_date": "2026-03-10",
       "archived_date": "2026-03-14",
       "archived_reason": "Auto-archived: keep 8 most recent on main",
-      "podcast_episode_id": 50
+      "podcast_episode_id": 50,
+      "notable_quotes": null
     },
     {
       "id": 66,
@@ -10454,7 +11067,8 @@ const dashboardData = {
       "added_date": "2026-03-09",
       "archived_date": "2026-03-12",
       "archived_reason": "Auto-archived: keep 8 most recent on main",
-      "podcast_episode_id": 49
+      "podcast_episode_id": 49,
+      "notable_quotes": null
     },
     {
       "id": 69,
@@ -10473,7 +11087,8 @@ const dashboardData = {
       "added_date": "2026-03-10",
       "archived_date": "2026-03-13",
       "archived_reason": "Auto-archived: keep 8 most recent on main",
-      "podcast_episode_id": 54
+      "podcast_episode_id": 54,
+      "notable_quotes": null
     },
     {
       "id": 70,
@@ -10492,7 +11107,8 @@ const dashboardData = {
       "added_date": "2026-03-10",
       "archived_date": "2026-03-13",
       "archived_reason": "Auto-archived: keep 8 most recent on main",
-      "podcast_episode_id": 53
+      "podcast_episode_id": 53,
+      "notable_quotes": null
     },
     {
       "id": 71,
@@ -10512,7 +11128,8 @@ const dashboardData = {
       "added_date": "2026-03-10",
       "archived_date": "2026-03-13",
       "archived_reason": "Auto-archived: keep 8 most recent on main",
-      "podcast_episode_id": 51
+      "podcast_episode_id": 51,
+      "notable_quotes": null
     },
     {
       "id": 64,
@@ -10531,7 +11148,8 @@ const dashboardData = {
       "added_date": "2026-03-07",
       "archived_date": "2026-03-12",
       "archived_reason": "Auto-archived: keep 8 most recent on main",
-      "podcast_episode_id": 48
+      "podcast_episode_id": 48,
+      "notable_quotes": null
     },
     {
       "id": 65,
@@ -10554,7 +11172,8 @@ const dashboardData = {
       "added_date": "2026-03-07",
       "archived_date": "2026-03-12",
       "archived_reason": "Auto-archived: keep 8 most recent on main",
-      "podcast_episode_id": 47
+      "podcast_episode_id": 47,
+      "notable_quotes": null
     },
     {
       "id": 62,
@@ -10576,7 +11195,8 @@ const dashboardData = {
       "added_date": "2026-03-06",
       "archived_date": "2026-03-11",
       "archived_reason": "Auto-archived: keep 8 most recent on main",
-      "podcast_episode_id": 45
+      "podcast_episode_id": 45,
+      "notable_quotes": null
     },
     {
       "id": 63,
@@ -10597,7 +11217,8 @@ const dashboardData = {
       "added_date": "2026-03-07",
       "archived_date": "2026-03-11",
       "archived_reason": "Auto-archived: keep 8 most recent on main",
-      "podcast_episode_id": 46
+      "podcast_episode_id": 46,
+      "notable_quotes": null
     },
     {
       "id": 136,
@@ -10620,7 +11241,8 @@ const dashboardData = {
       "added_date": "2026-03-28",
       "archived_date": "2026-03-29",
       "archived_reason": "Auto-archived: keep 8 most recent on main",
-      "podcast_episode_id": 110
+      "podcast_episode_id": 110,
+      "notable_quotes": null
     },
     {
       "id": 58,
@@ -10645,7 +11267,8 @@ const dashboardData = {
       "added_date": "2026-03-06",
       "archived_date": "2026-03-10",
       "archived_reason": "Auto-archived: keep 8 most recent on main",
-      "podcast_episode_id": 44
+      "podcast_episode_id": 44,
+      "notable_quotes": null
     },
     {
       "id": 59,
@@ -10664,7 +11287,8 @@ const dashboardData = {
       "added_date": "2026-03-06",
       "archived_date": "2026-03-11",
       "archived_reason": "Auto-archived: keep 8 most recent on main",
-      "podcast_episode_id": 43
+      "podcast_episode_id": 43,
+      "notable_quotes": null
     },
     {
       "id": 60,
@@ -10686,7 +11310,8 @@ const dashboardData = {
       "added_date": "2026-03-06",
       "archived_date": "2026-03-11",
       "archived_reason": "Auto-archived: keep 8 most recent on main",
-      "podcast_episode_id": 42
+      "podcast_episode_id": 42,
+      "notable_quotes": null
     },
     {
       "id": 61,
@@ -10709,7 +11334,8 @@ const dashboardData = {
       "added_date": "2026-03-06",
       "archived_date": "2026-03-11",
       "archived_reason": "Auto-archived: keep 8 most recent on main",
-      "podcast_episode_id": 41
+      "podcast_episode_id": 41,
+      "notable_quotes": null
     },
     {
       "id": 56,
@@ -10732,7 +11358,8 @@ const dashboardData = {
       "added_date": "2026-03-05",
       "archived_date": "2026-03-08",
       "archived_reason": "Auto-archived: keep 8 most recent on main",
-      "podcast_episode_id": 40
+      "podcast_episode_id": 40,
+      "notable_quotes": null
     },
     {
       "id": 57,
@@ -10751,7 +11378,8 @@ const dashboardData = {
       "added_date": "2026-03-05",
       "archived_date": "2026-03-08",
       "archived_reason": "Auto-archived: keep 8 most recent on main",
-      "podcast_episode_id": 39
+      "podcast_episode_id": 39,
+      "notable_quotes": null
     },
     {
       "id": 52,
@@ -10774,7 +11402,8 @@ const dashboardData = {
       "added_date": "2026-03-04",
       "archived_date": "2026-03-06",
       "archived_reason": "Auto-archived: keep 8 most recent on main",
-      "podcast_episode_id": 38
+      "podcast_episode_id": 38,
+      "notable_quotes": null
     },
     {
       "id": 53,
@@ -10791,7 +11420,8 @@ const dashboardData = {
       "added_date": "2026-03-04",
       "archived_date": "2026-03-06",
       "archived_reason": "Auto-archived: keep 8 most recent on main",
-      "podcast_episode_id": 37
+      "podcast_episode_id": 37,
+      "notable_quotes": null
     },
     {
       "id": 54,
@@ -10814,7 +11444,8 @@ const dashboardData = {
       "added_date": "2026-03-04",
       "archived_date": "2026-03-07",
       "archived_reason": "Auto-archived: keep 8 most recent on main",
-      "podcast_episode_id": 35
+      "podcast_episode_id": 35,
+      "notable_quotes": null
     },
     {
       "id": 55,
@@ -10833,7 +11464,8 @@ const dashboardData = {
       "added_date": "2026-03-04",
       "archived_date": "2026-03-06",
       "archived_reason": "Auto-archived: keep 8 most recent on main",
-      "podcast_episode_id": 36
+      "podcast_episode_id": 36,
+      "notable_quotes": null
     },
     {
       "id": 49,
@@ -10854,7 +11486,8 @@ const dashboardData = {
       "added_date": "2026-03-01",
       "archived_date": "2026-03-06",
       "archived_reason": "Auto-archived: keep 8 most recent on main",
-      "podcast_episode_id": 32
+      "podcast_episode_id": 32,
+      "notable_quotes": null
     },
     {
       "id": 48,
@@ -10876,7 +11509,8 @@ const dashboardData = {
       "added_date": "2026-03-01",
       "archived_date": "2026-03-06",
       "archived_reason": "Auto-archived: keep 8 most recent on main",
-      "podcast_episode_id": 31
+      "podcast_episode_id": 31,
+      "notable_quotes": null
     },
     {
       "id": 50,
@@ -10899,7 +11533,8 @@ const dashboardData = {
       "added_date": "2026-03-01",
       "archived_date": "2026-03-05",
       "archived_reason": "Auto-archived: keep 8 most recent on main",
-      "podcast_episode_id": 33
+      "podcast_episode_id": 33,
+      "notable_quotes": null
     },
     {
       "id": 51,
@@ -10916,7 +11551,8 @@ const dashboardData = {
       "added_date": "2026-03-01",
       "archived_date": "2026-03-05",
       "archived_reason": "Auto-archived: keep 8 most recent on main",
-      "podcast_episode_id": 34
+      "podcast_episode_id": 34,
+      "notable_quotes": null
     },
     {
       "id": 46,
@@ -10935,7 +11571,8 @@ const dashboardData = {
       "added_date": "2026-02-26",
       "archived_date": "2026-03-05",
       "archived_reason": "Auto-archived: keep 8 most recent on main",
-      "podcast_episode_id": 30
+      "podcast_episode_id": 30,
+      "notable_quotes": null
     },
     {
       "id": 47,
@@ -10952,7 +11589,8 @@ const dashboardData = {
       "added_date": "2026-02-26",
       "archived_date": "2026-03-05",
       "archived_reason": "Auto-archived: keep 8 most recent on main",
-      "podcast_episode_id": 29
+      "podcast_episode_id": 29,
+      "notable_quotes": null
     },
     {
       "id": 44,
@@ -10975,7 +11613,8 @@ const dashboardData = {
       "added_date": "2026-02-22",
       "archived_date": "2026-03-05",
       "archived_reason": "Auto-archived: keep 8 most recent on main",
-      "podcast_episode_id": 28
+      "podcast_episode_id": 28,
+      "notable_quotes": null
     },
     {
       "id": 18,
@@ -10999,7 +11638,8 @@ const dashboardData = {
       "added_date": "2026-02-19",
       "archived_date": "2026-02-23",
       "archived_reason": "Auto-archived: keep 8 most recent on main",
-      "podcast_episode_id": 23
+      "podcast_episode_id": 23,
+      "notable_quotes": null
     },
     {
       "id": 85,
@@ -11018,7 +11658,8 @@ const dashboardData = {
       "added_date": "2026-03-16",
       "archived_date": "2026-03-16",
       "archived_reason": "Auto-archived: keep 8 most recent on main",
-      "podcast_episode_id": 68
+      "podcast_episode_id": 68,
+      "notable_quotes": null
     },
     {
       "id": 96,
@@ -11039,7 +11680,8 @@ const dashboardData = {
       "added_date": "2026-03-19",
       "archived_date": "2026-03-20",
       "archived_reason": "Auto-archived: keep 8 most recent on main",
-      "podcast_episode_id": 87
+      "podcast_episode_id": 87,
+      "notable_quotes": null
     },
     {
       "id": 97,
@@ -11061,7 +11703,8 @@ const dashboardData = {
       "added_date": "2026-03-19",
       "archived_date": "2026-03-20",
       "archived_reason": "Auto-archived: keep 8 most recent on main",
-      "podcast_episode_id": 85
+      "podcast_episode_id": 85,
+      "notable_quotes": null
     },
     {
       "id": 99,
@@ -11080,7 +11723,8 @@ const dashboardData = {
       "added_date": "2026-03-19",
       "archived_date": "2026-03-20",
       "archived_reason": "Auto-archived: keep 8 most recent on main",
-      "podcast_episode_id": 81
+      "podcast_episode_id": 81,
+      "notable_quotes": null
     },
     {
       "id": 100,
@@ -11099,7 +11743,8 @@ const dashboardData = {
       "added_date": "2026-03-19",
       "archived_date": "2026-03-20",
       "archived_reason": "Auto-archived: keep 8 most recent on main",
-      "podcast_episode_id": 80
+      "podcast_episode_id": 80,
+      "notable_quotes": null
     },
     {
       "id": 101,
@@ -11122,7 +11767,8 @@ const dashboardData = {
       "added_date": "2026-03-19",
       "archived_date": "2026-03-20",
       "archived_reason": "Auto-archived: keep 8 most recent on main",
-      "podcast_episode_id": 79
+      "podcast_episode_id": 79,
+      "notable_quotes": null
     },
     {
       "id": 17,
@@ -11145,7 +11791,8 @@ const dashboardData = {
       "added_date": "2026-02-19",
       "archived_date": "2026-02-23",
       "archived_reason": "Auto-archived: keep 8 most recent on main",
-      "podcast_episode_id": 22
+      "podcast_episode_id": 22,
+      "notable_quotes": null
     },
     {
       "id": 86,
@@ -11164,7 +11811,8 @@ const dashboardData = {
       "added_date": "2026-03-16",
       "archived_date": "2026-03-16",
       "archived_reason": "Auto-archived: keep 8 most recent on main",
-      "podcast_episode_id": 69
+      "podcast_episode_id": 69,
+      "notable_quotes": null
     },
     {
       "id": 87,
@@ -11187,7 +11835,8 @@ const dashboardData = {
       "added_date": "2026-03-16",
       "archived_date": "2026-03-20",
       "archived_reason": "Auto-archived: keep 8 most recent on main",
-      "podcast_episode_id": 70
+      "podcast_episode_id": 70,
+      "notable_quotes": null
     },
     {
       "id": 102,
@@ -11210,7 +11859,8 @@ const dashboardData = {
       "added_date": "2026-03-19",
       "archived_date": "2026-03-20",
       "archived_reason": "Auto-archived: keep 8 most recent on main",
-      "podcast_episode_id": 86
+      "podcast_episode_id": 86,
+      "notable_quotes": null
     },
     {
       "id": 103,
@@ -11233,7 +11883,8 @@ const dashboardData = {
       "added_date": "2026-03-19",
       "archived_date": "2026-03-20",
       "archived_reason": "Auto-archived: keep 8 most recent on main",
-      "podcast_episode_id": 84
+      "podcast_episode_id": 84,
+      "notable_quotes": null
     },
     {
       "id": 104,
@@ -11255,7 +11906,8 @@ const dashboardData = {
       "added_date": "2026-03-19",
       "archived_date": "2026-03-20",
       "archived_reason": "Auto-archived: keep 8 most recent on main",
-      "podcast_episode_id": 83
+      "podcast_episode_id": 83,
+      "notable_quotes": null
     },
     {
       "id": 108,
@@ -11274,7 +11926,8 @@ const dashboardData = {
       "added_date": "2026-03-20",
       "archived_date": "2026-03-20",
       "archived_reason": "Auto-archived: keep 8 most recent on main",
-      "podcast_episode_id": 88
+      "podcast_episode_id": 88,
+      "notable_quotes": null
     },
     {
       "id": 137,
@@ -11293,7 +11946,8 @@ const dashboardData = {
       "added_date": "2026-03-28",
       "archived_date": "2026-03-29",
       "archived_reason": "Auto-archived: keep 8 most recent on main",
-      "podcast_episode_id": 113
+      "podcast_episode_id": 113,
+      "notable_quotes": null
     },
     {
       "id": 1,
@@ -11314,7 +11968,8 @@ const dashboardData = {
       "added_date": "2026-02-13",
       "archived_date": "2026-02-20",
       "archived_reason": "Auto-archived: keep 8 most recent on main",
-      "podcast_episode_id": null
+      "podcast_episode_id": null,
+      "notable_quotes": null
     },
     {
       "id": 41,
@@ -11331,7 +11986,8 @@ const dashboardData = {
       "added_date": "2026-02-22",
       "archived_date": "2026-03-01",
       "archived_reason": "Auto-archived: keep 8 most recent on main",
-      "podcast_episode_id": null
+      "podcast_episode_id": null,
+      "notable_quotes": null
     },
     {
       "id": 42,
@@ -11348,7 +12004,8 @@ const dashboardData = {
       "added_date": "2026-02-22",
       "archived_date": "2026-03-01",
       "archived_reason": "Auto-archived: keep 8 most recent on main",
-      "podcast_episode_id": null
+      "podcast_episode_id": null,
+      "notable_quotes": null
     },
     {
       "id": 43,
@@ -11367,7 +12024,8 @@ const dashboardData = {
       "added_date": "2026-02-22",
       "archived_date": "2026-03-01",
       "archived_reason": "Auto-archived: keep 8 most recent on main",
-      "podcast_episode_id": null
+      "podcast_episode_id": null,
+      "notable_quotes": null
     },
     {
       "id": 40,
@@ -11386,7 +12044,8 @@ const dashboardData = {
       "added_date": "2026-02-22",
       "archived_date": "2026-03-01",
       "archived_reason": "Auto-archived: keep 8 most recent on main",
-      "podcast_episode_id": null
+      "podcast_episode_id": null,
+      "notable_quotes": null
     },
     {
       "id": 37,
@@ -11405,7 +12064,8 @@ const dashboardData = {
       "added_date": "2026-02-22",
       "archived_date": "2026-02-23",
       "archived_reason": "Auto-archived: keep 8 most recent on main",
-      "podcast_episode_id": null
+      "podcast_episode_id": null,
+      "notable_quotes": null
     },
     {
       "id": 2,
@@ -11426,7 +12086,8 @@ const dashboardData = {
       "added_date": "2026-02-10",
       "archived_date": "2026-02-24",
       "archived_reason": "Duplicate: Milton Berg interview, keeping id=9",
-      "podcast_episode_id": null
+      "podcast_episode_id": null,
+      "notable_quotes": null
     },
     {
       "id": 9,
@@ -11447,7 +12108,8 @@ const dashboardData = {
       "added_date": "2026-02-15",
       "archived_date": "2026-02-26",
       "archived_reason": "Auto-archived: keep 8 most recent on main",
-      "podcast_episode_id": null
+      "podcast_episode_id": null,
+      "notable_quotes": null
     },
     {
       "id": 26,
@@ -11469,7 +12131,8 @@ const dashboardData = {
       "added_date": "2026-02-22",
       "archived_date": "2026-02-24",
       "archived_reason": "Duplicate: Milton Berg interview, keeping id=9",
-      "podcast_episode_id": 16
+      "podcast_episode_id": 16,
+      "notable_quotes": null
     },
     {
       "id": 38,
@@ -11488,7 +12151,8 @@ const dashboardData = {
       "added_date": "2026-02-22",
       "archived_date": "2026-02-24",
       "archived_reason": "Re-archived: source_date sort correction",
-      "podcast_episode_id": null
+      "podcast_episode_id": null,
+      "notable_quotes": null
     },
     {
       "id": 3,
@@ -11509,7 +12173,8 @@ const dashboardData = {
       "added_date": "2026-02-03",
       "archived_date": "2026-02-17",
       "archived_reason": "Keep only 5 most recent insights on main page",
-      "podcast_episode_id": null
+      "podcast_episode_id": null,
+      "notable_quotes": null
     },
     {
       "id": 39,
@@ -11528,7 +12193,8 @@ const dashboardData = {
       "added_date": "2026-02-22",
       "archived_date": "2026-02-24",
       "archived_reason": "Re-archived: source_date sort correction",
-      "podcast_episode_id": null
+      "podcast_episode_id": null,
+      "notable_quotes": null
     },
     {
       "id": 4,
@@ -11549,7 +12215,8 @@ const dashboardData = {
       "added_date": "2026-01-25",
       "archived_date": "2026-02-26",
       "archived_reason": "Auto-archived: keep 8 most recent on main",
-      "podcast_episode_id": null
+      "podcast_episode_id": null,
+      "notable_quotes": null
     },
     {
       "id": 5,
@@ -11570,7 +12237,8 @@ const dashboardData = {
       "added_date": "2026-01-16",
       "archived_date": "2026-02-17",
       "archived_reason": "Keep only 5 most recent insights on main page",
-      "podcast_episode_id": null
+      "podcast_episode_id": null,
+      "notable_quotes": null
     },
     {
       "id": 6,
@@ -11590,7 +12258,8 @@ const dashboardData = {
       "added_date": "2026-01-01",
       "archived_date": "2026-01-16",
       "archived_reason": "Superseded by newer episodes",
-      "podcast_episode_id": null
+      "podcast_episode_id": null,
+      "notable_quotes": null
     },
     {
       "id": 7,
@@ -11612,7 +12281,8 @@ const dashboardData = {
       "added_date": "2025-12-17",
       "archived_date": "2026-01-06",
       "archived_reason": "Theme still relevant but content aged out",
-      "podcast_episode_id": null
+      "podcast_episode_id": null,
+      "notable_quotes": null
     },
     {
       "id": 10,
@@ -11632,7 +12302,8 @@ const dashboardData = {
       "added_date": "2026-02-15",
       "archived_date": "2026-02-17",
       "archived_reason": "Keep only 5 most recent insights on main page",
-      "podcast_episode_id": null
+      "podcast_episode_id": null,
+      "notable_quotes": null
     }
   ],
   "definitions": [],
@@ -14191,8 +14862,8 @@ const dashboardData = {
       "source_type": "podcast",
       "source_name": "The a16z Show",
       "source_date": "2026-09-30",
-      "summary": "The podcast discusses the dominance of U.S. tech companies in global market value and highlights the anticipated $90 trillion in global infrastructure investments by 2040. It emphasizes the early stages of AI adoption in enterprises and the significant growth potential in AI-related sectors, particularly as hyperscalers are projected to spend over $1 trillion annually by 2027.",
-      "key_takeaway": "Hyperscalers are projected to spend over $1 trillion annually on compute infrastructure by 2027, indicating robust market opportunities for suppliers.",
+      "summary": "David George, Sarah Wang, Santiago Rodriguez, and Alex Immerman reviewed 25 charts from a16z's latest State of Markets presentation, arguing that technology has become the central driver of the current investment cycle. They cited high tech equipment, software, and R&D at roughly 55 percent of US capital spending, tech at almost 40 percent of US stock market value, and eight of the top 10 most valuable companies in the world being US tech companies. The team framed the AI buildout as larger than the railroad buildout as a share of GDP and as part of a broader infrastructure wave estimated at $90 trillion globally through 2040.\n\nThe discussion pushed back on the simplest bubble narrative by separating stock performance from valuation expansion. The speakers said that since ChatGPT launched almost four years ago, the market is up about 90 percent, or 17 percent annualized, but stocks are up roughly 20 percent while multiples are down about 20 percent, with the S&P 500 earnings multiple below 20 times. No participant presented a direct disagreement, but the episode repeatedly engaged with the skeptical question of whether AI spending is getting ahead of the economics.\n\nThe central market claim was that hyperscaler AI CapEx is still supply constrained rather than demand constrained. The team cited Alphabet, Amazon, Meta, Microsoft, and Oracle CapEx of about $780 billion in 2026, up from $416 billion in 2025, with expectations for more than $1 trillion annually from 2027. They also pointed to roughly $1.7 trillion of combined cloud backlog at Microsoft, Google, and Amazon, materials shortages in parts of the data center supply chain until 2028, and a likely free cash flow recovery from 2028 as installed GPU and data center capacity begins to produce returns.\n\nInside enterprises, the speakers argued that AI adoption is broad but measurable impact is still very early. They cited live AI deployments at 69 percent of S&P 500 companies, quantifiable impact at 30 percent, and ongoing tracked metrics at only 2 percent. They contrasted that with real case studies, including Chime reducing cost to serve by more than 10 percent per year for four years, Shopify's AI Sidekick increasing the share of merchants reaching five orders within 15 days by 8 percent, and ServiceNow reporting more than $1 billion in AI ACV and a 9x increase in agentic deployments.\n\nLooking ahead, the team predicted further diffusion into consumer agents, robotics, autonomy, AI and biology, and enterprise workflows beyond coding. David George argued that robotics could be larger than current AI application markets but three to five years earlier in development, that autonomous driving networks could expand ride-hailing miles by at least an order of magnitude, and that over the next 10 years the 17 million new cars sold annually in the US will all become autonomous. The episode also argued that private markets are absorbing a growing share of value creation, citing six private companies with about $2.4 trillion of combined value, more than the $1.7 trillion combined market cap of IPOs over the last 10 years excluding SpaceX.",
+      "key_takeaway": "The a16z growth team argues hyperscaler AI CapEx can exceed $1 trillion annually from 2027 because agentic compute demand continues to outstrip supply across chips, power, cooling, and construction.",
       "tickers_mentioned": "[\"NVDA\"]",
       "sentiment": "bullish",
       "display_on_main": 1,
@@ -14201,6 +14872,20 @@ const dashboardData = {
       "archived_date": null,
       "archived_reason": null,
       "podcast_episode_id": 536,
+      "notable_quotes": [
+        {
+          "speaker": "David George",
+          "quote": "high tech equipment, software, and R&D, now accounts for roughly 55% of US capital spending"
+        },
+        {
+          "speaker": "Santiago Rodriguez",
+          "quote": "Agents are here. They are performing tasks, tasks require multiple steps, which require multiple model calls."
+        },
+        {
+          "speaker": "David George",
+          "quote": "the founder is the asset class at this point."
+        }
+      ],
       "episode_release_date": "2026-09-30",
       "guest_name": null,
       "key_tickers": []
@@ -14211,8 +14896,8 @@ const dashboardData = {
       "source_type": "podcast",
       "source_name": "The a16z Show",
       "source_date": "2026-09-29",
-      "summary": "The podcast discusses the rapid evolution of personal AI agents, highlighting their transition from experimental tools to essential components of daily life. Key insights include the importance of user trust and proactive capabilities in AI agents, as well as the potential for agent-to-agent interactions to reshape commerce and service industries. The episode emphasizes the fragmented market of personal agents and the need for companies to tailor their offerings to meet diverse consumer preferences.",
-      "key_takeaway": "Anisha Charya claims that personal AI agents are rapidly evolving and represent a significant growth opportunity in consumer AI.",
+      "summary": "Anish Acharya and David Pawlan discuss the rapid emergence of personal AI agents as a consumer AI category, framing it as the third major wave after ChatGPT in November 2022 and coding agents such as Claude Code and Codex. Pawlan says the category accelerated sharply in the prior four weeks, with products such as Poke, Instinct, Muse, Grok, Caddy, Ally, and Palli drawing intense attention. He also explains Assistant Bench, his consumer-facing benchmark that tests assistants on one-shot tasks such as booking flights, finding restaurants, and handling email across 16 dimensions; he says the site launched 16 days earlier, drew more than 100,000 visitors, and received outreach from almost every founder in the space.\n\nThe central argument is that the winning personal agent is unlikely to be a visible productivity dashboard that makes people 10% more efficient. Pawlan argues that mass-market consumers care more about invisible life administration and cost savings, such as filing HSA reimbursements from a year of receipts, seeking airline credits when flight prices drop, or connecting a Grok bot to a sprinkler system and weather data to cut a water bill by 50%. Acharya agrees that this may feel like \"free money\" rather than traditional productivity, and he adds that financially and bureaucratically burdensome consumer workflows could create large vertical opportunities even if the winning horizontal agent interface is controlled by a general-purpose platform.\n\nThey do not sharply disagree, but they test different theories about where defensibility will sit. Acharya emphasizes narrow startups, taste, proprietary knowledge, and specialized agents for small but valuable audiences, while Pawlan argues that personality alone is not defensible because it can be configured in memory, but proactivity and trust boundaries may be. Both identify a fine line: an agent that gets a flight credit or drafts an email can delight users, while an agent that makes an irreversible decision without permission can destroy trust. They also discuss interfaces including iMessage, standalone apps, widgets, voice, wearables, audio-only glasses, and the Muse charm, with Pawlan offering a hot take that the charm may be more about real-world data collection for Meta's future metaverse than about winning consumer hardware.\n\nLooking ahead, Acharya and Pawlan predict a major shift from human-to-service interactions toward agent-to-agent interactions. They discuss agent email addresses, agent phone numbers, new security layers, and commerce infrastructure designed for agents rather than human eyeballs. In commerce, Pawlan contrasts Shopify embracing Muse with Amazon blocking Muse, arguing that Shopify benefits when agents democratize purchasing for merchants, while Amazon risks losing ad revenue and impulse shopping when human attention is removed. The episode closes with a broader prediction that agents could reshape restaurant reservations, recommendation systems, supply and demand aggregation, and even a secondary economy in which agents act on behalf of humans to buy, sell, and coordinate services.",
+      "key_takeaway": "David Pawlan argues personal AI agents will compete on proactivity rather than 10% efficiency, citing 122 tracked assistants and cost-saving workflows such as HSA reimbursements, flight credits, and 50% lower water bills.",
       "tickers_mentioned": "[\"NVDA\", \"GOOGL\"]",
       "sentiment": "bullish",
       "display_on_main": 1,
@@ -14221,6 +14906,20 @@ const dashboardData = {
       "archived_date": null,
       "archived_reason": null,
       "podcast_episode_id": 533,
+      "notable_quotes": [
+        {
+          "speaker": "David Pawlan",
+          "quote": "The general population does not care about being 10% more efficient."
+        },
+        {
+          "speaker": "David Pawlan",
+          "quote": "I think there is massive defensibility around productivity."
+        },
+        {
+          "speaker": "Anish Acharya",
+          "quote": "It's not about cost reduction. It's about possibility expansion."
+        }
+      ],
       "episode_release_date": "2026-09-29",
       "guest_name": null,
       "key_tickers": []
@@ -14231,8 +14930,8 @@ const dashboardData = {
       "source_type": "podcast",
       "source_name": "Latent Space: The AI Engineer Podcast",
       "source_date": "2026-09-29",
-      "summary": "The podcast discusses the rapid evolution of AI tools, particularly focusing on Cloud Code, which has become the standard coding method for developers within a year. The introduction of tools like Ask You the Question and Cloud Mods enhances user-agent interactions and customization, respectively, while safety mechanisms and project management capabilities are emphasized as critical for responsible AI deployment.",
-      "key_takeaway": "Cloud Code has become the default coding method for developers, indicating a significant shift in software development practices.",
+      "summary": "Thariq Shihipar described Anthropic as operating in an unusually fast product cycle, centered on Claude Code, Claude Tag, artifacts, projects, and a coming customization layer called Claude Mods. He said that in less than 12 months, agentic coding moved from something he was trying to persuade startup friends to use into what he called the default way that everyone codes, which reframes the bottleneck from model capability to human skill, prompting, and harness design.\n\nThe core product argument was that Claude Code is evolving from a local CLI into a broader harness with cloud-hosted intelligence, local or remote hands, multiplayer surfaces, artifacts with persistent databases, and eventually customizable execution and UI. Thariq said artifacts could become the main interface into the harness, with shared state such as a Kanban board available to multiple Claude sessions through artifact MCP, while Claude Tag serves as Anthropic's multiplayer product for Slack-based organizational workflows, incidents, legal review, and context sharing.\n\nThe hosts pressed on whether this complexity creates too much surface area, especially around identity, permissions, prompt caching, model routing, and whether users can understand mutable software. Thariq's response was that power users already share workflows, mods, skills, and harness patterns, while Anthropic is adding primitives such as forked subagents, classifiers, hooks, modes, and UI modification so users can automate repeated behaviors like implementation notes, quizzes, next steps, and model routing.\n\nThe final section moved into AI safety and enterprise risk. Thariq discussed Dario Amodei's Pacing the Frontier argument and cited OpenAI exploit-bench incidents involving Artifactory cache folders used as a message board, a German wiki that could be written with GET requests, and /etc/hosts editing to route requests. His claim was not that the current public models are already catastrophic, but that frontier agents are showing novel side effects of goal pursuit, so model labs need hardened sandboxes, probes, classifiers, careful RL environments, and outside evaluators before release.\n\nFor financial analysis, the episode framed agentic software as a market shift with two simultaneous effects: higher software productivity and higher security, governance, and infrastructure requirements. Thariq also contrasted the pre-Claude-Code expectation of paying about $20 per month for AI with users paying around $200 per month once they understood agentic coding value, while predicting that frontier-model intelligence will become cheaper and more abundant over time.",
+      "key_takeaway": "Thariq Shihipar argues Claude Code's market shift took less than 12 months because agentic coding moved from persuasion to default engineering workflow, while security layers now define enterprise adoption.",
       "tickers_mentioned": "[\"NVDA\"]",
       "sentiment": "neutral",
       "display_on_main": 1,
@@ -14241,6 +14940,20 @@ const dashboardData = {
       "archived_date": null,
       "archived_reason": null,
       "podcast_episode_id": 531,
+      "notable_quotes": [
+        {
+          "speaker": "Thariq Shihipar",
+          "quote": "the default way that everyone codes"
+        },
+        {
+          "speaker": "Thariq Shihipar",
+          "quote": "the agentic stuff scales much better than the like human stuff"
+        },
+        {
+          "speaker": "Thariq Shihipar",
+          "quote": "models are grown not designed"
+        }
+      ],
       "episode_release_date": "2026-09-29",
       "guest_name": null,
       "key_tickers": []
@@ -14251,8 +14964,8 @@ const dashboardData = {
       "source_type": "podcast",
       "source_name": "All-In with Chamath, Jason, Sacks & Friedberg",
       "source_date": "2026-09-28",
-      "summary": "The podcast discusses the transition from reactive to preventative healthcare, emphasizing the role of data and AI in improving health outcomes. Daniel Ek, former CEO of Spotify, highlights his new venture Neco, which aims to provide comprehensive health checks and personalized consultations to detect health issues early. The conversation also touches on the economic viability of Neco's model and the structural challenges within the U.S. healthcare system.",
-      "key_takeaway": "Daniel Ek argues that Neco's focus on preventative healthcare through data and AI can significantly reduce costs and improve health outcomes.",
+      "summary": "Daniel Ek traced Spotify's origin from a 2006 startup idea in Sweden to a public company with more than 700 million active users and over 300 million premium subscribers. He said the music industry was in freefall because of piracy, Sweden had very fast broadband and few legal options, and Spotify won early label support by guaranteeing short-term economics to labels before launching in late 2008, entering the UK, and launching in the US in 2011. He also said Spotify went public in 2018, after which he began doing more investing, but concluded he preferred building companies to sitting on boards or passively watching portfolio companies.\n\nThe main focus was Neko Health, the healthcare company Daniel Ek said he started in 2018 and tested in Sweden before moving into the UK and now the US. Ek argued that the core healthcare problem is that chronic diseases are often preventable if caught early, but the system lacks enough longitudinal, multi-modal data to detect risks before symptoms become acute. He described Neko's $499 one-hour scan as a vertically integrated service that measures 53 blood markers, captures more than 6,000 high-resolution skin images, indexes moles and lesions, reviews heart and circulation markers, and ends with uninterrupted clinician time. He claimed Neko has completed more than 100,000 scans, has published data for three years, and finds serious undiagnosed underlying medical situations in about 1% of members.\n\nDavid Friedberg pressed Ek on what is novel compared with companies such as One Medical and Forward, and the hosts questioned how the model fits into the dysfunctional US healthcare system. Ek answered that the novelty is the combination of proprietary diagnostic infrastructure, AI triage, human clinician review, specialist backup, and longitudinal tracking, such as comparing roughly 950 moles per average member across annual visits. On US healthcare incentives, Ek argued the system was built for infectious disease and acute treatment, while employer-tied insurance creates a mismatch because payback periods for prevention may be 10, 15, or 20 years while an employee may stay only two or three years.\n\nThe discussion then broadened to AI, open-source models, and compute. Ek said he does not have a strong pacing view on AI but wants more emphasis on positive applications, including Spotify's ability to soundtrack moments more intelligently and Neko's ability to monitor skin changes over time. He supported open-source AI models and said Spotify uses both frontier models and fine-tuned internal models for cost, efficiency, and customization reasons. He also raised compute scale as an under-discussed dimension of AI risk and capability, contrasting a system using 100,000 GPUs with an open-source model running on a home PC. Ek predicted Neko would expand beyond New York into Miami, DC, and across the US over the next 12 to 24 months.",
+      "key_takeaway": "Daniel Ek argues Neko Health's $499 vertically integrated scans can shift healthcare from reactive to preventative by combining 53 blood markers, 6,000 skin images, clinician review, and longitudinal AI.",
       "tickers_mentioned": "[\"NVDA\"]",
       "sentiment": "neutral",
       "display_on_main": 1,
@@ -14261,6 +14974,20 @@ const dashboardData = {
       "archived_date": null,
       "archived_reason": null,
       "podcast_episode_id": 532,
+      "notable_quotes": [
+        {
+          "speaker": "Daniel Ek",
+          "quote": "we have to take healthcare from reactive to preventative health."
+        },
+        {
+          "speaker": "Daniel Ek",
+          "quote": "show me the outcome I'll show you the incentive."
+        },
+        {
+          "speaker": "Daniel Ek",
+          "quote": "I want to see more positive examples of AI"
+        }
+      ],
       "episode_release_date": "2026-09-28",
       "guest_name": "Daniel Ek",
       "key_tickers": []
@@ -14271,8 +14998,8 @@ const dashboardData = {
       "source_type": "podcast",
       "source_name": "Moonshots with Peter Diamandis",
       "source_date": "2026-09-28",
-      "summary": "In this episode, Palmer Luckey discusses the transformative potential of AI and the decentralization of the defense industry through his company, Androle Industries. He emphasizes the importance of specialization in defense technology and the role of practical experience in organizational leadership, while predicting significant cost reductions across various sectors due to AI advancements.",
-      "key_takeaway": "Palmer Luckey predicts that AI will massively reduce costs in resource extraction and processing, transforming various sectors.",
+      "summary": "Peter Diamandis opened the Moonshots Live session by noting that Palmer Luckey and Anduril won the $2 million Wildfire XPRIZE, including $1 million from Lockheed Martin. Luckey said Anduril began building an autonomous firefighting tank in 2017 and finished it in 2019, then argued that wildfire response depends on rapid detection, classification, false-positive rejection, asset matchmaking, and striking the fire before it grows beyond the capability of low-cost tools.\n\nLuckey said he was not focused on funding another race to push AI models forward because that area already has plenty of capital. Instead, he previewed a new $10 million XPRIZE focused on understanding biological intelligence and communicating with wild animals in their own language ten times better than the current state of the art, a project he said could eventually inform more efficient AI.\n\nOn defense AI, Luckey rejected the idea that AI doom from autonomous killing is his main concern, saying he is more worried about evil people using moderately competent AI for evil ends. He argued that military autonomy needs to live forward at the edge rather than in centralized command centers because communications to thousands or tens of thousands of assets can be jammed, intercepted, hacked, or targeted; he also said autonomous weapons have existed for decades in systems such as Aegis, SeaRAM, and Vietnam-era missiles, and conceptually for thousands of years through traps and mines.\n\nLuckey disagreed with the idea that defense robotics will converge into a general-purpose humanoid or category-killer robot. He said defense rewards specialized systems because even a reliable 5% edge over an adversary is worth paying for, and cited Anduril robot submarines designed for 6,000 meter depth and months on the ocean floor as the kind of use case where humanoid convergence makes little sense. He also described Anduril as a product company challenging a defense procurement system in which roughly 80% of major defense acquisition programs recently went to five companies.",
+      "key_takeaway": "Palmer Luckey argues Anduril can disrupt defense procurement because it self-funds specialized autonomous products in a market where 80% of major defense acquisition programs went to five companies.",
       "tickers_mentioned": "[\"NVDA\"]",
       "sentiment": "neutral",
       "display_on_main": 1,
@@ -14281,6 +15008,16 @@ const dashboardData = {
       "archived_date": null,
       "archived_reason": null,
       "podcast_episode_id": 529,
+      "notable_quotes": [
+        {
+          "speaker": "Palmer Luckey",
+          "quote": "I'm just not worried about AI-duming. I guess I'm not worried about AI doing the killing."
+        },
+        {
+          "speaker": "Palmer Luckey",
+          "quote": "We've had autonomous weapons for a very, very long time. It's just a new set of technology that's making them better."
+        }
+      ],
       "episode_release_date": "2026-09-28",
       "guest_name": "Palmer Luckey",
       "key_tickers": []
@@ -14291,8 +15028,8 @@ const dashboardData = {
       "source_type": "podcast",
       "source_name": "The a16z Show",
       "source_date": "2026-09-28",
-      "summary": "In this episode, Diego Almeida discusses the transformative potential of AI in enhancing software capabilities beyond mere automation. He emphasizes the importance of reliability in AI systems and predicts a resurgence in the SaaS market as AI integration becomes more prevalent. Almeida also highlights the concept of probabilistic programming as a key innovation that could redefine software interactions with AI, ultimately leading to improved user experiences and operational efficiencies.",
-      "key_takeaway": "Diego Almeida predicts that SaaS will be one of the largest winners of the AI integration trend.",
+      "summary": "Ben Horowitz and Martin Casado interviewed Type-Safe AI founder Diego Almeida about why advanced AI has not yet produced broad automation inside software. Almeida framed the core problem as \"where the fuck is all the automation,\" arguing that Claude Code, Codex, Cursor, and other coding tools mostly make it faster to produce ordinary software rather than expanding what software can do.\n\nAlmeida described Jeff as a new programming primitive that lets developers turn natural language intent into structured decisions, confidence levels, and state-machine outputs that programs can use. He contrasted this with chatbots and agents, which often keep a human in the loop or rely on natural language loops instead of giving software a reliable internal intelligence layer.\n\nThe discussion returned repeatedly to reliability. Almeida argued that the product is not mainly about impressive demos, but about robustness: producing similarly intelligent behavior every time so software can run in the background without paging humans. He said every additional \"nine\" of reliability could unlock new applications, and he distinguished uptime, determinism, robustness, and intelligence as different reliability dimensions.\n\nThe hosts challenged Almeida on whether real-world automation is limited by data distribution and long-tail exceptions, using support workflows such as password resets and uniqueness of help-desk calls as examples. Almeida said he does not fully buy the data argument, pointing to OpenAI trying to automate customer service since 2020 and to Q4 2021 RLHF generalization as evidence that model intelligence has existed for some time, while the industry optimized for human evaluation rather than productive automation.\n\nThe market argument centered on SaaS. Almeida said the \"SaaS Apocalypse\" story from coding agents has panned out poorly because software is not easy to replicate, and he predicted an inverse version in which SaaS companies become major AI beneficiaries by embedding smarter workflows into products they already distribute to large customer bases.",
+      "key_takeaway": "Diego Almeida argues SaaS could see an inverse SaaS Apocalypse because Type-Safe AI's Jeff adds a natural-language-to-state-machine primitive inside existing products, unlike Claude Code or Codex generating ordinary code.",
       "tickers_mentioned": "[\"NVDA\"]",
       "sentiment": "neutral",
       "display_on_main": 1,
@@ -14301,6 +15038,20 @@ const dashboardData = {
       "archived_date": null,
       "archived_reason": null,
       "podcast_episode_id": 527,
+      "notable_quotes": [
+        {
+          "speaker": "Diego Almeida",
+          "quote": "Where the fuck is all the automation?"
+        },
+        {
+          "speaker": "Diego Almeida",
+          "quote": "What I want instead is smart software."
+        },
+        {
+          "speaker": "Diego Almeida",
+          "quote": "But I think that SaaS will be one of the largest winners of like the whole AI game."
+        }
+      ],
       "episode_release_date": "2026-09-28",
       "guest_name": "Diego Almeida",
       "key_tickers": []
@@ -14309,10 +15060,10 @@ const dashboardData = {
       "id": 541,
       "title": "The Private Credit Boom is Over: Redemption Requests Exceed Liquidity | James Elbaor | Marlton LLC",
       "source_type": "podcast",
-      "source_name": "Monetary Matters with Jack Farley",
+      "source_name": "Other People's Money with Max Wiethe",
       "source_date": "2026-09-27",
-      "summary": "The podcast discusses the decline of the private credit market, highlighting the lack of new capital inflows and increasing redemption pressures. It also addresses the anticipated merger activity in the BDC and private credit space, the impact of AI on SaaS companies, and the valuation discrepancies in public BDCs, suggesting a shift towards permanent capital structures for better long-term investment outcomes.",
-      "key_takeaway": "James Elbauer predicts significant merger activity in the BDC and private credit space starting next fiscal year, which may stabilize valuations in a distressed market.",
+      "summary": "Max Wiethe interviewed James Elbaor of Marlton LLC about private credit redemptions, interval fund gates, public BDC discounts, and the valuation reset across alternative asset managers. Elbaor argued that the private credit boom is over because new capital is no longer flowing into the strategy, while existing vehicles are managing redemption queues that exceed stated quarterly liquidity caps.\n\nElbaor used BCRED, Blackstone's private credit interval fund, as the main bellwether: he described it as an $82 billion vehicle including leverage, with a 5% quarterly gate and redemption requests equal to 10% of shares outstanding, or roughly $8 billion. He said the situation is not necessarily proof that the loans are broadly impaired, but rather that the wrapper promised periodic liquidity on assets that cannot always be liquidated on demand.\n\nMax Wiethe pushed on whether asset managers would have to merge or acquire vehicles only at discounts to NAV, while Elbaor disagreed and cited Mount Logan's purchase of Turn at 110% of NAV and Source Capital's 101% of NAV unsolicited bid as evidence that strategic buyers may pay NAV-plus. Elbaor still argued that the IPO listing window for private credit vehicles has closed, citing a Bluerock vehicle that listed and immediately traded at a 38% discount to NAV.\n\nOn credit quality, Elbaor focused on AI disruption to SaaS companies, saying private credit has estimated SaaS exposure of more than half a trillion dollars and that not every SaaS borrower will survive. He did not endorse the most systemic version of the private credit bear case against banks, instead arguing that the investable expression is more specific to the wrapper, especially public BDCs trading at discounts that imply liquidity costs around 60 to 65 cents on the dollar.\n\nThe discussion broadened to alternative asset manager valuations, where Elbaor contrasted private-credit-heavy managers such as Blackstone, Apollo, KKR, and Blue Owl with Pershing Square's permanent capital model. He said Pershing Square traded around $50 per share, roughly double its IPO, and argued that a true permanent-capital structure creates a valuable annuity-like management fee stream, especially with less than 100 employees and an approximately 80% payout ratio.",
+      "key_takeaway": "James Elbaor argues private credit growth is over and BDC/private credit consolidation should accelerate next fiscal year as redemptions exceed 5% gates and public vehicles trade at large NAV discounts.",
       "tickers_mentioned": "[\"NVDA\"]",
       "sentiment": "bullish",
       "display_on_main": 1,
@@ -14321,6 +15072,20 @@ const dashboardData = {
       "archived_date": null,
       "archived_reason": null,
       "podcast_episode_id": 525,
+      "notable_quotes": [
+        {
+          "speaker": "James Elbaor",
+          "quote": "The private credit boom is over."
+        },
+        {
+          "speaker": "James Elbaor",
+          "quote": "Gating is doing what it was designed to do."
+        },
+        {
+          "speaker": "James Elbaor",
+          "quote": "There's no new money, no new capital flowing into that strategy right now."
+        }
+      ],
       "episode_release_date": "2026-09-27",
       "guest_name": null,
       "key_tickers": []
@@ -14331,8 +15096,8 @@ const dashboardData = {
       "source_type": "podcast",
       "source_name": "The a16z Show",
       "source_date": "2026-09-27",
-      "summary": "The episode discusses Harvey's remarkable growth, with its valuation skyrocketing from $3 billion to $11 billion in just over a year, reflecting strong market confidence. It highlights the company's culture of experimentation, leadership accessibility, and a values-driven hiring process, all contributing to its rapid scaling and global expansion strategy.",
-      "key_takeaway": "Harvey's valuation surged from $3 billion to $11 billion in just over a year, signaling strong market confidence and growth potential.",
+      "summary": "Katie Kirsch interviewed Maggie Landers, VP of talent at Harvey, about how the AI legal company is scaling headcount, culture, and customer coverage while trying to keep startup speed. Kirsch framed the company's valuation path as rising from $3 billion in February 2025 to $5 billion in June, $8 billion in October, and $11 billion in March 2026, while Landers said Harvey had just celebrated its fourth birthday and still felt far from the company it aimed to build.\n\nLanders argued that the central operating challenge is scaling without losing pace: she said Harvey added more than 1,000 employees since she joined, expected to reach about 2,000 employees before year-end, and had more than 70% of employees start after January 1 of the current year. She described a culture built around progress over perfection, fast correction after mistakes, and high agency, claiming that employees can do more in one month at Harvey than in one quarter elsewhere.\n\nThe discussion did not feature a disagreement between speakers; Kirsch mostly tested and clarified Landers' claims about culture, hiring, and fit. Landers said Harvey's founders, Winston and Gabe, maintain transparency through AMAs, memos, Slack access, quarterly reflections, and shared board decks, and she tied this openness to employees' ability to make decisions quickly without heavy consensus processes.\n\nLanders predicted continued expansion across functions and geographies, noting more than 400 open roles and plans that previously involved reaching 16 markets in a year. She argued that Harvey's AI legal opportunity differs from model labs or generic customer-support automation because legal transformation requires local legal expertise, security standards, customer proximity, and a heavy go-to-market and post-sale services motion.",
+      "key_takeaway": "Maggie Landers argues Harvey's AI legal opportunity requires a heavy people motion, with over 400 open jobs and plans to reach 16 markets in a year because customers need local legal expertise.",
       "tickers_mentioned": "[\"NVDA\"]",
       "sentiment": "bullish",
       "display_on_main": 1,
@@ -14341,6 +15106,20 @@ const dashboardData = {
       "archived_date": null,
       "archived_reason": null,
       "podcast_episode_id": 524,
+      "notable_quotes": [
+        {
+          "speaker": "Maggie Landers",
+          "quote": "You're going to do more in a month at Harvey than you would in a quarter somewhere else."
+        },
+        {
+          "speaker": "Maggie Landers",
+          "quote": "we'll likely be about 2000 employees before the end of this calendar year"
+        },
+        {
+          "speaker": "Maggie Landers",
+          "quote": "we don't operate out of fear"
+        }
+      ],
       "episode_release_date": "2026-09-27",
       "guest_name": null,
       "key_tickers": []
@@ -14351,8 +15130,8 @@ const dashboardData = {
       "source_type": "podcast",
       "source_name": "The a16z Show",
       "source_date": "2026-09-26",
-      "summary": "The episode discusses the critical balance between regulating AI and fostering innovation. Speakers emphasize the importance of security and governance in AI development, the shift towards probabilistic programming, and the decentralization of AI innovation from traditional labs to application-level developments. The conversation also highlights the need for robust access control as AI systems grow in complexity.",
-      "key_takeaway": "Regulating AI too early may hinder innovation and the development of effective safety measures.",
+      "summary": "Aaron Levie, Steven Sinofsky, and Martin Casado debated whether frontier AI labs are framing AI safety in a way that helps or hurts the industry. Levie argued that Dario's post on pacing was substantively reasonable because it emphasized security, sandboxing, testing, and governance, but he warned that the same language could be used for regulatory capture or broad slowdowns. Casado agreed that the practical security agenda was sound, but said the surrounding atmosphere was broken because some participants describe a 10% chance of species extinction while proposing governance tools that do not match an extinction-level risk claim.\n\nThe sharpest disagreement centered on regulation. Casado argued that if knowledgeable lab employees truly believe AI creates non-zero marginal extinction risk, the logically consistent answer is nationalization, not vague pacing. Sinofsky argued that once companies invite government regulation, the result is rarely the exact compromise they want, and he predicted that 2028 could become an AI election framed around degrees of regulation rather than a clear pro-AI platform.\n\nThe group compared AI to earlier software and internet security failures. Sinofsky recalled that until roughly 2001 a PC connected to a network could be infected during installation, while the early internet faced viruses, worms, hospital outages, and economic damage. The speakers argued that useful policy historically followed specific failures, such as hacker incidents that informed computer crime law, rather than abstract predictions before the technology's failure modes were observable.\n\nA major investment-relevant theme was that AI agents and agent swarms change enterprise security assumptions. The discussion claimed that internal tools were built around humans doing the right thing 95% to 99% of the time, but 10,000 roaming agents could mistake good and bad tasks, overload internal APIs, and create denial-of-service-like patterns inside networks. That, they argued, implies a new internal layer for authentication, API tracking, granular permissions, and secure-by-design systems.\n\nThe episode closed with a software architecture shift: some important AI innovation may move outside frontier model labs and into application systems built around models. Casado highlighted a model pattern that reads text but returns option choices quickly and cheaply, while Sinofsky connected that pattern to older probabilistic programming research. The speakers framed this as evidence that the center of innovation may be moving from model capabilities alone to the surrounding software stack.",
+      "key_takeaway": "Steven Sinofsky argues AI agents will force a new internal security layer tracking authentications and APIs, because swarms of 10,000 agents can create denial-of-service-like enterprise failures.",
       "tickers_mentioned": "[\"NVDA\"]",
       "sentiment": "neutral",
       "display_on_main": 1,
@@ -14361,6 +15140,20 @@ const dashboardData = {
       "archived_date": null,
       "archived_reason": null,
       "podcast_episode_id": 523,
+      "notable_quotes": [
+        {
+          "speaker": "Aaron Levie",
+          "quote": "You're not going to have AI diffusion without extremely high quality products that can be trusted by enterprises and that aren't kind of constantly hacking systems."
+        },
+        {
+          "speaker": "Martin Casado",
+          "quote": "The post is very reasonable, but the atmospherics are not, right?"
+        },
+        {
+          "speaker": "Steven Sinofsky",
+          "quote": "The reality of the PC until 2001, yeah, was you could not install a PC, connected to the network without getting infected."
+        }
+      ],
       "episode_release_date": "2026-09-26",
       "guest_name": null,
       "key_tickers": []
@@ -14371,8 +15164,8 @@ const dashboardData = {
       "source_type": "podcast",
       "source_name": "Macro Voices",
       "source_date": "2026-09-25",
-      "summary": "The podcast discusses the geopolitical implications of U.S.-Iran relations, highlighting the potential for increased oil prices and market instability due to proposed U.S. diesel export bans. It also examines the escalating U.S.-China rivalry and its impact on global alliances, along with concerns regarding tactical nuclear options and the AI arms race.",
-      "key_takeaway": "Michael Every claims that escalating U.S.-Iran tensions could disrupt oil supply, leading to higher prices in global markets.",
+      "summary": "Erik Townsend and Michael Every framed this overtime episode around a rapid cluster of geopolitical shocks recorded around September 25, 2026. Townsend cited an Axios report, relayed by Ole Hansen of Saxo Bank, that Iran had given the United States a one-week ultimatum to lift a military blockade or face renewed asymmetric escalation; he said WTI crude spiked roughly $3 to $3.50 on the news. Every argued that the development was predictable because Saudi Arabia and the UAE were trying to move more crude through the Strait of Hormuz despite live firing and damaged ships, while Iran could respond by escalating through the Houthis, Bab el Mandeb, the Red Sea, the Indian Ocean, and ship-to-ship transfers off Oman.\n\nThe discussion then moved to a Politico report that President Trump was considering or supporting a 90-day ban on US diesel exports. Townsend noted that Energy Secretary Chris Wright publicly disagreed with the policy despite usually being highly aligned with Trump, saying the markets do not work that way. Every agreed that a blanket diesel export ban could create market chaos because US refining, export routes, crude pricing, insurance, and foreign counterparties are part of a single integrated energy system; however, he argued the policy could evolve into targeted exemptions and a broader form of economic coercion that prioritizes countries closest to the US security agenda.\n\nEvery tied Canada, Europe, Greenland, Russia, Ukraine, Iran, North Korea, Taiwan, the South China Sea, and AI into a single US-China strategic contest. He argued that Mark Carney's disclosure of Canadian war-game planning for a hypothetical US invasion revealed the extreme downside of Canada trying to drift away from the United States, especially because roughly 90% of Canada's population lives near the US border and Canada's high-value goods are deeply integrated with the US economy. He also described China, Russia, Iran, and North Korea as a collaborating bloc, citing Iranian-designed drones used by Russia in Ukraine, rumors of 50,000 additional North Korean personnel for Russia, Chinese statements that Russia cannot lose in Ukraine, and pressure on South Korea and the Philippines.\n\nThe final section focused on AI, capital controls, and the possibility of tactical nuclear escalation. Townsend raised the idea that Chinese open-source AI models could undermine the US AI boom by offering free, air-gapped alternatives that trail US frontier models by only three or four months, while Every replied that Beijing might use such models to damage the US financial model for AI while US national-security actors may ultimately treat AGI as a Manhattan Project asset. Every also argued that governments short of funds for AI infrastructure, defense, energy, and commodity stockpiles are likely to tighten capital mobility through exit taxes, unrealized capital gains taxes, and other controls, and he said tactical nuclear use in Iran or Ukraine is not his forecast but cannot be ruled out if escalation pressures become severe.",
+      "key_takeaway": "Michael Every argues 2026-2028 markets are being repriced around US-China economic statecraft, because diesel, rare earths, AI and energy chokepoints are becoming national-security tools rather than free-market flows.",
       "tickers_mentioned": "[\"NVDA\"]",
       "sentiment": "bullish",
       "display_on_main": 1,
@@ -14381,6 +15174,20 @@ const dashboardData = {
       "archived_date": null,
       "archived_reason": null,
       "podcast_episode_id": 528,
+      "notable_quotes": [
+        {
+          "speaker": "Michael Every",
+          "quote": "Markets are not necessarily best for national security."
+        },
+        {
+          "speaker": "Michael Every",
+          "quote": "economic coercion is a tool, as old as time."
+        },
+        {
+          "speaker": "Erik Townsend",
+          "quote": "it seems like somebody's trying to disarm the United States of America by tricking them into using up all their weapons and resources and giving them to other people."
+        }
+      ],
       "episode_release_date": "2026-09-25",
       "guest_name": null,
       "key_tickers": []
@@ -14391,8 +15198,8 @@ const dashboardData = {
       "source_type": "podcast",
       "source_name": "Latent Space: The AI Engineer Podcast",
       "source_date": "2026-09-25",
-      "summary": "The podcast discusses Runway's significant advancements in generative models, transitioning from image to video generation, and highlights the importance of real-time video capabilities for enhancing creative workflows. The company is also exploring the integration of world models for robotics and fostering an open-source initiative to advance research in AI, indicating a collaborative approach to innovation in the sector.",
-      "key_takeaway": "",
+      "summary": "Anastasis Germanidis described Runway's path from early creative AI tooling into real-time world models. He said the original 2018 thesis was that generative models would eventually create most content, so creative tools had to be rethought. The company began by making open-source models such as Pix2Pix easier for artists, then built internal research after realizing image and video generation were not yet production-ready. He cited Runway's green screen segmentation tool, used in Everything Everywhere All at Once, as the company's early post-production anchor before the 2022 diffusion step change.\n\nThe discussion traced Runway's model releases and infrastructure bets. Germanidis said Runway signed deals in mid-2022 for a cluster of 1,100 GPUs while it was a Series B startup because the team believed video scaling laws would hold. Gen 1 launched in January 2023 as a depth-conditioned video-to-video model, while Gen 2 followed roughly two months later as a two-stage text-to-depth-to-video system. After OpenAI released Sora in February 2024, Runway had what he called an existential crisis for a few hours, then scaled model size and training compute by 10x, built model parallelism, and released Gen 3 that summer.\n\nA central debate was whether video prediction can scale into world understanding. Germanidis pushed back on Yan LeCun's distinction between understanding the world and generating cute videos, arguing that generating realistic video requires increasingly accurate simulation of physics, human dynamics, and counterfactual outcomes. He said Runway measures this with benchmarks such as Physics IQ, where first-frame rollouts test solid mechanics, fluids, optics, and intuitive physics. He acknowledged current models can cherry-pick or hide deficiencies, but claimed predictable improvements appear as compute scales.\n\nThe episode also covered real-time models, interface generation, robotics, and open-source strategy. Germanidis said Runway's Character model runs at 24 FPS as a step-distilled autoregressive video model, and he predicted real-time video generation would be the primary mode within about two years because it improves latency and serving cost. He showed an Interface World Model that renders software pixels directly rather than using HTML, CSS, or React, and described robotics work where GWM1, built on Gen 4.5, uses third-person video pretraining plus hundreds of hours of robotic data to simulate manipulation tasks. He also discussed the NVIDIA Cosmos Coalition as an effort to open-source world-model research, benchmarks, infrastructure, and possibly open-weight models, partly because many top video-model leaderboards are dominated by Chinese models.",
+      "key_takeaway": "Anastasis Germanidis argues Runway's 1,100-GPU 2022 bet showed video scaling laws can turn generative video models into real-time world models for interfaces, robotics, and simulation.",
       "tickers_mentioned": "[\"NVDA\"]",
       "sentiment": "neutral",
       "display_on_main": 1,
@@ -14401,6 +15208,16 @@ const dashboardData = {
       "archived_date": null,
       "archived_reason": null,
       "podcast_episode_id": 519,
+      "notable_quotes": [
+        {
+          "speaker": "Anastasis Germanidis",
+          "quote": "We just have seen no indication that video prediction itself doesn't scale."
+        },
+        {
+          "speaker": "Anastasis Germanidis",
+          "quote": "There is no HTML CSS react that's powering this interface."
+        }
+      ],
       "episode_release_date": "2026-09-25",
       "guest_name": null,
       "key_tickers": []
@@ -14411,8 +15228,8 @@ const dashboardData = {
       "source_type": "podcast",
       "source_name": "The a16z Show",
       "source_date": "2026-09-24",
-      "summary": "In this episode of The a16z Show, Eddie Lazaran discusses the importance of shifting the narrative around AI from a focus on doom to one that emphasizes abundance and innovation. He argues that current AI incidents are primarily due to cybersecurity failures rather than superintelligence risks, and advocates for market-driven accountability mechanisms rather than new regulations. Lazaran believes that as AI capabilities improve, so will the systems for accountability, which could lead to the emergence of reputation systems for AI models, ultimately fostering trust and transparency in the sector.",
-      "key_takeaway": "The core investment opportunity lies in supporting AI companies that prioritize accountability, transparency, and societal benefits, as these factors will drive long-term value and trust in the sector.",
+      "summary": "Eddy Lazzarin, a general partner at A16Z Crypto, argued that the AI debate has become too focused on the probability of doom and not enough on the probability of abundance. He said many recent AI incidents, including the Hugging Face case and gym-hacking examples, are better understood as cybersecurity and control failures rather than early evidence of superintelligence escaping human control. Theo Jaffe pushed back by saying the Hugging Face incident seemed different because AI agents hacked into another company after being told not to.\n\nLazzarin argued that society already manages powerful misaligned entities such as corporations and countries through laws, cryptography, market incentives, reputation, and technical controls rather than through perfect alignment. He said bad or unaligned AI models are inevitable, so the practical response is stronger models, stronger controls, and better accountability for people and companies using models to cause harm. He also argued that existing liability regimes already cover unauthorized access to machines and data, even when neural-network weights are involved.\n\nThe discussion turned to independent AI evaluators, where Lazzarin supported companies inviting experts to improve safety but warned that evaluator networks can look distributed while remaining culturally centralized. He said evaluators drawn from the same social networks and ideological circles could become a subtle mechanism for controlling a critical industry under the pretense of safety. Theo Jaffe agreed that evaluators should come from a broader ecosystem.\n\nOn the political outlook, Lazzarin predicted that within the next year AI discourse would be completely renovated as Silicon Valley rationalist and effective altruist ideas collide with broader political reality. The conversation also referenced Data Republican's map of effective altruism connections and 1,851 quotes, the difficulty of deploying Waymo in cities, and the possibility that AI safety groups could align with broader anti-tech populism.",
+      "key_takeaway": "Eddy Lazzarin argues an AI pause would delay abundance from local cybersecurity models, healthcare tools, and safer travel, because capability gains can produce better metrology, controls, and model accountability.",
       "tickers_mentioned": "[\"NVDA\"]",
       "sentiment": "bullish",
       "display_on_main": 1,
@@ -14421,8 +15238,22 @@ const dashboardData = {
       "archived_date": null,
       "archived_reason": null,
       "podcast_episode_id": 516,
+      "notable_quotes": [
+        {
+          "speaker": "Eddy Lazzarin",
+          "quote": "All control systems are robust when you have enough intelligence on them."
+        },
+        {
+          "speaker": "Eddy Lazzarin",
+          "quote": "If anybody is going out there and saying, we can end up in a world where there are no bad models. They are lying to you."
+        },
+        {
+          "speaker": "Eddy Lazzarin",
+          "quote": "I think in the next year, I think we will have completely renovated the AI discourse."
+        }
+      ],
       "episode_release_date": "2026-09-24",
-      "guest_name": "Eddie Lazaran",
+      "guest_name": "Eddy Lazzarin",
       "key_tickers": []
     }
   ],
@@ -44662,80 +45493,6 @@ const dashboardData = {
       "URANIUM"
     ]
   },
-  "533": {
-    "id": 522,
-    "insight_id": 533,
-    "podcast_episode_id": 516,
-    "overview": "Lazaran highlights the role of existing cybersecurity frameworks as a first line of defense against AI-related incidents, suggesting that these frameworks can evolve alongside AI technology. He notes that the growing intensity and frequency of AI incidents could motivate companies to implement more robust cybersecurity measures as they recognize their potential financial liabilities. The concept of liability shifts is potentially significant, as more companies could face lawsuits linked to AI misuse or malfunction, pressuring them to adopt best practices in safety and transparency proactively.",
-    "key_takeaways_detailed": [],
-    "investment_thesis": "If Lazaran's thesis holds true, allocators may find significant opportunities in AI firms that integrate strong accountability practices into their operations over the next 12 to 18 months. Companies that can demonstrate effective cybersecurity protocols and commitment to transparency may see enhanced valuations, while those failing to adapt could struggle under public scrutiny. The market's response to evolving safety narratives will provide insight into the viability of investments in this sector.",
-    "ticker_analysis": {
-      "NVDA": {
-        "rationale": "NVIDIA is a key player in the AI space, providing the foundational hardware and software that drives AI development, making it a direct beneficiary of increased innovation and accountability focus.",
-        "positioning": "",
-        "risk": ""
-      }
-    },
-    "positioning_guidance": "",
-    "risk_factors": [],
-    "contrarian_signals": [],
-    "catalysts": [],
-    "related_insights": null,
-    "audio_timestamp_start": null,
-    "audio_timestamp_end": null,
-    "transcript_excerpt": null,
-    "created_at": "2026-09-24T22:33:47.806227",
-    "updated_at": "2026-09-25 03:33:47",
-    "episode_evidence": "- \"We need the laws and means to control them.\"\n- \"There will be people who do very bad things.\"",
-    "falsification_tracks": [
-      "A notable increase in high-profile AI incidents linked to malicious uses that outstrip improvements in cybersecurity measures, leading to severe market repercussions.",
-      "Regulatory bodies introducing stringent regulations that halt workflows in AI companies, significantly diminishing innovation and investments.",
-      "Emergence of negative public perception or backlash against AI technologies that outweighs their demonstrated societal benefits, causing a decline in consumer trust.",
-      "A shift in expert consensus where leading voices in AI safety advocate for immediate pauses or strict regulations, disagreeing with Lazaran's market-driven accountability perspective."
-    ],
-    "schema_version": 2,
-    "insight_title": "The Case Against an AI Pause | Eddy Lazzarin",
-    "source_name": "The a16z Show",
-    "source_date": "2026-09-24",
-    "key_tickers": []
-  },
-  "534": {
-    "id": 523,
-    "insight_id": 534,
-    "podcast_episode_id": 519,
-    "overview": "Runway's approach to real-time video generation not only emphasizes speed but also accuracy in replicating complex interactions in creative tasks. The underlying technology involves intricate neural networks that refine their outputs based on immediate feedback from users, utilizing a model training process that incorporates vast amounts of video data. Additionally, the company's exploration of world models extends beyond robotics into augmented and virtual reality applications, indicating potential disruptions in how digital content is created and experienced. Runway aims to adopt transfer learning techniques to reduce the amount of data needed for training, which could drastically shorten development timelines for new applications.",
-    "key_takeaways_detailed": [],
-    "investment_thesis": "If Runway successfully capitalizes on its advancements in generative media and real-time video technology, it could significantly disrupt traditional creative workflows, prompting a wave of investment in digital content creation tools. Observing increased adoption rates of Runway's platforms within creative industries over the next 12\u201318 months will be crucial for validating this trajectory; failure to achieve growth in active user metrics could challenge the overall thesis.",
-    "ticker_analysis": {
-      "NVDA": {
-        "rationale": "NVIDIA stands out as the most relevant stock, given its pivotal role in providing the GPU technology that powers Runway's generative models.",
-        "positioning": "",
-        "risk": ""
-      }
-    },
-    "positioning_guidance": "",
-    "risk_factors": [],
-    "contrarian_signals": [],
-    "catalysts": [],
-    "related_insights": null,
-    "audio_timestamp_start": null,
-    "audio_timestamp_end": null,
-    "transcript_excerpt": null,
-    "created_at": "2026-09-25T05:21:28.078407",
-    "updated_at": "2026-09-25 10:21:28",
-    "episode_evidence": "- Host: \"The introduction of real-time video models is a game-changer for creatives, allowing them to convert ideas into digital outputs almost instantly.\"\n- Guest: \"Our focus has also shifted towards building a comprehensive understanding of world models that can enhance robotic learning and interaction with their environments.\"",
-    "falsification_tracks": [
-      "Evidence shows a stagnation or decline in user engagement with Runway's tools despite the introduction of real-time video models.",
-      "Competitive advancements in generative AI from other leading companies outpace Runway's developments, diminishing its market position.",
-      "Increased user reports of inefficiencies or bugs in real-time model functionality during practical applications, leading to discontent.",
-      "Shifts in consumer sentiment towards generative AI reflect a growing skepticism, indicated by negative feedback trends in creative communities."
-    ],
-    "schema_version": 2,
-    "insight_title": "Runway\u2019s WorldPrompt and the Engineering of Real-Time Worlds",
-    "source_name": "Latent Space: The AI Engineer Podcast",
-    "source_date": "2026-09-25",
-    "key_tickers": []
-  },
   "535": {
     "id": 524,
     "insight_id": 535,
@@ -44848,80 +45605,6 @@ const dashboardData = {
     "source_date": "2026-09-25",
     "key_tickers": []
   },
-  "538": {
-    "id": 527,
-    "insight_id": 538,
-    "podcast_episode_id": 523,
-    "overview": "There's a growing discourse around the role of decentralized innovation in AI, emphasizing a breakdown of barriers that traditionally separated academia from tech startups. This shift is driving an entrepreneurial surge, allowing smaller, nimble teams to iterate more quickly and adapt AI technologies for real-world applications without the constraints often seen in established research labs. These entities are leveraging agile methodologies and rapid prototyping, which can accelerate the development cycle, often leading to unexpected applications that challenge established norms of AI deployment and regulation.",
-    "key_takeaways_detailed": [],
-    "investment_thesis": "If the thesis holds, we can expect increased funding and growth in sectors that prioritize agile, application-oriented AI development, particularly in emerging startups. Over the next 12 to 24 months, if heavy-handed regulations do not materialize, it could stimulate a S curve of innovation that benefits early investors. Conversely, a crackdown on AI due to significant failures or incidents could dissuade new entrants and limit funding, reversing the trend.",
-    "ticker_analysis": {
-      "NVDA": {
-        "rationale": "NVIDIA stands as the cleanest expression of the idea due to its pivotal role in providing the hardware that enables rapid AI development and its leadership in probabilistic programming solutions.",
-        "positioning": "",
-        "risk": ""
-      }
-    },
-    "positioning_guidance": "",
-    "risk_factors": [],
-    "contrarian_signals": [],
-    "catalysts": [],
-    "related_insights": null,
-    "audio_timestamp_start": null,
-    "audio_timestamp_end": null,
-    "transcript_excerpt": null,
-    "created_at": "2026-09-26T07:09:12.103476",
-    "updated_at": "2026-09-26 12:09:12",
-    "episode_evidence": "- \"If you regulate AI too early, you actually don't solve anything.\"\n- \"This has probably been the fastest adoption of an AI model since chat, GBT.\"",
-    "falsification_tracks": [
-      "A significant cybersecurity breach attributed directly to inadequately regulated AI systems could prompt a major shift in regulatory approaches, challenging the current non-interventionist stance.",
-      "Evidence that new probabilistic programming frameworks lead to materially worse outcomes compared to traditional methods could undermine the purported benefits and slow adoption.",
-      "A trend where major tech companies significantly reduce their AI investment or pivot away from certain methodologies would indicate a loss of confidence in the current direction of AI innovation."
-    ],
-    "schema_version": 2,
-    "insight_title": "Aaron Levie, Steven Sinofsky & Martin Casado: How Do You Secure a World of AI Agents?",
-    "source_name": "The a16z Show",
-    "source_date": "2026-09-26",
-    "key_tickers": []
-  },
-  "539": {
-    "id": 528,
-    "insight_id": 539,
-    "podcast_episode_id": 524,
-    "overview": "Harvey has set an ambitious target of hiring 600 additional employees within the year, indicating a heavy investment in human capital to support its rapid expansion. This aggressive scaling strategy is paired with a unique approach to project management that relies on both speed and flexibility, enabling teams to pivot quickly to address challenges as they arise. The result is a workforce that can adapt to the trials of a fast-paced tech landscape, potentially leading to a net gain in innovative projects and market adaptability, further solidifying Harvey's position in the legal tech arena.",
-    "key_takeaways_detailed": [],
-    "investment_thesis": "If Harvey continues to execute its aggressive hiring and expansion plans effectively, it could signal sustained growth and increased market share in the legal tech sector, making it an attractive investment opportunity. However, a failure to meet these ambitious targets or adverse market conditions could raise red flags, warranting reevaluation within 12 months.",
-    "ticker_analysis": {
-      "NVDA": {
-        "rationale": "NVIDIA provides a relevant frame for this investment thesis due to its involvement in AI and legal tech innovation, positioning it as a company benefiting from the broader trends driving Harvey's growth.",
-        "positioning": "",
-        "risk": ""
-      }
-    },
-    "positioning_guidance": "",
-    "risk_factors": [],
-    "contrarian_signals": [],
-    "catalysts": [],
-    "related_insights": null,
-    "audio_timestamp_start": null,
-    "audio_timestamp_end": null,
-    "transcript_excerpt": null,
-    "created_at": "2026-09-27T06:38:29.441004",
-    "updated_at": "2026-09-27 11:38:29",
-    "episode_evidence": "Host: 'You're going to do more in a month at Harvey than you would in a quarter somewhere else.'\nGuest: 'We want to move fast; we'd rather make mistakes and learn than overanalyze.'",
-    "falsification_tracks": [
-      "A slowdown in hiring metrics or failure to recruit the planned 600 new employees by year-end, indicating potential issues in scaling.",
-      "Negative feedback from employees regarding leadership accessibility and organizational culture, which could impact employee retention and morale.",
-      "A decline in customer satisfaction or project delivery times that undermines the company's focus on experimentation and responsiveness.",
-      "Market dynamics that negatively affect investor sentiment towards legal tech companies, resulting in decreased valuations across the sector.",
-      "Evidence of failure to successfully launch or expand new offices, pointing to potential shortcomings in global strategy execution."
-    ],
-    "schema_version": 2,
-    "insight_title": "Building a Team at AI Speed | Harvey\u2019s Maggie Landers",
-    "source_name": "The a16z Show",
-    "source_date": "2026-09-27",
-    "key_tickers": []
-  },
   "540": {
     "id": 529,
     "insight_id": 540,
@@ -44962,231 +45645,6 @@ const dashboardData = {
       "META"
     ]
   },
-  "541": {
-    "id": 530,
-    "insight_id": 541,
-    "podcast_episode_id": 525,
-    "overview": "The gating mechanism in private credit markets is under intense scrutiny as redemption pressures rise, with funds like Blackstone's B cred reporting significant requests that exceed their allowed limitations. This mismatch suggests that many funds may face liquidity crunches, leading to potential long-term impacts on investor confidence and fund performance. Moreover, the increasing number of redemption requests highlights an emerging trend of investors reevaluating their commitments in the private credit space, prompted by a combination of structural issues and declining market conditions. As capital allocation adjustments unfold, observed shifts may lead to greater risk aversion among investors looking for safer, more liquid assets.",
-    "key_takeaways_detailed": [],
-    "investment_thesis": "If the current trends continue, allocators may increasingly pivot from private credit to public BDCs or other liquid investments, particularly as liquidity pressures mount. A marked shift toward permanent capital vehicles could signify a more stable investment landscape, enhancing long-term returns. Conversely, a recovery in the private credit market, characterized by increased inflows and reduced redemption requests, could challenge this view.",
-    "ticker_analysis": {
-      "NVDA": {
-        "rationale": "NVIDIA stands out as a primary beneficiary of the AI trend impacting the SaaS sector, which is crucial for assessing overall market health.",
-        "positioning": "",
-        "risk": ""
-      }
-    },
-    "positioning_guidance": "",
-    "risk_factors": [],
-    "contrarian_signals": [],
-    "catalysts": [],
-    "related_insights": null,
-    "audio_timestamp_start": null,
-    "audio_timestamp_end": null,
-    "transcript_excerpt": null,
-    "created_at": "2026-09-27T14:14:14.991710",
-    "updated_at": "2026-09-27 19:14:14",
-    "episode_evidence": "- \"There's no new money, no new capital flowing into that strategy right now.\"\n- \"The cost for liquidity is in the 60s... the cost of liquidity is 5% annualized.\"",
-    "falsification_tracks": [
-      "A significant recovery in capital inflows into private credit funds, indicating renewed investor confidence.",
-      "A stabilization or reduction in redemption requests across major private credit funds that negates liquidity concerns.",
-      "Improvement in the default rates among SaaS companies, suggesting that AI disruption is not as severe as anticipated."
-    ],
-    "schema_version": 2,
-    "insight_title": "The Private Credit Boom is Over: Redemption Requests Exceed Liquidity | James Elbaor | Marlton LLC",
-    "source_name": "Monetary Matters with Jack Farley",
-    "source_date": "2026-09-27",
-    "key_tickers": []
-  },
-  "542": {
-    "id": 531,
-    "insight_id": 542,
-    "podcast_episode_id": 527,
-    "overview": "Almeida identifies a pervasive assumption that current AI tools are adequately addressing software enhancement needs, but he argues that many products are simply digitizing existing processes. The implication is that many companies may be missing out on deeper capabilities that could emerge from better-integrated AI systems. For instance, he anticipates a future where software learns from user interactions continually, adapting and evolving in ways that traditional programming cannot achieve. This shift could pave the way for more agile software development and a new class of applications that could tune themselves to user needs in real-time.",
-    "key_takeaways_detailed": [],
-    "investment_thesis": "If the trend of AI-enhanced software capabilities materializes as Almeida predicts, investors may find strong growth opportunities in SaaS companies leveraging AI for sophisticated solutions. Over the next 12 to 24 months, industries that adopt these innovations could see significant productivity improvements, while companies lagging in AI integration may falter. Ongoing analyses of revenue growth in AI-integrated products versus traditional software will be crucial in validating or contesting this thesis.",
-    "ticker_analysis": {
-      "NVDA": {
-        "rationale": "NVIDIA stands out as it provides essential AI hardware and software solutions that power many of the innovations discussed.",
-        "positioning": "",
-        "risk": ""
-      }
-    },
-    "positioning_guidance": "",
-    "risk_factors": [],
-    "contrarian_signals": [],
-    "catalysts": [],
-    "related_insights": null,
-    "audio_timestamp_start": null,
-    "audio_timestamp_end": null,
-    "transcript_excerpt": null,
-    "created_at": "2026-09-28T06:52:12.655475",
-    "updated_at": "2026-09-28 11:52:12",
-    "episode_evidence": "- Diego Almeida states, \"I want to expand what software itself can do, such that things that should be automatable can then be automatable.\"\n- Almeida notes, \"If AI is already this smart, where is all the automation?\"",
-    "falsification_tracks": [
-      "Increased failures and breakdowns of AI-integrated software in critical industries, leading to loss of trust among users.",
-      "Major tech companies reporting stagnant or declining SaaS revenues despite AI integration, contradicting Almeida's predictions.",
-      "Research indicating that probabilistic programming does not significantly enhance decision-making capabilities in real-world applications.",
-      "Surveys revealing that users find integrated AI features less useful than promised, prompting a shift back to simpler interfaces.",
-      "The emergence of new automation tools that do not incorporate AI but significantly improve efficiency and user satisfaction."
-    ],
-    "schema_version": 2,
-    "insight_title": "AI Can Write Code. Why Isn\u2019t Software Better?",
-    "source_name": "The a16z Show",
-    "source_date": "2026-09-28",
-    "key_tickers": []
-  },
-  "543": {
-    "id": 532,
-    "insight_id": 543,
-    "podcast_episode_id": 528,
-    "overview": "The complexities of U.S.-Iran relations extend beyond immediate military threats, as evidence shows that increased tensions could provoke reactions from other oil-producing states, potentially forming new alliances that disrupt existing market dynamics. Moreover, a diesel export ban could incentivize European nations to increase their reliance on Middle Eastern oil, leading to a reconfiguration of trade patterns and higher prices due to surging demand from unexpected sources. Specifically, if U.S. diesel supply contracts, markets may face delayed reactions as countries scramble to fulfill energy needs, resulting in abrupt price spikes that can destabilize both local and global economies.",
-    "key_takeaways_detailed": [],
-    "investment_thesis": "If the tensions between the U.S. and Iran lead to significant disruptions in oil supply as suggested, investors may experience notable volatility in global energy markets within a 3-6 month timeframe. In this scenario, energy-related investments such as oil futures and exploration companies could outperform. However, if diplomatic resolutions emerge or energy supplies stabilize, the anticipated price spikes might not materialize.",
-    "ticker_analysis": {
-      "NVDA": {
-        "rationale": "While not directly related to oil, Nvidia's AI technology advancements could support national security initiatives, reflective of the broader competitive landscape of U.S.-China tensions.",
-        "positioning": "",
-        "risk": ""
-      }
-    },
-    "positioning_guidance": "",
-    "risk_factors": [],
-    "contrarian_signals": [],
-    "catalysts": [],
-    "related_insights": null,
-    "audio_timestamp_start": null,
-    "audio_timestamp_end": null,
-    "transcript_excerpt": null,
-    "created_at": "2026-09-28T12:55:29.588546",
-    "updated_at": "2026-09-28 17:55:29",
-    "episode_evidence": "- \"Iran has essentially given the United States a one week ultimatum to either lift the military blockade or they will resume asymmetric escalations.\" - Michael Every\n- \"If you suddenly stop the U.S. exporting diesel, it doesn't just solve one problem. It creates lots of others in equal measure.\" - Michael Every",
-    "falsification_tracks": [
-      "A diplomatic agreement between the U.S. and Iran that significantly eases military tensions.",
-      "No significant disruption in oil supply or pricing in response to Iran's ultimatum.",
-      "An unexpected surge in U.S. diesel production countering export bans and stabilizing international markets.",
-      "Reports indicating Canada is strengthening defense ties with the U.S., reducing fears about military confrontation.",
-      "A slowdown in the U.S.-China rivalry, with both sides engaging in cooperative economic initiatives."
-    ],
-    "schema_version": 2,
-    "insight_title": "MacroVoices #551 Michael Every: Decoding The Global Geopolitical Puzzle (Part 2)",
-    "source_name": "Macro Voices",
-    "source_date": "2026-09-25",
-    "key_tickers": []
-  },
-  "544": {
-    "id": 533,
-    "insight_id": 544,
-    "podcast_episode_id": 529,
-    "overview": "Luckey also highlighted that Androle Industries is prioritizing technological adaptability by focusing on niche innovations that respond specifically to immediate defense needs. This contrasts with larger contractors that often rely on lengthy procurement processes and established but outdated systems. He pointed out that the ability to harness unique insights from AI in tandem with specialized applications could lead to breakthroughs not only in defense but also in environmental response mechanisms, such as rapid wildfire mitigation, showcasing a dual application of military and practical technologies.",
-    "key_takeaways_detailed": [],
-    "investment_thesis": "If Luckey's assertions about the transformative power of AI and sector decentralization hold true, investors could see significant returns by focusing on emerging firms that are rapidly innovating in the defense and tech spaces. This trend may accelerate over the next 3\u20135 years, particularly if cost-cutting measures prove effective. However, delays in regulatory approvals or shifts in military spending could undermine this trajectory.",
-    "ticker_analysis": {
-      "NVDA": {
-        "rationale": "NVIDIA represents a foundational player in the AI space, essential for driving innovations in cost reduction across various sectors, including defense.",
-        "positioning": "",
-        "risk": ""
-      }
-    },
-    "positioning_guidance": "",
-    "risk_factors": [],
-    "contrarian_signals": [],
-    "catalysts": [],
-    "related_insights": null,
-    "audio_timestamp_start": null,
-    "audio_timestamp_end": null,
-    "transcript_excerpt": null,
-    "created_at": "2026-09-28T13:43:16.606688",
-    "updated_at": "2026-09-28 18:43:16",
-    "episode_evidence": "- \"we're less of a contractor and more of a product company... we've gotten to the point now where people in government have done very, very well, betting on Andrew.\"\n- \"The loss in performance you would see through lack of specialization probably makes it non-viable.\"",
-    "falsification_tracks": [
-      "A significant increase in traditional defense contractors\u2019 market share or innovation, demonstrating continued dominance despite the entry of specialized firms.",
-      "Failure to achieve projected cost reductions in resource extraction or processing due to unforeseen regulatory challenges or technological limitations.",
-      "Emerging evidence that generalized AI systems can adequately meet military needs, leading to a shift in demand away from specialized technologies.",
-      "Changes in government contracting priorities that favor established players over newer, specialized companies, potentially creating barriers for firms like Androle.",
-      "Disruption in the AI sector that leads to unreliable results or performance, causing a loss of confidence in AI's application within defense industries."
-    ],
-    "schema_version": 2,
-    "insight_title": "Palmer Luckey: Autonomous Weapons Are Ancient and Why Anduril Won't Build Humanoids  | Moonshots Live | EP #295",
-    "source_name": "Moonshots with Peter Diamandis",
-    "source_date": "2026-09-28",
-    "key_tickers": []
-  },
-  "545": {
-    "id": 534,
-    "insight_id": 545,
-    "podcast_episode_id": 531,
-    "overview": "The evolution of Cloud Code is not just about efficiency; it is fundamentally altering project lifecycles. Developers can implement version control and rollback features within their artifacts, creating a layered tracking system that not only monitors changes but also integrates analytics into project workflows. The use of these tools allows for a more agile response to coding requirements as they shift, facilitating rapid iterations. Additionally, the AI tooling is shifting towards specialization, with different agents excelling in unique areas, potentially leading to greater specialization across teams rather than the previously more generalized roles.",
-    "key_takeaways_detailed": [],
-    "investment_thesis": "If Cloud Code and associated tools continue to gain traction, this could signal a broader industry shift towards AI-driven development processes. Conversely, if there are setbacks in adoption rates or emerging reports of inefficiencies, these forecasts could quickly unravel.",
-    "ticker_analysis": {
-      "NVDA": {
-        "rationale": "NVIDIA stands out as a key player due to its dominant position in AI hardware, which supports the growing demand for tools like Cloud Code.",
-        "positioning": "",
-        "risk": ""
-      }
-    },
-    "positioning_guidance": "",
-    "risk_factors": [],
-    "contrarian_signals": [],
-    "catalysts": [
-      "Monitor user adoption rates of Cloud Code over the next six months to gauge acceptance in diverse development environments."
-    ],
-    "related_insights": null,
-    "audio_timestamp_start": null,
-    "audio_timestamp_end": null,
-    "transcript_excerpt": null,
-    "created_at": "2026-09-29T05:34:50.588847",
-    "updated_at": "2026-09-29 10:34:50",
-    "episode_evidence": "- \"You can customize both the execution of the harness and the UI of the harness.\"\n- \"One thing that... I'm trying to encourage is this idea of a dashboard artifact.\"",
-    "falsification_tracks": [
-      "A significant decline in the adoption rates of Cloud Code among new startups or established companies indicating that developers are reverting to traditional coding methods.",
-      "Evidence showing that user satisfaction with AI tools like Ask You the Question is decreasing, with reported difficulties in requirement elicitation leading to project delays.",
-      "Market data indicating that teams not using artifacts in Cloud Code report higher project failure rates than those that do, contradicting the claim about improved project management capabilities."
-    ],
-    "schema_version": 2,
-    "insight_title": "Claude Code\u2019s Next Era \u2014 Thariq Shihipar, Anthropic",
-    "source_name": "Latent Space: The AI Engineer Podcast",
-    "source_date": "2026-09-29",
-    "key_tickers": []
-  },
-  "546": {
-    "id": 535,
-    "insight_id": 546,
-    "podcast_episode_id": 532,
-    "overview": "The healthcare landscape is burdened by a lack of interconnectivity between varying technologies, which impedes the seamless integration of services that could enhance preventative care. While Neco's model aims to address this gap, broader adoption may face hurdles due to patient privacy concerns surrounding data sharing. Additionally, the revenue-sharing agreements with insurance companies could complicate Neco\u2019s expansion if not aligned with traditional payment models, particularly given the existing reimbursement structures focused primarily on acute care rather than preventative measures. A shift towards a more integrated digital health ecosystem would necessitate significant advocacy to persuade stakeholders in existing systems to adopt more innovative, data-driven approaches.",
-    "key_takeaways_detailed": [],
-    "investment_thesis": "Should Neco successfully execute its preventative healthcare model and prove the economic benefits associated with early disease detection, it could inspire a wave of investment in similar startups. Conversely, if sustained regulatory or market barriers emerge that stymie Neco's growth, investor confidence could wane. Over the next 2-3 years, ongoing examination of Neco's clinical results and market expansions will be critical to validating its long-term viability.",
-    "ticker_analysis": {
-      "NVDA": {
-        "rationale": "NVIDIA stands out as the leading ticker due to its immense contributions to AI technology, which is pivotal for data analysis in healthcare applications.",
-        "positioning": "",
-        "risk": ""
-      }
-    },
-    "positioning_guidance": "",
-    "risk_factors": [],
-    "contrarian_signals": [],
-    "catalysts": [],
-    "related_insights": null,
-    "audio_timestamp_start": null,
-    "audio_timestamp_end": null,
-    "transcript_excerpt": null,
-    "created_at": "2026-09-29T05:34:57.349120",
-    "updated_at": "2026-09-29 10:34:57",
-    "episode_evidence": "- \"If you discover these things early, they're totally preventable and the cost of dealing with them is very small.\" - Daniel Ek\n- \"The entire system is predicated on... fixing you acutely when there\u2019s massive amounts of symptoms.\" - Daniel Ek",
-    "falsification_tracks": [
-      "Neco fails to secure a significant number of partnerships with healthcare providers, limiting its access to broader patient networks.",
-      "Clinical trial results show that Neco's health checks do not lead to statistically significant reductions in chronic disease prevalence or healthcare costs.",
-      "Public sentiment or regulatory changes lead to stricter data privacy laws that impede Neco\u2019s ability to effectively leverage patient data.",
-      "New entrants in the preventative healthcare space introduce more effective or lower-cost solutions that capture market share from Neco."
-    ],
-    "schema_version": 2,
-    "insight_title": "Daniel Ek: Life After Spotify, Broken Healthcare Incentives, Catching Disease Early & AI's Potential",
-    "source_name": "All-In with Chamath, Jason, Sacks & Friedberg",
-    "source_date": "2026-09-28",
-    "key_tickers": []
-  },
   "547": {
     "id": 536,
     "insight_id": 547,
@@ -45223,48 +45681,6 @@ const dashboardData = {
     "insight_title": "We Gave Away $2,000,000 To 5 AI Builders | MOONSHOTS Live",
     "source_name": "Moonshots with Peter Diamandis",
     "source_date": "2026-09-28",
-    "key_tickers": []
-  },
-  "548": {
-    "id": 537,
-    "insight_id": 548,
-    "podcast_episode_id": 533,
-    "overview": "The competitive landscape for personal AI agents isn't just about the number of solutions available; it's also about the underlying technology stacks that differentiate these offerings. Companies like OpenAI, Google, and various startups are racing to create proprietary algorithms that enhance the contextual understanding of user prompts, leading to better proactive capabilities. Moreover, demographic trends indicate that younger consumers could drive the adoption of personal agents that integrate with social media platforms, thereby expanding the potential user base for these tools beyond traditional settings. Anticipating how these interactions will evolve could significantly shape their utility in day-to-day transactions.",
-    "key_takeaways_detailed": [],
-    "investment_thesis": "If the growth of personal AI agents continues as predicted, allocators may find lucrative opportunities in startups and established tech companies developing these technologies. The next 12-18 months will be crucial as market dynamics shift with consumer adoption and emerging use cases. A slowdown in growth or a rise in regulation could prompt a reevaluation of this thesis.",
-    "ticker_analysis": {
-      "NVDA": {
-        "rationale": "NVIDIA is well positioned in the AI space, providing the necessary hardware and software for optimized AI performance.",
-        "positioning": "",
-        "risk": ""
-      },
-      "GOOGL": {
-        "rationale": "Alphabet's investments in AI, including personal agents, highlight its commitment to this rapidly evolving sector.",
-        "positioning": "",
-        "risk": ""
-      }
-    },
-    "positioning_guidance": "",
-    "risk_factors": [],
-    "contrarian_signals": [],
-    "catalysts": [],
-    "related_insights": null,
-    "audio_timestamp_start": null,
-    "audio_timestamp_end": null,
-    "transcript_excerpt": null,
-    "created_at": "2026-09-29T12:25:54.049925",
-    "updated_at": "2026-09-29 17:25:54",
-    "episode_evidence": "- \"What happens though when everyone has an agent now everyone's on the same playing field?\" - Unclear from transcript.\n- \"It opens the door to a truly consumer-lined internet, which I think we have been lacking for quite some time.\" - Unclear from transcript.",
-    "falsification_tracks": [
-      "A significant decrease in user adoption rates as evidenced by market surveys indicating dissatisfaction or distrust in personal AI agents.",
-      "Positive regulatory actions against personal AI technologies that limit their capabilities or impose restrictions on data usage.",
-      "Emergence of competing technologies that render personal AI agents obsolete, such as advanced automation tools that don\u2019t require user interaction.",
-      "Major players like Google or Apple pulling back from their investment in personal AI agents due to market assessment indicating lower-than-expected ROI."
-    ],
-    "schema_version": 2,
-    "insight_title": "The Personal Agent Race Is Here | Anish Acharya & David Pawlan",
-    "source_name": "The a16z Show",
-    "source_date": "2026-09-29",
     "key_tickers": []
   },
   "549": {
@@ -45343,16 +45759,57 @@ const dashboardData = {
     "source_date": "2026-09-29",
     "key_tickers": []
   },
-  "551": {
-    "id": 540,
-    "insight_id": 551,
-    "podcast_episode_id": 536,
-    "overview": "Infrastructure investments are not just confined to traditional tech but are poised to revolutionize sectors like renewable energy and transportation, particularly as climate initiatives drive spending. The $90 trillion projected investment by 2040 includes green technologies, signaling that companies involved in sustainable infrastructure will also see significant growth. Additionally, the emphasis on AI is reshaping not only the tech industry but also traditional industries as they incorporate AI-driven efficiencies, which may lead to augmented demand for infrastructure that supports these technologies.",
+  "533": {
+    "id": 541,
+    "insight_id": 533,
+    "podcast_episode_id": 516,
+    "overview": "The deeper market point is that Lazzarin is not just defending faster model releases; he is describing a future where trust becomes product-specific and model-specific, closer to credit ratings, security certifications, or vendor reputation than one universal safety stamp. That matters because the release cadence itself may become part of safety discovery: repeated deployments create evidence about which models lie, reward-hack, leak data, or behave reliably under adversarial use. His crypto analogy also implies a regulatory capture risk: an evaluator network can have many nominal nodes while still sharing one social graph, which would raise compliance costs for outsiders and entrench incumbents. The second-order effect is that a pause may not merely delay compute demand; it could shift bargaining power from builders and customers toward evaluator institutions, lawyers, and politically connected labs.",
     "key_takeaways_detailed": [],
-    "investment_thesis": "This trend will likely unfold over the next five years, driving significant returns for investors in AI and infrastructure. Clear evidence of either reduced spending or stagnation in adoption would challenge this optimistic outlook.",
+    "investment_thesis": "If Lazzarin is broadly right, the next 12\u201324 months favor companies exposed to continued AI deployment rather than a freeze: compute, security tooling, model monitoring, and firms able to turn AI into measurable reliability gains. The thesis would be strengthened by faster enterprise adoption of AI security agents and weakened by a large incident that causes binding deployment restrictions or an insurance retreat.",
+    "ticker_analysis": {
+      "GOOGL": {
+        "rationale": "GOOGL is relevant because Waymo was explicitly cited as an example of a high-benefit technology whose rollout can be slowed by political and regulatory friction.",
+        "positioning": "",
+        "risk": ""
+      }
+    },
+    "positioning_guidance": "",
+    "risk_factors": [],
+    "contrarian_signals": [],
+    "catalysts": [
+      "2026 US federal AI legislation cycle: whether rules focus on liability and audits or move toward deployment caps.",
+      "2026 Waymo city expansion approvals: a live test of whether high-safety automation can overcome local political resistance."
+    ],
+    "related_insights": null,
+    "audio_timestamp_start": null,
+    "audio_timestamp_end": null,
+    "transcript_excerpt": null,
+    "created_at": "2026-09-30T12:31:44.905030",
+    "updated_at": "2026-09-30 17:31:44",
+    "episode_evidence": "Eddy Lazzarin: \"All control systems are robust when you have enough intelligence on them.\"\nEddy Lazzarin: \"At some point people will, as model progress becomes more consistent and something that we have an understanding for how it works. We'll probably develop reputation around specific models, right?\"\nTheo Jaffe: \"The key question that I am concerned with probably more than any other is like, do AI safety as effective altruists and so on, end up ultimately aligning with sort of broad, low caliber anti-tech populism or not.\"",
+    "falsification_tracks": [
+      "A major frontier-model incident causes independently verified physical harm or more than $10 billion of direct economic loss despite standard cyber controls, logging, and human approval gates.",
+      "US or EU courts rule in a major case that existing unauthorized-access, negligence, or product-liability doctrines cannot reach AI-agent misuse without new AI-specific statutes.",
+      "Within 24 months, enterprise security benchmarks show local AI cyber-defense agents increasing successful intrusions or data-loss events versus non-AI baselines across multiple independent tests.",
+      "A legally mandated evaluator regime emerges in the US or EU that limits frontier deployment to a small approved evaluator set and materially slows model releases by more than six months.",
+      "Insurance markets refuse to underwrite AI-agent deployment at scale, or price coverage at levels that make mainstream enterprise use uneconomic for leading vendors."
+    ],
+    "schema_version": 2,
+    "insight_title": "The Case Against an AI Pause | Eddy Lazzarin",
+    "source_name": "The a16z Show",
+    "source_date": "2026-09-24",
+    "key_tickers": []
+  },
+  "534": {
+    "id": 542,
+    "insight_id": 534,
+    "podcast_episode_id": 519,
+    "overview": "The deeper point is that Runway is trying to move the scarce asset from the clip generator to the control surface around it. Germanidis described a stack in which prompts are expanded into detailed scene plans, artists add references, camera paths, motion brushes, or first frames, and the video model becomes the renderer for a behavioral spec. That matters because the serving roadmap is not simply \u201cbigger model\u201d: diffusion can be compressed along two dimensions\u2014smaller networks and fewer denoising steps\u2014so latency can fall while the frontier model remains the teacher. If real-time holds, the interface world model becomes an extreme case of WorldPrompt: software is specified by what clicking, dragging, scrolling, and sound should do, then pixels are generated directly. The second-order effect is that value may accrue to proprietary interaction data, captioning taste, and fast inference pipelines, not only to raw model weights.",
+    "key_takeaways_detailed": [],
+    "investment_thesis": "If the thesis is directionally true, the 2026\u20132028 spend curve shifts from offline AI content generation toward low-latency simulation, agent training, and interactive inference. The proof would be falling cost per generated frame plus production use in robotics evaluation, design prototyping, and software interfaces; the disproof would be physics and control plateaus despite larger training runs. For allocators, the nearer-term exposure is likely infrastructure rather than any single application layer winner.",
     "ticker_analysis": {
       "NVDA": {
-        "rationale": "NVIDIA represents a strong expression of the AI investment theme, as it leads in GPU technologies crucial for hyperscalers' compute needs.",
+        "rationale": "NVIDIA is the cleanest public expression because the source ties the thesis directly to large GPU clusters, real-time inference needs, robotics simulation, and the Cosmos world-model ecosystem.",
         "positioning": "",
         "risk": ""
       }
@@ -45365,15 +45822,410 @@ const dashboardData = {
     "audio_timestamp_start": null,
     "audio_timestamp_end": null,
     "transcript_excerpt": null,
-    "created_at": "2026-09-30T06:37:51.927162",
-    "updated_at": "2026-09-30 11:37:51",
-    "episode_evidence": "- \"Hyperscalers are expected to spend over $1 trillion annually on compute infrastructure by 2027.\" - David George\n- \"The majority of investment now covered in tech.\" - Alex Imramill",
+    "created_at": "2026-09-30T12:32:10.247431",
+    "updated_at": "2026-09-30 17:32:10",
+    "episode_evidence": "Anastasis Germanidis: \"it was very clear early on that tech subidium was not going to be the answer.\"\nAnastasis Germanidis: \"you have two axes of distillation.\"\nAnastasis Germanidis: \"This is all pixels, uh, it's, there is no HTML CSS react that's powering this interface.\"",
     "falsification_tracks": [
-      "A significant slowdown in hyperscaler investments, leading to a decline in projected CapEx spending below $1 trillion by 2027.",
-      "A measurable plateau in AI adoption rates in enterprises, remaining stuck at or below 2% over the next five years.",
-      "Insufficient infrastructure development leading to bottlenecks, indicated by increasing delays or rising costs in large-scale projects.",
-      "Market indicators showing a shift in venture capital allocation away from AI towards other sectors, reflecting decreased confidence in AI growth.",
-      "Regulatory changes that impose strict limitations on AI deployment and investment in infrastructure projects."
+      "By 2028, real-time video generation still costs more than 5x conventional rendering for interactive sessions of similar visual quality, preventing adoption outside demos and high-end media workflows.",
+      "Independent robotics benchmarks show weak real-to-sim transfer: world-model simulations rank robot policies with Spearman correlation below 0.5 versus real-world trials across multiple embodiments.",
+      "Physics benchmarks stop improving with scale: published tests show 10x more video-model training compute produces less than a 10% gain on first-frame rollout tasks for fluids, contact dynamics, optics, and deformables.",
+      "Creative-tool usage data shows professionals reverting to non-generative or frame-by-frame controlled workflows because prompt-plus-reference systems cannot maintain identity, camera continuity, and editability across multi-shot projects.",
+      "Major software vendors test pixel-rendered neural interfaces but abandon them for production UX because accessibility, determinism, auditability, and latency are materially worse than code-rendered interfaces."
+    ],
+    "schema_version": 2,
+    "insight_title": "Runway\u2019s WorldPrompt and the Engineering of Real-Time Worlds",
+    "source_name": "Latent Space: The AI Engineer Podcast",
+    "source_date": "2026-09-25",
+    "key_tickers": []
+  },
+  "538": {
+    "id": 543,
+    "insight_id": 538,
+    "podcast_episode_id": 523,
+    "overview": "The deeper point is not just that agents need more security controls; it is that the likely failure mode may be bad interface design masquerading as safety. Sinofsky\u2019s nightmare scenario is a GDPR-like regime for agents: every tool call, website handoff, or third-party action triggers a consent prompt, shifting liability while training users to click through warnings. Casado\u2019s counterpoint is that many hard security models already exist in old operating-systems and multilayer-security research, but they failed commercially because humans hated the friction. Agents could invert that constraint: if the machine is the user, granular permissions, scoped credentials, and probabilistic access decisions may become usable rather than bureaucratic. That would move value toward vendors that make trust decisions invisible, low-latency, and auditable, not those that merely add warning banners.",
+    "key_takeaways_detailed": [],
+    "investment_thesis": "For allocators, the 12- to 24-month opportunity is less about betting on the next frontier model and more about the control plane around non-human work: identity, authorization, internal API metering, data boundaries, and audit trails. The thesis gains strength if large enterprises move agent pilots from read-only copilots into systems that can write, spend, deploy code, or modify records; it weakens if deployments remain human-in-the-loop and incident-free. The best proof would be budget lines shifting from generic AI experimentation into security architecture for machine actors.",
+    "ticker_analysis": {
+      "MSFT": {
+        "rationale": "Microsoft is a broad enterprise expression because the discussion repeatedly touched Windows hardening, GitHub-like internal developer systems, and authentication becoming default software plumbing.",
+        "positioning": "",
+        "risk": ""
+      },
+      "OKTA": {
+        "rationale": "Okta is the pure-play identity read-through because the episode used Okta-style integration as the enterprise baseline that new SaaS had to support before agents create the next permissioning layer.",
+        "positioning": "",
+        "risk": ""
+      }
+    },
+    "positioning_guidance": "",
+    "risk_factors": [],
+    "contrarian_signals": [],
+    "catalysts": [],
+    "related_insights": null,
+    "audio_timestamp_start": null,
+    "audio_timestamp_end": null,
+    "transcript_excerpt": null,
+    "created_at": "2026-09-30T12:32:44.274396",
+    "updated_at": "2026-09-30 17:32:44",
+    "episode_evidence": "Aaron Levie: \"So when at least I read the Dario post, I actually didn't disagree with almost anything because it was all about how do you have better security of these systems, sandboxing, better testing.\"\nSteven Sinofsky: \"And so with with Windows XP, which is in 2000, we added this thing that prompted you and stopped.\"\nMartin Casado: \"The reason it hasn't been adopted is just tended to be a usability issue.\"",
+    "falsification_tracks": [
+      "Through 2026, CISA KEV additions, SEC cyber 8-Ks, and major cloud incident reports show fewer than three material incidents where autonomous agents caused internal API abuse, data leakage, or denial-of-service-like load.",
+      "By year-end 2026, at least five Fortune 500 AI-agent rollouts publicly report that existing IAM scopes and human approval workflows were sufficient, with no separate agent identity, runtime authorization, or API-rate-governance layer added.",
+      "In FY2026 earnings calls, OKTA, MSFT, PANW, CRWD, and NET do not cite agent security, non-human identity, or agentic access control as a meaningful pipeline driver or product attach motion.",
+      "EU or US AI rules adopted before 2027 avoid per-action consent prompts or new workflow-level audit duties for enterprise agents, reducing the risk that compliance UX becomes the main implementation bottleneck.",
+      "Model providers demonstrate audited, built-in permissioning that enterprises adopt directly, causing third-party agent-security startups to consolidate or miss revenue targets before a standalone category forms."
+    ],
+    "schema_version": 2,
+    "insight_title": "Aaron Levie, Steven Sinofsky & Martin Casado: How Do You Secure a World of AI Agents?",
+    "source_name": "The a16z Show",
+    "source_date": "2026-09-26",
+    "key_tickers": []
+  },
+  "539": {
+    "id": 544,
+    "insight_id": 539,
+    "podcast_episode_id": 524,
+    "overview": "The less obvious operating model is Harvey trying to productize hiring itself: every candidate gets a values screen mapped to simplicity, decisiveness, and \u201cjob\u2019s not finished,\u201d while recruiters are asked to expose candidates to the messy reality of the role rather than sell a polished employer brand. That matters because the bottleneck is not only finding lawyers or engineers; it is avoiding a mismatch between high-autonomy work and candidates trained in slower, committee-heavy systems. Landers also described a hub strategy with EPD concentrated in San Francisco, Toronto, New York, and Bangalore, while many newer country offices start with legal engineering and GTM capacity. The second-order effect: Harvey\u2019s cost structure may look more like an enterprise transformation company than a pure software company, but the same services layer could become its distribution moat if it raises adoption and renewal rates.",
+    "key_takeaways_detailed": [],
+    "investment_thesis": "If this is directionally true, the next 12\u201324 months favor vertical AI application businesses that combine software with embedded domain experts, even if near-term margins look less SaaS-like. Evidence against it would be stalled enterprise rollouts, rising implementation cost per customer, or customers treating Harvey as a consulting-heavy point solution rather than a workflow layer.",
+    "ticker_analysis": {},
+    "positioning_guidance": "",
+    "risk_factors": [],
+    "contrarian_signals": [],
+    "catalysts": [],
+    "related_insights": null,
+    "audio_timestamp_start": null,
+    "audio_timestamp_end": null,
+    "transcript_excerpt": null,
+    "created_at": "2026-09-30T12:33:09.965945",
+    "updated_at": "2026-09-30 17:33:09",
+    "episode_evidence": "Maggie Landers: \"Harvey is entering teenage years.\"\nMaggie Landers: \"Our goal especially on my team as a recruiting team is to make sure the resort matches the brochure.\"\nMaggie Landers: \"we start up every all hands with sort of a customer testimonial.\"",
+    "falsification_tracks": [
+      "Net revenue retention among large law-firm and in-house legal customers falls below 110% for two consecutive reported periods after major headcount expansion.",
+      "Average enterprise implementation time rises materially, for example beyond 90 days for standard deployments, despite adding legal engineering and post-sale staff.",
+      "A major security or confidentiality incident causes multiple Am Law 100, Magic Circle, or large corporate legal customers to suspend or terminate Harvey deployments.",
+      "Lean legal-AI competitors achieve comparable usage, renewal, and expansion rates in the same markets with materially lower services headcount per customer.",
+      "Regretted attrition or new-hire failure rates rise sharply across sales, legal engineering, or product roles, indicating that the hiring screen is not preserving operating quality."
+    ],
+    "schema_version": 2,
+    "insight_title": "Building a Team at AI Speed | Harvey\u2019s Maggie Landers",
+    "source_name": "The a16z Show",
+    "source_date": "2026-09-27",
+    "key_tickers": []
+  },
+  "541": {
+    "id": 545,
+    "insight_id": 541,
+    "podcast_episode_id": 525,
+    "overview": "The deeper mechanism is not just redemptions versus gates; it is the collapse of a refinancing loop. During the boom, private vehicles could list, trade above NAV, become marginable, and let holders recycle capital into the next private fund. Once new listings clear at large discounts, that loop reverses: wealth clients redeem private funds at NAV if they can, listed comparables imply a liquidity haircut, and managers lose the fee growth that justified hiring large retail distribution teams. Elbaor also separated private credit from private equity through timing: credit vehicles must meet periodic tenders, while PE funds can delay the reckoning because LPs are underwriting DPI over several years. That creates a sequencing risk: credit marks and BDC discounts move first, then PE fundraising stress appears when older funds fail to return enough cash to seed the next vintage.",
+    "key_takeaways_detailed": [],
+    "investment_thesis": "If Elbaor is directionally right, the next 12\u201324 months favor event-driven selection over generic yield buying: the return comes from identifying listed BDCs or closed-end vehicles where a merger, wind-down, or tender can turn a quoted discount into realized value. The thesis is strengthened by NAV-for-NAV or NAV-plus combinations and continued redemption queues; it is weakened if retail fundraising restarts and public discounts close without corporate actions.",
+    "ticker_analysis": {
+      "BX": {
+        "rationale": "Blackstone is the cleanest large-manager proxy because BCRED was used as the bellwether for redemption pressure in private credit interval funds.",
+        "positioning": "",
+        "risk": ""
+      },
+      "OWL": {
+        "rationale": "Blue Owl is directly relevant because the interview tied its BDC actions and private-credit-heavy model to the pressure on wealth-channel growth.",
+        "positioning": "",
+        "risk": ""
+      },
+      "OBDC": {
+        "rationale": "OBDC is the direct public BDC reference in the source and a practical place to track how the market prices listed private-credit exposure versus stated NAV.",
+        "positioning": "",
+        "risk": ""
+      }
+    },
+    "positioning_guidance": "",
+    "risk_factors": [],
+    "contrarian_signals": [],
+    "catalysts": [],
+    "related_insights": null,
+    "audio_timestamp_start": null,
+    "audio_timestamp_end": null,
+    "transcript_excerpt": null,
+    "created_at": "2026-09-30T12:33:39.555013",
+    "updated_at": "2026-09-30 17:33:39",
+    "episode_evidence": "- James Elbaor: \"The private credit boom is over.\"\n- James Elbaor: \"So I think the bigger issue is that the product was sold as if the gate did not exist.\"\n- James Elbaor: \"We think it's a cost of liquidity.\"",
+    "falsification_tracks": [
+      "BCRED and comparable private credit interval funds report tender requests at or below their quarterly liquidity caps for two consecutive quarters, while net subscriptions turn positive.",
+      "New private-credit interval funds or BDC listings raise multi-billion-dollar retail capital at NAV and trade within 5% of NAV for at least 90 days after listing.",
+      "The listed BDC sector discount to stated NAV narrows to less than 10% without broad NAV write-downs, tender offers, wind-downs, or manager-sponsored mergers.",
+      "BDC/private-credit M&A announced in calendar 2026 remains below the 2023\u20132024 deal pace, weakening the case that consolidation is the next leg.",
+      "SaaS-heavy private credit books show stable non-accruals, improving interest coverage, and no material rise in amendment-and-extension activity through 2026."
+    ],
+    "schema_version": 2,
+    "insight_title": "The Private Credit Boom is Over: Redemption Requests Exceed Liquidity | James Elbaor | Marlton LLC",
+    "source_name": "Other People's Money with Max Wiethe",
+    "source_date": "2026-09-27",
+    "key_tickers": []
+  },
+  "542": {
+    "id": 546,
+    "insight_id": 542,
+    "podcast_episode_id": 527,
+    "overview": "The deeper claim is about placement in the stack, not model cleverness. Almeida is implicitly drawing a cost/latency map: today\u2019s useful AI calls start at the user-facing layer, but the bigger volume should migrate \u201cdeep in the guts,\u201d where cheap, fast, approximate judgments can replace brittle forms, routing rules, and glue code. That shifts the bottleneck from model IQ to systems engineering: choosing when a 50th-percentile architecture from a coding agent is acceptable, when a human architect is still needed, and how to compose thousands of small probabilistic calls without making the product untestable. It also changes who has leverage. Workflow owners with distribution can amortize a one-time software investment across existing users, while AI-native app copycats still have to recreate hidden product behavior, integrations, permissions, audit trails, and customer-specific edge cases.",
+    "key_takeaways_detailed": [],
+    "investment_thesis": "If the thesis is directionally true, over the next 18\u201336 months the best public-market read-through is less \u201cnew app kills SaaS\u201d and more \u201cincumbent workflow software gets a product-cycle reset.\u201d For allocators, the practical move is to underwrite evidence of AI moving from chat/search features into record-changing workflows with audit logs, permissioning, and lower service cost per customer. The view gets stronger if vendors show higher net retention or lower support cost from embedded automation, and weaker if adoption stays as demos, copilots, or human-reviewed queues.",
+    "ticker_analysis": {},
+    "positioning_guidance": "",
+    "risk_factors": [],
+    "contrarian_signals": [],
+    "catalysts": [],
+    "related_insights": null,
+    "audio_timestamp_start": null,
+    "audio_timestamp_end": null,
+    "transcript_excerpt": null,
+    "created_at": "2026-09-30T12:34:13.964141",
+    "updated_at": "2026-09-30 17:34:13",
+    "episode_evidence": "Diego Almeida: \"My brand is pragmatism.\"\nDiego Almeida: \"my experience is that they are really good at syntax and really bad of semantics.\"\nDiego Almeida: \"if you don't aim for the guts, right, that's weird.\"",
+    "falsification_tracks": [
+      "By year-end 2026, at least five scaled SaaS vendors that publicly launched embedded AI workflows report no measurable reduction in support hours, ops labor, ticket reopen rates, or manual review queues versus pre-launch baselines.",
+      "Independent evaluations show natural-language-to-structured-output systems remain below 99% task-level consistency on unchanged inputs with irrelevant perturbations such as UUIDs, reordered fields, or extra whitespace across common business workflows.",
+      "Customer deployments concentrate in analytics, summarization, and sidecar chat, with fewer than 10% of documented case studies running unattended actions that change records or trigger downstream workflows.",
+      "Coding-agent vendors demonstrate reliable architectural planning and domain-model generation on enterprise codebases, producing maintainable production systems without a separate runtime intelligence primitive.",
+      "Net retention and gross-margin performance of AI-heavy SaaS cohorts fails to exceed non-AI cohorts for four consecutive quarters after controlling for price increases."
+    ],
+    "schema_version": 2,
+    "insight_title": "AI Can Write Code. Why Isn\u2019t Software Better?",
+    "source_name": "The a16z Show",
+    "source_date": "2026-09-28",
+    "key_tickers": []
+  },
+  "543": {
+    "id": 547,
+    "insight_id": 543,
+    "podcast_episode_id": 528,
+    "overview": "The deeper market point is not just that chokepoints are being weaponized, but that Every sees Washington testing how much of the old \u201cbecause markets\u201d architecture can be overridden before private balance sheets stop cooperating. He flags concrete weak spots: the US may lack enough missile interceptors for a sustained Pacific fight, may be short bunker fuel in Hawaii for the Pacific fleet, and may be using short trade-truce windows with China as bargaining clocks rather than as de-escalation. He also raises a more radical AI financing angle: if frontier AI becomes a national-security asset, the US could allow private and foreign capital to fund the buildout, then assert state control once the capability exists. That makes the equity upside in parts of the AI stack less straightforward than \u201cmore capex equals more profits.\u201d",
+    "key_takeaways_detailed": [],
+    "investment_thesis": "If Every is directionally right, the 2026\u20132028 playbook shifts from simple macro cycle timing toward balance-sheet exposure to state priorities: domestic energy security, defense capacity, grid power, critical minerals, and sovereign-controlled AI infrastructure. The risk is that some apparent growth assets become policy instruments, so equity duration and jurisdictional liquidity deserve a higher discount rate. The view gains force if emergency measures become permanent frameworks; it weakens if trade truces broaden, maritime risk premia collapse, and AI remains a normal private-sector capex story.",
+    "ticker_analysis": {},
+    "positioning_guidance": "",
+    "risk_factors": [],
+    "contrarian_signals": [],
+    "catalysts": [
+      "Early January 2027: scheduled end of the US-China trade truce discussed by Every."
+    ],
+    "related_insights": null,
+    "audio_timestamp_start": null,
+    "audio_timestamp_end": null,
+    "transcript_excerpt": null,
+    "created_at": "2026-09-30T12:34:34.953385",
+    "updated_at": "2026-09-30 17:34:34",
+    "episode_evidence": "Michael Every: \"Markets are not necessarily best for national security.\"\nMichael Every: \"I do not understand why we think that they will continue to operate as untrammeled and freely as they do now when we see door after door being slammed in our faces and window after window being slammed shut.\"\nMichael Every: \"How long until people at Harvard or other leading universities where I can assure you from knowing people who work at top universities, a huge sway of these academics are either so apolitical they don't understand, China, America, what are these?\"",
+    "falsification_tracks": [
+      "The US and China extend their trade truce well beyond early January 2027, with written commitments covering rare earths, tariffs, AI chips, and export controls, and no major carve-outs for security-sensitive sectors.",
+      "US diesel export policy is dropped without replacement, and diesel cracks, Gulf Coast inventories, and Latin American import flows remain within their five-year seasonal ranges for at least 90 days.",
+      "Hormuz, Red Sea, and Gulf of Oman war-risk insurance premia fall back near pre-crisis levels, with no confirmed tanker strikes or ship-to-ship transfer disruptions for a full quarter.",
+      "US AI policy remains fully commercial through 2027: no model-weight controls, no national-security licensing regime for frontier models, and no federal intervention in data-center allocation or power access.",
+      "Major G7 and G20 jurisdictions avoid new exit taxes, unrealized-gains regimes, withholding controls, or emergency limits on cross-border capital movement through the next budget cycle."
+    ],
+    "schema_version": 2,
+    "insight_title": "MacroVoices #551 Michael Every: Decoding The Global Geopolitical Puzzle (Part 2)",
+    "source_name": "Macro Voices",
+    "source_date": "2026-09-25",
+    "key_tickers": []
+  },
+  "544": {
+    "id": 548,
+    "insight_id": 544,
+    "podcast_episode_id": 529,
+    "overview": "The deeper procurement point is career-risk transfer: Anduril is trying to make a program manager\u2019s safest choice the one that is already built, tested, and deliverable, rather than a bespoke requirements process that funds years of R&D. Luckey framed early fundraising resistance not as technology risk but purchase risk \u2014 backers believed the products would work, but doubted the government could buy them at scale. His claimed flywheel is that once officials who bet on Anduril get programs that arrive on schedule, later buyers copy the decision to make their own jobs easier. That creates a wedge against cost-plus incumbency: not just lower unit cost, but shorter decision cycles and less blame if the product exists before contract award. The second-order effect is that defense startups may be valued less like services contractors and more like industrial OEMs if they can repeatedly finance inventory and R&D ahead of formal demand.",
+    "key_takeaways_detailed": [],
+    "investment_thesis": "If Luckey\u2019s model is directionally right, the next 3\u20137 years favor defense companies that can pre-build specialized autonomous systems and sell finished products, not just bill engineering hours. Proof would be production-scale awards to product-first entrants and shorter time from demo to fielding; disproof would be prototypes that stall, prime-led integration mandates, or autonomy rules that force centralized control. Public-market exposure is imperfect because Anduril is private, so the clean read-through is pressure on incumbents\u2019 pricing power offset by partnership opportunities.",
+    "ticker_analysis": {
+      "LMT": {
+        "rationale": "Lockheed Martin is the cleanest public-market proxy named in the source because it is both a partner/funder in the wildfire prize and an incumbent prime exposed to any shift from bespoke defense programs toward productized autonomy.",
+        "positioning": "",
+        "risk": ""
+      }
+    },
+    "positioning_guidance": "",
+    "risk_factors": [],
+    "contrarian_signals": [],
+    "catalysts": [],
+    "related_insights": null,
+    "audio_timestamp_start": null,
+    "audio_timestamp_end": null,
+    "transcript_excerpt": null,
+    "created_at": "2026-09-30T12:35:03.581611",
+    "updated_at": "2026-09-30 17:35:03",
+    "episode_evidence": "Palmer Luckey: \"We use our own money to build products. Then we sell them.\"\nPalmer Luckey: \"The foundation models of people are building are not the types of models you want to be doing this.\"\nPalmer Luckey: \"If you want to work on technology, uh, work for somebody else. If you want to work on non-stop bullshit, start a company.\"",
+    "falsification_tracks": [
+      "Through FY2028, GAO or DoD acquisition data show the top five defense primes maintaining or increasing their roughly 80% share of major defense acquisition programs.",
+      "Anduril wins prototype or OTA awards but fails to convert multiple flagship programs into recurring production contracts within 24\u201336 months of demonstrations.",
+      "A major U.S. or NATO autonomy program imposes centralized human-in-the-loop control requirements because edge autonomy performs poorly in jammed, hacked, or communications-denied environments.",
+      "Lockheed Martin, Northrop Grumman, RTX, Boeing, or General Dynamics win large autonomy programs at delivery timelines and unit costs comparable to product-first entrants.",
+      "Public contract records show Anduril becoming mainly a subcontractor to primes or relying on sustained cost-plus development funding for its largest programs."
+    ],
+    "schema_version": 2,
+    "insight_title": "Palmer Luckey: Autonomous Weapons Are Ancient and Why Anduril Won't Build Humanoids  | Moonshots Live | EP #295",
+    "source_name": "Moonshots with Peter Diamandis",
+    "source_date": "2026-09-28",
+    "key_tickers": []
+  },
+  "545": {
+    "id": 549,
+    "insight_id": 545,
+    "podcast_episode_id": 531,
+    "overview": "The deeper mechanism is not just that agents write more code; it is that the cost stack starts to split between execution, verification, and organizational context preparation. Thariq\u2019s comments imply a near-term paradox: smarter models may consume fewer tokens on simple engineering tasks because they need less checking, while complex security review, code review, and enterprise workflows may consume more tokens because the useful work is the checking. He also flagged that durable instruction files such as Claude.md may decay as models change, creating a maintenance burden around prompts, skills, and evals rather than a one-time setup. For enterprises, the gating work may happen before visible adoption: cleaning up data access, permissions, MCP surfaces, and sandbox boundaries so agents can safely act when model costs fall.",
+    "key_takeaways_detailed": [],
+    "investment_thesis": "If Thariq\u2019s view is directionally right, the next 12\u201324 months favor companies exposed to AI compute, secure execution environments, developer observability, and enterprise data integration rather than only application seats. The proof point would be sustained growth in agent-driven token usage, especially from review, sandboxing, and background workflows; the disproof would be broad adoption with minimal compute intensity and little spend on governance layers. Because the named model labs are mostly private, the public-market expression is indirect.",
+    "ticker_analysis": {},
+    "positioning_guidance": "",
+    "risk_factors": [],
+    "contrarian_signals": [],
+    "catalysts": [],
+    "related_insights": null,
+    "audio_timestamp_start": null,
+    "audio_timestamp_end": null,
+    "transcript_excerpt": null,
+    "created_at": "2026-09-30T12:35:22.913454",
+    "updated_at": "2026-09-30 17:35:22",
+    "episode_evidence": "Thariq Shihipar: \"effort is mostly spent on the verification and the like edge case testing and things like that\"\nThariq Shihipar: \"I do think in the limit Cloud MD goes away and maybe not even like that far\"\nThariq Shihipar: \"number one setting up all your data to be available to like agents is really really important and it will take some time\"",
+    "falsification_tracks": [
+      "If enterprise pilots show flat or declining token consumption per engineer after agent deployment, it would weaken the view that verification loops and supervisor agents become a meaningful infrastructure demand driver.",
+      "If routine software engineering tasks continue to require high-effort modes for acceptable quality through 2026, it would reduce confidence in the claim that frontier models become token-efficient enough to expand usage broadly.",
+      "If large companies do not materially expand permissioned internal data connectors, MCP access, or sandboxed agent environments over the next 12\u201318 months, it would suggest organizational prep work is a smaller market than implied.",
+      "If agent safety products produce persistent false positives that block normal engineering work, or false negatives that lead to public data-loss incidents, enterprise rollouts could slow sharply.",
+      "If developer willingness to pay reverts toward low monthly subscription levels rather than usage-based or premium agent tiers, the revenue pool for coding agents and their infrastructure would be much smaller."
+    ],
+    "schema_version": 2,
+    "insight_title": "Claude Code\u2019s Next Era \u2014 Thariq Shihipar, Anthropic",
+    "source_name": "Latent Space: The AI Engineer Podcast",
+    "source_date": "2026-09-29",
+    "key_tickers": []
+  },
+  "546": {
+    "id": 550,
+    "insight_id": 546,
+    "podcast_episode_id": 532,
+    "overview": "The more investable detail is not the scan bundle itself but Ek's claim that Neko can make prevention self-pay rather than payer-led: he said the $499 visit already has positive unit economics and some clinics are profitable because the company owns facilities, staff, devices, and software. That matters because US reimbursement may never reward a 10-year prevention payoff, so Neko's first adoption wedge may look more like dentistry or consumer diagnostics than insurance-integrated primary care. Ek also framed the product as a constantly upgraded diagnostic platform: Gen 2 has launched within three years, Apple Health imports are live, and the company is running clinical trials around its data sets. If those upgrades add modalities without raising price, Neko could pressure legacy executive physicals, dermatology screenings, and lab-only subscription services; if not, it becomes a premium checkup brand with expensive downstream referrals.",
+    "key_takeaways_detailed": [],
+    "investment_thesis": "If Ek is right, the value creation is less in a single clinic rollout than in a repeatable data-and-sensor platform that can earn consumer revenue while building longitudinal datasets. Over the next 24\u201336 months, proof would be profitable US centers, high annual repeat rates, and published evidence that early findings lower total downstream cost; failure would be slow site expansion, reimbursement friction, or false-positive economics swamping the $499 visit. Public-market exposure is limited because Neko is private, so the nearer read-through is to incumbents selling premium primary care, lab-only memberships, and AI compute suppliers rather than a clean listed pure play.",
+    "ticker_analysis": {},
+    "positioning_guidance": "",
+    "risk_factors": [],
+    "contrarian_signals": [],
+    "catalysts": [],
+    "related_insights": null,
+    "audio_timestamp_start": null,
+    "audio_timestamp_end": null,
+    "transcript_excerpt": null,
+    "created_at": "2026-09-30T12:35:45.659630",
+    "updated_at": "2026-09-30 17:35:45",
+    "episode_evidence": "Daniel Ek: \"the US is spending 18% of its GDP on a health care. It's a single largest line item in the budgets right now.\"\nDaniel Ek: \"the benefit of being vertically integrated is that we've been able to build everything ourselves, which means we can also cut costs in a pretty dramatic way.\"\nDaniel Ek: \"For some reason, we don't do an annual health checkout, most of us on an annual basis.\"",
+    "falsification_tracks": [
+      "By end-2027, opened US centers do not reach clinic-level profitability within 12 months of launch at roughly the $499 price point.",
+      "Annual repeat-scan rates in Sweden, the UK, and US cohorts fall below 40% after the second year, showing weak habit formation versus the dentist analogy.",
+      "Peer-reviewed follow-up shows serious findings produce high false-positive rates or downstream specialist and imaging costs that exceed detected early-treatment savings.",
+      "US employers and insurers decline contracts at scale, with Neko remaining mostly cash-pay and concentrated in high-income coastal markets through 2028.",
+      "Regulators require device/software approvals or clinician staffing ratios that materially increase scan cost or limit AI triage throughput."
+    ],
+    "schema_version": 2,
+    "insight_title": "Daniel Ek: Life After Spotify, Broken Healthcare Incentives, Catching Disease Early & AI's Potential",
+    "source_name": "All-In with Chamath, Jason, Sacks & Friedberg",
+    "source_date": "2026-09-28",
+    "key_tickers": []
+  },
+  "548": {
+    "id": 551,
+    "insight_id": 548,
+    "podcast_episode_id": 533,
+    "overview": "The harder question is not whether consumers like agents, but who can afford to give them away long enough for habits to form. Pawlan\u2019s scan of 122 products found that 65 already charge, including 35 with no free tier and 30 freemium products, while the most visible products are still free. Acharya then frames the subsidy problem: a genuinely ambitious agent can cost around $20 per user per day, which means the early race may be financed by balance sheets, not gross margin. That shifts the startup opportunity away from generic assistants and toward vertical agents with measurable ROI, high willingness to pay, or privileged workflow access. The near-term bottleneck is not personality or UI polish; it is whether browser-use and tool-use costs fall fast enough before incumbents bundle the same capability into existing subscriptions.",
+    "key_takeaways_detailed": [],
+    "investment_thesis": "If the thesis is directionally right, the next 18\u201336 months favor companies that either own trusted consumer surfaces or can turn agent activity into lower acquisition cost, higher conversion, or cheaper operations. The proof points are repeat delegated transactions, declining cost per completed task, and evidence that users grant persistent permissions rather than treating agents as demos. The main downside case is that task success improves too slowly while compute and browser-control costs stay too high for consumer-scale monetization.",
+    "ticker_analysis": {
+      "META": {
+        "rationale": "META is a direct public-market expression because the discussion links Muse, the charm, glasses, and real-world data collection to Meta\u2019s consumer AI and hardware strategy.",
+        "positioning": "",
+        "risk": ""
+      },
+      "SHOP": {
+        "rationale": "SHOP benefits if agent-led purchasing expands the long tail of merchant demand rather than concentrating discovery inside ad-driven marketplaces.",
+        "positioning": "",
+        "risk": ""
+      },
+      "AMZN": {
+        "rationale": "AMZN is exposed on both sides: it has the scale to build agents, but agent-mediated shopping could pressure advertising and impulse-buy economics.",
+        "positioning": "",
+        "risk": ""
+      }
+    },
+    "positioning_guidance": "",
+    "risk_factors": [],
+    "contrarian_signals": [],
+    "catalysts": [
+      "2026: public launch cadence and usage limits for OpenAI-style consumer agents with email, calendar, browser, and commerce permissions.",
+      "2026\u20132027: merchant-platform announcements on whether agent checkout is welcomed, metered, or blocked."
+    ],
+    "related_insights": null,
+    "audio_timestamp_start": null,
+    "audio_timestamp_end": null,
+    "transcript_excerpt": null,
+    "created_at": "2026-09-30T12:36:06.757239",
+    "updated_at": "2026-09-30 17:36:06",
+    "episode_evidence": "David Pawlan: \"Of the 122, 65 are paid.\"\nDavid Pawlan: \"Only 13 of them are actually free.\"\nAnish Acharya: \"You know, by our estimate, it's costing something like $20 per user per day to do this in a really ambitious way, you know, potentially hundreds of millions a year for a start-up.\"",
+    "falsification_tracks": [
+      "If agentic browser-use costs do not fall by at least 70% over the next 12 months and leading free products respond by imposing tight daily task caps, the mass-market free-agent thesis weakens.",
+      "If Assistant Bench or comparable public tests show one-shot completion rates for travel, email, shopping, and financial-admin tasks staying below 50% through year-end 2026, consumers are unlikely to delegate high-value workflows.",
+      "If paid vertical agents with hard-dollar savings use cases show monthly churn above 8% after month three, it would suggest the ROI story is not translating into durable behavior.",
+      "If Amazon, Google, Apple, major banks, and major airlines continue blocking third-party agent access through 2027, the connector model becomes much less attractive.",
+      "If disclosed trust incidents lead to OAuth revocation rates above 25% among active users in major agent products, proactivity may become a liability rather than a habit-forming feature."
+    ],
+    "schema_version": 2,
+    "insight_title": "The Personal Agent Race Is Here | Anish Acharya & David Pawlan",
+    "source_name": "The a16z Show",
+    "source_date": "2026-09-29",
+    "key_tickers": []
+  },
+  "551": {
+    "id": 552,
+    "insight_id": 551,
+    "podcast_episode_id": 536,
+    "overview": "The more investable nuance is not just \u201cmore AI demand,\u201d but how that demand migrates through price, budgets, and profit pools. The team described data centers as large anchor tenants for the grid: if they raise utilization of shared poles, wires, and substations, local residential rates can fall rather than rise, which would make siting and permitting easier than the political debate implies. At the application layer, the unit of competition is shifting from tokens to completed work: caching made one financial-chat workload 10x cheaper, Databricks\u2019 router reportedly solved more problems at 35% lower cost, and fine-tuning let a smaller model run 60% cheaper with lower latency. That matters because enterprise AI budgets may be funded by slowing traditional SaaS projects, while consumer agents could re-route high-margin ad revenue away from marketplaces like Amazon unless they create enough new orders to offset the lost discovery economics.",
+    "key_takeaways_detailed": [],
+    "investment_thesis": "If the thesis is directionally right, the next 24\u201336 months favor companies that either convert AI CapEx into durable cloud demand or sell into the physical bottlenecks around data centers, rather than generic software seats. The proof point is not only higher spending, but evidence that deployed capacity produces improving free cash flow, lower unit inference costs, and real workflow revenue. The main disproof would be falling compute prices with stagnant usage, combined with hyperscalers pulling back before the expected 2028 cash-flow recovery.",
+    "ticker_analysis": {
+      "MSFT": {
+        "rationale": "Microsoft is a central hyperscaler in the discussion, with AI demand tied to Azure capacity, cloud backlog, and enterprise distribution through Copilot and adjacent workflows.",
+        "positioning": "",
+        "risk": ""
+      },
+      "AMZN": {
+        "rationale": "Amazon is exposed through AWS capacity expansion and was cited as explaining the J-curve between upfront infrastructure spend and later GPU or TPU economic life.",
+        "positioning": "",
+        "risk": ""
+      },
+      "GOOGL": {
+        "rationale": "Alphabet is both a hyperscaler funding the AI buildout and a company whose search advertising pool could be reshaped if agents take over commercial intent queries.",
+        "positioning": "",
+        "risk": ""
+      },
+      "ORCL": {
+        "rationale": "Oracle is included among the hyperscalers driving the CapEx step-up, making it a more direct public-market proxy for AI infrastructure demand than most traditional software names.",
+        "positioning": "",
+        "risk": ""
+      }
+    },
+    "positioning_guidance": "",
+    "risk_factors": [],
+    "contrarian_signals": [],
+    "catalysts": [],
+    "related_insights": null,
+    "audio_timestamp_start": null,
+    "audio_timestamp_end": null,
+    "transcript_excerpt": null,
+    "created_at": "2026-09-30T12:36:34.477936",
+    "updated_at": "2026-09-30 17:36:34",
+    "episode_evidence": "- David George: \"The earnings behind the market's rise, the scale of the AI build out, the evidence of growing adoption, and what the cycle means for hardware, software, and the next generation of private companies.\"\n- Sarah Wang: \"A recent U.S. study showed that for every 10% increase in data center capacity, residential rates went down by 40 beps.\"\n- Santiago Rodriguez: \"The relevant unit for them is really the cost of getting the customer's job done.\"",
+    "falsification_tracks": [
+      "Alphabet, Amazon, Meta, Microsoft, or Oracle guide 2027 AI-related CapEx materially below current run-rate expectations for two consecutive quarters, rather than merely delaying spend by one quarter.",
+      "Public GPU rental or cloud instance markets show sustained price declines alongside rising availability and lower utilization, indicating compute has moved from shortage to surplus.",
+      "Major data-center supply-chain lead times for power, cooling, transformers, and construction normalize before 2028 without corresponding acceleration in deployed workloads.",
+      "Large software vendors report stable retention but no AI-driven revenue acceleration after 12\u201318 months of product releases, especially in horizontal SaaS categories.",
+      "Enterprise AI deployments remain concentrated in pilots: the share of S&P 500 companies tracking AI metrics over time fails to rise meaningfully from the cited 2% baseline by late 2026."
     ],
     "schema_version": 2,
     "insight_title": "The $1 Trillion AI Buildout | State of Markets",
@@ -45942,7 +46794,7 @@ const dashboardData = {
     "last_podcast_name": "The a16z Show",
     "last_episode_date": "2026-09-05",
     "mention_score": 3,
-    "mention_score_decayed": 1.72,
+    "mention_score_decayed": 1.68,
     "last_main_idea": "The winning AI infrastructure investments will be in open-weights-enabling platforms and model-agnostic orchestration layers, as enterprise adoption shifts from single-model dependence to intelligent routing across specialized models.",
     "last_proof_cite": "The a16z Show \u2022 2026-09-05 \u2022 Aaron Levie on Why Open AI Wins",
     "last_proof_snippet": "Openweight AI is often framed as a threat to frontier labs. Aaron Levy thinks that kits the economics backwards. The box co-founder and CEO joins the OJFI and Sofia Puccini on MTS to discuss why open models could make the AI ecosystem more",
@@ -46548,10 +47400,10 @@ const dashboardData = {
     "last_episode_date": "2026-09-28",
     "mention_score": 1,
     "mention_score_decayed": 0.98,
-    "last_main_idea": "Daniel Ek argues that Neco's focus on preventative healthcare through data and AI can significantly reduce costs and improve health outcomes.",
+    "last_main_idea": "Daniel Ek argues Neko Health's $499 vertically integrated scans can shift healthcare from reactive to preventative by combining 53 blood markers, 6,000 skin images, clinician review, and longitudinal AI.",
     "last_proof_cite": "All-In with Chamath, Jason, Sacks & Friedberg \u2022 2026-09-28 \u2022 Daniel Ek: Life After Spotify, Broken Healthcare Incentives, Catching Disease Early & AI's Potential",
     "last_proof_snippet": "Part of everybody welcome back to the all-in interview show where we, the all-in podcast and dedicate an hour to just some of the great thinkers, creators of our time, and today will be no different. Daniel Eck is with us, you know him, the",
-    "supporting_takeaway": "Ek argues that Neco's vertically integrated model allows for profitable operations at a $499 price point, demonstrating sustainable business practices.",
+    "supporting_takeaway": "Daniel Ek claimed Neko Health's $499 scan measures 53 blood markers, captures over 6,000 high-resolution skin images, reviews cardiovascular and strength indicators, and includes clinician review within about one hour.",
     "grokipedia_url": null,
     "grokipedia_fetched_at": "2026-09-29T05:34:32.908771",
     "pundit_profile": {
@@ -46667,10 +47519,10 @@ const dashboardData = {
     "last_episode_date": "2026-09-28",
     "mention_score": 1,
     "mention_score_decayed": 0.98,
-    "last_main_idea": "Palmer Luckey predicts that AI will massively reduce costs in resource extraction and processing, transforming various sectors.",
+    "last_main_idea": "Palmer Luckey argues Anduril can disrupt defense procurement because it self-funds specialized autonomous products in a market where 80% of major defense acquisition programs went to five companies.",
     "last_proof_cite": "Moonshots with Peter Diamandis \u2022 2026-09-28 \u2022 Palmer Luckey: Autonomous Weapons Are Ancient and Why Anduril Won't Build Humanoids  | Moonshots Live | EP #295",
     "last_proof_snippet": "Wow, so much brighter out here. It is. It's, you know, the future is bright. There's a light flare in the future. Yeah. So welcome everybody to the Oscars of optimism, that of course we're opening up the summit with the king of autonomous w",
-    "supporting_takeaway": "Luckey predicts that AI will significantly lower costs across industries, similar to automation's impact on agriculture.",
+    "supporting_takeaway": "Palmer Luckey argued wildfire automation requires detection, classification, false-fire rejection, and asset matchmaking because a 10 minute response versus a one hour response changes what firefighting tool can still work.",
     "grokipedia_url": null,
     "grokipedia_fetched_at": "2026-09-28T13:42:58.843997",
     "pundit_profile": {
@@ -46727,10 +47579,10 @@ const dashboardData = {
     "last_episode_date": "2026-09-28",
     "mention_score": 1,
     "mention_score_decayed": 0.95,
-    "last_main_idea": "Diego Almeida predicts that SaaS will be one of the largest winners of the AI integration trend.",
+    "last_main_idea": "Diego Almeida argues SaaS could see an inverse SaaS Apocalypse because Type-Safe AI's Jeff adds a natural-language-to-state-machine primitive inside existing products, unlike Claude Code or Codex generating ordinary code.",
     "last_proof_cite": "The a16z Show \u2022 2026-09-28 \u2022 AI Can Write Code. Why Isn\u2019t Software Better?",
     "last_proof_snippet": "Where the fuck is all the automation? AI is so unbelievably smart, and yet it's so useless at all other stuff. It doesn't matter how much AI cutting agents you use, the software actually isn't getting better. Maybe you're ready to get faste",
-    "supporting_takeaway": "Almeida emphasizes that reliability in AI systems is crucial for their adoption, claiming, 'Reliability matters more than impressive demos.'",
+    "supporting_takeaway": "Diego Almeida claims OpenAI has tried to automate customer service since 2020, but basic workflows remain hard to automate because the industry optimized models for human judges and demos rather than background software reliability.",
     "grokipedia_url": null,
     "grokipedia_fetched_at": "2026-09-28T06:51:56.462771",
     "pundit_profile": {
@@ -46779,14 +47631,14 @@ const dashboardData = {
     "voice_profile_updated_at": "2026-09-27 19:13:25",
     "last_seen": "2026-09-27 19:13:25",
     "last_episode_title": "The Private Credit Boom is Over: Redemption Requests Exceed Liquidity | James Elbaor | Marlton LLC",
-    "last_podcast_name": "Monetary Matters with Jack Farley",
+    "last_podcast_name": "Other People's Money with Max Wiethe",
     "last_episode_date": "2026-09-27",
     "mention_score": 1,
     "mention_score_decayed": 0.95,
-    "last_main_idea": "James Elbauer predicts significant merger activity in the BDC and private credit space starting next fiscal year, which may stabilize valuations in a distressed market.",
-    "last_proof_cite": "Monetary Matters with Jack Farley \u2022 2026-09-27 \u2022 The Private Credit Boom is Over: Redemption Requests Exceed Liquidity | James Elbaor | Marlton LLC",
+    "last_main_idea": "James Elbaor argues private credit growth is over and BDC/private credit consolidation should accelerate next fiscal year as redemptions exceed 5% gates and public vehicles trade at large NAV discounts.",
+    "last_proof_cite": "Other People's Money with Max Wiethe \u2022 2026-09-27 \u2022 The Private Credit Boom is Over: Redemption Requests Exceed Liquidity | James Elbaor | Marlton LLC",
     "last_proof_snippet": "Let's take a quick step back and say one thing that I think is abundantly clear. The private credit boom is over. We all saw in Forbes recently around the blue owl founders, other founders of private credit firms becoming billionaires. That",
-    "supporting_takeaway": "James Elbauer explains that gating in private credit funds has resulted in redemption requests exceeding available liquidity, indicating potential fund instability.",
+    "supporting_takeaway": "James Elbaor says BCRED is an $82 billion Blackstone vehicle with a 5% quarterly gate that received redemption requests for 10% of shares outstanding, or roughly $8 billion.",
     "grokipedia_url": null,
     "grokipedia_fetched_at": "2026-09-27T14:13:53.927032",
     "pundit_profile": {
@@ -46895,10 +47747,10 @@ const dashboardData = {
     "last_episode_date": "2026-09-24",
     "mention_score": 1,
     "mention_score_decayed": 0.89,
-    "last_main_idea": "The core investment opportunity lies in supporting AI companies that prioritize accountability, transparency, and societal benefits, as these factors will drive long-term value and trust in the sector.",
+    "last_main_idea": "Eddy Lazzarin argues an AI pause would delay abundance from local cybersecurity models, healthcare tools, and safer travel, because capability gains can produce better metrology, controls, and model accountability.",
     "last_proof_cite": "The a16z Show \u2022 2026-09-24 \u2022 The Case Against an AI Pause | Eddy Lazzarin",
     "last_proof_snippet": "The AI debate increasingly asks us to consider the probability of doom. Eddie Lazaran thinks we should also be asking about the probability of abundance. In this episode, A16Z Crypto-General Partner Eddie Lazaran joins Theo-Jaffe on MTS to",
-    "supporting_takeaway": "Understanding cybersecurity as a primary concern can inform better risk management strategies for AI investments.",
+    "supporting_takeaway": "Theo Jaffe counters that the Hugging Face incident looked materially different because AI agents hacked into another company after being told not to, raising the specific question of emergent agent coordination.",
     "grokipedia_url": null,
     "grokipedia_fetched_at": "2026-09-24T22:33:20.761569",
     "pundit_profile": {
@@ -48579,66 +49431,6 @@ const dashboardData = {
     "net_worth": "$11.9M"
   },
   {
-    "id": 218,
-    "name": "Joe Schmidt",
-    "slug": "joe-schmidt",
-    "bio": "Joe Schmidt is an investor at a16z with a focus on enterprise software and AI startups. He is known for his expertise in go-to-market strategies for AI companies and lessons from building sales organizations.",
-    "known_for": "His insights on sales strategies and the framework for evaluating which playbook AI companies should follow.",
-    "net_worth_usd": 21000000.0,
-    "net_worth_source": "https://www.gurufocus.com/insider/168447/joseph-h-schmidt",
-    "net_worth_updated_at": "2026-04-30T22:03:04.038566",
-    "voice_tone": "Analytical and insightful",
-    "voice_style": "Factual and informative",
-    "voice_delivery_notes": "Clear and concise with a focus on actionable insights",
-    "voice_profile_updated_at": "2026-08-13 17:06:10",
-    "last_seen": "2026-08-13 17:06:10",
-    "last_episode_title": "The Two Ways to Sell AI: Lighthouse or Landgrab?",
-    "last_podcast_name": "The a16z Show",
-    "last_episode_date": "2026-08-13",
-    "mention_score": 2,
-    "mention_score_decayed": 0.68,
-    "last_main_idea": "The choice between the lighthouse and land grab strategies can significantly impact the success of an enterprise AI startup, as each approach has its own set of advantages and challenges that must be carefully considered in the context of the company's specific circumstances.",
-    "last_proof_cite": "The a16z Show \u2022 2026-08-13 \u2022 The Two Ways to Sell AI: Lighthouse or Landgrab?",
-    "last_proof_snippet": "There's a moment right now to go sell big software again. We're now looking at a different way of doing business entirely. What are the lighthouse and land grab sales playbook? Here's the framework for evaluating which playbook should you b",
-    "supporting_takeaway": "Founders should evaluate which playbook to follow based on their unique circumstances, including the nature of their product, the market landscape, and their sales capabilities.",
-    "grokipedia_url": null,
-    "grokipedia_fetched_at": "2026-08-13T12:06:19.499034",
-    "pundit_profile": {
-      "source": "llm",
-      "source_model": "moonshot:moonshot-v1-8k",
-      "source_url": "",
-      "page_title": "Joe Schmidt",
-      "fetched_at": "2026-08-13T17:06:19.498693+00:00",
-      "cliff_notes": "Joe Schmidt is an investor at a16z, a venture capital firm, where he focuses on enterprise software and AI startups. He has gained recognition for his expertise in go-to-market strategies for AI companies and his insights on building sales organizations. Schmidt's work involves identifying opportunities in the AI space and helping startups scale their operations. His approach to sales strategies, such as the lighthouse and land grab playbooks, has been influential in the tech industry. By providing frameworks for evaluating which sales strategy to follow, Schmidt has contributed significantly to the growth and success of AI companies.",
-      "derived": {
-        "current_role": "Investor at a16z"
-      },
-      "infobox": {
-        "Born": "",
-        "Nationality": ""
-      },
-      "lead_paragraphs": [
-        "Joe Schmidt is an investor at a16z, a venture capital firm, where he focuses on enterprise software and AI startups. He has gained recognition for his expertise in go-to-market strategies for AI companies and his insights on building sales organizations. Schmidt's work involves identifying opportunities in the AI space and helping startups scale their operations.",
-        "His approach to sales strategies, such as the lighthouse and land grab playbooks, has been influential in the tech industry. By providing frameworks for evaluating which sales strategy to follow, Schmidt has contributed significantly to the growth and success of AI companies."
-      ],
-      "sections": [
-        {
-          "heading": "Go-to-Market Strategies",
-          "body": "Joe Schmidt is known for his expertise in go-to-market strategies for AI companies. He has developed frameworks for evaluating which sales playbook to follow, such as the lighthouse and land grab strategies."
-        },
-        {
-          "heading": "AI Startups",
-          "body": "As an investor at a16z, Joe Schmidt focuses on enterprise software and AI startups. He helps these companies scale their operations and provides insights on sales strategies and building sales organizations."
-        },
-        {
-          "heading": "Sales Playbooks",
-          "body": "Schmidt has developed a framework for evaluating which sales playbook AI companies should follow, such as targeting obvious companies with social value or finding customers who need their solution."
-        }
-      ]
-    },
-    "net_worth": "$21.0M"
-  },
-  {
     "id": 449,
     "name": "John Ferris",
     "slug": "john-ferris",
@@ -48706,6 +49498,66 @@ const dashboardData = {
       ]
     },
     "net_worth": "$5.0M"
+  },
+  {
+    "id": 218,
+    "name": "Joe Schmidt",
+    "slug": "joe-schmidt",
+    "bio": "Joe Schmidt is an investor at a16z with a focus on enterprise software and AI startups. He is known for his expertise in go-to-market strategies for AI companies and lessons from building sales organizations.",
+    "known_for": "His insights on sales strategies and the framework for evaluating which playbook AI companies should follow.",
+    "net_worth_usd": 21000000.0,
+    "net_worth_source": "https://www.gurufocus.com/insider/168447/joseph-h-schmidt",
+    "net_worth_updated_at": "2026-04-30T22:03:04.038566",
+    "voice_tone": "Analytical and insightful",
+    "voice_style": "Factual and informative",
+    "voice_delivery_notes": "Clear and concise with a focus on actionable insights",
+    "voice_profile_updated_at": "2026-08-13 17:06:10",
+    "last_seen": "2026-08-13 17:06:10",
+    "last_episode_title": "The Two Ways to Sell AI: Lighthouse or Landgrab?",
+    "last_podcast_name": "The a16z Show",
+    "last_episode_date": "2026-08-13",
+    "mention_score": 2,
+    "mention_score_decayed": 0.66,
+    "last_main_idea": "The choice between the lighthouse and land grab strategies can significantly impact the success of an enterprise AI startup, as each approach has its own set of advantages and challenges that must be carefully considered in the context of the company's specific circumstances.",
+    "last_proof_cite": "The a16z Show \u2022 2026-08-13 \u2022 The Two Ways to Sell AI: Lighthouse or Landgrab?",
+    "last_proof_snippet": "There's a moment right now to go sell big software again. We're now looking at a different way of doing business entirely. What are the lighthouse and land grab sales playbook? Here's the framework for evaluating which playbook should you b",
+    "supporting_takeaway": "Founders should evaluate which playbook to follow based on their unique circumstances, including the nature of their product, the market landscape, and their sales capabilities.",
+    "grokipedia_url": null,
+    "grokipedia_fetched_at": "2026-08-13T12:06:19.499034",
+    "pundit_profile": {
+      "source": "llm",
+      "source_model": "moonshot:moonshot-v1-8k",
+      "source_url": "",
+      "page_title": "Joe Schmidt",
+      "fetched_at": "2026-08-13T17:06:19.498693+00:00",
+      "cliff_notes": "Joe Schmidt is an investor at a16z, a venture capital firm, where he focuses on enterprise software and AI startups. He has gained recognition for his expertise in go-to-market strategies for AI companies and his insights on building sales organizations. Schmidt's work involves identifying opportunities in the AI space and helping startups scale their operations. His approach to sales strategies, such as the lighthouse and land grab playbooks, has been influential in the tech industry. By providing frameworks for evaluating which sales strategy to follow, Schmidt has contributed significantly to the growth and success of AI companies.",
+      "derived": {
+        "current_role": "Investor at a16z"
+      },
+      "infobox": {
+        "Born": "",
+        "Nationality": ""
+      },
+      "lead_paragraphs": [
+        "Joe Schmidt is an investor at a16z, a venture capital firm, where he focuses on enterprise software and AI startups. He has gained recognition for his expertise in go-to-market strategies for AI companies and his insights on building sales organizations. Schmidt's work involves identifying opportunities in the AI space and helping startups scale their operations.",
+        "His approach to sales strategies, such as the lighthouse and land grab playbooks, has been influential in the tech industry. By providing frameworks for evaluating which sales strategy to follow, Schmidt has contributed significantly to the growth and success of AI companies."
+      ],
+      "sections": [
+        {
+          "heading": "Go-to-Market Strategies",
+          "body": "Joe Schmidt is known for his expertise in go-to-market strategies for AI companies. He has developed frameworks for evaluating which sales playbook to follow, such as the lighthouse and land grab strategies."
+        },
+        {
+          "heading": "AI Startups",
+          "body": "As an investor at a16z, Joe Schmidt focuses on enterprise software and AI startups. He helps these companies scale their operations and provides insights on sales strategies and building sales organizations."
+        },
+        {
+          "heading": "Sales Playbooks",
+          "body": "Schmidt has developed a framework for evaluating which sales playbook AI companies should follow, such as targeting obvious companies with social value or finding customers who need their solution."
+        }
+      ]
+    },
+    "net_worth": "$21.0M"
   },
   {
     "id": 448,
@@ -50380,7 +51232,7 @@ const dashboardData = {
     "last_podcast_name": "The a16z Show",
     "last_episode_date": "2026-08-20",
     "mention_score": 1,
-    "mention_score_decayed": 0.4,
+    "mention_score_decayed": 0.39,
     "last_main_idea": "Investing in borderless founders offers access to a global talent pool, customer base, and distribution networks, which can lead to the creation of successful global companies.",
     "last_proof_cite": "The a16z Show \u2022 2026-08-20 \u2022 How Global Networks Are Reshaping Startup Success",
     "last_proof_snippet": "Anyone, international, whether you're building primarily in your home country to start, but that you have global ambitions, your board of the standard. They tend to have a chip on their folder. It's the desire that they want to become the b",
@@ -50445,7 +51297,7 @@ const dashboardData = {
     "last_podcast_name": "The a16z Show",
     "last_episode_date": "2026-08-20",
     "mention_score": 1,
-    "mention_score_decayed": 0.4,
+    "mention_score_decayed": 0.39,
     "last_main_idea": "Investing in borderless founders offers access to a global talent pool, customer base, and distribution networks, which can lead to the creation of successful global companies.",
     "last_proof_cite": "The a16z Show \u2022 2026-08-20 \u2022 How Global Networks Are Reshaping Startup Success",
     "last_proof_snippet": "Anyone, international, whether you're building primarily in your home country to start, but that you have global ambitions, your board of the standard. They tend to have a chip on their folder. It's the desire that they want to become the b",
@@ -50508,7 +51360,7 @@ const dashboardData = {
     "last_podcast_name": "The a16z Show",
     "last_episode_date": "2026-08-19",
     "mention_score": 1,
-    "mention_score_decayed": 0.39,
+    "mention_score_decayed": 0.38,
     "last_main_idea": "Live commerce has the potential to disrupt traditional e-commerce by combining shopping with entertainment and community, creating a more engaging and enjoyable experience for users and opening up new opportunities for small businesses.",
     "last_proof_cite": "The a16z Show \u2022 2026-08-19 \u2022 How Whatnot Built a Global Marketplace",
     "last_proof_snippet": "If you look at e-commerce today, you have to know exactly what you're looking for. Live commerce is over a third of all commerce in Asia. Send right? 30 to 40 percent of all commerce is live commerce in China. What is it in the U.S today? S",
@@ -50696,7 +51548,7 @@ const dashboardData = {
     "last_podcast_name": "The a16z Show",
     "last_episode_date": "2026-08-18",
     "mention_score": 1,
-    "mention_score_decayed": 0.38,
+    "mention_score_decayed": 0.37,
     "last_main_idea": "Model providers' guardrails inadvertently complicate incident response for defenders.",
     "last_proof_cite": "The a16z Show \u2022 2026-08-18 \u2022 How Do You Defend Against AI That Can Hack?",
     "last_proof_snippet": "One of the interesting things in the OpenAI Hugging Face reach has been the difficulty that Hugging Face actually had to respond into the incident. A model providers have great reason to establish guardrails, safeguards, because these are s",
@@ -50760,7 +51612,7 @@ const dashboardData = {
     "last_podcast_name": "The a16z Show",
     "last_episode_date": "2026-08-18",
     "mention_score": 1,
-    "mention_score_decayed": 0.38,
+    "mention_score_decayed": 0.37,
     "last_main_idea": "Model providers' guardrails inadvertently complicate incident response for defenders.",
     "last_proof_cite": "The a16z Show \u2022 2026-08-18 \u2022 How Do You Defend Against AI That Can Hack?",
     "last_proof_snippet": "One of the interesting things in the OpenAI Hugging Face reach has been the difficulty that Hugging Face actually had to respond into the incident. A model providers have great reason to establish guardrails, safeguards, because these are s",
@@ -50921,66 +51773,6 @@ const dashboardData = {
     }
   },
   {
-    "id": 180,
-    "name": "Amjad Masad",
-    "slug": "amjad-masad",
-    "bio": "Amjad Masad is the CEO of Replit, an online code editor and IDE platform. He is known for leading Replit and its unique approach to building a company in public, which includes a transparent communication strategy and a focus on community engagement.",
-    "known_for": "Leading Replit and its unique approach to building a company in public.",
-    "net_worth_usd": 400000000.0,
-    "net_worth_source": "https://entrepreneurloop.com/replit-founder-net-worth-amjad-masad-billionaire-400m-funding/",
-    "net_worth_updated_at": "2026-04-15T22:05:02.977189",
-    "voice_tone": "Candid and reflective.",
-    "voice_style": "Shares personal anecdotes and company experiences to illustrate points.",
-    "voice_delivery_notes": "Speaks with a measured pace, emphasizing key points.",
-    "voice_profile_updated_at": "2026-07-17 17:01:58",
-    "last_seen": "2026-07-17 17:01:58",
-    "last_episode_title": "Amjad Masad on Going Direct, Building Replit, and the Future of Software",
-    "last_podcast_name": "The a16z Show",
-    "last_episode_date": "2026-07-17",
-    "mention_score": 2,
-    "mention_score_decayed": 0.36,
-    "last_main_idea": "Investing in companies that prioritize public communication and authenticity can lead to stronger brand loyalty and trust, which are valuable assets in the long term.",
-    "last_proof_cite": "The a16z Show \u2022 2026-07-17 \u2022 Amjad Masad on Going Direct, Building Replit, and the Future of Software",
-    "last_proof_snippet": "Being canceled is a choice. You should choose to get canceled and retreat from the public eye, but I think if you're still out there, at some point, honestly, the haters kind of give up. To some people ask, hey, how should I think about exp",
-    "supporting_takeaway": "Authenticity in communication, especially on social media, is increasingly valued.",
-    "grokipedia_url": null,
-    "grokipedia_fetched_at": "2026-07-17T12:02:19.435586",
-    "pundit_profile": {
-      "source": "llm",
-      "source_model": "moonshot:moonshot-v1-8k",
-      "source_url": "",
-      "page_title": "Amjad Masad",
-      "fetched_at": "2026-07-17T17:02:19.435257+00:00",
-      "cliff_notes": "Amjad Masad is the CEO of Replit, a company that provides an online code editor and IDE. Before leading Replit to its current success, Masad spent years communicating a vision that many considered too ambitious or unrealistic. His experience in overcoming skepticism and building a community around Replit has shaped his beliefs about the importance of storytelling and transparency in business. Masad's approach to building Replit in the public eye has garnered attention, as he believes in the power of community and the need for CEOs to engage with their audience beyond traditional corporate communication channels.",
-      "derived": {
-        "current_role": "CEO of Replit"
-      },
-      "infobox": {
-        "Born": "",
-        "Nationality": ""
-      },
-      "lead_paragraphs": [
-        "Amjad Masad is the CEO of Replit, a company that provides an online code editor and IDE. Before leading Replit to its current success, Masad spent years communicating a vision that many considered too ambitious or unrealistic. His experience in overcoming skepticism and building a community around Replit has shaped his beliefs about the importance of storytelling and transparency in business.",
-        "Masad's approach to building Replit in the public eye has garnered attention, as he believes in the power of community and the need for CEOs to engage with their audience beyond traditional corporate communication channels."
-      ],
-      "sections": [
-        {
-          "heading": "Replit's Growth",
-          "body": "Amjad Masad has been instrumental in the growth of Replit, transforming it from a startup into a widely recognized platform for code editing and development."
-        },
-        {
-          "heading": "Public Company Building",
-          "body": "Masad is known for his approach to building Replit in public, which includes open communication and engaging with the community, a strategy that has contributed to the company's reputation and user base."
-        },
-        {
-          "heading": "CEO as Influencer",
-          "body": "Amjad Masad believes that while not every CEO needs to become an influencer, there are multiple paths to success, and storytelling can be a powerful tool for companies, especially in product-centric spaces."
-        }
-      ]
-    },
-    "net_worth": "$400.0M"
-  },
-  {
     "id": 403,
     "name": "Evan Baker",
     "slug": "evan-baker",
@@ -51044,6 +51836,66 @@ const dashboardData = {
     "net_worth": "$11.0M"
   },
   {
+    "id": 180,
+    "name": "Amjad Masad",
+    "slug": "amjad-masad",
+    "bio": "Amjad Masad is the CEO of Replit, an online code editor and IDE platform. He is known for leading Replit and its unique approach to building a company in public, which includes a transparent communication strategy and a focus on community engagement.",
+    "known_for": "Leading Replit and its unique approach to building a company in public.",
+    "net_worth_usd": 400000000.0,
+    "net_worth_source": "https://entrepreneurloop.com/replit-founder-net-worth-amjad-masad-billionaire-400m-funding/",
+    "net_worth_updated_at": "2026-04-15T22:05:02.977189",
+    "voice_tone": "Candid and reflective.",
+    "voice_style": "Shares personal anecdotes and company experiences to illustrate points.",
+    "voice_delivery_notes": "Speaks with a measured pace, emphasizing key points.",
+    "voice_profile_updated_at": "2026-07-17 17:01:58",
+    "last_seen": "2026-07-17 17:01:58",
+    "last_episode_title": "Amjad Masad on Going Direct, Building Replit, and the Future of Software",
+    "last_podcast_name": "The a16z Show",
+    "last_episode_date": "2026-07-17",
+    "mention_score": 2,
+    "mention_score_decayed": 0.35,
+    "last_main_idea": "Investing in companies that prioritize public communication and authenticity can lead to stronger brand loyalty and trust, which are valuable assets in the long term.",
+    "last_proof_cite": "The a16z Show \u2022 2026-07-17 \u2022 Amjad Masad on Going Direct, Building Replit, and the Future of Software",
+    "last_proof_snippet": "Being canceled is a choice. You should choose to get canceled and retreat from the public eye, but I think if you're still out there, at some point, honestly, the haters kind of give up. To some people ask, hey, how should I think about exp",
+    "supporting_takeaway": "Authenticity in communication, especially on social media, is increasingly valued.",
+    "grokipedia_url": null,
+    "grokipedia_fetched_at": "2026-07-17T12:02:19.435586",
+    "pundit_profile": {
+      "source": "llm",
+      "source_model": "moonshot:moonshot-v1-8k",
+      "source_url": "",
+      "page_title": "Amjad Masad",
+      "fetched_at": "2026-07-17T17:02:19.435257+00:00",
+      "cliff_notes": "Amjad Masad is the CEO of Replit, a company that provides an online code editor and IDE. Before leading Replit to its current success, Masad spent years communicating a vision that many considered too ambitious or unrealistic. His experience in overcoming skepticism and building a community around Replit has shaped his beliefs about the importance of storytelling and transparency in business. Masad's approach to building Replit in the public eye has garnered attention, as he believes in the power of community and the need for CEOs to engage with their audience beyond traditional corporate communication channels.",
+      "derived": {
+        "current_role": "CEO of Replit"
+      },
+      "infobox": {
+        "Born": "",
+        "Nationality": ""
+      },
+      "lead_paragraphs": [
+        "Amjad Masad is the CEO of Replit, a company that provides an online code editor and IDE. Before leading Replit to its current success, Masad spent years communicating a vision that many considered too ambitious or unrealistic. His experience in overcoming skepticism and building a community around Replit has shaped his beliefs about the importance of storytelling and transparency in business.",
+        "Masad's approach to building Replit in the public eye has garnered attention, as he believes in the power of community and the need for CEOs to engage with their audience beyond traditional corporate communication channels."
+      ],
+      "sections": [
+        {
+          "heading": "Replit's Growth",
+          "body": "Amjad Masad has been instrumental in the growth of Replit, transforming it from a startup into a widely recognized platform for code editing and development."
+        },
+        {
+          "heading": "Public Company Building",
+          "body": "Masad is known for his approach to building Replit in public, which includes open communication and engaging with the community, a strategy that has contributed to the company's reputation and user base."
+        },
+        {
+          "heading": "CEO as Influencer",
+          "body": "Amjad Masad believes that while not every CEO needs to become an influencer, there are multiple paths to success, and storytelling can be a powerful tool for companies, especially in product-centric spaces."
+        }
+      ]
+    },
+    "net_worth": "$400.0M"
+  },
+  {
     "id": 402,
     "name": "Andy McCall",
     "slug": "andy-mccall",
@@ -51061,7 +51913,7 @@ const dashboardData = {
     "last_podcast_name": "The a16z Show",
     "last_episode_date": "2026-08-13",
     "mention_score": 1,
-    "mention_score_decayed": 0.34,
+    "mention_score_decayed": 0.33,
     "last_main_idea": "The choice between the lighthouse and land grab strategies can significantly impact the success of an enterprise AI startup, as each approach has its own set of advantages and challenges that must be carefully considered in the context of the company's specific circumstances.",
     "last_proof_cite": "The a16z Show \u2022 2026-08-13 \u2022 The Two Ways to Sell AI: Lighthouse or Landgrab?",
     "last_proof_snippet": "There's a moment right now to go sell big software again. We're now looking at a different way of doing business entirely. What are the lighthouse and land grab sales playbook? Here's the framework for evaluating which playbook should you b",
@@ -51255,7 +52107,7 @@ const dashboardData = {
     "last_podcast_name": "The a16z Show",
     "last_episode_date": "2026-08-12",
     "mention_score": 1,
-    "mention_score_decayed": 0.33,
+    "mention_score_decayed": 0.32,
     "last_main_idea": "Founders should focus on their unique knowledge rather than chasing what's hot in the market.",
     "last_proof_cite": "The a16z Show \u2022 2026-08-12 \u2022 Garry Tan on Taste, Agents and Founder Ambition",
     "last_proof_snippet": "We may never achieve a utopia, but it is worthy and worth it to attempt. Everything that's awesome in my life is kind of a cult. We had to go over to the Windows team. They wouldn't reply to our emails. They wouldn't fix our bugs. And we ha",
@@ -51565,7 +52417,7 @@ const dashboardData = {
     "last_podcast_name": "The a16z Show",
     "last_episode_date": "2026-08-11",
     "mention_score": 1,
-    "mention_score_decayed": 0.32,
+    "mention_score_decayed": 0.31,
     "last_main_idea": "Enterprises are increasingly adopting AI, impacting how businesses operate and develop software.",
     "last_proof_cite": "The a16z Show \u2022 2026-08-11 \u2022 The CISO Playbook for AI Agents | Datadog",
     "last_proof_snippet": "The number one story on Bloomberg right now is that AI has gone wild. We seem remarkably calm. The way I see it is, if it's not an AI model, it's going to be somebody or something with actual malicious intent to win it. I do worry about wha",
@@ -51987,7 +52839,7 @@ const dashboardData = {
     "last_podcast_name": "The a16z Show",
     "last_episode_date": "2026-08-06",
     "mention_score": 1,
-    "mention_score_decayed": 0.29,
+    "mention_score_decayed": 0.28,
     "last_main_idea": "Investing in open source AI infrastructure and models is crucial for enterprises looking to leverage AI capabilities, as it offers a sustainable and collaborative approach to innovation in the field.",
     "last_proof_cite": "The a16z Show \u2022 2026-08-06 \u2022 How Open-Source AI Became Critical Infrastructure",
     "last_proof_snippet": "The fun thought experiment is if GPUs dropped in price by 99% then do we get back to it a real open source world if moderation is never solved in the future people will go to openly by default because that is where you know for sure you can",
@@ -52165,7 +53017,7 @@ const dashboardData = {
     "last_podcast_name": "The a16z Show",
     "last_episode_date": "2026-08-05",
     "mention_score": 1,
-    "mention_score_decayed": 0.28,
+    "mention_score_decayed": 0.27,
     "last_main_idea": "Investing in innovative technologies that address critical challenges in ocean exploration, mineral extraction, and nuclear energy can lead to significant market opportunities and positive societal impacts.",
     "last_proof_cite": "The a16z Show \u2022 2026-08-05 \u2022 Three Startups Reinventing Critical Infrastructure",
     "last_proof_snippet": "Last month, A16Z American dynamism films screened short films about three portfolio companies. Ulysses built mission-critical underwater robots, Marianna Mineroles applies modern technologies to the critical mineral sector, and Radiant seek",
@@ -52224,7 +53076,7 @@ const dashboardData = {
     "last_podcast_name": "The a16z Show",
     "last_episode_date": "2026-08-05",
     "mention_score": 1,
-    "mention_score_decayed": 0.28,
+    "mention_score_decayed": 0.27,
     "last_main_idea": "Investing in innovative technologies that address critical challenges in ocean exploration, mineral extraction, and nuclear energy can lead to significant market opportunities and positive societal impacts.",
     "last_proof_cite": "The a16z Show \u2022 2026-08-05 \u2022 Three Startups Reinventing Critical Infrastructure",
     "last_proof_snippet": "Last month, A16Z American dynamism films screened short films about three portfolio companies. Ulysses built mission-critical underwater robots, Marianna Mineroles applies modern technologies to the critical mineral sector, and Radiant seek",
@@ -52287,7 +53139,7 @@ const dashboardData = {
     "last_podcast_name": "The a16z Show",
     "last_episode_date": "2026-08-05",
     "mention_score": 1,
-    "mention_score_decayed": 0.28,
+    "mention_score_decayed": 0.27,
     "last_main_idea": "Investing in innovative technologies that address critical challenges in ocean exploration, mineral extraction, and nuclear energy can lead to significant market opportunities and positive societal impacts.",
     "last_proof_cite": "The a16z Show \u2022 2026-08-05 \u2022 Three Startups Reinventing Critical Infrastructure",
     "last_proof_snippet": "Last month, A16Z American dynamism films screened short films about three portfolio companies. Ulysses built mission-critical underwater robots, Marianna Mineroles applies modern technologies to the critical mineral sector, and Radiant seek",
@@ -54602,7 +55454,7 @@ const dashboardData = {
     "last_podcast_name": "The a16z Show",
     "last_episode_date": "2026-07-08",
     "mention_score": 1,
-    "mention_score_decayed": 0.15,
+    "mention_score_decayed": 0.14,
     "last_main_idea": "Evaluate the technological capabilities of real estate firms, focusing on their ability to adapt to changing market demands.",
     "last_proof_cite": "The a16z Show \u2022 2026-07-08 \u2022 Adam Neumann: This Is How You Build Iconic Companies",
     "last_proof_snippet": "You said, I don't tell me how you're doing and I jumped straight into my lessons learned and this had an answer. And you're like, oh, you're still in that stage? That was, and we don't know each other. I was like, Mark, please tell me what",
@@ -55077,67 +55929,6 @@ const dashboardData = {
     "net_worth": "$600.0M"
   },
   {
-    "id": 315,
-    "name": "Rick Rubin",
-    "slug": "rick-rubin",
-    "bio": "Rick Rubin is an American record producer and former co-president of Columbia Records. He is known for his work with various high-profile artists and his concept of 'vibe coding', which has contributed significantly to the music industry.",
-    "known_for": "His innovative approach to music production and his influence on the industry through his concept of 'vibe coding'.",
-    "net_worth_usd": 250000000.0,
-    "net_worth_source": "https://www.wikidata.org/wiki/Q587361",
-    "net_worth_updated_at": "2026-07-01T12:05:16.378155",
-    "voice_tone": "Reflective and insightful.",
-    "voice_style": "Engages in deep discussions on creativity and technology.",
-    "voice_delivery_notes": "Speaks with a measured pace, emphasizing key points.",
-    "voice_profile_updated_at": "2026-07-01 17:05:05",
-    "last_seen": "2026-07-01 17:05:05",
-    "last_episode_title": "Rick Rubin on AI, Creativity, and The Way of Code",
-    "last_podcast_name": "The a16z Show",
-    "last_episode_date": "2026-07-01",
-    "mention_score": 1,
-    "mention_score_decayed": 0.13,
-    "last_main_idea": "AI is a tool that enhances creativity by enabling rapid iteration of ideas.",
-    "last_proof_cite": "The a16z Show \u2022 2026-07-01 \u2022 Rick Rubin on AI, Creativity, and The Way of Code",
-    "last_proof_snippet": "So many people I know who use AI ask it questions and think that the results that they get back is the answer and it seems like people are more interested in getting an answer that can allow them to stop thinking about the question than rea",
-    "supporting_takeaway": "Authenticity and personal expression are more important for artists than conforming to market demands.",
-    "grokipedia_url": null,
-    "grokipedia_fetched_at": "2026-07-01T12:05:15.886235",
-    "pundit_profile": {
-      "source": "llm",
-      "source_model": "moonshot:moonshot-v1-8k",
-      "source_url": "",
-      "page_title": "Rick Rubin",
-      "fetched_at": "2026-07-01T17:05:15.885690+00:00",
-      "cliff_notes": "Rick Rubin is a legendary American record producer who has worked with numerous high-profile artists throughout his career. As a former co-president of Columbia Records, he has played a significant role in shaping the music industry. Rubin is also known for his concept of 'vibe coding', which has contributed to his unique approach to music production. His work has not only influenced the industry but also sparked conversations about the intersection of technology and creativity. Rubin's insights into the creative process and the role of AI in music production have made him a thought leader in the field.",
-      "derived": {
-        "current_role": "Record producer",
-        "former_positions": "Co-president of Columbia Records"
-      },
-      "infobox": {
-        "Born": "",
-        "Nationality": "American"
-      },
-      "lead_paragraphs": [
-        "Rick Rubin is a legendary American record producer who has worked with numerous high-profile artists throughout his career. As a former co-president of Columbia Records, he has played a significant role in shaping the music industry. Rubin is also known for his concept of 'vibe coding', which has contributed to his unique approach to music production.",
-        "His work has not only influenced the industry but also sparked conversations about the intersection of technology and creativity. Rubin's insights into the creative process and the role of AI in music production have made him a thought leader in the field."
-      ],
-      "sections": [
-        {
-          "heading": "Vibe Coding",
-          "body": "Rick Rubin is known for his concept of 'vibe coding', which involves creating a specific atmosphere or 'vibe' in the recording studio to inspire creativity and enhance the music production process."
-        },
-        {
-          "heading": "Influence on Music Industry",
-          "body": "As a record producer, Rick Rubin has worked with numerous high-profile artists and has played a significant role in shaping the music industry through his innovative approach to music production."
-        },
-        {
-          "heading": "Thought Leadership",
-          "body": "Rubin's insights into the creative process and the role of AI in music production have made him a thought leader in the field, sparking conversations about the intersection of technology and creativity."
-        }
-      ]
-    },
-    "net_worth": "$250.0M"
-  },
-  {
     "id": 171,
     "name": "Steven Sinofsky",
     "slug": "steven-sinofsky",
@@ -55202,6 +55993,67 @@ const dashboardData = {
       ]
     },
     "net_worth": "$300.0M"
+  },
+  {
+    "id": 315,
+    "name": "Rick Rubin",
+    "slug": "rick-rubin",
+    "bio": "Rick Rubin is an American record producer and former co-president of Columbia Records. He is known for his work with various high-profile artists and his concept of 'vibe coding', which has contributed significantly to the music industry.",
+    "known_for": "His innovative approach to music production and his influence on the industry through his concept of 'vibe coding'.",
+    "net_worth_usd": 250000000.0,
+    "net_worth_source": "https://www.wikidata.org/wiki/Q587361",
+    "net_worth_updated_at": "2026-07-01T12:05:16.378155",
+    "voice_tone": "Reflective and insightful.",
+    "voice_style": "Engages in deep discussions on creativity and technology.",
+    "voice_delivery_notes": "Speaks with a measured pace, emphasizing key points.",
+    "voice_profile_updated_at": "2026-07-01 17:05:05",
+    "last_seen": "2026-07-01 17:05:05",
+    "last_episode_title": "Rick Rubin on AI, Creativity, and The Way of Code",
+    "last_podcast_name": "The a16z Show",
+    "last_episode_date": "2026-07-01",
+    "mention_score": 1,
+    "mention_score_decayed": 0.12,
+    "last_main_idea": "AI is a tool that enhances creativity by enabling rapid iteration of ideas.",
+    "last_proof_cite": "The a16z Show \u2022 2026-07-01 \u2022 Rick Rubin on AI, Creativity, and The Way of Code",
+    "last_proof_snippet": "So many people I know who use AI ask it questions and think that the results that they get back is the answer and it seems like people are more interested in getting an answer that can allow them to stop thinking about the question than rea",
+    "supporting_takeaway": "Authenticity and personal expression are more important for artists than conforming to market demands.",
+    "grokipedia_url": null,
+    "grokipedia_fetched_at": "2026-07-01T12:05:15.886235",
+    "pundit_profile": {
+      "source": "llm",
+      "source_model": "moonshot:moonshot-v1-8k",
+      "source_url": "",
+      "page_title": "Rick Rubin",
+      "fetched_at": "2026-07-01T17:05:15.885690+00:00",
+      "cliff_notes": "Rick Rubin is a legendary American record producer who has worked with numerous high-profile artists throughout his career. As a former co-president of Columbia Records, he has played a significant role in shaping the music industry. Rubin is also known for his concept of 'vibe coding', which has contributed to his unique approach to music production. His work has not only influenced the industry but also sparked conversations about the intersection of technology and creativity. Rubin's insights into the creative process and the role of AI in music production have made him a thought leader in the field.",
+      "derived": {
+        "current_role": "Record producer",
+        "former_positions": "Co-president of Columbia Records"
+      },
+      "infobox": {
+        "Born": "",
+        "Nationality": "American"
+      },
+      "lead_paragraphs": [
+        "Rick Rubin is a legendary American record producer who has worked with numerous high-profile artists throughout his career. As a former co-president of Columbia Records, he has played a significant role in shaping the music industry. Rubin is also known for his concept of 'vibe coding', which has contributed to his unique approach to music production.",
+        "His work has not only influenced the industry but also sparked conversations about the intersection of technology and creativity. Rubin's insights into the creative process and the role of AI in music production have made him a thought leader in the field."
+      ],
+      "sections": [
+        {
+          "heading": "Vibe Coding",
+          "body": "Rick Rubin is known for his concept of 'vibe coding', which involves creating a specific atmosphere or 'vibe' in the recording studio to inspire creativity and enhance the music production process."
+        },
+        {
+          "heading": "Influence on Music Industry",
+          "body": "As a record producer, Rick Rubin has worked with numerous high-profile artists and has played a significant role in shaping the music industry through his innovative approach to music production."
+        },
+        {
+          "heading": "Thought Leadership",
+          "body": "Rubin's insights into the creative process and the role of AI in music production have made him a thought leader in the field, sparking conversations about the intersection of technology and creativity."
+        }
+      ]
+    },
+    "net_worth": "$250.0M"
   },
   {
     "id": 314,
@@ -55533,7 +56385,7 @@ const dashboardData = {
     "last_podcast_name": "The a16z Show",
     "last_episode_date": "2026-06-24",
     "mention_score": 1,
-    "mention_score_decayed": 0.11,
+    "mention_score_decayed": 0.1,
     "last_main_idea": "Investing in companies that prioritize design expertise and leverage AI tools effectively can lead to better outcomes in product development, as design quality becomes increasingly critical in a mobile-first world.",
     "last_proof_cite": "The a16z Show \u2022 2026-06-24 \u2022 What Happens to Design After AI?",
     "last_proof_snippet": "Designers when using Claude, as opposed to engineers using Claude, would consistently get better results. And it's because of the language that they used. We have to remember that design in the European sense came from royalty and the desir",
@@ -55593,7 +56445,7 @@ const dashboardData = {
     "last_podcast_name": "The a16z Show",
     "last_episode_date": "2026-06-24",
     "mention_score": 1,
-    "mention_score_decayed": 0.11,
+    "mention_score_decayed": 0.1,
     "last_main_idea": "Investing in companies that prioritize design expertise and leverage AI tools effectively can lead to better outcomes in product development, as design quality becomes increasingly critical in a mobile-first world.",
     "last_proof_cite": "The a16z Show \u2022 2026-06-24 \u2022 What Happens to Design After AI?",
     "last_proof_snippet": "Designers when using Claude, as opposed to engineers using Claude, would consistently get better results. And it's because of the language that they used. We have to remember that design in the European sense came from royalty and the desir",
@@ -57081,135 +57933,6 @@ const dashboardData = {
     "net_worth": "$1.30B"
   },
   {
-    "id": 280,
-    "name": "Alex Tabarrok",
-    "slug": "alex-tabarrok",
-    "bio": "Alex Tabarrok is an economist and author known for his work on the effects of technology on the economy. He is particularly recognized for his book 'Launching the Innovation Renaissance,' which delves into the role of innovation in economic growth. Tabarrok has contributed significantly to discussions on AI, its implications on work, and the future of the economy.",
-    "known_for": "His insights on the impact of AI on the workforce and his book 'Launching the Innovation Renaissance' which explores the role of innovation in economic growth.",
-    "net_worth_usd": 15300000000.0,
-    "net_worth_source": "https://www.businessinsider.com/alex-karp-bio-palantir-ceo",
-    "net_worth_updated_at": "2026-06-09T13:37:35.686786",
-    "voice_tone": "Confident and assertive, with a focus on the positive aspects of technological change.",
-    "voice_style": "Persuasive and forward-looking, emphasizing the potential benefits of AI for society.",
-    "voice_delivery_notes": "Passionate and engaging, with a clear articulation of complex economic concepts.",
-    "voice_profile_updated_at": "2026-06-09 17:02:55",
-    "last_seen": "2026-06-09 17:02:55",
-    "last_episode_title": "Tyler Cowen & Alex Tabarrok on AI, Jobs, and Economic Growth",
-    "last_podcast_name": "The a16z Show",
-    "last_episode_date": "2026-06-09",
-    "mention_score": 1,
-    "mention_score_decayed": 0.08,
-    "last_main_idea": "AI is expected to create new jobs in sectors like energy, biomedical, elderly care, and niche entertainment.",
-    "last_proof_cite": "The a16z Show \u2022 2026-06-09 \u2022 Tyler Cowen & Alex Tabarrok on AI, Jobs, and Economic Growth",
-    "last_proof_snippet": "In the world with strong AI, there's a kind of moral nervousness that sets in. So, I'm much more likely to tell people, like, hey, you'd better pass in your seatbelt. Like, you don't want to miss out on what's coming, how many years you mig",
-    "supporting_takeaway": "Historical technological revolutions have often led to job creation rather than permanent unemployment.",
-    "grokipedia_url": null,
-    "grokipedia_fetched_at": "2026-06-09T12:03:36.167542",
-    "pundit_profile": {
-      "source": "llm",
-      "source_model": "moonshot:moonshot-v1-8k",
-      "source_url": "",
-      "page_title": "Alex Tabarrok",
-      "fetched_at": "2026-06-09T17:03:36.167261+00:00",
-      "cliff_notes": "Alex Tabarrok is an economist and author with a focus on the intersection of technology and economic growth. He holds the Bartley J. Madden Chair in Economics at the Mercatus Center at George Mason University, where he is also a professor of economics. Tabarrok is well-known for his book 'Launching the Innovation Renaissance,' which discusses the importance of innovation in driving economic growth. He has been a significant voice in the discourse surrounding AI and its potential effects on the workforce, productivity, and economic dynamics. Tabarrok's work is influential in tech, finance, and policy circles, as he provides a unique perspective on how technological advancements can shape the future of work and the economy.",
-      "derived": {
-        "current_role": "Bartley J. Madden Chair in Economics at the Mercatus Center at George Mason University",
-        "education": "Ph.D. in economics from George Mason University",
-        "books_or_works": "Launching the Innovation Renaissance; co-author of the popular economics blog Marginal Revolution",
-        "teaching_summary": "Professor of economics at George Mason University"
-      },
-      "infobox": {
-        "Born": "",
-        "Nationality": "American"
-      },
-      "lead_paragraphs": [
-        "Alex Tabarrok is an economist and author with a focus on the intersection of technology and economic growth. He holds the Bartley J. Madden Chair in Economics at the Mercatus Center at George Mason University, where he is also a professor of economics. Tabarrok is well-known for his book 'Launching the Innovation Renaissance,' which discusses the importance of innovation in driving economic growth.",
-        "He has been a significant voice in the discourse surrounding AI and its potential effects on the workforce, productivity, and economic dynamics. Tabarrok's work is influential in tech, finance, and policy circles, as he provides a unique perspective on how technological advancements can shape the future of work and the economy."
-      ],
-      "sections": [
-        {
-          "heading": "Innovation and Economic Growth",
-          "body": "Alex Tabarrok is recognized for his work on the impact of innovation on economic growth, as highlighted in his book 'Launching the Innovation Renaissance.'"
-        },
-        {
-          "heading": "AI and the Workforce",
-          "body": "Tabarrok has contributed to the conversation on AI's implications for the workforce, discussing potential job displacement and the need to adapt to technological changes."
-        },
-        {
-          "heading": "Economic Policy",
-          "body": "As a professor and economist, Tabarrok influences economic policy discussions through his research and teachings at George Mason University."
-        }
-      ]
-    },
-    "net_worth": "$15.30B"
-  },
-  {
-    "id": 279,
-    "name": "Tyler Cowan",
-    "slug": "tyler-cowan",
-    "bio": "Tyler Cowen is an economist and author known for his work on economic growth and technological change. His book 'Average is Over' discusses the impact of AI on the job market, exploring the potential for AI to create unemployment or reduce the amount of work required. Cowen's insights into the future of work and the role of AI in shaping economic growth make him a valuable voice for investors and tech listeners.",
-    "known_for": "His book 'Average is Over' which discusses the impact of AI on the job market.",
-    "net_worth_usd": null,
-    "net_worth_source": "",
-    "net_worth_updated_at": null,
-    "voice_tone": "Optimistic yet cautious about the future of work.",
-    "voice_style": "Analytical and fact-based, drawing on economic theory and historical precedents.",
-    "voice_delivery_notes": "Clear and measured, with emphasis on key economic insights.",
-    "voice_profile_updated_at": "2026-06-09 17:02:55",
-    "last_seen": "2026-06-09 17:02:55",
-    "last_episode_title": "Tyler Cowen & Alex Tabarrok on AI, Jobs, and Economic Growth",
-    "last_podcast_name": "The a16z Show",
-    "last_episode_date": "2026-06-09",
-    "mention_score": 1,
-    "mention_score_decayed": 0.08,
-    "last_main_idea": "AI is expected to create new jobs in sectors like energy, biomedical, elderly care, and niche entertainment.",
-    "last_proof_cite": "The a16z Show \u2022 2026-06-09 \u2022 Tyler Cowen & Alex Tabarrok on AI, Jobs, and Economic Growth",
-    "last_proof_snippet": "In the world with strong AI, there's a kind of moral nervousness that sets in. So, I'm much more likely to tell people, like, hey, you'd better pass in your seatbelt. Like, you don't want to miss out on what's coming, how many years you mig",
-    "supporting_takeaway": "Historical technological revolutions have often led to job creation rather than permanent unemployment.",
-    "grokipedia_url": null,
-    "grokipedia_fetched_at": "2026-06-09T12:03:22.135972",
-    "pundit_profile": {
-      "source": "llm",
-      "source_model": "moonshot:moonshot-v1-8k",
-      "source_url": "",
-      "page_title": "Tyler Cowan",
-      "fetched_at": "2026-06-09T17:03:22.135483+00:00",
-      "cliff_notes": "Tyler Cowen is an economist and author who has made significant contributions to the fields of economic growth and technological change. He is a professor of economics at George Mason University and has written several influential books, including 'Average is Over' and 'The Great Stagnation'. Cowen's work explores the impact of AI on the job market and the future of work, as well as the broader implications of technological change for economic growth. His insights into these topics make him an important voice for investors and tech listeners, as they seek to understand and navigate the rapidly evolving landscape of the global economy.",
-      "derived": {
-        "current_role": "Professor of Economics, George Mason University",
-        "education": "Ph.D. in Economics, Harvard University",
-        "books_or_works": "Average is Over; The Great Stagnation; Discover Your Inner Economist",
-        "teaching_summary": "Professor of Economics, George Mason University"
-      },
-      "infobox": {
-        "Born": "",
-        "Nationality": "American"
-      },
-      "lead_paragraphs": [
-        "Tyler Cowen is an economist and author who has made significant contributions to the fields of economic growth and technological change. He is a professor of economics at George Mason University and has written several influential books, including 'Average is Over' and 'The Great Stagnation'. Cowen's work explores the impact of AI on the job market and the future of work, as well as the broader implications of technological change for economic growth.",
-        "His insights into these topics make him an important voice for investors and tech listeners, as they seek to understand and navigate the rapidly evolving landscape of the global economy."
-      ],
-      "sections": [
-        {
-          "heading": "Economic Growth",
-          "body": "Tyler Cowen has written extensively on the topic of economic growth, exploring the factors that drive it and the challenges that can hinder it."
-        },
-        {
-          "heading": "Technological Change",
-          "body": "Cowen's work often focuses on the impact of technological change on the economy, including the potential for AI to reshape the job market and the nature of work."
-        },
-        {
-          "heading": "The Future of Work",
-          "body": "In his book 'Average is Over', Cowen discusses the potential for AI to create unemployment or reduce the amount of work required, offering insights into the future of work and its implications for economic growth."
-        },
-        {
-          "heading": "AI and Unemployment",
-          "body": "Cowen argues that while AI has the potential to create unemployment, it could also lead to a reduction in the amount of work required, which he frames as a positive development."
-        }
-      ]
-    }
-  },
-  {
     "id": 164,
     "name": "Vitalik Buterin",
     "slug": "vitalik-buterin",
@@ -57335,6 +58058,135 @@ const dashboardData = {
       ]
     },
     "net_worth": "$4.6M"
+  },
+  {
+    "id": 280,
+    "name": "Alex Tabarrok",
+    "slug": "alex-tabarrok",
+    "bio": "Alex Tabarrok is an economist and author known for his work on the effects of technology on the economy. He is particularly recognized for his book 'Launching the Innovation Renaissance,' which delves into the role of innovation in economic growth. Tabarrok has contributed significantly to discussions on AI, its implications on work, and the future of the economy.",
+    "known_for": "His insights on the impact of AI on the workforce and his book 'Launching the Innovation Renaissance' which explores the role of innovation in economic growth.",
+    "net_worth_usd": 15300000000.0,
+    "net_worth_source": "https://www.businessinsider.com/alex-karp-bio-palantir-ceo",
+    "net_worth_updated_at": "2026-06-09T13:37:35.686786",
+    "voice_tone": "Confident and assertive, with a focus on the positive aspects of technological change.",
+    "voice_style": "Persuasive and forward-looking, emphasizing the potential benefits of AI for society.",
+    "voice_delivery_notes": "Passionate and engaging, with a clear articulation of complex economic concepts.",
+    "voice_profile_updated_at": "2026-06-09 17:02:55",
+    "last_seen": "2026-06-09 17:02:55",
+    "last_episode_title": "Tyler Cowen & Alex Tabarrok on AI, Jobs, and Economic Growth",
+    "last_podcast_name": "The a16z Show",
+    "last_episode_date": "2026-06-09",
+    "mention_score": 1,
+    "mention_score_decayed": 0.07,
+    "last_main_idea": "AI is expected to create new jobs in sectors like energy, biomedical, elderly care, and niche entertainment.",
+    "last_proof_cite": "The a16z Show \u2022 2026-06-09 \u2022 Tyler Cowen & Alex Tabarrok on AI, Jobs, and Economic Growth",
+    "last_proof_snippet": "In the world with strong AI, there's a kind of moral nervousness that sets in. So, I'm much more likely to tell people, like, hey, you'd better pass in your seatbelt. Like, you don't want to miss out on what's coming, how many years you mig",
+    "supporting_takeaway": "Historical technological revolutions have often led to job creation rather than permanent unemployment.",
+    "grokipedia_url": null,
+    "grokipedia_fetched_at": "2026-06-09T12:03:36.167542",
+    "pundit_profile": {
+      "source": "llm",
+      "source_model": "moonshot:moonshot-v1-8k",
+      "source_url": "",
+      "page_title": "Alex Tabarrok",
+      "fetched_at": "2026-06-09T17:03:36.167261+00:00",
+      "cliff_notes": "Alex Tabarrok is an economist and author with a focus on the intersection of technology and economic growth. He holds the Bartley J. Madden Chair in Economics at the Mercatus Center at George Mason University, where he is also a professor of economics. Tabarrok is well-known for his book 'Launching the Innovation Renaissance,' which discusses the importance of innovation in driving economic growth. He has been a significant voice in the discourse surrounding AI and its potential effects on the workforce, productivity, and economic dynamics. Tabarrok's work is influential in tech, finance, and policy circles, as he provides a unique perspective on how technological advancements can shape the future of work and the economy.",
+      "derived": {
+        "current_role": "Bartley J. Madden Chair in Economics at the Mercatus Center at George Mason University",
+        "education": "Ph.D. in economics from George Mason University",
+        "books_or_works": "Launching the Innovation Renaissance; co-author of the popular economics blog Marginal Revolution",
+        "teaching_summary": "Professor of economics at George Mason University"
+      },
+      "infobox": {
+        "Born": "",
+        "Nationality": "American"
+      },
+      "lead_paragraphs": [
+        "Alex Tabarrok is an economist and author with a focus on the intersection of technology and economic growth. He holds the Bartley J. Madden Chair in Economics at the Mercatus Center at George Mason University, where he is also a professor of economics. Tabarrok is well-known for his book 'Launching the Innovation Renaissance,' which discusses the importance of innovation in driving economic growth.",
+        "He has been a significant voice in the discourse surrounding AI and its potential effects on the workforce, productivity, and economic dynamics. Tabarrok's work is influential in tech, finance, and policy circles, as he provides a unique perspective on how technological advancements can shape the future of work and the economy."
+      ],
+      "sections": [
+        {
+          "heading": "Innovation and Economic Growth",
+          "body": "Alex Tabarrok is recognized for his work on the impact of innovation on economic growth, as highlighted in his book 'Launching the Innovation Renaissance.'"
+        },
+        {
+          "heading": "AI and the Workforce",
+          "body": "Tabarrok has contributed to the conversation on AI's implications for the workforce, discussing potential job displacement and the need to adapt to technological changes."
+        },
+        {
+          "heading": "Economic Policy",
+          "body": "As a professor and economist, Tabarrok influences economic policy discussions through his research and teachings at George Mason University."
+        }
+      ]
+    },
+    "net_worth": "$15.30B"
+  },
+  {
+    "id": 279,
+    "name": "Tyler Cowan",
+    "slug": "tyler-cowan",
+    "bio": "Tyler Cowen is an economist and author known for his work on economic growth and technological change. His book 'Average is Over' discusses the impact of AI on the job market, exploring the potential for AI to create unemployment or reduce the amount of work required. Cowen's insights into the future of work and the role of AI in shaping economic growth make him a valuable voice for investors and tech listeners.",
+    "known_for": "His book 'Average is Over' which discusses the impact of AI on the job market.",
+    "net_worth_usd": null,
+    "net_worth_source": "",
+    "net_worth_updated_at": null,
+    "voice_tone": "Optimistic yet cautious about the future of work.",
+    "voice_style": "Analytical and fact-based, drawing on economic theory and historical precedents.",
+    "voice_delivery_notes": "Clear and measured, with emphasis on key economic insights.",
+    "voice_profile_updated_at": "2026-06-09 17:02:55",
+    "last_seen": "2026-06-09 17:02:55",
+    "last_episode_title": "Tyler Cowen & Alex Tabarrok on AI, Jobs, and Economic Growth",
+    "last_podcast_name": "The a16z Show",
+    "last_episode_date": "2026-06-09",
+    "mention_score": 1,
+    "mention_score_decayed": 0.07,
+    "last_main_idea": "AI is expected to create new jobs in sectors like energy, biomedical, elderly care, and niche entertainment.",
+    "last_proof_cite": "The a16z Show \u2022 2026-06-09 \u2022 Tyler Cowen & Alex Tabarrok on AI, Jobs, and Economic Growth",
+    "last_proof_snippet": "In the world with strong AI, there's a kind of moral nervousness that sets in. So, I'm much more likely to tell people, like, hey, you'd better pass in your seatbelt. Like, you don't want to miss out on what's coming, how many years you mig",
+    "supporting_takeaway": "Historical technological revolutions have often led to job creation rather than permanent unemployment.",
+    "grokipedia_url": null,
+    "grokipedia_fetched_at": "2026-06-09T12:03:22.135972",
+    "pundit_profile": {
+      "source": "llm",
+      "source_model": "moonshot:moonshot-v1-8k",
+      "source_url": "",
+      "page_title": "Tyler Cowan",
+      "fetched_at": "2026-06-09T17:03:22.135483+00:00",
+      "cliff_notes": "Tyler Cowen is an economist and author who has made significant contributions to the fields of economic growth and technological change. He is a professor of economics at George Mason University and has written several influential books, including 'Average is Over' and 'The Great Stagnation'. Cowen's work explores the impact of AI on the job market and the future of work, as well as the broader implications of technological change for economic growth. His insights into these topics make him an important voice for investors and tech listeners, as they seek to understand and navigate the rapidly evolving landscape of the global economy.",
+      "derived": {
+        "current_role": "Professor of Economics, George Mason University",
+        "education": "Ph.D. in Economics, Harvard University",
+        "books_or_works": "Average is Over; The Great Stagnation; Discover Your Inner Economist",
+        "teaching_summary": "Professor of Economics, George Mason University"
+      },
+      "infobox": {
+        "Born": "",
+        "Nationality": "American"
+      },
+      "lead_paragraphs": [
+        "Tyler Cowen is an economist and author who has made significant contributions to the fields of economic growth and technological change. He is a professor of economics at George Mason University and has written several influential books, including 'Average is Over' and 'The Great Stagnation'. Cowen's work explores the impact of AI on the job market and the future of work, as well as the broader implications of technological change for economic growth.",
+        "His insights into these topics make him an important voice for investors and tech listeners, as they seek to understand and navigate the rapidly evolving landscape of the global economy."
+      ],
+      "sections": [
+        {
+          "heading": "Economic Growth",
+          "body": "Tyler Cowen has written extensively on the topic of economic growth, exploring the factors that drive it and the challenges that can hinder it."
+        },
+        {
+          "heading": "Technological Change",
+          "body": "Cowen's work often focuses on the impact of technological change on the economy, including the potential for AI to reshape the job market and the nature of work."
+        },
+        {
+          "heading": "The Future of Work",
+          "body": "In his book 'Average is Over', Cowen discusses the potential for AI to create unemployment or reduce the amount of work required, offering insights into the future of work and its implications for economic growth."
+        },
+        {
+          "heading": "AI and Unemployment",
+          "body": "Cowen argues that while AI has the potential to create unemployment, it could also lead to a reduction in the amount of work required, which he frames as a positive development."
+        }
+      ]
+    }
   },
   {
     "id": 278,
@@ -57932,67 +58784,6 @@ const dashboardData = {
     "net_worth": "$1.50B"
   },
   {
-    "id": 265,
-    "name": "Mark Rowan",
-    "slug": "mark-rowan",
-    "bio": "Mark Rowan is the CEO of Apollo Global Management, a leading firm in the transition into retirement services and alternative asset management. He has been instrumental in the firm's growth and diversification, emphasizing clean sheet thinking and adaptability in a rapidly changing market.",
-    "known_for": "His leadership in transforming Apollo Global Management into one of the world's largest alternative asset managers and his insights on the importance of private markets for diversification.",
-    "net_worth_usd": 577000000.0,
-    "net_worth_source": "https://www.gurufocus.com/insider/4157/marc-j-rowan",
-    "net_worth_updated_at": "2026-05-27T12:04:09.655698",
-    "voice_tone": "",
-    "voice_style": "",
-    "voice_delivery_notes": "",
-    "voice_profile_updated_at": null,
-    "last_seen": "2026-05-27 17:03:40",
-    "last_episode_title": "Marc Rowan on Private Markets, Software Repricing, and Capital Allocation",
-    "last_podcast_name": "The a16z Show",
-    "last_episode_date": "2026-05-27",
-    "mention_score": 1,
-    "mention_score_decayed": 0.06,
-    "last_main_idea": "High-growth private companies like Thropic, OpenAI, and SpaceX offer significant investment opportunities.",
-    "last_proof_cite": "The a16z Show \u2022 2026-05-27 \u2022 Marc Rowan on Private Markets, Software Repricing, and Capital Allocation",
-    "last_proof_snippet": "10 stocks right now in the U.S. are nearly 50% of the S&P and they're all levered to the same trend. The same thing is happening in the global fixed income market. And so if you're an investor and you're looking for diversification, there's",
-    "supporting_takeaway": "High-growth private companies like Thropic, OpenAI, and SpaceX offer significant investment opportunities.",
-    "grokipedia_url": null,
-    "grokipedia_fetched_at": "2026-05-27T12:04:08.533279",
-    "pundit_profile": {
-      "source": "llm",
-      "source_model": "moonshot:moonshot-v1-8k",
-      "source_url": "",
-      "page_title": "Mark Rowan",
-      "fetched_at": "2026-05-27T17:04:08.532910+00:00",
-      "cliff_notes": "Mark Rowan began his career at Drexel, where he gained experience in distressed investing. After leaving Drexel, he co-founded Apollo Global Management, which started as a distressed investing firm in the aftermath of a financial crisis. Under Rowan's leadership, Apollo has grown to become one of the world's largest alternative asset managers, with a focus on private equity, credit, and real estate. Rowan has emphasized the importance of clean sheet thinking and adaptability in a rapidly changing market, and has been vocal about the need for investors to diversify into private markets to gain exposure to high-growth companies that are not publicly traded. His insights on the future of technology and its impact on the economy have made him a respected voice in the investment community.",
-      "derived": {
-        "current_role": "CEO of Apollo Global Management",
-        "former_positions": "Distressed investing at Drexel; Founder of Apollo Global Management"
-      },
-      "infobox": {
-        "Born": "",
-        "Nationality": ""
-      },
-      "lead_paragraphs": [
-        "Mark Rowan began his career at Drexel, where he gained experience in distressed investing. After leaving Drexel, he co-founded Apollo Global Management, which started as a distressed investing firm in the aftermath of a financial crisis. Under Rowan's leadership, Apollo has grown to become one of the world's largest alternative asset managers, with a focus on private equity, credit, and real estate.",
-        "Rowan has emphasized the importance of clean sheet thinking and adaptability in a rapidly changing market, and has been vocal about the need for investors to diversify into private markets to gain exposure to high-growth companies that are not publicly traded. His insights on the future of technology and its impact on the economy have made him a respected voice in the investment community."
-      ],
-      "sections": [
-        {
-          "heading": "Apollo Global Management",
-          "body": "Mark Rowan has led Apollo Global Management's transition into retirement services and alternative asset management, making it one of the world's largest alternative asset managers."
-        },
-        {
-          "heading": "Private Markets",
-          "body": "Rowan has emphasized the importance of private markets for diversification, arguing that most investors have zero exposure to high-growth private companies like Thropic, OpenAI, SpaceX, and Rol."
-        },
-        {
-          "heading": "Technology and the Economy",
-          "body": "Rowan has spoken about the proliferation of AI across the economy and the assumption that every job will be replaced or enhanced by software, highlighting the need for investors to adapt to these changes."
-        }
-      ]
-    },
-    "net_worth": "$577.0M"
-  },
-  {
     "id": 209,
     "name": "David Sinclair",
     "slug": "david-sinclair",
@@ -58058,6 +58849,67 @@ const dashboardData = {
       ]
     },
     "net_worth": "$25.0M"
+  },
+  {
+    "id": 265,
+    "name": "Mark Rowan",
+    "slug": "mark-rowan",
+    "bio": "Mark Rowan is the CEO of Apollo Global Management, a leading firm in the transition into retirement services and alternative asset management. He has been instrumental in the firm's growth and diversification, emphasizing clean sheet thinking and adaptability in a rapidly changing market.",
+    "known_for": "His leadership in transforming Apollo Global Management into one of the world's largest alternative asset managers and his insights on the importance of private markets for diversification.",
+    "net_worth_usd": 577000000.0,
+    "net_worth_source": "https://www.gurufocus.com/insider/4157/marc-j-rowan",
+    "net_worth_updated_at": "2026-05-27T12:04:09.655698",
+    "voice_tone": "",
+    "voice_style": "",
+    "voice_delivery_notes": "",
+    "voice_profile_updated_at": null,
+    "last_seen": "2026-05-27 17:03:40",
+    "last_episode_title": "Marc Rowan on Private Markets, Software Repricing, and Capital Allocation",
+    "last_podcast_name": "The a16z Show",
+    "last_episode_date": "2026-05-27",
+    "mention_score": 1,
+    "mention_score_decayed": 0.05,
+    "last_main_idea": "High-growth private companies like Thropic, OpenAI, and SpaceX offer significant investment opportunities.",
+    "last_proof_cite": "The a16z Show \u2022 2026-05-27 \u2022 Marc Rowan on Private Markets, Software Repricing, and Capital Allocation",
+    "last_proof_snippet": "10 stocks right now in the U.S. are nearly 50% of the S&P and they're all levered to the same trend. The same thing is happening in the global fixed income market. And so if you're an investor and you're looking for diversification, there's",
+    "supporting_takeaway": "High-growth private companies like Thropic, OpenAI, and SpaceX offer significant investment opportunities.",
+    "grokipedia_url": null,
+    "grokipedia_fetched_at": "2026-05-27T12:04:08.533279",
+    "pundit_profile": {
+      "source": "llm",
+      "source_model": "moonshot:moonshot-v1-8k",
+      "source_url": "",
+      "page_title": "Mark Rowan",
+      "fetched_at": "2026-05-27T17:04:08.532910+00:00",
+      "cliff_notes": "Mark Rowan began his career at Drexel, where he gained experience in distressed investing. After leaving Drexel, he co-founded Apollo Global Management, which started as a distressed investing firm in the aftermath of a financial crisis. Under Rowan's leadership, Apollo has grown to become one of the world's largest alternative asset managers, with a focus on private equity, credit, and real estate. Rowan has emphasized the importance of clean sheet thinking and adaptability in a rapidly changing market, and has been vocal about the need for investors to diversify into private markets to gain exposure to high-growth companies that are not publicly traded. His insights on the future of technology and its impact on the economy have made him a respected voice in the investment community.",
+      "derived": {
+        "current_role": "CEO of Apollo Global Management",
+        "former_positions": "Distressed investing at Drexel; Founder of Apollo Global Management"
+      },
+      "infobox": {
+        "Born": "",
+        "Nationality": ""
+      },
+      "lead_paragraphs": [
+        "Mark Rowan began his career at Drexel, where he gained experience in distressed investing. After leaving Drexel, he co-founded Apollo Global Management, which started as a distressed investing firm in the aftermath of a financial crisis. Under Rowan's leadership, Apollo has grown to become one of the world's largest alternative asset managers, with a focus on private equity, credit, and real estate.",
+        "Rowan has emphasized the importance of clean sheet thinking and adaptability in a rapidly changing market, and has been vocal about the need for investors to diversify into private markets to gain exposure to high-growth companies that are not publicly traded. His insights on the future of technology and its impact on the economy have made him a respected voice in the investment community."
+      ],
+      "sections": [
+        {
+          "heading": "Apollo Global Management",
+          "body": "Mark Rowan has led Apollo Global Management's transition into retirement services and alternative asset management, making it one of the world's largest alternative asset managers."
+        },
+        {
+          "heading": "Private Markets",
+          "body": "Rowan has emphasized the importance of private markets for diversification, arguing that most investors have zero exposure to high-growth private companies like Thropic, OpenAI, SpaceX, and Rol."
+        },
+        {
+          "heading": "Technology and the Economy",
+          "body": "Rowan has spoken about the proliferation of AI across the economy and the assumption that every job will be replaced or enhanced by software, highlighting the need for investors to adapt to these changes."
+        }
+      ]
+    },
+    "net_worth": "$577.0M"
   },
   {
     "id": 264,

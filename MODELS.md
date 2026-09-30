@@ -8,21 +8,16 @@ This is the quick reference for which models we use where, and in what order. Tr
 
 **Use for:** podcast transcript analysis, Deep Dives, Emerging Terms, Overton auto‑curation.
 
-- **Primary:** `kimi-k2.6`
-  - Provider: Moonshot/Kimi (via `moonshot:default` profile in `auth-profiles.json` or `MOONSHOT_API_KEY`).
-  - Used in: `analyze_transcript.py`, `auto_pipeline.py`, `ai_analyze_transcript.py`, `generate_deepdives.py`, `debate_weekly.py`, `pundit_profile_llm.py`.
-  - Override via `DEBATE_LLM_MODEL` or `MOONSHOT_MODEL` env vars.
-  - **Temperature:** `kimi-k2.6` / `kimi-k3` only accept `temperature=1`; pipeline helpers clamp via `llm_temperature()` in `analyze_transcript.py` (passing 0.3/0.75 previously caused analyze to fail before `podcast_episodes` insert). Also use a higher `max_tokens` (16k) on Moonshot analyze calls so reasoning tokens do not truncate JSON output.
+- **Primary:** `gpt-5.5`
+  - Provider: OpenAI (`OPENAI_API_KEY`). Not mini. Not Flash. Not Kimi.
+  - Used in: `analyze_transcript.py`, `generate_deepdives.py`.
+  - Override via `OPENAI_MODEL` or `OPENAI_DEBATE_MODEL`.
+  - gpt-5.5 rejects `max_tokens` and non-default temperature; `openai_chat_kwargs()` sends `max_completion_tokens` and omits temperature.
+  - Transcript window: `TRANSCRIPT_WINDOW_CHARS` = 100000 characters of the raw transcript (start/middle/end sample only if longer). Do not use the 12000-character slice or the Stage A mini digest for insight recaps.
 
-- **Fallback:** `gpt-4o-mini`
-  - Provider: OpenAI.
-  - Used automatically when Moonshot is unavailable.
-  - Override via `OPENAI_DEBATE_MODEL` or `OPENAI_MODEL` env vars.
+- **Do not call:** Moonshot/Kimi (`kimi-k2.6` and the rest). The account is suspended (429, insufficient balance). Default client selection skips it. `ANALYZE_BACKEND=moonshot` still exists for an explicit override and is not the pipeline default.
 
-- **Secondary fallback (rare):** `gemini-1.5-flash`
-  - Provider: Google Generative AI, when `GEMINI_API_KEY` is set.
-  - Used only when Moonshot/OpenAI are unavailable.
-  - Override via `GEMINI_DEBATE_MODEL` or `GEMINI_MODEL` env vars.
+- **Not used for this path:** `gpt-4o-mini`, `gemini-1.5-flash`, `gemini-2.5-flash`.
 
 **Do NOT use (deprecated/retired):**
 
@@ -32,10 +27,7 @@ This is the quick reference for which models we use where, and in what order. Tr
 - `openai/codex-mini-latest`
 - `kimi-coding/kimi-k2-thinking`
 
-**Available Moonshot/Kimi models:**
-
-- `kimi-k2.6` — cheap default, good for pipeline analysis
-- `kimi-k3` — flagship model, higher cost
+**Moonshot/Kimi:** suspended. Do not put these first in `resolve_llm_model` and do not call them from the insight or deep-dive generators.
 
 ---
 
@@ -57,7 +49,7 @@ This is the quick reference for which models we use where, and in what order. Tr
 
 **Use for:** extracting and curating terminology.
 
-- Extraction from episodes: same as pipeline analysis (Moonshot primary, GPT‑4o‑mini fallback).
+- Extraction from episodes: same OpenAI model as pipeline analysis (`gpt-5.5`).
 - Auto‑curation thresholds live in `auto_curate_terms.py`:
   - `MIN_RELEVANCE_AUTO`, `MIN_SOURCES_AUTO`, `MIN_MENTIONS_AUTO`, `PROMOTE_MENTIONS_THRESHOLD`.
 
