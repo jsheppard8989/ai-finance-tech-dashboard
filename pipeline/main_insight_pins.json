@@ -1,28 +1,28 @@
 {
   "description": "Insight IDs forced onto the main Latest Insights list (max 10 total). Pins consume slots first; remaining slots fill by source_date DESC among insights that have deep_dive_content. Used by sync_main_insights_with_deepdives.",
   "pinned_insight_ids": [
-    530,
-    529,
-    528,
-    527,
-    526,
-    524,
-    523,
-    522,
-    521,
-    520
+    551,
+    548,
+    545,
+    546,
+    544,
+    542,
+    541,
+    539,
+    538,
+    543
   ],
   "notes": [
-    "Top 10 newest eligible by episode release date (skip #516 a16z hip-hop culture; #525 Hilton/Pratt CA politics)",
-    "530 = 2026-09-23 All-In / Luca Ferrari, Bending Spoons CEO",
-    "529 = 2026-09-23 Latent Space / Bio-security AI arms race \u2014 Eric Nguyen (Radical Numerics)",
-    "528 = 2026-09-23 Monetary Matters / Eric Wallerstein \u2014 energy shock + rate hikes bear risk",
-    "527 = 2026-09-23 a16z / Amjad Masad rethinking college for AI",
-    "526 = 2026-09-22 Moonshots AMA #293",
-    "524 = 2026-09-22 Latent Space / John Platt \u2014 AI for science",
-    "523 = 2026-09-22 a16z / Ben Horowitz new school for AI era",
-    "522 = 2026-09-22 All-In / Blake Scholl Boom \u2014 plane speed",
-    "521 = 2026-09-21 Latent Space / Jev\u2013Diogo Almeida TypeSafe",
-    "520 = 2026-09-21 All-In / Naveen Rao 4D computing + energy wall"
+    "Newest-first confirmed deep dives. Not pinned: 550, 549, 547, 540, 536. Not backfilled: 535, 534, 537. Never pin 516 (hip-hop) or 525 (Hilton/Pratt).",
+    "551 = 2026-09-30 a16z / The $1 Trillion AI Buildout | State of Markets",
+    "548 = 2026-09-29 a16z / The Personal Agent Race Is Here | Anish Acharya & David Pawlan",
+    "545 = 2026-09-29 Latent Space / Claude Code's Next Era — Thariq Shihipar, Anthropic",
+    "546 = 2026-09-28 All-In / Daniel Ek: Life After Spotify",
+    "544 = 2026-09-28 Moonshots / Palmer Luckey: Autonomous Weapons",
+    "542 = 2026-09-28 a16z / AI Can Write Code. Why Isn't Software Better?",
+    "541 = 2026-09-27 Monetary Matters / The Private Credit Boom is Over | James Elbaor",
+    "539 = 2026-09-27 a16z / Building a Team at AI Speed | Harvey's Maggie Landers",
+    "538 = 2026-09-26 a16z / Aaron Levie, Steven Sinofsky & Martin Casado",
+    "543 = 2026-09-25 Macro Voices / Michael Every: Decoding The Global Geopolitical Puzzle (Part 2)"
   ]
 }
