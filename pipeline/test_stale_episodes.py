@@ -411,7 +411,7 @@ class TestSyncMainInsightsWithDeepDives:
     """Test sync_main_insights_with_deepdives correctly decouples added_to_site from display_on_main."""
 
     def test_off_main_episode_with_deepdive_gets_added_to_site(self, tmp_path):
-        """Episode with insight+deepdive but off main-10 should have added_to_site=1.
+        """Episode with insight+deepdive but off main-12 should have added_to_site=1.
         
         This is the core fix: added_to_site should be 1 when episode has a non-archived
         insight AND a deep_dive_content row, regardless of whether it's on the main page.
@@ -422,10 +422,10 @@ class TestSyncMainInsightsWithDeepDives:
         conn = sqlite3.connect(str(db_path))
         conn.row_factory = sqlite3.Row
 
-        # Create 12 episodes to exceed max_on_main (10)
+        # Create 14 episodes to exceed max_on_main (12)
         ep_ids = []
         insight_ids = []
-        for i in range(12):
+        for i in range(14):
             ep_date = date.today() - timedelta(days=i)
             ep_id = _insert_episode(
                 conn,
@@ -444,7 +444,7 @@ class TestSyncMainInsightsWithDeepDives:
             _insert_deepdive(conn, insight_id, ep_id)
 
         # Run the sync SQL logic directly (mimicking sync_main_insights_with_deepdives)
-        max_on_main = 10
+        max_on_main = 12
 
         # Clear display_on_main
         conn.execute("UPDATE latest_insights SET display_on_main = 0 WHERE archived_date IS NULL")
@@ -464,7 +464,7 @@ class TestSyncMainInsightsWithDeepDives:
             (max_on_main,),
         )
 
-        # Set added_to_site=1 for ANY episode with insight+deepdive (not just main-10)
+        # Set added_to_site=1 for ANY episode with insight+deepdive (not just main-12)
         conn.execute(
             """
             UPDATE podcast_episodes
@@ -484,17 +484,17 @@ class TestSyncMainInsightsWithDeepDives:
         )
         conn.commit()
 
-        # Verify: all 12 should have added_to_site=1 (they all have insight+deepdive)
+        # Verify: all 14 should have added_to_site=1 (they all have insight+deepdive)
         cur = conn.execute("SELECT id, added_to_site FROM podcast_episodes ORDER BY id")
         rows = [dict(r) for r in cur.fetchall()]
-        assert len(rows) == 12
+        assert len(rows) == 14
         for row in rows:
             assert row["added_to_site"] == 1, f"Episode {row['id']} should have added_to_site=1"
 
-        # Verify: only 10 should have display_on_main=1
+        # Verify: only 12 should have display_on_main=1
         cur = conn.execute("SELECT COUNT(*) as c FROM latest_insights WHERE display_on_main = 1")
         main_count = cur.fetchone()["c"]
-        assert main_count == 10, f"Main page should have exactly 10 insights, got {main_count}"
+        assert main_count == 12, f"Main page should have exactly 12 insights, got {main_count}"
 
         # Verify: 2 should be off-main but still site-published
         cur = conn.execute(
@@ -653,7 +653,7 @@ class TestSyncMainInsightsWithDeepDives:
         conn.close()
 
     def test_main_page_capped_at_max_on_main(self, tmp_path):
-        """Main page (display_on_main=1) should never exceed max_on_main (10)."""
+        """Main page (display_on_main=1) should never exceed max_on_main (12)."""
         db_path = tmp_path / "test.db"
         _init_test_db(db_path)
 
@@ -675,7 +675,7 @@ class TestSyncMainInsightsWithDeepDives:
             insight_id = _insert_insight(conn, ep_id, f"Insight {i}", ep_date.isoformat())
             _insert_deepdive(conn, insight_id, ep_id)
 
-        max_on_main = 10
+        max_on_main = 12
 
         # Run the sync SQL logic
         conn.execute("UPDATE latest_insights SET display_on_main = 0 WHERE archived_date IS NULL")
@@ -711,10 +711,10 @@ class TestSyncMainInsightsWithDeepDives:
         )
         conn.commit()
 
-        # Verify: exactly 10 on main
+        # Verify: exactly 12 on main
         cur = conn.execute("SELECT COUNT(*) as c FROM latest_insights WHERE display_on_main = 1")
         main_count = cur.fetchone()["c"]
-        assert main_count == 10, f"Main page should have exactly 10, got {main_count}"
+        assert main_count == 12, f"Main page should have exactly 12, got {main_count}"
 
         # Verify: all 15 site-published
         cur = conn.execute("SELECT COUNT(*) as c FROM podcast_episodes WHERE added_to_site = 1")

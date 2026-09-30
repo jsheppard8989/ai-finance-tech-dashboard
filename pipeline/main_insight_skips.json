@@ -1,0 +1,23 @@
+{
+  "description": "Insight ids never placed on the homepage Latest Insights list. sync_main_insights_with_deepdives reads this file on every publish and then fills up to 12 slots with the newest analyzed episodes (episode_date, else source_date, then id). Do not put these ids back into main_insight_pins.json; that pin list is not applied.",
+  "skipped_insight_ids": [
+    550,
+    549,
+    547,
+    540,
+    536,
+    516,
+    525,
+    537,
+    535
+  ],
+  "notes": [
+    "550, 549, 547, 540, 536 = one-off skips",
+    "537 = empty takeaway",
+    "535 = same filler as 536",
+    "516 = hip-hop (never pin)",
+    "525 = Hilton/Pratt (never pin). Not insight 541 (private credit), which stays eligible.",
+    "534 is not skipped; it stays eligible even with an empty takeaway and only drops out if date order does that.",
+    "545 and 548 stay eligible; name typos are not a skip."
+  ]
+}

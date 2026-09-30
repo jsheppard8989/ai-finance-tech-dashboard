@@ -327,47 +327,53 @@ def aggregate_scores():
     return len(scores)
 
 
-def _load_main_insight_pins() -> list[int]:
-    """Optional pinned insight IDs from pipeline/main_insight_pins.json (shop-visible main list)."""
-    pin_path = PIPELINE_DIR / "main_insight_pins.json"
-    if not pin_path.exists():
+def _load_main_insight_skips() -> list[int]:
+    """Permanent homepage skips from pipeline/main_insight_skips.json.
+
+    These ids are never selected for Latest Insights. The file is the source of
+    truth the next publish keeps. main_insight_pins.json is not applied.
+    """
+    skip_path = PIPELINE_DIR / "main_insight_skips.json"
+    if not skip_path.exists():
         return []
     try:
-        data = json.loads(pin_path.read_text())
+        data = json.loads(skip_path.read_text())
     except Exception as e:
-        print(f"  ⚠ Could not read {pin_path.name}: {e}")
+        print(f"  ⚠ Could not read {skip_path.name}: {e}")
         return []
-    raw = data.get("pinned_insight_ids") or data.get("pins") or []
-    pins: list[int] = []
+    raw = data.get("skipped_insight_ids") or data.get("skips") or []
+    skips: list[int] = []
+    seen = set()
     for x in raw:
         try:
-            pins.append(int(x))
+            iid = int(x)
         except (TypeError, ValueError):
             continue
-    # Preserve file order; drop dupes
-    seen = set()
-    out = []
-    for iid in pins:
         if iid not in seen:
             seen.add(iid)
-            out.append(iid)
-    return out
+            skips.append(iid)
+    return skips
 
 
-def sync_main_insights_with_deepdives(max_on_main: int = 10) -> int:
-    """Turn on main-page display only for insights that already have Deep Dive content.
+def sync_main_insights_with_deepdives(max_on_main: int = 12) -> int:
+    """Turn on main-page display for the newest analyzed insights that have Deep Dives.
 
     Clears display_on_main for all non-archived rows, then enables up to ``max_on_main``
-    insights that have a ``deep_dive_content`` row. Selection order:
-      1) pinned IDs from ``pipeline/main_insight_pins.json`` (if they still have Deep Dives)
-      2) remaining slots by source_date DESC, id DESC
+    (12) insights that have a ``deep_dive_content`` row and are not in
+    ``pipeline/main_insight_skips.json``.
+
+    "Analyzed" means the linked episode is processed (``is_processed=1``), or the
+    insight has no episode row. Order is newest episode/source date, then id:
+    ``COALESCE(episode_date, source_date) DESC, id DESC``. Pins in
+    ``main_insight_pins.json`` are not applied, so a full pin list cannot occupy
+    the homepage slots.
 
     Sets ``podcast_episodes.added_to_site=1`` for ANY episode that has a non-archived
     insight with a deep_dive_content row (archive-ready), regardless of whether it's on
     the main page. This decouples "site-published" from "on-main".
     """
     db = get_db()
-    pinned = _load_main_insight_pins()
+    skips = _load_main_insight_skips()
     with db._get_connection() as conn:
         conn.execute(
             """
@@ -375,47 +381,27 @@ def sync_main_insights_with_deepdives(max_on_main: int = 10) -> int:
             WHERE archived_date IS NULL
             """
         )
-        main_ids: list[int] = []
-        if pinned:
-            ph = ",".join("?" * len(pinned))
-            # Keep pin file order, but only if deep dive exists and not archived
-            rows = conn.execute(
-                f"""
-                SELECT li.id FROM latest_insights li
-                INNER JOIN deep_dive_content ddc ON ddc.insight_id = li.id
-                WHERE li.archived_date IS NULL AND li.id IN ({ph})
-                """,
-                pinned,
-            ).fetchall()
-            have = {int(r["id"]) for r in rows}
-            for iid in pinned:
-                if iid in have and len(main_ids) < max_on_main:
-                    main_ids.append(iid)
-            missing = [i for i in pinned if i not in have]
-            if missing:
-                print(f"  ⚠ Pin(s) skipped (no Deep Dive or archived): {missing}")
-
-        remaining = max_on_main - len(main_ids)
-        if remaining > 0:
-            exclude_sql = ""
-            params: list = []
-            if main_ids:
-                ph = ",".join("?" * len(main_ids))
-                exclude_sql = f"AND li.id NOT IN ({ph})"
-                params.extend(main_ids)
-            params.append(remaining)
-            rows = conn.execute(
-                f"""
-                SELECT li.id FROM latest_insights li
-                INNER JOIN deep_dive_content ddc ON ddc.insight_id = li.id
-                WHERE li.archived_date IS NULL
-                {exclude_sql}
-                ORDER BY li.source_date DESC, li.id DESC
-                LIMIT ?
-                """,
-                params,
-            ).fetchall()
-            main_ids.extend(int(r["id"]) for r in rows)
+        skip_sql = ""
+        params: list = []
+        if skips:
+            ph = ",".join("?" * len(skips))
+            skip_sql = f"AND li.id NOT IN ({ph})"
+            params.extend(skips)
+        params.append(max_on_main)
+        rows = conn.execute(
+            f"""
+            SELECT li.id FROM latest_insights li
+            INNER JOIN deep_dive_content ddc ON ddc.insight_id = li.id
+            LEFT JOIN podcast_episodes pe ON pe.id = li.podcast_episode_id
+            WHERE li.archived_date IS NULL
+              AND (pe.id IS NULL OR pe.is_processed = 1)
+              {skip_sql}
+            ORDER BY COALESCE(pe.episode_date, li.source_date) DESC, li.id DESC
+            LIMIT ?
+            """,
+            params,
+        ).fetchall()
+        main_ids = [int(r["id"]) for r in rows]
 
         for iid in main_ids:
             conn.execute(
@@ -451,7 +437,7 @@ def sync_main_insights_with_deepdives(max_on_main: int = 10) -> int:
             WHERE li.archived_date IS NULL AND pe.added_to_site = 1
             """
         ).fetchone()[0]
-    print(f"  ✓ Main insight list synced with Deep Dives ({len(main_ids)} on main, {site_published_count} site-published; pins={pinned})")
+    print(f"  ✓ Main insight list synced ({len(main_ids)} on main, {site_published_count} site-published; skips={skips})")
     return len(main_ids)
 
 

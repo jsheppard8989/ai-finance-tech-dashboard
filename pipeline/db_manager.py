@@ -1013,8 +1013,8 @@ class DashboardDB:
                 INNER JOIN deep_dive_content ddc ON ddc.insight_id = li.id
                 LEFT JOIN podcast_episodes pe ON li.podcast_episode_id = pe.id
                 WHERE li.display_on_main = 1
-                ORDER BY pe.episode_date DESC, li.source_date DESC
-                LIMIT 10
+                ORDER BY pe.episode_date DESC, li.source_date DESC, li.id DESC
+                LIMIT 12
             """)
             rows = [dict(row) for row in cursor.fetchall()]
             for r in rows:
