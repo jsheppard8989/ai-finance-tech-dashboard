@@ -89,3 +89,87 @@ def test_json_segments_count_as_labeled_transcript():
     assert plain.startswith("Host:")
     episode = {"transcript_urls": [{"url": "https://cdn.example.com/t.json", "type": "application/json"}]}
     assert resolve_published_transcript(episode, fetch=lambda url: payload.encode())
+
+
+def _macrovoices_episode(slug):
+    return {
+        "feed": "https://feed.podbean.com/macrovoices/feed.xml",
+        "link": f"https://macrovoices.podbean.com/e/{slug}/",
+        "rss_html": "<p>Short show notes. Not a transcript.</p>",
+        "transcript_urls": [],
+    }
+
+
+def test_macrovoices_pdf_from_apify_is_used():
+    slug = "macrovoices-551-michael-every-decoding-the-global-geopolitical-puzzle-part-2"
+    page = f"https://www.macrovoices.com/1552-{slug}"
+    file_url = (
+        "https://www.macrovoices.com/guest-content/list-guest-transcripts/"
+        "6225-transcript-of-the-podcast-interview-between-erik-townsend-and-michael-every-part-2/file"
+    )
+    body = ("Erik: line\n" * 8) + ("word " * 2600)
+    calls = []
+
+    def apify(url, formats):
+        calls.append(url)
+        if url.endswith("format=xml"):
+            other = "https://www.macrovoices.com/10-macrovoices-550-someone-else"
+            prefixed = f"https://www.macrovoices.com/9-{slug}-extra"
+            return [{"text": f"{other}\n{prefixed}\n{page}\n"}]
+        if url == page:
+            return [{"markdown": f"Download the podcast transcript: {file_url}", "links": [file_url]}]
+        if url == file_url:
+            return [{"text": body}]
+        raise AssertionError(url)
+
+    def fetch(_url):
+        raise AssertionError("plain http")
+
+    text = resolve_published_transcript(_macrovoices_episode(slug), fetch=fetch, apify_fetch=apify)
+    assert text and text.startswith("Erik:")
+    assert calls == [
+        "https://www.macrovoices.com/index.php?option=com_jmap&view=sitemap&format=xml",
+        page,
+        file_url,
+    ]
+
+
+def test_macrovoices_slug_does_not_match_a_longer_url():
+    short = "macrovoices-551-michael-every-decoding-the-global-geopolitical-puzzle"
+    longer = short + "-part-2"
+    page = f"https://www.macrovoices.com/1552-{longer}"
+
+    def apify(url, formats):
+        if url.endswith("format=xml"):
+            return [{"text": page}]
+        raise AssertionError("should not fetch a page for the other slug")
+
+    assert resolve_published_transcript(_macrovoices_episode(short), apify_fetch=apify) is None
+
+
+def test_macrovoices_wall_or_show_notes_stay_on_whisper():
+    slug = "macrovoices-551-michael-every-decoding-the-global-geopolitical-puzzle-part-2"
+    page = f"https://www.macrovoices.com/1552-{slug}"
+    file_url = "https://www.macrovoices.com/guest-content/list-guest-transcripts/6225-example/file"
+
+    def apify(url, formats):
+        if url.endswith("format=xml"):
+            return [{"text": page}]
+        if url == page:
+            return [{"links": [file_url]}]
+        return [{"text": "One moment, please… " + ("word " * 100)}]
+
+    assert resolve_published_transcript(_macrovoices_episode(slug), apify_fetch=apify) is None
+
+
+def test_other_shows_do_not_call_apify():
+    def apify(url, formats):
+        raise AssertionError(url)
+
+    episode = {
+        "feed": "https://feeds.megaphone.fm/DVVTS2890392624",
+        "link": "https://example.com/ep",
+        "rss_html": "<p>Show notes only.</p>",
+        "transcript_urls": [],
+    }
+    assert resolve_published_transcript(episode, apify_fetch=apify) is None
