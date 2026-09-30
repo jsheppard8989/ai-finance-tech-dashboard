@@ -173,3 +173,33 @@ def test_other_shows_do_not_call_apify():
         "transcript_urls": [],
     }
     assert resolve_published_transcript(episode, apify_fetch=apify) is None
+
+
+def test_macrovoices_file_on_disk_skips_whisper_enqueue():
+    from pathlib import Path
+    from published_transcript import macrovoices_saved_transcript
+
+    slug = "macrovoices-551-michael-every-decoding-the-global-geopolitical-puzzle-part-2"
+    episode = _macrovoices_episode(slug)
+    name = "Macrovoices-2026-09-25-Michael-Every-Part-2.txt"
+    path = Path("/tmp") / "mv-skip-test" / name
+    path.parent.mkdir(parents=True, exist_ok=True)
+    path.write_text("Erik: " + ("word " * 3000), encoding="utf-8")
+    assert macrovoices_saved_transcript(episode, path) == str(path)
+    assert macrovoices_saved_transcript(episode, path.with_name("missing.txt")) is None
+    path.write_text("short", encoding="utf-8")
+    assert macrovoices_saved_transcript(episode, path) is None
+
+
+def test_other_show_file_on_disk_still_uses_whisper():
+    from pathlib import Path
+    from published_transcript import macrovoices_saved_transcript
+
+    episode = {
+        "feed": "https://feeds.megaphone.fm/DVVTS2890392624",
+        "link": "https://example.com/ep",
+    }
+    path = Path("/tmp/mv-skip-test/other.txt")
+    path.parent.mkdir(parents=True, exist_ok=True)
+    path.write_text("x" * 5000, encoding="utf-8")
+    assert macrovoices_saved_transcript(episode, path) is None

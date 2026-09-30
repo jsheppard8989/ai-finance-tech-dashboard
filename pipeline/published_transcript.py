@@ -19,6 +19,7 @@ import json
 import os
 import re
 import urllib.request
+from pathlib import Path
 from typing import Callable, Optional
 from xml.etree import ElementTree as ET
 
@@ -234,6 +235,23 @@ def _is_macrovoices(episode: dict) -> bool:
     feed = (episode.get("feed") or "").lower()
     link = (episode.get("link") or "").lower()
     return "feed.podbean.com/macrovoices/" in feed or "macrovoices.podbean.com/" in link
+
+
+def macrovoices_saved_transcript(episode: dict, transcript_path) -> Optional[str]:
+    """Path to skip Whisper when this Macro Voices episode's transcript is already on disk.
+
+    Other shows return None even if a file is there, so their queue behavior stays put.
+    A missing or tiny file also returns None (caller keeps Whisper).
+    """
+    if not _is_macrovoices(episode):
+        return None
+    path = Path(transcript_path)
+    try:
+        if path.is_file() and path.stat().st_size >= 1000:
+            return str(path)
+    except OSError:
+        return None
+    return None
 
 
 def _podbean_episode_slug(link: str) -> str:

@@ -9,7 +9,8 @@ for completion (default) or use --queue-only to enqueue and exit (transcripts
 picked up on next run). Do not set USE_FASTER_WHISPER unless you want in-process
 transcription (can OOM/timeout).
 Shows that publish a full transcript (RSS transcript tag, transcript body,
-Substack /feed, or a Macro Voices PDF pulled via Apify) skip Whisper; every
+Substack /feed, or a Macro Voices PDF pulled via Apify) skip Whisper. Macro
+Voices also skips Whisper when that transcript file is already on disk. Every
 other show stays on the queue.
 """
 
@@ -625,6 +626,24 @@ def main():
                 'audio_path': None,
                 'transcript_path': transcript_path,
                 'success': transcript_path is not None
+            })
+            continue
+
+        saved = None
+        try:
+            from published_transcript import macrovoices_saved_transcript
+            stem = Path(episode_audio_filename(episode)).stem
+            saved = macrovoices_saved_transcript(episode, TRANSCRIPT_DIR / f"{stem}.txt")
+        except Exception as e:
+            print(f"  ⚠ Saved-transcript check failed ({e}); using Whisper")
+        if saved:
+            print(f"  ✓ Transcript already on disk ({Path(saved).name}); skipping Whisper")
+            results.append({
+                'podcast': episode['podcast'],
+                'title': episode['title'],
+                'audio_path': None,
+                'transcript_path': saved,
+                'success': True
             })
             continue
 
