@@ -1,5 +1,22 @@
 [
   {
+    "id": 536,
+    "podcast_name": "The a16z Show",
+    "episode_title": "The $1 Trillion AI Buildout | State of Markets",
+    "episode_date": "2026-09-30",
+    "summary": "The podcast discusses the dominance of U.S. tech companies in global market value and highlights the anticipated $90 trillion in global infrastructure investments by 2040. It emphasizes the early stages of AI adoption in enterprises and the significant growth potential in AI-related sectors, particularly as hyperscalers are projected to spend over $1 trillion annually by 2027.",
+    "key_takeaways": [
+      "Global infrastructure investments are projected to reach $90 trillion by 2040, indicating vast opportunities in physical infrastructure, as noted in the episode.",
+      "AI adoption in enterprises is still nascent, with only 2% of companies tracking measurable impact, suggesting significant growth potential, according to Santiago Rodriguez.",
+      "Hyperscalers are expected to spend over $1 trillion annually on compute infrastructure by 2027, highlighting a strong market for suppliers, as stated by David George.",
+      "The public software market is bifurcating, with only 30% of companies growing at 20% or more, indicating a shift towards profitability, according to Sarah Wang.",
+      "Consumer AI subscriptions are currently low, with only 2% of U.S. households having a paid subscription, suggesting substantial growth potential, as mentioned by David George.",
+      "The rise of autonomous agents and robotics is anticipated to create new investment opportunities over the next five years, as highlighted by Alex Imramill."
+    ],
+    "investment_thesis": "Hyperscalers are projected to spend over $1 trillion annually on compute infrastructure by 2027, indicating robust market opportunities for suppliers.",
+    "key_tickers": null
+  },
+  {
     "id": 535,
     "podcast_name": "Moonshots with Peter Diamandis",
     "episode_title": "Cathie Wood on Tesla-SpaceX Merger, $1M Bitcoin, More AIs Than Humans | EP #296 | Moonshots Live",
