@@ -126,8 +126,8 @@
       "source_type": "podcast",
       "source_name": "The a16z Show",
       "source_date": "2026-09-28",
-      "summary": "Ben Horowitz and Martin Casado interviewed Type-Safe AI founder Diego Almeida about why advanced AI has not yet produced broad automation inside software. Almeida framed the core problem as \"where the fuck is all the automation,\" arguing that Claude Code, Codex, Cursor, and other coding tools mostly make it faster to produce ordinary software rather than expanding what software can do.\n\nAlmeida described Jeff as a new programming primitive that lets developers turn natural language intent into structured decisions, confidence levels, and state-machine outputs that programs can use. He contrasted this with chatbots and agents, which often keep a human in the loop or rely on natural language loops instead of giving software a reliable internal intelligence layer.\n\nThe discussion returned repeatedly to reliability. Almeida argued that the product is not mainly about impressive demos, but about robustness: producing similarly intelligent behavior every time so software can run in the background without paging humans. He said every additional \"nine\" of reliability could unlock new applications, and he distinguished uptime, determinism, robustness, and intelligence as different reliability dimensions.\n\nThe hosts challenged Almeida on whether real-world automation is limited by data distribution and long-tail exceptions, using support workflows such as password resets and uniqueness of help-desk calls as examples. Almeida said he does not fully buy the data argument, pointing to OpenAI trying to automate customer service since 2020 and to Q4 2021 RLHF generalization as evidence that model intelligence has existed for some time, while the industry optimized for human evaluation rather than productive automation.\n\nThe market argument centered on SaaS. Almeida said the \"SaaS Apocalypse\" story from coding agents has panned out poorly because software is not easy to replicate, and he predicted an inverse version in which SaaS companies become major AI beneficiaries by embedding smarter workflows into products they already distribute to large customer bases.",
-      "key_takeaway": "Diego Almeida argues SaaS could see an inverse SaaS Apocalypse because Type-Safe AI's Jeff adds a natural-language-to-state-machine primitive inside existing products, unlike Claude Code or Codex generating ordinary code.",
+      "summary": "Ben Horowitz and Martin Casado interviewed Type-Safe AI founder Diogo Almeida about why advanced AI has not yet produced broad automation inside software. Almeida argued that the core problem is the lack of automation inside software, and that Claude Code, Codex, Cursor, and other coding tools mostly make it faster to produce ordinary software rather than expanding what software can do.\n\nAlmeida described Jev as a new programming primitive that lets developers turn natural language intent into structured decisions, confidence levels, and state-machine outputs that programs can use. He contrasted this with chatbots and agents, which often keep a human in the loop or rely on natural language loops instead of giving software a reliable internal intelligence layer.\n\nThe discussion returned repeatedly to reliability. Almeida argued that the product is not mainly about impressive demos, but about robustness: producing similarly intelligent behavior every time so software can run in the background without paging humans. He said every additional \"nine\" of reliability could unlock new applications, and he distinguished uptime, determinism, robustness, and intelligence as different reliability dimensions.\n\nThe hosts challenged Almeida on whether real-world automation is limited by data distribution and long-tail exceptions, using support workflows such as password resets and uniqueness of help-desk calls as examples. Almeida said he does not fully buy the data argument, pointing to OpenAI trying to automate customer service since 2020 and to Q4 2021 RLHF generalization as evidence that model intelligence has existed for some time, while the industry optimized for human evaluation rather than productive automation.\n\nThe market argument centered on SaaS. Almeida said the \"SaaS Apocalypse\" story from coding agents has panned out poorly because software is not easy to replicate, and he predicted an inverse version in which SaaS companies become major AI beneficiaries by embedding smarter workflows into products they already distribute to large customer bases.",
+      "key_takeaway": "Diogo Almeida argues SaaS could see an inverse SaaS Apocalypse because Type-Safe AI's Jev adds a natural-language-to-state-machine primitive inside existing products, unlike Claude Code or Codex generating ordinary code.",
       "tickers_mentioned": [
         "NVDA"
       ],
@@ -140,15 +140,15 @@
       "podcast_episode_id": 527,
       "notable_quotes": [
         {
-          "speaker": "Diego Almeida",
-          "quote": "Where the fuck is all the automation?"
+          "speaker": "Diogo Almeida",
+          "quote": "I want to expand what software itself can do, such that things that should be automatable can then be automatable."
         },
         {
-          "speaker": "Diego Almeida",
+          "speaker": "Diogo Almeida",
           "quote": "What I want instead is smart software."
         },
         {
-          "speaker": "Diego Almeida",
+          "speaker": "Diogo Almeida",
           "quote": "But I think that SaaS will be one of the largest winners of like the whole AI game."
         }
       ]
