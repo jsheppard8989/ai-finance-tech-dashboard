@@ -1,6 +1,25 @@
 {
   "insights": [
     {
+      "id": 551,
+      "title": "The $1 Trillion AI Buildout | State of Markets",
+      "source_type": "podcast",
+      "source_name": "The a16z Show",
+      "source_date": "2026-09-30",
+      "summary": "The podcast discusses the dominance of U.S. tech companies in global market value and highlights the anticipated $90 trillion in global infrastructure investments by 2040. It emphasizes the early stages of AI adoption in enterprises and the significant growth potential in AI-related sectors, particularly as hyperscalers are projected to spend over $1 trillion annually by 2027.",
+      "key_takeaway": "Hyperscalers are projected to spend over $1 trillion annually on compute infrastructure by 2027, indicating robust market opportunities for suppliers.",
+      "tickers_mentioned": [
+        "NVDA"
+      ],
+      "sentiment": "bullish",
+      "display_on_main": 0,
+      "display_order": 0,
+      "added_date": "2026-09-30",
+      "archived_date": null,
+      "archived_reason": null,
+      "podcast_episode_id": 536
+    },
+    {
       "id": 545,
       "title": "Claude Code\u2019s Next Era \u2014 Thariq Shihipar, Anthropic",
       "source_type": "podcast",
@@ -10954,8 +10973,8 @@
       "term": "Autonomy",
       "description": "The capacity of an AI system to make decisions and operate independently of direct human control or oversight, as evidenced by agents not alerting humans about their unethical actions.",
       "first_detected_date": "2026-07-22",
-      "last_mentioned_date": "2026-09-29",
-      "mention_count": 26,
+      "last_mentioned_date": "2026-09-30",
+      "mention_count": 27,
       "source_podcasts": null,
       "status": "active",
       "investment_implications": "Emphasizes the critical need for ethical AI frameworks, clear oversight mechanisms, and fail-safes to manage systems operating independently of human control, impacting regulatory compliance and public trust.",
@@ -10964,8 +10983,8 @@
       "archived_reason": null,
       "first_detected_episode_id": 362,
       "first_detected_speaker": "Travis Kalanick, Ben Horowitz",
-      "last_mentioned_episode_id": 533,
-      "last_mentioned_speaker": "Palmer Luckey"
+      "last_mentioned_episode_id": 536,
+      "last_mentioned_speaker": "David George (hosts)"
     },
     {
       "id": 265,
@@ -11150,20 +11169,20 @@
     {
       "id": 254,
       "term": "Hyperscalers",
-      "description": "Massive cloud computing providers (Amazon, Google, Microsoft, Meta) whose data center power demands are reshaping electricity markets and enabling new energy infrastructure financing.",
+      "description": "Large cloud service providers that scale their services to meet high demand, significantly impacting the infrastructure market.",
       "first_detected_date": "2026-06-19",
-      "last_mentioned_date": "2026-09-24",
-      "mention_count": 39,
+      "last_mentioned_date": "2026-09-30",
+      "mention_count": 40,
       "source_podcasts": null,
       "status": "active",
-      "investment_implications": "Their 20-year PPAs are the demand anchor making previously uneconomic nuclear projects bankable; track PPA announcements as leading indicators for nuclear buildout.",
+      "investment_implications": "Hyperscalers' investment trends indicate strong demand for compute resources, presenting opportunities for related suppliers.",
       "display_on_main": 1,
       "archived_date": null,
       "archived_reason": null,
       "first_detected_episode_id": 302,
       "first_detected_speaker": "Chamath Palihapitiya, Jason Calacanis (hosts)",
-      "last_mentioned_episode_id": 518,
-      "last_mentioned_speaker": "Henry Peabody"
+      "last_mentioned_episode_id": 536,
+      "last_mentioned_speaker": "David George (hosts)"
     },
     {
       "id": 256,
@@ -11404,8 +11423,8 @@
       "term": "SaaS Apocalypse",
       "description": "A term describing the decline in the SaaS market, which Almeida predicts will reverse due to AI integration.",
       "first_detected_date": "2026-06-03",
-      "last_mentioned_date": "2026-09-28",
-      "mention_count": 17,
+      "last_mentioned_date": "2026-09-30",
+      "mention_count": 18,
       "source_podcasts": null,
       "status": "active",
       "investment_implications": "The resurgence of SaaS value through AI could create significant investment opportunities.",
@@ -11414,8 +11433,8 @@
       "archived_reason": null,
       "first_detected_episode_id": 257,
       "first_detected_speaker": null,
-      "last_mentioned_episode_id": 527,
-      "last_mentioned_speaker": "Diego Almeida"
+      "last_mentioned_episode_id": 536,
+      "last_mentioned_speaker": "David George (hosts)"
     },
     {
       "id": 275,
@@ -12574,8 +12593,8 @@
       "term": "AI Infrastructure",
       "description": "The foundational technology and systems that support the development and deployment of artificial intelligence applications.",
       "first_detected_date": "2026-03-17",
-      "last_mentioned_date": "2026-09-29",
-      "mention_count": 39,
+      "last_mentioned_date": "2026-09-30",
+      "mention_count": 40,
       "source_podcasts": null,
       "status": "active",
       "investment_implications": "Investing in companies that provide AI infrastructure can lead to stable earnings growth as demand increases.",
@@ -12584,8 +12603,8 @@
       "archived_reason": null,
       "first_detected_episode_id": 71,
       "first_detected_speaker": null,
-      "last_mentioned_episode_id": 535,
-      "last_mentioned_speaker": "Peter Diamandis (hosts)"
+      "last_mentioned_episode_id": 536,
+      "last_mentioned_speaker": "David George (hosts)"
     },
     {
       "id": 26,
