@@ -134,6 +134,44 @@
       ]
     },
     {
+      "id": 555,
+      "title": "Jake Paul & The Chainsmokers: Turning Fame into Funds, Jake Enters Politics? & Venture Bubble Signs",
+      "source_type": "podcast",
+      "source_name": "All-In with Chamath, Jason, Sacks & Friedberg",
+      "source_date": "2026-09-30",
+      "summary": "Jake Paul framed his career as a shift from social media attention into owned businesses, boxing promotion, venture investing, and eventually politics. He said the top 20 Vine creators once asked Vine and Twitter for $1 million each per year, were offered $1 million total to split, stopped posting, and saw Vine die within months. He argued that attention is now a scarce asset on cap tables, citing investments in OpenAI, Cognition, and SpaceX, a $100 million Anti Fund raise, and his involvement in OpenAI Sora's social app launch using his name, image, and likeness.\n\nPaul also described boxing and MMA as a market-structure opportunity. He said 138 million people watched his Mike Tyson fight on Netflix, claimed his built-in audience exceeded 100 million followers, and said MVP now has 400 boxing and MMA fighters after merging with PFL. His core criticism of UFC was that it pays fighters roughly 15% of revenue versus about 50% in other professional sports leagues, which he said creates fighter dissatisfaction and opens room for a competitor that pays talent more and allows sponsorships.\n\nDrew Taggart and Alex Pall of The Chainsmokers explained how music success gave them pattern recognition in distribution, brand, and go-to-market, then described turning that into Mantis, a venture firm focused on cyber, AI, deep tech, and health tech. They said the music market has changed dramatically since 2012, with 300,000 songs now uploaded to Spotify every day, and argued that live performance and DJ economics remain central to their own music business while new artists may eventually bypass traditional labels.\n\nThe venture discussion centered on whether fame helps or hurts capital formation, how celebrity-backed funds earn credibility, and whether current late-stage AI financing behavior shows bubble signs. The Chainsmokers said venture is long-duration and illiquid, that the top 5% of funds generate roughly 90% of returns, and that they have been in venture for 12 years, with seven years since starting the fund. Chamath Palihapitiya and the guests agreed that realized DPI cuts through skepticism, while the guests called 2x to 3x second-tranche markups without underlying performance change a bubble signal.",
+      "key_takeaway": "Jake Paul and The Chainsmokers argue attention can improve startup go-to-market, while The Chainsmokers warn 2x to 3x tranche markups without performance change are bubble behavior.",
+      "tickers_mentioned": [
+        "NFLX",
+        "SPOT",
+        "UBER",
+        "HOOD",
+        "GOOGL",
+        "META"
+      ],
+      "sentiment": "bullish",
+      "display_on_main": 1,
+      "display_order": 0,
+      "added_date": "2026-10-01",
+      "archived_date": null,
+      "archived_reason": null,
+      "podcast_episode_id": 540,
+      "notable_quotes": [
+        {
+          "speaker": "Jake Paul",
+          "quote": "I have two main goals, definitely becoming a world champion, and I want to exit a company for $1 billion."
+        },
+        {
+          "speaker": "Jake Paul",
+          "quote": "we believe that we're in the attention economy and that capital is a commodity"
+        },
+        {
+          "speaker": "Drew Taggart",
+          "quote": "there are 300,000 songs being uploaded to Spotify every day"
+        }
+      ]
+    },
+    {
       "id": 545,
       "title": "Claude Code\u2019s Next Era \u2014 Thariq Shihipar, Anthropic",
       "source_type": "podcast",
@@ -473,7 +511,7 @@
         "NVDA"
       ],
       "sentiment": "neutral",
-      "display_on_main": 1,
+      "display_on_main": 0,
       "display_order": 0,
       "added_date": "2026-09-26",
       "archived_date": null,
@@ -11780,8 +11818,8 @@
       "term": "Dana",
       "description": "A platform developed by Applied Intuition for designing and developing autonomous systems, aiming to simplify the process and make it more accessible.",
       "first_detected_date": "2026-07-21",
-      "last_mentioned_date": "2026-09-13",
-      "mention_count": 3,
+      "last_mentioned_date": "2026-09-30",
+      "mention_count": 4,
       "source_podcasts": null,
       "status": "active",
       "investment_implications": "Platforms like Dana could lower the barrier to entry for developing autonomous systems, potentially sparking innovation and growth in the sector.",
@@ -11790,8 +11828,8 @@
       "archived_reason": null,
       "first_detected_episode_id": 359,
       "first_detected_speaker": "Casser, Eunice, Peter Ludwig",
-      "last_mentioned_episode_id": 475,
-      "last_mentioned_speaker": "Peter Diamandis (hosts)"
+      "last_mentioned_episode_id": 540,
+      "last_mentioned_speaker": "Jake Paul, Drew Taggart, Alex Pall"
     },
     {
       "id": 262,
@@ -11978,8 +12016,8 @@
       "term": "Authenticity",
       "description": "The quality of being genuine or original, often associated with products or businesses that have a personal, non-corporate touch.",
       "first_detected_date": "2026-06-19",
-      "last_mentioned_date": "2026-09-19",
-      "mention_count": 7,
+      "last_mentioned_date": "2026-09-30",
+      "mention_count": 8,
       "source_podcasts": null,
       "status": "active",
       "investment_implications": "Authentic family businesses are increasingly valued by consumers, especially younger generations, for their perceived trustworthiness and connection to tradition.",
@@ -11988,8 +12026,8 @@
       "archived_reason": null,
       "first_detected_episode_id": 301,
       "first_detected_speaker": null,
-      "last_mentioned_episode_id": 498,
-      "last_mentioned_speaker": "Josh Elman"
+      "last_mentioned_episode_id": 540,
+      "last_mentioned_speaker": "Jake Paul, Drew Taggart, Alex Pall"
     },
     {
       "id": 266,
@@ -13580,8 +13618,8 @@
       "term": "AI Race",
       "description": "The competitive landscape in AI development, particularly between the U.S. and other countries like China.",
       "first_detected_date": "2026-03-11",
-      "last_mentioned_date": "2026-09-14",
-      "mention_count": 38,
+      "last_mentioned_date": "2026-09-30",
+      "mention_count": 39,
       "source_podcasts": null,
       "status": "active",
       "investment_implications": "Understanding the AI race is crucial for identifying investment opportunities in companies that can maintain a competitive edge.",
@@ -13590,8 +13628,8 @@
       "archived_reason": null,
       "first_detected_episode_id": 60,
       "first_detected_speaker": null,
-      "last_mentioned_episode_id": 480,
-      "last_mentioned_speaker": "Jensen Huang"
+      "last_mentioned_episode_id": 540,
+      "last_mentioned_speaker": "Jake Paul, Drew Taggart, Alex Pall"
     },
     {
       "id": 12,
