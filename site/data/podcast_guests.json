@@ -1,6 +1,18 @@
 [
   {
-    "id": 78016,
+    "id": 78130,
+    "name": "Rebuilding the Internet for Privacy",
+    "slug": "rebuilding-the-internet-for-privacy",
+    "bio": null,
+    "known_for": null,
+    "last_main_idea": "Barrett Lyon argues DoxxNet differs from VPNs by owning hardware across 26 sites and enabling encrypted peer-to-peer communication without central servers, reducing leased-server and insider-threat exposure.",
+    "last_episode_title": "Rebuilding the Internet for Privacy | Barrett Lyon on DoxxNet",
+    "last_podcast_name": "The a16z Show",
+    "last_episode_date": "2026-10-01",
+    "appearance_count": 1
+  },
+  {
+    "id": 78131,
     "name": "Token Bill Dwarfs CPU Bill",
     "slug": "token-bill-dwarfs-cpu-bill",
     "bio": null,
@@ -12,7 +24,7 @@
     "appearance_count": 1
   },
   {
-    "id": 78017,
+    "id": 78132,
     "name": "Jake Paul & The Chainsmokers",
     "slug": "jake-paul--the-chainsmokers",
     "bio": null,
@@ -24,7 +36,7 @@
     "appearance_count": 1
   },
   {
-    "id": 78018,
+    "id": 78133,
     "name": "Palmer Luckey",
     "slug": "palmer-luckey",
     "bio": null,
@@ -36,7 +48,7 @@
     "appearance_count": 1
   },
   {
-    "id": 78019,
+    "id": 78134,
     "name": "Daniel Ek",
     "slug": "daniel-ek",
     "bio": null,
@@ -48,7 +60,7 @@
     "appearance_count": 1
   },
   {
-    "id": 78020,
+    "id": 78135,
     "name": "Michael Every",
     "slug": "michael-every",
     "bio": null,
@@ -60,7 +72,7 @@
     "appearance_count": 1
   },
   {
-    "id": 78021,
+    "id": 78136,
     "name": "Steve Hilton & Spencer Pratt",
     "slug": "steve-hilton--spencer-pratt",
     "bio": null,
@@ -72,7 +84,7 @@
     "appearance_count": 1
   },
   {
-    "id": 78022,
+    "id": 78137,
     "name": "Blake Scholl",
     "slug": "blake-scholl",
     "bio": null,
@@ -84,7 +96,7 @@
     "appearance_count": 1
   },
   {
-    "id": 78023,
+    "id": 78138,
     "name": "John Platt",
     "slug": "john-platt",
     "bio": null,
@@ -96,7 +108,7 @@
     "appearance_count": 1
   },
   {
-    "id": 78024,
+    "id": 78139,
     "name": "Diogo Almeida",
     "slug": "diogo-almeida",
     "bio": null,
@@ -108,7 +120,7 @@
     "appearance_count": 1
   },
   {
-    "id": 78025,
+    "id": 78140,
     "name": "Naveen Rao",
     "slug": "naveen-rao",
     "bio": null,
@@ -120,7 +132,7 @@
     "appearance_count": 1
   },
   {
-    "id": 78026,
+    "id": 78141,
     "name": "Outlook on 5 Key Commodities",
     "slug": "outlook-on-5-key-commodities",
     "bio": null,
@@ -132,7 +144,7 @@
     "appearance_count": 1
   },
   {
-    "id": 78027,
+    "id": 78142,
     "name": "Bill Gurley",
     "slug": "bill-gurley",
     "bio": null,
@@ -144,7 +156,7 @@
     "appearance_count": 1
   },
   {
-    "id": 78028,
+    "id": 78143,
     "name": "Nick Shirley",
     "slug": "nick-shirley",
     "bio": null,
@@ -156,7 +168,7 @@
     "appearance_count": 1
   },
   {
-    "id": 78029,
+    "id": 78144,
     "name": "Jared Isaacman",
     "slug": "jared-isaacman",
     "bio": null,
@@ -168,7 +180,7 @@
     "appearance_count": 1
   },
   {
-    "id": 78030,
+    "id": 78145,
     "name": "Brad Gerstner",
     "slug": "brad-gerstner",
     "bio": null,
@@ -180,7 +192,7 @@
     "appearance_count": 1
   },
   {
-    "id": 78031,
+    "id": 78146,
     "name": "Meta's Dina Powell McCormick",
     "slug": "metas-dina-powell-mccormick",
     "bio": null,
@@ -192,7 +204,7 @@
     "appearance_count": 1
   },
   {
-    "id": 78032,
+    "id": 78147,
     "name": "Underwriting Superintelligence",
     "slug": "underwriting-superintelligence",
     "bio": null,
@@ -204,7 +216,7 @@
     "appearance_count": 1
   },
   {
-    "id": 78033,
+    "id": 78148,
     "name": "Hawks Take Flight",
     "slug": "hawks-take-flight",
     "bio": null,
@@ -216,7 +228,7 @@
     "appearance_count": 1
   },
   {
-    "id": 78034,
+    "id": 78149,
     "name": "Martine Rothblatt",
     "slug": "martine-rothblatt",
     "bio": null,
@@ -228,7 +240,7 @@
     "appearance_count": 1
   },
   {
-    "id": 78035,
+    "id": 78150,
     "name": "Microsoft CEO Satya Nadella",
     "slug": "microsoft-ceo-satya-nadella",
     "bio": null,
@@ -240,7 +252,7 @@
     "appearance_count": 1
   },
   {
-    "id": 78036,
+    "id": 78151,
     "name": "Jensen Huang",
     "slug": "jensen-huang",
     "bio": null,
@@ -252,7 +264,7 @@
     "appearance_count": 1
   },
   {
-    "id": 78037,
+    "id": 78152,
     "name": "Ask the Mates anything",
     "slug": "ask-the-mates-anything",
     "bio": null,
@@ -264,7 +276,7 @@
     "appearance_count": 1
   },
   {
-    "id": 78038,
+    "id": 78153,
     "name": "Matt Barry",
     "slug": "matt-barry",
     "bio": null,
@@ -276,7 +288,7 @@
     "appearance_count": 1
   },
   {
-    "id": 78039,
+    "id": 78154,
     "name": "Who Grades the AI Models?",
     "slug": "who-grades-the-ai-models",
     "bio": null,
@@ -288,7 +300,7 @@
     "appearance_count": 1
   },
   {
-    "id": 78040,
+    "id": 78155,
     "name": "Your AI Doctor Is Coming",
     "slug": "your-ai-doctor-is-coming",
     "bio": null,
@@ -300,7 +312,7 @@
     "appearance_count": 1
   },
   {
-    "id": 78041,
+    "id": 78156,
     "name": "Fei Fei Li",
     "slug": "fei-fei-li",
     "bio": null,
@@ -312,7 +324,7 @@
     "appearance_count": 1
   },
   {
-    "id": 78042,
+    "id": 78157,
     "name": "Financial strategist Jared Dillian",
     "slug": "financial-strategist-jared-dillian",
     "bio": null,
@@ -324,7 +336,7 @@
     "appearance_count": 1
   },
   {
-    "id": 78043,
+    "id": 78158,
     "name": "Daniel Litt",
     "slug": "daniel-litt",
     "bio": null,
@@ -336,7 +348,7 @@
     "appearance_count": 1
   },
   {
-    "id": 78044,
+    "id": 78159,
     "name": "Gavin Baker",
     "slug": "gavin-baker",
     "bio": null,
@@ -345,18 +357,6 @@
     "last_episode_title": "Gavin Baker: Why AI Demand Is Outrunning Compute Supply",
     "last_podcast_name": "The a16z Show",
     "last_episode_date": "2026-08-31",
-    "appearance_count": 1
-  },
-  {
-    "id": 78045,
-    "name": "Sam Altman",
-    "slug": "sam-altman",
-    "bio": null,
-    "known_for": null,
-    "last_main_idea": "Investment in AI and autonomous vehicle sectors should consider the shift towards more gradual AI integration and the potential for cost-effective Chinese AI models to disrupt the market.",
-    "last_episode_title": "Sam Altman: Singularity Slow-Down, Emad Runs 18 Grokbots, Waymo Slashes Hardware 83% | EP #283",
-    "last_podcast_name": "Moonshots with Peter Diamandis",
-    "last_episode_date": "2026-08-27",
     "appearance_count": 1
   }
 ]
