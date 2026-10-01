@@ -3,1050 +3,1050 @@
 
 const dashboardData = {
   schemaVersion: 2,
-  generatedAt: "2026-09-30T14:17:54.940707",
-  chartsVersion: "2026-09-30T14:16:45.266798",
+  generatedAt: "2026-09-30T22:37:36.871654",
+  chartsVersion: "2026-09-30T22:37:19.641120",
   priceSnapshot: {
   "AAPL": {
-    "price": 335.93,
-    "change_pct": 1.1,
+    "price": 333.02,
+    "change_pct": 0.23,
     "name": "Apple Inc.",
-    "updated_at": "2026-09-30T14:15:34.881529",
+    "updated_at": "2026-09-30T22:36:00.201075",
     "price_14d_ago": 332.27
   },
   "AEP": {
-    "price": 119.25,
-    "change_pct": -3.3,
+    "price": 118.64,
+    "change_pct": -3.8,
     "name": "American Electric Power Company",
-    "updated_at": "2026-09-30T14:15:35.128137",
+    "updated_at": "2026-09-30T22:36:00.429929",
     "price_14d_ago": 123.33
   },
   "AMD": {
-    "price": 613.24,
-    "change_pct": 18.82,
+    "price": 611.76,
+    "change_pct": 18.53,
     "name": "Advanced Micro Devices, Inc.",
-    "updated_at": "2026-09-30T14:15:35.301376",
+    "updated_at": "2026-09-30T22:36:00.608791",
     "price_14d_ago": 516.13
   },
   "AMGN": {
-    "price": 421.88,
-    "change_pct": 11.8,
+    "price": 421.51,
+    "change_pct": 11.7,
     "name": "Amgen Inc.",
-    "updated_at": "2026-09-30T14:15:35.496350",
+    "updated_at": "2026-09-30T22:36:00.783847",
     "price_14d_ago": 377.35
   },
   "AMZN": {
-    "price": 250.12,
-    "change_pct": -2.59,
+    "price": 249.15,
+    "change_pct": -2.97,
     "name": "Amazon.com, Inc.",
-    "updated_at": "2026-09-30T14:15:35.674519",
+    "updated_at": "2026-09-30T22:36:00.953524",
     "price_14d_ago": 256.78
   },
   "APO": {
-    "price": 116.51,
-    "change_pct": -9.67,
+    "price": 116.06,
+    "change_pct": -10.02,
     "name": "Apollo Global Management, Inc. ",
-    "updated_at": "2026-09-30T14:15:35.883719",
+    "updated_at": "2026-09-30T22:36:01.132626",
     "price_14d_ago": 128.98
   },
   "APTV": {
-    "price": 43.16,
-    "change_pct": -5.24,
+    "price": 43.02,
+    "change_pct": -5.53,
     "name": "Aptiv PLC",
-    "updated_at": "2026-09-30T14:15:36.062399",
+    "updated_at": "2026-09-30T22:36:01.309229",
     "price_14d_ago": 45.54
   },
   "AVGO": {
-    "price": 353.68,
-    "change_pct": -2.3,
+    "price": 351.19,
+    "change_pct": -2.98,
     "name": "Broadcom Inc.",
-    "updated_at": "2026-09-30T14:15:36.430194",
+    "updated_at": "2026-09-30T22:36:01.695454",
     "price_14d_ago": 361.99
   },
   "BA": {
-    "price": 186.25,
-    "change_pct": -11.5,
+    "price": 186.05,
+    "change_pct": -11.59,
     "name": "Boeing Company (The)",
-    "updated_at": "2026-09-30T14:15:36.832381",
+    "updated_at": "2026-09-30T22:36:02.098701",
     "price_14d_ago": 210.45
   },
   "BABA": {
-    "price": 108.27,
-    "change_pct": -0.94,
+    "price": 107.54,
+    "change_pct": -1.61,
     "name": "Alibaba Group Holding Limited",
-    "updated_at": "2026-09-30T14:15:37.077044",
+    "updated_at": "2026-09-30T22:36:02.274687",
     "price_14d_ago": 109.3
   },
   "BAC": {
-    "price": 54.55,
-    "change_pct": -12.99,
+    "price": 54.43,
+    "change_pct": -13.18,
     "name": "Bank of America Corporation",
-    "updated_at": "2026-09-30T14:15:37.303388",
+    "updated_at": "2026-09-30T22:36:02.490598",
     "price_14d_ago": 62.69
   },
   "BAM": {
-    "price": 44.8,
-    "change_pct": -5.21,
+    "price": 44.58,
+    "change_pct": -5.67,
     "name": "Brookfield Asset Management Inc",
-    "updated_at": "2026-09-30T14:15:37.478352",
+    "updated_at": "2026-09-30T22:36:02.666086",
     "price_14d_ago": 47.26
   },
   "BIDU": {
-    "price": 87.43,
-    "change_pct": -4.34,
+    "price": 86.87,
+    "change_pct": -4.96,
     "name": "Baidu, Inc.",
-    "updated_at": "2026-09-30T14:15:37.843841",
+    "updated_at": "2026-09-30T22:36:03.016428",
     "price_14d_ago": 91.4
   },
   "BP": {
-    "price": 44.13,
-    "change_pct": -4.27,
+    "price": 43.99,
+    "change_pct": -4.58,
     "name": "BP p.l.c.",
-    "updated_at": "2026-09-30T14:15:38.237268",
+    "updated_at": "2026-09-30T22:36:03.453939",
     "price_14d_ago": 46.1
   },
   "BTC": {
-    "price": 83678.27,
-    "change_pct": 9.52,
+    "price": 83477.43,
+    "change_pct": 3.18,
     "name": "Bitcoin USD",
-    "updated_at": "2026-09-30T14:15:38.413910",
-    "price_14d_ago": 76403.77
+    "updated_at": "2026-09-30T22:36:03.633564",
+    "price_14d_ago": 80901.46
   },
   "BTC-USD": {
-    "price": 83678.27,
-    "change_pct": 9.52,
+    "price": 83477.43,
+    "change_pct": 3.18,
     "name": "Bitcoin USD",
-    "updated_at": "2026-09-30T14:15:38.580381",
-    "price_14d_ago": 76403.77
+    "updated_at": "2026-09-30T22:36:03.810236",
+    "price_14d_ago": 80901.46
   },
   "BX": {
-    "price": 112.33,
-    "change_pct": -12.59,
+    "price": 112.09,
+    "change_pct": -12.78,
     "name": "Blackstone Inc.",
-    "updated_at": "2026-09-30T14:15:38.760328",
+    "updated_at": "2026-09-30T22:36:04.002146",
     "price_14d_ago": 128.51
   },
   "BYD": {
-    "price": 66.71,
-    "change_pct": -13.36,
+    "price": 66.57,
+    "change_pct": -13.55,
     "name": "Boyd Gaming Corporation",
-    "updated_at": "2026-09-30T14:15:38.948421",
+    "updated_at": "2026-09-30T22:36:04.195989",
     "price_14d_ago": 77.0
   },
   "CAT": {
-    "price": 815.17,
-    "change_pct": -0.42,
+    "price": 810.79,
+    "change_pct": -0.95,
     "name": "Caterpillar, Inc.",
-    "updated_at": "2026-09-30T14:15:39.354414",
+    "updated_at": "2026-09-30T22:36:04.594368",
     "price_14d_ago": 818.57
   },
   "CCJ": {
-    "price": 87.34,
-    "change_pct": -9.66,
+    "price": 86.67,
+    "change_pct": -10.35,
     "name": "Cameco Corporation",
-    "updated_at": "2026-09-30T14:15:39.558323",
+    "updated_at": "2026-09-30T22:36:04.790585",
     "price_14d_ago": 96.68
   },
   "CEG": {
-    "price": 252.42,
-    "change_pct": -11.35,
+    "price": 254.02,
+    "change_pct": -10.79,
     "name": "Constellation Energy Corporatio",
-    "updated_at": "2026-09-30T14:15:39.733401",
+    "updated_at": "2026-09-30T22:36:04.980886",
     "price_14d_ago": 284.75
   },
   "COIN": {
-    "price": 187.19,
-    "change_pct": 6.81,
+    "price": 186.41,
+    "change_pct": 6.36,
     "name": "Coinbase Global, Inc.",
-    "updated_at": "2026-09-30T14:15:39.904802",
+    "updated_at": "2026-09-30T22:36:05.155472",
     "price_14d_ago": 175.26
   },
   "COPPER": {
-    "price": 6.63,
-    "change_pct": 2.47,
+    "price": 6.59,
+    "change_pct": 4.12,
     "name": "Copper",
-    "updated_at": "2026-09-30T14:15:40.068954",
-    "price_14d_ago": 6.47
+    "updated_at": "2026-09-30T22:36:05.324490",
+    "price_14d_ago": 6.33
   },
   "CORN": {
-    "price": 19.0,
-    "change_pct": -4.59,
+    "price": 19.04,
+    "change_pct": -4.42,
     "name": "Teucrium Corn Fund ETV",
-    "updated_at": "2026-09-30T14:15:40.242057",
+    "updated_at": "2026-09-30T22:36:05.499601",
     "price_14d_ago": 19.92
   },
   "CRM": {
-    "price": 229.38,
-    "change_pct": -7.4,
+    "price": 229.57,
+    "change_pct": -7.33,
     "name": "Salesforce, Inc.",
-    "updated_at": "2026-09-30T14:15:40.409420",
+    "updated_at": "2026-09-30T22:36:05.674516",
     "price_14d_ago": 247.72
   },
   "CROWD": {
-    "price": 265.58,
-    "change_pct": 28.46,
+    "price": 264.75,
+    "change_pct": 28.06,
     "name": "CrowdStrike Holdings, Inc.",
-    "updated_at": "2026-09-30T14:15:40.649236",
+    "updated_at": "2026-09-30T22:36:05.856760",
     "price_14d_ago": 206.74
   },
   "DBC": {
-    "price": 32.36,
-    "change_pct": -2.41,
+    "price": 32.32,
+    "change_pct": -2.53,
     "name": "Invesco DB Commodity Index Trac",
-    "updated_at": "2026-09-30T14:15:40.994948",
+    "updated_at": "2026-09-30T22:36:06.219097",
     "price_14d_ago": 33.16
   },
   "DELL": {
-    "price": 544.92,
-    "change_pct": -3.94,
+    "price": 537.95,
+    "change_pct": -5.17,
     "name": "Dell Technologies Inc.",
-    "updated_at": "2026-09-30T14:15:41.188917",
+    "updated_at": "2026-09-30T22:36:06.401210",
     "price_14d_ago": 567.29
   },
   "DIS": {
-    "price": 105.21,
-    "change_pct": -1.26,
+    "price": 104.9,
+    "change_pct": -1.55,
     "name": "Walt Disney Company (The)",
-    "updated_at": "2026-09-30T14:15:41.438857",
+    "updated_at": "2026-09-30T22:36:06.636079",
     "price_14d_ago": 106.55
   },
   "DOCS": {
-    "price": 28.47,
-    "change_pct": 11.3,
+    "price": 28.34,
+    "change_pct": 10.79,
     "name": "Doximity, Inc.",
-    "updated_at": "2026-09-30T14:15:41.605823",
+    "updated_at": "2026-09-30T22:36:06.821717",
     "price_14d_ago": 25.58
   },
   "DVN": {
-    "price": 46.3,
-    "change_pct": -7.81,
+    "price": 46.04,
+    "change_pct": -8.34,
     "name": "Devon Energy Corporation",
-    "updated_at": "2026-09-30T14:15:41.803660",
+    "updated_at": "2026-09-30T22:36:07.028196",
     "price_14d_ago": 50.23
   },
   "EBAY": {
-    "price": 106.53,
-    "change_pct": -1.14,
+    "price": 106.05,
+    "change_pct": -1.58,
     "name": "eBay Inc.",
-    "updated_at": "2026-09-30T14:15:41.994877",
+    "updated_at": "2026-09-30T22:36:07.210439",
     "price_14d_ago": 107.75
   },
   "ETH-USD": {
-    "price": 2671.64,
-    "change_pct": 9.18,
+    "price": 2686.54,
+    "change_pct": 2.88,
     "name": "Ethereum USD",
-    "updated_at": "2026-09-30T14:15:42.160320",
-    "price_14d_ago": 2447.11
+    "updated_at": "2026-09-30T22:36:07.386942",
+    "price_14d_ago": 2611.35
   },
   "F": {
-    "price": 12.04,
-    "change_pct": -13.78,
+    "price": 12.06,
+    "change_pct": -13.67,
     "name": "Ford Motor Company",
-    "updated_at": "2026-09-30T14:15:42.415842",
+    "updated_at": "2026-09-30T22:36:07.675802",
     "price_14d_ago": 13.97
   },
   "FB": {
-    "price": 45.58,
-    "change_pct": 0.4,
+    "price": 45.51,
+    "change_pct": 0.26,
     "name": "ProShares S&P 500 Dynamic Buffe",
-    "updated_at": "2026-09-30T14:15:42.586902",
+    "updated_at": "2026-09-30T22:36:07.854169",
     "price_14d_ago": 45.39
   },
   "FCX": {
-    "price": 70.58,
-    "change_pct": -0.7,
+    "price": 70.0,
+    "change_pct": -1.51,
     "name": "Freeport-McMoRan, Inc.",
-    "updated_at": "2026-09-30T14:15:42.779512",
+    "updated_at": "2026-09-30T22:36:08.058980",
     "price_14d_ago": 71.07
   },
   "FSK": {
-    "price": 11.09,
-    "change_pct": -6.77,
+    "price": 10.99,
+    "change_pct": -7.57,
     "name": "FS KKR Capital Corp.",
-    "updated_at": "2026-09-30T14:15:43.285945",
+    "updated_at": "2026-09-30T22:36:08.592663",
     "price_14d_ago": 11.89
   },
   "GC": {
     "price": 0,
     "change_pct": 0,
     "name": "Gold",
-    "updated_at": "2026-09-30T14:15:43.451194",
+    "updated_at": "2026-09-30T22:36:08.768598",
     "price_14d_ago": null
   },
   "GD": {
-    "price": 332.45,
-    "change_pct": -6.59,
+    "price": 331.83,
+    "change_pct": -6.76,
     "name": "General Dynamics Corporation",
-    "updated_at": "2026-09-30T14:15:43.687445",
+    "updated_at": "2026-09-30T22:36:08.994198",
     "price_14d_ago": 355.9
   },
   "GE": {
-    "price": 314.04,
-    "change_pct": -2.97,
+    "price": 312.29,
+    "change_pct": -3.51,
     "name": "GE Aerospace",
-    "updated_at": "2026-09-30T14:15:43.920011",
+    "updated_at": "2026-09-30T22:36:09.234129",
     "price_14d_ago": 323.66
   },
   "GLD": {
-    "price": 380.51,
-    "change_pct": -4.58,
+    "price": 380.84,
+    "change_pct": -4.5,
     "name": "SPDR Gold Shares",
-    "updated_at": "2026-09-30T14:15:44.162219",
+    "updated_at": "2026-09-30T22:36:09.422163",
     "price_14d_ago": 398.77
   },
   "GME": {
-    "price": 24.79,
-    "change_pct": 17.21,
+    "price": 24.65,
+    "change_pct": 16.55,
     "name": "GameStop Corporation",
-    "updated_at": "2026-09-30T14:15:44.338404",
+    "updated_at": "2026-09-30T22:36:09.603081",
     "price_14d_ago": 21.15
   },
   "GOLD": {
-    "price": 4185.0,
-    "change_pct": -5.08,
+    "price": 4193.6,
+    "change_pct": -3.64,
     "name": "Gold",
-    "updated_at": "2026-09-30T14:15:44.578435",
-    "price_14d_ago": 4408.9
+    "updated_at": "2026-09-30T22:36:09.774890",
+    "price_14d_ago": 4351.9
   },
   "GOOG": {
-    "price": 345.82,
-    "change_pct": 3.09,
+    "price": 340.74,
+    "change_pct": 1.58,
     "name": "Alphabet Inc.",
-    "updated_at": "2026-09-30T14:15:44.751402",
+    "updated_at": "2026-09-30T22:36:09.949724",
     "price_14d_ago": 335.45
   },
   "GOOGL": {
-    "price": 349.06,
-    "change_pct": 3.12,
+    "price": 344.08,
+    "change_pct": 1.65,
     "name": "Alphabet Inc.",
-    "updated_at": "2026-09-30T14:15:44.922461",
+    "updated_at": "2026-09-30T22:36:10.128485",
     "price_14d_ago": 338.5
   },
   "GS": {
-    "price": 903.88,
-    "change_pct": -12.17,
+    "price": 900.36,
+    "change_pct": -12.52,
     "name": "Goldman Sachs Group, Inc. (The)",
-    "updated_at": "2026-09-30T14:15:45.124953",
+    "updated_at": "2026-09-30T22:36:10.323483",
     "price_14d_ago": 1029.18
   },
   "Gold": {
-    "price": 42.95,
-    "change_pct": -10.93,
+    "price": 42.57,
+    "change_pct": -11.72,
     "name": "Gold.com, Inc.",
-    "updated_at": "2026-09-30T14:15:45.378997",
+    "updated_at": "2026-09-30T22:36:10.516004",
     "price_14d_ago": 48.22
   },
   "HFGM": {
-    "price": 31.42,
-    "change_pct": -1.66,
+    "price": 31.34,
+    "change_pct": -1.9,
     "name": "Unlimited HFGM Global Macro ETF",
-    "updated_at": "2026-09-30T14:15:45.555125",
+    "updated_at": "2026-09-30T22:36:10.698447",
     "price_14d_ago": 31.95
   },
   "HG": {
-    "price": 32.95,
-    "change_pct": -5.45,
+    "price": 33.04,
+    "change_pct": -5.19,
     "name": "Hamilton Insurance Group, Ltd.",
-    "updated_at": "2026-09-30T14:15:45.743028",
+    "updated_at": "2026-09-30T22:36:10.872142",
     "price_14d_ago": 34.85
   },
   "IBM": {
-    "price": 220.3,
-    "change_pct": -9.45,
+    "price": 219.93,
+    "change_pct": -9.6,
     "name": "International Business Machines",
-    "updated_at": "2026-09-30T14:15:46.148968",
+    "updated_at": "2026-09-30T22:36:11.284772",
     "price_14d_ago": 243.29
   },
   "IEF": {
-    "price": 89.22,
-    "change_pct": -1.97,
+    "price": 89.31,
+    "change_pct": -1.87,
     "name": "iShares 7-10 Year Treasury Bond",
-    "updated_at": "2026-09-30T14:15:46.338351",
+    "updated_at": "2026-09-30T22:36:11.479496",
     "price_14d_ago": 91.01
   },
   "INDA": {
     "price": 46.68,
     "change_pct": -3.89,
     "name": "Ishares MSCI India ETF",
-    "updated_at": "2026-09-30T14:15:46.521926",
+    "updated_at": "2026-09-30T22:36:11.665027",
     "price_14d_ago": 48.57
   },
   "INFY": {
-    "price": 10.74,
-    "change_pct": -2.94,
+    "price": 10.76,
+    "change_pct": -2.8,
     "name": "Infosys Limited",
-    "updated_at": "2026-09-30T14:15:46.715919",
+    "updated_at": "2026-09-30T22:36:11.859958",
     "price_14d_ago": 11.07
   },
   "INTC": {
-    "price": 119.86,
-    "change_pct": 16.43,
+    "price": 120.23,
+    "change_pct": 16.8,
     "name": "Intel Corporation",
-    "updated_at": "2026-09-30T14:15:47.003572",
+    "updated_at": "2026-09-30T22:36:12.075273",
     "price_14d_ago": 102.94
   },
   "IWD": {
-    "price": 248.96,
-    "change_pct": -2.59,
+    "price": 247.93,
+    "change_pct": -2.99,
     "name": "iShares Russell 1000 Value ETF",
-    "updated_at": "2026-09-30T14:15:47.199214",
+    "updated_at": "2026-09-30T22:36:12.276116",
     "price_14d_ago": 255.58
   },
   "IWF": {
-    "price": 126.11,
-    "change_pct": 3.14,
+    "price": 125.26,
+    "change_pct": 2.45,
     "name": "iShares Russell 1000 Growth Fun",
-    "updated_at": "2026-09-30T14:15:47.393669",
+    "updated_at": "2026-09-30T22:36:12.465247",
     "price_14d_ago": 122.27
   },
   "IWM": {
-    "price": 279.0,
-    "change_pct": -3.42,
+    "price": 277.89,
+    "change_pct": -3.81,
     "name": "iShares Russell 2000 Index Fund",
-    "updated_at": "2026-09-30T14:15:47.589721",
+    "updated_at": "2026-09-30T22:36:12.664985",
     "price_14d_ago": 288.89
   },
   "JNJ": {
-    "price": 265.56,
-    "change_pct": -0.01,
+    "price": 264.74,
+    "change_pct": -0.32,
     "name": "Johnson & Johnson",
-    "updated_at": "2026-09-30T14:15:47.823009",
+    "updated_at": "2026-09-30T22:36:12.967451",
     "price_14d_ago": 265.58
   },
   "JPM": {
-    "price": 332.32,
-    "change_pct": -6.71,
+    "price": 330.83,
+    "change_pct": -7.13,
     "name": "JP Morgan Chase & Co.",
-    "updated_at": "2026-09-30T14:15:48.063927",
+    "updated_at": "2026-09-30T22:36:13.180887",
     "price_14d_ago": 356.23
   },
   "KKR": {
-    "price": 91.78,
-    "change_pct": -9.2,
+    "price": 91.3,
+    "change_pct": -9.68,
     "name": "KKR & Co. Inc.",
-    "updated_at": "2026-09-30T14:15:48.252883",
+    "updated_at": "2026-09-30T22:36:13.385126",
     "price_14d_ago": 101.08
   },
   "LLY": {
-    "price": 1162.65,
-    "change_pct": 4.21,
+    "price": 1157.08,
+    "change_pct": 3.71,
     "name": "Eli Lilly and Company",
-    "updated_at": "2026-09-30T14:15:48.465769",
+    "updated_at": "2026-09-30T22:36:13.619367",
     "price_14d_ago": 1115.7
   },
   "LMT": {
-    "price": 509.62,
-    "change_pct": -2.78,
+    "price": 509.25,
+    "change_pct": -2.85,
     "name": "Lockheed Martin Corporation",
-    "updated_at": "2026-09-30T14:15:48.706945",
+    "updated_at": "2026-09-30T22:36:13.850983",
     "price_14d_ago": 524.19
   },
   "LYFT": {
-    "price": 15.04,
-    "change_pct": -1.8,
+    "price": 15.01,
+    "change_pct": -2.02,
     "name": "Lyft, Inc.",
-    "updated_at": "2026-09-30T14:15:49.204314",
+    "updated_at": "2026-09-30T22:36:14.382761",
     "price_14d_ago": 15.32
   },
   "META": {
-    "price": 732.71,
-    "change_pct": 13.07,
+    "price": 725.18,
+    "change_pct": 11.91,
     "name": "Meta Platforms, Inc.",
-    "updated_at": "2026-09-30T14:15:49.394944",
+    "updated_at": "2026-09-30T22:36:14.584153",
     "price_14d_ago": 648.03
   },
   "MGM": {
-    "price": 31.04,
-    "change_pct": -22.19,
+    "price": 31.05,
+    "change_pct": -22.16,
     "name": "MGM Resorts International",
-    "updated_at": "2026-09-30T14:15:49.581576",
+    "updated_at": "2026-09-30T22:36:14.808133",
     "price_14d_ago": 39.89
   },
   "MINE": {
-    "price": 2.71,
-    "change_pct": -11.05,
+    "price": 2.72,
+    "change_pct": -10.82,
     "name": "Mayfair Gold Corp.",
-    "updated_at": "2026-09-30T14:15:49.757772",
+    "updated_at": "2026-09-30T22:36:14.986161",
     "price_14d_ago": 3.05
   },
   "MRK": {
-    "price": 146.1,
-    "change_pct": 1.51,
+    "price": 145.31,
+    "change_pct": 0.96,
     "name": "Merck & Company, Inc.",
-    "updated_at": "2026-09-30T14:15:50.004778",
+    "updated_at": "2026-09-30T22:36:15.244090",
     "price_14d_ago": 143.93
   },
   "MRNA": {
-    "price": 190.48,
-    "change_pct": 32.31,
+    "price": 192.57,
+    "change_pct": 33.76,
     "name": "Moderna, Inc.",
-    "updated_at": "2026-09-30T14:15:50.171191",
+    "updated_at": "2026-09-30T22:36:15.420177",
     "price_14d_ago": 143.97
   },
   "MS": {
-    "price": 188.79,
-    "change_pct": -11.94,
+    "price": 188.08,
+    "change_pct": -12.27,
     "name": "Morgan Stanley",
-    "updated_at": "2026-09-30T14:15:50.370250",
+    "updated_at": "2026-09-30T22:36:15.618943",
     "price_14d_ago": 214.38
   },
   "MSFT": {
-    "price": 517.52,
-    "change_pct": 4.42,
+    "price": 512.9,
+    "change_pct": 3.48,
     "name": "Microsoft Corporation",
-    "updated_at": "2026-09-30T14:15:50.565737",
+    "updated_at": "2026-09-30T22:36:15.831822",
     "price_14d_ago": 495.63
   },
   "MSTR": {
-    "price": 154.32,
-    "change_pct": 17.83,
+    "price": 153.09,
+    "change_pct": 16.89,
     "name": "Strategy Inc",
-    "updated_at": "2026-09-30T14:15:50.745585",
+    "updated_at": "2026-09-30T22:36:16.018385",
     "price_14d_ago": 130.97
   },
   "MU": {
-    "price": 1071.81,
-    "change_pct": 9.9,
+    "price": 1065.11,
+    "change_pct": 9.21,
     "name": "Micron Technology, Inc.",
-    "updated_at": "2026-09-30T14:15:50.950033",
+    "updated_at": "2026-09-30T22:36:16.230467",
     "price_14d_ago": 975.26
   },
   "NEE": {
-    "price": 76.03,
-    "change_pct": -7.64,
+    "price": 75.74,
+    "change_pct": -7.98,
     "name": "NextEra Energy, Inc.",
-    "updated_at": "2026-09-30T14:15:51.207987",
+    "updated_at": "2026-09-30T22:36:16.449428",
     "price_14d_ago": 82.31
   },
   "NFLX": {
-    "price": 69.74,
-    "change_pct": -9.9,
+    "price": 69.58,
+    "change_pct": -10.1,
     "name": "Netflix, Inc.",
-    "updated_at": "2026-09-30T14:15:51.384236",
+    "updated_at": "2026-09-30T22:36:16.630110",
     "price_14d_ago": 77.4
   },
   "NKE": {
-    "price": 35.41,
-    "change_pct": -3.76,
+    "price": 35.4,
+    "change_pct": -3.8,
     "name": "Nike, Inc.",
-    "updated_at": "2026-09-30T14:15:52.014423",
+    "updated_at": "2026-09-30T22:36:17.197662",
     "price_14d_ago": 36.8
   },
   "NOC": {
-    "price": 483.62,
-    "change_pct": -6.81,
+    "price": 483.48,
+    "change_pct": -6.84,
     "name": "Northrop Grumman Corporation",
-    "updated_at": "2026-09-30T14:15:52.219651",
+    "updated_at": "2026-09-30T22:36:17.403811",
     "price_14d_ago": 518.97
   },
   "NVDA": {
-    "price": 230.48,
-    "change_pct": 5.58,
+    "price": 228.38,
+    "change_pct": 4.62,
     "name": "NVIDIA Corporation",
-    "updated_at": "2026-09-30T14:15:52.479189",
+    "updated_at": "2026-09-30T22:36:17.595801",
     "price_14d_ago": 218.29
   },
   "NVS": {
-    "price": 143.25,
-    "change_pct": 4.44,
+    "price": 142.57,
+    "change_pct": 3.94,
     "name": "Novartis AG",
-    "updated_at": "2026-09-30T14:15:52.842214",
+    "updated_at": "2026-09-30T22:36:17.981220",
     "price_14d_ago": 137.16
   },
   "Nasdaq": {
-    "price": 743.58,
-    "change_pct": 4.01,
+    "price": 739.77,
+    "change_pct": 3.48,
     "name": "Invesco QQQ Trust, Series 1",
-    "updated_at": "2026-09-30T14:15:53.023891",
+    "updated_at": "2026-09-30T22:36:18.190680",
     "price_14d_ago": 714.88
   },
   "OKLO": {
-    "price": 37.28,
-    "change_pct": 2.93,
+    "price": 37.02,
+    "change_pct": 2.21,
     "name": "Oklo Inc.",
-    "updated_at": "2026-09-30T14:15:53.372282",
+    "updated_at": "2026-09-30T22:36:18.623704",
     "price_14d_ago": 36.22
   },
   "ORCL": {
-    "price": 138.28,
-    "change_pct": -7.99,
+    "price": 137.3,
+    "change_pct": -8.64,
     "name": "Oracle Corporation",
-    "updated_at": "2026-09-30T14:15:53.743530",
+    "updated_at": "2026-09-30T22:36:19.064138",
     "price_14d_ago": 150.28
   },
   "PALL": {
-    "price": 21.87,
-    "change_pct": -7.41,
+    "price": 21.81,
+    "change_pct": -7.66,
     "name": "abrdn Physical Palladium Shares",
-    "updated_at": "2026-09-30T14:15:53.916656",
+    "updated_at": "2026-09-30T22:36:19.243347",
     "price_14d_ago": 23.62
   },
   "PANW": {
-    "price": 398.02,
-    "change_pct": 20.38,
+    "price": 397.31,
+    "change_pct": 20.16,
     "name": "Palo Alto Networks, Inc.",
-    "updated_at": "2026-09-30T14:15:54.089039",
+    "updated_at": "2026-09-30T22:36:19.428407",
     "price_14d_ago": 330.65
   },
   "PBR": {
-    "price": 21.06,
-    "change_pct": -0.66,
+    "price": 20.87,
+    "change_pct": -1.56,
     "name": "Petroleo Brasileiro S.A. Petrob",
-    "updated_at": "2026-09-30T14:15:54.280648",
+    "updated_at": "2026-09-30T22:36:19.632802",
     "price_14d_ago": 21.2
   },
   "PFE": {
-    "price": 28.77,
-    "change_pct": 3.77,
+    "price": 28.52,
+    "change_pct": 2.89,
     "name": "Pfizer, Inc.",
-    "updated_at": "2026-09-30T14:15:54.658100",
+    "updated_at": "2026-09-30T22:36:20.102459",
     "price_14d_ago": 27.72
   },
   "PLTM": {
-    "price": 16.36,
-    "change_pct": -5.05,
+    "price": 16.34,
+    "change_pct": -5.17,
     "name": "GraniteShares Platinum Shares E",
-    "updated_at": "2026-09-30T14:15:54.835284",
+    "updated_at": "2026-09-30T22:36:20.296735",
     "price_14d_ago": 17.23
   },
   "PLTR": {
-    "price": 188.03,
-    "change_pct": 12.44,
+    "price": 187.05,
+    "change_pct": 11.85,
     "name": "Palantir Technologies Inc.",
-    "updated_at": "2026-09-30T14:15:55.003197",
+    "updated_at": "2026-09-30T22:36:20.488697",
     "price_14d_ago": 167.23
   },
   "PQT": {
     "price": 0,
     "change_pct": 0,
     "name": "PQT",
-    "updated_at": "2026-09-30T14:15:55.374852",
+    "updated_at": "2026-09-30T22:36:20.926595",
     "price_14d_ago": null
   },
   "PQUS": {
-    "price": 28.67,
-    "change_pct": 0.77,
+    "price": 28.54,
+    "change_pct": 0.32,
     "name": "Pictet AI Enhanced US Equity ET",
-    "updated_at": "2026-09-30T14:15:55.541953",
+    "updated_at": "2026-09-30T22:36:21.111534",
     "price_14d_ago": 28.45
   },
   "PSBD": {
-    "price": 9.94,
-    "change_pct": -2.21,
+    "price": 9.89,
+    "change_pct": -2.66,
     "name": "Palmer Square Capital BDC Inc.",
-    "updated_at": "2026-09-30T14:15:55.718637",
+    "updated_at": "2026-09-30T22:36:21.301995",
     "price_14d_ago": 10.16
   },
   "PYPL": {
-    "price": 52.69,
-    "change_pct": -1.92,
+    "price": 52.53,
+    "change_pct": -2.22,
     "name": "PayPal Holdings, Inc.",
-    "updated_at": "2026-09-30T14:15:55.894217",
+    "updated_at": "2026-09-30T22:36:21.484603",
     "price_14d_ago": 53.72
   },
   "QQQ": {
-    "price": 743.52,
-    "change_pct": 4.01,
+    "price": 739.77,
+    "change_pct": 3.48,
     "name": "Invesco QQQ Trust, Series 1",
-    "updated_at": "2026-09-30T14:15:56.152120",
+    "updated_at": "2026-09-30T22:36:21.689873",
     "price_14d_ago": 714.88
   },
   "QTA": {
     "price": 0,
     "change_pct": 0,
     "name": "QTA",
-    "updated_at": "2026-09-30T14:15:56.321090",
+    "updated_at": "2026-09-30T22:36:21.881071",
     "price_14d_ago": null
   },
   "RBLX": {
-    "price": 42.58,
-    "change_pct": -6.42,
+    "price": 42.37,
+    "change_pct": -6.88,
     "name": "Roblox Corporation",
-    "updated_at": "2026-09-30T14:15:56.510050",
+    "updated_at": "2026-09-30T22:36:22.068965",
     "price_14d_ago": 45.5
   },
   "RKLB": {
-    "price": 70.38,
-    "change_pct": 11.8,
+    "price": 69.68,
+    "change_pct": 10.69,
     "name": "Rocket Lab Corporation",
-    "updated_at": "2026-09-30T14:15:56.678639",
+    "updated_at": "2026-09-30T22:36:22.320670",
     "price_14d_ago": 62.95
   },
   "Russell": {
-    "price": 279.0,
-    "change_pct": -3.43,
+    "price": 277.89,
+    "change_pct": -3.81,
     "name": "iShares Russell 2000 Index Fund",
-    "updated_at": "2026-09-30T14:15:56.880859",
+    "updated_at": "2026-09-30T22:36:22.536664",
     "price_14d_ago": 288.89
   },
   "S&P": {
-    "price": 7694.75,
-    "change_pct": 0.49,
+    "price": 7651.54,
+    "change_pct": -0.07,
     "name": "S&P 500",
-    "updated_at": "2026-09-30T14:15:57.105597",
+    "updated_at": "2026-09-30T22:36:22.730150",
     "price_14d_ago": 7656.98
   },
   "S&P 500": {
-    "price": 7694.75,
-    "change_pct": 0.49,
+    "price": 7651.54,
+    "change_pct": -0.07,
     "name": "S&P 500",
-    "updated_at": "2026-09-30T14:15:57.277874",
+    "updated_at": "2026-09-30T22:36:22.936430",
     "price_14d_ago": 7656.98
   },
   "SAMSUNG ELECTRONICS": {
-    "price": 268500.0,
-    "change_pct": -0.37,
+    "price": 271750.0,
+    "change_pct": 1.02,
     "name": "SamsungElec",
-    "updated_at": "2026-09-30T14:15:57.504409",
-    "price_14d_ago": 269500.0
+    "updated_at": "2026-09-30T22:36:23.158859",
+    "price_14d_ago": 269000.0
   },
   "SAP": {
-    "price": 209.54,
-    "change_pct": 1.54,
+    "price": 208.48,
+    "change_pct": 1.03,
     "name": "SAP  SE",
-    "updated_at": "2026-09-30T14:15:57.699557",
+    "updated_at": "2026-09-30T22:36:23.369299",
     "price_14d_ago": 206.36
   },
   "SF": {
-    "price": 70.4,
-    "change_pct": -11.74,
+    "price": 70.04,
+    "change_pct": -12.19,
     "name": "Stifel Financial Corporation",
-    "updated_at": "2026-09-30T14:15:57.904302",
+    "updated_at": "2026-09-30T22:36:23.586160",
     "price_14d_ago": 79.76
   },
   "SK HYNIX": {
-    "price": 1776000.0,
-    "change_pct": -4.31,
+    "price": 1810000.0,
+    "change_pct": -2.32,
     "name": "SK hynix",
-    "updated_at": "2026-09-30T14:15:58.099107",
-    "price_14d_ago": 1856000.0
+    "updated_at": "2026-09-30T22:36:23.817589",
+    "price_14d_ago": 1853000.0
   },
   "SLB": {
-    "price": 49.03,
-    "change_pct": -12.54,
+    "price": 48.72,
+    "change_pct": -13.09,
     "name": "SLB Limited",
-    "updated_at": "2026-09-30T14:15:58.304828",
+    "updated_at": "2026-09-30T22:36:24.037092",
     "price_14d_ago": 56.06
   },
   "SMH": {
-    "price": 610.44,
-    "change_pct": 7.37,
+    "price": 609.0,
+    "change_pct": 7.12,
     "name": "VanEck Semiconductor ETF",
-    "updated_at": "2026-09-30T14:15:58.621808",
+    "updated_at": "2026-09-30T22:36:24.242690",
     "price_14d_ago": 568.53
   },
   "SMP-500": {
-    "price": 7694.87,
-    "change_pct": 0.49,
+    "price": 7651.54,
+    "change_pct": -0.07,
     "name": "S&P 500",
-    "updated_at": "2026-09-30T14:15:59.018659",
+    "updated_at": "2026-09-30T22:36:24.503786",
     "price_14d_ago": 7656.98
   },
   "SMR": {
-    "price": 7.95,
-    "change_pct": -7.72,
+    "price": 7.9,
+    "change_pct": -8.25,
     "name": "NuScale Power Corporation",
-    "updated_at": "2026-09-30T14:15:59.192897",
+    "updated_at": "2026-09-30T22:36:24.695967",
     "price_14d_ago": 8.61
   },
   "SNAP": {
-    "price": 5.49,
-    "change_pct": -3.43,
+    "price": 5.4,
+    "change_pct": -4.93,
     "name": "Snap Inc.",
-    "updated_at": "2026-09-30T14:15:59.358075",
+    "updated_at": "2026-09-30T22:36:24.887764",
     "price_14d_ago": 5.68
   },
   "SNWGF": {
-    "price": 11.92,
-    "change_pct": -0.58,
+    "price": 11.95,
+    "change_pct": -0.38,
     "name": "SNOWLINE GOLD CORP",
-    "updated_at": "2026-09-30T14:15:59.616392",
+    "updated_at": "2026-09-30T22:36:25.110764",
     "price_14d_ago": 11.99
   },
   "SOYB": {
-    "price": 27.52,
-    "change_pct": 0.07,
+    "price": 27.51,
+    "change_pct": 0.04,
     "name": "Teucrium Soybean Fund ETV",
-    "updated_at": "2026-09-30T14:15:59.783220",
+    "updated_at": "2026-09-30T22:36:25.301114",
     "price_14d_ago": 27.5
   },
   "SPCE": {
-    "price": 3.02,
-    "change_pct": 3.25,
+    "price": 2.99,
+    "change_pct": 2.4,
     "name": "Virgin Galactic Holdings, Inc.",
-    "updated_at": "2026-09-30T14:15:59.962823",
+    "updated_at": "2026-09-30T22:36:25.505582",
     "price_14d_ago": 2.92
   },
   "SPX": {
-    "price": 7695.18,
-    "change_pct": 0.5,
+    "price": 7651.54,
+    "change_pct": -0.07,
     "name": "S&P 500",
-    "updated_at": "2026-09-30T14:16:00.303973",
+    "updated_at": "2026-09-30T22:36:25.983932",
     "price_14d_ago": 7656.98
   },
   "SPY": {
-    "price": 766.62,
-    "change_pct": 0.3,
+    "price": 762.63,
+    "change_pct": -0.22,
     "name": "State Street SPDR S&P 500 ETF T",
-    "updated_at": "2026-09-30T14:16:00.576690",
+    "updated_at": "2026-09-30T22:36:26.203942",
     "price_14d_ago": 764.29
   },
   "SQQQ": {
-    "price": 33.88,
-    "change_pct": -12.85,
+    "price": 34.41,
+    "change_pct": -11.47,
     "name": "ProShares UltraPro Short QQQ",
-    "updated_at": "2026-09-30T14:16:00.771304",
+    "updated_at": "2026-09-30T22:36:26.409565",
     "price_14d_ago": 38.87
   },
   "SQUARE": {
-    "price": 73.75,
-    "change_pct": -6.9,
+    "price": 73.53,
+    "change_pct": -7.17,
     "name": "Block, Inc.",
-    "updated_at": "2026-09-30T14:16:00.936496",
+    "updated_at": "2026-09-30T22:36:26.609448",
     "price_14d_ago": 79.21
   },
   "Semiconductors": {
-    "price": 610.44,
-    "change_pct": 7.37,
+    "price": 609.0,
+    "change_pct": 7.12,
     "name": "VanEck Semiconductor ETF",
-    "updated_at": "2026-09-30T14:16:01.206651",
+    "updated_at": "2026-09-30T22:36:26.813335",
     "price_14d_ago": 568.53
   },
   "T": {
-    "price": 24.54,
-    "change_pct": -5.85,
+    "price": 24.4,
+    "change_pct": -6.37,
     "name": "AT&T Inc.",
-    "updated_at": "2026-09-30T14:16:01.424581",
+    "updated_at": "2026-09-30T22:36:27.034703",
     "price_14d_ago": 26.06
   },
   "TDOC": {
-    "price": 5.87,
-    "change_pct": -4.79,
+    "price": 5.8,
+    "change_pct": -5.84,
     "name": "Teladoc Health, Inc.",
-    "updated_at": "2026-09-30T14:16:01.614284",
+    "updated_at": "2026-09-30T22:36:27.270069",
     "price_14d_ago": 6.16
   },
   "TIPS": {
     "price": 0.0,
     "change_pct": 0.0,
     "name": "Tianrong Internet Products and ",
-    "updated_at": "2026-09-30T14:16:02.139844",
+    "updated_at": "2026-09-30T22:36:27.923233",
     "price_14d_ago": 0.0
   },
   "TLT": {
-    "price": 77.66,
-    "change_pct": -3.98,
+    "price": 77.78,
+    "change_pct": -3.82,
     "name": "iShares 20+ Year Treasury Bond ",
-    "updated_at": "2026-09-30T14:16:02.356696",
+    "updated_at": "2026-09-30T22:36:28.142552",
     "price_14d_ago": 80.87
   },
   "TSLA": {
-    "price": 353.23,
-    "change_pct": -3.34,
+    "price": 354.81,
+    "change_pct": -2.91,
     "name": "Tesla, Inc.",
-    "updated_at": "2026-09-30T14:16:02.531599",
+    "updated_at": "2026-09-30T22:36:28.350026",
     "price_14d_ago": 365.44
   },
   "TSM": {
-    "price": 457.55,
-    "change_pct": 5.61,
+    "price": 456.19,
+    "change_pct": 5.3,
     "name": "Taiwan Semiconductor Manufactur",
-    "updated_at": "2026-09-30T14:16:02.806144",
+    "updated_at": "2026-09-30T22:36:28.568887",
     "price_14d_ago": 433.24
   },
   "UBER": {
-    "price": 68.9,
-    "change_pct": -3.86,
+    "price": 68.51,
+    "change_pct": -4.41,
     "name": "Uber Technologies, Inc.",
-    "updated_at": "2026-09-30T14:16:03.162655",
+    "updated_at": "2026-09-30T22:36:28.978420",
     "price_14d_ago": 71.67
   },
   "UNG": {
-    "price": 10.39,
-    "change_pct": 2.16,
+    "price": 10.37,
+    "change_pct": 1.97,
     "name": "United States Natural Gas Fund ",
-    "updated_at": "2026-09-30T14:16:03.328285",
+    "updated_at": "2026-09-30T22:36:29.178831",
     "price_14d_ago": 10.17
   },
   "URANIUM": {
-    "price": 40.02,
-    "change_pct": -8.06,
+    "price": 39.85,
+    "change_pct": -8.45,
     "name": "Uranium ETF",
-    "updated_at": "2026-09-30T14:16:03.705882",
+    "updated_at": "2026-09-30T22:36:29.577805",
     "price_14d_ago": 43.53
   },
   "USD": {
-    "price": 97.18,
-    "change_pct": 12.92,
+    "price": 96.28,
+    "change_pct": 11.88,
     "name": "ProShares Ultra Semiconductors",
-    "updated_at": "2026-09-30T14:16:03.917470",
+    "updated_at": "2026-09-30T22:36:29.955844",
     "price_14d_ago": 86.06
   },
   "USDX": {
-    "price": 25.59,
-    "change_pct": 0.2,
+    "price": 25.62,
+    "change_pct": 0.31,
     "name": "SGI Enhanced Core ETF",
-    "updated_at": "2026-09-30T14:16:04.093568",
+    "updated_at": "2026-09-30T22:36:30.158302",
     "price_14d_ago": 25.54
   },
   "USO": {
-    "price": 145.81,
-    "change_pct": -5.87,
+    "price": 145.66,
+    "change_pct": -5.97,
     "name": "United States Oil Fund",
-    "updated_at": "2026-09-30T14:16:04.257753",
+    "updated_at": "2026-09-30T22:36:30.360831",
     "price_14d_ago": 154.9
   },
   "UTHR": {
-    "price": 549.38,
-    "change_pct": 10.51,
+    "price": 541.89,
+    "change_pct": 9.01,
     "name": "United Therapeutics Corporation",
-    "updated_at": "2026-09-30T14:16:04.427047",
+    "updated_at": "2026-09-30T22:36:30.566941",
     "price_14d_ago": 497.11
   },
   "UUU": {
-    "price": 5.35,
-    "change_pct": -0.56,
+    "price": 5.13,
+    "change_pct": -4.65,
     "name": "Universal Safety Products, Inc.",
-    "updated_at": "2026-09-30T14:16:04.595818",
+    "updated_at": "2026-09-30T22:36:30.800321",
     "price_14d_ago": 5.38
   },
   "V": {
-    "price": 361.04,
-    "change_pct": -2.54,
+    "price": 359.33,
+    "change_pct": -3.0,
     "name": "Visa Inc.",
-    "updated_at": "2026-09-30T14:16:05.048738",
+    "updated_at": "2026-09-30T22:36:31.239400",
     "price_14d_ago": 370.45
   },
   "VEEV": {
-    "price": 286.14,
-    "change_pct": 9.05,
+    "price": 285.45,
+    "change_pct": 8.78,
     "name": "Veeva Systems Inc.",
-    "updated_at": "2026-09-30T14:16:05.410457",
+    "updated_at": "2026-09-30T22:36:31.710161",
     "price_14d_ago": 262.4
   },
   "VIX": {
-    "price": 16.0,
-    "change_pct": 1.01,
+    "price": 16.34,
+    "change_pct": 3.16,
     "name": "CBOE Volatility Index",
-    "updated_at": "2026-09-30T14:16:06.011897",
+    "updated_at": "2026-09-30T22:36:32.397988",
     "price_14d_ago": 15.84
   },
   "VLO": {
-    "price": 392.13,
-    "change_pct": 0.44,
+    "price": 387.61,
+    "change_pct": -0.72,
     "name": "Valero Energy Corporation",
-    "updated_at": "2026-09-30T14:16:06.221909",
+    "updated_at": "2026-09-30T22:36:32.737767",
     "price_14d_ago": 390.42
   },
   "VRTX": {
-    "price": 524.99,
-    "change_pct": 1.85,
+    "price": 522.81,
+    "change_pct": 1.43,
     "name": "Vertex Pharmaceuticals Incorpor",
-    "updated_at": "2026-09-30T14:16:06.470559",
+    "updated_at": "2026-09-30T22:36:32.955233",
     "price_14d_ago": 515.44
   },
   "WFC": {
-    "price": 80.27,
-    "change_pct": -11.1,
+    "price": 80.05,
+    "change_pct": -11.34,
     "name": "Wells Fargo & Company",
-    "updated_at": "2026-09-30T14:16:06.677353",
+    "updated_at": "2026-09-30T22:36:33.205711",
     "price_14d_ago": 90.29
   },
   "WIT": {
-    "price": 1.66,
-    "change_pct": -2.07,
+    "price": 1.65,
+    "change_pct": -2.37,
     "name": "Wipro Limited",
-    "updated_at": "2026-09-30T14:16:06.877664",
+    "updated_at": "2026-09-30T22:36:33.431270",
     "price_14d_ago": 1.69
   },
   "WMT": {
-    "price": 104.72,
-    "change_pct": -2.27,
+    "price": 103.92,
+    "change_pct": -3.01,
     "name": "Walmart Inc.",
-    "updated_at": "2026-09-30T14:16:07.166791",
+    "updated_at": "2026-09-30T22:36:33.666899",
     "price_14d_ago": 107.15
   },
   "WTBN": {
-    "price": 23.94,
-    "change_pct": -1.87,
+    "price": 23.95,
+    "change_pct": -1.83,
     "name": "WisdomTree Bianco Total Return ",
-    "updated_at": "2026-09-30T14:16:07.345340",
+    "updated_at": "2026-09-30T22:36:33.882484",
     "price_14d_ago": 24.4
   },
   "WTI": {
-    "price": 90.54,
-    "change_pct": -9.51,
+    "price": 89.56,
+    "change_pct": -11.67,
     "name": "WTI Crude",
-    "updated_at": "2026-09-30T14:16:07.583936",
-    "price_14d_ago": 100.05
+    "updated_at": "2026-09-30T22:36:34.094629",
+    "price_14d_ago": 101.39
   },
   "WTI CRUDE OIL": {
-    "price": 90.54,
-    "change_pct": -9.51,
+    "price": 89.56,
+    "change_pct": -11.67,
     "name": "WTI Crude",
-    "updated_at": "2026-09-30T14:16:07.712373",
-    "price_14d_ago": 100.05
+    "updated_at": "2026-09-30T22:36:34.311109",
+    "price_14d_ago": 101.39
   },
   "XAU-USD": {
     "price": 0,
     "change_pct": 0,
     "name": "XAU9999 Meme USD",
-    "updated_at": "2026-09-30T14:16:08.127082",
+    "updated_at": "2026-09-30T22:36:34.742071",
     "price_14d_ago": 0.0
   },
   "XOM": {
-    "price": 163.65,
-    "change_pct": -1.41,
+    "price": 162.75,
+    "change_pct": -1.95,
     "name": "ExxonMobil Holdings Corporation",
-    "updated_at": "2026-09-30T14:16:08.355153",
+    "updated_at": "2026-09-30T22:36:35.115097",
     "price_14d_ago": 165.99
   },
   "ZIM": {
-    "price": 29.48,
-    "change_pct": -0.32,
+    "price": 29.32,
+    "change_pct": -0.85,
     "name": "ZIM Integrated Shipping Service",
-    "updated_at": "2026-09-30T14:16:08.779686",
+    "updated_at": "2026-09-30T22:36:35.540876",
     "price_14d_ago": 29.57
   },
   "HIMS": {
-    "price": 30.08,
-    "change_pct": 9.33,
+    "price": 29.79,
+    "change_pct": 8.29,
     "name": "Hims & Hers Health, Inc.",
-    "updated_at": "2026-09-30T14:16:09.145942",
+    "updated_at": "2026-09-30T22:36:35.978516",
     "price_14d_ago": 27.51
   },
   "GDRX": {
-    "price": 3.31,
-    "change_pct": -2.51,
+    "price": 3.29,
+    "change_pct": -2.95,
     "name": "GoodRx Holdings, Inc.",
-    "updated_at": "2026-09-30T14:16:09.322968",
+    "updated_at": "2026-09-30T22:36:36.190088",
     "price_14d_ago": 3.39
   },
   "TEM": {
-    "price": 83.4,
-    "change_pct": 41.33,
+    "price": 81.9,
+    "change_pct": 38.79,
     "name": "Tempus AI, Inc.",
-    "updated_at": "2026-09-30T14:16:09.489493",
+    "updated_at": "2026-09-30T22:36:36.409825",
     "price_14d_ago": 59.01
   },
   "GH": {
-    "price": 179.04,
-    "change_pct": 13.76,
+    "price": 178.36,
+    "change_pct": 13.33,
     "name": "Guardant Health, Inc.",
-    "updated_at": "2026-09-30T14:16:09.658152",
+    "updated_at": "2026-09-30T22:36:36.625924",
     "price_14d_ago": 157.38
   },
   "ABT": {
-    "price": 98.87,
-    "change_pct": -3.02,
+    "price": 98.83,
+    "change_pct": -3.06,
     "name": "Abbott Laboratories",
-    "updated_at": "2026-09-30T14:16:09.898605",
+    "updated_at": "2026-09-30T22:36:36.958161",
     "price_14d_ago": 101.95
   },
   "ARM": {
-    "price": 288.8,
-    "change_pct": 9.07,
+    "price": 289.66,
+    "change_pct": 9.39,
     "name": "Arm Holdings plc",
-    "updated_at": "2026-09-30T14:15:36.241835",
+    "updated_at": "2026-09-30T22:36:01.501860",
     "price_14d_ago": 264.79
   }
 },
@@ -1153,6 +1153,37 @@ const dashboardData = {
         {
           "speaker": "Ben Lamm",
           "quote": "We are delivering 300 plus at 90 plus percent efficiency consistently."
+        }
+      ]
+    },
+    {
+      "id": 554,
+      "title": "Why Dwarkesh is Wrong about Computer Use + How OpenAI shipped its Jev competitor in 1 Week",
+      "source_type": "podcast",
+      "source_name": "Latent Space: The AI Engineer Podcast",
+      "source_date": "2026-09-30",
+      "summary": "This Latent Space episode was recorded around OpenAI DevDay and focused on OpenAI's new agent stack: Dots, Computer Use in the Agents API, GPT-6.1 Sol, UltraFast inference, and the Decisions API. Ari Weinstein argued against the view, attributed by the hosts to Dwarkesh and other AI commentators, that Computer Use has not advanced in the last two years, saying it is now \"180 degrees different\" from a few months ago because models can debug, retry, use accessibility trees and the DOM, and generate JavaScript to execute multiple actions at once.\n\nWeinstein described Computer Use as moving from a slow screenshot-and-scroll loop toward a multimodal software-control layer that combines screenshots, accessibility metadata, Playwright, DOM access, and generated code. He cited a personal meal-prep ordering task that fell from two hours manually to 15 minutes with GPT-6.1 Sol, and he said the new model is one fifth the cost of Astra overall and one seventh the cost for Computer Use specifically.\n\nNikunj Handa then explained OpenAI's API updates, including async function calling, mid-turn steering, WebSockets, UltraFast inference, prompt caching, cache pre-warming, compaction, and the Agents API. He said OpenAI's inference team had recently focused on efficiency, including an 80% Luna price cut, and then shifted toward making Astra run as fast as possible through UltraFast.\n\nThe second half centered on the Decisions API, which Handa said was inspired by Jev and began roughly one week before the conversation. He said the first version is not a newly trained model but a Luna-based implementation using structured outputs, constrained inference, parallel batched questions, and latency optimization, with internal use cases such as support-ticket classification, GPT Live tool calling, and possible Codex workflows.",
+      "key_takeaway": "Ari Weinstein argues OpenAI Computer Use is 180 degrees different than a few months ago because models now debug, use DOM and accessibility data, and execute generated JavaScript.",
+      "tickers_mentioned": [],
+      "sentiment": "neutral",
+      "display_on_main": 1,
+      "display_order": 0,
+      "added_date": "2026-09-30",
+      "archived_date": null,
+      "archived_reason": null,
+      "podcast_episode_id": 539,
+      "notable_quotes": [
+        {
+          "speaker": "Ari Weinstein",
+          "quote": "Computer Use is, like, 180 degrees different than it was."
+        },
+        {
+          "speaker": "Ari Weinstein",
+          "quote": "It both did it eight times faster than I could, and it saved me two hours on GPT-6.1 Sol."
+        },
+        {
+          "speaker": "Nikunj Handa",
+          "quote": "We havent trained, like, a new model for this."
         }
       ]
     },
@@ -1598,7 +1629,7 @@ const dashboardData = {
         "NVDA"
       ],
       "sentiment": "bullish",
-      "display_on_main": 1,
+      "display_on_main": 0,
       "display_order": 0,
       "added_date": "2026-09-28",
       "archived_date": null,
@@ -13595,8 +13626,8 @@ const dashboardData = {
       "term": "AGI",
       "description": "AGI refers to Artificial General Intelligence, a type of AI that can understand, learn, and apply intelligence across a wide range of tasks, similar to human cognitive abilities.",
       "first_detected_date": "2026-05-07",
-      "last_mentioned_date": "2026-09-29",
-      "mention_count": 107,
+      "last_mentioned_date": "2026-09-30",
+      "mention_count": 108,
       "source_podcasts": null,
       "status": "active",
       "investment_implications": "Investors should focus on companies developing AGI technologies as they are likely to drive significant industry transformations.",
@@ -13605,8 +13636,8 @@ const dashboardData = {
       "archived_reason": null,
       "first_detected_episode_id": 204,
       "first_detected_speaker": "Demis Hassabis",
-      "last_mentioned_episode_id": 531,
-      "last_mentioned_speaker": "Palmer Luckey"
+      "last_mentioned_episode_id": 539,
+      "last_mentioned_speaker": "Ari Weinstein, Nikunj Handa"
     },
     {
       "id": 162,
@@ -14673,20 +14704,20 @@ const dashboardData = {
     {
       "id": 114,
       "term": "AI Agents",
-      "description": "Software systems that use AI models to take actions across tools and repeat steps until a task is completed. In the episode, Muse, Grok Bot, and future Google or Apple assistants were discussed as consumer versions of this idea.",
+      "description": "AI Agents are systems that can take tasks, use tools, operate software, call APIs, and continue work across longer-running workflows. The episode emphasized agents with their own Linux cloud computers, browser access, safety checks, and persistent threads.",
       "first_detected_date": "2026-02-28",
       "last_mentioned_date": "2026-09-30",
-      "mention_count": 105,
+      "mention_count": 106,
       "source_podcasts": null,
       "status": "active",
-      "investment_implications": "Agent usage shifts costs toward token generation, memory, CPUs, security, and data-center capacity.",
+      "investment_implications": "It matters for software spend because agent products can automate SaaS workflows, support operations, software testing, and internal business processes.",
       "display_on_main": 0,
       "archived_date": null,
       "archived_reason": null,
       "first_detected_episode_id": 31,
       "first_detected_speaker": null,
-      "last_mentioned_episode_id": 538,
-      "last_mentioned_speaker": "Ben Pouladian"
+      "last_mentioned_episode_id": 539,
+      "last_mentioned_speaker": "Ari Weinstein, Nikunj Handa"
     },
     {
       "id": 38,
@@ -14950,6 +14981,40 @@ const dashboardData = {
 },
   mainContent: {
   "insights": [
+    {
+      "id": 554,
+      "title": "Why Dwarkesh is Wrong about Computer Use + How OpenAI shipped its Jev competitor in 1 Week",
+      "source_type": "podcast",
+      "source_name": "Latent Space: The AI Engineer Podcast",
+      "source_date": "2026-09-30",
+      "summary": "This Latent Space episode was recorded around OpenAI DevDay and focused on OpenAI's new agent stack: Dots, Computer Use in the Agents API, GPT-6.1 Sol, UltraFast inference, and the Decisions API. Ari Weinstein argued against the view, attributed by the hosts to Dwarkesh and other AI commentators, that Computer Use has not advanced in the last two years, saying it is now \"180 degrees different\" from a few months ago because models can debug, retry, use accessibility trees and the DOM, and generate JavaScript to execute multiple actions at once.\n\nWeinstein described Computer Use as moving from a slow screenshot-and-scroll loop toward a multimodal software-control layer that combines screenshots, accessibility metadata, Playwright, DOM access, and generated code. He cited a personal meal-prep ordering task that fell from two hours manually to 15 minutes with GPT-6.1 Sol, and he said the new model is one fifth the cost of Astra overall and one seventh the cost for Computer Use specifically.\n\nNikunj Handa then explained OpenAI's API updates, including async function calling, mid-turn steering, WebSockets, UltraFast inference, prompt caching, cache pre-warming, compaction, and the Agents API. He said OpenAI's inference team had recently focused on efficiency, including an 80% Luna price cut, and then shifted toward making Astra run as fast as possible through UltraFast.\n\nThe second half centered on the Decisions API, which Handa said was inspired by Jev and began roughly one week before the conversation. He said the first version is not a newly trained model but a Luna-based implementation using structured outputs, constrained inference, parallel batched questions, and latency optimization, with internal use cases such as support-ticket classification, GPT Live tool calling, and possible Codex workflows.",
+      "key_takeaway": "Ari Weinstein argues OpenAI Computer Use is 180 degrees different than a few months ago because models now debug, use DOM and accessibility data, and execute generated JavaScript.",
+      "tickers_mentioned": "[]",
+      "sentiment": "neutral",
+      "display_on_main": 1,
+      "display_order": 0,
+      "added_date": "2026-09-30",
+      "archived_date": null,
+      "archived_reason": null,
+      "podcast_episode_id": 539,
+      "notable_quotes": [
+        {
+          "speaker": "Ari Weinstein",
+          "quote": "Computer Use is, like, 180 degrees different than it was."
+        },
+        {
+          "speaker": "Ari Weinstein",
+          "quote": "It both did it eight times faster than I could, and it saved me two hours on GPT-6.1 Sol."
+        },
+        {
+          "speaker": "Nikunj Handa",
+          "quote": "We havent trained, like, a new model for this."
+        }
+      ],
+      "episode_release_date": "2026-09-30",
+      "guest_name": null,
+      "key_tickers": []
+    },
     {
       "id": 553,
       "title": "Why We're Living in a Biological Singularity With Ben Lamm | MOONSHOTS Live #297",
@@ -15324,40 +15389,6 @@ const dashboardData = {
         }
       ],
       "episode_release_date": "2026-09-26",
-      "guest_name": null,
-      "key_tickers": []
-    },
-    {
-      "id": 543,
-      "title": "MacroVoices #551 Michael Every: Decoding The Global Geopolitical Puzzle (Part 2)",
-      "source_type": "podcast",
-      "source_name": "Macro Voices",
-      "source_date": "2026-09-25",
-      "summary": "Erik Townsend and Michael Every framed this overtime episode around a rapid cluster of geopolitical shocks recorded around September 25, 2026. Townsend cited an Axios report, relayed by Ole Hansen of Saxo Bank, that Iran had given the United States a one-week ultimatum to lift a military blockade or face renewed asymmetric escalation; he said WTI crude spiked roughly $3 to $3.50 on the news. Every argued that the development was predictable because Saudi Arabia and the UAE were trying to move more crude through the Strait of Hormuz despite live firing and damaged ships, while Iran could respond by escalating through the Houthis, Bab el Mandeb, the Red Sea, the Indian Ocean, and ship-to-ship transfers off Oman.\n\nThe discussion then moved to a Politico report that President Trump was considering or supporting a 90-day ban on US diesel exports. Townsend noted that Energy Secretary Chris Wright publicly disagreed with the policy despite usually being highly aligned with Trump, saying the markets do not work that way. Every agreed that a blanket diesel export ban could create market chaos because US refining, export routes, crude pricing, insurance, and foreign counterparties are part of a single integrated energy system; however, he argued the policy could evolve into targeted exemptions and a broader form of economic coercion that prioritizes countries closest to the US security agenda.\n\nEvery tied Canada, Europe, Greenland, Russia, Ukraine, Iran, North Korea, Taiwan, the South China Sea, and AI into a single US-China strategic contest. He argued that Mark Carney's disclosure of Canadian war-game planning for a hypothetical US invasion revealed the extreme downside of Canada trying to drift away from the United States, especially because roughly 90% of Canada's population lives near the US border and Canada's high-value goods are deeply integrated with the US economy. He also described China, Russia, Iran, and North Korea as a collaborating bloc, citing Iranian-designed drones used by Russia in Ukraine, rumors of 50,000 additional North Korean personnel for Russia, Chinese statements that Russia cannot lose in Ukraine, and pressure on South Korea and the Philippines.\n\nThe final section focused on AI, capital controls, and the possibility of tactical nuclear escalation. Townsend raised the idea that Chinese open-source AI models could undermine the US AI boom by offering free, air-gapped alternatives that trail US frontier models by only three or four months, while Every replied that Beijing might use such models to damage the US financial model for AI while US national-security actors may ultimately treat AGI as a Manhattan Project asset. Every also argued that governments short of funds for AI infrastructure, defense, energy, and commodity stockpiles are likely to tighten capital mobility through exit taxes, unrealized capital gains taxes, and other controls, and he said tactical nuclear use in Iran or Ukraine is not his forecast but cannot be ruled out if escalation pressures become severe.",
-      "key_takeaway": "Michael Every argues 2026-2028 markets are being repriced around US-China economic statecraft, because diesel, rare earths, AI and energy chokepoints are becoming national-security tools rather than free-market flows.",
-      "tickers_mentioned": "[\"NVDA\"]",
-      "sentiment": "bullish",
-      "display_on_main": 1,
-      "display_order": 0,
-      "added_date": "2026-09-28",
-      "archived_date": null,
-      "archived_reason": null,
-      "podcast_episode_id": 528,
-      "notable_quotes": [
-        {
-          "speaker": "Michael Every",
-          "quote": "Markets are not necessarily best for national security."
-        },
-        {
-          "speaker": "Michael Every",
-          "quote": "economic coercion is a tool, as old as time."
-        },
-        {
-          "speaker": "Erik Townsend",
-          "quote": "it seems like somebody's trying to disarm the United States of America by tricking them into using up all their weapons and resources and giving them to other people."
-        }
-      ],
-      "episode_release_date": "2026-09-25",
       "guest_name": null,
       "key_tickers": []
     }
@@ -15856,8 +15887,8 @@ const dashboardData = {
       "term": "AGI",
       "description": "AGI refers to Artificial General Intelligence, a type of AI that can understand, learn, and apply intelligence across a wide range of tasks, similar to human cognitive abilities.",
       "first_detected_date": "2026-05-07",
-      "last_mentioned_date": "2026-09-29",
-      "mention_count": 107,
+      "last_mentioned_date": "2026-09-30",
+      "mention_count": 108,
       "source_podcasts": null,
       "status": "active",
       "investment_implications": "Investors should focus on companies developing AGI technologies as they are likely to drive significant industry transformations.",
@@ -15866,18 +15897,18 @@ const dashboardData = {
       "archived_reason": null,
       "first_detected_episode_id": 204,
       "first_detected_speaker": "Demis Hassabis",
-      "last_mentioned_episode_id": 531,
-      "last_mentioned_speaker": "Palmer Luckey",
-      "novelty_score": 0.54,
-      "overton_score": 0.54,
-      "resonance_pct": 46,
+      "last_mentioned_episode_id": 539,
+      "last_mentioned_speaker": "Ari Weinstein, Nikunj Handa",
+      "novelty_score": 0.5473,
+      "overton_score": 0.5473,
+      "resonance_pct": 47,
       "is_established": true,
       "first_detected_podcast": "Moonshots with Peter Diamandis",
       "first_detected_episode_title": "Demis Hassabis on AGI, Robots Scale Production, and Elon\u2019s $1T Mars-Shot Comp | EP #253",
       "first_detected_episode_date": "2026-05-07",
       "last_mentioned_podcast": "Latent Space: The AI Engineer Podcast",
-      "last_mentioned_episode_title": "Claude Code\u2019s Next Era \u2014 Thariq Shihipar, Anthropic",
-      "last_mentioned_episode_date": "2026-09-29"
+      "last_mentioned_episode_title": "Why Dwarkesh is Wrong about Computer Use + How OpenAI shipped its Jev competitor in 1 Week",
+      "last_mentioned_episode_date": "2026-09-30"
     },
     {
       "id": 264,
@@ -46427,61 +46458,93 @@ const dashboardData = {
     "source_name": "Moonshots with Peter Diamandis",
     "source_date": "2026-09-30",
     "key_tickers": []
+  },
+  "554": {
+    "id": 555,
+    "insight_id": 554,
+    "podcast_episode_id": 539,
+    "overview": "The deeper shift is that OpenAI is trying to make the harness itself part of the product moat, not just the model. Ari\u2019s comment that models are trained on OpenAI\u2019s own Computer Use harness implies third-party agent frameworks may face a hidden tax: even if they call the same model, they may get worse speed, cost, and accuracy because the model has learned OpenAI\u2019s action grammar. The bottleneck also moves from \u201ccan the model click?\u201d to systems engineering: detecting when pages are actually ready, avoiding wasted waits, using cache-aware prompt layouts, and deciding when to compact long threads. Decisions API is similarly revealing: the first release is not a magic new architecture, but a packaging of constrained Luna inference, batching, and latency work. That points to a near-term market where productized inference plumbing matters as much as raw model IQ.",
+    "key_takeaways_detailed": [],
+    "investment_thesis": "If this is directionally right, the next 6\u201318 months favor platforms that bundle model access, inference acceleration, caching, compaction, tool orchestration, and a trained action harness into one developer surface. The proof point is not a flashy demo; it is repeat usage in workflows where the agent waits, retries, pays, tests software, or talks to support with limited supervision. The thesis weakens if independent benchmarks and customer deployments show that reliability remains too low or that cheaper open-source harnesses catch up quickly.",
+    "ticker_analysis": {},
+    "positioning_guidance": "",
+    "risk_factors": [],
+    "contrarian_signals": [],
+    "catalysts": [],
+    "related_insights": null,
+    "audio_timestamp_start": null,
+    "audio_timestamp_end": null,
+    "transcript_excerpt": null,
+    "created_at": "2026-09-30T22:35:59.139240",
+    "updated_at": "2026-10-01 03:35:59",
+    "episode_evidence": "- Ari Weinstein: \"we train our models on our Computer Use harness, so there is, an advantage to using the one that\u2019s in distribution for the model.\"\n- Nikunj Handa: \"This is, like, really just Luna.\"\n- Nikunj Handa: \"this whole thing started, like, a week ago, so it\u2019s, like, very early\"",
+    "falsification_tracks": [
+      "Independent BrowserGym, WebArena, OSWorld, or enterprise RPA benchmarks show the Agents API failing to improve median task-completion time or success rate by at least 2x versus prior OpenAI/Anthropic computer-use systems over the next two quarters.",
+      "Production users report that payment, booking, account-management, or customer-support workflows still require human intervention in more than 30% of runs after initial setup, limiting use to demos and QA rather than live operations.",
+      "Within six months, major web properties materially increase CAPTCHA, bot-detection, or terms-of-service enforcement against cloud-browser agents, causing measurable drops in task completion for shopping, travel, support, or creator workflows.",
+      "The public Decisions API, once generally available, performs no better than ordinary Luna structured outputs on latency-adjusted classification accuracy, calibration, or p95 response time in third-party tests.",
+      "Developers building their own harnesses achieve comparable or better results with open models and commodity browser automation, weakening the claim that OpenAI\u2019s model-plus-harness distribution has a durable advantage."
+    ],
+    "schema_version": 2,
+    "insight_title": "Why Dwarkesh is Wrong about Computer Use + How OpenAI shipped its Jev competitor in 1 Week",
+    "source_name": "Latent Space: The AI Engineer Podcast",
+    "source_date": "2026-09-30",
+    "key_tickers": []
   }
 },
   suggestedTerms: [
   {
-    "id": 806,
-    "term": "Noah's Ark 2.0",
-    "definition": "Lamm described a global biovault model for collecting and sequencing biological samples with governments, creating backups of species before biodiversity loss accelerates.",
-    "investment_implications": "This points to demand for biobanking, sequencing capacity, sample logistics, biodiversity data platforms, and public-private conservation infrastructure.",
+    "id": 810,
+    "term": "Computer Use",
+    "definition": "Computer Use is the capability for an AI agent to operate existing software interfaces through screenshots, accessibility metadata, browser or DOM access, Playwright, and generated code. In the episode, it is framed as a universal interface because software was originally designed for humans.",
+    "investment_implications": "It shifts AI value capture from chat interfaces toward workflow automation, QA, customer service, and software operations where legacy applications lack APIs.",
+    "source_type": "auto_extracted",
+    "mention_count": 2,
+    "source_diversity": 2,
+    "relevance_score": 55,
+    "submitted_date": "2026-10-01 03:34:19",
+    "priority_score": 115
+  },
+  {
+    "id": 811,
+    "term": "Decision Models",
+    "definition": "Decision Models are low-latency models or inference modes designed for fast classification, action selection, and structured decisions rather than long reasoning. OpenAI's first Decisions API version was described as built on Luna weights with constrained and parallel inference.",
+    "investment_implications": "Low-latency decision layers can reduce serving cost and improve responsiveness in support classification, voice agents, computer control, and high-volume automation.",
     "source_type": "auto_extracted",
     "mention_count": 1,
     "source_diversity": 1,
     "relevance_score": 50,
-    "submitted_date": "2026-09-30 19:13:12",
+    "submitted_date": "2026-10-01 03:34:19",
     "priority_score": 80
   },
   {
-    "id": 807,
-    "term": "Multiplex Editing",
-    "definition": "Multiplex editing means making many genome edits at once rather than one at a time. Lamm said Colossal moved from celebrating 20 edits to delivering 300 plus edits at 90 plus percent efficiency and testing 1000.",
-    "investment_implications": "Higher edit counts can expand the addressable market for complex trait engineering, de-extinction, agriculture, conservation, and eventually therapeutic platforms.",
+    "id": 812,
+    "term": "Cache Pre-Warming",
+    "definition": "Cache Pre-Warming means paying the cache-write cost in advance so a known prompt or thread is ready for low-latency cached reads during a later interaction. Handa said OpenAI offers 30-minute cache guarantees and is previewing a 12-hour cache window.",
+    "investment_implications": "It changes unit economics for long-running agents by lowering repeated prompt-processing cost and improving response latency.",
     "source_type": "auto_extracted",
     "mention_count": 1,
     "source_diversity": 1,
     "relevance_score": 50,
-    "submitted_date": "2026-09-30 19:13:12",
+    "submitted_date": "2026-10-01 03:34:19",
     "priority_score": 80
   },
   {
-    "id": 808,
-    "term": "Ex Utero",
-    "definition": "Ex utero development refers to gestation outside a natural womb. Lamm predicted Colossal would birth mammalian animals fully ex utero within 24 months, from gestation through delivery.",
-    "investment_implications": "This could affect reproductive biotechnology, animal breeding, conservation, toxicology testing, and long-term regulatory debates around artificial wombs.",
+    "id": 813,
+    "term": "Context Compaction",
+    "definition": "Context Compaction is the compression of long agent histories so workflows can continue without exceeding context limits. OpenAI described both server-side compaction at token thresholds and manual /compact control in the Responses API.",
+    "investment_implications": "It is relevant to long-running agent reliability, cloud inference cost, and the feasibility of million-token enterprise workflows.",
     "source_type": "auto_extracted",
     "mention_count": 1,
     "source_diversity": 1,
     "relevance_score": 50,
-    "submitted_date": "2026-09-30 19:13:12",
-    "priority_score": 80
-  },
-  {
-    "id": 809,
-    "term": "Comparative Genomics at Scale",
-    "definition": "Lamm argued that the key biological input is not one genome but many genomes across evolutionary branches, allowing models to link sequence variation to disease resistance, size, color, or other traits.",
-    "investment_implications": "The thesis favors proprietary biological datasets, species-scale sequencing, phenotype databases, and model layers that interpret evolutionary signal.",
-    "source_type": "auto_extracted",
-    "mention_count": 1,
-    "source_diversity": 1,
-    "relevance_score": 50,
-    "submitted_date": "2026-09-30 19:13:12",
+    "submitted_date": "2026-10-01 03:34:19",
     "priority_score": 80
   }
 ],
   podcastGuests: [
   {
-    "id": 77562,
+    "id": 77675,
     "name": "Token Bill Dwarfs CPU Bill",
     "slug": "token-bill-dwarfs-cpu-bill",
     "bio": null,
@@ -46493,7 +46556,7 @@ const dashboardData = {
     "appearance_count": 1
   },
   {
-    "id": 77563,
+    "id": 77676,
     "name": "Palmer Luckey",
     "slug": "palmer-luckey",
     "bio": null,
@@ -46505,7 +46568,7 @@ const dashboardData = {
     "appearance_count": 1
   },
   {
-    "id": 77564,
+    "id": 77677,
     "name": "Daniel Ek",
     "slug": "daniel-ek",
     "bio": null,
@@ -46517,7 +46580,7 @@ const dashboardData = {
     "appearance_count": 1
   },
   {
-    "id": 77565,
+    "id": 77678,
     "name": "Michael Every",
     "slug": "michael-every",
     "bio": null,
@@ -46529,7 +46592,7 @@ const dashboardData = {
     "appearance_count": 1
   },
   {
-    "id": 77566,
+    "id": 77679,
     "name": "Steve Hilton & Spencer Pratt",
     "slug": "steve-hilton--spencer-pratt",
     "bio": null,
@@ -46541,7 +46604,7 @@ const dashboardData = {
     "appearance_count": 1
   },
   {
-    "id": 77567,
+    "id": 77680,
     "name": "Blake Scholl",
     "slug": "blake-scholl",
     "bio": null,
@@ -46553,7 +46616,7 @@ const dashboardData = {
     "appearance_count": 1
   },
   {
-    "id": 77568,
+    "id": 77681,
     "name": "John Platt",
     "slug": "john-platt",
     "bio": null,
@@ -46565,7 +46628,7 @@ const dashboardData = {
     "appearance_count": 1
   },
   {
-    "id": 77569,
+    "id": 77682,
     "name": "Diogo Almeida",
     "slug": "diogo-almeida",
     "bio": null,
@@ -46577,7 +46640,7 @@ const dashboardData = {
     "appearance_count": 1
   },
   {
-    "id": 77570,
+    "id": 77683,
     "name": "Naveen Rao",
     "slug": "naveen-rao",
     "bio": null,
@@ -46589,7 +46652,7 @@ const dashboardData = {
     "appearance_count": 1
   },
   {
-    "id": 77571,
+    "id": 77684,
     "name": "Outlook on 5 Key Commodities",
     "slug": "outlook-on-5-key-commodities",
     "bio": null,
@@ -46601,7 +46664,7 @@ const dashboardData = {
     "appearance_count": 1
   },
   {
-    "id": 77572,
+    "id": 77685,
     "name": "Bill Gurley",
     "slug": "bill-gurley",
     "bio": null,
@@ -46613,7 +46676,7 @@ const dashboardData = {
     "appearance_count": 1
   },
   {
-    "id": 77573,
+    "id": 77686,
     "name": "Nick Shirley",
     "slug": "nick-shirley",
     "bio": null,
@@ -46625,7 +46688,7 @@ const dashboardData = {
     "appearance_count": 1
   },
   {
-    "id": 77574,
+    "id": 77687,
     "name": "Jared Isaacman",
     "slug": "jared-isaacman",
     "bio": null,
@@ -46637,7 +46700,7 @@ const dashboardData = {
     "appearance_count": 1
   },
   {
-    "id": 77575,
+    "id": 77688,
     "name": "Brad Gerstner",
     "slug": "brad-gerstner",
     "bio": null,
@@ -46649,7 +46712,7 @@ const dashboardData = {
     "appearance_count": 1
   },
   {
-    "id": 77576,
+    "id": 77689,
     "name": "Meta's Dina Powell McCormick",
     "slug": "metas-dina-powell-mccormick",
     "bio": null,
@@ -46661,7 +46724,7 @@ const dashboardData = {
     "appearance_count": 1
   },
   {
-    "id": 77577,
+    "id": 77690,
     "name": "Underwriting Superintelligence",
     "slug": "underwriting-superintelligence",
     "bio": null,
@@ -46673,7 +46736,7 @@ const dashboardData = {
     "appearance_count": 1
   },
   {
-    "id": 77578,
+    "id": 77691,
     "name": "Hawks Take Flight",
     "slug": "hawks-take-flight",
     "bio": null,
@@ -46685,7 +46748,7 @@ const dashboardData = {
     "appearance_count": 1
   },
   {
-    "id": 77579,
+    "id": 77692,
     "name": "Martine Rothblatt",
     "slug": "martine-rothblatt",
     "bio": null,
@@ -46697,7 +46760,7 @@ const dashboardData = {
     "appearance_count": 1
   },
   {
-    "id": 77580,
+    "id": 77693,
     "name": "Microsoft CEO Satya Nadella",
     "slug": "microsoft-ceo-satya-nadella",
     "bio": null,
@@ -46709,7 +46772,7 @@ const dashboardData = {
     "appearance_count": 1
   },
   {
-    "id": 77581,
+    "id": 77694,
     "name": "Jensen Huang",
     "slug": "jensen-huang",
     "bio": null,
@@ -46873,7 +46936,7 @@ const dashboardData = {
     "last_podcast_name": "Macro Voices",
     "last_episode_date": "2026-09-24",
     "mention_score": 3,
-    "mention_score_decayed": 2.67,
+    "mention_score_decayed": 2.61,
     "last_main_idea": "Geopolitical tensions in the Middle East could lead to spikes in oil prices, impacting inflation and economic growth.",
     "last_proof_cite": "Macro Voices \u2022 2026-09-24 \u2022 MacroVoices #551 Michael Every: Decoding The Global Geopolitical Puzzle",
     "last_proof_snippet": "The joke at the moment is if you're an interest rate trader on FX trader, the moment you have to be an oil trader. You've got to look at that to understand what bond yields are going to do. That was Michael Every. I'm Eric Townsend. This is",
@@ -47113,7 +47176,7 @@ const dashboardData = {
     "last_podcast_name": "The a16z Show",
     "last_episode_date": "2026-09-21",
     "mention_score": 2,
-    "mention_score_decayed": 1.66,
+    "mention_score_decayed": 1.62,
     "last_main_idea": "Investing in companies that prioritize clear communication, robust telemetry, and operational security in AI development presents a significant opportunity as the industry matures.",
     "last_proof_cite": "The a16z Show \u2022 2026-09-21 \u2022 AI Safety Language Is Destroying the Debate | Steven Sinofsky",
     "last_proof_snippet": "The AI people are making it impossible for anybody to understand what they've done it. And they're using words like, well, the AI failed to be aligned. Okay, what does that mean? What it means is there was a bug in the software. When word a",
@@ -47538,7 +47601,7 @@ const dashboardData = {
     "last_podcast_name": "Monetary Matters with Jack Farley",
     "last_episode_date": "2026-08-20",
     "mention_score": 3,
-    "mention_score_decayed": 1.19,
+    "mention_score_decayed": 1.16,
     "last_main_idea": "The rise in AI capex and government spending is leading to increased borrowing costs, which will have profound effects on bond markets and inflation, creating both risks and opportunities for investors.",
     "last_proof_cite": "Monetary Matters with Jack Farley \u2022 2026-08-20 \u2022 Why Bessent Blinked | Luke Gromen on Doubling of Treasury Buyback Plan to Tame Long-End Yields",
     "last_proof_snippet": "Today's episode is brought to you by the two-cream corn fund Take or C-O-R-N. Let's get into it. Got a very important conversation today. I'm joined once again by Luke Groman of Forest for the Trees Research Luke. Welcome back to Monterey M",
@@ -47598,7 +47661,7 @@ const dashboardData = {
     "last_podcast_name": "Moonshots with Peter Diamandis",
     "last_episode_date": "2026-07-08",
     "mention_score": 3,
-    "mention_score_decayed": 1.09,
+    "mention_score_decayed": 1.06,
     "last_main_idea": "Governments are imposing safety measures on AI models, setting a precedent for future regulations.",
     "last_proof_cite": "Moonshots with Peter Diamandis \u2022 2026-07-08 \u2022 Fable 5 Is Back & Govt-Leashed, Altman Offers 5% of OpenAI & AI Grows Conscious | #269",
     "last_proof_snippet": "Fable 5 came back online globally on July 1st with a few Provisos. This feels like the first time a frontier model has a standing duty to the U.S. government. This is probably close to the best scenario we could have hoped for. Sam has been",
@@ -47639,6 +47702,60 @@ const dashboardData = {
       ]
     },
     "net_worth": "$14.00B"
+  },
+  {
+    "id": 490,
+    "name": "Ari Weinstein",
+    "slug": "ari-weinstein",
+    "bio": "Ari Weinstein works on product and engineering for Computer Use at OpenAI. He previously co-founded Sky and worked on automation products at Apple.",
+    "known_for": "Leading OpenAI's Computer Use progress across Codex, ChatGPT, Dots, and the Agents API.",
+    "net_worth_usd": null,
+    "net_worth_source": null,
+    "net_worth_updated_at": null,
+    "voice_tone": "Technical, enthusiastic, and practical.",
+    "voice_style": "He grounds broad claims in concrete workflow examples and implementation details such as accessibility trees, DOM access, Playwright, and generated JavaScript.",
+    "voice_delivery_notes": "Use an energetic but precise pace, with emphasis on numerical comparisons and mechanism-level explanations.",
+    "voice_profile_updated_at": "2026-10-01 03:34:19",
+    "last_seen": "2026-10-01 03:34:19",
+    "last_episode_title": "Why Dwarkesh is Wrong about Computer Use + How OpenAI shipped its Jev competitor in 1 Week",
+    "last_podcast_name": "Latent Space: The AI Engineer Podcast",
+    "last_episode_date": "2026-09-30",
+    "mention_score": 1,
+    "mention_score_decayed": 1,
+    "last_main_idea": "Ari Weinstein argues OpenAI Computer Use is 180 degrees different than a few months ago because models now debug, use DOM and accessibility data, and execute generated JavaScript.",
+    "last_proof_cite": "Latent Space: The AI Engineer Podcast \u2022 2026-09-30 \u2022 Why Dwarkesh is Wrong about Computer Use + How OpenAI shipped its Jev competitor in 1 Week",
+    "last_proof_snippet": "Three months ago Dwarkesh, who has been posting incredible blogs and episodes about RL, posted a framing question for his video essay on RLVR which upset a lot of Computer Use folks: We are no strangers to learning in public and are no stra",
+    "supporting_takeaway": "Ari Weinstein claimed GPT-6.1 Sol is one fifth the cost of Astra overall and one seventh the cost for Computer Use specifically, making Computer Use more cost-effective than the baseline model cost reduction.",
+    "grokipedia_url": null,
+    "grokipedia_fetched_at": null,
+    "pundit_profile": null
+  },
+  {
+    "id": 491,
+    "name": "Nikunj Handa",
+    "slug": "nikunj-handa",
+    "bio": "Nikunj Handa leads product for the API team at OpenAI and has worked there for roughly three years. He previously worked at Stripe.",
+    "known_for": "Shipping OpenAI API capabilities such as async tool calling, WebSockets, UltraFast inference, caching, compaction, Agents API, and Decisions API.",
+    "net_worth_usd": null,
+    "net_worth_source": null,
+    "net_worth_updated_at": null,
+    "voice_tone": "Open, builder-oriented, and implementation-focused.",
+    "voice_style": "He explains platform features by connecting API primitives to internal use cases, latency goals, and developer harness design.",
+    "voice_delivery_notes": "Use a conversational pace with emphasis on product names, time windows, and the engineering tradeoffs behind each API.",
+    "voice_profile_updated_at": "2026-10-01 03:34:19",
+    "last_seen": "2026-10-01 03:34:19",
+    "last_episode_title": "Why Dwarkesh is Wrong about Computer Use + How OpenAI shipped its Jev competitor in 1 Week",
+    "last_podcast_name": "Latent Space: The AI Engineer Podcast",
+    "last_episode_date": "2026-09-30",
+    "mention_score": 1,
+    "mention_score_decayed": 1,
+    "last_main_idea": "Ari Weinstein argues OpenAI Computer Use is 180 degrees different than a few months ago because models now debug, use DOM and accessibility data, and execute generated JavaScript.",
+    "last_proof_cite": "Latent Space: The AI Engineer Podcast \u2022 2026-09-30 \u2022 Why Dwarkesh is Wrong about Computer Use + How OpenAI shipped its Jev competitor in 1 Week",
+    "last_proof_snippet": "Three months ago Dwarkesh, who has been posting incredible blogs and episodes about RL, posted a framing question for his video essay on RLVR which upset a lot of Computer Use folks: We are no strangers to learning in public and are no stra",
+    "supporting_takeaway": "Ari Weinstein claimed GPT-6.1 Sol is one fifth the cost of Astra overall and one seventh the cost for Computer Use specifically, making Computer Use more cost-effective than the baseline model cost reduction.",
+    "grokipedia_url": null,
+    "grokipedia_fetched_at": null,
+    "pundit_profile": null
   },
   {
     "id": 489,
@@ -47976,7 +48093,7 @@ const dashboardData = {
     "last_podcast_name": "Monetary Matters with Jack Farley",
     "last_episode_date": "2026-09-24",
     "mention_score": 1,
-    "mention_score_decayed": 0.89,
+    "mention_score_decayed": 0.87,
     "last_main_idea": "The credit market is increasingly bifurcated, favoring high-quality borrowers while lower-quality borrowers face tighter conditions.",
     "last_proof_cite": "Monetary Matters with Jack Farley \u2022 2026-09-24 \u2022 Why the Fed May Have to Hike Far Higher Than Expected | Henry Peabody on the Fed\u2019s Triple Mandate and Uneven Transmission of Monetary Policy",
     "last_proof_snippet": "Got a very important conversation today. We are speaking to Henry Peabody, senior investment strategist at GMO, Henry Welcome to Monetary Matters. Jack, thanks so much for having me. I'm really looking forward to the conversation. I know yo",
@@ -48032,7 +48149,7 @@ const dashboardData = {
     "last_podcast_name": "The a16z Show",
     "last_episode_date": "2026-09-24",
     "mention_score": 1,
-    "mention_score_decayed": 0.89,
+    "mention_score_decayed": 0.87,
     "last_main_idea": "Eddy Lazzarin argues an AI pause would delay abundance from local cybersecurity models, healthcare tools, and safer travel, because capability gains can produce better metrology, controls, and model accountability.",
     "last_proof_cite": "The a16z Show \u2022 2026-09-24 \u2022 The Case Against an AI Pause | Eddy Lazzarin",
     "last_proof_snippet": "The AI debate increasingly asks us to consider the probability of doom. Eddie Lazaran thinks we should also be asking about the probability of abundance. In this episode, A16Z Crypto-General Partner Eddie Lazaran joins Theo-Jaffe on MTS to",
@@ -48077,66 +48194,6 @@ const dashboardData = {
         }
       ]
     }
-  },
-  {
-    "id": 333,
-    "name": "Dylan Patel",
-    "slug": "dylan-patel",
-    "bio": "Dylan Patel is the founder of SemiAnalysis, a firm specializing in AI infrastructure and compute market analysis. He is recognized for his insights into the future of AI and its impact on the global economy, particularly focusing on the growth of AI infrastructure and its contribution to GDP.",
-    "known_for": "His expertise in AI infrastructure and its role in shaping the global economy.",
-    "net_worth_usd": 3700000000.0,
-    "net_worth_source": "https://substack.com/home/post/p-153458455",
-    "net_worth_updated_at": "2026-07-15T12:06:20.503583",
-    "voice_tone": "Confident and knowledgeable",
-    "voice_style": "Factual and data-driven",
-    "voice_delivery_notes": "Clear and concise, with a focus on key statistics and trends",
-    "voice_profile_updated_at": "2026-08-26 03:28:15",
-    "last_seen": "2026-08-26 03:28:15",
-    "last_episode_title": "Dylan Patel \u2013 Anthropic & OpenAI will have most of the world\u2019s compute by 2028",
-    "last_podcast_name": "Dwarkesh Podcast",
-    "last_episode_date": "2026-08-25",
-    "mention_score": 2,
-    "mention_score_decayed": 0.89,
-    "last_main_idea": "Investment in AI infrastructure and labs is set to grow exponentially, leading to significant capital allocation shifts and potential market disruptions.",
-    "last_proof_cite": "Dwarkesh Podcast \u2022 2026-08-25 \u2022 Dylan Patel \u2013 Anthropic & OpenAI will have most of the world\u2019s compute by 2028",
-    "last_proof_snippet": "Okay, I'm back with Dylan Patel, Founder of SemiAnalysis, our version of Family, Thanksgiving dinner is a regular early podcast, but you're not actually related. I won't tell the people here. We'll destroy the myth. Walk me, basically w",
-    "supporting_takeaway": "Labs like OpenAI and Anthropic are expected to spend trillions of dollars annually by the end of the decade.",
-    "grokipedia_url": null,
-    "grokipedia_fetched_at": "2026-08-25T22:28:51.037076",
-    "pundit_profile": {
-      "source": "llm",
-      "source_model": "moonshot:moonshot-v1-8k",
-      "source_url": "",
-      "page_title": "Dylan Patel",
-      "fetched_at": "2026-08-26T03:28:51.036737+00:00",
-      "cliff_notes": "Dylan Patel is a prominent figure in the field of AI infrastructure and compute market analysis. As the founder of SemiAnalysis, he has dedicated his career to understanding and forecasting the trends and developments within the AI sector. Patel's work is particularly focused on how advancements in AI infrastructure are influencing economic growth, with a keen eye on the allocation of capital expenditures in the industry. His insights are sought after for their ability to predict the trajectory of the global economy in relation to the advancements in AI technology. Patel's contributions to the discourse on AI's economic impact have made him a respected voice in both the tech and finance sectors.",
-      "derived": {
-        "current_role": "Founder of SemiAnalysis"
-      },
-      "infobox": {
-        "Born": "",
-        "Nationality": ""
-      },
-      "lead_paragraphs": [
-        "Dylan Patel is a prominent figure in the field of AI infrastructure and compute market analysis. As the founder of SemiAnalysis, he has dedicated his career to understanding and forecasting the trends and developments within the AI sector. Patel's work is particularly focused on how advancements in AI infrastructure are influencing economic growth, with a keen eye on the allocation of capital expenditures in the industry.",
-        "His insights are sought after for their ability to predict the trajectory of the global economy in relation to the advancements in AI technology. Patel's contributions to the discourse on AI's economic impact have made him a respected voice in both the tech and finance sectors."
-      ],
-      "sections": [
-        {
-          "heading": "AI Infrastructure Growth",
-          "body": "Dylan Patel has been instrumental in analyzing the growth of AI infrastructure, highlighting its significant contribution to GDP and the economy."
-        },
-        {
-          "heading": "Compute Market Analysis",
-          "body": "Patel's expertise lies in the analysis of the compute market, where he forecasts the allocation of capital expenditures and their impact on economic growth."
-        },
-        {
-          "heading": "Economic Impact of AI",
-          "body": "He provides valuable insights into how AI advancements are shaping the global economy, focusing on the role of AI infrastructure in driving economic progress."
-        }
-      ]
-    },
-    "net_worth": "$3.70B"
   },
   {
     "id": 480,
@@ -48252,6 +48309,66 @@ const dashboardData = {
         }
       ]
     }
+  },
+  {
+    "id": 333,
+    "name": "Dylan Patel",
+    "slug": "dylan-patel",
+    "bio": "Dylan Patel is the founder of SemiAnalysis, a firm specializing in AI infrastructure and compute market analysis. He is recognized for his insights into the future of AI and its impact on the global economy, particularly focusing on the growth of AI infrastructure and its contribution to GDP.",
+    "known_for": "His expertise in AI infrastructure and its role in shaping the global economy.",
+    "net_worth_usd": 3700000000.0,
+    "net_worth_source": "https://substack.com/home/post/p-153458455",
+    "net_worth_updated_at": "2026-07-15T12:06:20.503583",
+    "voice_tone": "Confident and knowledgeable",
+    "voice_style": "Factual and data-driven",
+    "voice_delivery_notes": "Clear and concise, with a focus on key statistics and trends",
+    "voice_profile_updated_at": "2026-08-26 03:28:15",
+    "last_seen": "2026-08-26 03:28:15",
+    "last_episode_title": "Dylan Patel \u2013 Anthropic & OpenAI will have most of the world\u2019s compute by 2028",
+    "last_podcast_name": "Dwarkesh Podcast",
+    "last_episode_date": "2026-08-25",
+    "mention_score": 2,
+    "mention_score_decayed": 0.87,
+    "last_main_idea": "Investment in AI infrastructure and labs is set to grow exponentially, leading to significant capital allocation shifts and potential market disruptions.",
+    "last_proof_cite": "Dwarkesh Podcast \u2022 2026-08-25 \u2022 Dylan Patel \u2013 Anthropic & OpenAI will have most of the world\u2019s compute by 2028",
+    "last_proof_snippet": "Okay, I'm back with Dylan Patel, Founder of SemiAnalysis, our version of Family, Thanksgiving dinner is a regular early podcast, but you're not actually related. I won't tell the people here. We'll destroy the myth. Walk me, basically w",
+    "supporting_takeaway": "Labs like OpenAI and Anthropic are expected to spend trillions of dollars annually by the end of the decade.",
+    "grokipedia_url": null,
+    "grokipedia_fetched_at": "2026-08-25T22:28:51.037076",
+    "pundit_profile": {
+      "source": "llm",
+      "source_model": "moonshot:moonshot-v1-8k",
+      "source_url": "",
+      "page_title": "Dylan Patel",
+      "fetched_at": "2026-08-26T03:28:51.036737+00:00",
+      "cliff_notes": "Dylan Patel is a prominent figure in the field of AI infrastructure and compute market analysis. As the founder of SemiAnalysis, he has dedicated his career to understanding and forecasting the trends and developments within the AI sector. Patel's work is particularly focused on how advancements in AI infrastructure are influencing economic growth, with a keen eye on the allocation of capital expenditures in the industry. His insights are sought after for their ability to predict the trajectory of the global economy in relation to the advancements in AI technology. Patel's contributions to the discourse on AI's economic impact have made him a respected voice in both the tech and finance sectors.",
+      "derived": {
+        "current_role": "Founder of SemiAnalysis"
+      },
+      "infobox": {
+        "Born": "",
+        "Nationality": ""
+      },
+      "lead_paragraphs": [
+        "Dylan Patel is a prominent figure in the field of AI infrastructure and compute market analysis. As the founder of SemiAnalysis, he has dedicated his career to understanding and forecasting the trends and developments within the AI sector. Patel's work is particularly focused on how advancements in AI infrastructure are influencing economic growth, with a keen eye on the allocation of capital expenditures in the industry.",
+        "His insights are sought after for their ability to predict the trajectory of the global economy in relation to the advancements in AI technology. Patel's contributions to the discourse on AI's economic impact have made him a respected voice in both the tech and finance sectors."
+      ],
+      "sections": [
+        {
+          "heading": "AI Infrastructure Growth",
+          "body": "Dylan Patel has been instrumental in analyzing the growth of AI infrastructure, highlighting its significant contribution to GDP and the economy."
+        },
+        {
+          "heading": "Compute Market Analysis",
+          "body": "Patel's expertise lies in the analysis of the compute market, where he forecasts the allocation of capital expenditures and their impact on economic growth."
+        },
+        {
+          "heading": "Economic Impact of AI",
+          "body": "He provides valuable insights into how AI advancements are shaping the global economy, focusing on the role of AI infrastructure in driving economic progress."
+        }
+      ]
+    },
+    "net_worth": "$3.70B"
   },
   {
     "id": 478,
@@ -48819,68 +48936,6 @@ const dashboardData = {
     }
   },
   {
-    "id": 465,
-    "name": "Dina Palma-Cormick",
-    "slug": "dina-palma-cormick",
-    "bio": "Dina Palma-Cormick is a key executive at Meta, where she leads workforce development programs and community engagement initiatives. With a background in both government and business, she has been instrumental in shaping policies that drive technological advancements. Her experience includes serving as a presidential advisor, focusing on women's leadership and AI expansion.",
-    "known_for": "Dina Palma-Cormick is recognized for her leadership in Meta's workforce development and her role in the company's AI expansion.",
-    "net_worth_usd": null,
-    "net_worth_source": "",
-    "net_worth_updated_at": null,
-    "voice_tone": "Engaging and informative",
-    "voice_style": "Persuasive and community-focused",
-    "voice_delivery_notes": "Clear and emphatic delivery with a focus on community impact.",
-    "voice_profile_updated_at": "2026-09-18 03:20:07",
-    "last_seen": "2026-09-18 03:20:07",
-    "last_episode_title": "Meta's Dina Powell McCormick: The Case for Data Centers, Backlash, AI Job Boom & Meta's Future",
-    "last_podcast_name": "All-In with Chamath, Jason, Sacks & Friedberg",
-    "last_episode_date": "2026-09-17",
-    "mention_score": 1,
-    "mention_score_decayed": 0.76,
-    "last_main_idea": "Investing in tech companies that prioritize community engagement and workforce development can yield sustainable returns and mitigate risks associated with public sentiment.",
-    "last_proof_cite": "All-In with Chamath, Jason, Sacks & Friedberg \u2022 2026-09-17 \u2022 Meta's Dina Powell McCormick: The Case for Data Centers, Backlash, AI Job Boom & Meta's Future",
-    "last_proof_snippet": "A trailblazing leader in government, business, and philanthropy. A former presidential advisor to Donald Trump, Dina Palma-Cormick, joined him at a platform as president and vice chair of women. She'll help lead the company's massive AI exp",
-    "supporting_takeaway": "America's Workforce Academy has trained thousands, achieving a 90% job retention rate post-training.",
-    "grokipedia_url": null,
-    "grokipedia_fetched_at": "2026-09-17T22:20:19.073150",
-    "pundit_profile": {
-      "source": "llm",
-      "source_model": "openai:gpt-4o-mini",
-      "source_url": "",
-      "page_title": "Dina Palma-Cormick",
-      "fetched_at": "2026-09-18T03:20:19.072625+00:00",
-      "cliff_notes": "Dina Palma-Cormick has built a career at the intersection of technology, government, and philanthropy. As a key executive at Meta, she focuses on workforce development and community engagement, driving initiatives that leverage technology for societal benefit. Her previous role as a presidential advisor under Donald Trump highlights her influence in shaping policies that support women's leadership and technological growth. With a vision for the future, she is poised to lead Meta's significant AI expansion, emphasizing the importance of data centers and their positive economic impact on communities. Palma-Cormick's commitment to harnessing technology for transformative change positions her as a pivotal figure in the ongoing evolution of the tech landscape.",
-      "derived": {
-        "current_role": "Executive at Meta",
-        "former_positions": "Presidential advisor to Donald Trump; Vice Chair of Women at a platform",
-        "political_summary": "Dina has served as a presidential advisor, actively engaging in initiatives that promote women's leadership and technological innovation."
-      },
-      "infobox": {},
-      "lead_paragraphs": [
-        "Dina Palma-Cormick has built a career at the intersection of technology, government, and philanthropy. As a key executive at Meta, she focuses on workforce development and community engagement, driving initiatives that leverage technology for societal benefit. Her previous role as a presidential advisor under Donald Trump highlights her influence in shaping policies that support women's leadership and technological growth.",
-        "With a vision for the future, she is poised to lead Meta's significant AI expansion, emphasizing the importance of data centers and their positive economic impact on communities. Palma-Cormick's commitment to harnessing technology for transformative change positions her as a pivotal figure in the ongoing evolution of the tech landscape."
-      ],
-      "sections": [
-        {
-          "heading": "AI Expansion",
-          "body": "Dina is at the forefront of Meta's AI expansion, focusing on integrating advanced technologies into the company's operations and community initiatives."
-        },
-        {
-          "heading": "Workforce Development",
-          "body": "She leads programs aimed at enhancing workforce skills, ensuring that communities are prepared for the technological advancements of the future."
-        },
-        {
-          "heading": "Women in Leadership",
-          "body": "Dina advocates for women's leadership in technology and business, emphasizing their critical role in driving innovation and change."
-        },
-        {
-          "heading": "Community Engagement",
-          "body": "Her work involves fostering strong community ties and demonstrating the economic benefits of technology, particularly through data centers."
-        }
-      ]
-    }
-  },
-  {
     "id": 133,
     "name": "Chris Dixon",
     "slug": "chris-dixon",
@@ -48940,6 +48995,68 @@ const dashboardData = {
       ]
     },
     "net_worth": "$500.0M"
+  },
+  {
+    "id": 465,
+    "name": "Dina Palma-Cormick",
+    "slug": "dina-palma-cormick",
+    "bio": "Dina Palma-Cormick is a key executive at Meta, where she leads workforce development programs and community engagement initiatives. With a background in both government and business, she has been instrumental in shaping policies that drive technological advancements. Her experience includes serving as a presidential advisor, focusing on women's leadership and AI expansion.",
+    "known_for": "Dina Palma-Cormick is recognized for her leadership in Meta's workforce development and her role in the company's AI expansion.",
+    "net_worth_usd": null,
+    "net_worth_source": "",
+    "net_worth_updated_at": null,
+    "voice_tone": "Engaging and informative",
+    "voice_style": "Persuasive and community-focused",
+    "voice_delivery_notes": "Clear and emphatic delivery with a focus on community impact.",
+    "voice_profile_updated_at": "2026-09-18 03:20:07",
+    "last_seen": "2026-09-18 03:20:07",
+    "last_episode_title": "Meta's Dina Powell McCormick: The Case for Data Centers, Backlash, AI Job Boom & Meta's Future",
+    "last_podcast_name": "All-In with Chamath, Jason, Sacks & Friedberg",
+    "last_episode_date": "2026-09-17",
+    "mention_score": 1,
+    "mention_score_decayed": 0.74,
+    "last_main_idea": "Investing in tech companies that prioritize community engagement and workforce development can yield sustainable returns and mitigate risks associated with public sentiment.",
+    "last_proof_cite": "All-In with Chamath, Jason, Sacks & Friedberg \u2022 2026-09-17 \u2022 Meta's Dina Powell McCormick: The Case for Data Centers, Backlash, AI Job Boom & Meta's Future",
+    "last_proof_snippet": "A trailblazing leader in government, business, and philanthropy. A former presidential advisor to Donald Trump, Dina Palma-Cormick, joined him at a platform as president and vice chair of women. She'll help lead the company's massive AI exp",
+    "supporting_takeaway": "America's Workforce Academy has trained thousands, achieving a 90% job retention rate post-training.",
+    "grokipedia_url": null,
+    "grokipedia_fetched_at": "2026-09-17T22:20:19.073150",
+    "pundit_profile": {
+      "source": "llm",
+      "source_model": "openai:gpt-4o-mini",
+      "source_url": "",
+      "page_title": "Dina Palma-Cormick",
+      "fetched_at": "2026-09-18T03:20:19.072625+00:00",
+      "cliff_notes": "Dina Palma-Cormick has built a career at the intersection of technology, government, and philanthropy. As a key executive at Meta, she focuses on workforce development and community engagement, driving initiatives that leverage technology for societal benefit. Her previous role as a presidential advisor under Donald Trump highlights her influence in shaping policies that support women's leadership and technological growth. With a vision for the future, she is poised to lead Meta's significant AI expansion, emphasizing the importance of data centers and their positive economic impact on communities. Palma-Cormick's commitment to harnessing technology for transformative change positions her as a pivotal figure in the ongoing evolution of the tech landscape.",
+      "derived": {
+        "current_role": "Executive at Meta",
+        "former_positions": "Presidential advisor to Donald Trump; Vice Chair of Women at a platform",
+        "political_summary": "Dina has served as a presidential advisor, actively engaging in initiatives that promote women's leadership and technological innovation."
+      },
+      "infobox": {},
+      "lead_paragraphs": [
+        "Dina Palma-Cormick has built a career at the intersection of technology, government, and philanthropy. As a key executive at Meta, she focuses on workforce development and community engagement, driving initiatives that leverage technology for societal benefit. Her previous role as a presidential advisor under Donald Trump highlights her influence in shaping policies that support women's leadership and technological growth.",
+        "With a vision for the future, she is poised to lead Meta's significant AI expansion, emphasizing the importance of data centers and their positive economic impact on communities. Palma-Cormick's commitment to harnessing technology for transformative change positions her as a pivotal figure in the ongoing evolution of the tech landscape."
+      ],
+      "sections": [
+        {
+          "heading": "AI Expansion",
+          "body": "Dina is at the forefront of Meta's AI expansion, focusing on integrating advanced technologies into the company's operations and community initiatives."
+        },
+        {
+          "heading": "Workforce Development",
+          "body": "She leads programs aimed at enhancing workforce skills, ensuring that communities are prepared for the technological advancements of the future."
+        },
+        {
+          "heading": "Women in Leadership",
+          "body": "Dina advocates for women's leadership in technology and business, emphasizing their critical role in driving innovation and change."
+        },
+        {
+          "heading": "Community Engagement",
+          "body": "Her work involves fostering strong community ties and demonstrating the economic benefits of technology, particularly through data centers."
+        }
+      ]
+    }
   },
   {
     "id": 464,
@@ -49545,7 +49662,7 @@ const dashboardData = {
     "last_podcast_name": "All-In with Chamath, Jason, Sacks & Friedberg",
     "last_episode_date": "2026-08-08",
     "mention_score": 2,
-    "mention_score_decayed": 0.72,
+    "mention_score_decayed": 0.71,
     "last_main_idea": "Investment in AI infrastructure and data centers is becoming increasingly important due to the demand for compute power and the tax advantages of such investments in the U.S.",
     "last_proof_cite": "All-In with Chamath, Jason, Sacks & Friedberg \u2022 2026-08-08 \u2022 Google's AI Brain Drain, SpaceX's Huge Quarter, Airtable's 90% Collapse, US Data Fuels China AI",
     "last_proof_snippet": "All right, everybody. Welcome back to your favorite podcast. It's the all-in podcast. It's the summer. It's August 6th. Haven't a hard time getting a core. I'm here on the podcast. But David Friedberg is here. David Friedberg is back our Su",
@@ -49603,7 +49720,7 @@ const dashboardData = {
     "last_podcast_name": "Monetary Matters with Jack Farley",
     "last_episode_date": "2026-09-13",
     "mention_score": 1,
-    "mention_score_decayed": 0.69,
+    "mention_score_decayed": 0.68,
     "last_main_idea": "The junior mining sector offers a compelling asymmetric opportunity in distressed, underappreciated assets with strong management, where years of capital flight and depleted liquidity have created a fertile environment for patient capital to realize value through operational improvement and an impending wave of major-miner M&A.",
     "last_proof_cite": "Monetary Matters with Jack Farley \u2022 2026-09-13 \u2022 Hunting for Value in Mining Stocks Amid Soaring Metals Prices | Freddy Brick | Muddy Waters Capital",
     "last_proof_snippet": "We actually don't have a huge view of metal prices, which everyone probably thinks is just insane given that we run a metals and mining fund, 2% down day on the S&P, like you know a lot of Bloomberg going yellow pretty early and people are",
@@ -50652,7 +50769,7 @@ const dashboardData = {
     "last_podcast_name": "The a16z Show",
     "last_episode_date": "2026-08-21",
     "mention_score": 1,
-    "mention_score_decayed": 0.48,
+    "mention_score_decayed": 0.47,
     "last_main_idea": "Investing in AI-driven security solutions can enhance operational efficiency and effectiveness, providing a competitive edge in a rapidly evolving technological landscape.",
     "last_proof_cite": "The a16z Show \u2022 2026-08-21 \u2022 Microsoft's Deputy CISO on Securing AI Agents",
     "last_proof_snippet": "The top story has been that the AI models are happy. The models went out under the internet and tested the security of several organizations. Isn't something to be scared of? Yes. Is it something to throw up your hands and worry about? No.",
@@ -50714,7 +50831,7 @@ const dashboardData = {
     "last_podcast_name": "Moonshots with Peter Diamandis",
     "last_episode_date": "2026-07-29",
     "mention_score": 1,
-    "mention_score_decayed": 0.48,
+    "mention_score_decayed": 0.47,
     "last_main_idea": "The accelerating pace of AI development, coupled with advancements in space technology and a shifting geopolitical landscape, creates a multi-faceted investment opportunity in companies fostering balanced AI ecosystems, pioneering AGI, and enabling future abundance.",
     "last_proof_cite": "Moonshots with Peter Diamandis \u2022 2026-07-29 \u2022 Dario vs Jensen on Open Weights, OpenAI & Anthropic in DC, Xi Exports AI to Global South | EP #275",
     "last_proof_snippet": "The couple of days ago, Jensen Wong's CEO of NVIDIA. He says the world needs both frontier, close models, and frontier open models. And Thropic was silent for three days, and there was a lot of conversation. Where's in Thropic in this conve",
@@ -50742,7 +50859,7 @@ const dashboardData = {
     "last_podcast_name": "Moonshots with Peter Diamandis",
     "last_episode_date": "2026-07-29",
     "mention_score": 1,
-    "mention_score_decayed": 0.48,
+    "mention_score_decayed": 0.47,
     "last_main_idea": "The accelerating pace of AI development, coupled with advancements in space technology and a shifting geopolitical landscape, creates a multi-faceted investment opportunity in companies fostering balanced AI ecosystems, pioneering AGI, and enabling future abundance.",
     "last_proof_cite": "Moonshots with Peter Diamandis \u2022 2026-07-29 \u2022 Dario vs Jensen on Open Weights, OpenAI & Anthropic in DC, Xi Exports AI to Global South | EP #275",
     "last_proof_snippet": "The couple of days ago, Jensen Wong's CEO of NVIDIA. He says the world needs both frontier, close models, and frontier open models. And Thropic was silent for three days, and there was a lot of conversation. Where's in Thropic in this conve",
@@ -50770,7 +50887,7 @@ const dashboardData = {
     "last_podcast_name": "The a16z Show",
     "last_episode_date": "2026-06-12",
     "mention_score": 1,
-    "mention_score_decayed": 0.48,
+    "mention_score_decayed": 0.47,
     "last_main_idea": "The core investment opportunity lies in identifying and capitalizing on the foundational industries and efficient institutions that will enable and benefit from the AI-induced industrial revolution, while also navigating the demographic and political economic shifts it engenders.",
     "last_proof_cite": "The a16z Show \u2022 2026-06-12 \u2022 Samo Burja on Growth, Energy, and AI",
     "last_proof_snippet": "So, I actually think a big macro story that we've been exploring at Bismarck and Alice's in Bismarck Brief is that the demands of AI are so massive that for the first time in decades, the economies of scale necessary to supply them require",
@@ -52017,7 +52134,7 @@ const dashboardData = {
     "last_podcast_name": "Monetary Matters with Jack Farley",
     "last_episode_date": "2026-08-16",
     "mention_score": 1,
-    "mention_score_decayed": 0.36,
+    "mention_score_decayed": 0.35,
     "last_main_idea": "Investment in hyperscaler companies may offer significant returns due to their transformative technology and massive capital investments, but also carries risks due to the off-balance sheet leverage and innovative financial structures.",
     "last_proof_cite": "Monetary Matters with Jack Farley \u2022 2026-08-16 \u2022 Robin Wigglesworth on Hyperscalers' 1.5 Trillion of Off-Balance Sheet Liabilities, Private Credit, and His Book \"A Fabulous Debt\"",
     "last_proof_snippet": "I'm joined today by Robin Wigglesworth, editor of AlphaVille, the Financial Times Financial blog and author of a fabulous debt, the epic story of how bonds built the modern world Robin. But one talk about bonds fixed income of course, but w",
@@ -52330,7 +52447,7 @@ const dashboardData = {
     "last_podcast_name": "Monetary Matters with Jack Farley",
     "last_episode_date": "2026-08-12",
     "mention_score": 1,
-    "mention_score_decayed": 0.33,
+    "mention_score_decayed": 0.32,
     "last_main_idea": "Milton Berg's investment thesis is that the market may have bottomed and is poised for a rebound, with specific focus on sectors that have experienced significant declines as potential short-term bounce candidates.",
     "last_proof_cite": "Monetary Matters with Jack Farley \u2022 2026-08-12 \u2022 Milton Berg: I Have Evidence Market Has Likely Bottomed | Why Milton\u2019s Long Semis, Korea, Nasdaq, and More (With Caveats), and Why He Thinks Gold has made a Multi-year Top",
     "last_proof_snippet": "I am joined once again by Milton Berg of MB advisors and Milton Berg Edge. Milton is one of the greatest market technicians alive. And he focuses on a lot of things that most tetanolists don't follow. He's mostly not looking at charts. He's",
@@ -52644,7 +52761,7 @@ const dashboardData = {
     "last_podcast_name": "Dwarkesh Podcast",
     "last_episode_date": "2026-08-11",
     "mention_score": 1,
-    "mention_score_decayed": 0.32,
+    "mention_score_decayed": 0.31,
     "last_main_idea": "Investment in AI development and security is crucial to manage the rapid advancements and ensure ethical AI behavior.",
     "last_proof_cite": "Dwarkesh Podcast \u2022 2026-08-11 \u2022 Ryan Greenblatt \u2013 Human level AIs might build runaway superintelligences by 2032",
     "last_proof_snippet": "Today, I'm chatting with Ryan Greenlet, who is the chief scientist at Redwood Research, where he focuses on technical AI safety and security work. I want to talk to you about recursive self-improvement. This is the idea that once you build",
@@ -54712,7 +54829,7 @@ const dashboardData = {
     "last_podcast_name": "All-In with Chamath, Jason, Sacks & Friedberg",
     "last_episode_date": "2026-07-20",
     "mention_score": 1,
-    "mention_score_decayed": 0.2,
+    "mention_score_decayed": 0.19,
     "last_main_idea": "The current market behavior, while bubbly, is distinct from past bubbles and may disproportionately impact venture capital and private equity firms due to aggressive investment strategies.",
     "last_proof_cite": "All-In with Chamath, Jason, Sacks & Friedberg \u2022 2026-07-20 \u2022 Mark Cuban on the AI Bubble: Who Actually Gets Wiped Out?",
     "last_proof_snippet": "You and I live through a couple of bubbles. We've seen this movie before. And this wave seems very different than the dot com wave. So let's talk about that. Are you concerned about a bubble? We're seeing bubbly like behavior people. It's n",
@@ -56094,72 +56211,6 @@ const dashboardData = {
     }
   },
   {
-    "id": 171,
-    "name": "Steven Sinofsky",
-    "slug": "steven-sinofsky",
-    "bio": "Steven Sinofsky is a former Microsoft executive and industry expert on personal computing and software development. Over nearly three decades at Microsoft, he helped shape products that define the PC era, including Windows, Office, and Surface. Sinofsky has witnessed one of the technology industry's longest-running rivalries, Microsoft and Apple, and continues to provide insights on the evolution of personal computing.",
-    "known_for": "His tenure at Microsoft and insights on the evolution of personal computing.",
-    "net_worth_usd": 300000000.0,
-    "net_worth_source": "https://www.gurufocus.com/insider/3984/steven-j-sinofsky",
-    "net_worth_updated_at": "2026-04-10T22:06:00.230554",
-    "voice_tone": "Reflective and insightful",
-    "voice_style": "Analytical and comparative",
-    "voice_delivery_notes": "Paced with emphasis on key historical moments and technological differences",
-    "voice_profile_updated_at": "2026-04-11 03:05:18",
-    "last_seen": "2026-06-03 03:02:03",
-    "last_episode_title": "Steven Sinofsky on Apple at 50, Microsoft, and the Future of Computing",
-    "last_podcast_name": "The a16z Show",
-    "last_episode_date": "2026-06-02",
-    "mention_score": 2,
-    "mention_score_decayed": 0.13,
-    "last_main_idea": "Investment in AI-native computing hardware and software development will be pivotal as personal computing transitions towards AI optimization, with Nvidia and Apple leading the charge.",
-    "last_proof_cite": "The a16z Show \u2022 2026-06-02 \u2022 Steven Sinofsky on Apple at 50, Microsoft, and the Future of Computing",
-    "last_proof_snippet": "Having lived through like a half dozen component church things, you just sort of wait them out and you jump, let some local max, your local men determine the future. This will all correct itself, in short order. This world where you're all",
-    "supporting_takeaway": "The shift to local processing could reduce costs associated with cloud-based AI services and democratize AI tool access.",
-    "grokipedia_url": null,
-    "grokipedia_fetched_at": "2026-06-02T22:02:42.225895",
-    "pundit_profile": {
-      "source": "llm",
-      "source_model": "moonshot:moonshot-v1-8k",
-      "source_url": "",
-      "page_title": "Steven Sinofsky",
-      "fetched_at": "2026-06-03T03:02:42.225549+00:00",
-      "cliff_notes": "Steven Sinofsky is best known for his nearly three-decade tenure at Microsoft, where he played a pivotal role in shaping some of the most defining products of the personal computing era, including Windows, Office, and Surface. As President of the Windows Division, Sinofsky was instrumental in guiding the development and marketing of the Windows operating system, which remains the backbone of the PC industry. His tenure also saw him navigate the intense rivalry between Microsoft and Apple, providing him with a unique perspective on product design, platforms, hardware, and software. Since leaving Microsoft, Sinofsky has continued to offer valuable insights into the future of computing, particularly in areas such as AI and resource constraints. His front-row seat to the personal computing revolution has made him a sought-after commentator and thought leader in the tech industry.",
-      "derived": {
-        "former_positions": "President of the Windows Division at Microsoft; Senior Vice President at Microsoft",
-        "education": "Bachelor of Science in Computer Science and Engineering from the University of Illinois at Urbana-Champaign"
-      },
-      "infobox": {
-        "Born": "1965",
-        "Nationality": "American"
-      },
-      "lead_paragraphs": [
-        "Steven Sinofsky is best known for his nearly three-decade tenure at Microsoft, where he played a pivotal role in shaping some of the most defining products of the personal computing era, including Windows, Office, and Surface. As President of the Windows Division, Sinofsky was instrumental in guiding the development and marketing of the Windows operating system, which remains the backbone of the PC industry.",
-        "His tenure also saw him navigate the intense rivalry between Microsoft and Apple, providing him with a unique perspective on product design, platforms, hardware, and software. Since leaving Microsoft, Sinofsky has continued to offer valuable insights into the future of computing, particularly in areas such as AI and resource constraints.",
-        "His front-row seat to the personal computing revolution has made him a sought-after commentator and thought leader in the tech industry."
-      ],
-      "sections": [
-        {
-          "heading": "Microsoft Tenure",
-          "body": "Steven Sinofsky spent nearly three decades at Microsoft, where he held various leadership roles, including President of the Windows Division and Senior Vice President. He was instrumental in shaping products like Windows, Office, and Surface, which have defined the personal computing era."
-        },
-        {
-          "heading": "Windows Development",
-          "body": "As President of the Windows Division, Sinofsky played a crucial role in the development and marketing of the Windows operating system. His leadership helped guide the product through numerous iterations, ensuring its continued relevance in the face of evolving competition and market demands."
-        },
-        {
-          "heading": "Microsoft vs. Apple",
-          "body": "Sinofsky's tenure at Microsoft coincided with one of the technology industry's longest-running rivalries: Microsoft vs. Apple. His unique perspective on product design, platforms, hardware, and software has provided valuable insights into the dynamics of this intense competition."
-        },
-        {
-          "heading": "Future of Computing",
-          "body": "Since leaving Microsoft, Steven Sinofsky has continued to offer insights into the future of computing, particularly in areas such as AI and resource constraints. He believes that AI presents an opportunity to change the dynamic of personal computing, making it more forward-looking and less reliant on backward compatibility."
-        }
-      ]
-    },
-    "net_worth": "$300.0M"
-  },
-  {
     "id": 316,
     "name": "Evan Feinberg",
     "slug": "evan-feinberg",
@@ -56467,6 +56518,72 @@ const dashboardData = {
         }
       ]
     }
+  },
+  {
+    "id": 171,
+    "name": "Steven Sinofsky",
+    "slug": "steven-sinofsky",
+    "bio": "Steven Sinofsky is a former Microsoft executive and industry expert on personal computing and software development. Over nearly three decades at Microsoft, he helped shape products that define the PC era, including Windows, Office, and Surface. Sinofsky has witnessed one of the technology industry's longest-running rivalries, Microsoft and Apple, and continues to provide insights on the evolution of personal computing.",
+    "known_for": "His tenure at Microsoft and insights on the evolution of personal computing.",
+    "net_worth_usd": 300000000.0,
+    "net_worth_source": "https://www.gurufocus.com/insider/3984/steven-j-sinofsky",
+    "net_worth_updated_at": "2026-04-10T22:06:00.230554",
+    "voice_tone": "Reflective and insightful",
+    "voice_style": "Analytical and comparative",
+    "voice_delivery_notes": "Paced with emphasis on key historical moments and technological differences",
+    "voice_profile_updated_at": "2026-04-11 03:05:18",
+    "last_seen": "2026-06-03 03:02:03",
+    "last_episode_title": "Steven Sinofsky on Apple at 50, Microsoft, and the Future of Computing",
+    "last_podcast_name": "The a16z Show",
+    "last_episode_date": "2026-06-02",
+    "mention_score": 2,
+    "mention_score_decayed": 0.12,
+    "last_main_idea": "Investment in AI-native computing hardware and software development will be pivotal as personal computing transitions towards AI optimization, with Nvidia and Apple leading the charge.",
+    "last_proof_cite": "The a16z Show \u2022 2026-06-02 \u2022 Steven Sinofsky on Apple at 50, Microsoft, and the Future of Computing",
+    "last_proof_snippet": "Having lived through like a half dozen component church things, you just sort of wait them out and you jump, let some local max, your local men determine the future. This will all correct itself, in short order. This world where you're all",
+    "supporting_takeaway": "The shift to local processing could reduce costs associated with cloud-based AI services and democratize AI tool access.",
+    "grokipedia_url": null,
+    "grokipedia_fetched_at": "2026-06-02T22:02:42.225895",
+    "pundit_profile": {
+      "source": "llm",
+      "source_model": "moonshot:moonshot-v1-8k",
+      "source_url": "",
+      "page_title": "Steven Sinofsky",
+      "fetched_at": "2026-06-03T03:02:42.225549+00:00",
+      "cliff_notes": "Steven Sinofsky is best known for his nearly three-decade tenure at Microsoft, where he played a pivotal role in shaping some of the most defining products of the personal computing era, including Windows, Office, and Surface. As President of the Windows Division, Sinofsky was instrumental in guiding the development and marketing of the Windows operating system, which remains the backbone of the PC industry. His tenure also saw him navigate the intense rivalry between Microsoft and Apple, providing him with a unique perspective on product design, platforms, hardware, and software. Since leaving Microsoft, Sinofsky has continued to offer valuable insights into the future of computing, particularly in areas such as AI and resource constraints. His front-row seat to the personal computing revolution has made him a sought-after commentator and thought leader in the tech industry.",
+      "derived": {
+        "former_positions": "President of the Windows Division at Microsoft; Senior Vice President at Microsoft",
+        "education": "Bachelor of Science in Computer Science and Engineering from the University of Illinois at Urbana-Champaign"
+      },
+      "infobox": {
+        "Born": "1965",
+        "Nationality": "American"
+      },
+      "lead_paragraphs": [
+        "Steven Sinofsky is best known for his nearly three-decade tenure at Microsoft, where he played a pivotal role in shaping some of the most defining products of the personal computing era, including Windows, Office, and Surface. As President of the Windows Division, Sinofsky was instrumental in guiding the development and marketing of the Windows operating system, which remains the backbone of the PC industry.",
+        "His tenure also saw him navigate the intense rivalry between Microsoft and Apple, providing him with a unique perspective on product design, platforms, hardware, and software. Since leaving Microsoft, Sinofsky has continued to offer valuable insights into the future of computing, particularly in areas such as AI and resource constraints.",
+        "His front-row seat to the personal computing revolution has made him a sought-after commentator and thought leader in the tech industry."
+      ],
+      "sections": [
+        {
+          "heading": "Microsoft Tenure",
+          "body": "Steven Sinofsky spent nearly three decades at Microsoft, where he held various leadership roles, including President of the Windows Division and Senior Vice President. He was instrumental in shaping products like Windows, Office, and Surface, which have defined the personal computing era."
+        },
+        {
+          "heading": "Windows Development",
+          "body": "As President of the Windows Division, Sinofsky played a crucial role in the development and marketing of the Windows operating system. His leadership helped guide the product through numerous iterations, ensuring its continued relevance in the face of evolving competition and market demands."
+        },
+        {
+          "heading": "Microsoft vs. Apple",
+          "body": "Sinofsky's tenure at Microsoft coincided with one of the technology industry's longest-running rivalries: Microsoft vs. Apple. His unique perspective on product design, platforms, hardware, and software has provided valuable insights into the dynamics of this intense competition."
+        },
+        {
+          "heading": "Future of Computing",
+          "body": "Since leaving Microsoft, Steven Sinofsky has continued to offer insights into the future of computing, particularly in areas such as AI and resource constraints. He believes that AI presents an opportunity to change the dynamic of personal computing, making it more forward-looking and less reliant on backward compatibility."
+        }
+      ]
+    },
+    "net_worth": "$300.0M"
   },
   {
     "id": 73,
@@ -60588,7 +60705,7 @@ const dashboardData = {
     "last_podcast_name": "Macro Voices",
     "last_episode_date": "2026-05-07",
     "mention_score": 1,
-    "mention_score_decayed": 0.04,
+    "mention_score_decayed": 0.03,
     "last_main_idea": "Diversify semiconductor investments to mitigate potential overvaluation risks.",
     "last_proof_cite": "Macro Voices \u2022 2026-05-07 \u2022 MacroVoices #531 Louis-Vincent Gave: Semiconductors, AI & Iran Conflict",
     "last_proof_snippet": "This is Macrovoisers, the Free Weekly Financial Podcast, targeting professional finance, high-net worth individuals, family offices, and other sophisticated investors. Macrovoisers is all about the brightest minds in the world of finance an",
@@ -62018,71 +62135,6 @@ const dashboardData = {
     "net_worth": "$3.50B"
   },
   {
-    "id": 200,
-    "name": "Chris Wayland",
-    "slug": "chris-wayland",
-    "bio": "Chris Wayland is a banking specialist with expertise in credit risk and private credit exposure. He provides insights into the banking sector, particularly focusing on the exposure of banks to private credit and non-depository financial institutions.",
-    "known_for": "His expertise in analyzing bank exposure to private credit and non-depository financial institutions.",
-    "net_worth_usd": 50000000.0,
-    "net_worth_source": "https://www.celebritynetworth.com/richest-celebrities/actors/christopher-walken-net-worth/",
-    "net_worth_updated_at": "2026-04-23T22:05:06.424830",
-    "voice_tone": "Matter-of-fact and analytical.",
-    "voice_style": "Factual and informative, providing industry insights.",
-    "voice_delivery_notes": "Clear and concise, with a focus on detail.",
-    "voice_profile_updated_at": "2026-04-24 03:04:28",
-    "last_seen": "2026-04-24 03:04:28",
-    "last_episode_title": "Banks' \u201cConsiderable\u201d Exposure to Private Credit | Chris Whalen on Banks\u2019 Loans to NBFIs, Plus CRE, Gold, and Payments",
-    "last_podcast_name": "Monetary Matters with Jack Farley",
-    "last_episode_date": "2026-04-18",
-    "mention_score": 1,
-    "mention_score_decayed": 0.03,
-    "last_main_idea": "Investment in private credit and non-depository financial institutions presents both opportunities and risks for banks, with the potential for debt to be converted into equity in challenging economic conditions.",
-    "last_proof_cite": "Monetary Matters with Jack Farley \u2022 2026-04-18 \u2022 Banks' \u201cConsiderable\u201d Exposure to Private Credit | Chris Whalen on Banks\u2019 Loans to NBFIs, Plus CRE, Gold, and Payments",
-    "last_proof_snippet": "Large banks are adept at managing exposure to non-depository financial institutions, often selling undesirable exposures and buying protection through CLOs.",
-    "supporting_takeaway": "Large banks are adept at managing exposure to non-depository financial institutions, often selling undesirable exposures and buying protection through CLOs.",
-    "grokipedia_url": null,
-    "grokipedia_fetched_at": "2026-04-23T22:05:04.851906",
-    "pundit_profile": {
-      "source": "llm",
-      "source_model": "moonshot:moonshot-v1-8k",
-      "source_url": "",
-      "page_title": "Chris Wayland",
-      "fetched_at": "2026-04-24T03:05:04.851572+00:00",
-      "cliff_notes": "Chris Wayland is recognized for his deep understanding of the banking industry, with a specific focus on credit risk and private credit exposure. His career has been centered around providing analysis and insights into the banking sector, particularly concerning the complex dynamics of private credit and the role of non-depository financial institutions. Wayland's expertise is sought after for his ability to break down complex financial instruments and their impact on the broader economy. His commentary is often featured in discussions surrounding bank earnings seasons, where he dissects the implications of bank exposure to private credit and the potential risks associated with such investments. His work is crucial for investors and financial professionals who need to navigate the intricacies of the banking sector and understand the potential risks and rewards of private credit investments.",
-      "derived": {
-        "current_role": "Banking Specialist"
-      },
-      "infobox": {
-        "Born": "",
-        "Nationality": ""
-      },
-      "lead_paragraphs": [
-        "Chris Wayland is recognized for his deep understanding of the banking industry, with a specific focus on credit risk and private credit exposure. His career has been centered around providing analysis and insights into the banking sector, particularly concerning the complex dynamics of private credit and the role of non-depository financial institutions.",
-        "Wayland's expertise is sought after for his ability to break down complex financial instruments and their impact on the broader economy. His commentary is often featured in discussions surrounding bank earnings seasons, where he dissects the implications of bank exposure to private credit and the potential risks associated with such investments.",
-        "His work is crucial for investors and financial professionals who need to navigate the intricacies of the banking sector and understand the potential risks and rewards of private credit investments."
-      ],
-      "sections": [
-        {
-          "heading": "Private Credit Exposure",
-          "body": "Chris Wayland is known for his analysis on bank exposure to private credit, discussing the implications for investors and the banking sector."
-        },
-        {
-          "heading": "Non-Depository Financial Institutions",
-          "body": "Wayland provides insights into the role and risks associated with non-depository financial institutions within the banking ecosystem."
-        },
-        {
-          "heading": "Credit Risk Analysis",
-          "body": "He offers expert commentary on credit risk, helping to educate listeners on the potential dangers and strategies to mitigate these risks."
-        },
-        {
-          "heading": "Bank Earnings Seasons",
-          "body": "During bank earnings seasons, Wayland's analysis is highly valued for understanding the financial health and strategies of major banks."
-        }
-      ]
-    },
-    "net_worth": "$50.0M"
-  },
-  {
     "id": 55,
     "name": "Dr. Onus Alhajji",
     "slug": "dr-onus-alhajji",
@@ -62357,6 +62409,71 @@ const dashboardData = {
       ]
     },
     "net_worth": "$200.0M"
+  },
+  {
+    "id": 200,
+    "name": "Chris Wayland",
+    "slug": "chris-wayland",
+    "bio": "Chris Wayland is a banking specialist with expertise in credit risk and private credit exposure. He provides insights into the banking sector, particularly focusing on the exposure of banks to private credit and non-depository financial institutions.",
+    "known_for": "His expertise in analyzing bank exposure to private credit and non-depository financial institutions.",
+    "net_worth_usd": 50000000.0,
+    "net_worth_source": "https://www.celebritynetworth.com/richest-celebrities/actors/christopher-walken-net-worth/",
+    "net_worth_updated_at": "2026-04-23T22:05:06.424830",
+    "voice_tone": "Matter-of-fact and analytical.",
+    "voice_style": "Factual and informative, providing industry insights.",
+    "voice_delivery_notes": "Clear and concise, with a focus on detail.",
+    "voice_profile_updated_at": "2026-04-24 03:04:28",
+    "last_seen": "2026-04-24 03:04:28",
+    "last_episode_title": "Banks' \u201cConsiderable\u201d Exposure to Private Credit | Chris Whalen on Banks\u2019 Loans to NBFIs, Plus CRE, Gold, and Payments",
+    "last_podcast_name": "Monetary Matters with Jack Farley",
+    "last_episode_date": "2026-04-18",
+    "mention_score": 1,
+    "mention_score_decayed": 0.02,
+    "last_main_idea": "Investment in private credit and non-depository financial institutions presents both opportunities and risks for banks, with the potential for debt to be converted into equity in challenging economic conditions.",
+    "last_proof_cite": "Monetary Matters with Jack Farley \u2022 2026-04-18 \u2022 Banks' \u201cConsiderable\u201d Exposure to Private Credit | Chris Whalen on Banks\u2019 Loans to NBFIs, Plus CRE, Gold, and Payments",
+    "last_proof_snippet": "Large banks are adept at managing exposure to non-depository financial institutions, often selling undesirable exposures and buying protection through CLOs.",
+    "supporting_takeaway": "Large banks are adept at managing exposure to non-depository financial institutions, often selling undesirable exposures and buying protection through CLOs.",
+    "grokipedia_url": null,
+    "grokipedia_fetched_at": "2026-04-23T22:05:04.851906",
+    "pundit_profile": {
+      "source": "llm",
+      "source_model": "moonshot:moonshot-v1-8k",
+      "source_url": "",
+      "page_title": "Chris Wayland",
+      "fetched_at": "2026-04-24T03:05:04.851572+00:00",
+      "cliff_notes": "Chris Wayland is recognized for his deep understanding of the banking industry, with a specific focus on credit risk and private credit exposure. His career has been centered around providing analysis and insights into the banking sector, particularly concerning the complex dynamics of private credit and the role of non-depository financial institutions. Wayland's expertise is sought after for his ability to break down complex financial instruments and their impact on the broader economy. His commentary is often featured in discussions surrounding bank earnings seasons, where he dissects the implications of bank exposure to private credit and the potential risks associated with such investments. His work is crucial for investors and financial professionals who need to navigate the intricacies of the banking sector and understand the potential risks and rewards of private credit investments.",
+      "derived": {
+        "current_role": "Banking Specialist"
+      },
+      "infobox": {
+        "Born": "",
+        "Nationality": ""
+      },
+      "lead_paragraphs": [
+        "Chris Wayland is recognized for his deep understanding of the banking industry, with a specific focus on credit risk and private credit exposure. His career has been centered around providing analysis and insights into the banking sector, particularly concerning the complex dynamics of private credit and the role of non-depository financial institutions.",
+        "Wayland's expertise is sought after for his ability to break down complex financial instruments and their impact on the broader economy. His commentary is often featured in discussions surrounding bank earnings seasons, where he dissects the implications of bank exposure to private credit and the potential risks associated with such investments.",
+        "His work is crucial for investors and financial professionals who need to navigate the intricacies of the banking sector and understand the potential risks and rewards of private credit investments."
+      ],
+      "sections": [
+        {
+          "heading": "Private Credit Exposure",
+          "body": "Chris Wayland is known for his analysis on bank exposure to private credit, discussing the implications for investors and the banking sector."
+        },
+        {
+          "heading": "Non-Depository Financial Institutions",
+          "body": "Wayland provides insights into the role and risks associated with non-depository financial institutions within the banking ecosystem."
+        },
+        {
+          "heading": "Credit Risk Analysis",
+          "body": "He offers expert commentary on credit risk, helping to educate listeners on the potential dangers and strategies to mitigate these risks."
+        },
+        {
+          "heading": "Bank Earnings Seasons",
+          "body": "During bank earnings seasons, Wayland's analysis is highly valued for understanding the financial health and strategies of major banks."
+        }
+      ]
+    },
+    "net_worth": "$50.0M"
   },
   {
     "id": 198,
@@ -64113,130 +64230,6 @@ const dashboardData = {
     }
   },
   {
-    "id": 147,
-    "name": "Anna Wang",
-    "slug": "anna-wang",
-    "bio": "Anna Wang is the Chief U.S. Economist at Bloomberg, where she provides economic analysis and commentary on inflation and oil prices. She is known for her insightful views on the economic implications of oil price fluctuations and their impact on inflation.",
-    "known_for": "Economic analysis and commentary on inflation and oil prices.",
-    "net_worth_usd": 3000000000.0,
-    "net_worth_source": "https://www.gurufocus.com/insider/231639/wang-nan",
-    "net_worth_updated_at": "2026-04-01T22:04:03.961801",
-    "voice_tone": "Analytical and measured.",
-    "voice_style": "Provides detailed economic analysis with a focus on data and trends.",
-    "voice_delivery_notes": "Speaks with a clear and deliberate pace, emphasizing key economic indicators and potential outcomes.",
-    "voice_profile_updated_at": "2026-04-02 03:03:55",
-    "last_seen": "2026-04-02 03:03:55",
-    "last_episode_title": "Why $200 Oil Won\u2019t Spike Inflation to 9% | Anna Wong on Recession Probability, PCE vs CPI, and Fed Reaction Function In A Scenario of Soaring Energy Prices",
-    "last_podcast_name": "Monetary Matters with Jack Farley",
-    "last_episode_date": "2026-04-01",
-    "mention_score": 1,
-    "mention_score_decayed": 0.02,
-    "last_main_idea": "Pictay asset management's AI-enhanced ETFs (PQNT and PQUS) aim to provide enhanced equity exposure through the use of artificial intelligence.",
-    "last_proof_cite": "Monetary Matters with Jack Farley \u2022 2026-04-01 \u2022 Why $200 Oil Won\u2019t Spike Inflation to 9% | Anna Wong on Recession Probability, PCE vs CPI, and Fed Reaction Function In A Scenario of Soaring Energy Prices",
-    "last_proof_snippet": "Oil futures curve suggests prices will decline to around $80 in the second half of the year.",
-    "supporting_takeaway": "Oil futures curve suggests prices will decline to around $80 in the second half of the year.",
-    "grokipedia_url": null,
-    "grokipedia_fetched_at": "2026-04-01T22:04:02.778580",
-    "pundit_profile": {
-      "source": "llm",
-      "source_model": "moonshot:moonshot-v1-8k",
-      "source_url": "",
-      "page_title": "Anna Wang",
-      "fetched_at": "2026-04-02T03:04:02.778251+00:00",
-      "cliff_notes": "Anna Wang is a prominent economist known for her expertise in U.S. economic analysis, particularly in the areas of inflation and oil prices. As the Chief U.S. Economist at Bloomberg, she offers valuable insights into the economic landscape, helping investors and policymakers navigate complex market conditions. Wang's career has been marked by her ability to provide clear and concise analysis on economic trends, making her a sought-after commentator in the financial industry. Her work at Bloomberg has allowed her to influence economic discourse and contribute to a better understanding of the factors driving inflation and oil prices.",
-      "derived": {
-        "current_role": "Chief U.S. Economist at Bloomberg"
-      },
-      "infobox": {
-        "Born": "",
-        "Nationality": ""
-      },
-      "lead_paragraphs": [
-        "Anna Wang is a prominent economist known for her expertise in U.S. economic analysis, particularly in the areas of inflation and oil prices. As the Chief U.S. Economist at Bloomberg, she offers valuable insights into the economic landscape, helping investors and policymakers navigate complex market conditions. Wang's career has been marked by her ability to provide clear and concise analysis on economic trends, making her a sought-after commentator in the financial industry.",
-        "Her work at Bloomberg has allowed her to influence economic discourse and contribute to a better understanding of the factors driving inflation and oil prices."
-      ],
-      "sections": [
-        {
-          "heading": "Economic Analysis",
-          "body": "Anna Wang is known for her economic analysis, particularly focusing on inflation and oil prices, providing investors with valuable insights into market trends."
-        },
-        {
-          "heading": "Oil Price Impact",
-          "body": "Wang's commentary on the impact of oil prices on inflation has been influential, challenging conventional views and providing a unique perspective on economic indicators."
-        },
-        {
-          "heading": "Economic Commentary",
-          "body": "As a commentator on economic issues, Wang has been instrumental in shaping discussions around the economic implications of oil price fluctuations and their broader impact on the economy."
-        }
-      ]
-    },
-    "net_worth": "$3.00B"
-  },
-  {
-    "id": 145,
-    "name": "Owen Jennings",
-    "slug": "owen-jennings",
-    "bio": "Owen Jennings is an Executive Officer and Business Lead at Block, managing product operations and customer support across Square, Cash App, and Afterpay. He is known for leading Cash App through its critical scaling period and overseeing Block's AI transformation.",
-    "known_for": "Leading Cash App through its critical scaling period and overseeing Block's AI transformation.",
-    "net_worth_usd": 15000000.0,
-    "net_worth_source": "https://www.gurufocus.com/insider/265938/owen-britton-jennings",
-    "net_worth_updated_at": "2026-04-01T15:15:32.439710",
-    "voice_tone": "Confident and matter-of-fact",
-    "voice_style": "Direct and focused on the practical implications of AI on business operations",
-    "voice_delivery_notes": "Clear and concise, with emphasis on the transformative impact of AI",
-    "voice_profile_updated_at": "2026-04-01 20:15:22",
-    "last_seen": "2026-04-01 20:15:22",
-    "last_episode_title": "What Happens When a Public Company Goes All In on AI",
-    "last_podcast_name": "The a16z Show",
-    "last_episode_date": "2026-04-01",
-    "mention_score": 1,
-    "mention_score_decayed": 0.02,
-    "last_main_idea": "Investing in companies that understand complex problems and can leverage AI to gain a competitive advantage in their operations and product development.",
-    "last_proof_cite": "The a16z Show \u2022 2026-04-01 \u2022 What Happens When a Public Company Goes All In on AI",
-    "last_proof_snippet": "AI agents have significantly increased productivity, with one or two engineers on the tools being able to achieve 10-100x more output than before.",
-    "supporting_takeaway": "AI agents have significantly increased productivity, with one or two engineers on the tools being able to achieve 10-100x more output than before.",
-    "grokipedia_url": null,
-    "grokipedia_fetched_at": "2026-04-01T15:15:31.311281",
-    "pundit_profile": {
-      "source": "llm",
-      "source_model": "moonshot:moonshot-v1-8k",
-      "source_url": "",
-      "page_title": "Owen Jennings",
-      "fetched_at": "2026-04-01T20:15:31.310842+00:00",
-      "cliff_notes": "Owen Jennings is a key figure in the fintech industry, particularly through his role at Block, where he has been instrumental in the growth and scaling of Cash App. His leadership has been pivotal during a critical period of expansion for the company, and he has been at the forefront of Block's AI transformation. Jennings' approach to management and operations has been marked by a focus on efficiency and productivity, as evidenced by his decision to cut the workforce by 40%, emphasizing the importance of leveraging technology and AI to maximize output. His career has been marked by a deep understanding of the intersection between technology and finance, making him a significant player in the industry.",
-      "derived": {
-        "current_role": "Executive Officer and Business Lead at Block"
-      },
-      "infobox": {
-        "Born": "",
-        "Nationality": ""
-      },
-      "lead_paragraphs": [
-        "Owen Jennings is a key figure in the fintech industry, particularly through his role at Block, where he has been instrumental in the growth and scaling of Cash App. His leadership has been pivotal during a critical period of expansion for the company, and he has been at the forefront of Block's AI transformation. Jennings' approach to management and operations has been marked by a focus on efficiency and productivity, as evidenced by his decision to cut the workforce by 40%, emphasizing the importance of leveraging technology and AI to maximize output.",
-        "His career has been marked by a deep understanding of the intersection between technology and finance, making him a significant player in the industry."
-      ],
-      "sections": [
-        {
-          "heading": "Cash App Scaling",
-          "body": "Owen Jennings played a crucial role in leading Cash App through its critical scaling period, managing the app's growth and ensuring its stability amidst rapid expansion."
-        },
-        {
-          "heading": "AI Transformation at Block",
-          "body": "Jennings has overseen Block's AI transformation, integrating advanced technologies to enhance the company's operations and improve efficiency."
-        },
-        {
-          "heading": "Workforce Reduction",
-          "body": "In a bold move, Jennings led the decision to cut Block's workforce by 40%, emphasizing the shift towards leveraging technology and AI to increase productivity rather than solely relying on human labor."
-        },
-        {
-          "heading": "Productivity and Technology",
-          "body": "Jennings believes in the power of technology to increase productivity, suggesting that for a given product or roadmap, fewer engineers, designers, and PMs are needed due to the capabilities of advanced systems."
-        }
-      ]
-    },
-    "net_worth": "$15.0M"
-  },
-  {
     "id": 43,
     "name": "Olivia Moore",
     "slug": "olivia-moore",
@@ -64302,6 +64295,130 @@ const dashboardData = {
         }
       ]
     }
+  },
+  {
+    "id": 147,
+    "name": "Anna Wang",
+    "slug": "anna-wang",
+    "bio": "Anna Wang is the Chief U.S. Economist at Bloomberg, where she provides economic analysis and commentary on inflation and oil prices. She is known for her insightful views on the economic implications of oil price fluctuations and their impact on inflation.",
+    "known_for": "Economic analysis and commentary on inflation and oil prices.",
+    "net_worth_usd": 3000000000.0,
+    "net_worth_source": "https://www.gurufocus.com/insider/231639/wang-nan",
+    "net_worth_updated_at": "2026-04-01T22:04:03.961801",
+    "voice_tone": "Analytical and measured.",
+    "voice_style": "Provides detailed economic analysis with a focus on data and trends.",
+    "voice_delivery_notes": "Speaks with a clear and deliberate pace, emphasizing key economic indicators and potential outcomes.",
+    "voice_profile_updated_at": "2026-04-02 03:03:55",
+    "last_seen": "2026-04-02 03:03:55",
+    "last_episode_title": "Why $200 Oil Won\u2019t Spike Inflation to 9% | Anna Wong on Recession Probability, PCE vs CPI, and Fed Reaction Function In A Scenario of Soaring Energy Prices",
+    "last_podcast_name": "Monetary Matters with Jack Farley",
+    "last_episode_date": "2026-04-01",
+    "mention_score": 1,
+    "mention_score_decayed": 0.01,
+    "last_main_idea": "Pictay asset management's AI-enhanced ETFs (PQNT and PQUS) aim to provide enhanced equity exposure through the use of artificial intelligence.",
+    "last_proof_cite": "Monetary Matters with Jack Farley \u2022 2026-04-01 \u2022 Why $200 Oil Won\u2019t Spike Inflation to 9% | Anna Wong on Recession Probability, PCE vs CPI, and Fed Reaction Function In A Scenario of Soaring Energy Prices",
+    "last_proof_snippet": "Oil futures curve suggests prices will decline to around $80 in the second half of the year.",
+    "supporting_takeaway": "Oil futures curve suggests prices will decline to around $80 in the second half of the year.",
+    "grokipedia_url": null,
+    "grokipedia_fetched_at": "2026-04-01T22:04:02.778580",
+    "pundit_profile": {
+      "source": "llm",
+      "source_model": "moonshot:moonshot-v1-8k",
+      "source_url": "",
+      "page_title": "Anna Wang",
+      "fetched_at": "2026-04-02T03:04:02.778251+00:00",
+      "cliff_notes": "Anna Wang is a prominent economist known for her expertise in U.S. economic analysis, particularly in the areas of inflation and oil prices. As the Chief U.S. Economist at Bloomberg, she offers valuable insights into the economic landscape, helping investors and policymakers navigate complex market conditions. Wang's career has been marked by her ability to provide clear and concise analysis on economic trends, making her a sought-after commentator in the financial industry. Her work at Bloomberg has allowed her to influence economic discourse and contribute to a better understanding of the factors driving inflation and oil prices.",
+      "derived": {
+        "current_role": "Chief U.S. Economist at Bloomberg"
+      },
+      "infobox": {
+        "Born": "",
+        "Nationality": ""
+      },
+      "lead_paragraphs": [
+        "Anna Wang is a prominent economist known for her expertise in U.S. economic analysis, particularly in the areas of inflation and oil prices. As the Chief U.S. Economist at Bloomberg, she offers valuable insights into the economic landscape, helping investors and policymakers navigate complex market conditions. Wang's career has been marked by her ability to provide clear and concise analysis on economic trends, making her a sought-after commentator in the financial industry.",
+        "Her work at Bloomberg has allowed her to influence economic discourse and contribute to a better understanding of the factors driving inflation and oil prices."
+      ],
+      "sections": [
+        {
+          "heading": "Economic Analysis",
+          "body": "Anna Wang is known for her economic analysis, particularly focusing on inflation and oil prices, providing investors with valuable insights into market trends."
+        },
+        {
+          "heading": "Oil Price Impact",
+          "body": "Wang's commentary on the impact of oil prices on inflation has been influential, challenging conventional views and providing a unique perspective on economic indicators."
+        },
+        {
+          "heading": "Economic Commentary",
+          "body": "As a commentator on economic issues, Wang has been instrumental in shaping discussions around the economic implications of oil price fluctuations and their broader impact on the economy."
+        }
+      ]
+    },
+    "net_worth": "$3.00B"
+  },
+  {
+    "id": 145,
+    "name": "Owen Jennings",
+    "slug": "owen-jennings",
+    "bio": "Owen Jennings is an Executive Officer and Business Lead at Block, managing product operations and customer support across Square, Cash App, and Afterpay. He is known for leading Cash App through its critical scaling period and overseeing Block's AI transformation.",
+    "known_for": "Leading Cash App through its critical scaling period and overseeing Block's AI transformation.",
+    "net_worth_usd": 15000000.0,
+    "net_worth_source": "https://www.gurufocus.com/insider/265938/owen-britton-jennings",
+    "net_worth_updated_at": "2026-04-01T15:15:32.439710",
+    "voice_tone": "Confident and matter-of-fact",
+    "voice_style": "Direct and focused on the practical implications of AI on business operations",
+    "voice_delivery_notes": "Clear and concise, with emphasis on the transformative impact of AI",
+    "voice_profile_updated_at": "2026-04-01 20:15:22",
+    "last_seen": "2026-04-01 20:15:22",
+    "last_episode_title": "What Happens When a Public Company Goes All In on AI",
+    "last_podcast_name": "The a16z Show",
+    "last_episode_date": "2026-04-01",
+    "mention_score": 1,
+    "mention_score_decayed": 0.01,
+    "last_main_idea": "Investing in companies that understand complex problems and can leverage AI to gain a competitive advantage in their operations and product development.",
+    "last_proof_cite": "The a16z Show \u2022 2026-04-01 \u2022 What Happens When a Public Company Goes All In on AI",
+    "last_proof_snippet": "AI agents have significantly increased productivity, with one or two engineers on the tools being able to achieve 10-100x more output than before.",
+    "supporting_takeaway": "AI agents have significantly increased productivity, with one or two engineers on the tools being able to achieve 10-100x more output than before.",
+    "grokipedia_url": null,
+    "grokipedia_fetched_at": "2026-04-01T15:15:31.311281",
+    "pundit_profile": {
+      "source": "llm",
+      "source_model": "moonshot:moonshot-v1-8k",
+      "source_url": "",
+      "page_title": "Owen Jennings",
+      "fetched_at": "2026-04-01T20:15:31.310842+00:00",
+      "cliff_notes": "Owen Jennings is a key figure in the fintech industry, particularly through his role at Block, where he has been instrumental in the growth and scaling of Cash App. His leadership has been pivotal during a critical period of expansion for the company, and he has been at the forefront of Block's AI transformation. Jennings' approach to management and operations has been marked by a focus on efficiency and productivity, as evidenced by his decision to cut the workforce by 40%, emphasizing the importance of leveraging technology and AI to maximize output. His career has been marked by a deep understanding of the intersection between technology and finance, making him a significant player in the industry.",
+      "derived": {
+        "current_role": "Executive Officer and Business Lead at Block"
+      },
+      "infobox": {
+        "Born": "",
+        "Nationality": ""
+      },
+      "lead_paragraphs": [
+        "Owen Jennings is a key figure in the fintech industry, particularly through his role at Block, where he has been instrumental in the growth and scaling of Cash App. His leadership has been pivotal during a critical period of expansion for the company, and he has been at the forefront of Block's AI transformation. Jennings' approach to management and operations has been marked by a focus on efficiency and productivity, as evidenced by his decision to cut the workforce by 40%, emphasizing the importance of leveraging technology and AI to maximize output.",
+        "His career has been marked by a deep understanding of the intersection between technology and finance, making him a significant player in the industry."
+      ],
+      "sections": [
+        {
+          "heading": "Cash App Scaling",
+          "body": "Owen Jennings played a crucial role in leading Cash App through its critical scaling period, managing the app's growth and ensuring its stability amidst rapid expansion."
+        },
+        {
+          "heading": "AI Transformation at Block",
+          "body": "Jennings has overseen Block's AI transformation, integrating advanced technologies to enhance the company's operations and improve efficiency."
+        },
+        {
+          "heading": "Workforce Reduction",
+          "body": "In a bold move, Jennings led the decision to cut Block's workforce by 40%, emphasizing the shift towards leveraging technology and AI to increase productivity rather than solely relying on human labor."
+        },
+        {
+          "heading": "Productivity and Technology",
+          "body": "Jennings believes in the power of technology to increase productivity, suggesting that for a given product or roadmap, fewer engineers, designers, and PMs are needed due to the capabilities of advanced systems."
+        }
+      ]
+    },
+    "net_worth": "$15.0M"
   },
   {
     "id": 144,
@@ -66755,10 +66872,10 @@ const dashboardData = {
       "as_of_label": "Sep 18, 2026 ~9:30 AM CT",
       "notional_each_usd": 1000,
       "basket_notional_usd": 5000,
-      "basket_current_value": 5079.62,
-      "basket_change_pct": 1.59,
+      "basket_current_value": 5040.04,
+      "basket_change_pct": 0.8,
       "index_start": 100,
-      "basket_index_value": 101.59,
+      "basket_index_value": 100.8,
       "names": [
         {
           "ticker": "HIMS",
@@ -66767,9 +66884,9 @@ const dashboardData = {
           "inception_price": 28.09,
           "shares": 35.5999,
           "notional": 1000,
-          "current_price": 30.08,
-          "current_value": 1070.84,
-          "change_pct": 7.08
+          "current_price": 29.79,
+          "current_value": 1060.52,
+          "change_pct": 6.05
         },
         {
           "ticker": "GDRX",
@@ -66778,9 +66895,9 @@ const dashboardData = {
           "inception_price": 3.33,
           "shares": 300.3003,
           "notional": 1000,
-          "current_price": 3.31,
-          "current_value": 993.99,
-          "change_pct": -0.6
+          "current_price": 3.29,
+          "current_value": 987.99,
+          "change_pct": -1.2
         },
         {
           "ticker": "TEM",
@@ -66789,9 +66906,9 @@ const dashboardData = {
           "inception_price": 77.97,
           "shares": 12.8254,
           "notional": 1000,
-          "current_price": 83.4,
-          "current_value": 1069.64,
-          "change_pct": 6.96
+          "current_price": 81.9,
+          "current_value": 1050.4,
+          "change_pct": 5.04
         },
         {
           "ticker": "GH",
@@ -66800,9 +66917,9 @@ const dashboardData = {
           "inception_price": 183.1,
           "shares": 5.4615,
           "notional": 1000,
-          "current_price": 179.04,
-          "current_value": 977.83,
-          "change_pct": -2.22
+          "current_price": 178.36,
+          "current_value": 974.11,
+          "change_pct": -2.59
         },
         {
           "ticker": "ABT",
@@ -66811,13 +66928,13 @@ const dashboardData = {
           "inception_price": 102.2,
           "shares": 9.7847,
           "notional": 1000,
-          "current_price": 98.86,
-          "current_value": 967.32,
-          "change_pct": -3.27
+          "current_price": 98.83,
+          "current_value": 967.02,
+          "change_pct": -3.3
         }
       ],
       "disclaimer": "Research sleeve / scorecard, not advice. $1,000 equal-weight illustration only.",
-      "last_updated": "2026-09-30T14:16:11.018910"
+      "last_updated": "2026-09-30T22:36:38.754333"
     }
   ]
 }

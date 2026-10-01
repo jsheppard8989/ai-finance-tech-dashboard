@@ -103,6 +103,37 @@
       ]
     },
     {
+      "id": 554,
+      "title": "Why Dwarkesh is Wrong about Computer Use + How OpenAI shipped its Jev competitor in 1 Week",
+      "source_type": "podcast",
+      "source_name": "Latent Space: The AI Engineer Podcast",
+      "source_date": "2026-09-30",
+      "summary": "This Latent Space episode was recorded around OpenAI DevDay and focused on OpenAI's new agent stack: Dots, Computer Use in the Agents API, GPT-6.1 Sol, UltraFast inference, and the Decisions API. Ari Weinstein argued against the view, attributed by the hosts to Dwarkesh and other AI commentators, that Computer Use has not advanced in the last two years, saying it is now \"180 degrees different\" from a few months ago because models can debug, retry, use accessibility trees and the DOM, and generate JavaScript to execute multiple actions at once.\n\nWeinstein described Computer Use as moving from a slow screenshot-and-scroll loop toward a multimodal software-control layer that combines screenshots, accessibility metadata, Playwright, DOM access, and generated code. He cited a personal meal-prep ordering task that fell from two hours manually to 15 minutes with GPT-6.1 Sol, and he said the new model is one fifth the cost of Astra overall and one seventh the cost for Computer Use specifically.\n\nNikunj Handa then explained OpenAI's API updates, including async function calling, mid-turn steering, WebSockets, UltraFast inference, prompt caching, cache pre-warming, compaction, and the Agents API. He said OpenAI's inference team had recently focused on efficiency, including an 80% Luna price cut, and then shifted toward making Astra run as fast as possible through UltraFast.\n\nThe second half centered on the Decisions API, which Handa said was inspired by Jev and began roughly one week before the conversation. He said the first version is not a newly trained model but a Luna-based implementation using structured outputs, constrained inference, parallel batched questions, and latency optimization, with internal use cases such as support-ticket classification, GPT Live tool calling, and possible Codex workflows.",
+      "key_takeaway": "Ari Weinstein argues OpenAI Computer Use is 180 degrees different than a few months ago because models now debug, use DOM and accessibility data, and execute generated JavaScript.",
+      "tickers_mentioned": [],
+      "sentiment": "neutral",
+      "display_on_main": 1,
+      "display_order": 0,
+      "added_date": "2026-09-30",
+      "archived_date": null,
+      "archived_reason": null,
+      "podcast_episode_id": 539,
+      "notable_quotes": [
+        {
+          "speaker": "Ari Weinstein",
+          "quote": "Computer Use is, like, 180 degrees different than it was."
+        },
+        {
+          "speaker": "Ari Weinstein",
+          "quote": "It both did it eight times faster than I could, and it saved me two hours on GPT-6.1 Sol."
+        },
+        {
+          "speaker": "Nikunj Handa",
+          "quote": "We havent trained, like, a new model for this."
+        }
+      ]
+    },
+    {
       "id": 545,
       "title": "Claude Code\u2019s Next Era \u2014 Thariq Shihipar, Anthropic",
       "source_type": "podcast",
@@ -544,7 +575,7 @@
         "NVDA"
       ],
       "sentiment": "bullish",
-      "display_on_main": 1,
+      "display_on_main": 0,
       "display_order": 0,
       "added_date": "2026-09-28",
       "archived_date": null,
@@ -12541,8 +12572,8 @@
       "term": "AGI",
       "description": "AGI refers to Artificial General Intelligence, a type of AI that can understand, learn, and apply intelligence across a wide range of tasks, similar to human cognitive abilities.",
       "first_detected_date": "2026-05-07",
-      "last_mentioned_date": "2026-09-29",
-      "mention_count": 107,
+      "last_mentioned_date": "2026-09-30",
+      "mention_count": 108,
       "source_podcasts": null,
       "status": "active",
       "investment_implications": "Investors should focus on companies developing AGI technologies as they are likely to drive significant industry transformations.",
@@ -12551,8 +12582,8 @@
       "archived_reason": null,
       "first_detected_episode_id": 204,
       "first_detected_speaker": "Demis Hassabis",
-      "last_mentioned_episode_id": 531,
-      "last_mentioned_speaker": "Palmer Luckey"
+      "last_mentioned_episode_id": 539,
+      "last_mentioned_speaker": "Ari Weinstein, Nikunj Handa"
     },
     {
       "id": 162,
@@ -13619,20 +13650,20 @@
     {
       "id": 114,
       "term": "AI Agents",
-      "description": "Software systems that use AI models to take actions across tools and repeat steps until a task is completed. In the episode, Muse, Grok Bot, and future Google or Apple assistants were discussed as consumer versions of this idea.",
+      "description": "AI Agents are systems that can take tasks, use tools, operate software, call APIs, and continue work across longer-running workflows. The episode emphasized agents with their own Linux cloud computers, browser access, safety checks, and persistent threads.",
       "first_detected_date": "2026-02-28",
       "last_mentioned_date": "2026-09-30",
-      "mention_count": 105,
+      "mention_count": 106,
       "source_podcasts": null,
       "status": "active",
-      "investment_implications": "Agent usage shifts costs toward token generation, memory, CPUs, security, and data-center capacity.",
+      "investment_implications": "It matters for software spend because agent products can automate SaaS workflows, support operations, software testing, and internal business processes.",
       "display_on_main": 0,
       "archived_date": null,
       "archived_reason": null,
       "first_detected_episode_id": 31,
       "first_detected_speaker": null,
-      "last_mentioned_episode_id": 538,
-      "last_mentioned_speaker": "Ben Pouladian"
+      "last_mentioned_episode_id": 539,
+      "last_mentioned_speaker": "Ari Weinstein, Nikunj Handa"
     },
     {
       "id": 38,
