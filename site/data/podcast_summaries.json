@@ -1,5 +1,30 @@
 [
   {
+    "id": 540,
+    "podcast_name": "All-In with Chamath, Jason, Sacks & Friedberg",
+    "episode_title": "Jake Paul & The Chainsmokers: Turning Fame into Funds, Jake Enters Politics? & Venture Bubble Signs",
+    "episode_date": "2026-09-30",
+    "summary": "Jake Paul framed his career as a shift from social media attention into owned businesses, boxing promotion, venture investing, and eventually politics. He said the top 20 Vine creators once asked Vine and Twitter for $1 million each per year, were offered $1 million total to split, stopped posting, and saw Vine die within months. He argued that attention is now a scarce asset on cap tables, citing investments in OpenAI, Cognition, and SpaceX, a $100 million Anti Fund raise, and his involvement in OpenAI Sora's social app launch using his name, image, and likeness.\n\nPaul also described boxing and MMA as a market-structure opportunity. He said 138 million people watched his Mike Tyson fight on Netflix, claimed his built-in audience exceeded 100 million followers, and said MVP now has 400 boxing and MMA fighters after merging with PFL. His core criticism of UFC was that it pays fighters roughly 15% of revenue versus about 50% in other professional sports leagues, which he said creates fighter dissatisfaction and opens room for a competitor that pays talent more and allows sponsorships.\n\nDrew Taggart and Alex Pall of The Chainsmokers explained how music success gave them pattern recognition in distribution, brand, and go-to-market, then described turning that into Mantis, a venture firm focused on cyber, AI, deep tech, and health tech. They said the music market has changed dramatically since 2012, with 300,000 songs now uploaded to Spotify every day, and argued that live performance and DJ economics remain central to their own music business while new artists may eventually bypass traditional labels.\n\nThe venture discussion centered on whether fame helps or hurts capital formation, how celebrity-backed funds earn credibility, and whether current late-stage AI financing behavior shows bubble signs. The Chainsmokers said venture is long-duration and illiquid, that the top 5% of funds generate roughly 90% of returns, and that they have been in venture for 12 years, with seven years since starting the fund. Chamath Palihapitiya and the guests agreed that realized DPI cuts through skepticism, while the guests called 2x to 3x second-tranche markups without underlying performance change a bubble signal.",
+    "key_takeaways": [
+      "Jake Paul claimed the top 20 Vine creators asked Vine and Twitter for $1 million each per year, rejected a $1 million total offer to split, stopped posting, and saw Vine die within a few months.",
+      "Jake Paul argued MVP can challenge UFC because UFC pays fighters roughly 15% of total revenue versus roughly 50% in other professional sports leagues, which he said pushes fighters toward boxing and outside sponsorships.",
+      "Jake Paul said 138 million people watched his Mike Tyson fight on Netflix and that his built-in audience of 100 million followers helped him build boxing promotion around attention before traditional fight records.",
+      "Jake Paul said Anti Fund raised $100 million, already deployed that fund, moved to Fund II, and uses a barbell approach of first checks for founders and growth-stage checks in proven companies.",
+      "Drew Taggart claimed the music market is much harder to break through than in 2012 because 300,000 songs are now uploaded to Spotify every day, which changes discovery and label economics.",
+      "Alex Pall argued Mantis does not replace firms like Craft or Sequoia because it invests in Series-stage cyber, AI, deep tech, and health tech companies without taking lead positions and focuses on go-to-market, relationships, and brand.",
+      "The Chainsmokers argued that double or triple tranche deals can be bubble behavior when the second tranche carries a 2x to 3x markup despite no change in underlying company performance."
+    ],
+    "investment_thesis": "Jake Paul and The Chainsmokers argue attention can improve startup go-to-market, while The Chainsmokers warn 2x to 3x tranche markups without performance change are bubble behavior.",
+    "key_tickers": [
+      "NFLX",
+      "SPOT",
+      "UBER",
+      "HOOD",
+      "GOOGL",
+      "META"
+    ]
+  },
+  {
     "id": 539,
     "podcast_name": "Latent Space: The AI Engineer Podcast",
     "episode_title": "Why Dwarkesh is Wrong about Computer Use + How OpenAI shipped its Jev competitor in 1 Week",
