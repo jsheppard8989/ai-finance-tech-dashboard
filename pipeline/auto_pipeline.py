@@ -807,6 +807,46 @@ def _get_timestamp_chicago_or_utc() -> str:
         return datetime.now().strftime("%Y-%m-%d-%H%M")
 
 
+def _git_head_branch() -> str | None:
+    """Current branch name, or None if rev-parse failed."""
+    r = subprocess.run(
+        ["git", "rev-parse", "--abbrev-ref", "HEAD"],
+        capture_output=True,
+        text=True,
+        cwd=WORKSPACE,
+        timeout=30,
+    )
+    if r.returncode != 0:
+        return None
+    return (r.stdout or "").strip() or None
+
+
+def _ensure_checked_out_main() -> bool:
+    """Publisher must run on main; never pull/rebase/commit on a side branch."""
+    branch = _git_head_branch()
+    if branch is None:
+        msg = "git rev-parse --abbrev-ref HEAD failed"
+        print(f"✗ {msg}")
+        send_notification("Pipeline: Git checkout main failed", msg[:900], priority=1)
+        return False
+    if branch == "main":
+        return True
+    print(f"Git: checkout main (was on {branch})...")
+    r = subprocess.run(
+        ["git", "checkout", "main"],
+        capture_output=True,
+        text=True,
+        cwd=WORKSPACE,
+        timeout=60,
+    )
+    if r.returncode != 0:
+        msg = (r.stderr or r.stdout or "git checkout main failed").strip()
+        print(f"✗ {msg}")
+        send_notification("Pipeline: Git checkout main failed", msg[:900], priority=1)
+        return False
+    return True
+
+
 def _publish_via_pr(commit_msg: str, pathspecs: list) -> tuple[bool, str]:
     """
     Create a branch + PR to land site changes when direct push to main is blocked (GH013).
@@ -923,6 +963,9 @@ def git_push(commit_msg: str, pathspecs=None) -> bool:
         except Exception:
             pass
     try:
+        if not _ensure_checked_out_main():
+            return False
+
         # Integrate remote main before commit/push so we avoid non-fast-forward rejections
         # when GitHub (or another machine) advanced main after our last fetch.
         skip_pull = os.environ.get("SKIP_GIT_PULL_BEFORE_PUSH", "").strip().lower() in (
@@ -994,6 +1037,23 @@ def git_push(commit_msg: str, pathspecs=None) -> bool:
                            cwd=WORKSPACE, capture_output=True)
 
         def _do_push() -> subprocess.CompletedProcess:
+            head = _git_head_branch()
+            if head != "main":
+                msg = (
+                    f"Refusing git push origin main: HEAD is on '{head or '?'}', not main."
+                )
+                print(f"✗ {msg}")
+                send_notification(
+                    "Pipeline: Git push blocked — not on main",
+                    msg[:900],
+                    priority=1,
+                )
+                return subprocess.CompletedProcess(
+                    args=["git", "push", "origin", "main"],
+                    returncode=1,
+                    stdout="",
+                    stderr=msg,
+                )
             return subprocess.run(
                 ["git", "push", "origin", "main"],
                 capture_output=True,
