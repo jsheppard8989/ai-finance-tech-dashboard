@@ -1,5 +1,23 @@
 [
   {
+    "id": 541,
+    "podcast_name": "Dwarkesh Podcast",
+    "episode_title": "Si Sheppard \u2013 How did a few hundred Spanish soldiers topple two empires?",
+    "episode_date": "2026-10-01",
+    "summary": "Dwarkesh Patel interviewed military historian Si Sheppard about how Hernan Cortes and Francisco Pizarro overthrew the Aztec and Inca empires with only hundreds of Spaniards. The episode framed the conquests as a combination of technology, diplomacy, disease, and organizational shock: Cortes reached Mesoamerica in 1519 and, within about two and a half years, defeated an Aztec empire of roughly 6 million people, while Pizarro reached Peru a decade later and helped bring down an Inca empire of roughly 10 million people over about five years.\n\nSheppard argued that Spanish superiority was not mainly guns, because early firearms reloaded slowly and did limited battlefield damage. He emphasized horses, steel, naval mobility, and battlefield discipline, but said diplomacy was equally important: Cortes relied on Tlaxcalan, Totonac, and other Mesoamerican allies, and Pizarro benefited from subject peoples inside the Inca imperial structure who resented Cuzco. In both cases, the Spanish often made up only a tiny share of their own fighting force, with Sheppard estimating that conquistadors were around 0.5 percent of the force marching on Tenochtitlan.\n\nThe central disagreement or tension was between contingency and inevitability. Dwarkesh pressed whether the conquests were freak outcomes, while Sheppard answered that short-term victory was highly contingent: Cortes could have died, Atahualpa could have avoided Cajamarca, and the Inca could win battles in mountain passes. But Sheppard also argued that the longer-run demographic shock from smallpox and other Eurasian diseases, combined with imperial fragmentation, made eventual European domination likely even if the first campaigns had failed.\n\nThe episode also drew investment-relevant lessons from Spain's silver windfall. Sheppard and Dwarkesh argued that Potosi silver gave Spain liquidity but not durable productive capacity, importing inflation and weakening incentives to build capital markets. By contrast, England and the Netherlands, which lacked easy bullion windfalls, developed banking, trade, corporations, and industrial capacity; the discussion extended this point to the East India Company, whose corporate governance and control of Bengal tax revenue helped it consolidate power in India.",
+    "key_takeaways": [
+      "Si Sheppard argues Cortes's conquest succeeded after 1519 because a few hundred Spaniards combined horses and steel with Totonac and Tlaxcalan resentment of Aztec hegemony.",
+      "Si Sheppard says Pizarro captured Atahualpa at Cajamarca in 1532 with 168 men by using artillery noise, musket shock, and cavalry to rout tens of thousands of Inca soldiers.",
+      "Si Sheppard argues Aztec and Inca forces adapted by flooding Iztapalapa, using bolas, and fixing captured Spanish swords to long poles, but Cortes's two-and-a-half-year campaign left too little time to absorb the tactics.",
+      "Si Sheppard argues hierarchical empires were vulnerable because capturing the huey tlatoani or Sapa Inca let Spaniards govern through puppets, while dispersed Maya city-states resisted into the late 17th century.",
+      "Si Sheppard argues Spain's Potosi silver windfall imported inflation, reduced real wages, and delayed capital-market development while England and the Netherlands advanced through banking, trade, and industrial investment.",
+      "Si Sheppard argues the East India Company outmaneuvered Indian monarchies because a profit-driven corporation could replace leaders and redirect Bengal tax revenue through a flexible governance structure.",
+      "The sponsor segment claimed Jane Street's 2026 intern projects included an LLM memorization study and a custom activation checkpointing scheme that outperformed PyTorch's native version."
+    ],
+    "investment_thesis": "Si Sheppard argues Spain's 16th-century silver windfall imported inflation and delayed capital-market development, while England and the Netherlands advanced through banking, trade, and industrial investment.",
+    "key_tickers": null
+  },
+  {
     "id": 540,
     "podcast_name": "All-In with Chamath, Jason, Sacks & Friedberg",
     "episode_title": "Jake Paul & The Chainsmokers: Turning Fame into Funds, Jake Enters Politics? & Venture Bubble Signs",
