@@ -1,5 +1,23 @@
 [
   {
+    "id": 539,
+    "podcast_name": "Latent Space: The AI Engineer Podcast",
+    "episode_title": "Why Dwarkesh is Wrong about Computer Use + How OpenAI shipped its Jev competitor in 1 Week",
+    "episode_date": "2026-09-30",
+    "summary": "This Latent Space episode was recorded around OpenAI DevDay and focused on OpenAI's new agent stack: Dots, Computer Use in the Agents API, GPT-6.1 Sol, UltraFast inference, and the Decisions API. Ari Weinstein argued against the view, attributed by the hosts to Dwarkesh and other AI commentators, that Computer Use has not advanced in the last two years, saying it is now \"180 degrees different\" from a few months ago because models can debug, retry, use accessibility trees and the DOM, and generate JavaScript to execute multiple actions at once.\n\nWeinstein described Computer Use as moving from a slow screenshot-and-scroll loop toward a multimodal software-control layer that combines screenshots, accessibility metadata, Playwright, DOM access, and generated code. He cited a personal meal-prep ordering task that fell from two hours manually to 15 minutes with GPT-6.1 Sol, and he said the new model is one fifth the cost of Astra overall and one seventh the cost for Computer Use specifically.\n\nNikunj Handa then explained OpenAI's API updates, including async function calling, mid-turn steering, WebSockets, UltraFast inference, prompt caching, cache pre-warming, compaction, and the Agents API. He said OpenAI's inference team had recently focused on efficiency, including an 80% Luna price cut, and then shifted toward making Astra run as fast as possible through UltraFast.\n\nThe second half centered on the Decisions API, which Handa said was inspired by Jev and began roughly one week before the conversation. He said the first version is not a newly trained model but a Luna-based implementation using structured outputs, constrained inference, parallel batched questions, and latency optimization, with internal use cases such as support-ticket classification, GPT Live tool calling, and possible Codex workflows.",
+    "key_takeaways": [
+      "Ari Weinstein argues Computer Use is \"180 degrees different\" from a few months ago because OpenAI models now debug, retry, introspect failures, and use screenshots, accessibility data, Playwright, and generated JavaScript.",
+      "Ari Weinstein claimed GPT-6.1 Sol is one fifth the cost of Astra overall and one seventh the cost for Computer Use specifically, making Computer Use more cost-effective than the baseline model cost reduction.",
+      "Ari Weinstein said a meal-prep ordering workflow took him two hours manually but 15 minutes with Computer Use on GPT-6.1 Sol, which he described as eight times faster than doing it himself.",
+      "Ari Weinstein said Tejal highlighted 7x improvements in Computer Use speed, and he attributed gains to both model improvements and harness changes such as direct DOM access and code execution.",
+      "Nikunj Handa said GPT-6 adds async function calling and mid-turn steering through WebSockets, allowing the model to keep reasoning while tools run and then inject results during the same turn.",
+      "Nikunj Handa said the Decisions API started roughly one week before the episode after Jev inspired OpenAI teams, and the first implementation uses Luna weights rather than a newly trained model.",
+      "Nikunj Handa said OpenAI now offers 30-minute cache-hit guarantees and has previewed a 12-hour cache window for one user, with cache pre-warming available through the API."
+    ],
+    "investment_thesis": "Ari Weinstein argues OpenAI Computer Use is 180 degrees different than a few months ago because models now debug, use DOM and accessibility data, and execute generated JavaScript.",
+    "key_tickers": null
+  },
+  {
     "id": 538,
     "podcast_name": "Monetary Matters with Jack Farley",
     "episode_title": "Token Bill Dwarfs CPU Bill | Ben Pouladian on Meta's Muse, Anthropic S1, and Why All Roads Still Lead to NVIDIA",
