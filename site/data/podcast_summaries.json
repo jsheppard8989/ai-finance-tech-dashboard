@@ -1,5 +1,48 @@
 [
   {
+    "id": 543,
+    "podcast_name": "The a16z Show",
+    "episode_title": "Rebuilding the Internet for Privacy | Barrett Lyon on DoxxNet",
+    "episode_date": "2026-10-01",
+    "summary": "A16Z's Joel de la Garza interviewed Barrett Lyon about DoxxNet, a privacy network that Lyon frames as a response to internet protocol stagnation, censorship pressure, advertiser tracking, and the weaknesses of conventional VPNs. Lyon described DoxxNet as an encrypted peer-to-peer network designed to avoid central servers sitting between users, with the goal of restoring some of the early internet's direct connection model.\n\nLyon contrasted DoxxNet with VPNs that often lease servers from third parties and act mainly as entry and exit points. He claimed DoxxNet has built a mesh network with 196 domains outside the public internet, supports domain and address registration, and can create policy in milliseconds. He also said the product enables phone calls, video calls, chat, and file transfers over the mesh, including a 20 gigabyte file transfer without phone numbers, emails, names, or a server in the middle.\n\nA major investment-relevant claim was that infrastructure ownership changes the security model. Lyon said DoxxNet owns the stack from software to wire, has built 26 sites globally with 12 people, and uses AI for network administration and routing rather than employing a conventional network administrator or sysadmin. He argued that if a company does not own its equipment, it cannot fully set policy, and that fewer employees with access reduces insider-threat exposure.\n\nThe conversation also covered data-center politics and advertiser surveillance. Joel de la Garza and Lyon argued that public narratives against data centers appear manipulated, while Lyon said visits to more than 20 data centers showed no protest activity and that data centers bring jobs, high-tech talent, and internet infrastructure. Lyon also argued that app and website telemetry can be aggregated by advertisers and data brokers to infer wake-up time, income, shopping behavior, and major life events, and that LLMs make this tracking more powerful by summarizing personal data at scale.",
+    "key_takeaways": [
+      "Barrett Lyon argues that many VPNs are just encrypted entry and exit points on leased servers, because the VPN operator may not control the landlord, hardware, or downstream data policies.",
+      "Barrett Lyon claims DoxxNet built a mesh network with 196 domains that do not exist on the public internet, where domains, mesh addresses, public addresses, and policy can be created in milliseconds.",
+      "Barrett Lyon says DoxxNet enables encrypted peer-to-peer phone calls, video calls, chat, and 20 gigabyte file transfers by making a user's phone act as a server to a trusted friend.",
+      "Barrett Lyon claims DoxxNet operates 26 sites around the world with 12 people and no traditional network administrator or sysadmin, because AI runs routing and administrative functions on the company's own hardware.",
+      "Barrett Lyon argues that advertiser and app telemetry becomes more dangerous when aggregated, because it can reveal wake-up time, income, shopping frequency, and life events before a spouse might know them.",
+      "Joel de la Garza and Barrett Lyon argue that the anti-data-center narrative appears manipulated, while Lyon cites visits to more than 20 data centers where he saw no protesters and says data centers bring jobs and infrastructure.",
+      "Barrett Lyon argues that age and identity restrictions are being pushed to the wrong layer of the stack, because an IP address is not a driver's license and networks do not solve identity."
+    ],
+    "investment_thesis": "Barrett Lyon argues DoxxNet differs from VPNs by owning hardware across 26 sites and enabling encrypted peer-to-peer communication without central servers, reducing leased-server and insider-threat exposure.",
+    "key_tickers": null
+  },
+  {
+    "id": 542,
+    "podcast_name": "Macro Voices",
+    "episode_title": "MacroVoices #552 David Rosenberg: Navigating The Noise",
+    "episode_date": "2026-10-01",
+    "summary": "David Rosenberg argued that the current inflation scare is overstated because the tariff shock from the prior year did not create persistent goods inflation, with core goods CPI slowing from about 1.5% year-over-year to below 0.7%, a four-year low. He said energy and diesel can stay elevated without creating sustained inflation if wage growth does not accelerate, citing John Williams's September 29 speech that found no evidence of price shocks feeding into wages.",
+    "key_takeaways": [
+      "David Rosenberg argues the tariff shock did not create sustained inflation because core goods CPI slowed from about 1.5% year-over-year to below 0.7%, a four-year low, despite the largest tariff-rate increase since the early to mid-1930s.",
+      "David Rosenberg claims the current energy shock is unlikely to become self-reinforcing because price increases must feed into wages, and he cited John Williams's September 29 speech saying no evidence showed those shocks entering wages.",
+      "David Rosenberg argues the rise in real yields reflects higher capital demand from AI hyperscalers and a Fed regime change, with markets shifting from pricing one or two rate cuts in February to three or four additional hikes after Kevin Warsh took over in June.",
+      "David Rosenberg predicts the November 3, 2026 midterms could create fiscal gridlock, and he said historical shifts from one-party control to divided government produced slower growth, lower inflation, and lower bond yields 80% of the time over the following two years.",
+      "David Rosenberg says the November 4 Treasury refunding announcement could matter for long yields because Janet Yellen's November 2023 shift from notes and bonds toward bills preceded a roughly 100 basis point rally in the 10-year note by December.",
+      "David Rosenberg claims housing is already deflationary because new home inventory is 8.5 months, new home prices are down 8.5% year-over-year, residential rents are deflating, and real-time shelter inputs would put core CPI below 2%.",
+      "Patrick Ceresna argues the S&P 500 is masking weak internals because the median S&P 500 stock is 16% below its 52-week high, only 20% of constituents are above their 50-day moving average, and a 150-point S&P drop could trigger gamma, volatility-targeting, and CTA selling."
+    ],
+    "investment_thesis": "David Rosenberg argues November 3 midterm gridlock could slow growth, inflation, and bond yields because shifts from one-party control to divided government produced that outcome 80% of the time.",
+    "key_tickers": [
+      "SPX",
+      "NDX",
+      "RUT",
+      "AAPL",
+      "META",
+      "NVDA"
+    ]
+  },
+  {
     "id": 541,
     "podcast_name": "Dwarkesh Podcast",
     "episode_title": "Si Sheppard \u2013 How did a few hundred Spanish soldiers topple two empires?",

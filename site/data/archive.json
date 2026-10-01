@@ -32,6 +32,75 @@
       ]
     },
     {
+      "id": 557,
+      "title": "Rebuilding the Internet for Privacy | Barrett Lyon on DoxxNet",
+      "source_type": "podcast",
+      "source_name": "The a16z Show",
+      "source_date": "2026-10-01",
+      "summary": "A16Z's Joel de la Garza interviewed Barrett Lyon about DoxxNet, a privacy network that Lyon frames as a response to internet protocol stagnation, censorship pressure, advertiser tracking, and the weaknesses of conventional VPNs. Lyon described DoxxNet as an encrypted peer-to-peer network designed to avoid central servers sitting between users, with the goal of restoring some of the early internet's direct connection model.\n\nLyon contrasted DoxxNet with VPNs that often lease servers from third parties and act mainly as entry and exit points. He claimed DoxxNet has built a mesh network with 196 domains outside the public internet, supports domain and address registration, and can create policy in milliseconds. He also said the product enables phone calls, video calls, chat, and file transfers over the mesh, including a 20 gigabyte file transfer without phone numbers, emails, names, or a server in the middle.\n\nA major investment-relevant claim was that infrastructure ownership changes the security model. Lyon said DoxxNet owns the stack from software to wire, has built 26 sites globally with 12 people, and uses AI for network administration and routing rather than employing a conventional network administrator or sysadmin. He argued that if a company does not own its equipment, it cannot fully set policy, and that fewer employees with access reduces insider-threat exposure.\n\nThe conversation also covered data-center politics and advertiser surveillance. Joel de la Garza and Lyon argued that public narratives against data centers appear manipulated, while Lyon said visits to more than 20 data centers showed no protest activity and that data centers bring jobs, high-tech talent, and internet infrastructure. Lyon also argued that app and website telemetry can be aggregated by advertisers and data brokers to infer wake-up time, income, shopping behavior, and major life events, and that LLMs make this tracking more powerful by summarizing personal data at scale.",
+      "key_takeaway": "Barrett Lyon argues DoxxNet differs from VPNs by owning hardware across 26 sites and enabling encrypted peer-to-peer communication without central servers, reducing leased-server and insider-threat exposure.",
+      "tickers_mentioned": [],
+      "sentiment": "bearish",
+      "display_on_main": 1,
+      "display_order": 0,
+      "added_date": "2026-10-01",
+      "archived_date": null,
+      "archived_reason": null,
+      "podcast_episode_id": 543,
+      "notable_quotes": [
+        {
+          "speaker": "Barrett Lyon",
+          "quote": "if it's not your equipment, you can't set policy."
+        },
+        {
+          "speaker": "Barrett Lyon",
+          "quote": "your phone becomes a server to your friend."
+        },
+        {
+          "speaker": "Joel de la Garza",
+          "quote": "The internet succeeded because it was free."
+        }
+      ]
+    },
+    {
+      "id": 558,
+      "title": "MacroVoices #552 David Rosenberg: Navigating The Noise",
+      "source_type": "podcast",
+      "source_name": "Macro Voices",
+      "source_date": "2026-10-01",
+      "summary": "David Rosenberg argued that the current inflation scare is overstated because the tariff shock from the prior year did not create persistent goods inflation, with core goods CPI slowing from about 1.5% year-over-year to below 0.7%, a four-year low. He said energy and diesel can stay elevated without creating sustained inflation if wage growth does not accelerate, citing John Williams's September 29 speech that found no evidence of price shocks feeding into wages.",
+      "key_takeaway": "David Rosenberg argues November 3 midterm gridlock could slow growth, inflation, and bond yields because shifts from one-party control to divided government produced that outcome 80% of the time.",
+      "tickers_mentioned": [
+        "SPX",
+        "NDX",
+        "RUT",
+        "AAPL",
+        "META",
+        "NVDA"
+      ],
+      "sentiment": "bullish",
+      "display_on_main": 1,
+      "display_order": 0,
+      "added_date": "2026-10-01",
+      "archived_date": null,
+      "archived_reason": null,
+      "podcast_episode_id": 542,
+      "notable_quotes": [
+        {
+          "speaker": "David Rosenberg",
+          "quote": "Inflation is not a level. Inflation is a rate of change."
+        },
+        {
+          "speaker": "David Rosenberg",
+          "quote": "Housing is in a recession."
+        },
+        {
+          "speaker": "David Rosenberg",
+          "quote": "80% of the time, the economy slows, 80% of the time inflation goes down, and 80% of the time bond yields go down"
+        }
+      ]
+    },
+    {
       "id": 551,
       "title": "The $1 Trillion AI Buildout | State of Markets",
       "source_type": "podcast",
@@ -301,7 +370,7 @@
         "NVDA"
       ],
       "sentiment": "neutral",
-      "display_on_main": 1,
+      "display_on_main": 0,
       "display_order": 0,
       "added_date": "2026-09-28",
       "archived_date": null,
@@ -489,7 +558,7 @@
         "NVDA"
       ],
       "sentiment": "bullish",
-      "display_on_main": 1,
+      "display_on_main": 0,
       "display_order": 0,
       "added_date": "2026-09-27",
       "archived_date": null,
@@ -11993,8 +12062,8 @@
       "term": "AI Boom",
       "description": "A period characterized by rapid technological advancement, significant investment, and widespread adoption of artificial intelligence, leading to substantial economic growth and wealth creation.",
       "first_detected_date": "2026-06-29",
-      "last_mentioned_date": "2026-09-30",
-      "mention_count": 16,
+      "last_mentioned_date": "2026-10-01",
+      "mention_count": 17,
       "source_podcasts": null,
       "status": "active",
       "investment_implications": "This era presents unparalleled opportunities for investors to back innovative startups and capitalize on transformative industry shifts.",
@@ -12003,8 +12072,8 @@
       "archived_reason": null,
       "first_detected_episode_id": 320,
       "first_detected_speaker": "Leakwet Ahamed",
-      "last_mentioned_episode_id": 538,
-      "last_mentioned_speaker": "Ben Pouladian"
+      "last_mentioned_episode_id": 542,
+      "last_mentioned_speaker": "David Rosenberg"
     },
     {
       "id": 279,
@@ -12029,8 +12098,8 @@
       "term": "Hyperscalers",
       "description": "Large cloud service providers that scale their services to meet high demand, significantly impacting the infrastructure market.",
       "first_detected_date": "2026-06-19",
-      "last_mentioned_date": "2026-09-30",
-      "mention_count": 41,
+      "last_mentioned_date": "2026-10-01",
+      "mention_count": 42,
       "source_podcasts": null,
       "status": "active",
       "investment_implications": "Hyperscalers' investment trends indicate strong demand for compute resources, presenting opportunities for related suppliers.",
@@ -12039,8 +12108,8 @@
       "archived_reason": null,
       "first_detected_episode_id": 302,
       "first_detected_speaker": "Chamath Palihapitiya, Jason Calacanis (hosts)",
-      "last_mentioned_episode_id": 538,
-      "last_mentioned_speaker": "Ben Pouladian"
+      "last_mentioned_episode_id": 542,
+      "last_mentioned_speaker": "David Rosenberg"
     },
     {
       "id": 256,
@@ -12189,20 +12258,20 @@
     {
       "id": 138,
       "term": "AI CapEx",
-      "description": "The large capital spending cycle for data centers, chips, power, memory, networking, and cloud contracts needed to train and serve AI models. The episode tied Meta, Anthropic, OpenAI, and hyperscaler spending to expected token demand.",
+      "description": "Capital spending by AI-focused hyperscalers on data centers, chips, and related infrastructure. Rosenberg argued this spending boom is increasingly funded through the bond market rather than internal cash flow.",
       "first_detected_date": "2026-06-08",
-      "last_mentioned_date": "2026-09-30",
-      "mention_count": 29,
+      "last_mentioned_date": "2026-10-01",
+      "mention_count": 30,
       "source_podcasts": null,
       "status": "active",
-      "investment_implications": "AI CapEx drives semiconductor, power, memory, and construction demand but also raises return-on-capital and circular-financing questions.",
+      "investment_implications": "It matters because incremental corporate borrowing can compete with government borrowing and push real yields higher.",
       "display_on_main": 0,
       "archived_date": null,
       "archived_reason": null,
       "first_detected_episode_id": 271,
       "first_detected_speaker": null,
-      "last_mentioned_episode_id": 538,
-      "last_mentioned_speaker": "Ben Pouladian"
+      "last_mentioned_episode_id": 542,
+      "last_mentioned_speaker": "David Rosenberg"
     },
     {
       "id": 234,
@@ -12801,20 +12870,20 @@
     {
       "id": 126,
       "term": "Data Center Nimbyism",
-      "description": "Local political opposition to building data centers because of power, water, land, and community concerns. Pouladian said some towns that approved data centers later moved toward moratoriums after town-hall pushback.",
+      "description": "Public or political opposition to data centers, often framed around noise, water use, or local disruption. Lyon and de la Garza argue that some of this debate appears manipulated and disconnected from how data centers actually operate.",
       "first_detected_date": "2026-04-20",
-      "last_mentioned_date": "2026-09-30",
-      "mention_count": 8,
+      "last_mentioned_date": "2026-10-01",
+      "mention_count": 9,
       "source_podcasts": null,
       "status": "active",
-      "investment_implications": "Permitting resistance can slow gigawatts of power additions, delay lease starts, and shift data-center builds to friendlier regions or countries.",
+      "investment_implications": "This matters for AI Infrastructure and cloud capacity because permitting friction can affect the speed and location of new compute buildouts.",
       "display_on_main": 0,
       "archived_date": null,
       "archived_reason": null,
       "first_detected_episode_id": null,
       "first_detected_speaker": null,
-      "last_mentioned_episode_id": 538,
-      "last_mentioned_speaker": "Ben Pouladian"
+      "last_mentioned_episode_id": 543,
+      "last_mentioned_speaker": "Barrett Lyon"
     },
     {
       "id": 118,
@@ -13143,20 +13212,20 @@
     {
       "id": 78,
       "term": "Open-Source AI Models",
-      "description": "AI models that are made publicly available for use and modification, promoting innovation and accessibility.",
+      "description": "AI models that can be obtained for free or low cost and run on a company's own hardware rather than through a closed cloud provider. The episode framed Chinese open-source models as a possible competitive threat to frontier AI providers.",
       "first_detected_date": "2026-03-29",
-      "last_mentioned_date": "2026-09-28",
-      "mention_count": 28,
+      "last_mentioned_date": "2026-10-01",
+      "mention_count": 29,
       "source_podcasts": null,
       "status": "active",
-      "investment_implications": "The democratization of AI through open-source models can drive advancements across various industries, including healthcare.",
+      "investment_implications": "It matters because cheaper self-hosted AI could pressure AI service pricing, weaken closed-model moats, and reinforce disinflationary competition.",
       "display_on_main": 0,
       "archived_date": null,
       "archived_reason": null,
       "first_detected_episode_id": null,
       "first_detected_speaker": null,
-      "last_mentioned_episode_id": 532,
-      "last_mentioned_speaker": "Daniel Ek"
+      "last_mentioned_episode_id": 542,
+      "last_mentioned_speaker": "David Rosenberg"
     },
     {
       "id": 79,
@@ -13719,20 +13788,20 @@
     {
       "id": 114,
       "term": "AI Agents",
-      "description": "AI Agents are systems that can take tasks, use tools, operate software, call APIs, and continue work across longer-running workflows. The episode emphasized agents with their own Linux cloud computers, browser access, safety checks, and persistent threads.",
+      "description": "Autonomous AI systems that can perform operational tasks such as routing, administration, monitoring, or security workflows. Lyon says DoxxNet uses AI to run network operations rather than relying on large human admin teams.",
       "first_detected_date": "2026-02-28",
-      "last_mentioned_date": "2026-09-30",
-      "mention_count": 106,
+      "last_mentioned_date": "2026-10-01",
+      "mention_count": 107,
       "source_podcasts": null,
       "status": "active",
-      "investment_implications": "It matters for software spend because agent products can automate SaaS workflows, support operations, software testing, and internal business processes.",
+      "investment_implications": "This matters for operating leverage in infrastructure businesses because automated operations can reduce headcount and insider-threat surfaces.",
       "display_on_main": 0,
       "archived_date": null,
       "archived_reason": null,
       "first_detected_episode_id": 31,
       "first_detected_speaker": null,
-      "last_mentioned_episode_id": 539,
-      "last_mentioned_speaker": "Ari Weinstein, Nikunj Handa"
+      "last_mentioned_episode_id": 543,
+      "last_mentioned_speaker": "Barrett Lyon"
     },
     {
       "id": 38,
