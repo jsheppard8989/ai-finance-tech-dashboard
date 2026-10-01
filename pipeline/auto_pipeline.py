@@ -847,6 +847,21 @@ def _ensure_checked_out_main() -> bool:
     return True
 
 
+def _abort_push_if_not_on_main() -> bool:
+    """If HEAD is not main, notify once and tell caller to return False (no git push)."""
+    head = _git_head_branch()
+    if head == "main":
+        return False
+    msg = f"Refusing git push origin main: HEAD is on '{head or '?'}', not main."
+    print(f"✗ {msg}")
+    send_notification(
+        "Pipeline: Git push blocked — not on main",
+        msg[:900],
+        priority=1,
+    )
+    return True
+
+
 def _publish_via_pr(commit_msg: str, pathspecs: list) -> tuple[bool, str]:
     """
     Create a branch + PR to land site changes when direct push to main is blocked (GH013).
@@ -1037,23 +1052,6 @@ def git_push(commit_msg: str, pathspecs=None) -> bool:
                            cwd=WORKSPACE, capture_output=True)
 
         def _do_push() -> subprocess.CompletedProcess:
-            head = _git_head_branch()
-            if head != "main":
-                msg = (
-                    f"Refusing git push origin main: HEAD is on '{head or '?'}', not main."
-                )
-                print(f"✗ {msg}")
-                send_notification(
-                    "Pipeline: Git push blocked — not on main",
-                    msg[:900],
-                    priority=1,
-                )
-                return subprocess.CompletedProcess(
-                    args=["git", "push", "origin", "main"],
-                    returncode=1,
-                    stdout="",
-                    stderr=msg,
-                )
             return subprocess.run(
                 ["git", "push", "origin", "main"],
                 capture_output=True,
@@ -1061,6 +1059,9 @@ def git_push(commit_msg: str, pathspecs=None) -> bool:
                 cwd=WORKSPACE,
                 timeout=60,
             )
+
+        if _abort_push_if_not_on_main():
+            return False
 
         push_result = _do_push()
         if push_result.returncode != 0:
@@ -1102,6 +1103,8 @@ def git_push(commit_msg: str, pathspecs=None) -> bool:
                                 scan_msg[:900],
                                 priority=1,
                             )
+                            return False
+                        if _abort_push_if_not_on_main():
                             return False
                         push_result = _do_push()
             if push_result.returncode != 0:
