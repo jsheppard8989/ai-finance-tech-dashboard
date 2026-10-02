@@ -1,5 +1,53 @@
 [
   {
+    "id": 545,
+    "podcast_name": "Latent Space: The AI Engineer Podcast",
+    "episode_title": "Academia is for Ambition \u2014 Alex Zhang, MIT",
+    "episode_date": "2026-10-02",
+    "summary": "Alex Zhang discussed how his path through GPU Mode, KernelBench, and MIT research shaped his view that AI systems are leaving capability on the table because the scaffolding around models is primitive. He described GPU Mode as starting around 2023 as a CUDA-focused Discord for learning GPU kernels, and said AI-generated kernels now dominate many leaderboard solutions, but verification remains a bottleneck because only one top-10-style solution from Gauners was described as stable in real end-to-end systems.\n\nThe discussion moved from systems to research taste. Alex argued that PhD students have an advantage when they work on problems that initially look trivial, weird, or pointless, citing SWE-bench, ReAct, Quiet-STaR, and RLMs as examples of simple ideas that later became important. He also argued that GEV-style output-space changes, loop transformers, and other departures from standard autoregressive text-to-text decoders matter because the definition of a language model need not be limited to a transformer decoder, and because a binary classification task can be wasteful if routed through a frontier model at roughly 400x cost.\n\nAlex defined Recursive Language Models as a harness design where code is the central tool, the model can call itself as a tool, and context is offloaded into a persistent memory such as a file system. He said RLM-style training showed transfer from short tasks to tasks 8-30x longer because the model learned a program-like strategy that remained valid at longer lengths, and he described Prime Agent as a Pi-based harness that restricts the tool surface to IPython while adding context offloading, persistent subagents, and agent-to-agent communication.\n\nThe most investment-relevant section centered on agent swarms and capability overhang. Swyx cited OpenAI's reported 10,000-agent, 88-hour experiment with 130 billion output tokens and an estimated $40 million equivalent at public pricing, while Alex argued that OpenAI likely trained swarm behavior effectively and that convergence is the hard part. He contrasted this with Kimi's swarm demos and Fable dynamic workflows, then predicted that the future model interface may hide a swarm, scaffold, or weird harness under a simple front end rather than expose the internal orchestration to users.",
+    "key_takeaways": [
+      "Alex Zhang claims AI-generated GPU kernels on the GPU Mode leaderboard still have a verification gap because Gauners' AI-assisted kernel was basically the only top-10 solution stable in end-to-end systems.",
+      "Alex Zhang argues one expert insight can replace brute force because a knowledgeable verifier can uncover a solution direction that would erase 100 billion or one trillion tokens of search.",
+      "Alex Zhang argues GEV is important because changing a language model's output space can avoid a roughly 400x cost for binary classification compared with asking an autoregressive frontier model.",
+      "Alex Zhang said RLM experiments showed training on short tasks generalized to tasks 8-30x longer because the learned strategy transferred as the same program.",
+      "Swyx stated OpenAI's reported swarm used 10,000 agents for 88 hours and produced 130 billion output tokens, estimated at about $40 million in public pricing.",
+      "Alex Zhang argues OpenAI's swarm appeared stronger than Kimi's release because it converged on a novel problem, whereas Kimi's examples mainly showed spreadsheet-style tasks and did not prove novelty.",
+      "Alex Zhang predicts the model users query may become a swarm or scaffold hidden under a simple front end, because the useful agent composition under the hood is not legible to users."
+    ],
+    "investment_thesis": "Alex Zhang predicts language models may become hidden swarms under simple interfaces because composing agents through shared context can solve problems like OpenAI's 10,000-agent experiment.",
+    "key_tickers": [
+      "SNAP",
+      "GOOGL",
+      "META",
+      "TCEHY"
+    ]
+  },
+  {
+    "id": 544,
+    "podcast_name": "Monetary Matters with Jack Farley",
+    "episode_title": "Ed Zitron on Anthropic's IPO (S-1), AI Debt, and Counterparty Risk",
+    "episode_date": "2026-10-01",
+    "summary": "Jack Farley interviewed Ed Zitron about Reuters reporting on Anthropic's confidential S-1, with Zitron arguing that Anthropic's leaked 2025 figures undercut the market narrative that it is the cleaner or more sustainable AI lab. Zitron said Anthropic lost about $8 billion on $4.6 billion of revenue in 2025, burned $2.75 to make $1, and was slightly worse than OpenAI's reported $2.60 burn per dollar of revenue.",
+    "key_takeaways": [
+      "Ed Zitron claims Anthropic was a worse business than OpenAI in 2025 because it lost about $8 billion on $4.6 billion of revenue and burned $2.75 to make $1, versus his reported $2.60 for OpenAI.",
+      "Ed Zitron argues Anthropic has counterparty concentration risk because Reuters reported that about 47% of its 2025 revenue came through Google and Amazon reselling its models while both companies also compete in AI.",
+      "Ed Zitron says Anthropic's $518 billion of obligations, including $413 billion described as non-cancelable and $161.2 billion tied to Broadcom TPU lease obligations, create counterparty risk for Broadcom, Google, Amazon, and Microsoft.",
+      "Ed Zitron argues annualized run rate figures from OpenAI and Anthropic are deceptive because one reported Anthropic July run rate was derived by multiplying July 31 revenue by 365 rather than showing audited annual revenue.",
+      "Ed Zitron claims Oracle is already pricing like junk in bond markets and faces downgrade risk because a one-notch cut by Moody's or S&P could force investment-grade-only holders to sell its bonds.",
+      "Ed Zitron argues CoreWeave's funding model resembles borrowing to stay ahead of bills because it has used leveraged loans, regular bonds, convertible debt, equity sales, and Nvidia-related financing while analysts estimate another $100 billion may be needed over four years.",
+      "Ed Zitron predicts the AI buildout could break through debt markets rather than technology because OpenAI is projected to spend $750 billion on compute through 2030 and private capital sources may be insufficient."
+    ],
+    "investment_thesis": "Ed Zitron argues Anthropic's $413 billion of non-cancelable obligations create systemic counterparty risk because 2025 revenue was only $4.6 billion and 47% flowed through Google and Amazon reselling.",
+    "key_tickers": [
+      "LENS",
+      "AVGO",
+      "ORCL",
+      "CRWV",
+      "NVDA",
+      "ARM"
+    ]
+  },
+  {
     "id": 543,
     "podcast_name": "The a16z Show",
     "episode_title": "Rebuilding the Internet for Privacy | Barrett Lyon on DoxxNet",
