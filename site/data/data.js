@@ -3,1085 +3,1085 @@
 
 const dashboardData = {
   schemaVersion: 2,
-  generatedAt: "2026-10-01T23:52:07.619075",
-  chartsVersion: "2026-10-01T23:51:59.301952",
+  generatedAt: "2026-10-02T05:10:34.426234",
+  chartsVersion: "2026-10-02T05:10:17.515434",
   priceSnapshot: {
   "AAPL": {
     "price": 330.32,
     "change_pct": -0.83,
     "name": "Apple Inc.",
-    "updated_at": "2026-10-01T23:50:56.766818",
+    "updated_at": "2026-10-02T05:09:01.921400",
     "price_14d_ago": 333.08
   },
   "AEP": {
     "price": 119.75,
     "change_pct": -2.03,
     "name": "American Electric Power Company",
-    "updated_at": "2026-10-01T23:50:56.991536",
+    "updated_at": "2026-10-02T05:09:02.156290",
     "price_14d_ago": 122.23
   },
   "AMD": {
     "price": 615.73,
     "change_pct": 24.79,
     "name": "Advanced Micro Devices, Inc.",
-    "updated_at": "2026-10-01T23:50:57.156540",
+    "updated_at": "2026-10-02T05:09:02.331380",
     "price_14d_ago": 493.41
   },
   "AMGN": {
     "price": 407.27,
     "change_pct": 6.75,
     "name": "Amgen Inc.",
-    "updated_at": "2026-10-01T23:50:57.333625",
+    "updated_at": "2026-10-02T05:09:02.526794",
     "price_14d_ago": 381.5
   },
   "AMZN": {
     "price": 248.23,
     "change_pct": -2.09,
     "name": "Amazon.com, Inc.",
-    "updated_at": "2026-10-01T23:50:57.500894",
+    "updated_at": "2026-10-02T05:09:02.701011",
     "price_14d_ago": 253.54
   },
   "APO": {
     "price": 114.34,
     "change_pct": -10.89,
     "name": "Apollo Global Management, Inc. ",
-    "updated_at": "2026-10-01T23:50:57.675214",
+    "updated_at": "2026-10-02T05:09:02.885570",
     "price_14d_ago": 128.31
   },
   "APTV": {
     "price": 43.97,
     "change_pct": -1.83,
     "name": "Aptiv PLC",
-    "updated_at": "2026-10-01T23:50:57.908368",
+    "updated_at": "2026-10-02T05:09:03.071641",
     "price_14d_ago": 44.79
   },
   "AVGO": {
     "price": 343.64,
     "change_pct": -0.31,
     "name": "Broadcom Inc.",
-    "updated_at": "2026-10-01T23:50:58.264858",
+    "updated_at": "2026-10-02T05:09:03.452736",
     "price_14d_ago": 344.72
   },
   "BA": {
     "price": 192.28,
     "change_pct": -8.56,
     "name": "Boeing Company (The)",
-    "updated_at": "2026-10-01T23:50:58.640857",
+    "updated_at": "2026-10-02T05:09:03.851446",
     "price_14d_ago": 210.27
   },
   "BABA": {
     "price": 107.45,
     "change_pct": -1.63,
     "name": "Alibaba Group Holding Limited",
-    "updated_at": "2026-10-01T23:50:58.805133",
+    "updated_at": "2026-10-02T05:09:04.028863",
     "price_14d_ago": 109.23
   },
   "BAC": {
     "price": 53.73,
     "change_pct": -9.65,
     "name": "Bank of America Corporation",
-    "updated_at": "2026-10-01T23:50:59.003130",
+    "updated_at": "2026-10-02T05:09:04.233657",
     "price_14d_ago": 59.47
   },
   "BAM": {
     "price": 44.56,
     "change_pct": -4.44,
     "name": "Brookfield Asset Management Inc",
-    "updated_at": "2026-10-01T23:50:59.176037",
+    "updated_at": "2026-10-02T05:09:04.411776",
     "price_14d_ago": 46.63
   },
   "BIDU": {
     "price": 85.59,
     "change_pct": -6.87,
     "name": "Baidu, Inc.",
-    "updated_at": "2026-10-01T23:50:59.502848",
+    "updated_at": "2026-10-02T05:09:04.834271",
     "price_14d_ago": 91.9
   },
   "BP": {
     "price": 44.5,
     "change_pct": -3.11,
     "name": "BP p.l.c.",
-    "updated_at": "2026-10-01T23:50:59.882292",
+    "updated_at": "2026-10-02T05:09:05.302702",
     "price_14d_ago": 45.93
   },
   "BTC": {
-    "price": 86695.33,
-    "change_pct": 6.72,
+    "price": 86410.46,
+    "change_pct": 6.37,
     "name": "Bitcoin USD",
-    "updated_at": "2026-10-01T23:51:00.045799",
+    "updated_at": "2026-10-02T05:09:05.475827",
     "price_14d_ago": 81233.68
   },
   "BTC-USD": {
-    "price": 86695.33,
-    "change_pct": 6.72,
+    "price": 86410.46,
+    "change_pct": 6.37,
     "name": "Bitcoin USD",
-    "updated_at": "2026-10-01T23:51:00.215189",
+    "updated_at": "2026-10-02T05:09:05.652315",
     "price_14d_ago": 81233.68
   },
   "BX": {
     "price": 112.24,
     "change_pct": -12.51,
     "name": "Blackstone Inc.",
-    "updated_at": "2026-10-01T23:51:00.395457",
+    "updated_at": "2026-10-02T05:09:05.849727",
     "price_14d_ago": 128.29
   },
   "BYD": {
     "price": 66.07,
     "change_pct": -14.36,
     "name": "Boyd Gaming Corporation",
-    "updated_at": "2026-10-01T23:51:00.577269",
+    "updated_at": "2026-10-02T05:09:06.046759",
     "price_14d_ago": 77.15
   },
   "CAT": {
     "price": 826.35,
     "change_pct": 5.4,
     "name": "Caterpillar, Inc.",
-    "updated_at": "2026-10-01T23:51:00.959531",
+    "updated_at": "2026-10-02T05:09:06.488248",
     "price_14d_ago": 784.0
   },
   "CCJ": {
     "price": 85.69,
     "change_pct": -8.12,
     "name": "Cameco Corporation",
-    "updated_at": "2026-10-01T23:51:01.158175",
+    "updated_at": "2026-10-02T05:09:06.687418",
     "price_14d_ago": 93.26
   },
   "CEG": {
     "price": 258.92,
     "change_pct": -2.14,
     "name": "Constellation Energy Corporatio",
-    "updated_at": "2026-10-01T23:51:01.330558",
+    "updated_at": "2026-10-02T05:09:06.878360",
     "price_14d_ago": 264.57
   },
   "COIN": {
     "price": 189.29,
     "change_pct": -1.13,
     "name": "Coinbase Global, Inc.",
-    "updated_at": "2026-10-01T23:51:01.497832",
+    "updated_at": "2026-10-02T05:09:07.048971",
     "price_14d_ago": 191.45
   },
   "COPPER": {
-    "price": 6.58,
-    "change_pct": 3.31,
+    "price": 6.56,
+    "change_pct": 2.96,
     "name": "Copper",
-    "updated_at": "2026-10-01T23:51:01.662703",
+    "updated_at": "2026-10-02T05:09:07.234288",
     "price_14d_ago": 6.37
   },
   "CORN": {
     "price": 18.98,
     "change_pct": -5.19,
     "name": "Teucrium Corn Fund ETV",
-    "updated_at": "2026-10-01T23:51:01.827524",
+    "updated_at": "2026-10-02T05:09:07.476590",
     "price_14d_ago": 20.02
   },
   "CRM": {
     "price": 236.69,
     "change_pct": -8.77,
     "name": "Salesforce, Inc.",
-    "updated_at": "2026-10-01T23:51:01.993788",
+    "updated_at": "2026-10-02T05:09:07.713732",
     "price_14d_ago": 259.43
   },
   "CROWD": {
     "price": 266.09,
     "change_pct": 13.05,
     "name": "CrowdStrike Holdings, Inc.",
-    "updated_at": "2026-10-01T23:51:02.161678",
+    "updated_at": "2026-10-02T05:09:07.890081",
     "price_14d_ago": 235.38
   },
   "DBC": {
     "price": 32.75,
     "change_pct": -1.21,
     "name": "Invesco DB Commodity Index Trac",
-    "updated_at": "2026-10-01T23:51:02.670832",
+    "updated_at": "2026-10-02T05:09:08.422073",
     "price_14d_ago": 33.15
   },
   "DELL": {
     "price": 541.74,
     "change_pct": 1.4,
     "name": "Dell Technologies Inc.",
-    "updated_at": "2026-10-01T23:51:02.839754",
+    "updated_at": "2026-10-02T05:09:08.604361",
     "price_14d_ago": 534.28
   },
   "DIS": {
     "price": 101.33,
     "change_pct": -6.69,
     "name": "Walt Disney Company (The)",
-    "updated_at": "2026-10-01T23:51:03.057055",
+    "updated_at": "2026-10-02T05:09:08.823734",
     "price_14d_ago": 108.59
   },
   "DOCS": {
     "price": 28.5,
     "change_pct": 8.0,
     "name": "Doximity, Inc.",
-    "updated_at": "2026-10-01T23:51:03.220817",
+    "updated_at": "2026-10-02T05:09:09.001634",
     "price_14d_ago": 26.39
   },
   "DVN": {
     "price": 47.16,
     "change_pct": -5.17,
     "name": "Devon Energy Corporation",
-    "updated_at": "2026-10-01T23:51:03.422996",
+    "updated_at": "2026-10-02T05:09:09.203740",
     "price_14d_ago": 49.73
   },
   "EBAY": {
     "price": 105.89,
     "change_pct": -2.84,
     "name": "eBay Inc.",
-    "updated_at": "2026-10-01T23:51:03.592619",
+    "updated_at": "2026-10-02T05:09:09.383228",
     "price_14d_ago": 108.99
   },
   "ETH-USD": {
-    "price": 2744.13,
-    "change_pct": 4.26,
+    "price": 2748.93,
+    "change_pct": 4.44,
     "name": "Ethereum USD",
-    "updated_at": "2026-10-01T23:51:03.763951",
+    "updated_at": "2026-10-02T05:09:09.556694",
     "price_14d_ago": 2631.96
   },
   "F": {
     "price": 12.27,
     "change_pct": -11.47,
     "name": "Ford Motor Company",
-    "updated_at": "2026-10-01T23:51:03.972687",
+    "updated_at": "2026-10-02T05:09:09.770523",
     "price_14d_ago": 13.86
   },
   "FB": {
     "price": 45.5,
     "change_pct": 0.23,
     "name": "ProShares S&P 500 Dynamic Buffe",
-    "updated_at": "2026-10-01T23:51:04.140514",
+    "updated_at": "2026-10-02T05:09:09.944575",
     "price_14d_ago": 45.4
   },
   "FCX": {
     "price": 69.28,
     "change_pct": -0.09,
     "name": "Freeport-McMoRan, Inc.",
-    "updated_at": "2026-10-01T23:51:04.335683",
+    "updated_at": "2026-10-02T05:09:10.145601",
     "price_14d_ago": 69.34
   },
   "FSK": {
     "price": 11.11,
     "change_pct": -7.65,
     "name": "FS KKR Capital Corp.",
-    "updated_at": "2026-10-01T23:51:04.832619",
+    "updated_at": "2026-10-02T05:09:10.671800",
     "price_14d_ago": 12.03
   },
   "GC": {
     "price": 0,
     "change_pct": 0,
     "name": "Gold",
-    "updated_at": "2026-10-01T23:51:04.997341",
+    "updated_at": "2026-10-02T05:09:10.843017",
     "price_14d_ago": null
   },
   "GD": {
     "price": 332.72,
     "change_pct": -6.75,
     "name": "General Dynamics Corporation",
-    "updated_at": "2026-10-01T23:51:05.220375",
+    "updated_at": "2026-10-02T05:09:11.062278",
     "price_14d_ago": 356.81
   },
   "GE": {
     "price": 312.39,
     "change_pct": -1.63,
     "name": "GE Aerospace",
-    "updated_at": "2026-10-01T23:51:05.433187",
+    "updated_at": "2026-10-02T05:09:11.292351",
     "price_14d_ago": 317.56
   },
   "GLD": {
     "price": 382.76,
     "change_pct": -2.57,
     "name": "SPDR Gold Shares",
-    "updated_at": "2026-10-01T23:51:05.596690",
+    "updated_at": "2026-10-02T05:09:11.470616",
     "price_14d_ago": 392.84
   },
   "GME": {
     "price": 24.11,
     "change_pct": 11.52,
     "name": "GameStop Corporation",
-    "updated_at": "2026-10-01T23:51:05.764685",
+    "updated_at": "2026-10-02T05:09:11.653880",
     "price_14d_ago": 21.62
   },
   "GOLD": {
-    "price": 4212.7,
-    "change_pct": -2.77,
+    "price": 4215.1,
+    "change_pct": -2.72,
     "name": "Gold",
-    "updated_at": "2026-10-01T23:51:05.936996",
+    "updated_at": "2026-10-02T05:09:11.828842",
     "price_14d_ago": 4332.8
   },
   "GOOG": {
     "price": 334.93,
     "change_pct": -3.12,
     "name": "Alphabet Inc.",
-    "updated_at": "2026-10-01T23:51:06.103813",
+    "updated_at": "2026-10-02T05:09:12.008556",
     "price_14d_ago": 345.71
   },
   "GOOGL": {
     "price": 338.24,
     "change_pct": -3.19,
     "name": "Alphabet Inc.",
-    "updated_at": "2026-10-01T23:51:06.268042",
+    "updated_at": "2026-10-02T05:09:12.185909",
     "price_14d_ago": 349.39
   },
   "GS": {
     "price": 896.67,
     "change_pct": -9.29,
     "name": "Goldman Sachs Group, Inc. (The)",
-    "updated_at": "2026-10-01T23:51:06.456864",
+    "updated_at": "2026-10-02T05:09:12.381483",
     "price_14d_ago": 988.45
   },
   "Gold": {
     "price": 42.09,
     "change_pct": -11.05,
     "name": "Gold.com, Inc.",
-    "updated_at": "2026-10-01T23:51:06.626458",
+    "updated_at": "2026-10-02T05:09:12.573512",
     "price_14d_ago": 47.32
   },
   "HFGM": {
     "price": 31.51,
     "change_pct": -0.28,
     "name": "Unlimited HFGM Global Macro ETF",
-    "updated_at": "2026-10-01T23:51:06.794447",
+    "updated_at": "2026-10-02T05:09:12.757160",
     "price_14d_ago": 31.59
   },
   "HG": {
     "price": 33.75,
     "change_pct": -3.49,
     "name": "Hamilton Insurance Group, Ltd.",
-    "updated_at": "2026-10-01T23:51:06.958065",
+    "updated_at": "2026-10-02T05:09:12.929539",
     "price_14d_ago": 34.97
   },
   "IBM": {
     "price": 225.62,
     "change_pct": -9.42,
     "name": "International Business Machines",
-    "updated_at": "2026-10-01T23:51:07.589577",
+    "updated_at": "2026-10-02T05:09:13.502379",
     "price_14d_ago": 249.09
   },
   "IEF": {
     "price": 89.3,
     "change_pct": -1.79,
     "name": "iShares 7-10 Year Treasury Bond",
-    "updated_at": "2026-10-01T23:51:07.778842",
+    "updated_at": "2026-10-02T05:09:13.701480",
     "price_14d_ago": 90.93
   },
   "INDA": {
     "price": 46.36,
     "change_pct": -4.27,
     "name": "Ishares MSCI India ETF",
-    "updated_at": "2026-10-01T23:51:07.974740",
+    "updated_at": "2026-10-02T05:09:13.892618",
     "price_14d_ago": 48.43
   },
   "INFY": {
     "price": 11.35,
     "change_pct": -2.16,
     "name": "Infosys Limited",
-    "updated_at": "2026-10-01T23:51:08.157370",
+    "updated_at": "2026-10-02T05:09:14.086496",
     "price_14d_ago": 11.6
   },
   "INTC": {
     "price": 120.0,
     "change_pct": 23.47,
     "name": "Intel Corporation",
-    "updated_at": "2026-10-01T23:51:08.347689",
+    "updated_at": "2026-10-02T05:09:14.288559",
     "price_14d_ago": 97.19
   },
   "IWD": {
     "price": 248.24,
     "change_pct": -2.79,
     "name": "iShares Russell 1000 Value ETF",
-    "updated_at": "2026-10-01T23:51:08.535283",
+    "updated_at": "2026-10-02T05:09:14.483838",
     "price_14d_ago": 255.37
   },
   "IWF": {
     "price": 125.73,
     "change_pct": 3.69,
     "name": "iShares Russell 1000 Growth Fun",
-    "updated_at": "2026-10-01T23:51:08.719995",
+    "updated_at": "2026-10-02T05:09:14.675811",
     "price_14d_ago": 121.26
   },
   "IWM": {
     "price": 279.02,
     "change_pct": -3.09,
     "name": "iShares Russell 2000 Index Fund",
-    "updated_at": "2026-10-01T23:51:08.928752",
+    "updated_at": "2026-10-02T05:09:14.866287",
     "price_14d_ago": 287.91
   },
   "JNJ": {
     "price": 258.66,
     "change_pct": -2.88,
     "name": "Johnson & Johnson",
-    "updated_at": "2026-10-01T23:51:09.137594",
+    "updated_at": "2026-10-02T05:09:15.105375",
     "price_14d_ago": 266.32
   },
   "JPM": {
     "price": 333.18,
     "change_pct": -4.84,
     "name": "JP Morgan Chase & Co.",
-    "updated_at": "2026-10-01T23:51:09.330653",
+    "updated_at": "2026-10-02T05:09:15.314602",
     "price_14d_ago": 350.13
   },
   "KKR": {
     "price": 91.24,
     "change_pct": -10.79,
     "name": "KKR & Co. Inc.",
-    "updated_at": "2026-10-01T23:51:09.507649",
+    "updated_at": "2026-10-02T05:09:15.502257",
     "price_14d_ago": 102.27
   },
   "LLY": {
     "price": 1149.85,
     "change_pct": 1.02,
     "name": "Eli Lilly and Company",
-    "updated_at": "2026-10-01T23:51:09.873411",
+    "updated_at": "2026-10-02T05:09:15.900008",
     "price_14d_ago": 1138.28
   },
   "LMT": {
     "price": 505.5,
     "change_pct": -4.51,
     "name": "Lockheed Martin Corporation",
-    "updated_at": "2026-10-01T23:51:10.084931",
+    "updated_at": "2026-10-02T05:09:16.137679",
     "price_14d_ago": 529.38
   },
   "LYFT": {
     "price": 15.21,
     "change_pct": -4.34,
     "name": "Lyft, Inc.",
-    "updated_at": "2026-10-01T23:51:10.595307",
+    "updated_at": "2026-10-02T05:09:16.661162",
     "price_14d_ago": 15.9
   },
   "META": {
     "price": 725.93,
     "change_pct": 9.06,
     "name": "Meta Platforms, Inc.",
-    "updated_at": "2026-10-01T23:51:10.770795",
+    "updated_at": "2026-10-02T05:09:16.862991",
     "price_14d_ago": 665.6
   },
   "MGM": {
     "price": 30.47,
     "change_pct": -23.5,
     "name": "MGM Resorts International",
-    "updated_at": "2026-10-01T23:51:10.961767",
+    "updated_at": "2026-10-02T05:09:17.056138",
     "price_14d_ago": 39.83
   },
   "MINE": {
     "price": 2.73,
     "change_pct": -7.14,
     "name": "Mayfair Gold Corp.",
-    "updated_at": "2026-10-01T23:51:11.127719",
+    "updated_at": "2026-10-02T05:09:17.232006",
     "price_14d_ago": 2.94
   },
   "MRK": {
     "price": 143.81,
     "change_pct": -0.72,
     "name": "Merck & Company, Inc.",
-    "updated_at": "2026-10-01T23:51:11.340972",
+    "updated_at": "2026-10-02T05:09:17.459715",
     "price_14d_ago": 144.85
   },
   "MRNA": {
     "price": 188.94,
     "change_pct": 28.8,
     "name": "Moderna, Inc.",
-    "updated_at": "2026-10-01T23:51:11.505224",
+    "updated_at": "2026-10-02T05:09:17.634538",
     "price_14d_ago": 146.69
   },
   "MS": {
     "price": 188.01,
     "change_pct": -8.99,
     "name": "Morgan Stanley",
-    "updated_at": "2026-10-01T23:51:11.700565",
+    "updated_at": "2026-10-02T05:09:17.830407",
     "price_14d_ago": 206.58
   },
   "MSFT": {
     "price": 512.8,
     "change_pct": 1.46,
     "name": "Microsoft Corporation",
-    "updated_at": "2026-10-01T23:51:11.887321",
+    "updated_at": "2026-10-02T05:09:18.024662",
     "price_14d_ago": 505.41
   },
   "MSTR": {
     "price": 160.5,
     "change_pct": 17.2,
     "name": "Strategy Inc",
-    "updated_at": "2026-10-01T23:51:12.050770",
+    "updated_at": "2026-10-02T05:09:18.206409",
     "price_14d_ago": 136.94
   },
   "MU": {
     "price": 1097.39,
     "change_pct": 18.76,
     "name": "Micron Technology, Inc.",
-    "updated_at": "2026-10-01T23:51:12.242450",
+    "updated_at": "2026-10-02T05:09:18.393561",
     "price_14d_ago": 924.03
   },
   "NEE": {
     "price": 76.35,
     "change_pct": -6.47,
     "name": "NextEra Energy, Inc.",
-    "updated_at": "2026-10-01T23:51:12.607757",
+    "updated_at": "2026-10-02T05:09:18.885131",
     "price_14d_ago": 81.63
   },
   "NFLX": {
     "price": 67.85,
     "change_pct": -15.53,
     "name": "Netflix, Inc.",
-    "updated_at": "2026-10-01T23:51:12.780411",
+    "updated_at": "2026-10-02T05:09:19.070335",
     "price_14d_ago": 80.32
   },
   "NKE": {
     "price": 35.15,
     "change_pct": -5.13,
     "name": "Nike, Inc.",
-    "updated_at": "2026-10-01T23:51:13.305440",
+    "updated_at": "2026-10-02T05:09:19.617249",
     "price_14d_ago": 37.05
   },
   "NOC": {
     "price": 482.0,
     "change_pct": -8.61,
     "name": "Northrop Grumman Corporation",
-    "updated_at": "2026-10-01T23:51:13.505956",
+    "updated_at": "2026-10-02T05:09:19.820833",
     "price_14d_ago": 527.39
   },
   "NVDA": {
     "price": 230.86,
     "change_pct": 9.43,
     "name": "NVIDIA Corporation",
-    "updated_at": "2026-10-01T23:51:13.678653",
+    "updated_at": "2026-10-02T05:09:20.005383",
     "price_14d_ago": 210.96
   },
   "NVS": {
     "price": 141.05,
     "change_pct": 1.48,
     "name": "Novartis AG",
-    "updated_at": "2026-10-01T23:51:14.026591",
+    "updated_at": "2026-10-02T05:09:20.378915",
     "price_14d_ago": 138.99
   },
   "Nasdaq": {
     "price": 742.03,
     "change_pct": 4.63,
     "name": "Invesco QQQ Trust, Series 1",
-    "updated_at": "2026-10-01T23:51:14.205150",
+    "updated_at": "2026-10-02T05:09:20.573742",
     "price_14d_ago": 709.18
   },
   "OKLO": {
     "price": 36.14,
     "change_pct": -0.19,
     "name": "Oklo Inc.",
-    "updated_at": "2026-10-01T23:51:14.544868",
+    "updated_at": "2026-10-02T05:09:20.913171",
     "price_14d_ago": 36.21
   },
   "ORCL": {
     "price": 138.07,
     "change_pct": -4.64,
     "name": "Oracle Corporation",
-    "updated_at": "2026-10-01T23:51:14.890097",
+    "updated_at": "2026-10-02T05:09:21.272534",
     "price_14d_ago": 144.79
   },
   "PALL": {
     "price": 21.47,
     "change_pct": -7.58,
     "name": "abrdn Physical Palladium Shares",
-    "updated_at": "2026-10-01T23:51:15.056450",
+    "updated_at": "2026-10-02T05:09:21.446045",
     "price_14d_ago": 23.23
   },
   "PANW": {
     "price": 396.25,
     "change_pct": 5.97,
     "name": "Palo Alto Networks, Inc.",
-    "updated_at": "2026-10-01T23:51:15.221015",
+    "updated_at": "2026-10-02T05:09:21.617661",
     "price_14d_ago": 373.94
   },
   "PBR": {
     "price": 20.98,
     "change_pct": -0.8,
     "name": "Petroleo Brasileiro S.A. Petrob",
-    "updated_at": "2026-10-01T23:51:15.412404",
+    "updated_at": "2026-10-02T05:09:21.820588",
     "price_14d_ago": 21.15
   },
   "PFE": {
     "price": 28.12,
     "change_pct": 1.44,
     "name": "Pfizer, Inc.",
-    "updated_at": "2026-10-01T23:51:15.782245",
+    "updated_at": "2026-10-02T05:09:22.218448",
     "price_14d_ago": 27.72
   },
   "PLTM": {
     "price": 16.44,
     "change_pct": -2.43,
     "name": "GraniteShares Platinum Shares E",
-    "updated_at": "2026-10-01T23:51:15.955804",
+    "updated_at": "2026-10-02T05:09:22.393391",
     "price_14d_ago": 16.85
   },
   "PLTR": {
     "price": 190.04,
     "change_pct": 9.65,
     "name": "Palantir Technologies Inc.",
-    "updated_at": "2026-10-01T23:51:16.119101",
+    "updated_at": "2026-10-02T05:09:22.568009",
     "price_14d_ago": 173.31
   },
   "PQT": {
     "price": 0,
     "change_pct": 0,
     "name": "PQT",
-    "updated_at": "2026-10-01T23:51:16.442552",
+    "updated_at": "2026-10-02T05:09:22.907820",
     "price_14d_ago": null
   },
   "PQUS": {
     "price": 28.58,
     "change_pct": 0.95,
     "name": "Pictet AI Enhanced US Equity ET",
-    "updated_at": "2026-10-01T23:51:16.666523",
+    "updated_at": "2026-10-02T05:09:23.079786",
     "price_14d_ago": 28.31
   },
   "PSBD": {
     "price": 9.87,
     "change_pct": -3.52,
     "name": "Palmer Square Capital BDC Inc.",
-    "updated_at": "2026-10-01T23:51:16.838816",
+    "updated_at": "2026-10-02T05:09:23.319003",
     "price_14d_ago": 10.23
   },
   "PYPL": {
     "price": 53.06,
     "change_pct": -1.8,
     "name": "PayPal Holdings, Inc.",
-    "updated_at": "2026-10-01T23:51:17.002809",
+    "updated_at": "2026-10-02T05:09:23.507195",
     "price_14d_ago": 54.03
   },
   "QQQ": {
     "price": 742.03,
     "change_pct": 4.63,
     "name": "Invesco QQQ Trust, Series 1",
-    "updated_at": "2026-10-01T23:51:17.183429",
+    "updated_at": "2026-10-02T05:09:23.697228",
     "price_14d_ago": 709.18
   },
   "QTA": {
     "price": 0,
     "change_pct": 0,
     "name": "QTA",
-    "updated_at": "2026-10-01T23:51:17.348229",
+    "updated_at": "2026-10-02T05:09:23.868804",
     "price_14d_ago": null
   },
   "RBLX": {
     "price": 43.0,
     "change_pct": -16.16,
     "name": "Roblox Corporation",
-    "updated_at": "2026-10-01T23:51:17.514330",
+    "updated_at": "2026-10-02T05:09:24.043963",
     "price_14d_ago": 51.29
   },
   "RKLB": {
     "price": 70.46,
     "change_pct": 12.65,
     "name": "Rocket Lab Corporation",
-    "updated_at": "2026-10-01T23:51:17.675462",
+    "updated_at": "2026-10-02T05:09:24.220353",
     "price_14d_ago": 62.55
   },
   "Russell": {
     "price": 279.02,
     "change_pct": -3.09,
     "name": "iShares Russell 2000 Index Fund",
-    "updated_at": "2026-10-01T23:51:18.084533",
+    "updated_at": "2026-10-02T05:09:24.599114",
     "price_14d_ago": 287.91
   },
   "S&P": {
     "price": 7666.45,
     "change_pct": 0.61,
     "name": "S&P 500",
-    "updated_at": "2026-10-01T23:51:18.248570",
+    "updated_at": "2026-10-02T05:09:24.770593",
     "price_14d_ago": 7619.98
   },
   "S&P 500": {
     "price": 7666.45,
     "change_pct": 0.61,
     "name": "S&P 500",
-    "updated_at": "2026-10-01T23:51:18.412915",
+    "updated_at": "2026-10-02T05:09:24.941937",
     "price_14d_ago": 7619.98
   },
   "SAMSUNG ELECTRONICS": {
     "price": 276000.0,
     "change_pct": 6.36,
     "name": "SamsungElec",
-    "updated_at": "2026-10-01T23:51:18.593870",
+    "updated_at": "2026-10-02T05:09:25.134593",
     "price_14d_ago": 259500.0
   },
   "SAP": {
     "price": 210.79,
     "change_pct": -3.43,
     "name": "SAP  SE",
-    "updated_at": "2026-10-01T23:51:18.784068",
+    "updated_at": "2026-10-02T05:09:25.340226",
     "price_14d_ago": 218.28
   },
   "SF": {
     "price": 70.34,
     "change_pct": -9.79,
     "name": "Stifel Financial Corporation",
-    "updated_at": "2026-10-01T23:51:18.980817",
+    "updated_at": "2026-10-02T05:09:25.538167",
     "price_14d_ago": 77.97
   },
   "SK HYNIX": {
-    "price": 1846500.0,
-    "change_pct": 1.9,
+    "price": 1841000.0,
+    "change_pct": 1.6,
     "name": "SK hynix",
-    "updated_at": "2026-10-01T23:51:19.168953",
+    "updated_at": "2026-10-02T05:09:25.742609",
     "price_14d_ago": 1812000.0
   },
   "SLB": {
     "price": 48.66,
     "change_pct": -8.74,
     "name": "SLB Limited",
-    "updated_at": "2026-10-01T23:51:19.429626",
+    "updated_at": "2026-10-02T05:09:25.970784",
     "price_14d_ago": 53.32
   },
   "SMH": {
     "price": 617.81,
     "change_pct": 14.09,
     "name": "VanEck Semiconductor ETF",
-    "updated_at": "2026-10-01T23:51:19.608401",
+    "updated_at": "2026-10-02T05:09:26.157962",
     "price_14d_ago": 541.5
   },
   "SMP-500": {
     "price": 7666.45,
     "change_pct": 0.61,
     "name": "S&P 500",
-    "updated_at": "2026-10-01T23:51:19.770222",
+    "updated_at": "2026-10-02T05:09:26.352740",
     "price_14d_ago": 7619.98
   },
   "SMR": {
     "price": 7.79,
     "change_pct": -8.46,
     "name": "NuScale Power Corporation",
-    "updated_at": "2026-10-01T23:51:19.933544",
+    "updated_at": "2026-10-02T05:09:26.526945",
     "price_14d_ago": 8.51
   },
   "SNAP": {
     "price": 5.65,
     "change_pct": -3.25,
     "name": "Snap Inc.",
-    "updated_at": "2026-10-01T23:51:20.100843",
+    "updated_at": "2026-10-02T05:09:26.693084",
     "price_14d_ago": 5.84
   },
   "SNWGF": {
     "price": 11.58,
     "change_pct": -2.15,
     "name": "SNOWLINE GOLD CORP",
-    "updated_at": "2026-10-01T23:51:20.272720",
+    "updated_at": "2026-10-02T05:09:26.882020",
     "price_14d_ago": 11.83
   },
   "SOYB": {
     "price": 27.2,
     "change_pct": -1.77,
     "name": "Teucrium Soybean Fund ETV",
-    "updated_at": "2026-10-01T23:51:20.440598",
+    "updated_at": "2026-10-02T05:09:27.119637",
     "price_14d_ago": 27.69
   },
   "SPCE": {
     "price": 2.99,
     "change_pct": -0.99,
     "name": "Virgin Galactic Holdings, Inc.",
-    "updated_at": "2026-10-01T23:51:20.673098",
+    "updated_at": "2026-10-02T05:09:27.292033",
     "price_14d_ago": 3.02
   },
   "SPX": {
     "price": 7666.45,
     "change_pct": 0.61,
     "name": "S&P 500",
-    "updated_at": "2026-10-01T23:51:21.168907",
+    "updated_at": "2026-10-02T05:09:27.763489",
     "price_14d_ago": 7619.98
   },
   "SPY": {
     "price": 763.99,
     "change_pct": 0.41,
     "name": "State Street SPDR S&P 500 ETF T",
-    "updated_at": "2026-10-01T23:51:21.361088",
+    "updated_at": "2026-10-02T05:09:28.023110",
     "price_14d_ago": 760.88
   },
   "SQQQ": {
     "price": 34.11,
     "change_pct": -14.36,
     "name": "ProShares UltraPro Short QQQ",
-    "updated_at": "2026-10-01T23:51:21.540256",
+    "updated_at": "2026-10-02T05:09:28.209492",
     "price_14d_ago": 39.83
   },
   "SQUARE": {
     "price": 74.04,
     "change_pct": -6.86,
     "name": "Block, Inc.",
-    "updated_at": "2026-10-01T23:51:21.705239",
+    "updated_at": "2026-10-02T05:09:28.381927",
     "price_14d_ago": 79.49
   },
   "Semiconductors": {
     "price": 617.81,
     "change_pct": 14.09,
     "name": "VanEck Semiconductor ETF",
-    "updated_at": "2026-10-01T23:51:21.883051",
+    "updated_at": "2026-10-02T05:09:28.565396",
     "price_14d_ago": 541.5
   },
   "T": {
     "price": 24.3,
     "change_pct": -8.34,
     "name": "AT&T Inc.",
-    "updated_at": "2026-10-01T23:51:22.107360",
+    "updated_at": "2026-10-02T05:09:28.794766",
     "price_14d_ago": 26.51
   },
   "TDOC": {
     "price": 5.67,
     "change_pct": -12.77,
     "name": "Teladoc Health, Inc.",
-    "updated_at": "2026-10-01T23:51:22.459428",
+    "updated_at": "2026-10-02T05:09:29.170351",
     "price_14d_ago": 6.5
   },
   "TIPS": {
     "price": 0.0,
     "change_pct": 100.0,
     "name": "Tianrong Internet Products and ",
-    "updated_at": "2026-10-01T23:51:23.016377",
+    "updated_at": "2026-10-02T05:09:29.689423",
     "price_14d_ago": 0.0
   },
   "TLT": {
     "price": 77.71,
     "change_pct": -3.98,
     "name": "iShares 20+ Year Treasury Bond ",
-    "updated_at": "2026-10-01T23:51:23.204730",
+    "updated_at": "2026-10-02T05:09:29.928728",
     "price_14d_ago": 80.93
   },
   "TSLA": {
     "price": 354.11,
     "change_pct": -1.35,
     "name": "Tesla, Inc.",
-    "updated_at": "2026-10-01T23:51:23.367880",
+    "updated_at": "2026-10-02T05:09:30.096440",
     "price_14d_ago": 358.97
   },
   "TSM": {
     "price": 459.2,
     "change_pct": 9.85,
     "name": "Taiwan Semiconductor Manufactur",
-    "updated_at": "2026-10-01T23:51:23.552854",
+    "updated_at": "2026-10-02T05:09:30.284122",
     "price_14d_ago": 418.01
   },
   "UBER": {
     "price": 67.88,
     "change_pct": -6.54,
     "name": "Uber Technologies, Inc.",
-    "updated_at": "2026-10-01T23:51:23.888125",
+    "updated_at": "2026-10-02T05:09:30.628177",
     "price_14d_ago": 72.63
   },
   "UNG": {
     "price": 10.16,
     "change_pct": -1.65,
     "name": "United States Natural Gas Fund ",
-    "updated_at": "2026-10-01T23:51:24.050854",
+    "updated_at": "2026-10-02T05:09:30.799595",
     "price_14d_ago": 10.33
   },
   "URANIUM": {
     "price": 39.59,
     "change_pct": -6.16,
     "name": "Uranium ETF",
-    "updated_at": "2026-10-01T23:51:24.390524",
+    "updated_at": "2026-10-02T05:09:31.165606",
     "price_14d_ago": 42.19
   },
   "USD": {
     "price": 97.76,
     "change_pct": 24.65,
     "name": "ProShares Ultra Semiconductors",
-    "updated_at": "2026-10-01T23:51:24.592855",
+    "updated_at": "2026-10-02T05:09:31.367958",
     "price_14d_ago": 78.43
   },
   "USDX": {
     "price": 25.63,
     "change_pct": 0.23,
     "name": "SGI Enhanced Core ETF",
-    "updated_at": "2026-10-01T23:51:24.765055",
+    "updated_at": "2026-10-02T05:09:31.547219",
     "price_14d_ago": 25.57
   },
   "USO": {
     "price": 150.02,
     "change_pct": -4.24,
     "name": "United States Oil Fund",
-    "updated_at": "2026-10-01T23:51:24.931480",
+    "updated_at": "2026-10-02T05:09:31.720599",
     "price_14d_ago": 156.66
   },
   "UTHR": {
     "price": 571.38,
     "change_pct": 13.66,
     "name": "United Therapeutics Corporation",
-    "updated_at": "2026-10-01T23:51:25.096658",
+    "updated_at": "2026-10-02T05:09:31.890232",
     "price_14d_ago": 502.7
   },
   "UUU": {
     "price": 5.18,
     "change_pct": -0.58,
     "name": "Universal Safety Products, Inc.",
-    "updated_at": "2026-10-01T23:51:25.263659",
+    "updated_at": "2026-10-02T05:09:32.067940",
     "price_14d_ago": 5.21
   },
   "V": {
     "price": 359.85,
     "change_pct": -4.11,
     "name": "Visa Inc.",
-    "updated_at": "2026-10-01T23:51:25.674438",
+    "updated_at": "2026-10-02T05:09:32.422399",
     "price_14d_ago": 375.28
   },
   "VEEV": {
     "price": 281.93,
     "change_pct": 6.12,
     "name": "Veeva Systems Inc.",
-    "updated_at": "2026-10-01T23:51:26.002719",
+    "updated_at": "2026-10-02T05:09:32.767511",
     "price_14d_ago": 265.67
   },
   "VIX": {
-    "price": 16.39,
-    "change_pct": -4.15,
+    "price": 15.94,
+    "change_pct": -7.33,
     "name": "CBOE Volatility Index",
-    "updated_at": "2026-10-01T23:51:26.499077",
-    "price_14d_ago": 17.1
+    "updated_at": "2026-10-02T05:09:33.279641",
+    "price_14d_ago": 17.2
   },
   "VLO": {
     "price": 408.46,
     "change_pct": 6.66,
     "name": "Valero Energy Corporation",
-    "updated_at": "2026-10-01T23:51:26.765242",
+    "updated_at": "2026-10-02T05:09:33.493830",
     "price_14d_ago": 382.95
   },
   "VRTX": {
     "price": 506.74,
     "change_pct": -2.46,
     "name": "Vertex Pharmaceuticals Incorpor",
-    "updated_at": "2026-10-01T23:51:26.933946",
+    "updated_at": "2026-10-02T05:09:33.663491",
     "price_14d_ago": 519.51
   },
   "WFC": {
     "price": 80.25,
     "change_pct": -9.54,
     "name": "Wells Fargo & Company",
-    "updated_at": "2026-10-01T23:51:27.143767",
+    "updated_at": "2026-10-02T05:09:33.873082",
     "price_14d_ago": 88.71
   },
   "WIT": {
     "price": 1.76,
     "change_pct": -1.12,
     "name": "Wipro Limited",
-    "updated_at": "2026-10-01T23:51:27.340547",
+    "updated_at": "2026-10-02T05:09:34.067136",
     "price_14d_ago": 1.78
   },
   "WMT": {
     "price": 104.26,
     "change_pct": -4.42,
     "name": "Walmart Inc.",
-    "updated_at": "2026-10-01T23:51:27.570468",
+    "updated_at": "2026-10-02T05:09:34.285015",
     "price_14d_ago": 109.08
   },
   "WTBN": {
     "price": 23.98,
     "change_pct": -1.62,
     "name": "WisdomTree Bianco Total Return ",
-    "updated_at": "2026-10-01T23:51:27.740611",
+    "updated_at": "2026-10-02T05:09:34.501580",
     "price_14d_ago": 24.37
   },
   "WTI": {
-    "price": 92.57,
-    "change_pct": -12.53,
+    "price": 89.19,
+    "change_pct": -15.72,
     "name": "WTI Crude",
-    "updated_at": "2026-10-01T23:51:27.912990",
+    "updated_at": "2026-10-02T05:09:34.671832",
     "price_14d_ago": 105.83
   },
   "WTI CRUDE OIL": {
-    "price": 92.57,
-    "change_pct": -12.53,
+    "price": 89.19,
+    "change_pct": -15.72,
     "name": "WTI Crude",
-    "updated_at": "2026-10-01T23:51:28.139785",
+    "updated_at": "2026-10-02T05:09:34.843180",
     "price_14d_ago": 105.83
   },
   "XAU-USD": {
     "price": 0,
     "change_pct": 0,
     "name": "XAU9999 Meme USD",
-    "updated_at": "2026-10-01T23:51:28.473987",
+    "updated_at": "2026-10-02T05:09:35.190062",
     "price_14d_ago": 0.0
   },
   "XOM": {
     "price": 163.82,
     "change_pct": -0.76,
     "name": "ExxonMobil Holdings Corporation",
-    "updated_at": "2026-10-01T23:51:28.686830",
+    "updated_at": "2026-10-02T05:09:35.420746",
     "price_14d_ago": 165.08
   },
   "ZIM": {
     "price": 29.75,
     "change_pct": 0.1,
     "name": "ZIM Integrated Shipping Service",
-    "updated_at": "2026-10-01T23:51:29.017619",
+    "updated_at": "2026-10-02T05:09:35.794600",
     "price_14d_ago": 29.72
   },
   "HIMS": {
     "price": 29.3,
     "change_pct": 1.7,
     "name": "Hims & Hers Health, Inc.",
-    "updated_at": "2026-10-01T23:51:29.348230",
+    "updated_at": "2026-10-02T05:09:36.147184",
     "price_14d_ago": 28.81
   },
   "GDRX": {
     "price": 3.27,
     "change_pct": -8.15,
     "name": "GoodRx Holdings, Inc.",
-    "updated_at": "2026-10-01T23:51:29.514875",
+    "updated_at": "2026-10-02T05:09:36.320869",
     "price_14d_ago": 3.56
   },
   "TEM": {
     "price": 76.5,
     "change_pct": 22.97,
     "name": "Tempus AI, Inc.",
-    "updated_at": "2026-10-01T23:51:29.678157",
+    "updated_at": "2026-10-02T05:09:36.497476",
     "price_14d_ago": 62.21
   },
   "GH": {
     "price": 174.75,
     "change_pct": 4.12,
     "name": "Guardant Health, Inc.",
-    "updated_at": "2026-10-01T23:51:29.906548",
+    "updated_at": "2026-10-02T05:09:36.672874",
     "price_14d_ago": 167.84
   },
   "ABT": {
     "price": 96.69,
     "change_pct": -6.21,
     "name": "Abbott Laboratories",
-    "updated_at": "2026-10-01T23:51:30.113799",
+    "updated_at": "2026-10-02T05:09:36.881896",
     "price_14d_ago": 103.09
   },
   "ARM": {
     "price": 292.34,
     "change_pct": 22.31,
     "name": "Arm Holdings plc",
-    "updated_at": "2026-10-01T23:50:58.084425",
+    "updated_at": "2026-10-02T05:09:03.270926",
     "price_14d_ago": 239.01
   },
   "HOOD": {
     "price": 111.15,
     "change_pct": -2.78,
     "name": "Robinhood Markets, Inc.",
-    "updated_at": "2026-10-01T23:51:07.220102",
+    "updated_at": "2026-10-02T05:09:13.094432",
     "price_14d_ago": 114.33
   },
   "SPOT": {
     "price": 491.4,
     "change_pct": -11.67,
     "name": "Spotify Technology S.A.",
-    "updated_at": "2026-10-01T23:51:20.840890",
+    "updated_at": "2026-10-02T05:09:27.463940",
     "price_14d_ago": 556.31
   },
   "CRWV": {
     "price": 88.57,
     "change_pct": 6.74,
     "name": "CoreWeave, Inc.",
-    "updated_at": "2026-10-01T23:51:02.326882",
+    "updated_at": "2026-10-02T05:09:08.065925",
     "price_14d_ago": 82.98
   },
   "LENS": {
     "price": 43.06,
     "change_pct": -5.4,
     "name": "Sarmaya Thematic ETF",
-    "updated_at": "2026-10-01T23:51:09.672400",
+    "updated_at": "2026-10-02T05:09:15.676527",
     "price_14d_ago": 45.52
   },
   "TCEHY": {
     "price": 54.0,
     "change_pct": -2.17,
     "name": "Tencent Holding Ltd.",
-    "updated_at": "2026-10-01T23:51:22.294687",
+    "updated_at": "2026-10-02T05:09:28.996947",
     "price_14d_ago": 55.2
   }
 },
@@ -15810,8 +15810,8 @@ const dashboardData = {
       "first_detected_speaker": "",
       "last_mentioned_episode_id": 545,
       "last_mentioned_speaker": "Alex Zhang",
-      "novelty_score": 2.6913,
-      "overton_score": 2.6913,
+      "novelty_score": 2.6729,
+      "overton_score": 2.6729,
       "resonance_pct": 83,
       "is_established": false,
       "first_detected_podcast": "The a16z Show",
@@ -15838,8 +15838,8 @@ const dashboardData = {
       "first_detected_speaker": "",
       "last_mentioned_episode_id": 521,
       "last_mentioned_speaker": "Dwarkesh Patel (hosts)",
-      "novelty_score": 2.4317,
-      "overton_score": 2.4317,
+      "novelty_score": 2.4091,
+      "overton_score": 2.4091,
       "resonance_pct": 81,
       "is_established": false,
       "first_detected_podcast": "The a16z Show",
@@ -15866,9 +15866,9 @@ const dashboardData = {
       "first_detected_speaker": "Chamath Palihapitiya, Jason Calacanis (hosts)",
       "last_mentioned_episode_id": 544,
       "last_mentioned_speaker": "Ed Zitron",
-      "novelty_score": 2.2244,
-      "overton_score": 2.2244,
-      "resonance_pct": 79,
+      "novelty_score": 2.2027,
+      "overton_score": 2.2027,
+      "resonance_pct": 78,
       "is_established": false,
       "first_detected_podcast": "All-In with Chamath, Jason, Sacks & Friedberg",
       "first_detected_episode_title": "World's First Trillionaire, Anthropic Fable Banned, The New Oligarchs, Iran Peace Deal",
@@ -15894,9 +15894,9 @@ const dashboardData = {
       "first_detected_speaker": "Mark Andrewson, Chris Dixon",
       "last_mentioned_episode_id": 535,
       "last_mentioned_speaker": "Peter Diamandis (hosts)",
-      "novelty_score": 2.0407,
-      "overton_score": 2.0407,
-      "resonance_pct": 77,
+      "novelty_score": 2.0207,
+      "overton_score": 2.0207,
+      "resonance_pct": 76,
       "is_established": false,
       "first_detected_podcast": "The a16z Show",
       "first_detected_episode_title": "Marc Andreessen and Chris Dixon: What\u2019s at Stake in Crypto Regulation",
@@ -15922,8 +15922,8 @@ const dashboardData = {
       "first_detected_speaker": "Victor Hagani",
       "last_mentioned_episode_id": 500,
       "last_mentioned_speaker": "Peter Diamandis (hosts)",
-      "novelty_score": 1.8627,
-      "overton_score": 1.8627,
+      "novelty_score": 1.845,
+      "overton_score": 1.845,
       "resonance_pct": 74,
       "is_established": false,
       "first_detected_podcast": "Monetary Matters with Jack Farley",
@@ -15950,8 +15950,8 @@ const dashboardData = {
       "first_detected_speaker": "Michael Kratsios",
       "last_mentioned_episode_id": 463,
       "last_mentioned_speaker": "Astra Research Team",
-      "novelty_score": 1.8117,
-      "overton_score": 1.8117,
+      "novelty_score": 1.7951,
+      "overton_score": 1.7951,
       "resonance_pct": 74,
       "is_established": false,
       "first_detected_podcast": "Moonshots with Peter Diamandis",
@@ -15978,8 +15978,8 @@ const dashboardData = {
       "first_detected_speaker": "",
       "last_mentioned_episode_id": 519,
       "last_mentioned_speaker": "",
-      "novelty_score": 1.7827,
-      "overton_score": 1.7827,
+      "novelty_score": 1.765,
+      "overton_score": 1.765,
       "resonance_pct": 73,
       "is_established": false,
       "first_detected_podcast": "Moonshots with Peter Diamandis",
@@ -16006,9 +16006,9 @@ const dashboardData = {
       "first_detected_speaker": "Peter Diamandis",
       "last_mentioned_episode_id": 478,
       "last_mentioned_speaker": "Martin Rothblatt",
-      "novelty_score": 1.727,
-      "overton_score": 1.727,
-      "resonance_pct": 73,
+      "novelty_score": 1.7106,
+      "overton_score": 1.7106,
+      "resonance_pct": 72,
       "is_established": false,
       "first_detected_podcast": "Moonshots with Peter Diamandis",
       "first_detected_episode_title": "Emerging Situation: Anthropic's Global Pause, Recursive Self-Improvement Arrives, and AI Personhood Arrives | EP #263",
@@ -16034,9 +16034,9 @@ const dashboardData = {
       "first_detected_speaker": "",
       "last_mentioned_episode_id": 475,
       "last_mentioned_speaker": "Peter Diamandis (hosts)",
-      "novelty_score": 1.6601,
-      "overton_score": 1.6601,
-      "resonance_pct": 72,
+      "novelty_score": 1.6444,
+      "overton_score": 1.6444,
+      "resonance_pct": 71,
       "is_established": false,
       "first_detected_podcast": "Moonshots with Peter Diamandis",
       "first_detected_episode_title": "SpaceX\u2019 $75B+ Historic IPO, GPT 5.5 Outperforms Polymarket, and AI Solves 80 yr old math problem | EP #257",
@@ -16062,8 +16062,8 @@ const dashboardData = {
       "first_detected_speaker": "Mark Zuckerberg, Priscilla Chan",
       "last_mentioned_episode_id": 538,
       "last_mentioned_speaker": "Ben Pouladian",
-      "novelty_score": 1.6317,
-      "overton_score": 1.6317,
+      "novelty_score": 1.6148,
+      "overton_score": 1.6148,
       "resonance_pct": 71,
       "is_established": false,
       "first_detected_podcast": "The a16z Show",
@@ -16090,8 +16090,8 @@ const dashboardData = {
       "first_detected_speaker": "",
       "last_mentioned_episode_id": 541,
       "last_mentioned_speaker": "Si Sheppard",
-      "novelty_score": 1.602,
-      "overton_score": 1.602,
+      "novelty_score": 1.5852,
+      "overton_score": 1.5852,
       "resonance_pct": 71,
       "is_established": false,
       "first_detected_podcast": "Dwarkesh Podcast",
@@ -16118,8 +16118,8 @@ const dashboardData = {
       "first_detected_speaker": "",
       "last_mentioned_episode_id": 506,
       "last_mentioned_speaker": "Naveen Rau",
-      "novelty_score": 1.505,
-      "overton_score": 1.505,
+      "novelty_score": 1.4898,
+      "overton_score": 1.4898,
       "resonance_pct": 69,
       "is_established": false,
       "first_detected_podcast": "Moonshots with Peter Diamandis",
@@ -16146,8 +16146,8 @@ const dashboardData = {
       "first_detected_speaker": "Casser, Eunice, Peter Ludwig",
       "last_mentioned_episode_id": 540,
       "last_mentioned_speaker": "Jake Paul, Drew Taggart, Alex Pall",
-      "novelty_score": 1.4982,
-      "overton_score": 1.4982,
+      "novelty_score": 1.4823,
+      "overton_score": 1.4823,
       "resonance_pct": 69,
       "is_established": false,
       "first_detected_podcast": "The a16z Show",
@@ -16176,8 +16176,8 @@ const dashboardData = {
       "first_detected_speaker": "Demis Hassabis",
       "last_mentioned_episode_id": 545,
       "last_mentioned_speaker": "Alex Zhang",
-      "novelty_score": 0.5458,
-      "overton_score": 0.5458,
+      "novelty_score": 0.5439,
+      "overton_score": 0.5439,
       "resonance_pct": 47,
       "is_established": true,
       "first_detected_podcast": "Moonshots with Peter Diamandis",
@@ -16204,8 +16204,8 @@ const dashboardData = {
       "first_detected_speaker": "Travis Kalanick, Ben Horowitz",
       "last_mentioned_episode_id": 541,
       "last_mentioned_speaker": "Si Sheppard",
-      "novelty_score": 0.6407,
-      "overton_score": 0.6407,
+      "novelty_score": 0.6313,
+      "overton_score": 0.6313,
       "resonance_pct": 50,
       "is_established": true,
       "first_detected_podcast": "The a16z Show",
@@ -16232,8 +16232,8 @@ const dashboardData = {
       "first_detected_speaker": "Leakwet Ahamed",
       "last_mentioned_episode_id": 542,
       "last_mentioned_speaker": "David Rosenberg",
-      "novelty_score": 0.5553,
-      "overton_score": 0.5553,
+      "novelty_score": 0.5465,
+      "overton_score": 0.5465,
       "resonance_pct": 47,
       "is_established": true,
       "first_detected_podcast": "Monetary Matters with Jack Farley",
@@ -16260,8 +16260,8 @@ const dashboardData = {
       "first_detected_speaker": "",
       "last_mentioned_episode_id": 540,
       "last_mentioned_speaker": "Jake Paul, Drew Taggart, Alex Pall",
-      "novelty_score": 0.489,
-      "overton_score": 0.489,
+      "novelty_score": 0.4808,
+      "overton_score": 0.4808,
       "resonance_pct": 44,
       "is_established": true,
       "first_detected_podcast": "The a16z Show",
@@ -47091,7 +47091,7 @@ const dashboardData = {
 ],
   podcastGuests: [
   {
-    "id": 78360,
+    "id": 78475,
     "name": "Rebuilding the Internet for Privacy",
     "slug": "rebuilding-the-internet-for-privacy",
     "bio": null,
@@ -47103,7 +47103,7 @@ const dashboardData = {
     "appearance_count": 1
   },
   {
-    "id": 78361,
+    "id": 78476,
     "name": "Token Bill Dwarfs CPU Bill",
     "slug": "token-bill-dwarfs-cpu-bill",
     "bio": null,
@@ -47115,7 +47115,7 @@ const dashboardData = {
     "appearance_count": 1
   },
   {
-    "id": 78362,
+    "id": 78477,
     "name": "Jake Paul & The Chainsmokers",
     "slug": "jake-paul--the-chainsmokers",
     "bio": null,
@@ -47127,7 +47127,7 @@ const dashboardData = {
     "appearance_count": 1
   },
   {
-    "id": 78363,
+    "id": 78478,
     "name": "Palmer Luckey",
     "slug": "palmer-luckey",
     "bio": null,
@@ -47139,7 +47139,7 @@ const dashboardData = {
     "appearance_count": 1
   },
   {
-    "id": 78364,
+    "id": 78479,
     "name": "Daniel Ek",
     "slug": "daniel-ek",
     "bio": null,
@@ -47151,7 +47151,7 @@ const dashboardData = {
     "appearance_count": 1
   },
   {
-    "id": 78365,
+    "id": 78480,
     "name": "Michael Every",
     "slug": "michael-every",
     "bio": null,
@@ -47163,7 +47163,7 @@ const dashboardData = {
     "appearance_count": 1
   },
   {
-    "id": 78366,
+    "id": 78481,
     "name": "Steve Hilton & Spencer Pratt",
     "slug": "steve-hilton--spencer-pratt",
     "bio": null,
@@ -47175,7 +47175,7 @@ const dashboardData = {
     "appearance_count": 1
   },
   {
-    "id": 78367,
+    "id": 78482,
     "name": "Blake Scholl",
     "slug": "blake-scholl",
     "bio": null,
@@ -47187,7 +47187,7 @@ const dashboardData = {
     "appearance_count": 1
   },
   {
-    "id": 78368,
+    "id": 78483,
     "name": "John Platt",
     "slug": "john-platt",
     "bio": null,
@@ -47199,7 +47199,7 @@ const dashboardData = {
     "appearance_count": 1
   },
   {
-    "id": 78369,
+    "id": 78484,
     "name": "Diogo Almeida",
     "slug": "diogo-almeida",
     "bio": null,
@@ -47211,7 +47211,7 @@ const dashboardData = {
     "appearance_count": 1
   },
   {
-    "id": 78370,
+    "id": 78485,
     "name": "Naveen Rao",
     "slug": "naveen-rao",
     "bio": null,
@@ -47223,7 +47223,7 @@ const dashboardData = {
     "appearance_count": 1
   },
   {
-    "id": 78371,
+    "id": 78486,
     "name": "Outlook on 5 Key Commodities",
     "slug": "outlook-on-5-key-commodities",
     "bio": null,
@@ -47235,7 +47235,7 @@ const dashboardData = {
     "appearance_count": 1
   },
   {
-    "id": 78372,
+    "id": 78487,
     "name": "Bill Gurley",
     "slug": "bill-gurley",
     "bio": null,
@@ -47247,7 +47247,7 @@ const dashboardData = {
     "appearance_count": 1
   },
   {
-    "id": 78373,
+    "id": 78488,
     "name": "Nick Shirley",
     "slug": "nick-shirley",
     "bio": null,
@@ -47259,7 +47259,7 @@ const dashboardData = {
     "appearance_count": 1
   },
   {
-    "id": 78374,
+    "id": 78489,
     "name": "Jared Isaacman",
     "slug": "jared-isaacman",
     "bio": null,
@@ -47271,7 +47271,7 @@ const dashboardData = {
     "appearance_count": 1
   },
   {
-    "id": 78375,
+    "id": 78490,
     "name": "Brad Gerstner",
     "slug": "brad-gerstner",
     "bio": null,
@@ -47283,7 +47283,7 @@ const dashboardData = {
     "appearance_count": 1
   },
   {
-    "id": 78376,
+    "id": 78491,
     "name": "Meta's Dina Powell McCormick",
     "slug": "metas-dina-powell-mccormick",
     "bio": null,
@@ -47295,7 +47295,7 @@ const dashboardData = {
     "appearance_count": 1
   },
   {
-    "id": 78377,
+    "id": 78492,
     "name": "Underwriting Superintelligence",
     "slug": "underwriting-superintelligence",
     "bio": null,
@@ -47307,7 +47307,7 @@ const dashboardData = {
     "appearance_count": 1
   },
   {
-    "id": 78378,
+    "id": 78493,
     "name": "Hawks Take Flight",
     "slug": "hawks-take-flight",
     "bio": null,
@@ -47319,7 +47319,7 @@ const dashboardData = {
     "appearance_count": 1
   },
   {
-    "id": 78379,
+    "id": 78494,
     "name": "Martine Rothblatt",
     "slug": "martine-rothblatt",
     "bio": null,
@@ -49028,121 +49028,6 @@ const dashboardData = {
     }
   },
   {
-    "id": 480,
-    "name": "Eric Gwyn",
-    "slug": "eric-gwyn",
-    "bio": "Eric Gwyn is a leading researcher in synthetic biology and AI applications, focusing on genomic language models and biosecurity. He emphasizes the importance of developing defensive capabilities alongside design capabilities in biotechnology. His work aims to bridge the gap between innovation and safety in synthetic biology.",
-    "known_for": "Eric Gwyn is recognized for his pioneering contributions to genomic language models and their applications in biosecurity, making him a key figure in the intersection of AI and synthetic biology.",
-    "net_worth_usd": null,
-    "net_worth_source": "",
-    "net_worth_updated_at": null,
-    "voice_tone": "Informative and assertive",
-    "voice_style": "He presents a balanced view of innovation and ethical considerations.",
-    "voice_delivery_notes": "Pacing is steady with emphasis on key points.",
-    "voice_profile_updated_at": "2026-09-24 04:53:17",
-    "last_seen": "2026-09-24 04:53:17",
-    "last_episode_title": "\ud83d\udd2cBio-security is an AI Arms Race - Eric Nguyen (CEO, Radical Numerics)",
-    "last_podcast_name": "Latent Space: The AI Engineer Podcast",
-    "last_episode_date": "2026-09-23",
-    "mention_score": 1,
-    "mention_score_decayed": 0.85,
-    "last_main_idea": "The core investment opportunity lies in companies that balance innovation in synthetic biology with ethical biosecurity measures, particularly those utilizing AI for genomic analysis.",
-    "last_proof_cite": "Latent Space: The AI Engineer Podcast \u2022 2026-09-23 \u2022 \ud83d\udd2cBio-security is an AI Arms Race - Eric Nguyen (CEO, Radical Numerics)",
-    "last_proof_snippet": "The design side is going to get more people the defensive side needs to try to get ahead. So I think inherently there is this arms-restile dynamic that the defensive side has been far, far lagging. And so what we want to do is bring the def",
-    "supporting_takeaway": "",
-    "grokipedia_url": null,
-    "grokipedia_fetched_at": "2026-09-23T23:53:22.964812",
-    "pundit_profile": {
-      "source": "llm",
-      "source_model": "openai:gpt-4o-mini",
-      "source_url": "",
-      "page_title": "Eric Gwyn",
-      "fetched_at": "2026-09-24T04:53:22.964587+00:00",
-      "cliff_notes": "Eric Gwyn has established himself as a prominent figure in the fields of synthetic biology and artificial intelligence. His research focuses on the development of genomic language models that not only generate biological sequences but also assess their potential pathogenicity. This dual capability is crucial in the context of biosecurity, where understanding and mitigating risks associated with synthetic biology is increasingly important. Gwyn's approach advocates for a proactive stance in safeguarding technological advancements, ensuring that innovations in design are matched by robust defensive measures. His leadership at Article reflects a commitment to responsible innovation, aiming to empower researchers and companies to navigate the complexities of biotechnological advancements responsibly.",
-      "derived": {
-        "current_role": "CEO and Co-founder of Article"
-      },
-      "infobox": {},
-      "lead_paragraphs": [
-        "Eric Gwyn has established himself as a prominent figure in the fields of synthetic biology and artificial intelligence. His research focuses on the development of genomic language models that not only generate biological sequences but also assess their potential pathogenicity. This dual capability is crucial in the context of biosecurity, where understanding and mitigating risks associated with synthetic biology is increasingly important.",
-        "Gwyn's approach advocates for a proactive stance in safeguarding technological advancements, ensuring that innovations in design are matched by robust defensive measures. His leadership at Article reflects a commitment to responsible innovation, aiming to empower researchers and companies to navigate the complexities of biotechnological advancements responsibly."
-      ],
-      "sections": [
-        {
-          "heading": "Genomic Language Models",
-          "body": "Gwyn's work on genomic language models focuses on their ability to generate biological sequences and predict their pathogenic potential, which is vital for biosecurity."
-        },
-        {
-          "heading": "Biosecurity in Synthetic Biology",
-          "body": "He emphasizes the need for enhanced defensive capabilities in synthetic biology, advocating for a balance between innovation and safety."
-        },
-        {
-          "heading": "Dual Mandate Approach",
-          "body": "Gwyn promotes a dual mandate in his research, where design capabilities are developed alongside defensive strategies to ensure responsible use of technology."
-        }
-      ]
-    }
-  },
-  {
-    "id": 479,
-    "name": "Luca Ferrari",
-    "slug": "luca-ferrari",
-    "bio": "Luca Ferrari is a key executive at Bending Spoon, recognized for his strategic vision in technology and operational excellence. Under his leadership, the company has transformed into a billion-dollar entity through innovative acquisitions and a focus on product development. His insights into the tech industry have made him a notable figure among entrepreneurs and investors alike.",
-    "known_for": "Transforming Bending Spoon into a billion-dollar tech company through strategic acquisitions.",
-    "net_worth_usd": null,
-    "net_worth_source": "",
-    "net_worth_updated_at": null,
-    "voice_tone": "Analytical and confident",
-    "voice_style": "Direct and informative, emphasizing strategic insights.",
-    "voice_delivery_notes": "Pacing is steady with emphasis on key points.",
-    "voice_profile_updated_at": "2026-09-24 04:53:03",
-    "last_seen": "2026-09-24 04:53:03",
-    "last_episode_title": "Luca Ferrari, Bending Spoons CEO: The $40K Origin Story, Buying Product-Market Fit & Why Private Equity Can't Compete",
-    "last_podcast_name": "All-In with Chamath, Jason, Sacks & Friedberg",
-    "last_episode_date": "2026-09-23",
-    "mention_score": 1,
-    "mention_score_decayed": 0.85,
-    "last_main_idea": "Bending Spoon's unique acquisition model allows for rapid scaling and value creation by enhancing underperforming apps.",
-    "last_proof_cite": "All-In with Chamath, Jason, Sacks & Friedberg \u2022 2026-09-23 \u2022 Luca Ferrari, Bending Spoons CEO: The $40K Origin Story, Buying Product-Market Fit & Why Private Equity Can't Compete",
-    "last_proof_snippet": "You are the reason that has exactly this year. Stay went from zero to $1 billion in revenue in just ten years. Bending Spoon CTO look a Ferrari. We have never lost a bid before. Well, AOL has a new parent again. Milan-based tech company Ben",
-    "supporting_takeaway": "The company maintains a conservative leverage ratio of approximately 2.5 times, managing financial risk effectively.",
-    "grokipedia_url": null,
-    "grokipedia_fetched_at": "2026-09-23T23:53:27.461971",
-    "pundit_profile": {
-      "source": "llm",
-      "source_model": "openai:gpt-4o-mini",
-      "source_url": "",
-      "page_title": "Luca Ferrari",
-      "fetched_at": "2026-09-24T04:53:27.461823+00:00",
-      "cliff_notes": "Luca Ferrari has played a pivotal role in the growth of Bending Spoon, a Milan-based tech company that has gained significant traction in the app development market. His approach combines a methodical strategy with a focus on innovation, allowing the company to expand its portfolio and enhance its market presence. Ferrari's leadership has been instrumental in the company's ability to revive underperforming apps and develop new products that cater to a vast user base. His vision for building a generational company reflects a commitment to long-term success in the tech industry, making him a respected figure among peers and investors.",
-      "derived": {
-        "current_role": "CTO at Bending Spoon"
-      },
-      "infobox": {
-        "Born": "",
-        "Nationality": "Italian"
-      },
-      "lead_paragraphs": [
-        "Luca Ferrari has played a pivotal role in the growth of Bending Spoon, a Milan-based tech company that has gained significant traction in the app development market. His approach combines a methodical strategy with a focus on innovation, allowing the company to expand its portfolio and enhance its market presence. Ferrari's leadership has been instrumental in the company's ability to revive underperforming apps and develop new products that cater to a vast user base.",
-        "His vision for building a generational company reflects a commitment to long-term success in the tech industry, making him a respected figure among peers and investors."
-      ],
-      "sections": [
-        {
-          "heading": "Strategic Acquisitions",
-          "body": "Luca has led Bending Spoon in acquiring key assets that have bolstered its market position and expanded its capabilities. These acquisitions have been crucial in driving the company's growth trajectory."
-        },
-        {
-          "heading": "Product Innovation",
-          "body": "Under his guidance, Bending Spoon has focused on developing innovative applications that resonate with users. This emphasis on product quality has contributed to the company's impressive revenue growth."
-        },
-        {
-          "heading": "Market Expansion",
-          "body": "Ferrari's strategic initiatives have allowed Bending Spoon to penetrate new markets and reach a broader audience, significantly increasing its user base and revenue."
-        }
-      ]
-    }
-  },
-  {
     "id": 333,
     "name": "Dylan Patel",
     "slug": "dylan-patel",
@@ -49201,6 +49086,121 @@ const dashboardData = {
       ]
     },
     "net_worth": "$3.70B"
+  },
+  {
+    "id": 480,
+    "name": "Eric Gwyn",
+    "slug": "eric-gwyn",
+    "bio": "Eric Gwyn is a leading researcher in synthetic biology and AI applications, focusing on genomic language models and biosecurity. He emphasizes the importance of developing defensive capabilities alongside design capabilities in biotechnology. His work aims to bridge the gap between innovation and safety in synthetic biology.",
+    "known_for": "Eric Gwyn is recognized for his pioneering contributions to genomic language models and their applications in biosecurity, making him a key figure in the intersection of AI and synthetic biology.",
+    "net_worth_usd": null,
+    "net_worth_source": "",
+    "net_worth_updated_at": null,
+    "voice_tone": "Informative and assertive",
+    "voice_style": "He presents a balanced view of innovation and ethical considerations.",
+    "voice_delivery_notes": "Pacing is steady with emphasis on key points.",
+    "voice_profile_updated_at": "2026-09-24 04:53:17",
+    "last_seen": "2026-09-24 04:53:17",
+    "last_episode_title": "\ud83d\udd2cBio-security is an AI Arms Race - Eric Nguyen (CEO, Radical Numerics)",
+    "last_podcast_name": "Latent Space: The AI Engineer Podcast",
+    "last_episode_date": "2026-09-23",
+    "mention_score": 1,
+    "mention_score_decayed": 0.83,
+    "last_main_idea": "The core investment opportunity lies in companies that balance innovation in synthetic biology with ethical biosecurity measures, particularly those utilizing AI for genomic analysis.",
+    "last_proof_cite": "Latent Space: The AI Engineer Podcast \u2022 2026-09-23 \u2022 \ud83d\udd2cBio-security is an AI Arms Race - Eric Nguyen (CEO, Radical Numerics)",
+    "last_proof_snippet": "The design side is going to get more people the defensive side needs to try to get ahead. So I think inherently there is this arms-restile dynamic that the defensive side has been far, far lagging. And so what we want to do is bring the def",
+    "supporting_takeaway": "",
+    "grokipedia_url": null,
+    "grokipedia_fetched_at": "2026-09-23T23:53:22.964812",
+    "pundit_profile": {
+      "source": "llm",
+      "source_model": "openai:gpt-4o-mini",
+      "source_url": "",
+      "page_title": "Eric Gwyn",
+      "fetched_at": "2026-09-24T04:53:22.964587+00:00",
+      "cliff_notes": "Eric Gwyn has established himself as a prominent figure in the fields of synthetic biology and artificial intelligence. His research focuses on the development of genomic language models that not only generate biological sequences but also assess their potential pathogenicity. This dual capability is crucial in the context of biosecurity, where understanding and mitigating risks associated with synthetic biology is increasingly important. Gwyn's approach advocates for a proactive stance in safeguarding technological advancements, ensuring that innovations in design are matched by robust defensive measures. His leadership at Article reflects a commitment to responsible innovation, aiming to empower researchers and companies to navigate the complexities of biotechnological advancements responsibly.",
+      "derived": {
+        "current_role": "CEO and Co-founder of Article"
+      },
+      "infobox": {},
+      "lead_paragraphs": [
+        "Eric Gwyn has established himself as a prominent figure in the fields of synthetic biology and artificial intelligence. His research focuses on the development of genomic language models that not only generate biological sequences but also assess their potential pathogenicity. This dual capability is crucial in the context of biosecurity, where understanding and mitigating risks associated with synthetic biology is increasingly important.",
+        "Gwyn's approach advocates for a proactive stance in safeguarding technological advancements, ensuring that innovations in design are matched by robust defensive measures. His leadership at Article reflects a commitment to responsible innovation, aiming to empower researchers and companies to navigate the complexities of biotechnological advancements responsibly."
+      ],
+      "sections": [
+        {
+          "heading": "Genomic Language Models",
+          "body": "Gwyn's work on genomic language models focuses on their ability to generate biological sequences and predict their pathogenic potential, which is vital for biosecurity."
+        },
+        {
+          "heading": "Biosecurity in Synthetic Biology",
+          "body": "He emphasizes the need for enhanced defensive capabilities in synthetic biology, advocating for a balance between innovation and safety."
+        },
+        {
+          "heading": "Dual Mandate Approach",
+          "body": "Gwyn promotes a dual mandate in his research, where design capabilities are developed alongside defensive strategies to ensure responsible use of technology."
+        }
+      ]
+    }
+  },
+  {
+    "id": 479,
+    "name": "Luca Ferrari",
+    "slug": "luca-ferrari",
+    "bio": "Luca Ferrari is a key executive at Bending Spoon, recognized for his strategic vision in technology and operational excellence. Under his leadership, the company has transformed into a billion-dollar entity through innovative acquisitions and a focus on product development. His insights into the tech industry have made him a notable figure among entrepreneurs and investors alike.",
+    "known_for": "Transforming Bending Spoon into a billion-dollar tech company through strategic acquisitions.",
+    "net_worth_usd": null,
+    "net_worth_source": "",
+    "net_worth_updated_at": null,
+    "voice_tone": "Analytical and confident",
+    "voice_style": "Direct and informative, emphasizing strategic insights.",
+    "voice_delivery_notes": "Pacing is steady with emphasis on key points.",
+    "voice_profile_updated_at": "2026-09-24 04:53:03",
+    "last_seen": "2026-09-24 04:53:03",
+    "last_episode_title": "Luca Ferrari, Bending Spoons CEO: The $40K Origin Story, Buying Product-Market Fit & Why Private Equity Can't Compete",
+    "last_podcast_name": "All-In with Chamath, Jason, Sacks & Friedberg",
+    "last_episode_date": "2026-09-23",
+    "mention_score": 1,
+    "mention_score_decayed": 0.83,
+    "last_main_idea": "Bending Spoon's unique acquisition model allows for rapid scaling and value creation by enhancing underperforming apps.",
+    "last_proof_cite": "All-In with Chamath, Jason, Sacks & Friedberg \u2022 2026-09-23 \u2022 Luca Ferrari, Bending Spoons CEO: The $40K Origin Story, Buying Product-Market Fit & Why Private Equity Can't Compete",
+    "last_proof_snippet": "You are the reason that has exactly this year. Stay went from zero to $1 billion in revenue in just ten years. Bending Spoon CTO look a Ferrari. We have never lost a bid before. Well, AOL has a new parent again. Milan-based tech company Ben",
+    "supporting_takeaway": "The company maintains a conservative leverage ratio of approximately 2.5 times, managing financial risk effectively.",
+    "grokipedia_url": null,
+    "grokipedia_fetched_at": "2026-09-23T23:53:27.461971",
+    "pundit_profile": {
+      "source": "llm",
+      "source_model": "openai:gpt-4o-mini",
+      "source_url": "",
+      "page_title": "Luca Ferrari",
+      "fetched_at": "2026-09-24T04:53:27.461823+00:00",
+      "cliff_notes": "Luca Ferrari has played a pivotal role in the growth of Bending Spoon, a Milan-based tech company that has gained significant traction in the app development market. His approach combines a methodical strategy with a focus on innovation, allowing the company to expand its portfolio and enhance its market presence. Ferrari's leadership has been instrumental in the company's ability to revive underperforming apps and develop new products that cater to a vast user base. His vision for building a generational company reflects a commitment to long-term success in the tech industry, making him a respected figure among peers and investors.",
+      "derived": {
+        "current_role": "CTO at Bending Spoon"
+      },
+      "infobox": {
+        "Born": "",
+        "Nationality": "Italian"
+      },
+      "lead_paragraphs": [
+        "Luca Ferrari has played a pivotal role in the growth of Bending Spoon, a Milan-based tech company that has gained significant traction in the app development market. His approach combines a methodical strategy with a focus on innovation, allowing the company to expand its portfolio and enhance its market presence. Ferrari's leadership has been instrumental in the company's ability to revive underperforming apps and develop new products that cater to a vast user base.",
+        "His vision for building a generational company reflects a commitment to long-term success in the tech industry, making him a respected figure among peers and investors."
+      ],
+      "sections": [
+        {
+          "heading": "Strategic Acquisitions",
+          "body": "Luca has led Bending Spoon in acquiring key assets that have bolstered its market position and expanded its capabilities. These acquisitions have been crucial in driving the company's growth trajectory."
+        },
+        {
+          "heading": "Product Innovation",
+          "body": "Under his guidance, Bending Spoon has focused on developing innovative applications that resonate with users. This emphasis on product quality has contributed to the company's impressive revenue growth."
+        },
+        {
+          "heading": "Market Expansion",
+          "body": "Ferrari's strategic initiatives have allowed Bending Spoon to penetrate new markets and reach a broader audience, significantly increasing its user base and revenue."
+        }
+      ]
+    }
   },
   {
     "id": 478,
@@ -49506,7 +49506,7 @@ const dashboardData = {
     "last_podcast_name": "All-In with Chamath, Jason, Sacks & Friedberg",
     "last_episode_date": "2026-09-20",
     "mention_score": 1,
-    "mention_score_decayed": 0.79,
+    "mention_score_decayed": 0.78,
     "last_main_idea": "The mobile gaming advertising market is projected to reach $50 billion annually, presenting substantial growth opportunities.",
     "last_proof_cite": "All-In with Chamath, Jason, Sacks & Friedberg \u2022 2026-09-20 \u2022 Adam Foroughi, Applovin CEO: Surviving a 92% Drawdown, Ads as ML 1.0 & the $50B Game Ad Market",
     "last_proof_snippet": "Adam is probably the best founder and known as EverHurt of there's an earth platform hiding inside 100,000 mobile games and is quietly out-before-ing Facebook ads for e-commerce brands of all those thousand plus IPOs the number one most val",
@@ -49711,63 +49711,6 @@ const dashboardData = {
     }
   },
   {
-    "id": 466,
-    "name": "Dario Amadeh",
-    "slug": "dario-amadeh",
-    "bio": "Dario Amadeh is the CEO of Anthropic, a prominent organization focused on AI safety and research. He is known for advocating responsible AI development and implementing safety measures in the rapidly evolving field of artificial intelligence. His work emphasizes the importance of ethical considerations in technology.",
-    "known_for": "Dario Amadeh is recognized for his leadership in AI safety and his commitment to responsible AI development.",
-    "net_worth_usd": null,
-    "net_worth_source": "",
-    "net_worth_updated_at": null,
-    "voice_tone": "Cautious and reflective",
-    "voice_style": "Analytical and persuasive",
-    "voice_delivery_notes": "Measured pacing with emphasis on key safety concerns.",
-    "voice_profile_updated_at": "2026-09-18 04:53:48",
-    "last_seen": "2026-09-18 04:53:48",
-    "last_episode_title": "Frontier Labs Want to Slow Down, OpenAI Delays Its 2026 IPO, Anthropic Flags 5 Bioweapon Cases | EP #291",
-    "last_podcast_name": "Moonshots with Peter Diamandis",
-    "last_episode_date": "2026-09-17",
-    "mention_score": 1,
-    "mention_score_decayed": 0.74,
-    "last_main_idea": "The evolving landscape of AI safety and regulation presents both challenges and opportunities for investors, particularly in sectors impacted by AI integration and educational reforms.",
-    "last_proof_cite": "Moonshots with Peter Diamandis \u2022 2026-09-17 \u2022 Frontier Labs Want to Slow Down, OpenAI Delays Its 2026 IPO, Anthropic Flags 5 Bioweapon Cases | EP #291",
-    "last_proof_snippet": "Daria Amade, CEO of Enthropic, published a 3,800-word essay titled We Must Pace the Frontier. Three hours later, Sam Elan said, you're right. Monday, President Trump called it a hoax and China called it a cold war trick. Nothing less than a",
-    "supporting_takeaway": "The potential emergence of a safety cartel among AI companies could stifle competition.",
-    "grokipedia_url": null,
-    "grokipedia_fetched_at": "2026-09-17T23:54:12.886346",
-    "pundit_profile": {
-      "source": "llm",
-      "source_model": "openai:gpt-4o-mini",
-      "source_url": "",
-      "page_title": "Dario Amadeh",
-      "fetched_at": "2026-09-18T04:54:12.885990+00:00",
-      "cliff_notes": "Dario Amadeh has emerged as a significant figure in the field of artificial intelligence, particularly in the realm of safety and ethical development. As the CEO of Anthropic, he leads initiatives aimed at addressing the potential risks associated with AI technologies. His recent publications highlight the urgent need for regulation and responsible practices in AI development, positioning him as a thought leader in discussions about the future of technology. Amadeh's advocacy for safety measures reflects a growing recognition of the implications of AI on society, making his insights valuable for investors and tech enthusiasts alike.",
-      "derived": {
-        "current_role": "CEO of Anthropic",
-        "books_or_works": "We Must Pace the Frontier; Threat Intelligence Report"
-      },
-      "infobox": {},
-      "lead_paragraphs": [
-        "Dario Amadeh has emerged as a significant figure in the field of artificial intelligence, particularly in the realm of safety and ethical development. As the CEO of Anthropic, he leads initiatives aimed at addressing the potential risks associated with AI technologies. His recent publications highlight the urgent need for regulation and responsible practices in AI development, positioning him as a thought leader in discussions about the future of technology.",
-        "Amadeh's advocacy for safety measures reflects a growing recognition of the implications of AI on society, making his insights valuable for investors and tech enthusiasts alike."
-      ],
-      "sections": [
-        {
-          "heading": "AI Safety Advocacy",
-          "body": "Dario Amadeh is a prominent advocate for AI safety, emphasizing the need for responsible development practices to mitigate risks associated with artificial intelligence."
-        },
-        {
-          "heading": "Leadership at Anthropic",
-          "body": "As CEO of Anthropic, Amadeh drives the organization's mission to prioritize safety and ethical considerations in AI research and deployment."
-        },
-        {
-          "heading": "Publications on AI Regulation",
-          "body": "His recent essays and reports, including 'We Must Pace the Frontier' and the 'Threat Intelligence Report,' address the critical need for AI regulation and the potential dangers of unchecked technological advancement."
-        }
-      ]
-    }
-  },
-  {
     "id": 133,
     "name": "Chris Dixon",
     "slug": "chris-dixon",
@@ -49827,6 +49770,63 @@ const dashboardData = {
       ]
     },
     "net_worth": "$500.0M"
+  },
+  {
+    "id": 466,
+    "name": "Dario Amadeh",
+    "slug": "dario-amadeh",
+    "bio": "Dario Amadeh is the CEO of Anthropic, a prominent organization focused on AI safety and research. He is known for advocating responsible AI development and implementing safety measures in the rapidly evolving field of artificial intelligence. His work emphasizes the importance of ethical considerations in technology.",
+    "known_for": "Dario Amadeh is recognized for his leadership in AI safety and his commitment to responsible AI development.",
+    "net_worth_usd": null,
+    "net_worth_source": "",
+    "net_worth_updated_at": null,
+    "voice_tone": "Cautious and reflective",
+    "voice_style": "Analytical and persuasive",
+    "voice_delivery_notes": "Measured pacing with emphasis on key safety concerns.",
+    "voice_profile_updated_at": "2026-09-18 04:53:48",
+    "last_seen": "2026-09-18 04:53:48",
+    "last_episode_title": "Frontier Labs Want to Slow Down, OpenAI Delays Its 2026 IPO, Anthropic Flags 5 Bioweapon Cases | EP #291",
+    "last_podcast_name": "Moonshots with Peter Diamandis",
+    "last_episode_date": "2026-09-17",
+    "mention_score": 1,
+    "mention_score_decayed": 0.72,
+    "last_main_idea": "The evolving landscape of AI safety and regulation presents both challenges and opportunities for investors, particularly in sectors impacted by AI integration and educational reforms.",
+    "last_proof_cite": "Moonshots with Peter Diamandis \u2022 2026-09-17 \u2022 Frontier Labs Want to Slow Down, OpenAI Delays Its 2026 IPO, Anthropic Flags 5 Bioweapon Cases | EP #291",
+    "last_proof_snippet": "Daria Amade, CEO of Enthropic, published a 3,800-word essay titled We Must Pace the Frontier. Three hours later, Sam Elan said, you're right. Monday, President Trump called it a hoax and China called it a cold war trick. Nothing less than a",
+    "supporting_takeaway": "The potential emergence of a safety cartel among AI companies could stifle competition.",
+    "grokipedia_url": null,
+    "grokipedia_fetched_at": "2026-09-17T23:54:12.886346",
+    "pundit_profile": {
+      "source": "llm",
+      "source_model": "openai:gpt-4o-mini",
+      "source_url": "",
+      "page_title": "Dario Amadeh",
+      "fetched_at": "2026-09-18T04:54:12.885990+00:00",
+      "cliff_notes": "Dario Amadeh has emerged as a significant figure in the field of artificial intelligence, particularly in the realm of safety and ethical development. As the CEO of Anthropic, he leads initiatives aimed at addressing the potential risks associated with AI technologies. His recent publications highlight the urgent need for regulation and responsible practices in AI development, positioning him as a thought leader in discussions about the future of technology. Amadeh's advocacy for safety measures reflects a growing recognition of the implications of AI on society, making his insights valuable for investors and tech enthusiasts alike.",
+      "derived": {
+        "current_role": "CEO of Anthropic",
+        "books_or_works": "We Must Pace the Frontier; Threat Intelligence Report"
+      },
+      "infobox": {},
+      "lead_paragraphs": [
+        "Dario Amadeh has emerged as a significant figure in the field of artificial intelligence, particularly in the realm of safety and ethical development. As the CEO of Anthropic, he leads initiatives aimed at addressing the potential risks associated with AI technologies. His recent publications highlight the urgent need for regulation and responsible practices in AI development, positioning him as a thought leader in discussions about the future of technology.",
+        "Amadeh's advocacy for safety measures reflects a growing recognition of the implications of AI on society, making his insights valuable for investors and tech enthusiasts alike."
+      ],
+      "sections": [
+        {
+          "heading": "AI Safety Advocacy",
+          "body": "Dario Amadeh is a prominent advocate for AI safety, emphasizing the need for responsible development practices to mitigate risks associated with artificial intelligence."
+        },
+        {
+          "heading": "Leadership at Anthropic",
+          "body": "As CEO of Anthropic, Amadeh drives the organization's mission to prioritize safety and ethical considerations in AI research and deployment."
+        },
+        {
+          "heading": "Publications on AI Regulation",
+          "body": "His recent essays and reports, including 'We Must Pace the Frontier' and the 'Threat Intelligence Report,' address the critical need for AI regulation and the potential dangers of unchecked technological advancement."
+        }
+      ]
+    }
   },
   {
     "id": 465,
@@ -51907,7 +51907,7 @@ const dashboardData = {
     "last_podcast_name": "Moonshots with Peter Diamandis",
     "last_episode_date": "2026-08-27",
     "mention_score": 1,
-    "mention_score_decayed": 0.46,
+    "mention_score_decayed": 0.45,
     "last_main_idea": "Investment in AI and autonomous vehicle sectors should consider the shift towards more gradual AI integration and the potential for cost-effective Chinese AI models to disrupt the market.",
     "last_proof_cite": "Moonshots with Peter Diamandis \u2022 2026-08-27 \u2022 Sam Altman: Singularity Slow-Down, Emad Runs 18 Grokbots, Waymo Slashes Hardware 83% | EP #283",
     "last_proof_snippet": "Sam Altman went on video this week to tell the world that he was wrong about the impact of advancing AI. We've all been too ambitious on time on it's even with this incredible technology. He now believes it will be something slower, more lik",
@@ -56215,72 +56215,6 @@ const dashboardData = {
     "net_worth": "$7.00B"
   },
   {
-    "id": 335,
-    "name": "Pat Gelsinger",
-    "slug": "pat-gelsinger",
-    "bio": "Pat Gelsinger is a renowned technology executive known for his leadership at Intel and VMware. He served as Intel's 8th CEO and played a significant role in the tech industry's evolution.",
-    "known_for": "His leadership at Intel during a critical period of competition and his insights into the tech industry.",
-    "net_worth_usd": 120000000.0,
-    "net_worth_source": "https://thedacian.com/pat-gelsinger-net-worth/",
-    "net_worth_updated_at": "2026-07-16T05:02:47.534425",
-    "voice_tone": "Reflective and insightful.",
-    "voice_style": "Factual and experienced.",
-    "voice_delivery_notes": "Speaks with a measured pace, emphasizing key points about Intel's history and future.",
-    "voice_profile_updated_at": "2026-07-16 10:01:16",
-    "last_seen": "2026-07-16 10:01:16",
-    "last_episode_title": "Former Intel CEO on What Went Wrong, What's Next + Lovable CEO on the Real Promise of Vibe Coding",
-    "last_podcast_name": "All-In with Chamath, Jason, Sacks & Friedberg",
-    "last_episode_date": "2026-07-15",
-    "mention_score": 1,
-    "mention_score_decayed": 0.17,
-    "last_main_idea": "Investing in companies with strong technical leadership and a focus on future-proofing through R&D can yield significant long-term returns.",
-    "last_proof_cite": "All-In with Chamath, Jason, Sacks & Friedberg \u2022 2026-07-15 \u2022 Former Intel CEO on What Went Wrong, What's Next + Lovable CEO on the Real Promise of Vibe Coding",
-    "last_proof_snippet": "spent a long time in Intel, and only 34 years, 34 years, probably one of the greatest American companies ever, and then, absolutely went off the rails and got absolutely demolished by Nvidia, TSMC, and I guess Apple to a certain extent. So",
-    "supporting_takeaway": "Technical decisions in tech companies should be driven by technologists, not just business leaders.",
-    "grokipedia_url": null,
-    "grokipedia_fetched_at": "2026-07-16T05:02:45.973996",
-    "pundit_profile": {
-      "source": "llm",
-      "source_model": "moonshot:moonshot-v1-8k",
-      "source_url": "",
-      "page_title": "Pat Gelsinger",
-      "fetched_at": "2026-07-16T10:02:45.973649+00:00",
-      "cliff_notes": "Pat Gelsinger has had a long and influential career in the technology sector. Starting at Intel in 1979, he held various technical and leadership roles, eventually becoming the company's Chief Technology Officer. His tenure at Intel spanned over three decades, during which he contributed to the development and execution of many of Intel's technology strategies. After leaving Intel, Gelsinger became the CEO of VMware, where he led the company through significant growth and innovation. In 2021, he returned to Intel as its 8th CEO, taking on the challenge of revitalizing the company amidst intense competition from Nvidia, TSMC, and Apple. His leadership and insights into the tech industry have made him a key figure in the evolution of technology and its impact on the global market.",
-      "derived": {
-        "current_role": "CEO of Intel",
-        "former_positions": "CEO of VMware; Senior Vice President and General Manager of Intel's Digital Enterprise Group; Chief Technology Officer at Intel",
-        "education": "B.S. in Electrical Engineering from Lincoln Technical Institute; M.S. in Electrical Engineering from Stanford University"
-      },
-      "infobox": {
-        "Born": "1962",
-        "Nationality": "American"
-      },
-      "lead_paragraphs": [
-        "Pat Gelsinger has had a long and influential career in the technology sector. Starting at Intel in 1979, he held various technical and leadership roles, eventually becoming the company's Chief Technology Officer. His tenure at Intel spanned over three decades, during which he contributed to the development and execution of many of Intel's technology strategies.",
-        "After leaving Intel, Gelsinger became the CEO of VMware, where he led the company through significant growth and innovation. In 2021, he returned to Intel as its 8th CEO, taking on the challenge of revitalizing the company amidst intense competition from Nvidia, TSMC, and Apple. His leadership and insights into the tech industry have made him a key figure in the evolution of technology and its impact on the global market."
-      ],
-      "sections": [
-        {
-          "heading": "Leadership at Intel",
-          "body": "Pat Gelsinger served as Intel's 8th CEO, taking on the role during a period of intense competition and significant challenges for the company."
-        },
-        {
-          "heading": "VMware CEO",
-          "body": "As CEO of VMware, Gelsinger led the company to substantial growth and innovation, expanding its reach in the virtualization and cloud computing markets."
-        },
-        {
-          "heading": "Technology Strategy",
-          "body": "Throughout his career, Gelsinger has been instrumental in shaping technology strategies, both at Intel and VMware, impacting the direction of the tech industry."
-        },
-        {
-          "heading": "Industry Competition",
-          "body": "Gelsinger's leadership at Intel coincided with the company's struggle to maintain its market position against competitors like Nvidia, TSMC, and Apple."
-        }
-      ]
-    },
-    "net_worth": "$120.0M"
-  },
-  {
     "id": 42,
     "name": "Jack Mallers",
     "slug": "jack-mallers",
@@ -56339,6 +56273,72 @@ const dashboardData = {
       ]
     },
     "net_worth": "$50.0M"
+  },
+  {
+    "id": 335,
+    "name": "Pat Gelsinger",
+    "slug": "pat-gelsinger",
+    "bio": "Pat Gelsinger is a renowned technology executive known for his leadership at Intel and VMware. He served as Intel's 8th CEO and played a significant role in the tech industry's evolution.",
+    "known_for": "His leadership at Intel during a critical period of competition and his insights into the tech industry.",
+    "net_worth_usd": 120000000.0,
+    "net_worth_source": "https://thedacian.com/pat-gelsinger-net-worth/",
+    "net_worth_updated_at": "2026-07-16T05:02:47.534425",
+    "voice_tone": "Reflective and insightful.",
+    "voice_style": "Factual and experienced.",
+    "voice_delivery_notes": "Speaks with a measured pace, emphasizing key points about Intel's history and future.",
+    "voice_profile_updated_at": "2026-07-16 10:01:16",
+    "last_seen": "2026-07-16 10:01:16",
+    "last_episode_title": "Former Intel CEO on What Went Wrong, What's Next + Lovable CEO on the Real Promise of Vibe Coding",
+    "last_podcast_name": "All-In with Chamath, Jason, Sacks & Friedberg",
+    "last_episode_date": "2026-07-15",
+    "mention_score": 1,
+    "mention_score_decayed": 0.16,
+    "last_main_idea": "Investing in companies with strong technical leadership and a focus on future-proofing through R&D can yield significant long-term returns.",
+    "last_proof_cite": "All-In with Chamath, Jason, Sacks & Friedberg \u2022 2026-07-15 \u2022 Former Intel CEO on What Went Wrong, What's Next + Lovable CEO on the Real Promise of Vibe Coding",
+    "last_proof_snippet": "spent a long time in Intel, and only 34 years, 34 years, probably one of the greatest American companies ever, and then, absolutely went off the rails and got absolutely demolished by Nvidia, TSMC, and I guess Apple to a certain extent. So",
+    "supporting_takeaway": "Technical decisions in tech companies should be driven by technologists, not just business leaders.",
+    "grokipedia_url": null,
+    "grokipedia_fetched_at": "2026-07-16T05:02:45.973996",
+    "pundit_profile": {
+      "source": "llm",
+      "source_model": "moonshot:moonshot-v1-8k",
+      "source_url": "",
+      "page_title": "Pat Gelsinger",
+      "fetched_at": "2026-07-16T10:02:45.973649+00:00",
+      "cliff_notes": "Pat Gelsinger has had a long and influential career in the technology sector. Starting at Intel in 1979, he held various technical and leadership roles, eventually becoming the company's Chief Technology Officer. His tenure at Intel spanned over three decades, during which he contributed to the development and execution of many of Intel's technology strategies. After leaving Intel, Gelsinger became the CEO of VMware, where he led the company through significant growth and innovation. In 2021, he returned to Intel as its 8th CEO, taking on the challenge of revitalizing the company amidst intense competition from Nvidia, TSMC, and Apple. His leadership and insights into the tech industry have made him a key figure in the evolution of technology and its impact on the global market.",
+      "derived": {
+        "current_role": "CEO of Intel",
+        "former_positions": "CEO of VMware; Senior Vice President and General Manager of Intel's Digital Enterprise Group; Chief Technology Officer at Intel",
+        "education": "B.S. in Electrical Engineering from Lincoln Technical Institute; M.S. in Electrical Engineering from Stanford University"
+      },
+      "infobox": {
+        "Born": "1962",
+        "Nationality": "American"
+      },
+      "lead_paragraphs": [
+        "Pat Gelsinger has had a long and influential career in the technology sector. Starting at Intel in 1979, he held various technical and leadership roles, eventually becoming the company's Chief Technology Officer. His tenure at Intel spanned over three decades, during which he contributed to the development and execution of many of Intel's technology strategies.",
+        "After leaving Intel, Gelsinger became the CEO of VMware, where he led the company through significant growth and innovation. In 2021, he returned to Intel as its 8th CEO, taking on the challenge of revitalizing the company amidst intense competition from Nvidia, TSMC, and Apple. His leadership and insights into the tech industry have made him a key figure in the evolution of technology and its impact on the global market."
+      ],
+      "sections": [
+        {
+          "heading": "Leadership at Intel",
+          "body": "Pat Gelsinger served as Intel's 8th CEO, taking on the role during a period of intense competition and significant challenges for the company."
+        },
+        {
+          "heading": "VMware CEO",
+          "body": "As CEO of VMware, Gelsinger led the company to substantial growth and innovation, expanding its reach in the virtualization and cloud computing markets."
+        },
+        {
+          "heading": "Technology Strategy",
+          "body": "Throughout his career, Gelsinger has been instrumental in shaping technology strategies, both at Intel and VMware, impacting the direction of the tech industry."
+        },
+        {
+          "heading": "Industry Competition",
+          "body": "Gelsinger's leadership at Intel coincided with the company's struggle to maintain its market position against competitors like Nvidia, TSMC, and Apple."
+        }
+      ]
+    },
+    "net_worth": "$120.0M"
   },
   {
     "id": 332,
@@ -59832,73 +59832,6 @@ const dashboardData = {
     "net_worth": "$265.0M"
   },
   {
-    "id": 209,
-    "name": "David Sinclair",
-    "slug": "david-sinclair",
-    "bio": "Professor in the Department of Genetics and co-director of the Paul F. Glenn Center for the Biology of Aging at Harvard Medical School.",
-    "known_for": "Research on the biology of aging and the development of therapeutics to extend healthspan.",
-    "net_worth_usd": 25000000.0,
-    "net_worth_source": "https://www.eyemindspirit.com/blogs/pop-culture/david-sinclairs-net-worth",
-    "net_worth_updated_at": "2026-04-28T05:04:48.598995",
-    "voice_tone": "Passionate and informative",
-    "voice_style": "Factual and data-driven",
-    "voice_delivery_notes": "Speaks with conviction and enthusiasm",
-    "voice_profile_updated_at": "2026-04-29 10:02:51",
-    "last_seen": "2026-04-29 10:02:51",
-    "last_episode_title": "David Sinclair: The GLP-1 Side Effect No One Talks About, What AI Found in His Lab, and Reversing Blindness | Q&A EP #251",
-    "last_podcast_name": "Moonshots with Peter Diamandis",
-    "last_episode_date": "2026-04-28",
-    "mention_score": 2,
-    "mention_score_decayed": 0.06,
-    "last_main_idea": "Investing in longevity and healthspan technologies and therapies offers significant growth potential as scientific advancements continue to extend human lifespan and improve quality of life.",
-    "last_proof_cite": "Moonshots with Peter Diamandis \u2022 2026-04-28 \u2022 David Sinclair: The GLP-1 Side Effect No One Talks About, What AI Found in His Lab, and Reversing Blindness | Q&A EP #251",
-    "last_proof_snippet": "AI-driven drug design is accelerating research by analyzing billions of molecules for potential therapeutic uses.",
-    "supporting_takeaway": "AI-driven drug design is accelerating research by analyzing billions of molecules for potential therapeutic uses.",
-    "grokipedia_url": null,
-    "grokipedia_fetched_at": "2026-04-28T05:04:47.371037",
-    "pundit_profile": {
-      "source": "llm",
-      "source_model": "moonshot:moonshot-v1-8k",
-      "source_url": "",
-      "page_title": "David Sinclair",
-      "fetched_at": "2026-04-28T10:04:47.370533+00:00",
-      "cliff_notes": "David Sinclair is a prominent researcher in the field of epigenetics and aging. He obtained his Ph.D. in Molecular Genetics from the University of New South Wales and has since dedicated his career to understanding the biological processes behind aging. Sinclair's work has been pivotal in uncovering the role of genes and molecular pathways in aging, with significant contributions to the understanding of how epigenetic changes can influence health and lifespan. His research has opened new avenues for therapeutic interventions aimed at delaying aging and treating age-related diseases. Sinclair's work is particularly relevant to investors and tech listeners due to its potential to revolutionize healthcare and extend human healthspan, which could have profound economic and societal implications.",
-      "derived": {
-        "current_role": "Professor in the Department of Genetics; Co-director of the Paul F. Glenn Center for the Biology of Aging at Harvard Medical School",
-        "education": "Ph.D. in Molecular Genetics, University of New South Wales",
-        "books_or_works": "Why We Age: What Science Is Discovering About the Body's Journey Through Life, and How to Delay, Reverse, and Avoid Age-Related Diseases; numerous scientific papers",
-        "teaching_summary": "Professor in the Department of Genetics at Harvard Medical School"
-      },
-      "infobox": {
-        "Born": "",
-        "Nationality": "Australian"
-      },
-      "lead_paragraphs": [
-        "David Sinclair is a prominent researcher in the field of epigenetics and aging. He obtained his Ph.D. in Molecular Genetics from the University of New South Wales and has since dedicated his career to understanding the biological processes behind aging. Sinclair's work has been pivotal in uncovering the role of genes and molecular pathways in aging, with significant contributions to the understanding of how epigenetic changes can influence health and lifespan.",
-        "His research has opened new avenues for therapeutic interventions aimed at delaying aging and treating age-related diseases. Sinclair's work is particularly relevant to investors and tech listeners due to its potential to revolutionize healthcare and extend human healthspan, which could have profound economic and societal implications."
-      ],
-      "sections": [
-        {
-          "heading": "Epigenetics and Aging",
-          "body": "David Sinclair's research focuses on the role of epigenetics in aging, exploring how changes in gene expression can influence the aging process and contribute to age-related diseases."
-        },
-        {
-          "heading": "Therapeutic Interventions",
-          "body": "Sinclair's work has led to the development of potential therapeutic interventions to delay aging, including the use of molecules like resveratrol and the application of Yamanaka factors to reverse age-related declines in various tissues."
-        },
-        {
-          "heading": "Healthspan Extension",
-          "body": "His research has implications for extending not just lifespan, but more importantly, healthspan \u2013 the period during which individuals maintain good health and functionality."
-        },
-        {
-          "heading": "Broad Impact on Healthcare",
-          "body": "Sinclair's findings have the potential to impact a wide range of healthcare areas, from treating specific age-related diseases like Alzheimer's to improving overall quality of life in later years."
-        }
-      ]
-    },
-    "net_worth": "$25.0M"
-  },
-  {
     "id": 266,
     "name": "Delip Tasman",
     "slug": "delip-tasman",
@@ -60393,6 +60326,73 @@ const dashboardData = {
         }
       ]
     }
+  },
+  {
+    "id": 209,
+    "name": "David Sinclair",
+    "slug": "david-sinclair",
+    "bio": "Professor in the Department of Genetics and co-director of the Paul F. Glenn Center for the Biology of Aging at Harvard Medical School.",
+    "known_for": "Research on the biology of aging and the development of therapeutics to extend healthspan.",
+    "net_worth_usd": 25000000.0,
+    "net_worth_source": "https://www.eyemindspirit.com/blogs/pop-culture/david-sinclairs-net-worth",
+    "net_worth_updated_at": "2026-04-28T05:04:48.598995",
+    "voice_tone": "Passionate and informative",
+    "voice_style": "Factual and data-driven",
+    "voice_delivery_notes": "Speaks with conviction and enthusiasm",
+    "voice_profile_updated_at": "2026-04-29 10:02:51",
+    "last_seen": "2026-04-29 10:02:51",
+    "last_episode_title": "David Sinclair: The GLP-1 Side Effect No One Talks About, What AI Found in His Lab, and Reversing Blindness | Q&A EP #251",
+    "last_podcast_name": "Moonshots with Peter Diamandis",
+    "last_episode_date": "2026-04-28",
+    "mention_score": 2,
+    "mention_score_decayed": 0.05,
+    "last_main_idea": "Investing in longevity and healthspan technologies and therapies offers significant growth potential as scientific advancements continue to extend human lifespan and improve quality of life.",
+    "last_proof_cite": "Moonshots with Peter Diamandis \u2022 2026-04-28 \u2022 David Sinclair: The GLP-1 Side Effect No One Talks About, What AI Found in His Lab, and Reversing Blindness | Q&A EP #251",
+    "last_proof_snippet": "AI-driven drug design is accelerating research by analyzing billions of molecules for potential therapeutic uses.",
+    "supporting_takeaway": "AI-driven drug design is accelerating research by analyzing billions of molecules for potential therapeutic uses.",
+    "grokipedia_url": null,
+    "grokipedia_fetched_at": "2026-04-28T05:04:47.371037",
+    "pundit_profile": {
+      "source": "llm",
+      "source_model": "moonshot:moonshot-v1-8k",
+      "source_url": "",
+      "page_title": "David Sinclair",
+      "fetched_at": "2026-04-28T10:04:47.370533+00:00",
+      "cliff_notes": "David Sinclair is a prominent researcher in the field of epigenetics and aging. He obtained his Ph.D. in Molecular Genetics from the University of New South Wales and has since dedicated his career to understanding the biological processes behind aging. Sinclair's work has been pivotal in uncovering the role of genes and molecular pathways in aging, with significant contributions to the understanding of how epigenetic changes can influence health and lifespan. His research has opened new avenues for therapeutic interventions aimed at delaying aging and treating age-related diseases. Sinclair's work is particularly relevant to investors and tech listeners due to its potential to revolutionize healthcare and extend human healthspan, which could have profound economic and societal implications.",
+      "derived": {
+        "current_role": "Professor in the Department of Genetics; Co-director of the Paul F. Glenn Center for the Biology of Aging at Harvard Medical School",
+        "education": "Ph.D. in Molecular Genetics, University of New South Wales",
+        "books_or_works": "Why We Age: What Science Is Discovering About the Body's Journey Through Life, and How to Delay, Reverse, and Avoid Age-Related Diseases; numerous scientific papers",
+        "teaching_summary": "Professor in the Department of Genetics at Harvard Medical School"
+      },
+      "infobox": {
+        "Born": "",
+        "Nationality": "Australian"
+      },
+      "lead_paragraphs": [
+        "David Sinclair is a prominent researcher in the field of epigenetics and aging. He obtained his Ph.D. in Molecular Genetics from the University of New South Wales and has since dedicated his career to understanding the biological processes behind aging. Sinclair's work has been pivotal in uncovering the role of genes and molecular pathways in aging, with significant contributions to the understanding of how epigenetic changes can influence health and lifespan.",
+        "His research has opened new avenues for therapeutic interventions aimed at delaying aging and treating age-related diseases. Sinclair's work is particularly relevant to investors and tech listeners due to its potential to revolutionize healthcare and extend human healthspan, which could have profound economic and societal implications."
+      ],
+      "sections": [
+        {
+          "heading": "Epigenetics and Aging",
+          "body": "David Sinclair's research focuses on the role of epigenetics in aging, exploring how changes in gene expression can influence the aging process and contribute to age-related diseases."
+        },
+        {
+          "heading": "Therapeutic Interventions",
+          "body": "Sinclair's work has led to the development of potential therapeutic interventions to delay aging, including the use of molecules like resveratrol and the application of Yamanaka factors to reverse age-related declines in various tissues."
+        },
+        {
+          "heading": "Healthspan Extension",
+          "body": "His research has implications for extending not just lifespan, but more importantly, healthspan \u2013 the period during which individuals maintain good health and functionality."
+        },
+        {
+          "heading": "Broad Impact on Healthcare",
+          "body": "Sinclair's findings have the potential to impact a wide range of healthcare areas, from treating specific age-related diseases like Alzheimer's to improving overall quality of life in later years."
+        }
+      ]
+    },
+    "net_worth": "$25.0M"
   },
   {
     "id": 255,
@@ -62536,127 +62536,6 @@ const dashboardData = {
     }
   },
   {
-    "id": 205,
-    "name": "Steven Synopski",
-    "slug": "steven-synopski",
-    "bio": "Steven Synopski is a board partner at a16z, a venture capital firm. He is known for his work in enterprise technology and AI, focusing on the challenges and opportunities that come with integrating AI into existing systems.",
-    "known_for": "His insights on the complexities of integrating AI into enterprise operations and the importance of aligning operations for successful AI implementation.",
-    "net_worth_usd": 300000000.0,
-    "net_worth_source": "https://www.gurufocus.com/insider/3984/steven-j-sinofsky",
-    "net_worth_updated_at": "2026-04-25T05:05:56.063694",
-    "voice_tone": "Inquisitive and analytical",
-    "voice_style": "Asks probing questions to uncover the nuances of AI integration",
-    "voice_delivery_notes": "Paces speech to allow for deeper understanding",
-    "voice_profile_updated_at": "2026-04-25 10:05:40",
-    "last_seen": "2026-04-25 10:05:40",
-    "last_episode_title": "AI Inside the Enterprise",
-    "last_podcast_name": "The a16z Show",
-    "last_episode_date": "2026-04-24",
-    "mention_score": 1,
-    "mention_score_decayed": 0.03,
-    "last_main_idea": "Investing in AI integration tools and platforms that can bridge the gap between AI capabilities and enterprise deployment is a key opportunity.",
-    "last_proof_cite": "The a16z Show \u2022 2026-04-24 \u2022 AI Inside the Enterprise",
-    "last_proof_snippet": "There's a growing gap between what's possible with AI and what's being deployed in large organizations.",
-    "supporting_takeaway": "There's a growing gap between what's possible with AI and what's being deployed in large organizations.",
-    "grokipedia_url": null,
-    "grokipedia_fetched_at": "2026-04-25T05:05:55.056447",
-    "pundit_profile": {
-      "source": "llm",
-      "source_model": "moonshot:moonshot-v1-8k",
-      "source_url": "",
-      "page_title": "Steven Synopski",
-      "fetched_at": "2026-04-25T10:05:55.056114+00:00",
-      "cliff_notes": "Steven Synopski is recognized for his expertise in enterprise technology and AI, particularly in the context of integrating AI into existing systems within large enterprises. As a board partner at a16z, he has been instrumental in guiding companies through the complexities of AI implementation. Synopski's insights highlight the challenges that enterprises face when trying to integrate AI, emphasizing the need for proper alignment of operations to ensure successful AI deployment. His work is crucial for investors and tech listeners as it provides a realistic view of the integration process and the potential pitfalls that can arise.",
-      "derived": {
-        "current_role": "Board Partner at a16z"
-      },
-      "infobox": {
-        "Nationality": "American"
-      },
-      "lead_paragraphs": [
-        "Steven Synopski is recognized for his expertise in enterprise technology and AI, particularly in the context of integrating AI into existing systems within large enterprises. As a board partner at a16z, he has been instrumental in guiding companies through the complexities of AI implementation. Synopski's insights highlight the challenges that enterprises face when trying to integrate AI, emphasizing the need for proper alignment of operations to ensure successful AI deployment.",
-        "His work is crucial for investors and tech listeners as it provides a realistic view of the integration process and the potential pitfalls that can arise."
-      ],
-      "sections": [
-        {
-          "heading": "Enterprise AI Integration",
-          "body": "Steven Synopski discusses the challenges enterprises face when integrating AI into their operations, emphasizing the need for proper alignment to avoid failure."
-        },
-        {
-          "heading": "Operational Alignment",
-          "body": "Synopski stresses the importance of aligning operations when implementing AI, noting that without it, centralized projects often fail due to a lack of understanding and integration."
-        },
-        {
-          "heading": "Complexity of Systems",
-          "body": "He points out that as systems become more complex with the addition of AI, the need for skilled engineers increases, contrary to the misconception that more code leads to less need for engineers."
-        },
-        {
-          "heading": "Integration Hurdles",
-          "body": "Synopski highlights that AI does not inherently solve integration issues, and that enterprises with legacy systems face significant challenges in integrating new AI technologies."
-        }
-      ]
-    },
-    "net_worth": "$300.0M"
-  },
-  {
-    "id": 204,
-    "name": "David Freeberg",
-    "slug": "david-freeberg",
-    "bio": "David Freeberg, known as the 'Sultan of Science', is an expert in scientific research and its intersection with investment opportunities. He is recognized for his ability to identify and analyze trends in scientific advancements and their potential impact on various industries.",
-    "known_for": "His insights into how scientific research translates into investment opportunities, particularly in emerging technologies.",
-    "net_worth_usd": 1200000000.0,
-    "net_worth_source": "https://staging.ogroup.com/toknetworth-012/david-friedberg-net-worth/",
-    "net_worth_updated_at": "2026-04-25T05:06:19.619100",
-    "voice_tone": "Confident and knowledgeable",
-    "voice_style": "Factual and analytical",
-    "voice_delivery_notes": "Paced with emphasis on key scientific points",
-    "voice_profile_updated_at": "2026-04-25 10:05:04",
-    "last_seen": "2026-04-25 10:05:04",
-    "last_episode_title": "SpaceX-Cursor Deal, SaaS Debt Bomb, New Apple CEO, SPLC Indictment, Colon Cancer Spike",
-    "last_podcast_name": "All-In with Chamath, Jason, Sacks & Friedberg",
-    "last_episode_date": "2026-04-24",
-    "mention_score": 1,
-    "mention_score_decayed": 0.03,
-    "last_main_idea": "The current president is seen as supportive of AI development and business, contrasting with media portrayals.",
-    "last_proof_cite": "All-In with Chamath, Jason, Sacks & Friedberg \u2022 2026-04-24 \u2022 SpaceX-Cursor Deal, SaaS Debt Bomb, New Apple CEO, SPLC Indictment, Colon Cancer Spike",
-    "last_proof_snippet": "Data centers are a critical component of AI infrastructure, and the president's stance on them is favorable for progress.",
-    "supporting_takeaway": "Data centers are a critical component of AI infrastructure, and the president's stance on them is favorable for progress.",
-    "grokipedia_url": null,
-    "grokipedia_fetched_at": "2026-04-25T05:06:18.698852",
-    "pundit_profile": {
-      "source": "llm",
-      "source_model": "moonshot:moonshot-v1-8k",
-      "source_url": "",
-      "page_title": "David Freeberg",
-      "fetched_at": "2026-04-25T10:06:18.698705+00:00",
-      "cliff_notes": "David Freeberg has carved a niche for himself as an authority on the intersection of science and investment. His expertise lies in understanding complex scientific research and translating it into actionable insights for investors. Freeberg's ability to foresee the commercial potential of scientific breakthroughs has made him a sought-after figure in the investment community. His work involves analyzing trends, identifying opportunities, and advising on strategic investments in scientific advancements. His influence extends beyond financial circles, as his insights are valuable to anyone interested in the future of technology and its impact on society.",
-      "derived": {},
-      "infobox": {
-        "Born": "",
-        "Nationality": ""
-      },
-      "lead_paragraphs": [
-        "David Freeberg has carved a niche for himself as an authority on the intersection of science and investment. His expertise lies in understanding complex scientific research and translating it into actionable insights for investors. Freeberg's ability to foresee the commercial potential of scientific breakthroughs has made him a sought-after figure in the investment community.",
-        "His work involves analyzing trends, identifying opportunities, and advising on strategic investments in scientific advancements. His influence extends beyond financial circles, as his insights are valuable to anyone interested in the future of technology and its impact on society."
-      ],
-      "sections": [
-        {
-          "heading": "Scientific Research",
-          "body": "David Freeberg is adept at interpreting scientific research and understanding its implications for various sectors, particularly in the context of investment."
-        },
-        {
-          "heading": "Investment Opportunities",
-          "body": "Freeberg is known for his ability to identify investment opportunities stemming from scientific advancements, guiding investors towards profitable ventures."
-        },
-        {
-          "heading": "Intersection of Science and Finance",
-          "body": "His work bridges the gap between scientific discovery and financial gain, providing a unique perspective on how to capitalize on emerging technologies."
-        }
-      ]
-    },
-    "net_worth": "$1.20B"
-  },
-  {
     "id": 55,
     "name": "Dr. Onus Alhajji",
     "slug": "dr-onus-alhajji",
@@ -62931,6 +62810,127 @@ const dashboardData = {
       ]
     },
     "net_worth": "$200.0M"
+  },
+  {
+    "id": 205,
+    "name": "Steven Synopski",
+    "slug": "steven-synopski",
+    "bio": "Steven Synopski is a board partner at a16z, a venture capital firm. He is known for his work in enterprise technology and AI, focusing on the challenges and opportunities that come with integrating AI into existing systems.",
+    "known_for": "His insights on the complexities of integrating AI into enterprise operations and the importance of aligning operations for successful AI implementation.",
+    "net_worth_usd": 300000000.0,
+    "net_worth_source": "https://www.gurufocus.com/insider/3984/steven-j-sinofsky",
+    "net_worth_updated_at": "2026-04-25T05:05:56.063694",
+    "voice_tone": "Inquisitive and analytical",
+    "voice_style": "Asks probing questions to uncover the nuances of AI integration",
+    "voice_delivery_notes": "Paces speech to allow for deeper understanding",
+    "voice_profile_updated_at": "2026-04-25 10:05:40",
+    "last_seen": "2026-04-25 10:05:40",
+    "last_episode_title": "AI Inside the Enterprise",
+    "last_podcast_name": "The a16z Show",
+    "last_episode_date": "2026-04-24",
+    "mention_score": 1,
+    "mention_score_decayed": 0.02,
+    "last_main_idea": "Investing in AI integration tools and platforms that can bridge the gap between AI capabilities and enterprise deployment is a key opportunity.",
+    "last_proof_cite": "The a16z Show \u2022 2026-04-24 \u2022 AI Inside the Enterprise",
+    "last_proof_snippet": "There's a growing gap between what's possible with AI and what's being deployed in large organizations.",
+    "supporting_takeaway": "There's a growing gap between what's possible with AI and what's being deployed in large organizations.",
+    "grokipedia_url": null,
+    "grokipedia_fetched_at": "2026-04-25T05:05:55.056447",
+    "pundit_profile": {
+      "source": "llm",
+      "source_model": "moonshot:moonshot-v1-8k",
+      "source_url": "",
+      "page_title": "Steven Synopski",
+      "fetched_at": "2026-04-25T10:05:55.056114+00:00",
+      "cliff_notes": "Steven Synopski is recognized for his expertise in enterprise technology and AI, particularly in the context of integrating AI into existing systems within large enterprises. As a board partner at a16z, he has been instrumental in guiding companies through the complexities of AI implementation. Synopski's insights highlight the challenges that enterprises face when trying to integrate AI, emphasizing the need for proper alignment of operations to ensure successful AI deployment. His work is crucial for investors and tech listeners as it provides a realistic view of the integration process and the potential pitfalls that can arise.",
+      "derived": {
+        "current_role": "Board Partner at a16z"
+      },
+      "infobox": {
+        "Nationality": "American"
+      },
+      "lead_paragraphs": [
+        "Steven Synopski is recognized for his expertise in enterprise technology and AI, particularly in the context of integrating AI into existing systems within large enterprises. As a board partner at a16z, he has been instrumental in guiding companies through the complexities of AI implementation. Synopski's insights highlight the challenges that enterprises face when trying to integrate AI, emphasizing the need for proper alignment of operations to ensure successful AI deployment.",
+        "His work is crucial for investors and tech listeners as it provides a realistic view of the integration process and the potential pitfalls that can arise."
+      ],
+      "sections": [
+        {
+          "heading": "Enterprise AI Integration",
+          "body": "Steven Synopski discusses the challenges enterprises face when integrating AI into their operations, emphasizing the need for proper alignment to avoid failure."
+        },
+        {
+          "heading": "Operational Alignment",
+          "body": "Synopski stresses the importance of aligning operations when implementing AI, noting that without it, centralized projects often fail due to a lack of understanding and integration."
+        },
+        {
+          "heading": "Complexity of Systems",
+          "body": "He points out that as systems become more complex with the addition of AI, the need for skilled engineers increases, contrary to the misconception that more code leads to less need for engineers."
+        },
+        {
+          "heading": "Integration Hurdles",
+          "body": "Synopski highlights that AI does not inherently solve integration issues, and that enterprises with legacy systems face significant challenges in integrating new AI technologies."
+        }
+      ]
+    },
+    "net_worth": "$300.0M"
+  },
+  {
+    "id": 204,
+    "name": "David Freeberg",
+    "slug": "david-freeberg",
+    "bio": "David Freeberg, known as the 'Sultan of Science', is an expert in scientific research and its intersection with investment opportunities. He is recognized for his ability to identify and analyze trends in scientific advancements and their potential impact on various industries.",
+    "known_for": "His insights into how scientific research translates into investment opportunities, particularly in emerging technologies.",
+    "net_worth_usd": 1200000000.0,
+    "net_worth_source": "https://staging.ogroup.com/toknetworth-012/david-friedberg-net-worth/",
+    "net_worth_updated_at": "2026-04-25T05:06:19.619100",
+    "voice_tone": "Confident and knowledgeable",
+    "voice_style": "Factual and analytical",
+    "voice_delivery_notes": "Paced with emphasis on key scientific points",
+    "voice_profile_updated_at": "2026-04-25 10:05:04",
+    "last_seen": "2026-04-25 10:05:04",
+    "last_episode_title": "SpaceX-Cursor Deal, SaaS Debt Bomb, New Apple CEO, SPLC Indictment, Colon Cancer Spike",
+    "last_podcast_name": "All-In with Chamath, Jason, Sacks & Friedberg",
+    "last_episode_date": "2026-04-24",
+    "mention_score": 1,
+    "mention_score_decayed": 0.02,
+    "last_main_idea": "The current president is seen as supportive of AI development and business, contrasting with media portrayals.",
+    "last_proof_cite": "All-In with Chamath, Jason, Sacks & Friedberg \u2022 2026-04-24 \u2022 SpaceX-Cursor Deal, SaaS Debt Bomb, New Apple CEO, SPLC Indictment, Colon Cancer Spike",
+    "last_proof_snippet": "Data centers are a critical component of AI infrastructure, and the president's stance on them is favorable for progress.",
+    "supporting_takeaway": "Data centers are a critical component of AI infrastructure, and the president's stance on them is favorable for progress.",
+    "grokipedia_url": null,
+    "grokipedia_fetched_at": "2026-04-25T05:06:18.698852",
+    "pundit_profile": {
+      "source": "llm",
+      "source_model": "moonshot:moonshot-v1-8k",
+      "source_url": "",
+      "page_title": "David Freeberg",
+      "fetched_at": "2026-04-25T10:06:18.698705+00:00",
+      "cliff_notes": "David Freeberg has carved a niche for himself as an authority on the intersection of science and investment. His expertise lies in understanding complex scientific research and translating it into actionable insights for investors. Freeberg's ability to foresee the commercial potential of scientific breakthroughs has made him a sought-after figure in the investment community. His work involves analyzing trends, identifying opportunities, and advising on strategic investments in scientific advancements. His influence extends beyond financial circles, as his insights are valuable to anyone interested in the future of technology and its impact on society.",
+      "derived": {},
+      "infobox": {
+        "Born": "",
+        "Nationality": ""
+      },
+      "lead_paragraphs": [
+        "David Freeberg has carved a niche for himself as an authority on the intersection of science and investment. His expertise lies in understanding complex scientific research and translating it into actionable insights for investors. Freeberg's ability to foresee the commercial potential of scientific breakthroughs has made him a sought-after figure in the investment community.",
+        "His work involves analyzing trends, identifying opportunities, and advising on strategic investments in scientific advancements. His influence extends beyond financial circles, as his insights are valuable to anyone interested in the future of technology and its impact on society."
+      ],
+      "sections": [
+        {
+          "heading": "Scientific Research",
+          "body": "David Freeberg is adept at interpreting scientific research and understanding its implications for various sectors, particularly in the context of investment."
+        },
+        {
+          "heading": "Investment Opportunities",
+          "body": "Freeberg is known for his ability to identify investment opportunities stemming from scientific advancements, guiding investors towards profitable ventures."
+        },
+        {
+          "heading": "Intersection of Science and Finance",
+          "body": "His work bridges the gap between scientific discovery and financial gain, providing a unique perspective on how to capitalize on emerging technologies."
+        }
+      ]
+    },
+    "net_worth": "$1.20B"
   },
   {
     "id": 203,
@@ -64815,130 +64815,6 @@ const dashboardData = {
     }
   },
   {
-    "id": 150,
-    "name": "Alex Bonia",
-    "slug": "alex-bonia",
-    "bio": "Alex Bonia is the co-founder and CEO of World, a company focused on developing a 'proof of human layer' for the AI era. He is dedicated to building the largest real human network, addressing the challenges posed by AI in mimicking human behavior and interactions.",
-    "known_for": "Developing a 'proof of human layer' to distinguish real humans from AI in the digital age.",
-    "net_worth_usd": 3600000000.0,
-    "net_worth_source": "https://globalbizoutlook.com/top-30-ai-billionaires-in-the-world-2025-rankings-and-net-worth-revealed/",
-    "net_worth_updated_at": "2026-04-03T05:05:05.505205",
-    "voice_tone": "Inquisitive and informative",
-    "voice_style": "Explains complex concepts with clarity",
-    "voice_delivery_notes": "Paces well, with emphasis on key points",
-    "voice_profile_updated_at": "2026-04-03 10:04:54",
-    "last_seen": "2026-04-03 10:04:54",
-    "last_episode_title": "Alex Blania on Proof of Human and Building World's Identity Network",
-    "last_podcast_name": "The a16z Show",
-    "last_episode_date": "2026-04-02",
-    "mention_score": 1,
-    "mention_score_decayed": 0.02,
-    "last_main_idea": "Investing in technologies that can verify human interactions online is becoming critical as AI-generated content proliferates, posing both challenges and opportunities for social media platforms and the broader digital economy.",
-    "last_proof_cite": "The a16z Show \u2022 2026-04-02 \u2022 Alex Blania on Proof of Human and Building World's Identity Network",
-    "last_proof_snippet": "Social media platforms are struggling to verify human users, leading to issues with content monetization and user authentication.",
-    "supporting_takeaway": "Social media platforms are struggling to verify human users, leading to issues with content monetization and user authentication.",
-    "grokipedia_url": null,
-    "grokipedia_fetched_at": "2026-04-03T05:05:04.562022",
-    "pundit_profile": {
-      "source": "llm",
-      "source_model": "moonshot:moonshot-v1-8k",
-      "source_url": "",
-      "page_title": "Alex Bonia",
-      "fetched_at": "2026-04-03T10:05:04.561818+00:00",
-      "cliff_notes": "Alex Bonia is recognized for his work in the intersection of technology and human identity. As the co-founder and CEO of World, he is at the forefront of developing solutions to authenticate human users in a digital landscape increasingly populated by AI. His efforts are crucial in an era where AI's ability to mimic human behavior poses significant challenges to digital platforms that rely on the assumption of human users. Bonia's work is pivotal in maintaining the integrity of online interactions and safeguarding against the manipulations of AI.",
-      "derived": {
-        "current_role": "Co-founder and CEO at World"
-      },
-      "infobox": {
-        "Born": "",
-        "Nationality": ""
-      },
-      "lead_paragraphs": [
-        "Alex Bonia is recognized for his work in the intersection of technology and human identity. As the co-founder and CEO of World, he is at the forefront of developing solutions to authenticate human users in a digital landscape increasingly populated by AI. His efforts are crucial in an era where AI's ability to mimic human behavior poses significant challenges to digital platforms that rely on the assumption of human users.",
-        "Bonia's work is pivotal in maintaining the integrity of online interactions and safeguarding against the manipulations of AI."
-      ],
-      "sections": [
-        {
-          "heading": "Human Authentication",
-          "body": "Alex Bonia is leading the charge in creating a 'proof of human layer', a system designed to verify the authenticity of human users in digital spaces, which is becoming increasingly important as AI technology advances."
-        },
-        {
-          "heading": "AI and Social Media",
-          "body": "Bonia's work addresses the growing concern of AI-operated social media accounts, which can mimic human behavior and influence online platforms, posing threats to the integrity of digital interactions."
-        },
-        {
-          "heading": "Digital Integrity",
-          "body": "In an era where AI can generate convincing videos and posts, Alex Bonia's efforts are aimed at ensuring that digital platforms maintain a level of trust and reliability by distinguishing between real humans and AI."
-        }
-      ]
-    },
-    "net_worth": "$3.60B"
-  },
-  {
-    "id": 151,
-    "name": "Alex Rampell",
-    "slug": "alex-rampell",
-    "bio": "Alex Rampell is a venture capitalist and entrepreneur known for his investments in technology startups, particularly in the fields of fintech, bioinformatics, and AI. He is the co-founder and General Partner at Andreessen Horowitz (A16Z), where he focuses on shaping the future of technology through venture capital investments.",
-    "known_for": "His role in shaping the future of technology through venture capital investments in startups, particularly in fintech, bioinformatics, and AI.",
-    "net_worth_usd": null,
-    "net_worth_source": "",
-    "net_worth_updated_at": null,
-    "voice_tone": "Analytical and engaging",
-    "voice_style": "Asks probing questions to delve deeper into topics",
-    "voice_delivery_notes": "Speaks with conviction, emphasizing investment insights",
-    "voice_profile_updated_at": "2026-04-03 10:04:54",
-    "last_seen": "2026-04-03 10:04:54",
-    "last_episode_title": "Alex Blania on Proof of Human and Building World's Identity Network",
-    "last_podcast_name": "The a16z Show",
-    "last_episode_date": "2026-04-02",
-    "mention_score": 1,
-    "mention_score_decayed": 0.02,
-    "last_main_idea": "Investing in technologies that can verify human interactions online is becoming critical as AI-generated content proliferates, posing both challenges and opportunities for social media platforms and the broader digital economy.",
-    "last_proof_cite": "The a16z Show \u2022 2026-04-02 \u2022 Alex Blania on Proof of Human and Building World's Identity Network",
-    "last_proof_snippet": "Social media platforms are struggling to verify human users, leading to issues with content monetization and user authentication.",
-    "supporting_takeaway": "Social media platforms are struggling to verify human users, leading to issues with content monetization and user authentication.",
-    "grokipedia_url": null,
-    "grokipedia_fetched_at": "2026-07-30T12:08:48.218314",
-    "pundit_profile": {
-      "source": "llm",
-      "source_model": "moonshot:moonshot-v1-8k",
-      "source_url": "",
-      "page_title": "Alex Rampell",
-      "fetched_at": "2026-07-30T17:08:48.218241+00:00",
-      "cliff_notes": "Alex Rampell is a venture capitalist and entrepreneur who has made significant contributions to the technology industry through his investments in startups. As the co-founder and General Partner at Andreessen Horowitz (A16Z), Rampell focuses on fintech, bioinformatics, and AI, playing a crucial role in shaping the future of technology. His expertise and strategic investments have helped numerous startups grow and innovate, making him a key figure in the tech and venture capital landscape.",
-      "derived": {
-        "current_role": "Co-founder and General Partner at Andreessen Horowitz (A16Z)",
-        "education": "Stanford University; Harvard University"
-      },
-      "infobox": {
-        "Born": "",
-        "Nationality": ""
-      },
-      "lead_paragraphs": [
-        "Alex Rampell is a venture capitalist and entrepreneur who has made significant contributions to the technology industry through his investments in startups. As the co-founder and General Partner at Andreessen Horowitz (A16Z), Rampell focuses on fintech, bioinformatics, and AI, playing a crucial role in shaping the future of technology.",
-        "His expertise and strategic investments have helped numerous startups grow and innovate, making him a key figure in the tech and venture capital landscape."
-      ],
-      "sections": [
-        {
-          "heading": "Venture Capital Investments",
-          "body": "Alex Rampell is known for his strategic venture capital investments in technology startups, particularly in fintech, bioinformatics, and AI. His focus on these sectors has helped shape the future of technology and drive innovation."
-        },
-        {
-          "heading": "Fintech",
-          "body": "Rampell has been instrumental in investing in and supporting fintech startups, contributing to the growth and development of the financial technology sector."
-        },
-        {
-          "heading": "Bioinformatics",
-          "body": "In the field of bioinformatics, Rampell's investments have helped advance scientific research and technological breakthroughs, impacting healthcare and medicine."
-        },
-        {
-          "heading": "Artificial Intelligence",
-          "body": "As a venture capitalist, Rampell has played a significant role in funding AI startups, driving advancements in artificial intelligence and its applications across various industries."
-        }
-      ]
-    }
-  },
-  {
     "id": 43,
     "name": "Olivia Moore",
     "slug": "olivia-moore",
@@ -65001,6 +64877,130 @@ const dashboardData = {
         {
           "heading": "AI Risks and Benefits",
           "body": "She highlights the concerns around AI, with 57% of American voters saying the risks of AI outweigh the benefits, indicating a need for careful consideration and management of AI's impact on society."
+        }
+      ]
+    }
+  },
+  {
+    "id": 150,
+    "name": "Alex Bonia",
+    "slug": "alex-bonia",
+    "bio": "Alex Bonia is the co-founder and CEO of World, a company focused on developing a 'proof of human layer' for the AI era. He is dedicated to building the largest real human network, addressing the challenges posed by AI in mimicking human behavior and interactions.",
+    "known_for": "Developing a 'proof of human layer' to distinguish real humans from AI in the digital age.",
+    "net_worth_usd": 3600000000.0,
+    "net_worth_source": "https://globalbizoutlook.com/top-30-ai-billionaires-in-the-world-2025-rankings-and-net-worth-revealed/",
+    "net_worth_updated_at": "2026-04-03T05:05:05.505205",
+    "voice_tone": "Inquisitive and informative",
+    "voice_style": "Explains complex concepts with clarity",
+    "voice_delivery_notes": "Paces well, with emphasis on key points",
+    "voice_profile_updated_at": "2026-04-03 10:04:54",
+    "last_seen": "2026-04-03 10:04:54",
+    "last_episode_title": "Alex Blania on Proof of Human and Building World's Identity Network",
+    "last_podcast_name": "The a16z Show",
+    "last_episode_date": "2026-04-02",
+    "mention_score": 1,
+    "mention_score_decayed": 0.01,
+    "last_main_idea": "Investing in technologies that can verify human interactions online is becoming critical as AI-generated content proliferates, posing both challenges and opportunities for social media platforms and the broader digital economy.",
+    "last_proof_cite": "The a16z Show \u2022 2026-04-02 \u2022 Alex Blania on Proof of Human and Building World's Identity Network",
+    "last_proof_snippet": "Social media platforms are struggling to verify human users, leading to issues with content monetization and user authentication.",
+    "supporting_takeaway": "Social media platforms are struggling to verify human users, leading to issues with content monetization and user authentication.",
+    "grokipedia_url": null,
+    "grokipedia_fetched_at": "2026-04-03T05:05:04.562022",
+    "pundit_profile": {
+      "source": "llm",
+      "source_model": "moonshot:moonshot-v1-8k",
+      "source_url": "",
+      "page_title": "Alex Bonia",
+      "fetched_at": "2026-04-03T10:05:04.561818+00:00",
+      "cliff_notes": "Alex Bonia is recognized for his work in the intersection of technology and human identity. As the co-founder and CEO of World, he is at the forefront of developing solutions to authenticate human users in a digital landscape increasingly populated by AI. His efforts are crucial in an era where AI's ability to mimic human behavior poses significant challenges to digital platforms that rely on the assumption of human users. Bonia's work is pivotal in maintaining the integrity of online interactions and safeguarding against the manipulations of AI.",
+      "derived": {
+        "current_role": "Co-founder and CEO at World"
+      },
+      "infobox": {
+        "Born": "",
+        "Nationality": ""
+      },
+      "lead_paragraphs": [
+        "Alex Bonia is recognized for his work in the intersection of technology and human identity. As the co-founder and CEO of World, he is at the forefront of developing solutions to authenticate human users in a digital landscape increasingly populated by AI. His efforts are crucial in an era where AI's ability to mimic human behavior poses significant challenges to digital platforms that rely on the assumption of human users.",
+        "Bonia's work is pivotal in maintaining the integrity of online interactions and safeguarding against the manipulations of AI."
+      ],
+      "sections": [
+        {
+          "heading": "Human Authentication",
+          "body": "Alex Bonia is leading the charge in creating a 'proof of human layer', a system designed to verify the authenticity of human users in digital spaces, which is becoming increasingly important as AI technology advances."
+        },
+        {
+          "heading": "AI and Social Media",
+          "body": "Bonia's work addresses the growing concern of AI-operated social media accounts, which can mimic human behavior and influence online platforms, posing threats to the integrity of digital interactions."
+        },
+        {
+          "heading": "Digital Integrity",
+          "body": "In an era where AI can generate convincing videos and posts, Alex Bonia's efforts are aimed at ensuring that digital platforms maintain a level of trust and reliability by distinguishing between real humans and AI."
+        }
+      ]
+    },
+    "net_worth": "$3.60B"
+  },
+  {
+    "id": 151,
+    "name": "Alex Rampell",
+    "slug": "alex-rampell",
+    "bio": "Alex Rampell is a venture capitalist and entrepreneur known for his investments in technology startups, particularly in the fields of fintech, bioinformatics, and AI. He is the co-founder and General Partner at Andreessen Horowitz (A16Z), where he focuses on shaping the future of technology through venture capital investments.",
+    "known_for": "His role in shaping the future of technology through venture capital investments in startups, particularly in fintech, bioinformatics, and AI.",
+    "net_worth_usd": null,
+    "net_worth_source": "",
+    "net_worth_updated_at": null,
+    "voice_tone": "Analytical and engaging",
+    "voice_style": "Asks probing questions to delve deeper into topics",
+    "voice_delivery_notes": "Speaks with conviction, emphasizing investment insights",
+    "voice_profile_updated_at": "2026-04-03 10:04:54",
+    "last_seen": "2026-04-03 10:04:54",
+    "last_episode_title": "Alex Blania on Proof of Human and Building World's Identity Network",
+    "last_podcast_name": "The a16z Show",
+    "last_episode_date": "2026-04-02",
+    "mention_score": 1,
+    "mention_score_decayed": 0.01,
+    "last_main_idea": "Investing in technologies that can verify human interactions online is becoming critical as AI-generated content proliferates, posing both challenges and opportunities for social media platforms and the broader digital economy.",
+    "last_proof_cite": "The a16z Show \u2022 2026-04-02 \u2022 Alex Blania on Proof of Human and Building World's Identity Network",
+    "last_proof_snippet": "Social media platforms are struggling to verify human users, leading to issues with content monetization and user authentication.",
+    "supporting_takeaway": "Social media platforms are struggling to verify human users, leading to issues with content monetization and user authentication.",
+    "grokipedia_url": null,
+    "grokipedia_fetched_at": "2026-07-30T12:08:48.218314",
+    "pundit_profile": {
+      "source": "llm",
+      "source_model": "moonshot:moonshot-v1-8k",
+      "source_url": "",
+      "page_title": "Alex Rampell",
+      "fetched_at": "2026-07-30T17:08:48.218241+00:00",
+      "cliff_notes": "Alex Rampell is a venture capitalist and entrepreneur who has made significant contributions to the technology industry through his investments in startups. As the co-founder and General Partner at Andreessen Horowitz (A16Z), Rampell focuses on fintech, bioinformatics, and AI, playing a crucial role in shaping the future of technology. His expertise and strategic investments have helped numerous startups grow and innovate, making him a key figure in the tech and venture capital landscape.",
+      "derived": {
+        "current_role": "Co-founder and General Partner at Andreessen Horowitz (A16Z)",
+        "education": "Stanford University; Harvard University"
+      },
+      "infobox": {
+        "Born": "",
+        "Nationality": ""
+      },
+      "lead_paragraphs": [
+        "Alex Rampell is a venture capitalist and entrepreneur who has made significant contributions to the technology industry through his investments in startups. As the co-founder and General Partner at Andreessen Horowitz (A16Z), Rampell focuses on fintech, bioinformatics, and AI, playing a crucial role in shaping the future of technology.",
+        "His expertise and strategic investments have helped numerous startups grow and innovate, making him a key figure in the tech and venture capital landscape."
+      ],
+      "sections": [
+        {
+          "heading": "Venture Capital Investments",
+          "body": "Alex Rampell is known for his strategic venture capital investments in technology startups, particularly in fintech, bioinformatics, and AI. His focus on these sectors has helped shape the future of technology and drive innovation."
+        },
+        {
+          "heading": "Fintech",
+          "body": "Rampell has been instrumental in investing in and supporting fintech startups, contributing to the growth and development of the financial technology sector."
+        },
+        {
+          "heading": "Bioinformatics",
+          "body": "In the field of bioinformatics, Rampell's investments have helped advance scientific research and technological breakthroughs, impacting healthcare and medicine."
+        },
+        {
+          "heading": "Artificial Intelligence",
+          "body": "As a venture capitalist, Rampell has played a significant role in funding AI startups, driving advancements in artificial intelligence and its applications across various industries."
         }
       ]
     }
@@ -67643,7 +67643,7 @@ const dashboardData = {
         }
       ],
       "disclaimer": "Research sleeve / scorecard, not advice. $1,000 equal-weight illustration only.",
-      "last_updated": "2026-10-01T23:51:31.270271"
+      "last_updated": "2026-10-02T05:09:38.135417"
     }
   ]
 }

@@ -1695,121 +1695,6 @@
     }
   },
   {
-    "id": 480,
-    "name": "Eric Gwyn",
-    "slug": "eric-gwyn",
-    "bio": "Eric Gwyn is a leading researcher in synthetic biology and AI applications, focusing on genomic language models and biosecurity. He emphasizes the importance of developing defensive capabilities alongside design capabilities in biotechnology. His work aims to bridge the gap between innovation and safety in synthetic biology.",
-    "known_for": "Eric Gwyn is recognized for his pioneering contributions to genomic language models and their applications in biosecurity, making him a key figure in the intersection of AI and synthetic biology.",
-    "net_worth_usd": null,
-    "net_worth_source": "",
-    "net_worth_updated_at": null,
-    "voice_tone": "Informative and assertive",
-    "voice_style": "He presents a balanced view of innovation and ethical considerations.",
-    "voice_delivery_notes": "Pacing is steady with emphasis on key points.",
-    "voice_profile_updated_at": "2026-09-24 04:53:17",
-    "last_seen": "2026-09-24 04:53:17",
-    "last_episode_title": "\ud83d\udd2cBio-security is an AI Arms Race - Eric Nguyen (CEO, Radical Numerics)",
-    "last_podcast_name": "Latent Space: The AI Engineer Podcast",
-    "last_episode_date": "2026-09-23",
-    "mention_score": 1,
-    "mention_score_decayed": 0.85,
-    "last_main_idea": "The core investment opportunity lies in companies that balance innovation in synthetic biology with ethical biosecurity measures, particularly those utilizing AI for genomic analysis.",
-    "last_proof_cite": "Latent Space: The AI Engineer Podcast \u2022 2026-09-23 \u2022 \ud83d\udd2cBio-security is an AI Arms Race - Eric Nguyen (CEO, Radical Numerics)",
-    "last_proof_snippet": "The design side is going to get more people the defensive side needs to try to get ahead. So I think inherently there is this arms-restile dynamic that the defensive side has been far, far lagging. And so what we want to do is bring the def",
-    "supporting_takeaway": "",
-    "grokipedia_url": null,
-    "grokipedia_fetched_at": "2026-09-23T23:53:22.964812",
-    "pundit_profile": {
-      "source": "llm",
-      "source_model": "openai:gpt-4o-mini",
-      "source_url": "",
-      "page_title": "Eric Gwyn",
-      "fetched_at": "2026-09-24T04:53:22.964587+00:00",
-      "cliff_notes": "Eric Gwyn has established himself as a prominent figure in the fields of synthetic biology and artificial intelligence. His research focuses on the development of genomic language models that not only generate biological sequences but also assess their potential pathogenicity. This dual capability is crucial in the context of biosecurity, where understanding and mitigating risks associated with synthetic biology is increasingly important. Gwyn's approach advocates for a proactive stance in safeguarding technological advancements, ensuring that innovations in design are matched by robust defensive measures. His leadership at Article reflects a commitment to responsible innovation, aiming to empower researchers and companies to navigate the complexities of biotechnological advancements responsibly.",
-      "derived": {
-        "current_role": "CEO and Co-founder of Article"
-      },
-      "infobox": {},
-      "lead_paragraphs": [
-        "Eric Gwyn has established himself as a prominent figure in the fields of synthetic biology and artificial intelligence. His research focuses on the development of genomic language models that not only generate biological sequences but also assess their potential pathogenicity. This dual capability is crucial in the context of biosecurity, where understanding and mitigating risks associated with synthetic biology is increasingly important.",
-        "Gwyn's approach advocates for a proactive stance in safeguarding technological advancements, ensuring that innovations in design are matched by robust defensive measures. His leadership at Article reflects a commitment to responsible innovation, aiming to empower researchers and companies to navigate the complexities of biotechnological advancements responsibly."
-      ],
-      "sections": [
-        {
-          "heading": "Genomic Language Models",
-          "body": "Gwyn's work on genomic language models focuses on their ability to generate biological sequences and predict their pathogenic potential, which is vital for biosecurity."
-        },
-        {
-          "heading": "Biosecurity in Synthetic Biology",
-          "body": "He emphasizes the need for enhanced defensive capabilities in synthetic biology, advocating for a balance between innovation and safety."
-        },
-        {
-          "heading": "Dual Mandate Approach",
-          "body": "Gwyn promotes a dual mandate in his research, where design capabilities are developed alongside defensive strategies to ensure responsible use of technology."
-        }
-      ]
-    }
-  },
-  {
-    "id": 479,
-    "name": "Luca Ferrari",
-    "slug": "luca-ferrari",
-    "bio": "Luca Ferrari is a key executive at Bending Spoon, recognized for his strategic vision in technology and operational excellence. Under his leadership, the company has transformed into a billion-dollar entity through innovative acquisitions and a focus on product development. His insights into the tech industry have made him a notable figure among entrepreneurs and investors alike.",
-    "known_for": "Transforming Bending Spoon into a billion-dollar tech company through strategic acquisitions.",
-    "net_worth_usd": null,
-    "net_worth_source": "",
-    "net_worth_updated_at": null,
-    "voice_tone": "Analytical and confident",
-    "voice_style": "Direct and informative, emphasizing strategic insights.",
-    "voice_delivery_notes": "Pacing is steady with emphasis on key points.",
-    "voice_profile_updated_at": "2026-09-24 04:53:03",
-    "last_seen": "2026-09-24 04:53:03",
-    "last_episode_title": "Luca Ferrari, Bending Spoons CEO: The $40K Origin Story, Buying Product-Market Fit & Why Private Equity Can't Compete",
-    "last_podcast_name": "All-In with Chamath, Jason, Sacks & Friedberg",
-    "last_episode_date": "2026-09-23",
-    "mention_score": 1,
-    "mention_score_decayed": 0.85,
-    "last_main_idea": "Bending Spoon's unique acquisition model allows for rapid scaling and value creation by enhancing underperforming apps.",
-    "last_proof_cite": "All-In with Chamath, Jason, Sacks & Friedberg \u2022 2026-09-23 \u2022 Luca Ferrari, Bending Spoons CEO: The $40K Origin Story, Buying Product-Market Fit & Why Private Equity Can't Compete",
-    "last_proof_snippet": "You are the reason that has exactly this year. Stay went from zero to $1 billion in revenue in just ten years. Bending Spoon CTO look a Ferrari. We have never lost a bid before. Well, AOL has a new parent again. Milan-based tech company Ben",
-    "supporting_takeaway": "The company maintains a conservative leverage ratio of approximately 2.5 times, managing financial risk effectively.",
-    "grokipedia_url": null,
-    "grokipedia_fetched_at": "2026-09-23T23:53:27.461971",
-    "pundit_profile": {
-      "source": "llm",
-      "source_model": "openai:gpt-4o-mini",
-      "source_url": "",
-      "page_title": "Luca Ferrari",
-      "fetched_at": "2026-09-24T04:53:27.461823+00:00",
-      "cliff_notes": "Luca Ferrari has played a pivotal role in the growth of Bending Spoon, a Milan-based tech company that has gained significant traction in the app development market. His approach combines a methodical strategy with a focus on innovation, allowing the company to expand its portfolio and enhance its market presence. Ferrari's leadership has been instrumental in the company's ability to revive underperforming apps and develop new products that cater to a vast user base. His vision for building a generational company reflects a commitment to long-term success in the tech industry, making him a respected figure among peers and investors.",
-      "derived": {
-        "current_role": "CTO at Bending Spoon"
-      },
-      "infobox": {
-        "Born": "",
-        "Nationality": "Italian"
-      },
-      "lead_paragraphs": [
-        "Luca Ferrari has played a pivotal role in the growth of Bending Spoon, a Milan-based tech company that has gained significant traction in the app development market. His approach combines a methodical strategy with a focus on innovation, allowing the company to expand its portfolio and enhance its market presence. Ferrari's leadership has been instrumental in the company's ability to revive underperforming apps and develop new products that cater to a vast user base.",
-        "His vision for building a generational company reflects a commitment to long-term success in the tech industry, making him a respected figure among peers and investors."
-      ],
-      "sections": [
-        {
-          "heading": "Strategic Acquisitions",
-          "body": "Luca has led Bending Spoon in acquiring key assets that have bolstered its market position and expanded its capabilities. These acquisitions have been crucial in driving the company's growth trajectory."
-        },
-        {
-          "heading": "Product Innovation",
-          "body": "Under his guidance, Bending Spoon has focused on developing innovative applications that resonate with users. This emphasis on product quality has contributed to the company's impressive revenue growth."
-        },
-        {
-          "heading": "Market Expansion",
-          "body": "Ferrari's strategic initiatives have allowed Bending Spoon to penetrate new markets and reach a broader audience, significantly increasing its user base and revenue."
-        }
-      ]
-    }
-  },
-  {
     "id": 333,
     "name": "Dylan Patel",
     "slug": "dylan-patel",
@@ -1868,6 +1753,121 @@
       ]
     },
     "net_worth": "$3.70B"
+  },
+  {
+    "id": 480,
+    "name": "Eric Gwyn",
+    "slug": "eric-gwyn",
+    "bio": "Eric Gwyn is a leading researcher in synthetic biology and AI applications, focusing on genomic language models and biosecurity. He emphasizes the importance of developing defensive capabilities alongside design capabilities in biotechnology. His work aims to bridge the gap between innovation and safety in synthetic biology.",
+    "known_for": "Eric Gwyn is recognized for his pioneering contributions to genomic language models and their applications in biosecurity, making him a key figure in the intersection of AI and synthetic biology.",
+    "net_worth_usd": null,
+    "net_worth_source": "",
+    "net_worth_updated_at": null,
+    "voice_tone": "Informative and assertive",
+    "voice_style": "He presents a balanced view of innovation and ethical considerations.",
+    "voice_delivery_notes": "Pacing is steady with emphasis on key points.",
+    "voice_profile_updated_at": "2026-09-24 04:53:17",
+    "last_seen": "2026-09-24 04:53:17",
+    "last_episode_title": "\ud83d\udd2cBio-security is an AI Arms Race - Eric Nguyen (CEO, Radical Numerics)",
+    "last_podcast_name": "Latent Space: The AI Engineer Podcast",
+    "last_episode_date": "2026-09-23",
+    "mention_score": 1,
+    "mention_score_decayed": 0.83,
+    "last_main_idea": "The core investment opportunity lies in companies that balance innovation in synthetic biology with ethical biosecurity measures, particularly those utilizing AI for genomic analysis.",
+    "last_proof_cite": "Latent Space: The AI Engineer Podcast \u2022 2026-09-23 \u2022 \ud83d\udd2cBio-security is an AI Arms Race - Eric Nguyen (CEO, Radical Numerics)",
+    "last_proof_snippet": "The design side is going to get more people the defensive side needs to try to get ahead. So I think inherently there is this arms-restile dynamic that the defensive side has been far, far lagging. And so what we want to do is bring the def",
+    "supporting_takeaway": "",
+    "grokipedia_url": null,
+    "grokipedia_fetched_at": "2026-09-23T23:53:22.964812",
+    "pundit_profile": {
+      "source": "llm",
+      "source_model": "openai:gpt-4o-mini",
+      "source_url": "",
+      "page_title": "Eric Gwyn",
+      "fetched_at": "2026-09-24T04:53:22.964587+00:00",
+      "cliff_notes": "Eric Gwyn has established himself as a prominent figure in the fields of synthetic biology and artificial intelligence. His research focuses on the development of genomic language models that not only generate biological sequences but also assess their potential pathogenicity. This dual capability is crucial in the context of biosecurity, where understanding and mitigating risks associated with synthetic biology is increasingly important. Gwyn's approach advocates for a proactive stance in safeguarding technological advancements, ensuring that innovations in design are matched by robust defensive measures. His leadership at Article reflects a commitment to responsible innovation, aiming to empower researchers and companies to navigate the complexities of biotechnological advancements responsibly.",
+      "derived": {
+        "current_role": "CEO and Co-founder of Article"
+      },
+      "infobox": {},
+      "lead_paragraphs": [
+        "Eric Gwyn has established himself as a prominent figure in the fields of synthetic biology and artificial intelligence. His research focuses on the development of genomic language models that not only generate biological sequences but also assess their potential pathogenicity. This dual capability is crucial in the context of biosecurity, where understanding and mitigating risks associated with synthetic biology is increasingly important.",
+        "Gwyn's approach advocates for a proactive stance in safeguarding technological advancements, ensuring that innovations in design are matched by robust defensive measures. His leadership at Article reflects a commitment to responsible innovation, aiming to empower researchers and companies to navigate the complexities of biotechnological advancements responsibly."
+      ],
+      "sections": [
+        {
+          "heading": "Genomic Language Models",
+          "body": "Gwyn's work on genomic language models focuses on their ability to generate biological sequences and predict their pathogenic potential, which is vital for biosecurity."
+        },
+        {
+          "heading": "Biosecurity in Synthetic Biology",
+          "body": "He emphasizes the need for enhanced defensive capabilities in synthetic biology, advocating for a balance between innovation and safety."
+        },
+        {
+          "heading": "Dual Mandate Approach",
+          "body": "Gwyn promotes a dual mandate in his research, where design capabilities are developed alongside defensive strategies to ensure responsible use of technology."
+        }
+      ]
+    }
+  },
+  {
+    "id": 479,
+    "name": "Luca Ferrari",
+    "slug": "luca-ferrari",
+    "bio": "Luca Ferrari is a key executive at Bending Spoon, recognized for his strategic vision in technology and operational excellence. Under his leadership, the company has transformed into a billion-dollar entity through innovative acquisitions and a focus on product development. His insights into the tech industry have made him a notable figure among entrepreneurs and investors alike.",
+    "known_for": "Transforming Bending Spoon into a billion-dollar tech company through strategic acquisitions.",
+    "net_worth_usd": null,
+    "net_worth_source": "",
+    "net_worth_updated_at": null,
+    "voice_tone": "Analytical and confident",
+    "voice_style": "Direct and informative, emphasizing strategic insights.",
+    "voice_delivery_notes": "Pacing is steady with emphasis on key points.",
+    "voice_profile_updated_at": "2026-09-24 04:53:03",
+    "last_seen": "2026-09-24 04:53:03",
+    "last_episode_title": "Luca Ferrari, Bending Spoons CEO: The $40K Origin Story, Buying Product-Market Fit & Why Private Equity Can't Compete",
+    "last_podcast_name": "All-In with Chamath, Jason, Sacks & Friedberg",
+    "last_episode_date": "2026-09-23",
+    "mention_score": 1,
+    "mention_score_decayed": 0.83,
+    "last_main_idea": "Bending Spoon's unique acquisition model allows for rapid scaling and value creation by enhancing underperforming apps.",
+    "last_proof_cite": "All-In with Chamath, Jason, Sacks & Friedberg \u2022 2026-09-23 \u2022 Luca Ferrari, Bending Spoons CEO: The $40K Origin Story, Buying Product-Market Fit & Why Private Equity Can't Compete",
+    "last_proof_snippet": "You are the reason that has exactly this year. Stay went from zero to $1 billion in revenue in just ten years. Bending Spoon CTO look a Ferrari. We have never lost a bid before. Well, AOL has a new parent again. Milan-based tech company Ben",
+    "supporting_takeaway": "The company maintains a conservative leverage ratio of approximately 2.5 times, managing financial risk effectively.",
+    "grokipedia_url": null,
+    "grokipedia_fetched_at": "2026-09-23T23:53:27.461971",
+    "pundit_profile": {
+      "source": "llm",
+      "source_model": "openai:gpt-4o-mini",
+      "source_url": "",
+      "page_title": "Luca Ferrari",
+      "fetched_at": "2026-09-24T04:53:27.461823+00:00",
+      "cliff_notes": "Luca Ferrari has played a pivotal role in the growth of Bending Spoon, a Milan-based tech company that has gained significant traction in the app development market. His approach combines a methodical strategy with a focus on innovation, allowing the company to expand its portfolio and enhance its market presence. Ferrari's leadership has been instrumental in the company's ability to revive underperforming apps and develop new products that cater to a vast user base. His vision for building a generational company reflects a commitment to long-term success in the tech industry, making him a respected figure among peers and investors.",
+      "derived": {
+        "current_role": "CTO at Bending Spoon"
+      },
+      "infobox": {
+        "Born": "",
+        "Nationality": "Italian"
+      },
+      "lead_paragraphs": [
+        "Luca Ferrari has played a pivotal role in the growth of Bending Spoon, a Milan-based tech company that has gained significant traction in the app development market. His approach combines a methodical strategy with a focus on innovation, allowing the company to expand its portfolio and enhance its market presence. Ferrari's leadership has been instrumental in the company's ability to revive underperforming apps and develop new products that cater to a vast user base.",
+        "His vision for building a generational company reflects a commitment to long-term success in the tech industry, making him a respected figure among peers and investors."
+      ],
+      "sections": [
+        {
+          "heading": "Strategic Acquisitions",
+          "body": "Luca has led Bending Spoon in acquiring key assets that have bolstered its market position and expanded its capabilities. These acquisitions have been crucial in driving the company's growth trajectory."
+        },
+        {
+          "heading": "Product Innovation",
+          "body": "Under his guidance, Bending Spoon has focused on developing innovative applications that resonate with users. This emphasis on product quality has contributed to the company's impressive revenue growth."
+        },
+        {
+          "heading": "Market Expansion",
+          "body": "Ferrari's strategic initiatives have allowed Bending Spoon to penetrate new markets and reach a broader audience, significantly increasing its user base and revenue."
+        }
+      ]
+    }
   },
   {
     "id": 478,
@@ -2173,7 +2173,7 @@
     "last_podcast_name": "All-In with Chamath, Jason, Sacks & Friedberg",
     "last_episode_date": "2026-09-20",
     "mention_score": 1,
-    "mention_score_decayed": 0.79,
+    "mention_score_decayed": 0.78,
     "last_main_idea": "The mobile gaming advertising market is projected to reach $50 billion annually, presenting substantial growth opportunities.",
     "last_proof_cite": "All-In with Chamath, Jason, Sacks & Friedberg \u2022 2026-09-20 \u2022 Adam Foroughi, Applovin CEO: Surviving a 92% Drawdown, Ads as ML 1.0 & the $50B Game Ad Market",
     "last_proof_snippet": "Adam is probably the best founder and known as EverHurt of there's an earth platform hiding inside 100,000 mobile games and is quietly out-before-ing Facebook ads for e-commerce brands of all those thousand plus IPOs the number one most val",
@@ -2378,63 +2378,6 @@
     }
   },
   {
-    "id": 466,
-    "name": "Dario Amadeh",
-    "slug": "dario-amadeh",
-    "bio": "Dario Amadeh is the CEO of Anthropic, a prominent organization focused on AI safety and research. He is known for advocating responsible AI development and implementing safety measures in the rapidly evolving field of artificial intelligence. His work emphasizes the importance of ethical considerations in technology.",
-    "known_for": "Dario Amadeh is recognized for his leadership in AI safety and his commitment to responsible AI development.",
-    "net_worth_usd": null,
-    "net_worth_source": "",
-    "net_worth_updated_at": null,
-    "voice_tone": "Cautious and reflective",
-    "voice_style": "Analytical and persuasive",
-    "voice_delivery_notes": "Measured pacing with emphasis on key safety concerns.",
-    "voice_profile_updated_at": "2026-09-18 04:53:48",
-    "last_seen": "2026-09-18 04:53:48",
-    "last_episode_title": "Frontier Labs Want to Slow Down, OpenAI Delays Its 2026 IPO, Anthropic Flags 5 Bioweapon Cases | EP #291",
-    "last_podcast_name": "Moonshots with Peter Diamandis",
-    "last_episode_date": "2026-09-17",
-    "mention_score": 1,
-    "mention_score_decayed": 0.74,
-    "last_main_idea": "The evolving landscape of AI safety and regulation presents both challenges and opportunities for investors, particularly in sectors impacted by AI integration and educational reforms.",
-    "last_proof_cite": "Moonshots with Peter Diamandis \u2022 2026-09-17 \u2022 Frontier Labs Want to Slow Down, OpenAI Delays Its 2026 IPO, Anthropic Flags 5 Bioweapon Cases | EP #291",
-    "last_proof_snippet": "Daria Amade, CEO of Enthropic, published a 3,800-word essay titled We Must Pace the Frontier. Three hours later, Sam Elan said, you're right. Monday, President Trump called it a hoax and China called it a cold war trick. Nothing less than a",
-    "supporting_takeaway": "The potential emergence of a safety cartel among AI companies could stifle competition.",
-    "grokipedia_url": null,
-    "grokipedia_fetched_at": "2026-09-17T23:54:12.886346",
-    "pundit_profile": {
-      "source": "llm",
-      "source_model": "openai:gpt-4o-mini",
-      "source_url": "",
-      "page_title": "Dario Amadeh",
-      "fetched_at": "2026-09-18T04:54:12.885990+00:00",
-      "cliff_notes": "Dario Amadeh has emerged as a significant figure in the field of artificial intelligence, particularly in the realm of safety and ethical development. As the CEO of Anthropic, he leads initiatives aimed at addressing the potential risks associated with AI technologies. His recent publications highlight the urgent need for regulation and responsible practices in AI development, positioning him as a thought leader in discussions about the future of technology. Amadeh's advocacy for safety measures reflects a growing recognition of the implications of AI on society, making his insights valuable for investors and tech enthusiasts alike.",
-      "derived": {
-        "current_role": "CEO of Anthropic",
-        "books_or_works": "We Must Pace the Frontier; Threat Intelligence Report"
-      },
-      "infobox": {},
-      "lead_paragraphs": [
-        "Dario Amadeh has emerged as a significant figure in the field of artificial intelligence, particularly in the realm of safety and ethical development. As the CEO of Anthropic, he leads initiatives aimed at addressing the potential risks associated with AI technologies. His recent publications highlight the urgent need for regulation and responsible practices in AI development, positioning him as a thought leader in discussions about the future of technology.",
-        "Amadeh's advocacy for safety measures reflects a growing recognition of the implications of AI on society, making his insights valuable for investors and tech enthusiasts alike."
-      ],
-      "sections": [
-        {
-          "heading": "AI Safety Advocacy",
-          "body": "Dario Amadeh is a prominent advocate for AI safety, emphasizing the need for responsible development practices to mitigate risks associated with artificial intelligence."
-        },
-        {
-          "heading": "Leadership at Anthropic",
-          "body": "As CEO of Anthropic, Amadeh drives the organization's mission to prioritize safety and ethical considerations in AI research and deployment."
-        },
-        {
-          "heading": "Publications on AI Regulation",
-          "body": "His recent essays and reports, including 'We Must Pace the Frontier' and the 'Threat Intelligence Report,' address the critical need for AI regulation and the potential dangers of unchecked technological advancement."
-        }
-      ]
-    }
-  },
-  {
     "id": 133,
     "name": "Chris Dixon",
     "slug": "chris-dixon",
@@ -2494,6 +2437,63 @@
       ]
     },
     "net_worth": "$500.0M"
+  },
+  {
+    "id": 466,
+    "name": "Dario Amadeh",
+    "slug": "dario-amadeh",
+    "bio": "Dario Amadeh is the CEO of Anthropic, a prominent organization focused on AI safety and research. He is known for advocating responsible AI development and implementing safety measures in the rapidly evolving field of artificial intelligence. His work emphasizes the importance of ethical considerations in technology.",
+    "known_for": "Dario Amadeh is recognized for his leadership in AI safety and his commitment to responsible AI development.",
+    "net_worth_usd": null,
+    "net_worth_source": "",
+    "net_worth_updated_at": null,
+    "voice_tone": "Cautious and reflective",
+    "voice_style": "Analytical and persuasive",
+    "voice_delivery_notes": "Measured pacing with emphasis on key safety concerns.",
+    "voice_profile_updated_at": "2026-09-18 04:53:48",
+    "last_seen": "2026-09-18 04:53:48",
+    "last_episode_title": "Frontier Labs Want to Slow Down, OpenAI Delays Its 2026 IPO, Anthropic Flags 5 Bioweapon Cases | EP #291",
+    "last_podcast_name": "Moonshots with Peter Diamandis",
+    "last_episode_date": "2026-09-17",
+    "mention_score": 1,
+    "mention_score_decayed": 0.72,
+    "last_main_idea": "The evolving landscape of AI safety and regulation presents both challenges and opportunities for investors, particularly in sectors impacted by AI integration and educational reforms.",
+    "last_proof_cite": "Moonshots with Peter Diamandis \u2022 2026-09-17 \u2022 Frontier Labs Want to Slow Down, OpenAI Delays Its 2026 IPO, Anthropic Flags 5 Bioweapon Cases | EP #291",
+    "last_proof_snippet": "Daria Amade, CEO of Enthropic, published a 3,800-word essay titled We Must Pace the Frontier. Three hours later, Sam Elan said, you're right. Monday, President Trump called it a hoax and China called it a cold war trick. Nothing less than a",
+    "supporting_takeaway": "The potential emergence of a safety cartel among AI companies could stifle competition.",
+    "grokipedia_url": null,
+    "grokipedia_fetched_at": "2026-09-17T23:54:12.886346",
+    "pundit_profile": {
+      "source": "llm",
+      "source_model": "openai:gpt-4o-mini",
+      "source_url": "",
+      "page_title": "Dario Amadeh",
+      "fetched_at": "2026-09-18T04:54:12.885990+00:00",
+      "cliff_notes": "Dario Amadeh has emerged as a significant figure in the field of artificial intelligence, particularly in the realm of safety and ethical development. As the CEO of Anthropic, he leads initiatives aimed at addressing the potential risks associated with AI technologies. His recent publications highlight the urgent need for regulation and responsible practices in AI development, positioning him as a thought leader in discussions about the future of technology. Amadeh's advocacy for safety measures reflects a growing recognition of the implications of AI on society, making his insights valuable for investors and tech enthusiasts alike.",
+      "derived": {
+        "current_role": "CEO of Anthropic",
+        "books_or_works": "We Must Pace the Frontier; Threat Intelligence Report"
+      },
+      "infobox": {},
+      "lead_paragraphs": [
+        "Dario Amadeh has emerged as a significant figure in the field of artificial intelligence, particularly in the realm of safety and ethical development. As the CEO of Anthropic, he leads initiatives aimed at addressing the potential risks associated with AI technologies. His recent publications highlight the urgent need for regulation and responsible practices in AI development, positioning him as a thought leader in discussions about the future of technology.",
+        "Amadeh's advocacy for safety measures reflects a growing recognition of the implications of AI on society, making his insights valuable for investors and tech enthusiasts alike."
+      ],
+      "sections": [
+        {
+          "heading": "AI Safety Advocacy",
+          "body": "Dario Amadeh is a prominent advocate for AI safety, emphasizing the need for responsible development practices to mitigate risks associated with artificial intelligence."
+        },
+        {
+          "heading": "Leadership at Anthropic",
+          "body": "As CEO of Anthropic, Amadeh drives the organization's mission to prioritize safety and ethical considerations in AI research and deployment."
+        },
+        {
+          "heading": "Publications on AI Regulation",
+          "body": "His recent essays and reports, including 'We Must Pace the Frontier' and the 'Threat Intelligence Report,' address the critical need for AI regulation and the potential dangers of unchecked technological advancement."
+        }
+      ]
+    }
   },
   {
     "id": 465,
@@ -4574,7 +4574,7 @@
     "last_podcast_name": "Moonshots with Peter Diamandis",
     "last_episode_date": "2026-08-27",
     "mention_score": 1,
-    "mention_score_decayed": 0.46,
+    "mention_score_decayed": 0.45,
     "last_main_idea": "Investment in AI and autonomous vehicle sectors should consider the shift towards more gradual AI integration and the potential for cost-effective Chinese AI models to disrupt the market.",
     "last_proof_cite": "Moonshots with Peter Diamandis \u2022 2026-08-27 \u2022 Sam Altman: Singularity Slow-Down, Emad Runs 18 Grokbots, Waymo Slashes Hardware 83% | EP #283",
     "last_proof_snippet": "Sam Altman went on video this week to tell the world that he was wrong about the impact of advancing AI. We've all been too ambitious on time on it's even with this incredible technology. He now believes it will be something slower, more lik",
@@ -8882,72 +8882,6 @@
     "net_worth": "$7.00B"
   },
   {
-    "id": 335,
-    "name": "Pat Gelsinger",
-    "slug": "pat-gelsinger",
-    "bio": "Pat Gelsinger is a renowned technology executive known for his leadership at Intel and VMware. He served as Intel's 8th CEO and played a significant role in the tech industry's evolution.",
-    "known_for": "His leadership at Intel during a critical period of competition and his insights into the tech industry.",
-    "net_worth_usd": 120000000.0,
-    "net_worth_source": "https://thedacian.com/pat-gelsinger-net-worth/",
-    "net_worth_updated_at": "2026-07-16T05:02:47.534425",
-    "voice_tone": "Reflective and insightful.",
-    "voice_style": "Factual and experienced.",
-    "voice_delivery_notes": "Speaks with a measured pace, emphasizing key points about Intel's history and future.",
-    "voice_profile_updated_at": "2026-07-16 10:01:16",
-    "last_seen": "2026-07-16 10:01:16",
-    "last_episode_title": "Former Intel CEO on What Went Wrong, What's Next + Lovable CEO on the Real Promise of Vibe Coding",
-    "last_podcast_name": "All-In with Chamath, Jason, Sacks & Friedberg",
-    "last_episode_date": "2026-07-15",
-    "mention_score": 1,
-    "mention_score_decayed": 0.17,
-    "last_main_idea": "Investing in companies with strong technical leadership and a focus on future-proofing through R&D can yield significant long-term returns.",
-    "last_proof_cite": "All-In with Chamath, Jason, Sacks & Friedberg \u2022 2026-07-15 \u2022 Former Intel CEO on What Went Wrong, What's Next + Lovable CEO on the Real Promise of Vibe Coding",
-    "last_proof_snippet": "spent a long time in Intel, and only 34 years, 34 years, probably one of the greatest American companies ever, and then, absolutely went off the rails and got absolutely demolished by Nvidia, TSMC, and I guess Apple to a certain extent. So",
-    "supporting_takeaway": "Technical decisions in tech companies should be driven by technologists, not just business leaders.",
-    "grokipedia_url": null,
-    "grokipedia_fetched_at": "2026-07-16T05:02:45.973996",
-    "pundit_profile": {
-      "source": "llm",
-      "source_model": "moonshot:moonshot-v1-8k",
-      "source_url": "",
-      "page_title": "Pat Gelsinger",
-      "fetched_at": "2026-07-16T10:02:45.973649+00:00",
-      "cliff_notes": "Pat Gelsinger has had a long and influential career in the technology sector. Starting at Intel in 1979, he held various technical and leadership roles, eventually becoming the company's Chief Technology Officer. His tenure at Intel spanned over three decades, during which he contributed to the development and execution of many of Intel's technology strategies. After leaving Intel, Gelsinger became the CEO of VMware, where he led the company through significant growth and innovation. In 2021, he returned to Intel as its 8th CEO, taking on the challenge of revitalizing the company amidst intense competition from Nvidia, TSMC, and Apple. His leadership and insights into the tech industry have made him a key figure in the evolution of technology and its impact on the global market.",
-      "derived": {
-        "current_role": "CEO of Intel",
-        "former_positions": "CEO of VMware; Senior Vice President and General Manager of Intel's Digital Enterprise Group; Chief Technology Officer at Intel",
-        "education": "B.S. in Electrical Engineering from Lincoln Technical Institute; M.S. in Electrical Engineering from Stanford University"
-      },
-      "infobox": {
-        "Born": "1962",
-        "Nationality": "American"
-      },
-      "lead_paragraphs": [
-        "Pat Gelsinger has had a long and influential career in the technology sector. Starting at Intel in 1979, he held various technical and leadership roles, eventually becoming the company's Chief Technology Officer. His tenure at Intel spanned over three decades, during which he contributed to the development and execution of many of Intel's technology strategies.",
-        "After leaving Intel, Gelsinger became the CEO of VMware, where he led the company through significant growth and innovation. In 2021, he returned to Intel as its 8th CEO, taking on the challenge of revitalizing the company amidst intense competition from Nvidia, TSMC, and Apple. His leadership and insights into the tech industry have made him a key figure in the evolution of technology and its impact on the global market."
-      ],
-      "sections": [
-        {
-          "heading": "Leadership at Intel",
-          "body": "Pat Gelsinger served as Intel's 8th CEO, taking on the role during a period of intense competition and significant challenges for the company."
-        },
-        {
-          "heading": "VMware CEO",
-          "body": "As CEO of VMware, Gelsinger led the company to substantial growth and innovation, expanding its reach in the virtualization and cloud computing markets."
-        },
-        {
-          "heading": "Technology Strategy",
-          "body": "Throughout his career, Gelsinger has been instrumental in shaping technology strategies, both at Intel and VMware, impacting the direction of the tech industry."
-        },
-        {
-          "heading": "Industry Competition",
-          "body": "Gelsinger's leadership at Intel coincided with the company's struggle to maintain its market position against competitors like Nvidia, TSMC, and Apple."
-        }
-      ]
-    },
-    "net_worth": "$120.0M"
-  },
-  {
     "id": 42,
     "name": "Jack Mallers",
     "slug": "jack-mallers",
@@ -9006,6 +8940,72 @@
       ]
     },
     "net_worth": "$50.0M"
+  },
+  {
+    "id": 335,
+    "name": "Pat Gelsinger",
+    "slug": "pat-gelsinger",
+    "bio": "Pat Gelsinger is a renowned technology executive known for his leadership at Intel and VMware. He served as Intel's 8th CEO and played a significant role in the tech industry's evolution.",
+    "known_for": "His leadership at Intel during a critical period of competition and his insights into the tech industry.",
+    "net_worth_usd": 120000000.0,
+    "net_worth_source": "https://thedacian.com/pat-gelsinger-net-worth/",
+    "net_worth_updated_at": "2026-07-16T05:02:47.534425",
+    "voice_tone": "Reflective and insightful.",
+    "voice_style": "Factual and experienced.",
+    "voice_delivery_notes": "Speaks with a measured pace, emphasizing key points about Intel's history and future.",
+    "voice_profile_updated_at": "2026-07-16 10:01:16",
+    "last_seen": "2026-07-16 10:01:16",
+    "last_episode_title": "Former Intel CEO on What Went Wrong, What's Next + Lovable CEO on the Real Promise of Vibe Coding",
+    "last_podcast_name": "All-In with Chamath, Jason, Sacks & Friedberg",
+    "last_episode_date": "2026-07-15",
+    "mention_score": 1,
+    "mention_score_decayed": 0.16,
+    "last_main_idea": "Investing in companies with strong technical leadership and a focus on future-proofing through R&D can yield significant long-term returns.",
+    "last_proof_cite": "All-In with Chamath, Jason, Sacks & Friedberg \u2022 2026-07-15 \u2022 Former Intel CEO on What Went Wrong, What's Next + Lovable CEO on the Real Promise of Vibe Coding",
+    "last_proof_snippet": "spent a long time in Intel, and only 34 years, 34 years, probably one of the greatest American companies ever, and then, absolutely went off the rails and got absolutely demolished by Nvidia, TSMC, and I guess Apple to a certain extent. So",
+    "supporting_takeaway": "Technical decisions in tech companies should be driven by technologists, not just business leaders.",
+    "grokipedia_url": null,
+    "grokipedia_fetched_at": "2026-07-16T05:02:45.973996",
+    "pundit_profile": {
+      "source": "llm",
+      "source_model": "moonshot:moonshot-v1-8k",
+      "source_url": "",
+      "page_title": "Pat Gelsinger",
+      "fetched_at": "2026-07-16T10:02:45.973649+00:00",
+      "cliff_notes": "Pat Gelsinger has had a long and influential career in the technology sector. Starting at Intel in 1979, he held various technical and leadership roles, eventually becoming the company's Chief Technology Officer. His tenure at Intel spanned over three decades, during which he contributed to the development and execution of many of Intel's technology strategies. After leaving Intel, Gelsinger became the CEO of VMware, where he led the company through significant growth and innovation. In 2021, he returned to Intel as its 8th CEO, taking on the challenge of revitalizing the company amidst intense competition from Nvidia, TSMC, and Apple. His leadership and insights into the tech industry have made him a key figure in the evolution of technology and its impact on the global market.",
+      "derived": {
+        "current_role": "CEO of Intel",
+        "former_positions": "CEO of VMware; Senior Vice President and General Manager of Intel's Digital Enterprise Group; Chief Technology Officer at Intel",
+        "education": "B.S. in Electrical Engineering from Lincoln Technical Institute; M.S. in Electrical Engineering from Stanford University"
+      },
+      "infobox": {
+        "Born": "1962",
+        "Nationality": "American"
+      },
+      "lead_paragraphs": [
+        "Pat Gelsinger has had a long and influential career in the technology sector. Starting at Intel in 1979, he held various technical and leadership roles, eventually becoming the company's Chief Technology Officer. His tenure at Intel spanned over three decades, during which he contributed to the development and execution of many of Intel's technology strategies.",
+        "After leaving Intel, Gelsinger became the CEO of VMware, where he led the company through significant growth and innovation. In 2021, he returned to Intel as its 8th CEO, taking on the challenge of revitalizing the company amidst intense competition from Nvidia, TSMC, and Apple. His leadership and insights into the tech industry have made him a key figure in the evolution of technology and its impact on the global market."
+      ],
+      "sections": [
+        {
+          "heading": "Leadership at Intel",
+          "body": "Pat Gelsinger served as Intel's 8th CEO, taking on the role during a period of intense competition and significant challenges for the company."
+        },
+        {
+          "heading": "VMware CEO",
+          "body": "As CEO of VMware, Gelsinger led the company to substantial growth and innovation, expanding its reach in the virtualization and cloud computing markets."
+        },
+        {
+          "heading": "Technology Strategy",
+          "body": "Throughout his career, Gelsinger has been instrumental in shaping technology strategies, both at Intel and VMware, impacting the direction of the tech industry."
+        },
+        {
+          "heading": "Industry Competition",
+          "body": "Gelsinger's leadership at Intel coincided with the company's struggle to maintain its market position against competitors like Nvidia, TSMC, and Apple."
+        }
+      ]
+    },
+    "net_worth": "$120.0M"
   },
   {
     "id": 332,
@@ -12499,73 +12499,6 @@
     "net_worth": "$265.0M"
   },
   {
-    "id": 209,
-    "name": "David Sinclair",
-    "slug": "david-sinclair",
-    "bio": "Professor in the Department of Genetics and co-director of the Paul F. Glenn Center for the Biology of Aging at Harvard Medical School.",
-    "known_for": "Research on the biology of aging and the development of therapeutics to extend healthspan.",
-    "net_worth_usd": 25000000.0,
-    "net_worth_source": "https://www.eyemindspirit.com/blogs/pop-culture/david-sinclairs-net-worth",
-    "net_worth_updated_at": "2026-04-28T05:04:48.598995",
-    "voice_tone": "Passionate and informative",
-    "voice_style": "Factual and data-driven",
-    "voice_delivery_notes": "Speaks with conviction and enthusiasm",
-    "voice_profile_updated_at": "2026-04-29 10:02:51",
-    "last_seen": "2026-04-29 10:02:51",
-    "last_episode_title": "David Sinclair: The GLP-1 Side Effect No One Talks About, What AI Found in His Lab, and Reversing Blindness | Q&A EP #251",
-    "last_podcast_name": "Moonshots with Peter Diamandis",
-    "last_episode_date": "2026-04-28",
-    "mention_score": 2,
-    "mention_score_decayed": 0.06,
-    "last_main_idea": "Investing in longevity and healthspan technologies and therapies offers significant growth potential as scientific advancements continue to extend human lifespan and improve quality of life.",
-    "last_proof_cite": "Moonshots with Peter Diamandis \u2022 2026-04-28 \u2022 David Sinclair: The GLP-1 Side Effect No One Talks About, What AI Found in His Lab, and Reversing Blindness | Q&A EP #251",
-    "last_proof_snippet": "AI-driven drug design is accelerating research by analyzing billions of molecules for potential therapeutic uses.",
-    "supporting_takeaway": "AI-driven drug design is accelerating research by analyzing billions of molecules for potential therapeutic uses.",
-    "grokipedia_url": null,
-    "grokipedia_fetched_at": "2026-04-28T05:04:47.371037",
-    "pundit_profile": {
-      "source": "llm",
-      "source_model": "moonshot:moonshot-v1-8k",
-      "source_url": "",
-      "page_title": "David Sinclair",
-      "fetched_at": "2026-04-28T10:04:47.370533+00:00",
-      "cliff_notes": "David Sinclair is a prominent researcher in the field of epigenetics and aging. He obtained his Ph.D. in Molecular Genetics from the University of New South Wales and has since dedicated his career to understanding the biological processes behind aging. Sinclair's work has been pivotal in uncovering the role of genes and molecular pathways in aging, with significant contributions to the understanding of how epigenetic changes can influence health and lifespan. His research has opened new avenues for therapeutic interventions aimed at delaying aging and treating age-related diseases. Sinclair's work is particularly relevant to investors and tech listeners due to its potential to revolutionize healthcare and extend human healthspan, which could have profound economic and societal implications.",
-      "derived": {
-        "current_role": "Professor in the Department of Genetics; Co-director of the Paul F. Glenn Center for the Biology of Aging at Harvard Medical School",
-        "education": "Ph.D. in Molecular Genetics, University of New South Wales",
-        "books_or_works": "Why We Age: What Science Is Discovering About the Body's Journey Through Life, and How to Delay, Reverse, and Avoid Age-Related Diseases; numerous scientific papers",
-        "teaching_summary": "Professor in the Department of Genetics at Harvard Medical School"
-      },
-      "infobox": {
-        "Born": "",
-        "Nationality": "Australian"
-      },
-      "lead_paragraphs": [
-        "David Sinclair is a prominent researcher in the field of epigenetics and aging. He obtained his Ph.D. in Molecular Genetics from the University of New South Wales and has since dedicated his career to understanding the biological processes behind aging. Sinclair's work has been pivotal in uncovering the role of genes and molecular pathways in aging, with significant contributions to the understanding of how epigenetic changes can influence health and lifespan.",
-        "His research has opened new avenues for therapeutic interventions aimed at delaying aging and treating age-related diseases. Sinclair's work is particularly relevant to investors and tech listeners due to its potential to revolutionize healthcare and extend human healthspan, which could have profound economic and societal implications."
-      ],
-      "sections": [
-        {
-          "heading": "Epigenetics and Aging",
-          "body": "David Sinclair's research focuses on the role of epigenetics in aging, exploring how changes in gene expression can influence the aging process and contribute to age-related diseases."
-        },
-        {
-          "heading": "Therapeutic Interventions",
-          "body": "Sinclair's work has led to the development of potential therapeutic interventions to delay aging, including the use of molecules like resveratrol and the application of Yamanaka factors to reverse age-related declines in various tissues."
-        },
-        {
-          "heading": "Healthspan Extension",
-          "body": "His research has implications for extending not just lifespan, but more importantly, healthspan \u2013 the period during which individuals maintain good health and functionality."
-        },
-        {
-          "heading": "Broad Impact on Healthcare",
-          "body": "Sinclair's findings have the potential to impact a wide range of healthcare areas, from treating specific age-related diseases like Alzheimer's to improving overall quality of life in later years."
-        }
-      ]
-    },
-    "net_worth": "$25.0M"
-  },
-  {
     "id": 266,
     "name": "Delip Tasman",
     "slug": "delip-tasman",
@@ -13060,6 +12993,73 @@
         }
       ]
     }
+  },
+  {
+    "id": 209,
+    "name": "David Sinclair",
+    "slug": "david-sinclair",
+    "bio": "Professor in the Department of Genetics and co-director of the Paul F. Glenn Center for the Biology of Aging at Harvard Medical School.",
+    "known_for": "Research on the biology of aging and the development of therapeutics to extend healthspan.",
+    "net_worth_usd": 25000000.0,
+    "net_worth_source": "https://www.eyemindspirit.com/blogs/pop-culture/david-sinclairs-net-worth",
+    "net_worth_updated_at": "2026-04-28T05:04:48.598995",
+    "voice_tone": "Passionate and informative",
+    "voice_style": "Factual and data-driven",
+    "voice_delivery_notes": "Speaks with conviction and enthusiasm",
+    "voice_profile_updated_at": "2026-04-29 10:02:51",
+    "last_seen": "2026-04-29 10:02:51",
+    "last_episode_title": "David Sinclair: The GLP-1 Side Effect No One Talks About, What AI Found in His Lab, and Reversing Blindness | Q&A EP #251",
+    "last_podcast_name": "Moonshots with Peter Diamandis",
+    "last_episode_date": "2026-04-28",
+    "mention_score": 2,
+    "mention_score_decayed": 0.05,
+    "last_main_idea": "Investing in longevity and healthspan technologies and therapies offers significant growth potential as scientific advancements continue to extend human lifespan and improve quality of life.",
+    "last_proof_cite": "Moonshots with Peter Diamandis \u2022 2026-04-28 \u2022 David Sinclair: The GLP-1 Side Effect No One Talks About, What AI Found in His Lab, and Reversing Blindness | Q&A EP #251",
+    "last_proof_snippet": "AI-driven drug design is accelerating research by analyzing billions of molecules for potential therapeutic uses.",
+    "supporting_takeaway": "AI-driven drug design is accelerating research by analyzing billions of molecules for potential therapeutic uses.",
+    "grokipedia_url": null,
+    "grokipedia_fetched_at": "2026-04-28T05:04:47.371037",
+    "pundit_profile": {
+      "source": "llm",
+      "source_model": "moonshot:moonshot-v1-8k",
+      "source_url": "",
+      "page_title": "David Sinclair",
+      "fetched_at": "2026-04-28T10:04:47.370533+00:00",
+      "cliff_notes": "David Sinclair is a prominent researcher in the field of epigenetics and aging. He obtained his Ph.D. in Molecular Genetics from the University of New South Wales and has since dedicated his career to understanding the biological processes behind aging. Sinclair's work has been pivotal in uncovering the role of genes and molecular pathways in aging, with significant contributions to the understanding of how epigenetic changes can influence health and lifespan. His research has opened new avenues for therapeutic interventions aimed at delaying aging and treating age-related diseases. Sinclair's work is particularly relevant to investors and tech listeners due to its potential to revolutionize healthcare and extend human healthspan, which could have profound economic and societal implications.",
+      "derived": {
+        "current_role": "Professor in the Department of Genetics; Co-director of the Paul F. Glenn Center for the Biology of Aging at Harvard Medical School",
+        "education": "Ph.D. in Molecular Genetics, University of New South Wales",
+        "books_or_works": "Why We Age: What Science Is Discovering About the Body's Journey Through Life, and How to Delay, Reverse, and Avoid Age-Related Diseases; numerous scientific papers",
+        "teaching_summary": "Professor in the Department of Genetics at Harvard Medical School"
+      },
+      "infobox": {
+        "Born": "",
+        "Nationality": "Australian"
+      },
+      "lead_paragraphs": [
+        "David Sinclair is a prominent researcher in the field of epigenetics and aging. He obtained his Ph.D. in Molecular Genetics from the University of New South Wales and has since dedicated his career to understanding the biological processes behind aging. Sinclair's work has been pivotal in uncovering the role of genes and molecular pathways in aging, with significant contributions to the understanding of how epigenetic changes can influence health and lifespan.",
+        "His research has opened new avenues for therapeutic interventions aimed at delaying aging and treating age-related diseases. Sinclair's work is particularly relevant to investors and tech listeners due to its potential to revolutionize healthcare and extend human healthspan, which could have profound economic and societal implications."
+      ],
+      "sections": [
+        {
+          "heading": "Epigenetics and Aging",
+          "body": "David Sinclair's research focuses on the role of epigenetics in aging, exploring how changes in gene expression can influence the aging process and contribute to age-related diseases."
+        },
+        {
+          "heading": "Therapeutic Interventions",
+          "body": "Sinclair's work has led to the development of potential therapeutic interventions to delay aging, including the use of molecules like resveratrol and the application of Yamanaka factors to reverse age-related declines in various tissues."
+        },
+        {
+          "heading": "Healthspan Extension",
+          "body": "His research has implications for extending not just lifespan, but more importantly, healthspan \u2013 the period during which individuals maintain good health and functionality."
+        },
+        {
+          "heading": "Broad Impact on Healthcare",
+          "body": "Sinclair's findings have the potential to impact a wide range of healthcare areas, from treating specific age-related diseases like Alzheimer's to improving overall quality of life in later years."
+        }
+      ]
+    },
+    "net_worth": "$25.0M"
   },
   {
     "id": 255,
@@ -15203,127 +15203,6 @@
     }
   },
   {
-    "id": 205,
-    "name": "Steven Synopski",
-    "slug": "steven-synopski",
-    "bio": "Steven Synopski is a board partner at a16z, a venture capital firm. He is known for his work in enterprise technology and AI, focusing on the challenges and opportunities that come with integrating AI into existing systems.",
-    "known_for": "His insights on the complexities of integrating AI into enterprise operations and the importance of aligning operations for successful AI implementation.",
-    "net_worth_usd": 300000000.0,
-    "net_worth_source": "https://www.gurufocus.com/insider/3984/steven-j-sinofsky",
-    "net_worth_updated_at": "2026-04-25T05:05:56.063694",
-    "voice_tone": "Inquisitive and analytical",
-    "voice_style": "Asks probing questions to uncover the nuances of AI integration",
-    "voice_delivery_notes": "Paces speech to allow for deeper understanding",
-    "voice_profile_updated_at": "2026-04-25 10:05:40",
-    "last_seen": "2026-04-25 10:05:40",
-    "last_episode_title": "AI Inside the Enterprise",
-    "last_podcast_name": "The a16z Show",
-    "last_episode_date": "2026-04-24",
-    "mention_score": 1,
-    "mention_score_decayed": 0.03,
-    "last_main_idea": "Investing in AI integration tools and platforms that can bridge the gap between AI capabilities and enterprise deployment is a key opportunity.",
-    "last_proof_cite": "The a16z Show \u2022 2026-04-24 \u2022 AI Inside the Enterprise",
-    "last_proof_snippet": "There's a growing gap between what's possible with AI and what's being deployed in large organizations.",
-    "supporting_takeaway": "There's a growing gap between what's possible with AI and what's being deployed in large organizations.",
-    "grokipedia_url": null,
-    "grokipedia_fetched_at": "2026-04-25T05:05:55.056447",
-    "pundit_profile": {
-      "source": "llm",
-      "source_model": "moonshot:moonshot-v1-8k",
-      "source_url": "",
-      "page_title": "Steven Synopski",
-      "fetched_at": "2026-04-25T10:05:55.056114+00:00",
-      "cliff_notes": "Steven Synopski is recognized for his expertise in enterprise technology and AI, particularly in the context of integrating AI into existing systems within large enterprises. As a board partner at a16z, he has been instrumental in guiding companies through the complexities of AI implementation. Synopski's insights highlight the challenges that enterprises face when trying to integrate AI, emphasizing the need for proper alignment of operations to ensure successful AI deployment. His work is crucial for investors and tech listeners as it provides a realistic view of the integration process and the potential pitfalls that can arise.",
-      "derived": {
-        "current_role": "Board Partner at a16z"
-      },
-      "infobox": {
-        "Nationality": "American"
-      },
-      "lead_paragraphs": [
-        "Steven Synopski is recognized for his expertise in enterprise technology and AI, particularly in the context of integrating AI into existing systems within large enterprises. As a board partner at a16z, he has been instrumental in guiding companies through the complexities of AI implementation. Synopski's insights highlight the challenges that enterprises face when trying to integrate AI, emphasizing the need for proper alignment of operations to ensure successful AI deployment.",
-        "His work is crucial for investors and tech listeners as it provides a realistic view of the integration process and the potential pitfalls that can arise."
-      ],
-      "sections": [
-        {
-          "heading": "Enterprise AI Integration",
-          "body": "Steven Synopski discusses the challenges enterprises face when integrating AI into their operations, emphasizing the need for proper alignment to avoid failure."
-        },
-        {
-          "heading": "Operational Alignment",
-          "body": "Synopski stresses the importance of aligning operations when implementing AI, noting that without it, centralized projects often fail due to a lack of understanding and integration."
-        },
-        {
-          "heading": "Complexity of Systems",
-          "body": "He points out that as systems become more complex with the addition of AI, the need for skilled engineers increases, contrary to the misconception that more code leads to less need for engineers."
-        },
-        {
-          "heading": "Integration Hurdles",
-          "body": "Synopski highlights that AI does not inherently solve integration issues, and that enterprises with legacy systems face significant challenges in integrating new AI technologies."
-        }
-      ]
-    },
-    "net_worth": "$300.0M"
-  },
-  {
-    "id": 204,
-    "name": "David Freeberg",
-    "slug": "david-freeberg",
-    "bio": "David Freeberg, known as the 'Sultan of Science', is an expert in scientific research and its intersection with investment opportunities. He is recognized for his ability to identify and analyze trends in scientific advancements and their potential impact on various industries.",
-    "known_for": "His insights into how scientific research translates into investment opportunities, particularly in emerging technologies.",
-    "net_worth_usd": 1200000000.0,
-    "net_worth_source": "https://staging.ogroup.com/toknetworth-012/david-friedberg-net-worth/",
-    "net_worth_updated_at": "2026-04-25T05:06:19.619100",
-    "voice_tone": "Confident and knowledgeable",
-    "voice_style": "Factual and analytical",
-    "voice_delivery_notes": "Paced with emphasis on key scientific points",
-    "voice_profile_updated_at": "2026-04-25 10:05:04",
-    "last_seen": "2026-04-25 10:05:04",
-    "last_episode_title": "SpaceX-Cursor Deal, SaaS Debt Bomb, New Apple CEO, SPLC Indictment, Colon Cancer Spike",
-    "last_podcast_name": "All-In with Chamath, Jason, Sacks & Friedberg",
-    "last_episode_date": "2026-04-24",
-    "mention_score": 1,
-    "mention_score_decayed": 0.03,
-    "last_main_idea": "The current president is seen as supportive of AI development and business, contrasting with media portrayals.",
-    "last_proof_cite": "All-In with Chamath, Jason, Sacks & Friedberg \u2022 2026-04-24 \u2022 SpaceX-Cursor Deal, SaaS Debt Bomb, New Apple CEO, SPLC Indictment, Colon Cancer Spike",
-    "last_proof_snippet": "Data centers are a critical component of AI infrastructure, and the president's stance on them is favorable for progress.",
-    "supporting_takeaway": "Data centers are a critical component of AI infrastructure, and the president's stance on them is favorable for progress.",
-    "grokipedia_url": null,
-    "grokipedia_fetched_at": "2026-04-25T05:06:18.698852",
-    "pundit_profile": {
-      "source": "llm",
-      "source_model": "moonshot:moonshot-v1-8k",
-      "source_url": "",
-      "page_title": "David Freeberg",
-      "fetched_at": "2026-04-25T10:06:18.698705+00:00",
-      "cliff_notes": "David Freeberg has carved a niche for himself as an authority on the intersection of science and investment. His expertise lies in understanding complex scientific research and translating it into actionable insights for investors. Freeberg's ability to foresee the commercial potential of scientific breakthroughs has made him a sought-after figure in the investment community. His work involves analyzing trends, identifying opportunities, and advising on strategic investments in scientific advancements. His influence extends beyond financial circles, as his insights are valuable to anyone interested in the future of technology and its impact on society.",
-      "derived": {},
-      "infobox": {
-        "Born": "",
-        "Nationality": ""
-      },
-      "lead_paragraphs": [
-        "David Freeberg has carved a niche for himself as an authority on the intersection of science and investment. His expertise lies in understanding complex scientific research and translating it into actionable insights for investors. Freeberg's ability to foresee the commercial potential of scientific breakthroughs has made him a sought-after figure in the investment community.",
-        "His work involves analyzing trends, identifying opportunities, and advising on strategic investments in scientific advancements. His influence extends beyond financial circles, as his insights are valuable to anyone interested in the future of technology and its impact on society."
-      ],
-      "sections": [
-        {
-          "heading": "Scientific Research",
-          "body": "David Freeberg is adept at interpreting scientific research and understanding its implications for various sectors, particularly in the context of investment."
-        },
-        {
-          "heading": "Investment Opportunities",
-          "body": "Freeberg is known for his ability to identify investment opportunities stemming from scientific advancements, guiding investors towards profitable ventures."
-        },
-        {
-          "heading": "Intersection of Science and Finance",
-          "body": "His work bridges the gap between scientific discovery and financial gain, providing a unique perspective on how to capitalize on emerging technologies."
-        }
-      ]
-    },
-    "net_worth": "$1.20B"
-  },
-  {
     "id": 55,
     "name": "Dr. Onus Alhajji",
     "slug": "dr-onus-alhajji",
@@ -15598,6 +15477,127 @@
       ]
     },
     "net_worth": "$200.0M"
+  },
+  {
+    "id": 205,
+    "name": "Steven Synopski",
+    "slug": "steven-synopski",
+    "bio": "Steven Synopski is a board partner at a16z, a venture capital firm. He is known for his work in enterprise technology and AI, focusing on the challenges and opportunities that come with integrating AI into existing systems.",
+    "known_for": "His insights on the complexities of integrating AI into enterprise operations and the importance of aligning operations for successful AI implementation.",
+    "net_worth_usd": 300000000.0,
+    "net_worth_source": "https://www.gurufocus.com/insider/3984/steven-j-sinofsky",
+    "net_worth_updated_at": "2026-04-25T05:05:56.063694",
+    "voice_tone": "Inquisitive and analytical",
+    "voice_style": "Asks probing questions to uncover the nuances of AI integration",
+    "voice_delivery_notes": "Paces speech to allow for deeper understanding",
+    "voice_profile_updated_at": "2026-04-25 10:05:40",
+    "last_seen": "2026-04-25 10:05:40",
+    "last_episode_title": "AI Inside the Enterprise",
+    "last_podcast_name": "The a16z Show",
+    "last_episode_date": "2026-04-24",
+    "mention_score": 1,
+    "mention_score_decayed": 0.02,
+    "last_main_idea": "Investing in AI integration tools and platforms that can bridge the gap between AI capabilities and enterprise deployment is a key opportunity.",
+    "last_proof_cite": "The a16z Show \u2022 2026-04-24 \u2022 AI Inside the Enterprise",
+    "last_proof_snippet": "There's a growing gap between what's possible with AI and what's being deployed in large organizations.",
+    "supporting_takeaway": "There's a growing gap between what's possible with AI and what's being deployed in large organizations.",
+    "grokipedia_url": null,
+    "grokipedia_fetched_at": "2026-04-25T05:05:55.056447",
+    "pundit_profile": {
+      "source": "llm",
+      "source_model": "moonshot:moonshot-v1-8k",
+      "source_url": "",
+      "page_title": "Steven Synopski",
+      "fetched_at": "2026-04-25T10:05:55.056114+00:00",
+      "cliff_notes": "Steven Synopski is recognized for his expertise in enterprise technology and AI, particularly in the context of integrating AI into existing systems within large enterprises. As a board partner at a16z, he has been instrumental in guiding companies through the complexities of AI implementation. Synopski's insights highlight the challenges that enterprises face when trying to integrate AI, emphasizing the need for proper alignment of operations to ensure successful AI deployment. His work is crucial for investors and tech listeners as it provides a realistic view of the integration process and the potential pitfalls that can arise.",
+      "derived": {
+        "current_role": "Board Partner at a16z"
+      },
+      "infobox": {
+        "Nationality": "American"
+      },
+      "lead_paragraphs": [
+        "Steven Synopski is recognized for his expertise in enterprise technology and AI, particularly in the context of integrating AI into existing systems within large enterprises. As a board partner at a16z, he has been instrumental in guiding companies through the complexities of AI implementation. Synopski's insights highlight the challenges that enterprises face when trying to integrate AI, emphasizing the need for proper alignment of operations to ensure successful AI deployment.",
+        "His work is crucial for investors and tech listeners as it provides a realistic view of the integration process and the potential pitfalls that can arise."
+      ],
+      "sections": [
+        {
+          "heading": "Enterprise AI Integration",
+          "body": "Steven Synopski discusses the challenges enterprises face when integrating AI into their operations, emphasizing the need for proper alignment to avoid failure."
+        },
+        {
+          "heading": "Operational Alignment",
+          "body": "Synopski stresses the importance of aligning operations when implementing AI, noting that without it, centralized projects often fail due to a lack of understanding and integration."
+        },
+        {
+          "heading": "Complexity of Systems",
+          "body": "He points out that as systems become more complex with the addition of AI, the need for skilled engineers increases, contrary to the misconception that more code leads to less need for engineers."
+        },
+        {
+          "heading": "Integration Hurdles",
+          "body": "Synopski highlights that AI does not inherently solve integration issues, and that enterprises with legacy systems face significant challenges in integrating new AI technologies."
+        }
+      ]
+    },
+    "net_worth": "$300.0M"
+  },
+  {
+    "id": 204,
+    "name": "David Freeberg",
+    "slug": "david-freeberg",
+    "bio": "David Freeberg, known as the 'Sultan of Science', is an expert in scientific research and its intersection with investment opportunities. He is recognized for his ability to identify and analyze trends in scientific advancements and their potential impact on various industries.",
+    "known_for": "His insights into how scientific research translates into investment opportunities, particularly in emerging technologies.",
+    "net_worth_usd": 1200000000.0,
+    "net_worth_source": "https://staging.ogroup.com/toknetworth-012/david-friedberg-net-worth/",
+    "net_worth_updated_at": "2026-04-25T05:06:19.619100",
+    "voice_tone": "Confident and knowledgeable",
+    "voice_style": "Factual and analytical",
+    "voice_delivery_notes": "Paced with emphasis on key scientific points",
+    "voice_profile_updated_at": "2026-04-25 10:05:04",
+    "last_seen": "2026-04-25 10:05:04",
+    "last_episode_title": "SpaceX-Cursor Deal, SaaS Debt Bomb, New Apple CEO, SPLC Indictment, Colon Cancer Spike",
+    "last_podcast_name": "All-In with Chamath, Jason, Sacks & Friedberg",
+    "last_episode_date": "2026-04-24",
+    "mention_score": 1,
+    "mention_score_decayed": 0.02,
+    "last_main_idea": "The current president is seen as supportive of AI development and business, contrasting with media portrayals.",
+    "last_proof_cite": "All-In with Chamath, Jason, Sacks & Friedberg \u2022 2026-04-24 \u2022 SpaceX-Cursor Deal, SaaS Debt Bomb, New Apple CEO, SPLC Indictment, Colon Cancer Spike",
+    "last_proof_snippet": "Data centers are a critical component of AI infrastructure, and the president's stance on them is favorable for progress.",
+    "supporting_takeaway": "Data centers are a critical component of AI infrastructure, and the president's stance on them is favorable for progress.",
+    "grokipedia_url": null,
+    "grokipedia_fetched_at": "2026-04-25T05:06:18.698852",
+    "pundit_profile": {
+      "source": "llm",
+      "source_model": "moonshot:moonshot-v1-8k",
+      "source_url": "",
+      "page_title": "David Freeberg",
+      "fetched_at": "2026-04-25T10:06:18.698705+00:00",
+      "cliff_notes": "David Freeberg has carved a niche for himself as an authority on the intersection of science and investment. His expertise lies in understanding complex scientific research and translating it into actionable insights for investors. Freeberg's ability to foresee the commercial potential of scientific breakthroughs has made him a sought-after figure in the investment community. His work involves analyzing trends, identifying opportunities, and advising on strategic investments in scientific advancements. His influence extends beyond financial circles, as his insights are valuable to anyone interested in the future of technology and its impact on society.",
+      "derived": {},
+      "infobox": {
+        "Born": "",
+        "Nationality": ""
+      },
+      "lead_paragraphs": [
+        "David Freeberg has carved a niche for himself as an authority on the intersection of science and investment. His expertise lies in understanding complex scientific research and translating it into actionable insights for investors. Freeberg's ability to foresee the commercial potential of scientific breakthroughs has made him a sought-after figure in the investment community.",
+        "His work involves analyzing trends, identifying opportunities, and advising on strategic investments in scientific advancements. His influence extends beyond financial circles, as his insights are valuable to anyone interested in the future of technology and its impact on society."
+      ],
+      "sections": [
+        {
+          "heading": "Scientific Research",
+          "body": "David Freeberg is adept at interpreting scientific research and understanding its implications for various sectors, particularly in the context of investment."
+        },
+        {
+          "heading": "Investment Opportunities",
+          "body": "Freeberg is known for his ability to identify investment opportunities stemming from scientific advancements, guiding investors towards profitable ventures."
+        },
+        {
+          "heading": "Intersection of Science and Finance",
+          "body": "His work bridges the gap between scientific discovery and financial gain, providing a unique perspective on how to capitalize on emerging technologies."
+        }
+      ]
+    },
+    "net_worth": "$1.20B"
   },
   {
     "id": 203,
@@ -17482,130 +17482,6 @@
     }
   },
   {
-    "id": 150,
-    "name": "Alex Bonia",
-    "slug": "alex-bonia",
-    "bio": "Alex Bonia is the co-founder and CEO of World, a company focused on developing a 'proof of human layer' for the AI era. He is dedicated to building the largest real human network, addressing the challenges posed by AI in mimicking human behavior and interactions.",
-    "known_for": "Developing a 'proof of human layer' to distinguish real humans from AI in the digital age.",
-    "net_worth_usd": 3600000000.0,
-    "net_worth_source": "https://globalbizoutlook.com/top-30-ai-billionaires-in-the-world-2025-rankings-and-net-worth-revealed/",
-    "net_worth_updated_at": "2026-04-03T05:05:05.505205",
-    "voice_tone": "Inquisitive and informative",
-    "voice_style": "Explains complex concepts with clarity",
-    "voice_delivery_notes": "Paces well, with emphasis on key points",
-    "voice_profile_updated_at": "2026-04-03 10:04:54",
-    "last_seen": "2026-04-03 10:04:54",
-    "last_episode_title": "Alex Blania on Proof of Human and Building World's Identity Network",
-    "last_podcast_name": "The a16z Show",
-    "last_episode_date": "2026-04-02",
-    "mention_score": 1,
-    "mention_score_decayed": 0.02,
-    "last_main_idea": "Investing in technologies that can verify human interactions online is becoming critical as AI-generated content proliferates, posing both challenges and opportunities for social media platforms and the broader digital economy.",
-    "last_proof_cite": "The a16z Show \u2022 2026-04-02 \u2022 Alex Blania on Proof of Human and Building World's Identity Network",
-    "last_proof_snippet": "Social media platforms are struggling to verify human users, leading to issues with content monetization and user authentication.",
-    "supporting_takeaway": "Social media platforms are struggling to verify human users, leading to issues with content monetization and user authentication.",
-    "grokipedia_url": null,
-    "grokipedia_fetched_at": "2026-04-03T05:05:04.562022",
-    "pundit_profile": {
-      "source": "llm",
-      "source_model": "moonshot:moonshot-v1-8k",
-      "source_url": "",
-      "page_title": "Alex Bonia",
-      "fetched_at": "2026-04-03T10:05:04.561818+00:00",
-      "cliff_notes": "Alex Bonia is recognized for his work in the intersection of technology and human identity. As the co-founder and CEO of World, he is at the forefront of developing solutions to authenticate human users in a digital landscape increasingly populated by AI. His efforts are crucial in an era where AI's ability to mimic human behavior poses significant challenges to digital platforms that rely on the assumption of human users. Bonia's work is pivotal in maintaining the integrity of online interactions and safeguarding against the manipulations of AI.",
-      "derived": {
-        "current_role": "Co-founder and CEO at World"
-      },
-      "infobox": {
-        "Born": "",
-        "Nationality": ""
-      },
-      "lead_paragraphs": [
-        "Alex Bonia is recognized for his work in the intersection of technology and human identity. As the co-founder and CEO of World, he is at the forefront of developing solutions to authenticate human users in a digital landscape increasingly populated by AI. His efforts are crucial in an era where AI's ability to mimic human behavior poses significant challenges to digital platforms that rely on the assumption of human users.",
-        "Bonia's work is pivotal in maintaining the integrity of online interactions and safeguarding against the manipulations of AI."
-      ],
-      "sections": [
-        {
-          "heading": "Human Authentication",
-          "body": "Alex Bonia is leading the charge in creating a 'proof of human layer', a system designed to verify the authenticity of human users in digital spaces, which is becoming increasingly important as AI technology advances."
-        },
-        {
-          "heading": "AI and Social Media",
-          "body": "Bonia's work addresses the growing concern of AI-operated social media accounts, which can mimic human behavior and influence online platforms, posing threats to the integrity of digital interactions."
-        },
-        {
-          "heading": "Digital Integrity",
-          "body": "In an era where AI can generate convincing videos and posts, Alex Bonia's efforts are aimed at ensuring that digital platforms maintain a level of trust and reliability by distinguishing between real humans and AI."
-        }
-      ]
-    },
-    "net_worth": "$3.60B"
-  },
-  {
-    "id": 151,
-    "name": "Alex Rampell",
-    "slug": "alex-rampell",
-    "bio": "Alex Rampell is a venture capitalist and entrepreneur known for his investments in technology startups, particularly in the fields of fintech, bioinformatics, and AI. He is the co-founder and General Partner at Andreessen Horowitz (A16Z), where he focuses on shaping the future of technology through venture capital investments.",
-    "known_for": "His role in shaping the future of technology through venture capital investments in startups, particularly in fintech, bioinformatics, and AI.",
-    "net_worth_usd": null,
-    "net_worth_source": "",
-    "net_worth_updated_at": null,
-    "voice_tone": "Analytical and engaging",
-    "voice_style": "Asks probing questions to delve deeper into topics",
-    "voice_delivery_notes": "Speaks with conviction, emphasizing investment insights",
-    "voice_profile_updated_at": "2026-04-03 10:04:54",
-    "last_seen": "2026-04-03 10:04:54",
-    "last_episode_title": "Alex Blania on Proof of Human and Building World's Identity Network",
-    "last_podcast_name": "The a16z Show",
-    "last_episode_date": "2026-04-02",
-    "mention_score": 1,
-    "mention_score_decayed": 0.02,
-    "last_main_idea": "Investing in technologies that can verify human interactions online is becoming critical as AI-generated content proliferates, posing both challenges and opportunities for social media platforms and the broader digital economy.",
-    "last_proof_cite": "The a16z Show \u2022 2026-04-02 \u2022 Alex Blania on Proof of Human and Building World's Identity Network",
-    "last_proof_snippet": "Social media platforms are struggling to verify human users, leading to issues with content monetization and user authentication.",
-    "supporting_takeaway": "Social media platforms are struggling to verify human users, leading to issues with content monetization and user authentication.",
-    "grokipedia_url": null,
-    "grokipedia_fetched_at": "2026-07-30T12:08:48.218314",
-    "pundit_profile": {
-      "source": "llm",
-      "source_model": "moonshot:moonshot-v1-8k",
-      "source_url": "",
-      "page_title": "Alex Rampell",
-      "fetched_at": "2026-07-30T17:08:48.218241+00:00",
-      "cliff_notes": "Alex Rampell is a venture capitalist and entrepreneur who has made significant contributions to the technology industry through his investments in startups. As the co-founder and General Partner at Andreessen Horowitz (A16Z), Rampell focuses on fintech, bioinformatics, and AI, playing a crucial role in shaping the future of technology. His expertise and strategic investments have helped numerous startups grow and innovate, making him a key figure in the tech and venture capital landscape.",
-      "derived": {
-        "current_role": "Co-founder and General Partner at Andreessen Horowitz (A16Z)",
-        "education": "Stanford University; Harvard University"
-      },
-      "infobox": {
-        "Born": "",
-        "Nationality": ""
-      },
-      "lead_paragraphs": [
-        "Alex Rampell is a venture capitalist and entrepreneur who has made significant contributions to the technology industry through his investments in startups. As the co-founder and General Partner at Andreessen Horowitz (A16Z), Rampell focuses on fintech, bioinformatics, and AI, playing a crucial role in shaping the future of technology.",
-        "His expertise and strategic investments have helped numerous startups grow and innovate, making him a key figure in the tech and venture capital landscape."
-      ],
-      "sections": [
-        {
-          "heading": "Venture Capital Investments",
-          "body": "Alex Rampell is known for his strategic venture capital investments in technology startups, particularly in fintech, bioinformatics, and AI. His focus on these sectors has helped shape the future of technology and drive innovation."
-        },
-        {
-          "heading": "Fintech",
-          "body": "Rampell has been instrumental in investing in and supporting fintech startups, contributing to the growth and development of the financial technology sector."
-        },
-        {
-          "heading": "Bioinformatics",
-          "body": "In the field of bioinformatics, Rampell's investments have helped advance scientific research and technological breakthroughs, impacting healthcare and medicine."
-        },
-        {
-          "heading": "Artificial Intelligence",
-          "body": "As a venture capitalist, Rampell has played a significant role in funding AI startups, driving advancements in artificial intelligence and its applications across various industries."
-        }
-      ]
-    }
-  },
-  {
     "id": 43,
     "name": "Olivia Moore",
     "slug": "olivia-moore",
@@ -17668,6 +17544,130 @@
         {
           "heading": "AI Risks and Benefits",
           "body": "She highlights the concerns around AI, with 57% of American voters saying the risks of AI outweigh the benefits, indicating a need for careful consideration and management of AI's impact on society."
+        }
+      ]
+    }
+  },
+  {
+    "id": 150,
+    "name": "Alex Bonia",
+    "slug": "alex-bonia",
+    "bio": "Alex Bonia is the co-founder and CEO of World, a company focused on developing a 'proof of human layer' for the AI era. He is dedicated to building the largest real human network, addressing the challenges posed by AI in mimicking human behavior and interactions.",
+    "known_for": "Developing a 'proof of human layer' to distinguish real humans from AI in the digital age.",
+    "net_worth_usd": 3600000000.0,
+    "net_worth_source": "https://globalbizoutlook.com/top-30-ai-billionaires-in-the-world-2025-rankings-and-net-worth-revealed/",
+    "net_worth_updated_at": "2026-04-03T05:05:05.505205",
+    "voice_tone": "Inquisitive and informative",
+    "voice_style": "Explains complex concepts with clarity",
+    "voice_delivery_notes": "Paces well, with emphasis on key points",
+    "voice_profile_updated_at": "2026-04-03 10:04:54",
+    "last_seen": "2026-04-03 10:04:54",
+    "last_episode_title": "Alex Blania on Proof of Human and Building World's Identity Network",
+    "last_podcast_name": "The a16z Show",
+    "last_episode_date": "2026-04-02",
+    "mention_score": 1,
+    "mention_score_decayed": 0.01,
+    "last_main_idea": "Investing in technologies that can verify human interactions online is becoming critical as AI-generated content proliferates, posing both challenges and opportunities for social media platforms and the broader digital economy.",
+    "last_proof_cite": "The a16z Show \u2022 2026-04-02 \u2022 Alex Blania on Proof of Human and Building World's Identity Network",
+    "last_proof_snippet": "Social media platforms are struggling to verify human users, leading to issues with content monetization and user authentication.",
+    "supporting_takeaway": "Social media platforms are struggling to verify human users, leading to issues with content monetization and user authentication.",
+    "grokipedia_url": null,
+    "grokipedia_fetched_at": "2026-04-03T05:05:04.562022",
+    "pundit_profile": {
+      "source": "llm",
+      "source_model": "moonshot:moonshot-v1-8k",
+      "source_url": "",
+      "page_title": "Alex Bonia",
+      "fetched_at": "2026-04-03T10:05:04.561818+00:00",
+      "cliff_notes": "Alex Bonia is recognized for his work in the intersection of technology and human identity. As the co-founder and CEO of World, he is at the forefront of developing solutions to authenticate human users in a digital landscape increasingly populated by AI. His efforts are crucial in an era where AI's ability to mimic human behavior poses significant challenges to digital platforms that rely on the assumption of human users. Bonia's work is pivotal in maintaining the integrity of online interactions and safeguarding against the manipulations of AI.",
+      "derived": {
+        "current_role": "Co-founder and CEO at World"
+      },
+      "infobox": {
+        "Born": "",
+        "Nationality": ""
+      },
+      "lead_paragraphs": [
+        "Alex Bonia is recognized for his work in the intersection of technology and human identity. As the co-founder and CEO of World, he is at the forefront of developing solutions to authenticate human users in a digital landscape increasingly populated by AI. His efforts are crucial in an era where AI's ability to mimic human behavior poses significant challenges to digital platforms that rely on the assumption of human users.",
+        "Bonia's work is pivotal in maintaining the integrity of online interactions and safeguarding against the manipulations of AI."
+      ],
+      "sections": [
+        {
+          "heading": "Human Authentication",
+          "body": "Alex Bonia is leading the charge in creating a 'proof of human layer', a system designed to verify the authenticity of human users in digital spaces, which is becoming increasingly important as AI technology advances."
+        },
+        {
+          "heading": "AI and Social Media",
+          "body": "Bonia's work addresses the growing concern of AI-operated social media accounts, which can mimic human behavior and influence online platforms, posing threats to the integrity of digital interactions."
+        },
+        {
+          "heading": "Digital Integrity",
+          "body": "In an era where AI can generate convincing videos and posts, Alex Bonia's efforts are aimed at ensuring that digital platforms maintain a level of trust and reliability by distinguishing between real humans and AI."
+        }
+      ]
+    },
+    "net_worth": "$3.60B"
+  },
+  {
+    "id": 151,
+    "name": "Alex Rampell",
+    "slug": "alex-rampell",
+    "bio": "Alex Rampell is a venture capitalist and entrepreneur known for his investments in technology startups, particularly in the fields of fintech, bioinformatics, and AI. He is the co-founder and General Partner at Andreessen Horowitz (A16Z), where he focuses on shaping the future of technology through venture capital investments.",
+    "known_for": "His role in shaping the future of technology through venture capital investments in startups, particularly in fintech, bioinformatics, and AI.",
+    "net_worth_usd": null,
+    "net_worth_source": "",
+    "net_worth_updated_at": null,
+    "voice_tone": "Analytical and engaging",
+    "voice_style": "Asks probing questions to delve deeper into topics",
+    "voice_delivery_notes": "Speaks with conviction, emphasizing investment insights",
+    "voice_profile_updated_at": "2026-04-03 10:04:54",
+    "last_seen": "2026-04-03 10:04:54",
+    "last_episode_title": "Alex Blania on Proof of Human and Building World's Identity Network",
+    "last_podcast_name": "The a16z Show",
+    "last_episode_date": "2026-04-02",
+    "mention_score": 1,
+    "mention_score_decayed": 0.01,
+    "last_main_idea": "Investing in technologies that can verify human interactions online is becoming critical as AI-generated content proliferates, posing both challenges and opportunities for social media platforms and the broader digital economy.",
+    "last_proof_cite": "The a16z Show \u2022 2026-04-02 \u2022 Alex Blania on Proof of Human and Building World's Identity Network",
+    "last_proof_snippet": "Social media platforms are struggling to verify human users, leading to issues with content monetization and user authentication.",
+    "supporting_takeaway": "Social media platforms are struggling to verify human users, leading to issues with content monetization and user authentication.",
+    "grokipedia_url": null,
+    "grokipedia_fetched_at": "2026-07-30T12:08:48.218314",
+    "pundit_profile": {
+      "source": "llm",
+      "source_model": "moonshot:moonshot-v1-8k",
+      "source_url": "",
+      "page_title": "Alex Rampell",
+      "fetched_at": "2026-07-30T17:08:48.218241+00:00",
+      "cliff_notes": "Alex Rampell is a venture capitalist and entrepreneur who has made significant contributions to the technology industry through his investments in startups. As the co-founder and General Partner at Andreessen Horowitz (A16Z), Rampell focuses on fintech, bioinformatics, and AI, playing a crucial role in shaping the future of technology. His expertise and strategic investments have helped numerous startups grow and innovate, making him a key figure in the tech and venture capital landscape.",
+      "derived": {
+        "current_role": "Co-founder and General Partner at Andreessen Horowitz (A16Z)",
+        "education": "Stanford University; Harvard University"
+      },
+      "infobox": {
+        "Born": "",
+        "Nationality": ""
+      },
+      "lead_paragraphs": [
+        "Alex Rampell is a venture capitalist and entrepreneur who has made significant contributions to the technology industry through his investments in startups. As the co-founder and General Partner at Andreessen Horowitz (A16Z), Rampell focuses on fintech, bioinformatics, and AI, playing a crucial role in shaping the future of technology.",
+        "His expertise and strategic investments have helped numerous startups grow and innovate, making him a key figure in the tech and venture capital landscape."
+      ],
+      "sections": [
+        {
+          "heading": "Venture Capital Investments",
+          "body": "Alex Rampell is known for his strategic venture capital investments in technology startups, particularly in fintech, bioinformatics, and AI. His focus on these sectors has helped shape the future of technology and drive innovation."
+        },
+        {
+          "heading": "Fintech",
+          "body": "Rampell has been instrumental in investing in and supporting fintech startups, contributing to the growth and development of the financial technology sector."
+        },
+        {
+          "heading": "Bioinformatics",
+          "body": "In the field of bioinformatics, Rampell's investments have helped advance scientific research and technological breakthroughs, impacting healthcare and medicine."
+        },
+        {
+          "heading": "Artificial Intelligence",
+          "body": "As a venture capitalist, Rampell has played a significant role in funding AI startups, driving advancements in artificial intelligence and its applications across various industries."
         }
       ]
     }
