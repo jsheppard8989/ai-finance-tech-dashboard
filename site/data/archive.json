@@ -37,6 +37,41 @@
       ]
     },
     {
+      "id": 561,
+      "title": "Why AI Agents Can Beat the Incumbents",
+      "source_type": "podcast",
+      "source_name": "The a16z Show",
+      "source_date": "2026-10-02",
+      "summary": "Elena Berger hosts Seema Amble of a16z and Vlad Kyle, co-founder and CEO of Leo, to examine why AI-native application startups can still compete when incumbents already own distribution, customer trust, and systems of record. Seema argues that incumbent software plus a model is often limited to retrieval and workflow help inside one system, while AI-native companies can own end-to-end work that spans contracts, email, billing, finance, legal, and supplier conversations.\n\nVlad uses procurement as the example of work hidden outside the system of record. He says an ERP entry might show only an 8K aluminum price, while the real work involved 30 stakeholder meetings, 500 emails, 20 Excel sheets, and three weeks of cost engineering and 3D modeling. He also argues that invoice process automation covers only about 20% of the job, because the remaining 80% is exception handling such as fraud, mismatches, and non-happy-path cases.\n\nThe speakers do not have a major disagreement; instead, Seema frames the market structure and Vlad explains the operating mechanics. Vlad says enterprises do not begin with fully autonomous negotiation agents on day one, because trust has to be earned through human-in-the-loop deployment and feedback. Over time, he claims customers can allow agents to handle 10k, 20k, and 100k negotiations, while multimillion-dollar or billion-dollar strategic supplier negotiations still require expert humans and long-running agent support.\n\nThe episode predicts a future where agents operate on both buyer and supplier sides of transactions. Vlad argues that price is only the final output of roughly 5,000 upstream tasks, many of which have aligned incentives because both sales and procurement want less friction and faster time to market. He also claims procurement has unusual leverage in industrial Fortune 500 settings because buyers can dictate the tools and response formats suppliers use.",
+      "key_takeaway": "Seema Amble argues AI-native startups can beat incumbents by owning end-to-end work across emails, contracts, billing, and systems of record rather than adding retrieval agents to Salesforce-style workflows.",
+      "tickers_mentioned": [
+        "CRM",
+        "SAP",
+        "ORCL"
+      ],
+      "sentiment": "bullish",
+      "display_on_main": 1,
+      "display_order": 0,
+      "added_date": "2026-10-02",
+      "archived_date": null,
+      "archived_reason": null,
+      "podcast_episode_id": 546,
+      "notable_quotes": [
+        {
+          "speaker": "Seema Amble",
+          "quote": "The opportunity for the AI native startup is to say, we're going to own that entire end-to-end arc"
+        },
+        {
+          "speaker": "Vlad Kyle",
+          "quote": "No company and no enterprise starts with fully autonomous negotiation agents from day one."
+        },
+        {
+          "speaker": "Vlad Kyle",
+          "quote": "90% of the work is preparation."
+        }
+      ]
+    },
+    {
       "id": 556,
       "title": "Si Sheppard \u2013 How did a few hundred Spanish soldiers topple two empires?",
       "source_type": "podcast",
@@ -357,7 +392,7 @@
         "NVDA"
       ],
       "sentiment": "neutral",
-      "display_on_main": 1,
+      "display_on_main": 0,
       "display_order": 0,
       "added_date": "2026-09-29",
       "archived_date": null,
@@ -11723,7 +11758,7 @@
       "description": "An operational framework where AI systems handle repetitive tasks in cascading scopes, from individual personal workflows up to large parts of an entire company, freeing humans for strategic and intuitive work.",
       "first_detected_date": "2026-09-12",
       "last_mentioned_date": "2026-10-02",
-      "mention_count": 12,
+      "mention_count": 13,
       "source_podcasts": null,
       "status": "active",
       "investment_implications": "Companies architected around loops may achieve superior capital efficiency and scalability by compressing operational overhead into automated cycles.",
@@ -11732,8 +11767,8 @@
       "archived_reason": null,
       "first_detected_episode_id": 473,
       "first_detected_speaker": null,
-      "last_mentioned_episode_id": 545,
-      "last_mentioned_speaker": "Alex Zhang"
+      "last_mentioned_episode_id": 546,
+      "last_mentioned_speaker": "Seema Amble, Vlad Kyle"
     },
     {
       "id": 284,
@@ -13862,20 +13897,20 @@
     {
       "id": 114,
       "term": "AI Agents",
-      "description": "AI Agents are software products that use language models and browser automation to perform tasks such as searching websites, managing email, or booking services. Zitron discussed Muse, Instinct, and Dot as examples with unclear revenue models and high infrastructure costs.",
+      "description": "Software systems that retrieve information, execute processes, apply policy judgment, or act as principal decision-makers in enterprise workflows.",
       "first_detected_date": "2026-02-28",
-      "last_mentioned_date": "2026-10-01",
-      "mention_count": 108,
+      "last_mentioned_date": "2026-10-02",
+      "mention_count": 109,
       "source_podcasts": null,
       "status": "active",
-      "investment_implications": "It matters because agent adoption is being used to justify AI demand, but the episode questioned whether usage translates into cash flow.",
+      "investment_implications": "The episode frames AI agents as the application layer that can shift value away from incumbent systems of record toward end-to-end workflow owners.",
       "display_on_main": 0,
       "archived_date": null,
       "archived_reason": null,
       "first_detected_episode_id": 31,
       "first_detected_speaker": null,
-      "last_mentioned_episode_id": 544,
-      "last_mentioned_speaker": "Ed Zitron"
+      "last_mentioned_episode_id": 546,
+      "last_mentioned_speaker": "Seema Amble, Vlad Kyle"
     },
     {
       "id": 38,
@@ -14024,20 +14059,20 @@
     {
       "id": 32,
       "term": "AI Agent Orchestration",
-      "description": "The design of systems that coordinate multiple agents or subagents through shared context, file systems, message boards, or root-worker structures. In the episode, this included OpenAI swarms, Kimi swarms, RLM subagents, and Prime Agent's communication design.",
+      "description": "A multi-agent system in which specialized agents share information and execute tasks in a specific order across departments, documents, and software tools.",
       "first_detected_date": "2026-02-18",
       "last_mentioned_date": "2026-10-02",
-      "mention_count": 10,
+      "mention_count": 11,
       "source_podcasts": null,
       "status": "active",
-      "investment_implications": "The orchestration layer can become a distinct value capture point if better coordination, rather than only larger models, drives problem-solving efficiency.",
+      "investment_implications": "Orchestration matters because complex enterprise work often spans eight stakeholders, three departments, and five software tools rather than one database.",
       "display_on_main": 0,
       "archived_date": null,
       "archived_reason": null,
       "first_detected_episode_id": 69,
       "first_detected_speaker": null,
-      "last_mentioned_episode_id": 545,
-      "last_mentioned_speaker": "Alex Zhang"
+      "last_mentioned_episode_id": 546,
+      "last_mentioned_speaker": "Seema Amble, Vlad Kyle"
     },
     {
       "id": 13,

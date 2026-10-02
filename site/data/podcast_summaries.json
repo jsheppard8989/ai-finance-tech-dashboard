@@ -1,5 +1,23 @@
 [
   {
+    "id": 546,
+    "podcast_name": "The a16z Show",
+    "episode_title": "Why AI Agents Can Beat the Incumbents",
+    "episode_date": "2026-10-02",
+    "summary": "Elena Berger hosts Seema Amble of a16z and Vlad Kyle, co-founder and CEO of Leo, to examine why AI-native application startups can still compete when incumbents already own distribution, customer trust, and systems of record. Seema argues that incumbent software plus a model is often limited to retrieval and workflow help inside one system, while AI-native companies can own end-to-end work that spans contracts, email, billing, finance, legal, and supplier conversations.\n\nVlad uses procurement as the example of work hidden outside the system of record. He says an ERP entry might show only an 8K aluminum price, while the real work involved 30 stakeholder meetings, 500 emails, 20 Excel sheets, and three weeks of cost engineering and 3D modeling. He also argues that invoice process automation covers only about 20% of the job, because the remaining 80% is exception handling such as fraud, mismatches, and non-happy-path cases.\n\nThe speakers do not have a major disagreement; instead, Seema frames the market structure and Vlad explains the operating mechanics. Vlad says enterprises do not begin with fully autonomous negotiation agents on day one, because trust has to be earned through human-in-the-loop deployment and feedback. Over time, he claims customers can allow agents to handle 10k, 20k, and 100k negotiations, while multimillion-dollar or billion-dollar strategic supplier negotiations still require expert humans and long-running agent support.\n\nThe episode predicts a future where agents operate on both buyer and supplier sides of transactions. Vlad argues that price is only the final output of roughly 5,000 upstream tasks, many of which have aligned incentives because both sales and procurement want less friction and faster time to market. He also claims procurement has unusual leverage in industrial Fortune 500 settings because buyers can dictate the tools and response formats suppliers use.",
+    "key_takeaways": [
+      "Seema Amble argues that AI-native startups can beat incumbents by owning end-to-end work across billing, contracts, chat history, and other systems rather than staying inside a single Salesforce-style system of record.",
+      "Vlad Kyle claims a procurement record showing an 8K aluminum price can hide 30 stakeholder meetings, 500 emails, 20 Excel sheets, and three weeks of cost engineering and 3D modeling.",
+      "Vlad Kyle argues that invoice process agents cover only about 20% of the job because the other 80% is exception handling such as fraud, mismatches, and non-happy-path workflows.",
+      "Vlad Kyle says enterprises move from human-in-the-loop deployments to trusting Leo agents for 10k, 20k, and 100k negotiations after feedback from procurement teams trains the agent on company-specific behavior.",
+      "Vlad Kyle claims many enterprises historically ignored spend below 50k because procurement lacked capacity, while agents can negotiate those transactions and capture savings that were previously missed.",
+      "Seema Amble argues that durable vertical AI companies depend on customer reliance created by doing more of the work, such as a sales AI agent owning prep, outbound, and inbound rather than a CRM merely logging deals.",
+      "Vlad Kyle predicts agents will operate on both buyer and supplier sides because procurement can dictate supplier workflows and roughly 5,000 non-price tasks have aligned incentives around lower friction and faster time to market."
+    ],
+    "investment_thesis": "Seema Amble argues AI-native startups can beat incumbents by owning end-to-end work across emails, contracts, billing, and systems of record rather than adding retrieval agents to Salesforce-style workflows.",
+    "key_tickers": null
+  },
+  {
     "id": 545,
     "podcast_name": "Latent Space: The AI Engineer Podcast",
     "episode_title": "Academia is for Ambition \u2014 Alex Zhang, MIT",
