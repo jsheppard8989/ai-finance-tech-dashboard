@@ -3,1085 +3,1085 @@
 
 const dashboardData = {
   schemaVersion: 2,
-  generatedAt: "2026-10-02T05:10:34.426234",
-  chartsVersion: "2026-10-02T05:10:17.515434",
+  generatedAt: "2026-10-02T06:44:12.919306",
+  chartsVersion: "2026-10-02T06:44:04.232845",
   priceSnapshot: {
   "AAPL": {
     "price": 330.32,
     "change_pct": -0.83,
     "name": "Apple Inc.",
-    "updated_at": "2026-10-02T05:09:01.921400",
+    "updated_at": "2026-10-02T06:43:02.469980",
     "price_14d_ago": 333.08
   },
   "AEP": {
     "price": 119.75,
     "change_pct": -2.03,
     "name": "American Electric Power Company",
-    "updated_at": "2026-10-02T05:09:02.156290",
+    "updated_at": "2026-10-02T06:43:02.689711",
     "price_14d_ago": 122.23
   },
   "AMD": {
     "price": 615.73,
     "change_pct": 24.79,
     "name": "Advanced Micro Devices, Inc.",
-    "updated_at": "2026-10-02T05:09:02.331380",
+    "updated_at": "2026-10-02T06:43:02.854143",
     "price_14d_ago": 493.41
   },
   "AMGN": {
     "price": 407.27,
     "change_pct": 6.75,
     "name": "Amgen Inc.",
-    "updated_at": "2026-10-02T05:09:02.526794",
+    "updated_at": "2026-10-02T06:43:03.034822",
     "price_14d_ago": 381.5
   },
   "AMZN": {
     "price": 248.23,
     "change_pct": -2.09,
     "name": "Amazon.com, Inc.",
-    "updated_at": "2026-10-02T05:09:02.701011",
+    "updated_at": "2026-10-02T06:43:03.196314",
     "price_14d_ago": 253.54
   },
   "APO": {
     "price": 114.34,
     "change_pct": -10.89,
     "name": "Apollo Global Management, Inc. ",
-    "updated_at": "2026-10-02T05:09:02.885570",
+    "updated_at": "2026-10-02T06:43:03.368847",
     "price_14d_ago": 128.31
   },
   "APTV": {
     "price": 43.97,
     "change_pct": -1.83,
     "name": "Aptiv PLC",
-    "updated_at": "2026-10-02T05:09:03.071641",
+    "updated_at": "2026-10-02T06:43:03.541140",
     "price_14d_ago": 44.79
   },
   "AVGO": {
     "price": 343.64,
     "change_pct": -0.31,
     "name": "Broadcom Inc.",
-    "updated_at": "2026-10-02T05:09:03.452736",
+    "updated_at": "2026-10-02T06:43:03.904542",
     "price_14d_ago": 344.72
   },
   "BA": {
     "price": 192.28,
     "change_pct": -8.56,
     "name": "Boeing Company (The)",
-    "updated_at": "2026-10-02T05:09:03.851446",
+    "updated_at": "2026-10-02T06:43:04.276012",
     "price_14d_ago": 210.27
   },
   "BABA": {
     "price": 107.45,
     "change_pct": -1.63,
     "name": "Alibaba Group Holding Limited",
-    "updated_at": "2026-10-02T05:09:04.028863",
+    "updated_at": "2026-10-02T06:43:04.446051",
     "price_14d_ago": 109.23
   },
   "BAC": {
     "price": 53.73,
     "change_pct": -9.65,
     "name": "Bank of America Corporation",
-    "updated_at": "2026-10-02T05:09:04.233657",
+    "updated_at": "2026-10-02T06:43:04.637557",
     "price_14d_ago": 59.47
   },
   "BAM": {
     "price": 44.56,
     "change_pct": -4.44,
     "name": "Brookfield Asset Management Inc",
-    "updated_at": "2026-10-02T05:09:04.411776",
+    "updated_at": "2026-10-02T06:43:04.800810",
     "price_14d_ago": 46.63
   },
   "BIDU": {
     "price": 85.59,
     "change_pct": -6.87,
     "name": "Baidu, Inc.",
-    "updated_at": "2026-10-02T05:09:04.834271",
+    "updated_at": "2026-10-02T06:43:05.128090",
     "price_14d_ago": 91.9
   },
   "BP": {
     "price": 44.5,
     "change_pct": -3.11,
     "name": "BP p.l.c.",
-    "updated_at": "2026-10-02T05:09:05.302702",
+    "updated_at": "2026-10-02T06:43:05.511476",
     "price_14d_ago": 45.93
   },
   "BTC": {
-    "price": 86410.46,
-    "change_pct": 6.37,
+    "price": 86488.99,
+    "change_pct": 6.47,
     "name": "Bitcoin USD",
-    "updated_at": "2026-10-02T05:09:05.475827",
+    "updated_at": "2026-10-02T06:43:05.683189",
     "price_14d_ago": 81233.68
   },
   "BTC-USD": {
-    "price": 86410.46,
-    "change_pct": 6.37,
+    "price": 86488.99,
+    "change_pct": 6.47,
     "name": "Bitcoin USD",
-    "updated_at": "2026-10-02T05:09:05.652315",
+    "updated_at": "2026-10-02T06:43:05.846815",
     "price_14d_ago": 81233.68
   },
   "BX": {
     "price": 112.24,
     "change_pct": -12.51,
     "name": "Blackstone Inc.",
-    "updated_at": "2026-10-02T05:09:05.849727",
+    "updated_at": "2026-10-02T06:43:06.031768",
     "price_14d_ago": 128.29
   },
   "BYD": {
     "price": 66.07,
     "change_pct": -14.36,
     "name": "Boyd Gaming Corporation",
-    "updated_at": "2026-10-02T05:09:06.046759",
+    "updated_at": "2026-10-02T06:43:06.222878",
     "price_14d_ago": 77.15
   },
   "CAT": {
     "price": 826.35,
     "change_pct": 5.4,
     "name": "Caterpillar, Inc.",
-    "updated_at": "2026-10-02T05:09:06.488248",
+    "updated_at": "2026-10-02T06:43:06.615228",
     "price_14d_ago": 784.0
   },
   "CCJ": {
     "price": 85.69,
     "change_pct": -8.12,
     "name": "Cameco Corporation",
-    "updated_at": "2026-10-02T05:09:06.687418",
+    "updated_at": "2026-10-02T06:43:06.881238",
     "price_14d_ago": 93.26
   },
   "CEG": {
     "price": 258.92,
     "change_pct": -2.14,
     "name": "Constellation Energy Corporatio",
-    "updated_at": "2026-10-02T05:09:06.878360",
+    "updated_at": "2026-10-02T06:43:07.060343",
     "price_14d_ago": 264.57
   },
   "COIN": {
     "price": 189.29,
     "change_pct": -1.13,
     "name": "Coinbase Global, Inc.",
-    "updated_at": "2026-10-02T05:09:07.048971",
+    "updated_at": "2026-10-02T06:43:07.223461",
     "price_14d_ago": 191.45
   },
   "COPPER": {
-    "price": 6.56,
-    "change_pct": 2.96,
+    "price": 6.57,
+    "change_pct": 3.12,
     "name": "Copper",
-    "updated_at": "2026-10-02T05:09:07.234288",
+    "updated_at": "2026-10-02T06:43:07.452749",
     "price_14d_ago": 6.37
   },
   "CORN": {
     "price": 18.98,
     "change_pct": -5.19,
     "name": "Teucrium Corn Fund ETV",
-    "updated_at": "2026-10-02T05:09:07.476590",
+    "updated_at": "2026-10-02T06:43:07.615042",
     "price_14d_ago": 20.02
   },
   "CRM": {
     "price": 236.69,
     "change_pct": -8.77,
     "name": "Salesforce, Inc.",
-    "updated_at": "2026-10-02T05:09:07.713732",
+    "updated_at": "2026-10-02T06:43:07.783312",
     "price_14d_ago": 259.43
   },
   "CROWD": {
     "price": 266.09,
     "change_pct": 13.05,
     "name": "CrowdStrike Holdings, Inc.",
-    "updated_at": "2026-10-02T05:09:07.890081",
+    "updated_at": "2026-10-02T06:43:07.943672",
     "price_14d_ago": 235.38
   },
   "DBC": {
     "price": 32.75,
     "change_pct": -1.21,
     "name": "Invesco DB Commodity Index Trac",
-    "updated_at": "2026-10-02T05:09:08.422073",
+    "updated_at": "2026-10-02T06:43:08.441299",
     "price_14d_ago": 33.15
   },
   "DELL": {
     "price": 541.74,
     "change_pct": 1.4,
     "name": "Dell Technologies Inc.",
-    "updated_at": "2026-10-02T05:09:08.604361",
+    "updated_at": "2026-10-02T06:43:08.610232",
     "price_14d_ago": 534.28
   },
   "DIS": {
     "price": 101.33,
     "change_pct": -6.69,
     "name": "Walt Disney Company (The)",
-    "updated_at": "2026-10-02T05:09:08.823734",
+    "updated_at": "2026-10-02T06:43:08.822386",
     "price_14d_ago": 108.59
   },
   "DOCS": {
     "price": 28.5,
     "change_pct": 8.0,
     "name": "Doximity, Inc.",
-    "updated_at": "2026-10-02T05:09:09.001634",
+    "updated_at": "2026-10-02T06:43:08.988963",
     "price_14d_ago": 26.39
   },
   "DVN": {
     "price": 47.16,
     "change_pct": -5.17,
     "name": "Devon Energy Corporation",
-    "updated_at": "2026-10-02T05:09:09.203740",
+    "updated_at": "2026-10-02T06:43:09.181013",
     "price_14d_ago": 49.73
   },
   "EBAY": {
     "price": 105.89,
     "change_pct": -2.84,
     "name": "eBay Inc.",
-    "updated_at": "2026-10-02T05:09:09.383228",
+    "updated_at": "2026-10-02T06:43:09.354238",
     "price_14d_ago": 108.99
   },
   "ETH-USD": {
-    "price": 2748.93,
-    "change_pct": 4.44,
+    "price": 2749.12,
+    "change_pct": 4.45,
     "name": "Ethereum USD",
-    "updated_at": "2026-10-02T05:09:09.556694",
+    "updated_at": "2026-10-02T06:43:09.517800",
     "price_14d_ago": 2631.96
   },
   "F": {
     "price": 12.27,
     "change_pct": -11.47,
     "name": "Ford Motor Company",
-    "updated_at": "2026-10-02T05:09:09.770523",
+    "updated_at": "2026-10-02T06:43:09.817455",
     "price_14d_ago": 13.86
   },
   "FB": {
     "price": 45.5,
     "change_pct": 0.23,
     "name": "ProShares S&P 500 Dynamic Buffe",
-    "updated_at": "2026-10-02T05:09:09.944575",
+    "updated_at": "2026-10-02T06:43:10.002205",
     "price_14d_ago": 45.4
   },
   "FCX": {
     "price": 69.28,
     "change_pct": -0.09,
     "name": "Freeport-McMoRan, Inc.",
-    "updated_at": "2026-10-02T05:09:10.145601",
+    "updated_at": "2026-10-02T06:43:10.189055",
     "price_14d_ago": 69.34
   },
   "FSK": {
     "price": 11.11,
     "change_pct": -7.65,
     "name": "FS KKR Capital Corp.",
-    "updated_at": "2026-10-02T05:09:10.671800",
+    "updated_at": "2026-10-02T06:43:10.685510",
     "price_14d_ago": 12.03
   },
   "GC": {
     "price": 0,
     "change_pct": 0,
     "name": "Gold",
-    "updated_at": "2026-10-02T05:09:10.843017",
+    "updated_at": "2026-10-02T06:43:10.845590",
     "price_14d_ago": null
   },
   "GD": {
     "price": 332.72,
     "change_pct": -6.75,
     "name": "General Dynamics Corporation",
-    "updated_at": "2026-10-02T05:09:11.062278",
+    "updated_at": "2026-10-02T06:43:11.066051",
     "price_14d_ago": 356.81
   },
   "GE": {
     "price": 312.39,
     "change_pct": -1.63,
     "name": "GE Aerospace",
-    "updated_at": "2026-10-02T05:09:11.292351",
+    "updated_at": "2026-10-02T06:43:11.282178",
     "price_14d_ago": 317.56
   },
   "GLD": {
     "price": 382.76,
     "change_pct": -2.57,
     "name": "SPDR Gold Shares",
-    "updated_at": "2026-10-02T05:09:11.470616",
+    "updated_at": "2026-10-02T06:43:11.500835",
     "price_14d_ago": 392.84
   },
   "GME": {
     "price": 24.11,
     "change_pct": 11.52,
     "name": "GameStop Corporation",
-    "updated_at": "2026-10-02T05:09:11.653880",
+    "updated_at": "2026-10-02T06:43:11.670802",
     "price_14d_ago": 21.62
   },
   "GOLD": {
-    "price": 4215.1,
-    "change_pct": -2.72,
+    "price": 4211.0,
+    "change_pct": -2.81,
     "name": "Gold",
-    "updated_at": "2026-10-02T05:09:11.828842",
+    "updated_at": "2026-10-02T06:43:11.899244",
     "price_14d_ago": 4332.8
   },
   "GOOG": {
     "price": 334.93,
     "change_pct": -3.12,
     "name": "Alphabet Inc.",
-    "updated_at": "2026-10-02T05:09:12.008556",
+    "updated_at": "2026-10-02T06:43:12.064555",
     "price_14d_ago": 345.71
   },
   "GOOGL": {
     "price": 338.24,
     "change_pct": -3.19,
     "name": "Alphabet Inc.",
-    "updated_at": "2026-10-02T05:09:12.185909",
+    "updated_at": "2026-10-02T06:43:12.293960",
     "price_14d_ago": 349.39
   },
   "GS": {
     "price": 896.67,
     "change_pct": -9.29,
     "name": "Goldman Sachs Group, Inc. (The)",
-    "updated_at": "2026-10-02T05:09:12.381483",
+    "updated_at": "2026-10-02T06:43:12.479418",
     "price_14d_ago": 988.45
   },
   "Gold": {
     "price": 42.09,
     "change_pct": -11.05,
     "name": "Gold.com, Inc.",
-    "updated_at": "2026-10-02T05:09:12.573512",
+    "updated_at": "2026-10-02T06:43:12.654458",
     "price_14d_ago": 47.32
   },
   "HFGM": {
     "price": 31.51,
     "change_pct": -0.28,
     "name": "Unlimited HFGM Global Macro ETF",
-    "updated_at": "2026-10-02T05:09:12.757160",
+    "updated_at": "2026-10-02T06:43:12.820339",
     "price_14d_ago": 31.59
   },
   "HG": {
     "price": 33.75,
     "change_pct": -3.49,
     "name": "Hamilton Insurance Group, Ltd.",
-    "updated_at": "2026-10-02T05:09:12.929539",
+    "updated_at": "2026-10-02T06:43:12.983558",
     "price_14d_ago": 34.97
   },
   "IBM": {
     "price": 225.62,
     "change_pct": -9.42,
     "name": "International Business Machines",
-    "updated_at": "2026-10-02T05:09:13.502379",
+    "updated_at": "2026-10-02T06:43:13.518677",
     "price_14d_ago": 249.09
   },
   "IEF": {
     "price": 89.3,
     "change_pct": -1.79,
     "name": "iShares 7-10 Year Treasury Bond",
-    "updated_at": "2026-10-02T05:09:13.701480",
+    "updated_at": "2026-10-02T06:43:13.705882",
     "price_14d_ago": 90.93
   },
   "INDA": {
     "price": 46.36,
     "change_pct": -4.27,
     "name": "Ishares MSCI India ETF",
-    "updated_at": "2026-10-02T05:09:13.892618",
+    "updated_at": "2026-10-02T06:43:13.884818",
     "price_14d_ago": 48.43
   },
   "INFY": {
     "price": 11.35,
     "change_pct": -2.16,
     "name": "Infosys Limited",
-    "updated_at": "2026-10-02T05:09:14.086496",
+    "updated_at": "2026-10-02T06:43:14.071579",
     "price_14d_ago": 11.6
   },
   "INTC": {
     "price": 120.0,
     "change_pct": 23.47,
     "name": "Intel Corporation",
-    "updated_at": "2026-10-02T05:09:14.288559",
+    "updated_at": "2026-10-02T06:43:14.268751",
     "price_14d_ago": 97.19
   },
   "IWD": {
     "price": 248.24,
     "change_pct": -2.79,
     "name": "iShares Russell 1000 Value ETF",
-    "updated_at": "2026-10-02T05:09:14.483838",
+    "updated_at": "2026-10-02T06:43:14.455575",
     "price_14d_ago": 255.37
   },
   "IWF": {
     "price": 125.73,
     "change_pct": 3.69,
     "name": "iShares Russell 1000 Growth Fun",
-    "updated_at": "2026-10-02T05:09:14.675811",
+    "updated_at": "2026-10-02T06:43:14.642994",
     "price_14d_ago": 121.26
   },
   "IWM": {
     "price": 279.02,
     "change_pct": -3.09,
     "name": "iShares Russell 2000 Index Fund",
-    "updated_at": "2026-10-02T05:09:14.866287",
+    "updated_at": "2026-10-02T06:43:14.838093",
     "price_14d_ago": 287.91
   },
   "JNJ": {
     "price": 258.66,
     "change_pct": -2.88,
     "name": "Johnson & Johnson",
-    "updated_at": "2026-10-02T05:09:15.105375",
+    "updated_at": "2026-10-02T06:43:15.065080",
     "price_14d_ago": 266.32
   },
   "JPM": {
     "price": 333.18,
     "change_pct": -4.84,
     "name": "JP Morgan Chase & Co.",
-    "updated_at": "2026-10-02T05:09:15.314602",
+    "updated_at": "2026-10-02T06:43:15.277675",
     "price_14d_ago": 350.13
   },
   "KKR": {
     "price": 91.24,
     "change_pct": -10.79,
     "name": "KKR & Co. Inc.",
-    "updated_at": "2026-10-02T05:09:15.502257",
+    "updated_at": "2026-10-02T06:43:15.477075",
     "price_14d_ago": 102.27
   },
   "LLY": {
     "price": 1149.85,
     "change_pct": 1.02,
     "name": "Eli Lilly and Company",
-    "updated_at": "2026-10-02T05:09:15.900008",
+    "updated_at": "2026-10-02T06:43:15.859681",
     "price_14d_ago": 1138.28
   },
   "LMT": {
     "price": 505.5,
     "change_pct": -4.51,
     "name": "Lockheed Martin Corporation",
-    "updated_at": "2026-10-02T05:09:16.137679",
+    "updated_at": "2026-10-02T06:43:16.083775",
     "price_14d_ago": 529.38
   },
   "LYFT": {
     "price": 15.21,
     "change_pct": -4.34,
     "name": "Lyft, Inc.",
-    "updated_at": "2026-10-02T05:09:16.661162",
+    "updated_at": "2026-10-02T06:43:16.582268",
     "price_14d_ago": 15.9
   },
   "META": {
     "price": 725.93,
     "change_pct": 9.06,
     "name": "Meta Platforms, Inc.",
-    "updated_at": "2026-10-02T05:09:16.862991",
+    "updated_at": "2026-10-02T06:43:16.757010",
     "price_14d_ago": 665.6
   },
   "MGM": {
     "price": 30.47,
     "change_pct": -23.5,
     "name": "MGM Resorts International",
-    "updated_at": "2026-10-02T05:09:17.056138",
+    "updated_at": "2026-10-02T06:43:16.959288",
     "price_14d_ago": 39.83
   },
   "MINE": {
     "price": 2.73,
     "change_pct": -7.14,
     "name": "Mayfair Gold Corp.",
-    "updated_at": "2026-10-02T05:09:17.232006",
+    "updated_at": "2026-10-02T06:43:17.123688",
     "price_14d_ago": 2.94
   },
   "MRK": {
     "price": 143.81,
     "change_pct": -0.72,
     "name": "Merck & Company, Inc.",
-    "updated_at": "2026-10-02T05:09:17.459715",
+    "updated_at": "2026-10-02T06:43:17.336742",
     "price_14d_ago": 144.85
   },
   "MRNA": {
     "price": 188.94,
     "change_pct": 28.8,
     "name": "Moderna, Inc.",
-    "updated_at": "2026-10-02T05:09:17.634538",
+    "updated_at": "2026-10-02T06:43:17.500363",
     "price_14d_ago": 146.69
   },
   "MS": {
     "price": 188.01,
     "change_pct": -8.99,
     "name": "Morgan Stanley",
-    "updated_at": "2026-10-02T05:09:17.830407",
+    "updated_at": "2026-10-02T06:43:17.688978",
     "price_14d_ago": 206.58
   },
   "MSFT": {
     "price": 512.8,
     "change_pct": 1.46,
     "name": "Microsoft Corporation",
-    "updated_at": "2026-10-02T05:09:18.024662",
+    "updated_at": "2026-10-02T06:43:17.885997",
     "price_14d_ago": 505.41
   },
   "MSTR": {
     "price": 160.5,
     "change_pct": 17.2,
     "name": "Strategy Inc",
-    "updated_at": "2026-10-02T05:09:18.206409",
+    "updated_at": "2026-10-02T06:43:18.051882",
     "price_14d_ago": 136.94
   },
   "MU": {
     "price": 1097.39,
     "change_pct": 18.76,
     "name": "Micron Technology, Inc.",
-    "updated_at": "2026-10-02T05:09:18.393561",
+    "updated_at": "2026-10-02T06:43:18.285253",
     "price_14d_ago": 924.03
   },
   "NEE": {
     "price": 76.35,
     "change_pct": -6.47,
     "name": "NextEra Energy, Inc.",
-    "updated_at": "2026-10-02T05:09:18.885131",
+    "updated_at": "2026-10-02T06:43:18.655553",
     "price_14d_ago": 81.63
   },
   "NFLX": {
     "price": 67.85,
     "change_pct": -15.53,
     "name": "Netflix, Inc.",
-    "updated_at": "2026-10-02T05:09:19.070335",
+    "updated_at": "2026-10-02T06:43:18.846932",
     "price_14d_ago": 80.32
   },
   "NKE": {
     "price": 35.15,
     "change_pct": -5.13,
     "name": "Nike, Inc.",
-    "updated_at": "2026-10-02T05:09:19.617249",
+    "updated_at": "2026-10-02T06:43:19.441639",
     "price_14d_ago": 37.05
   },
   "NOC": {
     "price": 482.0,
     "change_pct": -8.61,
     "name": "Northrop Grumman Corporation",
-    "updated_at": "2026-10-02T05:09:19.820833",
+    "updated_at": "2026-10-02T06:43:19.642451",
     "price_14d_ago": 527.39
   },
   "NVDA": {
     "price": 230.86,
     "change_pct": 9.43,
     "name": "NVIDIA Corporation",
-    "updated_at": "2026-10-02T05:09:20.005383",
+    "updated_at": "2026-10-02T06:43:19.816389",
     "price_14d_ago": 210.96
   },
   "NVS": {
     "price": 141.05,
     "change_pct": 1.48,
     "name": "Novartis AG",
-    "updated_at": "2026-10-02T05:09:20.378915",
+    "updated_at": "2026-10-02T06:43:20.178824",
     "price_14d_ago": 138.99
   },
   "Nasdaq": {
     "price": 742.03,
     "change_pct": 4.63,
     "name": "Invesco QQQ Trust, Series 1",
-    "updated_at": "2026-10-02T05:09:20.573742",
+    "updated_at": "2026-10-02T06:43:20.363448",
     "price_14d_ago": 709.18
   },
   "OKLO": {
     "price": 36.14,
     "change_pct": -0.19,
     "name": "Oklo Inc.",
-    "updated_at": "2026-10-02T05:09:20.913171",
+    "updated_at": "2026-10-02T06:43:20.716281",
     "price_14d_ago": 36.21
   },
   "ORCL": {
     "price": 138.07,
     "change_pct": -4.64,
     "name": "Oracle Corporation",
-    "updated_at": "2026-10-02T05:09:21.272534",
+    "updated_at": "2026-10-02T06:43:21.170714",
     "price_14d_ago": 144.79
   },
   "PALL": {
     "price": 21.47,
     "change_pct": -7.58,
     "name": "abrdn Physical Palladium Shares",
-    "updated_at": "2026-10-02T05:09:21.446045",
+    "updated_at": "2026-10-02T06:43:21.338679",
     "price_14d_ago": 23.23
   },
   "PANW": {
     "price": 396.25,
     "change_pct": 5.97,
     "name": "Palo Alto Networks, Inc.",
-    "updated_at": "2026-10-02T05:09:21.617661",
+    "updated_at": "2026-10-02T06:43:21.741286",
     "price_14d_ago": 373.94
   },
   "PBR": {
     "price": 20.98,
     "change_pct": -0.8,
     "name": "Petroleo Brasileiro S.A. Petrob",
-    "updated_at": "2026-10-02T05:09:21.820588",
+    "updated_at": "2026-10-02T06:43:21.936410",
     "price_14d_ago": 21.15
   },
   "PFE": {
     "price": 28.12,
     "change_pct": 1.44,
     "name": "Pfizer, Inc.",
-    "updated_at": "2026-10-02T05:09:22.218448",
+    "updated_at": "2026-10-02T06:43:22.328969",
     "price_14d_ago": 27.72
   },
   "PLTM": {
     "price": 16.44,
     "change_pct": -2.43,
     "name": "GraniteShares Platinum Shares E",
-    "updated_at": "2026-10-02T05:09:22.393391",
+    "updated_at": "2026-10-02T06:43:22.496266",
     "price_14d_ago": 16.85
   },
   "PLTR": {
     "price": 190.04,
     "change_pct": 9.65,
     "name": "Palantir Technologies Inc.",
-    "updated_at": "2026-10-02T05:09:22.568009",
+    "updated_at": "2026-10-02T06:43:22.679787",
     "price_14d_ago": 173.31
   },
   "PQT": {
     "price": 0,
     "change_pct": 0,
     "name": "PQT",
-    "updated_at": "2026-10-02T05:09:22.907820",
+    "updated_at": "2026-10-02T06:43:23.007652",
     "price_14d_ago": null
   },
   "PQUS": {
     "price": 28.58,
     "change_pct": 0.95,
     "name": "Pictet AI Enhanced US Equity ET",
-    "updated_at": "2026-10-02T05:09:23.079786",
+    "updated_at": "2026-10-02T06:43:23.174648",
     "price_14d_ago": 28.31
   },
   "PSBD": {
     "price": 9.87,
     "change_pct": -3.52,
     "name": "Palmer Square Capital BDC Inc.",
-    "updated_at": "2026-10-02T05:09:23.319003",
+    "updated_at": "2026-10-02T06:43:23.343124",
     "price_14d_ago": 10.23
   },
   "PYPL": {
     "price": 53.06,
     "change_pct": -1.8,
     "name": "PayPal Holdings, Inc.",
-    "updated_at": "2026-10-02T05:09:23.507195",
+    "updated_at": "2026-10-02T06:43:23.512777",
     "price_14d_ago": 54.03
   },
   "QQQ": {
     "price": 742.03,
     "change_pct": 4.63,
     "name": "Invesco QQQ Trust, Series 1",
-    "updated_at": "2026-10-02T05:09:23.697228",
+    "updated_at": "2026-10-02T06:43:23.692716",
     "price_14d_ago": 709.18
   },
   "QTA": {
     "price": 0,
     "change_pct": 0,
     "name": "QTA",
-    "updated_at": "2026-10-02T05:09:23.868804",
+    "updated_at": "2026-10-02T06:43:23.859739",
     "price_14d_ago": null
   },
   "RBLX": {
     "price": 43.0,
     "change_pct": -16.16,
     "name": "Roblox Corporation",
-    "updated_at": "2026-10-02T05:09:24.043963",
+    "updated_at": "2026-10-02T06:43:24.024417",
     "price_14d_ago": 51.29
   },
   "RKLB": {
     "price": 70.46,
     "change_pct": 12.65,
     "name": "Rocket Lab Corporation",
-    "updated_at": "2026-10-02T05:09:24.220353",
+    "updated_at": "2026-10-02T06:43:24.190770",
     "price_14d_ago": 62.55
   },
   "Russell": {
     "price": 279.02,
     "change_pct": -3.09,
     "name": "iShares Russell 2000 Index Fund",
-    "updated_at": "2026-10-02T05:09:24.599114",
+    "updated_at": "2026-10-02T06:43:24.541000",
     "price_14d_ago": 287.91
   },
   "S&P": {
     "price": 7666.45,
     "change_pct": 0.61,
     "name": "S&P 500",
-    "updated_at": "2026-10-02T05:09:24.770593",
+    "updated_at": "2026-10-02T06:43:24.700878",
     "price_14d_ago": 7619.98
   },
   "S&P 500": {
     "price": 7666.45,
     "change_pct": 0.61,
     "name": "S&P 500",
-    "updated_at": "2026-10-02T05:09:24.941937",
+    "updated_at": "2026-10-02T06:43:24.877442",
     "price_14d_ago": 7619.98
   },
   "SAMSUNG ELECTRONICS": {
     "price": 276000.0,
     "change_pct": 6.36,
     "name": "SamsungElec",
-    "updated_at": "2026-10-02T05:09:25.134593",
+    "updated_at": "2026-10-02T06:43:25.064187",
     "price_14d_ago": 259500.0
   },
   "SAP": {
     "price": 210.79,
     "change_pct": -3.43,
     "name": "SAP  SE",
-    "updated_at": "2026-10-02T05:09:25.340226",
+    "updated_at": "2026-10-02T06:43:25.251350",
     "price_14d_ago": 218.28
   },
   "SF": {
     "price": 70.34,
     "change_pct": -9.79,
     "name": "Stifel Financial Corporation",
-    "updated_at": "2026-10-02T05:09:25.538167",
+    "updated_at": "2026-10-02T06:43:25.450016",
     "price_14d_ago": 77.97
   },
   "SK HYNIX": {
     "price": 1841000.0,
     "change_pct": 1.6,
     "name": "SK hynix",
-    "updated_at": "2026-10-02T05:09:25.742609",
+    "updated_at": "2026-10-02T06:43:25.644926",
     "price_14d_ago": 1812000.0
   },
   "SLB": {
     "price": 48.66,
     "change_pct": -8.74,
     "name": "SLB Limited",
-    "updated_at": "2026-10-02T05:09:25.970784",
+    "updated_at": "2026-10-02T06:43:25.854801",
     "price_14d_ago": 53.32
   },
   "SMH": {
     "price": 617.81,
     "change_pct": 14.09,
     "name": "VanEck Semiconductor ETF",
-    "updated_at": "2026-10-02T05:09:26.157962",
+    "updated_at": "2026-10-02T06:43:26.030119",
     "price_14d_ago": 541.5
   },
   "SMP-500": {
     "price": 7666.45,
     "change_pct": 0.61,
     "name": "S&P 500",
-    "updated_at": "2026-10-02T05:09:26.352740",
+    "updated_at": "2026-10-02T06:43:26.193573",
     "price_14d_ago": 7619.98
   },
   "SMR": {
     "price": 7.79,
     "change_pct": -8.46,
     "name": "NuScale Power Corporation",
-    "updated_at": "2026-10-02T05:09:26.526945",
+    "updated_at": "2026-10-02T06:43:26.362331",
     "price_14d_ago": 8.51
   },
   "SNAP": {
     "price": 5.65,
     "change_pct": -3.25,
     "name": "Snap Inc.",
-    "updated_at": "2026-10-02T05:09:26.693084",
+    "updated_at": "2026-10-02T06:43:26.525196",
     "price_14d_ago": 5.84
   },
   "SNWGF": {
     "price": 11.58,
     "change_pct": -2.15,
     "name": "SNOWLINE GOLD CORP",
-    "updated_at": "2026-10-02T05:09:26.882020",
+    "updated_at": "2026-10-02T06:43:26.692874",
     "price_14d_ago": 11.83
   },
   "SOYB": {
     "price": 27.2,
     "change_pct": -1.77,
     "name": "Teucrium Soybean Fund ETV",
-    "updated_at": "2026-10-02T05:09:27.119637",
+    "updated_at": "2026-10-02T06:43:26.863438",
     "price_14d_ago": 27.69
   },
   "SPCE": {
     "price": 2.99,
     "change_pct": -0.99,
     "name": "Virgin Galactic Holdings, Inc.",
-    "updated_at": "2026-10-02T05:09:27.292033",
+    "updated_at": "2026-10-02T06:43:27.034894",
     "price_14d_ago": 3.02
   },
   "SPX": {
     "price": 7666.45,
     "change_pct": 0.61,
     "name": "S&P 500",
-    "updated_at": "2026-10-02T05:09:27.763489",
+    "updated_at": "2026-10-02T06:43:27.536901",
     "price_14d_ago": 7619.98
   },
   "SPY": {
     "price": 763.99,
     "change_pct": 0.41,
     "name": "State Street SPDR S&P 500 ETF T",
-    "updated_at": "2026-10-02T05:09:28.023110",
+    "updated_at": "2026-10-02T06:43:27.730246",
     "price_14d_ago": 760.88
   },
   "SQQQ": {
     "price": 34.11,
     "change_pct": -14.36,
     "name": "ProShares UltraPro Short QQQ",
-    "updated_at": "2026-10-02T05:09:28.209492",
+    "updated_at": "2026-10-02T06:43:27.902792",
     "price_14d_ago": 39.83
   },
   "SQUARE": {
     "price": 74.04,
     "change_pct": -6.86,
     "name": "Block, Inc.",
-    "updated_at": "2026-10-02T05:09:28.381927",
+    "updated_at": "2026-10-02T06:43:28.070920",
     "price_14d_ago": 79.49
   },
   "Semiconductors": {
     "price": 617.81,
     "change_pct": 14.09,
     "name": "VanEck Semiconductor ETF",
-    "updated_at": "2026-10-02T05:09:28.565396",
+    "updated_at": "2026-10-02T06:43:28.245663",
     "price_14d_ago": 541.5
   },
   "T": {
     "price": 24.3,
     "change_pct": -8.34,
     "name": "AT&T Inc.",
-    "updated_at": "2026-10-02T05:09:28.794766",
+    "updated_at": "2026-10-02T06:43:28.467473",
     "price_14d_ago": 26.51
   },
   "TDOC": {
     "price": 5.67,
     "change_pct": -12.77,
     "name": "Teladoc Health, Inc.",
-    "updated_at": "2026-10-02T05:09:29.170351",
+    "updated_at": "2026-10-02T06:43:28.824522",
     "price_14d_ago": 6.5
   },
   "TIPS": {
     "price": 0.0,
-    "change_pct": 100.0,
+    "change_pct": 200.0,
     "name": "Tianrong Internet Products and ",
-    "updated_at": "2026-10-02T05:09:29.689423",
+    "updated_at": "2026-10-02T06:43:29.321331",
     "price_14d_ago": 0.0
   },
   "TLT": {
     "price": 77.71,
     "change_pct": -3.98,
     "name": "iShares 20+ Year Treasury Bond ",
-    "updated_at": "2026-10-02T05:09:29.928728",
+    "updated_at": "2026-10-02T06:43:29.507848",
     "price_14d_ago": 80.93
   },
   "TSLA": {
     "price": 354.11,
     "change_pct": -1.35,
     "name": "Tesla, Inc.",
-    "updated_at": "2026-10-02T05:09:30.096440",
+    "updated_at": "2026-10-02T06:43:29.673609",
     "price_14d_ago": 358.97
   },
   "TSM": {
     "price": 459.2,
     "change_pct": 9.85,
     "name": "Taiwan Semiconductor Manufactur",
-    "updated_at": "2026-10-02T05:09:30.284122",
+    "updated_at": "2026-10-02T06:43:29.867803",
     "price_14d_ago": 418.01
   },
   "UBER": {
     "price": 67.88,
     "change_pct": -6.54,
     "name": "Uber Technologies, Inc.",
-    "updated_at": "2026-10-02T05:09:30.628177",
+    "updated_at": "2026-10-02T06:43:30.196398",
     "price_14d_ago": 72.63
   },
   "UNG": {
     "price": 10.16,
     "change_pct": -1.65,
     "name": "United States Natural Gas Fund ",
-    "updated_at": "2026-10-02T05:09:30.799595",
+    "updated_at": "2026-10-02T06:43:30.363778",
     "price_14d_ago": 10.33
   },
   "URANIUM": {
     "price": 39.59,
     "change_pct": -6.16,
     "name": "Uranium ETF",
-    "updated_at": "2026-10-02T05:09:31.165606",
+    "updated_at": "2026-10-02T06:43:30.730104",
     "price_14d_ago": 42.19
   },
   "USD": {
     "price": 97.76,
     "change_pct": 24.65,
     "name": "ProShares Ultra Semiconductors",
-    "updated_at": "2026-10-02T05:09:31.367958",
+    "updated_at": "2026-10-02T06:43:30.925653",
     "price_14d_ago": 78.43
   },
   "USDX": {
     "price": 25.63,
     "change_pct": 0.23,
     "name": "SGI Enhanced Core ETF",
-    "updated_at": "2026-10-02T05:09:31.547219",
+    "updated_at": "2026-10-02T06:43:31.095220",
     "price_14d_ago": 25.57
   },
   "USO": {
     "price": 150.02,
     "change_pct": -4.24,
     "name": "United States Oil Fund",
-    "updated_at": "2026-10-02T05:09:31.720599",
+    "updated_at": "2026-10-02T06:43:31.258211",
     "price_14d_ago": 156.66
   },
   "UTHR": {
     "price": 571.38,
     "change_pct": 13.66,
     "name": "United Therapeutics Corporation",
-    "updated_at": "2026-10-02T05:09:31.890232",
+    "updated_at": "2026-10-02T06:43:31.427667",
     "price_14d_ago": 502.7
   },
   "UUU": {
     "price": 5.18,
     "change_pct": -0.58,
     "name": "Universal Safety Products, Inc.",
-    "updated_at": "2026-10-02T05:09:32.067940",
+    "updated_at": "2026-10-02T06:43:31.611968",
     "price_14d_ago": 5.21
   },
   "V": {
     "price": 359.85,
     "change_pct": -4.11,
     "name": "Visa Inc.",
-    "updated_at": "2026-10-02T05:09:32.422399",
+    "updated_at": "2026-10-02T06:43:31.951991",
     "price_14d_ago": 375.28
   },
   "VEEV": {
     "price": 281.93,
     "change_pct": 6.12,
     "name": "Veeva Systems Inc.",
-    "updated_at": "2026-10-02T05:09:32.767511",
+    "updated_at": "2026-10-02T06:43:32.282435",
     "price_14d_ago": 265.67
   },
   "VIX": {
     "price": 15.94,
     "change_pct": -7.33,
     "name": "CBOE Volatility Index",
-    "updated_at": "2026-10-02T05:09:33.279641",
+    "updated_at": "2026-10-02T06:43:32.783281",
     "price_14d_ago": 17.2
   },
   "VLO": {
     "price": 408.46,
     "change_pct": 6.66,
     "name": "Valero Energy Corporation",
-    "updated_at": "2026-10-02T05:09:33.493830",
+    "updated_at": "2026-10-02T06:43:32.998167",
     "price_14d_ago": 382.95
   },
   "VRTX": {
     "price": 506.74,
     "change_pct": -2.46,
     "name": "Vertex Pharmaceuticals Incorpor",
-    "updated_at": "2026-10-02T05:09:33.663491",
+    "updated_at": "2026-10-02T06:43:33.164026",
     "price_14d_ago": 519.51
   },
   "WFC": {
     "price": 80.25,
     "change_pct": -9.54,
     "name": "Wells Fargo & Company",
-    "updated_at": "2026-10-02T05:09:33.873082",
+    "updated_at": "2026-10-02T06:43:33.365287",
     "price_14d_ago": 88.71
   },
   "WIT": {
     "price": 1.76,
     "change_pct": -1.12,
     "name": "Wipro Limited",
-    "updated_at": "2026-10-02T05:09:34.067136",
+    "updated_at": "2026-10-02T06:43:33.556185",
     "price_14d_ago": 1.78
   },
   "WMT": {
     "price": 104.26,
     "change_pct": -4.42,
     "name": "Walmart Inc.",
-    "updated_at": "2026-10-02T05:09:34.285015",
+    "updated_at": "2026-10-02T06:43:33.779133",
     "price_14d_ago": 109.08
   },
   "WTBN": {
     "price": 23.98,
     "change_pct": -1.62,
     "name": "WisdomTree Bianco Total Return ",
-    "updated_at": "2026-10-02T05:09:34.501580",
+    "updated_at": "2026-10-02T06:43:33.948355",
     "price_14d_ago": 24.37
   },
   "WTI": {
-    "price": 89.19,
-    "change_pct": -15.72,
+    "price": 89.21,
+    "change_pct": -15.7,
     "name": "WTI Crude",
-    "updated_at": "2026-10-02T05:09:34.671832",
+    "updated_at": "2026-10-02T06:43:34.112053",
     "price_14d_ago": 105.83
   },
   "WTI CRUDE OIL": {
-    "price": 89.19,
-    "change_pct": -15.72,
+    "price": 89.21,
+    "change_pct": -15.7,
     "name": "WTI Crude",
-    "updated_at": "2026-10-02T05:09:34.843180",
+    "updated_at": "2026-10-02T06:43:34.277442",
     "price_14d_ago": 105.83
   },
   "XAU-USD": {
     "price": 0,
     "change_pct": 0,
     "name": "XAU9999 Meme USD",
-    "updated_at": "2026-10-02T05:09:35.190062",
+    "updated_at": "2026-10-02T06:43:34.606646",
     "price_14d_ago": 0.0
   },
   "XOM": {
     "price": 163.82,
     "change_pct": -0.76,
     "name": "ExxonMobil Holdings Corporation",
-    "updated_at": "2026-10-02T05:09:35.420746",
+    "updated_at": "2026-10-02T06:43:34.844456",
     "price_14d_ago": 165.08
   },
   "ZIM": {
     "price": 29.75,
     "change_pct": 0.1,
     "name": "ZIM Integrated Shipping Service",
-    "updated_at": "2026-10-02T05:09:35.794600",
+    "updated_at": "2026-10-02T06:43:35.177642",
     "price_14d_ago": 29.72
   },
   "HIMS": {
     "price": 29.3,
     "change_pct": 1.7,
     "name": "Hims & Hers Health, Inc.",
-    "updated_at": "2026-10-02T05:09:36.147184",
+    "updated_at": "2026-10-02T06:43:35.526831",
     "price_14d_ago": 28.81
   },
   "GDRX": {
     "price": 3.27,
     "change_pct": -8.15,
     "name": "GoodRx Holdings, Inc.",
-    "updated_at": "2026-10-02T05:09:36.320869",
+    "updated_at": "2026-10-02T06:43:35.691225",
     "price_14d_ago": 3.56
   },
   "TEM": {
     "price": 76.5,
     "change_pct": 22.97,
     "name": "Tempus AI, Inc.",
-    "updated_at": "2026-10-02T05:09:36.497476",
+    "updated_at": "2026-10-02T06:43:35.861728",
     "price_14d_ago": 62.21
   },
   "GH": {
     "price": 174.75,
     "change_pct": 4.12,
     "name": "Guardant Health, Inc.",
-    "updated_at": "2026-10-02T05:09:36.672874",
+    "updated_at": "2026-10-02T06:43:36.027923",
     "price_14d_ago": 167.84
   },
   "ABT": {
     "price": 96.69,
     "change_pct": -6.21,
     "name": "Abbott Laboratories",
-    "updated_at": "2026-10-02T05:09:36.881896",
+    "updated_at": "2026-10-02T06:43:36.226280",
     "price_14d_ago": 103.09
   },
   "ARM": {
     "price": 292.34,
     "change_pct": 22.31,
     "name": "Arm Holdings plc",
-    "updated_at": "2026-10-02T05:09:03.270926",
+    "updated_at": "2026-10-02T06:43:03.719071",
     "price_14d_ago": 239.01
   },
   "HOOD": {
     "price": 111.15,
     "change_pct": -2.78,
     "name": "Robinhood Markets, Inc.",
-    "updated_at": "2026-10-02T05:09:13.094432",
+    "updated_at": "2026-10-02T06:43:13.146865",
     "price_14d_ago": 114.33
   },
   "SPOT": {
     "price": 491.4,
     "change_pct": -11.67,
     "name": "Spotify Technology S.A.",
-    "updated_at": "2026-10-02T05:09:27.463940",
+    "updated_at": "2026-10-02T06:43:27.203555",
     "price_14d_ago": 556.31
   },
   "CRWV": {
     "price": 88.57,
     "change_pct": 6.74,
     "name": "CoreWeave, Inc.",
-    "updated_at": "2026-10-02T05:09:08.065925",
+    "updated_at": "2026-10-02T06:43:08.106986",
     "price_14d_ago": 82.98
   },
   "LENS": {
     "price": 43.06,
     "change_pct": -5.4,
     "name": "Sarmaya Thematic ETF",
-    "updated_at": "2026-10-02T05:09:15.676527",
+    "updated_at": "2026-10-02T06:43:15.645485",
     "price_14d_ago": 45.52
   },
   "TCEHY": {
     "price": 54.0,
     "change_pct": -2.17,
     "name": "Tencent Holding Ltd.",
-    "updated_at": "2026-10-02T05:09:28.996947",
+    "updated_at": "2026-10-02T06:43:28.655953",
     "price_14d_ago": 55.2
   }
 },
@@ -1122,6 +1122,41 @@ const dashboardData = {
         {
           "speaker": "Alex Zhang",
           "quote": "whatever OpenAI is doing with their agent swarm is, like, clearly the right thing to do."
+        }
+      ]
+    },
+    {
+      "id": 561,
+      "title": "Why AI Agents Can Beat the Incumbents",
+      "source_type": "podcast",
+      "source_name": "The a16z Show",
+      "source_date": "2026-10-02",
+      "summary": "Elena Berger hosts Seema Amble of a16z and Vlad Kyle, co-founder and CEO of Leo, to examine why AI-native application startups can still compete when incumbents already own distribution, customer trust, and systems of record. Seema argues that incumbent software plus a model is often limited to retrieval and workflow help inside one system, while AI-native companies can own end-to-end work that spans contracts, email, billing, finance, legal, and supplier conversations.\n\nVlad uses procurement as the example of work hidden outside the system of record. He says an ERP entry might show only an 8K aluminum price, while the real work involved 30 stakeholder meetings, 500 emails, 20 Excel sheets, and three weeks of cost engineering and 3D modeling. He also argues that invoice process automation covers only about 20% of the job, because the remaining 80% is exception handling such as fraud, mismatches, and non-happy-path cases.\n\nThe speakers do not have a major disagreement; instead, Seema frames the market structure and Vlad explains the operating mechanics. Vlad says enterprises do not begin with fully autonomous negotiation agents on day one, because trust has to be earned through human-in-the-loop deployment and feedback. Over time, he claims customers can allow agents to handle 10k, 20k, and 100k negotiations, while multimillion-dollar or billion-dollar strategic supplier negotiations still require expert humans and long-running agent support.\n\nThe episode predicts a future where agents operate on both buyer and supplier sides of transactions. Vlad argues that price is only the final output of roughly 5,000 upstream tasks, many of which have aligned incentives because both sales and procurement want less friction and faster time to market. He also claims procurement has unusual leverage in industrial Fortune 500 settings because buyers can dictate the tools and response formats suppliers use.",
+      "key_takeaway": "Seema Amble argues AI-native startups can beat incumbents by owning end-to-end work across emails, contracts, billing, and systems of record rather than adding retrieval agents to Salesforce-style workflows.",
+      "tickers_mentioned": [
+        "CRM",
+        "SAP",
+        "ORCL"
+      ],
+      "sentiment": "bullish",
+      "display_on_main": 1,
+      "display_order": 0,
+      "added_date": "2026-10-02",
+      "archived_date": null,
+      "archived_reason": null,
+      "podcast_episode_id": 546,
+      "notable_quotes": [
+        {
+          "speaker": "Seema Amble",
+          "quote": "The opportunity for the AI native startup is to say, we're going to own that entire end-to-end arc"
+        },
+        {
+          "speaker": "Vlad Kyle",
+          "quote": "No company and no enterprise starts with fully autonomous negotiation agents from day one."
+        },
+        {
+          "speaker": "Vlad Kyle",
+          "quote": "90% of the work is preparation."
         }
       ]
     },
@@ -1446,7 +1481,7 @@ const dashboardData = {
         "NVDA"
       ],
       "sentiment": "neutral",
-      "display_on_main": 1,
+      "display_on_main": 0,
       "display_order": 0,
       "added_date": "2026-09-29",
       "archived_date": null,
@@ -12812,7 +12847,7 @@ const dashboardData = {
       "description": "An operational framework where AI systems handle repetitive tasks in cascading scopes, from individual personal workflows up to large parts of an entire company, freeing humans for strategic and intuitive work.",
       "first_detected_date": "2026-09-12",
       "last_mentioned_date": "2026-10-02",
-      "mention_count": 12,
+      "mention_count": 13,
       "source_podcasts": null,
       "status": "active",
       "investment_implications": "Companies architected around loops may achieve superior capital efficiency and scalability by compressing operational overhead into automated cycles.",
@@ -12821,8 +12856,8 @@ const dashboardData = {
       "archived_reason": null,
       "first_detected_episode_id": 473,
       "first_detected_speaker": null,
-      "last_mentioned_episode_id": 545,
-      "last_mentioned_speaker": "Alex Zhang"
+      "last_mentioned_episode_id": 546,
+      "last_mentioned_speaker": "Seema Amble, Vlad Kyle"
     },
     {
       "id": 284,
@@ -14951,20 +14986,20 @@ const dashboardData = {
     {
       "id": 114,
       "term": "AI Agents",
-      "description": "AI Agents are software products that use language models and browser automation to perform tasks such as searching websites, managing email, or booking services. Zitron discussed Muse, Instinct, and Dot as examples with unclear revenue models and high infrastructure costs.",
+      "description": "Software systems that retrieve information, execute processes, apply policy judgment, or act as principal decision-makers in enterprise workflows.",
       "first_detected_date": "2026-02-28",
-      "last_mentioned_date": "2026-10-01",
-      "mention_count": 108,
+      "last_mentioned_date": "2026-10-02",
+      "mention_count": 109,
       "source_podcasts": null,
       "status": "active",
-      "investment_implications": "It matters because agent adoption is being used to justify AI demand, but the episode questioned whether usage translates into cash flow.",
+      "investment_implications": "The episode frames AI agents as the application layer that can shift value away from incumbent systems of record toward end-to-end workflow owners.",
       "display_on_main": 0,
       "archived_date": null,
       "archived_reason": null,
       "first_detected_episode_id": 31,
       "first_detected_speaker": null,
-      "last_mentioned_episode_id": 544,
-      "last_mentioned_speaker": "Ed Zitron"
+      "last_mentioned_episode_id": 546,
+      "last_mentioned_speaker": "Seema Amble, Vlad Kyle"
     },
     {
       "id": 38,
@@ -15113,20 +15148,20 @@ const dashboardData = {
     {
       "id": 32,
       "term": "AI Agent Orchestration",
-      "description": "The design of systems that coordinate multiple agents or subagents through shared context, file systems, message boards, or root-worker structures. In the episode, this included OpenAI swarms, Kimi swarms, RLM subagents, and Prime Agent's communication design.",
+      "description": "A multi-agent system in which specialized agents share information and execute tasks in a specific order across departments, documents, and software tools.",
       "first_detected_date": "2026-02-18",
       "last_mentioned_date": "2026-10-02",
-      "mention_count": 10,
+      "mention_count": 11,
       "source_podcasts": null,
       "status": "active",
-      "investment_implications": "The orchestration layer can become a distinct value capture point if better coordination, rather than only larger models, drives problem-solving efficiency.",
+      "investment_implications": "Orchestration matters because complex enterprise work often spans eight stakeholders, three departments, and five software tools rather than one database.",
       "display_on_main": 0,
       "archived_date": null,
       "archived_reason": null,
       "first_detected_episode_id": 69,
       "first_detected_speaker": null,
-      "last_mentioned_episode_id": 545,
-      "last_mentioned_speaker": "Alex Zhang"
+      "last_mentioned_episode_id": 546,
+      "last_mentioned_speaker": "Seema Amble, Vlad Kyle"
     },
     {
       "id": 13,
@@ -15228,6 +15263,40 @@ const dashboardData = {
 },
   mainContent: {
   "insights": [
+    {
+      "id": 561,
+      "title": "Why AI Agents Can Beat the Incumbents",
+      "source_type": "podcast",
+      "source_name": "The a16z Show",
+      "source_date": "2026-10-02",
+      "summary": "Elena Berger hosts Seema Amble of a16z and Vlad Kyle, co-founder and CEO of Leo, to examine why AI-native application startups can still compete when incumbents already own distribution, customer trust, and systems of record. Seema argues that incumbent software plus a model is often limited to retrieval and workflow help inside one system, while AI-native companies can own end-to-end work that spans contracts, email, billing, finance, legal, and supplier conversations.\n\nVlad uses procurement as the example of work hidden outside the system of record. He says an ERP entry might show only an 8K aluminum price, while the real work involved 30 stakeholder meetings, 500 emails, 20 Excel sheets, and three weeks of cost engineering and 3D modeling. He also argues that invoice process automation covers only about 20% of the job, because the remaining 80% is exception handling such as fraud, mismatches, and non-happy-path cases.\n\nThe speakers do not have a major disagreement; instead, Seema frames the market structure and Vlad explains the operating mechanics. Vlad says enterprises do not begin with fully autonomous negotiation agents on day one, because trust has to be earned through human-in-the-loop deployment and feedback. Over time, he claims customers can allow agents to handle 10k, 20k, and 100k negotiations, while multimillion-dollar or billion-dollar strategic supplier negotiations still require expert humans and long-running agent support.\n\nThe episode predicts a future where agents operate on both buyer and supplier sides of transactions. Vlad argues that price is only the final output of roughly 5,000 upstream tasks, many of which have aligned incentives because both sales and procurement want less friction and faster time to market. He also claims procurement has unusual leverage in industrial Fortune 500 settings because buyers can dictate the tools and response formats suppliers use.",
+      "key_takeaway": "Seema Amble argues AI-native startups can beat incumbents by owning end-to-end work across emails, contracts, billing, and systems of record rather than adding retrieval agents to Salesforce-style workflows.",
+      "tickers_mentioned": "[\"CRM\", \"SAP\", \"ORCL\"]",
+      "sentiment": "bullish",
+      "display_on_main": 1,
+      "display_order": 0,
+      "added_date": "2026-10-02",
+      "archived_date": null,
+      "archived_reason": null,
+      "podcast_episode_id": 546,
+      "notable_quotes": [
+        {
+          "speaker": "Seema Amble",
+          "quote": "The opportunity for the AI native startup is to say, we're going to own that entire end-to-end arc"
+        },
+        {
+          "speaker": "Vlad Kyle",
+          "quote": "No company and no enterprise starts with fully autonomous negotiation agents from day one."
+        },
+        {
+          "speaker": "Vlad Kyle",
+          "quote": "90% of the work is preparation."
+        }
+      ],
+      "episode_release_date": "2026-10-02",
+      "guest_name": null,
+      "key_tickers": []
+    },
     {
       "id": 559,
       "title": "Academia is for Ambition \u2014 Alex Zhang, MIT",
@@ -15629,40 +15698,6 @@ const dashboardData = {
         {
           "speaker": "Anish Acharya",
           "quote": "It's not about cost reduction. It's about possibility expansion."
-        }
-      ],
-      "episode_release_date": "2026-09-29",
-      "guest_name": null,
-      "key_tickers": []
-    },
-    {
-      "id": 545,
-      "title": "Claude Code\u2019s Next Era \u2014 Thariq Shihipar, Anthropic",
-      "source_type": "podcast",
-      "source_name": "Latent Space: The AI Engineer Podcast",
-      "source_date": "2026-09-29",
-      "summary": "Thariq Shihipar described Anthropic as operating in an unusually fast product cycle, centered on Claude Code, Claude Tag, artifacts, projects, and a coming customization layer called Claude Mods. He said that in less than 12 months, agentic coding moved from something he was trying to persuade startup friends to use into what he called the default way that everyone codes, which reframes the bottleneck from model capability to human skill, prompting, and harness design.\n\nThe core product argument was that Claude Code is evolving from a local CLI into a broader harness with cloud-hosted intelligence, local or remote hands, multiplayer surfaces, artifacts with persistent databases, and eventually customizable execution and UI. Thariq said artifacts could become the main interface into the harness, with shared state such as a Kanban board available to multiple Claude sessions through artifact MCP, while Claude Tag serves as Anthropic's multiplayer product for Slack-based organizational workflows, incidents, legal review, and context sharing.\n\nThe hosts pressed on whether this complexity creates too much surface area, especially around identity, permissions, prompt caching, model routing, and whether users can understand mutable software. Thariq's response was that power users already share workflows, mods, skills, and harness patterns, while Anthropic is adding primitives such as forked subagents, classifiers, hooks, modes, and UI modification so users can automate repeated behaviors like implementation notes, quizzes, next steps, and model routing.\n\nThe final section moved into AI safety and enterprise risk. Thariq discussed Dario Amodei's Pacing the Frontier argument and cited OpenAI exploit-bench incidents involving Artifactory cache folders used as a message board, a German wiki that could be written with GET requests, and /etc/hosts editing to route requests. His claim was not that the current public models are already catastrophic, but that frontier agents are showing novel side effects of goal pursuit, so model labs need hardened sandboxes, probes, classifiers, careful RL environments, and outside evaluators before release.\n\nFor financial analysis, the episode framed agentic software as a market shift with two simultaneous effects: higher software productivity and higher security, governance, and infrastructure requirements. Thariq also contrasted the pre-Claude-Code expectation of paying about $20 per month for AI with users paying around $200 per month once they understood agentic coding value, while predicting that frontier-model intelligence will become cheaper and more abundant over time.",
-      "key_takeaway": "Thariq Shihipar argues Claude Code's market shift took less than 12 months because agentic coding moved from persuasion to default engineering workflow, while security layers now define enterprise adoption.",
-      "tickers_mentioned": "[\"NVDA\"]",
-      "sentiment": "neutral",
-      "display_on_main": 1,
-      "display_order": 0,
-      "added_date": "2026-09-29",
-      "archived_date": null,
-      "archived_reason": null,
-      "podcast_episode_id": 531,
-      "notable_quotes": [
-        {
-          "speaker": "Thariq Shihipar",
-          "quote": "the default way that everyone codes"
-        },
-        {
-          "speaker": "Thariq Shihipar",
-          "quote": "the agentic stuff scales much better than the like human stuff"
-        },
-        {
-          "speaker": "Thariq Shihipar",
-          "quote": "models are grown not designed"
         }
       ],
       "episode_release_date": "2026-09-29",
@@ -47037,9 +47072,93 @@ const dashboardData = {
       "NVDA",
       "ARM"
     ]
+  },
+  "561": {
+    "id": 562,
+    "insight_id": 561,
+    "podcast_episode_id": 546,
+    "overview": "The deeper commercial point is that \u201ceasy to demo\u201d may be the wrong yardstick. Vlad describes Leo\u2019s first extraction-to-SAP use case as now solvable by candidates in an eight-hour exercise, which reframes the moat question: the scarce asset is not a clever prompt or connector, but production-grade reliability on the last 20\u201330% of messy cases. That is why vertical models may matter less for generic document reading and more for proprietary outcome tasks such as should-cost modeling and price benchmarking, where the answer is a negotiated \u201cfair price,\u201d not text. The go-to-market also looks more like enterprise automation than classic SaaS: forward-deployed engineers are useful only if their mandate is to automate their own implementation work into reusable product. The P&L hook is unusually sharp: Vlad claims a 1% margin gain can require roughly 10% more sales, so procurement savings can compete with revenue growth as a board-level lever.",
+    "key_takeaways_detailed": [],
+    "investment_thesis": "If the thesis is directionally true, the next 24\u201336 months should favor vertical AI companies that turn services-heavy deployments into repeatable software and expand from narrow copilots into multi-department operating layers. For allocators, the public-market read-through is less a clean long-only startup trade and more pressure on incumbent workflow vendors to prove their agents can do cross-system work without undermining existing seat-based products. The thesis would be proved by rising production usage of autonomous or human-reviewed vertical agents in enterprise budgets, and disproved if large ERP and CRM vendors show comparable exception handling and cycle-time gains inside existing contracts.",
+    "ticker_analysis": {
+      "CRM": {
+        "rationale": "Salesforce is the referenced CRM incumbent, so its ability to move Agentforce-style products beyond retrieval into trusted cross-system work is a direct test of the startup threat.",
+        "positioning": "",
+        "risk": ""
+      },
+      "SAP": {
+        "rationale": "SAP is the referenced ERP system of record in procurement workflows, making it a direct incumbent whose agent capability will test whether ERP ownership is enough.",
+        "positioning": "",
+        "risk": ""
+      },
+      "ORCL": {
+        "rationale": "Oracle is referenced alongside SAP as a legacy system tied to procurement and finance data, so its ability to add reliable agents is a relevant public-market read-through.",
+        "positioning": "",
+        "risk": ""
+      }
+    },
+    "positioning_guidance": "",
+    "risk_factors": [],
+    "contrarian_signals": [],
+    "catalysts": [],
+    "related_insights": null,
+    "audio_timestamp_start": null,
+    "audio_timestamp_end": null,
+    "transcript_excerpt": null,
+    "created_at": "2026-10-02T06:43:01.820574",
+    "updated_at": "2026-10-02 11:43:01",
+    "episode_evidence": "Vlad Kyle: \"70% of the performance or currency or however you measured it, it depends really on the task. It doesn't mean 70% automation, right?\"\nSeema Amble: \"you're locking in the customer, there's more dependencies. They find it valuable, and you're doing more of the work.\"\nVlad Kyle: \"to get, like, 1% margin increase, um, you need to make 10% more revenue, 10% more sales.\"",
+    "falsification_tracks": [
+      "By YE2026, SAP, Oracle, or Salesforce publishes customer case studies with audited metrics showing cross-system agents handling more than 70% of procurement or support exceptions without third-party vertical AI tools.",
+      "At least three Fortune 500 companies publicly report successful internal builds of procurement agents that reach production in under six months, cover exception handling, and cost less than buying specialist vendors.",
+      "Specialist vertical AI vendors in procurement show poor expansion economics: disclosed net revenue retention below 100%, gross retention below 85%, or implementation payback longer than 18 months.",
+      "Industrial buyers fail to pull suppliers onto buyer-chosen AI workflows: disclosed supplier response-format compliance remains below 50% after 12 months in large procurement deployments.",
+      "Deployments remain stuck in low-risk indirect spend, with no public evidence by 2027 of agents assisting direct-material negotiations, should-cost modeling, or strategic supplier preparation at large manufacturers."
+    ],
+    "schema_version": 2,
+    "insight_title": "Why AI Agents Can Beat the Incumbents",
+    "source_name": "The a16z Show",
+    "source_date": "2026-10-02",
+    "key_tickers": []
   }
 },
   suggestedTerms: [
+  {
+    "id": 833,
+    "term": "Human in the Loop",
+    "definition": "A deployment model where humans review, guide, or approve agent actions before the system becomes more autonomous.",
+    "investment_implications": "Human-in-the-loop systems create trust and training data that can move enterprise customers from pilot use to higher-value autonomous workflows.",
+    "source_type": "auto_extracted",
+    "mention_count": 1,
+    "source_diversity": 1,
+    "relevance_score": 50,
+    "submitted_date": "2026-10-02 11:42:17",
+    "priority_score": 80
+  },
+  {
+    "id": 834,
+    "term": "Should Cost Modeling",
+    "definition": "A procurement method for estimating what a part or service should cost by analyzing drawings, inputs, materials, and engineering constraints.",
+    "investment_implications": "Should cost modeling is highlighted as a vertical AI use case where proprietary data and fine-tuning can matter more than a general foundation model.",
+    "source_type": "auto_extracted",
+    "mention_count": 1,
+    "source_diversity": 1,
+    "relevance_score": 50,
+    "submitted_date": "2026-10-02 11:42:17",
+    "priority_score": 80
+  },
+  {
+    "id": 835,
+    "term": "Forward Deployed Work",
+    "definition": "Hands-on implementation and customization work performed close to enterprise customers to adapt software to specific workflows and data environments.",
+    "investment_implications": "The amount of forward deployed work affects AI software margins, implementation speed, and whether customization becomes software-driven over time.",
+    "source_type": "auto_extracted",
+    "mention_count": 1,
+    "source_diversity": 1,
+    "relevance_score": 50,
+    "submitted_date": "2026-10-02 11:42:17",
+    "priority_score": 80
+  },
   {
     "id": 830,
     "term": "Recursive Language Models",
@@ -47051,47 +47170,11 @@ const dashboardData = {
     "relevance_score": 50,
     "submitted_date": "2026-10-02 03:16:48",
     "priority_score": 80
-  },
-  {
-    "id": 831,
-    "term": "Capability Overhang",
-    "definition": "The idea that current frontier models already have unused capability that can be unlocked by better harnesses, long-running workflows, and more reliable decomposition. Alex Zhang tied this to making models behave more like humans on simple month-scale tasks.",
-    "investment_implications": "If capability overhang is real, near-term product gains can come from systems engineering around existing models rather than only from next-generation pretraining.",
-    "source_type": "auto_extracted",
-    "mention_count": 1,
-    "source_diversity": 1,
-    "relevance_score": 50,
-    "submitted_date": "2026-10-02 03:16:48",
-    "priority_score": 80
-  },
-  {
-    "id": 832,
-    "term": "Speculative PTC",
-    "definition": "Speculative programmatic tool calling, where a system launches likely tool calls before or during code generation instead of waiting for strictly sequential execution. Alex Zhang described it as an obvious latency improvement for coding and RLM-style agents.",
-    "investment_implications": "This matters for software-agent economics because overlapping tool execution with generation can reduce latency and improve utilization in agentic coding workflows.",
-    "source_type": "auto_extracted",
-    "mention_count": 1,
-    "source_diversity": 1,
-    "relevance_score": 50,
-    "submitted_date": "2026-10-02 03:16:48",
-    "priority_score": 80
-  },
-  {
-    "id": 828,
-    "term": "AI Debt",
-    "definition": "AI Debt refers to the bond, leveraged loan, private credit, and project finance raised to fund AI labs, GPU purchases, and data center construction. In this episode, Zitron framed it as the main transmission channel from AI hype to credit-market stress.",
-    "investment_implications": "It matters because refinancing costs, spreads, and failed debt sales can determine whether AI infrastructure projects remain viable.",
-    "source_type": "auto_extracted",
-    "mention_count": 1,
-    "source_diversity": 1,
-    "relevance_score": 50,
-    "submitted_date": "2026-10-02 03:15:54",
-    "priority_score": 80
   }
 ],
   podcastGuests: [
   {
-    "id": 78475,
+    "id": 78590,
     "name": "Rebuilding the Internet for Privacy",
     "slug": "rebuilding-the-internet-for-privacy",
     "bio": null,
@@ -47103,7 +47186,7 @@ const dashboardData = {
     "appearance_count": 1
   },
   {
-    "id": 78476,
+    "id": 78591,
     "name": "Token Bill Dwarfs CPU Bill",
     "slug": "token-bill-dwarfs-cpu-bill",
     "bio": null,
@@ -47115,7 +47198,7 @@ const dashboardData = {
     "appearance_count": 1
   },
   {
-    "id": 78477,
+    "id": 78592,
     "name": "Jake Paul & The Chainsmokers",
     "slug": "jake-paul--the-chainsmokers",
     "bio": null,
@@ -47127,7 +47210,7 @@ const dashboardData = {
     "appearance_count": 1
   },
   {
-    "id": 78478,
+    "id": 78593,
     "name": "Palmer Luckey",
     "slug": "palmer-luckey",
     "bio": null,
@@ -47139,7 +47222,7 @@ const dashboardData = {
     "appearance_count": 1
   },
   {
-    "id": 78479,
+    "id": 78594,
     "name": "Daniel Ek",
     "slug": "daniel-ek",
     "bio": null,
@@ -47151,7 +47234,7 @@ const dashboardData = {
     "appearance_count": 1
   },
   {
-    "id": 78480,
+    "id": 78595,
     "name": "Michael Every",
     "slug": "michael-every",
     "bio": null,
@@ -47163,7 +47246,7 @@ const dashboardData = {
     "appearance_count": 1
   },
   {
-    "id": 78481,
+    "id": 78596,
     "name": "Steve Hilton & Spencer Pratt",
     "slug": "steve-hilton--spencer-pratt",
     "bio": null,
@@ -47175,7 +47258,7 @@ const dashboardData = {
     "appearance_count": 1
   },
   {
-    "id": 78482,
+    "id": 78597,
     "name": "Blake Scholl",
     "slug": "blake-scholl",
     "bio": null,
@@ -47187,7 +47270,7 @@ const dashboardData = {
     "appearance_count": 1
   },
   {
-    "id": 78483,
+    "id": 78598,
     "name": "John Platt",
     "slug": "john-platt",
     "bio": null,
@@ -47199,7 +47282,7 @@ const dashboardData = {
     "appearance_count": 1
   },
   {
-    "id": 78484,
+    "id": 78599,
     "name": "Diogo Almeida",
     "slug": "diogo-almeida",
     "bio": null,
@@ -47211,7 +47294,7 @@ const dashboardData = {
     "appearance_count": 1
   },
   {
-    "id": 78485,
+    "id": 78600,
     "name": "Naveen Rao",
     "slug": "naveen-rao",
     "bio": null,
@@ -47223,7 +47306,7 @@ const dashboardData = {
     "appearance_count": 1
   },
   {
-    "id": 78486,
+    "id": 78601,
     "name": "Outlook on 5 Key Commodities",
     "slug": "outlook-on-5-key-commodities",
     "bio": null,
@@ -47235,7 +47318,7 @@ const dashboardData = {
     "appearance_count": 1
   },
   {
-    "id": 78487,
+    "id": 78602,
     "name": "Bill Gurley",
     "slug": "bill-gurley",
     "bio": null,
@@ -47247,7 +47330,7 @@ const dashboardData = {
     "appearance_count": 1
   },
   {
-    "id": 78488,
+    "id": 78603,
     "name": "Nick Shirley",
     "slug": "nick-shirley",
     "bio": null,
@@ -47259,7 +47342,7 @@ const dashboardData = {
     "appearance_count": 1
   },
   {
-    "id": 78489,
+    "id": 78604,
     "name": "Jared Isaacman",
     "slug": "jared-isaacman",
     "bio": null,
@@ -47271,7 +47354,7 @@ const dashboardData = {
     "appearance_count": 1
   },
   {
-    "id": 78490,
+    "id": 78605,
     "name": "Brad Gerstner",
     "slug": "brad-gerstner",
     "bio": null,
@@ -47283,7 +47366,7 @@ const dashboardData = {
     "appearance_count": 1
   },
   {
-    "id": 78491,
+    "id": 78606,
     "name": "Meta's Dina Powell McCormick",
     "slug": "metas-dina-powell-mccormick",
     "bio": null,
@@ -47295,7 +47378,7 @@ const dashboardData = {
     "appearance_count": 1
   },
   {
-    "id": 78492,
+    "id": 78607,
     "name": "Underwriting Superintelligence",
     "slug": "underwriting-superintelligence",
     "bio": null,
@@ -47307,7 +47390,7 @@ const dashboardData = {
     "appearance_count": 1
   },
   {
-    "id": 78493,
+    "id": 78608,
     "name": "Hawks Take Flight",
     "slug": "hawks-take-flight",
     "bio": null,
@@ -47319,7 +47402,7 @@ const dashboardData = {
     "appearance_count": 1
   },
   {
-    "id": 78494,
+    "id": 78609,
     "name": "Martine Rothblatt",
     "slug": "martine-rothblatt",
     "bio": null,
@@ -47540,7 +47623,7 @@ const dashboardData = {
     "last_podcast_name": "All-In with Chamath, Jason, Sacks & Friedberg",
     "last_episode_date": "2026-09-19",
     "mention_score": 3,
-    "mention_score_decayed": 2.27,
+    "mention_score_decayed": 2.22,
     "last_main_idea": "Implement the CAPA framework to systematically address failures and enhance accountability.",
     "last_proof_cite": "All-In with Chamath, Jason, Sacks & Friedberg \u2022 2026-09-19 \u2022 Bill Gurley: Searching for Feynman",
     "last_proof_snippet": "Silicon Valley, Royalty, Legendary Investor, Bill Gerley. Track records incredible. The legend who backed Uber and Zillow, who's lived through every major text cycle for over 25 years. You're not just a commentator, right? You've been an op",
@@ -47658,7 +47741,7 @@ const dashboardData = {
     "last_podcast_name": "All-In with Chamath, Jason, Sacks & Friedberg",
     "last_episode_date": "2026-09-30",
     "mention_score": 2,
-    "mention_score_decayed": 2,
+    "mention_score_decayed": 1.95,
     "last_main_idea": "Jake Paul and The Chainsmokers argue attention can improve startup go-to-market, while The Chainsmokers warn 2x to 3x tranche markups without performance change are bubble behavior.",
     "last_proof_cite": "All-In with Chamath, Jason, Sacks & Friedberg \u2022 2026-09-30 \u2022 Jake Paul & The Chainsmokers: Turning Fame into Funds, Jake Enters Politics? & Venture Bubble Signs",
     "last_proof_snippet": "Jake Paul has got to be the dumbest, cockiest, stupidest, most ego-tistical person in the social media studio. Mr. President, what an honor. That's what makes him so damn successful. The world has shifted to attention being one of the most",
@@ -48374,6 +48457,60 @@ const dashboardData = {
     "net_worth": "$14.00B"
   },
   {
+    "id": 502,
+    "name": "Seema Amble",
+    "slug": "seema-amble",
+    "bio": "Seema Amble is a partner at a16z who discusses AI application companies, incumbent software vendors, and vertical AI defensibility.",
+    "known_for": "Analysis of AI-native application startups versus incumbent software platforms.",
+    "net_worth_usd": null,
+    "net_worth_source": null,
+    "net_worth_updated_at": null,
+    "voice_tone": "Analytical and framework-driven",
+    "voice_style": "She builds structured taxonomies, then maps them to concrete enterprise software examples.",
+    "voice_delivery_notes": "Use a measured pace with emphasis on contrasts between systems of record, workflows, and end-to-end work.",
+    "voice_profile_updated_at": "2026-10-02 11:42:17",
+    "last_seen": "2026-10-02 11:42:17",
+    "last_episode_title": "Why AI Agents Can Beat the Incumbents",
+    "last_podcast_name": "The a16z Show",
+    "last_episode_date": "2026-10-02",
+    "mention_score": 1,
+    "mention_score_decayed": 1,
+    "last_main_idea": "Seema Amble argues AI-native startups can beat incumbents by owning end-to-end work across emails, contracts, billing, and systems of record rather than adding retrieval agents to Salesforce-style workflows.",
+    "last_proof_cite": "The a16z Show \u2022 2026-10-02 \u2022 Why AI Agents Can Beat the Incumbents",
+    "last_proof_snippet": "If you want to build an aircraft, you need to prepare thousands of suppliers. Someone sends a confirmation of, like, hey, sorry, like this part is going to arrive two weeks later. And if they miss this email, hundreds of millions of them. P",
+    "supporting_takeaway": "Vlad Kyle claims a procurement record showing an 8K aluminum price can hide 30 stakeholder meetings, 500 emails, 20 Excel sheets, and three weeks of cost engineering and 3D modeling.",
+    "grokipedia_url": null,
+    "grokipedia_fetched_at": null,
+    "pundit_profile": null
+  },
+  {
+    "id": 503,
+    "name": "Vlad Kyle",
+    "slug": "vlad-kyle",
+    "bio": "Vlad Kyle is co-founder and CEO of Leo, which builds AI agents for enterprise procurement.",
+    "known_for": "AI agents for procurement, negotiation, supplier coordination, and enterprise purchasing workflows.",
+    "net_worth_usd": null,
+    "net_worth_source": null,
+    "net_worth_updated_at": null,
+    "voice_tone": "Practical and operational",
+    "voice_style": "He explains abstract AI concepts through procurement examples involving suppliers, invoices, ERP systems, and negotiations.",
+    "voice_delivery_notes": "Use energetic pacing when listing operational details, then slow down for numerical claims and enterprise examples.",
+    "voice_profile_updated_at": "2026-10-02 11:42:17",
+    "last_seen": "2026-10-02 11:42:17",
+    "last_episode_title": "Why AI Agents Can Beat the Incumbents",
+    "last_podcast_name": "The a16z Show",
+    "last_episode_date": "2026-10-02",
+    "mention_score": 1,
+    "mention_score_decayed": 1,
+    "last_main_idea": "Seema Amble argues AI-native startups can beat incumbents by owning end-to-end work across emails, contracts, billing, and systems of record rather than adding retrieval agents to Salesforce-style workflows.",
+    "last_proof_cite": "The a16z Show \u2022 2026-10-02 \u2022 Why AI Agents Can Beat the Incumbents",
+    "last_proof_snippet": "If you want to build an aircraft, you need to prepare thousands of suppliers. Someone sends a confirmation of, like, hey, sorry, like this part is going to arrive two weeks later. And if they miss this email, hundreds of millions of them. P",
+    "supporting_takeaway": "Vlad Kyle claims a procurement record showing an 8K aluminum price can hide 30 stakeholder meetings, 500 emails, 20 Excel sheets, and three weeks of cost engineering and 3D modeling.",
+    "grokipedia_url": null,
+    "grokipedia_fetched_at": null,
+    "pundit_profile": null
+  },
+  {
     "id": 499,
     "name": "Alex Zhang",
     "slug": "alex-zhang",
@@ -48499,7 +48636,7 @@ const dashboardData = {
     "last_podcast_name": "All-In with Chamath, Jason, Sacks & Friedberg",
     "last_episode_date": "2026-09-30",
     "mention_score": 1,
-    "mention_score_decayed": 1,
+    "mention_score_decayed": 0.98,
     "last_main_idea": "Jake Paul and The Chainsmokers argue attention can improve startup go-to-market, while The Chainsmokers warn 2x to 3x tranche markups without performance change are bubble behavior.",
     "last_proof_cite": "All-In with Chamath, Jason, Sacks & Friedberg \u2022 2026-09-30 \u2022 Jake Paul & The Chainsmokers: Turning Fame into Funds, Jake Enters Politics? & Venture Bubble Signs",
     "last_proof_snippet": "Jake Paul has got to be the dumbest, cockiest, stupidest, most ego-tistical person in the social media studio. Mr. President, what an honor. That's what makes him so damn successful. The world has shifted to attention being one of the most",
@@ -48526,7 +48663,7 @@ const dashboardData = {
     "last_podcast_name": "All-In with Chamath, Jason, Sacks & Friedberg",
     "last_episode_date": "2026-09-30",
     "mention_score": 1,
-    "mention_score_decayed": 1,
+    "mention_score_decayed": 0.98,
     "last_main_idea": "Jake Paul and The Chainsmokers argue attention can improve startup go-to-market, while The Chainsmokers warn 2x to 3x tranche markups without performance change are bubble behavior.",
     "last_proof_cite": "All-In with Chamath, Jason, Sacks & Friedberg \u2022 2026-09-30 \u2022 Jake Paul & The Chainsmokers: Turning Fame into Funds, Jake Enters Politics? & Venture Bubble Signs",
     "last_proof_snippet": "Jake Paul has got to be the dumbest, cockiest, stupidest, most ego-tistical person in the social media studio. Mr. President, what an honor. That's what makes him so damn successful. The world has shifted to attention being one of the most",
@@ -48634,7 +48771,7 @@ const dashboardData = {
     "last_podcast_name": "All-In with Chamath, Jason, Sacks & Friedberg",
     "last_episode_date": "2026-09-28",
     "mention_score": 1,
-    "mention_score_decayed": 0.95,
+    "mention_score_decayed": 0.93,
     "last_main_idea": "Daniel Ek argues Neko Health's $499 vertically integrated scans can shift healthcare from reactive to preventative by combining 53 blood markers, 6,000 skin images, clinician review, and longitudinal AI.",
     "last_proof_cite": "All-In with Chamath, Jason, Sacks & Friedberg \u2022 2026-09-28 \u2022 Daniel Ek: Life After Spotify, Broken Healthcare Incentives, Catching Disease Early & AI's Potential",
     "last_proof_snippet": "Part of everybody welcome back to the all-in interview show where we, the all-in podcast and dedicate an hour to just some of the great thinkers, creators of our time, and today will be no different. Daniel Eck is with us, you know him, the",
@@ -48694,7 +48831,7 @@ const dashboardData = {
     "last_podcast_name": "Moonshots with Peter Diamandis",
     "last_episode_date": "2026-09-28",
     "mention_score": 1,
-    "mention_score_decayed": 0.95,
+    "mention_score_decayed": 0.93,
     "last_main_idea": "Kathy Wood claims that AI will reduce drug development costs from $2.4 billion to $600-700 million, revolutionizing the pharmaceutical industry.",
     "last_proof_cite": "Moonshots with Peter Diamandis \u2022 2026-09-28 \u2022 We Gave Away $2,000,000 To 5 AI Builders | MOONSHOTS Live",
     "last_proof_snippet": "We're about to award the build with Gemini Express. So what is that? You know, a lot of people are concerned about jobs. And they're concerned about the old social contract, do well in high school, go to college, get a degree, and go get a",
@@ -49274,7 +49411,7 @@ const dashboardData = {
     "last_podcast_name": "All-In with Chamath, Jason, Sacks & Friedberg",
     "last_episode_date": "2026-09-23",
     "mention_score": 1,
-    "mention_score_decayed": 0.83,
+    "mention_score_decayed": 0.81,
     "last_main_idea": "California's regulatory burden, with over 420,000 regulations, is a major hindrance to business growth.",
     "last_proof_cite": "All-In with Chamath, Jason, Sacks & Friedberg \u2022 2026-09-23 \u2022 Steve Hilton & Spencer Pratt: Fixing California, Cheaper Gas, Ballot Fraud & CA Republicans",
     "last_proof_snippet": "A candidate for the governor of California who is extremely unique in a number of ways. First of all, he's a Republican, and second, he's a Brit. Welcome to the program to Steve Colton. It's a joke. We wanted these Democrats doing. We alrea",
@@ -49450,7 +49587,7 @@ const dashboardData = {
     "last_podcast_name": "All-In with Chamath, Jason, Sacks & Friedberg",
     "last_episode_date": "2026-09-21",
     "mention_score": 1,
-    "mention_score_decayed": 0.81,
+    "mention_score_decayed": 0.79,
     "last_main_idea": "Evaluate startups that demonstrate rapid prototyping capabilities as potential high-reward investments.",
     "last_proof_cite": "All-In with Chamath, Jason, Sacks & Friedberg \u2022 2026-09-21 \u2022 Naveen Rao: 4D Computing, AI's Energy Wall & Beating Biology",
     "last_proof_snippet": "Naveen Rau, co-founder and CEO of Unconventional AI, which is an AI chip startup, best willing for building and selling to deep tech companies. Naveen is kind of definitely outlier, founder. When I came there, we had about 20 million dollar",
@@ -49672,7 +49809,7 @@ const dashboardData = {
     "last_podcast_name": "The a16z Show",
     "last_episode_date": "2026-09-18",
     "mention_score": 1,
-    "mention_score_decayed": 0.76,
+    "mention_score_decayed": 0.74,
     "last_main_idea": "Automate cybersecurity processes to keep pace with AI-driven threats and reduce response times.",
     "last_proof_cite": "The a16z Show \u2022 2026-09-18 \u2022 Databricks CEO on AI Pacing, Cyber Risk, and the Enterprise",
     "last_proof_snippet": "As a business leader, there's a tragedy of the comments. If you want to stop, if you want to go slower, why don't you go slower? Like I'm competing, I want to win. There's almost two camps. There's one camp which believes that this actually",
@@ -50018,7 +50155,7 @@ const dashboardData = {
     "last_podcast_name": "All-In with Chamath, Jason, Sacks & Friedberg",
     "last_episode_date": "2026-09-17",
     "mention_score": 1,
-    "mention_score_decayed": 0.72,
+    "mention_score_decayed": 0.71,
     "last_main_idea": "Investing in preventive healthcare and AI infrastructure presents significant opportunities, but requires careful monitoring of revenue growth and market conditions.",
     "last_proof_cite": "All-In with Chamath, Jason, Sacks & Friedberg \u2022 2026-09-17 \u2022 Brad Gerstner: No AI Bubble, Semis Eat the Nasdaq & AI's Take Off Problem",
     "last_proof_snippet": "Our favorite fifth-besty in the world, the one the only Brad Kershner contributor Brad has had unbelievable career starting five companies so he's got a very different mentality than your sort of classic hedge fund guy. He's an amazingly su",
@@ -51779,7 +51916,7 @@ const dashboardData = {
     "last_podcast_name": "The a16z Show",
     "last_episode_date": "2026-08-28",
     "mention_score": 1,
-    "mention_score_decayed": 0.46,
+    "mention_score_decayed": 0.45,
     "last_main_idea": "The next major bottleneck in AI is not the model itself, but the underlying infrastructure that supports it, presenting a significant investment opportunity in companies that can innovate and scale to meet these new demands.",
     "last_proof_cite": "The a16z Show \u2022 2026-08-28 \u2022 The Infrastructure Behind the Machine Age",
     "last_proof_snippet": "We have a whole new technology that's most important technology ever and you need a whole new infrastructure Now I'm going to even be talking about the infrastructure We're talking about the subverse and the storage and the network here goe",
@@ -51843,7 +51980,7 @@ const dashboardData = {
     "last_podcast_name": "The a16z Show",
     "last_episode_date": "2026-08-28",
     "mention_score": 1,
-    "mention_score_decayed": 0.46,
+    "mention_score_decayed": 0.45,
     "last_main_idea": "The next major bottleneck in AI is not the model itself, but the underlying infrastructure that supports it, presenting a significant investment opportunity in companies that can innovate and scale to meet these new demands.",
     "last_proof_cite": "The a16z Show \u2022 2026-08-28 \u2022 The Infrastructure Behind the Machine Age",
     "last_proof_snippet": "We have a whole new technology that's most important technology ever and you need a whole new infrastructure Now I'm going to even be talking about the infrastructure We're talking about the subverse and the storage and the network here goe",
@@ -52092,7 +52229,7 @@ const dashboardData = {
     "last_podcast_name": "All-In with Chamath, Jason, Sacks & Friedberg",
     "last_episode_date": "2026-08-26",
     "mention_score": 1,
-    "mention_score_decayed": 0.45,
+    "mention_score_decayed": 0.44,
     "last_main_idea": "Investing in cutting-edge scientific research and exploration could lead to paradigm-shifting discoveries with significant impact on various industries.",
     "last_proof_cite": "All-In with Chamath, Jason, Sacks & Friedberg \u2022 2026-08-26 \u2022 Eric Weinstein: The State of American Science, Breakthrough Coverups, and the Danger of Physics",
     "last_proof_snippet": "We have become a f***ing nation when it comes to science. You were called a friend scientist and keep saying, friend, yeah. I totally disagree with the narrative of the field. I want to blow a giant pole in civil rights act. The stagnation",
@@ -55601,7 +55738,7 @@ const dashboardData = {
     "last_podcast_name": "Latent Space: The AI Engineer Podcast",
     "last_episode_date": "2026-07-23",
     "mention_score": 1,
-    "mention_score_decayed": 0.2,
+    "mention_score_decayed": 0.19,
     "last_main_idea": "Investing in AI development, particularly in the democratization of AI and the scaling of language models, can lead to significant innovation and competitive advantage.",
     "last_proof_cite": "Latent Space: The AI Engineer Podcast \u2022 2026-07-23 \u2022 Inside the Model Factory \u2014 Eiso Kant, Poolside AI",
     "last_proof_snippet": "All right, we're here in the studio. If I was a countryman, we'll fight together with people. Welcome. Thanks, thank you, guys. It's good to be here. Yeah, fresh on the plane. You texted me, you're like, hey, I'm on my way to SF. I was like",
@@ -56215,66 +56352,6 @@ const dashboardData = {
     "net_worth": "$7.00B"
   },
   {
-    "id": 42,
-    "name": "Jack Mallers",
-    "slug": "jack-mallers",
-    "bio": "Jack Mallers is the CEO of Strike, a Bitcoin financial platform that advocates for Bitcoin adoption and financial innovation. He is known for his work in the cryptocurrency space and his efforts to integrate Bitcoin into everyday financial transactions.",
-    "known_for": "Advocating for Bitcoin adoption and financial innovation.",
-    "net_worth_usd": 50000000.0,
-    "net_worth_source": "https://www.datawallet.com/crypto/jack-mallers-net-worth",
-    "net_worth_updated_at": "2026-04-01T05:04:14.863404",
-    "voice_tone": "Assertive and insightful.",
-    "voice_style": "Direct and focused on the importance of authenticity in Bitcoin discussions.",
-    "voice_delivery_notes": "Clear and deliberate, with emphasis on key points.",
-    "voice_profile_updated_at": "2026-06-16 11:37:25",
-    "last_seen": "2026-06-16 11:37:25",
-    "last_episode_title": "15 Questions: The Strait, Strategy, mNAV, Dilution, & My Boots",
-    "last_podcast_name": "The Jack Mallers Show",
-    "last_episode_date": "2026-06-16",
-    "mention_score": 2,
-    "mention_score_decayed": 0.17,
-    "last_main_idea": "Bitcoin's price movements reflect real market sentiment and can act as a leading indicator for global market conditions.",
-    "last_proof_cite": "The Jack Mallers Show \u2022 2026-06-16 \u2022 15 Questions: The Strait, Strategy, mNAV, Dilution, & My Boots",
-    "last_proof_snippet": "Yo, welcome back to another episode of the Jack Mallors Show. I'm your host Jack, and you're listening to mail bag Monday, ladies and gentlemen. Oh, there's my resources tab, my AI tool. All right, let's get back to slide one. You were list",
-    "supporting_takeaway": "Bitcoin treasury companies face challenges in managing their capital structures to satisfy common equity, preferred equity, and debt holders.",
-    "grokipedia_url": null,
-    "grokipedia_fetched_at": "2026-06-21T05:01:29.272192",
-    "pundit_profile": {
-      "source": "llm",
-      "source_model": "moonshot:moonshot-v1-8k",
-      "source_url": "",
-      "page_title": "Jack Mallers",
-      "fetched_at": "2026-06-21T10:01:29.271870+00:00",
-      "cliff_notes": "Jack Mallers is a prominent figure in the Bitcoin and cryptocurrency space, serving as the CEO of Strike, a financial platform that aims to make Bitcoin transactions as easy as email. His work has been pivotal in advocating for the adoption of Bitcoin in everyday financial activities. Mallers' contributions to the field have made him a key influencer in discussions around financial innovation and the future of money. His efforts are focused on simplifying and democratizing access to financial services through Bitcoin, which positions him as a significant player in the ongoing evolution of digital currencies.",
-      "derived": {
-        "current_role": "CEO of Strike"
-      },
-      "infobox": {
-        "Born": "",
-        "Nationality": ""
-      },
-      "lead_paragraphs": [
-        "Jack Mallers is a prominent figure in the Bitcoin and cryptocurrency space, serving as the CEO of Strike, a financial platform that aims to make Bitcoin transactions as easy as email. His work has been pivotal in advocating for the adoption of Bitcoin in everyday financial activities. Mallers' contributions to the field have made him a key influencer in discussions around financial innovation and the future of money.",
-        "His efforts are focused on simplifying and democratizing access to financial services through Bitcoin, which positions him as a significant player in the ongoing evolution of digital currencies."
-      ],
-      "sections": [
-        {
-          "heading": "Bitcoin Advocacy",
-          "body": "Jack Mallers is a vocal advocate for the adoption of Bitcoin, promoting its use in everyday transactions and financial services."
-        },
-        {
-          "heading": "Financial Innovation",
-          "body": "Mallers is known for his efforts in financial innovation, particularly in how Bitcoin can be integrated into existing financial systems to enhance accessibility and efficiency."
-        },
-        {
-          "heading": "Strike Platform",
-          "body": "As the CEO of Strike, Mallers leads a platform that simplifies Bitcoin transactions, aiming to make them as ubiquitous as sending an email."
-        }
-      ]
-    },
-    "net_worth": "$50.0M"
-  },
-  {
     "id": 335,
     "name": "Pat Gelsinger",
     "slug": "pat-gelsinger",
@@ -56473,6 +56550,66 @@ const dashboardData = {
         }
       ]
     }
+  },
+  {
+    "id": 42,
+    "name": "Jack Mallers",
+    "slug": "jack-mallers",
+    "bio": "Jack Mallers is the CEO of Strike, a Bitcoin financial platform that advocates for Bitcoin adoption and financial innovation. He is known for his work in the cryptocurrency space and his efforts to integrate Bitcoin into everyday financial transactions.",
+    "known_for": "Advocating for Bitcoin adoption and financial innovation.",
+    "net_worth_usd": 50000000.0,
+    "net_worth_source": "https://www.datawallet.com/crypto/jack-mallers-net-worth",
+    "net_worth_updated_at": "2026-04-01T05:04:14.863404",
+    "voice_tone": "Assertive and insightful.",
+    "voice_style": "Direct and focused on the importance of authenticity in Bitcoin discussions.",
+    "voice_delivery_notes": "Clear and deliberate, with emphasis on key points.",
+    "voice_profile_updated_at": "2026-06-16 11:37:25",
+    "last_seen": "2026-06-16 11:37:25",
+    "last_episode_title": "15 Questions: The Strait, Strategy, mNAV, Dilution, & My Boots",
+    "last_podcast_name": "The Jack Mallers Show",
+    "last_episode_date": "2026-06-16",
+    "mention_score": 2,
+    "mention_score_decayed": 0.16,
+    "last_main_idea": "Bitcoin's price movements reflect real market sentiment and can act as a leading indicator for global market conditions.",
+    "last_proof_cite": "The Jack Mallers Show \u2022 2026-06-16 \u2022 15 Questions: The Strait, Strategy, mNAV, Dilution, & My Boots",
+    "last_proof_snippet": "Yo, welcome back to another episode of the Jack Mallors Show. I'm your host Jack, and you're listening to mail bag Monday, ladies and gentlemen. Oh, there's my resources tab, my AI tool. All right, let's get back to slide one. You were list",
+    "supporting_takeaway": "Bitcoin treasury companies face challenges in managing their capital structures to satisfy common equity, preferred equity, and debt holders.",
+    "grokipedia_url": null,
+    "grokipedia_fetched_at": "2026-06-21T05:01:29.272192",
+    "pundit_profile": {
+      "source": "llm",
+      "source_model": "moonshot:moonshot-v1-8k",
+      "source_url": "",
+      "page_title": "Jack Mallers",
+      "fetched_at": "2026-06-21T10:01:29.271870+00:00",
+      "cliff_notes": "Jack Mallers is a prominent figure in the Bitcoin and cryptocurrency space, serving as the CEO of Strike, a financial platform that aims to make Bitcoin transactions as easy as email. His work has been pivotal in advocating for the adoption of Bitcoin in everyday financial activities. Mallers' contributions to the field have made him a key influencer in discussions around financial innovation and the future of money. His efforts are focused on simplifying and democratizing access to financial services through Bitcoin, which positions him as a significant player in the ongoing evolution of digital currencies.",
+      "derived": {
+        "current_role": "CEO of Strike"
+      },
+      "infobox": {
+        "Born": "",
+        "Nationality": ""
+      },
+      "lead_paragraphs": [
+        "Jack Mallers is a prominent figure in the Bitcoin and cryptocurrency space, serving as the CEO of Strike, a financial platform that aims to make Bitcoin transactions as easy as email. His work has been pivotal in advocating for the adoption of Bitcoin in everyday financial activities. Mallers' contributions to the field have made him a key influencer in discussions around financial innovation and the future of money.",
+        "His efforts are focused on simplifying and democratizing access to financial services through Bitcoin, which positions him as a significant player in the ongoing evolution of digital currencies."
+      ],
+      "sections": [
+        {
+          "heading": "Bitcoin Advocacy",
+          "body": "Jack Mallers is a vocal advocate for the adoption of Bitcoin, promoting its use in everyday transactions and financial services."
+        },
+        {
+          "heading": "Financial Innovation",
+          "body": "Mallers is known for his efforts in financial innovation, particularly in how Bitcoin can be integrated into existing financial systems to enhance accessibility and efficiency."
+        },
+        {
+          "heading": "Strike Platform",
+          "body": "As the CEO of Strike, Mallers leads a platform that simplifies Bitcoin transactions, aiming to make them as ubiquitous as sending an email."
+        }
+      ]
+    },
+    "net_worth": "$50.0M"
   },
   {
     "id": 328,
@@ -58427,7 +58564,7 @@ const dashboardData = {
     "last_podcast_name": "Latent Space: The AI Engineer Podcast",
     "last_episode_date": "2026-06-03",
     "mention_score": 1,
-    "mention_score_decayed": 0.09,
+    "mention_score_decayed": 0.08,
     "last_main_idea": "Assess the interdisciplinary nature of a company's team as a critical factor in its potential for success.",
     "last_proof_cite": "Latent Space: The AI Engineer Podcast \u2022 2026-06-03 \u2022 \ud83d\udd2cScaling Past Informal AI - Carina Hong, Axiom Math",
     "last_proof_snippet": "But it's for the first time now I think verified AI is to open up collaboration. Either it's human AI collaboration. Well, before a blueprint like that's human human collaboration. And Lin was a grounding, was a verification formal language",
@@ -67643,7 +67780,7 @@ const dashboardData = {
         }
       ],
       "disclaimer": "Research sleeve / scorecard, not advice. $1,000 equal-weight illustration only.",
-      "last_updated": "2026-10-02T05:09:38.135417"
+      "last_updated": "2026-10-02T06:43:37.221996"
     }
   ]
 }
