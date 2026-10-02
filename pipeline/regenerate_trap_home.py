@@ -62,7 +62,7 @@ def _parse_date_key(date_str: str) -> tuple[int, int, int]:
     
     year_match = re.search(r"\b(202\d)\b", s)
     if year_match:
-        return (int(year_match.group(1)), 6, 15)
+        return (int(year_match.group(1)), 12, 31)
     
     return (9999, 12, 31)
 
@@ -142,7 +142,7 @@ def regenerate_trap_home(trap_map_path: Path = TRAP_MAP_PATH) -> dict:
         if trap.get("id") == "trap-1-power-interconnect":
             short_title = "Power + DC interconnect"
         elif trap.get("id") == "buyback-confession-captive-duration":
-            short_title = "Buyback / captive duration"
+            short_title = "Cleared, no relief"
         elif trap.get("id") == "asts-secondary-watch":
             short_title = "AST SpaceMobile"
         elif trap.get("id") == "arkg-hold-goalposts":
@@ -159,6 +159,10 @@ def regenerate_trap_home(trap_map_path: Path = TRAP_MAP_PATH) -> dict:
     for trap in traps:
         watch = _extract_upcoming_watch(trap)
         if watch:
+            if watch["trap_id"] == "buyback-confession-captive-duration":
+                watch["date_label"] = "2026-10-06"
+                watch["what"] = "Oct 6 and Oct 7 note auctions"
+                watch["_sort_key"] = (2026, 10, 6)
             upcoming_raw.append(watch)
     
     upcoming_raw.sort(key=lambda w: w["_sort_key"])

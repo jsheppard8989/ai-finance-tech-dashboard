@@ -1,11 +1,11 @@
 {
   "_comment": "Home page summary of Trap Map. Regenerate from trap_map.json when a trap datapoint is stamped. Script hook: pipeline/regenerate_trap_home.py",
-  "_generated_at": "2026-10-02T00:26:21Z",
+  "_generated_at": "2026-10-02T00:29:55Z",
   "_source": "data/trap_map.json",
   "last_monitored": [
     {
       "id": "buyback-confession-captive-duration",
-      "short_title": "Buyback / captive duration",
+      "short_title": "Cleared, no relief",
       "status": "WATCH",
       "updated_at": "2026-10-01"
     },
@@ -24,11 +24,6 @@
   ],
   "upcoming_watches": [
     {
-      "trap_id": "arkg-hold-goalposts",
-      "date_label": "TWST ~Nov FY26 report; TEM\u2013PSNL late Q4'26\u2013early'27; NTLA acceptance expected 2H 2026",
-      "what": "TWST Q4 FY26 adj. EBITDA print / TEM\u2013PSNL close update / NTLA BLA acceptance window"
-    },
-    {
       "trap_id": "trap-1-power-interconnect",
       "date_label": "Sep 16 2026 CLLSCO workshop; Nov 2026 intended Retail BTMG filing; \u00a7206 on/before 16 Nov 2026",
       "what": "Sep 16 CLLSCO posted draft OATT 34.2 Retail BTMG redline (50 MW site cap; transition to Dec 18 2028)"
@@ -37,6 +32,11 @@
       "trap_id": "iren-ai-cloud-residual",
       "date_label": "Horizon window = calendar Q4 2026 (check by early Jan 2027); Q1 FY27 10-Q after quarter ended 2026-09-30 (IR date UNKNOWN as of 2026-09-22); Expression ongoing",
       "what": "Any Horizon 2\u20134 acceptance 8-K; IR-confirmed Q1 FY27 earnings date then that 10-Q; intervening ATM/c"
+    },
+    {
+      "trap_id": "buyback-confession-captive-duration",
+      "date_label": "2026-10-06",
+      "what": "Oct 6 and Oct 7 note auctions"
     }
   ]
 }
