@@ -1,7 +1,7 @@
 {
-  "generated_at": "2026-10-01T22:19:12.232225",
-  "last_updated": "2026-10-01T22:19:12.232225",
-  "last_pipeline_run": "2026-10-01T22:19:12.232225",
+  "generated_at": "2026-10-01T23:52:03.086359",
+  "last_updated": "2026-10-01T23:52:03.086359",
+  "last_pipeline_run": "2026-10-01T23:52:03.086359",
   "main_page": {
     "overton": 13,
     "insights": 12,
@@ -20,51 +20,14 @@
     "podcasts_analyzed": 6
   },
   "step_results": {
-    "downloaded": 2,
-    "transcribed": 2,
-    "analyzed": 2,
-    "insight_created": 2,
-    "published": 2,
-    "total": 2
+    "downloaded": 0,
+    "transcribed": 0,
+    "analyzed": 0,
+    "insight_created": 0,
+    "published": 0,
+    "total": 0
   },
-  "episodes": [
-    {
-      "id": "5010ccb8-bdc8-11f1-9a52-4b62ec35f982",
-      "podcast": "Monetary Matters with Jack Farley",
-      "title": "Ed Zitron on Anthropic's IPO (S-1), AI Debt, and Counterparty Risk",
-      "published": "2026-10-01",
-      "rss_guid": "5010ccb8-bdc8-11f1-9a52-4b62ec35f982",
-      "stages": {
-        "downloaded": true,
-        "transcribed": true,
-        "analyzed": true,
-        "insight_created": true,
-        "published": true
-      },
-      "stage_reasons": {},
-      "first_blocker": null,
-      "remediation_by_stage": {},
-      "status": "complete"
-    },
-    {
-      "id": "substack:post:218414422",
-      "podcast": "Latent Space: The AI Engineer Podcast",
-      "title": "Academia is for Ambition \u2014 Alex Zhang, MIT",
-      "published": "2026-10-02",
-      "rss_guid": "substack:post:218414422",
-      "stages": {
-        "downloaded": true,
-        "transcribed": true,
-        "analyzed": true,
-        "insight_created": true,
-        "published": true
-      },
-      "stage_reasons": {},
-      "first_blocker": null,
-      "remediation_by_stage": {},
-      "status": "complete"
-    }
-  ],
+  "episodes": [],
   "available_from_rss": [],
   "stale_episodes": [],
   "stale_threshold_days": 2,
