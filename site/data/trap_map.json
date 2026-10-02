@@ -120,15 +120,16 @@
       "title": "Cleared, no relief",
       "prior_label": "Buyback as confession",
       "validation_status": "WATCH",
-      "status_note": "Sep 28 official yields: 10-year 5.24% and 30-year 5.56%, with the gap between them at 32 basis points (Sep 23 was 5.11% and 5.40%). Belly week is complete: 2-year No change, 5-year Hurts, 7-year Hurts (mild). The Sep 24 long-end buyback accepted $4.078 billion of a $6 billion cap even though $10.468 billion was offered (12 of 35 issues). A soft belly and an undersized buyback did not pull the long end down. Still Watch. Next prints: August PCE on Sep 30, then the Oct 1 announce for the 3-year and the 10-year reopen, plus a scheduled 10-year to 20-year buyback. The structural gate stays the Nov 4 refunding. Bond-market volatility (MOVE, EODData) closed at 101.8 on Sep 28.",
-      "who_collects_rent": "Whoever is forced or structurally bid to warehouse long-end duration (banks/pensions under repression; issuer as standing long-end bid via enlarged buybacks) while coupon supply continues.",
-      "leftover": "Narratives that treat buybacks as one-off 'support' while private sponsorship of the long end remains thin.",
-      "decisive_test": "Sep 9 10Y STAMPED (PASS); Sep 10 30Y STAMPED (PASS); Sep 10 $6bn buyback op: $5.187bn accepted / $10.489bn offered (86.5% of max; 23/40 issues); Sep 22 2Y AFTER No change (HY 4.787 / BTC 2.63); Sep 23 5Y AFTER Hurts (HY 5.033 / BTC 2.21 / tail 8.3 bp); Sep 24 7Y AFTER Hurts (mild) (HY 5.085 / BTC 2.42 / tail 6.6 bp); Nov 4 QRA buyback maxes; Sep 24 long-end buyback $4.078bn accepted of $6bn max with $10.468bn offered (12 of 35 issues); CMT 9/28 10y 5.24% / 30y 5.56%.",
+      "status_note": "",
+      "who_collects_rent": "Whoever has to hold long bonds the market does not really want: banks and pensions that must own them, and Treasury when it buys old bonds back, while new long bonds keep being issued.",
+      "leftover": "The story that a buyback is support, or that the long end is fine because an auction got done.",
+      "decisive_test": "Still Watch. The Oct 1 buyback took the full $6 billion cap ($46.4 billion offered, two bonds bought). That was the test for a 10-year short, and it failed, so there is no position. Next reads are the Oct 6 and Oct 7 note auctions, then the Nov 4 refunding.",
+      "dated_test_log": "Sep 9 10Y STAMPED (PASS); Sep 10 30Y STAMPED (PASS); Sep 10 $6bn buyback op: $5.187bn accepted / $10.489bn offered (86.5% of max; 23/40 issues); Sep 22 2Y AFTER No change (HY 4.787 / BTC 2.63); Sep 23 5Y AFTER Hurts (HY 5.033 / BTC 2.21 / tail 8.3 bp); Sep 24 7Y AFTER Hurts (mild) (HY 5.085 / BTC 2.42 / tail 6.6 bp); Nov 4 QRA buyback maxes; Sep 24 long-end buyback $4.078bn accepted of $6bn max with $10.468bn offered (12 of 35 issues); CMT 9/28 10y 5.24% / 30y 5.56%.",
       "next_datapoint": {
-        "label": "Sep 30 August PCE; Oct 1 announce for the 3-year (CUSIP 91282CRQ6) and 10-year reopen (91282CRF0) plus a 10-year to 20-year buyback; Oct 6–7 auctions. Structural gate is the Nov 4 refunding. CMT 9/28: 10y 5.24 / 30y 5.56.",
-        "expected_date": "Aug PCE 2026-09-30; announce 2026-10-01; Nov 4 2026 refunding"
+        "label": "Oct 6 and Oct 7 note auctions, then the Nov 4 refunding.",
+        "expected_date": "2026-10-06; 2026-10-07; 2026-11-04"
       },
-      "relegate_if": "Strong private auction sponsorship makes buybacks cosmetic; or Nov 4 refunding cuts buyback sizes so the structural state-bid claim dies.",
+      "relegate_if": "We drop this if the Nov 4 refunding cuts the buyback program, or if private buyers take the new long bonds easily enough that the buybacks no longer matter.",
       "sources": [
         "Treasury 10Y auction 2026-09-09 — BTC 2.71; high 4.834%; indirects ~79.2% (PASS — private bid intact)",
         "Treasury 30Y reopen 2026-09-10 CUSIP 912810UW6 — $22bn; high 5.308%; BTC 2.61; indirects 79.5%; dealers 2.2%; median 5.250% (PASS — private bid intact at elevated clear)",
@@ -143,9 +144,9 @@
         "Treasury daily CMT par curve 2026-09-28 — 2y 4.92%; 5y 5.06%; 10y 5.24%; 20y 5.60%; 30y 5.56%; 2s10s +32 bp; 10s30s +32 bp — https://home.treasury.gov/resource-center/data-chart-center/interest-rates/TextView?type=daily_treasury_yield_curve&field_tdr_date_value_month=202609",
         "EODData INDEX/MOVE close 2026-09-28: 101.8 (Sep 24 close 104.6)"
       ],
-      "updated_at": "2026-09-29",
-      "drop_if": "Strong private auction sponsorship makes buybacks cosmetic; or Nov 4 refunding cuts buyback sizes so the structural state-bid claim dies.",
-      "outlook_note": "Duration sponsorship is the price of warehousing coupons when clearance is not relief. Machine-time and tokenization can raise calm-period velocity of wealth; they do not turn stress into money, and they do not free captive absorbers from the long-end cost of capital."
+      "updated_at": "2026-10-01",
+      "drop_if": "We drop this if the Nov 4 refunding cuts the buyback program, or if private buyers take the new long bonds easily enough that the buybacks no longer matter.",
+      "outlook_note": "Getting the bonds sold is not the same as the market wanting them. A full buyback of old bonds does not lower the cost of the next new ones."
     },
     {
       "id": "iren-ai-cloud-residual",
