@@ -1131,7 +1131,7 @@ const dashboardData = {
       "source_type": "podcast",
       "source_name": "The a16z Show",
       "source_date": "2026-10-02",
-      "summary": "Elena Berger hosts Seema Amble of a16z and Vlad Kyle, co-founder and CEO of Leo, to examine why AI-native application startups can still compete when incumbents already own distribution, customer trust, and systems of record. Seema argues that incumbent software plus a model is often limited to retrieval and workflow help inside one system, while AI-native companies can own end-to-end work that spans contracts, email, billing, finance, legal, and supplier conversations.\n\nVlad uses procurement as the example of work hidden outside the system of record. He says an ERP entry might show only an 8K aluminum price, while the real work involved 30 stakeholder meetings, 500 emails, 20 Excel sheets, and three weeks of cost engineering and 3D modeling. He also argues that invoice process automation covers only about 20% of the job, because the remaining 80% is exception handling such as fraud, mismatches, and non-happy-path cases.\n\nThe speakers do not have a major disagreement; instead, Seema frames the market structure and Vlad explains the operating mechanics. Vlad says enterprises do not begin with fully autonomous negotiation agents on day one, because trust has to be earned through human-in-the-loop deployment and feedback. Over time, he claims customers can allow agents to handle 10k, 20k, and 100k negotiations, while multimillion-dollar or billion-dollar strategic supplier negotiations still require expert humans and long-running agent support.\n\nThe episode predicts a future where agents operate on both buyer and supplier sides of transactions. Vlad argues that price is only the final output of roughly 5,000 upstream tasks, many of which have aligned incentives because both sales and procurement want less friction and faster time to market. He also claims procurement has unusual leverage in industrial Fortune 500 settings because buyers can dictate the tools and response formats suppliers use.",
+      "summary": "Elena Berger hosts Seema Amble of a16z and Vladimir Keil, co-founder and CEO of Lio, to examine why AI-native application startups can still compete when incumbents already own distribution, customer trust, and systems of record. Seema argues that incumbent software plus a model is often limited to retrieval and workflow help inside one system, while AI-native companies can own end-to-end work that spans contracts, email, billing, finance, legal, and supplier conversations.\n\nVlad uses procurement as the example of work hidden outside the system of record. He says an ERP entry might show only an 8K aluminum price, while the real work involved 30 stakeholder meetings, 500 emails, 20 Excel sheets, and three weeks of cost engineering and 3D modeling. He also argues that invoice process automation covers only about 20% of the job, because the remaining 80% is exception handling such as fraud, mismatches, and non-happy-path cases.\n\nThe speakers do not have a major disagreement; instead, Seema frames the market structure and Vlad explains the operating mechanics. Vlad says enterprises do not begin with fully autonomous negotiation agents on day one, because trust has to be earned through human-in-the-loop deployment and feedback. Over time, he claims customers can allow agents to handle 10k, 20k, and 100k negotiations, while multimillion-dollar or billion-dollar strategic supplier negotiations still require expert humans and long-running agent support.\n\nThe episode predicts a future where agents operate on both buyer and supplier sides of transactions. Vlad argues that price is only the final output of roughly 5,000 upstream tasks, many of which have aligned incentives because both sales and procurement want less friction and faster time to market. He also claims procurement has unusual leverage in industrial Fortune 500 settings because buyers can dictate the tools and response formats suppliers use.",
       "key_takeaway": "Seema Amble argues AI-native startups can beat incumbents by owning end-to-end work across emails, contracts, billing, and systems of record rather than adding retrieval agents to Salesforce-style workflows.",
       "tickers_mentioned": [
         "CRM",
@@ -1151,11 +1151,11 @@ const dashboardData = {
           "quote": "The opportunity for the AI native startup is to say, we're going to own that entire end-to-end arc"
         },
         {
-          "speaker": "Vlad Kyle",
+          "speaker": "Vladimir Keil",
           "quote": "No company and no enterprise starts with fully autonomous negotiation agents from day one."
         },
         {
-          "speaker": "Vlad Kyle",
+          "speaker": "Vladimir Keil",
           "quote": "90% of the work is preparation."
         }
       ]
@@ -12857,7 +12857,7 @@ const dashboardData = {
       "first_detected_episode_id": 473,
       "first_detected_speaker": null,
       "last_mentioned_episode_id": 546,
-      "last_mentioned_speaker": "Seema Amble, Vlad Kyle"
+      "last_mentioned_speaker": "Seema Amble, Vladimir Keil"
     },
     {
       "id": 284,
@@ -14999,7 +14999,7 @@ const dashboardData = {
       "first_detected_episode_id": 31,
       "first_detected_speaker": null,
       "last_mentioned_episode_id": 546,
-      "last_mentioned_speaker": "Seema Amble, Vlad Kyle"
+      "last_mentioned_speaker": "Seema Amble, Vladimir Keil"
     },
     {
       "id": 38,
@@ -15161,7 +15161,7 @@ const dashboardData = {
       "first_detected_episode_id": 69,
       "first_detected_speaker": null,
       "last_mentioned_episode_id": 546,
-      "last_mentioned_speaker": "Seema Amble, Vlad Kyle"
+      "last_mentioned_speaker": "Seema Amble, Vladimir Keil"
     },
     {
       "id": 13,
@@ -15269,7 +15269,7 @@ const dashboardData = {
       "source_type": "podcast",
       "source_name": "The a16z Show",
       "source_date": "2026-10-02",
-      "summary": "Elena Berger hosts Seema Amble of a16z and Vlad Kyle, co-founder and CEO of Leo, to examine why AI-native application startups can still compete when incumbents already own distribution, customer trust, and systems of record. Seema argues that incumbent software plus a model is often limited to retrieval and workflow help inside one system, while AI-native companies can own end-to-end work that spans contracts, email, billing, finance, legal, and supplier conversations.\n\nVlad uses procurement as the example of work hidden outside the system of record. He says an ERP entry might show only an 8K aluminum price, while the real work involved 30 stakeholder meetings, 500 emails, 20 Excel sheets, and three weeks of cost engineering and 3D modeling. He also argues that invoice process automation covers only about 20% of the job, because the remaining 80% is exception handling such as fraud, mismatches, and non-happy-path cases.\n\nThe speakers do not have a major disagreement; instead, Seema frames the market structure and Vlad explains the operating mechanics. Vlad says enterprises do not begin with fully autonomous negotiation agents on day one, because trust has to be earned through human-in-the-loop deployment and feedback. Over time, he claims customers can allow agents to handle 10k, 20k, and 100k negotiations, while multimillion-dollar or billion-dollar strategic supplier negotiations still require expert humans and long-running agent support.\n\nThe episode predicts a future where agents operate on both buyer and supplier sides of transactions. Vlad argues that price is only the final output of roughly 5,000 upstream tasks, many of which have aligned incentives because both sales and procurement want less friction and faster time to market. He also claims procurement has unusual leverage in industrial Fortune 500 settings because buyers can dictate the tools and response formats suppliers use.",
+      "summary": "Elena Berger hosts Seema Amble of a16z and Vladimir Keil, co-founder and CEO of Lio, to examine why AI-native application startups can still compete when incumbents already own distribution, customer trust, and systems of record. Seema argues that incumbent software plus a model is often limited to retrieval and workflow help inside one system, while AI-native companies can own end-to-end work that spans contracts, email, billing, finance, legal, and supplier conversations.\n\nVlad uses procurement as the example of work hidden outside the system of record. He says an ERP entry might show only an 8K aluminum price, while the real work involved 30 stakeholder meetings, 500 emails, 20 Excel sheets, and three weeks of cost engineering and 3D modeling. He also argues that invoice process automation covers only about 20% of the job, because the remaining 80% is exception handling such as fraud, mismatches, and non-happy-path cases.\n\nThe speakers do not have a major disagreement; instead, Seema frames the market structure and Vlad explains the operating mechanics. Vlad says enterprises do not begin with fully autonomous negotiation agents on day one, because trust has to be earned through human-in-the-loop deployment and feedback. Over time, he claims customers can allow agents to handle 10k, 20k, and 100k negotiations, while multimillion-dollar or billion-dollar strategic supplier negotiations still require expert humans and long-running agent support.\n\nThe episode predicts a future where agents operate on both buyer and supplier sides of transactions. Vlad argues that price is only the final output of roughly 5,000 upstream tasks, many of which have aligned incentives because both sales and procurement want less friction and faster time to market. He also claims procurement has unusual leverage in industrial Fortune 500 settings because buyers can dictate the tools and response formats suppliers use.",
       "key_takeaway": "Seema Amble argues AI-native startups can beat incumbents by owning end-to-end work across emails, contracts, billing, and systems of record rather than adding retrieval agents to Salesforce-style workflows.",
       "tickers_mentioned": "[\"CRM\", \"SAP\", \"ORCL\"]",
       "sentiment": "bullish",
@@ -15285,11 +15285,11 @@ const dashboardData = {
           "quote": "The opportunity for the AI native startup is to say, we're going to own that entire end-to-end arc"
         },
         {
-          "speaker": "Vlad Kyle",
+          "speaker": "Vladimir Keil",
           "quote": "No company and no enterprise starts with fully autonomous negotiation agents from day one."
         },
         {
-          "speaker": "Vlad Kyle",
+          "speaker": "Vladimir Keil",
           "quote": "90% of the work is preparation."
         }
       ],
@@ -47107,7 +47107,7 @@ const dashboardData = {
     "transcript_excerpt": null,
     "created_at": "2026-10-02T06:43:01.820574",
     "updated_at": "2026-10-02 11:43:01",
-    "episode_evidence": "Vlad Kyle: \"70% of the performance or currency or however you measured it, it depends really on the task. It doesn't mean 70% automation, right?\"\nSeema Amble: \"you're locking in the customer, there's more dependencies. They find it valuable, and you're doing more of the work.\"\nVlad Kyle: \"to get, like, 1% margin increase, um, you need to make 10% more revenue, 10% more sales.\"",
+    "episode_evidence": "Vladimir Keil: \"70% of the performance or currency or however you measured it, it depends really on the task. It doesn't mean 70% automation, right?\"\nSeema Amble: \"you're locking in the customer, there's more dependencies. They find it valuable, and you're doing more of the work.\"\nVladimir Keil: \"to get, like, 1% margin increase, um, you need to make 10% more revenue, 10% more sales.\"",
     "falsification_tracks": [
       "By YE2026, SAP, Oracle, or Salesforce publishes customer case studies with audited metrics showing cross-system agents handling more than 70% of procurement or support exceptions without third-party vertical AI tools.",
       "At least three Fortune 500 companies publicly report successful internal builds of procurement agents that reach production in under six months, cover exception handling, and cost less than buying specialist vendors.",
@@ -48478,16 +48478,16 @@ const dashboardData = {
     "last_main_idea": "Seema Amble argues AI-native startups can beat incumbents by owning end-to-end work across emails, contracts, billing, and systems of record rather than adding retrieval agents to Salesforce-style workflows.",
     "last_proof_cite": "The a16z Show \u2022 2026-10-02 \u2022 Why AI Agents Can Beat the Incumbents",
     "last_proof_snippet": "If you want to build an aircraft, you need to prepare thousands of suppliers. Someone sends a confirmation of, like, hey, sorry, like this part is going to arrive two weeks later. And if they miss this email, hundreds of millions of them. P",
-    "supporting_takeaway": "Vlad Kyle claims a procurement record showing an 8K aluminum price can hide 30 stakeholder meetings, 500 emails, 20 Excel sheets, and three weeks of cost engineering and 3D modeling.",
+    "supporting_takeaway": "Vladimir Keil claims a procurement record showing an 8K aluminum price can hide 30 stakeholder meetings, 500 emails, 20 Excel sheets, and three weeks of cost engineering and 3D modeling.",
     "grokipedia_url": null,
     "grokipedia_fetched_at": null,
     "pundit_profile": null
   },
   {
     "id": 503,
-    "name": "Vlad Kyle",
-    "slug": "vlad-kyle",
-    "bio": "Vlad Kyle is co-founder and CEO of Leo, which builds AI agents for enterprise procurement.",
+    "name": "Vladimir Keil",
+    "slug": "vladimir-keil",
+    "bio": "Vladimir Keil is co-founder and CEO of Lio, which builds AI agents for enterprise procurement.",
     "known_for": "AI agents for procurement, negotiation, supplier coordination, and enterprise purchasing workflows.",
     "net_worth_usd": null,
     "net_worth_source": null,
@@ -48505,7 +48505,7 @@ const dashboardData = {
     "last_main_idea": "Seema Amble argues AI-native startups can beat incumbents by owning end-to-end work across emails, contracts, billing, and systems of record rather than adding retrieval agents to Salesforce-style workflows.",
     "last_proof_cite": "The a16z Show \u2022 2026-10-02 \u2022 Why AI Agents Can Beat the Incumbents",
     "last_proof_snippet": "If you want to build an aircraft, you need to prepare thousands of suppliers. Someone sends a confirmation of, like, hey, sorry, like this part is going to arrive two weeks later. And if they miss this email, hundreds of millions of them. P",
-    "supporting_takeaway": "Vlad Kyle claims a procurement record showing an 8K aluminum price can hide 30 stakeholder meetings, 500 emails, 20 Excel sheets, and three weeks of cost engineering and 3D modeling.",
+    "supporting_takeaway": "Vladimir Keil claims a procurement record showing an 8K aluminum price can hide 30 stakeholder meetings, 500 emails, 20 Excel sheets, and three weeks of cost engineering and 3D modeling.",
     "grokipedia_url": null,
     "grokipedia_fetched_at": null,
     "pundit_profile": null
