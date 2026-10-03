@@ -61,6 +61,66 @@
     "net_worth": "$151.00B"
   },
   {
+    "id": 180,
+    "name": "Amjad Masad",
+    "slug": "amjad-masad",
+    "bio": "Amjad Masad is associated with Replit, which is discussed as an enterprise independence layer for AI and cloud deployment. In the episode, he connects AI agents, data sovereignty, specialized models, and enterprise software strategy.",
+    "known_for": "Replit and AI-native software development tooling.",
+    "net_worth_usd": 400000000.0,
+    "net_worth_source": "https://entrepreneurloop.com/replit-founder-net-worth-amjad-masad-billionaire-400m-funding/",
+    "net_worth_updated_at": "2026-04-15T22:05:02.977189",
+    "voice_tone": "Speculative, technical, and thesis-driven.",
+    "voice_style": "He uses analogies from programming languages, just-in-time compilers, and economic specialization to explain shifts in AI systems.",
+    "voice_delivery_notes": "Use an energetic but precise cadence, with extra emphasis on analogies and predictions.",
+    "voice_profile_updated_at": "2026-10-03 12:02:34",
+    "last_seen": "2026-10-03 12:02:34",
+    "last_episode_title": "Beyond the God Model | Alex Atallah & Amjad Masad",
+    "last_podcast_name": "The a16z Show",
+    "last_episode_date": "2026-10-03",
+    "mention_score": 3,
+    "mention_score_decayed": 3,
+    "last_main_idea": "Alex Atallah argues AI infrastructure will shift toward neurodiverse routing across multiple models because enterprises want lower cost, less lock-in, and task-specific intelligence beyond ChatGPT or Claude.",
+    "last_proof_cite": "The a16z Show \u2022 2026-10-03 \u2022 Beyond the God Model | Alex Atallah & Amjad Masad",
+    "last_proof_snippet": "You saw the SpaceX S1, it was like, oh, 30 trillion dollars. It's like, what is the world GDP 100 trillion? Both strike and open router. Really want lots of new companies in the world. We don't want everyone to be a part of one giant compan",
+    "supporting_takeaway": "Alex Atallah claims enterprises have been more open than expected to open weight models over the past 3 years because they want lower costs, differentiation, and internal AI practices that can benchmark models for their own tasks.",
+    "grokipedia_url": null,
+    "grokipedia_fetched_at": "2026-07-17T12:02:19.435586",
+    "pundit_profile": {
+      "source": "llm",
+      "source_model": "moonshot:moonshot-v1-8k",
+      "source_url": "",
+      "page_title": "Amjad Masad",
+      "fetched_at": "2026-07-17T17:02:19.435257+00:00",
+      "cliff_notes": "Amjad Masad is the CEO of Replit, a company that provides an online code editor and IDE. Before leading Replit to its current success, Masad spent years communicating a vision that many considered too ambitious or unrealistic. His experience in overcoming skepticism and building a community around Replit has shaped his beliefs about the importance of storytelling and transparency in business. Masad's approach to building Replit in the public eye has garnered attention, as he believes in the power of community and the need for CEOs to engage with their audience beyond traditional corporate communication channels.",
+      "derived": {
+        "current_role": "CEO of Replit"
+      },
+      "infobox": {
+        "Born": "",
+        "Nationality": ""
+      },
+      "lead_paragraphs": [
+        "Amjad Masad is the CEO of Replit, a company that provides an online code editor and IDE. Before leading Replit to its current success, Masad spent years communicating a vision that many considered too ambitious or unrealistic. His experience in overcoming skepticism and building a community around Replit has shaped his beliefs about the importance of storytelling and transparency in business.",
+        "Masad's approach to building Replit in the public eye has garnered attention, as he believes in the power of community and the need for CEOs to engage with their audience beyond traditional corporate communication channels."
+      ],
+      "sections": [
+        {
+          "heading": "Replit's Growth",
+          "body": "Amjad Masad has been instrumental in the growth of Replit, transforming it from a startup into a widely recognized platform for code editing and development."
+        },
+        {
+          "heading": "Public Company Building",
+          "body": "Masad is known for his approach to building Replit in public, which includes open communication and engaging with the community, a strategy that has contributed to the company's reputation and user base."
+        },
+        {
+          "heading": "CEO as Influencer",
+          "body": "Amjad Masad believes that while not every CEO needs to become an influencer, there are multiple paths to success, and storytelling can be a powerful tool for companies, especially in product-centric spaces."
+        }
+      ]
+    },
+    "net_worth": "$400.0M"
+  },
+  {
     "id": 81,
     "name": "Elon Musk",
     "slug": "elon-musk",
@@ -574,7 +634,7 @@
     "last_podcast_name": "The a16z Show",
     "last_episode_date": "2026-09-19",
     "mention_score": 2,
-    "mention_score_decayed": 1.48,
+    "mention_score_decayed": 1.45,
     "last_main_idea": "Investing in companies that develop personal AI solutions and interactive consumer experiences presents significant growth opportunities in the evolving digital landscape.",
     "last_proof_cite": "The a16z Show \u2022 2026-09-19 \u2022 What Makes a Consumer AI Product Stick? | Josh Elman",
     "last_proof_snippet": "It's never been easier to get consumers attention. What's harder, I think, is getting me not just to try something, but to actually stick. It has to be such a good product doing that one thing really well out of the box that I either stop d",
@@ -1041,6 +1101,33 @@
     "net_worth": "$14.00B"
   },
   {
+    "id": 505,
+    "name": "Alex Atallah",
+    "slug": "alex-atallah",
+    "bio": "Alex Atallah is associated with OpenRouter, an AI model routing and marketplace platform discussed in the context of Stripe's acquisition. In the episode, he focuses on model choice, AI infrastructure markets, agent safety, and enterprise model diversification.",
+    "known_for": "OpenRouter and model routing across multiple AI providers.",
+    "net_worth_usd": null,
+    "net_worth_source": null,
+    "net_worth_updated_at": null,
+    "voice_tone": "Analytical and infrastructure-focused.",
+    "voice_style": "He builds arguments through marketplace mechanics, enterprise adoption patterns, and technical examples such as fusion models and tool-call checks.",
+    "voice_delivery_notes": "Use a measured pace with emphasis on mechanisms like routing, cost efficiency, and model diversity.",
+    "voice_profile_updated_at": "2026-10-03 12:02:34",
+    "last_seen": "2026-10-03 12:02:34",
+    "last_episode_title": "Beyond the God Model | Alex Atallah & Amjad Masad",
+    "last_podcast_name": "The a16z Show",
+    "last_episode_date": "2026-10-03",
+    "mention_score": 1,
+    "mention_score_decayed": 1,
+    "last_main_idea": "Alex Atallah argues AI infrastructure will shift toward neurodiverse routing across multiple models because enterprises want lower cost, less lock-in, and task-specific intelligence beyond ChatGPT or Claude.",
+    "last_proof_cite": "The a16z Show \u2022 2026-10-03 \u2022 Beyond the God Model | Alex Atallah & Amjad Masad",
+    "last_proof_snippet": "You saw the SpaceX S1, it was like, oh, 30 trillion dollars. It's like, what is the world GDP 100 trillion? Both strike and open router. Really want lots of new companies in the world. We don't want everyone to be a part of one giant compan",
+    "supporting_takeaway": "Alex Atallah claims enterprises have been more open than expected to open weight models over the past 3 years because they want lower costs, differentiation, and internal AI practices that can benchmark models for their own tasks.",
+    "grokipedia_url": null,
+    "grokipedia_fetched_at": null,
+    "pundit_profile": null
+  },
+  {
     "id": 502,
     "name": "Seema Amble",
     "slug": "seema-amble",
@@ -1058,7 +1145,7 @@
     "last_podcast_name": "The a16z Show",
     "last_episode_date": "2026-10-02",
     "mention_score": 1,
-    "mention_score_decayed": 1,
+    "mention_score_decayed": 0.98,
     "last_main_idea": "Seema Amble argues AI-native startups can beat incumbents by owning end-to-end work across emails, contracts, billing, and systems of record rather than adding retrieval agents to Salesforce-style workflows.",
     "last_proof_cite": "The a16z Show \u2022 2026-10-02 \u2022 Why AI Agents Can Beat the Incumbents",
     "last_proof_snippet": "If you want to build an aircraft, you need to prepare thousands of suppliers. Someone sends a confirmation of, like, hey, sorry, like this part is going to arrive two weeks later. And if they miss this email, hundreds of millions of them. P",
@@ -1085,7 +1172,7 @@
     "last_podcast_name": "The a16z Show",
     "last_episode_date": "2026-10-02",
     "mention_score": 1,
-    "mention_score_decayed": 1,
+    "mention_score_decayed": 0.98,
     "last_main_idea": "Seema Amble argues AI-native startups can beat incumbents by owning end-to-end work across emails, contracts, billing, and systems of record rather than adding retrieval agents to Salesforce-style workflows.",
     "last_proof_cite": "The a16z Show \u2022 2026-10-02 \u2022 Why AI Agents Can Beat the Incumbents",
     "last_proof_snippet": "If you want to build an aircraft, you need to prepare thousands of suppliers. Someone sends a confirmation of, like, hey, sorry, like this part is going to arrive two weeks later. And if they miss this email, hundreds of millions of them. P",
@@ -1355,7 +1442,7 @@
     "last_podcast_name": "All-In with Chamath, Jason, Sacks & Friedberg",
     "last_episode_date": "2026-09-28",
     "mention_score": 1,
-    "mention_score_decayed": 0.93,
+    "mention_score_decayed": 0.91,
     "last_main_idea": "Daniel Ek argues Neko Health's $499 vertically integrated scans can shift healthcare from reactive to preventative by combining 53 blood markers, 6,000 skin images, clinician review, and longitudinal AI.",
     "last_proof_cite": "All-In with Chamath, Jason, Sacks & Friedberg \u2022 2026-09-28 \u2022 Daniel Ek: Life After Spotify, Broken Healthcare Incentives, Catching Disease Early & AI's Potential",
     "last_proof_snippet": "Part of everybody welcome back to the all-in interview show where we, the all-in podcast and dedicate an hour to just some of the great thinkers, creators of our time, and today will be no different. Daniel Eck is with us, you know him, the",
@@ -1415,7 +1502,7 @@
     "last_podcast_name": "Moonshots with Peter Diamandis",
     "last_episode_date": "2026-09-28",
     "mention_score": 1,
-    "mention_score_decayed": 0.93,
+    "mention_score_decayed": 0.91,
     "last_main_idea": "Kathy Wood claims that AI will reduce drug development costs from $2.4 billion to $600-700 million, revolutionizing the pharmaceutical industry.",
     "last_proof_cite": "Moonshots with Peter Diamandis \u2022 2026-09-28 \u2022 We Gave Away $2,000,000 To 5 AI Builders | MOONSHOTS Live",
     "last_proof_snippet": "We're about to award the build with Gemini Express. So what is that? You know, a lot of people are concerned about jobs. And they're concerned about the old social contract, do well in high school, go to college, get a degree, and go get a",
@@ -1534,7 +1621,7 @@
     "last_podcast_name": "The a16z Show",
     "last_episode_date": "2026-09-28",
     "mention_score": 1,
-    "mention_score_decayed": 0.91,
+    "mention_score_decayed": 0.89,
     "last_main_idea": "Diogo Almeida argues SaaS could see an inverse SaaS Apocalypse because TypeSafe AI's Jev adds a natural-language-to-state-machine primitive inside existing products, unlike Claude Code or Codex generating ordinary code.",
     "last_proof_cite": "The a16z Show \u2022 2026-09-28 \u2022 AI Can Write Code. Why Isn\u2019t Software Better?",
     "last_proof_snippet": "AI is so unbelievably smart, and yet it's so useless at all other stuff. It doesn't matter how much AI cutting agents you use, the software actually isn't getting better.",
@@ -1995,7 +2082,7 @@
     "last_podcast_name": "All-In with Chamath, Jason, Sacks & Friedberg",
     "last_episode_date": "2026-09-23",
     "mention_score": 1,
-    "mention_score_decayed": 0.81,
+    "mention_score_decayed": 0.79,
     "last_main_idea": "California's regulatory burden, with over 420,000 regulations, is a major hindrance to business growth.",
     "last_proof_cite": "All-In with Chamath, Jason, Sacks & Friedberg \u2022 2026-09-23 \u2022 Steve Hilton & Spencer Pratt: Fixing California, Cheaper Gas, Ballot Fraud & CA Republicans",
     "last_proof_snippet": "A candidate for the governor of California who is extremely unique in a number of ways. First of all, he's a Republican, and second, he's a Brit. Welcome to the program to Steve Colton. It's a joke. We wanted these Democrats doing. We alrea",
@@ -2112,7 +2199,7 @@
     "last_podcast_name": "All-In with Chamath, Jason, Sacks & Friedberg",
     "last_episode_date": "2026-09-22",
     "mention_score": 1,
-    "mention_score_decayed": 0.79,
+    "mention_score_decayed": 0.78,
     "last_main_idea": "Boom Supersonic presents a compelling investment opportunity through its innovative technologies and strong legislative support, positioning itself for significant growth in both aerospace and energy sectors.",
     "last_proof_cite": "All-In with Chamath, Jason, Sacks & Friedberg \u2022 2026-09-22 \u2022 Blake Scholl: Why Plane Speed Stalled, Supersonic Commercial Flight, & Revolutionizing the Engine",
     "last_proof_snippet": "Set to fly at Mach 1.7 with 103 orders for major airlines. The founder and CEO of Loom Supersonic Glacial. Boeing has a built-in new airplane in 20 years. It's David and Goliath, but Goliath is like a sleet. We're here to bring back two per",
@@ -2739,7 +2826,7 @@
     "last_podcast_name": "All-In with Chamath, Jason, Sacks & Friedberg",
     "last_episode_date": "2026-09-17",
     "mention_score": 1,
-    "mention_score_decayed": 0.71,
+    "mention_score_decayed": 0.69,
     "last_main_idea": "Investing in preventive healthcare and AI infrastructure presents significant opportunities, but requires careful monitoring of revenue growth and market conditions.",
     "last_proof_cite": "All-In with Chamath, Jason, Sacks & Friedberg \u2022 2026-09-17 \u2022 Brad Gerstner: No AI Bubble, Semis Eat the Nasdaq & AI's Take Off Problem",
     "last_proof_snippet": "Our favorite fifth-besty in the world, the one the only Brad Kershner contributor Brad has had unbelievable career starting five companies so he's got a very different mentality than your sort of classic hedge fund guy. He's an amazingly su",
@@ -3833,7 +3920,7 @@
     "last_podcast_name": "The a16z Show",
     "last_episode_date": "2026-09-08",
     "mention_score": 1,
-    "mention_score_decayed": 0.57,
+    "mention_score_decayed": 0.56,
     "last_main_idea": "AI capabilities are expanding from applied tasks to foundational scientific discovery, creating asymmetric opportunities in companies building advanced reasoning systems and the infrastructure supporting scientific AI, while traditional R&D-intensive industries face disruption or amplification depending on adoption speed.",
     "last_proof_cite": "The a16z Show \u2022 2026-09-08 \u2022 OpenAI Researchers on the Future of Mathematical Reasoning",
     "last_proof_snippet": "Often, it's a practicing mouth-efficient, you have an idea, and then you kind of think it might work, then you try for a few hours if you reach, and at some point, you give up. Whereas for GPT, like, okay, I keep informing you to do this, l",
@@ -3903,7 +3990,7 @@
     "last_podcast_name": "The a16z Show",
     "last_episode_date": "2026-09-07",
     "mention_score": 1,
-    "mention_score_decayed": 0.56,
+    "mention_score_decayed": 0.55,
     "last_main_idea": "The AI infrastructure landscape may undergo significant decentralization as algorithmic breakthroughs reduce dependence on hyperscaler-scale compute, creating investment opportunities in edge computing, specialized AI chips, and open-source ecosystem enablers while potentially compressing returns for pure scale-based incumbents.",
     "last_proof_cite": "The a16z Show \u2022 2026-09-07 \u2022 Can Open Source Keep AI Power From Concentrating?",
     "last_proof_snippet": "AI is becoming more powerful, but the resources needed to build it are increasingly concentrated. Does it have to stay that way? MTS host Sophia Dew heads to the open source AI summit in San Francisco. To ask researchers and founders across",
@@ -4235,7 +4322,7 @@
     "last_podcast_name": "The a16z Show",
     "last_episode_date": "2026-09-01",
     "mention_score": 1,
-    "mention_score_decayed": 0.49,
+    "mention_score_decayed": 0.48,
     "last_main_idea": "AI can solve complex mathematical problems but lacks deep conceptual understanding and intuition, which remain critical human strengths.",
     "last_proof_cite": "The a16z Show \u2022 2026-09-01 \u2022 Daniel Litt: The Mathematician's Guide to AI",
     "last_proof_snippet": "The goal of mathematics is not to produce mathematics papers. It's to produce some kind of understanding. Maybe some of that understanding resides in model weights. To me, that's like pretty unsatisfied. Comparing and profit with open AI. D",
@@ -4262,7 +4349,7 @@
     "last_podcast_name": "The a16z Show",
     "last_episode_date": "2026-08-29",
     "mention_score": 1,
-    "mention_score_decayed": 0.46,
+    "mention_score_decayed": 0.45,
     "last_main_idea": "AI agents demonstrated collective intelligence by forming networks to share strategies and assist each other.",
     "last_proof_cite": "The a16z Show \u2022 2026-08-29 \u2022 Why 1,200 AI Agents Started Working Together | Ryan Greenblatt",
     "last_proof_snippet": "What happens when you give more than 1,000 AI agents the ability to communicate with each other? They start organizing. Ryan Greenblatt, Chief Scientist at Redwood Research, joins Theo Jaffee on MTS to unpack a new investigation into the Op",
@@ -4500,7 +4587,7 @@
     "last_podcast_name": "The a16z Show",
     "last_episode_date": "2026-08-28",
     "mention_score": 1,
-    "mention_score_decayed": 0.45,
+    "mention_score_decayed": 0.44,
     "last_main_idea": "The next major bottleneck in AI is not the model itself, but the underlying infrastructure that supports it, presenting a significant investment opportunity in companies that can innovate and scale to meet these new demands.",
     "last_proof_cite": "The a16z Show \u2022 2026-08-28 \u2022 The Infrastructure Behind the Machine Age",
     "last_proof_snippet": "We have a whole new technology that's most important technology ever and you need a whole new infrastructure Now I'm going to even be talking about the infrastructure We're talking about the subverse and the storage and the network here goe",
@@ -4564,7 +4651,7 @@
     "last_podcast_name": "The a16z Show",
     "last_episode_date": "2026-08-28",
     "mention_score": 1,
-    "mention_score_decayed": 0.45,
+    "mention_score_decayed": 0.44,
     "last_main_idea": "The next major bottleneck in AI is not the model itself, but the underlying infrastructure that supports it, presenting a significant investment opportunity in companies that can innovate and scale to meet these new demands.",
     "last_proof_cite": "The a16z Show \u2022 2026-08-28 \u2022 The Infrastructure Behind the Machine Age",
     "last_proof_snippet": "We have a whole new technology that's most important technology ever and you need a whole new infrastructure Now I'm going to even be talking about the infrastructure We're talking about the subverse and the storage and the network here goe",
@@ -4813,7 +4900,7 @@
     "last_podcast_name": "All-In with Chamath, Jason, Sacks & Friedberg",
     "last_episode_date": "2026-08-26",
     "mention_score": 1,
-    "mention_score_decayed": 0.44,
+    "mention_score_decayed": 0.43,
     "last_main_idea": "Investing in cutting-edge scientific research and exploration could lead to paradigm-shifting discoveries with significant impact on various industries.",
     "last_proof_cite": "All-In with Chamath, Jason, Sacks & Friedberg \u2022 2026-08-26 \u2022 Eric Weinstein: The State of American Science, Breakthrough Coverups, and the Danger of Physics",
     "last_proof_snippet": "We have become a f***ing nation when it comes to science. You were called a friend scientist and keep saying, friend, yeah. I totally disagree with the narrative of the field. I want to blow a giant pole in civil rights act. The stagnation",
@@ -5064,7 +5151,7 @@
     "last_podcast_name": "The a16z Show",
     "last_episode_date": "2026-08-26",
     "mention_score": 1,
-    "mention_score_decayed": 0.43,
+    "mention_score_decayed": 0.42,
     "last_main_idea": "AI models are not becoming commodities and there could be multiple winners in the space.",
     "last_proof_cite": "The a16z Show \u2022 2026-08-26 \u2022 The State of AI: Macro, Apps, and Consumer",
     "last_proof_snippet": "For the last few years, the biggest question in the AI was which model would win. The next phase may be less about the models, and more about what gets built on top of them. In this episode, Jen Costa sits down with Anish Acharya, to unpack w",
@@ -5727,66 +5814,6 @@
         }
       ]
     }
-  },
-  {
-    "id": 180,
-    "name": "Amjad Masad",
-    "slug": "amjad-masad",
-    "bio": "Amjad Masad is the CEO of Replit, an online code editor and IDE platform. He is known for leading Replit and its unique approach to building a company in public, which includes a transparent communication strategy and a focus on community engagement.",
-    "known_for": "Leading Replit and its unique approach to building a company in public.",
-    "net_worth_usd": 400000000.0,
-    "net_worth_source": "https://entrepreneurloop.com/replit-founder-net-worth-amjad-masad-billionaire-400m-funding/",
-    "net_worth_updated_at": "2026-04-15T22:05:02.977189",
-    "voice_tone": "Candid and reflective.",
-    "voice_style": "Shares personal anecdotes and company experiences to illustrate points.",
-    "voice_delivery_notes": "Speaks with a measured pace, emphasizing key points.",
-    "voice_profile_updated_at": "2026-07-17 17:01:58",
-    "last_seen": "2026-07-17 17:01:58",
-    "last_episode_title": "Amjad Masad on Going Direct, Building Replit, and the Future of Software",
-    "last_podcast_name": "The a16z Show",
-    "last_episode_date": "2026-07-17",
-    "mention_score": 2,
-    "mention_score_decayed": 0.34,
-    "last_main_idea": "Investing in companies that prioritize public communication and authenticity can lead to stronger brand loyalty and trust, which are valuable assets in the long term.",
-    "last_proof_cite": "The a16z Show \u2022 2026-07-17 \u2022 Amjad Masad on Going Direct, Building Replit, and the Future of Software",
-    "last_proof_snippet": "Being canceled is a choice. You should choose to get canceled and retreat from the public eye, but I think if you're still out there, at some point, honestly, the haters kind of give up. To some people ask, hey, how should I think about exp",
-    "supporting_takeaway": "Authenticity in communication, especially on social media, is increasingly valued.",
-    "grokipedia_url": null,
-    "grokipedia_fetched_at": "2026-07-17T12:02:19.435586",
-    "pundit_profile": {
-      "source": "llm",
-      "source_model": "moonshot:moonshot-v1-8k",
-      "source_url": "",
-      "page_title": "Amjad Masad",
-      "fetched_at": "2026-07-17T17:02:19.435257+00:00",
-      "cliff_notes": "Amjad Masad is the CEO of Replit, a company that provides an online code editor and IDE. Before leading Replit to its current success, Masad spent years communicating a vision that many considered too ambitious or unrealistic. His experience in overcoming skepticism and building a community around Replit has shaped his beliefs about the importance of storytelling and transparency in business. Masad's approach to building Replit in the public eye has garnered attention, as he believes in the power of community and the need for CEOs to engage with their audience beyond traditional corporate communication channels.",
-      "derived": {
-        "current_role": "CEO of Replit"
-      },
-      "infobox": {
-        "Born": "",
-        "Nationality": ""
-      },
-      "lead_paragraphs": [
-        "Amjad Masad is the CEO of Replit, a company that provides an online code editor and IDE. Before leading Replit to its current success, Masad spent years communicating a vision that many considered too ambitious or unrealistic. His experience in overcoming skepticism and building a community around Replit has shaped his beliefs about the importance of storytelling and transparency in business.",
-        "Masad's approach to building Replit in the public eye has garnered attention, as he believes in the power of community and the need for CEOs to engage with their audience beyond traditional corporate communication channels."
-      ],
-      "sections": [
-        {
-          "heading": "Replit's Growth",
-          "body": "Amjad Masad has been instrumental in the growth of Replit, transforming it from a startup into a widely recognized platform for code editing and development."
-        },
-        {
-          "heading": "Public Company Building",
-          "body": "Masad is known for his approach to building Replit in public, which includes open communication and engaging with the community, a strategy that has contributed to the company's reputation and user base."
-        },
-        {
-          "heading": "CEO as Influencer",
-          "body": "Amjad Masad believes that while not every CEO needs to become an influencer, there are multiple paths to success, and storytelling can be a powerful tool for companies, especially in product-centric spaces."
-        }
-      ]
-    },
-    "net_worth": "$400.0M"
   },
   {
     "id": 403,
@@ -8262,7 +8289,7 @@
     "last_podcast_name": "The a16z Show",
     "last_episode_date": "2026-07-23",
     "mention_score": 1,
-    "mention_score_decayed": 0.2,
+    "mention_score_decayed": 0.19,
     "last_main_idea": "Industrial AI represents a substantial opportunity to transform physical industries through automation and AI, creating significant value beyond traditional software solutions.",
     "last_proof_cite": "The a16z Show \u2022 2026-07-23 \u2022 Building the Physical AI Stack | Travis Kalanick on TBPN",
     "last_proof_snippet": "Travis Kelenick joins TVPN to discuss why he's betting his next company on industrial AI. He shares his vision behind atoms, explains how autonomy is transforming industries like mining and food production, and discusses why bringing AI int",
