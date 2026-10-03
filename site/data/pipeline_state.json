@@ -1,7 +1,7 @@
 {
-  "generated_at": "2026-10-03T07:04:19.612021",
-  "last_updated": "2026-10-03T07:04:19.612021",
-  "last_pipeline_run": "2026-10-03T07:04:19.612021",
+  "generated_at": "2026-10-03T12:22:31.829014",
+  "last_updated": "2026-10-03T12:22:31.829014",
+  "last_pipeline_run": "2026-10-03T12:22:31.829014",
   "main_page": {
     "overton": 13,
     "insights": 12,
@@ -20,33 +20,14 @@
     "podcasts_analyzed": 3
   },
   "step_results": {
-    "downloaded": 1,
-    "transcribed": 1,
-    "analyzed": 1,
-    "insight_created": 1,
-    "published": 1,
-    "total": 1
+    "downloaded": 0,
+    "transcribed": 0,
+    "analyzed": 0,
+    "insight_created": 0,
+    "published": 0,
+    "total": 0
   },
-  "episodes": [
-    {
-      "id": "29e0b258-c055-4a45-87d7-271d5e50ea29",
-      "podcast": "The a16z Show",
-      "title": "Beyond the God Model | Alex Atallah & Amjad Masad",
-      "published": "2026-10-03",
-      "rss_guid": "29e0b258-c055-4a45-87d7-271d5e50ea29",
-      "stages": {
-        "downloaded": true,
-        "transcribed": true,
-        "analyzed": true,
-        "insight_created": true,
-        "published": true
-      },
-      "stage_reasons": {},
-      "first_blocker": null,
-      "remediation_by_stage": {},
-      "status": "complete"
-    }
-  ],
+  "episodes": [],
   "available_from_rss": [],
   "stale_episodes": [],
   "stale_threshold_days": 2,
