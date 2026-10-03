@@ -1,5 +1,23 @@
 [
   {
+    "id": 549,
+    "podcast_name": "The a16z Show",
+    "episode_title": "Beyond the God Model | Alex Atallah & Amjad Masad",
+    "episode_date": "2026-10-03",
+    "summary": "Alex Atallah described how Stripe's acquisition of OpenRouter began with outreach from Patrick Collison and progressed quickly because Stripe and OpenRouter shared a goal of building neutral, developer-friendly infrastructure. Atallah said OpenRouter was not looking to sell, but Stripe was a top possible acquirer because both companies want many new companies to exist rather than an economy organized around one giant platform.",
+    "key_takeaways": [
+      "Alex Atallah argues OpenRouter solves AI vendor lock-in by letting companies stay on the Pareto frontier across multiple model providers instead of building only on ChatGPT, Claude, or one proprietary frontier lab.",
+      "Alex Atallah claims enterprises have been more open than expected to open weight models over the past 3 years because they want lower costs, differentiation, and internal AI practices that can benchmark models for their own tasks.",
+      "Amjad Masad argues every company needs to own its intelligence, comparing AI capability to the way every company became an internet company after the dot-com era and later employed software engineers.",
+      "Amjad Masad claims partnering too closely with foundation model companies can create competitive risk, citing Anthropic and Figma, Harvey and OpenAI, and Alex Karp of Palantir's warnings about model companies moving into customer markets.",
+      "Alex Atallah argues vertically focused agents may be preferable to one general agent because specialization lets people tune how much understanding they sacrifice in each work domain.",
+      "Amjad Masad predicts companies will move from AGI-like general models toward specialized models, because many tasks are cheaper, safer, and less vulnerable to prompt injection when handled by smaller domain-specific systems.",
+      "Alex Atallah claims OpenRouter's fusion model achieved roughly Fable-level quality at 2x lower cost by combining outputs from model labs trained on different data sources."
+    ],
+    "investment_thesis": "Alex Atallah argues AI infrastructure will shift toward neurodiverse routing across multiple models because enterprises want lower cost, less lock-in, and task-specific intelligence beyond ChatGPT or Claude.",
+    "key_tickers": null
+  },
+  {
     "id": 548,
     "podcast_name": "All-In with Chamath, Jason, Sacks & Friedberg",
     "episode_title": "Trump's Super Intelligence Summit, AI Safety Accord, GDP Beats, Midterm Predictions",
