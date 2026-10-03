@@ -190,8 +190,10 @@ def resolve_quote(bid, ask, last) -> dict:
     """Paper quote resolution. Yahoo quote if it passes the spread gate as-is;
     otherwise a modeled $0.05 spread around a mid. PAPER ONLY.
 
-    1. bid > 0, ask > 0, not crossed, ask - bid <= stock_spread_limit(mid):
-       real quote, spread_source "yahoo".
+    1. bid > 0, ask > 0, not crossed, ask - bid <= stock_spread_limit(mid),
+       and (when a last trade exists) |mid - last| <= stock_spread_limit(last):
+       real quote, spread_source "yahoo". A gate-passing quote whose mid is far
+       from last goes to step 2 (fallback_reason "quote_passes_gate+mid_far_from_last").
     2. Otherwise, if bid and ask are both positive: mid = (bid + ask) / 2
        (crossed quotes included). If a last trade exists and |mid - last| is
        more than the gate width at that price (stock_spread_limit(last)), the
@@ -206,10 +208,15 @@ def resolve_quote(bid, ask, last) -> dict:
     """
     b, a, last_d = _positive(bid), _positive(ask), _positive(last)
     base = {"yahoo_bid": bid, "yahoo_ask": ask, "last_trade": last, "provisional": True}
+    stale_yahoo = False
     if b is not None and a is not None and a >= b:
         mid = (b + a) / 2
         spread = a - b
-        if spread <= stock_spread_limit(mid):
+        # The mid-vs-last sanity check applies to an accepted Yahoo quote too:
+        # a tight bid/ask far from the last trade (QQQ 717.24/717.49 vs last
+        # 745.40) is a stale or wrong book, not a price. Fall back to modeled.
+        stale_yahoo = last_d is not None and abs(mid - last_d) > stock_spread_limit(last_d)
+        if spread <= stock_spread_limit(mid) and not stale_yahoo:
             return {
                 **base,
                 "usable": True,
@@ -225,6 +232,8 @@ def resolve_quote(bid, ask, last) -> dict:
         why = "quote_missing_or_zero"
     elif a < b:
         why = "quote_crossed"
+    elif stale_yahoo and (a - b) <= stock_spread_limit((a + b) / 2):
+        why = "quote_passes_gate"      # "+mid_far_from_last" is appended below
     else:
         why = "quote_fails_spread_gate"
     quote_mid = (b + a) / 2 if b is not None and a is not None else None

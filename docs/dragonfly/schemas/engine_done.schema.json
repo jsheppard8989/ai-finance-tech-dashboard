@@ -36,6 +36,20 @@
       }
     },
     "unidentified": { "type": "array", "items": { "type": "string" }, "description": "Draft files with no usable trade_id (counted in rejected)." },
-    "withdrawn": { "type": "array", "items": { "type": "string" }, "description": "Draft files seen before the cutoff that disappeared before they were carded (not counted)." }
+    "withdrawn": { "type": "array", "items": { "type": "string" }, "description": "Draft files seen before the cutoff that disappeared before they were carded (not counted)." },
+    "quotes": {
+      "type": "object",
+      "description": "Real vs modeled quote counts copied from the pre-open quotes.json (counts.quotes), else prep.json (quotes): real_spread, modeled, by_quote_source, chart_fallback(_names), source. Informational; optional for older markers."
+    },
+    "skipped_files": {
+      "type": "array",
+      "description": "Inbox files that look like drafts but were not carded (unrecognized name or extension), with the reason. Each is also logged at WARNING. Optional for older markers.",
+      "items": {
+        "type": "object",
+        "additionalProperties": false,
+        "required": ["file", "reason"],
+        "properties": { "file": { "type": "string" }, "reason": { "type": "string" } }
+      }
+    }
   }
 }

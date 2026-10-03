@@ -13,7 +13,7 @@ import os
 import shutil
 import sys
 import tempfile
-from datetime import datetime, timedelta
+from datetime import date, datetime, timedelta
 from pathlib import Path
 
 sys.path.insert(0, str(Path(__file__).resolve().parents[1]))
@@ -31,6 +31,12 @@ from dragonfly.build_watchlist import (  # noqa: E402
     fetch_security_types,
     run_gates,
 )
+
+# The ranking-mechanics fixtures below use Nasdaq's raw screener labels; the
+# GICS relabel (dragonfly/gics.py) is exercised in test_gics_sectors.
+nu.GICS_ENABLED = False
+_REAL_APPROVED = nu.APPROVED_PATH
+nu.APPROVED_PATH = Path(tempfile.gettempdir()) / "dragonfly-no-approved-universe.json"  # raw refresh mechanics
 
 CHECKS = 0
 
@@ -103,6 +109,68 @@ def fake_get_json(rows=FEED, counter=None, sector_override=None):
         raise AssertionError(url)
 
     return get
+
+
+def test_gics_sectors():
+    """GICS is a TAG: it never changes membership or ranks; the approved file freezes membership."""
+    from dragonfly import gics
+
+    nu.GICS_ENABLED = True
+    try:
+        ndx, scr = feed()
+        by = {m["ticker"]: m for m in nu.parse_members(ndx, scr)}
+        check(by["COST"]["sector"] == "Consumer Discretionary", "parse keeps Nasdaq's label (the ranking key)")
+        doc = nu.fetch_and_rank(fake_get_json(), datetime(2026, 9, 28, 18, 0))
+        members = {m["ticker"]: m for m in doc["members"]}
+        nu.GICS_ENABLED = False
+        raw = nu.fetch_and_rank(fake_get_json(), datetime(2026, 9, 28, 18, 0))
+        nu.GICS_ENABLED = True
+        check([m["ticker"] for m in doc["members"]] == [m["ticker"] for m in raw["members"]]
+              and [m["sector_rank"] for m in doc["members"]] == [m["sector_rank"] for m in raw["members"]],
+              "GICS tagging changes no member, order or rank")
+        check(members["COST"]["sector"] == "Consumer Staples" and members["WMT"]["sector"] == "Consumer Staples"
+              and members["COST"]["screener_sector"] == "Consumer Discretionary" and members["COST"]["sector_source"] == "gics_map",
+              "COST / WMT tagged Consumer Staples, ranked under Discretionary")
+        check(members["GOOGL"]["sector"] == "Communication Services" and members["NVDA"]["sector"] == "Information Technology",
+              "Comm Services / IT tags")
+        check(set(doc["sectors"]) >= {"Consumer Staples", "Information Technology"} and doc["sector_scheme"] == "GICS",
+              "sector view grouped by tag")
+        check(sum(len(v) for v in doc["sectors"].values()) == len(doc["members"]), "regrouping keeps every member once")
+        check(set(gics.GICS_BY_TICKER.values()) <= set(gics.GICS_SECTORS), "map uses only the 11 GICS sectors")
+        check(gics.gics_sector("NOPE", "Technology") == ("Information Technology", "icb_label")
+              and gics.gics_sector("NOPE", "Industrials") == ("Industrials", "screener")
+              and gics.gics_sector("NOPE", "") == (None, "screener"), "fallbacks")
+        pinned = nu.resolve_pinned(["IREN", "ASTS"], screener_payload([
+            {"symbol": "IREN", "name": "IREN", "sector": "Finance", "marketCap": "1"},
+            {"symbol": "ASTS", "name": "ASTS", "sector": "Consumer Discretionary", "marketCap": "1"}]))
+        check([p["sector"] for p in pinned] == ["Information Technology", "Communication Services"], "pinned GICS tags")
+        # approved membership: frozen, never fetched or re-ranked, even with refresh=True or a stale date
+        tmp = Path(tempfile.mkdtemp(prefix="df-approved-"))
+        appr = {"schema": nu.APPROVED_SCHEMA, "as_of_date": "2026-09-25", "as_of": "2026-09-25T15:15:13-05:00",
+                "per_sector": 5, "members": [dict(raw["members"][i]) for i in (0, 1, 5)],
+                "excluded": {}, "duplicate_share_classes": {"GOOG": "GOOGL"}}
+        (tmp / "approved.json").write_text(json.dumps(appr))
+        calls = []
+        u = nu.get_universe(tmp / "state.json", fake_get_json(counter=calls), datetime(2026, 10, 30, 7, 0),
+                            refresh=True, approved_path=tmp / "approved.json")
+        check(calls == [] and [m["ticker"] for m in u["members"]] == [m["ticker"] for m in appr["members"]],
+              "approved membership used as-is: no fetch, no re-rank, refresh ignored")
+        check(u["membership"] == "approved" and all(m.get("sector_source") for m in u["members"]), "tags applied on load")
+        check(json.loads((tmp / "state.json").read_text())["membership"] == "approved", "state copy = the approved doc")
+        (tmp / "bad.json").write_text(json.dumps({"schema": "nope"}))
+        check(raises(lambda: nu.get_universe(tmp / "s2.json", fake_get_json(), datetime(2026, 9, 28), approved_path=tmp / "bad.json"),
+                     ValueError), "malformed approved file raises (never falls back to a re-rank)")
+        # the committed approved file: the 36 top-5 names from 2026-09-25, plus the
+        # six Jared added 2026-09-29 (ADP BKR MU PCAR SBUX PYPL). PDD stays out.
+        real = nu.load_approved(_REAL_APPROVED)
+        tick = sorted(m["ticker"] for m in real["members"])
+        check(len(tick) == 42 and {"GOOGL", "SPCX", "CCEP", "CMCSA", "CSCO", "KDP", "LITE", "TER", "WBD",
+                                    "ADP", "BKR", "MU", "PCAR", "SBUX", "PYPL"} <= set(tick)
+              and not {"PDD", "GOOG"} & set(tick), "committed approved 42")
+        pins = nu.load_pinned(Path(__file__).resolve().parent / "universe_config.json")
+        check(len(set(tick) | set(pins)) == 53 and not set(tick) & set(pins), "42 approved + 11 pinned = 53")
+    finally:
+        nu.GICS_ENABLED = False
 
 
 def test_parse_and_rank():
@@ -428,6 +496,7 @@ def test_etf_type_probe():
 
 def main():
     test_parse_and_rank()
+    test_gics_sectors()
     test_share_class_collapse()
     test_no_backfill()
     test_weekly_refresh()

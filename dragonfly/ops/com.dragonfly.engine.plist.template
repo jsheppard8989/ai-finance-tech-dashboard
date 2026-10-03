@@ -1,11 +1,11 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <!--
   TEMPLATE ONLY. Not installed, not loaded. Do not copy into ~/Library/LaunchAgents
-  until Ditka's dry run passes and Jared approves the schedule (docs/dragonfly/ENGINE.md).
+  until Ditka gives an explicit go and Jared approves the schedule (docs/dragonfly/ENGINE.md).
 
   Dragonfly pre-open engine: starts 08:08 CT Monday-Friday. The engine polls every
   60 s and exits on its own after the 08:24 pass (DONE written by then).
-  Placeholders: __REPO__ = the Mac checkout of ai-finance-tech-dashboard,
+  Placeholders: __REPO__ = the Dragonfly run clone (~/projects/dragonfly-run; never the pipeline checkout),
   __HOME__ = the user's home directory. The Mac clock must be on America/Chicago.
 -->
 <!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
