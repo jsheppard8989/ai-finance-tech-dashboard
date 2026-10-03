@@ -72,6 +72,80 @@
       ]
     },
     {
+      "id": 562,
+      "title": "Trump's Super Intelligence Summit, AI Safety Accord, GDP Beats, Midterm Predictions",
+      "source_type": "podcast",
+      "source_name": "All-In with Chamath, Jason, Sacks & Friedberg",
+      "source_date": "2026-10-02",
+      "summary": "The hosts centered the episode on President Trump's White House superintelligence gathering, which David Sacks described as the first meeting of the critical AI stack across data centers, chips, hyperscalers, and frontier model companies. Sacks said six major frontier model companies signed a White House accord that creates responsibility commitments, internal controls, external audits, and board-level oversight, with the FTC and SEC sitting behind public commitments as enforcement mechanisms.\n\nChamath Palihapitiya argued that the practical business implication is a new superintelligence audit layer, saying 8090 and Ernst and Young are building infrastructure for end-to-end traceability, policy-to-risk mapping, and auditable evidence. David Friedberg framed the moment as the beginning of the AI wars, predicting that open-source and open-weight models make model-level control impractical and that cyber defense budgets will rise sharply as Fortune 50 CEOs elevate AI-enabled defense to the board level.\n\nThe hosts split on how data centers will be treated. Friedberg predicted that within 12 to 18 months governments will shift from model regulation to regulating data center access and GPU allocation, including for financial services and defense. Sacks and Chamath emphasized the opposite pressure: data centers and electron generation are becoming national security infrastructure, and Sacks warned that the United States has been flat on power generation for about 25 years while China is doubling its grid every decade.\n\nThe macro section turned into a debate over whether the economy is stronger than polling suggests. Sacks cited Q2 GDP revised to 2.2% from 1.5%, Q1 revised to 2.5% from 2.1%, Atlanta Fed GDPNow tracking Q3 around 3.7%, August payrolls at 162,000 versus 55,000 consensus, unemployment at 4.1%, and core PCE at 3.0% versus 3.3% expected. Jason Calacanis countered that inflation and Trump polling remain weak, cited Polymarket odds showing Democrats favored for the House and Senate, and predicted a Democratic sweep, while Sacks predicted Republicans keep the Senate and Democrats, if they win the House, do so narrowly.",
+      "key_takeaway": "David Friedberg predicts AI-era cyber-defense budgets will go through the roof as Fortune 50 CEOs elevate AI-enabled defense to board-level priority amid open-source model proliferation.",
+      "tickers_mentioned": [
+        "PANW",
+        "NVDA",
+        "GOOGL",
+        "AMZN",
+        "META",
+        "JPM"
+      ],
+      "sentiment": "bearish",
+      "display_on_main": 1,
+      "display_order": 0,
+      "added_date": "2026-10-03",
+      "archived_date": null,
+      "archived_reason": null,
+      "podcast_episode_id": 548,
+      "notable_quotes": [
+        {
+          "speaker": "David Sacks",
+          "quote": "I've called it the Bretton Woods of super intelligence."
+        },
+        {
+          "speaker": "Donald Trump",
+          "quote": "whoever wins super intelligence wins."
+        },
+        {
+          "speaker": "David Friedberg",
+          "quote": "we are actually having the AI wars."
+        }
+      ]
+    },
+    {
+      "id": 563,
+      "title": "Can We Still Build AI Safely? The White House Thinks So | MOONSHOTS #298",
+      "source_type": "podcast",
+      "source_name": "Moonshots with Peter Diamandis",
+      "source_date": "2026-10-02",
+      "summary": "The panel opened with the White House superintelligence accord, described as a four-layer framework covering internal controls, internal validation teams, external auditors, and board-level committees for frontier AI companies. Peter Diamandis said nearly 20 tech leaders joined President Donald Trump and Speaker Mike Johnson in the East Room, including Elon Musk, Mark Zuckerberg, Jensen Huang, Dario Amodei, Sundar Pichai, Satya Nadella, Lisa Su, and Greg Brockman, while Sam Altman was in San Francisco for OpenAI Dev Day. Alex Wissner-Gross argued that Mark Zuckerberg appeared to be the key operator behind the accord and that the document may preempt a stricter AI safety cartel, while Salim Ismail called it theater unless enforcement and transparent testing emerge.\n\nThe discussion then turned to abundance. Elon Musk predicted an age of universal high income in which robots and superintelligence make medical care better than what the richest people receive today. Peter connected that claim to his long-running abundance thesis that technology takes scarce goods and makes them cheap or free, while Salim emphasized that abundance is better understood as access to essentials like health, food, water, and education rather than raw material quantity alone.\n\nThe most investment-specific debate centered on Anthropic, which the panel said had filed an S-1 with a target IPO valuation of $2 trillion. Emad Mostaque argued that Anthropic is a fantastic business today but that its API-heavy revenue base could be smashed within two years by open-weight models, 100x efficiency gains, and non-Nvidia chip architectures. Alex disagreed on the terminal value, arguing that superintelligence is a highly valuable business because the $30 trillion US services economy could be automated by embodied and disembodied AI, with Anthropic aspiring to be the Apple-like high end of general intelligence.\n\nThe panel also reviewed OpenAI Dev Day, where Peter listed more than 20 announcements, including Dots, GPT6.1 Sol, Codex speed gains, agent APIs, team spaces, and a $500 per month pro tier. Alex criticized Dots as a Clippy-like misfire and argued that OpenAI appeared to be copying Meta-style avatars, while Emad framed the product as part of the coming battle to own the consumer agent interface. Later, Peter highlighted AMD's $8.2 billion stock acquisition of Fei-Fei Li's World Labs, which the panel tied to physical AI, world models, robotics training, gaming, and generated pixels.",
+      "key_takeaway": "Emad Mostaque argues Anthropic's API-centric business could be disrupted within two years as open-weight models and non-Nvidia chip architectures drive efficiency gains.",
+      "tickers_mentioned": [
+        "AMD",
+        "GOOGL",
+        "META",
+        "NVDA"
+      ],
+      "sentiment": "bullish",
+      "display_on_main": 1,
+      "display_order": 0,
+      "added_date": "2026-10-03",
+      "archived_date": null,
+      "archived_reason": null,
+      "podcast_episode_id": 547,
+      "notable_quotes": [
+        {
+          "speaker": "Donald Trump",
+          "quote": "I think it's morally binding, yeah."
+        },
+        {
+          "speaker": "Peter Diamandis",
+          "quote": "technology takes whatever was scarce and makes it abundant."
+        },
+        {
+          "speaker": "Elon Musk",
+          "quote": "we don't have just a universal basic income we have universal high income."
+        }
+      ]
+    },
+    {
       "id": 556,
       "title": "Si Sheppard \u2013 How did a few hundred Spanish soldiers topple two empires?",
       "source_type": "podcast",
@@ -221,7 +295,7 @@
         "NVDA"
       ],
       "sentiment": "bullish",
-      "display_on_main": 1,
+      "display_on_main": 0,
       "display_order": 0,
       "added_date": "2026-09-30",
       "archived_date": null,
@@ -426,7 +500,7 @@
         "GOOGL"
       ],
       "sentiment": "bullish",
-      "display_on_main": 1,
+      "display_on_main": 0,
       "display_order": 0,
       "added_date": "2026-09-29",
       "archived_date": null,
@@ -11613,8 +11687,8 @@
       "term": "Superintelligence",
       "description": "Superintelligence refers to AI that surpasses human cognitive abilities, potentially reshaping societal structures and governance.",
       "first_detected_date": "2026-09-27",
-      "last_mentioned_date": "2026-10-01",
-      "mention_count": 3,
+      "last_mentioned_date": "2026-10-02",
+      "mention_count": 4,
       "source_podcasts": null,
       "status": "active",
       "investment_implications": "The rise of superintelligence may lead to new economic models and governance, impacting investment strategies.",
@@ -11623,8 +11697,8 @@
       "archived_reason": null,
       "first_detected_episode_id": 526,
       "first_detected_speaker": "Peter Diamandis (hosts)",
-      "last_mentioned_episode_id": 544,
-      "last_mentioned_speaker": "Ed Zitron"
+      "last_mentioned_episode_id": 547,
+      "last_mentioned_speaker": "Peter Diamandis, Alex Wissner-Gross (hosts)"
     },
     {
       "id": 286,
@@ -11829,8 +11903,8 @@
       "term": "Simulation",
       "description": "The use of models and computer programs to represent and analyze real or imagined systems or situations.",
       "first_detected_date": "2026-08-21",
-      "last_mentioned_date": "2026-10-01",
-      "mention_count": 22,
+      "last_mentioned_date": "2026-10-02",
+      "mention_count": 23,
       "source_podcasts": null,
       "status": "active",
       "investment_implications": "Simulation technology can provide significant insights for decision-making, making investments in this area potentially valuable.",
@@ -11839,8 +11913,8 @@
       "archived_reason": null,
       "first_detected_episode_id": 420,
       "first_detected_speaker": "June",
-      "last_mentioned_episode_id": 541,
-      "last_mentioned_speaker": "Si Sheppard"
+      "last_mentioned_episode_id": 547,
+      "last_mentioned_speaker": "Peter Diamandis, Alex Wissner-Gross (hosts)"
     },
     {
       "id": 272,
@@ -11920,7 +11994,7 @@
       "description": "Research taste was framed as the ability to choose simple, weird, or initially dismissed problems that later define a field. Alex Zhang used SWE-bench, ReAct, Quiet-STaR, and RLMs as examples of ideas that looked obvious or impossible before becoming important.",
       "first_detected_date": "2026-08-02",
       "last_mentioned_date": "2026-10-02",
-      "mention_count": 24,
+      "mention_count": 25,
       "source_podcasts": null,
       "status": "active",
       "investment_implications": "Taste can be an early signal for identifying labs, founders, and research teams working on non-consensus architectures or harnesses before they become commercial defaults.",
@@ -11929,8 +12003,8 @@
       "archived_reason": null,
       "first_detected_episode_id": 380,
       "first_detected_speaker": "Ruby J. To Low",
-      "last_mentioned_episode_id": 545,
-      "last_mentioned_speaker": "Alex Zhang"
+      "last_mentioned_episode_id": 548,
+      "last_mentioned_speaker": "Chamath Palihapitiya, Jason Calacanis (hosts)"
     },
     {
       "id": 267,
@@ -11971,20 +12045,20 @@
     {
       "id": 277,
       "term": "Spatial Intelligence",
-      "description": "The capability of AI systems to understand, reason about, and interact with three-dimensional space, enabling the generation, reconstruction, and simulation of environments.",
+      "description": "Spatial Intelligence is AI's ability to understand, generate, and reason about physical 3D environments. World Labs was described as building a model that creates a navigable 3D world from a single image.",
       "first_detected_date": "2026-07-28",
-      "last_mentioned_date": "2026-09-13",
-      "mention_count": 4,
+      "last_mentioned_date": "2026-10-02",
+      "mention_count": 5,
       "source_podcasts": null,
       "status": "active",
-      "investment_implications": "Positions world models as a new horizontal platform layer for robotics, gaming, VR, and industrial design, distinct from text-only LLMs.",
+      "investment_implications": "Spatial Intelligence links AI to robotics, gaming, simulation, embodied AI, and chip demand for generated physical environments.",
       "display_on_main": 1,
       "archived_date": null,
       "archived_reason": null,
       "first_detected_episode_id": 370,
       "first_detected_speaker": null,
-      "last_mentioned_episode_id": 474,
-      "last_mentioned_speaker": "Justin Johnson"
+      "last_mentioned_episode_id": 547,
+      "last_mentioned_speaker": "Peter Diamandis, Alex Wissner-Gross (hosts)"
     },
     {
       "id": 263,
@@ -12133,20 +12207,20 @@
     {
       "id": 43,
       "term": "ASI",
-      "description": "Artificial Super Intelligence, referring to AI systems that surpass human intelligence in every field.",
+      "description": "ASI refers to artificial superintelligence, a level of AI capability beyond human intelligence across domains. In this episode, it appeared through the White House superintelligence accord and debate over whether voluntary governance can control frontier systems.",
       "first_detected_date": "2026-06-29",
-      "last_mentioned_date": "2026-09-27",
-      "mention_count": 26,
+      "last_mentioned_date": "2026-10-02",
+      "mention_count": 27,
       "source_podcasts": null,
       "status": "active",
-      "investment_implications": "ASI represents a potential paradigm shift in technology and could disrupt various industries.",
+      "investment_implications": "ASI governance can shape frontier lab liability, regulatory moats, compliance costs, and model deployment timelines.",
       "display_on_main": 0,
       "archived_date": null,
       "archived_reason": null,
       "first_detected_episode_id": 319,
       "first_detected_speaker": "Peter Diamandis (hosts)",
-      "last_mentioned_episode_id": 526,
-      "last_mentioned_speaker": "Peter Diamandis (hosts)"
+      "last_mentioned_episode_id": 547,
+      "last_mentioned_speaker": "Peter Diamandis, Alex Wissner-Gross (hosts)"
     },
     {
       "id": 135,
@@ -12171,8 +12245,8 @@
       "term": "AI Boom",
       "description": "A period characterized by rapid technological advancement, significant investment, and widespread adoption of artificial intelligence, leading to substantial economic growth and wealth creation.",
       "first_detected_date": "2026-06-29",
-      "last_mentioned_date": "2026-10-01",
-      "mention_count": 17,
+      "last_mentioned_date": "2026-10-02",
+      "mention_count": 18,
       "source_podcasts": null,
       "status": "active",
       "investment_implications": "This era presents unparalleled opportunities for investors to back innovative startups and capitalize on transformative industry shifts.",
@@ -12181,8 +12255,8 @@
       "archived_reason": null,
       "first_detected_episode_id": 320,
       "first_detected_speaker": "Leakwet Ahamed",
-      "last_mentioned_episode_id": 542,
-      "last_mentioned_speaker": "David Rosenberg"
+      "last_mentioned_episode_id": 548,
+      "last_mentioned_speaker": "Chamath Palihapitiya, Jason Calacanis (hosts)"
     },
     {
       "id": 279,
@@ -12207,8 +12281,8 @@
       "term": "Hyperscalers",
       "description": "Hyperscalers are the largest cloud infrastructure companies, including Amazon, Google, and Microsoft. Zitron argued they are both AI suppliers and counterparties because they resell models, provide compute, and book future revenue tied to AI labs.",
       "first_detected_date": "2026-06-19",
-      "last_mentioned_date": "2026-10-01",
-      "mention_count": 43,
+      "last_mentioned_date": "2026-10-02",
+      "mention_count": 44,
       "source_podcasts": null,
       "status": "active",
       "investment_implications": "It matters because AI lab defaults or delayed payments could force revisions to cloud revenue guidance and data center plans.",
@@ -12217,8 +12291,8 @@
       "archived_reason": null,
       "first_detected_episode_id": 302,
       "first_detected_speaker": "Chamath Palihapitiya, Jason Calacanis (hosts)",
-      "last_mentioned_episode_id": 544,
-      "last_mentioned_speaker": "Ed Zitron"
+      "last_mentioned_episode_id": 547,
+      "last_mentioned_speaker": "Peter Diamandis, Alex Wissner-Gross (hosts)"
     },
     {
       "id": 256,
@@ -12295,20 +12369,20 @@
     {
       "id": 252,
       "term": "AI Commoditization",
-      "description": "The potential for AI capabilities to become widely available and undifferentiated across providers due to open-source alternatives and algorithmic efficiency gains, eroding pricing power of incumbent model providers.",
+      "description": "AI Commoditization is the claim that model capability becomes broadly available and less differentiated as open-weight models, efficiency gains, and alternative chips improve. Emad Mostaque used this logic to challenge Anthropic's API-heavy business model.",
       "first_detected_date": "2026-06-15",
-      "last_mentioned_date": "2026-09-07",
-      "mention_count": 7,
+      "last_mentioned_date": "2026-10-02",
+      "mention_count": 8,
       "source_podcasts": null,
       "status": "active",
-      "investment_implications": "Commoditization pressures may compress margins for generalist model providers while creating demand for differentiation through specialization, data moats, and vertical-specific applications.",
+      "investment_implications": "Commoditization pressures API margins and shifts value toward distribution, vertical applications, hardware, workflow ownership, and proprietary products.",
       "display_on_main": 1,
       "archived_date": null,
       "archived_reason": null,
       "first_detected_episode_id": 286,
       "first_detected_speaker": "Jack Farley (hosts)",
-      "last_mentioned_episode_id": 462,
-      "last_mentioned_speaker": "Lukasz Kaiser"
+      "last_mentioned_episode_id": 547,
+      "last_mentioned_speaker": "Peter Diamandis, Alex Wissner-Gross (hosts)"
     },
     {
       "id": 248,
@@ -12351,8 +12425,8 @@
       "term": "K-shaped recovery",
       "description": "An economic recovery where wealth concentration increases, benefiting the wealthy while leaving the bottom half of the population behind.",
       "first_detected_date": "2026-06-10",
-      "last_mentioned_date": "2026-09-26",
-      "mention_count": 3,
+      "last_mentioned_date": "2026-10-02",
+      "mention_count": 4,
       "source_podcasts": null,
       "status": "active",
       "investment_implications": "Investors should consider the impact of wealth disparity on consumer spending and economic growth.",
@@ -12361,7 +12435,7 @@
       "archived_reason": null,
       "first_detected_episode_id": 279,
       "first_detected_speaker": "Chamath Palihapitiya, Jason Calacanis (hosts)",
-      "last_mentioned_episode_id": 522,
+      "last_mentioned_episode_id": 548,
       "last_mentioned_speaker": "Chamath Palihapitiya, Jason Calacanis (hosts)"
     },
     {
@@ -12387,8 +12461,8 @@
       "term": "AI Personhood",
       "description": "The concept of whether AI can be granted legal personhood or rights, as seen in the debate over AI being listed as an inventor on patents.",
       "first_detected_date": "2026-06-08",
-      "last_mentioned_date": "2026-09-15",
-      "mention_count": 21,
+      "last_mentioned_date": "2026-10-02",
+      "mention_count": 22,
       "source_podcasts": null,
       "status": "active",
       "investment_implications": "Companies should consider how evolving IP laws may affect their innovations and strategies for protecting AI-generated inventions.",
@@ -12397,8 +12471,8 @@
       "archived_reason": null,
       "first_detected_episode_id": 271,
       "first_detected_speaker": "Peter Diamandis",
-      "last_mentioned_episode_id": 478,
-      "last_mentioned_speaker": "Martin Rothblatt"
+      "last_mentioned_episode_id": 547,
+      "last_mentioned_speaker": "Peter Diamandis, Alex Wissner-Gross (hosts)"
     },
     {
       "id": 59,
@@ -12567,8 +12641,8 @@
       "term": "Jevon's Paradox",
       "description": "The theory that as technological improvements increase the efficiency of resource use, the overall consumption of that resource may increase.",
       "first_detected_date": "2026-05-30",
-      "last_mentioned_date": "2026-09-21",
-      "mention_count": 13,
+      "last_mentioned_date": "2026-10-02",
+      "mention_count": 14,
       "source_podcasts": null,
       "status": "active",
       "investment_implications": "Understanding this paradox is crucial for predicting market expansion in AI as efficiency improves.",
@@ -12577,8 +12651,8 @@
       "archived_reason": null,
       "first_detected_episode_id": 249,
       "first_detected_speaker": null,
-      "last_mentioned_episode_id": 506,
-      "last_mentioned_speaker": "Naveen Rau"
+      "last_mentioned_episode_id": 547,
+      "last_mentioned_speaker": "Peter Diamandis, Alex Wissner-Gross (hosts)"
     },
     {
       "id": 100,
@@ -12657,8 +12731,8 @@
       "term": "Synth ID",
       "description": "A system for verifying the authenticity of AI-generated content, addressing concerns about misinformation and enhancing trust in AI applications.",
       "first_detected_date": "2026-05-21",
-      "last_mentioned_date": "2026-06-01",
-      "mention_count": 2,
+      "last_mentioned_date": "2026-10-02",
+      "mention_count": 3,
       "source_podcasts": null,
       "status": "active",
       "investment_implications": "Content verification technologies are becoming increasingly important for maintaining credibility in digital communications.",
@@ -12667,8 +12741,8 @@
       "archived_reason": null,
       "first_detected_episode_id": 232,
       "first_detected_speaker": "Andrew Feldman",
-      "last_mentioned_episode_id": 298,
-      "last_mentioned_speaker": "Eden Ha"
+      "last_mentioned_episode_id": 548,
+      "last_mentioned_speaker": "Chamath Palihapitiya, Jason Calacanis (hosts)"
     },
     {
       "id": 20,
@@ -12693,8 +12767,8 @@
       "term": "Singularity",
       "description": "The episode frames biology as approaching a point where AI, compute, DNA synthesis, multiplex editing, and artificial gestation could allow CAD-like design of organisms. Lamm said this kind of design world is less than 10 years away.",
       "first_detected_date": "2026-05-15",
-      "last_mentioned_date": "2026-09-30",
-      "mention_count": 76,
+      "last_mentioned_date": "2026-10-02",
+      "mention_count": 77,
       "source_podcasts": null,
       "status": "active",
       "investment_implications": "This matters for synthetic biology, lab automation, genomics data infrastructure, and companies building tools that turn biological design into an engineering workflow.",
@@ -12703,26 +12777,26 @@
       "archived_reason": null,
       "first_detected_episode_id": 221,
       "first_detected_speaker": null,
-      "last_mentioned_episode_id": 537,
-      "last_mentioned_speaker": "Ben Lamm"
+      "last_mentioned_episode_id": 547,
+      "last_mentioned_speaker": "Peter Diamandis, Alex Wissner-Gross (hosts)"
     },
     {
       "id": 97,
       "term": "Distillation",
-      "description": "The practice of training a smaller or different AI model on the outputs of a larger, more capable model to transfer capabilities at lower cost.",
+      "description": "Distillation is the process of turning a larger or more expensive AI model into a cheaper model that preserves much of the capability. Alex Wissner-Gross described GPT6.1 Sol as likely a distillation step that lowers cost for constant capability.",
       "first_detected_date": "2026-05-15",
-      "last_mentioned_date": "2026-10-01",
-      "mention_count": 52,
+      "last_mentioned_date": "2026-10-02",
+      "mention_count": 53,
       "source_podcasts": null,
       "status": "active",
-      "investment_implications": "A deflationary force on model costs that reshapes competitive dynamics and margin structures across the AI stack.",
+      "investment_implications": "Distillation supports compute deflation, cheaper inference, faster product release cycles, and margin changes across AI platforms.",
       "display_on_main": 0,
       "archived_date": null,
       "archived_reason": null,
       "first_detected_episode_id": 221,
       "first_detected_speaker": null,
-      "last_mentioned_episode_id": 544,
-      "last_mentioned_speaker": "Ed Zitron"
+      "last_mentioned_episode_id": 547,
+      "last_mentioned_speaker": "Peter Diamandis, Alex Wissner-Gross (hosts)"
     },
     {
       "id": 174,
@@ -12820,7 +12894,7 @@
       "description": "AGI refers to Artificial General Intelligence, a type of AI that can understand, learn, and apply intelligence across a wide range of tasks, similar to human cognitive abilities.",
       "first_detected_date": "2026-05-07",
       "last_mentioned_date": "2026-10-02",
-      "mention_count": 109,
+      "mention_count": 110,
       "source_podcasts": null,
       "status": "active",
       "investment_implications": "Investors should focus on companies developing AGI technologies as they are likely to drive significant industry transformations.",
@@ -12829,8 +12903,8 @@
       "archived_reason": null,
       "first_detected_episode_id": 204,
       "first_detected_speaker": "Demis Hassabis",
-      "last_mentioned_episode_id": 545,
-      "last_mentioned_speaker": "Alex Zhang"
+      "last_mentioned_episode_id": 547,
+      "last_mentioned_speaker": "Peter Diamandis, Alex Wissner-Gross (hosts)"
     },
     {
       "id": 162,
@@ -12979,20 +13053,20 @@
     {
       "id": 126,
       "term": "Data Center Nimbyism",
-      "description": "Public or political opposition to data centers, often framed around noise, water use, or local disruption. Lyon and de la Garza argue that some of this debate appears manipulated and disconnected from how data centers actually operate.",
+      "description": "The local and political resistance to building data centers, which Sacks described as an anti-data-center crusade that could impair US compute capacity.",
       "first_detected_date": "2026-04-20",
-      "last_mentioned_date": "2026-10-01",
-      "mention_count": 9,
+      "last_mentioned_date": "2026-10-02",
+      "mention_count": 10,
       "source_podcasts": null,
       "status": "active",
-      "investment_implications": "This matters for AI Infrastructure and cloud capacity because permitting friction can affect the speed and location of new compute buildouts.",
+      "investment_implications": "Affects permitting, power development, cloud capacity, and the pace of AI infrastructure buildout.",
       "display_on_main": 0,
       "archived_date": null,
       "archived_reason": null,
       "first_detected_episode_id": null,
       "first_detected_speaker": null,
-      "last_mentioned_episode_id": 543,
-      "last_mentioned_speaker": "Barrett Lyon"
+      "last_mentioned_episode_id": 548,
+      "last_mentioned_speaker": "Chamath Palihapitiya, Jason Calacanis (hosts)"
     },
     {
       "id": 118,
@@ -13321,20 +13395,20 @@
     {
       "id": 78,
       "term": "Open-Source AI Models",
-      "description": "AI models that can be obtained for free or low cost and run on a company's own hardware rather than through a closed cloud provider. The episode framed Chinese open-source models as a possible competitive threat to frontier AI providers.",
+      "description": "AI models or weights that proliferate outside centralized control, making model-level regulation difficult because they can run on small local machines and across many jurisdictions.",
       "first_detected_date": "2026-03-29",
-      "last_mentioned_date": "2026-10-01",
-      "mention_count": 29,
+      "last_mentioned_date": "2026-10-02",
+      "mention_count": 30,
       "source_podcasts": null,
       "status": "active",
-      "investment_implications": "It matters because cheaper self-hosted AI could pressure AI service pricing, weaken closed-model moats, and reinforce disinflationary competition.",
+      "investment_implications": "Raises the relative importance of cyber defense, compute access, and enterprise security spending over centralized model licensing.",
       "display_on_main": 0,
       "archived_date": null,
       "archived_reason": null,
       "first_detected_episode_id": null,
       "first_detected_speaker": null,
-      "last_mentioned_episode_id": 542,
-      "last_mentioned_speaker": "David Rosenberg"
+      "last_mentioned_episode_id": 548,
+      "last_mentioned_speaker": "Chamath Palihapitiya, Jason Calacanis (hosts)"
     },
     {
       "id": 79,
@@ -13627,20 +13701,20 @@
     {
       "id": 57,
       "term": "AI Infrastructure",
-      "description": "AI Infrastructure refers to GPUs, TPUs, data centers, power, cloud capacity, and financing structures built to serve AI model training and inference. Zitron argued this buildout is expensive, debt-heavy, and vulnerable to insufficient end demand.",
+      "description": "The physical and operational stack behind advanced AI, including data centers, chips, power generation, hyperscalers, audit systems, and cyber defense capacity.",
       "first_detected_date": "2026-03-17",
-      "last_mentioned_date": "2026-10-01",
-      "mention_count": 41,
+      "last_mentioned_date": "2026-10-02",
+      "mention_count": 42,
       "source_podcasts": null,
       "status": "active",
-      "investment_implications": "It matters because project-level economics depend on utilization, electricity availability, GPU depreciation, and debt costs.",
+      "investment_implications": "Frames data centers, power, GPUs, and audit tooling as core national security and enterprise spending categories.",
       "display_on_main": 0,
       "archived_date": null,
       "archived_reason": null,
       "first_detected_episode_id": 71,
       "first_detected_speaker": null,
-      "last_mentioned_episode_id": 544,
-      "last_mentioned_speaker": "Ed Zitron"
+      "last_mentioned_episode_id": 548,
+      "last_mentioned_speaker": "Chamath Palihapitiya, Jason Calacanis (hosts)"
     },
     {
       "id": 26,
@@ -13827,8 +13901,8 @@
       "term": "AI Race",
       "description": "The competitive landscape in AI development, particularly between the U.S. and other countries like China.",
       "first_detected_date": "2026-03-11",
-      "last_mentioned_date": "2026-09-30",
-      "mention_count": 39,
+      "last_mentioned_date": "2026-10-02",
+      "mention_count": 41,
       "source_podcasts": null,
       "status": "active",
       "investment_implications": "Understanding the AI race is crucial for identifying investment opportunities in companies that can maintain a competitive edge.",
@@ -13837,8 +13911,8 @@
       "archived_reason": null,
       "first_detected_episode_id": 60,
       "first_detected_speaker": null,
-      "last_mentioned_episode_id": 540,
-      "last_mentioned_speaker": "Jake Paul, Drew Taggart, Alex Pall"
+      "last_mentioned_episode_id": 548,
+      "last_mentioned_speaker": "Chamath Palihapitiya, Jason Calacanis (hosts)"
     },
     {
       "id": 12,
@@ -13861,20 +13935,20 @@
     {
       "id": 95,
       "term": "Reindustrialization",
-      "description": "The process of revitalizing domestic manufacturing capabilities, particularly in advanced technologies.",
+      "description": "The return of industrial capacity and manufacturing activity to the United States, which Sacks linked to expansionary manufacturing indicators and the AI infrastructure boom.",
       "first_detected_date": "2026-03-04",
-      "last_mentioned_date": "2026-09-22",
-      "mention_count": 11,
+      "last_mentioned_date": "2026-10-02",
+      "mention_count": 12,
       "source_podcasts": null,
       "status": "active",
-      "investment_implications": "Boom's focus on reindustrialization may strengthen the U.S. manufacturing sector and create economic opportunities.",
+      "investment_implications": "Connects AI data center buildout, power generation, manufacturing expansion, and GDP growth into one capital-spending theme.",
       "display_on_main": 0,
       "archived_date": null,
       "archived_reason": null,
       "first_detected_episode_id": 40,
       "first_detected_speaker": null,
-      "last_mentioned_episode_id": 507,
-      "last_mentioned_speaker": "Blake Show"
+      "last_mentioned_episode_id": 548,
+      "last_mentioned_speaker": "Chamath Palihapitiya, Jason Calacanis (hosts)"
     },
     {
       "id": 112,
@@ -13897,20 +13971,20 @@
     {
       "id": 114,
       "term": "AI Agents",
-      "description": "Software systems that retrieve information, execute processes, apply policy judgment, or act as principal decision-makers in enterprise workflows.",
+      "description": "AI Agents are systems that can pursue goals, use tools, and continue working without constant human prompting. OpenAI's Dots were described as always-on agents running on cloud computers and connected to more than 4,000 apps.",
       "first_detected_date": "2026-02-28",
       "last_mentioned_date": "2026-10-02",
-      "mention_count": 109,
+      "mention_count": 110,
       "source_podcasts": null,
       "status": "active",
-      "investment_implications": "The episode frames AI agents as the application layer that can shift value away from incumbent systems of record toward end-to-end workflow owners.",
+      "investment_implications": "The agent interface could become the high-value control point for software, commerce, subscriptions, and workflow automation.",
       "display_on_main": 0,
       "archived_date": null,
       "archived_reason": null,
       "first_detected_episode_id": 31,
       "first_detected_speaker": null,
-      "last_mentioned_episode_id": 546,
-      "last_mentioned_speaker": "Seema Amble, Vladimir Keil"
+      "last_mentioned_episode_id": 547,
+      "last_mentioned_speaker": "Peter Diamandis, Alex Wissner-Gross (hosts)"
     },
     {
       "id": 38,

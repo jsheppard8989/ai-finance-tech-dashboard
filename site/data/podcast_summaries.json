@@ -1,5 +1,53 @@
 [
   {
+    "id": 548,
+    "podcast_name": "All-In with Chamath, Jason, Sacks & Friedberg",
+    "episode_title": "Trump's Super Intelligence Summit, AI Safety Accord, GDP Beats, Midterm Predictions",
+    "episode_date": "2026-10-02",
+    "summary": "The hosts centered the episode on President Trump's White House superintelligence gathering, which David Sacks described as the first meeting of the critical AI stack across data centers, chips, hyperscalers, and frontier model companies. Sacks said six major frontier model companies signed a White House accord that creates responsibility commitments, internal controls, external audits, and board-level oversight, with the FTC and SEC sitting behind public commitments as enforcement mechanisms.\n\nChamath Palihapitiya argued that the practical business implication is a new superintelligence audit layer, saying 8090 and Ernst and Young are building infrastructure for end-to-end traceability, policy-to-risk mapping, and auditable evidence. David Friedberg framed the moment as the beginning of the AI wars, predicting that open-source and open-weight models make model-level control impractical and that cyber defense budgets will rise sharply as Fortune 50 CEOs elevate AI-enabled defense to the board level.\n\nThe hosts split on how data centers will be treated. Friedberg predicted that within 12 to 18 months governments will shift from model regulation to regulating data center access and GPU allocation, including for financial services and defense. Sacks and Chamath emphasized the opposite pressure: data centers and electron generation are becoming national security infrastructure, and Sacks warned that the United States has been flat on power generation for about 25 years while China is doubling its grid every decade.\n\nThe macro section turned into a debate over whether the economy is stronger than polling suggests. Sacks cited Q2 GDP revised to 2.2% from 1.5%, Q1 revised to 2.5% from 2.1%, Atlanta Fed GDPNow tracking Q3 around 3.7%, August payrolls at 162,000 versus 55,000 consensus, unemployment at 4.1%, and core PCE at 3.0% versus 3.3% expected. Jason Calacanis countered that inflation and Trump polling remain weak, cited Polymarket odds showing Democrats favored for the House and Senate, and predicted a Democratic sweep, while Sacks predicted Republicans keep the Senate and Democrats, if they win the House, do so narrowly.",
+    "key_takeaways": [
+      "David Sacks says President Trump convened six major frontier model companies at the White House and produced an AI Safety Accord with internal controls, external audits, a board committee, and FTC and SEC enforcement of public commitments.",
+      "Chamath Palihapitiya says 8090 and Ernst and Young are building superintelligence audit infrastructure around end-to-end traceability, policy-to-risk mapping, and auditable evidence for boards, CEOs, auditors, regulators, lawyers, and customers.",
+      "David Friedberg predicts cyber defense budgets will go through the roof because Fortune 50 CEOs are making AI-era cyber defense their number one board-level priority and tools like Palo Alto Networks can use AI against AI-enabled attacks.",
+      "David Friedberg predicts that 12 to 18 months from the episode, governments will shift from regulating models to regulating data center access, including GPU and inference allocation for JPMorgan, defense, and financial services.",
+      "David Sacks argues the United States is at risk from anti-data-center politics because China is doubling its electrical grid every decade while the United States has been roughly flat for about 25 years.",
+      "David Sacks claims the economy is stronger than press coverage implies, citing Q2 GDP revised to 2.2% from 1.5%, Q1 revised to 2.5% from 2.1%, Atlanta Fed Q3 tracking near 3.7%, August payrolls at 162,000 versus 55,000 consensus, and unemployment at 4.1%.",
+      "Jason Calacanis predicts Democrats sweep the midterms, citing Polymarket odds of about 63% for the Senate, 93% for the House, and 64% for both chambers, while David Sacks predicts Republicans keep the Senate and any Democratic House majority is narrow."
+    ],
+    "investment_thesis": "David Friedberg predicts AI-era cyber-defense budgets will go through the roof as Fortune 50 CEOs elevate AI-enabled defense to board-level priority amid open-source model proliferation.",
+    "key_tickers": [
+      "PANW",
+      "NVDA",
+      "GOOGL",
+      "AMZN",
+      "META",
+      "JPM"
+    ]
+  },
+  {
+    "id": 547,
+    "podcast_name": "Moonshots with Peter Diamandis",
+    "episode_title": "Can We Still Build AI Safely? The White House Thinks So | MOONSHOTS #298",
+    "episode_date": "2026-10-02",
+    "summary": "The panel opened with the White House superintelligence accord, described as a four-layer framework covering internal controls, internal validation teams, external auditors, and board-level committees for frontier AI companies. Peter Diamandis said nearly 20 tech leaders joined President Donald Trump and Speaker Mike Johnson in the East Room, including Elon Musk, Mark Zuckerberg, Jensen Huang, Dario Amodei, Sundar Pichai, Satya Nadella, Lisa Su, and Greg Brockman, while Sam Altman was in San Francisco for OpenAI Dev Day. Alex Wissner-Gross argued that Mark Zuckerberg appeared to be the key operator behind the accord and that the document may preempt a stricter AI safety cartel, while Salim Ismail called it theater unless enforcement and transparent testing emerge.\n\nThe discussion then turned to abundance. Elon Musk predicted an age of universal high income in which robots and superintelligence make medical care better than what the richest people receive today. Peter connected that claim to his long-running abundance thesis that technology takes scarce goods and makes them cheap or free, while Salim emphasized that abundance is better understood as access to essentials like health, food, water, and education rather than raw material quantity alone.\n\nThe most investment-specific debate centered on Anthropic, which the panel said had filed an S-1 with a target IPO valuation of $2 trillion. Emad Mostaque argued that Anthropic is a fantastic business today but that its API-heavy revenue base could be smashed within two years by open-weight models, 100x efficiency gains, and non-Nvidia chip architectures. Alex disagreed on the terminal value, arguing that superintelligence is a highly valuable business because the $30 trillion US services economy could be automated by embodied and disembodied AI, with Anthropic aspiring to be the Apple-like high end of general intelligence.\n\nThe panel also reviewed OpenAI Dev Day, where Peter listed more than 20 announcements, including Dots, GPT6.1 Sol, Codex speed gains, agent APIs, team spaces, and a $500 per month pro tier. Alex criticized Dots as a Clippy-like misfire and argued that OpenAI appeared to be copying Meta-style avatars, while Emad framed the product as part of the coming battle to own the consumer agent interface. Later, Peter highlighted AMD's $8.2 billion stock acquisition of Fei-Fei Li's World Labs, which the panel tied to physical AI, world models, robotics training, gaming, and generated pixels.",
+    "key_takeaways": [
+      "Alex Wissner-Gross argues Mark Zuckerberg likely helped draft the White House superintelligence accord with Mike Johnson, because the four-layer structure uses internal controls, external auditors, and board review to preempt stricter federal AI regulation.",
+      "Salim Ismail argues the superintelligence accord is weak without enforcement, because a morally binding agreement over cyber, biological, and chemical model risks does not specify what happens if a company breaks it.",
+      "Elon Musk predicted an age of universal high income, claiming that robots and superintelligence could give everyone in the world better medical care than anyone at the White House lunch receives today.",
+      "Emad Mostaque argues Anthropic's current API business could be smashed within two years, because open-weight models, 100x efficiency gains, and non-Nvidia chip architectures could commoditize frontier-model access.",
+      "Alex Wissner-Gross argues Anthropic can still grow into a major business, because a $30 trillion US economy dominated by services can be automated by embodied and disembodied AI systems.",
+      "Peter Diamandis said OpenAI Dev Day included more than 20 announcements, including Dots connected to more than 4,000 apps, GPT6.1 Sol at $2 per million input tokens, and a $500 per month pro tier.",
+      "Peter Diamandis said AMD is acquiring Fei-Fei Li's World Labs for $8.2 billion in AMD stock, because world models that generate navigable 3D spaces from a single image are directly relevant to robots and physical AI."
+    ],
+    "investment_thesis": "Emad Mostaque argues Anthropic's API-centric business could be disrupted within two years as open-weight models and non-Nvidia chip architectures drive efficiency gains.",
+    "key_tickers": [
+      "AMD",
+      "GOOGL",
+      "META",
+      "NVDA"
+    ]
+  },
+  {
     "id": 546,
     "podcast_name": "The a16z Show",
     "episode_title": "Why AI Agents Can Beat the Incumbents",
