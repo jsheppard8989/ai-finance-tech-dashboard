@@ -1,7 +1,7 @@
 {
-  "generated_at": "2026-10-04T06:39:46.456012",
-  "last_updated": "2026-10-04T06:39:46.456012",
-  "last_pipeline_run": "2026-10-04T06:39:46.456012",
+  "generated_at": "2026-10-04T12:42:42.670638",
+  "last_updated": "2026-10-04T12:42:42.670638",
+  "last_pipeline_run": "2026-10-04T12:42:42.670638",
   "main_page": {
     "overton": 13,
     "insights": 12,
@@ -20,33 +20,14 @@
     "podcasts_analyzed": 1
   },
   "step_results": {
-    "downloaded": 1,
-    "transcribed": 1,
-    "analyzed": 1,
-    "insight_created": 1,
-    "published": 1,
-    "total": 1
+    "downloaded": 0,
+    "transcribed": 0,
+    "analyzed": 0,
+    "insight_created": 0,
+    "published": 0,
+    "total": 0
   },
-  "episodes": [
-    {
-      "id": "9c224ca2-3895-43b3-b9de-eb5e45c5d726",
-      "podcast": "The a16z Show",
-      "title": "David George & Jack Altman on AI, Autonomy, and the Next $25 Trillion",
-      "published": "2026-10-04",
-      "rss_guid": "9c224ca2-3895-43b3-b9de-eb5e45c5d726",
-      "stages": {
-        "downloaded": true,
-        "transcribed": true,
-        "analyzed": true,
-        "insight_created": true,
-        "published": true
-      },
-      "stage_reasons": {},
-      "first_blocker": null,
-      "remediation_by_stage": {},
-      "status": "complete"
-    }
-  ],
+  "episodes": [],
   "available_from_rss": [],
   "stale_episodes": [],
   "stale_threshold_days": 2,
