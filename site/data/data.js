@@ -3,1085 +3,1085 @@
 
 const dashboardData = {
   schemaVersion: 2,
-  generatedAt: "2026-10-04T05:06:05.143017",
-  chartsVersion: "2026-10-04T05:05:51.102066",
+  generatedAt: "2026-10-04T06:39:51.844882",
+  chartsVersion: "2026-10-04T06:39:40.770466",
   priceSnapshot: {
   "AAPL": {
     "price": 333.69,
     "change_pct": 0.71,
     "name": "Apple Inc.",
-    "updated_at": "2026-10-04T05:04:39.738509",
+    "updated_at": "2026-10-04T06:38:30.706643",
     "price_14d_ago": 331.34
   },
   "AEP": {
     "price": 119.57,
     "change_pct": -0.86,
     "name": "American Electric Power Company",
-    "updated_at": "2026-10-04T05:04:39.966777",
+    "updated_at": "2026-10-04T06:38:30.935578",
     "price_14d_ago": 120.61
   },
   "AMD": {
     "price": 633.91,
     "change_pct": 25.73,
     "name": "Advanced Micro Devices, Inc.",
-    "updated_at": "2026-10-04T05:04:40.140971",
+    "updated_at": "2026-10-04T06:38:31.103376",
     "price_14d_ago": 504.2
   },
   "AMGN": {
     "price": 403.04,
     "change_pct": 7.29,
     "name": "Amgen Inc.",
-    "updated_at": "2026-10-04T05:04:40.327007",
+    "updated_at": "2026-10-04T06:38:31.406324",
     "price_14d_ago": 375.65
   },
   "AMZN": {
     "price": 251.52,
     "change_pct": 1.25,
     "name": "Amazon.com, Inc.",
-    "updated_at": "2026-10-04T05:04:40.510206",
+    "updated_at": "2026-10-04T06:38:31.598016",
     "price_14d_ago": 248.42
   },
   "APO": {
     "price": 114.02,
     "change_pct": -10.22,
     "name": "Apollo Global Management, Inc. ",
-    "updated_at": "2026-10-04T05:04:40.692661",
+    "updated_at": "2026-10-04T06:38:31.779001",
     "price_14d_ago": 127.0
   },
   "APTV": {
     "price": 43.54,
     "change_pct": -0.48,
     "name": "Aptiv PLC",
-    "updated_at": "2026-10-04T05:04:40.865477",
+    "updated_at": "2026-10-04T06:38:31.953949",
     "price_14d_ago": 43.75
   },
   "AVGO": {
     "price": 355.14,
     "change_pct": 4.68,
     "name": "Broadcom Inc.",
-    "updated_at": "2026-10-04T05:04:41.237706",
+    "updated_at": "2026-10-04T06:38:32.357561",
     "price_14d_ago": 339.27
   },
   "BA": {
     "price": 193.56,
     "change_pct": -7.69,
     "name": "Boeing Company (The)",
-    "updated_at": "2026-10-04T05:04:41.625410",
+    "updated_at": "2026-10-04T06:38:32.802057",
     "price_14d_ago": 209.69
   },
   "BABA": {
     "price": 105.85,
     "change_pct": -3.19,
     "name": "Alibaba Group Holding Limited",
-    "updated_at": "2026-10-04T05:04:41.792338",
+    "updated_at": "2026-10-04T06:38:32.975781",
     "price_14d_ago": 109.34
   },
   "BAC": {
     "price": 53.75,
     "change_pct": -9.69,
     "name": "Bank of America Corporation",
-    "updated_at": "2026-10-04T05:04:41.995705",
+    "updated_at": "2026-10-04T06:38:33.162455",
     "price_14d_ago": 59.52
   },
   "BAM": {
     "price": 44.85,
     "change_pct": -2.16,
     "name": "Brookfield Asset Management Inc",
-    "updated_at": "2026-10-04T05:04:42.169803",
+    "updated_at": "2026-10-04T06:38:33.406838",
     "price_14d_ago": 45.84
   },
   "BIDU": {
     "price": 84.32,
     "change_pct": -6.72,
     "name": "Baidu, Inc.",
-    "updated_at": "2026-10-04T05:04:42.511405",
+    "updated_at": "2026-10-04T06:38:33.740694",
     "price_14d_ago": 90.39
   },
   "BP": {
     "price": 44.79,
     "change_pct": -4.62,
     "name": "BP p.l.c.",
-    "updated_at": "2026-10-04T05:04:42.911411",
+    "updated_at": "2026-10-04T06:38:34.135972",
     "price_14d_ago": 46.96
   },
   "BTC": {
-    "price": 85250.68,
-    "change_pct": -1.56,
+    "price": 85271.06,
+    "change_pct": -1.54,
     "name": "Bitcoin USD",
-    "updated_at": "2026-10-04T05:04:43.084267",
+    "updated_at": "2026-10-04T06:38:34.421519",
     "price_14d_ago": 86602.91
   },
   "BTC-USD": {
-    "price": 85250.68,
-    "change_pct": -1.56,
+    "price": 85271.06,
+    "change_pct": -1.54,
     "name": "Bitcoin USD",
-    "updated_at": "2026-10-04T05:04:43.255680",
+    "updated_at": "2026-10-04T06:38:34.630640",
     "price_14d_ago": 86602.91
   },
   "BX": {
     "price": 111.75,
     "change_pct": -11.8,
     "name": "Blackstone Inc.",
-    "updated_at": "2026-10-04T05:04:43.505342",
+    "updated_at": "2026-10-04T06:38:34.813064",
     "price_14d_ago": 126.7
   },
   "BYD": {
     "price": 67.25,
     "change_pct": -11.61,
     "name": "Boyd Gaming Corporation",
-    "updated_at": "2026-10-04T05:04:43.689023",
+    "updated_at": "2026-10-04T06:38:34.997224",
     "price_14d_ago": 76.08
   },
   "CAT": {
     "price": 845.42,
     "change_pct": 7.9,
     "name": "Caterpillar, Inc.",
-    "updated_at": "2026-10-04T05:04:44.069477",
+    "updated_at": "2026-10-04T06:38:35.494042",
     "price_14d_ago": 783.54
   },
   "CCJ": {
     "price": 85.18,
     "change_pct": -6.61,
     "name": "Cameco Corporation",
-    "updated_at": "2026-10-04T05:04:44.272698",
+    "updated_at": "2026-10-04T06:38:35.715586",
     "price_14d_ago": 91.21
   },
   "CEG": {
     "price": 257.49,
     "change_pct": -0.92,
     "name": "Constellation Energy Corporatio",
-    "updated_at": "2026-10-04T05:04:44.451195",
+    "updated_at": "2026-10-04T06:38:35.905417",
     "price_14d_ago": 259.89
   },
   "COIN": {
     "price": 183.0,
     "change_pct": 6.33,
     "name": "Coinbase Global, Inc.",
-    "updated_at": "2026-10-04T05:04:44.615588",
+    "updated_at": "2026-10-04T06:38:36.104643",
     "price_14d_ago": 172.11
   },
   "COPPER": {
     "price": 6.55,
     "change_pct": 2.83,
     "name": "Copper",
-    "updated_at": "2026-10-04T05:04:44.776702",
+    "updated_at": "2026-10-04T06:38:36.265483",
     "price_14d_ago": 6.37
   },
   "CORN": {
     "price": 18.85,
     "change_pct": -5.94,
     "name": "Teucrium Corn Fund ETV",
-    "updated_at": "2026-10-04T05:04:44.948704",
+    "updated_at": "2026-10-04T06:38:36.534588",
     "price_14d_ago": 20.04
   },
   "CRM": {
     "price": 234.69,
     "change_pct": -8.2,
     "name": "Salesforce, Inc.",
-    "updated_at": "2026-10-04T05:04:45.127724",
+    "updated_at": "2026-10-04T06:38:36.706576",
     "price_14d_ago": 255.65
   },
   "CROWD": {
     "price": 270.04,
     "change_pct": 11.36,
     "name": "CrowdStrike Holdings, Inc.",
-    "updated_at": "2026-10-04T05:04:45.294774",
+    "updated_at": "2026-10-04T06:38:36.879248",
     "price_14d_ago": 242.49
   },
   "DBC": {
     "price": 32.54,
     "change_pct": -3.38,
     "name": "Invesco DB Commodity Index Trac",
-    "updated_at": "2026-10-04T05:04:45.829182",
+    "updated_at": "2026-10-04T06:38:37.507115",
     "price_14d_ago": 33.68
   },
   "DELL": {
     "price": 562.52,
     "change_pct": 3.5,
     "name": "Dell Technologies Inc.",
-    "updated_at": "2026-10-04T05:04:46.006375",
+    "updated_at": "2026-10-04T06:38:37.685605",
     "price_14d_ago": 543.51
   },
   "DIS": {
     "price": 102.19,
     "change_pct": -3.97,
     "name": "Walt Disney Company (The)",
-    "updated_at": "2026-10-04T05:04:46.251261",
+    "updated_at": "2026-10-04T06:38:37.909101",
     "price_14d_ago": 106.42
   },
   "DOCS": {
     "price": 27.93,
     "change_pct": 8.21,
     "name": "Doximity, Inc.",
-    "updated_at": "2026-10-04T05:04:46.431725",
+    "updated_at": "2026-10-04T06:38:38.077042",
     "price_14d_ago": 25.81
   },
   "DVN": {
     "price": 47.65,
     "change_pct": -7.17,
     "name": "Devon Energy Corporation",
-    "updated_at": "2026-10-04T05:04:46.632038",
+    "updated_at": "2026-10-04T06:38:38.285981",
     "price_14d_ago": 51.33
   },
   "EBAY": {
     "price": 106.4,
     "change_pct": -1.51,
     "name": "eBay Inc.",
-    "updated_at": "2026-10-04T05:04:46.804031",
+    "updated_at": "2026-10-04T06:38:38.454858",
     "price_14d_ago": 108.03
   },
   "ETH-USD": {
-    "price": 2701.75,
-    "change_pct": -2.69,
+    "price": 2700.95,
+    "change_pct": -2.72,
     "name": "Ethereum USD",
-    "updated_at": "2026-10-04T05:04:46.972496",
+    "updated_at": "2026-10-04T06:38:38.613447",
     "price_14d_ago": 2776.47
   },
   "F": {
     "price": 12.1,
     "change_pct": -10.37,
     "name": "Ford Motor Company",
-    "updated_at": "2026-10-04T05:04:47.180713",
+    "updated_at": "2026-10-04T06:38:38.823620",
     "price_14d_ago": 13.5
   },
   "FB": {
     "price": 45.65,
     "change_pct": 0.61,
     "name": "ProShares S&P 500 Dynamic Buffe",
-    "updated_at": "2026-10-04T05:04:47.346595",
+    "updated_at": "2026-10-04T06:38:38.986832",
     "price_14d_ago": 45.38
   },
   "FCX": {
     "price": 72.04,
     "change_pct": 3.83,
     "name": "Freeport-McMoRan, Inc.",
-    "updated_at": "2026-10-04T05:04:47.551779",
+    "updated_at": "2026-10-04T06:38:39.183949",
     "price_14d_ago": 69.38
   },
   "FSK": {
     "price": 10.97,
     "change_pct": -8.58,
     "name": "FS KKR Capital Corp.",
-    "updated_at": "2026-10-04T05:04:48.079179",
+    "updated_at": "2026-10-04T06:38:39.747279",
     "price_14d_ago": 12.0
   },
   "GC": {
     "price": 0,
     "change_pct": 0,
     "name": "Gold",
-    "updated_at": "2026-10-04T05:04:48.251331",
+    "updated_at": "2026-10-04T06:38:39.918700",
     "price_14d_ago": null
   },
   "GD": {
     "price": 330.09,
     "change_pct": -7.95,
     "name": "General Dynamics Corporation",
-    "updated_at": "2026-10-04T05:04:48.487065",
+    "updated_at": "2026-10-04T06:38:40.147817",
     "price_14d_ago": 358.6
   },
   "GE": {
     "price": 309.56,
     "change_pct": 0.82,
     "name": "GE Aerospace",
-    "updated_at": "2026-10-04T05:04:48.705246",
+    "updated_at": "2026-10-04T06:38:40.380075",
     "price_14d_ago": 307.05
   },
   "GLD": {
     "price": 380.14,
     "change_pct": -3.55,
     "name": "SPDR Gold Shares",
-    "updated_at": "2026-10-04T05:04:48.868177",
+    "updated_at": "2026-10-04T06:38:40.552147",
     "price_14d_ago": 394.15
   },
   "GME": {
     "price": 24.7,
     "change_pct": 15.21,
     "name": "GameStop Corporation",
-    "updated_at": "2026-10-04T05:04:49.045035",
+    "updated_at": "2026-10-04T06:38:40.730500",
     "price_14d_ago": 21.44
   },
   "GOLD": {
     "price": 4162.3,
     "change_pct": -3.94,
     "name": "Gold",
-    "updated_at": "2026-10-04T05:04:49.218512",
+    "updated_at": "2026-10-04T06:38:40.900329",
     "price_14d_ago": 4332.8
   },
   "GOOG": {
     "price": 340.35,
     "change_pct": -0.32,
     "name": "Alphabet Inc.",
-    "updated_at": "2026-10-04T05:04:49.392836",
+    "updated_at": "2026-10-04T06:38:41.073217",
     "price_14d_ago": 341.43
   },
   "GOOGL": {
     "price": 343.5,
     "change_pct": -0.43,
     "name": "Alphabet Inc.",
-    "updated_at": "2026-10-04T05:04:49.561040",
+    "updated_at": "2026-10-04T06:38:41.235823",
     "price_14d_ago": 344.98
   },
   "GS": {
     "price": 902.56,
     "change_pct": -7.59,
     "name": "Goldman Sachs Group, Inc. (The)",
-    "updated_at": "2026-10-04T05:04:49.762331",
+    "updated_at": "2026-10-04T06:38:41.577417",
     "price_14d_ago": 976.67
   },
   "Gold": {
     "price": 42.29,
     "change_pct": -11.53,
     "name": "Gold.com, Inc.",
-    "updated_at": "2026-10-04T05:04:49.947801",
+    "updated_at": "2026-10-04T06:38:41.760660",
     "price_14d_ago": 47.8
   },
   "HFGM": {
     "price": 31.75,
     "change_pct": -0.31,
     "name": "Unlimited HFGM Global Macro ETF",
-    "updated_at": "2026-10-04T05:04:50.138278",
+    "updated_at": "2026-10-04T06:38:41.933703",
     "price_14d_ago": 31.85
   },
   "HG": {
     "price": 34.13,
     "change_pct": -3.2,
     "name": "Hamilton Insurance Group, Ltd.",
-    "updated_at": "2026-10-04T05:04:50.304601",
+    "updated_at": "2026-10-04T06:38:42.108040",
     "price_14d_ago": 35.26
   },
   "IBM": {
     "price": 222.64,
     "change_pct": -10.36,
     "name": "International Business Machines",
-    "updated_at": "2026-10-04T05:04:50.860220",
+    "updated_at": "2026-10-04T06:38:42.792412",
     "price_14d_ago": 248.37
   },
   "IEF": {
     "price": 89.05,
     "change_pct": -1.95,
     "name": "iShares 7-10 Year Treasury Bond",
-    "updated_at": "2026-10-04T05:04:51.051400",
+    "updated_at": "2026-10-04T06:38:42.985328",
     "price_14d_ago": 90.82
   },
   "INDA": {
     "price": 46.52,
     "change_pct": -2.25,
     "name": "Ishares MSCI India ETF",
-    "updated_at": "2026-10-04T05:04:51.228232",
+    "updated_at": "2026-10-04T06:38:43.182693",
     "price_14d_ago": 47.59
   },
   "INFY": {
     "price": 11.04,
     "change_pct": -2.47,
     "name": "Infosys Limited",
-    "updated_at": "2026-10-04T05:04:51.411759",
+    "updated_at": "2026-10-04T06:38:43.434660",
     "price_14d_ago": 11.32
   },
   "INTC": {
     "price": 119.33,
     "change_pct": 22.84,
     "name": "Intel Corporation",
-    "updated_at": "2026-10-04T05:04:51.606954",
+    "updated_at": "2026-10-04T06:38:43.698249",
     "price_14d_ago": 97.14
   },
   "IWD": {
     "price": 249.38,
     "change_pct": -1.62,
     "name": "iShares Russell 1000 Value ETF",
-    "updated_at": "2026-10-04T05:04:51.794655",
+    "updated_at": "2026-10-04T06:38:43.887651",
     "price_14d_ago": 253.49
   },
   "IWF": {
     "price": 127.07,
     "change_pct": 5.5,
     "name": "iShares Russell 1000 Growth Fun",
-    "updated_at": "2026-10-04T05:04:51.984344",
+    "updated_at": "2026-10-04T06:38:44.079772",
     "price_14d_ago": 120.45
   },
   "IWM": {
     "price": 281.52,
     "change_pct": -1.27,
     "name": "iShares Russell 2000 Index Fund",
-    "updated_at": "2026-10-04T05:04:52.182146",
+    "updated_at": "2026-10-04T06:38:44.267773",
     "price_14d_ago": 285.14
   },
   "JNJ": {
     "price": 256.03,
     "change_pct": -4.18,
     "name": "Johnson & Johnson",
-    "updated_at": "2026-10-04T05:04:52.402882",
+    "updated_at": "2026-10-04T06:38:44.571833",
     "price_14d_ago": 267.2
   },
   "JPM": {
     "price": 332.38,
     "change_pct": -5.71,
     "name": "JP Morgan Chase & Co.",
-    "updated_at": "2026-10-04T05:04:52.599147",
+    "updated_at": "2026-10-04T06:38:44.767950",
     "price_14d_ago": 352.49
   },
   "KKR": {
     "price": 90.29,
     "change_pct": -9.71,
     "name": "KKR & Co. Inc.",
-    "updated_at": "2026-10-04T05:04:52.780686",
+    "updated_at": "2026-10-04T06:38:44.975546",
     "price_14d_ago": 100.0
   },
   "LLY": {
     "price": 1142.85,
     "change_pct": 0.59,
     "name": "Eli Lilly and Company",
-    "updated_at": "2026-10-04T05:04:53.156317",
+    "updated_at": "2026-10-04T06:38:45.342338",
     "price_14d_ago": 1136.11
   },
   "LMT": {
     "price": 505.41,
     "change_pct": -5.26,
     "name": "Lockheed Martin Corporation",
-    "updated_at": "2026-10-04T05:04:53.393264",
+    "updated_at": "2026-10-04T06:38:45.706484",
     "price_14d_ago": 533.46
   },
   "LYFT": {
     "price": 15.46,
     "change_pct": -1.47,
     "name": "Lyft, Inc.",
-    "updated_at": "2026-10-04T05:04:53.891284",
+    "updated_at": "2026-10-04T06:38:46.361168",
     "price_14d_ago": 15.69
   },
   "META": {
     "price": 728.08,
     "change_pct": 8.63,
     "name": "Meta Platforms, Inc.",
-    "updated_at": "2026-10-04T05:04:54.071965",
+    "updated_at": "2026-10-04T06:38:46.541220",
     "price_14d_ago": 670.24
   },
   "MGM": {
     "price": 30.48,
     "change_pct": -22.28,
     "name": "MGM Resorts International",
-    "updated_at": "2026-10-04T05:04:54.269816",
+    "updated_at": "2026-10-04T06:38:46.719356",
     "price_14d_ago": 39.22
   },
   "MINE": {
     "price": 2.65,
     "change_pct": -7.99,
     "name": "Mayfair Gold Corp.",
-    "updated_at": "2026-10-04T05:04:54.439811",
+    "updated_at": "2026-10-04T06:38:46.885037",
     "price_14d_ago": 2.88
   },
   "MRK": {
     "price": 144.3,
     "change_pct": 0.35,
     "name": "Merck & Company, Inc.",
-    "updated_at": "2026-10-04T05:04:54.664115",
+    "updated_at": "2026-10-04T06:38:47.166732",
     "price_14d_ago": 143.79
   },
   "MRNA": {
     "price": 190.01,
     "change_pct": 32.16,
     "name": "Moderna, Inc.",
-    "updated_at": "2026-10-04T05:04:54.837732",
+    "updated_at": "2026-10-04T06:38:47.434548",
     "price_14d_ago": 143.77
   },
   "MS": {
     "price": 190.31,
     "change_pct": -7.74,
     "name": "Morgan Stanley",
-    "updated_at": "2026-10-04T05:04:55.039844",
+    "updated_at": "2026-10-04T06:38:47.677546",
     "price_14d_ago": 206.28
   },
   "MSFT": {
     "price": 517.53,
     "change_pct": 4.11,
     "name": "Microsoft Corporation",
-    "updated_at": "2026-10-04T05:04:55.223019",
+    "updated_at": "2026-10-04T06:38:47.874006",
     "price_14d_ago": 497.12
   },
   "MSTR": {
     "price": 160.01,
     "change_pct": 23.46,
     "name": "Strategy Inc",
-    "updated_at": "2026-10-04T05:04:55.399961",
+    "updated_at": "2026-10-04T06:38:48.039800",
     "price_14d_ago": 129.6
   },
   "MU": {
     "price": 1074.89,
     "change_pct": 15.88,
     "name": "Micron Technology, Inc.",
-    "updated_at": "2026-10-04T05:04:55.599612",
+    "updated_at": "2026-10-04T06:38:48.222793",
     "price_14d_ago": 927.6
   },
   "NEE": {
     "price": 76.83,
     "change_pct": -5.23,
     "name": "NextEra Energy, Inc.",
-    "updated_at": "2026-10-04T05:04:55.981957",
+    "updated_at": "2026-10-04T06:38:48.604330",
     "price_14d_ago": 81.07
   },
   "NFLX": {
     "price": 67.06,
     "change_pct": -13.92,
     "name": "Netflix, Inc.",
-    "updated_at": "2026-10-04T05:04:56.152007",
+    "updated_at": "2026-10-04T06:38:48.764160",
     "price_14d_ago": 77.9
   },
   "NKE": {
     "price": 33.87,
     "change_pct": -6.49,
     "name": "Nike, Inc.",
-    "updated_at": "2026-10-04T05:04:56.683907",
+    "updated_at": "2026-10-04T06:38:49.449099",
     "price_14d_ago": 36.22
   },
   "NOC": {
     "price": 478.0,
     "change_pct": -10.02,
     "name": "Northrop Grumman Corporation",
-    "updated_at": "2026-10-04T05:04:56.892445",
+    "updated_at": "2026-10-04T06:38:49.678436",
     "price_14d_ago": 531.25
   },
   "NVDA": {
     "price": 233.95,
     "change_pct": 10.27,
     "name": "NVIDIA Corporation",
-    "updated_at": "2026-10-04T05:04:57.076919",
+    "updated_at": "2026-10-04T06:38:49.855725",
     "price_14d_ago": 212.17
   },
   "NVS": {
     "price": 141.0,
     "change_pct": 1.72,
     "name": "Novartis AG",
-    "updated_at": "2026-10-04T05:04:57.455966",
+    "updated_at": "2026-10-04T06:38:50.201223",
     "price_14d_ago": 138.62
   },
   "Nasdaq": {
     "price": 749.58,
     "change_pct": 6.39,
     "name": "Invesco QQQ Trust, Series 1",
-    "updated_at": "2026-10-04T05:04:57.673719",
+    "updated_at": "2026-10-04T06:38:50.529131",
     "price_14d_ago": 704.54
   },
   "OKLO": {
     "price": 35.87,
     "change_pct": -0.31,
     "name": "Oklo Inc.",
-    "updated_at": "2026-10-04T05:04:58.018562",
+    "updated_at": "2026-10-04T06:38:50.856022",
     "price_14d_ago": 35.98
   },
   "ORCL": {
     "price": 142.3,
     "change_pct": 1.39,
     "name": "Oracle Corporation",
-    "updated_at": "2026-10-04T05:04:58.372371",
+    "updated_at": "2026-10-04T06:38:51.213102",
     "price_14d_ago": 140.35
   },
   "PALL": {
     "price": 21.25,
     "change_pct": -9.92,
     "name": "abrdn Physical Palladium Shares",
-    "updated_at": "2026-10-04T05:04:58.539112",
+    "updated_at": "2026-10-04T06:38:51.485007",
     "price_14d_ago": 23.59
   },
   "PANW": {
     "price": 403.24,
     "change_pct": 7.5,
     "name": "Palo Alto Networks, Inc.",
-    "updated_at": "2026-10-04T05:04:58.755067",
+    "updated_at": "2026-10-04T06:38:51.675358",
     "price_14d_ago": 375.09
   },
   "PBR": {
     "price": 21.65,
     "change_pct": -0.55,
     "name": "Petroleo Brasileiro S.A. Petrob",
-    "updated_at": "2026-10-04T05:04:58.941225",
+    "updated_at": "2026-10-04T06:38:51.871329",
     "price_14d_ago": 21.77
   },
   "PFE": {
     "price": 27.8,
     "change_pct": 0.91,
     "name": "Pfizer, Inc.",
-    "updated_at": "2026-10-04T05:04:59.320673",
+    "updated_at": "2026-10-04T06:38:52.256706",
     "price_14d_ago": 27.55
   },
   "PLTM": {
     "price": 16.35,
     "change_pct": -4.05,
     "name": "GraniteShares Platinum Shares E",
-    "updated_at": "2026-10-04T05:04:59.500146",
+    "updated_at": "2026-10-04T06:38:52.610626",
     "price_14d_ago": 17.04
   },
   "PLTR": {
     "price": 188.75,
     "change_pct": 9.38,
     "name": "Palantir Technologies Inc.",
-    "updated_at": "2026-10-04T05:04:59.663594",
+    "updated_at": "2026-10-04T06:38:52.814842",
     "price_14d_ago": 172.56
   },
   "PQT": {
     "price": 0,
     "change_pct": 0,
     "name": "PQT",
-    "updated_at": "2026-10-04T05:05:00.002264",
+    "updated_at": "2026-10-04T06:38:53.133796",
     "price_14d_ago": null
   },
   "PQUS": {
     "price": 28.78,
     "change_pct": 2.24,
     "name": "Pictet AI Enhanced US Equity ET",
-    "updated_at": "2026-10-04T05:05:00.171717",
+    "updated_at": "2026-10-04T06:38:53.316505",
     "price_14d_ago": 28.15
   },
   "PSBD": {
     "price": 9.77,
     "change_pct": -4.03,
     "name": "Palmer Square Capital BDC Inc.",
-    "updated_at": "2026-10-04T05:05:00.344854",
+    "updated_at": "2026-10-04T06:38:53.526127",
     "price_14d_ago": 10.18
   },
   "PYPL": {
     "price": 52.8,
     "change_pct": -1.88,
     "name": "PayPal Holdings, Inc.",
-    "updated_at": "2026-10-04T05:05:00.517870",
+    "updated_at": "2026-10-04T06:38:53.686622",
     "price_14d_ago": 53.81
   },
   "QQQ": {
     "price": 749.58,
     "change_pct": 6.39,
     "name": "Invesco QQQ Trust, Series 1",
-    "updated_at": "2026-10-04T05:05:00.718028",
+    "updated_at": "2026-10-04T06:38:53.862573",
     "price_14d_ago": 704.54
   },
   "QTA": {
     "price": 0,
     "change_pct": 0,
     "name": "QTA",
-    "updated_at": "2026-10-04T05:05:00.890252",
+    "updated_at": "2026-10-04T06:38:54.028649",
     "price_14d_ago": null
   },
   "RBLX": {
     "price": 44.12,
     "change_pct": -12.18,
     "name": "Roblox Corporation",
-    "updated_at": "2026-10-04T05:05:01.069246",
+    "updated_at": "2026-10-04T06:38:54.203558",
     "price_14d_ago": 50.24
   },
   "RKLB": {
     "price": 73.92,
     "change_pct": 16.32,
     "name": "Rocket Lab Corporation",
-    "updated_at": "2026-10-04T05:05:01.243383",
+    "updated_at": "2026-10-04T06:38:54.447879",
     "price_14d_ago": 63.55
   },
   "Russell": {
     "price": 281.52,
     "change_pct": -1.27,
     "name": "iShares Russell 2000 Index Fund",
-    "updated_at": "2026-10-04T05:05:01.591923",
+    "updated_at": "2026-10-04T06:38:54.906229",
     "price_14d_ago": 285.14
   },
   "S&P": {
     "price": 7722.72,
     "change_pct": 1.81,
     "name": "S&P 500",
-    "updated_at": "2026-10-04T05:05:01.761478",
+    "updated_at": "2026-10-04T06:38:55.074782",
     "price_14d_ago": 7585.73
   },
   "S&P 500": {
     "price": 7722.72,
     "change_pct": 1.81,
     "name": "S&P 500",
-    "updated_at": "2026-10-04T05:05:01.940480",
+    "updated_at": "2026-10-04T06:38:55.238292",
     "price_14d_ago": 7585.73
   },
   "SAMSUNG ELECTRONICS": {
     "price": 276000.0,
     "change_pct": 6.36,
     "name": "SamsungElec",
-    "updated_at": "2026-10-04T05:05:02.130376",
+    "updated_at": "2026-10-04T06:38:55.495546",
     "price_14d_ago": 259500.0
   },
   "SAP": {
     "price": 208.57,
     "change_pct": -3.29,
     "name": "SAP  SE",
-    "updated_at": "2026-10-04T05:05:02.321760",
+    "updated_at": "2026-10-04T06:38:55.693597",
     "price_14d_ago": 215.67
   },
   "SF": {
     "price": 70.28,
     "change_pct": -8.51,
     "name": "Stifel Financial Corporation",
-    "updated_at": "2026-10-04T05:05:02.523818",
+    "updated_at": "2026-10-04T06:38:55.896597",
     "price_14d_ago": 76.82
   },
   "SK HYNIX": {
     "price": 1841000.0,
     "change_pct": 1.6,
     "name": "SK hynix",
-    "updated_at": "2026-10-04T05:05:02.721247",
+    "updated_at": "2026-10-04T06:38:56.086881",
     "price_14d_ago": 1812000.0
   },
   "SLB": {
     "price": 48.74,
     "change_pct": -10.07,
     "name": "SLB Limited",
-    "updated_at": "2026-10-04T05:05:02.957729",
+    "updated_at": "2026-10-04T06:38:56.361129",
     "price_14d_ago": 54.2
   },
   "SMH": {
     "price": 630.6,
     "change_pct": 16.32,
     "name": "VanEck Semiconductor ETF",
-    "updated_at": "2026-10-04T05:05:03.145337",
+    "updated_at": "2026-10-04T06:38:56.618566",
     "price_14d_ago": 542.11
   },
   "SMP-500": {
     "price": 7722.72,
     "change_pct": 1.81,
     "name": "S&P 500",
-    "updated_at": "2026-10-04T05:05:03.316439",
+    "updated_at": "2026-10-04T06:38:56.789568",
     "price_14d_ago": 7585.73
   },
   "SMR": {
     "price": 7.75,
     "change_pct": -8.07,
     "name": "NuScale Power Corporation",
-    "updated_at": "2026-10-04T05:05:03.484667",
+    "updated_at": "2026-10-04T06:38:56.960558",
     "price_14d_ago": 8.43
   },
   "SNAP": {
     "price": 5.58,
     "change_pct": -4.29,
     "name": "Snap Inc.",
-    "updated_at": "2026-10-04T05:05:03.651251",
+    "updated_at": "2026-10-04T06:38:57.121572",
     "price_14d_ago": 5.83
   },
   "SNWGF": {
     "price": 11.68,
     "change_pct": 3.09,
     "name": "SNOWLINE GOLD CORP",
-    "updated_at": "2026-10-04T05:05:03.846352",
+    "updated_at": "2026-10-04T06:38:57.389709",
     "price_14d_ago": 11.33
   },
   "SOYB": {
     "price": 27.22,
     "change_pct": -2.61,
     "name": "Teucrium Soybean Fund ETV",
-    "updated_at": "2026-10-04T05:05:04.022397",
+    "updated_at": "2026-10-04T06:38:57.586209",
     "price_14d_ago": 27.95
   },
   "SPCE": {
     "price": 3.03,
     "change_pct": -0.33,
     "name": "Virgin Galactic Holdings, Inc.",
-    "updated_at": "2026-10-04T05:05:04.198901",
+    "updated_at": "2026-10-04T06:38:57.754410",
     "price_14d_ago": 3.04
   },
   "SPX": {
     "price": 7722.72,
     "change_pct": 1.81,
     "name": "S&P 500",
-    "updated_at": "2026-10-04T05:05:04.720260",
+    "updated_at": "2026-10-04T06:38:58.246710",
     "price_14d_ago": 7585.73
   },
   "SPY": {
     "price": 769.64,
     "change_pct": 1.62,
     "name": "State Street SPDR S&P 500 ETF T",
-    "updated_at": "2026-10-04T05:05:04.924461",
+    "updated_at": "2026-10-04T06:38:58.510941",
     "price_14d_ago": 757.39
   },
   "SQQQ": {
     "price": 33.12,
     "change_pct": -18.46,
     "name": "ProShares UltraPro Short QQQ",
-    "updated_at": "2026-10-04T05:05:05.099327",
+    "updated_at": "2026-10-04T06:38:58.678419",
     "price_14d_ago": 40.62
   },
   "SQUARE": {
     "price": 74.33,
     "change_pct": -5.08,
     "name": "Block, Inc.",
-    "updated_at": "2026-10-04T05:05:05.272622",
+    "updated_at": "2026-10-04T06:38:58.838002",
     "price_14d_ago": 78.31
   },
   "Semiconductors": {
     "price": 630.6,
     "change_pct": 16.32,
     "name": "VanEck Semiconductor ETF",
-    "updated_at": "2026-10-04T05:05:05.453628",
+    "updated_at": "2026-10-04T06:38:59.008636",
     "price_14d_ago": 542.11
   },
   "T": {
     "price": 24.3,
     "change_pct": -9.06,
     "name": "AT&T Inc.",
-    "updated_at": "2026-10-04T05:05:05.719650",
+    "updated_at": "2026-10-04T06:38:59.259594",
     "price_14d_ago": 26.72
   },
   "TDOC": {
     "price": 5.52,
     "change_pct": -16.11,
     "name": "Teladoc Health, Inc.",
-    "updated_at": "2026-10-04T05:05:06.081930",
+    "updated_at": "2026-10-04T06:38:59.731211",
     "price_14d_ago": 6.58
   },
   "TIPS": {
     "price": 0.0,
     "change_pct": 500.0,
     "name": "Tianrong Internet Products and ",
-    "updated_at": "2026-10-04T05:05:06.588149",
+    "updated_at": "2026-10-04T06:39:00.234844",
     "price_14d_ago": 0.0
   },
   "TLT": {
     "price": 77.48,
     "change_pct": -4.0,
     "name": "iShares 20+ Year Treasury Bond ",
-    "updated_at": "2026-10-04T05:05:06.787736",
+    "updated_at": "2026-10-04T06:39:00.423723",
     "price_14d_ago": 80.71
   },
   "TSLA": {
     "price": 370.59,
     "change_pct": 3.93,
     "name": "Tesla, Inc.",
-    "updated_at": "2026-10-04T05:05:06.963116",
+    "updated_at": "2026-10-04T06:39:00.593554",
     "price_14d_ago": 356.58
   },
   "TSM": {
     "price": 472.78,
     "change_pct": 14.27,
     "name": "Taiwan Semiconductor Manufactur",
-    "updated_at": "2026-10-04T05:05:07.153135",
+    "updated_at": "2026-10-04T06:39:00.775228",
     "price_14d_ago": 413.75
   },
   "UBER": {
     "price": 68.11,
     "change_pct": -4.65,
     "name": "Uber Technologies, Inc.",
-    "updated_at": "2026-10-04T05:05:07.497475",
+    "updated_at": "2026-10-04T06:39:01.200127",
     "price_14d_ago": 71.43
   },
   "UNG": {
     "price": 10.47,
     "change_pct": -0.66,
     "name": "United States Natural Gas Fund ",
-    "updated_at": "2026-10-04T05:05:07.662527",
+    "updated_at": "2026-10-04T06:39:01.362267",
     "price_14d_ago": 10.54
   },
   "URANIUM": {
     "price": 39.79,
     "change_pct": -4.74,
     "name": "Uranium ETF",
-    "updated_at": "2026-10-04T05:05:08.029357",
+    "updated_at": "2026-10-04T06:39:01.953784",
     "price_14d_ago": 41.77
   },
   "USD": {
     "price": 100.98,
     "change_pct": 28.15,
     "name": "ProShares Ultra Semiconductors",
-    "updated_at": "2026-10-04T05:05:08.257873",
+    "updated_at": "2026-10-04T06:39:02.160180",
     "price_14d_ago": 78.8
   },
   "USDX": {
     "price": 25.59,
     "change_pct": -0.02,
     "name": "SGI Enhanced Core ETF",
-    "updated_at": "2026-10-04T05:05:08.431117",
+    "updated_at": "2026-10-04T06:39:02.327782",
     "price_14d_ago": 25.59
   },
   "USO": {
     "price": 147.37,
     "change_pct": -8.95,
     "name": "United States Oil Fund",
-    "updated_at": "2026-10-04T05:05:08.827202",
+    "updated_at": "2026-10-04T06:39:02.487356",
     "price_14d_ago": 161.86
   },
   "UTHR": {
     "price": 541.7,
     "change_pct": 8.26,
     "name": "United Therapeutics Corporation",
-    "updated_at": "2026-10-04T05:05:09.130870",
+    "updated_at": "2026-10-04T06:39:02.646645",
     "price_14d_ago": 500.35
   },
   "UUU": {
     "price": 4.88,
     "change_pct": -4.69,
     "name": "Universal Safety Products, Inc.",
-    "updated_at": "2026-10-04T05:05:09.309434",
+    "updated_at": "2026-10-04T06:39:02.807476",
     "price_14d_ago": 5.12
   },
   "V": {
     "price": 360.66,
     "change_pct": -3.98,
     "name": "Visa Inc.",
-    "updated_at": "2026-10-04T05:05:09.662554",
+    "updated_at": "2026-10-04T06:39:03.198077",
     "price_14d_ago": 375.62
   },
   "VEEV": {
     "price": 273.33,
     "change_pct": 2.52,
     "name": "Veeva Systems Inc.",
-    "updated_at": "2026-10-04T05:05:10.004256",
+    "updated_at": "2026-10-04T06:39:03.692777",
     "price_14d_ago": 266.62
   },
   "VIX": {
     "price": 15.31,
     "change_pct": -10.99,
     "name": "CBOE Volatility Index",
-    "updated_at": "2026-10-04T05:05:10.526509",
+    "updated_at": "2026-10-04T06:39:04.194355",
     "price_14d_ago": 17.2
   },
   "VLO": {
     "price": 406.3,
     "change_pct": 2.33,
     "name": "Valero Energy Corporation",
-    "updated_at": "2026-10-04T05:05:10.738979",
+    "updated_at": "2026-10-04T06:39:04.478117",
     "price_14d_ago": 397.04
   },
   "VRTX": {
     "price": 504.73,
     "change_pct": -1.92,
     "name": "Vertex Pharmaceuticals Incorpor",
-    "updated_at": "2026-10-04T05:05:10.927882",
+    "updated_at": "2026-10-04T06:39:04.666827",
     "price_14d_ago": 514.63
   },
   "WFC": {
     "price": 80.45,
     "change_pct": -10.33,
     "name": "Wells Fargo & Company",
-    "updated_at": "2026-10-04T05:05:11.149919",
+    "updated_at": "2026-10-04T06:39:04.867078",
     "price_14d_ago": 89.72
   },
   "WIT": {
     "price": 1.72,
     "change_pct": -1.71,
     "name": "Wipro Limited",
-    "updated_at": "2026-10-04T05:05:11.342383",
+    "updated_at": "2026-10-04T06:39:05.059050",
     "price_14d_ago": 1.75
   },
   "WMT": {
     "price": 104.26,
     "change_pct": -3.54,
     "name": "Walmart Inc.",
-    "updated_at": "2026-10-04T05:05:11.551573",
+    "updated_at": "2026-10-04T06:39:05.277391",
     "price_14d_ago": 108.09
   },
   "WTBN": {
     "price": 23.93,
     "change_pct": -1.64,
     "name": "WisdomTree Bianco Total Return ",
-    "updated_at": "2026-10-04T05:05:11.711663",
+    "updated_at": "2026-10-04T06:39:05.485963",
     "price_14d_ago": 24.33
   },
   "WTI": {
     "price": 91.11,
     "change_pct": -13.91,
     "name": "WTI Crude",
-    "updated_at": "2026-10-04T05:05:11.875318",
+    "updated_at": "2026-10-04T06:39:05.672500",
     "price_14d_ago": 105.83
   },
   "WTI CRUDE OIL": {
     "price": 91.11,
     "change_pct": -13.91,
     "name": "WTI Crude",
-    "updated_at": "2026-10-04T05:05:12.049346",
+    "updated_at": "2026-10-04T06:39:05.840733",
     "price_14d_ago": 105.83
   },
   "XAU-USD": {
     "price": 0,
     "change_pct": 0,
     "name": "XAU9999 Meme USD",
-    "updated_at": "2026-10-04T05:05:12.400721",
+    "updated_at": "2026-10-04T06:39:06.169262",
     "price_14d_ago": 0.0
   },
   "XOM": {
     "price": 164.01,
     "change_pct": -3.14,
     "name": "ExxonMobil Holdings Corporation",
-    "updated_at": "2026-10-04T05:05:12.647342",
+    "updated_at": "2026-10-04T06:39:06.377466",
     "price_14d_ago": 169.32
   },
   "ZIM": {
     "price": 29.63,
     "change_pct": 0.2,
     "name": "ZIM Integrated Shipping Service",
-    "updated_at": "2026-10-04T05:05:12.991016",
+    "updated_at": "2026-10-04T06:39:06.715762",
     "price_14d_ago": 29.57
   },
   "HIMS": {
     "price": 29.0,
     "change_pct": 4.13,
     "name": "Hims & Hers Health, Inc.",
-    "updated_at": "2026-10-04T05:05:13.340823",
+    "updated_at": "2026-10-04T06:39:07.055511",
     "price_14d_ago": 27.85
   },
   "GDRX": {
     "price": 3.28,
     "change_pct": -6.02,
     "name": "GoodRx Holdings, Inc.",
-    "updated_at": "2026-10-04T05:05:13.582046",
+    "updated_at": "2026-10-04T06:39:07.223311",
     "price_14d_ago": 3.49
   },
   "TEM": {
     "price": 76.63,
     "change_pct": 11.3,
     "name": "Tempus AI, Inc.",
-    "updated_at": "2026-10-04T05:05:13.755992",
+    "updated_at": "2026-10-04T06:39:07.385340",
     "price_14d_ago": 68.85
   },
   "GH": {
     "price": 177.8,
     "change_pct": 1.22,
     "name": "Guardant Health, Inc.",
-    "updated_at": "2026-10-04T05:05:13.927755",
+    "updated_at": "2026-10-04T06:39:07.552443",
     "price_14d_ago": 175.65
   },
   "ABT": {
     "price": 97.5,
     "change_pct": -4.44,
     "name": "Abbott Laboratories",
-    "updated_at": "2026-10-04T05:05:14.148150",
+    "updated_at": "2026-10-04T06:39:07.750713",
     "price_14d_ago": 102.03
   },
   "ARM": {
     "price": 307.49,
     "change_pct": 27.15,
     "name": "Arm Holdings plc",
-    "updated_at": "2026-10-04T05:04:41.047381",
+    "updated_at": "2026-10-04T06:38:32.136003",
     "price_14d_ago": 241.83
   },
   "HOOD": {
     "price": 112.74,
     "change_pct": 2.07,
     "name": "Robinhood Markets, Inc.",
-    "updated_at": "2026-10-04T05:04:50.474667",
+    "updated_at": "2026-10-04T06:38:42.270930",
     "price_14d_ago": 110.45
   },
   "SPOT": {
     "price": 472.89,
     "change_pct": -15.29,
     "name": "Spotify Technology S.A.",
-    "updated_at": "2026-10-04T05:05:04.373743",
+    "updated_at": "2026-10-04T06:38:57.921962",
     "price_14d_ago": 558.26
   },
   "CRWV": {
     "price": 89.62,
     "change_pct": 10.75,
     "name": "CoreWeave, Inc.",
-    "updated_at": "2026-10-04T05:04:45.464651",
+    "updated_at": "2026-10-04T06:38:37.049338",
     "price_14d_ago": 80.92
   },
   "LENS": {
     "price": 43.15,
     "change_pct": -6.28,
     "name": "Sarmaya Thematic ETF",
-    "updated_at": "2026-10-04T05:04:52.944727",
+    "updated_at": "2026-10-04T06:38:45.141301",
     "price_14d_ago": 46.04
   },
   "TCEHY": {
     "price": 53.11,
     "change_pct": -4.8,
     "name": "Tencent Holding Ltd.",
-    "updated_at": "2026-10-04T05:05:05.913190",
+    "updated_at": "2026-10-04T06:38:59.568599",
     "price_14d_ago": 55.79
   }
 },
@@ -1089,6 +1089,44 @@ const dashboardData = {
   tickerScores: [],
   archive: {
   "insights": [
+    {
+      "id": 566,
+      "title": "David George & Jack Altman on AI, Autonomy, and the Next $25 Trillion",
+      "source_type": "podcast",
+      "source_name": "The a16z Show",
+      "source_date": "2026-10-04",
+      "summary": "David George argues that many AI debates are framed incorrectly as either-or choices, because he expects frontier models, open models, infrastructure, and application companies to expand together. He says AI infrastructure spending has already surpassed railroads as a share of GDP, could 10x over many years, and is constrained by data center capacity that he says is not broadly available until 2028.",
+      "key_takeaway": "David George argues AI, autonomy, robotics, health, and defense tech can exceed the prior $25 trillion tech market-cap cycle because each creates large new product waves.",
+      "tickers_mentioned": [
+        "PLTR",
+        "TSLA",
+        "UBER",
+        "LYFT",
+        "MSFT",
+        "GOOGL"
+      ],
+      "sentiment": "neutral",
+      "display_on_main": 1,
+      "display_order": 0,
+      "added_date": "2026-10-04",
+      "archived_date": null,
+      "archived_reason": null,
+      "podcast_episode_id": 551,
+      "notable_quotes": [
+        {
+          "speaker": "David George",
+          "quote": "The answer in AI is probably and"
+        },
+        {
+          "speaker": "David George",
+          "quote": "Right now product cycle is like a 9 or 10 out of 10."
+        },
+        {
+          "speaker": "David George",
+          "quote": "Like the vibes, the vibes matter."
+        }
+      ]
+    },
     {
       "id": 564,
       "title": "Beyond the God Model | Alex Atallah & Amjad Masad",
@@ -1555,7 +1593,7 @@ const dashboardData = {
       "key_takeaway": "Ari Weinstein argues OpenAI Computer Use is 180 degrees different than a few months ago because models now debug, use DOM and accessibility data, and execute generated JavaScript.",
       "tickers_mentioned": [],
       "sentiment": "neutral",
-      "display_on_main": 1,
+      "display_on_main": 0,
       "display_order": 0,
       "added_date": "2026-09-30",
       "archived_date": null,
@@ -13279,8 +13317,8 @@ const dashboardData = {
       "term": "Autonomy",
       "description": "The capacity of an AI system to make decisions and operate independently of direct human control or oversight, as evidenced by agents not alerting humans about their unethical actions.",
       "first_detected_date": "2026-07-22",
-      "last_mentioned_date": "2026-10-03",
-      "mention_count": 29,
+      "last_mentioned_date": "2026-10-04",
+      "mention_count": 30,
       "source_podcasts": null,
       "status": "active",
       "investment_implications": "Emphasizes the critical need for ethical AI frameworks, clear oversight mechanisms, and fail-safes to manage systems operating independently of human control, impacting regulatory compliance and public trust.",
@@ -13289,8 +13327,8 @@ const dashboardData = {
       "archived_reason": null,
       "first_detected_episode_id": 362,
       "first_detected_speaker": "Travis Kalanick, Ben Horowitz",
-      "last_mentioned_episode_id": 549,
-      "last_mentioned_speaker": "Alex Atallah, Amjad Masad"
+      "last_mentioned_episode_id": 551,
+      "last_mentioned_speaker": "David George"
     },
     {
       "id": 265,
@@ -13477,8 +13515,8 @@ const dashboardData = {
       "term": "Hyperscalers",
       "description": "Hyperscalers are the largest cloud infrastructure companies, including Amazon, Google, and Microsoft. Zitron argued they are both AI suppliers and counterparties because they resell models, provide compute, and book future revenue tied to AI labs.",
       "first_detected_date": "2026-06-19",
-      "last_mentioned_date": "2026-10-02",
-      "mention_count": 44,
+      "last_mentioned_date": "2026-10-04",
+      "mention_count": 45,
       "source_podcasts": null,
       "status": "active",
       "investment_implications": "It matters because AI lab defaults or delayed payments could force revisions to cloud revenue guidance and data center plans.",
@@ -13487,16 +13525,16 @@ const dashboardData = {
       "archived_reason": null,
       "first_detected_episode_id": 302,
       "first_detected_speaker": "Chamath Palihapitiya, Jason Calacanis (hosts)",
-      "last_mentioned_episode_id": 547,
-      "last_mentioned_speaker": "Peter Diamandis, Alex Wissner-Gross (hosts)"
+      "last_mentioned_episode_id": 551,
+      "last_mentioned_speaker": "David George"
     },
     {
       "id": 256,
       "term": "Authenticity",
       "description": "The quality of being genuine or original, often associated with products or businesses that have a personal, non-corporate touch.",
       "first_detected_date": "2026-06-19",
-      "last_mentioned_date": "2026-09-30",
-      "mention_count": 8,
+      "last_mentioned_date": "2026-10-04",
+      "mention_count": 9,
       "source_podcasts": null,
       "status": "active",
       "investment_implications": "Authentic family businesses are increasingly valued by consumers, especially younger generations, for their perceived trustworthiness and connection to tradition.",
@@ -13505,8 +13543,8 @@ const dashboardData = {
       "archived_reason": null,
       "first_detected_episode_id": 301,
       "first_detected_speaker": null,
-      "last_mentioned_episode_id": 540,
-      "last_mentioned_speaker": "Jake Paul, Drew Taggart, Alex Pall"
+      "last_mentioned_episode_id": 551,
+      "last_mentioned_speaker": "David George"
     },
     {
       "id": 266,
@@ -13637,20 +13675,20 @@ const dashboardData = {
     {
       "id": 138,
       "term": "AI CapEx",
-      "description": "Capital spending by AI-focused hyperscalers on data centers, chips, and related infrastructure. Rosenberg argued this spending boom is increasingly funded through the bond market rather than internal cash flow.",
+      "description": "Large capital spending on compute, data centers, and model training capacity. David George says AI infrastructure has already surpassed railroads as a percentage of GDP and could 10x over many years.",
       "first_detected_date": "2026-06-08",
-      "last_mentioned_date": "2026-10-01",
-      "mention_count": 30,
+      "last_mentioned_date": "2026-10-04",
+      "mention_count": 31,
       "source_podcasts": null,
       "status": "active",
-      "investment_implications": "It matters because incremental corporate borrowing can compete with government borrowing and push real yields higher.",
+      "investment_implications": "Multi-trillion-dollar spending can drive returns for compute, power, data center, and model companies while changing capital intensity across software.",
       "display_on_main": 0,
       "archived_date": null,
       "archived_reason": null,
       "first_detected_episode_id": 271,
       "first_detected_speaker": null,
-      "last_mentioned_episode_id": 542,
-      "last_mentioned_speaker": "David Rosenberg"
+      "last_mentioned_episode_id": 551,
+      "last_mentioned_speaker": "David George"
     },
     {
       "id": 234,
@@ -14447,20 +14485,20 @@ const dashboardData = {
     {
       "id": 89,
       "term": "Autonomous Vehicles (AVs)",
-      "description": "Self-driving transportation systems capable of navigating without human intervention, expanding into fleet-based mobility services.",
+      "description": "Self-driving vehicles used for personal transport, ride-hailing, and eventually broader mobility markets. David George says Waymo data shows 10 to 14 times better safety than human drivers and predicts a 10x plus ride-hailing expansion.",
       "first_detected_date": "2026-04-03",
-      "last_mentioned_date": "2026-09-09",
-      "mention_count": 7,
+      "last_mentioned_date": "2026-10-04",
+      "mention_count": 8,
       "source_podcasts": null,
       "status": "active",
-      "investment_implications": "Fleet ownership models and robotaxi networks will displace traditional ride-hail and automotive ownership paradigms, favoring vertically integrated AV platforms.",
+      "investment_implications": "AV diffusion can redraw ride-hailing economics, personal car features, insurance, and auto demand over a long time horizon.",
       "display_on_main": 0,
       "archived_date": null,
       "archived_reason": null,
       "first_detected_episode_id": null,
       "first_detected_speaker": null,
-      "last_mentioned_episode_id": 468,
-      "last_mentioned_speaker": "Jacob Bondas, Salim Ismail"
+      "last_mentioned_episode_id": 551,
+      "last_mentioned_speaker": "David George"
     },
     {
       "id": 90,
@@ -14591,20 +14629,20 @@ const dashboardData = {
     {
       "id": 78,
       "term": "Open-Source AI Models",
-      "description": "The episode uses the related phrase open weight models to describe models that enterprises can evaluate, diversify into, and potentially build around instead of relying only on proprietary frontier labs.",
+      "description": "Models outside the closed frontier-lab systems that can be cheaper or more customizable. David George argues open and n-1 models can grow alongside frontier systems as usage expands and cost sensitivity rises.",
       "first_detected_date": "2026-03-29",
-      "last_mentioned_date": "2026-10-03",
-      "mention_count": 31,
+      "last_mentioned_date": "2026-10-04",
+      "mention_count": 32,
       "source_podcasts": null,
       "status": "active",
-      "investment_implications": "The concept supports a market thesis that enterprise AI spend can shift toward marketplaces, benchmarking, and infrastructure layers that compare model quality and cost.",
+      "investment_implications": "The model layer may not be winner-take-all if 20x to 50x usage growth creates demand for different price-performance tiers.",
       "display_on_main": 0,
       "archived_date": null,
       "archived_reason": null,
       "first_detected_episode_id": null,
       "first_detected_speaker": null,
-      "last_mentioned_episode_id": 549,
-      "last_mentioned_speaker": "Alex Atallah, Amjad Masad"
+      "last_mentioned_episode_id": 551,
+      "last_mentioned_speaker": "David George"
     },
     {
       "id": 79,
@@ -14897,20 +14935,20 @@ const dashboardData = {
     {
       "id": 57,
       "term": "AI Infrastructure",
-      "description": "The physical and operational stack behind advanced AI, including data centers, chips, power generation, hyperscalers, audit systems, and cyber defense capacity.",
+      "description": "The physical and cloud capacity needed to train and run AI models, including data centers, power, chips, and supply-chain inputs. David George frames it as the limiting factor for AI demand because capacity is hard to obtain before 2028.",
       "first_detected_date": "2026-03-17",
-      "last_mentioned_date": "2026-10-02",
-      "mention_count": 42,
+      "last_mentioned_date": "2026-10-04",
+      "mention_count": 43,
       "source_podcasts": null,
       "status": "active",
-      "investment_implications": "Frames data centers, power, GPUs, and audit tooling as core national security and enterprise spending categories.",
+      "investment_implications": "Infrastructure bottlenecks can shape which labs, cloud providers, and application companies capture AI revenue growth.",
       "display_on_main": 0,
       "archived_date": null,
       "archived_reason": null,
       "first_detected_episode_id": 71,
       "first_detected_speaker": null,
-      "last_mentioned_episode_id": 548,
-      "last_mentioned_speaker": "Chamath Palihapitiya, Jason Calacanis (hosts)"
+      "last_mentioned_episode_id": 551,
+      "last_mentioned_speaker": "David George"
     },
     {
       "id": 26,
@@ -15167,20 +15205,20 @@ const dashboardData = {
     {
       "id": 114,
       "term": "AI Agents",
-      "description": "AI Agents are systems that can pursue goals, use tools, and continue working without constant human prompting. OpenAI's Dots were described as always-on agents running on cloud computers and connected to more than 4,000 apps.",
+      "description": "AI systems that move beyond reactive answers and take proactive actions on behalf of users. David George says the consumer shift will come when AI becomes an assistant for everybody and can act in a trustworthy way.",
       "first_detected_date": "2026-02-28",
-      "last_mentioned_date": "2026-10-03",
-      "mention_count": 111,
+      "last_mentioned_date": "2026-10-04",
+      "mention_count": 112,
       "source_podcasts": null,
       "status": "active",
-      "investment_implications": "The agent interface could become the high-value control point for software, commerce, subscriptions, and workflow automation.",
+      "investment_implications": "Agentic consumer products could support subscription and advertising business models across billions of users.",
       "display_on_main": 0,
       "archived_date": null,
       "archived_reason": null,
       "first_detected_episode_id": 31,
       "first_detected_speaker": null,
-      "last_mentioned_episode_id": 550,
-      "last_mentioned_speaker": "Richard Socher"
+      "last_mentioned_episode_id": 551,
+      "last_mentioned_speaker": "David George"
     },
     {
       "id": 38,
@@ -15444,6 +15482,47 @@ const dashboardData = {
 },
   mainContent: {
   "insights": [
+    {
+      "id": 566,
+      "title": "David George & Jack Altman on AI, Autonomy, and the Next $25 Trillion",
+      "source_type": "podcast",
+      "source_name": "The a16z Show",
+      "source_date": "2026-10-04",
+      "summary": "David George argues that many AI debates are framed incorrectly as either-or choices, because he expects frontier models, open models, infrastructure, and application companies to expand together. He says AI infrastructure spending has already surpassed railroads as a share of GDP, could 10x over many years, and is constrained by data center capacity that he says is not broadly available until 2028.",
+      "key_takeaway": "David George argues AI, autonomy, robotics, health, and defense tech can exceed the prior $25 trillion tech market-cap cycle because each creates large new product waves.",
+      "tickers_mentioned": "[\"PLTR\", \"TSLA\", \"UBER\", \"LYFT\", \"MSFT\", \"GOOGL\"]",
+      "sentiment": "neutral",
+      "display_on_main": 1,
+      "display_order": 0,
+      "added_date": "2026-10-04",
+      "archived_date": null,
+      "archived_reason": null,
+      "podcast_episode_id": 551,
+      "notable_quotes": [
+        {
+          "speaker": "David George",
+          "quote": "The answer in AI is probably and"
+        },
+        {
+          "speaker": "David George",
+          "quote": "Right now product cycle is like a 9 or 10 out of 10."
+        },
+        {
+          "speaker": "David George",
+          "quote": "Like the vibes, the vibes matter."
+        }
+      ],
+      "episode_release_date": "2026-10-04",
+      "guest_name": null,
+      "key_tickers": [
+        "PLTR",
+        "TSLA",
+        "UBER",
+        "LYFT",
+        "MSFT",
+        "GOOGL"
+      ]
+    },
     {
       "id": 565,
       "title": "Recursive's $670M Bet on Self-Improving AI, Sonnet 5.5 Hits 70%, Elon Co-Leads Pentagon Push | EP #299",
@@ -15862,40 +15941,6 @@ const dashboardData = {
         "GOOGL",
         "META"
       ]
-    },
-    {
-      "id": 554,
-      "title": "Why Dwarkesh is Wrong about Computer Use + How OpenAI shipped its Jev competitor in 1 Week",
-      "source_type": "podcast",
-      "source_name": "Latent Space: The AI Engineer Podcast",
-      "source_date": "2026-09-30",
-      "summary": "This Latent Space episode was recorded around OpenAI DevDay and focused on OpenAI's new agent stack: Dots, Computer Use in the Agents API, GPT-6.1 Sol, UltraFast inference, and the Decisions API. Ari Weinstein argued against the view, attributed by the hosts to Dwarkesh and other AI commentators, that Computer Use has not advanced in the last two years, saying it is now \"180 degrees different\" from a few months ago because models can debug, retry, use accessibility trees and the DOM, and generate JavaScript to execute multiple actions at once.\n\nWeinstein described Computer Use as moving from a slow screenshot-and-scroll loop toward a multimodal software-control layer that combines screenshots, accessibility metadata, Playwright, DOM access, and generated code. He cited a personal meal-prep ordering task that fell from two hours manually to 15 minutes with GPT-6.1 Sol, and he said the new model is one fifth the cost of Astra overall and one seventh the cost for Computer Use specifically.\n\nNikunj Handa then explained OpenAI's API updates, including async function calling, mid-turn steering, WebSockets, UltraFast inference, prompt caching, cache pre-warming, compaction, and the Agents API. He said OpenAI's inference team had recently focused on efficiency, including an 80% Luna price cut, and then shifted toward making Astra run as fast as possible through UltraFast.\n\nThe second half centered on the Decisions API, which Handa said was inspired by Jev and began roughly one week before the conversation. He said the first version is not a newly trained model but a Luna-based implementation using structured outputs, constrained inference, parallel batched questions, and latency optimization, with internal use cases such as support-ticket classification, GPT Live tool calling, and possible Codex workflows.",
-      "key_takeaway": "Ari Weinstein argues OpenAI Computer Use is 180 degrees different than a few months ago because models now debug, use DOM and accessibility data, and execute generated JavaScript.",
-      "tickers_mentioned": "[]",
-      "sentiment": "neutral",
-      "display_on_main": 1,
-      "display_order": 0,
-      "added_date": "2026-09-30",
-      "archived_date": null,
-      "archived_reason": null,
-      "podcast_episode_id": 539,
-      "notable_quotes": [
-        {
-          "speaker": "Ari Weinstein",
-          "quote": "Computer Use is, like, 180 degrees different than it was."
-        },
-        {
-          "speaker": "Ari Weinstein",
-          "quote": "It both did it eight times faster than I could, and it saved me two hours on GPT-6.1 Sol."
-        },
-        {
-          "speaker": "Nikunj Handa",
-          "quote": "We havent trained, like, a new model for this."
-        }
-      ],
-      "episode_release_date": "2026-09-30",
-      "guest_name": null,
-      "key_tickers": []
     }
   ],
   "definitions": [
@@ -16082,8 +16127,8 @@ const dashboardData = {
       "term": "Hyperscalers",
       "description": "Hyperscalers are the largest cloud infrastructure companies, including Amazon, Google, and Microsoft. Zitron argued they are both AI suppliers and counterparties because they resell models, provide compute, and book future revenue tied to AI labs.",
       "first_detected_date": "2026-06-19",
-      "last_mentioned_date": "2026-10-02",
-      "mention_count": 44,
+      "last_mentioned_date": "2026-10-04",
+      "mention_count": 45,
       "source_podcasts": null,
       "status": "active",
       "investment_implications": "It matters because AI lab defaults or delayed payments could force revisions to cloud revenue guidance and data center plans.",
@@ -16092,18 +16137,18 @@ const dashboardData = {
       "archived_reason": null,
       "first_detected_episode_id": 302,
       "first_detected_speaker": "Chamath Palihapitiya, Jason Calacanis (hosts)",
-      "last_mentioned_episode_id": 547,
-      "last_mentioned_speaker": "Peter Diamandis, Alex Wissner-Gross (hosts)",
-      "novelty_score": 2.1754,
-      "overton_score": 2.1754,
+      "last_mentioned_episode_id": 551,
+      "last_mentioned_speaker": "David George",
+      "novelty_score": 2.1973,
+      "overton_score": 2.1973,
       "resonance_pct": 78,
       "is_established": false,
       "first_detected_podcast": "All-In with Chamath, Jason, Sacks & Friedberg",
       "first_detected_episode_title": "World's First Trillionaire, Anthropic Fable Banned, The New Oligarchs, Iran Peace Deal",
       "first_detected_episode_date": "2026-06-19",
-      "last_mentioned_podcast": "Moonshots with Peter Diamandis",
-      "last_mentioned_episode_title": "Can We Still Build AI Safely? The White House Thinks So | MOONSHOTS #298",
-      "last_mentioned_episode_date": "2026-10-02"
+      "last_mentioned_podcast": "The a16z Show",
+      "last_mentioned_episode_title": "David George & Jack Altman on AI, Autonomy, and the Next $25 Trillion",
+      "last_mentioned_episode_date": "2026-10-04"
     },
     {
       "id": 267,
@@ -16420,8 +16465,8 @@ const dashboardData = {
       "term": "Autonomy",
       "description": "The capacity of an AI system to make decisions and operate independently of direct human control or oversight, as evidenced by agents not alerting humans about their unethical actions.",
       "first_detected_date": "2026-07-22",
-      "last_mentioned_date": "2026-10-03",
-      "mention_count": 29,
+      "last_mentioned_date": "2026-10-04",
+      "mention_count": 30,
       "source_podcasts": null,
       "status": "active",
       "investment_implications": "Emphasizes the critical need for ethical AI frameworks, clear oversight mechanisms, and fail-safes to manage systems operating independently of human control, impacting regulatory compliance and public trust.",
@@ -16430,18 +16475,18 @@ const dashboardData = {
       "archived_reason": null,
       "first_detected_episode_id": 362,
       "first_detected_speaker": "Travis Kalanick, Ben Horowitz",
-      "last_mentioned_episode_id": 549,
-      "last_mentioned_speaker": "Alex Atallah, Amjad Masad",
-      "novelty_score": 0.6286,
-      "overton_score": 0.6286,
+      "last_mentioned_episode_id": 551,
+      "last_mentioned_speaker": "David George",
+      "novelty_score": 0.6379,
+      "overton_score": 0.6379,
       "resonance_pct": 50,
       "is_established": true,
       "first_detected_podcast": "The a16z Show",
       "first_detected_episode_title": "Travis Kalanick Is Back | Building the Future of Industrial AI",
       "first_detected_episode_date": "2026-07-22",
       "last_mentioned_podcast": "The a16z Show",
-      "last_mentioned_episode_title": "Beyond the God Model | Alex Atallah & Amjad Masad",
-      "last_mentioned_episode_date": "2026-10-03"
+      "last_mentioned_episode_title": "David George & Jack Altman on AI, Autonomy, and the Next $25 Trillion",
+      "last_mentioned_episode_date": "2026-10-04"
     },
     {
       "id": 255,
@@ -16476,8 +16521,8 @@ const dashboardData = {
       "term": "Authenticity",
       "description": "The quality of being genuine or original, often associated with products or businesses that have a personal, non-corporate touch.",
       "first_detected_date": "2026-06-19",
-      "last_mentioned_date": "2026-09-30",
-      "mention_count": 8,
+      "last_mentioned_date": "2026-10-04",
+      "mention_count": 9,
       "source_podcasts": null,
       "status": "active",
       "investment_implications": "Authentic family businesses are increasingly valued by consumers, especially younger generations, for their perceived trustworthiness and connection to tradition.",
@@ -16486,18 +16531,18 @@ const dashboardData = {
       "archived_reason": null,
       "first_detected_episode_id": 301,
       "first_detected_speaker": "",
-      "last_mentioned_episode_id": 540,
-      "last_mentioned_speaker": "Jake Paul, Drew Taggart, Alex Pall",
-      "novelty_score": 0.4649,
-      "overton_score": 0.4649,
-      "resonance_pct": 43,
+      "last_mentioned_episode_id": 551,
+      "last_mentioned_speaker": "David George",
+      "novelty_score": 0.4974,
+      "overton_score": 0.4974,
+      "resonance_pct": 45,
       "is_established": true,
       "first_detected_podcast": "The a16z Show",
       "first_detected_episode_title": "The New Rules of Media | Marc Andreessen & Ben Horowitz",
       "first_detected_episode_date": "2026-06-19",
-      "last_mentioned_podcast": "All-In with Chamath, Jason, Sacks & Friedberg",
-      "last_mentioned_episode_title": "Jake Paul & The Chainsmokers: Turning Fame into Funds, Jake Enters Politics? & Venture Bubble Signs",
-      "last_mentioned_episode_date": "2026-09-30"
+      "last_mentioned_podcast": "The a16z Show",
+      "last_mentioned_episode_title": "David George & Jack Altman on AI, Autonomy, and the Next $25 Trillion",
+      "last_mentioned_episode_date": "2026-10-04"
     }
   ]
 },
@@ -47521,6 +47566,61 @@ const dashboardData = {
       "META",
       "CRM"
     ]
+  },
+  "566": {
+    "id": 567,
+    "insight_id": 566,
+    "podcast_episode_id": 551,
+    "overview": "The sharper underwriting question is not whether token sellers can grow, but whether token buyers show measurable ROI. George\u2019s answer is that coding is already shifting from cost savings to revenue expansion: the best companies are using AI to ship more products, not merely cut headcount. That matters because it changes where value accrues: applications with deep workflow fit, integration work, and field sales can survive even if model labs build first-party products around coding and Office-like horizontal work. He also sketches a cost-routing future: frontier models handle the highest-value tasks, while n-1 or open models win lower-stakes workloads like support tickets. In consumer AI, he expects monetization to look less like today\u2019s search ads and more like a new native format around proactive assistants. In autonomy, the investable wedge is price elasticity: if robotaxi cost per mile falls below Uber/Lyft while safety is 10\u201314x better, demand can expand far beyond today\u2019s ride-hail market.",
+    "key_takeaways_detailed": [],
+    "investment_thesis": "If George is directionally right, the next 3\u20137 years favor exposure to companies that either sell scarce AI capacity, translate AI into measurable workflow ROI, or own large autonomy deployment curves. The thesis is strengthened if AI buyers report revenue acceleration rather than only cost savings, and weakened if usage growth decouples from customer-level productivity gains. Public-market proof will likely show up first in cloud AI backlog, AI-native software retention, and autonomous miles scaled at falling cost per mile.",
+    "ticker_analysis": {
+      "TSLA": {
+        "rationale": "Tesla is a direct public expression of the autonomy part of the thesis because the source repeatedly frames self-driving capability and robotaxis as a massive market expansion beyond today\u2019s ride-hail model.",
+        "positioning": "",
+        "risk": ""
+      },
+      "PLTR": {
+        "rationale": "Palantir is relevant because George cites it as a trusted AI implementation layer for enterprises, where services, workflow integration, and CEO-level trust can convert model capability into business outcomes.",
+        "positioning": "",
+        "risk": ""
+      },
+      "MSFT": {
+        "rationale": "Microsoft is relevant because the discussion identifies Office-like horizontal knowledge-worker products as a zone where AI labs and incumbent productivity platforms will compete for daily enterprise usage.",
+        "positioning": "",
+        "risk": ""
+      }
+    },
+    "positioning_guidance": "",
+    "risk_factors": [],
+    "contrarian_signals": [],
+    "catalysts": [],
+    "related_insights": null,
+    "audio_timestamp_start": null,
+    "audio_timestamp_end": null,
+    "transcript_excerpt": null,
+    "created_at": "2026-10-04T06:38:29.797112",
+    "updated_at": "2026-10-04 11:38:29",
+    "episode_evidence": "Jack Altman: \"It would be a bad outcome if the sellers of tokens were making lots of revenue. And the buyers of tokens were not making.\"\nDavid George: \"The big shift is going to be like when it goes from being reacted proactive.\"\nDavid George: \"The old Microsoft thing, like, you know, a platform is only a platform. If all of the things built on top of it generate more revenue than it.\"",
+    "falsification_tracks": [
+      "Enterprise AI buyers fail to show clear productivity or revenue gains in 2026\u20132027 cohort studies, especially in software engineering, legal, and customer support deployments.",
+      "Paid AI coding seat growth slows materially, net revenue retention falls below 100% at leading developer-tool vendors, or usage concentrates only in the top developer cohort without broadening.",
+      "Inference demand does not rise as model prices fall: GPU utilization, token volumes, and hyperscaler AI cloud backlog flatten despite new data center capacity coming online.",
+      "Vertical AI vendors lose major accounts to first-party model-lab products in legal, support, sales, or finance, showing that workflow depth and services-heavy implementation are not durable enough.",
+      "Robotaxi safety or unit economics stall: reported accident rates converge toward human-driver levels, or fully loaded autonomous ride costs remain above human-driven ride-hail after city-level scale-up."
+    ],
+    "schema_version": 2,
+    "insight_title": "David George & Jack Altman on AI, Autonomy, and the Next $25 Trillion",
+    "source_name": "The a16z Show",
+    "source_date": "2026-10-04",
+    "key_tickers": [
+      "PLTR",
+      "TSLA",
+      "UBER",
+      "LYFT",
+      "MSFT",
+      "GOOGL"
+    ]
   }
 },
   suggestedTerms: [
@@ -47530,11 +47630,11 @@ const dashboardData = {
     "definition": null,
     "investment_implications": null,
     "source_type": "auto_extracted",
-    "mention_count": 4,
-    "source_diversity": 2,
-    "relevance_score": 35,
+    "mention_count": 5,
+    "source_diversity": 3,
+    "relevance_score": 40,
     "submitted_date": "2026-10-04 04:47:41",
-    "priority_score": 115
+    "priority_score": 150
   },
   {
     "id": 840,
@@ -47542,11 +47642,11 @@ const dashboardData = {
     "definition": null,
     "investment_implications": null,
     "source_type": "auto_extracted",
-    "mention_count": 3,
-    "source_diversity": 2,
-    "relevance_score": 35,
+    "mention_count": 4,
+    "source_diversity": 3,
+    "relevance_score": 40,
     "submitted_date": "2026-10-04 04:47:41",
-    "priority_score": 105
+    "priority_score": 140
   },
   {
     "id": 839,
@@ -47566,16 +47666,16 @@ const dashboardData = {
     "definition": null,
     "investment_implications": null,
     "source_type": "auto_extracted",
-    "mention_count": 9,
-    "source_diversity": 8,
-    "relevance_score": 60,
+    "mention_count": 10,
+    "source_diversity": 9,
+    "relevance_score": 65,
     "submitted_date": "2026-10-03 10:30:24",
-    "priority_score": 310
+    "priority_score": 345
   }
 ],
   podcastGuests: [
   {
-    "id": 79745,
+    "id": 79861,
     "name": "Beyond the God Model",
     "slug": "beyond-the-god-model",
     "bio": null,
@@ -47587,7 +47687,7 @@ const dashboardData = {
     "appearance_count": 1
   },
   {
-    "id": 79746,
+    "id": 79862,
     "name": "Rebuilding the Internet for Privacy",
     "slug": "rebuilding-the-internet-for-privacy",
     "bio": null,
@@ -47599,7 +47699,7 @@ const dashboardData = {
     "appearance_count": 1
   },
   {
-    "id": 79747,
+    "id": 79863,
     "name": "Token Bill Dwarfs CPU Bill",
     "slug": "token-bill-dwarfs-cpu-bill",
     "bio": null,
@@ -47611,7 +47711,7 @@ const dashboardData = {
     "appearance_count": 1
   },
   {
-    "id": 79748,
+    "id": 79864,
     "name": "Jake Paul & The Chainsmokers",
     "slug": "jake-paul--the-chainsmokers",
     "bio": null,
@@ -47623,7 +47723,7 @@ const dashboardData = {
     "appearance_count": 1
   },
   {
-    "id": 79749,
+    "id": 79865,
     "name": "Palmer Luckey",
     "slug": "palmer-luckey",
     "bio": null,
@@ -47635,7 +47735,7 @@ const dashboardData = {
     "appearance_count": 1
   },
   {
-    "id": 79750,
+    "id": 79866,
     "name": "Daniel Ek",
     "slug": "daniel-ek",
     "bio": null,
@@ -47647,7 +47747,7 @@ const dashboardData = {
     "appearance_count": 1
   },
   {
-    "id": 79751,
+    "id": 79867,
     "name": "Michael Every",
     "slug": "michael-every",
     "bio": null,
@@ -47659,7 +47759,7 @@ const dashboardData = {
     "appearance_count": 1
   },
   {
-    "id": 79752,
+    "id": 79868,
     "name": "Steve Hilton & Spencer Pratt",
     "slug": "steve-hilton--spencer-pratt",
     "bio": null,
@@ -47671,7 +47771,7 @@ const dashboardData = {
     "appearance_count": 1
   },
   {
-    "id": 79753,
+    "id": 79869,
     "name": "Blake Scholl",
     "slug": "blake-scholl",
     "bio": null,
@@ -47683,7 +47783,7 @@ const dashboardData = {
     "appearance_count": 1
   },
   {
-    "id": 79754,
+    "id": 79870,
     "name": "John Platt",
     "slug": "john-platt",
     "bio": null,
@@ -47695,7 +47795,7 @@ const dashboardData = {
     "appearance_count": 1
   },
   {
-    "id": 79755,
+    "id": 79871,
     "name": "Diogo Almeida",
     "slug": "diogo-almeida",
     "bio": null,
@@ -47707,7 +47807,7 @@ const dashboardData = {
     "appearance_count": 1
   },
   {
-    "id": 79756,
+    "id": 79872,
     "name": "Naveen Rao",
     "slug": "naveen-rao",
     "bio": null,
@@ -47719,7 +47819,7 @@ const dashboardData = {
     "appearance_count": 1
   },
   {
-    "id": 79757,
+    "id": 79873,
     "name": "Outlook on 5 Key Commodities",
     "slug": "outlook-on-5-key-commodities",
     "bio": null,
@@ -47731,7 +47831,7 @@ const dashboardData = {
     "appearance_count": 1
   },
   {
-    "id": 79758,
+    "id": 79874,
     "name": "Bill Gurley",
     "slug": "bill-gurley",
     "bio": null,
@@ -47743,7 +47843,7 @@ const dashboardData = {
     "appearance_count": 1
   },
   {
-    "id": 79759,
+    "id": 79875,
     "name": "Nick Shirley",
     "slug": "nick-shirley",
     "bio": null,
@@ -47755,7 +47855,7 @@ const dashboardData = {
     "appearance_count": 1
   },
   {
-    "id": 79760,
+    "id": 79876,
     "name": "Jared Isaacman",
     "slug": "jared-isaacman",
     "bio": null,
@@ -47767,7 +47867,7 @@ const dashboardData = {
     "appearance_count": 1
   },
   {
-    "id": 79761,
+    "id": 79877,
     "name": "Brad Gerstner",
     "slug": "brad-gerstner",
     "bio": null,
@@ -47779,7 +47879,7 @@ const dashboardData = {
     "appearance_count": 1
   },
   {
-    "id": 79762,
+    "id": 79878,
     "name": "Meta's Dina Powell McCormick",
     "slug": "metas-dina-powell-mccormick",
     "bio": null,
@@ -47791,7 +47891,7 @@ const dashboardData = {
     "appearance_count": 1
   },
   {
-    "id": 79763,
+    "id": 79879,
     "name": "Underwriting Superintelligence",
     "slug": "underwriting-superintelligence",
     "bio": null,
@@ -47803,7 +47903,7 @@ const dashboardData = {
     "appearance_count": 1
   },
   {
-    "id": 79764,
+    "id": 79880,
     "name": "Hawks Take Flight",
     "slug": "hawks-take-flight",
     "bio": null,
@@ -48084,7 +48184,7 @@ const dashboardData = {
     "last_podcast_name": "All-In with Chamath, Jason, Sacks & Friedberg",
     "last_episode_date": "2026-09-19",
     "mention_score": 3,
-    "mention_score_decayed": 2.17,
+    "mention_score_decayed": 2.12,
     "last_main_idea": "Implement the CAPA framework to systematically address failures and enhance accountability.",
     "last_proof_cite": "All-In with Chamath, Jason, Sacks & Friedberg \u2022 2026-09-19 \u2022 Bill Gurley: Searching for Feynman",
     "last_proof_snippet": "Silicon Valley, Royalty, Legendary Investor, Bill Gerley. Track records incredible. The legend who backed Uber and Zillow, who's lived through every major text cycle for over 25 years. You're not just a commentator, right? You've been an op",
@@ -48124,6 +48224,69 @@ const dashboardData = {
       ]
     },
     "net_worth": "$600.0M"
+  },
+  {
+    "id": 90,
+    "name": "David George",
+    "slug": "david-george",
+    "bio": "David George is a General Partner at a16z. In this conversation, he discusses AI infrastructure, model-layer economics, application investing, autonomy, robotics, and growth-stage venture capital.",
+    "known_for": "Growth investing in technology companies and a16z market-cycle analysis.",
+    "net_worth_usd": 13000000.0,
+    "net_worth_source": "https://www.gurufocus.com/insider/11369/david-c-george",
+    "net_worth_updated_at": "2026-03-19T22:17:36.511607",
+    "voice_tone": "Optimistic, emphatic, and thesis-driven.",
+    "voice_style": "He frames markets through scale, diffusion, capital cycles, and product-cycle comparisons, frequently anchoring claims with numbers.",
+    "voice_delivery_notes": "Use energetic pacing with extra emphasis on market-size numbers, bottlenecks, and the repeated \"and\" framing.",
+    "voice_profile_updated_at": "2026-10-04 11:37:11",
+    "last_seen": "2026-10-04 11:37:11",
+    "last_episode_title": "David George & Jack Altman on AI, Autonomy, and the Next $25 Trillion",
+    "last_podcast_name": "The a16z Show",
+    "last_episode_date": "2026-10-04",
+    "mention_score": 2,
+    "mention_score_decayed": 2,
+    "last_main_idea": "David George argues AI, autonomy, robotics, health, and defense tech can exceed the prior $25 trillion tech market-cap cycle because each creates large new product waves.",
+    "last_proof_cite": "The a16z Show \u2022 2026-10-04 \u2022 David George & Jack Altman on AI, Autonomy, and the Next $25 Trillion",
+    "last_proof_snippet": "If the premise of your question is, is this going to be successful or that it's going to be successful? The answer in AI is probably, and it's just the most exciting time to ever be an investor and in the technology markets and keeping up w",
+    "supporting_takeaway": "David George claims current enterprise AI revenue is concentrated among roughly 30 million coders while the broader market includes 1.5 billion knowledge workers, leaving B2B AI less than 5% diffused into the economy.",
+    "grokipedia_url": null,
+    "grokipedia_fetched_at": "2026-09-30T06:37:38.335266",
+    "pundit_profile": {
+      "source": "llm",
+      "source_model": "openai:gpt-4o-mini",
+      "source_url": "",
+      "page_title": "David George",
+      "fetched_at": "2026-09-30T11:37:38.334921+00:00",
+      "cliff_notes": "David George has built a career at the intersection of venture capital and technology, focusing on the dynamics of investment returns in the rapidly evolving AI sector. His work emphasizes the importance of understanding power-law distributions in venture capital, which can significantly impact investment strategies and outcomes. By analyzing performance metrics, he provides valuable insights that help investors navigate the complexities of early-stage funding. George's contributions are particularly relevant as the tech landscape continues to shift, making his expertise essential for those looking to achieve sustainable growth in their portfolios.",
+      "derived": {},
+      "infobox": {},
+      "lead_paragraphs": [
+        "David George has built a career at the intersection of venture capital and technology, focusing on the dynamics of investment returns in the rapidly evolving AI sector. His work emphasizes the importance of understanding power-law distributions in venture capital, which can significantly impact investment strategies and outcomes.",
+        "By analyzing performance metrics, he provides valuable insights that help investors navigate the complexities of early-stage funding. George's contributions are particularly relevant as the tech landscape continues to shift, making his expertise essential for those looking to achieve sustainable growth in their portfolios."
+      ],
+      "sections": [
+        {
+          "heading": "Venture Fund Performance Metrics",
+          "body": "David George examines the metrics that define venture fund success, focusing on how these metrics can inform investment decisions and strategies."
+        },
+        {
+          "heading": "Power-Law Returns",
+          "body": "He specializes in understanding power-law returns, which are crucial for investors aiming to identify high-potential opportunities in the venture capital space."
+        },
+        {
+          "heading": "Capital Efficiency in AI",
+          "body": "George analyzes capital efficiency within the AI sector, providing insights into how investments can be optimized for better returns."
+        },
+        {
+          "heading": "Early-Stage Access",
+          "body": "His focus on early-stage access allows him to identify and invest in promising startups before they gain widespread attention."
+        },
+        {
+          "heading": "Consistent 3x Returns",
+          "body": "George's research highlights the rarity of achieving consistent 3x returns, offering a realistic perspective for investors."
+        }
+      ]
+    },
+    "net_worth": "$13.0M"
   },
   {
     "id": 300,
@@ -48202,7 +48365,7 @@ const dashboardData = {
     "last_podcast_name": "All-In with Chamath, Jason, Sacks & Friedberg",
     "last_episode_date": "2026-09-30",
     "mention_score": 2,
-    "mention_score_decayed": 1.91,
+    "mention_score_decayed": 1.87,
     "last_main_idea": "Jake Paul and The Chainsmokers argue attention can improve startup go-to-market, while The Chainsmokers warn 2x to 3x tranche markups without performance change are bubble behavior.",
     "last_proof_cite": "All-In with Chamath, Jason, Sacks & Friedberg \u2022 2026-09-30 \u2022 Jake Paul & The Chainsmokers: Turning Fame into Funds, Jake Enters Politics? & Venture Bubble Signs",
     "last_proof_snippet": "Jake Paul has got to be the dumbest, cockiest, stupidest, most ego-tistical person in the social media studio. Mr. President, what an honor. That's what makes him so damn successful. The world has shifted to attention being one of the most",
@@ -49151,7 +49314,7 @@ const dashboardData = {
     "last_podcast_name": "All-In with Chamath, Jason, Sacks & Friedberg",
     "last_episode_date": "2026-09-30",
     "mention_score": 1,
-    "mention_score_decayed": 0.95,
+    "mention_score_decayed": 0.93,
     "last_main_idea": "Jake Paul and The Chainsmokers argue attention can improve startup go-to-market, while The Chainsmokers warn 2x to 3x tranche markups without performance change are bubble behavior.",
     "last_proof_cite": "All-In with Chamath, Jason, Sacks & Friedberg \u2022 2026-09-30 \u2022 Jake Paul & The Chainsmokers: Turning Fame into Funds, Jake Enters Politics? & Venture Bubble Signs",
     "last_proof_snippet": "Jake Paul has got to be the dumbest, cockiest, stupidest, most ego-tistical person in the social media studio. Mr. President, what an honor. That's what makes him so damn successful. The world has shifted to attention being one of the most",
@@ -49178,7 +49341,7 @@ const dashboardData = {
     "last_podcast_name": "All-In with Chamath, Jason, Sacks & Friedberg",
     "last_episode_date": "2026-09-30",
     "mention_score": 1,
-    "mention_score_decayed": 0.95,
+    "mention_score_decayed": 0.93,
     "last_main_idea": "Jake Paul and The Chainsmokers argue attention can improve startup go-to-market, while The Chainsmokers warn 2x to 3x tranche markups without performance change are bubble behavior.",
     "last_proof_cite": "All-In with Chamath, Jason, Sacks & Friedberg \u2022 2026-09-30 \u2022 Jake Paul & The Chainsmokers: Turning Fame into Funds, Jake Enters Politics? & Venture Bubble Signs",
     "last_proof_snippet": "Jake Paul has got to be the dumbest, cockiest, stupidest, most ego-tistical person in the social media studio. Mr. President, what an honor. That's what makes him so damn successful. The world has shifted to attention being one of the most",
@@ -49286,7 +49449,7 @@ const dashboardData = {
     "last_podcast_name": "All-In with Chamath, Jason, Sacks & Friedberg",
     "last_episode_date": "2026-09-28",
     "mention_score": 1,
-    "mention_score_decayed": 0.91,
+    "mention_score_decayed": 0.89,
     "last_main_idea": "Daniel Ek argues Neko Health's $499 vertically integrated scans can shift healthcare from reactive to preventative by combining 53 blood markers, 6,000 skin images, clinician review, and longitudinal AI.",
     "last_proof_cite": "All-In with Chamath, Jason, Sacks & Friedberg \u2022 2026-09-28 \u2022 Daniel Ek: Life After Spotify, Broken Healthcare Incentives, Catching Disease Early & AI's Potential",
     "last_proof_snippet": "Part of everybody welcome back to the all-in interview show where we, the all-in podcast and dedicate an hour to just some of the great thinkers, creators of our time, and today will be no different. Daniel Eck is with us, you know him, the",
@@ -49346,7 +49509,7 @@ const dashboardData = {
     "last_podcast_name": "Moonshots with Peter Diamandis",
     "last_episode_date": "2026-09-28",
     "mention_score": 1,
-    "mention_score_decayed": 0.91,
+    "mention_score_decayed": 0.89,
     "last_main_idea": "Kathy Wood claims that AI will reduce drug development costs from $2.4 billion to $600-700 million, revolutionizing the pharmaceutical industry.",
     "last_proof_cite": "Moonshots with Peter Diamandis \u2022 2026-09-28 \u2022 We Gave Away $2,000,000 To 5 AI Builders | MOONSHOTS Live",
     "last_proof_snippet": "We're about to award the build with Gemini Express. So what is that? You know, a lot of people are concerned about jobs. And they're concerned about the old social contract, do well in high school, go to college, get a degree, and go get a",
@@ -49926,7 +50089,7 @@ const dashboardData = {
     "last_podcast_name": "All-In with Chamath, Jason, Sacks & Friedberg",
     "last_episode_date": "2026-09-23",
     "mention_score": 1,
-    "mention_score_decayed": 0.79,
+    "mention_score_decayed": 0.78,
     "last_main_idea": "California's regulatory burden, with over 420,000 regulations, is a major hindrance to business growth.",
     "last_proof_cite": "All-In with Chamath, Jason, Sacks & Friedberg \u2022 2026-09-23 \u2022 Steve Hilton & Spencer Pratt: Fixing California, Cheaper Gas, Ballot Fraud & CA Republicans",
     "last_proof_snippet": "A candidate for the governor of California who is extremely unique in a number of ways. First of all, he's a Republican, and second, he's a Brit. Welcome to the program to Steve Colton. It's a joke. We wanted these Democrats doing. We alrea",
@@ -50102,7 +50265,7 @@ const dashboardData = {
     "last_podcast_name": "All-In with Chamath, Jason, Sacks & Friedberg",
     "last_episode_date": "2026-09-21",
     "mention_score": 1,
-    "mention_score_decayed": 0.78,
+    "mention_score_decayed": 0.76,
     "last_main_idea": "Evaluate startups that demonstrate rapid prototyping capabilities as potential high-reward investments.",
     "last_proof_cite": "All-In with Chamath, Jason, Sacks & Friedberg \u2022 2026-09-21 \u2022 Naveen Rao: 4D Computing, AI's Energy Wall & Beating Biology",
     "last_proof_snippet": "Naveen Rau, co-founder and CEO of Unconventional AI, which is an AI chip startup, best willing for building and selling to deep tech companies. Naveen is kind of definitely outlier, founder. When I came there, we had about 20 million dollar",
@@ -50324,7 +50487,7 @@ const dashboardData = {
     "last_podcast_name": "The a16z Show",
     "last_episode_date": "2026-09-18",
     "mention_score": 1,
-    "mention_score_decayed": 0.72,
+    "mention_score_decayed": 0.71,
     "last_main_idea": "Automate cybersecurity processes to keep pace with AI-driven threats and reduce response times.",
     "last_proof_cite": "The a16z Show \u2022 2026-09-18 \u2022 Databricks CEO on AI Pacing, Cyber Risk, and the Enterprise",
     "last_proof_snippet": "As a business leader, there's a tragedy of the comments. If you want to stop, if you want to go slower, why don't you go slower? Like I'm competing, I want to win. There's almost two camps. There's one camp which believes that this actually",
@@ -50670,7 +50833,7 @@ const dashboardData = {
     "last_podcast_name": "All-In with Chamath, Jason, Sacks & Friedberg",
     "last_episode_date": "2026-09-17",
     "mention_score": 1,
-    "mention_score_decayed": 0.69,
+    "mention_score_decayed": 0.68,
     "last_main_idea": "Investing in preventive healthcare and AI infrastructure presents significant opportunities, but requires careful monitoring of revenue growth and market conditions.",
     "last_proof_cite": "All-In with Chamath, Jason, Sacks & Friedberg \u2022 2026-09-17 \u2022 Brad Gerstner: No AI Bubble, Semis Eat the Nasdaq & AI's Take Off Problem",
     "last_proof_snippet": "Our favorite fifth-besty in the world, the one the only Brad Kershner contributor Brad has had unbelievable career starting five companies so he's got a very different mentality than your sort of classic hedge fund guy. He's an amazingly su",
@@ -51505,69 +51668,6 @@ const dashboardData = {
         }
       ]
     }
-  },
-  {
-    "id": 90,
-    "name": "David George",
-    "slug": "david-george",
-    "bio": "David George is a venture investor specializing in analyzing power-law returns and capital efficiency in artificial intelligence. He focuses on early-stage access to investment opportunities and examines venture fund performance metrics. His insights into the rarity of consistent 3x returns make him a notable figure in the investment community.",
-    "known_for": "David George is recognized for his expertise in venture fund performance metrics and the analysis of consistent high returns in investments.",
-    "net_worth_usd": 13000000.0,
-    "net_worth_source": "https://www.gurufocus.com/insider/11369/david-c-george",
-    "net_worth_updated_at": "2026-03-19T22:17:36.511607",
-    "voice_tone": "Data-driven and direct",
-    "voice_style": "Uses specific performance statistics to frame the rarity of top-quartile returns and the importance of early-stage access",
-    "voice_delivery_notes": "Maintain a measured, authoritative pace with emphasis on return multiples and loss rates",
-    "voice_profile_updated_at": "2026-09-11 15:52:22",
-    "last_seen": "2026-09-11 15:52:22",
-    "last_episode_title": "How AI Is Rewriting the Power Law of Venture Capital",
-    "last_podcast_name": "The a16z Show",
-    "last_episode_date": "2026-09-10",
-    "mention_score": 1,
-    "mention_score_decayed": 0.6,
-    "last_main_idea": "AI is expanding the investable universe far beyond software to encompass trillions in GDP, and investors who concentrate capital in top-decile early-stage firms while favoring compute-heavy, capital-efficient models are best positioned to capture outsized returns in a market where the middle is being hollowed out.",
-    "last_proof_cite": "The a16z Show \u2022 2026-09-10 \u2022 How AI Is Rewriting the Power Law of Venture Capital",
-    "last_proof_snippet": "AI is attacking every facet of GDP and may create an addressable market an order of magnitude larger than existing SaaS, expanding across transportation, labor, services, and energy.",
-    "supporting_takeaway": "AI is attacking every facet of GDP and may create an addressable market an order of magnitude larger than existing SaaS, expanding across transportation, labor, services, and energy.",
-    "grokipedia_url": null,
-    "grokipedia_fetched_at": "2026-09-30T06:37:38.335266",
-    "pundit_profile": {
-      "source": "llm",
-      "source_model": "openai:gpt-4o-mini",
-      "source_url": "",
-      "page_title": "David George",
-      "fetched_at": "2026-09-30T11:37:38.334921+00:00",
-      "cliff_notes": "David George has built a career at the intersection of venture capital and technology, focusing on the dynamics of investment returns in the rapidly evolving AI sector. His work emphasizes the importance of understanding power-law distributions in venture capital, which can significantly impact investment strategies and outcomes. By analyzing performance metrics, he provides valuable insights that help investors navigate the complexities of early-stage funding. George's contributions are particularly relevant as the tech landscape continues to shift, making his expertise essential for those looking to achieve sustainable growth in their portfolios.",
-      "derived": {},
-      "infobox": {},
-      "lead_paragraphs": [
-        "David George has built a career at the intersection of venture capital and technology, focusing on the dynamics of investment returns in the rapidly evolving AI sector. His work emphasizes the importance of understanding power-law distributions in venture capital, which can significantly impact investment strategies and outcomes.",
-        "By analyzing performance metrics, he provides valuable insights that help investors navigate the complexities of early-stage funding. George's contributions are particularly relevant as the tech landscape continues to shift, making his expertise essential for those looking to achieve sustainable growth in their portfolios."
-      ],
-      "sections": [
-        {
-          "heading": "Venture Fund Performance Metrics",
-          "body": "David George examines the metrics that define venture fund success, focusing on how these metrics can inform investment decisions and strategies."
-        },
-        {
-          "heading": "Power-Law Returns",
-          "body": "He specializes in understanding power-law returns, which are crucial for investors aiming to identify high-potential opportunities in the venture capital space."
-        },
-        {
-          "heading": "Capital Efficiency in AI",
-          "body": "George analyzes capital efficiency within the AI sector, providing insights into how investments can be optimized for better returns."
-        },
-        {
-          "heading": "Early-Stage Access",
-          "body": "His focus on early-stage access allows him to identify and invest in promising startups before they gain widespread attention."
-        },
-        {
-          "heading": "Consistent 3x Returns",
-          "body": "George's research highlights the rarity of achieving consistent 3x returns, offering a realistic perspective for investors."
-        }
-      ]
-    },
-    "net_worth": "$13.0M"
   },
   {
     "id": 446,
@@ -52559,7 +52659,7 @@ const dashboardData = {
     "last_podcast_name": "Moonshots with Peter Diamandis",
     "last_episode_date": "2026-08-27",
     "mention_score": 1,
-    "mention_score_decayed": 0.44,
+    "mention_score_decayed": 0.43,
     "last_main_idea": "Investment in AI and autonomous vehicle sectors should consider the shift towards more gradual AI integration and the potential for cost-effective Chinese AI models to disrupt the market.",
     "last_proof_cite": "Moonshots with Peter Diamandis \u2022 2026-08-27 \u2022 Sam Altman: Singularity Slow-Down, Emad Runs 18 Grokbots, Waymo Slashes Hardware 83% | EP #283",
     "last_proof_snippet": "Sam Altman went on video this week to tell the world that he was wrong about the impact of advancing AI. We've all been too ambitious on time on it's even with this incredible technology. He now believes it will be something slower, more lik",
@@ -52744,7 +52844,7 @@ const dashboardData = {
     "last_podcast_name": "All-In with Chamath, Jason, Sacks & Friedberg",
     "last_episode_date": "2026-08-26",
     "mention_score": 1,
-    "mention_score_decayed": 0.43,
+    "mention_score_decayed": 0.42,
     "last_main_idea": "Investing in cutting-edge scientific research and exploration could lead to paradigm-shifting discoveries with significant impact on various industries.",
     "last_proof_cite": "All-In with Chamath, Jason, Sacks & Friedberg \u2022 2026-08-26 \u2022 Eric Weinstein: The State of American Science, Breakthrough Coverups, and the Danger of Physics",
     "last_proof_snippet": "We have become a f***ing nation when it comes to science. You were called a friend scientist and keep saying, friend, yeah. I totally disagree with the narrative of the field. I want to blow a giant pole in civil rights act. The stagnation",
@@ -68235,7 +68335,7 @@ const dashboardData = {
         }
       ],
       "disclaimer": "Research sleeve / scorecard, not advice. $1,000 equal-weight illustration only.",
-      "last_updated": "2026-10-04T05:05:15.277392"
+      "last_updated": "2026-10-04T06:39:08.917629"
     }
   ]
 }

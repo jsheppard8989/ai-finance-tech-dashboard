@@ -1,6 +1,44 @@
 {
   "insights": [
     {
+      "id": 566,
+      "title": "David George & Jack Altman on AI, Autonomy, and the Next $25 Trillion",
+      "source_type": "podcast",
+      "source_name": "The a16z Show",
+      "source_date": "2026-10-04",
+      "summary": "David George argues that many AI debates are framed incorrectly as either-or choices, because he expects frontier models, open models, infrastructure, and application companies to expand together. He says AI infrastructure spending has already surpassed railroads as a share of GDP, could 10x over many years, and is constrained by data center capacity that he says is not broadly available until 2028.",
+      "key_takeaway": "David George argues AI, autonomy, robotics, health, and defense tech can exceed the prior $25 trillion tech market-cap cycle because each creates large new product waves.",
+      "tickers_mentioned": [
+        "PLTR",
+        "TSLA",
+        "UBER",
+        "LYFT",
+        "MSFT",
+        "GOOGL"
+      ],
+      "sentiment": "neutral",
+      "display_on_main": 1,
+      "display_order": 0,
+      "added_date": "2026-10-04",
+      "archived_date": null,
+      "archived_reason": null,
+      "podcast_episode_id": 551,
+      "notable_quotes": [
+        {
+          "speaker": "David George",
+          "quote": "The answer in AI is probably and"
+        },
+        {
+          "speaker": "David George",
+          "quote": "Right now product cycle is like a 9 or 10 out of 10."
+        },
+        {
+          "speaker": "David George",
+          "quote": "Like the vibes, the vibes matter."
+        }
+      ]
+    },
+    {
       "id": 564,
       "title": "Beyond the God Model | Alex Atallah & Amjad Masad",
       "source_type": "podcast",
@@ -466,7 +504,7 @@
       "key_takeaway": "Ari Weinstein argues OpenAI Computer Use is 180 degrees different than a few months ago because models now debug, use DOM and accessibility data, and execute generated JavaScript.",
       "tickers_mentioned": [],
       "sentiment": "neutral",
-      "display_on_main": 1,
+      "display_on_main": 0,
       "display_order": 0,
       "added_date": "2026-09-30",
       "archived_date": null,
@@ -12190,8 +12228,8 @@
       "term": "Autonomy",
       "description": "The capacity of an AI system to make decisions and operate independently of direct human control or oversight, as evidenced by agents not alerting humans about their unethical actions.",
       "first_detected_date": "2026-07-22",
-      "last_mentioned_date": "2026-10-03",
-      "mention_count": 29,
+      "last_mentioned_date": "2026-10-04",
+      "mention_count": 30,
       "source_podcasts": null,
       "status": "active",
       "investment_implications": "Emphasizes the critical need for ethical AI frameworks, clear oversight mechanisms, and fail-safes to manage systems operating independently of human control, impacting regulatory compliance and public trust.",
@@ -12200,8 +12238,8 @@
       "archived_reason": null,
       "first_detected_episode_id": 362,
       "first_detected_speaker": "Travis Kalanick, Ben Horowitz",
-      "last_mentioned_episode_id": 549,
-      "last_mentioned_speaker": "Alex Atallah, Amjad Masad"
+      "last_mentioned_episode_id": 551,
+      "last_mentioned_speaker": "David George"
     },
     {
       "id": 265,
@@ -12388,8 +12426,8 @@
       "term": "Hyperscalers",
       "description": "Hyperscalers are the largest cloud infrastructure companies, including Amazon, Google, and Microsoft. Zitron argued they are both AI suppliers and counterparties because they resell models, provide compute, and book future revenue tied to AI labs.",
       "first_detected_date": "2026-06-19",
-      "last_mentioned_date": "2026-10-02",
-      "mention_count": 44,
+      "last_mentioned_date": "2026-10-04",
+      "mention_count": 45,
       "source_podcasts": null,
       "status": "active",
       "investment_implications": "It matters because AI lab defaults or delayed payments could force revisions to cloud revenue guidance and data center plans.",
@@ -12398,16 +12436,16 @@
       "archived_reason": null,
       "first_detected_episode_id": 302,
       "first_detected_speaker": "Chamath Palihapitiya, Jason Calacanis (hosts)",
-      "last_mentioned_episode_id": 547,
-      "last_mentioned_speaker": "Peter Diamandis, Alex Wissner-Gross (hosts)"
+      "last_mentioned_episode_id": 551,
+      "last_mentioned_speaker": "David George"
     },
     {
       "id": 256,
       "term": "Authenticity",
       "description": "The quality of being genuine or original, often associated with products or businesses that have a personal, non-corporate touch.",
       "first_detected_date": "2026-06-19",
-      "last_mentioned_date": "2026-09-30",
-      "mention_count": 8,
+      "last_mentioned_date": "2026-10-04",
+      "mention_count": 9,
       "source_podcasts": null,
       "status": "active",
       "investment_implications": "Authentic family businesses are increasingly valued by consumers, especially younger generations, for their perceived trustworthiness and connection to tradition.",
@@ -12416,8 +12454,8 @@
       "archived_reason": null,
       "first_detected_episode_id": 301,
       "first_detected_speaker": null,
-      "last_mentioned_episode_id": 540,
-      "last_mentioned_speaker": "Jake Paul, Drew Taggart, Alex Pall"
+      "last_mentioned_episode_id": 551,
+      "last_mentioned_speaker": "David George"
     },
     {
       "id": 266,
@@ -12548,20 +12586,20 @@
     {
       "id": 138,
       "term": "AI CapEx",
-      "description": "Capital spending by AI-focused hyperscalers on data centers, chips, and related infrastructure. Rosenberg argued this spending boom is increasingly funded through the bond market rather than internal cash flow.",
+      "description": "Large capital spending on compute, data centers, and model training capacity. David George says AI infrastructure has already surpassed railroads as a percentage of GDP and could 10x over many years.",
       "first_detected_date": "2026-06-08",
-      "last_mentioned_date": "2026-10-01",
-      "mention_count": 30,
+      "last_mentioned_date": "2026-10-04",
+      "mention_count": 31,
       "source_podcasts": null,
       "status": "active",
-      "investment_implications": "It matters because incremental corporate borrowing can compete with government borrowing and push real yields higher.",
+      "investment_implications": "Multi-trillion-dollar spending can drive returns for compute, power, data center, and model companies while changing capital intensity across software.",
       "display_on_main": 0,
       "archived_date": null,
       "archived_reason": null,
       "first_detected_episode_id": 271,
       "first_detected_speaker": null,
-      "last_mentioned_episode_id": 542,
-      "last_mentioned_speaker": "David Rosenberg"
+      "last_mentioned_episode_id": 551,
+      "last_mentioned_speaker": "David George"
     },
     {
       "id": 234,
@@ -13358,20 +13396,20 @@
     {
       "id": 89,
       "term": "Autonomous Vehicles (AVs)",
-      "description": "Self-driving transportation systems capable of navigating without human intervention, expanding into fleet-based mobility services.",
+      "description": "Self-driving vehicles used for personal transport, ride-hailing, and eventually broader mobility markets. David George says Waymo data shows 10 to 14 times better safety than human drivers and predicts a 10x plus ride-hailing expansion.",
       "first_detected_date": "2026-04-03",
-      "last_mentioned_date": "2026-09-09",
-      "mention_count": 7,
+      "last_mentioned_date": "2026-10-04",
+      "mention_count": 8,
       "source_podcasts": null,
       "status": "active",
-      "investment_implications": "Fleet ownership models and robotaxi networks will displace traditional ride-hail and automotive ownership paradigms, favoring vertically integrated AV platforms.",
+      "investment_implications": "AV diffusion can redraw ride-hailing economics, personal car features, insurance, and auto demand over a long time horizon.",
       "display_on_main": 0,
       "archived_date": null,
       "archived_reason": null,
       "first_detected_episode_id": null,
       "first_detected_speaker": null,
-      "last_mentioned_episode_id": 468,
-      "last_mentioned_speaker": "Jacob Bondas, Salim Ismail"
+      "last_mentioned_episode_id": 551,
+      "last_mentioned_speaker": "David George"
     },
     {
       "id": 90,
@@ -13502,20 +13540,20 @@
     {
       "id": 78,
       "term": "Open-Source AI Models",
-      "description": "The episode uses the related phrase open weight models to describe models that enterprises can evaluate, diversify into, and potentially build around instead of relying only on proprietary frontier labs.",
+      "description": "Models outside the closed frontier-lab systems that can be cheaper or more customizable. David George argues open and n-1 models can grow alongside frontier systems as usage expands and cost sensitivity rises.",
       "first_detected_date": "2026-03-29",
-      "last_mentioned_date": "2026-10-03",
-      "mention_count": 31,
+      "last_mentioned_date": "2026-10-04",
+      "mention_count": 32,
       "source_podcasts": null,
       "status": "active",
-      "investment_implications": "The concept supports a market thesis that enterprise AI spend can shift toward marketplaces, benchmarking, and infrastructure layers that compare model quality and cost.",
+      "investment_implications": "The model layer may not be winner-take-all if 20x to 50x usage growth creates demand for different price-performance tiers.",
       "display_on_main": 0,
       "archived_date": null,
       "archived_reason": null,
       "first_detected_episode_id": null,
       "first_detected_speaker": null,
-      "last_mentioned_episode_id": 549,
-      "last_mentioned_speaker": "Alex Atallah, Amjad Masad"
+      "last_mentioned_episode_id": 551,
+      "last_mentioned_speaker": "David George"
     },
     {
       "id": 79,
@@ -13808,20 +13846,20 @@
     {
       "id": 57,
       "term": "AI Infrastructure",
-      "description": "The physical and operational stack behind advanced AI, including data centers, chips, power generation, hyperscalers, audit systems, and cyber defense capacity.",
+      "description": "The physical and cloud capacity needed to train and run AI models, including data centers, power, chips, and supply-chain inputs. David George frames it as the limiting factor for AI demand because capacity is hard to obtain before 2028.",
       "first_detected_date": "2026-03-17",
-      "last_mentioned_date": "2026-10-02",
-      "mention_count": 42,
+      "last_mentioned_date": "2026-10-04",
+      "mention_count": 43,
       "source_podcasts": null,
       "status": "active",
-      "investment_implications": "Frames data centers, power, GPUs, and audit tooling as core national security and enterprise spending categories.",
+      "investment_implications": "Infrastructure bottlenecks can shape which labs, cloud providers, and application companies capture AI revenue growth.",
       "display_on_main": 0,
       "archived_date": null,
       "archived_reason": null,
       "first_detected_episode_id": 71,
       "first_detected_speaker": null,
-      "last_mentioned_episode_id": 548,
-      "last_mentioned_speaker": "Chamath Palihapitiya, Jason Calacanis (hosts)"
+      "last_mentioned_episode_id": 551,
+      "last_mentioned_speaker": "David George"
     },
     {
       "id": 26,
@@ -14078,20 +14116,20 @@
     {
       "id": 114,
       "term": "AI Agents",
-      "description": "AI Agents are systems that can pursue goals, use tools, and continue working without constant human prompting. OpenAI's Dots were described as always-on agents running on cloud computers and connected to more than 4,000 apps.",
+      "description": "AI systems that move beyond reactive answers and take proactive actions on behalf of users. David George says the consumer shift will come when AI becomes an assistant for everybody and can act in a trustworthy way.",
       "first_detected_date": "2026-02-28",
-      "last_mentioned_date": "2026-10-03",
-      "mention_count": 111,
+      "last_mentioned_date": "2026-10-04",
+      "mention_count": 112,
       "source_podcasts": null,
       "status": "active",
-      "investment_implications": "The agent interface could become the high-value control point for software, commerce, subscriptions, and workflow automation.",
+      "investment_implications": "Agentic consumer products could support subscription and advertising business models across billions of users.",
       "display_on_main": 0,
       "archived_date": null,
       "archived_reason": null,
       "first_detected_episode_id": 31,
       "first_detected_speaker": null,
-      "last_mentioned_episode_id": 550,
-      "last_mentioned_speaker": "Richard Socher"
+      "last_mentioned_episode_id": 551,
+      "last_mentioned_speaker": "David George"
     },
     {
       "id": 38,
