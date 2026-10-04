@@ -34,6 +34,44 @@
       ]
     },
     {
+      "id": 565,
+      "title": "Recursive's $670M Bet on Self-Improving AI, Sonnet 5.5 Hits 70%, Elon Co-Leads Pentagon Push | EP #299",
+      "source_type": "podcast",
+      "source_name": "Moonshots with Peter Diamandis",
+      "source_date": "2026-10-03",
+      "summary": "Peter Diamandis and the Moonshots panel interviewed Richard Socher about his book The Eureka Machine and his new company Recursive, which Diamandis described as focused on recursively self-improving super intelligence. The episode framed AI science as a full-stack transformation of hypothesis generation, experimentation, data collection, theory building, simulation, and robotic lab automation. Socher argued that scientific progress slowed because disciplines fragmented into specialized subfields, while AI can recombine knowledge across those boundaries using LLMs, digitized scientific data, simulations, robotic process automation, and agent swarms.\n\nThe discussion moved through AI biology, virtual cell models, organoids, and accelerated drug discovery. Socher claimed simpler single-gene diseases could be cured within the next 12 months, while complex diseases subject to FDA studies would still face half-decade to decade-long timelines. He cited a shift in biotech from companies with one drug candidate taking about 10 years to newer companies with five to 10 compounds in stage three trials after two or three years. The panel also discussed Parallel Bio, organoids, FDA approval to skip animal trials, and the possibility that virtual cell models could reduce the need for traditional human trials over time.\n\nRecursive self-improvement was the central disagreement. Socher said weak forms already exist because AI can now code and therefore participate in changing AI systems, but he argued the strongest definition of ASI, better than all humanity combined across roughly 10 spaces of intelligence, would probably take several decades. Alex Wissner-Gross and Peter Diamandis pushed back, arguing that access to physical-world controls, robotics, and hardware was less of a barrier than Socher suggested; they contrasted his timeline with Elon Musk's 2029 to 2030 comments, which Socher interpreted as likely referring to weaker domain-specific superhuman capabilities.\n\nThe episode also covered policy and defense. Socher criticized proposed bans on recursive self-improvement, saying enforcement would require an unprecedented surveillance state, while the panel warned that liability and regulation could slow US AI deployment. On defense, the hosts discussed Project Meridian, described as a Pentagon effort co-led by Elon Musk and Palmer Lucky, with findings due in 120 days. Socher reiterated that AI should not control lethal decisions without human oversight, while Alex Wissner-Gross argued that a dedicated autonomous warfare command would be a major structural step for US military capability.\n\nA final section examined decision models such as Type-Safe AI's Jeve and OpenAI's Decisions API. Alex Wissner-Gross described these as fast system-one classifiers for bounded outputs rather than slow generative reasoning systems, while Salim Ismail argued that the organizational value is the collapse in cost for thousands of micro-decisions such as routing tickets, approving exceptions, escalating transactions, and choosing suppliers.",
+      "key_takeaway": "Richard Socher claims AI can deliver a century of scientific breakthroughs in the next decade by automating hypothesis, experiment, data, and theory across the full scientific stack.",
+      "tickers_mentioned": [
+        "AMD",
+        "NVDA",
+        "AMZN",
+        "GOOGL",
+        "META",
+        "CRM"
+      ],
+      "sentiment": "neutral",
+      "display_on_main": 1,
+      "display_order": 0,
+      "added_date": "2026-10-03",
+      "archived_date": null,
+      "archived_reason": null,
+      "podcast_episode_id": 550,
+      "notable_quotes": [
+        {
+          "speaker": "Richard Socher",
+          "quote": "In various weak forms, we already have RSI."
+        },
+        {
+          "speaker": "Richard Socher",
+          "quote": "There is no realistic scenario where AI wipes out all of humanity."
+        },
+        {
+          "speaker": "Peter Diamandis",
+          "quote": "You can't find exponential technology with linear procurement."
+        }
+      ]
+    },
+    {
       "id": 559,
       "title": "Academia is for Ambition \u2014 Alex Zhang, MIT",
       "source_type": "podcast",
@@ -397,7 +435,7 @@
       "key_takeaway": "Ben Lamm argues biological AI's near-term value is proprietary comparative-genomics data, because foundation models need millions of genomes and wet-lab validation rather than single-genome inputs.",
       "tickers_mentioned": [],
       "sentiment": "neutral",
-      "display_on_main": 1,
+      "display_on_main": 0,
       "display_order": 0,
       "added_date": "2026-09-30",
       "archived_date": null,
@@ -11734,6 +11772,24 @@
       "last_mentioned_speaker": "Alex Atallah, Amjad Masad"
     },
     {
+      "id": 294,
+      "term": "Artifacts",
+      "description": "Persistent data storage features in Cloud Code that enhance collaboration among multiple agents.",
+      "first_detected_date": "2026-09-29",
+      "last_mentioned_date": "2026-10-03",
+      "mention_count": 2,
+      "source_podcasts": null,
+      "status": "active",
+      "investment_implications": "Utilizing artifacts can streamline project workflows and improve team collaboration.",
+      "display_on_main": 0,
+      "archived_date": null,
+      "archived_reason": null,
+      "first_detected_episode_id": 531,
+      "first_detected_speaker": null,
+      "last_mentioned_episode_id": 550,
+      "last_mentioned_speaker": "Richard Socher"
+    },
+    {
       "id": 292,
       "term": "Superintelligence",
       "description": "Superintelligence refers to AI that surpasses human cognitive abilities, potentially reshaping societal structures and governance.",
@@ -11954,8 +12010,8 @@
       "term": "Simulation",
       "description": "The use of models and computer programs to represent and analyze real or imagined systems or situations.",
       "first_detected_date": "2026-08-21",
-      "last_mentioned_date": "2026-10-02",
-      "mention_count": 23,
+      "last_mentioned_date": "2026-10-03",
+      "mention_count": 24,
       "source_podcasts": null,
       "status": "active",
       "investment_implications": "Simulation technology can provide significant insights for decision-making, making investments in this area potentially valuable.",
@@ -11964,8 +12020,8 @@
       "archived_reason": null,
       "first_detected_episode_id": 420,
       "first_detected_speaker": "June",
-      "last_mentioned_episode_id": 547,
-      "last_mentioned_speaker": "Peter Diamandis, Alex Wissner-Gross (hosts)"
+      "last_mentioned_episode_id": 550,
+      "last_mentioned_speaker": "Richard Socher"
     },
     {
       "id": 272,
@@ -12188,8 +12244,8 @@
       "term": "Liquid AI",
       "description": "A type of AI that focuses on efficient, general-purpose intelligence at various scales, often using small language models.",
       "first_detected_date": "2026-07-17",
-      "last_mentioned_date": "2026-08-08",
-      "mention_count": 4,
+      "last_mentioned_date": "2026-10-03",
+      "mention_count": 5,
       "source_podcasts": null,
       "status": "active",
       "investment_implications": "Investors should consider companies developing Liquid AI for their potential to disrupt traditional AI markets and offer more adaptable solutions.",
@@ -12198,8 +12254,8 @@
       "archived_reason": null,
       "first_detected_episode_id": 354,
       "first_detected_speaker": "Ramine Hassani",
-      "last_mentioned_episode_id": 393,
-      "last_mentioned_speaker": "Saline"
+      "last_mentioned_episode_id": 550,
+      "last_mentioned_speaker": "Richard Socher"
     },
     {
       "id": 257,
@@ -12240,38 +12296,38 @@
     {
       "id": 260,
       "term": "Virtual Cell Models",
-      "description": "AI-based models that simulate molecules, cells, tissues, organs, or disease processes to accelerate drug discovery and biological research. Pouladian linked this to synthetic molecule libraries, sequencing, wet labs, and AI-driven target discovery.",
+      "description": "Virtual cell models are simulations of cells used to predict biological responses, test perturbations, and support AI-driven biology without relying only on slow wet-lab or animal experiments.",
       "first_detected_date": "2026-07-09",
-      "last_mentioned_date": "2026-09-30",
-      "mention_count": 5,
+      "last_mentioned_date": "2026-10-03",
+      "mention_count": 6,
       "source_podcasts": null,
       "status": "active",
-      "investment_implications": "The concept supports demand for life-science tools, sequencing, synthetic biology, and computational biology platforms.",
+      "investment_implications": "Better biological simulation could shorten drug discovery cycles and change the economics of biotech platforms, lab automation, and clinical validation.",
       "display_on_main": 1,
       "archived_date": null,
       "archived_reason": null,
       "first_detected_episode_id": 338,
       "first_detected_speaker": "Mark Zuckerberg, Priscilla Chan",
-      "last_mentioned_episode_id": 538,
-      "last_mentioned_speaker": "Ben Pouladian"
+      "last_mentioned_episode_id": 550,
+      "last_mentioned_speaker": "Richard Socher"
     },
     {
       "id": 43,
       "term": "ASI",
-      "description": "ASI refers to artificial superintelligence, a level of AI capability beyond human intelligence across domains. In this episode, it appeared through the White House superintelligence accord and debate over whether voluntary governance can control frontier systems.",
+      "description": "Artificial super intelligence, as Richard Socher defined it, means systems that exceed not just individual humans but humanity combined across multiple spaces of intelligence, including perception, communication, social interaction, creativity, speed, reasoning, math, and metacognition.",
       "first_detected_date": "2026-06-29",
-      "last_mentioned_date": "2026-10-02",
-      "mention_count": 27,
+      "last_mentioned_date": "2026-10-03",
+      "mention_count": 28,
       "source_podcasts": null,
       "status": "active",
-      "investment_implications": "ASI governance can shape frontier lab liability, regulatory moats, compliance costs, and model deployment timelines.",
+      "investment_implications": "Timeline disagreements around ASI affect long-duration capital allocation to frontier labs, compute, robotics, biotech, and defense autonomy.",
       "display_on_main": 0,
       "archived_date": null,
       "archived_reason": null,
       "first_detected_episode_id": 319,
       "first_detected_speaker": "Peter Diamandis (hosts)",
-      "last_mentioned_episode_id": 547,
-      "last_mentioned_speaker": "Peter Diamandis, Alex Wissner-Gross (hosts)"
+      "last_mentioned_episode_id": 550,
+      "last_mentioned_speaker": "Richard Socher"
     },
     {
       "id": 135,
@@ -12512,8 +12568,8 @@
       "term": "AI Personhood",
       "description": "The concept of whether AI can be granted legal personhood or rights, as seen in the debate over AI being listed as an inventor on patents.",
       "first_detected_date": "2026-06-08",
-      "last_mentioned_date": "2026-10-02",
-      "mention_count": 22,
+      "last_mentioned_date": "2026-10-03",
+      "mention_count": 23,
       "source_podcasts": null,
       "status": "active",
       "investment_implications": "Companies should consider how evolving IP laws may affect their innovations and strategies for protecting AI-generated inventions.",
@@ -12522,8 +12578,8 @@
       "archived_reason": null,
       "first_detected_episode_id": 271,
       "first_detected_speaker": "Peter Diamandis",
-      "last_mentioned_episode_id": 547,
-      "last_mentioned_speaker": "Peter Diamandis, Alex Wissner-Gross (hosts)"
+      "last_mentioned_episode_id": 550,
+      "last_mentioned_speaker": "Richard Socher"
     },
     {
       "id": 59,
@@ -12690,20 +12746,20 @@
     {
       "id": 11,
       "term": "Jevon's Paradox",
-      "description": "The theory that as technological improvements increase the efficiency of resource use, the overall consumption of that resource may increase.",
+      "description": "Jevon's Paradox describes rising total usage when a technology becomes cheaper and more efficient; in this episode it was applied to low-cost decision models and micro-decision automation.",
       "first_detected_date": "2026-05-30",
-      "last_mentioned_date": "2026-10-02",
-      "mention_count": 14,
+      "last_mentioned_date": "2026-10-03",
+      "mention_count": 15,
       "source_podcasts": null,
       "status": "active",
-      "investment_implications": "Understanding this paradox is crucial for predicting market expansion in AI as efficiency improves.",
+      "investment_implications": "Cheaper inference may expand total AI workload demand rather than reduce spending, supporting AI infrastructure and application-layer volume.",
       "display_on_main": 1,
       "archived_date": null,
       "archived_reason": null,
       "first_detected_episode_id": 249,
       "first_detected_speaker": null,
-      "last_mentioned_episode_id": 547,
-      "last_mentioned_speaker": "Peter Diamandis, Alex Wissner-Gross (hosts)"
+      "last_mentioned_episode_id": 550,
+      "last_mentioned_speaker": "Richard Socher"
     },
     {
       "id": 100,
@@ -12818,8 +12874,8 @@
       "term": "Singularity",
       "description": "The episode frames biology as approaching a point where AI, compute, DNA synthesis, multiplex editing, and artificial gestation could allow CAD-like design of organisms. Lamm said this kind of design world is less than 10 years away.",
       "first_detected_date": "2026-05-15",
-      "last_mentioned_date": "2026-10-02",
-      "mention_count": 77,
+      "last_mentioned_date": "2026-10-03",
+      "mention_count": 78,
       "source_podcasts": null,
       "status": "active",
       "investment_implications": "This matters for synthetic biology, lab automation, genomics data infrastructure, and companies building tools that turn biological design into an engineering workflow.",
@@ -12828,8 +12884,8 @@
       "archived_reason": null,
       "first_detected_episode_id": 221,
       "first_detected_speaker": null,
-      "last_mentioned_episode_id": 547,
-      "last_mentioned_speaker": "Peter Diamandis, Alex Wissner-Gross (hosts)"
+      "last_mentioned_episode_id": 550,
+      "last_mentioned_speaker": "Richard Socher"
     },
     {
       "id": 97,
@@ -12837,7 +12893,7 @@
       "description": "Distillation in this discussion means using larger, more capable models to help train smaller and more specialized replacement models for narrow tasks.",
       "first_detected_date": "2026-05-15",
       "last_mentioned_date": "2026-10-03",
-      "mention_count": 54,
+      "mention_count": 55,
       "source_podcasts": null,
       "status": "active",
       "investment_implications": "It points to cost compression and risk reduction as workloads shift from expensive frontier models to cheaper domain-specific systems.",
@@ -12846,8 +12902,8 @@
       "archived_reason": null,
       "first_detected_episode_id": 221,
       "first_detected_speaker": null,
-      "last_mentioned_episode_id": 549,
-      "last_mentioned_speaker": "Alex Atallah, Amjad Masad"
+      "last_mentioned_episode_id": 550,
+      "last_mentioned_speaker": "Richard Socher"
     },
     {
       "id": 174,
@@ -14006,8 +14062,8 @@
       "term": "Co-generation",
       "description": "The process of using AI to generate text, code, or other content autonomously.",
       "first_detected_date": "2026-03-02",
-      "last_mentioned_date": "2026-07-13",
-      "mention_count": 5,
+      "last_mentioned_date": "2026-10-03",
+      "mention_count": 6,
       "source_podcasts": null,
       "status": "active",
       "investment_implications": "Investors should consider companies focusing on co-generation for their potential to disrupt content creation and software development.",
@@ -14016,16 +14072,16 @@
       "archived_reason": null,
       "first_detected_episode_id": 36,
       "first_detected_speaker": null,
-      "last_mentioned_episode_id": 344,
-      "last_mentioned_speaker": "Peter Diamandis (hosts)"
+      "last_mentioned_episode_id": 550,
+      "last_mentioned_speaker": "Richard Socher"
     },
     {
       "id": 114,
       "term": "AI Agents",
       "description": "AI Agents are systems that can pursue goals, use tools, and continue working without constant human prompting. OpenAI's Dots were described as always-on agents running on cloud computers and connected to more than 4,000 apps.",
       "first_detected_date": "2026-02-28",
-      "last_mentioned_date": "2026-10-02",
-      "mention_count": 110,
+      "last_mentioned_date": "2026-10-03",
+      "mention_count": 111,
       "source_podcasts": null,
       "status": "active",
       "investment_implications": "The agent interface could become the high-value control point for software, commerce, subscriptions, and workflow automation.",
@@ -14034,8 +14090,8 @@
       "archived_reason": null,
       "first_detected_episode_id": 31,
       "first_detected_speaker": null,
-      "last_mentioned_episode_id": 547,
-      "last_mentioned_speaker": "Peter Diamandis, Alex Wissner-Gross (hosts)"
+      "last_mentioned_episode_id": 550,
+      "last_mentioned_speaker": "Richard Socher"
     },
     {
       "id": 38,
