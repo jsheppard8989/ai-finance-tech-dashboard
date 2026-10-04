@@ -1,5 +1,30 @@
 [
   {
+    "id": 551,
+    "podcast_name": "The a16z Show",
+    "episode_title": "David George & Jack Altman on AI, Autonomy, and the Next $25 Trillion",
+    "episode_date": "2026-10-04",
+    "summary": "David George argues that many AI debates are framed incorrectly as either-or choices, because he expects frontier models, open models, infrastructure, and application companies to expand together. He says AI infrastructure spending has already surpassed railroads as a share of GDP, could 10x over many years, and is constrained by data center capacity that he says is not broadly available until 2028.",
+    "key_takeaways": [
+      "David George argues the AI market answer is \"and\" rather than either-or, because frontier labs, open models, first-party products, and vertical applications can all grow as token usage rises 20x to 50x over 10 years.",
+      "David George claims current enterprise AI revenue is concentrated among roughly 30 million coders while the broader market includes 1.5 billion knowledge workers, leaving B2B AI less than 5% diffused into the economy.",
+      "David George says AI supply is massively constrained because every step of the data center supply chain has bottlenecks, with capacity difficult to secure until 2028.",
+      "David George argues frontier labs still capture about 95% plus of AI dollars and that OpenAI and Anthropic together have raised about $350 billion, giving them scale advantages and first-party product leverage.",
+      "David George claims vertical AI applications such as Harvey can remain valuable because legal workflows require detailed product fit, go-to-market execution, and on-the-ground implementation that frontier labs are unlikely to verticalize fully.",
+      "David George argues autonomous ride-hailing could 10x again because Waymo data suggests autonomous vehicles are 10 to 14 times safer than human drivers and could eventually fall below Uber and Lyft costs per mile.",
+      "David George says growth-stage venture can still produce venture-style outcomes because half of private market returns historically came from Series C and later, and that share could rise to about 70% as companies stay private longer."
+    ],
+    "investment_thesis": "David George argues AI, autonomy, robotics, health, and defense tech can exceed the prior $25 trillion tech market-cap cycle because each creates large new product waves.",
+    "key_tickers": [
+      "PLTR",
+      "TSLA",
+      "UBER",
+      "LYFT",
+      "MSFT",
+      "GOOGL"
+    ]
+  },
+  {
     "id": 550,
     "podcast_name": "Moonshots with Peter Diamandis",
     "episode_title": "Recursive's $670M Bet on Self-Improving AI, Sonnet 5.5 Hits 70%, Elon Co-Leads Pentagon Push | EP #299",

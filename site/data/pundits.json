@@ -267,7 +267,7 @@
     "last_podcast_name": "All-In with Chamath, Jason, Sacks & Friedberg",
     "last_episode_date": "2026-09-19",
     "mention_score": 3,
-    "mention_score_decayed": 2.17,
+    "mention_score_decayed": 2.12,
     "last_main_idea": "Implement the CAPA framework to systematically address failures and enhance accountability.",
     "last_proof_cite": "All-In with Chamath, Jason, Sacks & Friedberg \u2022 2026-09-19 \u2022 Bill Gurley: Searching for Feynman",
     "last_proof_snippet": "Silicon Valley, Royalty, Legendary Investor, Bill Gerley. Track records incredible. The legend who backed Uber and Zillow, who's lived through every major text cycle for over 25 years. You're not just a commentator, right? You've been an op",
@@ -307,6 +307,69 @@
       ]
     },
     "net_worth": "$600.0M"
+  },
+  {
+    "id": 90,
+    "name": "David George",
+    "slug": "david-george",
+    "bio": "David George is a General Partner at a16z. In this conversation, he discusses AI infrastructure, model-layer economics, application investing, autonomy, robotics, and growth-stage venture capital.",
+    "known_for": "Growth investing in technology companies and a16z market-cycle analysis.",
+    "net_worth_usd": 13000000.0,
+    "net_worth_source": "https://www.gurufocus.com/insider/11369/david-c-george",
+    "net_worth_updated_at": "2026-03-19T22:17:36.511607",
+    "voice_tone": "Optimistic, emphatic, and thesis-driven.",
+    "voice_style": "He frames markets through scale, diffusion, capital cycles, and product-cycle comparisons, frequently anchoring claims with numbers.",
+    "voice_delivery_notes": "Use energetic pacing with extra emphasis on market-size numbers, bottlenecks, and the repeated \"and\" framing.",
+    "voice_profile_updated_at": "2026-10-04 11:37:11",
+    "last_seen": "2026-10-04 11:37:11",
+    "last_episode_title": "David George & Jack Altman on AI, Autonomy, and the Next $25 Trillion",
+    "last_podcast_name": "The a16z Show",
+    "last_episode_date": "2026-10-04",
+    "mention_score": 2,
+    "mention_score_decayed": 2,
+    "last_main_idea": "David George argues AI, autonomy, robotics, health, and defense tech can exceed the prior $25 trillion tech market-cap cycle because each creates large new product waves.",
+    "last_proof_cite": "The a16z Show \u2022 2026-10-04 \u2022 David George & Jack Altman on AI, Autonomy, and the Next $25 Trillion",
+    "last_proof_snippet": "If the premise of your question is, is this going to be successful or that it's going to be successful? The answer in AI is probably, and it's just the most exciting time to ever be an investor and in the technology markets and keeping up w",
+    "supporting_takeaway": "David George claims current enterprise AI revenue is concentrated among roughly 30 million coders while the broader market includes 1.5 billion knowledge workers, leaving B2B AI less than 5% diffused into the economy.",
+    "grokipedia_url": null,
+    "grokipedia_fetched_at": "2026-09-30T06:37:38.335266",
+    "pundit_profile": {
+      "source": "llm",
+      "source_model": "openai:gpt-4o-mini",
+      "source_url": "",
+      "page_title": "David George",
+      "fetched_at": "2026-09-30T11:37:38.334921+00:00",
+      "cliff_notes": "David George has built a career at the intersection of venture capital and technology, focusing on the dynamics of investment returns in the rapidly evolving AI sector. His work emphasizes the importance of understanding power-law distributions in venture capital, which can significantly impact investment strategies and outcomes. By analyzing performance metrics, he provides valuable insights that help investors navigate the complexities of early-stage funding. George's contributions are particularly relevant as the tech landscape continues to shift, making his expertise essential for those looking to achieve sustainable growth in their portfolios.",
+      "derived": {},
+      "infobox": {},
+      "lead_paragraphs": [
+        "David George has built a career at the intersection of venture capital and technology, focusing on the dynamics of investment returns in the rapidly evolving AI sector. His work emphasizes the importance of understanding power-law distributions in venture capital, which can significantly impact investment strategies and outcomes.",
+        "By analyzing performance metrics, he provides valuable insights that help investors navigate the complexities of early-stage funding. George's contributions are particularly relevant as the tech landscape continues to shift, making his expertise essential for those looking to achieve sustainable growth in their portfolios."
+      ],
+      "sections": [
+        {
+          "heading": "Venture Fund Performance Metrics",
+          "body": "David George examines the metrics that define venture fund success, focusing on how these metrics can inform investment decisions and strategies."
+        },
+        {
+          "heading": "Power-Law Returns",
+          "body": "He specializes in understanding power-law returns, which are crucial for investors aiming to identify high-potential opportunities in the venture capital space."
+        },
+        {
+          "heading": "Capital Efficiency in AI",
+          "body": "George analyzes capital efficiency within the AI sector, providing insights into how investments can be optimized for better returns."
+        },
+        {
+          "heading": "Early-Stage Access",
+          "body": "His focus on early-stage access allows him to identify and invest in promising startups before they gain widespread attention."
+        },
+        {
+          "heading": "Consistent 3x Returns",
+          "body": "George's research highlights the rarity of achieving consistent 3x returns, offering a realistic perspective for investors."
+        }
+      ]
+    },
+    "net_worth": "$13.0M"
   },
   {
     "id": 300,
@@ -385,7 +448,7 @@
     "last_podcast_name": "All-In with Chamath, Jason, Sacks & Friedberg",
     "last_episode_date": "2026-09-30",
     "mention_score": 2,
-    "mention_score_decayed": 1.91,
+    "mention_score_decayed": 1.87,
     "last_main_idea": "Jake Paul and The Chainsmokers argue attention can improve startup go-to-market, while The Chainsmokers warn 2x to 3x tranche markups without performance change are bubble behavior.",
     "last_proof_cite": "All-In with Chamath, Jason, Sacks & Friedberg \u2022 2026-09-30 \u2022 Jake Paul & The Chainsmokers: Turning Fame into Funds, Jake Enters Politics? & Venture Bubble Signs",
     "last_proof_snippet": "Jake Paul has got to be the dumbest, cockiest, stupidest, most ego-tistical person in the social media studio. Mr. President, what an honor. That's what makes him so damn successful. The world has shifted to attention being one of the most",
@@ -1334,7 +1397,7 @@
     "last_podcast_name": "All-In with Chamath, Jason, Sacks & Friedberg",
     "last_episode_date": "2026-09-30",
     "mention_score": 1,
-    "mention_score_decayed": 0.95,
+    "mention_score_decayed": 0.93,
     "last_main_idea": "Jake Paul and The Chainsmokers argue attention can improve startup go-to-market, while The Chainsmokers warn 2x to 3x tranche markups without performance change are bubble behavior.",
     "last_proof_cite": "All-In with Chamath, Jason, Sacks & Friedberg \u2022 2026-09-30 \u2022 Jake Paul & The Chainsmokers: Turning Fame into Funds, Jake Enters Politics? & Venture Bubble Signs",
     "last_proof_snippet": "Jake Paul has got to be the dumbest, cockiest, stupidest, most ego-tistical person in the social media studio. Mr. President, what an honor. That's what makes him so damn successful. The world has shifted to attention being one of the most",
@@ -1361,7 +1424,7 @@
     "last_podcast_name": "All-In with Chamath, Jason, Sacks & Friedberg",
     "last_episode_date": "2026-09-30",
     "mention_score": 1,
-    "mention_score_decayed": 0.95,
+    "mention_score_decayed": 0.93,
     "last_main_idea": "Jake Paul and The Chainsmokers argue attention can improve startup go-to-market, while The Chainsmokers warn 2x to 3x tranche markups without performance change are bubble behavior.",
     "last_proof_cite": "All-In with Chamath, Jason, Sacks & Friedberg \u2022 2026-09-30 \u2022 Jake Paul & The Chainsmokers: Turning Fame into Funds, Jake Enters Politics? & Venture Bubble Signs",
     "last_proof_snippet": "Jake Paul has got to be the dumbest, cockiest, stupidest, most ego-tistical person in the social media studio. Mr. President, what an honor. That's what makes him so damn successful. The world has shifted to attention being one of the most",
@@ -1469,7 +1532,7 @@
     "last_podcast_name": "All-In with Chamath, Jason, Sacks & Friedberg",
     "last_episode_date": "2026-09-28",
     "mention_score": 1,
-    "mention_score_decayed": 0.91,
+    "mention_score_decayed": 0.89,
     "last_main_idea": "Daniel Ek argues Neko Health's $499 vertically integrated scans can shift healthcare from reactive to preventative by combining 53 blood markers, 6,000 skin images, clinician review, and longitudinal AI.",
     "last_proof_cite": "All-In with Chamath, Jason, Sacks & Friedberg \u2022 2026-09-28 \u2022 Daniel Ek: Life After Spotify, Broken Healthcare Incentives, Catching Disease Early & AI's Potential",
     "last_proof_snippet": "Part of everybody welcome back to the all-in interview show where we, the all-in podcast and dedicate an hour to just some of the great thinkers, creators of our time, and today will be no different. Daniel Eck is with us, you know him, the",
@@ -1529,7 +1592,7 @@
     "last_podcast_name": "Moonshots with Peter Diamandis",
     "last_episode_date": "2026-09-28",
     "mention_score": 1,
-    "mention_score_decayed": 0.91,
+    "mention_score_decayed": 0.89,
     "last_main_idea": "Kathy Wood claims that AI will reduce drug development costs from $2.4 billion to $600-700 million, revolutionizing the pharmaceutical industry.",
     "last_proof_cite": "Moonshots with Peter Diamandis \u2022 2026-09-28 \u2022 We Gave Away $2,000,000 To 5 AI Builders | MOONSHOTS Live",
     "last_proof_snippet": "We're about to award the build with Gemini Express. So what is that? You know, a lot of people are concerned about jobs. And they're concerned about the old social contract, do well in high school, go to college, get a degree, and go get a",
@@ -2109,7 +2172,7 @@
     "last_podcast_name": "All-In with Chamath, Jason, Sacks & Friedberg",
     "last_episode_date": "2026-09-23",
     "mention_score": 1,
-    "mention_score_decayed": 0.79,
+    "mention_score_decayed": 0.78,
     "last_main_idea": "California's regulatory burden, with over 420,000 regulations, is a major hindrance to business growth.",
     "last_proof_cite": "All-In with Chamath, Jason, Sacks & Friedberg \u2022 2026-09-23 \u2022 Steve Hilton & Spencer Pratt: Fixing California, Cheaper Gas, Ballot Fraud & CA Republicans",
     "last_proof_snippet": "A candidate for the governor of California who is extremely unique in a number of ways. First of all, he's a Republican, and second, he's a Brit. Welcome to the program to Steve Colton. It's a joke. We wanted these Democrats doing. We alrea",
@@ -2285,7 +2348,7 @@
     "last_podcast_name": "All-In with Chamath, Jason, Sacks & Friedberg",
     "last_episode_date": "2026-09-21",
     "mention_score": 1,
-    "mention_score_decayed": 0.78,
+    "mention_score_decayed": 0.76,
     "last_main_idea": "Evaluate startups that demonstrate rapid prototyping capabilities as potential high-reward investments.",
     "last_proof_cite": "All-In with Chamath, Jason, Sacks & Friedberg \u2022 2026-09-21 \u2022 Naveen Rao: 4D Computing, AI's Energy Wall & Beating Biology",
     "last_proof_snippet": "Naveen Rau, co-founder and CEO of Unconventional AI, which is an AI chip startup, best willing for building and selling to deep tech companies. Naveen is kind of definitely outlier, founder. When I came there, we had about 20 million dollar",
@@ -2507,7 +2570,7 @@
     "last_podcast_name": "The a16z Show",
     "last_episode_date": "2026-09-18",
     "mention_score": 1,
-    "mention_score_decayed": 0.72,
+    "mention_score_decayed": 0.71,
     "last_main_idea": "Automate cybersecurity processes to keep pace with AI-driven threats and reduce response times.",
     "last_proof_cite": "The a16z Show \u2022 2026-09-18 \u2022 Databricks CEO on AI Pacing, Cyber Risk, and the Enterprise",
     "last_proof_snippet": "As a business leader, there's a tragedy of the comments. If you want to stop, if you want to go slower, why don't you go slower? Like I'm competing, I want to win. There's almost two camps. There's one camp which believes that this actually",
@@ -2853,7 +2916,7 @@
     "last_podcast_name": "All-In with Chamath, Jason, Sacks & Friedberg",
     "last_episode_date": "2026-09-17",
     "mention_score": 1,
-    "mention_score_decayed": 0.69,
+    "mention_score_decayed": 0.68,
     "last_main_idea": "Investing in preventive healthcare and AI infrastructure presents significant opportunities, but requires careful monitoring of revenue growth and market conditions.",
     "last_proof_cite": "All-In with Chamath, Jason, Sacks & Friedberg \u2022 2026-09-17 \u2022 Brad Gerstner: No AI Bubble, Semis Eat the Nasdaq & AI's Take Off Problem",
     "last_proof_snippet": "Our favorite fifth-besty in the world, the one the only Brad Kershner contributor Brad has had unbelievable career starting five companies so he's got a very different mentality than your sort of classic hedge fund guy. He's an amazingly su",
@@ -3688,69 +3751,6 @@
         }
       ]
     }
-  },
-  {
-    "id": 90,
-    "name": "David George",
-    "slug": "david-george",
-    "bio": "David George is a venture investor specializing in analyzing power-law returns and capital efficiency in artificial intelligence. He focuses on early-stage access to investment opportunities and examines venture fund performance metrics. His insights into the rarity of consistent 3x returns make him a notable figure in the investment community.",
-    "known_for": "David George is recognized for his expertise in venture fund performance metrics and the analysis of consistent high returns in investments.",
-    "net_worth_usd": 13000000.0,
-    "net_worth_source": "https://www.gurufocus.com/insider/11369/david-c-george",
-    "net_worth_updated_at": "2026-03-19T22:17:36.511607",
-    "voice_tone": "Data-driven and direct",
-    "voice_style": "Uses specific performance statistics to frame the rarity of top-quartile returns and the importance of early-stage access",
-    "voice_delivery_notes": "Maintain a measured, authoritative pace with emphasis on return multiples and loss rates",
-    "voice_profile_updated_at": "2026-09-11 15:52:22",
-    "last_seen": "2026-09-11 15:52:22",
-    "last_episode_title": "How AI Is Rewriting the Power Law of Venture Capital",
-    "last_podcast_name": "The a16z Show",
-    "last_episode_date": "2026-09-10",
-    "mention_score": 1,
-    "mention_score_decayed": 0.6,
-    "last_main_idea": "AI is expanding the investable universe far beyond software to encompass trillions in GDP, and investors who concentrate capital in top-decile early-stage firms while favoring compute-heavy, capital-efficient models are best positioned to capture outsized returns in a market where the middle is being hollowed out.",
-    "last_proof_cite": "The a16z Show \u2022 2026-09-10 \u2022 How AI Is Rewriting the Power Law of Venture Capital",
-    "last_proof_snippet": "AI is attacking every facet of GDP and may create an addressable market an order of magnitude larger than existing SaaS, expanding across transportation, labor, services, and energy.",
-    "supporting_takeaway": "AI is attacking every facet of GDP and may create an addressable market an order of magnitude larger than existing SaaS, expanding across transportation, labor, services, and energy.",
-    "grokipedia_url": null,
-    "grokipedia_fetched_at": "2026-09-30T06:37:38.335266",
-    "pundit_profile": {
-      "source": "llm",
-      "source_model": "openai:gpt-4o-mini",
-      "source_url": "",
-      "page_title": "David George",
-      "fetched_at": "2026-09-30T11:37:38.334921+00:00",
-      "cliff_notes": "David George has built a career at the intersection of venture capital and technology, focusing on the dynamics of investment returns in the rapidly evolving AI sector. His work emphasizes the importance of understanding power-law distributions in venture capital, which can significantly impact investment strategies and outcomes. By analyzing performance metrics, he provides valuable insights that help investors navigate the complexities of early-stage funding. George's contributions are particularly relevant as the tech landscape continues to shift, making his expertise essential for those looking to achieve sustainable growth in their portfolios.",
-      "derived": {},
-      "infobox": {},
-      "lead_paragraphs": [
-        "David George has built a career at the intersection of venture capital and technology, focusing on the dynamics of investment returns in the rapidly evolving AI sector. His work emphasizes the importance of understanding power-law distributions in venture capital, which can significantly impact investment strategies and outcomes.",
-        "By analyzing performance metrics, he provides valuable insights that help investors navigate the complexities of early-stage funding. George's contributions are particularly relevant as the tech landscape continues to shift, making his expertise essential for those looking to achieve sustainable growth in their portfolios."
-      ],
-      "sections": [
-        {
-          "heading": "Venture Fund Performance Metrics",
-          "body": "David George examines the metrics that define venture fund success, focusing on how these metrics can inform investment decisions and strategies."
-        },
-        {
-          "heading": "Power-Law Returns",
-          "body": "He specializes in understanding power-law returns, which are crucial for investors aiming to identify high-potential opportunities in the venture capital space."
-        },
-        {
-          "heading": "Capital Efficiency in AI",
-          "body": "George analyzes capital efficiency within the AI sector, providing insights into how investments can be optimized for better returns."
-        },
-        {
-          "heading": "Early-Stage Access",
-          "body": "His focus on early-stage access allows him to identify and invest in promising startups before they gain widespread attention."
-        },
-        {
-          "heading": "Consistent 3x Returns",
-          "body": "George's research highlights the rarity of achieving consistent 3x returns, offering a realistic perspective for investors."
-        }
-      ]
-    },
-    "net_worth": "$13.0M"
   },
   {
     "id": 446,
@@ -4742,7 +4742,7 @@
     "last_podcast_name": "Moonshots with Peter Diamandis",
     "last_episode_date": "2026-08-27",
     "mention_score": 1,
-    "mention_score_decayed": 0.44,
+    "mention_score_decayed": 0.43,
     "last_main_idea": "Investment in AI and autonomous vehicle sectors should consider the shift towards more gradual AI integration and the potential for cost-effective Chinese AI models to disrupt the market.",
     "last_proof_cite": "Moonshots with Peter Diamandis \u2022 2026-08-27 \u2022 Sam Altman: Singularity Slow-Down, Emad Runs 18 Grokbots, Waymo Slashes Hardware 83% | EP #283",
     "last_proof_snippet": "Sam Altman went on video this week to tell the world that he was wrong about the impact of advancing AI. We've all been too ambitious on time on it's even with this incredible technology. He now believes it will be something slower, more lik",
@@ -4927,7 +4927,7 @@
     "last_podcast_name": "All-In with Chamath, Jason, Sacks & Friedberg",
     "last_episode_date": "2026-08-26",
     "mention_score": 1,
-    "mention_score_decayed": 0.43,
+    "mention_score_decayed": 0.42,
     "last_main_idea": "Investing in cutting-edge scientific research and exploration could lead to paradigm-shifting discoveries with significant impact on various industries.",
     "last_proof_cite": "All-In with Chamath, Jason, Sacks & Friedberg \u2022 2026-08-26 \u2022 Eric Weinstein: The State of American Science, Breakthrough Coverups, and the Danger of Physics",
     "last_proof_snippet": "We have become a f***ing nation when it comes to science. You were called a friend scientist and keep saying, friend, yeah. I totally disagree with the narrative of the field. I want to blow a giant pole in civil rights act. The stagnation",
