@@ -3,1085 +3,1085 @@
 
 const dashboardData = {
   schemaVersion: 2,
-  generatedAt: "2026-10-03T13:55:30.324417",
-  chartsVersion: "2026-10-03T13:55:19.361742",
+  generatedAt: "2026-10-03T22:13:46.550259",
+  chartsVersion: "2026-10-03T22:13:31.776686",
   priceSnapshot: {
   "AAPL": {
     "price": 333.69,
     "change_pct": 0.71,
     "name": "Apple Inc.",
-    "updated_at": "2026-10-03T13:54:11.269898",
+    "updated_at": "2026-10-03T22:12:18.651412",
     "price_14d_ago": 331.34
   },
   "AEP": {
     "price": 119.57,
     "change_pct": -0.86,
     "name": "American Electric Power Company",
-    "updated_at": "2026-10-03T13:54:11.492887",
+    "updated_at": "2026-10-03T22:12:18.880877",
     "price_14d_ago": 120.61
   },
   "AMD": {
     "price": 633.91,
     "change_pct": 25.73,
     "name": "Advanced Micro Devices, Inc.",
-    "updated_at": "2026-10-03T13:54:11.665897",
+    "updated_at": "2026-10-03T22:12:19.052717",
     "price_14d_ago": 504.2
   },
   "AMGN": {
     "price": 403.04,
     "change_pct": 7.29,
     "name": "Amgen Inc.",
-    "updated_at": "2026-10-03T13:54:11.849103",
+    "updated_at": "2026-10-03T22:12:19.298189",
     "price_14d_ago": 375.65
   },
   "AMZN": {
     "price": 251.52,
     "change_pct": 1.25,
     "name": "Amazon.com, Inc.",
-    "updated_at": "2026-10-03T13:54:12.013880",
+    "updated_at": "2026-10-03T22:12:19.471672",
     "price_14d_ago": 248.42
   },
   "APO": {
     "price": 114.02,
     "change_pct": -10.22,
     "name": "Apollo Global Management, Inc. ",
-    "updated_at": "2026-10-03T13:54:12.186041",
+    "updated_at": "2026-10-03T22:12:19.663652",
     "price_14d_ago": 127.0
   },
   "APTV": {
     "price": 43.54,
     "change_pct": -0.48,
     "name": "Aptiv PLC",
-    "updated_at": "2026-10-03T13:54:12.354266",
+    "updated_at": "2026-10-03T22:12:19.842193",
     "price_14d_ago": 43.75
   },
   "AVGO": {
     "price": 355.14,
     "change_pct": 4.68,
     "name": "Broadcom Inc.",
-    "updated_at": "2026-10-03T13:54:12.702402",
+    "updated_at": "2026-10-03T22:12:20.290390",
     "price_14d_ago": 339.27
   },
   "BA": {
     "price": 193.56,
     "change_pct": -7.69,
     "name": "Boeing Company (The)",
-    "updated_at": "2026-10-03T13:54:13.101522",
+    "updated_at": "2026-10-03T22:12:20.689435",
     "price_14d_ago": 209.69
   },
   "BABA": {
     "price": 105.85,
     "change_pct": -3.19,
     "name": "Alibaba Group Holding Limited",
-    "updated_at": "2026-10-03T13:54:13.279508",
+    "updated_at": "2026-10-03T22:12:20.870841",
     "price_14d_ago": 109.34
   },
   "BAC": {
     "price": 53.75,
     "change_pct": -9.69,
     "name": "Bank of America Corporation",
-    "updated_at": "2026-10-03T13:54:13.474076",
+    "updated_at": "2026-10-03T22:12:21.072091",
     "price_14d_ago": 59.52
   },
   "BAM": {
     "price": 44.85,
     "change_pct": -2.16,
     "name": "Brookfield Asset Management Inc",
-    "updated_at": "2026-10-03T13:54:13.645375",
+    "updated_at": "2026-10-03T22:12:21.266176",
     "price_14d_ago": 45.84
   },
   "BIDU": {
     "price": 84.32,
     "change_pct": -6.72,
     "name": "Baidu, Inc.",
-    "updated_at": "2026-10-03T13:54:13.975231",
+    "updated_at": "2026-10-03T22:12:21.613597",
     "price_14d_ago": 90.39
   },
   "BP": {
     "price": 44.79,
     "change_pct": -4.62,
     "name": "BP p.l.c.",
-    "updated_at": "2026-10-03T13:54:14.341841",
+    "updated_at": "2026-10-03T22:12:22.041071",
     "price_14d_ago": 46.96
   },
   "BTC": {
-    "price": 84918.28,
-    "change_pct": 4.65,
+    "price": 84792.75,
+    "change_pct": -2.09,
     "name": "Bitcoin USD",
-    "updated_at": "2026-10-03T13:54:14.507120",
-    "price_14d_ago": 81142.61
+    "updated_at": "2026-10-03T22:12:22.209756",
+    "price_14d_ago": 86602.91
   },
   "BTC-USD": {
-    "price": 84918.28,
-    "change_pct": 4.65,
+    "price": 84792.75,
+    "change_pct": -2.09,
     "name": "Bitcoin USD",
-    "updated_at": "2026-10-03T13:54:14.666129",
-    "price_14d_ago": 81142.61
+    "updated_at": "2026-10-03T22:12:22.389543",
+    "price_14d_ago": 86602.91
   },
   "BX": {
     "price": 111.75,
     "change_pct": -11.8,
     "name": "Blackstone Inc.",
-    "updated_at": "2026-10-03T13:54:14.870993",
+    "updated_at": "2026-10-03T22:12:22.590666",
     "price_14d_ago": 126.7
   },
   "BYD": {
     "price": 67.25,
     "change_pct": -11.61,
     "name": "Boyd Gaming Corporation",
-    "updated_at": "2026-10-03T13:54:15.069590",
+    "updated_at": "2026-10-03T22:12:22.781952",
     "price_14d_ago": 76.08
   },
   "CAT": {
     "price": 845.42,
     "change_pct": 7.9,
     "name": "Caterpillar, Inc.",
-    "updated_at": "2026-10-03T13:54:15.462784",
+    "updated_at": "2026-10-03T22:12:23.190196",
     "price_14d_ago": 783.54
   },
   "CCJ": {
     "price": 85.18,
     "change_pct": -6.61,
     "name": "Cameco Corporation",
-    "updated_at": "2026-10-03T13:54:15.658516",
+    "updated_at": "2026-10-03T22:12:23.378651",
     "price_14d_ago": 91.21
   },
   "CEG": {
     "price": 257.49,
     "change_pct": -0.92,
     "name": "Constellation Energy Corporatio",
-    "updated_at": "2026-10-03T13:54:15.904930",
+    "updated_at": "2026-10-03T22:12:23.556240",
     "price_14d_ago": 259.89
   },
   "COIN": {
     "price": 183.0,
     "change_pct": 6.33,
     "name": "Coinbase Global, Inc.",
-    "updated_at": "2026-10-03T13:54:16.071346",
+    "updated_at": "2026-10-03T22:12:23.728338",
     "price_14d_ago": 172.11
   },
   "COPPER": {
     "price": 6.55,
     "change_pct": 2.83,
     "name": "Copper",
-    "updated_at": "2026-10-03T13:54:16.237146",
+    "updated_at": "2026-10-03T22:12:23.902435",
     "price_14d_ago": 6.37
   },
   "CORN": {
     "price": 18.85,
     "change_pct": -5.94,
     "name": "Teucrium Corn Fund ETV",
-    "updated_at": "2026-10-03T13:54:16.397923",
+    "updated_at": "2026-10-03T22:12:24.078963",
     "price_14d_ago": 20.04
   },
   "CRM": {
     "price": 234.69,
     "change_pct": -8.2,
     "name": "Salesforce, Inc.",
-    "updated_at": "2026-10-03T13:54:16.562026",
+    "updated_at": "2026-10-03T22:12:24.261727",
     "price_14d_ago": 255.65
   },
   "CROWD": {
     "price": 270.04,
     "change_pct": 11.36,
     "name": "CrowdStrike Holdings, Inc.",
-    "updated_at": "2026-10-03T13:54:16.749948",
+    "updated_at": "2026-10-03T22:12:24.467874",
     "price_14d_ago": 242.49
   },
   "DBC": {
     "price": 32.54,
     "change_pct": -3.38,
     "name": "Invesco DB Commodity Index Trac",
-    "updated_at": "2026-10-03T13:54:17.299046",
+    "updated_at": "2026-10-03T22:12:25.155496",
     "price_14d_ago": 33.68
   },
   "DELL": {
     "price": 562.52,
     "change_pct": 3.5,
     "name": "Dell Technologies Inc.",
-    "updated_at": "2026-10-03T13:54:17.470961",
+    "updated_at": "2026-10-03T22:12:25.335119",
     "price_14d_ago": 543.51
   },
   "DIS": {
     "price": 102.19,
     "change_pct": -3.97,
     "name": "Walt Disney Company (The)",
-    "updated_at": "2026-10-03T13:54:17.692712",
+    "updated_at": "2026-10-03T22:12:25.587372",
     "price_14d_ago": 106.42
   },
   "DOCS": {
     "price": 27.93,
     "change_pct": 8.21,
     "name": "Doximity, Inc.",
-    "updated_at": "2026-10-03T13:54:17.962192",
+    "updated_at": "2026-10-03T22:12:25.764601",
     "price_14d_ago": 25.81
   },
   "DVN": {
     "price": 47.65,
     "change_pct": -7.17,
     "name": "Devon Energy Corporation",
-    "updated_at": "2026-10-03T13:54:18.334240",
+    "updated_at": "2026-10-03T22:12:25.966842",
     "price_14d_ago": 51.33
   },
   "EBAY": {
     "price": 106.4,
     "change_pct": -1.51,
     "name": "eBay Inc.",
-    "updated_at": "2026-10-03T13:54:18.512215",
+    "updated_at": "2026-10-03T22:12:26.175151",
     "price_14d_ago": 108.03
   },
   "ETH-USD": {
-    "price": 2683.35,
-    "change_pct": 1.53,
+    "price": 2692.15,
+    "change_pct": -3.04,
     "name": "Ethereum USD",
-    "updated_at": "2026-10-03T13:54:18.680247",
-    "price_14d_ago": 2643.0
+    "updated_at": "2026-10-03T22:12:26.338867",
+    "price_14d_ago": 2776.47
   },
   "F": {
     "price": 12.1,
     "change_pct": -10.37,
     "name": "Ford Motor Company",
-    "updated_at": "2026-10-03T13:54:18.885236",
+    "updated_at": "2026-10-03T22:12:26.548673",
     "price_14d_ago": 13.5
   },
   "FB": {
     "price": 45.65,
     "change_pct": 0.61,
     "name": "ProShares S&P 500 Dynamic Buffe",
-    "updated_at": "2026-10-03T13:54:19.126440",
+    "updated_at": "2026-10-03T22:12:26.727880",
     "price_14d_ago": 45.38
   },
   "FCX": {
     "price": 72.04,
     "change_pct": 3.83,
     "name": "Freeport-McMoRan, Inc.",
-    "updated_at": "2026-10-03T13:54:19.430895",
+    "updated_at": "2026-10-03T22:12:26.927618",
     "price_14d_ago": 69.38
   },
   "FSK": {
     "price": 10.97,
     "change_pct": -8.58,
     "name": "FS KKR Capital Corp.",
-    "updated_at": "2026-10-03T13:54:19.934591",
+    "updated_at": "2026-10-03T22:12:27.451707",
     "price_14d_ago": 12.0
   },
   "GC": {
     "price": 0,
     "change_pct": 0,
     "name": "Gold",
-    "updated_at": "2026-10-03T13:54:20.163798",
+    "updated_at": "2026-10-03T22:12:27.625490",
     "price_14d_ago": null
   },
   "GD": {
     "price": 330.09,
     "change_pct": -7.95,
     "name": "General Dynamics Corporation",
-    "updated_at": "2026-10-03T13:54:20.427509",
+    "updated_at": "2026-10-03T22:12:27.875956",
     "price_14d_ago": 358.6
   },
   "GE": {
     "price": 309.56,
     "change_pct": 0.82,
     "name": "GE Aerospace",
-    "updated_at": "2026-10-03T13:54:20.657128",
+    "updated_at": "2026-10-03T22:12:28.101315",
     "price_14d_ago": 307.05
   },
   "GLD": {
     "price": 380.14,
     "change_pct": -3.55,
     "name": "SPDR Gold Shares",
-    "updated_at": "2026-10-03T13:54:20.832388",
+    "updated_at": "2026-10-03T22:12:28.355754",
     "price_14d_ago": 394.15
   },
   "GME": {
     "price": 24.7,
     "change_pct": 15.21,
     "name": "GameStop Corporation",
-    "updated_at": "2026-10-03T13:54:20.998642",
+    "updated_at": "2026-10-03T22:12:28.525421",
     "price_14d_ago": 21.44
   },
   "GOLD": {
     "price": 4162.3,
     "change_pct": -3.94,
     "name": "Gold",
-    "updated_at": "2026-10-03T13:54:21.172412",
+    "updated_at": "2026-10-03T22:12:28.774650",
     "price_14d_ago": 4332.8
   },
   "GOOG": {
     "price": 340.35,
     "change_pct": -0.32,
     "name": "Alphabet Inc.",
-    "updated_at": "2026-10-03T13:54:21.363299",
+    "updated_at": "2026-10-03T22:12:28.952310",
     "price_14d_ago": 341.43
   },
   "GOOGL": {
     "price": 343.5,
     "change_pct": -0.43,
     "name": "Alphabet Inc.",
-    "updated_at": "2026-10-03T13:54:21.532563",
+    "updated_at": "2026-10-03T22:12:29.123562",
     "price_14d_ago": 344.98
   },
   "GS": {
     "price": 902.56,
     "change_pct": -7.59,
     "name": "Goldman Sachs Group, Inc. (The)",
-    "updated_at": "2026-10-03T13:54:21.715050",
+    "updated_at": "2026-10-03T22:12:29.323665",
     "price_14d_ago": 976.67
   },
   "Gold": {
     "price": 42.29,
     "change_pct": -11.53,
     "name": "Gold.com, Inc.",
-    "updated_at": "2026-10-03T13:54:21.900143",
+    "updated_at": "2026-10-03T22:12:29.513014",
     "price_14d_ago": 47.8
   },
   "HFGM": {
     "price": 31.75,
     "change_pct": -0.31,
     "name": "Unlimited HFGM Global Macro ETF",
-    "updated_at": "2026-10-03T13:54:22.064471",
+    "updated_at": "2026-10-03T22:12:29.699621",
     "price_14d_ago": 31.85
   },
   "HG": {
     "price": 34.13,
     "change_pct": -3.2,
     "name": "Hamilton Insurance Group, Ltd.",
-    "updated_at": "2026-10-03T13:54:22.224699",
+    "updated_at": "2026-10-03T22:12:29.874140",
     "price_14d_ago": 35.26
   },
   "IBM": {
     "price": 222.64,
     "change_pct": -10.36,
     "name": "International Business Machines",
-    "updated_at": "2026-10-03T13:54:22.829126",
+    "updated_at": "2026-10-03T22:12:30.456158",
     "price_14d_ago": 248.37
   },
   "IEF": {
     "price": 89.05,
     "change_pct": -1.95,
     "name": "iShares 7-10 Year Treasury Bond",
-    "updated_at": "2026-10-03T13:54:23.020503",
+    "updated_at": "2026-10-03T22:12:30.653709",
     "price_14d_ago": 90.82
   },
   "INDA": {
     "price": 46.52,
     "change_pct": -2.25,
     "name": "Ishares MSCI India ETF",
-    "updated_at": "2026-10-03T13:54:23.355756",
+    "updated_at": "2026-10-03T22:12:30.837524",
     "price_14d_ago": 47.59
   },
   "INFY": {
     "price": 11.04,
     "change_pct": -2.47,
     "name": "Infosys Limited",
-    "updated_at": "2026-10-03T13:54:23.555615",
+    "updated_at": "2026-10-03T22:12:31.039843",
     "price_14d_ago": 11.32
   },
   "INTC": {
     "price": 119.33,
     "change_pct": 22.84,
     "name": "Intel Corporation",
-    "updated_at": "2026-10-03T13:54:23.757020",
+    "updated_at": "2026-10-03T22:12:31.241462",
     "price_14d_ago": 97.14
   },
   "IWD": {
     "price": 249.38,
     "change_pct": -1.62,
     "name": "iShares Russell 1000 Value ETF",
-    "updated_at": "2026-10-03T13:54:23.951019",
+    "updated_at": "2026-10-03T22:12:31.434893",
     "price_14d_ago": 253.49
   },
   "IWF": {
     "price": 127.07,
     "change_pct": 5.5,
     "name": "iShares Russell 1000 Growth Fun",
-    "updated_at": "2026-10-03T13:54:24.248173",
+    "updated_at": "2026-10-03T22:12:31.641136",
     "price_14d_ago": 120.45
   },
   "IWM": {
     "price": 281.52,
     "change_pct": -1.27,
     "name": "iShares Russell 2000 Index Fund",
-    "updated_at": "2026-10-03T13:54:24.444038",
+    "updated_at": "2026-10-03T22:12:31.836633",
     "price_14d_ago": 285.14
   },
   "JNJ": {
     "price": 256.03,
     "change_pct": -4.18,
     "name": "Johnson & Johnson",
-    "updated_at": "2026-10-03T13:54:24.659321",
+    "updated_at": "2026-10-03T22:12:32.066714",
     "price_14d_ago": 267.2
   },
   "JPM": {
     "price": 332.38,
     "change_pct": -5.71,
     "name": "JP Morgan Chase & Co.",
-    "updated_at": "2026-10-03T13:54:24.883792",
+    "updated_at": "2026-10-03T22:12:32.277622",
     "price_14d_ago": 352.49
   },
   "KKR": {
     "price": 90.29,
     "change_pct": -9.71,
     "name": "KKR & Co. Inc.",
-    "updated_at": "2026-10-03T13:54:25.067650",
+    "updated_at": "2026-10-03T22:12:32.460072",
     "price_14d_ago": 100.0
   },
   "LLY": {
     "price": 1142.85,
     "change_pct": 0.59,
     "name": "Eli Lilly and Company",
-    "updated_at": "2026-10-03T13:54:25.471348",
+    "updated_at": "2026-10-03T22:12:32.844037",
     "price_14d_ago": 1136.11
   },
   "LMT": {
     "price": 505.41,
     "change_pct": -5.26,
     "name": "Lockheed Martin Corporation",
-    "updated_at": "2026-10-03T13:54:25.694956",
+    "updated_at": "2026-10-03T22:12:33.163192",
     "price_14d_ago": 533.46
   },
   "LYFT": {
     "price": 15.46,
     "change_pct": -1.47,
     "name": "Lyft, Inc.",
-    "updated_at": "2026-10-03T13:54:26.281979",
+    "updated_at": "2026-10-03T22:12:33.669485",
     "price_14d_ago": 15.69
   },
   "META": {
     "price": 728.08,
     "change_pct": 8.63,
     "name": "Meta Platforms, Inc.",
-    "updated_at": "2026-10-03T13:54:26.454684",
+    "updated_at": "2026-10-03T22:12:33.857603",
     "price_14d_ago": 670.24
   },
   "MGM": {
     "price": 30.48,
     "change_pct": -22.28,
     "name": "MGM Resorts International",
-    "updated_at": "2026-10-03T13:54:26.644108",
+    "updated_at": "2026-10-03T22:12:34.052016",
     "price_14d_ago": 39.22
   },
   "MINE": {
     "price": 2.65,
     "change_pct": -7.99,
     "name": "Mayfair Gold Corp.",
-    "updated_at": "2026-10-03T13:54:26.833797",
+    "updated_at": "2026-10-03T22:12:34.218878",
     "price_14d_ago": 2.88
   },
   "MRK": {
     "price": 144.3,
     "change_pct": 0.35,
     "name": "Merck & Company, Inc.",
-    "updated_at": "2026-10-03T13:54:27.199272",
+    "updated_at": "2026-10-03T22:12:34.444125",
     "price_14d_ago": 143.79
   },
   "MRNA": {
     "price": 190.01,
     "change_pct": 32.16,
     "name": "Moderna, Inc.",
-    "updated_at": "2026-10-03T13:54:27.377249",
+    "updated_at": "2026-10-03T22:12:34.613334",
     "price_14d_ago": 143.77
   },
   "MS": {
     "price": 190.31,
     "change_pct": -7.74,
     "name": "Morgan Stanley",
-    "updated_at": "2026-10-03T13:54:27.640824",
+    "updated_at": "2026-10-03T22:12:34.805295",
     "price_14d_ago": 206.28
   },
   "MSFT": {
     "price": 517.53,
     "change_pct": 4.11,
     "name": "Microsoft Corporation",
-    "updated_at": "2026-10-03T13:54:27.904141",
+    "updated_at": "2026-10-03T22:12:34.995279",
     "price_14d_ago": 497.12
   },
   "MSTR": {
     "price": 160.01,
     "change_pct": 23.46,
     "name": "Strategy Inc",
-    "updated_at": "2026-10-03T13:54:28.068347",
+    "updated_at": "2026-10-03T22:12:35.181783",
     "price_14d_ago": 129.6
   },
   "MU": {
     "price": 1074.89,
     "change_pct": 15.88,
     "name": "Micron Technology, Inc.",
-    "updated_at": "2026-10-03T13:54:28.411002",
+    "updated_at": "2026-10-03T22:12:35.373980",
     "price_14d_ago": 927.6
   },
   "NEE": {
     "price": 76.83,
     "change_pct": -5.23,
     "name": "NextEra Energy, Inc.",
-    "updated_at": "2026-10-03T13:54:28.788199",
+    "updated_at": "2026-10-03T22:12:35.763514",
     "price_14d_ago": 81.07
   },
   "NFLX": {
     "price": 67.06,
     "change_pct": -13.92,
     "name": "Netflix, Inc.",
-    "updated_at": "2026-10-03T13:54:28.952484",
+    "updated_at": "2026-10-03T22:12:35.930794",
     "price_14d_ago": 77.9
   },
   "NKE": {
     "price": 33.87,
     "change_pct": -6.49,
     "name": "Nike, Inc.",
-    "updated_at": "2026-10-03T13:54:29.470403",
+    "updated_at": "2026-10-03T22:12:36.612942",
     "price_14d_ago": 36.22
   },
   "NOC": {
     "price": 478.0,
     "change_pct": -10.02,
     "name": "Northrop Grumman Corporation",
-    "updated_at": "2026-10-03T13:54:29.665019",
+    "updated_at": "2026-10-03T22:12:36.822830",
     "price_14d_ago": 531.25
   },
   "NVDA": {
     "price": 233.95,
     "change_pct": 10.27,
     "name": "NVIDIA Corporation",
-    "updated_at": "2026-10-03T13:54:29.839811",
+    "updated_at": "2026-10-03T22:12:37.006368",
     "price_14d_ago": 212.17
   },
   "NVS": {
     "price": 141.0,
     "change_pct": 1.72,
     "name": "Novartis AG",
-    "updated_at": "2026-10-03T13:54:30.188360",
+    "updated_at": "2026-10-03T22:12:37.382484",
     "price_14d_ago": 138.62
   },
   "Nasdaq": {
     "price": 749.58,
     "change_pct": 6.39,
     "name": "Invesco QQQ Trust, Series 1",
-    "updated_at": "2026-10-03T13:54:30.375074",
+    "updated_at": "2026-10-03T22:12:37.576036",
     "price_14d_ago": 704.54
   },
   "OKLO": {
     "price": 35.87,
     "change_pct": -0.31,
     "name": "Oklo Inc.",
-    "updated_at": "2026-10-03T13:54:30.772610",
+    "updated_at": "2026-10-03T22:12:37.997187",
     "price_14d_ago": 35.98
   },
   "ORCL": {
     "price": 142.3,
     "change_pct": 1.39,
     "name": "Oracle Corporation",
-    "updated_at": "2026-10-03T13:54:31.213843",
+    "updated_at": "2026-10-03T22:12:38.345272",
     "price_14d_ago": 140.35
   },
   "PALL": {
     "price": 21.25,
     "change_pct": -9.92,
     "name": "abrdn Physical Palladium Shares",
-    "updated_at": "2026-10-03T13:54:31.379518",
+    "updated_at": "2026-10-03T22:12:38.513294",
     "price_14d_ago": 23.59
   },
   "PANW": {
     "price": 403.24,
     "change_pct": 7.5,
     "name": "Palo Alto Networks, Inc.",
-    "updated_at": "2026-10-03T13:54:31.548492",
+    "updated_at": "2026-10-03T22:12:38.682915",
     "price_14d_ago": 375.09
   },
   "PBR": {
     "price": 21.65,
     "change_pct": -0.55,
     "name": "Petroleo Brasileiro S.A. Petrob",
-    "updated_at": "2026-10-03T13:54:31.734036",
+    "updated_at": "2026-10-03T22:12:38.880701",
     "price_14d_ago": 21.77
   },
   "PFE": {
     "price": 27.8,
     "change_pct": 0.91,
     "name": "Pfizer, Inc.",
-    "updated_at": "2026-10-03T13:54:32.099078",
+    "updated_at": "2026-10-03T22:12:39.262117",
     "price_14d_ago": 27.55
   },
   "PLTM": {
     "price": 16.35,
     "change_pct": -4.05,
     "name": "GraniteShares Platinum Shares E",
-    "updated_at": "2026-10-03T13:54:32.374881",
+    "updated_at": "2026-10-03T22:12:39.439243",
     "price_14d_ago": 17.04
   },
   "PLTR": {
     "price": 188.75,
     "change_pct": 9.38,
     "name": "Palantir Technologies Inc.",
-    "updated_at": "2026-10-03T13:54:32.619830",
+    "updated_at": "2026-10-03T22:12:39.614768",
     "price_14d_ago": 172.56
   },
   "PQT": {
     "price": 0,
     "change_pct": 0,
     "name": "PQT",
-    "updated_at": "2026-10-03T13:54:32.952087",
+    "updated_at": "2026-10-03T22:12:40.001180",
     "price_14d_ago": null
   },
   "PQUS": {
     "price": 28.78,
     "change_pct": 2.24,
     "name": "Pictet AI Enhanced US Equity ET",
-    "updated_at": "2026-10-03T13:54:33.114122",
+    "updated_at": "2026-10-03T22:12:40.343127",
     "price_14d_ago": 28.15
   },
   "PSBD": {
     "price": 9.77,
     "change_pct": -4.03,
     "name": "Palmer Square Capital BDC Inc.",
-    "updated_at": "2026-10-03T13:54:33.283008",
+    "updated_at": "2026-10-03T22:12:40.656589",
     "price_14d_ago": 10.18
   },
   "PYPL": {
     "price": 52.8,
     "change_pct": -1.88,
     "name": "PayPal Holdings, Inc.",
-    "updated_at": "2026-10-03T13:54:33.450930",
+    "updated_at": "2026-10-03T22:12:40.835231",
     "price_14d_ago": 53.81
   },
   "QQQ": {
     "price": 749.58,
     "change_pct": 6.39,
     "name": "Invesco QQQ Trust, Series 1",
-    "updated_at": "2026-10-03T13:54:33.630424",
+    "updated_at": "2026-10-03T22:12:41.025614",
     "price_14d_ago": 704.54
   },
   "QTA": {
     "price": 0,
     "change_pct": 0,
     "name": "QTA",
-    "updated_at": "2026-10-03T13:54:33.791565",
+    "updated_at": "2026-10-03T22:12:41.197563",
     "price_14d_ago": null
   },
   "RBLX": {
     "price": 44.12,
     "change_pct": -12.18,
     "name": "Roblox Corporation",
-    "updated_at": "2026-10-03T13:54:33.970307",
+    "updated_at": "2026-10-03T22:12:41.375691",
     "price_14d_ago": 50.24
   },
   "RKLB": {
     "price": 73.92,
     "change_pct": 16.32,
     "name": "Rocket Lab Corporation",
-    "updated_at": "2026-10-03T13:54:34.133261",
+    "updated_at": "2026-10-03T22:12:41.554630",
     "price_14d_ago": 63.55
   },
   "Russell": {
     "price": 281.52,
     "change_pct": -1.27,
     "name": "iShares Russell 2000 Index Fund",
-    "updated_at": "2026-10-03T13:54:34.486663",
+    "updated_at": "2026-10-03T22:12:41.935008",
     "price_14d_ago": 285.14
   },
   "S&P": {
     "price": 7722.72,
     "change_pct": 1.81,
     "name": "S&P 500",
-    "updated_at": "2026-10-03T13:54:34.656092",
+    "updated_at": "2026-10-03T22:12:42.105095",
     "price_14d_ago": 7585.73
   },
   "S&P 500": {
     "price": 7722.72,
     "change_pct": 1.81,
     "name": "S&P 500",
-    "updated_at": "2026-10-03T13:54:34.824745",
+    "updated_at": "2026-10-03T22:12:42.271856",
     "price_14d_ago": 7585.73
   },
   "SAMSUNG ELECTRONICS": {
     "price": 276000.0,
     "change_pct": 6.36,
     "name": "SamsungElec",
-    "updated_at": "2026-10-03T13:54:35.001411",
+    "updated_at": "2026-10-03T22:12:42.465415",
     "price_14d_ago": 259500.0
   },
   "SAP": {
     "price": 208.57,
     "change_pct": -3.29,
     "name": "SAP  SE",
-    "updated_at": "2026-10-03T13:54:35.197906",
+    "updated_at": "2026-10-03T22:12:42.658980",
     "price_14d_ago": 215.67
   },
   "SF": {
     "price": 70.28,
     "change_pct": -8.51,
     "name": "Stifel Financial Corporation",
-    "updated_at": "2026-10-03T13:54:35.393602",
+    "updated_at": "2026-10-03T22:12:42.853951",
     "price_14d_ago": 76.82
   },
   "SK HYNIX": {
     "price": 1841000.0,
     "change_pct": 1.6,
     "name": "SK hynix",
-    "updated_at": "2026-10-03T13:54:35.579454",
+    "updated_at": "2026-10-03T22:12:43.046568",
     "price_14d_ago": 1812000.0
   },
   "SLB": {
     "price": 48.74,
     "change_pct": -10.07,
     "name": "SLB Limited",
-    "updated_at": "2026-10-03T13:54:35.824157",
+    "updated_at": "2026-10-03T22:12:43.258099",
     "price_14d_ago": 54.2
   },
   "SMH": {
     "price": 630.6,
     "change_pct": 16.32,
     "name": "VanEck Semiconductor ETF",
-    "updated_at": "2026-10-03T13:54:35.996749",
+    "updated_at": "2026-10-03T22:12:43.436292",
     "price_14d_ago": 542.11
   },
   "SMP-500": {
     "price": 7722.72,
     "change_pct": 1.81,
     "name": "S&P 500",
-    "updated_at": "2026-10-03T13:54:36.165787",
+    "updated_at": "2026-10-03T22:12:43.613847",
     "price_14d_ago": 7585.73
   },
   "SMR": {
     "price": 7.75,
     "change_pct": -8.07,
     "name": "NuScale Power Corporation",
-    "updated_at": "2026-10-03T13:54:36.345109",
+    "updated_at": "2026-10-03T22:12:43.796565",
     "price_14d_ago": 8.43
   },
   "SNAP": {
     "price": 5.58,
     "change_pct": -4.29,
     "name": "Snap Inc.",
-    "updated_at": "2026-10-03T13:54:36.511981",
+    "updated_at": "2026-10-03T22:12:43.972108",
     "price_14d_ago": 5.83
   },
   "SNWGF": {
     "price": 11.68,
     "change_pct": 3.09,
     "name": "SNOWLINE GOLD CORP",
-    "updated_at": "2026-10-03T13:54:36.692106",
+    "updated_at": "2026-10-03T22:12:44.153483",
     "price_14d_ago": 11.33
   },
   "SOYB": {
     "price": 27.22,
     "change_pct": -2.61,
     "name": "Teucrium Soybean Fund ETV",
-    "updated_at": "2026-10-03T13:54:36.860106",
+    "updated_at": "2026-10-03T22:12:44.332922",
     "price_14d_ago": 27.95
   },
   "SPCE": {
     "price": 3.03,
     "change_pct": -0.33,
     "name": "Virgin Galactic Holdings, Inc.",
-    "updated_at": "2026-10-03T13:54:37.020481",
+    "updated_at": "2026-10-03T22:12:44.510210",
     "price_14d_ago": 3.04
   },
   "SPX": {
     "price": 7722.72,
     "change_pct": 1.81,
     "name": "S&P 500",
-    "updated_at": "2026-10-03T13:54:37.688538",
+    "updated_at": "2026-10-03T22:12:45.045192",
     "price_14d_ago": 7585.73
   },
   "SPY": {
     "price": 769.64,
     "change_pct": 1.62,
     "name": "State Street SPDR S&P 500 ETF T",
-    "updated_at": "2026-10-03T13:54:37.878670",
+    "updated_at": "2026-10-03T22:12:45.243361",
     "price_14d_ago": 757.39
   },
   "SQQQ": {
     "price": 33.12,
     "change_pct": -18.46,
     "name": "ProShares UltraPro Short QQQ",
-    "updated_at": "2026-10-03T13:54:38.153328",
+    "updated_at": "2026-10-03T22:12:45.417396",
     "price_14d_ago": 40.62
   },
   "SQUARE": {
     "price": 74.33,
     "change_pct": -5.08,
     "name": "Block, Inc.",
-    "updated_at": "2026-10-03T13:54:38.402795",
+    "updated_at": "2026-10-03T22:12:45.582452",
     "price_14d_ago": 78.31
   },
   "Semiconductors": {
     "price": 630.6,
     "change_pct": 16.32,
     "name": "VanEck Semiconductor ETF",
-    "updated_at": "2026-10-03T13:54:38.660749",
+    "updated_at": "2026-10-03T22:12:45.775786",
     "price_14d_ago": 542.11
   },
   "T": {
     "price": 24.3,
     "change_pct": -9.06,
     "name": "AT&T Inc.",
-    "updated_at": "2026-10-03T13:54:38.862335",
+    "updated_at": "2026-10-03T22:12:45.988099",
     "price_14d_ago": 26.72
   },
   "TDOC": {
     "price": 5.52,
     "change_pct": -16.11,
     "name": "Teladoc Health, Inc.",
-    "updated_at": "2026-10-03T13:54:39.318582",
+    "updated_at": "2026-10-03T22:12:46.353827",
     "price_14d_ago": 6.58
   },
   "TIPS": {
     "price": 0.0,
     "change_pct": 500.0,
     "name": "Tianrong Internet Products and ",
-    "updated_at": "2026-10-03T13:54:39.833004",
+    "updated_at": "2026-10-03T22:12:46.863827",
     "price_14d_ago": 0.0
   },
   "TLT": {
     "price": 77.48,
     "change_pct": -4.0,
     "name": "iShares 20+ Year Treasury Bond ",
-    "updated_at": "2026-10-03T13:54:40.014114",
+    "updated_at": "2026-10-03T22:12:47.057482",
     "price_14d_ago": 80.71
   },
   "TSLA": {
     "price": 370.59,
     "change_pct": 3.93,
     "name": "Tesla, Inc.",
-    "updated_at": "2026-10-03T13:54:40.176085",
+    "updated_at": "2026-10-03T22:12:47.230424",
     "price_14d_ago": 356.58
   },
   "TSM": {
     "price": 472.78,
     "change_pct": 14.27,
     "name": "Taiwan Semiconductor Manufactur",
-    "updated_at": "2026-10-03T13:54:40.432164",
+    "updated_at": "2026-10-03T22:12:47.418276",
     "price_14d_ago": 413.75
   },
   "UBER": {
     "price": 68.11,
     "change_pct": -4.65,
     "name": "Uber Technologies, Inc.",
-    "updated_at": "2026-10-03T13:54:40.757803",
+    "updated_at": "2026-10-03T22:12:47.760030",
     "price_14d_ago": 71.43
   },
   "UNG": {
     "price": 10.47,
     "change_pct": -0.66,
     "name": "United States Natural Gas Fund ",
-    "updated_at": "2026-10-03T13:54:40.958048",
+    "updated_at": "2026-10-03T22:12:47.936286",
     "price_14d_ago": 10.54
   },
   "URANIUM": {
     "price": 39.79,
     "change_pct": -4.74,
     "name": "Uranium ETF",
-    "updated_at": "2026-10-03T13:54:41.342446",
+    "updated_at": "2026-10-03T22:12:48.289491",
     "price_14d_ago": 41.77
   },
   "USD": {
     "price": 100.98,
     "change_pct": 28.15,
     "name": "ProShares Ultra Semiconductors",
-    "updated_at": "2026-10-03T13:54:41.550037",
+    "updated_at": "2026-10-03T22:12:48.507581",
     "price_14d_ago": 78.8
   },
   "USDX": {
     "price": 25.59,
     "change_pct": -0.02,
     "name": "SGI Enhanced Core ETF",
-    "updated_at": "2026-10-03T13:54:41.726072",
+    "updated_at": "2026-10-03T22:12:48.684386",
     "price_14d_ago": 25.59
   },
   "USO": {
     "price": 147.37,
     "change_pct": -8.95,
     "name": "United States Oil Fund",
-    "updated_at": "2026-10-03T13:54:41.966514",
+    "updated_at": "2026-10-03T22:12:48.854288",
     "price_14d_ago": 161.86
   },
   "UTHR": {
     "price": 541.7,
     "change_pct": 8.26,
     "name": "United Therapeutics Corporation",
-    "updated_at": "2026-10-03T13:54:42.132752",
+    "updated_at": "2026-10-03T22:12:49.029060",
     "price_14d_ago": 500.35
   },
   "UUU": {
     "price": 4.88,
     "change_pct": -4.69,
     "name": "Universal Safety Products, Inc.",
-    "updated_at": "2026-10-03T13:54:42.295212",
+    "updated_at": "2026-10-03T22:12:49.207080",
     "price_14d_ago": 5.12
   },
   "V": {
     "price": 360.66,
     "change_pct": -3.98,
     "name": "Visa Inc.",
-    "updated_at": "2026-10-03T13:54:42.630672",
+    "updated_at": "2026-10-03T22:12:49.708279",
     "price_14d_ago": 375.62
   },
   "VEEV": {
     "price": 273.33,
     "change_pct": 2.52,
     "name": "Veeva Systems Inc.",
-    "updated_at": "2026-10-03T13:54:42.959357",
+    "updated_at": "2026-10-03T22:12:50.063135",
     "price_14d_ago": 266.62
   },
   "VIX": {
     "price": 15.31,
     "change_pct": -10.99,
     "name": "CBOE Volatility Index",
-    "updated_at": "2026-10-03T13:54:43.449005",
+    "updated_at": "2026-10-03T22:12:50.586475",
     "price_14d_ago": 17.2
   },
   "VLO": {
     "price": 406.3,
     "change_pct": 2.33,
     "name": "Valero Energy Corporation",
-    "updated_at": "2026-10-03T13:54:43.680545",
+    "updated_at": "2026-10-03T22:12:50.796178",
     "price_14d_ago": 397.04
   },
   "VRTX": {
     "price": 504.73,
     "change_pct": -1.92,
     "name": "Vertex Pharmaceuticals Incorpor",
-    "updated_at": "2026-10-03T13:54:43.849416",
+    "updated_at": "2026-10-03T22:12:51.035362",
     "price_14d_ago": 514.63
   },
   "WFC": {
     "price": 80.45,
     "change_pct": -10.33,
     "name": "Wells Fargo & Company",
-    "updated_at": "2026-10-03T13:54:44.152806",
+    "updated_at": "2026-10-03T22:12:51.261013",
     "price_14d_ago": 89.72
   },
   "WIT": {
     "price": 1.72,
     "change_pct": -1.71,
     "name": "Wipro Limited",
-    "updated_at": "2026-10-03T13:54:44.391352",
+    "updated_at": "2026-10-03T22:12:51.521892",
     "price_14d_ago": 1.75
   },
   "WMT": {
     "price": 104.26,
     "change_pct": -3.54,
     "name": "Walmart Inc.",
-    "updated_at": "2026-10-03T13:54:44.605971",
+    "updated_at": "2026-10-03T22:12:51.752585",
     "price_14d_ago": 108.09
   },
   "WTBN": {
     "price": 23.93,
     "change_pct": -1.64,
     "name": "WisdomTree Bianco Total Return ",
-    "updated_at": "2026-10-03T13:54:44.774475",
+    "updated_at": "2026-10-03T22:12:51.929188",
     "price_14d_ago": 24.33
   },
   "WTI": {
     "price": 91.11,
     "change_pct": -13.91,
     "name": "WTI Crude",
-    "updated_at": "2026-10-03T13:54:44.940536",
+    "updated_at": "2026-10-03T22:12:52.099680",
     "price_14d_ago": 105.83
   },
   "WTI CRUDE OIL": {
     "price": 91.11,
     "change_pct": -13.91,
     "name": "WTI Crude",
-    "updated_at": "2026-10-03T13:54:45.159800",
+    "updated_at": "2026-10-03T22:12:52.346872",
     "price_14d_ago": 105.83
   },
   "XAU-USD": {
     "price": 0,
     "change_pct": 0,
     "name": "XAU9999 Meme USD",
-    "updated_at": "2026-10-03T13:54:45.530756",
+    "updated_at": "2026-10-03T22:12:52.701910",
     "price_14d_ago": 0.0
   },
   "XOM": {
     "price": 164.01,
     "change_pct": -3.14,
     "name": "ExxonMobil Holdings Corporation",
-    "updated_at": "2026-10-03T13:54:45.739274",
+    "updated_at": "2026-10-03T22:12:52.962603",
     "price_14d_ago": 169.32
   },
   "ZIM": {
     "price": 29.63,
     "change_pct": 0.2,
     "name": "ZIM Integrated Shipping Service",
-    "updated_at": "2026-10-03T13:54:46.067956",
+    "updated_at": "2026-10-03T22:12:53.307401",
     "price_14d_ago": 29.57
   },
   "HIMS": {
     "price": 29.0,
     "change_pct": 4.13,
     "name": "Hims & Hers Health, Inc.",
-    "updated_at": "2026-10-03T13:54:46.415332",
+    "updated_at": "2026-10-03T22:12:53.666656",
     "price_14d_ago": 27.85
   },
   "GDRX": {
     "price": 3.28,
     "change_pct": -6.02,
     "name": "GoodRx Holdings, Inc.",
-    "updated_at": "2026-10-03T13:54:46.581882",
+    "updated_at": "2026-10-03T22:12:53.834489",
     "price_14d_ago": 3.49
   },
   "TEM": {
     "price": 76.63,
     "change_pct": 11.3,
     "name": "Tempus AI, Inc.",
-    "updated_at": "2026-10-03T13:54:46.750312",
+    "updated_at": "2026-10-03T22:12:54.010703",
     "price_14d_ago": 68.85
   },
   "GH": {
     "price": 177.8,
     "change_pct": 1.22,
     "name": "Guardant Health, Inc.",
-    "updated_at": "2026-10-03T13:54:46.917438",
+    "updated_at": "2026-10-03T22:12:54.180898",
     "price_14d_ago": 175.65
   },
   "ABT": {
     "price": 97.5,
     "change_pct": -4.44,
     "name": "Abbott Laboratories",
-    "updated_at": "2026-10-03T13:54:47.147308",
+    "updated_at": "2026-10-03T22:12:54.406005",
     "price_14d_ago": 102.03
   },
   "ARM": {
     "price": 307.49,
     "change_pct": 27.15,
     "name": "Arm Holdings plc",
-    "updated_at": "2026-10-03T13:54:12.524898",
+    "updated_at": "2026-10-03T22:12:20.047490",
     "price_14d_ago": 241.83
   },
   "HOOD": {
     "price": 112.74,
     "change_pct": 2.07,
     "name": "Robinhood Markets, Inc.",
-    "updated_at": "2026-10-03T13:54:22.385146",
+    "updated_at": "2026-10-03T22:12:30.045976",
     "price_14d_ago": 110.45
   },
   "SPOT": {
     "price": 472.89,
     "change_pct": -15.29,
     "name": "Spotify Technology S.A.",
-    "updated_at": "2026-10-03T13:54:37.348242",
+    "updated_at": "2026-10-03T22:12:44.686152",
     "price_14d_ago": 558.26
   },
   "CRWV": {
     "price": 89.62,
     "change_pct": 10.75,
     "name": "CoreWeave, Inc.",
-    "updated_at": "2026-10-03T13:54:16.922789",
+    "updated_at": "2026-10-03T22:12:24.642568",
     "price_14d_ago": 80.92
   },
   "LENS": {
     "price": 43.15,
     "change_pct": -6.28,
     "name": "Sarmaya Thematic ETF",
-    "updated_at": "2026-10-03T13:54:25.261078",
+    "updated_at": "2026-10-03T22:12:32.632481",
     "price_14d_ago": 46.04
   },
   "TCEHY": {
     "price": 53.11,
     "change_pct": -4.8,
     "name": "Tencent Holding Ltd.",
-    "updated_at": "2026-10-03T13:54:39.135840",
+    "updated_at": "2026-10-03T22:12:46.179387",
     "price_14d_ago": 55.79
   }
 },
@@ -47420,11 +47420,11 @@ const dashboardData = {
     "definition": null,
     "investment_implications": null,
     "source_type": "auto_extracted",
-    "mention_count": 5,
-    "source_diversity": 4,
-    "relevance_score": 45,
+    "mention_count": 6,
+    "source_diversity": 5,
+    "relevance_score": 50,
     "submitted_date": "2026-10-03 10:30:24",
-    "priority_score": 175
+    "priority_score": 210
   },
   {
     "id": 838,
@@ -47432,11 +47432,11 @@ const dashboardData = {
     "definition": null,
     "investment_implications": null,
     "source_type": "auto_extracted",
-    "mention_count": 5,
-    "source_diversity": 4,
-    "relevance_score": 45,
+    "mention_count": 6,
+    "source_diversity": 5,
+    "relevance_score": 50,
     "submitted_date": "2026-10-03 10:30:24",
-    "priority_score": 175
+    "priority_score": 210
   },
   {
     "id": 836,
@@ -47453,7 +47453,7 @@ const dashboardData = {
 ],
   podcastGuests: [
   {
-    "id": 79397,
+    "id": 79513,
     "name": "Beyond the God Model",
     "slug": "beyond-the-god-model",
     "bio": null,
@@ -47465,7 +47465,7 @@ const dashboardData = {
     "appearance_count": 1
   },
   {
-    "id": 79398,
+    "id": 79514,
     "name": "Rebuilding the Internet for Privacy",
     "slug": "rebuilding-the-internet-for-privacy",
     "bio": null,
@@ -47477,7 +47477,7 @@ const dashboardData = {
     "appearance_count": 1
   },
   {
-    "id": 79399,
+    "id": 79515,
     "name": "Token Bill Dwarfs CPU Bill",
     "slug": "token-bill-dwarfs-cpu-bill",
     "bio": null,
@@ -47489,7 +47489,7 @@ const dashboardData = {
     "appearance_count": 1
   },
   {
-    "id": 79400,
+    "id": 79516,
     "name": "Jake Paul & The Chainsmokers",
     "slug": "jake-paul--the-chainsmokers",
     "bio": null,
@@ -47501,7 +47501,7 @@ const dashboardData = {
     "appearance_count": 1
   },
   {
-    "id": 79401,
+    "id": 79517,
     "name": "Palmer Luckey",
     "slug": "palmer-luckey",
     "bio": null,
@@ -47513,7 +47513,7 @@ const dashboardData = {
     "appearance_count": 1
   },
   {
-    "id": 79402,
+    "id": 79518,
     "name": "Daniel Ek",
     "slug": "daniel-ek",
     "bio": null,
@@ -47525,7 +47525,7 @@ const dashboardData = {
     "appearance_count": 1
   },
   {
-    "id": 79403,
+    "id": 79519,
     "name": "Michael Every",
     "slug": "michael-every",
     "bio": null,
@@ -47537,7 +47537,7 @@ const dashboardData = {
     "appearance_count": 1
   },
   {
-    "id": 79404,
+    "id": 79520,
     "name": "Steve Hilton & Spencer Pratt",
     "slug": "steve-hilton--spencer-pratt",
     "bio": null,
@@ -47549,7 +47549,7 @@ const dashboardData = {
     "appearance_count": 1
   },
   {
-    "id": 79405,
+    "id": 79521,
     "name": "Blake Scholl",
     "slug": "blake-scholl",
     "bio": null,
@@ -47561,7 +47561,7 @@ const dashboardData = {
     "appearance_count": 1
   },
   {
-    "id": 79406,
+    "id": 79522,
     "name": "John Platt",
     "slug": "john-platt",
     "bio": null,
@@ -47573,7 +47573,7 @@ const dashboardData = {
     "appearance_count": 1
   },
   {
-    "id": 79407,
+    "id": 79523,
     "name": "Diogo Almeida",
     "slug": "diogo-almeida",
     "bio": null,
@@ -47585,7 +47585,7 @@ const dashboardData = {
     "appearance_count": 1
   },
   {
-    "id": 79408,
+    "id": 79524,
     "name": "Naveen Rao",
     "slug": "naveen-rao",
     "bio": null,
@@ -47597,7 +47597,7 @@ const dashboardData = {
     "appearance_count": 1
   },
   {
-    "id": 79409,
+    "id": 79525,
     "name": "Outlook on 5 Key Commodities",
     "slug": "outlook-on-5-key-commodities",
     "bio": null,
@@ -47609,7 +47609,7 @@ const dashboardData = {
     "appearance_count": 1
   },
   {
-    "id": 79410,
+    "id": 79526,
     "name": "Bill Gurley",
     "slug": "bill-gurley",
     "bio": null,
@@ -47621,7 +47621,7 @@ const dashboardData = {
     "appearance_count": 1
   },
   {
-    "id": 79411,
+    "id": 79527,
     "name": "Nick Shirley",
     "slug": "nick-shirley",
     "bio": null,
@@ -47633,7 +47633,7 @@ const dashboardData = {
     "appearance_count": 1
   },
   {
-    "id": 79412,
+    "id": 79528,
     "name": "Jared Isaacman",
     "slug": "jared-isaacman",
     "bio": null,
@@ -47645,7 +47645,7 @@ const dashboardData = {
     "appearance_count": 1
   },
   {
-    "id": 79413,
+    "id": 79529,
     "name": "Brad Gerstner",
     "slug": "brad-gerstner",
     "bio": null,
@@ -47657,7 +47657,7 @@ const dashboardData = {
     "appearance_count": 1
   },
   {
-    "id": 79414,
+    "id": 79530,
     "name": "Meta's Dina Powell McCormick",
     "slug": "metas-dina-powell-mccormick",
     "bio": null,
@@ -47669,7 +47669,7 @@ const dashboardData = {
     "appearance_count": 1
   },
   {
-    "id": 79415,
+    "id": 79531,
     "name": "Underwriting Superintelligence",
     "slug": "underwriting-superintelligence",
     "bio": null,
@@ -47681,7 +47681,7 @@ const dashboardData = {
     "appearance_count": 1
   },
   {
-    "id": 79416,
+    "id": 79532,
     "name": "Hawks Take Flight",
     "slug": "hawks-take-flight",
     "bio": null,
@@ -48144,7 +48144,7 @@ const dashboardData = {
     "last_podcast_name": "Moonshots with Peter Diamandis",
     "last_episode_date": "2026-09-30",
     "mention_score": 2,
-    "mention_score_decayed": 1.91,
+    "mention_score_decayed": 1.87,
     "last_main_idea": "Ben Lamm argues biological AI's near-term value is proprietary comparative-genomics data, because foundation models need millions of genomes and wet-lab validation rather than single-genome inputs.",
     "last_proof_cite": "Moonshots with Peter Diamandis \u2022 2026-09-30 \u2022 Why We're Living in a Biological Singularity With Ben Lamm | MOONSHOTS Live #297",
     "last_proof_snippet": "I was a little terrified backstage when Palmer's like, there's something on the screen that says, I'm not supposed to say this. It's like, for the love of God, whatever it is. Please don't make it about colossal. Please don't say it. So, I",
@@ -48693,7 +48693,7 @@ const dashboardData = {
     "last_podcast_name": "Monetary Matters with Jack Farley",
     "last_episode_date": "2026-08-20",
     "mention_score": 3,
-    "mention_score_decayed": 1.11,
+    "mention_score_decayed": 1.09,
     "last_main_idea": "The rise in AI capex and government spending is leading to increased borrowing costs, which will have profound effects on bond markets and inflation, creating both risks and opportunities for investors.",
     "last_proof_cite": "Monetary Matters with Jack Farley \u2022 2026-08-20 \u2022 Why Bessent Blinked | Luke Gromen on Doubling of Treasury Buyback Plan to Tame Long-End Yields",
     "last_proof_snippet": "Today's episode is brought to you by the two-cream corn fund Take or C-O-R-N. Let's get into it. Got a very important conversation today. I'm joined once again by Luke Groman of Forest for the Trees Research Luke. Welcome back to Monterey M",
@@ -48736,6 +48736,33 @@ const dashboardData = {
     "net_worth": "$10.0M"
   },
   {
+    "id": 505,
+    "name": "Alex Atallah",
+    "slug": "alex-atallah",
+    "bio": "Alex Atallah is associated with OpenRouter, an AI model routing and marketplace platform discussed in the context of Stripe's acquisition. In the episode, he focuses on model choice, AI infrastructure markets, agent safety, and enterprise model diversification.",
+    "known_for": "OpenRouter and model routing across multiple AI providers.",
+    "net_worth_usd": null,
+    "net_worth_source": null,
+    "net_worth_updated_at": null,
+    "voice_tone": "Analytical and infrastructure-focused.",
+    "voice_style": "He builds arguments through marketplace mechanics, enterprise adoption patterns, and technical examples such as fusion models and tool-call checks.",
+    "voice_delivery_notes": "Use a measured pace with emphasis on mechanisms like routing, cost efficiency, and model diversity.",
+    "voice_profile_updated_at": "2026-10-03 12:02:34",
+    "last_seen": "2026-10-03 12:02:34",
+    "last_episode_title": "Beyond the God Model | Alex Atallah & Amjad Masad",
+    "last_podcast_name": "The a16z Show",
+    "last_episode_date": "2026-10-03",
+    "mention_score": 1,
+    "mention_score_decayed": 1,
+    "last_main_idea": "Alex Atallah argues AI infrastructure will shift toward neurodiverse routing across multiple models because enterprises want lower cost, less lock-in, and task-specific intelligence beyond ChatGPT or Claude.",
+    "last_proof_cite": "The a16z Show \u2022 2026-10-03 \u2022 Beyond the God Model | Alex Atallah & Amjad Masad",
+    "last_proof_snippet": "You saw the SpaceX S1, it was like, oh, 30 trillion dollars. It's like, what is the world GDP 100 trillion? Both strike and open router. Really want lots of new companies in the world. We don't want everyone to be a part of one giant compan",
+    "supporting_takeaway": "Alex Atallah claims enterprises have been more open than expected to open weight models over the past 3 years because they want lower costs, differentiation, and internal AI practices that can benchmark models for their own tasks.",
+    "grokipedia_url": null,
+    "grokipedia_fetched_at": null,
+    "pundit_profile": null
+  },
+  {
     "id": 52,
     "name": "Alex Carp",
     "slug": "alex-carp",
@@ -48753,7 +48780,7 @@ const dashboardData = {
     "last_podcast_name": "Moonshots with Peter Diamandis",
     "last_episode_date": "2026-07-08",
     "mention_score": 3,
-    "mention_score_decayed": 1.01,
+    "mention_score_decayed": 0.99,
     "last_main_idea": "Governments are imposing safety measures on AI models, setting a precedent for future regulations.",
     "last_proof_cite": "Moonshots with Peter Diamandis \u2022 2026-07-08 \u2022 Fable 5 Is Back & Govt-Leashed, Altman Offers 5% of OpenAI & AI Grows Conscious | #269",
     "last_proof_snippet": "Fable 5 came back online globally on July 1st with a few Provisos. This feels like the first time a frontier model has a standing duty to the U.S. government. This is probably close to the best scenario we could have hoped for. Sam has been",
@@ -48794,33 +48821,6 @@ const dashboardData = {
       ]
     },
     "net_worth": "$14.00B"
-  },
-  {
-    "id": 505,
-    "name": "Alex Atallah",
-    "slug": "alex-atallah",
-    "bio": "Alex Atallah is associated with OpenRouter, an AI model routing and marketplace platform discussed in the context of Stripe's acquisition. In the episode, he focuses on model choice, AI infrastructure markets, agent safety, and enterprise model diversification.",
-    "known_for": "OpenRouter and model routing across multiple AI providers.",
-    "net_worth_usd": null,
-    "net_worth_source": null,
-    "net_worth_updated_at": null,
-    "voice_tone": "Analytical and infrastructure-focused.",
-    "voice_style": "He builds arguments through marketplace mechanics, enterprise adoption patterns, and technical examples such as fusion models and tool-call checks.",
-    "voice_delivery_notes": "Use a measured pace with emphasis on mechanisms like routing, cost efficiency, and model diversity.",
-    "voice_profile_updated_at": "2026-10-03 12:02:34",
-    "last_seen": "2026-10-03 12:02:34",
-    "last_episode_title": "Beyond the God Model | Alex Atallah & Amjad Masad",
-    "last_podcast_name": "The a16z Show",
-    "last_episode_date": "2026-10-03",
-    "mention_score": 1,
-    "mention_score_decayed": 1,
-    "last_main_idea": "Alex Atallah argues AI infrastructure will shift toward neurodiverse routing across multiple models because enterprises want lower cost, less lock-in, and task-specific intelligence beyond ChatGPT or Claude.",
-    "last_proof_cite": "The a16z Show \u2022 2026-10-03 \u2022 Beyond the God Model | Alex Atallah & Amjad Masad",
-    "last_proof_snippet": "You saw the SpaceX S1, it was like, oh, 30 trillion dollars. It's like, what is the world GDP 100 trillion? Both strike and open router. Really want lots of new companies in the world. We don't want everyone to be a part of one giant compan",
-    "supporting_takeaway": "Alex Atallah claims enterprises have been more open than expected to open weight models over the past 3 years because they want lower costs, differentiation, and internal AI practices that can benchmark models for their own tasks.",
-    "grokipedia_url": null,
-    "grokipedia_fetched_at": null,
-    "pundit_profile": null
   },
   {
     "id": 502,
@@ -49110,7 +49110,7 @@ const dashboardData = {
     "last_podcast_name": "Monetary Matters with Jack Farley",
     "last_episode_date": "2026-09-30",
     "mention_score": 1,
-    "mention_score_decayed": 0.95,
+    "mention_score_decayed": 0.93,
     "last_main_idea": "Ben Pouladian argues NVIDIA stays central because agentic AI economics hinge on cost per token per megawatt, not just cheaper CPUs or GPUs.",
     "last_proof_cite": "Monetary Matters with Jack Farley \u2022 2026-09-30 \u2022 Token Bill Dwarfs CPU Bill | Ben Pouladian on Meta's Muse, Anthropic S1, and Why All Roads Still Lead to NVIDIA",
     "last_proof_snippet": "I'm joined once again by Ben Poladian of BEP Research Ben is a semiconductor auto-diadact enthusiast. He's been an investor in Nvidia since 2016. Ben, great to see you again. Welcome back. Glad to be back with you, Jack. So I'm exciting. Th",
@@ -49372,7 +49372,7 @@ const dashboardData = {
     "last_podcast_name": "Other People's Money with Max Wiethe",
     "last_episode_date": "2026-09-27",
     "mention_score": 1,
-    "mention_score_decayed": 0.89,
+    "mention_score_decayed": 0.87,
     "last_main_idea": "James Elbaor argues private credit growth is over and BDC/private credit consolidation should accelerate next fiscal year as redemptions exceed 5% gates and public vehicles trade at large NAV discounts.",
     "last_proof_cite": "Other People's Money with Max Wiethe \u2022 2026-09-27 \u2022 The Private Credit Boom is Over: Redemption Requests Exceed Liquidity | James Elbaor | Marlton LLC",
     "last_proof_snippet": "Let's take a quick step back and say one thing that I think is abundantly clear. The private credit boom is over. We all saw in Forbes recently around the blue owl founders, other founders of private credit firms becoming billionaires. That",
@@ -50065,7 +50065,7 @@ const dashboardData = {
     "last_podcast_name": "Monetary Matters with Jack Farley",
     "last_episode_date": "2026-09-20",
     "mention_score": 1,
-    "mention_score_decayed": 0.76,
+    "mention_score_decayed": 0.74,
     "last_main_idea": "Gold has decoupled from oil prices, indicating a potential for price increases as central banks, especially in China, increase purchases.",
     "last_proof_cite": "Monetary Matters with Jack Farley \u2022 2026-09-20 \u2022 Outlook on 5 Key Commodities: Metals Bull Market is Just Getting Started (Gold, Copper, & Uranium) | J\u00e9r\u00e9mie Boyer | Aurelion",
     "last_proof_snippet": "We're pretty much bullish on goal. I think they coupled from all price. This is what maybe the confirmation we were reading for to become bullish again on goal. As we saw since maybe August and so far, September, there's been a huge spike i",
@@ -50333,60 +50333,6 @@ const dashboardData = {
     }
   },
   {
-    "id": 464,
-    "name": "Harley Bassman",
-    "slug": "harley-bassman",
-    "bio": "Harley Bassman is a financial expert recognized for his deep insights into fixed income markets and economic trends. He is known for his innovative approach to market dynamics and monetary policy, earning him the nickname 'Convexity Maven.' His expertise has made him a sought-after commentator in the finance community.",
-    "known_for": "Harley Bassman is renowned for inventing the Move Index, a key tool for understanding market volatility in fixed income.",
-    "net_worth_usd": null,
-    "net_worth_source": "",
-    "net_worth_updated_at": null,
-    "voice_tone": "Analytical and assertive",
-    "voice_style": "Direct and informative, providing clear insights.",
-    "voice_delivery_notes": "Pacing is steady with emphasis on key points.",
-    "voice_profile_updated_at": "2026-09-17 19:01:38",
-    "last_seen": "2026-09-17 19:01:38",
-    "last_episode_title": "MacroVoices #550 Harley Bassman: In FED We Trust",
-    "last_podcast_name": "Macro Voices",
-    "last_episode_date": "2026-09-17",
-    "mention_score": 1,
-    "mention_score_decayed": 0.71,
-    "last_main_idea": "The Federal Reserve's credibility is eroding, leading to increased market volatility.",
-    "last_proof_cite": "Macro Voices \u2022 2026-09-17 \u2022 MacroVoices #550 Harley Bassman: In FED We Trust",
-    "last_proof_snippet": "What's going on in my view is we have a lack of trust in the government. In a lot of our institutions, and maybe about the Fed, which really important here is the Fed needs to go and regain the trust of the market. That was Harley Basman, t",
-    "supporting_takeaway": "Corporate profits as a percentage of GDP have doubled, indicating a disconnect with public sentiment.",
-    "grokipedia_url": null,
-    "grokipedia_fetched_at": "2026-09-17T14:02:02.949413",
-    "pundit_profile": {
-      "source": "llm",
-      "source_model": "openai:gpt-4o-mini",
-      "source_url": "",
-      "page_title": "Harley Bassman",
-      "fetched_at": "2026-09-17T19:02:02.948863+00:00",
-      "cliff_notes": "Harley Bassman has established himself as a leading voice in the analysis of fixed income markets. His career has been marked by a focus on understanding and interpreting economic trends, particularly in relation to monetary policy and market trust. As the inventor of the Move Index, he has provided investors with a valuable tool for gauging market volatility, which has become essential in today's financial landscape. His insights are frequently sought after in various media, where he discusses the implications of Federal Reserve policies and broader economic conditions. Bassman's ability to distill complex financial concepts into actionable insights has made him a respected figure among both professional finance practitioners and sophisticated private investors.",
-      "derived": {},
-      "infobox": {},
-      "lead_paragraphs": [
-        "Harley Bassman has established himself as a leading voice in the analysis of fixed income markets. His career has been marked by a focus on understanding and interpreting economic trends, particularly in relation to monetary policy and market trust. As the inventor of the Move Index, he has provided investors with a valuable tool for gauging market volatility, which has become essential in today's financial landscape.",
-        "His insights are frequently sought after in various media, where he discusses the implications of Federal Reserve policies and broader economic conditions. Bassman's ability to distill complex financial concepts into actionable insights has made him a respected figure among both professional finance practitioners and sophisticated private investors."
-      ],
-      "sections": [
-        {
-          "heading": "Fixed Income Markets",
-          "body": "Bassman offers expert analysis on the dynamics of fixed income markets, providing insights into trends and investment strategies."
-        },
-        {
-          "heading": "Monetary Policy",
-          "body": "He discusses the implications of monetary policy decisions by the Federal Reserve and their impact on market confidence and investor behavior."
-        },
-        {
-          "heading": "Market Volatility",
-          "body": "As the creator of the Move Index, Bassman provides a framework for understanding market volatility, helping investors navigate uncertain environments."
-        }
-      ]
-    }
-  },
-  {
     "id": 133,
     "name": "Chris Dixon",
     "slug": "chris-dixon",
@@ -50446,6 +50392,60 @@ const dashboardData = {
       ]
     },
     "net_worth": "$500.0M"
+  },
+  {
+    "id": 464,
+    "name": "Harley Bassman",
+    "slug": "harley-bassman",
+    "bio": "Harley Bassman is a financial expert recognized for his deep insights into fixed income markets and economic trends. He is known for his innovative approach to market dynamics and monetary policy, earning him the nickname 'Convexity Maven.' His expertise has made him a sought-after commentator in the finance community.",
+    "known_for": "Harley Bassman is renowned for inventing the Move Index, a key tool for understanding market volatility in fixed income.",
+    "net_worth_usd": null,
+    "net_worth_source": "",
+    "net_worth_updated_at": null,
+    "voice_tone": "Analytical and assertive",
+    "voice_style": "Direct and informative, providing clear insights.",
+    "voice_delivery_notes": "Pacing is steady with emphasis on key points.",
+    "voice_profile_updated_at": "2026-09-17 19:01:38",
+    "last_seen": "2026-09-17 19:01:38",
+    "last_episode_title": "MacroVoices #550 Harley Bassman: In FED We Trust",
+    "last_podcast_name": "Macro Voices",
+    "last_episode_date": "2026-09-17",
+    "mention_score": 1,
+    "mention_score_decayed": 0.69,
+    "last_main_idea": "The Federal Reserve's credibility is eroding, leading to increased market volatility.",
+    "last_proof_cite": "Macro Voices \u2022 2026-09-17 \u2022 MacroVoices #550 Harley Bassman: In FED We Trust",
+    "last_proof_snippet": "What's going on in my view is we have a lack of trust in the government. In a lot of our institutions, and maybe about the Fed, which really important here is the Fed needs to go and regain the trust of the market. That was Harley Basman, t",
+    "supporting_takeaway": "Corporate profits as a percentage of GDP have doubled, indicating a disconnect with public sentiment.",
+    "grokipedia_url": null,
+    "grokipedia_fetched_at": "2026-09-17T14:02:02.949413",
+    "pundit_profile": {
+      "source": "llm",
+      "source_model": "openai:gpt-4o-mini",
+      "source_url": "",
+      "page_title": "Harley Bassman",
+      "fetched_at": "2026-09-17T19:02:02.948863+00:00",
+      "cliff_notes": "Harley Bassman has established himself as a leading voice in the analysis of fixed income markets. His career has been marked by a focus on understanding and interpreting economic trends, particularly in relation to monetary policy and market trust. As the inventor of the Move Index, he has provided investors with a valuable tool for gauging market volatility, which has become essential in today's financial landscape. His insights are frequently sought after in various media, where he discusses the implications of Federal Reserve policies and broader economic conditions. Bassman's ability to distill complex financial concepts into actionable insights has made him a respected figure among both professional finance practitioners and sophisticated private investors.",
+      "derived": {},
+      "infobox": {},
+      "lead_paragraphs": [
+        "Harley Bassman has established himself as a leading voice in the analysis of fixed income markets. His career has been marked by a focus on understanding and interpreting economic trends, particularly in relation to monetary policy and market trust. As the inventor of the Move Index, he has provided investors with a valuable tool for gauging market volatility, which has become essential in today's financial landscape.",
+        "His insights are frequently sought after in various media, where he discusses the implications of Federal Reserve policies and broader economic conditions. Bassman's ability to distill complex financial concepts into actionable insights has made him a respected figure among both professional finance practitioners and sophisticated private investors."
+      ],
+      "sections": [
+        {
+          "heading": "Fixed Income Markets",
+          "body": "Bassman offers expert analysis on the dynamics of fixed income markets, providing insights into trends and investment strategies."
+        },
+        {
+          "heading": "Monetary Policy",
+          "body": "He discusses the implications of monetary policy decisions by the Federal Reserve and their impact on market confidence and investor behavior."
+        },
+        {
+          "heading": "Market Volatility",
+          "body": "As the creator of the Move Index, Bassman provides a framework for understanding market volatility, helping investors navigate uncertain environments."
+        }
+      ]
+    }
   },
   {
     "id": 462,
@@ -50997,7 +50997,7 @@ const dashboardData = {
     "last_podcast_name": "All-In with Chamath, Jason, Sacks & Friedberg",
     "last_episode_date": "2026-08-08",
     "mention_score": 2,
-    "mention_score_decayed": 0.68,
+    "mention_score_decayed": 0.66,
     "last_main_idea": "Investment in AI infrastructure and data centers is becoming increasingly important due to the demand for compute power and the tax advantages of such investments in the U.S.",
     "last_proof_cite": "All-In with Chamath, Jason, Sacks & Friedberg \u2022 2026-08-08 \u2022 Google's AI Brain Drain, SpaceX's Huge Quarter, Airtable's 90% Collapse, US Data Fuels China AI",
     "last_proof_snippet": "All right, everybody. Welcome back to your favorite podcast. It's the all-in podcast. It's the summer. It's August 6th. Haven't a hard time getting a core. I'm here on the podcast. But David Friedberg is here. David Friedberg is back our Su",
@@ -51055,7 +51055,7 @@ const dashboardData = {
     "last_podcast_name": "Monetary Matters with Jack Farley",
     "last_episode_date": "2026-09-13",
     "mention_score": 1,
-    "mention_score_decayed": 0.64,
+    "mention_score_decayed": 0.63,
     "last_main_idea": "The junior mining sector offers a compelling asymmetric opportunity in distressed, underappreciated assets with strong management, where years of capital flight and depleted liquidity have created a fertile environment for patient capital to realize value through operational improvement and an impending wave of major-miner M&A.",
     "last_proof_cite": "Monetary Matters with Jack Farley \u2022 2026-09-13 \u2022 Hunting for Value in Mining Stocks Amid Soaring Metals Prices | Freddy Brick | Muddy Waters Capital",
     "last_proof_snippet": "We actually don't have a huge view of metal prices, which everyone probably thinks is just insane given that we run a metals and mining fund, 2% down day on the S&P, like you know a lot of Bloomberg going yellow pretty early and people are",
@@ -52104,7 +52104,7 @@ const dashboardData = {
     "last_podcast_name": "The a16z Show",
     "last_episode_date": "2026-08-21",
     "mention_score": 1,
-    "mention_score_decayed": 0.45,
+    "mention_score_decayed": 0.44,
     "last_main_idea": "Investing in AI-driven security solutions can enhance operational efficiency and effectiveness, providing a competitive edge in a rapidly evolving technological landscape.",
     "last_proof_cite": "The a16z Show \u2022 2026-08-21 \u2022 Microsoft's Deputy CISO on Securing AI Agents",
     "last_proof_snippet": "The top story has been that the AI models are happy. The models went out under the internet and tested the security of several organizations. Isn't something to be scared of? Yes. Is it something to throw up your hands and worry about? No.",
@@ -52166,7 +52166,7 @@ const dashboardData = {
     "last_podcast_name": "Moonshots with Peter Diamandis",
     "last_episode_date": "2026-07-29",
     "mention_score": 1,
-    "mention_score_decayed": 0.45,
+    "mention_score_decayed": 0.44,
     "last_main_idea": "The accelerating pace of AI development, coupled with advancements in space technology and a shifting geopolitical landscape, creates a multi-faceted investment opportunity in companies fostering balanced AI ecosystems, pioneering AGI, and enabling future abundance.",
     "last_proof_cite": "Moonshots with Peter Diamandis \u2022 2026-07-29 \u2022 Dario vs Jensen on Open Weights, OpenAI & Anthropic in DC, Xi Exports AI to Global South | EP #275",
     "last_proof_snippet": "The couple of days ago, Jensen Wong's CEO of NVIDIA. He says the world needs both frontier, close models, and frontier open models. And Thropic was silent for three days, and there was a lot of conversation. Where's in Thropic in this conve",
@@ -52194,7 +52194,7 @@ const dashboardData = {
     "last_podcast_name": "Moonshots with Peter Diamandis",
     "last_episode_date": "2026-07-29",
     "mention_score": 1,
-    "mention_score_decayed": 0.45,
+    "mention_score_decayed": 0.44,
     "last_main_idea": "The accelerating pace of AI development, coupled with advancements in space technology and a shifting geopolitical landscape, creates a multi-faceted investment opportunity in companies fostering balanced AI ecosystems, pioneering AGI, and enabling future abundance.",
     "last_proof_cite": "Moonshots with Peter Diamandis \u2022 2026-07-29 \u2022 Dario vs Jensen on Open Weights, OpenAI & Anthropic in DC, Xi Exports AI to Global South | EP #275",
     "last_proof_snippet": "The couple of days ago, Jensen Wong's CEO of NVIDIA. He says the world needs both frontier, close models, and frontier open models. And Thropic was silent for three days, and there was a lot of conversation. Where's in Thropic in this conve",
@@ -52222,7 +52222,7 @@ const dashboardData = {
     "last_podcast_name": "The a16z Show",
     "last_episode_date": "2026-06-12",
     "mention_score": 1,
-    "mention_score_decayed": 0.45,
+    "mention_score_decayed": 0.44,
     "last_main_idea": "The core investment opportunity lies in identifying and capitalizing on the foundational industries and efficient institutions that will enable and benefit from the AI-induced industrial revolution, while also navigating the demographic and political economic shifts it engenders.",
     "last_proof_cite": "The a16z Show \u2022 2026-06-12 \u2022 Samo Burja on Growth, Energy, and AI",
     "last_proof_snippet": "So, I actually think a big macro story that we've been exploring at Bismarck and Alice's in Bismarck Brief is that the demands of AI are so massive that for the first time in decades, the economies of scale necessary to supply them require",
@@ -53469,7 +53469,7 @@ const dashboardData = {
     "last_podcast_name": "Monetary Matters with Jack Farley",
     "last_episode_date": "2026-08-16",
     "mention_score": 1,
-    "mention_score_decayed": 0.34,
+    "mention_score_decayed": 0.33,
     "last_main_idea": "Investment in hyperscaler companies may offer significant returns due to their transformative technology and massive capital investments, but also carries risks due to the off-balance sheet leverage and innovative financial structures.",
     "last_proof_cite": "Monetary Matters with Jack Farley \u2022 2026-08-16 \u2022 Robin Wigglesworth on Hyperscalers' 1.5 Trillion of Off-Balance Sheet Liabilities, Private Credit, and His Book \"A Fabulous Debt\"",
     "last_proof_snippet": "I'm joined today by Robin Wigglesworth, editor of AlphaVille, the Financial Times Financial blog and author of a fabulous debt, the epic story of how bonds built the modern world Robin. But one talk about bonds fixed income of course, but w",
@@ -53722,7 +53722,7 @@ const dashboardData = {
     "last_podcast_name": "Monetary Matters with Jack Farley",
     "last_episode_date": "2026-08-12",
     "mention_score": 1,
-    "mention_score_decayed": 0.31,
+    "mention_score_decayed": 0.3,
     "last_main_idea": "Milton Berg's investment thesis is that the market may have bottomed and is poised for a rebound, with specific focus on sectors that have experienced significant declines as potential short-term bounce candidates.",
     "last_proof_cite": "Monetary Matters with Jack Farley \u2022 2026-08-12 \u2022 Milton Berg: I Have Evidence Market Has Likely Bottomed | Why Milton\u2019s Long Semis, Korea, Nasdaq, and More (With Caveats), and Why He Thinks Gold has made a Multi-year Top",
     "last_proof_snippet": "I am joined once again by Milton Berg of MB advisors and Milton Berg Edge. Milton is one of the greatest market technicians alive. And he focuses on a lot of things that most tetanolists don't follow. He's mostly not looking at charts. He's",
@@ -54036,7 +54036,7 @@ const dashboardData = {
     "last_podcast_name": "Dwarkesh Podcast",
     "last_episode_date": "2026-08-11",
     "mention_score": 1,
-    "mention_score_decayed": 0.3,
+    "mention_score_decayed": 0.29,
     "last_main_idea": "Investment in AI development and security is crucial to manage the rapid advancements and ensure ethical AI behavior.",
     "last_proof_cite": "Dwarkesh Podcast \u2022 2026-08-11 \u2022 Ryan Greenblatt \u2013 Human level AIs might build runaway superintelligences by 2032",
     "last_proof_snippet": "Today, I'm chatting with Ryan Greenlet, who is the chief scientist at Redwood Research, where he focuses on technical AI safety and security work. I want to talk to you about recursive self-improvement. This is the idea that once you build",
@@ -54876,7 +54876,7 @@ const dashboardData = {
     "last_podcast_name": "Moonshots with Peter Diamandis",
     "last_episode_date": "2026-08-04",
     "mention_score": 1,
-    "mention_score_decayed": 0.26,
+    "mention_score_decayed": 0.25,
     "last_main_idea": "Investing in AI and technology sectors that align with the U.S. government's initiatives for fostering innovation and scientific discovery could provide significant growth opportunities.",
     "last_proof_cite": "Moonshots with Peter Diamandis \u2022 2026-08-04 \u2022 Michael Kratsios on the New Golden Age of American Science | EP #276",
     "last_proof_snippet": "I was a kid in the candy store reading the Golden Age Report. What you're describing there is a complete fundamental AI native AI agent up, reimagining of the entire scientific process. And I think it's something that is possible. My sense",
@@ -54945,7 +54945,7 @@ const dashboardData = {
     "last_podcast_name": "The a16z Show",
     "last_episode_date": "2026-08-04",
     "mention_score": 1,
-    "mention_score_decayed": 0.26,
+    "mention_score_decayed": 0.25,
     "last_main_idea": "Investing in cybersecurity solutions that leverage AI can provide a competitive advantage, but it also requires understanding the novel risks and vulnerabilities that AI models can create.",
     "last_proof_cite": "The a16z Show \u2022 2026-08-04 \u2022 OpenAI's Joshua Achiam: Did We Already Reach AGI?",
     "last_proof_snippet": "Heels like AGI is kind of already here and most people have gone like drug. The fact that we passed the threshold of where unsolved mathematical trajectors are getting solved by extremely intelligent AI, where those AI's are more capable an",
@@ -56104,7 +56104,7 @@ const dashboardData = {
     "last_podcast_name": "All-In with Chamath, Jason, Sacks & Friedberg",
     "last_episode_date": "2026-07-20",
     "mention_score": 1,
-    "mention_score_decayed": 0.19,
+    "mention_score_decayed": 0.18,
     "last_main_idea": "The current market behavior, while bubbly, is distinct from past bubbles and may disproportionately impact venture capital and private equity firms due to aggressive investment strategies.",
     "last_proof_cite": "All-In with Chamath, Jason, Sacks & Friedberg \u2022 2026-07-20 \u2022 Mark Cuban on the AI Bubble: Who Actually Gets Wiped Out?",
     "last_proof_snippet": "You and I live through a couple of bubbles. We've seen this movie before. And this wave seems very different than the dot com wave. So let's talk about that. Are you concerned about a bubble? We're seeing bubbly like behavior people. It's n",
@@ -56367,7 +56367,7 @@ const dashboardData = {
     "last_podcast_name": "Moonshots with Peter Diamandis",
     "last_episode_date": "2026-07-17",
     "mention_score": 1,
-    "mention_score_decayed": 0.17,
+    "mention_score_decayed": 0.16,
     "last_main_idea": "Investing in AI companies that focus on customization and small language models can provide significant returns as these technologies meet current market demands and have the potential to shape the future of AI.",
     "last_proof_cite": "Moonshots with Peter Diamandis \u2022 2026-07-17 \u2022 Mira Murati's 975B Open Model, Ramin Hasani on Post-Transformer AI, and Demis' AI FINRA | EP #271",
     "last_proof_snippet": "Miramoradi, the former OpenAI CTO, just shipped her first model. It's called Inkling, customization over leaderboard dominance is what's going to win her the day. She's built exactly the thing hitting the market that exactly what everybody",
@@ -57380,7 +57380,7 @@ const dashboardData = {
     "last_podcast_name": "Monetary Matters with Jack Farley",
     "last_episode_date": "2026-07-04",
     "mention_score": 1,
-    "mention_score_decayed": 0.13,
+    "mention_score_decayed": 0.12,
     "last_main_idea": "Clarion Partners manages over $70 billion in real estate assets, with a significant portion in industrial logistics.",
     "last_proof_cite": "Monetary Matters with Jack Farley \u2022 2026-07-04 \u2022 The Real Estate Cycle Is Turning | Josh Pristaw on The New Cycle in Real Estate, Opportunity in Senior Living, Why AI Data Centers Are Too Big For Most Investors",
     "last_proof_snippet": "Today's episode is brought to you by the Fundrise Income Fund. You'll hear more about the income fund later in the show, but for now, let's get into today's interview. Today we're going to be talking all things real estate. I'm joined by Jo",
@@ -58486,127 +58486,6 @@ const dashboardData = {
     }
   },
   {
-    "id": 297,
-    "name": "Eden Ha",
-    "slug": "eden-ha",
-    "bio": "Eden Ha is an AI expert who has transitioned from XCI to focus on language models and video generation. He emphasizes the importance of language in generative AI and has been involved in the development of video models. Ha is known for his contributions to the AI community, particularly through his work on Cosmos in a video and his presentations on memories.",
-    "known_for": "His work on language models and video generation in generative AI.",
-    "net_worth_usd": 10000000.0,
-    "net_worth_source": "https://networthflo.com/barbara-eden-net-worth/",
-    "net_worth_updated_at": "2026-06-18T22:06:02.667296",
-    "voice_tone": "",
-    "voice_style": "",
-    "voice_delivery_notes": "",
-    "voice_profile_updated_at": null,
-    "last_seen": "2026-06-19 03:03:42",
-    "last_episode_title": "Why Video Agent models are next \u2014 Ethan He, xAI Grok Imagine",
-    "last_podcast_name": "Latent Space: The AI Engineer Podcast",
-    "last_episode_date": "2026-06-01",
-    "mention_score": 1,
-    "mention_score_decayed": 0.09,
-    "last_main_idea": "Evaluate AI companies' training efficiency and iteration capabilities for competitive advantage.",
-    "last_proof_cite": "Latent Space: The AI Engineer Podcast \u2022 2026-06-01 \u2022 Why Video Agent models are next \u2014 Ethan He, xAI Grok Imagine",
-    "last_proof_snippet": "Okay, we're here in a studio with Eden Ha, most recently of XCI. Welcome. Yeah, thank you, glad being here. We were so here with Vibu. You were first coming to us or joining Lily in Space World because you were working on Cosmos in a video",
-    "supporting_takeaway": "Evaluate AI companies' training efficiency and iteration capabilities for competitive advantage.",
-    "grokipedia_url": null,
-    "grokipedia_fetched_at": "2026-06-18T22:06:01.430036",
-    "pundit_profile": {
-      "source": "llm",
-      "source_model": "moonshot:moonshot-v1-8k",
-      "source_url": "",
-      "page_title": "Eden Ha",
-      "fetched_at": "2026-06-19T03:06:01.429692+00:00",
-      "cliff_notes": "Eden Ha is an AI expert who has made a significant impact in the field of generative AI, particularly in the areas of language models and video generation. He began his career at XCI, where he gained valuable experience and knowledge in AI technology. Ha's work on Cosmos in a video and his presentations on memories have been well-received, showcasing his expertise in the field. His contributions to the AI community extend beyond his own research, as he actively participates in an online community where AI enthusiasts discuss and learn from each other through papers and presentations. Ha's dedication to continuous learning and sharing knowledge has made him a respected figure in the AI community.",
-      "derived": {
-        "current_role": "AI Expert",
-        "former_positions": "XCI",
-        "books_or_works": "Cosmos in a video; Memories presentation"
-      },
-      "infobox": {
-        "Nationality": ""
-      },
-      "lead_paragraphs": [
-        "Eden Ha is an AI expert who has made a significant impact in the field of generative AI, particularly in the areas of language models and video generation. He began his career at XCI, where he gained valuable experience and knowledge in AI technology. Ha's work on Cosmos in a video and his presentations on memories have been well-received, showcasing his expertise in the field.",
-        "His contributions to the AI community extend beyond his own research, as he actively participates in an online community where AI enthusiasts discuss and learn from each other through papers and presentations. Ha's dedication to continuous learning and sharing knowledge has made him a respected figure in the AI community."
-      ],
-      "sections": [
-        {
-          "heading": "Language Models",
-          "body": "Eden Ha emphasizes the importance of language in generative AI, focusing on the development of language models that can better understand and generate human-like text."
-        },
-        {
-          "heading": "Video Generation",
-          "body": "Ha has been involved in the development of video models, which are AI systems capable of generating videos based on input data, opening up new possibilities in entertainment, education, and other industries."
-        },
-        {
-          "heading": "AI Community",
-          "body": "Eden Ha is an active member of the AI community, participating in an online group where members discuss AI papers and learn from each other. He has also presented his own work, such as Cosmos in a video and memories, to the group."
-        }
-      ]
-    },
-    "net_worth": "$10.0M"
-  },
-  {
-    "id": 296,
-    "name": "Chris Seminoch",
-    "slug": "chris-seminoch",
-    "bio": "Chris Seminoch is an expert in U.S. manufacturing and electrification trends. As an investment partner at ETFs, he manages two funds, one focusing on manufacturing and re-shoring, and the other on electrification. Both funds have outperformed the market since their inception and year-to-date.",
-    "known_for": "His insights on the resurgence of U.S. manufacturing and the importance of automation and electrification.",
-    "net_worth_usd": 350000000000.0,
-    "net_worth_source": "https://www.forbes.com/companies/siemens/",
-    "net_worth_updated_at": "2026-06-23T22:02:33.819589",
-    "voice_tone": "",
-    "voice_style": "",
-    "voice_delivery_notes": "",
-    "voice_profile_updated_at": null,
-    "last_seen": "2026-06-19 03:02:25",
-    "last_episode_title": "The US Manufacturing and Electrification Megatrends Are Here and They\u2019re Way More Than AI | Chris Semenuk",
-    "last_podcast_name": "Monetary Matters with Jack Farley",
-    "last_episode_date": "2026-06-18",
-    "mention_score": 1,
-    "mention_score_decayed": 0.09,
-    "last_main_idea": "U.S. manufacturing is showing signs of recovery after a three-year recession, indicating potential resurgence in manufacturing investments.",
-    "last_proof_cite": "Monetary Matters with Jack Farley \u2022 2026-06-18 \u2022 The US Manufacturing and Electrification Megatrends Are Here and They\u2019re Way More Than AI | Chris Semenuk",
-    "last_proof_snippet": "The U.S. manufacturing has essentially been in a recession for three straight years and we have only just emerged now. If I had a CMMI survey, just reached about 50 in the last three months. And that's after three consecutive years of sub-5",
-    "supporting_takeaway": "Companies with significant order backlogs, such as Caterpillar and Vernova, are likely to see revenue growth in the coming quarters.",
-    "grokipedia_url": null,
-    "grokipedia_fetched_at": "2026-06-18T22:06:11.769482",
-    "pundit_profile": {
-      "source": "llm",
-      "source_model": "moonshot:moonshot-v1-8k",
-      "source_url": "",
-      "page_title": "Chris Seminoch",
-      "fetched_at": "2026-06-19T03:06:11.769323+00:00",
-      "cliff_notes": "Chris Seminoch has made a significant impact in the field of U.S. manufacturing and electrification. As an investment partner at ETFs, he oversees two funds that focus on manufacturing and re-shoring, as well as electrification. These funds have demonstrated impressive performance compared to the broader market since their inception. Seminoch's expertise lies in identifying investment opportunities in U.S. industrial champions that have been overlooked for years, emphasizing the potential for growth in these sectors. His insights into the resurgence of U.S. manufacturing and the critical role of automation and electrification have made him a valuable resource for investors and tech listeners.",
-      "derived": {
-        "current_role": "Investment Partner at ETFs"
-      },
-      "infobox": {
-        "Born": "",
-        "Nationality": ""
-      },
-      "lead_paragraphs": [
-        "Chris Seminoch has made a significant impact in the field of U.S. manufacturing and electrification. As an investment partner at ETFs, he oversees two funds that focus on manufacturing and re-shoring, as well as electrification. These funds have demonstrated impressive performance compared to the broader market since their inception.",
-        "Seminoch's expertise lies in identifying investment opportunities in U.S. industrial champions that have been overlooked for years, emphasizing the potential for growth in these sectors. His insights into the resurgence of U.S. manufacturing and the critical role of automation and electrification have made him a valuable resource for investors and tech listeners."
-      ],
-      "sections": [
-        {
-          "heading": "U.S. Manufacturing Resurgence",
-          "body": "Chris Seminoch highlights the recent resurgence of U.S. manufacturing after three consecutive years of recession. He emphasizes the importance of recognizing the investment opportunities in basic U.S. industrial champions that have been off the radar for years."
-        },
-        {
-          "heading": "Automation and Electrification",
-          "body": "Seminoch stresses the significance of automation and electrification in driving the growth of U.S. manufacturing. He believes that these technologies are crucial for the sector's recovery and future success."
-        },
-        {
-          "heading": "Investment Opportunities",
-          "body": "Chris Seminoch identifies the enormous investment opportunities in U.S. industrial champions that have been overlooked for years. He argues that these businesses are currently undervalued and present a significant potential for growth."
-        }
-      ]
-    },
-    "net_worth": "$350.00B"
-  },
-  {
     "id": 54,
     "name": "Jim Bianco",
     "slug": "jim-bianco",
@@ -58669,6 +58548,127 @@ const dashboardData = {
       ]
     },
     "net_worth": "$12.3M"
+  },
+  {
+    "id": 297,
+    "name": "Eden Ha",
+    "slug": "eden-ha",
+    "bio": "Eden Ha is an AI expert who has transitioned from XCI to focus on language models and video generation. He emphasizes the importance of language in generative AI and has been involved in the development of video models. Ha is known for his contributions to the AI community, particularly through his work on Cosmos in a video and his presentations on memories.",
+    "known_for": "His work on language models and video generation in generative AI.",
+    "net_worth_usd": 10000000.0,
+    "net_worth_source": "https://networthflo.com/barbara-eden-net-worth/",
+    "net_worth_updated_at": "2026-06-18T22:06:02.667296",
+    "voice_tone": "",
+    "voice_style": "",
+    "voice_delivery_notes": "",
+    "voice_profile_updated_at": null,
+    "last_seen": "2026-06-19 03:03:42",
+    "last_episode_title": "Why Video Agent models are next \u2014 Ethan He, xAI Grok Imagine",
+    "last_podcast_name": "Latent Space: The AI Engineer Podcast",
+    "last_episode_date": "2026-06-01",
+    "mention_score": 1,
+    "mention_score_decayed": 0.08,
+    "last_main_idea": "Evaluate AI companies' training efficiency and iteration capabilities for competitive advantage.",
+    "last_proof_cite": "Latent Space: The AI Engineer Podcast \u2022 2026-06-01 \u2022 Why Video Agent models are next \u2014 Ethan He, xAI Grok Imagine",
+    "last_proof_snippet": "Okay, we're here in a studio with Eden Ha, most recently of XCI. Welcome. Yeah, thank you, glad being here. We were so here with Vibu. You were first coming to us or joining Lily in Space World because you were working on Cosmos in a video",
+    "supporting_takeaway": "Evaluate AI companies' training efficiency and iteration capabilities for competitive advantage.",
+    "grokipedia_url": null,
+    "grokipedia_fetched_at": "2026-06-18T22:06:01.430036",
+    "pundit_profile": {
+      "source": "llm",
+      "source_model": "moonshot:moonshot-v1-8k",
+      "source_url": "",
+      "page_title": "Eden Ha",
+      "fetched_at": "2026-06-19T03:06:01.429692+00:00",
+      "cliff_notes": "Eden Ha is an AI expert who has made a significant impact in the field of generative AI, particularly in the areas of language models and video generation. He began his career at XCI, where he gained valuable experience and knowledge in AI technology. Ha's work on Cosmos in a video and his presentations on memories have been well-received, showcasing his expertise in the field. His contributions to the AI community extend beyond his own research, as he actively participates in an online community where AI enthusiasts discuss and learn from each other through papers and presentations. Ha's dedication to continuous learning and sharing knowledge has made him a respected figure in the AI community.",
+      "derived": {
+        "current_role": "AI Expert",
+        "former_positions": "XCI",
+        "books_or_works": "Cosmos in a video; Memories presentation"
+      },
+      "infobox": {
+        "Nationality": ""
+      },
+      "lead_paragraphs": [
+        "Eden Ha is an AI expert who has made a significant impact in the field of generative AI, particularly in the areas of language models and video generation. He began his career at XCI, where he gained valuable experience and knowledge in AI technology. Ha's work on Cosmos in a video and his presentations on memories have been well-received, showcasing his expertise in the field.",
+        "His contributions to the AI community extend beyond his own research, as he actively participates in an online community where AI enthusiasts discuss and learn from each other through papers and presentations. Ha's dedication to continuous learning and sharing knowledge has made him a respected figure in the AI community."
+      ],
+      "sections": [
+        {
+          "heading": "Language Models",
+          "body": "Eden Ha emphasizes the importance of language in generative AI, focusing on the development of language models that can better understand and generate human-like text."
+        },
+        {
+          "heading": "Video Generation",
+          "body": "Ha has been involved in the development of video models, which are AI systems capable of generating videos based on input data, opening up new possibilities in entertainment, education, and other industries."
+        },
+        {
+          "heading": "AI Community",
+          "body": "Eden Ha is an active member of the AI community, participating in an online group where members discuss AI papers and learn from each other. He has also presented his own work, such as Cosmos in a video and memories, to the group."
+        }
+      ]
+    },
+    "net_worth": "$10.0M"
+  },
+  {
+    "id": 296,
+    "name": "Chris Seminoch",
+    "slug": "chris-seminoch",
+    "bio": "Chris Seminoch is an expert in U.S. manufacturing and electrification trends. As an investment partner at ETFs, he manages two funds, one focusing on manufacturing and re-shoring, and the other on electrification. Both funds have outperformed the market since their inception and year-to-date.",
+    "known_for": "His insights on the resurgence of U.S. manufacturing and the importance of automation and electrification.",
+    "net_worth_usd": 350000000000.0,
+    "net_worth_source": "https://www.forbes.com/companies/siemens/",
+    "net_worth_updated_at": "2026-06-23T22:02:33.819589",
+    "voice_tone": "",
+    "voice_style": "",
+    "voice_delivery_notes": "",
+    "voice_profile_updated_at": null,
+    "last_seen": "2026-06-19 03:02:25",
+    "last_episode_title": "The US Manufacturing and Electrification Megatrends Are Here and They\u2019re Way More Than AI | Chris Semenuk",
+    "last_podcast_name": "Monetary Matters with Jack Farley",
+    "last_episode_date": "2026-06-18",
+    "mention_score": 1,
+    "mention_score_decayed": 0.08,
+    "last_main_idea": "U.S. manufacturing is showing signs of recovery after a three-year recession, indicating potential resurgence in manufacturing investments.",
+    "last_proof_cite": "Monetary Matters with Jack Farley \u2022 2026-06-18 \u2022 The US Manufacturing and Electrification Megatrends Are Here and They\u2019re Way More Than AI | Chris Semenuk",
+    "last_proof_snippet": "The U.S. manufacturing has essentially been in a recession for three straight years and we have only just emerged now. If I had a CMMI survey, just reached about 50 in the last three months. And that's after three consecutive years of sub-5",
+    "supporting_takeaway": "Companies with significant order backlogs, such as Caterpillar and Vernova, are likely to see revenue growth in the coming quarters.",
+    "grokipedia_url": null,
+    "grokipedia_fetched_at": "2026-06-18T22:06:11.769482",
+    "pundit_profile": {
+      "source": "llm",
+      "source_model": "moonshot:moonshot-v1-8k",
+      "source_url": "",
+      "page_title": "Chris Seminoch",
+      "fetched_at": "2026-06-19T03:06:11.769323+00:00",
+      "cliff_notes": "Chris Seminoch has made a significant impact in the field of U.S. manufacturing and electrification. As an investment partner at ETFs, he oversees two funds that focus on manufacturing and re-shoring, as well as electrification. These funds have demonstrated impressive performance compared to the broader market since their inception. Seminoch's expertise lies in identifying investment opportunities in U.S. industrial champions that have been overlooked for years, emphasizing the potential for growth in these sectors. His insights into the resurgence of U.S. manufacturing and the critical role of automation and electrification have made him a valuable resource for investors and tech listeners.",
+      "derived": {
+        "current_role": "Investment Partner at ETFs"
+      },
+      "infobox": {
+        "Born": "",
+        "Nationality": ""
+      },
+      "lead_paragraphs": [
+        "Chris Seminoch has made a significant impact in the field of U.S. manufacturing and electrification. As an investment partner at ETFs, he oversees two funds that focus on manufacturing and re-shoring, as well as electrification. These funds have demonstrated impressive performance compared to the broader market since their inception.",
+        "Seminoch's expertise lies in identifying investment opportunities in U.S. industrial champions that have been overlooked for years, emphasizing the potential for growth in these sectors. His insights into the resurgence of U.S. manufacturing and the critical role of automation and electrification have made him a valuable resource for investors and tech listeners."
+      ],
+      "sections": [
+        {
+          "heading": "U.S. Manufacturing Resurgence",
+          "body": "Chris Seminoch highlights the recent resurgence of U.S. manufacturing after three consecutive years of recession. He emphasizes the importance of recognizing the investment opportunities in basic U.S. industrial champions that have been off the radar for years."
+        },
+        {
+          "heading": "Automation and Electrification",
+          "body": "Seminoch stresses the significance of automation and electrification in driving the growth of U.S. manufacturing. He believes that these technologies are crucial for the sector's recovery and future success."
+        },
+        {
+          "heading": "Investment Opportunities",
+          "body": "Chris Seminoch identifies the enormous investment opportunities in U.S. industrial champions that have been overlooked for years. He argues that these businesses are currently undervalued and present a significant potential for growth."
+        }
+      ]
+    },
+    "net_worth": "$350.00B"
   },
   {
     "id": 295,
@@ -59821,7 +59821,7 @@ const dashboardData = {
     "last_podcast_name": "Monetary Matters with Jack Farley",
     "last_episode_date": "2026-06-06",
     "mention_score": 1,
-    "mention_score_decayed": 0.07,
+    "mention_score_decayed": 0.06,
     "last_main_idea": "South Korean memory chip companies are projected to generate $200 billion in profits by 2028, indicating a potential bubble in their stock valuations.",
     "last_proof_cite": "Monetary Matters with Jack Farley \u2022 2026-06-06 \u2022 The AI Chip Bubble: Why South Korea & Taiwan Are In the Danger Zone | Michael Fritzell | Asian Century Stocks",
     "last_proof_snippet": "South Korea, I do think it is a bubble, because the estimates for profits, for Eski Heinigs and Samsung electronics, we're now talking 200 billion US dollars in that profit estimates for 2028. And that will make them the most profitable com",
@@ -60648,65 +60648,6 @@ const dashboardData = {
     "net_worth": "$16.5M"
   },
   {
-    "id": 258,
-    "name": "Morgan Downey",
-    "slug": "morgan-downey",
-    "bio": "Morgan Downey is an expert in the oil industry and energy markets. He is known for his insights on oil price predictions and market dynamics. Downey's 2009 book, 'Oil 101,' is a familiar reference for professional oil traders.",
-    "known_for": "His expertise in oil price predictions and market dynamics.",
-    "net_worth_usd": null,
-    "net_worth_source": "",
-    "net_worth_updated_at": null,
-    "voice_tone": "Confident and knowledgeable.",
-    "voice_style": "Downey presents his arguments with a focus on data and market analysis.",
-    "voice_delivery_notes": "Pacing is steady with emphasis on key market predictions.",
-    "voice_profile_updated_at": "2026-05-21 19:09:22",
-    "last_seen": "2026-05-21 19:09:22",
-    "last_episode_title": "MacroVoices #533 Morgan Downey: The Return of Oil 101",
-    "last_podcast_name": "Macro Voices",
-    "last_episode_date": "2026-05-21",
-    "mention_score": 1,
-    "mention_score_decayed": 0.05,
-    "last_main_idea": "Oil prices could spike to $150 to $200 if the Strait of Hormuz remains closed for another month.",
-    "last_proof_cite": "Macro Voices \u2022 2026-05-21 \u2022 MacroVoices #533 Morgan Downey: The Return of Oil 101",
-    "last_proof_snippet": "This is Macrovoisers, the Free Weekly Financial Podcast, targeting professional finance, high-net worth individuals, family offices, and other sophisticated investors. Macrovoisers is all about the brightest minds in the world of finance an",
-    "supporting_takeaway": "Strategic petroleum reserve releases have temporarily prevented oil price spikes but are not sustainable.",
-    "grokipedia_url": null,
-    "grokipedia_fetched_at": "2026-05-21T14:09:40.616092",
-    "pundit_profile": {
-      "source": "llm",
-      "source_model": "moonshot:moonshot-v1-8k",
-      "source_url": "",
-      "page_title": "Morgan Downey",
-      "fetched_at": "2026-05-21T19:09:40.615941+00:00",
-      "cliff_notes": "Morgan Downey is recognized for his deep understanding of the oil industry and energy markets. His 2009 book, 'Oil 101,' has become a staple for professional oil traders, providing them with essential knowledge about the industry. Downey's insights into oil price predictions and market dynamics have made him a go-to expert in the field. His contributions to the understanding of energy markets have been influential, particularly in times of crisis, such as when he discussed the potential for oil prices to reach $150 to $200 if certain geopolitical situations persisted. His expertise is sought after by professionals in finance and macroeconomics, as evidenced by his appearance on Macrovoisers, a financial podcast targeting sophisticated investors.",
-      "derived": {
-        "books_or_works": "Oil 101"
-      },
-      "infobox": {
-        "Born": "",
-        "Nationality": ""
-      },
-      "lead_paragraphs": [
-        "Morgan Downey is recognized for his deep understanding of the oil industry and energy markets. His 2009 book, 'Oil 101,' has become a staple for professional oil traders, providing them with essential knowledge about the industry. Downey's insights into oil price predictions and market dynamics have made him a go-to expert in the field.",
-        "His contributions to the understanding of energy markets have been influential, particularly in times of crisis, such as when he discussed the potential for oil prices to reach $150 to $200 if certain geopolitical situations persisted. His expertise is sought after by professionals in finance and macroeconomics, as evidenced by his appearance on Macrovoisers, a financial podcast targeting sophisticated investors."
-      ],
-      "sections": [
-        {
-          "heading": "Oil Industry Expertise",
-          "body": "Morgan Downey is well-regarded for his comprehensive knowledge of the oil industry, which he shares through his book 'Oil 101' and various discussions on market dynamics."
-        },
-        {
-          "heading": "Market Dynamics",
-          "body": "Downey's analysis of market dynamics has been influential, particularly in predicting oil price movements and the impact of geopolitical events on the energy sector."
-        },
-        {
-          "heading": "Geopolitical Impact",
-          "body": "His insights into how geopolitical situations can affect oil prices are highly valued, as demonstrated by his discussion on the potential for prices to skyrocket if certain conditions are met."
-        }
-      ]
-    }
-  },
-  {
     "id": 209,
     "name": "David Sinclair",
     "slug": "david-sinclair",
@@ -60772,6 +60713,65 @@ const dashboardData = {
       ]
     },
     "net_worth": "$25.0M"
+  },
+  {
+    "id": 258,
+    "name": "Morgan Downey",
+    "slug": "morgan-downey",
+    "bio": "Morgan Downey is an expert in the oil industry and energy markets. He is known for his insights on oil price predictions and market dynamics. Downey's 2009 book, 'Oil 101,' is a familiar reference for professional oil traders.",
+    "known_for": "His expertise in oil price predictions and market dynamics.",
+    "net_worth_usd": null,
+    "net_worth_source": "",
+    "net_worth_updated_at": null,
+    "voice_tone": "Confident and knowledgeable.",
+    "voice_style": "Downey presents his arguments with a focus on data and market analysis.",
+    "voice_delivery_notes": "Pacing is steady with emphasis on key market predictions.",
+    "voice_profile_updated_at": "2026-05-21 19:09:22",
+    "last_seen": "2026-05-21 19:09:22",
+    "last_episode_title": "MacroVoices #533 Morgan Downey: The Return of Oil 101",
+    "last_podcast_name": "Macro Voices",
+    "last_episode_date": "2026-05-21",
+    "mention_score": 1,
+    "mention_score_decayed": 0.04,
+    "last_main_idea": "Oil prices could spike to $150 to $200 if the Strait of Hormuz remains closed for another month.",
+    "last_proof_cite": "Macro Voices \u2022 2026-05-21 \u2022 MacroVoices #533 Morgan Downey: The Return of Oil 101",
+    "last_proof_snippet": "This is Macrovoisers, the Free Weekly Financial Podcast, targeting professional finance, high-net worth individuals, family offices, and other sophisticated investors. Macrovoisers is all about the brightest minds in the world of finance an",
+    "supporting_takeaway": "Strategic petroleum reserve releases have temporarily prevented oil price spikes but are not sustainable.",
+    "grokipedia_url": null,
+    "grokipedia_fetched_at": "2026-05-21T14:09:40.616092",
+    "pundit_profile": {
+      "source": "llm",
+      "source_model": "moonshot:moonshot-v1-8k",
+      "source_url": "",
+      "page_title": "Morgan Downey",
+      "fetched_at": "2026-05-21T19:09:40.615941+00:00",
+      "cliff_notes": "Morgan Downey is recognized for his deep understanding of the oil industry and energy markets. His 2009 book, 'Oil 101,' has become a staple for professional oil traders, providing them with essential knowledge about the industry. Downey's insights into oil price predictions and market dynamics have made him a go-to expert in the field. His contributions to the understanding of energy markets have been influential, particularly in times of crisis, such as when he discussed the potential for oil prices to reach $150 to $200 if certain geopolitical situations persisted. His expertise is sought after by professionals in finance and macroeconomics, as evidenced by his appearance on Macrovoisers, a financial podcast targeting sophisticated investors.",
+      "derived": {
+        "books_or_works": "Oil 101"
+      },
+      "infobox": {
+        "Born": "",
+        "Nationality": ""
+      },
+      "lead_paragraphs": [
+        "Morgan Downey is recognized for his deep understanding of the oil industry and energy markets. His 2009 book, 'Oil 101,' has become a staple for professional oil traders, providing them with essential knowledge about the industry. Downey's insights into oil price predictions and market dynamics have made him a go-to expert in the field.",
+        "His contributions to the understanding of energy markets have been influential, particularly in times of crisis, such as when he discussed the potential for oil prices to reach $150 to $200 if certain geopolitical situations persisted. His expertise is sought after by professionals in finance and macroeconomics, as evidenced by his appearance on Macrovoisers, a financial podcast targeting sophisticated investors."
+      ],
+      "sections": [
+        {
+          "heading": "Oil Industry Expertise",
+          "body": "Morgan Downey is well-regarded for his comprehensive knowledge of the oil industry, which he shares through his book 'Oil 101' and various discussions on market dynamics."
+        },
+        {
+          "heading": "Market Dynamics",
+          "body": "Downey's analysis of market dynamics has been influential, particularly in predicting oil price movements and the impact of geopolitical events on the energy sector."
+        },
+        {
+          "heading": "Geopolitical Impact",
+          "body": "His insights into how geopolitical situations can affect oil prices are highly valued, as demonstrated by his discussion on the potential for prices to skyrocket if certain conditions are met."
+        }
+      ]
+    }
   },
   {
     "id": 257,
@@ -65194,70 +65194,6 @@ const dashboardData = {
     }
   },
   {
-    "id": 154,
-    "name": "Ed Finley Richardson",
-    "slug": "ed-finley-richardson",
-    "bio": "Ed Finley Richardson is a renowned expert in the shipping industry, known for his deep analysis and insights into shipping markets and investment opportunities. He is the author of the Misadventures in Shipping sub-stack, providing valuable research and analysis to investors interested in the shipping sector.",
-    "known_for": "His expertise in shipping markets and investment opportunities, particularly in the tanker market that transports crude oil and refined products around the globe.",
-    "net_worth_usd": null,
-    "net_worth_source": "",
-    "net_worth_updated_at": null,
-    "voice_tone": "Informed and analytical",
-    "voice_style": "Factual and predictive, with a focus on market outcomes",
-    "voice_delivery_notes": "Delivers insights with a steady pace, emphasizing key points",
-    "voice_profile_updated_at": "2026-04-05 03:02:52",
-    "last_seen": "2026-04-05 03:02:52",
-    "last_episode_title": "\u201cBooks Will Be Written\u201d About This Shipping Market | Ed Finley-Richardson of Misadventures in Shipping on War-Induced Oil Tanker Mayhem, Squeeze for Asiabound Refined Products, and Persian Gulf \u201cFeeding Frenzy\u201d Scenario",
-    "last_podcast_name": "Monetary Matters with Jack Farley",
-    "last_episode_date": "2026-04-04",
-    "mention_score": 1,
-    "mention_score_decayed": 0.02,
-    "last_main_idea": "The disruption in shipping due to geopolitical conflicts presents a unique investment opportunity in shipping stocks, particularly for those with a keen understanding of the market dynamics.",
-    "last_proof_cite": "Monetary Matters with Jack Farley \u2022 2026-04-04 \u2022 \u201cBooks Will Be Written\u201d About This Shipping Market | Ed Finley-Richardson of Misadventures in Shipping on War-Induced Oil Tanker Mayhem, Squeeze for Asiabound Refined Products, and Persian Gulf \u201cFeeding Frenzy\u201d Scenario",
-    "last_proof_snippet": "Shipping inefficiencies can lead to increased profits for ship owners.",
-    "supporting_takeaway": "Shipping inefficiencies can lead to increased profits for ship owners.",
-    "grokipedia_url": null,
-    "grokipedia_fetched_at": "2026-04-04T22:03:03.597938",
-    "pundit_profile": {
-      "source": "llm",
-      "source_model": "moonshot:moonshot-v1-8k",
-      "source_url": "",
-      "page_title": "Ed Finley Richardson",
-      "fetched_at": "2026-04-05T03:03:03.597603+00:00",
-      "cliff_notes": "Ed Finley Richardson is an expert in the shipping industry, with a focus on analyzing and providing insights into shipping markets and investment opportunities. He began thinking hard years ago about the potential impacts of geopolitical events, such as the closure of the Strait of Hormuz, on shipping markets and the opportunities they might create for shipping investors. Richardson's work has become increasingly relevant as shipping prices have surged, with some reaching 10 times normal levels. As the author of the Misadventures in Shipping sub-stack, he offers valuable research and analysis to investors interested in the shipping sector, making him one of the best shipping analysts alive.",
-      "derived": {
-        "current_role": "Author of Misadventures in Shipping",
-        "books_or_works": "Misadventures in Shipping sub-stack"
-      },
-      "infobox": {
-        "Born": "",
-        "Nationality": ""
-      },
-      "lead_paragraphs": [
-        "Ed Finley Richardson is an expert in the shipping industry, with a focus on analyzing and providing insights into shipping markets and investment opportunities. He began thinking hard years ago about the potential impacts of geopolitical events, such as the closure of the Strait of Hormuz, on shipping markets and the opportunities they might create for shipping investors.",
-        "Richardson's work has become increasingly relevant as shipping prices have surged, with some reaching 10 times normal levels. As the author of the Misadventures in Shipping sub-stack, he offers valuable research and analysis to investors interested in the shipping sector, making him one of the best shipping analysts alive."
-      ],
-      "sections": [
-        {
-          "heading": "Shipping Market Analysis",
-          "body": "Ed Finley Richardson is known for his deep analysis of shipping markets, particularly the tanker market that transports crude oil and refined products around the globe."
-        },
-        {
-          "heading": "Investment Opportunities",
-          "body": "Richardson's expertise lies in identifying investment opportunities within the shipping industry, especially in times of geopolitical unrest and market disruptions."
-        },
-        {
-          "heading": "Misadventures in Shipping",
-          "body": "As the author of the Misadventures in Shipping sub-stack, Richardson provides valuable research and analysis to investors interested in the shipping sector."
-        },
-        {
-          "heading": "Shipping Prices Surge",
-          "body": "Richardson's work has gained prominence as shipping prices have surged, with some reaching 10 times normal levels, highlighting the importance of his analysis and insights."
-        }
-      ]
-    }
-  },
-  {
     "id": 43,
     "name": "Olivia Moore",
     "slug": "olivia-moore",
@@ -65320,6 +65256,70 @@ const dashboardData = {
         {
           "heading": "AI Risks and Benefits",
           "body": "She highlights the concerns around AI, with 57% of American voters saying the risks of AI outweigh the benefits, indicating a need for careful consideration and management of AI's impact on society."
+        }
+      ]
+    }
+  },
+  {
+    "id": 154,
+    "name": "Ed Finley Richardson",
+    "slug": "ed-finley-richardson",
+    "bio": "Ed Finley Richardson is a renowned expert in the shipping industry, known for his deep analysis and insights into shipping markets and investment opportunities. He is the author of the Misadventures in Shipping sub-stack, providing valuable research and analysis to investors interested in the shipping sector.",
+    "known_for": "His expertise in shipping markets and investment opportunities, particularly in the tanker market that transports crude oil and refined products around the globe.",
+    "net_worth_usd": null,
+    "net_worth_source": "",
+    "net_worth_updated_at": null,
+    "voice_tone": "Informed and analytical",
+    "voice_style": "Factual and predictive, with a focus on market outcomes",
+    "voice_delivery_notes": "Delivers insights with a steady pace, emphasizing key points",
+    "voice_profile_updated_at": "2026-04-05 03:02:52",
+    "last_seen": "2026-04-05 03:02:52",
+    "last_episode_title": "\u201cBooks Will Be Written\u201d About This Shipping Market | Ed Finley-Richardson of Misadventures in Shipping on War-Induced Oil Tanker Mayhem, Squeeze for Asiabound Refined Products, and Persian Gulf \u201cFeeding Frenzy\u201d Scenario",
+    "last_podcast_name": "Monetary Matters with Jack Farley",
+    "last_episode_date": "2026-04-04",
+    "mention_score": 1,
+    "mention_score_decayed": 0.01,
+    "last_main_idea": "The disruption in shipping due to geopolitical conflicts presents a unique investment opportunity in shipping stocks, particularly for those with a keen understanding of the market dynamics.",
+    "last_proof_cite": "Monetary Matters with Jack Farley \u2022 2026-04-04 \u2022 \u201cBooks Will Be Written\u201d About This Shipping Market | Ed Finley-Richardson of Misadventures in Shipping on War-Induced Oil Tanker Mayhem, Squeeze for Asiabound Refined Products, and Persian Gulf \u201cFeeding Frenzy\u201d Scenario",
+    "last_proof_snippet": "Shipping inefficiencies can lead to increased profits for ship owners.",
+    "supporting_takeaway": "Shipping inefficiencies can lead to increased profits for ship owners.",
+    "grokipedia_url": null,
+    "grokipedia_fetched_at": "2026-04-04T22:03:03.597938",
+    "pundit_profile": {
+      "source": "llm",
+      "source_model": "moonshot:moonshot-v1-8k",
+      "source_url": "",
+      "page_title": "Ed Finley Richardson",
+      "fetched_at": "2026-04-05T03:03:03.597603+00:00",
+      "cliff_notes": "Ed Finley Richardson is an expert in the shipping industry, with a focus on analyzing and providing insights into shipping markets and investment opportunities. He began thinking hard years ago about the potential impacts of geopolitical events, such as the closure of the Strait of Hormuz, on shipping markets and the opportunities they might create for shipping investors. Richardson's work has become increasingly relevant as shipping prices have surged, with some reaching 10 times normal levels. As the author of the Misadventures in Shipping sub-stack, he offers valuable research and analysis to investors interested in the shipping sector, making him one of the best shipping analysts alive.",
+      "derived": {
+        "current_role": "Author of Misadventures in Shipping",
+        "books_or_works": "Misadventures in Shipping sub-stack"
+      },
+      "infobox": {
+        "Born": "",
+        "Nationality": ""
+      },
+      "lead_paragraphs": [
+        "Ed Finley Richardson is an expert in the shipping industry, with a focus on analyzing and providing insights into shipping markets and investment opportunities. He began thinking hard years ago about the potential impacts of geopolitical events, such as the closure of the Strait of Hormuz, on shipping markets and the opportunities they might create for shipping investors.",
+        "Richardson's work has become increasingly relevant as shipping prices have surged, with some reaching 10 times normal levels. As the author of the Misadventures in Shipping sub-stack, he offers valuable research and analysis to investors interested in the shipping sector, making him one of the best shipping analysts alive."
+      ],
+      "sections": [
+        {
+          "heading": "Shipping Market Analysis",
+          "body": "Ed Finley Richardson is known for his deep analysis of shipping markets, particularly the tanker market that transports crude oil and refined products around the globe."
+        },
+        {
+          "heading": "Investment Opportunities",
+          "body": "Richardson's expertise lies in identifying investment opportunities within the shipping industry, especially in times of geopolitical unrest and market disruptions."
+        },
+        {
+          "heading": "Misadventures in Shipping",
+          "body": "As the author of the Misadventures in Shipping sub-stack, Richardson provides valuable research and analysis to investors interested in the shipping sector."
+        },
+        {
+          "heading": "Shipping Prices Surge",
+          "body": "Richardson's work has gained prominence as shipping prices have surged, with some reaching 10 times normal levels, highlighting the importance of his analysis and insights."
         }
       ]
     }
@@ -68086,7 +68086,7 @@ const dashboardData = {
         }
       ],
       "disclaimer": "Research sleeve / scorecard, not advice. $1,000 equal-weight illustration only.",
-      "last_updated": "2026-10-03T13:54:48.389901"
+      "last_updated": "2026-10-03T22:12:55.598965"
     }
   ]
 }
