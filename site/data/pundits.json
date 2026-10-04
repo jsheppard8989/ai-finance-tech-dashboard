@@ -1863,121 +1863,6 @@
     }
   },
   {
-    "id": 480,
-    "name": "Eric Gwyn",
-    "slug": "eric-gwyn",
-    "bio": "Eric Gwyn is a leading researcher in synthetic biology and AI applications, focusing on genomic language models and biosecurity. He emphasizes the importance of developing defensive capabilities alongside design capabilities in biotechnology. His work aims to bridge the gap between innovation and safety in synthetic biology.",
-    "known_for": "Eric Gwyn is recognized for his pioneering contributions to genomic language models and their applications in biosecurity, making him a key figure in the intersection of AI and synthetic biology.",
-    "net_worth_usd": null,
-    "net_worth_source": "",
-    "net_worth_updated_at": null,
-    "voice_tone": "Informative and assertive",
-    "voice_style": "He presents a balanced view of innovation and ethical considerations.",
-    "voice_delivery_notes": "Pacing is steady with emphasis on key points.",
-    "voice_profile_updated_at": "2026-09-24 04:53:17",
-    "last_seen": "2026-09-24 04:53:17",
-    "last_episode_title": "\ud83d\udd2cBio-security is an AI Arms Race - Eric Nguyen (CEO, Radical Numerics)",
-    "last_podcast_name": "Latent Space: The AI Engineer Podcast",
-    "last_episode_date": "2026-09-23",
-    "mention_score": 1,
-    "mention_score_decayed": 0.81,
-    "last_main_idea": "The core investment opportunity lies in companies that balance innovation in synthetic biology with ethical biosecurity measures, particularly those utilizing AI for genomic analysis.",
-    "last_proof_cite": "Latent Space: The AI Engineer Podcast \u2022 2026-09-23 \u2022 \ud83d\udd2cBio-security is an AI Arms Race - Eric Nguyen (CEO, Radical Numerics)",
-    "last_proof_snippet": "The design side is going to get more people the defensive side needs to try to get ahead. So I think inherently there is this arms-restile dynamic that the defensive side has been far, far lagging. And so what we want to do is bring the def",
-    "supporting_takeaway": "",
-    "grokipedia_url": null,
-    "grokipedia_fetched_at": "2026-09-23T23:53:22.964812",
-    "pundit_profile": {
-      "source": "llm",
-      "source_model": "openai:gpt-4o-mini",
-      "source_url": "",
-      "page_title": "Eric Gwyn",
-      "fetched_at": "2026-09-24T04:53:22.964587+00:00",
-      "cliff_notes": "Eric Gwyn has established himself as a prominent figure in the fields of synthetic biology and artificial intelligence. His research focuses on the development of genomic language models that not only generate biological sequences but also assess their potential pathogenicity. This dual capability is crucial in the context of biosecurity, where understanding and mitigating risks associated with synthetic biology is increasingly important. Gwyn's approach advocates for a proactive stance in safeguarding technological advancements, ensuring that innovations in design are matched by robust defensive measures. His leadership at Article reflects a commitment to responsible innovation, aiming to empower researchers and companies to navigate the complexities of biotechnological advancements responsibly.",
-      "derived": {
-        "current_role": "CEO and Co-founder of Article"
-      },
-      "infobox": {},
-      "lead_paragraphs": [
-        "Eric Gwyn has established himself as a prominent figure in the fields of synthetic biology and artificial intelligence. His research focuses on the development of genomic language models that not only generate biological sequences but also assess their potential pathogenicity. This dual capability is crucial in the context of biosecurity, where understanding and mitigating risks associated with synthetic biology is increasingly important.",
-        "Gwyn's approach advocates for a proactive stance in safeguarding technological advancements, ensuring that innovations in design are matched by robust defensive measures. His leadership at Article reflects a commitment to responsible innovation, aiming to empower researchers and companies to navigate the complexities of biotechnological advancements responsibly."
-      ],
-      "sections": [
-        {
-          "heading": "Genomic Language Models",
-          "body": "Gwyn's work on genomic language models focuses on their ability to generate biological sequences and predict their pathogenic potential, which is vital for biosecurity."
-        },
-        {
-          "heading": "Biosecurity in Synthetic Biology",
-          "body": "He emphasizes the need for enhanced defensive capabilities in synthetic biology, advocating for a balance between innovation and safety."
-        },
-        {
-          "heading": "Dual Mandate Approach",
-          "body": "Gwyn promotes a dual mandate in his research, where design capabilities are developed alongside defensive strategies to ensure responsible use of technology."
-        }
-      ]
-    }
-  },
-  {
-    "id": 479,
-    "name": "Luca Ferrari",
-    "slug": "luca-ferrari",
-    "bio": "Luca Ferrari is a key executive at Bending Spoon, recognized for his strategic vision in technology and operational excellence. Under his leadership, the company has transformed into a billion-dollar entity through innovative acquisitions and a focus on product development. His insights into the tech industry have made him a notable figure among entrepreneurs and investors alike.",
-    "known_for": "Transforming Bending Spoon into a billion-dollar tech company through strategic acquisitions.",
-    "net_worth_usd": null,
-    "net_worth_source": "",
-    "net_worth_updated_at": null,
-    "voice_tone": "Analytical and confident",
-    "voice_style": "Direct and informative, emphasizing strategic insights.",
-    "voice_delivery_notes": "Pacing is steady with emphasis on key points.",
-    "voice_profile_updated_at": "2026-09-24 04:53:03",
-    "last_seen": "2026-09-24 04:53:03",
-    "last_episode_title": "Luca Ferrari, Bending Spoons CEO: The $40K Origin Story, Buying Product-Market Fit & Why Private Equity Can't Compete",
-    "last_podcast_name": "All-In with Chamath, Jason, Sacks & Friedberg",
-    "last_episode_date": "2026-09-23",
-    "mention_score": 1,
-    "mention_score_decayed": 0.81,
-    "last_main_idea": "Bending Spoon's unique acquisition model allows for rapid scaling and value creation by enhancing underperforming apps.",
-    "last_proof_cite": "All-In with Chamath, Jason, Sacks & Friedberg \u2022 2026-09-23 \u2022 Luca Ferrari, Bending Spoons CEO: The $40K Origin Story, Buying Product-Market Fit & Why Private Equity Can't Compete",
-    "last_proof_snippet": "You are the reason that has exactly this year. Stay went from zero to $1 billion in revenue in just ten years. Bending Spoon CTO look a Ferrari. We have never lost a bid before. Well, AOL has a new parent again. Milan-based tech company Ben",
-    "supporting_takeaway": "The company maintains a conservative leverage ratio of approximately 2.5 times, managing financial risk effectively.",
-    "grokipedia_url": null,
-    "grokipedia_fetched_at": "2026-09-23T23:53:27.461971",
-    "pundit_profile": {
-      "source": "llm",
-      "source_model": "openai:gpt-4o-mini",
-      "source_url": "",
-      "page_title": "Luca Ferrari",
-      "fetched_at": "2026-09-24T04:53:27.461823+00:00",
-      "cliff_notes": "Luca Ferrari has played a pivotal role in the growth of Bending Spoon, a Milan-based tech company that has gained significant traction in the app development market. His approach combines a methodical strategy with a focus on innovation, allowing the company to expand its portfolio and enhance its market presence. Ferrari's leadership has been instrumental in the company's ability to revive underperforming apps and develop new products that cater to a vast user base. His vision for building a generational company reflects a commitment to long-term success in the tech industry, making him a respected figure among peers and investors.",
-      "derived": {
-        "current_role": "CTO at Bending Spoon"
-      },
-      "infobox": {
-        "Born": "",
-        "Nationality": "Italian"
-      },
-      "lead_paragraphs": [
-        "Luca Ferrari has played a pivotal role in the growth of Bending Spoon, a Milan-based tech company that has gained significant traction in the app development market. His approach combines a methodical strategy with a focus on innovation, allowing the company to expand its portfolio and enhance its market presence. Ferrari's leadership has been instrumental in the company's ability to revive underperforming apps and develop new products that cater to a vast user base.",
-        "His vision for building a generational company reflects a commitment to long-term success in the tech industry, making him a respected figure among peers and investors."
-      ],
-      "sections": [
-        {
-          "heading": "Strategic Acquisitions",
-          "body": "Luca has led Bending Spoon in acquiring key assets that have bolstered its market position and expanded its capabilities. These acquisitions have been crucial in driving the company's growth trajectory."
-        },
-        {
-          "heading": "Product Innovation",
-          "body": "Under his guidance, Bending Spoon has focused on developing innovative applications that resonate with users. This emphasis on product quality has contributed to the company's impressive revenue growth."
-        },
-        {
-          "heading": "Market Expansion",
-          "body": "Ferrari's strategic initiatives have allowed Bending Spoon to penetrate new markets and reach a broader audience, significantly increasing its user base and revenue."
-        }
-      ]
-    }
-  },
-  {
     "id": 333,
     "name": "Dylan Patel",
     "slug": "dylan-patel",
@@ -2036,6 +1921,121 @@
       ]
     },
     "net_worth": "$3.70B"
+  },
+  {
+    "id": 480,
+    "name": "Eric Gwyn",
+    "slug": "eric-gwyn",
+    "bio": "Eric Gwyn is a leading researcher in synthetic biology and AI applications, focusing on genomic language models and biosecurity. He emphasizes the importance of developing defensive capabilities alongside design capabilities in biotechnology. His work aims to bridge the gap between innovation and safety in synthetic biology.",
+    "known_for": "Eric Gwyn is recognized for his pioneering contributions to genomic language models and their applications in biosecurity, making him a key figure in the intersection of AI and synthetic biology.",
+    "net_worth_usd": null,
+    "net_worth_source": "",
+    "net_worth_updated_at": null,
+    "voice_tone": "Informative and assertive",
+    "voice_style": "He presents a balanced view of innovation and ethical considerations.",
+    "voice_delivery_notes": "Pacing is steady with emphasis on key points.",
+    "voice_profile_updated_at": "2026-09-24 04:53:17",
+    "last_seen": "2026-09-24 04:53:17",
+    "last_episode_title": "\ud83d\udd2cBio-security is an AI Arms Race - Eric Nguyen (CEO, Radical Numerics)",
+    "last_podcast_name": "Latent Space: The AI Engineer Podcast",
+    "last_episode_date": "2026-09-23",
+    "mention_score": 1,
+    "mention_score_decayed": 0.79,
+    "last_main_idea": "The core investment opportunity lies in companies that balance innovation in synthetic biology with ethical biosecurity measures, particularly those utilizing AI for genomic analysis.",
+    "last_proof_cite": "Latent Space: The AI Engineer Podcast \u2022 2026-09-23 \u2022 \ud83d\udd2cBio-security is an AI Arms Race - Eric Nguyen (CEO, Radical Numerics)",
+    "last_proof_snippet": "The design side is going to get more people the defensive side needs to try to get ahead. So I think inherently there is this arms-restile dynamic that the defensive side has been far, far lagging. And so what we want to do is bring the def",
+    "supporting_takeaway": "",
+    "grokipedia_url": null,
+    "grokipedia_fetched_at": "2026-09-23T23:53:22.964812",
+    "pundit_profile": {
+      "source": "llm",
+      "source_model": "openai:gpt-4o-mini",
+      "source_url": "",
+      "page_title": "Eric Gwyn",
+      "fetched_at": "2026-09-24T04:53:22.964587+00:00",
+      "cliff_notes": "Eric Gwyn has established himself as a prominent figure in the fields of synthetic biology and artificial intelligence. His research focuses on the development of genomic language models that not only generate biological sequences but also assess their potential pathogenicity. This dual capability is crucial in the context of biosecurity, where understanding and mitigating risks associated with synthetic biology is increasingly important. Gwyn's approach advocates for a proactive stance in safeguarding technological advancements, ensuring that innovations in design are matched by robust defensive measures. His leadership at Article reflects a commitment to responsible innovation, aiming to empower researchers and companies to navigate the complexities of biotechnological advancements responsibly.",
+      "derived": {
+        "current_role": "CEO and Co-founder of Article"
+      },
+      "infobox": {},
+      "lead_paragraphs": [
+        "Eric Gwyn has established himself as a prominent figure in the fields of synthetic biology and artificial intelligence. His research focuses on the development of genomic language models that not only generate biological sequences but also assess their potential pathogenicity. This dual capability is crucial in the context of biosecurity, where understanding and mitigating risks associated with synthetic biology is increasingly important.",
+        "Gwyn's approach advocates for a proactive stance in safeguarding technological advancements, ensuring that innovations in design are matched by robust defensive measures. His leadership at Article reflects a commitment to responsible innovation, aiming to empower researchers and companies to navigate the complexities of biotechnological advancements responsibly."
+      ],
+      "sections": [
+        {
+          "heading": "Genomic Language Models",
+          "body": "Gwyn's work on genomic language models focuses on their ability to generate biological sequences and predict their pathogenic potential, which is vital for biosecurity."
+        },
+        {
+          "heading": "Biosecurity in Synthetic Biology",
+          "body": "He emphasizes the need for enhanced defensive capabilities in synthetic biology, advocating for a balance between innovation and safety."
+        },
+        {
+          "heading": "Dual Mandate Approach",
+          "body": "Gwyn promotes a dual mandate in his research, where design capabilities are developed alongside defensive strategies to ensure responsible use of technology."
+        }
+      ]
+    }
+  },
+  {
+    "id": 479,
+    "name": "Luca Ferrari",
+    "slug": "luca-ferrari",
+    "bio": "Luca Ferrari is a key executive at Bending Spoon, recognized for his strategic vision in technology and operational excellence. Under his leadership, the company has transformed into a billion-dollar entity through innovative acquisitions and a focus on product development. His insights into the tech industry have made him a notable figure among entrepreneurs and investors alike.",
+    "known_for": "Transforming Bending Spoon into a billion-dollar tech company through strategic acquisitions.",
+    "net_worth_usd": null,
+    "net_worth_source": "",
+    "net_worth_updated_at": null,
+    "voice_tone": "Analytical and confident",
+    "voice_style": "Direct and informative, emphasizing strategic insights.",
+    "voice_delivery_notes": "Pacing is steady with emphasis on key points.",
+    "voice_profile_updated_at": "2026-09-24 04:53:03",
+    "last_seen": "2026-09-24 04:53:03",
+    "last_episode_title": "Luca Ferrari, Bending Spoons CEO: The $40K Origin Story, Buying Product-Market Fit & Why Private Equity Can't Compete",
+    "last_podcast_name": "All-In with Chamath, Jason, Sacks & Friedberg",
+    "last_episode_date": "2026-09-23",
+    "mention_score": 1,
+    "mention_score_decayed": 0.79,
+    "last_main_idea": "Bending Spoon's unique acquisition model allows for rapid scaling and value creation by enhancing underperforming apps.",
+    "last_proof_cite": "All-In with Chamath, Jason, Sacks & Friedberg \u2022 2026-09-23 \u2022 Luca Ferrari, Bending Spoons CEO: The $40K Origin Story, Buying Product-Market Fit & Why Private Equity Can't Compete",
+    "last_proof_snippet": "You are the reason that has exactly this year. Stay went from zero to $1 billion in revenue in just ten years. Bending Spoon CTO look a Ferrari. We have never lost a bid before. Well, AOL has a new parent again. Milan-based tech company Ben",
+    "supporting_takeaway": "The company maintains a conservative leverage ratio of approximately 2.5 times, managing financial risk effectively.",
+    "grokipedia_url": null,
+    "grokipedia_fetched_at": "2026-09-23T23:53:27.461971",
+    "pundit_profile": {
+      "source": "llm",
+      "source_model": "openai:gpt-4o-mini",
+      "source_url": "",
+      "page_title": "Luca Ferrari",
+      "fetched_at": "2026-09-24T04:53:27.461823+00:00",
+      "cliff_notes": "Luca Ferrari has played a pivotal role in the growth of Bending Spoon, a Milan-based tech company that has gained significant traction in the app development market. His approach combines a methodical strategy with a focus on innovation, allowing the company to expand its portfolio and enhance its market presence. Ferrari's leadership has been instrumental in the company's ability to revive underperforming apps and develop new products that cater to a vast user base. His vision for building a generational company reflects a commitment to long-term success in the tech industry, making him a respected figure among peers and investors.",
+      "derived": {
+        "current_role": "CTO at Bending Spoon"
+      },
+      "infobox": {
+        "Born": "",
+        "Nationality": "Italian"
+      },
+      "lead_paragraphs": [
+        "Luca Ferrari has played a pivotal role in the growth of Bending Spoon, a Milan-based tech company that has gained significant traction in the app development market. His approach combines a methodical strategy with a focus on innovation, allowing the company to expand its portfolio and enhance its market presence. Ferrari's leadership has been instrumental in the company's ability to revive underperforming apps and develop new products that cater to a vast user base.",
+        "His vision for building a generational company reflects a commitment to long-term success in the tech industry, making him a respected figure among peers and investors."
+      ],
+      "sections": [
+        {
+          "heading": "Strategic Acquisitions",
+          "body": "Luca has led Bending Spoon in acquiring key assets that have bolstered its market position and expanded its capabilities. These acquisitions have been crucial in driving the company's growth trajectory."
+        },
+        {
+          "heading": "Product Innovation",
+          "body": "Under his guidance, Bending Spoon has focused on developing innovative applications that resonate with users. This emphasis on product quality has contributed to the company's impressive revenue growth."
+        },
+        {
+          "heading": "Market Expansion",
+          "body": "Ferrari's strategic initiatives have allowed Bending Spoon to penetrate new markets and reach a broader audience, significantly increasing its user base and revenue."
+        }
+      ]
+    }
   },
   {
     "id": 478,
@@ -2341,7 +2341,7 @@
     "last_podcast_name": "All-In with Chamath, Jason, Sacks & Friedberg",
     "last_episode_date": "2026-09-20",
     "mention_score": 1,
-    "mention_score_decayed": 0.76,
+    "mention_score_decayed": 0.74,
     "last_main_idea": "The mobile gaming advertising market is projected to reach $50 billion annually, presenting substantial growth opportunities.",
     "last_proof_cite": "All-In with Chamath, Jason, Sacks & Friedberg \u2022 2026-09-20 \u2022 Adam Foroughi, Applovin CEO: Surviving a 92% Drawdown, Ads as ML 1.0 & the $50B Game Ad Market",
     "last_proof_snippet": "Adam is probably the best founder and known as EverHurt of there's an earth platform hiding inside 100,000 mobile games and is quietly out-before-ing Facebook ads for e-commerce brands of all those thousand plus IPOs the number one most val",
@@ -2546,63 +2546,6 @@
     }
   },
   {
-    "id": 466,
-    "name": "Dario Amadeh",
-    "slug": "dario-amadeh",
-    "bio": "Dario Amadeh is the CEO of Anthropic, a prominent organization focused on AI safety and research. He is known for advocating responsible AI development and implementing safety measures in the rapidly evolving field of artificial intelligence. His work emphasizes the importance of ethical considerations in technology.",
-    "known_for": "Dario Amadeh is recognized for his leadership in AI safety and his commitment to responsible AI development.",
-    "net_worth_usd": null,
-    "net_worth_source": "",
-    "net_worth_updated_at": null,
-    "voice_tone": "Cautious and reflective",
-    "voice_style": "Analytical and persuasive",
-    "voice_delivery_notes": "Measured pacing with emphasis on key safety concerns.",
-    "voice_profile_updated_at": "2026-09-18 04:53:48",
-    "last_seen": "2026-09-18 04:53:48",
-    "last_episode_title": "Frontier Labs Want to Slow Down, OpenAI Delays Its 2026 IPO, Anthropic Flags 5 Bioweapon Cases | EP #291",
-    "last_podcast_name": "Moonshots with Peter Diamandis",
-    "last_episode_date": "2026-09-17",
-    "mention_score": 1,
-    "mention_score_decayed": 0.71,
-    "last_main_idea": "The evolving landscape of AI safety and regulation presents both challenges and opportunities for investors, particularly in sectors impacted by AI integration and educational reforms.",
-    "last_proof_cite": "Moonshots with Peter Diamandis \u2022 2026-09-17 \u2022 Frontier Labs Want to Slow Down, OpenAI Delays Its 2026 IPO, Anthropic Flags 5 Bioweapon Cases | EP #291",
-    "last_proof_snippet": "Daria Amade, CEO of Enthropic, published a 3,800-word essay titled We Must Pace the Frontier. Three hours later, Sam Elan said, you're right. Monday, President Trump called it a hoax and China called it a cold war trick. Nothing less than a",
-    "supporting_takeaway": "The potential emergence of a safety cartel among AI companies could stifle competition.",
-    "grokipedia_url": null,
-    "grokipedia_fetched_at": "2026-09-17T23:54:12.886346",
-    "pundit_profile": {
-      "source": "llm",
-      "source_model": "openai:gpt-4o-mini",
-      "source_url": "",
-      "page_title": "Dario Amadeh",
-      "fetched_at": "2026-09-18T04:54:12.885990+00:00",
-      "cliff_notes": "Dario Amadeh has emerged as a significant figure in the field of artificial intelligence, particularly in the realm of safety and ethical development. As the CEO of Anthropic, he leads initiatives aimed at addressing the potential risks associated with AI technologies. His recent publications highlight the urgent need for regulation and responsible practices in AI development, positioning him as a thought leader in discussions about the future of technology. Amadeh's advocacy for safety measures reflects a growing recognition of the implications of AI on society, making his insights valuable for investors and tech enthusiasts alike.",
-      "derived": {
-        "current_role": "CEO of Anthropic",
-        "books_or_works": "We Must Pace the Frontier; Threat Intelligence Report"
-      },
-      "infobox": {},
-      "lead_paragraphs": [
-        "Dario Amadeh has emerged as a significant figure in the field of artificial intelligence, particularly in the realm of safety and ethical development. As the CEO of Anthropic, he leads initiatives aimed at addressing the potential risks associated with AI technologies. His recent publications highlight the urgent need for regulation and responsible practices in AI development, positioning him as a thought leader in discussions about the future of technology.",
-        "Amadeh's advocacy for safety measures reflects a growing recognition of the implications of AI on society, making his insights valuable for investors and tech enthusiasts alike."
-      ],
-      "sections": [
-        {
-          "heading": "AI Safety Advocacy",
-          "body": "Dario Amadeh is a prominent advocate for AI safety, emphasizing the need for responsible development practices to mitigate risks associated with artificial intelligence."
-        },
-        {
-          "heading": "Leadership at Anthropic",
-          "body": "As CEO of Anthropic, Amadeh drives the organization's mission to prioritize safety and ethical considerations in AI research and deployment."
-        },
-        {
-          "heading": "Publications on AI Regulation",
-          "body": "His recent essays and reports, including 'We Must Pace the Frontier' and the 'Threat Intelligence Report,' address the critical need for AI regulation and the potential dangers of unchecked technological advancement."
-        }
-      ]
-    }
-  },
-  {
     "id": 133,
     "name": "Chris Dixon",
     "slug": "chris-dixon",
@@ -2662,6 +2605,63 @@
       ]
     },
     "net_worth": "$500.0M"
+  },
+  {
+    "id": 466,
+    "name": "Dario Amadeh",
+    "slug": "dario-amadeh",
+    "bio": "Dario Amadeh is the CEO of Anthropic, a prominent organization focused on AI safety and research. He is known for advocating responsible AI development and implementing safety measures in the rapidly evolving field of artificial intelligence. His work emphasizes the importance of ethical considerations in technology.",
+    "known_for": "Dario Amadeh is recognized for his leadership in AI safety and his commitment to responsible AI development.",
+    "net_worth_usd": null,
+    "net_worth_source": "",
+    "net_worth_updated_at": null,
+    "voice_tone": "Cautious and reflective",
+    "voice_style": "Analytical and persuasive",
+    "voice_delivery_notes": "Measured pacing with emphasis on key safety concerns.",
+    "voice_profile_updated_at": "2026-09-18 04:53:48",
+    "last_seen": "2026-09-18 04:53:48",
+    "last_episode_title": "Frontier Labs Want to Slow Down, OpenAI Delays Its 2026 IPO, Anthropic Flags 5 Bioweapon Cases | EP #291",
+    "last_podcast_name": "Moonshots with Peter Diamandis",
+    "last_episode_date": "2026-09-17",
+    "mention_score": 1,
+    "mention_score_decayed": 0.69,
+    "last_main_idea": "The evolving landscape of AI safety and regulation presents both challenges and opportunities for investors, particularly in sectors impacted by AI integration and educational reforms.",
+    "last_proof_cite": "Moonshots with Peter Diamandis \u2022 2026-09-17 \u2022 Frontier Labs Want to Slow Down, OpenAI Delays Its 2026 IPO, Anthropic Flags 5 Bioweapon Cases | EP #291",
+    "last_proof_snippet": "Daria Amade, CEO of Enthropic, published a 3,800-word essay titled We Must Pace the Frontier. Three hours later, Sam Elan said, you're right. Monday, President Trump called it a hoax and China called it a cold war trick. Nothing less than a",
+    "supporting_takeaway": "The potential emergence of a safety cartel among AI companies could stifle competition.",
+    "grokipedia_url": null,
+    "grokipedia_fetched_at": "2026-09-17T23:54:12.886346",
+    "pundit_profile": {
+      "source": "llm",
+      "source_model": "openai:gpt-4o-mini",
+      "source_url": "",
+      "page_title": "Dario Amadeh",
+      "fetched_at": "2026-09-18T04:54:12.885990+00:00",
+      "cliff_notes": "Dario Amadeh has emerged as a significant figure in the field of artificial intelligence, particularly in the realm of safety and ethical development. As the CEO of Anthropic, he leads initiatives aimed at addressing the potential risks associated with AI technologies. His recent publications highlight the urgent need for regulation and responsible practices in AI development, positioning him as a thought leader in discussions about the future of technology. Amadeh's advocacy for safety measures reflects a growing recognition of the implications of AI on society, making his insights valuable for investors and tech enthusiasts alike.",
+      "derived": {
+        "current_role": "CEO of Anthropic",
+        "books_or_works": "We Must Pace the Frontier; Threat Intelligence Report"
+      },
+      "infobox": {},
+      "lead_paragraphs": [
+        "Dario Amadeh has emerged as a significant figure in the field of artificial intelligence, particularly in the realm of safety and ethical development. As the CEO of Anthropic, he leads initiatives aimed at addressing the potential risks associated with AI technologies. His recent publications highlight the urgent need for regulation and responsible practices in AI development, positioning him as a thought leader in discussions about the future of technology.",
+        "Amadeh's advocacy for safety measures reflects a growing recognition of the implications of AI on society, making his insights valuable for investors and tech enthusiasts alike."
+      ],
+      "sections": [
+        {
+          "heading": "AI Safety Advocacy",
+          "body": "Dario Amadeh is a prominent advocate for AI safety, emphasizing the need for responsible development practices to mitigate risks associated with artificial intelligence."
+        },
+        {
+          "heading": "Leadership at Anthropic",
+          "body": "As CEO of Anthropic, Amadeh drives the organization's mission to prioritize safety and ethical considerations in AI research and deployment."
+        },
+        {
+          "heading": "Publications on AI Regulation",
+          "body": "His recent essays and reports, including 'We Must Pace the Frontier' and the 'Threat Intelligence Report,' address the critical need for AI regulation and the potential dangers of unchecked technological advancement."
+        }
+      ]
+    }
   },
   {
     "id": 465,
@@ -6181,7 +6181,7 @@
     "last_podcast_name": "Moonshots with Peter Diamandis",
     "last_episode_date": "2026-08-11",
     "mention_score": 1,
-    "mention_score_decayed": 0.3,
+    "mention_score_decayed": 0.29,
     "last_main_idea": "Sergei Bren's return to Gemini may lead to accelerated innovation with less safety constraints.",
     "last_proof_cite": "Moonshots with Peter Diamandis \u2022 2026-08-11 \u2022 Sergey Brin Retakes Gemini, 4 Labs Lose Containment, Compute Trades at NYSE w/ Kush Bavaria | EP #278",
     "last_proof_snippet": "Sergei Bren is back taking personal control of Gemini. I think we can expect Gemini to make more releases in an accelerated pace with less safety constraints. Google has lost the frontier race and so they can't compete. Those who can't comp",
@@ -6241,7 +6241,7 @@
     "last_podcast_name": "Latent Space: The AI Engineer Podcast",
     "last_episode_date": "2026-08-11",
     "mention_score": 1,
-    "mention_score_decayed": 0.3,
+    "mention_score_decayed": 0.29,
     "last_main_idea": "Investing in AI-driven protein design companies like Try Discovery could offer significant returns as these platforms have the potential to disrupt traditional drug discovery, making it more efficient and cost-effective.",
     "last_proof_cite": "Latent Space: The AI Engineer Podcast \u2022 2026-08-11 \u2022 \ud83d\udd2cThe BioAI Phase Shift - Matthew McPartlon & Neil Patil, Chai Discovery",
     "last_proof_snippet": "It looks a lot less like a, you know, a chat GPT and a lot more like a autodesk or solid works or a figma, you know, if you've used those things where you can kind of load up your molecule, there's this almost like photo shop S click design",
@@ -6300,7 +6300,7 @@
     "last_podcast_name": "Latent Space: The AI Engineer Podcast",
     "last_episode_date": "2026-08-11",
     "mention_score": 1,
-    "mention_score_decayed": 0.3,
+    "mention_score_decayed": 0.29,
     "last_main_idea": "Investing in AI-driven protein design companies like Try Discovery could offer significant returns as these platforms have the potential to disrupt traditional drug discovery, making it more efficient and cost-effective.",
     "last_proof_cite": "Latent Space: The AI Engineer Podcast \u2022 2026-08-11 \u2022 \ud83d\udd2cThe BioAI Phase Shift - Matthew McPartlon & Neil Patil, Chai Discovery",
     "last_proof_snippet": "It looks a lot less like a, you know, a chat GPT and a lot more like a autodesk or solid works or a figma, you know, if you've used those things where you can kind of load up your molecule, there's this almost like photo shop S click design",
@@ -11433,71 +11433,6 @@
     "net_worth": "$461.0M"
   },
   {
-    "id": 121,
-    "name": "Lynn Alden",
-    "slug": "lynn-alden",
-    "bio": "Lynn Alden is an expert in macroeconomic trends and investment analysis, known for her insights on AI's impact on the economy and investment opportunities. She has been featured in various interviews and discussions, providing her perspective on the implications of AI on the global economy.",
-    "known_for": "Her expertise in the intersection of AI and its economic consequences, as well as her analysis of investment opportunities arising from these trends.",
-    "net_worth_usd": 4600000.0,
-    "net_worth_source": "https://moolahtimes.com/lyn-alden/",
-    "net_worth_updated_at": "2026-03-26T14:15:42.441919",
-    "voice_tone": "Matter-of-fact and informative.",
-    "voice_style": "Analytical and future-oriented.",
-    "voice_delivery_notes": "Clear and concise with a focus on data and trends.",
-    "voice_profile_updated_at": "2026-05-14 10:03:34",
-    "last_seen": "2026-05-14 10:03:34",
-    "last_episode_title": "Lyn Alden on Macro Consequences of AI and The Stolgard Incident  (Monitoring The Situation Replay)",
-    "last_podcast_name": "Monetary Matters with Jack Farley",
-    "last_episode_date": "2026-05-13",
-    "mention_score": 2,
-    "mention_score_decayed": 0.08,
-    "last_main_idea": "Explore opportunities in stablecoin projects and companies that facilitate their use, anticipating significant growth in the sector.",
-    "last_proof_cite": "Monetary Matters with Jack Farley \u2022 2026-05-13 \u2022 Lyn Alden on Macro Consequences of AI and The Stolgard Incident  (Monitoring The Situation Replay)",
-    "last_proof_snippet": "Today's episode is brought to you by the unlimited hfgm global macro ETF ticker hfgm. Later in the show, you'll hear more about hfgm currently the number one morning star rated fund sits its inception in the US macro trading category. Let's",
-    "supporting_takeaway": "",
-    "grokipedia_url": null,
-    "grokipedia_fetched_at": "2026-05-14T05:04:02.188608",
-    "pundit_profile": {
-      "source": "llm",
-      "source_model": "moonshot:moonshot-v1-8k",
-      "source_url": "",
-      "page_title": "Lynn Alden",
-      "fetched_at": "2026-05-14T10:04:02.188404+00:00",
-      "cliff_notes": "Lynn Alden has established herself as a prominent voice in the analysis of macroeconomic trends and their implications on investment opportunities. Her work focuses on understanding the impact of AI on the global economy, a theme she has explored in depth through interviews, discussions, and her book, The Stolgaard Incident. Alden's insights are sought after by investors and tech enthusiasts alike, as she provides a unique perspective on how AI can reshape economic landscapes and create new investment avenues. Her contributions to the field have made her a respected figure in the realm of economic analysis and AI's influence on it.",
-      "derived": {
-        "current_role": "Expert in Macroeconomic Trends and Investment Analysis",
-        "books_or_works": "The Stolgaard Incident (a science fiction thriller exploring the macroeconomic consequences of AI)"
-      },
-      "infobox": {
-        "Born": "",
-        "Nationality": ""
-      },
-      "lead_paragraphs": [
-        "Lynn Alden has established herself as a prominent voice in the analysis of macroeconomic trends and their implications on investment opportunities. Her work focuses on understanding the impact of AI on the global economy, a theme she has explored in depth through interviews, discussions, and her book, The Stolgaard Incident.",
-        "Alden's insights are sought after by investors and tech enthusiasts alike, as she provides a unique perspective on how AI can reshape economic landscapes and create new investment avenues. Her contributions to the field have made her a respected figure in the realm of economic analysis and AI's influence on it."
-      ],
-      "sections": [
-        {
-          "heading": "AI's Economic Impact",
-          "body": "Lynn Alden has been vocal about the potential economic consequences of AI, discussing both the positive and negative impacts it could have on various sectors of the economy."
-        },
-        {
-          "heading": "Investment Opportunities",
-          "body": "Alden's analysis often highlights emerging investment opportunities that arise from the advancements in AI technology and its integration into different industries."
-        },
-        {
-          "heading": "Macroeconomic Trends",
-          "body": "She has a deep understanding of macroeconomic trends and how they are influenced by technological advancements, particularly in the field of AI."
-        },
-        {
-          "heading": "Public Discussions",
-          "body": "Lynn Alden frequently participates in public discussions and interviews, sharing her insights on the intersection of AI and economics with a broader audience."
-        }
-      ]
-    },
-    "net_worth": "$4.6M"
-  },
-  {
     "id": 287,
     "name": "Brian Armstrong",
     "slug": "brian-armstrong",
@@ -12134,6 +12069,71 @@
       ]
     },
     "net_worth": "$10.0M"
+  },
+  {
+    "id": 121,
+    "name": "Lynn Alden",
+    "slug": "lynn-alden",
+    "bio": "Lynn Alden is an expert in macroeconomic trends and investment analysis, known for her insights on AI's impact on the economy and investment opportunities. She has been featured in various interviews and discussions, providing her perspective on the implications of AI on the global economy.",
+    "known_for": "Her expertise in the intersection of AI and its economic consequences, as well as her analysis of investment opportunities arising from these trends.",
+    "net_worth_usd": 4600000.0,
+    "net_worth_source": "https://moolahtimes.com/lyn-alden/",
+    "net_worth_updated_at": "2026-03-26T14:15:42.441919",
+    "voice_tone": "Matter-of-fact and informative.",
+    "voice_style": "Analytical and future-oriented.",
+    "voice_delivery_notes": "Clear and concise with a focus on data and trends.",
+    "voice_profile_updated_at": "2026-05-14 10:03:34",
+    "last_seen": "2026-05-14 10:03:34",
+    "last_episode_title": "Lyn Alden on Macro Consequences of AI and The Stolgard Incident  (Monitoring The Situation Replay)",
+    "last_podcast_name": "Monetary Matters with Jack Farley",
+    "last_episode_date": "2026-05-13",
+    "mention_score": 2,
+    "mention_score_decayed": 0.07,
+    "last_main_idea": "Explore opportunities in stablecoin projects and companies that facilitate their use, anticipating significant growth in the sector.",
+    "last_proof_cite": "Monetary Matters with Jack Farley \u2022 2026-05-13 \u2022 Lyn Alden on Macro Consequences of AI and The Stolgard Incident  (Monitoring The Situation Replay)",
+    "last_proof_snippet": "Today's episode is brought to you by the unlimited hfgm global macro ETF ticker hfgm. Later in the show, you'll hear more about hfgm currently the number one morning star rated fund sits its inception in the US macro trading category. Let's",
+    "supporting_takeaway": "",
+    "grokipedia_url": null,
+    "grokipedia_fetched_at": "2026-05-14T05:04:02.188608",
+    "pundit_profile": {
+      "source": "llm",
+      "source_model": "moonshot:moonshot-v1-8k",
+      "source_url": "",
+      "page_title": "Lynn Alden",
+      "fetched_at": "2026-05-14T10:04:02.188404+00:00",
+      "cliff_notes": "Lynn Alden has established herself as a prominent voice in the analysis of macroeconomic trends and their implications on investment opportunities. Her work focuses on understanding the impact of AI on the global economy, a theme she has explored in depth through interviews, discussions, and her book, The Stolgaard Incident. Alden's insights are sought after by investors and tech enthusiasts alike, as she provides a unique perspective on how AI can reshape economic landscapes and create new investment avenues. Her contributions to the field have made her a respected figure in the realm of economic analysis and AI's influence on it.",
+      "derived": {
+        "current_role": "Expert in Macroeconomic Trends and Investment Analysis",
+        "books_or_works": "The Stolgaard Incident (a science fiction thriller exploring the macroeconomic consequences of AI)"
+      },
+      "infobox": {
+        "Born": "",
+        "Nationality": ""
+      },
+      "lead_paragraphs": [
+        "Lynn Alden has established herself as a prominent voice in the analysis of macroeconomic trends and their implications on investment opportunities. Her work focuses on understanding the impact of AI on the global economy, a theme she has explored in depth through interviews, discussions, and her book, The Stolgaard Incident.",
+        "Alden's insights are sought after by investors and tech enthusiasts alike, as she provides a unique perspective on how AI can reshape economic landscapes and create new investment avenues. Her contributions to the field have made her a respected figure in the realm of economic analysis and AI's influence on it."
+      ],
+      "sections": [
+        {
+          "heading": "AI's Economic Impact",
+          "body": "Lynn Alden has been vocal about the potential economic consequences of AI, discussing both the positive and negative impacts it could have on various sectors of the economy."
+        },
+        {
+          "heading": "Investment Opportunities",
+          "body": "Alden's analysis often highlights emerging investment opportunities that arise from the advancements in AI technology and its integration into different industries."
+        },
+        {
+          "heading": "Macroeconomic Trends",
+          "body": "She has a deep understanding of macroeconomic trends and how they are influenced by technological advancements, particularly in the field of AI."
+        },
+        {
+          "heading": "Public Discussions",
+          "body": "Lynn Alden frequently participates in public discussions and interviews, sharing her insights on the intersection of AI and economics with a broader audience."
+        }
+      ]
+    },
+    "net_worth": "$4.6M"
   },
   {
     "id": 277,
