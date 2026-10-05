@@ -1,5 +1,23 @@
 [
   {
+    "id": 552,
+    "podcast_name": "The a16z Show",
+    "episode_title": "The Top 100 Consumer AI Apps: Who\u2019s Actually Paying?",
+    "episode_date": "2026-10-05",
+    "summary": "Elena Berger spoke with a16z partners Olivia Moore and Josh Elman about the seventh edition of the Top 100 Consumer AI Apps report. Moore said the report has evolved from ranking AI-native websites by traffic to incorporating mobile usage and, for the first time, consumer card spend data. She argued that traffic alone now misses important consumer AI behavior because 29 of the 50 products ranked by spend were not on either traffic list.",
+    "key_takeaways": [
+      "Olivia Moore said the seventh Top 100 Consumer AI Apps report added consumer card spend data, and 29 of the 50 products ranked by spend did not appear on either traffic list.",
+      "Olivia Moore claimed consumer AI remains a power-user market because about 4.5% of U.S. consumers pay for an AI subscription, while the top 1% of payers spend $903 per month and the median payer spends $25.",
+      "Olivia Moore argued that direct subscriptions dominate consumer AI monetization today because about 85% of the web list monetizes with subscriptions, 62% uses credits or token-based payments, and only 13% has ads or similar models.",
+      "Olivia Moore said OpenAI had reached a $1 billion annualized advertising run rate as of August, helped by 1.2 billion reported weekly active users and the ability to target commercial-intent conversations.",
+      "Olivia Moore claimed ChatGPT still dominates consumer AI, with roughly 6x Claude's web usage and 2x Gemini's web usage, while Claude has passed Gemini in U.S. paid subscribers in the spend panel.",
+      "Josh Elman argued that value is moving back to the software layer because products can combine model access, custom interfaces, context, and communities rather than functioning as simple wrappers.",
+      "Olivia Moore argued that dating, recruiting, social AI, shopping, home buying, gaming, and entertainment remain wide-open consumer AI categories because most current successes still center on getting things done."
+    ],
+    "investment_thesis": "Olivia Moore showed that only about 4.5% of U.S. consumers pay for AI subscriptions, while the top 1% of payers spend $903 per month, showing consumer AI revenue remains power-user concentrated.",
+    "key_tickers": null
+  },
+  {
     "id": 551,
     "podcast_name": "The a16z Show",
     "episode_title": "David George & Jack Altman on AI, Autonomy, and the Next $25 Trillion",
