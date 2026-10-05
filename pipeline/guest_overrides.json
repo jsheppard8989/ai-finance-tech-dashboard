@@ -10,6 +10,8 @@
     "OpenClaw",
     "Ground Infrastructure",
     "From Models to Mobility",
+    "Beyond the God Model",
+    "Rebuilding the Internet for Privacy",
     "Navigating the SaaS Apocalypse",
     "Building Agents at Home",
     "This special episode",
@@ -38,7 +40,16 @@
     "Harvard Professor Graham Allison": "Graham Allison",
     "Box CEO Aaron Levie": "Aaron Levie",
     "Senator John Fetterman on Voting Rights": null,
-    "Meta CTO Andrew 'Boz' Bosworth": "Andrew Bosworth"
+    "Meta CTO Andrew 'Boz' Bosworth": "Andrew Bosworth",
+    "Elena Berger": "Elena Burger"
+  },
+  "episode_title_guest": {
+    "Beyond the God Model | Alex Atallah & Amjad Masad": "Alex Atallah & Amjad Masad",
+    "Rebuilding the Internet for Privacy | Barrett Lyon on DoxxNet": "Barrett Lyon"
+  },
+  "insight_guest_by_id": {
+    "564": "Alex Atallah & Amjad Masad",
+    "557": "Barrett Lyon"
   },
   "overrides": {
     "Graham Allison": {

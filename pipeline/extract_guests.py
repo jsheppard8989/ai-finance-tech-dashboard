@@ -81,7 +81,13 @@ def load_overrides():
     global _OVERRIDES_CACHE
     if _OVERRIDES_CACHE is not None:
         return _OVERRIDES_CACHE
-    data = {"blocklist": [], "fixes": {}, "overrides": {}}
+    data = {
+        "blocklist": [],
+        "fixes": {},
+        "overrides": {},
+        "episode_title_guest": {},
+        "insight_guest_by_id": {},
+    }
     if OVERRIDES_PATH.exists():
         try:
             with open(OVERRIDES_PATH, "r") as f:
@@ -90,6 +96,8 @@ def load_overrides():
                 data["blocklist"] = raw.get("blocklist", []) or []
                 data["fixes"] = raw.get("fixes", {}) or {}
                 data["overrides"] = raw.get("overrides", {}) or {}
+                data["episode_title_guest"] = raw.get("episode_title_guest", {}) or {}
+                data["insight_guest_by_id"] = raw.get("insight_guest_by_id", {}) or {}
         except Exception:
             pass
     _OVERRIDES_CACHE = data
@@ -191,6 +199,11 @@ def extract_guest_name(episode_title: str, summary: str, podcast_name: str = "")
     """
     title = (episode_title or "").strip()
     summary = (summary or "").strip()
+
+    ov = load_overrides()
+    title_guest = (ov.get("episode_title_guest") or {}).get(title)
+    if title_guest:
+        return title_guest.strip()
 
     def ok(name):
         cleaned = normalize_guest_name(name)

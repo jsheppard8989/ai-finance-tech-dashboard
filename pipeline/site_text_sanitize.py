@@ -66,6 +66,8 @@ ASR_CORRECTIONS: list[tuple[str, str, bool]] = [
     ("Jen Cos", "Jen Costa", True),
     ("An Eshicharya", "Anish Acharya", True),
     ("an Eshicharya", "Anish Acharya", True),
+    ("Elena Berger", "Elena Burger", True),
+    ("Palmer Lucky", "Palmer Luckey", True),
 ]
 
 # Pre-compile the correction patterns for efficiency

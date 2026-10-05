@@ -1,29 +1,5 @@
 [
   {
-    "id": 80441,
-    "name": "Beyond the God Model",
-    "slug": "beyond-the-god-model",
-    "bio": null,
-    "known_for": null,
-    "last_main_idea": "Alex Atallah argues AI infrastructure will shift toward neurodiverse routing across multiple models because enterprises want lower cost, less lock-in, and task-specific intelligence beyond ChatGPT or Claude.",
-    "last_episode_title": "Beyond the God Model | Alex Atallah & Amjad Masad",
-    "last_podcast_name": "The a16z Show",
-    "last_episode_date": "2026-10-03",
-    "appearance_count": 1
-  },
-  {
-    "id": 80442,
-    "name": "Rebuilding the Internet for Privacy",
-    "slug": "rebuilding-the-internet-for-privacy",
-    "bio": null,
-    "known_for": null,
-    "last_main_idea": "Barrett Lyon argues DoxxNet differs from VPNs by owning hardware across 26 sites and enabling encrypted peer-to-peer communication without central servers, reducing leased-server and insider-threat exposure.",
-    "last_episode_title": "Rebuilding the Internet for Privacy | Barrett Lyon on DoxxNet",
-    "last_podcast_name": "The a16z Show",
-    "last_episode_date": "2026-10-01",
-    "appearance_count": 1
-  },
-  {
     "id": 80443,
     "name": "Token Bill Dwarfs CPU Bill",
     "slug": "token-bill-dwarfs-cpu-bill",
