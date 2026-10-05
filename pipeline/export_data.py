@@ -15,6 +15,7 @@ import sqlite3
 sys.path.insert(0, str(Path(__file__).parent))
 from db_manager import get_db
 from site_text_sanitize import sanitize_public_text, strip_cjk_public_text
+from extract_guests import load_overrides
 from workspace_paths import (
     DB_PATH,
     PIPELINE_DIR,
@@ -1006,6 +1007,19 @@ def _rss_filter_criteria():
     return criteria
 
 
+def _apply_guest_export_overrides(main_content: dict, podcast_guests: list) -> tuple[dict, list]:
+    """Stamp insight guest lines and drop blocklisted title-fragment guests."""
+    ov = load_overrides()
+    by_insight = ov.get("insight_guest_by_id") or {}
+    block = set(ov.get("blocklist") or [])
+    for ins in main_content.get("insights", []) or []:
+        override = by_insight.get(str(ins.get("id")))
+        if override:
+            ins["guest_name"] = override
+    filtered = [g for g in podcast_guests if (g.get("name") or "") not in block]
+    return main_content, filtered
+
+
 def generate_website_js():
     """Generate JavaScript file with data for website."""
     print("\n" + "="*60)
@@ -1021,6 +1035,7 @@ def generate_website_js():
     deepdives = sanitize_public_text(db.get_all_deep_dive_content())
     suggested_terms = sanitize_public_text(db.get_suggested_terms_for_website(limit=4))
     podcast_guests = sanitize_public_text(db.get_podcast_guests_for_site(limit=20))
+    main_content, podcast_guests = _apply_guest_export_overrides(main_content, podcast_guests)
     # Load pundits (semantic layer) from JSON exported by export_for_website
     pundits_path = site_dir / "pundits.json"
     try:

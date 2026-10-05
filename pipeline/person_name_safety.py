@@ -42,6 +42,10 @@ _TRANSCRIPTION_CANONICAL_NAMES: dict[str, str] = {
     "david sachs": "David Sacks",
     "dave sacks": "David Sacks",
     "dave sachs": "David Sacks",
+    # a16z host Elena Burger (not Berger)
+    "elena berger": "Elena Burger",
+    # Palmer Luckey — common ASR / summary typo
+    "palmer lucky": "Palmer Luckey",
 }
 
 
