@@ -513,13 +513,26 @@ def promote_episodes_to_insights() -> int:
         # Derive tickers_mentioned from key_tickers JSON
         tickers = ep['key_tickers'] or '[]'
 
-        # Infer sentiment from summary/thesis keywords
+        # Sentiment rule (neutral-default): only set bullish/bearish when the
+        # summary itself says a market, company, or asset should move in a
+        # direction. A negative-sounding topic (conquest, censorship, acquisition)
+        # is NOT a direction. Prefer an explicit analyzer sentiment if stored;
+        # otherwise default to neutral.
+        sentiment = 'neutral'
         text = ((ep['summary'] or '') + ' ' + (ep['investment_thesis'] or '')).lower()
-        bullish_words = ['bullish', 'buy', 'long', 'upside', 'opportunity', 'growth', 'breakout', 'undervalued']
-        bearish_words = ['bearish', 'sell', 'short', 'downside', 'risk', 'collapse', 'overvalued', 'avoid']
-        bull_score = sum(1 for w in bullish_words if w in text)
-        bear_score = sum(1 for w in bearish_words if w in text)
-        sentiment = 'bullish' if bull_score > bear_score else ('bearish' if bear_score > bull_score else 'neutral')
+        # Explicit directional phrases — not loose topic keywords
+        bullish_phrases = [
+            'bullish on', 'shares should rise', 'price target above', 'buy rating',
+            'upgrade to buy', 'expect gains', 'upside to', 'long position',
+        ]
+        bearish_phrases = [
+            'bearish on', 'shares should fall', 'price target below', 'sell rating',
+            'downgrade to sell', 'expect losses', 'downside to', 'short position',
+        ]
+        if any(p in text for p in bullish_phrases):
+            sentiment = 'bullish'
+        elif any(p in text for p in bearish_phrases):
+            sentiment = 'bearish'
 
         # Date consistency: source_date MUST equal episode release date so insights and pundits show the same date for the same episode.
         ep_date = ep['episode_date']
@@ -679,7 +692,7 @@ Return JSON with:
 - "summary": 2-3 sentence summary of key investment implications
 - "key_takeaway": ONE sentence, under 40 words, stating the newsletter's single most important specific claim. Include at least one checkable detail (a number, date, named company or ticker, or the mechanism). State what the author claims; never tell the reader what to do. Never use "Investors should", "Investors need to", "Consider", "Invest in", "Focus on", or "Monitor". Use only facts from the newsletter; never invent numbers. BAD: "Investors should watch rising yields." GOOD shape: "[Author] says [specific claim with a number, date, or named company], because [mechanism]."
 - "tickers": list of relevant ticker symbols mentioned
-- "sentiment": "bullish", "bearish", or "neutral"
+- "sentiment": "bullish", "bearish", or "neutral" — Default to neutral. Use bullish or bearish ONLY when the summary itself says a market, company, or asset should move in a specific direction (e.g. "shares should rise", "price target above", "downgrade to sell"). A topic that sounds negative (censorship, acquisition, layoffs) is NOT a direction; mark it neutral.
 """
                 from analyze_transcript import resolve_llm_model
                 client_type, client = client_info
