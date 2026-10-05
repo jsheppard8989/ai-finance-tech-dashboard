@@ -3,1085 +3,1085 @@
 
 const dashboardData = {
   schemaVersion: 2,
-  generatedAt: "2026-10-04T14:16:04.017396",
-  chartsVersion: "2026-10-04T14:15:48.169135",
+  generatedAt: "2026-10-04T22:34:01.653498",
+  chartsVersion: "2026-10-04T22:33:53.143017",
   priceSnapshot: {
   "AAPL": {
     "price": 333.69,
     "change_pct": 0.71,
     "name": "Apple Inc.",
-    "updated_at": "2026-10-04T14:14:25.790950",
+    "updated_at": "2026-10-04T22:32:49.514010",
     "price_14d_ago": 331.34
   },
   "AEP": {
     "price": 119.57,
     "change_pct": -0.86,
     "name": "American Electric Power Company",
-    "updated_at": "2026-10-04T14:14:26.023892",
+    "updated_at": "2026-10-04T22:32:49.742530",
     "price_14d_ago": 120.61
   },
   "AMD": {
     "price": 633.91,
     "change_pct": 25.73,
     "name": "Advanced Micro Devices, Inc.",
-    "updated_at": "2026-10-04T14:14:26.269780",
+    "updated_at": "2026-10-04T22:32:49.906253",
     "price_14d_ago": 504.2
   },
   "AMGN": {
     "price": 403.04,
     "change_pct": 7.29,
     "name": "Amgen Inc.",
-    "updated_at": "2026-10-04T14:14:26.460832",
+    "updated_at": "2026-10-04T22:32:50.084512",
     "price_14d_ago": 375.65
   },
   "AMZN": {
     "price": 251.52,
     "change_pct": 1.25,
     "name": "Amazon.com, Inc.",
-    "updated_at": "2026-10-04T14:14:26.640348",
+    "updated_at": "2026-10-04T22:32:50.244343",
     "price_14d_ago": 248.42
   },
   "APO": {
     "price": 114.02,
     "change_pct": -10.22,
     "name": "Apollo Global Management, Inc. ",
-    "updated_at": "2026-10-04T14:14:26.964867",
+    "updated_at": "2026-10-04T22:32:50.415304",
     "price_14d_ago": 127.0
   },
   "APTV": {
     "price": 43.54,
     "change_pct": -0.48,
     "name": "Aptiv PLC",
-    "updated_at": "2026-10-04T14:14:27.152271",
+    "updated_at": "2026-10-04T22:32:50.586356",
     "price_14d_ago": 43.75
   },
   "AVGO": {
     "price": 355.14,
     "change_pct": 4.68,
     "name": "Broadcom Inc.",
-    "updated_at": "2026-10-04T14:14:27.525770",
+    "updated_at": "2026-10-04T22:32:51.003244",
     "price_14d_ago": 339.27
   },
   "BA": {
     "price": 193.56,
     "change_pct": -7.69,
     "name": "Boeing Company (The)",
-    "updated_at": "2026-10-04T14:14:27.922963",
+    "updated_at": "2026-10-04T22:32:51.402712",
     "price_14d_ago": 209.69
   },
   "BABA": {
     "price": 105.85,
     "change_pct": -3.19,
     "name": "Alibaba Group Holding Limited",
-    "updated_at": "2026-10-04T14:14:28.091660",
+    "updated_at": "2026-10-04T22:32:51.566991",
     "price_14d_ago": 109.34
   },
   "BAC": {
     "price": 53.75,
     "change_pct": -9.69,
     "name": "Bank of America Corporation",
-    "updated_at": "2026-10-04T14:14:28.297622",
+    "updated_at": "2026-10-04T22:32:51.768341",
     "price_14d_ago": 59.52
   },
   "BAM": {
     "price": 44.85,
     "change_pct": -2.16,
     "name": "Brookfield Asset Management Inc",
-    "updated_at": "2026-10-04T14:14:28.482256",
+    "updated_at": "2026-10-04T22:32:51.998611",
     "price_14d_ago": 45.84
   },
   "BIDU": {
     "price": 84.32,
     "change_pct": -6.72,
     "name": "Baidu, Inc.",
-    "updated_at": "2026-10-04T14:14:29.057967",
+    "updated_at": "2026-10-04T22:32:52.392728",
     "price_14d_ago": 90.39
   },
   "BP": {
     "price": 44.79,
     "change_pct": -4.62,
     "name": "BP p.l.c.",
-    "updated_at": "2026-10-04T14:14:29.594447",
+    "updated_at": "2026-10-04T22:32:52.773598",
     "price_14d_ago": 46.96
   },
   "BTC": {
-    "price": 85373.03,
-    "change_pct": -1.42,
+    "price": 86385.38,
+    "change_pct": 0.25,
     "name": "Bitcoin USD",
-    "updated_at": "2026-10-04T14:14:29.767140",
-    "price_14d_ago": 86602.91
+    "updated_at": "2026-10-04T22:32:52.943312",
+    "price_14d_ago": 86172.28
   },
   "BTC-USD": {
-    "price": 85373.03,
-    "change_pct": -1.42,
+    "price": 86385.38,
+    "change_pct": 0.25,
     "name": "Bitcoin USD",
-    "updated_at": "2026-10-04T14:14:29.936629",
-    "price_14d_ago": 86602.91
+    "updated_at": "2026-10-04T22:32:53.114417",
+    "price_14d_ago": 86172.28
   },
   "BX": {
     "price": 111.75,
     "change_pct": -11.8,
     "name": "Blackstone Inc.",
-    "updated_at": "2026-10-04T14:14:30.127685",
+    "updated_at": "2026-10-04T22:32:53.306782",
     "price_14d_ago": 126.7
   },
   "BYD": {
     "price": 67.25,
     "change_pct": -11.61,
     "name": "Boyd Gaming Corporation",
-    "updated_at": "2026-10-04T14:14:30.323660",
+    "updated_at": "2026-10-04T22:32:53.501884",
     "price_14d_ago": 76.08
   },
   "CAT": {
     "price": 845.42,
     "change_pct": 7.9,
     "name": "Caterpillar, Inc.",
-    "updated_at": "2026-10-04T14:14:30.866125",
+    "updated_at": "2026-10-04T22:32:53.951682",
     "price_14d_ago": 783.54
   },
   "CCJ": {
     "price": 85.18,
     "change_pct": -6.61,
     "name": "Cameco Corporation",
-    "updated_at": "2026-10-04T14:14:31.072810",
+    "updated_at": "2026-10-04T22:32:54.143696",
     "price_14d_ago": 91.21
   },
   "CEG": {
     "price": 257.49,
     "change_pct": -0.92,
     "name": "Constellation Energy Corporatio",
-    "updated_at": "2026-10-04T14:14:31.425055",
+    "updated_at": "2026-10-04T22:32:54.317634",
     "price_14d_ago": 259.89
   },
   "COIN": {
     "price": 183.0,
     "change_pct": 6.33,
     "name": "Coinbase Global, Inc.",
-    "updated_at": "2026-10-04T14:14:31.730960",
+    "updated_at": "2026-10-04T22:32:54.483560",
     "price_14d_ago": 172.11
   },
   "COPPER": {
-    "price": 6.55,
-    "change_pct": 2.83,
+    "price": 6.58,
+    "change_pct": 2.25,
     "name": "Copper",
-    "updated_at": "2026-10-04T14:14:31.940734",
-    "price_14d_ago": 6.37
+    "updated_at": "2026-10-04T22:32:54.652600",
+    "price_14d_ago": 6.43
   },
   "CORN": {
     "price": 18.85,
     "change_pct": -5.94,
     "name": "Teucrium Corn Fund ETV",
-    "updated_at": "2026-10-04T14:14:32.109211",
+    "updated_at": "2026-10-04T22:32:54.819925",
     "price_14d_ago": 20.04
   },
   "CRM": {
     "price": 234.69,
     "change_pct": -8.2,
     "name": "Salesforce, Inc.",
-    "updated_at": "2026-10-04T14:14:32.310956",
+    "updated_at": "2026-10-04T22:32:55.062009",
     "price_14d_ago": 255.65
   },
   "CROWD": {
     "price": 270.04,
     "change_pct": 11.36,
     "name": "CrowdStrike Holdings, Inc.",
-    "updated_at": "2026-10-04T14:14:32.575275",
+    "updated_at": "2026-10-04T22:32:55.229579",
     "price_14d_ago": 242.49
   },
   "DBC": {
     "price": 32.54,
     "change_pct": -3.38,
     "name": "Invesco DB Commodity Index Trac",
-    "updated_at": "2026-10-04T14:14:33.380087",
+    "updated_at": "2026-10-04T22:32:55.740275",
     "price_14d_ago": 33.68
   },
   "DELL": {
     "price": 562.52,
     "change_pct": 3.5,
     "name": "Dell Technologies Inc.",
-    "updated_at": "2026-10-04T14:14:33.780171",
+    "updated_at": "2026-10-04T22:32:55.912622",
     "price_14d_ago": 543.51
   },
   "DIS": {
     "price": 102.19,
     "change_pct": -3.97,
     "name": "Walt Disney Company (The)",
-    "updated_at": "2026-10-04T14:14:34.055603",
+    "updated_at": "2026-10-04T22:32:56.142378",
     "price_14d_ago": 106.42
   },
   "DOCS": {
     "price": 27.93,
     "change_pct": 8.21,
     "name": "Doximity, Inc.",
-    "updated_at": "2026-10-04T14:14:34.226109",
+    "updated_at": "2026-10-04T22:32:56.312888",
     "price_14d_ago": 25.81
   },
   "DVN": {
     "price": 47.65,
     "change_pct": -7.17,
     "name": "Devon Energy Corporation",
-    "updated_at": "2026-10-04T14:14:34.417360",
+    "updated_at": "2026-10-04T22:32:56.515721",
     "price_14d_ago": 51.33
   },
   "EBAY": {
     "price": 106.4,
     "change_pct": -1.51,
     "name": "eBay Inc.",
-    "updated_at": "2026-10-04T14:14:34.643180",
+    "updated_at": "2026-10-04T22:32:56.689451",
     "price_14d_ago": 108.03
   },
   "ETH-USD": {
-    "price": 2701.17,
-    "change_pct": -2.71,
+    "price": 2726.98,
+    "change_pct": -0.93,
     "name": "Ethereum USD",
-    "updated_at": "2026-10-04T14:14:34.937993",
-    "price_14d_ago": 2776.47
+    "updated_at": "2026-10-04T22:32:56.856833",
+    "price_14d_ago": 2752.63
   },
   "F": {
     "price": 12.1,
     "change_pct": -10.37,
     "name": "Ford Motor Company",
-    "updated_at": "2026-10-04T14:14:35.162534",
+    "updated_at": "2026-10-04T22:32:57.078048",
     "price_14d_ago": 13.5
   },
   "FB": {
     "price": 45.65,
     "change_pct": 0.61,
     "name": "ProShares S&P 500 Dynamic Buffe",
-    "updated_at": "2026-10-04T14:14:35.325590",
+    "updated_at": "2026-10-04T22:32:57.243984",
     "price_14d_ago": 45.38
   },
   "FCX": {
     "price": 72.04,
     "change_pct": 3.83,
     "name": "Freeport-McMoRan, Inc.",
-    "updated_at": "2026-10-04T14:14:35.519790",
+    "updated_at": "2026-10-04T22:32:57.433290",
     "price_14d_ago": 69.38
   },
   "FSK": {
     "price": 10.97,
     "change_pct": -8.58,
     "name": "FS KKR Capital Corp.",
-    "updated_at": "2026-10-04T14:14:36.170508",
+    "updated_at": "2026-10-04T22:32:58.102161",
     "price_14d_ago": 12.0
   },
   "GC": {
     "price": 0,
     "change_pct": 0,
     "name": "Gold",
-    "updated_at": "2026-10-04T14:14:36.491787",
+    "updated_at": "2026-10-04T22:32:58.273275",
     "price_14d_ago": null
   },
   "GD": {
     "price": 330.09,
     "change_pct": -7.95,
     "name": "General Dynamics Corporation",
-    "updated_at": "2026-10-04T14:14:36.755816",
+    "updated_at": "2026-10-04T22:32:58.497969",
     "price_14d_ago": 358.6
   },
   "GE": {
     "price": 309.56,
     "change_pct": 0.82,
     "name": "GE Aerospace",
-    "updated_at": "2026-10-04T14:14:37.057598",
+    "updated_at": "2026-10-04T22:32:58.717133",
     "price_14d_ago": 307.05
   },
   "GLD": {
     "price": 380.14,
     "change_pct": -3.55,
     "name": "SPDR Gold Shares",
-    "updated_at": "2026-10-04T14:14:37.222345",
+    "updated_at": "2026-10-04T22:32:58.887728",
     "price_14d_ago": 394.15
   },
   "GME": {
     "price": 24.7,
     "change_pct": 15.21,
     "name": "GameStop Corporation",
-    "updated_at": "2026-10-04T14:14:37.482861",
+    "updated_at": "2026-10-04T22:32:59.062595",
     "price_14d_ago": 21.44
   },
   "GOLD": {
-    "price": 4162.3,
-    "change_pct": -3.94,
+    "price": 4169.1,
+    "change_pct": -4.98,
     "name": "Gold",
-    "updated_at": "2026-10-04T14:14:37.716108",
-    "price_14d_ago": 4332.8
+    "updated_at": "2026-10-04T22:32:59.229318",
+    "price_14d_ago": 4387.5
   },
   "GOOG": {
     "price": 340.35,
     "change_pct": -0.32,
     "name": "Alphabet Inc.",
-    "updated_at": "2026-10-04T14:14:37.928526",
+    "updated_at": "2026-10-04T22:32:59.408898",
     "price_14d_ago": 341.43
   },
   "GOOGL": {
     "price": 343.5,
     "change_pct": -0.43,
     "name": "Alphabet Inc.",
-    "updated_at": "2026-10-04T14:14:38.194615",
+    "updated_at": "2026-10-04T22:32:59.616848",
     "price_14d_ago": 344.98
   },
   "GS": {
     "price": 902.56,
     "change_pct": -7.59,
     "name": "Goldman Sachs Group, Inc. (The)",
-    "updated_at": "2026-10-04T14:14:38.400363",
+    "updated_at": "2026-10-04T22:32:59.805254",
     "price_14d_ago": 976.67
   },
   "Gold": {
     "price": 42.29,
     "change_pct": -11.53,
     "name": "Gold.com, Inc.",
-    "updated_at": "2026-10-04T14:14:38.582496",
+    "updated_at": "2026-10-04T22:32:59.992619",
     "price_14d_ago": 47.8
   },
   "HFGM": {
     "price": 31.75,
     "change_pct": -0.31,
     "name": "Unlimited HFGM Global Macro ETF",
-    "updated_at": "2026-10-04T14:14:38.850522",
+    "updated_at": "2026-10-04T22:33:00.251323",
     "price_14d_ago": 31.85
   },
   "HG": {
     "price": 34.13,
     "change_pct": -3.2,
     "name": "Hamilton Insurance Group, Ltd.",
-    "updated_at": "2026-10-04T14:14:39.038127",
+    "updated_at": "2026-10-04T22:33:00.418701",
     "price_14d_ago": 35.26
   },
   "IBM": {
     "price": 222.64,
     "change_pct": -10.36,
     "name": "International Business Machines",
-    "updated_at": "2026-10-04T14:14:39.760809",
+    "updated_at": "2026-10-04T22:33:01.036144",
     "price_14d_ago": 248.37
   },
   "IEF": {
     "price": 89.05,
     "change_pct": -1.95,
     "name": "iShares 7-10 Year Treasury Bond",
-    "updated_at": "2026-10-04T14:14:39.943800",
+    "updated_at": "2026-10-04T22:33:01.220671",
     "price_14d_ago": 90.82
   },
   "INDA": {
     "price": 46.52,
     "change_pct": -2.25,
     "name": "Ishares MSCI India ETF",
-    "updated_at": "2026-10-04T14:14:40.122656",
+    "updated_at": "2026-10-04T22:33:01.410086",
     "price_14d_ago": 47.59
   },
   "INFY": {
     "price": 11.04,
     "change_pct": -2.47,
     "name": "Infosys Limited",
-    "updated_at": "2026-10-04T14:14:40.315282",
+    "updated_at": "2026-10-04T22:33:01.598771",
     "price_14d_ago": 11.32
   },
   "INTC": {
     "price": 119.33,
     "change_pct": 22.84,
     "name": "Intel Corporation",
-    "updated_at": "2026-10-04T14:14:40.611991",
+    "updated_at": "2026-10-04T22:33:01.790317",
     "price_14d_ago": 97.14
   },
   "IWD": {
     "price": 249.38,
     "change_pct": -1.62,
     "name": "iShares Russell 1000 Value ETF",
-    "updated_at": "2026-10-04T14:14:40.832364",
+    "updated_at": "2026-10-04T22:33:02.078825",
     "price_14d_ago": 253.49
   },
   "IWF": {
     "price": 127.07,
     "change_pct": 5.5,
     "name": "iShares Russell 1000 Growth Fun",
-    "updated_at": "2026-10-04T14:14:41.162301",
+    "updated_at": "2026-10-04T22:33:02.365155",
     "price_14d_ago": 120.45
   },
   "IWM": {
     "price": 281.52,
     "change_pct": -1.27,
     "name": "iShares Russell 2000 Index Fund",
-    "updated_at": "2026-10-04T14:14:41.492202",
+    "updated_at": "2026-10-04T22:33:02.546660",
     "price_14d_ago": 285.14
   },
   "JNJ": {
     "price": 256.03,
     "change_pct": -4.18,
     "name": "Johnson & Johnson",
-    "updated_at": "2026-10-04T14:14:41.723941",
+    "updated_at": "2026-10-04T22:33:02.761158",
     "price_14d_ago": 267.2
   },
   "JPM": {
     "price": 332.38,
     "change_pct": -5.71,
     "name": "JP Morgan Chase & Co.",
-    "updated_at": "2026-10-04T14:14:42.056005",
+    "updated_at": "2026-10-04T22:33:02.963932",
     "price_14d_ago": 352.49
   },
   "KKR": {
     "price": 90.29,
     "change_pct": -9.71,
     "name": "KKR & Co. Inc.",
-    "updated_at": "2026-10-04T14:14:42.234048",
+    "updated_at": "2026-10-04T22:33:03.149725",
     "price_14d_ago": 100.0
   },
   "LLY": {
     "price": 1142.85,
     "change_pct": 0.59,
     "name": "Eli Lilly and Company",
-    "updated_at": "2026-10-04T14:14:42.764444",
+    "updated_at": "2026-10-04T22:33:03.582625",
     "price_14d_ago": 1136.11
   },
   "LMT": {
     "price": 505.41,
     "change_pct": -5.26,
     "name": "Lockheed Martin Corporation",
-    "updated_at": "2026-10-04T14:14:43.072173",
+    "updated_at": "2026-10-04T22:33:03.799819",
     "price_14d_ago": 533.46
   },
   "LYFT": {
     "price": 15.46,
     "change_pct": -1.47,
     "name": "Lyft, Inc.",
-    "updated_at": "2026-10-04T14:14:43.727831",
+    "updated_at": "2026-10-04T22:33:04.301221",
     "price_14d_ago": 15.69
   },
   "META": {
     "price": 728.08,
     "change_pct": 8.63,
     "name": "Meta Platforms, Inc.",
-    "updated_at": "2026-10-04T14:14:43.906860",
+    "updated_at": "2026-10-04T22:33:04.476833",
     "price_14d_ago": 670.24
   },
   "MGM": {
     "price": 30.48,
     "change_pct": -22.28,
     "name": "MGM Resorts International",
-    "updated_at": "2026-10-04T14:14:44.101573",
+    "updated_at": "2026-10-04T22:33:04.660118",
     "price_14d_ago": 39.22
   },
   "MINE": {
     "price": 2.65,
     "change_pct": -7.99,
     "name": "Mayfair Gold Corp.",
-    "updated_at": "2026-10-04T14:14:44.274039",
+    "updated_at": "2026-10-04T22:33:04.831573",
     "price_14d_ago": 2.88
   },
   "MRK": {
     "price": 144.3,
     "change_pct": 0.35,
     "name": "Merck & Company, Inc.",
-    "updated_at": "2026-10-04T14:14:44.539056",
+    "updated_at": "2026-10-04T22:33:05.080366",
     "price_14d_ago": 143.79
   },
   "MRNA": {
     "price": 190.01,
     "change_pct": 32.16,
     "name": "Moderna, Inc.",
-    "updated_at": "2026-10-04T14:14:44.803109",
+    "updated_at": "2026-10-04T22:33:05.248275",
     "price_14d_ago": 143.77
   },
   "MS": {
     "price": 190.31,
     "change_pct": -7.74,
     "name": "Morgan Stanley",
-    "updated_at": "2026-10-04T14:14:45.007423",
+    "updated_at": "2026-10-04T22:33:05.439810",
     "price_14d_ago": 206.28
   },
   "MSFT": {
     "price": 517.53,
     "change_pct": 4.11,
     "name": "Microsoft Corporation",
-    "updated_at": "2026-10-04T14:14:45.273362",
+    "updated_at": "2026-10-04T22:33:05.633679",
     "price_14d_ago": 497.12
   },
   "MSTR": {
     "price": 160.01,
     "change_pct": 23.46,
     "name": "Strategy Inc",
-    "updated_at": "2026-10-04T14:14:45.452391",
+    "updated_at": "2026-10-04T22:33:05.803984",
     "price_14d_ago": 129.6
   },
   "MU": {
     "price": 1074.89,
     "change_pct": 15.88,
     "name": "Micron Technology, Inc.",
-    "updated_at": "2026-10-04T14:14:45.642549",
+    "updated_at": "2026-10-04T22:33:06.012380",
     "price_14d_ago": 927.6
   },
   "NEE": {
     "price": 76.83,
     "change_pct": -5.23,
     "name": "NextEra Energy, Inc.",
-    "updated_at": "2026-10-04T14:14:46.017413",
+    "updated_at": "2026-10-04T22:33:06.402646",
     "price_14d_ago": 81.07
   },
   "NFLX": {
     "price": 67.06,
     "change_pct": -13.92,
     "name": "Netflix, Inc.",
-    "updated_at": "2026-10-04T14:14:46.183711",
+    "updated_at": "2026-10-04T22:33:06.576091",
     "price_14d_ago": 77.9
   },
   "NKE": {
     "price": 33.87,
     "change_pct": -6.49,
     "name": "Nike, Inc.",
-    "updated_at": "2026-10-04T14:14:46.827451",
+    "updated_at": "2026-10-04T22:33:07.184603",
     "price_14d_ago": 36.22
   },
   "NOC": {
     "price": 478.0,
     "change_pct": -10.02,
     "name": "Northrop Grumman Corporation",
-    "updated_at": "2026-10-04T14:14:47.033934",
+    "updated_at": "2026-10-04T22:33:07.404775",
     "price_14d_ago": 531.25
   },
   "NVDA": {
     "price": 233.95,
     "change_pct": 10.27,
     "name": "NVIDIA Corporation",
-    "updated_at": "2026-10-04T14:14:47.218623",
+    "updated_at": "2026-10-04T22:33:07.589939",
     "price_14d_ago": 212.17
   },
   "NVS": {
     "price": 141.0,
     "change_pct": 1.72,
     "name": "Novartis AG",
-    "updated_at": "2026-10-04T14:14:47.583653",
+    "updated_at": "2026-10-04T22:33:07.983097",
     "price_14d_ago": 138.62
   },
   "Nasdaq": {
     "price": 749.58,
     "change_pct": 6.39,
     "name": "Invesco QQQ Trust, Series 1",
-    "updated_at": "2026-10-04T14:14:47.875053",
+    "updated_at": "2026-10-04T22:33:08.176870",
     "price_14d_ago": 704.54
   },
   "OKLO": {
     "price": 35.87,
     "change_pct": -0.31,
     "name": "Oklo Inc.",
-    "updated_at": "2026-10-04T14:14:48.425435",
+    "updated_at": "2026-10-04T22:33:08.514823",
     "price_14d_ago": 35.98
   },
   "ORCL": {
     "price": 142.3,
     "change_pct": 1.39,
     "name": "Oracle Corporation",
-    "updated_at": "2026-10-04T14:14:48.910763",
+    "updated_at": "2026-10-04T22:33:08.866435",
     "price_14d_ago": 140.35
   },
   "PALL": {
     "price": 21.25,
     "change_pct": -9.92,
     "name": "abrdn Physical Palladium Shares",
-    "updated_at": "2026-10-04T14:14:49.082617",
+    "updated_at": "2026-10-04T22:33:09.041159",
     "price_14d_ago": 23.59
   },
   "PANW": {
     "price": 403.24,
     "change_pct": 7.5,
     "name": "Palo Alto Networks, Inc.",
-    "updated_at": "2026-10-04T14:14:49.262389",
+    "updated_at": "2026-10-04T22:33:09.211236",
     "price_14d_ago": 375.09
   },
   "PBR": {
     "price": 21.65,
     "change_pct": -0.55,
     "name": "Petroleo Brasileiro S.A. Petrob",
-    "updated_at": "2026-10-04T14:14:49.561369",
+    "updated_at": "2026-10-04T22:33:09.402141",
     "price_14d_ago": 21.77
   },
   "PFE": {
     "price": 27.8,
     "change_pct": 0.91,
     "name": "Pfizer, Inc.",
-    "updated_at": "2026-10-04T14:14:49.958490",
+    "updated_at": "2026-10-04T22:33:09.771431",
     "price_14d_ago": 27.55
   },
   "PLTM": {
     "price": 16.35,
     "change_pct": -4.05,
     "name": "GraniteShares Platinum Shares E",
-    "updated_at": "2026-10-04T14:14:50.137081",
+    "updated_at": "2026-10-04T22:33:09.939275",
     "price_14d_ago": 17.04
   },
   "PLTR": {
     "price": 188.75,
     "change_pct": 9.38,
     "name": "Palantir Technologies Inc.",
-    "updated_at": "2026-10-04T14:14:50.308310",
+    "updated_at": "2026-10-04T22:33:10.103848",
     "price_14d_ago": 172.56
   },
   "PQT": {
     "price": 0,
     "change_pct": 0,
     "name": "PQT",
-    "updated_at": "2026-10-04T14:14:50.727441",
+    "updated_at": "2026-10-04T22:33:10.449055",
     "price_14d_ago": null
   },
   "PQUS": {
     "price": 28.78,
     "change_pct": 2.24,
     "name": "Pictet AI Enhanced US Equity ET",
-    "updated_at": "2026-10-04T14:14:51.092371",
+    "updated_at": "2026-10-04T22:33:10.684731",
     "price_14d_ago": 28.15
   },
   "PSBD": {
     "price": 9.77,
     "change_pct": -4.03,
     "name": "Palmer Square Capital BDC Inc.",
-    "updated_at": "2026-10-04T14:14:51.305182",
+    "updated_at": "2026-10-04T22:33:10.862243",
     "price_14d_ago": 10.18
   },
   "PYPL": {
     "price": 52.8,
     "change_pct": -1.88,
     "name": "PayPal Holdings, Inc.",
-    "updated_at": "2026-10-04T14:14:51.516676",
+    "updated_at": "2026-10-04T22:33:11.042005",
     "price_14d_ago": 53.81
   },
   "QQQ": {
     "price": 749.58,
     "change_pct": 6.39,
     "name": "Invesco QQQ Trust, Series 1",
-    "updated_at": "2026-10-04T14:14:51.767889",
+    "updated_at": "2026-10-04T22:33:11.247514",
     "price_14d_ago": 704.54
   },
   "QTA": {
     "price": 0,
     "change_pct": 0,
     "name": "QTA",
-    "updated_at": "2026-10-04T14:14:52.056325",
+    "updated_at": "2026-10-04T22:33:11.417685",
     "price_14d_ago": null
   },
   "RBLX": {
     "price": 44.12,
     "change_pct": -12.18,
     "name": "Roblox Corporation",
-    "updated_at": "2026-10-04T14:14:52.314956",
+    "updated_at": "2026-10-04T22:33:11.586440",
     "price_14d_ago": 50.24
   },
   "RKLB": {
     "price": 73.92,
     "change_pct": 16.32,
     "name": "Rocket Lab Corporation",
-    "updated_at": "2026-10-04T14:14:52.600221",
+    "updated_at": "2026-10-04T22:33:11.750290",
     "price_14d_ago": 63.55
   },
   "Russell": {
     "price": 281.52,
     "change_pct": -1.27,
     "name": "iShares Russell 2000 Index Fund",
-    "updated_at": "2026-10-04T14:14:53.053003",
+    "updated_at": "2026-10-04T22:33:12.114903",
     "price_14d_ago": 285.14
   },
   "S&P": {
     "price": 7722.72,
     "change_pct": 1.81,
     "name": "S&P 500",
-    "updated_at": "2026-10-04T14:14:53.438304",
+    "updated_at": "2026-10-04T22:33:12.283763",
     "price_14d_ago": 7585.73
   },
   "S&P 500": {
     "price": 7722.72,
     "change_pct": 1.81,
     "name": "S&P 500",
-    "updated_at": "2026-10-04T14:14:53.652359",
+    "updated_at": "2026-10-04T22:33:12.450391",
     "price_14d_ago": 7585.73
   },
   "SAMSUNG ELECTRONICS": {
     "price": 276000.0,
     "change_pct": 6.36,
     "name": "SamsungElec",
-    "updated_at": "2026-10-04T14:14:53.837391",
+    "updated_at": "2026-10-04T22:33:12.638210",
     "price_14d_ago": 259500.0
   },
   "SAP": {
     "price": 208.57,
     "change_pct": -3.29,
     "name": "SAP  SE",
-    "updated_at": "2026-10-04T14:14:54.124645",
+    "updated_at": "2026-10-04T22:33:12.826685",
     "price_14d_ago": 215.67
   },
   "SF": {
     "price": 70.28,
     "change_pct": -8.51,
     "name": "Stifel Financial Corporation",
-    "updated_at": "2026-10-04T14:14:54.369566",
+    "updated_at": "2026-10-04T22:33:13.028580",
     "price_14d_ago": 76.82
   },
   "SK HYNIX": {
     "price": 1841000.0,
     "change_pct": 1.6,
     "name": "SK hynix",
-    "updated_at": "2026-10-04T14:14:54.581123",
+    "updated_at": "2026-10-04T22:33:13.226568",
     "price_14d_ago": 1812000.0
   },
   "SLB": {
     "price": 48.74,
     "change_pct": -10.07,
     "name": "SLB Limited",
-    "updated_at": "2026-10-04T14:14:54.790071",
+    "updated_at": "2026-10-04T22:33:13.423843",
     "price_14d_ago": 54.2
   },
   "SMH": {
     "price": 630.6,
     "change_pct": 16.32,
     "name": "VanEck Semiconductor ETF",
-    "updated_at": "2026-10-04T14:14:55.031340",
+    "updated_at": "2026-10-04T22:33:13.601744",
     "price_14d_ago": 542.11
   },
   "SMP-500": {
     "price": 7722.72,
     "change_pct": 1.81,
     "name": "S&P 500",
-    "updated_at": "2026-10-04T14:14:55.194434",
+    "updated_at": "2026-10-04T22:33:13.769609",
     "price_14d_ago": 7585.73
   },
   "SMR": {
     "price": 7.75,
     "change_pct": -8.07,
     "name": "NuScale Power Corporation",
-    "updated_at": "2026-10-04T14:14:55.458669",
+    "updated_at": "2026-10-04T22:33:13.938906",
     "price_14d_ago": 8.43
   },
   "SNAP": {
     "price": 5.58,
     "change_pct": -4.29,
     "name": "Snap Inc.",
-    "updated_at": "2026-10-04T14:14:55.684417",
+    "updated_at": "2026-10-04T22:33:14.108094",
     "price_14d_ago": 5.83
   },
   "SNWGF": {
     "price": 11.68,
     "change_pct": 3.09,
     "name": "SNOWLINE GOLD CORP",
-    "updated_at": "2026-10-04T14:14:55.979231",
+    "updated_at": "2026-10-04T22:33:14.284832",
     "price_14d_ago": 11.33
   },
   "SOYB": {
     "price": 27.22,
     "change_pct": -2.61,
     "name": "Teucrium Soybean Fund ETV",
-    "updated_at": "2026-10-04T14:14:56.167716",
+    "updated_at": "2026-10-04T22:33:14.451380",
     "price_14d_ago": 27.95
   },
   "SPCE": {
     "price": 3.03,
     "change_pct": -0.33,
     "name": "Virgin Galactic Holdings, Inc.",
-    "updated_at": "2026-10-04T14:14:56.346443",
+    "updated_at": "2026-10-04T22:33:14.614955",
     "price_14d_ago": 3.04
   },
   "SPX": {
     "price": 7722.72,
     "change_pct": 1.81,
     "name": "S&P 500",
-    "updated_at": "2026-10-04T14:14:57.090244",
+    "updated_at": "2026-10-04T22:33:15.118106",
     "price_14d_ago": 7585.73
   },
   "SPY": {
     "price": 769.64,
     "change_pct": 1.62,
     "name": "State Street SPDR S&P 500 ETF T",
-    "updated_at": "2026-10-04T14:14:57.428821",
+    "updated_at": "2026-10-04T22:33:15.314473",
     "price_14d_ago": 757.39
   },
   "SQQQ": {
     "price": 33.12,
     "change_pct": -18.46,
     "name": "ProShares UltraPro Short QQQ",
-    "updated_at": "2026-10-04T14:14:57.690530",
+    "updated_at": "2026-10-04T22:33:15.487530",
     "price_14d_ago": 40.62
   },
   "SQUARE": {
     "price": 74.33,
     "change_pct": -5.08,
     "name": "Block, Inc.",
-    "updated_at": "2026-10-04T14:14:58.027314",
+    "updated_at": "2026-10-04T22:33:15.653788",
     "price_14d_ago": 78.31
   },
   "Semiconductors": {
     "price": 630.6,
     "change_pct": 16.32,
     "name": "VanEck Semiconductor ETF",
-    "updated_at": "2026-10-04T14:14:58.252951",
+    "updated_at": "2026-10-04T22:33:15.843249",
     "price_14d_ago": 542.11
   },
   "T": {
     "price": 24.3,
     "change_pct": -9.06,
     "name": "AT&T Inc.",
-    "updated_at": "2026-10-04T14:14:58.457653",
+    "updated_at": "2026-10-04T22:33:16.051662",
     "price_14d_ago": 26.72
   },
   "TDOC": {
     "price": 5.52,
     "change_pct": -16.11,
     "name": "Teladoc Health, Inc.",
-    "updated_at": "2026-10-04T14:14:59.030482",
+    "updated_at": "2026-10-04T22:33:16.466989",
     "price_14d_ago": 6.58
   },
   "TIPS": {
     "price": 0.0,
     "change_pct": 500.0,
     "name": "Tianrong Internet Products and ",
-    "updated_at": "2026-10-04T14:14:59.542918",
+    "updated_at": "2026-10-04T22:33:16.959255",
     "price_14d_ago": 0.0
   },
   "TLT": {
     "price": 77.48,
     "change_pct": -4.0,
     "name": "iShares 20+ Year Treasury Bond ",
-    "updated_at": "2026-10-04T14:14:59.923080",
+    "updated_at": "2026-10-04T22:33:17.155223",
     "price_14d_ago": 80.71
   },
   "TSLA": {
     "price": 370.59,
     "change_pct": 3.93,
     "name": "Tesla, Inc.",
-    "updated_at": "2026-10-04T14:15:00.096609",
+    "updated_at": "2026-10-04T22:33:17.319567",
     "price_14d_ago": 356.58
   },
   "TSM": {
     "price": 472.78,
     "change_pct": 14.27,
     "name": "Taiwan Semiconductor Manufactur",
-    "updated_at": "2026-10-04T14:15:00.282242",
+    "updated_at": "2026-10-04T22:33:17.504182",
     "price_14d_ago": 413.75
   },
   "UBER": {
     "price": 68.11,
     "change_pct": -4.65,
     "name": "Uber Technologies, Inc.",
-    "updated_at": "2026-10-04T14:15:00.780063",
+    "updated_at": "2026-10-04T22:33:17.835043",
     "price_14d_ago": 71.43
   },
   "UNG": {
     "price": 10.47,
     "change_pct": -0.66,
     "name": "United States Natural Gas Fund ",
-    "updated_at": "2026-10-04T14:15:01.010870",
+    "updated_at": "2026-10-04T22:33:18.009323",
     "price_14d_ago": 10.54
   },
   "URANIUM": {
     "price": 39.79,
     "change_pct": -4.74,
     "name": "Uranium ETF",
-    "updated_at": "2026-10-04T14:15:01.455407",
+    "updated_at": "2026-10-04T22:33:18.364906",
     "price_14d_ago": 41.77
   },
   "USD": {
     "price": 100.98,
     "change_pct": 28.15,
     "name": "ProShares Ultra Semiconductors",
-    "updated_at": "2026-10-04T14:15:01.819389",
+    "updated_at": "2026-10-04T22:33:18.569925",
     "price_14d_ago": 78.8
   },
   "USDX": {
     "price": 25.59,
     "change_pct": -0.02,
     "name": "SGI Enhanced Core ETF",
-    "updated_at": "2026-10-04T14:15:02.005677",
+    "updated_at": "2026-10-04T22:33:18.738571",
     "price_14d_ago": 25.59
   },
   "USO": {
     "price": 147.37,
     "change_pct": -8.95,
     "name": "United States Oil Fund",
-    "updated_at": "2026-10-04T14:15:02.211789",
+    "updated_at": "2026-10-04T22:33:18.906367",
     "price_14d_ago": 161.86
   },
   "UTHR": {
     "price": 541.7,
     "change_pct": 8.26,
     "name": "United Therapeutics Corporation",
-    "updated_at": "2026-10-04T14:15:02.404554",
+    "updated_at": "2026-10-04T22:33:19.078477",
     "price_14d_ago": 500.35
   },
   "UUU": {
     "price": 4.88,
     "change_pct": -4.69,
     "name": "Universal Safety Products, Inc.",
-    "updated_at": "2026-10-04T14:15:02.647488",
+    "updated_at": "2026-10-04T22:33:19.244749",
     "price_14d_ago": 5.12
   },
   "V": {
     "price": 360.66,
     "change_pct": -3.98,
     "name": "Visa Inc.",
-    "updated_at": "2026-10-04T14:15:03.050667",
+    "updated_at": "2026-10-04T22:33:19.597704",
     "price_14d_ago": 375.62
   },
   "VEEV": {
     "price": 273.33,
     "change_pct": 2.52,
     "name": "Veeva Systems Inc.",
-    "updated_at": "2026-10-04T14:15:03.406443",
+    "updated_at": "2026-10-04T22:33:19.932800",
     "price_14d_ago": 266.62
   },
   "VIX": {
     "price": 15.31,
     "change_pct": -10.99,
     "name": "CBOE Volatility Index",
-    "updated_at": "2026-10-04T14:15:03.939517",
+    "updated_at": "2026-10-04T22:33:20.495490",
     "price_14d_ago": 17.2
   },
   "VLO": {
     "price": 406.3,
     "change_pct": 2.33,
     "name": "Valero Energy Corporation",
-    "updated_at": "2026-10-04T14:15:04.161359",
+    "updated_at": "2026-10-04T22:33:20.698809",
     "price_14d_ago": 397.04
   },
   "VRTX": {
     "price": 504.73,
     "change_pct": -1.92,
     "name": "Vertex Pharmaceuticals Incorpor",
-    "updated_at": "2026-10-04T14:15:04.334628",
+    "updated_at": "2026-10-04T22:33:20.865734",
     "price_14d_ago": 514.63
   },
   "WFC": {
     "price": 80.45,
     "change_pct": -10.33,
     "name": "Wells Fargo & Company",
-    "updated_at": "2026-10-04T14:15:04.562413",
+    "updated_at": "2026-10-04T22:33:21.074584",
     "price_14d_ago": 89.72
   },
   "WIT": {
     "price": 1.72,
     "change_pct": -1.71,
     "name": "Wipro Limited",
-    "updated_at": "2026-10-04T14:15:04.759170",
+    "updated_at": "2026-10-04T22:33:21.262138",
     "price_14d_ago": 1.75
   },
   "WMT": {
     "price": 104.26,
     "change_pct": -3.54,
     "name": "Walmart Inc.",
-    "updated_at": "2026-10-04T14:15:04.983434",
+    "updated_at": "2026-10-04T22:33:21.475970",
     "price_14d_ago": 108.09
   },
   "WTBN": {
     "price": 23.93,
     "change_pct": -1.64,
     "name": "WisdomTree Bianco Total Return ",
-    "updated_at": "2026-10-04T14:15:05.234312",
+    "updated_at": "2026-10-04T22:33:21.641016",
     "price_14d_ago": 24.33
   },
   "WTI": {
-    "price": 91.11,
-    "change_pct": -13.91,
+    "price": 90.03,
+    "change_pct": -12.11,
     "name": "WTI Crude",
-    "updated_at": "2026-10-04T14:15:05.412928",
-    "price_14d_ago": 105.83
+    "updated_at": "2026-10-04T22:33:21.808090",
+    "price_14d_ago": 102.43
   },
   "WTI CRUDE OIL": {
-    "price": 91.11,
-    "change_pct": -13.91,
+    "price": 90.03,
+    "change_pct": -12.11,
     "name": "WTI Crude",
-    "updated_at": "2026-10-04T14:15:05.743727",
-    "price_14d_ago": 105.83
+    "updated_at": "2026-10-04T22:33:21.972892",
+    "price_14d_ago": 102.43
   },
   "XAU-USD": {
     "price": 0,
     "change_pct": 0,
     "name": "XAU9999 Meme USD",
-    "updated_at": "2026-10-04T14:15:06.302002",
+    "updated_at": "2026-10-04T22:33:22.305200",
     "price_14d_ago": 0.0
   },
   "XOM": {
     "price": 164.01,
     "change_pct": -3.14,
     "name": "ExxonMobil Holdings Corporation",
-    "updated_at": "2026-10-04T14:15:06.531938",
+    "updated_at": "2026-10-04T22:33:22.539574",
     "price_14d_ago": 169.32
   },
   "ZIM": {
     "price": 29.63,
     "change_pct": 0.2,
     "name": "ZIM Integrated Shipping Service",
-    "updated_at": "2026-10-04T14:15:07.017416",
+    "updated_at": "2026-10-04T22:33:22.875443",
     "price_14d_ago": 29.57
   },
   "HIMS": {
     "price": 29.0,
     "change_pct": 4.13,
     "name": "Hims & Hers Health, Inc.",
-    "updated_at": "2026-10-04T14:15:07.413993",
+    "updated_at": "2026-10-04T22:33:23.214517",
     "price_14d_ago": 27.85
   },
   "GDRX": {
     "price": 3.28,
     "change_pct": -6.02,
     "name": "GoodRx Holdings, Inc.",
-    "updated_at": "2026-10-04T14:15:07.609927",
+    "updated_at": "2026-10-04T22:33:23.382093",
     "price_14d_ago": 3.49
   },
   "TEM": {
     "price": 76.63,
     "change_pct": 11.3,
     "name": "Tempus AI, Inc.",
-    "updated_at": "2026-10-04T14:15:07.789797",
+    "updated_at": "2026-10-04T22:33:23.548665",
     "price_14d_ago": 68.85
   },
   "GH": {
     "price": 177.8,
     "change_pct": 1.22,
     "name": "Guardant Health, Inc.",
-    "updated_at": "2026-10-04T14:15:07.955772",
+    "updated_at": "2026-10-04T22:33:23.717340",
     "price_14d_ago": 175.65
   },
   "ABT": {
     "price": 97.5,
     "change_pct": -4.44,
     "name": "Abbott Laboratories",
-    "updated_at": "2026-10-04T14:15:08.251804",
+    "updated_at": "2026-10-04T22:33:23.923089",
     "price_14d_ago": 102.03
   },
   "ARM": {
     "price": 307.49,
     "change_pct": 27.15,
     "name": "Arm Holdings plc",
-    "updated_at": "2026-10-04T14:14:27.334990",
+    "updated_at": "2026-10-04T22:32:50.760552",
     "price_14d_ago": 241.83
   },
   "HOOD": {
     "price": 112.74,
     "change_pct": 2.07,
     "name": "Robinhood Markets, Inc.",
-    "updated_at": "2026-10-04T14:14:39.290391",
+    "updated_at": "2026-10-04T22:33:00.587527",
     "price_14d_ago": 110.45
   },
   "SPOT": {
     "price": 472.89,
     "change_pct": -15.29,
     "name": "Spotify Technology S.A.",
-    "updated_at": "2026-10-04T14:14:56.641944",
+    "updated_at": "2026-10-04T22:33:14.779299",
     "price_14d_ago": 558.26
   },
   "CRWV": {
     "price": 89.62,
     "change_pct": 10.75,
     "name": "CoreWeave, Inc.",
-    "updated_at": "2026-10-04T14:14:32.749304",
+    "updated_at": "2026-10-04T22:32:55.397272",
     "price_14d_ago": 80.92
   },
   "LENS": {
     "price": 43.15,
     "change_pct": -6.28,
     "name": "Sarmaya Thematic ETF",
-    "updated_at": "2026-10-04T14:14:42.416291",
+    "updated_at": "2026-10-04T22:33:03.378256",
     "price_14d_ago": 46.04
   },
   "TCEHY": {
     "price": 53.11,
     "change_pct": -4.8,
     "name": "Tencent Holding Ltd.",
-    "updated_at": "2026-10-04T14:14:58.786393",
+    "updated_at": "2026-10-04T22:33:16.297284",
     "price_14d_ago": 55.79
   }
 },
@@ -47630,11 +47630,11 @@ const dashboardData = {
     "definition": null,
     "investment_implications": null,
     "source_type": "auto_extracted",
-    "mention_count": 7,
-    "source_diversity": 5,
-    "relevance_score": 50,
+    "mention_count": 8,
+    "source_diversity": 6,
+    "relevance_score": 55,
     "submitted_date": "2026-10-04 04:47:41",
-    "priority_score": 220
+    "priority_score": 255
   },
   {
     "id": 840,
@@ -47642,11 +47642,11 @@ const dashboardData = {
     "definition": null,
     "investment_implications": null,
     "source_type": "auto_extracted",
-    "mention_count": 6,
-    "source_diversity": 5,
-    "relevance_score": 50,
+    "mention_count": 7,
+    "source_diversity": 6,
+    "relevance_score": 55,
     "submitted_date": "2026-10-04 04:47:41",
-    "priority_score": 210
+    "priority_score": 245
   },
   {
     "id": 839,
@@ -47666,16 +47666,16 @@ const dashboardData = {
     "definition": null,
     "investment_implications": null,
     "source_type": "auto_extracted",
-    "mention_count": 12,
-    "source_diversity": 11,
-    "relevance_score": 75,
+    "mention_count": 13,
+    "source_diversity": 12,
+    "relevance_score": 80,
     "submitted_date": "2026-10-03 10:30:24",
-    "priority_score": 415
+    "priority_score": 450
   }
 ],
   podcastGuests: [
   {
-    "id": 80093,
+    "id": 80209,
     "name": "Beyond the God Model",
     "slug": "beyond-the-god-model",
     "bio": null,
@@ -47687,7 +47687,7 @@ const dashboardData = {
     "appearance_count": 1
   },
   {
-    "id": 80094,
+    "id": 80210,
     "name": "Rebuilding the Internet for Privacy",
     "slug": "rebuilding-the-internet-for-privacy",
     "bio": null,
@@ -47699,7 +47699,7 @@ const dashboardData = {
     "appearance_count": 1
   },
   {
-    "id": 80095,
+    "id": 80211,
     "name": "Token Bill Dwarfs CPU Bill",
     "slug": "token-bill-dwarfs-cpu-bill",
     "bio": null,
@@ -47711,7 +47711,7 @@ const dashboardData = {
     "appearance_count": 1
   },
   {
-    "id": 80096,
+    "id": 80212,
     "name": "Jake Paul & The Chainsmokers",
     "slug": "jake-paul--the-chainsmokers",
     "bio": null,
@@ -47723,7 +47723,7 @@ const dashboardData = {
     "appearance_count": 1
   },
   {
-    "id": 80097,
+    "id": 80213,
     "name": "Palmer Luckey",
     "slug": "palmer-luckey",
     "bio": null,
@@ -47735,7 +47735,7 @@ const dashboardData = {
     "appearance_count": 1
   },
   {
-    "id": 80098,
+    "id": 80214,
     "name": "Daniel Ek",
     "slug": "daniel-ek",
     "bio": null,
@@ -47747,7 +47747,7 @@ const dashboardData = {
     "appearance_count": 1
   },
   {
-    "id": 80099,
+    "id": 80215,
     "name": "Michael Every",
     "slug": "michael-every",
     "bio": null,
@@ -47759,7 +47759,7 @@ const dashboardData = {
     "appearance_count": 1
   },
   {
-    "id": 80100,
+    "id": 80216,
     "name": "Steve Hilton & Spencer Pratt",
     "slug": "steve-hilton--spencer-pratt",
     "bio": null,
@@ -47771,7 +47771,7 @@ const dashboardData = {
     "appearance_count": 1
   },
   {
-    "id": 80101,
+    "id": 80217,
     "name": "Blake Scholl",
     "slug": "blake-scholl",
     "bio": null,
@@ -47783,7 +47783,7 @@ const dashboardData = {
     "appearance_count": 1
   },
   {
-    "id": 80102,
+    "id": 80218,
     "name": "John Platt",
     "slug": "john-platt",
     "bio": null,
@@ -47795,7 +47795,7 @@ const dashboardData = {
     "appearance_count": 1
   },
   {
-    "id": 80103,
+    "id": 80219,
     "name": "Diogo Almeida",
     "slug": "diogo-almeida",
     "bio": null,
@@ -47807,7 +47807,7 @@ const dashboardData = {
     "appearance_count": 1
   },
   {
-    "id": 80104,
+    "id": 80220,
     "name": "Naveen Rao",
     "slug": "naveen-rao",
     "bio": null,
@@ -47819,7 +47819,7 @@ const dashboardData = {
     "appearance_count": 1
   },
   {
-    "id": 80105,
+    "id": 80221,
     "name": "Outlook on 5 Key Commodities",
     "slug": "outlook-on-5-key-commodities",
     "bio": null,
@@ -47831,7 +47831,7 @@ const dashboardData = {
     "appearance_count": 1
   },
   {
-    "id": 80106,
+    "id": 80222,
     "name": "Bill Gurley",
     "slug": "bill-gurley",
     "bio": null,
@@ -47843,7 +47843,7 @@ const dashboardData = {
     "appearance_count": 1
   },
   {
-    "id": 80107,
+    "id": 80223,
     "name": "Nick Shirley",
     "slug": "nick-shirley",
     "bio": null,
@@ -47855,7 +47855,7 @@ const dashboardData = {
     "appearance_count": 1
   },
   {
-    "id": 80108,
+    "id": 80224,
     "name": "Jared Isaacman",
     "slug": "jared-isaacman",
     "bio": null,
@@ -47867,7 +47867,7 @@ const dashboardData = {
     "appearance_count": 1
   },
   {
-    "id": 80109,
+    "id": 80225,
     "name": "Brad Gerstner",
     "slug": "brad-gerstner",
     "bio": null,
@@ -47879,7 +47879,7 @@ const dashboardData = {
     "appearance_count": 1
   },
   {
-    "id": 80110,
+    "id": 80226,
     "name": "Meta's Dina Powell McCormick",
     "slug": "metas-dina-powell-mccormick",
     "bio": null,
@@ -47891,7 +47891,7 @@ const dashboardData = {
     "appearance_count": 1
   },
   {
-    "id": 80111,
+    "id": 80227,
     "name": "Underwriting Superintelligence",
     "slug": "underwriting-superintelligence",
     "bio": null,
@@ -47903,7 +47903,7 @@ const dashboardData = {
     "appearance_count": 1
   },
   {
-    "id": 80112,
+    "id": 80228,
     "name": "Hawks Take Flight",
     "slug": "hawks-take-flight",
     "bio": null,
@@ -48127,7 +48127,7 @@ const dashboardData = {
     "last_podcast_name": "Macro Voices",
     "last_episode_date": "2026-09-24",
     "mention_score": 3,
-    "mention_score_decayed": 2.44,
+    "mention_score_decayed": 2.38,
     "last_main_idea": "Geopolitical tensions in the Middle East could lead to spikes in oil prices, impacting inflation and economic growth.",
     "last_proof_cite": "Macro Voices \u2022 2026-09-24 \u2022 MacroVoices #551 Michael Every: Decoding The Global Geopolitical Puzzle",
     "last_proof_snippet": "The joke at the moment is if you're an interest rate trader on FX trader, the moment you have to be an oil trader. You've got to look at that to understand what bond yields are going to do. That was Michael Every. I'm Eric Townsend. This is",
@@ -48306,7 +48306,7 @@ const dashboardData = {
     "last_podcast_name": "Monetary Matters with Jack Farley",
     "last_episode_date": "2026-10-01",
     "mention_score": 2,
-    "mention_score_decayed": 1.91,
+    "mention_score_decayed": 1.87,
     "last_main_idea": "Ed Zitron argues Anthropic's $413 billion of non-cancelable obligations create systemic counterparty risk because 2025 revenue was only $4.6 billion and 47% flowed through Google and Amazon reselling.",
     "last_proof_cite": "Monetary Matters with Jack Farley \u2022 2026-10-01 \u2022 Ed Zitron on Anthropic's IPO (S-1), AI Debt, and Counterparty Risk",
     "last_proof_snippet": "This episode is brought you by Sarmaya Partners, who manages the Return to Tangible's ETF, Lens, ticker, L-E-N-S, the Sarmaya Thematix ETF, built for a return to Tangibles. Learn more at Sarmayaetf.com and see the show notes for disclosures",
@@ -48553,7 +48553,7 @@ const dashboardData = {
     "last_podcast_name": "The a16z Show",
     "last_episode_date": "2026-09-21",
     "mention_score": 2,
-    "mention_score_decayed": 1.52,
+    "mention_score_decayed": 1.48,
     "last_main_idea": "Investing in companies that prioritize clear communication, robust telemetry, and operational security in AI development presents a significant opportunity as the industry matures.",
     "last_proof_cite": "The a16z Show \u2022 2026-09-21 \u2022 AI Safety Language Is Destroying the Debate | Steven Sinofsky",
     "last_proof_snippet": "The AI people are making it impossible for anybody to understand what they've done it. And they're using words like, well, the AI failed to be aligned. Okay, what does that mean? What it means is there was a bug in the software. When word a",
@@ -48978,7 +48978,7 @@ const dashboardData = {
     "last_podcast_name": "Monetary Matters with Jack Farley",
     "last_episode_date": "2026-08-20",
     "mention_score": 3,
-    "mention_score_decayed": 1.09,
+    "mention_score_decayed": 1.06,
     "last_main_idea": "The rise in AI capex and government spending is leading to increased borrowing costs, which will have profound effects on bond markets and inflation, creating both risks and opportunities for investors.",
     "last_proof_cite": "Monetary Matters with Jack Farley \u2022 2026-08-20 \u2022 Why Bessent Blinked | Luke Gromen on Doubling of Treasury Buyback Plan to Tame Long-End Yields",
     "last_proof_snippet": "Today's episode is brought to you by the two-cream corn fund Take or C-O-R-N. Let's get into it. Got a very important conversation today. I'm joined once again by Luke Groman of Forest for the Trees Research Luke. Welcome back to Monterey M",
@@ -49048,6 +49048,33 @@ const dashboardData = {
     "pundit_profile": null
   },
   {
+    "id": 505,
+    "name": "Alex Atallah",
+    "slug": "alex-atallah",
+    "bio": "Alex Atallah is associated with OpenRouter, an AI model routing and marketplace platform discussed in the context of Stripe's acquisition. In the episode, he focuses on model choice, AI infrastructure markets, agent safety, and enterprise model diversification.",
+    "known_for": "OpenRouter and model routing across multiple AI providers.",
+    "net_worth_usd": null,
+    "net_worth_source": null,
+    "net_worth_updated_at": null,
+    "voice_tone": "Analytical and infrastructure-focused.",
+    "voice_style": "He builds arguments through marketplace mechanics, enterprise adoption patterns, and technical examples such as fusion models and tool-call checks.",
+    "voice_delivery_notes": "Use a measured pace with emphasis on mechanisms like routing, cost efficiency, and model diversity.",
+    "voice_profile_updated_at": "2026-10-03 12:02:34",
+    "last_seen": "2026-10-03 12:02:34",
+    "last_episode_title": "Beyond the God Model | Alex Atallah & Amjad Masad",
+    "last_podcast_name": "The a16z Show",
+    "last_episode_date": "2026-10-03",
+    "mention_score": 1,
+    "mention_score_decayed": 0.98,
+    "last_main_idea": "Alex Atallah argues AI infrastructure will shift toward neurodiverse routing across multiple models because enterprises want lower cost, less lock-in, and task-specific intelligence beyond ChatGPT or Claude.",
+    "last_proof_cite": "The a16z Show \u2022 2026-10-03 \u2022 Beyond the God Model | Alex Atallah & Amjad Masad",
+    "last_proof_snippet": "You saw the SpaceX S1, it was like, oh, 30 trillion dollars. It's like, what is the world GDP 100 trillion? Both strike and open router. Really want lots of new companies in the world. We don't want everyone to be a part of one giant compan",
+    "supporting_takeaway": "Alex Atallah claims enterprises have been more open than expected to open weight models over the past 3 years because they want lower costs, differentiation, and internal AI practices that can benchmark models for their own tasks.",
+    "grokipedia_url": null,
+    "grokipedia_fetched_at": null,
+    "pundit_profile": null
+  },
+  {
     "id": 52,
     "name": "Alex Carp",
     "slug": "alex-carp",
@@ -49065,7 +49092,7 @@ const dashboardData = {
     "last_podcast_name": "Moonshots with Peter Diamandis",
     "last_episode_date": "2026-07-08",
     "mention_score": 3,
-    "mention_score_decayed": 0.99,
+    "mention_score_decayed": 0.97,
     "last_main_idea": "Governments are imposing safety measures on AI models, setting a precedent for future regulations.",
     "last_proof_cite": "Moonshots with Peter Diamandis \u2022 2026-07-08 \u2022 Fable 5 Is Back & Govt-Leashed, Altman Offers 5% of OpenAI & AI Grows Conscious | #269",
     "last_proof_snippet": "Fable 5 came back online globally on July 1st with a few Provisos. This feels like the first time a frontier model has a standing duty to the U.S. government. This is probably close to the best scenario we could have hoped for. Sam has been",
@@ -49106,33 +49133,6 @@ const dashboardData = {
       ]
     },
     "net_worth": "$14.00B"
-  },
-  {
-    "id": 505,
-    "name": "Alex Atallah",
-    "slug": "alex-atallah",
-    "bio": "Alex Atallah is associated with OpenRouter, an AI model routing and marketplace platform discussed in the context of Stripe's acquisition. In the episode, he focuses on model choice, AI infrastructure markets, agent safety, and enterprise model diversification.",
-    "known_for": "OpenRouter and model routing across multiple AI providers.",
-    "net_worth_usd": null,
-    "net_worth_source": null,
-    "net_worth_updated_at": null,
-    "voice_tone": "Analytical and infrastructure-focused.",
-    "voice_style": "He builds arguments through marketplace mechanics, enterprise adoption patterns, and technical examples such as fusion models and tool-call checks.",
-    "voice_delivery_notes": "Use a measured pace with emphasis on mechanisms like routing, cost efficiency, and model diversity.",
-    "voice_profile_updated_at": "2026-10-03 12:02:34",
-    "last_seen": "2026-10-03 12:02:34",
-    "last_episode_title": "Beyond the God Model | Alex Atallah & Amjad Masad",
-    "last_podcast_name": "The a16z Show",
-    "last_episode_date": "2026-10-03",
-    "mention_score": 1,
-    "mention_score_decayed": 0.98,
-    "last_main_idea": "Alex Atallah argues AI infrastructure will shift toward neurodiverse routing across multiple models because enterprises want lower cost, less lock-in, and task-specific intelligence beyond ChatGPT or Claude.",
-    "last_proof_cite": "The a16z Show \u2022 2026-10-03 \u2022 Beyond the God Model | Alex Atallah & Amjad Masad",
-    "last_proof_snippet": "You saw the SpaceX S1, it was like, oh, 30 trillion dollars. It's like, what is the world GDP 100 trillion? Both strike and open router. Really want lots of new companies in the world. We don't want everyone to be a part of one giant compan",
-    "supporting_takeaway": "Alex Atallah claims enterprises have been more open than expected to open weight models over the past 3 years because they want lower costs, differentiation, and internal AI practices that can benchmark models for their own tasks.",
-    "grokipedia_url": null,
-    "grokipedia_fetched_at": null,
-    "pundit_profile": null
   },
   {
     "id": 502,
@@ -49206,7 +49206,7 @@ const dashboardData = {
     "last_podcast_name": "Latent Space: The AI Engineer Podcast",
     "last_episode_date": "2026-10-02",
     "mention_score": 1,
-    "mention_score_decayed": 0.95,
+    "mention_score_decayed": 0.93,
     "last_main_idea": "Alex Zhang predicts language models may become hidden swarms under simple interfaces because composing agents through shared context can solve problems like OpenAI's 10,000-agent experiment.",
     "last_proof_cite": "Latent Space: The AI Engineer Podcast \u2022 2026-10-02 \u2022 Academia is for Ambition \u2014 Alex Zhang, MIT",
     "last_proof_snippet": "Last call for regular tickets for AI Engineer NYC! As an exclusive for Latent Space subscribers, the first 30 of you can take a 30% off code if it helps - for new tickets only, no refunds! See you in 2 weeks! While we tend to cover industry",
@@ -49740,7 +49740,7 @@ const dashboardData = {
     "last_podcast_name": "Monetary Matters with Jack Farley",
     "last_episode_date": "2026-09-24",
     "mention_score": 1,
-    "mention_score_decayed": 0.81,
+    "mention_score_decayed": 0.79,
     "last_main_idea": "The credit market is increasingly bifurcated, favoring high-quality borrowers while lower-quality borrowers face tighter conditions.",
     "last_proof_cite": "Monetary Matters with Jack Farley \u2022 2026-09-24 \u2022 Why the Fed May Have to Hike Far Higher Than Expected | Henry Peabody on the Fed\u2019s Triple Mandate and Uneven Transmission of Monetary Policy",
     "last_proof_snippet": "Got a very important conversation today. We are speaking to Henry Peabody, senior investment strategist at GMO, Henry Welcome to Monetary Matters. Jack, thanks so much for having me. I'm really looking forward to the conversation. I know yo",
@@ -49796,7 +49796,7 @@ const dashboardData = {
     "last_podcast_name": "The a16z Show",
     "last_episode_date": "2026-09-24",
     "mention_score": 1,
-    "mention_score_decayed": 0.81,
+    "mention_score_decayed": 0.79,
     "last_main_idea": "Eddy Lazzarin argues an AI pause would delay abundance from local cybersecurity models, healthcare tools, and safer travel, because capability gains can produce better metrology, controls, and model accountability.",
     "last_proof_cite": "The a16z Show \u2022 2026-09-24 \u2022 The Case Against an AI Pause | Eddy Lazzarin",
     "last_proof_snippet": "The AI debate increasingly asks us to consider the probability of doom. Eddie Lazaran thinks we should also be asking about the probability of abundance. In this episode, A16Z Crypto-General Partner Eddie Lazaran joins Theo-Jaffe on MTS to",
@@ -49841,66 +49841,6 @@ const dashboardData = {
         }
       ]
     }
-  },
-  {
-    "id": 333,
-    "name": "Dylan Patel",
-    "slug": "dylan-patel",
-    "bio": "Dylan Patel is the founder of SemiAnalysis, a firm specializing in AI infrastructure and compute market analysis. He is recognized for his insights into the future of AI and its impact on the global economy, particularly focusing on the growth of AI infrastructure and its contribution to GDP.",
-    "known_for": "His expertise in AI infrastructure and its role in shaping the global economy.",
-    "net_worth_usd": 3700000000.0,
-    "net_worth_source": "https://substack.com/home/post/p-153458455",
-    "net_worth_updated_at": "2026-07-15T12:06:20.503583",
-    "voice_tone": "Confident and knowledgeable",
-    "voice_style": "Factual and data-driven",
-    "voice_delivery_notes": "Clear and concise, with a focus on key statistics and trends",
-    "voice_profile_updated_at": "2026-08-26 03:28:15",
-    "last_seen": "2026-08-26 03:28:15",
-    "last_episode_title": "Dylan Patel \u2013 Anthropic & OpenAI will have most of the world\u2019s compute by 2028",
-    "last_podcast_name": "Dwarkesh Podcast",
-    "last_episode_date": "2026-08-25",
-    "mention_score": 2,
-    "mention_score_decayed": 0.81,
-    "last_main_idea": "Investment in AI infrastructure and labs is set to grow exponentially, leading to significant capital allocation shifts and potential market disruptions.",
-    "last_proof_cite": "Dwarkesh Podcast \u2022 2026-08-25 \u2022 Dylan Patel \u2013 Anthropic & OpenAI will have most of the world\u2019s compute by 2028",
-    "last_proof_snippet": "Okay, I'm back with Dylan Patel, Founder of SemiAnalysis, our version of Family, Thanksgiving dinner is a regular early podcast, but you're not actually related. I won't tell the people here. We'll destroy the myth. Walk me, basically w",
-    "supporting_takeaway": "Labs like OpenAI and Anthropic are expected to spend trillions of dollars annually by the end of the decade.",
-    "grokipedia_url": null,
-    "grokipedia_fetched_at": "2026-08-25T22:28:51.037076",
-    "pundit_profile": {
-      "source": "llm",
-      "source_model": "moonshot:moonshot-v1-8k",
-      "source_url": "",
-      "page_title": "Dylan Patel",
-      "fetched_at": "2026-08-26T03:28:51.036737+00:00",
-      "cliff_notes": "Dylan Patel is a prominent figure in the field of AI infrastructure and compute market analysis. As the founder of SemiAnalysis, he has dedicated his career to understanding and forecasting the trends and developments within the AI sector. Patel's work is particularly focused on how advancements in AI infrastructure are influencing economic growth, with a keen eye on the allocation of capital expenditures in the industry. His insights are sought after for their ability to predict the trajectory of the global economy in relation to the advancements in AI technology. Patel's contributions to the discourse on AI's economic impact have made him a respected voice in both the tech and finance sectors.",
-      "derived": {
-        "current_role": "Founder of SemiAnalysis"
-      },
-      "infobox": {
-        "Born": "",
-        "Nationality": ""
-      },
-      "lead_paragraphs": [
-        "Dylan Patel is a prominent figure in the field of AI infrastructure and compute market analysis. As the founder of SemiAnalysis, he has dedicated his career to understanding and forecasting the trends and developments within the AI sector. Patel's work is particularly focused on how advancements in AI infrastructure are influencing economic growth, with a keen eye on the allocation of capital expenditures in the industry.",
-        "His insights are sought after for their ability to predict the trajectory of the global economy in relation to the advancements in AI technology. Patel's contributions to the discourse on AI's economic impact have made him a respected voice in both the tech and finance sectors."
-      ],
-      "sections": [
-        {
-          "heading": "AI Infrastructure Growth",
-          "body": "Dylan Patel has been instrumental in analyzing the growth of AI infrastructure, highlighting its significant contribution to GDP and the economy."
-        },
-        {
-          "heading": "Compute Market Analysis",
-          "body": "Patel's expertise lies in the analysis of the compute market, where he forecasts the allocation of capital expenditures and their impact on economic growth."
-        },
-        {
-          "heading": "Economic Impact of AI",
-          "body": "He provides valuable insights into how AI advancements are shaping the global economy, focusing on the role of AI infrastructure in driving economic progress."
-        }
-      ]
-    },
-    "net_worth": "$3.70B"
   },
   {
     "id": 480,
@@ -50016,6 +49956,66 @@ const dashboardData = {
         }
       ]
     }
+  },
+  {
+    "id": 333,
+    "name": "Dylan Patel",
+    "slug": "dylan-patel",
+    "bio": "Dylan Patel is the founder of SemiAnalysis, a firm specializing in AI infrastructure and compute market analysis. He is recognized for his insights into the future of AI and its impact on the global economy, particularly focusing on the growth of AI infrastructure and its contribution to GDP.",
+    "known_for": "His expertise in AI infrastructure and its role in shaping the global economy.",
+    "net_worth_usd": 3700000000.0,
+    "net_worth_source": "https://substack.com/home/post/p-153458455",
+    "net_worth_updated_at": "2026-07-15T12:06:20.503583",
+    "voice_tone": "Confident and knowledgeable",
+    "voice_style": "Factual and data-driven",
+    "voice_delivery_notes": "Clear and concise, with a focus on key statistics and trends",
+    "voice_profile_updated_at": "2026-08-26 03:28:15",
+    "last_seen": "2026-08-26 03:28:15",
+    "last_episode_title": "Dylan Patel \u2013 Anthropic & OpenAI will have most of the world\u2019s compute by 2028",
+    "last_podcast_name": "Dwarkesh Podcast",
+    "last_episode_date": "2026-08-25",
+    "mention_score": 2,
+    "mention_score_decayed": 0.79,
+    "last_main_idea": "Investment in AI infrastructure and labs is set to grow exponentially, leading to significant capital allocation shifts and potential market disruptions.",
+    "last_proof_cite": "Dwarkesh Podcast \u2022 2026-08-25 \u2022 Dylan Patel \u2013 Anthropic & OpenAI will have most of the world\u2019s compute by 2028",
+    "last_proof_snippet": "Okay, I'm back with Dylan Patel, Founder of SemiAnalysis, our version of Family, Thanksgiving dinner is a regular early podcast, but you're not actually related. I won't tell the people here. We'll destroy the myth. Walk me, basically w",
+    "supporting_takeaway": "Labs like OpenAI and Anthropic are expected to spend trillions of dollars annually by the end of the decade.",
+    "grokipedia_url": null,
+    "grokipedia_fetched_at": "2026-08-25T22:28:51.037076",
+    "pundit_profile": {
+      "source": "llm",
+      "source_model": "moonshot:moonshot-v1-8k",
+      "source_url": "",
+      "page_title": "Dylan Patel",
+      "fetched_at": "2026-08-26T03:28:51.036737+00:00",
+      "cliff_notes": "Dylan Patel is a prominent figure in the field of AI infrastructure and compute market analysis. As the founder of SemiAnalysis, he has dedicated his career to understanding and forecasting the trends and developments within the AI sector. Patel's work is particularly focused on how advancements in AI infrastructure are influencing economic growth, with a keen eye on the allocation of capital expenditures in the industry. His insights are sought after for their ability to predict the trajectory of the global economy in relation to the advancements in AI technology. Patel's contributions to the discourse on AI's economic impact have made him a respected voice in both the tech and finance sectors.",
+      "derived": {
+        "current_role": "Founder of SemiAnalysis"
+      },
+      "infobox": {
+        "Born": "",
+        "Nationality": ""
+      },
+      "lead_paragraphs": [
+        "Dylan Patel is a prominent figure in the field of AI infrastructure and compute market analysis. As the founder of SemiAnalysis, he has dedicated his career to understanding and forecasting the trends and developments within the AI sector. Patel's work is particularly focused on how advancements in AI infrastructure are influencing economic growth, with a keen eye on the allocation of capital expenditures in the industry.",
+        "His insights are sought after for their ability to predict the trajectory of the global economy in relation to the advancements in AI technology. Patel's contributions to the discourse on AI's economic impact have made him a respected voice in both the tech and finance sectors."
+      ],
+      "sections": [
+        {
+          "heading": "AI Infrastructure Growth",
+          "body": "Dylan Patel has been instrumental in analyzing the growth of AI infrastructure, highlighting its significant contribution to GDP and the economy."
+        },
+        {
+          "heading": "Compute Market Analysis",
+          "body": "Patel's expertise lies in the analysis of the compute market, where he forecasts the allocation of capital expenditures and their impact on economic growth."
+        },
+        {
+          "heading": "Economic Impact of AI",
+          "body": "He provides valuable insights into how AI advancements are shaping the global economy, focusing on the role of AI infrastructure in driving economic progress."
+        }
+      ]
+    },
+    "net_worth": "$3.70B"
   },
   {
     "id": 478,
@@ -50600,7 +50600,7 @@ const dashboardData = {
     "last_podcast_name": "All-In with Chamath, Jason, Sacks & Friedberg",
     "last_episode_date": "2026-09-17",
     "mention_score": 1,
-    "mention_score_decayed": 0.69,
+    "mention_score_decayed": 0.68,
     "last_main_idea": "Investing in tech companies that prioritize community engagement and workforce development can yield sustainable returns and mitigate risks associated with public sentiment.",
     "last_proof_cite": "All-In with Chamath, Jason, Sacks & Friedberg \u2022 2026-09-17 \u2022 Meta's Dina Powell McCormick: The Case for Data Centers, Backlash, AI Job Boom & Meta's Future",
     "last_proof_snippet": "A trailblazing leader in government, business, and philanthropy. A former presidential advisor to Donald Trump, Dina Palma-Cormick, joined him at a platform as president and vice chair of women. She'll help lead the company's massive AI exp",
@@ -51309,7 +51309,7 @@ const dashboardData = {
     "last_podcast_name": "All-In with Chamath, Jason, Sacks & Friedberg",
     "last_episode_date": "2026-08-08",
     "mention_score": 2,
-    "mention_score_decayed": 0.66,
+    "mention_score_decayed": 0.64,
     "last_main_idea": "Investment in AI infrastructure and data centers is becoming increasingly important due to the demand for compute power and the tax advantages of such investments in the U.S.",
     "last_proof_cite": "All-In with Chamath, Jason, Sacks & Friedberg \u2022 2026-08-08 \u2022 Google's AI Brain Drain, SpaceX's Huge Quarter, Airtable's 90% Collapse, US Data Fuels China AI",
     "last_proof_snippet": "All right, everybody. Welcome back to your favorite podcast. It's the all-in podcast. It's the summer. It's August 6th. Haven't a hard time getting a core. I'm here on the podcast. But David Friedberg is here. David Friedberg is back our Su",
@@ -51367,7 +51367,7 @@ const dashboardData = {
     "last_podcast_name": "Monetary Matters with Jack Farley",
     "last_episode_date": "2026-09-13",
     "mention_score": 1,
-    "mention_score_decayed": 0.63,
+    "mention_score_decayed": 0.62,
     "last_main_idea": "The junior mining sector offers a compelling asymmetric opportunity in distressed, underappreciated assets with strong management, where years of capital flight and depleted liquidity have created a fertile environment for patient capital to realize value through operational improvement and an impending wave of major-miner M&A.",
     "last_proof_cite": "Monetary Matters with Jack Farley \u2022 2026-09-13 \u2022 Hunting for Value in Mining Stocks Amid Soaring Metals Prices | Freddy Brick | Muddy Waters Capital",
     "last_proof_snippet": "We actually don't have a huge view of metal prices, which everyone probably thinks is just insane given that we run a metals and mining fund, 2% down day on the S&P, like you know a lot of Bloomberg going yellow pretty early and people are",
@@ -52353,7 +52353,7 @@ const dashboardData = {
     "last_podcast_name": "The a16z Show",
     "last_episode_date": "2026-08-21",
     "mention_score": 1,
-    "mention_score_decayed": 0.44,
+    "mention_score_decayed": 0.43,
     "last_main_idea": "Investing in AI-driven security solutions can enhance operational efficiency and effectiveness, providing a competitive edge in a rapidly evolving technological landscape.",
     "last_proof_cite": "The a16z Show \u2022 2026-08-21 \u2022 Microsoft's Deputy CISO on Securing AI Agents",
     "last_proof_snippet": "The top story has been that the AI models are happy. The models went out under the internet and tested the security of several organizations. Isn't something to be scared of? Yes. Is it something to throw up your hands and worry about? No.",
@@ -52415,7 +52415,7 @@ const dashboardData = {
     "last_podcast_name": "Moonshots with Peter Diamandis",
     "last_episode_date": "2026-07-29",
     "mention_score": 1,
-    "mention_score_decayed": 0.44,
+    "mention_score_decayed": 0.43,
     "last_main_idea": "The accelerating pace of AI development, coupled with advancements in space technology and a shifting geopolitical landscape, creates a multi-faceted investment opportunity in companies fostering balanced AI ecosystems, pioneering AGI, and enabling future abundance.",
     "last_proof_cite": "Moonshots with Peter Diamandis \u2022 2026-07-29 \u2022 Dario vs Jensen on Open Weights, OpenAI & Anthropic in DC, Xi Exports AI to Global South | EP #275",
     "last_proof_snippet": "The couple of days ago, Jensen Wong's CEO of NVIDIA. He says the world needs both frontier, close models, and frontier open models. And Thropic was silent for three days, and there was a lot of conversation. Where's in Thropic in this conve",
@@ -52443,7 +52443,7 @@ const dashboardData = {
     "last_podcast_name": "Moonshots with Peter Diamandis",
     "last_episode_date": "2026-07-29",
     "mention_score": 1,
-    "mention_score_decayed": 0.44,
+    "mention_score_decayed": 0.43,
     "last_main_idea": "The accelerating pace of AI development, coupled with advancements in space technology and a shifting geopolitical landscape, creates a multi-faceted investment opportunity in companies fostering balanced AI ecosystems, pioneering AGI, and enabling future abundance.",
     "last_proof_cite": "Moonshots with Peter Diamandis \u2022 2026-07-29 \u2022 Dario vs Jensen on Open Weights, OpenAI & Anthropic in DC, Xi Exports AI to Global South | EP #275",
     "last_proof_snippet": "The couple of days ago, Jensen Wong's CEO of NVIDIA. He says the world needs both frontier, close models, and frontier open models. And Thropic was silent for three days, and there was a lot of conversation. Where's in Thropic in this conve",
@@ -52471,7 +52471,7 @@ const dashboardData = {
     "last_podcast_name": "The a16z Show",
     "last_episode_date": "2026-06-12",
     "mention_score": 1,
-    "mention_score_decayed": 0.44,
+    "mention_score_decayed": 0.43,
     "last_main_idea": "The core investment opportunity lies in identifying and capitalizing on the foundational industries and efficient institutions that will enable and benefit from the AI-induced industrial revolution, while also navigating the demographic and political economic shifts it engenders.",
     "last_proof_cite": "The a16z Show \u2022 2026-06-12 \u2022 Samo Burja on Growth, Energy, and AI",
     "last_proof_snippet": "So, I actually think a big macro story that we've been exploring at Bismarck and Alice's in Bismarck Brief is that the demands of AI are so massive that for the first time in decades, the economies of scale necessary to supply them require",
@@ -53718,7 +53718,7 @@ const dashboardData = {
     "last_podcast_name": "Monetary Matters with Jack Farley",
     "last_episode_date": "2026-08-16",
     "mention_score": 1,
-    "mention_score_decayed": 0.33,
+    "mention_score_decayed": 0.32,
     "last_main_idea": "Investment in hyperscaler companies may offer significant returns due to their transformative technology and massive capital investments, but also carries risks due to the off-balance sheet leverage and innovative financial structures.",
     "last_proof_cite": "Monetary Matters with Jack Farley \u2022 2026-08-16 \u2022 Robin Wigglesworth on Hyperscalers' 1.5 Trillion of Off-Balance Sheet Liabilities, Private Credit, and His Book \"A Fabulous Debt\"",
     "last_proof_snippet": "I'm joined today by Robin Wigglesworth, editor of AlphaVille, the Financial Times Financial blog and author of a fabulous debt, the epic story of how bonds built the modern world Robin. But one talk about bonds fixed income of course, but w",
@@ -53971,7 +53971,7 @@ const dashboardData = {
     "last_podcast_name": "Monetary Matters with Jack Farley",
     "last_episode_date": "2026-08-12",
     "mention_score": 1,
-    "mention_score_decayed": 0.3,
+    "mention_score_decayed": 0.29,
     "last_main_idea": "Milton Berg's investment thesis is that the market may have bottomed and is poised for a rebound, with specific focus on sectors that have experienced significant declines as potential short-term bounce candidates.",
     "last_proof_cite": "Monetary Matters with Jack Farley \u2022 2026-08-12 \u2022 Milton Berg: I Have Evidence Market Has Likely Bottomed | Why Milton\u2019s Long Semis, Korea, Nasdaq, and More (With Caveats), and Why He Thinks Gold has made a Multi-year Top",
     "last_proof_snippet": "I am joined once again by Milton Berg of MB advisors and Milton Berg Edge. Milton is one of the greatest market technicians alive. And he focuses on a lot of things that most tetanolists don't follow. He's mostly not looking at charts. He's",
@@ -55125,7 +55125,7 @@ const dashboardData = {
     "last_podcast_name": "Moonshots with Peter Diamandis",
     "last_episode_date": "2026-08-04",
     "mention_score": 1,
-    "mention_score_decayed": 0.25,
+    "mention_score_decayed": 0.24,
     "last_main_idea": "Investing in AI and technology sectors that align with the U.S. government's initiatives for fostering innovation and scientific discovery could provide significant growth opportunities.",
     "last_proof_cite": "Moonshots with Peter Diamandis \u2022 2026-08-04 \u2022 Michael Kratsios on the New Golden Age of American Science | EP #276",
     "last_proof_snippet": "I was a kid in the candy store reading the Golden Age Report. What you're describing there is a complete fundamental AI native AI agent up, reimagining of the entire scientific process. And I think it's something that is possible. My sense",
@@ -55194,7 +55194,7 @@ const dashboardData = {
     "last_podcast_name": "The a16z Show",
     "last_episode_date": "2026-08-04",
     "mention_score": 1,
-    "mention_score_decayed": 0.25,
+    "mention_score_decayed": 0.24,
     "last_main_idea": "Investing in cybersecurity solutions that leverage AI can provide a competitive advantage, but it also requires understanding the novel risks and vulnerabilities that AI models can create.",
     "last_proof_cite": "The a16z Show \u2022 2026-08-04 \u2022 OpenAI's Joshua Achiam: Did We Already Reach AGI?",
     "last_proof_snippet": "Heels like AGI is kind of already here and most people have gone like drug. The fact that we passed the threshold of where unsolved mathematical trajectors are getting solved by extremely intelligent AI, where those AI's are more capable an",
@@ -56488,7 +56488,7 @@ const dashboardData = {
     "last_podcast_name": "The a16z Show",
     "last_episode_date": "2026-07-20",
     "mention_score": 1,
-    "mention_score_decayed": 0.18,
+    "mention_score_decayed": 0.17,
     "last_main_idea": "Open source AI models are perceived as less dangerous due to their specialization and lower likelihood of harmful cyber security use.",
     "last_proof_cite": "The a16z Show \u2022 2026-07-20 \u2022 Hugging Face's CEO on Open Source AI, Model Routing, and the Future of Competition",
     "last_proof_snippet": "I think this relation is a very common practice that everyone is using. It's something that everyone uses, but that is not the main reason for success. Like if you suck, you suck without this relation. It's hard for me to say, like, oh, poo",
@@ -57672,72 +57672,6 @@ const dashboardData = {
     "net_worth": "$12.0M"
   },
   {
-    "id": 171,
-    "name": "Steven Sinofsky",
-    "slug": "steven-sinofsky",
-    "bio": "Steven Sinofsky is a former Microsoft executive and industry expert on personal computing and software development. Over nearly three decades at Microsoft, he helped shape products that define the PC era, including Windows, Office, and Surface. Sinofsky has witnessed one of the technology industry's longest-running rivalries, Microsoft and Apple, and continues to provide insights on the evolution of personal computing.",
-    "known_for": "His tenure at Microsoft and insights on the evolution of personal computing.",
-    "net_worth_usd": 300000000.0,
-    "net_worth_source": "https://www.gurufocus.com/insider/3984/steven-j-sinofsky",
-    "net_worth_updated_at": "2026-04-10T22:06:00.230554",
-    "voice_tone": "Reflective and insightful",
-    "voice_style": "Analytical and comparative",
-    "voice_delivery_notes": "Paced with emphasis on key historical moments and technological differences",
-    "voice_profile_updated_at": "2026-04-11 03:05:18",
-    "last_seen": "2026-06-03 03:02:03",
-    "last_episode_title": "Steven Sinofsky on Apple at 50, Microsoft, and the Future of Computing",
-    "last_podcast_name": "The a16z Show",
-    "last_episode_date": "2026-06-02",
-    "mention_score": 2,
-    "mention_score_decayed": 0.12,
-    "last_main_idea": "Investment in AI-native computing hardware and software development will be pivotal as personal computing transitions towards AI optimization, with Nvidia and Apple leading the charge.",
-    "last_proof_cite": "The a16z Show \u2022 2026-06-02 \u2022 Steven Sinofsky on Apple at 50, Microsoft, and the Future of Computing",
-    "last_proof_snippet": "Having lived through like a half dozen component church things, you just sort of wait them out and you jump, let some local max, your local men determine the future. This will all correct itself, in short order. This world where you're all",
-    "supporting_takeaway": "The shift to local processing could reduce costs associated with cloud-based AI services and democratize AI tool access.",
-    "grokipedia_url": null,
-    "grokipedia_fetched_at": "2026-06-02T22:02:42.225895",
-    "pundit_profile": {
-      "source": "llm",
-      "source_model": "moonshot:moonshot-v1-8k",
-      "source_url": "",
-      "page_title": "Steven Sinofsky",
-      "fetched_at": "2026-06-03T03:02:42.225549+00:00",
-      "cliff_notes": "Steven Sinofsky is best known for his nearly three-decade tenure at Microsoft, where he played a pivotal role in shaping some of the most defining products of the personal computing era, including Windows, Office, and Surface. As President of the Windows Division, Sinofsky was instrumental in guiding the development and marketing of the Windows operating system, which remains the backbone of the PC industry. His tenure also saw him navigate the intense rivalry between Microsoft and Apple, providing him with a unique perspective on product design, platforms, hardware, and software. Since leaving Microsoft, Sinofsky has continued to offer valuable insights into the future of computing, particularly in areas such as AI and resource constraints. His front-row seat to the personal computing revolution has made him a sought-after commentator and thought leader in the tech industry.",
-      "derived": {
-        "former_positions": "President of the Windows Division at Microsoft; Senior Vice President at Microsoft",
-        "education": "Bachelor of Science in Computer Science and Engineering from the University of Illinois at Urbana-Champaign"
-      },
-      "infobox": {
-        "Born": "1965",
-        "Nationality": "American"
-      },
-      "lead_paragraphs": [
-        "Steven Sinofsky is best known for his nearly three-decade tenure at Microsoft, where he played a pivotal role in shaping some of the most defining products of the personal computing era, including Windows, Office, and Surface. As President of the Windows Division, Sinofsky was instrumental in guiding the development and marketing of the Windows operating system, which remains the backbone of the PC industry.",
-        "His tenure also saw him navigate the intense rivalry between Microsoft and Apple, providing him with a unique perspective on product design, platforms, hardware, and software. Since leaving Microsoft, Sinofsky has continued to offer valuable insights into the future of computing, particularly in areas such as AI and resource constraints.",
-        "His front-row seat to the personal computing revolution has made him a sought-after commentator and thought leader in the tech industry."
-      ],
-      "sections": [
-        {
-          "heading": "Microsoft Tenure",
-          "body": "Steven Sinofsky spent nearly three decades at Microsoft, where he held various leadership roles, including President of the Windows Division and Senior Vice President. He was instrumental in shaping products like Windows, Office, and Surface, which have defined the personal computing era."
-        },
-        {
-          "heading": "Windows Development",
-          "body": "As President of the Windows Division, Sinofsky played a crucial role in the development and marketing of the Windows operating system. His leadership helped guide the product through numerous iterations, ensuring its continued relevance in the face of evolving competition and market demands."
-        },
-        {
-          "heading": "Microsoft vs. Apple",
-          "body": "Sinofsky's tenure at Microsoft coincided with one of the technology industry's longest-running rivalries: Microsoft vs. Apple. His unique perspective on product design, platforms, hardware, and software has provided valuable insights into the dynamics of this intense competition."
-        },
-        {
-          "heading": "Future of Computing",
-          "body": "Since leaving Microsoft, Steven Sinofsky has continued to offer insights into the future of computing, particularly in areas such as AI and resource constraints. He believes that AI presents an opportunity to change the dynamic of personal computing, making it more forward-looking and less reliant on backward compatibility."
-        }
-      ]
-    },
-    "net_worth": "$300.0M"
-  },
-  {
     "id": 319,
     "name": "Marcus Villik",
     "slug": "marcus-villik",
@@ -58108,6 +58042,72 @@ const dashboardData = {
         }
       ]
     }
+  },
+  {
+    "id": 171,
+    "name": "Steven Sinofsky",
+    "slug": "steven-sinofsky",
+    "bio": "Steven Sinofsky is a former Microsoft executive and industry expert on personal computing and software development. Over nearly three decades at Microsoft, he helped shape products that define the PC era, including Windows, Office, and Surface. Sinofsky has witnessed one of the technology industry's longest-running rivalries, Microsoft and Apple, and continues to provide insights on the evolution of personal computing.",
+    "known_for": "His tenure at Microsoft and insights on the evolution of personal computing.",
+    "net_worth_usd": 300000000.0,
+    "net_worth_source": "https://www.gurufocus.com/insider/3984/steven-j-sinofsky",
+    "net_worth_updated_at": "2026-04-10T22:06:00.230554",
+    "voice_tone": "Reflective and insightful",
+    "voice_style": "Analytical and comparative",
+    "voice_delivery_notes": "Paced with emphasis on key historical moments and technological differences",
+    "voice_profile_updated_at": "2026-04-11 03:05:18",
+    "last_seen": "2026-06-03 03:02:03",
+    "last_episode_title": "Steven Sinofsky on Apple at 50, Microsoft, and the Future of Computing",
+    "last_podcast_name": "The a16z Show",
+    "last_episode_date": "2026-06-02",
+    "mention_score": 2,
+    "mention_score_decayed": 0.11,
+    "last_main_idea": "Investment in AI-native computing hardware and software development will be pivotal as personal computing transitions towards AI optimization, with Nvidia and Apple leading the charge.",
+    "last_proof_cite": "The a16z Show \u2022 2026-06-02 \u2022 Steven Sinofsky on Apple at 50, Microsoft, and the Future of Computing",
+    "last_proof_snippet": "Having lived through like a half dozen component church things, you just sort of wait them out and you jump, let some local max, your local men determine the future. This will all correct itself, in short order. This world where you're all",
+    "supporting_takeaway": "The shift to local processing could reduce costs associated with cloud-based AI services and democratize AI tool access.",
+    "grokipedia_url": null,
+    "grokipedia_fetched_at": "2026-06-02T22:02:42.225895",
+    "pundit_profile": {
+      "source": "llm",
+      "source_model": "moonshot:moonshot-v1-8k",
+      "source_url": "",
+      "page_title": "Steven Sinofsky",
+      "fetched_at": "2026-06-03T03:02:42.225549+00:00",
+      "cliff_notes": "Steven Sinofsky is best known for his nearly three-decade tenure at Microsoft, where he played a pivotal role in shaping some of the most defining products of the personal computing era, including Windows, Office, and Surface. As President of the Windows Division, Sinofsky was instrumental in guiding the development and marketing of the Windows operating system, which remains the backbone of the PC industry. His tenure also saw him navigate the intense rivalry between Microsoft and Apple, providing him with a unique perspective on product design, platforms, hardware, and software. Since leaving Microsoft, Sinofsky has continued to offer valuable insights into the future of computing, particularly in areas such as AI and resource constraints. His front-row seat to the personal computing revolution has made him a sought-after commentator and thought leader in the tech industry.",
+      "derived": {
+        "former_positions": "President of the Windows Division at Microsoft; Senior Vice President at Microsoft",
+        "education": "Bachelor of Science in Computer Science and Engineering from the University of Illinois at Urbana-Champaign"
+      },
+      "infobox": {
+        "Born": "1965",
+        "Nationality": "American"
+      },
+      "lead_paragraphs": [
+        "Steven Sinofsky is best known for his nearly three-decade tenure at Microsoft, where he played a pivotal role in shaping some of the most defining products of the personal computing era, including Windows, Office, and Surface. As President of the Windows Division, Sinofsky was instrumental in guiding the development and marketing of the Windows operating system, which remains the backbone of the PC industry.",
+        "His tenure also saw him navigate the intense rivalry between Microsoft and Apple, providing him with a unique perspective on product design, platforms, hardware, and software. Since leaving Microsoft, Sinofsky has continued to offer valuable insights into the future of computing, particularly in areas such as AI and resource constraints.",
+        "His front-row seat to the personal computing revolution has made him a sought-after commentator and thought leader in the tech industry."
+      ],
+      "sections": [
+        {
+          "heading": "Microsoft Tenure",
+          "body": "Steven Sinofsky spent nearly three decades at Microsoft, where he held various leadership roles, including President of the Windows Division and Senior Vice President. He was instrumental in shaping products like Windows, Office, and Surface, which have defined the personal computing era."
+        },
+        {
+          "heading": "Windows Development",
+          "body": "As President of the Windows Division, Sinofsky played a crucial role in the development and marketing of the Windows operating system. His leadership helped guide the product through numerous iterations, ensuring its continued relevance in the face of evolving competition and market demands."
+        },
+        {
+          "heading": "Microsoft vs. Apple",
+          "body": "Sinofsky's tenure at Microsoft coincided with one of the technology industry's longest-running rivalries: Microsoft vs. Apple. His unique perspective on product design, platforms, hardware, and software has provided valuable insights into the dynamics of this intense competition."
+        },
+        {
+          "heading": "Future of Computing",
+          "body": "Since leaving Microsoft, Steven Sinofsky has continued to offer insights into the future of computing, particularly in areas such as AI and resource constraints. He believes that AI presents an opportunity to change the dynamic of personal computing, making it more forward-looking and less reliant on backward compatibility."
+        }
+      ]
+    },
+    "net_worth": "$300.0M"
   },
   {
     "id": 73,
@@ -63252,195 +63252,6 @@ const dashboardData = {
     "net_worth": "$112.0M"
   },
   {
-    "id": 128,
-    "name": "Christian Catalini",
-    "slug": "christian-catalini",
-    "bio": "Christian Catalini is a co-founder of LightSpark and founder of the MIT Crypto Economics Lab. He is known for his work in the intersection of technology, economics, and entrepreneurship, particularly in the field of AI and blockchain.",
-    "known_for": "Authoring the influential paper 'Some Simple Economics of AI' and his contributions to the understanding of crypto economics.",
-    "net_worth_usd": null,
-    "net_worth_source": null,
-    "net_worth_updated_at": "2026-03-29T04:09:28.783743",
-    "voice_tone": "Optimistic and analytical.",
-    "voice_style": "Explanatory and speculative, discussing the future impacts of AI.",
-    "voice_delivery_notes": "Paced with emphasis on the transformative potential of AI.",
-    "voice_profile_updated_at": "2026-03-29 03:02:55",
-    "last_seen": "2026-03-29 03:02:55",
-    "last_episode_title": "the a16z show 20260319 1e92a9dd 78da 4417 b1ce 4b4318d1",
-    "last_podcast_name": "The a16z Show",
-    "last_episode_date": "2026-03-28",
-    "mention_score": 2,
-    "mention_score_decayed": 0.03,
-    "last_main_idea": "Investing in AI and its intersection with sectors like crypto could yield significant returns as these technologies disrupt traditional economies and create new opportunities.",
-    "last_proof_cite": "The a16z Show \u2022 2026-03-28 \u2022 the a16z show 20260319 1e92a9dd 78da 4417 b1ce 4b4318d1",
-    "last_proof_snippet": "The paper suggests that anything that can be measured will eventually be automated, which could have profound effects on the economy and labor.",
-    "supporting_takeaway": "The paper suggests that anything that can be measured will eventually be automated, which could have profound effects on the economy and labor.",
-    "grokipedia_url": null,
-    "grokipedia_fetched_at": "2026-03-28T22:05:42.395070",
-    "pundit_profile": {
-      "source": "llm",
-      "source_model": "moonshot:moonshot-v1-8k",
-      "source_url": "",
-      "page_title": "Christian Catalini",
-      "fetched_at": "2026-03-29T03:05:42.394968+00:00",
-      "cliff_notes": "Christian Catalini has made significant contributions to the fields of technology, economics, and entrepreneurship. As the co-founder of LightSpark and founder of the MIT Crypto Economics Lab, he has been at the forefront of exploring the economic implications of AI and blockchain technology. His paper 'Some Simple Economics of AI' has been influential in shaping discussions around the economic impact of AI on work, startups, and ambition. Catalini's work is crucial for understanding how new technologies can disrupt traditional economic models and create new opportunities for innovation and growth.",
-      "derived": {
-        "current_role": "Founder, MIT Crypto Economics Lab",
-        "books_or_works": "Some Simple Economics of AI"
-      },
-      "infobox": {
-        "Born": "",
-        "Nationality": ""
-      },
-      "lead_paragraphs": [
-        "Christian Catalini has made significant contributions to the fields of technology, economics, and entrepreneurship. As the co-founder of LightSpark and founder of the MIT Crypto Economics Lab, he has been at the forefront of exploring the economic implications of AI and blockchain technology. His paper 'Some Simple Economics of AI' has been influential in shaping discussions around the economic impact of AI on work, startups, and ambition.",
-        "Catalini's work is crucial for understanding how new technologies can disrupt traditional economic models and create new opportunities for innovation and growth."
-      ],
-      "sections": [
-        {
-          "heading": "AI Economics",
-          "body": "Catalini's work on AI economics explores how artificial intelligence can transform economic models and create new opportunities for innovation."
-        },
-        {
-          "heading": "Crypto Economics",
-          "body": "As the founder of the MIT Crypto Economics Lab, Catalini has been instrumental in understanding the economic implications of blockchain technology."
-        },
-        {
-          "heading": "Entrepreneurship",
-          "body": "Catalini's experience as an entrepreneur, particularly as co-founder of LightSpark, provides him with unique insights into the challenges and opportunities faced by startups in the tech industry."
-        },
-        {
-          "heading": "Future of Work",
-          "body": "Catalini's research suggests that AI could give individuals the leverage of a team, fundamentally changing the nature of work and the potential for one-person billion-dollar startups."
-        }
-      ]
-    }
-  },
-  {
-    "id": 129,
-    "name": "Eddie Lazarin",
-    "slug": "eddie-lazarin",
-    "bio": "Eddie Lazarin is a prominent figure in the tech industry, known for his insights on AI's role in shaping the future economy. He has been influential in discussions about the potential for AI to democratize access to resources and enable individuals to leverage the power of technology to create significant value.",
-    "known_for": "His contributions to the conversation about AI's impact on the future of work, startups, and economic empowerment.",
-    "net_worth_usd": 600000000000.0,
-    "net_worth_source": "https://www.forbes.com/sites/phoebeliu/2025/03/31/ai-boom-billionaires-these-tech-moguls-new-joined-billionaires-list-2025/",
-    "net_worth_updated_at": "2026-03-28T22:05:51.815831",
-    "voice_tone": "Inquisitive and engaging.",
-    "voice_style": "Facilitative, guiding the conversation through different aspects of AI.",
-    "voice_delivery_notes": "Evenly paced with a focus on drawing out detailed responses.",
-    "voice_profile_updated_at": "2026-03-29 03:02:55",
-    "last_seen": "2026-03-29 03:02:55",
-    "last_episode_title": "the a16z show 20260319 1e92a9dd 78da 4417 b1ce 4b4318d1",
-    "last_podcast_name": "The a16z Show",
-    "last_episode_date": "2026-03-28",
-    "mention_score": 2,
-    "mention_score_decayed": 0.03,
-    "last_main_idea": "Investing in AI and its intersection with sectors like crypto could yield significant returns as these technologies disrupt traditional economies and create new opportunities.",
-    "last_proof_cite": "The a16z Show \u2022 2026-03-28 \u2022 the a16z show 20260319 1e92a9dd 78da 4417 b1ce 4b4318d1",
-    "last_proof_snippet": "The paper suggests that anything that can be measured will eventually be automated, which could have profound effects on the economy and labor.",
-    "supporting_takeaway": "The paper suggests that anything that can be measured will eventually be automated, which could have profound effects on the economy and labor.",
-    "grokipedia_url": null,
-    "grokipedia_fetched_at": "2026-03-28T22:05:50.938326",
-    "pundit_profile": {
-      "source": "llm",
-      "source_model": "moonshot:moonshot-v1-8k",
-      "source_url": "",
-      "page_title": "Eddie Lazarin",
-      "fetched_at": "2026-03-29T03:05:50.938237+00:00",
-      "cliff_notes": "Eddie Lazarin is recognized for his contributions to the discourse on artificial intelligence and its implications for the economy and society. As a co-founder of LightSpark, Lazarin has been at the forefront of exploring how AI can be harnessed to empower individuals and reshape traditional business models. His work emphasizes the potential for AI to provide individuals with the leverage of a team, thereby democratizing access to resources and opportunities. Lazarin's insights into the new surplus of AI and its potential to fuel the next generation of billion-dollar startups have made him a sought-after voice in tech circles.",
-      "derived": {
-        "current_role": "Co-founder of LightSpark"
-      },
-      "infobox": {
-        "Born": "",
-        "Nationality": ""
-      },
-      "lead_paragraphs": [
-        "Eddie Lazarin is recognized for his contributions to the discourse on artificial intelligence and its implications for the economy and society. As a co-founder of LightSpark, Lazarin has been at the forefront of exploring how AI can be harnessed to empower individuals and reshape traditional business models. His work emphasizes the potential for AI to provide individuals with the leverage of a team, thereby democratizing access to resources and opportunities.",
-        "Lazarin's insights into the new surplus of AI and its potential to fuel the next generation of billion-dollar startups have made him a sought-after voice in tech circles."
-      ],
-      "sections": [
-        {
-          "heading": "AI and Economic Empowerment",
-          "body": "Eddie Lazarin discusses how AI can provide individuals with the leverage of a team, potentially enabling anyone to start a billion-dollar startup with minimal resources."
-        },
-        {
-          "heading": "Future of Work",
-          "body": "Lazarin explores the implications of AI on the future of work, suggesting that traditional apprenticeship models may be replaced by new forms of work facilitated by AI."
-        },
-        {
-          "heading": "Democratization of Resources",
-          "body": "Lazarin emphasizes the potential for AI to democratize access to computing power and other resources, allowing individuals to compete on a level playing field with larger entities."
-        }
-      ]
-    },
-    "net_worth": "$600.00B"
-  },
-  {
-    "id": 94,
-    "name": "Carson Block",
-    "slug": "carson-block",
-    "bio": "Founder of Muddy Waters Capital, a leading activist short seller hedge fund.",
-    "known_for": "Specializing in activist short selling with deep research.",
-    "net_worth_usd": 200000000.0,
-    "net_worth_source": "https://www.publicfigurenetworth.com/carson-block-net-worth/",
-    "net_worth_updated_at": "2026-03-20T04:42:12.912511",
-    "voice_tone": "Confident and experienced.",
-    "voice_style": "Direct and to-the-point, with a focus on identifying market opportunities and risks.",
-    "voice_delivery_notes": "Paced with emphasis on key investment insights and market analysis.",
-    "voice_profile_updated_at": "2026-03-29 03:02:33",
-    "last_seen": "2026-03-29 03:02:33",
-    "last_episode_title": "Technical Analysis Deep Dive with Milton Berg - February 2026 Market Signals",
-    "last_podcast_name": "Monetary Matters with Jack Farley",
-    "last_episode_date": "2026-02-15",
-    "mention_score": 2,
-    "mention_score_decayed": 0.03,
-    "last_main_idea": "The tech sector, especially AI and AI-adjacent industries, presents fertile ground for short selling due to the influx of money and the presence of pretenders.",
-    "last_proof_cite": "Monetary Matters with Jack Farley \u2022 2026-02-15 \u2022 Technical Analysis Deep Dive with Milton Berg - February 2026 Market Signals",
-    "last_proof_snippet": "The semiconductor industry, despite being cyclical and capital-intensive, has seen unusual upward trends, suggesting potential for mean reversion.",
-    "supporting_takeaway": "The semiconductor industry, despite being cyclical and capital-intensive, has seen unusual upward trends, suggesting potential for mean reversion.",
-    "grokipedia_url": null,
-    "grokipedia_fetched_at": "2026-03-20T04:42:09.376490",
-    "pundit_profile": {
-      "source": "llm",
-      "source_model": "moonshot:moonshot-v1-8k",
-      "source_url": "",
-      "page_title": "Carson Block",
-      "fetched_at": "2026-03-20T09:42:09.376380+00:00",
-      "cliff_notes": "Carson Block is an American investor and the founder of Muddy Waters Capital, an investment firm known for its activist short selling approach. Block's career in finance began after he graduated from law school and moved to China, where he worked as an attorney and later in private equity. His experiences in China, particularly witnessing corporate fraud, inspired him to start Muddy Waters Research in 2010, which would later become Muddy Waters Capital. The firm is renowned for its deep research into companies, often uncovering fraudulent practices or overpromised business models, leading to significant market impact when they release their findings. Block's work has been influential in the tech and finance sectors, as his exposes often lead to substantial stock price movements and regulatory scrutiny.",
-      "derived": {
-        "current_role": "Founder of Muddy Waters Capital",
-        "education": "Bachelor's degree in International Relations from Southern Methodist University; Juris Doctor from the University of Chicago Law School"
-      },
-      "infobox": {
-        "Born": "1980",
-        "Nationality": "American"
-      },
-      "lead_paragraphs": [
-        "Carson Block is an American investor and the founder of Muddy Waters Capital, an investment firm known for its activist short selling approach. Block's career in finance began after he graduated from law school and moved to China, where he worked as an attorney and later in private equity. His experiences in China, particularly witnessing corporate fraud, inspired him to start Muddy Waters Research in 2010, which would later become Muddy Waters Capital.",
-        "The firm is renowned for its deep research into companies, often uncovering fraudulent practices or overpromised business models, leading to significant market impact when they release their findings. Block's work has been influential in the tech and finance sectors, as his exposes often lead to substantial stock price movements and regulatory scrutiny."
-      ],
-      "sections": [
-        {
-          "heading": "Activist Short Selling",
-          "body": "Carson Block is recognized for his activist short selling approach, where he not only bets against companies but also actively researches and exposes fraudulent practices or overpromised business models."
-        },
-        {
-          "heading": "Muddy Waters Capital",
-          "body": "Muddy Waters Capital, founded by Block, is a hedge fund that specializes in short selling and has been influential in exposing corporate frauds, particularly in the tech sector."
-        },
-        {
-          "heading": "Market Impact",
-          "body": "Block's research and activism have had significant market impact, leading to substantial stock price movements and regulatory scrutiny for the companies targeted by Muddy Waters Capital."
-        },
-        {
-          "heading": "Fraud Exposure",
-          "body": "Carson Block has been instrumental in exposing corporate frauds, particularly in sectors like electric vehicles and green energy, where companies have been known to overpromise on their capabilities."
-        }
-      ]
-    },
-    "net_worth": "$200.0M"
-  },
-  {
     "id": 207,
     "name": "Matthew Bloomfield",
     "slug": "matthew-bloomfield",
@@ -65441,6 +65252,195 @@ const dashboardData = {
         }
       ]
     }
+  },
+  {
+    "id": 128,
+    "name": "Christian Catalini",
+    "slug": "christian-catalini",
+    "bio": "Christian Catalini is a co-founder of LightSpark and founder of the MIT Crypto Economics Lab. He is known for his work in the intersection of technology, economics, and entrepreneurship, particularly in the field of AI and blockchain.",
+    "known_for": "Authoring the influential paper 'Some Simple Economics of AI' and his contributions to the understanding of crypto economics.",
+    "net_worth_usd": null,
+    "net_worth_source": null,
+    "net_worth_updated_at": "2026-03-29T04:09:28.783743",
+    "voice_tone": "Optimistic and analytical.",
+    "voice_style": "Explanatory and speculative, discussing the future impacts of AI.",
+    "voice_delivery_notes": "Paced with emphasis on the transformative potential of AI.",
+    "voice_profile_updated_at": "2026-03-29 03:02:55",
+    "last_seen": "2026-03-29 03:02:55",
+    "last_episode_title": "the a16z show 20260319 1e92a9dd 78da 4417 b1ce 4b4318d1",
+    "last_podcast_name": "The a16z Show",
+    "last_episode_date": "2026-03-28",
+    "mention_score": 2,
+    "mention_score_decayed": 0.02,
+    "last_main_idea": "Investing in AI and its intersection with sectors like crypto could yield significant returns as these technologies disrupt traditional economies and create new opportunities.",
+    "last_proof_cite": "The a16z Show \u2022 2026-03-28 \u2022 the a16z show 20260319 1e92a9dd 78da 4417 b1ce 4b4318d1",
+    "last_proof_snippet": "The paper suggests that anything that can be measured will eventually be automated, which could have profound effects on the economy and labor.",
+    "supporting_takeaway": "The paper suggests that anything that can be measured will eventually be automated, which could have profound effects on the economy and labor.",
+    "grokipedia_url": null,
+    "grokipedia_fetched_at": "2026-03-28T22:05:42.395070",
+    "pundit_profile": {
+      "source": "llm",
+      "source_model": "moonshot:moonshot-v1-8k",
+      "source_url": "",
+      "page_title": "Christian Catalini",
+      "fetched_at": "2026-03-29T03:05:42.394968+00:00",
+      "cliff_notes": "Christian Catalini has made significant contributions to the fields of technology, economics, and entrepreneurship. As the co-founder of LightSpark and founder of the MIT Crypto Economics Lab, he has been at the forefront of exploring the economic implications of AI and blockchain technology. His paper 'Some Simple Economics of AI' has been influential in shaping discussions around the economic impact of AI on work, startups, and ambition. Catalini's work is crucial for understanding how new technologies can disrupt traditional economic models and create new opportunities for innovation and growth.",
+      "derived": {
+        "current_role": "Founder, MIT Crypto Economics Lab",
+        "books_or_works": "Some Simple Economics of AI"
+      },
+      "infobox": {
+        "Born": "",
+        "Nationality": ""
+      },
+      "lead_paragraphs": [
+        "Christian Catalini has made significant contributions to the fields of technology, economics, and entrepreneurship. As the co-founder of LightSpark and founder of the MIT Crypto Economics Lab, he has been at the forefront of exploring the economic implications of AI and blockchain technology. His paper 'Some Simple Economics of AI' has been influential in shaping discussions around the economic impact of AI on work, startups, and ambition.",
+        "Catalini's work is crucial for understanding how new technologies can disrupt traditional economic models and create new opportunities for innovation and growth."
+      ],
+      "sections": [
+        {
+          "heading": "AI Economics",
+          "body": "Catalini's work on AI economics explores how artificial intelligence can transform economic models and create new opportunities for innovation."
+        },
+        {
+          "heading": "Crypto Economics",
+          "body": "As the founder of the MIT Crypto Economics Lab, Catalini has been instrumental in understanding the economic implications of blockchain technology."
+        },
+        {
+          "heading": "Entrepreneurship",
+          "body": "Catalini's experience as an entrepreneur, particularly as co-founder of LightSpark, provides him with unique insights into the challenges and opportunities faced by startups in the tech industry."
+        },
+        {
+          "heading": "Future of Work",
+          "body": "Catalini's research suggests that AI could give individuals the leverage of a team, fundamentally changing the nature of work and the potential for one-person billion-dollar startups."
+        }
+      ]
+    }
+  },
+  {
+    "id": 129,
+    "name": "Eddie Lazarin",
+    "slug": "eddie-lazarin",
+    "bio": "Eddie Lazarin is a prominent figure in the tech industry, known for his insights on AI's role in shaping the future economy. He has been influential in discussions about the potential for AI to democratize access to resources and enable individuals to leverage the power of technology to create significant value.",
+    "known_for": "His contributions to the conversation about AI's impact on the future of work, startups, and economic empowerment.",
+    "net_worth_usd": 600000000000.0,
+    "net_worth_source": "https://www.forbes.com/sites/phoebeliu/2025/03/31/ai-boom-billionaires-these-tech-moguls-new-joined-billionaires-list-2025/",
+    "net_worth_updated_at": "2026-03-28T22:05:51.815831",
+    "voice_tone": "Inquisitive and engaging.",
+    "voice_style": "Facilitative, guiding the conversation through different aspects of AI.",
+    "voice_delivery_notes": "Evenly paced with a focus on drawing out detailed responses.",
+    "voice_profile_updated_at": "2026-03-29 03:02:55",
+    "last_seen": "2026-03-29 03:02:55",
+    "last_episode_title": "the a16z show 20260319 1e92a9dd 78da 4417 b1ce 4b4318d1",
+    "last_podcast_name": "The a16z Show",
+    "last_episode_date": "2026-03-28",
+    "mention_score": 2,
+    "mention_score_decayed": 0.02,
+    "last_main_idea": "Investing in AI and its intersection with sectors like crypto could yield significant returns as these technologies disrupt traditional economies and create new opportunities.",
+    "last_proof_cite": "The a16z Show \u2022 2026-03-28 \u2022 the a16z show 20260319 1e92a9dd 78da 4417 b1ce 4b4318d1",
+    "last_proof_snippet": "The paper suggests that anything that can be measured will eventually be automated, which could have profound effects on the economy and labor.",
+    "supporting_takeaway": "The paper suggests that anything that can be measured will eventually be automated, which could have profound effects on the economy and labor.",
+    "grokipedia_url": null,
+    "grokipedia_fetched_at": "2026-03-28T22:05:50.938326",
+    "pundit_profile": {
+      "source": "llm",
+      "source_model": "moonshot:moonshot-v1-8k",
+      "source_url": "",
+      "page_title": "Eddie Lazarin",
+      "fetched_at": "2026-03-29T03:05:50.938237+00:00",
+      "cliff_notes": "Eddie Lazarin is recognized for his contributions to the discourse on artificial intelligence and its implications for the economy and society. As a co-founder of LightSpark, Lazarin has been at the forefront of exploring how AI can be harnessed to empower individuals and reshape traditional business models. His work emphasizes the potential for AI to provide individuals with the leverage of a team, thereby democratizing access to resources and opportunities. Lazarin's insights into the new surplus of AI and its potential to fuel the next generation of billion-dollar startups have made him a sought-after voice in tech circles.",
+      "derived": {
+        "current_role": "Co-founder of LightSpark"
+      },
+      "infobox": {
+        "Born": "",
+        "Nationality": ""
+      },
+      "lead_paragraphs": [
+        "Eddie Lazarin is recognized for his contributions to the discourse on artificial intelligence and its implications for the economy and society. As a co-founder of LightSpark, Lazarin has been at the forefront of exploring how AI can be harnessed to empower individuals and reshape traditional business models. His work emphasizes the potential for AI to provide individuals with the leverage of a team, thereby democratizing access to resources and opportunities.",
+        "Lazarin's insights into the new surplus of AI and its potential to fuel the next generation of billion-dollar startups have made him a sought-after voice in tech circles."
+      ],
+      "sections": [
+        {
+          "heading": "AI and Economic Empowerment",
+          "body": "Eddie Lazarin discusses how AI can provide individuals with the leverage of a team, potentially enabling anyone to start a billion-dollar startup with minimal resources."
+        },
+        {
+          "heading": "Future of Work",
+          "body": "Lazarin explores the implications of AI on the future of work, suggesting that traditional apprenticeship models may be replaced by new forms of work facilitated by AI."
+        },
+        {
+          "heading": "Democratization of Resources",
+          "body": "Lazarin emphasizes the potential for AI to democratize access to computing power and other resources, allowing individuals to compete on a level playing field with larger entities."
+        }
+      ]
+    },
+    "net_worth": "$600.00B"
+  },
+  {
+    "id": 94,
+    "name": "Carson Block",
+    "slug": "carson-block",
+    "bio": "Founder of Muddy Waters Capital, a leading activist short seller hedge fund.",
+    "known_for": "Specializing in activist short selling with deep research.",
+    "net_worth_usd": 200000000.0,
+    "net_worth_source": "https://www.publicfigurenetworth.com/carson-block-net-worth/",
+    "net_worth_updated_at": "2026-03-20T04:42:12.912511",
+    "voice_tone": "Confident and experienced.",
+    "voice_style": "Direct and to-the-point, with a focus on identifying market opportunities and risks.",
+    "voice_delivery_notes": "Paced with emphasis on key investment insights and market analysis.",
+    "voice_profile_updated_at": "2026-03-29 03:02:33",
+    "last_seen": "2026-03-29 03:02:33",
+    "last_episode_title": "Technical Analysis Deep Dive with Milton Berg - February 2026 Market Signals",
+    "last_podcast_name": "Monetary Matters with Jack Farley",
+    "last_episode_date": "2026-02-15",
+    "mention_score": 2,
+    "mention_score_decayed": 0.02,
+    "last_main_idea": "The tech sector, especially AI and AI-adjacent industries, presents fertile ground for short selling due to the influx of money and the presence of pretenders.",
+    "last_proof_cite": "Monetary Matters with Jack Farley \u2022 2026-02-15 \u2022 Technical Analysis Deep Dive with Milton Berg - February 2026 Market Signals",
+    "last_proof_snippet": "The semiconductor industry, despite being cyclical and capital-intensive, has seen unusual upward trends, suggesting potential for mean reversion.",
+    "supporting_takeaway": "The semiconductor industry, despite being cyclical and capital-intensive, has seen unusual upward trends, suggesting potential for mean reversion.",
+    "grokipedia_url": null,
+    "grokipedia_fetched_at": "2026-03-20T04:42:09.376490",
+    "pundit_profile": {
+      "source": "llm",
+      "source_model": "moonshot:moonshot-v1-8k",
+      "source_url": "",
+      "page_title": "Carson Block",
+      "fetched_at": "2026-03-20T09:42:09.376380+00:00",
+      "cliff_notes": "Carson Block is an American investor and the founder of Muddy Waters Capital, an investment firm known for its activist short selling approach. Block's career in finance began after he graduated from law school and moved to China, where he worked as an attorney and later in private equity. His experiences in China, particularly witnessing corporate fraud, inspired him to start Muddy Waters Research in 2010, which would later become Muddy Waters Capital. The firm is renowned for its deep research into companies, often uncovering fraudulent practices or overpromised business models, leading to significant market impact when they release their findings. Block's work has been influential in the tech and finance sectors, as his exposes often lead to substantial stock price movements and regulatory scrutiny.",
+      "derived": {
+        "current_role": "Founder of Muddy Waters Capital",
+        "education": "Bachelor's degree in International Relations from Southern Methodist University; Juris Doctor from the University of Chicago Law School"
+      },
+      "infobox": {
+        "Born": "1980",
+        "Nationality": "American"
+      },
+      "lead_paragraphs": [
+        "Carson Block is an American investor and the founder of Muddy Waters Capital, an investment firm known for its activist short selling approach. Block's career in finance began after he graduated from law school and moved to China, where he worked as an attorney and later in private equity. His experiences in China, particularly witnessing corporate fraud, inspired him to start Muddy Waters Research in 2010, which would later become Muddy Waters Capital.",
+        "The firm is renowned for its deep research into companies, often uncovering fraudulent practices or overpromised business models, leading to significant market impact when they release their findings. Block's work has been influential in the tech and finance sectors, as his exposes often lead to substantial stock price movements and regulatory scrutiny."
+      ],
+      "sections": [
+        {
+          "heading": "Activist Short Selling",
+          "body": "Carson Block is recognized for his activist short selling approach, where he not only bets against companies but also actively researches and exposes fraudulent practices or overpromised business models."
+        },
+        {
+          "heading": "Muddy Waters Capital",
+          "body": "Muddy Waters Capital, founded by Block, is a hedge fund that specializes in short selling and has been influential in exposing corporate frauds, particularly in the tech sector."
+        },
+        {
+          "heading": "Market Impact",
+          "body": "Block's research and activism have had significant market impact, leading to substantial stock price movements and regulatory scrutiny for the companies targeted by Muddy Waters Capital."
+        },
+        {
+          "heading": "Fraud Exposure",
+          "body": "Carson Block has been instrumental in exposing corporate frauds, particularly in sectors like electric vehicles and green energy, where companies have been known to overpromise on their capabilities."
+        }
+      ]
+    },
+    "net_worth": "$200.0M"
   },
   {
     "id": 43,
@@ -68335,7 +68335,7 @@ const dashboardData = {
         }
       ],
       "disclaimer": "Research sleeve / scorecard, not advice. $1,000 equal-weight illustration only.",
-      "last_updated": "2026-10-04T14:15:09.499671"
+      "last_updated": "2026-10-04T22:33:25.065621"
     }
   ]
 }
