@@ -1,10 +1,20 @@
 """Backstop: generic reader advice ("Investors should…") never reaches public card fields."""
 import unittest
 
-from site_text_sanitize import clean_reader_advice, sanitize_public_text, strip_reader_advice
+from site_text_sanitize import (
+    clean_reader_advice,
+    correct_asr_errors,
+    sanitize_public_text,
+    strip_reader_advice,
+)
 
 
 class ReaderAdviceTest(unittest.TestCase):
+    def test_corrects_laina_berger_host_name(self):
+        t = "Laina Berger interviews Angela Strange about borderless founders."
+        self.assertIn("Elena Burger", correct_asr_errors(t))
+        self.assertNotIn("Laina", correct_asr_errors(t))
+
     def test_drops_investors_should_sentence(self):
         t = "Baker says capex hits $400B in 2026. Investors should focus on AI leaders."
         self.assertEqual(strip_reader_advice(t), "Baker says capex hits $400B in 2026.")
