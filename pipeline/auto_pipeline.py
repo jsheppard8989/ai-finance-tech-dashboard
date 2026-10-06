@@ -820,7 +820,7 @@ def _get_timestamp_chicago_or_utc() -> str:
         return datetime.now().strftime("%Y-%m-%d-%H%M")
 
 
-def _git_head_branch() -> str | None:
+def _git_head_branch():
     """Current branch name, or None if rev-parse failed."""
     r = subprocess.run(
         ["git", "rev-parse", "--abbrev-ref", "HEAD"],
@@ -832,6 +832,86 @@ def _git_head_branch() -> str | None:
     if r.returncode != 0:
         return None
     return (r.stdout or "").strip() or None
+
+
+def _has_uncommitted_site_changes() -> bool:
+    """Return True if site/ or root state files have uncommitted changes."""
+    r = subprocess.run(
+        ["git", "status", "--porcelain", "--", "site/", "status.json", "pipeline_state.json",
+         "pundits.json", "podcast_guests.json", "trap_map_home.json"],
+        capture_output=True,
+        text=True,
+        cwd=WORKSPACE,
+        timeout=30,
+    )
+    return bool((r.stdout or "").strip())
+
+
+def _ensure_main_before_export() -> bool:
+    """
+    Ensure the checkout is on main BEFORE export writes any files.
+
+    If on a non-main branch with uncommitted site/ changes:
+      1. Stash with a named ref (never discard)
+      2. Checkout main
+      3. Return True to proceed
+
+    Export will regenerate site/ files fresh, so the stash is a safety net only.
+    Returns False (and sends notification) if checkout fails.
+    """
+    branch = _git_head_branch()
+    if branch is None:
+        msg = "git rev-parse --abbrev-ref HEAD failed"
+        print(f"✗ {msg}")
+        send_notification("Pipeline: Pre-export checkout failed", msg[:900], priority=1)
+        return False
+
+    if branch == "main":
+        return True
+
+    print(f"Pipeline: checkout is on '{branch}', not main — switching before export...")
+
+    has_changes = _has_uncommitted_site_changes()
+    if has_changes:
+        ts = datetime.now().strftime("%Y%m%d-%H%M%S")
+        stash_msg = f"cursor-agent-auto-stash-{ts}"
+        print(f"  Stashing uncommitted site/ changes: {stash_msg}")
+        r_stash = subprocess.run(
+            ["git", "stash", "push", "-m", stash_msg, "--include-untracked",
+             "--", "site/", "status.json", "pipeline_state.json", "pundits.json",
+             "podcast_guests.json", "trap_map_home.json"],
+            capture_output=True,
+            text=True,
+            cwd=WORKSPACE,
+            timeout=60,
+        )
+        if r_stash.returncode != 0:
+            stash_err = (r_stash.stderr or r_stash.stdout or "").strip()
+            if "No local changes" in stash_err:
+                print("  (no local changes to stash)")
+            else:
+                msg = f"git stash failed: {stash_err}"
+                print(f"✗ {msg}")
+                send_notification("Pipeline: Pre-export stash failed", msg[:900], priority=1)
+                return False
+        else:
+            print(f"  ✓ Stashed to '{stash_msg}'")
+
+    r_checkout = subprocess.run(
+        ["git", "checkout", "main"],
+        capture_output=True,
+        text=True,
+        cwd=WORKSPACE,
+        timeout=60,
+    )
+    if r_checkout.returncode != 0:
+        msg = (r_checkout.stderr or r_checkout.stdout or "git checkout main failed").strip()
+        print(f"✗ {msg}")
+        send_notification("Pipeline: Pre-export checkout main failed", msg[:900], priority=1)
+        return False
+
+    print("  ✓ Switched to main (export will regenerate site/ files)")
+    return True
 
 
 def _ensure_checked_out_main() -> bool:
@@ -1254,6 +1334,19 @@ def main():
 
     results = {}
     errors = []
+
+    # Ensure checkout is on main BEFORE any pipeline steps run.
+    # If on a non-main branch (e.g. leftover from prior agent work), stash any
+    # uncommitted site/ changes safely, then checkout main. This only stashes
+    # leftovers from before this run; fresh outputs go directly to main.
+    if not _ensure_main_before_export():
+        errors.append("checkout_main")
+        # _ensure_main_before_export already sent notification; skip the run cleanly
+        print("\n" + "="*60)
+        print("PIPELINE ABORTED — checkout not on main")
+        print("="*60)
+        release_lock()
+        return
 
     try:
         if not analyze_only:
