@@ -1335,6 +1335,19 @@ def main():
     results = {}
     errors = []
 
+    # Ensure checkout is on main BEFORE any pipeline steps run.
+    # If on a non-main branch (e.g. leftover from prior agent work), stash any
+    # uncommitted site/ changes safely, then checkout main. This only stashes
+    # leftovers from before this run; fresh outputs go directly to main.
+    if not _ensure_main_before_export():
+        errors.append("checkout_main")
+        # _ensure_main_before_export already sent notification; skip the run cleanly
+        print("\n" + "="*60)
+        print("PIPELINE ABORTED — checkout not on main")
+        print("="*60)
+        release_lock()
+        return
+
     try:
         if not analyze_only:
             # Full pipeline: fetch new episodes first
@@ -1428,21 +1441,6 @@ def main():
         if "pending_before" in term_summary:
             results["terms_pending_before"] = int(term_summary.get("pending_before", 0) or 0)
         run_script("Extract Podcast Guests", "extract_guests.py", timeout=180)
-
-        # Ensure checkout is on main BEFORE export writes to site/.
-        # If on a non-main branch (e.g. leftover from prior agent work), stash any
-        # uncommitted site/ changes safely, then checkout main. Export regenerates
-        # site/ files fresh, so stashed content is preserved but not needed.
-        if not _ensure_main_before_export():
-            errors.append("checkout_main")
-            send_notification(
-                "Pipeline: Blocked — checkout not on main",
-                "Pipeline cannot export or push while on a non-main branch with uncommitted changes "
-                "that cannot be stashed. See logs for details.",
-                priority=1,
-            )
-            # Continue to summary without export/push
-            dd_ok = False  # skip export path
 
         export_ok = False
         if dd_ok:
