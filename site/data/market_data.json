@@ -86,7 +86,7 @@
     "_primary_source": "Treasury.gov",
     "_source_url": "https://home.treasury.gov/resource-center/data-chart-center/interest-rates/TextView?type=daily_treasury_yield_curve",
     "_fred_status": "unavailable (optional)",
-    "last_updated": "2026-10-07T06:47:13.474087",
+    "last_updated": "2026-10-07T12:05:19.047431",
     "as_of_date": "2026-10-06",
     "spreads": {
       "2s10s": {
@@ -127,7 +127,7 @@
       "_comment": "MOVE Index - bond market VIX. Source: Yahoo Finance ^MOVE.",
       "label": "MOVE Index",
       "description": "Treasury implied volatility index. High readings = bond market stress/uncertainty.",
-      "value": 105.2,
+      "value": 105.24,
       "change_1d": 0.0,
       "signal": "elevated",
       "yahoo_symbol": "^MOVE",
@@ -145,7 +145,7 @@
     "_fetch_url": "https://www.cftc.gov/dea/futures/financial_lf.htm",
     "_api_alternative": "Quandl CFTC dataset (may need key)",
     "_fetch_instructions": "CFTC releases COT every Friday at 3:30pm ET for positions as of prior Tuesday.",
-    "last_updated": "2026-10-07T06:47:13.789169",
+    "last_updated": "2026-10-07T12:05:19.457224",
     "report_date": "2026-09-29",
     "prior_report_date": "2026-09-22",
     "rates_positioning": {
@@ -234,7 +234,7 @@
     "_source_url": "https://gpu-index.semianalysis.com/",
     "_api_url": "https://gpu-index.semianalysis.com/api/public-data",
     "_data_type": "api_index",
-    "last_fetched": "2026-10-07T06:46:57.377727",
+    "last_fetched": "2026-10-07T12:05:02.553339",
     "h100": {
       "daily_date": "Oct 07, 2026",
       "daily_date_iso": "2026-10-07",
