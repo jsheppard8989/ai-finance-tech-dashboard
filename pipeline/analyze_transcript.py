@@ -420,89 +420,6 @@ def mark_transcript_processed(transcript_path: Path, episode_id: int):
             print(f"    ⚠ Could not set is_processed in DB for episode {episode_id}: {e}")
 
 
-def create_stub_episode_from_sidecar(transcript_path: Path, db) -> Optional[int]:
-    """Create a minimal podcast_episode row from sidecar metadata when AI is unavailable.
-    
-    This allows the pipeline to track episodes even without AI analysis. The episode
-    is marked is_processed=0 so it can be analyzed later when AI becomes available.
-    
-    Returns episode_id if created, None if skipped (missing sidecar or already exists).
-    """
-    import sqlite3 as _sqlite3
-    
-    meta_file = transcript_path.parent / f"{transcript_path.stem}.meta.json"
-    if not meta_file.exists():
-        return None
-    
-    try:
-        with open(meta_file) as mf:
-            sidecar = json.load(mf)
-    except Exception:
-        return None
-    
-    podcast_name = (sidecar.get("podcast_name") or "").strip()
-    episode_title = (sidecar.get("episode_title") or "").strip()
-    rss_guid = (sidecar.get("rss_guid") or "").strip()
-    audio_url = (sidecar.get("audio_url") or "").strip()
-    published_date = (sidecar.get("published_date") or "").strip()
-    
-    if not podcast_name or not episode_title:
-        return None
-    
-    if not rss_guid:
-        return None
-    
-    conn = _sqlite3.connect(str(DB_PATH))
-    conn.row_factory = _sqlite3.Row
-    
-    existing = conn.execute(
-        "SELECT id FROM podcast_episodes WHERE rss_guid = ?", (rss_guid,)
-    ).fetchone()
-    if existing:
-        conn.close()
-        return None
-    
-    existing_title = conn.execute(
-        "SELECT id FROM podcast_episodes WHERE podcast_name = ? AND episode_title = ?",
-        (podcast_name, episode_title)
-    ).fetchone()
-    if existing_title:
-        conn.close()
-        return None
-    
-    try:
-        ep_date = datetime.strptime(published_date[:10], '%Y-%m-%d').date() if published_date else date.today()
-    except Exception:
-        ep_date = date.today()
-    
-    cursor = conn.execute("""
-        INSERT INTO podcast_episodes 
-        (podcast_name, episode_title, episode_date, audio_url, transcript_path,
-         summary, key_takeaways, key_tickers, investment_thesis, relevance_score,
-         is_processed, rss_guid, published_date)
-        VALUES (?, ?, ?, ?, ?, ?, ?, ?, ?, ?, 0, ?, ?)
-    """, (
-        podcast_name,
-        episode_title,
-        ep_date,
-        audio_url,
-        str(transcript_path),
-        "(Pending AI analysis)",
-        None,
-        None,
-        None,
-        0,
-        rss_guid,
-        published_date,
-    ))
-    episode_id = cursor.lastrowid
-    conn.commit()
-    conn.close()
-    
-    print(f"    ✓ Created stub episode (ID: {episode_id}) from sidecar (awaiting AI analysis)")
-    return episode_id
-
-
 def analyze_transcript_with_ai(
     client_info,
     transcript_content: str,
@@ -1229,25 +1146,16 @@ def process_all_transcripts() -> Dict[str, any]:
         client_info = get_ai_client()
     except ProviderKeyMissingError as e:
         print(f"✗ Provider configuration error: {e}")
-        client_info = None
+        return {'processed': 0, 'errors': 1, 'provider_error': str(e)}
+    if not client_info:
+        print("✗ No AI client available. Check your API keys.")
+        return {'processed': 0, 'errors': 1}
     
     db = get_db()
     
     # Find all transcript files
     transcript_files = list(TRANSCRIPT_DIR.glob('*.txt'))
     print(f"Found {len(transcript_files)} transcript files")
-    
-    if not client_info:
-        print("⚠ No AI client available. Creating stub episodes from sidecar metadata...")
-        stubs_created = 0
-        for transcript_path in transcript_files:
-            if is_transcript_processed(transcript_path):
-                continue
-            episode_id = create_stub_episode_from_sidecar(transcript_path, db)
-            if episode_id:
-                stubs_created += 1
-        print(f"✓ Created {stubs_created} stub episode(s) from sidecar metadata (awaiting AI analysis)")
-        return {'processed': 0, 'stubs_created': stubs_created, 'errors': 0, 'ai_unavailable': True}
     
     processed = 0
     skipped = 0
