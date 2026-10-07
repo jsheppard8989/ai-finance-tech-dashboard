@@ -550,7 +550,7 @@ def analyze_transcript_with_ai(
         "Purpose: Capture named frameworks, theses, or coined phrases that change how an investor thinks — NOT every topic mentioned.\n\n"
         "INCLUDE (priority order):\n"
         "- Coined or repeated phrases treated as a unit (e.g. SaaS Apocalypse, Compute Arbitrage, K-shaped recovery)\n"
-        "- Established frameworks discussed with a clear argument or trade implication (e.g. Jevon's Paradox applied to AI power, AGI timeline/deployment debate)\n"
+        "- Established frameworks discussed with a clear argument or trade implication (e.g. Jevons Paradox applied to AI power, AGI timeline/deployment debate)\n"
         "- Terms where a speaker defines, contrasts, or stakes an investment view on the concept\n\n"
         "EXCLUDE (do not put in emerging_terms):\n"
         "- Bare generic labels with no specific framing: AI, inflation, the Fed, tech stocks, Bitcoin (unless part of a named thesis)\n"

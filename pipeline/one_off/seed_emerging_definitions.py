@@ -21,7 +21,7 @@ CURRENT_DEFINITIONS = [
         "source_context": "Curated definition (pre-promoted)",
     },
     {
-        "term": "Jevon's Paradox",
+        "term": "Jevons Paradox",
         "definition": "An economic phenomenon where increased efficiency in using a resource leads to increased consumption of that resource rather than decreased consumption.",
         "investment_implications": "As AI makes computation cheaper, total compute demand may explode—benefiting chip makers, data centers, and power providers despite efficiency gains.",
         "source_context": "Curated definition (pre-promoted)",
