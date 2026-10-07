@@ -4809,7 +4809,7 @@
     "last_podcast_name": "Moonshots with Peter Diamandis",
     "last_episode_date": "2026-08-27",
     "mention_score": 1,
-    "mention_score_decayed": 0.41,
+    "mention_score_decayed": 0.4,
     "last_main_idea": "Investment in AI and autonomous vehicle sectors should consider the shift towards more gradual AI integration and the potential for cost-effective Chinese AI models to disrupt the market.",
     "last_proof_cite": "Moonshots with Peter Diamandis \u2022 2026-08-27 \u2022 Sam Altman: Singularity Slow-Down, Emad Runs 18 Grokbots, Waymo Slashes Hardware 83% | EP #283",
     "last_proof_snippet": "Sam Altman went on video this week to tell the world that he was wrong about the impact of advancing AI. We've all been too ambitious on time on it's even with this incredible technology. He now believes it will be something slower, more lik",
@@ -6248,7 +6248,7 @@
     "last_podcast_name": "Moonshots with Peter Diamandis",
     "last_episode_date": "2026-08-11",
     "mention_score": 1,
-    "mention_score_decayed": 0.28,
+    "mention_score_decayed": 0.27,
     "last_main_idea": "Sergei Bren's return to Gemini may lead to accelerated innovation with less safety constraints.",
     "last_proof_cite": "Moonshots with Peter Diamandis \u2022 2026-08-11 \u2022 Sergey Brin Retakes Gemini, 4 Labs Lose Containment, Compute Trades at NYSE w/ Kush Bavaria | EP #278",
     "last_proof_snippet": "Sergei Bren is back taking personal control of Gemini. I think we can expect Gemini to make more releases in an accelerated pace with less safety constraints. Google has lost the frontier race and so they can't compete. Those who can't comp",
@@ -6308,7 +6308,7 @@
     "last_podcast_name": "Latent Space: The AI Engineer Podcast",
     "last_episode_date": "2026-08-11",
     "mention_score": 1,
-    "mention_score_decayed": 0.28,
+    "mention_score_decayed": 0.27,
     "last_main_idea": "Investing in AI-driven protein design companies like Try Discovery could offer significant returns as these platforms have the potential to disrupt traditional drug discovery, making it more efficient and cost-effective.",
     "last_proof_cite": "Latent Space: The AI Engineer Podcast \u2022 2026-08-11 \u2022 \ud83d\udd2cThe BioAI Phase Shift - Matthew McPartlon & Neil Patil, Chai Discovery",
     "last_proof_snippet": "It looks a lot less like a, you know, a chat GPT and a lot more like a autodesk or solid works or a figma, you know, if you've used those things where you can kind of load up your molecule, there's this almost like photo shop S click design",
@@ -6367,7 +6367,7 @@
     "last_podcast_name": "Latent Space: The AI Engineer Podcast",
     "last_episode_date": "2026-08-11",
     "mention_score": 1,
-    "mention_score_decayed": 0.28,
+    "mention_score_decayed": 0.27,
     "last_main_idea": "Investing in AI-driven protein design companies like Try Discovery could offer significant returns as these platforms have the potential to disrupt traditional drug discovery, making it more efficient and cost-effective.",
     "last_proof_cite": "Latent Space: The AI Engineer Podcast \u2022 2026-08-11 \u2022 \ud83d\udd2cThe BioAI Phase Shift - Matthew McPartlon & Neil Patil, Chai Discovery",
     "last_proof_snippet": "It looks a lot less like a, you know, a chat GPT and a lot more like a autodesk or solid works or a figma, you know, if you've used those things where you can kind of load up your molecule, there's this almost like photo shop S click design",
@@ -7821,6 +7821,65 @@
     }
   },
   {
+    "id": 98,
+    "name": "Rory Johnston",
+    "slug": "rory-johnston",
+    "bio": "Rory Johnston is an expert on energy markets and geopolitical risks. He is known for his analysis of the Hormuz crisis and its implications for global oil flows. Johnston's insights are highly valued by professional finance, high-net worth individuals, family offices, and other sophisticated investors.",
+    "known_for": "Analysis of the Hormuz crisis and its implications for global oil flows.",
+    "net_worth_usd": null,
+    "net_worth_source": "",
+    "net_worth_updated_at": "2026-03-28T22:05:57.557236",
+    "voice_tone": "Informative and insightful",
+    "voice_style": "Direct and focused on market dynamics",
+    "voice_delivery_notes": "Paced with emphasis on key market indicators",
+    "voice_profile_updated_at": "2026-03-29 09:09:13",
+    "last_seen": "2026-05-14 18:46:46",
+    "last_episode_title": "MacroVoices #532 Mike Green: Record Mechanical Flows",
+    "last_podcast_name": "Macro Voices",
+    "last_episode_date": "2026-05-14",
+    "mention_score": 6,
+    "mention_score_decayed": 0.21,
+    "last_main_idea": "Passive investment flows are dictating market behavior, potentially masking underlying economic weaknesses.",
+    "last_proof_cite": "Macro Voices \u2022 2026-05-14 \u2022 MacroVoices #532 Mike Green: Record Mechanical Flows",
+    "last_proof_snippet": "This is Macrovoisers, the Free Weekly Financial Podcast, targeting professional finance, high-net worth individuals, family offices, and other sophisticated investors. Macrovoisers is all about the brightest minds in the world of finance an",
+    "supporting_takeaway": "The ongoing Hormuz crisis is expected to create significant economic dislocation, particularly affecting energy supply.",
+    "grokipedia_url": null,
+    "grokipedia_fetched_at": "2026-05-14T13:47:11.847729",
+    "pundit_profile": {
+      "source": "llm",
+      "source_model": "moonshot:moonshot-v1-8k",
+      "source_url": "",
+      "page_title": "Rory Johnston",
+      "fetched_at": "2026-05-14T18:47:11.847405+00:00",
+      "cliff_notes": "Rory Johnston is an expert in energy markets and geopolitical risks, with a particular focus on the Hormuz crisis and its impact on global oil flows. His expertise is sought after by a range of financial professionals, including high-net worth individuals, family offices, and sophisticated investors. Johnston's analysis is featured on platforms like Macrovoisers, a financial podcast that targets these audiences. His insights into the Hormuz crisis and its potential to cripple the global economy are particularly valued, as they help investors navigate the complex and volatile world of finance and macroeconomics.",
+      "derived": {
+        "current_role": "Expert on energy markets and geopolitical risks; specific role not mentioned."
+      },
+      "infobox": {
+        "Born": "",
+        "Nationality": ""
+      },
+      "lead_paragraphs": [
+        "Rory Johnston is an expert in energy markets and geopolitical risks, with a particular focus on the Hormuz crisis and its impact on global oil flows. His expertise is sought after by a range of financial professionals, including high-net worth individuals, family offices, and sophisticated investors. Johnston's analysis is featured on platforms like Macrovoisers, a financial podcast that targets these audiences.",
+        "His insights into the Hormuz crisis and its potential to cripple the global economy are particularly valued, as they help investors navigate the complex and volatile world of finance and macroeconomics."
+      ],
+      "sections": [
+        {
+          "heading": "Hormuz Crisis",
+          "body": "Rory Johnston is known for his analysis of the Hormuz crisis and its implications for global oil flows. He has provided insights into how this geopolitical event could potentially cripple the global economy."
+        },
+        {
+          "heading": "Energy Markets",
+          "body": "Johnston is an expert on energy markets, offering valuable insights into the complex dynamics of oil and gas markets. His analysis helps investors understand the impact of geopolitical events on these markets."
+        },
+        {
+          "heading": "Geopolitical Risks",
+          "body": "As an expert on geopolitical risks, Johnston provides valuable perspectives on how global events can affect financial markets. His analysis of the Hormuz crisis is a prime example of this expertise."
+        }
+      ]
+    }
+  },
+  {
     "id": 364,
     "name": "Justin Jo",
     "slug": "justin-jo",
@@ -7838,7 +7897,7 @@
     "last_podcast_name": "The a16z Show",
     "last_episode_date": "2026-07-29",
     "mention_score": 1,
-    "mention_score_decayed": 0.21,
+    "mention_score_decayed": 0.2,
     "last_main_idea": "Investing in AI-native entertainment presents an opportunity to capitalize on the shift towards generative media and the democratization of content creation.",
     "last_proof_cite": "The a16z Show \u2022 2026-07-29 \u2022 AI Micro Dramas, Generative Media, and the Future of Creativity",
     "last_proof_snippet": "I think folks would be surprised by how many TV shows and movies today already have some element of AI being used. I spend a lot of time with studio execs and Amazon and Netflix have already both announced programs for fully-AI-generated an",
@@ -7898,7 +7957,7 @@
     "last_podcast_name": "All-In with Chamath, Jason, Sacks & Friedberg",
     "last_episode_date": "2026-07-28",
     "mention_score": 1,
-    "mention_score_decayed": 0.21,
+    "mention_score_decayed": 0.2,
     "last_main_idea": "Investing in robotics and AI companies that are successfully transitioning from research to real-world applications could offer significant growth potential as these technologies become more integrated into various industries.",
     "last_proof_cite": "All-In with Chamath, Jason, Sacks & Friedberg \u2022 2026-07-28 \u2022 The $1/Hour Worker: Four Robotics CEOs on Humanoids at Home, China's Threat, and the End of Dangerous Jobs",
     "last_proof_snippet": "Hey everybody, it's your boy Jake Al, I'm here in Paris, France at a conference called Makina, basically AI in the real world. Pardon my robot. Thanks for tuning in, and let's get started. Apple ovens started with an $8 domain and no VC fun",
@@ -7957,7 +8016,7 @@
     "last_podcast_name": "All-In with Chamath, Jason, Sacks & Friedberg",
     "last_episode_date": "2026-07-28",
     "mention_score": 1,
-    "mention_score_decayed": 0.21,
+    "mention_score_decayed": 0.2,
     "last_main_idea": "Investing in robotics and AI companies that are successfully transitioning from research to real-world applications could offer significant growth potential as these technologies become more integrated into various industries.",
     "last_proof_cite": "All-In with Chamath, Jason, Sacks & Friedberg \u2022 2026-07-28 \u2022 The $1/Hour Worker: Four Robotics CEOs on Humanoids at Home, China's Threat, and the End of Dangerous Jobs",
     "last_proof_snippet": "Hey everybody, it's your boy Jake Al, I'm here in Paris, France at a conference called Makina, basically AI in the real world. Pardon my robot. Thanks for tuning in, and let's get started. Apple ovens started with an $8 domain and no VC fun",
@@ -8016,7 +8075,7 @@
     "last_podcast_name": "Monetary Matters with Jack Farley",
     "last_episode_date": "2026-07-29",
     "mention_score": 1,
-    "mention_score_decayed": 0.21,
+    "mention_score_decayed": 0.2,
     "last_main_idea": "The Federal Reserve's credibility is at stake, and market reactions to economic data and Fed policy suggest a potential shift in expectations for inflation and interest rates, impacting bond yields and stock market performance.",
     "last_proof_cite": "Monetary Matters with Jack Farley \u2022 2026-07-29 \u2022 Mum\u2019s The Word: Kathryn Rooney Vera on Fed\u2019s Second Meeting under Kevin Warsh, Plus Earnings Breakdown (Live Replay)",
     "last_proof_snippet": "Wow. All right. We are here. We are joined by Katherine Rooney Vera, who's the chief market strategist at Stone X Groups. A lot of views on board markets, everything in macro. We mean we can get to to currencies and bonds. Katherine had a v",
@@ -8057,65 +8116,6 @@
       ]
     },
     "net_worth": "$26.7M"
-  },
-  {
-    "id": 98,
-    "name": "Rory Johnston",
-    "slug": "rory-johnston",
-    "bio": "Rory Johnston is an expert on energy markets and geopolitical risks. He is known for his analysis of the Hormuz crisis and its implications for global oil flows. Johnston's insights are highly valued by professional finance, high-net worth individuals, family offices, and other sophisticated investors.",
-    "known_for": "Analysis of the Hormuz crisis and its implications for global oil flows.",
-    "net_worth_usd": null,
-    "net_worth_source": "",
-    "net_worth_updated_at": "2026-03-28T22:05:57.557236",
-    "voice_tone": "Informative and insightful",
-    "voice_style": "Direct and focused on market dynamics",
-    "voice_delivery_notes": "Paced with emphasis on key market indicators",
-    "voice_profile_updated_at": "2026-03-29 09:09:13",
-    "last_seen": "2026-05-14 18:46:46",
-    "last_episode_title": "MacroVoices #532 Mike Green: Record Mechanical Flows",
-    "last_podcast_name": "Macro Voices",
-    "last_episode_date": "2026-05-14",
-    "mention_score": 6,
-    "mention_score_decayed": 0.21,
-    "last_main_idea": "Passive investment flows are dictating market behavior, potentially masking underlying economic weaknesses.",
-    "last_proof_cite": "Macro Voices \u2022 2026-05-14 \u2022 MacroVoices #532 Mike Green: Record Mechanical Flows",
-    "last_proof_snippet": "This is Macrovoisers, the Free Weekly Financial Podcast, targeting professional finance, high-net worth individuals, family offices, and other sophisticated investors. Macrovoisers is all about the brightest minds in the world of finance an",
-    "supporting_takeaway": "The ongoing Hormuz crisis is expected to create significant economic dislocation, particularly affecting energy supply.",
-    "grokipedia_url": null,
-    "grokipedia_fetched_at": "2026-05-14T13:47:11.847729",
-    "pundit_profile": {
-      "source": "llm",
-      "source_model": "moonshot:moonshot-v1-8k",
-      "source_url": "",
-      "page_title": "Rory Johnston",
-      "fetched_at": "2026-05-14T18:47:11.847405+00:00",
-      "cliff_notes": "Rory Johnston is an expert in energy markets and geopolitical risks, with a particular focus on the Hormuz crisis and its impact on global oil flows. His expertise is sought after by a range of financial professionals, including high-net worth individuals, family offices, and sophisticated investors. Johnston's analysis is featured on platforms like Macrovoisers, a financial podcast that targets these audiences. His insights into the Hormuz crisis and its potential to cripple the global economy are particularly valued, as they help investors navigate the complex and volatile world of finance and macroeconomics.",
-      "derived": {
-        "current_role": "Expert on energy markets and geopolitical risks; specific role not mentioned."
-      },
-      "infobox": {
-        "Born": "",
-        "Nationality": ""
-      },
-      "lead_paragraphs": [
-        "Rory Johnston is an expert in energy markets and geopolitical risks, with a particular focus on the Hormuz crisis and its impact on global oil flows. His expertise is sought after by a range of financial professionals, including high-net worth individuals, family offices, and sophisticated investors. Johnston's analysis is featured on platforms like Macrovoisers, a financial podcast that targets these audiences.",
-        "His insights into the Hormuz crisis and its potential to cripple the global economy are particularly valued, as they help investors navigate the complex and volatile world of finance and macroeconomics."
-      ],
-      "sections": [
-        {
-          "heading": "Hormuz Crisis",
-          "body": "Rory Johnston is known for his analysis of the Hormuz crisis and its implications for global oil flows. He has provided insights into how this geopolitical event could potentially cripple the global economy."
-        },
-        {
-          "heading": "Energy Markets",
-          "body": "Johnston is an expert on energy markets, offering valuable insights into the complex dynamics of oil and gas markets. His analysis helps investors understand the impact of geopolitical events on these markets."
-        },
-        {
-          "heading": "Geopolitical Risks",
-          "body": "As an expert on geopolitical risks, Johnston provides valuable perspectives on how global events can affect financial markets. His analysis of the Hormuz crisis is a prime example of this expertise."
-        }
-      ]
-    }
   },
   {
     "id": 358,
@@ -15000,6 +15000,33 @@
     "net_worth": "$7.0M"
   },
   {
+    "id": 55,
+    "name": "Dr. Onus Alhajji",
+    "slug": "dr-onus-alhajji",
+    "bio": "Expert commentator on energy markets and geopolitical conflicts.",
+    "known_for": "Analysis of the impact of geopolitical events on oil markets.",
+    "net_worth_usd": null,
+    "net_worth_source": null,
+    "net_worth_updated_at": null,
+    "voice_tone": null,
+    "voice_style": null,
+    "voice_delivery_notes": null,
+    "voice_profile_updated_at": null,
+    "last_seen": "2026-04-03 10:04:02",
+    "last_episode_title": "MacroVoices #526 Matt Barrie: Pay To PrAI",
+    "last_podcast_name": "MacroVoices",
+    "last_episode_date": "2026-04-02",
+    "mention_score": 2,
+    "mention_score_decayed": 0.03,
+    "last_main_idea": "The U.S. is considering targeting Iran's civilian electric power generation plants, a move that could cause Iran to retaliate.",
+    "last_proof_cite": "MacroVoices \u2022 2026-04-02 \u2022 MacroVoices #526 Matt Barrie: Pay To PrAI",
+    "last_proof_snippet": "AI's impact on private credit markets could lead to a market dislocation similar to the 2000.com bust.",
+    "supporting_takeaway": "AI's impact on private credit markets could lead to a market dislocation similar to the 2000.com bust.",
+    "grokipedia_url": null,
+    "grokipedia_fetched_at": null,
+    "pundit_profile": null
+  },
+  {
     "id": 217,
     "name": "Steve Helden",
     "slug": "steve-helden",
@@ -15017,7 +15044,7 @@
     "last_podcast_name": "All-In with Chamath, Jason, Sacks & Friedberg",
     "last_episode_date": "2026-04-29",
     "mention_score": 1,
-    "mention_score_decayed": 0.03,
+    "mention_score_decayed": 0.02,
     "last_main_idea": "Steve Helden's candidacy represents a potential shift in California's political landscape towards policies that promote economic freedom and reduced regulatory burdens, which could have implications for businesses and investors in the state.",
     "last_proof_cite": "All-In with Chamath, Jason, Sacks & Friedberg \u2022 2026-04-29 \u2022 CA Governor Candidate Steve Hilton on Why California is Destroying Itself & How a Republican Can Win",
     "last_proof_snippet": "Helden's background as a child of Hungarian refugees and his work experience in various industries shape his policy views.",
@@ -15079,7 +15106,7 @@
     "last_podcast_name": "Dwarkesh Podcast",
     "last_episode_date": "2026-04-29",
     "mention_score": 1,
-    "mention_score_decayed": 0.03,
+    "mention_score_decayed": 0.02,
     "last_main_idea": "Investing in companies that optimize AI model architecture and training can lead to significant performance improvements and cost savings.",
     "last_proof_cite": "Dwarkesh Podcast \u2022 2026-04-29 \u2022 Reiner Pope \u2013 The math behind how LLMs are trained and served",
     "last_proof_snippet": "Batch size significantly impacts latency and cost in AI systems.",
@@ -15139,7 +15166,7 @@
     "last_podcast_name": "Monetary Matters with Jack Farley",
     "last_episode_date": "2026-04-29",
     "mention_score": 1,
-    "mention_score_decayed": 0.03,
+    "mention_score_decayed": 0.02,
     "last_main_idea": "Investing in AI CapEx is currently the main focus, with co-investments in hedge funds providing a successful strategy for capturing high returns.",
     "last_proof_cite": "Monetary Matters with Jack Farley \u2022 2026-04-29 \u2022 From Soros to Old Farm: How to Identify the Market\u2019s Top Thematic Risk-Takers | Kieran Cavanna | Old Farm Partners",
     "last_proof_snippet": "Co-investing with hedge funds is a successful strategy Kavanaugh learned from Scott Beston at Soros Fund Management.",
@@ -15185,33 +15212,6 @@
       ]
     },
     "net_worth": "$28.00B"
-  },
-  {
-    "id": 55,
-    "name": "Dr. Onus Alhajji",
-    "slug": "dr-onus-alhajji",
-    "bio": "Expert commentator on energy markets and geopolitical conflicts.",
-    "known_for": "Analysis of the impact of geopolitical events on oil markets.",
-    "net_worth_usd": null,
-    "net_worth_source": null,
-    "net_worth_updated_at": null,
-    "voice_tone": null,
-    "voice_style": null,
-    "voice_delivery_notes": null,
-    "voice_profile_updated_at": null,
-    "last_seen": "2026-04-03 10:04:02",
-    "last_episode_title": "MacroVoices #526 Matt Barrie: Pay To PrAI",
-    "last_podcast_name": "MacroVoices",
-    "last_episode_date": "2026-04-02",
-    "mention_score": 2,
-    "mention_score_decayed": 0.03,
-    "last_main_idea": "The U.S. is considering targeting Iran's civilian electric power generation plants, a move that could cause Iran to retaliate.",
-    "last_proof_cite": "MacroVoices \u2022 2026-04-02 \u2022 MacroVoices #526 Matt Barrie: Pay To PrAI",
-    "last_proof_snippet": "AI's impact on private credit markets could lead to a market dislocation similar to the 2000.com bust.",
-    "supporting_takeaway": "AI's impact on private credit markets could lead to a market dislocation similar to the 2000.com bust.",
-    "grokipedia_url": null,
-    "grokipedia_fetched_at": null,
-    "pundit_profile": null
   },
   {
     "id": 213,
@@ -16978,127 +16978,6 @@
     "net_worth": "$35.0M"
   },
   {
-    "id": 162,
-    "name": "Michael Nielsen",
-    "slug": "michael-nielsen",
-    "bio": "Michael Nielsen is a pioneer in the field of chronic computing and a significant figure in the open science movement. He is known for writing the main textbook in the field of the open science movement and contributing to the understanding of scientific progress. Nielsen is currently a research fellow at the Stair Institute and is working on a book about religion, science, and technology.",
-    "known_for": "His contributions to the open science movement and his work on recognizing scientific progress, particularly in the context of AI and scientific discovery.",
-    "net_worth_usd": null,
-    "net_worth_source": "",
-    "net_worth_updated_at": null,
-    "voice_tone": "Educative and insightful",
-    "voice_style": "Analytical and historical in approach",
-    "voice_delivery_notes": "Paced with emphasis on key historical points and scientific concepts",
-    "voice_profile_updated_at": "2026-04-08 10:04:28",
-    "last_seen": "2026-04-08 10:04:28",
-    "last_episode_title": "Michael Nielsen \u2013 How science actually progresses",
-    "last_podcast_name": "Dwarkesh Podcast",
-    "last_episode_date": "2026-04-07",
-    "mention_score": 1,
-    "mention_score_decayed": 0.02,
-    "last_main_idea": "The core thesis presented is that advancements in AI and computer science can lead to new fields and paradigms, offering investment opportunities in technological disruption and innovation.",
-    "last_proof_cite": "Dwarkesh Podcast \u2022 2026-04-07 \u2022 Michael Nielsen \u2013 How science actually progresses",
-    "last_proof_snippet": "The Michelson-Morley experiment was initially aimed at testing theories of the ether, which was a significant concept in physics before the advent of relativity.",
-    "supporting_takeaway": "The Michelson-Morley experiment was initially aimed at testing theories of the ether, which was a significant concept in physics before the advent of relativity.",
-    "grokipedia_url": null,
-    "grokipedia_fetched_at": "2026-04-08T05:04:38.528660",
-    "pundit_profile": {
-      "source": "llm",
-      "source_model": "moonshot:moonshot-v1-8k",
-      "source_url": "",
-      "page_title": "Michael Nielsen",
-      "fetched_at": "2026-04-08T10:04:38.528161+00:00",
-      "cliff_notes": "Michael Nielsen is a renowned researcher and author who has made significant contributions to the fields of chronic computing and the open science movement. As a pioneer in chronic computing, Nielsen has been instrumental in shaping the way we understand and approach scientific progress. His work on the main textbook in the field of the open science movement has been influential in advancing the understanding of scientific progress and its implications for AI and scientific discovery. Currently, Nielsen is a research fellow at the Stair Institute, where he is focusing on a book about the intersection of religion, science, and technology. His work continues to be a valuable resource for those interested in the future of science and technology.",
-      "derived": {
-        "current_role": "Research Fellow at the Stair Institute",
-        "former_positions": "Pioneer in chronic computing",
-        "books_or_works": "Main textbook in the field of the open science movement"
-      },
-      "infobox": {
-        "Born": "",
-        "Nationality": ""
-      },
-      "lead_paragraphs": [
-        "Michael Nielsen is a renowned researcher and author who has made significant contributions to the fields of chronic computing and the open science movement. As a pioneer in chronic computing, Nielsen has been instrumental in shaping the way we understand and approach scientific progress. His work on the main textbook in the field of the open science movement has been influential in advancing the understanding of scientific progress and its implications for AI and scientific discovery.",
-        "Currently, Nielsen is a research fellow at the Stair Institute, where he is focusing on a book about the intersection of religion, science, and technology. His work continues to be a valuable resource for those interested in the future of science and technology."
-      ],
-      "sections": [
-        {
-          "heading": "Open Science Movement",
-          "body": "Michael Nielsen is known for writing the main textbook in the field of the open science movement, which has helped to advance the understanding of scientific progress and its implications for AI and scientific discovery."
-        },
-        {
-          "heading": "Chronic Computing",
-          "body": "As a pioneer in chronic computing, Nielsen has been instrumental in shaping the way we understand and approach scientific progress, particularly in the context of AI and scientific discovery."
-        },
-        {
-          "heading": "Research Fellow at Stair Institute",
-          "body": "Nielsen is currently a research fellow at the Stair Institute, where he is working on a book about the intersection of religion, science, and technology, further expanding his contributions to the understanding of scientific progress."
-        }
-      ]
-    }
-  },
-  {
-    "id": 161,
-    "name": "Robert Conexberger",
-    "slug": "robert-conexberger",
-    "bio": "Robert Conexberger is the CIO and founder of Grammar C, a multi-billion dollar emerging markets alternative investment manager. With a career in emerging market investing that began in the mid to late 1980s, Conexberger has been a significant figure in the industry, particularly during the less developed country debt crisis.",
-    "known_for": "His long-standing expertise and leadership in emerging market investing.",
-    "net_worth_usd": 80000000.0,
-    "net_worth_source": "https://thecollegeinvestor.com/972/the-top-10-investors-of-all-time/",
-    "net_worth_updated_at": "2026-04-08T05:04:50.103987",
-    "voice_tone": "Informed and experienced.",
-    "voice_style": "Conexberger presents a balanced view, acknowledging both the risks and opportunities in emerging markets.",
-    "voice_delivery_notes": "Speak with a measured pace, emphasizing key points about market evolution and investment strategies.",
-    "voice_profile_updated_at": "2026-04-08 10:04:00",
-    "last_seen": "2026-04-08 10:04:00",
-    "last_episode_title": "Why Emerging Markets are Finally Outperforming Developed Markets | Robert Koenigsberger | Gramercy",
-    "last_podcast_name": "Monetary Matters with Jack Farley",
-    "last_episode_date": "2026-04-07",
-    "mention_score": 1,
-    "mention_score_decayed": 0.02,
-    "last_main_idea": "Investing in select few names within the China property sector can offer significant potential for value appreciation, given the right conditions and primary research.",
-    "last_proof_cite": "Monetary Matters with Jack Farley \u2022 2026-04-07 \u2022 Why Emerging Markets are Finally Outperforming Developed Markets | Robert Koenigsberger | Gramercy",
-    "last_proof_snippet": "The recent outperformance of emerging market equities is attributed to a fundamental repricing of relative value and the 'anywhere but US' theme.",
-    "supporting_takeaway": "The recent outperformance of emerging market equities is attributed to a fundamental repricing of relative value and the 'anywhere but US' theme.",
-    "grokipedia_url": null,
-    "grokipedia_fetched_at": "2026-04-08T05:04:49.164717",
-    "pundit_profile": {
-      "source": "llm",
-      "source_model": "moonshot:moonshot-v1-8k",
-      "source_url": "",
-      "page_title": "Robert Conexberger",
-      "fetched_at": "2026-04-08T10:04:49.164505+00:00",
-      "cliff_notes": "Robert Conexberger is a seasoned investor in emerging markets, with a career that started in the mid to late 1980s. He has been involved in the industry during the less developed country debt crisis and has worked with key figures in international finance. Conexberger is recognized for his deep understanding of the complexities and opportunities in emerging markets, which has made him a respected figure in the field. As the CIO and founder of Grammar C, he leads a multi-billion dollar alternative investment manager focused on emerging markets, leveraging his extensive experience to guide investments and strategies.",
-      "derived": {
-        "current_role": "CIO and founder of Grammar C"
-      },
-      "infobox": {
-        "Born": "",
-        "Nationality": ""
-      },
-      "lead_paragraphs": [
-        "Robert Conexberger is a seasoned investor in emerging markets, with a career that started in the mid to late 1980s. He has been involved in the industry during the less developed country debt crisis and has worked with key figures in international finance. Conexberger is recognized for his deep understanding of the complexities and opportunities in emerging markets, which has made him a respected figure in the field.",
-        "As the CIO and founder of Grammar C, he leads a multi-billion dollar alternative investment manager focused on emerging markets, leveraging his extensive experience to guide investments and strategies."
-      ],
-      "sections": [
-        {
-          "heading": "Emerging Markets Expertise",
-          "body": "Robert Conexberger has been investing in emerging markets since before they were widely recognized, gaining a deep understanding of the sector's intricacies and potential."
-        },
-        {
-          "heading": "Career Beginnings",
-          "body": "Conexberger's career began during the less developed country debt crisis in the mid to late 1980s, where he worked with individuals who had significant roles in international finance."
-        },
-        {
-          "heading": "Grammar C",
-          "body": "As the founder and CIO of Grammar C, Conexberger leads a multi-billion dollar emerging markets alternative investment manager, applying his extensive experience to drive the company's strategies."
-        }
-      ]
-    },
-    "net_worth": "$80.0M"
-  },
-  {
     "id": 97,
     "name": "Simon White",
     "slug": "simon-white",
@@ -17346,6 +17225,127 @@
       ]
     },
     "net_worth": "$200.0M"
+  },
+  {
+    "id": 162,
+    "name": "Michael Nielsen",
+    "slug": "michael-nielsen",
+    "bio": "Michael Nielsen is a pioneer in the field of chronic computing and a significant figure in the open science movement. He is known for writing the main textbook in the field of the open science movement and contributing to the understanding of scientific progress. Nielsen is currently a research fellow at the Stair Institute and is working on a book about religion, science, and technology.",
+    "known_for": "His contributions to the open science movement and his work on recognizing scientific progress, particularly in the context of AI and scientific discovery.",
+    "net_worth_usd": null,
+    "net_worth_source": "",
+    "net_worth_updated_at": null,
+    "voice_tone": "Educative and insightful",
+    "voice_style": "Analytical and historical in approach",
+    "voice_delivery_notes": "Paced with emphasis on key historical points and scientific concepts",
+    "voice_profile_updated_at": "2026-04-08 10:04:28",
+    "last_seen": "2026-04-08 10:04:28",
+    "last_episode_title": "Michael Nielsen \u2013 How science actually progresses",
+    "last_podcast_name": "Dwarkesh Podcast",
+    "last_episode_date": "2026-04-07",
+    "mention_score": 1,
+    "mention_score_decayed": 0.01,
+    "last_main_idea": "The core thesis presented is that advancements in AI and computer science can lead to new fields and paradigms, offering investment opportunities in technological disruption and innovation.",
+    "last_proof_cite": "Dwarkesh Podcast \u2022 2026-04-07 \u2022 Michael Nielsen \u2013 How science actually progresses",
+    "last_proof_snippet": "The Michelson-Morley experiment was initially aimed at testing theories of the ether, which was a significant concept in physics before the advent of relativity.",
+    "supporting_takeaway": "The Michelson-Morley experiment was initially aimed at testing theories of the ether, which was a significant concept in physics before the advent of relativity.",
+    "grokipedia_url": null,
+    "grokipedia_fetched_at": "2026-04-08T05:04:38.528660",
+    "pundit_profile": {
+      "source": "llm",
+      "source_model": "moonshot:moonshot-v1-8k",
+      "source_url": "",
+      "page_title": "Michael Nielsen",
+      "fetched_at": "2026-04-08T10:04:38.528161+00:00",
+      "cliff_notes": "Michael Nielsen is a renowned researcher and author who has made significant contributions to the fields of chronic computing and the open science movement. As a pioneer in chronic computing, Nielsen has been instrumental in shaping the way we understand and approach scientific progress. His work on the main textbook in the field of the open science movement has been influential in advancing the understanding of scientific progress and its implications for AI and scientific discovery. Currently, Nielsen is a research fellow at the Stair Institute, where he is focusing on a book about the intersection of religion, science, and technology. His work continues to be a valuable resource for those interested in the future of science and technology.",
+      "derived": {
+        "current_role": "Research Fellow at the Stair Institute",
+        "former_positions": "Pioneer in chronic computing",
+        "books_or_works": "Main textbook in the field of the open science movement"
+      },
+      "infobox": {
+        "Born": "",
+        "Nationality": ""
+      },
+      "lead_paragraphs": [
+        "Michael Nielsen is a renowned researcher and author who has made significant contributions to the fields of chronic computing and the open science movement. As a pioneer in chronic computing, Nielsen has been instrumental in shaping the way we understand and approach scientific progress. His work on the main textbook in the field of the open science movement has been influential in advancing the understanding of scientific progress and its implications for AI and scientific discovery.",
+        "Currently, Nielsen is a research fellow at the Stair Institute, where he is focusing on a book about the intersection of religion, science, and technology. His work continues to be a valuable resource for those interested in the future of science and technology."
+      ],
+      "sections": [
+        {
+          "heading": "Open Science Movement",
+          "body": "Michael Nielsen is known for writing the main textbook in the field of the open science movement, which has helped to advance the understanding of scientific progress and its implications for AI and scientific discovery."
+        },
+        {
+          "heading": "Chronic Computing",
+          "body": "As a pioneer in chronic computing, Nielsen has been instrumental in shaping the way we understand and approach scientific progress, particularly in the context of AI and scientific discovery."
+        },
+        {
+          "heading": "Research Fellow at Stair Institute",
+          "body": "Nielsen is currently a research fellow at the Stair Institute, where he is working on a book about the intersection of religion, science, and technology, further expanding his contributions to the understanding of scientific progress."
+        }
+      ]
+    }
+  },
+  {
+    "id": 161,
+    "name": "Robert Conexberger",
+    "slug": "robert-conexberger",
+    "bio": "Robert Conexberger is the CIO and founder of Grammar C, a multi-billion dollar emerging markets alternative investment manager. With a career in emerging market investing that began in the mid to late 1980s, Conexberger has been a significant figure in the industry, particularly during the less developed country debt crisis.",
+    "known_for": "His long-standing expertise and leadership in emerging market investing.",
+    "net_worth_usd": 80000000.0,
+    "net_worth_source": "https://thecollegeinvestor.com/972/the-top-10-investors-of-all-time/",
+    "net_worth_updated_at": "2026-04-08T05:04:50.103987",
+    "voice_tone": "Informed and experienced.",
+    "voice_style": "Conexberger presents a balanced view, acknowledging both the risks and opportunities in emerging markets.",
+    "voice_delivery_notes": "Speak with a measured pace, emphasizing key points about market evolution and investment strategies.",
+    "voice_profile_updated_at": "2026-04-08 10:04:00",
+    "last_seen": "2026-04-08 10:04:00",
+    "last_episode_title": "Why Emerging Markets are Finally Outperforming Developed Markets | Robert Koenigsberger | Gramercy",
+    "last_podcast_name": "Monetary Matters with Jack Farley",
+    "last_episode_date": "2026-04-07",
+    "mention_score": 1,
+    "mention_score_decayed": 0.01,
+    "last_main_idea": "Investing in select few names within the China property sector can offer significant potential for value appreciation, given the right conditions and primary research.",
+    "last_proof_cite": "Monetary Matters with Jack Farley \u2022 2026-04-07 \u2022 Why Emerging Markets are Finally Outperforming Developed Markets | Robert Koenigsberger | Gramercy",
+    "last_proof_snippet": "The recent outperformance of emerging market equities is attributed to a fundamental repricing of relative value and the 'anywhere but US' theme.",
+    "supporting_takeaway": "The recent outperformance of emerging market equities is attributed to a fundamental repricing of relative value and the 'anywhere but US' theme.",
+    "grokipedia_url": null,
+    "grokipedia_fetched_at": "2026-04-08T05:04:49.164717",
+    "pundit_profile": {
+      "source": "llm",
+      "source_model": "moonshot:moonshot-v1-8k",
+      "source_url": "",
+      "page_title": "Robert Conexberger",
+      "fetched_at": "2026-04-08T10:04:49.164505+00:00",
+      "cliff_notes": "Robert Conexberger is a seasoned investor in emerging markets, with a career that started in the mid to late 1980s. He has been involved in the industry during the less developed country debt crisis and has worked with key figures in international finance. Conexberger is recognized for his deep understanding of the complexities and opportunities in emerging markets, which has made him a respected figure in the field. As the CIO and founder of Grammar C, he leads a multi-billion dollar alternative investment manager focused on emerging markets, leveraging his extensive experience to guide investments and strategies.",
+      "derived": {
+        "current_role": "CIO and founder of Grammar C"
+      },
+      "infobox": {
+        "Born": "",
+        "Nationality": ""
+      },
+      "lead_paragraphs": [
+        "Robert Conexberger is a seasoned investor in emerging markets, with a career that started in the mid to late 1980s. He has been involved in the industry during the less developed country debt crisis and has worked with key figures in international finance. Conexberger is recognized for his deep understanding of the complexities and opportunities in emerging markets, which has made him a respected figure in the field.",
+        "As the CIO and founder of Grammar C, he leads a multi-billion dollar alternative investment manager focused on emerging markets, leveraging his extensive experience to guide investments and strategies."
+      ],
+      "sections": [
+        {
+          "heading": "Emerging Markets Expertise",
+          "body": "Robert Conexberger has been investing in emerging markets since before they were widely recognized, gaining a deep understanding of the sector's intricacies and potential."
+        },
+        {
+          "heading": "Career Beginnings",
+          "body": "Conexberger's career began during the less developed country debt crisis in the mid to late 1980s, where he worked with individuals who had significant roles in international finance."
+        },
+        {
+          "heading": "Grammar C",
+          "body": "As the founder and CIO of Grammar C, Conexberger leads a multi-billion dollar emerging markets alternative investment manager, applying his extensive experience to drive the company's strategies."
+        }
+      ]
+    },
+    "net_worth": "$80.0M"
   },
   {
     "id": 159,

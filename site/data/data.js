@@ -3,1092 +3,1092 @@
 
 const dashboardData = {
   schemaVersion: 2,
-  generatedAt: "2026-10-06T23:55:11.464935",
-  chartsVersion: "2026-10-06T23:55:02.880978",
+  generatedAt: "2026-10-07T05:13:33.796292",
+  chartsVersion: "2026-10-07T05:13:15.285129",
   priceSnapshot: {
   "AAPL": {
     "price": 333.63,
     "change_pct": -1.0,
     "name": "Apple Inc.",
-    "updated_at": "2026-10-06T23:53:55.860517",
+    "updated_at": "2026-10-07T05:11:56.734362",
     "price_14d_ago": 337.0
   },
   "AEP": {
     "price": 121.67,
     "change_pct": 0.04,
     "name": "American Electric Power Company",
-    "updated_at": "2026-10-06T23:53:56.087797",
+    "updated_at": "2026-10-07T05:11:56.961216",
     "price_14d_ago": 121.62
   },
   "AMD": {
     "price": 649.42,
     "change_pct": 19.14,
     "name": "Advanced Micro Devices, Inc.",
-    "updated_at": "2026-10-06T23:53:56.270409",
+    "updated_at": "2026-10-07T05:11:57.148900",
     "price_14d_ago": 545.09
   },
   "AMGN": {
     "price": 402.6,
     "change_pct": 6.01,
     "name": "Amgen Inc.",
-    "updated_at": "2026-10-06T23:53:56.457820",
+    "updated_at": "2026-10-07T05:11:57.348865",
     "price_14d_ago": 379.78
   },
   "AMZN": {
     "price": 256.29,
     "change_pct": 2.03,
     "name": "Amazon.com, Inc.",
-    "updated_at": "2026-10-06T23:53:56.631774",
+    "updated_at": "2026-10-07T05:11:57.537576",
     "price_14d_ago": 251.19
   },
   "APO": {
     "price": 115.95,
     "change_pct": -7.98,
     "name": "Apollo Global Management, Inc. ",
-    "updated_at": "2026-10-06T23:53:56.825686",
+    "updated_at": "2026-10-07T05:11:57.810655",
     "price_14d_ago": 126.0
   },
   "APTV": {
     "price": 44.72,
     "change_pct": 2.52,
     "name": "Aptiv PLC",
-    "updated_at": "2026-10-06T23:53:57.018885",
+    "updated_at": "2026-10-07T05:11:58.017495",
     "price_14d_ago": 43.62
   },
   "AVGO": {
     "price": 375.81,
     "change_pct": 8.21,
     "name": "Broadcom Inc.",
-    "updated_at": "2026-10-06T23:53:57.403429",
+    "updated_at": "2026-10-07T05:11:58.424990",
     "price_14d_ago": 347.3
   },
   "BA": {
     "price": 189.82,
     "change_pct": -3.64,
     "name": "Boeing Company (The)",
-    "updated_at": "2026-10-06T23:53:57.880326",
+    "updated_at": "2026-10-07T05:11:58.944857",
     "price_14d_ago": 197.0
   },
   "BABA": {
     "price": 109.26,
     "change_pct": 0.66,
     "name": "Alibaba Group Holding Limited",
-    "updated_at": "2026-10-06T23:53:58.123716",
+    "updated_at": "2026-10-07T05:11:59.142296",
     "price_14d_ago": 108.54
   },
   "BAC": {
     "price": 54.09,
     "change_pct": -7.03,
     "name": "Bank of America Corporation",
-    "updated_at": "2026-10-06T23:53:58.324619",
+    "updated_at": "2026-10-07T05:11:59.399356",
     "price_14d_ago": 58.18
   },
   "BAM": {
     "price": 45.21,
     "change_pct": -0.46,
     "name": "Brookfield Asset Management Inc",
-    "updated_at": "2026-10-06T23:53:58.507960",
+    "updated_at": "2026-10-07T05:11:59.657976",
     "price_14d_ago": 45.42
   },
   "BIDU": {
     "price": 87.05,
     "change_pct": -3.31,
     "name": "Baidu, Inc.",
-    "updated_at": "2026-10-06T23:53:58.872162",
+    "updated_at": "2026-10-07T05:12:00.177622",
     "price_14d_ago": 90.03
   },
   "BP": {
     "price": 45.01,
     "change_pct": -0.9,
     "name": "BP p.l.c.",
-    "updated_at": "2026-10-06T23:53:59.273164",
+    "updated_at": "2026-10-07T05:12:00.595327",
     "price_14d_ago": 45.42
   },
   "BTC": {
-    "price": 84114.98,
-    "change_pct": -0.31,
+    "price": 83832.33,
+    "change_pct": -0.65,
     "name": "Bitcoin USD",
-    "updated_at": "2026-10-06T23:53:59.488876",
+    "updated_at": "2026-10-07T05:12:00.884140",
     "price_14d_ago": 84379.06
   },
   "BTC-USD": {
-    "price": 84114.98,
-    "change_pct": -0.31,
+    "price": 83832.33,
+    "change_pct": -0.65,
     "name": "Bitcoin USD",
-    "updated_at": "2026-10-06T23:53:59.672331",
+    "updated_at": "2026-10-07T05:12:01.120135",
     "price_14d_ago": 84379.06
   },
   "BX": {
     "price": 113.36,
     "change_pct": -9.61,
     "name": "Blackstone Inc.",
-    "updated_at": "2026-10-06T23:53:59.869174",
+    "updated_at": "2026-10-07T05:12:01.319611",
     "price_14d_ago": 125.41
   },
   "BYD": {
     "price": 70.41,
     "change_pct": -5.17,
     "name": "Boyd Gaming Corporation",
-    "updated_at": "2026-10-06T23:54:00.073447",
+    "updated_at": "2026-10-07T05:12:01.528786",
     "price_14d_ago": 74.25
   },
   "CAT": {
     "price": 863.44,
     "change_pct": 8.12,
     "name": "Caterpillar, Inc.",
-    "updated_at": "2026-10-06T23:54:00.525954",
+    "updated_at": "2026-10-07T05:12:01.998191",
     "price_14d_ago": 798.57
   },
   "CCJ": {
     "price": 93.02,
     "change_pct": 0.24,
     "name": "Cameco Corporation",
-    "updated_at": "2026-10-06T23:54:00.724407",
+    "updated_at": "2026-10-07T05:12:02.218904",
     "price_14d_ago": 92.8
   },
   "CEG": {
     "price": 300.4,
     "change_pct": 14.31,
     "name": "Constellation Energy Corporatio",
-    "updated_at": "2026-10-06T23:54:00.938613",
+    "updated_at": "2026-10-07T05:12:02.408146",
     "price_14d_ago": 262.8
   },
   "COIN": {
     "price": 185.74,
     "change_pct": 6.77,
     "name": "Coinbase Global, Inc.",
-    "updated_at": "2026-10-06T23:54:01.123439",
+    "updated_at": "2026-10-07T05:12:02.600176",
     "price_14d_ago": 173.97
   },
   "COPPER": {
-    "price": 6.63,
-    "change_pct": 0.29,
+    "price": 6.65,
+    "change_pct": 0.47,
     "name": "Copper",
-    "updated_at": "2026-10-06T23:54:01.308134",
+    "updated_at": "2026-10-07T05:12:02.793129",
     "price_14d_ago": 6.61
   },
   "CORN": {
     "price": 19.29,
     "change_pct": -2.72,
     "name": "Teucrium Corn Fund ETV",
-    "updated_at": "2026-10-06T23:54:01.618110",
+    "updated_at": "2026-10-07T05:12:02.988525",
     "price_14d_ago": 19.83
   },
   "CRM": {
     "price": 224.99,
     "change_pct": -7.35,
     "name": "Salesforce, Inc.",
-    "updated_at": "2026-10-06T23:54:01.842474",
+    "updated_at": "2026-10-07T05:12:03.184931",
     "price_14d_ago": 242.85
   },
   "CROWD": {
     "price": 278.86,
     "change_pct": 13.5,
     "name": "CrowdStrike Holdings, Inc.",
-    "updated_at": "2026-10-06T23:54:02.024739",
+    "updated_at": "2026-10-07T05:12:03.377304",
     "price_14d_ago": 245.7
   },
   "DBC": {
     "price": 32.69,
     "change_pct": -1.09,
     "name": "Invesco DB Commodity Index Trac",
-    "updated_at": "2026-10-06T23:54:02.680400",
+    "updated_at": "2026-10-07T05:12:03.972439",
     "price_14d_ago": 33.05
   },
   "DELL": {
     "price": 574.0,
     "change_pct": -2.45,
     "name": "Dell Technologies Inc.",
-    "updated_at": "2026-10-06T23:54:02.866491",
+    "updated_at": "2026-10-07T05:12:04.166383",
     "price_14d_ago": 588.4
   },
   "DIS": {
     "price": 104.03,
     "change_pct": -1.25,
     "name": "Walt Disney Company (The)",
-    "updated_at": "2026-10-06T23:54:03.087849",
+    "updated_at": "2026-10-07T05:12:04.389966",
     "price_14d_ago": 105.35
   },
   "DOCS": {
     "price": 27.79,
     "change_pct": 4.59,
     "name": "Doximity, Inc.",
-    "updated_at": "2026-10-06T23:54:03.301294",
+    "updated_at": "2026-10-07T05:12:04.577199",
     "price_14d_ago": 26.57
   },
   "DVN": {
     "price": 48.02,
     "change_pct": -1.44,
     "name": "Devon Energy Corporation",
-    "updated_at": "2026-10-06T23:54:03.653040",
+    "updated_at": "2026-10-07T05:12:04.794641",
     "price_14d_ago": 48.72
   },
   "EBAY": {
     "price": 107.06,
     "change_pct": -5.17,
     "name": "eBay Inc.",
-    "updated_at": "2026-10-06T23:54:03.843704",
+    "updated_at": "2026-10-07T05:12:04.998303",
     "price_14d_ago": 112.9
   },
   "ETH-USD": {
-    "price": 2610.04,
-    "change_pct": -2.88,
+    "price": 2589.48,
+    "change_pct": -3.64,
     "name": "Ethereum USD",
-    "updated_at": "2026-10-06T23:54:04.068127",
+    "updated_at": "2026-10-07T05:12:05.184366",
     "price_14d_ago": 2687.3
   },
   "F": {
     "price": 12.28,
     "change_pct": -9.77,
     "name": "Ford Motor Company",
-    "updated_at": "2026-10-06T23:54:04.280750",
+    "updated_at": "2026-10-07T05:12:05.431247",
     "price_14d_ago": 13.61
   },
   "FB": {
     "price": 45.88,
     "change_pct": 0.73,
     "name": "ProShares S&P 500 Dynamic Buffe",
-    "updated_at": "2026-10-06T23:54:04.460404",
+    "updated_at": "2026-10-07T05:12:05.612396",
     "price_14d_ago": 45.55
   },
   "FCX": {
     "price": 72.56,
     "change_pct": 2.41,
     "name": "Freeport-McMoRan, Inc.",
-    "updated_at": "2026-10-06T23:54:04.658199",
+    "updated_at": "2026-10-07T05:12:05.828423",
     "price_14d_ago": 70.85
   },
   "FSK": {
     "price": 10.81,
     "change_pct": -7.92,
     "name": "FS KKR Capital Corp.",
-    "updated_at": "2026-10-06T23:54:05.352616",
+    "updated_at": "2026-10-07T05:12:06.417896",
     "price_14d_ago": 11.74
   },
   "GC": {
     "price": 0,
     "change_pct": 0,
     "name": "Gold",
-    "updated_at": "2026-10-06T23:54:05.613712",
+    "updated_at": "2026-10-07T05:12:06.712342",
     "price_14d_ago": null
   },
   "GD": {
     "price": 331.33,
     "change_pct": -6.92,
     "name": "General Dynamics Corporation",
-    "updated_at": "2026-10-06T23:54:05.897497",
+    "updated_at": "2026-10-07T05:12:06.932786",
     "price_14d_ago": 355.95
   },
   "GE": {
     "price": 309.39,
     "change_pct": -1.3,
     "name": "GE Aerospace",
-    "updated_at": "2026-10-06T23:54:06.131879",
+    "updated_at": "2026-10-07T05:12:07.166842",
     "price_14d_ago": 313.47
   },
   "GLD": {
     "price": 382.27,
     "change_pct": -4.04,
     "name": "SPDR Gold Shares",
-    "updated_at": "2026-10-06T23:54:06.315504",
+    "updated_at": "2026-10-07T05:12:07.367173",
     "price_14d_ago": 398.36
   },
   "GME": {
     "price": 24.76,
     "change_pct": 8.74,
     "name": "GameStop Corporation",
-    "updated_at": "2026-10-06T23:54:06.504519",
+    "updated_at": "2026-10-07T05:12:07.585345",
     "price_14d_ago": 22.77
   },
   "GOLD": {
-    "price": 4164.2,
-    "change_pct": -5.89,
+    "price": 4143.3,
+    "change_pct": -6.36,
     "name": "Gold",
-    "updated_at": "2026-10-06T23:54:06.688807",
+    "updated_at": "2026-10-07T05:12:07.772163",
     "price_14d_ago": 4424.9
   },
   "GOOG": {
     "price": 344.59,
     "change_pct": 0.26,
     "name": "Alphabet Inc.",
-    "updated_at": "2026-10-06T23:54:06.884115",
+    "updated_at": "2026-10-07T05:12:07.965804",
     "price_14d_ago": 343.68
   },
   "GOOGL": {
     "price": 347.68,
     "change_pct": 0.1,
     "name": "Alphabet Inc.",
-    "updated_at": "2026-10-06T23:54:07.136334",
+    "updated_at": "2026-10-07T05:12:08.154933",
     "price_14d_ago": 347.33
   },
   "GS": {
     "price": 897.18,
     "change_pct": -5.71,
     "name": "Goldman Sachs Group, Inc. (The)",
-    "updated_at": "2026-10-06T23:54:07.336492",
+    "updated_at": "2026-10-07T05:12:08.355331",
     "price_14d_ago": 951.47
   },
   "Gold": {
     "price": 41.57,
     "change_pct": -11.31,
     "name": "Gold.com, Inc.",
-    "updated_at": "2026-10-06T23:54:07.524221",
+    "updated_at": "2026-10-07T05:12:08.559777",
     "price_14d_ago": 46.87
   },
   "HFGM": {
     "price": 32.04,
     "change_pct": 0.57,
     "name": "Unlimited HFGM Global Macro ETF",
-    "updated_at": "2026-10-06T23:54:07.706163",
+    "updated_at": "2026-10-07T05:12:08.753969",
     "price_14d_ago": 31.86
   },
   "HG": {
     "price": 34.24,
     "change_pct": -2.59,
     "name": "Hamilton Insurance Group, Ltd.",
-    "updated_at": "2026-10-06T23:54:07.887141",
+    "updated_at": "2026-10-07T05:12:09.016176",
     "price_14d_ago": 35.15
   },
   "IBM": {
     "price": 221.29,
     "change_pct": -6.92,
     "name": "International Business Machines",
-    "updated_at": "2026-10-06T23:54:08.472746",
+    "updated_at": "2026-10-07T05:12:09.635784",
     "price_14d_ago": 237.75
   },
   "IEF": {
     "price": 89.12,
     "change_pct": -2.33,
     "name": "iShares 7-10 Year Treasury Bond",
-    "updated_at": "2026-10-06T23:54:08.673699",
+    "updated_at": "2026-10-07T05:12:09.845695",
     "price_14d_ago": 91.25
   },
   "INDA": {
     "price": 46.73,
     "change_pct": -2.67,
     "name": "Ishares MSCI India ETF",
-    "updated_at": "2026-10-06T23:54:08.918767",
+    "updated_at": "2026-10-07T05:12:10.046589",
     "price_14d_ago": 48.01
   },
   "INFY": {
     "price": 10.55,
     "change_pct": -4.7,
     "name": "Infosys Limited",
-    "updated_at": "2026-10-06T23:54:09.153876",
+    "updated_at": "2026-10-07T05:12:10.285254",
     "price_14d_ago": 11.07
   },
   "INTC": {
     "price": 112.5,
     "change_pct": 3.4,
     "name": "Intel Corporation",
-    "updated_at": "2026-10-06T23:54:09.413970",
+    "updated_at": "2026-10-07T05:12:10.499591",
     "price_14d_ago": 108.8
   },
   "IWD": {
     "price": 251.74,
     "change_pct": -0.43,
     "name": "iShares Russell 1000 Value ETF",
-    "updated_at": "2026-10-06T23:54:09.621816",
+    "updated_at": "2026-10-07T05:12:10.711810",
     "price_14d_ago": 252.82
   },
   "IWF": {
     "price": 129.19,
     "change_pct": 5.44,
     "name": "iShares Russell 1000 Growth Fun",
-    "updated_at": "2026-10-06T23:54:09.831703",
+    "updated_at": "2026-10-07T05:12:10.916468",
     "price_14d_ago": 122.53
   },
   "IWM": {
     "price": 281.34,
     "change_pct": -1.43,
     "name": "iShares Russell 2000 Index Fund",
-    "updated_at": "2026-10-06T23:54:10.037868",
+    "updated_at": "2026-10-07T05:12:11.244156",
     "price_14d_ago": 285.43
   },
   "JNJ": {
     "price": 254.78,
     "change_pct": -5.71,
     "name": "Johnson & Johnson",
-    "updated_at": "2026-10-06T23:54:10.251215",
+    "updated_at": "2026-10-07T05:12:11.463724",
     "price_14d_ago": 270.22
   },
   "JPM": {
     "price": 331.28,
     "change_pct": -5.16,
     "name": "JP Morgan Chase & Co.",
-    "updated_at": "2026-10-06T23:54:10.457867",
+    "updated_at": "2026-10-07T05:12:11.692967",
     "price_14d_ago": 349.31
   },
   "KKR": {
     "price": 90.67,
     "change_pct": -7.66,
     "name": "KKR & Co. Inc.",
-    "updated_at": "2026-10-06T23:54:10.713328",
+    "updated_at": "2026-10-07T05:12:11.896612",
     "price_14d_ago": 98.19
   },
   "LLY": {
     "price": 1157.49,
     "change_pct": 0.44,
     "name": "Eli Lilly and Company",
-    "updated_at": "2026-10-06T23:54:11.117055",
+    "updated_at": "2026-10-07T05:12:12.312124",
     "price_14d_ago": 1152.44
   },
   "LMT": {
     "price": 510.12,
     "change_pct": -5.2,
     "name": "Lockheed Martin Corporation",
-    "updated_at": "2026-10-06T23:54:11.349056",
+    "updated_at": "2026-10-07T05:12:12.556220",
     "price_14d_ago": 538.09
   },
   "LYFT": {
     "price": 15.76,
     "change_pct": 1.68,
     "name": "Lyft, Inc.",
-    "updated_at": "2026-10-06T23:54:11.914001",
+    "updated_at": "2026-10-07T05:12:13.118774",
     "price_14d_ago": 15.5
   },
   "META": {
     "price": 738.88,
     "change_pct": 8.29,
     "name": "Meta Platforms, Inc.",
-    "updated_at": "2026-10-06T23:54:12.114055",
+    "updated_at": "2026-10-07T05:12:13.361547",
     "price_14d_ago": 682.31
   },
   "MGM": {
     "price": 30.54,
     "change_pct": -20.28,
     "name": "MGM Resorts International",
-    "updated_at": "2026-10-06T23:54:12.308739",
+    "updated_at": "2026-10-07T05:12:13.564038",
     "price_14d_ago": 38.31
   },
   "MINE": {
     "price": 2.58,
     "change_pct": -13.13,
     "name": "Mayfair Gold Corp.",
-    "updated_at": "2026-10-06T23:54:12.562549",
+    "updated_at": "2026-10-07T05:12:13.755662",
     "price_14d_ago": 2.97
   },
   "MRK": {
     "price": 141.94,
     "change_pct": -3.54,
     "name": "Merck & Company, Inc.",
-    "updated_at": "2026-10-06T23:54:12.775343",
+    "updated_at": "2026-10-07T05:12:14.005396",
     "price_14d_ago": 147.15
   },
   "MRNA": {
     "price": 187.46,
     "change_pct": 18.59,
     "name": "Moderna, Inc.",
-    "updated_at": "2026-10-06T23:54:12.961131",
+    "updated_at": "2026-10-07T05:12:14.197431",
     "price_14d_ago": 158.07
   },
   "MS": {
     "price": 191.02,
     "change_pct": -6.14,
     "name": "Morgan Stanley",
-    "updated_at": "2026-10-06T23:54:13.167895",
+    "updated_at": "2026-10-07T05:12:14.408883",
     "price_14d_ago": 203.52
   },
   "MSFT": {
     "price": 529.3,
     "change_pct": 6.34,
     "name": "Microsoft Corporation",
-    "updated_at": "2026-10-06T23:54:13.362958",
+    "updated_at": "2026-10-07T05:12:14.616310",
     "price_14d_ago": 497.75
   },
   "MSTR": {
     "price": 164.55,
     "change_pct": 24.42,
     "name": "Strategy Inc",
-    "updated_at": "2026-10-06T23:54:13.596914",
+    "updated_at": "2026-10-07T05:12:14.805716",
     "price_14d_ago": 132.25
   },
   "MU": {
     "price": 1045.56,
     "change_pct": 6.96,
     "name": "Micron Technology, Inc.",
-    "updated_at": "2026-10-06T23:54:13.798446",
+    "updated_at": "2026-10-07T05:12:15.013397",
     "price_14d_ago": 977.5
   },
   "NEE": {
     "price": 77.88,
     "change_pct": -4.18,
     "name": "NextEra Energy, Inc.",
-    "updated_at": "2026-10-06T23:54:14.193597",
+    "updated_at": "2026-10-07T05:12:15.441352",
     "price_14d_ago": 81.28
   },
   "NFLX": {
     "price": 68.69,
     "change_pct": -8.79,
     "name": "Netflix, Inc.",
-    "updated_at": "2026-10-06T23:54:14.529631",
+    "updated_at": "2026-10-07T05:12:15.638571",
     "price_14d_ago": 75.31
   },
   "NKE": {
     "price": 34.61,
     "change_pct": -4.81,
     "name": "Nike, Inc.",
-    "updated_at": "2026-10-06T23:54:15.132264",
+    "updated_at": "2026-10-07T05:12:16.298384",
     "price_14d_ago": 36.36
   },
   "NOC": {
     "price": 483.11,
     "change_pct": -7.8,
     "name": "Northrop Grumman Corporation",
-    "updated_at": "2026-10-06T23:54:15.339217",
+    "updated_at": "2026-10-07T05:12:16.518749",
     "price_14d_ago": 524.0
   },
   "NVDA": {
     "price": 239.24,
     "change_pct": 9.07,
     "name": "NVIDIA Corporation",
-    "updated_at": "2026-10-06T23:54:15.570613",
+    "updated_at": "2026-10-07T05:12:16.721604",
     "price_14d_ago": 219.34
   },
   "NVS": {
     "price": 140.79,
     "change_pct": -0.09,
     "name": "Novartis AG",
-    "updated_at": "2026-10-06T23:54:15.955341",
+    "updated_at": "2026-10-07T05:12:17.139638",
     "price_14d_ago": 140.92
   },
   "Nasdaq": {
     "price": 759.66,
     "change_pct": 5.96,
     "name": "Invesco QQQ Trust, Series 1",
-    "updated_at": "2026-10-06T23:54:16.219515",
+    "updated_at": "2026-10-07T05:12:17.463561",
     "price_14d_ago": 716.92
   },
   "OKLO": {
     "price": 38.55,
     "change_pct": -2.77,
     "name": "Oklo Inc.",
-    "updated_at": "2026-10-06T23:54:16.854564",
+    "updated_at": "2026-10-07T05:12:17.863204",
     "price_14d_ago": 39.65
   },
   "ORCL": {
     "price": 144.77,
     "change_pct": -3.86,
     "name": "Oracle Corporation",
-    "updated_at": "2026-10-06T23:54:17.235014",
+    "updated_at": "2026-10-07T05:12:18.256179",
     "price_14d_ago": 150.59
   },
   "PALL": {
     "price": 21.25,
     "change_pct": -8.56,
     "name": "abrdn Physical Palladium Shares",
-    "updated_at": "2026-10-06T23:54:17.428216",
+    "updated_at": "2026-10-07T05:12:18.444955",
     "price_14d_ago": 23.24
   },
   "PANW": {
     "price": 419.91,
     "change_pct": 11.96,
     "name": "Palo Alto Networks, Inc.",
-    "updated_at": "2026-10-06T23:54:17.657648",
+    "updated_at": "2026-10-07T05:12:18.634481",
     "price_14d_ago": 375.06
   },
   "PBR": {
     "price": 23.8,
     "change_pct": 13.66,
     "name": "Petroleo Brasileiro S.A. Petrob",
-    "updated_at": "2026-10-06T23:54:17.884601",
+    "updated_at": "2026-10-07T05:12:18.843282",
     "price_14d_ago": 20.94
   },
   "PFE": {
     "price": 27.5,
     "change_pct": -0.51,
     "name": "Pfizer, Inc.",
-    "updated_at": "2026-10-06T23:54:18.401684",
+    "updated_at": "2026-10-07T05:12:19.318540",
     "price_14d_ago": 27.64
   },
   "PLTM": {
     "price": 16.39,
     "change_pct": -3.59,
     "name": "GraniteShares Platinum Shares E",
-    "updated_at": "2026-10-06T23:54:18.582864",
+    "updated_at": "2026-10-07T05:12:19.526810",
     "price_14d_ago": 17.0
   },
   "PLTR": {
     "price": 192.07,
     "change_pct": 8.98,
     "name": "Palantir Technologies Inc.",
-    "updated_at": "2026-10-06T23:54:18.763336",
+    "updated_at": "2026-10-07T05:12:19.717398",
     "price_14d_ago": 176.24
   },
   "PQT": {
     "price": 0,
     "change_pct": 0,
     "name": "PQT",
-    "updated_at": "2026-10-06T23:54:19.135633",
+    "updated_at": "2026-10-07T05:12:20.131948",
     "price_14d_ago": null
   },
   "PQUS": {
     "price": 29.07,
     "change_pct": 2.54,
     "name": "Pictet AI Enhanced US Equity ET",
-    "updated_at": "2026-10-06T23:54:19.335141",
+    "updated_at": "2026-10-07T05:12:20.319275",
     "price_14d_ago": 28.35
   },
   "PSBD": {
     "price": 9.6,
     "change_pct": -7.69,
     "name": "Palmer Square Capital BDC Inc.",
-    "updated_at": "2026-10-06T23:54:19.518432",
+    "updated_at": "2026-10-07T05:12:20.513310",
     "price_14d_ago": 10.4
   },
   "PYPL": {
     "price": 54.61,
     "change_pct": 3.15,
     "name": "PayPal Holdings, Inc.",
-    "updated_at": "2026-10-06T23:54:19.698330",
+    "updated_at": "2026-10-07T05:12:20.702034",
     "price_14d_ago": 52.94
   },
   "QQQ": {
     "price": 759.66,
     "change_pct": 5.96,
     "name": "Invesco QQQ Trust, Series 1",
-    "updated_at": "2026-10-06T23:54:19.895576",
+    "updated_at": "2026-10-07T05:12:20.908925",
     "price_14d_ago": 716.92
   },
   "QTA": {
     "price": 0,
     "change_pct": 0,
     "name": "QTA",
-    "updated_at": "2026-10-06T23:54:20.107467",
+    "updated_at": "2026-10-07T05:12:21.101957",
     "price_14d_ago": null
   },
   "RBLX": {
     "price": 45.56,
     "change_pct": -4.08,
     "name": "Roblox Corporation",
-    "updated_at": "2026-10-06T23:54:20.294186",
+    "updated_at": "2026-10-07T05:12:21.297503",
     "price_14d_ago": 47.5
   },
   "RKLB": {
     "price": 75.06,
     "change_pct": 10.68,
     "name": "Rocket Lab Corporation",
-    "updated_at": "2026-10-06T23:54:20.508673",
+    "updated_at": "2026-10-07T05:12:21.487147",
     "price_14d_ago": 67.82
   },
   "Russell": {
     "price": 281.34,
     "change_pct": -1.43,
     "name": "iShares Russell 2000 Index Fund",
-    "updated_at": "2026-10-06T23:54:20.883986",
+    "updated_at": "2026-10-07T05:12:21.888406",
     "price_14d_ago": 285.43
   },
   "S&P": {
     "price": 7818.93,
     "change_pct": 2.37,
     "name": "S&P 500",
-    "updated_at": "2026-10-06T23:54:21.090323",
+    "updated_at": "2026-10-07T05:12:22.089597",
     "price_14d_ago": 7637.76
   },
   "S&P 500": {
     "price": 7818.93,
     "change_pct": 2.37,
     "name": "S&P 500",
-    "updated_at": "2026-10-06T23:54:21.270900",
+    "updated_at": "2026-10-07T05:12:22.279347",
     "price_14d_ago": 7637.76
   },
   "SAMSUNG ELECTRONICS": {
-    "price": 272250.0,
-    "change_pct": 9.56,
+    "price": 268500.0,
+    "change_pct": 8.05,
     "name": "SamsungElec",
-    "updated_at": "2026-10-06T23:54:21.485903",
+    "updated_at": "2026-10-07T05:12:22.478732",
     "price_14d_ago": 248500.0
   },
   "SAP": {
     "price": 210.46,
     "change_pct": -1.5,
     "name": "SAP  SE",
-    "updated_at": "2026-10-06T23:54:21.694389",
+    "updated_at": "2026-10-07T05:12:22.686561",
     "price_14d_ago": 213.66
   },
   "SF": {
     "price": 70.12,
     "change_pct": -7.14,
     "name": "Stifel Financial Corporation",
-    "updated_at": "2026-10-06T23:54:21.905016",
+    "updated_at": "2026-10-07T05:12:22.895401",
     "price_14d_ago": 75.51
   },
   "SK HYNIX": {
-    "price": 1744000.0,
-    "change_pct": 3.2,
+    "price": 1723000.0,
+    "change_pct": 1.95,
     "name": "SK hynix",
-    "updated_at": "2026-10-06T23:54:22.414204",
+    "updated_at": "2026-10-07T05:12:23.292776",
     "price_14d_ago": 1690000.0
   },
   "SLB": {
     "price": 50.0,
     "change_pct": -3.99,
     "name": "SLB Limited",
-    "updated_at": "2026-10-06T23:54:22.637381",
+    "updated_at": "2026-10-07T05:12:23.505798",
     "price_14d_ago": 52.08
   },
   "SMH": {
     "price": 632.5,
     "change_pct": 12.82,
     "name": "VanEck Semiconductor ETF",
-    "updated_at": "2026-10-06T23:54:22.830855",
+    "updated_at": "2026-10-07T05:12:23.769392",
     "price_14d_ago": 560.61
   },
   "SMP-500": {
     "price": 7818.93,
     "change_pct": 2.37,
     "name": "S&P 500",
-    "updated_at": "2026-10-06T23:54:23.016117",
+    "updated_at": "2026-10-07T05:12:23.965740",
     "price_14d_ago": 7637.76
   },
   "SMR": {
     "price": 8.02,
     "change_pct": -11.28,
     "name": "NuScale Power Corporation",
-    "updated_at": "2026-10-06T23:54:23.195085",
+    "updated_at": "2026-10-07T05:12:24.190997",
     "price_14d_ago": 9.04
   },
   "SNAP": {
     "price": 5.78,
     "change_pct": 2.3,
     "name": "Snap Inc.",
-    "updated_at": "2026-10-06T23:54:23.373422",
+    "updated_at": "2026-10-07T05:12:24.390231",
     "price_14d_ago": 5.65
   },
   "SNWGF": {
     "price": 11.42,
     "change_pct": -2.64,
     "name": "SNOWLINE GOLD CORP",
-    "updated_at": "2026-10-06T23:54:23.563978",
+    "updated_at": "2026-10-07T05:12:24.602768",
     "price_14d_ago": 11.73
   },
   "SOYB": {
     "price": 27.73,
     "change_pct": -0.86,
     "name": "Teucrium Soybean Fund ETV",
-    "updated_at": "2026-10-06T23:54:23.749814",
+    "updated_at": "2026-10-07T05:12:24.790500",
     "price_14d_ago": 27.97
   },
   "SPCE": {
     "price": 3.07,
     "change_pct": -1.29,
     "name": "Virgin Galactic Holdings, Inc.",
-    "updated_at": "2026-10-06T23:54:23.973532",
+    "updated_at": "2026-10-07T05:12:25.014789",
     "price_14d_ago": 3.11
   },
   "SPX": {
     "price": 7818.93,
     "change_pct": 2.37,
     "name": "S&P 500",
-    "updated_at": "2026-10-06T23:54:24.514812",
+    "updated_at": "2026-10-07T05:12:25.609438",
     "price_14d_ago": 7637.76
   },
   "SPY": {
     "price": 779.09,
     "change_pct": 2.16,
     "name": "State Street SPDR S&P 500 ETF T",
-    "updated_at": "2026-10-06T23:54:24.716684",
+    "updated_at": "2026-10-07T05:12:25.819137",
     "price_14d_ago": 762.6
   },
   "SQQQ": {
     "price": 31.83,
     "change_pct": -17.39,
     "name": "ProShares UltraPro Short QQQ",
-    "updated_at": "2026-10-06T23:54:24.968376",
+    "updated_at": "2026-10-07T05:12:26.019454",
     "price_14d_ago": 38.53
   },
   "SQUARE": {
     "price": 76.54,
     "change_pct": 0.09,
     "name": "Block, Inc.",
-    "updated_at": "2026-10-06T23:54:25.152838",
+    "updated_at": "2026-10-07T05:12:26.207963",
     "price_14d_ago": 76.47
   },
   "Semiconductors": {
     "price": 632.5,
     "change_pct": 12.82,
     "name": "VanEck Semiconductor ETF",
-    "updated_at": "2026-10-06T23:54:25.347280",
+    "updated_at": "2026-10-07T05:12:26.406986",
     "price_14d_ago": 560.61
   },
   "T": {
     "price": 24.43,
     "change_pct": -3.78,
     "name": "AT&T Inc.",
-    "updated_at": "2026-10-06T23:54:25.557407",
+    "updated_at": "2026-10-07T05:12:26.620263",
     "price_14d_ago": 25.39
   },
   "TDOC": {
     "price": 5.77,
     "change_pct": -8.12,
     "name": "Teladoc Health, Inc.",
-    "updated_at": "2026-10-06T23:54:25.943351",
+    "updated_at": "2026-10-07T05:12:27.047977",
     "price_14d_ago": 6.28
   },
   "TIPS": {
     "price": 0.0,
     "change_pct": 150.0,
     "name": "Tianrong Internet Products and ",
-    "updated_at": "2026-10-06T23:54:26.486472",
+    "updated_at": "2026-10-07T05:12:27.661837",
     "price_14d_ago": 0.0
   },
   "TLT": {
     "price": 77.28,
     "change_pct": -5.5,
     "name": "iShares 20+ Year Treasury Bond ",
-    "updated_at": "2026-10-06T23:54:26.697022",
+    "updated_at": "2026-10-07T05:12:27.868574",
     "price_14d_ago": 81.78
   },
   "TSLA": {
     "price": 380.68,
     "change_pct": 3.95,
     "name": "Tesla, Inc.",
-    "updated_at": "2026-10-06T23:54:26.943300",
+    "updated_at": "2026-10-07T05:12:28.082911",
     "price_14d_ago": 366.2
   },
   "TSM": {
     "price": 482.3,
     "change_pct": 12.1,
     "name": "Taiwan Semiconductor Manufactur",
-    "updated_at": "2026-10-06T23:54:27.138361",
+    "updated_at": "2026-10-07T05:12:28.285601",
     "price_14d_ago": 430.26
   },
   "UBER": {
     "price": 69.08,
     "change_pct": -2.53,
     "name": "Uber Technologies, Inc.",
-    "updated_at": "2026-10-06T23:54:27.498568",
+    "updated_at": "2026-10-07T05:12:28.666885",
     "price_14d_ago": 70.87
   },
   "UNG": {
     "price": 10.74,
     "change_pct": 3.97,
     "name": "United States Natural Gas Fund ",
-    "updated_at": "2026-10-06T23:54:27.725457",
+    "updated_at": "2026-10-07T05:12:28.855282",
     "price_14d_ago": 10.33
   },
   "URANIUM": {
     "price": 41.8,
     "change_pct": -2.06,
     "name": "Uranium ETF",
-    "updated_at": "2026-10-06T23:54:28.189993",
+    "updated_at": "2026-10-07T05:12:29.305980",
     "price_14d_ago": 42.68
   },
   "USD": {
     "price": 103.77,
     "change_pct": 22.65,
     "name": "ProShares Ultra Semiconductors",
-    "updated_at": "2026-10-06T23:54:28.454135",
+    "updated_at": "2026-10-07T05:12:29.541683",
     "price_14d_ago": 84.61
   },
   "USDX": {
     "price": 25.55,
     "change_pct": -0.25,
     "name": "SGI Enhanced Core ETF",
-    "updated_at": "2026-10-06T23:54:28.642275",
+    "updated_at": "2026-10-07T05:12:29.729688",
     "price_14d_ago": 25.61
   },
   "USO": {
     "price": 144.91,
     "change_pct": -6.7,
     "name": "United States Oil Fund",
-    "updated_at": "2026-10-06T23:54:28.827563",
+    "updated_at": "2026-10-07T05:12:29.922203",
     "price_14d_ago": 155.31
   },
   "UTHR": {
     "price": 541.62,
     "change_pct": 8.92,
     "name": "United Therapeutics Corporation",
-    "updated_at": "2026-10-06T23:54:29.008760",
+    "updated_at": "2026-10-07T05:12:30.191568",
     "price_14d_ago": 497.27
   },
   "UUU": {
     "price": 4.96,
     "change_pct": 0.4,
     "name": "Universal Safety Products, Inc.",
-    "updated_at": "2026-10-06T23:54:29.191475",
+    "updated_at": "2026-10-07T05:12:30.384301",
     "price_14d_ago": 4.94
   },
   "V": {
     "price": 370.64,
     "change_pct": 0.19,
     "name": "Visa Inc.",
-    "updated_at": "2026-10-06T23:54:29.565856",
+    "updated_at": "2026-10-07T05:12:30.794628",
     "price_14d_ago": 369.93
   },
   "VEEV": {
     "price": 283.5,
     "change_pct": 7.49,
     "name": "Veeva Systems Inc.",
-    "updated_at": "2026-10-06T23:54:29.923170",
+    "updated_at": "2026-10-07T05:12:31.166177",
     "price_14d_ago": 263.75
   },
   "VIX": {
-    "price": 15.01,
-    "change_pct": -2.78,
+    "price": 15.51,
+    "change_pct": 4.73,
     "name": "CBOE Volatility Index",
-    "updated_at": "2026-10-06T23:54:30.652709",
-    "price_14d_ago": 15.44
+    "updated_at": "2026-10-07T05:12:31.841127",
+    "price_14d_ago": 14.81
   },
   "VLO": {
     "price": 419.22,
     "change_pct": 1.62,
     "name": "Valero Energy Corporation",
-    "updated_at": "2026-10-06T23:54:30.857545",
+    "updated_at": "2026-10-07T05:12:32.055824",
     "price_14d_ago": 412.53
   },
   "VRTX": {
     "price": 502.31,
     "change_pct": -2.72,
     "name": "Vertex Pharmaceuticals Incorpor",
-    "updated_at": "2026-10-06T23:54:31.041692",
+    "updated_at": "2026-10-07T05:12:32.244400",
     "price_14d_ago": 516.34
   },
   "WFC": {
     "price": 81.51,
     "change_pct": -6.19,
     "name": "Wells Fargo & Company",
-    "updated_at": "2026-10-06T23:54:31.279259",
+    "updated_at": "2026-10-07T05:12:32.473393",
     "price_14d_ago": 86.89
   },
   "WIT": {
     "price": 1.68,
     "change_pct": 0.0,
     "name": "Wipro Limited",
-    "updated_at": "2026-10-06T23:54:31.474498",
+    "updated_at": "2026-10-07T05:12:32.685366",
     "price_14d_ago": 1.68
   },
   "WMT": {
     "price": 107.2,
     "change_pct": 0.38,
     "name": "Walmart Inc.",
-    "updated_at": "2026-10-06T23:54:31.683774",
+    "updated_at": "2026-10-07T05:12:32.927065",
     "price_14d_ago": 106.79
   },
   "WTBN": {
     "price": 23.99,
     "change_pct": -1.66,
     "name": "WisdomTree Bianco Total Return ",
-    "updated_at": "2026-10-06T23:54:31.967044",
+    "updated_at": "2026-10-07T05:12:33.124213",
     "price_14d_ago": 24.4
   },
   "WTI": {
-    "price": 90.22,
-    "change_pct": -10.05,
+    "price": 89.94,
+    "change_pct": -10.33,
     "name": "WTI Crude",
-    "updated_at": "2026-10-06T23:54:32.149105",
+    "updated_at": "2026-10-07T05:12:33.402654",
     "price_14d_ago": 100.3
   },
   "WTI CRUDE OIL": {
-    "price": 90.22,
-    "change_pct": -10.05,
+    "price": 89.95,
+    "change_pct": -10.32,
     "name": "WTI Crude",
-    "updated_at": "2026-10-06T23:54:32.427540",
+    "updated_at": "2026-10-07T05:12:33.593099",
     "price_14d_ago": 100.3
   },
   "XAU-USD": {
     "price": 0,
     "change_pct": 0,
     "name": "XAU9999 Meme USD",
-    "updated_at": "2026-10-06T23:54:32.953036",
+    "updated_at": "2026-10-07T05:12:33.970527",
     "price_14d_ago": 0.0
   },
   "XOM": {
     "price": 164.48,
     "change_pct": 0.74,
     "name": "ExxonMobil Holdings Corporation",
-    "updated_at": "2026-10-06T23:54:33.168420",
+    "updated_at": "2026-10-07T05:12:34.218576",
     "price_14d_ago": 163.27
   },
   "ZIM": {
     "price": 29.2,
     "change_pct": -3.82,
     "name": "ZIM Integrated Shipping Service",
-    "updated_at": "2026-10-06T23:54:33.584602",
+    "updated_at": "2026-10-07T05:12:34.601720",
     "price_14d_ago": 30.36
   },
   "HIMS": {
     "price": 29.47,
     "change_pct": 5.67,
     "name": "Hims & Hers Health, Inc.",
-    "updated_at": "2026-10-06T23:54:33.987656",
+    "updated_at": "2026-10-07T05:12:34.983235",
     "price_14d_ago": 27.89
   },
   "GDRX": {
     "price": 3.27,
     "change_pct": -3.82,
     "name": "GoodRx Holdings, Inc.",
-    "updated_at": "2026-10-06T23:54:34.216816",
+    "updated_at": "2026-10-07T05:12:35.177010",
     "price_14d_ago": 3.4
   },
   "TEM": {
     "price": 71.98,
     "change_pct": -10.43,
     "name": "Tempus AI, Inc.",
-    "updated_at": "2026-10-06T23:54:34.399012",
+    "updated_at": "2026-10-07T05:12:35.372598",
     "price_14d_ago": 80.36
   },
   "GH": {
     "price": 170.69,
     "change_pct": -6.78,
     "name": "Guardant Health, Inc.",
-    "updated_at": "2026-10-06T23:54:34.584579",
+    "updated_at": "2026-10-07T05:12:35.564258",
     "price_14d_ago": 183.1
   },
   "ABT": {
     "price": 98.16,
     "change_pct": -3.98,
     "name": "Abbott Laboratories",
-    "updated_at": "2026-10-06T23:54:34.788777",
+    "updated_at": "2026-10-07T05:12:35.778377",
     "price_14d_ago": 102.23
   },
   "ARM": {
     "price": 302.56,
     "change_pct": 14.22,
     "name": "Arm Holdings plc",
-    "updated_at": "2026-10-06T23:53:57.206917",
+    "updated_at": "2026-10-07T05:11:58.225029",
     "price_14d_ago": 264.9
   },
   "HOOD": {
     "price": 112.0,
     "change_pct": 1.99,
     "name": "Robinhood Markets, Inc.",
-    "updated_at": "2026-10-06T23:54:08.067350",
+    "updated_at": "2026-10-07T05:12:09.218891",
     "price_14d_ago": 109.81
   },
   "SPOT": {
     "price": 488.13,
     "change_pct": -7.7,
     "name": "Spotify Technology S.A.",
-    "updated_at": "2026-10-06T23:54:24.158607",
+    "updated_at": "2026-10-07T05:12:25.203957",
     "price_14d_ago": 528.84
   },
   "CRWV": {
     "price": 91.72,
     "change_pct": 14.82,
     "name": "CoreWeave, Inc.",
-    "updated_at": "2026-10-06T23:54:02.203666",
+    "updated_at": "2026-10-07T05:12:03.570451",
     "price_14d_ago": 79.88
   },
   "LENS": {
     "price": 43.69,
     "change_pct": -4.84,
     "name": "Sarmaya Thematic ETF",
-    "updated_at": "2026-10-06T23:54:10.900307",
+    "updated_at": "2026-10-07T05:12:12.088692",
     "price_14d_ago": 45.91
   },
   "TCEHY": {
     "price": 54.5,
     "change_pct": 0.0,
     "name": "Tencent Holding Ltd.",
-    "updated_at": "2026-10-06T23:54:25.761030",
+    "updated_at": "2026-10-07T05:12:26.852347",
     "price_14d_ago": 54.5
   },
   "SHOP": {
     "price": 164.44,
     "change_pct": 27.87,
     "name": "Shopify Inc.",
-    "updated_at": "2026-10-06T23:54:22.158475",
+    "updated_at": "2026-10-07T05:12:23.084937",
     "price_14d_ago": 128.6
   }
 },
@@ -16137,9 +16137,9 @@ const dashboardData = {
       "first_detected_speaker": "",
       "last_mentioned_episode_id": 552,
       "last_mentioned_speaker": "Olivia Moore, Josh Elman",
-      "novelty_score": 2.6346,
-      "overton_score": 2.6346,
-      "resonance_pct": 83,
+      "novelty_score": 2.6099,
+      "overton_score": 2.6099,
+      "resonance_pct": 82,
       "is_established": false,
       "first_detected_podcast": "The a16z Show",
       "first_detected_episode_title": "Ruby Thelot on Internet Culture, AI, and the Future of Taste",
@@ -16165,8 +16165,8 @@ const dashboardData = {
       "first_detected_speaker": "",
       "last_mentioned_episode_id": 549,
       "last_mentioned_speaker": "Alex Atallah, Amjad Masad",
-      "novelty_score": 2.4342,
-      "overton_score": 2.4342,
+      "novelty_score": 2.4112,
+      "overton_score": 2.4112,
       "resonance_pct": 81,
       "is_established": false,
       "first_detected_podcast": "The a16z Show",
@@ -16193,8 +16193,8 @@ const dashboardData = {
       "first_detected_speaker": "Chamath Palihapitiya, Jason Calacanis (hosts)",
       "last_mentioned_episode_id": 551,
       "last_mentioned_speaker": "David George",
-      "novelty_score": 2.1548,
-      "overton_score": 2.1548,
+      "novelty_score": 2.1339,
+      "overton_score": 2.1339,
       "resonance_pct": 78,
       "is_established": false,
       "first_detected_podcast": "All-In with Chamath, Jason, Sacks & Friedberg",
@@ -16221,8 +16221,8 @@ const dashboardData = {
       "first_detected_speaker": "Mark Andrewson, Chris Dixon",
       "last_mentioned_episode_id": 535,
       "last_mentioned_speaker": "Peter Diamandis (hosts)",
-      "novelty_score": 1.9432,
-      "overton_score": 1.9432,
+      "novelty_score": 1.9244,
+      "overton_score": 1.9244,
       "resonance_pct": 75,
       "is_established": false,
       "first_detected_podcast": "The a16z Show",
@@ -16249,8 +16249,8 @@ const dashboardData = {
       "first_detected_speaker": "Victor Hagani",
       "last_mentioned_episode_id": 500,
       "last_mentioned_speaker": "Peter Diamandis (hosts)",
-      "novelty_score": 1.7761,
-      "overton_score": 1.7761,
+      "novelty_score": 1.7594,
+      "overton_score": 1.7594,
       "resonance_pct": 73,
       "is_established": false,
       "first_detected_podcast": "Monetary Matters with Jack Farley",
@@ -16277,8 +16277,8 @@ const dashboardData = {
       "first_detected_speaker": "Peter Diamandis",
       "last_mentioned_episode_id": 550,
       "last_mentioned_speaker": "Richard Socher",
-      "novelty_score": 1.7722,
-      "overton_score": 1.7722,
+      "novelty_score": 1.7544,
+      "overton_score": 1.7544,
       "resonance_pct": 73,
       "is_established": false,
       "first_detected_podcast": "Moonshots with Peter Diamandis",
@@ -16305,8 +16305,8 @@ const dashboardData = {
       "first_detected_speaker": "",
       "last_mentioned_episode_id": 547,
       "last_mentioned_speaker": "Peter Diamandis, Alex Wissner-Gross (hosts)",
-      "novelty_score": 1.7645,
-      "overton_score": 1.7645,
+      "novelty_score": 1.7468,
+      "overton_score": 1.7468,
       "resonance_pct": 73,
       "is_established": false,
       "first_detected_podcast": "The a16z Show",
@@ -16333,9 +16333,9 @@ const dashboardData = {
       "first_detected_speaker": "Michael Kratsios",
       "last_mentioned_episode_id": 463,
       "last_mentioned_speaker": "Astra Research Team",
-      "novelty_score": 1.7307,
-      "overton_score": 1.7307,
-      "resonance_pct": 73,
+      "novelty_score": 1.715,
+      "overton_score": 1.715,
+      "resonance_pct": 72,
       "is_established": false,
       "first_detected_podcast": "Moonshots with Peter Diamandis",
       "first_detected_episode_title": "Michael Kratsios on the New Golden Age of American Science | EP #276",
@@ -16361,8 +16361,8 @@ const dashboardData = {
       "first_detected_speaker": "",
       "last_mentioned_episode_id": 519,
       "last_mentioned_speaker": "",
-      "novelty_score": 1.6967,
-      "overton_score": 1.6967,
+      "novelty_score": 1.6801,
+      "overton_score": 1.6801,
       "resonance_pct": 72,
       "is_established": false,
       "first_detected_podcast": "Moonshots with Peter Diamandis",
@@ -16389,9 +16389,9 @@ const dashboardData = {
       "first_detected_speaker": "Ramine Hassani",
       "last_mentioned_episode_id": 550,
       "last_mentioned_speaker": "Richard Socher",
-      "novelty_score": 1.6498,
-      "overton_score": 1.6498,
-      "resonance_pct": 72,
+      "novelty_score": 1.6329,
+      "overton_score": 1.6329,
+      "resonance_pct": 71,
       "is_established": false,
       "first_detected_podcast": "Moonshots with Peter Diamandis",
       "first_detected_episode_title": "Mira Murati's 975B Open Model, Ramin Hasani on Post-Transformer AI, and Demis' AI FINRA | EP #271",
@@ -16417,8 +16417,8 @@ const dashboardData = {
       "first_detected_speaker": "Mark Zuckerberg, Priscilla Chan",
       "last_mentioned_episode_id": 550,
       "last_mentioned_speaker": "Richard Socher",
-      "novelty_score": 1.6354,
-      "overton_score": 1.6354,
+      "novelty_score": 1.6186,
+      "overton_score": 1.6186,
       "resonance_pct": 71,
       "is_established": false,
       "first_detected_podcast": "The a16z Show",
@@ -16445,9 +16445,9 @@ const dashboardData = {
       "first_detected_speaker": "",
       "last_mentioned_episode_id": 475,
       "last_mentioned_speaker": "Peter Diamandis (hosts)",
-      "novelty_score": 1.5833,
-      "overton_score": 1.5833,
-      "resonance_pct": 71,
+      "novelty_score": 1.5685,
+      "overton_score": 1.5685,
+      "resonance_pct": 70,
       "is_established": false,
       "first_detected_podcast": "Moonshots with Peter Diamandis",
       "first_detected_episode_title": "SpaceX\u2019 $75B+ Historic IPO, GPT 5.5 Outperforms Polymarket, and AI Solves 80 yr old math problem | EP #257",
@@ -16473,8 +16473,8 @@ const dashboardData = {
       "first_detected_speaker": "",
       "last_mentioned_episode_id": 550,
       "last_mentioned_speaker": "Richard Socher",
-      "novelty_score": 1.5419,
-      "overton_score": 1.5419,
+      "novelty_score": 1.5258,
+      "overton_score": 1.5258,
       "resonance_pct": 70,
       "is_established": false,
       "first_detected_podcast": "Moonshots with Peter Diamandis",
@@ -16503,8 +16503,8 @@ const dashboardData = {
       "first_detected_speaker": "Demis Hassabis",
       "last_mentioned_episode_id": 552,
       "last_mentioned_speaker": "Olivia Moore, Josh Elman",
-      "novelty_score": 0.5307,
-      "overton_score": 0.5307,
+      "novelty_score": 0.5222,
+      "overton_score": 0.5222,
       "resonance_pct": 46,
       "is_established": true,
       "first_detected_podcast": "Moonshots with Peter Diamandis",
@@ -16531,8 +16531,8 @@ const dashboardData = {
       "first_detected_speaker": "Travis Kalanick, Ben Horowitz",
       "last_mentioned_episode_id": 551,
       "last_mentioned_speaker": "David George",
-      "novelty_score": 0.6192,
-      "overton_score": 0.6192,
+      "novelty_score": 0.6101,
+      "overton_score": 0.6101,
       "resonance_pct": 49,
       "is_established": true,
       "first_detected_podcast": "The a16z Show",
@@ -16559,9 +16559,9 @@ const dashboardData = {
       "first_detected_speaker": "Leakwet Ahamed",
       "last_mentioned_episode_id": 548,
       "last_mentioned_speaker": "Chamath Palihapitiya, Jason Calacanis (hosts)",
-      "novelty_score": 0.5225,
-      "overton_score": 0.5225,
-      "resonance_pct": 46,
+      "novelty_score": 0.5143,
+      "overton_score": 0.5143,
+      "resonance_pct": 45,
       "is_established": true,
       "first_detected_podcast": "Monetary Matters with Jack Farley",
       "first_detected_episode_title": "Rothschilds, Railroads, & Ruin | Liaquat Ahamed on \u201c1873\u201d (New Book!)",
@@ -16587,8 +16587,8 @@ const dashboardData = {
       "first_detected_speaker": "",
       "last_mentioned_episode_id": 551,
       "last_mentioned_speaker": "David George",
-      "novelty_score": 0.4808,
-      "overton_score": 0.4808,
+      "novelty_score": 0.4728,
+      "overton_score": 0.4728,
       "resonance_pct": 44,
       "is_established": true,
       "first_detected_podcast": "The a16z Show",
@@ -47773,16 +47773,16 @@ const dashboardData = {
     "definition": null,
     "investment_implications": null,
     "source_type": "auto_extracted",
-    "mention_count": 20,
-    "source_diversity": 18,
+    "mention_count": 21,
+    "source_diversity": 19,
     "relevance_score": 100,
     "submitted_date": "2026-10-04 04:47:41",
-    "priority_score": 660
+    "priority_score": 690
   }
 ],
   podcastGuests: [
   {
-    "id": 81601,
+    "id": 81717,
     "name": "Alex Atallah & Amjad Masad",
     "slug": "alex-atallah--amjad-masad",
     "bio": null,
@@ -47794,7 +47794,7 @@ const dashboardData = {
     "appearance_count": 1
   },
   {
-    "id": 81602,
+    "id": 81718,
     "name": "Barrett Lyon",
     "slug": "barrett-lyon",
     "bio": null,
@@ -47806,7 +47806,7 @@ const dashboardData = {
     "appearance_count": 1
   },
   {
-    "id": 81603,
+    "id": 81719,
     "name": "Token Bill Dwarfs CPU Bill",
     "slug": "token-bill-dwarfs-cpu-bill",
     "bio": null,
@@ -47818,7 +47818,7 @@ const dashboardData = {
     "appearance_count": 1
   },
   {
-    "id": 81604,
+    "id": 81720,
     "name": "Jake Paul & The Chainsmokers",
     "slug": "jake-paul--the-chainsmokers",
     "bio": null,
@@ -47830,7 +47830,7 @@ const dashboardData = {
     "appearance_count": 1
   },
   {
-    "id": 81605,
+    "id": 81721,
     "name": "Palmer Luckey",
     "slug": "palmer-luckey",
     "bio": null,
@@ -47842,7 +47842,7 @@ const dashboardData = {
     "appearance_count": 1
   },
   {
-    "id": 81606,
+    "id": 81722,
     "name": "Daniel Ek",
     "slug": "daniel-ek",
     "bio": null,
@@ -47854,7 +47854,7 @@ const dashboardData = {
     "appearance_count": 1
   },
   {
-    "id": 81607,
+    "id": 81723,
     "name": "Michael Every",
     "slug": "michael-every",
     "bio": null,
@@ -47866,7 +47866,7 @@ const dashboardData = {
     "appearance_count": 1
   },
   {
-    "id": 81608,
+    "id": 81724,
     "name": "Steve Hilton & Spencer Pratt",
     "slug": "steve-hilton--spencer-pratt",
     "bio": null,
@@ -47878,7 +47878,7 @@ const dashboardData = {
     "appearance_count": 1
   },
   {
-    "id": 81609,
+    "id": 81725,
     "name": "Blake Scholl",
     "slug": "blake-scholl",
     "bio": null,
@@ -47890,7 +47890,7 @@ const dashboardData = {
     "appearance_count": 1
   },
   {
-    "id": 81610,
+    "id": 81726,
     "name": "John Platt",
     "slug": "john-platt",
     "bio": null,
@@ -47902,7 +47902,7 @@ const dashboardData = {
     "appearance_count": 1
   },
   {
-    "id": 81611,
+    "id": 81727,
     "name": "Diogo Almeida",
     "slug": "diogo-almeida",
     "bio": null,
@@ -47914,7 +47914,7 @@ const dashboardData = {
     "appearance_count": 1
   },
   {
-    "id": 81612,
+    "id": 81728,
     "name": "Naveen Rao",
     "slug": "naveen-rao",
     "bio": null,
@@ -47926,7 +47926,7 @@ const dashboardData = {
     "appearance_count": 1
   },
   {
-    "id": 81613,
+    "id": 81729,
     "name": "Outlook on 5 Key Commodities",
     "slug": "outlook-on-5-key-commodities",
     "bio": null,
@@ -47938,7 +47938,7 @@ const dashboardData = {
     "appearance_count": 1
   },
   {
-    "id": 81614,
+    "id": 81730,
     "name": "Bill Gurley",
     "slug": "bill-gurley",
     "bio": null,
@@ -47950,7 +47950,7 @@ const dashboardData = {
     "appearance_count": 1
   },
   {
-    "id": 81615,
+    "id": 81731,
     "name": "Nick Shirley",
     "slug": "nick-shirley",
     "bio": null,
@@ -47962,7 +47962,7 @@ const dashboardData = {
     "appearance_count": 1
   },
   {
-    "id": 81616,
+    "id": 81732,
     "name": "Jared Isaacman",
     "slug": "jared-isaacman",
     "bio": null,
@@ -47974,7 +47974,7 @@ const dashboardData = {
     "appearance_count": 1
   },
   {
-    "id": 81617,
+    "id": 81733,
     "name": "Brad Gerstner",
     "slug": "brad-gerstner",
     "bio": null,
@@ -47986,7 +47986,7 @@ const dashboardData = {
     "appearance_count": 1
   },
   {
-    "id": 81618,
+    "id": 81734,
     "name": "Meta's Dina Powell McCormick",
     "slug": "metas-dina-powell-mccormick",
     "bio": null,
@@ -47998,7 +47998,7 @@ const dashboardData = {
     "appearance_count": 1
   },
   {
-    "id": 81619,
+    "id": 81735,
     "name": "Underwriting Superintelligence",
     "slug": "underwriting-superintelligence",
     "bio": null,
@@ -48010,7 +48010,7 @@ const dashboardData = {
     "appearance_count": 1
   },
   {
-    "id": 81620,
+    "id": 81736,
     "name": "Hawks Take Flight",
     "slug": "hawks-take-flight",
     "bio": null,
@@ -52833,7 +52833,7 @@ const dashboardData = {
     "last_podcast_name": "Moonshots with Peter Diamandis",
     "last_episode_date": "2026-08-27",
     "mention_score": 1,
-    "mention_score_decayed": 0.41,
+    "mention_score_decayed": 0.4,
     "last_main_idea": "Investment in AI and autonomous vehicle sectors should consider the shift towards more gradual AI integration and the potential for cost-effective Chinese AI models to disrupt the market.",
     "last_proof_cite": "Moonshots with Peter Diamandis \u2022 2026-08-27 \u2022 Sam Altman: Singularity Slow-Down, Emad Runs 18 Grokbots, Waymo Slashes Hardware 83% | EP #283",
     "last_proof_snippet": "Sam Altman went on video this week to tell the world that he was wrong about the impact of advancing AI. We've all been too ambitious on time on it's even with this incredible technology. He now believes it will be something slower, more lik",
@@ -54272,7 +54272,7 @@ const dashboardData = {
     "last_podcast_name": "Moonshots with Peter Diamandis",
     "last_episode_date": "2026-08-11",
     "mention_score": 1,
-    "mention_score_decayed": 0.28,
+    "mention_score_decayed": 0.27,
     "last_main_idea": "Sergei Bren's return to Gemini may lead to accelerated innovation with less safety constraints.",
     "last_proof_cite": "Moonshots with Peter Diamandis \u2022 2026-08-11 \u2022 Sergey Brin Retakes Gemini, 4 Labs Lose Containment, Compute Trades at NYSE w/ Kush Bavaria | EP #278",
     "last_proof_snippet": "Sergei Bren is back taking personal control of Gemini. I think we can expect Gemini to make more releases in an accelerated pace with less safety constraints. Google has lost the frontier race and so they can't compete. Those who can't comp",
@@ -54332,7 +54332,7 @@ const dashboardData = {
     "last_podcast_name": "Latent Space: The AI Engineer Podcast",
     "last_episode_date": "2026-08-11",
     "mention_score": 1,
-    "mention_score_decayed": 0.28,
+    "mention_score_decayed": 0.27,
     "last_main_idea": "Investing in AI-driven protein design companies like Try Discovery could offer significant returns as these platforms have the potential to disrupt traditional drug discovery, making it more efficient and cost-effective.",
     "last_proof_cite": "Latent Space: The AI Engineer Podcast \u2022 2026-08-11 \u2022 \ud83d\udd2cThe BioAI Phase Shift - Matthew McPartlon & Neil Patil, Chai Discovery",
     "last_proof_snippet": "It looks a lot less like a, you know, a chat GPT and a lot more like a autodesk or solid works or a figma, you know, if you've used those things where you can kind of load up your molecule, there's this almost like photo shop S click design",
@@ -54391,7 +54391,7 @@ const dashboardData = {
     "last_podcast_name": "Latent Space: The AI Engineer Podcast",
     "last_episode_date": "2026-08-11",
     "mention_score": 1,
-    "mention_score_decayed": 0.28,
+    "mention_score_decayed": 0.27,
     "last_main_idea": "Investing in AI-driven protein design companies like Try Discovery could offer significant returns as these platforms have the potential to disrupt traditional drug discovery, making it more efficient and cost-effective.",
     "last_proof_cite": "Latent Space: The AI Engineer Podcast \u2022 2026-08-11 \u2022 \ud83d\udd2cThe BioAI Phase Shift - Matthew McPartlon & Neil Patil, Chai Discovery",
     "last_proof_snippet": "It looks a lot less like a, you know, a chat GPT and a lot more like a autodesk or solid works or a figma, you know, if you've used those things where you can kind of load up your molecule, there's this almost like photo shop S click design",
@@ -55845,6 +55845,65 @@ const dashboardData = {
     }
   },
   {
+    "id": 98,
+    "name": "Rory Johnston",
+    "slug": "rory-johnston",
+    "bio": "Rory Johnston is an expert on energy markets and geopolitical risks. He is known for his analysis of the Hormuz crisis and its implications for global oil flows. Johnston's insights are highly valued by professional finance, high-net worth individuals, family offices, and other sophisticated investors.",
+    "known_for": "Analysis of the Hormuz crisis and its implications for global oil flows.",
+    "net_worth_usd": null,
+    "net_worth_source": "",
+    "net_worth_updated_at": "2026-03-28T22:05:57.557236",
+    "voice_tone": "Informative and insightful",
+    "voice_style": "Direct and focused on market dynamics",
+    "voice_delivery_notes": "Paced with emphasis on key market indicators",
+    "voice_profile_updated_at": "2026-03-29 09:09:13",
+    "last_seen": "2026-05-14 18:46:46",
+    "last_episode_title": "MacroVoices #532 Mike Green: Record Mechanical Flows",
+    "last_podcast_name": "Macro Voices",
+    "last_episode_date": "2026-05-14",
+    "mention_score": 6,
+    "mention_score_decayed": 0.21,
+    "last_main_idea": "Passive investment flows are dictating market behavior, potentially masking underlying economic weaknesses.",
+    "last_proof_cite": "Macro Voices \u2022 2026-05-14 \u2022 MacroVoices #532 Mike Green: Record Mechanical Flows",
+    "last_proof_snippet": "This is Macrovoisers, the Free Weekly Financial Podcast, targeting professional finance, high-net worth individuals, family offices, and other sophisticated investors. Macrovoisers is all about the brightest minds in the world of finance an",
+    "supporting_takeaway": "The ongoing Hormuz crisis is expected to create significant economic dislocation, particularly affecting energy supply.",
+    "grokipedia_url": null,
+    "grokipedia_fetched_at": "2026-05-14T13:47:11.847729",
+    "pundit_profile": {
+      "source": "llm",
+      "source_model": "moonshot:moonshot-v1-8k",
+      "source_url": "",
+      "page_title": "Rory Johnston",
+      "fetched_at": "2026-05-14T18:47:11.847405+00:00",
+      "cliff_notes": "Rory Johnston is an expert in energy markets and geopolitical risks, with a particular focus on the Hormuz crisis and its impact on global oil flows. His expertise is sought after by a range of financial professionals, including high-net worth individuals, family offices, and sophisticated investors. Johnston's analysis is featured on platforms like Macrovoisers, a financial podcast that targets these audiences. His insights into the Hormuz crisis and its potential to cripple the global economy are particularly valued, as they help investors navigate the complex and volatile world of finance and macroeconomics.",
+      "derived": {
+        "current_role": "Expert on energy markets and geopolitical risks; specific role not mentioned."
+      },
+      "infobox": {
+        "Born": "",
+        "Nationality": ""
+      },
+      "lead_paragraphs": [
+        "Rory Johnston is an expert in energy markets and geopolitical risks, with a particular focus on the Hormuz crisis and its impact on global oil flows. His expertise is sought after by a range of financial professionals, including high-net worth individuals, family offices, and sophisticated investors. Johnston's analysis is featured on platforms like Macrovoisers, a financial podcast that targets these audiences.",
+        "His insights into the Hormuz crisis and its potential to cripple the global economy are particularly valued, as they help investors navigate the complex and volatile world of finance and macroeconomics."
+      ],
+      "sections": [
+        {
+          "heading": "Hormuz Crisis",
+          "body": "Rory Johnston is known for his analysis of the Hormuz crisis and its implications for global oil flows. He has provided insights into how this geopolitical event could potentially cripple the global economy."
+        },
+        {
+          "heading": "Energy Markets",
+          "body": "Johnston is an expert on energy markets, offering valuable insights into the complex dynamics of oil and gas markets. His analysis helps investors understand the impact of geopolitical events on these markets."
+        },
+        {
+          "heading": "Geopolitical Risks",
+          "body": "As an expert on geopolitical risks, Johnston provides valuable perspectives on how global events can affect financial markets. His analysis of the Hormuz crisis is a prime example of this expertise."
+        }
+      ]
+    }
+  },
+  {
     "id": 364,
     "name": "Justin Jo",
     "slug": "justin-jo",
@@ -55862,7 +55921,7 @@ const dashboardData = {
     "last_podcast_name": "The a16z Show",
     "last_episode_date": "2026-07-29",
     "mention_score": 1,
-    "mention_score_decayed": 0.21,
+    "mention_score_decayed": 0.2,
     "last_main_idea": "Investing in AI-native entertainment presents an opportunity to capitalize on the shift towards generative media and the democratization of content creation.",
     "last_proof_cite": "The a16z Show \u2022 2026-07-29 \u2022 AI Micro Dramas, Generative Media, and the Future of Creativity",
     "last_proof_snippet": "I think folks would be surprised by how many TV shows and movies today already have some element of AI being used. I spend a lot of time with studio execs and Amazon and Netflix have already both announced programs for fully-AI-generated an",
@@ -55922,7 +55981,7 @@ const dashboardData = {
     "last_podcast_name": "All-In with Chamath, Jason, Sacks & Friedberg",
     "last_episode_date": "2026-07-28",
     "mention_score": 1,
-    "mention_score_decayed": 0.21,
+    "mention_score_decayed": 0.2,
     "last_main_idea": "Investing in robotics and AI companies that are successfully transitioning from research to real-world applications could offer significant growth potential as these technologies become more integrated into various industries.",
     "last_proof_cite": "All-In with Chamath, Jason, Sacks & Friedberg \u2022 2026-07-28 \u2022 The $1/Hour Worker: Four Robotics CEOs on Humanoids at Home, China's Threat, and the End of Dangerous Jobs",
     "last_proof_snippet": "Hey everybody, it's your boy Jake Al, I'm here in Paris, France at a conference called Makina, basically AI in the real world. Pardon my robot. Thanks for tuning in, and let's get started. Apple ovens started with an $8 domain and no VC fun",
@@ -55981,7 +56040,7 @@ const dashboardData = {
     "last_podcast_name": "All-In with Chamath, Jason, Sacks & Friedberg",
     "last_episode_date": "2026-07-28",
     "mention_score": 1,
-    "mention_score_decayed": 0.21,
+    "mention_score_decayed": 0.2,
     "last_main_idea": "Investing in robotics and AI companies that are successfully transitioning from research to real-world applications could offer significant growth potential as these technologies become more integrated into various industries.",
     "last_proof_cite": "All-In with Chamath, Jason, Sacks & Friedberg \u2022 2026-07-28 \u2022 The $1/Hour Worker: Four Robotics CEOs on Humanoids at Home, China's Threat, and the End of Dangerous Jobs",
     "last_proof_snippet": "Hey everybody, it's your boy Jake Al, I'm here in Paris, France at a conference called Makina, basically AI in the real world. Pardon my robot. Thanks for tuning in, and let's get started. Apple ovens started with an $8 domain and no VC fun",
@@ -56040,7 +56099,7 @@ const dashboardData = {
     "last_podcast_name": "Monetary Matters with Jack Farley",
     "last_episode_date": "2026-07-29",
     "mention_score": 1,
-    "mention_score_decayed": 0.21,
+    "mention_score_decayed": 0.2,
     "last_main_idea": "The Federal Reserve's credibility is at stake, and market reactions to economic data and Fed policy suggest a potential shift in expectations for inflation and interest rates, impacting bond yields and stock market performance.",
     "last_proof_cite": "Monetary Matters with Jack Farley \u2022 2026-07-29 \u2022 Mum\u2019s The Word: Kathryn Rooney Vera on Fed\u2019s Second Meeting under Kevin Warsh, Plus Earnings Breakdown (Live Replay)",
     "last_proof_snippet": "Wow. All right. We are here. We are joined by Katherine Rooney Vera, who's the chief market strategist at Stone X Groups. A lot of views on board markets, everything in macro. We mean we can get to to currencies and bonds. Katherine had a v",
@@ -56081,65 +56140,6 @@ const dashboardData = {
       ]
     },
     "net_worth": "$26.7M"
-  },
-  {
-    "id": 98,
-    "name": "Rory Johnston",
-    "slug": "rory-johnston",
-    "bio": "Rory Johnston is an expert on energy markets and geopolitical risks. He is known for his analysis of the Hormuz crisis and its implications for global oil flows. Johnston's insights are highly valued by professional finance, high-net worth individuals, family offices, and other sophisticated investors.",
-    "known_for": "Analysis of the Hormuz crisis and its implications for global oil flows.",
-    "net_worth_usd": null,
-    "net_worth_source": "",
-    "net_worth_updated_at": "2026-03-28T22:05:57.557236",
-    "voice_tone": "Informative and insightful",
-    "voice_style": "Direct and focused on market dynamics",
-    "voice_delivery_notes": "Paced with emphasis on key market indicators",
-    "voice_profile_updated_at": "2026-03-29 09:09:13",
-    "last_seen": "2026-05-14 18:46:46",
-    "last_episode_title": "MacroVoices #532 Mike Green: Record Mechanical Flows",
-    "last_podcast_name": "Macro Voices",
-    "last_episode_date": "2026-05-14",
-    "mention_score": 6,
-    "mention_score_decayed": 0.21,
-    "last_main_idea": "Passive investment flows are dictating market behavior, potentially masking underlying economic weaknesses.",
-    "last_proof_cite": "Macro Voices \u2022 2026-05-14 \u2022 MacroVoices #532 Mike Green: Record Mechanical Flows",
-    "last_proof_snippet": "This is Macrovoisers, the Free Weekly Financial Podcast, targeting professional finance, high-net worth individuals, family offices, and other sophisticated investors. Macrovoisers is all about the brightest minds in the world of finance an",
-    "supporting_takeaway": "The ongoing Hormuz crisis is expected to create significant economic dislocation, particularly affecting energy supply.",
-    "grokipedia_url": null,
-    "grokipedia_fetched_at": "2026-05-14T13:47:11.847729",
-    "pundit_profile": {
-      "source": "llm",
-      "source_model": "moonshot:moonshot-v1-8k",
-      "source_url": "",
-      "page_title": "Rory Johnston",
-      "fetched_at": "2026-05-14T18:47:11.847405+00:00",
-      "cliff_notes": "Rory Johnston is an expert in energy markets and geopolitical risks, with a particular focus on the Hormuz crisis and its impact on global oil flows. His expertise is sought after by a range of financial professionals, including high-net worth individuals, family offices, and sophisticated investors. Johnston's analysis is featured on platforms like Macrovoisers, a financial podcast that targets these audiences. His insights into the Hormuz crisis and its potential to cripple the global economy are particularly valued, as they help investors navigate the complex and volatile world of finance and macroeconomics.",
-      "derived": {
-        "current_role": "Expert on energy markets and geopolitical risks; specific role not mentioned."
-      },
-      "infobox": {
-        "Born": "",
-        "Nationality": ""
-      },
-      "lead_paragraphs": [
-        "Rory Johnston is an expert in energy markets and geopolitical risks, with a particular focus on the Hormuz crisis and its impact on global oil flows. His expertise is sought after by a range of financial professionals, including high-net worth individuals, family offices, and sophisticated investors. Johnston's analysis is featured on platforms like Macrovoisers, a financial podcast that targets these audiences.",
-        "His insights into the Hormuz crisis and its potential to cripple the global economy are particularly valued, as they help investors navigate the complex and volatile world of finance and macroeconomics."
-      ],
-      "sections": [
-        {
-          "heading": "Hormuz Crisis",
-          "body": "Rory Johnston is known for his analysis of the Hormuz crisis and its implications for global oil flows. He has provided insights into how this geopolitical event could potentially cripple the global economy."
-        },
-        {
-          "heading": "Energy Markets",
-          "body": "Johnston is an expert on energy markets, offering valuable insights into the complex dynamics of oil and gas markets. His analysis helps investors understand the impact of geopolitical events on these markets."
-        },
-        {
-          "heading": "Geopolitical Risks",
-          "body": "As an expert on geopolitical risks, Johnston provides valuable perspectives on how global events can affect financial markets. His analysis of the Hormuz crisis is a prime example of this expertise."
-        }
-      ]
-    }
   },
   {
     "id": 358,
@@ -63024,6 +63024,33 @@ const dashboardData = {
     "net_worth": "$7.0M"
   },
   {
+    "id": 55,
+    "name": "Dr. Onus Alhajji",
+    "slug": "dr-onus-alhajji",
+    "bio": "Expert commentator on energy markets and geopolitical conflicts.",
+    "known_for": "Analysis of the impact of geopolitical events on oil markets.",
+    "net_worth_usd": null,
+    "net_worth_source": null,
+    "net_worth_updated_at": null,
+    "voice_tone": null,
+    "voice_style": null,
+    "voice_delivery_notes": null,
+    "voice_profile_updated_at": null,
+    "last_seen": "2026-04-03 10:04:02",
+    "last_episode_title": "MacroVoices #526 Matt Barrie: Pay To PrAI",
+    "last_podcast_name": "MacroVoices",
+    "last_episode_date": "2026-04-02",
+    "mention_score": 2,
+    "mention_score_decayed": 0.03,
+    "last_main_idea": "The U.S. is considering targeting Iran's civilian electric power generation plants, a move that could cause Iran to retaliate.",
+    "last_proof_cite": "MacroVoices \u2022 2026-04-02 \u2022 MacroVoices #526 Matt Barrie: Pay To PrAI",
+    "last_proof_snippet": "AI's impact on private credit markets could lead to a market dislocation similar to the 2000.com bust.",
+    "supporting_takeaway": "AI's impact on private credit markets could lead to a market dislocation similar to the 2000.com bust.",
+    "grokipedia_url": null,
+    "grokipedia_fetched_at": null,
+    "pundit_profile": null
+  },
+  {
     "id": 217,
     "name": "Steve Helden",
     "slug": "steve-helden",
@@ -63041,7 +63068,7 @@ const dashboardData = {
     "last_podcast_name": "All-In with Chamath, Jason, Sacks & Friedberg",
     "last_episode_date": "2026-04-29",
     "mention_score": 1,
-    "mention_score_decayed": 0.03,
+    "mention_score_decayed": 0.02,
     "last_main_idea": "Steve Helden's candidacy represents a potential shift in California's political landscape towards policies that promote economic freedom and reduced regulatory burdens, which could have implications for businesses and investors in the state.",
     "last_proof_cite": "All-In with Chamath, Jason, Sacks & Friedberg \u2022 2026-04-29 \u2022 CA Governor Candidate Steve Hilton on Why California is Destroying Itself & How a Republican Can Win",
     "last_proof_snippet": "Helden's background as a child of Hungarian refugees and his work experience in various industries shape his policy views.",
@@ -63103,7 +63130,7 @@ const dashboardData = {
     "last_podcast_name": "Dwarkesh Podcast",
     "last_episode_date": "2026-04-29",
     "mention_score": 1,
-    "mention_score_decayed": 0.03,
+    "mention_score_decayed": 0.02,
     "last_main_idea": "Investing in companies that optimize AI model architecture and training can lead to significant performance improvements and cost savings.",
     "last_proof_cite": "Dwarkesh Podcast \u2022 2026-04-29 \u2022 Reiner Pope \u2013 The math behind how LLMs are trained and served",
     "last_proof_snippet": "Batch size significantly impacts latency and cost in AI systems.",
@@ -63163,7 +63190,7 @@ const dashboardData = {
     "last_podcast_name": "Monetary Matters with Jack Farley",
     "last_episode_date": "2026-04-29",
     "mention_score": 1,
-    "mention_score_decayed": 0.03,
+    "mention_score_decayed": 0.02,
     "last_main_idea": "Investing in AI CapEx is currently the main focus, with co-investments in hedge funds providing a successful strategy for capturing high returns.",
     "last_proof_cite": "Monetary Matters with Jack Farley \u2022 2026-04-29 \u2022 From Soros to Old Farm: How to Identify the Market\u2019s Top Thematic Risk-Takers | Kieran Cavanna | Old Farm Partners",
     "last_proof_snippet": "Co-investing with hedge funds is a successful strategy Kavanaugh learned from Scott Beston at Soros Fund Management.",
@@ -63209,33 +63236,6 @@ const dashboardData = {
       ]
     },
     "net_worth": "$28.00B"
-  },
-  {
-    "id": 55,
-    "name": "Dr. Onus Alhajji",
-    "slug": "dr-onus-alhajji",
-    "bio": "Expert commentator on energy markets and geopolitical conflicts.",
-    "known_for": "Analysis of the impact of geopolitical events on oil markets.",
-    "net_worth_usd": null,
-    "net_worth_source": null,
-    "net_worth_updated_at": null,
-    "voice_tone": null,
-    "voice_style": null,
-    "voice_delivery_notes": null,
-    "voice_profile_updated_at": null,
-    "last_seen": "2026-04-03 10:04:02",
-    "last_episode_title": "MacroVoices #526 Matt Barrie: Pay To PrAI",
-    "last_podcast_name": "MacroVoices",
-    "last_episode_date": "2026-04-02",
-    "mention_score": 2,
-    "mention_score_decayed": 0.03,
-    "last_main_idea": "The U.S. is considering targeting Iran's civilian electric power generation plants, a move that could cause Iran to retaliate.",
-    "last_proof_cite": "MacroVoices \u2022 2026-04-02 \u2022 MacroVoices #526 Matt Barrie: Pay To PrAI",
-    "last_proof_snippet": "AI's impact on private credit markets could lead to a market dislocation similar to the 2000.com bust.",
-    "supporting_takeaway": "AI's impact on private credit markets could lead to a market dislocation similar to the 2000.com bust.",
-    "grokipedia_url": null,
-    "grokipedia_fetched_at": null,
-    "pundit_profile": null
   },
   {
     "id": 213,
@@ -65002,127 +65002,6 @@ const dashboardData = {
     "net_worth": "$35.0M"
   },
   {
-    "id": 162,
-    "name": "Michael Nielsen",
-    "slug": "michael-nielsen",
-    "bio": "Michael Nielsen is a pioneer in the field of chronic computing and a significant figure in the open science movement. He is known for writing the main textbook in the field of the open science movement and contributing to the understanding of scientific progress. Nielsen is currently a research fellow at the Stair Institute and is working on a book about religion, science, and technology.",
-    "known_for": "His contributions to the open science movement and his work on recognizing scientific progress, particularly in the context of AI and scientific discovery.",
-    "net_worth_usd": null,
-    "net_worth_source": "",
-    "net_worth_updated_at": null,
-    "voice_tone": "Educative and insightful",
-    "voice_style": "Analytical and historical in approach",
-    "voice_delivery_notes": "Paced with emphasis on key historical points and scientific concepts",
-    "voice_profile_updated_at": "2026-04-08 10:04:28",
-    "last_seen": "2026-04-08 10:04:28",
-    "last_episode_title": "Michael Nielsen \u2013 How science actually progresses",
-    "last_podcast_name": "Dwarkesh Podcast",
-    "last_episode_date": "2026-04-07",
-    "mention_score": 1,
-    "mention_score_decayed": 0.02,
-    "last_main_idea": "The core thesis presented is that advancements in AI and computer science can lead to new fields and paradigms, offering investment opportunities in technological disruption and innovation.",
-    "last_proof_cite": "Dwarkesh Podcast \u2022 2026-04-07 \u2022 Michael Nielsen \u2013 How science actually progresses",
-    "last_proof_snippet": "The Michelson-Morley experiment was initially aimed at testing theories of the ether, which was a significant concept in physics before the advent of relativity.",
-    "supporting_takeaway": "The Michelson-Morley experiment was initially aimed at testing theories of the ether, which was a significant concept in physics before the advent of relativity.",
-    "grokipedia_url": null,
-    "grokipedia_fetched_at": "2026-04-08T05:04:38.528660",
-    "pundit_profile": {
-      "source": "llm",
-      "source_model": "moonshot:moonshot-v1-8k",
-      "source_url": "",
-      "page_title": "Michael Nielsen",
-      "fetched_at": "2026-04-08T10:04:38.528161+00:00",
-      "cliff_notes": "Michael Nielsen is a renowned researcher and author who has made significant contributions to the fields of chronic computing and the open science movement. As a pioneer in chronic computing, Nielsen has been instrumental in shaping the way we understand and approach scientific progress. His work on the main textbook in the field of the open science movement has been influential in advancing the understanding of scientific progress and its implications for AI and scientific discovery. Currently, Nielsen is a research fellow at the Stair Institute, where he is focusing on a book about the intersection of religion, science, and technology. His work continues to be a valuable resource for those interested in the future of science and technology.",
-      "derived": {
-        "current_role": "Research Fellow at the Stair Institute",
-        "former_positions": "Pioneer in chronic computing",
-        "books_or_works": "Main textbook in the field of the open science movement"
-      },
-      "infobox": {
-        "Born": "",
-        "Nationality": ""
-      },
-      "lead_paragraphs": [
-        "Michael Nielsen is a renowned researcher and author who has made significant contributions to the fields of chronic computing and the open science movement. As a pioneer in chronic computing, Nielsen has been instrumental in shaping the way we understand and approach scientific progress. His work on the main textbook in the field of the open science movement has been influential in advancing the understanding of scientific progress and its implications for AI and scientific discovery.",
-        "Currently, Nielsen is a research fellow at the Stair Institute, where he is focusing on a book about the intersection of religion, science, and technology. His work continues to be a valuable resource for those interested in the future of science and technology."
-      ],
-      "sections": [
-        {
-          "heading": "Open Science Movement",
-          "body": "Michael Nielsen is known for writing the main textbook in the field of the open science movement, which has helped to advance the understanding of scientific progress and its implications for AI and scientific discovery."
-        },
-        {
-          "heading": "Chronic Computing",
-          "body": "As a pioneer in chronic computing, Nielsen has been instrumental in shaping the way we understand and approach scientific progress, particularly in the context of AI and scientific discovery."
-        },
-        {
-          "heading": "Research Fellow at Stair Institute",
-          "body": "Nielsen is currently a research fellow at the Stair Institute, where he is working on a book about the intersection of religion, science, and technology, further expanding his contributions to the understanding of scientific progress."
-        }
-      ]
-    }
-  },
-  {
-    "id": 161,
-    "name": "Robert Conexberger",
-    "slug": "robert-conexberger",
-    "bio": "Robert Conexberger is the CIO and founder of Grammar C, a multi-billion dollar emerging markets alternative investment manager. With a career in emerging market investing that began in the mid to late 1980s, Conexberger has been a significant figure in the industry, particularly during the less developed country debt crisis.",
-    "known_for": "His long-standing expertise and leadership in emerging market investing.",
-    "net_worth_usd": 80000000.0,
-    "net_worth_source": "https://thecollegeinvestor.com/972/the-top-10-investors-of-all-time/",
-    "net_worth_updated_at": "2026-04-08T05:04:50.103987",
-    "voice_tone": "Informed and experienced.",
-    "voice_style": "Conexberger presents a balanced view, acknowledging both the risks and opportunities in emerging markets.",
-    "voice_delivery_notes": "Speak with a measured pace, emphasizing key points about market evolution and investment strategies.",
-    "voice_profile_updated_at": "2026-04-08 10:04:00",
-    "last_seen": "2026-04-08 10:04:00",
-    "last_episode_title": "Why Emerging Markets are Finally Outperforming Developed Markets | Robert Koenigsberger | Gramercy",
-    "last_podcast_name": "Monetary Matters with Jack Farley",
-    "last_episode_date": "2026-04-07",
-    "mention_score": 1,
-    "mention_score_decayed": 0.02,
-    "last_main_idea": "Investing in select few names within the China property sector can offer significant potential for value appreciation, given the right conditions and primary research.",
-    "last_proof_cite": "Monetary Matters with Jack Farley \u2022 2026-04-07 \u2022 Why Emerging Markets are Finally Outperforming Developed Markets | Robert Koenigsberger | Gramercy",
-    "last_proof_snippet": "The recent outperformance of emerging market equities is attributed to a fundamental repricing of relative value and the 'anywhere but US' theme.",
-    "supporting_takeaway": "The recent outperformance of emerging market equities is attributed to a fundamental repricing of relative value and the 'anywhere but US' theme.",
-    "grokipedia_url": null,
-    "grokipedia_fetched_at": "2026-04-08T05:04:49.164717",
-    "pundit_profile": {
-      "source": "llm",
-      "source_model": "moonshot:moonshot-v1-8k",
-      "source_url": "",
-      "page_title": "Robert Conexberger",
-      "fetched_at": "2026-04-08T10:04:49.164505+00:00",
-      "cliff_notes": "Robert Conexberger is a seasoned investor in emerging markets, with a career that started in the mid to late 1980s. He has been involved in the industry during the less developed country debt crisis and has worked with key figures in international finance. Conexberger is recognized for his deep understanding of the complexities and opportunities in emerging markets, which has made him a respected figure in the field. As the CIO and founder of Grammar C, he leads a multi-billion dollar alternative investment manager focused on emerging markets, leveraging his extensive experience to guide investments and strategies.",
-      "derived": {
-        "current_role": "CIO and founder of Grammar C"
-      },
-      "infobox": {
-        "Born": "",
-        "Nationality": ""
-      },
-      "lead_paragraphs": [
-        "Robert Conexberger is a seasoned investor in emerging markets, with a career that started in the mid to late 1980s. He has been involved in the industry during the less developed country debt crisis and has worked with key figures in international finance. Conexberger is recognized for his deep understanding of the complexities and opportunities in emerging markets, which has made him a respected figure in the field.",
-        "As the CIO and founder of Grammar C, he leads a multi-billion dollar alternative investment manager focused on emerging markets, leveraging his extensive experience to guide investments and strategies."
-      ],
-      "sections": [
-        {
-          "heading": "Emerging Markets Expertise",
-          "body": "Robert Conexberger has been investing in emerging markets since before they were widely recognized, gaining a deep understanding of the sector's intricacies and potential."
-        },
-        {
-          "heading": "Career Beginnings",
-          "body": "Conexberger's career began during the less developed country debt crisis in the mid to late 1980s, where he worked with individuals who had significant roles in international finance."
-        },
-        {
-          "heading": "Grammar C",
-          "body": "As the founder and CIO of Grammar C, Conexberger leads a multi-billion dollar emerging markets alternative investment manager, applying his extensive experience to drive the company's strategies."
-        }
-      ]
-    },
-    "net_worth": "$80.0M"
-  },
-  {
     "id": 97,
     "name": "Simon White",
     "slug": "simon-white",
@@ -65370,6 +65249,127 @@ const dashboardData = {
       ]
     },
     "net_worth": "$200.0M"
+  },
+  {
+    "id": 162,
+    "name": "Michael Nielsen",
+    "slug": "michael-nielsen",
+    "bio": "Michael Nielsen is a pioneer in the field of chronic computing and a significant figure in the open science movement. He is known for writing the main textbook in the field of the open science movement and contributing to the understanding of scientific progress. Nielsen is currently a research fellow at the Stair Institute and is working on a book about religion, science, and technology.",
+    "known_for": "His contributions to the open science movement and his work on recognizing scientific progress, particularly in the context of AI and scientific discovery.",
+    "net_worth_usd": null,
+    "net_worth_source": "",
+    "net_worth_updated_at": null,
+    "voice_tone": "Educative and insightful",
+    "voice_style": "Analytical and historical in approach",
+    "voice_delivery_notes": "Paced with emphasis on key historical points and scientific concepts",
+    "voice_profile_updated_at": "2026-04-08 10:04:28",
+    "last_seen": "2026-04-08 10:04:28",
+    "last_episode_title": "Michael Nielsen \u2013 How science actually progresses",
+    "last_podcast_name": "Dwarkesh Podcast",
+    "last_episode_date": "2026-04-07",
+    "mention_score": 1,
+    "mention_score_decayed": 0.01,
+    "last_main_idea": "The core thesis presented is that advancements in AI and computer science can lead to new fields and paradigms, offering investment opportunities in technological disruption and innovation.",
+    "last_proof_cite": "Dwarkesh Podcast \u2022 2026-04-07 \u2022 Michael Nielsen \u2013 How science actually progresses",
+    "last_proof_snippet": "The Michelson-Morley experiment was initially aimed at testing theories of the ether, which was a significant concept in physics before the advent of relativity.",
+    "supporting_takeaway": "The Michelson-Morley experiment was initially aimed at testing theories of the ether, which was a significant concept in physics before the advent of relativity.",
+    "grokipedia_url": null,
+    "grokipedia_fetched_at": "2026-04-08T05:04:38.528660",
+    "pundit_profile": {
+      "source": "llm",
+      "source_model": "moonshot:moonshot-v1-8k",
+      "source_url": "",
+      "page_title": "Michael Nielsen",
+      "fetched_at": "2026-04-08T10:04:38.528161+00:00",
+      "cliff_notes": "Michael Nielsen is a renowned researcher and author who has made significant contributions to the fields of chronic computing and the open science movement. As a pioneer in chronic computing, Nielsen has been instrumental in shaping the way we understand and approach scientific progress. His work on the main textbook in the field of the open science movement has been influential in advancing the understanding of scientific progress and its implications for AI and scientific discovery. Currently, Nielsen is a research fellow at the Stair Institute, where he is focusing on a book about the intersection of religion, science, and technology. His work continues to be a valuable resource for those interested in the future of science and technology.",
+      "derived": {
+        "current_role": "Research Fellow at the Stair Institute",
+        "former_positions": "Pioneer in chronic computing",
+        "books_or_works": "Main textbook in the field of the open science movement"
+      },
+      "infobox": {
+        "Born": "",
+        "Nationality": ""
+      },
+      "lead_paragraphs": [
+        "Michael Nielsen is a renowned researcher and author who has made significant contributions to the fields of chronic computing and the open science movement. As a pioneer in chronic computing, Nielsen has been instrumental in shaping the way we understand and approach scientific progress. His work on the main textbook in the field of the open science movement has been influential in advancing the understanding of scientific progress and its implications for AI and scientific discovery.",
+        "Currently, Nielsen is a research fellow at the Stair Institute, where he is focusing on a book about the intersection of religion, science, and technology. His work continues to be a valuable resource for those interested in the future of science and technology."
+      ],
+      "sections": [
+        {
+          "heading": "Open Science Movement",
+          "body": "Michael Nielsen is known for writing the main textbook in the field of the open science movement, which has helped to advance the understanding of scientific progress and its implications for AI and scientific discovery."
+        },
+        {
+          "heading": "Chronic Computing",
+          "body": "As a pioneer in chronic computing, Nielsen has been instrumental in shaping the way we understand and approach scientific progress, particularly in the context of AI and scientific discovery."
+        },
+        {
+          "heading": "Research Fellow at Stair Institute",
+          "body": "Nielsen is currently a research fellow at the Stair Institute, where he is working on a book about the intersection of religion, science, and technology, further expanding his contributions to the understanding of scientific progress."
+        }
+      ]
+    }
+  },
+  {
+    "id": 161,
+    "name": "Robert Conexberger",
+    "slug": "robert-conexberger",
+    "bio": "Robert Conexberger is the CIO and founder of Grammar C, a multi-billion dollar emerging markets alternative investment manager. With a career in emerging market investing that began in the mid to late 1980s, Conexberger has been a significant figure in the industry, particularly during the less developed country debt crisis.",
+    "known_for": "His long-standing expertise and leadership in emerging market investing.",
+    "net_worth_usd": 80000000.0,
+    "net_worth_source": "https://thecollegeinvestor.com/972/the-top-10-investors-of-all-time/",
+    "net_worth_updated_at": "2026-04-08T05:04:50.103987",
+    "voice_tone": "Informed and experienced.",
+    "voice_style": "Conexberger presents a balanced view, acknowledging both the risks and opportunities in emerging markets.",
+    "voice_delivery_notes": "Speak with a measured pace, emphasizing key points about market evolution and investment strategies.",
+    "voice_profile_updated_at": "2026-04-08 10:04:00",
+    "last_seen": "2026-04-08 10:04:00",
+    "last_episode_title": "Why Emerging Markets are Finally Outperforming Developed Markets | Robert Koenigsberger | Gramercy",
+    "last_podcast_name": "Monetary Matters with Jack Farley",
+    "last_episode_date": "2026-04-07",
+    "mention_score": 1,
+    "mention_score_decayed": 0.01,
+    "last_main_idea": "Investing in select few names within the China property sector can offer significant potential for value appreciation, given the right conditions and primary research.",
+    "last_proof_cite": "Monetary Matters with Jack Farley \u2022 2026-04-07 \u2022 Why Emerging Markets are Finally Outperforming Developed Markets | Robert Koenigsberger | Gramercy",
+    "last_proof_snippet": "The recent outperformance of emerging market equities is attributed to a fundamental repricing of relative value and the 'anywhere but US' theme.",
+    "supporting_takeaway": "The recent outperformance of emerging market equities is attributed to a fundamental repricing of relative value and the 'anywhere but US' theme.",
+    "grokipedia_url": null,
+    "grokipedia_fetched_at": "2026-04-08T05:04:49.164717",
+    "pundit_profile": {
+      "source": "llm",
+      "source_model": "moonshot:moonshot-v1-8k",
+      "source_url": "",
+      "page_title": "Robert Conexberger",
+      "fetched_at": "2026-04-08T10:04:49.164505+00:00",
+      "cliff_notes": "Robert Conexberger is a seasoned investor in emerging markets, with a career that started in the mid to late 1980s. He has been involved in the industry during the less developed country debt crisis and has worked with key figures in international finance. Conexberger is recognized for his deep understanding of the complexities and opportunities in emerging markets, which has made him a respected figure in the field. As the CIO and founder of Grammar C, he leads a multi-billion dollar alternative investment manager focused on emerging markets, leveraging his extensive experience to guide investments and strategies.",
+      "derived": {
+        "current_role": "CIO and founder of Grammar C"
+      },
+      "infobox": {
+        "Born": "",
+        "Nationality": ""
+      },
+      "lead_paragraphs": [
+        "Robert Conexberger is a seasoned investor in emerging markets, with a career that started in the mid to late 1980s. He has been involved in the industry during the less developed country debt crisis and has worked with key figures in international finance. Conexberger is recognized for his deep understanding of the complexities and opportunities in emerging markets, which has made him a respected figure in the field.",
+        "As the CIO and founder of Grammar C, he leads a multi-billion dollar alternative investment manager focused on emerging markets, leveraging his extensive experience to guide investments and strategies."
+      ],
+      "sections": [
+        {
+          "heading": "Emerging Markets Expertise",
+          "body": "Robert Conexberger has been investing in emerging markets since before they were widely recognized, gaining a deep understanding of the sector's intricacies and potential."
+        },
+        {
+          "heading": "Career Beginnings",
+          "body": "Conexberger's career began during the less developed country debt crisis in the mid to late 1980s, where he worked with individuals who had significant roles in international finance."
+        },
+        {
+          "heading": "Grammar C",
+          "body": "As the founder and CIO of Grammar C, Conexberger leads a multi-billion dollar emerging markets alternative investment manager, applying his extensive experience to drive the company's strategies."
+        }
+      ]
+    },
+    "net_worth": "$80.0M"
   },
   {
     "id": 159,
@@ -68442,7 +68442,7 @@ const dashboardData = {
         }
       ],
       "disclaimer": "Research sleeve / scorecard, not advice. $1,000 equal-weight illustration only.",
-      "last_updated": "2026-10-06T23:54:36.030845"
+      "last_updated": "2026-10-07T05:12:37.052193"
     }
   ]
 }
