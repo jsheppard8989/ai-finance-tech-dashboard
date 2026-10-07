@@ -114,10 +114,11 @@ def _looks_like_person_name(term: str) -> bool:
 
 
 # Explicit company/product names that are not Overton idea-radar terms.
-# Keep lowercase. Jared yes 2026-09-24 (Bending Spoon) — extend as needed.
+# Keep lowercase. Jared yes 2026-09-24 (Bending Spoon); 2026-10-07 (Liquid AI) — extend as needed.
 _COMPANY_OR_PRODUCT_DENYLIST = {
     "bending spoon",
     "bending spoons",
+    "liquid ai",
 }
 
 _COMPANY_SUFFIXES = (

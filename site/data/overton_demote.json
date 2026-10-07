@@ -1,6 +1,6 @@
 {
-  "_comment": "Terms hidden from the home Overton pipeline list (Jared yes 2026-09-22; + Project-Based Learning / Curiosity-Driven Learning 2026-09-23; + Bending Spoon(s) company-name demote 2026-09-24). Curated seeds in curated_overton.json still pin above this list. + Gating Mechanism promoted to curated 2026-09-28. + e-values, Quantization, Electrification, Skin in the Game, AI Personhood demoted 2026-09-29 (Jared yes). Do not hand-edit data.js — this file is the durable demote switch.",
-  "_updated": "2026-09-29",
+  "_comment": "Terms hidden from the home Overton pipeline list (Jared yes 2026-09-22; + Project-Based Learning / Curiosity-Driven Learning 2026-09-23; + Bending Spoon(s) company-name demote 2026-09-24). Curated seeds in curated_overton.json still pin above this list. + Gating Mechanism promoted to curated 2026-09-28. + e-values, Quantization, Electrification, Skin in the Game, AI Personhood demoted 2026-09-29 (Jared yes). + Liquid AI company-name demote 2026-10-07. Do not hand-edit data.js — this file is the durable demote switch.",
+  "_updated": "2026-10-07",
   "demote": [
     {
       "term": "Taste",
@@ -57,6 +57,10 @@
     {
       "term": "AI Personhood",
       "reason": "Null source_podcasts; glossary card crowding the curated seeds (Jared yes 2026-09-29)"
+    },
+    {
+      "term": "Liquid AI",
+      "reason": "Company name (Ramin Hasani's startup) — not an economy-reframing Overton term (same treatment as Bending Spoons; 2026-10-07)"
     }
   ]
 }
