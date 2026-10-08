@@ -970,10 +970,19 @@ def analyze_transcript_two_pass(
             p1_in, p1_out, p2_in, p2_out
         )
     
-    return map_to_site_fields(
+    result = map_to_site_fields(
         extraction, site_contract, brief,
         episode_title=episode_title, episode_date=episode_date
     )
+    
+    result["_pass1_input_tokens"] = p1_in
+    result["_pass1_output_tokens"] = p1_out
+    result["_pass2_input_tokens"] = p2_in
+    result["_pass2_output_tokens"] = p2_out
+    result["_analysis_cost_usd"] = total_cost
+    result["_transcript_sha256"] = sha
+    
+    return result
 
 
 def is_two_pass_enabled() -> bool:
