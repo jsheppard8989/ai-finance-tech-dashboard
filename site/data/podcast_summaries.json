@@ -104,14 +104,14 @@
     "summary": "Kevin Mandia, founder and CEO of Armored in and founder of Mandiant, argues that AI changes cybersecurity from human-speed attacks to machine-speed attacks. He says the open models are already strong enough for cyber offense, that attackers can probe many paths at once, and that less sophisticated attackers will look much more capable as models democratize expertise.",
     "key_takeaways": [
       "Kevin Mandia argues that AI gives cyber attackers scale and speed that human teams cannot match, claiming that what AI does in a microsecond would take 70 humans and that humans historically pursued only one path into a network.",
-      "Kevin Mandia claims Armored in has found more than 90 zero days at customer sites since January 2026, all in production and often at Fortune 500 companies, by using AI-driven black-box attacks from the internet.",
+      "Kevin Mandia claims Armadin has found more than 90 zero days at customer sites since January 2026, all in production and often at Fortune 500 companies, by using AI-driven black-box attacks from the internet.",
       "Kevin Mandia argues that open models are already good enough for cyber offense because vulnerability discovery is structured code and process work rather than a broad 400-language reasoning problem.",
       "Kevin Mandia predicts the next two years will remake nearly every cybersecurity tech stack because AI-led offense forces prevent, detect, and respond functions to become increasingly autonomous.",
       "Kevin Mandia claims nation-state cyber doctrine will shift from sniper-round targeting of specific entities, such as 30 defense contractors, toward selective use of AI drone-swarm style attacks when comprehensiveness matters.",
-      "Kevin Mandia says Armored in uses a hyper attack to map every service, route, system, and asset into terabytes of metadata, then polls for network changes and attacks the change instead of continuously attacking everything.",
+      "Kevin Mandia says Armadin uses a hyper attack to map every service, route, system, and asset into terabytes of metadata, then polls for network changes and attacks the change instead of continuously attacking everything.",
       "Kevin Mandia argues that endpoint and firewall platforms from companies such as CrowdStrike, Palo Alto Networks, and Fortinet will need to accept AI-generated compensating controls because human-in-the-loop response is too slow for AI-speed intrusions."
     ],
-    "investment_thesis": "Kevin Mandia argues cybersecurity will shift to autonomous AI defense over the next two years because AI attacks move at machine speed and Armored in has already found over 90 production zero days since January 2026.",
+    "investment_thesis": "Kevin Mandia argues cybersecurity will shift to autonomous AI defense over the next two years because AI attacks move at machine speed and Armadin has already found over 90 production zero days since January 2026.",
     "key_tickers": [
       "GOOGL",
       "CRWD",
