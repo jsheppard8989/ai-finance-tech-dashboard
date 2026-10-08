@@ -1,5 +1,48 @@
 [
   {
+    "id": 565,
+    "podcast_name": "Macro Voices",
+    "episode_title": "MacroVoices #553 Brent Johnson: Disparate Housewives",
+    "episode_date": "2026-10-08",
+    "summary": "Brent Johnson argues that global demand for dollars and US rates can remain structurally strong even when higher yields create stress, because trade, liabilities, and reserve behavior still force the world to hold dollars. He says the relative attractiveness of alternatives remains weak, citing Europe, Japan, and China as poor substitutes, and he still sees room for a longer-term dollar move higher even if a short-term pullback happens.\n\nA major theme is that conventional views of Federal Reserve independence are overstated. Johnson draws a line between autonomy and true independence, saying the Fed and Treasury are moving toward more practical coordination under great-power competition. He points to historical and recent examples of joint policy action and suggests the current environment makes this coordination more relevant, not less.\n\nJohnson also lays out an extreme but explicit fiscal mechanism: the Treasury could revalue gold certificates on the Fed\u2019s balance sheet from $42 per ounce to market levels like $4,100, potentially creating a roughly $1 trillion windfall credited to the Treasury General Account. He says stablecoins could also reduce the Fed\u2019s leverage over the payments system because they do not require traditional banking rails to distribute bonds, raise cash, or make payments.\n\nOn markets, Johnson says rising US yields may reflect demand for compensation, AI-related growth expectations, and mechanical passive flows rather than a straightforward inflation breakout. He is constructive on AI over the long run, calling it a productivity step-change, but he expects a painful unemployment and political transition that could be met with UBI-style policy responses. The episode\u2019s market desk separately discusses a stronger-USD trade via Canadian dollar put options and notes weak breadth, rising yields, and oil as catalysts that could pressure stocks and rates.",
+    "key_takeaways": [
+      "Brent Johnson said global demand for dollars can persist because trade and liabilities are dollar-based, supporting the USD even when higher rates are painful.",
+      "Brent Johnson argued the Fed is not truly independent in practice, only autonomous, and said that distinction matters more in a geopolitical competition with China.",
+      "Brent Johnson described a potential Treasury windfall from revaluing gold certificates from $42/oz to about $4,100/oz, which could add roughly $1 trillion to the Treasury account.",
+      "Brent Johnson said stablecoins could reduce Fed leverage because they can distribute payments and funding without relying on the traditional banking system.",
+      "Brent Johnson said higher US rates may reflect compensation demand, AI-growth expectations, and passive-flow mechanics rather than a pure inflation signal.",
+      "Brent Johnson said AI will likely be positive over the long run, but the near-term risk is unemployment and political disruption that may require expanded welfare or UBI-style support.",
+      "Patrick Suresna presented a defined-risk USD-strength trade via Canadian dollar puts, citing low implied volatility, 29 days to expiry, and a payoff profile tied to CAD weakness."
+    ],
+    "investment_thesis": "The episode\u2019s core claim is that structural global dollar demand can keep the US dollar and US rates elevated even under stress, while policy tools and gold revaluation remain underappreciated.",
+    "key_tickers": null
+  },
+  {
+    "id": 564,
+    "podcast_name": "Monetary Matters with Jack Farley",
+    "episode_title": "Stacy Rasgon: \u201cDemand Is Off The Charts\u201d in Semiconductors\u2026 And Set To Double Again Soon",
+    "episode_date": "2026-10-08",
+    "summary": "Stacy Rasgon argues that semiconductors look expensive only because investors are pricing in a cycle peak, even though fundamentals are still improving. He points to a sharp mismatch where semiconductor earnings are up roughly 100% while valuation multiples have compressed, and says forward earnings estimates have continued rising since June despite the stock pullback.\n\nA central theme is that AI demand remains robust and visible across the supply chain. Rasgon says order visibility is strengthening and that \u201cnobody has enough compute,\u201d but he cautions that long-term forecasting in semis is inherently unreliable. He believes the real constraint is not lack of demand, but physical bottlenecks such as power, land, and clean-room capacity that slow deployment.\n\nRasgon also makes a structural case for memory tightness, especially HBM. He explains that HBM requires roughly 3\u20134 times as many wafers per gigabyte as standard DRAM, which helps explain why supply remains tight even as capacity is added. He also separates DRAM from NAND and says memory and storage dynamics can diverge materially depending on end-market demand.\n\nOn equipment, Rasgon is bullish on wafer fab equipment demand and sees semicap as a key investment vector. He gives a concrete path for WFE spending to exceed $150 billion in 2026, $200 billion in 2027, and $250 billion in 2028, with the possibility of moving above $300 billion by the end of the decade if clean-room constraints ease. He highlights Lam Research as especially well positioned because of its DRAM/HBM exposure, and broadly sees the AI infrastructure buildout as large enough that competition narratives around Nvidia are less important than many investors think.",
+    "key_takeaways": [
+      "Stacy Rasgon says semiconductor earnings are up about 100% while valuation multiples have fallen, which he views as consistent with peak-cycle fears rather than deteriorating fundamentals.",
+      "Rasgon argues that forward earnings estimates have still been rising since June, so he does not think semiconductors are at an earnings-driven inflection yet.",
+      "Rasgon says AI compute demand remains strong and that order visibility is improving across the supply chain because, in his words, \u201cnobody has enough compute.\u201d",
+      "Rasgon believes the main bottlenecks are physical constraints like power, land, and clean-room capacity, not a collapse in end demand.",
+      "Rasgon says HBM is structurally supply constrained because producing 1 gigabyte of HBM takes about 3\u20134 times as many wafers as standard DRAM.",
+      "Rasgon forecasts WFE spending above $150 billion in 2026, above $200 billion in 2027, and above $250 billion in 2028, with a path to $300 billion by the end of the decade.",
+      "Rasgon says Lam Research is especially attractive because of its heavier exposure to DRAM and HBM, which he sees as a key beneficiary of AI memory demand."
+    ],
+    "investment_thesis": "Semiconductor fundamentals and AI capex are still rising, while physical bottlenecks and HBM supply constraints support a prolonged equipment upcycle.",
+    "key_tickers": [
+      "NVDA",
+      "AVGO",
+      "LRCX",
+      "AMAT",
+      "INTC",
+      "AMD"
+    ]
+  },
+  {
     "id": 563,
     "podcast_name": "Latent Space: The AI Engineer Podcast",
     "episode_title": "Synthesis Superintelligence: from Semiconductors to Superconductors \u2014 Periodic Labs\u2019 Liam Fedus and Ekin Dogus Cubuk",

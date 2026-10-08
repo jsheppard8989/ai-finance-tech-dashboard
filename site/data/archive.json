@@ -73,6 +73,77 @@
       ]
     },
     {
+      "id": 575,
+      "title": "MacroVoices #553 Brent Johnson: Disparate Housewives",
+      "source_type": "podcast",
+      "source_name": "Macro Voices",
+      "source_date": "2026-10-08",
+      "summary": "Brent Johnson argues that global demand for dollars and US rates can remain structurally strong even when higher yields create stress, because trade, liabilities, and reserve behavior still force the world to hold dollars. He says the relative attractiveness of alternatives remains weak, citing Europe, Japan, and China as poor substitutes, and he still sees room for a longer-term dollar move higher even if a short-term pullback happens.\n\nA major theme is that conventional views of Federal Reserve independence are overstated. Johnson draws a line between autonomy and true independence, saying the Fed and Treasury are moving toward more practical coordination under great-power competition. He points to historical and recent examples of joint policy action and suggests the current environment makes this coordination more relevant, not less.\n\nJohnson also lays out an extreme but explicit fiscal mechanism: the Treasury could revalue gold certificates on the Fed\u2019s balance sheet from $42 per ounce to market levels like $4,100, potentially creating a roughly $1 trillion windfall credited to the Treasury General Account. He says stablecoins could also reduce the Fed\u2019s leverage over the payments system because they do not require traditional banking rails to distribute bonds, raise cash, or make payments.\n\nOn markets, Johnson says rising US yields may reflect demand for compensation, AI-related growth expectations, and mechanical passive flows rather than a straightforward inflation breakout. He is constructive on AI over the long run, calling it a productivity step-change, but he expects a painful unemployment and political transition that could be met with UBI-style policy responses. The episode\u2019s market desk separately discusses a stronger-USD trade via Canadian dollar put options and notes weak breadth, rising yields, and oil as catalysts that could pressure stocks and rates.",
+      "key_takeaway": "The episode\u2019s core claim is that structural global dollar demand can keep the US dollar and US rates elevated even under stress, while policy tools and gold revaluation remain underappreciated.",
+      "tickers_mentioned": [
+        "NVDA"
+      ],
+      "sentiment": "neutral",
+      "display_on_main": 1,
+      "display_order": 0,
+      "added_date": "2026-10-08",
+      "archived_date": null,
+      "archived_reason": null,
+      "podcast_episode_id": 565,
+      "notable_quotes": [
+        {
+          "speaker": "Brent Johnson",
+          "quote": "I've been doing this for 26 years now, and for 25 of the 26 years, I've been hearing that the Fed is out of bullets. And my point to people is that they have a lot more bullets than you can possibly imagine."
+        },
+        {
+          "speaker": "Brent Johnson",
+          "quote": "We do not think the Fed is independent. We think they have autonomy, but we think that is different than independence. If they were fully independent, they wouldn't have to march up to the capital two times a year and testify before Congress."
+        },
+        {
+          "speaker": "Brent Johnson",
+          "quote": "The way that they could have this windfall show up in the Treasury's account is they could tell them that the gold certificates that are on file booking the gold at $42 per ounce. If they were to take that to current market prices of $4,100, when they do that..."
+        }
+      ]
+    },
+    {
+      "id": 576,
+      "title": "Stacy Rasgon: \u201cDemand Is Off The Charts\u201d in Semiconductors\u2026 And Set To Double Again Soon",
+      "source_type": "podcast",
+      "source_name": "Monetary Matters with Jack Farley",
+      "source_date": "2026-10-08",
+      "summary": "Stacy Rasgon argues that semiconductors look expensive only because investors are pricing in a cycle peak, even though fundamentals are still improving. He points to a sharp mismatch where semiconductor earnings are up roughly 100% while valuation multiples have compressed, and says forward earnings estimates have continued rising since June despite the stock pullback.\n\nA central theme is that AI demand remains robust and visible across the supply chain. Rasgon says order visibility is strengthening and that \u201cnobody has enough compute,\u201d but he cautions that long-term forecasting in semis is inherently unreliable. He believes the real constraint is not lack of demand, but physical bottlenecks such as power, land, and clean-room capacity that slow deployment.\n\nRasgon also makes a structural case for memory tightness, especially HBM. He explains that HBM requires roughly 3\u20134 times as many wafers per gigabyte as standard DRAM, which helps explain why supply remains tight even as capacity is added. He also separates DRAM from NAND and says memory and storage dynamics can diverge materially depending on end-market demand.\n\nOn equipment, Rasgon is bullish on wafer fab equipment demand and sees semicap as a key investment vector. He gives a concrete path for WFE spending to exceed $150 billion in 2026, $200 billion in 2027, and $250 billion in 2028, with the possibility of moving above $300 billion by the end of the decade if clean-room constraints ease. He highlights Lam Research as especially well positioned because of its DRAM/HBM exposure, and broadly sees the AI infrastructure buildout as large enough that competition narratives around Nvidia are less important than many investors think.",
+      "key_takeaway": "Semiconductor fundamentals and AI capex are still rising, while physical bottlenecks and HBM supply constraints support a prolonged equipment upcycle.",
+      "tickers_mentioned": [
+        "NVDA",
+        "AVGO",
+        "LRCX",
+        "AMAT",
+        "INTC",
+        "AMD"
+      ],
+      "sentiment": "bullish",
+      "display_on_main": 1,
+      "display_order": 0,
+      "added_date": "2026-10-08",
+      "archived_date": null,
+      "archived_reason": null,
+      "podcast_episode_id": 564,
+      "notable_quotes": [
+        {
+          "speaker": "Stacy Rasgon",
+          "quote": "Right now, however, their order of visibility is very, very strong. And again, it seems to be strengthening regardless of who you're talking to in which part of the industry that they're in."
+        },
+        {
+          "speaker": "Stacy Rasgon",
+          "quote": "HBM stands for high band with memory and what that is it's a bunch of DRAM dies that are stacked on top of each other. To make a gigabyte of high band with memory DRAM takes three or four times as many wafers..."
+        },
+        {
+          "speaker": "Stacy Rasgon",
+          "quote": "WFE will probably wind up spending a hundred and fifty billion dollars plus on WFWC this year in twenty twenty six we are over two hundred billion next year and I think over two hundred and fifty and twenty twenty eight."
+        }
+      ]
+    },
+    {
       "id": 568,
       "title": "How Valon Rebuilt a $13 Trillion Industry From Scratch",
       "source_type": "podcast",
@@ -341,7 +412,7 @@
         "MSFT"
       ],
       "sentiment": "neutral",
-      "display_on_main": 1,
+      "display_on_main": 0,
       "display_order": 0,
       "added_date": "2026-10-03",
       "archived_date": null,
@@ -524,7 +595,7 @@
         "NVDA"
       ],
       "sentiment": "bullish",
-      "display_on_main": 1,
+      "display_on_main": 0,
       "display_order": 0,
       "added_date": "2026-10-03",
       "archived_date": null,
@@ -12083,6 +12154,24 @@
   "definitions": [],
   "overton": [
     {
+      "id": 297,
+      "term": "Return to Tangibles",
+      "description": "A sponsor-described thesis that the next cycle favors real assets such as energy, metals, miners, precious metals, and critical metals after a decade of underinvestment.",
+      "first_detected_date": "2026-10-06",
+      "last_mentioned_date": "2026-10-08",
+      "mention_count": 2,
+      "source_podcasts": null,
+      "status": "active",
+      "investment_implications": "The theme frames capital allocation toward physical-world assets exposed to inflation, geopolitics, and commodity supply constraints.",
+      "display_on_main": 0,
+      "archived_date": null,
+      "archived_reason": null,
+      "first_detected_episode_id": 559,
+      "first_detected_speaker": "J Mintzmyer",
+      "last_mentioned_episode_id": 564,
+      "last_mentioned_speaker": "Stacy Rasgon"
+    },
+    {
       "id": 296,
       "term": "Human in the Loop",
       "description": "A deployment model where humans review, guide, or approve agent actions before the system becomes more autonomous.",
@@ -12556,7 +12645,7 @@
       "description": "The capacity of an AI system to make decisions and operate independently of direct human control or oversight, as evidenced by agents not alerting humans about their unethical actions.",
       "first_detected_date": "2026-07-22",
       "last_mentioned_date": "2026-10-08",
-      "mention_count": 31,
+      "mention_count": 32,
       "source_podcasts": null,
       "status": "active",
       "investment_implications": "Emphasizes the critical need for ethical AI frameworks, clear oversight mechanisms, and fail-safes to manage systems operating independently of human control, impacting regulatory compliance and public trust.",
@@ -12565,8 +12654,8 @@
       "archived_reason": null,
       "first_detected_episode_id": 362,
       "first_detected_speaker": "Travis Kalanick, Ben Horowitz",
-      "last_mentioned_episode_id": 563,
-      "last_mentioned_speaker": "Liam Fedus, Ekin Do\u011fu\u015f \u00c7ubuk"
+      "last_mentioned_episode_id": 565,
+      "last_mentioned_speaker": "Brent Johnson"
     },
     {
       "id": 265,
@@ -12753,8 +12842,8 @@
       "term": "Hyperscalers",
       "description": "Hyperscalers are the largest cloud infrastructure companies, including Amazon, Google, and Microsoft. Zitron argued they are both AI suppliers and counterparties because they resell models, provide compute, and book future revenue tied to AI labs.",
       "first_detected_date": "2026-06-19",
-      "last_mentioned_date": "2026-10-07",
-      "mention_count": 46,
+      "last_mentioned_date": "2026-10-08",
+      "mention_count": 47,
       "source_podcasts": null,
       "status": "active",
       "investment_implications": "It matters because AI lab defaults or delayed payments could force revisions to cloud revenue guidance and data center plans.",
@@ -12763,8 +12852,8 @@
       "archived_reason": null,
       "first_detected_episode_id": 302,
       "first_detected_speaker": "Chamath Palihapitiya, Jason Calacanis (hosts)",
-      "last_mentioned_episode_id": 561,
-      "last_mentioned_speaker": "Peter Diamandis, Alex Wissner-Gross (hosts)"
+      "last_mentioned_episode_id": 564,
+      "last_mentioned_speaker": "Stacy Rasgon"
     },
     {
       "id": 256,
@@ -14175,8 +14264,8 @@
       "term": "AI Infrastructure",
       "description": "The compute, chips, data centers, energy, and financing required to train and run advanced AI systems. The episode emphasized scarcity in NVL72 systems, GPUs, and access paths through major chip vendors and political channels.",
       "first_detected_date": "2026-03-17",
-      "last_mentioned_date": "2026-10-07",
-      "mention_count": 44,
+      "last_mentioned_date": "2026-10-08",
+      "mention_count": 45,
       "source_podcasts": null,
       "status": "active",
       "investment_implications": "Matters because bottlenecks in compute supply can redirect value toward chip suppliers, alternative accelerators, data centers, and financing platforms.",
@@ -14185,8 +14274,8 @@
       "archived_reason": null,
       "first_detected_episode_id": 71,
       "first_detected_speaker": null,
-      "last_mentioned_episode_id": 561,
-      "last_mentioned_speaker": "Peter Diamandis, Alex Wissner-Gross (hosts)"
+      "last_mentioned_episode_id": 564,
+      "last_mentioned_speaker": "Stacy Rasgon"
     },
     {
       "id": 26,
@@ -14373,8 +14462,8 @@
       "term": "AI Race",
       "description": "The idea that countries and companies are competing to reach and control leading AI capability first. The panel contrasted this race framing with arguments that the technology is open-ended and may run for decades.",
       "first_detected_date": "2026-03-11",
-      "last_mentioned_date": "2026-10-07",
-      "mention_count": 42,
+      "last_mentioned_date": "2026-10-08",
+      "mention_count": 43,
       "source_podcasts": null,
       "status": "active",
       "investment_implications": "Matters because race dynamics can accelerate chip demand, government spending, and regulatory intervention.",
@@ -14383,8 +14472,8 @@
       "archived_reason": null,
       "first_detected_episode_id": 60,
       "first_detected_speaker": null,
-      "last_mentioned_episode_id": 561,
-      "last_mentioned_speaker": "Peter Diamandis, Alex Wissner-Gross (hosts)"
+      "last_mentioned_episode_id": 565,
+      "last_mentioned_speaker": "Brent Johnson"
     },
     {
       "id": 12,
