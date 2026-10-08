@@ -1,5 +1,23 @@
 [
   {
+    "id": 563,
+    "podcast_name": "Latent Space: The AI Engineer Podcast",
+    "episode_title": "Synthesis Superintelligence: from Semiconductors to Superconductors \u2014 Periodic Labs\u2019 Liam Fedus and Ekin Dogus Cubuk",
+    "episode_date": "2026-10-08",
+    "summary": "The episode argues that scientific discovery, especially in materials, cannot be solved by intelligence or simulation alone; it must be grounded in iterative physical experiments where models learn from noisy, uncertain reality. Liam Fedus frames the core premise as \u201cintelligence is necessary but not sufficient,\u201d and says new knowledge only emerges when ideas are tested against experiment.\n\nThe guests describe Periodic Labs\u2019 approach as a \u201cmaterials discovery loop\u201d built around reinforcement learning environments derived from physical labs rather than papers or textbooks. They emphasize that known answers can be memorized, so the environment must be constructed from experimental lineage, timestamps, and \u201cbasket[s] of experimental data,\u201d with negative results treated as valuable training signals rather than discarded failures.\n\nEkin Do\u011fu\u015f \u00c7ubuk argues that materials discovery is especially suited to this approach because characterization methods like XRD can provide partially reward-like signals, even though ambiguity remains and multimodal evidence is often required. He says the literature\u2019s noise floor is often \u201cworse than DFT accuracy,\u201d and highlights that phase identification, synthesis conditions, and characterization bottlenecks are the central constraints, not just model intelligence.\n\nA major theme is that simulation will remain useful but incomplete. The guests say DFT and related tools can help with formation energy and stability, but cannot fully capture microstructure, strong correlation effects, or many real-world properties. They also stress that frontier models will still need physical experimentation because scientific targets are precisely the unknown regimes not present in pretraining.\n\nCommercially, Periodic is presented as a forward-deployed engineering business focused especially on semiconductors, with on-site deployment and secure customer environments. The broader thesis is that \u201csynthesis superintelligence\u201d will come from combining automation, instrument-level intelligence, and high-quality experimental data to compress long trial-and-error cycles into much shorter discovery loops.",
+    "key_takeaways": [
+      "Liam Fedus said intelligence alone is insufficient; new knowledge only happens when ideas prove consistent with reality through experiment.",
+      "Fedus said Periodic wants RL environments derived from physical labs, because using papers or textbook targets risks memorization rather than real generalization.",
+      "Fedus emphasized timestamped experimental lineages and baskets of data as a way to model the state of the world and avoid training on memorized answers.",
+      "Ekin Do\u011fu\u015f \u00c7ubuk said the literature\u2019s experimental noise floor is often worse than DFT accuracy, so better physical data quality is a major edge.",
+      "\u00c7ubuk argued that XRD and multimodal characterization can provide reward signals for materials RL, but ambiguous phase attribution means chemistry priors and extra modalities are still required.",
+      "The guests said simulations are useful but cannot replace experiments because microstructure, incomplete property coverage, and strong correlations remain hard to model.",
+      "They framed commercialization around forward-deployed engineering in semiconductors, with secure on-site deployments and local data/model work as a practical path to revenue."
+    ],
+    "investment_thesis": "Periodic\u2019s core claim is that materials discovery will be accelerated most by physically grounded RL, instrument intelligence, and lineage-rich experimental data\u2014not by simulations or model scale alone.",
+    "key_tickers": null
+  },
+  {
     "id": 562,
     "podcast_name": "The a16z Show",
     "episode_title": "Building the Cloud for an Agentic World | AWS CEO Matt Garman",

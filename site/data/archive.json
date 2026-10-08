@@ -39,6 +39,40 @@
       ]
     },
     {
+      "id": 574,
+      "title": "Synthesis Superintelligence: from Semiconductors to Superconductors \u2014 Periodic Labs\u2019 Liam Fedus and Ekin Dogus Cubuk",
+      "source_type": "podcast",
+      "source_name": "Latent Space: The AI Engineer Podcast",
+      "source_date": "2026-10-08",
+      "summary": "The episode argues that scientific discovery, especially in materials, cannot be solved by intelligence or simulation alone; it must be grounded in iterative physical experiments where models learn from noisy, uncertain reality. Liam Fedus frames the core premise as \u201cintelligence is necessary but not sufficient,\u201d and says new knowledge only emerges when ideas are tested against experiment.\n\nThe guests describe Periodic Labs\u2019 approach as a \u201cmaterials discovery loop\u201d built around reinforcement learning environments derived from physical labs rather than papers or textbooks. They emphasize that known answers can be memorized, so the environment must be constructed from experimental lineage, timestamps, and \u201cbasket[s] of experimental data,\u201d with negative results treated as valuable training signals rather than discarded failures.\n\nEkin Do\u011fu\u015f \u00c7ubuk argues that materials discovery is especially suited to this approach because characterization methods like XRD can provide partially reward-like signals, even though ambiguity remains and multimodal evidence is often required. He says the literature\u2019s noise floor is often \u201cworse than DFT accuracy,\u201d and highlights that phase identification, synthesis conditions, and characterization bottlenecks are the central constraints, not just model intelligence.\n\nA major theme is that simulation will remain useful but incomplete. The guests say DFT and related tools can help with formation energy and stability, but cannot fully capture microstructure, strong correlation effects, or many real-world properties. They also stress that frontier models will still need physical experimentation because scientific targets are precisely the unknown regimes not present in pretraining.\n\nCommercially, Periodic is presented as a forward-deployed engineering business focused especially on semiconductors, with on-site deployment and secure customer environments. The broader thesis is that \u201csynthesis superintelligence\u201d will come from combining automation, instrument-level intelligence, and high-quality experimental data to compress long trial-and-error cycles into much shorter discovery loops.",
+      "key_takeaway": "Periodic\u2019s core claim is that materials discovery will be accelerated most by physically grounded RL, instrument intelligence, and lineage-rich experimental data\u2014not by simulations or model scale alone.",
+      "tickers_mentioned": [
+        "NVDA",
+        "TSM"
+      ],
+      "sentiment": "neutral",
+      "display_on_main": 1,
+      "display_order": 0,
+      "added_date": "2026-10-08",
+      "archived_date": null,
+      "archived_reason": null,
+      "podcast_episode_id": 563,
+      "notable_quotes": [
+        {
+          "speaker": "Liam Fedus",
+          "quote": "Intelligence is necessary but not sufficient. New knowledge is created when ideas are found to be consistent with reality."
+        },
+        {
+          "speaker": "Ekin Do\u011fu\u015f \u00c7ubuk",
+          "quote": "Most experimental data in the literature have such a high noise floor that it\u2019s actually usually worse than DFT accuracy."
+        },
+        {
+          "speaker": "Liam Fedus",
+          "quote": "We want to achieve synthesis superintelligence, right? And we feel like for that, we need the right chemistry expertise, the right physics expertise, simulation theory, and thin films, powder."
+        }
+      ]
+    },
+    {
       "id": 568,
       "title": "How Valon Rebuilt a $13 Trillion Industry From Scratch",
       "source_type": "podcast",
@@ -454,7 +488,7 @@
         "JPM"
       ],
       "sentiment": "bearish",
-      "display_on_main": 1,
+      "display_on_main": 0,
       "display_order": 0,
       "added_date": "2026-10-03",
       "archived_date": null,
@@ -12125,8 +12159,8 @@
       "term": "Superintelligence",
       "description": "The panel used the term to describe the next stage of AI capability, including federal policy, national security, science, and labor automation. It was treated as the organizing frame for the episode rather than a narrow technical label.",
       "first_detected_date": "2026-09-27",
-      "last_mentioned_date": "2026-10-07",
-      "mention_count": 6,
+      "last_mentioned_date": "2026-10-08",
+      "mention_count": 7,
       "source_podcasts": null,
       "status": "active",
       "investment_implications": "Matters because policy, compute procurement, and infrastructure funding are being reframed around superintelligence-scale capability.",
@@ -12135,8 +12169,8 @@
       "archived_reason": null,
       "first_detected_episode_id": 526,
       "first_detected_speaker": "Peter Diamandis (hosts)",
-      "last_mentioned_episode_id": 561,
-      "last_mentioned_speaker": "Peter Diamandis, Alex Wissner-Gross (hosts)"
+      "last_mentioned_episode_id": 563,
+      "last_mentioned_speaker": "Liam Fedus, Ekin Do\u011fu\u015f \u00c7ubuk"
     },
     {
       "id": 286,
@@ -12269,8 +12303,8 @@
       "term": "Loops",
       "description": "An operational framework where AI systems handle repetitive tasks in cascading scopes, from individual personal workflows up to large parts of an entire company, freeing humans for strategic and intuitive work.",
       "first_detected_date": "2026-09-12",
-      "last_mentioned_date": "2026-10-07",
-      "mention_count": 14,
+      "last_mentioned_date": "2026-10-08",
+      "mention_count": 15,
       "source_podcasts": null,
       "status": "active",
       "investment_implications": "Companies architected around loops may achieve superior capital efficiency and scalability by compressing operational overhead into automated cycles.",
@@ -12279,8 +12313,8 @@
       "archived_reason": null,
       "first_detected_episode_id": 473,
       "first_detected_speaker": null,
-      "last_mentioned_episode_id": 561,
-      "last_mentioned_speaker": "Peter Diamandis, Alex Wissner-Gross (hosts)"
+      "last_mentioned_episode_id": 563,
+      "last_mentioned_speaker": "Liam Fedus, Ekin Do\u011fu\u015f \u00c7ubuk"
     },
     {
       "id": 284,
@@ -12341,8 +12375,8 @@
       "term": "Simulation",
       "description": "The use of models and computer programs to represent and analyze real or imagined systems or situations.",
       "first_detected_date": "2026-08-21",
-      "last_mentioned_date": "2026-10-07",
-      "mention_count": 26,
+      "last_mentioned_date": "2026-10-08",
+      "mention_count": 27,
       "source_podcasts": null,
       "status": "active",
       "investment_implications": "Simulation technology can provide significant insights for decision-making, making investments in this area potentially valuable.",
@@ -12351,8 +12385,8 @@
       "archived_reason": null,
       "first_detected_episode_id": 420,
       "first_detected_speaker": "June",
-      "last_mentioned_episode_id": 561,
-      "last_mentioned_speaker": "Peter Diamandis, Alex Wissner-Gross (hosts)"
+      "last_mentioned_episode_id": 563,
+      "last_mentioned_speaker": "Liam Fedus, Ekin Do\u011fu\u015f \u00c7ubuk"
     },
     {
       "id": 272,
@@ -12521,8 +12555,8 @@
       "term": "Autonomy",
       "description": "The capacity of an AI system to make decisions and operate independently of direct human control or oversight, as evidenced by agents not alerting humans about their unethical actions.",
       "first_detected_date": "2026-07-22",
-      "last_mentioned_date": "2026-10-04",
-      "mention_count": 30,
+      "last_mentioned_date": "2026-10-08",
+      "mention_count": 31,
       "source_podcasts": null,
       "status": "active",
       "investment_implications": "Emphasizes the critical need for ethical AI frameworks, clear oversight mechanisms, and fail-safes to manage systems operating independently of human control, impacting regulatory compliance and public trust.",
@@ -12531,8 +12565,8 @@
       "archived_reason": null,
       "first_detected_episode_id": 362,
       "first_detected_speaker": "Travis Kalanick, Ben Horowitz",
-      "last_mentioned_episode_id": 551,
-      "last_mentioned_speaker": "David George"
+      "last_mentioned_episode_id": 563,
+      "last_mentioned_speaker": "Liam Fedus, Ekin Do\u011fu\u015f \u00c7ubuk"
     },
     {
       "id": 265,

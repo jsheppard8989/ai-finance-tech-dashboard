@@ -704,7 +704,7 @@
     "last_podcast_name": "The a16z Show",
     "last_episode_date": "2026-09-05",
     "mention_score": 3,
-    "mention_score_decayed": 1.43,
+    "mention_score_decayed": 1.4,
     "last_main_idea": "The winning AI infrastructure investments will be in open-weights-enabling platforms and model-agnostic orchestration layers, as enterprise adoption shifts from single-model dependence to intelligent routing across specialized models.",
     "last_proof_cite": "The a16z Show \u2022 2026-09-05 \u2022 Aaron Levie on Why Open AI Wins",
     "last_proof_snippet": "Openweight AI is often framed as a threat to frontier labs. Aaron Levy thinks that kits the economics backwards. The box co-founder and CEO joins the OJFI and Sofia Puccini on MTS to discuss why open models could make the AI ecosystem more",
@@ -1109,6 +1109,60 @@
       ]
     },
     "net_worth": "$185.0M"
+  },
+  {
+    "id": 514,
+    "name": "Ekin Do\u011fu\u015f \u00c7ubuk",
+    "slug": "ekin-do\u011fu\u015f-\u00e7ubuk",
+    "bio": "Guest and co-leader at Periodic Labs focused on materials physics, autonomous characterization, and simulation-to-experiment integration for synthesis superintelligence.",
+    "known_for": null,
+    "net_worth_usd": null,
+    "net_worth_source": null,
+    "net_worth_updated_at": null,
+    "voice_tone": null,
+    "voice_style": null,
+    "voice_delivery_notes": null,
+    "voice_profile_updated_at": null,
+    "last_seen": "2026-10-08 17:32:14",
+    "last_episode_title": "Synthesis Superintelligence: from Semiconductors to Superconductors \u2014 Periodic Labs\u2019 Liam Fedus and Ekin Dogus Cubuk",
+    "last_podcast_name": "Latent Space: The AI Engineer Podcast",
+    "last_episode_date": "2026-10-08",
+    "mention_score": 1,
+    "mention_score_decayed": 1,
+    "last_main_idea": "Periodic\u2019s core claim is that materials discovery will be accelerated most by physically grounded RL, instrument intelligence, and lineage-rich experimental data\u2014not by simulations or model scale alone.",
+    "last_proof_cite": "Latent Space: The AI Engineer Podcast \u2022 2026-10-08 \u2022 Synthesis Superintelligence: from Semiconductors to Superconductors \u2014 Periodic Labs\u2019 Liam Fedus and Ekin Dogus Cubuk",
+    "last_proof_snippet": "It\u2019s hard to believe that Periodic was only launched last September: One year later, it is considered one of the pre-eminent AI scientist labs, with dizzying talent density and astonishing progress in the autonomous lab buildout: Most peopl",
+    "supporting_takeaway": "Fedus said Periodic wants RL environments derived from physical labs, because using papers or textbook targets risks memorization rather than real generalization.",
+    "grokipedia_url": null,
+    "grokipedia_fetched_at": null,
+    "pundit_profile": null
+  },
+  {
+    "id": 513,
+    "name": "Liam Fedus",
+    "slug": "liam-fedus",
+    "bio": "Guest and co-leader at Periodic Labs focused on AI systems for physical-world materials discovery and reinforcement learning grounded in experimental data.",
+    "known_for": null,
+    "net_worth_usd": null,
+    "net_worth_source": null,
+    "net_worth_updated_at": null,
+    "voice_tone": null,
+    "voice_style": null,
+    "voice_delivery_notes": null,
+    "voice_profile_updated_at": null,
+    "last_seen": "2026-10-08 17:32:14",
+    "last_episode_title": "Synthesis Superintelligence: from Semiconductors to Superconductors \u2014 Periodic Labs\u2019 Liam Fedus and Ekin Dogus Cubuk",
+    "last_podcast_name": "Latent Space: The AI Engineer Podcast",
+    "last_episode_date": "2026-10-08",
+    "mention_score": 1,
+    "mention_score_decayed": 1,
+    "last_main_idea": "Periodic\u2019s core claim is that materials discovery will be accelerated most by physically grounded RL, instrument intelligence, and lineage-rich experimental data\u2014not by simulations or model scale alone.",
+    "last_proof_cite": "Latent Space: The AI Engineer Podcast \u2022 2026-10-08 \u2022 Synthesis Superintelligence: from Semiconductors to Superconductors \u2014 Periodic Labs\u2019 Liam Fedus and Ekin Dogus Cubuk",
+    "last_proof_snippet": "It\u2019s hard to believe that Periodic was only launched last September: One year later, it is considered one of the pre-eminent AI scientist labs, with dizzying talent density and astonishing progress in the autonomous lab buildout: Most peopl",
+    "supporting_takeaway": "Fedus said Periodic wants RL environments derived from physical labs, because using papers or textbook targets risks memorization rather than real generalization.",
+    "grokipedia_url": null,
+    "grokipedia_fetched_at": null,
+    "pundit_profile": null
   },
   {
     "id": 512,
@@ -1572,7 +1626,7 @@
     "last_podcast_name": "Dwarkesh Podcast",
     "last_episode_date": "2026-10-01",
     "mention_score": 1,
-    "mention_score_decayed": 0.87,
+    "mention_score_decayed": 0.85,
     "last_main_idea": "Si Sheppard argues Spain's 16th-century silver windfall imported inflation and delayed capital-market development, while England and the Netherlands advanced through banking, trade, and industrial investment.",
     "last_proof_cite": "Dwarkesh Podcast \u2022 2026-10-01 \u2022 Si Sheppard \u2013 How did a few hundred Spanish soldiers topple two empires?",
     "last_proof_snippet": "New episode with military historian Si Sheppard. The conquests of the Aztec and Inca empires might be the most shocking events in human history. Hernan Cort\u00e9s and some hundreds of Conquistadors landed on a new continent they knew basically",
@@ -3766,66 +3820,6 @@
     "net_worth": "$11.9M"
   },
   {
-    "id": 218,
-    "name": "Joe Schmidt",
-    "slug": "joe-schmidt",
-    "bio": "Joe Schmidt is an investor at a16z with a focus on enterprise software and AI startups. He is known for his expertise in go-to-market strategies for AI companies and lessons from building sales organizations.",
-    "known_for": "His insights on sales strategies and the framework for evaluating which playbook AI companies should follow.",
-    "net_worth_usd": 21000000.0,
-    "net_worth_source": "https://www.gurufocus.com/insider/168447/joseph-h-schmidt",
-    "net_worth_updated_at": "2026-04-30T22:03:04.038566",
-    "voice_tone": "Analytical and insightful",
-    "voice_style": "Factual and informative",
-    "voice_delivery_notes": "Clear and concise with a focus on actionable insights",
-    "voice_profile_updated_at": "2026-08-13 17:06:10",
-    "last_seen": "2026-08-13 17:06:10",
-    "last_episode_title": "The Two Ways to Sell AI: Lighthouse or Landgrab?",
-    "last_podcast_name": "The a16z Show",
-    "last_episode_date": "2026-08-13",
-    "mention_score": 2,
-    "mention_score_decayed": 0.56,
-    "last_main_idea": "The choice between the lighthouse and land grab strategies can significantly impact the success of an enterprise AI startup, as each approach has its own set of advantages and challenges that must be carefully considered in the context of the company's specific circumstances.",
-    "last_proof_cite": "The a16z Show \u2022 2026-08-13 \u2022 The Two Ways to Sell AI: Lighthouse or Landgrab?",
-    "last_proof_snippet": "There's a moment right now to go sell big software again. We're now looking at a different way of doing business entirely. What are the lighthouse and land grab sales playbook? Here's the framework for evaluating which playbook should you b",
-    "supporting_takeaway": "Founders should evaluate which playbook to follow based on their unique circumstances, including the nature of their product, the market landscape, and their sales capabilities.",
-    "grokipedia_url": null,
-    "grokipedia_fetched_at": "2026-08-13T12:06:19.499034",
-    "pundit_profile": {
-      "source": "llm",
-      "source_model": "moonshot:moonshot-v1-8k",
-      "source_url": "",
-      "page_title": "Joe Schmidt",
-      "fetched_at": "2026-08-13T17:06:19.498693+00:00",
-      "cliff_notes": "Joe Schmidt is an investor at a16z, a venture capital firm, where he focuses on enterprise software and AI startups. He has gained recognition for his expertise in go-to-market strategies for AI companies and his insights on building sales organizations. Schmidt's work involves identifying opportunities in the AI space and helping startups scale their operations. His approach to sales strategies, such as the lighthouse and land grab playbooks, has been influential in the tech industry. By providing frameworks for evaluating which sales strategy to follow, Schmidt has contributed significantly to the growth and success of AI companies.",
-      "derived": {
-        "current_role": "Investor at a16z"
-      },
-      "infobox": {
-        "Born": "",
-        "Nationality": ""
-      },
-      "lead_paragraphs": [
-        "Joe Schmidt is an investor at a16z, a venture capital firm, where he focuses on enterprise software and AI startups. He has gained recognition for his expertise in go-to-market strategies for AI companies and his insights on building sales organizations. Schmidt's work involves identifying opportunities in the AI space and helping startups scale their operations.",
-        "His approach to sales strategies, such as the lighthouse and land grab playbooks, has been influential in the tech industry. By providing frameworks for evaluating which sales strategy to follow, Schmidt has contributed significantly to the growth and success of AI companies."
-      ],
-      "sections": [
-        {
-          "heading": "Go-to-Market Strategies",
-          "body": "Joe Schmidt is known for his expertise in go-to-market strategies for AI companies. He has developed frameworks for evaluating which sales playbook to follow, such as the lighthouse and land grab strategies."
-        },
-        {
-          "heading": "AI Startups",
-          "body": "As an investor at a16z, Joe Schmidt focuses on enterprise software and AI startups. He helps these companies scale their operations and provides insights on sales strategies and building sales organizations."
-        },
-        {
-          "heading": "Sales Playbooks",
-          "body": "Schmidt has developed a framework for evaluating which sales playbook AI companies should follow, such as targeting obvious companies with social value or finding customers who need their solution."
-        }
-      ]
-    },
-    "net_worth": "$21.0M"
-  },
-  {
     "id": 449,
     "name": "John Ferris",
     "slug": "john-ferris",
@@ -3893,6 +3887,66 @@
       ]
     },
     "net_worth": "$5.0M"
+  },
+  {
+    "id": 218,
+    "name": "Joe Schmidt",
+    "slug": "joe-schmidt",
+    "bio": "Joe Schmidt is an investor at a16z with a focus on enterprise software and AI startups. He is known for his expertise in go-to-market strategies for AI companies and lessons from building sales organizations.",
+    "known_for": "His insights on sales strategies and the framework for evaluating which playbook AI companies should follow.",
+    "net_worth_usd": 21000000.0,
+    "net_worth_source": "https://www.gurufocus.com/insider/168447/joseph-h-schmidt",
+    "net_worth_updated_at": "2026-04-30T22:03:04.038566",
+    "voice_tone": "Analytical and insightful",
+    "voice_style": "Factual and informative",
+    "voice_delivery_notes": "Clear and concise with a focus on actionable insights",
+    "voice_profile_updated_at": "2026-08-13 17:06:10",
+    "last_seen": "2026-08-13 17:06:10",
+    "last_episode_title": "The Two Ways to Sell AI: Lighthouse or Landgrab?",
+    "last_podcast_name": "The a16z Show",
+    "last_episode_date": "2026-08-13",
+    "mention_score": 2,
+    "mention_score_decayed": 0.55,
+    "last_main_idea": "The choice between the lighthouse and land grab strategies can significantly impact the success of an enterprise AI startup, as each approach has its own set of advantages and challenges that must be carefully considered in the context of the company's specific circumstances.",
+    "last_proof_cite": "The a16z Show \u2022 2026-08-13 \u2022 The Two Ways to Sell AI: Lighthouse or Landgrab?",
+    "last_proof_snippet": "There's a moment right now to go sell big software again. We're now looking at a different way of doing business entirely. What are the lighthouse and land grab sales playbook? Here's the framework for evaluating which playbook should you b",
+    "supporting_takeaway": "Founders should evaluate which playbook to follow based on their unique circumstances, including the nature of their product, the market landscape, and their sales capabilities.",
+    "grokipedia_url": null,
+    "grokipedia_fetched_at": "2026-08-13T12:06:19.499034",
+    "pundit_profile": {
+      "source": "llm",
+      "source_model": "moonshot:moonshot-v1-8k",
+      "source_url": "",
+      "page_title": "Joe Schmidt",
+      "fetched_at": "2026-08-13T17:06:19.498693+00:00",
+      "cliff_notes": "Joe Schmidt is an investor at a16z, a venture capital firm, where he focuses on enterprise software and AI startups. He has gained recognition for his expertise in go-to-market strategies for AI companies and his insights on building sales organizations. Schmidt's work involves identifying opportunities in the AI space and helping startups scale their operations. His approach to sales strategies, such as the lighthouse and land grab playbooks, has been influential in the tech industry. By providing frameworks for evaluating which sales strategy to follow, Schmidt has contributed significantly to the growth and success of AI companies.",
+      "derived": {
+        "current_role": "Investor at a16z"
+      },
+      "infobox": {
+        "Born": "",
+        "Nationality": ""
+      },
+      "lead_paragraphs": [
+        "Joe Schmidt is an investor at a16z, a venture capital firm, where he focuses on enterprise software and AI startups. He has gained recognition for his expertise in go-to-market strategies for AI companies and his insights on building sales organizations. Schmidt's work involves identifying opportunities in the AI space and helping startups scale their operations.",
+        "His approach to sales strategies, such as the lighthouse and land grab playbooks, has been influential in the tech industry. By providing frameworks for evaluating which sales strategy to follow, Schmidt has contributed significantly to the growth and success of AI companies."
+      ],
+      "sections": [
+        {
+          "heading": "Go-to-Market Strategies",
+          "body": "Joe Schmidt is known for his expertise in go-to-market strategies for AI companies. He has developed frameworks for evaluating which sales playbook to follow, such as the lighthouse and land grab strategies."
+        },
+        {
+          "heading": "AI Startups",
+          "body": "As an investor at a16z, Joe Schmidt focuses on enterprise software and AI startups. He helps these companies scale their operations and provides insights on sales strategies and building sales organizations."
+        },
+        {
+          "heading": "Sales Playbooks",
+          "body": "Schmidt has developed a framework for evaluating which sales playbook AI companies should follow, such as targeting obvious companies with social value or finding customers who need their solution."
+        }
+      ]
+    },
+    "net_worth": "$21.0M"
   },
   {
     "id": 448,
@@ -5504,7 +5558,7 @@
     "last_podcast_name": "The a16z Show",
     "last_episode_date": "2026-08-20",
     "mention_score": 1,
-    "mention_score_decayed": 0.33,
+    "mention_score_decayed": 0.32,
     "last_main_idea": "Investing in borderless founders offers access to a global talent pool, customer base, and distribution networks, which can lead to the creation of successful global companies.",
     "last_proof_cite": "The a16z Show \u2022 2026-08-20 \u2022 How Global Networks Are Reshaping Startup Success",
     "last_proof_snippet": "Anyone, international, whether you're building primarily in your home country to start, but that you have global ambitions, your board of the standard. They tend to have a chip on their folder. It's the desire that they want to become the b",
@@ -5569,7 +5623,7 @@
     "last_podcast_name": "The a16z Show",
     "last_episode_date": "2026-08-20",
     "mention_score": 1,
-    "mention_score_decayed": 0.33,
+    "mention_score_decayed": 0.32,
     "last_main_idea": "Investing in borderless founders offers access to a global talent pool, customer base, and distribution networks, which can lead to the creation of successful global companies.",
     "last_proof_cite": "The a16z Show \u2022 2026-08-20 \u2022 How Global Networks Are Reshaping Startup Success",
     "last_proof_snippet": "Anyone, international, whether you're building primarily in your home country to start, but that you have global ambitions, your board of the standard. They tend to have a chip on their folder. It's the desire that they want to become the b",
@@ -5632,7 +5686,7 @@
     "last_podcast_name": "The a16z Show",
     "last_episode_date": "2026-08-19",
     "mention_score": 1,
-    "mention_score_decayed": 0.32,
+    "mention_score_decayed": 0.31,
     "last_main_idea": "Live commerce has the potential to disrupt traditional e-commerce by combining shopping with entertainment and community, creating a more engaging and enjoyable experience for users and opening up new opportunities for small businesses.",
     "last_proof_cite": "The a16z Show \u2022 2026-08-19 \u2022 How Whatnot Built a Global Marketplace",
     "last_proof_snippet": "If you look at e-commerce today, you have to know exactly what you're looking for. Live commerce is over a third of all commerce in Asia. Send right? 30 to 40 percent of all commerce is live commerce in China. What is it in the U.S today? S",
@@ -6125,7 +6179,7 @@
     "last_podcast_name": "The a16z Show",
     "last_episode_date": "2026-08-13",
     "mention_score": 1,
-    "mention_score_decayed": 0.28,
+    "mention_score_decayed": 0.27,
     "last_main_idea": "The choice between the lighthouse and land grab strategies can significantly impact the success of an enterprise AI startup, as each approach has its own set of advantages and challenges that must be carefully considered in the context of the company's specific circumstances.",
     "last_proof_cite": "The a16z Show \u2022 2026-08-13 \u2022 The Two Ways to Sell AI: Lighthouse or Landgrab?",
     "last_proof_snippet": "There's a moment right now to go sell big software again. We're now looking at a different way of doing business entirely. What are the lighthouse and land grab sales playbook? Here's the framework for evaluating which playbook should you b",
@@ -6629,7 +6683,7 @@
     "last_podcast_name": "The a16z Show",
     "last_episode_date": "2026-08-11",
     "mention_score": 1,
-    "mention_score_decayed": 0.27,
+    "mention_score_decayed": 0.26,
     "last_main_idea": "Enterprises are increasingly adopting AI, impacting how businesses operate and develop software.",
     "last_proof_cite": "The a16z Show \u2022 2026-08-11 \u2022 The CISO Playbook for AI Agents | Datadog",
     "last_proof_snippet": "The number one story on Bloomberg right now is that AI has gone wild. We seem remarkably calm. The way I see it is, if it's not an AI model, it's going to be somebody or something with actual malicious intent to win it. I do worry about wha",
@@ -7051,7 +7105,7 @@
     "last_podcast_name": "The a16z Show",
     "last_episode_date": "2026-08-06",
     "mention_score": 1,
-    "mention_score_decayed": 0.24,
+    "mention_score_decayed": 0.23,
     "last_main_idea": "Investing in open source AI infrastructure and models is crucial for enterprises looking to leverage AI capabilities, as it offers a sustainable and collaborative approach to innovation in the field.",
     "last_proof_cite": "The a16z Show \u2022 2026-08-06 \u2022 How Open-Source AI Became Critical Infrastructure",
     "last_proof_snippet": "The fun thought experiment is if GPUs dropped in price by 99% then do we get back to it a real open source world if moderation is never solved in the future people will go to openly by default because that is where you know for sure you can",
@@ -8453,7 +8507,7 @@
     "last_podcast_name": "The a16z Show",
     "last_episode_date": "2026-07-24",
     "mention_score": 1,
-    "mention_score_decayed": 0.18,
+    "mention_score_decayed": 0.17,
     "last_main_idea": "Open-source AI models are growing rapidly, challenging existing models and increasing market competition.",
     "last_proof_cite": "The a16z Show \u2022 2026-07-24 \u2022 Sriram Krishnan on Open Source AI's Biggest Week Yet",
     "last_proof_snippet": "You can bring it back to very business first principles. If you're providing a product of value, Capitalism will find a way to make the supply chain work for you. So if you have an open-made model that is providing value, that means that ev",
@@ -9322,76 +9376,6 @@
     "net_worth": "$1.90B"
   },
   {
-    "id": 329,
-    "name": "Barbara Liskov",
-    "slug": "barbara-liskov",
-    "bio": "Barbara Liskov is a Turing Award-winning computer scientist renowned for her pioneering work in distributed systems, particularly in the areas of state machine replication and practical Byzantine fault tolerance. Her research has significantly impacted the development of secure and reliable systems, including the advent of blockchain technology.",
-    "known_for": "Her groundbreaking work in distributed systems, especially state machine replication and Byzantine fault tolerance, which has shaped the security and reliability of modern computing systems.",
-    "net_worth_usd": null,
-    "net_worth_source": "",
-    "net_worth_updated_at": null,
-    "voice_tone": "Reflective and authoritative.",
-    "voice_style": "Liskov speaks with a focus on the importance of understanding theoretical foundations and their practical applications.",
-    "voice_delivery_notes": "Liskov's delivery is measured and thoughtful, emphasizing key points with clarity.",
-    "voice_profile_updated_at": "2026-07-13 17:03:39",
-    "last_seen": "2026-07-13 17:03:39",
-    "last_episode_title": "Before Blockchains, There Was State Machine Replication",
-    "last_podcast_name": "The a16z Show",
-    "last_episode_date": "2026-07-13",
-    "mention_score": 1,
-    "mention_score_decayed": 0.14,
-    "last_main_idea": "Investing in blockchain technology and AI requires a deep understanding of the foundational computer science principles that underpin these fields, as well as an awareness of the evolving landscape of systems research.",
-    "last_proof_cite": "The a16z Show \u2022 2026-07-13 \u2022 Before Blockchains, There Was State Machine Replication",
-    "last_proof_snippet": "DARPA had recognized that this was a serious problem, the problem of malicious attacks and was looking for research in that area. I had a student Miguel Castro. We came to me and he said, why don't we see whether we can figure out a way to",
-    "supporting_takeaway": "Understanding theoretical computer science is crucial for practical applications, as it forms the backbone of the field.",
-    "grokipedia_url": null,
-    "grokipedia_fetched_at": "2026-07-13T12:04:24.666964",
-    "pundit_profile": {
-      "source": "llm",
-      "source_model": "moonshot:moonshot-v1-8k",
-      "source_url": "",
-      "page_title": "Barbara Liskov",
-      "fetched_at": "2026-07-13T17:04:24.666605+00:00",
-      "cliff_notes": "Barbara Liskov is a distinguished computer scientist whose career has been marked by significant contributions to the field of distributed systems. She earned her Ph.D. from Stanford University and later joined the faculty at MIT, where she became an Institute Professor. Liskov's work on state machine replication and Byzantine fault tolerance has been pivotal in ensuring the reliability and security of distributed systems, especially in the face of malicious attacks. Her protocols have been instrumental in the development of blockchain technology, which relies heavily on replication techniques. Liskov's influence extends beyond her research, as she has mentored numerous students and has been a proponent of impactful computer science research.",
-      "derived": {
-        "former_positions": "Institute Professor Emerita, Massachusetts Institute of Technology;",
-        "education": "Ph.D. in Computer Science, Stanford University; M.S. in Mathematics, University of California, Berkeley; B.S. in Mathematics, University of California, Berkeley;",
-        "books_or_works": "Principles of Distributed Systems; A History of Programming Languages;",
-        "teaching_summary": "Professor of Electrical Engineering and Computer Science, Massachusetts Institute of Technology;"
-      },
-      "infobox": {
-        "Born": "1939",
-        "Nationality": "American"
-      },
-      "lead_paragraphs": [
-        "Barbara Liskov is a distinguished computer scientist whose career has been marked by significant contributions to the field of distributed systems. She earned her Ph.D. from Stanford University and later joined the faculty at MIT, where she became an Institute Professor. Liskov's work on state machine replication and Byzantine fault tolerance has been pivotal in ensuring the reliability and security of distributed systems, especially in the face of malicious attacks.",
-        "Her protocols have been instrumental in the development of blockchain technology, which relies heavily on replication techniques. Liskov's influence extends beyond her research, as she has mentored numerous students and has been a proponent of impactful computer science research."
-      ],
-      "sections": [
-        {
-          "heading": "Distributed Systems",
-          "body": "Barbara Liskov's work in distributed systems has been foundational, particularly her contributions to state machine replication and Byzantine fault tolerance."
-        },
-        {
-          "heading": "State Machine Replication",
-          "body": "Liskov's research on state machine replication has provided a robust framework for maintaining consistency across distributed systems, even in the presence of faults."
-        },
-        {
-          "heading": "Byzantine Fault Tolerance",
-          "body": "Her work on Byzantine fault tolerance has been crucial for developing systems that can tolerate malicious attacks while ensuring reliability."
-        },
-        {
-          "heading": "Blockchain Technology",
-          "body": "Liskov's replication techniques have been fundamental in the development of blockchain technology, which relies on secure and reliable distributed ledgers."
-        },
-        {
-          "heading": "Research Impact",
-          "body": "Her research has had a profound impact on the field of computer science, influencing the design and implementation of secure and reliable systems."
-        }
-      ]
-    }
-  },
-  {
     "id": 42,
     "name": "Jack Mallers",
     "slug": "jack-mallers",
@@ -9450,6 +9434,76 @@
       ]
     },
     "net_worth": "$50.0M"
+  },
+  {
+    "id": 329,
+    "name": "Barbara Liskov",
+    "slug": "barbara-liskov",
+    "bio": "Barbara Liskov is a Turing Award-winning computer scientist renowned for her pioneering work in distributed systems, particularly in the areas of state machine replication and practical Byzantine fault tolerance. Her research has significantly impacted the development of secure and reliable systems, including the advent of blockchain technology.",
+    "known_for": "Her groundbreaking work in distributed systems, especially state machine replication and Byzantine fault tolerance, which has shaped the security and reliability of modern computing systems.",
+    "net_worth_usd": null,
+    "net_worth_source": "",
+    "net_worth_updated_at": null,
+    "voice_tone": "Reflective and authoritative.",
+    "voice_style": "Liskov speaks with a focus on the importance of understanding theoretical foundations and their practical applications.",
+    "voice_delivery_notes": "Liskov's delivery is measured and thoughtful, emphasizing key points with clarity.",
+    "voice_profile_updated_at": "2026-07-13 17:03:39",
+    "last_seen": "2026-07-13 17:03:39",
+    "last_episode_title": "Before Blockchains, There Was State Machine Replication",
+    "last_podcast_name": "The a16z Show",
+    "last_episode_date": "2026-07-13",
+    "mention_score": 1,
+    "mention_score_decayed": 0.13,
+    "last_main_idea": "Investing in blockchain technology and AI requires a deep understanding of the foundational computer science principles that underpin these fields, as well as an awareness of the evolving landscape of systems research.",
+    "last_proof_cite": "The a16z Show \u2022 2026-07-13 \u2022 Before Blockchains, There Was State Machine Replication",
+    "last_proof_snippet": "DARPA had recognized that this was a serious problem, the problem of malicious attacks and was looking for research in that area. I had a student Miguel Castro. We came to me and he said, why don't we see whether we can figure out a way to",
+    "supporting_takeaway": "Understanding theoretical computer science is crucial for practical applications, as it forms the backbone of the field.",
+    "grokipedia_url": null,
+    "grokipedia_fetched_at": "2026-07-13T12:04:24.666964",
+    "pundit_profile": {
+      "source": "llm",
+      "source_model": "moonshot:moonshot-v1-8k",
+      "source_url": "",
+      "page_title": "Barbara Liskov",
+      "fetched_at": "2026-07-13T17:04:24.666605+00:00",
+      "cliff_notes": "Barbara Liskov is a distinguished computer scientist whose career has been marked by significant contributions to the field of distributed systems. She earned her Ph.D. from Stanford University and later joined the faculty at MIT, where she became an Institute Professor. Liskov's work on state machine replication and Byzantine fault tolerance has been pivotal in ensuring the reliability and security of distributed systems, especially in the face of malicious attacks. Her protocols have been instrumental in the development of blockchain technology, which relies heavily on replication techniques. Liskov's influence extends beyond her research, as she has mentored numerous students and has been a proponent of impactful computer science research.",
+      "derived": {
+        "former_positions": "Institute Professor Emerita, Massachusetts Institute of Technology;",
+        "education": "Ph.D. in Computer Science, Stanford University; M.S. in Mathematics, University of California, Berkeley; B.S. in Mathematics, University of California, Berkeley;",
+        "books_or_works": "Principles of Distributed Systems; A History of Programming Languages;",
+        "teaching_summary": "Professor of Electrical Engineering and Computer Science, Massachusetts Institute of Technology;"
+      },
+      "infobox": {
+        "Born": "1939",
+        "Nationality": "American"
+      },
+      "lead_paragraphs": [
+        "Barbara Liskov is a distinguished computer scientist whose career has been marked by significant contributions to the field of distributed systems. She earned her Ph.D. from Stanford University and later joined the faculty at MIT, where she became an Institute Professor. Liskov's work on state machine replication and Byzantine fault tolerance has been pivotal in ensuring the reliability and security of distributed systems, especially in the face of malicious attacks.",
+        "Her protocols have been instrumental in the development of blockchain technology, which relies heavily on replication techniques. Liskov's influence extends beyond her research, as she has mentored numerous students and has been a proponent of impactful computer science research."
+      ],
+      "sections": [
+        {
+          "heading": "Distributed Systems",
+          "body": "Barbara Liskov's work in distributed systems has been foundational, particularly her contributions to state machine replication and Byzantine fault tolerance."
+        },
+        {
+          "heading": "State Machine Replication",
+          "body": "Liskov's research on state machine replication has provided a robust framework for maintaining consistency across distributed systems, even in the presence of faults."
+        },
+        {
+          "heading": "Byzantine Fault Tolerance",
+          "body": "Her work on Byzantine fault tolerance has been crucial for developing systems that can tolerate malicious attacks while ensuring reliability."
+        },
+        {
+          "heading": "Blockchain Technology",
+          "body": "Liskov's replication techniques have been fundamental in the development of blockchain technology, which relies on secure and reliable distributed ledgers."
+        },
+        {
+          "heading": "Research Impact",
+          "body": "Her research has had a profound impact on the field of computer science, influencing the design and implementation of secure and reliable systems."
+        }
+      ]
+    }
   },
   {
     "id": 328,
@@ -9539,7 +9593,7 @@
     "last_podcast_name": "The a16z Show",
     "last_episode_date": "2026-07-09",
     "mention_score": 1,
-    "mention_score_decayed": 0.13,
+    "mention_score_decayed": 0.12,
     "last_main_idea": "Investing in the development of new tools for biology and leveraging AI can accelerate scientific discovery and disease management, potentially leading to significant advancements in medicine.",
     "last_proof_cite": "The a16z Show \u2022 2026-07-09 \u2022 Mark Zuckerberg & Priscilla Chan: How AI Will Help Cure Disease",
     "last_proof_snippet": "This is a space that, and if there's just going to be a huge amount of leverage with AI, it still seems like there could be a lot more effort in this space around building tools. And it's kind of this crazy thing that we're, you know, here",
@@ -9605,7 +9659,7 @@
     "last_podcast_name": "The a16z Show",
     "last_episode_date": "2026-07-09",
     "mention_score": 1,
-    "mention_score_decayed": 0.13,
+    "mention_score_decayed": 0.12,
     "last_main_idea": "Investing in the development of new tools for biology and leveraging AI can accelerate scientific discovery and disease management, potentially leading to significant advancements in medicine.",
     "last_proof_cite": "The a16z Show \u2022 2026-07-09 \u2022 Mark Zuckerberg & Priscilla Chan: How AI Will Help Cure Disease",
     "last_proof_snippet": "This is a space that, and if there's just going to be a huge amount of leverage with AI, it still seems like there could be a lot more effort in this space around building tools. And it's kind of this crazy thing that we're, you know, here",
@@ -9957,69 +10011,6 @@
     "net_worth": "$12.0M"
   },
   {
-    "id": 319,
-    "name": "Marcus Villik",
-    "slug": "marcus-villik",
-    "bio": "Marcus Villik is the Founder and CEO of Bolt, a mobility services company that operates in ride-hailing, food delivery, scooters, and grocery. Starting from Estonia, Bolt has expanded to over 50 countries, aiming to replace private cars and revolutionize urban mobility.",
-    "known_for": "Leading Bolt through its growth and expansion in the mobility sector.",
-    "net_worth_usd": null,
-    "net_worth_source": "",
-    "net_worth_updated_at": null,
-    "voice_tone": "Confident and matter-of-fact.",
-    "voice_style": "Factual and data-driven, with a focus on operational excellence.",
-    "voice_delivery_notes": "Clear and concise, with emphasis on key operational insights.",
-    "voice_profile_updated_at": "2026-07-02 17:02:46",
-    "last_seen": "2026-07-02 17:02:46",
-    "last_episode_title": "Outsmarting Uber: Why Bolt Wins in Europe",
-    "last_podcast_name": "The a16z Show",
-    "last_episode_date": "2026-07-02",
-    "mention_score": 1,
-    "mention_score_decayed": 0.11,
-    "last_main_idea": "Bolt's capital efficiency is a competitive advantage, allowing it to innovate and adapt quickly.",
-    "last_proof_cite": "The a16z Show \u2022 2026-07-02 \u2022 Outsmarting Uber: Why Bolt Wins in Europe",
-    "last_proof_snippet": "The mobility market in general is the least competitive in the world. Paul is the leading, share mobility, business, we operate in more than 50 countries with a mission to replace people's private cars. A lot of the taxi companies obviously",
-    "supporting_takeaway": "Understanding local markets is crucial for tailoring services effectively and gaining market share.",
-    "grokipedia_url": null,
-    "grokipedia_fetched_at": "2026-07-02T12:03:43.711852",
-    "pundit_profile": {
-      "source": "llm",
-      "source_model": "moonshot:moonshot-v1-8k",
-      "source_url": "",
-      "page_title": "Marcus Villik",
-      "fetched_at": "2026-07-02T17:03:43.711606+00:00",
-      "cliff_notes": "Marcus Villik is the founder and CEO of Bolt, a company that has grown from its beginnings in Estonia to become a significant player in the global mobility market. With a mission to replace private cars, Bolt has expanded its services to include ride-hailing, food delivery, scooters, and grocery, operating in over 50 countries. Villik's leadership has been instrumental in navigating the competitive landscape of the mobility sector, overcoming challenges such as resistance from traditional taxi companies and the constraints of starting in a small country with limited venture capital. His approach to capital efficiency and innovation has been a key factor in Bolt's success, as the company competes against larger, more established players in the industry.",
-      "derived": {
-        "current_role": "Founder and CEO of Bolt"
-      },
-      "infobox": {
-        "Born": "",
-        "Nationality": "Estonian"
-      },
-      "lead_paragraphs": [
-        "Marcus Villik is the founder and CEO of Bolt, a company that has grown from its beginnings in Estonia to become a significant player in the global mobility market. With a mission to replace private cars, Bolt has expanded its services to include ride-hailing, food delivery, scooters, and grocery, operating in over 50 countries.",
-        "Villik's leadership has been instrumental in navigating the competitive landscape of the mobility sector, overcoming challenges such as resistance from traditional taxi companies and the constraints of starting in a small country with limited venture capital. His approach to capital efficiency and innovation has been a key factor in Bolt's success, as the company competes against larger, more established players in the industry."
-      ],
-      "sections": [
-        {
-          "heading": "Bolt's Expansion",
-          "body": "Bolt has expanded from its origins in Estonia to operate in over 50 countries, offering a range of mobility services including ride-hailing, food delivery, scooters, and grocery."
-        },
-        {
-          "heading": "Innovation and Capital Efficiency",
-          "body": "Marcus Villik has emphasized the importance of capital efficiency and innovation at Bolt, which has allowed the company to compete against larger, more established players in the mobility sector."
-        },
-        {
-          "heading": "Challenges and Resistance",
-          "body": "Bolt has faced resistance from traditional taxi companies, leading to a pivot towards working directly with individual drivers, especially in regions where taxi companies were seen as uncooperative or unresponsive to customer needs."
-        },
-        {
-          "heading": "Global Competition",
-          "body": "In a highly competitive global mobility market, Bolt stands out for its ability to operate across multiple services and geographies, challenging the status quo and aiming to replace private car ownership."
-        }
-      ]
-    }
-  },
-  {
     "id": 171,
     "name": "Steven Sinofsky",
     "slug": "steven-sinofsky",
@@ -10084,6 +10075,69 @@
       ]
     },
     "net_worth": "$300.0M"
+  },
+  {
+    "id": 319,
+    "name": "Marcus Villik",
+    "slug": "marcus-villik",
+    "bio": "Marcus Villik is the Founder and CEO of Bolt, a mobility services company that operates in ride-hailing, food delivery, scooters, and grocery. Starting from Estonia, Bolt has expanded to over 50 countries, aiming to replace private cars and revolutionize urban mobility.",
+    "known_for": "Leading Bolt through its growth and expansion in the mobility sector.",
+    "net_worth_usd": null,
+    "net_worth_source": "",
+    "net_worth_updated_at": null,
+    "voice_tone": "Confident and matter-of-fact.",
+    "voice_style": "Factual and data-driven, with a focus on operational excellence.",
+    "voice_delivery_notes": "Clear and concise, with emphasis on key operational insights.",
+    "voice_profile_updated_at": "2026-07-02 17:02:46",
+    "last_seen": "2026-07-02 17:02:46",
+    "last_episode_title": "Outsmarting Uber: Why Bolt Wins in Europe",
+    "last_podcast_name": "The a16z Show",
+    "last_episode_date": "2026-07-02",
+    "mention_score": 1,
+    "mention_score_decayed": 0.1,
+    "last_main_idea": "Bolt's capital efficiency is a competitive advantage, allowing it to innovate and adapt quickly.",
+    "last_proof_cite": "The a16z Show \u2022 2026-07-02 \u2022 Outsmarting Uber: Why Bolt Wins in Europe",
+    "last_proof_snippet": "The mobility market in general is the least competitive in the world. Paul is the leading, share mobility, business, we operate in more than 50 countries with a mission to replace people's private cars. A lot of the taxi companies obviously",
+    "supporting_takeaway": "Understanding local markets is crucial for tailoring services effectively and gaining market share.",
+    "grokipedia_url": null,
+    "grokipedia_fetched_at": "2026-07-02T12:03:43.711852",
+    "pundit_profile": {
+      "source": "llm",
+      "source_model": "moonshot:moonshot-v1-8k",
+      "source_url": "",
+      "page_title": "Marcus Villik",
+      "fetched_at": "2026-07-02T17:03:43.711606+00:00",
+      "cliff_notes": "Marcus Villik is the founder and CEO of Bolt, a company that has grown from its beginnings in Estonia to become a significant player in the global mobility market. With a mission to replace private cars, Bolt has expanded its services to include ride-hailing, food delivery, scooters, and grocery, operating in over 50 countries. Villik's leadership has been instrumental in navigating the competitive landscape of the mobility sector, overcoming challenges such as resistance from traditional taxi companies and the constraints of starting in a small country with limited venture capital. His approach to capital efficiency and innovation has been a key factor in Bolt's success, as the company competes against larger, more established players in the industry.",
+      "derived": {
+        "current_role": "Founder and CEO of Bolt"
+      },
+      "infobox": {
+        "Born": "",
+        "Nationality": "Estonian"
+      },
+      "lead_paragraphs": [
+        "Marcus Villik is the founder and CEO of Bolt, a company that has grown from its beginnings in Estonia to become a significant player in the global mobility market. With a mission to replace private cars, Bolt has expanded its services to include ride-hailing, food delivery, scooters, and grocery, operating in over 50 countries.",
+        "Villik's leadership has been instrumental in navigating the competitive landscape of the mobility sector, overcoming challenges such as resistance from traditional taxi companies and the constraints of starting in a small country with limited venture capital. His approach to capital efficiency and innovation has been a key factor in Bolt's success, as the company competes against larger, more established players in the industry."
+      ],
+      "sections": [
+        {
+          "heading": "Bolt's Expansion",
+          "body": "Bolt has expanded from its origins in Estonia to operate in over 50 countries, offering a range of mobility services including ride-hailing, food delivery, scooters, and grocery."
+        },
+        {
+          "heading": "Innovation and Capital Efficiency",
+          "body": "Marcus Villik has emphasized the importance of capital efficiency and innovation at Bolt, which has allowed the company to compete against larger, more established players in the mobility sector."
+        },
+        {
+          "heading": "Challenges and Resistance",
+          "body": "Bolt has faced resistance from traditional taxi companies, leading to a pivot towards working directly with individual drivers, especially in regions where taxi companies were seen as uncooperative or unresponsive to customer needs."
+        },
+        {
+          "heading": "Global Competition",
+          "body": "In a highly competitive global mobility market, Bolt stands out for its ability to operate across multiple services and geographies, challenging the status quo and aiming to replace private car ownership."
+        }
+      ]
+    }
   },
   {
     "id": 316,
@@ -11260,69 +11314,6 @@
     "net_worth": "$1.30B"
   },
   {
-    "id": 292,
-    "name": "Santiago Gua Suarez",
-    "slug": "santiago-gua-suarez",
-    "bio": "Santiago Gua Suarez is the founder of Adi, a fintech company in Colombia that focuses on financial inclusion and technology-driven commerce. He has transformed Adi from a buy now pay later model to a comprehensive platform offering payments, logistics, and banking services.",
-    "known_for": "Building Adi into a comprehensive fintech platform that serves millions of consumers and thousands of merchant partners in Colombia.",
-    "net_worth_usd": null,
-    "net_worth_source": "",
-    "net_worth_updated_at": null,
-    "voice_tone": "",
-    "voice_style": "",
-    "voice_delivery_notes": "",
-    "voice_profile_updated_at": null,
-    "last_seen": "2026-06-17 17:06:06",
-    "last_episode_title": "The Fintech Playbook for Latin America",
-    "last_podcast_name": "The a16z Show",
-    "last_episode_date": "2026-06-17",
-    "mention_score": 1,
-    "mention_score_decayed": 0.08,
-    "last_main_idea": "Evaluate the technological infrastructure of fintech companies before investing, focusing on their ability to scale and innovate.",
-    "last_proof_cite": "The a16z Show \u2022 2026-06-17 \u2022 The Fintech Playbook for Latin America",
-    "last_proof_snippet": "Don't let your ambition fall prey of commercial wisdom. If you're a consensus play, there's just no alpha. We serve over 3 million consumers, or 50,000 merchant partners, we have incredible cost to serve economics. Over 200 A-engine product",
-    "supporting_takeaway": "Look for companies that are actively integrating AI into their operations, as this can lead to significant cost savings and improved customer experiences.",
-    "grokipedia_url": null,
-    "grokipedia_fetched_at": "2026-06-17T12:06:18.557392",
-    "pundit_profile": {
-      "source": "llm",
-      "source_model": "moonshot:moonshot-v1-8k",
-      "source_url": "",
-      "page_title": "Santiago Gua Suarez",
-      "fetched_at": "2026-06-17T17:06:18.556897+00:00",
-      "cliff_notes": "Santiago Gua Suarez is recognized for his entrepreneurial spirit and vision in the fintech sector, particularly in Colombia. As the founder of Adi, he has overseen the company's evolution from a simple buy now pay later service to a full-fledged platform that encompasses payments, logistics, and banking services. His approach to building Adi has been centered around leveraging technology to address the unique challenges of the Colombian market, such as fragmented financial infrastructure and limited access to credit. Gua Suarez's leadership has been instrumental in creating a platform that not only serves a significant consumer base but also supports a vast network of merchant partners. His focus on technology and innovation has positioned Adi as a key player in the region's fintech landscape, offering solutions that are both innovative and tailored to the local context.",
-      "derived": {
-        "current_role": "Founder of Adi"
-      },
-      "infobox": {
-        "Born": "",
-        "Nationality": "Colombian"
-      },
-      "lead_paragraphs": [
-        "Santiago Gua Suarez is recognized for his entrepreneurial spirit and vision in the fintech sector, particularly in Colombia. As the founder of Adi, he has overseen the company's evolution from a simple buy now pay later service to a full-fledged platform that encompasses payments, logistics, and banking services. His approach to building Adi has been centered around leveraging technology to address the unique challenges of the Colombian market, such as fragmented financial infrastructure and limited access to credit.",
-        "Gua Suarez's leadership has been instrumental in creating a platform that not only serves a significant consumer base but also supports a vast network of merchant partners. His focus on technology and innovation has positioned Adi as a key player in the region's fintech landscape, offering solutions that are both innovative and tailored to the local context."
-      ],
-      "sections": [
-        {
-          "heading": "Fintech Innovation",
-          "body": "Santiago Gua Suarez has been a driving force in fintech innovation, particularly in Colombia, by creating Adi, a platform that addresses the specific needs of the market."
-        },
-        {
-          "heading": "Financial Inclusion",
-          "body": "Adi, under Gua Suarez's leadership, has focused on financial inclusion, making financial services more accessible to a broader range of consumers."
-        },
-        {
-          "heading": "Technology-Driven Commerce",
-          "body": "Gua Suarez has emphasized the importance of technology in driving commerce, using it to create a more efficient and inclusive financial ecosystem in Colombia."
-        },
-        {
-          "heading": "Solving Local Challenges",
-          "body": "Building Adi in Latin America has meant addressing unique challenges such as fragmented financial infrastructure and limited credit access, which Gua Suarez has tackled with innovative solutions."
-        }
-      ]
-    }
-  },
-  {
     "id": 54,
     "name": "Jim Bianco",
     "slug": "jim-bianco",
@@ -11385,6 +11376,69 @@
       ]
     },
     "net_worth": "$12.3M"
+  },
+  {
+    "id": 292,
+    "name": "Santiago Gua Suarez",
+    "slug": "santiago-gua-suarez",
+    "bio": "Santiago Gua Suarez is the founder of Adi, a fintech company in Colombia that focuses on financial inclusion and technology-driven commerce. He has transformed Adi from a buy now pay later model to a comprehensive platform offering payments, logistics, and banking services.",
+    "known_for": "Building Adi into a comprehensive fintech platform that serves millions of consumers and thousands of merchant partners in Colombia.",
+    "net_worth_usd": null,
+    "net_worth_source": "",
+    "net_worth_updated_at": null,
+    "voice_tone": "",
+    "voice_style": "",
+    "voice_delivery_notes": "",
+    "voice_profile_updated_at": null,
+    "last_seen": "2026-06-17 17:06:06",
+    "last_episode_title": "The Fintech Playbook for Latin America",
+    "last_podcast_name": "The a16z Show",
+    "last_episode_date": "2026-06-17",
+    "mention_score": 1,
+    "mention_score_decayed": 0.07,
+    "last_main_idea": "Evaluate the technological infrastructure of fintech companies before investing, focusing on their ability to scale and innovate.",
+    "last_proof_cite": "The a16z Show \u2022 2026-06-17 \u2022 The Fintech Playbook for Latin America",
+    "last_proof_snippet": "Don't let your ambition fall prey of commercial wisdom. If you're a consensus play, there's just no alpha. We serve over 3 million consumers, or 50,000 merchant partners, we have incredible cost to serve economics. Over 200 A-engine product",
+    "supporting_takeaway": "Look for companies that are actively integrating AI into their operations, as this can lead to significant cost savings and improved customer experiences.",
+    "grokipedia_url": null,
+    "grokipedia_fetched_at": "2026-06-17T12:06:18.557392",
+    "pundit_profile": {
+      "source": "llm",
+      "source_model": "moonshot:moonshot-v1-8k",
+      "source_url": "",
+      "page_title": "Santiago Gua Suarez",
+      "fetched_at": "2026-06-17T17:06:18.556897+00:00",
+      "cliff_notes": "Santiago Gua Suarez is recognized for his entrepreneurial spirit and vision in the fintech sector, particularly in Colombia. As the founder of Adi, he has overseen the company's evolution from a simple buy now pay later service to a full-fledged platform that encompasses payments, logistics, and banking services. His approach to building Adi has been centered around leveraging technology to address the unique challenges of the Colombian market, such as fragmented financial infrastructure and limited access to credit. Gua Suarez's leadership has been instrumental in creating a platform that not only serves a significant consumer base but also supports a vast network of merchant partners. His focus on technology and innovation has positioned Adi as a key player in the region's fintech landscape, offering solutions that are both innovative and tailored to the local context.",
+      "derived": {
+        "current_role": "Founder of Adi"
+      },
+      "infobox": {
+        "Born": "",
+        "Nationality": "Colombian"
+      },
+      "lead_paragraphs": [
+        "Santiago Gua Suarez is recognized for his entrepreneurial spirit and vision in the fintech sector, particularly in Colombia. As the founder of Adi, he has overseen the company's evolution from a simple buy now pay later service to a full-fledged platform that encompasses payments, logistics, and banking services. His approach to building Adi has been centered around leveraging technology to address the unique challenges of the Colombian market, such as fragmented financial infrastructure and limited access to credit.",
+        "Gua Suarez's leadership has been instrumental in creating a platform that not only serves a significant consumer base but also supports a vast network of merchant partners. His focus on technology and innovation has positioned Adi as a key player in the region's fintech landscape, offering solutions that are both innovative and tailored to the local context."
+      ],
+      "sections": [
+        {
+          "heading": "Fintech Innovation",
+          "body": "Santiago Gua Suarez has been a driving force in fintech innovation, particularly in Colombia, by creating Adi, a platform that addresses the specific needs of the market."
+        },
+        {
+          "heading": "Financial Inclusion",
+          "body": "Adi, under Gua Suarez's leadership, has focused on financial inclusion, making financial services more accessible to a broader range of consumers."
+        },
+        {
+          "heading": "Technology-Driven Commerce",
+          "body": "Gua Suarez has emphasized the importance of technology in driving commerce, using it to create a more efficient and inclusive financial ecosystem in Colombia."
+        },
+        {
+          "heading": "Solving Local Challenges",
+          "body": "Building Adi in Latin America has meant addressing unique challenges such as fragmented financial infrastructure and limited credit access, which Gua Suarez has tackled with innovative solutions."
+        }
+      ]
+    }
   },
   {
     "id": 291,
@@ -11698,142 +11752,6 @@
     }
   },
   {
-    "id": 284,
-    "name": "Alex Boden",
-    "slug": "alex-boden",
-    "bio": "Alex Boden is an expert in AI and its application in construction and manufacturing industries. He advocates for the full automation of construction within a decade and has been instrumental in developing AI-driven solutions for hardware and circuit board design.",
-    "known_for": "Advocating for the full automation of construction within a decade and developing AI-driven solutions for hardware and circuit board design.",
-    "net_worth_usd": 10000000.0,
-    "net_worth_source": "https://biahaixom.com.vn/tag/alex-bodi-net-worth/",
-    "net_worth_updated_at": "2026-06-17T13:40:30.349804",
-    "voice_tone": "Confident and forward-looking.",
-    "voice_style": "Factual and predictive, with a focus on the transformative potential of AI.",
-    "voice_delivery_notes": "Pace is steady with emphasis on key technological advancements.",
-    "voice_profile_updated_at": "2026-06-11 17:09:28",
-    "last_seen": "2026-06-11 17:09:28",
-    "last_episode_title": "Designing the Physical World with AI",
-    "last_podcast_name": "The a16z Show",
-    "last_episode_date": "2026-06-11",
-    "mention_score": 1,
-    "mention_score_decayed": 0.07,
-    "last_main_idea": "Support initiatives promoting hardware education to foster innovation among young engineers.",
-    "last_proof_cite": "The a16z Show \u2022 2026-06-11 \u2022 Designing the Physical World with AI",
-    "last_proof_snippet": "I want to be able to spin up a hardware company the same way that my friend spin up B2B's ass. Like you should be able to say I want to do something that's considered very hard and just go and do it. We basically build a compiler that gives",
-    "supporting_takeaway": "Support initiatives promoting hardware education to foster innovation among young engineers.",
-    "grokipedia_url": null,
-    "grokipedia_fetched_at": "2026-06-11T12:09:37.736529",
-    "pundit_profile": {
-      "source": "llm",
-      "source_model": "moonshot:moonshot-v1-8k",
-      "source_url": "",
-      "page_title": "Alex Boden",
-      "fetched_at": "2026-06-11T17:09:37.735862+00:00",
-      "cliff_notes": "Alex Boden is an expert in the field of artificial intelligence and its application in the construction and manufacturing industries. He is known for his advocacy for the full automation of construction within a decade, a vision that could revolutionize the industry. Boden's work focuses on leveraging AI to automate complex tasks, such as hardware and circuit board design, which traditionally require human expertise. He has been involved in developing AI-driven solutions that can write code and design circuit boards, significantly reducing the time between idea and output. Boden's contributions to the field have been influential in shaping the future of construction and manufacturing, where intelligence becomes more accessible, and the physical world remains the factor.",
-      "derived": {
-        "current_role": "Expert in AI and Construction Automation"
-      },
-      "infobox": {
-        "Born": "",
-        "Nationality": ""
-      },
-      "lead_paragraphs": [
-        "Alex Boden is an expert in the field of artificial intelligence and its application in the construction and manufacturing industries. He is known for his advocacy for the full automation of construction within a decade, a vision that could revolutionize the industry. Boden's work focuses on leveraging AI to automate complex tasks, such as hardware and circuit board design, which traditionally require human expertise.",
-        "He has been involved in developing AI-driven solutions that can write code and design circuit boards, significantly reducing the time between idea and output. Boden's contributions to the field have been influential in shaping the future of construction and manufacturing, where intelligence becomes more accessible, and the physical world remains the factor."
-      ],
-      "sections": [
-        {
-          "heading": "AI in Construction",
-          "body": "Alex Boden is a leading voice advocating for the full automation of construction within a decade, using AI to revolutionize the industry."
-        },
-        {
-          "heading": "Hardware Automation",
-          "body": "Boden has been instrumental in developing AI-driven solutions for hardware and circuit board design, aiming to automate complex tasks traditionally requiring human expertise."
-        },
-        {
-          "heading": "Model-Led Approach",
-          "body": "He champions a model-led approach that enables AI agents to write code, which is a significant step towards automating hardware and circuit board design."
-        },
-        {
-          "heading": "Data Generation",
-          "body": "Boden emphasizes the importance of data generation in achieving AI automation in construction and manufacturing, recognizing it as a crucial challenge to overcome."
-        },
-        {
-          "heading": "Autonomous Systems",
-          "body": "He believes in designing systems to be fully autonomous, without the need for human intervention in the loop, which is a key aspect of AI-driven automation."
-        }
-      ]
-    },
-    "net_worth": "$10.0M"
-  },
-  {
-    "id": 285,
-    "name": "David A. Asnagi",
-    "slug": "david-a-asnagi",
-    "bio": "David A. Asnagi is a specialist in electronics manufacturing and AI integration. He believes that circuit board design and manufacturing will be fully automated in two years. Asnagi is focused on building a compiler that allows AI to design circuit boards as if writing a Python program, emphasizing a model-led approach to automate hardware creation.",
-    "known_for": "His vision of fully automating circuit board design and manufacturing within two years using AI.",
-    "net_worth_usd": 100000000.0,
-    "net_worth_source": "https://www.thestreet.com/crypto/newsroom/davido-networth-a-mix-of-career-success-and-smart-business-moves",
-    "net_worth_updated_at": "2026-06-11T12:09:49.926777",
-    "voice_tone": "Optimistic and detailed.",
-    "voice_style": "Technical and solution-oriented, with a focus on the practical applications of AI.",
-    "voice_delivery_notes": "Speaks with a clear and methodical pace, emphasizing the technical aspects.",
-    "voice_profile_updated_at": "2026-06-11 17:09:28",
-    "last_seen": "2026-06-11 17:09:28",
-    "last_episode_title": "Designing the Physical World with AI",
-    "last_podcast_name": "The a16z Show",
-    "last_episode_date": "2026-06-11",
-    "mention_score": 1,
-    "mention_score_decayed": 0.07,
-    "last_main_idea": "Support initiatives promoting hardware education to foster innovation among young engineers.",
-    "last_proof_cite": "The a16z Show \u2022 2026-06-11 \u2022 Designing the Physical World with AI",
-    "last_proof_snippet": "I want to be able to spin up a hardware company the same way that my friend spin up B2B's ass. Like you should be able to say I want to do something that's considered very hard and just go and do it. We basically build a compiler that gives",
-    "supporting_takeaway": "Support initiatives promoting hardware education to foster innovation among young engineers.",
-    "grokipedia_url": null,
-    "grokipedia_fetched_at": "2026-06-11T12:09:48.900646",
-    "pundit_profile": {
-      "source": "llm",
-      "source_model": "moonshot:moonshot-v1-8k",
-      "source_url": "",
-      "page_title": "David A. Asnagi",
-      "fetched_at": "2026-06-11T17:09:48.900417+00:00",
-      "cliff_notes": "David A. Asnagi has made a career out of specializing in the intersection of electronics manufacturing and artificial intelligence. His focus is on leveraging AI to automate complex tasks such as circuit board design, which traditionally required human expertise. Asnagi envisions a future where starting a hardware company is as simple as launching a software-based business, with AI taking the lead in design and manufacturing processes. His work revolves around creating systems that can operate autonomously without the need for human intervention in the loop, which is a significant shift from traditional manufacturing paradigms. Asnagi's contributions are pivotal for the future of electronics manufacturing, as they could potentially revolutionize how hardware is developed and produced, making it more accessible and efficient.",
-      "derived": {
-        "current_role": "Specialist in Electronics Manufacturing and AI Integration"
-      },
-      "infobox": {
-        "Born": "",
-        "Nationality": ""
-      },
-      "lead_paragraphs": [
-        "David A. Asnagi has made a career out of specializing in the intersection of electronics manufacturing and artificial intelligence. His focus is on leveraging AI to automate complex tasks such as circuit board design, which traditionally required human expertise. Asnagi envisions a future where starting a hardware company is as simple as launching a software-based business, with AI taking the lead in design and manufacturing processes.",
-        "His work revolves around creating systems that can operate autonomously without the need for human intervention in the loop, which is a significant shift from traditional manufacturing paradigms. Asnagi's contributions are pivotal for the future of electronics manufacturing, as they could potentially revolutionize how hardware is developed and produced, making it more accessible and efficient."
-      ],
-      "sections": [
-        {
-          "heading": "Automation in Electronics",
-          "body": "David A. Asnagi is a proponent of full automation in electronics manufacturing, specifically in the design and production of circuit boards."
-        },
-        {
-          "heading": "AI Integration",
-          "body": "Asnagi is focused on integrating AI into the manufacturing process, creating a compiler that allows AI to design circuit boards as if writing a Python program."
-        },
-        {
-          "heading": "Model-Led Approach",
-          "body": "He advocates for a model-led approach in AI, which enables the use of AI agents to write code, thus automating complex hardware design tasks."
-        },
-        {
-          "heading": "Data Generation",
-          "body": "Asnagi emphasizes the importance of data in achieving full automation, stating that generating sufficient data is crucial for AI to effectively design circuit boards."
-        },
-        {
-          "heading": "Autonomous Systems",
-          "body": "He stresses the need to design systems that are fully autonomous, removing the need for human involvement in the manufacturing process."
-        }
-      ]
-    },
-    "net_worth": "$100.0M"
-  },
-  {
     "id": 164,
     "name": "Vitalik Buterin",
     "slug": "vitalik-buterin",
@@ -11959,6 +11877,142 @@
       ]
     },
     "net_worth": "$4.6M"
+  },
+  {
+    "id": 284,
+    "name": "Alex Boden",
+    "slug": "alex-boden",
+    "bio": "Alex Boden is an expert in AI and its application in construction and manufacturing industries. He advocates for the full automation of construction within a decade and has been instrumental in developing AI-driven solutions for hardware and circuit board design.",
+    "known_for": "Advocating for the full automation of construction within a decade and developing AI-driven solutions for hardware and circuit board design.",
+    "net_worth_usd": 10000000.0,
+    "net_worth_source": "https://biahaixom.com.vn/tag/alex-bodi-net-worth/",
+    "net_worth_updated_at": "2026-06-17T13:40:30.349804",
+    "voice_tone": "Confident and forward-looking.",
+    "voice_style": "Factual and predictive, with a focus on the transformative potential of AI.",
+    "voice_delivery_notes": "Pace is steady with emphasis on key technological advancements.",
+    "voice_profile_updated_at": "2026-06-11 17:09:28",
+    "last_seen": "2026-06-11 17:09:28",
+    "last_episode_title": "Designing the Physical World with AI",
+    "last_podcast_name": "The a16z Show",
+    "last_episode_date": "2026-06-11",
+    "mention_score": 1,
+    "mention_score_decayed": 0.06,
+    "last_main_idea": "Support initiatives promoting hardware education to foster innovation among young engineers.",
+    "last_proof_cite": "The a16z Show \u2022 2026-06-11 \u2022 Designing the Physical World with AI",
+    "last_proof_snippet": "I want to be able to spin up a hardware company the same way that my friend spin up B2B's ass. Like you should be able to say I want to do something that's considered very hard and just go and do it. We basically build a compiler that gives",
+    "supporting_takeaway": "Support initiatives promoting hardware education to foster innovation among young engineers.",
+    "grokipedia_url": null,
+    "grokipedia_fetched_at": "2026-06-11T12:09:37.736529",
+    "pundit_profile": {
+      "source": "llm",
+      "source_model": "moonshot:moonshot-v1-8k",
+      "source_url": "",
+      "page_title": "Alex Boden",
+      "fetched_at": "2026-06-11T17:09:37.735862+00:00",
+      "cliff_notes": "Alex Boden is an expert in the field of artificial intelligence and its application in the construction and manufacturing industries. He is known for his advocacy for the full automation of construction within a decade, a vision that could revolutionize the industry. Boden's work focuses on leveraging AI to automate complex tasks, such as hardware and circuit board design, which traditionally require human expertise. He has been involved in developing AI-driven solutions that can write code and design circuit boards, significantly reducing the time between idea and output. Boden's contributions to the field have been influential in shaping the future of construction and manufacturing, where intelligence becomes more accessible, and the physical world remains the factor.",
+      "derived": {
+        "current_role": "Expert in AI and Construction Automation"
+      },
+      "infobox": {
+        "Born": "",
+        "Nationality": ""
+      },
+      "lead_paragraphs": [
+        "Alex Boden is an expert in the field of artificial intelligence and its application in the construction and manufacturing industries. He is known for his advocacy for the full automation of construction within a decade, a vision that could revolutionize the industry. Boden's work focuses on leveraging AI to automate complex tasks, such as hardware and circuit board design, which traditionally require human expertise.",
+        "He has been involved in developing AI-driven solutions that can write code and design circuit boards, significantly reducing the time between idea and output. Boden's contributions to the field have been influential in shaping the future of construction and manufacturing, where intelligence becomes more accessible, and the physical world remains the factor."
+      ],
+      "sections": [
+        {
+          "heading": "AI in Construction",
+          "body": "Alex Boden is a leading voice advocating for the full automation of construction within a decade, using AI to revolutionize the industry."
+        },
+        {
+          "heading": "Hardware Automation",
+          "body": "Boden has been instrumental in developing AI-driven solutions for hardware and circuit board design, aiming to automate complex tasks traditionally requiring human expertise."
+        },
+        {
+          "heading": "Model-Led Approach",
+          "body": "He champions a model-led approach that enables AI agents to write code, which is a significant step towards automating hardware and circuit board design."
+        },
+        {
+          "heading": "Data Generation",
+          "body": "Boden emphasizes the importance of data generation in achieving AI automation in construction and manufacturing, recognizing it as a crucial challenge to overcome."
+        },
+        {
+          "heading": "Autonomous Systems",
+          "body": "He believes in designing systems to be fully autonomous, without the need for human intervention in the loop, which is a key aspect of AI-driven automation."
+        }
+      ]
+    },
+    "net_worth": "$10.0M"
+  },
+  {
+    "id": 285,
+    "name": "David A. Asnagi",
+    "slug": "david-a-asnagi",
+    "bio": "David A. Asnagi is a specialist in electronics manufacturing and AI integration. He believes that circuit board design and manufacturing will be fully automated in two years. Asnagi is focused on building a compiler that allows AI to design circuit boards as if writing a Python program, emphasizing a model-led approach to automate hardware creation.",
+    "known_for": "His vision of fully automating circuit board design and manufacturing within two years using AI.",
+    "net_worth_usd": 100000000.0,
+    "net_worth_source": "https://www.thestreet.com/crypto/newsroom/davido-networth-a-mix-of-career-success-and-smart-business-moves",
+    "net_worth_updated_at": "2026-06-11T12:09:49.926777",
+    "voice_tone": "Optimistic and detailed.",
+    "voice_style": "Technical and solution-oriented, with a focus on the practical applications of AI.",
+    "voice_delivery_notes": "Speaks with a clear and methodical pace, emphasizing the technical aspects.",
+    "voice_profile_updated_at": "2026-06-11 17:09:28",
+    "last_seen": "2026-06-11 17:09:28",
+    "last_episode_title": "Designing the Physical World with AI",
+    "last_podcast_name": "The a16z Show",
+    "last_episode_date": "2026-06-11",
+    "mention_score": 1,
+    "mention_score_decayed": 0.06,
+    "last_main_idea": "Support initiatives promoting hardware education to foster innovation among young engineers.",
+    "last_proof_cite": "The a16z Show \u2022 2026-06-11 \u2022 Designing the Physical World with AI",
+    "last_proof_snippet": "I want to be able to spin up a hardware company the same way that my friend spin up B2B's ass. Like you should be able to say I want to do something that's considered very hard and just go and do it. We basically build a compiler that gives",
+    "supporting_takeaway": "Support initiatives promoting hardware education to foster innovation among young engineers.",
+    "grokipedia_url": null,
+    "grokipedia_fetched_at": "2026-06-11T12:09:48.900646",
+    "pundit_profile": {
+      "source": "llm",
+      "source_model": "moonshot:moonshot-v1-8k",
+      "source_url": "",
+      "page_title": "David A. Asnagi",
+      "fetched_at": "2026-06-11T17:09:48.900417+00:00",
+      "cliff_notes": "David A. Asnagi has made a career out of specializing in the intersection of electronics manufacturing and artificial intelligence. His focus is on leveraging AI to automate complex tasks such as circuit board design, which traditionally required human expertise. Asnagi envisions a future where starting a hardware company is as simple as launching a software-based business, with AI taking the lead in design and manufacturing processes. His work revolves around creating systems that can operate autonomously without the need for human intervention in the loop, which is a significant shift from traditional manufacturing paradigms. Asnagi's contributions are pivotal for the future of electronics manufacturing, as they could potentially revolutionize how hardware is developed and produced, making it more accessible and efficient.",
+      "derived": {
+        "current_role": "Specialist in Electronics Manufacturing and AI Integration"
+      },
+      "infobox": {
+        "Born": "",
+        "Nationality": ""
+      },
+      "lead_paragraphs": [
+        "David A. Asnagi has made a career out of specializing in the intersection of electronics manufacturing and artificial intelligence. His focus is on leveraging AI to automate complex tasks such as circuit board design, which traditionally required human expertise. Asnagi envisions a future where starting a hardware company is as simple as launching a software-based business, with AI taking the lead in design and manufacturing processes.",
+        "His work revolves around creating systems that can operate autonomously without the need for human intervention in the loop, which is a significant shift from traditional manufacturing paradigms. Asnagi's contributions are pivotal for the future of electronics manufacturing, as they could potentially revolutionize how hardware is developed and produced, making it more accessible and efficient."
+      ],
+      "sections": [
+        {
+          "heading": "Automation in Electronics",
+          "body": "David A. Asnagi is a proponent of full automation in electronics manufacturing, specifically in the design and production of circuit boards."
+        },
+        {
+          "heading": "AI Integration",
+          "body": "Asnagi is focused on integrating AI into the manufacturing process, creating a compiler that allows AI to design circuit boards as if writing a Python program."
+        },
+        {
+          "heading": "Model-Led Approach",
+          "body": "He advocates for a model-led approach in AI, which enables the use of AI agents to write code, thus automating complex hardware design tasks."
+        },
+        {
+          "heading": "Data Generation",
+          "body": "Asnagi emphasizes the importance of data in achieving full automation, stating that generating sufficient data is crucial for AI to effectively design circuit boards."
+        },
+        {
+          "heading": "Autonomous Systems",
+          "body": "He stresses the need to design systems that are fully autonomous, removing the need for human involvement in the manufacturing process."
+        }
+      ]
+    },
+    "net_worth": "$100.0M"
   },
   {
     "id": 283,
@@ -12571,7 +12625,7 @@
     "last_podcast_name": "The a16z Show",
     "last_episode_date": "2026-06-04",
     "mention_score": 1,
-    "mention_score_decayed": 0.06,
+    "mention_score_decayed": 0.05,
     "last_main_idea": "Diversify investment portfolios to hedge against the unpredictability of AI's evolution.",
     "last_proof_cite": "The a16z Show \u2022 2026-06-04 \u2022 AI Eats the World? A Reality Check with Benedict Evans",
     "last_proof_snippet": "Mobile didn't need to wait for the internet, the internet didn't need to wait for PCs and PCs didn't need to wait for consumer electronics and semiconductors and so on. So you've always got this accelerating adoption. Benedict Evans is a te",
