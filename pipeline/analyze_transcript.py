@@ -847,7 +847,10 @@ def process_transcript_file(transcript_path: Path, client_info, db) -> Optional[
     used_digest = False
 
     # Check for two-pass mode
-    from two_pass_analyzer import is_two_pass_enabled, analyze_transcript_two_pass, TwoPassAnalyzerCache, InsufficientQuotaError
+    from two_pass_analyzer import (
+        is_two_pass_enabled, analyze_transcript_two_pass, TwoPassAnalyzerCache,
+        InsufficientQuotaError, extract_guest_names_from_title, KNOWN_HOSTS
+    )
 
     if is_two_pass_enabled():
         # Two-pass mode: use cost-efficient nano+mini pipeline
@@ -860,12 +863,22 @@ def process_transcript_file(transcript_path: Path, client_info, db) -> Optional[
                 return None
             two_pass_client = OpenAI(api_key=openai_key)
             cache = TwoPassAnalyzerCache()
+            
+            sidecar_title = (sidecar.get("episode_title") or "").strip()
+            sidecar_date = (sidecar.get("published_date") or "").strip()
+            guest_names = extract_guest_names_from_title(sidecar_title or episode_slug)
+            host_names = KNOWN_HOSTS.get(podcast_name, [])
+            
             analysis = analyze_transcript_two_pass(
                 two_pass_client,
                 analysis_source,
                 podcast_name,
-                episode_id=None,  # Not yet created
+                episode_id=None,
                 cache=cache,
+                episode_title=sidecar_title,
+                episode_date=sidecar_date,
+                guest_names=guest_names,
+                host_names=host_names,
             )
         except InsufficientQuotaError:
             raise  # Propagate to batch handler

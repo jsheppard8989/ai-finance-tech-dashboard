@@ -25,7 +25,7 @@ from typing import Any, Dict, List, Optional, Tuple
 
 from workspace_paths import DB_PATH
 
-EXTRACTION_PROMPT = """
+EXTRACTION_PROMPT_BASE = """
 You are a high-quality research analyst processing a long-form podcast transcript.
 
 Your job is NOT to summarize the conversation.
@@ -73,11 +73,25 @@ The JSON should contain:
   "investment_ideas": [],
   "contrarian_ideas": [],
   "unanswered_questions": [],
-  "high_value_quotes": []
+  "high_value_quotes": [],
+  "guests": [],
+  "hosts": []
 }
 
-IMPORTANT: For high_value_quotes, include the speaker's FULL NAME (when known from the transcript) and keep the quote VERBATIM exactly as spoken. Format each quote as:
-{"speaker": "Full Name", "quote": "Exact verbatim quote from transcript"}
+"""
+
+EXTRACTION_PROMPT_SUFFIX = """
+
+SPEAKER ATTRIBUTION RULES:
+- For high_value_quotes, you MUST attribute quotes to the specific named speaker when identifiable from context.
+- Use the KNOWN SPEAKERS list above when the speaker is identifiable (do NOT use generic labels like "Unidentified speaker" or "Guest" when you can identify who spoke).
+- Format each quote as: {"speaker": "Full Name", "quote": "Exact verbatim quote from transcript"}
+- For guests, include: {"name": "Full Name", "role": "guest", "bio": "Brief bio if mentioned"}
+- For hosts, include: {"name": "Full Name", "role": "host"}
+
+NUMBERS FILTER:
+- For numbers[], include only investment-relevant statistics: revenue, market size, growth rates, valuations, dates/timelines, percentages.
+- EXCLUDE event logistics like broadcast times, masterclass schedules, Patreon amounts, episode numbers, or self-promotional timestamps.
 
 Transcript:
 
@@ -120,7 +134,7 @@ If the speaker makes a weak argument, say so.
 
 If the podcast contains no meaningful investment insight, explicitly say that.
 
-Produce the following sections:
+Produce ALL of the following sections (do not skip any):
 
 # REAL ALPHA — PODCAST INTELLIGENCE BRIEF
 
@@ -148,27 +162,37 @@ Produce the following sections:
 
 ## Confidence
 
-ALSO, you must provide site-contract fields in a structured JSON block at the END of your response.
-After the markdown brief, add a line "---SITE_CONTRACT_JSON---" followed by a JSON object with these keys:
+You MUST complete all sections above. Do not truncate or stop early.
+
+Here is the extracted intelligence:
+
+"""
+
+
+SITE_CONTRACT_PROMPT = """
+Based on the podcast extraction data below, produce a JSON object with these site-contract fields.
+
+RULES:
+- Use the extraction's high_value_quotes for notable_quotes - keep them verbatim with CORRECT speaker names (use full names, not generic labels).
+- Use the extraction's guests and hosts fields for those fields.
+- For sentiment, default to "neutral". Use bullish/bearish ONLY when the speaker explicitly states a direction.
+- For tickers: only include tickers where the extraction has substantive discussion (not just passing mentions). Check companies_and_assets for validation.
+
+Return ONLY this JSON object:
 {
-  "episode_title": "Full episode title",
   "summary": "3-5 paragraph recap of the actual argument, numbers, dates, disagreements, predictions",
-  "key_takeaways": ["5-7 bullets, each one specific claim with attribution"],
+  "key_takeaways": ["5-7 bullets, each one specific claim with attribution to speaker"],
   "investment_thesis": "ONE sentence under 40 words stating the episode's single most important specific claim",
-  "sentiment": "neutral|bullish|bearish (default neutral unless explicit directional language)",
+  "sentiment": "neutral|bullish|bearish",
   "notable_quotes": [{"speaker": "Full Name", "quote": "Verbatim under 240 chars"}],
   "key_tickers": ["TICKER1", "TICKER2"],
-  "ticker_mentions": [{"ticker": "TICKER", "context": "1-2 sentences", "sentiment": "neutral", "conviction_score": 75, "timeframe": "medium_term", "is_contrarian": false, "is_disruption_focused": false}],
+  "ticker_mentions": [{"ticker": "TICKER", "context": "1-2 sentences of substantive discussion", "sentiment": "neutral", "conviction_score": 75, "timeframe": "medium_term", "is_contrarian": false, "is_disruption_focused": false}],
   "emerging_terms": [{"term": "Term Name", "definition": "1-2 sentences", "investment_angle": "Why it matters", "speaker_quote": "Short verbatim line"}],
   "guests": [{"name": "Full Name", "role": "guest", "bio": "1-2 sentences"}],
   "hosts": [{"name": "Full Name", "role": "host"}]
 }
 
-Use the extraction's high_value_quotes for notable_quotes - keep them verbatim with correct speaker names.
-For sentiment, default to neutral. Use bullish/bearish ONLY when the speaker explicitly states a direction.
-
-Here is the extracted intelligence:
-
+Extraction data:
 """
 
 
@@ -177,10 +201,171 @@ PASS2_MODEL = "gpt-5.4-mini"
 
 CHUNK_TOKEN_BUDGET = 350_000
 
+PREFERRED_SHARE_CLASS = {
+    "alphabet inc": "GOOGL",
+    "fox corporation": "FOXA",
+    "news corporation": "NWSA",
+}
+
+KNOWN_HOSTS = {
+    "Moonshots with Peter Diamandis": ["Peter Diamandis"],
+    "Monetary Matters with Jack Farley": ["Jack Farley"],
+    "The a16z Show": [],
+    "a16z Live": [],
+    "All-In Podcast": ["Chamath Palihapitiya", "Jason Calacanis", "David Sacks", "David Friedberg"],
+}
+
 
 class InsufficientQuotaError(Exception):
     """Raised on 429 / insufficient_quota to signal batch stop."""
     pass
+
+
+def extract_guest_names_from_title(episode_title: str) -> List[str]:
+    """Extract guest names from episode title patterns like 'Guest Name: Topic' or 'Guest's Topic'."""
+    import re
+    guests = []
+    
+    patterns = [
+        r"^([A-Z][a-z]+ [A-Z][a-z]+(?:\s+[A-Z][a-z]+)?)[:\s]+",
+        r"^([A-Z][a-z]+'s [A-Z][a-z]+ [A-Z][a-z]+)[:\s]+",
+        r"(?:with|featuring|ft\.?|&)\s+([A-Z][a-z]+ [A-Z][a-z]+)",
+        r"([A-Z][a-z]+ [A-Z][a-z]+)(?:'s|:)",
+    ]
+    
+    title = episode_title.split("|")[0].strip()
+    
+    known_title_patterns = [
+        (r"Google X's (Astro Teller)", "Astro Teller"),
+        (r"([A-Z][a-z]+ [A-Z][a-z]+) on ", None),
+        (r"([A-Z][a-z]+ [A-Z][a-z]+): ", None),
+    ]
+    
+    for pattern, fixed_name in known_title_patterns:
+        match = re.search(pattern, title)
+        if match:
+            name = fixed_name or match.group(1)
+            if name and len(name.split()) >= 2:
+                guests.append(name)
+                break
+    
+    return guests
+
+
+def collapse_share_class(ticker: str) -> str:
+    """Collapse share classes to preferred ticker (GOOG → GOOGL)."""
+    ticker = ticker.upper().strip()
+    
+    share_class_map = {
+        "GOOG": "GOOGL",
+        "FOXB": "FOXA",
+        "NWSB": "NWSA",
+        "BRK.B": "BRK.A",
+    }
+    
+    return share_class_map.get(ticker, ticker)
+
+
+def filter_substantive_tickers(
+    ticker_mentions: List[Dict],
+    companies_and_assets: List[str],
+) -> List[Dict]:
+    """Filter ticker mentions to only those with substantive discussion.
+    
+    A ticker is substantive if:
+    - It appears in companies_and_assets, OR
+    - Its context has more than 20 words of real discussion
+    """
+    if not ticker_mentions:
+        return []
+    
+    companies_lower = set()
+    for c in (companies_and_assets or []):
+        if isinstance(c, str):
+            companies_lower.add(c.lower())
+        elif isinstance(c, dict):
+            companies_lower.add((c.get("name") or c.get("ticker") or "").lower())
+    
+    filtered = []
+    seen_tickers = set()
+    
+    for tm in ticker_mentions:
+        ticker = collapse_share_class(tm.get("ticker") or "")
+        if not ticker or ticker in seen_tickers:
+            continue
+        
+        context = (tm.get("context") or "").strip()
+        context_words = len(context.split())
+        
+        has_substantive_context = context_words >= 15
+        in_companies = any(ticker.lower() in c or c in ticker.lower() for c in companies_lower)
+        
+        no_discussion_phrases = [
+            "no substantive discussion",
+            "not discussed",
+            "not mentioned",
+            "passing mention",
+            "briefly mentioned",
+        ]
+        has_no_discussion = any(phrase in context.lower() for phrase in no_discussion_phrases)
+        
+        if has_no_discussion:
+            continue
+        
+        if has_substantive_context or in_companies:
+            tm_copy = dict(tm)
+            tm_copy["ticker"] = ticker
+            filtered.append(tm_copy)
+            seen_tickers.add(ticker)
+    
+    return filtered
+
+
+def build_extraction_prompt(
+    transcript: str,
+    podcast_name: str = "",
+    episode_title: str = "",
+    episode_date: str = "",
+    guest_names: List[str] = None,
+    host_names: List[str] = None,
+) -> str:
+    """Build the full extraction prompt with episode metadata for speaker attribution."""
+    
+    metadata_block = ""
+    
+    if podcast_name or episode_title or episode_date:
+        metadata_block += "EPISODE METADATA:\n"
+        if podcast_name:
+            metadata_block += f"- Podcast: {podcast_name}\n"
+        if episode_title:
+            metadata_block += f"- Episode Title: {episode_title}\n"
+        if episode_date:
+            metadata_block += f"- Episode Date: {episode_date}\n"
+        metadata_block += "\n"
+    
+    all_guests = list(guest_names or [])
+    if not all_guests:
+        all_guests = extract_guest_names_from_title(episode_title or "")
+    
+    all_hosts = list(host_names or [])
+    if not all_hosts and podcast_name:
+        all_hosts = KNOWN_HOSTS.get(podcast_name, [])
+    
+    if all_guests or all_hosts:
+        metadata_block += "KNOWN SPEAKERS (use these names for attribution when identifiable):\n"
+        for g in all_guests:
+            metadata_block += f"- Guest: {g}\n"
+        for h in all_hosts:
+            metadata_block += f"- Host: {h}\n"
+        metadata_block += "\n"
+    
+    prompt = EXTRACTION_PROMPT_BASE
+    if metadata_block:
+        prompt += metadata_block
+    prompt += EXTRACTION_PROMPT_SUFFIX
+    prompt += transcript
+    
+    return prompt
 
 
 class TwoPassAnalyzerCache:
@@ -382,8 +567,9 @@ def call_openai_text(
     model: str,
     prompt: str,
     system_prompt: str = "You are a senior investment analyst.",
-) -> Tuple[str, int, int]:
-    """Call OpenAI for text output. Returns (text, input_tokens, output_tokens).
+    max_tokens: int = 24000,
+) -> Tuple[str, int, int, bool]:
+    """Call OpenAI for text output. Returns (text, input_tokens, output_tokens, was_truncated).
     
     Raises InsufficientQuotaError on 429/insufficient_quota.
     """
@@ -396,7 +582,7 @@ def call_openai_text(
                 {"role": "system", "content": system_prompt},
                 {"role": "user", "content": prompt}
             ],
-            max_completion_tokens=16000,
+            max_completion_tokens=max_tokens,
         )
     except RateLimitError as e:
         if "insufficient_quota" in str(e).lower() or "429" in str(e):
@@ -404,15 +590,28 @@ def call_openai_text(
         raise
     
     content = response.choices[0].message.content or ""
+    finish_reason = response.choices[0].finish_reason
+    
+    was_truncated = finish_reason == "length"
+    if was_truncated:
+        print(f"    ⚠ Response truncated (finish_reason=length)", flush=True)
     
     usage = response.usage
     input_tokens = usage.prompt_tokens if usage else 0
     output_tokens = usage.completion_tokens if usage else 0
     
-    return content, input_tokens, output_tokens
+    return content, input_tokens, output_tokens, was_truncated
 
 
-def pass1_extract(client, transcript: str) -> Tuple[Dict, int, int]:
+def pass1_extract(
+    client,
+    transcript: str,
+    podcast_name: str = "",
+    episode_title: str = "",
+    episode_date: str = "",
+    guest_names: List[str] = None,
+    host_names: List[str] = None,
+) -> Tuple[Dict, int, int]:
     """Pass 1: Extract structured intelligence from transcript using nano.
     
     Handles chunking for overlong transcripts.
@@ -426,7 +625,15 @@ def pass1_extract(client, transcript: str) -> Tuple[Dict, int, int]:
     
     for i, chunk in enumerate(chunks):
         print(f"    Pass 1 chunk {i+1}/{len(chunks)}...", flush=True)
-        prompt = EXTRACTION_PROMPT + chunk
+        
+        prompt = build_extraction_prompt(
+            transcript=chunk,
+            podcast_name=podcast_name,
+            episode_title=episode_title,
+            episode_date=episode_date,
+            guest_names=guest_names,
+            host_names=host_names,
+        )
         
         extraction, inp, out = call_openai_json(client, PASS1_MODEL, prompt)
         extractions.append(extraction)
@@ -439,41 +646,76 @@ def pass1_extract(client, transcript: str) -> Tuple[Dict, int, int]:
     return merged, total_input, total_output
 
 
-def pass2_synthesize(client, extraction_json: str, podcast_name: str = "") -> Tuple[str, Dict, int, int]:
-    """Pass 2: Synthesize REAL ALPHA brief from extraction JSON using mini.
+def pass2_synthesize(
+    client,
+    extraction_json: str,
+    podcast_name: str = "",
+    extraction_dict: Dict = None,
+) -> Tuple[str, Dict, int, int, bool]:
+    """Pass 2: Synthesize REAL ALPHA brief + site contract from extraction JSON using mini.
+    
+    Split into two calls to avoid truncation:
+    1. Brief markdown (full REAL ALPHA sections)
+    2. Site contract JSON
     
     Never sees the transcript.
-    Returns (brief_markdown, site_contract_dict, input_tokens, output_tokens).
+    Returns (brief_markdown, site_contract_dict, total_input_tokens, total_output_tokens, was_truncated).
     """
-    prompt = SYNTHESIS_PROMPT + extraction_json
+    total_inp = 0
+    total_out = 0
+    was_truncated = False
     
-    content, inp, out = call_openai_text(client, PASS2_MODEL, prompt)
+    prompt_brief = SYNTHESIS_PROMPT + extraction_json
+    brief_content, inp1, out1, truncated1 = call_openai_text(
+        client, PASS2_MODEL, prompt_brief, max_tokens=12000
+    )
+    total_inp += inp1
+    total_out += out1
+    was_truncated = was_truncated or truncated1
     
-    print(f"    Pass 2 tokens: {inp:,} in / {out:,} out", flush=True)
+    print(f"    Pass 2a (brief) tokens: {inp1:,} in / {out1:,} out", flush=True)
     
-    brief_markdown = content
-    site_contract = {}
+    prompt_contract = SITE_CONTRACT_PROMPT + extraction_json
+    site_contract, inp2, out2 = call_openai_json(client, PASS2_MODEL, prompt_contract)
+    total_inp += inp2
+    total_out += out2
     
-    if "---SITE_CONTRACT_JSON---" in content:
-        parts = content.split("---SITE_CONTRACT_JSON---", 1)
-        brief_markdown = parts[0].strip()
-        try:
-            json_part = parts[1].strip()
-            if json_part.startswith("```json"):
-                json_part = json_part[7:]
-            if json_part.startswith("```"):
-                json_part = json_part[3:]
-            if json_part.endswith("```"):
-                json_part = json_part[:-3]
-            site_contract = json.loads(json_part.strip())
-        except (json.JSONDecodeError, IndexError):
-            pass
+    print(f"    Pass 2b (contract) tokens: {inp2:,} in / {out2:,} out", flush=True)
     
-    return brief_markdown, site_contract, inp, out
+    if extraction_dict:
+        ext_guests = extraction_dict.get("guests") or []
+        ext_hosts = extraction_dict.get("hosts") or []
+        if ext_guests and not site_contract.get("guests"):
+            site_contract["guests"] = ext_guests
+        if ext_hosts and not site_contract.get("hosts"):
+            site_contract["hosts"] = ext_hosts
+        
+        ext_quotes = extraction_dict.get("high_value_quotes") or []
+        if ext_quotes and not site_contract.get("notable_quotes"):
+            site_contract["notable_quotes"] = [
+                {"speaker": q.get("speaker", ""), "quote": q.get("quote", "")}
+                for q in ext_quotes[:3]
+                if q.get("speaker") and q.get("quote")
+            ]
+    
+    return brief_content, site_contract, total_inp, total_out, was_truncated
 
 
-def map_to_site_fields(extraction: Dict, site_contract: Dict, brief_markdown: str) -> Dict:
+def map_to_site_fields(
+    extraction: Dict,
+    site_contract: Dict,
+    brief_markdown: str,
+    episode_title: str = "",
+    episode_date: str = "",
+) -> Dict:
     """Map REAL ALPHA extraction + synthesis to the site contract fields.
+    
+    Args:
+        extraction: Pass 1 extraction dict
+        site_contract: Pass 2 site contract dict
+        brief_markdown: Pass 2 REAL ALPHA brief
+        episode_title: From DB/sidecar (not model-generated)
+        episode_date: From DB/sidecar (not model-generated)
     
     Returns dict compatible with the current analyzer's output format.
     """
@@ -482,30 +724,52 @@ def map_to_site_fields(extraction: Dict, site_contract: Dict, brief_markdown: st
         hvq = extraction.get("high_value_quotes") or []
         for q in hvq[:3]:
             if isinstance(q, dict) and q.get("speaker") and q.get("quote"):
+                speaker = q["speaker"]
+                if speaker.lower().startswith("unidentified") or speaker.lower() in ("guest", "host", "speaker"):
+                    continue
                 quotes.append({
-                    "speaker": q["speaker"][:120],
+                    "speaker": speaker[:120],
                     "quote": q["quote"][:400]
                 })
     
-    tickers = site_contract.get("key_tickers") or []
+    raw_ticker_mentions = site_contract.get("ticker_mentions") or []
+    companies = extraction.get("companies_and_assets") or []
+    filtered_tickers = filter_substantive_tickers(raw_ticker_mentions, companies)
+    
+    for tm in filtered_tickers:
+        tm["ticker"] = collapse_share_class(tm.get("ticker", ""))
+    
+    tickers = []
+    seen = set()
+    for tm in filtered_tickers:
+        t = tm.get("ticker", "")
+        if t and t not in seen:
+            tickers.append(t)
+            seen.add(t)
+    
     if not tickers:
-        companies = extraction.get("companies_and_assets") or []
-        for c in companies[:6]:
-            if isinstance(c, str) and c.isupper() and len(c) <= 5:
-                tickers.append(c)
+        raw_tickers = site_contract.get("key_tickers") or []
+        for t in raw_tickers:
+            tc = collapse_share_class(t)
+            if tc and tc not in seen:
+                tickers.append(tc)
+                seen.add(tc)
+    
+    guests = site_contract.get("guests") or extraction.get("guests") or []
+    hosts = site_contract.get("hosts") or extraction.get("hosts") or []
     
     result = {
-        "episode_title": site_contract.get("episode_title", ""),
-        "episode_date": date.today().isoformat(),
+        "episode_title": episode_title or site_contract.get("episode_title", ""),
+        "episode_date": episode_date or date.today().isoformat(),
         "summary": site_contract.get("summary") or extraction.get("episode_summary", ""),
         "key_takeaways": site_contract.get("key_takeaways") or [],
         "key_tickers": tickers[:6],
         "investment_thesis": site_contract.get("investment_thesis", ""),
         "notable_quotes": quotes[:3],
-        "ticker_mentions": site_contract.get("ticker_mentions") or [],
+        "ticker_mentions": filtered_tickers,
         "emerging_terms": site_contract.get("emerging_terms") or [],
-        "guests": site_contract.get("guests") or [],
-        "hosts": site_contract.get("hosts") or [],
+        "guests": guests,
+        "hosts": hosts,
         "sentiment": site_contract.get("sentiment", "neutral"),
         "_extraction_json": json.dumps(extraction),
         "_brief_markdown": brief_markdown,
@@ -523,6 +787,10 @@ def analyze_transcript_two_pass(
     podcast_name: str,
     episode_id: Optional[int] = None,
     cache: Optional[TwoPassAnalyzerCache] = None,
+    episode_title: str = "",
+    episode_date: str = "",
+    guest_names: List[str] = None,
+    host_names: List[str] = None,
 ) -> Optional[Dict]:
     """Full two-pass analysis. Returns dict compatible with existing analyzer output.
     
@@ -532,6 +800,10 @@ def analyze_transcript_two_pass(
         podcast_name: Name of podcast
         episode_id: Episode ID for caching (optional)
         cache: Cache instance (optional)
+        episode_title: From DB/sidecar (used for speaker extraction and stored as-is)
+        episode_date: From DB/sidecar (used as-is, not model-generated)
+        guest_names: Known guest names for attribution
+        host_names: Known host names for attribution
     
     Returns:
         Analysis dict, or None on failure
@@ -559,17 +831,30 @@ def analyze_transcript_two_pass(
                 site_contract = {}
                 brief_clean = brief
             
-            return map_to_site_fields(extraction, site_contract, brief_clean)
+            return map_to_site_fields(
+                extraction, site_contract, brief_clean,
+                episode_title=episode_title, episode_date=episode_date
+            )
     
     print(f"    Pass 1: Extracting with {PASS1_MODEL}...", flush=True)
-    extraction, p1_in, p1_out = pass1_extract(client, transcript)
+    extraction, p1_in, p1_out = pass1_extract(
+        client, transcript,
+        podcast_name=podcast_name,
+        episode_title=episode_title,
+        episode_date=episode_date,
+        guest_names=guest_names,
+        host_names=host_names,
+    )
     
     extraction_json = json.dumps(extraction, indent=2)
     
     print(f"    Pass 2: Synthesizing with {PASS2_MODEL}...", flush=True)
-    brief, site_contract, p2_in, p2_out = pass2_synthesize(
-        client, extraction_json, podcast_name
+    brief, site_contract, p2_in, p2_out, was_truncated = pass2_synthesize(
+        client, extraction_json, podcast_name, extraction_dict=extraction
     )
+    
+    if was_truncated:
+        print(f"    ⚠ Brief may be incomplete - check sections", flush=True)
     
     total_cost = (
         (p1_in / 1_000_000 * 0.20) + (p1_out / 1_000_000 * 1.25) +
@@ -584,7 +869,10 @@ def analyze_transcript_two_pass(
             p1_in, p1_out, p2_in, p2_out
         )
     
-    return map_to_site_fields(extraction, site_contract, brief)
+    return map_to_site_fields(
+        extraction, site_contract, brief,
+        episode_title=episode_title, episode_date=episode_date
+    )
 
 
 def is_two_pass_enabled() -> bool:

@@ -7,6 +7,9 @@ Tests:
 - 429/insufficient_quota batch stop
 - Transcript chunking
 - Field mapping from extraction to site contract
+- Speaker name extraction from episode title
+- Ticker share-class collapse
+- Ticker substantive filtering
 """
 
 import json
@@ -26,6 +29,10 @@ from two_pass_analyzer import (
     transcript_sha256,
     InsufficientQuotaError,
     CHUNK_TOKEN_BUDGET,
+    extract_guest_names_from_title,
+    collapse_share_class,
+    filter_substantive_tickers,
+    build_extraction_prompt,
 )
 
 
@@ -206,15 +213,17 @@ class TestFieldMapping:
         result = map_to_site_fields(extraction, site_contract, "")
         assert result["sentiment"] == "neutral"
 
-    def test_tickers_from_extraction_fallback(self):
-        extraction = {
-            "companies_and_assets": ["AAPL", "MSFT", "GOOGL"],
+    def test_tickers_from_site_contract(self):
+        extraction = {}
+        site_contract = {
+            "key_tickers": ["AAPL", "MSFT", "GOOGL"],
+            "ticker_mentions": [
+                {"ticker": "AAPL", "context": "Apple discussed at length with specific numbers and analysis."},
+            ],
         }
-        site_contract = {}
         result = map_to_site_fields(extraction, site_contract, "")
         
         assert "AAPL" in result["key_tickers"]
-        assert "MSFT" in result["key_tickers"]
 
 
 class TestInsufficientQuotaError:
@@ -275,6 +284,170 @@ class TestFeatureFlag:
             import two_pass_analyzer
             reload(two_pass_analyzer)
             assert two_pass_analyzer.is_two_pass_enabled() is False
+
+
+class TestExtractGuestNames:
+    """Tests for extracting guest names from episode titles."""
+
+    def test_astro_teller_pattern(self):
+        title = "Google X's Astro Teller: The $1B Bet No CEO Will Back"
+        guests = extract_guest_names_from_title(title)
+        assert "Astro Teller" in guests
+
+    def test_colon_pattern(self):
+        title = "Kevin Mandia: Building Defense for the Agentic Era"
+        guests = extract_guest_names_from_title(title)
+        assert len(guests) >= 1
+        assert any("Mandia" in g for g in guests)
+
+    def test_no_guest_in_title(self):
+        title = "EP #300 Special Anniversary"
+        guests = extract_guest_names_from_title(title)
+        assert len(guests) == 0
+
+    def test_possessive_pattern(self):
+        title = "Google X's Astro Teller: Big Ideas"
+        guests = extract_guest_names_from_title(title)
+        assert "Astro Teller" in guests
+
+
+class TestCollapseShareClass:
+    """Tests for share-class collapse (GOOG → GOOGL)."""
+
+    def test_goog_to_googl(self):
+        assert collapse_share_class("GOOG") == "GOOGL"
+
+    def test_googl_unchanged(self):
+        assert collapse_share_class("GOOGL") == "GOOGL"
+
+    def test_other_ticker_unchanged(self):
+        assert collapse_share_class("AAPL") == "AAPL"
+        assert collapse_share_class("MSFT") == "MSFT"
+        assert collapse_share_class("NVDA") == "NVDA"
+
+    def test_lowercase_normalized(self):
+        assert collapse_share_class("goog") == "GOOGL"
+        assert collapse_share_class("aapl") == "AAPL"
+
+
+class TestFilterSubstantiveTickers:
+    """Tests for filtering tickers without substantive context."""
+
+    def test_filters_no_discussion(self):
+        mentions = [
+            {"ticker": "AAPL", "context": "Apple was discussed extensively with specific revenue numbers and detailed analysis of their services business."},
+            {"ticker": "WBD", "context": "No substantive discussion of WBD was provided."},
+        ]
+        filtered = filter_substantive_tickers(mentions, ["Apple"])
+        tickers = [m["ticker"] for m in filtered]
+        assert "AAPL" in tickers
+        assert "WBD" not in tickers
+
+    def test_keeps_substantive_context(self):
+        mentions = [
+            {"ticker": "NVDA", "context": "NVIDIA's data center revenue grew 150% YoY, driven by AI demand. Jensen Huang discussed the roadmap for B100 and beyond."},
+        ]
+        filtered = filter_substantive_tickers(mentions, [])
+        assert len(filtered) == 1
+        assert filtered[0]["ticker"] == "NVDA"
+
+    def test_collapse_share_class_in_filter(self):
+        mentions = [
+            {"ticker": "GOOG", "context": "Google's AI investments continue with substantial capex guidance."},
+        ]
+        filtered = filter_substantive_tickers(mentions, ["Google", "Alphabet"])
+        assert len(filtered) == 1
+        assert filtered[0]["ticker"] == "GOOGL"
+
+    def test_deduplicates_after_collapse(self):
+        mentions = [
+            {"ticker": "GOOG", "context": "Google Class C shares are heavily traded with significant volume and market analysis."},
+            {"ticker": "GOOGL", "context": "Alphabet Class A shares represent voting rights with significant institutional ownership."},
+        ]
+        filtered = filter_substantive_tickers(mentions, ["Alphabet", "Google"])
+        tickers = [m["ticker"] for m in filtered]
+        assert tickers.count("GOOGL") == 1
+        assert "GOOG" not in tickers
+
+    def test_in_companies_passes(self):
+        mentions = [
+            {"ticker": "TSLA", "context": "Brief mention"},  # Short context but in companies
+        ]
+        filtered = filter_substantive_tickers(mentions, ["Tesla", "TSLA"])
+        assert len(filtered) == 1
+
+
+class TestBuildExtractionPrompt:
+    """Tests for building extraction prompt with metadata."""
+
+    def test_includes_metadata(self):
+        prompt = build_extraction_prompt(
+            transcript="Test transcript",
+            podcast_name="Moonshots with Peter Diamandis",
+            episode_title="Astro Teller Interview",
+            episode_date="2026-10-05",
+        )
+        assert "Moonshots with Peter Diamandis" in prompt
+        assert "Astro Teller Interview" in prompt
+        assert "2026-10-05" in prompt
+
+    def test_includes_known_hosts(self):
+        prompt = build_extraction_prompt(
+            transcript="Test",
+            podcast_name="Moonshots with Peter Diamandis",
+        )
+        assert "Peter Diamandis" in prompt
+
+    def test_includes_guest_names(self):
+        prompt = build_extraction_prompt(
+            transcript="Test",
+            guest_names=["John Smith", "Jane Doe"],
+        )
+        assert "John Smith" in prompt
+        assert "Jane Doe" in prompt
+
+    def test_includes_speaker_attribution_rules(self):
+        prompt = build_extraction_prompt(transcript="Test")
+        assert "SPEAKER ATTRIBUTION" in prompt
+
+    def test_includes_numbers_filter(self):
+        prompt = build_extraction_prompt(transcript="Test")
+        assert "NUMBERS FILTER" in prompt
+        assert "event logistics" in prompt.lower()
+
+
+class TestMapToSiteFieldsWithMetadata:
+    """Tests for map_to_site_fields with episode metadata."""
+
+    def test_uses_provided_date(self):
+        result = map_to_site_fields(
+            extraction={},
+            site_contract={},
+            brief_markdown="",
+            episode_date="2026-10-05",
+        )
+        assert result["episode_date"] == "2026-10-05"
+
+    def test_uses_provided_title(self):
+        result = map_to_site_fields(
+            extraction={},
+            site_contract={},
+            brief_markdown="",
+            episode_title="Custom Title",
+        )
+        assert result["episode_title"] == "Custom Title"
+
+    def test_filters_unidentified_speakers(self):
+        extraction = {
+            "high_value_quotes": [
+                {"speaker": "Unidentified speaker", "quote": "Some quote"},
+                {"speaker": "John Smith", "quote": "Another quote"},
+            ],
+        }
+        result = map_to_site_fields(extraction, {}, "")
+        speakers = [q["speaker"] for q in result["notable_quotes"]]
+        assert "Unidentified speaker" not in speakers
+        assert "John Smith" in speakers
 
 
 if __name__ == "__main__":
