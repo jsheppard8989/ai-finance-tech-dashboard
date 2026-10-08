@@ -1,6 +1,117 @@
 {
   "insights": [
     {
+      "id": 568,
+      "title": "How Valon Rebuilt a $13 Trillion Industry From Scratch",
+      "source_type": "podcast",
+      "source_name": "The a16z Show",
+      "source_date": "2026-10-07",
+      "summary": "Angela Strange interviewed Valon executives about why mortgage servicing became the target for a full-stack infrastructure rebuild. The central argument was that a $13 trillion consumer-debt market still depends on legacy technology designed before the internet, creating operational errors, poor consumer experiences, and regulatory complexity that modern software and AI can address only if the system of record is rebuilt first.\n\nAndrew Wang traced the origin of Valon to his work at Soros, where mortgage investing exposed reconciliation problems across large datasets, money movement, and accounting entries. The guests argued that Valon had to become a mortgage servicer before becoming a software company because a software-only approach would have forced the company to conform to incumbent workflows, while operating its own servicer proved the system through state exams, Fannie Mae audits, Freddie Mac audits, Ginnie Mae processes, and real-world servicing risk.\n\nThe discussion emphasized licensing and regulation as core barriers. Andrew Wang said mortgage servicing approvals could take three to five years at minimum, New York approval took about three years, and COVID gave him time to spend 18 hours a day for six months reading federal and 50-state regulations and turning them into a software architecture.\n\nThere was no substantive disagreement among the speakers; the discussion was framed as a shared postmortem on a difficult build. The clearest prediction was that AI agents will let servicers automate long-tail workflows such as disaster outreach, escrow analysis, and customer-specific strategies, while Angela Strange noted that Rithm confirmed a 4 million loan transfer to Valon, nearly 10% of the market.",
+      "key_takeaway": "Angela Strange said Rithm confirmed a 4 million loan transfer to Valon, nearly 10% of the market, after Valon rebuilt mortgage servicing around a modern system of record.",
+      "tickers_mentioned": [
+        "RITM",
+        "FNMA",
+        "FMCC"
+      ],
+      "sentiment": "neutral",
+      "display_on_main": 1,
+      "display_order": 0,
+      "added_date": "2026-10-07",
+      "archived_date": null,
+      "archived_reason": null,
+      "podcast_episode_id": 558,
+      "notable_quotes": [
+        {
+          "speaker": "Andrew Wang",
+          "quote": "Turns out, it never tied."
+        },
+        {
+          "speaker": "Andrew Wang",
+          "quote": "We actually got the approval for New York in a record time of, I want to say, three years."
+        },
+        {
+          "speaker": "Angela Strange",
+          "quote": "If you unpack crappy consumer or business experiences, it usually often comes down to the plumbing."
+        }
+      ]
+    },
+    {
+      "id": 569,
+      "title": "The Most Extreme Shipping Market in History, Explained | J Mintzmyer on Why Oil Tanker Rates Are Up 25x and Why It Can\u2019t Last (and Why Dry Bulk, not Tankers, is the Next Shipping Boom)",
+      "source_type": "podcast",
+      "source_name": "Monetary Matters with Jack Farley",
+      "source_date": "2026-10-06",
+      "summary": "Jack Farley interviewed J Mintzmyer, founder and president of Value Investors Edge, about the extreme tanker market created by the Iran war and disruptions around the Strait of Hormuz. Mintzmyer said recent VLCC spot fixtures from the Middle East Gulf to China reached roughly $1.0 million to $1.2 million per day, compared with a normal tanker rate of about $20,000 to $40,000 per day, while one-year charter rates recently reached about $150,000 to $170,000 per day.\n\nMintzmyer argued the spike did not come from one factor alone, but from a tight tanker fleet, old ships, low forward supply, longer trade routes after Russia sanctions, Houthi disruptions in the Red Sea, and the sudden dislocation of vessels after the Strait of Hormuz closure and partial reopening. He estimated that roughly 70% to 80% of pre-conflict flows had returned through the Strait of Hormuz, or about 12 million to 14 million barrels per day versus closer to 20 million barrels per day before the conflict, but said AIS data is unreliable in real time because many ships turn off or delay signals.\n\nThe central disagreement was with the instinctive view that disruptions are bad for shipping. Mintzmyer said short-term disruptions often raise rates because they increase ton miles and create vessel scarcity, while permanent closures or long-term export bans can be bearish by destroying cargo demand. He specifically said a several-month US diesel export ban would likely be very bearish for product tankers after a brief panic phase.\n\nMintzmyer was cautious on crude tanker rates and assets, saying $1 million per day rates are unsustainable and could normalize within days or weeks, not months. He differentiated between rates, ship asset values, and equities: he was least bullish on rates, concerned that ship assets were too rich, and described many tanker equities as closer to holds.\n\nHis preferred segment was dry bulk, where he said Capesize rates had risen from about $20,000 per day to $40,000 to $50,000 per day, far below the tanker market's 25x move but still highly profitable. He argued dry bulk could benefit for two to three years from limited supply, older fleets, coal switching from high LNG prices, and China's shift of iron ore and bauxite purchases from Australia toward Guinea, which more than triples the voyage distance to China.",
+      "key_takeaway": "J Mintzmyer argues dry bulk, not tankers, has the stronger setup because Capesize rates near $40,000 to $50,000 per day meet restrained supply and longer Guinea-to-China ton miles.",
+      "tickers_mentioned": [
+        "LENS",
+        "BWET",
+        "ECO",
+        "DHT",
+        "FRO",
+        "CNBT"
+      ],
+      "sentiment": "bullish",
+      "display_on_main": 0,
+      "display_order": 0,
+      "added_date": "2026-10-07",
+      "archived_date": null,
+      "archived_reason": null,
+      "podcast_episode_id": 559,
+      "notable_quotes": [
+        {
+          "speaker": "J Mintzmyer",
+          "quote": "The oil must flow."
+        },
+        {
+          "speaker": "J Mintzmyer",
+          "quote": "You got 99 cargos and 100 ships. It's a bust. All right. You got 100 cargos and 99 ships and it's a boom."
+        },
+        {
+          "speaker": "J Mintzmyer",
+          "quote": "The rates are absolutely unsustainable jack."
+        }
+      ]
+    },
+    {
+      "id": 570,
+      "title": "Building Defense for the Agentic Era: Kevin Mandia",
+      "source_type": "podcast",
+      "source_name": "The a16z Show",
+      "source_date": "2026-10-06",
+      "summary": "Kevin Mandia, founder and CEO of Armored in and founder of Mandiant, argues that AI changes cybersecurity from human-speed attacks to machine-speed attacks. He says the open models are already strong enough for cyber offense, that attackers can probe many paths at once, and that less sophisticated attackers will look much more capable as models democratize expertise.",
+      "key_takeaway": "Kevin Mandia argues cybersecurity will shift to autonomous AI defense over the next two years because AI attacks move at machine speed and Armored in has already found over 90 production zero days since January 2026.",
+      "tickers_mentioned": [
+        "GOOGL",
+        "CRWD",
+        "PANW",
+        "FTNT",
+        "RPD",
+        "QLYS"
+      ],
+      "sentiment": "neutral",
+      "display_on_main": 1,
+      "display_order": 0,
+      "added_date": "2026-10-07",
+      "archived_date": null,
+      "archived_reason": null,
+      "podcast_episode_id": 557,
+      "notable_quotes": [
+        {
+          "speaker": "Kevin Mandia",
+          "quote": "Everything I did is dead and everything else is new."
+        },
+        {
+          "speaker": "Kevin Mandia",
+          "quote": "What AI does in a microsecond would take 70 humans, they can't even do it."
+        },
+        {
+          "speaker": "Kevin Mandia",
+          "quote": "This is a tsunami like it has never been seen before in security."
+        }
+      ]
+    },
+    {
       "id": 567,
       "title": "The Top 100 Consumer AI Apps: Who\u2019s Actually Paying?",
       "source_type": "podcast",
@@ -33,6 +144,40 @@
         {
           "speaker": "Josh Elman",
           "quote": "I think the reality is people are now building software and they're building these really rich products"
+        }
+      ]
+    },
+    {
+      "id": 571,
+      "title": "Google X's Astro Teller: The $1B Bet No CEO Will Back, Moonshots 3x Cheaper in 16 Yrs, and Clean Water at 1\u00a2/L| EP #300",
+      "source_type": "podcast",
+      "source_name": "Moonshots with Peter Diamandis",
+      "source_date": "2026-10-05",
+      "summary": "Astro Teller described Alphabet's X as a moonshot factory built around a specific test: a huge named problem, a science-fiction-sounding product or service, and a breakthrough technology that gives the idea at least a small chance of working. He argued that audacity must be paired with humility, because most moonshots fail and teams have to learn quickly and cheaply whether the core risk is real.\n\nThe conversation centered on the economics of radical innovation. Teller said X starts 100 to 200 codenamed ideas per year and graduates about two moonshots roughly five to six years later, implying about a 2% hit rate. He said X has reduced the cost of getting to graduates by about a factor of three over 16 years, helped by AI, earlier graduation, and better operating discipline. A questioner challenged whether that reduction simply reflected broader market and economic capacity, but Teller rejected the comparison, saying the cost to create a moonshot and the eventual value of that moonshot are different measures.\n\nSeveral specific moonshot categories were discussed, including clean water, grid-scale energy storage, electric-grid redesign, circularity, and education. Teller said clean water needs to reach about one cent per liter all-in to change the world, while a 10 cent per liter solution would likely fail the techno-economic test. He also framed Google Brain as an X success story that began about 15.5 years ago with Andrew Ng and Jeff Dean and later contributed to TPUs and the transformer architecture underlying ChatGPT.\n\nTeller predicted AGI will shorten the cycle from crazy idea to evidence-backed idea, but he said humans will remain necessary for at least the next decade or two because choosing problems and making solutions socially acceptable still require human judgment. He also argued that companies fail to replicate X mainly because they do not engineer a protected culture where high-variance, high-expected-value projects can survive outside the core organization's short-term performance demands.",
+      "key_takeaway": "Astro Teller says X reduced the cost of graduating moonshots by about 3x over 16 years, partly through AI, earlier graduations, and improved operating discipline.",
+      "tickers_mentioned": [
+        "GOOGL",
+        "LMT"
+      ],
+      "sentiment": "neutral",
+      "display_on_main": 1,
+      "display_order": 0,
+      "added_date": "2026-10-07",
+      "archived_date": null,
+      "archived_reason": null,
+      "podcast_episode_id": 560,
+      "notable_quotes": [
+        {
+          "speaker": "Astro Teller",
+          "quote": "Taking moonshots is really, really easy."
+        },
+        {
+          "speaker": "Astro Teller",
+          "quote": "You only learn things when you're wrong."
+        },
+        {
+          "speaker": "Astro Teller",
+          "quote": "It costs us nothing to say no."
         }
       ]
     },
@@ -300,7 +445,7 @@
       "key_takeaway": "Si Sheppard argues Spain's 16th-century silver windfall imported inflation and delayed capital-market development, while England and the Netherlands advanced through banking, trade, and industrial investment.",
       "tickers_mentioned": [],
       "sentiment": "neutral",
-      "display_on_main": 1,
+      "display_on_main": 0,
       "display_order": 0,
       "added_date": "2026-10-01",
       "archived_date": null,
@@ -331,7 +476,7 @@
       "key_takeaway": "Barrett Lyon argues DoxxNet differs from VPNs by owning hardware across 26 sites and enabling encrypted peer-to-peer communication without central servers, reducing leased-server and insider-threat exposure.",
       "tickers_mentioned": [],
       "sentiment": "neutral",
-      "display_on_main": 1,
+      "display_on_main": 0,
       "display_order": 0,
       "added_date": "2026-10-01",
       "archived_date": null,
@@ -369,7 +514,7 @@
         "NVDA"
       ],
       "sentiment": "bullish",
-      "display_on_main": 1,
+      "display_on_main": 0,
       "display_order": 0,
       "added_date": "2026-10-01",
       "archived_date": null,
@@ -11828,6 +11973,24 @@
   "definitions": [],
   "overton": [
     {
+      "id": 296,
+      "term": "Human in the Loop",
+      "description": "A deployment model where humans review, guide, or approve agent actions before the system becomes more autonomous.",
+      "first_detected_date": "2026-10-02",
+      "last_mentioned_date": "2026-10-06",
+      "mention_count": 2,
+      "source_podcasts": null,
+      "status": "active",
+      "investment_implications": "Human-in-the-loop systems create trust and training data that can move enterprise customers from pilot use to higher-value autonomous workflows.",
+      "display_on_main": 0,
+      "archived_date": null,
+      "archived_reason": null,
+      "first_detected_episode_id": 546,
+      "first_detected_speaker": "Seema Amble, Vlad Kyle",
+      "last_mentioned_episode_id": 557,
+      "last_mentioned_speaker": "Kevin Mandia"
+    },
+    {
       "id": 295,
       "term": "Annualized Run Rate",
       "description": "Annualized Run Rate is a revenue presentation that multiplies a short period of revenue by a full year. Zitron argued that AI companies use undefined run-rate figures in ways that can make revenue appear much larger than audited sales.",
@@ -11886,8 +12049,8 @@
       "term": "Superintelligence",
       "description": "Superintelligence refers to AI that surpasses human cognitive abilities, potentially reshaping societal structures and governance.",
       "first_detected_date": "2026-09-27",
-      "last_mentioned_date": "2026-10-02",
-      "mention_count": 4,
+      "last_mentioned_date": "2026-10-05",
+      "mention_count": 5,
       "source_podcasts": null,
       "status": "active",
       "investment_implications": "The rise of superintelligence may lead to new economic models and governance, impacting investment strategies.",
@@ -11896,8 +12059,8 @@
       "archived_reason": null,
       "first_detected_episode_id": 526,
       "first_detected_speaker": "Peter Diamandis (hosts)",
-      "last_mentioned_episode_id": 547,
-      "last_mentioned_speaker": "Peter Diamandis, Alex Wissner-Gross (hosts)"
+      "last_mentioned_episode_id": 560,
+      "last_mentioned_speaker": "Astro Teller"
     },
     {
       "id": 286,
@@ -12102,8 +12265,8 @@
       "term": "Simulation",
       "description": "The use of models and computer programs to represent and analyze real or imagined systems or situations.",
       "first_detected_date": "2026-08-21",
-      "last_mentioned_date": "2026-10-03",
-      "mention_count": 24,
+      "last_mentioned_date": "2026-10-07",
+      "mention_count": 25,
       "source_podcasts": null,
       "status": "active",
       "investment_implications": "Simulation technology can provide significant insights for decision-making, making investments in this area potentially valuable.",
@@ -12112,8 +12275,8 @@
       "archived_reason": null,
       "first_detected_episode_id": 420,
       "first_detected_speaker": "June",
-      "last_mentioned_episode_id": 550,
-      "last_mentioned_speaker": "Richard Socher"
+      "last_mentioned_episode_id": 558,
+      "last_mentioned_speaker": "Andrew Wang"
     },
     {
       "id": 272,
@@ -12676,20 +12839,20 @@
     {
       "id": 59,
       "term": "Strait of Hormuz",
-      "description": "A strategic waterway through which a significant portion of the world's oil supply is transported.",
+      "description": "A key maritime chokepoint for Middle East oil flows that was described as closed early in the conflict and later partially reopened under US protection. Mintzmyer estimated current flows at roughly 70% to 80% of pre-conflict levels.",
       "first_detected_date": "2026-06-07",
-      "last_mentioned_date": "2026-09-25",
-      "mention_count": 9,
+      "last_mentioned_date": "2026-10-06",
+      "mention_count": 10,
       "source_podcasts": null,
       "status": "active",
-      "investment_implications": "Tensions in this region can lead to significant disruptions in global oil supply and price volatility.",
+      "investment_implications": "Disruption or partial reopening can move tanker rates by changing vessel availability, route risk, and cargo urgency.",
       "display_on_main": 0,
       "archived_date": null,
       "archived_reason": null,
       "first_detected_episode_id": 269,
       "first_detected_speaker": null,
-      "last_mentioned_episode_id": 528,
-      "last_mentioned_speaker": "Erik Townsend (hosts)"
+      "last_mentioned_episode_id": 559,
+      "last_mentioned_speaker": "J Mintzmyer"
     },
     {
       "id": 232,
@@ -12966,8 +13129,8 @@
       "term": "Singularity",
       "description": "The episode frames biology as approaching a point where AI, compute, DNA synthesis, multiplex editing, and artificial gestation could allow CAD-like design of organisms. Lamm said this kind of design world is less than 10 years away.",
       "first_detected_date": "2026-05-15",
-      "last_mentioned_date": "2026-10-03",
-      "mention_count": 78,
+      "last_mentioned_date": "2026-10-05",
+      "mention_count": 79,
       "source_podcasts": null,
       "status": "active",
       "investment_implications": "This matters for synthetic biology, lab automation, genomics data infrastructure, and companies building tools that turn biological design into an engineering workflow.",
@@ -12976,8 +13139,8 @@
       "archived_reason": null,
       "first_detected_episode_id": 221,
       "first_detected_speaker": null,
-      "last_mentioned_episode_id": 550,
-      "last_mentioned_speaker": "Richard Socher"
+      "last_mentioned_episode_id": 560,
+      "last_mentioned_speaker": "Astro Teller"
     },
     {
       "id": 97,
@@ -13093,7 +13256,7 @@
       "description": "AGI refers to Artificial General Intelligence, a type of AI that can understand, learn, and apply intelligence across a wide range of tasks, similar to human cognitive abilities.",
       "first_detected_date": "2026-05-07",
       "last_mentioned_date": "2026-10-05",
-      "mention_count": 112,
+      "mention_count": 113,
       "source_podcasts": null,
       "status": "active",
       "investment_implications": "Investors should focus on companies developing AGI technologies as they are likely to drive significant industry transformations.",
@@ -13102,8 +13265,8 @@
       "archived_reason": null,
       "first_detected_episode_id": 204,
       "first_detected_speaker": "Demis Hassabis",
-      "last_mentioned_episode_id": 552,
-      "last_mentioned_speaker": "Olivia Moore, Josh Elman"
+      "last_mentioned_episode_id": 560,
+      "last_mentioned_speaker": "Astro Teller"
     },
     {
       "id": 162,
@@ -13594,20 +13757,20 @@
     {
       "id": 78,
       "term": "Open-Source AI Models",
-      "description": "Models outside the closed frontier-lab systems that can be cheaper or more customizable. David George argues open and n-1 models can grow alongside frontier systems as usage expands and cost sensitivity rises.",
+      "description": "Kevin Mandia argued that open models are already strong enough for cyber offense because exploit discovery is structured code and process work. In Armored in's tests, open-weight and advanced closed models ultimately reached the same outcomes, with cost and speed as the key differences.",
       "first_detected_date": "2026-03-29",
-      "last_mentioned_date": "2026-10-04",
-      "mention_count": 32,
+      "last_mentioned_date": "2026-10-06",
+      "mention_count": 33,
       "source_podcasts": null,
       "status": "active",
-      "investment_implications": "The model layer may not be winner-take-all if 20x to 50x usage growth creates demand for different price-performance tiers.",
+      "investment_implications": "If open models are adequate for cyber offense, the barrier to AI-enabled attacks falls and enterprise security demand may accelerate.",
       "display_on_main": 0,
       "archived_date": null,
       "archived_reason": null,
       "first_detected_episode_id": null,
       "first_detected_speaker": null,
-      "last_mentioned_episode_id": 551,
-      "last_mentioned_speaker": "David George"
+      "last_mentioned_episode_id": 557,
+      "last_mentioned_speaker": "Kevin Mandia"
     },
     {
       "id": 79,
@@ -14026,20 +14189,20 @@
     {
       "id": 19,
       "term": "Regulatory Moat",
-      "description": "In this context, the structural advantage private equity gains from insurance regulation's inferior capacity to police investment risk versus banking regulation.",
+      "description": "A barrier created by the time, licenses, approvals, audits, and domain expertise required to operate in regulated mortgage servicing across federal rules and 50 states.",
       "first_detected_date": "2026-03-13",
-      "last_mentioned_date": "2026-09-06",
-      "mention_count": 5,
+      "last_mentioned_date": "2026-10-07",
+      "mention_count": 6,
       "source_podcasts": null,
       "status": "active",
-      "investment_implications": "Suggests eventual regulatory convergence toward bank-like standards, threatening current PE insurer business models and potentially repricing private credit.",
+      "investment_implications": "It explains why infrastructure companies in regulated markets may compound advantage through approvals and embedded compliance knowledge.",
       "display_on_main": 0,
       "archived_date": null,
       "archived_reason": null,
       "first_detected_episode_id": null,
       "first_detected_speaker": null,
-      "last_mentioned_episode_id": 461,
-      "last_mentioned_speaker": "Jack Farley (hosts)"
+      "last_mentioned_episode_id": 558,
+      "last_mentioned_speaker": "Andrew Wang"
     },
     {
       "id": 21,
@@ -14170,20 +14333,20 @@
     {
       "id": 114,
       "term": "AI Agents",
-      "description": "Software products that use AI to complete tasks for users, such as shopping, booking, coding, writing emails, or coordinating across apps. The episode frames personal agents as the newest consumer AI paradigm after prompt-box chat products.",
+      "description": "Software agents working alongside humans as teammates in the innovation process, automating parts of the moonshot factory and helping teams move faster.",
       "first_detected_date": "2026-02-28",
       "last_mentioned_date": "2026-10-05",
-      "mention_count": 113,
+      "mention_count": 115,
       "source_podcasts": null,
       "status": "active",
-      "investment_implications": "Agent adoption shifts value toward products with trusted context, platform integrations, and transaction or ad monetization potential.",
+      "investment_implications": "It links AI deployment to R&D productivity and the falling cost of testing high-risk technical bets.",
       "display_on_main": 0,
       "archived_date": null,
       "archived_reason": null,
       "first_detected_episode_id": 31,
       "first_detected_speaker": null,
-      "last_mentioned_episode_id": 552,
-      "last_mentioned_speaker": "Olivia Moore, Josh Elman"
+      "last_mentioned_episode_id": 560,
+      "last_mentioned_speaker": "Astro Teller"
     },
     {
       "id": 38,
@@ -14332,20 +14495,20 @@
     {
       "id": 32,
       "term": "AI Agent Orchestration",
-      "description": "AI Agent Orchestration refers to coordinating multiple specialized agents, credentials, tool calls, and data-access boundaries so agents can collaborate without one general agent seeing or controlling everything.",
+      "description": "A workflow model where multiple AI agents are coordinated to complete regulated operating tasks such as homeowner calls, notifications, disaster outreach, and portfolio experiments.",
       "first_detected_date": "2026-02-18",
-      "last_mentioned_date": "2026-10-03",
-      "mention_count": 12,
+      "last_mentioned_date": "2026-10-07",
+      "mention_count": 13,
       "source_podcasts": null,
       "status": "active",
-      "investment_implications": "It highlights demand for platforms that manage agent communication, permissions, safety checks, and enterprise data boundaries.",
+      "investment_implications": "It reframes mortgage servicing software from static workflow automation into a platform for customized, continuously tested operating strategies.",
       "display_on_main": 0,
       "archived_date": null,
       "archived_reason": null,
       "first_detected_episode_id": 69,
       "first_detected_speaker": null,
-      "last_mentioned_episode_id": 549,
-      "last_mentioned_speaker": "Alex Atallah, Amjad Masad"
+      "last_mentioned_episode_id": 558,
+      "last_mentioned_speaker": "Andrew Wang"
     },
     {
       "id": 13,

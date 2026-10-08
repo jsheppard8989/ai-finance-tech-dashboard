@@ -1,5 +1,73 @@
 [
   {
+    "id": 558,
+    "podcast_name": "The a16z Show",
+    "episode_title": "How Valon Rebuilt a $13 Trillion Industry From Scratch",
+    "episode_date": "2026-10-07",
+    "summary": "Angela Strange interviewed Valon executives about why mortgage servicing became the target for a full-stack infrastructure rebuild. The central argument was that a $13 trillion consumer-debt market still depends on legacy technology designed before the internet, creating operational errors, poor consumer experiences, and regulatory complexity that modern software and AI can address only if the system of record is rebuilt first.\n\nAndrew Wang traced the origin of Valon to his work at Soros, where mortgage investing exposed reconciliation problems across large datasets, money movement, and accounting entries. The guests argued that Valon had to become a mortgage servicer before becoming a software company because a software-only approach would have forced the company to conform to incumbent workflows, while operating its own servicer proved the system through state exams, Fannie Mae audits, Freddie Mac audits, Ginnie Mae processes, and real-world servicing risk.\n\nThe discussion emphasized licensing and regulation as core barriers. Andrew Wang said mortgage servicing approvals could take three to five years at minimum, New York approval took about three years, and COVID gave him time to spend 18 hours a day for six months reading federal and 50-state regulations and turning them into a software architecture.\n\nThere was no substantive disagreement among the speakers; the discussion was framed as a shared postmortem on a difficult build. The clearest prediction was that AI agents will let servicers automate long-tail workflows such as disaster outreach, escrow analysis, and customer-specific strategies, while Angela Strange noted that Rithm confirmed a 4 million loan transfer to Valon, nearly 10% of the market.",
+    "key_takeaways": [
+      "A Valon executive argues mortgage servicing is a $13 trillion consumer-debt market still largely dependent on a single incumbent whose legacy system was built before the internet.",
+      "Andrew Wang said his Soros mortgage work exposed reconciliation failures because large volumes of data, money movement, and entries did not tie, motivating Valon's infrastructure build.",
+      "A Valon executive said the traditional software-only path would have left Valon beholden to one marquee customer's current workflows, risking a prettier UI on old processes after 10 years.",
+      "Andrew Wang said licensing created a three-to-five-year minimum approval stack, with New York mortgage approval taking about three years and California requiring state-specific workarounds.",
+      "Andrew Wang said COVID enabled an 18-hour-a-day, six-month effort to turn federal and 50-state mortgage, debt collection, foreclosure, privacy, and escrow rules into an abstract software framework.",
+      "A Valon executive claimed Valon's technology made servicing about three times as efficient, turning a break-even business into a 70% to 80% operating-margin business by lowering operating cost.",
+      "Angela Strange said Rithm confirmed a transfer of 4 million loans to Valon, nearly 10% of the market, after Valon signed more than $200 million of software deals within six months of going to market."
+    ],
+    "investment_thesis": "Angela Strange said Rithm confirmed a 4 million loan transfer to Valon, nearly 10% of the market, after Valon rebuilt mortgage servicing around a modern system of record.",
+    "key_tickers": [
+      "RITM",
+      "FNMA",
+      "FMCC"
+    ]
+  },
+  {
+    "id": 557,
+    "podcast_name": "The a16z Show",
+    "episode_title": "Building Defense for the Agentic Era: Kevin Mandia",
+    "episode_date": "2026-10-06",
+    "summary": "Kevin Mandia, founder and CEO of Armored in and founder of Mandiant, argues that AI changes cybersecurity from human-speed attacks to machine-speed attacks. He says the open models are already strong enough for cyber offense, that attackers can probe many paths at once, and that less sophisticated attackers will look much more capable as models democratize expertise.",
+    "key_takeaways": [
+      "Kevin Mandia argues that AI gives cyber attackers scale and speed that human teams cannot match, claiming that what AI does in a microsecond would take 70 humans and that humans historically pursued only one path into a network.",
+      "Kevin Mandia claims Armored in has found more than 90 zero days at customer sites since January 2026, all in production and often at Fortune 500 companies, by using AI-driven black-box attacks from the internet.",
+      "Kevin Mandia argues that open models are already good enough for cyber offense because vulnerability discovery is structured code and process work rather than a broad 400-language reasoning problem.",
+      "Kevin Mandia predicts the next two years will remake nearly every cybersecurity tech stack because AI-led offense forces prevent, detect, and respond functions to become increasingly autonomous.",
+      "Kevin Mandia claims nation-state cyber doctrine will shift from sniper-round targeting of specific entities, such as 30 defense contractors, toward selective use of AI drone-swarm style attacks when comprehensiveness matters.",
+      "Kevin Mandia says Armored in uses a hyper attack to map every service, route, system, and asset into terabytes of metadata, then polls for network changes and attacks the change instead of continuously attacking everything.",
+      "Kevin Mandia argues that endpoint and firewall platforms from companies such as CrowdStrike, Palo Alto Networks, and Fortinet will need to accept AI-generated compensating controls because human-in-the-loop response is too slow for AI-speed intrusions."
+    ],
+    "investment_thesis": "Kevin Mandia argues cybersecurity will shift to autonomous AI defense over the next two years because AI attacks move at machine speed and Armored in has already found over 90 production zero days since January 2026.",
+    "key_tickers": [
+      "GOOGL",
+      "CRWD",
+      "PANW",
+      "FTNT",
+      "RPD",
+      "QLYS"
+    ]
+  },
+  {
+    "id": 560,
+    "podcast_name": "Moonshots with Peter Diamandis",
+    "episode_title": "Google X's Astro Teller: The $1B Bet No CEO Will Back, Moonshots 3x Cheaper in 16 Yrs, and Clean Water at 1\u00a2/L| EP #300",
+    "episode_date": "2026-10-05",
+    "summary": "Astro Teller described Alphabet's X as a moonshot factory built around a specific test: a huge named problem, a science-fiction-sounding product or service, and a breakthrough technology that gives the idea at least a small chance of working. He argued that audacity must be paired with humility, because most moonshots fail and teams have to learn quickly and cheaply whether the core risk is real.\n\nThe conversation centered on the economics of radical innovation. Teller said X starts 100 to 200 codenamed ideas per year and graduates about two moonshots roughly five to six years later, implying about a 2% hit rate. He said X has reduced the cost of getting to graduates by about a factor of three over 16 years, helped by AI, earlier graduation, and better operating discipline. A questioner challenged whether that reduction simply reflected broader market and economic capacity, but Teller rejected the comparison, saying the cost to create a moonshot and the eventual value of that moonshot are different measures.\n\nSeveral specific moonshot categories were discussed, including clean water, grid-scale energy storage, electric-grid redesign, circularity, and education. Teller said clean water needs to reach about one cent per liter all-in to change the world, while a 10 cent per liter solution would likely fail the techno-economic test. He also framed Google Brain as an X success story that began about 15.5 years ago with Andrew Ng and Jeff Dean and later contributed to TPUs and the transformer architecture underlying ChatGPT.\n\nTeller predicted AGI will shorten the cycle from crazy idea to evidence-backed idea, but he said humans will remain necessary for at least the next decade or two because choosing problems and making solutions socially acceptable still require human judgment. He also argued that companies fail to replicate X mainly because they do not engineer a protected culture where high-variance, high-expected-value projects can survive outside the core organization's short-term performance demands.",
+    "key_takeaways": [
+      "Astro Teller defined a moonshot as a huge named problem, a science-fiction-sounding product or service, and a breakthrough technology that makes the hypothesis testable.",
+      "Astro Teller said X starts 100 to 200 codenamed ideas per year and graduates about two moonshots five to six years later, which he described as roughly a 2% hit rate.",
+      "Astro Teller said Google Brain began at X about 15.5 years ago with Andrew Ng and Jeff Dean, and later produced work linked to TPUs and the transformer architecture behind ChatGPT.",
+      "Astro Teller argued clean water would need an all-in cost of about one cent per liter to change the world, while a 10 cent per liter approach would likely fail the techno-economics test.",
+      "Astro Teller said X's cost to get to moonshot graduates has fallen by about a factor of three over 16 years due to AI, earlier graduations, and improvements in how X operates.",
+      "Astro Teller argued that a $1 billion project with a 1-in-100 chance has 10 times the expected utility of a guaranteed $1 million project, yet most managers and boards reject the high-variance choice.",
+      "Astro Teller predicted AI will not become 100% of moonshot work in the next decade because humans are still needed to choose problems and make solutions acceptable to communities."
+    ],
+    "investment_thesis": "Astro Teller says X reduced the cost of graduating moonshots by about 3x over 16 years, partly through AI, earlier graduations, and improved operating discipline.",
+    "key_tickers": [
+      "GOOGL",
+      "LMT"
+    ]
+  },
+  {
     "id": 552,
     "podcast_name": "The a16z Show",
     "episode_title": "The Top 100 Consumer AI Apps: Who\u2019s Actually Paying?",
