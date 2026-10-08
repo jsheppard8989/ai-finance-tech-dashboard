@@ -10,7 +10,12 @@ from generate_deepdives import (
     normalize_from_ai_response,
     deep_dive_structural_ok,
 )
-from two_pass_analyzer import get_deepdive_mode
+from two_pass_analyzer import (
+    get_deepdive_mode,
+    normalize_for_quote_match,
+    quote_in_transcript,
+    validate_extraction_quotes_against_transcript,
+)
 
 
 class TestExtractionDeepDive(unittest.TestCase):
@@ -149,6 +154,93 @@ class TestExtractionDeepDive(unittest.TestCase):
         self.assertEqual(out["schema_version"], 2)
         self.assertIn("Quote about the market", out["episode_evidence"])
         self.assertEqual(out["overview"], raw["whats_new"])
+
+
+class TestTranscriptQuoteValidation(unittest.TestCase):
+    """Tests for validating extraction quotes against transcript."""
+
+    def test_normalize_for_quote_match(self):
+        """Normalization should lowercase, strip punctuation, collapse whitespace."""
+        text = 'He said, "The market\'s outlook is VERY good!"'
+        norm = normalize_for_quote_match(text)
+        self.assertNotIn('"', norm)
+        self.assertNotIn("'", norm)
+        self.assertNotIn("!", norm)
+        self.assertEqual(norm, norm.lower())
+        self.assertNotIn("  ", norm)
+
+    def test_quote_in_transcript_exact(self):
+        """Exact quote should match."""
+        transcript = "The speaker said the market is very healthy and growing."
+        quote = "the market is very healthy"
+        self.assertTrue(quote_in_transcript(quote, transcript))
+
+    def test_quote_in_transcript_fuzzy(self):
+        """Fuzzy match should work for minor variations."""
+        transcript = "The speaker said the market is very healthy and growing rapidly."
+        quote = "the market is very healthy and growing"
+        self.assertTrue(quote_in_transcript(quote, transcript, threshold=0.85))
+
+    def test_quote_in_transcript_fail(self):
+        """Completely different quote should fail."""
+        transcript = "We discussed revenue growth in the semiconductor industry."
+        quote = "The housing market is collapsing rapidly due to interest rates."
+        self.assertFalse(quote_in_transcript(quote, transcript, threshold=0.85))
+
+    def test_quote_in_transcript_short_passes(self):
+        """Short quotes (<20 chars) should pass to avoid false negatives."""
+        transcript = "Hello world."
+        quote = "short"
+        self.assertTrue(quote_in_transcript(quote, transcript))
+
+    def test_validate_extraction_quotes_drops_paraphrased(self):
+        """Validation should drop quotes not found in transcript."""
+        transcript = """
+        John Smith said "The semiconductor shortage will persist through 2027."
+        Jane Doe added "Revenue growth exceeded our expectations this quarter."
+        """
+        extraction = {
+            "high_value_quotes": [
+                {"speaker": "John Smith", "quote": "The semiconductor shortage will persist through 2027."},
+                {"speaker": "Jane Doe", "quote": "This quote was completely made up by the model and does not appear anywhere."},
+            ],
+            "companies_and_assets": [
+                {
+                    "name": "ACME",
+                    "key_quotes": [
+                        {"speaker": "John", "quote": "Revenue growth exceeded our expectations"},
+                        {"speaker": "Bob", "quote": "Another fabricated quote that is not in the transcript at all."},
+                    ]
+                }
+            ]
+        }
+        filtered, passed, dropped = validate_extraction_quotes_against_transcript(
+            extraction, transcript, threshold=0.85
+        )
+        self.assertEqual(passed, 2)
+        self.assertEqual(dropped, 2)
+        self.assertEqual(len(filtered["high_value_quotes"]), 1)
+        self.assertEqual(len(filtered["companies_and_assets"][0]["key_quotes"]), 1)
+
+    def test_validate_extraction_preserves_valid_quotes(self):
+        """Validation should preserve quotes that match transcript."""
+        transcript = """
+        The CEO stated "Our margins improved by fifteen percent this quarter."
+        He continued "We expect continued growth in the AI segment."
+        """
+        extraction = {
+            "high_value_quotes": [
+                {"speaker": "CEO", "quote": "Our margins improved by fifteen percent this quarter."},
+                {"speaker": "CEO", "quote": "We expect continued growth in the AI segment."},
+            ],
+            "companies_and_assets": []
+        }
+        filtered, passed, dropped = validate_extraction_quotes_against_transcript(
+            extraction, transcript, threshold=0.85
+        )
+        self.assertEqual(passed, 2)
+        self.assertEqual(dropped, 0)
+        self.assertEqual(len(filtered["high_value_quotes"]), 2)
 
 
 class TestExtractionDeepDiveCostTracking(unittest.TestCase):

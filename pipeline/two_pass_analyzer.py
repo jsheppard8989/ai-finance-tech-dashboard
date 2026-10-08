@@ -555,6 +555,111 @@ def transcript_sha256(text: str) -> str:
     return hashlib.sha256(text.encode("utf-8")).hexdigest()
 
 
+def normalize_for_quote_match(text: str) -> str:
+    """Normalize text for fuzzy quote matching: lowercase, collapse whitespace, strip punctuation."""
+    import re
+    text = text.lower()
+    text = re.sub(r"[''""\"']", "", text)
+    text = re.sub(r"[^\w\s]", " ", text)
+    text = re.sub(r"\s+", " ", text)
+    return text.strip()
+
+
+def quote_in_transcript(quote: str, transcript: str, threshold: float = 0.85) -> bool:
+    """Check if a quote appears in the transcript with fuzzy matching.
+    
+    Uses normalized text and sliding window matching.
+    Returns True if quote matches any window with similarity >= threshold.
+    """
+    from difflib import SequenceMatcher
+    
+    norm_quote = normalize_for_quote_match(quote)
+    norm_transcript = normalize_for_quote_match(transcript)
+    
+    if not norm_quote or len(norm_quote) < 20:
+        return True
+    
+    if norm_quote in norm_transcript:
+        return True
+    
+    quote_words = norm_quote.split()
+    transcript_words = norm_transcript.split()
+    window_size = len(quote_words)
+    
+    if window_size > len(transcript_words):
+        return False
+    
+    best_ratio = 0.0
+    for i in range(len(transcript_words) - window_size + 1):
+        window = " ".join(transcript_words[i:i + window_size])
+        ratio = SequenceMatcher(None, norm_quote, window).ratio()
+        if ratio >= threshold:
+            return True
+        best_ratio = max(best_ratio, ratio)
+    
+    window_size_expanded = int(window_size * 1.3)
+    for i in range(len(transcript_words) - window_size_expanded + 1):
+        window = " ".join(transcript_words[i:i + window_size_expanded])
+        ratio = SequenceMatcher(None, norm_quote, window).ratio()
+        if ratio >= threshold:
+            return True
+        best_ratio = max(best_ratio, ratio)
+    
+    return False
+
+
+def validate_extraction_quotes_against_transcript(
+    extraction: Dict,
+    transcript: str,
+    threshold: float = 0.85,
+) -> Tuple[Dict, int, int]:
+    """Validate and filter extraction quotes against the transcript.
+    
+    Checks high_value_quotes and companies_and_assets[].key_quotes.
+    Drops quotes that don't pass fuzzy matching.
+    
+    Returns: (filtered_extraction, passed_count, dropped_count)
+    """
+    passed = 0
+    dropped = 0
+    
+    filtered_hvq = []
+    for q in extraction.get("high_value_quotes", []):
+        if isinstance(q, dict) and q.get("quote"):
+            if quote_in_transcript(q["quote"], transcript, threshold):
+                filtered_hvq.append(q)
+                passed += 1
+            else:
+                dropped += 1
+        else:
+            filtered_hvq.append(q)
+    
+    filtered_companies = []
+    for ca in extraction.get("companies_and_assets", []):
+        if isinstance(ca, dict):
+            filtered_kq = []
+            for kq in ca.get("key_quotes", []):
+                if isinstance(kq, dict) and kq.get("quote"):
+                    if quote_in_transcript(kq["quote"], transcript, threshold):
+                        filtered_kq.append(kq)
+                        passed += 1
+                    else:
+                        dropped += 1
+                else:
+                    filtered_kq.append(kq)
+            ca_copy = dict(ca)
+            ca_copy["key_quotes"] = filtered_kq
+            filtered_companies.append(ca_copy)
+        else:
+            filtered_companies.append(ca)
+    
+    filtered = dict(extraction)
+    filtered["high_value_quotes"] = filtered_hvq
+    filtered["companies_and_assets"] = filtered_companies
+    
+    return filtered, passed, dropped
+
+
 def chunk_transcript(text: str, max_tokens: int = CHUNK_TOKEN_BUDGET) -> List[str]:
     """Split transcript into chunks if it exceeds token budget.
     
