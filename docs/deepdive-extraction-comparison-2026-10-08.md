@@ -483,3 +483,59 @@ The actionable setup is to separate freight exposure from equity exposure and to
 3. **Consider hybrid**: Use extraction mode by default but fall back to legacy for high-profile episodes
 
 **Bottom line**: Ship it behind the flag. The 69% all-in cost savings ($0.055 vs $0.181 per episode) justify the slight quality tradeoff, especially with speaker canonicalization and proper noun correction in place.
+
+## High-Profile Episode Override
+
+When `DEEPDIVE_MODE=extraction`, certain episodes can be forced to use legacy gpt-5.5 deep dives via a config file.
+
+### Config File
+
+**Path**: `config/deepdive_high_profile.json`
+
+```json
+{
+  "_comment": "High-profile episodes that should use legacy gpt-5.5 deep dives even when DEEPDIVE_MODE=extraction.",
+  "episode_ids": [],
+  "insight_ids": [],
+  "shows": [],
+  "title_keywords": []
+}
+```
+
+### Matching Rules (OR logic)
+
+| Field | Match Type | Example |
+|-------|-----------|---------|
+| `episode_ids` | Exact match | `[559, 560]` |
+| `insight_ids` | Exact match | `[569, 570]` |
+| `shows` | Case-insensitive substring of podcast name | `["all-in podcast"]` |
+| `title_keywords` | Case-insensitive substring of episode title | `["mintzmyer", "sam altman"]` |
+
+### Example: Flag All Mintzmyer Episodes
+
+Edit `config/deepdive_high_profile.json`:
+
+```json
+{
+  "_comment": "High-profile episodes that should use legacy gpt-5.5 deep dives.",
+  "episode_ids": [],
+  "insight_ids": [],
+  "shows": [],
+  "title_keywords": ["mintzmyer"]
+}
+```
+
+### CLI Override
+
+Force legacy mode for a single episode:
+
+```bash
+python pipeline/generate_deepdives.py --episode-id 559 --force-legacy
+```
+
+### Behavior
+
+- When an episode matches, the deep dive uses gpt-5.5 (legacy mode)
+- The match reason is logged: `⚡ High-profile override: title_keyword='mintzmyer' → using legacy`
+- `generation_mode` is recorded in the database (e.g., `legacy:high_profile:title_keyword='mintzmyer'`)
+- Missing or malformed config file falls back to empty lists (never crashes the pipeline)

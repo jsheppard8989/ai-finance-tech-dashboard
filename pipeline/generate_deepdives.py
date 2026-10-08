@@ -234,7 +234,6 @@ def ensure_deep_dive_schema(conn: sqlite3.Connection) -> None:
         conn.execute(
             "ALTER TABLE deep_dive_content ADD COLUMN schema_version INTEGER DEFAULT 1"
         )
-    # Cost tracking columns (added for PR #xxx)
     if "model_used" not in existing:
         conn.execute("ALTER TABLE deep_dive_content ADD COLUMN model_used TEXT")
     if "input_tokens" not in existing:
@@ -245,7 +244,61 @@ def ensure_deep_dive_schema(conn: sqlite3.Connection) -> None:
         conn.execute("ALTER TABLE deep_dive_content ADD COLUMN cost_usd REAL")
     if "attempt_count" not in existing:
         conn.execute("ALTER TABLE deep_dive_content ADD COLUMN attempt_count INTEGER")
+    if "generation_mode" not in existing:
+        conn.execute("ALTER TABLE deep_dive_content ADD COLUMN generation_mode TEXT")
     conn.commit()
+
+
+HIGH_PROFILE_CONFIG_PATH = Path(__file__).parent.parent / "config" / "deepdive_high_profile.json"
+
+
+def load_high_profile_config() -> Dict[str, Any]:
+    """Load high-profile episode config. Returns empty config on missing/malformed file."""
+    default = {"episode_ids": [], "insight_ids": [], "shows": [], "title_keywords": []}
+    if not HIGH_PROFILE_CONFIG_PATH.exists():
+        print(f"  ⚠ High-profile config not found: {HIGH_PROFILE_CONFIG_PATH}", flush=True)
+        return default
+    try:
+        data = json.loads(HIGH_PROFILE_CONFIG_PATH.read_text(encoding="utf-8"))
+        return {
+            "episode_ids": [int(x) for x in (data.get("episode_ids") or [])],
+            "insight_ids": [int(x) for x in (data.get("insight_ids") or [])],
+            "shows": [str(x).lower() for x in (data.get("shows") or [])],
+            "title_keywords": [str(x).lower() for x in (data.get("title_keywords") or [])],
+        }
+    except Exception as e:
+        print(f"  ⚠ High-profile config malformed ({e}), using empty config", flush=True)
+        return default
+
+
+def check_high_profile_match(
+    episode_id: int,
+    insight_id: int,
+    podcast_name: str,
+    episode_title: str,
+    config: Dict[str, Any],
+) -> Optional[str]:
+    """Check if an episode matches high-profile criteria.
+    
+    Returns match reason string if matched, None otherwise.
+    """
+    if episode_id in config.get("episode_ids", []):
+        return f"episode_id={episode_id}"
+    
+    if insight_id in config.get("insight_ids", []):
+        return f"insight_id={insight_id}"
+    
+    podcast_lower = (podcast_name or "").lower()
+    for show in config.get("shows", []):
+        if show and show in podcast_lower:
+            return f"show='{show}'"
+    
+    title_lower = (episode_title or "").lower()
+    for keyword in config.get("title_keywords", []):
+        if keyword and keyword in title_lower:
+            return f"title_keyword='{keyword}'"
+    
+    return None
 
 
 def _norm_text(s: str) -> str:
@@ -962,25 +1015,23 @@ def store_deep_dive(insight_id: int, episode_id: int, content: dict, usage_info:
         insight_id: ID in latest_insights
         episode_id: ID in podcast_episodes
         content: Deep dive content dict
-        usage_info: Optional dict with model, input_tokens, output_tokens, cost_usd, attempt_count
+        usage_info: Optional dict with model, input_tokens, output_tokens, cost_usd, attempt_count, generation_mode
     """
     conn = get_db_connection()
 
     try:
         ensure_deep_dive_schema(conn)
-        # Sanitize ticker_analysis: drop placeholder keys (TICKER1, Ticker2, etc.)
         raw_tickers = content.get('ticker_analysis') or {}
         ticker_analysis = sanitize_ticker_analysis(raw_tickers)
         if len(ticker_analysis) < len(raw_tickers):
-            # Avoid overwriting with empty if AI returned only placeholders
             content = {**content, 'ticker_analysis': ticker_analysis}
 
-        # Extract usage info
         model_used = usage_info.get("model") if usage_info else None
         input_tokens = usage_info.get("input_tokens") if usage_info else None
         output_tokens = usage_info.get("output_tokens") if usage_info else None
         cost_usd = usage_info.get("cost_usd") if usage_info else None
         attempt_count = usage_info.get("attempt_count") if usage_info else None
+        generation_mode = usage_info.get("generation_mode") if usage_info else None
 
         conn.execute(
             """
@@ -989,8 +1040,8 @@ def store_deep_dive(insight_id: int, episode_id: int, content: dict, usage_info:
                 investment_thesis, ticker_analysis, positioning_guidance,
                 risk_factors, contrarian_signals, catalysts,
                 episode_evidence, falsification_tracks, schema_version, created_at,
-                model_used, input_tokens, output_tokens, cost_usd, attempt_count
-            ) VALUES (?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?)
+                model_used, input_tokens, output_tokens, cost_usd, attempt_count, generation_mode
+            ) VALUES (?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?)
         """,
             (
                 insight_id,
@@ -1012,6 +1063,7 @@ def store_deep_dive(insight_id: int, episode_id: int, content: dict, usage_info:
                 output_tokens,
                 cost_usd,
                 attempt_count,
+                generation_mode,
             ),
         )
         # If latest_insights.tickers_mentioned is empty, backfill it from ticker_analysis keys
@@ -1384,16 +1436,26 @@ def generate_missing_deepdives(insight_ids: list = None) -> Tuple[int, int, int]
                 speakers_info.append(f"Guest(s): {', '.join(guest_names)}")
             print(f"    Speakers: {'; '.join(speakers_info)}", flush=True)
 
-        # Check DEEPDIVE_MODE to decide which generation path to use
         from two_pass_analyzer import get_deepdive_mode
         deepdive_mode = get_deepdive_mode()
+        generation_mode = deepdive_mode
+        high_profile_reason = None
+        
+        if deepdive_mode == "extraction" and source_type == "podcast" and episode_id:
+            high_profile_config = load_high_profile_config()
+            high_profile_reason = check_high_profile_match(
+                episode_id, insight_id, source_name, title, high_profile_config
+            )
+            if high_profile_reason:
+                print(f"    ⚡ High-profile override: {high_profile_reason} → using legacy", flush=True)
+                deepdive_mode = "legacy"
+                generation_mode = f"legacy:high_profile:{high_profile_reason}"
         
         content = None
         err_detail = None
         usage_info = None
         
         if deepdive_mode == "extraction" and source_type == "podcast" and episode_id:
-            # Extraction mode: use gpt-5.4-mini over extraction JSON only
             extraction_json = None
             try:
                 ep_conn = get_db_connection()
@@ -1409,7 +1471,7 @@ def generate_missing_deepdives(insight_ids: list = None) -> Tuple[int, int, int]
             
             if extraction_json:
                 print(f"    Mode: extraction (gpt-5.4-mini)", flush=True)
-                # Get OpenAI client for extraction mode
+                generation_mode = "extraction"
                 openai_client = None
                 for client_type, client in clients:
                     if client_type == "openai":
@@ -1430,11 +1492,12 @@ def generate_missing_deepdives(insight_ids: list = None) -> Tuple[int, int, int]
             else:
                 print(f"    ⚠ No extraction_json, falling back to legacy mode", flush=True)
                 deepdive_mode = "legacy"
+                generation_mode = "legacy:no_extraction"
         
         if deepdive_mode == "legacy" or content is None and not err_detail:
-            # Legacy mode: use gpt-5.5 over transcript window
-            if deepdive_mode == "legacy":
-                print(f"    Mode: legacy (gpt-5.5)", flush=True)
+            if not generation_mode.startswith("legacy"):
+                generation_mode = "legacy"
+            print(f"    Mode: legacy (gpt-5.5)", flush=True)
             content, err_detail, usage_info = run_deep_dive_generation_attempts(
                 clients,
                 insight_id,
@@ -1467,6 +1530,10 @@ def generate_missing_deepdives(insight_ids: list = None) -> Tuple[int, int, int]
         if "catalysts" in content and content["catalysts"]:
             content["catalysts"] = filter_stale_catalysts(content["catalysts"], source_date)
 
+        if usage_info is None:
+            usage_info = {}
+        usage_info["generation_mode"] = generation_mode
+
         if store_deep_dive(insight_id, episode_id, content, usage_info=usage_info):
             mark_deep_dive_failure_resolved(conn, insight_id)
             print(f"  ✓ Deep Dive stored", flush=True)
@@ -1498,6 +1565,8 @@ if __name__ == "__main__":
         type=str,
         help='Comma-separated insight IDs: delete existing Deep Dive row(s) then regenerate',
     )
+    parser.add_argument('--episode-id', type=int, help='Generate deep dive for a specific episode ID')
+    parser.add_argument('--force-legacy', action='store_true', help='Force legacy gpt-5.5 mode for this run (ignores DEEPDIVE_MODE)')
     parser.add_argument('--fix-placeholder-tickers', action='store_true', help='One-time: remove TICKER1/Ticker2 etc. from existing DB rows')
     args = parser.parse_args()
     
@@ -1505,8 +1574,30 @@ if __name__ == "__main__":
         clean_placeholder_tickers_in_db()
         sys.exit(0)
 
+    if args.force_legacy:
+        os.environ["DEEPDIVE_MODE"] = "legacy"
+        print("Forcing legacy mode (gpt-5.5)", flush=True)
+
     insight_ids = None
-    if args.force_ids:
+    
+    if args.episode_id:
+        conn = get_db_connection()
+        row = conn.execute(
+            "SELECT li.id FROM latest_insights li WHERE li.podcast_episode_id = ?",
+            (args.episode_id,)
+        ).fetchone()
+        conn.close()
+        if not row:
+            print(f"No insight found for episode_id={args.episode_id}", flush=True)
+            sys.exit(1)
+        insight_ids = [row["id"]]
+        print(f"Episode {args.episode_id} → insight {insight_ids[0]}", flush=True)
+        conn = get_db_connection()
+        conn.execute("DELETE FROM deep_dive_content WHERE insight_id = ?", (insight_ids[0],))
+        conn.commit()
+        conn.close()
+        print(f"Removed existing Deep Dive for insight {insight_ids[0]}", flush=True)
+    elif args.force_ids:
         raw = [int(x.strip()) for x in args.force_ids.split(',') if x.strip()]
         if not raw:
             print('No IDs in --force-ids', flush=True)
@@ -1523,8 +1614,6 @@ if __name__ == "__main__":
         insight_ids = [int(x.strip()) for x in args.insight_ids.split(',')]
 
     gen, need, quarantined = generate_missing_deepdives(insight_ids)
-    # Fail only when no AI client was available. Otherwise publish proceeds with
-    # insights that already have Deep Dives; blocked insights stay off main.
     if need > 0 and gen == 0 and quarantined == 0:
         clients = get_ai_clients()
         if not clients:

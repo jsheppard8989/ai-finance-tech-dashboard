@@ -9,6 +9,9 @@ from generate_deepdives import (
     _validate_quotes_from_extraction,
     normalize_from_ai_response,
     deep_dive_structural_ok,
+    load_high_profile_config,
+    check_high_profile_match,
+    HIGH_PROFILE_CONFIG_PATH,
 )
 from two_pass_analyzer import (
     get_deepdive_mode,
@@ -334,6 +337,88 @@ class TestTranscriptQuoteValidation(unittest.TestCase):
         self.assertEqual(passed, 2)
         self.assertEqual(dropped, 0)
         self.assertEqual(len(filtered["high_value_quotes"]), 2)
+
+
+class TestHighProfileOverride(unittest.TestCase):
+    """Tests for high-profile episode override matching."""
+
+    def test_episode_id_match(self):
+        """Episode ID should match exactly."""
+        config = {
+            "episode_ids": [559, 560],
+            "insight_ids": [],
+            "shows": [],
+            "title_keywords": [],
+        }
+        result = check_high_profile_match(559, 569, "Monetary Matters", "J Mintzmyer Episode", config)
+        self.assertEqual(result, "episode_id=559")
+
+    def test_insight_id_match(self):
+        """Insight ID should match exactly."""
+        config = {
+            "episode_ids": [],
+            "insight_ids": [569, 570],
+            "shows": [],
+            "title_keywords": [],
+        }
+        result = check_high_profile_match(559, 569, "Monetary Matters", "J Mintzmyer Episode", config)
+        self.assertEqual(result, "insight_id=569")
+
+    def test_show_match_substring(self):
+        """Show name should match case-insensitive substring."""
+        config = {
+            "episode_ids": [],
+            "insight_ids": [],
+            "shows": ["monetary matters"],
+            "title_keywords": [],
+        }
+        result = check_high_profile_match(999, 888, "Monetary Matters with Jack Farley", "Some Title", config)
+        self.assertEqual(result, "show='monetary matters'")
+
+    def test_keyword_match_title(self):
+        """Title keyword should match case-insensitive substring."""
+        config = {
+            "episode_ids": [],
+            "insight_ids": [],
+            "shows": [],
+            "title_keywords": ["mintzmyer"],
+        }
+        result = check_high_profile_match(999, 888, "Some Podcast", "J Mintzmyer on Shipping", config)
+        self.assertEqual(result, "title_keyword='mintzmyer'")
+
+    def test_no_match_stays_extraction(self):
+        """Non-matching episode should return None (stays on extraction mode)."""
+        config = {
+            "episode_ids": [100, 200],
+            "insight_ids": [300, 400],
+            "shows": ["all-in podcast"],
+            "title_keywords": ["bitcoin"],
+        }
+        result = check_high_profile_match(559, 569, "Monetary Matters", "J Mintzmyer Episode", config)
+        self.assertIsNone(result)
+
+    def test_missing_config_file(self):
+        """Missing config file should return empty config and not crash."""
+        import tempfile
+        import os
+        from pathlib import Path
+        
+        fake_path = Path(tempfile.gettempdir()) / "nonexistent_config_12345.json"
+        if fake_path.exists():
+            fake_path.unlink()
+        
+        original_path = HIGH_PROFILE_CONFIG_PATH
+        import generate_deepdives
+        generate_deepdives.HIGH_PROFILE_CONFIG_PATH = fake_path
+        
+        try:
+            config = load_high_profile_config()
+            self.assertEqual(config["episode_ids"], [])
+            self.assertEqual(config["insight_ids"], [])
+            self.assertEqual(config["shows"], [])
+            self.assertEqual(config["title_keywords"], [])
+        finally:
+            generate_deepdives.HIGH_PROFILE_CONFIG_PATH = original_path
 
 
 class TestExtractionDeepDiveCostTracking(unittest.TestCase):
