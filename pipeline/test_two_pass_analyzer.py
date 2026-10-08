@@ -384,20 +384,26 @@ class TestFilterSubstantiveTickers:
         filtered = filter_substantive_tickers(mentions, [])
         assert len(filtered) == 0
 
-    def test_keeps_when_in_companies(self):
-        """Tickers should be kept when company appears in companies_and_assets, even with analogy phrase."""
+    def test_keeps_when_in_companies_no_analogy(self):
+        """Tickers should be kept when company appears in companies_and_assets without analogy."""
         mentions = [
-            {"ticker": "LMT", "context": "Lockheed Martin's defense contracts provide stable revenue of $67B annually, with 40% gross margins. Skunk Works-like innovation model applies here too."},
+            {"ticker": "LMT", "context": "Lockheed Martin's defense contracts provide stable revenue of $67B annually, with 40% gross margins."},
         ]
-        # "lockheed martin" is in companies, so it passes via company mapping check
-        # but since TICKER_TO_COMPANIES doesn't have LMT, need to check the ticker directly
         filtered = filter_substantive_tickers(mentions, ["Lockheed Martin", "LMT"])
         assert len(filtered) == 1
+
+    def test_filters_analogy_even_when_in_companies(self):
+        """Analogy-containing context should be filtered even if company is in extraction."""
+        mentions = [
+            {"ticker": "LMT", "context": "Like Lockheed's Skunk Works model, X separates innovation teams."},
+        ]
+        filtered = filter_substantive_tickers(mentions, ["Lockheed Martin", "LMT"])
+        assert len(filtered) == 0
 
     def test_major_claims_considered(self):
         """Tickers should be kept if company appears in major_claims."""
         mentions = [
-            {"ticker": "GOOGL", "context": "Brief context about Alphabet."},
+            {"ticker": "GOOGL", "context": "Alphabet's scale enables long-duration R&D."},
         ]
         filtered = filter_substantive_tickers(
             mentions, 
@@ -406,6 +412,22 @@ class TestFilterSubstantiveTickers:
         )
         assert len(filtered) == 1
         assert filtered[0]["ticker"] == "GOOGL"
+
+    def test_filters_filler_comparison_context(self):
+        """Tickers with 'comparison point' or 'not a core topic' should be filtered."""
+        mentions = [
+            {"ticker": "TSLA", "context": "Tesla is not a core topic of the episode, but it is relevant as a benchmark for radical engineering."},
+        ]
+        filtered = filter_substantive_tickers(mentions, ["Tesla"])
+        assert len(filtered) == 0
+
+    def test_filters_benchmark_context(self):
+        """Tickers mentioned only as 'benchmark' or 'for reference' should be filtered."""
+        mentions = [
+            {"ticker": "AAPL", "context": "Apple serves as a natural comparison point for product design excellence."},
+        ]
+        filtered = filter_substantive_tickers(mentions, ["Apple"])
+        assert len(filtered) == 0
 
     def test_episode_560_googl_extraction(self):
         """Test with episode 560's actual extraction data - Alphabet/X/Waymo should map to GOOGL."""
@@ -429,6 +451,19 @@ class TestFilterSubstantiveTickers:
         assert len(filtered) == 1
         assert filtered[0]["ticker"] == "GOOGL"
 
+    def test_episode_560_no_tsla_filler(self):
+        """Test that TSLA with filler context is filtered for episode 560."""
+        mentions = [
+            {"ticker": "TSLA", "context": "Tesla is not a core topic of the episode, but it is relevant as a benchmark for radical engineering and moonshot-style execution."},
+        ]
+        companies_and_assets = [
+            "Alphabet",
+            "X (Google's moonshot factory)",
+            "Waymo",
+        ]
+        filtered = filter_substantive_tickers(mentions, companies_and_assets)
+        assert len(filtered) == 0
+
     def test_episode_560_no_lmt_analogy(self):
         """Test that LMT as Skunk Works analogy is filtered for episode 560."""
         mentions = [
@@ -441,6 +476,20 @@ class TestFilterSubstantiveTickers:
         ]
         filtered = filter_substantive_tickers(mentions, companies_and_assets)
         assert len(filtered) == 0
+
+    def test_investment_ideas_considered(self):
+        """Tickers should be kept if company appears in investment_ideas."""
+        mentions = [
+            {"ticker": "NVDA", "context": "NVIDIA's AI chips are central to the compute buildout."},
+        ]
+        filtered = filter_substantive_tickers(
+            mentions, 
+            companies_and_assets=[],
+            major_claims=[],
+            investment_ideas=["NVIDIA is well-positioned to benefit from AI infrastructure spending"]
+        )
+        assert len(filtered) == 1
+        assert filtered[0]["ticker"] == "NVDA"
 
 
 class TestBuildExtractionPrompt:

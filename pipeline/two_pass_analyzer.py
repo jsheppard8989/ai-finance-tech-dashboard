@@ -85,9 +85,16 @@ EXTRACTION_PROMPT_SUFFIX = """
 SPEAKER ATTRIBUTION RULES:
 - For high_value_quotes, you MUST attribute quotes to the specific named speaker when identifiable from context.
 - Use the KNOWN SPEAKERS list above when the speaker is identifiable (do NOT use generic labels like "Unidentified speaker" or "Guest" when you can identify who spoke).
-- Format each quote as: {"speaker": "Full Name", "quote": "Exact verbatim quote from transcript"}
 - For guests, include: {"name": "Full Name", "role": "guest", "bio": "Brief bio if mentioned"}
 - For hosts, include: {"name": "Full Name", "role": "host"}
+
+HIGH_VALUE_QUOTES RULES:
+- Extract 5-8 high-value quotes from the transcript.
+- Each quote MUST be: verbatim from the transcript, a complete self-contained sentence or sentences (15-60 words), and carry a specific claim, number, prediction, or contrarian view.
+- Do NOT pick fragments, filler phrases, or generic statements that could apply to any podcast.
+- Prefer quotes with: specific numbers/percentages, named companies, concrete predictions, contrarian positions, or testable claims.
+- Format: {"speaker": "Full Name", "quote": "Exact verbatim quote 15-60 words"}
+- NEVER attribute a host's words to the guest or vice versa.
 
 NUMBERS FILTER:
 - For numbers[], include only investment-relevant statistics: revenue, market size, growth rates, valuations, dates/timelines, percentages.
@@ -173,11 +180,11 @@ SITE_CONTRACT_PROMPT = """
 Based on the podcast extraction data below, produce a JSON object with these site-contract fields.
 
 RULES:
-- Use the extraction's high_value_quotes for notable_quotes - keep them verbatim with CORRECT speaker names (use full names, not generic labels).
+- For notable_quotes: Select the 3 MOST INSIGHTFUL quotes from high_value_quotes — those with specific claims, numbers, or contrarian views. Do NOT just pick the first 3. Keep them verbatim with CORRECT speaker names. NEVER attribute a host's words to the guest.
 - Use the extraction's guests and hosts fields for those fields.
 - For sentiment, default to "neutral". Use bullish/bearish ONLY when the speaker explicitly states a direction.
-- For tickers: Map companies to their stock tickers. Examples: Alphabet/Google/X/Waymo/Google Brain → GOOGL, Tesla → TSLA. Include a ticker when the extraction has substantive discussion of that company (not just passing mentions).
-- For ticker_mentions: Include 1-2 sentences explaining why the company/ticker was discussed substantively. This is required for Deep Dives.
+- For key_tickers and ticker_mentions: ONLY include a ticker when the speaker ACTUALLY DISCUSSED that company with investment-relevant substance (claims, numbers, catalysts, risks) as shown in the extraction's companies_and_assets, major_claims, investment_ideas, or risks. Do NOT invent "comparison points" or add tickers the speaker never discussed. If unsure, omit.
+- For ticker_mentions: The context must describe what the SPEAKER said about that company, not what you infer. If there is no speaker quote or claim about that company in the extraction, do not include it.
 
 Return ONLY this JSON object:
 {
@@ -185,9 +192,9 @@ Return ONLY this JSON object:
   "key_takeaways": ["5-7 bullets, each one specific claim with attribution to speaker"],
   "investment_thesis": "ONE sentence under 40 words stating the episode's single most important specific claim",
   "sentiment": "neutral|bullish|bearish",
-  "notable_quotes": [{"speaker": "Full Name", "quote": "Verbatim under 240 chars"}],
-  "key_tickers": ["GOOGL", "TSLA"],
-  "ticker_mentions": [{"ticker": "GOOGL", "context": "1-2 sentences of substantive discussion about the company", "sentiment": "neutral", "conviction_score": 75, "timeframe": "medium_term", "is_contrarian": false, "is_disruption_focused": false}],
+  "notable_quotes": [{"speaker": "Full Name", "quote": "Verbatim 15-60 words, the 3 most insightful"}],
+  "key_tickers": ["GOOGL"],
+  "ticker_mentions": [{"ticker": "GOOGL", "context": "What the SPEAKER said about this company (from extraction)", "sentiment": "neutral", "conviction_score": 75, "timeframe": "medium_term", "is_contrarian": false, "is_disruption_focused": false}],
   "emerging_terms": [{"term": "Term Name", "definition": "1-2 sentences", "investment_angle": "Why it matters", "speaker_quote": "Short verbatim line"}],
   "guests": [{"name": "Full Name", "role": "guest", "bio": "1-2 sentences"}],
   "hosts": [{"name": "Full Name", "role": "host"}]
@@ -321,20 +328,39 @@ def collapse_share_class(ticker: str) -> str:
     return share_class_map.get(ticker, ticker)
 
 
+FILLER_CONTEXT_PHRASES = [
+    "not a core topic",
+    "not the main topic",
+    "not the focus",
+    "not central",
+    "comparison point",
+    "natural comparison",
+    "benchmark",
+    "for reference",
+    "as a reference",
+    "for context",
+    "worth noting",
+    "tangentially",
+    "indirectly relevant",
+    "not directly discussed",
+]
+
+
 def filter_substantive_tickers(
     ticker_mentions: List[Dict],
     companies_and_assets: List[str],
     major_claims: List[str] = None,
+    investment_ideas: List[str] = None,
 ) -> List[Dict]:
-    """Filter ticker mentions to only those with substantive discussion.
+    """Filter ticker mentions to only those with substantive speaker discussion.
     
-    A ticker is substantive if:
-    - A company that maps to that ticker appears in companies_and_assets or major_claims, OR
-    - Its context has 15+ words of real investment discussion (not just analogies)
+    A ticker is substantive ONLY if:
+    - A company that maps to that ticker appears in companies_and_assets, major_claims, or investment_ideas
     
     Drops:
-    - Tickers with "no substantive discussion" phrases
+    - Tickers with "no substantive discussion" or filler phrases
     - Tickers mentioned only as analogies (e.g., "like Skunk Works" for LMT)
+    - Tickers the model invents as "comparison points" but the speaker never discussed
     """
     if not ticker_mentions:
         return []
@@ -347,7 +373,8 @@ def filter_substantive_tickers(
             companies_text += " " + (c.get("name") or c.get("ticker") or "").lower()
     
     claims_text = " ".join(str(c).lower() for c in (major_claims or []))
-    all_text = companies_text + " " + claims_text
+    ideas_text = " ".join(str(i).lower() for i in (investment_ideas or []))
+    all_text = companies_text + " " + claims_text + " " + ideas_text
     
     filtered = []
     seen_tickers = set()
@@ -359,7 +386,6 @@ def filter_substantive_tickers(
         
         context = (tm.get("context") or "").strip()
         context_lower = context.lower()
-        context_words = len(context.split())
         
         no_discussion_phrases = [
             "no substantive discussion",
@@ -372,19 +398,20 @@ def filter_substantive_tickers(
         if any(phrase in context_lower for phrase in no_discussion_phrases):
             continue
         
-        company_names = TICKER_TO_COMPANIES.get(ticker, [])
-        ticker_in_companies = any(cn in all_text for cn in company_names)
-        
-        if not ticker_in_companies:
-            ticker_in_companies = ticker.lower() in all_text
-        
-        is_analogy_only = any(phrase in context_lower for phrase in ANALOGY_PHRASES)
-        if is_analogy_only and context_words < 30 and not ticker_in_companies:
+        if any(phrase in context_lower for phrase in FILLER_CONTEXT_PHRASES):
             continue
         
-        has_substantive_context = context_words >= 15 and not is_analogy_only
+        company_names = TICKER_TO_COMPANIES.get(ticker, [])
+        ticker_in_extraction = any(cn in all_text for cn in company_names)
         
-        if ticker_in_companies or has_substantive_context:
+        if not ticker_in_extraction:
+            ticker_in_extraction = ticker.lower() in all_text
+        
+        is_analogy_only = any(phrase in context_lower for phrase in ANALOGY_PHRASES)
+        if is_analogy_only:
+            continue
+        
+        if ticker_in_extraction:
             tm_copy = dict(tm)
             tm_copy["ticker"] = ticker
             filtered.append(tm_copy)
@@ -807,7 +834,8 @@ def map_to_site_fields(
     raw_ticker_mentions = site_contract.get("ticker_mentions") or []
     companies = extraction.get("companies_and_assets") or []
     major_claims = extraction.get("major_claims") or []
-    filtered_tickers = filter_substantive_tickers(raw_ticker_mentions, companies, major_claims)
+    investment_ideas = extraction.get("investment_ideas") or []
+    filtered_tickers = filter_substantive_tickers(raw_ticker_mentions, companies, major_claims, investment_ideas)
     
     for tm in filtered_tickers:
         tm["ticker"] = collapse_share_class(tm.get("ticker", ""))
