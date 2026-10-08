@@ -410,7 +410,7 @@ def _export_pipeline_state(site_dir: Path):
     except Exception as e:
         print(f"  ⚠ Could not build pipeline_state from DB: {e}")
 
-    def derive_status(downloaded: bool, transcribed: bool, analyzed: bool, insight_created: bool, published: bool) -> str:
+    def derive_status(downloaded: bool, transcribed: bool, analyzed: bool, insight_created: bool, published: bool, deepdive_blocked: bool = False) -> str:
         if not downloaded:
             return "needs_download"
         if not transcribed:
@@ -419,6 +419,8 @@ def _export_pipeline_state(site_dir: Path):
             return "needs_analysis"
         if not insight_created:
             return "needs_insight"
+        if deepdive_blocked:
+            return "blocked_deepdive"
         if not published:
             return "needs_export"
         return "complete"
@@ -815,14 +817,23 @@ def _export_pipeline_state(site_dir: Path):
 
     try:
         with db._get_connection() as conn:
+            # Check if deep_dive_generation_failures table exists
+            failures_table_exists = conn.execute(
+                "SELECT COUNT(*) FROM sqlite_master WHERE type='table' AND name='deep_dive_generation_failures'"
+            ).fetchone()[0] > 0
+            
             # Query recent episodes with actual pipeline debt:
             # - Within lookback window (last 14 days by episode_date or created_at)
             # - Age >= stale_threshold_days
             # - Missing insight OR missing deep dive (true pipeline debt)
             # NOTE: episodes with insight + deep dive but added_to_site=0 are "off-main
             # overflow" (lost the main-10 race) — NOT pipeline debt, so excluded here.
+            blocked_subquery = """(SELECT COUNT(*) FROM deep_dive_generation_failures dgf
+                     JOIN latest_insights li3 ON dgf.insight_id = li3.id
+                     WHERE li3.podcast_episode_id = pe.id AND dgf.status = 'blocked')""" if failures_table_exists else "0"
+            
             cur = conn.execute(
-                """
+                f"""
                 SELECT 
                     pe.id,
                     pe.rss_guid,
@@ -837,7 +848,8 @@ def _export_pipeline_state(site_dir: Path):
                     (SELECT COUNT(*) FROM latest_insights li WHERE li.podcast_episode_id = pe.id) AS insight_count,
                     (SELECT COUNT(*) FROM deep_dive_content ddc 
                      JOIN latest_insights li2 ON ddc.insight_id = li2.id 
-                     WHERE li2.podcast_episode_id = pe.id) AS deepdive_count
+                     WHERE li2.podcast_episode_id = pe.id) AS deepdive_count,
+                    {blocked_subquery} AS blocked_deepdive_count
                 FROM podcast_episodes pe
                 WHERE date(COALESCE(pe.episode_date, date(pe.created_at))) >= date('now', ?)
                   AND julianday('now') - julianday(COALESCE(pe.episode_date, date(pe.created_at))) >= ?
@@ -881,18 +893,22 @@ def _export_pipeline_state(site_dir: Path):
                 analyzed = bool(r.get("is_processed"))
                 insight_created = int(r.get("insight_count") or 0) > 0
                 has_deepdive = int(r.get("deepdive_count") or 0) > 0
+                deepdive_blocked = int(r.get("blocked_deepdive_count") or 0) > 0
                 published = bool(r.get("added_to_site")) and insight_created and has_deepdive
 
-                status = derive_status(downloaded, transcribed, analyzed, insight_created, published)
+                status = derive_status(downloaded, transcribed, analyzed, insight_created, published, deepdive_blocked)
                 if status == "complete":
                     continue  # Already fully published
 
-                blocker = next(
-                    (k for k in ["downloaded", "transcribed", "analyzed", "insight_created", "published"]
-                     if not {"downloaded": downloaded, "transcribed": transcribed, "analyzed": analyzed,
-                             "insight_created": insight_created, "published": published}.get(k)),
-                    "unknown"
-                )
+                if deepdive_blocked:
+                    blocker = "deepdive_blocked"
+                else:
+                    blocker = next(
+                        (k for k in ["downloaded", "transcribed", "analyzed", "insight_created", "published"]
+                         if not {"downloaded": downloaded, "transcribed": transcribed, "analyzed": analyzed,
+                                 "insight_created": insight_created, "published": published}.get(k)),
+                        "unknown"
+                    )
 
                 stale_episodes.append(
                     {
