@@ -1,6 +1,6 @@
 {
   "_comment": "Curated Overton seeds from niche/plumbing sources (Fed plumbing, macro). These bypass the podcast mention pipeline and are merged at render time into the Overton Window with a 'Curated' badge. Do NOT modify featured_overton.json - that file is for debated theses.",
-  "_updated": "2026-09-28",
+  "_updated": "2026-10-08",
   "_source": "site/data/curated_sources.json overton_seeds.fed_plumbing",
   "schema_version": 1,
   "curated": [
@@ -49,6 +49,22 @@
       },
       "status": "active",
       "display_order": 3
+    },
+    {
+      "id": "curated-shipping-ton-miles",
+      "term": "Ton-miles",
+      "description": "Tons of cargo multiplied by the miles they travel. When cargo has to go a longer way, the same amount needs more ships, so a short disruption can make ships scarce and push rates up, while a lasting shutdown that removes the cargo pushes them down.",
+      "first_source": "J Mintzmyer (Value Investors Edge) on Monetary Matters with Jack Farley",
+      "source_type": "podcast",
+      "category": "shipping",
+      "provenance": {
+        "author": "J Mintzmyer (Value Investors Edge), Monetary Matters with Jack Farley",
+        "source_url": "https://www.youtube.com/@MonetaryMatters",
+        "episode": "The Most Extreme Shipping Market in History, Explained (2026-10-06)",
+        "note": "Curated seed (Jared yes 2026-10-08). From Insight 569. Example in the episode: China moving iron ore and bauxite buying from Australia to Guinea more than triples the voyage to China."
+      },
+      "status": "active",
+      "display_order": 4
     }
   ]
 }
