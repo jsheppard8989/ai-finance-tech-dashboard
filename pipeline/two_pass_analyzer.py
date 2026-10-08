@@ -66,7 +66,16 @@ The JSON should contain:
   "major_claims": [],
   "important_facts": [],
   "numbers": [],
-  "companies_and_assets": [],
+  "companies_and_assets": [
+    {
+      "name": "Company Name",
+      "ticker": "TICK",
+      "claim": "What the speaker claims about this company",
+      "evidence": "Supporting evidence from transcript",
+      "key_quotes": [{"speaker": "Full Name", "quote": "Verbatim quote about this company, full sentence"}],
+      "falsification": "What would prove this claim wrong, with date/condition if stated"
+    }
+  ],
   "predictions": [],
   "catalysts": [],
   "risks": [],
@@ -75,7 +84,8 @@ The JSON should contain:
   "unanswered_questions": [],
   "high_value_quotes": [],
   "guests": [],
-  "hosts": []
+  "hosts": [],
+  "falsification_tracks": ["Track 1: What would prove the overall thesis wrong", "Track 2: ..."]
 }
 
 """
@@ -99,6 +109,16 @@ HIGH_VALUE_QUOTES RULES:
 NUMBERS FILTER:
 - For numbers[], include only investment-relevant statistics: revenue, market size, growth rates, valuations, dates/timelines, percentages.
 - EXCLUDE event logistics like broadcast times, masterclass schedules, Patreon amounts, episode numbers, or self-promotional timestamps.
+
+COMPANIES_AND_ASSETS RULES:
+- For each company or asset discussed with substance, include:
+  - key_quotes: 1-3 verbatim quotes about this company from the transcript, each with {speaker, quote}. Use the KNOWN SPEAKERS list. Full sentences, 15-60 words.
+  - falsification: What would prove the speaker's thesis about this company wrong? If the speaker states a date or condition, include it. If not stated, describe what evidence would falsify the claim.
+
+FALSIFICATION_TRACKS:
+- Include 3-5 top-level falsification tracks that would disprove the episode's overall thesis.
+- Be specific: include timeframes, metrics, or observable conditions where stated or inferable.
+- Example: "If HBM supply exceeds demand by Q3 2027, the capacity shortage thesis fails."
 
 Transcript:
 
@@ -989,6 +1009,17 @@ def is_two_pass_enabled() -> bool:
     """Check if two-pass mode is enabled via ANALYZER_MODE env var."""
     mode = os.environ.get("ANALYZER_MODE", "").strip().lower()
     return mode == "two_pass"
+
+
+def get_deepdive_mode() -> str:
+    """Get deep dive mode: 'legacy' (gpt-5.5 over transcript) or 'extraction' (gpt-5.4-mini over extraction).
+    
+    DEEPDIVE_MODE=legacy|extraction, default legacy.
+    """
+    mode = os.environ.get("DEEPDIVE_MODE", "").strip().lower()
+    if mode == "extraction":
+        return "extraction"
+    return "legacy"
 
 
 def get_two_pass_client():
