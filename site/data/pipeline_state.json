@@ -1,31 +1,31 @@
 {
-  "generated_at": "2026-10-07T22:47:54.450942",
-  "last_updated": "2026-10-07T22:47:54.450942",
-  "last_pipeline_run": "2026-10-07T22:47:54.450942",
+  "generated_at": "2026-10-08T05:39:49.129267",
+  "last_updated": "2026-10-08T05:39:49.129267",
+  "last_pipeline_run": "2026-10-08T05:39:49.129267",
   "main_page": {
     "overton": 13,
     "insights": 12,
     "pundits": 348
   },
   "counts": {
-    "ticker_mentions": 276,
-    "podcast_episodes": 529,
+    "ticker_mentions": 278,
+    "podcast_episodes": 530,
     "newsletters": 7,
-    "daily_scores": 201,
+    "daily_scores": 214,
     "overton_terms_total": 146,
-    "latest_insights_total": 543,
+    "latest_insights_total": 544,
     "today_mentions": {
-      "podcast": 12
+      "podcast": 14
     },
-    "podcasts_analyzed": 4
+    "podcasts_analyzed": 1
   },
   "step_results": {
-    "downloaded": 5,
-    "transcribed": 4,
-    "analyzed": 4,
-    "insight_created": 4,
-    "published": 3,
-    "total": 5
+    "downloaded": 2,
+    "transcribed": 1,
+    "analyzed": 1,
+    "insight_created": 1,
+    "published": 1,
+    "total": 2
   },
   "episodes": [
     {
@@ -34,6 +34,24 @@
       "title": "Why Altman Says \"Accept Some Bad Things Happening\" and What It Means for AI Safety | MOONSHOTS #301",
       "published": "2026-10-07",
       "rss_guid": "eb332b08-c266-11f1-8450-67f68606e725",
+      "stages": {
+        "downloaded": true,
+        "transcribed": true,
+        "analyzed": true,
+        "insight_created": true,
+        "published": true
+      },
+      "stage_reasons": {},
+      "first_blocker": null,
+      "remediation_by_stage": {},
+      "status": "complete"
+    },
+    {
+      "id": "362a88d2-2968-43d5-b3e4-7531e65faea0",
+      "podcast": "The a16z Show",
+      "title": "Building the Cloud for an Agentic World | AWS CEO Matt Garman",
+      "published": "2026-10-08",
+      "rss_guid": "362a88d2-2968-43d5-b3e4-7531e65faea0",
       "stages": {
         "downloaded": true,
         "transcribed": false,
@@ -98,105 +116,29 @@
         }
       },
       "status": "needs_transcription"
-    },
-    {
-      "id": "54a49840-b9f4-11f1-af58-2f4cde24177e",
-      "podcast": "Moonshots with Peter Diamandis",
-      "title": "Google X's Astro Teller: The $1B Bet No CEO Will Back, Moonshots 3x Cheaper in 16 Yrs, and Clean Water at 1\u00a2/L| EP #300",
-      "published": "2026-10-05",
-      "rss_guid": "54a49840-b9f4-11f1-af58-2f4cde24177e",
-      "stages": {
-        "downloaded": true,
-        "transcribed": true,
-        "analyzed": true,
-        "insight_created": true,
-        "published": true
-      },
-      "stage_reasons": {},
-      "first_blocker": null,
-      "remediation_by_stage": {},
-      "status": "complete"
-    },
-    {
-      "id": "eac96156-c193-11f1-981c-4b26d5758027",
-      "podcast": "Monetary Matters with Jack Farley",
-      "title": "The Most Extreme Shipping Market in History, Explained | J Mintzmyer on Why Oil Tanker Rates Are Up 25x and Why It Can\u2019t Last (and Why Dry Bulk, not Tankers, is the Next Shipping Boom)",
-      "published": "2026-10-06",
-      "rss_guid": "eac96156-c193-11f1-981c-4b26d5758027",
-      "stages": {
-        "downloaded": true,
-        "transcribed": true,
-        "analyzed": true,
-        "insight_created": true,
-        "published": false
-      },
-      "stage_reasons": {
-        "published": "Insight exists but no deep dive content yet \u2014 run generate_deepdives.py then auto_pipeline."
-      },
-      "first_blocker": "published",
-      "remediation_by_stage": {
-        "published": {
-          "action_id": "EXPORT_AND_PUBLISH",
-          "steps": [
-            "Site export runs only after generate_deepdives.py succeeds; if Deep Dives fail, export and git push are skipped.",
-            "Fix Deep Dive errors (see pipeline logs), then run auto_pipeline.py to export site JSON and push.",
-            "When added_to_site=1 on the episode row, this stage turns green."
-          ],
-          "commands": [
-            "cd /Users/jaredsheppard/projects/ai-finance-tech-dashboard/pipeline && python3 generate_deepdives.py",
-            "cd /Users/jaredsheppard/projects/ai-finance-tech-dashboard/pipeline && python3 auto_pipeline.py"
-          ]
-        }
-      },
-      "status": "needs_export"
-    },
-    {
-      "id": "448c46f9-889e-436c-9230-b0050c6387f7",
-      "podcast": "The a16z Show",
-      "title": "How Valon Rebuilt a $13 Trillion Industry From Scratch",
-      "published": "2026-10-07",
-      "rss_guid": "448c46f9-889e-436c-9230-b0050c6387f7",
-      "stages": {
-        "downloaded": true,
-        "transcribed": true,
-        "analyzed": true,
-        "insight_created": true,
-        "published": true
-      },
-      "stage_reasons": {},
-      "first_blocker": null,
-      "remediation_by_stage": {},
-      "status": "complete"
-    },
-    {
-      "id": "d110348a-bd35-4a71-a50f-90bf45a1db0b",
-      "podcast": "The a16z Show",
-      "title": "Building Defense for the Agentic Era: Kevin Mandia",
-      "published": "2026-10-06",
-      "rss_guid": "d110348a-bd35-4a71-a50f-90bf45a1db0b",
-      "stages": {
-        "downloaded": true,
-        "transcribed": true,
-        "analyzed": true,
-        "insight_created": true,
-        "published": true
-      },
-      "stage_reasons": {},
-      "first_blocker": null,
-      "remediation_by_stage": {},
-      "status": "complete"
     }
   ],
   "available_from_rss": [
     {
-      "podcast": "Moonshots with Peter Diamandis",
-      "title": "Why Altman Says \"Accept Some Bad Things Happening\" and What It Means for AI Safety | MOONSHOTS #301",
-      "published": "Wed, 07 Oct 2026 20:00:00 -0000",
-      "published_date": "2026-10-07",
+      "podcast": "The a16z Show",
+      "title": "Building the Cloud for an Agentic World | AWS CEO Matt Garman",
+      "published": "Thu, 8 Oct 2026 10:00:00 +0000",
+      "published_date": "2026-10-08",
       "rss_guid": ""
     }
   ],
-  "stale_episodes": [],
+  "stale_episodes": [
+    {
+      "id": "eac96156-c193-11f1-981c-4b26d5758027",
+      "podcast": "Monetary Matters with Jack Farley",
+      "title": "The Most Extreme Shipping Market in History, Explained | J Mintzmyer on Why Oil Tanker Rates Are Up 25x and Why It Can\u2019t Last (and Why Dry Bulk, not Tankers, is the Next Shipping Boom)",
+      "status": "needs_export",
+      "published": "2026-10-06",
+      "age_days": 2,
+      "next_blocker": "published",
+      "source": "db_incomplete"
+    }
+  ],
   "stale_threshold_days": 2,
   "rss_filter_criteria": {
     "cutoff_date": "2026-02-01",

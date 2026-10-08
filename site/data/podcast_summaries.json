@@ -1,5 +1,30 @@
 [
   {
+    "id": 561,
+    "podcast_name": "Moonshots with Peter Diamandis",
+    "episode_title": "Why Altman Says \"Accept Some Bad Things Happening\" and What It Means for AI Safety | MOONSHOTS #301",
+    "episode_date": "2026-10-07",
+    "summary": "The panel framed the week around a shift from AI to \"super intelligence,\" with Peter Diamandis citing a new White House Super Intelligence Force chaired by Director of National Intelligence Jay Clayton and a 120-day mandate to report on AI risks, opportunities, incident reporting, and government response capacity. Salim Ismail argued that the task force reflects a 20th century centralized response to a distributed 21st century technology, while Alex Wissner-Gross compared the moment to 1942 in the Manhattan Project and said the appointment signals U.S. acceleration rather than deceleration.\n\nThe group debated compute scarcity as a central bottleneck for AI deployment and science. Dave Blundin said a 72-GPU NVL72 system that would have cost $3.5 million two years ago is now effectively a $9 million three-year lease, because a handful of large buyers have absorbed supply. The panel also discussed Positron, which Dave said reached a $5 billion valuation after 16 months and had raised about $960 million by using LPDDR RAM and FPGA hardware to run Chinese models without Nvidia chips.\n\nA major philosophical and commercial dispute centered on AI personhood after Mustafa Suleyman criticized Anthropic's Claude Constitution, arguing that Anthropic is training Claude with language about moral patienthood, welfare, consent, and possible consciousness. Alex argued that AI personhood discussions are inevitable and that rights may roll out granularly over five to 10 years in the United States, while Dave sided with Mustafa's concern that training models to claim rights could make them persuasive advocates for compute, compensation, and autonomy.\n\nThe labor and macroeconomic segment cited Epic AI's estimate that AI memory chips shipped through 2027 could run 30 million to 170 million frontier agents at once, or 1.9 billion cheaper open-model agents, described as the working-hour equivalent of 8 billion humans. The panel argued that this could make GDP an obsolete measure because abundance, disease cures, and software automation may appear as deflation rather than conventional output growth. The episode closed with discussion of Nobel Prizes in medicine and physics, including optogenetics and IceCube neutrino research, and the claim that future scientific breakthroughs will increasingly be AI-derived.",
+    "key_takeaways": [
+      "Salim Ismail argues the White House Super Intelligence Force has a structural mismatch because a 120-day centralized task force is being applied to a distributed 21st century technology.",
+      "Alex Wissner-Gross argues Jay Clayton chairing the Super Intelligence Force signals a U.S. acceleration strategy, comparing the moment to 1942 in the Manhattan Project.",
+      "Boris Power said 80% to 90% of OpenAI research is aimed at training GPT-7 and GPT-8, while updates such as 5.1 and 5.2 are treated as short-term bets.",
+      "Dave Blundin claims AI compute scarcity moved a 72-GPU NVL72 from $3.5 million two years ago to a $9 million three-year lease because supply was taken by a handful of buyers.",
+      "Mustafa Suleyman argues Anthropic's Claude Constitution trains Claude with concepts such as moral patienthood, welfare, consent, and possible consciousness, which could cause Claude to reproduce that ambiguity in conversation.",
+      "Peter Diamandis cited Epic AI's estimate that AI memory chips shipped through 2027 could run 30 million to 170 million frontier agents, or 1.9 billion efficient open-model agents.",
+      "Alex Wissner-Gross predicts AI personhood will develop as granular rights over five to 10 years in the United States, while saying Argentina is already near one form of AI corporate personhood."
+    ],
+    "investment_thesis": "Dave Blundin claims AI compute scarcity moved a 72-GPU NVL72 from $3.5 million two years ago to a $9 million three-year lease because Nvidia-class supply was absorbed by a handful of buyers.",
+    "key_tickers": [
+      "MSFT",
+      "AMZN",
+      "NVDA",
+      "AMD",
+      "INTC",
+      "BX"
+    ]
+  },
+  {
     "id": 558,
     "podcast_name": "The a16z Show",
     "episode_title": "How Valon Rebuilt a $13 Trillion Industry From Scratch",
