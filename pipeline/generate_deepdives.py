@@ -234,6 +234,17 @@ def ensure_deep_dive_schema(conn: sqlite3.Connection) -> None:
         conn.execute(
             "ALTER TABLE deep_dive_content ADD COLUMN schema_version INTEGER DEFAULT 1"
         )
+    # Cost tracking columns (added for PR #xxx)
+    if "model_used" not in existing:
+        conn.execute("ALTER TABLE deep_dive_content ADD COLUMN model_used TEXT")
+    if "input_tokens" not in existing:
+        conn.execute("ALTER TABLE deep_dive_content ADD COLUMN input_tokens INTEGER")
+    if "output_tokens" not in existing:
+        conn.execute("ALTER TABLE deep_dive_content ADD COLUMN output_tokens INTEGER")
+    if "cost_usd" not in existing:
+        conn.execute("ALTER TABLE deep_dive_content ADD COLUMN cost_usd REAL")
+    if "attempt_count" not in existing:
+        conn.execute("ALTER TABLE deep_dive_content ADD COLUMN attempt_count INTEGER")
     conn.commit()
 
 
@@ -612,8 +623,11 @@ def get_source_content(insight_id: int, source_type: str, episode_id: int = None
     return ""
 
 
-def _call_json_model(clients: List[Tuple[str, Any]], prompt: str) -> Tuple[Optional[dict], Optional[str]]:
-    """Try each configured provider; return (parsed_json, last_error_detail)."""
+def _call_json_model(clients: List[Tuple[str, Any]], prompt: str) -> Tuple[Optional[dict], Optional[str], Optional[dict]]:
+    """Try each configured provider; return (parsed_json, last_error_detail, usage_info).
+    
+    usage_info dict has keys: model, input_tokens, output_tokens, cost_usd
+    """
     from analyze_transcript import resolve_llm_model
     last_error = ""
     content_filter_hit = False
@@ -636,14 +650,29 @@ def _call_json_model(clients: List[Tuple[str, Any]], prompt: str) -> Tuple[Optio
                 raw = resp.choices[0].message.content
                 if not raw or not str(raw).strip():
                     raise ValueError(f"OpenAI returned empty content (model={model})")
-                return json.loads(raw), None
+                
+                # Extract usage info
+                usage = resp.usage
+                input_tokens = usage.prompt_tokens if usage else 0
+                output_tokens = usage.completion_tokens if usage else 0
+                # gpt-5.5 pricing: $5/M input, $30/M output
+                cost_usd = (input_tokens / 1_000_000 * 5.0) + (output_tokens / 1_000_000 * 30.0)
+                usage_info = {
+                    "model": model,
+                    "input_tokens": input_tokens,
+                    "output_tokens": output_tokens,
+                    "cost_usd": cost_usd,
+                }
+                print(f"    Deep dive tokens: {input_tokens:,} in / {output_tokens:,} out, cost=${cost_usd:.4f}", flush=True)
+                return json.loads(raw), None, usage_info
 
             if client_type == "gemini":
                 import google.generativeai as genai
 
                 model = genai.GenerativeModel(resolve_llm_model("gemini"))
                 resp = model.generate_content(prompt)
-                return json.loads(resp.text), None
+                # Gemini doesn't provide detailed usage in the same way
+                return json.loads(resp.text), None, {"model": str(model), "input_tokens": 0, "output_tokens": 0, "cost_usd": 0.0}
         except Exception as e:
             last_error = str(e)
             if _is_content_filter_error(e):
@@ -653,8 +682,8 @@ def _call_json_model(clients: List[Tuple[str, Any]], prompt: str) -> Tuple[Optio
                 print(f"    ✗ {client_type} failed: {e}", flush=True)
             continue
     if content_filter_hit:
-        return None, "content_filter: blocked by provider safety filter"
-    return None, last_error or "all providers failed"
+        return None, "content_filter: blocked by provider safety filter", None
+    return None, last_error or "all providers failed", None
 
 
 def _extract_host_from_source_name(source_name: str) -> Optional[str]:
@@ -695,8 +724,12 @@ def generate_deep_dive_with_ai(
     retry_hint: str = "",
     host_name: Optional[str] = None,
     guest_names: Optional[List[str]] = None,
-) -> Tuple[Optional[dict], Optional[str]]:
-    """Generate deep dive content using AI (high-ROI: source evidence + falsifiers + anti-paraphrase)."""
+) -> Tuple[Optional[dict], Optional[str], Optional[dict]]:
+    """Generate deep dive content using AI (high-ROI: source evidence + falsifiers + anti-paraphrase).
+    
+    Returns: (content_dict, error_string, usage_info)
+    usage_info dict has keys: model, input_tokens, output_tokens, cost_usd
+    """
 
     from transcript_window import sample_transcript_window
     src = sample_transcript_window(source_content, SOURCE_SNIPPET_CHARS)
@@ -755,14 +788,21 @@ Hard rules:
 - English only.
 {retry_block}"""
 
-    raw, err = _call_json_model(clients, prompt)
+    raw, err, usage_info = _call_json_model(clients, prompt)
     if raw:
-        return normalize_from_ai_response(raw), err
-    return None, err
+        return normalize_from_ai_response(raw), err, usage_info
+    return None, err, usage_info
 
 
-def store_deep_dive(insight_id: int, episode_id: int, content: dict) -> bool:
-    """Store deep dive content in database."""
+def store_deep_dive(insight_id: int, episode_id: int, content: dict, usage_info: Optional[dict] = None) -> bool:
+    """Store deep dive content in database.
+    
+    Args:
+        insight_id: ID in latest_insights
+        episode_id: ID in podcast_episodes
+        content: Deep dive content dict
+        usage_info: Optional dict with model, input_tokens, output_tokens, cost_usd, attempt_count
+    """
     conn = get_db_connection()
 
     try:
@@ -774,14 +814,22 @@ def store_deep_dive(insight_id: int, episode_id: int, content: dict) -> bool:
             # Avoid overwriting with empty if AI returned only placeholders
             content = {**content, 'ticker_analysis': ticker_analysis}
 
+        # Extract usage info
+        model_used = usage_info.get("model") if usage_info else None
+        input_tokens = usage_info.get("input_tokens") if usage_info else None
+        output_tokens = usage_info.get("output_tokens") if usage_info else None
+        cost_usd = usage_info.get("cost_usd") if usage_info else None
+        attempt_count = usage_info.get("attempt_count") if usage_info else None
+
         conn.execute(
             """
             INSERT INTO deep_dive_content (
                 insight_id, podcast_episode_id, overview, key_takeaways_detailed,
                 investment_thesis, ticker_analysis, positioning_guidance,
                 risk_factors, contrarian_signals, catalysts,
-                episode_evidence, falsification_tracks, schema_version, created_at
-            ) VALUES (?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?)
+                episode_evidence, falsification_tracks, schema_version, created_at,
+                model_used, input_tokens, output_tokens, cost_usd, attempt_count
+            ) VALUES (?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?)
         """,
             (
                 insight_id,
@@ -798,6 +846,11 @@ def store_deep_dive(insight_id: int, episode_id: int, content: dict) -> bool:
                 json.dumps(content.get("falsification_tracks", [])),
                 int(content.get("schema_version") or DEEP_DIVE_SCHEMA_VERSION),
                 datetime.now().isoformat(),
+                model_used,
+                input_tokens,
+                output_tokens,
+                cost_usd,
+                attempt_count,
             ),
         )
         # If latest_insights.tickers_mentioned is empty, backfill it from ticker_analysis keys
@@ -883,16 +936,25 @@ def run_deep_dive_generation_attempts(
     key_takeaway: str,
     host_name: Optional[str] = None,
     guest_names: Optional[List[str]] = None,
-) -> Tuple[Optional[Dict[str, Any]], Optional[str]]:
-    """Generate with retries when overlap or structural checks fail."""
+) -> Tuple[Optional[Dict[str, Any]], Optional[str], Optional[dict]]:
+    """Generate with retries when overlap or structural checks fail.
+    
+    Returns: (content_dict, error_string, usage_info)
+    usage_info includes total tokens/cost across all attempts and attempt_count.
+    """
     source_content = get_source_content(insight_id, source_type, episode_id)
     if not source_content:
-        return None, "missing source content"
+        return None, "missing source content", None
 
     retry_hint = ""
     last_error = ""
+    total_input_tokens = 0
+    total_output_tokens = 0
+    total_cost = 0.0
+    model_used = None
+    
     for attempt in range(1, MAX_GENERATION_ATTEMPTS + 1):
-        content, err = generate_deep_dive_with_ai(
+        content, err, usage_info = generate_deep_dive_with_ai(
             clients,
             title,
             source_content,
@@ -903,11 +965,19 @@ def run_deep_dive_generation_attempts(
             host_name=host_name,
             guest_names=guest_names,
         )
+        
+        # Accumulate usage across attempts
+        if usage_info:
+            total_input_tokens += usage_info.get("input_tokens", 0)
+            total_output_tokens += usage_info.get("output_tokens", 0)
+            total_cost += usage_info.get("cost_usd", 0.0)
+            model_used = usage_info.get("model")
+        
         if err:
             last_error = err
         if not content:
             if err and _is_content_filter_error(Exception(err)):
-                return None, err
+                return None, err, {"model": model_used, "input_tokens": total_input_tokens, "output_tokens": total_output_tokens, "cost_usd": total_cost, "attempt_count": attempt}
             continue
 
         evidence = _episode_evidence_text(content.get("episode_evidence"))
@@ -961,7 +1031,8 @@ def run_deep_dive_generation_attempts(
                     f"    ✗ Giving up after {MAX_GENERATION_ATTEMPTS} attempts (validation failed)",
                     flush=True,
                 )
-                return None, validation_errors[0]
+                final_usage = {"model": model_used, "input_tokens": total_input_tokens, "output_tokens": total_output_tokens, "cost_usd": total_cost, "attempt_count": attempt}
+                return None, validation_errors[0], final_usage
             continue
 
         if attempt > 1:
@@ -970,9 +1041,11 @@ def run_deep_dive_generation_attempts(
                 f"(card overlap {overlap:.2f}, evidence {ev_sim:.2f}, canned {canned})",
                 flush=True,
             )
-        return content, None
+        final_usage = {"model": model_used, "input_tokens": total_input_tokens, "output_tokens": total_output_tokens, "cost_usd": total_cost, "attempt_count": attempt}
+        return content, None, final_usage
 
-    return None, last_error or "generation failed after retries"
+    final_usage = {"model": model_used, "input_tokens": total_input_tokens, "output_tokens": total_output_tokens, "cost_usd": total_cost, "attempt_count": MAX_GENERATION_ATTEMPTS}
+    return None, last_error or "generation failed after retries", final_usage
 
 
 def generate_missing_deepdives(insight_ids: list = None) -> Tuple[int, int, int]:
@@ -1067,7 +1140,7 @@ def generate_missing_deepdives(insight_ids: list = None) -> Tuple[int, int, int]
                 speakers_info.append(f"Guest(s): {', '.join(guest_names)}")
             print(f"    Speakers: {'; '.join(speakers_info)}", flush=True)
 
-        content, err_detail = run_deep_dive_generation_attempts(
+        content, err_detail, usage_info = run_deep_dive_generation_attempts(
             clients,
             insight_id,
             title,
@@ -1098,7 +1171,7 @@ def generate_missing_deepdives(insight_ids: list = None) -> Tuple[int, int, int]
         if "catalysts" in content and content["catalysts"]:
             content["catalysts"] = filter_stale_catalysts(content["catalysts"], source_date)
 
-        if store_deep_dive(insight_id, episode_id, content):
+        if store_deep_dive(insight_id, episode_id, content, usage_info=usage_info):
             mark_deep_dive_failure_resolved(conn, insight_id)
             print(f"  ✓ Deep Dive stored", flush=True)
             generated += 1

@@ -94,6 +94,63 @@ class TestTwoPassAnalyzerCache:
         finally:
             db_path.unlink(missing_ok=True)
 
+    def test_cache_hit_prevents_api_calls(self):
+        """Verify that a cache hit returns results without making API calls."""
+        from two_pass_analyzer import analyze_transcript_two_pass
+        
+        with tempfile.NamedTemporaryFile(suffix=".db", delete=False) as f:
+            db_path = Path(f.name)
+        try:
+            cache = TwoPassAnalyzerCache(db_path)
+            
+            transcript = "This is a test transcript with enough content to analyze."
+            sha = transcript_sha256(transcript)
+            
+            extraction = {
+                "episode_summary": "Test summary",
+                "major_claims": [],
+                "companies_and_assets": [],
+                "high_value_quotes": [],
+            }
+            site_contract = {
+                "summary": "Test summary from site contract",
+                "key_takeaways": ["Takeaway 1"],
+                "notable_quotes": [],
+                "sentiment": "neutral",
+            }
+            brief = f"# Brief\n\nTest content\n\n---SITE_CONTRACT_JSON---\n{json.dumps(site_contract)}"
+            
+            cache.put(
+                episode_id=123,
+                transcript_sha256=sha,
+                extraction_json=json.dumps(extraction),
+                brief_markdown=brief,
+                pass1_input_tokens=1000,
+                pass1_output_tokens=500,
+                pass2_input_tokens=600,
+                pass2_output_tokens=800,
+            )
+            
+            mock_client = MagicMock()
+            mock_client.chat.completions.create.side_effect = AssertionError(
+                "API should not be called when cache hit"
+            )
+            
+            result = analyze_transcript_two_pass(
+                client=mock_client,
+                transcript=transcript,
+                podcast_name="Test Podcast",
+                episode_id=123,
+                cache=cache,
+            )
+            
+            assert result is not None
+            assert "summary" in result
+            mock_client.chat.completions.create.assert_not_called()
+            
+        finally:
+            db_path.unlink(missing_ok=True)
+
 
 class TestChunking:
     """Tests for transcript chunking."""

@@ -1025,6 +1025,7 @@ def process_transcript_file(transcript_path: Path, client_info, db) -> Optional[
     extraction_json = analysis.get("_extraction_json")
     brief_markdown = analysis.get("_brief_markdown")
     analyzer_mode = "two_pass" if extraction_json else "legacy"
+    analysis_cost_usd = analysis.get("_analysis_cost_usd")
     
     try:
         import json as _json
@@ -1050,6 +1051,10 @@ def process_transcript_file(transcript_path: Path, client_info, db) -> Optional[
             updates.append("brief_markdown = ?")
             params.append(brief_markdown)
         
+        if analysis_cost_usd is not None:
+            updates.append("analysis_cost_usd = ?")
+            params.append(analysis_cost_usd)
+        
         params.append(episode_id)
         _conn.execute(
             f"UPDATE podcast_episodes SET {', '.join(updates)} WHERE id = ?",
@@ -1059,7 +1064,26 @@ def process_transcript_file(transcript_path: Path, client_info, db) -> Optional[
         _conn.close()
         
         if extraction_json:
-            print(f"    ✓ Stored two-pass artifacts (extraction + brief)")
+            print(f"    ✓ Stored two-pass artifacts (extraction + brief, cost=${analysis_cost_usd:.4f})" if analysis_cost_usd else "    ✓ Stored two-pass artifacts (extraction + brief)")
+        
+        # Write to two_pass_cache for future re-runs
+        if extraction_json and episode_id:
+            transcript_sha = analysis.get("_transcript_sha256")
+            p1_in = analysis.get("_pass1_input_tokens", 0)
+            p1_out = analysis.get("_pass1_output_tokens", 0)
+            p2_in = analysis.get("_pass2_input_tokens", 0)
+            p2_out = analysis.get("_pass2_output_tokens", 0)
+            if transcript_sha:
+                try:
+                    from two_pass_analyzer import TwoPassAnalyzerCache
+                    _cache = TwoPassAnalyzerCache()
+                    _cache.put(
+                        episode_id, transcript_sha, extraction_json, brief_markdown or "",
+                        p1_in, p1_out, p2_in, p2_out
+                    )
+                    print(f"    ✓ Cached two-pass results (episode_id={episode_id}, sha={transcript_sha[:12]}...)")
+                except Exception as _ce:
+                    print(f"    Could not write to two_pass_cache: {_ce}")
     except Exception as _qe:
         print(f"    Could not store notable_quotes/artifacts: {_qe}")
 
