@@ -225,8 +225,21 @@ def generate_comparison_report(
 
 **Calls per episode in current pipeline:**
 1. `analyze_transcript.py` - 1 call (transcript analysis)
-2. `generate_deepdives.py` - 1-4 calls (deep dive generation with retries)
+2. `generate_deepdives.py` - 1-4 calls (deep dive generation with retries, using **gpt-5.5**)
 3. Total: 2-5 OpenAI calls per episode for full pipeline
+
+### All-In Per-Episode Cost (Analysis + Deep Dives)
+
+Deep dives use **gpt-5.5** and send ~25,000 input tokens (100K chars of transcript window) with ~1,500 output tokens per attempt. Typical cost per deep dive call: ~$0.17 (one attempt) to ~$0.50 (4 retries).
+
+| Component | Legacy | Two-Pass | Notes |
+|-----------|--------|----------|-------|
+| Analysis | ${legacy_result['cost_usd']:.4f} | ${two_pass_result['cost_usd']:.4f} | This comparison |
+| Deep Dive (1 attempt) | ~$0.17 | ~$0.17 | gpt-5.5 for both |
+| **All-in (1 DD attempt)** | **~${legacy_result['cost_usd'] + 0.17:.2f}** | **~${two_pass_result['cost_usd'] + 0.17:.2f}** | — |
+| **All-in (4 DD retries)** | **~${legacy_result['cost_usd'] + 0.50:.2f}** | **~${two_pass_result['cost_usd'] + 0.50:.2f}** | Worst case |
+
+**Note:** Deep dives still run on gpt-5.5 in both modes. A future PR could move them to gpt-5.4-mini for additional savings.
 
 ---
 
