@@ -3,7 +3,7 @@
 
 const dashboardData = {
   schemaVersion: 2,
-  generatedAt: "2026-10-08T10:54:02.167093",
+  generatedAt: "2026-10-08T11:05:56.175413",
   chartsVersion: "2026-10-08T10:53:54.116186",
   priceSnapshot: {
   "AAPL": {
@@ -1252,7 +1252,7 @@ const dashboardData = {
       "source_type": "podcast",
       "source_name": "Moonshots with Peter Diamandis",
       "source_date": "2026-10-07",
-      "summary": "The panel framed the week around a shift from AI to \"super intelligence,\" with Peter Diamandis citing a new White House Super Intelligence Force chaired by Director of National Intelligence Jay Clayton and a 120-day mandate to report on AI risks, opportunities, incident reporting, and government response capacity. Salim Ismail argued that the task force reflects a 20th century centralized response to a distributed 21st century technology, while Alex Wissner-Gross compared the moment to 1942 in the Manhattan Project and said the appointment signals U.S. acceleration rather than deceleration.\n\nThe group debated compute scarcity as a central bottleneck for AI deployment and science. Dave Blundin said a 72-GPU NVL72 system that would have cost $3.5 million two years ago is now effectively a $9 million three-year lease, because a handful of large buyers have absorbed supply. The panel also discussed Positron, which Dave said reached a $5 billion valuation after 16 months and had raised about $960 million by using LPDDR RAM and FPGA hardware to run Chinese models without Nvidia chips.\n\nA major philosophical and commercial dispute centered on AI personhood after Mustafa Suleyman criticized Anthropic's Claude Constitution, arguing that Anthropic is training Claude with language about moral patienthood, welfare, consent, and possible consciousness. Alex argued that AI personhood discussions are inevitable and that rights may roll out granularly over five to 10 years in the United States, while Dave sided with Mustafa's concern that training models to claim rights could make them persuasive advocates for compute, compensation, and autonomy.\n\nThe labor and macroeconomic segment cited Epic AI's estimate that AI memory chips shipped through 2027 could run 30 million to 170 million frontier agents at once, or 1.9 billion cheaper open-model agents, described as the working-hour equivalent of 8 billion humans. The panel argued that this could make GDP an obsolete measure because abundance, disease cures, and software automation may appear as deflation rather than conventional output growth. The episode closed with discussion of Nobel Prizes in medicine and physics, including optogenetics and IceCube neutrino research, and the claim that future scientific breakthroughs will increasingly be AI-derived.",
+      "summary": "The panel framed the week around a shift from AI to \"super intelligence,\" with Peter Diamandis citing a new White House Super Intelligence Force chaired by Director of National Intelligence Jay Clayton and a 120-day mandate to report on AI risks, opportunities, incident reporting, and government response capacity. Salim Ismail argued that the task force reflects a 20th century centralized response to a distributed 21st century technology, while Alex Wissner-Gross compared the moment to 1942 in the Manhattan Project and said the appointment signals U.S. acceleration rather than deceleration.\n\nThe group debated compute scarcity as a central bottleneck for AI deployment and science. Dave Blundin said a 72-GPU NVL72 system that would have cost $3.5 million two years ago is now effectively a $9 million three-year lease, because a handful of large buyers have absorbed supply. The panel also discussed Positron, which Dave said reached a $5 billion valuation after 16 months and had raised about $960 million by using LPDDR RAM and FPGA hardware to run Chinese models without Nvidia chips.\n\nA major philosophical and commercial dispute centered on AI personhood after Mustafa Suleyman criticized Anthropic's Claude Constitution, arguing that Anthropic is training Claude with language about moral patienthood, welfare, consent, and possible consciousness. Alex argued that AI personhood discussions are inevitable and that rights may roll out granularly over five to 10 years in the United States, while Dave sided with Mustafa's concern that training models to claim rights could make them persuasive advocates for compute, compensation, and autonomy.\n\nThe labor and macroeconomic segment cited Epoch AI's estimate that AI memory chips shipped through 2027 could run 30 million to 170 million frontier agents at once, or 1.9 billion cheaper open-model agents, described as the working-hour equivalent of 8 billion humans. The panel argued that this could make GDP an obsolete measure because abundance, disease cures, and software automation may appear as deflation rather than conventional output growth. The episode closed with discussion of Nobel Prizes in medicine and physics, including optogenetics and IceCube neutrino research, and the claim that future scientific breakthroughs will increasingly be AI-derived.",
       "key_takeaway": "Dave Blundin claims AI compute scarcity moved a 72-GPU NVL72 from $3.5 million two years ago to a $9 million three-year lease because Nvidia-class supply was absorbed by a handful of buyers.",
       "tickers_mentioned": [
         "MSFT",
@@ -1328,8 +1328,8 @@ const dashboardData = {
       "source_type": "podcast",
       "source_name": "The a16z Show",
       "source_date": "2026-10-06",
-      "summary": "Kevin Mandia, founder and CEO of Armored in and founder of Mandiant, argues that AI changes cybersecurity from human-speed attacks to machine-speed attacks. He says the open models are already strong enough for cyber offense, that attackers can probe many paths at once, and that less sophisticated attackers will look much more capable as models democratize expertise.",
-      "key_takeaway": "Kevin Mandia argues cybersecurity will shift to autonomous AI defense over the next two years because AI attacks move at machine speed and Armored in has already found over 90 production zero days since January 2026.",
+      "summary": "Kevin Mandia, founder and CEO of Armadin and founder of Mandiant, argues that AI changes cybersecurity from human-speed attacks to machine-speed attacks. He says the open models are already strong enough for cyber offense, that attackers can probe many paths at once, and that less sophisticated attackers will look much more capable as models democratize expertise.",
+      "key_takeaway": "Kevin Mandia argues cybersecurity will shift to autonomous AI defense over the next two years because AI attacks move at machine speed and Armadin has already found over 90 production zero days since January 2026.",
       "tickers_mentioned": [
         "GOOGL",
         "CRWD",
@@ -15906,7 +15906,7 @@ const dashboardData = {
       "source_type": "podcast",
       "source_name": "Moonshots with Peter Diamandis",
       "source_date": "2026-10-07",
-      "summary": "The panel framed the week around a shift from AI to \"super intelligence,\" with Peter Diamandis citing a new White House Super Intelligence Force chaired by Director of National Intelligence Jay Clayton and a 120-day mandate to report on AI risks, opportunities, incident reporting, and government response capacity. Salim Ismail argued that the task force reflects a 20th century centralized response to a distributed 21st century technology, while Alex Wissner-Gross compared the moment to 1942 in the Manhattan Project and said the appointment signals U.S. acceleration rather than deceleration.\n\nThe group debated compute scarcity as a central bottleneck for AI deployment and science. Dave Blundin said a 72-GPU NVL72 system that would have cost $3.5 million two years ago is now effectively a $9 million three-year lease, because a handful of large buyers have absorbed supply. The panel also discussed Positron, which Dave said reached a $5 billion valuation after 16 months and had raised about $960 million by using LPDDR RAM and FPGA hardware to run Chinese models without Nvidia chips.\n\nA major philosophical and commercial dispute centered on AI personhood after Mustafa Suleyman criticized Anthropic's Claude Constitution, arguing that Anthropic is training Claude with language about moral patienthood, welfare, consent, and possible consciousness. Alex argued that AI personhood discussions are inevitable and that rights may roll out granularly over five to 10 years in the United States, while Dave sided with Mustafa's concern that training models to claim rights could make them persuasive advocates for compute, compensation, and autonomy.\n\nThe labor and macroeconomic segment cited Epic AI's estimate that AI memory chips shipped through 2027 could run 30 million to 170 million frontier agents at once, or 1.9 billion cheaper open-model agents, described as the working-hour equivalent of 8 billion humans. The panel argued that this could make GDP an obsolete measure because abundance, disease cures, and software automation may appear as deflation rather than conventional output growth. The episode closed with discussion of Nobel Prizes in medicine and physics, including optogenetics and IceCube neutrino research, and the claim that future scientific breakthroughs will increasingly be AI-derived.",
+      "summary": "The panel framed the week around a shift from AI to \"super intelligence,\" with Peter Diamandis citing a new White House Super Intelligence Force chaired by Director of National Intelligence Jay Clayton and a 120-day mandate to report on AI risks, opportunities, incident reporting, and government response capacity. Salim Ismail argued that the task force reflects a 20th century centralized response to a distributed 21st century technology, while Alex Wissner-Gross compared the moment to 1942 in the Manhattan Project and said the appointment signals U.S. acceleration rather than deceleration.\n\nThe group debated compute scarcity as a central bottleneck for AI deployment and science. Dave Blundin said a 72-GPU NVL72 system that would have cost $3.5 million two years ago is now effectively a $9 million three-year lease, because a handful of large buyers have absorbed supply. The panel also discussed Positron, which Dave said reached a $5 billion valuation after 16 months and had raised about $960 million by using LPDDR RAM and FPGA hardware to run Chinese models without Nvidia chips.\n\nA major philosophical and commercial dispute centered on AI personhood after Mustafa Suleyman criticized Anthropic's Claude Constitution, arguing that Anthropic is training Claude with language about moral patienthood, welfare, consent, and possible consciousness. Alex argued that AI personhood discussions are inevitable and that rights may roll out granularly over five to 10 years in the United States, while Dave sided with Mustafa's concern that training models to claim rights could make them persuasive advocates for compute, compensation, and autonomy.\n\nThe labor and macroeconomic segment cited Epoch AI's estimate that AI memory chips shipped through 2027 could run 30 million to 170 million frontier agents at once, or 1.9 billion cheaper open-model agents, described as the working-hour equivalent of 8 billion humans. The panel argued that this could make GDP an obsolete measure because abundance, disease cures, and software automation may appear as deflation rather than conventional output growth. The episode closed with discussion of Nobel Prizes in medicine and physics, including optogenetics and IceCube neutrino research, and the claim that future scientific breakthroughs will increasingly be AI-derived.",
       "key_takeaway": "Dave Blundin claims AI compute scarcity moved a 72-GPU NVL72 from $3.5 million two years ago to a $9 million three-year lease because Nvidia-class supply was absorbed by a handful of buyers.",
       "tickers_mentioned": "[\"MSFT\", \"AMZN\", \"NVDA\", \"AMD\", \"INTC\", \"BX\"]",
       "sentiment": "neutral",
@@ -15985,8 +15985,8 @@ const dashboardData = {
       "source_type": "podcast",
       "source_name": "The a16z Show",
       "source_date": "2026-10-06",
-      "summary": "Kevin Mandia, founder and CEO of Armored in and founder of Mandiant, argues that AI changes cybersecurity from human-speed attacks to machine-speed attacks. He says the open models are already strong enough for cyber offense, that attackers can probe many paths at once, and that less sophisticated attackers will look much more capable as models democratize expertise.",
-      "key_takeaway": "Kevin Mandia argues cybersecurity will shift to autonomous AI defense over the next two years because AI attacks move at machine speed and Armored in has already found over 90 production zero days since January 2026.",
+      "summary": "Kevin Mandia, founder and CEO of Armadin and founder of Mandiant, argues that AI changes cybersecurity from human-speed attacks to machine-speed attacks. He says the open models are already strong enough for cyber offense, that attackers can probe many paths at once, and that less sophisticated attackers will look much more capable as models democratize expertise.",
+      "key_takeaway": "Kevin Mandia argues cybersecurity will shift to autonomous AI defense over the next two years because AI attacks move at machine speed and Armadin has already found over 90 production zero days since January 2026.",
       "tickers_mentioned": "[\"GOOGL\", \"CRWD\", \"PANW\", \"FTNT\", \"RPD\", \"QLYS\"]",
       "sentiment": "neutral",
       "display_on_main": 1,
@@ -16092,7 +16092,7 @@ const dashboardData = {
         }
       ],
       "episode_release_date": "2026-10-05",
-      "guest_name": "Google X's Astro Teller",
+      "guest_name": "Astro Teller",
       "key_tickers": [
         "GOOGL",
         "LMT"
@@ -48107,7 +48107,7 @@ const dashboardData = {
     "id": 570,
     "insight_id": 570,
     "podcast_episode_id": 557,
-    "overview": "The deeper product insight is that \u201ccontinuous\u201d does not mean blasting every asset with agents every minute. Mandia describes a cost-aware loop: run a high-intensity \u201chyper attack\u201d to build a metadata twin of the customer\u2019s exposed environment, then poll cheaply for changes in apps, routes, services, and machines, and only re-attack when the network or threat model changes. That shifts value away from legacy vulnerability lists and toward verified exploitability: remote code execution, data access, and logic flaws in custom apps, not just CVE matching. The second leg is distribution through existing control planes. Armored in Blue is meant to feed findings into endpoint, firewall, and network products as fast compensating controls, making the EDR/firewall estate the enforcement layer for AI red teams. If that architecture wins, SOC labor and annual pen-test budgets become less strategic than platforms that can safely convert attack intelligence into automated blocking rules.",
+    "overview": "The deeper product insight is that \u201ccontinuous\u201d does not mean blasting every asset with agents every minute. Mandia describes a cost-aware loop: run a high-intensity \u201chyper attack\u201d to build a metadata twin of the customer\u2019s exposed environment, then poll cheaply for changes in apps, routes, services, and machines, and only re-attack when the network or threat model changes. That shifts value away from legacy vulnerability lists and toward verified exploitability: remote code execution, data access, and logic flaws in custom apps, not just CVE matching. The second leg is distribution through existing control planes. Armadin Blue is meant to feed findings into endpoint, firewall, and network products as fast compensating controls, making the EDR/firewall estate the enforcement layer for AI red teams. If that architecture wins, SOC labor and annual pen-test budgets become less strategic than platforms that can safely convert attack intelligence into automated blocking rules.",
     "key_takeaways_detailed": [],
     "investment_thesis": "If the thesis is directionally right, 2026\u20132028 security spending should move from periodic assessment and SOC headcount toward continuous attack validation plus automated enforcement in endpoint, firewall, and cloud platforms. The likely beneficiaries are vendors with installed control planes that can turn verified exploit paths into blocks quickly; the likely losers are tools that mainly produce vulnerability volume without proving exploitability. Evidence would include rising attach rates for autonomous response modules, shorter disclosure-to-control times after major CVEs, and customer references showing fewer manual triage steps; weak adoption or repeated automation failures would cut against the thesis.",
     "ticker_analysis": {
@@ -48401,8 +48401,8 @@ const dashboardData = {
   podcastGuests: [
   {
     "id": 82766,
-    "name": "Google X's Astro Teller",
-    "slug": "google-xs-astro-teller",
+    "name": "Astro Teller",
+    "slug": "astro-teller",
     "bio": null,
     "known_for": null,
     "last_main_idea": "Astro Teller says X reduced the cost of graduating moonshots by about 3x over 16 years, partly through AI, earlier graduations, and improved operating discipline.",
@@ -49710,7 +49710,7 @@ const dashboardData = {
     "last_podcast_name": "Macro Voices",
     "last_episode_date": "2026-09-10",
     "mention_score": 2,
-    "mention_score_decayed": 1.1,
+    "mention_score_decayed": 1.07,
     "last_main_idea": "The core opportunity lies in AI infrastructure and hardware providers benefiting from enterprise insourcing, while model-facing incumbents face margin compression from zero switching costs and open competition.",
     "last_proof_cite": "Macro Voices \u2022 2026-09-10 \u2022 MacroVoices #549 Matt Barrie: AI-gent Provocateur",
     "last_proof_snippet": "Token costs can escalate rapidly to unsustainable levels, but enterprises can slash expenses by arbitraging across models, including cheaper Chinese alternatives.",
@@ -49864,7 +49864,7 @@ const dashboardData = {
     "id": 508,
     "name": "Kevin Mandia",
     "slug": "kevin-mandia",
-    "bio": "Kevin Mandia is the founder and CEO of Armored in and the founder of Mandiant, which later ended up inside Google. He has spent 30 years in cybersecurity and frames the AI transition as a full reset of the sector.",
+    "bio": "Kevin Mandia is the founder and CEO of Armadin and the founder of Mandiant, which later ended up inside Google. He has spent 30 years in cybersecurity and frames the AI transition as a full reset of the sector.",
     "known_for": "Founder of Mandiant and operator focused on incident response, red teaming, and AI-era cyber defense.",
     "net_worth_usd": null,
     "net_worth_source": null,
@@ -49879,10 +49879,10 @@ const dashboardData = {
     "last_episode_date": "2026-10-06",
     "mention_score": 1,
     "mention_score_decayed": 1,
-    "last_main_idea": "Kevin Mandia argues cybersecurity will shift to autonomous AI defense over the next two years because AI attacks move at machine speed and Armored in has already found over 90 production zero days since January 2026.",
+    "last_main_idea": "Kevin Mandia argues cybersecurity will shift to autonomous AI defense over the next two years because AI attacks move at machine speed and Armadin has already found over 90 production zero days since January 2026.",
     "last_proof_cite": "The a16z Show \u2022 2026-10-06 \u2022 Building Defense for the Agentic Era: Kevin Mandia",
     "last_proof_snippet": "If you don't have a defense on this, you have a great offense to go up against. You want to be the Baltimore Ravens defense at 2000, you kind of want to have your practice offense really push you. That's what Armenians are going to do. We'r",
-    "supporting_takeaway": "Kevin Mandia claims Armored in has found more than 90 zero days at customer sites since January 2026, all in production and often at Fortune 500 companies, by using AI-driven black-box attacks from the internet.",
+    "supporting_takeaway": "Kevin Mandia claims Armadin has found more than 90 zero days at customer sites since January 2026, all in production and often at Fortune 500 companies, by using AI-driven black-box attacks from the internet.",
     "grokipedia_url": null,
     "grokipedia_fetched_at": null,
     "pundit_profile": null
@@ -52554,7 +52554,7 @@ const dashboardData = {
     "last_podcast_name": "Moonshots with Peter Diamandis",
     "last_episode_date": "2026-09-09",
     "mention_score": 1,
-    "mention_score_decayed": 0.55,
+    "mention_score_decayed": 0.54,
     "last_main_idea": "The transition from narrow AI to autonomous AGI agents is collapsing transaction costs, creating new tokenized economic layers, and turning mobility and labor markets upside down, offering asymmetric returns for investors positioned in compute infrastructure, agent orchestration, and automation platforms serving an aging global population.",
     "last_proof_cite": "Moonshots with Peter Diamandis \u2022 2026-09-09 \u2022 Why Jensen Huang Believes We\u2019ve Reached AGI and Inside OpenAI\u2019s German Website Hijack | #287",
     "last_proof_snippet": "NVIDIA CEO Jensen Huang claims AGI has arrived, implying a step-change in AI capability that supports continued capital inflows into compute and model infrastructure.",
