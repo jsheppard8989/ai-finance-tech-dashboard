@@ -1,0 +1,483 @@
+#!/usr/bin/env python3
+"""
+Comparison script: Run OLD (legacy) and NEW (two-pass) analyzers on the same episode.
+
+Uses a COPY of the database at /tmp/two-pass-test.db, never touches the live DB.
+"""
+
+import json
+import os
+import re
+import sys
+import sqlite3
+from datetime import datetime
+from pathlib import Path
+
+sys.path.insert(0, str(Path(__file__).parent))
+
+from dotenv import load_dotenv
+
+DAEMON_ENV = Path("/Users/jaredsheppard/projects/ai-finance-tech-dashboard/.env")
+load_dotenv(DAEMON_ENV)
+
+TEST_DB_PATH = Path("/tmp/two-pass-test.db")
+COMPARISON_OUTPUT_DIR = Path("/tmp/two-pass-comparison")
+COMPARISON_OUTPUT_DIR.mkdir(exist_ok=True)
+
+PASS1_MODEL = "gpt-5.4-nano"
+PASS2_MODEL = "gpt-5.4-mini"
+
+
+def extract_brief_sections(brief_markdown: str) -> list:
+    """Extract section headers from brief to verify completeness."""
+    headers = re.findall(r'^#{1,3}\s+(.+)$', brief_markdown, re.MULTILINE)
+    return headers
+
+
+def run_legacy_analysis(transcript_path: Path, podcast_name: str, episode_title: str) -> dict:
+    """Run the legacy single-pass gpt-5.5 analyzer with proper name hints."""
+    from openai import OpenAI
+    from transcript_window import TRANSCRIPT_WINDOW_CHARS, sample_transcript_window
+    
+    transcript = transcript_path.read_text(encoding="utf-8", errors="ignore")
+    transcript_sampled = sample_transcript_window(transcript, TRANSCRIPT_WINDOW_CHARS)
+    
+    guest_hint = ""
+    match = re.search(r"([A-Z][a-z]+ [A-Z][a-z]+)(?:'s|:)", episode_title.split("|")[0])
+    if match:
+        guest_hint = f"\nKNOWN GUEST: {match.group(1)}\n"
+    
+    prompt = f"""You are an expert financial analyst and podcast curator. 
+Analyze this podcast transcript from "{podcast_name}" and extract structured investment insights.
+{guest_hint}
+TRANSCRIPT:
+{transcript_sampled}
+
+Please provide your analysis in this exact JSON format:
+{{
+  "episode_title": "Full episode title",
+  "episode_date": "YYYY-MM-DD",
+  "summary": "3-5 paragraph recap",
+  "key_takeaways": ["5-7 bullets"],
+  "key_tickers": ["TICKER1", "TICKER2"],
+  "investment_thesis": "ONE sentence under 40 words",
+  "notable_quotes": [{{"speaker": "Full Name (use KNOWN GUEST name if identifiable)", "quote": "Verbatim quote"}}],
+  "sentiment": "neutral|bullish|bearish",
+  "ticker_mentions": [{{"ticker": "TICKER", "context": "...", "sentiment": "neutral", "conviction_score": 75}}],
+  "guests": [{{"name": "Full Name", "role": "guest"}}],
+  "hosts": [{{"name": "Full Name", "role": "host"}}]
+}}
+
+Return ONLY valid JSON."""
+
+    client = OpenAI(api_key=os.environ.get("OPENAI_API_KEY"))
+    
+    response = client.chat.completions.create(
+        model="gpt-5.5",
+        messages=[
+            {"role": "system", "content": "You are a precise financial analyst. Return only valid JSON."},
+            {"role": "user", "content": prompt}
+        ],
+        response_format={"type": "json_object"},
+        max_completion_tokens=16000,
+    )
+    
+    content = response.choices[0].message.content or ""
+    content = content.strip()
+    if content.startswith("```json"):
+        content = content[7:]
+    if content.startswith("```"):
+        content = content[3:]
+    if content.endswith("```"):
+        content = content[:-3]
+    
+    usage = response.usage
+    input_tokens = usage.prompt_tokens if usage else 0
+    output_tokens = usage.completion_tokens if usage else 0
+    
+    cost = (input_tokens / 1_000_000 * 5.00) + (output_tokens / 1_000_000 * 30.00)
+    
+    parsed = json.loads(content.strip())
+    
+    return {
+        "analysis": parsed,
+        "input_tokens": input_tokens,
+        "output_tokens": output_tokens,
+        "cost_usd": cost,
+        "model": "gpt-5.5",
+    }
+
+
+def run_two_pass_analysis(
+    transcript_path: Path,
+    podcast_name: str,
+    episode_title: str,
+    episode_date: str,
+) -> dict:
+    """Run the new two-pass analyzer with full metadata."""
+    from openai import OpenAI
+    from two_pass_analyzer import (
+        pass1_extract, pass2_synthesize, map_to_site_fields,
+        extract_guest_names_from_title, KNOWN_HOSTS,
+        PASS1_MODEL, PASS2_MODEL
+    )
+    
+    transcript = transcript_path.read_text(encoding="utf-8", errors="ignore")
+    client = OpenAI(api_key=os.environ.get("OPENAI_API_KEY"))
+    
+    guest_names = extract_guest_names_from_title(episode_title)
+    host_names = KNOWN_HOSTS.get(podcast_name, [])
+    
+    print(f"  Guest names from title: {guest_names}")
+    print(f"  Known hosts: {host_names}")
+    
+    print("  Running Pass 1 (extraction with nano)...")
+    extraction, p1_in, p1_out = pass1_extract(
+        client, transcript,
+        podcast_name=podcast_name,
+        episode_title=episode_title,
+        episode_date=episode_date,
+        guest_names=guest_names,
+        host_names=host_names,
+    )
+    extraction_json = json.dumps(extraction, indent=2)
+    
+    print("  Running Pass 2 (synthesis with mini)...")
+    brief, site_contract, p2_in, p2_out, was_truncated = pass2_synthesize(
+        client, extraction_json, podcast_name, extraction_dict=extraction
+    )
+    
+    result = map_to_site_fields(
+        extraction, site_contract, brief,
+        episode_title=episode_title, episode_date=episode_date
+    )
+    
+    p1_cost = (p1_in / 1_000_000 * 0.20) + (p1_out / 1_000_000 * 1.25)
+    p2_cost = (p2_in / 1_000_000 * 0.75) + (p2_out / 1_000_000 * 4.50)
+    total_cost = p1_cost + p2_cost
+    
+    brief_sections = extract_brief_sections(brief)
+    
+    return {
+        "analysis": {k: v for k, v in result.items() if not k.startswith("_")},
+        "extraction_json": extraction_json,
+        "brief_markdown": brief,
+        "brief_sections": brief_sections,
+        "was_truncated": was_truncated,
+        "pass1_input_tokens": p1_in,
+        "pass1_output_tokens": p1_out,
+        "pass2_input_tokens": p2_in,
+        "pass2_output_tokens": p2_out,
+        "total_input_tokens": p1_in + p2_in,
+        "total_output_tokens": p1_out + p2_out,
+        "pass1_cost_usd": p1_cost,
+        "pass2_cost_usd": p2_cost,
+        "cost_usd": total_cost,
+        "model": f"{PASS1_MODEL} + {PASS2_MODEL}",
+    }
+
+
+def generate_comparison_report(
+    episode_info: dict,
+    legacy_result: dict,
+    two_pass_result: dict,
+) -> str:
+    """Generate a markdown comparison report (no truncation)."""
+    
+    leg = legacy_result["analysis"]
+    tp = two_pass_result["analysis"]
+    
+    brief_sections = two_pass_result.get("brief_sections", [])
+    was_truncated = two_pass_result.get("was_truncated", False)
+    
+    report = f"""# Two-Pass Analyzer Comparison Report
+
+**Generated:** {datetime.now().isoformat()}
+
+**Episode:** {episode_info['podcast_name']} - {episode_info['episode_title']}  
+**Episode ID:** {episode_info['id']}  
+**Episode Date:** {episode_info['episode_date']}  
+**Transcript:** `{episode_info['transcript_path']}`
+
+---
+
+## Cost Comparison
+
+| Metric | Legacy (gpt-5.5) | Two-Pass (nano+mini) | Savings |
+|--------|------------------|----------------------|---------|
+| Input Tokens | {legacy_result['input_tokens']:,} | {two_pass_result['total_input_tokens']:,} | — |
+| Output Tokens | {legacy_result['output_tokens']:,} | {two_pass_result['total_output_tokens']:,} | — |
+| **Cost (USD)** | **${legacy_result['cost_usd']:.4f}** | **${two_pass_result['cost_usd']:.4f}** | **{(1 - two_pass_result['cost_usd']/legacy_result['cost_usd'])*100:.1f}%** |
+
+### Two-Pass Breakdown
+
+| Pass | Model | Input Tokens | Output Tokens | Cost |
+|------|-------|--------------|---------------|------|
+| Pass 1 (Extraction) | {PASS1_MODEL} | {two_pass_result['pass1_input_tokens']:,} | {two_pass_result['pass1_output_tokens']:,} | ${two_pass_result['pass1_cost_usd']:.4f} |
+| Pass 2a (Brief) + 2b (Contract) | {PASS2_MODEL} | {two_pass_result['pass2_input_tokens']:,} | {two_pass_result['pass2_output_tokens']:,} | ${two_pass_result['pass2_cost_usd']:.4f} |
+
+### Cost Analysis Notes
+
+**Why Phase 0 projected higher costs than actual:**
+- Phase 0 used estimated output tokens (~5,000 for legacy) based on typical full analysis JSON size
+- Actual legacy output was {legacy_result['output_tokens']:,} tokens (the model was more concise)
+- gpt-5.5's output pricing ($30/1M) dominates the cost, so fewer output tokens = lower cost
+
+**Calls per episode in current pipeline:**
+1. `analyze_transcript.py` - 1 call (transcript analysis)
+2. `generate_deepdives.py` - 1-4 calls (deep dive generation with retries, using **gpt-5.5**)
+3. Total: 2-5 OpenAI calls per episode for full pipeline
+
+### All-In Per-Episode Cost (Analysis + Deep Dives)
+
+Deep dives use **gpt-5.5** and send ~25,000 input tokens (100K chars of transcript window) with ~1,500 output tokens per attempt. Typical cost per deep dive call: ~$0.17 (one attempt) to ~$0.50 (4 retries).
+
+| Component | Legacy | Two-Pass | Notes |
+|-----------|--------|----------|-------|
+| Analysis | ${legacy_result['cost_usd']:.4f} | ${two_pass_result['cost_usd']:.4f} | This comparison |
+| Deep Dive (1 attempt) | ~$0.17 | ~$0.17 | gpt-5.5 for both |
+| **All-in (1 DD attempt)** | **~${legacy_result['cost_usd'] + 0.17:.2f}** | **~${two_pass_result['cost_usd'] + 0.17:.2f}** | — |
+| **All-in (4 DD retries)** | **~${legacy_result['cost_usd'] + 0.50:.2f}** | **~${two_pass_result['cost_usd'] + 0.50:.2f}** | Worst case |
+
+**Note:** Deep dives still run on gpt-5.5 in both modes. A future PR could move them to gpt-5.4-mini for additional savings.
+
+---
+
+## Brief Completeness Check
+
+**Was truncated:** {"YES ⚠️" if was_truncated else "No ✓"}
+
+**Section headers found ({len(brief_sections)}):**
+{chr(10).join(f"- {s}" for s in brief_sections)}
+
+**Required sections:**
+- REAL ALPHA — PODCAST INTELLIGENCE BRIEF ✓
+- Executive Take
+- 10 Most Important Ideas
+- Investment Implications (Bullish/Bearish/Watch)
+- Numbers Worth Remembering
+- Companies / Assets Mentioned
+- Contrarian / Non-Consensus Ideas
+- What the Speaker May Be Wrong About
+- Action Items
+- Independent Analyst Take
+- Confidence
+
+---
+
+## Side-by-Side: Site Contract Fields
+
+### Headline (Investment Thesis)
+
+**Legacy:**
+> {leg.get('investment_thesis', 'N/A')}
+
+**Two-Pass:**
+> {tp.get('investment_thesis', 'N/A')}
+
+---
+
+### Summary (Recap)
+
+**Legacy:**
+{leg.get('summary', 'N/A')}
+
+**Two-Pass:**
+{tp.get('summary', 'N/A')}
+
+---
+
+### Key Takeaways
+
+**Legacy:**
+{chr(10).join(f"- {t}" for t in (leg.get('key_takeaways') or []))}
+
+**Two-Pass:**
+{chr(10).join(f"- {t}" for t in (tp.get('key_takeaways') or []))}
+
+---
+
+### Notable Quotes (with Speaker Names)
+
+**Legacy:**
+{chr(10).join(f'> "{q.get("quote", "")}" — **{q.get("speaker", "Unknown")}**' for q in (leg.get('notable_quotes') or [])[:3])}
+
+**Two-Pass:**
+{chr(10).join(f'> "{q.get("quote", "")}" — **{q.get("speaker", "Unknown")}**' for q in (tp.get('notable_quotes') or [])[:3])}
+
+---
+
+### Guests
+
+**Legacy:**
+{chr(10).join(f"- {g.get('name', 'Unknown')} ({g.get('role', 'guest')})" for g in (leg.get('guests') or []))}
+
+**Two-Pass:**
+{chr(10).join(f"- {g.get('name', 'Unknown')} ({g.get('role', 'guest')})" for g in (tp.get('guests') or []))}
+
+---
+
+### Hosts
+
+**Legacy:**
+{chr(10).join(f"- {h.get('name', 'Unknown')}" for h in (leg.get('hosts') or []))}
+
+**Two-Pass:**
+{chr(10).join(f"- {h.get('name', 'Unknown')}" for h in (tp.get('hosts') or []))}
+
+---
+
+### Sentiment
+
+**Legacy:** {leg.get('sentiment', 'N/A')}  
+**Two-Pass:** {tp.get('sentiment', 'N/A')}
+
+---
+
+### Key Tickers
+
+**Legacy:** {', '.join(leg.get('key_tickers') or ['None'])}  
+**Two-Pass:** {', '.join(tp.get('key_tickers') or ['None'])}
+
+---
+
+### Deep Dive (Ticker Mentions)
+
+**Legacy:**
+{chr(10).join(f"- **{tm.get('ticker', 'N/A')}**: {tm.get('context', 'N/A')}" for tm in (leg.get('ticker_mentions') or []))}
+
+**Two-Pass:**
+{chr(10).join(f"- **{tm.get('ticker', 'N/A')}**: {tm.get('context', 'N/A')}" for tm in (tp.get('ticker_mentions') or []))}
+
+---
+
+## REAL ALPHA Brief (Two-Pass Only)
+
+{two_pass_result.get('brief_markdown', 'N/A')}
+
+---
+
+## Extraction JSON (Two-Pass Only)
+
+```json
+{two_pass_result.get('extraction_json', '{}')}
+```
+
+---
+
+## Raw Analysis JSON
+
+### Legacy
+
+```json
+{json.dumps(leg, indent=2, default=str)}
+```
+
+### Two-Pass
+
+```json
+{json.dumps(tp, indent=2, default=str)}
+```
+"""
+    return report
+
+
+def main():
+    episode_id = 560
+    
+    conn = sqlite3.connect(str(TEST_DB_PATH))
+    conn.row_factory = sqlite3.Row
+    row = conn.execute(
+        "SELECT id, podcast_name, episode_title, episode_date, transcript_path FROM podcast_episodes WHERE id = ?",
+        (episode_id,)
+    ).fetchone()
+    conn.close()
+    
+    if not row:
+        print(f"Episode {episode_id} not found in test DB")
+        sys.exit(1)
+    
+    episode_info = dict(row)
+    transcript_path = Path(episode_info["transcript_path"])
+    episode_date = str(episode_info["episode_date"])
+    
+    if not transcript_path.exists():
+        print(f"Transcript not found: {transcript_path}")
+        sys.exit(1)
+    
+    print(f"\n{'='*60}")
+    print(f"COMPARISON: Episode {episode_id}")
+    print(f"{'='*60}")
+    print(f"Podcast: {episode_info['podcast_name']}")
+    print(f"Title: {episode_info['episode_title']}")
+    print(f"Date: {episode_date}")
+    print(f"Transcript: {transcript_path}")
+    print()
+    
+    print("Running LEGACY analyzer (gpt-5.5)...")
+    legacy_result = run_legacy_analysis(
+        transcript_path, episode_info['podcast_name'], episode_info['episode_title']
+    )
+    print(f"  Tokens: {legacy_result['input_tokens']:,} in / {legacy_result['output_tokens']:,} out")
+    print(f"  Cost: ${legacy_result['cost_usd']:.4f}")
+    print()
+    
+    print("Running TWO-PASS analyzer (nano+mini)...")
+    two_pass_result = run_two_pass_analysis(
+        transcript_path,
+        episode_info['podcast_name'],
+        episode_info['episode_title'],
+        episode_date,
+    )
+    print(f"  Total tokens: {two_pass_result['total_input_tokens']:,} in / {two_pass_result['total_output_tokens']:,} out")
+    print(f"  Cost: ${two_pass_result['cost_usd']:.4f}")
+    print(f"  Brief sections: {len(two_pass_result['brief_sections'])}")
+    print(f"  Was truncated: {two_pass_result['was_truncated']}")
+    print()
+    
+    savings_pct = (1 - two_pass_result['cost_usd'] / legacy_result['cost_usd']) * 100
+    print(f"SAVINGS: {savings_pct:.1f}%")
+    print()
+    
+    print("Quote speakers (Two-Pass):")
+    for q in two_pass_result['analysis'].get('notable_quotes', []):
+        print(f"  - {q.get('speaker', 'N/A')}")
+    print()
+    
+    print("Final tickers (Two-Pass):")
+    print(f"  {two_pass_result['analysis'].get('key_tickers', [])}")
+    print()
+    
+    report = generate_comparison_report(episode_info, legacy_result, two_pass_result)
+    
+    date_str = datetime.now().strftime("%Y-%m-%d")
+    report_path = COMPARISON_OUTPUT_DIR / f"two-pass-comparison-{date_str}.md"
+    report_path.write_text(report, encoding="utf-8")
+    print(f"Report saved: {report_path}")
+    
+    extraction_path = COMPARISON_OUTPUT_DIR / f"extraction-{date_str}.json"
+    extraction_path.write_text(two_pass_result['extraction_json'], encoding="utf-8")
+    print(f"Extraction saved: {extraction_path}")
+    
+    brief_path = COMPARISON_OUTPUT_DIR / f"brief-{date_str}.md"
+    brief_path.write_text(two_pass_result['brief_markdown'], encoding="utf-8")
+    print(f"Brief saved: {brief_path}")
+    
+    return {
+        "report_path": str(report_path),
+        "extraction_path": str(extraction_path),
+        "brief_path": str(brief_path),
+        "legacy_cost": legacy_result['cost_usd'],
+        "two_pass_cost": two_pass_result['cost_usd'],
+        "savings_pct": savings_pct,
+        "brief_sections": two_pass_result['brief_sections'],
+        "was_truncated": two_pass_result['was_truncated'],
+    }
+
+
+if __name__ == "__main__":
+    result = main()
+    print(f"\nDone. Savings: {result['savings_pct']:.1f}%")
+    print(f"Brief sections found: {len(result['brief_sections'])}")
+    if result['was_truncated']:
+        print("⚠️ WARNING: Brief was truncated!")

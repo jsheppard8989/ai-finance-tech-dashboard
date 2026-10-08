@@ -283,6 +283,37 @@ class DashboardDB:
                 except sqlite3.OperationalError:
                     pass
 
+            # Two-pass analyzer schema additions (safe migration)
+            for col_sql in [
+                "ALTER TABLE podcast_episodes ADD COLUMN extraction_json TEXT",
+                "ALTER TABLE podcast_episodes ADD COLUMN brief_markdown TEXT",
+                "ALTER TABLE podcast_episodes ADD COLUMN analyzer_mode TEXT DEFAULT 'legacy'",
+                "ALTER TABLE podcast_episodes ADD COLUMN analysis_cost_usd REAL",
+            ]:
+                try:
+                    conn.execute(col_sql)
+                except sqlite3.OperationalError:
+                    pass
+
+            # Two-pass cache table
+            conn.execute("""
+                CREATE TABLE IF NOT EXISTS two_pass_cache (
+                    episode_id INTEGER NOT NULL,
+                    transcript_sha256 TEXT NOT NULL,
+                    extraction_json TEXT,
+                    brief_markdown TEXT,
+                    pass1_input_tokens INTEGER,
+                    pass1_output_tokens INTEGER,
+                    pass2_input_tokens INTEGER,
+                    pass2_output_tokens INTEGER,
+                    created_at TIMESTAMP DEFAULT CURRENT_TIMESTAMP,
+                    PRIMARY KEY (episode_id, transcript_sha256)
+                )
+            """)
+            conn.execute(
+                "CREATE INDEX IF NOT EXISTS idx_two_pass_cache_episode ON two_pass_cache(episode_id)"
+            )
+
     # === Term Aliases ===
 
     def _seed_term_aliases(self, conn) -> None:

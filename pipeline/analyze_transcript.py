@@ -846,20 +846,61 @@ def process_transcript_file(transcript_path: Path, client_info, db) -> Optional[
     analysis_source = content
     used_digest = False
 
-    # Analyze with AI (full transcript or Stage A digest)
-    from term_alias_util import build_tracked_terms_glossary
-
-    db_for_glossary = get_db()
-    db_for_glossary.seed_term_aliases_from_json()
-    glossary = build_tracked_terms_glossary(db_for_glossary)
-    analysis = analyze_transcript_with_ai(
-        client_info,
-        analysis_source,
-        podcast_name,
-        content_from_digest=used_digest,
-        tracked_terms_glossary=glossary,
-        name_hint=(sidecar.get("episode_title") or "").strip(),
+    # Check for two-pass mode
+    from two_pass_analyzer import (
+        is_two_pass_enabled, analyze_transcript_two_pass, TwoPassAnalyzerCache,
+        InsufficientQuotaError, extract_guest_names_from_title, KNOWN_HOSTS
     )
+
+    if is_two_pass_enabled():
+        # Two-pass mode: use cost-efficient nano+mini pipeline
+        print(f"    Using two-pass analyzer (nano+mini)...")
+        try:
+            from openai import OpenAI
+            openai_key = os.environ.get("OPENAI_API_KEY")
+            if not openai_key:
+                print(f"    ✗ OPENAI_API_KEY not set for two-pass mode")
+                return None
+            two_pass_client = OpenAI(api_key=openai_key)
+            cache = TwoPassAnalyzerCache()
+            
+            sidecar_title = (sidecar.get("episode_title") or "").strip()
+            sidecar_date = (sidecar.get("published_date") or "").strip()
+            guest_names = extract_guest_names_from_title(sidecar_title or episode_slug)
+            host_names = KNOWN_HOSTS.get(podcast_name, [])
+            
+            analysis = analyze_transcript_two_pass(
+                two_pass_client,
+                analysis_source,
+                podcast_name,
+                episode_id=None,
+                cache=cache,
+                episode_title=sidecar_title,
+                episode_date=sidecar_date,
+                guest_names=guest_names,
+                host_names=host_names,
+            )
+        except InsufficientQuotaError:
+            raise  # Propagate to batch handler
+        except Exception as e:
+            print(f"    ✗ Two-pass analysis failed: {e}")
+            return None
+    else:
+        # Legacy mode: single gpt-5.5 call
+        from term_alias_util import build_tracked_terms_glossary
+
+        db_for_glossary = get_db()
+        db_for_glossary.seed_term_aliases_from_json()
+        glossary = build_tracked_terms_glossary(db_for_glossary)
+        analysis = analyze_transcript_with_ai(
+            client_info,
+            analysis_source,
+            podcast_name,
+            content_from_digest=used_digest,
+            tracked_terms_glossary=glossary,
+            name_hint=(sidecar.get("episode_title") or "").strip(),
+        )
+    
     if not analysis:
         print(f"    ✗ AI analysis failed")
         return None
@@ -979,21 +1020,48 @@ def process_transcript_file(transcript_path: Path, client_info, db) -> Optional[
     
     episode_id = db.add_podcast_episode(episode)
     print(f"    ✓ Added episode (ID: {episode_id})")
+    
+    # Store two-pass artifacts if present
+    extraction_json = analysis.get("_extraction_json")
+    brief_markdown = analysis.get("_brief_markdown")
+    analyzer_mode = "two_pass" if extraction_json else "legacy"
+    
     try:
         import json as _json
         from transcript_window import normalize_notable_quotes
         quotes = normalize_notable_quotes(analysis.get("notable_quotes"))
+        
+        import sqlite3 as _sqlite3
+        _conn = _sqlite3.connect(str(DB_PATH))
+        
+        # Update notable_quotes and two-pass artifacts
+        updates = ["analyzer_mode = ?"]
+        params = [analyzer_mode]
+        
         if quotes and episode_id:
-            import sqlite3 as _sqlite3
-            _conn = _sqlite3.connect(str(DB_PATH))
-            _conn.execute(
-                "UPDATE podcast_episodes SET notable_quotes=? WHERE id=?",
-                (_json.dumps(quotes), episode_id),
-            )
-            _conn.commit()
-            _conn.close()
+            updates.append("notable_quotes = ?")
+            params.append(_json.dumps(quotes))
+        
+        if extraction_json:
+            updates.append("extraction_json = ?")
+            params.append(extraction_json)
+        
+        if brief_markdown:
+            updates.append("brief_markdown = ?")
+            params.append(brief_markdown)
+        
+        params.append(episode_id)
+        _conn.execute(
+            f"UPDATE podcast_episodes SET {', '.join(updates)} WHERE id = ?",
+            tuple(params),
+        )
+        _conn.commit()
+        _conn.close()
+        
+        if extraction_json:
+            print(f"    ✓ Stored two-pass artifacts (extraction + brief)")
     except Exception as _qe:
-        print(f"    Could not store notable_quotes: {_qe}")
+        print(f"    Could not store notable_quotes/artifacts: {_qe}")
 
     # Ingest guests/hosts into semantic layer (entities + appearances)
     from ingest_ai_analysis import upsert_entity, insert_appearance  # local import to avoid cycles
@@ -1135,12 +1203,34 @@ def process_transcript_file(transcript_path: Path, client_info, db) -> Optional[
     return episode_id
 
 
+def _send_quota_alert(error_msg: str):
+    """Send ONE alert on 429/insufficient_quota. Deferred import to avoid cycles."""
+    try:
+        from workspace_paths import workspace_root
+        import subprocess
+        imessage = workspace_root() / "send_imessage.sh"
+        if imessage.exists():
+            msg = f"ANALYZER QUOTA ALERT\n\nBatch stopped due to rate limit / insufficient quota.\n\n{error_msg[:500]}"
+            subprocess.run([str(imessage), "+16306437437", msg], capture_output=True, timeout=15)
+            print("    ✓ Sent quota alert notification")
+    except Exception as e:
+        print(f"    ⚠ Could not send quota alert: {e}")
+
+
 def process_all_transcripts() -> Dict[str, any]:
     """Process all unprocessed transcripts in the transcripts directory."""
 
     print("\n" + "="*60)
     print("Processing Podcast Transcripts with AI")
     print("="*60)
+
+    from two_pass_analyzer import is_two_pass_enabled, InsufficientQuotaError
+
+    two_pass_mode = is_two_pass_enabled()
+    if two_pass_mode:
+        print("  ANALYZER_MODE=two_pass: Using two-pass cost-efficient analyzer")
+    else:
+        print("  ANALYZER_MODE=legacy (default): Using single-pass gpt-5.5 analyzer")
 
     try:
         client_info = get_ai_client()
@@ -1160,6 +1250,7 @@ def process_all_transcripts() -> Dict[str, any]:
     processed = 0
     skipped = 0
     errors = 0
+    quota_stopped = False
     
     # Load existing analysis failures (if any)
     failures_path = STATE_DIR / "analysis_failures.json"
@@ -1180,6 +1271,9 @@ def process_all_transcripts() -> Dict[str, any]:
         }
     
     for transcript_path in transcript_files:
+        if quota_stopped:
+            break
+            
         if is_transcript_processed(transcript_path):
             skipped += 1
             continue
@@ -1188,12 +1282,18 @@ def process_all_transcripts() -> Dict[str, any]:
             episode_id = process_transcript_file(transcript_path, client_info, db)
             if episode_id:
                 processed += 1
+        except InsufficientQuotaError as e:
+            msg = str(e)
+            print(f"  ✗ QUOTA EXCEEDED - stopping batch: {msg}")
+            _send_quota_alert(msg)
+            quota_stopped = True
+            record_failure(transcript_path.stem, "quota_exceeded", msg[:300])
+            errors += 1
         except Exception as e:
             msg = f"{type(e).__name__}: {e}"
             print(f"  ✗ Error processing {transcript_path.name}: {msg}")
             errors += 1
             stem = transcript_path.stem
-            # Rough classification for now
             code = "analysis_error"
             record_failure(stem, code, msg[:300])
     
