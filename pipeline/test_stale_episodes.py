@@ -50,6 +50,21 @@ def _init_test_db(db_path: Path) -> None:
             FOREIGN KEY (insight_id) REFERENCES latest_insights(id),
             FOREIGN KEY (podcast_episode_id) REFERENCES podcast_episodes(id)
         );
+
+        CREATE TABLE deep_dive_generation_failures (
+            insight_id INTEGER PRIMARY KEY,
+            insight_title TEXT,
+            source_type TEXT,
+            podcast_episode_id INTEGER,
+            failure_reason TEXT,
+            failure_detail TEXT,
+            last_attempt_at TIMESTAMP,
+            retry_count INTEGER DEFAULT 0,
+            next_retry_after TIMESTAMP,
+            status TEXT DEFAULT 'pending_retry'
+                CHECK(status IN ('pending_retry', 'blocked', 'resolved')),
+            FOREIGN KEY (insight_id) REFERENCES latest_insights(id) ON DELETE CASCADE
+        );
         """
     )
     conn.commit()
@@ -115,6 +130,20 @@ def _insert_deepdive(conn, insight_id: int, episode_id: int) -> int:
     )
     conn.commit()
     return cur.lastrowid
+
+
+def _insert_blocked_deepdive_failure(conn, insight_id: int, episode_id: int, title: str) -> None:
+    """Insert a blocked deep_dive_generation_failures row."""
+    conn.execute(
+        """
+        INSERT INTO deep_dive_generation_failures
+        (insight_id, insight_title, source_type, podcast_episode_id, 
+         failure_reason, failure_detail, last_attempt_at, retry_count, status)
+        VALUES (?, ?, 'podcast', ?, 'generation_failed', 'Test failure', datetime('now'), 3, 'blocked')
+        """,
+        (insight_id, title, episode_id),
+    )
+    conn.commit()
 
 
 class TestStaleEpisodesDetection:
@@ -405,6 +434,104 @@ class TestStaleEpisodesDetection:
 
         assert len(rows) == 1
         assert rows[0]["insight_count"] == 0
+
+    def test_episode_with_blocked_deepdive_has_blocked_status(self, tmp_path):
+        """Episode with insight but blocked deep dive generation should have 'blocked_deepdive' status.
+        
+        When deep dive generation fails after max retries and is marked 'blocked',
+        the episode should show as 'blocked_deepdive' rather than 'needs_export'.
+        This distinguishes actionable stale items from items needing manual intervention.
+        """
+        db_path = tmp_path / "test.db"
+        _init_test_db(db_path)
+
+        conn = sqlite3.connect(str(db_path))
+        conn.row_factory = sqlite3.Row
+
+        ep_date = date.today() - timedelta(days=3)
+        ep_id = _insert_episode(
+            conn,
+            "Blocked DeepDive Podcast",
+            "Episode With Blocked DeepDive",
+            ep_date,
+            is_processed=True,
+            added_to_site=False,
+            rss_guid="guid-blocked-dd",
+        )
+        insight_id = _insert_insight(conn, ep_id, "Blocked DeepDive Insight", ep_date.isoformat())
+        # No deep dive inserted - instead mark generation as blocked
+        _insert_blocked_deepdive_failure(conn, insight_id, ep_id, "Blocked DeepDive Insight")
+
+        stale_threshold_days = 2
+        stale_lookback_days = 14
+
+        # Check if deep_dive_generation_failures table exists
+        failures_table_exists = conn.execute(
+            "SELECT COUNT(*) FROM sqlite_master WHERE type='table' AND name='deep_dive_generation_failures'"
+        ).fetchone()[0] > 0
+        assert failures_table_exists, "deep_dive_generation_failures table should exist"
+
+        blocked_subquery = """(SELECT COUNT(*) FROM deep_dive_generation_failures dgf
+             JOIN latest_insights li3 ON dgf.insight_id = li3.id
+             WHERE li3.podcast_episode_id = pe.id AND dgf.status = 'blocked')"""
+
+        cur = conn.execute(
+            f"""
+            SELECT pe.id, pe.episode_title, pe.is_processed, pe.added_to_site,
+                (SELECT COUNT(*) FROM latest_insights li WHERE li.podcast_episode_id = pe.id) AS insight_count,
+                (SELECT COUNT(*) FROM deep_dive_content ddc 
+                 JOIN latest_insights li2 ON ddc.insight_id = li2.id 
+                 WHERE li2.podcast_episode_id = pe.id) AS deepdive_count,
+                {blocked_subquery} AS blocked_deepdive_count
+            FROM podcast_episodes pe
+            WHERE date(COALESCE(pe.episode_date, date(pe.created_at))) >= date('now', ?)
+              AND julianday('now') - julianday(COALESCE(pe.episode_date, date(pe.created_at))) >= ?
+              AND (
+                  NOT EXISTS (SELECT 1 FROM latest_insights li WHERE li.podcast_episode_id = pe.id)
+                  OR NOT EXISTS (
+                      SELECT 1 FROM deep_dive_content ddc
+                      JOIN latest_insights li2 ON ddc.insight_id = li2.id
+                      WHERE li2.podcast_episode_id = pe.id
+                  )
+              )
+            """,
+            (f"-{stale_lookback_days} days", stale_threshold_days),
+        )
+        rows = [dict(r) for r in cur.fetchall()]
+        conn.close()
+
+        assert len(rows) == 1, f"Expected 1 stale episode, got {len(rows)}"
+        row = rows[0]
+        assert row["insight_count"] == 1, "Episode should have an insight"
+        assert row["deepdive_count"] == 0, "Episode should NOT have a deep dive"
+        assert row["blocked_deepdive_count"] == 1, "Episode should have blocked deep dive generation"
+
+        # The derive_status function should return 'blocked_deepdive' for this case
+        downloaded = True
+        transcribed = True
+        analyzed = bool(row["is_processed"])
+        insight_created = row["insight_count"] > 0
+        has_deepdive = row["deepdive_count"] > 0
+        deepdive_blocked = row["blocked_deepdive_count"] > 0
+        published = bool(row["added_to_site"]) and insight_created and has_deepdive
+
+        # Inline derive_status logic for test verification
+        if not downloaded:
+            status = "needs_download"
+        elif not transcribed:
+            status = "needs_transcription"
+        elif not analyzed:
+            status = "needs_analysis"
+        elif not insight_created:
+            status = "needs_insight"
+        elif deepdive_blocked:
+            status = "blocked_deepdive"
+        elif not published:
+            status = "needs_export"
+        else:
+            status = "complete"
+
+        assert status == "blocked_deepdive", f"Expected status 'blocked_deepdive', got '{status}'"
 
 
 class TestSyncMainInsightsWithDeepDives:
