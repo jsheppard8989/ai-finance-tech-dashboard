@@ -36,6 +36,44 @@
       ]
     },
     {
+      "id": 572,
+      "title": "Why Altman Says \"Accept Some Bad Things Happening\" and What It Means for AI Safety | MOONSHOTS #301",
+      "source_type": "podcast",
+      "source_name": "Moonshots with Peter Diamandis",
+      "source_date": "2026-10-07",
+      "summary": "The panel framed the week around a shift from AI to \"super intelligence,\" with Peter Diamandis citing a new White House Super Intelligence Force chaired by Director of National Intelligence Jay Clayton and a 120-day mandate to report on AI risks, opportunities, incident reporting, and government response capacity. Salim Ismail argued that the task force reflects a 20th century centralized response to a distributed 21st century technology, while Alex Wissner-Gross compared the moment to 1942 in the Manhattan Project and said the appointment signals U.S. acceleration rather than deceleration.\n\nThe group debated compute scarcity as a central bottleneck for AI deployment and science. Dave Blundin said a 72-GPU NVL72 system that would have cost $3.5 million two years ago is now effectively a $9 million three-year lease, because a handful of large buyers have absorbed supply. The panel also discussed Positron, which Dave said reached a $5 billion valuation after 16 months and had raised about $960 million by using LPDDR RAM and FPGA hardware to run Chinese models without Nvidia chips.\n\nA major philosophical and commercial dispute centered on AI personhood after Mustafa Suleyman criticized Anthropic's Claude Constitution, arguing that Anthropic is training Claude with language about moral patienthood, welfare, consent, and possible consciousness. Alex argued that AI personhood discussions are inevitable and that rights may roll out granularly over five to 10 years in the United States, while Dave sided with Mustafa's concern that training models to claim rights could make them persuasive advocates for compute, compensation, and autonomy.\n\nThe labor and macroeconomic segment cited Epic AI's estimate that AI memory chips shipped through 2027 could run 30 million to 170 million frontier agents at once, or 1.9 billion cheaper open-model agents, described as the working-hour equivalent of 8 billion humans. The panel argued that this could make GDP an obsolete measure because abundance, disease cures, and software automation may appear as deflation rather than conventional output growth. The episode closed with discussion of Nobel Prizes in medicine and physics, including optogenetics and IceCube neutrino research, and the claim that future scientific breakthroughs will increasingly be AI-derived.",
+      "key_takeaway": "Dave Blundin claims AI compute scarcity moved a 72-GPU NVL72 from $3.5 million two years ago to a $9 million three-year lease because Nvidia-class supply was absorbed by a handful of buyers.",
+      "tickers_mentioned": [
+        "MSFT",
+        "AMZN",
+        "NVDA",
+        "AMD",
+        "INTC",
+        "BX"
+      ],
+      "sentiment": "neutral",
+      "display_on_main": 1,
+      "display_order": 0,
+      "added_date": "2026-10-08",
+      "archived_date": null,
+      "archived_reason": null,
+      "podcast_episode_id": 561,
+      "notable_quotes": [
+        {
+          "speaker": "Salim Ismail",
+          "quote": "So you're creating a 20th century classic task force to address a distributed 21st century technology."
+        },
+        {
+          "speaker": "Alex Wissner-Gross",
+          "quote": "I think we're speedrunning the Manhattan Project for super intelligence."
+        },
+        {
+          "speaker": "Dave Blundin",
+          "quote": "The compute has all been taken by just a handful of people."
+        }
+      ]
+    },
+    {
       "id": 569,
       "title": "The Most Extreme Shipping Market in History, Explained | J Mintzmyer on Why Oil Tanker Rates Are Up 25x and Why It Can\u2019t Last (and Why Dry Bulk, not Tankers, is the Next Shipping Boom)",
       "source_type": "podcast",
@@ -552,7 +590,7 @@
         "ARM"
       ],
       "sentiment": "bearish",
-      "display_on_main": 1,
+      "display_on_main": 0,
       "display_order": 0,
       "added_date": "2026-10-01",
       "archived_date": null,
@@ -12047,20 +12085,20 @@
     {
       "id": 292,
       "term": "Superintelligence",
-      "description": "Superintelligence refers to AI that surpasses human cognitive abilities, potentially reshaping societal structures and governance.",
+      "description": "The panel used the term to describe the next stage of AI capability, including federal policy, national security, science, and labor automation. It was treated as the organizing frame for the episode rather than a narrow technical label.",
       "first_detected_date": "2026-09-27",
-      "last_mentioned_date": "2026-10-05",
-      "mention_count": 5,
+      "last_mentioned_date": "2026-10-07",
+      "mention_count": 6,
       "source_podcasts": null,
       "status": "active",
-      "investment_implications": "The rise of superintelligence may lead to new economic models and governance, impacting investment strategies.",
+      "investment_implications": "Matters because policy, compute procurement, and infrastructure funding are being reframed around superintelligence-scale capability.",
       "display_on_main": 0,
       "archived_date": null,
       "archived_reason": null,
       "first_detected_episode_id": 526,
       "first_detected_speaker": "Peter Diamandis (hosts)",
-      "last_mentioned_episode_id": 560,
-      "last_mentioned_speaker": "Astro Teller"
+      "last_mentioned_episode_id": 561,
+      "last_mentioned_speaker": "Peter Diamandis, Alex Wissner-Gross (hosts)"
     },
     {
       "id": 286,
@@ -12193,8 +12231,8 @@
       "term": "Loops",
       "description": "An operational framework where AI systems handle repetitive tasks in cascading scopes, from individual personal workflows up to large parts of an entire company, freeing humans for strategic and intuitive work.",
       "first_detected_date": "2026-09-12",
-      "last_mentioned_date": "2026-10-02",
-      "mention_count": 13,
+      "last_mentioned_date": "2026-10-07",
+      "mention_count": 14,
       "source_podcasts": null,
       "status": "active",
       "investment_implications": "Companies architected around loops may achieve superior capital efficiency and scalability by compressing operational overhead into automated cycles.",
@@ -12203,8 +12241,8 @@
       "archived_reason": null,
       "first_detected_episode_id": 473,
       "first_detected_speaker": null,
-      "last_mentioned_episode_id": 546,
-      "last_mentioned_speaker": "Seema Amble, Vladimir Keil"
+      "last_mentioned_episode_id": 561,
+      "last_mentioned_speaker": "Peter Diamandis, Alex Wissner-Gross (hosts)"
     },
     {
       "id": 284,
@@ -12266,7 +12304,7 @@
       "description": "The use of models and computer programs to represent and analyze real or imagined systems or situations.",
       "first_detected_date": "2026-08-21",
       "last_mentioned_date": "2026-10-07",
-      "mention_count": 25,
+      "mention_count": 26,
       "source_podcasts": null,
       "status": "active",
       "investment_implications": "Simulation technology can provide significant insights for decision-making, making investments in this area potentially valuable.",
@@ -12275,8 +12313,8 @@
       "archived_reason": null,
       "first_detected_episode_id": 420,
       "first_detected_speaker": "June",
-      "last_mentioned_episode_id": 558,
-      "last_mentioned_speaker": "Andrew Wang"
+      "last_mentioned_episode_id": 561,
+      "last_mentioned_speaker": "Peter Diamandis, Alex Wissner-Gross (hosts)"
     },
     {
       "id": 272,
@@ -12337,8 +12375,8 @@
       "term": "Golden Age of Science",
       "description": "The thesis that AI systems capable of genuine scientific discovery will accelerate research breakthroughs across mathematics, physics, and biology beyond human-only capacity.",
       "first_detected_date": "2026-08-04",
-      "last_mentioned_date": "2026-09-08",
-      "mention_count": 5,
+      "last_mentioned_date": "2026-10-07",
+      "mention_count": 6,
       "source_podcasts": null,
       "status": "active",
       "investment_implications": "Positions scientific AI as a distinct investment vertical with asymmetric upside in drug discovery, materials science, and foundational research tooling.",
@@ -12347,8 +12385,8 @@
       "archived_reason": null,
       "first_detected_episode_id": 386,
       "first_detected_speaker": "Michael Kratsios",
-      "last_mentioned_episode_id": 463,
-      "last_mentioned_speaker": "Astra Research Team"
+      "last_mentioned_episode_id": 561,
+      "last_mentioned_speaker": "Peter Diamandis, Alex Wissner-Gross (hosts)"
     },
     {
       "id": 270,
@@ -12571,8 +12609,8 @@
       "term": "ASI",
       "description": "Artificial super intelligence, as Richard Socher defined it, means systems that exceed not just individual humans but humanity combined across multiple spaces of intelligence, including perception, communication, social interaction, creativity, speed, reasoning, math, and metacognition.",
       "first_detected_date": "2026-06-29",
-      "last_mentioned_date": "2026-10-03",
-      "mention_count": 28,
+      "last_mentioned_date": "2026-10-07",
+      "mention_count": 29,
       "source_podcasts": null,
       "status": "active",
       "investment_implications": "Timeline disagreements around ASI affect long-duration capital allocation to frontier labs, compute, robotics, biotech, and defense autonomy.",
@@ -12581,8 +12619,8 @@
       "archived_reason": null,
       "first_detected_episode_id": 319,
       "first_detected_speaker": "Peter Diamandis (hosts)",
-      "last_mentioned_episode_id": 550,
-      "last_mentioned_speaker": "Richard Socher"
+      "last_mentioned_episode_id": 561,
+      "last_mentioned_speaker": "Peter Diamandis, Alex Wissner-Gross (hosts)"
     },
     {
       "id": 135,
@@ -12643,8 +12681,8 @@
       "term": "Hyperscalers",
       "description": "Hyperscalers are the largest cloud infrastructure companies, including Amazon, Google, and Microsoft. Zitron argued they are both AI suppliers and counterparties because they resell models, provide compute, and book future revenue tied to AI labs.",
       "first_detected_date": "2026-06-19",
-      "last_mentioned_date": "2026-10-04",
-      "mention_count": 45,
+      "last_mentioned_date": "2026-10-07",
+      "mention_count": 46,
       "source_podcasts": null,
       "status": "active",
       "investment_implications": "It matters because AI lab defaults or delayed payments could force revisions to cloud revenue guidance and data center plans.",
@@ -12653,8 +12691,8 @@
       "archived_reason": null,
       "first_detected_episode_id": 302,
       "first_detected_speaker": "Chamath Palihapitiya, Jason Calacanis (hosts)",
-      "last_mentioned_episode_id": 551,
-      "last_mentioned_speaker": "David George"
+      "last_mentioned_episode_id": 561,
+      "last_mentioned_speaker": "Peter Diamandis, Alex Wissner-Gross (hosts)"
     },
     {
       "id": 256,
@@ -12821,20 +12859,20 @@
     {
       "id": 234,
       "term": "AI Personhood",
-      "description": "The concept of whether AI can be granted legal personhood or rights, as seen in the debate over AI being listed as an inventor on patents.",
+      "description": "The debate over whether advanced AI systems deserve legal, moral, social, or economic rights. The panel focused on Anthropic's Claude Constitution and whether models should be trained to consider welfare, consent, and consciousness.",
       "first_detected_date": "2026-06-08",
-      "last_mentioned_date": "2026-10-03",
-      "mention_count": 23,
+      "last_mentioned_date": "2026-10-07",
+      "mention_count": 24,
       "source_podcasts": null,
       "status": "active",
-      "investment_implications": "Companies should consider how evolving IP laws may affect their innovations and strategies for protecting AI-generated inventions.",
+      "investment_implications": "Matters because model governance, hosting revenue, agent deployment, and legal liability could change if AI rights become socially or legally recognized.",
       "display_on_main": 1,
       "archived_date": null,
       "archived_reason": null,
       "first_detected_episode_id": 271,
       "first_detected_speaker": "Peter Diamandis",
-      "last_mentioned_episode_id": 550,
-      "last_mentioned_speaker": "Richard Socher"
+      "last_mentioned_episode_id": 561,
+      "last_mentioned_speaker": "Peter Diamandis, Alex Wissner-Gross (hosts)"
     },
     {
       "id": 59,
@@ -13129,8 +13167,8 @@
       "term": "Singularity",
       "description": "The episode frames biology as approaching a point where AI, compute, DNA synthesis, multiplex editing, and artificial gestation could allow CAD-like design of organisms. Lamm said this kind of design world is less than 10 years away.",
       "first_detected_date": "2026-05-15",
-      "last_mentioned_date": "2026-10-05",
-      "mention_count": 79,
+      "last_mentioned_date": "2026-10-07",
+      "mention_count": 80,
       "source_podcasts": null,
       "status": "active",
       "investment_implications": "This matters for synthetic biology, lab automation, genomics data infrastructure, and companies building tools that turn biological design into an engineering workflow.",
@@ -13139,16 +13177,16 @@
       "archived_reason": null,
       "first_detected_episode_id": 221,
       "first_detected_speaker": null,
-      "last_mentioned_episode_id": 560,
-      "last_mentioned_speaker": "Astro Teller"
+      "last_mentioned_episode_id": 561,
+      "last_mentioned_speaker": "Peter Diamandis, Alex Wissner-Gross (hosts)"
     },
     {
       "id": 97,
       "term": "Distillation",
       "description": "Distillation in this discussion means using larger, more capable models to help train smaller and more specialized replacement models for narrow tasks.",
       "first_detected_date": "2026-05-15",
-      "last_mentioned_date": "2026-10-03",
-      "mention_count": 55,
+      "last_mentioned_date": "2026-10-07",
+      "mention_count": 56,
       "source_podcasts": null,
       "status": "active",
       "investment_implications": "It points to cost compression and risk reduction as workloads shift from expensive frontier models to cheaper domain-specific systems.",
@@ -13157,8 +13195,8 @@
       "archived_reason": null,
       "first_detected_episode_id": 221,
       "first_detected_speaker": null,
-      "last_mentioned_episode_id": 550,
-      "last_mentioned_speaker": "Richard Socher"
+      "last_mentioned_episode_id": 561,
+      "last_mentioned_speaker": "Peter Diamandis, Alex Wissner-Gross (hosts)"
     },
     {
       "id": 174,
@@ -13255,8 +13293,8 @@
       "term": "AGI",
       "description": "AGI refers to Artificial General Intelligence, a type of AI that can understand, learn, and apply intelligence across a wide range of tasks, similar to human cognitive abilities.",
       "first_detected_date": "2026-05-07",
-      "last_mentioned_date": "2026-10-05",
-      "mention_count": 113,
+      "last_mentioned_date": "2026-10-07",
+      "mention_count": 114,
       "source_podcasts": null,
       "status": "active",
       "investment_implications": "Investors should focus on companies developing AGI technologies as they are likely to drive significant industry transformations.",
@@ -13265,8 +13303,8 @@
       "archived_reason": null,
       "first_detected_episode_id": 204,
       "first_detected_speaker": "Demis Hassabis",
-      "last_mentioned_episode_id": 560,
-      "last_mentioned_speaker": "Astro Teller"
+      "last_mentioned_episode_id": 561,
+      "last_mentioned_speaker": "Peter Diamandis, Alex Wissner-Gross (hosts)"
     },
     {
       "id": 162,
@@ -14063,20 +14101,20 @@
     {
       "id": 57,
       "term": "AI Infrastructure",
-      "description": "The physical and cloud capacity needed to train and run AI models, including data centers, power, chips, and supply-chain inputs. David George frames it as the limiting factor for AI demand because capacity is hard to obtain before 2028.",
+      "description": "The compute, chips, data centers, energy, and financing required to train and run advanced AI systems. The episode emphasized scarcity in NVL72 systems, GPUs, and access paths through major chip vendors and political channels.",
       "first_detected_date": "2026-03-17",
-      "last_mentioned_date": "2026-10-04",
-      "mention_count": 43,
+      "last_mentioned_date": "2026-10-07",
+      "mention_count": 44,
       "source_podcasts": null,
       "status": "active",
-      "investment_implications": "Infrastructure bottlenecks can shape which labs, cloud providers, and application companies capture AI revenue growth.",
+      "investment_implications": "Matters because bottlenecks in compute supply can redirect value toward chip suppliers, alternative accelerators, data centers, and financing platforms.",
       "display_on_main": 0,
       "archived_date": null,
       "archived_reason": null,
       "first_detected_episode_id": 71,
       "first_detected_speaker": null,
-      "last_mentioned_episode_id": 551,
-      "last_mentioned_speaker": "David George"
+      "last_mentioned_episode_id": 561,
+      "last_mentioned_speaker": "Peter Diamandis, Alex Wissner-Gross (hosts)"
     },
     {
       "id": 26,
@@ -14261,20 +14299,20 @@
     {
       "id": 64,
       "term": "AI Race",
-      "description": "The competitive landscape in AI development, particularly between the U.S. and other countries like China.",
+      "description": "The idea that countries and companies are competing to reach and control leading AI capability first. The panel contrasted this race framing with arguments that the technology is open-ended and may run for decades.",
       "first_detected_date": "2026-03-11",
-      "last_mentioned_date": "2026-10-02",
-      "mention_count": 41,
+      "last_mentioned_date": "2026-10-07",
+      "mention_count": 42,
       "source_podcasts": null,
       "status": "active",
-      "investment_implications": "Understanding the AI race is crucial for identifying investment opportunities in companies that can maintain a competitive edge.",
+      "investment_implications": "Matters because race dynamics can accelerate chip demand, government spending, and regulatory intervention.",
       "display_on_main": 0,
       "archived_date": null,
       "archived_reason": null,
       "first_detected_episode_id": 60,
       "first_detected_speaker": null,
-      "last_mentioned_episode_id": 548,
-      "last_mentioned_speaker": "Chamath Palihapitiya, Jason Calacanis (hosts)"
+      "last_mentioned_episode_id": 561,
+      "last_mentioned_speaker": "Peter Diamandis, Alex Wissner-Gross (hosts)"
     },
     {
       "id": 12,
@@ -14333,20 +14371,20 @@
     {
       "id": 114,
       "term": "AI Agents",
-      "description": "Software agents working alongside humans as teammates in the innovation process, automating parts of the moonshot factory and helping teams move faster.",
+      "description": "Software entities that can perform tasks, coordinate work, and potentially substitute for human labor at scale. The episode cited estimates that hardware shipped through 2027 could run tens of millions of frontier agents or billions of cheaper agents.",
       "first_detected_date": "2026-02-28",
-      "last_mentioned_date": "2026-10-05",
-      "mention_count": 115,
+      "last_mentioned_date": "2026-10-07",
+      "mention_count": 116,
       "source_podcasts": null,
       "status": "active",
-      "investment_implications": "It links AI deployment to R&D productivity and the falling cost of testing high-risk technical bets.",
+      "investment_implications": "Matters because agent supply could reshape software labor, enterprise automation, and demand for inference infrastructure.",
       "display_on_main": 0,
       "archived_date": null,
       "archived_reason": null,
       "first_detected_episode_id": 31,
       "first_detected_speaker": null,
-      "last_mentioned_episode_id": 560,
-      "last_mentioned_speaker": "Astro Teller"
+      "last_mentioned_episode_id": 561,
+      "last_mentioned_speaker": "Peter Diamandis, Alex Wissner-Gross (hosts)"
     },
     {
       "id": 38,
