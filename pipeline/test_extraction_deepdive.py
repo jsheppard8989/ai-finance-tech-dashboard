@@ -15,6 +15,12 @@ from two_pass_analyzer import (
     normalize_for_quote_match,
     quote_in_transcript,
     validate_extraction_quotes_against_transcript,
+    soundex,
+    get_phonetic_key,
+    fuzzy_name_match,
+    canonicalize_speaker,
+    canonicalize_extraction_speakers,
+    correct_proper_nouns_in_quote,
 )
 
 
@@ -154,6 +160,93 @@ class TestExtractionDeepDive(unittest.TestCase):
         self.assertEqual(out["schema_version"], 2)
         self.assertIn("Quote about the market", out["episode_evidence"])
         self.assertEqual(out["overview"], raw["whats_new"])
+
+
+class TestSpeakerCanonicalization(unittest.TestCase):
+    """Tests for canonicalizing speaker names from Whisper transcripts."""
+
+    def test_minsmire_to_mintzmyer(self):
+        """'Jay Minsmire' should canonicalize to 'J Mintzmyer' (phonetic surname match)."""
+        known_guests = ["J Mintzmyer"]
+        known_hosts = ["Jack Farley"]
+        
+        result = canonicalize_speaker("Jay Minsmire", known_hosts, known_guests)
+        self.assertEqual(result, "J Mintzmyer")
+
+    def test_soundex_similar_names(self):
+        """Soundex produces similar but distinct codes for similar names."""
+        key1 = get_phonetic_key("Minsmire")
+        key2 = get_phonetic_key("Mintzmyer")
+        self.assertTrue(key1.startswith("M5"))
+        self.assertTrue(key2.startswith("M5"))
+
+    def test_fuzzy_name_match_surnames(self):
+        """Fuzzy match should work on similar surnames."""
+        self.assertTrue(fuzzy_name_match("Jay Minsmire", "J Mintzmyer"))
+        self.assertTrue(fuzzy_name_match("Jack Farlee", "Jack Farley"))
+        self.assertFalse(fuzzy_name_match("John Smith", "J Mintzmyer"))
+
+    def test_canonicalize_extraction_speakers(self):
+        """Full extraction speaker canonicalization should fix all speaker names."""
+        extraction = {
+            "high_value_quotes": [
+                {"speaker": "Jay Minsmire", "quote": "The oil must flow."},
+                {"speaker": "Jack Farlee", "quote": "Tell me more."},
+                {"speaker": "Unknown Person", "quote": "This will be dropped."},
+            ],
+            "companies_and_assets": [
+                {
+                    "name": "Tanker Co",
+                    "key_quotes": [
+                        {"speaker": "Jay Minsmire", "quote": "Shipping is strong."},
+                    ]
+                }
+            ]
+        }
+        known_hosts = ["Jack Farley"]
+        known_guests = ["J Mintzmyer"]
+        
+        result, canonicalized, dropped = canonicalize_extraction_speakers(
+            extraction, known_hosts, known_guests
+        )
+        
+        self.assertEqual(canonicalized, 3)
+        self.assertEqual(dropped, 1)
+        self.assertEqual(result["high_value_quotes"][0]["speaker"], "J Mintzmyer")
+        self.assertEqual(result["high_value_quotes"][1]["speaker"], "Jack Farley")
+        self.assertEqual(len(result["high_value_quotes"]), 2)
+
+    def test_exact_match_preserved(self):
+        """Exact match should be preserved without counting as canonicalized."""
+        known_guests = ["J Mintzmyer"]
+        result = canonicalize_speaker("J Mintzmyer", [], known_guests)
+        self.assertEqual(result, "J Mintzmyer")
+
+
+class TestProperNounCorrection(unittest.TestCase):
+    """Tests for correcting garbled proper nouns in quotes."""
+
+    def test_strait_of_hormuz_correction(self):
+        """'straight-of-harm' should be corrected to 'Strait of Hormuz'."""
+        quote = "The straight-of-harm moves are critical for oil flows."
+        corrected, changes = correct_proper_nouns_in_quote(quote)
+        self.assertEqual(corrected, "The Strait of Hormuz moves are critical for oil flows.")
+        self.assertEqual(len(changes), 1)
+
+    def test_multiple_corrections(self):
+        """Multiple garbled terms should all be corrected."""
+        quote = "Oil from the persian gulf through the strait of harm."
+        corrected, changes = correct_proper_nouns_in_quote(quote)
+        self.assertIn("Persian Gulf", corrected)
+        self.assertIn("Strait of Hormuz", corrected)
+        self.assertGreaterEqual(len(changes), 1)
+
+    def test_no_correction_needed(self):
+        """Clean quotes should not be changed."""
+        quote = "The semiconductor supply chain is constrained."
+        corrected, changes = correct_proper_nouns_in_quote(quote)
+        self.assertEqual(corrected, quote)
+        self.assertEqual(len(changes), 0)
 
 
 class TestTranscriptQuoteValidation(unittest.TestCase):

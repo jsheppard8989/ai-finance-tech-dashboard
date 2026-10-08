@@ -660,6 +660,277 @@ def validate_extraction_quotes_against_transcript(
     return filtered, passed, dropped
 
 
+def soundex(name: str) -> str:
+    """Compute Soundex code for a name."""
+    if not name:
+        return ""
+    
+    name = name.upper()
+    name = "".join(c for c in name if c.isalpha())
+    if not name:
+        return ""
+    
+    soundex_map = {
+        'B': '1', 'F': '1', 'P': '1', 'V': '1',
+        'C': '2', 'G': '2', 'J': '2', 'K': '2', 'Q': '2', 'S': '2', 'X': '2', 'Z': '2',
+        'D': '3', 'T': '3',
+        'L': '4',
+        'M': '5', 'N': '5',
+        'R': '6',
+    }
+    
+    first_letter = name[0]
+    codes = [soundex_map.get(c, '0') for c in name[1:]]
+    
+    deduped = []
+    prev = soundex_map.get(first_letter, '0')
+    for code in codes:
+        if code != '0' and code != prev:
+            deduped.append(code)
+        prev = code
+    
+    result = first_letter + "".join(deduped)
+    result = (result + "000")[:4]
+    
+    return result
+
+
+def get_phonetic_key(name: str) -> str:
+    """Get phonetic key using Soundex."""
+    return soundex(name)
+
+
+def fuzzy_name_match(name1: str, name2: str, threshold: float = 0.65) -> bool:
+    """Check if two names match fuzzy (surname + phonetic + edit distance)."""
+    from difflib import SequenceMatcher
+    
+    n1 = name1.lower().strip()
+    n2 = name2.lower().strip()
+    
+    if n1 == n2:
+        return True
+    
+    parts1 = n1.split()
+    parts2 = n2.split()
+    surname1 = parts1[-1] if parts1 else ""
+    surname2 = parts2[-1] if parts2 else ""
+    
+    if surname1 and surname2:
+        surname_ratio = SequenceMatcher(None, surname1, surname2).ratio()
+        if surname_ratio >= 0.7:
+            return True
+        
+        soundex1 = soundex(surname1)
+        soundex2 = soundex(surname2)
+        if soundex1 and soundex2 and soundex1 == soundex2:
+            return True
+        
+        first_two_1 = surname1[:2] if len(surname1) >= 2 else surname1
+        first_two_2 = surname2[:2] if len(surname2) >= 2 else surname2
+        if first_two_1 == first_two_2 and surname_ratio >= 0.5:
+            return True
+    
+    ratio = SequenceMatcher(None, n1, n2).ratio()
+    return ratio >= threshold
+
+
+def canonicalize_speaker(
+    speaker: str,
+    known_hosts: List[str],
+    known_guests: List[str],
+) -> Optional[str]:
+    """Map a speaker name to the canonical known name.
+    
+    Uses fuzzy matching on surname and phonetic similarity.
+    Returns canonical name or None if no match found.
+    """
+    if not speaker or speaker.lower() in ("host", "guest", "speaker", "unidentified"):
+        return None
+    
+    for known in known_guests + known_hosts:
+        if fuzzy_name_match(speaker, known):
+            return known
+    
+    return None
+
+
+def canonicalize_extraction_speakers(
+    extraction: Dict,
+    known_hosts: List[str],
+    known_guests: List[str],
+) -> Tuple[Dict, int, int]:
+    """Canonicalize all speaker names in extraction to known hosts/guests.
+    
+    Drops quotes whose speakers can't be mapped.
+    Returns (filtered_extraction, canonicalized_count, dropped_count).
+    """
+    canonicalized = 0
+    dropped = 0
+    
+    filtered_hvq = []
+    for q in extraction.get("high_value_quotes", []):
+        if isinstance(q, dict) and q.get("speaker"):
+            canonical = canonicalize_speaker(q["speaker"], known_hosts, known_guests)
+            if canonical:
+                q_copy = dict(q)
+                if q_copy["speaker"] != canonical:
+                    canonicalized += 1
+                q_copy["speaker"] = canonical
+                filtered_hvq.append(q_copy)
+            else:
+                dropped += 1
+        else:
+            filtered_hvq.append(q)
+    
+    filtered_companies = []
+    for ca in extraction.get("companies_and_assets", []):
+        if isinstance(ca, dict):
+            filtered_kq = []
+            for kq in ca.get("key_quotes", []):
+                if isinstance(kq, dict) and kq.get("speaker"):
+                    canonical = canonicalize_speaker(kq["speaker"], known_hosts, known_guests)
+                    if canonical:
+                        kq_copy = dict(kq)
+                        if kq_copy["speaker"] != canonical:
+                            canonicalized += 1
+                        kq_copy["speaker"] = canonical
+                        filtered_kq.append(kq_copy)
+                    else:
+                        dropped += 1
+                else:
+                    filtered_kq.append(kq)
+            ca_copy = dict(ca)
+            ca_copy["key_quotes"] = filtered_kq
+            filtered_companies.append(ca_copy)
+        else:
+            filtered_companies.append(ca)
+    
+    filtered = dict(extraction)
+    filtered["high_value_quotes"] = filtered_hvq
+    filtered["companies_and_assets"] = filtered_companies
+    
+    return filtered, canonicalized, dropped
+
+
+PROPER_NOUN_CORRECTIONS = {
+    "straight of hormuz": "Strait of Hormuz",
+    "straight-of-harm": "Strait of Hormuz",
+    "straight of harm": "Strait of Hormuz",
+    "strait of harm": "Strait of Hormuz",
+    "hormuz strait": "Strait of Hormuz",
+    "red sea": "Red Sea",
+    "cape of good hope": "Cape of Good Hope",
+    "suez canal": "Suez Canal",
+    "panama canal": "Panama Canal",
+    "persian gulf": "Persian Gulf",
+}
+
+
+def load_term_aliases() -> Dict[str, str]:
+    """Load term aliases from term_aliases.json."""
+    aliases_path = Path(__file__).parent / "term_aliases.json"
+    corrections = {}
+    if aliases_path.exists():
+        try:
+            data = json.loads(aliases_path.read_text())
+            for merge in data.get("merges", []):
+                canonical = merge.get("canonical", "")
+                for alias in merge.get("aliases", []):
+                    corrections[alias.lower()] = canonical
+        except Exception:
+            pass
+    return corrections
+
+
+def correct_proper_nouns_in_quote(
+    quote: str,
+    known_entities: List[str] = None,
+) -> Tuple[str, List[str]]:
+    """Correct garbled proper nouns in a quote.
+    
+    Uses a narrow correction set: PROPER_NOUN_CORRECTIONS, term_aliases.json,
+    and known entities from the extraction.
+    
+    Returns (corrected_quote, list_of_corrections_made).
+    """
+    import re
+    
+    corrections_made = []
+    corrected = quote
+    
+    all_corrections = dict(PROPER_NOUN_CORRECTIONS)
+    all_corrections.update(load_term_aliases())
+    
+    for garbled, canonical in all_corrections.items():
+        pattern = re.compile(re.escape(garbled), re.IGNORECASE)
+        if pattern.search(corrected):
+            new_corrected = pattern.sub(canonical, corrected)
+            if new_corrected != corrected:
+                corrections_made.append(f"'{garbled}' → '{canonical}'")
+                corrected = new_corrected
+    
+    return corrected, corrections_made
+
+
+def correct_extraction_quotes(
+    extraction: Dict,
+    known_entities: List[str] = None,
+) -> Tuple[Dict, List[Dict]]:
+    """Correct proper nouns in all quotes in the extraction.
+    
+    Returns (corrected_extraction, list of {original, corrected, corrections} dicts).
+    """
+    all_corrections = []
+    
+    corrected_hvq = []
+    for q in extraction.get("high_value_quotes", []):
+        if isinstance(q, dict) and q.get("quote"):
+            corrected, changes = correct_proper_nouns_in_quote(q["quote"], known_entities)
+            q_copy = dict(q)
+            if changes:
+                all_corrections.append({
+                    "original": q["quote"],
+                    "corrected": corrected,
+                    "changes": changes,
+                    "speaker": q.get("speaker", ""),
+                })
+            q_copy["quote"] = corrected
+            corrected_hvq.append(q_copy)
+        else:
+            corrected_hvq.append(q)
+    
+    corrected_companies = []
+    for ca in extraction.get("companies_and_assets", []):
+        if isinstance(ca, dict):
+            corrected_kq = []
+            for kq in ca.get("key_quotes", []):
+                if isinstance(kq, dict) and kq.get("quote"):
+                    corrected, changes = correct_proper_nouns_in_quote(kq["quote"], known_entities)
+                    kq_copy = dict(kq)
+                    if changes:
+                        all_corrections.append({
+                            "original": kq["quote"],
+                            "corrected": corrected,
+                            "changes": changes,
+                            "speaker": kq.get("speaker", ""),
+                        })
+                    kq_copy["quote"] = corrected
+                    corrected_kq.append(kq_copy)
+                else:
+                    corrected_kq.append(kq)
+            ca_copy = dict(ca)
+            ca_copy["key_quotes"] = corrected_kq
+            corrected_companies.append(ca_copy)
+        else:
+            corrected_companies.append(ca)
+    
+    corrected = dict(extraction)
+    corrected["high_value_quotes"] = corrected_hvq
+    corrected["companies_and_assets"] = corrected_companies
+    
+    return corrected, all_corrections
+
+
 def chunk_transcript(text: str, max_tokens: int = CHUNK_TOKEN_BUDGET) -> List[str]:
     """Split transcript into chunks if it exceeds token budget.
     
