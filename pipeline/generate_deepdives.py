@@ -301,6 +301,12 @@ def check_high_profile_match(
     return None
 
 
+def extraction_failed_generation_mode(err_detail: Optional[str]) -> str:
+    """Build generation_mode when extraction fails and we fall back to legacy."""
+    reason = str(err_detail or "unknown").replace("\n", " ").strip()[:60]
+    return f"legacy:extraction_failed:{reason}"
+
+
 def _norm_text(s: str) -> str:
     return re.sub(r"\s+", " ", (s or "").lower()).strip()
 
@@ -1494,9 +1500,27 @@ def generate_missing_deepdives(insight_ids: list = None) -> Tuple[int, int, int]
                 deepdive_mode = "legacy"
                 generation_mode = "legacy:no_extraction"
         
-        if deepdive_mode == "legacy" or content is None and not err_detail:
+        if deepdive_mode == "legacy" or (content is None and not err_detail):
             if not generation_mode.startswith("legacy"):
                 generation_mode = "legacy"
+            print(f"    Mode: legacy (gpt-5.5)", flush=True)
+            content, err_detail, usage_info = run_deep_dive_generation_attempts(
+                clients,
+                insight_id,
+                title,
+                source_type,
+                episode_id,
+                insight_summary,
+                key_takeaway,
+                host_name=host_name,
+                guest_names=guest_names,
+            )
+        elif content is None and err_detail and generation_mode == "extraction":
+            generation_mode = extraction_failed_generation_mode(err_detail)
+            print(
+                f"    ⚠ Extraction failed, falling back to legacy: {err_detail[:60]}",
+                flush=True,
+            )
             print(f"    Mode: legacy (gpt-5.5)", flush=True)
             content, err_detail, usage_info = run_deep_dive_generation_attempts(
                 clients,

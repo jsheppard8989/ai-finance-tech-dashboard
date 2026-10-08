@@ -2,7 +2,11 @@
 """Tests for extraction-mode deep dive generation."""
 
 import json
+import os
+import sqlite3
+import tempfile
 import unittest
+from pathlib import Path
 from unittest.mock import MagicMock, patch
 
 from generate_deepdives import (
@@ -12,6 +16,8 @@ from generate_deepdives import (
     load_high_profile_config,
     check_high_profile_match,
     HIGH_PROFILE_CONFIG_PATH,
+    extraction_failed_generation_mode,
+    generate_missing_deepdives,
 )
 from two_pass_analyzer import (
     get_deepdive_mode,
@@ -337,6 +343,196 @@ class TestTranscriptQuoteValidation(unittest.TestCase):
         self.assertEqual(passed, 2)
         self.assertEqual(dropped, 0)
         self.assertEqual(len(filtered["high_value_quotes"]), 2)
+
+
+_EMPTY_HIGH_PROFILE = {
+    "episode_ids": [],
+    "insight_ids": [],
+    "shows": [],
+    "title_keywords": [],
+}
+
+_OK_DEEP_DIVE = {
+    "schema_version": 2,
+    "episode_evidence": (
+        '- John Smith: "Demand remains structurally tight through 2027."\n'
+        '- Jane Doe: "Capacity additions will not catch up this cycle."'
+    ),
+    "overview": "The non-obvious signal is a physical bottleneck, not a demand scare.",
+    "investment_thesis": "Long constrained suppliers while clean-room capacity stays scarce.",
+    "ticker_analysis": {"NVDA": {"rationale": "AI demand", "positioning": "Watch", "risk": "Valuation"}},
+    "falsification_tracks": [
+        "If HBM supply exceeds demand by Q3 2027, the shortage thesis fails.",
+        "If hyperscaler capex is cut two quarters in a row, reassess.",
+    ],
+    "key_takeaways_detailed": [],
+    "contrarian_signals": [],
+    "catalysts": [],
+}
+
+
+def _make_fallback_test_db() -> str:
+    fd, path = tempfile.mkstemp(suffix=".db")
+    os.close(fd)
+    conn = sqlite3.connect(path)
+    conn.executescript(
+        """
+        CREATE TABLE latest_insights (
+            id INTEGER PRIMARY KEY,
+            title TEXT,
+            source_type TEXT,
+            podcast_episode_id INTEGER,
+            summary TEXT,
+            key_takeaway TEXT,
+            source_date TEXT,
+            notable_quotes TEXT,
+            source_name TEXT
+        );
+        CREATE TABLE podcast_episodes (
+            id INTEGER PRIMARY KEY,
+            extraction_json TEXT
+        );
+        CREATE TABLE deep_dive_content (
+            id INTEGER PRIMARY KEY AUTOINCREMENT,
+            insight_id INTEGER,
+            podcast_episode_id INTEGER,
+            overview TEXT,
+            key_takeaways_detailed TEXT,
+            investment_thesis TEXT,
+            ticker_analysis TEXT,
+            positioning_guidance TEXT,
+            risk_factors TEXT,
+            contrarian_signals TEXT,
+            catalysts TEXT,
+            episode_evidence TEXT,
+            falsification_tracks TEXT,
+            schema_version INTEGER,
+            created_at TEXT,
+            model_used TEXT,
+            input_tokens INTEGER,
+            output_tokens INTEGER,
+            cost_usd REAL,
+            attempt_count INTEGER,
+            generation_mode TEXT
+        );
+        INSERT INTO latest_insights (
+            id, title, source_type, podcast_episode_id, summary, key_takeaway,
+            source_date, notable_quotes, source_name
+        ) VALUES (
+            101, 'Stacy Rasgon on Semiconductors', 'podcast', 564,
+            'A summary of the episode.', 'Key takeaway here.',
+            '2026-10-07', '[]', 'Monetary Matters with Jack Farley'
+        );
+        INSERT INTO podcast_episodes (id, extraction_json)
+        VALUES (564, '{"high_value_quotes": [], "companies_and_assets": []}');
+        """
+    )
+    conn.commit()
+    conn.close()
+    return path
+
+
+class TestExtractionFallbackToLegacy(unittest.TestCase):
+    """When extraction mode fails, fall back to gpt-5.5 once."""
+
+    def test_extraction_failed_generation_mode_truncates(self):
+        long_err = "x" * 80
+        mode = extraction_failed_generation_mode(long_err)
+        self.assertTrue(mode.startswith("legacy:extraction_failed:"))
+        reason = mode.split("legacy:extraction_failed:", 1)[1]
+        self.assertEqual(len(reason), 60)
+
+    def _run_generate(self, tmp_db, extract_return, legacy_return):
+        with patch.dict(os.environ, {"DEEPDIVE_MODE": "extraction"}), \
+             patch("generate_deepdives.DB_PATH", Path(tmp_db)), \
+             patch("generate_deepdives.get_ai_clients", return_value=[("openai", MagicMock())]), \
+             patch("generate_deepdives.load_high_profile_config", return_value=_EMPTY_HIGH_PROFILE), \
+             patch("generate_deepdives.run_extraction_deep_dive_attempts", return_value=extract_return) as mock_extract, \
+             patch("generate_deepdives.run_deep_dive_generation_attempts", return_value=legacy_return) as mock_legacy:
+            generated, need, quarantined = generate_missing_deepdives([101])
+        return generated, need, quarantined, mock_extract, mock_legacy
+
+    def test_extraction_fails_legacy_succeeds_stores_mode(self):
+        tmp_db = _make_fallback_test_db()
+        self.addCleanup(lambda: os.path.exists(tmp_db) and os.unlink(tmp_db))
+        err = "Structural check failed: contains Investors should. rewrite this please"
+        extract_return = (None, err, {"model": "gpt-5.4-mini", "input_tokens": 10, "output_tokens": 5, "cost_usd": 0.01})
+        legacy_return = (_OK_DEEP_DIVE, None, {"model": "gpt-5.5", "input_tokens": 100, "output_tokens": 20, "cost_usd": 0.14, "attempt_count": 1})
+
+        generated, need, quarantined, mock_extract, mock_legacy = self._run_generate(
+            tmp_db, extract_return, legacy_return
+        )
+        self.assertEqual((generated, need, quarantined), (1, 1, 0))
+        mock_extract.assert_called_once()
+        mock_legacy.assert_called_once()
+
+        conn = sqlite3.connect(tmp_db)
+        conn.row_factory = sqlite3.Row
+        row = conn.execute(
+            "SELECT generation_mode, model_used FROM deep_dive_content WHERE insight_id = 101"
+        ).fetchone()
+        fail_row = conn.execute(
+            "SELECT insight_id FROM deep_dive_generation_failures WHERE insight_id = 101 AND status != 'resolved'"
+        ).fetchone()
+        conn.close()
+
+        expected_mode = extraction_failed_generation_mode(err)
+        self.assertIsNotNone(row)
+        self.assertEqual(row["generation_mode"], expected_mode)
+        self.assertEqual(row["model_used"], "gpt-5.5")
+        self.assertIsNone(fail_row)
+
+    def test_extraction_and_legacy_both_fail_records_failure(self):
+        tmp_db = _make_fallback_test_db()
+        self.addCleanup(lambda: os.path.exists(tmp_db) and os.unlink(tmp_db))
+        extract_return = (None, "quote_validation: Quote not found", {"model": "gpt-5.4-mini"})
+        legacy_return = (None, "generation failed after retries", {"model": "gpt-5.5"})
+
+        generated, need, quarantined, mock_extract, mock_legacy = self._run_generate(
+            tmp_db, extract_return, legacy_return
+        )
+        self.assertEqual(generated, 0)
+        self.assertEqual(need, 1)
+        mock_extract.assert_called_once()
+        mock_legacy.assert_called_once()
+
+        conn = sqlite3.connect(tmp_db)
+        conn.row_factory = sqlite3.Row
+        stored = conn.execute(
+            "SELECT id FROM deep_dive_content WHERE insight_id = 101"
+        ).fetchone()
+        fail_row = conn.execute(
+            "SELECT failure_reason, failure_detail, status FROM deep_dive_generation_failures WHERE insight_id = 101"
+        ).fetchone()
+        conn.close()
+
+        self.assertIsNone(stored)
+        self.assertIsNotNone(fail_row)
+        self.assertEqual(fail_row["failure_reason"], "generation_failed")
+        self.assertIn("generation failed after retries", fail_row["failure_detail"])
+
+    def test_extraction_succeeds_legacy_never_called(self):
+        tmp_db = _make_fallback_test_db()
+        self.addCleanup(lambda: os.path.exists(tmp_db) and os.unlink(tmp_db))
+        extract_return = (_OK_DEEP_DIVE, None, {"model": "gpt-5.4-mini", "input_tokens": 8, "output_tokens": 4, "cost_usd": 0.01, "attempt_count": 1})
+        legacy_return = (_OK_DEEP_DIVE, None, {"model": "gpt-5.5"})
+
+        generated, need, quarantined, mock_extract, mock_legacy = self._run_generate(
+            tmp_db, extract_return, legacy_return
+        )
+        self.assertEqual((generated, need, quarantined), (1, 1, 0))
+        mock_extract.assert_called_once()
+        mock_legacy.assert_not_called()
+
+        conn = sqlite3.connect(tmp_db)
+        conn.row_factory = sqlite3.Row
+        row = conn.execute(
+            "SELECT generation_mode, model_used FROM deep_dive_content WHERE insight_id = 101"
+        ).fetchone()
+        conn.close()
+        self.assertIsNotNone(row)
+        self.assertEqual(row["generation_mode"], "extraction")
+        self.assertEqual(row["model_used"], "gpt-5.4-mini")
 
 
 class TestHighProfileOverride(unittest.TestCase):
