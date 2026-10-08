@@ -1,7 +1,7 @@
 {
-  "generated_at": "2026-10-08T07:15:35.375580",
-  "last_updated": "2026-10-08T07:15:35.375580",
-  "last_pipeline_run": "2026-10-08T07:15:35.375580",
+  "generated_at": "2026-10-08T07:59:14.060610",
+  "last_updated": "2026-10-08T07:59:14.060610",
+  "last_pipeline_run": "2026-10-08T07:59:14.060610",
   "main_page": {
     "overton": 13,
     "insights": 12,
@@ -20,33 +20,14 @@
     "podcasts_analyzed": 2
   },
   "step_results": {
-    "downloaded": 1,
-    "transcribed": 1,
-    "analyzed": 1,
-    "insight_created": 1,
-    "published": 1,
-    "total": 1
+    "downloaded": 0,
+    "transcribed": 0,
+    "analyzed": 0,
+    "insight_created": 0,
+    "published": 0,
+    "total": 0
   },
-  "episodes": [
-    {
-      "id": "362a88d2-2968-43d5-b3e4-7531e65faea0",
-      "podcast": "The a16z Show",
-      "title": "Building the Cloud for an Agentic World | AWS CEO Matt Garman",
-      "published": "2026-10-08",
-      "rss_guid": "362a88d2-2968-43d5-b3e4-7531e65faea0",
-      "stages": {
-        "downloaded": true,
-        "transcribed": true,
-        "analyzed": true,
-        "insight_created": true,
-        "published": true
-      },
-      "stage_reasons": {},
-      "first_blocker": null,
-      "remediation_by_stage": {},
-      "status": "complete"
-    }
-  ],
+  "episodes": [],
   "available_from_rss": [],
   "stale_episodes": [
     {
