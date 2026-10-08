@@ -1,5 +1,30 @@
 [
   {
+    "id": 562,
+    "podcast_name": "The a16z Show",
+    "episode_title": "Building the Cloud for an Agentic World | AWS CEO Matt Garman",
+    "episode_date": "2026-10-08",
+    "summary": "AWS CEO Matt Garman argued that AWS remains early in its growth curve despite reaching about $169 billion in annualized revenue and growing about 37%, because most workloads still run on-premises and AI is adding new compute demand. He said startups have been central to AWS since its 2005-2006 origins, and AWS estimates that roughly 30% to 40% of current revenue comes from companies that were once startups.",
+    "key_takeaways": [
+      "Matt Garman said AWS is about a $169 billion annualized business growing about 37%, and he argued the business remains early because many workloads still live on-premises while AI increases daily compute demand.",
+      "Matt Garman claimed AWS estimates 30% to 40% of its revenue comes from companies that were once startups, because startups became larger enterprises over time and pushed AWS to build capabilities before banks or governments needed them.",
+      "Matt Garman said AWS is simplifying new account creation so users can sign up with a Gmail account and operate within less than 30 seconds, while still preserving a full AWS account that can later add VPCs and IAM roles.",
+      "Matt Garman said Amazon expects about $220 billion of capital spending in 2026 and does not anticipate slowing down soon, because demand is constrained by power, data centers, capital, memory, chips, and construction labor.",
+      "Matt Garman said AWS deliberately withholds some GPU and accelerator capacity from frontier labs such as Anthropic, OpenAI, and Meta so that startups and enterprises such as Salesforce and JPMorgan Chase can still receive allocations.",
+      "Matt Garman said AWS plans to buy 2 million Nvidia GPUs over the next couple of years, while the company also sells out Trainium capacity through roughly the end of next year.",
+      "Matt Garman argued enterprises are moving from proof of concepts to production on Amazon Bedrock because Bedrock keeps customer data inside the customer's VPC and prevents prompts from going back to model providers."
+    ],
+    "investment_thesis": "Matt Garman argues AWS's AI infrastructure buildout remains demand-driven because Amazon expects $220 billion of 2026 capex, 2 million Nvidia GPUs over coming years, and production workloads across Bedrock, inference, and cloud migration.",
+    "key_tickers": [
+      "AMZN",
+      "NVDA",
+      "META",
+      "CRM",
+      "JPM",
+      "NFLX"
+    ]
+  },
+  {
     "id": 561,
     "podcast_name": "Moonshots with Peter Diamandis",
     "episode_title": "Why Altman Says \"Accept Some Bad Things Happening\" and What It Means for AI Safety | MOONSHOTS #301",
