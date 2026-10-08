@@ -458,8 +458,9 @@ def deep_dive_structural_ok(content: Dict[str, Any]) -> Tuple[bool, str]:
     )
     if quote_like < 2 and quote_first_lines < 2:
         return False, "source_quotes must be quote-first (bullets or quoted lines)"
+    # Match speaker names like "J Mintzmyer:", "Jack Farley:", allowing single-letter first names
     named = re.findall(
-        r"(?:^|\n)\s*[-•]?\s*([A-Z][A-Za-z.'-]+(?:\s+[A-Z][A-Za-z.'-]+)*)\s*:",
+        r"(?:^|\n)\s*[-•]?\s*([A-Z][A-Za-z.'-]*(?:\s+[A-Z][A-Za-z.'-]+)+)\s*:",
         ev,
     )
     named = [n for n in named if n.lower() not in {"host", "guest", "author", "speaker"}]
@@ -656,6 +657,34 @@ def _call_json_model(clients: List[Tuple[str, Any]], prompt: str) -> Tuple[Optio
     return None, last_error or "all providers failed"
 
 
+def _extract_host_from_source_name(source_name: str) -> Optional[str]:
+    """Extract host name from source_name like 'Monetary Matters with Jack Farley'."""
+    if not source_name:
+        return None
+    # Match "with FirstName LastName" patterns, allowing apostrophes in names
+    m = re.search(r"\bwith\s+([A-Z][a-zA-Z']+(?:\s+[A-Z][a-zA-Z']+)+)", source_name)
+    if m:
+        return m.group(1)
+    return None
+
+
+def _extract_speakers_from_notable_quotes(notable_quotes_json: str) -> List[str]:
+    """Extract unique speaker names from notable_quotes JSON array."""
+    if not notable_quotes_json:
+        return []
+    try:
+        quotes = json.loads(notable_quotes_json)
+        if isinstance(quotes, list):
+            speakers = set()
+            for q in quotes:
+                if isinstance(q, dict) and q.get("speaker"):
+                    speakers.add(q["speaker"])
+            return sorted(speakers)
+    except (json.JSONDecodeError, TypeError):
+        pass
+    return []
+
+
 def generate_deep_dive_with_ai(
     clients: List[Tuple[str, Any]],
     title: str,
@@ -664,6 +693,8 @@ def generate_deep_dive_with_ai(
     insight_summary: str,
     key_takeaway: str,
     retry_hint: str = "",
+    host_name: Optional[str] = None,
+    guest_names: Optional[List[str]] = None,
 ) -> Tuple[Optional[dict], Optional[str]]:
     """Generate deep dive content using AI (high-ROI: source evidence + falsifiers + anti-paraphrase)."""
 
@@ -679,12 +710,21 @@ def generate_deep_dive_with_ai(
     if retry_hint.strip():
         retry_block = f"\n\nVALIDATION RETRY — fix the following and keep valid JSON only:\n{retry_hint}\n"
 
+    speaker_block = ""
+    if source_type == "podcast" and (host_name or guest_names):
+        speakers = []
+        if host_name:
+            speakers.append(f"Host: {host_name}")
+        if guest_names:
+            speakers.append(f"Guest(s): {', '.join(guest_names)}")
+        speaker_block = f"\nSPEAKERS (use these exact names for source_quotes attribution):\n" + "\n".join(speakers) + "\n"
+
     prompt = f"""You are an elite investment analyst writing a "Deep Dive" that MUST add depth beyond the insight card — not a longer restatement of it.
 
 ALREADY-PUBLISHED INSIGHT CARD (treat this as ALREADY SHOWN TO THE USER; do not paraphrase it or replay its thematic bullets):
 Summary: {insight_summary or "(none)"}
 Key takeaway: {key_takeaway or "(none)"}
-
+{speaker_block}
 {label.upper()}:
 {src}
 
@@ -693,7 +733,7 @@ INSIGHT TITLE: {title}
 Return ONLY valid JSON with these keys:
 
 {{
-  "source_quotes": "Exactly 2 or 3 lines. Each line MUST be: - Full Name: \"verbatim quote from the source\". Use the person's real name (the spelling in the insight title when it names them). Never write Host or Guest when the name is known. Never invent a phonetic misspelling. NO opening sentence summarizing the episode.",
+  "source_quotes": "Exactly 2 or 3 lines. Each line MUST be: - Full Name: \"verbatim quote from the source\". Use the SPEAKERS names above when attributing quotes (e.g., 'J Mintzmyer: \"quote\"' not 'Guest: \"quote\"'). Never write Host or Guest when the name is known. Never invent a phonetic misspelling. NO opening sentence summarizing the episode.",
   "whats_new": "ONE paragraph (80–180 words): mechanisms, numbers, disagreements, or second-order effects that are NOT already on the Insight card. Plain language. If a sentence could appear on 50 unrelated podcast Deep Dives, delete it.",
   "falsification_tracks": [
     "3–5 bullets: specific, observable data, events, or market outcomes that would materially REDUCE conviction in the thesis (or flip it). Each bullet must be testable — not vibes."
@@ -841,6 +881,8 @@ def run_deep_dive_generation_attempts(
     episode_id: int,
     insight_summary: str,
     key_takeaway: str,
+    host_name: Optional[str] = None,
+    guest_names: Optional[List[str]] = None,
 ) -> Tuple[Optional[Dict[str, Any]], Optional[str]]:
     """Generate with retries when overlap or structural checks fail."""
     source_content = get_source_content(insight_id, source_type, episode_id)
@@ -858,6 +900,8 @@ def run_deep_dive_generation_attempts(
             insight_summary,
             key_takeaway,
             retry_hint=retry_hint,
+            host_name=host_name,
+            guest_names=guest_names,
         )
         if err:
             last_error = err
@@ -960,7 +1004,8 @@ def generate_missing_deepdives(insight_ids: list = None) -> Tuple[int, int, int]
         cursor = conn.execute(
             f"""
             SELECT li.id, li.title, li.source_type, li.podcast_episode_id,
-                   li.summary, li.key_takeaway, li.source_date
+                   li.summary, li.key_takeaway, li.source_date,
+                   li.notable_quotes, li.source_name
             FROM latest_insights li
             LEFT JOIN deep_dive_content ddc ON li.id = ddc.insight_id
             WHERE li.id IN ({placeholders}) AND ddc.id IS NULL
@@ -971,7 +1016,8 @@ def generate_missing_deepdives(insight_ids: list = None) -> Tuple[int, int, int]
         cursor = conn.execute(
             f"""
             SELECT li.id, li.title, li.source_type, li.podcast_episode_id,
-                   li.summary, li.key_takeaway, li.source_date
+                   li.summary, li.key_takeaway, li.source_date,
+                   li.notable_quotes, li.source_name
             FROM latest_insights li
             LEFT JOIN deep_dive_content ddc ON li.id = ddc.insight_id
             WHERE ddc.id IS NULL
@@ -1005,8 +1051,21 @@ def generate_missing_deepdives(insight_ids: list = None) -> Tuple[int, int, int]
         insight_summary = row["summary"] or ""
         key_takeaway = row["key_takeaway"] or ""
         source_date = row["source_date"] or ""
+        notable_quotes = row["notable_quotes"] or ""
+        source_name = row["source_name"] or ""
+
+        # Extract speaker names for podcasts
+        host_name = _extract_host_from_source_name(source_name) if source_type == "podcast" else None
+        guest_names = _extract_speakers_from_notable_quotes(notable_quotes) if source_type == "podcast" else None
 
         print(f"[{insight_id}] {title[:60]}", flush=True)
+        if host_name or guest_names:
+            speakers_info = []
+            if host_name:
+                speakers_info.append(f"Host: {host_name}")
+            if guest_names:
+                speakers_info.append(f"Guest(s): {', '.join(guest_names)}")
+            print(f"    Speakers: {'; '.join(speakers_info)}", flush=True)
 
         content, err_detail = run_deep_dive_generation_attempts(
             clients,
@@ -1016,6 +1075,8 @@ def generate_missing_deepdives(insight_ids: list = None) -> Tuple[int, int, int]
             episode_id,
             insight_summary,
             key_takeaway,
+            host_name=host_name,
+            guest_names=guest_names,
         )
         if not content:
             reason = "content_filter" if err_detail and _is_content_filter_error(Exception(err_detail)) else "generation_failed"

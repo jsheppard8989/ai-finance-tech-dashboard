@@ -1,7 +1,7 @@
 {
-  "generated_at": "2026-10-08T07:59:14.060610",
-  "last_updated": "2026-10-08T07:59:14.060610",
-  "last_pipeline_run": "2026-10-08T07:59:14.060610",
+  "generated_at": "2026-10-08T09:34:32.531212",
+  "last_updated": "2026-10-08T09:34:32.531212",
+  "last_pipeline_run": "2026-10-08T09:34:32.531212",
   "main_page": {
     "overton": 13,
     "insights": 12,
@@ -29,18 +29,7 @@
   },
   "episodes": [],
   "available_from_rss": [],
-  "stale_episodes": [
-    {
-      "id": "eac96156-c193-11f1-981c-4b26d5758027",
-      "podcast": "Monetary Matters with Jack Farley",
-      "title": "The Most Extreme Shipping Market in History, Explained | J Mintzmyer on Why Oil Tanker Rates Are Up 25x and Why It Can\u2019t Last (and Why Dry Bulk, not Tankers, is the Next Shipping Boom)",
-      "status": "needs_export",
-      "published": "2026-10-06",
-      "age_days": 2,
-      "next_blocker": "published",
-      "source": "db_incomplete"
-    }
-  ],
+  "stale_episodes": [],
   "stale_threshold_days": 2,
   "rss_filter_criteria": {
     "cutoff_date": "2026-02-01",

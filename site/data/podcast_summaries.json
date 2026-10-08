@@ -72,6 +72,31 @@
     ]
   },
   {
+    "id": 559,
+    "podcast_name": "Monetary Matters with Jack Farley",
+    "episode_title": "The Most Extreme Shipping Market in History, Explained | J Mintzmyer on Why Oil Tanker Rates Are Up 25x and Why It Can\u2019t Last (and Why Dry Bulk, not Tankers, is the Next Shipping Boom)",
+    "episode_date": "2026-10-06",
+    "summary": "Jack Farley interviewed J Mintzmyer, founder and president of Value Investors Edge, about the extreme tanker market created by the Iran war and disruptions around the Strait of Hormuz. Mintzmyer said recent VLCC spot fixtures from the Middle East Gulf to China reached roughly $1.0 million to $1.2 million per day, compared with a normal tanker rate of about $20,000 to $40,000 per day, while one-year charter rates recently reached about $150,000 to $170,000 per day.\n\nMintzmyer argued the spike did not come from one factor alone, but from a tight tanker fleet, old ships, low forward supply, longer trade routes after Russia sanctions, Houthi disruptions in the Red Sea, and the sudden dislocation of vessels after the Strait of Hormuz closure and partial reopening. He estimated that roughly 70% to 80% of pre-conflict flows had returned through the Strait of Hormuz, or about 12 million to 14 million barrels per day versus closer to 20 million barrels per day before the conflict, but said AIS data is unreliable in real time because many ships turn off or delay signals.\n\nThe central disagreement was with the instinctive view that disruptions are bad for shipping. Mintzmyer said short-term disruptions often raise rates because they increase ton miles and create vessel scarcity, while permanent closures or long-term export bans can be bearish by destroying cargo demand. He specifically said a several-month US diesel export ban would likely be very bearish for product tankers after a brief panic phase.\n\nMintzmyer was cautious on crude tanker rates and assets, saying $1 million per day rates are unsustainable and could normalize within days or weeks, not months. He differentiated between rates, ship asset values, and equities: he was least bullish on rates, concerned that ship assets were too rich, and described many tanker equities as closer to holds.\n\nHis preferred segment was dry bulk, where he said Capesize rates had risen from about $20,000 per day to $40,000 to $50,000 per day, far below the tanker market's 25x move but still highly profitable. He argued dry bulk could benefit for two to three years from limited supply, older fleets, coal switching from high LNG prices, and China's shift of iron ore and bauxite purchases from Australia toward Guinea, which more than triples the voyage distance to China.",
+    "key_takeaways": [
+      "J Mintzmyer said recent VLCC spot fixtures from the Middle East Gulf to China reached about $1.0 million to $1.2 million per day, compared with normal tanker rates of roughly $20,000 to $40,000 per day.",
+      "J Mintzmyer argued tanker rates surged because the Strait of Hormuz disruption trapped ships, forced 20 to 30 days of vessel repositioning, and injected inefficiency into an already tight market with older fleets and low forward supply.",
+      "J Mintzmyer estimated that roughly 70% to 80% of pre-conflict Strait of Hormuz flows had resumed, equal to about 12 million to 14 million barrels per day versus a pre-conflict level closer to 20 million barrels per day.",
+      "J Mintzmyer claimed product tanker rates had lagged crude tanker rates because the product fleet was more evenly dispersed and China temporarily cut refined-product exports, though he said product tanker rates were hockey-sticking in the week before September 30, 2026.",
+      "J Mintzmyer argued BWET is vulnerable because it is based on the next two to three months of tanker spot rates through FFAs, and he said spot rates at about $1 million per day are unsustainable for months.",
+      "J Mintzmyer said tanker order books ramped after the 2022 Russia invasion and again after the 2026 conflict, with significant new supply expected from early to mid-2027 through late 2028 or early 2029.",
+      "J Mintzmyer argued dry bulk is more attractive than tankers because Capesize rates around $40,000 to $50,000 per day are profitable but only about 2.5x normal levels, while dry bulk supply is more restrained than tanker supply."
+    ],
+    "investment_thesis": "J Mintzmyer argues dry bulk, not tankers, has the stronger setup because Capesize rates near $40,000 to $50,000 per day meet restrained supply and longer Guinea-to-China ton miles.",
+    "key_tickers": [
+      "LENS",
+      "BWET",
+      "ECO",
+      "DHT",
+      "FRO",
+      "CNBT"
+    ]
+  },
+  {
     "id": 557,
     "podcast_name": "The a16z Show",
     "episode_title": "Building Defense for the Agentic Era: Kevin Mandia",
