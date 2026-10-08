@@ -234,7 +234,6 @@ def ensure_deep_dive_schema(conn: sqlite3.Connection) -> None:
         conn.execute(
             "ALTER TABLE deep_dive_content ADD COLUMN schema_version INTEGER DEFAULT 1"
         )
-    # Cost tracking columns (added for PR #xxx)
     if "model_used" not in existing:
         conn.execute("ALTER TABLE deep_dive_content ADD COLUMN model_used TEXT")
     if "input_tokens" not in existing:
@@ -245,7 +244,61 @@ def ensure_deep_dive_schema(conn: sqlite3.Connection) -> None:
         conn.execute("ALTER TABLE deep_dive_content ADD COLUMN cost_usd REAL")
     if "attempt_count" not in existing:
         conn.execute("ALTER TABLE deep_dive_content ADD COLUMN attempt_count INTEGER")
+    if "generation_mode" not in existing:
+        conn.execute("ALTER TABLE deep_dive_content ADD COLUMN generation_mode TEXT")
     conn.commit()
+
+
+HIGH_PROFILE_CONFIG_PATH = Path(__file__).parent.parent / "config" / "deepdive_high_profile.json"
+
+
+def load_high_profile_config() -> Dict[str, Any]:
+    """Load high-profile episode config. Returns empty config on missing/malformed file."""
+    default = {"episode_ids": [], "insight_ids": [], "shows": [], "title_keywords": []}
+    if not HIGH_PROFILE_CONFIG_PATH.exists():
+        print(f"  ⚠ High-profile config not found: {HIGH_PROFILE_CONFIG_PATH}", flush=True)
+        return default
+    try:
+        data = json.loads(HIGH_PROFILE_CONFIG_PATH.read_text(encoding="utf-8"))
+        return {
+            "episode_ids": [int(x) for x in (data.get("episode_ids") or [])],
+            "insight_ids": [int(x) for x in (data.get("insight_ids") or [])],
+            "shows": [str(x).lower() for x in (data.get("shows") or [])],
+            "title_keywords": [str(x).lower() for x in (data.get("title_keywords") or [])],
+        }
+    except Exception as e:
+        print(f"  ⚠ High-profile config malformed ({e}), using empty config", flush=True)
+        return default
+
+
+def check_high_profile_match(
+    episode_id: int,
+    insight_id: int,
+    podcast_name: str,
+    episode_title: str,
+    config: Dict[str, Any],
+) -> Optional[str]:
+    """Check if an episode matches high-profile criteria.
+    
+    Returns match reason string if matched, None otherwise.
+    """
+    if episode_id in config.get("episode_ids", []):
+        return f"episode_id={episode_id}"
+    
+    if insight_id in config.get("insight_ids", []):
+        return f"insight_id={insight_id}"
+    
+    podcast_lower = (podcast_name or "").lower()
+    for show in config.get("shows", []):
+        if show and show in podcast_lower:
+            return f"show='{show}'"
+    
+    title_lower = (episode_title or "").lower()
+    for keyword in config.get("title_keywords", []):
+        if keyword and keyword in title_lower:
+            return f"title_keyword='{keyword}'"
+    
+    return None
 
 
 def _norm_text(s: str) -> str:
@@ -714,6 +767,165 @@ def _extract_speakers_from_notable_quotes(notable_quotes_json: str) -> List[str]
     return []
 
 
+EXTRACTION_DEEPDIVE_PROMPT = """
+You are producing a Deep Dive analysis from structured extraction data.
+
+You have:
+1. The extraction JSON from the podcast (companies, claims, quotes, falsification tracks)
+2. The insight card summary and key takeaway
+
+Your job is to produce a rich Deep Dive with:
+- episode_evidence: 3-5 verbatim quotes from the extraction, each starting with "Speaker Name: "
+- overview: What's new and non-obvious? NOT a summary of the insight card.
+- investment_thesis: Distinct from overview - practical implications for investors
+- ticker_analysis: For each mentioned ticker, provide rationale, positioning, risk
+- falsification_tracks: 3-5 specific conditions that would prove the thesis wrong
+
+CRITICAL RULES:
+1. Quotes in episode_evidence MUST be VERBATIM from the extraction's high_value_quotes or companies_and_assets[].key_quotes. Do NOT invent quotes.
+2. Each quote line MUST start with "Speaker Name: " using the speaker's full name.
+3. overview MUST NOT paraphrase the insight card summary - add new substance.
+4. Investment thesis MUST be actionable - what should investors watch or do?
+5. falsification_tracks MUST be testable - include dates, metrics, or conditions.
+6. NEVER use the phrase "Investors should" anywhere in the output. Say what is worth watching, not what investors "should" do.
+
+Return ONLY this JSON:
+{
+  "episode_evidence": ["Speaker Name: Verbatim quote 1", "Speaker Name: Verbatim quote 2", ...],
+  "overview": "What's non-obvious about this episode...",
+  "investment_thesis": "What investors should do or watch...",
+  "ticker_analysis": {
+    "TICK": {
+      "rationale": "Why this ticker matters based on extraction",
+      "positioning": "Buy/Sell/Watch guidance",
+      "risk": "Key risk to the thesis"
+    }
+  },
+  "falsification_tracks": ["Track 1 with date/condition", "Track 2", ...],
+  "contrarian_signals": ["Contrarian signal 1", ...],
+  "catalysts": ["Catalyst 1 with timing", ...]
+}
+"""
+
+
+def _validate_quotes_from_extraction(episode_evidence: List[str], extraction: Dict) -> Tuple[bool, str]:
+    """Validate that all quotes in episode_evidence appear verbatim in the extraction."""
+    all_quotes = set()
+    
+    for q in extraction.get("high_value_quotes", []):
+        if isinstance(q, dict) and q.get("quote"):
+            all_quotes.add(q["quote"].strip().lower())
+    
+    for ca in extraction.get("companies_and_assets", []):
+        if isinstance(ca, dict):
+            for kq in ca.get("key_quotes", []):
+                if isinstance(kq, dict) and kq.get("quote"):
+                    all_quotes.add(kq["quote"].strip().lower())
+    
+    for ev in episode_evidence:
+        quote_part = ev.split(":", 1)[-1].strip() if ":" in ev else ev.strip()
+        quote_lower = quote_part.lower()
+        
+        found = False
+        for stored_quote in all_quotes:
+            if quote_lower in stored_quote or stored_quote in quote_lower:
+                found = True
+                break
+            if SequenceMatcher(None, quote_lower, stored_quote).ratio() > 0.85:
+                found = True
+                break
+        
+        if not found:
+            return False, f"Quote not found in extraction: {quote_part[:60]}..."
+    
+    return True, ""
+
+
+def generate_deep_dive_from_extraction(
+    client,
+    extraction_json: str,
+    insight_summary: str,
+    key_takeaway: str,
+    host_name: Optional[str] = None,
+    guest_names: Optional[List[str]] = None,
+    retry_hint: str = "",
+) -> Tuple[Optional[dict], Optional[str], Optional[dict]]:
+    """Generate deep dive from extraction JSON using gpt-5.4-mini.
+    
+    This is the extraction-mode deep dive generator that never sees the transcript.
+    
+    Returns: (content_dict, error_string, usage_info)
+    """
+    from transcript_window import openai_chat_kwargs
+    
+    try:
+        extraction = json.loads(extraction_json)
+    except (json.JSONDecodeError, TypeError) as e:
+        return None, f"Invalid extraction JSON: {e}", None
+    
+    speaker_block = ""
+    if host_name or guest_names:
+        speakers = []
+        if host_name:
+            speakers.append(f"Host: {host_name}")
+        if guest_names:
+            speakers.append(f"Guests: {', '.join(guest_names)}")
+        speaker_block = f"\n\nKNOWN SPEAKERS:\n{chr(10).join(speakers)}\n"
+    
+    retry_block = ""
+    if retry_hint.strip():
+        retry_block = f"\n\nVALIDATION RETRY — fix the following:\n{retry_hint}\n"
+    
+    prompt = f"""{EXTRACTION_DEEPDIVE_PROMPT}
+{speaker_block}
+Insight Summary (do NOT just paraphrase this):
+{insight_summary}
+
+Key Takeaway:
+{key_takeaway}
+
+Extraction JSON:
+{extraction_json}
+{retry_block}"""
+
+    model = "gpt-5.4-mini"
+    try:
+        print(f"    Extraction-mode deep dive: {model}", flush=True)
+        resp = client.chat.completions.create(
+            model=model,
+            messages=[{"role": "user", "content": prompt}],
+            response_format={"type": "json_object"},
+            **openai_chat_kwargs(model, 6000),
+        )
+        raw = resp.choices[0].message.content
+        if not raw or not str(raw).strip():
+            return None, "Empty response from model", None
+        
+        usage = resp.usage
+        input_tokens = usage.prompt_tokens if usage else 0
+        output_tokens = usage.completion_tokens if usage else 0
+        cost_usd = (input_tokens / 1_000_000 * 0.75) + (output_tokens / 1_000_000 * 4.50)
+        usage_info = {
+            "model": model,
+            "input_tokens": input_tokens,
+            "output_tokens": output_tokens,
+            "cost_usd": cost_usd,
+        }
+        print(f"    Extraction deep dive tokens: {input_tokens:,} in / {output_tokens:,} out, cost=${cost_usd:.4f}", flush=True)
+        
+        parsed = json.loads(raw)
+        
+        episode_evidence = parsed.get("episode_evidence", [])
+        quotes_ok, quote_err = _validate_quotes_from_extraction(episode_evidence, extraction)
+        if not quotes_ok:
+            return None, f"quote_validation: {quote_err}", usage_info
+        
+        return normalize_from_ai_response(parsed), None, usage_info
+        
+    except Exception as e:
+        return None, str(e), None
+
+
 def generate_deep_dive_with_ai(
     clients: List[Tuple[str, Any]],
     title: str,
@@ -726,6 +938,8 @@ def generate_deep_dive_with_ai(
     guest_names: Optional[List[str]] = None,
 ) -> Tuple[Optional[dict], Optional[str], Optional[dict]]:
     """Generate deep dive content using AI (high-ROI: source evidence + falsifiers + anti-paraphrase).
+    
+    This is the LEGACY mode using gpt-5.5 over the transcript window.
     
     Returns: (content_dict, error_string, usage_info)
     usage_info dict has keys: model, input_tokens, output_tokens, cost_usd
@@ -801,25 +1015,23 @@ def store_deep_dive(insight_id: int, episode_id: int, content: dict, usage_info:
         insight_id: ID in latest_insights
         episode_id: ID in podcast_episodes
         content: Deep dive content dict
-        usage_info: Optional dict with model, input_tokens, output_tokens, cost_usd, attempt_count
+        usage_info: Optional dict with model, input_tokens, output_tokens, cost_usd, attempt_count, generation_mode
     """
     conn = get_db_connection()
 
     try:
         ensure_deep_dive_schema(conn)
-        # Sanitize ticker_analysis: drop placeholder keys (TICKER1, Ticker2, etc.)
         raw_tickers = content.get('ticker_analysis') or {}
         ticker_analysis = sanitize_ticker_analysis(raw_tickers)
         if len(ticker_analysis) < len(raw_tickers):
-            # Avoid overwriting with empty if AI returned only placeholders
             content = {**content, 'ticker_analysis': ticker_analysis}
 
-        # Extract usage info
         model_used = usage_info.get("model") if usage_info else None
         input_tokens = usage_info.get("input_tokens") if usage_info else None
         output_tokens = usage_info.get("output_tokens") if usage_info else None
         cost_usd = usage_info.get("cost_usd") if usage_info else None
         attempt_count = usage_info.get("attempt_count") if usage_info else None
+        generation_mode = usage_info.get("generation_mode") if usage_info else None
 
         conn.execute(
             """
@@ -828,8 +1040,8 @@ def store_deep_dive(insight_id: int, episode_id: int, content: dict, usage_info:
                 investment_thesis, ticker_analysis, positioning_guidance,
                 risk_factors, contrarian_signals, catalysts,
                 episode_evidence, falsification_tracks, schema_version, created_at,
-                model_used, input_tokens, output_tokens, cost_usd, attempt_count
-            ) VALUES (?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?)
+                model_used, input_tokens, output_tokens, cost_usd, attempt_count, generation_mode
+            ) VALUES (?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?)
         """,
             (
                 insight_id,
@@ -851,6 +1063,7 @@ def store_deep_dive(insight_id: int, episode_id: int, content: dict, usage_info:
                 output_tokens,
                 cost_usd,
                 attempt_count,
+                generation_mode,
             ),
         )
         # If latest_insights.tickers_mentioned is empty, backfill it from ticker_analysis keys
@@ -926,6 +1139,89 @@ def clean_placeholder_tickers_in_db():
     return updated_ddc + updated_li
 
 
+def run_extraction_deep_dive_attempts(
+    client,
+    extraction_json: str,
+    insight_summary: str,
+    key_takeaway: str,
+    host_name: Optional[str] = None,
+    guest_names: Optional[List[str]] = None,
+) -> Tuple[Optional[Dict[str, Any]], Optional[str], Optional[dict]]:
+    """Generate deep dive from extraction with retries for structural checks.
+    
+    Uses gpt-5.4-mini over extraction JSON only (never sees transcript).
+    
+    Returns: (content_dict, error_string, usage_info)
+    """
+    retry_hint = ""
+    last_error = ""
+    total_input_tokens = 0
+    total_output_tokens = 0
+    total_cost = 0.0
+    model_used = None
+    
+    for attempt in range(1, MAX_GENERATION_ATTEMPTS + 1):
+        content, err, usage_info = generate_deep_dive_from_extraction(
+            client,
+            extraction_json,
+            insight_summary,
+            key_takeaway,
+            host_name=host_name,
+            guest_names=guest_names,
+            retry_hint=retry_hint,
+        )
+        
+        if usage_info:
+            total_input_tokens += usage_info.get("input_tokens", 0)
+            total_output_tokens += usage_info.get("output_tokens", 0)
+            total_cost += usage_info.get("cost_usd", 0.0)
+            model_used = usage_info.get("model")
+        
+        if err:
+            last_error = err
+        if not content:
+            if err and "quote_validation" in err:
+                retry_hint = f"QUOTE VALIDATION FAILED: {err}. Use ONLY verbatim quotes from the extraction."
+                print(f"    ⚠ Attempt {attempt}: {err[:100]}", flush=True)
+                if attempt >= MAX_GENERATION_ATTEMPTS:
+                    final_usage = {"model": model_used, "input_tokens": total_input_tokens, "output_tokens": total_output_tokens, "cost_usd": total_cost, "attempt_count": attempt}
+                    return None, err, final_usage
+                continue
+            final_usage = {"model": model_used, "input_tokens": total_input_tokens, "output_tokens": total_output_tokens, "cost_usd": total_cost, "attempt_count": attempt}
+            return None, err, final_usage
+        
+        evidence = _episode_evidence_text(content.get("episode_evidence"))
+        whats_new = str(content.get("overview") or "")
+        thesis = str(content.get("investment_thesis") or "")
+        
+        ok_struct, struct_reason = deep_dive_structural_ok(content)
+        
+        validation_errors: List[str] = []
+        if not ok_struct:
+            validation_errors.append(f"Structural check failed: {struct_reason}.")
+        
+        overlap = insight_body_overlap_ratio(insight_summary, key_takeaway, content)
+        if overlap > INSIGHT_OVERLAP_REJECT:
+            validation_errors.append(f"Overlap with card too high ({overlap:.2f}).")
+        
+        if validation_errors:
+            retry_hint = " ".join(validation_errors)
+            print(f"    ⚠ Attempt {attempt}: {'; '.join(validation_errors[:2])}", flush=True)
+            if attempt >= MAX_GENERATION_ATTEMPTS:
+                final_usage = {"model": model_used, "input_tokens": total_input_tokens, "output_tokens": total_output_tokens, "cost_usd": total_cost, "attempt_count": attempt}
+                return None, validation_errors[0], final_usage
+            continue
+        
+        if attempt > 1:
+            print(f"    ✓ Passed validation on attempt {attempt}", flush=True)
+        
+        final_usage = {"model": model_used, "input_tokens": total_input_tokens, "output_tokens": total_output_tokens, "cost_usd": total_cost, "attempt_count": attempt}
+        return content, None, final_usage
+    
+    final_usage = {"model": model_used, "input_tokens": total_input_tokens, "output_tokens": total_output_tokens, "cost_usd": total_cost, "attempt_count": MAX_GENERATION_ATTEMPTS}
+    return None, last_error or "generation failed after retries", final_usage
+
+
 def run_deep_dive_generation_attempts(
     clients: List[Tuple[str, Any]],
     insight_id: int,
@@ -937,7 +1233,7 @@ def run_deep_dive_generation_attempts(
     host_name: Optional[str] = None,
     guest_names: Optional[List[str]] = None,
 ) -> Tuple[Optional[Dict[str, Any]], Optional[str], Optional[dict]]:
-    """Generate with retries when overlap or structural checks fail.
+    """Generate with retries when overlap or structural checks fail (LEGACY mode).
     
     Returns: (content_dict, error_string, usage_info)
     usage_info includes total tokens/cost across all attempts and attempt_count.
@@ -1140,17 +1436,80 @@ def generate_missing_deepdives(insight_ids: list = None) -> Tuple[int, int, int]
                 speakers_info.append(f"Guest(s): {', '.join(guest_names)}")
             print(f"    Speakers: {'; '.join(speakers_info)}", flush=True)
 
-        content, err_detail, usage_info = run_deep_dive_generation_attempts(
-            clients,
-            insight_id,
-            title,
-            source_type,
-            episode_id,
-            insight_summary,
-            key_takeaway,
-            host_name=host_name,
-            guest_names=guest_names,
-        )
+        from two_pass_analyzer import get_deepdive_mode
+        deepdive_mode = get_deepdive_mode()
+        generation_mode = deepdive_mode
+        high_profile_reason = None
+        
+        if deepdive_mode == "extraction" and source_type == "podcast" and episode_id:
+            high_profile_config = load_high_profile_config()
+            high_profile_reason = check_high_profile_match(
+                episode_id, insight_id, source_name, title, high_profile_config
+            )
+            if high_profile_reason:
+                print(f"    ⚡ High-profile override: {high_profile_reason} → using legacy", flush=True)
+                deepdive_mode = "legacy"
+                generation_mode = f"legacy:high_profile:{high_profile_reason}"
+        
+        content = None
+        err_detail = None
+        usage_info = None
+        
+        if deepdive_mode == "extraction" and source_type == "podcast" and episode_id:
+            extraction_json = None
+            try:
+                ep_conn = get_db_connection()
+                ep_row = ep_conn.execute(
+                    "SELECT extraction_json FROM podcast_episodes WHERE id = ?",
+                    (episode_id,)
+                ).fetchone()
+                ep_conn.close()
+                if ep_row and ep_row["extraction_json"]:
+                    extraction_json = ep_row["extraction_json"]
+            except Exception as e:
+                print(f"    ⚠ Could not load extraction_json: {e}", flush=True)
+            
+            if extraction_json:
+                print(f"    Mode: extraction (gpt-5.4-mini)", flush=True)
+                generation_mode = "extraction"
+                openai_client = None
+                for client_type, client in clients:
+                    if client_type == "openai":
+                        openai_client = client
+                        break
+                
+                if openai_client:
+                    content, err_detail, usage_info = run_extraction_deep_dive_attempts(
+                        openai_client,
+                        extraction_json,
+                        insight_summary,
+                        key_takeaway,
+                        host_name=host_name,
+                        guest_names=guest_names,
+                    )
+                else:
+                    err_detail = "No OpenAI client available for extraction mode"
+            else:
+                print(f"    ⚠ No extraction_json, falling back to legacy mode", flush=True)
+                deepdive_mode = "legacy"
+                generation_mode = "legacy:no_extraction"
+        
+        if deepdive_mode == "legacy" or content is None and not err_detail:
+            if not generation_mode.startswith("legacy"):
+                generation_mode = "legacy"
+            print(f"    Mode: legacy (gpt-5.5)", flush=True)
+            content, err_detail, usage_info = run_deep_dive_generation_attempts(
+                clients,
+                insight_id,
+                title,
+                source_type,
+                episode_id,
+                insight_summary,
+                key_takeaway,
+                host_name=host_name,
+                guest_names=guest_names,
+            )
+        
         if not content:
             reason = "content_filter" if err_detail and _is_content_filter_error(Exception(err_detail)) else "generation_failed"
             status = record_deep_dive_failure(
@@ -1170,6 +1529,10 @@ def generate_missing_deepdives(insight_ids: list = None) -> Tuple[int, int, int]
 
         if "catalysts" in content and content["catalysts"]:
             content["catalysts"] = filter_stale_catalysts(content["catalysts"], source_date)
+
+        if usage_info is None:
+            usage_info = {}
+        usage_info["generation_mode"] = generation_mode
 
         if store_deep_dive(insight_id, episode_id, content, usage_info=usage_info):
             mark_deep_dive_failure_resolved(conn, insight_id)
@@ -1202,6 +1565,8 @@ if __name__ == "__main__":
         type=str,
         help='Comma-separated insight IDs: delete existing Deep Dive row(s) then regenerate',
     )
+    parser.add_argument('--episode-id', type=int, help='Generate deep dive for a specific episode ID')
+    parser.add_argument('--force-legacy', action='store_true', help='Force legacy gpt-5.5 mode for this run (ignores DEEPDIVE_MODE)')
     parser.add_argument('--fix-placeholder-tickers', action='store_true', help='One-time: remove TICKER1/Ticker2 etc. from existing DB rows')
     args = parser.parse_args()
     
@@ -1209,8 +1574,30 @@ if __name__ == "__main__":
         clean_placeholder_tickers_in_db()
         sys.exit(0)
 
+    if args.force_legacy:
+        os.environ["DEEPDIVE_MODE"] = "legacy"
+        print("Forcing legacy mode (gpt-5.5)", flush=True)
+
     insight_ids = None
-    if args.force_ids:
+    
+    if args.episode_id:
+        conn = get_db_connection()
+        row = conn.execute(
+            "SELECT li.id FROM latest_insights li WHERE li.podcast_episode_id = ?",
+            (args.episode_id,)
+        ).fetchone()
+        conn.close()
+        if not row:
+            print(f"No insight found for episode_id={args.episode_id}", flush=True)
+            sys.exit(1)
+        insight_ids = [row["id"]]
+        print(f"Episode {args.episode_id} → insight {insight_ids[0]}", flush=True)
+        conn = get_db_connection()
+        conn.execute("DELETE FROM deep_dive_content WHERE insight_id = ?", (insight_ids[0],))
+        conn.commit()
+        conn.close()
+        print(f"Removed existing Deep Dive for insight {insight_ids[0]}", flush=True)
+    elif args.force_ids:
         raw = [int(x.strip()) for x in args.force_ids.split(',') if x.strip()]
         if not raw:
             print('No IDs in --force-ids', flush=True)
@@ -1227,8 +1614,6 @@ if __name__ == "__main__":
         insight_ids = [int(x.strip()) for x in args.insight_ids.split(',')]
 
     gen, need, quarantined = generate_missing_deepdives(insight_ids)
-    # Fail only when no AI client was available. Otherwise publish proceeds with
-    # insights that already have Deep Dives; blocked insights stay off main.
     if need > 0 and gen == 0 and quarantined == 0:
         clients = get_ai_clients()
         if not clients:

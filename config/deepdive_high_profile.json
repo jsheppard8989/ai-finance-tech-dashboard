@@ -1,0 +1,7 @@
+{
+  "_comment": "High-profile episodes that should use legacy gpt-5.5 deep dives even when DEEPDIVE_MODE=extraction. Edit this file to flag specific episodes, shows, or guests. Matching is case-insensitive.",
+  "episode_ids": [],
+  "insight_ids": [],
+  "shows": [],
+  "title_keywords": []
+}
