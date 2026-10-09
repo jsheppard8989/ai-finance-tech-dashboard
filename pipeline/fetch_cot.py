@@ -296,6 +296,52 @@ def parse_leveraged_funds_net(section: str) -> Optional[int]:
     return None
 
 
+_SIGNED_NUM_RE = re.compile(r'(?<![\w.])-?\d[\d,]*|(?<=\s)\.(?=\s|$)')
+
+
+def _parse_signed_row(line: str) -> List[int]:
+    """Parse a fixed-width CFTC numeric row with signed values ('.' = 0)."""
+    out: List[int] = []
+    for tok in _SIGNED_NUM_RE.findall(' ' + line + ' '):
+        if tok == '.':
+            out.append(0)
+            continue
+        try:
+            out.append(int(tok.replace(',', '')))
+        except ValueError:
+            continue
+    return out
+
+
+def parse_leveraged_funds_change(section: str) -> Tuple[Optional[str], Optional[int]]:
+    """
+    Parse CFTC's own week-over-week change for Leveraged Funds from the
+    "Changes from: <Month D, YYYY>" row of a contract section.
+
+    Returns (changes_from_date YYYY-MM-DD, lev_long_change - lev_short_change).
+    This is authoritative and does not depend on any local state file.
+    """
+    if not section:
+        return None, None
+    lines = section.split('\n')
+    for i, line in enumerate(lines):
+        m = re.match(r'\s*Changes from:\s*([A-Z][a-z]+\s+\d{1,2},?\s+\d{4})', line)
+        if not m:
+            continue
+        from_date = None
+        try:
+            from_date = datetime.strptime(m.group(1).replace(',', ''), '%B %d %Y').strftime('%Y-%m-%d')
+        except ValueError:
+            pass
+        if i + 1 >= len(lines):
+            return from_date, None
+        nums = _parse_signed_row(lines[i + 1])
+        if len(nums) >= 8:
+            return from_date, nums[6] - nums[7]
+        return from_date, None
+    return None, None
+
+
 def parse_cot_from_html(html: str) -> Dict[str, Dict[str, Any]]:
     """
     Parse COT data from CFTC HTML page (financial_lf.htm format).
@@ -324,11 +370,16 @@ def parse_cot_from_html(html: str) -> Dict[str, Dict[str, Any]]:
         if section:
             net = parse_leveraged_funds_net(section)
             if net is not None:
-                results[contract_id] = {
+                entry = {
                     'contract': contract_id,
                     'leveraged_funds_net': net,
                     'report_date': report_date
                 }
+                from_date, chg = parse_leveraged_funds_change(section)
+                if chg is not None:
+                    entry['cftc_change_1w'] = chg
+                    entry['changes_from_date'] = from_date
+                results[contract_id] = entry
     
     return results
 
@@ -584,6 +635,16 @@ def load_prior_nets() -> Dict[str, Any]:
         return {}
 
 
+_REAL_COT_PRIOR_NETS_FILE = (STATE_DIR / "cot_prior_nets.json").resolve()
+
+
+def _is_real_state_path(path: Path) -> bool:
+    try:
+        return Path(path).resolve() == _REAL_COT_PRIOR_NETS_FILE
+    except Exception:
+        return False
+
+
 def save_prior_nets(
     report_date: str,
     nets: Dict[str, int],
@@ -596,8 +657,14 @@ def save_prior_nets(
     Schema keeps two weeks so same-week re-fetches can still show a real
     prior_week_net / change_1w instead of cloning current → fake Δ=0.
     """
+    import os
+    if os.environ.get("PYTEST_CURRENT_TEST") and _is_real_state_path(COT_PRIOR_NETS_FILE):
+        raise RuntimeError(
+            "Refusing to write real pipeline/state/cot_prior_nets.json from a test; "
+            "monkeypatch fetch_cot.COT_PRIOR_NETS_FILE to a tmp path."
+        )
     try:
-        STATE_DIR.mkdir(parents=True, exist_ok=True)
+        COT_PRIOR_NETS_FILE.parent.mkdir(parents=True, exist_ok=True)
         data = {
             "report_date": report_date,
             "saved_at": datetime.now().isoformat(),
@@ -653,6 +720,16 @@ def _resolve_comparison_prior(
     return None, {}, bool(report_date and not stored_date)
 
 
+def _prior_gap_ok(report_date: Optional[str], prior_date: Optional[str]) -> bool:
+    """True when prior_date is 5-15 days before report_date."""
+    try:
+        r = datetime.strptime(report_date, '%Y-%m-%d')
+        p = datetime.strptime(prior_date, '%Y-%m-%d')
+    except (TypeError, ValueError):
+        return False
+    return 5 <= (r - p).days <= 15
+
+
 def build_cot_result(parsed_data: Dict[str, Dict[str, Any]], report_date: Optional[str]) -> Dict[str, Any]:
     """
     Build the structured COT result for market_data.json.
@@ -671,6 +748,12 @@ def build_cot_result(parsed_data: Dict[str, Dict[str, Any]], report_date: Option
     has_distinct_prior = bool(
         compare_prior_date and report_date and compare_prior_date != report_date
     )
+    # Sanity guard for the state-file fallback: the prior must be 1-2 weeks
+    # before report_date (rejects test fixtures like 2026-09-01 leaking in).
+    state_prior_ok = has_distinct_prior and _prior_gap_ok(report_date, compare_prior_date)
+    if has_distinct_prior and not state_prior_ok:
+        print(f"  ⚠ Ignoring stored prior {compare_prior_date} (not 1-2 weeks before {report_date})")
+    cftc_prior_dates: set = set()
     current_nets = {}
 
     def build_contract_entry(contract_id: str, label: str, contract_code: str) -> Dict[str, Any]:
@@ -683,12 +766,21 @@ def build_cot_result(parsed_data: Dict[str, Dict[str, Any]], report_date: Option
         if lev_net is not None:
             current_nets[contract_id] = lev_net
 
-        prior_net = compare_prior_nets.get(contract_id) if has_distinct_prior else None
-        # Only emit a numeric delta when prior week is a distinct report_date.
-        # Same-week self-compare must not yield change_1w=0.
-        change_1w = (
-            compute_change_1w(lev_net, prior_net) if has_distinct_prior else None
-        )
+        cftc_chg = data.get('cftc_change_1w')
+        if lev_net is not None and cftc_chg is not None:
+            # Authoritative: CFTC's own "Changes from" row (no local state).
+            change_1w = cftc_chg
+            prior_net = lev_net - cftc_chg
+            if data.get('changes_from_date'):
+                cftc_prior_dates.add(data['changes_from_date'])
+        elif state_prior_ok:
+            prior_net = compare_prior_nets.get(contract_id)
+            # Only emit a numeric delta when prior week is a distinct report_date.
+            # Same-week self-compare must not yield change_1w=0.
+            change_1w = compute_change_1w(lev_net, prior_net)
+        else:
+            prior_net = None
+            change_1w = None
 
         return {
             "label": label,
@@ -709,7 +801,8 @@ def build_cot_result(parsed_data: Dict[str, Dict[str, Any]], report_date: Option
         "_fetch_instructions": "CFTC releases COT every Friday at 3:30pm ET for positions as of prior Tuesday.",
         "last_updated": datetime.now().isoformat(),
         "report_date": report_date,
-        "prior_report_date": compare_prior_date if has_distinct_prior else None,
+        "prior_report_date": None,  # filled below
+        "change_source": None,
         "rates_positioning": {
             "10y_note": build_contract_entry("10y_note", "10-Year T-Note Futures", "TY"),
             "2y_note": build_contract_entry("2y_note", "2-Year T-Note Futures", "TU"),
@@ -728,6 +821,13 @@ def build_cot_result(parsed_data: Dict[str, Dict[str, Any]], report_date: Option
             "crowded_trades": []
         }
     }
+
+    if cftc_prior_dates:
+        result["prior_report_date"] = sorted(cftc_prior_dates)[-1]
+        result["change_source"] = "cftc_changes_row"
+    elif state_prior_ok:
+        result["prior_report_date"] = compare_prior_date
+        result["change_source"] = "state_prior_nets"
 
     if report_date and current_nets:
         if advancing_week:
