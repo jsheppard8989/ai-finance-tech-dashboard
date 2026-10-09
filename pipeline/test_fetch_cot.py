@@ -29,7 +29,17 @@ from fetch_cot import (
     CONTRACT_PATTERNS,
     MARKET_DATA_FILE,
     COT_PRIOR_NETS_FILE,
+    parse_leveraged_funds_change,
+    parse_cot_from_html,
 )
+import fetch_cot as _fetch_cot
+
+# Script-mode isolation (python test_fetch_cot.py): never touch real state.
+# Under pytest, conftest.py additionally redirects per test via monkeypatch.
+_SCRIPT_TMP = tempfile.mkdtemp(prefix="test_fetch_cot_")
+_fetch_cot.STATE_DIR = Path(_SCRIPT_TMP)
+_fetch_cot.COT_PRIOR_NETS_FILE = Path(_SCRIPT_TMP) / "cot_prior_nets.json"
+_fetch_cot.MARKET_DATA_FILE = Path(_SCRIPT_TMP) / "market_data.json"
 
 
 # Sample CFTC disaggregated data (simplified header + rows)
@@ -679,6 +689,69 @@ class TestCurlPreference:
         assert 'SSL' in docstring, "Docstring should mention SSL certificates"
 
 
+SAMPLE_TFF_SECTION = """UST 10Y NOTE - CHICAGO BOARD OF TRADE   (CONTRACTS OF $100,000 FACE VALUE)
+CFTC Code #043602                                                    Open Interest is 5,676,556
+Positions
+    92,958    829,543     14,784  3,506,513    729,982    723,861    510,579  2,547,011    119,447    262,889    315,176         75    445,450    396,677
+ 
+Changes from:       September 22, 2026                               Total Change is:   268,830
+   -37,606    118,305     -7,203    187,929    -57,218      5,661     42,010    151,495    -25,720     40,407     83,214          0     63,352        296
+ 
+Percent of Open Interest Represented by Each Category of Trader
+"""
+
+SAMPLE_TFF_PAGE = (
+    "Traders in Financial Futures - Futures Only Positions as of September 29, 2026\n"
+    + SAMPLE_TFF_SECTION
+)
+
+
+class TestCftcChangesRow:
+    """change_1w comes from CFTC's own 'Changes from' row, not local state."""
+
+    def test_parse_changes_row(self):
+        d, chg = parse_leveraged_funds_change(SAMPLE_TFF_SECTION)
+        assert d == '2026-09-22'
+        assert chg == 42010 - 151495  # -109,485
+
+    def test_parse_changes_row_dot_is_zero(self):
+        sec = ("X\nPositions\n 1 2 3 4 5 6 7 8\n\nChanges from:  October 6, 2026  Total\n"
+               "   -5  .  0  1  2  3  -10  .  4\n")
+        d, chg = parse_leveraged_funds_change(sec)
+        assert d == '2026-10-06'
+        assert chg == -10
+
+    def test_html_parse_carries_cftc_change(self):
+        r = parse_cot_from_html(SAMPLE_TFF_PAGE)
+        ty = r['10y_note']
+        assert ty['leveraged_funds_net'] == 510579 - 2547011
+        assert ty['cftc_change_1w'] == -109485
+        assert ty['changes_from_date'] == '2026-09-22'
+
+    def test_build_result_ignores_poisoned_state(self):
+        """A fixture-poisoned state file must not affect change_1w."""
+        save_prior_nets('2026-09-01', {'10y_note': 100000, 'cme_nq': -30000})
+        parsed = parse_cot_from_html(SAMPLE_TFF_PAGE)
+        result = build_cot_result(parsed, '2026-09-29')
+        ty = result['rates_positioning']['10y_note']
+        assert ty['change_1w'] == -109485
+        assert ty['prior_week_net'] == -2036432 + 109485
+        assert result['prior_report_date'] == '2026-09-22'
+        assert result['change_source'] == 'cftc_changes_row'
+
+    def test_state_fallback_rejects_stale_prior(self):
+        """Without a CFTC changes row, a prior 4 weeks old is rejected."""
+        save_prior_nets('2026-09-01', {'10y_note': 100000})
+        result = build_cot_result({'10y_note': {'leveraged_funds_net': -2036432}}, '2026-09-29')
+        assert result['rates_positioning']['10y_note']['change_1w'] is None
+        assert result['prior_report_date'] is None
+
+    def test_state_file_is_tmp(self):
+        """Tests must never point at the real pipeline/state file."""
+        import fetch_cot
+        assert not fetch_cot._is_real_state_path(fetch_cot.COT_PRIOR_NETS_FILE)
+
+
 def run_tests():
     """Run all tests and report results."""
     import traceback
@@ -696,6 +769,7 @@ def run_tests():
         TestStaleDataPreservation,
         TestFailClosedBehavior,
         TestCurlPreference,
+        TestCftcChangesRow,
     ]
     
     total = 0
