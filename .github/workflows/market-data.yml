@@ -77,7 +77,7 @@ jobs:
           ts=$(date +%Y-%m-%d-%H%M)
           branch="data/market-data-${ts}"
           git checkout -b "$branch"
-          git add site/data/market_data.json
+          git add -u -- site/data/market_data.json  # site/data is gitignored; file is tracked
           git commit -m "Market data refresh ${ts} CT (Actions: GPU, Curve, COT, Treasury)"
           git push origin "$branch"
           url=$(gh pr create --base main --head "$branch" \
