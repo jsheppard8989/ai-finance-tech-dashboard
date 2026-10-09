@@ -578,3 +578,17 @@ def run_tests():
 
 if __name__ == "__main__":
     exit(run_tests())
+
+
+def test_move_prev_close_uses_prior_daily_bar():
+    """MOVE change_1d must come from the prior daily close, not meta.previousClose (null)."""
+    from fetch_curve import move_prev_close
+    result = {
+        "meta": {"regularMarketPrice": 99.3858, "previousClose": None,
+                 "chartPreviousClose": 107.29, "regularMarketTime": 1791568050},
+        "timestamp": [1791379800, 1791466200, 1791552600],
+        "indicators": {"quote": [{"close": [102.56, 100.70, 99.3858]}]},
+    }
+    prev, as_of = move_prev_close(result)
+    assert prev == 100.70
+    assert as_of == "2026-10-09"
