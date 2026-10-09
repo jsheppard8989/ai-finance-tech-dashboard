@@ -1,5 +1,27 @@
 [
   {
+    "id": 566,
+    "podcast_name": "The a16z Show",
+    "episode_title": "Chips, Memory, and Power | Pat Gelsinger",
+    "episode_date": "2026-10-09",
+    "summary": "Pat Gelsinger argues that AI is rapidly compressing logic-design timelines, but the real bottlenecks are shifting downstream into manufacturing, advanced packaging, rack-scale integration, memory bandwidth, and power/thermal delivery. He says chip design can now be done in about 3 months, while getting to real silicon at scale still takes about 9 months, so the acceleration in design does not eliminate long deployment cycles.\n\nHe is especially negative on current memory technology, calling HBM \"a hideous memory\" and arguing that AI is fundamentally a memory-compute workload. He says DRAM and HBM face thermal, power, density, and bandwidth limits, and that memory innovation may finally reappear after roughly 30 years because AI demand justifies the R&D and capital needed to break through.\n\nOn infrastructure, he warns that power capacity is becoming a hard ceiling on AI buildouts. He cites guard-banding consuming about 40% of the power envelope, says U.S. energy growth has been slow, and expects more data-center financing/default risk as capital commitments outpace actual power availability. He also points to optical networking as the next wave for AI traffic, with optical conversion likely around 2028-2029, and argues that full compute-memory optical replacement is not the right near-term path.\n\nFinally, he argues that virtualization needs to be rebuilt for an agent-first world. In his view, VMs and orchestration tools must evolve around security, governance, performance management, and mobility for AI agents rather than human users, creating a new platform layer beyond the legacy virtualization stack.",
+    "key_takeaways": [
+      "Pat Gelsinger said AI tools can cut chip design to about 3 months, but getting real silicon at scale still takes about 9 months.",
+      "Gelsinger argued the main bottlenecks are moving from design into manufacturing, packaging, memory, and power/thermal constraints.",
+      "He called HBM \"a hideous memory\" and said AI is a memory-compute workload, making memory bandwidth a persistent limit.",
+      "He said he is \"essentially guard banding almost my full power envelope\" and losing about 40% of power to guard-banding.",
+      "Gelsinger predicted memory innovation may be arriving after roughly 30 years without major new progress.",
+      "He said optical networking should expand with AI traffic, but he does not favor more optical conversion in the core compute-memory path.",
+      "He argued virtualization must be redesigned for agents, asking who will manage agent security profiles and performance."
+    ],
+    "investment_thesis": "AI infrastructure bottlenecks are shifting from chip design to memory, packaging, power, and optics, creating new investment opportunities in those layers.",
+    "key_tickers": [
+      "INTC",
+      "NVDA",
+      "ORCL"
+    ]
+  },
+  {
     "id": 565,
     "podcast_name": "Macro Voices",
     "episode_title": "MacroVoices #553 Brent Johnson: Disparate Housewives",
