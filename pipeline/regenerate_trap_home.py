@@ -160,9 +160,9 @@ def regenerate_trap_home(trap_map_path: Path = TRAP_MAP_PATH) -> dict:
         watch = _extract_upcoming_watch(trap)
         if watch:
             if watch["trap_id"] == "buyback-confession-captive-duration":
-                watch["date_label"] = "2026-10-07"
-                watch["what"] = "Oct 7 10-year and Oct 8 30-year auctions."
-                watch["_sort_key"] = (2026, 10, 7)
+                watch["date_label"] = "2026-11-04"
+                watch["what"] = "Nov 4 refunding."
+                watch["_sort_key"] = (2026, 11, 4)
             upcoming_raw.append(watch)
     
     upcoming_raw.sort(key=lambda w: w["_sort_key"])
