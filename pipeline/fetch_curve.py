@@ -314,6 +314,26 @@ def try_fred_enrichment() -> Optional[Dict[str, Any]]:
     return None
 
 
+def move_prev_close(result: Dict[str, Any]) -> Tuple[Optional[float], Optional[str]]:
+    """Return (previous daily close, as_of YYYY-MM-DD of the current quote)."""
+    meta = result.get('meta') or {}
+    ts = result.get('timestamp') or []
+    closes = ((result.get('indicators') or {}).get('quote') or [{}])[0].get('close') or []
+    mt = meta.get('regularMarketTime')
+    cur_day = datetime.utcfromtimestamp(mt).date() if mt else None
+    prev = None
+    for t, c in zip(ts, closes):
+        if c is None:
+            continue
+        d = datetime.utcfromtimestamp(t).date()
+        if cur_day is None or d < cur_day:
+            prev = float(c)
+    if prev is None:
+        pc = meta.get('previousClose') or meta.get('chartPreviousClose')
+        prev = float(pc) if pc else None
+    return prev, cur_day.isoformat() if cur_day else None
+
+
 def fetch_move_index() -> Tuple[Optional[Dict[str, Any]], str]:
     """
     Fetch MOVE index from Yahoo Finance.
@@ -341,8 +361,10 @@ def fetch_move_index() -> Tuple[Optional[Dict[str, Any]], str]:
         if current is None:
             return None, "No price data in Yahoo response for ^MOVE"
         
-        # Get previous close for 1-day change
-        prev_close = meta.get('previousClose', current)
+        # Previous close for 1-day change. Yahoo's chart meta.previousClose is
+        # usually null for ^MOVE (old code defaulted it to current -> 0.0), so
+        # take the last daily close dated before the current quote's date.
+        prev_close, as_of = move_prev_close(result)
         change_1d = round(current - prev_close, 2) if prev_close else None
         
         # Determine signal based on thresholds
@@ -364,9 +386,11 @@ def fetch_move_index() -> Tuple[Optional[Dict[str, Any]], str]:
             'signal': signal,
             'source': 'Yahoo Finance',
             'yahoo_symbol': YAHOO_MOVE_SYMBOL,
+            'as_of': as_of,
+            'prev_close': round(prev_close, 2) if prev_close else None,
         }
         
-        print(f"  ✓ MOVE index: {current:.2f} ({change_1d:+.2f} 1d)")
+        print(f"  ✓ MOVE index: {current:.2f} ({(change_1d or 0):+.2f} 1d)")
         return move_data, ""
         
     except Exception as e:
@@ -454,6 +478,7 @@ def fetch_and_build_curve_data() -> Tuple[Optional[Dict[str, Any]], str]:
             'description': 'Treasury implied volatility index. High readings = bond market stress/uncertainty.',
             'value': move_data.get('value') if move_data else None,
             'change_1d': move_data.get('change_1d') if move_data else None,
+            'as_of': move_data.get('as_of') if move_data else None,
             'signal': move_data.get('signal') if move_data else None,
             'yahoo_symbol': YAHOO_MOVE_SYMBOL,
             'source': 'Yahoo Finance',

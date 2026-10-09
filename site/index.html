@@ -2914,6 +2914,30 @@
       }
     }
 
+    // Staleness helpers for market plumbing cards (dates are YYYY-MM-DD, CT).
+    function _mdTodayISO() {
+      const p = new Intl.DateTimeFormat('en-CA', { timeZone: 'America/Chicago', year: 'numeric', month: '2-digit', day: '2-digit' }).formatToParts(new Date());
+      const g = function(t) { return p.find(function(x) { return x.type === t; }).value; };
+      return g('year') + '-' + g('month') + '-' + g('day');
+    }
+    function _mdDaysBetween(a, b) {
+      return Math.round((new Date(b + 'T12:00:00Z') - new Date(a + 'T12:00:00Z')) / 86400000);
+    }
+    function _mdBusinessDaysBetween(a, b) {
+      let n = 0;
+      const d = new Date(a + 'T12:00:00Z');
+      const end = new Date(b + 'T12:00:00Z');
+      while (d < end) {
+        d.setUTCDate(d.getUTCDate() + 1);
+        const wd = d.getUTCDay();
+        if (wd !== 0 && wd !== 6) n++;
+      }
+      return n;
+    }
+    function _mdStaleBadge(reason) {
+      return '<span class="md-stale-badge" style="color: #f59e0b; margin-left: 0.5rem; font-size: 0.62rem;" title="' + reason + '">⚠ stale</span>';
+    }
+
     // Load market plumbing widgets (Treasury, Curve, COT)
     async function loadMarketWidgets() {
       try {
@@ -2939,7 +2963,11 @@
               html += '<div style="font-size: 0.72rem; margin-bottom: 0.25rem; padding: 0.25rem 0; border-bottom: 1px solid rgba(0,212,255,0.15);">';
               html += '<div style="color: #10b981; font-weight: 500;">' + r.date + ': ' + shortSec + ' <span style="color: #6b7280; font-weight: 400;">RESULTS</span></div>';
               html += '<div style="color: #a8b2d1; font-size: 0.68rem; margin-top: 0.1rem;">';
-              html += '<span class="plumbing-num">' + r.high_yield_pct + '%</span> stop · ';
+              if (r.high_yield_pct != null) {
+                html += '<span class="plumbing-num">' + Number(r.high_yield_pct).toFixed(3) + '%</span> stop · ';
+              } else if (r.high_discount_margin_pct != null) {
+                html += 'DM <span class="plumbing-num">' + Number(r.high_discount_margin_pct).toFixed(3) + '%</span> · ';
+              }
               html += 'BTC <span class="plumbing-num">' + r.bid_to_cover + '</span> · ';
               html += '<span class="plumbing-num">' + r.allocation_at_high_pct + '%</span> alloc';
               html += '</div>';
@@ -2964,6 +2992,20 @@
             html += auctionLines;
           }
           
+          // Stale if any shown upcoming auction / QRA date has already passed,
+          // or the calendar hasn't been refreshed in 7+ days.
+          const todayIso = _mdTodayISO();
+          const pastUpcoming = auctions.slice(0, 3).some(function(a) { return a.date && a.date < todayIso; });
+          const pastQra = qra && qra.date && qra.date < todayIso;
+          const tcUpdated = (tc.last_updated || '').slice(0, 10);
+          const tcOld = tcUpdated && _mdDaysBetween(tcUpdated, todayIso) > 7;
+          if (tc._stale || pastUpcoming || pastQra || tcOld) {
+            const why = tc._stale ? (tc._stale_reason || 'fetch failed') :
+              (pastUpcoming || pastQra) ? 'Shows an auction/QRA date that has already passed' :
+              'Calendar last updated ' + tcUpdated;
+            html += '<div style="font-size: 0.62rem;">' + _mdStaleBadge(why).replace('margin-left: 0.5rem; ', '') + '</div>';
+          }
+
           if (html) {
             treasuryEl.innerHTML = html;
           }
@@ -3069,7 +3111,9 @@
               if (asOfDate) {
                 const d = new Date(asOfDate + 'T12:00:00');
                 const formatted = d.toLocaleDateString('en-US', { month: 'short', day: 'numeric', year: 'numeric' });
-                curveAsOfEl.textContent = 'As of ' + formatted;
+                const bd = _mdBusinessDaysBetween(asOfDate, _mdTodayISO());
+                curveAsOfEl.innerHTML = 'As of ' + formatted +
+                  ((bd > 2 || data.curve_data._stale) ? _mdStaleBadge('Curve as-of ' + asOfDate + ' is ' + bd + ' business days old') : '');
               }
             }
           } else {
@@ -3166,8 +3210,11 @@
           if (reportDate) {
             dateHtml += 'As of ' + reportDate;
           }
+          const cotAge = cot.report_date ? _mdDaysBetween(cot.report_date, _mdTodayISO()) : null;
           if (isStale) {
             dateHtml += '<span style="color: #f59e0b; margin-left: 0.5rem;" title="' + (cot._stale_reason || 'Data may be stale') + '">⚠️ stale</span>';
+          } else if (cotAge != null && cotAge > 10) {
+            dateHtml += _mdStaleBadge('COT report ' + cot.report_date + ' is ' + cotAge + ' days old');
           }
           html += '<div style="color: #6b7280; font-size: 0.65rem;">' + dateHtml + '</div>';
           

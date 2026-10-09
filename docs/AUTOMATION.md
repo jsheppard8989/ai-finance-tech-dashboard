@@ -238,3 +238,24 @@ The worker reads `$WORKSPACE_ROOT/whisper_queue/`, writes `$WORKSPACE_ROOT/whisp
 | Wrong env in launchd | **EnvironmentVariables** (PATH, HOME) set in the schedule plist. |
 
 The pipeline still runs **on this Mac**. If the Mac is off or never wakes, nothing runs. For “runs even when the Mac is off,” you’d need the pipeline (or a trigger) on another always-on machine or in the cloud (e.g. GitHub Actions, VPS); that’s a larger change.
+
+## Market data cards (GitHub Actions, since 2026-10-09)
+
+Compute Forward, Curve Snapshot, COT and the Treasury calendar are refreshed by
+`.github/workflows/market-data.yml` ("Market Data Refresh"), not the Mac:
+`fetch_gpu_index.py`, `fetch_curve.py`, `fetch_cot.py`, `fetch_treasury_calendar.py`
+(all public sources, no secrets). Schedule (CT): weekdays ~07:15, ~12:30,
+~22:45, plus Friday ~14:45 for the CFTC COT release (14:30 CT). Each run commits
+`site/data/market_data.json` through a `data/market-data-*` PR, merges it, and
+dispatches `deploy.yml`.
+
+The Mac's `auto_pipeline.py` skips these four fetchers and restores
+`site/data/market_data.json` to HEAD before publishing, so the two writers never
+fight. To run them locally (e.g. Actions outage) set `MARKET_DATA_FETCH_LOCAL=1`.
+
+Requires repo setting: Actions → General → "Allow GitHub Actions to create and
+approve pull requests" (main's ruleset requires a PR, 0 approvals).
+
+COT weekly change comes from CFTC's own "Changes from" row, not
+`pipeline/state/cot_prior_nets.json`. Tests are isolated to tmp paths by
+`pipeline/conftest.py`.

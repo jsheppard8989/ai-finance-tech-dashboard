@@ -1,0 +1,89 @@
+name: Market Data Refresh
+
+# Refreshes the four public-source cards in site/data/market_data.json:
+#   Compute Forward (fetch_gpu_index.py), Curve Snapshot (fetch_curve.py),
+#   COT (fetch_cot.py), Treasury calendar (fetch_treasury_calendar.py).
+# No secrets: all sources are public. Replaces the Mac launchd path for these
+# four (auto_pipeline.py skips them unless MARKET_DATA_FETCH_LOCAL=1).
+#
+# Cron is UTC. Paired entries cover CDT (UTC-5) and CST (UTC-6).
+on:
+  schedule:
+    - cron: "15 12 * * 1-5"   # ~07:15 CDT / 06:15 CST  morning
+    - cron: "15 13 * * 1-5"   # ~07:15 CST (winter)
+    - cron: "30 17 * * 1-5"   # ~12:30 CDT midday
+    - cron: "45 19 * * 5"     # Fri ~14:45 CDT: COT (CFTC posts 14:30 CT)
+    - cron: "45 20 * * 5"     # Fri ~14:45 CST / 15:45 CDT retry
+    - cron: "45 3 * * 2-6"    # ~22:45 CDT / 21:45 CST evening (Treasury curve posted)
+  workflow_dispatch:
+
+permissions:
+  contents: write
+  pull-requests: write
+  actions: write
+
+concurrency:
+  group: market-data
+  cancel-in-progress: false
+
+jobs:
+  refresh:
+    runs-on: ubuntu-latest
+    timeout-minutes: 15
+    env:
+      TZ: America/Chicago
+      PYTHONUNBUFFERED: "1"
+      GH_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+    steps:
+      - uses: actions/checkout@v4
+        with:
+          ref: main
+
+      - uses: actions/setup-python@v5
+        with:
+          python-version: "3.11"
+
+      - name: Fetch Compute Forward (GPU index)
+        working-directory: pipeline
+        continue-on-error: true
+        run: python fetch_gpu_index.py
+
+      - name: Fetch Curve (Treasury par curve + MOVE)
+        working-directory: pipeline
+        continue-on-error: true
+        run: python fetch_curve.py
+
+      - name: Fetch COT (CFTC TFF)
+        working-directory: pipeline
+        continue-on-error: true
+        run: python fetch_cot.py
+
+      - name: Fetch Treasury calendar (TreasuryDirect)
+        working-directory: pipeline
+        continue-on-error: true
+        run: python fetch_treasury_calendar.py
+
+      - name: Validate market_data.json
+        run: python -c "import json; json.load(open('site/data/market_data.json'))"
+
+      - name: Commit via PR, merge, trigger Pages
+        run: |
+          set -euo pipefail
+          if git diff --quiet -- site/data/market_data.json; then
+            echo "No market data change."; exit 0
+          fi
+          git config user.name "github-actions[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          ts=$(date +%Y-%m-%d-%H%M)
+          branch="data/market-data-${ts}"
+          git checkout -b "$branch"
+          git add site/data/market_data.json
+          git commit -m "Market data refresh ${ts} CT (Actions: GPU, Curve, COT, Treasury)"
+          git push origin "$branch"
+          url=$(gh pr create --base main --head "$branch" \
+            --title "Market data refresh ${ts} CT" \
+            --body "Automated by .github/workflows/market-data.yml (run ${GITHUB_RUN_ID}).")
+          gh pr merge "$url" --merge --delete-branch
+          # Merges made with GITHUB_TOKEN don't fire push workflows; dispatch Pages.
+          gh workflow run deploy.yml --ref main
+          echo "Merged $url and dispatched deploy.yml"
