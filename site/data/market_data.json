@@ -7,7 +7,7 @@
     "_comment": "Treasury coupon auction calendar + recent results. Source: TreasuryDirect TA_WS (fetch_treasury_calendar.py). Bills excluded.",
     "_fetch_url": "https://www.treasurydirect.gov/TA_WS/securities/upcoming?format=json",
     "_results_url": "https://www.treasurydirect.gov/TA_WS/securities/auctioned?format=json&days=45",
-    "last_updated": "2026-10-09T18:30:08",
+    "last_updated": "2026-10-09T19:19:15",
     "as_of_date": "2026-10-09",
     "next_refunding_announcement": {
       "date": "2026-11-04",
@@ -256,7 +256,7 @@
     "_primary_source": "Treasury.gov",
     "_source_url": "https://home.treasury.gov/resource-center/data-chart-center/interest-rates/TextView?type=daily_treasury_yield_curve",
     "_fred_status": "unavailable (optional)",
-    "last_updated": "2026-10-09T18:30:07.786707",
+    "last_updated": "2026-10-09T19:19:14.242872",
     "as_of_date": "2026-10-09",
     "spreads": {
       "2s10s": {
@@ -316,7 +316,7 @@
     "_fetch_url": "https://www.cftc.gov/dea/futures/financial_lf.htm",
     "_api_alternative": "Quandl CFTC dataset (may need key)",
     "_fetch_instructions": "CFTC releases COT every Friday at 3:30pm ET for positions as of prior Tuesday.",
-    "last_updated": "2026-10-09T18:30:08.026721",
+    "last_updated": "2026-10-09T19:19:14.588815",
     "report_date": "2026-10-06",
     "prior_report_date": "2026-09-29",
     "change_source": "cftc_changes_row",
@@ -406,7 +406,7 @@
     "_source_url": "https://gpu-index.semianalysis.com/",
     "_api_url": "https://gpu-index.semianalysis.com/api/public-data",
     "_data_type": "api_index",
-    "last_fetched": "2026-10-09T18:29:51.984924",
+    "last_fetched": "2026-10-09T19:18:58.277724",
     "h100": {
       "daily_date": "Oct 09, 2026",
       "daily_date_iso": "2026-10-09",
@@ -506,9 +506,9 @@
     "b200": {
       "daily_date": "Oct 09, 2026",
       "composite_index": {
-        "display": "$6.46",
+        "display": "$6.48",
         "type": "single",
-        "value": 6.46
+        "value": 6.48
       }
     },
     "history_summary": {
