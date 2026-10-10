@@ -26,12 +26,15 @@ from __future__ import annotations
 import json
 import logging
 import os
+import platform
 import time
+import traceback
 from datetime import date, datetime, timedelta
 from pathlib import Path
 from typing import Callable, Dict, List, Optional, Tuple
 
 from dragonfly import market_calendar as mc
+from dragonfly.engine import ENGINE_VERSION
 from dragonfly.engine import core, measure
 from dragonfly.engine.core import (
     DRAFT_SUFFIX,
@@ -49,6 +52,10 @@ log = logging.getLogger("dragonfly.engine")
 
 UNIDENTIFIED_DIR = "unidentified"
 DONE_NAME = "DONE"
+SLEEP_CHUNK_SECONDS = 15.0
+STARTED_NAME = "ENGINE_STARTED"
+ERROR_NAME = "ENGINE_ERROR"
+TRACEBACK_TAIL_LINES = 40
 
 
 def _atomic_write(path: Path, text: str) -> None:
@@ -98,6 +105,9 @@ class Engine:
         self.inbox_dir = self.repo_path / self.inbox_rel
         self.cards_dir = self.repo_path / self.cards_rel
         self.done_path = self.cards_dir / DONE_NAME
+        self.started_path = self.cards_dir / STARTED_NAME
+        self.error_path = self.cards_dir / ERROR_NAME
+        self._errors = 0
         # Separate local state per root pair, so a dry run for a date never
         # leaks first-seen times into the real run for that date.
         suffix = "" if self.handoff_root == core.DEFAULT_HANDOFF_ROOT else f".{self.handoff_root}"
@@ -161,14 +171,32 @@ class Engine:
         st = self._load_state()
         st.setdefault("redteam", {})
         drafts: List[Tuple[str, bytes]] = []
+        st.setdefault("skipped", {})
+        seen_files: List[str] = []
         if self.inbox_dir.is_dir():
-            for path in sorted(self.inbox_dir.glob(f"*{DRAFT_SUFFIX}")):
-                if path.is_file():
-                    drafts.append((path.name, path.read_bytes()))
-            for path in sorted(self.inbox_dir.glob(f"*{core.REDTEAM_SUFFIX}")):
-                if path.is_file() and path.name not in st["redteam"]:
+            for path in sorted(self.inbox_dir.iterdir()):
+                if not path.is_file():
+                    continue
+                data = path.read_bytes()
+                kind, why = core.classify_inbox_file(path.name, data)
+                seen_files.append(f"{path.name}:{kind}")
+                if kind == "draft":
+                    drafts.append((path.name, data))
+                elif kind == "redteam" and path.name not in st["redteam"]:
                     st["redteam"][path.name] = {"first_seen_at": iso(tick), "first_valid_at": None}
                     log.info("red team file first seen: %s/%s at %s", self.inbox_rel, path.name, iso(tick))
+                elif kind == "skipped":
+                    rec = st["skipped"].get(path.name)
+                    if rec is None or rec.get("sha256") != core.sha256_bytes(data):
+                        log.warning("inbox file %s/%s looks like a draft but is SKIPPED: %s",
+                                    self.inbox_rel, path.name, why)
+                        st["skipped"][path.name] = {"reason": why, "sha256": core.sha256_bytes(data),
+                                                    "first_seen_at": iso(tick)}
+        else:
+            log.warning("inbox folder %s does not exist yet", self.inbox_rel)
+        if seen_files != st.get("last_inbox_listing"):
+            log.info("inbox %s: %s", self.inbox_rel, ", ".join(seen_files) or "(empty)")
+            st["last_inbox_listing"] = seen_files
         for name, data in drafts:
             if name not in st["drafts"]:
                 st["drafts"][name] = {"first_seen_at": iso(tick), "sha256": core.sha256_bytes(data), "logged_sha": []}
@@ -206,7 +234,8 @@ class Engine:
             existing[key] = card
             by_file[draft_file] = key
             result["written"].append(key)
-            log.info("carded %s: %s %s", key, card["engine"]["outcome"], card["engine"]["reasons"])
+            lvl = logging.INFO if card["engine"]["outcome"] == OUTCOME_SIZED else logging.WARNING
+            log.log(lvl, "carded %s: %s %s", key, card["engine"]["outcome"], card["engine"]["reasons"])
 
         self._save_state(st)
 
@@ -214,8 +243,15 @@ class Engine:
         result["done"] = done
 
         if self.git is not None and self.push and (result["written"] or done):
+            self._touch_heartbeat(tick)
             msg = self._commit_message(result["written"], done)
-            self.git.commit_and_push([self.cards_rel], msg, push=True)
+            paths = [self.cards_rel]
+            if done and self.inbox_dir.is_dir():
+                # Audit trail: the DONE commit carries the inbox for this date and
+                # root (drafts, red team, market read, regime), so agents need no git.
+                paths.append(self.inbox_rel)
+                msg += f"; inbox {self.inbox_rel}"
+            self.git.commit_and_push(paths, msg, push=True)
             result["pushed"] = True
         elif self.git is not None and self.push and self.git.ahead():
             self.git.push()
@@ -284,7 +320,7 @@ class Engine:
         now = self.now_fn()
         common = dict(session_date=self.session_date, draft_file=draft_file, draft_sha=sha,
                       first_seen=first_seen, clock=self.clock)
-        stem = name[: -len(DRAFT_SUFFIX)]
+        stem = core.draft_stem(name)
         ticker = draft.get("ticker") if isinstance(draft, dict) else None
 
         if trade_id is not None and trade_id in existing:
@@ -400,7 +436,7 @@ class Engine:
             and not self.clock.is_late(parse_iso(rec["first_seen_at"]))
         )
         trade_ids = {k: [x for x in v if not x.startswith(UNIDENTIFIED_DIR + "/")] for k, v in ids.items()}
-        return {
+        doc = {
             "schema_version": "1.0.0",
             "marker": "DONE",
             "session_date": self.session_date.isoformat(),
@@ -417,7 +453,28 @@ class Engine:
             "trade_ids": trade_ids,
             "unidentified": unidentified,
             "withdrawn": withdrawn,
+            "skipped_files": [{"file": f"{self.inbox_rel}/{n}", "reason": r["reason"]}
+                              for n, r in sorted(st.get("skipped", {}).items())
+                              if (self.inbox_dir / n).exists()],
         }
+        quotes = self._quote_counts()
+        if quotes is not None:
+            doc["quotes"] = quotes
+        return doc
+
+    def _quote_counts(self) -> Optional[dict]:
+        """Real vs modeled quote counts for the report: the pre-open's quotes.json
+        (counts.quotes), else prep.json (quotes). Informational; never blocks DONE."""
+        handoff_dir = self.cards_dir.parent
+        for name, pick in (("quotes.json", lambda d: (d.get("counts") or {}).get("quotes")),
+                           ("prep.json", lambda d: d.get("quotes"))):
+            try:
+                got = pick(json.loads((handoff_dir / name).read_text(encoding="utf-8")))
+            except (OSError, ValueError, AttributeError):
+                continue
+            if isinstance(got, dict):
+                return dict(got, source=f"{self.handoff_root}/{self.session_date.isoformat()}/{name}")
+        return None
 
     def _maybe_done(self, tick, st, existing, drafts, pending) -> Optional[dict]:
         if not (self.clock.past_cutoff(tick) or self.finalize):
@@ -438,7 +495,7 @@ class Engine:
                 prior = json.loads(self.done_path.read_text(encoding="utf-8"))
             except (OSError, ValueError):
                 prior = None
-        core_keys = ("counts", "trade_ids", "unidentified", "withdrawn")
+        core_keys = ("counts", "trade_ids", "unidentified", "withdrawn", "skipped_files")
         if prior and all(prior.get(k) == doc[k] for k in core_keys):
             return None
         if prior:
@@ -447,7 +504,31 @@ class Engine:
                 doc["finalized_by"] = "cutoff"
         _atomic_write(self.done_path, core.dumps(doc))
         log.info("DONE r%d: %s", doc["revision"], doc["counts"])
+        self._regen_cockpit()
+        if doc["skipped_files"]:
+            log.warning("DONE r%d lists %d SKIPPED inbox file(s): %s", doc["revision"], len(doc["skipped_files"]),
+                        doc["skipped_files"])
+        if doc["counts"]["drafts"] == 0:
+            log.warning("DONE r%d with ZERO drafts carded (inbox %s)", doc["revision"], self.inbox_rel)
         return doc
+
+    def _regen_cockpit(self) -> None:
+        """Rebuild the local cockpit after DONE. Non-fatal by construction: any
+        failure is a WARNING and never changes the engine's exit code or pushes.
+        Off with DRAGONFLY_COCKPIT=0. Output: <state dir>/cockpit.html (or
+        cockpit.<handoff-root>.html for dry-run roots), gitignored."""
+        if os.environ.get("DRAGONFLY_COCKPIT", "1") == "0":
+            return
+        try:
+            from dragonfly import cockpit
+
+            name = "cockpit.html" if self.handoff_root == core.DEFAULT_HANDOFF_ROOT else f"cockpit.{self.handoff_root}.html"
+            out = cockpit.generate(self.state_root / name, state_dir=self.state_root,
+                                   handoff_dir=self.cards_dir.parent, inbox_dir=self.inbox_dir,
+                                   book_path=self.book_path)
+            log.info("cockpit regenerated: %s", out)
+        except Exception as exc:  # noqa: BLE001 - the cockpit must never affect the engine
+            log.warning("cockpit regeneration failed (ignored): %s", exc)
 
     def _commit_message(self, written: List[str], done: Optional[dict]) -> str:
         parts = []
@@ -457,6 +538,85 @@ class Engine:
             c = done["counts"]
             parts.append(f"DONE r{done['revision']} (sized {c['sized']}, rejected {c['rejected']}, late {c['late']})")
         return f"engine {self.session_date}: " + "; ".join(parts)
+
+    # ------------------------------------------------------------ status markers
+    def _status_base(self, marker: str) -> dict:
+        return {"marker": marker, "session_date": self.session_date.isoformat(), "engine_version": ENGINE_VERSION,
+                "handoff_root": self.handoff_root, "inbox_root": self.inbox_root, "pid": os.getpid(),
+                "host": platform.node(), "wall_clock": iso(datetime.now().astimezone(core.tz()).replace(microsecond=0)),
+                "engine_clock": iso(self.now_fn().replace(microsecond=0))}
+
+    def _push_status(self, path: Path, message: str) -> bool:
+        """Commit + push one marker. Never raises; returns whether it reached the remote."""
+        if self.git is None or not self.push:
+            return False
+        try:
+            self.git.commit_and_push([self.cards_rel], message, push=True)
+            return True
+        except Exception as exc:  # noqa: BLE001 - a status marker must never crash the engine
+            log.error("could not push %s: %s (left on disk; the next successful push carries it)",
+                      path.name, exc)
+            return False
+
+    def announce_start(self, argv: Optional[List[str]] = None) -> dict:
+        """cards/ENGINE_STARTED, pushed at launch (before the sleep to 08:08).
+
+        last_pass_at is refreshed whenever the engine commits cards or DONE
+        anyway (no extra commits per poll)."""
+        doc = self._status_base(STARTED_NAME)
+        doc.update(started_at=doc["engine_clock"], last_pass_at=None, argv=list(argv or []),
+                   window={"start": iso(self.clock.start), "cutoff": iso(self.clock.cutoff), "end": iso(self.clock.end)})
+        _atomic_write(self.started_path, core.dumps(doc))
+        log.info("%s written for %s (pid %s)", STARTED_NAME, self.session_date, doc["pid"])
+        if self.git is not None and self.push:
+            doc["pushed"] = self._push_status(self.started_path, f"engine {self.session_date}: started (pid {doc['pid']})")
+        return doc
+
+    def _touch_heartbeat(self, tick: datetime) -> None:
+        if not self.started_path.exists():
+            return
+        try:
+            doc = json.loads(self.started_path.read_text(encoding="utf-8"))
+        except (OSError, ValueError):
+            return
+        doc["last_pass_at"] = iso(tick)
+        doc.pop("pushed", None)
+        _atomic_write(self.started_path, core.dumps(doc))
+
+    def report_error(self, stage: str, exc: BaseException, tb: Optional[str] = None) -> dict:
+        """cards/ENGINE_ERROR with the traceback tail; pushed best-effort. Never raises."""
+        self._errors += 1
+        tb = tb if tb is not None else "".join(traceback.format_exception(type(exc), exc, exc.__traceback__))
+        doc = self._status_base(ERROR_NAME)
+        doc.update(stage=stage, error=f"{type(exc).__name__}: {exc}", error_count=self._errors,
+                   traceback_tail=tb.rstrip().splitlines()[-TRACEBACK_TAIL_LINES:])
+        try:
+            _atomic_write(self.error_path, core.dumps(doc))
+        except OSError as werr:
+            log.error("could not write %s: %s", ERROR_NAME, werr)
+            return doc
+        log.error("%s (%s): %s", ERROR_NAME, stage, doc["error"])
+        doc["pushed"] = self._push_status(self.error_path, f"engine {self.session_date}: ENGINE_ERROR ({stage})")
+        return doc
+
+    def run_guarded(self, once: bool = False, argv: Optional[List[str]] = None) -> int:
+        """What the CLI runs: ENGINE_STARTED at launch, ENGINE_ERROR on a crash.
+
+        once: a single pass (no ENGINE_STARTED). Exit codes: loop's 0/1, 2 on
+        an engine error or crash."""
+        try:
+            if once:
+                self.last_result = self.run_pass()
+                return 0
+            self.announce_start(argv)
+            rc = self.run_loop()
+            if rc == 1:
+                self.report_error("no_done", EngineError("window ended without a DONE marker"), tb="")
+            return rc
+        except Exception as exc:  # noqa: BLE001 - crash path: record, push, exit 2
+            log.exception("engine crashed")
+            self.report_error("crash", exc)
+            return 2
 
     # ------------------------------------------------------------ loop
     def next_tick(self, tick: datetime) -> datetime:
@@ -472,6 +632,20 @@ class Engine:
         if tick < self.clock.end < nxt:
             nxt = self.clock.end
         return nxt
+
+    def _sleep_until(self, target: datetime) -> None:
+        """Sleep until the engine clock reaches `target`, in chunks of at most
+        SLEEP_CHUNK_SECONDS, re-reading the clock between chunks. time.sleep
+        counts monotonic time, which stops while the host is suspended (the
+        shared box pauses when idle: a single 275 s sleep once woke 16 minutes
+        late); chunking means the loop catches up within one chunk of any
+        resume. Bounded, so a frozen test clock cannot spin forever."""
+        wait = (target - self.now_fn()).total_seconds()
+        for _ in range(int(wait // SLEEP_CHUNK_SECONDS) + 2):
+            remaining = (target - self.now_fn()).total_seconds()
+            if remaining <= 0:
+                return
+            self.sleep_fn(min(remaining, SLEEP_CHUNK_SECONDS))
 
     def run_loop(self) -> int:
         """Poll from start to end. Exit 0 only if DONE exists when the loop ends.
@@ -490,7 +664,7 @@ class Engine:
         if now < self.clock.start:
             wait = (self.clock.start - now).total_seconds()
             log.info("sleeping %.0fs until window start %s", wait, iso(self.clock.start))
-            self.sleep_fn(wait)
+            self._sleep_until(self.clock.start)
             now = self.now_fn()
         if now > self.clock.end:
             log.warning("started after the window end %s; one closing pass only (no sizing)", iso(self.clock.end))
@@ -502,12 +676,12 @@ class Engine:
             except EngineError as exc:
                 failures += 1
                 log.error("pass at %s failed: %s", iso(tick), exc)
+                # e.g. a push that still fails after the rebase retries
+                self.report_error("pass", exc)
             if tick >= self.clock.end:
                 break
             nxt = self.next_tick(tick)
-            delay = (nxt - self.now_fn()).total_seconds()
-            if delay > 0:
-                self.sleep_fn(delay)
+            self._sleep_until(nxt)
             actual = self.now_fn()
             tick = nxt if actual <= nxt + timedelta(seconds=5) else actual.replace(microsecond=0)
         if not self.done_path.exists():

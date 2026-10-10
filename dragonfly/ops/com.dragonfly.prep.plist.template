@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!--
+  TEMPLATE ONLY. Not installed, not loaded. Do not copy into ~/Library/LaunchAgents
+  until Ditka gives an explicit go and Jared approves the schedule (docs/dragonfly/ENGINE.md).
+
+  Dragonfly prep: 15:30 CT Monday-Friday (after the 15:00 close). Builds the next NYSE session's handoff/<date>/prep.json + measurements.json and pushes them to dragonfly-private. On a Friday it preps Monday; the day before a holiday it preps the next session.
+  Placeholders: __REPO__ = the Dragonfly RUN CLONE (~/projects/dragonfly-run, a
+  separate clone of ai-finance-tech-dashboard; never the pipeline checkout),
+  __HOME__ = the user's home directory. The Mac clock must be on America/Chicago.
+-->
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+  <key>Label</key>
+  <string>com.dragonfly.prep</string>
+  <key>ProgramArguments</key>
+  <array>
+    <string>/bin/bash</string>
+    <string>__REPO__/dragonfly/state/live/ops/run_prep.sh</string>
+  </array>
+  <key>WorkingDirectory</key>
+  <string>__REPO__</string>
+  <key>StartCalendarInterval</key>
+  <array>
+    <dict><key>Weekday</key><integer>1</integer><key>Hour</key><integer>15</integer><key>Minute</key><integer>30</integer></dict>
+    <dict><key>Weekday</key><integer>2</integer><key>Hour</key><integer>15</integer><key>Minute</key><integer>30</integer></dict>
+    <dict><key>Weekday</key><integer>3</integer><key>Hour</key><integer>15</integer><key>Minute</key><integer>30</integer></dict>
+    <dict><key>Weekday</key><integer>4</integer><key>Hour</key><integer>15</integer><key>Minute</key><integer>30</integer></dict>
+    <dict><key>Weekday</key><integer>5</integer><key>Hour</key><integer>15</integer><key>Minute</key><integer>30</integer></dict>
+  </array>
+  <key>RunAtLoad</key>
+  <false/>
+  <key>ExitTimeOut</key>
+  <integer>30</integer>
+  <key>StandardOutPath</key>
+  <string>__REPO__/dragonfly/state/live/logs/prep.out.log</string>
+  <key>StandardErrorPath</key>
+  <string>__REPO__/dragonfly/state/live/logs/prep.err.log</string>
+  <key>EnvironmentVariables</key>
+  <dict>
+    <key>TZ</key>
+    <string>America/Chicago</string>
+    <key>DRAGONFLY_PRIVATE_DIR</key>
+    <string>__HOME__/projects/dragonfly-private</string>
+    <key>DRAGONFLY_PIPELINE_LOCK</key>
+    <string>__HOME__/projects/ai-finance-tech-dashboard/pipeline/state/auto_pipeline.lock:__HOME__/projects/ai-finance-tech-dashboard/pipeline/auto_pipeline.lock</string>
+  </dict>
+</dict>
+</plist>
