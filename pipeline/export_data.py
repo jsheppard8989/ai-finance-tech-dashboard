@@ -1033,6 +1033,11 @@ def _apply_guest_export_overrides(main_content: dict, podcast_guests: list) -> t
         if override:
             ins["guest_name"] = override
     filtered = [g for g in podcast_guests if (g.get("name") or "") not in block]
+    fixes = ov.get("fixes") or {}
+    for g in filtered:
+        fixed = fixes.get(g.get("name") or "")
+        if fixed:
+            g["name"] = fixed
     return main_content, filtered
 
 

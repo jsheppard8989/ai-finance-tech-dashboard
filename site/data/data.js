@@ -16080,7 +16080,7 @@ const dashboardData = {
         }
       ],
       "episode_release_date": "2026-10-09",
-      "guest_name": null,
+      "guest_name": "Pat Gelsinger",
       "key_tickers": [
         "INTC",
         "NVDA",
@@ -16193,7 +16193,7 @@ const dashboardData = {
         }
       ],
       "episode_release_date": "2026-10-08",
-      "guest_name": "Synthesis Superintelligence",
+      "guest_name": "Liam Fedus and Ekin Do\u011fu\u015f \u00c7ubuk",
       "key_tickers": []
     },
     {
@@ -16429,7 +16429,7 @@ const dashboardData = {
         }
       ],
       "episode_release_date": "2026-10-05",
-      "guest_name": "Google X's Astro Teller",
+      "guest_name": "Astro Teller",
       "key_tickers": [
         "GOOGL",
         "LMT"
@@ -52076,18 +52076,7 @@ const dashboardData = {
   }
 ],
   podcastGuests: [
-  {
-    "id": 83477,
-    "name": "Synthesis Superintelligence",
-    "slug": "synthesis-superintelligence",
-    "bio": null,
-    "known_for": null,
-    "last_main_idea": "Periodic\u2019s core claim is that materials discovery will be accelerated most by physically grounded RL, instrument intelligence, and lineage-rich experimental data\u2014not by simulations or model scale alone.",
-    "last_episode_title": "Synthesis Superintelligence: from Semiconductors to Superconductors \u2014 Periodic Labs\u2019 Liam Fedus and Ekin Dogus Cubuk",
-    "last_podcast_name": "Latent Space: The AI Engineer Podcast",
-    "last_episode_date": "2026-10-08",
-    "appearance_count": 1
-  },
+  
   {
     "id": 83478,
     "name": "Stacy Rasgon",
@@ -52100,18 +52089,7 @@ const dashboardData = {
     "last_episode_date": "2026-10-08",
     "appearance_count": 1
   },
-  {
-    "id": 83479,
-    "name": "Google X's Astro Teller",
-    "slug": "google-xs-astro-teller",
-    "bio": null,
-    "known_for": null,
-    "last_main_idea": "Astro Teller says X reduced the cost of graduating moonshots by about 3x over 16 years, partly through AI, earlier graduations, and improved operating discipline.",
-    "last_episode_title": "Google X's Astro Teller: The $1B Bet No CEO Will Back, Moonshots 3x Cheaper in 16 Yrs, and Clean Water at 1\u00a2/L| EP #300",
-    "last_podcast_name": "Moonshots with Peter Diamandis",
-    "last_episode_date": "2026-10-05",
-    "appearance_count": 1
-  },
+  
   {
     "id": 83480,
     "name": "Alex Atallah & Amjad Masad",

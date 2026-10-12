@@ -27,7 +27,9 @@
     "Marc Andreessen",
     "Peter Diamandis",
     "David Sacks",
-    "David Friedberg"
+    "David Friedberg",
+    "Synthesis Superintelligence",
+    "Google X's Astro Teller"
   ],
   "fixes": {
     "Ray Dahlia": "Ray Dalio",
@@ -42,15 +44,23 @@
     "Senator John Fetterman on Voting Rights": null,
     "Meta CTO Andrew 'Boz' Bosworth": "Andrew Bosworth",
     "Elena Berger": "Elena Burger",
-    "Laina Berger": "Elena Burger"
+    "Laina Berger": "Elena Burger",
+    "Google X's Astro Teller": "Astro Teller",
+    "Synthesis Superintelligence": "Liam Fedus and Ekin Doğuş Çubuk"
   },
   "episode_title_guest": {
     "Beyond the God Model | Alex Atallah & Amjad Masad": "Alex Atallah & Amjad Masad",
-    "Rebuilding the Internet for Privacy | Barrett Lyon on DoxxNet": "Barrett Lyon"
+    "Rebuilding the Internet for Privacy | Barrett Lyon on DoxxNet": "Barrett Lyon",
+    "Google X's Astro Teller: The $1B Bet No CEO Will Back, Moonshots 3x Cheaper in 16 Yrs, and Clean Water at 1¢/L| EP #300": "Astro Teller",
+    "Synthesis Superintelligence: from Semiconductors to Superconductors — Periodic Labs’ Liam Fedus and Ekin Dogus Cubuk": "Liam Fedus and Ekin Doğuş Çubuk",
+    "Chips, Memory, and Power | Pat Gelsinger": "Pat Gelsinger"
   },
   "insight_guest_by_id": {
     "564": "Alex Atallah & Amjad Masad",
-    "557": "Barrett Lyon"
+    "557": "Barrett Lyon",
+    "571": "Astro Teller",
+    "574": "Liam Fedus and Ekin Doğuş Çubuk",
+    "577": "Pat Gelsinger"
   },
   "overrides": {
     "Graham Allison": {
