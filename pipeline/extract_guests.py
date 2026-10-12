@@ -211,12 +211,23 @@ def extract_guest_name(episode_title: str, summary: str, podcast_name: str = "")
 
     def pick(name):
         cleaned = normalize_guest_name(name)
+        # "Google X's Astro Teller" -> "Astro Teller" (org possessive prefix)
+        pm = re.match(r"^.+?['\u2019]s?\s+([A-Z][^'\u2019]+)$", cleaned)
+        if pm and ok(pm.group(1).strip()):
+            return pm.group(1).strip()
         return cleaned if ok(name) else None
 
     # "Topic with Guest Name" (prefer before naive "Title: fragment" capture)
     m = re.search(r"\bwith\s+([A-Za-z][a-zA-Z\s\.\-']+?)(?:\s*[:\|,]|$|\.)", title)
     if m:
         name = pick(m.group(1).strip())
+        if name:
+            return name
+
+    # Pattern: "Topic | Guest Name" (a16z style; trailing segment is the guest)
+    if "|" in title:
+        tail = title.rsplit("|", 1)[1].strip()
+        name = pick(tail)
         if name:
             return name
 
