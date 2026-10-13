@@ -3,1204 +3,1204 @@
 
 const dashboardData = {
   schemaVersion: 2,
-  generatedAt: "2026-10-12T23:44:52.048894",
-  chartsVersion: "2026-10-12T23:44:39.494596",
+  generatedAt: "2026-10-13T05:02:54.166935",
+  chartsVersion: "2026-10-13T05:02:41.683472",
   priceSnapshot: {
   "AAPL": {
     "price": 340.97,
     "change_pct": 1.17,
     "name": "Apple Inc.",
-    "updated_at": "2026-10-12T23:43:41.393240",
+    "updated_at": "2026-10-13T05:01:43.536725",
     "price_14d_ago": 337.02
   },
   "AEP": {
     "price": 124.23,
     "change_pct": 4.92,
     "name": "American Electric Power Company",
-    "updated_at": "2026-10-12T23:43:41.612397",
+    "updated_at": "2026-10-13T05:01:43.749414",
     "price_14d_ago": 118.4
   },
   "AMD": {
     "price": 594.24,
     "change_pct": -3.31,
     "name": "Advanced Micro Devices, Inc.",
-    "updated_at": "2026-10-12T23:43:42.030405",
+    "updated_at": "2026-10-13T05:01:44.140426",
     "price_14d_ago": 614.61
   },
   "AMGN": {
     "price": 417.57,
     "change_pct": 2.83,
     "name": "Amgen Inc.",
-    "updated_at": "2026-10-12T23:43:42.224095",
+    "updated_at": "2026-10-13T05:01:44.331770",
     "price_14d_ago": 406.09
   },
   "AMZN": {
     "price": 259.53,
     "change_pct": 4.12,
     "name": "Amazon.com, Inc.",
-    "updated_at": "2026-10-12T23:43:42.519431",
+    "updated_at": "2026-10-13T05:01:44.515946",
     "price_14d_ago": 249.27
   },
   "APO": {
     "price": 119.22,
     "change_pct": -4.13,
     "name": "Apollo Global Management, Inc. ",
-    "updated_at": "2026-10-12T23:43:42.710583",
+    "updated_at": "2026-10-13T05:01:44.700250",
     "price_14d_ago": 124.36
   },
   "APTV": {
     "price": 43.55,
     "change_pct": -3.59,
     "name": "Aptiv PLC",
-    "updated_at": "2026-10-12T23:43:42.964163",
+    "updated_at": "2026-10-13T05:01:44.945341",
     "price_14d_ago": 45.17
   },
   "AVGO": {
     "price": 354.73,
     "change_pct": -0.07,
     "name": "Broadcom Inc.",
-    "updated_at": "2026-10-12T23:43:43.352064",
+    "updated_at": "2026-10-13T05:01:45.389593",
     "price_14d_ago": 354.99
   },
   "BA": {
     "price": 189.5,
     "change_pct": -5.22,
     "name": "Boeing Company (The)",
-    "updated_at": "2026-10-12T23:43:43.752333",
+    "updated_at": "2026-10-13T05:01:45.794462",
     "price_14d_ago": 199.93
   },
   "BABA": {
     "price": 110.78,
     "change_pct": -0.02,
     "name": "Alibaba Group Holding Limited",
-    "updated_at": "2026-10-12T23:43:43.962551",
+    "updated_at": "2026-10-13T05:01:45.989398",
     "price_14d_ago": 110.8
   },
   "BAC": {
     "price": 54.58,
     "change_pct": -2.54,
     "name": "Bank of America Corporation",
-    "updated_at": "2026-10-12T23:43:44.171322",
+    "updated_at": "2026-10-13T05:01:46.196040",
     "price_14d_ago": 56.0
   },
   "BAM": {
     "price": 45.83,
     "change_pct": 1.26,
     "name": "Brookfield Asset Management Inc",
-    "updated_at": "2026-10-12T23:43:44.357504",
+    "updated_at": "2026-10-13T05:01:46.436130",
     "price_14d_ago": 45.26
   },
   "BIDU": {
     "price": 84.3,
     "change_pct": -6.1,
     "name": "Baidu, Inc.",
-    "updated_at": "2026-10-12T23:43:44.768016",
+    "updated_at": "2026-10-13T05:01:46.803256",
     "price_14d_ago": 89.78
   },
   "BP": {
     "price": 46.73,
     "change_pct": 5.03,
     "name": "BP p.l.c.",
-    "updated_at": "2026-10-12T23:43:45.253769",
+    "updated_at": "2026-10-13T05:01:47.210361",
     "price_14d_ago": 44.49
   },
   "BTC": {
-    "price": 83349.9,
-    "change_pct": -0.24,
+    "price": 83539.17,
+    "change_pct": -0.02,
     "name": "Bitcoin USD",
-    "updated_at": "2026-10-12T23:43:45.454492",
+    "updated_at": "2026-10-13T05:01:47.396137",
     "price_14d_ago": 83553.85
   },
   "BTC-USD": {
-    "price": 83349.9,
-    "change_pct": -0.24,
+    "price": 83539.17,
+    "change_pct": -0.02,
     "name": "Bitcoin USD",
-    "updated_at": "2026-10-12T23:43:45.639230",
+    "updated_at": "2026-10-13T05:01:47.606946",
     "price_14d_ago": 83553.85
   },
   "BX": {
     "price": 114.78,
     "change_pct": -3.76,
     "name": "Blackstone Inc.",
-    "updated_at": "2026-10-12T23:43:46.027973",
+    "updated_at": "2026-10-13T05:01:48.052186",
     "price_14d_ago": 119.27
   },
   "BYD": {
     "price": 69.37,
     "change_pct": -3.3,
     "name": "Boyd Gaming Corporation",
-    "updated_at": "2026-10-12T23:43:46.223059",
+    "updated_at": "2026-10-13T05:01:48.249097",
     "price_14d_ago": 71.74
   },
   "CAT": {
     "price": 799.37,
     "change_pct": -1.56,
     "name": "Caterpillar, Inc.",
-    "updated_at": "2026-10-12T23:43:46.801423",
+    "updated_at": "2026-10-13T05:01:48.827257",
     "price_14d_ago": 812.02
   },
   "CCJ": {
     "price": 86.12,
     "change_pct": -5.15,
     "name": "Cameco Corporation",
-    "updated_at": "2026-10-12T23:43:47.002186",
+    "updated_at": "2026-10-13T05:01:49.028578",
     "price_14d_ago": 90.8
   },
   "CEG": {
     "price": 293.89,
     "change_pct": 11.37,
     "name": "Constellation Energy Corporatio",
-    "updated_at": "2026-10-12T23:43:47.278398",
+    "updated_at": "2026-10-13T05:01:49.214897",
     "price_14d_ago": 263.88
   },
   "COIN": {
     "price": 180.39,
     "change_pct": -8.95,
     "name": "Coinbase Global, Inc.",
-    "updated_at": "2026-10-12T23:43:47.692921",
+    "updated_at": "2026-10-13T05:01:49.578581",
     "price_14d_ago": 198.13
   },
   "COPPER": {
-    "price": 6.74,
-    "change_pct": 0.32,
+    "price": 6.76,
+    "change_pct": 0.63,
     "name": "Copper",
-    "updated_at": "2026-10-12T23:43:47.875976",
+    "updated_at": "2026-10-13T05:01:49.762102",
     "price_14d_ago": 6.72
   },
   "CORN": {
     "price": 18.46,
     "change_pct": -6.58,
     "name": "Teucrium Corn Fund ETV",
-    "updated_at": "2026-10-12T23:43:48.065017",
+    "updated_at": "2026-10-13T05:01:49.973162",
     "price_14d_ago": 19.76
   },
   "CRM": {
     "price": 233.92,
     "change_pct": -1.54,
     "name": "Salesforce, Inc.",
-    "updated_at": "2026-10-12T23:43:48.259028",
+    "updated_at": "2026-10-13T05:01:50.229333",
     "price_14d_ago": 237.58
   },
   "CROWD": {
     "price": 263.01,
     "change_pct": 0.2,
     "name": "CrowdStrike Holdings, Inc.",
-    "updated_at": "2026-10-12T23:43:48.443391",
+    "updated_at": "2026-10-13T05:01:50.408783",
     "price_14d_ago": 262.49
   },
   "DBC": {
     "price": 33.33,
     "change_pct": 1.37,
     "name": "Invesco DB Commodity Index Trac",
-    "updated_at": "2026-10-12T23:43:49.311161",
+    "updated_at": "2026-10-13T05:01:51.146044",
     "price_14d_ago": 32.88
   },
   "DELL": {
     "price": 576.76,
     "change_pct": 4.9,
     "name": "Dell Technologies Inc.",
-    "updated_at": "2026-10-12T23:43:49.498735",
+    "updated_at": "2026-10-13T05:01:51.334733",
     "price_14d_ago": 549.83
   },
   "DIS": {
     "price": 108.49,
     "change_pct": 4.86,
     "name": "Walt Disney Company (The)",
-    "updated_at": "2026-10-12T23:43:49.924095",
+    "updated_at": "2026-10-13T05:01:51.789015",
     "price_14d_ago": 103.46
   },
   "DOCS": {
     "price": 30.58,
     "change_pct": 15.09,
     "name": "Doximity, Inc.",
-    "updated_at": "2026-10-12T23:43:50.111712",
+    "updated_at": "2026-10-13T05:01:51.973852",
     "price_14d_ago": 26.57
   },
   "DVN": {
     "price": 48.96,
     "change_pct": 1.92,
     "name": "Devon Energy Corporation",
-    "updated_at": "2026-10-12T23:43:50.316478",
+    "updated_at": "2026-10-13T05:01:52.176421",
     "price_14d_ago": 48.04
   },
   "EBAY": {
     "price": 114.65,
     "change_pct": 5.1,
     "name": "eBay Inc.",
-    "updated_at": "2026-10-12T23:43:50.507760",
+    "updated_at": "2026-10-13T05:01:52.366653",
     "price_14d_ago": 109.09
   },
   "ETH-USD": {
-    "price": 2512.42,
-    "change_pct": -6.38,
+    "price": 2511.28,
+    "change_pct": -6.42,
     "name": "Ethereum USD",
-    "updated_at": "2026-10-12T23:43:50.880015",
+    "updated_at": "2026-10-13T05:01:52.733465",
     "price_14d_ago": 2683.68
   },
   "F": {
     "price": 12.0,
     "change_pct": -7.26,
     "name": "Ford Motor Company",
-    "updated_at": "2026-10-12T23:43:51.102691",
+    "updated_at": "2026-10-13T05:01:52.977879",
     "price_14d_ago": 12.94
   },
   "FB": {
     "price": 45.96,
     "change_pct": 0.76,
     "name": "ProShares S&P 500 Dynamic Buffe",
-    "updated_at": "2026-10-12T23:43:51.292682",
+    "updated_at": "2026-10-13T05:01:53.202027",
     "price_14d_ago": 45.61
   },
   "FCX": {
     "price": 73.29,
     "change_pct": 0.98,
     "name": "Freeport-McMoRan, Inc.",
-    "updated_at": "2026-10-12T23:43:51.588553",
+    "updated_at": "2026-10-13T05:01:53.407451",
     "price_14d_ago": 72.58
   },
   "FSK": {
     "price": 10.89,
     "change_pct": -2.51,
     "name": "FS KKR Capital Corp.",
-    "updated_at": "2026-10-12T23:43:52.867815",
+    "updated_at": "2026-10-13T05:01:54.558205",
     "price_14d_ago": 11.17
   },
   "GC": {
     "price": 0,
     "change_pct": 0,
     "name": "Gold",
-    "updated_at": "2026-10-12T23:43:53.235500",
+    "updated_at": "2026-10-13T05:01:54.964704",
     "price_14d_ago": null
   },
   "GD": {
     "price": 335.46,
     "change_pct": -2.29,
     "name": "General Dynamics Corporation",
-    "updated_at": "2026-10-12T23:43:53.447737",
+    "updated_at": "2026-10-13T05:01:55.181956",
     "price_14d_ago": 343.33
   },
   "GE": {
     "price": 308.64,
     "change_pct": -3.49,
     "name": "GE Aerospace",
-    "updated_at": "2026-10-12T23:43:53.663043",
+    "updated_at": "2026-10-13T05:01:55.405029",
     "price_14d_ago": 319.8
   },
   "GLD": {
     "price": 382.15,
     "change_pct": -2.73,
     "name": "SPDR Gold Shares",
-    "updated_at": "2026-10-12T23:43:53.856953",
+    "updated_at": "2026-10-13T05:01:55.609251",
     "price_14d_ago": 392.88
   },
   "GME": {
     "price": 27.23,
     "change_pct": 12.52,
     "name": "GameStop Corporation",
-    "updated_at": "2026-10-12T23:43:54.056402",
+    "updated_at": "2026-10-13T05:01:55.833291",
     "price_14d_ago": 24.2
   },
   "GOLD": {
-    "price": 4215.9,
-    "change_pct": -1.91,
+    "price": 4211.5,
+    "change_pct": -2.01,
     "name": "Gold",
-    "updated_at": "2026-10-12T23:43:54.242214",
+    "updated_at": "2026-10-13T05:01:56.024977",
     "price_14d_ago": 4298.0
   },
   "GOOG": {
     "price": 348.97,
     "change_pct": 4.18,
     "name": "Alphabet Inc.",
-    "updated_at": "2026-10-12T23:43:54.429844",
+    "updated_at": "2026-10-13T05:01:56.223192",
     "price_14d_ago": 334.98
   },
   "GOOGL": {
     "price": 352.72,
     "change_pct": 4.41,
     "name": "Alphabet Inc.",
-    "updated_at": "2026-10-12T23:43:54.613864",
+    "updated_at": "2026-10-13T05:01:56.414330",
     "price_14d_ago": 337.83
   },
   "GS": {
     "price": 893.95,
     "change_pct": -4.53,
     "name": "Goldman Sachs Group, Inc. (The)",
-    "updated_at": "2026-10-12T23:43:54.991241",
+    "updated_at": "2026-10-13T05:01:56.835796",
     "price_14d_ago": 936.36
   },
   "Gold": {
     "price": 39.73,
     "change_pct": -8.62,
     "name": "Gold.com, Inc.",
-    "updated_at": "2026-10-12T23:43:55.196241",
+    "updated_at": "2026-10-13T05:01:57.025131",
     "price_14d_ago": 43.48
   },
   "HFGM": {
     "price": 31.77,
     "change_pct": -0.43,
     "name": "Unlimited HFGM Global Macro ETF",
-    "updated_at": "2026-10-12T23:43:55.376897",
+    "updated_at": "2026-10-13T05:01:57.219520",
     "price_14d_ago": 31.91
   },
   "HG": {
     "price": 34.86,
     "change_pct": 4.15,
     "name": "Hamilton Insurance Group, Ltd.",
-    "updated_at": "2026-10-12T23:43:55.556623",
+    "updated_at": "2026-10-13T05:01:57.404672",
     "price_14d_ago": 33.47
   },
   "IBM": {
     "price": 227.02,
     "change_pct": -2.47,
     "name": "International Business Machines",
-    "updated_at": "2026-10-12T23:43:56.400313",
+    "updated_at": "2026-10-13T05:01:58.187349",
     "price_14d_ago": 232.76
   },
   "IEF": {
     "price": 89.43,
     "change_pct": -0.84,
     "name": "iShares 7-10 Year Treasury Bond",
-    "updated_at": "2026-10-12T23:43:56.598824",
+    "updated_at": "2026-10-13T05:01:58.387581",
     "price_14d_ago": 90.19
   },
   "INDA": {
     "price": 46.36,
     "change_pct": -3.52,
     "name": "Ishares MSCI India ETF",
-    "updated_at": "2026-10-12T23:43:56.792023",
+    "updated_at": "2026-10-13T05:01:58.580017",
     "price_14d_ago": 48.05
   },
   "INFY": {
     "price": 10.83,
     "change_pct": 0.74,
     "name": "Infosys Limited",
-    "updated_at": "2026-10-12T23:43:56.990225",
+    "updated_at": "2026-10-13T05:01:58.781596",
     "price_14d_ago": 10.75
   },
   "INTC": {
     "price": 101.35,
     "change_pct": -17.33,
     "name": "Intel Corporation",
-    "updated_at": "2026-10-12T23:43:57.192722",
+    "updated_at": "2026-10-13T05:01:58.977775",
     "price_14d_ago": 122.6
   },
   "IWD": {
     "price": 254.65,
     "change_pct": 1.28,
     "name": "iShares Russell 1000 Value ETF",
-    "updated_at": "2026-10-12T23:43:57.392282",
+    "updated_at": "2026-10-13T05:01:59.185044",
     "price_14d_ago": 251.42
   },
   "IWF": {
     "price": 127.13,
     "change_pct": 1.39,
     "name": "iShares Russell 1000 Growth Fun",
-    "updated_at": "2026-10-12T23:43:57.585123",
+    "updated_at": "2026-10-13T05:01:59.384330",
     "price_14d_ago": 125.39
   },
   "IWM": {
     "price": 277.9,
     "change_pct": -1.43,
     "name": "iShares Russell 2000 Index Fund",
-    "updated_at": "2026-10-12T23:43:57.802145",
+    "updated_at": "2026-10-13T05:01:59.579994",
     "price_14d_ago": 281.92
   },
   "JNJ": {
     "price": 263.73,
     "change_pct": -2.02,
     "name": "Johnson & Johnson",
-    "updated_at": "2026-10-12T23:43:58.020932",
+    "updated_at": "2026-10-13T05:01:59.792328",
     "price_14d_ago": 269.17
   },
   "JPM": {
     "price": 334.3,
     "change_pct": -0.96,
     "name": "JP Morgan Chase & Co.",
-    "updated_at": "2026-10-12T23:43:58.229977",
+    "updated_at": "2026-10-13T05:02:00.021974",
     "price_14d_ago": 337.53
   },
   "KKR": {
     "price": 91.51,
     "change_pct": -5.86,
     "name": "KKR & Co. Inc.",
-    "updated_at": "2026-10-12T23:43:58.417884",
+    "updated_at": "2026-10-13T05:02:00.221370",
     "price_14d_ago": 97.21
   },
   "LLY": {
     "price": 1182.62,
     "change_pct": 2.75,
     "name": "Eli Lilly and Company",
-    "updated_at": "2026-10-12T23:43:58.869290",
+    "updated_at": "2026-10-13T05:02:00.612562",
     "price_14d_ago": 1150.99
   },
   "LMT": {
     "price": 511.88,
     "change_pct": -2.44,
     "name": "Lockheed Martin Corporation",
-    "updated_at": "2026-10-12T23:43:59.081359",
+    "updated_at": "2026-10-13T05:02:00.830516",
     "price_14d_ago": 524.68
   },
   "LYFT": {
     "price": 16.11,
     "change_pct": 9.07,
     "name": "Lyft, Inc.",
-    "updated_at": "2026-10-12T23:43:59.889873",
+    "updated_at": "2026-10-13T05:02:01.933666",
     "price_14d_ago": 14.77
   },
   "META": {
     "price": 742.96,
     "change_pct": -0.15,
     "name": "Meta Platforms, Inc.",
-    "updated_at": "2026-10-12T23:44:00.401901",
+    "updated_at": "2026-10-13T05:02:02.350692",
     "price_14d_ago": 744.1
   },
   "MGM": {
     "price": 29.32,
     "change_pct": -22.54,
     "name": "MGM Resorts International",
-    "updated_at": "2026-10-12T23:44:00.597025",
+    "updated_at": "2026-10-13T05:02:02.556016",
     "price_14d_ago": 37.85
   },
   "MINE": {
     "price": 2.58,
     "change_pct": -9.15,
     "name": "Mayfair Gold Corp.",
-    "updated_at": "2026-10-12T23:44:00.778550",
+    "updated_at": "2026-10-13T05:02:02.793733",
     "price_14d_ago": 2.84
   },
   "MRK": {
     "price": 145.45,
     "change_pct": -1.78,
     "name": "Merck & Company, Inc.",
-    "updated_at": "2026-10-12T23:44:01.005080",
+    "updated_at": "2026-10-13T05:02:03.025730",
     "price_14d_ago": 148.08
   },
   "MRNA": {
     "price": 213.74,
     "change_pct": 17.37,
     "name": "Moderna, Inc.",
-    "updated_at": "2026-10-12T23:44:01.189316",
+    "updated_at": "2026-10-13T05:02:03.286011",
     "price_14d_ago": 182.11
   },
   "MS": {
     "price": 190.02,
     "change_pct": -4.22,
     "name": "Morgan Stanley",
-    "updated_at": "2026-10-12T23:44:01.394745",
+    "updated_at": "2026-10-13T05:02:03.558636",
     "price_14d_ago": 198.39
   },
   "MSFT": {
     "price": 541.15,
     "change_pct": 8.1,
     "name": "Microsoft Corporation",
-    "updated_at": "2026-10-12T23:44:01.591173",
+    "updated_at": "2026-10-13T05:02:03.762742",
     "price_14d_ago": 500.59
   },
   "MSTR": {
     "price": 152.68,
     "change_pct": -5.87,
     "name": "Strategy Inc",
-    "updated_at": "2026-10-12T23:44:01.773191",
+    "updated_at": "2026-10-13T05:02:03.951652",
     "price_14d_ago": 162.2
   },
   "MU": {
     "price": 989.04,
     "change_pct": -7.73,
     "name": "Micron Technology, Inc.",
-    "updated_at": "2026-10-12T23:44:01.972323",
+    "updated_at": "2026-10-13T05:02:04.155233",
     "price_14d_ago": 1071.88
   },
   "NEE": {
     "price": 78.51,
     "change_pct": 1.93,
     "name": "NextEra Energy, Inc.",
-    "updated_at": "2026-10-12T23:44:02.362240",
+    "updated_at": "2026-10-13T05:02:04.552921",
     "price_14d_ago": 77.02
   },
   "NFLX": {
     "price": 70.61,
     "change_pct": -1.05,
     "name": "Netflix, Inc.",
-    "updated_at": "2026-10-12T23:44:02.543308",
+    "updated_at": "2026-10-13T05:02:04.738246",
     "price_14d_ago": 71.36
   },
   "NKE": {
     "price": 35.35,
     "change_pct": -1.94,
     "name": "Nike, Inc.",
-    "updated_at": "2026-10-12T23:44:03.122834",
+    "updated_at": "2026-10-13T05:02:05.382116",
     "price_14d_ago": 36.05
   },
   "NOC": {
     "price": 485.0,
     "change_pct": -5.72,
     "name": "Northrop Grumman Corporation",
-    "updated_at": "2026-10-12T23:44:03.336575",
+    "updated_at": "2026-10-13T05:02:05.588520",
     "price_14d_ago": 514.42
   },
   "NVDA": {
     "price": 226.32,
     "change_pct": 0.36,
     "name": "NVIDIA Corporation",
-    "updated_at": "2026-10-12T23:44:03.551176",
+    "updated_at": "2026-10-13T05:02:05.778852",
     "price_14d_ago": 225.51
   },
   "NVS": {
     "price": 143.84,
     "change_pct": 0.79,
     "name": "Novartis AG",
-    "updated_at": "2026-10-12T23:44:03.952211",
+    "updated_at": "2026-10-13T05:02:06.178865",
     "price_14d_ago": 142.71
   },
   "Nasdaq": {
     "price": 746.04,
     "change_pct": 0.65,
     "name": "Invesco QQQ Trust, Series 1",
-    "updated_at": "2026-10-12T23:44:04.146908",
+    "updated_at": "2026-10-13T05:02:06.366604",
     "price_14d_ago": 741.21
   },
   "OKLO": {
     "price": 32.21,
     "change_pct": -17.03,
     "name": "Oklo Inc.",
-    "updated_at": "2026-10-12T23:44:04.549867",
+    "updated_at": "2026-10-13T05:02:06.722649",
     "price_14d_ago": 38.82
   },
   "ORCL": {
     "price": 137.39,
     "change_pct": -4.96,
     "name": "Oracle Corporation",
-    "updated_at": "2026-10-12T23:44:04.923220",
+    "updated_at": "2026-10-13T05:02:07.215844",
     "price_14d_ago": 144.56
   },
   "PALL": {
     "price": 20.61,
     "change_pct": -10.2,
     "name": "abrdn Physical Palladium Shares",
-    "updated_at": "2026-10-12T23:44:05.110050",
+    "updated_at": "2026-10-13T05:02:07.461572",
     "price_14d_ago": 22.95
   },
   "PANW": {
     "price": 403.83,
     "change_pct": 2.68,
     "name": "Palo Alto Networks, Inc.",
-    "updated_at": "2026-10-12T23:44:05.290811",
+    "updated_at": "2026-10-13T05:02:07.709095",
     "price_14d_ago": 393.3
   },
   "PBR": {
     "price": 25.42,
     "change_pct": 20.25,
     "name": "Petroleo Brasileiro S.A. Petrob",
-    "updated_at": "2026-10-12T23:44:05.565120",
+    "updated_at": "2026-10-13T05:02:07.912454",
     "price_14d_ago": 21.14
   },
   "PFE": {
     "price": 28.4,
     "change_pct": 0.78,
     "name": "Pfizer, Inc.",
-    "updated_at": "2026-10-12T23:44:05.957795",
+    "updated_at": "2026-10-13T05:02:08.288209",
     "price_14d_ago": 28.18
   },
   "PLTM": {
     "price": 16.17,
     "change_pct": -3.69,
     "name": "GraniteShares Platinum Shares E",
-    "updated_at": "2026-10-12T23:44:06.146476",
+    "updated_at": "2026-10-13T05:02:08.489045",
     "price_14d_ago": 16.79
   },
   "PLTR": {
     "price": 209.0,
     "change_pct": 8.97,
     "name": "Palantir Technologies Inc.",
-    "updated_at": "2026-10-12T23:44:06.328870",
+    "updated_at": "2026-10-13T05:02:08.661811",
     "price_14d_ago": 191.79
   },
   "PQT": {
     "price": 0,
     "change_pct": 0,
     "name": "PQT",
-    "updated_at": "2026-10-12T23:44:06.697706",
+    "updated_at": "2026-10-13T05:02:09.029223",
     "price_14d_ago": null
   },
   "PQUS": {
     "price": 29.05,
     "change_pct": 1.33,
     "name": "Pictet AI Enhanced US Equity ET",
-    "updated_at": "2026-10-12T23:44:06.950952",
+    "updated_at": "2026-10-13T05:02:09.208675",
     "price_14d_ago": 28.67
   },
   "PSBD": {
     "price": 9.72,
     "change_pct": -6.27,
     "name": "Palmer Square Capital BDC Inc.",
-    "updated_at": "2026-10-12T23:44:07.140170",
+    "updated_at": "2026-10-13T05:02:09.388974",
     "price_14d_ago": 10.37
   },
   "PYPL": {
     "price": 56.05,
     "change_pct": 6.74,
     "name": "PayPal Holdings, Inc.",
-    "updated_at": "2026-10-12T23:44:07.355734",
+    "updated_at": "2026-10-13T05:02:09.567757",
     "price_14d_ago": 52.51
   },
   "QQQ": {
     "price": 746.04,
     "change_pct": 0.65,
     "name": "Invesco QQQ Trust, Series 1",
-    "updated_at": "2026-10-12T23:44:07.729613",
+    "updated_at": "2026-10-13T05:02:09.991910",
     "price_14d_ago": 741.21
   },
   "QTA": {
     "price": 0,
     "change_pct": 0,
     "name": "QTA",
-    "updated_at": "2026-10-12T23:44:07.911089",
+    "updated_at": "2026-10-13T05:02:10.173011",
     "price_14d_ago": null
   },
   "RBLX": {
     "price": 49.58,
     "change_pct": 1.2,
     "name": "Roblox Corporation",
-    "updated_at": "2026-10-12T23:44:08.093737",
+    "updated_at": "2026-10-13T05:02:10.356032",
     "price_14d_ago": 48.99
   },
   "RKLB": {
     "price": 65.71,
     "change_pct": -6.54,
     "name": "Rocket Lab Corporation",
-    "updated_at": "2026-10-12T23:44:08.577763",
+    "updated_at": "2026-10-13T05:02:10.773606",
     "price_14d_ago": 70.31
   },
   "Russell": {
     "price": 277.9,
     "change_pct": -1.43,
     "name": "iShares Russell 2000 Index Fund",
-    "updated_at": "2026-10-12T23:44:09.163088",
+    "updated_at": "2026-10-13T05:02:11.333616",
     "price_14d_ago": 281.92
   },
   "S&P": {
     "price": 7807.24,
     "change_pct": 1.31,
     "name": "S&P 500",
-    "updated_at": "2026-10-12T23:44:09.345510",
+    "updated_at": "2026-10-13T05:02:11.525962",
     "price_14d_ago": 7706.03
   },
   "S&P 500": {
     "price": 7807.24,
     "change_pct": 1.31,
     "name": "S&P 500",
-    "updated_at": "2026-10-12T23:44:09.520530",
+    "updated_at": "2026-10-13T05:02:11.707842",
     "price_14d_ago": 7706.03
   },
   "SAMSUNG ELECTRONICS": {
-    "price": 230500.0,
-    "change_pct": -11.69,
+    "price": 232000.0,
+    "change_pct": -11.11,
     "name": "SamsungElec",
-    "updated_at": "2026-10-12T23:44:09.713804",
+    "updated_at": "2026-10-13T05:02:11.912091",
     "price_14d_ago": 261000.0
   },
   "SAP": {
     "price": 217.85,
     "change_pct": 3.43,
     "name": "SAP  SE",
-    "updated_at": "2026-10-12T23:44:09.911223",
+    "updated_at": "2026-10-13T05:02:12.121309",
     "price_14d_ago": 210.62
   },
   "SF": {
     "price": 70.04,
     "change_pct": -2.63,
     "name": "Stifel Financial Corporation",
-    "updated_at": "2026-10-12T23:44:10.135475",
+    "updated_at": "2026-10-13T05:02:12.322681",
     "price_14d_ago": 71.93
   },
   "SK HYNIX": {
-    "price": 1446000.0,
-    "change_pct": -22.13,
+    "price": 1443000.0,
+    "change_pct": -22.29,
     "name": "SK hynix",
-    "updated_at": "2026-10-12T23:44:10.523545",
+    "updated_at": "2026-10-13T05:02:12.711726",
     "price_14d_ago": 1857000.0
   },
   "SLB": {
     "price": 48.77,
     "change_pct": -5.98,
     "name": "SLB Limited",
-    "updated_at": "2026-10-12T23:44:10.743085",
+    "updated_at": "2026-10-13T05:02:12.924982",
     "price_14d_ago": 51.87
   },
   "SMH": {
     "price": 590.99,
     "change_pct": -1.73,
     "name": "VanEck Semiconductor ETF",
-    "updated_at": "2026-10-12T23:44:10.935615",
+    "updated_at": "2026-10-13T05:02:13.116502",
     "price_14d_ago": 601.41
   },
   "SMP-500": {
     "price": 7807.24,
     "change_pct": 1.31,
     "name": "S&P 500",
-    "updated_at": "2026-10-12T23:44:11.058609",
+    "updated_at": "2026-10-13T05:02:13.299127",
     "price_14d_ago": 7706.03
   },
   "SMR": {
     "price": 6.7,
     "change_pct": -22.81,
     "name": "NuScale Power Corporation",
-    "updated_at": "2026-10-12T23:44:11.244588",
+    "updated_at": "2026-10-13T05:02:13.478137",
     "price_14d_ago": 8.68
   },
   "SNAP": {
     "price": 6.53,
     "change_pct": 23.44,
     "name": "Snap Inc.",
-    "updated_at": "2026-10-12T23:44:11.430986",
+    "updated_at": "2026-10-13T05:02:13.667348",
     "price_14d_ago": 5.29
   },
   "SNWGF": {
     "price": 10.61,
     "change_pct": -9.17,
     "name": "SNOWLINE GOLD CORP",
-    "updated_at": "2026-10-12T23:44:11.626914",
+    "updated_at": "2026-10-13T05:02:13.857788",
     "price_14d_ago": 11.68
   },
   "SOYB": {
     "price": 27.47,
     "change_pct": -1.86,
     "name": "Teucrium Soybean Fund ETV",
-    "updated_at": "2026-10-12T23:44:11.804831",
+    "updated_at": "2026-10-13T05:02:14.123627",
     "price_14d_ago": 27.99
   },
   "SPCE": {
     "price": 2.67,
     "change_pct": -14.42,
     "name": "Virgin Galactic Holdings, Inc.",
-    "updated_at": "2026-10-12T23:44:12.059757",
+    "updated_at": "2026-10-13T05:02:14.334459",
     "price_14d_ago": 3.12
   },
   "SPX": {
     "price": 7807.24,
     "change_pct": 1.31,
     "name": "S&P 500",
-    "updated_at": "2026-10-12T23:44:12.660759",
+    "updated_at": "2026-10-13T05:02:14.947846",
     "price_14d_ago": 7706.03
   },
   "SPY": {
     "price": 778.1,
     "change_pct": 1.34,
     "name": "State Street SPDR S&P 500 ETF T",
-    "updated_at": "2026-10-12T23:44:12.900753",
+    "updated_at": "2026-10-13T05:02:15.164196",
     "price_14d_ago": 767.81
   },
   "SQQQ": {
     "price": 33.63,
     "change_pct": -1.49,
     "name": "ProShares UltraPro Short QQQ",
-    "updated_at": "2026-10-12T23:44:13.092459",
+    "updated_at": "2026-10-13T05:02:15.358085",
     "price_14d_ago": 34.14
   },
   "SQUARE": {
     "price": 76.82,
     "change_pct": 2.87,
     "name": "Block, Inc.",
-    "updated_at": "2026-10-12T23:44:13.284637",
+    "updated_at": "2026-10-13T05:02:15.544235",
     "price_14d_ago": 74.68
   },
   "Semiconductors": {
     "price": 590.99,
     "change_pct": -1.73,
     "name": "VanEck Semiconductor ETF",
-    "updated_at": "2026-10-12T23:44:13.562967",
+    "updated_at": "2026-10-13T05:02:15.754409",
     "price_14d_ago": 601.41
   },
   "T": {
     "price": 22.49,
     "change_pct": -11.11,
     "name": "AT&T Inc.",
-    "updated_at": "2026-10-12T23:44:13.772959",
+    "updated_at": "2026-10-13T05:02:15.971177",
     "price_14d_ago": 25.3
   },
   "TDOC": {
     "price": 5.92,
     "change_pct": -3.43,
     "name": "Teladoc Health, Inc.",
-    "updated_at": "2026-10-12T23:44:14.162179",
+    "updated_at": "2026-10-13T05:02:16.410361",
     "price_14d_ago": 6.13
   },
   "TIPS": {
     "price": 0.0,
     "change_pct": 200.0,
     "name": "Tianrong Internet Products and ",
-    "updated_at": "2026-10-12T23:44:14.744983",
+    "updated_at": "2026-10-13T05:02:17.003503",
     "price_14d_ago": 0.0
   },
   "TLT": {
     "price": 78.05,
     "change_pct": -3.0,
     "name": "iShares 20+ Year Treasury Bond ",
-    "updated_at": "2026-10-12T23:44:14.946892",
+    "updated_at": "2026-10-13T05:02:17.264666",
     "price_14d_ago": 80.46
   },
   "TSLA": {
     "price": 378.03,
     "change_pct": -0.55,
     "name": "Tesla, Inc.",
-    "updated_at": "2026-10-12T23:44:15.133562",
+    "updated_at": "2026-10-13T05:02:17.447838",
     "price_14d_ago": 380.12
   },
   "TSM": {
     "price": 444.35,
     "change_pct": -0.5,
     "name": "Taiwan Semiconductor Manufactur",
-    "updated_at": "2026-10-12T23:44:15.321390",
+    "updated_at": "2026-10-13T05:02:17.645694",
     "price_14d_ago": 446.57
   },
   "UBER": {
     "price": 71.5,
     "change_pct": 3.0,
     "name": "Uber Technologies, Inc.",
-    "updated_at": "2026-10-12T23:44:15.688258",
+    "updated_at": "2026-10-13T05:02:18.003976",
     "price_14d_ago": 69.42
   },
   "UNG": {
     "price": 10.92,
     "change_pct": 0.46,
     "name": "United States Natural Gas Fund ",
-    "updated_at": "2026-10-12T23:44:15.869374",
+    "updated_at": "2026-10-13T05:02:18.187153",
     "price_14d_ago": 10.87
   },
   "URANIUM": {
     "price": 37.72,
     "change_pct": -10.17,
     "name": "Uranium ETF",
-    "updated_at": "2026-10-12T23:44:16.249045",
+    "updated_at": "2026-10-13T05:02:18.560134",
     "price_14d_ago": 41.99
   },
   "USD": {
     "price": 91.02,
     "change_pct": -3.88,
     "name": "ProShares Ultra Semiconductors",
-    "updated_at": "2026-10-12T23:44:16.467965",
+    "updated_at": "2026-10-13T05:02:18.773085",
     "price_14d_ago": 94.69
   },
   "USDX": {
     "price": 25.57,
     "change_pct": -0.03,
     "name": "SGI Enhanced Core ETF",
-    "updated_at": "2026-10-12T23:44:16.725518",
+    "updated_at": "2026-10-13T05:02:18.959161",
     "price_14d_ago": 25.58
   },
   "USO": {
     "price": 151.03,
     "change_pct": 1.48,
     "name": "United States Oil Fund",
-    "updated_at": "2026-10-12T23:44:16.907989",
+    "updated_at": "2026-10-13T05:02:19.195461",
     "price_14d_ago": 148.83
   },
   "UTHR": {
     "price": 550.1,
     "change_pct": 12.4,
     "name": "United Therapeutics Corporation",
-    "updated_at": "2026-10-12T23:44:17.089681",
+    "updated_at": "2026-10-13T05:02:19.379267",
     "price_14d_ago": 489.42
   },
   "UUU": {
     "price": 4.9,
     "change_pct": -2.97,
     "name": "Universal Safety Products, Inc.",
-    "updated_at": "2026-10-12T23:44:17.343833",
+    "updated_at": "2026-10-13T05:02:19.565796",
     "price_14d_ago": 5.05
   },
   "V": {
     "price": 389.27,
     "change_pct": 7.68,
     "name": "Visa Inc.",
-    "updated_at": "2026-10-12T23:44:17.724113",
+    "updated_at": "2026-10-13T05:02:19.954021",
     "price_14d_ago": 361.52
   },
   "VEEV": {
     "price": 295.85,
     "change_pct": 9.27,
     "name": "Veeva Systems Inc.",
-    "updated_at": "2026-10-12T23:44:18.086758",
+    "updated_at": "2026-10-13T05:02:20.318223",
     "price_14d_ago": 270.75
   },
   "VIX": {
-    "price": 15.21,
-    "change_pct": 0.2,
+    "price": 15.33,
+    "change_pct": -2.17,
     "name": "CBOE Volatility Index",
-    "updated_at": "2026-10-12T23:44:18.672865",
-    "price_14d_ago": 15.18
+    "updated_at": "2026-10-13T05:02:20.867799",
+    "price_14d_ago": 15.67
   },
   "VLO": {
     "price": 436.0,
     "change_pct": 16.01,
     "name": "Valero Energy Corporation",
-    "updated_at": "2026-10-12T23:44:18.883692",
+    "updated_at": "2026-10-13T05:02:21.078182",
     "price_14d_ago": 375.84
   },
   "VRTX": {
     "price": 507.0,
     "change_pct": -1.81,
     "name": "Vertex Pharmaceuticals Incorpor",
-    "updated_at": "2026-10-12T23:44:19.064888",
+    "updated_at": "2026-10-13T05:02:21.337975",
     "price_14d_ago": 516.34
   },
   "WFC": {
     "price": 83.32,
     "change_pct": 1.73,
     "name": "Wells Fargo & Company",
-    "updated_at": "2026-10-12T23:44:19.279561",
+    "updated_at": "2026-10-13T05:02:21.555696",
     "price_14d_ago": 81.9
   },
   "WIT": {
     "price": 1.7,
     "change_pct": 0.59,
     "name": "Wipro Limited",
-    "updated_at": "2026-10-12T23:44:19.477436",
+    "updated_at": "2026-10-13T05:02:21.751003",
     "price_14d_ago": 1.69
   },
   "WMT": {
     "price": 113.08,
     "change_pct": 2.31,
     "name": "Walmart Inc.",
-    "updated_at": "2026-10-12T23:44:19.697317",
+    "updated_at": "2026-10-13T05:02:21.963231",
     "price_14d_ago": 110.53
   },
   "WTBN": {
     "price": 24.02,
     "change_pct": -0.86,
     "name": "WisdomTree Bianco Total Return ",
-    "updated_at": "2026-10-12T23:44:19.893652",
+    "updated_at": "2026-10-13T05:02:22.151233",
     "price_14d_ago": 24.23
   },
   "WTI": {
-    "price": 92.58,
-    "change_pct": -2.15,
+    "price": 92.05,
+    "change_pct": -2.71,
     "name": "WTI Crude",
-    "updated_at": "2026-10-12T23:44:20.072241",
+    "updated_at": "2026-10-13T05:02:22.364271",
     "price_14d_ago": 94.61
   },
   "WTI CRUDE OIL": {
-    "price": 92.58,
-    "change_pct": -2.15,
+    "price": 92.05,
+    "change_pct": -2.71,
     "name": "WTI Crude",
-    "updated_at": "2026-10-12T23:44:20.256722",
+    "updated_at": "2026-10-13T05:02:22.547509",
     "price_14d_ago": 94.61
   },
   "XAU-USD": {
     "price": 0,
     "change_pct": 0,
     "name": "XAU9999 Meme USD",
-    "updated_at": "2026-10-12T23:44:20.624885",
+    "updated_at": "2026-10-13T05:02:22.954261",
     "price_14d_ago": 0.0
   },
   "XOM": {
     "price": 172.15,
     "change_pct": 6.77,
     "name": "ExxonMobil Holdings Corporation",
-    "updated_at": "2026-10-12T23:44:20.845855",
+    "updated_at": "2026-10-13T05:02:23.170687",
     "price_14d_ago": 161.23
   },
   "ZIM": {
     "price": 30.9,
     "change_pct": 2.69,
     "name": "ZIM Integrated Shipping Service",
-    "updated_at": "2026-10-12T23:44:21.256327",
+    "updated_at": "2026-10-13T05:02:23.570837",
     "price_14d_ago": 30.09
   },
   "HIMS": {
     "price": 30.64,
     "change_pct": 7.93,
     "name": "Hims & Hers Health, Inc.",
-    "updated_at": "2026-10-12T23:44:21.639065",
+    "updated_at": "2026-10-13T05:02:23.933896",
     "price_14d_ago": 28.39
   },
   "GDRX": {
     "price": 3.48,
     "change_pct": 4.82,
     "name": "GoodRx Holdings, Inc.",
-    "updated_at": "2026-10-12T23:44:21.824638",
+    "updated_at": "2026-10-13T05:02:24.183613",
     "price_14d_ago": 3.32
   },
   "TEM": {
     "price": 67.99,
     "change_pct": -11.23,
     "name": "Tempus AI, Inc.",
-    "updated_at": "2026-10-12T23:44:22.025904",
+    "updated_at": "2026-10-13T05:02:24.373863",
     "price_14d_ago": 76.59
   },
   "GH": {
     "price": 162.79,
     "change_pct": -7.67,
     "name": "Guardant Health, Inc.",
-    "updated_at": "2026-10-12T23:44:22.208299",
+    "updated_at": "2026-10-13T05:02:24.563660",
     "price_14d_ago": 176.31
   },
   "ABT": {
     "price": 101.82,
     "change_pct": -1.61,
     "name": "Abbott Laboratories",
-    "updated_at": "2026-10-12T23:44:22.427434",
+    "updated_at": "2026-10-13T05:02:24.770349",
     "price_14d_ago": 103.49
   },
   "ARM": {
     "price": 255.24,
     "change_pct": -23.25,
     "name": "Arm Holdings plc",
-    "updated_at": "2026-10-12T23:43:43.158724",
+    "updated_at": "2026-10-13T05:01:45.142828",
     "price_14d_ago": 332.56
   },
   "HOOD": {
     "price": 109.22,
     "change_pct": -10.99,
     "name": "Robinhood Markets, Inc.",
-    "updated_at": "2026-10-12T23:43:55.740751",
+    "updated_at": "2026-10-13T05:01:57.587976",
     "price_14d_ago": 122.7
   },
   "SPOT": {
     "price": 528.8,
     "change_pct": 3.61,
     "name": "Spotify Technology S.A.",
-    "updated_at": "2026-10-12T23:44:12.301641",
+    "updated_at": "2026-10-13T05:02:14.514654",
     "price_14d_ago": 510.4
   },
   "CRWV": {
     "price": 80.26,
     "change_pct": -7.64,
     "name": "CoreWeave, Inc.",
-    "updated_at": "2026-10-12T23:43:48.807411",
+    "updated_at": "2026-10-13T05:01:50.764881",
     "price_14d_ago": 86.9
   },
   "LENS": {
     "price": 44.01,
     "change_pct": -1.71,
     "name": "Sarmaya Thematic ETF",
-    "updated_at": "2026-10-12T23:43:58.664688",
+    "updated_at": "2026-10-13T05:02:00.406874",
     "price_14d_ago": 44.78
   },
   "TCEHY": {
     "price": 54.06,
     "change_pct": -3.31,
     "name": "Tencent Holding Ltd.",
-    "updated_at": "2026-10-12T23:44:13.977112",
+    "updated_at": "2026-10-13T05:02:16.177356",
     "price_14d_ago": 55.91
   },
   "SHOP": {
     "price": 179.22,
     "change_pct": 25.91,
     "name": "Shopify Inc.",
-    "updated_at": "2026-10-12T23:44:10.318392",
+    "updated_at": "2026-10-13T05:02:12.503904",
     "price_14d_ago": 142.34
   },
   "BWET": {
     "price": 1010.0,
     "change_pct": 36.6,
     "name": "Breakwave Tanker Shipping ETF",
-    "updated_at": "2026-10-12T23:43:45.833003",
+    "updated_at": "2026-10-13T05:01:47.796164",
     "price_14d_ago": 739.4
   },
   "CRWD": {
     "price": 263.01,
     "change_pct": 0.2,
     "name": "CrowdStrike Holdings, Inc.",
-    "updated_at": "2026-10-12T23:43:48.626861",
+    "updated_at": "2026-10-13T05:01:50.588220",
     "price_14d_ago": 262.49
   },
   "DHT": {
     "price": 26.22,
     "change_pct": 23.21,
     "name": "DHT Holdings, Inc.",
-    "updated_at": "2026-10-12T23:43:49.695906",
+    "updated_at": "2026-10-13T05:01:51.527596",
     "price_14d_ago": 21.28
   },
   "ECO": {
     "price": 98.63,
     "change_pct": 26.4,
     "name": "Okeanis Eco Tankers Corp.",
-    "updated_at": "2026-10-12T23:43:50.693000",
+    "updated_at": "2026-10-13T05:01:52.554361",
     "price_14d_ago": 78.03
   },
   "FMCC": {
     "price": 3.15,
     "change_pct": -30.0,
     "name": "Freddie Mac",
-    "updated_at": "2026-10-12T23:43:52.260885",
+    "updated_at": "2026-10-13T05:01:53.966700",
     "price_14d_ago": 4.5
   },
   "FNMA": {
     "price": 3.47,
     "change_pct": -30.6,
     "name": "Fannie Mae",
-    "updated_at": "2026-10-12T23:43:52.466087",
+    "updated_at": "2026-10-13T05:01:54.165887",
     "price_14d_ago": 5.0
   },
   "FRO": {
     "price": 59.19,
     "change_pct": 24.45,
     "name": "Frontline Plc",
-    "updated_at": "2026-10-12T23:43:52.668948",
+    "updated_at": "2026-10-13T05:01:54.368502",
     "price_14d_ago": 47.56
   },
   "FTNT": {
     "price": 192.94,
     "change_pct": 7.94,
     "name": "Fortinet, Inc.",
-    "updated_at": "2026-10-12T23:43:53.054355",
+    "updated_at": "2026-10-13T05:01:54.739261",
     "price_14d_ago": 178.74
   },
   "QLYS": {
     "price": 196.77,
     "change_pct": 6.48,
     "name": "Qualys, Inc.",
-    "updated_at": "2026-10-12T23:44:07.534953",
+    "updated_at": "2026-10-13T05:02:09.751587",
     "price_14d_ago": 184.79
   },
   "RITM": {
     "price": 8.52,
     "change_pct": -9.55,
     "name": "Rithm Capital Corp.",
-    "updated_at": "2026-10-12T23:44:08.383364",
+    "updated_at": "2026-10-13T05:02:10.552691",
     "price_14d_ago": 9.42
   },
   "RPD": {
     "price": 12.93,
     "change_pct": -1.22,
     "name": "Rapid7, Inc.",
-    "updated_at": "2026-10-12T23:44:08.764411",
+    "updated_at": "2026-10-13T05:02:10.956022",
     "price_14d_ago": 13.09
   },
   "AMAT": {
     "price": 497.53,
     "change_pct": 4.88,
     "name": "Applied Materials, Inc.",
-    "updated_at": "2026-10-12T23:43:41.809458",
+    "updated_at": "2026-10-13T05:01:43.951713",
     "price_14d_ago": 474.38
   },
   "LRCX": {
     "price": 309.56,
     "change_pct": 0.74,
     "name": "Lam Research Corporation",
-    "updated_at": "2026-10-12T23:43:59.349459",
+    "updated_at": "2026-10-13T05:02:01.107051",
     "price_14d_ago": 307.28
   },
   "HUBS": {
     "price": 223.37,
     "change_pct": -1.18,
     "name": "HubSpot, Inc.",
-    "updated_at": "2026-10-12T23:43:55.921999",
+    "updated_at": "2026-10-13T05:01:57.774503",
     "price_14d_ago": 226.03
   },
   "MCD": {
     "price": 235.65,
     "change_pct": -1.12,
     "name": "McDonald's Corporation",
-    "updated_at": "2026-10-12T23:44:00.217135",
+    "updated_at": "2026-10-13T05:02:02.166891",
     "price_14d_ago": 238.32
   },
   "CART": {
     "price": 47.83,
     "change_pct": 11.34,
     "name": "Maplebear Inc.",
-    "updated_at": "2026-10-12T23:43:46.585768",
+    "updated_at": "2026-10-13T05:01:48.607406",
     "price_14d_ago": 42.96
   }
 },
@@ -16893,8 +16893,8 @@ const dashboardData = {
       "first_detected_speaker": "",
       "last_mentioned_episode_id": 552,
       "last_mentioned_speaker": "Olivia Moore, Josh Elman",
-      "novelty_score": 2.4909,
-      "overton_score": 2.4909,
+      "novelty_score": 2.4679,
+      "overton_score": 2.4679,
       "resonance_pct": 81,
       "is_established": false,
       "first_detected_podcast": "The a16z Show",
@@ -16921,8 +16921,8 @@ const dashboardData = {
       "first_detected_speaker": "",
       "last_mentioned_episode_id": 549,
       "last_mentioned_speaker": "Alex Atallah, Amjad Masad",
-      "novelty_score": 2.3006,
-      "overton_score": 2.3006,
+      "novelty_score": 2.2793,
+      "overton_score": 2.2793,
       "resonance_pct": 79,
       "is_established": false,
       "first_detected_podcast": "The a16z Show",
@@ -16949,8 +16949,8 @@ const dashboardData = {
       "first_detected_speaker": "Chamath Palihapitiya, Jason Calacanis (hosts)",
       "last_mentioned_episode_id": 564,
       "last_mentioned_speaker": "Stacy Rasgon",
-      "novelty_score": 2.0727,
-      "overton_score": 2.0727,
+      "novelty_score": 2.0527,
+      "overton_score": 2.0527,
       "resonance_pct": 77,
       "is_established": false,
       "first_detected_podcast": "All-In with Chamath, Jason, Sacks & Friedberg",
@@ -16977,8 +16977,8 @@ const dashboardData = {
       "first_detected_speaker": "Michael Kratsios",
       "last_mentioned_episode_id": 561,
       "last_mentioned_speaker": "Peter Diamandis, Alex Wissner-Gross (hosts)",
-      "novelty_score": 1.8485,
-      "overton_score": 1.8485,
+      "novelty_score": 1.8303,
+      "overton_score": 1.8303,
       "resonance_pct": 74,
       "is_established": false,
       "first_detected_podcast": "Moonshots with Peter Diamandis",
@@ -17005,8 +17005,8 @@ const dashboardData = {
       "first_detected_speaker": "Mark Andrewson, Chris Dixon",
       "last_mentioned_episode_id": 535,
       "last_mentioned_speaker": "Peter Diamandis (hosts)",
-      "novelty_score": 1.8339,
-      "overton_score": 1.8339,
+      "novelty_score": 1.8165,
+      "overton_score": 1.8165,
       "resonance_pct": 74,
       "is_established": false,
       "first_detected_podcast": "The a16z Show",
@@ -17033,8 +17033,8 @@ const dashboardData = {
       "first_detected_speaker": "Peter Diamandis",
       "last_mentioned_episode_id": 561,
       "last_mentioned_speaker": "Peter Diamandis, Alex Wissner-Gross (hosts)",
-      "novelty_score": 1.7056,
-      "overton_score": 1.7056,
+      "novelty_score": 1.6885,
+      "overton_score": 1.6885,
       "resonance_pct": 72,
       "is_established": false,
       "first_detected_podcast": "Moonshots with Peter Diamandis",
@@ -17061,8 +17061,8 @@ const dashboardData = {
       "first_detected_speaker": "Victor Hagani",
       "last_mentioned_episode_id": 500,
       "last_mentioned_speaker": "Peter Diamandis (hosts)",
-      "novelty_score": 1.6789,
-      "overton_score": 1.6789,
+      "novelty_score": 1.6633,
+      "overton_score": 1.6633,
       "resonance_pct": 72,
       "is_established": false,
       "first_detected_podcast": "Monetary Matters with Jack Farley",
@@ -17089,9 +17089,9 @@ const dashboardData = {
       "first_detected_speaker": "",
       "last_mentioned_episode_id": 547,
       "last_mentioned_speaker": "Peter Diamandis, Alex Wissner-Gross (hosts)",
-      "novelty_score": 1.6618,
-      "overton_score": 1.6618,
-      "resonance_pct": 72,
+      "novelty_score": 1.6454,
+      "overton_score": 1.6454,
+      "resonance_pct": 71,
       "is_established": false,
       "first_detected_podcast": "The a16z Show",
       "first_detected_episode_title": "Fei-Fei Li on Spatial Intelligence and Robotics",
@@ -17117,8 +17117,8 @@ const dashboardData = {
       "first_detected_speaker": "",
       "last_mentioned_episode_id": 519,
       "last_mentioned_speaker": "",
-      "novelty_score": 1.6005,
-      "overton_score": 1.6005,
+      "novelty_score": 1.5851,
+      "overton_score": 1.5851,
       "resonance_pct": 71,
       "is_established": false,
       "first_detected_podcast": "Moonshots with Peter Diamandis",
@@ -17145,8 +17145,8 @@ const dashboardData = {
       "first_detected_speaker": "Ramine Hassani",
       "last_mentioned_episode_id": 550,
       "last_mentioned_speaker": "Richard Socher",
-      "novelty_score": 1.5517,
-      "overton_score": 1.5517,
+      "novelty_score": 1.5361,
+      "overton_score": 1.5361,
       "resonance_pct": 70,
       "is_established": false,
       "first_detected_podcast": "Moonshots with Peter Diamandis",
@@ -17173,8 +17173,8 @@ const dashboardData = {
       "first_detected_speaker": "Mark Zuckerberg, Priscilla Chan",
       "last_mentioned_episode_id": 550,
       "last_mentioned_speaker": "Richard Socher",
-      "novelty_score": 1.538,
-      "overton_score": 1.538,
+      "novelty_score": 1.5225,
+      "overton_score": 1.5225,
       "resonance_pct": 70,
       "is_established": false,
       "first_detected_podcast": "The a16z Show",
@@ -17201,8 +17201,8 @@ const dashboardData = {
       "first_detected_speaker": "",
       "last_mentioned_episode_id": 475,
       "last_mentioned_speaker": "Peter Diamandis (hosts)",
-      "novelty_score": 1.4969,
-      "overton_score": 1.4969,
+      "novelty_score": 1.4831,
+      "overton_score": 1.4831,
       "resonance_pct": 69,
       "is_established": false,
       "first_detected_podcast": "Moonshots with Peter Diamandis",
@@ -17229,9 +17229,9 @@ const dashboardData = {
       "first_detected_speaker": "",
       "last_mentioned_episode_id": 550,
       "last_mentioned_speaker": "Richard Socher",
-      "novelty_score": 1.4487,
-      "overton_score": 1.4487,
-      "resonance_pct": 69,
+      "novelty_score": 1.4339,
+      "overton_score": 1.4339,
+      "resonance_pct": 68,
       "is_established": false,
       "first_detected_podcast": "Moonshots with Peter Diamandis",
       "first_detected_episode_title": "Pope Leo vs. AI, GPT 5.5 Beats Claude, and Sam Altman Walks Back Job Apocalypse | EP #259",
@@ -17259,9 +17259,9 @@ const dashboardData = {
       "first_detected_speaker": "Demis Hassabis",
       "last_mentioned_episode_id": 561,
       "last_mentioned_speaker": "Peter Diamandis, Alex Wissner-Gross (hosts)",
-      "novelty_score": 0.4948,
-      "overton_score": 0.4948,
-      "resonance_pct": 45,
+      "novelty_score": 0.4869,
+      "overton_score": 0.4869,
+      "resonance_pct": 44,
       "is_established": true,
       "first_detected_podcast": "Moonshots with Peter Diamandis",
       "first_detected_episode_title": "Demis Hassabis on AGI, Robots Scale Production, and Elon\u2019s $1T Mars-Shot Comp | EP #253",
@@ -17287,8 +17287,8 @@ const dashboardData = {
       "first_detected_speaker": "Travis Kalanick, Ben Horowitz",
       "last_mentioned_episode_id": 565,
       "last_mentioned_speaker": "Brent Johnson",
-      "novelty_score": 0.5955,
-      "overton_score": 0.5955,
+      "novelty_score": 0.5868,
+      "overton_score": 0.5868,
       "resonance_pct": 48,
       "is_established": true,
       "first_detected_podcast": "The a16z Show",
@@ -17315,9 +17315,9 @@ const dashboardData = {
       "first_detected_speaker": "Leakwet Ahamed",
       "last_mentioned_episode_id": 548,
       "last_mentioned_speaker": "Chamath Palihapitiya, Jason Calacanis (hosts)",
-      "novelty_score": 0.4758,
-      "overton_score": 0.4758,
-      "resonance_pct": 44,
+      "novelty_score": 0.4686,
+      "overton_score": 0.4686,
+      "resonance_pct": 43,
       "is_established": true,
       "first_detected_podcast": "Monetary Matters with Jack Farley",
       "first_detected_episode_title": "Rothschilds, Railroads, & Ruin | Liaquat Ahamed on \u201c1873\u201d (New Book!)",
@@ -17343,8 +17343,8 @@ const dashboardData = {
       "first_detected_speaker": "",
       "last_mentioned_episode_id": 551,
       "last_mentioned_speaker": "David George",
-      "novelty_score": 0.435,
-      "overton_score": 0.435,
+      "novelty_score": 0.4278,
+      "overton_score": 0.4278,
       "resonance_pct": 42,
       "is_established": true,
       "first_detected_podcast": "The a16z Show",
@@ -52745,7 +52745,7 @@ const dashboardData = {
 ],
   podcastGuests: [
   {
-    "id": 85870,
+    "id": 86045,
     "name": "Martin Shkreli",
     "slug": "martin-shkreli",
     "bio": null,
@@ -52757,7 +52757,7 @@ const dashboardData = {
     "appearance_count": 1
   },
   {
-    "id": 85871,
+    "id": 86046,
     "name": "Nick Bostrom",
     "slug": "nick-bostrom",
     "bio": null,
@@ -52769,7 +52769,7 @@ const dashboardData = {
     "appearance_count": 1
   },
   {
-    "id": 85872,
+    "id": 86047,
     "name": "What Makes a Great Entrepreneur?",
     "slug": "what-makes-a-great-entrepreneur",
     "bio": null,
@@ -52781,7 +52781,7 @@ const dashboardData = {
     "appearance_count": 1
   },
   {
-    "id": 85873,
+    "id": 86048,
     "name": "Pat Gelsinger",
     "slug": "pat-gelsinger",
     "bio": null,
@@ -52793,7 +52793,7 @@ const dashboardData = {
     "appearance_count": 1
   },
   {
-    "id": 85874,
+    "id": 86049,
     "name": "AWS CEO Matt Garman",
     "slug": "aws-ceo-matt-garman",
     "bio": null,
@@ -52805,7 +52805,7 @@ const dashboardData = {
     "appearance_count": 1
   },
   {
-    "id": 85875,
+    "id": 86050,
     "name": "Liam Fedus and Ekin Do\u011fu\u015f \u00c7ubuk",
     "slug": "liam-fedus-and-ekin-do\u011fu\u015f-\u00e7ubuk",
     "bio": null,
@@ -52817,7 +52817,7 @@ const dashboardData = {
     "appearance_count": 1
   },
   {
-    "id": 85876,
+    "id": 86051,
     "name": "Stacy Rasgon",
     "slug": "stacy-rasgon",
     "bio": null,
@@ -52829,7 +52829,7 @@ const dashboardData = {
     "appearance_count": 1
   },
   {
-    "id": 85877,
+    "id": 86052,
     "name": "Astro Teller",
     "slug": "astro-teller",
     "bio": null,
@@ -52841,7 +52841,7 @@ const dashboardData = {
     "appearance_count": 1
   },
   {
-    "id": 85878,
+    "id": 86053,
     "name": "Alex Atallah & Amjad Masad",
     "slug": "alex-atallah--amjad-masad",
     "bio": null,
@@ -52853,7 +52853,7 @@ const dashboardData = {
     "appearance_count": 1
   },
   {
-    "id": 85879,
+    "id": 86054,
     "name": "Barrett Lyon",
     "slug": "barrett-lyon",
     "bio": null,
@@ -52865,7 +52865,7 @@ const dashboardData = {
     "appearance_count": 1
   },
   {
-    "id": 85880,
+    "id": 86055,
     "name": "State of Markets",
     "slug": "state-of-markets",
     "bio": null,
@@ -52877,7 +52877,7 @@ const dashboardData = {
     "appearance_count": 1
   },
   {
-    "id": 85881,
+    "id": 86056,
     "name": "Token Bill Dwarfs CPU Bill",
     "slug": "token-bill-dwarfs-cpu-bill",
     "bio": null,
@@ -52889,7 +52889,7 @@ const dashboardData = {
     "appearance_count": 1
   },
   {
-    "id": 85882,
+    "id": 86057,
     "name": "Jake Paul & The Chainsmokers",
     "slug": "jake-paul--the-chainsmokers",
     "bio": null,
@@ -52901,7 +52901,7 @@ const dashboardData = {
     "appearance_count": 1
   },
   {
-    "id": 85884,
+    "id": 86059,
     "name": "Moonshots Live",
     "slug": "moonshots-live",
     "bio": null,
@@ -52913,7 +52913,7 @@ const dashboardData = {
     "appearance_count": 2
   },
   {
-    "id": 85883,
+    "id": 86058,
     "name": "Anish Acharya & David Pawlan",
     "slug": "anish-acharya--david-pawlan",
     "bio": null,
@@ -52925,7 +52925,7 @@ const dashboardData = {
     "appearance_count": 1
   },
   {
-    "id": 85885,
+    "id": 86060,
     "name": "Palmer Luckey",
     "slug": "palmer-luckey",
     "bio": null,
@@ -52937,7 +52937,7 @@ const dashboardData = {
     "appearance_count": 1
   },
   {
-    "id": 85886,
+    "id": 86061,
     "name": "Daniel Ek",
     "slug": "daniel-ek",
     "bio": null,
@@ -52949,7 +52949,7 @@ const dashboardData = {
     "appearance_count": 1
   },
   {
-    "id": 85887,
+    "id": 86062,
     "name": "Maggie Landers",
     "slug": "maggie-landers",
     "bio": null,
@@ -52961,7 +52961,7 @@ const dashboardData = {
     "appearance_count": 1
   },
   {
-    "id": 85888,
+    "id": 86063,
     "name": "Introducing Cosign",
     "slug": "introducing-cosign",
     "bio": null,
@@ -52973,7 +52973,7 @@ const dashboardData = {
     "appearance_count": 1
   },
   {
-    "id": 85889,
+    "id": 86064,
     "name": "Eddy Lazzarin",
     "slug": "eddy-lazzarin",
     "bio": null,
@@ -54700,7 +54700,7 @@ const dashboardData = {
     "last_podcast_name": "Moonshots with Peter Diamandis",
     "last_episode_date": "2026-10-03",
     "mention_score": 1,
-    "mention_score_decayed": 0.83,
+    "mention_score_decayed": 0.81,
     "last_main_idea": "Richard Socher claims AI can deliver a century of scientific breakthroughs in the next decade by automating hypothesis, experiment, data, and theory across the full scientific stack.",
     "last_proof_cite": "Moonshots with Peter Diamandis \u2022 2026-10-03 \u2022 Recursive's $670M Bet on Self-Improving AI, Sonnet 5.5 Hits 70%, Elon Co-Leads Pentagon Push | EP #299",
     "last_proof_snippet": "Richard, I'm curious where are we at the moment with RSI? In various weak forms, we already have RSI. We're not quite there yet, but we're very close. When do you believe we reach ASI? I think we'll take us probably several decades. On term",
@@ -55505,121 +55505,6 @@ const dashboardData = {
     }
   },
   {
-    "id": 480,
-    "name": "Eric Gwyn",
-    "slug": "eric-gwyn",
-    "bio": "Eric Gwyn is a leading researcher in synthetic biology and AI applications, focusing on genomic language models and biosecurity. He emphasizes the importance of developing defensive capabilities alongside design capabilities in biotechnology. His work aims to bridge the gap between innovation and safety in synthetic biology.",
-    "known_for": "Eric Gwyn is recognized for his pioneering contributions to genomic language models and their applications in biosecurity, making him a key figure in the intersection of AI and synthetic biology.",
-    "net_worth_usd": null,
-    "net_worth_source": "",
-    "net_worth_updated_at": null,
-    "voice_tone": "Informative and assertive",
-    "voice_style": "He presents a balanced view of innovation and ethical considerations.",
-    "voice_delivery_notes": "Pacing is steady with emphasis on key points.",
-    "voice_profile_updated_at": "2026-09-24 04:53:17",
-    "last_seen": "2026-09-24 04:53:17",
-    "last_episode_title": "\ud83d\udd2cBio-security is an AI Arms Race - Eric Nguyen (CEO, Radical Numerics)",
-    "last_podcast_name": "Latent Space: The AI Engineer Podcast",
-    "last_episode_date": "2026-09-23",
-    "mention_score": 1,
-    "mention_score_decayed": 0.66,
-    "last_main_idea": "The core investment opportunity lies in companies that balance innovation in synthetic biology with ethical biosecurity measures, particularly those utilizing AI for genomic analysis.",
-    "last_proof_cite": "Latent Space: The AI Engineer Podcast \u2022 2026-09-23 \u2022 \ud83d\udd2cBio-security is an AI Arms Race - Eric Nguyen (CEO, Radical Numerics)",
-    "last_proof_snippet": "The design side is going to get more people the defensive side needs to try to get ahead. So I think inherently there is this arms-restile dynamic that the defensive side has been far, far lagging. And so what we want to do is bring the def",
-    "supporting_takeaway": "",
-    "grokipedia_url": null,
-    "grokipedia_fetched_at": "2026-09-23T23:53:22.964812",
-    "pundit_profile": {
-      "source": "llm",
-      "source_model": "openai:gpt-4o-mini",
-      "source_url": "",
-      "page_title": "Eric Gwyn",
-      "fetched_at": "2026-09-24T04:53:22.964587+00:00",
-      "cliff_notes": "Eric Gwyn has established himself as a prominent figure in the fields of synthetic biology and artificial intelligence. His research focuses on the development of genomic language models that not only generate biological sequences but also assess their potential pathogenicity. This dual capability is crucial in the context of biosecurity, where understanding and mitigating risks associated with synthetic biology is increasingly important. Gwyn's approach advocates for a proactive stance in safeguarding technological advancements, ensuring that innovations in design are matched by robust defensive measures. His leadership at Article reflects a commitment to responsible innovation, aiming to empower researchers and companies to navigate the complexities of biotechnological advancements responsibly.",
-      "derived": {
-        "current_role": "CEO and Co-founder of Article"
-      },
-      "infobox": {},
-      "lead_paragraphs": [
-        "Eric Gwyn has established himself as a prominent figure in the fields of synthetic biology and artificial intelligence. His research focuses on the development of genomic language models that not only generate biological sequences but also assess their potential pathogenicity. This dual capability is crucial in the context of biosecurity, where understanding and mitigating risks associated with synthetic biology is increasingly important.",
-        "Gwyn's approach advocates for a proactive stance in safeguarding technological advancements, ensuring that innovations in design are matched by robust defensive measures. His leadership at Article reflects a commitment to responsible innovation, aiming to empower researchers and companies to navigate the complexities of biotechnological advancements responsibly."
-      ],
-      "sections": [
-        {
-          "heading": "Genomic Language Models",
-          "body": "Gwyn's work on genomic language models focuses on their ability to generate biological sequences and predict their pathogenic potential, which is vital for biosecurity."
-        },
-        {
-          "heading": "Biosecurity in Synthetic Biology",
-          "body": "He emphasizes the need for enhanced defensive capabilities in synthetic biology, advocating for a balance between innovation and safety."
-        },
-        {
-          "heading": "Dual Mandate Approach",
-          "body": "Gwyn promotes a dual mandate in his research, where design capabilities are developed alongside defensive strategies to ensure responsible use of technology."
-        }
-      ]
-    }
-  },
-  {
-    "id": 479,
-    "name": "Luca Ferrari",
-    "slug": "luca-ferrari",
-    "bio": "Luca Ferrari is a key executive at Bending Spoon, recognized for his strategic vision in technology and operational excellence. Under his leadership, the company has transformed into a billion-dollar entity through innovative acquisitions and a focus on product development. His insights into the tech industry have made him a notable figure among entrepreneurs and investors alike.",
-    "known_for": "Transforming Bending Spoon into a billion-dollar tech company through strategic acquisitions.",
-    "net_worth_usd": null,
-    "net_worth_source": "",
-    "net_worth_updated_at": null,
-    "voice_tone": "Analytical and confident",
-    "voice_style": "Direct and informative, emphasizing strategic insights.",
-    "voice_delivery_notes": "Pacing is steady with emphasis on key points.",
-    "voice_profile_updated_at": "2026-09-24 04:53:03",
-    "last_seen": "2026-09-24 04:53:03",
-    "last_episode_title": "Luca Ferrari, Bending Spoons CEO: The $40K Origin Story, Buying Product-Market Fit & Why Private Equity Can't Compete",
-    "last_podcast_name": "All-In with Chamath, Jason, Sacks & Friedberg",
-    "last_episode_date": "2026-09-23",
-    "mention_score": 1,
-    "mention_score_decayed": 0.66,
-    "last_main_idea": "Bending Spoon's unique acquisition model allows for rapid scaling and value creation by enhancing underperforming apps.",
-    "last_proof_cite": "All-In with Chamath, Jason, Sacks & Friedberg \u2022 2026-09-23 \u2022 Luca Ferrari, Bending Spoons CEO: The $40K Origin Story, Buying Product-Market Fit & Why Private Equity Can't Compete",
-    "last_proof_snippet": "You are the reason that has exactly this year. Stay went from zero to $1 billion in revenue in just ten years. Bending Spoon CTO look a Ferrari. We have never lost a bid before. Well, AOL has a new parent again. Milan-based tech company Ben",
-    "supporting_takeaway": "The company maintains a conservative leverage ratio of approximately 2.5 times, managing financial risk effectively.",
-    "grokipedia_url": null,
-    "grokipedia_fetched_at": "2026-09-23T23:53:27.461971",
-    "pundit_profile": {
-      "source": "llm",
-      "source_model": "openai:gpt-4o-mini",
-      "source_url": "",
-      "page_title": "Luca Ferrari",
-      "fetched_at": "2026-09-24T04:53:27.461823+00:00",
-      "cliff_notes": "Luca Ferrari has played a pivotal role in the growth of Bending Spoon, a Milan-based tech company that has gained significant traction in the app development market. His approach combines a methodical strategy with a focus on innovation, allowing the company to expand its portfolio and enhance its market presence. Ferrari's leadership has been instrumental in the company's ability to revive underperforming apps and develop new products that cater to a vast user base. His vision for building a generational company reflects a commitment to long-term success in the tech industry, making him a respected figure among peers and investors.",
-      "derived": {
-        "current_role": "CTO at Bending Spoon"
-      },
-      "infobox": {
-        "Born": "",
-        "Nationality": "Italian"
-      },
-      "lead_paragraphs": [
-        "Luca Ferrari has played a pivotal role in the growth of Bending Spoon, a Milan-based tech company that has gained significant traction in the app development market. His approach combines a methodical strategy with a focus on innovation, allowing the company to expand its portfolio and enhance its market presence. Ferrari's leadership has been instrumental in the company's ability to revive underperforming apps and develop new products that cater to a vast user base.",
-        "His vision for building a generational company reflects a commitment to long-term success in the tech industry, making him a respected figure among peers and investors."
-      ],
-      "sections": [
-        {
-          "heading": "Strategic Acquisitions",
-          "body": "Luca has led Bending Spoon in acquiring key assets that have bolstered its market position and expanded its capabilities. These acquisitions have been crucial in driving the company's growth trajectory."
-        },
-        {
-          "heading": "Product Innovation",
-          "body": "Under his guidance, Bending Spoon has focused on developing innovative applications that resonate with users. This emphasis on product quality has contributed to the company's impressive revenue growth."
-        },
-        {
-          "heading": "Market Expansion",
-          "body": "Ferrari's strategic initiatives have allowed Bending Spoon to penetrate new markets and reach a broader audience, significantly increasing its user base and revenue."
-        }
-      ]
-    }
-  },
-  {
     "id": 333,
     "name": "Dylan Patel",
     "slug": "dylan-patel",
@@ -55678,6 +55563,121 @@ const dashboardData = {
       ]
     },
     "net_worth": "$3.70B"
+  },
+  {
+    "id": 480,
+    "name": "Eric Gwyn",
+    "slug": "eric-gwyn",
+    "bio": "Eric Gwyn is a leading researcher in synthetic biology and AI applications, focusing on genomic language models and biosecurity. He emphasizes the importance of developing defensive capabilities alongside design capabilities in biotechnology. His work aims to bridge the gap between innovation and safety in synthetic biology.",
+    "known_for": "Eric Gwyn is recognized for his pioneering contributions to genomic language models and their applications in biosecurity, making him a key figure in the intersection of AI and synthetic biology.",
+    "net_worth_usd": null,
+    "net_worth_source": "",
+    "net_worth_updated_at": null,
+    "voice_tone": "Informative and assertive",
+    "voice_style": "He presents a balanced view of innovation and ethical considerations.",
+    "voice_delivery_notes": "Pacing is steady with emphasis on key points.",
+    "voice_profile_updated_at": "2026-09-24 04:53:17",
+    "last_seen": "2026-09-24 04:53:17",
+    "last_episode_title": "\ud83d\udd2cBio-security is an AI Arms Race - Eric Nguyen (CEO, Radical Numerics)",
+    "last_podcast_name": "Latent Space: The AI Engineer Podcast",
+    "last_episode_date": "2026-09-23",
+    "mention_score": 1,
+    "mention_score_decayed": 0.64,
+    "last_main_idea": "The core investment opportunity lies in companies that balance innovation in synthetic biology with ethical biosecurity measures, particularly those utilizing AI for genomic analysis.",
+    "last_proof_cite": "Latent Space: The AI Engineer Podcast \u2022 2026-09-23 \u2022 \ud83d\udd2cBio-security is an AI Arms Race - Eric Nguyen (CEO, Radical Numerics)",
+    "last_proof_snippet": "The design side is going to get more people the defensive side needs to try to get ahead. So I think inherently there is this arms-restile dynamic that the defensive side has been far, far lagging. And so what we want to do is bring the def",
+    "supporting_takeaway": "",
+    "grokipedia_url": null,
+    "grokipedia_fetched_at": "2026-09-23T23:53:22.964812",
+    "pundit_profile": {
+      "source": "llm",
+      "source_model": "openai:gpt-4o-mini",
+      "source_url": "",
+      "page_title": "Eric Gwyn",
+      "fetched_at": "2026-09-24T04:53:22.964587+00:00",
+      "cliff_notes": "Eric Gwyn has established himself as a prominent figure in the fields of synthetic biology and artificial intelligence. His research focuses on the development of genomic language models that not only generate biological sequences but also assess their potential pathogenicity. This dual capability is crucial in the context of biosecurity, where understanding and mitigating risks associated with synthetic biology is increasingly important. Gwyn's approach advocates for a proactive stance in safeguarding technological advancements, ensuring that innovations in design are matched by robust defensive measures. His leadership at Article reflects a commitment to responsible innovation, aiming to empower researchers and companies to navigate the complexities of biotechnological advancements responsibly.",
+      "derived": {
+        "current_role": "CEO and Co-founder of Article"
+      },
+      "infobox": {},
+      "lead_paragraphs": [
+        "Eric Gwyn has established himself as a prominent figure in the fields of synthetic biology and artificial intelligence. His research focuses on the development of genomic language models that not only generate biological sequences but also assess their potential pathogenicity. This dual capability is crucial in the context of biosecurity, where understanding and mitigating risks associated with synthetic biology is increasingly important.",
+        "Gwyn's approach advocates for a proactive stance in safeguarding technological advancements, ensuring that innovations in design are matched by robust defensive measures. His leadership at Article reflects a commitment to responsible innovation, aiming to empower researchers and companies to navigate the complexities of biotechnological advancements responsibly."
+      ],
+      "sections": [
+        {
+          "heading": "Genomic Language Models",
+          "body": "Gwyn's work on genomic language models focuses on their ability to generate biological sequences and predict their pathogenic potential, which is vital for biosecurity."
+        },
+        {
+          "heading": "Biosecurity in Synthetic Biology",
+          "body": "He emphasizes the need for enhanced defensive capabilities in synthetic biology, advocating for a balance between innovation and safety."
+        },
+        {
+          "heading": "Dual Mandate Approach",
+          "body": "Gwyn promotes a dual mandate in his research, where design capabilities are developed alongside defensive strategies to ensure responsible use of technology."
+        }
+      ]
+    }
+  },
+  {
+    "id": 479,
+    "name": "Luca Ferrari",
+    "slug": "luca-ferrari",
+    "bio": "Luca Ferrari is a key executive at Bending Spoon, recognized for his strategic vision in technology and operational excellence. Under his leadership, the company has transformed into a billion-dollar entity through innovative acquisitions and a focus on product development. His insights into the tech industry have made him a notable figure among entrepreneurs and investors alike.",
+    "known_for": "Transforming Bending Spoon into a billion-dollar tech company through strategic acquisitions.",
+    "net_worth_usd": null,
+    "net_worth_source": "",
+    "net_worth_updated_at": null,
+    "voice_tone": "Analytical and confident",
+    "voice_style": "Direct and informative, emphasizing strategic insights.",
+    "voice_delivery_notes": "Pacing is steady with emphasis on key points.",
+    "voice_profile_updated_at": "2026-09-24 04:53:03",
+    "last_seen": "2026-09-24 04:53:03",
+    "last_episode_title": "Luca Ferrari, Bending Spoons CEO: The $40K Origin Story, Buying Product-Market Fit & Why Private Equity Can't Compete",
+    "last_podcast_name": "All-In with Chamath, Jason, Sacks & Friedberg",
+    "last_episode_date": "2026-09-23",
+    "mention_score": 1,
+    "mention_score_decayed": 0.64,
+    "last_main_idea": "Bending Spoon's unique acquisition model allows for rapid scaling and value creation by enhancing underperforming apps.",
+    "last_proof_cite": "All-In with Chamath, Jason, Sacks & Friedberg \u2022 2026-09-23 \u2022 Luca Ferrari, Bending Spoons CEO: The $40K Origin Story, Buying Product-Market Fit & Why Private Equity Can't Compete",
+    "last_proof_snippet": "You are the reason that has exactly this year. Stay went from zero to $1 billion in revenue in just ten years. Bending Spoon CTO look a Ferrari. We have never lost a bid before. Well, AOL has a new parent again. Milan-based tech company Ben",
+    "supporting_takeaway": "The company maintains a conservative leverage ratio of approximately 2.5 times, managing financial risk effectively.",
+    "grokipedia_url": null,
+    "grokipedia_fetched_at": "2026-09-23T23:53:27.461971",
+    "pundit_profile": {
+      "source": "llm",
+      "source_model": "openai:gpt-4o-mini",
+      "source_url": "",
+      "page_title": "Luca Ferrari",
+      "fetched_at": "2026-09-24T04:53:27.461823+00:00",
+      "cliff_notes": "Luca Ferrari has played a pivotal role in the growth of Bending Spoon, a Milan-based tech company that has gained significant traction in the app development market. His approach combines a methodical strategy with a focus on innovation, allowing the company to expand its portfolio and enhance its market presence. Ferrari's leadership has been instrumental in the company's ability to revive underperforming apps and develop new products that cater to a vast user base. His vision for building a generational company reflects a commitment to long-term success in the tech industry, making him a respected figure among peers and investors.",
+      "derived": {
+        "current_role": "CTO at Bending Spoon"
+      },
+      "infobox": {
+        "Born": "",
+        "Nationality": "Italian"
+      },
+      "lead_paragraphs": [
+        "Luca Ferrari has played a pivotal role in the growth of Bending Spoon, a Milan-based tech company that has gained significant traction in the app development market. His approach combines a methodical strategy with a focus on innovation, allowing the company to expand its portfolio and enhance its market presence. Ferrari's leadership has been instrumental in the company's ability to revive underperforming apps and develop new products that cater to a vast user base.",
+        "His vision for building a generational company reflects a commitment to long-term success in the tech industry, making him a respected figure among peers and investors."
+      ],
+      "sections": [
+        {
+          "heading": "Strategic Acquisitions",
+          "body": "Luca has led Bending Spoon in acquiring key assets that have bolstered its market position and expanded its capabilities. These acquisitions have been crucial in driving the company's growth trajectory."
+        },
+        {
+          "heading": "Product Innovation",
+          "body": "Under his guidance, Bending Spoon has focused on developing innovative applications that resonate with users. This emphasis on product quality has contributed to the company's impressive revenue growth."
+        },
+        {
+          "heading": "Market Expansion",
+          "body": "Ferrari's strategic initiatives have allowed Bending Spoon to penetrate new markets and reach a broader audience, significantly increasing its user base and revenue."
+        }
+      ]
+    }
   },
   {
     "id": 478,
@@ -55983,7 +55983,7 @@ const dashboardData = {
     "last_podcast_name": "All-In with Chamath, Jason, Sacks & Friedberg",
     "last_episode_date": "2026-09-20",
     "mention_score": 1,
-    "mention_score_decayed": 0.62,
+    "mention_score_decayed": 0.6,
     "last_main_idea": "The mobile gaming advertising market is projected to reach $50 billion annually, presenting substantial growth opportunities.",
     "last_proof_cite": "All-In with Chamath, Jason, Sacks & Friedberg \u2022 2026-09-20 \u2022 Adam Foroughi, Applovin CEO: Surviving a 92% Drawdown, Ads as ML 1.0 & the $50B Game Ad Market",
     "last_proof_snippet": "Adam is probably the best founder and known as EverHurt of there's an earth platform hiding inside 100,000 mobile games and is quietly out-before-ing Facebook ads for e-commerce brands of all those thousand plus IPOs the number one most val",
@@ -56188,63 +56188,6 @@ const dashboardData = {
     }
   },
   {
-    "id": 466,
-    "name": "Dario Amadeh",
-    "slug": "dario-amadeh",
-    "bio": "Dario Amadeh is the CEO of Anthropic, a prominent organization focused on AI safety and research. He is known for advocating responsible AI development and implementing safety measures in the rapidly evolving field of artificial intelligence. His work emphasizes the importance of ethical considerations in technology.",
-    "known_for": "Dario Amadeh is recognized for his leadership in AI safety and his commitment to responsible AI development.",
-    "net_worth_usd": null,
-    "net_worth_source": "",
-    "net_worth_updated_at": null,
-    "voice_tone": "Cautious and reflective",
-    "voice_style": "Analytical and persuasive",
-    "voice_delivery_notes": "Measured pacing with emphasis on key safety concerns.",
-    "voice_profile_updated_at": "2026-09-18 04:53:48",
-    "last_seen": "2026-09-18 04:53:48",
-    "last_episode_title": "Frontier Labs Want to Slow Down, OpenAI Delays Its 2026 IPO, Anthropic Flags 5 Bioweapon Cases | EP #291",
-    "last_podcast_name": "Moonshots with Peter Diamandis",
-    "last_episode_date": "2026-09-17",
-    "mention_score": 1,
-    "mention_score_decayed": 0.57,
-    "last_main_idea": "The evolving landscape of AI safety and regulation presents both challenges and opportunities for investors, particularly in sectors impacted by AI integration and educational reforms.",
-    "last_proof_cite": "Moonshots with Peter Diamandis \u2022 2026-09-17 \u2022 Frontier Labs Want to Slow Down, OpenAI Delays Its 2026 IPO, Anthropic Flags 5 Bioweapon Cases | EP #291",
-    "last_proof_snippet": "Daria Amade, CEO of Enthropic, published a 3,800-word essay titled We Must Pace the Frontier. Three hours later, Sam Elan said, you're right. Monday, President Trump called it a hoax and China called it a cold war trick. Nothing less than a",
-    "supporting_takeaway": "The potential emergence of a safety cartel among AI companies could stifle competition.",
-    "grokipedia_url": null,
-    "grokipedia_fetched_at": "2026-09-17T23:54:12.886346",
-    "pundit_profile": {
-      "source": "llm",
-      "source_model": "openai:gpt-4o-mini",
-      "source_url": "",
-      "page_title": "Dario Amadeh",
-      "fetched_at": "2026-09-18T04:54:12.885990+00:00",
-      "cliff_notes": "Dario Amadeh has emerged as a significant figure in the field of artificial intelligence, particularly in the realm of safety and ethical development. As the CEO of Anthropic, he leads initiatives aimed at addressing the potential risks associated with AI technologies. His recent publications highlight the urgent need for regulation and responsible practices in AI development, positioning him as a thought leader in discussions about the future of technology. Amadeh's advocacy for safety measures reflects a growing recognition of the implications of AI on society, making his insights valuable for investors and tech enthusiasts alike.",
-      "derived": {
-        "current_role": "CEO of Anthropic",
-        "books_or_works": "We Must Pace the Frontier; Threat Intelligence Report"
-      },
-      "infobox": {},
-      "lead_paragraphs": [
-        "Dario Amadeh has emerged as a significant figure in the field of artificial intelligence, particularly in the realm of safety and ethical development. As the CEO of Anthropic, he leads initiatives aimed at addressing the potential risks associated with AI technologies. His recent publications highlight the urgent need for regulation and responsible practices in AI development, positioning him as a thought leader in discussions about the future of technology.",
-        "Amadeh's advocacy for safety measures reflects a growing recognition of the implications of AI on society, making his insights valuable for investors and tech enthusiasts alike."
-      ],
-      "sections": [
-        {
-          "heading": "AI Safety Advocacy",
-          "body": "Dario Amadeh is a prominent advocate for AI safety, emphasizing the need for responsible development practices to mitigate risks associated with artificial intelligence."
-        },
-        {
-          "heading": "Leadership at Anthropic",
-          "body": "As CEO of Anthropic, Amadeh drives the organization's mission to prioritize safety and ethical considerations in AI research and deployment."
-        },
-        {
-          "heading": "Publications on AI Regulation",
-          "body": "His recent essays and reports, including 'We Must Pace the Frontier' and the 'Threat Intelligence Report,' address the critical need for AI regulation and the potential dangers of unchecked technological advancement."
-        }
-      ]
-    }
-  },
-  {
     "id": 133,
     "name": "Chris Dixon",
     "slug": "chris-dixon",
@@ -56304,6 +56247,63 @@ const dashboardData = {
       ]
     },
     "net_worth": "$500.0M"
+  },
+  {
+    "id": 466,
+    "name": "Dario Amadeh",
+    "slug": "dario-amadeh",
+    "bio": "Dario Amadeh is the CEO of Anthropic, a prominent organization focused on AI safety and research. He is known for advocating responsible AI development and implementing safety measures in the rapidly evolving field of artificial intelligence. His work emphasizes the importance of ethical considerations in technology.",
+    "known_for": "Dario Amadeh is recognized for his leadership in AI safety and his commitment to responsible AI development.",
+    "net_worth_usd": null,
+    "net_worth_source": "",
+    "net_worth_updated_at": null,
+    "voice_tone": "Cautious and reflective",
+    "voice_style": "Analytical and persuasive",
+    "voice_delivery_notes": "Measured pacing with emphasis on key safety concerns.",
+    "voice_profile_updated_at": "2026-09-18 04:53:48",
+    "last_seen": "2026-09-18 04:53:48",
+    "last_episode_title": "Frontier Labs Want to Slow Down, OpenAI Delays Its 2026 IPO, Anthropic Flags 5 Bioweapon Cases | EP #291",
+    "last_podcast_name": "Moonshots with Peter Diamandis",
+    "last_episode_date": "2026-09-17",
+    "mention_score": 1,
+    "mention_score_decayed": 0.56,
+    "last_main_idea": "The evolving landscape of AI safety and regulation presents both challenges and opportunities for investors, particularly in sectors impacted by AI integration and educational reforms.",
+    "last_proof_cite": "Moonshots with Peter Diamandis \u2022 2026-09-17 \u2022 Frontier Labs Want to Slow Down, OpenAI Delays Its 2026 IPO, Anthropic Flags 5 Bioweapon Cases | EP #291",
+    "last_proof_snippet": "Daria Amade, CEO of Enthropic, published a 3,800-word essay titled We Must Pace the Frontier. Three hours later, Sam Elan said, you're right. Monday, President Trump called it a hoax and China called it a cold war trick. Nothing less than a",
+    "supporting_takeaway": "The potential emergence of a safety cartel among AI companies could stifle competition.",
+    "grokipedia_url": null,
+    "grokipedia_fetched_at": "2026-09-17T23:54:12.886346",
+    "pundit_profile": {
+      "source": "llm",
+      "source_model": "openai:gpt-4o-mini",
+      "source_url": "",
+      "page_title": "Dario Amadeh",
+      "fetched_at": "2026-09-18T04:54:12.885990+00:00",
+      "cliff_notes": "Dario Amadeh has emerged as a significant figure in the field of artificial intelligence, particularly in the realm of safety and ethical development. As the CEO of Anthropic, he leads initiatives aimed at addressing the potential risks associated with AI technologies. His recent publications highlight the urgent need for regulation and responsible practices in AI development, positioning him as a thought leader in discussions about the future of technology. Amadeh's advocacy for safety measures reflects a growing recognition of the implications of AI on society, making his insights valuable for investors and tech enthusiasts alike.",
+      "derived": {
+        "current_role": "CEO of Anthropic",
+        "books_or_works": "We Must Pace the Frontier; Threat Intelligence Report"
+      },
+      "infobox": {},
+      "lead_paragraphs": [
+        "Dario Amadeh has emerged as a significant figure in the field of artificial intelligence, particularly in the realm of safety and ethical development. As the CEO of Anthropic, he leads initiatives aimed at addressing the potential risks associated with AI technologies. His recent publications highlight the urgent need for regulation and responsible practices in AI development, positioning him as a thought leader in discussions about the future of technology.",
+        "Amadeh's advocacy for safety measures reflects a growing recognition of the implications of AI on society, making his insights valuable for investors and tech enthusiasts alike."
+      ],
+      "sections": [
+        {
+          "heading": "AI Safety Advocacy",
+          "body": "Dario Amadeh is a prominent advocate for AI safety, emphasizing the need for responsible development practices to mitigate risks associated with artificial intelligence."
+        },
+        {
+          "heading": "Leadership at Anthropic",
+          "body": "As CEO of Anthropic, Amadeh drives the organization's mission to prioritize safety and ethical considerations in AI research and deployment."
+        },
+        {
+          "heading": "Publications on AI Regulation",
+          "body": "His recent essays and reports, including 'We Must Pace the Frontier' and the 'Threat Intelligence Report,' address the critical need for AI regulation and the potential dangers of unchecked technological advancement."
+        }
+      ]
+    }
   },
   {
     "id": 465,
@@ -68016,7 +68016,7 @@ const dashboardData = {
     "last_podcast_name": "The a16z Show",
     "last_episode_date": "2026-05-05",
     "mention_score": 1,
-    "mention_score_decayed": 0.03,
+    "mention_score_decayed": 0.02,
     "last_main_idea": "Building a successful investment organization requires compounding talent, capital, and culture over time, focusing on long-term growth rather than short-term gains.",
     "last_proof_cite": "The a16z Show \u2022 2026-05-05 \u2022 Building Blackstone, Backing Costco, with Tony James",
     "last_proof_snippet": "If you think about the development of a successful company, there's kind of an Esker. It starts off small and entrepreneurial. Then there's this kind of escalation where you create a lot of value in a lot of size. People know Blackstone tod",
@@ -73864,7 +73864,7 @@ const dashboardData = {
         }
       ],
       "disclaimer": "Research sleeve / scorecard, not advice. $1,000 equal-weight illustration only.",
-      "last_updated": "2026-10-12T23:44:23.604970"
+      "last_updated": "2026-10-13T05:02:25.910687"
     }
   ]
 }
