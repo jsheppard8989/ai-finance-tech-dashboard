@@ -7,7 +7,7 @@
     "_comment": "Treasury coupon auction calendar + recent results. Source: TreasuryDirect TA_WS (fetch_treasury_calendar.py). Bills excluded.",
     "_fetch_url": "https://www.treasurydirect.gov/TA_WS/securities/upcoming?format=json",
     "_results_url": "https://www.treasurydirect.gov/TA_WS/securities/auctioned?format=json&days=45",
-    "last_updated": "2026-10-13T06:04:54",
+    "last_updated": "2026-10-13T14:15:53",
     "as_of_date": "2026-10-13",
     "next_refunding_announcement": {
       "date": "2026-11-04",
@@ -256,7 +256,7 @@
     "_primary_source": "Treasury.gov",
     "_source_url": "https://home.treasury.gov/resource-center/data-chart-center/interest-rates/TextView?type=daily_treasury_yield_curve",
     "_fred_status": "unavailable (optional)",
-    "last_updated": "2026-10-13T06:04:52.887471",
+    "last_updated": "2026-10-13T14:15:53.366398",
     "as_of_date": "2026-10-09",
     "spreads": {
       "2s10s": {
@@ -297,10 +297,10 @@
       "_comment": "MOVE Index - bond market VIX. Source: Yahoo Finance ^MOVE.",
       "label": "MOVE Index",
       "description": "Treasury implied volatility index. High readings = bond market stress/uncertainty.",
-      "value": 98.47,
-      "change_1d": -2.23,
-      "as_of": "2026-10-09",
-      "signal": "normal",
+      "value": 100.93,
+      "change_1d": 2.46,
+      "as_of": "2026-10-13",
+      "signal": "elevated",
       "yahoo_symbol": "^MOVE",
       "source": "Yahoo Finance",
       "thresholds": {
@@ -316,7 +316,7 @@
     "_fetch_url": "https://www.cftc.gov/dea/futures/financial_lf.htm",
     "_api_alternative": "Quandl CFTC dataset (may need key)",
     "_fetch_instructions": "CFTC releases COT every Friday at 3:30pm ET for positions as of prior Tuesday.",
-    "last_updated": "2026-10-13T06:04:53.081038",
+    "last_updated": "2026-10-13T14:15:53.580727",
     "report_date": "2026-10-06",
     "prior_report_date": "2026-09-29",
     "change_source": "cftc_changes_row",
@@ -406,14 +406,14 @@
     "_source_url": "https://gpu-index.semianalysis.com/",
     "_api_url": "https://gpu-index.semianalysis.com/api/public-data",
     "_data_type": "api_index",
-    "last_fetched": "2026-10-13T06:04:36.981645",
+    "last_fetched": "2026-10-13T14:15:37.770873",
     "h100": {
       "daily_date": "Oct 13, 2026",
       "daily_date_iso": "2026-10-13",
       "composite_index": {
-        "display": "$3.31",
+        "display": "$3.32",
         "type": "single",
-        "value": 3.31
+        "value": 3.32
       },
       "contract_period": "Aug 2026",
       "1y_contract": {
@@ -438,21 +438,21 @@
       ],
       "daily_trend": {
         "data_points": 1098,
-        "latest_value": 3.31,
+        "latest_value": 3.32,
         "latest_date": "Oct 13, 2026",
         "short_term": {
-          "change_pct": 0.3,
+          "change_pct": 0.6,
           "comparison_date": "Oct 06, 2026",
           "comparison_value": 3.3,
           "days_back": 7
         },
         "long_term": {
-          "change_pct": 1.5,
+          "change_pct": 1.8,
           "anchor_date": "Sep 13, 2026",
           "anchor_value": 3.26,
           "days_back": 30
         },
-        "change_pct": 0.3,
+        "change_pct": 0.6,
         "comparison_date": "Oct 06, 2026"
       },
       "contract_trend": {
