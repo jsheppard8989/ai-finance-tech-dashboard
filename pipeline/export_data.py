@@ -85,20 +85,38 @@ def _count_podcasts_analyzed_today() -> int:
 SUMMARY_OVERRIDES_PATH = Path(__file__).parent / "summary_overrides.json"
 
 
-def _apply_summary_overrides(obj):
-    """Apply pipeline/summary_overrides.json text fixes to every record's 'summary' (in place)."""
+OVERRIDE_TEXT_FIELDS = ("summary", "key_takeaway", "key_takeaways", "investment_thesis")
+
+
+def _replace_text(value, replacements):
+    if isinstance(value, str):
+        for old, new in replacements:
+            value = value.replace(old, new)
+        return value
+    if isinstance(value, list):
+        return [_replace_text(v, replacements) for v in value]
+    return value
+
+
+def _load_override_rules():
     try:
-        rules = json.loads(SUMMARY_OVERRIDES_PATH.read_text(encoding="utf-8")).get("summaries", [])
+        return json.loads(SUMMARY_OVERRIDES_PATH.read_text(encoding="utf-8"))
     except FileNotFoundError:
-        return obj
+        return {}
+
+
+def _apply_summary_overrides(obj):
+    """Apply pipeline/summary_overrides.json text fixes (in place) to every record's
+    summary / key_takeaway / key_takeaways / investment_thesis fields."""
+    rules = _load_override_rules().get("summaries", [])
     def walk(o):
         if isinstance(o, dict):
             title = str(o.get("episode_title") or o.get("title") or "")
-            if isinstance(o.get("summary"), str):
-                for r in rules:
-                    if r.get("episode_title") and r["episode_title"] in title:
-                        for old, new in r.get("replacements", []):
-                            o["summary"] = o["summary"].replace(old, new)
+            for r in rules:
+                if r.get("episode_title") and r["episode_title"] in title:
+                    for field in OVERRIDE_TEXT_FIELDS:
+                        if field in o:
+                            o[field] = _replace_text(o[field], r.get("replacements", []))
             for v in o.values():
                 walk(v)
         elif isinstance(o, list):
@@ -106,6 +124,19 @@ def _apply_summary_overrides(obj):
                 walk(v)
     walk(obj)
     return obj
+
+
+def _apply_term_overrides(terms):
+    """Apply 'terms' rules (matched by exact term text) to suggested-term records (in place)."""
+    rules = _load_override_rules().get("terms", [])
+    for t in terms if isinstance(terms, list) else []:
+        if not isinstance(t, dict):
+            continue
+        for r in rules:
+            if r.get("term") and t.get("term") == r["term"]:
+                for field, value in r.get("set", {}).items():
+                    t[field] = value
+    return terms
 
 
 def _apply_summary_overrides_to_files(site_dir: Path) -> None:
@@ -1104,6 +1135,7 @@ def generate_website_js():
     main_content, podcast_guests = _apply_guest_export_overrides(main_content, podcast_guests)
     _apply_summary_overrides(archive)
     _apply_summary_overrides(main_content)
+    _apply_term_overrides(suggested_terms)
     # Load pundits (semantic layer) from JSON exported by export_for_website
     pundits_path = site_dir / "pundits.json"
     try:

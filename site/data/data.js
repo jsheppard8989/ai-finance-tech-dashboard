@@ -52732,8 +52732,8 @@ const dashboardData = {
   },
   {
     "id": 888,
-    "term": "MATMO",
-    "definition": "Shkreli\u2019s shorthand for photonic/analog optical compute cores that use light to do matrix multiplication very efficiently. He treats this as a potential successor architecture to GPU-centric computing.",
+    "term": "Photonic matrix-multiplication cores",
+    "definition": "Photonic/analog optical compute cores that use light to do matrix multiplication very efficiently. Shkreli treats this as a potential successor architecture to GPU-centric computing.",
     "investment_implications": "If real, it could create a new compute platform with major implications for semiconductor, AI infrastructure, and specialized hardware winners.",
     "source_type": "auto_extracted",
     "mention_count": 1,
