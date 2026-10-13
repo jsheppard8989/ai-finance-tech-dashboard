@@ -82,6 +82,50 @@ def _count_podcasts_analyzed_today() -> int:
         return 0
 
 
+SUMMARY_OVERRIDES_PATH = Path(__file__).parent / "summary_overrides.json"
+
+
+def _apply_summary_overrides(obj):
+    """Apply pipeline/summary_overrides.json text fixes to every record's 'summary' (in place)."""
+    try:
+        rules = json.loads(SUMMARY_OVERRIDES_PATH.read_text(encoding="utf-8")).get("summaries", [])
+    except FileNotFoundError:
+        return obj
+    def walk(o):
+        if isinstance(o, dict):
+            title = str(o.get("episode_title") or o.get("title") or "")
+            if isinstance(o.get("summary"), str):
+                for r in rules:
+                    if r.get("episode_title") and r["episode_title"] in title:
+                        for old, new in r.get("replacements", []):
+                            o["summary"] = o["summary"].replace(old, new)
+            for v in o.values():
+                walk(v)
+        elif isinstance(o, list):
+            for v in o:
+                walk(v)
+    walk(obj)
+    return obj
+
+
+def _apply_summary_overrides_to_files(site_dir: Path) -> None:
+    for name in ("podcast_summaries.json", "archive.json"):
+        f = site_dir / name
+        if not f.is_file():
+            continue
+        try:
+            data = json.loads(f.read_text(encoding="utf-8"))
+        except Exception as e:
+            print(f"  ⚠ summary overrides skipped for {name}: {e}")
+            continue
+        before = json.dumps(data)
+        _apply_summary_overrides(data)
+        if json.dumps(data) != before:
+            with open(f, "w") as fh:
+                json.dump(data, fh, indent=2)
+            print(f"  ✓ Applied summary overrides to {name}")
+
+
 def export_website_data():
     """Export data for website."""
     print("="*60)
@@ -94,6 +138,7 @@ def export_website_data():
     
     stats = db.export_for_website(site_dir)
     print(f"✓ Exported: {stats}")
+    _apply_summary_overrides_to_files(site_dir)
 
     # Main-page section counts (same content that feeds the three dashboard sections)
     main_content = db.get_main_page_content()
@@ -1057,6 +1102,8 @@ def generate_website_js():
     suggested_terms = sanitize_public_text(db.get_suggested_terms_for_website(limit=4))
     podcast_guests = sanitize_public_text(db.get_podcast_guests_for_site(limit=20))
     main_content, podcast_guests = _apply_guest_export_overrides(main_content, podcast_guests)
+    _apply_summary_overrides(archive)
+    _apply_summary_overrides(main_content)
     # Load pundits (semantic layer) from JSON exported by export_for_website
     pundits_path = site_dir / "pundits.json"
     try:
