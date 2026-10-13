@@ -1,8 +1,68 @@
 [
   {
-    "id": 83477,
-    "name": "Synthesis Superintelligence",
-    "slug": "synthesis-superintelligence",
+    "id": 85695,
+    "name": "Martin Shkreli",
+    "slug": "martin-shkreli",
+    "bio": null,
+    "known_for": null,
+    "last_main_idea": "Shkreli\u2019s core claim is that quantum computing remains too narrow for business value, while photonic/analog optical computing may eventually challenge GPUs and reshape compute economics.",
+    "last_episode_title": "Martin Shkreli: Big Pharma's Blind Spot, Betting Against Quantum & What Prison Taught Him",
+    "last_podcast_name": "All-In with Chamath, Jason, Sacks & Friedberg",
+    "last_episode_date": "2026-10-12",
+    "appearance_count": 1
+  },
+  {
+    "id": 85696,
+    "name": "Nick Bostrom",
+    "slug": "nick-bostrom",
+    "bio": null,
+    "known_for": null,
+    "last_main_idea": "Bostrom\u2019s main claim is that frontier AI should be paced, not broadly paused, because short delays may reduce existential risk while preserving enormous upside from safe superintelligence.",
+    "last_episode_title": "Nick Bostrom: How Should We Navigate Superintelligence?",
+    "last_podcast_name": "The a16z Show",
+    "last_episode_date": "2026-10-11",
+    "appearance_count": 1
+  },
+  {
+    "id": 85697,
+    "name": "What Makes a Great Entrepreneur?",
+    "slug": "what-makes-a-great-entrepreneur",
+    "bio": null,
+    "known_for": null,
+    "last_main_idea": "AI is a real demand boom, not a bubble, and it will force a rebuild of infrastructure while rewarding companies with developer-stack moats and proprietary data loops.",
+    "last_episode_title": "What Makes a Great Entrepreneur? | Ben Horowitz on Vintage x Vintage",
+    "last_podcast_name": "The a16z Show",
+    "last_episode_date": "2026-10-10",
+    "appearance_count": 1
+  },
+  {
+    "id": 85698,
+    "name": "Pat Gelsinger",
+    "slug": "pat-gelsinger",
+    "bio": null,
+    "known_for": null,
+    "last_main_idea": "AI infrastructure bottlenecks are shifting from chip design to memory, packaging, power, and optics, creating new investment opportunities in those layers.",
+    "last_episode_title": "Chips, Memory, and Power | Pat Gelsinger",
+    "last_podcast_name": "The a16z Show",
+    "last_episode_date": "2026-10-09",
+    "appearance_count": 1
+  },
+  {
+    "id": 85699,
+    "name": "AWS CEO Matt Garman",
+    "slug": "aws-ceo-matt-garman",
+    "bio": null,
+    "known_for": null,
+    "last_main_idea": "Matt Garman argues AWS's AI infrastructure buildout remains demand-driven because Amazon expects $220 billion of 2026 capex, 2 million Nvidia GPUs over coming years, and production workloads across Bedrock, inference, and cloud migration.",
+    "last_episode_title": "Building the Cloud for an Agentic World | AWS CEO Matt Garman",
+    "last_podcast_name": "The a16z Show",
+    "last_episode_date": "2026-10-08",
+    "appearance_count": 1
+  },
+  {
+    "id": 85700,
+    "name": "Liam Fedus and Ekin Do\u011fu\u015f \u00c7ubuk",
+    "slug": "liam-fedus-and-ekin-do\u011fu\u015f-\u00e7ubuk",
     "bio": null,
     "known_for": null,
     "last_main_idea": "Periodic\u2019s core claim is that materials discovery will be accelerated most by physically grounded RL, instrument intelligence, and lineage-rich experimental data\u2014not by simulations or model scale alone.",
@@ -12,7 +72,7 @@
     "appearance_count": 1
   },
   {
-    "id": 83478,
+    "id": 85701,
     "name": "Stacy Rasgon",
     "slug": "stacy-rasgon",
     "bio": null,
@@ -24,9 +84,9 @@
     "appearance_count": 1
   },
   {
-    "id": 83479,
-    "name": "Google X's Astro Teller",
-    "slug": "google-xs-astro-teller",
+    "id": 85702,
+    "name": "Astro Teller",
+    "slug": "astro-teller",
     "bio": null,
     "known_for": null,
     "last_main_idea": "Astro Teller says X reduced the cost of graduating moonshots by about 3x over 16 years, partly through AI, earlier graduations, and improved operating discipline.",
@@ -36,7 +96,7 @@
     "appearance_count": 1
   },
   {
-    "id": 83480,
+    "id": 85703,
     "name": "Alex Atallah & Amjad Masad",
     "slug": "alex-atallah--amjad-masad",
     "bio": null,
@@ -48,7 +108,7 @@
     "appearance_count": 1
   },
   {
-    "id": 83481,
+    "id": 85704,
     "name": "Barrett Lyon",
     "slug": "barrett-lyon",
     "bio": null,
@@ -60,7 +120,19 @@
     "appearance_count": 1
   },
   {
-    "id": 83482,
+    "id": 85705,
+    "name": "State of Markets",
+    "slug": "state-of-markets",
+    "bio": null,
+    "known_for": null,
+    "last_main_idea": "The a16z growth team argues hyperscaler AI CapEx can exceed $1 trillion annually from 2027 because agentic compute demand continues to outstrip supply across chips, power, cooling, and construction.",
+    "last_episode_title": "The $1 Trillion AI Buildout | State of Markets",
+    "last_podcast_name": "The a16z Show",
+    "last_episode_date": "2026-09-30",
+    "appearance_count": 1
+  },
+  {
+    "id": 85706,
     "name": "Token Bill Dwarfs CPU Bill",
     "slug": "token-bill-dwarfs-cpu-bill",
     "bio": null,
@@ -72,7 +144,7 @@
     "appearance_count": 1
   },
   {
-    "id": 83483,
+    "id": 85707,
     "name": "Jake Paul & The Chainsmokers",
     "slug": "jake-paul--the-chainsmokers",
     "bio": null,
@@ -84,7 +156,31 @@
     "appearance_count": 1
   },
   {
-    "id": 83484,
+    "id": 85709,
+    "name": "Moonshots Live",
+    "slug": "moonshots-live",
+    "bio": null,
+    "known_for": null,
+    "last_main_idea": "Elon Musk argues that the merger of Tesla and SpaceX will create a comprehensive ecosystem for AI, EVs, and robotics, positioning the combined entity as a leader in technology.",
+    "last_episode_title": "Cathie Wood on Tesla-SpaceX Merger, $1M Bitcoin, More AIs Than Humans | EP #296 | Moonshots Live",
+    "last_podcast_name": "Moonshots with Peter Diamandis",
+    "last_episode_date": "2026-09-29",
+    "appearance_count": 2
+  },
+  {
+    "id": 85708,
+    "name": "Anish Acharya & David Pawlan",
+    "slug": "anish-acharya--david-pawlan",
+    "bio": null,
+    "known_for": null,
+    "last_main_idea": "David Pawlan argues personal AI agents will compete on proactivity rather than 10% efficiency, citing 122 tracked assistants and cost-saving workflows such as HSA reimbursements, flight credits, and 50% lower water bills.",
+    "last_episode_title": "The Personal Agent Race Is Here | Anish Acharya & David Pawlan",
+    "last_podcast_name": "The a16z Show",
+    "last_episode_date": "2026-09-29",
+    "appearance_count": 1
+  },
+  {
+    "id": 85710,
     "name": "Palmer Luckey",
     "slug": "palmer-luckey",
     "bio": null,
@@ -96,7 +192,7 @@
     "appearance_count": 1
   },
   {
-    "id": 83485,
+    "id": 85711,
     "name": "Daniel Ek",
     "slug": "daniel-ek",
     "bio": null,
@@ -108,7 +204,43 @@
     "appearance_count": 1
   },
   {
-    "id": 83486,
+    "id": 85712,
+    "name": "Maggie Landers",
+    "slug": "maggie-landers",
+    "bio": null,
+    "known_for": null,
+    "last_main_idea": "Maggie Landers argues Harvey's AI legal opportunity requires a heavy people motion, with over 400 open jobs and plans to reach 16 markets in a year because customers need local legal expertise.",
+    "last_episode_title": "Building a Team at AI Speed | Harvey\u2019s Maggie Landers",
+    "last_podcast_name": "The a16z Show",
+    "last_episode_date": "2026-09-27",
+    "appearance_count": 1
+  },
+  {
+    "id": 85713,
+    "name": "Introducing Cosign",
+    "slug": "introducing-cosign",
+    "bio": null,
+    "known_for": null,
+    "last_main_idea": "Investing in platforms like Co-sign that leverage endorsements and social capital can yield significant returns as they address inefficiencies in talent discovery and professional networking.",
+    "last_episode_title": "The Reputation Graph of Silicon Valley | Introducing Cosign",
+    "last_podcast_name": "The a16z Show",
+    "last_episode_date": "2026-09-25",
+    "appearance_count": 1
+  },
+  {
+    "id": 85714,
+    "name": "Eddy Lazzarin",
+    "slug": "eddy-lazzarin",
+    "bio": null,
+    "known_for": null,
+    "last_main_idea": "Eddy Lazzarin argues an AI pause would delay abundance from local cybersecurity models, healthcare tools, and safer travel, because capability gains can produce better metrology, controls, and model accountability.",
+    "last_episode_title": "The Case Against an AI Pause | Eddy Lazzarin",
+    "last_podcast_name": "The a16z Show",
+    "last_episode_date": "2026-09-24",
+    "appearance_count": 1
+  },
+  {
+    "id": 85715,
     "name": "Michael Every",
     "slug": "michael-every",
     "bio": null,
@@ -120,7 +252,7 @@
     "appearance_count": 1
   },
   {
-    "id": 83487,
+    "id": 85716,
     "name": "Steve Hilton & Spencer Pratt",
     "slug": "steve-hilton--spencer-pratt",
     "bio": null,
@@ -132,7 +264,19 @@
     "appearance_count": 1
   },
   {
-    "id": 83488,
+    "id": 85717,
+    "name": "Clocktower Group",
+    "slug": "clocktower-group",
+    "bio": null,
+    "known_for": null,
+    "last_main_idea": "",
+    "last_episode_title": "Energy Shock and Rate Hikes Could Cause a 2022 Style Bear Market | Eric Wallerstein | Clocktower Group",
+    "last_podcast_name": "Monetary Matters with Jack Farley",
+    "last_episode_date": "2026-09-23",
+    "appearance_count": 1
+  },
+  {
+    "id": 85718,
     "name": "Blake Scholl",
     "slug": "blake-scholl",
     "bio": null,
@@ -144,7 +288,7 @@
     "appearance_count": 1
   },
   {
-    "id": 83489,
+    "id": 85719,
     "name": "John Platt",
     "slug": "john-platt",
     "bio": null,
@@ -156,7 +300,19 @@
     "appearance_count": 1
   },
   {
-    "id": 83490,
+    "id": 85720,
+    "name": "Steven Sinofsky",
+    "slug": "steven-sinofsky",
+    "bio": null,
+    "known_for": null,
+    "last_main_idea": "Investing in companies that prioritize clear communication, robust telemetry, and operational security in AI development presents a significant opportunity as the industry matures.",
+    "last_episode_title": "AI Safety Language Is Destroying the Debate | Steven Sinofsky",
+    "last_podcast_name": "The a16z Show",
+    "last_episode_date": "2026-09-21",
+    "appearance_count": 2
+  },
+  {
+    "id": 85721,
     "name": "Diogo Almeida",
     "slug": "diogo-almeida",
     "bio": null,
@@ -168,7 +324,7 @@
     "appearance_count": 1
   },
   {
-    "id": 83491,
+    "id": 85722,
     "name": "Naveen Rao",
     "slug": "naveen-rao",
     "bio": null,
@@ -180,7 +336,7 @@
     "appearance_count": 1
   },
   {
-    "id": 83492,
+    "id": 85723,
     "name": "Outlook on 5 Key Commodities",
     "slug": "outlook-on-5-key-commodities",
     "bio": null,
@@ -192,7 +348,7 @@
     "appearance_count": 1
   },
   {
-    "id": 83493,
+    "id": 85724,
     "name": "Bill Gurley",
     "slug": "bill-gurley",
     "bio": null,
@@ -201,162 +357,6 @@
     "last_episode_title": "Bill Gurley: Searching for Feynman",
     "last_podcast_name": "All-In with Chamath, Jason, Sacks & Friedberg",
     "last_episode_date": "2026-09-19",
-    "appearance_count": 1
-  },
-  {
-    "id": 83494,
-    "name": "Nick Shirley",
-    "slug": "nick-shirley",
-    "bio": null,
-    "known_for": null,
-    "last_main_idea": "",
-    "last_episode_title": "Nick Shirley: Exposing Government Fraud, Suing California & Taking on the Media",
-    "last_podcast_name": "All-In with Chamath, Jason, Sacks & Friedberg",
-    "last_episode_date": "2026-09-18",
-    "appearance_count": 1
-  },
-  {
-    "id": 83495,
-    "name": "Jared Isaacman",
-    "slug": "jared-isaacman",
-    "bio": null,
-    "known_for": null,
-    "last_main_idea": "Investing in companies involved in aerospace, nuclear technology, and robotics could yield significant returns as NASA advances its lunar and deep space missions.",
-    "last_episode_title": "Jared Isaacman: A New Era for NASA and American Space Exploration",
-    "last_podcast_name": "All-In with Chamath, Jason, Sacks & Friedberg",
-    "last_episode_date": "2026-09-18",
-    "appearance_count": 1
-  },
-  {
-    "id": 83496,
-    "name": "Brad Gerstner",
-    "slug": "brad-gerstner",
-    "bio": null,
-    "known_for": null,
-    "last_main_idea": "Investing in preventive healthcare and AI infrastructure presents significant opportunities, but requires careful monitoring of revenue growth and market conditions.",
-    "last_episode_title": "Brad Gerstner: No AI Bubble, Semis Eat the Nasdaq & AI's Take Off Problem",
-    "last_podcast_name": "All-In with Chamath, Jason, Sacks & Friedberg",
-    "last_episode_date": "2026-09-17",
-    "appearance_count": 1
-  },
-  {
-    "id": 83497,
-    "name": "Meta's Dina Powell McCormick",
-    "slug": "metas-dina-powell-mccormick",
-    "bio": null,
-    "known_for": null,
-    "last_main_idea": "Investing in tech companies that prioritize community engagement and workforce development can yield sustainable returns and mitigate risks associated with public sentiment.",
-    "last_episode_title": "Meta's Dina Powell McCormick: The Case for Data Centers, Backlash, AI Job Boom & Meta's Future",
-    "last_podcast_name": "All-In with Chamath, Jason, Sacks & Friedberg",
-    "last_episode_date": "2026-09-17",
-    "appearance_count": 1
-  },
-  {
-    "id": 83498,
-    "name": "Underwriting Superintelligence",
-    "slug": "underwriting-superintelligence",
-    "bio": null,
-    "known_for": null,
-    "last_main_idea": "The core investment opportunity lies in companies that provide solutions for AI risk management, as they are positioned to capture growing market demand driven by the need for trust and safety in AI technologies.",
-    "last_episode_title": "Underwriting Superintelligence: Backing Agents you can Sue \u2014 Rune Kvist, AIUC",
-    "last_podcast_name": "Latent Space: The AI Engineer Podcast",
-    "last_episode_date": "2026-09-16",
-    "appearance_count": 1
-  },
-  {
-    "id": 83499,
-    "name": "Hawks Take Flight",
-    "slug": "hawks-take-flight",
-    "bio": null,
-    "known_for": null,
-    "last_main_idea": "",
-    "last_episode_title": "Hawks Take Flight | Joseph Wang on Fed\u2019s Hawkish Hike and Warsh\u2019s Gameplan",
-    "last_podcast_name": "Monetary Matters with Jack Farley",
-    "last_episode_date": "2026-09-16",
-    "appearance_count": 1
-  },
-  {
-    "id": 83500,
-    "name": "Martine Rothblatt",
-    "slug": "martine-rothblatt",
-    "bio": null,
-    "known_for": null,
-    "last_main_idea": "Investing in companies focused on thymic rejuvenation and scalable organ regeneration technologies presents a compelling opportunity in the burgeoning biotechnology sector.",
-    "last_episode_title": "Martine Rothblatt: Growing Unlimited Organs, AI Consciousness, & Digital Personhood by 2030",
-    "last_podcast_name": "Moonshots with Peter Diamandis",
-    "last_episode_date": "2026-09-15",
-    "appearance_count": 1
-  },
-  {
-    "id": 83501,
-    "name": "Microsoft CEO Satya Nadella",
-    "slug": "microsoft-ceo-satya-nadella",
-    "bio": null,
-    "known_for": null,
-    "last_main_idea": "The future of AI investment lies in companies that prioritize reliability, competition, and control over AI technologies while addressing economic impacts and interoperability.",
-    "last_episode_title": "Satya Nadella on the AI Doomer Slowdown, Microsoft's Master Plan & Who Wins AI",
-    "last_podcast_name": "All-In with Chamath, Jason, Sacks & Friedberg",
-    "last_episode_date": "2026-09-15",
-    "appearance_count": 1
-  },
-  {
-    "id": 83502,
-    "name": "Jensen Huang",
-    "slug": "jensen-huang",
-    "bio": null,
-    "known_for": null,
-    "last_main_idea": "Investing in AI companies that prioritize safety, leverage open-source models, and demonstrate strong operational capabilities will likely yield significant returns as the sector evolves.",
-    "last_episode_title": "Jensen Huang: The Doomer Hoax, Superintelligence Is Here, and The Future of AI (ft. President Trump)",
-    "last_podcast_name": "All-In with Chamath, Jason, Sacks & Friedberg",
-    "last_episode_date": "2026-09-14",
-    "appearance_count": 1
-  },
-  {
-    "id": 83503,
-    "name": "Ask the Mates anything",
-    "slug": "ask-the-mates-anything",
-    "bio": null,
-    "known_for": null,
-    "last_main_idea": "AI is rapidly becoming the foundational enabling layer across healthcare, neurotechnology, education, and energy, creating a multi-decade opportunity to invest in startups and platforms that replace legacy systems with predictive, personalized, and exponentially scalable solutions.",
-    "last_episode_title": "Ask the Mates anything | MOONSHOTS AMA  #289",
-    "last_podcast_name": "Moonshots with Peter Diamandis",
-    "last_episode_date": "2026-09-13",
-    "appearance_count": 1
-  },
-  {
-    "id": 83504,
-    "name": "Matt Barry",
-    "slug": "matt-barry",
-    "bio": null,
-    "known_for": null,
-    "last_main_idea": "The core opportunity lies in AI infrastructure and hardware providers benefiting from enterprise insourcing, while model-facing incumbents face margin compression from zero switching costs and open competition.",
-    "last_episode_title": "MacroVoices #549 Matt Barrie: AI-gent Provocateur",
-    "last_podcast_name": "Macro Voices",
-    "last_episode_date": "2026-09-10",
-    "appearance_count": 1
-  },
-  {
-    "id": 83505,
-    "name": "Who Grades the AI Models?",
-    "slug": "who-grades-the-ai-models",
-    "bio": null,
-    "known_for": null,
-    "last_main_idea": "Independent benchmarking and third-party model evaluation are becoming critical infrastructure as enterprise AI token spend rapidly outpaces traditional labor costs, creating opportunities in validation services and internal ROI optimization platforms while mitigating risks from benchmark gaming.",
-    "last_episode_title": "Who Grades the AI Models? | Ben Horowitz & Rayan Krishnan",
-    "last_podcast_name": "The a16z Show",
-    "last_episode_date": "2026-09-09",
-    "appearance_count": 1
-  },
-  {
-    "id": 83506,
-    "name": "Your AI Doctor Is Coming",
-    "slug": "your-ai-doctor-is-coming",
-    "bio": null,
-    "known_for": null,
-    "last_main_idea": "Healthcare is entering a renaissance where AI-native companies, consumer-driven cash-pay models, and alternative payment structures will capture significant value from a historically tech-laggard industry now primed for disruption by post-pandemic digital adoption and patient demand for transparency.",
-    "last_episode_title": "Your AI Doctor Is Coming | Julie Yoo",
-    "last_podcast_name": "The a16z Show",
-    "last_episode_date": "2026-09-06",
     "appearance_count": 1
   }
 ]

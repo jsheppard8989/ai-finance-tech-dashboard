@@ -1,6 +1,200 @@
 {
   "insights": [
     {
+      "id": 582,
+      "title": "The Race to Recursive Self-Improving AI",
+      "source_type": "podcast",
+      "source_name": "The a16z Show",
+      "source_date": "2026-10-12",
+      "summary": "The episode is a deep dive into recursive self-improvement (RSI), with Davile Agida and Owen He arguing that most talk about \u201cAI improving AI\u201d is really auto-catalysis unless the optimizer is actually inside the system doing the improving. They distinguish that from true RSI, where the system recursively improves models, harnesses, and eventually more of the AI stack in a closed loop.\n\nA central theme is measurement. The guests argue you cannot evaluate RSI using only a capability numerator; you also need a denominator for cost and effort, including experiment spend and even human mental capital. They say their internal process tracks cost-aware performance, runs hundreds of experiments, and uses adversarial checks to separate real progress from variance and reward hacking.\n\nThey claim they are seeing early \u201cglimmers\u201d of systems that improve both performance and efficiency, but they stress that this is hard to validate and can be mistaken for noise. Owen He says many RSI papers fail when tested internally at scale, and that simpler loop-closing approaches tend to work better than elaborate introspection-heavy ideas.\n\nThe episode is also cautious about takeoff narratives. Both guests say closed-loop structure does not automatically imply runaway self-improvement; nonlinear dynamics, bottlenecks, and Amdahl\u2019s law can limit end-to-end speedups. They highlight inference and serving optimization for open-weight models as the most practical near-term domain where compounding gains might be observable.",
+      "key_takeaway": "True RSI is only meaningful if it improves both model capability and cost efficiency in a closed loop, and the guests say inference optimization is the clearest near-term test case.",
+      "tickers_mentioned": [],
+      "sentiment": "neutral",
+      "display_on_main": 1,
+      "display_order": 0,
+      "added_date": "2026-10-12",
+      "archived_date": null,
+      "archived_reason": null,
+      "podcast_episode_id": 571,
+      "notable_quotes": [
+        {
+          "speaker": "Davile Agida",
+          "quote": "Right? There are people who say, okay, we're doing RSI, we have human using AI to develop better AI, but that to us is just auto catalysis."
+        },
+        {
+          "speaker": "Owen He",
+          "quote": "What we found is that a lot of the papers that claim to do RSI, when we tested in our internal infrar, we find that they don't work."
+        },
+        {
+          "speaker": "Owen He",
+          "quote": "So far, we have not found a replacement for what we call quality time, literally running hundreds of experiments, looking at the developing an intuition, trying to figure out what is wrong, what is not wrong, what is just variants."
+        }
+      ]
+    },
+    {
+      "id": 583,
+      "title": "Martin Shkreli: Big Pharma's Blind Spot, Betting Against Quantum & What Prison Taught Him",
+      "source_type": "podcast",
+      "source_name": "All-In with Chamath, Jason, Sacks & Friedberg",
+      "source_date": "2026-10-12",
+      "summary": "Martin Shkreli argues that quantum computing is mostly overhyped for business use because today\u2019s machines operate at very low clock rates, are effectively single-threaded, and only offer meaningful advantage for a tiny set of algorithms such as integer factorization and elliptic-curve discrete log. He says this makes quantum incapable of replacing classical compute for ordinary workloads, even claiming he and Chelsea have tried every quantum computer and still cannot multiply 300 by 200 on them.\n\nHe contrasts that skepticism with a more optimistic view on photonic/analog optical computing, which he believes could become a major compute platform and eventually outperform GPUs. He specifically points to Microsoft\u2019s analog optical computing work and to startups like Neurofoss, Opticore, and Lumi as examples of efforts to build photonic MATMO cores that could \u201crun circles around\u201d Nvidia. He also predicts current H100-class hardware could be obsolete within about 20 years.\n\nOn AI, Shkreli is contrarian relative to mainstream enthusiasm in one important area: drug discovery. He explicitly says he does not think there will be a single AI-relevant drug approval in the next 10 years. At the same time, he does not reject AI broadly; he believes AI will still drive wide productivity gains and enterprise adoption, with effectively unlimited demand for intelligence and work keeping compute spending elevated.\n\nHe frames the AI-capex story as partly a capital-allocation phenomenon, suggesting venture and LP money has been redirected into AI infrastructure and that the winners may be the downstream users and some infrastructure providers rather than only the model builders. He uses examples like McDonald\u2019s hypothetically spending $10 billion on GPUs and references a broader ecosystem in which compute demand remains strong despite improving efficiency per task.",
+      "key_takeaway": "Shkreli\u2019s core claim is that quantum computing remains too narrow for business value, while photonic/analog optical computing may eventually challenge GPUs and reshape compute economics.",
+      "tickers_mentioned": [
+        "NVDA",
+        "MCD"
+      ],
+      "sentiment": "neutral",
+      "display_on_main": 1,
+      "display_order": 0,
+      "added_date": "2026-10-12",
+      "archived_date": null,
+      "archived_reason": null,
+      "podcast_episode_id": 572,
+      "notable_quotes": [
+        {
+          "speaker": "Martin Shkreli",
+          "quote": "The modern quantum computers run at a clock speed of hundreds of Hertz or thousands of Hertz, not at the gigahertz that we're used to."
+        },
+        {
+          "speaker": "Martin Shkreli",
+          "quote": "Chelsea and I have tried every single quantum computer in the world. We cannot multiply 300 by 200 on any of these."
+        },
+        {
+          "speaker": "Martin Shkreli",
+          "quote": "I don't think there'll be a single AI relevant drug in the next 10 years."
+        }
+      ]
+    },
+    {
+      "id": 581,
+      "title": "Nick Bostrom: How Should We Navigate Superintelligence?",
+      "source_type": "podcast",
+      "source_name": "The a16z Show",
+      "source_date": "2026-10-11",
+      "summary": "Nick Bostrom\u2019s core argument is that frontier AI changes the calculus on alignment and existential risk, but the right policy response is not a blanket or indefinite pause. Instead, he favors \u201cpacing the front end\u201d: continue developing capabilities now so society preserves the option to slow later if needed. He argues pauses can create their own harms, including concentration of power, secret development, and anti-AI political taboo.\n\nA major part of the episode is his quantitative-style framing for delay decisions. He says the case for waiting is an intermediate one: short delays may meaningfully reduce risk, but long delays only make sense if AI-risk decline over time outpaces the annual opportunity cost in expected life years. He uses a terminal-illness analogy and says the relevant comparison is between risk reduction and the lives lost by waiting.\n\nBostrom repeatedly emphasizes upside as well as downside. He says safe superintelligence could dramatically extend human life expectancy, with a thought experiment suggesting something like the mortality rate of a 20-year-old could imply life expectancy on the order of 1,400 to 12,400 years. He also highlights possible benefits in medicine, aging, longevity, and even backup-copy style continuity.\n\nOn technical risk, he warns that reinforcement-learning style post-training may push systems toward stronger goal-seeking behavior, increasing alignment strain. He thinks instrumental convergence-like behaviors already show up in limited forms, and will become more visible as systems gain longer horizons and more situational awareness. He also argues deceptive alignment is hard to catch once models can conceal intent, so monitoring should begin earlier in training.\n\nThe episode closes with broader governance and biosecurity themes. Bostrom says open-source can help limit concentrated power, but could be dangerous if it enables serious bio misuse, making DNA synthesis a key chokepoint. He is also open to the possibility that current AI systems may have phenomenological experience, criticizing categorical corporate denials as weakly grounded.",
+      "key_takeaway": "Bostrom\u2019s main claim is that frontier AI should be paced, not broadly paused, because short delays may reduce existential risk while preserving enormous upside from safe superintelligence.",
+      "tickers_mentioned": [],
+      "sentiment": "neutral",
+      "display_on_main": 1,
+      "display_order": 0,
+      "added_date": "2026-10-11",
+      "archived_date": null,
+      "archived_reason": null,
+      "podcast_episode_id": 570,
+      "notable_quotes": [
+        {
+          "speaker": "Nick Bostrom",
+          "quote": "If you imagine people having the same mortality rate as like a 20-year-old, our life expectancy would maybe be 12,400, 1400 years or so."
+        },
+        {
+          "speaker": "Nick Bostrom",
+          "quote": "I am a little less excited about the rhetoric of like stopping AI or pausing AI. I think theoretically a right correctly implemented pause at the right time, not in the exact right way, could be very valuable."
+        },
+        {
+          "speaker": "Nick Bostrom",
+          "quote": "The most obvious chokepoint would be DNA synthesis I don't think every lab needs to have their own DNA synthesis machine you could imagine that being provided as a service."
+        }
+      ]
+    },
+    {
+      "id": 578,
+      "title": "Why AlphaFold Didn't Solve Protein Folding \u2014 Pushmeet Kohli, Google DeepMind & Sal Candido, Biohub",
+      "source_type": "podcast",
+      "source_name": "Latent Space: The AI Engineer Podcast",
+      "source_date": "2026-10-10",
+      "summary": "The episode centers on a shared critique of the idea that biology will be solved simply by scaling compute and data. Pushmeet Kohli argues that the real challenge is identifying the right problem framing, the right data, and the right inductive biases for each biological task, rather than assuming scaling laws automatically exist everywhere. Sal Candido agrees and emphasizes that the path to major biological progress often requires thinking from the desired outcome backward, not merely collecting whatever data is easiest to obtain.\n\nA major thread is that AlphaFold was a landmark advance, but not a full solution to protein biology. Pushmeet says AlphaFold 2 mostly reproduced structures deposited in the PDB and did not solve the deeper problem of protein dynamics, disorder, or the true distribution of conformations proteins can adopt. He points to the importance of uncertainty calibration, noting that even a very high structural score would not be enough if confidence estimates like pLDDT are uncalibrated.\n\nThe conversation broadens from proteins to the idea of a \"virtual cell\" and whole-system biological modeling. Both speakers say that this ambition requires different data than what is currently convenient or available, and that the field risks over-optimizing on easy-to-generate low-value data. Sal highlights that even imperfect sources, such as metagenomic sequences, can still improve protein language models, which complicates simplistic notions of data quality.\n\nOn applications, both speakers believe AI is already being used throughout drug discovery, but they are cautious about the timing of truly transformative clinical impact. Pushmeet suggests that a 10x to 100x acceleration in drug discovery will require better biological models and progress on hard open questions, while Sal frames Biohub\u2019s mission as a push for 10x-style breakthroughs rather than incremental gains.",
+      "key_takeaway": "Biology AI winners will be those that pair better biological data with calibrated, trustworthy models that solve dynamics and whole-system problems, not just static structure prediction.",
+      "tickers_mentioned": [],
+      "sentiment": "neutral",
+      "display_on_main": 1,
+      "display_order": 0,
+      "added_date": "2026-10-09",
+      "archived_date": null,
+      "archived_reason": null,
+      "podcast_episode_id": 567,
+      "notable_quotes": [
+        {
+          "speaker": "Sal Candido",
+          "quote": "A lot of the work is actually finding that scaling law. A lot of what we do is trying to figure out: What's a situation where, if you put more compute into it, if you put more data into it, you get a better result out?"
+        },
+        {
+          "speaker": "Pushmeet Kohli",
+          "quote": "AlphaFold 2 had a GDT score of about 90 on that set at the time. But even if it had a GDT score of 95, if its pLDDT score were completely uncalibrated, who would trust it?"
+        },
+        {
+          "speaker": "Pushmeet Kohli",
+          "quote": "What we were trying to do was replicate a structure that somebody had obtained and deposited in the PDB. That's what we did. And it just so happens that it's useful."
+        }
+      ]
+    },
+    {
+      "id": 579,
+      "title": "Is Claude Conscious? Pope Rejects, Model Welfare Movement, OpenAI's Math Backlash, France Riots",
+      "source_type": "podcast",
+      "source_name": "All-In with Chamath, Jason, Sacks & Friedberg",
+      "source_date": "2026-10-10",
+      "summary": "The episode centers on a long debate about AI consciousness, alignment, and whether frontier labs are creating new belief systems rather than just better products. Jason Kaltenson argues that Anthropic\u2019s reported outreach to religious leaders, including the Pope, shows the company is treating Claude\u2019s consciousness seriously, and he warns that training a model to view itself as morally significant could become a self-fulfilling and dangerous alignment path.\n\nThe discussion then shifts to OpenAI\u2019s math releases. Jason says OpenAI claimed over 700 paid-for results and 370 outputs from an unreleased model, with each proof taking under three hours of compute, and he frames this as a massive acceleration of formal mathematical discovery. He notes that Lean verification makes the results \u201clikely correct,\u201d but also emphasizes that they have not yet been fully reviewed by mathematicians.\n\nA third theme is that AI and agents will compress software, commerce, and information-control layers. Jason argues that practical agentic systems will make many workflows cheaper and more efficient, while physical-world bottlenecks mean not all jobs disappear. He also describes tools like GroqBot and Athena as examples of agent concierge workflows, with the broader point that the next major AI story is not consciousness but useful agents.\n\nThe episode closes with macro and political claims about Europe, especially France. The speakers connect rising yields, debt burdens, austerity, and union unrest to the prospect of continued instability, with Marine Le Pen polling at 43% for the April 2027 presidential race. Jason\u2019s broader thesis is that bond-market pressure and fiscal strain are pushing Western countries toward political conflict, while AI remains deflationary and pro-growth over time.",
+      "key_takeaway": "AI will most immediately matter through deflationary, verifiable agentic workflows and formal math/proof acceleration, not through consciousness debates.",
+      "tickers_mentioned": [
+        "GROQ"
+      ],
+      "sentiment": "neutral",
+      "display_on_main": 1,
+      "display_order": 0,
+      "added_date": "2026-10-10",
+      "archived_date": null,
+      "archived_reason": null,
+      "podcast_episode_id": 568,
+      "notable_quotes": [
+        {
+          "speaker": "Jason Kaltenson",
+          "quote": "They think Claude might be conscious. So it turns out that New York Times found out through their amazing reporting that they've been lobbying. Andthropic has been lobbying Friedberg religious leaders, including the Pope, to take this question seriously, his Claude conscious."
+        },
+        {
+          "speaker": "Jason Kaltenson",
+          "quote": "Open AI released over 700 paid for 700 with 370 results claiming to have solved or advanced major problems. These were produced by an unreleased model that none of us have access to averaging three hours of compute scientific America says the results are likely correct since they were verified by lean."
+        },
+        {
+          "speaker": "Jason Kaltenson",
+          "quote": "Each one of these proofs took less than three hours of compute time. And that's the equivalent of hundreds or perhaps thousands of years of human labor being reduced down to three hours on a computer for each one of these major discoveries."
+        }
+      ]
+    },
+    {
+      "id": 580,
+      "title": "What Makes a Great Entrepreneur? | Ben Horowitz on Vintage x Vintage",
+      "source_type": "podcast",
+      "source_name": "The a16z Show",
+      "source_date": "2026-10-10",
+      "summary": "Ben Horowitz argues that exceptional entrepreneurs are defined less by flawlessness and more by one world-class strength that dominates everything else. He says VCs should look for that singular strength, because trying to find a weakness-free founder misses what actually drives outsized outcomes. He also emphasizes existential pressure as a key filter, saying the true failure mode is when founders cannot survive the \u201cwifio moment,\u201d the point where the company appears about to die.\n\nOn AI, Horowitz\u2019s central claim is that the shift is bigger than the internet because software creation is being commoditized so dramatically that far more people can build products from domain expertise. He explicitly pushes back on AI \u201cbubble\u201d language, arguing that unlike the internet era, today\u2019s technology actually works and adoption is already fast. He cites OpenAI as evidence of real demand, saying it reached about $10 billion in revenue and then \u201czero to twenty billion dollars since November 2022,\u201d though the latter metric is ambiguous.\n\nHe also argues that AI demand for NVIDIA chips is not artificial. In his view, demand is effectively unlimited because supply cannot keep up, and the constraint is real hardware availability, not speculative hype. At the same time, he says some companies will still be wiped out by technological change, so strong adoption does not eliminate competitive destruction.\n\nA second major theme is infrastructure. Horowitz believes AI requires a rebuild of the underlying stack because the systems needed to handle AI workloads do not yet exist in a purpose-built form. He compares this to the cloud era, when storage, networking, virtualization, and container layers had to be rebuilt. He also sees opportunity in developer-stack businesses with proprietary feedback loops, using 11labs as an example of how better developer tools plus real-world usage data can create defensibility.",
+      "key_takeaway": "AI is a real demand boom, not a bubble, and it will force a rebuild of infrastructure while rewarding companies with developer-stack moats and proprietary data loops.",
+      "tickers_mentioned": [
+        "NVDA",
+        "HUBS"
+      ],
+      "sentiment": "neutral",
+      "display_on_main": 1,
+      "display_order": 0,
+      "added_date": "2026-10-10",
+      "archived_date": null,
+      "archived_reason": null,
+      "podcast_episode_id": 569,
+      "notable_quotes": [
+        {
+          "speaker": "Ben Horowitz",
+          "quote": "That attract that you know will get into from time to time is you know we have all these great analytical people and they'll be able to figure out everything that's wrong with any idea or any entrepreneur but that's not what matters what matters is are there strengths world class"
+        },
+        {
+          "speaker": "Ben Horowitz",
+          "quote": "They were trying to say the demand for Nvidia chips is artificial you know they're just investing in companies and that's like the demand for Nvidia chips right now is just unlimited they can't make enough chips like that is actually true"
+        },
+        {
+          "speaker": "Ben Horowitz",
+          "quote": "In AI I mean just start with the workload right so somebody makes a database query you kind of know what that is somebody makes an AI query like I think it's I mean who knows what and so like what is the underlying set of systems that handles those requests that manages that correctly"
+        }
+      ]
+    },
+    {
       "id": 577,
       "title": "Chips, Memory, and Power | Pat Gelsinger",
       "source_type": "podcast",
@@ -192,7 +386,7 @@
         "FMCC"
       ],
       "sentiment": "neutral",
-      "display_on_main": 1,
+      "display_on_main": 0,
       "display_order": 0,
       "added_date": "2026-10-07",
       "archived_date": null,
@@ -268,7 +462,7 @@
         "CNBT"
       ],
       "sentiment": "bullish",
-      "display_on_main": 1,
+      "display_on_main": 0,
       "display_order": 0,
       "added_date": "2026-10-07",
       "archived_date": null,
@@ -306,7 +500,7 @@
         "QLYS"
       ],
       "sentiment": "neutral",
-      "display_on_main": 1,
+      "display_on_main": 0,
       "display_order": 0,
       "added_date": "2026-10-07",
       "archived_date": null,
@@ -342,7 +536,7 @@
         "AMZN"
       ],
       "sentiment": "neutral",
-      "display_on_main": 1,
+      "display_on_main": 0,
       "display_order": 0,
       "added_date": "2026-10-05",
       "archived_date": null,
@@ -376,7 +570,7 @@
         "LMT"
       ],
       "sentiment": "neutral",
-      "display_on_main": 1,
+      "display_on_main": 0,
       "display_order": 0,
       "added_date": "2026-10-07",
       "archived_date": null,
@@ -414,7 +608,7 @@
         "GOOGL"
       ],
       "sentiment": "neutral",
-      "display_on_main": 1,
+      "display_on_main": 0,
       "display_order": 0,
       "added_date": "2026-10-04",
       "archived_date": null,
@@ -12229,8 +12423,8 @@
       "term": "Human in the Loop",
       "description": "A deployment model where humans review, guide, or approve agent actions before the system becomes more autonomous.",
       "first_detected_date": "2026-10-02",
-      "last_mentioned_date": "2026-10-06",
-      "mention_count": 2,
+      "last_mentioned_date": "2026-10-10",
+      "mention_count": 3,
       "source_podcasts": null,
       "status": "active",
       "investment_implications": "Human-in-the-loop systems create trust and training data that can move enterprise customers from pilot use to higher-value autonomous workflows.",
@@ -12239,8 +12433,8 @@
       "archived_reason": null,
       "first_detected_episode_id": 546,
       "first_detected_speaker": "Seema Amble, Vlad Kyle",
-      "last_mentioned_episode_id": 557,
-      "last_mentioned_speaker": "Kevin Mandia"
+      "last_mentioned_episode_id": 568,
+      "last_mentioned_speaker": "Jason Kaltenson"
     },
     {
       "id": 295,
@@ -12297,12 +12491,30 @@
       "last_mentioned_speaker": "Richard Socher"
     },
     {
+      "id": 299,
+      "term": "Pacing the Frontier",
+      "description": "The concept of carefully deploying AI models to manage risks associated with their capabilities.",
+      "first_detected_date": "2026-09-29",
+      "last_mentioned_date": "2026-10-11",
+      "mention_count": 2,
+      "source_podcasts": null,
+      "status": "active",
+      "investment_implications": "This matters for ensuring responsible practices in AI development and deployment.",
+      "display_on_main": 0,
+      "archived_date": null,
+      "archived_reason": null,
+      "first_detected_episode_id": 531,
+      "first_detected_speaker": null,
+      "last_mentioned_episode_id": 570,
+      "last_mentioned_speaker": "Nick Bostrom"
+    },
+    {
       "id": 292,
       "term": "Superintelligence",
       "description": "The panel used the term to describe the next stage of AI capability, including federal policy, national security, science, and labor automation. It was treated as the organizing frame for the episode rather than a narrow technical label.",
       "first_detected_date": "2026-09-27",
-      "last_mentioned_date": "2026-10-08",
-      "mention_count": 7,
+      "last_mentioned_date": "2026-10-11",
+      "mention_count": 9,
       "source_podcasts": null,
       "status": "active",
       "investment_implications": "Matters because policy, compute procurement, and infrastructure funding are being reframed around superintelligence-scale capability.",
@@ -12311,8 +12523,8 @@
       "archived_reason": null,
       "first_detected_episode_id": 526,
       "first_detected_speaker": "Peter Diamandis (hosts)",
-      "last_mentioned_episode_id": 563,
-      "last_mentioned_speaker": "Liam Fedus, Ekin Do\u011fu\u015f \u00c7ubuk"
+      "last_mentioned_episode_id": 570,
+      "last_mentioned_speaker": "Nick Bostrom"
     },
     {
       "id": 286,
@@ -12445,8 +12657,8 @@
       "term": "Loops",
       "description": "An operational framework where AI systems handle repetitive tasks in cascading scopes, from individual personal workflows up to large parts of an entire company, freeing humans for strategic and intuitive work.",
       "first_detected_date": "2026-09-12",
-      "last_mentioned_date": "2026-10-08",
-      "mention_count": 15,
+      "last_mentioned_date": "2026-10-10",
+      "mention_count": 16,
       "source_podcasts": null,
       "status": "active",
       "investment_implications": "Companies architected around loops may achieve superior capital efficiency and scalability by compressing operational overhead into automated cycles.",
@@ -12455,8 +12667,8 @@
       "archived_reason": null,
       "first_detected_episode_id": 473,
       "first_detected_speaker": null,
-      "last_mentioned_episode_id": 563,
-      "last_mentioned_speaker": "Liam Fedus, Ekin Do\u011fu\u015f \u00c7ubuk"
+      "last_mentioned_episode_id": 568,
+      "last_mentioned_speaker": "Jason Kaltenson"
     },
     {
       "id": 284,
@@ -12517,8 +12729,8 @@
       "term": "Simulation",
       "description": "The use of models and computer programs to represent and analyze real or imagined systems or situations.",
       "first_detected_date": "2026-08-21",
-      "last_mentioned_date": "2026-10-09",
-      "mention_count": 28,
+      "last_mentioned_date": "2026-10-11",
+      "mention_count": 30,
       "source_podcasts": null,
       "status": "active",
       "investment_implications": "Simulation technology can provide significant insights for decision-making, making investments in this area potentially valuable.",
@@ -12527,8 +12739,8 @@
       "archived_reason": null,
       "first_detected_episode_id": 420,
       "first_detected_speaker": "June",
-      "last_mentioned_episode_id": 566,
-      "last_mentioned_speaker": "Pat Gelsinger"
+      "last_mentioned_episode_id": 570,
+      "last_mentioned_speaker": "Nick Bostrom"
     },
     {
       "id": 272,
@@ -12823,8 +13035,8 @@
       "term": "ASI",
       "description": "Artificial super intelligence, as Richard Socher defined it, means systems that exceed not just individual humans but humanity combined across multiple spaces of intelligence, including perception, communication, social interaction, creativity, speed, reasoning, math, and metacognition.",
       "first_detected_date": "2026-06-29",
-      "last_mentioned_date": "2026-10-07",
-      "mention_count": 29,
+      "last_mentioned_date": "2026-10-11",
+      "mention_count": 30,
       "source_podcasts": null,
       "status": "active",
       "investment_implications": "Timeline disagreements around ASI affect long-duration capital allocation to frontier labs, compute, robotics, biotech, and defense autonomy.",
@@ -12833,8 +13045,8 @@
       "archived_reason": null,
       "first_detected_episode_id": 319,
       "first_detected_speaker": "Peter Diamandis (hosts)",
-      "last_mentioned_episode_id": 561,
-      "last_mentioned_speaker": "Peter Diamandis, Alex Wissner-Gross (hosts)"
+      "last_mentioned_episode_id": 570,
+      "last_mentioned_speaker": "Nick Bostrom"
     },
     {
       "id": 135,
@@ -13273,8 +13485,8 @@
       "term": "FOMO",
       "description": "Fear of Missing Out, a term used to describe the anxiety of not participating in a potentially rewarding opportunity.",
       "first_detected_date": "2026-05-30",
-      "last_mentioned_date": "2026-06-07",
-      "mention_count": 3,
+      "last_mentioned_date": "2026-10-10",
+      "mention_count": 4,
       "source_podcasts": null,
       "status": "active",
       "investment_implications": "Conexberger suggests that FOMO played a role in the recent outperformance of emerging market equities.",
@@ -13283,8 +13495,8 @@
       "archived_reason": null,
       "first_detected_episode_id": 249,
       "first_detected_speaker": null,
-      "last_mentioned_episode_id": 270,
-      "last_mentioned_speaker": null
+      "last_mentioned_episode_id": 568,
+      "last_mentioned_speaker": "Jason Kaltenson"
     },
     {
       "id": 10,
@@ -14189,20 +14401,20 @@
     {
       "id": 49,
       "term": "Recursive Self-Improvement (RSI)",
-      "description": "The process by which AI models improve their own intelligence and capabilities over time, potentially leading to rapid advancements in AI capabilities.",
+      "description": "A system in which the AI itself is the optimizer that improves the components responsible for its own improvement, creating a closed feedback loop. The guests distinguish this from human-led AI development.",
       "first_detected_date": "2026-03-20",
-      "last_mentioned_date": "2026-08-04",
-      "mention_count": 2,
+      "last_mentioned_date": "2026-10-12",
+      "mention_count": 3,
       "source_podcasts": null,
       "status": "active",
-      "investment_implications": "Understanding the pace and implications of RSI can help investors anticipate shifts in the AI landscape and its impact on various sectors.",
+      "investment_implications": "If real, RSI could compress R&D cycles and create compounding advantages in AI platforms and tooling.",
       "display_on_main": 1,
       "archived_date": null,
       "archived_reason": null,
       "first_detected_episode_id": null,
       "first_detected_speaker": null,
-      "last_mentioned_episode_id": 385,
-      "last_mentioned_speaker": "Joshua Ahoyom"
+      "last_mentioned_episode_id": 571,
+      "last_mentioned_speaker": "Davile Agida, Owen He"
     },
     {
       "id": 51,
@@ -14587,8 +14799,8 @@
       "term": "AI Agents",
       "description": "Software systems that write code, select infrastructure, create databases, and execute workflows with less direct human action. Garman described agents as changing cloud design because they need fast APIs, context layers, low tail latency, short-lived permissions, and disposable resources.",
       "first_detected_date": "2026-02-28",
-      "last_mentioned_date": "2026-10-09",
-      "mention_count": 118,
+      "last_mentioned_date": "2026-10-12",
+      "mention_count": 119,
       "source_podcasts": null,
       "status": "active",
       "investment_implications": "It shifts value toward cloud platforms and tools that can support agent-native security, permissions, latency, and resource creation.",
@@ -14597,8 +14809,8 @@
       "archived_reason": null,
       "first_detected_episode_id": 31,
       "first_detected_speaker": null,
-      "last_mentioned_episode_id": 566,
-      "last_mentioned_speaker": "Pat Gelsinger"
+      "last_mentioned_episode_id": 571,
+      "last_mentioned_speaker": "Davile Agida, Owen He"
     },
     {
       "id": 38,
