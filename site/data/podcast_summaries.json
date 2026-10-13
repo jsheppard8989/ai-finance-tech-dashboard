@@ -1,5 +1,29 @@
 [
   {
+    "id": 573,
+    "podcast_name": "Monetary Matters with Jack Farley",
+    "episode_title": "Top Performing Value Investor Explains Why the Market Isn\u2019t Overvalued and Hasn\u2019t Hit the Blowoff Top Phase | Charles Lemonides | ValueWorks LLC",
+    "episode_date": "2026-10-12",
+    "summary": "Charles Le Manides argues this late-stage bull market still has room to run and has not reached a blowoff-top phase. His core view is that strong earnings growth, especially in AI/data-center-driven semiconductors and other asset-heavy businesses, can keep prices advancing even if multiples compress. He says higher interest rates have not yet been enough to slow growth and that the cycle can continue for years.\n\nHe frames value investing as buying \"$1 of assets for 50 cents,\" but emphasizes that the best opportunities can be unloved businesses with growth embedded in them. He points to Micron as a classic example: he says memory stocks are most dangerous when they look cheapest, cites peak-earnings multiples around 3-4x, and believes Micron earnings can remain durable for another couple of years even if the stock is less obviously cheap than before.\n\nHe is also constructive on Intel because it has real foundry capacity and is ramping output with improving yields, which he thinks gives it torque in an environment where chip manufacturing capacity matters more than design know-how. On delivery and online grocery, he argues platform economics are not true winner-take-all software economics because delivery labor remains a marginal cost, so incumbents like Lyft and Instacart can still be mispriced versus larger peers.\n\nOn the short side, he singles out Casey\u2019s and Walmart as overextended retail names, arguing Casey\u2019s is priced at roughly 35-40x earnings despite limited growth and elevated gasoline margins that may not last. He also discusses energy, offshore supply vessels, royalty trusts like Mesabi Trust, and long/short hedges such as Texas Pacific Land, all as examples of idiosyncratic value opportunities rather than a single macro bet.",
+    "key_takeaways": [
+      "Charles Le Manides says the market is still in a long bull cycle and has not yet shown evidence of a blowoff top.",
+      "Charles Le Manides argues that strong earnings growth can allow stocks to rise even as valuation multiples contract.",
+      "Charles Le Manides says Micron can still have earnings power for another couple of years, even though its current stock price is less obviously cheap than before.",
+      "Charles Le Manides says Intel is attractive because it has real foundry capacity and is improving yields as new capacity comes online.",
+      "Charles Le Manides says Lyft and Instacart are mispriced relative to Uber and DoorDash because delivery businesses still have meaningful marginal costs.",
+      "Charles Le Manides says Casey\u2019s looks expensive at roughly 35-40x earnings and its unusually high gasoline margins are unlikely to persist.",
+      "Charles Le Manides says the best value ideas are often asset-rich businesses with growth characteristics that the market has not yet recognized.",
+      "Charles Le Manides says offshore and energy-adjacent assets can still offer attractive upside because supply remains tight and replacement cost is high."
+    ],
+    "investment_thesis": "Le Manides\u2019s central claim is that earnings growth can keep this bull market alive for years, creating value in asset-rich growth names while making select retail leaders vulnerable to short theses.",
+    "key_tickers": [
+      "MU",
+      "INTC",
+      "LYFT",
+      "CART"
+    ]
+  },
+  {
     "id": 572,
     "podcast_name": "All-In with Chamath, Jason, Sacks & Friedberg",
     "episode_title": "Martin Shkreli: Big Pharma's Blind Spot, Betting Against Quantum & What Prison Taught Him",

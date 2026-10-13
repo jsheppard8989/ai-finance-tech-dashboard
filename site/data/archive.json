@@ -66,6 +66,42 @@
       ]
     },
     {
+      "id": 584,
+      "title": "Top Performing Value Investor Explains Why the Market Isn\u2019t Overvalued and Hasn\u2019t Hit the Blowoff Top Phase | Charles Lemonides | ValueWorks LLC",
+      "source_type": "podcast",
+      "source_name": "Monetary Matters with Jack Farley",
+      "source_date": "2026-10-12",
+      "summary": "Charles Le Manides argues this late-stage bull market still has room to run and has not reached a blowoff-top phase. His core view is that strong earnings growth, especially in AI/data-center-driven semiconductors and other asset-heavy businesses, can keep prices advancing even if multiples compress. He says higher interest rates have not yet been enough to slow growth and that the cycle can continue for years.\n\nHe frames value investing as buying \"$1 of assets for 50 cents,\" but emphasizes that the best opportunities can be unloved businesses with growth embedded in them. He points to Micron as a classic example: he says memory stocks are most dangerous when they look cheapest, cites peak-earnings multiples around 3-4x, and believes Micron earnings can remain durable for another couple of years even if the stock is less obviously cheap than before.\n\nHe is also constructive on Intel because it has real foundry capacity and is ramping output with improving yields, which he thinks gives it torque in an environment where chip manufacturing capacity matters more than design know-how. On delivery and online grocery, he argues platform economics are not true winner-take-all software economics because delivery labor remains a marginal cost, so incumbents like Lyft and Instacart can still be mispriced versus larger peers.\n\nOn the short side, he singles out Casey\u2019s and Walmart as overextended retail names, arguing Casey\u2019s is priced at roughly 35-40x earnings despite limited growth and elevated gasoline margins that may not last. He also discusses energy, offshore supply vessels, royalty trusts like Mesabi Trust, and long/short hedges such as Texas Pacific Land, all as examples of idiosyncratic value opportunities rather than a single macro bet.",
+      "key_takeaway": "Le Manides\u2019s central claim is that earnings growth can keep this bull market alive for years, creating value in asset-rich growth names while making select retail leaders vulnerable to short theses.",
+      "tickers_mentioned": [
+        "MU",
+        "INTC",
+        "LYFT",
+        "CART"
+      ],
+      "sentiment": "neutral",
+      "display_on_main": 1,
+      "display_order": 0,
+      "added_date": "2026-10-12",
+      "archived_date": null,
+      "archived_reason": null,
+      "podcast_episode_id": 573,
+      "notable_quotes": [
+        {
+          "speaker": "Charles Le Manides",
+          "quote": "And then it occurred to me that value investing means getting a dollar worth of assets for 50 cents."
+        },
+        {
+          "speaker": "Charles Le Manides",
+          "quote": "We think the earnings are likely to be there for another couple of years, but we're not assured about the stock at today's prices we were at two years ago's price."
+        },
+        {
+          "speaker": "Charles Le Manides",
+          "quote": "Intel is one of only a couple of companies in the globe that has real foundry capacity, and they have brought new capacity on stream over the past year and a half."
+        }
+      ]
+    },
+    {
       "id": 581,
       "title": "Nick Bostrom: How Should We Navigate Superintelligence?",
       "source_type": "podcast",
@@ -424,7 +460,7 @@
         "BX"
       ],
       "sentiment": "neutral",
-      "display_on_main": 1,
+      "display_on_main": 0,
       "display_order": 0,
       "added_date": "2026-10-08",
       "archived_date": null,
@@ -12405,8 +12441,8 @@
       "term": "Return to Tangibles",
       "description": "A sponsor-described thesis that the next cycle favors real assets such as energy, metals, miners, precious metals, and critical metals after a decade of underinvestment.",
       "first_detected_date": "2026-10-06",
-      "last_mentioned_date": "2026-10-08",
-      "mention_count": 2,
+      "last_mentioned_date": "2026-10-12",
+      "mention_count": 3,
       "source_podcasts": null,
       "status": "active",
       "investment_implications": "The theme frames capital allocation toward physical-world assets exposed to inflation, geopolitics, and commodity supply constraints.",
@@ -12415,8 +12451,8 @@
       "archived_reason": null,
       "first_detected_episode_id": 559,
       "first_detected_speaker": "J Mintzmyer",
-      "last_mentioned_episode_id": 564,
-      "last_mentioned_speaker": "Stacy Rasgon"
+      "last_mentioned_episode_id": 573,
+      "last_mentioned_speaker": "Charles Le Manides"
     },
     {
       "id": 296,
