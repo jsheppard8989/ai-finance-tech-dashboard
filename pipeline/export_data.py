@@ -85,7 +85,6 @@ def _count_podcasts_analyzed_today() -> int:
 SUMMARY_OVERRIDES_PATH = Path(__file__).parent / "summary_overrides.json"
 
 
-OVERRIDE_TEXT_FIELDS = ("summary", "key_takeaway", "key_takeaways", "investment_thesis")
 
 
 def _replace_text(value, replacements):
@@ -105,23 +104,80 @@ def _load_override_rules():
         return {}
 
 
+TITLE_FIELDS = ("episode_title", "title", "insight_title")
+
+
+def _replace_all_strings(value, replacements, skip_keys=()):
+    """Recursively apply replacements to every string in value (dict keys in skip_keys untouched)."""
+    if isinstance(value, str):
+        return _replace_text(value, replacements)
+    if isinstance(value, list):
+        return [_replace_all_strings(v, replacements, skip_keys) for v in value]
+    if isinstance(value, dict):
+        return {k: (v if k in skip_keys else _replace_all_strings(v, replacements, skip_keys))
+                for k, v in value.items()}
+    return value
+
+
+def _drop_tickers(value, drop):
+    drop = {d.upper() for d in drop}
+    if isinstance(value, list):
+        return [t for t in value if str(t).upper() not in drop]
+    if isinstance(value, str):
+        try:
+            parsed = json.loads(value)
+        except Exception:
+            return value
+        if isinstance(parsed, list):
+            return json.dumps([t for t in parsed if str(t).upper() not in drop])
+    return value
+
+
 def _apply_summary_overrides(obj):
-    """Apply pipeline/summary_overrides.json text fixes (in place) to every record's
-    summary / key_takeaway / key_takeaways / investment_thesis fields."""
-    rules = _load_override_rules().get("summaries", [])
+    """Apply pipeline/summary_overrides.json text fixes (in place).
+
+    - 'summaries' rules: for any record whose episode_title/title/insight_title contains
+      the rule's 'episode_title', apply 'replacements' to the WHOLE card: every string
+      field (summary, key_takeaway(s), investment_thesis, notable_quotes quote+speaker,
+      Deep Dive overview/evidence/falsification tracks, ...) except the title fields.
+      Optional 'drop_tickers' removes symbols from tickers_mentioned / key_tickers.
+    - 'global_replacements': exact swaps applied to every string anywhere (except title
+      fields), e.g. mis-transcribed speaker names in pundits/overton/podcastGuests.
+    """
+    rules_all = _load_override_rules()
+    rules = rules_all.get("summaries", [])
+    global_reps = rules_all.get("global_replacements", [])
+
+    def fix_record(o, r):
+        reps = r.get("replacements", [])
+        for k in list(o.keys()):
+            if k in TITLE_FIELDS:
+                continue
+            o[k] = _replace_all_strings(o[k], reps, TITLE_FIELDS)
+        drop = r.get("drop_tickers") or []
+        if drop:
+            for k in ("tickers_mentioned", "key_tickers"):
+                if k in o:
+                    o[k] = _drop_tickers(o[k], drop)
+
     def walk(o):
         if isinstance(o, dict):
-            title = str(o.get("episode_title") or o.get("title") or "")
+            title = " ".join(str(o.get(f) or "") for f in TITLE_FIELDS)
             for r in rules:
                 if r.get("episode_title") and r["episode_title"] in title:
-                    for field in OVERRIDE_TEXT_FIELDS:
-                        if field in o:
-                            o[field] = _replace_text(o[field], r.get("replacements", []))
+                    fix_record(o, r)
+            if global_reps:
+                for k in list(o.keys()):
+                    if k not in TITLE_FIELDS and isinstance(o[k], str):
+                        o[k] = _replace_text(o[k], global_reps)
             for v in o.values():
                 walk(v)
         elif isinstance(o, list):
-            for v in o:
-                walk(v)
+            for i, v in enumerate(o):
+                if isinstance(v, str) and global_reps:
+                    o[i] = _replace_text(v, global_reps)
+                else:
+                    walk(v)
     walk(obj)
     return obj
 
@@ -140,7 +196,7 @@ def _apply_term_overrides(terms):
 
 
 def _apply_summary_overrides_to_files(site_dir: Path) -> None:
-    for name in ("podcast_summaries.json", "archive.json"):
+    for name in ("podcast_summaries.json", "archive.json", "pundits.json", "podcast_guests.json"):
         f = site_dir / name
         if not f.is_file():
             continue
@@ -150,6 +206,14 @@ def _apply_summary_overrides_to_files(site_dir: Path) -> None:
             print(f"  ⚠ summary overrides skipped for {name}: {e}")
             continue
         before = json.dumps(data)
+        if name == "podcast_guests.json" and isinstance(data, list):
+            gov = load_overrides()
+            block = set(gov.get("blocklist") or [])
+            fixes = gov.get("fixes") or {}
+            data = [g for g in data if not (isinstance(g, dict) and (g.get("name") or "") in block)]
+            for g in data:
+                if isinstance(g, dict) and fixes.get(g.get("name") or ""):
+                    g["name"] = fixes[g["name"]]
         _apply_summary_overrides(data)
         if json.dumps(data) != before:
             with open(f, "w") as fh:
@@ -1135,12 +1199,15 @@ def generate_website_js():
     main_content, podcast_guests = _apply_guest_export_overrides(main_content, podcast_guests)
     _apply_summary_overrides(archive)
     _apply_summary_overrides(main_content)
+    _apply_summary_overrides(deepdives)
+    _apply_summary_overrides(podcast_guests)
     _apply_term_overrides(suggested_terms)
     # Load pundits (semantic layer) from JSON exported by export_for_website
     pundits_path = site_dir / "pundits.json"
     try:
         with open(pundits_path, "r") as f:
             pundits = sanitize_public_text(json.load(f))
+        _apply_summary_overrides(pundits)
     except FileNotFoundError:
         pundits = []
 

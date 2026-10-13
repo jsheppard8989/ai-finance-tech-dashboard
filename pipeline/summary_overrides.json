@@ -1,5 +1,5 @@
 {
-  "_comment": "Curated text fixes that survive DB re-exports. export_data.py applies each 'summaries' replacement to the summary, key_takeaway, key_takeaways and investment_thesis fields of any record whose episode_title/title contains 'episode_title' (podcast_summaries.json, archive.json, data.js archive + mainContent). 'terms' rules overwrite fields of suggestedTerms entries whose term matches exactly. Replacements are exact substring swaps; once the DB text is fixed they become no-ops.",
+  "_comment": "Curated text fixes that survive DB re-exports. export_data.py applies each 'summaries' rule to the WHOLE card of any record whose episode_title/title/insight_title contains 'episode_title' (every string field except the title fields: summary, key_takeaway(s), investment_thesis, notable_quotes quote+speaker, Deep Dive overview/episode_evidence/falsification_tracks, ...) in podcast_summaries.json, archive.json and data.js (archive, mainContent, deepDives). 'drop_tickers' removes symbols from tickers_mentioned/key_tickers of matched records. 'global_replacements' are exact swaps applied to every non-title string everywhere (incl. pundits, overton speakers, podcastGuests). 'terms' rules overwrite fields of suggestedTerms entries whose term matches exactly. Replacements are exact substring swaps; once the DB text is fixed they become no-ops.",
   "summaries": [
     {
       "insight_id": 572,
@@ -7,7 +7,7 @@
       "replacements": [
         [
           "He also predicts current H100-class hardware could be obsolete within about 20 years.",
-          "He predicts that within 20 years today's H100, B100 and B200 chips will be \"in the scrap heap,\" replaced by faster optical designs, and calls it \"insane\" to plan space or nuclear power for data centers when a faster computer can be built. He is still long Nvidia and chip stocks, betting that cheaper compute raises total demand."
+          "He predicts that within 20 years today's H100, B100 and B200 chips will be \"in the scrap heap,\" replaced by faster optical designs, and calls it \"insane\" to plan space or nuclear power for data centers when a faster computer can be built. He is still long Nvidia and chip stocks, on the view that cheaper compute raises total demand."
         ],
         [
           "Neurofoss",
@@ -24,6 +24,129 @@
         [
           "MATMO-style systems",
           "matrix-multiplication systems"
+        ],
+        [
+          "He is still long Nvidia and chip stocks, betting that cheaper compute raises total demand",
+          "He is still long Nvidia and chip stocks, on the view that cheaper compute raises total demand"
+        ]
+      ]
+    },
+    {
+      "insight_id": 584,
+      "episode_title": "Top Performing Value Investor Explains Why the Market Isn",
+      "replacements": [
+        [
+          "Charles Le Manides",
+          "Charles Lemonides"
+        ],
+        [
+          "Le Manides",
+          "Lemonides"
+        ],
+        [
+          "rather than a single macro bet",
+          "rather than a single macro call"
+        ]
+      ]
+    },
+    {
+      "insight_id": 582,
+      "episode_title": "The Race to Recursive Self-Improving AI",
+      "replacements": [
+        [
+          "Davile Agida",
+          "Dhaval Adjodah"
+        ]
+      ]
+    },
+    {
+      "insight_id": 581,
+      "episode_title": "Nick Bostrom: How Should We Navigate Superintelligence?",
+      "replacements": [
+        [
+          "life expectancy on the order of 1,400 to 12,400 years",
+          "life expectancy of around 1,400 years"
+        ],
+        [
+          "would maybe be 12,400, 1400 years or so",
+          "would maybe be 1,400 years or so"
+        ],
+        [
+          "simple bets on either unrestricted scaling or blanket moratoria",
+          "simple calls on either unrestricted scaling or blanket moratoria"
+        ],
+        [
+          "simple bets on either unrestricted scaling or blanket moratoriums",
+          "simple calls on either unrestricted scaling or blanket moratoriums"
+        ],
+        [
+          "potentially to the scale of 1,400 to 12,400 years",
+          "potentially to around 1,400 years"
+        ]
+      ]
+    },
+    {
+      "insight_id": 580,
+      "episode_title": "What Makes a Great Entrepreneur? | Ben Horowitz",
+      "replacements": [
+        [
+          "wifio moment",
+          "WFIO moment"
+        ],
+        [
+          "11labs",
+          "ElevenLabs"
+        ]
+      ]
+    },
+    {
+      "insight_id": 579,
+      "episode_title": "Is Claude Conscious? Pope Rejects, Model Welfare Movement",
+      "drop_tickers": [
+        "GROQ"
+      ],
+      "replacements": [
+        [
+          "Jason Kaltenson",
+          "Jason Calacanis"
+        ],
+        [
+          "Andthropic",
+          "Anthropic"
+        ],
+        [
+          "GroqBot",
+          "Grok Bot"
+        ],
+        [
+          "with Marine Le Pen polling at 43% for the April 2027 presidential race",
+          "with Polymarket giving Marine Le Pen 43% odds to win the April 2027 presidential race"
+        ],
+        [
+          "Jason says OpenAI claimed over 700 paid-for results and 370 outputs from an unreleased model",
+          "Jason says OpenAI released over 700 math results from an unreleased model, about 370 of them claiming to solve or advance major problems"
+        ],
+        [
+          "Jason’s broader thesis is that bond-market pressure",
+          "The hosts’ broader thesis is that bond-market pressure"
+        ],
+        [
+          "Jason's broader thesis is that bond-market pressure",
+          "The hosts' broader thesis is that bond-market pressure"
+        ],
+        [
+          "produced over 700 paid-for results and 370 outputs",
+          "produced over 700 math results from an unreleased model, about 370 of them claiming to solve or advance major problems"
+        ]
+      ]
+    },
+    {
+      "insight_id": 420,
+      "episode_title": "Anthropic's $2T IPO, Zuck's AI Manifesto",
+      "replacements": [
+        [
+          "Andthropic",
+          "Anthropic"
         ]
       ]
     }
@@ -36,5 +159,27 @@
         "definition": "Photonic/analog optical compute cores that use light to do matrix multiplication very efficiently. Shkreli treats this as a potential successor architecture to GPU-centric computing."
       }
     }
+  ],
+  "global_replacements": [
+    [
+      "Charles Le Manides",
+      "Charles Lemonides"
+    ],
+    [
+      "Le Manides",
+      "Lemonides"
+    ],
+    [
+      "Jason Kaltenson",
+      "Jason Calacanis"
+    ],
+    [
+      "Davile Agida",
+      "Dhaval Adjodah"
+    ],
+    [
+      "would maybe be 12,400, 1400 years or so",
+      "would maybe be 1,400 years or so"
+    ]
   ]
 }

@@ -29,7 +29,8 @@
     "David Sacks",
     "David Friedberg",
     "Synthesis Superintelligence",
-    "Google X's Astro Teller"
+    "Google X's Astro Teller",
+    "What Makes a Great Entrepreneur?"
   ],
   "fixes": {
     "Ray Dahlia": "Ray Dalio",
@@ -46,7 +47,10 @@
     "Elena Berger": "Elena Burger",
     "Laina Berger": "Elena Burger",
     "Google X's Astro Teller": "Astro Teller",
-    "Synthesis Superintelligence": "Liam Fedus and Ekin Doğuş Çubuk"
+    "Synthesis Superintelligence": "Liam Fedus and Ekin Doğuş Çubuk",
+    "Charles Le Manides": "Charles Lemonides",
+    "Jason Kaltenson": "Jason Calacanis",
+    "Davile Agida": "Dhaval Adjodah"
   },
   "episode_title_guest": {
     "Beyond the God Model | Alex Atallah & Amjad Masad": "Alex Atallah & Amjad Masad",
@@ -60,7 +64,12 @@
     "557": "Barrett Lyon",
     "571": "Astro Teller",
     "574": "Liam Fedus and Ekin Doğuş Çubuk",
-    "577": "Pat Gelsinger"
+    "577": "Pat Gelsinger",
+    "584": "Charles Lemonides",
+    "582": "Dhaval Adjodah and Owen He",
+    "580": "Ben Horowitz",
+    "578": "Pushmeet Kohli and Sal Candido",
+    "575": "Brent Johnson"
   },
   "overrides": {
     "Graham Allison": {

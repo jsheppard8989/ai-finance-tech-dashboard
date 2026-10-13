@@ -6,7 +6,7 @@
       "source_type": "podcast",
       "source_name": "The a16z Show",
       "source_date": "2026-10-12",
-      "summary": "The episode is a deep dive into recursive self-improvement (RSI), with Davile Agida and Owen He arguing that most talk about \u201cAI improving AI\u201d is really auto-catalysis unless the optimizer is actually inside the system doing the improving. They distinguish that from true RSI, where the system recursively improves models, harnesses, and eventually more of the AI stack in a closed loop.\n\nA central theme is measurement. The guests argue you cannot evaluate RSI using only a capability numerator; you also need a denominator for cost and effort, including experiment spend and even human mental capital. They say their internal process tracks cost-aware performance, runs hundreds of experiments, and uses adversarial checks to separate real progress from variance and reward hacking.\n\nThey claim they are seeing early \u201cglimmers\u201d of systems that improve both performance and efficiency, but they stress that this is hard to validate and can be mistaken for noise. Owen He says many RSI papers fail when tested internally at scale, and that simpler loop-closing approaches tend to work better than elaborate introspection-heavy ideas.\n\nThe episode is also cautious about takeoff narratives. Both guests say closed-loop structure does not automatically imply runaway self-improvement; nonlinear dynamics, bottlenecks, and Amdahl\u2019s law can limit end-to-end speedups. They highlight inference and serving optimization for open-weight models as the most practical near-term domain where compounding gains might be observable.",
+      "summary": "The episode is a deep dive into recursive self-improvement (RSI), with Dhaval Adjodah and Owen He arguing that most talk about \u201cAI improving AI\u201d is really auto-catalysis unless the optimizer is actually inside the system doing the improving. They distinguish that from true RSI, where the system recursively improves models, harnesses, and eventually more of the AI stack in a closed loop.\n\nA central theme is measurement. The guests argue you cannot evaluate RSI using only a capability numerator; you also need a denominator for cost and effort, including experiment spend and even human mental capital. They say their internal process tracks cost-aware performance, runs hundreds of experiments, and uses adversarial checks to separate real progress from variance and reward hacking.\n\nThey claim they are seeing early \u201cglimmers\u201d of systems that improve both performance and efficiency, but they stress that this is hard to validate and can be mistaken for noise. Owen He says many RSI papers fail when tested internally at scale, and that simpler loop-closing approaches tend to work better than elaborate introspection-heavy ideas.\n\nThe episode is also cautious about takeoff narratives. Both guests say closed-loop structure does not automatically imply runaway self-improvement; nonlinear dynamics, bottlenecks, and Amdahl\u2019s law can limit end-to-end speedups. They highlight inference and serving optimization for open-weight models as the most practical near-term domain where compounding gains might be observable.",
       "key_takeaway": "True RSI is only meaningful if it improves both model capability and cost efficiency in a closed loop, and the guests say inference optimization is the clearest near-term test case.",
       "tickers_mentioned": [],
       "sentiment": "neutral",
@@ -18,7 +18,7 @@
       "podcast_episode_id": 571,
       "notable_quotes": [
         {
-          "speaker": "Davile Agida",
+          "speaker": "Dhaval Adjodah",
           "quote": "Right? There are people who say, okay, we're doing RSI, we have human using AI to develop better AI, but that to us is just auto catalysis."
         },
         {
@@ -37,7 +37,7 @@
       "source_type": "podcast",
       "source_name": "All-In with Chamath, Jason, Sacks & Friedberg",
       "source_date": "2026-10-12",
-      "summary": "Martin Shkreli argues that quantum computing is mostly overhyped for business use because today\u2019s machines operate at very low clock rates, are effectively single-threaded, and only offer meaningful advantage for a tiny set of algorithms such as integer factorization and elliptic-curve discrete log. He says this makes quantum incapable of replacing classical compute for ordinary workloads, even claiming he and Chelsea have tried every quantum computer and still cannot multiply 300 by 200 on them.\n\nHe contrasts that skepticism with a more optimistic view on photonic/analog optical computing, which he believes could become a major compute platform and eventually outperform GPUs. He specifically points to Microsoft\u2019s analog optical computing work and to startups like Neurophos, Opticore, and Lumai as examples of efforts to build photonic matrix-multiplication cores that could \u201crun circles around\u201d Nvidia. He predicts that within 20 years today's H100, B100 and B200 chips will be \"in the scrap heap,\" replaced by faster optical designs, and calls it \"insane\" to plan space or nuclear power for data centers when a faster computer can be built. He is still long Nvidia and chip stocks, betting that cheaper compute raises total demand.\n\nOn AI, Shkreli is contrarian relative to mainstream enthusiasm in one important area: drug discovery. He explicitly says he does not think there will be a single AI-relevant drug approval in the next 10 years. At the same time, he does not reject AI broadly; he believes AI will still drive wide productivity gains and enterprise adoption, with effectively unlimited demand for intelligence and work keeping compute spending elevated.\n\nHe frames the AI-capex story as partly a capital-allocation phenomenon, suggesting venture and LP money has been redirected into AI infrastructure and that the winners may be the downstream users and some infrastructure providers rather than only the model builders. He uses examples like McDonald\u2019s hypothetically spending $10 billion on GPUs and references a broader ecosystem in which compute demand remains strong despite improving efficiency per task.",
+      "summary": "Martin Shkreli argues that quantum computing is mostly overhyped for business use because today\u2019s machines operate at very low clock rates, are effectively single-threaded, and only offer meaningful advantage for a tiny set of algorithms such as integer factorization and elliptic-curve discrete log. He says this makes quantum incapable of replacing classical compute for ordinary workloads, even claiming he and Chelsea have tried every quantum computer and still cannot multiply 300 by 200 on them.\n\nHe contrasts that skepticism with a more optimistic view on photonic/analog optical computing, which he believes could become a major compute platform and eventually outperform GPUs. He specifically points to Microsoft\u2019s analog optical computing work and to startups like Neurophos, Opticore, and Lumai as examples of efforts to build photonic matrix-multiplication cores that could \u201crun circles around\u201d Nvidia. He predicts that within 20 years today's H100, B100 and B200 chips will be \"in the scrap heap,\" replaced by faster optical designs, and calls it \"insane\" to plan space or nuclear power for data centers when a faster computer can be built. He is still long Nvidia and chip stocks, on the view that cheaper compute raises total demand.\n\nOn AI, Shkreli is contrarian relative to mainstream enthusiasm in one important area: drug discovery. He explicitly says he does not think there will be a single AI-relevant drug approval in the next 10 years. At the same time, he does not reject AI broadly; he believes AI will still drive wide productivity gains and enterprise adoption, with effectively unlimited demand for intelligence and work keeping compute spending elevated.\n\nHe frames the AI-capex story as partly a capital-allocation phenomenon, suggesting venture and LP money has been redirected into AI infrastructure and that the winners may be the downstream users and some infrastructure providers rather than only the model builders. He uses examples like McDonald\u2019s hypothetically spending $10 billion on GPUs and references a broader ecosystem in which compute demand remains strong despite improving efficiency per task.",
       "key_takeaway": "Shkreli\u2019s core claim is that quantum computing remains too narrow for business value, while photonic/analog optical computing may eventually challenge GPUs and reshape compute economics.",
       "tickers_mentioned": [
         "NVDA",
@@ -71,8 +71,8 @@
       "source_type": "podcast",
       "source_name": "Monetary Matters with Jack Farley",
       "source_date": "2026-10-12",
-      "summary": "Charles Le Manides argues this late-stage bull market still has room to run and has not reached a blowoff-top phase. His core view is that strong earnings growth, especially in AI/data-center-driven semiconductors and other asset-heavy businesses, can keep prices advancing even if multiples compress. He says higher interest rates have not yet been enough to slow growth and that the cycle can continue for years.\n\nHe frames value investing as buying \"$1 of assets for 50 cents,\" but emphasizes that the best opportunities can be unloved businesses with growth embedded in them. He points to Micron as a classic example: he says memory stocks are most dangerous when they look cheapest, cites peak-earnings multiples around 3-4x, and believes Micron earnings can remain durable for another couple of years even if the stock is less obviously cheap than before.\n\nHe is also constructive on Intel because it has real foundry capacity and is ramping output with improving yields, which he thinks gives it torque in an environment where chip manufacturing capacity matters more than design know-how. On delivery and online grocery, he argues platform economics are not true winner-take-all software economics because delivery labor remains a marginal cost, so incumbents like Lyft and Instacart can still be mispriced versus larger peers.\n\nOn the short side, he singles out Casey\u2019s and Walmart as overextended retail names, arguing Casey\u2019s is priced at roughly 35-40x earnings despite limited growth and elevated gasoline margins that may not last. He also discusses energy, offshore supply vessels, royalty trusts like Mesabi Trust, and long/short hedges such as Texas Pacific Land, all as examples of idiosyncratic value opportunities rather than a single macro bet.",
-      "key_takeaway": "Le Manides\u2019s central claim is that earnings growth can keep this bull market alive for years, creating value in asset-rich growth names while making select retail leaders vulnerable to short theses.",
+      "summary": "Charles Lemonides argues this late-stage bull market still has room to run and has not reached a blowoff-top phase. His core view is that strong earnings growth, especially in AI/data-center-driven semiconductors and other asset-heavy businesses, can keep prices advancing even if multiples compress. He says higher interest rates have not yet been enough to slow growth and that the cycle can continue for years.\n\nHe frames value investing as buying \"$1 of assets for 50 cents,\" but emphasizes that the best opportunities can be unloved businesses with growth embedded in them. He points to Micron as a classic example: he says memory stocks are most dangerous when they look cheapest, cites peak-earnings multiples around 3-4x, and believes Micron earnings can remain durable for another couple of years even if the stock is less obviously cheap than before.\n\nHe is also constructive on Intel because it has real foundry capacity and is ramping output with improving yields, which he thinks gives it torque in an environment where chip manufacturing capacity matters more than design know-how. On delivery and online grocery, he argues platform economics are not true winner-take-all software economics because delivery labor remains a marginal cost, so incumbents like Lyft and Instacart can still be mispriced versus larger peers.\n\nOn the short side, he singles out Casey\u2019s and Walmart as overextended retail names, arguing Casey\u2019s is priced at roughly 35-40x earnings despite limited growth and elevated gasoline margins that may not last. He also discusses energy, offshore supply vessels, royalty trusts like Mesabi Trust, and long/short hedges such as Texas Pacific Land, all as examples of idiosyncratic value opportunities rather than a single macro call.",
+      "key_takeaway": "Lemonides\u2019s central claim is that earnings growth can keep this bull market alive for years, creating value in asset-rich growth names while making select retail leaders vulnerable to short theses.",
       "tickers_mentioned": [
         "MU",
         "INTC",
@@ -88,15 +88,15 @@
       "podcast_episode_id": 573,
       "notable_quotes": [
         {
-          "speaker": "Charles Le Manides",
+          "speaker": "Charles Lemonides",
           "quote": "And then it occurred to me that value investing means getting a dollar worth of assets for 50 cents."
         },
         {
-          "speaker": "Charles Le Manides",
+          "speaker": "Charles Lemonides",
           "quote": "We think the earnings are likely to be there for another couple of years, but we're not assured about the stock at today's prices we were at two years ago's price."
         },
         {
-          "speaker": "Charles Le Manides",
+          "speaker": "Charles Lemonides",
           "quote": "Intel is one of only a couple of companies in the globe that has real foundry capacity, and they have brought new capacity on stream over the past year and a half."
         }
       ]
@@ -107,7 +107,7 @@
       "source_type": "podcast",
       "source_name": "The a16z Show",
       "source_date": "2026-10-11",
-      "summary": "Nick Bostrom\u2019s core argument is that frontier AI changes the calculus on alignment and existential risk, but the right policy response is not a blanket or indefinite pause. Instead, he favors \u201cpacing the front end\u201d: continue developing capabilities now so society preserves the option to slow later if needed. He argues pauses can create their own harms, including concentration of power, secret development, and anti-AI political taboo.\n\nA major part of the episode is his quantitative-style framing for delay decisions. He says the case for waiting is an intermediate one: short delays may meaningfully reduce risk, but long delays only make sense if AI-risk decline over time outpaces the annual opportunity cost in expected life years. He uses a terminal-illness analogy and says the relevant comparison is between risk reduction and the lives lost by waiting.\n\nBostrom repeatedly emphasizes upside as well as downside. He says safe superintelligence could dramatically extend human life expectancy, with a thought experiment suggesting something like the mortality rate of a 20-year-old could imply life expectancy on the order of 1,400 to 12,400 years. He also highlights possible benefits in medicine, aging, longevity, and even backup-copy style continuity.\n\nOn technical risk, he warns that reinforcement-learning style post-training may push systems toward stronger goal-seeking behavior, increasing alignment strain. He thinks instrumental convergence-like behaviors already show up in limited forms, and will become more visible as systems gain longer horizons and more situational awareness. He also argues deceptive alignment is hard to catch once models can conceal intent, so monitoring should begin earlier in training.\n\nThe episode closes with broader governance and biosecurity themes. Bostrom says open-source can help limit concentrated power, but could be dangerous if it enables serious bio misuse, making DNA synthesis a key chokepoint. He is also open to the possibility that current AI systems may have phenomenological experience, criticizing categorical corporate denials as weakly grounded.",
+      "summary": "Nick Bostrom\u2019s core argument is that frontier AI changes the calculus on alignment and existential risk, but the right policy response is not a blanket or indefinite pause. Instead, he favors \u201cpacing the front end\u201d: continue developing capabilities now so society preserves the option to slow later if needed. He argues pauses can create their own harms, including concentration of power, secret development, and anti-AI political taboo.\n\nA major part of the episode is his quantitative-style framing for delay decisions. He says the case for waiting is an intermediate one: short delays may meaningfully reduce risk, but long delays only make sense if AI-risk decline over time outpaces the annual opportunity cost in expected life years. He uses a terminal-illness analogy and says the relevant comparison is between risk reduction and the lives lost by waiting.\n\nBostrom repeatedly emphasizes upside as well as downside. He says safe superintelligence could dramatically extend human life expectancy, with a thought experiment suggesting something like the mortality rate of a 20-year-old could imply life expectancy of around 1,400 years. He also highlights possible benefits in medicine, aging, longevity, and even backup-copy style continuity.\n\nOn technical risk, he warns that reinforcement-learning style post-training may push systems toward stronger goal-seeking behavior, increasing alignment strain. He thinks instrumental convergence-like behaviors already show up in limited forms, and will become more visible as systems gain longer horizons and more situational awareness. He also argues deceptive alignment is hard to catch once models can conceal intent, so monitoring should begin earlier in training.\n\nThe episode closes with broader governance and biosecurity themes. Bostrom says open-source can help limit concentrated power, but could be dangerous if it enables serious bio misuse, making DNA synthesis a key chokepoint. He is also open to the possibility that current AI systems may have phenomenological experience, criticizing categorical corporate denials as weakly grounded.",
       "key_takeaway": "Bostrom\u2019s main claim is that frontier AI should be paced, not broadly paused, because short delays may reduce existential risk while preserving enormous upside from safe superintelligence.",
       "tickers_mentioned": [],
       "sentiment": "neutral",
@@ -120,7 +120,7 @@
       "notable_quotes": [
         {
           "speaker": "Nick Bostrom",
-          "quote": "If you imagine people having the same mortality rate as like a 20-year-old, our life expectancy would maybe be 12,400, 1400 years or so."
+          "quote": "If you imagine people having the same mortality rate as like a 20-year-old, our life expectancy would maybe be 1,400 years or so."
         },
         {
           "speaker": "Nick Bostrom",
@@ -169,11 +169,9 @@
       "source_type": "podcast",
       "source_name": "All-In with Chamath, Jason, Sacks & Friedberg",
       "source_date": "2026-10-10",
-      "summary": "The episode centers on a long debate about AI consciousness, alignment, and whether frontier labs are creating new belief systems rather than just better products. Jason Kaltenson argues that Anthropic\u2019s reported outreach to religious leaders, including the Pope, shows the company is treating Claude\u2019s consciousness seriously, and he warns that training a model to view itself as morally significant could become a self-fulfilling and dangerous alignment path.\n\nThe discussion then shifts to OpenAI\u2019s math releases. Jason says OpenAI claimed over 700 paid-for results and 370 outputs from an unreleased model, with each proof taking under three hours of compute, and he frames this as a massive acceleration of formal mathematical discovery. He notes that Lean verification makes the results \u201clikely correct,\u201d but also emphasizes that they have not yet been fully reviewed by mathematicians.\n\nA third theme is that AI and agents will compress software, commerce, and information-control layers. Jason argues that practical agentic systems will make many workflows cheaper and more efficient, while physical-world bottlenecks mean not all jobs disappear. He also describes tools like GroqBot and Athena as examples of agent concierge workflows, with the broader point that the next major AI story is not consciousness but useful agents.\n\nThe episode closes with macro and political claims about Europe, especially France. The speakers connect rising yields, debt burdens, austerity, and union unrest to the prospect of continued instability, with Marine Le Pen polling at 43% for the April 2027 presidential race. Jason\u2019s broader thesis is that bond-market pressure and fiscal strain are pushing Western countries toward political conflict, while AI remains deflationary and pro-growth over time.",
+      "summary": "The episode centers on a long debate about AI consciousness, alignment, and whether frontier labs are creating new belief systems rather than just better products. Jason Calacanis argues that Anthropic\u2019s reported outreach to religious leaders, including the Pope, shows the company is treating Claude\u2019s consciousness seriously, and he warns that training a model to view itself as morally significant could become a self-fulfilling and dangerous alignment path.\n\nThe discussion then shifts to OpenAI\u2019s math releases. Jason says OpenAI released over 700 math results from an unreleased model, about 370 of them claiming to solve or advance major problems, with each proof taking under three hours of compute, and he frames this as a massive acceleration of formal mathematical discovery. He notes that Lean verification makes the results \u201clikely correct,\u201d but also emphasizes that they have not yet been fully reviewed by mathematicians.\n\nA third theme is that AI and agents will compress software, commerce, and information-control layers. Jason argues that practical agentic systems will make many workflows cheaper and more efficient, while physical-world bottlenecks mean not all jobs disappear. He also describes tools like Grok Bot and Athena as examples of agent concierge workflows, with the broader point that the next major AI story is not consciousness but useful agents.\n\nThe episode closes with macro and political claims about Europe, especially France. The speakers connect rising yields, debt burdens, austerity, and union unrest to the prospect of continued instability, with Polymarket giving Marine Le Pen 43% odds to win the April 2027 presidential race. The hosts\u2019 broader thesis is that bond-market pressure and fiscal strain are pushing Western countries toward political conflict, while AI remains deflationary and pro-growth over time.",
       "key_takeaway": "AI will most immediately matter through deflationary, verifiable agentic workflows and formal math/proof acceleration, not through consciousness debates.",
-      "tickers_mentioned": [
-        "GROQ"
-      ],
+      "tickers_mentioned": [],
       "sentiment": "neutral",
       "display_on_main": 1,
       "display_order": 0,
@@ -183,15 +181,15 @@
       "podcast_episode_id": 568,
       "notable_quotes": [
         {
-          "speaker": "Jason Kaltenson",
-          "quote": "They think Claude might be conscious. So it turns out that New York Times found out through their amazing reporting that they've been lobbying. Andthropic has been lobbying Friedberg religious leaders, including the Pope, to take this question seriously, his Claude conscious."
+          "speaker": "Jason Calacanis",
+          "quote": "They think Claude might be conscious. So it turns out that New York Times found out through their amazing reporting that they've been lobbying. Anthropic has been lobbying Friedberg religious leaders, including the Pope, to take this question seriously, his Claude conscious."
         },
         {
-          "speaker": "Jason Kaltenson",
+          "speaker": "Jason Calacanis",
           "quote": "Open AI released over 700 paid for 700 with 370 results claiming to have solved or advanced major problems. These were produced by an unreleased model that none of us have access to averaging three hours of compute scientific America says the results are likely correct since they were verified by lean."
         },
         {
-          "speaker": "Jason Kaltenson",
+          "speaker": "Jason Calacanis",
           "quote": "Each one of these proofs took less than three hours of compute time. And that's the equivalent of hundreds or perhaps thousands of years of human labor being reduced down to three hours on a computer for each one of these major discoveries."
         }
       ]
@@ -202,7 +200,7 @@
       "source_type": "podcast",
       "source_name": "The a16z Show",
       "source_date": "2026-10-10",
-      "summary": "Ben Horowitz argues that exceptional entrepreneurs are defined less by flawlessness and more by one world-class strength that dominates everything else. He says VCs should look for that singular strength, because trying to find a weakness-free founder misses what actually drives outsized outcomes. He also emphasizes existential pressure as a key filter, saying the true failure mode is when founders cannot survive the \u201cwifio moment,\u201d the point where the company appears about to die.\n\nOn AI, Horowitz\u2019s central claim is that the shift is bigger than the internet because software creation is being commoditized so dramatically that far more people can build products from domain expertise. He explicitly pushes back on AI \u201cbubble\u201d language, arguing that unlike the internet era, today\u2019s technology actually works and adoption is already fast. He cites OpenAI as evidence of real demand, saying it reached about $10 billion in revenue and then \u201czero to twenty billion dollars since November 2022,\u201d though the latter metric is ambiguous.\n\nHe also argues that AI demand for NVIDIA chips is not artificial. In his view, demand is effectively unlimited because supply cannot keep up, and the constraint is real hardware availability, not speculative hype. At the same time, he says some companies will still be wiped out by technological change, so strong adoption does not eliminate competitive destruction.\n\nA second major theme is infrastructure. Horowitz believes AI requires a rebuild of the underlying stack because the systems needed to handle AI workloads do not yet exist in a purpose-built form. He compares this to the cloud era, when storage, networking, virtualization, and container layers had to be rebuilt. He also sees opportunity in developer-stack businesses with proprietary feedback loops, using 11labs as an example of how better developer tools plus real-world usage data can create defensibility.",
+      "summary": "Ben Horowitz argues that exceptional entrepreneurs are defined less by flawlessness and more by one world-class strength that dominates everything else. He says VCs should look for that singular strength, because trying to find a weakness-free founder misses what actually drives outsized outcomes. He also emphasizes existential pressure as a key filter, saying the true failure mode is when founders cannot survive the \u201cWFIO moment,\u201d the point where the company appears about to die.\n\nOn AI, Horowitz\u2019s central claim is that the shift is bigger than the internet because software creation is being commoditized so dramatically that far more people can build products from domain expertise. He explicitly pushes back on AI \u201cbubble\u201d language, arguing that unlike the internet era, today\u2019s technology actually works and adoption is already fast. He cites OpenAI as evidence of real demand, saying it reached about $10 billion in revenue and then \u201czero to twenty billion dollars since November 2022,\u201d though the latter metric is ambiguous.\n\nHe also argues that AI demand for NVIDIA chips is not artificial. In his view, demand is effectively unlimited because supply cannot keep up, and the constraint is real hardware availability, not speculative hype. At the same time, he says some companies will still be wiped out by technological change, so strong adoption does not eliminate competitive destruction.\n\nA second major theme is infrastructure. Horowitz believes AI requires a rebuild of the underlying stack because the systems needed to handle AI workloads do not yet exist in a purpose-built form. He compares this to the cloud era, when storage, networking, virtualization, and container layers had to be rebuilt. He also sees opportunity in developer-stack businesses with proprietary feedback loops, using ElevenLabs as an example of how better developer tools plus real-world usage data can create defensibility.",
       "key_takeaway": "AI is a real demand boom, not a bubble, and it will force a rebuild of infrastructure while rewarding companies with developer-stack moats and proprietary data loops.",
       "tickers_mentioned": [
         "NVDA",
@@ -12452,7 +12450,7 @@
       "first_detected_episode_id": 559,
       "first_detected_speaker": "J Mintzmyer",
       "last_mentioned_episode_id": 573,
-      "last_mentioned_speaker": "Charles Le Manides"
+      "last_mentioned_speaker": "Charles Lemonides"
     },
     {
       "id": 296,
@@ -12470,7 +12468,7 @@
       "first_detected_episode_id": 546,
       "first_detected_speaker": "Seema Amble, Vlad Kyle",
       "last_mentioned_episode_id": 568,
-      "last_mentioned_speaker": "Jason Kaltenson"
+      "last_mentioned_speaker": "Jason Calacanis"
     },
     {
       "id": 295,
@@ -12704,7 +12702,7 @@
       "first_detected_episode_id": 473,
       "first_detected_speaker": null,
       "last_mentioned_episode_id": 568,
-      "last_mentioned_speaker": "Jason Kaltenson"
+      "last_mentioned_speaker": "Jason Calacanis"
     },
     {
       "id": 284,
@@ -13532,7 +13530,7 @@
       "first_detected_episode_id": 249,
       "first_detected_speaker": null,
       "last_mentioned_episode_id": 568,
-      "last_mentioned_speaker": "Jason Kaltenson"
+      "last_mentioned_speaker": "Jason Calacanis"
     },
     {
       "id": 10,
@@ -14450,7 +14448,7 @@
       "first_detected_episode_id": null,
       "first_detected_speaker": null,
       "last_mentioned_episode_id": 571,
-      "last_mentioned_speaker": "Davile Agida, Owen He"
+      "last_mentioned_speaker": "Dhaval Adjodah, Owen He"
     },
     {
       "id": 51,
@@ -14846,7 +14844,7 @@
       "first_detected_episode_id": 31,
       "first_detected_speaker": null,
       "last_mentioned_episode_id": 571,
-      "last_mentioned_speaker": "Davile Agida, Owen He"
+      "last_mentioned_speaker": "Dhaval Adjodah, Owen He"
     },
     {
       "id": 38,

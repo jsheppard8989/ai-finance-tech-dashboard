@@ -45,3 +45,63 @@ def test_site_data_has_no_matmo():
     data_dir = Path(__file__).parent.parent / "site" / "data"
     for name in ("data.js", "podcast_summaries.json", "archive.json"):
         assert "MATMO" not in (data_dir / name).read_text(encoding="utf-8"), name
+
+
+ALLIN = "Is Claude Conscious? Pope Rejects, Model Welfare Movement, OpenAI's Math Backlash, France Riots"
+BOSTROM = "Nick Bostrom: How Should We Navigate Superintelligence?"
+
+
+def test_whole_card_quotes_speakers_and_tickers():
+    rec = {
+        "id": 579, "title": ALLIN,
+        "summary": "Jason Kaltenson says GroqBot",
+        "notable_quotes": [{"speaker": "Jason Kaltenson", "quote": "Andthropic has been lobbying"}],
+        "tickers_mentioned": "[\"GROQ\", \"NVDA\"]",
+    }
+    export_data._apply_summary_overrides([rec])
+    assert rec["summary"] == "Jason Calacanis says Grok Bot"
+    assert rec["notable_quotes"] == [{"speaker": "Jason Calacanis", "quote": "Anthropic has been lobbying"}]
+    assert json.loads(rec["tickers_mentioned"]) == ["NVDA"]
+    assert rec["title"] == ALLIN
+    rec2 = {"title": ALLIN, "tickers_mentioned": ["GROQ"]}
+    export_data._apply_summary_overrides([rec2])
+    assert rec2["tickers_mentioned"] == []
+
+
+def test_deep_dive_matched_by_insight_title():
+    dd = {"581": {"insight_title": BOSTROM,
+                  "investment_thesis": "rather than in simple bets on either unrestricted scaling or blanket moratoria",
+                  "episode_evidence": "our life expectancy would maybe be 12,400, 1400 years or so.",
+                  "falsification_tracks": ["x"]}}
+    export_data._apply_summary_overrides(dd)
+    assert "simple calls on" in dd["581"]["investment_thesis"]
+    assert dd["581"]["episode_evidence"] == "our life expectancy would maybe be 1,400 years or so."
+
+
+def test_global_replacements_cover_pundits_and_overton():
+    pundits = [{"name": "Charles Le Manides", "last_main_idea": "Le Manides thinks", "last_episode_title": "keep"}]
+    overton = {"overton": [{"last_mentioned_speaker": "Davile Agida, Owen He"}], "speakers": ["Jason Kaltenson"]}
+    export_data._apply_summary_overrides(pundits)
+    export_data._apply_summary_overrides(overton)
+    assert pundits[0]["name"] == "Charles Lemonides" and pundits[0]["last_main_idea"] == "Lemonides thinks"
+    assert overton["overton"][0]["last_mentioned_speaker"] == "Dhaval Adjodah, Owen He"
+    assert overton["speakers"] == ["Jason Calacanis"]
+
+
+def test_guest_overrides_stamp_names_and_block_title_fragment():
+    mc = {"insights": [{"id": 580, "guest_name": "What Makes a Great Entrepreneur?"}, {"id": 584, "guest_name": None}]}
+    guests = [{"name": "What Makes a Great Entrepreneur?"}, {"name": "Pat Gelsinger"}]
+    mc, guests = export_data._apply_guest_export_overrides(mc, guests)
+    assert [i["guest_name"] for i in mc["insights"]] == ["Ben Horowitz", "Charles Lemonides"]
+    assert guests == [{"name": "Pat Gelsinger"}]
+
+
+def test_site_data_has_no_known_bad_strings():
+    data_dir = Path(__file__).parent.parent / "site" / "data"
+    bad = ["Charles Le Manides", "Jason Kaltenson", "Andthropic", "GroqBot", "Davile Agida",
+           "wifio moment", "11labs", "single macro bet", "betting that cheaper compute", "simple bets on",
+           "polling at 43%", "paid-for results", "12,400"]
+    for name in ("data.js", "podcast_summaries.json", "archive.json", "pundits.json", "podcast_guests.json"):
+        text = (data_dir / name).read_text(encoding="utf-8")
+        for s in bad:
+            assert s not in text, (name, s)
