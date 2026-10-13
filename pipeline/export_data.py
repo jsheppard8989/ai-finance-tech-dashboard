@@ -14,7 +14,7 @@ import sqlite3
 # Add pipeline directory to path
 sys.path.insert(0, str(Path(__file__).parent))
 from db_manager import get_db
-from site_text_sanitize import sanitize_public_text, strip_cjk_public_text
+from site_text_sanitize import apply_style_gate, report_style_gate_misses, sanitize_public_text, strip_cjk_public_text
 from extract_guests import load_overrides
 from workspace_paths import (
     DB_PATH,
@@ -215,10 +215,12 @@ def _apply_summary_overrides_to_files(site_dir: Path) -> None:
                 if isinstance(g, dict) and fixes.get(g.get("name") or ""):
                     g["name"] = fixes[g["name"]]
         _apply_summary_overrides(data)
+        apply_style_gate(data)  # warn-only 'bet' wording check
         if json.dumps(data) != before:
             with open(f, "w") as fh:
                 json.dump(data, fh, indent=2)
             print(f"  ✓ Applied summary overrides to {name}")
+    report_style_gate_misses()
 
 
 def export_website_data():
@@ -1342,6 +1344,10 @@ if (typeof module !== 'undefined' && module.exports) {{
 }}
 """
     
+    for _sec in (archive, main_content, deepdives, suggested_terms, podcast_guests, pundits):
+        apply_style_gate(_sec)  # warn-only: flags 'bet' wording, never rewrites
+    report_style_gate_misses()
+
     with open(site_dir / 'data.js', 'w') as f:
         f.write(js_content)
 

@@ -637,7 +637,7 @@ Return ONLY valid JSON with keys:
   "editorial_note": string — 2–4 sentences explaining why WE picked this topic this week (feed friction, podcast themes, market relevance). Write in first-person plural ("we").
   "expires_rule": string — human-readable e.g. "Resolves Friday 12:00 PM CST YYYY-MM-DD" (pick date = contract Friday + 42 days). Use the CURRENT calendar year from context.
   "crux_theme": short label for the substance (e.g. "AI labor", "rates path").
-  "resolution_clarity": { "source_of_truth": string, "resolution_sources": [string], "resolution_criteria": [string] } — concrete enough to settle the bet (feeds, agencies, official data), not vague.
+  "resolution_clarity": { "source_of_truth": string, "resolution_sources": [string], "resolution_criteria": [string] } — concrete enough to settle the call (feeds, agencies, official data), not vague.
 
 PRIMARY SOURCE OF TRUTH FOR TOPICS:
 - The user message includes LIVE Polymarket markets AND a LIVE macro reference block. Prefer adapting ONE Polymarket market into a paraphrased Yes/No (policy, macro, election, rates, crypto regulation, etc.).
@@ -1211,7 +1211,7 @@ def main() -> int:
     )
     ap.add_argument("--audio-only", action="store_true", help="TTS from last_debate_scripts.json only")
     ap.add_argument("--mark-resolved", metavar="FRIDAY_ISO", help="With --status, update history")
-    ap.add_argument("--status", choices=("yes", "no", "void", "pending"), help="Bet resolution for --mark-resolved")
+    ap.add_argument("--status", choices=("yes", "no", "void", "pending"), help="Call resolution for --mark-resolved")
     ap.add_argument("--notes", default="", help="Resolution notes")
     ap.add_argument(
         "--sync-archive",

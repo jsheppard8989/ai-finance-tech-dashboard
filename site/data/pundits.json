@@ -4552,7 +4552,7 @@
       "source_url": "",
       "page_title": "Astra Research Team",
       "fetched_at": "2026-09-11T19:04:36.270274+00:00",
-      "cliff_notes": "The Astra Research Team operates within OpenAI and is distinguished by its focus on applying large language models and reasoning systems to frontier mathematics. The team developed the Astra model, an AI system engineered to perform sustained, rigorous mathematical deduction and verification. In a widely noted result, the team deployed Astra to produce a proof establishing the existence of non-sofic groups, a decades-old open question in group theory. This marked one of the first instances of an AI system proving a major unsolved problem in pure mathematics without relying solely on human derivation, suggesting that modern AI architectures can move beyond benchmark performance to generate novel, checkable knowledge. In public discussions, team members have emphasized a methodology oriented around \"reachable results\"\u2014iteratively probing problems where AI assistance can yield concrete progress rather than open-ended speculation. Their appearance on an Andreessen Horowitz podcast highlighted their view that AI mathematical reasoning is scaling rapidly, with a high ceiling for problem difficulty, though they remain measured about near-term prospects for the most famous open problems like P versus NP. By bridging advanced AI research with pure mathematics, the Astra Research Team exemplifies a strategic bet that reasoning capabilities will unlock scientific and commercial value in deeply technical domains.",
+      "cliff_notes": "The Astra Research Team operates within OpenAI and is distinguished by its focus on applying large language models and reasoning systems to frontier mathematics. The team developed the Astra model, an AI system engineered to perform sustained, rigorous mathematical deduction and verification. In a widely noted result, the team deployed Astra to produce a proof establishing the existence of non-sofic groups, a decades-old open question in group theory. This marked one of the first instances of an AI system proving a major unsolved problem in pure mathematics without relying solely on human derivation, suggesting that modern AI architectures can move beyond benchmark performance to generate novel, checkable knowledge. In public discussions, team members have emphasized a methodology oriented around \"reachable results\"\u2014iteratively probing problems where AI assistance can yield concrete progress rather than open-ended speculation. Their appearance on an Andreessen Horowitz podcast highlighted their view that AI mathematical reasoning is scaling rapidly, with a high ceiling for problem difficulty, though they remain measured about near-term prospects for the most famous open problems like P versus NP. By bridging advanced AI research with pure mathematics, the Astra Research Team exemplifies a strategic view that reasoning capabilities will unlock scientific and commercial value in deeply technical domains.",
       "derived": {
         "current_role": "Research team at OpenAI (developers of the Astra reasoning model)"
       },
@@ -4565,7 +4565,7 @@
       "lead_paragraphs": [
         "The Astra Research Team operates within OpenAI and is distinguished by its focus on applying large language models and reasoning systems to frontier mathematics. The team developed the Astra model, an AI system engineered to perform sustained, rigorous mathematical deduction and verification. In a widely noted result, the team deployed Astra to produce a proof establishing the existence of non-sofic groups, a decades-old open question in group theory.",
         "This marked one of the first instances of an AI system proving a major unsolved problem in pure mathematics without relying solely on human derivation, suggesting that modern AI architectures can move beyond benchmark performance to generate novel, checkable knowledge. In public discussions, team members have emphasized a methodology oriented around \"reachable results\"\u2014iteratively probing problems where AI assistance can yield concrete progress rather than open-ended speculation.",
-        "Their appearance on an Andreessen Horowitz podcast highlighted their view that AI mathematical reasoning is scaling rapidly, with a high ceiling for problem difficulty, though they remain measured about near-term prospects for the most famous open problems like P versus NP. By bridging advanced AI research with pure mathematics, the Astra Research Team exemplifies a strategic bet that reasoning capabilities will unlock scientific and commercial value in deeply technical domains."
+        "Their appearance on an Andreessen Horowitz podcast highlighted their view that AI mathematical reasoning is scaling rapidly, with a high ceiling for problem difficulty, though they remain measured about near-term prospects for the most famous open problems like P versus NP. By bridging advanced AI research with pure mathematics, the Astra Research Team exemplifies a strategic view that reasoning capabilities will unlock scientific and commercial value in deeply technical domains."
       ],
       "sections": [
         {
@@ -8895,7 +8895,7 @@
     "name": "Travis Kelenick",
     "slug": "travis-kelenick",
     "bio": "Travis Kelenick is an entrepreneur and CEO of a company that specializes in industrial AI. He is recognized for his vision on how autonomy is transforming industries such as mining and food production, and his belief in the potential of AI to revolutionize the physical world beyond software.",
-    "known_for": "Betting on industrial AI for the next wave of industry transformation.",
+    "known_for": "Backing industrial AI for the next wave of industry transformation.",
     "net_worth_usd": 3600000000.0,
     "net_worth_source": "https://spearswms.com/wealth/billionaire-former-uber-ceo-travis-kalanick-on-his-emergence-from-stealth-mode-business-is-politics-now/",
     "net_worth_updated_at": "2026-07-24T06:37:39.731739",
@@ -8911,7 +8911,7 @@
     "mention_score_decayed": 0.16,
     "last_main_idea": "Industrial AI represents a substantial opportunity to transform physical industries through automation and AI, creating significant value beyond traditional software solutions.",
     "last_proof_cite": "The a16z Show \u2022 2026-07-23 \u2022 Building the Physical AI Stack | Travis Kalanick on TBPN",
-    "last_proof_snippet": "Travis Kelenick joins TVPN to discuss why he's betting his next company on industrial AI. He shares his vision behind atoms, explains how autonomy is transforming industries like mining and food production, and discusses why bringing AI int",
+    "last_proof_snippet": "Travis Kelenick joins TVPN to discuss why he's building his next company around industrial AI. He shares his vision behind atoms, explains how autonomy is transforming industries like mining and food production, and discusses why bringing AI int",
     "supporting_takeaway": "Autonomy is transforming industries like mining and food production.",
     "grokipedia_url": null,
     "grokipedia_fetched_at": "2026-07-24T06:37:38.804561",
@@ -11219,8 +11219,8 @@
     "id": 298,
     "name": "Jim Chanos",
     "slug": "jim-chanos",
-    "bio": "Jim Chanos is a renowned short-seller and the founder of Kynikos Associates, a global investment firm. He is known for identifying and betting against unsustainable business models and market bubbles, which has led to significant financial gains and reputation in the investment community.",
-    "known_for": "Identifying and betting against unsustainable business models and market bubbles, including Enron, Chinese real estate stocks, and Wirecard.",
+    "bio": "Jim Chanos is a renowned short-seller and the founder of Kynikos Associates, a global investment firm. He is known for identifying and shorting unsustainable business models and market bubbles, which has led to significant financial gains and reputation in the investment community.",
+    "known_for": "Identifying and shorting unsustainable business models and market bubbles, including Enron, Chinese real estate stocks, and Wirecard.",
     "net_worth_usd": 200000000.0,
     "net_worth_source": "https://www.celebritynetworth.com/richest-businessmen/wall-street/jim-chanos-net-worth/",
     "net_worth_updated_at": "2026-06-20T23:36:25.211360",
@@ -11270,7 +11270,7 @@
         },
         {
           "heading": "Wirecard Scandal",
-          "body": "Jim Chanos was one of the investors who bet against Wirecard, a German payment processing company that collapsed after a multi-billion euro accounting scandal was uncovered."
+          "body": "Jim Chanos was one of the investors who shorted Wirecard, a German payment processing company that collapsed after a multi-billion euro accounting scandal was uncovered."
         },
         {
           "heading": "Macro-Mines Symposium",
@@ -11714,7 +11714,7 @@
     "name": "Brad Gerstner",
     "slug": "brad-gerstner",
     "bio": "Brad Gerstner is the CEO of Altimeter Capital, a technology-focused investment firm. He is recognized for his expertise in technology investments and long-term value creation, particularly in the areas of AI and space technology.",
-    "known_for": "His insights into the future of AI and the importance of investing in companies like SpaceX for a bet on the space and AI future.",
+    "known_for": "His insights into the future of AI and the importance of investing in companies like SpaceX for exposure to the space and AI future.",
     "net_worth_usd": 950000000.0,
     "net_worth_source": "https://www.growth-hackers.net/what-is-brad-gerstner-net-worth-entrepreneur-how-make-money-wealth-rich-investor-success-business/",
     "net_worth_updated_at": "2026-06-16T23:38:13.997919",
@@ -14183,7 +14183,7 @@
         },
         {
           "heading": "Innovation and Autonomy",
-          "body": "Beglino advocates for innovation in old systems, drawing from his experience at Tesla, where he learned the importance of pushing through challenges for significant outcomes, including bets on autonomy and refineries."
+          "body": "Beglino advocates for innovation in old systems, drawing from his experience at Tesla, where he learned the importance of pushing through challenges for significant outcomes, including big pushes into autonomy and refineries."
         },
         {
           "heading": "Critical Minerals Supply",
@@ -14227,7 +14227,7 @@
       "source_url": "",
       "page_title": "Turner Coldwell",
       "fetched_at": "2026-05-13T17:05:04.478916+00:00",
-      "cliff_notes": "Turner Coldwell is recognized for his work in the mining and refining industry, particularly for his efforts to integrate advanced software and autonomy. As the co-founder and CEO of Mariana Minerals, Coldwell is at the forefront of using technology to revolutionize an industry that has been slow to adapt to modern innovations. His background includes a stint at Tesla, which has influenced his belief in the power of innovation to transform traditional industries. At Mariana Minerals, Coldwell is making a significant bet on autonomy and refineries, utilizing reinforcement learning to remove humans from the operational loop and optimize refinery operations. His work is crucial in addressing the U.S.'s critical minerals supply, which lags significantly behind China, and in leveraging domestic technology to meet the accelerating demand for such minerals.",
+      "cliff_notes": "Turner Coldwell is recognized for his work in the mining and refining industry, particularly for his efforts to integrate advanced software and autonomy. As the co-founder and CEO of Mariana Minerals, Coldwell is at the forefront of using technology to revolutionize an industry that has been slow to adapt to modern innovations. His background includes a stint at Tesla, which has influenced his belief in the power of innovation to transform traditional industries. At Mariana Minerals, Coldwell is making a significant push into autonomy and refineries, utilizing reinforcement learning to remove humans from the operational loop and optimize refinery operations. His work is crucial in addressing the U.S.'s critical minerals supply, which lags significantly behind China, and in leveraging domestic technology to meet the accelerating demand for such minerals.",
       "derived": {
         "current_role": "Co-founder and CEO of Mariana Minerals",
         "former_positions": "Worked at Tesla"
@@ -14238,7 +14238,7 @@
       },
       "lead_paragraphs": [
         "Turner Coldwell is recognized for his work in the mining and refining industry, particularly for his efforts to integrate advanced software and autonomy. As the co-founder and CEO of Mariana Minerals, Coldwell is at the forefront of using technology to revolutionize an industry that has been slow to adapt to modern innovations.",
-        "His background includes a stint at Tesla, which has influenced his belief in the power of innovation to transform traditional industries. At Mariana Minerals, Coldwell is making a significant bet on autonomy and refineries, utilizing reinforcement learning to remove humans from the operational loop and optimize refinery operations.",
+        "His background includes a stint at Tesla, which has influenced his belief in the power of innovation to transform traditional industries. At Mariana Minerals, Coldwell is making a significant push into autonomy and refineries, utilizing reinforcement learning to remove humans from the operational loop and optimize refinery operations.",
         "His work is crucial in addressing the U.S.'s critical minerals supply, which lags significantly behind China, and in leveraging domestic technology to meet the accelerating demand for such minerals."
       ],
       "sections": [
@@ -17158,7 +17158,7 @@
       "sections": [
         {
           "heading": "Activist Short Selling",
-          "body": "Carson Block is recognized for his activist short selling approach, where he not only bets against companies but also actively researches and exposes fraudulent practices or overpromised business models."
+          "body": "Carson Block is recognized for his activist short selling approach, where he not only shorts companies but also actively researches and exposes fraudulent practices or overpromised business models."
         },
         {
           "heading": "Muddy Waters Capital",
@@ -17346,7 +17346,7 @@
         },
         {
           "heading": "AI Advancements",
-          "body": "He highlights the competition between Thropic and OpenAI, noting Thropic's overtaking in total ARR and the implications for super intelligence, suggesting a consumer-driven growth bet by Thropic."
+          "body": "He highlights the competition between Thropic and OpenAI, noting Thropic's overtaking in total ARR and the implications for super intelligence, suggesting a consumer-driven growth strategy by Thropic."
         },
         {
           "heading": "Model Breakthroughs",

@@ -223,3 +223,68 @@ def clean_reader_advice(obj: Any) -> Any:
     if isinstance(obj, tuple):
         return tuple(clean_reader_advice(x) for x in obj)
     return obj
+
+
+# ---------------------------------------------------------------------------
+# Style gate (Oct 2026). Jared's rule: nothing on the public site is called a
+# "bet". The gate only FLAGS wording (it never rewrites text): curated swaps live
+# in pipeline/summary_overrides.json (global_replacements / summaries rules) so
+# Mac exports keep them. Exempt: title fields (podcast episode titles), cites,
+# URLs/slugs, direct quotes (notable_quotes, episode_evidence, quoted text) and
+# Alphabet's "Other Bets". Mode is WARN: export prints leftovers and continues.
+# ---------------------------------------------------------------------------
+
+BANNED_WORDS_RE = re.compile(r"\b(?:bets?|betting|bettors?|wager(?:s|ed|ing)?)\b", re.IGNORECASE)
+STYLE_GATE_SKIP_KEYS = frozenset({
+    "title", "episode_title", "insight_title", "last_episode_title", "last_mentioned_episode_title",
+    "last_proof_cite",
+    "net_worth_source", "url", "source_url", "link", "slug",
+    "episode_evidence", "notable_quotes", "quote", "quotes", "speaker",
+})
+_PROTECTED_RE = re.compile(
+    r"\"[^\"]*\"|\u201c[^\u201d]*\u201d|(?<![A-Za-z])'[^']*'(?![A-Za-z])|https?://\S+|\bOther Bets\b"
+)
+STYLE_GATE_MISSES: list = []
+
+
+def style_gate_hits(text: str) -> list:
+    """Return banned-word snippets in text outside quotes, URLs and 'Other Bets'."""
+    if not isinstance(text, str) or not BANNED_WORDS_RE.search(text):
+        return []
+    stripped = _PROTECTED_RE.sub(" ", text)
+    return [stripped[max(0, m.start() - 40): m.end() + 40].strip() for m in BANNED_WORDS_RE.finditer(stripped)]
+
+
+def find_style_gate_hits(obj: Any, _key: str = "", _path: str = "") -> list:
+    """Recursively collect (path, snippet) style-gate hits, skipping exempt fields."""
+    out = []
+    if isinstance(obj, str):
+        if _key not in STYLE_GATE_SKIP_KEYS:
+            out.extend((_path, s) for s in style_gate_hits(obj))
+    elif isinstance(obj, dict):
+        for k, v in obj.items():
+            if k in STYLE_GATE_SKIP_KEYS:
+                continue
+            out.extend(find_style_gate_hits(v, k, f"{_path}.{k}"))
+    elif isinstance(obj, (list, tuple)):
+        for i, v in enumerate(obj):
+            out.extend(find_style_gate_hits(v, _key, f"{_path}[{i}]"))
+    return out
+
+
+def apply_style_gate(obj: Any) -> Any:
+    """Warn-only gate: record hits for report_style_gate_misses(); returns obj unchanged."""
+    STYLE_GATE_MISSES.extend(find_style_gate_hits(obj))
+    return obj
+
+
+def report_style_gate_misses() -> int:
+    """Print leftover 'bet' wording as a warning (never raises). Returns the count."""
+    n = len(STYLE_GATE_MISSES)
+    if n:
+        print(f"  \u26a0 style gate (warn): {n} 'bet' wording hit(s) on public text; "
+              "add a swap to pipeline/summary_overrides.json global_replacements:")
+        for path, s in sorted(set(STYLE_GATE_MISSES))[:20]:
+            print(f"     - {path}: {s}")
+    STYLE_GATE_MISSES.clear()
+    return n
