@@ -1,5 +1,5 @@
 {
-  "_comment": "Curated text fixes that survive DB re-exports. export_data.py applies each 'summaries' rule to the WHOLE card of any record whose episode_title/title/insight_title contains 'episode_title' (every string field except the title fields: summary, key_takeaway(s), investment_thesis, notable_quotes quote+speaker, Deep Dive overview/episode_evidence/falsification_tracks, ...) in podcast_summaries.json, archive.json and data.js (archive, mainContent, deepDives). 'drop_tickers' removes symbols from tickers_mentioned/key_tickers of matched records. 'global_replacements' are exact swaps applied to every non-title string everywhere (incl. pundits, overton speakers, podcastGuests). 'terms' rules overwrite fields of suggestedTerms entries whose term matches exactly. Replacements are exact substring swaps; once the DB text is fixed they become no-ops.",
+  "_comment": "Curated text fixes that survive DB re-exports. export_data.py applies each 'summaries' rule to the WHOLE card of any record whose episode_title/title/insight_title contains 'episode_title' (every string field except the title fields: summary, key_takeaway(s), investment_thesis, notable_quotes quote+speaker, Deep Dive overview/episode_evidence/falsification_tracks, ...) in podcast_summaries.json, archive.json and data.js (archive, mainContent, deepDives). 'drop_tickers' removes symbols from tickers_mentioned/key_tickers of matched records. 'global_replacements' are exact swaps applied to every non-title string everywhere (incl. pundits, overton speakers, podcastGuests). 'terms' rules overwrite fields of suggestedTerms entries whose term matches exactly. Replacements are exact substring swaps; once the DB text is fixed they become no-ops. Oct 2026: 'bet' wording swaps (Jared's rule: nothing on the public site is called a bet) live in global_replacements; site_text_sanitize style gate warns on any new ones.",
   "summaries": [
     {
       "insight_id": 572,
@@ -180,6 +180,162 @@
     [
       "would maybe be 12,400, 1400 years or so",
       "would maybe be 1,400 years or so"
+    ],
+    [
+      "model releases and infrastructure bets.",
+      "model releases and infrastructure choices."
+    ],
+    [
+      "Runway's 1,100-GPU 2022 bet showed",
+      "Runway's 1,100-GPU 2022 decision showed"
+    ],
+    [
+      "made a mid-2022 Series B bet on a 1,100-GPU cluster",
+      "made a mid-2022 Series B commitment to a 1,100-GPU cluster"
+    ],
+    [
+      "represents a concentrated bet on company formation",
+      "represents a concentrated focus on company formation"
+    ],
+    [
+      "expecting initial failures but betting on repeated founder attempts",
+      "expecting initial failures but counting on repeated founder attempts"
+    ],
+    [
+      "acceptance of risk in sports betting",
+      "acceptance of risk in sports gambling"
+    ],
+    [
+      "has made sports betting a dominant area",
+      "has made sports gambling a dominant area"
+    ],
+    [
+      "represents a bet on the convergence",
+      "represents a long-term view on the convergence"
+    ],
+    [
+      "his unconventional investment bets, the importance of betting on talent",
+      "his unconventional investments, the importance of backing talent"
+    ],
+    [
+      "Betting on talented individuals",
+      "Backing talented individuals"
+    ],
+    [
+      "his unconventional bets, with a focus",
+      "his unconventional investments, with a focus"
+    ],
+    [
+      "His unconventional bets, such as",
+      "His unconventional investments, such as"
+    ],
+    [
+      "efficient-algorithm bets generate",
+      "efficient-algorithm positions generate"
+    ],
+    [
+      "are treated as short-term bets.",
+      "are treated as short-term efforts."
+    ],
+    [
+      "high-conviction bets on next-generation",
+      "high-conviction calls on next-generation"
+    ],
+    [
+      "exemplifies a strategic bet that",
+      "exemplifies a strategic view that"
+    ],
+    [
+      "Betting on industrial AI for",
+      "Backing industrial AI for"
+    ],
+    [
+      "betting his next company on industrial AI",
+      "building his next company around industrial AI"
+    ],
+    [
+      "identifying and betting against unsustainable",
+      "identifying and shorting unsustainable"
+    ],
+    [
+      "Identifying and betting against unsustainable",
+      "Identifying and shorting unsustainable"
+    ],
+    [
+      "investors who bet against Wirecard",
+      "investors who shorted Wirecard"
+    ],
+    [
+      "companies like SpaceX for a bet on the space and AI future",
+      "companies like SpaceX for exposure to the space and AI future"
+    ],
+    [
+      "including bets on autonomy and refineries",
+      "including big pushes into autonomy and refineries"
+    ],
+    [
+      "making a significant bet on autonomy and refineries",
+      "making a significant push into autonomy and refineries"
+    ],
+    [
+      "he not only bets against companies",
+      "he not only shorts companies"
+    ],
+    [
+      "a consumer-driven growth bet by",
+      "a consumer-driven growth strategy by"
+    ],
+    [
+      "Investing in AV technology is a bet on",
+      "Investing in AV technology is a call on"
+    ],
+    [
+      "Investing in autonomous driving technologies is a bet on",
+      "Investing in autonomous driving technologies is a call on"
+    ],
+    [
+      "with strategic bets on companies driving",
+      "with strategic positions in companies driving"
+    ],
+    [
+      "could be tactical, betting on the continued growth",
+      "could be tactical, banking on the continued growth"
+    ],
+    [
+      "could be strategic, betting on the success of",
+      "could be strategic, banking on the success of"
+    ],
+    [
+      "could be strategic, betting on the U.S.",
+      "could be strategic, banking on the U.S."
+    ],
+    [
+      "space technology is a bet on the continued",
+      "space technology is a call on the continued"
+    ],
+    [
+      "Korea is a bet on a short-term market bounce",
+      "Korea is a call on a short-term market bounce"
+    ],
+    [
+      "less about betting on the next frontier model",
+      "less about picking the next frontier model"
+    ],
+    [
+      "once officials who bet on Anduril",
+      "once officials who backed Anduril"
+    ],
+    [
+      "The deeper bet is that privacy demand",
+      "The deeper view is that privacy demand"
+    ],
+    [
+      "Recursive is not just betting on bigger models",
+      "Recursive is not just counting on bigger models"
+    ],
+    [
+      "career-dangerous bet: $1B",
+      "career-dangerous choice: $1B"
     ]
   ]
 }
