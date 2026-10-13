@@ -29,6 +29,7 @@ from workspace_paths import SITE_DATA_DIR
 
 TRAP_MAP_PATH = SITE_DATA_DIR / "trap_map.json"
 TRAP_HOME_PATH = SITE_DATA_DIR / "trap_map_home.json"
+OVERRIDE_PATH = Path(__file__).parent / "trap_home_override.json"
 
 
 def _parse_date_key(date_str: str) -> tuple[int, int, int]:
@@ -183,6 +184,12 @@ def regenerate_trap_home(trap_map_path: Path = TRAP_MAP_PATH) -> dict:
         "upcoming_watches": upcoming_watches,
     }
     
+    if trap_map_path == TRAP_MAP_PATH and OVERRIDE_PATH.is_file():
+        ov = json.loads(OVERRIDE_PATH.read_text(encoding="utf-8"))
+        home_data["_source"] = "pipeline/trap_home_override.json"
+        home_data["last_monitored"] = ov.get("last_monitored", [])
+        home_data["upcoming_watches"] = ov.get("upcoming_watches", [])
+
     return home_data
 
 
