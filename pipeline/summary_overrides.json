@@ -1,15 +1,40 @@
 {
-  "_comment": "Curated summary text fixes that survive DB re-exports. export_data.py applies each replacement to the 'summary' field of any record whose episode_title/title contains 'episode_title' (podcast_summaries.json, archive.json, data.js archive + mainContent). Replacements are exact substring swaps; once the DB text is fixed they become no-ops.",
+  "_comment": "Curated text fixes that survive DB re-exports. export_data.py applies each 'summaries' replacement to the summary, key_takeaway, key_takeaways and investment_thesis fields of any record whose episode_title/title contains 'episode_title' (podcast_summaries.json, archive.json, data.js archive + mainContent). 'terms' rules overwrite fields of suggestedTerms entries whose term matches exactly. Replacements are exact substring swaps; once the DB text is fixed they become no-ops.",
   "summaries": [
     {
       "insight_id": 572,
       "episode_title": "Martin Shkreli: Big Pharma's Blind Spot, Betting Against Quantum",
       "replacements": [
-        ["He also predicts current H100-class hardware could be obsolete within about 20 years.", "He predicts that within 20 years today's H100, B100 and B200 chips will be \"in the scrap heap,\" replaced by faster optical designs, and calls it \"insane\" to plan space or nuclear power for data centers when a faster computer can be built. He is still long Nvidia and chip stocks, betting that cheaper compute raises total demand."],
-        ["Neurofoss", "Neurophos"],
-        ["and Lumi as", "and Lumai as"],
-        ["photonic MATMO cores", "photonic matrix-multiplication cores"]
+        [
+          "He also predicts current H100-class hardware could be obsolete within about 20 years.",
+          "He predicts that within 20 years today's H100, B100 and B200 chips will be \"in the scrap heap,\" replaced by faster optical designs, and calls it \"insane\" to plan space or nuclear power for data centers when a faster computer can be built. He is still long Nvidia and chip stocks, betting that cheaper compute raises total demand."
+        ],
+        [
+          "Neurofoss",
+          "Neurophos"
+        ],
+        [
+          "and Lumi as",
+          "and Lumai as"
+        ],
+        [
+          "photonic MATMO cores",
+          "photonic matrix-multiplication cores"
+        ],
+        [
+          "MATMO-style systems",
+          "matrix-multiplication systems"
+        ]
       ]
+    }
+  ],
+  "terms": [
+    {
+      "term": "MATMO",
+      "set": {
+        "term": "Photonic matrix-multiplication cores",
+        "definition": "Photonic/analog optical compute cores that use light to do matrix multiplication very efficiently. Shkreli treats this as a potential successor architecture to GPU-centric computing."
+      }
     }
   ]
 }
