@@ -55,7 +55,6 @@
     "Davile Agida": "Dhaval Adjodah",
     "AWS CEO Matt Garman": "Matt Garman",
     "Token Bill Dwarfs CPU Bill": "Ben Pouladian",
-    "Moonshots Live": "Cathie Wood",
     "Ben Kulandian": "Ben Pouladian"
   },
   "episode_title_guest": {
@@ -66,7 +65,8 @@
     "Chips, Memory, and Power | Pat Gelsinger": "Pat Gelsinger",
     "Building the Cloud for an Agentic World | AWS CEO Matt Garman": "Matt Garman",
     "Can AI Break Cryptography? What the Experts Actually Think": "Dan Boneh, Eddy Lazzarin & Justin Thaler",
-    "Dyna-2: General Purpose Physical Agents with Hour-Long Autonomy — Jason Ma, Dyna Robotics": "Jason Ma"
+    "Dyna-2: General Purpose Physical Agents with Hour-Long Autonomy — Jason Ma, Dyna Robotics": "Jason Ma",
+    "Cathie Wood on Tesla-SpaceX Merger, $1M Bitcoin, More AIs Than Humans | EP #296 | Moonshots Live": "Cathie Wood"
   },
   "insight_guest_by_id": {
     "564": "Alex Atallah & Amjad Masad",
@@ -81,7 +81,8 @@
     "575": "Brent Johnson",
     "573": "Matt Garman",
     "585": "Dan Boneh, Eddy Lazzarin & Justin Thaler",
-    "586": "Jason Ma"
+    "586": "Jason Ma",
+    "550": "Cathie Wood"
   },
   "overrides": {
     "Graham Allison": {

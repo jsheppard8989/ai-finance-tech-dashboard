@@ -4612,7 +4612,7 @@ const dashboardData = {
       "source_type": "podcast",
       "source_name": "Monetary Matters with Jack Farley",
       "source_date": "2026-08-26",
-      "summary": "In this episode of Monetary Matters with Jack Farley, Jim Weederhold, commodity indices product manager at Bloomberg, discusses the current state and future outlook of the commodity complex. Key themes include the impact of AI on metals like copper and silver, the role of energy commodities in production costs, and the potential for extreme price appreciation in certain commodities. The conversation also touches on macroeconomic shifts, such as de-globalization and increased costs of doing business, which are driving up commodity prices. Additionally, Weederhold shares his insights on agricultural commodities and the potential sleeper in the corn market due to fertilizer costs and supply disruptions.",
+      "summary": "In this episode of Monetary Matters with Jack Farley, Jim Wiederhold, commodity indices product manager at Bloomberg, discusses the current state and future outlook of the commodity complex. Key themes include the impact of AI on metals like copper and silver, the role of energy commodities in production costs, and the potential for extreme price appreciation in certain commodities. The conversation also touches on macroeconomic shifts, such as de-globalization and increased costs of doing business, which are driving up commodity prices. Additionally, Weederhold shares his insights on agricultural commodities and the potential sleeper in the corn market due to fertilizer costs and supply disruptions.",
       "key_takeaway": "The commodity complex is poised for continued price appreciation due to macroeconomic tailwinds, increased production costs, and the impact of AI on demand for certain metals.",
       "tickers_mentioned": [
         "CORN"
@@ -9099,7 +9099,7 @@ const dashboardData = {
       "source_type": "podcast",
       "source_name": "Dwarkesh Podcast",
       "source_date": "2026-05-15",
-      "summary": "In this episode, Eric Jeng discusses the development of AlphaGo, an AI for playing Go, and its broader implications for AI research and investment strategies. The conversation highlights a significant reduction in compute required to train AI models, the importance of understanding decision-making processes in AI, and the potential for AI to automate research processes. These insights underscore the growing accessibility and efficiency of AI technologies, with potential applications beyond gaming.",
+      "summary": "In this episode, Eric Jang discusses the development of AlphaGo, an AI for playing Go, and its broader implications for AI research and investment strategies. The conversation highlights a significant reduction in compute required to train AI models, the importance of understanding decision-making processes in AI, and the potential for AI to automate research processes. These insights underscore the growing accessibility and efficiency of AI technologies, with potential applications beyond gaming.",
       "key_takeaway": "",
       "tickers_mentioned": [
         "GOOGL",
@@ -12789,7 +12789,7 @@ const dashboardData = {
       "source_type": "podcast",
       "source_name": "All-In with Chamath, Jason, Sacks & Friedberg",
       "source_date": "2026-03-03",
-      "summary": "In this episode, Ray Dahlia discusses the great debt cycle, fiscal and monetary policy issues, and their impact on the global economy. He highlights five big forces that intertwine to shape the economic landscape, including debt, domestic gaps, international great power conflict, technology, and acts of nature. Dahlia provides insights into the U.S. government's finances, the challenges of managing interest rates amidst high debt, and the role of technology in shaping the future of economies. He also touches upon the dynamics of Bitcoin and silver in the context of monetary assets.",
+      "summary": "In this episode, Ray Dalio discusses the great debt cycle, fiscal and monetary policy issues, and their impact on the global economy. He highlights five big forces that intertwine to shape the economic landscape, including debt, domestic gaps, international great power conflict, technology, and acts of nature. Dahlia provides insights into the U.S. government's finances, the challenges of managing interest rates amidst high debt, and the role of technology in shaping the future of economies. He also touches upon the dynamics of Bitcoin and silver in the context of monetary assets.",
       "key_takeaway": "The current high debt levels and fiscal policies pose significant risks to the U.S. economy, requiring careful management of interest rates and a balanced approach to financial prudence and innovation.",
       "tickers_mentioned": [],
       "sentiment": "bearish",
@@ -33041,7 +33041,7 @@ const dashboardData = {
     "transcript_excerpt": null,
     "created_at": "2026-05-15T22:02:36.115299",
     "updated_at": "2026-05-16 03:02:36",
-    "episode_evidence": "Eric Jeng's discussion on AlphaGo, an AI developed for playing Go, provides a detailed look into the advancements in AI technology. Jeng emphasizes the significant reduction in computational resources required to train AI models, stating, 'What took a whole team of research scientists that DeepMind and millions of dollars of research and compute can now be done for a few thousand dollars.' This reduction is attributed to the development of more efficient algorithms and the use of neural networks in MCTS (Monte Carlo Tree Search). Jeng explains, 'MCTS is basically a search algorithm that is deciding what moves to play best, aided by neural networks.' This approach allows AI to make decisions without exhaustively searching all possible outcomes, which is a significant advancement in AI decision-making processes. Furthermore, Jeng highlights the importance of value functions in AI, noting that 'The core conceptual breakthrough was using neural nets to make this search problem tractable.'",
+    "episode_evidence": "Eric Jang's discussion on AlphaGo, an AI developed for playing Go, provides a detailed look into the advancements in AI technology. Jeng emphasizes the significant reduction in computational resources required to train AI models, stating, 'What took a whole team of research scientists that DeepMind and millions of dollars of research and compute can now be done for a few thousand dollars.' This reduction is attributed to the development of more efficient algorithms and the use of neural networks in MCTS (Monte Carlo Tree Search). Jeng explains, 'MCTS is basically a search algorithm that is deciding what moves to play best, aided by neural networks.' This approach allows AI to make decisions without exhaustively searching all possible outcomes, which is a significant advancement in AI decision-making processes. Furthermore, Jeng highlights the importance of value functions in AI, noting that 'The core conceptual breakthrough was using neural nets to make this search problem tractable.'",
     "falsification_tracks": [
       "A failure to replicate the 40x reduction in compute requirements for AI training across multiple independent studies would cast doubt on the scalability of these advancements.",
       "If AlphaGo's AI technology fails to perform competitively against other AI models in Go, it would suggest limitations in the MCTS approach.",
@@ -46071,7 +46071,7 @@ const dashboardData = {
     "id": 432,
     "insight_id": 443,
     "podcast_episode_id": 428,
-    "overview": "Jim Weederhold highlighted the significant impact of increased production costs and weather disruptions on commodity prices. He noted that the cost to hire a tanker has increased by three to four times in certain areas due to the US-Iran war, and extreme weather events have lowered river levels, complicating the movement of goods. These factors, combined with de-globalization and increased business costs, are driving up the cost of commodities. Additionally, the energy transition towards renewables is creating a scarcity in metals like copper, which is used extensively in wiring for electric vehicles, solar panels, and data centers. The supply of copper is also facing constraints, with fewer large mines coming online compared to 25 years ago, potentially leading to a supply-demand imbalance.",
+    "overview": "Jim Wiederhold highlighted the significant impact of increased production costs and weather disruptions on commodity prices. He noted that the cost to hire a tanker has increased by three to four times in certain areas due to the US-Iran war, and extreme weather events have lowered river levels, complicating the movement of goods. These factors, combined with de-globalization and increased business costs, are driving up the cost of commodities. Additionally, the energy transition towards renewables is creating a scarcity in metals like copper, which is used extensively in wiring for electric vehicles, solar panels, and data centers. The supply of copper is also facing constraints, with fewer large mines coming online compared to 25 years ago, potentially leading to a supply-demand imbalance.",
     "key_takeaways_detailed": [],
     "investment_thesis": "The timeframe for this investment could span several years, aligning with the projected growth in renewable energy and data center construction. Proof of this thesis would be sustained high prices for commodities like copper and silver, along with increased investment in new mining projects to meet demand. Conversely, a disproval would come from a significant drop in commodity prices or the emergence of alternative materials that reduce the demand for current metals.",
     "ticker_analysis": {
@@ -58856,9 +58856,9 @@ const dashboardData = {
   },
   {
     "id": 422,
-    "name": "Jim Weederhold",
+    "name": "Jim Wiederhold",
     "slug": "jim-weederhold",
-    "bio": "Jim Weederhold is a commodity indices product manager at Bloomberg, where he specializes in the analysis and management of commodity indices. He is known for his expertise in market analysis and the impact of technology on commodity prices.",
+    "bio": "Jim Wiederhold is a commodity indices product manager at Bloomberg, where he specializes in the analysis and management of commodity indices. He is known for his expertise in market analysis and the impact of technology on commodity prices.",
     "known_for": "Expertise in commodity indices and the influence of technology on market trends.",
     "net_worth_usd": 5000000.0,
     "net_worth_source": "https://moneyarcher.com/james-wedmore-net-worth/",
@@ -58883,9 +58883,9 @@ const dashboardData = {
       "source": "llm",
       "source_model": "moonshot:moonshot-v1-8k",
       "source_url": "",
-      "page_title": "Jim Weederhold",
+      "page_title": "Jim Wiederhold",
       "fetched_at": "2026-08-27T03:46:52.004266+00:00",
-      "cliff_notes": "Jim Weederhold is recognized for his in-depth understanding of commodity indices and market analysis. As a product manager at Bloomberg, he has been instrumental in shaping the discourse around commodities, particularly in the context of technological advancements such as AI and their impact on the demand for metals and energy. His insights into the macroeconomic themes that have been driving commodity prices over the past few years highlight the shift from a low-inflation, low-rate environment to one characterized by increased volatility and changing globalization dynamics. Weederhold's work is crucial for investors and market analysts looking to navigate the complex interplay between technology, commodities, and broader economic trends.",
+      "cliff_notes": "Jim Wiederhold is recognized for his in-depth understanding of commodity indices and market analysis. As a product manager at Bloomberg, he has been instrumental in shaping the discourse around commodities, particularly in the context of technological advancements such as AI and their impact on the demand for metals and energy. His insights into the macroeconomic themes that have been driving commodity prices over the past few years highlight the shift from a low-inflation, low-rate environment to one characterized by increased volatility and changing globalization dynamics. Weederhold's work is crucial for investors and market analysts looking to navigate the complex interplay between technology, commodities, and broader economic trends.",
       "derived": {
         "current_role": "Commodity Indices Product Manager at Bloomberg"
       },
@@ -58893,13 +58893,13 @@ const dashboardData = {
         "Industry": "Financial Services"
       },
       "lead_paragraphs": [
-        "Jim Weederhold is recognized for his in-depth understanding of commodity indices and market analysis. As a product manager at Bloomberg, he has been instrumental in shaping the discourse around commodities, particularly in the context of technological advancements such as AI and their impact on the demand for metals and energy.",
+        "Jim Wiederhold is recognized for his in-depth understanding of commodity indices and market analysis. As a product manager at Bloomberg, he has been instrumental in shaping the discourse around commodities, particularly in the context of technological advancements such as AI and their impact on the demand for metals and energy.",
         "His insights into the macroeconomic themes that have been driving commodity prices over the past few years highlight the shift from a low-inflation, low-rate environment to one characterized by increased volatility and changing globalization dynamics. Weederhold's work is crucial for investors and market analysts looking to navigate the complex interplay between technology, commodities, and broader economic trends."
       ],
       "sections": [
         {
           "heading": "Commodity Indices",
-          "body": "Jim Weederhold is a specialist in commodity indices, offering valuable insights into how these indices are influenced by various market factors including technological advancements."
+          "body": "Jim Wiederhold is a specialist in commodity indices, offering valuable insights into how these indices are influenced by various market factors including technological advancements."
         },
         {
           "heading": "Market Analysis",
@@ -67236,9 +67236,9 @@ const dashboardData = {
   },
   {
     "id": 251,
-    "name": "Eric Jeng",
+    "name": "Eric Jang",
     "slug": "eric-jeng",
-    "bio": "Eric Jeng is an AI researcher and developer known for his work on AlphaGo, an AI designed for playing Go. He has held positions at ex-technologies as Vice President of AI and was a senior research scientist at Google DeepMind Robotics. Jeng has been on sabbatical, focusing on improving AlphaGo and exploring the future of AI research and development.",
+    "bio": "Eric Jang is an AI researcher and developer known for his work on AlphaGo, an AI designed for playing Go. He has held positions at ex-technologies as Vice President of AI and was a senior research scientist at Google DeepMind Robotics. Jeng has been on sabbatical, focusing on improving AlphaGo and exploring the future of AI research and development.",
     "known_for": "His significant contributions to AI research, particularly in the field of Go AI, and the development of AlphaGo.",
     "net_worth_usd": 10000000.0,
     "net_worth_source": "https://www.shortbox.co.uk/from-whales-to-vr-how-eric-cheng-built-his-net-worth/",
@@ -67263,9 +67263,9 @@ const dashboardData = {
       "source": "llm",
       "source_model": "moonshot:moonshot-v1-8k",
       "source_url": "",
-      "page_title": "Eric Jeng",
+      "page_title": "Eric Jang",
       "fetched_at": "2026-05-16T03:02:03.008480+00:00",
-      "cliff_notes": "Eric Jeng is a prominent figure in the field of AI research, with a focus on Go AI. His career has seen him take on various roles, including Vice President of AI at ex-technologies and a senior research scientist at Google DeepMind Robotics. Jeng's work on AlphaGo, an AI designed for playing Go, has been a significant part of his career, showcasing the potential of AI systems to tackle complex computational problems. His sabbatical has been dedicated to rebuilding and improving AlphaGo, reflecting his passion for understanding and advancing AI capabilities. Jeng's contributions to AI research are noteworthy, as they provide insights into the future of AI development and its implications for various industries.",
+      "cliff_notes": "Eric Jang is a prominent figure in the field of AI research, with a focus on Go AI. His career has seen him take on various roles, including Vice President of AI at ex-technologies and a senior research scientist at Google DeepMind Robotics. Jeng's work on AlphaGo, an AI designed for playing Go, has been a significant part of his career, showcasing the potential of AI systems to tackle complex computational problems. His sabbatical has been dedicated to rebuilding and improving AlphaGo, reflecting his passion for understanding and advancing AI capabilities. Jeng's contributions to AI research are noteworthy, as they provide insights into the future of AI development and its implications for various industries.",
       "derived": {
         "former_positions": "Vice President of AI at ex-technologies; Senior Research Scientist at Google DeepMind Robotics"
       },
@@ -67274,13 +67274,13 @@ const dashboardData = {
         "Nationality": ""
       },
       "lead_paragraphs": [
-        "Eric Jeng is a prominent figure in the field of AI research, with a focus on Go AI. His career has seen him take on various roles, including Vice President of AI at ex-technologies and a senior research scientist at Google DeepMind Robotics. Jeng's work on AlphaGo, an AI designed for playing Go, has been a significant part of his career, showcasing the potential of AI systems to tackle complex computational problems.",
+        "Eric Jang is a prominent figure in the field of AI research, with a focus on Go AI. His career has seen him take on various roles, including Vice President of AI at ex-technologies and a senior research scientist at Google DeepMind Robotics. Jeng's work on AlphaGo, an AI designed for playing Go, has been a significant part of his career, showcasing the potential of AI systems to tackle complex computational problems.",
         "His sabbatical has been dedicated to rebuilding and improving AlphaGo, reflecting his passion for understanding and advancing AI capabilities. Jeng's contributions to AI research are noteworthy, as they provide insights into the future of AI development and its implications for various industries."
       ],
       "sections": [
         {
           "heading": "AI and Go",
-          "body": "Eric Jeng is recognized for his work on AlphaGo, an AI system designed to play the game of Go. His contributions to this field have been pivotal in demonstrating the capabilities of AI in handling complex tasks."
+          "body": "Eric Jang is recognized for his work on AlphaGo, an AI system designed to play the game of Go. His contributions to this field have been pivotal in demonstrating the capabilities of AI in handling complex tasks."
         },
         {
           "heading": "Career at Google DeepMind",

@@ -41,10 +41,15 @@ class NameReplacementTests(unittest.TestCase):
         rules = export_data._load_override_rules()
         for old, new in rules.get("name_replacements", []) + rules.get("global_replacements", []):
             if re.search(r"\bEric\b", old):
-                self.assertIn("Townsend", old)
+                # Only explicit full-name Eric swaps are allowed (never a bare first name).
+                self.assertIn(old, ("Eric Townsend", "Eric Jeng"))
         rec = {"summary": "Eric Schmidt and Eric Weinstein met Eric Townsend."}
         export_data._apply_summary_overrides(rec)
         self.assertEqual(rec["summary"], "Eric Schmidt and Eric Weinstein met Erik Townsend.")
+
+    def test_no_global_moonshots_live_guest_fix(self):
+        gov = json.loads((ROOT / "pipeline" / "guest_overrides.json").read_text())
+        self.assertNotIn("Moonshots Live", gov.get("fixes", {}))
 
     def test_rejected_swaps_absent(self):
         rules = export_data._load_override_rules()
