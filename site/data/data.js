@@ -3607,8 +3607,8 @@ const dashboardData = {
       "key_takeaway": "",
       "tickers_mentioned": [
         "TIPS",
-        "MARATHON PETROLEUM",
-        "VALERO"
+        "MPC",
+        "VLO"
       ],
       "sentiment": "bullish",
       "display_on_main": 0,
@@ -4655,7 +4655,7 @@ const dashboardData = {
       "summary": "In this episode of the Dwarkesh Podcast, Dylan Patel, Founder of SemiAnalysis, discusses the rapid growth of AI infrastructure and its impact on the world economy. The conversation covers the increasing investment in labs by companies like OpenAI and Anthropic, the shift from venture capital funding to self-funded operations, and the potential for labs to control a significant portion of the world's compute power. Patel also touches on the implications of centralization of compute and the role of China in the global AI race.",
       "key_takeaway": "Investment in AI infrastructure and labs is set to grow exponentially, leading to significant capital allocation shifts and potential market disruptions.",
       "tickers_mentioned": [
-        "NVIDIA"
+        "NVDA"
       ],
       "sentiment": "bullish",
       "display_on_main": 0,
@@ -5399,8 +5399,8 @@ const dashboardData = {
       "summary": "In this episode of Monetary Matters, Jack Farley interviews Daya and Dean Pernos of Pernos Research, discussing key investment themes and trends such as energy power, data centers, software, AI, cybersecurity, and payments. The Pernos brothers highlight the importance of understanding both macroeconomic trends and single stock fundamental analysis for successful investing. They provide insights into the AI ecosystem, the impact of open-source AI models on the industry, and their bullish stance on companies like Upwork and Tenable. The conversation also touches on the commoditization of payment processing and the potential of marketplace businesses.",
       "key_takeaway": "Investing success comes from a deep understanding of both macroeconomic trends and single stock fundamental analysis, with a focus on companies that benefit from technological advancements and market disruptions.",
       "tickers_mentioned": [
-        "UPWORK",
-        "TENABLE"
+        "UPWK",
+        "TENB"
       ],
       "sentiment": "bullish",
       "display_on_main": 0,
@@ -5480,9 +5480,7 @@ const dashboardData = {
       "source_date": "2026-08-04",
       "summary": "In this episode of Monetary Matters, Jack Farley discusses the lessons learned from Long-Term Capital Management (LTCM) and the behavior of the stock market. The conversation delves into personal risk-taking, the structure of leverage pools, and the differences between relative value trades and Delta 1 trades. Additionally, the episode explores the impact of AI capex on S&P 500 earnings and the role of extrapolators in market movements.",
       "key_takeaway": "The S&P 500's performance over the next two years will be largely determined by the behavior of extrapolators and corporate equity activity, rather than fundamental earnings growth.",
-      "tickers_mentioned": [
-        "LTCM"
-      ],
+      "tickers_mentioned": [],
       "sentiment": "bullish",
       "display_on_main": 0,
       "display_order": 0,
@@ -5613,7 +5611,6 @@ const dashboardData = {
       "summary": "In this episode of Monetary Matters with Jack Farley, TN Yang, co-founder and head of research at Variant Perception, discusses the current state of the stock market, focusing on indices like the S&P and NASDAQ, as well as semiconductor stocks. Yang provides insights on the macro risk indicators and the potential for a market bottom. He also touches on the high valuations in AI and the speculative mania in Korea, suggesting a need for a new narrative to drive the market. Yang forecasts a market broadening phase with money rotating to value laggards and discusses LPPL exhaustion signals as a bubble and crash detection system. The conversation also covers China's economic policies, particularly regarding oil reserves and the impact on global markets.",
       "key_takeaway": "The market is in a phase where a new narrative is needed to drive further growth, with a focus on value laggards and sectors less exposed to speculative excesses.",
       "tickers_mentioned": [
-        "LVMA",
         "IWD",
         "IWF"
       ],
@@ -5635,7 +5632,7 @@ const dashboardData = {
       "summary": "In this episode of the a16z Crypto Show, hosts Robert Hackett, Marc Andreessen, and Chris Dixon discuss the significance of regulatory clarity in the cryptocurrency space, focusing on the Clarity Act and its potential impact on blockchain adoption. They explore the implications of stablecoins, tokenized assets, and the future of the internet. The conversation highlights the importance of clear rules to unlock the next phase of blockchain technology and the potential consequences for the United States' global leadership in crypto innovation.",
       "key_takeaway": "Regulatory clarity through acts like the Clarity Act is essential for the next phase of blockchain adoption and could unlock significant investment opportunities in stablecoins and tokenized assets.",
       "tickers_mentioned": [
-        "VISA"
+        "V"
       ],
       "sentiment": "neutral",
       "display_on_main": 0,
@@ -6322,7 +6319,7 @@ const dashboardData = {
       "summary": "In this episode of 'The a16z Show', the panel discusses the state of AI hardware and the challenges of competing with video in the market. They explore the importance of infrastructure, including data centers and power, and how companies like Google, Amazon, Meta, and OpenAI are approaching AI infrastructure. The conversation also delves into custom silicon, AI economics, robotics, export controls, and considerations for founders and investors as the compute race accelerates.",
       "key_takeaway": "Investing in AI hardware requires a focus on infrastructure and the ability to scale efficiently, as the AI race is not just about models but also the underlying technology that supports them.",
       "tickers_mentioned": [
-        "NVIDIA",
+        "NVDA",
         "AMD"
       ],
       "sentiment": "neutral",
@@ -6643,7 +6640,6 @@ const dashboardData = {
       "summary": "This episode of 'The a16z Show' delves into the evolving landscape of enterprise software with a focus on the rise of headless software and AI agents. The discussion highlights how AI-driven workflows are challenging traditional enterprise software design, the stickiness of enterprise systems, and the opportunities created by automation. The hosts and guests explore the implications of these trends for startups and investors, emphasizing the importance of bridging gaps between legacy systems and new AI capabilities.",
       "key_takeaway": "",
       "tickers_mentioned": [
-        "WORK",
         "SAP"
       ],
       "sentiment": "neutral",
@@ -7632,8 +7628,7 @@ const dashboardData = {
       "key_takeaway": "",
       "tickers_mentioned": [
         "MGM",
-        "TALEN ENERGY",
-        "GEONET"
+        "TLN"
       ],
       "sentiment": "bullish",
       "display_on_main": 0,
@@ -8719,8 +8714,7 @@ const dashboardData = {
       "summary": "This podcast episode delves into the current state of SaaS and AI-driven models in the business landscape. Despite predictions of a SaaS apocalypse due to AI, traditional SaaS models continue to dominate business spending. Token-based pricing for SaaS tools is capturing a minuscule share of the market, and emerging software categories like Answer Engine Optimization (AEO) are on the rise. The episode discusses the slow adoption of new pricing models, the increasing cost-consciousness of AI spending, and the dynamic competitive landscape where new entrants are challenging incumbents.",
       "key_takeaway": "",
       "tickers_mentioned": [
-        "FIGMA",
-        "PERPLEXITY"
+        "FIG"
       ],
       "sentiment": "bullish",
       "display_on_main": 0,
@@ -9354,7 +9348,6 @@ const dashboardData = {
       "summary": "In this episode of Monetary Matters, Jack Farley interviews an expert from Pictay Asset Management, discussing their unique approach to quantitative investing using decision tree-based machine learning. The firm has launched two ETFs, PQ&T and PQUS, with the goal of outperforming benchmarks like MSCI EAFE and S&P 500 by 1-2% annually. The conversation highlights the importance of interpretability in quantitative models, the limitations of generative AI in alpha generation, and the firm's efficient model training process that reduces cloud computing costs.",
       "key_takeaway": "Pictay Asset Management's investment thesis is to use interpretable machine learning techniques to outperform benchmarks while maintaining index-like risk characteristics.",
       "tickers_mentioned": [
-        "PQ&T",
         "PQUS"
       ],
       "sentiment": "bearish",
@@ -9486,7 +9479,7 @@ const dashboardData = {
       "key_takeaway": "",
       "tickers_mentioned": [
         "COIN",
-        "VISA"
+        "V"
       ],
       "sentiment": "neutral",
       "display_on_main": 0,
@@ -9506,7 +9499,7 @@ const dashboardData = {
       "summary": "The podcast discusses the impact of the Iran conflict on global markets, particularly in oil prices, and its implications for inflation and supply chains. Louis Vincent Gavre suggests a shift towards strategic commodity stockpiling due to geopolitical tensions. The conversation also covers the semiconductor sector's rally, the weakening U.S. dollar, gold's reaction to geopolitical tensions, uranium investments, and copper market breakouts. The 10-year Treasury yield's correlation with crude oil prices is also highlighted.",
       "key_takeaway": "",
       "tickers_mentioned": [
-        "SNP 500"
+        "SPX"
       ],
       "sentiment": "bullish",
       "display_on_main": 0,
@@ -9569,9 +9562,7 @@ const dashboardData = {
       "source_date": "2026-05-06",
       "summary": "In this episode of Monetary Matters with Jack Farley, the focus is on the commodities market, particularly the refining sector. The discussion revolves around the importance of tracking refineries and the impact of geopolitical events on the market. Harris Copperman and Rodrick Vanzo, both CIOs of their respective investment firms, share their insights on combining macroeconomic research with equity analysis and event-driven catalysts. They also discuss the significance of crack spreads and utilization rates in the refining industry, and how these factors indicate market tightness. The conversation touches on the consumer sector, highlighting opportunities in niche industries like mattress sales and the potential for growth in Latin American exchanges.",
       "key_takeaway": "Investing in the refining sector is justified by the tightening market and the potential for long-term growth, despite short-term geopolitical uncertainties.",
-      "tickers_mentioned": [
-        "N/A"
-      ],
+      "tickers_mentioned": [],
       "sentiment": "bullish",
       "display_on_main": 0,
       "display_order": 0,
@@ -9767,7 +9758,7 @@ const dashboardData = {
       "summary": "In this episode of 'The a16z Show', Elena Burger interviews Joe Schmidt, a partner on the enterprise team at A16Z, to discuss the cracks appearing in enterprise software companies like Workday. They explore the challenges of replacing entrenched systems, the impact of AI on enterprise software, and the opportunities for new platforms to disrupt the status quo. Joe shares insights on why enterprises may be ready for a change and the potential for new solutions to offer significant improvements over existing systems.",
       "key_takeaway": "The current enterprise software landscape is ripe for disruption by new platforms that can offer improved user experiences and leverage AI to rethink business processes.",
       "tickers_mentioned": [
-        "WORK"
+        "WDAY"
       ],
       "sentiment": "neutral",
       "display_on_main": 0,
@@ -9807,7 +9798,7 @@ const dashboardData = {
       "summary": "In this episode of Monetary Matters, Jack Farley and Max Wiethe interview Moez Kassam, CIO of Anson Funds, to discuss the current investment landscape. Moes shares his insights on the opportunities arising from market chaos, particularly focusing on the potential of SpaceX's IPO and the cannabis industry following recent de-scheduling. The conversation also touches on the AI and semiconductor sectors, the wine market, and private credit. Moes emphasizes the importance of understanding market mechanics and capital movements to identify investment opportunities.",
       "key_takeaway": "",
       "tickers_mentioned": [
-        "SPACEX"
+        "SPCX"
       ],
       "sentiment": "bullish",
       "display_on_main": 0,
@@ -9916,7 +9907,7 @@ const dashboardData = {
         "GOOGL",
         "AMZN",
         "MSFT",
-        "SQ"
+        "XYZ"
       ],
       "sentiment": "neutral",
       "display_on_main": 0,
@@ -9959,9 +9950,7 @@ const dashboardData = {
       "source_date": "2026-04-27",
       "summary": "In this episode of 'Moonshots with Peter Diamandis', the focus is on the groundbreaking field of epigenetic reprogramming and its potential to revolutionize longevity and health. The discussion centers around the upcoming first human trial for epigenetic reprogramming to cure blindness, the broader implications for age reversal across various tissues and organs, and the concept of a 'longevity singularity' - a point in time when the health of the human lifespan is significantly extended. The conversation also touches on lifestyle changes, such as diet and stress management, that can contribute to longevity.",
       "key_takeaway": "Investment in biotechnology companies pioneering epigenetic reprogramming could offer significant returns as this field advances longevity and healthspan.",
-      "tickers_mentioned": [
-        "N/A"
-      ],
+      "tickers_mentioned": [],
       "sentiment": "bullish",
       "display_on_main": 0,
       "display_order": 0,
@@ -10133,7 +10122,7 @@ const dashboardData = {
       "key_takeaway": "",
       "tickers_mentioned": [
         "COIN",
-        "SQ",
+        "XYZ",
         "GOOGL",
         "MSFT",
         "AMD"
@@ -10508,10 +10497,9 @@ const dashboardData = {
       "summary": "In this episode of the OPM podcast, host Jack Farley interviews Sean Emory, the founder and CIO of Avery and Co., a firm focused on building data-driven, high-conviction portfolios. They discuss the importance of investing in companies that are directionally accurate, aligning with the world's trajectory, and the integration of traditional fundamental investment philosophies with a modern, tech-focused approach. Emory shares his views on macroeconomic factors, the impact on small and mid-cap stocks, and the potential for companies like Square and Zoom to thrive in the current market environment.",
       "key_takeaway": "",
       "tickers_mentioned": [
-        "PQ&T",
         "PQUS",
-        "SQUARE",
-        "ZOOM"
+        "XYZ",
+        "ZM"
       ],
       "sentiment": "neutral",
       "display_on_main": 0,
@@ -10672,9 +10660,8 @@ const dashboardData = {
       "summary": "In this episode of 'Other People's Money', Max Wiethe interviews Ben Topore, founder and managing partner of Titan Capital Partners, a growth equity firm focusing on software markets. They discuss the rapidly shifting software landscape, the importance of understanding the different playbooks for various types of software, and the impact of AI on the industry. Ben also shares insights on investment strategies in growth equity and secondary markets, and the importance of strategic decision-making in competitive landscapes.",
       "key_takeaway": "",
       "tickers_mentioned": [
-        "PQT",
         "PQUS",
-        "E-TORO"
+        "ETOR"
       ],
       "sentiment": "bullish",
       "display_on_main": 0,
@@ -10766,7 +10753,6 @@ const dashboardData = {
       "key_takeaway": "",
       "tickers_mentioned": [
         "SAP",
-        "WORK",
         "CRM"
       ],
       "sentiment": "neutral",
@@ -11079,7 +11065,7 @@ const dashboardData = {
       "summary": "In this episode of the a16z Show, A16Z General Partner David Haber interviews Owen Jennings, Executive Officer and Business Lead at Block, to discuss the company's restructuring around AI. Jennings shares insights into Block's decision to cut 40% of its workforce and rebuild around small squads working alongside AI agents. The conversation covers the impact of AI on the company's operations, product development, and future strategy, highlighting the shift from traditional hierarchical structures to more agile, AI-augmented teams.",
       "key_takeaway": "Investing in companies that understand complex problems and can leverage AI to gain a competitive advantage in their operations and product development.",
       "tickers_mentioned": [
-        "SQ"
+        "XYZ"
       ],
       "sentiment": "bullish",
       "display_on_main": 0,
@@ -11452,7 +11438,7 @@ const dashboardData = {
       "summary": "In this episode of Macro Voices, hosts Erik Townsend and Patrick Ceresna discuss the geopolitical situation in Iran, the shift towards a multi-polar world order, and the economic impacts of rising energy prices. They also cover the risks of second-round food inflation and the stresses in emerging markets and private credit. The show features interviews with Lyn Alden, founder of Lyn Alden Investment Strategy, and Michael Every, global strategist for economics and markets at Robo Banks, who provide insights into the Iran conflict and its broader macro implications.",
       "key_takeaway": "",
       "tickers_mentioned": [
-        "SMP-500",
+        "SPX",
         "US DOLLAR INDEX",
         "WTI"
       ],
@@ -11498,7 +11484,6 @@ const dashboardData = {
       "summary": "In this episode of Monetary Matters with Jack Farley, Chief Investment Strategist at Charles Schwab, Liz Ann Sonders, discusses the complexities of the current market environment, highlighting that headline indices are masking underlying stress. Saunders points out the discrepancy between index-level drawdowns and individual stock performance, emphasizing the rotation and churn in the market. The conversation also touches on the impact of oil prices on the economy and markets, with Saunders noting that while the energy sector is poised to benefit, the overall market has not reacted as severely as one might expect given an oil shock. The discussion delves into the nuances of growth and value factors, the differences in index rebalancing, and the potential parallels between the current situation and historical periods like the early 1990s.",
       "key_takeaway": "The market is experiencing underlying stress that is not reflected in headline indices, suggesting a need for a more nuanced approach to investment decisions.",
       "tickers_mentioned": [
-        "PQT",
         "PQUS"
       ],
       "sentiment": "bullish",
@@ -11652,9 +11637,7 @@ const dashboardData = {
       "source_date": "2026-03-23",
       "summary": "In this special edition of 'Other People's Money', host Jack Farley interviews Nadia Martin Wiggen, director at Svellen Capital, a hedge fund specializing in commodities and shipping markets. They discuss the impact of the Middle East crisis on global markets, focusing on oil prices, shipping logistics, and the potential for stagflation. Nadia provides insights into the practicality of Trump's announcements, the control of the Strait of Hormuz, and the market's reaction to escalating tensions. The conversation also touches on the behavior of different commodities, the potential for port congestion, and the implications for emerging markets.",
       "key_takeaway": "Svellen Capital sees opportunities in commodities and shipping markets amidst the Middle East crisis, with a focus on the practical implications of geopolitical events on global trade and logistics.",
-      "tickers_mentioned": [
-        "C.O.R.N"
-      ],
+      "tickers_mentioned": [],
       "sentiment": "neutral",
       "display_on_main": 0,
       "display_order": 0,
@@ -11914,9 +11897,7 @@ const dashboardData = {
       "summary": "In this episode of Monetary Matters with Jack Farley, guest Rupert Mitchell of Blind Squirrel Macro discusses current market concerns and investment strategies. Key themes include worries about employment, the business cycle, and expensive stock valuations. Mitchell expresses concerns about the foundations of the bull market, particularly in US equities, and suggests a weaker dollar bias in the medium term. The conversation also touches on the potential impact of AI and data center build-out on small market stocks and the risks associated with certain SaaS verticals and M&A boutiques.",
       "key_takeaway": "The current bull market is built on shaky foundations, and a shift towards a more cautious stance with a focus on security software and data lake control is advised.",
       "tickers_mentioned": [
-        "SPACEX",
-        "OPENAI",
-        "ANTHROPIC"
+        "SPCX"
       ],
       "sentiment": "bearish",
       "display_on_main": 0,
@@ -12257,7 +12238,6 @@ const dashboardData = {
       "tickers_mentioned": [
         "S&P 500",
         "WTI",
-        "ARBOMB",
         "GOLD",
         "COPPER",
         "WTBN"
@@ -12476,9 +12456,7 @@ const dashboardData = {
       "source_date": "2026-03-09",
       "summary": "In this episode of Monetary Matters, Jack Farley interviews Michael Howell from Capital Wars sub-stack and Global Liquidity Indexes. They discuss the peak in the global liquidity cycle, its implications for financial assets, and the shift towards higher yielding assets like private credit. Michael Howell shares his insights on the Federal Reserve's balance sheet, the impact of liquidity on markets, and the potential for a strong economy to lead to a more bearish outlook. The conversation also touches on China's role in the global liquidity cycle and its impact on gold prices.",
       "key_takeaway": "",
-      "tickers_mentioned": [
-        "N/A"
-      ],
+      "tickers_mentioned": [],
       "sentiment": "bearish",
       "display_on_main": 0,
       "display_order": 0,
@@ -12585,9 +12563,7 @@ const dashboardData = {
       "summary": "The podcast discusses the transformative impact of AI on software and the SaaS industry. It explores how AI is changing the way software works, from simple data storage to performing tasks autonomously. The conversation also touches on the 'SaaS apocalypse', discussing the varying impacts on different SaaS companies and how some may actually benefit from AI advancements. The episode further delves into the challenges of software pricing and the shift towards more efficient and collaborative software systems.",
       "key_takeaway": "Investment in AI-driven software and SaaS companies that can leverage AI to enhance efficiency and value proposition, while being cautious of those that may be disrupted by these technological shifts.",
       "tickers_mentioned": [
-        "WORK",
-        "ZEN",
-        "SF"
+        "WDAY"
       ],
       "sentiment": "neutral",
       "display_on_main": 0,
@@ -12855,8 +12831,7 @@ const dashboardData = {
       "key_takeaway": "",
       "tickers_mentioned": [
         "PQNT",
-        "EMAX",
-        "Altias"
+        "EMAX"
       ],
       "sentiment": "bullish",
       "display_on_main": 0,
@@ -12877,8 +12852,6 @@ const dashboardData = {
       "key_takeaway": "AI advancements, particularly by Anthropics, are causing market disruptions and presenting both risks and opportunities in various sectors.",
       "tickers_mentioned": [
         "IBM",
-        "CROWD",
-        "WORK",
         "TSLA"
       ],
       "sentiment": "bearish",
@@ -13092,9 +13065,7 @@ const dashboardData = {
       "source_date": "2026-02-19",
       "summary": "In this episode of the Dwarkesh Podcast, the host discusses the exponential growth of technology, particularly in AI, and its impact on investment strategies. The guest highlights the lack of public recognition of the nearing end of the exponential growth phase in technology. They delve into the scaling hypothesis, emphasizing the importance of raw compute, data quantity and quality, training duration, and scalable objective functions. The conversation also touches on the economic implications of AI, suggesting that while the economy will grow faster with AI, it won't grow at the pace of compute advancements. The guest also discusses the importance of company culture and direct communication within a growing organization.",
       "key_takeaway": "Investing in AI requires a deep understanding of the technology's exponential growth, the scaling laws governing its development, and the potential economic impact on global growth rates.",
-      "tickers_mentioned": [
-        "N/A"
-      ],
+      "tickers_mentioned": [],
       "sentiment": "bullish",
       "display_on_main": 0,
       "display_order": 0,
@@ -13562,9 +13533,7 @@ const dashboardData = {
       "source_date": "2026-02-03",
       "summary": "Elon Musk's SpaceX has merged with AI startup xAI, creating the world's most valuable private company at $1.25 trillion. The merger aims to launch AI data centers into orbit to overcome Earth's energy constraints and enable space-based AI compute.",
       "key_takeaway": "",
-      "tickers_mentioned": [
-        "N/A"
-      ],
+      "tickers_mentioned": [],
       "sentiment": "bullish",
       "display_on_main": 0,
       "display_order": 0,
@@ -13607,7 +13576,7 @@ const dashboardData = {
       "tickers_mentioned": [
         "COIN",
         "PYPL",
-        "SQ"
+        "XYZ"
       ],
       "sentiment": "bullish",
       "display_on_main": 0,
@@ -17703,7 +17672,7 @@ const dashboardData = {
         "positioning": "Legacy player adapting to new rails",
         "risk": "Disruption by crypto-native competitors"
       },
-      "SQ": {
+      "XYZ": {
         "rationale": "Cash App crypto integration, merchant acceptance",
         "positioning": "Consumer and merchant on-ramp for stablecoins",
         "risk": "Consumer spending slowdown, bitcoin volatility"
@@ -18912,8 +18881,6 @@ const dashboardData = {
     "source_date": "2026-02-28",
     "key_tickers": [
       "IBM",
-      "CROWD",
-      "WORK",
       "TSLA"
     ]
   },
@@ -18997,8 +18964,7 @@ const dashboardData = {
     "source_date": "2026-03-01",
     "key_tickers": [
       "PQNT",
-      "EMAX",
-      "Altias"
+      "EMAX"
     ]
   },
   "50": {
@@ -20053,9 +20019,7 @@ const dashboardData = {
     "source_name": "The a16z Show",
     "source_date": "2026-03-06",
     "key_tickers": [
-      "WORK",
-      "ZEN",
-      "SF"
+      "WDAY"
     ]
   },
   "64": {
@@ -20616,9 +20580,7 @@ const dashboardData = {
     "insight_title": "Monetary Matters with Jack Farley: Global Liquidity and Asset Allocation",
     "source_name": "Monetary Matters with Jack Farley",
     "source_date": "2026-03-09",
-    "key_tickers": [
-      "N/A"
-    ]
+    "key_tickers": []
   },
   "71": {
     "id": 62,
@@ -21009,7 +20971,6 @@ const dashboardData = {
     "key_tickers": [
       "S&P 500",
       "WTI",
-      "ARBOMB",
       "GOLD",
       "COPPER",
       "WTBN"
@@ -22833,9 +22794,7 @@ const dashboardData = {
     "insight_title": "The Future of Technology and Investment in AI",
     "source_name": "Dwarkesh Podcast",
     "source_date": "2026-02-19",
-    "key_tickers": [
-      "N/A"
-    ]
+    "key_tickers": []
   },
   "100": {
     "id": 91,
@@ -24164,9 +24123,7 @@ const dashboardData = {
     "insight_title": "Monetary Matters: Middle East Crisis and Global Market Impact",
     "source_name": "Monetary Matters with Jack Farley",
     "source_date": "2026-03-23",
-    "key_tickers": [
-      "C.O.R.N"
-    ]
+    "key_tickers": []
   },
   "117": {
     "id": 108,
@@ -24636,7 +24593,6 @@ const dashboardData = {
     "source_name": "Monetary Matters with Jack Farley",
     "source_date": "2026-03-25",
     "key_tickers": [
-      "PQT",
       "PQUS"
     ]
   },
@@ -24794,7 +24750,7 @@ const dashboardData = {
     "source_name": "MacroVoices",
     "source_date": "2026-03-26",
     "key_tickers": [
-      "SMP-500",
+      "SPX",
       "US DOLLAR INDEX",
       "WTI"
     ]
@@ -25491,9 +25447,7 @@ const dashboardData = {
     "source_name": "Monetary Matters with Jack Farley",
     "source_date": "2026-03-18",
     "key_tickers": [
-      "SPACEX",
-      "OPENAI",
-      "ANTHROPIC"
+      "SPCX"
     ]
   },
   "135": {
@@ -26301,7 +26255,7 @@ const dashboardData = {
     ],
     "investment_thesis": "The core investment logic is that companies which successfully integrate AI into their operations will see a significant increase in productivity and a decrease in the number of employees needed, leading to higher profitability. This thesis is supported by the recent actions of Block, which has reduced its workforce by over 40% and restructured around AI, indicating a potential industry-wide shift. Catalysts for this thesis include advancements in AI technology, increased adoption by companies, and a potential economic downturn that could force cost-cutting measures. The timeframe for this thesis is medium to long-term, as the full impact of AI on corporate structures will likely take several years to materialize.",
     "ticker_analysis": {
-      "SQ": {
+      "XYZ": {
         "rationale": "Block, the parent company of Square, Cash App, and Afterpay, is at the forefront of restructuring around AI, making it a key player in this thesis.",
         "positioning": "Long-term strategic position, as the company's early adoption of AI could provide a significant competitive advantage.",
         "risk": "Regulatory changes could hinder AI adoption, and the success of the restructuring is not guaranteed."
@@ -26366,7 +26320,7 @@ const dashboardData = {
     "source_name": "The a16z Show",
     "source_date": "2026-04-01",
     "key_tickers": [
-      "SQ"
+      "XYZ"
     ]
   },
   "146": {
@@ -27755,9 +27709,8 @@ const dashboardData = {
     "source_name": "Monetary Matters with Jack Farley",
     "source_date": "2026-04-09",
     "key_tickers": [
-      "PQT",
       "PQUS",
-      "E-TORO"
+      "ETOR"
     ]
   },
   "164": {
@@ -28342,7 +28295,7 @@ const dashboardData = {
         "positioning": "Positioned long-term as a strategic investment due to its innovation in consumer tech and potential for continued growth.",
         "risk": "Key risks include changes in consumer preferences, increased competition, and potential disruptions in the global supply chain."
       },
-      "SQ": {
+      "XYZ": {
         "rationale": "Square, now Block, is a financial services company that benefits from the digital transformation of payments and is well-positioned in the tech space.",
         "positioning": "Strategic long position due to its potential for growth in digital payments and financial services.",
         "risk": "Regulatory changes in the financial sector and competition from traditional banks and other fintech companies pose risks."
@@ -28392,10 +28345,9 @@ const dashboardData = {
     "source_name": "Monetary Matters with Jack Farley",
     "source_date": "2026-04-14",
     "key_tickers": [
-      "PQ&T",
       "PQUS",
-      "SQUARE",
-      "ZOOM"
+      "XYZ",
+      "ZM"
     ]
   },
   "173": {
@@ -28783,7 +28735,6 @@ const dashboardData = {
     "source_date": "2026-04-08",
     "key_tickers": [
       "SAP",
-      "WORK",
       "CRM"
     ]
   },
@@ -29581,7 +29532,7 @@ const dashboardData = {
         "positioning": "Strategic long position, as the company is well-positioned to capitalize on the growth of blockchain technology.",
         "risk": "Regulatory changes that hinder cryptocurrency exchanges or a significant downturn in cryptocurrency markets."
       },
-      "SQ": {
+      "XYZ": {
         "rationale": "Block Inc. (formerly Square) has shown interest in blockchain and has a Bitcoin focus, positioning it to benefit from the cryptographic revolution.",
         "positioning": "Tactical long position, as the company's exposure to blockchain is part of a broader payment ecosystem.",
         "risk": "Competition from traditional payment processors or a slowdown in blockchain adoption."
@@ -30216,9 +30167,7 @@ const dashboardData = {
     "insight_title": "David Sinclair on the Longevity Pill, Age Reversal Timelines, and Updated Protocols | EP #250",
     "source_name": "Moonshots with Peter Diamandis",
     "source_date": "2026-04-27",
-    "key_tickers": [
-      "N/A"
-    ]
+    "key_tickers": []
   },
   "196": {
     "id": 187,
@@ -30330,7 +30279,7 @@ const dashboardData = {
         "positioning": "Strategic long position, as Microsoft's offerings are likely to be in high demand as digital commerce grows.",
         "risk": "The risk of increased competition in cloud services and potential economic downturns affecting IT spending could impact Microsoft's growth."
       },
-      "SQ": {
+      "XYZ": {
         "rationale": "Square, now Block, is at the forefront of payment technologies and has shown an ability to innovate in the face of increasing transaction volumes.",
         "positioning": "Strategic long position, as Square's payment solutions are likely to be essential for businesses as transaction volumes grow.",
         "risk": "The risk of increased competition in payment processing and potential regulatory changes affecting payment technologies could impact Square's performance."
@@ -30798,7 +30747,7 @@ const dashboardData = {
     "source_name": "The a16z Show",
     "source_date": "2026-04-30",
     "key_tickers": [
-      "WORK"
+      "WDAY"
     ]
   },
   "204": {
@@ -30954,7 +30903,7 @@ const dashboardData = {
     "source_name": "Monetary Matters with Jack Farley",
     "source_date": "2026-04-30",
     "key_tickers": [
-      "SPACEX"
+      "SPCX"
     ]
   },
   "207": {
@@ -31722,9 +31671,7 @@ const dashboardData = {
     "insight_title": "Finding the Market\u2019s Most Overlooked Macro Themes and Profiting from Global Volatility | Harris Kupperman",
     "source_name": "Monetary Matters with Jack Farley",
     "source_date": "2026-05-06",
-    "key_tickers": [
-      "N/A"
-    ]
+    "key_tickers": []
   },
   "217": {
     "id": 207,
@@ -31744,7 +31691,7 @@ const dashboardData = {
         "positioning": "Strategic long position, as the growth in crypto transactions and assets under management is likely to benefit Coinbase.",
         "risk": "Regulatory changes that hinder crypto exchanges or a significant downturn in crypto markets could impact Coinbase's business."
       },
-      "SQ": {
+      "XYZ": {
         "rationale": "Square, now Block, Inc., has shown significant interest in crypto and blockchain technology, including the development of a decentralized financial services business.",
         "positioning": "Tactical long position, as Square's foray into crypto could offer short-term gains based on market sentiment and regulatory developments.",
         "risk": "The risk includes Square's ability to successfully integrate and innovate within the crypto space amidst competition."
@@ -31790,7 +31737,7 @@ const dashboardData = {
     "source_date": "2026-05-07",
     "key_tickers": [
       "COIN",
-      "VISA"
+      "V"
     ]
   },
   "218": {
@@ -31855,7 +31802,7 @@ const dashboardData = {
     "source_name": "Macro Voices",
     "source_date": "2026-05-07",
     "key_tickers": [
-      "SNP 500"
+      "SPX"
     ]
   },
   "219": {
@@ -32271,7 +32218,6 @@ const dashboardData = {
     "source_name": "Monetary Matters with Jack Farley",
     "source_date": "2026-05-10",
     "key_tickers": [
-      "PQ&T",
       "PQUS"
     ]
   },
@@ -34183,8 +34129,7 @@ const dashboardData = {
     "source_name": "The a16z Show",
     "source_date": "2026-05-25",
     "key_tickers": [
-      "FIGMA",
-      "PERPLEXITY"
+      "FIG"
     ]
   },
   "254": {
@@ -37114,8 +37059,7 @@ const dashboardData = {
     "source_date": "2026-06-12",
     "key_tickers": [
       "MGM",
-      "TALEN ENERGY",
-      "GEONET"
+      "TLN"
     ]
   },
   "299": {
@@ -40407,7 +40351,6 @@ const dashboardData = {
     "source_name": "The a16z Show",
     "source_date": "2026-07-07",
     "key_tickers": [
-      "WORK",
       "SAP"
     ]
   },
@@ -41315,7 +41258,7 @@ const dashboardData = {
     "source_name": "The a16z Show",
     "source_date": "2026-07-15",
     "key_tickers": [
-      "NVIDIA",
+      "NVDA",
       "AMD"
     ]
   },
@@ -43255,7 +43198,7 @@ const dashboardData = {
     "source_name": "The a16z Show",
     "source_date": "2026-08-01",
     "key_tickers": [
-      "VISA"
+      "V"
     ]
   },
   "395": {
@@ -43378,7 +43321,6 @@ const dashboardData = {
     "source_name": "Monetary Matters with Jack Farley",
     "source_date": "2026-08-02",
     "key_tickers": [
-      "LVMA",
       "IWD",
       "IWF"
     ]
@@ -43569,9 +43511,7 @@ const dashboardData = {
     "insight_title": "Victor Haghani on Death of Random Walk, and Passive, Buybacks, and LTCM",
     "source_name": "Monetary Matters with Jack Farley",
     "source_date": "2026-08-04",
-    "key_tickers": [
-      "LTCM"
-    ]
+    "key_tickers": []
   },
   "400": {
     "id": 390,
@@ -44099,8 +44039,8 @@ const dashboardData = {
     "source_name": "Monetary Matters with Jack Farley",
     "source_date": "2026-08-07",
     "key_tickers": [
-      "UPWORK",
-      "TENABLE"
+      "UPWK",
+      "TENB"
     ]
   },
   "408": {
@@ -45925,7 +45865,7 @@ const dashboardData = {
     "source_name": "Dwarkesh Podcast",
     "source_date": "2026-08-25",
     "key_tickers": [
-      "NVIDIA"
+      "NVDA"
     ]
   },
   "440": {
@@ -48746,8 +48686,8 @@ const dashboardData = {
     "source_date": "2026-09-16",
     "key_tickers": [
       "TIPS",
-      "MARATHON PETROLEUM",
-      "VALERO"
+      "MPC",
+      "VLO"
     ]
   },
   "503": {
@@ -53478,7 +53418,7 @@ const dashboardData = {
     "mention_score_decayed": 2.14,
     "last_main_idea": "Starlink's low market penetration indicates substantial growth potential in the satellite internet market.",
     "last_proof_cite": "All-In with Chamath, Jason, Sacks & Friedberg \u2022 2026-09-15 \u2022 Elon Musk & Gwynne Shotwell on AI Risks and Peer Review, Starship, Terafab, SpaceX/Tesla Merger",
-    "last_proof_snippet": "What's her latest time that I'm getting to Mars? Getting to Mars? Well, I think we'll put people down within a decade. Welcome Gwen Shotwell, the president and CEO of Space X. She's an instrumental, a really crucial person to success the sp",
+    "last_proof_snippet": "What's her latest time that I'm getting to Mars? Getting to Mars? Well, I think we'll put people down within a decade. Welcome [Gwynne] Shotwell, the president and [COO] of [SpaceX]. She's an instrumental, a really crucial person to success the sp",
     "supporting_takeaway": "SpaceX's plan to establish data centers in space could significantly reduce operational costs and expedite deployment.",
     "grokipedia_url": null,
     "grokipedia_fetched_at": "2026-08-21T23:37:11.055855",
@@ -56978,7 +56918,7 @@ const dashboardData = {
     "mention_score_decayed": 0.54,
     "last_main_idea": "Starlink's low market penetration indicates substantial growth potential in the satellite internet market.",
     "last_proof_cite": "All-In with Chamath, Jason, Sacks & Friedberg \u2022 2026-09-15 \u2022 Elon Musk & Gwynne Shotwell on AI Risks and Peer Review, Starship, Terafab, SpaceX/Tesla Merger",
-    "last_proof_snippet": "What's her latest time that I'm getting to Mars? Getting to Mars? Well, I think we'll put people down within a decade. Welcome Gwen Shotwell, the president and CEO of Space X. She's an instrumental, a really crucial person to success the sp",
+    "last_proof_snippet": "What's her latest time that I'm getting to Mars? Getting to Mars? Well, I think we'll put people down within a decade. Welcome [Gwynne] Shotwell, the president and [COO] of [SpaceX]. She's an instrumental, a really crucial person to success the sp",
     "supporting_takeaway": "SpaceX's plan to establish data centers in space could significantly reduce operational costs and expedite deployment.",
     "grokipedia_url": null,
     "grokipedia_fetched_at": "2026-09-16T12:12:14.661829",

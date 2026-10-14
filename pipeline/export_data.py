@@ -148,6 +148,94 @@ def _drop_ticker_analysis(value, drop):
     return value
 
 
+def _rename_map(renames):
+    """Build old->new map; keys compared case-insensitively on apply."""
+    out = {}
+    for pair in renames or []:
+        if not pair or len(pair) < 2:
+            continue
+        old, new = pair[0], pair[1]
+        if old is None or new is None:
+            continue
+        out[str(old).upper()] = str(new)
+    return out
+
+
+def _rename_tickers(value, renames):
+    """Rename symbols in a tickers list (or JSON list string). Drops dupes after rename."""
+    rmap = _rename_map(renames)
+    if not rmap:
+        return value
+
+    def remap_list(items):
+        seen = set()
+        out = []
+        for t in items:
+            key = str(t).upper()
+            newt = rmap.get(key, t)
+            nkey = str(newt).upper()
+            if nkey in seen:
+                continue
+            seen.add(nkey)
+            out.append(newt)
+        return out
+
+    if isinstance(value, list):
+        return remap_list(value)
+    if isinstance(value, str):
+        try:
+            parsed = json.loads(value)
+        except Exception:
+            return value
+        if isinstance(parsed, list):
+            return json.dumps(remap_list(parsed))
+    return value
+
+
+def _rename_ticker_analysis(value, renames):
+    """Rename keys in a Deep Dive ticker_analysis dict (or JSON string)."""
+    rmap = _rename_map(renames)
+    if not rmap:
+        return value
+
+    def remap_dict(d):
+        out = {}
+        for k, v in d.items():
+            nk = rmap.get(str(k).upper(), k)
+            if nk in out and str(k).upper() in rmap:
+                continue  # keep first if collision
+            out[nk] = v
+        return out
+
+    if isinstance(value, dict):
+        return remap_dict(value)
+    if isinstance(value, str):
+        try:
+            parsed = json.loads(value)
+        except Exception:
+            return value
+        if isinstance(parsed, dict):
+            return json.dumps(remap_dict(parsed))
+    return value
+
+
+def _apply_ticker_fixes_to_record(o, drop=None, renames=None):
+    drop = drop or []
+    renames = renames or []
+    if renames:
+        for k in ("tickers_mentioned", "key_tickers"):
+            if k in o:
+                o[k] = _rename_tickers(o[k], renames)
+        if "ticker_analysis" in o:
+            o["ticker_analysis"] = _rename_ticker_analysis(o["ticker_analysis"], renames)
+    if drop:
+        for k in ("tickers_mentioned", "key_tickers"):
+            if k in o:
+                o[k] = _drop_tickers(o[k], drop)
+        if "ticker_analysis" in o:
+            o["ticker_analysis"] = _drop_ticker_analysis(o["ticker_analysis"], drop)
+
+
 def _apply_summary_overrides(obj):
     """Apply pipeline/summary_overrides.json text fixes (in place).
 
@@ -156,12 +244,17 @@ def _apply_summary_overrides(obj):
       field (summary, key_takeaway(s), investment_thesis, notable_quotes quote+speaker,
       Deep Dive overview/evidence/falsification tracks, ...) except the title fields.
       Optional 'drop_tickers' removes symbols from tickers_mentioned / key_tickers.
+      Optional 'rename_tickers' renames symbols in those fields and ticker_analysis keys.
     - 'global_replacements': exact swaps applied to every string anywhere (except title
       fields), e.g. mis-transcribed speaker names in pundits/overton/podcastGuests.
+    - 'ticker_renames' / 'global_drop_tickers': applied to every record that has
+      tickers_mentioned, key_tickers, or ticker_analysis (after per-card rules).
     """
     rules_all = _load_override_rules()
     rules = rules_all.get("summaries", [])
     global_reps = rules_all.get("global_replacements", [])
+    global_ticker_renames = rules_all.get("ticker_renames", [])
+    global_drop_tickers = rules_all.get("global_drop_tickers", [])
 
     def fix_record(o, r):
         reps = r.get("replacements", [])
@@ -169,13 +262,9 @@ def _apply_summary_overrides(obj):
             if k in TITLE_FIELDS:
                 continue
             o[k] = _replace_all_strings(o[k], reps, TITLE_FIELDS)
-        drop = r.get("drop_tickers") or []
-        if drop:
-            for k in ("tickers_mentioned", "key_tickers"):
-                if k in o:
-                    o[k] = _drop_tickers(o[k], drop)
-            if "ticker_analysis" in o:
-                o["ticker_analysis"] = _drop_ticker_analysis(o["ticker_analysis"], drop)
+        _apply_ticker_fixes_to_record(
+            o, drop=r.get("drop_tickers") or [], renames=r.get("rename_tickers") or []
+        )
 
     def walk(o):
         if isinstance(o, dict):
@@ -187,6 +276,12 @@ def _apply_summary_overrides(obj):
                 for k in list(o.keys()):
                     if k not in TITLE_FIELDS and isinstance(o[k], str):
                         o[k] = _replace_text(o[k], global_reps)
+            # Global ticker renames/drops on any card-like dict with ticker fields
+            if global_ticker_renames or global_drop_tickers:
+                if any(k in o for k in ("tickers_mentioned", "key_tickers", "ticker_analysis")):
+                    _apply_ticker_fixes_to_record(
+                        o, drop=global_drop_tickers, renames=global_ticker_renames
+                    )
             for v in o.values():
                 walk(v)
         elif isinstance(o, list):

@@ -1,5 +1,5 @@
 {
-  "_comment": "Curated text fixes that survive DB re-exports. export_data.py applies each 'summaries' rule to the WHOLE card of any record whose episode_title/title/insight_title contains 'episode_title' (every string field except the title fields: summary, key_takeaway(s), investment_thesis, notable_quotes quote+speaker, Deep Dive overview/episode_evidence/falsification_tracks, ...) in podcast_summaries.json, archive.json and data.js (archive, mainContent, deepDives). 'drop_tickers' removes symbols from tickers_mentioned/key_tickers of matched records. 'global_replacements' are exact swaps applied to every non-title string everywhere (incl. pundits, overton speakers, podcastGuests). 'terms' rules overwrite fields of suggestedTerms entries whose term matches exactly. Replacements are exact substring swaps; once the DB text is fixed they become no-ops. Oct 2026: 'bet' wording swaps (Jared's rule: nothing on the public site is called a bet) live in global_replacements; site_text_sanitize style gate warns on any new ones. 'name_replacements' (Oct 13 2026 whole-site name sweep) are exact name swaps applied like global_replacements but quote-safe: never inside quotation marks, notable_quotes quote text, transcript-style episode_evidence lines, last_proof_snippet/cite, titles, slugs or URLs. 'drop_tickers' also removes symbols from Deep Dive ticker_analysis.",
+  "_comment": "Curated text fixes that survive DB re-exports. export_data.py applies each 'summaries' rule to the WHOLE card of any record whose episode_title/title/insight_title contains 'episode_title' (every string field except the title fields: summary, key_takeaway(s), investment_thesis, notable_quotes quote+speaker, Deep Dive overview/episode_evidence/falsification_tracks, ...) in podcast_summaries.json, archive.json and data.js (archive, mainContent, deepDives). 'drop_tickers' removes symbols from tickers_mentioned/key_tickers of matched records. 'global_replacements' are exact swaps applied to every non-title string everywhere (incl. pundits, overton speakers, podcastGuests). 'terms' rules overwrite fields of suggestedTerms entries whose term matches exactly. Replacements are exact substring swaps; once the DB text is fixed they become no-ops. Oct 2026: 'bet' wording swaps (Jared's rule: nothing on the public site is called a bet) live in global_replacements; site_text_sanitize style gate warns on any new ones. 'name_replacements' (Oct 13 2026 whole-site name sweep) are exact name swaps applied like global_replacements but quote-safe: never inside quotation marks, notable_quotes quote text, transcript-style episode_evidence lines, last_proof_snippet/cite, titles, slugs or URLs. 'drop_tickers' also removes symbols from Deep Dive ticker_analysis. Oct 14 2026 (Red Team): 'ticker_renames' and 'global_drop_tickers' fix fake/defunct/private symbols in tickers_mentioned, key_tickers and ticker_analysis on every card; per-card 'rename_tickers' for context-dependent symbols.",
   "summaries": [
     {
       "insight_id": 572,
@@ -381,6 +381,42 @@
           "the first world-action model (one that predicts how the scene will change as well as what the robot should do) trained"
         ]
       ]
+    },
+    {
+      "insight_id": 54,
+      "episode_title": "The AI Transformation of Software and SaaS Landscape",
+      "replacements": [],
+      "rename_tickers": [
+        [
+          "WORK",
+          "WDAY"
+        ]
+      ],
+      "drop_tickers": [
+        "SF"
+      ],
+      "_note": "Red Team 2026-10-14 H-5: WORK (Slack, delisted 2021) -> WDAY (card's own analysis is Workday); SF (Stifel) not discussed on card."
+    },
+    {
+      "insight_id": 194,
+      "episode_title": "Workday’s Last Workday? AI and the Future of Enterprise Software",
+      "replacements": [],
+      "rename_tickers": [
+        [
+          "WORK",
+          "WDAY"
+        ]
+      ],
+      "_note": "Red Team 2026-10-14 H-5: WORK -> WDAY (episode is about Workday)."
+    },
+    {
+      "insight_id": 243,
+      "episode_title": "Why AI Isn’t Killing SaaS Yet",
+      "replacements": [],
+      "drop_tickers": [
+        "PERPLEXITY"
+      ],
+      "_note": "Red Team 2026-10-14 H-5 same-card check: Perplexity is private."
     }
   ],
   "terms": [
@@ -576,6 +612,10 @@
     [
       "Justin Daler",
       "Justin Thaler"
+    ],
+    [
+      "Welcome Gwen Shotwell, the president and CEO of Space X.",
+      "Welcome [Gwynne] Shotwell, the president and [COO] of [SpaceX]."
     ]
   ],
   "name_replacements": [
@@ -1054,6 +1094,89 @@
     [
       "Weesner",
       "Wissner"
+    ],
+    [
+      "Ben Harwitz",
+      "Ben Horowitz"
     ]
+  ],
+  "ticker_renames": [
+    [
+      "NVIDIA",
+      "NVDA"
+    ],
+    [
+      "SQ",
+      "XYZ"
+    ],
+    [
+      "SQUARE",
+      "XYZ"
+    ],
+    [
+      "SPACEX",
+      "SPCX"
+    ],
+    [
+      "E-TORO",
+      "ETOR"
+    ],
+    [
+      "FIGMA",
+      "FIG"
+    ],
+    [
+      "TENABLE",
+      "TENB"
+    ],
+    [
+      "VALERO",
+      "VLO"
+    ],
+    [
+      "MARATHON PETROLEUM",
+      "MPC"
+    ],
+    [
+      "TALEN ENERGY",
+      "TLN"
+    ],
+    [
+      "ZOOM",
+      "ZM"
+    ],
+    [
+      "VISA",
+      "V"
+    ],
+    [
+      "UPWORK",
+      "UPWK"
+    ],
+    [
+      "SMP-500",
+      "SPX"
+    ],
+    [
+      "SNP 500",
+      "SPX"
+    ]
+  ],
+  "global_drop_tickers": [
+    "OPENAI",
+    "ANTHROPIC",
+    "THROPIC",
+    "LTCM",
+    "ZEN",
+    "WORK",
+    "N/A",
+    "ARBOMB",
+    "PQ&T",
+    "PQT",
+    "LVMA",
+    "GEONET",
+    "Altias",
+    "C.O.R.N",
+    "CROWD"
   ]
 }
