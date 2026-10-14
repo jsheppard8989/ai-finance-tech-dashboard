@@ -1442,6 +1442,7 @@ def main():
         # MARKET_DATA_FETCH_LOCAL=1 to run them locally (e.g. Actions outage).
         if os.environ.get("MARKET_DATA_FETCH_LOCAL", "").strip().lower() in ("1", "true", "yes"):
             run_script("Fetch GPU Index", "fetch_gpu_index.py", timeout=60)
+            run_script("Fetch Compute Forward Curve", "fetch_compute_curve.py", timeout=60)
             run_script("Fetch Curve Data", "fetch_curve.py", timeout=120)
             run_script("Fetch COT Positioning", "fetch_cot.py", timeout=120)
             run_script("Fetch Treasury Calendar", "fetch_treasury_calendar.py", timeout=90)
