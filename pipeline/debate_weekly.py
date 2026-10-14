@@ -56,6 +56,16 @@ sys.path.insert(0, str(PIPELINE))
 
 from pundit_exclusions import is_excluded_debater_name, is_excluded_pundit_name
 
+
+def chicago_tz_abbr(iso_date: str) -> str:
+    """CDT or CST for 12:00 PM America/Chicago on iso_date (YYYY-MM-DD); CT if unparseable."""
+    try:
+        from zoneinfo import ZoneInfo
+        d = datetime.strptime(str(iso_date)[:10], "%Y-%m-%d")
+        return d.replace(hour=12, tzinfo=ZoneInfo("America/Chicago")).tzname() or "CT"
+    except Exception:
+        return "CT"
+
 try:
     from polymarket_debate_context import fetch_polymarket_debate_context
 except ImportError:
@@ -236,9 +246,9 @@ def sync_history_resolves_dates(history: Dict[str, Any]) -> None:
             try:
                 res_date = datetime.strptime(iso, "%Y-%m-%d").date()
                 day_name = res_date.strftime("%A")
-                w["expires_rule"] = f"Resolves {day_name} 12:00 PM CST {iso}"
+                w["expires_rule"] = f"Resolves {day_name} 12:00 PM {chicago_tz_abbr(iso)} {iso}"
             except Exception:
-                w["expires_rule"] = f"Resolves Friday 12:00 PM CST {iso}"
+                w["expires_rule"] = f"Resolves Friday 12:00 PM {chicago_tz_abbr(iso)} {iso}"
 
 
 def sync_history_audio_refs(history: Dict[str, Any]) -> None:
@@ -635,7 +645,7 @@ def generate_contract(
 Return ONLY valid JSON with keys:
   "prompt": string — one clear Yes/No question, falsifiable within ~42 days, no single-stock tickers (no AAPL, NVDA, etc.); themes like AI, rates, labor, policy, macro, crypto OK. Phrase the time window as **within the next 42 days** — do not use "by the end of the next 42 days".
   "editorial_note": string — 2–4 sentences explaining why WE picked this topic this week (feed friction, podcast themes, market relevance). Write in first-person plural ("we").
-  "expires_rule": string — human-readable e.g. "Resolves Friday 12:00 PM CST YYYY-MM-DD" (pick date = contract Friday + 42 days). Use the CURRENT calendar year from context.
+  "expires_rule": string — human-readable e.g. "Resolves Friday 12:00 PM CDT YYYY-MM-DD" (CDT Mar–Nov, CST otherwise) (pick date = contract Friday + 42 days). Use the CURRENT calendar year from context.
   "crux_theme": short label for the substance (e.g. "AI labor", "rates path").
   "resolution_clarity": { "source_of_truth": string, "resolution_sources": [string], "resolution_criteria": [string] } — concrete enough to settle the call (feeds, agencies, official data), not vague.
 
@@ -875,8 +885,10 @@ def archive_current_week(history: Dict[str, Any], prev_contract: Optional[Dict])
             "debater_b": prev_contract.get("debater_b", ""),
             "expires_rule": prev_contract.get("expires_rule", ""),
             "resolves_iso": (prev_contract.get("resolves_iso") or resolves_iso_from_friday(fr)),
-            "resolution_status": "pending",
-            "resolution_notes": "",
+            "resolution_status": (prev_contract.get("resolution_status") or "pending"),
+            "resolution_notes": prev_contract.get("resolution_notes", ""),
+            **({"resolution_source": prev_contract["resolution_source"]} if prev_contract.get("resolution_source") else {}),
+            **({"resolved_at": prev_contract["resolved_at"]} if prev_contract.get("resolved_at") else {}),
             "archived_at": datetime.now().isoformat(),
             "audio_href": audio_href,
         },
@@ -1081,7 +1093,7 @@ def _enforce_contract_resolution_dates(contract: Dict[str, Any], friday_iso: str
     day_name = resolution_date.strftime("%A")  # Should be Friday
 
     # expires_rule + machine-readable resolves date for the site history table
-    contract["expires_rule"] = f"Resolves {day_name} 12:00 PM CST {date_iso}"
+    contract["expires_rule"] = f"Resolves {day_name} 12:00 PM {chicago_tz_abbr(date_iso)} {date_iso}"
     contract["resolves_iso"] = date_iso
 
     # resolution_clarity.resolution_criteria

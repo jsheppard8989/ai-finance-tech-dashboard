@@ -1561,8 +1561,8 @@
     "investment_thesis": "",
     "key_tickers": [
       "TIPS",
-      "MARATHON PETROLEUM",
-      "VALERO"
+      "MPC",
+      "VLO"
     ]
   },
   {
@@ -2539,7 +2539,7 @@
     ],
     "investment_thesis": "Investment in AI infrastructure and labs is set to grow exponentially, leading to significant capital allocation shifts and potential market disruptions.",
     "key_tickers": [
-      "NVIDIA"
+      "NVDA"
     ]
   },
   {
@@ -3083,8 +3083,8 @@
     ],
     "investment_thesis": "Investing success comes from a deep understanding of both macroeconomic trends and single stock fundamental analysis, with a focus on companies that benefit from technological advancements and market disruptions.",
     "key_tickers": [
-      "UPWORK",
-      "TENABLE"
+      "UPWK",
+      "TENB"
     ]
   },
   {
@@ -3219,9 +3219,7 @@
       "Market behavior is increasingly driven by extrapolators and corporate equity activity rather than fundamental investors."
     ],
     "investment_thesis": "The S&P 500's performance over the next two years will be largely determined by the behavior of extrapolators and corporate equity activity, rather than fundamental earnings growth.",
-    "key_tickers": [
-      "LTCM"
-    ]
+    "key_tickers": []
   },
   {
     "id": 383,
@@ -3273,7 +3271,6 @@
     ],
     "investment_thesis": "The market is in a phase where a new narrative is needed to drive further growth, with a focus on value laggards and sectors less exposed to speculative excesses.",
     "key_tickers": [
-      "LVMA",
       "IWD",
       "IWF"
     ]
@@ -3311,7 +3308,7 @@
     ],
     "investment_thesis": "Regulatory clarity through acts like the Clarity Act is essential for the next phase of blockchain adoption and could unlock significant investment opportunities in stablecoins and tokenized assets.",
     "key_tickers": [
-      "VISA"
+      "V"
     ]
   },
   {
@@ -3888,7 +3885,7 @@
     ],
     "investment_thesis": "Investing in AI hardware requires a focus on infrastructure and the ability to scale efficiently, as the AI race is not just about models but also the underlying technology that supports them.",
     "key_tickers": [
-      "NVIDIA",
+      "NVDA",
       "AMD"
     ]
   },
@@ -4144,7 +4141,6 @@
     ],
     "investment_thesis": "",
     "key_tickers": [
-      "WORK",
       "SAP"
     ]
   },
@@ -4910,8 +4906,7 @@
     "investment_thesis": "",
     "key_tickers": [
       "MGM",
-      "TALEN ENERGY",
-      "GEONET"
+      "TLN"
     ]
   },
   {
@@ -5725,8 +5720,7 @@
     ],
     "investment_thesis": "",
     "key_tickers": [
-      "FIGMA",
-      "PERPLEXITY"
+      "FIG"
     ]
   },
   {
@@ -6205,7 +6199,6 @@
     ],
     "investment_thesis": "Pictay Asset Management's investment thesis is to use interpretable machine learning techniques to outperform benchmarks while maintaining index-like risk characteristics.",
     "key_tickers": [
-      "PQ&T",
       "PQUS"
     ]
   },
@@ -6304,7 +6297,7 @@
     ],
     "investment_thesis": "",
     "key_tickers": [
-      "SNP 500"
+      "SPX"
     ]
   },
   {
@@ -6323,7 +6316,7 @@
     "investment_thesis": "",
     "key_tickers": [
       "COIN",
-      "VISA"
+      "V"
     ]
   },
   {
@@ -6340,9 +6333,7 @@
       "Consumer spending patterns and the potential for growth in Latin American exchanges are areas of interest."
     ],
     "investment_thesis": "Investing in the refining sector is justified by the tightening market and the potential for long-term growth, despite short-term geopolitical uncertainties.",
-    "key_tickers": [
-      "N/A"
-    ]
+    "key_tickers": []
   },
   {
     "id": 200,
@@ -6541,7 +6532,7 @@
     ],
     "investment_thesis": "",
     "key_tickers": [
-      "SPACEX"
+      "SPCX"
     ]
   },
   {
@@ -6560,7 +6551,7 @@
     ],
     "investment_thesis": "The current enterprise software landscape is ripe for disruption by new platforms that can offer improved user experiences and leverage AI to rethink business processes.",
     "key_tickers": [
-      "WORK"
+      "WDAY"
     ]
   },
   {
