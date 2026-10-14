@@ -199,6 +199,12 @@ def _apply_summary_overrides(obj):
     name_reps = rules_all.get("name_replacements", [])
     if name_reps:
         _apply_name_replacements(obj, name_reps)
+    # Backstop: full known-name list from name_normalizer (quote-safe, exact swaps only).
+    try:
+        import name_normalizer
+        name_normalizer.apply_to_cards(obj)
+    except Exception as e:
+        print(f"  ⚠ name_normalizer backstop skipped: {e}")
     return obj
 
 
