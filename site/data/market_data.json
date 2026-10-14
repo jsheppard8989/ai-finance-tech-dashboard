@@ -7,7 +7,7 @@
     "_comment": "Treasury coupon auction calendar + recent results. Source: TreasuryDirect TA_WS (fetch_treasury_calendar.py). Bills excluded.",
     "_fetch_url": "https://www.treasurydirect.gov/TA_WS/securities/upcoming?format=json",
     "_results_url": "https://www.treasurydirect.gov/TA_WS/securities/auctioned?format=json&days=45",
-    "last_updated": "2026-10-14T13:01:54",
+    "last_updated": "2026-10-14T15:51:57",
     "as_of_date": "2026-10-14",
     "next_refunding_announcement": {
       "date": "2026-11-04",
@@ -256,13 +256,13 @@
     "_primary_source": "Treasury.gov",
     "_source_url": "https://home.treasury.gov/resource-center/data-chart-center/interest-rates/TextView?type=daily_treasury_yield_curve",
     "_fred_status": "unavailable (optional)",
-    "last_updated": "2026-10-14T13:01:52.919459",
-    "as_of_date": "2026-10-13",
+    "last_updated": "2026-10-14T15:51:55.696233",
+    "as_of_date": "2026-10-14",
     "spreads": {
       "2s10s": {
         "label": "2s10s Spread",
         "description": "10Y minus 2Y Treasury yield. Classic recession indicator. Negative = inverted curve.",
-        "value_bps": 42.0,
+        "value_bps": 37.0,
         "signal": "normal",
         "source": "Treasury.gov (computed)",
         "calculation": "10Y - 2Y from Treasury daily curve"
@@ -270,7 +270,7 @@
       "10s30s": {
         "label": "10s30s Spread (NOB proxy)",
         "description": "30Y minus 10Y Treasury yield. Reflects long-end term premium and duration demand.",
-        "value_bps": 35.0,
+        "value_bps": 33.0,
         "signal": "normal",
         "source": "Treasury.gov (computed)",
         "calculation": "30Y - 10Y from Treasury daily curve"
@@ -278,17 +278,17 @@
     },
     "levels": {
       "2y": {
-        "value": 4.79,
-        "change_1d_bps": -1.0,
+        "value": 4.82,
+        "change_1d_bps": 3.0,
         "source": "Treasury.gov"
       },
       "10y": {
-        "value": 5.21,
-        "change_1d_bps": -3.0,
+        "value": 5.19,
+        "change_1d_bps": -2.0,
         "source": "Treasury.gov"
       },
       "30y": {
-        "value": 5.56,
+        "value": 5.52,
         "change_1d_bps": -4.0,
         "source": "Treasury.gov"
       }
@@ -297,8 +297,8 @@
       "_comment": "MOVE Index - bond market VIX. Source: Yahoo Finance ^MOVE.",
       "label": "MOVE Index",
       "description": "Treasury implied volatility index. High readings = bond market stress/uncertainty.",
-      "value": 98.89,
-      "change_1d": -2.2,
+      "value": 99.06,
+      "change_1d": -2.03,
       "as_of": "2026-10-14",
       "signal": "normal",
       "yahoo_symbol": "^MOVE",
@@ -316,7 +316,7 @@
     "_fetch_url": "https://www.cftc.gov/dea/futures/financial_lf.htm",
     "_api_alternative": "Quandl CFTC dataset (may need key)",
     "_fetch_instructions": "CFTC releases COT every Friday at 3:30pm ET for positions as of prior Tuesday.",
-    "last_updated": "2026-10-14T13:01:53.470485",
+    "last_updated": "2026-10-14T15:51:55.976721",
     "report_date": "2026-10-06",
     "prior_report_date": "2026-09-29",
     "change_source": "cftc_changes_row",
@@ -406,7 +406,7 @@
     "_source_url": "https://gpu-index.semianalysis.com/",
     "_api_url": "https://gpu-index.semianalysis.com/api/public-data",
     "_data_type": "api_index",
-    "last_fetched": "2026-10-14T13:01:36.427943",
+    "last_fetched": "2026-10-14T15:51:39.455787",
     "h100": {
       "daily_date": "Oct 14, 2026",
       "daily_date_iso": "2026-10-14",
@@ -551,11 +551,11 @@
     "_source_url": "https://aicomputetracker.com/",
     "_api_url": "https://aicomputetracker.com/forward-curves.json",
     "_settles_on": "Ornn Compute Price Index (OCPI)",
-    "_license": "AI Compute Tracker (aicomputetracker.com), CC BY 4.0",
+    "_license": "AI Compute Tracker (aicomputetracker.com), CC BY 4.0; third-party terms apply to data from Kalshi (KalshiEX LLC)",
     "as_of": "2026-10-14T17:34:15.441Z",
     "unit": "USD per GPU-hour",
     "methodology": "kalshi-ladder-median-50-v1+smooth-121x2-after-front-v1",
-    "last_fetched": "2026-10-14T13:01:36.889644",
+    "last_fetched": "2026-10-14T15:51:39.794561",
     "b200": {
       "points": [
         {
