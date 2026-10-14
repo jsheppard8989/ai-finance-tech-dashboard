@@ -27,8 +27,8 @@ API_URL = "https://aicomputetracker.com/forward-curves.json"
 SOURCE_URL = "https://aicomputetracker.com/"
 KALSHI_URL = "https://kalshi.com/markets/kxh100ms"
 CHIPS = ("h100", "b200")
-# Tenors surfaced on the card: front month, +2 months, and the far end (~10 months out).
-CARD_TENOR_INDEXES = (1, 3, 9)
+# Indexes into the monthly points (Anchor dropped): front month, +2 months, +8 months.
+CARD_TENOR_INDEXES = (0, 2, 8)
 
 
 def fetch_json() -> Optional[Dict[str, Any]]:
@@ -44,10 +44,36 @@ def fetch_json() -> Optional[Dict[str, Any]]:
         return None
 
 
+MONTHS = ("Jan", "Feb", "Mar", "Apr", "May", "Jun", "Jul", "Aug", "Sep", "Oct", "Nov", "Dec")
+
+
+def tenor_label(tenor_key: str) -> Optional[str]:
+    """'2027-06' -> "Jun '27". Year comes from the data's tenorKey, never hardcoded."""
+    try:
+        y, m = tenor_key.split("-")
+        return f"{MONTHS[int(m) - 1]} '{int(y) % 100:02d}"
+    except Exception:
+        return None
+
+
+def chip_points(chip: Dict[str, Any]):
+    """Monthly points with tenor_key/label/price, skipping the Anchor (dupe of front month)."""
+    pts = []
+    for p in chip.get("points") or []:
+        key = ((p.get("evidence") or {}).get("tenorKey")) or None
+        price = p.get("priceUsdPerGpuHour")
+        label = tenor_label(key) if key else None
+        if not label or price is None:
+            continue
+        pts.append({"tenor_key": key, "tenor": label, "price": round(float(price), 2),
+                    "quality": p.get("quality")})
+    pts.sort(key=lambda x: x["tenor_key"])
+    return pts
+
+
 def parse(raw: Dict[str, Any]) -> Optional[Dict[str, Any]]:
-    tenors = raw.get("tenors") or []
     as_of = raw.get("asOf")
-    if not tenors or not as_of:
+    if not as_of:
         return None
     out: Dict[str, Any] = {
         "_comment": "Kalshi-implied monthly GPU forward curve via AI Compute Tracker (CC BY 4.0). Indicative, not executable.",
@@ -64,15 +90,13 @@ def parse(raw: Dict[str, Any]) -> Optional[Dict[str, Any]]:
         cid = chip.get("id")
         if cid not in CHIPS:
             continue
-        curve = chip.get("curve") or []
-        if len(curve) != len(tenors) or any(v is None for v in curve):
+        pts = chip_points(chip)
+        if not pts:
             continue
         prov = chip.get("provenance") or {}
         out[cid] = {
-            "points": [{"tenor": t.replace("\u2019", "'"), "price": round(float(v), 2)}
-                       for t, v in zip(tenors, curve)][1:],  # drop "Anchor" (dupe of front month)
-            "card": [{"tenor": tenors[i].replace("\u2019", "'"), "price": round(float(curve[i]), 2)}
-                     for i in CARD_TENOR_INDEXES if i < len(curve)],
+            "points": pts,
+            "card": [pts[i] for i in CARD_TENOR_INDEXES if i < len(pts)],
             "two_sided_markets": prov.get("twoSidedMarketCount"),
             "liquidity_usd": round(prov.get("totalLiquidityUsd") or 0),
             "kalshi_series": prov.get("monthlySeriesTicker"),
