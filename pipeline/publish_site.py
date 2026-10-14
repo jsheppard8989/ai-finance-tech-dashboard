@@ -177,6 +177,23 @@ def main() -> int:
 
     print(f"✓ {msg}")
 
+    # Evening publish guard: block (not warn) on site content regressions.
+    from publish_guard import run_publish_guard
+    from workspace_paths import SITE_DIR
+
+    ok_guard, guard_reasons = run_publish_guard(SITE_DIR, PIPELINE, WORKSPACE)
+    if not ok_guard:
+        detail = "publish guard: " + " | ".join(guard_reasons)
+        _write_attempt(False, detail)
+        print("✗ Publish guard blocked this publish (nothing committed or pushed).")
+        try:
+            from auto_pipeline import send_notification
+
+            send_notification("ALERT publish guard: site publish blocked", detail[:900], priority=1)
+        except Exception:
+            pass
+        return 1
+
     if args.dry_run:
         _write_attempt(True, "dry-run: validated only")
         print("Dry run — not pushing.")

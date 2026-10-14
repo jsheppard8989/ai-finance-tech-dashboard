@@ -1127,6 +1127,25 @@ def git_push(commit_msg: str, pathspecs=None) -> bool:
                 )
                 return False
 
+        # Evening publish guard (blocks, never just warns): refuse to commit a site/
+        # export that drops Trap Map card ids / the open-linked-card script, undoes
+        # an override fix, has 'bet' wording, or lacks generatedAt / priceSnapshot.
+        if not pathspecs or any(str(p).rstrip("/") == "site" for p in pathspecs):
+            try:
+                from publish_guard import run_publish_guard
+                ok_guard, guard_reasons = run_publish_guard(WORKSPACE / "site", PIPELINE_DIR, WORKSPACE)
+            except Exception as e:
+                ok_guard, guard_reasons = False, [f"publish guard crashed: {e}"]
+                print(f"ALERT publish guard: {guard_reasons[0]}")
+            if not ok_guard:
+                print("✗ Publish guard blocked commit/push of site/")
+                send_notification(
+                    "ALERT publish guard: site publish blocked",
+                    "\n".join(guard_reasons)[:900],
+                    priority=1,
+                )
+                return False
+
         status_cmd = ["git", "status", "--porcelain"]
         if pathspecs:
             status_cmd.extend(["--"] + list(pathspecs))
