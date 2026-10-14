@@ -2435,7 +2435,7 @@
     "podcast_name": "Monetary Matters with Jack Farley",
     "episode_title": "The Commodity Bull Market Is Broadening | Jim Wiederhold on Copper, Grains, and Bloomberg Commodity Index",
     "episode_date": "2026-08-26",
-    "summary": "In this episode of Monetary Matters with Jack Farley, Jim Weederhold, commodity indices product manager at Bloomberg, discusses the current state and future outlook of the commodity complex. Key themes include the impact of AI on metals like copper and silver, the role of energy commodities in production costs, and the potential for extreme price appreciation in certain commodities. The conversation also touches on macroeconomic shifts, such as de-globalization and increased costs of doing business, which are driving up commodity prices. Additionally, Weederhold shares his insights on agricultural commodities and the potential sleeper in the corn market due to fertilizer costs and supply disruptions.",
+    "summary": "In this episode of Monetary Matters with Jack Farley, Jim Wiederhold, commodity indices product manager at Bloomberg, discusses the current state and future outlook of the commodity complex. Key themes include the impact of AI on metals like copper and silver, the role of energy commodities in production costs, and the potential for extreme price appreciation in certain commodities. The conversation also touches on macroeconomic shifts, such as de-globalization and increased costs of doing business, which are driving up commodity prices. Additionally, Weederhold shares his insights on agricultural commodities and the potential sleeper in the corn market due to fertilizer costs and supply disruptions.",
     "key_takeaways": [
       "AI and data center build-outs are significant drivers for commodities, particularly metals like copper and silver.",
       "Macroeconomic themes such as de-globalization and increased costs of doing business are contributing to higher commodity prices.",
@@ -6003,7 +6003,7 @@
     "podcast_name": "Dwarkesh Podcast",
     "episode_title": "Eric Jang \u2013 Building AlphaGo from scratch",
     "episode_date": "2026-05-15",
-    "summary": "In this episode, Eric Jeng discusses the development of AlphaGo, an AI for playing Go, and its broader implications for AI research and investment strategies. The conversation highlights a significant reduction in compute required to train AI models, the importance of understanding decision-making processes in AI, and the potential for AI to automate research processes. These insights underscore the growing accessibility and efficiency of AI technologies, with potential applications beyond gaming.",
+    "summary": "In this episode, Eric Jang discusses the development of AlphaGo, an AI for playing Go, and its broader implications for AI research and investment strategies. The conversation highlights a significant reduction in compute required to train AI models, the importance of understanding decision-making processes in AI, and the potential for AI to automate research processes. These insights underscore the growing accessibility and efficiency of AI technologies, with potential applications beyond gaming.",
     "key_takeaways": [
       "Implement strategies to ensure training data remains relevant to the current policy in off-policy learning scenarios.",
       "Investigate AI tools that automate research processes to accelerate innovation and development."
