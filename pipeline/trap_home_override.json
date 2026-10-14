@@ -1,13 +1,40 @@
 {
-  "_comment": "Pins the home-page Trap Map strip to the five stock cards on trap-map.html. While this file exists, regenerate_trap_home.py (and export_data.py) writes these entries instead of deriving them from trap_map.json. Delete or edit it when the Trap Map cards change.",
+  "_comment": "Pins the home-page Trap Map strip to the six stock cards on trap-map.html. While this file exists, regenerate_trap_home.py (and export_data.py) writes these entries instead of deriving them from trap_map.json. Delete or edit it when the Trap Map cards change.",
   "last_monitored": [
-    {"id": "apld", "short_title": "Applied Digital (APLD)", "status": "WATCH", "updated_at": "Date TBD"},
-    {"id": "iren", "short_title": "IREN", "status": "WATCH", "updated_at": "Date TBD"},
-    {"id": "tsla", "short_title": "Tesla (TSLA)", "status": "WATCH", "updated_at": "Oct 21"}
+    {
+      "id": "frmi",
+      "short_title": "Fermi (FRMI)",
+      "status": "WATCH",
+      "updated_at": "Est. Nov 16"
+    },
+    {
+      "id": "apld",
+      "short_title": "Applied Digital (APLD)",
+      "status": "WATCH",
+      "updated_at": "Date TBD"
+    },
+    {
+      "id": "iren",
+      "short_title": "IREN",
+      "status": "WATCH",
+      "updated_at": "Date TBD"
+    }
   ],
   "upcoming_watches": [
-    {"trap_id": "tsla", "date_label": "Wed Oct 21", "what": "Tesla Q3 2026 results, after the close"},
-    {"trap_id": "hims", "date_label": "By Nov 9", "what": "Hims & Hers Q3 report (filing deadline)"},
-    {"trap_id": "tsat", "date_label": "Sun Dec 6", "what": "Telesat debt maturity, or a refinancing filing"}
+    {
+      "trap_id": "tsla",
+      "date_label": "Wed Oct 21",
+      "what": "Tesla Q3 2026 results, after the close"
+    },
+    {
+      "trap_id": "hims",
+      "date_label": "By Nov 9",
+      "what": "Hims & Hers Q3 report (filing deadline)"
+    },
+    {
+      "trap_id": "tsat",
+      "date_label": "Dec (est. Dec 6)",
+      "what": "Telesat debt maturity (our date estimate), or a refinancing filing"
+    }
   ]
 }
