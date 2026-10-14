@@ -30,7 +30,9 @@
     "David Friedberg",
     "Synthesis Superintelligence",
     "Google X's Astro Teller",
-    "What Makes a Great Entrepreneur?"
+    "What Makes a Great Entrepreneur?",
+    "State of Markets",
+    "Introducing Cosign"
   ],
   "fixes": {
     "Ray Dahlia": "Ray Dalio",
@@ -50,14 +52,19 @@
     "Synthesis Superintelligence": "Liam Fedus and Ekin Doğuş Çubuk",
     "Charles Le Manides": "Charles Lemonides",
     "Jason Kaltenson": "Jason Calacanis",
-    "Davile Agida": "Dhaval Adjodah"
+    "Davile Agida": "Dhaval Adjodah",
+    "AWS CEO Matt Garman": "Matt Garman",
+    "Token Bill Dwarfs CPU Bill": "Ben Pouladian",
+    "Moonshots Live": "Cathie Wood",
+    "Ben Kulandian": "Ben Pouladian"
   },
   "episode_title_guest": {
     "Beyond the God Model | Alex Atallah & Amjad Masad": "Alex Atallah & Amjad Masad",
     "Rebuilding the Internet for Privacy | Barrett Lyon on DoxxNet": "Barrett Lyon",
     "Google X's Astro Teller: The $1B Bet No CEO Will Back, Moonshots 3x Cheaper in 16 Yrs, and Clean Water at 1¢/L| EP #300": "Astro Teller",
     "Synthesis Superintelligence: from Semiconductors to Superconductors — Periodic Labs’ Liam Fedus and Ekin Dogus Cubuk": "Liam Fedus and Ekin Doğuş Çubuk",
-    "Chips, Memory, and Power | Pat Gelsinger": "Pat Gelsinger"
+    "Chips, Memory, and Power | Pat Gelsinger": "Pat Gelsinger",
+    "Building the Cloud for an Agentic World | AWS CEO Matt Garman": "Matt Garman"
   },
   "insight_guest_by_id": {
     "564": "Alex Atallah & Amjad Masad",
@@ -69,7 +76,8 @@
     "582": "Dhaval Adjodah and Owen He",
     "580": "Ben Horowitz",
     "578": "Pushmeet Kohli and Sal Candido",
-    "575": "Brent Johnson"
+    "575": "Brent Johnson",
+    "573": "Matt Garman"
   },
   "overrides": {
     "Graham Allison": {

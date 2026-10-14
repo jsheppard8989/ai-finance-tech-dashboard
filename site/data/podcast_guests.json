@@ -37,7 +37,7 @@
   },
   {
     "id": 86049,
-    "name": "AWS CEO Matt Garman",
+    "name": "Matt Garman",
     "slug": "aws-ceo-matt-garman",
     "bio": null,
     "known_for": null,
@@ -108,20 +108,8 @@
     "appearance_count": 1
   },
   {
-    "id": 86055,
-    "name": "State of Markets",
-    "slug": "state-of-markets",
-    "bio": null,
-    "known_for": null,
-    "last_main_idea": "The a16z growth team argues hyperscaler AI CapEx can exceed $1 trillion annually from 2027 because agentic compute demand continues to outstrip supply across chips, power, cooling, and construction.",
-    "last_episode_title": "The $1 Trillion AI Buildout | State of Markets",
-    "last_podcast_name": "The a16z Show",
-    "last_episode_date": "2026-09-30",
-    "appearance_count": 1
-  },
-  {
     "id": 86056,
-    "name": "Token Bill Dwarfs CPU Bill",
+    "name": "Ben Pouladian",
     "slug": "token-bill-dwarfs-cpu-bill",
     "bio": null,
     "known_for": null,
@@ -145,7 +133,7 @@
   },
   {
     "id": 86059,
-    "name": "Moonshots Live",
+    "name": "Cathie Wood",
     "slug": "moonshots-live",
     "bio": null,
     "known_for": null,
@@ -201,18 +189,6 @@
     "last_episode_title": "Building a Team at AI Speed | Harvey\u2019s Maggie Landers",
     "last_podcast_name": "The a16z Show",
     "last_episode_date": "2026-09-27",
-    "appearance_count": 1
-  },
-  {
-    "id": 86063,
-    "name": "Introducing Cosign",
-    "slug": "introducing-cosign",
-    "bio": null,
-    "known_for": null,
-    "last_main_idea": "Investing in platforms like Co-sign that leverage endorsements and social capital can yield significant returns as they address inefficiencies in talent discovery and professional networking.",
-    "last_episode_title": "The Reputation Graph of Silicon Valley | Introducing Cosign",
-    "last_podcast_name": "The a16z Show",
-    "last_episode_date": "2026-09-25",
     "appearance_count": 1
   },
   {

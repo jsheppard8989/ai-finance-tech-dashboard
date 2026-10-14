@@ -133,6 +133,21 @@ def _drop_tickers(value, drop):
     return value
 
 
+def _drop_ticker_analysis(value, drop):
+    """Remove dropped symbols from a Deep Dive ticker_analysis dict (or its JSON string)."""
+    drop = {d.upper() for d in drop}
+    if isinstance(value, dict):
+        return {k: v for k, v in value.items() if str(k).upper() not in drop}
+    if isinstance(value, str):
+        try:
+            parsed = json.loads(value)
+        except Exception:
+            return value
+        if isinstance(parsed, dict):
+            return json.dumps({k: v for k, v in parsed.items() if str(k).upper() not in drop})
+    return value
+
+
 def _apply_summary_overrides(obj):
     """Apply pipeline/summary_overrides.json text fixes (in place).
 
@@ -159,6 +174,8 @@ def _apply_summary_overrides(obj):
             for k in ("tickers_mentioned", "key_tickers"):
                 if k in o:
                     o[k] = _drop_tickers(o[k], drop)
+            if "ticker_analysis" in o:
+                o["ticker_analysis"] = _drop_ticker_analysis(o["ticker_analysis"], drop)
 
     def walk(o):
         if isinstance(o, dict):
@@ -179,6 +196,70 @@ def _apply_summary_overrides(obj):
                 else:
                     walk(v)
     walk(obj)
+    name_reps = rules_all.get("name_replacements", [])
+    if name_reps:
+        _apply_name_replacements(obj, name_reps)
+    return obj
+
+
+# Quote-safe name swaps (Oct 2026 sweep): 'name_replacements' fix mis-transcribed
+# names everywhere EXCEPT direct quotes, raw transcript snippets, titles and slugs/URLs.
+NAME_PROTECT_KEYS = frozenset(TITLE_FIELDS) | {
+    "quote", "quotes", "notable_quotes", "last_proof_snippet", "last_proof_cite",
+    "last_episode_title", "last_mentioned_episode_title", "transcript_excerpt",
+    "slug", "url", "source_url", "link", "net_worth_source", "grokipedia_url",
+}
+_QUOTED_SPAN_RE = re.compile(
+    r'"[^"\n]*"|\u201c[^\u201d]*\u201d|\u2018[^\u2019]*\u2019(?![A-Za-z])'
+    r"|(?<![A-Za-z])'(?:[^'\n]|'(?=[A-Za-z]))*'(?![A-Za-z])"
+)
+# Transcript-style evidence lines ("Jason Calacanis: verbatim words"): the words after
+# the speaker label are a direct quote; the label itself stays fixable.
+_TRANSCRIPT_LINE_RE = re.compile(r"(?m)^[ \t]*(?:-[ \t]*)?[A-Z][\w.\u2019'-]*(?:[ \t][A-Z][\w.\u2019'-]*){0,3}:[ \t](.*)$")
+
+
+def _protected_spans(text, key=None):
+    spans = [m.span() for m in _QUOTED_SPAN_RE.finditer(text)]
+    if key == "episode_evidence":
+        spans += [m.span(1) for m in _TRANSCRIPT_LINE_RE.finditer(text)]
+    spans.sort()
+    merged = []
+    for a, b in spans:
+        if merged and a <= merged[-1][1]:
+            merged[-1][1] = max(merged[-1][1], b)
+        else:
+            merged.append([a, b])
+    return merged
+
+
+def replace_outside_quotes(text, replacements, key=None):
+    """Apply exact swaps to text, leaving quoted spans (and transcript lines) untouched."""
+    if not isinstance(text, str) or not any(old in text for old, _ in replacements):
+        return text
+    out, pos = [], 0
+    for a, b in _protected_spans(text, key) + [[len(text), len(text)]]:
+        out.append(_replace_text(text[pos:a], replacements))
+        out.append(text[a:b])
+        pos = b
+    return "".join(out)
+
+
+def _apply_name_replacements(obj, replacements, key=None):
+    if isinstance(obj, dict):
+        for k in list(obj.keys()):
+            v = obj[k]
+            if isinstance(v, str):
+                if k not in NAME_PROTECT_KEYS:
+                    obj[k] = replace_outside_quotes(v, replacements, k)
+            else:
+                _apply_name_replacements(v, replacements, k)
+    elif isinstance(obj, list):
+        for i, v in enumerate(obj):
+            if isinstance(v, str):
+                if key not in NAME_PROTECT_KEYS:
+                    obj[i] = replace_outside_quotes(v, replacements, key)
+            else:
+                _apply_name_replacements(v, replacements, key)
     return obj
 
 
