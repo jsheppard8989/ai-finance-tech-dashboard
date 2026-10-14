@@ -413,6 +413,7 @@ def transcribe_via_launchagent(audio_path, episode, poll_interval=15, timeout_se
         'published':     episode.get('published', ''),
         'published_date':episode.get('published_date', ''),
         'rss_guid':      episode.get('rss_guid', ''),
+        'show_notes':    _show_notes_text(episode),
     }
     meta_file.write_text(_json.dumps(meta, indent=2))
 
@@ -496,6 +497,20 @@ def chunk_audio(audio_path, chunk_secs=1800):
     return chunks if chunks else [audio_path]
 
 
+def _show_notes_text(episode, limit=6000):
+    """RSS description / content:encoded (show notes) as plain text for name_normalizer."""
+    raw = episode.get('rss_html') or ''
+    if not raw:
+        return ''
+    try:
+        from published_transcript import html_to_text
+        txt = html_to_text(raw)
+    except Exception:
+        import re as _re
+        txt = _re.sub(r'<[^>]+>', ' ', raw)
+    return (txt or '').strip()[:limit]
+
+
 def _episode_meta(episode):
     return {
         'podcast_name': episode.get('podcast', 'Unknown'),
@@ -505,6 +520,7 @@ def _episode_meta(episode):
         'published': episode.get('published', ''),
         'published_date': episode.get('published_date', ''),
         'rss_guid': episode.get('rss_guid', ''),
+        'show_notes': _show_notes_text(episode),
     }
 
 

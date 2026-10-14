@@ -846,6 +846,19 @@ def process_transcript_file(transcript_path: Path, client_info, db) -> Optional[
     analysis_source = content
     used_digest = False
 
+    # Fix speaker/guest name spellings before analysis (known misspellings + conservative
+    # fuzzy match against this episode's RSS title/show notes; near-misses are only logged).
+    try:
+        from name_normalizer import normalize_for_analysis
+        analysis_source, _name_fixes = normalize_for_analysis(
+            analysis_source, sidecar, episode_id=transcript_path.stem
+        )
+        if _name_fixes:
+            print("    ✎ Name fixes: " + ", ".join(
+                f"{c['original']} → {c['fixed']}" for c in _name_fixes[:8]))
+    except Exception as _e:
+        print(f"    ⚠ name_normalizer unavailable: {_e}")
+
     # Check for two-pass mode
     from two_pass_analyzer import (
         is_two_pass_enabled, analyze_transcript_two_pass, TwoPassAnalyzerCache,

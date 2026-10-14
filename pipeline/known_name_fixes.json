@@ -1,0 +1,385 @@
+{
+ "_comment": "Confirmed name respellings from the Oct 13 2026 sweep (fixes.md '| name' rows; guest-list swaps and removals excluded). Read by name_normalizer.py.",
+ "fixes": [
+  [
+   "Amjag Masad",
+   "Amjad Masad"
+  ],
+  [
+   "Ben Kulandian",
+   "Ben Pouladian"
+  ],
+  [
+   "Cloud Code",
+   "Claude Code"
+  ],
+  [
+   "DeepMine",
+   "DeepMind"
+  ],
+  [
+   "Demis Hassaba",
+   "Demis Hassabis"
+  ],
+  [
+   "Demis Abbas",
+   "Demis Hassabis"
+  ],
+  [
+   "Eddie Lazarin",
+   "Eddy Lazzarin"
+  ],
+  [
+   "Eddie Lazzer",
+   "Eddy Lazzarin"
+  ],
+  [
+   "Eric Townsend",
+   "Erik Townsend"
+  ],
+  [
+   "Patrick Suresneut",
+   "Patrick Ceresna"
+  ],
+  [
+   "Patrick Suresne",
+   "Patrick Ceresna"
+  ],
+  [
+   "Freeberg",
+   "Friedberg"
+  ],
+  [
+   "Mark Anderson, Ben Horowitz",
+   "Marc Andreessen, Ben Horowitz"
+  ],
+  [
+   "Mark Andreason",
+   "Marc Andreessen"
+  ],
+  [
+   "Mark Andrewson",
+   "Marc Andreessen"
+  ],
+  [
+   "Mark Andreessen",
+   "Marc Andreessen"
+  ],
+  [
+   "Martin Schrelli",
+   "Martin Shkreli"
+  ],
+  [
+   "Max Weathie",
+   "Max Wiethe"
+  ],
+  [
+   "Max Weathy",
+   "Max Wiethe"
+  ],
+  [
+   "Max Weethe",
+   "Max Wiethe"
+  ],
+  [
+   "Max Weethy",
+   "Max Wiethe"
+  ],
+  [
+   "Replet",
+   "Replit"
+  ],
+  [
+   "Rory Johnson",
+   "Rory Johnston"
+  ],
+  [
+   "Sema Amble",
+   "Seema Amble"
+  ],
+  [
+   "Stephen Sinowski",
+   "Steven Sinofsky"
+  ],
+  [
+   "Sinoffski",
+   "Sinofsky"
+  ],
+  [
+   "Talent Energy",
+   "Talen Energy"
+  ],
+  [
+   "TALENT ENERGY",
+   "TALEN ENERGY"
+  ],
+  [
+   "Travis Kelenick",
+   "Travis Kalanick"
+  ],
+  [
+   "Jack Mallors Show",
+   "Jack Mallers Show"
+  ],
+  [
+   "Jack Malers Show",
+   "Jack Mallers Show"
+  ],
+  [
+   "Jack Mowler Show",
+   "Jack Mallers Show"
+  ],
+  [
+   "Alex Carp",
+   "Alex Karp"
+  ],
+  [
+   "Andre Carpathie's",
+   "Andrej Karpathy's"
+  ],
+  [
+   "Dario Amadeh",
+   "Dario Amodei"
+  ],
+  [
+   "Dave Blondon",
+   "Dave Blundin"
+  ],
+  [
+   "David Sachs",
+   "David Sacks"
+  ],
+  [
+   "Dr. Geo Voliante",
+   "Dr. Gio Valiante"
+  ],
+  [
+   "Dr. Onis Ahaji",
+   "Dr. Anas Alhajji"
+  ],
+  [
+   "Dr. Onus Alhajji",
+   "Dr. Anas Alhajji"
+  ],
+  [
+   "Gwen Shotwell",
+   "Gwynne Shotwell"
+  ],
+  [
+   "Jensen Wong",
+   "Jensen Huang"
+  ],
+  [
+   "Kathy Wood",
+   "Cathie Wood"
+  ],
+  [
+   "Kevin Worsh",
+   "Kevin Warsh"
+  ],
+  [
+   "Lynn Alden",
+   "Lyn Alden"
+  ],
+  [
+   "Liz Ann Saunders",
+   "Liz Ann Sonders"
+  ],
+  [
+   "Matt Fornstein",
+   "Matt Bornstein"
+  ],
+  [
+   "Matt Borenstein",
+   "Matt Bornstein"
+  ],
+  [
+   "Naveen Rau",
+   "Naveen Rao"
+  ],
+  [
+   "Reed Hoffman",
+   "Reid Hoffman"
+  ],
+  [
+   "Robert Conexberger",
+   "Robert Koenigsberger"
+  ],
+  [
+   "Ron Emmanuel",
+   "Rahm Emanuel"
+  ],
+  [
+   "Ryan Greenlet",
+   "Ryan Greenblatt"
+  ],
+  [
+   "Sarah Fryer",
+   "Sarah Friar"
+  ],
+  [
+   "Saudi Ramco",
+   "Saudi Aramco"
+  ],
+  [
+   "Schiller Cape",
+   "Shiller CAPE"
+  ],
+  [
+   "Trace Steven",
+   "Trae Stephens"
+  ],
+  [
+   "Sean Sankar",
+   "Shyam Sankar"
+  ],
+  [
+   "Sergei Brin",
+   "Sergey Brin"
+  ],
+  [
+   "Terrence Tau",
+   "Terence Tao"
+  ],
+  [
+   "Victor Hagani",
+   "Victor Haghani"
+  ],
+  [
+   "Warren Buffet would",
+   "Warren Buffett would"
+  ],
+  [
+   "Yan LeCun",
+   "Yann LeCun"
+  ],
+  [
+   "Hano Lustig",
+   "Hanno Lustig"
+  ],
+  [
+   "Ali Hamani",
+   "Ali Khamenei"
+  ],
+  [
+   "President Milley's",
+   "President Milei's"
+  ],
+  [
+   "Gary Tan",
+   "Garry Tan"
+  ],
+  [
+   "Kimmy K3",
+   "Kimi K3"
+  ],
+  [
+   "Quen 3.8",
+   "Qwen 3.8"
+  ],
+  [
+   "Polymark.",
+   "Polymarket."
+  ],
+  [
+   "Martin Rothblatt",
+   "Martine Rothblatt"
+  ],
+  [
+   "El NiAo",
+   "El Niño"
+  ],
+  [
+   "Grok LPUs",
+   "Groq LPUs"
+  ],
+  [
+   "Marianna Mineroles",
+   "Mariana Minerals"
+  ],
+  [
+   "Shinyo Yamanaka",
+   "Shinya Yamanaka"
+  ],
+  [
+   "Alex Weesner",
+   "Alex Wissner-Gross"
+  ],
+  [
+   "Matt Lowzack",
+   "Matt Loszak"
+  ],
+  [
+   "Leakwet Ahamed",
+   "Liaquat Ahamed"
+  ],
+  [
+   "Michael Intrader",
+   "Michael Intrator"
+  ],
+  [
+   "Clement DeLong",
+   "Clem Delangue"
+  ],
+  [
+   "Clem DeLong",
+   "Clem Delangue"
+  ],
+  [
+   "Ramine Hassani",
+   "Ramin Hasani"
+  ],
+  [
+   "Stefan Bunzel",
+   "Stéphane Bancel"
+  ],
+  [
+   "David Haper",
+   "David Haber"
+  ],
+  [
+   "Soled Everything",
+   "Solve Everything"
+  ],
+  [
+   "Thropic",
+   "Anthropic"
+  ],
+  [
+   "Paul Ackens",
+   "Paul Atkins"
+  ],
+  [
+   "Michael Cilig",
+   "Michael Selig"
+  ],
+  [
+   "Alex Gorovich",
+   "Alex Gurevich"
+  ],
+  [
+   "Try Discovery",
+   "Chai Discovery"
+  ],
+  [
+   "Moes Cassam",
+   "Moez Kassam"
+  ],
+  [
+   "Moe Cassam",
+   "Moez Kassam"
+  ],
+  [
+   "James Elbauer",
+   "James Elbaor"
+  ],
+  [
+   "Jacob Helbert",
+   "Jacob Helberg"
+  ],
+  [
+   "Ben Kulandian",
+   "Ben Pouladian"
+  ]
+ ]
+}
