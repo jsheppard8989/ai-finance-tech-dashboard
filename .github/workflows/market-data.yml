@@ -48,6 +48,11 @@ jobs:
         continue-on-error: true
         run: python fetch_gpu_index.py
 
+      - name: Fetch Compute Forward curve (Kalshi-implied, via AI Compute Tracker)
+        working-directory: pipeline
+        continue-on-error: true
+        run: python fetch_compute_curve.py
+
       - name: Fetch Curve (Treasury par curve + MOVE)
         working-directory: pipeline
         continue-on-error: true

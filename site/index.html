@@ -2187,7 +2187,7 @@
       <!-- Compute Forward -->
       <div class="card" style="padding: 0.75rem; margin-bottom: 0;">
         <h3 style="font-size: 0.9rem; color: #00d4ff; margin-bottom: 0.25rem;">🖥️ Compute Forward</h3>
-        <p style="color: #9ca3af; font-size: 0.68rem; line-height: 1.35; margin-bottom: 0.5rem;">GPU rental index (daily composite + contract ranges). Not a live exchange — surveyed/modeled data.</p>
+        <p style="color: #9ca3af; font-size: 0.68rem; line-height: 1.35; margin-bottom: 0.5rem;">H100 rental price today, the 1-year contract range, and a market-implied monthly forward curve. Indicative, not executable quotes.</p>
         <div id="compute-forward-widget" style="font-size: 0.75rem;">
           <div style="display: flex; gap: 0.75rem; flex-wrap: wrap;">
             <span style="color: #a8b2d1;"><strong>1Y:</strong> —</span>
@@ -2207,7 +2207,7 @@
             Data lags several months. Trend direction matters more than absolute price.
           </div>
         </details>
-        <div style="margin-top: 0.3rem;"><a href="https://gpu-index.semianalysis.com/" target="_blank" style="color: #9ca3af; font-size: 0.65rem;">Source: SemiAnalysis (surveyed index)</a></div>
+        <div id="compute-forward-source" style="margin-top: 0.3rem; color: #9ca3af; font-size: 0.65rem; line-height: 1.4;">Sources: <a href="https://gpu-index.semianalysis.com/" target="_blank" style="color: #9ca3af;">SemiAnalysis GPU Index</a> (daily H100 composite, monthly 1Y range) · <a href="https://aicomputetracker.com/" target="_blank" style="color: #9ca3af;">AI Compute Tracker</a> (forward curve from <a href="https://kalshi.com/markets/kxh100ms" target="_blank" style="color: #9ca3af;">Kalshi H100 Monthly</a>, settles on <a href="https://data.ornn.com/markets/h100-sxm" target="_blank" style="color: #9ca3af;">Ornn OCPI</a>; <a href="https://creativecommons.org/licenses/by/4.0/" target="_blank" style="color: #9ca3af;">CC BY 4.0</a>)</div>
       </div>
     </div>
 
@@ -3326,6 +3326,17 @@
             '</div>' +
             staleIndicator;
           
+          // Forward curve row (Kalshi-implied via AI Compute Tracker), kept separate from the SemiAnalysis block
+          const fc = data.compute_forward_curve;
+          if (fc && fc.h100 && Array.isArray(fc.h100.card) && fc.h100.card.length) {
+            const fwdText = fc.h100.card.map(p => p.tenor + ' $' + Number(p.price).toFixed(2)).join(' · ');
+            const fcAsOf = fc.as_of ? new Date(fc.as_of).toLocaleString('en-US', {month: 'short', day: 'numeric', hour: 'numeric', minute: '2-digit', timeZone: 'America/Chicago'}) + ' CT' : '—';
+            const fcStale = fc._stale ? ' <span style="color: #f59e0b;">(stale)</span>' : '';
+            computeEl.innerHTML +=
+              '<div style="margin-top: 0.25rem; color: #a8b2d1;"><strong>Fwd (H100):</strong> <span class="plumbing-num">' + fwdText + '</span>' + fcStale + '</div>' +
+              '<div style="color: #9ca3af; font-size: 0.65rem;">Curve as-of: ' + fcAsOf + ' · thin market, indicative only</div>';
+          }
+
           // Build contracts-to-watch blurb
           const watchEl = document.getElementById('compute-forward-watch');
           if (watchEl) {
