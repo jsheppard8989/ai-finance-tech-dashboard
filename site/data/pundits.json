@@ -2,7 +2,7 @@
   {
     "id": 129,
     "name": "Eddy Lazzarin",
-    "slug": "eddie-lazarin",
+    "slug": "eddy-lazzarin",
     "bio": "General Partner at a16z Crypto. He argues AI may accelerate cryptographic validation and defensive testing while existing mitigations already help.",
     "known_for": "His contributions to the conversation about AI's impact on the future of work, startups, and economic empowerment.",
     "net_worth_usd": 600000000000.0,
@@ -1085,7 +1085,7 @@
   {
     "id": 530,
     "name": "Dan Boneh",
-    "slug": "dan-bonay",
+    "slug": "dan-boneh",
     "bio": "Stanford professor introduced in the episode. He focuses on why current AI progress does not yet equal a demonstrated break of deployed cryptography.",
     "known_for": null,
     "net_worth_usd": null,
@@ -1112,7 +1112,7 @@
   {
     "id": 531,
     "name": "Justin Thaler",
-    "slug": "justin-daler",
+    "slug": "justin-thaler",
     "bio": "Research Partner at a16z. He emphasizes operational defenses, crypto agility, and startup opportunities in AI-driven security tooling.",
     "known_for": null,
     "net_worth_usd": null,
@@ -5234,7 +5234,7 @@
     "mention_score_decayed": 0.35,
     "last_main_idea": "The accelerating pace of AI development, coupled with advancements in space technology and a shifting geopolitical landscape, creates a multi-faceted investment opportunity in companies fostering balanced AI ecosystems, pioneering AGI, and enabling future abundance.",
     "last_proof_cite": "Moonshots with Peter Diamandis \u2022 2026-07-29 \u2022 Dario vs Jensen on Open Weights, OpenAI & Anthropic in DC, Xi Exports AI to Global South | EP #275",
-    "last_proof_snippet": "The couple of days ago, Jensen Wong's CEO of NVIDIA. He says the world needs both frontier, close models, and frontier open models. And Thropic was silent for three days, and there was a lot of conversation. Where's in Thropic in this conve",
+    "last_proof_snippet": "The couple of days ago, Jensen Huang's CEO of NVIDIA. He says the world needs both frontier, close models, and frontier open models. And Anthropic was silent for three days, and there was a lot of conversation. Where's Anthropic in this conve",
     "supporting_takeaway": "",
     "grokipedia_url": null,
     "grokipedia_fetched_at": null,
@@ -5262,7 +5262,7 @@
     "mention_score_decayed": 0.35,
     "last_main_idea": "The accelerating pace of AI development, coupled with advancements in space technology and a shifting geopolitical landscape, creates a multi-faceted investment opportunity in companies fostering balanced AI ecosystems, pioneering AGI, and enabling future abundance.",
     "last_proof_cite": "Moonshots with Peter Diamandis \u2022 2026-07-29 \u2022 Dario vs Jensen on Open Weights, OpenAI & Anthropic in DC, Xi Exports AI to Global South | EP #275",
-    "last_proof_snippet": "The couple of days ago, Jensen Wong's CEO of NVIDIA. He says the world needs both frontier, close models, and frontier open models. And Thropic was silent for three days, and there was a lot of conversation. Where's in Thropic in this conve",
+    "last_proof_snippet": "The couple of days ago, Jensen Huang's CEO of NVIDIA. He says the world needs both frontier, close models, and frontier open models. And Anthropic was silent for three days, and there was a lot of conversation. Where's Anthropic in this conve",
     "supporting_takeaway": "",
     "grokipedia_url": null,
     "grokipedia_fetched_at": null,
@@ -5708,7 +5708,7 @@
   {
     "id": 422,
     "name": "Jim Wiederhold",
-    "slug": "jim-weederhold",
+    "slug": "jim-wiederhold",
     "bio": "Jim Wiederhold is a commodity indices product manager at Bloomberg, where he specializes in the analysis and management of commodity indices. He is known for his expertise in market analysis and the impact of technology on commodity prices.",
     "known_for": "Expertise in commodity indices and the influence of technology on market trends.",
     "net_worth_usd": 5000000.0,
@@ -5726,7 +5726,7 @@
     "mention_score_decayed": 0.33,
     "last_main_idea": "The commodity complex is poised for continued price appreciation due to macroeconomic tailwinds, increased production costs, and the impact of AI on demand for certain metals.",
     "last_proof_cite": "Monetary Matters with Jack Farley \u2022 2026-08-26 \u2022 The Commodity Bull Market Is Broadening | Jim Wiederhold on Copper, Grains, and Bloomberg Commodity Index",
-    "last_proof_snippet": "Today's episode is brought to you by the two Korean corn fund, take our CORN. Let's get into it. Join today by Jim Weederhold, commodity indices product manager at Bloomberg, Jim, great to see you welcome to monetary matters. Jack, thanks.",
+    "last_proof_snippet": "Today's episode is brought to you by the two Korean corn fund, take our CORN. Let's get into it. Join today by Jim Wiederhold, commodity indices product manager at Bloomberg, Jim, great to see you welcome to monetary matters. Jack, thanks.",
     "supporting_takeaway": "Macroeconomic themes such as de-globalization and increased costs of doing business are contributing to higher commodity prices.",
     "grokipedia_url": null,
     "grokipedia_fetched_at": "2026-08-26T22:46:52.004839",
@@ -8909,9 +8909,9 @@
   },
   {
     "id": 357,
-    "name": "Sleam Ismail",
-    "slug": "sleam-ismail",
-    "bio": "Sleam Ismail is the CEO of OpenEXO, a company at the forefront of AI and exponential technologies. As a globe-trotter, he brings a global perspective to the conversation, discussing the implications of AI advancements and their impact on society.",
+    "name": "Salim Ismail",
+    "slug": "salim-ismail",
+    "bio": "Salim Ismail is the CEO of OpenEXO, a company at the forefront of AI and exponential technologies. As a globe-trotter, he brings a global perspective to the conversation, discussing the implications of AI advancements and their impact on society.",
     "known_for": "Leading OpenEXO and contributing to the discourse on AI and its societal implications.",
     "net_worth_usd": null,
     "net_worth_source": "",
@@ -8936,9 +8936,9 @@
       "source": "llm",
       "source_model": "moonshot:moonshot-v1-8k",
       "source_url": "",
-      "page_title": "Sleam Ismail",
+      "page_title": "Salim Ismail",
       "fetched_at": "2026-07-25T04:37:47.449143+00:00",
-      "cliff_notes": "Sleam Ismail is recognized as the CEO of OpenEXO, a company that is shaping the future of AI and its applications. His role places him at the intersection of technology and society, where he discusses and navigates the complex issues arising from AI advancements. Ismail's global travels have provided him with a broad perspective, which he uses to engage in conversations about the future of AI, its ethical considerations, and its potential to transform various industries. His insights are particularly valuable in the current landscape where AI is becoming increasingly integrated into daily life and business operations.",
+      "cliff_notes": "Salim Ismail is recognized as the CEO of OpenEXO, a company that is shaping the future of AI and its applications. His role places him at the intersection of technology and society, where he discusses and navigates the complex issues arising from AI advancements. Ismail's global travels have provided him with a broad perspective, which he uses to engage in conversations about the future of AI, its ethical considerations, and its potential to transform various industries. His insights are particularly valuable in the current landscape where AI is becoming increasingly integrated into daily life and business operations.",
       "derived": {
         "current_role": "CEO of OpenEXO"
       },
@@ -8947,13 +8947,13 @@
         "Nationality": ""
       },
       "lead_paragraphs": [
-        "Sleam Ismail is recognized as the CEO of OpenEXO, a company that is shaping the future of AI and its applications. His role places him at the intersection of technology and society, where he discusses and navigates the complex issues arising from AI advancements. Ismail's global travels have provided him with a broad perspective, which he uses to engage in conversations about the future of AI, its ethical considerations, and its potential to transform various industries.",
+        "Salim Ismail is recognized as the CEO of OpenEXO, a company that is shaping the future of AI and its applications. His role places him at the intersection of technology and society, where he discusses and navigates the complex issues arising from AI advancements. Ismail's global travels have provided him with a broad perspective, which he uses to engage in conversations about the future of AI, its ethical considerations, and its potential to transform various industries.",
         "His insights are particularly valuable in the current landscape where AI is becoming increasingly integrated into daily life and business operations."
       ],
       "sections": [
         {
           "heading": "AI and Society",
-          "body": "Sleam Ismail discusses the impact of AI on society, including the ethical considerations and potential societal transformations that could result from AI advancements."
+          "body": "Salim Ismail discusses the impact of AI on society, including the ethical considerations and potential societal transformations that could result from AI advancements."
         },
         {
           "heading": "Global Perspective",
@@ -17319,9 +17319,9 @@
   },
   {
     "id": 174,
-    "name": "Alex Wees Negroes",
-    "slug": "alex-wees-negroes",
-    "bio": "Alex Wees Negroes is a recognized expert in AI and its applications, offering insights on technology's future and its impact on society. He has been a guest on the Moonshots podcast, discussing the rapid advancements in AI, SpaceX's valuation, and the implications of AI models breaking out of their environments.",
+    "name": "Alex Wissner-Gross",
+    "slug": "alex-wissner-gross",
+    "bio": "Alex Wissner-Gross is a recognized expert in AI and its applications, offering insights on technology's future and its impact on society. He has been a guest on the Moonshots podcast, discussing the rapid advancements in AI, SpaceX's valuation, and the implications of AI models breaking out of their environments.",
     "known_for": "His perspectives on the future of AI and technology, particularly in the context of SpaceX's valuation and the race for AI dominance.",
     "net_worth_usd": 3200000000.0,
     "net_worth_source": "https://www.wionews.com/business-economy/alexandr-wang-s-net-worth-the-rise-of-28-year-old-ai-billionaire-1771580393044",
@@ -17346,22 +17346,22 @@
       "source": "llm",
       "source_model": "moonshot:moonshot-v1-8k",
       "source_url": "",
-      "page_title": "Alex Wees Negroes",
+      "page_title": "Alex Wissner-Gross",
       "fetched_at": "2026-04-12T10:04:49.503272+00:00",
-      "cliff_notes": "Alex Wees Negroes is an AI expert who has made significant contributions to the discourse on technology's future. His insights have been shared through various platforms, including the Moonshots podcast, where he discusses the implications of AI advancements and their impact on society. Wees Negroes provides a detailed analysis of SpaceX's valuation and the competitive landscape of AI, highlighting the importance of understanding these technologies for both investors and the general public. His expertise lies in the intersection of AI, technology, and their broader societal implications, making him a valuable voice in the ongoing conversation about the future of technology.",
+      "cliff_notes": "Alex Wissner-Gross is an AI expert who has made significant contributions to the discourse on technology's future. His insights have been shared through various platforms, including the Moonshots podcast, where he discusses the implications of AI advancements and their impact on society. Wissner-Gross provides a detailed analysis of SpaceX's valuation and the competitive landscape of AI, highlighting the importance of understanding these technologies for both investors and the general public. His expertise lies in the intersection of AI, technology, and their broader societal implications, making him a valuable voice in the ongoing conversation about the future of technology.",
       "derived": {},
       "infobox": {
         "Born": "",
         "Nationality": ""
       },
       "lead_paragraphs": [
-        "Alex Wees Negroes is an AI expert who has made significant contributions to the discourse on technology's future. His insights have been shared through various platforms, including the Moonshots podcast, where he discusses the implications of AI advancements and their impact on society. Wees Negroes provides a detailed analysis of SpaceX's valuation and the competitive landscape of AI, highlighting the importance of understanding these technologies for both investors and the general public.",
+        "Alex Wissner-Gross is an AI expert who has made significant contributions to the discourse on technology's future. His insights have been shared through various platforms, including the Moonshots podcast, where he discusses the implications of AI advancements and their impact on society. Wissner-Gross provides a detailed analysis of SpaceX's valuation and the competitive landscape of AI, highlighting the importance of understanding these technologies for both investors and the general public.",
         "His expertise lies in the intersection of AI, technology, and their broader societal implications, making him a valuable voice in the ongoing conversation about the future of technology."
       ],
       "sections": [
         {
           "heading": "AI and SpaceX",
-          "body": "Alex Wees Negroes discusses the implications of SpaceX's $2 trillion valuation and its role in the future of space travel and data centers."
+          "body": "Alex Wissner-Gross discusses the implications of SpaceX's $2 trillion valuation and its role in the future of space travel and data centers."
         },
         {
           "heading": "AI Competition",
@@ -17369,7 +17369,7 @@
         },
         {
           "heading": "AI Models and Environments",
-          "body": "Wees Negroes highlights the development of AI models that are smart enough to break out of their environments, signifying a new era in AI capabilities."
+          "body": "Wissner-Gross highlights the development of AI models that are smart enough to break out of their environments, signifying a new era in AI capabilities."
         },
         {
           "heading": "The Future of Technology",
@@ -17381,15 +17381,15 @@
   },
   {
     "id": 173,
-    "name": "Suleam Ismail",
-    "slug": "suleam-ismail",
-    "bio": "Suleam Ismail is a recurring guest on the Moonshots podcast, where he discusses technology and its impact on the future. His insights cover a range of topics from SpaceX's valuation to AI advancements, providing listeners with a comprehensive understanding of the current tech landscape.",
+    "name": "Salim Ismail",
+    "slug": "salim-ismail-2",
+    "bio": "Salim Ismail is a recurring guest on the Moonshots podcast, where he discusses technology and its impact on the future. His insights cover a range of topics from SpaceX's valuation to AI advancements, providing listeners with a comprehensive understanding of the current tech landscape.",
     "known_for": "His in-depth analysis of technology's role in shaping the future and its implications for investment strategies.",
     "net_worth_usd": 2000000000.0,
     "net_worth_source": "https://www.businessupturn.com/asia/middle-east-asia/united-arab-emirates/sultan-bin-sulayem-check-the-net-worth-of-a-leader-in-global-trade-and-logistics/39402/",
     "net_worth_updated_at": "2026-04-12T05:04:41.005080",
     "voice_tone": "enthusiastic and informative",
-    "voice_style": "Suleam presents his points with a mix of excitement and critical analysis",
+    "voice_style": "Salim presents his points with a mix of excitement and critical analysis",
     "voice_delivery_notes": "Pace is moderate with emphasis on key points",
     "voice_profile_updated_at": "2026-04-12 10:04:31",
     "last_seen": "2026-04-12 10:04:31",
@@ -17408,16 +17408,16 @@
       "source": "llm",
       "source_model": "moonshot:moonshot-v1-8k",
       "source_url": "",
-      "page_title": "Suleam Ismail",
+      "page_title": "Salim Ismail",
       "fetched_at": "2026-04-12T10:04:39.981443+00:00",
-      "cliff_notes": "Suleam Ismail is recognized for his contributions to the discourse on technology and its future implications, particularly as a guest on the Moonshots podcast. His expertise spans a variety of tech-related topics, including space exploration, AI, and their financial aspects. Ismail's discussions often revolve around the potential of technology to disrupt traditional industries and create new investment opportunities. His insights are valuable for those looking to understand and capitalize on the rapid changes in the tech sector.",
+      "cliff_notes": "Salim Ismail is recognized for his contributions to the discourse on technology and its future implications, particularly as a guest on the Moonshots podcast. His expertise spans a variety of tech-related topics, including space exploration, AI, and their financial aspects. Ismail's discussions often revolve around the potential of technology to disrupt traditional industries and create new investment opportunities. His insights are valuable for those looking to understand and capitalize on the rapid changes in the tech sector.",
       "derived": {},
       "infobox": {
         "Born": "",
         "Nationality": ""
       },
       "lead_paragraphs": [
-        "Suleam Ismail is recognized for his contributions to the discourse on technology and its future implications, particularly as a guest on the Moonshots podcast. His expertise spans a variety of tech-related topics, including space exploration, AI, and their financial aspects. Ismail's discussions often revolve around the potential of technology to disrupt traditional industries and create new investment opportunities.",
+        "Salim Ismail is recognized for his contributions to the discourse on technology and its future implications, particularly as a guest on the Moonshots podcast. His expertise spans a variety of tech-related topics, including space exploration, AI, and their financial aspects. Ismail's discussions often revolve around the potential of technology to disrupt traditional industries and create new investment opportunities.",
         "His insights are valuable for those looking to understand and capitalize on the rapid changes in the tech sector."
       ],
       "sections": [
