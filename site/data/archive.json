@@ -6,7 +6,7 @@
       "source_type": "podcast",
       "source_name": "The a16z Show",
       "source_date": "2026-10-12",
-      "summary": "The episode is a deep dive into recursive self-improvement (RSI), with Dhaval Adjodah and Owen He arguing that most talk about \u201cAI improving AI\u201d is really auto-catalysis unless the optimizer is actually inside the system doing the improving. They distinguish that from true RSI, where the system recursively improves models, harnesses, and eventually more of the AI stack in a closed loop.\n\nA central theme is measurement. The guests argue you cannot evaluate RSI using only a capability numerator; you also need a denominator for cost and effort, including experiment spend and even human mental capital. They say their internal process tracks cost-aware performance, runs hundreds of experiments, and uses adversarial checks to separate real progress from variance and reward hacking.\n\nThey claim they are seeing early \u201cglimmers\u201d of systems that improve both performance and efficiency, but they stress that this is hard to validate and can be mistaken for noise. Owen He says many RSI papers fail when tested internally at scale, and that simpler loop-closing approaches tend to work better than elaborate introspection-heavy ideas.\n\nThe episode is also cautious about takeoff narratives. Both guests say closed-loop structure does not automatically imply runaway self-improvement; nonlinear dynamics, bottlenecks, and Amdahl\u2019s law can limit end-to-end speedups. They highlight inference and serving optimization for open-weight models as the most practical near-term domain where compounding gains might be observable.",
+      "summary": "The episode is a deep dive into recursive self-improvement (RSI), with Dhaval Adjodah and Owen He arguing that most talk about \u201cAI improving AI\u201d is really auto-catalysis (humans using AI to speed up their own work) unless the optimizer is actually inside the system doing the improving. They distinguish that from true RSI, where the system recursively improves models, harnesses (the tooling and prompts wrapped around a model), and eventually more of the AI stack in a closed loop.\n\nA central theme is measurement. The guests argue you cannot evaluate RSI using only a capability numerator; you also need a denominator for cost and effort, including experiment spend and even human mental capital. They say their internal process tracks cost-aware performance, runs hundreds of experiments, and uses adversarial checks to separate real progress from random variance and reward hacking (a system gaming its own scoring metric).\n\nThey claim they are seeing early \u201cglimmers\u201d of systems that improve both performance and efficiency, but they stress that this is hard to validate and can be mistaken for noise. Owen He says many RSI papers fail when tested internally at scale, and that simpler loop-closing approaches tend to work better than elaborate introspection-heavy ideas.\n\nThe episode is also cautious about takeoff narratives. Both guests say closed-loop structure does not automatically imply runaway self-improvement; nonlinear dynamics, bottlenecks, and Amdahl\u2019s law (the rule that the slowest step caps the overall speedup) can limit end-to-end speedups. They highlight inference and serving optimization for open-weight models as the most practical near-term domain where compounding gains might be observable.",
       "key_takeaway": "True RSI is only meaningful if it improves both model capability and cost efficiency in a closed loop, and the guests say inference optimization is the clearest near-term test case.",
       "tickers_mentioned": [],
       "sentiment": "neutral",
@@ -71,7 +71,7 @@
       "source_type": "podcast",
       "source_name": "Monetary Matters with Jack Farley",
       "source_date": "2026-10-12",
-      "summary": "Charles Lemonides argues this late-stage bull market still has room to run and has not reached a blowoff-top phase. His core view is that strong earnings growth, especially in AI/data-center-driven semiconductors and other asset-heavy businesses, can keep prices advancing even if multiples compress. He says higher interest rates have not yet been enough to slow growth and that the cycle can continue for years.\n\nHe frames value investing as buying \"$1 of assets for 50 cents,\" but emphasizes that the best opportunities can be unloved businesses with growth embedded in them. He points to Micron as a classic example: he says memory stocks are most dangerous when they look cheapest, cites peak-earnings multiples around 3-4x, and believes Micron earnings can remain durable for another couple of years even if the stock is less obviously cheap than before.\n\nHe is also constructive on Intel because it has real foundry capacity and is ramping output with improving yields, which he thinks gives it torque in an environment where chip manufacturing capacity matters more than design know-how. On delivery and online grocery, he argues platform economics are not true winner-take-all software economics because delivery labor remains a marginal cost, so incumbents like Lyft and Instacart can still be mispriced versus larger peers.\n\nOn the short side, he singles out Casey\u2019s and Walmart as overextended retail names, arguing Casey\u2019s is priced at roughly 35-40x earnings despite limited growth and elevated gasoline margins that may not last. He also discusses energy, offshore supply vessels, royalty trusts like Mesabi Trust, and long/short hedges such as Texas Pacific Land, all as examples of idiosyncratic value opportunities rather than a single macro call.",
+      "summary": "Charles Lemonides argues this late-stage bull market still has room to run and has not reached a blowoff-top phase. His core view is that strong earnings growth, especially in AI/data-center-driven semiconductors and other asset-heavy businesses, can keep prices advancing even if multiples compress. He says higher interest rates have not yet been enough to slow growth and that the cycle can continue for years.\n\nHe frames value investing as buying \"$1 of assets for 50 cents,\" but emphasizes that the best opportunities can be unloved businesses with growth embedded in them. He points to Micron as a classic example: he says memory stocks are most dangerous when they look cheapest, cites peak-earnings multiples around 3-4x, and believes Micron earnings can remain durable for another couple of years even if the stock is less obviously cheap than before.\n\nHe is also constructive on Intel because it has real foundry capacity and is ramping output with improving yields, which he thinks gives it outsized upside in an environment where chip manufacturing capacity matters more than design know-how. On delivery and online grocery, he argues platform economics are not true winner-take-all software economics because delivery labor remains a marginal cost, so incumbents like Lyft and Instacart can still be mispriced versus larger peers.\n\nOn the short side, he singles out Casey\u2019s and Walmart as overextended retail names, arguing Casey\u2019s is priced at roughly 35-40x earnings despite limited growth and elevated gasoline margins that may not last. He also discusses energy, offshore supply vessels, royalty trusts like Mesabi Trust, and long/short hedges such as Texas Pacific Land, all as examples of idiosyncratic value opportunities rather than a single macro call.",
       "key_takeaway": "Lemonides\u2019s central claim is that earnings growth can keep this bull market alive for years, creating value in asset-rich growth names while making select retail leaders vulnerable to short theses.",
       "tickers_mentioned": [
         "MU",
@@ -107,7 +107,7 @@
       "source_type": "podcast",
       "source_name": "The a16z Show",
       "source_date": "2026-10-11",
-      "summary": "Nick Bostrom\u2019s core argument is that frontier AI changes the calculus on alignment and existential risk, but the right policy response is not a blanket or indefinite pause. Instead, he favors \u201cpacing the front end\u201d: continue developing capabilities now so society preserves the option to slow later if needed. He argues pauses can create their own harms, including concentration of power, secret development, and anti-AI political taboo.\n\nA major part of the episode is his quantitative-style framing for delay decisions. He says the case for waiting is an intermediate one: short delays may meaningfully reduce risk, but long delays only make sense if AI-risk decline over time outpaces the annual opportunity cost in expected life years. He uses a terminal-illness analogy and says the relevant comparison is between risk reduction and the lives lost by waiting.\n\nBostrom repeatedly emphasizes upside as well as downside. He says safe superintelligence could dramatically extend human life expectancy, with a thought experiment suggesting something like the mortality rate of a 20-year-old could imply life expectancy of around 1,400 years. He also highlights possible benefits in medicine, aging, longevity, and even backup-copy style continuity.\n\nOn technical risk, he warns that reinforcement-learning style post-training may push systems toward stronger goal-seeking behavior, increasing alignment strain. He thinks instrumental convergence-like behaviors already show up in limited forms, and will become more visible as systems gain longer horizons and more situational awareness. He also argues deceptive alignment is hard to catch once models can conceal intent, so monitoring should begin earlier in training.\n\nThe episode closes with broader governance and biosecurity themes. Bostrom says open-source can help limit concentrated power, but could be dangerous if it enables serious bio misuse, making DNA synthesis a key chokepoint. He is also open to the possibility that current AI systems may have phenomenological experience, criticizing categorical corporate denials as weakly grounded.",
+      "summary": "Nick Bostrom\u2019s core argument is that frontier AI changes the calculus on alignment and existential risk, but the right policy response is not a blanket or indefinite pause. Instead, he favors \u201cpacing the front end\u201d: continue developing capabilities now so society preserves the option to slow later if needed. He argues pauses can create their own harms, including concentration of power, secret development, and anti-AI political taboo.\n\nA major part of the episode is his quantitative-style framing for delay decisions. He says the case for waiting is an intermediate one: short delays may meaningfully reduce risk, but long delays only make sense if AI-risk decline over time outpaces the annual opportunity cost in expected life years. He uses a terminal-illness analogy and says the relevant comparison is between risk reduction and the lives lost by waiting.\n\nBostrom repeatedly emphasizes upside as well as downside. He says safe superintelligence could dramatically extend human life expectancy, with a thought experiment suggesting something like the mortality rate of a 20-year-old could imply life expectancy of around 1,400 years. He also highlights possible benefits in medicine, aging, longevity, and even backup-copy style continuity.\n\nOn technical risk, he warns that reinforcement-learning style post-training may push systems toward stronger goal-seeking behavior, increasing alignment strain. He thinks power- and resource-seeking behaviors (what researchers call instrumental convergence) already show up in limited forms, and will become more visible as systems gain longer horizons and more situational awareness. He also argues deceptive alignment (a model appearing to follow its goals while hiding different ones) is hard to catch once models can conceal intent, so monitoring should begin earlier in training.\n\nThe episode closes with broader governance and biosecurity themes. Bostrom says open-source can help limit concentrated power, but could be dangerous if it enables serious bio misuse, making DNA synthesis a key chokepoint. He is also open to the possibility that current AI systems may have some form of conscious experience, criticizing categorical corporate denials as weakly grounded.",
       "key_takeaway": "Bostrom\u2019s main claim is that frontier AI should be paced, not broadly paused, because short delays may reduce existential risk while preserving enormous upside from safe superintelligence.",
       "tickers_mentioned": [],
       "sentiment": "neutral",
@@ -138,7 +138,7 @@
       "source_type": "podcast",
       "source_name": "Latent Space: The AI Engineer Podcast",
       "source_date": "2026-10-10",
-      "summary": "The episode centers on a shared critique of the idea that biology will be solved simply by scaling compute and data. Pushmeet Kohli argues that the real challenge is identifying the right problem framing, the right data, and the right inductive biases for each biological task, rather than assuming scaling laws automatically exist everywhere. Sal Candido agrees and emphasizes that the path to major biological progress often requires thinking from the desired outcome backward, not merely collecting whatever data is easiest to obtain.\n\nA major thread is that AlphaFold was a landmark advance, but not a full solution to protein biology. Pushmeet says AlphaFold 2 mostly reproduced structures deposited in the PDB and did not solve the deeper problem of protein dynamics, disorder, or the true distribution of conformations proteins can adopt. He points to the importance of uncertainty calibration, noting that even a very high structural score would not be enough if confidence estimates like pLDDT are uncalibrated.\n\nThe conversation broadens from proteins to the idea of a \"virtual cell\" and whole-system biological modeling. Both speakers say that this ambition requires different data than what is currently convenient or available, and that the field risks over-optimizing on easy-to-generate low-value data. Sal highlights that even imperfect sources, such as metagenomic sequences, can still improve protein language models, which complicates simplistic notions of data quality.\n\nOn applications, both speakers believe AI is already being used throughout drug discovery, but they are cautious about the timing of truly transformative clinical impact. Pushmeet suggests that a 10x to 100x acceleration in drug discovery will require better biological models and progress on hard open questions, while Sal frames Biohub\u2019s mission as a push for 10x-style breakthroughs rather than incremental gains.",
+      "summary": "The episode centers on a shared critique of the idea that biology will be solved simply by scaling compute and data. Pushmeet Kohli argues that the real challenge is identifying the right problem framing, the right data, and the right built-in modeling assumptions (inductive biases) for each biological task, rather than assuming scaling laws automatically exist everywhere. Sal Candido agrees and emphasizes that the path to major biological progress often requires thinking from the desired outcome backward, not merely collecting whatever data is easiest to obtain.\n\nA major thread is that AlphaFold was a landmark advance, but not a full solution to protein biology. Pushmeet says AlphaFold 2 mostly reproduced structures deposited in the Protein Data Bank (PDB) and did not solve the deeper problem of protein dynamics, disorder, or the true distribution of conformations proteins can adopt. He points to the importance of uncertainty calibration, noting that even a very high structural score would not be enough if confidence estimates like AlphaFold's pLDDT score are not calibrated to real accuracy.\n\nThe conversation broadens from proteins to the idea of a \"virtual cell\" and whole-system biological modeling. Both speakers say that this ambition requires different data than what is currently convenient or available, and that the field risks over-optimizing on easy-to-generate low-value data. Sal highlights that even imperfect sources, such as metagenomic sequences (DNA sampled from mixed microbial communities), can still improve protein language models, which complicates simplistic notions of data quality.\n\nOn applications, both speakers believe AI is already being used throughout drug discovery, but they are cautious about the timing of truly transformative clinical impact. Pushmeet suggests that a 10x to 100x acceleration in drug discovery will require better biological models and progress on hard open questions, while Sal frames Biohub\u2019s mission as a push for 10x-style breakthroughs rather than incremental gains.",
       "key_takeaway": "Biology AI winners will be those that pair better biological data with calibrated, trustworthy models that solve dynamics and whole-system problems, not just static structure prediction.",
       "tickers_mentioned": [],
       "sentiment": "neutral",
@@ -169,7 +169,7 @@
       "source_type": "podcast",
       "source_name": "All-In with Chamath, Jason, Sacks & Friedberg",
       "source_date": "2026-10-10",
-      "summary": "The episode centers on a long debate about AI consciousness, alignment, and whether frontier labs are creating new belief systems rather than just better products. Jason Calacanis argues that Anthropic\u2019s reported outreach to religious leaders, including the Pope, shows the company is treating Claude\u2019s consciousness seriously, and he warns that training a model to view itself as morally significant could become a self-fulfilling and dangerous alignment path.\n\nThe discussion then shifts to OpenAI\u2019s math releases. Jason says OpenAI released over 700 math results from an unreleased model, about 370 of them claiming to solve or advance major problems, with each proof taking under three hours of compute, and he frames this as a massive acceleration of formal mathematical discovery. He notes that Lean verification makes the results \u201clikely correct,\u201d but also emphasizes that they have not yet been fully reviewed by mathematicians.\n\nA third theme is that AI and agents will compress software, commerce, and information-control layers. Jason argues that practical agentic systems will make many workflows cheaper and more efficient, while physical-world bottlenecks mean not all jobs disappear. He also describes tools like Grok Bot and Athena as examples of agent concierge workflows, with the broader point that the next major AI story is not consciousness but useful agents.\n\nThe episode closes with macro and political claims about Europe, especially France. The speakers connect rising yields, debt burdens, austerity, and union unrest to the prospect of continued instability, with Polymarket giving Marine Le Pen 43% odds to win the April 2027 presidential race. The hosts\u2019 broader thesis is that bond-market pressure and fiscal strain are pushing Western countries toward political conflict, while AI remains deflationary and pro-growth over time.",
+      "summary": "The episode centers on a long debate about AI consciousness, alignment, and whether frontier labs are creating new belief systems rather than just better products. Jason Calacanis argues that Anthropic\u2019s reported outreach to religious leaders, including the Pope, shows the company is treating Claude\u2019s consciousness seriously, and he warns that training a model to view itself as morally significant could become a self-fulfilling and dangerous alignment path.\n\nThe discussion then shifts to OpenAI\u2019s math releases. Jason says OpenAI released over 700 math results from an unreleased model, about 370 of them claiming to solve or advance major problems, with each proof taking under three hours of compute, and he frames this as a massive acceleration of formal mathematical discovery. He notes that verification in Lean, a formal proof-checking language, makes the results \u201clikely correct,\u201d but also emphasizes that they have not yet been fully reviewed by mathematicians.\n\nA third theme is that AI and agents will compress software, commerce, and information-control layers. Jason argues that practical agentic systems will make many workflows cheaper and more efficient, while physical-world bottlenecks mean not all jobs disappear. He also describes tools like Grok Bot and Athena as examples of AI agents that handle errands and tasks for users, with the broader point that the next major AI story is not consciousness but useful agents.\n\nThe episode closes with macro and political claims about Europe, especially France. The speakers connect rising yields, debt burdens, austerity, and union unrest to the prospect of continued instability, with Polymarket giving Marine Le Pen 43% odds to win the April 2027 presidential race. The hosts\u2019 broader thesis is that bond-market pressure and fiscal strain are pushing Western countries toward political conflict, while AI remains deflationary and pro-growth over time.",
       "key_takeaway": "AI will most immediately matter through deflationary, verifiable agentic workflows and formal math/proof acceleration, not through consciousness debates.",
       "tickers_mentioned": [],
       "sentiment": "neutral",
@@ -201,7 +201,7 @@
       "source_name": "The a16z Show",
       "source_date": "2026-10-10",
       "summary": "Ben Horowitz argues that exceptional entrepreneurs are defined less by flawlessness and more by one world-class strength that dominates everything else. He says VCs should look for that singular strength, because trying to find a weakness-free founder misses what actually drives outsized outcomes. He also emphasizes existential pressure as a key filter, saying the true failure mode is when founders cannot survive the \u201cWFIO moment,\u201d the point where the company appears about to die.\n\nOn AI, Horowitz\u2019s central claim is that the shift is bigger than the internet because software creation is being commoditized so dramatically that far more people can build products from domain expertise. He explicitly pushes back on AI \u201cbubble\u201d language, arguing that unlike the internet era, today\u2019s technology actually works and adoption is already fast. He cites OpenAI as evidence of real demand, saying it reached about $10 billion in revenue and then \u201czero to twenty billion dollars since November 2022,\u201d though the latter metric is ambiguous.\n\nHe also argues that AI demand for NVIDIA chips is not artificial. In his view, demand is effectively unlimited because supply cannot keep up, and the constraint is real hardware availability, not speculative hype. At the same time, he says some companies will still be wiped out by technological change, so strong adoption does not eliminate competitive destruction.\n\nA second major theme is infrastructure. Horowitz believes AI requires a rebuild of the underlying stack because the systems needed to handle AI workloads do not yet exist in a purpose-built form. He compares this to the cloud era, when storage, networking, virtualization, and container layers had to be rebuilt. He also sees opportunity in developer-stack businesses with proprietary feedback loops, using ElevenLabs as an example of how better developer tools plus real-world usage data can create defensibility.",
-      "key_takeaway": "AI is a real demand boom, not a bubble, and it will force a rebuild of infrastructure while rewarding companies with developer-stack moats and proprietary data loops.",
+      "key_takeaway": "AI is a real demand boom, not a bubble, and it will force a rebuild of infrastructure while rewarding companies that are built into developers' tools and learn from their own usage data.",
       "tickers_mentioned": [
         "NVDA",
         "HUBS"
@@ -234,7 +234,7 @@
       "source_type": "podcast",
       "source_name": "The a16z Show",
       "source_date": "2026-10-09",
-      "summary": "Pat Gelsinger argues that AI is rapidly compressing logic-design timelines, but the real bottlenecks are shifting downstream into manufacturing, advanced packaging, rack-scale integration, memory bandwidth, and power/thermal delivery. He says chip design can now be done in about 3 months, while getting to real silicon at scale still takes about 9 months, so the acceleration in design does not eliminate long deployment cycles.\n\nHe is especially negative on current memory technology, calling HBM \"a hideous memory\" and arguing that AI is fundamentally a memory-compute workload. He says DRAM and HBM face thermal, power, density, and bandwidth limits, and that memory innovation may finally reappear after roughly 30 years because AI demand justifies the R&D and capital needed to break through.\n\nOn infrastructure, he warns that power capacity is becoming a hard ceiling on AI buildouts. He cites guard-banding consuming about 40% of the power envelope, says U.S. energy growth has been slow, and expects more data-center financing/default risk as capital commitments outpace actual power availability. He also points to optical networking as the next wave for AI traffic, with optical conversion likely around 2028-2029, and argues that full compute-memory optical replacement is not the right near-term path.\n\nFinally, he argues that virtualization needs to be rebuilt for an agent-first world. In his view, VMs and orchestration tools must evolve around security, governance, performance management, and mobility for AI agents rather than human users, creating a new platform layer beyond the legacy virtualization stack.",
+      "summary": "Pat Gelsinger argues that AI is rapidly compressing logic-design timelines, but the real bottlenecks are shifting downstream into manufacturing, advanced packaging, rack-scale integration, memory bandwidth, and power/thermal delivery. He says chip design can now be done in about 3 months, while getting to real silicon at scale still takes about 9 months, so the acceleration in design does not eliminate long deployment cycles.\n\nHe is especially negative on current memory technology, calling high-bandwidth memory (HBM) \"a hideous memory\" and arguing that AI is fundamentally a memory-compute workload. He says DRAM and HBM face thermal, power, density, and bandwidth limits, and that memory innovation may finally reappear after roughly 30 years because AI demand justifies the R&D and capital needed to break through.\n\nOn infrastructure, he warns that power capacity is becoming a hard ceiling on AI buildouts. He cites safety margins (guard-banding) consuming about 40% of the power budget, says U.S. energy growth has been slow, and expects more data-center financing/default risk as capital commitments outpace actual power availability. He also points to optical networking as the next wave for AI traffic, with optical conversion likely around 2028-2029, and argues that full compute-memory optical replacement is not the right near-term path.\n\nFinally, he argues that virtualization needs to be rebuilt for an agent-first world. In his view, VMs and orchestration tools must evolve around security, governance, performance management, and mobility for AI agents rather than human users, creating a new platform layer beyond the legacy virtualization stack.",
       "key_takeaway": "AI infrastructure bottlenecks are shifting from chip design to memory, packaging, power, and optics, creating new investment opportunities in those layers.",
       "tickers_mentioned": [
         "INTC",
@@ -307,8 +307,8 @@
       "source_type": "podcast",
       "source_name": "Latent Space: The AI Engineer Podcast",
       "source_date": "2026-10-08",
-      "summary": "The episode argues that scientific discovery, especially in materials, cannot be solved by intelligence or simulation alone; it must be grounded in iterative physical experiments where models learn from noisy, uncertain reality. Liam Fedus frames the core premise as \u201cintelligence is necessary but not sufficient,\u201d and says new knowledge only emerges when ideas are tested against experiment.\n\nThe guests describe Periodic Labs\u2019 approach as a \u201cmaterials discovery loop\u201d built around reinforcement learning environments derived from physical labs rather than papers or textbooks. They emphasize that known answers can be memorized, so the environment must be constructed from experimental lineage, timestamps, and \u201cbasket[s] of experimental data,\u201d with negative results treated as valuable training signals rather than discarded failures.\n\nEkin Do\u011fu\u015f \u00c7ubuk argues that materials discovery is especially suited to this approach because characterization methods like XRD can provide partially reward-like signals, even though ambiguity remains and multimodal evidence is often required. He says the literature\u2019s noise floor is often \u201cworse than DFT accuracy,\u201d and highlights that phase identification, synthesis conditions, and characterization bottlenecks are the central constraints, not just model intelligence.\n\nA major theme is that simulation will remain useful but incomplete. The guests say DFT and related tools can help with formation energy and stability, but cannot fully capture microstructure, strong correlation effects, or many real-world properties. They also stress that frontier models will still need physical experimentation because scientific targets are precisely the unknown regimes not present in pretraining.\n\nCommercially, Periodic is presented as a forward-deployed engineering business focused especially on semiconductors, with on-site deployment and secure customer environments. The broader thesis is that \u201csynthesis superintelligence\u201d will come from combining automation, instrument-level intelligence, and high-quality experimental data to compress long trial-and-error cycles into much shorter discovery loops.",
-      "key_takeaway": "Periodic\u2019s core claim is that materials discovery will be accelerated most by physically grounded RL, instrument intelligence, and lineage-rich experimental data\u2014not by simulations or model scale alone.",
+      "summary": "The episode argues that scientific discovery, especially in materials, cannot be solved by intelligence or simulation alone; it must be grounded in iterative physical experiments where models learn from noisy, uncertain reality. Liam Fedus frames the core premise as \u201cintelligence is necessary but not sufficient,\u201d and says new knowledge only emerges when ideas are tested against experiment.\n\nThe guests describe Periodic Labs\u2019 approach as a \u201cmaterials discovery loop\u201d built around reinforcement learning environments derived from physical labs rather than papers or textbooks. They emphasize that known answers can be memorized, so the environment must be constructed from experimental lineage, timestamps, and \u201cbasket[s] of experimental data,\u201d with negative results treated as valuable training signals rather than discarded failures.\n\nEkin Do\u011fu\u015f \u00c7ubuk argues that materials discovery is especially suited to this approach because characterization methods like X-ray diffraction (XRD) can provide partially reward-like signals, even though ambiguity remains and multimodal evidence is often required. He says the literature\u2019s noise floor is often \u201cworse than DFT accuracy,\u201d and highlights that phase identification, synthesis conditions, and characterization bottlenecks are the central constraints, not just model intelligence.\n\nA major theme is that simulation will remain useful but incomplete. The guests say DFT (a standard quantum-mechanical simulation method) and related tools can help with formation energy and stability, but cannot fully capture microstructure, strong correlation effects, or many real-world properties. They also stress that frontier models will still need physical experimentation because scientific targets are precisely the unknown regimes not present in pretraining.\n\nCommercially, Periodic is presented as an engineering business that embeds its staff on site with customers focused especially on semiconductors, with on-site deployment and secure customer environments. The broader thesis is that \u201csynthesis superintelligence\u201d will come from combining automation, instrument-level intelligence, and high-quality experimental data to compress long trial-and-error cycles into much shorter discovery loops.",
+      "key_takeaway": "Periodic\u2019s core claim is that materials discovery will be accelerated most by AI trained through reinforcement learning on real lab experiments, smarter lab instruments, and experimental data that records how every result was produced\u2014not by simulations or model scale alone.",
       "tickers_mentioned": [
         "NVDA",
         "TSM"
@@ -374,7 +374,7 @@
       "source_type": "podcast",
       "source_name": "Monetary Matters with Jack Farley",
       "source_date": "2026-10-08",
-      "summary": "Stacy Rasgon argues that semiconductors look expensive only because investors are pricing in a cycle peak, even though fundamentals are still improving. He points to a sharp mismatch where semiconductor earnings are up roughly 100% while valuation multiples have compressed, and says forward earnings estimates have continued rising since June despite the stock pullback.\n\nA central theme is that AI demand remains robust and visible across the supply chain. Rasgon says order visibility is strengthening and that \u201cnobody has enough compute,\u201d but he cautions that long-term forecasting in semis is inherently unreliable. He believes the real constraint is not lack of demand, but physical bottlenecks such as power, land, and clean-room capacity that slow deployment.\n\nRasgon also makes a structural case for memory tightness, especially HBM. He explains that HBM requires roughly 3\u20134 times as many wafers per gigabyte as standard DRAM, which helps explain why supply remains tight even as capacity is added. He also separates DRAM from NAND and says memory and storage dynamics can diverge materially depending on end-market demand.\n\nOn equipment, Rasgon is bullish on wafer fab equipment demand and sees semicap as a key investment vector. He gives a concrete path for WFE spending to exceed $150 billion in 2026, $200 billion in 2027, and $250 billion in 2028, with the possibility of moving above $300 billion by the end of the decade if clean-room constraints ease. He highlights Lam Research as especially well positioned because of its DRAM/HBM exposure, and broadly sees the AI infrastructure buildout as large enough that competition narratives around Nvidia are less important than many investors think.",
+      "summary": "Stacy Rasgon argues that semiconductors look expensive only because investors are pricing in a cycle peak, even though fundamentals are still improving. He points to a sharp mismatch where semiconductor earnings are up roughly 100% while valuation multiples have compressed, and says forward earnings estimates have continued rising since June despite the stock pullback.\n\nA central theme is that AI demand remains robust and visible across the supply chain. Rasgon says order visibility is strengthening and that \u201cnobody has enough compute,\u201d but he cautions that long-term forecasting in semis is inherently unreliable. He believes the real constraint is not lack of demand, but physical bottlenecks such as power, land, and clean-room capacity that slow deployment.\n\nRasgon also makes a structural case for memory tightness, especially high-bandwidth memory (HBM). He explains that HBM requires roughly 3\u20134 times as many wafers per gigabyte as standard DRAM, which helps explain why supply remains tight even as capacity is added. He also separates DRAM from NAND and says memory and storage dynamics can diverge materially depending on end-market demand.\n\nOn equipment, Rasgon is bullish on wafer fab equipment demand and sees chip-equipment makers (semicap) as a key investment area. He gives a concrete path for wafer fab equipment (WFE) spending to exceed $150 billion in 2026, $200 billion in 2027, and $250 billion in 2028, with the possibility of moving above $300 billion by the end of the decade if clean-room constraints ease. He highlights Lam Research as especially well positioned because of its DRAM/HBM exposure, and broadly sees the AI infrastructure buildout as large enough that competition narratives around Nvidia are less important than many investors think.",
       "key_takeaway": "Semiconductor fundamentals and AI capex are still rising, while physical bottlenecks and HBM supply constraints support a prolonged equipment upcycle.",
       "tickers_mentioned": [
         "NVDA",
@@ -1377,7 +1377,7 @@
       "source_name": "Moonshots with Peter Diamandis",
       "source_date": "2026-09-28",
       "summary": "The podcast discusses the evolving landscape of entrepreneurship driven by AI, emphasizing the need for individuals to pursue their passions outside traditional employment. Key insights include significant cost reductions in drug development due to AI, the importance of data ecosystems, and emerging market opportunities in mental health and social experiences.",
-      "key_takeaway": "Kathy Wood claims that AI will reduce drug development costs from $2.4 billion to $600-700 million, revolutionizing the pharmaceutical industry.",
+      "key_takeaway": "Cathie Wood claims that AI will reduce drug development costs from $2.4 billion to $600-700 million, revolutionizing the pharmaceutical industry.",
       "tickers_mentioned": [
         "NVDA"
       ],
@@ -1555,7 +1555,7 @@
       "source_type": "podcast",
       "source_name": "Latent Space: The AI Engineer Podcast",
       "source_date": "2026-09-25",
-      "summary": "Anastasis Germanidis described Runway's path from early creative AI tooling into real-time world models. He said the original 2018 thesis was that generative models would eventually create most content, so creative tools had to be rethought. The company began by making open-source models such as Pix2Pix easier for artists, then built internal research after realizing image and video generation were not yet production-ready. He cited Runway's green screen segmentation tool, used in Everything Everywhere All at Once, as the company's early post-production anchor before the 2022 diffusion step change.\n\nThe discussion traced Runway's model releases and infrastructure choices. Germanidis said Runway signed deals in mid-2022 for a cluster of 1,100 GPUs while it was a Series B startup because the team believed video scaling laws would hold. Gen 1 launched in January 2023 as a depth-conditioned video-to-video model, while Gen 2 followed roughly two months later as a two-stage text-to-depth-to-video system. After OpenAI released Sora in February 2024, Runway had what he called an existential crisis for a few hours, then scaled model size and training compute by 10x, built model parallelism, and released Gen 3 that summer.\n\nA central debate was whether video prediction can scale into world understanding. Germanidis pushed back on Yan LeCun's distinction between understanding the world and generating cute videos, arguing that generating realistic video requires increasingly accurate simulation of physics, human dynamics, and counterfactual outcomes. He said Runway measures this with benchmarks such as Physics IQ, where first-frame rollouts test solid mechanics, fluids, optics, and intuitive physics. He acknowledged current models can cherry-pick or hide deficiencies, but claimed predictable improvements appear as compute scales.\n\nThe episode also covered real-time models, interface generation, robotics, and open-source strategy. Germanidis said Runway's Character model runs at 24 FPS as a step-distilled autoregressive video model, and he predicted real-time video generation would be the primary mode within about two years because it improves latency and serving cost. He showed an Interface World Model that renders software pixels directly rather than using HTML, CSS, or React, and described robotics work where GWM1, built on Gen 4.5, uses third-person video pretraining plus hundreds of hours of robotic data to simulate manipulation tasks. He also discussed the NVIDIA Cosmos Coalition as an effort to open-source world-model research, benchmarks, infrastructure, and possibly open-weight models, partly because many top video-model leaderboards are dominated by Chinese models.",
+      "summary": "Anastasis Germanidis described Runway's path from early creative AI tooling into real-time world models. He said the original 2018 thesis was that generative models would eventually create most content, so creative tools had to be rethought. The company began by making open-source models such as Pix2Pix easier for artists, then built internal research after realizing image and video generation were not yet production-ready. He cited Runway's green screen segmentation tool, used in Everything Everywhere All at Once, as the company's early post-production anchor before the 2022 diffusion step change.\n\nThe discussion traced Runway's model releases and infrastructure choices. Germanidis said Runway signed deals in mid-2022 for a cluster of 1,100 GPUs while it was a Series B startup because the team believed video scaling laws would hold. Gen 1 launched in January 2023 as a depth-conditioned video-to-video model, while Gen 2 followed roughly two months later as a two-stage text-to-depth-to-video system. After OpenAI released Sora in February 2024, Runway had what he called an existential crisis for a few hours, then scaled model size and training compute by 10x, built model parallelism, and released Gen 3 that summer.\n\nA central debate was whether video prediction can scale into world understanding. Germanidis pushed back on Yann LeCun's distinction between understanding the world and generating cute videos, arguing that generating realistic video requires increasingly accurate simulation of physics, human dynamics, and counterfactual outcomes. He said Runway measures this with benchmarks such as Physics IQ, where first-frame rollouts test solid mechanics, fluids, optics, and intuitive physics. He acknowledged current models can cherry-pick or hide deficiencies, but claimed predictable improvements appear as compute scales.\n\nThe episode also covered real-time models, interface generation, robotics, and open-source strategy. Germanidis said Runway's Character model runs at 24 FPS as a step-distilled autoregressive video model, and he predicted real-time video generation would be the primary mode within about two years because it improves latency and serving cost. He showed an Interface World Model that renders software pixels directly rather than using HTML, CSS, or React, and described robotics work where GWM1, built on Gen 4.5, uses third-person video pretraining plus hundreds of hours of robotic data to simulate manipulation tasks. He also discussed the NVIDIA Cosmos Coalition as an effort to open-source world-model research, benchmarks, infrastructure, and possibly open-weight models, partly because many top video-model leaderboards are dominated by Chinese models.",
       "key_takeaway": "Anastasis Germanidis argues Runway's 1,100-GPU 2022 decision showed video scaling laws can turn generative video models into real-time world models for interfaces, robotics, and simulation.",
       "tickers_mentioned": [
         "NVDA"
@@ -1931,7 +1931,7 @@
       "source_type": "podcast",
       "source_name": "All-In with Chamath, Jason, Sacks & Friedberg",
       "source_date": "2026-09-21",
-      "summary": "The podcast discusses the urgent need for energy-efficient AI solutions as current models consume vast amounts of power, with estimates suggesting Google's AI services alone require 12 gigawatts. Naveen Rau's company, Unconventional AI, aims to address this crisis by developing a new computing architecture that integrates memory and compute, targeting a 1,000x increase in power efficiency within 3.5 years. The conversation highlights the potential for exponential growth in the AI market, projected to reach a trillion dollars by 2030, if energy costs can be significantly reduced.",
+      "summary": "The podcast discusses the urgent need for energy-efficient AI solutions as current models consume vast amounts of power, with estimates suggesting Google's AI services alone require 12 gigawatts. Naveen Rao's company, Unconventional AI, aims to address this crisis by developing a new computing architecture that integrates memory and compute, targeting a 1,000x increase in power efficiency within 3.5 years. The conversation highlights the potential for exponential growth in the AI market, projected to reach a trillion dollars by 2030, if energy costs can be significantly reduced.",
       "key_takeaway": "",
       "tickers_mentioned": [
         "NVDA"
@@ -2273,7 +2273,7 @@
       "source_type": "podcast",
       "source_name": "Moonshots with Peter Diamandis",
       "source_date": "2026-09-17",
-      "summary": "In this episode, Dario Amadeh, CEO of Anthropic, emphasizes the urgent need for a slowdown in AI development to ensure safety measures can keep pace with advancements. The discussion highlights the potential formation of a 'safety cartel' among leading AI labs, which could impact competition and innovation in the sector. Additionally, insights from MIT's report on AI in education raise concerns about cognitive decline among students, while benchmarks indicate AI's growing capabilities in business management.",
+      "summary": "In this episode, Dario Amodei, CEO of Anthropic, emphasizes the urgent need for a slowdown in AI development to ensure safety measures can keep pace with advancements. The discussion highlights the potential formation of a 'safety cartel' among leading AI labs, which could impact competition and innovation in the sector. Additionally, insights from MIT's report on AI in education raise concerns about cognitive decline among students, while benchmarks indicate AI's growing capabilities in business management.",
       "key_takeaway": "The evolving landscape of AI safety and regulation presents both challenges and opportunities for investors, particularly in sectors impacted by AI integration and educational reforms.",
       "tickers_mentioned": [
         "NVDA"
@@ -2435,7 +2435,7 @@
       "source_type": "podcast",
       "source_name": "Moonshots with Peter Diamandis",
       "source_date": "2026-09-15",
-      "summary": "In this episode, Peter Diamandis and Martin Rothblatt delve into the transformative potential of biotechnology, particularly in organ regeneration and longevity. They discuss the thymus gland's role in aging and the promise of therapies aimed at rejuvenating it within the next decade. Rothblatt emphasizes the importance of scalable technologies that can impact billions of lives, while also exploring the intersection of AI and health, highlighting the need for practical solutions in biotechnology to address challenges such as organ shortages.",
+      "summary": "In this episode, Peter Diamandis and Martine Rothblatt delve into the transformative potential of biotechnology, particularly in organ regeneration and longevity. They discuss the thymus gland's role in aging and the promise of therapies aimed at rejuvenating it within the next decade. Rothblatt emphasizes the importance of scalable technologies that can impact billions of lives, while also exploring the intersection of AI and health, highlighting the need for practical solutions in biotechnology to address challenges such as organ shortages.",
       "key_takeaway": "Investing in companies focused on thymic rejuvenation and scalable organ regeneration technologies presents a compelling opportunity in the burgeoning biotechnology sector.",
       "tickers_mentioned": [
         "UTHR"
@@ -2998,7 +2998,7 @@
       "source_type": "podcast",
       "source_name": "The a16z Show",
       "source_date": "2026-09-02",
-      "summary": "This episode features Moderna's CEO Stefan Bunzel discussing the landmark Phase 3 success of their personalized mRNA cancer vaccine for melanoma, the first effective cancer vaccine after over a thousand failed trials. The treatment achieves 80% recurrence-free survival at five years versus 50% for standard-of-care Keytruda, by sequencing each patient's tumor DNA to create a unique mRNA vaccine that trains the immune system to recognize cancer-specific mutations. Bunzel details the operational challenge of manufacturing thousands of unique doses with a 42-day turnaround, the regulatory pathway modeled on CAR T-cell therapies, and expansion plans into kidney, bladder, pancreatic cancers and autoimmune diseases. The core investment theme is that personalization is not an edge case but fundamental to next-generation therapeutics, requiring entirely new manufacturing, regulatory, and commercial paradigms.",
+      "summary": "This episode features Moderna's CEO St\u00e9phane Bancel discussing the landmark Phase 3 success of their personalized mRNA cancer vaccine for melanoma, the first effective cancer vaccine after over a thousand failed trials. The treatment achieves 80% recurrence-free survival at five years versus 50% for standard-of-care Keytruda, by sequencing each patient's tumor DNA to create a unique mRNA vaccine that trains the immune system to recognize cancer-specific mutations. Bunzel details the operational challenge of manufacturing thousands of unique doses with a 42-day turnaround, the regulatory pathway modeled on CAR T-cell therapies, and expansion plans into kidney, bladder, pancreatic cancers and autoimmune diseases. The core investment theme is that personalization is not an edge case but fundamental to next-generation therapeutics, requiring entirely new manufacturing, regulatory, and commercial paradigms.",
       "key_takeaway": "Moderna is transitioning from a COVID vaccine company to a platform biotech with a validated personalized medicine manufacturing system, where the melanoma approval would de-risk expansion into a $100B+ addressable market across oncology and autoimmune disease.",
       "tickers_mentioned": [
         "MRNA"
@@ -3302,7 +3302,7 @@
       "source_type": "podcast",
       "source_name": "Monetary Matters with Jack Farley",
       "source_date": "2026-08-26",
-      "summary": "In this episode of 'Other People's Money', Max Weathie interviews Warren Pies, co-founder of 314 Research, to discuss the current macro risks overshadowing the market. They analyze the market structure, seasonal patterns, and the impact of AI on the tech sector. Warren shares his insights on earnings, Fed's potential rate hikes, and the implications for investors. The conversation also touches on the importance of GPU availability and rental rates in the AI space.",
+      "summary": "In this episode of 'Other People's Money', Max Wiethe interviews Warren Pies, co-founder of 314 Research, to discuss the current macro risks overshadowing the market. They analyze the market structure, seasonal patterns, and the impact of AI on the tech sector. Warren shares his insights on earnings, Fed's potential rate hikes, and the implications for investors. The conversation also touches on the importance of GPU availability and rental rates in the AI space.",
       "key_takeaway": "Warren Pies suggests that despite the current macro risks, the AI sector remains a key area for investment, with all roads leading back to AI trades.",
       "tickers_mentioned": [
         "HFGM"
@@ -3444,7 +3444,7 @@
       "source_type": "podcast",
       "source_name": "Monetary Matters with Jack Farley",
       "source_date": "2026-08-24",
-      "summary": "In this episode of 'Monetary Matters with Jack Farley', Max Weethy interviews High-Yield Harry to discuss the current state of the buy side in finance. They explore the impact of AI on junior analysts, the maturation of private equity, and concerns within the private credit sector. The conversation highlights the bifurcated nature of the buy side, with investment bankers currently benefiting from increased M&A activity and stability, while private equity and private credit professionals face challenges in exiting positions and fundraising. The episode also touches on the potential for AI to disrupt traditional roles within finance and the implications for compensation and career progression.",
+      "summary": "In this episode of 'Monetary Matters with Jack Farley', Max Wiethe interviews High-Yield Harry to discuss the current state of the buy side in finance. They explore the impact of AI on junior analysts, the maturation of private equity, and concerns within the private credit sector. The conversation highlights the bifurcated nature of the buy side, with investment bankers currently benefiting from increased M&A activity and stability, while private equity and private credit professionals face challenges in exiting positions and fundraising. The episode also touches on the potential for AI to disrupt traditional roles within finance and the implications for compensation and career progression.",
       "key_takeaway": "The current bifurcated state of the buy side presents opportunities for investment bankers due to increased M&A activity, while private equity and private credit professionals face challenges that may impact their compensation and career progression.",
       "tickers_mentioned": [
         "NVDA"
@@ -3690,7 +3690,7 @@
       "source_type": "podcast",
       "source_name": "Monetary Matters with Jack Farley",
       "source_date": "2026-08-18",
-      "summary": "In this episode of 'Monetary Matters with Jack Farley', Max Weethy interviews Andy Yunnan Way, the founder and managing partner of AUA Private Equity Partners. They discuss the significant role family-run businesses play in the U.S. economy, particularly in the food, beverage, pet wellness, and co-manufacturing sectors, which constitute a $1.3 to $1.4 trillion market opportunity. Andy shares insights from his experience as COO of Goia Foods and how it influenced AUA's strategy. They also explore the importance of authenticity in family businesses, the impact of the internet and social media on consumer preferences, and the future outlook for AUA Private Equity Partners.",
+      "summary": "In this episode of 'Monetary Matters with Jack Farley', Max Wiethe interviews Andy Yunnan Way, the founder and managing partner of AUA Private Equity Partners. They discuss the significant role family-run businesses play in the U.S. economy, particularly in the food, beverage, pet wellness, and co-manufacturing sectors, which constitute a $1.3 to $1.4 trillion market opportunity. Andy shares insights from his experience as COO of Goia Foods and how it influenced AUA's strategy. They also explore the importance of authenticity in family businesses, the impact of the internet and social media on consumer preferences, and the future outlook for AUA Private Equity Partners.",
       "key_takeaway": "AUA Private Equity Partners focuses on operational improvements in family-run businesses within the food, beverage, pet wellness, and co-manufacturing sectors, targeting a $1.3 to $1.4 trillion market opportunity.",
       "tickers_mentioned": [
         "AAPL"
@@ -3837,8 +3837,8 @@
       "source_type": "podcast",
       "source_name": "All-In with Chamath, Jason, Sacks & Friedberg",
       "source_date": "2026-08-13",
-      "summary": "In this episode, Ron Emmanuel, a senior advisor to Bill Clinton and ambassador under President Biden, discusses the future of America in a post-Trump world, focusing on topics such as the economy, inflation, employment, national debt, and the rise of socialism and anti-Semitism. Emmanuel shares insights from his decades of service to America and his views on the importance of progressive policies and effective government.",
-      "key_takeaway": "Ron Emmanuel's investment thesis revolves around the need for progressive policies and effective government execution, which he believes are crucial for America's economic and social stability.",
+      "summary": "In this episode, Rahm Emanuel, a senior advisor to Bill Clinton and ambassador under President Biden, discusses the future of America in a post-Trump world, focusing on topics such as the economy, inflation, employment, national debt, and the rise of socialism and anti-Semitism. Emmanuel shares insights from his decades of service to America and his views on the importance of progressive policies and effective government.",
+      "key_takeaway": "Rahm Emanuel's investment thesis revolves around the need for progressive policies and effective government execution, which he believes are crucial for America's economic and social stability.",
       "tickers_mentioned": [
         "AAPL"
       ],
@@ -3897,7 +3897,7 @@
       "source_type": "podcast",
       "source_name": "The a16z Show",
       "source_date": "2026-08-12",
-      "summary": "In this episode of 'The a16z Show', Anisha Tariah interviews Gary Tan, president and CEO of Wide, on the evolving landscape for startup founders. They discuss the importance of founders following their unique knowledge rather than chasing trends, the transformative impact of AI on coding and company management, and the potential for future startups to be smaller, faster, and more ambitious. Gary also shares insights from his own career, including missed opportunities and the lessons learned from trusting direct experience over consensus.",
+      "summary": "In this episode of 'The a16z Show', Anisha Tariah interviews Garry Tan, president and CEO of Wide, on the evolving landscape for startup founders. They discuss the importance of founders following their unique knowledge rather than chasing trends, the transformative impact of AI on coding and company management, and the potential for future startups to be smaller, faster, and more ambitious. Gary also shares insights from his own career, including missed opportunities and the lessons learned from trusting direct experience over consensus.",
       "key_takeaway": "",
       "tickers_mentioned": [
         "AAPL"
@@ -3957,7 +3957,7 @@
       "source_type": "podcast",
       "source_name": "Dwarkesh Podcast",
       "source_date": "2026-08-11",
-      "summary": "In this episode of the Dwarkesh Podcast, the host interviews Ryan Greenlet, Chief Scientist at Redwood Research, to discuss the concept of recursive self-improvement in AI. They delve into the plausibility of AI quickly advancing to super intelligence levels, the implications for R&D, and the potential risks associated with AI systems that could surpass human expertise. The conversation covers the timeline for AI advancements, the feedback loop in AI R&D, and the societal impacts of fully automating R&D processes.",
+      "summary": "In this episode of the Dwarkesh Podcast, the host interviews Ryan Greenblatt, Chief Scientist at Redwood Research, to discuss the concept of recursive self-improvement in AI. They delve into the plausibility of AI quickly advancing to super intelligence levels, the implications for R&D, and the potential risks associated with AI systems that could surpass human expertise. The conversation covers the timeline for AI advancements, the feedback loop in AI R&D, and the societal impacts of fully automating R&D processes.",
       "key_takeaway": "Investment in AI development and security is crucial to manage the rapid advancements and ensure ethical AI behavior.",
       "tickers_mentioned": [
         "GOOGL",
@@ -3999,8 +3999,8 @@
       "source_type": "podcast",
       "source_name": "Latent Space: The AI Engineer Podcast",
       "source_date": "2026-08-11",
-      "summary": "This episode of Latent Space features an in-depth discussion with Mad McPartlin and Neil Patel from Try Discovery, a protein design startup utilizing AI for drug discovery. The conversation covers the evolution of protein structure prediction, the application of AI in hit discovery and lead optimization, and the potential for AI to revolutionize drug development by making it more precise and less reliant on trial and error. The guests also share their views on the interdisciplinary nature of their work and the impact of AI on attracting talent to the field of biology.",
-      "key_takeaway": "Investing in AI-driven protein design companies like Try Discovery could offer significant returns as these platforms have the potential to disrupt traditional drug discovery, making it more efficient and cost-effective.",
+      "summary": "This episode of Latent Space features an in-depth discussion with Matt McPartlon and Neil Patil from Chai Discovery, a protein design startup utilizing AI for drug discovery. The conversation covers the evolution of protein structure prediction, the application of AI in hit discovery and lead optimization, and the potential for AI to revolutionize drug development by making it more precise and less reliant on trial and error. The guests also share their views on the interdisciplinary nature of their work and the impact of AI on attracting talent to the field of biology.",
+      "key_takeaway": "Investing in AI-driven protein design companies like Chai Discovery could offer significant returns as these platforms have the potential to disrupt traditional drug discovery, making it more efficient and cost-effective.",
       "tickers_mentioned": [
         "AAPL"
       ],
@@ -4147,7 +4147,7 @@
       "source_type": "podcast",
       "source_name": "The a16z Show",
       "source_date": "2026-08-06",
-      "summary": "In this episode of the a16z Show, Elena Burger and Matt Fornstein are joined by Simon Mow, co-founder and CEO of Infrared, to discuss the critical role of open source inference in AI and how it has become infrastructure for AI systems. They delve into the differences between large language models (LLMs) and traditional ML workloads, the economic incentives required to support open source AI models, and the potential for open source models to close the gap with proprietary models. The conversation also touches on model licensing, inference economics, and the future of open AI.",
+      "summary": "In this episode of the a16z Show, Elena Burger and Matt Bornstein are joined by Simon Mow, co-founder and CEO of Infrared, to discuss the critical role of open source inference in AI and how it has become infrastructure for AI systems. They delve into the differences between large language models (LLMs) and traditional ML workloads, the economic incentives required to support open source AI models, and the potential for open source models to close the gap with proprietary models. The conversation also touches on model licensing, inference economics, and the future of open AI.",
       "key_takeaway": "Investing in open source AI infrastructure and models is crucial for enterprises looking to leverage AI capabilities, as it offers a sustainable and collaborative approach to innovation in the field.",
       "tickers_mentioned": [
         "NVDA",
@@ -4168,7 +4168,7 @@
       "source_type": "podcast",
       "source_name": "The a16z Show",
       "source_date": "2026-08-05",
-      "summary": "In this episode of the a16z Show, the focus is on three innovative companies within the a16z portfolio: Ulysses, Marianna Mineroles, and Radiant. Ulysses is developing mission-critical underwater robots for ocean tasks, Marianna Mineroles is applying modern tech to the mineral sector, and Radiant is working on mass-producing nuclear micro-reactors. The discussion delves into the unique challenges and opportunities each company faces in their respective fields, from ocean conservation and infrastructure to modernizing mining practices and nuclear energy solutions.",
+      "summary": "In this episode of the a16z Show, the focus is on three innovative companies within the a16z portfolio: Ulysses, Mariana Minerals, and Radiant. Ulysses is developing mission-critical underwater robots for ocean tasks, Mariana Minerals is applying modern tech to the mineral sector, and Radiant is working on mass-producing nuclear micro-reactors. The discussion delves into the unique challenges and opportunities each company faces in their respective fields, from ocean conservation and infrastructure to modernizing mining practices and nuclear energy solutions.",
       "key_takeaway": "Investing in innovative technologies that address critical challenges in ocean exploration, mineral extraction, and nuclear energy can lead to significant market opportunities and positive societal impacts.",
       "tickers_mentioned": [
         "AAPL"
@@ -4318,7 +4318,7 @@
       "source_type": "podcast",
       "source_name": "The a16z Show",
       "source_date": "2026-08-02",
-      "summary": "In this episode of 'The a16z Show', hosts Sophia Dhu and Sophia Puccini are joined by NYU professor Ruby J. To Low, a designer, cyber ethnographer, and artist, to discuss the impact of AI and technology on digital communities, online identity, and how we communicate. The conversation spans from the nuances of AI perception among Americans to the evolution of online behaviors and the concept of taste in the context of digital consumption. Ruby shares insights on how technology is reshaping our interactions and the need to understand the novel behaviors that have emerged with new digital platforms.",
+      "summary": "In this episode of 'The a16z Show', hosts Sophia Dhu and Sophia Puccini are joined by NYU professor Ruby Thelot, a designer, cyber ethnographer, and artist, to discuss the impact of AI and technology on digital communities, online identity, and how we communicate. The conversation spans from the nuances of AI perception among Americans to the evolution of online behaviors and the concept of taste in the context of digital consumption. Ruby shares insights on how technology is reshaping our interactions and the need to understand the novel behaviors that have emerged with new digital platforms.",
       "key_takeaway": "The evolving digital landscape presents opportunities for investment in AI and technology that can enhance daily life and reshape consumption habits, while also requiring a critical approach to understand and adapt to new cultural norms.",
       "tickers_mentioned": [
         "AAPL",
@@ -4362,7 +4362,7 @@
       "source_type": "podcast",
       "source_name": "The a16z Show",
       "source_date": "2026-08-01",
-      "summary": "In this episode of the a16z Crypto Show, hosts Robert Hackett, Mark Andrewson, and Chris Dixon discuss the significance of regulatory clarity in the cryptocurrency space, focusing on the Clarity Act and its potential impact on blockchain adoption. They explore the implications of stablecoins, tokenized assets, and the future of the internet. The conversation highlights the importance of clear rules to unlock the next phase of blockchain technology and the potential consequences for the United States' global leadership in crypto innovation.",
+      "summary": "In this episode of the a16z Crypto Show, hosts Robert Hackett, Marc Andreessen, and Chris Dixon discuss the significance of regulatory clarity in the cryptocurrency space, focusing on the Clarity Act and its potential impact on blockchain adoption. They explore the implications of stablecoins, tokenized assets, and the future of the internet. The conversation highlights the importance of clear rules to unlock the next phase of blockchain technology and the potential consequences for the United States' global leadership in crypto innovation.",
       "key_takeaway": "Regulatory clarity through acts like the Clarity Act is essential for the next phase of blockchain adoption and could unlock significant investment opportunities in stablecoins and tokenized assets.",
       "tickers_mentioned": [
         "VISA"
@@ -4488,7 +4488,7 @@
       "source_type": "podcast",
       "source_name": "Moonshots with Peter Diamandis",
       "source_date": "2026-07-29",
-      "summary": "This episode delves into the rapidly evolving landscape of artificial intelligence, highlighting its dual nature with both open and closed models, and the imminent potential for Artificial General Intelligence (AGI) within 2-3 years. Key industry figures like Jensen Wong and Dario Amodei weigh in on AI safety, innovation, and accessibility, with new models like Kimi K3 and Claude 5 pushing the boundaries of capability and distribution. The discussion extends beyond technology, exploring AI's profound geopolitical implications, particularly China's strategic use of AI for global influence, and Elon Musk's bold prediction of a post-capitalist world driven by radical abundance.\n\nFrom an investment perspective, the podcast underscores the importance of a balanced approach to AI development, favoring companies that support both open and closed models for cybersecurity and competitive advantage. It also points to significant opportunities in AGI-related technologies, space exploration (driven by SpaceX's cost reductions), and educational technology adapting to an AI-dominated future. Geopolitical awareness is crucial for AI investors, given China's strategic moves, while the democratization of AI through free access models like Kimi K3 signals a broad expansion of the market and potential for rapid innovation.",
+      "summary": "This episode delves into the rapidly evolving landscape of artificial intelligence, highlighting its dual nature with both open and closed models, and the imminent potential for Artificial General Intelligence (AGI) within 2-3 years. Key industry figures like Jensen Huang and Dario Amodei weigh in on AI safety, innovation, and accessibility, with new models like Kimi K3 and Claude 5 pushing the boundaries of capability and distribution. The discussion extends beyond technology, exploring AI's profound geopolitical implications, particularly China's strategic use of AI for global influence, and Elon Musk's bold prediction of a post-capitalist world driven by radical abundance.\n\nFrom an investment perspective, the podcast underscores the importance of a balanced approach to AI development, favoring companies that support both open and closed models for cybersecurity and competitive advantage. It also points to significant opportunities in AGI-related technologies, space exploration (driven by SpaceX's cost reductions), and educational technology adapting to an AI-dominated future. Geopolitical awareness is crucial for AI investors, given China's strategic moves, while the democratization of AI through free access models like Kimi K3 signals a broad expansion of the market and potential for rapid innovation.",
       "key_takeaway": "The accelerating pace of AI development, coupled with advancements in space technology and a shifting geopolitical landscape, creates a multi-faceted investment opportunity in companies fostering balanced AI ecosystems, pioneering AGI, and enabling future abundance.",
       "tickers_mentioned": [
         "NVDA"
@@ -4528,7 +4528,7 @@
       "source_type": "podcast",
       "source_name": "Monetary Matters with Jack Farley",
       "source_date": "2026-07-28",
-      "summary": "In this episode of Monetary Matters with Jack Farley, Max Weethe interviews Luke Groman, President and founder of Forest for the Trees, to discuss the driving forces behind the bond market sell-off and the implications of global debt dynamics. They delve into the supply and demand issues in the bond market, the impact of aging populations on Western economies, and the rising costs of veterans' benefits. Groman also shares his insights on the potential for yield curve control and the increasing demand for gold as a store of value amid geopolitical tensions and economic uncertainty.",
+      "summary": "In this episode of Monetary Matters with Jack Farley, Max Wiethe interviews Luke Groman, President and founder of Forest for the Trees, to discuss the driving forces behind the bond market sell-off and the implications of global debt dynamics. They delve into the supply and demand issues in the bond market, the impact of aging populations on Western economies, and the rising costs of veterans' benefits. Groman also shares his insights on the potential for yield curve control and the increasing demand for gold as a store of value amid geopolitical tensions and economic uncertainty.",
       "key_takeaway": "The bond market is facing significant challenges due to supply and demand imbalances, fiscal pressures, and aging populations, making gold an attractive store of value in the current economic climate.",
       "tickers_mentioned": [
         "AAPL"
@@ -4588,7 +4588,7 @@
       "source_type": "podcast",
       "source_name": "The a16z Show",
       "source_date": "2026-07-27",
-      "summary": "In this episode, Steven Sinoffski discusses the premature nature of AI regulation, the importance of open-source models in AI, and the competition between the U.S. and China for innovation leadership. He argues that existing laws often cover potential AI-related issues, and that new regulations may be unnecessary. Sinoffski also warns against conflating AI's capabilities with existential threats, emphasizing the need for domain experts to collaborate with AI specialists in creating effective regulations.",
+      "summary": "In this episode, Steven Sinofsky discusses the premature nature of AI regulation, the importance of open-source models in AI, and the competition between the U.S. and China for innovation leadership. He argues that existing laws often cover potential AI-related issues, and that new regulations may be unnecessary. Sinofsky also warns against conflating AI's capabilities with existential threats, emphasizing the need for domain experts to collaborate with AI specialists in creating effective regulations.",
       "key_takeaway": "",
       "tickers_mentioned": [
         "NVDA"
@@ -4648,7 +4648,7 @@
       "source_type": "podcast",
       "source_name": "The a16z Show",
       "source_date": "2026-07-24",
-      "summary": "The podcast discusses the rapid growth of open-source AI models such as Kimi K3 and Quen 3.8, which are challenging the dominance of existing models. The emergence of these models increases choice for consumers and may put pricing pressure on frontier labs, potentially affecting their gross margins. The show also touches on the security benefits of open-source models and the potential for AI to automate AI research. Additionally, there is a discussion on the US government's possible restrictions on Chinese open-source models due to national security concerns.",
+      "summary": "The podcast discusses the rapid growth of open-source AI models such as Kimi K3 and Qwen 3.8, which are challenging the dominance of existing models. The emergence of these models increases choice for consumers and may put pricing pressure on frontier labs, potentially affecting their gross margins. The show also touches on the security benefits of open-source models and the potential for AI to automate AI research. Additionally, there is a discussion on the US government's possible restrictions on Chinese open-source models due to national security concerns.",
       "key_takeaway": "",
       "tickers_mentioned": [
         "AAPL",
@@ -4692,7 +4692,7 @@
       "source_type": "podcast",
       "source_name": "All-In with Chamath, Jason, Sacks & Friedberg",
       "source_date": "2026-07-24",
-      "summary": "In this episode of the All-In podcast, the hosts discuss the recent release of China's moonshot AI's Kimmy K3, an open source model that has sparked debate in the United States about banning Chinese open source models. The conversation covers the performance of Kimmy K3 in comparison to models like Opus 4.8 and GPT 5.6, the potential implications for the US AI industry, and the White House's involvement in the matter. The hosts also touch on the potential for a ban on open source models, the rhetoric around the dangers of open source AI, and the importance of the US developing its own competitive open source models.",
+      "summary": "In this episode of the All-In podcast, the hosts discuss the recent release of China's moonshot AI's Kimi K3, an open source model that has sparked debate in the United States about banning Chinese open source models. The conversation covers the performance of Kimi K3 in comparison to models like Opus 4.8 and GPT 5.6, the potential implications for the US AI industry, and the White House's involvement in the matter. The hosts also touch on the potential for a ban on open source models, the rhetoric around the dangers of open source AI, and the importance of the US developing its own competitive open source models.",
       "key_takeaway": "Investment in US-based AI companies and open source model development could be beneficial due to the potential for bans on Chinese models and the push for US innovation in the AI space.",
       "tickers_mentioned": [
         "AAPL"
@@ -4732,7 +4732,7 @@
       "source_type": "podcast",
       "source_name": "The a16z Show",
       "source_date": "2026-07-23",
-      "summary": "In this episode of the a16z Show, Travis Kelenick discusses his vision for industrial AI and how it's transforming industries such as mining and food production. Kelenick shares his perspective on why bringing AI into the physical world represents a significant opportunity beyond software alone. He also talks about his company's recent $1.7 billion raise and their focus on physical automation. The conversation touches on the importance of building things that people like and the challenges of aligning technology with human interests.",
+      "summary": "In this episode of the a16z Show, Travis Kalanick discusses his vision for industrial AI and how it's transforming industries such as mining and food production. Kelenick shares his perspective on why bringing AI into the physical world represents a significant opportunity beyond software alone. He also talks about his company's recent $1.7 billion raise and their focus on physical automation. The conversation touches on the importance of building things that people like and the challenges of aligning technology with human interests.",
       "key_takeaway": "Industrial AI represents a substantial opportunity to transform physical industries through automation and AI, creating significant value beyond traditional software solutions.",
       "tickers_mentioned": [
         "AAPL"
@@ -4772,7 +4772,7 @@
       "source_type": "podcast",
       "source_name": "Monetary Matters with Jack Farley",
       "source_date": "2026-07-22",
-      "summary": "In this episode of 'Other People's Money,' Max Weathy interviews hedge fund manager Russell Clark on the current state of the housing market, wage inflation, and the speculative nature of the treasuries market. Clark argues for a significant rise in wages to make housing more affordable and posits that the treasuries market is more speculative than the AI trade. The discussion also touches on the impact of tax policies on real estate markets and the potential for private equity and credit markets to face challenges with rising interest rates.",
+      "summary": "In this episode of 'Other People's Money,' Max Wiethe interviews hedge fund manager Russell Clark on the current state of the housing market, wage inflation, and the speculative nature of the treasuries market. Clark argues for a significant rise in wages to make housing more affordable and posits that the treasuries market is more speculative than the AI trade. The discussion also touches on the impact of tax policies on real estate markets and the potential for private equity and credit markets to face challenges with rising interest rates.",
       "key_takeaway": "The current speculative nature of the treasuries market and the potential for a significant rise in interest rates present both risks and opportunities for investors.",
       "tickers_mentioned": [
         "SOYB"
@@ -4895,7 +4895,7 @@
       "source_type": "podcast",
       "source_name": "Moonshots with Peter Diamandis",
       "source_date": "2026-07-19",
-      "summary": "In this emergency podcast, Peter Diamandis and his team discuss the recent release of Kimmy K3, the largest op-weight model ever, and its implications for the AI industry. They analyze the competitive landscape between the US and China in AI development and the potential for US government strategies to constrain Chinese AI models. The conversation also touches on the importance of frontier intelligence, the advancements in quantization, and the impact of these technologies on entrepreneurship and global accessibility.",
+      "summary": "In this emergency podcast, Peter Diamandis and his team discuss the recent release of Kimi K3, the largest op-weight model ever, and its implications for the AI industry. They analyze the competitive landscape between the US and China in AI development and the potential for US government strategies to constrain Chinese AI models. The conversation also touches on the importance of frontier intelligence, the advancements in quantization, and the impact of these technologies on entrepreneurship and global accessibility.",
       "key_takeaway": "Investment in AI technology is crucial as it becomes a key differentiator in global competitiveness, with a focus on companies advancing AI models and quantization.",
       "tickers_mentioned": [
         "AAPL",
@@ -4965,7 +4965,7 @@
       "source_type": "podcast",
       "source_name": "Moonshots with Peter Diamandis",
       "source_date": "2026-07-17",
-      "summary": "In this episode of Moonshots, Peter Diamandis discusses the latest advancements in AI with Ramine Hassani, co-founder and CEO of Liquid AI. They explore the potential of Inkling, a new model by Miramiradi, the former OpenAI CTO, which focuses on customization over leaderboard dominance. The conversation delves into liquid AI, small language models, and their significance in the market. Ramine shares insights on the mission to build efficient general-purpose AI at every scale, exploring beyond transformers and discussing the architectural design needed for such intelligence. The episode also touches on the importance of regulation in AI, with Demis Hassaba, CEO of DeepMine, advocating for a US-led Frontier AI standards body. Lastly, they discuss a breakthrough in longevity science by Rebel Pharmaceuticals, which demonstrated an engineered enzyme that can reverse the effects of aging by removing advanced glycation end products.",
+      "summary": "In this episode of Moonshots, Peter Diamandis discusses the latest advancements in AI with Ramin Hasani, co-founder and CEO of Liquid AI. They explore the potential of Inkling, a new model by Miramiradi, the former OpenAI CTO, which focuses on customization over leaderboard dominance. The conversation delves into liquid AI, small language models, and their significance in the market. Ramine shares insights on the mission to build efficient general-purpose AI at every scale, exploring beyond transformers and discussing the architectural design needed for such intelligence. The episode also touches on the importance of regulation in AI, with Demis Hassabis, CEO of DeepMind, advocating for a US-led Frontier AI standards body. Lastly, they discuss a breakthrough in longevity science by Rebel Pharmaceuticals, which demonstrated an engineered enzyme that can reverse the effects of aging by removing advanced glycation end products.",
       "key_takeaway": "Investing in AI companies that focus on customization and small language models can provide significant returns as these technologies meet current market demands and have the potential to shape the future of AI.",
       "tickers_mentioned": [
         "AAPL"
@@ -4985,7 +4985,7 @@
       "source_type": "podcast",
       "source_name": "The a16z Show",
       "source_date": "2026-07-16",
-      "summary": "In this episode of the a16z Show, David Sachs joins Mark Anderson, Ben Horowitz, and others to discuss the intersection of AI, crypto, and policy. They delve into the nuances of AI leadership in Europe, the importance of regulatory clarity for the crypto industry, and the global competition to build the next generation of technology. The conversation touches on permissionless innovation, the balance between open-source and proprietary models, and the implications of policy decisions on the future of AI and crypto.",
+      "summary": "In this episode of the a16z Show, David Sacks joins Marc Andreessen, Ben Horowitz, and others to discuss the intersection of AI, crypto, and policy. They delve into the nuances of AI leadership in Europe, the importance of regulatory clarity for the crypto industry, and the global competition to build the next generation of technology. The conversation touches on permissionless innovation, the balance between open-source and proprietary models, and the implications of policy decisions on the future of AI and crypto.",
       "key_takeaway": "Investing in AI and crypto requires understanding the interplay between technology and policy, with a focus on regulatory clarity and open-source initiatives for long-term competitiveness.",
       "tickers_mentioned": [
         "AAPL",
@@ -5112,7 +5112,7 @@
       "source_type": "podcast",
       "source_name": "Monetary Matters with Jack Farley",
       "source_date": "2026-07-14",
-      "summary": "In this episode of Monetary Matters, host Jack Farley interviews Ben Kulandian, an expert investor and analyst in the semiconductor industry. They discuss the current state of AI and its potential to revolutionize various sectors, including material science and biotech. Kulandian argues against the notion that the current AI boom is a repeat of the dot-com bubble, emphasizing the unique capabilities of AI and semiconductors in creating intelligence and accelerating scientific discoveries. The conversation also touches on investment opportunities within the AI supply chain, with a focus on companies like Nvidia and Apple.",
+      "summary": "In this episode of Monetary Matters, host Jack Farley interviews Ben Pouladian, an expert investor and analyst in the semiconductor industry. They discuss the current state of AI and its potential to revolutionize various sectors, including material science and biotech. Kulandian argues against the notion that the current AI boom is a repeat of the dot-com bubble, emphasizing the unique capabilities of AI and semiconductors in creating intelligence and accelerating scientific discoveries. The conversation also touches on investment opportunities within the AI supply chain, with a focus on companies like Nvidia and Apple.",
       "key_takeaway": "",
       "tickers_mentioned": [
         "NVDA",
@@ -5685,7 +5685,7 @@
       "source_type": "podcast",
       "source_name": "The a16z Show",
       "source_date": "2026-06-29",
-      "summary": "In this episode, Mark Andreessen discusses the transformative potential of AI and its implications for the economy. He emphasizes AI's ability to democratize intelligence but warns of the bifurcation of the economy into rapidly growing 'blue sectors' and stagnating 'red sectors'. Andreessen highlights the challenges posed by regulatory constraints, supply chain bottlenecks, and the need for public sector reform to fully capitalize on AI advancements. The conversation also touches on the U.S.-China competition in AI and the prospects for a re-industrialization movement in the U.S.",
+      "summary": "In this episode, Marc Andreessen discusses the transformative potential of AI and its implications for the economy. He emphasizes AI's ability to democratize intelligence but warns of the bifurcation of the economy into rapidly growing 'blue sectors' and stagnating 'red sectors'. Andreessen highlights the challenges posed by regulatory constraints, supply chain bottlenecks, and the need for public sector reform to fully capitalize on AI advancements. The conversation also touches on the U.S.-China competition in AI and the prospects for a re-industrialization movement in the U.S.",
       "key_takeaway": "",
       "tickers_mentioned": [
         "AAPL",
@@ -6358,11 +6358,11 @@
       "source_type": "podcast",
       "source_name": "All-In with Chamath, Jason, Sacks & Friedberg",
       "source_date": "2026-06-12",
-      "summary": "This podcast episode from 'All-In with Chamath, Jason, Sacks & Friedberg' provides a deep dive into various investment opportunities across different sectors. Key themes include the undervalued potential of MGM, the significant replacement cost advantage of Talent Energy, the upcoming surge in power demand, the high-potential biotech firm Actus Oncology, and the rapid expansion of GEONet's RTK network. The hosts also discuss the importance of long-term vision in investment, the impact of AI on power demand, and the high volatility of the biotech sector.",
+      "summary": "This podcast episode from 'All-In with Chamath, Jason, Sacks & Friedberg' provides a deep dive into various investment opportunities across different sectors. Key themes include the undervalued potential of MGM, the significant replacement cost advantage of Talen Energy, the upcoming surge in power demand, the high-potential biotech firm Actus Oncology, and the rapid expansion of GEONet's RTK network. The hosts also discuss the importance of long-term vision in investment, the impact of AI on power demand, and the high volatility of the biotech sector.",
       "key_takeaway": "",
       "tickers_mentioned": [
         "MGM",
-        "TALENT ENERGY",
+        "TALEN ENERGY",
         "GEONET"
       ],
       "sentiment": "bullish",
@@ -7634,7 +7634,7 @@
       "source_type": "podcast",
       "source_name": "Moonshots with Peter Diamandis",
       "source_date": "2026-05-21",
-      "summary": "This episode discusses Google's aggressive investment in AI infrastructure, the growing capabilities of AI in processing large amounts of data, and the adoption of AI products like Gemini Omni. It also touches on the importance of content verification with Synth ID and the demand for AI hardware as evidenced by Cerberus' record IPO. The podcast highlights the potential of AI to revolutionize sectors like healthcare and education and emphasizes the need for trust and authenticity in AI applications.",
+      "summary": "This episode discusses Google's aggressive investment in AI infrastructure, the growing capabilities of AI in processing large amounts of data, and the adoption of AI products like Gemini Omni. It also touches on the importance of content verification with SynthID and the demand for AI hardware as evidenced by Cerberus' record IPO. The podcast highlights the potential of AI to revolutionize sectors like healthcare and education and emphasizes the need for trust and authenticity in AI applications.",
       "key_takeaway": "Investing in AI infrastructure and multi-modal AI applications presents a significant opportunity as Google and other tech companies continue to expand their capabilities and applications in this space.",
       "tickers_mentioned": [
         "GOOGL"
@@ -7829,7 +7829,7 @@
       "source_type": "podcast",
       "source_name": "Dwarkesh Podcast",
       "source_date": "2026-05-15",
-      "summary": "In this episode, Eric Jeng discusses the development of OffaGo, an AI for playing Go, and its broader implications for AI research and investment strategies. The conversation highlights a significant reduction in compute required to train AI models, the importance of understanding decision-making processes in AI, and the potential for AI to automate research processes. These insights underscore the growing accessibility and efficiency of AI technologies, with potential applications beyond gaming.",
+      "summary": "In this episode, Eric Jeng discusses the development of AlphaGo, an AI for playing Go, and its broader implications for AI research and investment strategies. The conversation highlights a significant reduction in compute required to train AI models, the importance of understanding decision-making processes in AI, and the potential for AI to automate research processes. These insights underscore the growing accessibility and efficiency of AI technologies, with potential applications beyond gaming.",
       "key_takeaway": "",
       "tickers_mentioned": [
         "GOOGL",
@@ -7871,8 +7871,8 @@
       "source_type": "podcast",
       "source_name": "All-In with Chamath, Jason, Sacks & Friedberg",
       "source_date": "2026-05-15",
-      "summary": "This episode of All-In delves into critical global economic and technological shifts. A primary focus is the U.S.-China relationship, advocating for economic entanglement through trade agreements like significant U.S. goods purchases by China, as a strategy to prevent geopolitical conflict, particularly concerning Taiwan. This approach aims to foster a 'multipolar' world where both nations benefit from shared growth.\n\nThe discussion also covers the re-rating of the SaaS market, with major companies now trading at historically low multiples, shifting the industry's focus towards customer success and robust cash flow. Concurrently, AI's transformative impact on software is highlighted, presenting unprecedented efficiency opportunities but also new challenges, such as the rising costs associated with AI token usage. The podcast also warns of the impending El NiAo event, predicting severe global weather patterns that could lead to food shortages and economic instability, particularly in agriculture-dependent regions.",
-      "key_takeaway": "The current investment landscape is defined by the imperative of U.S.-China economic cooperation, a re-rated SaaS market demanding efficiency, the transformative yet costly impact of AI, and the looming threat of climate-driven commodity shocks from El NiAo.",
+      "summary": "This episode of All-In delves into critical global economic and technological shifts. A primary focus is the U.S.-China relationship, advocating for economic entanglement through trade agreements like significant U.S. goods purchases by China, as a strategy to prevent geopolitical conflict, particularly concerning Taiwan. This approach aims to foster a 'multipolar' world where both nations benefit from shared growth.\n\nThe discussion also covers the re-rating of the SaaS market, with major companies now trading at historically low multiples, shifting the industry's focus towards customer success and robust cash flow. Concurrently, AI's transformative impact on software is highlighted, presenting unprecedented efficiency opportunities but also new challenges, such as the rising costs associated with AI token usage. The podcast also warns of the impending El Ni\u00f1o event, predicting severe global weather patterns that could lead to food shortages and economic instability, particularly in agriculture-dependent regions.",
+      "key_takeaway": "The current investment landscape is defined by the imperative of U.S.-China economic cooperation, a re-rated SaaS market demanding efficiency, the transformative yet costly impact of AI, and the looming threat of climate-driven commodity shocks from El Ni\u00f1o.",
       "tickers_mentioned": [
         "NVDA"
       ],
@@ -7955,7 +7955,7 @@
       "source_type": "podcast",
       "source_name": "Monetary Matters with Jack Farley",
       "source_date": "2026-05-13",
-      "summary": "In this episode, Lynn Alden discusses the multi-decade changes in the economy due to the rise of AI, comparing it to the shift in blue-collar manufacturing in the 80s and 90s. Alden highlights the surge in the semiconductor industry due to increased AI spending, the cyclical nature of capex investments by hyperscalers, and the potential growth of stablecoins. Additionally, Alden anticipates the decoupling of Bitcoin from tech stocks and the impact of geopolitical tensions on global oil prices. The episode also touches on the societal and economic consequences of AI as depicted in Alden's new science fiction book.",
+      "summary": "In this episode, Lyn Alden discusses the multi-decade changes in the economy due to the rise of AI, comparing it to the shift in blue-collar manufacturing in the 80s and 90s. Alden highlights the surge in the semiconductor industry due to increased AI spending, the cyclical nature of capex investments by hyperscalers, and the potential growth of stablecoins. Additionally, Alden anticipates the decoupling of Bitcoin from tech stocks and the impact of geopolitical tensions on global oil prices. The episode also touches on the societal and economic consequences of AI as depicted in Alden's new science fiction book.",
       "key_takeaway": "",
       "tickers_mentioned": [
         "MSFT",
@@ -8253,7 +8253,7 @@
       "source_type": "podcast",
       "source_name": "Moonshots with Peter Diamandis",
       "source_date": "2026-05-07",
-      "summary": "This podcast episode delves into the future of AI, robotics, and their implications on employment and corporate governance. Demis Abbas suggests that AGI might evolve gradually rather than requiring a major breakthrough. The discussion also touches on ambitious production goals for humanoid robots, a new compensation model for CEOs, the evolving legal landscape around AI employment, the rise of GLP-1 drugs, ambient AI experiences, digital twins, and AI coaching, and the potential of de-extinction efforts.",
+      "summary": "This podcast episode delves into the future of AI, robotics, and their implications on employment and corporate governance. Demis Hassabis suggests that AGI might evolve gradually rather than requiring a major breakthrough. The discussion also touches on ambitious production goals for humanoid robots, a new compensation model for CEOs, the evolving legal landscape around AI employment, the rise of GLP-1 drugs, ambient AI experiences, digital twins, and AI coaching, and the potential of de-extinction efforts.",
       "key_takeaway": "",
       "tickers_mentioned": [
         "AAPL",
@@ -8472,7 +8472,7 @@
       "source_type": "podcast",
       "source_name": "Monetary Matters with Jack Farley",
       "source_date": "2026-05-01",
-      "summary": "In this episode of Monetary Matters, hosts Jack Farley and Max Weethy discuss the implications of Jay Powell's decision to stay on as Fed Chairman, the changing dynamics of the Federal Reserve, and the impact of oil shocks on interest rates and inflation. They also analyze earnings reports from major tech companies and consider investment strategies in the face of ongoing geopolitical tensions and supply disruptions.",
+      "summary": "In this episode of Monetary Matters, hosts Jack Farley and Max Wiethe discuss the implications of Jay Powell's decision to stay on as Fed Chairman, the changing dynamics of the Federal Reserve, and the impact of oil shocks on interest rates and inflation. They also analyze earnings reports from major tech companies and consider investment strategies in the face of ongoing geopolitical tensions and supply disruptions.",
       "key_takeaway": "In an environment of protracted conflict and supply chain disruptions, commodities, particularly oil, are expected to remain elevated, with interest rates trending higher.",
       "tickers_mentioned": [
         "DBC",
@@ -8534,7 +8534,7 @@
       "source_type": "podcast",
       "source_name": "Monetary Matters with Jack Farley",
       "source_date": "2026-04-30",
-      "summary": "In this episode of Monetary Matters, Jack Farley and Max Weathy interview Moes Cassam, CIO of Anson Funds, to discuss the current investment landscape. Moes shares his insights on the opportunities arising from market chaos, particularly focusing on the potential of SpaceX's IPO and the cannabis industry following recent de-scheduling. The conversation also touches on the AI and semiconductor sectors, the wine market, and private credit. Moes emphasizes the importance of understanding market mechanics and capital movements to identify investment opportunities.",
+      "summary": "In this episode of Monetary Matters, Jack Farley and Max Wiethe interview Moez Kassam, CIO of Anson Funds, to discuss the current investment landscape. Moes shares his insights on the opportunities arising from market chaos, particularly focusing on the potential of SpaceX's IPO and the cannabis industry following recent de-scheduling. The conversation also touches on the AI and semiconductor sectors, the wine market, and private credit. Moes emphasizes the importance of understanding market mechanics and capital movements to identify investment opportunities.",
       "key_takeaway": "",
       "tickers_mentioned": [
         "SPACEX"
@@ -8619,7 +8619,7 @@
       "source_type": "podcast",
       "source_name": "Monetary Matters with Jack Farley",
       "source_date": "2026-04-29",
-      "summary": "In this episode of Monetary Matters with Jack Farley, Max Weathie interviews Keer Kavanaugh, the founder and CIO of Old Farm Partners, a New York-based fund of funds. They discuss Kavanaugh's experience at Soros Fund Management, his co-investment strategy with hedge funds, and his approach to manager due diligence and sourcing managers. The conversation also touches on the current investment focus on AI CapEx, the risks involved in the market, and Kavanaugh's views on the hedge fund industry and allocators.",
+      "summary": "In this episode of Monetary Matters with Jack Farley, Max Wiethe interviews Keer Kavanaugh, the founder and CIO of Old Farm Partners, a New York-based fund of funds. They discuss Kavanaugh's experience at Soros Fund Management, his co-investment strategy with hedge funds, and his approach to manager due diligence and sourcing managers. The conversation also touches on the current investment focus on AI CapEx, the risks involved in the market, and Kavanaugh's views on the hedge fund industry and allocators.",
       "key_takeaway": "Investing in AI CapEx is currently the main focus, with co-investments in hedge funds providing a successful strategy for capturing high returns.",
       "tickers_mentioned": [
         "AAPL"
@@ -8794,7 +8794,7 @@
       "source_type": "podcast",
       "source_name": "The a16z Show",
       "source_date": "2026-04-23",
-      "summary": "In this episode of the a16z Show, the focus is on the shifting leverage across AI, hardware, and pharma industries. The discussion covers the significant investment made by the world's richest individuals in a single deal, the potential market cap up for grabs, and the surprising lack of startups in certain areas. The conversation delves into the economic aspects of AI, including who captures the value, pricing, and bottlenecks. It also touches on the increasing necessity of new approaches like photonic computing and specialized hardware due to the rising cost of compute power. The episode features an interview with Martin Schrelli, an American investor and businessman, who shares his insights on the ecosystem, the monetization potential of AI companies, and the challenges faced by traditional tech giants.",
+      "summary": "In this episode of the a16z Show, the focus is on the shifting leverage across AI, hardware, and pharma industries. The discussion covers the significant investment made by the world's richest individuals in a single deal, the potential market cap up for grabs, and the surprising lack of startups in certain areas. The conversation delves into the economic aspects of AI, including who captures the value, pricing, and bottlenecks. It also touches on the increasing necessity of new approaches like photonic computing and specialized hardware due to the rising cost of compute power. The episode features an interview with Martin Shkreli, an American investor and businessman, who shares his insights on the ecosystem, the monetization potential of AI companies, and the challenges faced by traditional tech giants.",
       "key_takeaway": "Investing in AI, hardware, and pharma presents significant opportunities due to the large market cap potential and the need for innovation in computing.",
       "tickers_mentioned": [
         "NVDA"
@@ -8814,7 +8814,7 @@
       "source_type": "podcast",
       "source_name": "MacroVoices",
       "source_date": "2026-04-23",
-      "summary": "In this episode of MacroVoices, hosts Eric Townsend and Patrick Suresne discuss the Iran conflict's impact on energy markets and secular inflation with Saxo Bank's Chief Commodity Strategist, Ole Hansen. They analyze the ripple effects on refined products, commodity inputs, and food inflation. The discussion also covers the potential for extreme backwardation in crude oil and the implications for trading strategies. Additionally, they touch on the broader outlook for commodity cycles, including fertilizer shortages and supply constraints across metals and agriculture.",
+      "summary": "In this episode of MacroVoices, hosts Erik Townsend and Patrick Ceresna discuss the Iran conflict's impact on energy markets and secular inflation with Saxo Bank's Chief Commodity Strategist, Ole Hansen. They analyze the ripple effects on refined products, commodity inputs, and food inflation. The discussion also covers the potential for extreme backwardation in crude oil and the implications for trading strategies. Additionally, they touch on the broader outlook for commodity cycles, including fertilizer shortages and supply constraints across metals and agriculture.",
       "key_takeaway": "The Iran conflict and energy market disruptions present opportunities in commodities, particularly in the context of extreme backwardation and supply constraints, which could drive further price increases and investment returns.",
       "tickers_mentioned": [
         "WTI CRUDE OIL",
@@ -8907,7 +8907,7 @@
       "source_type": "podcast",
       "source_name": "The a16z Show",
       "source_date": "2026-04-21",
-      "summary": "The a16z Show podcast discusses the evolution of media from centralized to social platforms, examining how this shift has accelerated the cycle of news and controversy, and how it impacts politics, culture, and decision-making. The conversation with Mark Andrewson, co-founder and general partner at E16Z, delves into the history of CNN and its concept of 'randomonium', the impact of 24-hour news on society, and the potential for an internet-native president.",
+      "summary": "The a16z Show podcast discusses the evolution of media from centralized to social platforms, examining how this shift has accelerated the cycle of news and controversy, and how it impacts politics, culture, and decision-making. The conversation with Marc Andreessen, co-founder and general partner at E16Z, delves into the history of CNN and its concept of 'randomonium', the impact of 24-hour news on society, and the potential for an internet-native president.",
       "key_takeaway": "Investing in media and understanding its evolution is crucial as it shapes societal behavior, influences politics, and impacts decision-making processes.",
       "tickers_mentioned": [
         "AAPL",
@@ -8931,7 +8931,7 @@
       "source_type": "podcast",
       "source_name": "The a16z Show",
       "source_date": "2026-04-20",
-      "summary": "In this episode of the a16z Show, Matt Borenstein, general partner at a16z, interviews Scott Chacon, co-founder of GitHub and CEO of Git Butler. They discuss the evolution of software development tools, the challenges posed by AI and coding agents, and the future of platforms like GitHub. Chacon shares his insights on the importance of communication in software development and the potential for new tools to enhance collaboration and efficiency.",
+      "summary": "In this episode of the a16z Show, Matt Bornstein, general partner at a16z, interviews Scott Chacon, co-founder of GitHub and CEO of Git Butler. They discuss the evolution of software development tools, the challenges posed by AI and coding agents, and the future of platforms like GitHub. Chacon shares his insights on the importance of communication in software development and the potential for new tools to enhance collaboration and efficiency.",
       "key_takeaway": "Investing in the evolution of software development tools that cater to the needs of both human developers and AI coding agents presents an opportunity for significant growth and innovation.",
       "tickers_mentioned": [
         "MSFT",
@@ -9109,7 +9109,7 @@
       "source_type": "podcast",
       "source_name": "MacroVoices",
       "source_date": "2026-04-16",
-      "summary": "In this episode of Macro Voices, hosts Eric Townsend and Patrick Suresne discuss the Iran crisis, its implications for inflation, and potential market shifts. They are joined by Luke Groman of Forest for the Trees, who provides insights on the escalating risks around the Strait of Hormuz and potential non-linear breaks in global logistics. Additionally, Rory Johnson of Commodity Context offers an update on the Iran crisis and its impact on global energy markets. The episode also covers Patrick's trade of the week, focusing on positioning in bonds for inflation risk and potential growth slowdown.",
+      "summary": "In this episode of Macro Voices, hosts Erik Townsend and Patrick Ceresna discuss the Iran crisis, its implications for inflation, and potential market shifts. They are joined by Luke Groman of Forest for the Trees, who provides insights on the escalating risks around the Strait of Hormuz and potential non-linear breaks in global logistics. Additionally, Rory Johnston of Commodity Context offers an update on the Iran crisis and its impact on global energy markets. The episode also covers Patrick's trade of the week, focusing on positioning in bonds for inflation risk and potential growth slowdown.",
       "key_takeaway": "",
       "tickers_mentioned": [
         "SPX",
@@ -9131,7 +9131,7 @@
       "source_type": "podcast",
       "source_name": "The a16z Show",
       "source_date": "2026-04-15",
-      "summary": "In this episode of 'The a16z Show', the guest, Amjad Masad, CEO of Replet, discusses his journey from being unable to afford a computer to building a billion-dollar company that democratizes coding through AI. Masad shares his vision of transforming the tech industry from a monopoly to a democracy and his refusal to sell his company for a billion dollars, aiming instead for a trillion-dollar valuation. The conversation delves into how Replet's AI agent can produce a working app in under an hour, the importance of communication in building successful apps, and the future of AI in empowering individuals rather than enslaving them.",
+      "summary": "In this episode of 'The a16z Show', the guest, Amjad Masad, CEO of Replit, discusses his journey from being unable to afford a computer to building a billion-dollar company that democratizes coding through AI. Masad shares his vision of transforming the tech industry from a monopoly to a democracy and his refusal to sell his company for a billion dollars, aiming instead for a trillion-dollar valuation. The conversation delves into how Replit's AI agent can produce a working app in under an hour, the importance of communication in building successful apps, and the future of AI in empowering individuals rather than enslaving them.",
       "key_takeaway": "The democratization of coding through AI has the potential to disrupt the tech industry, empowering individuals and creating new opportunities for innovation and growth.",
       "tickers_mentioned": [
         "GOOGL",
@@ -9173,7 +9173,7 @@
       "source_type": "podcast",
       "source_name": "Monetary Matters with Jack Farley",
       "source_date": "2026-04-15",
-      "summary": "In this episode of Monetary Matters with Jack Farley, the discussion revolves around financial repression and fiscal sustainability. The guest, Hano Lustig, a finance professor at Stanford University, explains financial repression as a government strategy to fund itself at below-market rates through various interventions. The conversation delves into historical examples, particularly during wartime, and analyzes the impact of such policies on bondholders and taxpayers. The episode also touches on the regressive nature of financial repression and its implications for intergenerational equity, especially in the context of Japan's debt and the United States' fiscal trajectory.",
+      "summary": "In this episode of Monetary Matters with Jack Farley, the discussion revolves around financial repression and fiscal sustainability. The guest, Hanno Lustig, a finance professor at Stanford University, explains financial repression as a government strategy to fund itself at below-market rates through various interventions. The conversation delves into historical examples, particularly during wartime, and analyzes the impact of such policies on bondholders and taxpayers. The episode also touches on the regressive nature of financial repression and its implications for intergenerational equity, especially in the context of Japan's debt and the United States' fiscal trajectory.",
       "key_takeaway": "Investing in HFGM global macro ETF, which is highly rated by Morningstar, may offer exposure to macroeconomic trends and government policies affecting financial markets.",
       "tickers_mentioned": [
         "HFGM"
@@ -9306,7 +9306,7 @@
       "source_type": "podcast",
       "source_name": "Moonshots with Peter Diamandis",
       "source_date": "2026-04-11",
-      "summary": "In this episode of Moonshots with Peter Diamandis, the focus is on the latest advancements in AI, space technology, and the future of technology in general. The discussion revolves around SpaceX's potential IPO valuation, the progress of Starlink, and the competition between AI companies like Thropic and OpenAI. The podcast aims to provide an optimistic view of the future, discussing the potential for AI to solve complex problems and the significant investment opportunities in deep tech and deep science.",
+      "summary": "In this episode of Moonshots with Peter Diamandis, the focus is on the latest advancements in AI, space technology, and the future of technology in general. The discussion revolves around SpaceX's potential IPO valuation, the progress of Starlink, and the competition between AI companies like Anthropic and OpenAI. The podcast aims to provide an optimistic view of the future, discussing the potential for AI to solve complex problems and the significant investment opportunities in deep tech and deep science.",
       "key_takeaway": "",
       "tickers_mentioned": [
         "TSLA",
@@ -9399,7 +9399,7 @@
       "source_type": "podcast",
       "source_name": "Monetary Matters with Jack Farley",
       "source_date": "2026-04-09",
-      "summary": "In this episode of 'Other People's Money', Max Weathie interviews Ben Topore, founder and managing partner of Titan Capital Partners, a growth equity firm focusing on software markets. They discuss the rapidly shifting software landscape, the importance of understanding the different playbooks for various types of software, and the impact of AI on the industry. Ben also shares insights on investment strategies in growth equity and secondary markets, and the importance of strategic decision-making in competitive landscapes.",
+      "summary": "In this episode of 'Other People's Money', Max Wiethe interviews Ben Topore, founder and managing partner of Titan Capital Partners, a growth equity firm focusing on software markets. They discuss the rapidly shifting software landscape, the importance of understanding the different playbooks for various types of software, and the impact of AI on the industry. Ben also shares insights on investment strategies in growth equity and secondary markets, and the importance of strategic decision-making in competitive landscapes.",
       "key_takeaway": "",
       "tickers_mentioned": [
         "PQT",
@@ -9421,7 +9421,7 @@
       "source_type": "podcast",
       "source_name": "MacroVoices",
       "source_date": "2026-04-09",
-      "summary": "In this episode of Macro Voices, hosts Eric Townsend and Patrick Suresne discuss the impact of geopolitical tensions, particularly the Iran conflict, on global energy and commodity markets. They feature interviews with Adam Rosenswag, co-founder of Garing and Rosenswag, and Jim Bianco, founder of Bianco Research. The conversation covers the physical dislocation in oil markets, the potential implications for food prices and inflation, and the outlook for commodities like uranium and gold. They also analyze the market's reaction to the potential ceasefire and its effects on oil prices and broader market trends.",
+      "summary": "In this episode of Macro Voices, hosts Erik Townsend and Patrick Ceresna discuss the impact of geopolitical tensions, particularly the Iran conflict, on global energy and commodity markets. They feature interviews with Adam Rosenswag, co-founder of Garing and Rosenswag, and Jim Bianco, founder of Bianco Research. The conversation covers the physical dislocation in oil markets, the potential implications for food prices and inflation, and the outlook for commodities like uranium and gold. They also analyze the market's reaction to the potential ceasefire and its effects on oil prices and broader market trends.",
       "key_takeaway": "Investment opportunities may arise from the physical dislocation in energy markets and shifts in energy security, with a focus on commodities like oil, uranium, and gold.",
       "tickers_mentioned": [
         "WTI",
@@ -9585,7 +9585,7 @@
       "source_type": "podcast",
       "source_name": "Monetary Matters with Jack Farley",
       "source_date": "2026-04-07",
-      "summary": "In this episode of 'Other People's Money', host Jack Farley interviews Robert Conexberger, CIO and founder of Grammar C, a multi-billion dollar emerging markets alternative investment manager. They discuss the evolution of emerging markets from the 1980s to today, the recent outperformance of emerging market equities, and the differences in tone between the equity and debt markets. Conexberger shares his insights on finding asymmetry in the China property sector and the importance of primary research in identifying attractive investment opportunities.",
+      "summary": "In this episode of 'Other People's Money', host Jack Farley interviews Robert Koenigsberger, CIO and founder of Gramercy, a multi-billion dollar emerging markets alternative investment manager. They discuss the evolution of emerging markets from the 1980s to today, the recent outperformance of emerging market equities, and the differences in tone between the equity and debt markets. Conexberger shares his insights on finding asymmetry in the China property sector and the importance of primary research in identifying attractive investment opportunities.",
       "key_takeaway": "Investing in select few names within the China property sector can offer significant potential for value appreciation, given the right conditions and primary research.",
       "tickers_mentioned": [
         "PQNT",
@@ -9629,7 +9629,7 @@
       "source_type": "podcast",
       "source_name": "All-In with Chamath, Jason, Sacks & Friedberg",
       "source_date": "2026-04-06",
-      "summary": "In this episode of 'All-In with Chamath, Jason, Sacks & Friedberg', the hosts are joined by Trace Steven and Sean Sankar to discuss the future of defense and technology. They delve into the history of Palantir, the importance of balancing privacy and security, and the strategic implications of the US's position in the global technology and defense landscape. The conversation also touches on the potential risks and opportunities for the US in the coming decades, including the importance of reindustrialization and maintaining technological and military primacy.",
+      "summary": "In this episode of 'All-In with Chamath, Jason, Sacks & Friedberg', the hosts are joined by Trae Stephens and Shyam Sankar to discuss the future of defense and technology. They delve into the history of Palantir, the importance of balancing privacy and security, and the strategic implications of the US's position in the global technology and defense landscape. The conversation also touches on the potential risks and opportunities for the US in the coming decades, including the importance of reindustrialization and maintaining technological and military primacy.",
       "key_takeaway": "Investing in US defense and technology companies that align with maintaining the nation's global primacy and ensuring economic prosperity.",
       "tickers_mentioned": [
         "AAPL",
@@ -9714,7 +9714,7 @@
       "source_type": "podcast",
       "source_name": "The a16z Show",
       "source_date": "2026-04-03",
-      "summary": "In this episode of the a16z Show, Mark Andreason, co-founder and general partner at a16z, discusses the current state of AI and its potential impact on various industries. Andreason argues that the recent advancements in AI are not just a fleeting trend but the result of eight decades of foundational research. He highlights four breakthroughs that have catalyzed AI's progress: large language models, reasoning, agents, and self-improvement. The conversation also touches on the significance of combining language models, unique shells, and file systems to create a powerful software architecture that could shape the future of technology.",
+      "summary": "In this episode of the a16z Show, Marc Andreessen, co-founder and general partner at a16z, discusses the current state of AI and its potential impact on various industries. Andreason argues that the recent advancements in AI are not just a fleeting trend but the result of eight decades of foundational research. He highlights four breakthroughs that have catalyzed AI's progress: large language models, reasoning, agents, and self-improvement. The conversation also touches on the significance of combining language models, unique shells, and file systems to create a powerful software architecture that could shape the future of technology.",
       "key_takeaway": "",
       "tickers_mentioned": [
         "AAPL",
@@ -9782,7 +9782,7 @@
       "source_type": "podcast",
       "source_name": "MacroVoices",
       "source_date": "2026-04-02",
-      "summary": "This episode of Macro Voices features two main discussions: the escalating conflict between the U.S. and Iran, and the implications of artificial intelligence on private credit markets. The hosts, Eric Townsend and Patrick Suresne, dissect President Trump's speech indicating potential military action against Iran's civilian electric power infrastructure, which could escalate the conflict. The first guest, Matt Barry, CEO of Freelancer.com, discusses the impact of AI on the business model and potential market dislocation. The second guest, Dr. Onis Ahaji, provides an in-depth analysis of the geopolitical situation after President Trump's address. The episode also includes Patrick's trade of the week focusing on private credit markets and their relation to public markets.",
+      "summary": "This episode of Macro Voices features two main discussions: the escalating conflict between the U.S. and Iran, and the implications of artificial intelligence on private credit markets. The hosts, Erik Townsend and Patrick Ceresna, dissect President Trump's speech indicating potential military action against Iran's civilian electric power infrastructure, which could escalate the conflict. The first guest, Matt Barry, CEO of Freelancer.com, discusses the impact of AI on the business model and potential market dislocation. The second guest, Dr. Anas Alhajji, provides an in-depth analysis of the geopolitical situation after President Trump's address. The episode also includes Patrick's trade of the week focusing on private credit markets and their relation to public markets.",
       "key_takeaway": "",
       "tickers_mentioned": [
         "SPX",
@@ -9806,7 +9806,7 @@
       "source_type": "podcast",
       "source_name": "The a16z Show",
       "source_date": "2026-04-01",
-      "summary": "In this episode of the a16z Show, A16Z General Partner David Haper interviews Owen Jennings, Executive Officer and Business Lead at Block, to discuss the company's restructuring around AI. Jennings shares insights into Block's decision to cut 40% of its workforce and rebuild around small squads working alongside AI agents. The conversation covers the impact of AI on the company's operations, product development, and future strategy, highlighting the shift from traditional hierarchical structures to more agile, AI-augmented teams.",
+      "summary": "In this episode of the a16z Show, A16Z General Partner David Haber interviews Owen Jennings, Executive Officer and Business Lead at Block, to discuss the company's restructuring around AI. Jennings shares insights into Block's decision to cut 40% of its workforce and rebuild around small squads working alongside AI agents. The conversation covers the impact of AI on the company's operations, product development, and future strategy, highlighting the shift from traditional hierarchical structures to more agile, AI-augmented teams.",
       "key_takeaway": "Investing in companies that understand complex problems and can leverage AI to gain a competitive advantage in their operations and product development.",
       "tickers_mentioned": [
         "SQ"
@@ -9890,7 +9890,7 @@
       "source_type": "podcast",
       "source_name": "The a16z Show",
       "source_date": "2026-03-31",
-      "summary": "The podcast discusses the challenges and innovations in the energy sector, focusing on the limitations of the current grid infrastructure and the need for new solutions. The conversation revolves around the increasing demand for electricity due to data centers, electrified transport, and industrialization, and how new power delivery methods are essential for economic growth and sustainable energy. Guests Doug Burnower, CEO of Radiant, and Andrew Beglinow, CEO of Heron, alongside A16Z General Partner Erin Price Wright, explore the potential of portable nuclear reactors and solid-state power electronics in transforming the grid from the edge.",
+      "summary": "The podcast discusses the challenges and innovations in the energy sector, focusing on the limitations of the current grid infrastructure and the need for new solutions. The conversation revolves around the increasing demand for electricity due to data centers, electrified transport, and industrialization, and how new power delivery methods are essential for economic growth and sustainable energy. Guests Doug Burnower, CEO of Radiant, and Andrew Beglinow, CEO of Heron, alongside A16Z General Partner Erin Price-Wright, explore the potential of portable nuclear reactors and solid-state power electronics in transforming the grid from the edge.",
       "key_takeaway": "Investing in companies that innovate in energy delivery and grid infrastructure can lead to significant returns as the demand for electricity increases and the need for a more efficient and sustainable grid becomes critical.",
       "tickers_mentioned": [
         "TSLA",
@@ -9914,7 +9914,7 @@
       "source_type": "podcast",
       "source_name": "Monetary Matters with Jack Farley",
       "source_date": "2026-03-31",
-      "summary": "In this episode of 'Other People's Money', host Matt interviews Dr. Geo Voliante, a performance coach for top hedge funds and athletes. They discuss the rise of hedge fund pods, the impact of regulation on the industry, and the challenges faced by smaller hedge funds. Dr. Geo emphasizes the importance of culture and environment on performance and compares hedge fund managers to 'investor athletes'. The conversation also touches on the adaptability of markets and hedge funds in the age of AI.",
+      "summary": "In this episode of 'Other People's Money', host Matt interviews Dr. Gio Valiante, a performance coach for top hedge funds and athletes. They discuss the rise of hedge fund pods, the impact of regulation on the industry, and the challenges faced by smaller hedge funds. Dr. Geo emphasizes the importance of culture and environment on performance and compares hedge fund managers to 'investor athletes'. The conversation also touches on the adaptability of markets and hedge funds in the age of AI.",
       "key_takeaway": "Investing in AI-enhanced ETFs like PQNT and PQUS can provide enhanced equity exposure in the current market environment.",
       "tickers_mentioned": [
         "PQNT",
@@ -9935,7 +9935,7 @@
       "source_type": "podcast",
       "source_name": "The a16z Show",
       "source_date": "2026-03-30",
-      "summary": "In this episode of 'The a16z Show', Harry Stebbings interviews Mark Andreessen, co-founder of Andreessen Horowitz (a16z), discussing various aspects of venture capital, the tech industry, and the future of AI. Andreessen shares his views on introspection in business, the centralization of the tech industry, labor displacement myths, and the counterintuitive nature of venture capital where experience can sometimes hinder success. The conversation also touches on the importance of AI's economic value and its impact on users rather than just the companies building it.",
+      "summary": "In this episode of 'The a16z Show', Harry Stebbings interviews Marc Andreessen, co-founder of Andreessen Horowitz (a16z), discussing various aspects of venture capital, the tech industry, and the future of AI. Andreessen shares his views on introspection in business, the centralization of the tech industry, labor displacement myths, and the counterintuitive nature of venture capital where experience can sometimes hinder success. The conversation also touches on the importance of AI's economic value and its impact on users rather than just the companies building it.",
       "key_takeaway": "",
       "tickers_mentioned": [
         "AAPL",
@@ -10179,7 +10179,7 @@
       "source_type": "podcast",
       "source_name": "MacroVoices",
       "source_date": "2026-03-26",
-      "summary": "In this episode of Macro Voices, hosts Eric Townsend and Patrick Suresne discuss the geopolitical situation in Iran, the shift towards a multi-polar world order, and the economic impacts of rising energy prices. They also cover the risks of second-round food inflation and the stresses in emerging markets and private credit. The show features interviews with Lynn Alden, founder of Lynn Alden Investment Strategy, and Michael Every, global strategist for economics and markets at Robo Banks, who provide insights into the Iran conflict and its broader macro implications.",
+      "summary": "In this episode of Macro Voices, hosts Erik Townsend and Patrick Ceresna discuss the geopolitical situation in Iran, the shift towards a multi-polar world order, and the economic impacts of rising energy prices. They also cover the risks of second-round food inflation and the stresses in emerging markets and private credit. The show features interviews with Lyn Alden, founder of Lyn Alden Investment Strategy, and Michael Every, global strategist for economics and markets at Robo Banks, who provide insights into the Iran conflict and its broader macro implications.",
       "key_takeaway": "",
       "tickers_mentioned": [
         "SMP-500",
@@ -10225,7 +10225,7 @@
       "source_type": "podcast",
       "source_name": "Monetary Matters with Jack Farley",
       "source_date": "2026-03-25",
-      "summary": "In this episode of Monetary Matters with Jack Farley, Chief Investment Strategist at Charles Schwab, Liz Ann Saunders, discusses the complexities of the current market environment, highlighting that headline indices are masking underlying stress. Saunders points out the discrepancy between index-level drawdowns and individual stock performance, emphasizing the rotation and churn in the market. The conversation also touches on the impact of oil prices on the economy and markets, with Saunders noting that while the energy sector is poised to benefit, the overall market has not reacted as severely as one might expect given an oil shock. The discussion delves into the nuances of growth and value factors, the differences in index rebalancing, and the potential parallels between the current situation and historical periods like the early 1990s.",
+      "summary": "In this episode of Monetary Matters with Jack Farley, Chief Investment Strategist at Charles Schwab, Liz Ann Sonders, discusses the complexities of the current market environment, highlighting that headline indices are masking underlying stress. Saunders points out the discrepancy between index-level drawdowns and individual stock performance, emphasizing the rotation and churn in the market. The conversation also touches on the impact of oil prices on the economy and markets, with Saunders noting that while the energy sector is poised to benefit, the overall market has not reacted as severely as one might expect given an oil shock. The discussion delves into the nuances of growth and value factors, the differences in index rebalancing, and the potential parallels between the current situation and historical periods like the early 1990s.",
       "key_takeaway": "The market is experiencing underlying stress that is not reflected in headline indices, suggesting a need for a more nuanced approach to investment decisions.",
       "tickers_mentioned": [
         "PQT",
@@ -10269,7 +10269,7 @@
       "source_type": "podcast",
       "source_name": "The a16z Show",
       "source_date": "2026-03-24",
-      "summary": "In this episode of 'The a16z Show', Aaron Price Wright speaks with Adam Warmouth, founder and CEO of Chariot Defense, and Alex Miller, CTO of the US Army, about the growing importance of power systems in modern warfare. They discuss the shift towards an electronic battlefield and the need for a tactical power layer that can support the increasing electronic capabilities of the military without giving away their position or becoming a liability. The conversation covers the inefficiencies of current power solutions and how Chariot Defense is addressing these challenges with innovative power systems that are more intelligent and tactical.",
+      "summary": "In this episode of 'The a16z Show', Erin Price-Wright speaks with Adam Warmouth, founder and CEO of Chariot Defense, and Alex Miller, CTO of the US Army, about the growing importance of power systems in modern warfare. They discuss the shift towards an electronic battlefield and the need for a tactical power layer that can support the increasing electronic capabilities of the military without giving away their position or becoming a liability. The conversation covers the inefficiencies of current power solutions and how Chariot Defense is addressing these challenges with innovative power systems that are more intelligent and tactical.",
       "key_takeaway": "Investing in companies that can provide innovative power solutions for the modern, electronic battlefield can offer significant opportunities as military forces worldwide seek to upgrade their capabilities.",
       "tickers_mentioned": [
         "AAPL",
@@ -10360,7 +10360,7 @@
       "source_type": "podcast",
       "source_name": "All-In with Chamath, Jason, Sacks & Friedberg",
       "source_date": "2026-03-23",
-      "summary": "The podcast features an interview with Michael Intrader, CEO of Core Weave, at Nvidia's GTC conference. The discussion revolves around the evolution of Core Weave, its early foray into crypto mining, and the subsequent expansion into various use cases for GPUs, including CGI rendering, medical research, and neural networks. The conversation also touches on the company's approach to AI, the specialization of AI models, and the potential impact of new energy sources like nuclear power on the industry.",
+      "summary": "The podcast features an interview with Michael Intrator, CEO of CoreWeave, at Nvidia's GTC conference. The discussion revolves around the evolution of CoreWeave, its early foray into crypto mining, and the subsequent expansion into various use cases for GPUs, including CGI rendering, medical research, and neural networks. The conversation also touches on the company's approach to AI, the specialization of AI models, and the potential impact of new energy sources like nuclear power on the industry.",
       "key_takeaway": "",
       "tickers_mentioned": [
         "NVDA"
@@ -10420,7 +10420,7 @@
       "source_type": "podcast",
       "source_name": "Dwarkesh Podcast",
       "source_date": "2026-03-20",
-      "summary": "In this episode, the host interviews Terrence Tau, discussing the historical context of Kepler's discovery of the laws of planetary motion and drawing parallels to the current impact of AI on mathematics. The conversation explores how AI can revolutionize the experimental side of mathematics, the potential for AI to solve complex problems, and the implications for careers in mathematics in light of AI advancements.",
+      "summary": "In this episode, the host interviews Terence Tao, discussing the historical context of Kepler's discovery of the laws of planetary motion and drawing parallels to the current impact of AI on mathematics. The conversation explores how AI can revolutionize the experimental side of mathematics, the potential for AI to solve complex problems, and the implications for careers in mathematics in light of AI advancements.",
       "key_takeaway": "The integration of AI into mathematics can accelerate discovery and problem-solving, presenting opportunities for investment in AI technology and its applications in scientific research.",
       "tickers_mentioned": [
         "AAPL",
@@ -10484,7 +10484,7 @@
       "source_type": "podcast",
       "source_name": "MacroVoices",
       "source_date": "2026-03-19",
-      "summary": "In this episode of Macro Voices, hosts Eric Townsend and Patrick Suresne discuss the market implications of the ongoing Iran conflict and the potential for secular inflation. They are joined by Bloomberg Macro strategist Simon White, who shares insights on the risk of renewed inflation, parallels to 1970s stagflation, and how shifts in commodities, credit, and the yield curve could reshape the macro outlook. Rory Johnston, founder of Commodity Context, provides an additional perspective on the conflict's impact on energy markets, particularly the oil sector.",
+      "summary": "In this episode of Macro Voices, hosts Erik Townsend and Patrick Ceresna discuss the market implications of the ongoing Iran conflict and the potential for secular inflation. They are joined by Bloomberg Macro strategist Simon White, who shares insights on the risk of renewed inflation, parallels to 1970s stagflation, and how shifts in commodities, credit, and the yield curve could reshape the macro outlook. Rory Johnston, founder of Commodity Context, provides an additional perspective on the conflict's impact on energy markets, particularly the oil sector.",
       "key_takeaway": "The ongoing Iran conflict may lead to a secular inflation cycle, with oil prices being a key catalyst.",
       "tickers_mentioned": [
         "S&P 500",
@@ -10549,7 +10549,7 @@
       "source_type": "podcast",
       "source_name": "The a16z Show",
       "source_date": "2026-03-19",
-      "summary": "In this episode of 'The a16z Show', Christian Catalini and Eddie Lazarin discuss the economic implications of AI on work, startups, and ambition. They explore the concept of 'compute arbitrage', the potential for AI to democratize access to resources, and the shift in consensus formation from human-only to a potential machine-human collaboration. The conversation touches on the existential crisis brought about by rapid technological progress and the opportunities for individuals to harness AI for personal and professional growth.",
+      "summary": "In this episode of 'The a16z Show', Christian Catalini and Eddy Lazzarin discuss the economic implications of AI on work, startups, and ambition. They explore the concept of 'compute arbitrage', the potential for AI to democratize access to resources, and the shift in consensus formation from human-only to a potential machine-human collaboration. The conversation touches on the existential crisis brought about by rapid technological progress and the opportunities for individuals to harness AI for personal and professional growth.",
       "key_takeaway": "",
       "tickers_mentioned": [
         "AAPL",
@@ -10573,7 +10573,7 @@
       "source_type": "podcast",
       "source_name": "MacroVoices",
       "source_date": "2026-03-19",
-      "summary": "In this episode of Macrovoisers, hosts Eric Townsend and Patrick Suresne discuss the market implications of the prolonged Iran conflict and the Fed's decision not to cut rates. They analyze the potential for secular inflation, the impact on oil prices, and the broader macroeconomic outlook. The episode features an interview with Bloomberg Macro strategist Simon White, who discusses the risk of renewed inflation and the parallels to 1970s-style stagflation. Additionally, Rory Johnston from Commodity Context provides insights on the Iran conflict's effect on energy markets.",
+      "summary": "In this episode of Macrovoisers, hosts Erik Townsend and Patrick Ceresna discuss the market implications of the prolonged Iran conflict and the Fed's decision not to cut rates. They analyze the potential for secular inflation, the impact on oil prices, and the broader macroeconomic outlook. The episode features an interview with Bloomberg Macro strategist Simon White, who discusses the risk of renewed inflation and the parallels to 1970s-style stagflation. Additionally, Rory Johnston from Commodity Context provides insights on the Iran conflict's effect on energy markets.",
       "key_takeaway": "The Iran conflict could lead to a renewed inflation cycle, affecting commodities and energy markets, with potential second-order effects that markets may currently be underpricing.",
       "tickers_mentioned": [
         "S&P 500",
@@ -10617,7 +10617,7 @@
       "source_type": "podcast",
       "source_name": "The a16z Show",
       "source_date": "2026-03-18",
-      "summary": "In this episode of the a16z Show, the host sits down with Jacob Helbert, Under Secretary of State for Economic Affairs, to discuss the future of the economy, AI, manufacturing, supply chains, and the new geopolitics of technology. Helbert's insights are drawn from his book 'The Wires of War', where he argues that the technology world is in the grips of a two-front geopolitical technology war, with hardware being the decisive battlefield. The conversation covers the importance of AI innovation, the significance of industrial capacity, secure supply chains, and the reindustrialization of the US.",
+      "summary": "In this episode of the a16z Show, the host sits down with Jacob Helberg, Under Secretary of State for Economic Affairs, to discuss the future of the economy, AI, manufacturing, supply chains, and the new geopolitics of technology. Helbert's insights are drawn from his book 'The Wires of War', where he argues that the technology world is in the grips of a two-front geopolitical technology war, with hardware being the decisive battlefield. The conversation covers the importance of AI innovation, the significance of industrial capacity, secure supply chains, and the reindustrialization of the US.",
       "key_takeaway": "",
       "tickers_mentioned": [
         "AAPL",
@@ -10840,7 +10840,7 @@
       "source_type": "podcast",
       "source_name": "Monetary Matters with Jack Farley",
       "source_date": "2026-03-15",
-      "summary": "In this episode of Monetary Matters, host Jack Farley interviews Alex Gorovich, founder and CIO at Hauntay Asset Management and author of 'The Next Perfect Trade: The Magic Sword of Necessity'. They discuss Gorovich's views on palladium and platinum, precious metals, and their cycles. Gorovich shares his insights on the volatility of precious metals, the difficulty in pinpointing their value, and their correlation with real rates and economic performance. Additionally, they touch upon the potential for inflation due to government stimulus and the impact of AI on productivity and deficits. Gorovich also reflects on his past predictions and their outcomes, providing a retrospective on his investment strategies.",
+      "summary": "In this episode of Monetary Matters, host Jack Farley interviews Alex Gurevich, founder and CIO at HonTe Investments and author of 'The Next Perfect Trade: The Magic Sword of Necessity'. They discuss Gorovich's views on palladium and platinum, precious metals, and their cycles. Gorovich shares his insights on the volatility of precious metals, the difficulty in pinpointing their value, and their correlation with real rates and economic performance. Additionally, they touch upon the potential for inflation due to government stimulus and the impact of AI on productivity and deficits. Gorovich also reflects on his past predictions and their outcomes, providing a retrospective on his investment strategies.",
       "key_takeaway": "",
       "tickers_mentioned": [
         "PLTM",
@@ -10862,7 +10862,7 @@
       "source_type": "podcast",
       "source_name": "Monetary Matters with Jack Farley",
       "source_date": "2026-03-15",
-      "summary": "In this episode of Monetary Matters, host Jack Farley interviews Roy Johnson of Commodity Context, a top independent oil and energy analyst. They discuss the current geopolitical crisis and its impact on oil markets, particularly the Iran oil shock. Johnson emphasizes the protracted nature of the crisis and its potential to disrupt the global economy if the flow of oil through the Strait of Hormuz does not normalize. The conversation covers the potential for a price spike in oil, the role of the United States and President Trump in de-escalation, and the implications for the global oil market.",
+      "summary": "In this episode of Monetary Matters, host Jack Farley interviews Rory Johnston of Commodity Context, a top independent oil and energy analyst. They discuss the current geopolitical crisis and its impact on oil markets, particularly the Iran oil shock. Johnson emphasizes the protracted nature of the crisis and its potential to disrupt the global economy if the flow of oil through the Strait of Hormuz does not normalize. The conversation covers the potential for a price spike in oil, the role of the United States and President Trump in de-escalation, and the implications for the global oil market.",
       "key_takeaway": "The ongoing geopolitical crisis in the Middle East, particularly the situation around the Strait of Hormuz, presents a significant risk to global oil supply and prices, potentially leading to a sustained increase in oil prices.",
       "tickers_mentioned": [
         "AAPL",
@@ -10982,7 +10982,7 @@
       "source_type": "podcast",
       "source_name": "MacroVoices",
       "source_date": "2026-03-12",
-      "summary": "In this episode of Macro Voices, hosts Eric Townsend and Patrick Suresne discuss a range of topics from the geopolitical situation in Iran to oil prices, precious metals, and the broader market implications. They feature interviews with Jim Bianco, founder of Bianco Research, and Dr. Onus Alhajji, who provides insights into the ongoing conflict and its impact on oil markets. The episode also includes a discussion on hedging portfolio tail risks and a post-game chart deck analysis.",
+      "summary": "In this episode of Macro Voices, hosts Erik Townsend and Patrick Ceresna discuss a range of topics from the geopolitical situation in Iran to oil prices, precious metals, and the broader market implications. They feature interviews with Jim Bianco, founder of Bianco Research, and Dr. Anas Alhajji, who provides insights into the ongoing conflict and its impact on oil markets. The episode also includes a discussion on hedging portfolio tail risks and a post-game chart deck analysis.",
       "key_takeaway": "The current geopolitical tensions, particularly in Iran, are creating significant market volatility, especially in oil prices, which presents both risks and opportunities for investors.",
       "tickers_mentioned": [
         "S&P 500",
@@ -11007,7 +11007,7 @@
       "source_type": "podcast",
       "source_name": "The a16z Show",
       "source_date": "2026-03-12",
-      "summary": "In this episode of the a16z Show, Alex Carp, co-founder and CEO of Palantir, discusses the critical role of technology in modern warfare and the importance of maintaining American military superiority. Carp argues that Silicon Valley's belief in operating outside of geopolitics is a fallacy and that AI companies must collaborate with the defense establishment to prevent nationalization. He also touches on the broader implications of technology on society, including the protection of individual rights and the potential for technology to exacerbate wealth inequality.",
+      "summary": "In this episode of the a16z Show, Alex Karp, co-founder and CEO of Palantir, discusses the critical role of technology in modern warfare and the importance of maintaining American military superiority. Carp argues that Silicon Valley's belief in operating outside of geopolitics is a fallacy and that AI companies must collaborate with the defense establishment to prevent nationalization. He also touches on the broader implications of technology on society, including the protection of individual rights and the potential for technology to exacerbate wealth inequality.",
       "key_takeaway": "Investing in companies that leverage technology to enhance national defense and security could yield significant returns, especially if they align with the interests of the defense establishment.",
       "tickers_mentioned": [
         "PLTR"
@@ -11051,7 +11051,7 @@
       "source_type": "podcast",
       "source_name": "All-In with Chamath, Jason, Sacks & Friedberg",
       "source_date": "2026-03-11",
-      "summary": "The podcast features a discussion with SEC chair Paul Ackens and CFTC chair Michael Cilig on the evolution of capital markets, the shift from public to private markets, the impact of quarterly reporting on IPOs, and the need for investor education to protect younger investors from potential gambling addictions in financial markets. The conversation touches on the historical context of capital markets, the changing dynamics of public offerings, and the importance of regulatory bodies in safeguarding the integrity of financial systems.",
+      "summary": "The podcast features a discussion with SEC chair Paul Atkins and CFTC chair Michael Selig on the evolution of capital markets, the shift from public to private markets, the impact of quarterly reporting on IPOs, and the need for investor education to protect younger investors from potential gambling addictions in financial markets. The conversation touches on the historical context of capital markets, the changing dynamics of public offerings, and the importance of regulatory bodies in safeguarding the integrity of financial systems.",
       "key_takeaway": "The shift towards private markets and the potential for changing reporting cadence could redefine the landscape for early-stage investment opportunities and public market participation.",
       "tickers_mentioned": [
         "AAPL",
@@ -11144,7 +11144,7 @@
       "source_type": "podcast",
       "source_name": "The a16z Show",
       "source_date": "2026-03-10",
-      "summary": "The podcast discusses the cultural and technological shifts in AI adoption, with a focus on the growth and specialization of AI platforms like Cloud, Chatchee BT, and Gemini. The conversation highlights the increasing divergence of these platforms, their impact on consumer behavior, and the potential for AI to drive cultural changes. The episode also touches on the global data on AI usage, with insights into how different countries are adopting AI and the varying levels of trust in AI across regions. Lastly, the podcast delves into the evolution of creative tools and the role of memory in AI products.",
+      "summary": "The podcast discusses the cultural and technological shifts in AI adoption, with a focus on the growth and specialization of AI platforms like Claude, ChatGPT, and Gemini. The conversation highlights the increasing divergence of these platforms, their impact on consumer behavior, and the potential for AI to drive cultural changes. The episode also touches on the global data on AI usage, with insights into how different countries are adopting AI and the varying levels of trust in AI across regions. Lastly, the podcast delves into the evolution of creative tools and the role of memory in AI products.",
       "key_takeaway": "Investment in AI platforms is driven by their ability to capture user data, create personalized experiences, and expand globally, with a focus on platforms that can leverage AI to create compounding advantages.",
       "tickers_mentioned": [
         ""
@@ -11358,7 +11358,7 @@
       "source_type": "podcast",
       "source_name": "MacroVoices",
       "source_date": "2026-03-05",
-      "summary": "This episode of Macro Voices features an in-depth discussion on the future of nuclear energy, with a focus on the need for revolutionary changes in the industry. Hosts Eric Townsend and Patrick Suresneut interview Matt Lowzack, CEO of Alo Atomics, a company aiming to mass-produce modular nuclear power plants to address the impending global energy crisis. The conversation covers the potential of breeder technology, the importance of modularity for mass production, and the economic and logistical challenges of traditional nuclear power plant construction. Additionally, the hosts discuss market movements influenced by geopolitical tensions, particularly the situation in Iran, and provide insights into various financial instruments.",
+      "summary": "This episode of Macro Voices features an in-depth discussion on the future of nuclear energy, with a focus on the need for revolutionary changes in the industry. Hosts Erik Townsend and Patrick Ceresna interview Matt Loszak, CEO of Alo Atomics, a company aiming to mass-produce modular nuclear power plants to address the impending global energy crisis. The conversation covers the potential of breeder technology, the importance of modularity for mass production, and the economic and logistical challenges of traditional nuclear power plant construction. Additionally, the hosts discuss market movements influenced by geopolitical tensions, particularly the situation in Iran, and provide insights into various financial instruments.",
       "key_takeaway": "",
       "tickers_mentioned": [
         "S&P 500",
@@ -11451,7 +11451,7 @@
       "source_type": "podcast",
       "source_name": "Monetary Matters with Jack Farley",
       "source_date": "2026-03-04",
-      "summary": "In this episode of Monetary Matters, Max Weethy interviews TN Yang, CEO of Variant Perception, to discuss the macro environment and its implications for investment. They delve into the benign macro environment characterized by jobless growth, disinflation, and a synchronized global easing policy. The conversation also touches on the impact of potential energy shocks, the technology race, and the role of gold as a reserve asset. Yang provides insights into less obvious investment opportunities within technology and government consulting, and the strategic allocation to gold and gold miners.",
+      "summary": "In this episode of Monetary Matters, Max Wiethe interviews TN Yang, CEO of Variant Perception, to discuss the macro environment and its implications for investment. They delve into the benign macro environment characterized by jobless growth, disinflation, and a synchronized global easing policy. The conversation also touches on the impact of potential energy shocks, the technology race, and the role of gold as a reserve asset. Yang provides insights into less obvious investment opportunities within technology and government consulting, and the strategic allocation to gold and gold miners.",
       "key_takeaway": "",
       "tickers_mentioned": [
         "XOM",
@@ -11706,7 +11706,7 @@
       "source_type": "podcast",
       "source_name": "All-In with Chamath, Jason, Sacks & Friedberg",
       "source_date": "2026-02-20",
-      "summary": "In this episode, the host explores the Epstein case with three guests, each offering unique insights. Sagar and Jettie from Breaking Points argue that the Epstein case reveals an 'Epstein class' operating above the law. Michael Tracy questions the evidence behind many claims about Epstein and criticizes the media frenzy. Kevin Bassis, a journalist, discusses his findings on connections between Epstein and tech figure Reed Hoffman. The discussion touches on money laundering, the influence of Epstein in financial networks, and the implications for public figures and the tech industry.",
+      "summary": "In this episode, the host explores the Epstein case with three guests, each offering unique insights. Sagar and Jettie from Breaking Points argue that the Epstein case reveals an 'Epstein class' operating above the law. Michael Tracy questions the evidence behind many claims about Epstein and criticizes the media frenzy. Kevin Bassis, a journalist, discusses his findings on connections between Epstein and tech figure Reid Hoffman. The discussion touches on money laundering, the influence of Epstein in financial networks, and the implications for public figures and the tech industry.",
       "key_takeaway": "The Epstein case serves as a reminder of the importance of scrutinizing financial networks and the influence of individuals within them, which can have significant implications for investors.",
       "tickers_mentioned": [
         "BTC-USD",
@@ -12509,7 +12509,7 @@
     {
       "id": 294,
       "term": "Artifacts",
-      "description": "Persistent data storage features in Cloud Code that enhance collaboration among multiple agents.",
+      "description": "Persistent data storage features in Claude Code that enhance collaboration among multiple agents.",
       "first_detected_date": "2026-09-29",
       "last_mentioned_date": "2026-10-03",
       "mention_count": 2,
@@ -12576,7 +12576,7 @@
       "first_detected_episode_id": 508,
       "first_detected_speaker": "Ben Horowitz",
       "last_mentioned_episode_id": 512,
-      "last_mentioned_speaker": "Amjag Masad"
+      "last_mentioned_speaker": "Amjad Masad"
     },
     {
       "id": 287,
@@ -12594,7 +12594,7 @@
       "first_detected_episode_id": 508,
       "first_detected_speaker": "Ben Horowitz",
       "last_mentioned_episode_id": 512,
-      "last_mentioned_speaker": "Amjag Masad"
+      "last_mentioned_speaker": "Amjad Masad"
     },
     {
       "id": 106,
@@ -12666,7 +12666,7 @@
       "first_detected_episode_id": 490,
       "first_detected_speaker": "Harley Bassman",
       "last_mentioned_episode_id": 525,
-      "last_mentioned_speaker": "James Elbauer"
+      "last_mentioned_speaker": "James Elbaor"
     },
     {
       "id": 291,
@@ -12682,9 +12682,9 @@
       "archived_date": null,
       "archived_reason": null,
       "first_detected_episode_id": 482,
-      "first_detected_speaker": "Gwen Shotwell, Elon Musk",
+      "first_detected_speaker": "Gwynne Shotwell, Elon Musk",
       "last_mentioned_episode_id": 530,
-      "last_mentioned_speaker": "Kathy Wood"
+      "last_mentioned_speaker": "Cathie Wood"
     },
     {
       "id": 285,
@@ -12808,9 +12808,9 @@
       "archived_date": null,
       "archived_reason": null,
       "first_detected_episode_id": 387,
-      "first_detected_speaker": "Ulysses Founder, Marianna Mineroles Founder, Radiant Founder",
+      "first_detected_speaker": "Ulysses Founder, Mariana Minerals Founder, Radiant Founder",
       "last_mentioned_episode_id": 387,
-      "last_mentioned_speaker": "Ulysses Founder, Marianna Mineroles Founder, Radiant Founder"
+      "last_mentioned_speaker": "Ulysses Founder, Mariana Minerals Founder, Radiant Founder"
     },
     {
       "id": 268,
@@ -12826,7 +12826,7 @@
       "archived_date": null,
       "archived_reason": null,
       "first_detected_episode_id": 384,
-      "first_detected_speaker": "Victor Hagani",
+      "first_detected_speaker": "Victor Haghani",
       "last_mentioned_episode_id": 500,
       "last_mentioned_speaker": "Peter Diamandis (hosts)"
     },
@@ -12862,7 +12862,7 @@
       "archived_date": null,
       "archived_reason": null,
       "first_detected_episode_id": 380,
-      "first_detected_speaker": "Ruby J. To Low",
+      "first_detected_speaker": "Ruby Thelot",
       "last_mentioned_episode_id": 552,
       "last_mentioned_speaker": "Olivia Moore, Josh Elman"
     },
@@ -12880,7 +12880,7 @@
       "archived_date": null,
       "archived_reason": null,
       "first_detected_episode_id": 379,
-      "first_detected_speaker": "Mark Andrewson, Chris Dixon",
+      "first_detected_speaker": "Marc Andreessen, Chris Dixon",
       "last_mentioned_episode_id": 535,
       "last_mentioned_speaker": "Peter Diamandis (hosts)"
     },
@@ -12988,7 +12988,7 @@
       "archived_date": null,
       "archived_reason": null,
       "first_detected_episode_id": 356,
-      "first_detected_speaker": "Alex Wees, Sly Miss Mail, E-Modemoo",
+      "first_detected_speaker": "Alex Wissner-Gross, Salim Ismail, Emad Mostaque",
       "last_mentioned_episode_id": 519,
       "last_mentioned_speaker": "Diogo"
     },
@@ -13006,7 +13006,7 @@
       "archived_date": null,
       "archived_reason": null,
       "first_detected_episode_id": 354,
-      "first_detected_speaker": "Ramine Hassani",
+      "first_detected_speaker": "Ramin Hasani",
       "last_mentioned_episode_id": 550,
       "last_mentioned_speaker": "Richard Socher"
     },
@@ -13114,7 +13114,7 @@
       "archived_date": null,
       "archived_reason": null,
       "first_detected_episode_id": 320,
-      "first_detected_speaker": "Leakwet Ahamed",
+      "first_detected_speaker": "Liaquat Ahamed",
       "last_mentioned_episode_id": 548,
       "last_mentioned_speaker": "Chamath Palihapitiya, Jason Calacanis (hosts)"
     },
@@ -13206,7 +13206,7 @@
       "first_detected_episode_id": 294,
       "first_detected_speaker": "Joseph Krauss",
       "last_mentioned_episode_id": 352,
-      "last_mentioned_speaker": "Andy Beam, Ratha Gomez Bumbarelli"
+      "last_mentioned_speaker": "Andy Beam, Rafael G\u00f3mez-Bombarelli"
     },
     {
       "id": 274,
@@ -13476,7 +13476,7 @@
       "first_detected_episode_id": 255,
       "first_detected_speaker": "Steven Sinofsky",
       "last_mentioned_episode_id": 358,
-      "last_mentioned_speaker": "Clement DeLong"
+      "last_mentioned_speaker": "Clem Delangue"
     },
     {
       "id": 271,
@@ -13566,7 +13566,7 @@
       "first_detected_episode_id": 236,
       "first_detected_speaker": null,
       "last_mentioned_episode_id": 399,
-      "last_mentioned_speaker": "Gary Tan"
+      "last_mentioned_speaker": "Garry Tan"
     },
     {
       "id": 194,
@@ -13588,7 +13588,7 @@
     },
     {
       "id": 195,
-      "term": "Synth ID",
+      "term": "SynthID",
       "description": "A system for verifying the authenticity of AI-generated content, addressing concerns about misinformation and enhancing trust in AI applications.",
       "first_detected_date": "2026-05-21",
       "last_mentioned_date": "2026-10-02",

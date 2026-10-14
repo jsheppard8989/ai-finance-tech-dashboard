@@ -1,5 +1,5 @@
 {
-  "_comment": "Curated text fixes that survive DB re-exports. export_data.py applies each 'summaries' rule to the WHOLE card of any record whose episode_title/title/insight_title contains 'episode_title' (every string field except the title fields: summary, key_takeaway(s), investment_thesis, notable_quotes quote+speaker, Deep Dive overview/episode_evidence/falsification_tracks, ...) in podcast_summaries.json, archive.json and data.js (archive, mainContent, deepDives). 'drop_tickers' removes symbols from tickers_mentioned/key_tickers of matched records. 'global_replacements' are exact swaps applied to every non-title string everywhere (incl. pundits, overton speakers, podcastGuests). 'terms' rules overwrite fields of suggestedTerms entries whose term matches exactly. Replacements are exact substring swaps; once the DB text is fixed they become no-ops. Oct 2026: 'bet' wording swaps (Jared's rule: nothing on the public site is called a bet) live in global_replacements; site_text_sanitize style gate warns on any new ones.",
+  "_comment": "Curated text fixes that survive DB re-exports. export_data.py applies each 'summaries' rule to the WHOLE card of any record whose episode_title/title/insight_title contains 'episode_title' (every string field except the title fields: summary, key_takeaway(s), investment_thesis, notable_quotes quote+speaker, Deep Dive overview/episode_evidence/falsification_tracks, ...) in podcast_summaries.json, archive.json and data.js (archive, mainContent, deepDives). 'drop_tickers' removes symbols from tickers_mentioned/key_tickers of matched records. 'global_replacements' are exact swaps applied to every non-title string everywhere (incl. pundits, overton speakers, podcastGuests). 'terms' rules overwrite fields of suggestedTerms entries whose term matches exactly. Replacements are exact substring swaps; once the DB text is fixed they become no-ops. Oct 2026: 'bet' wording swaps (Jared's rule: nothing on the public site is called a bet) live in global_replacements; site_text_sanitize style gate warns on any new ones. 'name_replacements' (Oct 13 2026 whole-site name sweep) are exact name swaps applied like global_replacements but quote-safe: never inside quotation marks, notable_quotes quote text, transcript-style episode_evidence lines, last_proof_snippet/cite, titles, slugs or URLs. 'drop_tickers' also removes symbols from Deep Dive ticker_analysis.",
   "summaries": [
     {
       "insight_id": 572,
@@ -28,6 +28,10 @@
         [
           "He is still long Nvidia and chip stocks, betting that cheaper compute raises total demand",
           "He is still long Nvidia and chip stocks, on the view that cheaper compute raises total demand"
+        ],
+        [
+          "whether it can ever become a practical compute substrate",
+          "whether it can ever become a practical computing platform"
         ]
       ]
     },
@@ -46,6 +50,18 @@
         [
           "rather than a single macro bet",
           "rather than a single macro call"
+        ],
+        [
+          "which he thinks gives it torque in an environment",
+          "which he thinks gives it outsized upside in an environment"
+        ],
+        [
+          "more about factor rotation than macro timing",
+          "more about rotation between kinds of stocks than about macro timing"
+        ],
+        [
+          "He is arguing for a barbell where",
+          "He is arguing for a two-sided approach where"
         ]
       ]
     },
@@ -56,6 +72,22 @@
         [
           "Davile Agida",
           "Dhaval Adjodah"
+        ],
+        [
+          "is really auto-catalysis unless",
+          "is really auto-catalysis (humans using AI to speed up their own work) unless"
+        ],
+        [
+          "recursively improves models, harnesses, and eventually",
+          "recursively improves models, harnesses (the tooling and prompts wrapped around a model), and eventually"
+        ],
+        [
+          "from variance and reward hacking.",
+          "from random variance and reward hacking (a system gaming its own scoring metric)."
+        ],
+        [
+          "and Amdahl’s law can limit end-to-end speedups",
+          "and Amdahl’s law (the rule that the slowest step caps the overall speedup) can limit end-to-end speedups"
         ]
       ]
     },
@@ -82,6 +114,18 @@
         [
           "potentially to the scale of 1,400 to 12,400 years",
           "potentially to around 1,400 years"
+        ],
+        [
+          "He thinks instrumental convergence-like behaviors already show up",
+          "He thinks power- and resource-seeking behaviors (what researchers call instrumental convergence) already show up"
+        ],
+        [
+          "He also argues deceptive alignment is hard to catch",
+          "He also argues deceptive alignment (a model appearing to follow its goals while hiding different ones) is hard to catch"
+        ],
+        [
+          "current AI systems may have phenomenological experience",
+          "current AI systems may have some form of conscious experience"
         ]
       ]
     },
@@ -96,6 +140,10 @@
         [
           "11labs",
           "ElevenLabs"
+        ],
+        [
+          "rewarding companies with developer-stack moats and proprietary data loops",
+          "rewarding companies that are built into developers' tools and learn from their own usage data"
         ]
       ]
     },
@@ -137,6 +185,14 @@
         [
           "produced over 700 paid-for results and 370 outputs",
           "produced over 700 math results from an unreleased model, about 370 of them claiming to solve or advance major problems"
+        ],
+        [
+          "He notes that Lean verification makes the results “likely correct,”",
+          "He notes that verification in Lean, a formal proof-checking language, makes the results “likely correct,”"
+        ],
+        [
+          "as examples of agent concierge workflows",
+          "as examples of AI agents that handle errands and tasks for users"
         ]
       ]
     },
@@ -147,6 +203,130 @@
         [
           "Andthropic",
           "Anthropic"
+        ]
+      ]
+    },
+    {
+      "insight_id": 573,
+      "episode_title": "Building the Cloud for an Agentic World | AWS CEO Matt Garman",
+      "replacements": [
+        [
+          "more than traditional five-nines durability, and requiring time-boxed permissions rather than broad human IAM roles",
+          "more than traditional 99.999% durability, and requiring time-limited permissions rather than broad human access roles (IAM)"
+        ],
+        [
+          "That points to a new control-plane workload",
+          "That points to a new management-layer (control-plane) workload"
+        ],
+        [
+          "without a human configuring VPCs and roles first",
+          "without a human configuring private networks (VPCs) and roles first"
+        ],
+        [
+          "needing fast startup and low tail latency",
+          "needing fast startup and consistently fast worst-case response times (low tail latency)"
+        ]
+      ]
+    },
+    {
+      "insight_id": 574,
+      "episode_title": "Synthesis Superintelligence: from Semiconductors to Superconductors",
+      "replacements": [
+        [
+          "characterization methods like XRD can provide",
+          "characterization methods like X-ray diffraction (XRD) can provide"
+        ],
+        [
+          "The guests say DFT and related tools",
+          "The guests say DFT (a standard quantum-mechanical simulation method) and related tools"
+        ],
+        [
+          "presented as a forward-deployed engineering business",
+          "presented as an engineering business that embeds its staff on site with customers"
+        ],
+        [
+          "accelerated most by physically grounded RL, instrument intelligence, and lineage-rich experimental data",
+          "accelerated most by AI trained through reinforcement learning on real lab experiments, smarter lab instruments, and experimental data that records how every result was produced"
+        ]
+      ]
+    },
+    {
+      "insight_id": 575,
+      "episode_title": "MacroVoices #553 Brent Johnson: Disparate Housewives",
+      "replacements": [
+        [
+          "The trade desk translated the macro view into a defined-risk CAD expression",
+          "The trade desk translated the macro view into a defined-risk Canadian dollar (CAD) trade"
+        ],
+        [
+          "it can be expressed through cheap convexity while",
+          "it can be expressed through cheap options whose payoff grows as the move extends, while"
+        ]
+      ]
+    },
+    {
+      "insight_id": 576,
+      "episode_title": "Stacy Rasgon: “Demand Is Off The Charts” in Semiconductors",
+      "replacements": [
+        [
+          "especially HBM. He explains that HBM",
+          "especially high-bandwidth memory (HBM). He explains that HBM"
+        ],
+        [
+          "and sees semicap as a key investment vector",
+          "and sees chip-equipment makers (semicap) as a key investment area"
+        ],
+        [
+          "He gives a concrete path for WFE spending",
+          "He gives a concrete path for wafer fab equipment (WFE) spending"
+        ],
+        [
+          "fast money has treated the megacap AI names",
+          "short-term traders have treated the megacap AI names"
+        ],
+        [
+          "neoclouds renting capacity",
+          "newer GPU-rental clouds (neoclouds) renting capacity"
+        ]
+      ]
+    },
+    {
+      "insight_id": 577,
+      "episode_title": "Chips, Memory, and Power | Pat Gelsinger",
+      "replacements": [
+        [
+          "calling HBM \"a hideous memory\"",
+          "calling high-bandwidth memory (HBM) \"a hideous memory\""
+        ],
+        [
+          "He cites guard-banding consuming about 40% of the power envelope",
+          "He cites safety margins (guard-banding) consuming about 40% of the power budget"
+        ]
+      ]
+    },
+    {
+      "insight_id": 578,
+      "episode_title": "Why AlphaFold Didn't Solve Protein Folding",
+      "replacements": [
+        [
+          "and the right inductive biases for each biological task",
+          "and the right built-in modeling assumptions (inductive biases) for each biological task"
+        ],
+        [
+          "mostly reproduced structures deposited in the PDB",
+          "mostly reproduced structures deposited in the Protein Data Bank (PDB)"
+        ],
+        [
+          "if confidence estimates like pLDDT are uncalibrated",
+          "if confidence estimates like AlphaFold's pLDDT score are not calibrated to real accuracy"
+        ],
+        [
+          "such as metagenomic sequences, can still improve",
+          "such as metagenomic sequences (DNA sampled from mixed microbial communities), can still improve"
+        ],
+        [
+          "the real bottleneck in biology AI may not be model scale, but epistemic fit:",
+          "the real bottleneck in biology AI may not be model scale, but fit between the model and the question:"
         ]
       ]
     }
@@ -336,6 +516,432 @@
     [
       "career-dangerous bet: $1B",
       "career-dangerous choice: $1B"
+    ]
+  ],
+  "name_replacements": [
+    [
+      "Amjag Masad",
+      "Amjad Masad"
+    ],
+    [
+      "Ben Kulandian",
+      "Ben Pouladian"
+    ],
+    [
+      "Cloud, Chatchee BT,",
+      "Claude, ChatGPT,"
+    ],
+    [
+      "Chatchee BT",
+      "ChatGPT"
+    ],
+    [
+      "Cloud Code",
+      "Claude Code"
+    ],
+    [
+      "DeepMine",
+      "DeepMind"
+    ],
+    [
+      "Demis Hassaba",
+      "Demis Hassabis"
+    ],
+    [
+      "Demis Abbas",
+      "Demis Hassabis"
+    ],
+    [
+      "Eddie Lazarin",
+      "Eddy Lazzarin"
+    ],
+    [
+      "Eddie Lazzer",
+      "Eddy Lazzarin"
+    ],
+    [
+      "Eric Townsend",
+      "Erik Townsend"
+    ],
+    [
+      "Patrick Suresneut",
+      "Patrick Ceresna"
+    ],
+    [
+      "Patrick Suresne",
+      "Patrick Ceresna"
+    ],
+    [
+      "Freeberg",
+      "Friedberg"
+    ],
+    [
+      "Mark Anderson, Ben Horowitz",
+      "Marc Andreessen, Ben Horowitz"
+    ],
+    [
+      "Mark Andreason",
+      "Marc Andreessen"
+    ],
+    [
+      "Mark Andrewson",
+      "Marc Andreessen"
+    ],
+    [
+      "Mark Andreessen",
+      "Marc Andreessen"
+    ],
+    [
+      "Martin Schrelli",
+      "Martin Shkreli"
+    ],
+    [
+      "Max Weathie",
+      "Max Wiethe"
+    ],
+    [
+      "Max Weathy",
+      "Max Wiethe"
+    ],
+    [
+      "Max Weethe",
+      "Max Wiethe"
+    ],
+    [
+      "Max Weethy",
+      "Max Wiethe"
+    ],
+    [
+      "Replet",
+      "Replit"
+    ],
+    [
+      "Rory Johnson",
+      "Rory Johnston"
+    ],
+    [
+      "Roy Johnson of Commodity Context",
+      "Rory Johnston of Commodity Context"
+    ],
+    [
+      "Sema Amble",
+      "Seema Amble"
+    ],
+    [
+      "Stephen Sinowski",
+      "Steven Sinofsky"
+    ],
+    [
+      "Sinoffski",
+      "Sinofsky"
+    ],
+    [
+      "Synth ID",
+      "SynthID"
+    ],
+    [
+      "Talent Energy",
+      "Talen Energy"
+    ],
+    [
+      "TALENT ENERGY",
+      "TALEN ENERGY"
+    ],
+    [
+      "Travis Kelenick",
+      "Travis Kalanick"
+    ],
+    [
+      "Jack Mallors Show",
+      "Jack Mallers Show"
+    ],
+    [
+      "Jack Malers Show",
+      "Jack Mallers Show"
+    ],
+    [
+      "Jack Mowler Show",
+      "Jack Mallers Show"
+    ],
+    [
+      "Alex Carp",
+      "Alex Karp"
+    ],
+    [
+      "Andre Carpathie's",
+      "Andrej Karpathy's"
+    ],
+    [
+      "Dario Amadeh",
+      "Dario Amodei"
+    ],
+    [
+      "Dave Blondon",
+      "Dave Blundin"
+    ],
+    [
+      "David Sachs",
+      "David Sacks"
+    ],
+    [
+      "Dr. Geo Voliante",
+      "Dr. Gio Valiante"
+    ],
+    [
+      "Dr. Onis Ahaji",
+      "Dr. Anas Alhajji"
+    ],
+    [
+      "Dr. Onus Alhajji",
+      "Dr. Anas Alhajji"
+    ],
+    [
+      "Gwen Shotwell",
+      "Gwynne Shotwell"
+    ],
+    [
+      "Jensen Wong",
+      "Jensen Huang"
+    ],
+    [
+      "Kathy Wood",
+      "Cathie Wood"
+    ],
+    [
+      "Kevin Worsh",
+      "Kevin Warsh"
+    ],
+    [
+      "Lynn Alden",
+      "Lyn Alden"
+    ],
+    [
+      "Liz Ann Saunders",
+      "Liz Ann Sonders"
+    ],
+    [
+      "Matt Fornstein",
+      "Matt Bornstein"
+    ],
+    [
+      "Matt Borenstein",
+      "Matt Bornstein"
+    ],
+    [
+      "Naveen Rau",
+      "Naveen Rao"
+    ],
+    [
+      "Ratha Gomez Bumbarelli",
+      "Rafael Gómez-Bombarelli"
+    ],
+    [
+      "Reed Hoffman",
+      "Reid Hoffman"
+    ],
+    [
+      "Robert Conexberger",
+      "Robert Koenigsberger"
+    ],
+    [
+      "founder of Grammar C,",
+      "founder of Gramercy,"
+    ],
+    [
+      "Ron Emmanuel",
+      "Rahm Emanuel"
+    ],
+    [
+      "Ryan Greenlet",
+      "Ryan Greenblatt"
+    ],
+    [
+      "Sarah Fryer",
+      "Sarah Friar"
+    ],
+    [
+      "Schiller Cape",
+      "Shiller CAPE"
+    ],
+    [
+      "Trace Steven",
+      "Trae Stephens"
+    ],
+    [
+      "Sean Sankar",
+      "Shyam Sankar"
+    ],
+    [
+      "Sergei Brin",
+      "Sergey Brin"
+    ],
+    [
+      "Terrence Tau",
+      "Terence Tao"
+    ],
+    [
+      "Victor Hagani",
+      "Victor Haghani"
+    ],
+    [
+      "Yan LeCun",
+      "Yann LeCun"
+    ],
+    [
+      "Hano Lustig",
+      "Hanno Lustig"
+    ],
+    [
+      "Ali Hamani",
+      "Ali Khamenei"
+    ],
+    [
+      "President Milley's",
+      "President Milei's"
+    ],
+    [
+      "Gary Tan",
+      "Garry Tan"
+    ],
+    [
+      "Leopold Ocean Brenner",
+      "Leopold Aschenbrenner"
+    ],
+    [
+      "Dina Palma-Cormick",
+      "Dina Powell McCormick"
+    ],
+    [
+      "Kimmy K3",
+      "Kimi K3"
+    ],
+    [
+      "Quen 3.8",
+      "Qwen 3.8"
+    ],
+    [
+      "Polymark.",
+      "Polymarket."
+    ],
+    [
+      "Martin Rothblatt",
+      "Martine Rothblatt"
+    ],
+    [
+      "El NiAo",
+      "El Niño"
+    ],
+    [
+      "Grok LPUs",
+      "Groq LPUs"
+    ],
+    [
+      "Marianna Mineroles",
+      "Mariana Minerals"
+    ],
+    [
+      "Alex Wees, Sly Miss Mail, E-Modemoo",
+      "Alex Wissner-Gross, Salim Ismail, Emad Mostaque"
+    ],
+    [
+      "Ruby J. To Low",
+      "Ruby Thelot"
+    ],
+    [
+      "Matt Lowzack",
+      "Matt Loszak"
+    ],
+    [
+      "Leakwet Ahamed",
+      "Liaquat Ahamed"
+    ],
+    [
+      "Michael Intrader",
+      "Michael Intrator"
+    ],
+    [
+      "Core Weave",
+      "CoreWeave"
+    ],
+    [
+      "Clement DeLong",
+      "Clem Delangue"
+    ],
+    [
+      "Clem DeLong",
+      "Clem Delangue"
+    ],
+    [
+      "Ramine Hassani",
+      "Ramin Hasani"
+    ],
+    [
+      "Sri Ram Krishnan",
+      "Sriram Krishnan"
+    ],
+    [
+      "Stefan Bunzel",
+      "Stéphane Bancel"
+    ],
+    [
+      "Erin Price Wright",
+      "Erin Price-Wright"
+    ],
+    [
+      "Aaron Price Wright",
+      "Erin Price-Wright"
+    ],
+    [
+      "David Haper",
+      "David Haber"
+    ],
+    [
+      "Thropic",
+      "Anthropic"
+    ],
+    [
+      "Paul Ackens",
+      "Paul Atkins"
+    ],
+    [
+      "Michael Cilig",
+      "Michael Selig"
+    ],
+    [
+      "Alex Gorovich",
+      "Alex Gurevich"
+    ],
+    [
+      "Hauntay Asset Management",
+      "HonTe Investments"
+    ],
+    [
+      "Mad McPartlin and Neil Patel from Try Discovery",
+      "Matt McPartlon and Neil Patil from Chai Discovery"
+    ],
+    [
+      "Try Discovery",
+      "Chai Discovery"
+    ],
+    [
+      "Moes Cassam",
+      "Moez Kassam"
+    ],
+    [
+      "Moe Cassam",
+      "Moez Kassam"
+    ],
+    [
+      "James Elbauer",
+      "James Elbaor"
+    ],
+    [
+      "Jacob Helbert",
+      "Jacob Helberg"
+    ],
+    [
+      "OffaGo",
+      "AlphaGo"
     ]
   ]
 }
