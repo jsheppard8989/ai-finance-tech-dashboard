@@ -64,7 +64,9 @@
     "Google X's Astro Teller: The $1B Bet No CEO Will Back, Moonshots 3x Cheaper in 16 Yrs, and Clean Water at 1¢/L| EP #300": "Astro Teller",
     "Synthesis Superintelligence: from Semiconductors to Superconductors — Periodic Labs’ Liam Fedus and Ekin Dogus Cubuk": "Liam Fedus and Ekin Doğuş Çubuk",
     "Chips, Memory, and Power | Pat Gelsinger": "Pat Gelsinger",
-    "Building the Cloud for an Agentic World | AWS CEO Matt Garman": "Matt Garman"
+    "Building the Cloud for an Agentic World | AWS CEO Matt Garman": "Matt Garman",
+    "Can AI Break Cryptography? What the Experts Actually Think": "Dan Boneh, Eddy Lazzarin & Justin Thaler",
+    "Dyna-2: General Purpose Physical Agents with Hour-Long Autonomy — Jason Ma, Dyna Robotics": "Jason Ma"
   },
   "insight_guest_by_id": {
     "564": "Alex Atallah & Amjad Masad",
@@ -77,7 +79,9 @@
     "580": "Ben Horowitz",
     "578": "Pushmeet Kohli and Sal Candido",
     "575": "Brent Johnson",
-    "573": "Matt Garman"
+    "573": "Matt Garman",
+    "585": "Dan Boneh, Eddy Lazzarin & Justin Thaler",
+    "586": "Jason Ma"
   },
   "overrides": {
     "Graham Allison": {

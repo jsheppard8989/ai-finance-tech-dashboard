@@ -329,6 +329,50 @@
           "the real bottleneck in biology AI may not be model scale, but fit between the model and the question:"
         ]
       ]
+    },
+    {
+      "insight_id": 585,
+      "episode_title": "Can AI Break Cryptography? What the Experts Actually Think",
+      "replacements": [
+        [
+          "The higher-conviction trade is on security plumbing, not on betting against an entire cryptographic stack.",
+          "The higher-conviction trade is on security plumbing, not on a call against an entire cryptographic stack."
+        ],
+        [
+          "stress crypto agility, post-quantum backups",
+          "stress crypto agility (being able to swap encryption schemes quickly), post-quantum backups"
+        ],
+        [
+          "may first pressure the validation process, not the primitives themselves",
+          "may first pressure the validation process, not the underlying encryption methods themselves"
+        ],
+        [
+          "Hybrid deployments, public-key exposure hygiene, and crypto-agility",
+          "Hybrid deployments, limiting how often public keys are exposed, and crypto-agility"
+        ]
+      ]
+    },
+    {
+      "insight_id": 586,
+      "episode_title": "Dyna-2: General Purpose Physical Agents with Hour-Long Autonomy",
+      "replacements": [
+        [
+          "Dyna’s architecture is betting on a scalable loop",
+          "Dyna’s architecture leans on a scalable loop"
+        ],
+        [
+          "than standard vision-language-action approaches",
+          "than standard vision-language-action (VLA) approaches that map what a robot sees and is told directly to actions"
+        ],
+        [
+          "often on-device/on-prem for dynamic tasks, so Dyna trains large models and distills them for local serving",
+          "often on the robot or at the customer site for dynamic tasks, so Dyna trains large models and compresses (distills) them to run locally"
+        ],
+        [
+          "the first world-action model trained",
+          "the first world-action model (one that predicts how the scene will change as well as what the robot should do) trained"
+        ]
+      ]
     }
   ],
   "terms": [
@@ -516,6 +560,14 @@
     [
       "career-dangerous bet: $1B",
       "career-dangerous choice: $1B"
+    ],
+    [
+      "Dan Bonay",
+      "Dan Boneh"
+    ],
+    [
+      "Justin Daler",
+      "Justin Thaler"
     ]
   ],
   "name_replacements": [
