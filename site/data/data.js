@@ -48075,7 +48075,7 @@ const dashboardData = {
     "transcript_excerpt": null,
     "created_at": "2026-09-12T05:31:44.578602",
     "updated_at": "2026-09-12 10:31:44",
-    "episode_evidence": "Host: Peter Diamandis - \"We've been talking a lot about the need to pace progress to ensure safety.\"\nHost: Alex Weesner - \"Better data produces 12x improvement in compute efficiency.\"",
+    "episode_evidence": "Host: Peter Diamandis - \"We've been talking a lot about the need to pace progress to ensure safety.\"\nHost: Alex Wissner-Gross - \"Better data produces 12x improvement in compute efficiency.\"",
     "falsification_tracks": [
       "A substantial decline in GPU rental prices over a quarter, indicating excess supply or reduced demand.",
       "A low-profile failure of Insilico Medicine's drug candidate in phase three trials, raising skepticism about AI's efficacy in drug discovery.",
@@ -56572,7 +56572,7 @@ const dashboardData = {
     "mention_score_decayed": 0.55,
     "last_main_idea": "The evolving landscape of AI safety and regulation presents both challenges and opportunities for investors, particularly in sectors impacted by AI integration and educational reforms.",
     "last_proof_cite": "Moonshots with Peter Diamandis \u2022 2026-09-17 \u2022 Frontier Labs Want to Slow Down, OpenAI Delays Its 2026 IPO, Anthropic Flags 5 Bioweapon Cases | EP #291",
-    "last_proof_snippet": "Daria Amade, CEO of Enthropic, published a 3,800-word essay titled We Must Pace the Frontier. Three hours later, Sam Elan said, you're right. Monday, President Trump called it a hoax and China called it a cold war trick. Nothing less than a",
+    "last_proof_snippet": "Daria Amade, CEO of Anthropic, published a 3,800-word essay titled We Must Pace the Frontier. Three hours later, Sam Elan said, you're right. Monday, President Trump called it a hoax and China called it a cold war trick. Nothing less than a",
     "supporting_takeaway": "The potential emergence of a safety cartel among AI companies could stifle competition.",
     "grokipedia_url": null,
     "grokipedia_fetched_at": "2026-09-17T23:54:12.886346",
