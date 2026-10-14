@@ -404,7 +404,7 @@
     </div>
 
     <div class="card" id="history-card">
-      <h2>Prior weeks &amp; call status</h2>
+      <h2>Prior weeks &amp; bet status</h2>
       <p class="tagline">Outcomes use the same Affirmative green / Negative red as debater tags above. Contracts resolve based on publicly verifiable facts — official market closes (Yahoo Finance for equities, CoinGecko for crypto), government announcements, election results, or other documented sources cited in each resolution. You can also set status via <code style="font-size:0.75rem;">debate_weekly.py --mark-resolved</code>. Listen controls appear only when that week’s archive MP3 is on the server.</p>
       <div id="history-empty" style="color:#8892b0;font-size:0.85rem;">No prior weeks recorded yet. After the first Friday rollover, history appears here.</div>
       <table class="history-table" id="history-table" style="display:none;">
@@ -424,7 +424,7 @@
   </div>
 
   <script src="./js/common.js"></script>
-  <script src="./data/data.js?v=1791885774"></script>
+  <script src="./data/data.js?v=1791948765"></script>
   <script>
     (function() {
       const data = (typeof dashboardData !== 'undefined') ? dashboardData : null;
@@ -741,7 +741,7 @@
         if (betRow) {
           var bs = (contract && contract.bet_status) ? String(contract.bet_status).toLowerCase() : 'open';
           var exp = contract && contract.expires_rule ? contract.expires_rule : '';
-          betRow.innerHTML = '<span class="bet-status open">Call status: ' + (bs === 'open' ? 'OPEN' : bs.toUpperCase()) + '</span>' +
+          betRow.innerHTML = '<span class="bet-status open">Bet status: ' + (bs === 'open' ? 'OPEN' : bs.toUpperCase()) + '</span>' +
             (exp ? '<span class="pill" style="margin-left:0.5rem;">' + exp.replace(/</g, '&lt;') + '</span>' : '');
         }
 
