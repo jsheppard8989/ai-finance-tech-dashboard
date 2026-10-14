@@ -4612,7 +4612,7 @@ const dashboardData = {
       "source_type": "podcast",
       "source_name": "Monetary Matters with Jack Farley",
       "source_date": "2026-08-26",
-      "summary": "In this episode of Monetary Matters with Jack Farley, Jim Wiederhold, commodity indices product manager at Bloomberg, discusses the current state and future outlook of the commodity complex. Key themes include the impact of AI on metals like copper and silver, the role of energy commodities in production costs, and the potential for extreme price appreciation in certain commodities. The conversation also touches on macroeconomic shifts, such as de-globalization and increased costs of doing business, which are driving up commodity prices. Additionally, Weederhold shares his insights on agricultural commodities and the potential sleeper in the corn market due to fertilizer costs and supply disruptions.",
+      "summary": "In this episode of Monetary Matters with Jack Farley, Jim Wiederhold, commodity indices product manager at Bloomberg, discusses the current state and future outlook of the commodity complex. Key themes include the impact of AI on metals like copper and silver, the role of energy commodities in production costs, and the potential for extreme price appreciation in certain commodities. The conversation also touches on macroeconomic shifts, such as de-globalization and increased costs of doing business, which are driving up commodity prices. Additionally, Wiederhold shares his insights on agricultural commodities and the potential sleeper in the corn market due to fertilizer costs and supply disruptions.",
       "key_takeaway": "The commodity complex is poised for continued price appreciation due to macroeconomic tailwinds, increased production costs, and the impact of AI on demand for certain metals.",
       "tickers_mentioned": [
         "CORN"
@@ -12789,7 +12789,7 @@ const dashboardData = {
       "source_type": "podcast",
       "source_name": "All-In with Chamath, Jason, Sacks & Friedberg",
       "source_date": "2026-03-03",
-      "summary": "In this episode, Ray Dalio discusses the great debt cycle, fiscal and monetary policy issues, and their impact on the global economy. He highlights five big forces that intertwine to shape the economic landscape, including debt, domestic gaps, international great power conflict, technology, and acts of nature. Dahlia provides insights into the U.S. government's finances, the challenges of managing interest rates amidst high debt, and the role of technology in shaping the future of economies. He also touches upon the dynamics of Bitcoin and silver in the context of monetary assets.",
+      "summary": "In this episode, Ray Dalio discusses the great debt cycle, fiscal and monetary policy issues, and their impact on the global economy. He highlights five big forces that intertwine to shape the economic landscape, including debt, domestic gaps, international great power conflict, technology, and acts of nature. Dalio provides insights into the U.S. government's finances, the challenges of managing interest rates amidst high debt, and the role of technology in shaping the future of economies. He also touches upon the dynamics of Bitcoin and silver in the context of monetary assets.",
       "key_takeaway": "The current high debt levels and fiscal policies pose significant risks to the U.S. economy, requiring careful management of interest rates and a balanced approach to financial prudence and innovation.",
       "tickers_mentioned": [],
       "sentiment": "bearish",
@@ -52774,7 +52774,7 @@ const dashboardData = {
     ],
     "catalysts": [
       "Frontier lab disclosures on direct cryptographic attack attempts over the next 6-12 months.",
-      "NIST post-quantum deployment updates and ecosystem migration guidance in 2025-2026.",
+      "NIST post-quantum deployment updates and ecosystem migration guidance.",
       "Public audits or incident reports from exchanges, wallet providers, and protocol teams showing real crypto-agility implementation.",
       "Launches of AI-driven cryptographic testing and continuous code-scanning products over the next 12 months."
     ],
@@ -52789,7 +52789,7 @@ const dashboardData = {
       "By the end of the \"coming months\" window referenced in the discussion, a reproducible practical break against deployed ECC systems does not appear and no major protocol compromise is observed; if that happens, the imminent-break narrative loses force.",
       "If OpenAI or another frontier lab publishes direct cryptanalysis of standardized deployed schemes within 6-12 months and the results show meaningful breaks rather than adjacent math progress, the episode's separation between broad AI progress and direct crypto risk is wrong.",
       "If NIST-backed post-quantum or hybrid deployments fail in real-world pilots by Q4 2026 due to performance, interoperability, or cryptanalytic weakness, the \"backups exist\" premise is materially weakened.",
-      "If major institutions claiming crypto-agility still cannot rotate keys, swap primitives, or enable hybrid modes during a stress test by mid-2026, then the practical resilience thesis is false.",
+      "If major institutions claiming crypto-agility still cannot rotate keys, swap primitives, or enable hybrid modes during a stress test, then the practical resilience thesis is false.",
       "If AI-assisted security scanning does not measurably reduce vulnerability density or time-to-fix across repeated releases over the next 2-3 model generations, the defensive-tooling thesis is not supported."
     ],
     "schema_version": 1,
@@ -58885,7 +58885,7 @@ const dashboardData = {
       "source_url": "",
       "page_title": "Jim Wiederhold",
       "fetched_at": "2026-08-27T03:46:52.004266+00:00",
-      "cliff_notes": "Jim Wiederhold is recognized for his in-depth understanding of commodity indices and market analysis. As a product manager at Bloomberg, he has been instrumental in shaping the discourse around commodities, particularly in the context of technological advancements such as AI and their impact on the demand for metals and energy. His insights into the macroeconomic themes that have been driving commodity prices over the past few years highlight the shift from a low-inflation, low-rate environment to one characterized by increased volatility and changing globalization dynamics. Weederhold's work is crucial for investors and market analysts looking to navigate the complex interplay between technology, commodities, and broader economic trends.",
+      "cliff_notes": "Jim Wiederhold is recognized for his in-depth understanding of commodity indices and market analysis. As a product manager at Bloomberg, he has been instrumental in shaping the discourse around commodities, particularly in the context of technological advancements such as AI and their impact on the demand for metals and energy. His insights into the macroeconomic themes that have been driving commodity prices over the past few years highlight the shift from a low-inflation, low-rate environment to one characterized by increased volatility and changing globalization dynamics. Wiederhold's work is crucial for investors and market analysts looking to navigate the complex interplay between technology, commodities, and broader economic trends.",
       "derived": {
         "current_role": "Commodity Indices Product Manager at Bloomberg"
       },
@@ -58894,7 +58894,7 @@ const dashboardData = {
       },
       "lead_paragraphs": [
         "Jim Wiederhold is recognized for his in-depth understanding of commodity indices and market analysis. As a product manager at Bloomberg, he has been instrumental in shaping the discourse around commodities, particularly in the context of technological advancements such as AI and their impact on the demand for metals and energy.",
-        "His insights into the macroeconomic themes that have been driving commodity prices over the past few years highlight the shift from a low-inflation, low-rate environment to one characterized by increased volatility and changing globalization dynamics. Weederhold's work is crucial for investors and market analysts looking to navigate the complex interplay between technology, commodities, and broader economic trends."
+        "His insights into the macroeconomic themes that have been driving commodity prices over the past few years highlight the shift from a low-inflation, low-rate environment to one characterized by increased volatility and changing globalization dynamics. Wiederhold's work is crucial for investors and market analysts looking to navigate the complex interplay between technology, commodities, and broader economic trends."
       ],
       "sections": [
         {
@@ -58903,7 +58903,7 @@ const dashboardData = {
         },
         {
           "heading": "Market Analysis",
-          "body": "Weederhold's market analysis expertise allows him to identify key drivers in commodity pricing, such as the impact of AI and data center build-outs on the demand for metals and energy."
+          "body": "Wiederhold's market analysis expertise allows him to identify key drivers in commodity pricing, such as the impact of AI and data center build-outs on the demand for metals and energy."
         },
         {
           "heading": "Macroeconomic Trends",
@@ -58911,7 +58911,7 @@ const dashboardData = {
         },
         {
           "heading": "Technology's Role",
-          "body": "Weederhold discusses the significant role that technology plays in commodity markets, particularly in driving demand for certain metals and energy sources due to AI and data processing needs."
+          "body": "Wiederhold discusses the significant role that technology plays in commodity markets, particularly in driving demand for certain metals and energy sources due to AI and data processing needs."
         }
       ]
     },

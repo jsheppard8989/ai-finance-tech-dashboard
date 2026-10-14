@@ -349,6 +349,14 @@
         [
           "Hybrid deployments, public-key exposure hygiene, and crypto-agility",
           "Hybrid deployments, limiting how often public keys are exposed, and crypto-agility"
+        ],
+        [
+          "during a stress test by mid-2026, then",
+          "during a stress test, then"
+        ],
+        [
+          "NIST post-quantum deployment updates and ecosystem migration guidance in 2025-2026.",
+          "NIST post-quantum deployment updates and ecosystem migration guidance."
         ]
       ]
     },
@@ -1002,6 +1010,14 @@
     [
       "Eric Jeng",
       "Eric Jang"
+    ],
+    [
+      "Weederhold",
+      "Wiederhold"
+    ],
+    [
+      "Dahlia provides",
+      "Dalio provides"
     ]
   ]
 }
