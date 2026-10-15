@@ -556,12 +556,29 @@
         }
       }
 
+      // CDT or CST for 12:00 PM America/Chicago on iso (YYYY-MM-DD); 'CT' if unparseable.
+      // Mirrors chicago_tz_abbr() in pipeline/debate_weekly.py.
+      function chicagoTzAbbr(iso) {
+        try {
+          var p = String(iso || '').slice(0, 10).split('-').map(Number);
+          if (p.length !== 3 || p.some(isNaN)) return 'CT';
+          // 18:00 UTC is noon CST / 1 PM CDT: always the same Chicago calendar day, after the 2 AM switch.
+          var d = new Date(Date.UTC(p[0], p[1] - 1, p[2], 18, 0, 0));
+          var part = new Intl.DateTimeFormat('en-US', { timeZone: 'America/Chicago', timeZoneName: 'short' })
+            .formatToParts(d).find(function (x) { return x.type === 'timeZoneName'; });
+          var abbr = part && part.value;
+          return (abbr === 'CDT' || abbr === 'CST') ? abbr : 'CT';
+        } catch (e) {
+          return 'CT';
+        }
+      }
+
       function formatResolvesCell(w) {
         var iso = resolvesIsoFromWeek(w);
         if (!iso) return '—';
         var rule = String((w && w.expires_rule) || '');
         var detailMatch = rule.match(/^Resolves\s+(.+?)\s+\d{4}-\d{2}-\d{2}\s*$/i);
-        var detail = detailMatch ? detailMatch[1] : 'Fri 12:00 PM CST';
+        var detail = detailMatch ? detailMatch[1] : 'Fri 12:00 PM ' + chicagoTzAbbr(iso);
         return (
           '<div class="history-resolves">' +
           '<div class="history-resolves-date">' + formatDate(iso).replace(/</g, '&lt;') + '</div>' +
